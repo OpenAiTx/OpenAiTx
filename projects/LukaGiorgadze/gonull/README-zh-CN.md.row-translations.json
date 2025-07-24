@@ -1,0 +1,746 @@
+[
+  {
+    "row": 1,
+    "rowsha": "J6q0DFY5DbhAvQ1MpmBGL0ENQOPiSUJTsjoVkVUpY5c=",
+    "originContent": "# Go Nullable with Generics",
+    "translatedContent": "<translate-content># 使用泛型实现 Go 的可空类型"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "KUSKqu1lPDkdO8pRHztxUUHrkfbkXUO3B9MmXz0J1t8=",
+    "originContent": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/LukaGiorgadze/gonull)](https://pkg.go.dev/github.com/LukaGiorgadze/gonull) ![go-mod-verify](https://github.com/LukaGiorgadze/gonull/workflows/Go%20mod/badge.svg) ![go-vuln](https://github.com/LukaGiorgadze/gonull/workflows/Security/badge.svg) ![golangci-lint](https://github.com/LukaGiorgadze/gonull/workflows/Linter/badge.svg) [![codecov](https://codecov.io/gh/LukaGiorgadze/gonull/branch/main/graph/badge.svg?token=76089e7b-f137-4459-8eae-4b48007bd0d6)](https://codecov.io/gh/LukaGiorgadze/gonull) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LukaGiorgadze/gonull)",
+    "translatedContent": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/LukaGiorgadze/gonull)](https://pkg.go.dev/github.com/LukaGiorgadze/gonull) ![go-mod-verify](https://github.com/LukaGiorgadze/gonull/workflows/Go%20mod/badge.svg) ![go-vuln](https://github.com/LukaGiorgadze/gonull/workflows/Security/badge.svg) ![golangci-lint](https://github.com/LukaGiorgadze/gonull/workflows/Linter/badge.svg) [![codecov](https://codecov.io/gh/LukaGiorgadze/gonull/branch/main/graph/badge.svg?token=76089e7b-f137-4459-8eae-4b48007bd0d6)](https://codecov.io/gh/LukaGiorgadze/gonull) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LukaGiorgadze/gonull)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "7MltdXdf1E67likhhkNrsFaT1sY5vjO+kOJy8/C8ovA=",
+    "originContent": "## Go package simplifies nullable fields handling with Go Generics.",
+    "translatedContent": "## Go 包通过泛型简化可空字段的处理。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "P48MbaDVetpAODZktaYM4vZF3qrIUplqJQP3ZnsAIiE=",
+    "originContent": "`gonull` is a Go package that provides type-safe handling of nullable values using generics. It's designed to work seamlessly with JSON and SQL operations, making it perfect for web services and database interactions.",
+    "translatedContent": "`gonull` 是一个 Go 包，使用泛型提供类型安全的可空值处理。它设计为与 JSON 和 SQL 操作无缝协作，非常适合 Web 服务和数据库交互。"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 特性"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "lVL3mD26j6O0RkL1AT6LE55Bjt2nmje5bIYUbrXqkfA=",
+    "originContent": "- 🎯 One generic `Nullable[T]` works with **any** type",
+    "translatedContent": "- 🎯 一个泛型 `Nullable[T]` 支持**任何**类型"
+  },
+  {
+    "row": 12,
+    "rowsha": "tqMwgE2Y4uED1khTmGuav5CCrEdRWuDxgFNEchzq6Aw=",
+    "originContent": "- 💡 Omitzero support",
+    "translatedContent": "- 💡 支持 omitzero"
+  },
+  {
+    "row": 13,
+    "rowsha": "Nha+fRgESqWsMfdZn6hg9J7nCUz9pICSHu7MekX7qwM=",
+    "originContent": "- 🔄 Built-in JSON marshaling/unmarshaling",
+    "translatedContent": "- 🔄 内置 JSON 编组/解组功能"
+  },
+  {
+    "row": 14,
+    "rowsha": "zsP6/Rc4YRM7wP0wm0INpb57heDOGjATWXzzoXaMEU4=",
+    "originContent": "- 📊 SQL database compatibility",
+    "translatedContent": "- 📊 兼容 SQL 数据库"
+  },
+  {
+    "row": 15,
+    "rowsha": "q84ZKuciZhR8xdPpI0rNUMmIcvKvreJwec17TaQuAl8=",
+    "originContent": "- 🔢 Handles numeric values returned as strings by SQL drivers",
+    "translatedContent": "- 🔢 处理 SQL 驱动返回的字符串数值"
+  },
+  {
+    "row": 16,
+    "rowsha": "7BZQ4WK8GKDJJOlR5k17AgkYJxmR18v0wNnOuhBCHSo=",
+    "originContent": "- 🧩 Works seamlessly with your own alias or enum types",
+    "translatedContent": "- 🧩 无缝支持自定义别名或枚举类型"
+  },
+  {
+    "row": 17,
+    "rowsha": "O8uF2gFMi+TvXdqwRESuGpX9ao6GoW1qZEwXm5oIwJQ=",
+    "originContent": "- ✨ Zero dependencies",
+    "translatedContent": "- ✨ 零依赖"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "8q+1CRpH1bKT18OuxaBE+gGay9pbqSO48zgCuMVkZjI=",
+    "originContent": "### Why gonull?",
+    "translatedContent": "### 为什么选择 gonull？"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "G/ewM4UkKhPCKtDOV8gMREgjT4jkmHTBYF6UvwIY2dc=",
+    "originContent": "`Nullable[T]` keeps your code concise by using Go generics for any type. You don't need separate wrappers for strings, ints or custom enumerations. Built-in `sql.Scanner` and `json` support make it easy to integrate with databases and APIs.",
+    "translatedContent": "`Nullable[T]` 使用 Go 泛型保持代码简洁，适用于任何类型。无需为字符串、整数或自定义枚举编写单独的包装器。内置的 `sql.Scanner` 和 `json` 支持，使数据库和 API 集成变得简单。"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+    "originContent": "```go",
+    "translatedContent": "```go"
+  },
+  {
+    "row": 24,
+    "rowsha": "xqpsRL9ocRLvs4VXRSYzTHWISvoBiaeyknhSgcN3O90=",
+    "originContent": "type Status string",
+    "translatedContent": "type Status string"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "DbytgPq7qPZw8QPQ0u8mxumiEipedpPciujHHmoS2KM=",
+    "originContent": "type Task struct {",
+    "translatedContent": "type Task struct {"
+  },
+  {
+    "row": 27,
+    "rowsha": "O3w9eYOdoI2cCZ2LT0hRdmUB8zSadMVl/LgydSppEoU=",
+    "originContent": "    ID    int",
+    "translatedContent": "    ID    int"
+  },
+  {
+    "row": 28,
+    "rowsha": "6Pa9N2I1IENmgRLJGmpXvFEcXQnBQaWl08I2o98slOs=",
+    "originContent": "    State gonull.Nullable[Status]",
+    "translatedContent": "    State gonull.Nullable[Status]"
+  },
+  {
+    "row": 29,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 30,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Usage"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 37,
+    "rowsha": "6XORjvVvtlIIt3rEhIxftNdMf535wHpuVrb/6ZKnv9g=",
+    "originContent": "go get github.com/LukaGiorgadze/gonull/v2",
+    "translatedContent": "go get github.com/LukaGiorgadze/gonull/v2"
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<translate-content>"
+  },
+  {
+    "row": 40,
+    "rowsha": "KorJpXpWIw9Fw5RztKxVyVzqNcaVgT948Gq/DaNDk3A=",
+    "originContent": "### Example #1",
+    "translatedContent": "### 示例 #1"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "</translate-content>"
+  },
+  {
+    "row": 42,
+    "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+    "originContent": "```go",
+    "translatedContent": "```go"
+  },
+  {
+    "row": 43,
+    "rowsha": "UShDhV/MkqUcgQsbWOBzHAHqyaaiPBV7+gKq1x7f++c=",
+    "originContent": "package main",
+    "translatedContent": "package main"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "0NrstaoCAUE7YHmPS6R4dGEAwhf7+jXw9blKepsV2RQ=",
+    "originContent": "import (",
+    "translatedContent": "import ("
+  },
+  {
+    "row": 46,
+    "rowsha": "HlNcUYRvnmbtFTovxB3qqD2xbWYTVB98tqg3XuCyjwk=",
+    "originContent": "    \"encoding/json\"",
+    "translatedContent": "    \"encoding/json\""
+  },
+  {
+    "row": 47,
+    "rowsha": "EAPr76oa8fzcs55id5iMP3Yuskg4xmO3RA1CduMJk7w=",
+    "originContent": "    \"fmt\"",
+    "translatedContent": "    \"fmt\""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "rkcSlaTlraBw+pNQMSW5MYDpH/FrmFqgGchMt7touTs=",
+    "originContent": "    \"github.com/LukaGiorgadze/gonull\"",
+    "translatedContent": "    \"github.com/LukaGiorgadze/gonull\""
+  },
+  {
+    "row": 50,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "/fup1hJ2QZahqY8xIZaWApAN4H/TOlRGt6TXR7erOxQ=",
+    "originContent": "type MyCustomInt int",
+    "translatedContent": "type MyCustomInt int"
+  },
+  {
+    "row": 53,
+    "rowsha": "9iFjUlVzju0eqlIKSrBNmnhHZF+OiWmLKvIJ/w3MVq0=",
+    "originContent": "type MyCustomFloat32 float32",
+    "translatedContent": "type MyCustomFloat32 float32"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "R0OevQRUVQDfErc4TNmqlooHm/1nlTK2Yx5ftIynKH8=",
+    "originContent": "type Person struct {",
+    "translatedContent": "type Person struct {"
+  },
+  {
+    "row": 56,
+    "rowsha": "mpL++47Bgq01HmT+3o0L4hk8yE0ZW0CVPGFLmivQoY0=",
+    "originContent": "    Name     string                           `json:\"name\"`",
+    "translatedContent": "    Name     string                           `json:\"name\"`"
+  },
+  {
+    "row": 57,
+    "rowsha": "xqq/bHmAhFZhCMGj1iwQTgUilXZunXFxXQOoEHqlyIM=",
+    "originContent": "    Age      gonull.Nullable[MyCustomInt]     `json:\"age\"`",
+    "translatedContent": "    Age      gonull.Nullable[MyCustomInt]     `json:\"age\"`"
+  },
+  {
+    "row": 58,
+    "rowsha": "1/GDUGy3/Kalto0fXrWor24n9ukSSKZG2FieU953qBQ=",
+    "originContent": "    Address  gonull.Nullable[string]          `json:\"address\"`",
+    "translatedContent": "    Address  gonull.Nullable[string]          `json:\"address\"`"
+  },
+  {
+    "row": 59,
+    "rowsha": "nwg9htLKpwHibMElFzsj2RTiWPZAPrpjxNvLSzHE8I4=",
+    "originContent": "    Height   gonull.Nullable[MyCustomFloat32] `json:\"height\"`",
+    "translatedContent": "    Height   gonull.Nullable[MyCustomFloat32] `json:\"height\"`"
+  },
+  {
+    "row": 60,
+    "rowsha": "gkyZ2rcnQoXRd5jw6O7mbLRY4eTK4vcjORDjb8F+G/I=",
+    "originContent": "    IsZero   gonull.Nullable[bool]            `json:\"is_zero,omitzero\"` // This property will be omitted from the output since it's not present in jsonData.",
+    "translatedContent": "    IsZero   gonull.Nullable[bool]            `json:\"is_zero,omitzero\"` // This property will be omitted from the output since it's not present in jsonData."
+  },
+  {
+    "row": 61,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "477XskFGOI6HtL1vgLCndqbEY9HpnF/1YFeYnaoIPXA=",
+    "originContent": "func main() {",
+    "translatedContent": "func main() {"
+  },
+  {
+    "row": 64,
+    "rowsha": "dMurn1AwBatNofWPAXi/TuaQFHmH1Hb7oVxEAshsuSc=",
+    "originContent": "    jsonData := []byte(`",
+    "translatedContent": "    jsonData := []byte(`"
+  },
+  {
+    "row": 65,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 66,
+    "rowsha": "Ssea4+EfZUoOJN8+8FlVOOkcv+V8CsmoxCSbDHB07ns=",
+    "originContent": "        \"name\": \"Alice\",",
+    "translatedContent": "        \"name\": \"Alice\","
+  },
+  {
+    "row": 67,
+    "rowsha": "MzrS2fUfR/fVcGrtCZQpyyBUqOsxMU83cUzIMVvnQrs=",
+    "originContent": "        \"age\": 15,",
+    "translatedContent": "        \"age\": 15,"
+  },
+  {
+    "row": 68,
+    "rowsha": "GXzEMqjDWhK2lmS3XxMTgiTnkL8VIdh7uvzjK92yxSQ=",
+    "originContent": "        \"address\": null,",
+    "translatedContent": "        \"address\": null,"
+  },
+  {
+    "row": 69,
+    "rowsha": "G1J0XHEUBLFsjEcUNPt67ry4aambSOEVr6av9yG9nFQ=",
+    "originContent": "        \"height\": null",
+    "translatedContent": "        \"height\": null"
+  },
+  {
+    "row": 70,
+    "rowsha": "4Q11mOHD33/3UxHR8oTqnLIatfpTACJV1CGePqdNrp0=",
+    "originContent": "    }`)",
+    "translatedContent": "    }`)"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "1LEH1Qz4ytQnZ9o/TiWIbqgMWZF3R97JTsc48bvzj3s=",
+    "originContent": "    var person Person",
+    "translatedContent": "    var person Person"
+  },
+  {
+    "row": 73,
+    "rowsha": "O5RvyXkcShpRh+YSP3dnPLshOH2dT7upOJpKYCN9Hfs=",
+    "originContent": "    json.Unmarshal(jsonData, &person)",
+    "translatedContent": "    json.Unmarshal(jsonData, &person)"
+  },
+  {
+    "row": 74,
+    "rowsha": "j5NHq+dkBxE9OMLpbsgnNOqtxqJ0CCiXRwPB0BE25Wo=",
+    "originContent": "    fmt.Printf(\"Unmarshalled Person: %+v\\n\", person)",
+    "translatedContent": "    fmt.Printf(\"Unmarshalled Person: %+v\\n\", person)"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "5IKCiGHdY5zSumBY7T38Wq4+B2fXBUQ/rhGwul1zufs=",
+    "originContent": "    marshalledData, _ := json.Marshal(person)",
+    "translatedContent": "    marshalledData, _ := json.Marshal(person)"
+  },
+  {
+    "row": 77,
+    "rowsha": "CGsQc1+n9U6Eg/0mMVNSn4qtpwOGY6Q2TDY4ur70NKc=",
+    "originContent": "    fmt.Printf(\"Marshalled JSON: %s\\n\", string(marshalledData))",
+    "translatedContent": "    fmt.Printf(\"Marshalled JSON: %s\\n\", string(marshalledData))"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "VpdKwUCATQ39+HCtu65BUROcmS2baH/5VQ069V8tQw4=",
+    "originContent": "    // Output:",
+    "translatedContent": "    // Output:"
+  },
+  {
+    "row": 80,
+    "rowsha": "PBmmOsVUHBiS4tDvtvbGJEhOPOYzs0xfF4PwXVp0P1w=",
+    "originContent": "    // Unmarshalled Person: {Name:Alice Age:15 Address: Height:0 IsZero:false}",
+    "translatedContent": "    // Unmarshalled Person: {Name:Alice Age:15 Address: Height:0 IsZero:false}"
+  },
+  {
+    "row": 81,
+    "rowsha": "Ag2z3UyhdT/iGlJyX1PlGKbjXdC/moOQQhX5Hs5R1rc=",
+    "originContent": "    // Marshalled JSON: {\"name\":\"Alice\",\"age\":15,\"address\":null,\"height\":null}",
+    "translatedContent": "    // Marshalled JSON: {\"name\":\"Alice\",\"age\":15,\"address\":null,\"height\":null}"
+  },
+  {
+    "row": 82,
+    "rowsha": "YNG5j1DE1xz2Sge/CjbK0ohbARpwiczO/E8w6TfBzao=",
+    "originContent": "    // As you see, IsZero is not present in the output, because we used the omitzero tag introduced in go v1.24.",
+    "translatedContent": "    // As you see, IsZero is not present in the output, because we used the omitzero tag introduced in go v1.24."
+  },
+  {
+    "row": 83,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 84,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 示例 #2"
+  },
+  {
+    "row": 86,
+    "rowsha": "L9gFZe7sZzDJn6KFZ7/ONnjRAF7o4sJC3bPVTSFSE/o=",
+    "originContent": "### Example #2",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+    "originContent": "```go",
+    "translatedContent": "```go"
+  },
+  {
+    "row": 89,
+    "rowsha": "78xLbPbM3SAjnN0tiJyL0FjKhOZIZktMnLXf1N5dLQM=",
+    "originContent": "type User struct {",
+    "translatedContent": "type User struct {"
+  },
+  {
+    "row": 90,
+    "rowsha": "P1FRT+UdCM2qGnuX9C01D8FxP0fW2rovtBfd1dMlg6c=",
+    "originContent": "    Name     gonull.Nullable[string]",
+    "translatedContent": "    Name     gonull.Nullable[string]"
+  },
+  {
+    "row": 91,
+    "rowsha": "I+vsuqu1JHpjeaCXPk+HW+22i2YM0SEubsRAg8JfqGs=",
+    "originContent": "    Age      gonull.Nullable[int]",
+    "translatedContent": "    Age      gonull.Nullable[int]"
+  },
+  {
+    "row": 92,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "477XskFGOI6HtL1vgLCndqbEY9HpnF/1YFeYnaoIPXA=",
+    "originContent": "func main() {",
+    "translatedContent": "func main() {"
+  },
+  {
+    "row": 95,
+    "rowsha": "taDktuNB2oTs+UaEmyONoVTzlMbSXe/tldqQd/bP0uU=",
+    "originContent": "    // ...",
+    "translatedContent": "    // ..."
+  },
+  {
+    "row": 96,
+    "rowsha": "PCHFOSV4fAj/jIWlQcBR/0b9TigPlYmsJga3VyHPnzM=",
+    "originContent": "    rows, err := db.Query(\"SELECT id, name, age FROM users\")",
+    "translatedContent": "    rows, err := db.Query(\"SELECT id, name, age FROM users\")"
+  },
+  {
+    "row": 97,
+    "rowsha": "WhaqB8vglxs+1xcvFNx/4wD7RuGi17ZIld4WCtguQx8=",
+    "originContent": "    if err != nil {",
+    "translatedContent": "    if err != nil {"
+  },
+  {
+    "row": 98,
+    "rowsha": "sR+rKK0dt2KpZiJTs0apBYpyGfN282hK29HEi13pnC4=",
+    "originContent": "        log.Fatal(err)",
+    "translatedContent": "        log.Fatal(err)"
+  },
+  {
+    "row": 99,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 100,
+    "rowsha": "bo0fuCUNl+XAuvKgL2ScB01UARotnUGMsQlsD1bdyAk=",
+    "originContent": "    defer rows.Close()",
+    "translatedContent": "    defer rows.Close()"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "QCgsbnyRujGdxsNXEVa2AUjFkHwRk8rLJR7pKhrpsJI=",
+    "originContent": "    for rows.Next() {",
+    "translatedContent": "    for rows.Next() {"
+  },
+  {
+    "row": 103,
+    "rowsha": "3+Kf/SZWnUcUtnUM4WoQKDnF4DV473MhIa4P3W/q004=",
+    "originContent": "        var user User",
+    "translatedContent": "        var user User"
+  },
+  {
+    "row": 104,
+    "rowsha": "zw0ObIBxIZSKaJKb0ll6AqRZSqQlyqpheeQEEj9g/go=",
+    "originContent": "        err := rows.Scan(&user.Name, &user.Age)",
+    "translatedContent": "        err := rows.Scan(&user.Name, &user.Age)"
+  },
+  {
+    "row": 105,
+    "rowsha": "ruWTcstXsj0/ZIpTKb51+femesLMNwkQ9DQjjoZF9N0=",
+    "originContent": "        if err != nil {",
+    "translatedContent": "        if err != nil {"
+  },
+  {
+    "row": 106,
+    "rowsha": "x4mtMthqc6ETm8fYjWzXvGUS/FJQ8mP/KSiyb0a5HrU=",
+    "originContent": "            log.Fatal(err)",
+    "translatedContent": "            log.Fatal(err)"
+  },
+  {
+    "row": 107,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 108,
+    "rowsha": "X2SAMqydQMjGWcilwPqVNPY1ejPXY6pOg9J5cC4adZE=",
+    "originContent": "        fmt.Printf(\"ID: %d, Name: %v, Age: %v\\n\", user.Name.Val, user.Age.Val)",
+    "translatedContent": "        fmt.Printf(\"ID: %d, Name: %v, Age: %v\\n\", user.Name.Val, user.Age.Val)"
+  },
+  {
+    "row": 109,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 110,
+    "rowsha": "taDktuNB2oTs+UaEmyONoVTzlMbSXe/tldqQd/bP0uU=",
+    "originContent": "    // ...",
+    "translatedContent": "    // ..."
+  },
+  {
+    "row": 111,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 探索更多示例"
+  },
+  {
+    "row": 114,
+    "rowsha": "g8tOtwUmFRCMnjefrA+i7bCcX4+yVHiEVOgCy3KrkxY=",
+    "originContent": "### Explore More Examples",
+    "translatedContent": "请参见 [./examples](./examples) 目录。"
+  },
+  {
+    "row": 115,
+    "rowsha": "wBLQgB83ikG6thqcYtyKb6+NcwgVjtb2zs5jay1pYlU=",
+    "originContent": "See [./examples](./examples) directory.",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 贡献者"
+  },
+  {
+    "row": 117,
+    "rowsha": "zkHOt0UOVxAJsBonYtcjf1+nJbrp5LIAt7uYkWjQMOM=",
+    "originContent": "## Contribution",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<a href=\"https://github.com/LukaGiorgadze/gonull/graphs/contributors\">"
+  },
+  {
+    "row": 119,
+    "rowsha": "715umAV7y7WlYUB08feBTkRVuiwtQW4kvy9e1H95LvY=",
+    "originContent": "<a href=\"https://github.com/LukaGiorgadze/gonull/graphs/contributors\">",
+    "translatedContent": "  <img src=\"https://contrib.rocks/image?repo=LukaGiorgadze/gonull\" />"
+  },
+  {
+    "row": 120,
+    "rowsha": "L9lxQwGG/Wd72Tfn3T/c8A60WbzUnyTxb1Fr9y7qYYw=",
+    "originContent": "  <img src=\"https://contrib.rocks/image?repo=LukaGiorgadze/gonull\" />",
+    "translatedContent": "</a>"
+  },
+  {
+    "row": 121,
+    "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+    "originContent": "</a>",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "由 [contrib.rocks](https://contrib.rocks) 制作。"
+  },
+  {
+    "row": 123,
+    "rowsha": "ktYeiFsmgQu9LneaOompwhTfYFdqLdSaoanLb4tRRbU=",
+    "originContent": "Made with [contrib.rocks](https://contrib.rocks).",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

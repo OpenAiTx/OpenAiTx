@@ -1,0 +1,973 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Raptor\nBased on the reverse-engineered codebase from Raptor Call Of The Shadows by nukeykt\n\n## Media\nClick on the thumbnail to watch some videos showing the project in action  \n\n[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Nt2HfchiudY/0.jpg)](https://www.youtube.com/channel/UCedmTTlonJK5DvkiMpA_teQ)\n## Information\nOriginal Raptor Call Of The Shadows author Scott Host is working on a new modernized version of the classic called Raptor Remixed. If you are a Raptor fan it would be cool if you would support the project on Kickstarter. For more information visit [www.mking.com](https://www.mking.com)\n\n## Quick start\nRelease builds are available for Windows and macOS.\nAll release builds contain only the assets (GLB files) of the shareware version 1.2.\nIf you want to play the full version you have to get the assets (GLB files) of the full version 1.2 yourself and copy them to the installation directory.\nTo download the latest release build for your platform, click [Download](https://github.com/skynettx/raptor/releases/latest).\nThen install the downloaded release build on your system by following the instructions of the installer.\nThat's it now Raptor is ready to play.\nFor those who want to build themselves or who want more configuration information, continue below otherwise you're done here.\n\n## Installing\nYou need the original assets (GLB files) from Raptor Call Of The Shadows v1.2 shareware or full version.\nImportant only the DOS version v1.2 is compatible! You have to take care of these files yourself.  \nThe assets can be loaded from the current working directory (Raptor directory) or from the external system specific directory.\n**Please note that the release build version 0.8.0 does not support the external system specific directory and manages all assets, config and save files in the current working directory.**\nThe external system specific directories are the following:",
+    "ContentSha": "jxsvIOqXDw6MhAb+cORmQ7nyTHCWxP1ubocuHVRkjt4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># 猛禽\n基于 nukeykt 逆向工程的《猛禽：阴影之战》代码库\n\n## 媒体\n点击缩略图观看展示项目运行的视频  \n\n[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Nt2HfchiudY/0.jpg)](https://www.youtube.com/channel/UCedmTTlonJK5DvkiMpA_teQ)\n## 信息\n原《猛禽：阴影之战》作者 Scott Host 正在开发经典游戏的现代化新版本，名为《猛禽重制》。如果你是猛禽粉丝，支持该项目的 Kickstarter 会很酷。更多信息请访问 [www.mking.com](https://www.mking.com)\n\n## 快速开始\n发布版本可用于 Windows 和 macOS。\n所有发布版本仅包含共享版 1.2 的资源（GLB 文件）。\n如果想玩完整版，必须自行获取完整版 1.2 的资源（GLB 文件）并复制到安装目录。\n要下载适用于您平台的最新发布版本，请点击 [下载](https://github.com/skynettx/raptor/releases/latest)。\n然后按照安装程序的说明在系统上安装下载的发布版本。\n就这样，猛禽现在可以玩了。\n想自行构建或需要更多配置信息的，请继续往下，否则您已完成。\n\n## 安装\n您需要《猛禽：阴影之战》v1.2 共享版或完整版的原始资源（GLB 文件）。\n重要提示，仅支持 DOS 版本 v1.2！您必须自行获取这些文件。  \n资源可以从当前工作目录（猛禽目录）或外部系统特定目录加载。\n**请注意，发布版本 0.8.0 不支持外部系统特定目录，所有资源、配置和存档文件均管理于当前工作目录。**\n外部系统特定目录如下：</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Z9++opsoVxP2oxOawxyJNraGAtAiuXb1ZTzQ6OZ6MMo=",
+        "originContent": "# Raptor",
+        "translatedContent": "<translate-content># 猛禽"
+      },
+      {
+        "row": 2,
+        "rowsha": "24CoNH3IEmuDSixdHwIhAwY2fwxP07n0U6xRPtzbtzo=",
+        "originContent": "Based on the reverse-engineered codebase from Raptor Call Of The Shadows by nukeykt",
+        "translatedContent": "基于 nukeykt 逆向工程的《猛禽：阴影之战》代码库"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "IEReEEjmqbP0x6iKsttHpYqjGWe5xHuDu42JHBX2vpU=",
+        "originContent": "## Media",
+        "translatedContent": "## 媒体"
+      },
+      {
+        "row": 5,
+        "rowsha": "ZHTJOOaVcvij4V5sJIsw+Vn/NrGUUS41+zqu1LwwQOI=",
+        "originContent": "Click on the thumbnail to watch some videos showing the project in action  ",
+        "translatedContent": "点击缩略图观看展示项目运行的视频  "
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "lIw4U8sQBmTCNtUU9EMQ3TVWgYoaPt2XMuMditEInks=",
+        "originContent": "[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Nt2HfchiudY/0.jpg)](https://www.youtube.com/channel/UCedmTTlonJK5DvkiMpA_teQ)",
+        "translatedContent": "[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Nt2HfchiudY/0.jpg)](https://www.youtube.com/channel/UCedmTTlonJK5DvkiMpA_teQ)"
+      },
+      {
+        "row": 8,
+        "rowsha": "JjZI0iaSibSZCypl2w8RDGzjHwXbmjaitUtDAk9EcfM=",
+        "originContent": "## Information",
+        "translatedContent": "## 信息"
+      },
+      {
+        "row": 9,
+        "rowsha": "8xk70A1KsijIMxT9Qvg5LAjIawaTsf7wPWPSluh2kg8=",
+        "originContent": "Original Raptor Call Of The Shadows author Scott Host is working on a new modernized version of the classic called Raptor Remixed. If you are a Raptor fan it would be cool if you would support the project on Kickstarter. For more information visit [www.mking.com](https://www.mking.com)",
+        "translatedContent": "原《猛禽：阴影之战》作者 Scott Host 正在开发经典游戏的现代化新版本，名为《猛禽重制》。如果你是猛禽粉丝，支持该项目的 Kickstarter 会很酷。更多信息请访问 [www.mking.com](https://www.mking.com)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "lTWxC+mrt6h3iMP1EHwhgic0pFB660ZPhxD7jEhmuWU=",
+        "originContent": "## Quick start",
+        "translatedContent": "## 快速开始"
+      },
+      {
+        "row": 12,
+        "rowsha": "CjTWWUbF6S6TgH9peMcIKDFaKO1HqWpF1psoG8HOBtw=",
+        "originContent": "Release builds are available for Windows and macOS.",
+        "translatedContent": "发布版本可用于 Windows 和 macOS。"
+      },
+      {
+        "row": 13,
+        "rowsha": "+oCDvjwzLJpZ221cYG8aU9aeySkhe72aayvvXXiVQXI=",
+        "originContent": "All release builds contain only the assets (GLB files) of the shareware version 1.2.",
+        "translatedContent": "所有发布版本仅包含共享版 1.2 的资源（GLB 文件）。"
+      },
+      {
+        "row": 14,
+        "rowsha": "Pb2j+Ac3m4hAC4aQrlZFi8zBPXfJ9Li9CyvYIj0vGDs=",
+        "originContent": "If you want to play the full version you have to get the assets (GLB files) of the full version 1.2 yourself and copy them to the installation directory.",
+        "translatedContent": "如果想玩完整版，必须自行获取完整版 1.2 的资源（GLB 文件）并复制到安装目录。"
+      },
+      {
+        "row": 15,
+        "rowsha": "gIXV8rEZG3WyF+zgpiyMbXrwObvj9ZlPJqo+yqP2iGc=",
+        "originContent": "To download the latest release build for your platform, click [Download](https://github.com/skynettx/raptor/releases/latest).",
+        "translatedContent": "要下载适用于您平台的最新发布版本，请点击 [下载](https://github.com/skynettx/raptor/releases/latest)。"
+      },
+      {
+        "row": 16,
+        "rowsha": "4tmng4tnm0KOQr7nCKYBmQV6PXTTwuUqyYRkWSob56c=",
+        "originContent": "Then install the downloaded release build on your system by following the instructions of the installer.",
+        "translatedContent": "然后按照安装程序的说明在系统上安装下载的发布版本。"
+      },
+      {
+        "row": 17,
+        "rowsha": "9P5aEYRqoFwyQg6JIWu3w+otbGRGxUrKrFhtvBHLw5k=",
+        "originContent": "That's it now Raptor is ready to play.",
+        "translatedContent": "就这样，猛禽现在可以玩了。"
+      },
+      {
+        "row": 18,
+        "rowsha": "F8QlYg8U7G8ntneXlnOnwn7w6wZoJH2wcJ7F6Or/1ik=",
+        "originContent": "For those who want to build themselves or who want more configuration information, continue below otherwise you're done here.",
+        "translatedContent": "想自行构建或需要更多配置信息的，请继续往下，否则您已完成。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "oDVP3SR/aiqGlwC3MYkKbuw/xKWgDvrUk2CdNhgTxg4=",
+        "originContent": "## Installing",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 21,
+        "rowsha": "DtwPO+dx7F9dd2MfP1CfJaHiOqiQmLtH7eAqFrKEW10=",
+        "originContent": "You need the original assets (GLB files) from Raptor Call Of The Shadows v1.2 shareware or full version.",
+        "translatedContent": "您需要《猛禽：阴影之战》v1.2 共享版或完整版的原始资源（GLB 文件）。"
+      },
+      {
+        "row": 22,
+        "rowsha": "aHhUM8bCAMCNnHJIDqGHJ7ONXTWQcKVp9VXAWFCAtLc=",
+        "originContent": "Important only the DOS version v1.2 is compatible! You have to take care of these files yourself.  ",
+        "translatedContent": "重要提示，仅支持 DOS 版本 v1.2！您必须自行获取这些文件。  "
+      },
+      {
+        "row": 23,
+        "rowsha": "mqMVgwhy/SL9kwecY9tn3IM457HIzgkKHYbTfO8c5QA=",
+        "originContent": "The assets can be loaded from the current working directory (Raptor directory) or from the external system specific directory.",
+        "translatedContent": "资源可以从当前工作目录（猛禽目录）或外部系统特定目录加载。"
+      },
+      {
+        "row": 24,
+        "rowsha": "bt0PKgFa+Ro6E3OZxNp7gFSHE6uh2rrbdqRMiCShhy8=",
+        "originContent": "**Please note that the release build version 0.8.0 does not support the external system specific directory and manages all assets, config and save files in the current working directory.**",
+        "translatedContent": "**请注意，发布版本 0.8.0 不支持外部系统特定目录，所有资源、配置和存档文件均管理于当前工作目录。**"
+      },
+      {
+        "row": 25,
+        "rowsha": "IJyZDKLpnBZ1XSWvxx4NnfY+gzEScO9FwFzNYBp9NvQ=",
+        "originContent": "The external system specific directories are the following:",
+        "translatedContent": "外部系统特定目录如下：</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n Windows: Users\\Username\\AppData\\Roaming\\Raptor\\  \n Linux: ~/.local/share/Raptor/\n macOS: ~/Library/Application Support/Raptor/\n```",
+    "ContentSha": "ou5jJkB9/9ti/HzlRMrSuUSzOeY4NJZXQcSRp1aiDOs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n Windows: Users\\Username\\AppData\\Roaming\\Raptor\\  \n Linux: ~/.local/share/Raptor/\n macOS: ~/Library/Application Support/Raptor/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "X2AuOe8W5qXA4THHDE0NzNJyAp2jlKFNJ1fVr18rFKI=",
+        "originContent": " Windows: Users\\Username\\AppData\\Roaming\\Raptor\\  ",
+        "translatedContent": " Windows: Users\\Username\\AppData\\Roaming\\Raptor\\  "
+      },
+      {
+        "row": 3,
+        "rowsha": "Qt0aLEnDTeHL/Pjc0Xl/DBBU5G3/sD9KVGlLwjjlD5A=",
+        "originContent": " Linux: ~/.local/share/Raptor/",
+        "translatedContent": " Linux: ~/.local/share/Raptor/"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZyWzyzWcpAs3TOqHJ9uO1++2o1b5SnUfv5vrmuaocWA=",
+        "originContent": " macOS: ~/Library/Application Support/Raptor/",
+        "translatedContent": " macOS: ~/Library/Application Support/Raptor/"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "The config file `SETUP.INI` and the save files are also loaded and saved in these folders.\nOn other systems that are not officially supported, the Raptor directory is used for loading and saving the config file and the save files.  \nCopy the `raptor.exe` (Windows) or `raptor` (Linux or macOS) from build directory to Raptor directory. \nFor MIDI support over TinySoundFont copy the soundfont `TimGM6mb.sf2` from `include\\TimGM6mb\\` to Raptor directory.\nUnder Windows copy the file `SDL.dll` from `include\\SDL2-devel-2.28.2-VC\\SDL2-2.28.2\\lib\\x86\\` for 32 bit installation or for 64 bit installation from \n`include\\SDL2-devel-2.28.2-VC\\SDL2-2.28.2\\lib\\x64\\` to Raptor directory.\nUnder Linux install lib-sdl2 from the packagemanager of your respective distro. When you use macOS install lib-sdl2 from dmg or from a packagemanager like brew etc. \n### Shareware\nCopy the following files to Raptor or external system specific directory:  ",
+    "ContentSha": "OuKt1DHwsDstKWSvOQPlrJz7wSlLiUynycizlzl3zrc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "配置文件 `SETUP.INI` 和存档文件也会在这些文件夹中加载和保存。  \n在其他非官方支持的系统上，Raptor 目录用于加载和保存配置文件和存档文件。  \n将构建目录中的 `raptor.exe`（Windows）或 `raptor`（Linux 或 macOS）复制到 Raptor 目录。  \n为了通过 TinySoundFont 支持 MIDI，将音色库 `TimGM6mb.sf2` 从 `include\\TimGM6mb\\` 复制到 Raptor 目录。  \n在 Windows 下，将文件 `SDL.dll` 从 `include\\SDL2-devel-2.28.2-VC\\SDL2-2.28.2\\lib\\x86\\`（32 位安装）或  \n`include\\SDL2-devel-2.28.2-VC\\SDL2-2.28.2\\lib\\x64\\`（64 位安装）复制到 Raptor 目录。  \n在 Linux 下，从相应发行版的软件包管理器安装 lib-sdl2。使用 macOS 时，从 dmg 或通过 brew 等包管理器安装 lib-sdl2。  \n### 共享软件  \n将以下文件复制到 Raptor 或外部系统特定目录：  ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+L5ob4suRUoQx34IDGY9Xir9E+qdZPL2h6N8eet3078=",
+        "originContent": "The config file `SETUP.INI` and the save files are also loaded and saved in these folders.",
+        "translatedContent": "配置文件 `SETUP.INI` 和存档文件也会在这些文件夹中加载和保存。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "dU3f7xdmjHdc13IoOjI71xxx6kKFbYU9dMGH959lU8M=",
+        "originContent": "On other systems that are not officially supported, the Raptor directory is used for loading and saving the config file and the save files.  ",
+        "translatedContent": "在其他非官方支持的系统上，Raptor 目录用于加载和保存配置文件和存档文件。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "fK0E6ZyniMUhuprxTtDYM3D9OCpQ+ijpR6Jqlt/3lHM=",
+        "originContent": "Copy the `raptor.exe` (Windows) or `raptor` (Linux or macOS) from build directory to Raptor directory. ",
+        "translatedContent": "将构建目录中的 `raptor.exe`（Windows）或 `raptor`（Linux 或 macOS）复制到 Raptor 目录。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "9Qe3vsBCwzJWN67LLM9FChH4DPHr7/Df6AhC/XL0Eik=",
+        "originContent": "For MIDI support over TinySoundFont copy the soundfont `TimGM6mb.sf2` from `include\\TimGM6mb\\` to Raptor directory.",
+        "translatedContent": "为了通过 TinySoundFont 支持 MIDI，将音色库 `TimGM6mb.sf2` 从 `include\\TimGM6mb\\` 复制到 Raptor 目录。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "xooMHr1vHonpUfXzRZdZdr1tX+Z0MniOb/j5osw64VM=",
+        "originContent": "Under Windows copy the file `SDL.dll` from `include\\SDL2-devel-2.28.2-VC\\SDL2-2.28.2\\lib\\x86\\` for 32 bit installation or for 64 bit installation from ",
+        "translatedContent": "在 Windows 下，将文件 `SDL.dll` 从 `include\\SDL2-devel-2.28.2-VC\\SDL2-2.28.2\\lib\\x86\\`（32 位安装）或  "
+      },
+      {
+        "row": 6,
+        "rowsha": "tiziOpnQ4P1TazaiMN8+qxAFjP9TaoeG6/S2hkc3JY0=",
+        "originContent": "`include\\SDL2-devel-2.28.2-VC\\SDL2-2.28.2\\lib\\x64\\` to Raptor directory.",
+        "translatedContent": "`include\\SDL2-devel-2.28.2-VC\\SDL2-2.28.2\\lib\\x64\\`（64 位安装）复制到 Raptor 目录。  "
+      },
+      {
+        "row": 7,
+        "rowsha": "EdEIwGs3aQ4VAn2iXckZxHJ19jT3KTjx1rXgVQ0+KBE=",
+        "originContent": "Under Linux install lib-sdl2 from the packagemanager of your respective distro. When you use macOS install lib-sdl2 from dmg or from a packagemanager like brew etc. ",
+        "translatedContent": "在 Linux 下，从相应发行版的软件包管理器安装 lib-sdl2。使用 macOS 时，从 dmg 或通过 brew 等包管理器安装 lib-sdl2。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "P/ZopGmPvSZtajYQsPZayjg31UlRQvD/BEROm6ODk+0=",
+        "originContent": "### Shareware",
+        "translatedContent": "### 共享软件  "
+      },
+      {
+        "row": 9,
+        "rowsha": "xUnikhicx1M1uO5awfD53OL7+V+mw/N5W1fWaWxCF28=",
+        "originContent": "Copy the following files to Raptor or external system specific directory:  ",
+        "translatedContent": "将以下文件复制到 Raptor 或外部系统特定目录：  "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nFILE0000.GLB  \nFILE0001.GLB  \n```",
+    "ContentSha": "k85fBDYLnWRcC3M064yMvUwHce/cWv8Up1jxIpU0R6o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nFILE0000.GLB  \nFILE0001.GLB  \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "JcphqbWvtesznW78DUwA6Zy26bK/+E/Qg+/kzwdV1co=",
+        "originContent": "FILE0000.GLB  ",
+        "translatedContent": "FILE0000.GLB  "
+      },
+      {
+        "row": 3,
+        "rowsha": "A2ubY8tsgjIVp68/2Tomc+Ep4HwibN0nLeDNMHcRCsY=",
+        "originContent": "FILE0001.GLB  ",
+        "translatedContent": "FILE0001.GLB  "
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "### Full version\nCopy the following files to Raptor or external system specific directory:  ",
+    "ContentSha": "kN32WKOaYrdIe4n5Nc6l9qb7NMJppIs3gBOd4ByNhX8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 完整版本\n将以下文件复制到Raptor或外部系统特定目录：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jQsFWoRD+QeQHNKVXwC42HGEeHiS1o7RkX9TpaalQUA=",
+        "originContent": "### Full version",
+        "translatedContent": "### 完整版本"
+      },
+      {
+        "row": 2,
+        "rowsha": "xUnikhicx1M1uO5awfD53OL7+V+mw/N5W1fWaWxCF28=",
+        "originContent": "Copy the following files to Raptor or external system specific directory:  ",
+        "translatedContent": "将以下文件复制到Raptor或外部系统特定目录："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nFILE0000.GLB  \nFILE0001.GLB  \nFILE0002.GLB  \nFILE0003.GLB  \nFILE0004.GLB  \n```",
+    "ContentSha": "2AQMZOTgSKJEPjQrjWYXfdjJwzdmBIME7N60UcmyAFQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nFILE0000.GLB  \nFILE0001.GLB  \nFILE0002.GLB  \nFILE0003.GLB  \nFILE0004.GLB  \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "JcphqbWvtesznW78DUwA6Zy26bK/+E/Qg+/kzwdV1co=",
+        "originContent": "FILE0000.GLB  ",
+        "translatedContent": "FILE0000.GLB  "
+      },
+      {
+        "row": 3,
+        "rowsha": "A2ubY8tsgjIVp68/2Tomc+Ep4HwibN0nLeDNMHcRCsY=",
+        "originContent": "FILE0001.GLB  ",
+        "translatedContent": "FILE0001.GLB  "
+      },
+      {
+        "row": 4,
+        "rowsha": "lzuP5r1s5WaZkSVP5123Zz+Jy5kxvw9t40pagHddhd8=",
+        "originContent": "FILE0002.GLB  ",
+        "translatedContent": "FILE0002.GLB  "
+      },
+      {
+        "row": 5,
+        "rowsha": "AVUc6jrhkxxB95MWFFKocDlK/6g9BjdaQOqFN9ltdOc=",
+        "originContent": "FILE0003.GLB  ",
+        "translatedContent": "FILE0003.GLB  "
+      },
+      {
+        "row": 6,
+        "rowsha": "tfx4fJaQmx3k5aUPD+9bvfqW1EDIofyv9ZwIi+M8UyY=",
+        "originContent": "FILE0004.GLB  ",
+        "translatedContent": "FILE0004.GLB  "
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "### Configuration\nYou can build or download [Raptor Setup](https://github.com/skynettx/raptorsetup.git) to create and edit the\n`SETUP.INI`, or edit it manually as follows.\nCopy the `SETUP(ADLIB).INI` or the `SETUP(MIDI).INI` file from build directory to external system specific directory (Windows, Linux and macOS) or Raptor directory (only systems that are not officially supported) and rename it to `SETUP.INI`.  \nIf you want MIDI over the TinySoundFont lib rename the `TimGM6mb.sf2` to `SoundFont.sf2` or specify the filename in the `SETUP.INI` file:  \n`SoundFont=SoundFont.sf2`  \nYou can use any other GM compatible soundfont in sf2 format. For a better MIDI sound quality I recommend the FluidR3_GM.sf2.\nThis font is 140 MB in size, so it is not in the repository.  \nTo play with one of the following input devices set `Control=0` under the [Setup] section in the `SETUP.INI` file to:  \n`Control=0` Keyboard  \n`Control=1` Mouse  \n`Control=2` Joystick (Game Controller)  \nHaptic (Game Controller rumble support) can be switched off or on under the [Setup] section in the `SETUP.INI` file:  \n`Haptic=0`  \n`Haptic=1`  \nIf you want to turn off the menu pointer control via the joystick in mode `Control=2` and enable the new joystick menu control in all \ninput modes, set under the [Setup] section in the `SETUP.INI` file:  \n`joy_ipt_MenuNew=0`  \n`joy_ipt_MenuNew=1`  \nSystem MIDI support (Windows Multimedia, Linux ALSA, macOS CoreAudio and macOS CoreMIDI) can be switched off or on in the [Setup] section in the `SETUP.INI` file:  \n`sys_midi=0`  \n`sys_midi=1`  \nFor Windows Multimedia under Windows, the MIDI device is set under the [Setup] section in `SETUP.INI` file:  \n`winmm_mpu_device=0`  \nClient and port for ALSA MIDI under Linux, is set under the [Setup] section in the `SETUP.INI` file:  \n`alsa_output_client=128`  \n`alsa_output_port=0`  \nTo use a software synthesizer with ALSA MIDI, install for example timidity and soundfont-fluid from the packagemanager of your distro.  \nCoreAudio support on macOS with software synthesizer DLS synth can be switched off or on under the [Setup] section in the `SETUP.INI` file:  \n`core_dls_synth=0`  \n`core_dls_synth=1`  \nIf you want to use CoreMIDI under macOS, `core_dls_synth=0` must be switched off in the `SETUP.INI` file.  \nYou can set the CoreMIDI port under the [Setup] section in the `SETUP.INI` file as follows:  \n`core_midi_port=0`  \nTo display the text mode ending screen after the game quits in fullscreen mode set under the [Video] section in the `SETUP.INI` file:  \n`txt_fullscreen=0`  \n`txt_fullscreen=1`  \n\n## Build\nThe project supports the compilers msvc, gcc and clang.  \nWhen you have installed git on your system you can clone the repository by type in `git clone https://github.com/skynettx/raptor.git`.\n\n### Windows\nYou can use the projectfile for Visual Studio 2022 under `msvc\\` or the projectfile for CodeBlocks under `gcc\\`.\n\n### Linux\nPlease remember to install the required dependencies lib-sdl2. In some distros there is an extra libsdl2-dev package like Debian or Ubuntu.  \nYou can use the projectfile for CodeBlocks under `gcc\\`.\nOtherwise you can use cmake. To use cmake type in the root of the repository:   ",
+    "ContentSha": "UeiuzeprPW1YCcKmhXhDrM73zx7WrGH/7vHZt8crkQw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 配置\n您可以构建或下载 [Raptor Setup](https://github.com/skynettx/raptorsetup.git) 来创建和编辑  \n`SETUP.INI`，或者按如下方式手动编辑。  \n将构建目录中的 `SETUP(ADLIB).INI` 或 `SETUP(MIDI).INI` 文件复制到外部系统特定目录（Windows、Linux 和 macOS）或 Raptor 目录（仅限非官方支持的系统），并重命名为 `SETUP.INI`。  \n如果您想通过 TinySoundFont 库使用 MIDI，请将 `TimGM6mb.sf2` 重命名为 `SoundFont.sf2`，或在 `SETUP.INI` 文件中指定文件名：  \n`SoundFont=SoundFont.sf2`  \n您可以使用任何其他 GM 兼容的 sf2 格式 soundfont。为了更好的 MIDI 音质，我推荐 FluidR3_GM.sf2。  \n该字体大小为 140 MB，因此未包含在仓库中。  \n要使用以下输入设备之一，请在 `SETUP.INI` 文件的 [Setup] 部分下设置 `Control=0`：  \n`Control=0` 键盘  \n`Control=1` 鼠标  \n`Control=2` 操纵杆（游戏控制器）  \n在 `SETUP.INI` 文件的 [Setup] 部分中，Haptic（游戏控制器震动支持）可以开启或关闭：  \n`Haptic=0`  \n`Haptic=1`  \n如果您想关闭在 `Control=2` 模式下通过操纵杆的菜单指针控制，并在所有输入模式下启用新的操纵杆菜单控制，请在 `SETUP.INI` 文件的 [Setup] 部分设置：  \n`joy_ipt_MenuNew=0`  \n`joy_ipt_MenuNew=1`  \n系统 MIDI 支持（Windows 多媒体，Linux ALSA，macOS CoreAudio 和 macOS CoreMIDI）可以在 `SETUP.INI` 文件的 [Setup] 部分中开启或关闭：  \n`sys_midi=0`  \n`sys_midi=1`  \n对于 Windows 多媒体，MIDI 设备在 `SETUP.INI` 文件的 [Setup] 部分下设置：  \n`winmm_mpu_device=0`  \nLinux 下 ALSA MIDI 的客户端和端口，在 `SETUP.INI` 文件的 [Setup] 部分设置：  \n`alsa_output_client=128`  \n`alsa_output_port=0`  \n要使用 ALSA MIDI 的软件合成器，例如安装您的发行版软件包管理器中的 timidity 和 soundfont-fluid。  \nmacOS 上使用软件合成器 DLS synth 的 CoreAudio 支持可以在 `SETUP.INI` 文件的 [Setup] 部分开启或关闭：  \n`core_dls_synth=0`  \n`core_dls_synth=1`  \n如果您想在 macOS 上使用 CoreMIDI，必须在 `SETUP.INI` 文件中关闭 `core_dls_synth=0`。  \n您可以在 `SETUP.INI` 文件的 [Setup] 部分设置 CoreMIDI 端口如下：  \n`core_midi_port=0`  \n要在全屏模式下游戏退出后显示文本模式结束画面，请在 `SETUP.INI` 文件的 [Video] 部分设置：  \n`txt_fullscreen=0`  \n`txt_fullscreen=1`  \n\n## 构建\n该项目支持 msvc、gcc 和 clang 编译器。  \n当您在系统上安装了 git 后，可以通过输入 `git clone https://github.com/skynettx/raptor.git` 克隆仓库。\n\n### Windows\n您可以使用位于 `msvc\\` 的 Visual Studio 2022 项目文件，或位于 `gcc\\` 的 CodeBlocks 项目文件。\n\n### Linux\n请记得安装所需依赖 lib-sdl2。在某些发行版中，如 Debian 或 Ubuntu，有一个额外的 libsdl2-dev 软件包。  \n您可以使用位于 `gcc\\` 的 CodeBlocks 项目文件。  \n否则，您可以使用 cmake。要使用 cmake，请在仓库根目录输入：  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "98At/CiRBusRICW0AL9EXH1YxHZNTZejcnKdG0hNBsI=",
+        "originContent": "### Configuration",
+        "translatedContent": "### 配置"
+      },
+      {
+        "row": 2,
+        "rowsha": "C241kaNex3ErOe0DqcJo75k+/2ejwQ7hDKDEyyQ8qVA=",
+        "originContent": "You can build or download [Raptor Setup](https://github.com/skynettx/raptorsetup.git) to create and edit the",
+        "translatedContent": "您可以构建或下载 [Raptor Setup](https://github.com/skynettx/raptorsetup.git) 来创建和编辑  "
+      },
+      {
+        "row": 3,
+        "rowsha": "64vX7MmK2Tnd5MZy+FczzayAf4JP2Aucu/4NNB8PDDQ=",
+        "originContent": "`SETUP.INI`, or edit it manually as follows.",
+        "translatedContent": "`SETUP.INI`，或者按如下方式手动编辑。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "mmv4TK0ES5/e3ppCALewXsXLS+p9eaqhIAiLsWLGkv4=",
+        "originContent": "Copy the `SETUP(ADLIB).INI` or the `SETUP(MIDI).INI` file from build directory to external system specific directory (Windows, Linux and macOS) or Raptor directory (only systems that are not officially supported) and rename it to `SETUP.INI`.  ",
+        "translatedContent": "将构建目录中的 `SETUP(ADLIB).INI` 或 `SETUP(MIDI).INI` 文件复制到外部系统特定目录（Windows、Linux 和 macOS）或 Raptor 目录（仅限非官方支持的系统），并重命名为 `SETUP.INI`。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "ZAMLiMKl0P1HGDgDPP8oxSYhl6L3EXP1tu4DeZLRBFw=",
+        "originContent": "If you want MIDI over the TinySoundFont lib rename the `TimGM6mb.sf2` to `SoundFont.sf2` or specify the filename in the `SETUP.INI` file:  ",
+        "translatedContent": "如果您想通过 TinySoundFont 库使用 MIDI，请将 `TimGM6mb.sf2` 重命名为 `SoundFont.sf2`，或在 `SETUP.INI` 文件中指定文件名：  "
+      },
+      {
+        "row": 6,
+        "rowsha": "z/sKgMstcMA/HyhbiiJOBtT01GQFTpNgd4s+XiSctMc=",
+        "originContent": "`SoundFont=SoundFont.sf2`  ",
+        "translatedContent": "`SoundFont=SoundFont.sf2`  "
+      },
+      {
+        "row": 7,
+        "rowsha": "Lze7Dc61vP1tqoYbd1ZNk8acuf89YRaR3OcTvQruRQM=",
+        "originContent": "You can use any other GM compatible soundfont in sf2 format. For a better MIDI sound quality I recommend the FluidR3_GM.sf2.",
+        "translatedContent": "您可以使用任何其他 GM 兼容的 sf2 格式 soundfont。为了更好的 MIDI 音质，我推荐 FluidR3_GM.sf2。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "/XM1N4FY8c02VYwoNkKERdL1ridJvroQERtrs+ln50M=",
+        "originContent": "This font is 140 MB in size, so it is not in the repository.  ",
+        "translatedContent": "该字体大小为 140 MB，因此未包含在仓库中。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "toQtnJZ1KLLCGT9v66YYMkJ5Y0aCjKKbV/2pPiMEjbU=",
+        "originContent": "To play with one of the following input devices set `Control=0` under the [Setup] section in the `SETUP.INI` file to:  ",
+        "translatedContent": "要使用以下输入设备之一，请在 `SETUP.INI` 文件的 [Setup] 部分下设置 `Control=0`：  "
+      },
+      {
+        "row": 10,
+        "rowsha": "PaltmLw1fp03BaaJC4N9k1RFQUG6uwu7dlonD4zbP40=",
+        "originContent": "`Control=0` Keyboard  ",
+        "translatedContent": "`Control=0` 键盘  "
+      },
+      {
+        "row": 11,
+        "rowsha": "V1Vy+upiTdayK/nF0Qq67zY4onLWaMMPdFlKKjtq17w=",
+        "originContent": "`Control=1` Mouse  ",
+        "translatedContent": "`Control=1` 鼠标  "
+      },
+      {
+        "row": 12,
+        "rowsha": "QjajTtx0hlYMUn35iXNYE/ui1yQgNWrzEHee2JUVi6A=",
+        "originContent": "`Control=2` Joystick (Game Controller)  ",
+        "translatedContent": "`Control=2` 操纵杆（游戏控制器）  "
+      },
+      {
+        "row": 13,
+        "rowsha": "TJ4OZSVqY8RpZCGmrYXWXCeJ3ObIclvKaefWJjD/ido=",
+        "originContent": "Haptic (Game Controller rumble support) can be switched off or on under the [Setup] section in the `SETUP.INI` file:  ",
+        "translatedContent": "在 `SETUP.INI` 文件的 [Setup] 部分中，Haptic（游戏控制器震动支持）可以开启或关闭：  "
+      },
+      {
+        "row": 14,
+        "rowsha": "xWgjiA3MBmE1aydUP5ItVIXh/5zVG9Q407jZpb976sk=",
+        "originContent": "`Haptic=0`  ",
+        "translatedContent": "`Haptic=0`  "
+      },
+      {
+        "row": 15,
+        "rowsha": "cOuW22wnWCojkvKSxsHga1DJtxDr4bEnZcXyWFiOdsk=",
+        "originContent": "`Haptic=1`  ",
+        "translatedContent": "`Haptic=1`  "
+      },
+      {
+        "row": 16,
+        "rowsha": "b1ekDRQOsD2sDbIgKlnia1pDPwF6bMRhvFKG2dO5v5g=",
+        "originContent": "If you want to turn off the menu pointer control via the joystick in mode `Control=2` and enable the new joystick menu control in all ",
+        "translatedContent": "如果您想关闭在 `Control=2` 模式下通过操纵杆的菜单指针控制，并在所有输入模式下启用新的操纵杆菜单控制，请在 `SETUP.INI` 文件的 [Setup] 部分设置：  "
+      },
+      {
+        "row": 17,
+        "rowsha": "tbublOhuJy8a81FvdD7S1L8IJ0kskrSUcUTEAZS1mVA=",
+        "originContent": "input modes, set under the [Setup] section in the `SETUP.INI` file:  ",
+        "translatedContent": "`joy_ipt_MenuNew=0`  "
+      },
+      {
+        "row": 18,
+        "rowsha": "8qhgRmcQUrdL2vajFGXCdi8aMh/wfxN5h6LaC8RF6/8=",
+        "originContent": "`joy_ipt_MenuNew=0`  ",
+        "translatedContent": "`joy_ipt_MenuNew=1`  "
+      },
+      {
+        "row": 19,
+        "rowsha": "CQGDYpktRHdR7tUFXENBW5z4N6B93Ye+9CnqYsy08Is=",
+        "originContent": "`joy_ipt_MenuNew=1`  ",
+        "translatedContent": "系统 MIDI 支持（Windows 多媒体，Linux ALSA，macOS CoreAudio 和 macOS CoreMIDI）可以在 `SETUP.INI` 文件的 [Setup] 部分中开启或关闭：  "
+      },
+      {
+        "row": 20,
+        "rowsha": "kAVjvGhWDmr+ZZB2QJQ9xgLXMu1eqCypkUd5Upx1VTI=",
+        "originContent": "System MIDI support (Windows Multimedia, Linux ALSA, macOS CoreAudio and macOS CoreMIDI) can be switched off or on in the [Setup] section in the `SETUP.INI` file:  ",
+        "translatedContent": "`sys_midi=0`  "
+      },
+      {
+        "row": 21,
+        "rowsha": "Xqi2q3LM/rs8frJ2ubVMzf8InvEUanlTePDQfmJGCHc=",
+        "originContent": "`sys_midi=0`  ",
+        "translatedContent": "`sys_midi=1`  "
+      },
+      {
+        "row": 22,
+        "rowsha": "L1C8NDq6G/6JN4cre1v7E/QcL28rC+KgTWSG9DP+Obo=",
+        "originContent": "`sys_midi=1`  ",
+        "translatedContent": "对于 Windows 多媒体，MIDI 设备在 `SETUP.INI` 文件的 [Setup] 部分下设置：  "
+      },
+      {
+        "row": 23,
+        "rowsha": "HCX60m0db1ncDUYZ0gcaWPQuYx7fJekMPJrMNIwNBN4=",
+        "originContent": "For Windows Multimedia under Windows, the MIDI device is set under the [Setup] section in `SETUP.INI` file:  ",
+        "translatedContent": "`winmm_mpu_device=0`  "
+      },
+      {
+        "row": 24,
+        "rowsha": "bGRSW2PJzZD0Uc6SM7Hv+IvUVgkp/gWfm7Qmrb2+3w4=",
+        "originContent": "`winmm_mpu_device=0`  ",
+        "translatedContent": "Linux 下 ALSA MIDI 的客户端和端口，在 `SETUP.INI` 文件的 [Setup] 部分设置：  "
+      },
+      {
+        "row": 25,
+        "rowsha": "JcBVFAgbKodWQWEOYk1hA/e3NNoBugskyOILQBnnkT4=",
+        "originContent": "Client and port for ALSA MIDI under Linux, is set under the [Setup] section in the `SETUP.INI` file:  ",
+        "translatedContent": "`alsa_output_client=128`  "
+      },
+      {
+        "row": 26,
+        "rowsha": "atInfqGJakUIMzjviSPnNfke8uzZRPsDadjdLkstOyI=",
+        "originContent": "`alsa_output_client=128`  ",
+        "translatedContent": "`alsa_output_port=0`  "
+      },
+      {
+        "row": 27,
+        "rowsha": "b2FmVXoUYyE4OpcpuuPopmx6xkOp2CKT3nRysxuA0vQ=",
+        "originContent": "`alsa_output_port=0`  ",
+        "translatedContent": "要使用 ALSA MIDI 的软件合成器，例如安装您的发行版软件包管理器中的 timidity 和 soundfont-fluid。  "
+      },
+      {
+        "row": 28,
+        "rowsha": "1yFyRTWNzyNT6Ylf13Qg+9nSMg3KbsAqCWSHe+9+Qsk=",
+        "originContent": "To use a software synthesizer with ALSA MIDI, install for example timidity and soundfont-fluid from the packagemanager of your distro.  ",
+        "translatedContent": "macOS 上使用软件合成器 DLS synth 的 CoreAudio 支持可以在 `SETUP.INI` 文件的 [Setup] 部分开启或关闭：  "
+      },
+      {
+        "row": 29,
+        "rowsha": "0M1S7MKTnPw9e6MgIu0djwNeUlkXOwb6LlD4aBoyHFQ=",
+        "originContent": "CoreAudio support on macOS with software synthesizer DLS synth can be switched off or on under the [Setup] section in the `SETUP.INI` file:  ",
+        "translatedContent": "`core_dls_synth=0`  "
+      },
+      {
+        "row": 30,
+        "rowsha": "siLCL0Q0m1OtpwF+ymxq3BFgTF52x2J2KZuCMJwuWsE=",
+        "originContent": "`core_dls_synth=0`  ",
+        "translatedContent": "`core_dls_synth=1`  "
+      },
+      {
+        "row": 31,
+        "rowsha": "Iu4LuOLEzIwzUJ68pm1CD6v7AskOebydA8b++s/9dx4=",
+        "originContent": "`core_dls_synth=1`  ",
+        "translatedContent": "如果您想在 macOS 上使用 CoreMIDI，必须在 `SETUP.INI` 文件中关闭 `core_dls_synth=0`。  "
+      },
+      {
+        "row": 32,
+        "rowsha": "wLnYRTr4jj7dNEAJw73Jzwoj1a74ui0pAzhWJ+OzZTA=",
+        "originContent": "If you want to use CoreMIDI under macOS, `core_dls_synth=0` must be switched off in the `SETUP.INI` file.  ",
+        "translatedContent": "您可以在 `SETUP.INI` 文件的 [Setup] 部分设置 CoreMIDI 端口如下：  "
+      },
+      {
+        "row": 33,
+        "rowsha": "WGuntT3sKiGR4VcBIirrunkOCPP+KDgUgiWd3LY+Gm8=",
+        "originContent": "You can set the CoreMIDI port under the [Setup] section in the `SETUP.INI` file as follows:  ",
+        "translatedContent": "`core_midi_port=0`  "
+      },
+      {
+        "row": 34,
+        "rowsha": "wTDZQ8jWJxNsuG2DRJO8oIGJX+TuLpsYAKOFfdWXvkg=",
+        "originContent": "`core_midi_port=0`  ",
+        "translatedContent": "要在全屏模式下游戏退出后显示文本模式结束画面，请在 `SETUP.INI` 文件的 [Video] 部分设置：  "
+      },
+      {
+        "row": 35,
+        "rowsha": "M3+cYiHRcicS40j+dNhVCWV2/sifQxXLTYnqhsSfCGU=",
+        "originContent": "To display the text mode ending screen after the game quits in fullscreen mode set under the [Video] section in the `SETUP.INI` file:  ",
+        "translatedContent": "`txt_fullscreen=0`  "
+      },
+      {
+        "row": 36,
+        "rowsha": "8cnso2xBhfD0PHSsbRMyi6RJn1L7Br65EaL967QTnUg=",
+        "originContent": "`txt_fullscreen=0`  ",
+        "translatedContent": "`txt_fullscreen=1`  "
+      },
+      {
+        "row": 37,
+        "rowsha": "MC+YVSkayb5HsjgV8Uq6iiDM5bDSVvC6giKEeygcbFc=",
+        "originContent": "`txt_fullscreen=1`  ",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 构建"
+      },
+      {
+        "row": 39,
+        "rowsha": "sJ/yPrjOl4CqqmNX52jV/O9t1ocQUKu6R6aB9zUAdQM=",
+        "originContent": "## Build",
+        "translatedContent": "该项目支持 msvc、gcc 和 clang 编译器。  "
+      },
+      {
+        "row": 40,
+        "rowsha": "wBCDVJeFdKHnfPy8ByXMGM9woX7bojBk5wLwhvJdWEw=",
+        "originContent": "The project supports the compilers msvc, gcc and clang.  ",
+        "translatedContent": "当您在系统上安装了 git 后，可以通过输入 `git clone https://github.com/skynettx/raptor.git` 克隆仓库。"
+      },
+      {
+        "row": 41,
+        "rowsha": "afipl/K2r2An5jUMwrvIy7aT6IfgYrwLn8atuWylo+E=",
+        "originContent": "When you have installed git on your system you can clone the repository by type in `git clone https://github.com/skynettx/raptor.git`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Windows"
+      },
+      {
+        "row": 43,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": "您可以使用位于 `msvc\\` 的 Visual Studio 2022 项目文件，或位于 `gcc\\` 的 CodeBlocks 项目文件。"
+      },
+      {
+        "row": 44,
+        "rowsha": "AJHGzm/gpTvV9XE7s572MK0lKT3IjG6My7HTUsFJ3KE=",
+        "originContent": "You can use the projectfile for Visual Studio 2022 under `msvc\\` or the projectfile for CodeBlocks under `gcc\\`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Linux"
+      },
+      {
+        "row": 46,
+        "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+        "originContent": "### Linux",
+        "translatedContent": "请记得安装所需依赖 lib-sdl2。在某些发行版中，如 Debian 或 Ubuntu，有一个额外的 libsdl2-dev 软件包。  "
+      },
+      {
+        "row": 47,
+        "rowsha": "eu7PGXM9CQsRlDaQxC9lUPT2pZt5WtJzuvCdiolmSoM=",
+        "originContent": "Please remember to install the required dependencies lib-sdl2. In some distros there is an extra libsdl2-dev package like Debian or Ubuntu.  ",
+        "translatedContent": "您可以使用位于 `gcc\\` 的 CodeBlocks 项目文件。  "
+      },
+      {
+        "row": 48,
+        "rowsha": "onbugNeNLrHoHtkN52HmFUxbFsBO6cF2VjvkWzo80Y4=",
+        "originContent": "You can use the projectfile for CodeBlocks under `gcc\\`.",
+        "translatedContent": "否则，您可以使用 cmake。要使用 cmake，请在仓库根目录输入：  "
+      },
+      {
+        "row": 49,
+        "rowsha": "LtN0Hkys0zB0IWPkK8kZAiClSbd/vH0+2w4wDaozYKI=",
+        "originContent": "Otherwise you can use cmake. To use cmake type in the root of the repository:   ",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\nmkdir build  \ncd build  \ncmake ..  \nmake  \n```",
+    "ContentSha": "funKPnZrKSNZDxz8COQFy3S7eyBIH4JFVXrpSklVC9s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nmkdir build  \ncd build  \ncmake ..  \nmake  \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "zuWGMw4NIcoPFEn+iT7suPChy3K96VS+bWaFYmDpiog=",
+        "originContent": "mkdir build  ",
+        "translatedContent": "mkdir build  "
+      },
+      {
+        "row": 3,
+        "rowsha": "4t2RVv3845xaYtTjVFOrQV81KogBMhYDfvjDH1ezszY=",
+        "originContent": "cd build  ",
+        "translatedContent": "cd build  "
+      },
+      {
+        "row": 4,
+        "rowsha": "mCiWrWDsXbPVqse6rSg+fgHUCqDfs4atFCXdUmhRArE=",
+        "originContent": "cmake ..  ",
+        "translatedContent": "cmake ..  "
+      },
+      {
+        "row": 5,
+        "rowsha": "ITTLTyead2uQ7QT3Oqc7ec7tthfVL7BOAfTtbG3Rhbw=",
+        "originContent": "make  ",
+        "translatedContent": "make  "
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### macOS\nInstall the required dependencies lib-sdl2. To build use cmake, type in the root of the repository:",
+    "ContentSha": "wcXzG9+k7JLCSr6tgOtmi6YRoR7skH5pCkE044f6S00=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### macOS\n安装所需的依赖项 lib-sdl2。要构建，请使用 cmake，在仓库根目录输入：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### macOS"
+      },
+      {
+        "row": 2,
+        "rowsha": "IOz6D23yxKVaZDi62cZaiowUVIuAS1nmW/2UxanscU8=",
+        "originContent": "### macOS",
+        "translatedContent": "安装所需的依赖项 lib-sdl2。要构建，请使用 cmake，在仓库根目录输入："
+      },
+      {
+        "row": 3,
+        "rowsha": "mbHB0IUdundmBz6tk9cKPLQqkT2PLURXeyW+dD5Xe7g=",
+        "originContent": "Install the required dependencies lib-sdl2. To build use cmake, type in the root of the repository:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\nmkdir build  \ncd build  \ncmake ..  \nmake  \n```",
+    "ContentSha": "funKPnZrKSNZDxz8COQFy3S7eyBIH4JFVXrpSklVC9s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nmkdir build  \ncd build  \ncmake ..  \nmake  \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "zuWGMw4NIcoPFEn+iT7suPChy3K96VS+bWaFYmDpiog=",
+        "originContent": "mkdir build  ",
+        "translatedContent": "mkdir build  "
+      },
+      {
+        "row": 3,
+        "rowsha": "4t2RVv3845xaYtTjVFOrQV81KogBMhYDfvjDH1ezszY=",
+        "originContent": "cd build  ",
+        "translatedContent": "cd build  "
+      },
+      {
+        "row": 4,
+        "rowsha": "mCiWrWDsXbPVqse6rSg+fgHUCqDfs4atFCXdUmhRArE=",
+        "originContent": "cmake ..  ",
+        "translatedContent": "cmake ..  "
+      },
+      {
+        "row": 5,
+        "rowsha": "ITTLTyead2uQ7QT3Oqc7ec7tthfVL7BOAfTtbG3Rhbw=",
+        "originContent": "make  ",
+        "translatedContent": "make  "
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## FAQ\n1. No audio under Linux:  \nMake sure you get all the necessary ALSA and or PulseAudio dependencies from the packagemanager of your distro. \n2. Where can i change the video settings:  \nThe video settings can be set in the config file `SETUP.INI`. To toggle fullscreen mode on edit under the [Video] section `fullscreen=0`\nto `fullscreen=1`. Or aspect ratio mode off `aspect_ratio_correct=1` to `aspect_ratio_correct=0`. \n\n## Thanks\nSpecial thanks to [nukeykt](https://github.com/nukeykt) and [wel97459](https://github.com/wel97459) for their great work on the reconstructed source code.\nBig thanks to [Scott Host](https://www.mking.com) for his great support.\nAlso many thanks to [schellingb](https://github.com/schellingb) for the great TinySoundFont library and to all contributors from the\n[chocolate-doom project](https://github.com/chocolate-doom) for the awesome libtextscreen. Furthermore, many thanks to Tim Brechbill for the TimGM6mb\nsoundfont.\n\n\n \n\n\n\n\n",
+    "ContentSha": "FI3GlrsBPZ8rin0v4IO5giIM9Jpvb1bK+ZyCezj4mrw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 常见问题解答\n1. Linux下无音频：  \n请确保从您的发行版的软件包管理器安装了所有必要的ALSA和/或PulseAudio依赖项。\n2. 我在哪里可以更改视频设置：  \n视频设置可以在配置文件 `SETUP.INI` 中设置。要切换全屏模式，请在 [Video] 部分将 `fullscreen=0` \n编辑为 `fullscreen=1`。或关闭宽高比模式，将 `aspect_ratio_correct=1` 改为 `aspect_ratio_correct=0`。\n\n## 致谢\n特别感谢 [nukeykt](https://github.com/nukeykt) 和 [wel97459](https://github.com/wel97459) 对重构源码的卓越贡献。\n非常感谢 [Scott Host](https://www.mking.com) 的大力支持。\n还要感谢 [schellingb](https://github.com/schellingb) 提供的优秀 TinySoundFont 库，以及所有来自\n[chocolate-doom 项目](https://github.com/chocolate-doom) 的贡献者，感谢他们出色的 libtextscreen。 此外，\n非常感谢 Tim Brechbill 提供的 TimGM6mb 声音字体。\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 常见问题解答"
+      },
+      {
+        "row": 2,
+        "rowsha": "sH7VUgPw2I6+13pp6nUDM/T2LsOBk7Micqophzdve4Y=",
+        "originContent": "## FAQ",
+        "translatedContent": "1. Linux下无音频：  "
+      },
+      {
+        "row": 3,
+        "rowsha": "l525CkIbhiq1KDP1ix7xFeQc8w+gJTCT0+Pc2p43MUs=",
+        "originContent": "1. No audio under Linux:  ",
+        "translatedContent": "请确保从您的发行版的软件包管理器安装了所有必要的ALSA和/或PulseAudio依赖项。"
+      },
+      {
+        "row": 4,
+        "rowsha": "f30t4c3K2deQg3K+KWWDC78OSjSVEt+vhItUnFCWA78=",
+        "originContent": "Make sure you get all the necessary ALSA and or PulseAudio dependencies from the packagemanager of your distro. ",
+        "translatedContent": "2. 我在哪里可以更改视频设置：  "
+      },
+      {
+        "row": 5,
+        "rowsha": "IbtAPDNnMKKciOLB9LeHsU+APT2gstFJG4eXnTTLL7c=",
+        "originContent": "2. Where can i change the video settings:  ",
+        "translatedContent": "视频设置可以在配置文件 `SETUP.INI` 中设置。要切换全屏模式，请在 [Video] 部分将 `fullscreen=0` "
+      },
+      {
+        "row": 6,
+        "rowsha": "kHIN3No05UIF7Zrfw1jcgMwDVpaOthimm9tYVFI8zxM=",
+        "originContent": "The video settings can be set in the config file `SETUP.INI`. To toggle fullscreen mode on edit under the [Video] section `fullscreen=0`",
+        "translatedContent": "编辑为 `fullscreen=1`。或关闭宽高比模式，将 `aspect_ratio_correct=1` 改为 `aspect_ratio_correct=0`。"
+      },
+      {
+        "row": 7,
+        "rowsha": "Xl3hmYJsene6PdK/XAepnoEMOZO3/dijEPQzW1mCz8E=",
+        "originContent": "to `fullscreen=1`. Or aspect ratio mode off `aspect_ratio_correct=1` to `aspect_ratio_correct=0`. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 致谢"
+      },
+      {
+        "row": 9,
+        "rowsha": "Hlc2b08rg0LOEYZFWHgWTiwJnUG0U95FbBqSFSDg31k=",
+        "originContent": "## Thanks",
+        "translatedContent": "特别感谢 [nukeykt](https://github.com/nukeykt) 和 [wel97459](https://github.com/wel97459) 对重构源码的卓越贡献。"
+      },
+      {
+        "row": 10,
+        "rowsha": "g+ox+0ZHYHqzScIAeOBUYgUS+OIbpkTPVjIHKZT4mZ4=",
+        "originContent": "Special thanks to [nukeykt](https://github.com/nukeykt) and [wel97459](https://github.com/wel97459) for their great work on the reconstructed source code.",
+        "translatedContent": "非常感谢 [Scott Host](https://www.mking.com) 的大力支持。"
+      },
+      {
+        "row": 11,
+        "rowsha": "Q0S++Sijc7OiGMVq9yq2faMqD5SaszpCjGW9iQ6Yrb8=",
+        "originContent": "Big thanks to [Scott Host](https://www.mking.com) for his great support.",
+        "translatedContent": "还要感谢 [schellingb](https://github.com/schellingb) 提供的优秀 TinySoundFont 库，以及所有来自"
+      },
+      {
+        "row": 12,
+        "rowsha": "JJ7fhSoSFxrbM5vusO2mjny2aKgMDg7zIIQRL5XUkVg=",
+        "originContent": "Also many thanks to [schellingb](https://github.com/schellingb) for the great TinySoundFont library and to all contributors from the",
+        "translatedContent": "[chocolate-doom 项目](https://github.com/chocolate-doom) 的贡献者，感谢他们出色的 libtextscreen。 此外，"
+      },
+      {
+        "row": 13,
+        "rowsha": "nfnsxlgDA4HgBhkPbCOZMwKW5+t5IejW3QazUjxa02U=",
+        "originContent": "[chocolate-doom project](https://github.com/chocolate-doom) for the awesome libtextscreen. Furthermore, many thanks to Tim Brechbill for the TimGM6mb",
+        "translatedContent": "非常感谢 Tim Brechbill 提供的 TimGM6mb 声音字体。"
+      },
+      {
+        "row": 14,
+        "rowsha": "YUS/rI72jEn7WKnOsDgHmQ49bF5q/sW1xpC/0hCiOUs=",
+        "originContent": "soundfont.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

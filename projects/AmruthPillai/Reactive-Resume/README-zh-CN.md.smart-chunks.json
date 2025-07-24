@@ -1,0 +1,615 @@
+[
+  {
+    "Id": 1,
+    "Content": "![Reactive Resume](https://i.imgur.com/FFc4nyZ.jpg)\n\n![App Version](https://img.shields.io/github/package-json/version/AmruthPillai/Reactive-Resume?label=version)\n[![Docker Pulls](https://img.shields.io/docker/pulls/amruthpillai/reactive-resume)](https://hub.docker.com/repository/docker/amruthpillai/reactive-resume)\n[![GitHub Sponsors](https://img.shields.io/github/sponsors/AmruthPillai)](https://github.com/sponsors/AmruthPillai)\n[![Crowdin](https://badges.crowdin.net/reactive-resume/localized.svg)](https://crowdin.com/project/reactive-resume)\n[![Discord](https://img.shields.io/discord/1173518977851473940?label=discord&link=https%3A%2F%2Fdiscord.gg%2FhzwkZbyvUW)](https://discord.gg/hzwkZbyvUW)\n\n# Reactive Resume\n\nA free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.\n\n### [Go to App](https://rxresu.me/) | [Docs](https://docs.rxresu.me/)\n\n## Description\n\nReactive Resume is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume. With zero user tracking or advertising, your privacy is a top priority. The platform is extremely user-friendly and can be self-hosted in less than 30 seconds if you wish to own your data completely.\n\nIt's available in multiple languages and comes packed with features such as real-time editing, dozens of templates, drag-and-drop customisation, and integration with OpenAI for enhancing your writing.\n\nYou can share a personalised link of your resume to potential employers, track its views or downloads, and customise your page layout by dragging-and-dropping sections. The platform also supports various font options and provides dozens of templates to choose from. And yes, there's even a dark mode for a more comfortable viewing experience.\n\nStart creating your standout resume with Reactive Resume today!\n\n## Templates\n\n| Azurill                                                      | Bronzor                                                     | Chikorita                                                   |\n| ------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------- |\n| <img src=\"https://i.imgur.com/jKgo04C.jpeg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/DFNQZP2.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/Dwv8Y7f.jpg\" width=\"200px\" /> |\n\n| Ditto                                                       | Kakuna                                                      | Nosepass                                                    |\n| ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |\n| <img src=\"https://i.imgur.com/6c5lASL.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/268ML3t.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/npRLsPS.jpg\" width=\"200px\" /> |\n\n| Onyx                                                        | Pikachu                                                     | Rhyhorn                                                     |\n| ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |\n| <img src=\"https://i.imgur.com/cxplXOW.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/Y9f7qsh.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/h4kQxy2.jpg\" width=\"200px\" /> |\n\n## Features\n\n- **Free, forever** and open-source\n- No telemetry, user tracking or advertising\n- You can self-host the application in less than 30 seconds\n- **Available in multiple languages** ([help add/improve your language here](https://translate.rxresu.me/))\n- Use your email address (or a throw-away address, no problem) to create an account\n- You can also sign in with your GitHub or Google account, and even set up two-factor authentication for extra security\n- Create as many resumes as you like under a single account, optimising each resume for every job application based on its description for a higher ATS score\n- **Bring your own OpenAI API key** and unlock features such as improving your writing, fixing spelling and grammar or changing the tone of your text in one-click\n- Translate your resume into any language using ChatGPT and import it back for easier editing\n- Create single page resumes or a resume that spans multiple pages easily\n- Customize the colours and layouts to add a personal touch to your resume\n- Customise your page layout as you like just by dragging-and-dropping sections\n- Create custom sections that are specific to your industry if the existing ones don't fit\n- Jot down personal notes specific to your resume that's only visible to you\n- Lock a resume to prevent making any further edits (useful for master templates)\n- **Dozens of templates** to choose from, ranging from professional to modern\n- Design your resume using the standardised EuroPass design template\n- Supports printing resumes in A4 or Letter page formats\n- Design your resume with any font that's available on [Google Fonts](https://fonts.google.com/)\n- **Share a personalised link of your resume** to companies or recruiters for them to get the latest updates\n- You can track the number of views or downloads your public resume has received\n- Built with state-of-the-art (at the moment) and dependable technologies that's battle tested and peer reviewed by the open-source community on GitHub\n- **MIT License**, so do what you like with the code as long as you credit the original author\n- And yes, there’s a dark mode too 🌓\n\n## Built With\n\n- React (Vite), for the frontend\n- NestJS, for the backend\n- Postgres (primary database)\n- Prisma ORM, which frees you to switch to any other relational database with a few minor changes in the code\n- Minio (for object storage: to store avatars, resume PDFs and previews)\n- Browserless (for headless chrome, to print PDFs and generate previews)\n- SMTP Server (to send password recovery emails)\n- GitHub/Google OAuth (for quickly authenticating users)\n- LinguiJS and Crowdin (for translation management and localization)\n\n## Star History\n\n<a href=\"https://star-history.com/#AmruthPillai/Reactive-Resume&Date\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date&theme=dark\" />\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date\" />\n    <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date\" />\n  </picture>\n</a>\n\n## License\n\nReactive Resume is packaged and distributed using the [MIT License](/LICENSE.md) which allows for commercial use, distribution, modification and private use provided that all copies of the software contain the same license and copyright.\n\n_By the community, for the community._  \nA passion project by [Amruth Pillai](https://www.amruthpillai.com/)\n\n<p>\n  <a href=\"https://www.digitalocean.com/?utm_medium=opensource&utm_source=Reactive-Resume\">\n    <img src=\"https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg\" width=\"200px\">\n  </a>\n</p>\n",
+    "ContentSha": "9Oay8UWLN3Y4RwDskshTV3mRPOHSoDfxA7CQR7j2LF4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![Reactive Resume](https://i.imgur.com/FFc4nyZ.jpg)\n\n![App Version](https://img.shields.io/github/package-json/version/AmruthPillai/Reactive-Resume?label=version)\n[![Docker Pulls](https://img.shields.io/docker/pulls/amruthpillai/reactive-resume)](https://hub.docker.com/repository/docker/amruthpillai/reactive-resume)\n[![GitHub Sponsors](https://img.shields.io/github/sponsors/AmruthPillai)](https://github.com/sponsors/AmruthPillai)\n[![Crowdin](https://badges.crowdin.net/reactive-resume/localized.svg)](https://crowdin.com/project/reactive-resume)\n[![Discord](https://img.shields.io/discord/1173518977851473940?label=discord&link=https%3A%2F%2Fdiscord.gg%2FhzwkZbyvUW)](https://discord.gg/hzwkZbyvUW)\n\n# Reactive Resume\n\n一个免费且开源的简历生成器，简化了创建、更新和分享简历的流程。\n\n### [访问应用](https://rxresu.me/) | [文档](https://docs.rxresu.me/)\n\n## 描述\n\nReactive Resume 是一个免费且开源的简历生成器，简化了创建、更新和分享简历的流程。无任何用户追踪或广告，隐私是我们的首要任务。该平台极其用户友好，如果您希望完全拥有自己的数据，可以在不到30秒内自行托管。\n\n它支持多种语言，并集成了实时编辑、数十个模板、拖放自定义以及与 OpenAI 的整合来提升您的写作。\n\n您可以将个性化的简历链接分享给潜在雇主，跟踪简历的浏览或下载情况，并通过拖放来定制页面布局。平台还支持多种字体选项，并提供数十种模板供选择。是的，还有暗黑模式，让阅读体验更加舒适。\n\n今天就用 Reactive Resume 开始打造您的出色简历吧！\n\n## 模板\n\n| Azurill                                                      | Bronzor                                                     | Chikorita                                                   |\n| ------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------- |\n| <img src=\"https://i.imgur.com/jKgo04C.jpeg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/DFNQZP2.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/Dwv8Y7f.jpg\" width=\"200px\" /> |\n\n| Ditto                                                       | Kakuna                                                      | Nosepass                                                    |\n| ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |\n| <img src=\"https://i.imgur.com/6c5lASL.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/268ML3t.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/npRLsPS.jpg\" width=\"200px\" /> |\n\n| Onyx                                                        | Pikachu                                                     | Rhyhorn                                                     |\n| ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |\n| <img src=\"https://i.imgur.com/cxplXOW.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/Y9f7qsh.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/h4kQxy2.jpg\" width=\"200px\" /> |\n\n## 功能\n\n- **永久免费**且开源\n- 无遥测、无用户追踪或广告\n- 可以在不到30秒内自行托管应用\n- **支持多语言** ([帮忙添加/完善您的语言](https://translate.rxresu.me/))\n- 使用您的电子邮件地址（或一次性邮箱，均可）创建账号\n- 也可用 GitHub 或 Google 账号登录，甚至可以设置双因素认证以增强安全性\n- 一个账号下可创建任意多份简历，根据职位描述为每份简历优化以获得更高的 ATS 评分\n- **使用您自己的 OpenAI API 密钥**，一键解锁改进写作、纠正拼写和语法、改变文本语气等功能\n- 使用 ChatGPT 将简历翻译成任何语言，并导入回来方便编辑\n- 轻松创建单页简历或多页简历\n- 自定义颜色和布局，为简历添加个人风格\n- 通过拖放自由定制页面布局\n- 如果现有的分类不适用，可以创建行业专属的自定义章节\n- 记下仅自己可见的简历专属个人笔记\n- 锁定简历，防止进一步编辑（适用于主模板）\n- **数十种模板**可选，涵盖专业和现代风格\n- 使用标准化的 EuroPass 设计模板设计简历\n- 支持 A4 或 Letter 纸张格式打印简历\n- 使用 [Google Fonts](https://fonts.google.com/) 上的任意字体设计简历\n- **分享个性化简历链接**给公司或招聘人员，实时获取最新更新\n- 可追踪公开简历的浏览量和下载量\n- 采用目前最先进且可靠的技术构建，经过开源社区在 GitHub 上的实战测试和同行评审\n- **MIT 许可协议**，只要注明原作者，代码可随意使用\n- 当然，还有暗黑模式 🌓\n\n## 技术栈\n\n- React (Vite)，前端框架\n- NestJS，后端框架\n- Postgres（主数据库）\n- Prisma ORM，方便切换到其他关系数据库，只需少量代码更改\n- Minio（对象存储：存储头像、简历 PDF 和预览）\n- Browserless（无头浏览器，用于打印 PDF 和生成预览）\n- SMTP 服务器（发送密码找回邮件）\n- GitHub/Google OAuth（快速用户认证）\n- LinguiJS 和 Crowdin（翻译管理和本地化）\n\n## Star 历史\n\n<a href=\"https://star-history.com/#AmruthPillai/Reactive-Resume&Date\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date&theme=dark\" />\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date\" />\n    <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date\" />\n  </picture>\n</a>\n\n## 许可协议\n\nReactive Resume 使用 [MIT 许可协议](/LICENSE.md) 打包和分发，允许商业使用、分发、修改和私人使用，前提是所有软件副本均包含相同的许可和版权声明。\n\n_由社区，为社区而生。_  \n一个由 [Amruth Pillai](https://www.amruthpillai.com/) 发起的热情项目\n\n<p>\n  <a href=\"https://www.digitalocean.com/?utm_medium=opensource&utm_source=Reactive-Resume\">\n    <img src=\"https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg\" width=\"200px\">\n  </a>\n</p>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "hzzKkkANQK4UKSXi4JPTzrFK1PGPYyTrOvp9isJbT7k=",
+        "originContent": "![Reactive Resume](https://i.imgur.com/FFc4nyZ.jpg)",
+        "translatedContent": "![Reactive Resume](https://i.imgur.com/FFc4nyZ.jpg)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "zWm0k135FCt0hqd+7A/xs+Ss51wvy4j4QWvrgt/4Lw8=",
+        "originContent": "![App Version](https://img.shields.io/github/package-json/version/AmruthPillai/Reactive-Resume?label=version)",
+        "translatedContent": "![App Version](https://img.shields.io/github/package-json/version/AmruthPillai/Reactive-Resume?label=version)"
+      },
+      {
+        "row": 4,
+        "rowsha": "jw8ULhPcHwLJCtePBLi68DQNF5zVnPih9bwAa5pEW5g=",
+        "originContent": "[![Docker Pulls](https://img.shields.io/docker/pulls/amruthpillai/reactive-resume)](https://hub.docker.com/repository/docker/amruthpillai/reactive-resume)",
+        "translatedContent": "[![Docker Pulls](https://img.shields.io/docker/pulls/amruthpillai/reactive-resume)](https://hub.docker.com/repository/docker/amruthpillai/reactive-resume)"
+      },
+      {
+        "row": 5,
+        "rowsha": "2SQdCpTNG7PCI9lknlsYoaj+9YUc/kDV6NrgHEwsItQ=",
+        "originContent": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/AmruthPillai)](https://github.com/sponsors/AmruthPillai)",
+        "translatedContent": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/AmruthPillai)](https://github.com/sponsors/AmruthPillai)"
+      },
+      {
+        "row": 6,
+        "rowsha": "7YpMbMYO8e7XCYErjc5ter2WU7CBZdo+R/jGC87RNGU=",
+        "originContent": "[![Crowdin](https://badges.crowdin.net/reactive-resume/localized.svg)](https://crowdin.com/project/reactive-resume)",
+        "translatedContent": "[![Crowdin](https://badges.crowdin.net/reactive-resume/localized.svg)](https://crowdin.com/project/reactive-resume)"
+      },
+      {
+        "row": 7,
+        "rowsha": "9MSyuelyWJjCkoDyjyejjGrvw1Xk05YA1BEI9+GVD3Q=",
+        "originContent": "[![Discord](https://img.shields.io/discord/1173518977851473940?label=discord&link=https%3A%2F%2Fdiscord.gg%2FhzwkZbyvUW)](https://discord.gg/hzwkZbyvUW)",
+        "translatedContent": "[![Discord](https://img.shields.io/discord/1173518977851473940?label=discord&link=https%3A%2F%2Fdiscord.gg%2FhzwkZbyvUW)](https://discord.gg/hzwkZbyvUW)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "4PDUp3NnLXvA1Kl7HYawrhm9M/Hd5xmSSJkhegDCWE4=",
+        "originContent": "# Reactive Resume",
+        "translatedContent": "# Reactive Resume"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "1Tfm5kf7bvDLwcQR/oKqeFT22uZDj4iseX9Qf/xoSkc=",
+        "originContent": "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.",
+        "translatedContent": "一个免费且开源的简历生成器，简化了创建、更新和分享简历的流程。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "m2Fd+y949fZq8DYPD5laP+VJjSRHeIZO+cinIffNKfE=",
+        "originContent": "### [Go to App](https://rxresu.me/) | [Docs](https://docs.rxresu.me/)",
+        "translatedContent": "### [访问应用](https://rxresu.me/) | [文档](https://docs.rxresu.me/)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "K0XdQb6cPR2XYn4/Xr3GLliF7Co62hbZTlUnZJsZ2Bk=",
+        "originContent": "## Description",
+        "translatedContent": "## 描述"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "/iJoq5kkoik21V7QNZHenlc5xiJCRBbrW72pWWp8lkI=",
+        "originContent": "Reactive Resume is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume. With zero user tracking or advertising, your privacy is a top priority. The platform is extremely user-friendly and can be self-hosted in less than 30 seconds if you wish to own your data completely.",
+        "translatedContent": "Reactive Resume 是一个免费且开源的简历生成器，简化了创建、更新和分享简历的流程。无任何用户追踪或广告，隐私是我们的首要任务。该平台极其用户友好，如果您希望完全拥有自己的数据，可以在不到30秒内自行托管。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "JWh2WsNV00nwPMO2p3WYoIw12ciF9GHt5LtYaafzR2A=",
+        "originContent": "It's available in multiple languages and comes packed with features such as real-time editing, dozens of templates, drag-and-drop customisation, and integration with OpenAI for enhancing your writing.",
+        "translatedContent": "它支持多种语言，并集成了实时编辑、数十个模板、拖放自定义以及与 OpenAI 的整合来提升您的写作。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "8POeibOALGm5zZ5gbl62DrHQ0+fSEvA4/6wJCrRI1OQ=",
+        "originContent": "You can share a personalised link of your resume to potential employers, track its views or downloads, and customise your page layout by dragging-and-dropping sections. The platform also supports various font options and provides dozens of templates to choose from. And yes, there's even a dark mode for a more comfortable viewing experience.",
+        "translatedContent": "您可以将个性化的简历链接分享给潜在雇主，跟踪简历的浏览或下载情况，并通过拖放来定制页面布局。平台还支持多种字体选项，并提供数十种模板供选择。是的，还有暗黑模式，让阅读体验更加舒适。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "J1nTQqpUB5J7X2nUVBlOtTOs0cCuqOEkfr/vRyCx82Y=",
+        "originContent": "Start creating your standout resume with Reactive Resume today!",
+        "translatedContent": "今天就用 Reactive Resume 开始打造您的出色简历吧！"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "5igvf/1pM+uu1b/BZr62pNb9v2dFJ+sCo+GNWvSVt2s=",
+        "originContent": "## Templates",
+        "translatedContent": "## 模板"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "Pr54ykgOoDk95dHY2LIDHEhY5C+XDVVjXFd0NTEyFZY=",
+        "originContent": "| Azurill                                                      | Bronzor                                                     | Chikorita                                                   |",
+        "translatedContent": "| Azurill                                                      | Bronzor                                                     | Chikorita                                                   |"
+      },
+      {
+        "row": 28,
+        "rowsha": "z3jNzw42YQY/SIuylVS2ND9drUJYv98LBzjEeFmVpfM=",
+        "originContent": "| ------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------- |",
+        "translatedContent": "| ------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------- |"
+      },
+      {
+        "row": 29,
+        "rowsha": "+sLHyh9tyBBKajKOEFfGrHRKd0cLfGm3VKk8/0h5uWk=",
+        "originContent": "| <img src=\"https://i.imgur.com/jKgo04C.jpeg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/DFNQZP2.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/Dwv8Y7f.jpg\" width=\"200px\" /> |",
+        "translatedContent": "| <img src=\"https://i.imgur.com/jKgo04C.jpeg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/DFNQZP2.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/Dwv8Y7f.jpg\" width=\"200px\" /> |"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "Jqhu+almnCwjWH4NrN88mozSepuqQ5qO2JYX4MwY6EY=",
+        "originContent": "| Ditto                                                       | Kakuna                                                      | Nosepass                                                    |",
+        "translatedContent": "| Ditto                                                       | Kakuna                                                      | Nosepass                                                    |"
+      },
+      {
+        "row": 32,
+        "rowsha": "XSN4SHH4VBbGSFbpNPMpoASPqrrtaRaKrJcMkxC9uAQ=",
+        "originContent": "| ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |",
+        "translatedContent": "| ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |"
+      },
+      {
+        "row": 33,
+        "rowsha": "85YfPH4OAhdVo3hb61HHdkOVozaZq7QIgQ/88j5Aqc8=",
+        "originContent": "| <img src=\"https://i.imgur.com/6c5lASL.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/268ML3t.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/npRLsPS.jpg\" width=\"200px\" /> |",
+        "translatedContent": "| <img src=\"https://i.imgur.com/6c5lASL.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/268ML3t.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/npRLsPS.jpg\" width=\"200px\" /> |"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "+JBaglZiO652VF+IEO/O9rGLUmuIwDdaOgCHUvLBuBM=",
+        "originContent": "| Onyx                                                        | Pikachu                                                     | Rhyhorn                                                     |",
+        "translatedContent": "| Onyx                                                        | Pikachu                                                     | Rhyhorn                                                     |"
+      },
+      {
+        "row": 36,
+        "rowsha": "XSN4SHH4VBbGSFbpNPMpoASPqrrtaRaKrJcMkxC9uAQ=",
+        "originContent": "| ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |",
+        "translatedContent": "| ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |"
+      },
+      {
+        "row": 37,
+        "rowsha": "H/lj3c0oaRBhRsO1na9H8nVN92br6hQSEeg2biK13C8=",
+        "originContent": "| <img src=\"https://i.imgur.com/cxplXOW.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/Y9f7qsh.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/h4kQxy2.jpg\" width=\"200px\" /> |",
+        "translatedContent": "| <img src=\"https://i.imgur.com/cxplXOW.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/Y9f7qsh.jpg\" width=\"200px\" /> | <img src=\"https://i.imgur.com/h4kQxy2.jpg\" width=\"200px\" /> |"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "WATTFlzC6Ol0WDjSz8/QM0RMrVqj8W7mXTj5e7pg6IA=",
+        "originContent": "- **Free, forever** and open-source",
+        "translatedContent": "- **永久免费**且开源"
+      },
+      {
+        "row": 42,
+        "rowsha": "PAilqO45IuARLeirmkM4aagxCNZ9Zg0SNmvTS0JSlZw=",
+        "originContent": "- No telemetry, user tracking or advertising",
+        "translatedContent": "- 无遥测、无用户追踪或广告"
+      },
+      {
+        "row": 43,
+        "rowsha": "cKqjeEhM3DjAVtjQ+cq0+aST/ZrjkBpIhV0B9Em5WVg=",
+        "originContent": "- You can self-host the application in less than 30 seconds",
+        "translatedContent": "- 可以在不到30秒内自行托管应用"
+      },
+      {
+        "row": 44,
+        "rowsha": "K3GWpx48qzCJgvq6p1v3/zGx5vJZfOxOjcc5v4r3MSY=",
+        "originContent": "- **Available in multiple languages** ([help add/improve your language here](https://translate.rxresu.me/))",
+        "translatedContent": "- **支持多语言** ([帮忙添加/完善您的语言](https://translate.rxresu.me/))"
+      },
+      {
+        "row": 45,
+        "rowsha": "ksPQTbDkp2IynwxKEDNsxzj/JCh85B5WejIyZZj6I4U=",
+        "originContent": "- Use your email address (or a throw-away address, no problem) to create an account",
+        "translatedContent": "- 使用您的电子邮件地址（或一次性邮箱，均可）创建账号"
+      },
+      {
+        "row": 46,
+        "rowsha": "cgmsoole7ucIDtoR2YcFkbzt2MB3Dj+QFBu0RbQqhgI=",
+        "originContent": "- You can also sign in with your GitHub or Google account, and even set up two-factor authentication for extra security",
+        "translatedContent": "- 也可用 GitHub 或 Google 账号登录，甚至可以设置双因素认证以增强安全性"
+      },
+      {
+        "row": 47,
+        "rowsha": "ZwRECk0P5sEkbAcye8it/s/NXNpcbwB29E3xAF0r0h4=",
+        "originContent": "- Create as many resumes as you like under a single account, optimising each resume for every job application based on its description for a higher ATS score",
+        "translatedContent": "- 一个账号下可创建任意多份简历，根据职位描述为每份简历优化以获得更高的 ATS 评分"
+      },
+      {
+        "row": 48,
+        "rowsha": "4msfb82KwvcUTFzYLSg0SRdnvqCLLkbwz67pA1mN1+g=",
+        "originContent": "- **Bring your own OpenAI API key** and unlock features such as improving your writing, fixing spelling and grammar or changing the tone of your text in one-click",
+        "translatedContent": "- **使用您自己的 OpenAI API 密钥**，一键解锁改进写作、纠正拼写和语法、改变文本语气等功能"
+      },
+      {
+        "row": 49,
+        "rowsha": "EFFHWdnYT7Mj8vxRXQg7MI63QPry2bOISKCbnKljwHI=",
+        "originContent": "- Translate your resume into any language using ChatGPT and import it back for easier editing",
+        "translatedContent": "- 使用 ChatGPT 将简历翻译成任何语言，并导入回来方便编辑"
+      },
+      {
+        "row": 50,
+        "rowsha": "vHethTCyXlhVwCJ+PfWe8/72XrIR3xjiOHRYsup3lac=",
+        "originContent": "- Create single page resumes or a resume that spans multiple pages easily",
+        "translatedContent": "- 轻松创建单页简历或多页简历"
+      },
+      {
+        "row": 51,
+        "rowsha": "TBwVmk05JEGzvE3w52lwoBSRZoID5MiPFIJFQcNcsyw=",
+        "originContent": "- Customize the colours and layouts to add a personal touch to your resume",
+        "translatedContent": "- 自定义颜色和布局，为简历添加个人风格"
+      },
+      {
+        "row": 52,
+        "rowsha": "d1ty3JBrF5NOLopIgL+H5/B02aHZSyh+E9NbHE6nMBM=",
+        "originContent": "- Customise your page layout as you like just by dragging-and-dropping sections",
+        "translatedContent": "- 通过拖放自由定制页面布局"
+      },
+      {
+        "row": 53,
+        "rowsha": "qxVPPCWmWgQWCDrUhIoDxhaM6om8JNuEA4gZsJX7OBU=",
+        "originContent": "- Create custom sections that are specific to your industry if the existing ones don't fit",
+        "translatedContent": "- 如果现有的分类不适用，可以创建行业专属的自定义章节"
+      },
+      {
+        "row": 54,
+        "rowsha": "srFISWH2iDCKsE0hTCbhT0XKamO2BgMY0y0XQ1wzJsc=",
+        "originContent": "- Jot down personal notes specific to your resume that's only visible to you",
+        "translatedContent": "- 记下仅自己可见的简历专属个人笔记"
+      },
+      {
+        "row": 55,
+        "rowsha": "Atriv6hRdwxzsZXX4PF3f+TOlEYIXEBt2cwhcYi3WUU=",
+        "originContent": "- Lock a resume to prevent making any further edits (useful for master templates)",
+        "translatedContent": "- 锁定简历，防止进一步编辑（适用于主模板）"
+      },
+      {
+        "row": 56,
+        "rowsha": "okluumKKtF81b/JXIX0EyuwE5iU/5g5IGsZww12ViFw=",
+        "originContent": "- **Dozens of templates** to choose from, ranging from professional to modern",
+        "translatedContent": "- **数十种模板**可选，涵盖专业和现代风格"
+      },
+      {
+        "row": 57,
+        "rowsha": "WVxlXAUiWbewLjHW8RhBu1xR61q26iCxTr7g7LAfNrc=",
+        "originContent": "- Design your resume using the standardised EuroPass design template",
+        "translatedContent": "- 使用标准化的 EuroPass 设计模板设计简历"
+      },
+      {
+        "row": 58,
+        "rowsha": "H61LJdFIRdjt51r6MJADMEHS0V9fGBQrAHALkSkeLEA=",
+        "originContent": "- Supports printing resumes in A4 or Letter page formats",
+        "translatedContent": "- 支持 A4 或 Letter 纸张格式打印简历"
+      },
+      {
+        "row": 59,
+        "rowsha": "LYxyHcL00WpELolMqhQXZl0TlcNjEMJvJP3otEGzOp0=",
+        "originContent": "- Design your resume with any font that's available on [Google Fonts](https://fonts.google.com/)",
+        "translatedContent": "- 使用 [Google Fonts](https://fonts.google.com/) 上的任意字体设计简历"
+      },
+      {
+        "row": 60,
+        "rowsha": "nNxSdPaTReqASbeaNiiPm5GQ5LL013+j/+TVAHWde48=",
+        "originContent": "- **Share a personalised link of your resume** to companies or recruiters for them to get the latest updates",
+        "translatedContent": "- **分享个性化简历链接**给公司或招聘人员，实时获取最新更新"
+      },
+      {
+        "row": 61,
+        "rowsha": "WNCRKQy7Cki3UwzBOxlulxLdJH7hOF7BGqDL1/uBGR4=",
+        "originContent": "- You can track the number of views or downloads your public resume has received",
+        "translatedContent": "- 可追踪公开简历的浏览量和下载量"
+      },
+      {
+        "row": 62,
+        "rowsha": "5iGW+jV87pQXqgbTu+4x+ya57FBiBh7ZmRdWSbWCTgQ=",
+        "originContent": "- Built with state-of-the-art (at the moment) and dependable technologies that's battle tested and peer reviewed by the open-source community on GitHub",
+        "translatedContent": "- 采用目前最先进且可靠的技术构建，经过开源社区在 GitHub 上的实战测试和同行评审"
+      },
+      {
+        "row": 63,
+        "rowsha": "X4tqpYw+GbxpdT9YIp9uquX4DLb1n5NQQ07tLF+Y/Xo=",
+        "originContent": "- **MIT License**, so do what you like with the code as long as you credit the original author",
+        "translatedContent": "- **MIT 许可协议**，只要注明原作者，代码可随意使用"
+      },
+      {
+        "row": 64,
+        "rowsha": "t3BmB6qUhohg2EfWrv5smoLcDTF2mFWhXSnqcBTJe7s=",
+        "originContent": "- And yes, there’s a dark mode too 🌓",
+        "translatedContent": "- 当然，还有暗黑模式 🌓"
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "KECpcesyaGy2stTJmIgmgQSBcQD5fj/5xgJIUavhDbM=",
+        "originContent": "## Built With",
+        "translatedContent": "## 技术栈"
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 68,
+        "rowsha": "HLMz7ag+sRTmsJNLIcnbKy65YRCziB6I1d/8meZE/oQ=",
+        "originContent": "- React (Vite), for the frontend",
+        "translatedContent": "- React (Vite)，前端框架"
+      },
+      {
+        "row": 69,
+        "rowsha": "TeDl0K3R7UEGF++6Pa6JTeZzaSr6IwfmMCr3Ubka0kY=",
+        "originContent": "- NestJS, for the backend",
+        "translatedContent": "- NestJS，后端框架"
+      },
+      {
+        "row": 70,
+        "rowsha": "OERKKb61+z/Uoo8/VYP9ZBZ1ifFtm/Qlz6QYEcjkWV4=",
+        "originContent": "- Postgres (primary database)",
+        "translatedContent": "- Postgres（主数据库）"
+      },
+      {
+        "row": 71,
+        "rowsha": "ZiLF34HALl1Ik/+GUUiaGFOl0f3oyUBpFUZc9wosjHE=",
+        "originContent": "- Prisma ORM, which frees you to switch to any other relational database with a few minor changes in the code",
+        "translatedContent": "- Prisma ORM，方便切换到其他关系数据库，只需少量代码更改"
+      },
+      {
+        "row": 72,
+        "rowsha": "9xZPD9+DwxN33Pl2GHpoHqIRoIcwxx0D7yEjhIOpniE=",
+        "originContent": "- Minio (for object storage: to store avatars, resume PDFs and previews)",
+        "translatedContent": "- Minio（对象存储：存储头像、简历 PDF 和预览）"
+      },
+      {
+        "row": 73,
+        "rowsha": "EHJjRy4nxFRZ2Nk7yHcLwzgseaJoRBv7O1sOKiawzSE=",
+        "originContent": "- Browserless (for headless chrome, to print PDFs and generate previews)",
+        "translatedContent": "- Browserless（无头浏览器，用于打印 PDF 和生成预览）"
+      },
+      {
+        "row": 74,
+        "rowsha": "jHqbVSmNtk/oAkmzgmSxpaENZof5fLdxE3x+4WwXcLA=",
+        "originContent": "- SMTP Server (to send password recovery emails)",
+        "translatedContent": "- SMTP 服务器（发送密码找回邮件）"
+      },
+      {
+        "row": 75,
+        "rowsha": "3PQbIk6rMwTRn7Wi8uW3FGdzg50Fy0C9UoCoNhqXWNE=",
+        "originContent": "- GitHub/Google OAuth (for quickly authenticating users)",
+        "translatedContent": "- GitHub/Google OAuth（快速用户认证）"
+      },
+      {
+        "row": 76,
+        "rowsha": "660/NGi+qdUC/0GwSNcXqks76IEN75tfWbbebwMtEy8=",
+        "originContent": "- LinguiJS and Crowdin (for translation management and localization)",
+        "translatedContent": "- LinguiJS 和 Crowdin（翻译管理和本地化）"
+      },
+      {
+        "row": 77,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+        "originContent": "## Star History",
+        "translatedContent": "## Star 历史"
+      },
+      {
+        "row": 79,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 80,
+        "rowsha": "50y5iE119GIr+twdPUTdSiavBQbdWTSm6E8vji4mFpU=",
+        "originContent": "<a href=\"https://star-history.com/#AmruthPillai/Reactive-Resume&Date\">",
+        "translatedContent": "<a href=\"https://star-history.com/#AmruthPillai/Reactive-Resume&Date\">"
+      },
+      {
+        "row": 81,
+        "rowsha": "su5AYroNuuVkqEBm8k1TtT5+dCom7BoW2XwdJdXXDH8=",
+        "originContent": "  <picture>",
+        "translatedContent": "  <picture>"
+      },
+      {
+        "row": 82,
+        "rowsha": "WPsUjgQMyuW3Cp/AHsU+0IJ3zO2f5h51xEkrcZWuKRk=",
+        "originContent": "    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date&theme=dark\" />",
+        "translatedContent": "    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date&theme=dark\" />"
+      },
+      {
+        "row": 83,
+        "rowsha": "EO9sd6HPolsBXtZMy6BVNIWJRTnHwhj1riAzDL1C560=",
+        "originContent": "    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date\" />",
+        "translatedContent": "    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date\" />"
+      },
+      {
+        "row": 84,
+        "rowsha": "Lqe+x9CxvQaxpGrmtT6hthiQI4Z1EBdZUQL17ToP+Kg=",
+        "originContent": "    <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date\" />",
+        "translatedContent": "    <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date\" />"
+      },
+      {
+        "row": 85,
+        "rowsha": "fwrOW0rZI7tz3dwkDxmwV2sRZJ0Cobqsz6oSx8gSbSE=",
+        "originContent": "  </picture>",
+        "translatedContent": "  </picture>"
+      },
+      {
+        "row": 86,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 87,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 88,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可协议"
+      },
+      {
+        "row": 89,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "wKy6V2r36ycC5DPqIxXI3STPbV8F9Ou7yGqghYGvt7I=",
+        "originContent": "Reactive Resume is packaged and distributed using the [MIT License](/LICENSE.md) which allows for commercial use, distribution, modification and private use provided that all copies of the software contain the same license and copyright.",
+        "translatedContent": "Reactive Resume 使用 [MIT 许可协议](/LICENSE.md) 打包和分发，允许商业使用、分发、修改和私人使用，前提是所有软件副本均包含相同的许可和版权声明。"
+      },
+      {
+        "row": 91,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 92,
+        "rowsha": "ES8opRN0idCMJmBJ/Hc0mXMbSACbJs5BJ+Tm+E7pUQU=",
+        "originContent": "_By the community, for the community._  ",
+        "translatedContent": "_由社区，为社区而生。_  "
+      },
+      {
+        "row": 93,
+        "rowsha": "SqFga2Y7Fuwh0bCkwgNb12duWmL9B1TSJazyUS8RaB4=",
+        "originContent": "A passion project by [Amruth Pillai](https://www.amruthpillai.com/)",
+        "translatedContent": "一个由 [Amruth Pillai](https://www.amruthpillai.com/) 发起的热情项目"
+      },
+      {
+        "row": 94,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 95,
+        "rowsha": "M/J5lGcXcoeikmB4ChB6yY6mPdYWX2f8wNdHZ9CoIJA=",
+        "originContent": "<p>",
+        "translatedContent": "<p>"
+      },
+      {
+        "row": 96,
+        "rowsha": "NeCK+i7LO6e2T13pQQ3HG1NIIDtHgq5au/nwqubita0=",
+        "originContent": "  <a href=\"https://www.digitalocean.com/?utm_medium=opensource&utm_source=Reactive-Resume\">",
+        "translatedContent": "  <a href=\"https://www.digitalocean.com/?utm_medium=opensource&utm_source=Reactive-Resume\">"
+      },
+      {
+        "row": 97,
+        "rowsha": "/C4UlIh+uF+slr56fX5+6psWTzoNkZ4yos75NMrL8lg=",
+        "originContent": "    <img src=\"https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg\" width=\"200px\">",
+        "translatedContent": "    <img src=\"https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg\" width=\"200px\">"
+      },
+      {
+        "row": 98,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 99,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 100,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

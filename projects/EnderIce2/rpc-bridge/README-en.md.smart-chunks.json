@@ -1,0 +1,495 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Discord RPC Bridge for Wine\n\n![GitHub License](https://img.shields.io/github/license/EnderIce2/rpc-bridge?style=for-the-badge)\n![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/EnderIce2/rpc-bridge/total?style=for-the-badge)\n![GitHub Release](https://img.shields.io/github/v/release/EnderIce2/rpc-bridge?style=for-the-badge)\n\nSimple bridge that allows you to use Discord Rich Presence with Wine games/software.\n\nWorks by running a small program in the background that creates a [named pipe](https://learn.microsoft.com/en-us/windows/win32/ipc/named-pipes) `\\\\.\\pipe\\discord-ipc-0` inside the prefix and forwards all data to the pipe `/run/user/1000/discord-ipc-0`.\n\nThis bridge takes advantage of the Windows service implementation in Wine, eliminating the need to manually run any programs.\n\n---\n\n## Installation & Usage\n\nInstallation will copy itself to `C:\\windows\\bridge.exe` and create a Windows service.  \nLogs are stored in `C:\\windows\\logs\\bridge.log`.\n\n#### Installing inside a prefix\n\n##### Wine (~/.wine)\n\n- Double click `bridge.exe` and click `Install`.\n    - ![gui](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/gui.png)\n- To remove, the same process can be followed, but click `Remove` instead.\n\n*Note, an [extra step](https://github.com/EnderIce2/rpc-bridge?tab=readme-ov-file#macos) is needed on MacOS*\n\n##### Lutris\n\n- Click on a game and select `Run EXE inside Wine prefix`.\n    - ![lutris](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/lutris.png)\n- The same process can be followed as in Wine.\n\n##### Steam\n\n- Right click on the game and select `Properties`.\n- Under `Set Launch Options`, add the following:\n    - ![bridge.sh](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/steam_script.png \"Set Launch Options to the path of the bridge.sh\")\n- The `bridge.sh` script must be in the same directory as `bridge.exe`.\n\n#### If you use Flatpak\n\n- If you are running Steam, Lutris, etc in a Flatpak, you will need to allow the bridge to access the `/run/user/1000/discord-ipc-0` file.\n\t- ##### By using [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal)\n\t\t- Add `xdg-run/discord-ipc-0` under `Filesystems` category\n\t\t\t- ![flatseal](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/flatseal_permission.png)\n\t- ##### By using the terminal\n\t\t- Per application\n\t\t\t- `flatpak override --filesystem=xdg-run/discord-ipc-0 <flatpak app name>`\n\t\t- Globally\n\t\t\t- `flatpak override --user --filesystem=xdg-run/discord-ipc-0`\n\n##### MacOS\n\nThe steps for MacOS are almost the same, but due to the way `$TMPDIR` works, you will have to install a **LaunchAgent**.\n\n- Download the latest build from the [releases](https://github.com/EnderIce2/rpc-bridge/releases)\n- Open the archive and make the `launchd.sh` script executable by doing: `chmod +x launchd.sh`\n- To **install** the LaunchAgent, run `./launchd.sh install` and to **remove** it simply run `./launchd.sh remove`.\n\nThe script will add a LaunchAgent to your user, that will symlink the `$TMPDIR` directory to `/tmp/rpc-bridge/tmpdir`.\n\n*Note: You will need to launch the `bridge.exe` file manually in Wine at least once for it to register and launch automatically the next time.*\n\nMore details on how to install the LaunchAgent can be found in the [documentation](https://enderice2.github.io/rpc-bridge/).\n\n## Compiling from source\n\n- Install the `wine`, `gcc-mingw-w64` and `make` packages.\n- Open a terminal in the directory that contains this file and run `make`.\n- The compiled executable will be located in `build/bridge.exe`.\n\n## Credits\n\nThis project is inspired by [wine-discord-ipc-bridge](https://github.com/0e4ef622/wine-discord-ipc-bridge).\n\n---\n",
+    "ContentSha": "FIxjU6Al/OMXZlJh6REmXPPDC0o0V3YrVa4tmsMCWio=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Discord RPC Bridge for Wine\n\n![GitHub License](https://img.shields.io/github/license/EnderIce2/rpc-bridge?style=for-the-badge)\n![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/EnderIce2/rpc-bridge/total?style=for-the-badge)\n![GitHub Release](https://img.shields.io/github/v/release/EnderIce2/rpc-bridge?style=for-the-badge)\n\nSimple bridge that allows you to use Discord Rich Presence with Wine games/software.\n\nWorks by running a small program in the background that creates a [named pipe](https://learn.microsoft.com/en-us/windows/win32/ipc/named-pipes) `\\\\.\\pipe\\discord-ipc-0` inside the prefix and forwards all data to the pipe `/run/user/1000/discord-ipc-0`.\n\nThis bridge takes advantage of the Windows service implementation in Wine, eliminating the need to manually run any programs.\n\n---\n\n## Installation & Usage\n\nInstallation will copy itself to `C:\\windows\\bridge.exe` and create a Windows service.  \nLogs are stored in `C:\\windows\\logs\\bridge.log`.\n\n#### Installing inside a prefix\n\n##### Wine (~/.wine)\n\n- Double click `bridge.exe` and click `Install`.\n    - ![gui](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/gui.png)\n- To remove, the same process can be followed, but click `Remove` instead.\n\n*Note, an [extra step](https://github.com/EnderIce2/rpc-bridge?tab=readme-ov-file#macos) is needed on MacOS*\n\n##### Lutris\n\n- Click on a game and select `Run EXE inside Wine prefix`.\n    - ![lutris](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/lutris.png)\n- The same process can be followed as in Wine.\n\n##### Steam\n\n- Right click on the game and select `Properties`.\n- Under `Set Launch Options`, add the following:\n    - ![bridge.sh](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/steam_script.png \"Set Launch Options to the path of the bridge.sh\")\n- The `bridge.sh` script must be in the same directory as `bridge.exe`.\n\n#### If you use Flatpak\n\n- If you are running Steam, Lutris, etc in a Flatpak, you will need to allow the bridge to access the `/run/user/1000/discord-ipc-0` file.\n\t- ##### By using [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal)\n\t\t- Add `xdg-run/discord-ipc-0` under `Filesystems` category\n\t\t\t- ![flatseal](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/flatseal_permission.png)\n\t- ##### By using the terminal\n\t\t- Per application\n\t\t\t- `flatpak override --filesystem=xdg-run/discord-ipc-0 <flatpak app name>`\n\t\t- Globally\n\t\t\t- `flatpak override --user --filesystem=xdg-run/discord-ipc-0`\n\n##### MacOS\n\nThe steps for MacOS are almost the same, but due to the way `$TMPDIR` works, you will have to install a **LaunchAgent**.\n\n- Download the latest build from the [releases](https://github.com/EnderIce2/rpc-bridge/releases)\n- Open the archive and make the `launchd.sh` script executable by doing: `chmod +x launchd.sh`\n- To **install** the LaunchAgent, run `./launchd.sh install` and to **remove** it simply run `./launchd.sh remove`.\n\nThe script will add a LaunchAgent to your user, that will symlink the `$TMPDIR` directory to `/tmp/rpc-bridge/tmpdir`.\n\n*Note: You will need to launch the `bridge.exe` file manually in Wine at least once for it to register and launch automatically the next time.*\n\nMore details on how to install the LaunchAgent can be found in the [documentation](https://enderice2.github.io/rpc-bridge/).\n\n## Compiling from source\n\n- Install the `wine`, `gcc-mingw-w64` and `make` packages.\n- Open a terminal in the directory that contains this file and run `make`.\n- The compiled executable will be located in `build/bridge.exe`.\n\n## Credits\n\nThis project is inspired by [wine-discord-ipc-bridge](https://github.com/0e4ef622/wine-discord-ipc-bridge).\n\n---\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Z0xlB5xDMMCx96e22gtSY8VVFKM4H50TuVbdKQcOfvI=",
+        "originContent": "# Discord RPC Bridge for Wine",
+        "translatedContent": "# Discord RPC Bridge for Wine"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "LtznOdsa/Mr9dewbPxuPFM4k2jlsrgUCIiTOeF/u5UQ=",
+        "originContent": "![GitHub License](https://img.shields.io/github/license/EnderIce2/rpc-bridge?style=for-the-badge)",
+        "translatedContent": "![GitHub License](https://img.shields.io/github/license/EnderIce2/rpc-bridge?style=for-the-badge)"
+      },
+      {
+        "row": 4,
+        "rowsha": "QnSZs5LDONsWQeZ5qIfhIXQOzBCeRX2Xhgh3R7lX7aw=",
+        "originContent": "![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/EnderIce2/rpc-bridge/total?style=for-the-badge)",
+        "translatedContent": "![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/EnderIce2/rpc-bridge/total?style=for-the-badge)"
+      },
+      {
+        "row": 5,
+        "rowsha": "UPccmoqYWZ6UZqYV+GYYjcFnfA1WLVkYwGf/lWYeM/o=",
+        "originContent": "![GitHub Release](https://img.shields.io/github/v/release/EnderIce2/rpc-bridge?style=for-the-badge)",
+        "translatedContent": "![GitHub Release](https://img.shields.io/github/v/release/EnderIce2/rpc-bridge?style=for-the-badge)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "+IlLDCqL1CoHIP7qPyRH//0F0UfsDvTJOhCeokV5898=",
+        "originContent": "Simple bridge that allows you to use Discord Rich Presence with Wine games/software.",
+        "translatedContent": "Simple bridge that allows you to use Discord Rich Presence with Wine games/software."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "1DACFuUeQG1nLPPZEB1n+Y79g5JHlrZTP7/8h5YeADs=",
+        "originContent": "Works by running a small program in the background that creates a [named pipe](https://learn.microsoft.com/en-us/windows/win32/ipc/named-pipes) `\\\\.\\pipe\\discord-ipc-0` inside the prefix and forwards all data to the pipe `/run/user/1000/discord-ipc-0`.",
+        "translatedContent": "Works by running a small program in the background that creates a [named pipe](https://learn.microsoft.com/en-us/windows/win32/ipc/named-pipes) `\\\\.\\pipe\\discord-ipc-0` inside the prefix and forwards all data to the pipe `/run/user/1000/discord-ipc-0`."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "RvhGk+3JpejZiQCp9Q8wtHuZ+BVddLY37inaTo7ZaVA=",
+        "originContent": "This bridge takes advantage of the Windows service implementation in Wine, eliminating the need to manually run any programs.",
+        "translatedContent": "This bridge takes advantage of the Windows service implementation in Wine, eliminating the need to manually run any programs."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "nJNiQsx1d6ZDVGRoTddQsgptdOIE3lsv/bYsNxPzIwA=",
+        "originContent": "## Installation & Usage",
+        "translatedContent": "## Installation & Usage"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "TfVSJ1yMAgqfHqnPDs2t42hSRNVk2AGd1uuuIMXoLD4=",
+        "originContent": "Installation will copy itself to `C:\\windows\\bridge.exe` and create a Windows service.  ",
+        "translatedContent": "Installation will copy itself to `C:\\windows\\bridge.exe` and create a Windows service.  "
+      },
+      {
+        "row": 18,
+        "rowsha": "gUFVgCgPLj18JRUfj7OSg3dOGQzKPPppZr43UBCuwXE=",
+        "originContent": "Logs are stored in `C:\\windows\\logs\\bridge.log`.",
+        "translatedContent": "Logs are stored in `C:\\windows\\logs\\bridge.log`."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "cftSqI3FVUkVXR/rpWGRpowW0RqT3vyO222JCZaw6Tw=",
+        "originContent": "#### Installing inside a prefix",
+        "translatedContent": "#### Installing inside a prefix"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "VKEe329Kk3va14C5XDbAOm5yjVwL9fmvvwLgpgSPLII=",
+        "originContent": "##### Wine (~/.wine)",
+        "translatedContent": "##### Wine (~/.wine)"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "FTPrF8LlKrir2XoZc28qQPuFbUPdP6Bu2Tt1bWLwP84=",
+        "originContent": "- Double click `bridge.exe` and click `Install`.",
+        "translatedContent": "- Double click `bridge.exe` and click `Install`."
+      },
+      {
+        "row": 25,
+        "rowsha": "5PXUF/S5FKR4LF6Sx5yT9kubt9Hhn4ut44Pd2dM30ks=",
+        "originContent": "    - ![gui](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/gui.png)",
+        "translatedContent": "    - ![gui](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/gui.png)"
+      },
+      {
+        "row": 26,
+        "rowsha": "u8Q7ScIGY6+p0CKJ+AUV6SWpnOku3ob3wCJFLMJS36s=",
+        "originContent": "- To remove, the same process can be followed, but click `Remove` instead.",
+        "translatedContent": "- To remove, the same process can be followed, but click `Remove` instead."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "IW51krzCLpd8qppGN+GjyI/9avGcToEr4Ec6HBBFxl4=",
+        "originContent": "*Note, an [extra step](https://github.com/EnderIce2/rpc-bridge?tab=readme-ov-file#macos) is needed on MacOS*",
+        "translatedContent": "*Note, an [extra step](https://github.com/EnderIce2/rpc-bridge?tab=readme-ov-file#macos) is needed on MacOS*"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "3lQ5N1/UV4P+a9WE/LXdKp/2vOclZUO+IQq3IPqkto4=",
+        "originContent": "##### Lutris",
+        "translatedContent": "##### Lutris"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "H+KGA/J98+uSfL3BrPhBw52WXQw1Cl33W12qeG7ZNfw=",
+        "originContent": "- Click on a game and select `Run EXE inside Wine prefix`.",
+        "translatedContent": "- Click on a game and select `Run EXE inside Wine prefix`."
+      },
+      {
+        "row": 33,
+        "rowsha": "14P2Sfddd/yqUJrA1wawUeDF7wIvDQ7jPCZvthUiYvg=",
+        "originContent": "    - ![lutris](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/lutris.png)",
+        "translatedContent": "    - ![lutris](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/lutris.png)"
+      },
+      {
+        "row": 34,
+        "rowsha": "wOA0n85EA8Rwm7CCx04F3b/BSaj6Vqw4iTrP4nfqjew=",
+        "originContent": "- The same process can be followed as in Wine.",
+        "translatedContent": "- The same process can be followed as in Wine."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "l6+4o1+snVjitENW3Ogzuag1OHgXl2e9qTE+qu92gXg=",
+        "originContent": "##### Steam",
+        "translatedContent": "##### Steam"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "RKL/3xLxqKKK37dCfIt4xdHJHZtANGKYEW+gQNAGe0Q=",
+        "originContent": "- Right click on the game and select `Properties`.",
+        "translatedContent": "- Right click on the game and select `Properties`."
+      },
+      {
+        "row": 39,
+        "rowsha": "R9ErqiXwx7mnyCyeoF7shKmRMGK5Fv1t3sPG/dXnLO4=",
+        "originContent": "- Under `Set Launch Options`, add the following:",
+        "translatedContent": "- Under `Set Launch Options`, add the following:"
+      },
+      {
+        "row": 40,
+        "rowsha": "AKMP/iRi1NyZCuUhmGduy5kbjQWy3L2LuM1PXMFkxpU=",
+        "originContent": "    - ![bridge.sh](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/steam_script.png \"Set Launch Options to the path of the bridge.sh\")",
+        "translatedContent": "    - ![bridge.sh](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/steam_script.png \"Set Launch Options to the path of the bridge.sh\")"
+      },
+      {
+        "row": 41,
+        "rowsha": "nmMJOX9dvvI0aW2ED7KACyXAwjisWeF8Zxm0yL/Sk4s=",
+        "originContent": "- The `bridge.sh` script must be in the same directory as `bridge.exe`.",
+        "translatedContent": "- The `bridge.sh` script must be in the same directory as `bridge.exe`."
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "RQGifDgV1kcVOvbqw9d639rselyCZ+N9OJnCRjkVaAg=",
+        "originContent": "#### If you use Flatpak",
+        "translatedContent": "#### If you use Flatpak"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "CsG8+mYqIJIgkqPu6hZyGs5BgnwX2FFm3t5w6H3OHGg=",
+        "originContent": "- If you are running Steam, Lutris, etc in a Flatpak, you will need to allow the bridge to access the `/run/user/1000/discord-ipc-0` file.",
+        "translatedContent": "- If you are running Steam, Lutris, etc in a Flatpak, you will need to allow the bridge to access the `/run/user/1000/discord-ipc-0` file."
+      },
+      {
+        "row": 46,
+        "rowsha": "0Uz0xMxIyTNqYNW6TXXCD1Iv/Fqk8HCQYJFhGPjRFoM=",
+        "originContent": "\t- ##### By using [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal)",
+        "translatedContent": "\t- ##### By using [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal)"
+      },
+      {
+        "row": 47,
+        "rowsha": "0n3uxNXWCq7ry0WZEq5xdDTebI+3kZgpI7xmcTlB0zI=",
+        "originContent": "\t\t- Add `xdg-run/discord-ipc-0` under `Filesystems` category",
+        "translatedContent": "\t\t- Add `xdg-run/discord-ipc-0` under `Filesystems` category"
+      },
+      {
+        "row": 48,
+        "rowsha": "dUbb/3rJn4mcXzuSt8Z4N19rb0h5ImMKxmtmxrAPuKc=",
+        "originContent": "\t\t\t- ![flatseal](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/flatseal_permission.png)",
+        "translatedContent": "\t\t\t- ![flatseal](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/flatseal_permission.png)"
+      },
+      {
+        "row": 49,
+        "rowsha": "f3XSY9YMDen5Gfv7/9ULz9vDPbmR9e6Zdxm/tMELed0=",
+        "originContent": "\t- ##### By using the terminal",
+        "translatedContent": "\t- ##### By using the terminal"
+      },
+      {
+        "row": 50,
+        "rowsha": "QLEL+BM0c+picSZGo+QYJtNya+qkgKFLxqNEnb3IQLs=",
+        "originContent": "\t\t- Per application",
+        "translatedContent": "\t\t- Per application"
+      },
+      {
+        "row": 51,
+        "rowsha": "C81z0Qrmk5x3X19QgbCEgf5juBek6+AxiLUsVfCbBWs=",
+        "originContent": "\t\t\t- `flatpak override --filesystem=xdg-run/discord-ipc-0 <flatpak app name>`",
+        "translatedContent": "\t\t\t- `flatpak override --filesystem=xdg-run/discord-ipc-0 <flatpak app name>`"
+      },
+      {
+        "row": 52,
+        "rowsha": "mFlpVQTrAzsnZcdFirAnFuNYDaWZWrXCVxs2RZFAc1g=",
+        "originContent": "\t\t- Globally",
+        "translatedContent": "\t\t- Globally"
+      },
+      {
+        "row": 53,
+        "rowsha": "3BGyqM5Jw+WxS1zhOyk8E5b7nI1KHvoSqaugIA17kok=",
+        "originContent": "\t\t\t- `flatpak override --user --filesystem=xdg-run/discord-ipc-0`",
+        "translatedContent": "\t\t\t- `flatpak override --user --filesystem=xdg-run/discord-ipc-0`"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "O91DJgN3mWZSfJHTktUYfQk4u6jGQMgNU6IRKHXjBhk=",
+        "originContent": "##### MacOS",
+        "translatedContent": "##### MacOS"
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "v2ddEsQI54FPlhh0ML5XURkmxPEkVx8xGCp0LF8Gu90=",
+        "originContent": "The steps for MacOS are almost the same, but due to the way `$TMPDIR` works, you will have to install a **LaunchAgent**.",
+        "translatedContent": "The steps for MacOS are almost the same, but due to the way `$TMPDIR` works, you will have to install a **LaunchAgent**."
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "XiB0s6V5pXfBRyrNBcZXqeBQjrsJqR9wKV6WSXrrkfA=",
+        "originContent": "- Download the latest build from the [releases](https://github.com/EnderIce2/rpc-bridge/releases)",
+        "translatedContent": "- Download the latest build from the [releases](https://github.com/EnderIce2/rpc-bridge/releases)"
+      },
+      {
+        "row": 60,
+        "rowsha": "ZFBZajtOH2yq3/dlYt9PexpjZNEiRWJmvoqWpBFd1ow=",
+        "originContent": "- Open the archive and make the `launchd.sh` script executable by doing: `chmod +x launchd.sh`",
+        "translatedContent": "- Open the archive and make the `launchd.sh` script executable by doing: `chmod +x launchd.sh`"
+      },
+      {
+        "row": 61,
+        "rowsha": "w1q5ORbcUCb62IYYgypRtFHsVOP4Eix7T+eHQnH9RO8=",
+        "originContent": "- To **install** the LaunchAgent, run `./launchd.sh install` and to **remove** it simply run `./launchd.sh remove`.",
+        "translatedContent": "- To **install** the LaunchAgent, run `./launchd.sh install` and to **remove** it simply run `./launchd.sh remove`."
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "rM7d38BYzd6MsYiKHQPxG4CMQYHGSYo7aPPuZ1udHOs=",
+        "originContent": "The script will add a LaunchAgent to your user, that will symlink the `$TMPDIR` directory to `/tmp/rpc-bridge/tmpdir`.",
+        "translatedContent": "The script will add a LaunchAgent to your user, that will symlink the `$TMPDIR` directory to `/tmp/rpc-bridge/tmpdir`."
+      },
+      {
+        "row": 64,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "cfhd4hqXxqOt+fb/O2h84a1Re6ZwkCijG3rtAf0VUxI=",
+        "originContent": "*Note: You will need to launch the `bridge.exe` file manually in Wine at least once for it to register and launch automatically the next time.*",
+        "translatedContent": "*Note: You will need to launch the `bridge.exe` file manually in Wine at least once for it to register and launch automatically the next time.*"
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "ngoPgoOkyOsIrLz/5TVDRvPHlujRj7FChHvSYQnJDc0=",
+        "originContent": "More details on how to install the LaunchAgent can be found in the [documentation](https://enderice2.github.io/rpc-bridge/).",
+        "translatedContent": "More details on how to install the LaunchAgent can be found in the [documentation](https://enderice2.github.io/rpc-bridge/)."
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "xWwv/Fy+X3mb6y200swRhxjSFpU/lHY3Mb1GqNad1vA=",
+        "originContent": "## Compiling from source",
+        "translatedContent": "## Compiling from source"
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "c0QmqYrVBPOm4Z36359GR6IIFHBi82gmOEz0lkKejYY=",
+        "originContent": "- Install the `wine`, `gcc-mingw-w64` and `make` packages.",
+        "translatedContent": "- Install the `wine`, `gcc-mingw-w64` and `make` packages."
+      },
+      {
+        "row": 72,
+        "rowsha": "6SjbrmLQDHE8yB7DOiPFbPM8KDf4gVmcTmoZwALbh84=",
+        "originContent": "- Open a terminal in the directory that contains this file and run `make`.",
+        "translatedContent": "- Open a terminal in the directory that contains this file and run `make`."
+      },
+      {
+        "row": 73,
+        "rowsha": "v7DlOMNwRZIt7MmUnq1+2ua0sv28b4TSrzlxZv/MmsU=",
+        "originContent": "- The compiled executable will be located in `build/bridge.exe`.",
+        "translatedContent": "- The compiled executable will be located in `build/bridge.exe`."
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 75,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "## Credits"
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 77,
+        "rowsha": "yRG/A53a+eDxqBdCucwumToLkL0Ju6QZiXSEPDt5IQ0=",
+        "originContent": "This project is inspired by [wine-discord-ipc-bridge](https://github.com/0e4ef622/wine-discord-ipc-bridge).",
+        "translatedContent": "This project is inspired by [wine-discord-ipc-bridge](https://github.com/0e4ef622/wine-discord-ipc-bridge)."
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 80,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

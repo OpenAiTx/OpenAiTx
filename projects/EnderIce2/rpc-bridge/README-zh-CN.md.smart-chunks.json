@@ -1,0 +1,495 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Discord RPC Bridge for Wine\n\n![GitHub License](https://img.shields.io/github/license/EnderIce2/rpc-bridge?style=for-the-badge)\n![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/EnderIce2/rpc-bridge/total?style=for-the-badge)\n![GitHub Release](https://img.shields.io/github/v/release/EnderIce2/rpc-bridge?style=for-the-badge)\n\nSimple bridge that allows you to use Discord Rich Presence with Wine games/software.\n\nWorks by running a small program in the background that creates a [named pipe](https://learn.microsoft.com/en-us/windows/win32/ipc/named-pipes) `\\\\.\\pipe\\discord-ipc-0` inside the prefix and forwards all data to the pipe `/run/user/1000/discord-ipc-0`.\n\nThis bridge takes advantage of the Windows service implementation in Wine, eliminating the need to manually run any programs.\n\n---\n\n## Installation & Usage\n\nInstallation will copy itself to `C:\\windows\\bridge.exe` and create a Windows service.  \nLogs are stored in `C:\\windows\\logs\\bridge.log`.\n\n#### Installing inside a prefix\n\n##### Wine (~/.wine)\n\n- Double click `bridge.exe` and click `Install`.\n    - ![gui](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/gui.png)\n- To remove, the same process can be followed, but click `Remove` instead.\n\n*Note, an [extra step](https://github.com/EnderIce2/rpc-bridge?tab=readme-ov-file#macos) is needed on MacOS*\n\n##### Lutris\n\n- Click on a game and select `Run EXE inside Wine prefix`.\n    - ![lutris](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/lutris.png)\n- The same process can be followed as in Wine.\n\n##### Steam\n\n- Right click on the game and select `Properties`.\n- Under `Set Launch Options`, add the following:\n    - ![bridge.sh](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/steam_script.png \"Set Launch Options to the path of the bridge.sh\")\n- The `bridge.sh` script must be in the same directory as `bridge.exe`.\n\n#### If you use Flatpak\n\n- If you are running Steam, Lutris, etc in a Flatpak, you will need to allow the bridge to access the `/run/user/1000/discord-ipc-0` file.\n\t- ##### By using [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal)\n\t\t- Add `xdg-run/discord-ipc-0` under `Filesystems` category\n\t\t\t- ![flatseal](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/flatseal_permission.png)\n\t- ##### By using the terminal\n\t\t- Per application\n\t\t\t- `flatpak override --filesystem=xdg-run/discord-ipc-0 <flatpak app name>`\n\t\t- Globally\n\t\t\t- `flatpak override --user --filesystem=xdg-run/discord-ipc-0`\n\n##### MacOS\n\nThe steps for MacOS are almost the same, but due to the way `$TMPDIR` works, you will have to install a **LaunchAgent**.\n\n- Download the latest build from the [releases](https://github.com/EnderIce2/rpc-bridge/releases)\n- Open the archive and make the `launchd.sh` script executable by doing: `chmod +x launchd.sh`\n- To **install** the LaunchAgent, run `./launchd.sh install` and to **remove** it simply run `./launchd.sh remove`.\n\nThe script will add a LaunchAgent to your user, that will symlink the `$TMPDIR` directory to `/tmp/rpc-bridge/tmpdir`.\n\n*Note: You will need to launch the `bridge.exe` file manually in Wine at least once for it to register and launch automatically the next time.*\n\nMore details on how to install the LaunchAgent can be found in the [documentation](https://enderice2.github.io/rpc-bridge/).\n\n## Compiling from source\n\n- Install the `wine`, `gcc-mingw-w64` and `make` packages.\n- Open a terminal in the directory that contains this file and run `make`.\n- The compiled executable will be located in `build/bridge.exe`.\n\n## Credits\n\nThis project is inspired by [wine-discord-ipc-bridge](https://github.com/0e4ef622/wine-discord-ipc-bridge).\n\n---\n",
+    "ContentSha": "FIxjU6Al/OMXZlJh6REmXPPDC0o0V3YrVa4tmsMCWio=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<translate-content># Wine 的 Discord RPC 桥接\n\n![GitHub 许可证](https://img.shields.io/github/license/EnderIce2/rpc-bridge?style=for-the-badge)\n![GitHub 下载量（所有资源，所有版本）](https://img.shields.io/github/downloads/EnderIce2/rpc-bridge/total?style=for-the-badge)\n![GitHub 发布版本](https://img.shields.io/github/v/release/EnderIce2/rpc-bridge?style=for-the-badge)\n\n一个简单的桥接程序，允许你在 Wine 游戏/软件中使用 Discord 富状态。\n\n通过在前缀内运行一个小程序，创建一个名为 [named pipe](https://learn.microsoft.com/en-us/windows/win32/ipc/named-pipes) `\\\\.\\pipe\\discord-ipc-0` 的管道，并将所有数据转发到管道 `/run/user/1000/discord-ipc-0`。\n\n此桥接利用了 Wine 中的 Windows 服务实现，省去了手动运行程序的需求。\n\n---\n\n## 安装与使用\n\n安装程序会将自身复制到 `C:\\windows\\bridge.exe` 并创建一个 Windows 服务。  \n日志存储在 `C:\\windows\\logs\\bridge.log`。\n\n#### 在前缀内安装\n\n##### Wine (~/.wine)\n\n- 双击 `bridge.exe` 并点击 `Install`。\n    - ![gui](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/gui.png)\n- 若要移除，可按相同流程操作，但点击 `Remove`。\n\n*注意，MacOS 需要额外的[步骤](https://github.com/EnderIce2/rpc-bridge?tab=readme-ov-file#macos)*\n\n##### Lutris\n\n- 点击某游戏，选择 `Run EXE inside Wine prefix`。\n    - ![lutris](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/lutris.png)\n- 操作流程与 Wine 相同。\n\n##### Steam\n\n- 右击游戏，选择 `Properties`。\n- 在 `Set Launch Options` 中添加以下内容：\n    - ![bridge.sh](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/steam_script.png \"设置启动选项为 bridge.sh 的路径\")\n- `bridge.sh` 脚本必须与 `bridge.exe` 位于同一目录。\n\n#### 如果你使用 Flatpak\n\n- 如果你在 Flatpak 中运行 Steam、Lutris 等，需要允许桥接程序访问 `/run/user/1000/discord-ipc-0` 文件。\n\t- ##### 使用 [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal)\n\t\t- 在 `Filesystems` 分类中添加 `xdg-run/discord-ipc-0`\n\t\t\t- ![flatseal](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/flatseal_permission.png)\n\t- ##### 通过终端\n\t\t- 针对单个应用\n\t\t\t- `flatpak override --filesystem=xdg-run/discord-ipc-0 <flatpak 应用名>`\n\t\t- 全局设置\n\t\t\t- `flatpak override --user --filesystem=xdg-run/discord-ipc-0`\n\n##### MacOS\n\nMacOS 的步骤几乎相同，但由于 `$TMPDIR` 的工作方式不同，你需要安装一个 **LaunchAgent**。\n\n- 从[发布页面](https://github.com/EnderIce2/rpc-bridge/releases)下载最新版本\n- 解压后，将 `launchd.sh` 脚本设为可执行：`chmod +x launchd.sh`\n- 运行 `./launchd.sh install` 来**安装** LaunchAgent，运行 `./launchd.sh remove` 来**移除**。\n\n该脚本会为你的用户添加一个 LaunchAgent，将 `$TMPDIR` 目录符号链接到 `/tmp/rpc-bridge/tmpdir`。\n\n*注意：你至少需要手动在 Wine 中启动一次 `bridge.exe`，以便它能注册并在下次自动启动。*\n\n关于如何安装 LaunchAgent 的更多细节，请参见[文档](https://enderice2.github.io/rpc-bridge/)。\n\n## 从源码编译\n\n- 安装 `wine`、`gcc-mingw-w64` 和 `make` 软件包。\n- 在包含此文件的目录打开终端，运行 `make`。\n- 编译后的可执行文件位于 `build/bridge.exe`。\n\n## 致谢\n\n本项目灵感来源于 [wine-discord-ipc-bridge](https://github.com/0e4ef622/wine-discord-ipc-bridge)。\n\n---\n</translate-content>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Z0xlB5xDMMCx96e22gtSY8VVFKM4H50TuVbdKQcOfvI=",
+        "originContent": "# Discord RPC Bridge for Wine",
+        "translatedContent": "<translate-content># Wine 的 Discord RPC 桥接"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "LtznOdsa/Mr9dewbPxuPFM4k2jlsrgUCIiTOeF/u5UQ=",
+        "originContent": "![GitHub License](https://img.shields.io/github/license/EnderIce2/rpc-bridge?style=for-the-badge)",
+        "translatedContent": "![GitHub 许可证](https://img.shields.io/github/license/EnderIce2/rpc-bridge?style=for-the-badge)"
+      },
+      {
+        "row": 4,
+        "rowsha": "QnSZs5LDONsWQeZ5qIfhIXQOzBCeRX2Xhgh3R7lX7aw=",
+        "originContent": "![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/EnderIce2/rpc-bridge/total?style=for-the-badge)",
+        "translatedContent": "![GitHub 下载量（所有资源，所有版本）](https://img.shields.io/github/downloads/EnderIce2/rpc-bridge/total?style=for-the-badge)"
+      },
+      {
+        "row": 5,
+        "rowsha": "UPccmoqYWZ6UZqYV+GYYjcFnfA1WLVkYwGf/lWYeM/o=",
+        "originContent": "![GitHub Release](https://img.shields.io/github/v/release/EnderIce2/rpc-bridge?style=for-the-badge)",
+        "translatedContent": "![GitHub 发布版本](https://img.shields.io/github/v/release/EnderIce2/rpc-bridge?style=for-the-badge)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "+IlLDCqL1CoHIP7qPyRH//0F0UfsDvTJOhCeokV5898=",
+        "originContent": "Simple bridge that allows you to use Discord Rich Presence with Wine games/software.",
+        "translatedContent": "一个简单的桥接程序，允许你在 Wine 游戏/软件中使用 Discord 富状态。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "1DACFuUeQG1nLPPZEB1n+Y79g5JHlrZTP7/8h5YeADs=",
+        "originContent": "Works by running a small program in the background that creates a [named pipe](https://learn.microsoft.com/en-us/windows/win32/ipc/named-pipes) `\\\\.\\pipe\\discord-ipc-0` inside the prefix and forwards all data to the pipe `/run/user/1000/discord-ipc-0`.",
+        "translatedContent": "通过在前缀内运行一个小程序，创建一个名为 [named pipe](https://learn.microsoft.com/en-us/windows/win32/ipc/named-pipes) `\\\\.\\pipe\\discord-ipc-0` 的管道，并将所有数据转发到管道 `/run/user/1000/discord-ipc-0`。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "RvhGk+3JpejZiQCp9Q8wtHuZ+BVddLY37inaTo7ZaVA=",
+        "originContent": "This bridge takes advantage of the Windows service implementation in Wine, eliminating the need to manually run any programs.",
+        "translatedContent": "此桥接利用了 Wine 中的 Windows 服务实现，省去了手动运行程序的需求。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "nJNiQsx1d6ZDVGRoTddQsgptdOIE3lsv/bYsNxPzIwA=",
+        "originContent": "## Installation & Usage",
+        "translatedContent": "## 安装与使用"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "TfVSJ1yMAgqfHqnPDs2t42hSRNVk2AGd1uuuIMXoLD4=",
+        "originContent": "Installation will copy itself to `C:\\windows\\bridge.exe` and create a Windows service.  ",
+        "translatedContent": "安装程序会将自身复制到 `C:\\windows\\bridge.exe` 并创建一个 Windows 服务。  "
+      },
+      {
+        "row": 18,
+        "rowsha": "gUFVgCgPLj18JRUfj7OSg3dOGQzKPPppZr43UBCuwXE=",
+        "originContent": "Logs are stored in `C:\\windows\\logs\\bridge.log`.",
+        "translatedContent": "日志存储在 `C:\\windows\\logs\\bridge.log`。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "cftSqI3FVUkVXR/rpWGRpowW0RqT3vyO222JCZaw6Tw=",
+        "originContent": "#### Installing inside a prefix",
+        "translatedContent": "#### 在前缀内安装"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "VKEe329Kk3va14C5XDbAOm5yjVwL9fmvvwLgpgSPLII=",
+        "originContent": "##### Wine (~/.wine)",
+        "translatedContent": "##### Wine (~/.wine)"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "FTPrF8LlKrir2XoZc28qQPuFbUPdP6Bu2Tt1bWLwP84=",
+        "originContent": "- Double click `bridge.exe` and click `Install`.",
+        "translatedContent": "- 双击 `bridge.exe` 并点击 `Install`。"
+      },
+      {
+        "row": 25,
+        "rowsha": "5PXUF/S5FKR4LF6Sx5yT9kubt9Hhn4ut44Pd2dM30ks=",
+        "originContent": "    - ![gui](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/gui.png)",
+        "translatedContent": "    - ![gui](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/gui.png)"
+      },
+      {
+        "row": 26,
+        "rowsha": "u8Q7ScIGY6+p0CKJ+AUV6SWpnOku3ob3wCJFLMJS36s=",
+        "originContent": "- To remove, the same process can be followed, but click `Remove` instead.",
+        "translatedContent": "- 若要移除，可按相同流程操作，但点击 `Remove`。"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "IW51krzCLpd8qppGN+GjyI/9avGcToEr4Ec6HBBFxl4=",
+        "originContent": "*Note, an [extra step](https://github.com/EnderIce2/rpc-bridge?tab=readme-ov-file#macos) is needed on MacOS*",
+        "translatedContent": "*注意，MacOS 需要额外的[步骤](https://github.com/EnderIce2/rpc-bridge?tab=readme-ov-file#macos)*"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "3lQ5N1/UV4P+a9WE/LXdKp/2vOclZUO+IQq3IPqkto4=",
+        "originContent": "##### Lutris",
+        "translatedContent": "##### Lutris"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "H+KGA/J98+uSfL3BrPhBw52WXQw1Cl33W12qeG7ZNfw=",
+        "originContent": "- Click on a game and select `Run EXE inside Wine prefix`.",
+        "translatedContent": "- 点击某游戏，选择 `Run EXE inside Wine prefix`。"
+      },
+      {
+        "row": 33,
+        "rowsha": "14P2Sfddd/yqUJrA1wawUeDF7wIvDQ7jPCZvthUiYvg=",
+        "originContent": "    - ![lutris](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/lutris.png)",
+        "translatedContent": "    - ![lutris](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/lutris.png)"
+      },
+      {
+        "row": 34,
+        "rowsha": "wOA0n85EA8Rwm7CCx04F3b/BSaj6Vqw4iTrP4nfqjew=",
+        "originContent": "- The same process can be followed as in Wine.",
+        "translatedContent": "- 操作流程与 Wine 相同。"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "l6+4o1+snVjitENW3Ogzuag1OHgXl2e9qTE+qu92gXg=",
+        "originContent": "##### Steam",
+        "translatedContent": "##### Steam"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "RKL/3xLxqKKK37dCfIt4xdHJHZtANGKYEW+gQNAGe0Q=",
+        "originContent": "- Right click on the game and select `Properties`.",
+        "translatedContent": "- 右击游戏，选择 `Properties`。"
+      },
+      {
+        "row": 39,
+        "rowsha": "R9ErqiXwx7mnyCyeoF7shKmRMGK5Fv1t3sPG/dXnLO4=",
+        "originContent": "- Under `Set Launch Options`, add the following:",
+        "translatedContent": "- 在 `Set Launch Options` 中添加以下内容："
+      },
+      {
+        "row": 40,
+        "rowsha": "AKMP/iRi1NyZCuUhmGduy5kbjQWy3L2LuM1PXMFkxpU=",
+        "originContent": "    - ![bridge.sh](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/steam_script.png \"Set Launch Options to the path of the bridge.sh\")",
+        "translatedContent": "    - ![bridge.sh](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/steam_script.png \"设置启动选项为 bridge.sh 的路径\")"
+      },
+      {
+        "row": 41,
+        "rowsha": "nmMJOX9dvvI0aW2ED7KACyXAwjisWeF8Zxm0yL/Sk4s=",
+        "originContent": "- The `bridge.sh` script must be in the same directory as `bridge.exe`.",
+        "translatedContent": "- `bridge.sh` 脚本必须与 `bridge.exe` 位于同一目录。"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "RQGifDgV1kcVOvbqw9d639rselyCZ+N9OJnCRjkVaAg=",
+        "originContent": "#### If you use Flatpak",
+        "translatedContent": "#### 如果你使用 Flatpak"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "CsG8+mYqIJIgkqPu6hZyGs5BgnwX2FFm3t5w6H3OHGg=",
+        "originContent": "- If you are running Steam, Lutris, etc in a Flatpak, you will need to allow the bridge to access the `/run/user/1000/discord-ipc-0` file.",
+        "translatedContent": "- 如果你在 Flatpak 中运行 Steam、Lutris 等，需要允许桥接程序访问 `/run/user/1000/discord-ipc-0` 文件。"
+      },
+      {
+        "row": 46,
+        "rowsha": "0Uz0xMxIyTNqYNW6TXXCD1Iv/Fqk8HCQYJFhGPjRFoM=",
+        "originContent": "\t- ##### By using [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal)",
+        "translatedContent": "\t- ##### 使用 [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal)"
+      },
+      {
+        "row": 47,
+        "rowsha": "0n3uxNXWCq7ry0WZEq5xdDTebI+3kZgpI7xmcTlB0zI=",
+        "originContent": "\t\t- Add `xdg-run/discord-ipc-0` under `Filesystems` category",
+        "translatedContent": "\t\t- 在 `Filesystems` 分类中添加 `xdg-run/discord-ipc-0`"
+      },
+      {
+        "row": 48,
+        "rowsha": "dUbb/3rJn4mcXzuSt8Z4N19rb0h5ImMKxmtmxrAPuKc=",
+        "originContent": "\t\t\t- ![flatseal](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/flatseal_permission.png)",
+        "translatedContent": "\t\t\t- ![flatseal](https://raw.githubusercontent.com/EnderIce2/rpc-bridge/master/docs/assets/flatseal_permission.png)"
+      },
+      {
+        "row": 49,
+        "rowsha": "f3XSY9YMDen5Gfv7/9ULz9vDPbmR9e6Zdxm/tMELed0=",
+        "originContent": "\t- ##### By using the terminal",
+        "translatedContent": "\t- ##### 通过终端"
+      },
+      {
+        "row": 50,
+        "rowsha": "QLEL+BM0c+picSZGo+QYJtNya+qkgKFLxqNEnb3IQLs=",
+        "originContent": "\t\t- Per application",
+        "translatedContent": "\t\t- 针对单个应用"
+      },
+      {
+        "row": 51,
+        "rowsha": "C81z0Qrmk5x3X19QgbCEgf5juBek6+AxiLUsVfCbBWs=",
+        "originContent": "\t\t\t- `flatpak override --filesystem=xdg-run/discord-ipc-0 <flatpak app name>`",
+        "translatedContent": "\t\t\t- `flatpak override --filesystem=xdg-run/discord-ipc-0 <flatpak 应用名>`"
+      },
+      {
+        "row": 52,
+        "rowsha": "mFlpVQTrAzsnZcdFirAnFuNYDaWZWrXCVxs2RZFAc1g=",
+        "originContent": "\t\t- Globally",
+        "translatedContent": "\t\t- 全局设置"
+      },
+      {
+        "row": 53,
+        "rowsha": "3BGyqM5Jw+WxS1zhOyk8E5b7nI1KHvoSqaugIA17kok=",
+        "originContent": "\t\t\t- `flatpak override --user --filesystem=xdg-run/discord-ipc-0`",
+        "translatedContent": "\t\t\t- `flatpak override --user --filesystem=xdg-run/discord-ipc-0`"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "O91DJgN3mWZSfJHTktUYfQk4u6jGQMgNU6IRKHXjBhk=",
+        "originContent": "##### MacOS",
+        "translatedContent": "##### MacOS"
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "v2ddEsQI54FPlhh0ML5XURkmxPEkVx8xGCp0LF8Gu90=",
+        "originContent": "The steps for MacOS are almost the same, but due to the way `$TMPDIR` works, you will have to install a **LaunchAgent**.",
+        "translatedContent": "MacOS 的步骤几乎相同，但由于 `$TMPDIR` 的工作方式不同，你需要安装一个 **LaunchAgent**。"
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "XiB0s6V5pXfBRyrNBcZXqeBQjrsJqR9wKV6WSXrrkfA=",
+        "originContent": "- Download the latest build from the [releases](https://github.com/EnderIce2/rpc-bridge/releases)",
+        "translatedContent": "- 从[发布页面](https://github.com/EnderIce2/rpc-bridge/releases)下载最新版本"
+      },
+      {
+        "row": 60,
+        "rowsha": "ZFBZajtOH2yq3/dlYt9PexpjZNEiRWJmvoqWpBFd1ow=",
+        "originContent": "- Open the archive and make the `launchd.sh` script executable by doing: `chmod +x launchd.sh`",
+        "translatedContent": "- 解压后，将 `launchd.sh` 脚本设为可执行：`chmod +x launchd.sh`"
+      },
+      {
+        "row": 61,
+        "rowsha": "w1q5ORbcUCb62IYYgypRtFHsVOP4Eix7T+eHQnH9RO8=",
+        "originContent": "- To **install** the LaunchAgent, run `./launchd.sh install` and to **remove** it simply run `./launchd.sh remove`.",
+        "translatedContent": "- 运行 `./launchd.sh install` 来**安装** LaunchAgent，运行 `./launchd.sh remove` 来**移除**。"
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "rM7d38BYzd6MsYiKHQPxG4CMQYHGSYo7aPPuZ1udHOs=",
+        "originContent": "The script will add a LaunchAgent to your user, that will symlink the `$TMPDIR` directory to `/tmp/rpc-bridge/tmpdir`.",
+        "translatedContent": "该脚本会为你的用户添加一个 LaunchAgent，将 `$TMPDIR` 目录符号链接到 `/tmp/rpc-bridge/tmpdir`。"
+      },
+      {
+        "row": 64,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "cfhd4hqXxqOt+fb/O2h84a1Re6ZwkCijG3rtAf0VUxI=",
+        "originContent": "*Note: You will need to launch the `bridge.exe` file manually in Wine at least once for it to register and launch automatically the next time.*",
+        "translatedContent": "*注意：你至少需要手动在 Wine 中启动一次 `bridge.exe`，以便它能注册并在下次自动启动。*"
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "ngoPgoOkyOsIrLz/5TVDRvPHlujRj7FChHvSYQnJDc0=",
+        "originContent": "More details on how to install the LaunchAgent can be found in the [documentation](https://enderice2.github.io/rpc-bridge/).",
+        "translatedContent": "关于如何安装 LaunchAgent 的更多细节，请参见[文档](https://enderice2.github.io/rpc-bridge/)。"
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "xWwv/Fy+X3mb6y200swRhxjSFpU/lHY3Mb1GqNad1vA=",
+        "originContent": "## Compiling from source",
+        "translatedContent": "## 从源码编译"
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "c0QmqYrVBPOm4Z36359GR6IIFHBi82gmOEz0lkKejYY=",
+        "originContent": "- Install the `wine`, `gcc-mingw-w64` and `make` packages.",
+        "translatedContent": "- 安装 `wine`、`gcc-mingw-w64` 和 `make` 软件包。"
+      },
+      {
+        "row": 72,
+        "rowsha": "6SjbrmLQDHE8yB7DOiPFbPM8KDf4gVmcTmoZwALbh84=",
+        "originContent": "- Open a terminal in the directory that contains this file and run `make`.",
+        "translatedContent": "- 在包含此文件的目录打开终端，运行 `make`。"
+      },
+      {
+        "row": 73,
+        "rowsha": "v7DlOMNwRZIt7MmUnq1+2ua0sv28b4TSrzlxZv/MmsU=",
+        "originContent": "- The compiled executable will be located in `build/bridge.exe`.",
+        "translatedContent": "- 编译后的可执行文件位于 `build/bridge.exe`。"
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 75,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "## 致谢"
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 77,
+        "rowsha": "yRG/A53a+eDxqBdCucwumToLkL0Ju6QZiXSEPDt5IQ0=",
+        "originContent": "This project is inspired by [wine-discord-ipc-bridge](https://github.com/0e4ef622/wine-discord-ipc-bridge).",
+        "translatedContent": "本项目灵感来源于 [wine-discord-ipc-bridge](https://github.com/0e4ef622/wine-discord-ipc-bridge)。"
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 80,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</translate-content>"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
