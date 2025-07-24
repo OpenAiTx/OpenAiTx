@@ -1,0 +1,766 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/assets/images/logo.png\" alt='AnymeX Icon' style=\"border-radius: 50px; height: 150px; width: 150px;\">\n  \n<p align=\"center\">\n   <img src=\"https://img.shields.io/badge/platforms-android_ios_windows_linux_macos-06599d?color=white&labelColor=black&style=for-the-badge\"/>\n  <a href=\"https://github.com/RyanYuuki/AnymeX/releases\"><img src=\"https://img.shields.io/github/downloads/RyanYuuki/AnymeX/total?color=white&labelColor=black&label=Downloads&style=for-the-badge\" alt=\"GitHub Downloads\"></a>\n</p>\n<p align=\"center\">\n<a href=\"https://www.codefactor.io/repository/github/RyanYuuki/AnymeX\"><img src=\"https://img.shields.io/codefactor/grade/github/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge&label=Codefactor\" alt=\"CodeFactor\"/></a>\n  <!--<a href=\"https://hosted.weblate.org/engage/echo\"><img alt=\"Weblate project translated\" src=\"https://img.shields.io/weblate/progress/echo?color=white&labelColor=black&label=Translated&style=flat-square\"></a>-->\n<!-- <a href=\"https://github.com/RyanYuuki/AnymeX/commits/main\">\n    <img src=\"https://img.shields.io/github/last-commit/RyanYuuki/AnymeX?color=white&labelColor=black&label=Latest Commit&style=for-the-badge\" alt=\"GitHub Last Commit\">\n</a> -->\n<a href=\"https://github.com/RyanYuuki/AnymeX/stargazers\">\n      <img src=\"https://img.shields.io/github/stars/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge\" alt=\"Stars\" /></a>\n</p>\n</div>\n\n# AnymeX\n\n**AnymeX** is a multiservice tracking client, with [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), and [**Simkl**](https://simkl.com/) support!\n\n> [!NOTE]\n> AnymeX is intended for tracking purposes only.\n>\n> It does **not** host, provide, or maintain any streaming content or extensions.\n>\n> Users are fully responsible for how they use this app. The developer disclaims all liability for misuse or legal issues. Legal concerns should be addressed to third-party sources, not AnymeX.\n\n## Downloads\n\n<div align=\"center\">\n  <p>\n    <a href=\"https://github.com/RyanYuuki/AnymeX/releases/latest\"><img src=\"https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable\" alt=\"Latest Stable Release\"/></a>\n  </p>\n  \n### Windows\n  <p>\n    <a href=\"/INSTALLATION.md\">\n  <img src=\"https://img.shields.io/badge/Scoop-AnymeX-white?style=for-the-badge&labelColor=black\" alt=\"Scoop\"/></a>\n  </p>\n</div>\n\n<div align=\"center\">\n  \n### iOS Sideloading Sources\n  <p>\n    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"AltStore Source\" src=\"https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white\"></a>\n    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"Feather Source\" src=\"https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white\"></a>\n    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"SideStore Source\" src=\"https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white\"></a>\n    <a href=\"https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"Direct Source URL\" src=\"https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white\"></a>\n  </p>\n</div>\n\n## Screenshots\n\n| Home                                                                                                                                           | Search                                                                                                                                          | Details                                                                                                                      | Library                                                                                                              |\n| ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |\n|![The home page containing multiple sections of stuff, you've read or watched.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![The search page showing multiple search results for JoJo’s Bizarre Adventure.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![The details page of Re:Zero Kara Hajimeru Isekai Seikatsu.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![The library page showing the user’s watching list.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |\n\n<!-- Once I make the screenshots I'll add this back\n### 💻 Desktop\n<div style=\"display: flex; flex-wrap: wrap; justify-content: space-between;\">\n    <img src=\"https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_1.png\" width=\"100%\" style=\"margin: 0;\" />\n    <img src=\"https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_2.png\" width=\"100%\" style=\"margin: 0;\" />\n</div>\n-->\n\n## Support Us\n\n<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>\n\n> [!TIP]\n> ⭐ **Star this repository to support the developer & encourage the development of the app!**\n\n<details>\n  <summary>Star History</summary>\n  <a href=\"https://github.com/RyanYuuki/AnymeX/stargazers\">\n      <img alt=\"Star History Chart\" src=\"https://starchart.cc/RyanYuuki/AnymeX.svg?variant=adaptive\" width=\"370\" height=\"235\" />\n  </a>\n</details>\n\n## Official Communities\n\nJoin our communities to stay updated and contribute to the discussion:\n\n<a href=\"https://discord.gg/5gAHhMvTcx\" style=\"margin-right: 10px; display: inline-block;\"><img src=\"https://files.catbox.moe/tb0004.png\" alt=\"Discord\" height=\"40\" style=\"vertical-align: middle;\"></a>\n<a href=\"https://t.me/AnymeX_Discussion\" style=\"display: inline-block;\"><img src=\"https://files.catbox.moe/z66xwr.png\" alt=\"Telegram\" height=\"40\" style=\"vertical-align: middle;\"></a>\n<a href=\"https://www.reddit.com/r/AnymeX_/\" style=\"display: inline-block;\"><img src=\"https://cdn3.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_reddit-1024.png\" alt=\"Reddit\" height=\"40\" style=\"vertical-align: middle;\"></a>\n\n## Contribute\n\nWe welcome contributions, from translations to new features.  \nOur development environment setup guide is available [here](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  \nFor inquiries, join our [Discord server](https://discord.gg/5gAHhMvTcx) or [Telegram group](https://t.me/AnymeX_Discussion).  \nPull requests are welcome; check the [open issues](https://github.com/RyanYuuki/AnymeX/issues) for guidance on major changes.\n\n<!--<details>\n<summary>Weblate Translation Graph</summary>\n<a href=\"https://hosted.weblate.org/projects/echo/#languages\"><img src=\"https://hosted.weblate.org/widget/echo/app/multi-auto.svg\" alt=\"Translation status\" /></a>",
+    "ContentSha": "UrKuhQixA2pBfvjK/gRXpTF2Q7FW7mmDATYSeBbooCk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/assets/images/logo.png\" alt='AnymeX 아이콘' style=\"border-radius: 50px; height: 150px; width: 150px;\">\n  \n<p align=\"center\">\n   <img src=\"https://img.shields.io/badge/platforms-android_ios_windows_linux_macos-06599d?color=white&labelColor=black&style=for-the-badge\"/>\n  <a href=\"https://github.com/RyanYuuki/AnymeX/releases\"><img src=\"https://img.shields.io/github/downloads/RyanYuuki/AnymeX/total?color=white&labelColor=black&label=Downloads&style=for-the-badge\" alt=\"GitHub 다운로드\"></a>\n</p>\n<p align=\"center\">\n<a href=\"https://www.codefactor.io/repository/github/RyanYuuki/AnymeX\"><img src=\"https://img.shields.io/codefactor/grade/github/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge&label=Codefactor\" alt=\"CodeFactor\"/></a>\n  <!--<a href=\"https://hosted.weblate.org/engage/echo\"><img alt=\"Weblate 프로젝트 번역률\" src=\"https://img.shields.io/weblate/progress/echo?color=white&labelColor=black&label=Translated&style=flat-square\"></a>-->\n<!-- <a href=\"https://github.com/RyanYuuki/AnymeX/commits/main\">\n    <img src=\"https://img.shields.io/github/last-commit/RyanYuuki/AnymeX?color=white&labelColor=black&label=Latest Commit&style=for-the-badge\" alt=\"GitHub 마지막 커밋\">\n</a> -->\n<a href=\"https://github.com/RyanYuuki/AnymeX/stargazers\">\n      <img src=\"https://img.shields.io/github/stars/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge\" alt=\"별\" /></a>\n</p>\n</div>\n\n# AnymeX\n\n**AnymeX**는 [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), 그리고 [**Simkl**](https://simkl.com/)을 지원하는 다중 서비스 추적 클라이언트입니다!\n\n> [!NOTE]\n> AnymeX는 오직 추적 목적으로만 사용됩니다.\n>\n> 스트리밍 콘텐츠나 확장 기능을 호스팅, 제공, 유지하지 않습니다.\n>\n> 사용자는 이 앱을 사용하는 방법에 대해 전적으로 책임이 있습니다. 개발자는 오용이나 법적 문제에 대해 모든 책임을 부인합니다. 법적 문제는 AnymeX가 아닌 제3자 소스에 문의해야 합니다.\n\n## 다운로드\n\n<div align=\"center\">\n  <p>\n    <a href=\"https://github.com/RyanYuuki/AnymeX/releases/latest\"><img src=\"https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=안정 버전\" alt=\"최신 안정 버전\"/></a>\n  </p>\n  \n### 윈도우\n  <p>\n    <a href=\"/INSTALLATION.md\">\n  <img src=\"https://img.shields.io/badge/Scoop-AnymeX-white?style=for-the-badge&labelColor=black\" alt=\"Scoop\"/></a>\n  </p>\n</div>\n\n<div align=\"center\">\n  \n### iOS 사이드로딩 소스\n  <p>\n    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"AltStore 소스\" src=\"https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white\"></a>\n    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"Feather 소스\" src=\"https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white\"></a>\n    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"SideStore 소스\" src=\"https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white\"></a>\n    <a href=\"https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"직접 소스 URL\" src=\"https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=직접%20소스%20URL&labelColor=black&color=white\"></a>\n  </p>\n</div>\n\n## 스크린샷\n\n| 홈                                                                                                                                           | 검색                                                                                                                                          | 상세 정보                                                                                                                      | 라이브러리                                                                                                              |\n| ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |\n|![읽거나 본 여러 섹션이 포함된 홈 페이지.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![조조의 기묘한 모험 검색 결과가 여러 개 표시된 검색 페이지.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![Re:제로부터 시작하는 이세계 생활 상세 정보 페이지.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![사용자의 시청 목록이 표시된 라이브러리 페이지.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |\n\n<!-- Once I make the screenshots I'll add this back\n### 💻 데스크탑\n<div style=\"display: flex; flex-wrap: wrap; justify-content: space-between;\">\n    <img src=\"https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_1.png\" width=\"100%\" style=\"margin: 0;\" />\n    <img src=\"https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_2.png\" width=\"100%\" style=\"margin: 0;\" />\n</div>\n-->\n\n## 후원하기\n\n<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='ko-fi.com에서 커피 사기' /></a>\n\n> [!TIP]\n> ⭐ **이 저장소에 별을 눌러 개발자를 응원하고 앱 개발을 격려하세요!**\n\n<details>\n  <summary>별 기록</summary>\n  <a href=\"https://github.com/RyanYuuki/AnymeX/stargazers\">\n      <img alt=\"별 기록 차트\" src=\"https://starchart.cc/RyanYuuki/AnymeX.svg?variant=adaptive\" width=\"370\" height=\"235\" />\n  </a>\n</details>\n\n## 공식 커뮤니티\n\n최신 소식과 토론에 참여하려면 커뮤니티에 가입하세요:\n\n<a href=\"https://discord.gg/5gAHhMvTcx\" style=\"margin-right: 10px; display: inline-block;\"><img src=\"https://files.catbox.moe/tb0004.png\" alt=\"Discord\" height=\"40\" style=\"vertical-align: middle;\"></a>\n<a href=\"https://t.me/AnymeX_Discussion\" style=\"display: inline-block;\"><img src=\"https://files.catbox.moe/z66xwr.png\" alt=\"Telegram\" height=\"40\" style=\"vertical-align: middle;\"></a>\n<a href=\"https://www.reddit.com/r/AnymeX_/\" style=\"display: inline-block;\"><img src=\"https://cdn3.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_reddit-1024.png\" alt=\"Reddit\" height=\"40\" style=\"vertical-align: middle;\"></a>\n\n## 기여하기\n\n번역부터 새로운 기능까지 기여를 환영합니다.  \n개발 환경 설정 가이드는 [여기](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)에서 확인할 수 있습니다.  \n문의 사항은 [Discord 서버](https://discord.gg/5gAHhMvTcx) 또는 [Telegram 그룹](https://t.me/AnymeX_Discussion)에 참여하세요.  \n풀 리퀘스트는 언제나 환영합니다; 주요 변경사항은 [열린 이슈](https://github.com/RyanYuuki/AnymeX/issues)를 확인하세요.\n\n<!--<details>\n<summary>Weblate 번역 그래프</summary>\n<a href=\"https://hosted.weblate.org/projects/echo/#languages\"><img src=\"https://hosted.weblate.org/widget/echo/app/multi-auto.svg\" alt=\"번역 상태\" /></a>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "bVq+ajTREpZxBr8tOxPr3oS1vJH7JcraHXZlelVEsL4=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/assets/images/logo.png\" alt='AnymeX Icon' style=\"border-radius: 50px; height: 150px; width: 150px;\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/assets/images/logo.png\" alt='AnymeX 아이콘' style=\"border-radius: 50px; height: 150px; width: 150px;\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 4,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "UTfVqtXY3CDTxis9esuGy93MkPXLtv+uUU4Kt54sMJM=",
+        "originContent": "   <img src=\"https://img.shields.io/badge/platforms-android_ios_windows_linux_macos-06599d?color=white&labelColor=black&style=for-the-badge\"/>",
+        "translatedContent": "   <img src=\"https://img.shields.io/badge/platforms-android_ios_windows_linux_macos-06599d?color=white&labelColor=black&style=for-the-badge\"/>"
+      },
+      {
+        "row": 6,
+        "rowsha": "nYO5cdlzyNFJ5x0PPGp9ujZvGkTtWyCJ4uAo0vFskiA=",
+        "originContent": "  <a href=\"https://github.com/RyanYuuki/AnymeX/releases\"><img src=\"https://img.shields.io/github/downloads/RyanYuuki/AnymeX/total?color=white&labelColor=black&label=Downloads&style=for-the-badge\" alt=\"GitHub Downloads\"></a>",
+        "translatedContent": "  <a href=\"https://github.com/RyanYuuki/AnymeX/releases\"><img src=\"https://img.shields.io/github/downloads/RyanYuuki/AnymeX/total?color=white&labelColor=black&label=Downloads&style=for-the-badge\" alt=\"GitHub 다운로드\"></a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "BVqAnc0r6XMmuY+JvK4AYqysYRgJ4G1iP2QSXMJJegA=",
+        "originContent": "<a href=\"https://www.codefactor.io/repository/github/RyanYuuki/AnymeX\"><img src=\"https://img.shields.io/codefactor/grade/github/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge&label=Codefactor\" alt=\"CodeFactor\"/></a>",
+        "translatedContent": "<a href=\"https://www.codefactor.io/repository/github/RyanYuuki/AnymeX\"><img src=\"https://img.shields.io/codefactor/grade/github/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge&label=Codefactor\" alt=\"CodeFactor\"/></a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "xonp+CXOwPmqAPw1rPknDD9f7Gww9QhxuF5YXJPrgVg=",
+        "originContent": "  <!--<a href=\"https://hosted.weblate.org/engage/echo\"><img alt=\"Weblate project translated\" src=\"https://img.shields.io/weblate/progress/echo?color=white&labelColor=black&label=Translated&style=flat-square\"></a>-->",
+        "translatedContent": "  <!--<a href=\"https://hosted.weblate.org/engage/echo\"><img alt=\"Weblate 프로젝트 번역률\" src=\"https://img.shields.io/weblate/progress/echo?color=white&labelColor=black&label=Translated&style=flat-square\"></a>-->"
+      },
+      {
+        "row": 11,
+        "rowsha": "rV9IdmWt8QlrqMrXVO4jOamnl+TfRZxwPYA0KLCyW+k=",
+        "originContent": "<!-- <a href=\"https://github.com/RyanYuuki/AnymeX/commits/main\">",
+        "translatedContent": "<!-- <a href=\"https://github.com/RyanYuuki/AnymeX/commits/main\">"
+      },
+      {
+        "row": 12,
+        "rowsha": "upBfZug7qkxBHbTqVpyT3mowaeVkG81LReHh0oi+ahA=",
+        "originContent": "    <img src=\"https://img.shields.io/github/last-commit/RyanYuuki/AnymeX?color=white&labelColor=black&label=Latest Commit&style=for-the-badge\" alt=\"GitHub Last Commit\">",
+        "translatedContent": "    <img src=\"https://img.shields.io/github/last-commit/RyanYuuki/AnymeX?color=white&labelColor=black&label=Latest Commit&style=for-the-badge\" alt=\"GitHub 마지막 커밋\">"
+      },
+      {
+        "row": 13,
+        "rowsha": "9v6h/EtA4egzbUn0Xl+8cZUtK7Vgn1v8sRHCl3ZPl9k=",
+        "originContent": "</a> -->",
+        "translatedContent": "</a> -->"
+      },
+      {
+        "row": 14,
+        "rowsha": "DcL+0VuqxR3CIMAY0AvY3xz5g59XFZVH7bnXfWgLGGE=",
+        "originContent": "<a href=\"https://github.com/RyanYuuki/AnymeX/stargazers\">",
+        "translatedContent": "<a href=\"https://github.com/RyanYuuki/AnymeX/stargazers\">"
+      },
+      {
+        "row": 15,
+        "rowsha": "RR5A8rDVx5KYJ/SpJcPzhRWqiAqKYdhaUluhWxENlbk=",
+        "originContent": "      <img src=\"https://img.shields.io/github/stars/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge\" alt=\"Stars\" /></a>",
+        "translatedContent": "      <img src=\"https://img.shields.io/github/stars/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge\" alt=\"별\" /></a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 17,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "7JESxnEjMcxb83ellcDh7L+zdrR1oE9QmTUZ36X+Z1g=",
+        "originContent": "# AnymeX",
+        "translatedContent": "# AnymeX"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "AtSdoDhFC5l4iGLJNdGkVE5tFOrKeuLu2Cy+WnzsJ3o=",
+        "originContent": "**AnymeX** is a multiservice tracking client, with [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), and [**Simkl**](https://simkl.com/) support!",
+        "translatedContent": "**AnymeX**는 [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), 그리고 [**Simkl**](https://simkl.com/)을 지원하는 다중 서비스 추적 클라이언트입니다!"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTE]"
+      },
+      {
+        "row": 24,
+        "rowsha": "zI8JTeHAbtjOsG3sXtVK+QWMjEvJESZdd3BLydaodc0=",
+        "originContent": "> AnymeX is intended for tracking purposes only.",
+        "translatedContent": "> AnymeX는 오직 추적 목적으로만 사용됩니다."
+      },
+      {
+        "row": 25,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 26,
+        "rowsha": "L+ZtQT80nT3tQptSLDhD9IQHjk1J3XZDZXoxFizmkeU=",
+        "originContent": "> It does **not** host, provide, or maintain any streaming content or extensions.",
+        "translatedContent": "> 스트리밍 콘텐츠나 확장 기능을 호스팅, 제공, 유지하지 않습니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 28,
+        "rowsha": "B1Gscl1zq5xCYzE3CDYI40KdT2EarRcQ2cZ0CgTSm/U=",
+        "originContent": "> Users are fully responsible for how they use this app. The developer disclaims all liability for misuse or legal issues. Legal concerns should be addressed to third-party sources, not AnymeX.",
+        "translatedContent": "> 사용자는 이 앱을 사용하는 방법에 대해 전적으로 책임이 있습니다. 개발자는 오용이나 법적 문제에 대해 모든 책임을 부인합니다. 법적 문제는 AnymeX가 아닌 제3자 소스에 문의해야 합니다."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "C6wYWjaRGyeLjlRf8jDHkU/uOhFyXQv0r5Fc65FtGis=",
+        "originContent": "## Downloads",
+        "translatedContent": "## 다운로드"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 33,
+        "rowsha": "MJGi589i5tXcisTb4jgZavoENJpGLV21nMt9oHSIUc0=",
+        "originContent": "  <p>",
+        "translatedContent": "  <p>"
+      },
+      {
+        "row": 34,
+        "rowsha": "rBzoRIqYbLNJHjVlmNF8kJvbA+LvhCaUln9O9gdDiTs=",
+        "originContent": "    <a href=\"https://github.com/RyanYuuki/AnymeX/releases/latest\"><img src=\"https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable\" alt=\"Latest Stable Release\"/></a>",
+        "translatedContent": "    <a href=\"https://github.com/RyanYuuki/AnymeX/releases/latest\"><img src=\"https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=안정 버전\" alt=\"최신 안정 버전\"/></a>"
+      },
+      {
+        "row": 35,
+        "rowsha": "xekGMwR1kXr+mg5XAB6V3dYHsyhEy+YsYHHE8Tdsue4=",
+        "originContent": "  </p>",
+        "translatedContent": "  </p>"
+      },
+      {
+        "row": 36,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 37,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": "### 윈도우"
+      },
+      {
+        "row": 38,
+        "rowsha": "MJGi589i5tXcisTb4jgZavoENJpGLV21nMt9oHSIUc0=",
+        "originContent": "  <p>",
+        "translatedContent": "  <p>"
+      },
+      {
+        "row": 39,
+        "rowsha": "W/YO2dH3IdPBgx+bHqQP2QMHTl7NOi+k2zyWs7p4MYU=",
+        "originContent": "    <a href=\"/INSTALLATION.md\">",
+        "translatedContent": "    <a href=\"/INSTALLATION.md\">"
+      },
+      {
+        "row": 40,
+        "rowsha": "TIcq9H3mksvx4IFbvJE1QMh8HAFfY0zE68RshSbN7CU=",
+        "originContent": "  <img src=\"https://img.shields.io/badge/Scoop-AnymeX-white?style=for-the-badge&labelColor=black\" alt=\"Scoop\"/></a>",
+        "translatedContent": "  <img src=\"https://img.shields.io/badge/Scoop-AnymeX-white?style=for-the-badge&labelColor=black\" alt=\"Scoop\"/></a>"
+      },
+      {
+        "row": 41,
+        "rowsha": "xekGMwR1kXr+mg5XAB6V3dYHsyhEy+YsYHHE8Tdsue4=",
+        "originContent": "  </p>",
+        "translatedContent": "  </p>"
+      },
+      {
+        "row": 42,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 45,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 46,
+        "rowsha": "55TuRd8PImoyw5qlFYwLc+iSJ/jvFVstgPsbGmH8jTk=",
+        "originContent": "### iOS Sideloading Sources",
+        "translatedContent": "### iOS 사이드로딩 소스"
+      },
+      {
+        "row": 47,
+        "rowsha": "MJGi589i5tXcisTb4jgZavoENJpGLV21nMt9oHSIUc0=",
+        "originContent": "  <p>",
+        "translatedContent": "  <p>"
+      },
+      {
+        "row": 48,
+        "rowsha": "+xsq6wPShNCl0dHM8n8lIEkvUyaA9YKQrst2hhAgFls=",
+        "originContent": "    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"AltStore Source\" src=\"https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white\"></a>",
+        "translatedContent": "    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"AltStore 소스\" src=\"https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white\"></a>"
+      },
+      {
+        "row": 49,
+        "rowsha": "CosS1yDi0gepVOUM1zD0oM+orKFWxS89KN/LYZwHS38=",
+        "originContent": "    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"Feather Source\" src=\"https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white\"></a>",
+        "translatedContent": "    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"Feather 소스\" src=\"https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white\"></a>"
+      },
+      {
+        "row": 50,
+        "rowsha": "3EJ0QC0tOSrG0Yi51WHHVFijq4vJE3afEGQWPqG8IS8=",
+        "originContent": "    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"SideStore Source\" src=\"https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white\"></a>",
+        "translatedContent": "    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"SideStore 소스\" src=\"https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white\"></a>"
+      },
+      {
+        "row": 51,
+        "rowsha": "Xg4fiEkJGht8QJSoLEFe5SLrF0CUxD8sw7Zc4vkqYfc=",
+        "originContent": "    <a href=\"https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"Direct Source URL\" src=\"https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white\"></a>",
+        "translatedContent": "    <a href=\"https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json\"><img alt=\"직접 소스 URL\" src=\"https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=직접%20소스%20URL&labelColor=black&color=white\"></a>"
+      },
+      {
+        "row": 52,
+        "rowsha": "xekGMwR1kXr+mg5XAB6V3dYHsyhEy+YsYHHE8Tdsue4=",
+        "originContent": "  </p>",
+        "translatedContent": "  </p>"
+      },
+      {
+        "row": 53,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
+        "originContent": "## Screenshots",
+        "translatedContent": "## 스크린샷"
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "rf6FzMVSQ8O723PEya+2eQnQAIrq9DJ+mzNjk/VicBw=",
+        "originContent": "| Home                                                                                                                                           | Search                                                                                                                                          | Details                                                                                                                      | Library                                                                                                              |",
+        "translatedContent": "| 홈                                                                                                                                           | 검색                                                                                                                                          | 상세 정보                                                                                                                      | 라이브러리                                                                                                              |"
+      },
+      {
+        "row": 58,
+        "rowsha": "5SFeaYnoPJefzNp3C0ZX56LTzohgP1k8yh6YIwhNeyI=",
+        "originContent": "| ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |",
+        "translatedContent": "| ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |"
+      },
+      {
+        "row": 59,
+        "rowsha": "ENKXUgj2j5IHHUfwutFZ7xTVN+8CDOQUVcu44v3j6IM=",
+        "originContent": "|![The home page containing multiple sections of stuff, you've read or watched.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![The search page showing multiple search results for JoJo’s Bizarre Adventure.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![The details page of Re:Zero Kara Hajimeru Isekai Seikatsu.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![The library page showing the user’s watching list.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |",
+        "translatedContent": "|![읽거나 본 여러 섹션이 포함된 홈 페이지.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![조조의 기묘한 모험 검색 결과가 여러 개 표시된 검색 페이지.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![Re:제로부터 시작하는 이세계 생활 상세 정보 페이지.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![사용자의 시청 목록이 표시된 라이브러리 페이지.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |"
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "U4hXyOXSgNy1FGRb3CcMqiC30HxeGGv6fCFe1tZpIQ4=",
+        "originContent": "<!-- Once I make the screenshots I'll add this back",
+        "translatedContent": "<!-- Once I make the screenshots I'll add this back"
+      },
+      {
+        "row": 62,
+        "rowsha": "NSYihZflJIhQ93ROOGclK1d7BeL+AOEDZVQCMpNkGtY=",
+        "originContent": "### 💻 Desktop",
+        "translatedContent": "### 💻 데스크탑"
+      },
+      {
+        "row": 63,
+        "rowsha": "O9U5vGuyMxhrMBMIkzzYP80tM6y65Bo7OprzU+QSDho=",
+        "originContent": "<div style=\"display: flex; flex-wrap: wrap; justify-content: space-between;\">",
+        "translatedContent": "<div style=\"display: flex; flex-wrap: wrap; justify-content: space-between;\">"
+      },
+      {
+        "row": 64,
+        "rowsha": "Kb/kib1hODWmz20xV4kpv755O7jhYHAVN+KMTarMi4Y=",
+        "originContent": "    <img src=\"https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_1.png\" width=\"100%\" style=\"margin: 0;\" />",
+        "translatedContent": "    <img src=\"https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_1.png\" width=\"100%\" style=\"margin: 0;\" />"
+      },
+      {
+        "row": 65,
+        "rowsha": "LOYA8jwpK0NaKbbO64+XUb/+zDuwPdbSOLQV6PdMJqU=",
+        "originContent": "    <img src=\"https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_2.png\" width=\"100%\" style=\"margin: 0;\" />",
+        "translatedContent": "    <img src=\"https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_2.png\" width=\"100%\" style=\"margin: 0;\" />"
+      },
+      {
+        "row": 66,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 67,
+        "rowsha": "XVud5tm5Xz4MlQr+dCpbs5yyX25uiGwQYDMQt788ujU=",
+        "originContent": "-->",
+        "translatedContent": "-->"
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "/sNwcek7akw7h7qNXIckVkRlgFlJGoXhn3qggFMMoRo=",
+        "originContent": "## Support Us",
+        "translatedContent": "## 후원하기"
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "ILma2zTAHZJdb0wP7pFprlFNswPzelhBJptlgGQfmTM=",
+        "originContent": "<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+        "translatedContent": "<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='ko-fi.com에서 커피 사기' /></a>"
+      },
+      {
+        "row": 72,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 73,
+        "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+        "originContent": "> [!TIP]",
+        "translatedContent": "> [!TIP]"
+      },
+      {
+        "row": 74,
+        "rowsha": "CM8lA2PAKsGchG4YqUueI9C22olBQRejLoTUWZVqGYk=",
+        "originContent": "> ⭐ **Star this repository to support the developer & encourage the development of the app!**",
+        "translatedContent": "> ⭐ **이 저장소에 별을 눌러 개발자를 응원하고 앱 개발을 격려하세요!**"
+      },
+      {
+        "row": 75,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 76,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 77,
+        "rowsha": "Ze06aE3MXlFdqXy+RWlWuDMesK1ErOd321PKR69ZFVk=",
+        "originContent": "  <summary>Star History</summary>",
+        "translatedContent": "  <summary>별 기록</summary>"
+      },
+      {
+        "row": 78,
+        "rowsha": "Yv6RL9BsdFglSM3ixjTxyAfHvTH5ecIFu/kWCcMWkAw=",
+        "originContent": "  <a href=\"https://github.com/RyanYuuki/AnymeX/stargazers\">",
+        "translatedContent": "  <a href=\"https://github.com/RyanYuuki/AnymeX/stargazers\">"
+      },
+      {
+        "row": 79,
+        "rowsha": "5aR+Nc4QWC6slROpmVexX9KvX8d1IKltdaJ47ZtpTag=",
+        "originContent": "      <img alt=\"Star History Chart\" src=\"https://starchart.cc/RyanYuuki/AnymeX.svg?variant=adaptive\" width=\"370\" height=\"235\" />",
+        "translatedContent": "      <img alt=\"별 기록 차트\" src=\"https://starchart.cc/RyanYuuki/AnymeX.svg?variant=adaptive\" width=\"370\" height=\"235\" />"
+      },
+      {
+        "row": 80,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 81,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 82,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "CrKiJRoSnu7JtDojMZON1T7o6DSSlYee82SjExxDR5o=",
+        "originContent": "## Official Communities",
+        "translatedContent": "## 공식 커뮤니티"
+      },
+      {
+        "row": 84,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "owjDlmx4TnyDY3kVIccp7Yu5I/5gonPJZkd+T3uQslg=",
+        "originContent": "Join our communities to stay updated and contribute to the discussion:",
+        "translatedContent": "최신 소식과 토론에 참여하려면 커뮤니티에 가입하세요:"
+      },
+      {
+        "row": 86,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "x4wa53nORKk+p+dnxiXgz+NrfmD+KOsKqOUAQ5h/xIY=",
+        "originContent": "<a href=\"https://discord.gg/5gAHhMvTcx\" style=\"margin-right: 10px; display: inline-block;\"><img src=\"https://files.catbox.moe/tb0004.png\" alt=\"Discord\" height=\"40\" style=\"vertical-align: middle;\"></a>",
+        "translatedContent": "<a href=\"https://discord.gg/5gAHhMvTcx\" style=\"margin-right: 10px; display: inline-block;\"><img src=\"https://files.catbox.moe/tb0004.png\" alt=\"Discord\" height=\"40\" style=\"vertical-align: middle;\"></a>"
+      },
+      {
+        "row": 88,
+        "rowsha": "Sq7r7R8F2X4uLDpii6k0C336I0edsD4qXP3RFNY4TIQ=",
+        "originContent": "<a href=\"https://t.me/AnymeX_Discussion\" style=\"display: inline-block;\"><img src=\"https://files.catbox.moe/z66xwr.png\" alt=\"Telegram\" height=\"40\" style=\"vertical-align: middle;\"></a>",
+        "translatedContent": "<a href=\"https://t.me/AnymeX_Discussion\" style=\"display: inline-block;\"><img src=\"https://files.catbox.moe/z66xwr.png\" alt=\"Telegram\" height=\"40\" style=\"vertical-align: middle;\"></a>"
+      },
+      {
+        "row": 89,
+        "rowsha": "qPqM2Fvx9isIlX++XkPM2BmSFDlZ0+yjiSgqh514Ohw=",
+        "originContent": "<a href=\"https://www.reddit.com/r/AnymeX_/\" style=\"display: inline-block;\"><img src=\"https://cdn3.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_reddit-1024.png\" alt=\"Reddit\" height=\"40\" style=\"vertical-align: middle;\"></a>",
+        "translatedContent": "<a href=\"https://www.reddit.com/r/AnymeX_/\" style=\"display: inline-block;\"><img src=\"https://cdn3.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_reddit-1024.png\" alt=\"Reddit\" height=\"40\" style=\"vertical-align: middle;\"></a>"
+      },
+      {
+        "row": 90,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 91,
+        "rowsha": "fMu080v6eh/hFkmstsVs1QR9bj14O7X3mMQkwTJevBw=",
+        "originContent": "## Contribute",
+        "translatedContent": "## 기여하기"
+      },
+      {
+        "row": 92,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 93,
+        "rowsha": "fCDrkmFek3Z2wEuZsReJvMQWgkTMueQwLXlXtj4w1F0=",
+        "originContent": "We welcome contributions, from translations to new features.  ",
+        "translatedContent": "번역부터 새로운 기능까지 기여를 환영합니다.  "
+      },
+      {
+        "row": 94,
+        "rowsha": "KirHeS7TsCuyxrpX8+IX3Cd6LSmG+8Z75W/79xuB6x0=",
+        "originContent": "Our development environment setup guide is available [here](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  ",
+        "translatedContent": "개발 환경 설정 가이드는 [여기](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)에서 확인할 수 있습니다.  "
+      },
+      {
+        "row": 95,
+        "rowsha": "y3nuO6zkUoR9lPONRXKWfArCbkt9YjSmk3v+oycc1gQ=",
+        "originContent": "For inquiries, join our [Discord server](https://discord.gg/5gAHhMvTcx) or [Telegram group](https://t.me/AnymeX_Discussion).  ",
+        "translatedContent": "문의 사항은 [Discord 서버](https://discord.gg/5gAHhMvTcx) 또는 [Telegram 그룹](https://t.me/AnymeX_Discussion)에 참여하세요.  "
+      },
+      {
+        "row": 96,
+        "rowsha": "tN8/8KVF75jNtrkPC2/yXYVcmb7Yq3pJSBonavGGiCQ=",
+        "originContent": "Pull requests are welcome; check the [open issues](https://github.com/RyanYuuki/AnymeX/issues) for guidance on major changes.",
+        "translatedContent": "풀 리퀘스트는 언제나 환영합니다; 주요 변경사항은 [열린 이슈](https://github.com/RyanYuuki/AnymeX/issues)를 확인하세요."
+      },
+      {
+        "row": 97,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 98,
+        "rowsha": "kWGavrXfHvy7cq07J/CI+Lk5TfLNZDQfm+WzDQJh9+4=",
+        "originContent": "<!--<details>",
+        "translatedContent": "<!--<details>"
+      },
+      {
+        "row": 99,
+        "rowsha": "NZpQeNxfP4+INX8CKHs2fhr/Rf6lLIOLkoUzgB4tHS8=",
+        "originContent": "<summary>Weblate Translation Graph</summary>",
+        "translatedContent": "<summary>Weblate 번역 그래프</summary>"
+      },
+      {
+        "row": 100,
+        "rowsha": "HC9/Z35jg7LYchYnZVwTuQEVQg+76tibbIwfWt1tnN0=",
+        "originContent": "<a href=\"https://hosted.weblate.org/projects/echo/#languages\"><img src=\"https://hosted.weblate.org/widget/echo/app/multi-auto.svg\" alt=\"Translation status\" /></a>",
+        "translatedContent": "<a href=\"https://hosted.weblate.org/projects/echo/#languages\"><img src=\"https://hosted.weblate.org/widget/echo/app/multi-auto.svg\" alt=\"번역 상태\" /></a>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "</details>-->\n\n## Visitors\n\n<img src=\"https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto\" />\n\n## Acknowledgments\n\nA heartfelt thank you to everyone who has contributed to the development of AnymeX.\nYour efforts are invaluable.\n\n<a href=\"https://github.com/RyanYuuki/AnymeX/graphs/contributors\">\n  <img alt=\"GitHub contributors\" src=\"https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318\" align=\"left\">\n</a>\n<br>\n<a href=\"https://github.com/RyanYuuki/AnymeX/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=RyanYuuki/AnymeX\" alt=\"Contributors\">\n</a>\n\n## License\n\nAnymeX is licensed under the MIT License. More info can be found [here](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).\n",
+    "ContentSha": "yTsnnQSScOxD8wDr3V5FwAz9BOQEIMBTB3Gt30IgxQk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "</details>-->\n\n## 방문자\n\n<img src=\"https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto\" />\n\n## 감사의 말씀\n\nAnymeX 개발에 기여해 주신 모든 분들께 진심으로 감사드립니다.\n여러분의 노력은 매우 소중합니다.\n\n<a href=\"https://github.com/RyanYuuki/AnymeX/graphs/contributors\">\n  <img alt=\"GitHub contributors\" src=\"https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318\" align=\"left\">\n</a>\n<br>\n<a href=\"https://github.com/RyanYuuki/AnymeX/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=RyanYuuki/AnymeX\" alt=\"Contributors\">\n</a>\n\n## 라이선스\n\nAnymeX는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [여기](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)에서 확인할 수 있습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5nz+mLelvobMduq1XP3QgTHHzp/siwxLMpdlbiJrCyY=",
+        "originContent": "</details>-->",
+        "translatedContent": "</details>-->"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "pq5GzwFXRXTE7NXlEMuBJFeiqPrtWUGRJYIzFPDNol8=",
+        "originContent": "## Visitors",
+        "translatedContent": "## 방문자"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "jd+U5DA9nhhVL0QKKkLOuFuYNTuEQl4ujECYbHGK3IY=",
+        "originContent": "<img src=\"https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto\" />",
+        "translatedContent": "<img src=\"https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto\" />"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+        "originContent": "## Acknowledgments",
+        "translatedContent": "## 감사의 말씀"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "cDTR+8zQzHAxosnrtqMCEQOurOGJM/XKXfei8aohYSo=",
+        "originContent": "A heartfelt thank you to everyone who has contributed to the development of AnymeX.",
+        "translatedContent": "AnymeX 개발에 기여해 주신 모든 분들께 진심으로 감사드립니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "JtkoUY0DRmB1a3KWqTWZrDrwoyh40zVtsboUztsP9OA=",
+        "originContent": "Your efforts are invaluable.",
+        "translatedContent": "여러분의 노력은 매우 소중합니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "6s1P6VZanL14ZJ0RuswB83cNhpDHgy9mnbJJoVmRHxY=",
+        "originContent": "<a href=\"https://github.com/RyanYuuki/AnymeX/graphs/contributors\">",
+        "translatedContent": "<a href=\"https://github.com/RyanYuuki/AnymeX/graphs/contributors\">"
+      },
+      {
+        "row": 13,
+        "rowsha": "H0OWyQhdrL5zmWnhOrUS7ylMWtHnBom2werB7KlLvtk=",
+        "originContent": "  <img alt=\"GitHub contributors\" src=\"https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318\" align=\"left\">",
+        "translatedContent": "  <img alt=\"GitHub contributors\" src=\"https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318\" align=\"left\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 16,
+        "rowsha": "6s1P6VZanL14ZJ0RuswB83cNhpDHgy9mnbJJoVmRHxY=",
+        "originContent": "<a href=\"https://github.com/RyanYuuki/AnymeX/graphs/contributors\">",
+        "translatedContent": "<a href=\"https://github.com/RyanYuuki/AnymeX/graphs/contributors\">"
+      },
+      {
+        "row": 17,
+        "rowsha": "COVowYWqjNFD13wgBAju+7ijGvWNzxeCt89LzvJQ0Pw=",
+        "originContent": "  <img src=\"https://contrib.rocks/image?repo=RyanYuuki/AnymeX\" alt=\"Contributors\">",
+        "translatedContent": "  <img src=\"https://contrib.rocks/image?repo=RyanYuuki/AnymeX\" alt=\"Contributors\">"
+      },
+      {
+        "row": 18,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "Ij04RMktBUtSuUSPsrjKlJWIkaADZx+aGTScF6Y+fnE=",
+        "originContent": "AnymeX is licensed under the MIT License. More info can be found [here](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).",
+        "translatedContent": "AnymeX는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [여기](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)에서 확인할 수 있습니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
