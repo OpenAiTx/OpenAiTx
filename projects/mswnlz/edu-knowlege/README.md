@@ -41,18 +41,8 @@
 # 资源主页
 [各种资料、知识、影视、记录片、音乐、书籍、媒体聚集地，持续整理中](https://github.com/mswnlz)
 
----------------
-
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
 
 ---------------
-
-
-## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=mswnlz/edu-knowlege&type=Date)](https://www.star-history.com/#mswnlz/edu-knowlege&Date)
-
----------------
-
 
 
 # 赞助声明
@@ -61,6 +51,17 @@
 
 
 ---------------
+
+## Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=mswnlz/edu-knowlege&type=Date)](https://www.star-history.com/#mswnlz/edu-knowlege&Date)
+
+---------------
+
+
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+
+---------------
+
 
 # 支持我
 
