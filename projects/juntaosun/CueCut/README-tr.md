@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Dil</summary>
@@ -28,35 +29,54 @@
   </details>
 </div>
 
-<div align="center" id="cuecut_logo">
-  <img src="https://raw.githubusercontent.com/juntaosun/CueCut/main/logo.png" alt="logo" width="125"></img>
-</div>
-<h3 align="center"><b>CueCut: Web ve Masaüstü için Ücretsiz & Açık Kaynak Video Editörü — VIP Yok</b></a>
+<p align="center">
+<img style="align:center;" src="https://raw.githubusercontent.com/juntaosun/CueCut/main/./logo.png" alt="Notesnook Logo" width="100" />
+</p>
+<h1 align="center">CueCut</h1>
+
+<h3 align="center" style="margin-bottom: -15px;">
+<b>Web ve Masaüstü için Ücretsiz & Açık Kaynak Video Editörü — VIP Yok</b></a>
+<h4 align="center">Açık kaynaklı CapCut alternatifi</a>
 </h3>
 
 <h3 align="center">
 <a href="README.md"><b>English</b></a> | <a href="README_ZH.md"><b>中文</b></a>
 </h3>
 
-**Neden? ：**  CapCut'un video düzenlemede sektöre yön veren etkileyici bir araç olduğu iyi biliniyor. Ancak, neredeyse tüm özellikleri bir ücret duvarının arkasına gizlenmiş durumda. Bizim vizyonumuz, açık kaynak topluluğunun gücünü tam anlamıyla kullanarak, gerçekten açık, tamamen ücretsiz ve evrensel olarak erişilebilir, yapay zeka destekli bir video düzenleme ekosistemi inşa etmektir.   
+## 🎁 Neden CueCut ?  
+Hepimizin bildiği gibi, CapCut gerçekten harika ve video düzenleme alanında endüstri trendini belirledi, ancak neredeyse tüm işlevleri ücretli. Vizyonumuz, açık kaynak topluluğu teknolojilerini tamamen entegre ederek herkesin kullanabileceği tamamen açık, gerçekten ücretsiz, yapay zeka destekli bir video düzenleme ekosistemi yaratmaktır.   
 
-Henüz çok genç! Birçok harika, yeni ve eğlenceli yaratıcı fikrimiz var ve bunları hayata geçirmek için çok çalışıyoruz!      
-Bu projeyle ilgili herhangi bir sorunuz varsa ya da katkıda bulunmak isterseniz, lütfen Issues bölümünden bizimle iletişime geçin!    
+- [x] Sınırsız tamamen ücretsiz.  
+- [x] Kayıt gerekmez.  
+- [x] Hiçbir koşul yok.  
+- [x] İçinde gelişmiş yapay zeka kullanılıyor.  
 
-**Lisans：** AGPL-3.0, ticari kullanıma izin veren ve açık kaynaklı bir lisanstır.   
- 
+## 💬 Bizimle Tartışın  
+-  Bu, hızlı geliştirme aşamasında olan erken bir projedir. 
+-  Şu anda, henüz çok yeni! Birçok harika, yeni ve eğlenceli yaratıcı fikrimiz var ve projeyi geliştirmek için çok çalışıyoruz!      
+-  Bu projeyle ilgili herhangi bir sorunuz varsa veya katkıda bulunmak isterseniz, lütfen Issues üzerinden bizimle iletişime geçmekten çekinmeyin!    
 
-## Haberler
 
-- **[2025-07-16]** 🚀 **CueCut Proje kitaplığı oluşturuldu!** 
+## 👏 Haberler
+
+> Açık kaynak planı: Çerçeveyi oluşturmanın ilk aşamasında sık ve büyük çaplı değişiklikler olabilir. Çözüm stabil hale geldiğinde kaynak kodunu eş zamanlı olarak güncelleyeceğiz.   
+
+- **[2025-07-23]** 🚀 **Proje Hazırlığı.** 
+- **[2025-07-16]** 🚀 **CueCut Proje kütüphanesi oluşturuldu!** 
 
 <details>
 <summary>daha fazla göster</summary>
 </details>
 
 
+## 🔑 Lisans
+
+Telif Hakkı 2025 juntaosun ve diğer katkıda bulunanlar
+
+Bu program özgür bir yazılımdır: GNU Affero Genel Kamu Lisansı'nın Free Software Foundation tarafından yayınlanan 3. sürümü ya da (tercihinize bağlı olarak) daha sonraki herhangi bir sürümü şartları altında yeniden dağıtabilir ve/veya değiştirebilirsiniz.
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---

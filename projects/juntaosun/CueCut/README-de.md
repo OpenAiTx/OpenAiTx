@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Sprache</summary>
@@ -28,35 +29,54 @@
   </details>
 </div>
 
-<div align="center" id="cuecut_logo">
-  <img src="https://raw.githubusercontent.com/juntaosun/CueCut/main/logo.png" alt="logo" width="125"></img>
-</div>
-<h3 align="center"><b>CueCut: Kostenloser & Open-Source Videoeditor für Web, Desktop — Kein VIP</b></a>
+<p align="center">
+<img style="align:center;" src="https://raw.githubusercontent.com/juntaosun/CueCut/main/./logo.png" alt="Notesnook Logo" width="100" />
+</p>
+<h1 align="center">CueCut</h1>
+
+<h3 align="center" style="margin-bottom: -15px;">
+<b>Kostenloser & Open-Source Video Editor für Web, Desktop — Kein VIP</b></a>
+<h4 align="center">Die Open-Source CapCut Alternative</a>
 </h3>
 
 <h3 align="center">
 <a href="README.md"><b>English</b></a> | <a href="README_ZH.md"><b>中文</b></a>
 </h3>
 
-**Warum? ：**  Es ist allgemein bekannt, dass CapCut ein beeindruckendes Tool ist, das den Branchentrend im Video-Editing angeführt hat. Allerdings sind fast alle Funktionen hinter einer Bezahlschranke versteckt. Unsere Vision ist es, die Kraft der Open-Source-Community voll auszuschöpfen, um ein wirklich offenes, wirklich kostenloses und für alle zugängliches, KI-gestütztes Video-Editing-Ökosystem aufzubauen.   
+## 🎁 Warum CueCut ?  
+Wie wir alle wissen, ist CapCut wirklich erstaunlich und hat den Industrietrend im Bereich der Videobearbeitung gesetzt, aber fast alle Funktionen sind kostenpflichtig. Unsere Vision ist es, Open-Source-Technologien vollständig zu integrieren, um ein komplett offenes, wirklich kostenloses, KI-gestütztes Videobearbeitungs-Ökosystem zu schaffen, das jeder nutzen kann.   
 
-Es ist noch jung! Wir haben viele großartige, neue und kreative Ideen und arbeiten hart daran, sie umzusetzen!      
-Wenn Sie Fragen zu diesem Projekt haben oder beitragen möchten, zögern Sie nicht, uns in den Issues zu kontaktieren!    
+- [x] Kostenlos ohne Einschränkungen.  
+- [x] Keine Anmeldung erforderlich.  
+- [x] Keine Bedingungen.  
+- [x] Mit fortschrittlicher KI im Inneren.  
 
-**Lizenz：** AGPL-3.0 ist eine freizügige Lizenz, die kommerzielle Nutzung erlaubt und Open Source ist.   
- 
+## 💬 Diskutieren Sie mit uns  
+-  Dies ist ein Projekt in der frühen Phase und befindet sich in schneller Entwicklung. 
+-  Im Moment ist es noch jung! Wir haben viele großartige, neue und kreative Ideen und arbeiten hart daran, sie umzusetzen!      
+-  Wenn Sie Fragen zu diesem Projekt haben oder mitwirken möchten, kontaktieren Sie uns gerne in den Issues!    
 
-## Neuigkeiten
 
+## 👏 Neuigkeiten
+
+> Open-Source-Plan: In der Anfangsphase des Framework-Aufbaus kann es zu häufigen und umfangreichen Anpassungen kommen. Sobald die Lösung stabil ist, werden wir den Quellcode synchron aktualisieren.   
+
+- **[2025-07-23]** 🚀 **Projektvorbereitung.** 
 - **[2025-07-16]** 🚀 **CueCut Projektbibliothek erstellt!** 
 
 <details>
-<summary>mehr anzeigen</summary>
+<summary>Mehr anzeigen</summary>
 </details>
 
 
+## 🔑 Lizenz
+
+Copyright 2025 juntaosun, und andere Mitwirkende
+
+Dieses Programm ist freie Software: Sie können es unter den Bedingungen der GNU Affero General Public License, wie von der Free Software Foundation veröffentlicht, entweder Version 3 der Lizenz oder (nach Ihrer Wahl) jeder späteren Version, weiterverbreiten und/oder modifizieren.
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---

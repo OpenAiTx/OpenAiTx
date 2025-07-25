@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Language</summary>
@@ -13,7 +14,7 @@
         | <a href="https://openaitx.github.io/view.html?user=juntaosun&project=CueCut&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=juntaosun&project=CueCut&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=juntaosun&project=CueCut&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=juntaosun&project=CueCut&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=juntaosun&project=CueCut&lang=it">Itapano</a>
         | <a href="https://openaitx.github.io/view.html?user=juntaosun&project=CueCut&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=juntaosun&project=CueCut&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=juntaosun&project=CueCut&lang=nl">Nederlands</a>
@@ -28,26 +29,39 @@
   </details>
 </div>
 
-<div align="center" id="cuecut_logo">
-  <img src="https://raw.githubusercontent.com/juntaosun/CueCut/main/logo.png" alt="logo" width="125"></img>
-</div>
-<h3 align="center"><b>CueCut: Free & Open-Source Video Editor for Web, Desktop — No VIP</b></a>
+<p align="center">
+<img style="align:center;" src="https://raw.githubusercontent.com/juntaosun/CueCut/main/./logo.png" alt="Notesnook Logo" width="100" />
+</p>
+<h1 align="center">CueCut</h1>
+
+<h3 align="center" style="margin-bottom: -15px;">
+<b>Free & Open-Source Video Editor for Web, Desktop — No VIP</b></a>
+<h4 align="center">The open-source CapCut alternative</a>
 </h3>
 
 <h3 align="center">
 <a href="README.md"><b>English</b></a> | <a href="README_ZH.md"><b>中文</b></a>
 </h3>
 
-**Why?:**  It’s well known that CapCut is an impressive tool that has led the industry trend in video editing. However, nearly all of its features are locked behind a paywall. Our vision is to fully leverage the power of the open-source community to build a truly open, genuinely free, and universally accessible AI-powered video editing ecosystem.   
+## 🎁 Why CueCut ?  
+As we all know, CapCut is really amazing and has set the industry trend in the field of video editing, but almost all of its functions are paid. Our vision is to fully integrate open source community technologies to create a completely open, truly free, AI video editing ecosystem that everyone can use.   
 
-It’s still young! We have lots of great, new and fun creative ideas and are working hard to build it out!      
-If you have any questions about this project, or would like to contribute, please feel free to contact us in Issues!    
+- [x] Free without limits.  
+- [x] No sign-up required.  
+- [x] No strings attached.  
+- [x] Using advanced AI inside.  
 
-**License:** AGPL-3.0 is a permissive license that allows commercial use and is open source.   
- 
+## 💬 Discuss with us  
+-  This is an early stage project under rapid development. 
+-  Right now, it’s still young! We have lots of great, new and fun creative ideas and are working hard to build it out!      
+-  If you have any questions about this project, or would like to contribute, please feel free to contact us in Issues!    
 
-## News
 
+## 👏 News
+
+> Open source plan: In the early stage of building the framework, there may be frequent and large-scale adjustments. Once the solution is stable, we will update the source code synchronously.   
+
+- **[2025-07-23]** 🚀 **Project Preparation.** 
 - **[2025-07-16]** 🚀 **CueCut Project library created!** 
 
 <details>
@@ -55,8 +69,14 @@ If you have any questions about this project, or would like to contribute, pleas
 </details>
 
 
+## 🔑 License
+
+Copyright 2025 juntaosun, and other contributors
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---

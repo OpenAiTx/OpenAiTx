@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Bahasa</summary>
@@ -28,26 +29,39 @@
   </details>
 </div>
 
-<div align="center" id="cuecut_logo">
-  <img src="https://raw.githubusercontent.com/juntaosun/CueCut/main/logo.png" alt="logo" width="125"></img>
-</div>
-<h3 align="center"><b>CueCut: Editor Video Gratis & Open-Source untuk Web, Desktop — Tanpa VIP</b></a>
+<p align="center">
+<img style="align:center;" src="https://raw.githubusercontent.com/juntaosun/CueCut/main/./logo.png" alt="Logo Notesnook" width="100" />
+</p>
+<h1 align="center">CueCut</h1>
+
+<h3 align="center" style="margin-bottom: -15px;">
+<b>Editor Video Gratis & Sumber Terbuka untuk Web, Desktop — Tanpa VIP</b></a>
+<h4 align="center">Alternatif CapCut sumber terbuka</a>
 </h3>
 
 <h3 align="center">
 <a href="README.md"><b>English</b></a> | <a href="README_ZH.md"><b>中文</b></a>
 </h3>
 
-**Mengapa? ：**  Sudah diketahui bahwa CapCut adalah alat yang mengesankan dan telah memimpin tren industri dalam pengeditan video. Namun, hampir semua fiturnya terkunci di balik paywall. Visi kami adalah memanfaatkan sepenuhnya kekuatan komunitas open-source untuk membangun ekosistem pengeditan video berbasis AI yang benar-benar terbuka, benar-benar gratis, dan dapat diakses oleh semua orang.   
+## 🎁 Kenapa CueCut ?  
+Seperti yang kita tahu, CapCut sangat luar biasa dan telah menjadi tren industri di bidang pengeditan video, namun hampir semua fiturnya berbayar. Visi kami adalah menggabungkan teknologi komunitas open source untuk menciptakan ekosistem pengeditan video AI yang sepenuhnya terbuka, benar-benar gratis, dan dapat digunakan semua orang.   
 
-Proyek ini masih muda! Kami punya banyak ide kreatif baru yang menarik dan sedang bekerja keras untuk mengembangkannya!      
-Jika Anda memiliki pertanyaan tentang proyek ini, atau ingin berkontribusi, silakan hubungi kami di Issues!    
+- [x] Gratis tanpa batasan.  
+- [x] Tidak perlu mendaftar.  
+- [x] Tidak ada syarat tersembunyi.  
+- [x] Menggunakan AI canggih di dalamnya.  
 
-**Lisensi：** AGPL-3.0 adalah lisensi permisif yang memungkinkan penggunaan komersial dan bersifat open source.   
- 
+## 💬 Diskusi bersama kami  
+-  Ini adalah proyek tahap awal yang sedang berkembang pesat. 
+-  Saat ini, proyek ini masih sangat muda! Kami punya banyak ide kreatif yang baru, menarik, dan sedang giat membangunnya!      
+-  Jika Anda punya pertanyaan tentang proyek ini, atau ingin berkontribusi, silakan hubungi kami di Issues!    
 
-## Berita
 
+## 👏 Berita
+
+> Rencana open source: Pada tahap awal pembangunan kerangka kerja, mungkin akan ada penyesuaian besar dan sering. Setelah solusi stabil, kami akan memperbarui kode sumber secara sinkron.   
+
+- **[2025-07-23]** 🚀 **Persiapan Proyek.** 
 - **[2025-07-16]** 🚀 **Perpustakaan Proyek CueCut dibuat!** 
 
 <details>
@@ -55,8 +69,14 @@ Jika Anda memiliki pertanyaan tentang proyek ini, atau ingin berkontribusi, sila
 </details>
 
 
+## 🔑 Lisensi
+
+Hak Cipta 2025 juntaosun, dan kontributor lainnya
+
+Program ini adalah perangkat lunak bebas: Anda dapat mendistribusikan ulang dan/atau memodifikasinya di bawah ketentuan GNU Affero General Public License seperti yang diterbitkan oleh Free Software Foundation, baik versi 3 Lisensi, atau (sesuai pilihan Anda) versi yang lebih baru.
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---

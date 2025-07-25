@@ -28,26 +28,39 @@
   </details>
 </div>
 
-<div align="center" id="cuecut_logo">
-  <img src="https://raw.githubusercontent.com/juntaosun/CueCut/main/logo.png" alt="logo" width="125"></img>
-</div>
-<h3 align="center"><b>CueCut: Darmowy i Otwartoźródłowy Edytor Wideo dla Web, Desktop — Bez VIP</b></a>
+<p align="center">
+<img style="align:center;" src="https://raw.githubusercontent.com/juntaosun/CueCut/main/./logo.png" alt="Notesnook Logo" width="100" />
+</p>
+<h1 align="center">CueCut</h1>
+
+<h3 align="center" style="margin-bottom: -15px;">
+<b>Darmowy i otwartoźródłowy edytor wideo dla Web, Desktop — Bez VIP</b></a>
+<h4 align="center">Otwartoźródłowa alternatywa dla CapCut</a>
 </h3>
 
 <h3 align="center">
 <a href="README.md"><b>English</b></a> | <a href="README_ZH.md"><b>中文</b></a>
 </h3>
 
-**Dlaczego? ：**  Powszechnie wiadomo, że CapCut to imponujące narzędzie, które wyznaczyło trendy w branży edycji wideo. Jednak niemal wszystkie jego funkcje są zamknięte za płatną ścianą. Naszą wizją jest pełne wykorzystanie potencjału społeczności open-source, aby zbudować naprawdę otwarty, prawdziwie darmowy i powszechnie dostępny ekosystem edycji wideo wspierany przez AI.   
+## 🎁 Dlaczego CueCut ?  
+Jak wszyscy wiemy, CapCut jest naprawdę niesamowity i wyznaczył trendy w branży edycji wideo, ale prawie wszystkie jego funkcje są płatne. Naszą wizją jest pełna integracja technologii społeczności open source, aby stworzyć całkowicie otwarty, naprawdę darmowy ekosystem edycji wideo z AI, dostępny dla każdego.   
 
-Projekt jest jeszcze młody! Mamy mnóstwo świetnych, nowych i kreatywnych pomysłów i ciężko pracujemy nad ich wdrożeniem!      
-Jeśli masz pytania dotyczące tego projektu lub chcesz się przyczynić, śmiało napisz do nas w Issues!    
+- [x] Darmowy bez ograniczeń.  
+- [x] Bez rejestracji.  
+- [x] Bez zobowiązań.  
+- [x] Wykorzystuje zaawansowaną AI.  
 
-**Licencja：** AGPL-3.0 to licencja pozwalająca na komercyjne wykorzystanie i jest otwartoźródłowa.   
- 
+## 💬 Porozmawiaj z nami  
+-  To wczesny projekt rozwijany bardzo dynamicznie. 
+-  Na razie to dopiero początek! Mamy mnóstwo świetnych, nowych i kreatywnych pomysłów i ciężko pracujemy nad ich wdrożeniem!      
+-  Jeśli masz pytania dotyczące tego projektu lub chcesz się zaangażować, śmiało napisz do nas na Issues!    
 
-## Nowości
 
+## 👏 Aktualności
+
+> Plan otwartoźródłowy: Na wczesnym etapie budowy frameworka mogą występować częste i duże zmiany. Gdy rozwiązanie będzie stabilne, opublikujemy kod źródłowy równocześnie.   
+
+- **[2025-07-23]** 🚀 **Przygotowanie projektu.** 
 - **[2025-07-16]** 🚀 **Utworzono bibliotekę projektu CueCut!** 
 
 <details>
@@ -55,8 +68,15 @@ Jeśli masz pytania dotyczące tego projektu lub chcesz się przyczynić, śmia�
 </details>
 
 
+## 🔑 Licencja
+
+Copyright 2025 juntaosun i inni współtwórcy
+
+Ten program jest wolnym oprogramowaniem: możesz go rozpowszechniać i/lub modyfikować na warunkach GNU Affero General Public License, opublikowanej przez Free Software Foundation, w wersji 3 lub (opcjonalnie) dowolnej późniejszej wersji.
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---

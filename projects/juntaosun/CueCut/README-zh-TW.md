@@ -1,10 +1,11 @@
+
 <div align="right">
   <details>
     <summary >🌐 語言</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=juntaosun&project=CueCut&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=juntaosun&project=CueCut&lang=zh-CN">簡體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=juntaosun&project=CueCut&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=juntaosun&project=CueCut&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=juntaosun&project=CueCut&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=juntaosun&project=CueCut&lang=ko">한국어</a>
@@ -28,35 +29,54 @@
   </details>
 </div>
 
-<div align="center" id="cuecut_logo">
-  <img src="https://raw.githubusercontent.com/juntaosun/CueCut/main/logo.png" alt="logo" width="125"></img>
-</div>
-<h3 align="center"><b>CueCut：免費且開源的網頁與桌面影片剪輯器 — 無VIP限制</b></a>
+<p align="center">
+<img style="align:center;" src="https://raw.githubusercontent.com/juntaosun/CueCut/main/./logo.png" alt="Notesnook Logo" width="100" />
+</p>
+<h1 align="center">CueCut</h1>
+
+<h3 align="center" style="margin-bottom: -15px;">
+<b>免費且開源的網頁、桌面影片剪輯器 — 無VIP</b></a>
+<h4 align="center">開源的 CapCut 替代方案</a>
 </h3>
 
 <h3 align="center">
 <a href="README.md"><b>English</b></a> | <a href="README_ZH.md"><b>中文</b></a>
 </h3>
 
-**為什麼？：** 眾所周知，CapCut 是一款令人印象深刻的工具，引領了影片剪輯行業的潮流。然而，它幾乎所有的功能都被收費牆所限制。我們的願景是充分發揮開源社群的力量，打造一個真正開放、真正免費且全民可及的 AI 影片剪輯生態系統。   
+## 🎁 為什麼選擇 CueCut？  
+眾所皆知，CapCut 非常強大，並且在影片剪輯領域引領了產業潮流，但幾乎所有功能都需要付費。我們的願景是完全整合開源社群技術，打造一個完全開放、真正免費、人人可用的 AI 影片剪輯生態系統。   
 
-它仍然很年輕！我們有許多很棒、新穎且有趣的創意，正努力將其實現！      
-如果您對本專案有任何疑問，或希望貢獻一份心力，請隨時在 Issues 聯繫我們！    
+- [x] 完全免費，無限制。  
+- [x] 無需註冊。  
+- [x] 無任何附加條件。  
+- [x] 內建先進 AI 技術。  
 
-**授權：** AGPL-3.0 是一種允許商業用途且開源的寬鬆授權。   
- 
+## 💬 與我們討論  
+-  這是一個處於快速開發階段的早期項目。 
+-  目前仍在成長中！我們有很多新穎有趣的創意，正努力將其實現！      
+-  如果你對本項目有任何問題，或希望參與貢獻，歡迎在 Issues 與我們聯繫！    
 
-## 新聞
 
-- **[2025-07-16]** 🚀 **CueCut 專案庫已創建！** 
+## 👏 最新消息
+
+> 開源計劃：在搭建框架的早期階段，可能會頻繁且大幅度的調整。一旦方案穩定，我們將同步更新原始碼。   
+
+- **[2025-07-23]** 🚀 **項目準備中。** 
+- **[2025-07-16]** 🚀 **CueCut 專案庫建立！** 
 
 <details>
 <summary>顯示更多</summary>
 </details>
 
 
+## 🔑 授權
+
+Copyright 2025 juntaosun, 及其他貢獻者
+
+本程式為自由軟體：你可以遵循 GNU Affero General Public License（由自由軟體基金會發佈）的第3版或（由你選擇）任何後續版本來重新發布或修改。
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---

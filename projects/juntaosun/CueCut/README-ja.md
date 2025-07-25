@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 言語</summary>
@@ -28,35 +29,54 @@
   </details>
 </div>
 
-<div align="center" id="cuecut_logo">
-  <img src="https://raw.githubusercontent.com/juntaosun/CueCut/main/logo.png" alt="logo" width="125"></img>
-</div>
-<h3 align="center"><b>CueCut: 無料＆オープンソースのWeb・デスクトップ動画編集ソフト — VIPなし</b></a>
+<p align="center">
+<img style="align:center;" src="https://raw.githubusercontent.com/juntaosun/CueCut/main/./logo.png" alt="Notesnook Logo" width="100" />
+</p>
+<h1 align="center">CueCut</h1>
+
+<h3 align="center" style="margin-bottom: -15px;">
+<b>無料＆オープンソースのWeb・デスクトップ用動画編集ソフト — VIP不要</b></a>
+<h4 align="center">オープンソース版CapCutの代替</a>
 </h3>
 
 <h3 align="center">
-<a href="README.md"><b>English</b></a> | <a href="README_ZH.md"><b>中文</b></a>
+<a href="README.md"><b>英語</b></a> | <a href="README_ZH.md"><b>中文</b></a>
 </h3>
 
-**なぜ？ ：** CapCutは業界のトレンドをリードする優れた動画編集ツールとして広く知られています。しかし、そのほとんどの機能は有料でロックされています。私たちのビジョンは、オープンソースコミュニティの力を最大限に活用し、真にオープンで本当に無料、そして誰でも使えるAI搭載の動画編集エコシステムを構築することです。   
+## 🎁 なぜCueCutなのか？  
+ご存知のように、CapCutは非常に優れた動画編集ツールであり、業界のトレンドを作り上げましたが、ほとんどすべての機能が有料です。私たちのビジョンは、オープンソースコミュニティの技術を完全に統合し、誰もが使える、完全にオープンで真に無料のAI動画編集エコシステムを構築することです。   
 
-まだ始まったばかりです！私たちは多くの素晴らしく新しい、楽しいクリエイティブなアイデアを持っており、実現に向けて懸命に取り組んでいます！      
-このプロジェクトについてご質問がある場合や、貢献を希望される場合は、ぜひIssuesでご連絡ください！    
+- [x] 無料で制限なし。  
+- [x] サインアップ不要。  
+- [x] 完全無料、条件なし。  
+- [x] 最新のAIを搭載。  
 
-**ライセンス：** AGPL-3.0は商用利用が可能でオープンソースな寛容なライセンスです。   
- 
+## 💬 私たちと議論しよう  
+-  これは急速に開発中の初期段階プロジェクトです。 
+-  現在、まだ若いプロジェクトです！多くの素晴らしく新しく楽しいアイデアがあり、実現に向けて懸命に取り組んでいます！      
+-  このプロジェクトについて質問がある場合や、貢献したい場合は、ぜひIssuesでご連絡ください！    
 
-## ニュース
 
-- **[2025-07-16]** 🚀 **CueCutプロジェクトライブラリを作成しました！** 
+## 👏 ニュース
+
+> オープンソース計画：フレームワーク構築の初期段階では、頻繁かつ大規模な調整が行われる場合があります。解決策が安定次第、ソースコードを同期して公開します。   
+
+- **[2025-07-23]** 🚀 **プロジェクト準備開始。** 
+- **[2025-07-16]** 🚀 **CueCutプロジェクトライブラリ作成！** 
 
 <details>
-<summary>さらに表示</summary>
+<summary>もっと見る</summary>
 </details>
 
 
+## 🔑 ライセンス
+
+Copyright 2025 juntaosun, および他の貢献者
+
+このプログラムはフリーソフトウェアです：あなたはこれをGNU Affero General Public License（Free Software Foundationによって公開されたバージョン3または（オプションで）それ以降のバージョン）の条件の下で再配布および/または変更することができます。
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---
