@@ -198,47 +198,48 @@ We nodigen je van harte uit om je aan te sluiten bij onze bijdragers en samen de
 Om onze kernbijdragers te belonen en een positieve cyclus te creëren, hebben we het volgende langetermijn incentiveplan opgezet.
 
 **De eerste trackingperiode voor dit programma zal zijn in Q3 2025 (juli, augustus, september). Beloningen voor deze cyclus worden uitgereikt op 1 oktober.**
-Binnen elke trackingperiode (bijv. 1 juli tot en met 30 september voor de eerste cyclus) komt elke ontwikkelaar die meer dan **30 betekenisvolle commits** levert aan een van Cherry Studio's open-sourceprojecten op GitHub in aanmerking voor de volgende voordelen:
 
-- **Cursor-abonnementssponsoring**: Ontvang een **$70 USD** tegoed of vergoeding voor je [Cursor](https://cursor.sh/) abonnement, zodat AI je meest efficiënte programmeerpartner wordt.
-- **Onbeperkte modeltoegang**: Krijg **onbeperkte** API-aanroepen voor de **DeepSeek** en **Qwen** modellen.
-- **Toegang tot de nieuwste technologie**: Geniet van incidentele voordelen, waaronder API-toegang tot modellen zoals **Claude**, **Gemini** en **OpenAI**, zodat je altijd voorop blijft lopen in technologie.
+Binnen elke trackingsperiode (bijv. 1 juli tot 30 september voor de eerste cyclus) komt elke ontwikkelaar die meer dan **30 betekenisvolle commits** levert aan een van Cherry Studio's open-source projecten op GitHub in aanmerking voor de volgende voordelen:
 
-## Samen groeien & Toekomstplannen
+- **Cursor Abonnementsponsoring**: Ontvang een **$70 USD** tegoed of vergoeding voor je [Cursor](https://cursor.sh/) abonnement, zodat AI je meest efficiënte codeerpartner wordt.
+- **Onbeperkte Modeltoegang**: Krijg **onbeperkt** API-gebruik voor de **DeepSeek** en **Qwen** modellen.
+- **Toegang tot Geavanceerde Technologie**: Profiteer van incidentele voordelen, waaronder API-toegang tot modellen als **Claude**, **Gemini** en **OpenAI**, zodat je altijd voorop loopt in technologie.
 
-Een levendige community is de drijvende kracht achter elk duurzaam open-sourceproject. Naarmate Cherry Studio groeit, groeit ook ons beloningsprogramma. We blijven ons inzetten om onze voordelen continu af te stemmen op de beste tools en bronnen in de industrie. Zo krijgen onze kernbijdragers betekenisvolle ondersteuning, waardoor er een positieve cyclus ontstaat waarin ontwikkelaars, de community en het project samen groeien.
+## Samen Groeien & Toekomstplannen
 
-**Vooruitkijkend zal het project ook een steeds opener houding aannemen om de gehele open-sourcecommunity te ondersteunen.**
+Een levendige community is de drijvende kracht achter elk duurzaam open-source project. Naarmate Cherry Studio groeit, groeit ook ons beloningsprogramma. We zijn toegewijd om onze voordelen voortdurend af te stemmen op de beste tools en middelen in de sector. Zo zorgen we ervoor dat onze kernbijdragers waardevolle ondersteuning ontvangen en creëren we een positieve cyclus waarin ontwikkelaars, de community en het project samen groeien.
 
-## Hoe begin je?
+**Voortaan zal het project ook een steeds opener houding aannemen om iets terug te doen voor de gehele open-source community.**
+
+## Hoe Begin je?
 
 We kijken uit naar je eerste Pull Request!
 
-Je kunt beginnen door onze repositories te verkennen, een `good first issue` op te pakken of zelf verbeteringen voor te stellen. Elke commit is een bewijs van de open-sourcegeest.
+Je kunt beginnen door onze repositories te verkennen, een `good first issue` op te pakken of je eigen verbeteringen voor te stellen. Elke commit is een bewijs van de open source-mentaliteit.
 
-Bedankt voor je interesse en bijdragen.
+Dank voor je interesse en bijdragen.
 
 Laten we samen bouwen.
 
 # 🏢 Enterprise Edition
 
-Op basis van de Community Edition introduceren we met trots de **Cherry Studio Enterprise Edition**—een privé-deploybaar AI-productiviteits- en managementplatform voor moderne teams en bedrijven.
+Voortbouwend op de Community Edition introduceren we met trots de **Cherry Studio Enterprise Edition**—een privé-deploybaar AI-productiviteits- en managementplatform voor moderne teams en bedrijven.
 
-De Enterprise Edition pakt de kernuitdagingen van teamwerk aan door het beheer van AI-bronnen, kennis en data te centraliseren. Het stelt organisaties in staat om efficiënter te werken, innovatie te stimuleren en aan compliance te voldoen, terwijl ze 100% controle over hun data behouden in een veilige omgeving.
+De Enterprise Edition pakt kernuitdagingen in teamwerk aan door het beheer van AI-resources, kennis en data te centraliseren. Het stelt organisaties in staat om efficiëntie te verhogen, innovatie te stimuleren en compliance te waarborgen, terwijl ze 100% controle houden over hun data in een veilige omgeving.
 
 ## Kernvoordelen
 
-- **Uniform modelbeheer**: Integreer en beheer centraal verschillende cloud-gebaseerde LLM's (zoals OpenAI, Anthropic, Google Gemini) en lokaal geïmplementeerde privémodellen. Werknemers kunnen ze direct gebruiken zonder individuele configuratie.
-- **Kennisbank op ondernemingsniveau**: Bouw, beheer en deel team-brede kennisbanken. Zorgt voor kennisbehoud en consistentie, waardoor teamleden met AI kunnen werken op basis van uniforme en juiste informatie.
-- **Gedetailleerde toegangscontrole**: Beheer eenvoudig werknemersaccounts en wijs rolgebaseerde rechten toe voor verschillende modellen, kennisbanken en functies via een centrale beheerdersomgeving.
-- **Volledig privé deployment**: Implementeer de volledige backend-service op je eigen servers of private cloud, zodat je data 100% privé en onder controle blijft om te voldoen aan de strengste beveiligings- en compliance-eisen.
-- **Betrouwbare backend-diensten**: Biedt stabiele API-diensten en back-up- en herstelmechanismen op ondernemingsniveau om continuïteit van de bedrijfsvoering te waarborgen.
+- **Geïntegreerd Modelbeheer**: Integreer en beheer verschillende cloudgebaseerde LLM's (zoals OpenAI, Anthropic, Google Gemini) en lokaal uitgerolde private modellen centraal. Werknemers kunnen ze direct gebruiken zonder individuele configuratie.
+- **Kennisbank op Enterprise-niveau**: Bouw, beheer en deel team-brede kennisbanken. Zorgt voor kennisbehoud en consistentie, waardoor teamleden met AI kunnen werken op basis van eenduidige en nauwkeurige informatie.
+- **Fijngranulaire Toegangscontrole**: Beheer eenvoudig werknemersaccounts en wijs rolgebaseerde rechten toe voor verschillende modellen, kennisbanken en functies via één admin backend.
+- **Volledig Privé Uitrolbaar**: Rol de volledige backend-service uit op je eigen servers of private cloud, zodat je data 100% privé en onder jouw controle blijft en voldoet aan de strengste beveiligings- en compliance-eisen.
+- **Betrouwbare Backend Services**: Biedt stabiele API-services en back-up- en herstelmechanismen op enterprise-niveau om bedrijfscontinuïteit te waarborgen.
 
 ## ✨ Online Demo
 
-> 🚧 **Melding Openbare Beta**
+> 🚧 **Publieke Beta-melding**
 >
-> De Enterprise Edition bevindt zich momenteel in de vroege openbare bètafase en we zijn actief bezig met het verbeteren en optimaliseren van de functies. We beseffen dat het product mogelijk nog niet volledig stabiel is. Mocht je problemen ondervinden of waardevolle suggesties hebben tijdens de proef, zouden we het erg waarderen als je ons via e-mail feedback wilt geven.
+> De Enterprise Edition bevindt zich momenteel in een vroege publieke beta, en we zijn actief bezig met het itereren en optimaliseren van functies. We beseffen dat het product nog niet volledig stabiel is. Mocht je tijdens je test problemen ondervinden of waardevolle suggesties hebben, dan ontvangen we graag je feedback per e-mail.
 
 **🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
 
@@ -246,23 +247,23 @@ De Enterprise Edition pakt de kernuitdagingen van teamwerk aan door het beheer v
 
 | Functie           | Community Edition                          | Enterprise Edition                                                                                                                      |
 | :---------------- | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **Open Source**   | ✅ Ja                                      | ⭕️ Gedeeltelijk beschikbaar voor klanten                                                                                                |
-| **Kosten**        | Gratis voor persoonlijk gebruik / Commerciële licentie | Aankoop / Abonnementsvergoeding                                                                                                         |
-| **Beheerbackend** | —                                          | ● Gecentraliseerde **Model**-toegang<br>● **Werknemers**beheer<br>● Gedeelde **Kennisbank**<br>● **Toegangs**controle<br>● **Data**back-up |
-| **Server**        | —                                          | ✅ Toegewijde privé-implementatie                                                                                                       |
+| **Open Source**   | ✅ Ja                                      | ⭕️ Gedeeltelijk vrijgegeven aan klanten                                                                                                |
+| **Kosten**        | Gratis voor Persoonlijk Gebruik / Commerciële Licentie | Aankoop / Abonnementskosten                                                                                                            |
+| **Admin Backend** | —                                          | ● Gecentraliseerde **Model**-toegang<br>● **Werknemers**beheer<br>● Gedeelde **Kennisbank**<br>● **Toegangs**controle<br>● **Data**-back-up |
+| **Server**        | —                                          | ✅ Toegewijde Privé Uitrol                                                                                                              |
 
-## Verkrijg de Enterprise Edition
+## De Enterprise Edition verkrijgen
 
-Wij geloven dat de Enterprise Edition de AI-productiviteitsmotor van je team zal worden. Ben je geïnteresseerd in Cherry Studio Enterprise Edition en wil je meer weten, een offerte aanvragen of een demo plannen, neem dan gerust contact met ons op.
+Wij geloven dat de Enterprise Edition de AI-productiviteitsmotor van je team wordt. Ben je geïnteresseerd in Cherry Studio Enterprise Edition en wil je meer weten, een offerte aanvragen of een demo plannen, neem dan gerust contact met ons op.
 
-- **Voor zakelijke aanvragen & aankoop**:
+- **Voor Zakelijke Vragen & Aankoop**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
-# 🔗 Gerelateerde projecten
+# 🔗 Gerelateerde Projecten
 
-- [one-api](https://github.com/songquanpeng/one-api): LLM API-beheer- en distributiesysteem dat gangbare modellen zoals OpenAI, Azure en Anthropic ondersteunt. Beschikt over een uniforme API-interface, geschikt voor sleutelbeheer en secundaire distributie.
+- [one-api](https://github.com/songquanpeng/one-api): LLM API beheer- en distributiesysteem dat gangbare modellen zoals OpenAI, Azure en Anthropic ondersteunt. Biedt een uniforme API-interface, geschikt voor sleutelbeheer en secundaire distributie.
 
-- [ublacklist](https://github.com/iorate/ublacklist): Blokkeert specifieke sites zodat ze niet in Google zoekresultaten verschijnen
+- [ublacklist](https://github.com/iorate/ublacklist): Blokkeert specifieke sites in Google zoekresultaten
 
 # 🚀 Bijdragers
 
@@ -275,7 +276,7 @@ Wij geloven dat de Enterprise Edition de AI-productiviteitsmotor van je team zal
 
 ![Stats](https://repobeats.axiom.co/api/embed/a693f2e5f773eed620f70031e974552156c7f397.svg 'Repobeats analytics image')
 
-# ⭐️ Sterrenhistorie
+# ⭐️ Sterren-geschiedenis
 
 <a href="https://www.star-history.com/#CherryHQ/cherry-studio&Date">
  <picture>
@@ -297,7 +298,6 @@ Wij geloven dat de Enterprise Edition de AI-productiviteitsmotor van je team zal
 [telegram-link]: https://t.me/CherryStudioAI
 
 <!-- Links & Afbeeldingen -->
-
 [github-release-shield]: https://img.shields.io/github/v/release/CherryHQ/cherry-studio?logo=github
 [github-release-link]: https://github.com/CherryHQ/cherry-studio/releases
 [github-nightly-shield]: https://img.shields.io/github/actions/workflow/status/CherryHQ/cherry-studio/nightly-build.yml?label=nightly%20build&logo=github
@@ -318,6 +318,6 @@ Wij geloven dat de Enterprise Edition de AI-productiviteitsmotor van je team zal
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---

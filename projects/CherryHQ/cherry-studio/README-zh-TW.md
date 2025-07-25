@@ -198,71 +198,71 @@ Cherry Studio 是一款支援多種 LLM 供應商的桌面端客戶端，適用�
 為回饋核心貢獻者並建立良性循環，我們制定了以下長期獎勵計畫。
 
 **本計畫首輪追蹤周期為 2025 年第三季（7、8、9 月）。本期獎勵將於 10 月 1 日發放。**
-在任何追蹤期間內（例如：第一個週期為 7 月 1 日至 9 月 30 日），只要有開發者對 Cherry Studio 的任一 GitHub 開源項目貢獻超過 **30 次有意義的提交（commit）**，即可獲得以下福利：
+在任何追蹤週期內（例如：第一輪為 7 月 1 日至 9 月 30 日），任何開發者只要對 Cherry Studio 在 GitHub 上的任一開源專案貢獻超過 **30 次有意義的提交（commit）**，即可獲得以下福利：
 
-- **Cursor 訂閱贊助**：獲得 **70 美元** Cursor 訂閱 [Cursor](https://cursor.sh/) 的補貼或報銷，讓 AI 成為你最高效的程式夥伴。
-- **無限模型調用權限**：對 **DeepSeek** 與 **Qwen** 模型享有 **無限** API 調用次數。
-- **前沿技術特權**：不定期獲得如 **Claude**、**Gemini**、**OpenAI** 等模型的 API 權益，讓你始終站在技術最前線。
+- **Cursor 訂閱贊助**：獲得 **$70 美元** 的 [Cursor](https://cursor.sh/) 訂閱抵用金或報銷，讓 AI 成為你最高效的編碼夥伴。
+- **無限模型存取**：享有 **DeepSeek** 與 **Qwen** 模型的 **API 無限次呼叫權限**。
+- **尖端技術體驗**：不定期享有如 **Claude**、**Gemini**、**OpenAI** 等模型的 API 存取權，保持技術領先。
 
-## 共成長 · 展望未來
+## 共同成長與未來規劃
 
-蓬勃的社群是任何可持續開源項目的核心動力。隨著 Cherry Studio 的成長，我們的獎勵計畫也將持續升級。我們致力於不斷將福利對齊業界頂尖工具與資源，確保核心貢獻者能獲得實質支持，形成開發者、社群、項目共好正循環。
+一個充滿活力的社群，是任何永續開源專案的關鍵動力。隨著 Cherry Studio 的成長，獎勵計畫也將不斷提升。我們承諾持續將福利與業界最佳工具和資源接軌，確保核心貢獻者獲得實質支持，讓開發者、社群與專案形成正向循環，一同成長。
 
-**展望未來，項目將持續擁抱開放，回饋整個開源社群。**
+**未來，專案也將更加開放，回饋整個開源社群。**
 
 ## 如何開始參與？
 
-我們期待你的第一個 Pull Request！
+我們期待看到你的第一個 Pull Request！
 
-你可以從瀏覽我們的倉庫、挑戰 `good first issue`，或主動提出改進建議開始。每一次提交，都是對開源精神的最佳詮釋。
+你可以從探索我們的程式庫、挑選 `good first issue`，或提出你自己的改進建議開始。每一次提交，都是對開源精神的見證。
 
 感謝你的關注與貢獻。
 
-讓我們一起共建未來。
+讓我們一起打造未來。
 
 # 🏢 企業版
 
-在社群版的基礎上，我們隆重推出 **Cherry Studio 企業版**——一套可私有化部署的 AI 生產力與管理平台，專為現代團隊與企業打造。
+在社群版的基礎上，我們自豪推出 **Cherry Studio 企業版**——專為現代團隊與企業設計、可私有部署的 AI 生產力與管理平台。
 
-企業版聚焦團隊協作的核心痛點，統一管理 AI 資源、知識與數據，幫助組織提升效率、激發創新、確保合規，同時 100% 掌控自身數據，保障資料安全。
+企業版專注於解決團隊協作的核心挑戰，集中管理 AI 資源、知識與資料。它賦能組織提升效率、激發創新、確保合規，同時讓資料 100% 掌控於安全環境中。
 
 ## 核心優勢
 
-- **統一模型管理**：集中集成與管理多種雲端 LLM（如 OpenAI、Anthropic、Google Gemini）及本地部署私有模型。員工無需個人配置即可直接使用。
-- **企業級知識庫**：構建、管理並全員共享團隊知識庫。保障知識沉澱與一致性，讓團隊成員基於統一準確資料與 AI 互動。
-- **細緻權限管控**：通過統一後台輕鬆管理員工帳號，為不同模型、知識庫及功能分配角色權限。
-- **全私有化部署**：可將整個後端服務部署於本地伺服器或私有雲，數據 100% 私有並自主掌控，滿足最嚴苛的安全與合規要求。
-- **穩定後端服務**：提供穩定 API 服務及企業級資料備份與恢復機制，確保業務持續運行。
+- **統一模型管理**：集中整合與管理各類雲端 LLM（如 OpenAI、Anthropic、Google Gemini）及本地私有模型。員工無需個別設定即可即時使用。
+- **企業級知識庫**：建立、管理並分享全團隊知識庫。確保知識保留與一致性，讓團隊成員基於統一且準確的資訊與 AI 互動。
+- **細緻權限控管**：可透過統一後台輕鬆管理員工帳號，針對不同模型、知識庫與功能分配角色權限。
+- **完全私有部署**：可將整套後端服務部署於自有伺服器或私有雲，確保資料 100% 私有、完全掌控，符合最嚴格的資安與合規要求。
+- **可靠後端服務**：提供穩定的 API 服務與企業級資料備份與還原機制，保障業務持續運行。
 
-## ✨ 線上體驗
+## ✨ 線上展示
 
 > 🚧 **公測公告**
 >
-> 企業版目前處於早期公測階段，我們正在積極迭代與優化功能。若你在試用過程中遇到問題或有寶貴建議，歡迎通過郵件聯繫我們反饋。
+> 企業版目前處於早期公開測試階段，我們正積極迭代與優化功能，現階段可能尚未完全穩定。若你在試用過程中發現問題或有寶貴建議，非常歡迎透過電子郵件與我們聯繫反饋。
 
 **🔗 [Cherry Studio 企業版](https://www.cherry-ai.com/enterprise)**
 
-## 版本對比
+## 版本比較
 
-| 功能               | 社群版                                       | 企業版                                                                                                                        |
-| :---------------- | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| **開源**           | ✅ 是                                       | ⭕️ 部分對客戶開放                                                                                                               |
-| **價格**           | 個人免費 / 商用授權                         | 買斷 / 訂閱費                                                                                                               |
-| **管理後台**       | —                                          | ● 集中 **模型** 管理<br>● **員工** 管理<br>● 共享 **知識庫**<br>● **權限** 控制<br>● **數據** 備份 |
-| **伺服器**         | —                                          | ✅ 專屬私有部署                                                                                                              |
+| 功能               | 社群版                                     | 企業版                                                                                                                                |
+| :---------------- | :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
+| **開源**          | ✅ 是                                      | ⭕️ 部分原始碼開放供客戶查閱                                                                                                          |
+| **收費**          | 個人免費 / 商業授權                        | 一次性買斷 / 訂閱收費                                                                                                                |
+| **管理後台**      | —                                         | ● 集中**模型**管理<br>● **員工**管理<br>● 共享**知識庫**<br>● **權限**控管<br>● **資料**備份                                        |
+| **伺服器**        | —                                         | ✅ 專屬私有部署                                                                                                                       |
 
-## 申請企業版
+## 取得企業版
 
-我們相信企業版將成為你團隊的 AI 生產力引擎。如果你有興趣了解 Cherry Studio 企業版、獲取更多資訊、申請報價或預約演示，歡迎隨時聯繫我們。
+我們相信企業版將成為你團隊的 AI 生產力引擎。如果你對 Cherry Studio 企業版有興趣、想了解更多、索取報價或預約演示，歡迎隨時聯繫我們。
 
-- **商務聯繫 & 採購**：
+- **商務洽詢與購買**：
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
-# 🔗 相關項目
+# 🔗 相關專案
 
-- [one-api](https://github.com/songquanpeng/one-api)：支持 OpenAI、Azure、Anthropic 等主流模型的 LLM API 管理與分發系統，統一 API 介面，適用於金鑰管理和二次分發。
+- [one-api](https://github.com/songquanpeng/one-api)：主流模型（如 OpenAI、Azure、Anthropic）API 管理與分發系統，提供統一 API 介面，適用於金鑰管理與二次分發。
 
-- [ublacklist](https://github.com/iorate/ublacklist)：屏蔽指定網站在 Google 搜尋結果中顯示
+- [ublacklist](https://github.com/iorate/ublacklist)：阻擋特定網站在 Google 搜尋結果中顯示
 
 # 🚀 貢獻者
 
@@ -275,7 +275,7 @@ Cherry Studio 是一款支援多種 LLM 供應商的桌面端客戶端，適用�
 
 ![Stats](https://repobeats.axiom.co/api/embed/a693f2e5f773eed620f70031e974552156c7f397.svg 'Repobeats analytics image')
 
-# ⭐️ Star 歷史
+# ⭐️ 星標歷史
 
 <a href="https://www.star-history.com/#CherryHQ/cherry-studio&Date">
  <picture>
@@ -285,9 +285,9 @@ Cherry Studio 是一款支援多種 LLM 供應商的桌面端客戶端，適用�
  </picture>
 </a>
 
-<!-- 連結 & 圖片 -->
+<!-- 連結與圖片 -->
 
-[deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNy45MyAzMiI+PHBhdGggZD0iTTE5LjMzIDE0LjEyYy42Ny0uMzkgMS41LS4zOSAyLjE4IDBsMS43NCAxYy4wNi4wMy4xMS4wNi4xOC4wN2guMDRjLjA2LjAzLjEyLjAzLjE4LjAzaC4wMmMuMDYgMCAuMTEgMCAuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNS4xNy0uMDhoLjAybDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWOC40YS44MS44MSAwIDAgMC0uNC0uN2wtMy40OC0yLjAxYS44My44MyAwIDAgMC0uODEgMEwxOS43NyA3LjdoLS4wMWwtLjE1LjEyLS4wMi4wMnMtLjA3LjA5LS4xLjE0VjhhLjQuNCAwIDAgMC0uMDguMTd2LjA0Yy0uMDMuMDYtLjAzLjEyLS4wMy4xOXYyLjAxYzAgLjc4LS40MSAxLjQ5LTEuMDkgMS44OC0uNjcuMzktMS41LjM5LTIuMTggMGwtMS43NC0xYS42LjYgMCAwIDAtLjIxLS4wOGMtLjA2LS4wMS0uMTItLjAyLS4xOC0uMDJoLS4wM2MtLjA2IDAtLjExLjAxLS4xNy4wMmgtLjAzYy0uMDYuMDItLjEyLjA0LS4xNy4wN2gtLjAybC0zLjQ3IDIuMDFjLS4yNS4xNC0uNC40MS0uNC43VjE4YzAgLjI5LjE1LjU1LjQuN2wzLjQ4IDIuMDFoLjAyYy4wNi4wNC4xMS4wNi4xNy4wOGguMDNjLjA1LjAyLjExLjAzLjE3LjAzaC4wMmMuMDYgMCAuMTIgMCAuMTgtLjAyaC4wNGMuMDYtLjAzLjEyLS4wNS4xOC0uMDhsMS43NC0xYy42Ny0uMzkgMS41LS4zOSAyLjE3IDBzMS4wOSAxLjExIDEuMDkgMS44OHYyLjAxYzAgLjA3IDAgLjEzLjAyLjE5di4wNGMuMDMuMDYuMDUuMTIuMDguMTd2LjAycy4wOC4wOS4xMi4xM2wuMDIuMDJzLjA5LjA4LjE1LjExYzAgMCAuMDEgMCAuMDEuMDFsMy40OCAyLjAxYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjd2LTQuMDFhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ4LTIuMDFoLS4wMmMtLjA1LS4wNC0uMTEtLjA2LS4xNy0uMDhoLS4wM2EuNS41IDAgMCAwLS4xNy0uMDNoLS4wM2MtLjA2IDAtLjEyIDAtLjE4LjAyLS4wNy4wMi0uMTUuMDUtLjIxLjA4bC0xLjc0IDFjLS42Ny4zOS0xLjUuMzktMi4xNyAwYTIuMTkgMi4xOSAwIDAgMS0xLjA5LTEuODhjMC0uNzguNDItMS40OSAxLjA5LTEuODhaIiBzdHlsZT0iZmlsbDojNWRiZjlkIi8+PHBhdGggZD0ibS40IDEzLjExIDMuNDcgMi4wMWMuMjUuMTQuNTYuMTQuOCAwbDMuNDctMi4wMWguMDFsLjE1LS4xMi4wMi0uMDJzLjA3LS4wOS4xLS4xNGwuMDItLjAyYy4wMy0uMDUuMDUtLjExLjA3LS4xN3YtLjA0Yy4wMy0uMDYuMDMtLjEyLjAzLS4xOVYxMC40YzAtLjc4LjQyLTEuNDkgMS4wOS0xLjg4czEuNS0uMzkgMi4xOCAwbDEuNzQgMWMuMDcuMDQuMTQuMDcuMjEuMDguMDYuMDEuMTIuMDIuMTguMDJoLjAzYy4wNiAwIC4xMS0uMDEuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNC4xNy0uMDdoLjAybDMuNDctMi4wMmMuMjUtLjE0LjQtLjQxLjQtLjd2LTRhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ2LTJhLjgzLjgzIDAgMCAwLS44MSAwbC0zLjQ4IDIuMDFoLS4wMWwtLjE1LjEyLS4wMi4wMi0uMS4xMy0uMDIuMDJjLS4wMy4wNS0uMDUuMTEtLjA3LjE3di4wNGMtLjAzLjA2LS4wMy4xMi0uMDMuMTl2Mi4wMWMwIC43OC0uNDIgMS40OS0xLjA5IDEuODhzLTEuNS4zOS0yLjE4IDBsLTEuNzQtMWEuNi42IDAgMCAwLS4yMS0uMDhjLS4wNi0uMDEtLjEyLS4wMi0uMTgtLjAyaC0uMDNjLS4wNiAwLS4xMS4wMS0uMTcuMDJoLS4wM2MtLjA2LjAyLS4xMi4wNS0uMTcuMDhoLS4wMkwuNCA3LjcxYy0uMjUuMTQtLjQuNDEtLjQuNjl2NC4wMWMwIC4yOS4xNS41Ni40LjciIHN0eWxlPSJmaWxsOiM0NDY4YzQiLz48cGF0aCBkPSJtMTcuODQgMjQuNDgtMy40OC0yLjAxaC0uMDJjLS4wNS0uMDQtLjExLS4wNi0uMTctLjA4aC0uMDNhLjUuNSAwIDAgMC0uMTctLjAzaC0uMDNjLS4wNiAwLS4xMiAwLS4xOC4wMmgtLjA0Yy0uMDYuMDMtLjEyLjA1LS4xOC4wOGwtMS43NCAxYy0uNjcuMzktMS41LjM5LTIuMTggMGEyLjE5IDIuMTkgMCAwIDEtMS4wOS0xLjg4di0yLjAxYzAtLjA2IDAtLjEzLS4wMi0uMTl2LS4wNGMtLjAzLS4wNi0uMDUtLjExLS4wOC0uMTdsLS4wMi0uMDJzLS4wNi0uMDktLjEtLjEzTDguMjkgMTlzLS4wOS0uMDgtLjE1LS4xMWgtLjAxbC0zLjQ3LTIuMDJhLjgzLjgzIDAgMCAwLS44MSAwTC4zNyAxOC44OGEuODcuODcgMCAwIDAtLjM3LjcxdjQuMDFjMCAuMjkuMTUuNTUuNC43bDMuNDcgMi4wMWguMDJjLjA1LjA0LjExLjA2LjE3LjA4aC4wM2MuMDUuMDIuMTEuMDMuMTYuMDNoLjAzYy4wNiAwIC4xMiAwIC4xOC0uMDJoLjA0Yy4wNi0uMDMuMTItLjA1LjE4LS4wOGwxLjc0LTFjLjY3LS4zOSAxLjUtLjM5IDIuMTcgMHMxLjA5IDEuMTEgMS4wOSAxLjg4djIuMDFjMCAuMDcgMCAuMTMuMDIuMTl2LjA0Yy4wMy4wNi4wNS4xMS4wOC4xN2wuMDIuMDJzLjA2LjA5LjEuMTRsLjAyLjAycy4wOS4wOC4xNS4xMWguMDFsMy40OCAyLjAyYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWMjUuMmEuODEuODEgMCAwIDAtLjQtLjdaIiBzdHlsZT0iZmlsbDojNDI5M2Q5Ii8+PC9zdmc+
+[deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNy45MyAzMiI+PHBhdGggZD0iTTE5LjMzIDE0LjEyYy42Ny0uMzkgMS41LS4zOSAyLjE4IDBsMS43NCAxYy4wNi4wMy4xMS4wNi4xOC4wN2guMDRjLjA2LjAzLjEyLjAzLjE4LjAzaC4wMmMuMDYgMCAuMTEgMCAuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNS4xNy0uMDhoLjAybDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWOC40YS44MS44MSAwIDAgMC0uNC0uN2wtMy40OC0yLjAxYS44My44MyAwIDAgMC0uODEgMEwxOS43NyA3LjdoLS4wMWwtLjE1LjEyLS4wMi4wMnMtLjA3LjA5LS4xLjE0VjhhLjQuNCAwIDAgMC0uMDguMTd2LjA0Yy0uMDMuMDYtLjAzLjEyLS4wMy4xOXYyLjAxYzAgLjc4LS40MSAxLjQ5LTEuMDkgMS44OC0uNjcuMzktMS41LjM5LTIuMTggMGwtMS43NC0xYS42LjYgMCAwIDAtLjIxLS4wOGMtLjA2LS4wMS0uMTItLjAyLS4xOC0uMDJoLS4wM2MtLjA2IDAtLjExLjAxLS4xNy4wMmgtLjAzYy0uMDYuMDItLjEyLjA0LS4xNy4wN2gtLjAybC0zLjQ3IDIuMDFjLS4yNS4xNC0uNC40MS0uNC43VjE4YzAgLjI5LjE1LjU1LjQuN2wzLjQ4IDIuMDFoLjAyYy4wNi4wNC4xMS4wNi4xNy4wOGguMDNjLjA1LjAyLjExLjAzLjE3LjAzaC4wMmMuMDYgMCAuMTIgMCAuMTgtLjAyaC4wNGMuMDYtLjAzLjEyLS4wNS4xOC0uMDhsMS43NC0xYy42Ny0uMzkgMS41LS4zOSAyLjE3IDBzMS4wOSAxLjExIDEuMDkgMS44OHYyLjAxYzAgLjA3IDAgLjEzLjAyLjE5di4wNGMuMDMuMDYuMDUuMTIuMDguMTd2LjAycy4wOC4wOS4xMi4xM2wuMDIuMDJzLjA5LjA4LjE1LjExYzAgMCAuMDEgMCAuMDEuMDFsMy40OCAyLjAxYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjd2LTQuMDFhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ4LTIuMDFoLS4wMmMtLjA1LS4wNC0uMTEtLjA2LS4xNy0uMDhoLS4wM2EuNS41IDAgMCAwLS4xNy0uMDNoLS4wM2MtLjA2IDAtLjEyIDAtLjE4LjAyLS4wNy4wMi0uMTUuMDUtLjIxLjA4bC0xLjc0IDFjLS42Ny4zOS0xLjUuMzktMi4xNyAwYTIuMTkgMi4xOSAwIDAgMS0xLjA5LTEuODhjMC0uNzguNDItMS40OSAxLjA5LTEuODhaIiBzdHlsZT0iZmlsbDojNWRiZjlkIi8+PHBhdGggZD0ibS40IDEzLjExIDMuNDcgMi4wMWMuMjUuMTQuNTYuMTQuOCAwbDMuNDctMi4wMWguMDFsLjE1LS4xMi4wMi0uMDJzLjA3LS4wOS4xLS4xNGwuMDItLjAyYy4wMy0uMDUuMDUtLjExLjA3LS4xN3YtLjA0Yy4wMy0uMDYuMDMtLjEyLjAzLS4xOVYxMC40YzAtLjc4LjQyLTEuNDkgMS4wOS0xLjg4czEuNS0uMzkgMi4xOCAwbDEuNzQgMWMuMDcuMDQuMTQuMDcuMjEuMDguMDYuMDEuMTIuMDIuMTguMDJoLjAzYy4wNiAwIC4xMS0uMDEuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNC4xNy0uMDdoLjAybDMuNDctMi4wMmMuMjUtLjE0LjQtLjQxLjQtLjd2LTRhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ2LTJhLjgzLjgzIDAgMCAwLS44MSAwbC0zLjQ4IDIuMDFoLS4wMWwtLjE1LjEyLS4wMi4wMi0uMS4xMy0uMDIuMDJjLS4wMy4wNS0uMDUuMTEtLjA3LjE3di4wNGMtLjAzLjA2LS4wMy4xMi0uMDMuMTl2Mi4wMWMwIC43OC0uNDIgMS40OS0xLjA5IDEuODhzLTEuNS4zOS0yLjE4IDBsLTEuNzQtMWEuNi42IDAgMCAwLS4yMS0uMDhjLS4wNi0uMDEtLjEyLS4wMi0uMTgtLjAyaC0uMDNjLS4wNiAwLS4xMS4wMS0uMTcuMDJoLS4wM2MtLjA2LjAyLS4xMi4wNS0uMTcuMDhoLS4wMkwuNCA3LjcxYy0uMjUuMTQtLjQuNDEtLjQuNjl2NC4wMWMwIC4yOS4xNS41Ni40LjciIHN0eWxlPSJmaWxsOiM0NDY4YzQiLz48cGF0aCBkPSJtMTcuODQgMjQuNDgtMy40OC0yLjAxaC0uMDJjLS4wNS0uMDQtLjExLS4wNi0uMTctLjA4aC0uMDNhLjUuNSAwIDAgMC0uMTctLjAzaC0uMDNjLS4wNiAwLS4xMiAwLS4xOC4wMmgtLjA0Yy4wNi0uMDMuMTItLjA1LjE4LS4wOGwtMS43NCAxYy0uNjctLjM5LTEuNS0uMzktMi4xOCAwYTIuMTkgMi4xOSAwIDAgMS0xLjA5LTEuODh2LTIuMDFjMC0uMDYgMC0uMTMtLjAyLS4xOXYtLjA0Yy0uMDMtLjA2LS4wNS0uMTEtLjA4LS4xN2wtLjAyLS4wMnMtLjA2LS4wOS0uMTAtLjEzTDguMjkgMTlzLS4wOS0uMDgtLjE1LS4xMWgtLjAxbC0zLjQ3LTIuMDJhLjgzLjgzIDAgMCAwLS44MSAwTC4zNyAxOC44OGEuODcuODcgMCAwIDAtLjM3LjcxdjQuMDFjMCAuMjkuMTUuNTUuNC43bDMuNDcgMi4wMWguMDJjLjA1LjA0LjExLjA2LjE3LjA4aC4wM2MuMDUuMDIuMTEuMDMuMTYuMDNoLjAzYy4wNiAwIC4xMiAwIC4xOC0uMDJoLjA0Yy4wNi0uMDMuMTItLjA1LjE4LS4wOGwxLjc0LTFjLjY3LS4zOSAxLjUtLjM5IDIuMTcgMHMxLjA5IDEuMTEgMS4wOSAxLjg4djIuMDFjMCAuMDcgMCAuMTMuMDIuMTl2LjA0Yy4wMy4wNi4wNS4xMS4wOC4xN2wuMDIuMDJzLjA2LjA5LjEuMTRsLjAyLjAycy4wOS4wOC4xNS4xMWguMDFsMy40OCAyLjAyYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWMjUuMmEuODEuODEgMCAwIDAtLjQtLjdaIiBzdHlsZT0iZmlsbDojNDI5M2Q5Ii8+PC9zdmc+
 [deepwiki-link]: https://deepwiki.com/CherryHQ/cherry-studio
 [twitter-shield]: https://img.shields.io/badge/Twitter-CherryStudioApp-0088CC?logo=x
 [twitter-link]: https://twitter.com/CherryStudioHQ
@@ -296,7 +296,7 @@ Cherry Studio 是一款支援多種 LLM 供應商的桌面端客戶端，適用�
 [telegram-shield]: https://img.shields.io/badge/Telegram-@CherryStudioAI-0088CC?logo=telegram
 [telegram-link]: https://t.me/CherryStudioAI
 
-<!-- 連結 & 圖片 -->
+<!-- 連結與圖片 -->
 
 [github-release-shield]: https://img.shields.io/github/v/release/CherryHQ/cherry-studio?logo=github
 [github-release-link]: https://github.com/CherryHQ/cherry-studio/releases
@@ -318,6 +318,6 @@ Cherry Studio 是一款支援多種 LLM 供應商的桌面端客戶端，適用�
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---

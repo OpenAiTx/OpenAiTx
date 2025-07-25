@@ -198,23 +198,24 @@ Nous vous invitons sincèrement à rejoindre nos contributeurs et à façonner l
 Pour remercier nos contributeurs principaux et encourager un cercle vertueux, nous avons établi le plan d’incitation à long terme suivant.
 
 **La première période de suivi de ce programme sera le T3 2025 (juillet, août, septembre). Les récompenses de ce cycle seront distribuées le 1er octobre.**
-Au cours de toute période de suivi (par exemple, du 1er juillet au 30 septembre pour le premier cycle), tout développeur qui contribue plus de **30 commits significatifs** à l’un des projets open-source de Cherry Studio sur GitHub sera éligible aux avantages suivants :
 
-- **Parrainage d’abonnement Cursor** : Recevez un crédit ou un remboursement de **70 $ USD** pour votre abonnement [Cursor](https://cursor.sh/), faisant de l’IA votre partenaire de codage le plus efficace.
-- **Accès illimité aux modèles** : Obtenez des appels API **illimités** pour les modèles **DeepSeek** et **Qwen**.
-- **Accès à la technologie de pointe** : Profitez d’avantages occasionnels, y compris un accès API à des modèles comme **Claude**, **Gemini** et **OpenAI**, pour rester à la pointe de la technologie.
+Au cours de toute période de suivi (par exemple, du 1er juillet au 30 septembre pour le premier cycle), tout développeur qui contribue plus de **30 commits significatifs** à l’un des projets open source de Cherry Studio sur GitHub sera éligible aux avantages suivants :
 
-## Grandir ensemble & Plans futurs
+- **Parrainage d’abonnement Cursor** : Recevez un crédit ou un remboursement de **70 $ USD** pour votre abonnement [Cursor](https://cursor.sh/), afin de faire de l’IA votre partenaire de codage le plus efficace.
+- **Accès illimité aux modèles** : Bénéficiez d’appels API **illimités** pour les modèles **DeepSeek** et **Qwen**.
+- **Accès aux technologies de pointe** : Profitez occasionnellement d’avantages, tels qu’un accès API à des modèles comme **Claude**, **Gemini** et **OpenAI**, pour rester à la pointe de la technologie.
 
-Une communauté dynamique est la force motrice de tout projet open-source durable. À mesure que Cherry Studio grandit, notre programme de récompenses évoluera aussi. Nous nous engageons à aligner continuellement nos avantages sur les meilleurs outils et ressources du secteur. Cela garantit un soutien significatif à nos contributeurs principaux, créant un cercle vertueux où les développeurs, la communauté et le projet grandissent ensemble.
+## Grandir Ensemble & Plans Futurs
 
-**À l’avenir, le projet adoptera également une position de plus en plus ouverte afin de redonner à toute la communauté open-source.**
+Une communauté dynamique est la force motrice derrière tout projet open source durable. À mesure que Cherry Studio grandit, notre programme de récompenses évoluera également. Nous nous engageons à aligner continuellement nos avantages sur les meilleurs outils et ressources du secteur. Cela garantit à nos contributeurs principaux un soutien significatif, créant un cercle vertueux où les développeurs, la communauté et le projet grandissent ensemble.
+
+**À l’avenir, le projet adoptera également une posture encore plus ouverte pour redonner à l’ensemble de la communauté open source.**
 
 ## Comment commencer ?
 
 Nous attendons avec impatience votre première Pull Request !
 
-Vous pouvez commencer par explorer nos dépôts, choisir un `good first issue`, ou proposer vos propres améliorations. Chaque commit témoigne de l’esprit de l’open source.
+Vous pouvez commencer par explorer nos dépôts, choisir une `good first issue`, ou proposer vos propres améliorations. Chaque commit est un témoignage de l’esprit open source.
 
 Merci pour votre intérêt et vos contributions.
 
@@ -222,47 +223,47 @@ Construisons ensemble.
 
 # 🏢 Édition Entreprise
 
-En s’appuyant sur l’édition communautaire, nous sommes fiers de présenter **Cherry Studio Édition Entreprise**—une plateforme d’IA de productivité et de gestion déployable en privé, conçue pour les équipes et entreprises modernes.
+En s’appuyant sur l’Édition Communautaire, nous sommes fiers de présenter **Cherry Studio Enterprise Edition**—une plateforme de productivité et de gestion IA déployable en privé, conçue pour les équipes et entreprises modernes.
 
-L’Édition Entreprise répond aux défis majeurs de la collaboration en équipe en centralisant la gestion des ressources, des connaissances et des données d’IA. Elle permet aux organisations d’améliorer leur efficacité, de favoriser l’innovation et d’assurer la conformité, tout en gardant un contrôle total sur leurs données dans un environnement sécurisé.
+L’Édition Entreprise répond aux principaux défis de la collaboration en équipe en centralisant la gestion des ressources IA, des connaissances et des données. Elle permet aux organisations d’améliorer l’efficacité, de favoriser l’innovation et d’assurer la conformité, tout en gardant un contrôle total sur leurs données dans un environnement sécurisé.
 
-## Avantages principaux
+## Avantages Clés
 
 - **Gestion unifiée des modèles** : Intégrez et gérez de manière centralisée divers LLM cloud (ex : OpenAI, Anthropic, Google Gemini) et des modèles privés déployés localement. Les employés peuvent les utiliser immédiatement sans configuration individuelle.
-- **Base de connaissances professionnelle** : Construisez, gérez et partagez des bases de connaissances à l’échelle de l’équipe. Garantit la rétention et la cohérence des connaissances, permettant aux membres d’interagir avec l’IA sur la base d’informations unifiées et précises.
-- **Contrôle d’accès granulaire** : Gérez facilement les comptes employés et attribuez des autorisations basées sur les rôles pour différents modèles, bases de connaissances et fonctionnalités via un back-office admin unifié.
-- **Déploiement 100 % privé** : Déployez l’intégralité du service backend sur vos propres serveurs ou dans votre cloud privé, garantissant que vos données restent 100 % privées et sous votre contrôle pour répondre aux normes de sécurité et de conformité les plus strictes.
-- **Services backend fiables** : Fournit des services API stables et des mécanismes de sauvegarde et de récupération des données de niveau entreprise pour assurer la continuité des activités.
+- **Base de connaissances de niveau entreprise** : Construisez, gérez et partagez des bases de connaissances à l’échelle de l’équipe. Garantit la rétention et la cohérence des connaissances, permettant aux membres d’interagir avec l’IA sur la base d’informations unifiées et fiables.
+- **Contrôle d’accès granulaire** : Gérez facilement les comptes employés et attribuez des autorisations basées sur les rôles pour différents modèles, bases de connaissances et fonctionnalités via un back-office unifié.
+- **Déploiement entièrement privé** : Déployez tout le service backend sur vos serveurs locaux ou cloud privé, assurant la confidentialité totale de vos données pour répondre aux normes de sécurité et de conformité les plus strictes.
+- **Services backend fiables** : Fournit des services API stables et des mécanismes de sauvegarde/récupération de données de niveau entreprise pour garantir la continuité d’activité.
 
 ## ✨ Démo en ligne
 
-> 🚧 **Avis Bêta Publique**
+> 🚧 **Avis de Bêta Publique**
 >
-> L’Édition Entreprise est actuellement en phase de bêta publique précoce, et nous itérons et optimisons activement ses fonctionnalités. Nous savons qu’elle peut ne pas être encore parfaitement stable. Si vous rencontrez des problèmes ou avez des suggestions précieuses lors de votre essai, nous vous serions très reconnaissants de nous contacter par email pour nous faire part de vos retours.
+> L’Édition Entreprise est actuellement en phase de bêta publique précoce et nous itérons et optimisons activement ses fonctionnalités. Nous savons qu’elle n’est pas encore parfaitement stable. Si vous rencontrez des problèmes ou avez des suggestions lors de l’essai, nous vous serions très reconnaissants de nous contacter par email pour nous faire part de vos retours.
 
 **🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
 
 ## Comparaison des versions
 
-| Fonctionnalité    | Édition Communautaire                    | Édition Entreprise                                                                                                                                |
-| :---------------- | :--------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Open Source**   | ✅ Oui                                   | ⭕️ Partiellement publié aux clients                                                                                                               |
-| **Coût**          | Gratuit pour usage personnel / Licence commerciale | Achat / Abonnement                                                                                                                     |
-| **Admin Backend** | —                                        | ● Accès **Modèle** centralisé<br>● Gestion des **employés**<br>● **Base de Connaissances** partagée<br>● Contrôle **d’accès**<br>● Sauvegarde **données** |
-| **Serveur**       | —                                        | ✅ Déploiement privé dédié                                                                                                                        |
+| Fonctionnalité    | Édition Communautaire                      | Édition Entreprise                                                                                                                      |
+| :---------------- | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **Open Source**   | ✅ Oui                                     | ⭕️ Partiellement publié pour les clients                                                                                                |
+| **Coût**          | Gratuit pour usage perso / Licence pro     | Achat complet / Abonnement                                                                                                              |
+| **Admin Backend** | —                                          | ● Accès **modèles** centralisé<br>● Gestion des **employés**<br>● **Base de connaissances** partagée<br>● **Contrôle** d’accès<br>● Sauvegarde **données** |
+| **Serveur**       | —                                          | ✅ Déploiement privé dédié                                                                                                              |
 
 ## Obtenir l’Édition Entreprise
 
-Nous pensons que l’Édition Entreprise deviendra le moteur de productivité IA de votre équipe. Si vous êtes intéressé par Cherry Studio Édition Entreprise et souhaitez en savoir plus, demander un devis ou programmer une démo, n’hésitez pas à nous contacter.
+Nous pensons que l’Édition Entreprise deviendra le moteur IA de productivité de votre équipe. Si vous êtes intéressé par Cherry Studio Enterprise Edition et souhaitez en savoir plus, demander un devis ou planifier une démo, n’hésitez pas à nous contacter.
 
 - **Pour les demandes commerciales & achats** :
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 Projets associés
 
-- [one-api](https://github.com/songquanpeng/one-api) : Système de gestion et de distribution d’API LLM prenant en charge les modèles majeurs comme OpenAI, Azure et Anthropic. Offre une interface API unifiée, adaptée à la gestion de clés et à la distribution secondaire.
+- [one-api](https://github.com/songquanpeng/one-api) : Système de gestion et distribution d’API LLM, prenant en charge les modèles principaux comme OpenAI, Azure et Anthropic. Offre une interface API unifiée, adaptée à la gestion des clés et la distribution secondaire.
 
-- [ublacklist](https://github.com/iorate/ublacklist) : Bloque l’apparition de certains sites dans les résultats de recherche Google
+- [ublacklist](https://github.com/iorate/ublacklist) : Bloque l’apparition de sites spécifiques dans les résultats de recherche Google
 
 # 🚀 Contributeurs
 
@@ -287,7 +288,7 @@ Nous pensons que l’Édition Entreprise deviendra le moteur de productivité IA
 
 <!-- Liens & Images -->
 
-[deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNy45MyAzMiI+PHBhdGggZD0iTTE5LjMzIDE0LjEyYy42Ny0uMzkgMS41LS4zOSAyLjE4IDBsMS43NCAxYy4wNi4wMy4xMS4wNi4xOC4wN2guMDRjLjA2LjAzLjEyLjAzLjE4LjAzaC4wMmMuMDYgMCAuMTEgMCAuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNS4xNy0uMDhoLjAybDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWOC40YS44MS44MSAwIDAgMC0uNC0uN2wtMy40OC0yLjAxYS44My44MyAwIDAgMC0uODEgMEwxOS43NyA3LjdoLS4wMWwtLjE1LjEyLS4wMi4wMnMtLjA3LjA5LS4xLjE0VjhhLjQuNCAwIDAgMC0uMDguMTd2LjA0Yy0uMDMuMDYtLjAzLjEyLS4wMy4xOXYyLjAxYzAgLjc4LS40MSAxLjQ5LTEuMDkgMS44OC0uNjcuMzktMS41LjM5LTIuMTggMGwtMS43NC0xYS42LjYgMCAwIDAtLjIxLS4wOGMtLjA2LS4wMS0uMTItLjAyLS4xOC0uMDJoLS4wM2MtLjA2IDAtLjExLjAxLS4xNy4wMmgtLjAzYy0uMDYuMDItLjEyLjA0LS4xNy4wN2gtLjAybC0zLjQ3IDIuMDFjLS4yNS4xNC0uNC40MS0uNC43VjE4YzAgLjI5LjE1LjU1LjQuN2wzLjQ4IDIuMDFoLjAyYy4wNi4wNC4xMS4wNi4xNy4wOGguMDNjLjA1LjAyLjExLjAzLjE3LjAzaC4wMmMuMDYgMCAuMTIgMCAuMTgtLjAyaC4wNGMuMDYtLjAzLjEyLS4wNS4xOC0uMDhsMS43NC0xYy42Ny0uMzkgMS41LS4zOSAyLjE3IDBzMS4wOSAxLjExIDEuMDkgMS44OHYyLjAxYzAgLjA3IDAgLjEzLjAyLjE5di4wNGMuMDMuMDYuMDUuMTIuMDguMTd2LjAycy4wOC4wOS4xMi4xM2wuMDIuMDJzLjA5LjA4LjE1LjExYzAgMCAuMDEgMCAuMDEuMDFsMy40OCAyLjAxYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjd2LTQuMDFhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ4LTIuMDFoLS4wMmMtLjA1LS4wNC0uMTEtLjA2LS4xNy0uMDhoLS4wM2EuNS41IDAgMCAwLS4xNy0uMDNoLS4wM2MtLjA2IDAtLjEyIDAtLjE4LjAyLS4wNy4wMi0uMTUuMDUtLjIxLjA4bC0xLjc0IDFjLS42Ny4zOS0xLjUuMzktMi4xNyAwYTIuMTkgMi4xOSAwIDAgMS0xLjA5LTEuODhjMC0uNzguNDItMS40OSAxLjA5LTEuODhaIiBzdHlsZT0iZmlsbDojNWRiZjlkIi8+PHBhdGggZD0ibS40IDEzLjExIDMuNDcgMi4wMWMuMjUuMTQuNTYuMTQuOCAwbDMuNDctMi4wMWguMDFsLjE1LS4xMi4wMi0uMDJzLjA3LS4wOS4xLS4xNGwuMDItLjAyYy4wMy0uMDUuMDUtLjExLjA3LS4xN3YtLjA0Yy4wMy0uMDYuMDMtLjEyLjAzLS4xOVYxMC40YzAtLjc4LjQyLTEuNDkgMS4wOS0xLjg4czEuNS0uMzkgMi4xOCAwbDEuNzQgMWMuMDcuMDQuMTQuMDcuMjEuMDguMDYuMDEuMTIuMDIuMTguMDJoLjAzYy4wNiAwIC4xMS0uMDEuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNC4xNy0uMDdoLjAybDMuNDctMi4wMmMuMjUtLjE0LjQtLjQxLjQtLjd2LTRhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ2LTJhLjgzLjgzIDAgMCAwLS44MSAwbC0zLjQ4IDIuMDFoLS4wMWwtLjE1LjEyLS4wMi4wMi0uMS4xMy0uMDIuMDJjLS4wMy4wNS0uMDUuMTEtLjA3LjE3di4wNGMtLjAzLjA2LS4wMy4xMi0uMDMuMTl2Mi4wMWMwIC43OC0uNDIgMS40OS0xLjA5IDEuODhzLTEuNS4zOS0yLjE4IDBsLTEuNzQtMWEuNi42IDAgMCAwLS4yMS0uMDhjLS4wNi0uMDEtLjEyLS4wMi0uMTgtLjAyaC0uMDNjLS4wNiAwLS4xMS4wMS0uMTcuMDJoLS4wM2MtLjA2LjAyLS4xMi4wNS0uMTcuMDhoLS4wMkwuNCA3LjcxYy0uMjUuMTQtLjQuNDEtLjQuNjl2NC4wMWMwIC4yOS4xNS41Ni40LjciIHN0eWxlPSJmaWxsOiM0NDY4YzQiLz48cGF0aCBkPSJtMTcuODQgMjQuNDgtMy40OC0yLjAxaC0uMDJjLS4wNS0uMDQtLjExLS4wNi0uMTctLjA4aC0uMDNhLjUuNSAwIDAgMC0uMTctLjAzaC0uMDNjLS4wNiAwLS4xMiAwLS4xOC4wMmgtLjA0Yy4wNi0uMDMuMTItLjA1LjE4LS4wOGwtMS43NCAxYy0uNjctLjM5LTEuNS0uMzktMi4xOCAwYTIuMTkgMi4xOSAwIDAgMS0xLjA5LTEuODh2LTIuMDEwYzAtLjA2IDAtLjEzLS4wMi0uMTl2LS4wNGMtLjAzLS4wNi0uMDUtLjExLS4wOC0uMTdsLS4wMi0uMDJzLS4wNi0uMDktLjEtLjEzTDguMjkgMTlzLS4wOS0uMDgtLjE1LS4xMWgtLjAxbC0zLjQ3LTIuMDJhLjgzLjgzIDAgMCAwLS44MSAwTC4zNyAxOC44OGEuODcuODcgMCAwIDAtLjM3LjcxdjQuMDFjMCAuMjkuMTUuNTUuNC43bDMuNDcgMi4wMWguMDJjLjA1LjA0LjExLjA2LjE3LjA4aC4wM2MuMDUuMDIuMTEuMDMuMTYuMDNoLjAzYy4wNiAwIC4xMiAwIC4xOC0uMDJoLjA0Yy4wNi0uMDMuMTItLjA1LjE4LS4wOGwxLjc0LTFjLjY3LS4zOSAxLjUtLjM5IDIuMTcgMHMxLjA5IDEuMTEgMS4wOSAxLjg4djIuMDFjMCAuMDcgMCAuMTMuMDIuMTl2LjA0Yy4wMy4wNi4wNS4xMS4wOC4xN2wuMDIuMDJzLjA2LjA5LjEuMTRsLjAyLjAycy4wOS4wOC4xNS4xMWguMDFsMy40OCAyLjAyYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWMjUuMmEuODEuODEgMCAwIDAtLjQtLjdaIiBzdHlsZT0iZmlsbDojNDI5M2Q5Ii8+PC9zdmc+
+[deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNy45MyAzMiI+PHBhdGggZD0iTTE5LjMzIDE0LjEyYy42Ny0uMzkgMS41LS4zOSAyLjE4IDBsMS43NCAxYy4wNi4wMy4xMS4wNi4xOC4wN2guMDRjLjA2LjAzLjEyLjAzLjE4LjAzaC4wMmMuMDYgMCAuMTEgMCAuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNS4xNy0uMDhoLjAybDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWOC40YS44MS44MSAwIDAgMC0uNC0uN2wtMy40OC0yLjAxYS44My44MyAwIDAgMC0uODEgMEwxOS43NyA3LjdoLS4wMWwtLjE1LjEyLS4wMi4wMnMtLjA3LjA5LS4xLjE0VjhhLjQuNCAwIDAgMC0uMDguMTd2LjA0Yy0uMDMuMDYtLjAzLjEyLS4wMy4xOXYyLjAxYzAgLjc4LS40MSAxLjQ5LTEuMDkgMS44OC0uNjcuMzktMS41LjM5LTIuMTggMGwtMS43NC0xYS42LjYgMCAwIDAtLjIxLS4wOGMtLjA2LS4wMS0uMTItLjAyLS4xOC0uMDJoLS4wM2MtLjA2IDAtLjExLjAxLS4xNy4wMmgtLjAzYy0uMDYuMDItLjEyLjA0LS4xNy4wN2gtLjAybC0zLjQ3IDIuMDFjLS4yNS4xNC0uNC40MS0uNC43VjE4YzAgLjI5LjE1LjU1LjQuN2wzLjQ4IDIuMDFoLjAyYy4wNi4wNC4xMS4wNi4xNy4wOGguMDNjLjA1LjAyLjExLjAzLjE3LjAzaC4wMmMuMDYgMCAuMTIgMCAuMTgtLjAyaC4wNGMuMDYtLjAzLjEyLS4wNS4xOC0uMDhsMS43NC0xYy42Ny0uMzkgMS41LS4zOSAyLjE3IDBzMS4wOSAxLjExIDEuMDkgMS44OHYyLjAxYzAgLjA3IDAgLjEzLjAyLjE5di4wNGMuMDMuMDYuMDUuMTIuMDguMTd2LjAycy4wOC4wOS4xMi4xM2wuMDIuMDJzLjA5LjA4LjE1LjExYzAgMCAuMDEgMCAuMDEuMDFsMy40OCAyLjAxYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjd2LTQuMDFhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ4LTIuMDFoLS4wMmMtLjA1LS4wNC0uMTEtLjA2LS4xNy0uMDhoLS4wM2EuNS41IDAgMCAwLS4xNy0uMDNoLS4wM2MtLjA2IDAtLjEyIDAtLjE4LjAyLS4wNy4wMi0uMTUuMDUtLjIxLjA4bC0xLjc0IDFjLS42Ny4zOS0xLjUuMzktMi4xNyAwYTIuMTkgMi4xOSAwIDAgMS0xLjA5LTEuODhjMC0uNzguNDItMS40OSAxLjA5LTEuODhaIiBzdHlsZT0iZmlsbDojNWRiZjlkIi8+PHBhdGggZD0ibS40IDEzLjExIDMuNDcgMi4wMWMuMjUuMTQuNTYuMTQuOCAwbDMuNDctMi4wMWguMDFsLjE1LS4xMi4wMi0uMDJzLjA3LS4wOS4xLS4xNGwuMDItLjAyYy4wMy0uMDUuMDUtLjExLjA3LS4xN3YtLjA0Yy4wMy0uMDYuMDMtLjEyLjAzLS4xOVYxMC40YzAtLjc4LjQyLTEuNDkgMS4wOS0xLjg4czEuNS0uMzkgMi4xOCAwbDEuNzQgMWMuMDcuMDQuMTQuMDcuMjEuMDguMDYuMDEuMTIuMDIuMTguMDJoLjAzYy4wNiAwIC4xMS0uMDEuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNC4xNy0uMDdoLjAybDMuNDctMi4wMmMuMjUtLjE0LjQtLjQxLjQtLjd2LTRhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ2LTJhLjgzLjgzIDAgMCAwLS44MSAwbC0zLjQ4IDIuMDFoLS4wMWwtLjE1LjEyLS4wMi4wMi0uMS4xMy0uMDIuMDJjLS4wMy4wNS0uMDUuMTEtLjA3LjE3di4wNGMtLjAzLjA2LS4wMy4xMi0uMDMuMTl2Mi4wMWMwIC43OC0uNDIgMS40OS0xLjA5IDEuODhzLTEuNS4zOS0yLjE4IDBsLTEuNzQtMWEuNi42IDAgMCAwLS4yMS0uMDhjLS4wNi0uMDEtLjEyLS4wMi0uMTgtLjAyaC0uMDNjLS4wNiAwLS4xMS4wMS0uMTcuMDJoLS4wM2MtLjA2LjAyLS4xMi4wNS0uMTcuMDhoLS4wMkwuNCA3LjcxYy0uMjUuMTQtLjQuNDEtLjQuNjl2NC4wMWMwIC4yOS4xNS41Ni40LjciIHN0eWxlPSJmaWxsOiM0NDY4YzQiLz48cGF0aCBkPSJtMTcuODQgMjQuNDgtMy40OC0yLjAxaC0uMDJjLS4wNS0uMDQtLjExLS4wNi0uMTctLjA4aC0uMDNhLjUuNSAwIDAgMC0uMTctLjAzaC0uMDNjLS4wNiAwLS4xMiAwLS4xOC4wMmgtLjA0Yy0uMDYuMDMtLjEyLjA1LS4xOC4wOGwtMS43NCAxYy0uNjcuMzktMS41LjM5LTIuMTggMGEyLjE5IDIuMTkgMCAwIDEtMS4wOS0xLjg4di0yLjAxYzAtLjA2IDAtLjEzLS4wMi0uMTl2LS4wNGMtLjAzLS4wNi0uMDUtLjExLS4wOC0uMTdsLS4wMi0uMDJzLS4wNi0uMDktLjEtLjEzTDguMjkgMTlzLS4wOS0uMDgtLjE1LS4xMWgtLjAxbC0zLjQ3LTIuMDJhLjgzLjgzIDAgMCAwLS44MSAwTC4zNyAxOC44OGEuODcuODcgMCAwIDAtLjM3LjcxdjQuMDFjMCAuMjkuMTUuNTUuNC43bDMuNDcgMi4wMWguMDJjLjA1LjA0LjExLjA2LjE3LjA4aC4wM2MuMDUuMDIuMTEuMDMuMTYuMDNoLjAzYy4wNiAwIC4xMiAwIC4xOC0uMDJoLjA0Yy4wNi0uMDMuMTItLjA1LjE4LS4wOGwxLjc0LTFjLjY3LS4zOSAxLjUtLjM5IDIuMTcgMHMxLjA5IDEuMTEgMS4wOSAxLjg4djIuMDFjMCAuMDcgMCAuMTMuMDIuMTl2LjA0Yy4wMy4wNi4wNS4xMS4wOC4xN2wuMDIuMDJzLjA2LjA5LjEuMTRsLjAyLjAycy4wOS4wOC4xNS4xMWguMDFsMy40OCAyLjAyYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWMjUuMmEuODEuODEgMCAwIDAtLjQtLjdaIiBzdHlsZT0iZmlsbDojNDI5M2Q5Ii8+PC9zdmc+
 [deepwiki-link]: https://deepwiki.com/CherryHQ/cherry-studio
 [twitter-shield]: https://img.shields.io/badge/Twitter-CherryStudioApp-0088CC?logo=x
 [twitter-link]: https://twitter.com/CherryStudioHQ
@@ -297,7 +298,6 @@ Nous pensons que l’Édition Entreprise deviendra le moteur de productivité IA
 [telegram-link]: https://t.me/CherryStudioAI
 
 <!-- Liens & Images -->
-
 [github-release-shield]: https://img.shields.io/github/v/release/CherryHQ/cherry-studio?logo=github
 [github-release-link]: https://github.com/CherryHQ/cherry-studio/releases
 [github-nightly-shield]: https://img.shields.io/github/actions/workflow/status/CherryHQ/cherry-studio/nightly-build.yml?label=nightly%20build&logo=github
@@ -318,6 +318,6 @@ Nous pensons que l’Édition Entreprise deviendra le moteur de productivité IA
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---

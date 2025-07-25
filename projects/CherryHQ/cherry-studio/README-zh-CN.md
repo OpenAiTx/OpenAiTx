@@ -198,71 +198,71 @@ Cherry Studio 是一款支持多种大模型（LLM）服务商的桌面客户端
 为回馈核心贡献者、形成良性循环，我们制定了以下长期激励计划。
 
 **本计划首次考核周期为 2025 年第三季度（7 月、8 月、9 月）。本周期的奖励将于 10 月 1 日发放。**
-在任意一个跟踪周期内（例如第一周期为7月1日至9月30日），任何开发者只要对 Cherry Studio 的任意 GitHub 开源项目贡献超过 **30 个有意义的提交**，即可获得以下福利：
+在任何一个统计周期内（例如第一周期为 7 月 1 日至 9 月 30 日），任何开发者只要对 Cherry Studio 的任一 GitHub 开源项目贡献了 **30 个有意义的提交**，即可获得如下福利：
 
-- **Cursor 订阅资助**：获得 **$70 美元** 的 [Cursor](https://cursor.sh/) 订阅费用抵扣或报销，让 AI 成为你最高效的编码伙伴。
-- **模型无限调用**：可获得 **DeepSeek** 和 **Qwen** 模型的 **无限** API 调用权限。
-- **前沿科技体验**：不定期获得诸如 **Claude**、**Gemini** 和 **OpenAI** 等模型的 API 权益，助你站在技术前沿。
+- **Cursor 订阅赞助**：可获得 [Cursor](https://cursor.sh/) 订阅的 **$70 美元** 额度或等额报销，让 AI 成为你最高效的编程伙伴。
+- **模型无限调用**：可 **无限** 调用 **DeepSeek** 和 **Qwen** 模型 API。
+- **前沿科技体验**：不定期获得 **Claude**、**Gemini**、**OpenAI** 等模型的 API 访问权，站在技术前沿。
 
-## 共同成长与未来计划
+## 共同成长 & 未来规划
 
-一个充满活力的社区是可持续开源项目的核心动力。随着 Cherry Studio 的发展，我们的激励计划也会不断升级。我们承诺持续将福利与业界最先进的工具和资源对齐，确保核心贡献者获得有意义的支持，形成开发者、社区与项目共同成长的良性循环。
+一个充满活力的社区是任何可持续开源项目的核心动力。随着 Cherry Studio 的发展，我们的奖励计划也将不断升级。我们致力于持续与行业最优质的工具和资源对齐，确保核心贡献者获得有意义的支持，形成开发者、社区与项目共同成长的正向循环。
 
-**未来，我们也将以更加开放的姿态回馈整个开源社区。**
+**未来，项目还将持续开放，以回馈整个开源社区。**
 
-## 如何开始？
+## 如何开始参与？
 
 期待你的第一个 Pull Request！
 
-你可以从浏览我们的代码仓库、领取 `good first issue` 或提交自己的功能建议开始。每一次提交都彰显了开源精神。
+你可以先浏览我们的仓库，从 `good first issue` 入手，或提出你自己的改进建议。每一次提交都是对开源精神的最好诠释。
 
 感谢你的关注与贡献。
 
-让我们一起共建未来。
+让我们一起建设美好未来。
 
 # 🏢 企业版
 
-在社区版基础上，我们隆重推出 **Cherry Studio 企业版** —— 一个可私有部署的 AI 生产力与管理平台，专为现代团队与企业设计。
+基于社区版，我们很荣幸推出 **Cherry Studio 企业版** —— 一款可私有化部署的 AI 生产力与管理平台，专为现代团队与企业设计。
 
-企业版解决了团队协作中的核心难题，实现了 AI 资源、知识和数据的集中管理。它帮助组织提升效率、激发创新，并在安全环境下，确保数据 100% 自主可控，满足合规需求。
+企业版解决了团队协作中的核心难题：统一管理 AI 资源、知识和数据。它帮助组织提升效率，激发创新，确保合规，同时实现数据 100% 自主管控与安全。
 
 ## 核心优势
 
-- **统一模型管理**：集中集成和管理各类云端 LLM（如 OpenAI、Anthropic、Google Gemini）及本地私有部署模型。员工可开箱即用，无需单独配置。
-- **企业级知识库**：团队级知识库的构建、管理与共享，确保知识沉淀和一致性，让成员基于统一且准确的信息与 AI 交互。
-- **细粒度权限管理**：通过统一管理后台，轻松管理员工账号，按角色分配不同模型、知识库及功能的权限。
-- **全私有化部署**：可将全部后端服务部署在本地服务器或私有云，确保数据 100% 私有和可控，满足最严格的安全与合规要求。
-- **可靠后端服务**：提供稳定的 API 服务及企业级数据备份与恢复机制，保障业务连续性。
+- **统一模型管理**：集中集成与管理各类云端 LLM（如 OpenAI、Anthropic、Google Gemini）及本地私有模型。员工无需单独配置，即可开箱即用。
+- **企业级知识库**：构建、管理并共享团队知识库。保证知识沉淀与一致性，让成员可基于统一、准确的信息与 AI 交互。
+- **细粒度权限控制**：通过统一后台，轻松管理员工账号，并按角色分配不同模型、知识库及功能的权限。
+- **全私有化部署**：可将全部后端服务部署至本地服务器或私有云，确保数据 100% 私有和可控，满足最严苛的安全与合规要求。
+- **可靠后台服务**：提供稳定的 API 服务及企业级数据备份与恢复机制，保障业务连续性。
 
 ## ✨ 在线演示
 
-> 🚧 **公开测试版提示**
+> 🚧 **公测提示**
 >
-> 企业版目前处于早期公开测试阶段，我们正在积极迭代和优化各项功能。我们深知其稳定性尚未完善，若你在试用过程中遇到问题或有宝贵建议，欢迎通过邮件联系我们反馈。
+> 企业版目前正处于早期公测阶段，我们正在积极迭代和优化功能。我们知道产品还不够稳定，如在体验过程中遇到任何问题或有宝贵建议，欢迎通过邮件联系我们反馈。
 
 **🔗 [Cherry Studio 企业版](https://www.cherry-ai.com/enterprise)**
 
 ## 版本对比
 
-| 功能               | 社区版                                     | 企业版                                                                                                                     |
-| :---------------- | :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------ |
-| **开源**          | ✅ 是                                      | ⭕️ 向客户部分开放                                                                                                              |
-| **费用**          | 个人免费 / 商业授权                         | 一次性买断 / 订阅付费                                                                                                      |
-| **管理后台**      | —                                          | ● 集中 **模型** 管理<br>● **员工** 管理<br>● 团队 **知识库**<br>● **权限** 控制<br>● **数据** 备份 |
-| **服务器**        | —                                          | ✅ 专属私有部署                                                                                                            |
+| 功能               | 社区版                                         | 企业版                                                                                                                                |
+| :----------------- | :--------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| **开源**           | ✅ 是                                          | ⭕️ 部分代码向客户开放                                                                                                                |
+| **费用**           | 个人免费 / 商业授权                            | 买断 / 订阅收费                                                                                                                       |
+| **管理后台**       | —                                              | ● 统一**模型**接入<br>● **员工**管理<br>● 共享**知识库**<br>● **权限**控制<br>● **数据**备份                                       |
+| **服务器**         | —                                              | ✅ 专属私有化部署                                                                                                                     |
 
 ## 获取企业版
 
-我们相信企业版将成为你团队的 AI 生产力引擎。如果你对 Cherry Studio 企业版感兴趣，想进一步了解、索取报价或预约演示，欢迎随时联系我们。
+我们相信企业版将成为你团队的 AI 生产力引擎。如果你有兴趣了解 Cherry Studio 企业版、获取报价或预约演示，欢迎随时联系我们。
 
-- **商务咨询 & 购买**：
+- **商务咨询与采购**：
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 相关项目
 
-- [one-api](https://github.com/songquanpeng/one-api)：支持 OpenAI、Azure、Anthropic 等主流模型的 LLM API 管理与分发系统，提供统一 API 接口，适合密钥管理及二次分发。
+- [one-api](https://github.com/songquanpeng/one-api)：支持 OpenAI、Azure、Anthropic 等主流模型的 LLM API 管理与分发系统，统一 API 接口，适合密钥管理与二次分发。
 
-- [ublacklist](https://github.com/iorate/ublacklist)：屏蔽特定网站在 Google 搜索结果中的出现
+- [ublacklist](https://github.com/iorate/ublacklist)：屏蔽特定网站在 Google 搜索结果中出现
 
 # 🚀 贡献者
 
@@ -271,11 +271,11 @@ Cherry Studio 是一款支持多种大模型（LLM）服务商的桌面客户端
 </a>
 <br /><br />
 
-# 📊 GitHub 数据统计
+# 📊 GitHub 统计
 
 ![Stats](https://repobeats.axiom.co/api/embed/a693f2e5f773eed620f70031e974552156c7f397.svg 'Repobeats analytics image')
 
-# ⭐️ Star 历史
+# ⭐️ Star 增长历史
 
 <a href="https://www.star-history.com/#CherryHQ/cherry-studio&Date">
  <picture>
@@ -285,7 +285,7 @@ Cherry Studio 是一款支持多种大模型（LLM）服务商的桌面客户端
  </picture>
 </a>
 
-<!-- 链接与图片 -->
+<!-- Links & Images -->
 
 [deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNy45MyAzMiI+PHBhdGggZD0iTTE5LjMzIDE0LjEyYy42Ny0uMzkgMS41LS4zOSAyLjE4IDBsMS43NCAxYy4wNi4wMy4xMS4wNi4xOC4wN2guMDRjLjA2LjAzLjEyLjAzLjE4LjAzaC4wMmMuMDYgMCAuMTEgMCAuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNS4xNy0uMDhoLjAybDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWOC40YS44MS44MSAwIDAgMC0uNC0uN2wtMy40OC0yLjAxYS44My44MyAwIDAgMC0uODEgMEwxOS43NyA3LjdoLS4wMWwtLjE1LjEyLS4wMi4wMnMtLjA3LjA5LS4xLjE0VjhhLjQuNCAwIDAgMC0uMDguMTd2LjA0Yy0uMDMuMDYtLjAzLjEyLS4wMy4xOXYyLjAxYzAgLjc4LS40MSAxLjQ5LTEuMDkgMS44OC0uNjcuMzktMS41LjM5LTIuMTggMGwtMS43NC0xYS42LjYgMCAwIDAtLjIxLS4wOGMtLjA2LS4wMS0uMTItLjAyLS4xOC0uMDJoLS4wM2MtLjA2IDAtLjExLjAxLS4xNy4wMmgtLjAzYy0uMDYuMDItLjEyLjA0LS4xNy4wN2gtLjAybC0zLjQ3IDIuMDFjLS4yNS4xNC0uNC40MS0uNC43VjE4YzAgLjI5LjE1LjU1LjQuN2wzLjQ4IDIuMDFoLjAyYy4wNi4wNC4xMS4wNi4xNy4wOGguMDNjLjA1LjAyLjExLjAzLjE3LjAzaC4wMmMuMDYgMCAuMTIgMCAuMTgtLjAyaC4wNGMuMDYtLjAzLjEyLS4wNS4xOC0uMDhsMS43NC0xYy42Ny0uMzkgMS41LS4zOSAyLjE3IDBzMS4wOSAxLjExIDEuMDkgMS44OHYyLjAxYzAgLjA3IDAgLjEzLjAyLjE5di4wNGMuMDMuMDYuMDUuMTIuMDguMTd2LjAycy4wOC4wOS4xMi4xM2wuMDIuMDJzLjA5LjA4LjE1LjExYzAgMCAuMDEgMCAuMDEuMDFsMy40OCAyLjAxYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjd2LTQuMDFhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ4LTIuMDFoLS4wMmMtLjA1LS4wNC0uMTEtLjA2LS4xNy0uMDhoLS4wM2EuNS41IDAgMCAwLS4xNy0uMDNoLS4wM2MtLjA2IDAtLjEyIDAtLjE4LjAyLS4wNy4wMi0uMTUuMDUtLjIxLjA4bC0xLjc0IDFjLS42Ny4zOS0xLjUuMzktMi4xNyAwYTIuMTkgMi4xOSAwIDAgMS0xLjA5LTEuODhjMC0uNzguNDItMS40OSAxLjA5LTEuODhaIiBzdHlsZT0iZmlsbDojNWRiZjlkIi8+PHBhdGggZD0ibS40IDEzLjExIDMuNDcgMi4wMWMuMjUuMTQuNTYuMTQuOCAwbDMuNDctMi4wMWguMDFsLjE1LS4xMi4wMi0uMDJzLjA3LS4wOS4xLS4xNGwuMDItLjAyYy4wMy0uMDUuMDUtLjExLjA3LS4xN3YtLjA0Yy4wMy0uMDYuMDMtLjEyLjAzLS4xOVYxMC40YzAtLjc4LjQyLTEuNDkgMS4wOS0xLjg4czEuNS0uMzkgMi4xOCAwbDEuNzQgMWMuMDcuMDQuMTQuMDcuMjEuMDguMDYuMDEuMTIuMDIuMTguMDJoLjAzYy4wNiAwIC4xMS0uMDEuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNC4xNy0uMDdoLjAybDMuNDctMi4wMmMuMjUtLjE0LjQtLjQxLjQtLjd2LTRhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ2LTJhLjgzLjgzIDAgMCAwLS44MSAwbC0zLjQ4IDIuMDFoLS4wMWwtLjE1LjEyLS4wMi4wMi0uMS4xMy0uMDIuMDJjLS4wMy4wNS0uMDUuMTEtLjA3LjE3di4wNGMtLjAzLjA2LS4wMy4xMi0uMDMuMTl2Mi4wMWMwIC43OC0uNDIgMS40OS0xLjA5IDEuODhzLTEuNS4zOS0yLjE4IDBsLTEuNzQtMWEuNi42IDAgMCAwLS4yMS0uMDhjLS4wNi0uMDEtLjEyLS4wMi0uMTgtLjAyaC0uMDNjLS4wNiAwLS4xMS4wMS0uMTcuMDJoLS4wM2MtLjA2LjAyLS4xMi4wNS0uMTcuMDhoLS4wMkwuNCA3LjcxYy0uMjUuMTQtLjQuNDEtLjQuNjl2NC4wMWMwIC4yOS4xNS41Ni40LjciIHN0eWxlPSJmaWxsOiM0NDY4YzQiLz48cGF0aCBkPSJtMTcuODQgMjQuNDgtMy40OC0yLjAxaC0uMDJjLS4wNS0uMDQtLjExLS4wNi0uMTctLjA4aC0uMDNhLjUuNSAwIDAgMC0uMTctLjAzaC0uMDNjLS4wNiAwLS4xMiAwLS4xOC4wMmgtLjA0Yy0uMDYuMDMtLjEyLjA1LS4xOC4wOGwtMS43NCAxYy0uNjcuMzktMS41LjM5LTIuMTggMGEyLjE5IDIuMTkgMCAwIDEtMS4wOS0xLjg4di0yLjAxYzAtLjA2IDAtLjEzLS4wMi0uMTl2LS4wNGMtLjAzLS4wNi0uMDUtLjExLS4wOC0uMTdsLS4wMi0uMDJzLS4wNi0uMDktLjEtLjEzTDguMjkgMTlzLS4wOS0uMDgtLjE1LS4xMWgtLjAxbC0zLjQ3LTIuMDJhLjgzLjgzIDAgMCAwLS44MSAwTC4zNyAxOC44OGEuODcuODcgMCAwIDAtLjM3LjcxdjQuMDFjMCAuMjkuMTUuNTUuNC43bDMuNDcgMi4wMWguMDJjLjA1LjA0LjExLjA2LjE3LjA4aC4wM2MuMDUuMDIuMTEuMDMuMTYuMDNoLjAzYy4wNiAwIC4xMiAwIC4xOC0uMDJoLjA0Yy4wNi0uMDMuMTItLjA1LjE4LS4wOGwxLjc0LTFjLjY3LS4zOSAxLjUtLjM5IDIuMTcgMHMxLjA5IDEuMTEgMS4wOSAxLjg4djIuMDFjMCAuMDcgMCAuMTMuMDIuMTl2LjA0Yy4wMy4wNi4wNS4xMS4wOC4xN2wuMDIuMDJzLjA2LjA5LjEuMTRsLjAyLjAycy4wOS4wOC4xNS4xMWguMDFsMy40OCAyLjAyYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWMjUuMmEuODEuODEgMCAwIDAtLjQtLjdaIiBzdHlsZT0iZmlsbDojNDI5M2Q5Ii8+PC9zdmc+
 [deepwiki-link]: https://deepwiki.com/CherryHQ/cherry-studio
@@ -296,7 +296,7 @@ Cherry Studio 是一款支持多种大模型（LLM）服务商的桌面客户端
 [telegram-shield]: https://img.shields.io/badge/Telegram-@CherryStudioAI-0088CC?logo=telegram
 [telegram-link]: https://t.me/CherryStudioAI
 
-<!-- 链接与图片 -->
+<!-- Links & Images -->
 
 [github-release-shield]: https://img.shields.io/github/v/release/CherryHQ/cherry-studio?logo=github
 [github-release-link]: https://github.com/CherryHQ/cherry-studio/releases
@@ -318,6 +318,6 @@ Cherry Studio 是一款支持多种大模型（LLM）服务商的桌面客户端
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---

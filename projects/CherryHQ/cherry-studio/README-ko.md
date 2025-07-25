@@ -198,71 +198,72 @@ Cherry Studio 개발자 공동 창작 프로그램을 시작하여 오픈소스 
 핵심 기여자 분들께 보답하고 선순환 구조를 만들기 위해 다음과 같은 장기 인센티브 계획을 마련했습니다.
 
 **이 프로그램의 첫 트래킹 기간은 2025년 3분기(7월, 8월, 9월)입니다. 해당 주기의 보상은 10월 1일에 지급됩니다.**
-지정된 추적 기간 내(예: 첫 번째 사이클의 경우 7월 1일부터 9월 30일까지), GitHub의 Cherry Studio 오픈소스 프로젝트에 **30건 이상의 의미 있는 커밋**을 기여한 개발자는 다음과 같은 혜택을 받을 수 있습니다:
 
-- **Cursor 구독 지원**: [Cursor](https://cursor.sh/) 구독에 대해 **$70 USD** 상당의 크레딧 또는 환급을 받아 AI를 가장 효율적인 코딩 파트너로 만들어 드립니다.
-- **모델 무제한 사용**: **DeepSeek** 및 **Qwen** 모델에 대해 **무제한** API 호출이 가능합니다.
-- **최신 기술 제공**: **Claude**, **Gemini**, **OpenAI** 등 모델의 API 접근 등 다양한 특전이 제공되어 항상 최신 기술을 경험할 수 있습니다.
+모든 트래킹 기간(예: 1차 주기의 경우 7월 1일부터 9월 30일까지) 동안, Cherry Studio의 GitHub 오픈소스 프로젝트에 **30개 이상의 의미 있는 커밋**을 기여한 개발자는 다음과 같은 혜택을 받을 수 있습니다:
 
-## 함께 성장하는 커뮤니티 & 미래 계획
+- **Cursor 구독 지원**: [Cursor](https://cursor.sh/) 구독에 대해 **$70 USD** 크레딧 또는 환급을 받아 AI를 가장 효율적인 코딩 파트너로 만드세요.
+- **무제한 모델 접근**: **DeepSeek** 및 **Qwen** 모델에 대해 **무제한** API 호출이 가능합니다.
+- **최신 기술 접근**: **Claude**, **Gemini**, **OpenAI**와 같은 모델의 API 접근 등, 최신 기술을 경험할 수 있는 특별 혜택이 제공됩니다.
 
-활기찬 커뮤니티는 지속 가능한 오픈소스 프로젝트의 원동력입니다. Cherry Studio가 성장함에 따라 보상 프로그램도 함께 발전합니다. 업계 최고 수준의 도구 및 리소스와 혜택을 지속적으로 맞춰가며, 핵심 기여자에게 의미 있는 지원을 보장하고, 개발자, 커뮤니티, 프로젝트가 함께 성장하는 선순환을 만듭니다.
+## 함께 성장하기 & 미래 계획
 
-**앞으로 프로젝트는 전체 오픈소스 커뮤니티에 환원하기 위해 점점 더 개방적인 자세를 지향할 것입니다.**
+활기찬 커뮤니티야말로 지속가능한 오픈소스 프로젝트의 원동력입니다. Cherry Studio가 성장함에 따라 리워드 프로그램도 확장될 것입니다. 우리는 업계 최고 수준의 도구와 리소스를 지속적으로 제공하여, 핵심 기여자들이 실질적인 지원을 받을 수 있도록 최선을 다합니다. 이를 통해 개발자, 커뮤니티, 프로젝트가 함께 성장하는 긍정적인 선순환을 만들어갑니다.
+
+**앞으로 프로젝트는 전체 오픈소스 커뮤니티에 더 많은 기여를 할 수 있도록 더욱 개방적인 방향을 지향할 것입니다.**
 
 ## 어떻게 시작하나요?
 
 여러분의 첫 Pull Request를 기다리고 있습니다!
 
-저희 저장소를 탐색하고 `good first issue`를 선택하거나 직접 개선안을 제안해보세요. 모든 커밋은 오픈소스 정신의 증거입니다.
+저희 레포지토리를 탐색하며 `good first issue`를 선택하거나, 직접 개선 아이디어를 제안해보세요. 모든 커밋은 오픈소스 정신의 증거입니다.
 
-관심과 기여에 감사드립니다.
+관심과 기여에 진심으로 감사드립니다.
 
 함께 만들어갑시다.
 
 # 🏢 엔터프라이즈 에디션
 
-커뮤니티 에디션의 기반 위에, 저희는 **Cherry Studio 엔터프라이즈 에디션**을 자랑스럽게 소개합니다—현대 팀과 기업을 위한 프라이빗 배포형 AI 생산성 및 관리 플랫폼입니다.
+커뮤니티 에디션의 기반 위에, 저희는 **Cherry Studio 엔터프라이즈 에디션**을 선보입니다—현대적 팀과 기업을 위한 프라이빗 배포형 AI 생산성 및 관리 플랫폼입니다.
 
-엔터프라이즈 에디션은 AI 리소스, 지식, 데이터의 관리를 중앙화하여 팀 협업의 핵심 과제를 해결합니다. 조직이 효율을 높이고 혁신을 촉진하며, 100% 데이터 통제와 보안을 보장하는 환경에서 컴플라이언스를 준수할 수 있도록 지원합니다.
+엔터프라이즈 에디션은 AI 자원, 지식, 데이터를 중앙집중적으로 관리하여 팀 협업의 핵심 문제를 해결합니다. 조직이 효율성을 높이고, 혁신을 촉진하며, 컴플라이언스를 보장하도록 하면서도 100% 데이터 통제를 보장하는 안전한 환경을 제공합니다.
 
 ## 주요 장점
 
-- **통합 모델 관리**: 다양한 클라우드 기반 LLM(OpenAI, Anthropic, Google Gemini 등)과 로컬 프라이빗 모델을 중앙에서 통합 관리합니다. 직원들은 별도 설정 없이 바로 사용할 수 있습니다.
-- **엔터프라이즈급 지식베이스**: 팀 전체가 공유하고 관리할 수 있는 지식베이스를 구축합니다. 지식의 보존과 일관성을 보장하며, 팀원들이 통합된 정확한 정보로 AI와 상호작용할 수 있습니다.
-- **세분화된 접근 제어**: 직원 계정 및 역할 기반 권한을 단일 관리 백엔드에서 손쉽게 관리할 수 있습니다. 모델, 지식베이스, 기능별 권한을 할당할 수 있습니다.
-- **완전 프라이빗 배포**: 전체 백엔드 서비스를 온프레미스 서버나 프라이빗 클라우드에 배포하여, 100% 데이터 프라이버시와 통제, 최고 수준의 보안 및 컴플라이언스 요구를 충족합니다.
+- **통합 모델 관리**: 다양한 클라우드 기반 LLM(OpenAI, Anthropic, Google Gemini 등) 및 로컬 프라이빗 모델을 중앙에서 통합 관리. 직원은 개별 설정 없이 즉시 사용할 수 있습니다.
+- **기업용 지식베이스**: 팀 전체가 공유하는 지식베이스를 구축, 관리, 공유할 수 있습니다. 지식의 보존과 일관성을 보장하여, 팀원들이 통일되고 정확한 정보 기반으로 AI와 상호작용할 수 있습니다.
+- **세분화된 접근 제어**: 통합 관리자 백엔드에서 직원 계정 및 각 모델, 지식베이스, 기능별 역할 기반 권한을 쉽게 관리할 수 있습니다.
+- **완전 프라이빗 배포**: 전체 백엔드 서비스를 온프레미스 서버나 프라이빗 클라우드에 배포 가능, 데이터가 100% 사내에 머물며 최고 수준의 보안 및 컴플라이언스 기준을 충족합니다.
 - **신뢰성 높은 백엔드 서비스**: 안정적인 API 서비스와 엔터프라이즈급 데이터 백업 및 복구 메커니즘을 제공하여 비즈니스 연속성을 보장합니다.
 
 ## ✨ 온라인 데모
 
 > 🚧 **퍼블릭 베타 안내**
 >
-> 엔터프라이즈 에디션은 현재 초기 퍼블릭 베타 단계로, 기능을 적극적으로 개선 및 최적화하고 있습니다. 아직 완전히 안정적이지 않을 수 있습니다. 체험 중 문제나 소중한 제안이 있으시면 이메일로 피드백 주시면 진심으로 감사하겠습니다.
+> 엔터프라이즈 에디션은 현재 초기 퍼블릭 베타 단계로, 기능을 적극적으로 개선 및 최적화하고 있습니다. 아직 완전히 안정적이지 않을 수 있습니다. 체험 중 문제가 발생하거나 소중한 제안이 있으시다면, 이메일로 피드백을 주시면 진심으로 감사하겠습니다.
 
 **🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
 
 ## 버전 비교
 
-| 기능               | 커뮤니티 에디션                             | 엔터프라이즈 에디션                                                                                                                            |
-| :---------------- | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
-| **오픈소스**      | ✅ 예                                      | ⭕️ 고객 대상 부분 공개                                                                                                                            |
-| **비용**           | 개인 무료 / 상업 라이선스                 | 완전구매 / 구독료                                                                                                                              |
-| **관리 백엔드**    | —                                         | ● 중앙 **모델** 접근<br>● **직원** 관리<br>● 공유 **지식베이스**<br>● **접근** 제어<br>● **데이터** 백업                                         |
-| **서버**           | —                                         | ✅ 전용 프라이빗 배포                                                                                                                           |
+| 기능              | 커뮤니티 에디션                           | 엔터프라이즈 에디션                                                                                                                         |
+| :---------------- | :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
+| **오픈소스**      | ✅ 예                                      | ⭕️ 고객에게 부분 공개                                                                                                                        |
+| **비용**          | 개인 무료 / 상업 라이선스                  | 매입 / 구독료                                                                                                                               |
+| **관리자 백엔드** | —                                          | ● 통합 **모델** 접근<br>● **직원** 관리<br>● 공유 **지식베이스**<br>● **접근** 제어<br>● **데이터** 백업                                       |
+| **서버**          | —                                          | ✅ 전용 프라이빗 배포                                                                                                                        |
 
 ## 엔터프라이즈 에디션 문의
 
-엔터프라이즈 에디션이 여러분 팀의 AI 생산성 엔진이 될 것이라 믿습니다. Cherry Studio 엔터프라이즈 에디션에 관심이 있으시거나, 더 자세한 정보를 원하시거나, 견적 또는 데모를 요청하고 싶으시면 언제든지 연락주시기 바랍니다.
+엔터프라이즈 에디션이 여러분 팀의 AI 생산성 엔진이 되리라 믿습니다. Cherry Studio 엔터프라이즈 에디션에 관심이 있으시거나, 자세한 정보, 견적 요청, 데모 예약을 원하시면 언제든지 연락주세요.
 
-- **비즈니스 문의 및 구매**:
+- **비즈니스 문의 및 구매 관련**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 관련 프로젝트
 
-- [one-api](https://github.com/songquanpeng/one-api): OpenAI, Azure, Anthropic 등 주류 모델을 지원하는 LLM API 관리 및 분배 시스템. 통합 API 인터페이스 제공, 키 관리 및 2차 분배에 적합.
+- [one-api](https://github.com/songquanpeng/one-api): OpenAI, Azure, Anthropic 등 주요 모델을 지원하는 LLM API 관리 및 분배 시스템. 통합 API 인터페이스 제공, 키 관리 및 2차 분배에 적합.
 
-- [ublacklist](https://github.com/iorate/ublacklist): Google 검색 결과에서 특정 사이트를 차단합니다
+- [ublacklist](https://github.com/iorate/ublacklist): Google 검색 결과에서 특정 사이트를 차단
 
 # 🚀 기여자
 
@@ -285,7 +286,7 @@ Cherry Studio 개발자 공동 창작 프로그램을 시작하여 오픈소스 
  </picture>
 </a>
 
-<!-- 링크 & 이미지 -->
+<!-- Links & Images -->
 
 [deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNy45MyAzMiI+PHBhdGggZD0iTTE5LjMzIDE0LjEyYy42Ny0uMzkgMS41LS4zOSAyLjE4IDBsMS43NCAxYy4wNi4wMy4xMS4wNi4xOC4wN2guMDRjLjA2LjAzLjEyLjAzLjE4LjAzaC4wMmMuMDYgMCAuMTEgMCAuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNS4xNy0uMDhoLjAybDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWOC40YS44MS44MSAwIDAgMC0uNC0uN2wtMy40OC0yLjAxYS44My44MyAwIDAgMC0uODEgMEwxOS43NyA3LjdoLS4wMWwtLjE1LjEyLS4wMi4wMnMtLjA3LjA5LS4xLjE0VjhhLjQuNCAwIDAgMC0uMDguMTd2LjA0Yy0uMDMuMDYtLjAzLjEyLS4wMy4xOXYyLjAxYzAgLjc4LS40MSAxLjQ5LTEuMDkgMS44OC0uNjcuMzktMS41LjM5LTIuMTggMGwtMS43NC0xYS42LjYgMCAwIDAtLjIxLS4wOGMtLjA2LS4wMS0uMTItLjAyLS4xOC0uMDJoLS4wM2MtLjA2IDAtLjExLjAxLS4xNy4wMmgtLjAzYy0uMDYuMDItLjEyLjA0LS4xNy4wN2gtLjAybC0zLjQ3IDIuMDFjLS4yNS4xNC0uNC40MS0uNC43VjE4YzAgLjI5LjE1LjU1LjQuN2wzLjQ4IDIuMDFoLjAyYy4wNi4wNC4xMS4wNi4xNy4wOGguMDNjLjA1LjAyLjExLjAzLjE3LjAzaC4wMmMuMDYgMCAuMTIgMCAuMTgtLjAyaC4wNGMuMDYtLjAzLjEyLS4wNS4xOC0uMDhsMS43NC0xYy42Ny0uMzkgMS41LS4zOSAyLjE3IDBzMS4wOSAxLjExIDEuMDkgMS44OHYyLjAxYzAgLjA3IDAgLjEzLjAyLjE5di4wNGMuMDMuMDYuMDUuMTIuMDguMTd2LjAycy4wOC4wOS4xMi4xM2wuMDIuMDJzLjA5LjA4LjE1LjExYzAgMCAuMDEgMCAuMDEuMDFsMy40OCAyLjAxYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjd2LTQuMDFhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ4LTIuMDFoLS4wMmMtLjA1LS4wNC0uMTEtLjA2LS4xNy0uMDhoLS4wM2EuNS41IDAgMCAwLS4xNy0uMDNoLS4wM2MtLjA2IDAtLjEyIDAtLjE4LjAyLS4wNy4wMi0uMTUuMDUtLjIxLjA4bC0xLjc0IDFjLS42Ny4zOS0xLjUuMzktMi4xNyAwYTIuMTkgMi4xOSAwIDAgMS0xLjA5LTEuODhjMC0uNzguNDItMS40OSAxLjA5LTEuODhaIiBzdHlsZT0iZmlsbDojNWRiZjlkIi8+PHBhdGggZD0ibS40IDEzLjExIDMuNDcgMi4wMWMuMjUuMTQuNTYuMTQuOCAwbDMuNDctMi4wMWguMDFsLjE1LS4xMi4wMi0uMDJzLjA3LS4wOS4xLS4xNGwuMDItLjAyYy4wMy0uMDUuMDUtLjExLjA3LS4xN3YtLjA0Yy4wMy0uMDYuMDMtLjEyLjAzLS4xOVYxMC40YzAtLjc4LjQyLTEuNDkgMS4wOS0xLjg4czEuNS0uMzkgMi4xOCAwbDEuNzQgMWMuMDcuMDQuMTQuMDcuMjEuMDguMDYuMDEuMTIuMDIuMTguMDJoLjAzYy4wNiAwIC4xMS0uMDEuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNC4xNy0uMDdoLjAybDMuNDctMi4wMmMuMjUtLjE0LjQtLjQxLjQtLjd2LTRhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ2LTJhLjgzLjgzIDAgMCAwLS44MSAwbC0zLjQ4IDIuMDFoLS4wMWwtLjE1LjEyLS4wMi4wMi0uMS4xMy0uMDIuMDJjLS4wMy4wNS0uMDUuMTEtLjA3LjE3di4wNGMtLjAzLjA2LS4wMy4xMi0uMDMuMTl2Mi4wMWMwIC43OC0uNDIgMS40OS0xLjA5IDEuODhzLTEuNS4zOS0yLjE4IDBsLTEuNzQtMWEuNi42IDAgMCAwLS4yMS0uMDhjLS4wNi0uMDEtLjEyLS4wMi0uMTgtLjAyaC0uMDNjLS4wNiAwLS4xMS4wMS0uMTcuMDJoLS4wM2MtLjA2LjAyLS4xMi4wNS0uMTcuMDhoLS4wMkwuNCA3LjcxYy0uMjUuMTQtLjQuNDEtLjQuNjl2NC4wMWMwIC4yOS4xNS41Ni40LjciIHN0eWxlPSJmaWxsOiM0NDY4YzQiLz48cGF0aCBkPSJtMTcuODQgMjQuNDgtMy40OC0yLjAxaC0uMDJjLS4wNS0uMDQtLjExLS4wNi0uMTctLjA4aC0uMDNhLjUuNSAwIDAgMC0uMTctLjAzaC0uMDNjLS4wNiAwLS4xMiAwLS4xOC4wMmgtLjA0Yy0uMDYuMDMtLjEyLjA1LS4xOC4wOGwtMS43NCAxYy0uNjcuMzktMS41LjM5LTIuMTggMGEyLjE5IDIuMTkgMCAwIDEtMS4wOS0xLjg4di0yLjAxYzAtLjA2IDAtLjEzLS4wMi0uMTl2LS4wNGMtLjAzLS4wNi0uMDUtLjExLS4wOC0uMTdsLS4wMi0uMDJzLS4wNi0uMDktLjEtLjEzTDguMjkgMTlzLS4wOS0uMDgtLjE1LS4xMWgtLjAxbC0zLjQ3LTIuMDJhLjgzLjgzIDAgMCAwLS44MSAwTC4zNyAxOC44OGEuODcuODcgMCAwIDAtLjM3LjcxdjQuMDFjMCAuMjkuMTUuNTUuNC43bDMuNDcgMi4wMWguMDJjLjA1LjA0LjExLjA2LjE3LjA4aC4wM2MuMDUuMDIuMTEuMDMuMTYuMDNoLjAzYy4wNiAwIC4xMiAwIC4xOC0uMDJoLjA0Yy4wNi0uMDMuMTItLjA1LjE4LS4wOGwxLjc0LTFjLjY3LS4zOSAxLjUtLjM5IDIuMTcgMHMxLjA5IDEuMTEgMS4wOSAxLjg4djIuMDFjMCAuMDcgMCAuMTMuMDIuMTl2LjA0Yy4wMy4wNi4wNS4xMS4wOC4xN2wuMDIuMDJzLjA2LjA5LjEuMTRsLjAyLjAycy4wOS4wOC4xNS4xMWguMDFsMy40OCAyLjAyYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWMjUuMmEuODEuODEgMCAwIDAtLjQtLjdaIiBzdHlsZT0iZmlsbDojNDI5M2Q5Ii8+PC9zdmc+
 [deepwiki-link]: https://deepwiki.com/CherryHQ/cherry-studio
@@ -296,8 +297,7 @@ Cherry Studio 개발자 공동 창작 프로그램을 시작하여 오픈소스 
 [telegram-shield]: https://img.shields.io/badge/Telegram-@CherryStudioAI-0088CC?logo=telegram
 [telegram-link]: https://t.me/CherryStudioAI
 
-<!-- 링크 & 이미지 -->
-
+<!-- Links & Images -->
 [github-release-shield]: https://img.shields.io/github/v/release/CherryHQ/cherry-studio?logo=github
 [github-release-link]: https://github.com/CherryHQ/cherry-studio/releases
 [github-nightly-shield]: https://img.shields.io/github/actions/workflow/status/CherryHQ/cherry-studio/nightly-build.yml?label=nightly%20build&logo=github
@@ -318,6 +318,6 @@ Cherry Studio 개발자 공동 창작 프로그램을 시작하여 오픈소스 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---

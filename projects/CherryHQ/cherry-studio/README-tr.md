@@ -198,71 +198,72 @@ Katkıcılarımız arasına katılmanız ve Cherry Studio'nun geleceğini biziml
 Çekirdek katkıcılarımıza geri dönüş sağlamak ve erdemli bir döngü yaratmak için aşağıdaki uzun vadeli teşvik planını oluşturduk.
 
 **Bu programın ilk izleme dönemi 2025 3. Çeyrek (Temmuz, Ağustos, Eylül) olacaktır. Bu döngüdeki ödüller 1 Ekim'de dağıtılacaktır.**
-Herhangi bir takip dönemi içinde (ör. ilk döngü için 1 Temmuz - 30 Eylül arası), Cherry Studio'nun GitHub'daki açık kaynak projelerine **30'dan fazla anlamlı commit** katkısı yapan herhangi bir geliştirici aşağıdaki avantajlardan yararlanabilir:
 
-- **Cursor Abonelik Sponsorluğu**: [Cursor](https://cursor.sh/) aboneliğiniz için **70 USD** kredi veya geri ödeme alın, yapay zekayı en verimli kodlama ortağınız haline getirin.
-- **Sınırsız Model Erişimi**: **DeepSeek** ve **Qwen** modelleri için **sınırsız** API çağrısı hakkı kazanın.
-- **En Yeni Teknolojiye Erişim**: **Claude**, **Gemini** ve **OpenAI** gibi modellere API erişimi dahil olmak üzere dönemsel ayrıcalıklar elde edin, teknoloji dünyasının önünde olun.
+Herhangi bir takip döneminde (ör. ilk döngü için 1 Temmuz - 30 Eylül arası), Cherry Studio’nun GitHub’daki açık kaynak projelerine **30’dan fazla anlamlı commit** ile katkıda bulunan her geliştirici aşağıdaki avantajlardan yararlanabilir:
+
+- **Cursor Abonelik Sponsorluğu**: [Cursor](https://cursor.sh/) aboneliğiniz için **70 ABD Doları** değerinde kredi veya geri ödeme alın, böylece yapay zekâ en verimli kodlama ortağınız olsun.
+- **Sınırsız Model Erişimi**: **DeepSeek** ve **Qwen** modelleri için **sınırsız** API çağrısı hakkı elde edin.
+- **En Yeni Teknolojiye Erişim**: **Claude**, **Gemini** ve **OpenAI** gibi modellere API erişimi dâhil ara sıra sağlanan avantajlarla teknolojinin ön saflarında kalın.
 
 ## Birlikte Büyümek & Gelecek Planları
 
-Canlı bir topluluk, sürdürülebilir bir açık kaynak projesinin itici gücüdür. Cherry Studio büyüdükçe, ödül programımız da gelişecek. Faydalarımızı sektörün en iyi araç ve kaynaklarıyla sürekli olarak uyumlu tutmaya kararlıyız. Bu sayede ana katkıcılarımıza anlamlı destek sunup, geliştiriciler, topluluk ve projenin birlikte büyüdüğü olumlu bir döngü yaratıyoruz.
+Canlı bir topluluk, sürdürülebilir herhangi bir açık kaynak projesinin itici gücüdür. Cherry Studio büyüdükçe ödül programımız da büyüyecek. Sektördeki en iyi araçlar ve kaynaklarla avantajlarımızı sürekli uyumlu tutmaya kararlıyız. Böylece ana katkıcılarımıza anlamlı destek sağlanır ve geliştiriciler, topluluk ve proje birlikte büyür.
 
-**İlerleyen dönemde proje, tüm açık kaynak topluluğuna katkı sağlamak için daha da açık bir yaklaşımı benimseyecek.**
+**Bundan sonra proje, tüm açık kaynak topluluğuna daha fazla katkı sağlamak için giderek daha açık bir duruş benimseyecektir.**
 
 ## Nasıl Başlanır?
 
-İlk Pull Request'inizi sabırsızlıkla bekliyoruz!
+İlk Pull Request’inizi dört gözle bekliyoruz!
 
-Depolarımızı inceleyerek, bir `good first issue` seçerek veya kendi geliştirmelerinizi önererek başlayabilirsiniz. Her commit, açık kaynak ruhunun bir kanıtıdır.
+Depolarımızı keşfederek, bir `good first issue` seçerek veya kendi geliştirmelerinizi önererek başlayabilirsiniz. Her commit, açık kaynak ruhunun bir göstergesidir.
 
 İlginiz ve katkılarınız için teşekkür ederiz.
 
-Haydi birlikte inşa edelim.
+Birlikte inşa edelim.
 
 # 🏢 Kurumsal Sürüm
 
-Topluluk Sürümü'nün üzerine inşa ederek, modern ekipler ve işletmeler için özel olarak dağıtılabilen bir yapay zeka verimlilik ve yönetim platformu olan **Cherry Studio Kurumsal Sürüm**'ünü tanıtmaktan gurur duyuyoruz.
+Topluluk Sürümü üzerine inşa ederek, modern ekipler ve işletmeler için özel olarak dağıtılabilir bir yapay zekâ verimlilik ve yönetim platformu olan **Cherry Studio Enterprise Edition**’ı sunmaktan gurur duyuyoruz.
 
-Kurumsal Sürüm, ekip iş birliğinde temel zorlukları, yapay zeka kaynakları, bilgi ve veri yönetimini merkezileştirerek çözer. Kuruluşların verimliliği artırmasını, inovasyonu teşvik etmesini ve uyumluluğu sağlamasını mümkün kılar; tüm bunları güvenli bir ortamda verileriniz üzerinde %100 kontrol sağlayarak gerçekleştirir.
+Kurumsal Sürüm, yapay zekâ kaynaklarının, bilginin ve verinin merkezî yönetimini sağlayarak ekip iş birliğindeki temel zorluklara çözüm sunar. Kuruluşların verimliliği artırmasını, inovasyonu teşvik etmesini ve uyumluluğu garanti altına almasını sağlarken, verilerinin %100 kontrolünü güvenli ortamda muhafaza eder.
 
 ## Temel Avantajlar
 
-- **Birleşik Model Yönetimi**: Farklı bulut tabanlı LLM'leri (örn. OpenAI, Anthropic, Google Gemini) ve yerel özel modelleri merkezi şekilde entegre edin ve yönetin. Çalışanlar, bireysel ayar gerekmeden doğrudan kullanabilir.
-- **Kurumsal Düzeyde Bilgi Tabanı**: Ekip genelinde bilgi tabanları oluşturun, yönetin ve paylaşın. Bilgi tutarlılığı ve kalıcılığı sağlar, ekip üyeleri yapay zekayla doğru ve birleşik bilgi üzerinden etkileşime geçebilir.
-- **Ayrıntılı Erişim Kontrolü**: Çalışan hesaplarını kolayca yönetin; farklı model, bilgi tabanı ve özellikler için rol tabanlı izinleri merkezi yönetici paneli üzerinden atayın.
-- **Tamamen Özel Dağıtım**: Tüm arka uç servisini kendi sunucularınıza veya özel bulutunuza dağıtarak verilerinizin %100 gizli ve kontrolünüzde kalmasını, en sıkı güvenlik ve uyumluluk standartlarını karşılamasını sağlayın.
-- **Güvenilir Arka Uç Servisleri**: Kesintisiz iş sürekliliği için istikrarlı API servisleri ve kurumsal düzeyde veri yedekleme/geri yükleme mekanizmaları sunar.
+- **Birleşik Model Yönetimi**: Açık bulut tabanlı LLM’leri (ör. OpenAI, Anthropic, Google Gemini) ve yerel olarak konuşlandırılmış özel modelleri merkezî olarak entegre edin ve yönetin. Çalışanlar, bireysel yapılandırma olmadan hemen kullanabilir.
+- **Kurumsal Düzeyde Bilgi Tabanı**: Ekip genelinde bilgi tabanları oluşturun, yönetin ve paylaşın. Bilgi tutarlılığı ve devamlılığı sağlar, ekip üyelerinin yapay zekâ ile doğru ve birleşik bilgi üzerinden etkileşime geçmesini mümkün kılar.
+- **Ayrıntılı Erişim Kontrolü**: Tek bir yönetici paneli üzerinden çalışan hesaplarını kolayca yönetin ve farklı model, bilgi tabanı ve özellikler için rol tabanlı izinler atayın.
+- **Tamamen Özel Konumlandırma**: Tüm arka uç servisini şirket içi sunucularınızda veya özel bulutunuzda konumlandırın; böylece verileriniz %100 gizli kalır ve en sıkı güvenlik ve uyumluluk standartlarını karşılar.
+- **Güvenilir Arka Uç Servisleri**: Kesintisiz iş sürekliliği için istikrarlı API hizmetleri ve kurumsal düzeyde veri yedekleme ve kurtarma mekanizmaları sağlar.
 
 ## ✨ Çevrimiçi Demo
 
-> 🚧 **Açık Beta Bilgilendirmesi**
+> 🚧 **Açık Beta Duyurusu**
 >
-> Kurumsal Sürüm şu anda açık beta aşamasının başlarındadır ve özellikleri üzerinde aktif olarak geliştirme ve iyileştirme çalışmaları sürmektedir. Henüz tam olarak stabil olmayabileceğinin farkındayız. Deneme sürecinizde herhangi bir sorunla karşılaşırsanız veya değerli önerileriniz olursa, bize e-posta yoluyla geri bildirimde bulunmanızdan büyük memnuniyet duyarız.
+> Kurumsal Sürüm şu anda erken açık beta aşamasındadır ve özellikleri üzerinde aktif olarak geliştirme ve iyileştirme yapıyoruz. Henüz tam anlamıyla kararlı olmayabilir. Deneme sırasında herhangi bir sorunla karşılaşırsanız veya değerli önerileriniz olursa, bizimle e-posta yoluyla iletişime geçerek geri bildirim sağlamanızdan memnuniyet duyarız.
 
 **🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
 
 ## Sürüm Karşılaştırması
 
-| Özellik           | Topluluk Sürümü                          | Kurumsal Sürüm                                                                                                                      |
-| :---------------- | :--------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
-| **Açık Kaynak**   | ✅ Evet                                  | ⭕️ Müşterilere kısmen açıklandı                                                                                                             |
-| **Maliyet**       | Kişisel Kullanım İçin Ücretsiz / Ticari Lisans | Satın alma / Abonelik Ücreti                                                                                                         |
-| **Yönetici Paneli**| —                                       | ● Merkezi **Model** Erişimi<br>● **Çalışan** Yönetimi<br>● Paylaşılan **Bilgi Tabanı**<br>● **Erişim** Kontrolü<br>● **Veri** Yedekleme |
-| **Sunucu**        | —                                       | ✅ Özel Dağıtım                                                                                                                      |
+| Özellik           | Topluluk Sürümü                             | Kurumsal Sürüm                                                                                                                      |
+| :---------------- | :------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------- |
+| **Açık Kaynak**   | ✅ Evet                                     | ⭕️ Kısmen müşterilere sunuluyor                                                                                                     |
+| **Maliyet**       | Kişisel Kullanım için Ücretsiz / Ticari Lisans | Satın Alma / Abonelik Ücreti                                                                                                         |
+| **Yönetici Paneli**| —                                          | ● Merkezî **Model** Erişimi<br>● **Çalışan** Yönetimi<br>● Paylaşılan **Bilgi Tabanı**<br>● **Erişim** Kontrolü<br>● **Veri** Yedeği |
+| **Sunucu**        | —                                          | ✅ Özel Konumlandırma                                                                                                                |
 
 ## Kurumsal Sürümü Edinin
 
-Kurumsal Sürüm'ün ekibinizin yapay zeka verimlilik motoru olacağına inanıyoruz. Cherry Studio Kurumsal Sürüm ile ilgileniyorsanız ve daha fazla bilgi almak, fiyat teklifi istemek veya bir demo planlamak istiyorsanız lütfen bizimle iletişime geçmekten çekinmeyin.
+Kurumsal Sürüm’ün ekibinizin yapay zekâ verimlilik motoru olacağına inanıyoruz. Cherry Studio Kurumsal Sürümü ile ilgileniyorsanız ve daha fazla bilgi almak, fiyat teklifi istemek veya demo planlamak istiyorsanız bizimle iletişime geçmekten çekinmeyin.
 
 - **Ticari Talepler & Satın Alma için**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 İlgili Projeler
 
-- [one-api](https://github.com/songquanpeng/one-api): OpenAI, Azure ve Anthropic gibi ana akım modelleri destekleyen LLM API yönetim ve dağıtım sistemi. Birleşik API arayüzü ile anahtar yönetimi ve ikincil dağıtım için uygundur.
+- [one-api](https://github.com/songquanpeng/one-api): OpenAI, Azure ve Anthropic gibi ana akım modelleri destekleyen LLM API yönetimi ve dağıtım sistemi. Birleşik API arayüzüyle anahtar yönetimi ve ikincil dağıtım için uygundur.
 
-- [ublacklist](https://github.com/iorate/ublacklist): Belirli sitelerin Google arama sonuçlarında görünmesini engeller
+- [ublacklist](https://github.com/iorate/ublacklist): Google arama sonuçlarında belirli sitelerin çıkmasını engeller
 
 # 🚀 Katkıda Bulunanlar
 
@@ -297,7 +298,6 @@ Kurumsal Sürüm'ün ekibinizin yapay zeka verimlilik motoru olacağına inanıy
 [telegram-link]: https://t.me/CherryStudioAI
 
 <!-- Bağlantılar & Görseller -->
-
 [github-release-shield]: https://img.shields.io/github/v/release/CherryHQ/cherry-studio?logo=github
 [github-release-link]: https://github.com/CherryHQ/cherry-studio/releases
 [github-nightly-shield]: https://img.shields.io/github/actions/workflow/status/CherryHQ/cherry-studio/nightly-build.yml?label=nightly%20build&logo=github
@@ -318,6 +318,6 @@ Kurumsal Sürüm'ün ekibinizin yapay zeka verimlilik motoru olacağına inanıy
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---

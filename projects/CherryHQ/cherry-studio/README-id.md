@@ -198,23 +198,24 @@ Kami sungguh mengundang Anda untuk bergabung sebagai kontributor dan membentuk m
 Untuk memberikan apresiasi kepada kontributor inti dan menciptakan siklus positif, kami telah menetapkan rencana insentif jangka panjang berikut.
 
 **Periode pelacakan perdana untuk program ini adalah Q3 2025 (Juli, Agustus, September). Penghargaan untuk siklus ini akan didistribusikan pada 1 Oktober.**
-Dalam periode pelacakan apa pun (misalnya, 1 Juli hingga 30 September untuk siklus pertama), setiap pengembang yang berkontribusi lebih dari **30 commit bermakna** ke salah satu proyek open-source Cherry Studio di GitHub akan memenuhi syarat untuk manfaat berikut:
 
-- **Sponsor Langganan Cursor**: Dapatkan kredit atau penggantian sebesar **$70 USD** untuk langganan [Cursor](https://cursor.sh/) Anda, menjadikan AI sebagai partner coding paling efisien.
-- **Akses Model Tanpa Batas**: Dapatkan **panggilan API tak terbatas** untuk model **DeepSeek** dan **Qwen**.
-- **Akses Teknologi Terkini**: Nikmati berbagai keuntungan, termasuk akses API ke model seperti **Claude**, **Gemini**, dan **OpenAI**, menjaga Anda di garis depan teknologi.
+Dalam periode pelacakan apa pun (misal: 1 Juli hingga 30 September untuk siklus pertama), setiap pengembang yang berkontribusi lebih dari **30 commit bermakna** pada proyek open-source Cherry Studio di GitHub akan memenuhi syarat untuk manfaat berikut:
 
-## Tumbuh Bersama & Rencana Masa Depan
+- **Sponsor Langganan Cursor**: Dapatkan kredit atau penggantian biaya **$70 USD** untuk langganan [Cursor](https://cursor.sh/) Anda, sehingga AI menjadi mitra coding paling efisien Anda.
+- **Akses Model Tak Terbatas**: Nikmati panggilan API **tak terbatas** untuk model **DeepSeek** dan **Qwen**.
+- **Akses Teknologi Terkini**: Nikmati keuntungan tambahan, termasuk akses API ke model seperti **Claude**, **Gemini**, dan **OpenAI**, agar Anda tetap terdepan dalam teknologi.
 
-Komunitas yang dinamis adalah kekuatan pendorong di balik proyek open-source yang berkelanjutan. Seiring Cherry Studio berkembang, begitu juga dengan program penghargaan kami. Kami berkomitmen untuk terus menyelaraskan manfaat dengan alat dan sumber daya terbaik di industri. Ini memastikan kontributor inti kami menerima dukungan yang berarti, menciptakan siklus positif di mana pengembang, komunitas, dan proyek tumbuh bersama.
+## Bertumbuh Bersama & Rencana Masa Depan
 
-**Ke depan, proyek ini juga akan semakin terbuka untuk memberikan kontribusi kembali ke seluruh komunitas open-source.**
+Komunitas yang dinamis adalah kekuatan pendorong di balik setiap proyek open-source yang berkelanjutan. Seiring pertumbuhan Cherry Studio, program penghargaan kami pun akan berkembang. Kami berkomitmen untuk terus menyelaraskan manfaat kami dengan alat dan sumber daya terbaik di industri. Ini memastikan kontributor inti kami menerima dukungan bermakna, menciptakan siklus positif di mana pengembang, komunitas, dan proyek tumbuh bersama.
+
+**Ke depan, proyek ini juga akan semakin terbuka untuk memberi kembali ke seluruh komunitas open-source.**
 
 ## Bagaimana Cara Memulai?
 
 Kami menantikan Pull Request pertama Anda!
 
-Anda bisa mulai dengan menjelajahi repositori kami, mengambil `good first issue`, atau mengusulkan peningkatan Anda sendiri. Setiap commit adalah bukti semangat open source.
+Anda dapat memulai dengan menjelajahi repositori kami, mengambil `good first issue`, atau mengusulkan peningkatan Anda sendiri. Setiap commit adalah bukti semangat open source.
 
 Terima kasih atas minat dan kontribusi Anda.
 
@@ -224,21 +225,21 @@ Mari kita bangun bersama.
 
 Berdasarkan Community Edition, kami dengan bangga memperkenalkan **Cherry Studio Enterprise Edition**—platform AI produktivitas dan manajemen yang dapat di-deploy secara privat, dirancang untuk tim dan perusahaan modern.
 
-Enterprise Edition menjawab tantangan utama kolaborasi tim dengan memusatkan manajemen sumber daya AI, pengetahuan, dan data. Ini memberdayakan organisasi untuk meningkatkan efisiensi, mendorong inovasi, dan memastikan kepatuhan, sekaligus menjaga 100% kendali atas data Anda di lingkungan yang aman.
+Enterprise Edition menangani tantangan inti dalam kolaborasi tim dengan memusatkan pengelolaan sumber daya AI, pengetahuan, dan data. Ini memberdayakan organisasi untuk meningkatkan efisiensi, mendorong inovasi, dan memastikan kepatuhan, sambil tetap menjaga 100% kendali atas data mereka di lingkungan yang aman.
 
 ## Keunggulan Utama
 
-- **Manajemen Model Terpadu**: Integrasi dan kelola berbagai LLM berbasis cloud (misal: OpenAI, Anthropic, Google Gemini) dan model privat lokal secara terpusat. Karyawan dapat langsung menggunakannya tanpa konfigurasi individu.
-- **Basis Pengetahuan Kelas Perusahaan**: Bangun, kelola, dan bagikan basis pengetahuan tim. Menjamin retensi dan konsistensi pengetahuan, memungkinkan anggota tim berinteraksi dengan AI berdasarkan informasi yang terpadu dan akurat.
-- **Kontrol Akses Terperinci**: Kelola akun karyawan dan tetapkan izin berbasis peran untuk model, basis pengetahuan, dan fitur melalui backend admin terpadu.
-- **Deploy Privat Sepenuhnya**: Deploy seluruh layanan backend di server lokal atau cloud privat Anda, memastikan data Anda tetap 100% privat dan di bawah kontrol Anda untuk memenuhi standar keamanan dan kepatuhan paling ketat.
-- **Layanan Backend Andal**: Menyediakan layanan API stabil dan mekanisme backup serta pemulihan data kelas perusahaan untuk memastikan kelangsungan bisnis.
+- **Manajemen Model Terpadu**: Integrasi dan kelola berbagai LLM berbasis cloud (misal: OpenAI, Anthropic, Google Gemini) serta model privat yang di-deploy lokal secara terpusat. Karyawan dapat langsung menggunakannya tanpa konfigurasi individu.
+- **Basis Pengetahuan Kelas Enterprise**: Bangun, kelola, dan bagikan basis pengetahuan di seluruh tim. Menjamin retensi dan konsistensi pengetahuan, memungkinkan anggota tim berinteraksi dengan AI berdasarkan informasi yang terpadu dan akurat.
+- **Kontrol Akses Mendetail**: Kelola akun karyawan dengan mudah dan tetapkan izin berbasis peran untuk model, basis pengetahuan, dan fitur berbeda melalui backend admin terpusat.
+- **Deploy Privat Sepenuhnya**: Deploy seluruh layanan backend di server lokal Anda atau cloud privat, memastikan data Anda tetap 100% privat dan di bawah kendali Anda untuk memenuhi standar keamanan dan kepatuhan paling ketat.
+- **Layanan Backend Andal**: Menyediakan layanan API stabil serta mekanisme backup dan pemulihan data kelas enterprise untuk menjamin kelangsungan bisnis.
 
 ## ✨ Demo Online
 
 > 🚧 **Pengumuman Beta Publik**
 >
-> Enterprise Edition saat ini berada dalam tahap beta publik awal, dan kami terus melakukan iterasi serta optimasi fitur-fiturnya. Kami sadar mungkin belum sepenuhnya stabil. Jika Anda menemukan masalah atau memiliki saran berharga selama uji coba, kami sangat menghargai jika Anda dapat menghubungi kami melalui email untuk memberikan masukan.
+> Enterprise Edition saat ini berada dalam tahap beta publik awal, dan kami secara aktif melakukan iterasi serta optimalisasi fiturnya. Kami sadar bahwa stabilitasnya belum sempurna. Jika Anda mengalami masalah atau memiliki saran berharga selama percobaan, kami sangat berterima kasih jika Anda dapat menghubungi kami melalui email untuk memberikan masukan.
 
 **🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
 
@@ -246,23 +247,23 @@ Enterprise Edition menjawab tantangan utama kolaborasi tim dengan memusatkan man
 
 | Fitur             | Community Edition                          | Enterprise Edition                                                                                                                      |
 | :---------------- | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **Open Source**   | ✅ Ya                                      | ⭕️ Sebagian dirilis untuk pelanggan                                                                                                     |
+| **Open Source**   | ✅ Ya                                      | ⭕️ Dirilis sebagian ke pelanggan                                                                                                        |
 | **Biaya**         | Gratis untuk Pribadi / Lisensi Komersial   | Pembelian / Biaya Langganan                                                                                                             |
-| **Admin Backend** | —                                          | ● Akses **Model** Terpusat<br>● Manajemen **Karyawan**<br>● **Basis Pengetahuan** Bersama<br>● Kontrol **Akses**<br>● Backup **Data**   |
+| **Backend Admin** | —                                          | ● Akses **Model** Terpusat<br>● Manajemen **Karyawan**<br>● **Basis Pengetahuan** Bersama<br>● Kontrol **Akses**<br>● Backup **Data**   |
 | **Server**        | —                                          | ✅ Deploy Privat Khusus                                                                                                                 |
 
 ## Dapatkan Enterprise Edition
 
-Kami percaya Enterprise Edition akan menjadi mesin produktivitas AI untuk tim Anda. Jika Anda tertarik dengan Cherry Studio Enterprise Edition dan ingin mengetahui lebih lanjut, meminta penawaran, atau menjadwalkan demo, silakan hubungi kami.
+Kami yakin Enterprise Edition akan menjadi mesin produktivitas AI tim Anda. Jika Anda tertarik dengan Cherry Studio Enterprise Edition dan ingin tahu lebih lanjut, meminta penawaran, atau menjadwalkan demo, silakan hubungi kami.
 
-- **Untuk Permintaan Bisnis & Pembelian**:
+- **Untuk Pertanyaan Bisnis & Pembelian**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 Proyek Terkait
 
-- [one-api](https://github.com/songquanpeng/one-api): Sistem manajemen dan distribusi API LLM yang mendukung model utama seperti OpenAI, Azure, dan Anthropic. Menyediakan antarmuka API terpadu, cocok untuk manajemen kunci dan distribusi sekunder.
+- [one-api](https://github.com/songquanpeng/one-api): Sistem manajemen dan distribusi API LLM yang mendukung model utama seperti OpenAI, Azure, dan Anthropic. Memiliki antarmuka API terpadu, cocok untuk manajemen kunci dan distribusi sekunder.
 
-- [ublacklist](https://github.com/iorate/ublacklist): Memblokir situs tertentu agar tidak muncul di hasil pencarian Google
+- [ublacklist](https://github.com/iorate/ublacklist): Memblokir situs tertentu agar tidak muncul dalam hasil pencarian Google
 
 # 🚀 Kontributor
 
@@ -285,9 +286,9 @@ Kami percaya Enterprise Edition akan menjadi mesin produktivitas AI untuk tim An
  </picture>
 </a>
 
-<!-- Tautan & Gambar -->
+<!-- Links & Images -->
 
-[deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNy45MyAzMiI+PHBhdGggZD0iTTE5LjMzIDE0LjEyYy42Ny0uMzkgMS41LS4zOSAyLjE4IDBsMS43NCAxYy4wNi4wMy4xMS4wNi4xOC4wN2guMDRjLjA2LjAzLjEyLjAzLjE4LjAzaC4wMmMuMDYgMCAuMTEgMCAuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNS4xNy0uMDhoLjAybDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWOC40YS44MS44MSAwIDAgMC0uNC0uN2wtMy40OC0yLjAxYS44My44MyAwIDAgMC0uODEgMEwxOS43NyA3LjdoLS4wMWwtLjE1LjEyLS4wMi4wMnMtLjA3LjA5LS4xLjE0VjhhLjQuNCAwIDAgMC0uMDguMTd2LjA0Yy0uMDMuMDYtLjAzLjEyLS4wMy4xOXYyLjAxYzAgLjc4LS40MSAxLjQ5LTEuMDkgMS44OC0uNjcuMzktMS41LjM5LTIuMTggMGwtMS43NC0xYS42LjYgMCAwIDAtLjIxLS4wOGMtLjA2LS4wMS0uMTItLjAyLS4xOC0uMDJoLS4wM2MtLjA2IDAtLjExLjAxLS4xNy4wMmgtLjAzYy0uMDYuMDItLjEyLjA0LS4xNy4wN2gtLjAybC0zLjQ3IDIuMDFjLS4yNS4xNC0uNC40MS0uNC43VjE4YzAgLjI5LjE1LjU1LjQuN2wzLjQ4IDIuMDFoLjAyYy4wNi4wNC4xMS4wNi4xNy4wOGguMDNjLjA1LjAyLjExLjAzLjE3LjAzaC4wMmMuMDYgMCAuMTIgMCAuMTgtLjAyaC4wNGMuMDYtLjAzLjEyLS4wNS4xOC0uMDhsMS43NC0xYy42Ny0uMzkgMS41LS4zOSAyLjE3IDBzMS4wOSAxLjExIDEuMDkgMS44OHYyLjAxYzAgLjA3IDAgLjEzLjAyLjE5di4wNGMuMDMuMDYuMDUuMTIuMDguMTd2LjAycy4wOC4wOS4xMi4xM2wuMDIuMDJzLjA5LjA4LjE1LjExYzAgMCAuMDEgMCAuMDEuMDFsMy40OCAyLjAxYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjd2LTQuMDFhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ4LTIuMDFoLS4wMmMtLjA1LS4wNC0uMTEtLjA2LS4xNy0uMDhoLS4wM2EuNS41IDAgMCAwLS4xNy0uMDNoLS4wM2MtLjA2IDAtLjEyIDAtLjE4LjAyLS4wNy4wMi0uMTUuMDUtLjIxLjA4bC0xLjc0IDFjLS42Ny4zOS0xLjUuMzktMi4xNyAwYTIuMTkgMi4xOSAwIDAgMS0xLjA5LTEuODhjMC0uNzguNDItMS40OSAxLjA5LTEuODhaIiBzdHlsZT0iZmlsbDojNWRiZjlkIi8+PHBhdGggZD0ibS40IDEzLjExIDMuNDcgMi4wMWMuMjUuMTQuNTYuMTQuOCAwbDMuNDctMi4wMWguMDFsLjE1LS4xMi4wMi0uMDJzLjA3LS4wOS4xLS4xNGwuMDItLjAyYy4wMy0uMDUuMDUtLjExLjA3LS4xN3YtLjA0Yy4wMy0uMDYuMDMtLjEyLjAzLS4xOVYxMC40YzAtLjc4LjQyLTEuNDkgMS4wOS0xLjg4czEuNS0uMzkgMi4xOCAwbDEuNzQgMWMuMDcuMDQuMTQuMDcuMjEuMDguMDYuMDEuMTIuMDIuMTguMDJoLjAzYy4wNiAwIC4xMS0uMDEuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNC4xNy0uMDdoLjAybDMuNDctMi4wMmMuMjUtLjE0LjQtLjQxLjQtLjd2LTRhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ2LTJhLjgzLjgzIDAgMCAwLS44MSAwbC0zLjQ4IDIuMDFoLS4wMWwtLjE1LjEyLS4wMi4wMi0uMS4xMy0uMDIuMDJjLS4wMy4wNS0uMDUuMTEtLjA3LjE3di4wNGMtLjAzLjA2LS4wMy4xMi0uMDMuMTl2Mi4wMWMwIC43OC0uNDIgMS40OS0xLjA5IDEuODhzLTEuNS4zOS0yLjE4IDBsLTEuNzQtMWEuNi42IDAgMCAwLS4yMS0uMDhjLS4wNi0uMDEtLjEyLS4wMi0uMTgtLjAyaC0uMDNjLS4wNiAwLS4xMS4wMS0uMTcuMDJoLS4wM2MtLjA2LjAyLS4xMi4wNS0uMTcuMDhoLS4wMkwuNCA3LjcxYy0uMjUuMTQtLjQuNDEtLjQuNjl2NC4wMWMwIC4yOS4xNS41Ni40LjciIHN0eWxlPSJmaWxsOiM0NDY4YzQiLz48cGF0aCBkPSJtMTcuODQgMjQuNDgtMy40OC0yLjAxaC0uMDJjLS4wNS0uMDQtLjExLS4wNi0uMTctLjA4aC0uMDNhLjUuNSAwIDAgMC0uMTctLjAzaC0uMDNjLS4wNiAwLS4xMiAwLS4xOC4wMmgtLjA0Yy0uMDYuMDMtLjEyLjA1LS4xOC4wOGwtMS43NCAxYy0uNjcuMzktMS41LjM5LTIuMTggMGEyLjE5IDIuMTkgMCAwIDEtMS4wOS0xLjg4di0yLjAxYzAtLjA2IDAtLjEzLS4wMi0uMTl2LS4wNGMtLjAzLS4wNi0uMDUtLjExLS4wOC0uMTdsLS4wMi0uMDJzLS4wNi0uMDktLjEtLjEzTDguMjkgMTlzLS4wOS0uMDgtLjE1LS4xMWgtLjAxbC0zLjQ3LTIuMDJhLjgzLjgzIDAgMCAwLS44MSAwTC4zNyAxOC44OGEuODcuODcgMCAwIDAtLjM3LjcxdjQuMDFjMCAuMjkuMTUuNTUuNC43bDMuNDcgMi4wMWguMDJjLjA1LjA0LjExLjA2LjE3LjA4aC4wM2MuMDUuMDIuMTEuMDMuMTYuMDNoLjAzYy4wNiAwIC4xMiAwIC4xOC0uMDJoLjA0Yy4wNi0uMDMuMTItLjA1LjE4LS4wOGwxLjc0LTFjLjY3LS4zOSAxLjUtLjM5IDIuMTcgMHMxLjA5IDEuMTEgMS4wOSAxLjg4djIuMDFjMCAuMDcgMCAuMTMuMDIuMTl2LjA0Yy4wMy4wNi4wNS4xMS4wOC4xN2wuMDIuMDJzLjA2LjA5LjEuMTRsLjAyLjAycy4wOS4wOC4xNS4xMWguMDFsMy40OCAyLjAyYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWMjUuMmEuODEuODEgMCAwIDAtLjQtLjdaIiBzdHlsZT0iZmlsbDojNDI5M2Q5Ii8+PC9zdmc+
+[deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNy45MyAzMiI+PHBhdGggZD0iTTE5LjMzIDE0LjEyYy42Ny0uMzkgMS41LS4zOSAyLjE4IDBsMS43NCAxYy4wNi4wMy4xMS4wNi4xOC4wN2guMDRjLjA2LjAzLjEyLjAzLjE4LjAzaC4wMmMuMDYgMCAuMTEgMCAuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNS4xNy0uMDhoLjAybDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWOC40YS44MS44MSAwIDAgMC0uNC0uN2wtMy40OC0yLjAxYS44My44MyAwIDAgMC0uODEgMEwxOS43NyA3LjdoLS4wMWwtLjE1LjEyLS4wMi4wMnMtLjA3LjA5LS4xLjE0VjhhLjQuNCAwIDAgMC0uMDguMTd2LjA0Yy0uMDMuMDYtLjAzLjEyLS4wMy4xOXYyLjAxYzAgLjc4LS40MSAxLjQ5LTEuMDkgMS44OC0uNjcuMzktMS41LjM5LTIuMTggMGwtMS43NC0xYS42LjYgMCAwIDAtLjIxLS4wOGMtLjA2LS4wMS0uMTItLjAyLS4xOC0uMDJoLS4wM2MtLjA2IDAtLjExLjAxLS4xNy4wMmgtLjAzYy0uMDYuMDItLjEyLjA0LS4xNy4wN2gtLjAybC0zLjQ3IDIuMDFjLS4yNS4xNC0uNC40MS0uNC43VjE4YzAgLjI5LjE1LjU1LjQuN2wzLjQ4IDIuMDFoLjAyYy4wNi4wNC4xMS4wNi4xNy4wOGguMDNjLjA1LjAyLjExLjAzLjE3LjAzaC4wMmMuMDYgMCAuMTIgMCAuMTgtLjAyaC4wNGMuMDYtLjAzLjEyLS4wNS4xOC0uMDhsMS43NC0xYy42Ny0uMzkgMS41LS4zOSAyLjE3IDBzMS4wOSAxLjExIDEuMDkgMS44OHYyLjAxYzAgLjA3IDAgLjEzLjAyLjE5di4wNGMuMDMuMDYuMDUuMTIuMDguMTd2LjAycy4wOC4wOS4xMi4xM2wuMDIuMDJzLjA5LjA4LjE1LjExYzAgMCAuMDEgMCAuMDEuMDFsMy40OCAyLjAxYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjd2LTQuMDFhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ4LTIuMDFoLS4wMmMtLjA1LS4wNC0uMTEtLjA2LS4xNy0uMDhoLS4wM2EuNS41IDAgMCAwLS4xNy0uMDNoLS4wM2MtLjA2IDAtLjEyIDAtLjE4LjAyLS4wNy4wMi0uMTUuMDUtLjIxLjA4bC0xLjc0IDFjLS42Ny4zOS0xLjUuMzktMi4xNyAwYTIuMTkgMi4xOSAwIDAgMS0xLjA5LTEuODhjMC0uNzguNDItMS40OSAxLjA5LTEuODhaIiBzdHlsZT0iZmlsbDojNWRiZjlkIi8+PHBhdGggZD0ibS40IDEzLjExIDMuNDcgMi4wMWMuMjUuMTQuNTYuMTQuOCAwbDMuNDctMi4wMWguMDFsLjE1LS4xMi4wMi0uMDJzLjA3LS4wOS4xLS4xNGwuMDItLjAyYy4wMy0uMDUuMDUtLjExLjA3LS4xN3YtLjA0Yy4wMy0uMDYuMDMtLjEyLjAzLS4xOVYxMC40YzAtLjc4LjQyLTEuNDkgMS4wOS0xLjg4czEuNS0uMzkgMi4xOCAwbDEuNzQgMWMuMDcuMDQuMTQuMDcuMjEuMDguMDYuMDEuMTIuMDIuMTguMDJoLjAzYy4wNiAwIC4xMS0uMDEuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNC4xNy0uMDdoLjAybDMuNDctMi4wMmMuMjUtLjE0LjQtLjQxLjQtLjd2LTRhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ2LTJhLjgzLjgzIDAgMCAwLS44MSAwbC0zLjQ4IDIuMDFoLS4wMWwtLjE1LjEyLS4wMi4wMi0uMS4xMy0uMDIuMDJjLS4wMy4wNS0uMDUuMTEtLjA3LjE3di4wNGMtLjAzLjA2LS4wMy4xMi0uMDMuMTl2Mi4wMWMwIC43OC0uNDIgMS40OS0xLjA5IDEuODhzLTEuNS4zOS0yLjE4IDBsLTEuNzQtMWEuNi42IDAgMCAwLS4yMS0uMDhjLS4wNi0uMDEtLjEyLS4wMi0uMTgtLjAyaC0uMDNjLS4wNiAwLS4xMS4wMS0uMTcuMDJoLS4wM2MtLjA2LjAyLS4xMi4wNS0uMTcuMDhoLS4wMkwuNCA3LjcxYy0uMjUuMTQtLjQuNDEtLjQuNjl2NC4wMWMwIC4yOS4xNS41Ni40LjciIHN0eWxlPSJmaWxsOiM0NDY4YzQiLz48cGF0aCBkPSJtMTcuODQgMjQuNDgtMy40OC0yLjAxaC0uMDJjLS4wNS0uMDQtLjExLS4wNi0uMTctLjA4aC0uMDNhLjUuNSAwIDAgMC0uMTctLjAzaC0uMDNjLS4wNiAwLS4xMiAwLS4xOC4wMmgtLjA0Yy4wNi0uMDMuMTItLjA1LjE4LS4wOGwtMS43NCAxYy0uNjcuMzktMS41LjM5LTIuMTggMGEyLjE5IDIuMTkgMCAwIDEtMS4wOS0xLjg4di0yLjAxYzAtLjA2IDAtLjEzLS4wMi0uMTl2LS4wNGMtLjAzLS4wNi0uMDUtLjExLS4wOC0uMTdsLS4wMi0uMDJzLS4wNi0uMDktLjEtLjEzTDguMjkgMTlzLS4wOS0uMDgtLjE1LS4xMWgtLjAxbC0zLjQ3LTIuMDJhLjgzLjgzIDAgMCAwLS44MSAwTC4zNyAxOC44OGEuODcuODcgMCAwIDAtLjM3LjcxdjQuMDFjMCAuMjkuMTUuNTUuNC43bDMuNDcgMi4wMWguMDJjLjA1LjA0LjExLjA2LjE3LjA4aC4wM2MuMDUuMDIuMTEuMDMuMTYuMDNoLjAzYy4wNiAwIC4xMiAwIC4xOC0uMDJoLjA0Yy4wNi0uMDMuMTItLjA1LjE4LS4wOGwxLjc0LTFjLjY3LS4zOSAxLjUtLjM5IDIuMTcgMHMxLjA5IDEuMTEgMS4wOSAxLjg4djIuMDFjMCAuMDcgMCAuMTMuMDIuMTl2LjA0Yy4wMy4wNi4wNS4xMS4wOC4xN2wuMDIuMDJzLjA2LjA5LjEuMTRsLjAyLjAycy4wOS4wOC4xNS4xMWguMDFsMy40OCAyLjAyYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWMjUuMmEuODEuODEgMCAwIDAtLjQtLjdaIiBzdHlsZT0iZmlsbDojNDI5M2Q5Ii8+PC9zdmc+
 [deepwiki-link]: https://deepwiki.com/CherryHQ/cherry-studio
 [twitter-shield]: https://img.shields.io/badge/Twitter-CherryStudioApp-0088CC?logo=x
 [twitter-link]: https://twitter.com/CherryStudioHQ
@@ -296,8 +297,7 @@ Kami percaya Enterprise Edition akan menjadi mesin produktivitas AI untuk tim An
 [telegram-shield]: https://img.shields.io/badge/Telegram-@CherryStudioAI-0088CC?logo=telegram
 [telegram-link]: https://t.me/CherryStudioAI
 
-<!-- Tautan & Gambar -->
-
+<!-- Links & Images -->
 [github-release-shield]: https://img.shields.io/github/v/release/CherryHQ/cherry-studio?logo=github
 [github-release-link]: https://github.com/CherryHQ/cherry-studio/releases
 [github-nightly-shield]: https://img.shields.io/github/actions/workflow/status/CherryHQ/cherry-studio/nightly-build.yml?label=nightly%20build&logo=github
@@ -318,6 +318,6 @@ Kami percaya Enterprise Edition akan menjadi mesin produktivitas AI untuk tim An
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---

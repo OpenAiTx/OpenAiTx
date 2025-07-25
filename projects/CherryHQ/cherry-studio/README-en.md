@@ -198,6 +198,7 @@ We sincerely invite you to join our ranks of contributors and shape the future o
 To give back to our core contributors and create a virtuous cycle, we have established the following long-term incentive plan.
 
 **The inaugural tracking period for this program will be Q3 2025 (July, August, September). Rewards for this cycle will be distributed on October 1st.**
+
 Within any tracking period (e.g., July 1st to September 30th for the first cycle), any developer who contributes more than **30 meaningful commits** to any of Cherry Studio's open-source projects on GitHub will be eligible for the following benefits:
 
 - **Cursor Subscription Sponsorship**: Receive a **$70 USD** credit or reimbursement for your [Cursor](https://cursor.sh/) subscription, making AI your most efficient coding partner.
@@ -246,7 +247,7 @@ The Enterprise Edition addresses core challenges in team collaboration by centra
 
 | Feature           | Community Edition                          | Enterprise Edition                                                                                                                      |
 | :---------------- | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **Open Source**   | ✅ Yes                                     | ⭕️ Partially released to customers                                                                                                              |
+| **Open Source**   | ✅ Yes                                     | ⭕️ Partially released to customers                                                                                                      |
 | **Cost**          | Free for Personal Use / Commercial License | Buyout / Subscription Fee                                                                                                               |
 | **Admin Backend** | —                                          | ● Centralized **Model** Access<br>● **Employee** Management<br>● Shared **Knowledge Base**<br>● **Access** Control<br>● **Data** Backup |
 | **Server**        | —                                          | ✅ Dedicated Private Deployment                                                                                                         |
@@ -297,7 +298,6 @@ We believe the Enterprise Edition will become your team's AI productivity engine
 [telegram-link]: https://t.me/CherryStudioAI
 
 <!-- Links & Images -->
-
 [github-release-shield]: https://img.shields.io/github/v/release/CherryHQ/cherry-studio?logo=github
 [github-release-link]: https://github.com/CherryHQ/cherry-studio/releases
 [github-nightly-shield]: https://img.shields.io/github/actions/workflow/status/CherryHQ/cherry-studio/nightly-build.yml?label=nightly%20build&logo=github
@@ -318,6 +318,6 @@ We believe the Enterprise Edition will become your team's AI productivity engine
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---

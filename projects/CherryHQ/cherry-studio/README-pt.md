@@ -198,23 +198,24 @@ Convidamos sinceramente você a se juntar ao nosso time de colaboradores e const
 Para valorizar nossos principais colaboradores e criar um ciclo virtuoso, estabelecemos o seguinte plano de incentivos de longo prazo.
 
 **O primeiro período de acompanhamento deste programa será o 3º trimestre de 2025 (julho, agosto e setembro). As recompensas deste ciclo serão distribuídas em 1º de outubro.**
-Dentro de qualquer período de acompanhamento (por exemplo, de 1º de julho a 30 de setembro para o primeiro ciclo), qualquer desenvolvedor que contribuir com mais de **30 commits significativos** para qualquer um dos projetos open-source da Cherry Studio no GitHub será elegível para os seguintes benefícios:
 
-- **Patrocínio de Assinatura Cursor**: Receba um crédito ou reembolso de **$70 USD** para sua assinatura do [Cursor](https://cursor.sh/), tornando a IA seu parceiro de codificação mais eficiente.
-- **Acesso Ilimitado a Modelos**: Obtenha **chamadas de API ilimitadas** para os modelos **DeepSeek** e **Qwen**.
-- **Acesso a Tecnologias de Ponta**: Aproveite benefícios ocasionais, incluindo acesso à API de modelos como **Claude**, **Gemini** e **OpenAI**, mantendo você na vanguarda da tecnologia.
+Dentro de qualquer período de acompanhamento (por exemplo, de 1º de julho a 30 de setembro para o primeiro ciclo), qualquer desenvolvedor que contribuir com mais de **30 commits significativos** em qualquer projeto open-source da Cherry Studio no GitHub será elegível para os seguintes benefícios:
+
+- **Patrocínio de Assinatura Cursor**: Receba um crédito ou reembolso de **$70 USD** para sua assinatura [Cursor](https://cursor.sh/), tornando a IA sua parceira de codificação mais eficiente.
+- **Acesso Ilimitado a Modelos**: Tenha chamadas de API **ilimitadas** para os modelos **DeepSeek** e **Qwen**.
+- **Acesso a Tecnologias de Ponta**: Desfrute de benefícios ocasionais, incluindo acesso à API de modelos como **Claude**, **Gemini** e **OpenAI**, mantendo você na vanguarda da tecnologia.
 
 ## Crescendo Juntos & Planos Futuros
 
-Uma comunidade vibrante é a força motriz por trás de qualquer projeto open-source sustentável. À medida que a Cherry Studio cresce, nosso programa de recompensas também crescerá. Estamos comprometidos em alinhar continuamente nossos benefícios com as melhores ferramentas e recursos da indústria. Isso garante que nossos principais colaboradores recebam suporte significativo, criando um ciclo positivo onde desenvolvedores, comunidade e projeto crescem juntos.
+Uma comunidade vibrante é a força motriz por trás de qualquer projeto open-source sustentável. À medida que a Cherry Studio cresce, nosso programa de recompensas também evoluirá. Estamos comprometidos em alinhar continuamente nossos benefícios com as melhores ferramentas e recursos do setor. Isso garante que nossos principais colaboradores recebam suporte significativo, criando um ciclo positivo onde desenvolvedores, comunidade e projeto crescem juntos.
 
-**Avançando, o projeto também adotará uma postura cada vez mais aberta para retribuir a toda a comunidade open-source.**
+**A partir de agora, o projeto também adotará uma postura cada vez mais aberta para retribuir a toda a comunidade open-source.**
 
 ## Como Começar?
 
-Esperamos pelo seu primeiro Pull Request!
+Aguardamos ansiosamente seu primeiro Pull Request!
 
-Você pode começar explorando nossos repositórios, escolhendo uma `good first issue` ou propondo suas próprias melhorias. Cada commit é um testemunho do espírito open-source.
+Você pode começar explorando nossos repositórios, escolhendo uma `good first issue`, ou propondo suas próprias melhorias. Cada commit é um testemunho do espírito open source.
 
 Obrigado pelo seu interesse e contribuições.
 
@@ -222,49 +223,49 @@ Vamos construir juntos.
 
 # 🏢 Edição Empresarial
 
-Com base na Edição Comunitária, temos orgulho de apresentar a **Cherry Studio Enterprise Edition**—uma plataforma de produtividade e gestão de IA implantável privadamente, projetada para equipes e empresas modernas.
+Com base na Edição Comunitária, temos o orgulho de apresentar a **Cherry Studio Enterprise Edition**—uma plataforma de produtividade e gestão de IA, implantável de forma privada, projetada para equipes e empresas modernas.
 
-A Edição Empresarial aborda desafios centrais na colaboração em equipe ao centralizar a gestão de recursos, conhecimento e dados de IA. Ela capacita organizações a aumentar a eficiência, fomentar inovação e garantir conformidade, tudo mantendo 100% do controle de seus dados em um ambiente seguro.
+A Edição Empresarial aborda desafios centrais na colaboração em equipe ao centralizar a gestão de recursos, conhecimento e dados de IA. Ela capacita organizações a aumentar a eficiência, fomentar inovação e garantir conformidade, mantendo 100% do controle sobre seus dados em um ambiente seguro.
 
-## Vantagens Centrais
+## Vantagens Principais
 
-- **Gestão Unificada de Modelos**: Integre e gerencie centralmente vários LLMs baseados em nuvem (por exemplo, OpenAI, Anthropic, Google Gemini) e modelos privados implantados localmente. Funcionários podem utilizá-los imediatamente sem configuração individual.
-- **Base de Conhecimento de Nível Empresarial**: Construa, gerencie e compartilhe bases de conhecimento em toda a equipe. Garante retenção e consistência do conhecimento, permitindo interação dos membros com a IA a partir de informações unificadas e precisas.
-- **Controle de Acesso Granular**: Gerencie facilmente contas de funcionários e atribua permissões baseadas em funções para diferentes modelos, bases de conhecimento e recursos por meio de um backend administrativo unificado.
-- **Implantação Totalmente Privada**: Implemente todo o serviço backend em seus servidores locais ou nuvem privada, garantindo que seus dados permaneçam 100% privados e sob seu controle para atender aos mais rigorosos padrões de segurança e conformidade.
-- **Serviços Backend Confiáveis**: Oferece serviços de API estáveis e mecanismos de backup e recuperação de dados de nível empresarial para garantir a continuidade dos negócios.
+- **Gestão Unificada de Modelos**: Integre e gerencie centralmente diversos LLMs na nuvem (ex: OpenAI, Anthropic, Google Gemini) e modelos privados implantados localmente. Funcionários podem utilizá-los imediatamente, sem configuração individual.
+- **Base de Conhecimento Empresarial**: Construa, gerencie e compartilhe bases de conhecimento em toda a equipe. Garante retenção e consistência do conhecimento, permitindo interação com IA baseada em informações unificadas e precisas.
+- **Controle de Acesso Granular**: Gerencie facilmente contas de funcionários e atribua permissões baseadas em funções para diferentes modelos, bases de conhecimento e recursos através de um painel administrativo unificado.
+- **Implantação Totalmente Privada**: Implemente todo o serviço backend em seus servidores locais ou nuvem privada, garantindo que seus dados permaneçam 100% privados e sob seu controle, atendendo aos mais rigorosos padrões de segurança e conformidade.
+- **Serviços Backend Confiáveis**: Oferece serviços de API estáveis e mecanismos de backup e recuperação de dados em nível empresarial para garantir a continuidade dos negócios.
 
 ## ✨ Demo Online
 
-> 🚧 **Aviso de Beta Público**
+> 🚧 **Aviso de Beta Pública**
 >
-> A Edição Empresarial está atualmente em estágio inicial de beta público, e estamos ativamente iterando e otimizando seus recursos. Sabemos que ainda pode não estar perfeitamente estável. Se você encontrar algum problema ou tiver sugestões valiosas durante o teste, ficaríamos muito gratos se pudesse nos contatar por e-mail para fornecer seu feedback.
+> A Edição Empresarial está atualmente em estágio inicial de beta pública, e estamos ativamente iterando e otimizando seus recursos. Sabemos que pode não estar perfeitamente estável ainda. Caso encontre algum problema ou tenha sugestões valiosas durante o teste, agradecemos se puder entrar em contato por e-mail para enviar seu feedback.
 
 **🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
 
-## Comparação de Versões
+## Comparativo de Versões
 
-| Recurso           | Edição Comunitária                        | Edição Empresarial                                                                                                                      |
-| :---------------- | :---------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **Open Source**   | ✅ Sim                                    | ⭕️ Parcialmente liberada para clientes                                                                                                  |
-| **Custo**         | Gratuito para Uso Pessoal / Licença Comercial | Compra / Assinatura                                                                                                                     |
-| **Backend Admin** | —                                         | ● Acesso centralizado a **Modelos**<br>● Gestão de **Funcionários**<br>● **Base de Conhecimento** compartilhada<br>● **Controle de Acesso**<br>● **Backup de Dados** |
-| **Servidor**      | —                                         | ✅ Implantação Privada Dedicada                                                                                                         |
+| Recurso           | Edição Comunitária                         | Edição Empresarial                                                                                                                       |
+| :---------------- | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **Open Source**   | ✅ Sim                                     | ⭕️ Parcialmente liberado para clientes                                                                                                   |
+| **Custo**         | Gratuito para uso pessoal / Licença Comercial | Compra / Taxa de Assinatura                                                                                                             |
+| **Painel Admin**  | —                                          | ● Acesso Centralizado a **Modelos**<br>● Gestão de **Funcionários**<br>● **Base de Conhecimento** Compartilhada<br>● Controle de **Acesso**<br>● **Backup de Dados** |
+| **Servidor**      | —                                          | ✅ Implantação Privada Dedicada                                                                                                          |
 
 ## Obtenha a Edição Empresarial
 
-Acreditamos que a Edição Empresarial se tornará o motor de produtividade em IA da sua equipe. Se você tem interesse na Cherry Studio Enterprise Edition e gostaria de saber mais, solicitar uma cotação ou agendar uma demonstração, entre em contato conosco.
+Acreditamos que a Edição Empresarial será o motor de produtividade em IA de sua equipe. Se você tem interesse na Cherry Studio Enterprise Edition e deseja saber mais, solicitar uma cotação ou agendar uma demonstração, fique à vontade para entrar em contato.
 
 - **Para Consultas Comerciais & Compras**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 Projetos Relacionados
 
-- [one-api](https://github.com/songquanpeng/one-api): Sistema de gestão e distribuição de API para LLM, suportando modelos como OpenAI, Azure e Anthropic. Possui interface de API unificada, adequado para gestão de chaves e redistribuição secundária.
+- [one-api](https://github.com/songquanpeng/one-api): Sistema de gestão e distribuição de APIs LLM compatível com modelos como OpenAI, Azure e Anthropic. Possui interface API unificada, ideal para gestão de chaves e distribuição secundária.
 
-- [ublacklist](https://github.com/iorate/ublacklist): Bloqueia sites específicos de aparecerem nos resultados de busca do Google
+- [ublacklist](https://github.com/iorate/ublacklist): Bloqueia sites específicos de aparecer nos resultados de busca do Google
 
-# 🚀 Contribuidores
+# 🚀 Colaboradores
 
 <a href="https://github.com/CherryHQ/cherry-studio/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=CherryHQ/cherry-studio" />
@@ -297,7 +298,6 @@ Acreditamos que a Edição Empresarial se tornará o motor de produtividade em I
 [telegram-link]: https://t.me/CherryStudioAI
 
 <!-- Links & Images -->
-
 [github-release-shield]: https://img.shields.io/github/v/release/CherryHQ/cherry-studio?logo=github
 [github-release-link]: https://github.com/CherryHQ/cherry-studio/releases
 [github-nightly-shield]: https://img.shields.io/github/actions/workflow/status/CherryHQ/cherry-studio/nightly-build.yml?label=nightly%20build&logo=github
@@ -318,6 +318,6 @@ Acreditamos que a Edição Empresarial se tornará o motor de produtividade em I
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
 
 ---
