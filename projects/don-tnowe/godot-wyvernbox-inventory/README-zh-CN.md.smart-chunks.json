@@ -1,0 +1,369 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Wyvernbox\n\nAn addon for versatile inventory systems.\n\nScenes you may need are located inside `addons/wyvernbox_prefabs`. Just drag and drop!\n\nThe `example/wyvernbox` folder contains some items and equipment stats to start. Be sure to check the example scenes, too!\n\n## All you need:\n\n- One of the `InventoryView` objects,\n- An `InventoryTooltip` to inspect items (*maybe with a few `TooltipProperty` scripts attached*),\n- A `GrabbedItemStackView` to move things around with a mouse,\n- And a couple `ItemType` resources to define item types.\n\n## How it works:\n\n- `InventoryView`s provide user interaction with an `Inventory` of the matching type;\n- an Inventory holds `ItemStack`s;\n- an ItemStack is created from an `ItemType`.\n- the ItemType stores default data, and is used in crafting recipes and item generators.\n\n## Features:\n\n- A variety of inventories, all compatible with GUI containers, such as:\n  - Basic\n  - Grid (*items take up a rectangle of tiles*)\n  - Restricted (*can only put items with certain flags, like Equipment or Ammo*)\n  - Currency (*custom max stack size, but only specified items*)\n\n- Crafting and shops:\n  - Vending is a built-in feature of inventories, but for more configuration, use the `InventoryVendor` class!\n  - Crafting recipes are defined through an `ItemConversion` - can give you pre-determined results, randomized counts, or a fresh new from an `ItemGenerator`!\n  - Use `ItemPattern`s to match one of several items in filters or recipes, like different fuel types with different efficiency!\n\n- **Gestures**: quick-transfer (Shift-Click), gather/transfer all items of type (Double-Click), split one/half (Right-Click)\n- Filter ground and inventory items via the versatile `ItemPattern` classes! Use them to control inventory insertion and crafting inputs.\n- Custom Inspector tables to map items to values in YOUR classes - used in ShopManager, ItemGenerator, and ItemPattern objects! Includes an Item Browser popup to easily drag-drop item types, generators and patterns from the project.\n- Tooltips extensible with the `TooltipProperty` class! Just slam a bunch of scripts onto it.\n\n#\nMade by Don Tnowe in 2022.\n\n[My Website](https://redbladegames.netlify.app)\n\n[Itch](https://don-tnowe.itch.io)\n\n[Twitter](https://twitter.com/don_tnowe)\n\n**Need help or want to chat? Message me!** [Telegram](https://t.me/don_tnowe), [Discord](https://discord.com/channels/@me/726139164566880426)\n\n**Did this tool help you so much you'd like to give back?** [Donate via PayPal!](https://redbladegames.netlify.app/tip/index.html)\n\n#\n\nCopying and Modification is allowed in accordance to the MIT license, unless otherwise specified. License text is included.\n\nFont in example is [Abaddon, Licensed under Creative Commons Attribution 3.0.](https://caffinate.itch.io/abaddon)\n",
+    "ContentSha": "544Enr6o10bBJCC0r3JcqO/EDALA71+pCSgjcxA7Qss=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Wyvernbox\n\n一个多功能库存系统的插件。\n\n你可能需要的场景位于 `addons/wyvernbox_prefabs` 目录中。只需拖放即可！\n\n`example/wyvernbox` 文件夹包含一些初始物品和装备属性。别忘了查看示例场景！\n\n## 你需要的全部：\n\n- 一个 `InventoryView` 对象，\n- 一个 `InventoryTooltip` 用于检查物品（*可能附带一些 `TooltipProperty` 脚本*），\n- 一个 `GrabbedItemStackView` 用于用鼠标移动物品，\n- 以及几个 `ItemType` 资源来定义物品类型。\n\n## 工作原理：\n\n- `InventoryView` 提供与匹配类型的 `Inventory` 的用户交互；\n- Inventory 保存 `ItemStack`；\n- ItemStack 由 `ItemType` 创建。\n- ItemType 存储默认数据，并用于合成配方和物品生成器。\n\n## 特性：\n\n- 多种库存类型，均兼容 GUI 容器，如：\n  - 基本型\n  - 网格型（*物品占据一个矩形格子*）\n  - 限制型（*只能放入带有特定标记的物品，如装备或弹药*）\n  - 货币型（*自定义最大堆叠数量，但只限指定物品*）\n\n- 合成与商店：\n  - 自动售货是库存的内置功能，若需更多配置，请使用 `InventoryVendor` 类！\n  - 合成配方通过 `ItemConversion` 定义——可提供预设结果、随机数量，或来自 `ItemGenerator` 的全新物品！\n  - 使用 `ItemPattern` 匹配多种物品，用于过滤或配方，比如不同燃料类型对应不同效率！\n\n- **手势操作**：快速转移（Shift-点击），收集/转移所有同类型物品（双击），拆分一件/一半（右击）\n- 通过多功能的 `ItemPattern` 类过滤地面和库存物品！用它们控制库存插入和合成输入。\n- 自定义检视面板表格，映射物品到你自己的类的数值——用于 ShopManager、ItemGenerator 和 ItemPattern 对象！包含物品浏览弹窗，方便从项目中拖放物品类型、生成器和模式。\n- 工具提示可通过 `TooltipProperty` 类扩展！只需附加一堆脚本即可。\n\n#\n由 Don Tnowe 于 2022 年制作。\n\n[我的网站](https://redbladegames.netlify.app)\n\n[Itch](https://don-tnowe.itch.io)\n\n[推特](https://twitter.com/don_tnowe)\n\n**需要帮助或想聊天？联系我！** [Telegram](https://t.me/don_tnowe), [Discord](https://discord.com/channels/@me/726139164566880426)\n\n**这个工具帮到了你，想回馈一下？** [通过 PayPal 捐赠！](https://redbladegames.netlify.app/tip/index.html)\n\n#\n\n允许复制和修改，遵循 MIT 许可证，除非另有说明。许可证文本包含其中。\n\n示例中的字体为 [Abaddon，基于知识共享署名 3.0 许可。](https://caffinate.itch.io/abaddon)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LsJyw/k6EEQ5RbhKfdOdWiZvA/T+5HhUpKTpYgLM+F0=",
+        "originContent": "# Wyvernbox",
+        "translatedContent": "# Wyvernbox"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "pR9+XEaJOc3jaLMvRCb/A+H/W3Ftt+UdEBZ0fOOlGRY=",
+        "originContent": "An addon for versatile inventory systems.",
+        "translatedContent": "一个多功能库存系统的插件。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "r8ZoTnti7mw+EtmBCULYjFVfnQMsmVvUvRxfB9UbTUo=",
+        "originContent": "Scenes you may need are located inside `addons/wyvernbox_prefabs`. Just drag and drop!",
+        "translatedContent": "你可能需要的场景位于 `addons/wyvernbox_prefabs` 目录中。只需拖放即可！"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "9Kqh4ZT/ASwTacIHRJBAIiEFMmayiNtUyXhAiXZAYYQ=",
+        "originContent": "The `example/wyvernbox` folder contains some items and equipment stats to start. Be sure to check the example scenes, too!",
+        "translatedContent": "`example/wyvernbox` 文件夹包含一些初始物品和装备属性。别忘了查看示例场景！"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "OosfRz7WH3IDSLfKGC6oMk4cQm+e+Yj114fCLzdS/WI=",
+        "originContent": "## All you need:",
+        "translatedContent": "## 你需要的全部："
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "uoWG5zNminMaCQKRfswoY2dEib82Owmn65AuS4SL4uo=",
+        "originContent": "- One of the `InventoryView` objects,",
+        "translatedContent": "- 一个 `InventoryView` 对象，"
+      },
+      {
+        "row": 12,
+        "rowsha": "dhPy3s+f0W8zeoVQKVpvNgHQac2XKEuKaAX+72joX8s=",
+        "originContent": "- An `InventoryTooltip` to inspect items (*maybe with a few `TooltipProperty` scripts attached*),",
+        "translatedContent": "- 一个 `InventoryTooltip` 用于检查物品（*可能附带一些 `TooltipProperty` 脚本*），"
+      },
+      {
+        "row": 13,
+        "rowsha": "Fs4vPbX+ikQ6YjlDiMajopbapYUbi6sN+FNnGVZvRlQ=",
+        "originContent": "- A `GrabbedItemStackView` to move things around with a mouse,",
+        "translatedContent": "- 一个 `GrabbedItemStackView` 用于用鼠标移动物品，"
+      },
+      {
+        "row": 14,
+        "rowsha": "WCqrHhkTSttqaPEZzh8z1NibuULw3naVLywSw6Sf/3Y=",
+        "originContent": "- And a couple `ItemType` resources to define item types.",
+        "translatedContent": "- 以及几个 `ItemType` 资源来定义物品类型。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "lpLNNqUfn6Gjby8/4NT5A1qimDbqnQYH9AyMfZizP+Q=",
+        "originContent": "## How it works:",
+        "translatedContent": "## 工作原理："
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "TJ+tt4hgkNuGQWoQLJeDgIflMtZUf4BbkphDCGv8ppc=",
+        "originContent": "- `InventoryView`s provide user interaction with an `Inventory` of the matching type;",
+        "translatedContent": "- `InventoryView` 提供与匹配类型的 `Inventory` 的用户交互；"
+      },
+      {
+        "row": 19,
+        "rowsha": "wdgecvpZzxQHw81d9g/gdhtHfL7RxoxkaSdoGBEl92Q=",
+        "originContent": "- an Inventory holds `ItemStack`s;",
+        "translatedContent": "- Inventory 保存 `ItemStack`；"
+      },
+      {
+        "row": 20,
+        "rowsha": "uv1UgG1zq9rYZNGlV/Zeh3MaLOh0ng01FPo2ncl6FiI=",
+        "originContent": "- an ItemStack is created from an `ItemType`.",
+        "translatedContent": "- ItemStack 由 `ItemType` 创建。"
+      },
+      {
+        "row": 21,
+        "rowsha": "oJnJstknffS/V/HBdk9u7VvIJZS1PunAsMaEODs7r4w=",
+        "originContent": "- the ItemType stores default data, and is used in crafting recipes and item generators.",
+        "translatedContent": "- ItemType 存储默认数据，并用于合成配方和物品生成器。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "fk8UMACLzwABnF0nU31szhY0mbIfTwOuK3Iwy9c8/lo=",
+        "originContent": "## Features:",
+        "translatedContent": "## 特性："
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "6QuHHiHW8GqUl9jPF1pc0qv82/MKpp3DwoOmPw3a8I0=",
+        "originContent": "- A variety of inventories, all compatible with GUI containers, such as:",
+        "translatedContent": "- 多种库存类型，均兼容 GUI 容器，如："
+      },
+      {
+        "row": 26,
+        "rowsha": "yeXUZ8zWWaUeKJ2+YgWTP0VvJ2qMTksgGdf1q5uQGnc=",
+        "originContent": "  - Basic",
+        "translatedContent": "  - 基本型"
+      },
+      {
+        "row": 27,
+        "rowsha": "2lFDez51iQRqzLVD1Mk48xHRHsdj+B0wGqEZSnv9Xgw=",
+        "originContent": "  - Grid (*items take up a rectangle of tiles*)",
+        "translatedContent": "  - 网格型（*物品占据一个矩形格子*）"
+      },
+      {
+        "row": 28,
+        "rowsha": "xv9knWkqlbg3WiTevOvadNkn3XLAf2tMDLsJqTtLnCo=",
+        "originContent": "  - Restricted (*can only put items with certain flags, like Equipment or Ammo*)",
+        "translatedContent": "  - 限制型（*只能放入带有特定标记的物品，如装备或弹药*）"
+      },
+      {
+        "row": 29,
+        "rowsha": "hq3qL0N5vF7cyHsxfNpkjyiZEXxHS7dAbr/diZ1lZiI=",
+        "originContent": "  - Currency (*custom max stack size, but only specified items*)",
+        "translatedContent": "  - 货币型（*自定义最大堆叠数量，但只限指定物品*）"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "qdq2vCinOFhM8MRpscrNySh1ZufvH9ezbTAneeMJV6g=",
+        "originContent": "- Crafting and shops:",
+        "translatedContent": "- 合成与商店："
+      },
+      {
+        "row": 32,
+        "rowsha": "wve0gdMwyFbmorn1xgJlniZBlRWcdurQX4NyJSl9yIU=",
+        "originContent": "  - Vending is a built-in feature of inventories, but for more configuration, use the `InventoryVendor` class!",
+        "translatedContent": "  - 自动售货是库存的内置功能，若需更多配置，请使用 `InventoryVendor` 类！"
+      },
+      {
+        "row": 33,
+        "rowsha": "xdARZ8Y7I2jvg+vRS6JDxM85vhJRFDilbHhe6tOckOY=",
+        "originContent": "  - Crafting recipes are defined through an `ItemConversion` - can give you pre-determined results, randomized counts, or a fresh new from an `ItemGenerator`!",
+        "translatedContent": "  - 合成配方通过 `ItemConversion` 定义——可提供预设结果、随机数量，或来自 `ItemGenerator` 的全新物品！"
+      },
+      {
+        "row": 34,
+        "rowsha": "0Ejcvf9vwc2zZcCBhy0IUMsf6sAJTYunulctHuImGTM=",
+        "originContent": "  - Use `ItemPattern`s to match one of several items in filters or recipes, like different fuel types with different efficiency!",
+        "translatedContent": "  - 使用 `ItemPattern` 匹配多种物品，用于过滤或配方，比如不同燃料类型对应不同效率！"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "Dl2C5I7dqNWekJhHd3ZM6+HyXHsxLr7rfkYgORk4ueA=",
+        "originContent": "- **Gestures**: quick-transfer (Shift-Click), gather/transfer all items of type (Double-Click), split one/half (Right-Click)",
+        "translatedContent": "- **手势操作**：快速转移（Shift-点击），收集/转移所有同类型物品（双击），拆分一件/一半（右击）"
+      },
+      {
+        "row": 37,
+        "rowsha": "5doJmipM0Ly9iUo59l/Aj0XeFBBH2hC7OBiDwFItdWU=",
+        "originContent": "- Filter ground and inventory items via the versatile `ItemPattern` classes! Use them to control inventory insertion and crafting inputs.",
+        "translatedContent": "- 通过多功能的 `ItemPattern` 类过滤地面和库存物品！用它们控制库存插入和合成输入。"
+      },
+      {
+        "row": 38,
+        "rowsha": "cFORMb9qViBq1ObEPAHoPb0hlKV/0yUfZh5jZNetvWo=",
+        "originContent": "- Custom Inspector tables to map items to values in YOUR classes - used in ShopManager, ItemGenerator, and ItemPattern objects! Includes an Item Browser popup to easily drag-drop item types, generators and patterns from the project.",
+        "translatedContent": "- 自定义检视面板表格，映射物品到你自己的类的数值——用于 ShopManager、ItemGenerator 和 ItemPattern 对象！包含物品浏览弹窗，方便从项目中拖放物品类型、生成器和模式。"
+      },
+      {
+        "row": 39,
+        "rowsha": "V5vWFKsj6AxRrDDY0CpJPldQpnrZBVhTNPjQm0/qcpY=",
+        "originContent": "- Tooltips extensible with the `TooltipProperty` class! Just slam a bunch of scripts onto it.",
+        "translatedContent": "- 工具提示可通过 `TooltipProperty` 类扩展！只需附加一堆脚本即可。"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "M0NZuQ7+112l8K2h1eayVvSmvQrufrOcD5AYKgIf/Is=",
+        "originContent": "#",
+        "translatedContent": "#"
+      },
+      {
+        "row": 42,
+        "rowsha": "j4Vknrl188nBW+IQNxIRCvxcdiNR55VFBjWpiMZC8SU=",
+        "originContent": "Made by Don Tnowe in 2022.",
+        "translatedContent": "由 Don Tnowe 于 2022 年制作。"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "vnrVxLID3a5F5jgq3cY7ujLMSvwtB7YDXpernU7NZ4M=",
+        "originContent": "[My Website](https://redbladegames.netlify.app)",
+        "translatedContent": "[我的网站](https://redbladegames.netlify.app)"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "AcUG1Kv6XXu1qbBSs55CJiEZZi9mxlSqSOcgHRJLwEE=",
+        "originContent": "[Itch](https://don-tnowe.itch.io)",
+        "translatedContent": "[Itch](https://don-tnowe.itch.io)"
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "WfEIe2545qP3WUqMdPgzwxbBFyOFhZrlrlITfEmWJtc=",
+        "originContent": "[Twitter](https://twitter.com/don_tnowe)",
+        "translatedContent": "[推特](https://twitter.com/don_tnowe)"
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "tvnDEs1H7MQJMgaWbc1dXktHJHmTTCSoON5k/Z2cC7k=",
+        "originContent": "**Need help or want to chat? Message me!** [Telegram](https://t.me/don_tnowe), [Discord](https://discord.com/channels/@me/726139164566880426)",
+        "translatedContent": "**需要帮助或想聊天？联系我！** [Telegram](https://t.me/don_tnowe), [Discord](https://discord.com/channels/@me/726139164566880426)"
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "vmMIq3bFkfVn7FJXVp9fgX31r1z02BKYJICvfBhA7AU=",
+        "originContent": "**Did this tool help you so much you'd like to give back?** [Donate via PayPal!](https://redbladegames.netlify.app/tip/index.html)",
+        "translatedContent": "**这个工具帮到了你，想回馈一下？** [通过 PayPal 捐赠！](https://redbladegames.netlify.app/tip/index.html)"
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "M0NZuQ7+112l8K2h1eayVvSmvQrufrOcD5AYKgIf/Is=",
+        "originContent": "#",
+        "translatedContent": "#"
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "QY6XOL0v1gbxnM/JGcHFsbondY/CJmbqcoHG3ynTQ54=",
+        "originContent": "Copying and Modification is allowed in accordance to the MIT license, unless otherwise specified. License text is included.",
+        "translatedContent": "允许复制和修改，遵循 MIT 许可证，除非另有说明。许可证文本包含其中。"
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "o/MJWC1xK32lri1kwN9G1c31ZMIWK1bofyNYfxy6hCA=",
+        "originContent": "Font in example is [Abaddon, Licensed under Creative Commons Attribution 3.0.](https://caffinate.itch.io/abaddon)",
+        "translatedContent": "示例中的字体为 [Abaddon，基于知识共享署名 3.0 许可。](https://caffinate.itch.io/abaddon)"
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

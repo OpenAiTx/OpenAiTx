@@ -1,0 +1,2084 @@
+[
+  {
+    "row": 1,
+    "rowsha": "n2Wk5JFvKIoDQ09zPUsvvcpMrEUXPw4z/EzcmxHDqjc=",
+    "originContent": "# 🚄 China Railway Ticket Monitor",
+    "translatedContent": "# 🚄 China Railway Ticket Monitor"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "7PkVlmU1e1j2EAu7fftwed8uUZYVPJ2oaqZyhmQAeC8=",
+    "originContent": "一个简洁、高效的 12306 余票监控工具，当出现余票时，可通过多种方式推送通知。",
+    "translatedContent": "一个简洁、高效的 12306 余票监控工具，当出现余票时，可通过多种方式推送通知。  "
+  },
+  {
+    "row": 4,
+    "rowsha": "Sc5B/Hjfqr/+bEqgAZJP//7zMEdc5l+fOfH6w0r52Ac=",
+    "originContent": "感谢原作者：https://github.com/BobLiu0518/CRTicketMonitor",
+    "translatedContent": "感谢原作者：https://github.com/BobLiu0518/CRTicketMonitor"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "Cp8wSSSreJprOpQTtfKKJz0dJQISfP/8GLzlzbQPYq0=",
+    "originContent": "> ⚠️ 免责声明",
+    "translatedContent": "> ⚠️ 免责声明  "
+  },
+  {
+    "row": 7,
+    "rowsha": "ILN2TS8G+UBDtZQDxoLAQH2tvzdWpS+idaJJgqA+p6U=",
+    "originContent": "> 本程序仅用于学习和监控 12306 官网的余票信息，并非抢票软件，也不会增加任何抢票相关功能。程序作者不对监控结果的准确性做出任何保证，不为任何因使用本程序而产生的商业或法律纠纷负责。",
+    "translatedContent": "> 本程序仅用于学习和监控 12306 官网的余票信息，并非抢票软件，也不会增加任何抢票相关功能。程序作者不对监控结果的准确性做出任何保证，不为任何因使用本程序而产生的商业或法律纠纷负责。"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "yN5ebSAvl35CHFyXGiXixzokvHLRBkXVNrbaoBz+YZc=",
+    "originContent": "## 🆕 交互式配置功能",
+    "translatedContent": "## 🆕 交互式配置功能"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "PsYaRXURseMZ8cZtvRSmBBkB0Za3lzPlK+0q7G1/lx4=",
+    "originContent": "通过交互式界面可以：",
+    "translatedContent": "通过交互式界面可以："
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "wqL8WYqElFlvjBsreS8QiEcPgvpb27Bz8P3+3kCafDA=",
+    "originContent": "- 🔍 输入出发地、目的地、日期，实时查询车次列表",
+    "translatedContent": "- 🔍 输入出发地、目的地、日期，实时查询车次列表  "
+  },
+  {
+    "row": 14,
+    "rowsha": "ZVttAvZrr3EqMxtb2s/+/sHI2v4WStRMFFqwwWUXtk4=",
+    "originContent": "- 📋 查看完整的车次信息和余票情况",
+    "translatedContent": "- 📋 查看完整的车次信息和余票情况  "
+  },
+  {
+    "row": 15,
+    "rowsha": "PBSAW9+/X+Pg13085hNojyPSP6TaXyGM2V1helZz3/Y=",
+    "originContent": "- ⚙️ 动态选择监控车次和席别",
+    "translatedContent": "- ⚙️ 动态选择监控车次和席别  "
+  },
+  {
+    "row": 16,
+    "rowsha": "u5pDvU1KcUnhi2+OtpkwPI9q5uOoxNojQRHKgCEoBgQ=",
+    "originContent": "- 📲 配置推送通知方式",
+    "translatedContent": "- 📲 配置推送通知方式  "
+  },
+  {
+    "row": 17,
+    "rowsha": "bniQNGmKSGPkmc/r9SBJPJIXluxlisknpYiKvIdGxtQ=",
+    "originContent": "- 💾 自动生成和保存配置文件",
+    "translatedContent": "- 💾 自动生成和保存配置文件  "
+  },
+  {
+    "row": 18,
+    "rowsha": "SxtoYDIWhUWuvGMcWxUSvPJND8g7zkj6EAq9+MW20ug=",
+    "originContent": "- 🚀 一键启动监控程序",
+    "translatedContent": "- 🚀 一键启动监控程序"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "459KGR6IcD/P65D0AYkf31XDa/W/8tHWqg1cwfdWEqo=",
+    "originContent": "详细使用说明请参考 [CLI_GUIDE.md](https://raw.githubusercontent.com/wxory/CRTMonitor/main/CLI_GUIDE.md)",
+    "translatedContent": "详细使用说明请参考 [CLI_GUIDE.md](https://raw.githubusercontent.com/wxory/CRTMonitor/main/CLI_GUIDE.md)"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "nfGo2W9IwwJgzuCeF3e51H/iVH2rKXEzocM2e/l3Vy4=",
+    "originContent": "# 部署",
+    "translatedContent": "# 部署"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "aSjM2vTkIcSD01L7xLPtB3EFe6LGYNyK8xuHF1F/Qo0=",
+    "originContent": "## 方式一：使用预编译程序 (推荐)",
+    "translatedContent": "## 方式一：使用预编译程序 (推荐)"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "RCG7S238/T3WY9Eu2RTLG4onjfavMBdqY2FKCpNnDMY=",
+    "originContent": "### 下载",
+    "translatedContent": "### 下载"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "uXA/6gLTRl2fF/c4cyM+LTDb9HHFwtPWyvKfxWlGhuk=",
+    "originContent": "在项目的 Releases 页面下载对应您操作系统的最新版本。",
+    "translatedContent": "在项目的 Releases 页面下载对应您操作系统的最新版本。  "
+  },
+  {
+    "row": 29,
+    "rowsha": "W7oPf6FuxOPQK7iMo5cD7OTvc6m6IXZ+nBn7BmvJp48=",
+    "originContent": "[CNB(推荐)](https://cnb.cool/wxory/CRTMonitor/-/releases)",
+    "translatedContent": "[CNB(推荐)](https://cnb.cool/wxory/CRTMonitor/-/releases)  "
+  },
+  {
+    "row": 30,
+    "rowsha": "ibLbzSZ6gwIw4Ryyos+gnjdHVN3Zz1By4rilWkxiJHc=",
+    "originContent": "[Github](https://github.com/wxory/CRTMonitor/releases)",
+    "translatedContent": "[Github](https://github.com/wxory/CRTMonitor/releases)"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "lukItFMHER8m4+sp8P2Dr7rwRWyr9U+g7T1upvVqeDI=",
+    "originContent": "### 配置",
+    "translatedContent": "### 配置"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "Wv8FC5gm4iMoF8T/lNoznSqI8yNP8QTzlXKZ6UGCzF0=",
+    "originContent": "首次运行程序会自动生成一份 config.yml 模板文件。请根据 [参数配置](#配置-1) 说明修改该文件。",
+    "translatedContent": "首次运行程序会自动生成一份 config.yml 模板文件。请根据 [参数配置](#配置-1) 说明修改该文件。"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "0CE2iltrSkqogQ3mPQzgfMzrfa3dcuOJMYhzkf7gefE=",
+    "originContent": "### 运行",
+    "translatedContent": "### 运行"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "hzQPwF8FfX8vKYgbVdrd3SgssFjnXOkv7ZvjyVfx764=",
+    "originContent": "将配置好的 config.yml 文件放置于可执行程序的同一目录下，然后直接运行即可。",
+    "translatedContent": "将配置好的 config.yml 文件放置于可执行程序的同一目录下，然后直接运行即可。"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "+OldnvqFTeRnZux1balKomZiPlDJH3+XWa4z/KXxHro=",
+    "originContent": "## 手动部署",
+    "translatedContent": "## 手动部署"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "gzcfYMCm7ZDxVTaN6THSE79vQOG41X/KmKFvP5eEo0E=",
+    "originContent": "### 1. 安装 Node.js",
+    "translatedContent": "### 1. 安装 Node.js"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "LxtGdkUM2jysYMV5+WjIbt9dNAByiAB4HY21Q9VDrLg=",
+    "originContent": "前往 [Node.js 官网](https://nodejs.org/zh-cn) 下载并安装，或使用 [包管理器](https://nodejs.org/zh-cn/download/package-manager) 安装。",
+    "translatedContent": "前往 [Node.js 官网](https://nodejs.org/zh-cn) 下载并安装，或使用 [包管理器](https://nodejs.org/zh-cn/download/package-manager) 安装。"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "sq4kys0AV/r/ZqMuQW0O+fCHvPZbkrYZj37T9//w1a0=",
+    "originContent": "### 2. 下载代码",
+    "translatedContent": "### 2. 下载代码"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "zDlOtv8mB+ig5tmLFAv5QQp3upMv/4JUBPW7eBPxNfA=",
+    "originContent": "直接 [下载 Zip 文件](https://github.com/wxory/CRTicketMonitor/archive/refs/heads/main.zip)，或使用 Git：",
+    "translatedContent": "直接 [下载 Zip 文件](https://github.com/wxory/CRTicketMonitor/archive/refs/heads/main.zip)，或使用 Git："
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 51,
+    "rowsha": "BuzUgAYiwtq2LR4MHQe4XBhByD8YPYUbt/ZGEDTiFuw=",
+    "originContent": "$ git clone https://github.com/wxory/CRTMonitor.git",
+    "translatedContent": "$ git clone https://github.com/wxory/CRTMonitor.git"
+  },
+  {
+    "row": 52,
+    "rowsha": "AoX4FcLjlfpWCXvFTJlElht+wdWMQuBPBAARmaQf9Z0=",
+    "originContent": "$ git clone https://cnb.cool/wxory/CRTMonitor.git",
+    "translatedContent": "$ git clone https://cnb.cool/wxory/CRTMonitor.git"
+  },
+  {
+    "row": 53,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "Gj520rxE4J4yCLsu6Dw0vp5hLrJZbX0T4JKYtGdfpZA=",
+    "originContent": "### 3. 安装依赖",
+    "translatedContent": "### 3. 安装依赖"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 58,
+    "rowsha": "mSWw3Ke/O6YqAfAYYjelao+nxsiwGkLu9KLKwNkfPX0=",
+    "originContent": "$ npm i",
+    "translatedContent": "$ npm i"
+  },
+  {
+    "row": 59,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "gsENfCqc2I29h8HmDNeFBJBqMv4KmdaUgeGNv1X/240=",
+    "originContent": "### 4. 运行",
+    "translatedContent": "### 4. 运行"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "PgualMRsITEhQMDCyXjEQdfmmUdWnjUOZ8Xm6MIdG6U=",
+    "originContent": "#### 前台运行 (适用于所有系统):",
+    "translatedContent": "#### 前台运行 (适用于所有系统):"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 66,
+    "rowsha": "Br9K+ZECU4r58cLP1aW0WHWQEWfcON0tS0JaPOdq3sw=",
+    "originContent": "npm start",
+    "translatedContent": "npm start"
+  },
+  {
+    "row": 67,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "yg+MvW5S5/LJSpqHDhe/TrR22LZ7R44KFi5A1SgeL7k=",
+    "originContent": "#### 后台运行 (适用于 Linux 服务器):",
+    "translatedContent": "#### 后台运行 (适用于 Linux 服务器):"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "hWKck1JihwNlXX53DxxvwbLfvMiSuE0L4TQVGOHh5gk=",
+    "originContent": "项目内置了 run.sh 脚本，它使用 screen 来实现后台持久化运行。",
+    "translatedContent": "项目内置了 run.sh 脚本，它使用 screen 来实现后台持久化运行。"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 74,
+    "rowsha": "QZSEZtcz8fGpjJDV5X280kbexMDdpPxKPVtn+hFBb7k=",
+    "originContent": "# 确保已安装 screen: sudo apt install screen (Debian/Ubuntu)",
+    "translatedContent": "# 确保已安装 screen: sudo apt install screen (Debian/Ubuntu)"
+  },
+  {
+    "row": 75,
+    "rowsha": "WRtRlPod0EkHFzgVEVrKNHMFn342LBM9DKTSdmXBsh0=",
+    "originContent": "./run.sh",
+    "translatedContent": "./run.sh"
+  },
+  {
+    "row": 76,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "LX1WCantPMOzY4qKtNHg0IJaAPPoKW9Yn32JtbKht5k=",
+    "originContent": "## 配置",
+    "translatedContent": "## 配置"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "KmQZbD1dBuXX6zLptRCtc6B/0fAiPTrcr4nvf///n6U=",
+    "originContent": "程序启动时会查找同目录下的 config.yml 文件。如果文件不存在，将自动创建一个模板。",
+    "translatedContent": "程序启动时会查找同目录下的 config.yml 文件。如果文件不存在，将自动创建一个模板。"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "PdDU+jCEfPD/yPEeEUEsTgvxNA0E3D6e1+hp1rclalw=",
+    "originContent": "以下是一个完整的配置示例：",
+    "translatedContent": "以下是一个完整的配置示例："
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "YB9MhOd/nW5sE4uT3KMeXboqEAzrYxRm0IQyVkHrybs=",
+    "originContent": "config.yml 示例:",
+    "translatedContent": "config.yml 示例:"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 87,
+    "rowsha": "alVU3rnn8/ZuaMUh3PAOuUO5kV92tPk11zHtEIakb4I=",
+    "originContent": "# 🚄 China Railway Ticket Monitor 配置文件",
+    "translatedContent": "# 🚄 China Railway Ticket Monitor 配置文件"
+  },
+  {
+    "row": 88,
+    "rowsha": "Zqt3E1TszY8NoL177xungk0nzhdHndGqiT/hDC2ewsw=",
+    "originContent": "# 详细配置说明请参考 README.md",
+    "translatedContent": "# 详细配置说明请参考 README.md"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "3ecmswEsBNt8qNDYo7F7k9zXIDm9zNx90g6JN9LJEOM=",
+    "originContent": "# 查询列表 - 可添加多个查询条件",
+    "translatedContent": "# 查询列表 - 可添加多个查询条件"
+  },
+  {
+    "row": 91,
+    "rowsha": "DRfsSZXOG8xyHLSPokUDW8jZ6hBw09oY3IgsPcqlLvw=",
+    "originContent": "watch:",
+    "translatedContent": "watch:"
+  },
+  {
+    "row": 92,
+    "rowsha": "kLHw4gvJvokCm3DP02WovdsIIrRRfOTk0wAqQbtfQkk=",
+    "originContent": "  - # 基础信息",
+    "translatedContent": "  - # 基础信息"
+  },
+  {
+    "row": 93,
+    "rowsha": "xwJhr+NE9BlNbH4ZzcGYJM9rdvpVb3HkFWF3Zuo1Nlg=",
+    "originContent": "    from: \"上海\" # 起点站（包含同城站）",
+    "translatedContent": "    from: \"上海\" # 起点站（包含同城站）"
+  },
+  {
+    "row": 94,
+    "rowsha": "KlL5TwixYujqMmW52QDBBIRBmwdqBLQOQPaQVVkRqUs=",
+    "originContent": "    to: \"北京\" # 终点站（包含同城站）",
+    "translatedContent": "    to: \"北京\" # 终点站（包含同城站）"
+  },
+  {
+    "row": 95,
+    "rowsha": "oapc2OHKhmaEkzs5etkcZvu9RCFrjgCE8rt/QLCIrCA=",
+    "originContent": "    date: \"20241001\" # 日期（YYYYMMDD 格式）",
+    "translatedContent": "    date: \"20241001\" # 日期（YYYYMMDD 格式）"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "uktywQyvdLDmUIN2GHZQ72Ulo12GnvSOiKXl1GHcRpM=",
+    "originContent": "    # 车次列表（可选）- 不填时默认为全部车次",
+    "translatedContent": "    # 车次列表（可选）- 不填时默认为全部车次"
+  },
+  {
+    "row": 98,
+    "rowsha": "DTVt51Y0x6AWAs1RxFo7/rHByg0P1yTr1Kv0b5ljScM=",
+    "originContent": "    trains:",
+    "translatedContent": "    trains:"
+  },
+  {
+    "row": 99,
+    "rowsha": "5SdA32rbBbZcRQeH4osZdPfwkv8EQoXhD+KrNDywD6c=",
+    "originContent": "      - code: \"G2\" # 车次号",
+    "translatedContent": "      - code: \"G2\" # 车次号"
+  },
+  {
+    "row": 100,
+    "rowsha": "lbaVJ/CmQYCTuLFq49EtumzDfJslJlca3lmKLWbKq0c=",
+    "originContent": "        from: \"上海\" # 指定起点站（可选）",
+    "translatedContent": "        from: \"上海\" # 指定起点站（可选）"
+  },
+  {
+    "row": 101,
+    "rowsha": "jsnSE80nePXW8LU9L8mxlyRJKzmWJv+GXPyn45hfZj8=",
+    "originContent": "        to: \"北京南\" # 指定终点站（可选）",
+    "translatedContent": "        to: \"北京南\" # 指定终点站（可选）"
+  },
+  {
+    "row": 102,
+    "rowsha": "Yq3dcVJrQp3ZdO5QWNrH3ZZlA12oSvBFw2vC/vzExp0=",
+    "originContent": "        seatCategory: # 限定席别（可选，详见下文）",
+    "translatedContent": "        seatCategory: # 限定席别（可选，详见下文）"
+  },
+  {
+    "row": 103,
+    "rowsha": "/IEmiJZ8Sf1S1QI1YrUdhxRaPVyab+ktuZkTrXIU/g4=",
+    "originContent": "          - \"二等座\"",
+    "translatedContent": "          - \"二等座\""
+  },
+  {
+    "row": 104,
+    "rowsha": "tXGyiPG7Dd0GpOf3Ejl5fFFbpc9dw/2tMrbCXOlCaFw=",
+    "originContent": "        checkRoundTrip: true # 查询全程车票情况（可选）",
+    "translatedContent": "        checkRoundTrip: true # 查询全程车票情况（可选）"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "+CTjAOtg/YvsIsPznHdeiyTBBWniO27yvCtzrxxVPFk=",
+    "originContent": "# 推送配置 - 支持多种推送方式（详见下文）",
+    "translatedContent": "# 推送配置 - 支持多种推送方式（详见下文）"
+  },
+  {
+    "row": 107,
+    "rowsha": "OjEE7wrlO/uMNzAbvaRYcDJBSS3Ebzt6YRU5gw9q3ow=",
+    "originContent": "notifications:",
+    "translatedContent": "notifications:"
+  },
+  {
+    "row": 108,
+    "rowsha": "jzNzJQE6mn/Qjz93kgjHFJ/bx31rh+Tk6yHbGyenb+Q=",
+    "originContent": "  - # 飞书推送",
+    "translatedContent": "  - # 飞书推送"
+  },
+  {
+    "row": 109,
+    "rowsha": "EWn6n6KAjTEU254QWQEqzwY91CEsiz8SyTy0cg/Bc+g=",
+    "originContent": "    type: \"Lark\"",
+    "translatedContent": "    type: \"Lark\""
+  },
+  {
+    "row": 110,
+    "rowsha": "xqfx2h1T3KBq64lm0yHjh1mQc5EXRYyOWR655cI1aRY=",
+    "originContent": "    webhook: \"\" # 飞书机器人 Webhook URL",
+    "translatedContent": "    webhook: \"\" # 飞书机器人 Webhook URL"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "oC3f23XrARNz7VdC5jpcpPQlb/bROZNWC/juvFveS2I=",
+    "originContent": "  - # Telegram推送",
+    "translatedContent": "  - # Telegram推送"
+  },
+  {
+    "row": 113,
+    "rowsha": "0f+d9tjLNLtc/Q2RpE56+sTnMwj1uTDs/8Jh1M1yIeo=",
+    "originContent": "    type: \"Telegram\"",
+    "translatedContent": "    type: \"Telegram\""
+  },
+  {
+    "row": 114,
+    "rowsha": "vqq4Wx/JPz8PczJytrNqnUn2qKiMo5MmCPNOYn9PyXk=",
+    "originContent": "    botToken: \"\" # Telegram机器人Token",
+    "translatedContent": "    botToken: \"\" # Telegram机器人Token"
+  },
+  {
+    "row": 115,
+    "rowsha": "NUBch7Ti7mfvC9jOFvEUcGeBB7ToehnMCfMO/TXuLA4=",
+    "originContent": "    chatId: \"\" # 接收消息的Chat ID",
+    "translatedContent": "    chatId: \"\" # 接收消息的Chat ID"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "4B6ErpmzZgimKs6UEFF5Qah9M2Ux2rLmpTd5gTD12gM=",
+    "originContent": "  - # Bark推送",
+    "translatedContent": "  - # Bark推送"
+  },
+  {
+    "row": 118,
+    "rowsha": "d6QdRB9aJ65A0uHVUrdUfECYEea0wtyMkgWxF+73cDI=",
+    "originContent": "    type: \"Bark\"",
+    "translatedContent": "    type: \"Bark\""
+  },
+  {
+    "row": 119,
+    "rowsha": "1BIEhJFwnFoQQ0v+FtK6nYbUd0I15XbxBwFvbu6d4qo=",
+    "originContent": "    deviceKey: \"\" # Bark 设备密钥",
+    "translatedContent": "    deviceKey: \"\" # Bark 设备密钥"
+  },
+  {
+    "row": 120,
+    "rowsha": "WtCS3MCQsFo/bCpRCV+klHX3TJ8Hrz29vX7MBUM49II=",
+    "originContent": "    serverUrl: \"https://api.day.app\" # 服务器地址（可选）",
+    "translatedContent": "    serverUrl: \"https://api.day.app\" # 服务器地址（可选）"
+  },
+  {
+    "row": 121,
+    "rowsha": "YFQ9hyHiV01kUsrjHHdbiWX6cDEY4B7lDfpgTAP8Rv4=",
+    "originContent": "    group: \"火车票监控\" # 推送分组（可选）",
+    "translatedContent": "    group: \"火车票监控\" # 推送分组（可选）"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "u0zowtuEpSv6UerM1v5iGQS9dcosxVNTVl6EEG0qYTU=",
+    "originContent": "  - # SMTP邮件推送",
+    "translatedContent": "  - # SMTP邮件推送"
+  },
+  {
+    "row": 124,
+    "rowsha": "wRI/KUKMXgm031gR6UK4hVRCOMpgM/iv6A46WHAQXX0=",
+    "originContent": "    type: \"SMTP\"",
+    "translatedContent": "    type: \"SMTP\""
+  },
+  {
+    "row": 125,
+    "rowsha": "cwvG8wMa2YAzXCSsg+2pcpz3PtwFqEvZSAj/zN2wUj0=",
+    "originContent": "    host: \"smtp.gmail.com\" # SMTP服务器地址",
+    "translatedContent": "    host: \"smtp.gmail.com\" # SMTP服务器地址"
+  },
+  {
+    "row": 126,
+    "rowsha": "osXK3X/iLVhOZozDA/gZNYFe680AeL2v/uHR3FZmBa4=",
+    "originContent": "    port: 587 # SMTP端口号",
+    "translatedContent": "    port: 587 # SMTP端口号"
+  },
+  {
+    "row": 127,
+    "rowsha": "C4wBFqR8Ie5Q5RuymVlA6M7am6x1andgML1GKiiyZ+s=",
+    "originContent": "    user: \"your-email@gmail.com\" # 邮箱用户名",
+    "translatedContent": "    user: \"your-email@gmail.com\" # 邮箱用户名"
+  },
+  {
+    "row": 128,
+    "rowsha": "2ikvtTmd52Qa/YuKoD5GRp3YUq6tcAShhXFKOJllZzc=",
+    "originContent": "    pass: \"your-app-password\" # 邮箱密码",
+    "translatedContent": "    pass: \"your-app-password\" # 邮箱密码"
+  },
+  {
+    "row": 129,
+    "rowsha": "FgPj+nmLV5dzLQHgRnWk2qNIdBTW0H1x+RL/uZ91iq8=",
+    "originContent": "    to: \"recipient@example.com\" # 收件人邮箱",
+    "translatedContent": "    to: \"recipient@example.com\" # 收件人邮箱"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "/yDMg1uRo1CFU+bVXeDpVZuTS8s72eaSlnJqPsezfjM=",
+    "originContent": "# 刷新间隔（分钟，可选，默认 15 分钟）",
+    "translatedContent": "# 刷新间隔（分钟，可选，默认 15 分钟）"
+  },
+  {
+    "row": 132,
+    "rowsha": "rBYri+kC/IiljpIIwZOiC/NsyFj8v8L5tcVN5z9i2L4=",
+    "originContent": "interval: 15",
+    "translatedContent": "interval: 15"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "5ycbHACY3jSf0K/EKLZM1IJrlpoSzev+0D7h+TNxiYs=",
+    "originContent": "# 访问延迟（秒，可选，默认 5 秒）",
+    "translatedContent": "# 访问延迟（秒，可选，默认 5 秒）"
+  },
+  {
+    "row": 135,
+    "rowsha": "Hi45T7m5OIfPAh4HmzKuD3skpssatJDcsZkV9xDqb1Q=",
+    "originContent": "delay: 5",
+    "translatedContent": "delay: 5"
+  },
+  {
+    "row": 136,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "2SwpSBcRoDO0Pq4r7p7McpPIWgJRaCAuoLMJRayKbCY=",
+    "originContent": "## 推送通知",
+    "translatedContent": "## 推送通知"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "ek9TcxFnayEggJFXkjK0L7e96mn/WMis8dWJmrL3M58=",
+    "originContent": "目前支持飞书推送、Telegram 推送、企业微信推送、Bark 推送和 SMTP 邮件推送通知。",
+    "translatedContent": "目前支持飞书推送、Telegram 推送、企业微信推送、Bark 推送和 SMTP 邮件推送通知。"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "r2n817HurGoEdJiz08x7lf8/SNKZownrKdvaHm1QKY0=",
+    "originContent": "### 飞书推送配置",
+    "translatedContent": "### 飞书推送配置"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "/96A28lbLzyMMD3FhvLNh+LHpOj5Aq9CrslO0W2OIl0=",
+    "originContent": "获取飞书机器人的 webhook 地址可参考[飞书开发文档](https://open.feishu.cn/document/client-docs/bot-v3/add-custom-bot)",
+    "translatedContent": "获取飞书机器人的 webhook 地址可参考[飞书开发文档](https://open.feishu.cn/document/client-docs/bot-v3/add-custom-bot)"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "d9M3ieN9/3nECw4CheJKE5YsOGdQStMeXm96Fg7dijQ=",
+    "originContent": "#### 基础配置",
+    "translatedContent": "#### 基础配置"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "TAMkW3lMqMTeJnN8t/WWyfxlYM2sb7/qBAzJJ1U7Kl4=",
+    "originContent": "在 `config.yml` 中填写飞书机器人的 Webhook 地址即可，例如：",
+    "translatedContent": "在 `config.yml` 中填写飞书机器人的 Webhook 地址即可，例如："
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 151,
+    "rowsha": "OjEE7wrlO/uMNzAbvaRYcDJBSS3Ebzt6YRU5gw9q3ow=",
+    "originContent": "notifications:",
+    "translatedContent": "notifications:"
+  },
+  {
+    "row": 152,
+    "rowsha": "WI1p2WJEHAuS3UinveYn8gIw4INKyJRjZc87RqtmyqI=",
+    "originContent": "  - type: \"Lark\"",
+    "translatedContent": "  - type: \"Lark\""
+  },
+  {
+    "row": 153,
+    "rowsha": "93TTEt5eg5VLbabwULClvR43V1U1c677U8Is7iXt8SI=",
+    "originContent": "    webhook: \"https://open.feishu.cn/open-apis/bot/v2/hook/your-webhook-url\"",
+    "translatedContent": "    webhook: \"https://open.feishu.cn/open-apis/bot/v2/hook/your-webhook-url\""
+  },
+  {
+    "row": 154,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 签名校验配置（推荐）"
+  },
+  {
+    "row": 156,
+    "rowsha": "nCyAb+kTA2LnsLhcPszhg9b64R30htDQRDRvbgjAUlo=",
+    "originContent": "#### 签名校验配置（推荐）",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "为了提高安全性，建议启用飞书机器人的签名校验功能："
+  },
+  {
+    "row": 158,
+    "rowsha": "HFerL6VQmZD6H2ZrYwktDX6dOxzE10GTExnbUdK114c=",
+    "originContent": "为了提高安全性，建议启用飞书机器人的签名校验功能：",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 在飞书群组中，进入自定义机器人的配置页面"
+  },
+  {
+    "row": 160,
+    "rowsha": "k9694hjMrt0wJxvv/fuhE23dgFJmH1gQ5XObsdlWHOw=",
+    "originContent": "1. 在飞书群组中，进入自定义机器人的配置页面",
+    "translatedContent": "2. 在安全设置中选择“签名校验”"
+  },
+  {
+    "row": 161,
+    "rowsha": "iEUBmNo0PDrPi4cv3WL5LuO9yBN3VtTY5dSnO7vwWhA=",
+    "originContent": "2. 在安全设置中选择\"签名校验\"",
+    "translatedContent": "3. 复制生成的密钥"
+  },
+  {
+    "row": 162,
+    "rowsha": "HF+XkDU+x9szCV5+powtMIITOedMF9/KYx6ehK5S5ro=",
+    "originContent": "3. 复制生成的密钥",
+    "translatedContent": "4. 在配置文件中添加 `secret` 字段："
+  },
+  {
+    "row": 163,
+    "rowsha": "7wvbaRHXUWVItzvMCjHDma4UZHMm09KCPndUG70Y+Z0=",
+    "originContent": "4. 在配置文件中添加 `secret` 字段：",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 166,
+    "rowsha": "OjEE7wrlO/uMNzAbvaRYcDJBSS3Ebzt6YRU5gw9q3ow=",
+    "originContent": "notifications:",
+    "translatedContent": "notifications:"
+  },
+  {
+    "row": 167,
+    "rowsha": "WI1p2WJEHAuS3UinveYn8gIw4INKyJRjZc87RqtmyqI=",
+    "originContent": "  - type: \"Lark\"",
+    "translatedContent": "  - type: \"Lark\""
+  },
+  {
+    "row": 168,
+    "rowsha": "93TTEt5eg5VLbabwULClvR43V1U1c677U8Is7iXt8SI=",
+    "originContent": "    webhook: \"https://open.feishu.cn/open-apis/bot/v2/hook/your-webhook-url\"",
+    "translatedContent": "    webhook: \"https://open.feishu.cn/open-apis/bot/v2/hook/your-webhook-url\""
+  },
+  {
+    "row": 169,
+    "rowsha": "dIYNtI/jvCt6k8VFAYmU+UYbBbq6fYCmyIcxbnfd3rU=",
+    "originContent": "    secret: \"your-secret-key\" # 签名密钥（可选，启用签名校验时必填）",
+    "translatedContent": "    secret: \"your-secret-key\" # 签名密钥（可选，启用签名校验时必填）"
+  },
+  {
+    "row": 170,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "vk5VSUIVb4LPzwx3tWSZCE67P4qIut0liHXBewrPq08=",
+    "originContent": "**注意事项：**",
+    "translatedContent": "**注意事项：**"
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "lfujQCc9P4Aju+zitSktbIHORSJ8D3NCKPlWepWoHnc=",
+    "originContent": "- 签名密钥用于验证消息来源的可信性，防止恶意调用",
+    "translatedContent": "- 签名密钥用于验证消息来源的可信性，防止恶意调用"
+  },
+  {
+    "row": 175,
+    "rowsha": "S3qqf5nHTfUaW+kpuxVw+jwJ/TinmuNc44WBTA/vNeY=",
+    "originContent": "- 启用签名校验后，所有请求都需要通过签名验证",
+    "translatedContent": "- 启用签名校验后，所有请求都需要通过签名验证"
+  },
+  {
+    "row": 176,
+    "rowsha": "nNOIq5d9ggVTfCNX4XHeTHQN/VmBW0u5rGA4Jh3zO/4=",
+    "originContent": "- 签名算法使用 HmacSHA256 + Base64 编码",
+    "translatedContent": "- 签名算法使用 HmacSHA256 + Base64 编码"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "FANxrhV78XZwUMGMJ3T1/rVCYBppK1KOVxIHBJSkR/s=",
+    "originContent": "### Telegram 推送配置",
+    "translatedContent": "### Telegram 推送配置"
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "s6xRYN/zRexjO2ca/AFm3tm92zOZcnQttNTn/M5UQxo=",
+    "originContent": "使用 Telegram 推送需要先创建一个 Telegram 机器人并获取相关信息：",
+    "translatedContent": "使用 Telegram 推送需要先创建一个 Telegram 机器人并获取相关信息："
+  },
+  {
+    "row": 181,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "msJAiid35wwI60i0FreZrjr9d50mVSlx4S4AEQZMx34=",
+    "originContent": "1. 在 Telegram 中找到 [@BotFather](https://t.me/BotFather) 并发送 `/newbot` 创建新机器人",
+    "translatedContent": "1. 在 Telegram 中找到 [@BotFather](https://t.me/BotFather) 并发送 `/newbot` 创建新机器人"
+  },
+  {
+    "row": 183,
+    "rowsha": "V91pImyGihz43n5gydL+3NrfGtngayYqHH7xqEs0JgQ=",
+    "originContent": "2. 按照提示设置机器人名称和用户名，获取机器人 Token",
+    "translatedContent": "2. 按照提示设置机器人名称和用户名，获取机器人 Token"
+  },
+  {
+    "row": 184,
+    "rowsha": "A7WorlAbbdjHKogGGUgsx4x5tHQECtod33OhRsLCUDc=",
+    "originContent": "3. 将机器人添加到您的聊天中，或直接与机器人私聊",
+    "translatedContent": "3. 将机器人添加到您的聊天中，或直接与机器人私聊"
+  },
+  {
+    "row": 185,
+    "rowsha": "cMaew/Cacck9cnIe1uJzRs2aU2iaTiFPFlq1eWId5T8=",
+    "originContent": "4. 获取 Chat ID：",
+    "translatedContent": "4. 获取 Chat ID："
+  },
+  {
+    "row": 186,
+    "rowsha": "3IyBpomeroKPUD1KkccGGX8UkIVAwKw1D3xjoHCPj0w=",
+    "originContent": "   - 发送消息给机器人后，访问 `https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates`",
+    "translatedContent": "   - 发送消息给机器人后，访问 `https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates`"
+  },
+  {
+    "row": 187,
+    "rowsha": "LFgFRRN9Jf3RCHsQ6Mg1lateDzJJn2JEsKEbCsPgiGg=",
+    "originContent": "   - 在返回的 JSON 中找到 `chat.id` 字段",
+    "translatedContent": "   - 在返回的 JSON 中找到 `chat.id` 字段"
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "csIeX1DnuyvOpwhU93wwlZwUkymDhQjnBfaiTy1F9mE=",
+    "originContent": "在 `config.yml` 中配置 Telegram 推送：",
+    "translatedContent": "在 `config.yml` 中配置 Telegram 推送："
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 192,
+    "rowsha": "OjEE7wrlO/uMNzAbvaRYcDJBSS3Ebzt6YRU5gw9q3ow=",
+    "originContent": "notifications:",
+    "translatedContent": "notifications:"
+  },
+  {
+    "row": 193,
+    "rowsha": "IJvhZOeZwMu3Zo9mpfjiJzFBQvF4t2oCYVS4Zb9Qn6E=",
+    "originContent": "  - type: \"Telegram\"",
+    "translatedContent": "  - type: \"Telegram\""
+  },
+  {
+    "row": 194,
+    "rowsha": "Eyny/5WSHdzqucP+MV1zzelfVSDbgFNOMiy9J63wyAY=",
+    "originContent": "    botToken: \"123456789:ABCdefGHIjklMNOpqrsTUVwxyz\" # 机器人Token",
+    "translatedContent": "    botToken: \"123456789:ABCdefGHIjklMNOpqrsTUVwxyz\" # 机器人Token"
+  },
+  {
+    "row": 195,
+    "rowsha": "Di98ONct/LlohIk2+ZJWylLwt0/7qniv0uCOhAztVi4=",
+    "originContent": "    chatId: \"123456789\" # Chat ID（可以是个人ID或群组ID）",
+    "translatedContent": "    chatId: \"123456789\" # Chat ID（可以是个人ID或群组ID）"
+  },
+  {
+    "row": 196,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "JWrQDBjPaeuNPak8xQn89IV5HsIZX3lYn/uSHM3AZSM=",
+    "originContent": "### 企业微信推送配置",
+    "translatedContent": "### 企业微信推送配置"
+  },
+  {
+    "row": 199,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 200,
+    "rowsha": "zAcyHGxaqYUzUJ7SHUupFjB3mn8rk5kC6mpa54epOfg=",
+    "originContent": "使用企业微信推送需要先创建企业微信群机器人：",
+    "translatedContent": "使用企业微信推送需要先创建企业微信群机器人："
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "XFbzR8EV8QHH6hg27F9w4Dqssm8Bg/Gh6XdTGc7S1I4=",
+    "originContent": "1. 在企业微信群中，点击群设置 → 群机器人 → 添加机器人",
+    "translatedContent": "1. 在企业微信群中，点击群设置 → 群机器人 → 添加机器人"
+  },
+  {
+    "row": 203,
+    "rowsha": "obzsHB40YbYz1oPSdLKcMVW5Kom0YSqd1kVMO9HCHIY=",
+    "originContent": "2. 设置机器人名称和头像，获取 Webhook URL",
+    "translatedContent": "2. 设置机器人名称和头像，获取 Webhook URL"
+  },
+  {
+    "row": 204,
+    "rowsha": "8IutZtUFyBjvi1jtakc8LYjwZPJyTSXgqCnDBbumOi0=",
+    "originContent": "3. 复制完整的 Webhook URL（包含 key 参数）",
+    "translatedContent": "3. 复制完整的 Webhook URL（包含 key 参数）"
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "a76FQDo7w6kLEDSF9nsGjfzZEX/Ajo/Ql3g1AmHw9cc=",
+    "originContent": "在 `config.yml` 中配置企业微信推送：",
+    "translatedContent": "在 `config.yml` 中配置企业微信推送："
+  },
+  {
+    "row": 207,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 209,
+    "rowsha": "OjEE7wrlO/uMNzAbvaRYcDJBSS3Ebzt6YRU5gw9q3ow=",
+    "originContent": "notifications:",
+    "translatedContent": "notifications:"
+  },
+  {
+    "row": 210,
+    "rowsha": "MYEHLthlz3YXEd0+zHTzl+m+szDH8H+ywZI1daJLdjA=",
+    "originContent": "  - type: \"WechatWork\"",
+    "translatedContent": "  - type: \"WechatWork\""
+  },
+  {
+    "row": 211,
+    "rowsha": "hfeA+0oHGuq1n7olyReuAVYpOav+AUucKLBy/mtzU5w=",
+    "originContent": "    webhook: \"https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=your-webhook-key\"",
+    "translatedContent": "    webhook: \"https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=your-webhook-key\""
+  },
+  {
+    "row": 212,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 213,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 214,
+    "rowsha": "Low8g/aUnE8/amhMvvdtfqnQyK9H+4DMXtsofYtAoAE=",
+    "originContent": "### Bark 推送配置",
+    "translatedContent": "### Bark 推送配置"
+  },
+  {
+    "row": 215,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "rtQha10r3jWqzeq18g/knLFetFNVrRnTQtckQ7r8F/c=",
+    "originContent": "Bark 是一个 iOS 推送通知应用，支持通过 API 发送推送到 iPhone/iPad。",
+    "translatedContent": "Bark 是一个 iOS 推送通知应用，支持通过 API 发送推送到 iPhone/iPad。"
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 218,
+    "rowsha": "agW5ChVOxfOS4MWR0ZnSM/U8ATPCX+KLzDQyy5vSrD8=",
+    "originContent": "#### 获取 Bark 设备密钥",
+    "translatedContent": "#### 获取 Bark 设备密钥"
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "l0wFLhFlq7P1Z3ZWbH6M1kIXBoJ5TUf+pudlBZdA3EM=",
+    "originContent": "1. 在 App Store 下载并安装 [Bark](https://apps.apple.com/app/bark-customed-notifications/id1403753865) 应用",
+    "translatedContent": "1. 在 App Store 下载并安装 [Bark](https://apps.apple.com/app/bark-customed-notifications/id1403753865) 应用"
+  },
+  {
+    "row": 221,
+    "rowsha": "Bw2+d3obSezNSvQtRmpBwblDy6MQ6pbeADiVQu3Dlhw=",
+    "originContent": "2. 打开应用，复制显示的设备密钥（Device Key）",
+    "translatedContent": "2. 打开应用，复制显示的设备密钥（Device Key）"
+  },
+  {
+    "row": 222,
+    "rowsha": "Ph2A7GTvw6/+oX0B0S+P9UNoJYMbmwg6ittSs7qZrx4=",
+    "originContent": "3. 可选：如果你有自己的 Bark 服务器，也可以修改服务器地址",
+    "translatedContent": "3. 可选：如果你有自己的 Bark 服务器，也可以修改服务器地址"
+  },
+  {
+    "row": 223,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 224,
+    "rowsha": "E2gnoTIYO6X7U3nnqHKLbeW+Zh2+f9ykIa4k5LDVtbI=",
+    "originContent": "#### 配置 Bark 推送",
+    "translatedContent": "#### 配置 Bark 推送"
+  },
+  {
+    "row": 225,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 226,
+    "rowsha": "3fTRoXZBI5jFA/fASuhszCgydvzJuP2wxv2OJGYvgWM=",
+    "originContent": "在 `config.yml` 中配置 Bark 推送：",
+    "translatedContent": "在 `config.yml` 中配置 Bark 推送："
+  },
+  {
+    "row": 227,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 228,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 229,
+    "rowsha": "OjEE7wrlO/uMNzAbvaRYcDJBSS3Ebzt6YRU5gw9q3ow=",
+    "originContent": "notifications:",
+    "translatedContent": "notifications:"
+  },
+  {
+    "row": 230,
+    "rowsha": "6DzJbFCY4zt4zSamizgFGlqNmiTtv+68fZHVWl9sImQ=",
+    "originContent": "  - type: \"Bark\"",
+    "translatedContent": "  - type: \"Bark\""
+  },
+  {
+    "row": 231,
+    "rowsha": "gCfKp8ayBdjvlngsMAswCRAdoprPD3xOhyDrGw9TOkw=",
+    "originContent": "    deviceKey: \"your-device-key\" # 必填：设备密钥",
+    "translatedContent": "    deviceKey: \"your-device-key\" # 必填：设备密钥"
+  },
+  {
+    "row": 232,
+    "rowsha": "qEBcFghnwbbETickm5PadZOZNCgUKFbPTMQ2uyRVQXI=",
+    "originContent": "    serverUrl: \"https://api.day.app\" # 可选：服务器地址，默认官方服务器",
+    "translatedContent": "    serverUrl: \"https://api.day.app\" # 可选：服务器地址，默认官方服务器"
+  },
+  {
+    "row": 233,
+    "rowsha": "CZ8rloteugLczU8O9tLBZqZbooP9ZLzniEh9M7ukoAk=",
+    "originContent": "    group: \"火车票监控\" # 可选：推送分组",
+    "translatedContent": "    group: \"火车票监控\" # 可选：推送分组"
+  },
+  {
+    "row": 234,
+    "rowsha": "3JZBCped5eNTKYfnxY2kMj0i1rBq1lkhPHlLiiadttg=",
+    "originContent": "    sound: \"default\" # 可选：推送声音",
+    "translatedContent": "    sound: \"default\" # 可选：推送声音"
+  },
+  {
+    "row": 235,
+    "rowsha": "pG+lZouZFdQkgvlyR7EjWp+/Yack4H1/iz/9zw9Zzsg=",
+    "originContent": "    # 高级选项（可选）",
+    "translatedContent": "    # 高级选项（可选）"
+  },
+  {
+    "row": 236,
+    "rowsha": "FIsrJ8Mw/UOzvsxZGEfr6FRXHOBbahoSWYkS2q836VI=",
+    "originContent": "    level: \"active\" # 推送级别：active(默认)/critical(重要)/timeSensitive(时效)/passive(静默)",
+    "translatedContent": "    level: \"active\" # 推送级别：active(默认)/critical(重要)/timeSensitive(时效)/passive(静默)"
+  },
+  {
+    "row": 237,
+    "rowsha": "DHQSaiHvWWRQpxjH+FXX5AVdisXsVFAN+uKTkL4FbhA=",
+    "originContent": "    icon: \"https://example.com/icon.png\" # 自定义图标URL",
+    "translatedContent": "    icon: \"https://example.com/icon.png\" # 自定义图标URL"
+  },
+  {
+    "row": 238,
+    "rowsha": "wj+u3DymnvJHCGGqFrrTCzGD4/tNDlXaGOrl5wJR3Jc=",
+    "originContent": "    url: \"https://example.com\" # 点击推送后跳转的URL",
+    "translatedContent": "    url: \"https://example.com\" # 点击推送后跳转的URL"
+  },
+  {
+    "row": 239,
+    "rowsha": "GCmzFlDgLnEwcLVFYHg5yy8nbAq2AcE22+swXjKaO+k=",
+    "originContent": "    autoCopy: false # 是否自动复制推送内容",
+    "translatedContent": "    autoCopy: false # 是否自动复制推送内容"
+  },
+  {
+    "row": 240,
+    "rowsha": "kejH0Q3b/kDSoSZr6uhRISq0OdD/nfY6jur2f8r0fvw=",
+    "originContent": "    isArchive: true # 是否保存到推送历史",
+    "translatedContent": "    isArchive: true # 是否保存到推送历史"
+  },
+  {
+    "row": 241,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 242,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### Bark 推送级别说明"
+  },
+  {
+    "row": 243,
+    "rowsha": "+Clw8fun6YRZ+MOYmMHfj6Y7OCEx1CvlEEcJB76Rlhk=",
+    "originContent": "#### Bark 推送级别说明",
+    "translatedContent": ""
+  },
+  {
+    "row": 244,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `active`（默认）：系统会立即亮屏显示通知"
+  },
+  {
+    "row": 245,
+    "rowsha": "WPEcdGmtUT+KUYxCn7TajcmvCWUlYCYWwedZb2EeplA=",
+    "originContent": "- `active`（默认）：系统会立即亮屏显示通知",
+    "translatedContent": "- `critical`：重要警告，在静音模式下也会响铃"
+  },
+  {
+    "row": 246,
+    "rowsha": "ap5Qc7qcu3xKWXeJakfL2p+avTDQrB0ZpGHjUTxaVXk=",
+    "originContent": "- `critical`：重要警告，在静音模式下也会响铃",
+    "translatedContent": "- `timeSensitive`：时效性通知，可在专注状态下显示通知"
+  },
+  {
+    "row": 247,
+    "rowsha": "s+c7eKYU/BHQFgEkwoMq69JBb2jgsIP517EVUMX8Sbg=",
+    "originContent": "- `timeSensitive`：时效性通知，可在专注状态下显示通知",
+    "translatedContent": "- `passive`：仅将通知添加到通知列表，不会亮屏提醒"
+  },
+  {
+    "row": 248,
+    "rowsha": "YF4lremjaTizUv4+KljcA7vqRYcyRzJgm+5RnsyHNJ4=",
+    "originContent": "- `passive`：仅将通知添加到通知列表，不会亮屏提醒",
+    "translatedContent": ""
+  },
+  {
+    "row": 249,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### SMTP 邮件推送配置"
+  },
+  {
+    "row": 250,
+    "rowsha": "1GGIkqV0wVNG57Ez68uwxDyJL8msAsrHwyxbneBYfos=",
+    "originContent": "### SMTP 邮件推送配置",
+    "translatedContent": ""
+  },
+  {
+    "row": 251,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "SMTP 邮件推送支持通过标准邮件服务器发送余票通知邮件。"
+  },
+  {
+    "row": 252,
+    "rowsha": "dPYdsWX/JyhrHKuCbbt9nsJ105x3IgWyWUwLIr+Sl7g=",
+    "originContent": "SMTP 邮件推送支持通过标准邮件服务器发送余票通知邮件。",
+    "translatedContent": ""
+  },
+  {
+    "row": 253,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 配置 SMTP 邮件推送"
+  },
+  {
+    "row": 254,
+    "rowsha": "FmoX9YTPwOkJcZ/YzQvIOkD32ASJTS4BooVDrvY29KM=",
+    "originContent": "#### 配置 SMTP 邮件推送",
+    "translatedContent": ""
+  },
+  {
+    "row": 255,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "在 `config.yml` 中配置 SMTP 邮件推送："
+  },
+  {
+    "row": 256,
+    "rowsha": "kiackISI2XCAv1G5GK4pflMwqS0GGHgujNC/kUSd770=",
+    "originContent": "在 `config.yml` 中配置 SMTP 邮件推送：",
+    "translatedContent": ""
+  },
+  {
+    "row": 257,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 258,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 259,
+    "rowsha": "OjEE7wrlO/uMNzAbvaRYcDJBSS3Ebzt6YRU5gw9q3ow=",
+    "originContent": "notifications:",
+    "translatedContent": "notifications:"
+  },
+  {
+    "row": 260,
+    "rowsha": "pCg66CyIz+nMvC0ht+p3NK7bprm9tMplNmSNfnvtGys=",
+    "originContent": "  - type: \"SMTP\"",
+    "translatedContent": "  - type: \"SMTP\""
+  },
+  {
+    "row": 261,
+    "rowsha": "4pS+R02Voe27ol5I5sfD71k5SvLWoNNB5qp1AXHAz54=",
+    "originContent": "    host: \"smtp.gmail.com\" # 必填：SMTP服务器地址",
+    "translatedContent": "    host: \"smtp.gmail.com\" # 必填：SMTP服务器地址"
+  },
+  {
+    "row": 262,
+    "rowsha": "H1effZFf5ctfUyxPGfdEc32HimLEoJ8le9ZVQzyBQ/Y=",
+    "originContent": "    port: 587 # 必填：SMTP端口号",
+    "translatedContent": "    port: 587 # 必填：SMTP端口号"
+  },
+  {
+    "row": 263,
+    "rowsha": "nrVHGBZhnOwcP3ibBYV3Wk1LlkQbleCWTRgSc72A+Dg=",
+    "originContent": "    user: \"your-email@gmail.com\" # 必填：邮箱用户名",
+    "translatedContent": "    user: \"your-email@gmail.com\" # 必填：邮箱用户名"
+  },
+  {
+    "row": 264,
+    "rowsha": "G9MAoAY9MyiOyOGD1fhBALyrii6OuFzr9ACVVeAOS5Q=",
+    "originContent": "    pass: \"your-app-password\" # 必填：邮箱密码或应用密码",
+    "translatedContent": "    pass: \"your-app-password\" # 必填：邮箱密码或应用密码"
+  },
+  {
+    "row": 265,
+    "rowsha": "YihSo0h/MZvjLktgmf7jtw00rP129phtuQ5YwYmCO/w=",
+    "originContent": "    to: \"recipient@example.com\" # 必填：收件人邮箱地址",
+    "translatedContent": "    to: \"recipient@example.com\" # 必填：收件人邮箱地址"
+  },
+  {
+    "row": 266,
+    "rowsha": "wp6dXWqewRv+myxC4osnaA38bM3eHXGoYbbacuqcGvM=",
+    "originContent": "    # 可选配置",
+    "translatedContent": "    # 可选配置"
+  },
+  {
+    "row": 267,
+    "rowsha": "fuXQEq2+yYP0Iy/FWXSJEBsBOxi7SIRvv2/qCovyL8o=",
+    "originContent": "    from: \"12306监控 <your-email@gmail.com>\" # 发件人显示名称",
+    "translatedContent": "    from: \"12306监控 <your-email@gmail.com>\" # 发件人显示名称"
+  },
+  {
+    "row": 268,
+    "rowsha": "Rz467IIq1OVS2Uy0581TUbodTeUBEd5NwVGyLdmLckI=",
+    "originContent": "    cc: \"cc@example.com\" # 抄送邮箱",
+    "translatedContent": "    cc: \"cc@example.com\" # 抄送邮箱"
+  },
+  {
+    "row": 269,
+    "rowsha": "ubsHDnFQgA/SpRNWQW4qT0/PBnmeY3GawjFgzZEWj84=",
+    "originContent": "    bcc: \"bcc@example.com\" # 密送邮箱",
+    "translatedContent": "    bcc: \"bcc@example.com\" # 密送邮箱"
+  },
+  {
+    "row": 270,
+    "rowsha": "Qu08HaYT7lt0mqNENYQ81mOBUjEGiSIF2FjXyXaAB8Q=",
+    "originContent": "    replyTo: \"noreply@example.com\" # 回复邮箱",
+    "translatedContent": "    replyTo: \"noreply@example.com\" # 回复邮箱"
+  },
+  {
+    "row": 271,
+    "rowsha": "IgPc90NT9mkXqqjovc2xvzqJAQ5LVQ5EN0PmpBD9zdQ=",
+    "originContent": "    secure: true # 是否使用SSL/TLS (465端口使用true，587端口使用false)",
+    "translatedContent": "    secure: true # 是否使用SSL/TLS (465端口使用true，587端口使用false)"
+  },
+  {
+    "row": 272,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 273,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 274,
+    "rowsha": "WOiQ7MSKONzVVHVSUA2rw2wlNb0HCjFSMU9QymBSbnU=",
+    "originContent": "#### 常用邮箱服务器配置",
+    "translatedContent": "#### 常用邮箱服务器配置"
+  },
+  {
+    "row": 275,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 276,
+    "rowsha": "A/LzWJtcZnsjfAO1InZgtXH+3HOGpgvroi3e6VsJVew=",
+    "originContent": "**Gmail:**",
+    "translatedContent": "**Gmail：**"
+  },
+  {
+    "row": 277,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 278,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 279,
+    "rowsha": "FWAXE1PO7UoZRE39UZPygF2deQpERQAp06AnRE6FlkM=",
+    "originContent": "host: \"smtp.gmail.com\"",
+    "translatedContent": "host: \"smtp.gmail.com\""
+  },
+  {
+    "row": 280,
+    "rowsha": "aQyfuqeymp4BCtjCqTVp+IeMbi24OCH8gL/uQDjAFCI=",
+    "originContent": "port: 587",
+    "translatedContent": "port: 587"
+  },
+  {
+    "row": 281,
+    "rowsha": "Vy97BAAd0cTb/d/F4gQJMWP/9IWSvsL3oeZFdV9pNsE=",
+    "originContent": "secure: false # 使用STARTTLS",
+    "translatedContent": "secure: false # 使用STARTTLS"
+  },
+  {
+    "row": 282,
+    "rowsha": "tAtW1ZiQdlZgeITr/lXnVqFLOV3WRG3u1nnp00BN7pU=",
+    "originContent": "# 需要开启两步验证并生成应用密码",
+    "translatedContent": "# 需要开启两步验证并生成应用密码"
+  },
+  {
+    "row": 283,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 284,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 285,
+    "rowsha": "TnEs9F+IvJJROZW9vQSrHBLQ7vjqpTMSWVVnN39o7xk=",
+    "originContent": "**QQ 邮箱:**",
+    "translatedContent": "**QQ 邮箱：**"
+  },
+  {
+    "row": 286,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 287,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 288,
+    "rowsha": "vrsYqCIG9iC5P0/Nhxzn7IGyqMiY52HF50KsCbbSB+M=",
+    "originContent": "host: \"smtp.qq.com\"",
+    "translatedContent": "host: \"smtp.qq.com\""
+  },
+  {
+    "row": 289,
+    "rowsha": "aQyfuqeymp4BCtjCqTVp+IeMbi24OCH8gL/uQDjAFCI=",
+    "originContent": "port: 587",
+    "translatedContent": "port: 587"
+  },
+  {
+    "row": 290,
+    "rowsha": "o4HpF2Vy8oQj8A4dQhPVh1mbzzXzTQLcSg+SxWXxKnw=",
+    "originContent": "secure: false",
+    "translatedContent": "secure: false"
+  },
+  {
+    "row": 291,
+    "rowsha": "MV++9VrZ7QK3xDcaDqIZgBivdA3fp3DEVfxbkbHN7zs=",
+    "originContent": "# 需要开启SMTP服务并使用授权码",
+    "translatedContent": "# 需要开启SMTP服务并使用授权码"
+  },
+  {
+    "row": 292,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 293,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 294,
+    "rowsha": "u3yYcqEcyfAvFuLSsU3wCR7HAPISgxpCgHqFqVQIbvw=",
+    "originContent": "**163 邮箱:**",
+    "translatedContent": "**163 邮箱:**"
+  },
+  {
+    "row": 295,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 296,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 297,
+    "rowsha": "0qB3AguliPKpWKkobmZ2a362UV7EB354cBAT6ySLjRI=",
+    "originContent": "host: \"smtp.163.com\"",
+    "translatedContent": "host: \"smtp.163.com\""
+  },
+  {
+    "row": 298,
+    "rowsha": "aQyfuqeymp4BCtjCqTVp+IeMbi24OCH8gL/uQDjAFCI=",
+    "originContent": "port: 587",
+    "translatedContent": "port: 587"
+  },
+  {
+    "row": 299,
+    "rowsha": "o4HpF2Vy8oQj8A4dQhPVh1mbzzXzTQLcSg+SxWXxKnw=",
+    "originContent": "secure: false",
+    "translatedContent": "secure: false"
+  },
+  {
+    "row": 300,
+    "rowsha": "MV++9VrZ7QK3xDcaDqIZgBivdA3fp3DEVfxbkbHN7zs=",
+    "originContent": "# 需要开启SMTP服务并使用授权码",
+    "translatedContent": "# 需要开启SMTP服务并使用授权码"
+  },
+  {
+    "row": 301,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 302,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 303,
+    "rowsha": "kTUe7oitneCL05Yg3SZtMY/+89c0LxCmb3ox8oKVK8c=",
+    "originContent": "**Outlook:**",
+    "translatedContent": "**展望：**"
+  },
+  {
+    "row": 304,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 305,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 306,
+    "rowsha": "lqH1cX54+VEt7rMILUBUQFbxdZtrJK+Ra+PHPtPnpmo=",
+    "originContent": "host: \"smtp-mail.outlook.com\"",
+    "translatedContent": "host: \"smtp-mail.outlook.com\""
+  },
+  {
+    "row": 307,
+    "rowsha": "aQyfuqeymp4BCtjCqTVp+IeMbi24OCH8gL/uQDjAFCI=",
+    "originContent": "port: 587",
+    "translatedContent": "port: 587"
+  },
+  {
+    "row": 308,
+    "rowsha": "o4HpF2Vy8oQj8A4dQhPVh1mbzzXzTQLcSg+SxWXxKnw=",
+    "originContent": "secure: false",
+    "translatedContent": "secure: false"
+  },
+  {
+    "row": 309,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 310,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 311,
+    "rowsha": "BpgIh5esHKbVLidb3Akfc3Nsw5HeBWi/OKsrlaiP7Cg=",
+    "originContent": "#### 邮箱安全设置",
+    "translatedContent": "#### 邮箱安全设置"
+  },
+  {
+    "row": 312,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 313,
+    "rowsha": "v1Mpaqac1mR3sgKdbAYsSfnogez2f8RfF//In0PV048=",
+    "originContent": "- **Gmail**: 需要开启两步验证，生成应用专用密码",
+    "translatedContent": "- **Gmail**: 需要开启两步验证，生成应用专用密码"
+  },
+  {
+    "row": 314,
+    "rowsha": "mC6A/A2UlPcJum2dJXscBDVABvEoNLvLmCAYeS1oS/o=",
+    "originContent": "- **QQ 邮箱**: 需要在设置中开启 SMTP 服务，使用授权码作为密码",
+    "translatedContent": "- **QQ 邮箱**: 需要在设置中开启 SMTP 服务，使用授权码作为密码"
+  },
+  {
+    "row": 315,
+    "rowsha": "tmJZJscY5cqIC2KuoHVYFYZomrp5zFGaYh6BYeqH75k=",
+    "originContent": "- **163 邮箱**: 需要开启 SMTP 服务，使用授权码作为密码",
+    "translatedContent": "- **163 邮箱**: 需要开启 SMTP 服务，使用授权码作为密码"
+  },
+  {
+    "row": 316,
+    "rowsha": "WC4P4KC9QYKFViQUt5r1/2Bi5soASeA+mDCGEqifynM=",
+    "originContent": "- **企业邮箱**: 根据企业邮箱服务商的要求配置",
+    "translatedContent": "- **企业邮箱**: 根据企业邮箱服务商的要求配置"
+  },
+  {
+    "row": 317,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 318,
+    "rowsha": "Qzs1rpSiOdAQx+3MwtTUrqMgy4l/ntYkJIpvBgXpAV4=",
+    "originContent": "#### 端口号说明",
+    "translatedContent": "#### 端口号说明"
+  },
+  {
+    "row": 319,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 320,
+    "rowsha": "T+zBkp5lvooVuEhdjj03GV5BwojwliRfci5+9TgcGEA=",
+    "originContent": "- `25`: 标准 SMTP 端口（通常被 ISP 封禁）",
+    "translatedContent": "- `25`: 标准 SMTP 端口（通常被 ISP 封禁）"
+  },
+  {
+    "row": 321,
+    "rowsha": "EBKdHduraP3mQwDJAj0/V3F9/DvbwD0Z2Nfbc3Ex02Q=",
+    "originContent": "- `587`: STARTTLS 加密端口（推荐）",
+    "translatedContent": "- `587`: STARTTLS 加密端口（推荐）"
+  },
+  {
+    "row": 322,
+    "rowsha": "koTAT91hrsu4k3JwWbQKKdC3mVhKnVSP53CjJGVrjP4=",
+    "originContent": "- `465`: SSL/TLS 加密端口",
+    "translatedContent": "- `465`: SSL/TLS 加密端口"
+  },
+  {
+    "row": 323,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 324,
+    "rowsha": "cto88JVIbMBnCJCJJRonRPzpMhUx1o1kq2TqvvYzCsk=",
+    "originContent": "这样，当有余票时，程序会通过相应的平台发送通知。",
+    "translatedContent": "这样，当有余票时，程序会通过相应的平台发送通知。"
+  },
+  {
+    "row": 325,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 326,
+    "rowsha": "AfmNynl7HzbuNxv68gHo5OGDFhrZZ6XbfZqOmxUFkT8=",
+    "originContent": "## 席别设置",
+    "translatedContent": "## 席别设置"
+  },
+  {
+    "row": 327,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 328,
+    "rowsha": "wxmVPWsM45wSHcSEfPAwJBHMLMADIb5JdO8XvTuPsIo=",
+    "originContent": "可选的席别如下：",
+    "translatedContent": "可选的席别如下："
+  },
+  {
+    "row": 329,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 330,
+    "rowsha": "Lz257v+gc9zpswqyJEUuZAeqTKuOp51t3QW4v9HwU/k=",
+    "originContent": "- 卧铺：",
+    "translatedContent": "- 卧铺："
+  },
+  {
+    "row": 331,
+    "rowsha": "H3LqbBaI0y7cGn14VVKXHTTCjXSedxvv2LIuJrziVIY=",
+    "originContent": "  - `高级软卧`",
+    "translatedContent": "  - `高级软卧`"
+  },
+  {
+    "row": 332,
+    "rowsha": "Y3DVg3ed1MywcPDWMOoHZo7cmV0NBXCvVGi/QL1T4NQ=",
+    "originContent": "  - `软卧`（含动卧一等卧）",
+    "translatedContent": "  - `软卧`（含动卧一等卧）"
+  },
+  {
+    "row": 333,
+    "rowsha": "OuU2hkE8GoM7tv2qQXAMm6VN+TlJorAWHwRjos9PBEM=",
+    "originContent": "  - `硬卧`（含二等卧）",
+    "translatedContent": "  - `硬卧`（含二等卧）"
+  },
+  {
+    "row": 334,
+    "rowsha": "iEccXtGLvms9SmcOkB2In01C8W8FxfDEQLUbFM8zWCY=",
+    "originContent": "- 坐票：",
+    "translatedContent": "- 坐票："
+  },
+  {
+    "row": 335,
+    "rowsha": "PSaVwcWpKeRHTxNS9wdnwpF5XT6EP/ChfuJAlv9m+bY=",
+    "originContent": "  - `商务座`",
+    "translatedContent": "  - `商务座`"
+  },
+  {
+    "row": 336,
+    "rowsha": "qw5B+AOkKl/RBdYkUs73DTujEDAXzeyZtgIq/019Gd0=",
+    "originContent": "  - `特等座`",
+    "translatedContent": "  - `特等座`"
+  },
+  {
+    "row": 337,
+    "rowsha": "eZT6EACStVz9+BP7qExats9DUrGn7fMtWmN2CU163WU=",
+    "originContent": "  - `优选一等座`",
+    "translatedContent": "  - `优选一等座`"
+  },
+  {
+    "row": 338,
+    "rowsha": "uVAIV+kfLFwHTRPK7EE7Lx4oQPOh5EHh2Ts49qDJd0s=",
+    "originContent": "  - `一等座`",
+    "translatedContent": "  - `一等座`"
+  },
+  {
+    "row": 339,
+    "rowsha": "/IyLcAJ2YtsFS0+Ndi+aJWMiIcll6xuiAfKTU1Lqy4E=",
+    "originContent": "  - `二等座`",
+    "translatedContent": "  - `二等座`"
+  },
+  {
+    "row": 340,
+    "rowsha": "imZUol4G/c585lrQuqC2GhYq6Gg40FHFYOiLvOiaAEk=",
+    "originContent": "  - `软座`",
+    "translatedContent": "  - `软座`"
+  },
+  {
+    "row": 341,
+    "rowsha": "ZKIV6lsohKhNCtFMZc1MIdsOl+5n3PJ+MzHPQspW2WA=",
+    "originContent": "  - `硬座`",
+    "translatedContent": "  - `硬座`"
+  },
+  {
+    "row": 342,
+    "rowsha": "Bvv9afoG7Vs6PU5hhpHUR06Hpq0IJfeO+6QvWuOvFsw=",
+    "originContent": "  - `无座`",
+    "translatedContent": "  - `无座`"
+  },
+  {
+    "row": 343,
+    "rowsha": "XcbqaCEKJutPazm5wzDZr59FbfVHfeUHpcaqkDXmfXg=",
+    "originContent": "- 其他：",
+    "translatedContent": "- 其他："
+  },
+  {
+    "row": 344,
+    "rowsha": "jjU9Y+wIGNakF7Tax7UrqlToF4bXRpElxc1Hs44XSIU=",
+    "originContent": "  - `其他`（含包厢硬卧等）",
+    "translatedContent": "  - `其他`（含包厢硬卧等）"
+  },
+  {
+    "row": 345,
+    "rowsha": "rUXm3YQR+DrPT5NIUbne2ccTy8clFXc8jaMx9CJQ85o=",
+    "originContent": "  - `YB`（未知类型）",
+    "translatedContent": "  - `YB`（未知类型）"
+  },
+  {
+    "row": 346,
+    "rowsha": "gyxCPQ7lwc1I1F86zRJKMOvA+8VxGczJf9946Cp54dY=",
+    "originContent": "  - `SRRB`（未知类型）",
+    "translatedContent": "  - `SRRB`（未知类型）"
+  },
+  {
+    "row": 347,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

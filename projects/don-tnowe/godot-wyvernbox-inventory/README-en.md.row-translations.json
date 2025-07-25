@@ -1,0 +1,356 @@
+[
+  {
+    "row": 1,
+    "rowsha": "LsJyw/k6EEQ5RbhKfdOdWiZvA/T+5HhUpKTpYgLM+F0=",
+    "originContent": "# Wyvernbox",
+    "translatedContent": "# Wyvernbox"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "pR9+XEaJOc3jaLMvRCb/A+H/W3Ftt+UdEBZ0fOOlGRY=",
+    "originContent": "An addon for versatile inventory systems.",
+    "translatedContent": "An addon for versatile inventory systems."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "r8ZoTnti7mw+EtmBCULYjFVfnQMsmVvUvRxfB9UbTUo=",
+    "originContent": "Scenes you may need are located inside `addons/wyvernbox_prefabs`. Just drag and drop!",
+    "translatedContent": "Scenes you may need are located inside `addons/wyvernbox_prefabs`. Just drag and drop!"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "9Kqh4ZT/ASwTacIHRJBAIiEFMmayiNtUyXhAiXZAYYQ=",
+    "originContent": "The `example/wyvernbox` folder contains some items and equipment stats to start. Be sure to check the example scenes, too!",
+    "translatedContent": "The `example/wyvernbox` folder contains some items and equipment stats to start. Be sure to check the example scenes, too!"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "OosfRz7WH3IDSLfKGC6oMk4cQm+e+Yj114fCLzdS/WI=",
+    "originContent": "## All you need:",
+    "translatedContent": "## All you need:"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "uoWG5zNminMaCQKRfswoY2dEib82Owmn65AuS4SL4uo=",
+    "originContent": "- One of the `InventoryView` objects,",
+    "translatedContent": "- One of the `InventoryView` objects,"
+  },
+  {
+    "row": 12,
+    "rowsha": "dhPy3s+f0W8zeoVQKVpvNgHQac2XKEuKaAX+72joX8s=",
+    "originContent": "- An `InventoryTooltip` to inspect items (*maybe with a few `TooltipProperty` scripts attached*),",
+    "translatedContent": "- An `InventoryTooltip` to inspect items (*maybe with a few `TooltipProperty` scripts attached*),"
+  },
+  {
+    "row": 13,
+    "rowsha": "Fs4vPbX+ikQ6YjlDiMajopbapYUbi6sN+FNnGVZvRlQ=",
+    "originContent": "- A `GrabbedItemStackView` to move things around with a mouse,",
+    "translatedContent": "- A `GrabbedItemStackView` to move things around with a mouse,"
+  },
+  {
+    "row": 14,
+    "rowsha": "WCqrHhkTSttqaPEZzh8z1NibuULw3naVLywSw6Sf/3Y=",
+    "originContent": "- And a couple `ItemType` resources to define item types.",
+    "translatedContent": "- And a couple `ItemType` resources to define item types."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "lpLNNqUfn6Gjby8/4NT5A1qimDbqnQYH9AyMfZizP+Q=",
+    "originContent": "## How it works:",
+    "translatedContent": "## How it works:"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "TJ+tt4hgkNuGQWoQLJeDgIflMtZUf4BbkphDCGv8ppc=",
+    "originContent": "- `InventoryView`s provide user interaction with an `Inventory` of the matching type;",
+    "translatedContent": "- `InventoryView`s provide user interaction with an `Inventory` of the matching type;"
+  },
+  {
+    "row": 19,
+    "rowsha": "wdgecvpZzxQHw81d9g/gdhtHfL7RxoxkaSdoGBEl92Q=",
+    "originContent": "- an Inventory holds `ItemStack`s;",
+    "translatedContent": "- an Inventory holds `ItemStack`s;"
+  },
+  {
+    "row": 20,
+    "rowsha": "uv1UgG1zq9rYZNGlV/Zeh3MaLOh0ng01FPo2ncl6FiI=",
+    "originContent": "- an ItemStack is created from an `ItemType`.",
+    "translatedContent": "- an ItemStack is created from an `ItemType`."
+  },
+  {
+    "row": 21,
+    "rowsha": "oJnJstknffS/V/HBdk9u7VvIJZS1PunAsMaEODs7r4w=",
+    "originContent": "- the ItemType stores default data, and is used in crafting recipes and item generators.",
+    "translatedContent": "- the ItemType stores default data, and is used in crafting recipes and item generators."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "fk8UMACLzwABnF0nU31szhY0mbIfTwOuK3Iwy9c8/lo=",
+    "originContent": "## Features:",
+    "translatedContent": "## Features:"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "6QuHHiHW8GqUl9jPF1pc0qv82/MKpp3DwoOmPw3a8I0=",
+    "originContent": "- A variety of inventories, all compatible with GUI containers, such as:",
+    "translatedContent": "- A variety of inventories, all compatible with GUI containers, such as:"
+  },
+  {
+    "row": 26,
+    "rowsha": "yeXUZ8zWWaUeKJ2+YgWTP0VvJ2qMTksgGdf1q5uQGnc=",
+    "originContent": "  - Basic",
+    "translatedContent": "  - Basic"
+  },
+  {
+    "row": 27,
+    "rowsha": "2lFDez51iQRqzLVD1Mk48xHRHsdj+B0wGqEZSnv9Xgw=",
+    "originContent": "  - Grid (*items take up a rectangle of tiles*)",
+    "translatedContent": "  - Grid (*items take up a rectangle of tiles*)"
+  },
+  {
+    "row": 28,
+    "rowsha": "xv9knWkqlbg3WiTevOvadNkn3XLAf2tMDLsJqTtLnCo=",
+    "originContent": "  - Restricted (*can only put items with certain flags, like Equipment or Ammo*)",
+    "translatedContent": "  - Restricted (*can only put items with certain flags, like Equipment or Ammo*)"
+  },
+  {
+    "row": 29,
+    "rowsha": "hq3qL0N5vF7cyHsxfNpkjyiZEXxHS7dAbr/diZ1lZiI=",
+    "originContent": "  - Currency (*custom max stack size, but only specified items*)",
+    "translatedContent": "  - Currency (*custom max stack size, but only specified items*)"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "qdq2vCinOFhM8MRpscrNySh1ZufvH9ezbTAneeMJV6g=",
+    "originContent": "- Crafting and shops:",
+    "translatedContent": "- Crafting and shops:"
+  },
+  {
+    "row": 32,
+    "rowsha": "wve0gdMwyFbmorn1xgJlniZBlRWcdurQX4NyJSl9yIU=",
+    "originContent": "  - Vending is a built-in feature of inventories, but for more configuration, use the `InventoryVendor` class!",
+    "translatedContent": "  - Vending is a built-in feature of inventories, but for more configuration, use the `InventoryVendor` class!"
+  },
+  {
+    "row": 33,
+    "rowsha": "xdARZ8Y7I2jvg+vRS6JDxM85vhJRFDilbHhe6tOckOY=",
+    "originContent": "  - Crafting recipes are defined through an `ItemConversion` - can give you pre-determined results, randomized counts, or a fresh new from an `ItemGenerator`!",
+    "translatedContent": "  - Crafting recipes are defined through an `ItemConversion` - can give you pre-determined results, randomized counts, or a fresh new from an `ItemGenerator`!"
+  },
+  {
+    "row": 34,
+    "rowsha": "0Ejcvf9vwc2zZcCBhy0IUMsf6sAJTYunulctHuImGTM=",
+    "originContent": "  - Use `ItemPattern`s to match one of several items in filters or recipes, like different fuel types with different efficiency!",
+    "translatedContent": "  - Use `ItemPattern`s to match one of several items in filters or recipes, like different fuel types with different efficiency!"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "Dl2C5I7dqNWekJhHd3ZM6+HyXHsxLr7rfkYgORk4ueA=",
+    "originContent": "- **Gestures**: quick-transfer (Shift-Click), gather/transfer all items of type (Double-Click), split one/half (Right-Click)",
+    "translatedContent": "- **Gestures**: quick-transfer (Shift-Click), gather/transfer all items of type (Double-Click), split one/half (Right-Click)"
+  },
+  {
+    "row": 37,
+    "rowsha": "5doJmipM0Ly9iUo59l/Aj0XeFBBH2hC7OBiDwFItdWU=",
+    "originContent": "- Filter ground and inventory items via the versatile `ItemPattern` classes! Use them to control inventory insertion and crafting inputs.",
+    "translatedContent": "- Filter ground and inventory items via the versatile `ItemPattern` classes! Use them to control inventory insertion and crafting inputs."
+  },
+  {
+    "row": 38,
+    "rowsha": "cFORMb9qViBq1ObEPAHoPb0hlKV/0yUfZh5jZNetvWo=",
+    "originContent": "- Custom Inspector tables to map items to values in YOUR classes - used in ShopManager, ItemGenerator, and ItemPattern objects! Includes an Item Browser popup to easily drag-drop item types, generators and patterns from the project.",
+    "translatedContent": "- Custom Inspector tables to map items to values in YOUR classes - used in ShopManager, ItemGenerator, and ItemPattern objects! Includes an Item Browser popup to easily drag-drop item types, generators and patterns from the project."
+  },
+  {
+    "row": 39,
+    "rowsha": "V5vWFKsj6AxRrDDY0CpJPldQpnrZBVhTNPjQm0/qcpY=",
+    "originContent": "- Tooltips extensible with the `TooltipProperty` class! Just slam a bunch of scripts onto it.",
+    "translatedContent": "- Tooltips extensible with the `TooltipProperty` class! Just slam a bunch of scripts onto it."
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "M0NZuQ7+112l8K2h1eayVvSmvQrufrOcD5AYKgIf/Is=",
+    "originContent": "#",
+    "translatedContent": "#"
+  },
+  {
+    "row": 42,
+    "rowsha": "j4Vknrl188nBW+IQNxIRCvxcdiNR55VFBjWpiMZC8SU=",
+    "originContent": "Made by Don Tnowe in 2022.",
+    "translatedContent": "Made by Don Tnowe in 2022."
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "vnrVxLID3a5F5jgq3cY7ujLMSvwtB7YDXpernU7NZ4M=",
+    "originContent": "[My Website](https://redbladegames.netlify.app)",
+    "translatedContent": "[My Website](https://redbladegames.netlify.app)"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "AcUG1Kv6XXu1qbBSs55CJiEZZi9mxlSqSOcgHRJLwEE=",
+    "originContent": "[Itch](https://don-tnowe.itch.io)",
+    "translatedContent": "[Itch](https://don-tnowe.itch.io)"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "WfEIe2545qP3WUqMdPgzwxbBFyOFhZrlrlITfEmWJtc=",
+    "originContent": "[Twitter](https://twitter.com/don_tnowe)",
+    "translatedContent": "[Twitter](https://twitter.com/don_tnowe)"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "tvnDEs1H7MQJMgaWbc1dXktHJHmTTCSoON5k/Z2cC7k=",
+    "originContent": "**Need help or want to chat? Message me!** [Telegram](https://t.me/don_tnowe), [Discord](https://discord.com/channels/@me/726139164566880426)",
+    "translatedContent": "**Need help or want to chat? Message me!** [Telegram](https://t.me/don_tnowe), [Discord](https://discord.com/channels/@me/726139164566880426)"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "vmMIq3bFkfVn7FJXVp9fgX31r1z02BKYJICvfBhA7AU=",
+    "originContent": "**Did this tool help you so much you'd like to give back?** [Donate via PayPal!](https://redbladegames.netlify.app/tip/index.html)",
+    "translatedContent": "**Did this tool help you so much you'd like to give back?** [Donate via PayPal!](https://redbladegames.netlify.app/tip/index.html)"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "M0NZuQ7+112l8K2h1eayVvSmvQrufrOcD5AYKgIf/Is=",
+    "originContent": "#",
+    "translatedContent": "#"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "QY6XOL0v1gbxnM/JGcHFsbondY/CJmbqcoHG3ynTQ54=",
+    "originContent": "Copying and Modification is allowed in accordance to the MIT license, unless otherwise specified. License text is included.",
+    "translatedContent": "Copying and Modification is allowed in accordance to the MIT license, unless otherwise specified. License text is included."
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "o/MJWC1xK32lri1kwN9G1c31ZMIWK1bofyNYfxy6hCA=",
+    "originContent": "Font in example is [Abaddon, Licensed under Creative Commons Attribution 3.0.](https://caffinate.itch.io/abaddon)",
+    "translatedContent": "Font in example is [Abaddon, Licensed under Creative Commons Attribution 3.0.](https://caffinate.itch.io/abaddon)"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

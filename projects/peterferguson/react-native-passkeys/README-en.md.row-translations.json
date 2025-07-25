@@ -1,0 +1,836 @@
+[
+  {
+    "row": 1,
+    "rowsha": "OjkTMUEMS04+h6uYfJX2tgZyZ5e6dHRCe031vPzJe/I=",
+    "originContent": "# React Native Passkeys",
+    "translatedContent": "# React Native Passkeys"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "UeCtw1p4BGRhhgiD1zG/e7wokz3KYPXVwpCmSj0pHAM=",
+    "originContent": "This is an Expo module to help you create and authenticate with passkeys on iOS, Android & web with the same api. The library aims to stay close to the standard [`navigator.credentials`](https://w3c.github.io/webappsec-credential-management/#framework-credential-management). More specifically, we provide an api for `get` & `create` functions (since these are the functions available cross-platform).",
+    "translatedContent": "This is an Expo module to help you create and authenticate with passkeys on iOS, Android & web with the same api. The library aims to stay close to the standard [`navigator.credentials`](https://w3c.github.io/webappsec-credential-management/#framework-credential-management). More specifically, we provide an api for `get` & `create` functions (since these are the functions available cross-platform)."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "lOIfXx5brUTVqwDaj5CPEyH3et7ctqnCpIfD1twPCKc=",
+    "originContent": "The adaptations we make are simple niceties like providing automatic conversion of base64-url encoded strings to buffer. This is also done to make it easier to pass the values to the native side.",
+    "translatedContent": "The adaptations we make are simple niceties like providing automatic conversion of base64-url encoded strings to buffer. This is also done to make it easier to pass the values to the native side."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "duEd+GdNIGknFP1ZuP/cl7DjTesLk3ieCgp/sq+/q1Y=",
+    "originContent": "Further niceties include some flag functions that indicate support for certain features.",
+    "translatedContent": "Further niceties include some flag functions that indicate support for certain features."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 12,
+    "rowsha": "RMiNv9MQgrqpAttreLPfJnS68k0flsKOS/rfS9UukM8=",
+    "originContent": "npx expo install react-native-passkeys",
+    "translatedContent": "npx expo install react-native-passkeys"
+  },
+  {
+    "row": 13,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "mIJTpDLj83xQYckOf913TfDrkPbKBh0SfQjCUHG+Vyk=",
+    "originContent": "## iOS Setup",
+    "translatedContent": "## iOS Setup"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "ZsxjTcgkPwsJ0vDWAxuMSRNgkw7NCyMlKDJkyWXAolk=",
+    "originContent": "#### 1. Host an Apple App Site Association (AASA) file",
+    "translatedContent": "#### 1. Host an Apple App Site Association (AASA) file"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "OfIcajEl1SxnHoFTiRBStxoBZtJKLt8LZANBW6l94BY=",
+    "originContent": "For Passkeys to work on iOS, you'll need to host an AASA file on your domain. This file is used to verify that your app is allowed to handle the domain you are trying to authenticate with. This must be hosted on a site with a valid SSL certificate.",
+    "translatedContent": "For Passkeys to work on iOS, you'll need to host an AASA file on your domain. This file is used to verify that your app is allowed to handle the domain you are trying to authenticate with. This must be hosted on a site with a valid SSL certificate."
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "LxrJJmF7yISrb9HpecbPFU7jrGqPy/BNxXdPzqCSZwE=",
+    "originContent": "The file should be hosted at:",
+    "translatedContent": "The file should be hosted at:"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 24,
+    "rowsha": "/ulKM7PQwTEVb0mkoGemkWZOcGy/tmwJum+VPYt/uOM=",
+    "originContent": "https://<your_domain>/.well-known/apple-app-site-association",
+    "translatedContent": "https://<your_domain>/.well-known/apple-app-site-association"
+  },
+  {
+    "row": 25,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "7r3yhBDZksjOcibNhA14Hx9pOXJLqw6/kJQfA/B7nGM=",
+    "originContent": "Note there is no `.json` extension for this file but the format is json. The contents of the file should look something like this:",
+    "translatedContent": "Note there is no `.json` extension for this file but the format is json. The contents of the file should look something like this:"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 30,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 31,
+    "rowsha": "owT2Yw5uumG8h5fr3gS/ka0C1yQsk7vUONZHj8dOidE=",
+    "originContent": "  \"webcredentials\": {",
+    "translatedContent": "  \"webcredentials\": {"
+  },
+  {
+    "row": 32,
+    "rowsha": "niFtGGxmhlXLOqmketgk9ERUeZE25PFDGcUUg1+XbdA=",
+    "originContent": "    \"apps\": [\"<teamID>.<bundleID>\"]",
+    "translatedContent": "    \"apps\": [\"<teamID>.<bundleID>\"]"
+  },
+  {
+    "row": 33,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 34,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 35,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "mMu9H31c33L2ZKuViqfpqUt3emKRXkRjQr3CVYP23Gw=",
+    "originContent": "Replace `<teamID>` with your Apple Team ID and `<bundleID>` with your app's bundle identifier.",
+    "translatedContent": "Replace `<teamID>` with your Apple Team ID and `<bundleID>` with your app's bundle identifier."
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "vD6T3tM+fyFVj0953vmA2hg2vnY+Zl/VPys211SfIyo=",
+    "originContent": "#### 2. Add Associated Domains",
+    "translatedContent": "#### 2. Add Associated Domains"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "FUpRcQJXVU/Vk+3aeGxFDQwZxecDvEf9rIL9RJbs7Us=",
+    "originContent": "Add the following to your `app.json`:",
+    "translatedContent": "Add the following to your `app.json`:"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 44,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 45,
+    "rowsha": "f9H/6jnRAooqT90K3aMmKosU6+xnIzF4IRbhBkU8sKo=",
+    "originContent": "  \"expo\": {",
+    "translatedContent": "  \"expo\": {"
+  },
+  {
+    "row": 46,
+    "rowsha": "xi2vOwhEkeSC8edpCs8riIm7btg5yv7CVb57VeIL2jY=",
+    "originContent": "    \"ios\": {",
+    "translatedContent": "    \"ios\": {"
+  },
+  {
+    "row": 47,
+    "rowsha": "h3sOxovSWlGu6AEVonuqJUyi4ryumHaeThwNOc9cqNM=",
+    "originContent": "      \"associatedDomains\": [\"webcredentials:<your_domain>\"]",
+    "translatedContent": "      \"associatedDomains\": [\"webcredentials:<your_domain>\"]"
+  },
+  {
+    "row": 48,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 49,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 50,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "T11dOVUDIDRtLAR6hdPw2Iv6cAIa/bBLw8Br//kjyS4=",
+    "originContent": "Replace `<your_domain>` with the domain you are hosting the AASA file on. For example, if you are hosting the AASA file on `https://example.com/.well-known/apple-app-site-association`, you would add `example.com` to the `associatedDomains` array.",
+    "translatedContent": "Replace `<your_domain>` with the domain you are hosting the AASA file on. For example, if you are hosting the AASA file on `https://example.com/.well-known/apple-app-site-association`, you would add `example.com` to the `associatedDomains` array."
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "3/HS+4BjJs0yQT3FJ7oI1mehT+Kkw7BgL60Thwzt2aQ=",
+    "originContent": "#### 3. Add minimum deployment target",
+    "translatedContent": "#### 3. Add minimum deployment target"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "FUpRcQJXVU/Vk+3aeGxFDQwZxecDvEf9rIL9RJbs7Us=",
+    "originContent": "Add the following to your `app.json`:",
+    "translatedContent": "Add the following to your `app.json`:"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 60,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 61,
+    "rowsha": "f9H/6jnRAooqT90K3aMmKosU6+xnIzF4IRbhBkU8sKo=",
+    "originContent": "  \"expo\": {",
+    "translatedContent": "  \"expo\": {"
+  },
+  {
+    "row": 62,
+    "rowsha": "bpGaqssfnIJrUJl+xcchlRq/u7Ybd5D32dClU982RLA=",
+    "originContent": "    \"plugins\": [",
+    "translatedContent": "    \"plugins\": ["
+  },
+  {
+    "row": 63,
+    "rowsha": "prGtxCKFznOau00BfPzudhRugT0+IA6zpnsvpzHNnHI=",
+    "originContent": "      [",
+    "translatedContent": "      ["
+  },
+  {
+    "row": 64,
+    "rowsha": "S8HBMfl6S6c3WjpLP350X7mjefOtSEQe90rhSc6fFK4=",
+    "originContent": "        \"expo-build-properties\",",
+    "translatedContent": "        \"expo-build-properties\","
+  },
+  {
+    "row": 65,
+    "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+    "originContent": "        {",
+    "translatedContent": "        {"
+  },
+  {
+    "row": 66,
+    "rowsha": "uMXQng1OUzunxpMBiti2vn+K3uBsI53sh32lTLj/7Pw=",
+    "originContent": "          \"ios\": {",
+    "translatedContent": "          \"ios\": {"
+  },
+  {
+    "row": 67,
+    "rowsha": "ig+mo/OuNibcUGD/asaT/GiWW9Qo7ilZP6MG31oRet4=",
+    "originContent": "            \"deploymentTarget\": \"15.0\"",
+    "translatedContent": "            \"deploymentTarget\": \"15.0\""
+  },
+  {
+    "row": 68,
+    "rowsha": "lyanSUvVVds8gBii620dpKim0Gan1NH8OHrLqLkR9Co=",
+    "originContent": "          }",
+    "translatedContent": "          }"
+  },
+  {
+    "row": 69,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 70,
+    "rowsha": "KYIvBcwpMgotg8gGTj9cg7gkj3y8ye32mh8DW1S9cOE=",
+    "originContent": "      ]",
+    "translatedContent": "      ]"
+  },
+  {
+    "row": 71,
+    "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+    "originContent": "    ]",
+    "translatedContent": "    ]"
+  },
+  {
+    "row": 72,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 73,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 74,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "a6hkyeEEnIT8a+V9EbPPyWmkqMHvUKPr1h//zNLHcBU=",
+    "originContent": "#### 4. Prebuild and run your app",
+    "translatedContent": "#### 4. Prebuild and run your app"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 79,
+    "rowsha": "OcECpKAiTWCf3q+em051P18gUheX+jJ/GlIkqqSlcdE=",
+    "originContent": "npx expo prebuild -p ios",
+    "translatedContent": "npx expo prebuild -p ios"
+  },
+  {
+    "row": 80,
+    "rowsha": "GNPCBVQrINYpd7Pnb/w+nyFfZoCxv9RWGKilMRmSVd4=",
+    "originContent": "npx expo run:ios # or build in the cloud with EAS",
+    "translatedContent": "npx expo run:ios # or build in the cloud with EAS"
+  },
+  {
+    "row": 81,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "lF8owFgUH65pbVEfARWBmC7ZFlalJRd+iBigcorvT7w=",
+    "originContent": "## Android Setup",
+    "translatedContent": "## Android Setup"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "bsnko7loBjcGcVQsR9asEFRoB+m/VAd8h1yL3lRzqwo=",
+    "originContent": "#### 1. Host an `assetlinks.json` File",
+    "translatedContent": "#### 1. Host an `assetlinks.json` File"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "Y+NSfBigU2obT4V5nRIyUX+HtIibrPTr3pTawzdR2Yc=",
+    "originContent": "For Passkeys to work on Android, you'll need to host an `assetlinks.json` file on your domain. This file is used to verify that your app is allowed to handle the domain you are trying to authenticate with. This must be hosted on a site with a valid SSL certificate.",
+    "translatedContent": "For Passkeys to work on Android, you'll need to host an `assetlinks.json` file on your domain. This file is used to verify that your app is allowed to handle the domain you are trying to authenticate with. This must be hosted on a site with a valid SSL certificate."
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "LxrJJmF7yISrb9HpecbPFU7jrGqPy/BNxXdPzqCSZwE=",
+    "originContent": "The file should be hosted at:",
+    "translatedContent": "The file should be hosted at:"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 92,
+    "rowsha": "JZtUlz4hbeYr5zkORhXx1MpLB9495P9TPX8bBxE5hng=",
+    "originContent": "https://<your_domain>/.well-known/assetlinks.json",
+    "translatedContent": "https://<your_domain>/.well-known/assetlinks.json"
+  },
+  {
+    "row": 93,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "VjczJheu95jZsXaNPjenhLtlyMonw82LdmDPROmoIN0=",
+    "originContent": "and should look something like this (you can generate this file using the [Android Asset Links Assistant](https://developers.google.com/digital-asset-links/tools/generator)):",
+    "translatedContent": "and should look something like this (you can generate this file using the [Android Asset Links Assistant](https://developers.google.com/digital-asset-links/tools/generator)):"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 98,
+    "rowsha": "JFhDq++ecufvrDATiplL9jAefh19cEKjPULoY9JjiBE=",
+    "originContent": "[",
+    "translatedContent": "["
+  },
+  {
+    "row": 99,
+    "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+    "originContent": "  {",
+    "translatedContent": "  {"
+  },
+  {
+    "row": 100,
+    "rowsha": "vaUOMtoRNAwfAcJSbXjOs9iYN6Xj3+wvRYlunzIEjuI=",
+    "originContent": "    \"relation\": [\"delegate_permission/common.handle_all_urls\"],",
+    "translatedContent": "    \"relation\": [\"delegate_permission/common.handle_all_urls\"],"
+  },
+  {
+    "row": 101,
+    "rowsha": "Xw4n+TZYMs6b0WxzE6lGJBJeX9f+CJ5A2kgiE3Q0Zok=",
+    "originContent": "    \"target\": {",
+    "translatedContent": "    \"target\": {"
+  },
+  {
+    "row": 102,
+    "rowsha": "vVbONdAA/Z2bihFsmiqBS6GlHVa1hGxiUDKuO1jTR80=",
+    "originContent": "      \"namespace\": \"android_app\",",
+    "translatedContent": "      \"namespace\": \"android_app\","
+  },
+  {
+    "row": 103,
+    "rowsha": "3QTxcGfJLhf37AYK/fbQeVYXrB37V9ePaF8UfSFh3DA=",
+    "originContent": "      \"package_name\": \"<package_name>\",",
+    "translatedContent": "      \"package_name\": \"<package_name>\","
+  },
+  {
+    "row": 104,
+    "rowsha": "mu+oVnRI8s24YrCTWoH4cwLCYrQFwqJg2BWGwp6Gp88=",
+    "originContent": "      \"sha256_cert_fingerprints\": [\"<sha256_cert_fingerprint>\"]",
+    "translatedContent": "      \"sha256_cert_fingerprints\": [\"<sha256_cert_fingerprint>\"]"
+  },
+  {
+    "row": 105,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 106,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 107,
+    "rowsha": "z64NQkj3FC97F/gmzXpRkoDjEld2kOlXgw0j3PNaP/8=",
+    "originContent": "]",
+    "translatedContent": "]"
+  },
+  {
+    "row": 108,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "h9FAP08VMEqkFZm3txXdBhk8mWqWMNrd4N20jkj6iYg=",
+    "originContent": "Replace `<package_name>` with your app's package name and `<sha256_cert_fingerprint>` with your app's SHA256 certificate fingerprint.",
+    "translatedContent": "Replace `<package_name>` with your app's package name and `<sha256_cert_fingerprint>` with your app's SHA256 certificate fingerprint."
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "OcTKeAXz1CBKKWlNbo4QgGhoX6aO/2mktFrbSoA1SXI=",
+    "originContent": "#### 2. Modify Expo Build Properties",
+    "translatedContent": "#### 2. Modify Expo Build Properties"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "DOqUza/+b4Lz48aIX72P4CW11lYb6j3zVeVWWQtrCqs=",
+    "originContent": "Next, you'll need to modify the `compileSdkVersion` in your `app.json` to be at least 34.",
+    "translatedContent": "Next, you'll need to modify the `compileSdkVersion` in your `app.json` to be at least 34."
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 117,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 118,
+    "rowsha": "f9H/6jnRAooqT90K3aMmKosU6+xnIzF4IRbhBkU8sKo=",
+    "originContent": "  \"expo\": {",
+    "translatedContent": "  \"expo\": {"
+  },
+  {
+    "row": 119,
+    "rowsha": "bpGaqssfnIJrUJl+xcchlRq/u7Ybd5D32dClU982RLA=",
+    "originContent": "    \"plugins\": [",
+    "translatedContent": "    \"plugins\": ["
+  },
+  {
+    "row": 120,
+    "rowsha": "prGtxCKFznOau00BfPzudhRugT0+IA6zpnsvpzHNnHI=",
+    "originContent": "      [",
+    "translatedContent": "      ["
+  },
+  {
+    "row": 121,
+    "rowsha": "S8HBMfl6S6c3WjpLP350X7mjefOtSEQe90rhSc6fFK4=",
+    "originContent": "        \"expo-build-properties\",",
+    "translatedContent": "        \"expo-build-properties\","
+  },
+  {
+    "row": 122,
+    "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+    "originContent": "        {",
+    "translatedContent": "        {"
+  },
+  {
+    "row": 123,
+    "rowsha": "UhwNi8XHLHljOQdpIHTYiLAOKr9pIpkcEy5/mQEjhyw=",
+    "originContent": "          \"android\": {",
+    "translatedContent": "          \"android\": {"
+  },
+  {
+    "row": 124,
+    "rowsha": "eyfhM1E5/oZ4zlw549yfAKTz496kYboYMUO8sjdq230=",
+    "originContent": "            \"compileSdkVersion\": 34",
+    "translatedContent": "            \"compileSdkVersion\": 34"
+  },
+  {
+    "row": 125,
+    "rowsha": "lyanSUvVVds8gBii620dpKim0Gan1NH8OHrLqLkR9Co=",
+    "originContent": "          }",
+    "translatedContent": "          }"
+  },
+  {
+    "row": 126,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 127,
+    "rowsha": "KYIvBcwpMgotg8gGTj9cg7gkj3y8ye32mh8DW1S9cOE=",
+    "originContent": "      ]",
+    "translatedContent": "      ]"
+  },
+  {
+    "row": 128,
+    "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+    "originContent": "    ]",
+    "translatedContent": "    ]"
+  },
+  {
+    "row": 129,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 130,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 131,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "bsvied326dGAYDVzMQNLlMWOpZHz585WGOw2/wa7FUY=",
+    "originContent": "#### 3. Prebuild and run your app",
+    "translatedContent": "#### 3. Prebuild and run your app"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 136,
+    "rowsha": "AFIPO/0ifmT22eUtwE9vEv4XKatSdlzNBM00ulfWCq4=",
+    "originContent": "npx expo prebuild -p android",
+    "translatedContent": "npx expo prebuild -p android"
+  },
+  {
+    "row": 137,
+    "rowsha": "EJrhb0g7XVQI2gEvTLKkoHm7hUYSJx4AehymLOiF7Dk=",
+    "originContent": "npx expo run:android # or build in the cloud with EAS",
+    "translatedContent": "npx expo run:android # or build in the cloud with EAS"
+  },
+  {
+    "row": 138,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

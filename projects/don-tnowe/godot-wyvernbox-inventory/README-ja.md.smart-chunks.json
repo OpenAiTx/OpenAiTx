@@ -1,0 +1,369 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Wyvernbox\n\nAn addon for versatile inventory systems.\n\nScenes you may need are located inside `addons/wyvernbox_prefabs`. Just drag and drop!\n\nThe `example/wyvernbox` folder contains some items and equipment stats to start. Be sure to check the example scenes, too!\n\n## All you need:\n\n- One of the `InventoryView` objects,\n- An `InventoryTooltip` to inspect items (*maybe with a few `TooltipProperty` scripts attached*),\n- A `GrabbedItemStackView` to move things around with a mouse,\n- And a couple `ItemType` resources to define item types.\n\n## How it works:\n\n- `InventoryView`s provide user interaction with an `Inventory` of the matching type;\n- an Inventory holds `ItemStack`s;\n- an ItemStack is created from an `ItemType`.\n- the ItemType stores default data, and is used in crafting recipes and item generators.\n\n## Features:\n\n- A variety of inventories, all compatible with GUI containers, such as:\n  - Basic\n  - Grid (*items take up a rectangle of tiles*)\n  - Restricted (*can only put items with certain flags, like Equipment or Ammo*)\n  - Currency (*custom max stack size, but only specified items*)\n\n- Crafting and shops:\n  - Vending is a built-in feature of inventories, but for more configuration, use the `InventoryVendor` class!\n  - Crafting recipes are defined through an `ItemConversion` - can give you pre-determined results, randomized counts, or a fresh new from an `ItemGenerator`!\n  - Use `ItemPattern`s to match one of several items in filters or recipes, like different fuel types with different efficiency!\n\n- **Gestures**: quick-transfer (Shift-Click), gather/transfer all items of type (Double-Click), split one/half (Right-Click)\n- Filter ground and inventory items via the versatile `ItemPattern` classes! Use them to control inventory insertion and crafting inputs.\n- Custom Inspector tables to map items to values in YOUR classes - used in ShopManager, ItemGenerator, and ItemPattern objects! Includes an Item Browser popup to easily drag-drop item types, generators and patterns from the project.\n- Tooltips extensible with the `TooltipProperty` class! Just slam a bunch of scripts onto it.\n\n#\nMade by Don Tnowe in 2022.\n\n[My Website](https://redbladegames.netlify.app)\n\n[Itch](https://don-tnowe.itch.io)\n\n[Twitter](https://twitter.com/don_tnowe)\n\n**Need help or want to chat? Message me!** [Telegram](https://t.me/don_tnowe), [Discord](https://discord.com/channels/@me/726139164566880426)\n\n**Did this tool help you so much you'd like to give back?** [Donate via PayPal!](https://redbladegames.netlify.app/tip/index.html)\n\n#\n\nCopying and Modification is allowed in accordance to the MIT license, unless otherwise specified. License text is included.\n\nFont in example is [Abaddon, Licensed under Creative Commons Attribution 3.0.](https://caffinate.itch.io/abaddon)\n",
+    "ContentSha": "544Enr6o10bBJCC0r3JcqO/EDALA71+pCSgjcxA7Qss=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Wyvernbox\n\n多用途インベントリシステム用のアドオン。\n\n必要なシーンは `addons/wyvernbox_prefabs` 内にあります。ドラッグ＆ドロップするだけ！\n\n`example/wyvernbox` フォルダには開始用のいくつかのアイテムと装備ステータスが含まれています。例のシーンもぜひ確認してください！\n\n## 必要なもの:\n\n- いずれかの `InventoryView` オブジェクト、\n- アイテムを調べるための `InventoryTooltip`（*いくつかの `TooltipProperty` スクリプトをアタッチしても良い*）、\n- マウスでアイテムを移動させるための `GrabbedItemStackView`、\n- そしてアイテムタイプを定義するいくつかの `ItemType` リソース。\n\n## 動作原理:\n\n- `InventoryView` は対応するタイプの `Inventory` とユーザーインタラクションを提供する；\n- Inventory は `ItemStack` を保持する；\n- ItemStack は `ItemType` から作成される。\n- ItemType はデフォルトデータを保存し、クラフトレシピやアイテムジェネレーターで使われる。\n\n## 特徴:\n\n- GUIコンテナと互換性のある多様なインベントリ、例えば：\n  - ベーシック\n  - グリッド（*アイテムはタイルの長方形を占める*）\n  - 制限付き（*装備や弾薬など特定のフラグを持つアイテムのみ配置可能*）\n  - 通貨（*カスタムの最大スタックサイズ、ただし指定されたアイテムのみ*）\n\n- クラフトとショップ：\n  - ベンディングはインベントリの組み込み機能ですが、より詳細な設定には `InventoryVendor` クラスを使用！\n  - クラフトレシピは `ItemConversion` を通じて定義される — 事前決定された結果、ランダムな数、または `ItemGenerator` からの新規生成が可能！\n  - `ItemPattern` を使って、異なる燃料効率など複数のアイテムをフィルタやレシピでマッチング！\n\n- **ジェスチャー**: クイック転送（Shift-クリック）、同種アイテム全収集・転送（ダブルクリック）、1個または半分に分割（右クリック）\n- 多機能な `ItemPattern` クラスで地面とインベントリ内のアイテムをフィルタリング！インベントリ挿入やクラフト入力の制御に使用可能。\n- カスタムインスペクターのテーブルでアイテムとあなたのクラスの値をマッピング — ShopManager、ItemGenerator、ItemPattern オブジェクトで使用！プロジェクトからアイテムタイプ、ジェネレーター、パターンをドラッグ＆ドロップできるアイテムブラウザポップアップ付き。\n- `TooltipProperty` クラスでツールチップを拡張可能！スクリプトを大量に付けるだけ。\n\n#\n2022年、Don Tnowe 制作。\n\n[私のウェブサイト](https://redbladegames.netlify.app)\n\n[Itch](https://don-tnowe.itch.io)\n\n[Twitter](https://twitter.com/don_tnowe)\n\n**助けが必要、または話したい？メッセージをどうぞ！** [Telegram](https://t.me/don_tnowe), [Discord](https://discord.com/channels/@me/726139164566880426)\n\n**このツールがとても役立ったなら支援をお願いします！** [PayPalで寄付](https://redbladegames.netlify.app/tip/index.html)\n\n#\n\nMITライセンスに基づき、特に指定がない限りコピーと改変は許可されています。ライセンス文を同梱。\n\n例で使用しているフォントは [Abaddon、クリエイティブ・コモンズ 表示 3.0 ライセンス](https://caffinate.itch.io/abaddon) です。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LsJyw/k6EEQ5RbhKfdOdWiZvA/T+5HhUpKTpYgLM+F0=",
+        "originContent": "# Wyvernbox",
+        "translatedContent": "# Wyvernbox"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "pR9+XEaJOc3jaLMvRCb/A+H/W3Ftt+UdEBZ0fOOlGRY=",
+        "originContent": "An addon for versatile inventory systems.",
+        "translatedContent": "多用途インベントリシステム用のアドオン。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "r8ZoTnti7mw+EtmBCULYjFVfnQMsmVvUvRxfB9UbTUo=",
+        "originContent": "Scenes you may need are located inside `addons/wyvernbox_prefabs`. Just drag and drop!",
+        "translatedContent": "必要なシーンは `addons/wyvernbox_prefabs` 内にあります。ドラッグ＆ドロップするだけ！"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "9Kqh4ZT/ASwTacIHRJBAIiEFMmayiNtUyXhAiXZAYYQ=",
+        "originContent": "The `example/wyvernbox` folder contains some items and equipment stats to start. Be sure to check the example scenes, too!",
+        "translatedContent": "`example/wyvernbox` フォルダには開始用のいくつかのアイテムと装備ステータスが含まれています。例のシーンもぜひ確認してください！"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "OosfRz7WH3IDSLfKGC6oMk4cQm+e+Yj114fCLzdS/WI=",
+        "originContent": "## All you need:",
+        "translatedContent": "## 必要なもの:"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "uoWG5zNminMaCQKRfswoY2dEib82Owmn65AuS4SL4uo=",
+        "originContent": "- One of the `InventoryView` objects,",
+        "translatedContent": "- いずれかの `InventoryView` オブジェクト、"
+      },
+      {
+        "row": 12,
+        "rowsha": "dhPy3s+f0W8zeoVQKVpvNgHQac2XKEuKaAX+72joX8s=",
+        "originContent": "- An `InventoryTooltip` to inspect items (*maybe with a few `TooltipProperty` scripts attached*),",
+        "translatedContent": "- アイテムを調べるための `InventoryTooltip`（*いくつかの `TooltipProperty` スクリプトをアタッチしても良い*）、"
+      },
+      {
+        "row": 13,
+        "rowsha": "Fs4vPbX+ikQ6YjlDiMajopbapYUbi6sN+FNnGVZvRlQ=",
+        "originContent": "- A `GrabbedItemStackView` to move things around with a mouse,",
+        "translatedContent": "- マウスでアイテムを移動させるための `GrabbedItemStackView`、"
+      },
+      {
+        "row": 14,
+        "rowsha": "WCqrHhkTSttqaPEZzh8z1NibuULw3naVLywSw6Sf/3Y=",
+        "originContent": "- And a couple `ItemType` resources to define item types.",
+        "translatedContent": "- そしてアイテムタイプを定義するいくつかの `ItemType` リソース。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "lpLNNqUfn6Gjby8/4NT5A1qimDbqnQYH9AyMfZizP+Q=",
+        "originContent": "## How it works:",
+        "translatedContent": "## 動作原理:"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "TJ+tt4hgkNuGQWoQLJeDgIflMtZUf4BbkphDCGv8ppc=",
+        "originContent": "- `InventoryView`s provide user interaction with an `Inventory` of the matching type;",
+        "translatedContent": "- `InventoryView` は対応するタイプの `Inventory` とユーザーインタラクションを提供する；"
+      },
+      {
+        "row": 19,
+        "rowsha": "wdgecvpZzxQHw81d9g/gdhtHfL7RxoxkaSdoGBEl92Q=",
+        "originContent": "- an Inventory holds `ItemStack`s;",
+        "translatedContent": "- Inventory は `ItemStack` を保持する；"
+      },
+      {
+        "row": 20,
+        "rowsha": "uv1UgG1zq9rYZNGlV/Zeh3MaLOh0ng01FPo2ncl6FiI=",
+        "originContent": "- an ItemStack is created from an `ItemType`.",
+        "translatedContent": "- ItemStack は `ItemType` から作成される。"
+      },
+      {
+        "row": 21,
+        "rowsha": "oJnJstknffS/V/HBdk9u7VvIJZS1PunAsMaEODs7r4w=",
+        "originContent": "- the ItemType stores default data, and is used in crafting recipes and item generators.",
+        "translatedContent": "- ItemType はデフォルトデータを保存し、クラフトレシピやアイテムジェネレーターで使われる。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "fk8UMACLzwABnF0nU31szhY0mbIfTwOuK3Iwy9c8/lo=",
+        "originContent": "## Features:",
+        "translatedContent": "## 特徴:"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "6QuHHiHW8GqUl9jPF1pc0qv82/MKpp3DwoOmPw3a8I0=",
+        "originContent": "- A variety of inventories, all compatible with GUI containers, such as:",
+        "translatedContent": "- GUIコンテナと互換性のある多様なインベントリ、例えば："
+      },
+      {
+        "row": 26,
+        "rowsha": "yeXUZ8zWWaUeKJ2+YgWTP0VvJ2qMTksgGdf1q5uQGnc=",
+        "originContent": "  - Basic",
+        "translatedContent": "  - ベーシック"
+      },
+      {
+        "row": 27,
+        "rowsha": "2lFDez51iQRqzLVD1Mk48xHRHsdj+B0wGqEZSnv9Xgw=",
+        "originContent": "  - Grid (*items take up a rectangle of tiles*)",
+        "translatedContent": "  - グリッド（*アイテムはタイルの長方形を占める*）"
+      },
+      {
+        "row": 28,
+        "rowsha": "xv9knWkqlbg3WiTevOvadNkn3XLAf2tMDLsJqTtLnCo=",
+        "originContent": "  - Restricted (*can only put items with certain flags, like Equipment or Ammo*)",
+        "translatedContent": "  - 制限付き（*装備や弾薬など特定のフラグを持つアイテムのみ配置可能*）"
+      },
+      {
+        "row": 29,
+        "rowsha": "hq3qL0N5vF7cyHsxfNpkjyiZEXxHS7dAbr/diZ1lZiI=",
+        "originContent": "  - Currency (*custom max stack size, but only specified items*)",
+        "translatedContent": "  - 通貨（*カスタムの最大スタックサイズ、ただし指定されたアイテムのみ*）"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "qdq2vCinOFhM8MRpscrNySh1ZufvH9ezbTAneeMJV6g=",
+        "originContent": "- Crafting and shops:",
+        "translatedContent": "- クラフトとショップ："
+      },
+      {
+        "row": 32,
+        "rowsha": "wve0gdMwyFbmorn1xgJlniZBlRWcdurQX4NyJSl9yIU=",
+        "originContent": "  - Vending is a built-in feature of inventories, but for more configuration, use the `InventoryVendor` class!",
+        "translatedContent": "  - ベンディングはインベントリの組み込み機能ですが、より詳細な設定には `InventoryVendor` クラスを使用！"
+      },
+      {
+        "row": 33,
+        "rowsha": "xdARZ8Y7I2jvg+vRS6JDxM85vhJRFDilbHhe6tOckOY=",
+        "originContent": "  - Crafting recipes are defined through an `ItemConversion` - can give you pre-determined results, randomized counts, or a fresh new from an `ItemGenerator`!",
+        "translatedContent": "  - クラフトレシピは `ItemConversion` を通じて定義される — 事前決定された結果、ランダムな数、または `ItemGenerator` からの新規生成が可能！"
+      },
+      {
+        "row": 34,
+        "rowsha": "0Ejcvf9vwc2zZcCBhy0IUMsf6sAJTYunulctHuImGTM=",
+        "originContent": "  - Use `ItemPattern`s to match one of several items in filters or recipes, like different fuel types with different efficiency!",
+        "translatedContent": "  - `ItemPattern` を使って、異なる燃料効率など複数のアイテムをフィルタやレシピでマッチング！"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "Dl2C5I7dqNWekJhHd3ZM6+HyXHsxLr7rfkYgORk4ueA=",
+        "originContent": "- **Gestures**: quick-transfer (Shift-Click), gather/transfer all items of type (Double-Click), split one/half (Right-Click)",
+        "translatedContent": "- **ジェスチャー**: クイック転送（Shift-クリック）、同種アイテム全収集・転送（ダブルクリック）、1個または半分に分割（右クリック）"
+      },
+      {
+        "row": 37,
+        "rowsha": "5doJmipM0Ly9iUo59l/Aj0XeFBBH2hC7OBiDwFItdWU=",
+        "originContent": "- Filter ground and inventory items via the versatile `ItemPattern` classes! Use them to control inventory insertion and crafting inputs.",
+        "translatedContent": "- 多機能な `ItemPattern` クラスで地面とインベントリ内のアイテムをフィルタリング！インベントリ挿入やクラフト入力の制御に使用可能。"
+      },
+      {
+        "row": 38,
+        "rowsha": "cFORMb9qViBq1ObEPAHoPb0hlKV/0yUfZh5jZNetvWo=",
+        "originContent": "- Custom Inspector tables to map items to values in YOUR classes - used in ShopManager, ItemGenerator, and ItemPattern objects! Includes an Item Browser popup to easily drag-drop item types, generators and patterns from the project.",
+        "translatedContent": "- カスタムインスペクターのテーブルでアイテムとあなたのクラスの値をマッピング — ShopManager、ItemGenerator、ItemPattern オブジェクトで使用！プロジェクトからアイテムタイプ、ジェネレーター、パターンをドラッグ＆ドロップできるアイテムブラウザポップアップ付き。"
+      },
+      {
+        "row": 39,
+        "rowsha": "V5vWFKsj6AxRrDDY0CpJPldQpnrZBVhTNPjQm0/qcpY=",
+        "originContent": "- Tooltips extensible with the `TooltipProperty` class! Just slam a bunch of scripts onto it.",
+        "translatedContent": "- `TooltipProperty` クラスでツールチップを拡張可能！スクリプトを大量に付けるだけ。"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "M0NZuQ7+112l8K2h1eayVvSmvQrufrOcD5AYKgIf/Is=",
+        "originContent": "#",
+        "translatedContent": "#"
+      },
+      {
+        "row": 42,
+        "rowsha": "j4Vknrl188nBW+IQNxIRCvxcdiNR55VFBjWpiMZC8SU=",
+        "originContent": "Made by Don Tnowe in 2022.",
+        "translatedContent": "2022年、Don Tnowe 制作。"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "vnrVxLID3a5F5jgq3cY7ujLMSvwtB7YDXpernU7NZ4M=",
+        "originContent": "[My Website](https://redbladegames.netlify.app)",
+        "translatedContent": "[私のウェブサイト](https://redbladegames.netlify.app)"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "AcUG1Kv6XXu1qbBSs55CJiEZZi9mxlSqSOcgHRJLwEE=",
+        "originContent": "[Itch](https://don-tnowe.itch.io)",
+        "translatedContent": "[Itch](https://don-tnowe.itch.io)"
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "WfEIe2545qP3WUqMdPgzwxbBFyOFhZrlrlITfEmWJtc=",
+        "originContent": "[Twitter](https://twitter.com/don_tnowe)",
+        "translatedContent": "[Twitter](https://twitter.com/don_tnowe)"
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "tvnDEs1H7MQJMgaWbc1dXktHJHmTTCSoON5k/Z2cC7k=",
+        "originContent": "**Need help or want to chat? Message me!** [Telegram](https://t.me/don_tnowe), [Discord](https://discord.com/channels/@me/726139164566880426)",
+        "translatedContent": "**助けが必要、または話したい？メッセージをどうぞ！** [Telegram](https://t.me/don_tnowe), [Discord](https://discord.com/channels/@me/726139164566880426)"
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "vmMIq3bFkfVn7FJXVp9fgX31r1z02BKYJICvfBhA7AU=",
+        "originContent": "**Did this tool help you so much you'd like to give back?** [Donate via PayPal!](https://redbladegames.netlify.app/tip/index.html)",
+        "translatedContent": "**このツールがとても役立ったなら支援をお願いします！** [PayPalで寄付](https://redbladegames.netlify.app/tip/index.html)"
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "M0NZuQ7+112l8K2h1eayVvSmvQrufrOcD5AYKgIf/Is=",
+        "originContent": "#",
+        "translatedContent": "#"
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "QY6XOL0v1gbxnM/JGcHFsbondY/CJmbqcoHG3ynTQ54=",
+        "originContent": "Copying and Modification is allowed in accordance to the MIT license, unless otherwise specified. License text is included.",
+        "translatedContent": "MITライセンスに基づき、特に指定がない限りコピーと改変は許可されています。ライセンス文を同梱。"
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "o/MJWC1xK32lri1kwN9G1c31ZMIWK1bofyNYfxy6hCA=",
+        "originContent": "Font in example is [Abaddon, Licensed under Creative Commons Attribution 3.0.](https://caffinate.itch.io/abaddon)",
+        "translatedContent": "例で使用しているフォントは [Abaddon、クリエイティブ・コモンズ 表示 3.0 ライセンス](https://caffinate.itch.io/abaddon) です。"
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

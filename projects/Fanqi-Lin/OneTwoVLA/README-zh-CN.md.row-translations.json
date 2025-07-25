@@ -1,0 +1,452 @@
+[
+  {
+    "row": 1,
+    "rowsha": "2WIOmZu45wCgKkG4TyoIVD1BkqIeUOdOGOoeSAyR3Qw=",
+    "originContent": "# OneTwoVLA: A Unified Vision-Language-Action Model with Adaptive Reasoning",
+    "translatedContent": "# OneTwoVLA：一个具备自适应推理能力的统一视觉-语言-动作模型"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "+QysMWdUHiBfPrTZK1a9Swte21DwlwYQEknRJZPck6Y=",
+    "originContent": "[[Project Page]](https://one-two-vla.github.io/) [[Paper]](https://arxiv.org/abs/2505.11917) [[Processed Datasets]](https://huggingface.co/datasets/Richard-Nai/onetwovla-dataset)",
+    "translatedContent": "[[项目主页]](https://one-two-vla.github.io/) [[论文]](https://arxiv.org/abs/2505.11917) [[处理后的数据集]](https://huggingface.co/datasets/Richard-Nai/onetwovla-dataset)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "i5TSD/dqatxhfvnmaJHjS9NHHkznAywROLL3Qy70G0U=",
+    "originContent": "[Fanqi Lin](https://fanqi-lin.github.io/)<sup>1,2,3,5\\*</sup>,",
+    "translatedContent": "[Fanqi Lin](https://fanqi-lin.github.io/)<sup>1,2,3,5\\*</sup>,"
+  },
+  {
+    "row": 6,
+    "rowsha": "FxUa3ah1sou8tk335XF+FtBO6NRJzrsZKcHUDuFOKK4=",
+    "originContent": "[Ruiqian Nai](https://richard-coder-nai.github.io/)<sup>1,2,3,5\\*</sup>,",
+    "translatedContent": "[Ruiqian Nai](https://richard-coder-nai.github.io/)<sup>1,2,3,5\\*</sup>,"
+  },
+  {
+    "row": 7,
+    "rowsha": "Kyh2SB/dSXd1TOBx95WXgSMmNGusg08rkii8XNm/Qzg=",
+    "originContent": "[Yingdong Hu](https://yingdong-hu.github.io/)<sup>1,2,3\\*</sup>,",
+    "translatedContent": "[Yingdong Hu](https://yingdong-hu.github.io/)<sup>1,2,3\\*</sup>,"
+  },
+  {
+    "row": 8,
+    "rowsha": "SJhnPiiPA8mAiUOzd8VyBii7SSEAzzTXtipLYK6eCzI=",
+    "originContent": "[Jiacheng You](https://scholar.google.com/citations?user=FiP-TVUAAAAJ)<sup>1,2,3</sup>,",
+    "translatedContent": "[Jiacheng You](https://scholar.google.com/citations?user=FiP-TVUAAAAJ)<sup>1,2,3</sup>,"
+  },
+  {
+    "row": 9,
+    "rowsha": "uY0Fn41b88ikx8++6/ItKnEBoywD94pDZbQvkO9ONzU=",
+    "originContent": "Junming Zhao<sup>1,4</sup>,",
+    "translatedContent": "Junming Zhao<sup>1,4</sup>,"
+  },
+  {
+    "row": 10,
+    "rowsha": "i1BqPt/V8MNVUbqNukA9ISq5peipx6UFIIXNhHKozFI=",
+    "originContent": "[Yang Gao](https://yang-gao.weebly.com/)<sup>1,2,3,5</sup>",
+    "translatedContent": "[Yang Gao](https://yang-gao.weebly.com/)<sup>1,2,3,5</sup>"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "Hz6ceffxmT8jtvRhf0Z1IbwiG8+FjeAwPz2P8NSNC9g=",
+    "originContent": "<sup>1</sup>Tsinghua University,",
+    "translatedContent": "<sup>1</sup>清华大学，"
+  },
+  {
+    "row": 13,
+    "rowsha": "b721h29eZHLJuKUUT+bX4FU9zjuViAsTqJPuxzPC9uI=",
+    "originContent": "<sup>2</sup>Shanghai Qi Zhi Institute,",
+    "translatedContent": "<sup>2</sup>上海启智研究院，"
+  },
+  {
+    "row": 14,
+    "rowsha": "cc7gUzpbR3nSarXPpuv62DsPi9wxZBkN/Wjz2Ws918k=",
+    "originContent": "<sup>3</sup>Shanghai AI Lab, ",
+    "translatedContent": "<sup>3</sup>上海人工智能实验室，"
+  },
+  {
+    "row": 15,
+    "rowsha": "BimtuE/6aSPxmUrW0Vb8WxNS44HdeV8Z2pRw1BUkcms=",
+    "originContent": "<sup>4</sup>Fudan University,",
+    "translatedContent": "<sup>4</sup>复旦大学，"
+  },
+  {
+    "row": 16,
+    "rowsha": "GTm/5HSeekOEt0508AMbrpRvB+DYrNlhpvYmRv8ECeo=",
+    "originContent": "<sup>5</sup>Spirit AI",
+    "translatedContent": "<sup>5</sup>Spirit AI"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "7enxRP0HfndSc6nvZnfWJIkp+czQME4Ms6sN+Q5We9M=",
+    "originContent": "<sup>\\*</sup> indicates equal contributions",
+    "translatedContent": "<sup>\\*</sup> 表示同等贡献"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "mjxiuRZ1/CyihNdVofQBPNtawI9pDP9M+RFrU+so5kM=",
+    "originContent": "## 🛠️ Installation",
+    "translatedContent": "## 🛠️ 安装"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "wv+eaFoOBZDaNfOZyzq003jRgOeBUP7Q6eZYNmWp3CE=",
+    "originContent": "We manage Python dependencies with [uv](https://docs.astral.sh/uv/). If you haven't installed `uv`, please follow [uv installation instructions](https://docs.astral.sh/uv/getting-started/installation/) to set it up. ",
+    "translatedContent": "我们使用 [uv](https://docs.astral.sh/uv/) 管理 Python 依赖。如果你尚未安装 `uv`，请按照[uv 安装说明](https://docs.astral.sh/uv/getting-started/installation/)进行安装。"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "Zc6BdVNXXvJ0ijqFa19vglAoECBAGJAzkNOJ7dAgvAQ=",
+    "originContent": "Run the following to set up the environment:",
+    "translatedContent": "运行以下命令以设置环境："
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 28,
+    "rowsha": "0RrwraRExvZM/tIl6NSHMieibtEHub8x+wKvZzvJyqE=",
+    "originContent": "GIT_LFS_SKIP_SMUDGE=1 uv sync",
+    "translatedContent": "GIT_LFS_SKIP_SMUDGE=1 uv sync"
+  },
+  {
+    "row": 29,
+    "rowsha": "GngV3TJXyPL+mAiC8RBy0mjtarvJus/OQYw2nJd7PV8=",
+    "originContent": "GIT_LFS_SKIP_SMUDGE=1 uv pip install -e .",
+    "translatedContent": "GIT_LFS_SKIP_SMUDGE=1 uv pip install -e ."
+  },
+  {
+    "row": 30,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "KdhzsdyISdu+IrbKF/C7B1pFus4YLeY30bRtwAl2WdE=",
+    "originContent": "> NOTE: `GIT_LFS_SKIP_SMUDGE=1` is needed to pull LeRobot as a dependency.",
+    "translatedContent": "> 注意：拉取 LeRobot 作为依赖时需要设置 `GIT_LFS_SKIP_SMUDGE=1`。"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "zBCLyhRpJTP+WeD1J6QvJtfjNGb5IOgYRrqmIajfB9k=",
+    "originContent": "For more details, refer to the original [openpi repository](https://github.com/Physical-Intelligence/openpi.git). ",
+    "translatedContent": "更多详情请参考原始的 [openpi 仓库](https://github.com/Physical-Intelligence/openpi.git)。"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "8wED7outGFpEeDoM2KWV68k4m4SVV3rp6i/5n6rvwg8=",
+    "originContent": "## 🚀 Training OneTwoVLA",
+    "translatedContent": "## 🚀 训练 OneTwoVLA"
+  },
+  {
+    "row": 37,
+    "rowsha": "AIuLjqU+GdwKoqvewfwGO0e3tbuXR19t8nOIqtvBOIo=",
+    "originContent": "Download the dataset and place them under `$LEROBOT_HOME/umi/`.",
+    "translatedContent": "下载数据集并放置于 `$LEROBOT_HOME/umi/` 下。"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "lggefBMBMdbLxxIRks4Dw2q0v7ScHv+41MxotJrHhmk=",
+    "originContent": "To train a OneTwoVLA model, run:",
+    "translatedContent": "要训练 OneTwoVLA 模型，请运行："
+  },
+  {
+    "row": 40,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 41,
+    "rowsha": "Arct76t49ZdzHvK0sdbfBJSwRAWeb0tOm0NlmqvXDuA=",
+    "originContent": "bash train_scripts/train_<task_name>.sh",
+    "translatedContent": "bash train_scripts/train_<task_name>.sh"
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "+77T8O3iSnZItf8I/0rc7yQAyYwADEYdfZXmbC6CFUE=",
+    "originContent": "Available tasks are:",
+    "translatedContent": "可用任务有："
+  },
+  {
+    "row": 44,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 45,
+    "rowsha": "czNQEF3zGa0wsVGbnjXB4n2tJz+7VfWS8uXwOhE2m1I=",
+    "originContent": "train_scripts",
+    "translatedContent": "train_scripts"
+  },
+  {
+    "row": 46,
+    "rowsha": "R/YO11xBh2lba8GY+2rGdbOCf5PzeVOt0y3XstCKtbU=",
+    "originContent": "|-- train_onetwovla_cocktail.sh",
+    "translatedContent": "|-- train_onetwovla_cocktail.sh"
+  },
+  {
+    "row": 47,
+    "rowsha": "u4sDmZz7BEVbQGJHfO82YYA0fM5moIFXp5rgsz1BqsY=",
+    "originContent": "|-- train_onetwovla_visual_grounding.sh",
+    "translatedContent": "|-- train_onetwovla_visual_grounding.sh"
+  },
+  {
+    "row": 48,
+    "rowsha": "rcQzIwIR/kqPfgxWXT/4NcxOaqPsQ0lkpT/hW9HF/yk=",
+    "originContent": "|-- train_pi0_cocktail.sh",
+    "translatedContent": "|-- train_pi0_cocktail.sh"
+  },
+  {
+    "row": 49,
+    "rowsha": "TuhMCJ6uKb6IKZH/jnbmrPd9D4x19nakpR4OVn8sx3w=",
+    "originContent": "|-- train_pi0_visual_grounding.sh",
+    "translatedContent": "|-- train_pi0_visual_grounding.sh"
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "Jvy0N3uD30AKxvEPftR5pZnxc70QBh+o04yLfOqkRa0=",
+    "originContent": "## 🦾 Real-World Deployment",
+    "translatedContent": "## 🦾 真实世界部署"
+  },
+  {
+    "row": 53,
+    "rowsha": "tDBYI05qiQzxTD+ZwP5OshD58N1Cm30gzN0KxD4aVdY=",
+    "originContent": "We run inference using a policy server and a hardware client. The instructions for running policy server can be found at [examples/umi/README.md](https://raw.githubusercontent.com/Fanqi-Lin/OneTwoVLA/main/examples/umi/README.md), and we provide the UMI hardware client code in this [repository](https://github.com/Fanqi-Lin/OneTwoVLA-UMI-Client).",
+    "translatedContent": "我们使用策略服务器和硬件客户端进行推理。运行策略服务器的说明可以在 [examples/umi/README.md](https://raw.githubusercontent.com/Fanqi-Lin/OneTwoVLA/main/examples/umi/README.md) 找到，我们在此[仓库](https://github.com/Fanqi-Lin/OneTwoVLA-UMI-Client)中提供了 UMI 硬件客户端代码。"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "o19pLNM7IsGPc2J86Ecbva2O/vncAi0dsl35YU588Mw=",
+    "originContent": "## 📷 Data",
+    "translatedContent": "## 📷 数据"
+  },
+  {
+    "row": 56,
+    "rowsha": "IxFrMTkmacyCAA2t0xJHfBADHkwiE8/s9jawsb3wu4o=",
+    "originContent": "We provide access to the following datasets:",
+    "translatedContent": "我们提供以下数据集的访问权限："
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "xsbWlva3r7hR/qYK1jfbEnXjnvJvbYXEyfT/aFs7ups=",
+    "originContent": "- `Robot Datasets`: Datasets for the `cocktail` and `open-world visual grounding` tasks.",
+    "translatedContent": "- `机器人数据集`：用于 `cocktail` 和 `开放世界视觉定位` 任务的数据集。"
+  },
+  {
+    "row": 59,
+    "rowsha": "05wNok5riKvy57MTMGqkZdA9tL2Z7oVXyCJXdOKqRV4=",
+    "originContent": "- `Vision-Language Datasets`: Datasets contains synthetic images and annotated reasoning for the `open-world visual grounding` task.",
+    "translatedContent": "- `视觉-语言数据集`：包含合成图像和带注释推理的 `开放世界视觉定位` 任务数据集。"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "rKl6jLQZ8wSB5y95aPSz1sgQB0WklfXenToLvlaBtGk=",
+    "originContent": "All datasets are hosted on Hugging Face. You can find them [here](https://huggingface.co/datasets/Richard-Nai/onetwovla-dataset).",
+    "translatedContent": "所有数据集均托管于 Hugging Face。您可以在[这里](https://huggingface.co/datasets/Richard-Nai/onetwovla-dataset)找到它们。"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "IQOUnWZO0zjNm7R+BRSndPyMbIM5uiQbDxEfgv62dn4=",
+    "originContent": "We provide code for converting UMI data format to LeRobot data format [here](https://raw.githubusercontent.com/Fanqi-Lin/OneTwoVLA/main/examples/umi/convert_umi_data_to_lerobot.py).",
+    "translatedContent": "我们提供将 UMI 数据格式转换为 LeRobot 数据格式的代码[这里](https://raw.githubusercontent.com/Fanqi-Lin/OneTwoVLA/main/examples/umi/convert_umi_data_to_lerobot.py)。"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "ricIuYJHWpS9xmRI24vrUfdOrPeN9ub0OQPsPf2kk7M=",
+    "originContent": "### Synthetic Image Augmentation",
+    "translatedContent": "### 合成图像增强"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "/KPp+/1fDGyV/3JdOlBcC+TlK4N5TeJgaXaskZd7wx0=",
+    "originContent": "To make the synthetic images more closely resemble real robot observations, we randomly apply several augmentations, including random fisheye distortion and compositing a robot gripper with adaptive brightness adjustments. The implementation is available in [scripts/augment_vl_data/augment.py](https://raw.githubusercontent.com/Fanqi-Lin/OneTwoVLA/main/scripts/augment_vl_data/augment.py).",
+    "translatedContent": "为了使合成图像更接近真实机器人观测，我们随机应用多种增强，包括随机鱼眼畸变和通过自适应亮度调整合成机器人夹爪。实现代码见[scripts/augment_vl_data/augment.py](https://raw.githubusercontent.com/Fanqi-Lin/OneTwoVLA/main/scripts/augment_vl_data/augment.py)。"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "bORcuW0u+BUFNi1ZU/iRjrbZc+b5nBkLWmv78Tyu8I0=",
+    "originContent": "Here we show an example. From left to right, the images are: the original image, the image with fisheye distortion, the image compositing a robot gripper with adaptive brightness adjustments, and the image with both applied.",
+    "translatedContent": "这里展示一个示例。从左到右，图像依次为：原始图像、带鱼眼畸变的图像、合成机器人夹爪并进行自适应亮度调整的图像，以及同时应用两者的图像。"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "XiBVoXjD+k384YpyAb6cStKCTtCZkb6F/C15juwaQ4k=",
+    "originContent": "<img width=\"90%\" src=\"https://raw.githubusercontent.com/Fanqi-Lin/OneTwoVLA/main/figures/fisheye-aug.png\">",
+    "translatedContent": "<img width=\"90%\" src=\"https://raw.githubusercontent.com/Fanqi-Lin/OneTwoVLA/main/figures/fisheye-aug.png\">"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "xu64CG5WWAk6HrV6oWvSAQFXHyBWkQmb01SHddeshOI=",
+    "originContent": "## 🙏 Acknowledgements",
+    "translatedContent": "## 🙏 致谢"
+  },
+  {
+    "row": 74,
+    "rowsha": "NleJXkkPuTroCIeprHoLQy0+J1Kp5vqTi0BSBF7PoTI=",
+    "originContent": "We express our sincere gratitude to the developers of the [openpi](https://github.com/Physical-Intelligence/openpi.git) for open-sourcing their code.",
+    "translatedContent": "我们衷心感谢 [openpi](https://github.com/Physical-Intelligence/openpi.git) 开发者开源他们的代码。"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

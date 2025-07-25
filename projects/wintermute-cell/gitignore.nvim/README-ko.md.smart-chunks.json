@@ -1,0 +1,1257 @@
+[
+  {
+    "Id": 1,
+    "Content": "<!-- LTeX: language=en-US -->\n# gitignore.nvim\n![gitignore.nvim logo banner](https://github.com/wintermute-cell/gitignore.nvim/blob/resources/_resources/banner.webp)\n\nA neovim plugin for generating .gitignore files in seconds, by allowing you to\nselect from a huge number of different technologies.\n\nThis plugin is functionally identical to the service offered by\n[gitignore.io](https://www.toptal.com/developers/gitignore/), but capable of\ngenerating `.gitignore` files offline, and directly from within neovim.\n\n1. [Installation](#installation--dependencies)\n2. [Usage](#usage)\n3. [Demo](#demo)\n4. [Credits](#credits)\n\n## Installation & Dependencies\n**`gitignore.nvim` optionally depends on\n[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) to provide\n[multi-selection](#selecting-multiple-items). Without [installing\ntelescope](https://github.com/nvim-telescope/telescope.nvim#installation) you\nwill not be able to select multiple technologies.**\n\nAfter installing `telescope.nvim`, you can install `gitignore.nvim` like this:\n\nUsing [lazy.nvim](https://github.com/folke/lazy.nvim)",
+    "ContentSha": "OkeEguXfnHUdZthGYy2ysG/wOBoszDC0+xEtdqnNod0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<!-- LTeX: language=en-US -->\n# gitignore.nvim\n![gitignore.nvim 로고 배너](https://github.com/wintermute-cell/gitignore.nvim/blob/resources/_resources/banner.webp)\n\n수많은 다양한 기술 중에서 선택하여 몇 초 만에 .gitignore 파일을 생성할 수 있는 네오빔 플러그인입니다.\n\n이 플러그인은 [gitignore.io](https://www.toptal.com/developers/gitignore/)에서 제공하는 서비스와 기능적으로 동일하지만, 오프라인에서 그리고 네오빔 내부에서 직접 `.gitignore` 파일을 생성할 수 있습니다.\n\n1. [설치](#installation--dependencies)\n2. [사용법](#usage)\n3. [데모](#demo)\n4. [크레딧](#credits)\n\n## 설치 및 의존성\n**`gitignore.nvim`은 선택적으로 [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)에 의존하여 [다중 선택](#selecting-multiple-items)을 제공합니다. [telescope](https://github.com/nvim-telescope/telescope.nvim#installation)를 설치하지 않으면 여러 기술을 선택할 수 없습니다.**\n\n`telescope.nvim`을 설치한 후, 다음과 같이 `gitignore.nvim`을 설치할 수 있습니다:\n\n[lazy.nvim](https://github.com/folke/lazy.nvim) 사용하기\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "N+fKQUTgLxIxHyRiQGcoBSVAUNYOUOeWr0HxRC/KRiA=",
+        "originContent": "<!-- LTeX: language=en-US -->",
+        "translatedContent": "<!-- LTeX: language=en-US -->"
+      },
+      {
+        "row": 2,
+        "rowsha": "r97HrTf5IUVjz7F+BayPL/6dm7pg+W4QO22NL6qx8fM=",
+        "originContent": "# gitignore.nvim",
+        "translatedContent": "# gitignore.nvim"
+      },
+      {
+        "row": 3,
+        "rowsha": "JRtzSSOzYUdAp0uAjrOrJ5Kj3c/7n6MO9tHmbd2dxyE=",
+        "originContent": "![gitignore.nvim logo banner](https://github.com/wintermute-cell/gitignore.nvim/blob/resources/_resources/banner.webp)",
+        "translatedContent": "![gitignore.nvim 로고 배너](https://github.com/wintermute-cell/gitignore.nvim/blob/resources/_resources/banner.webp)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "YZpl7QrGo4wGML9L/kGNCTGrRyBnNiIpUa8qMj5XgIc=",
+        "originContent": "A neovim plugin for generating .gitignore files in seconds, by allowing you to",
+        "translatedContent": "수많은 다양한 기술 중에서 선택하여 몇 초 만에 .gitignore 파일을 생성할 수 있는 네오빔 플러그인입니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "XnMnMhcxXljE7MSl6CRy4zjCTdXSrwUswao7KR1/9cc=",
+        "originContent": "select from a huge number of different technologies.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 플러그인은 [gitignore.io](https://www.toptal.com/developers/gitignore/)에서 제공하는 서비스와 기능적으로 동일하지만, 오프라인에서 그리고 네오빔 내부에서 직접 `.gitignore` 파일을 생성할 수 있습니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "HqKnR6ax1eJGG9zo/Jgp4h/yFCW7gK8gBbVEp15J9dU=",
+        "originContent": "This plugin is functionally identical to the service offered by",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "r0eVcTSoUdfAy/egdVjDMCLbAWWQ1onJmPEGbx/RyVQ=",
+        "originContent": "[gitignore.io](https://www.toptal.com/developers/gitignore/), but capable of",
+        "translatedContent": "1. [설치](#installation--dependencies)"
+      },
+      {
+        "row": 10,
+        "rowsha": "Ei8TzqzTfbNq8O8XfI0/UUxYRdBR8xtzL2BKKI8PvUU=",
+        "originContent": "generating `.gitignore` files offline, and directly from within neovim.",
+        "translatedContent": "2. [사용법](#usage)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. [데모](#demo)"
+      },
+      {
+        "row": 12,
+        "rowsha": "uOzAyCVkmDQ1S16O4SGPHMFGn3qtFY0r2igllJHVfeQ=",
+        "originContent": "1. [Installation](#installation--dependencies)",
+        "translatedContent": "4. [크레딧](#credits)"
+      },
+      {
+        "row": 13,
+        "rowsha": "2maOBvrIxYkEGyULe0jXWqB/yINI+YNoStUAAH1FuJk=",
+        "originContent": "2. [Usage](#usage)",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "XtY/zeYmh67/YXhVJmmHze/Mh7v6xgW8POfKcG/lLyY=",
+        "originContent": "3. [Demo](#demo)",
+        "translatedContent": "## 설치 및 의존성"
+      },
+      {
+        "row": 15,
+        "rowsha": "XlDPUwzNR8NRb87S8nvZpB8C9XjbUzuVCgq/1SpTuBk=",
+        "originContent": "4. [Credits](#credits)",
+        "translatedContent": "**`gitignore.nvim`은 선택적으로 [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)에 의존하여 [다중 선택](#selecting-multiple-items)을 제공합니다. [telescope](https://github.com/nvim-telescope/telescope.nvim#installation)를 설치하지 않으면 여러 기술을 선택할 수 없습니다.**"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "ayKgFTbHROCcpb58+JCh4E+4HRnJAbIDYPF5k7UWfws=",
+        "originContent": "## Installation & Dependencies",
+        "translatedContent": "`telescope.nvim`을 설치한 후, 다음과 같이 `gitignore.nvim`을 설치할 수 있습니다:"
+      },
+      {
+        "row": 18,
+        "rowsha": "+0OVweMk5jkdMEk8thsvqT3BDfsgXVC0hR8+/HlG2FE=",
+        "originContent": "**`gitignore.nvim` optionally depends on",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "GrPtLls9IuhzlKhUBze3aXn/B5TV3mkDqE0aPyi3ZNM=",
+        "originContent": "[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) to provide",
+        "translatedContent": "[lazy.nvim](https://github.com/folke/lazy.nvim) 사용하기"
+      },
+      {
+        "row": 20,
+        "rowsha": "kyG1i8EjRjy8xz1D01OrXTu9Utu/Za/lXN6PYmZgfBI=",
+        "originContent": "[multi-selection](#selecting-multiple-items). Without [installing",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "1hlCUf2Y6V7XhyGx3zsF4kUtv7SwQpOmcvTl7CRtApM=",
+        "originContent": "telescope](https://github.com/nvim-telescope/telescope.nvim#installation) you",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "Wzo2Q5mwvUbonKvkAF1g4JZ3auXr/W2lzjp0fLVKNeg=",
+        "originContent": "will not be able to select multiple technologies.**",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "F/A6TwY2ZElzCuwypiNrHBV/adUO0x6VHR35XlBN32g=",
+        "originContent": "After installing `telescope.nvim`, you can install `gitignore.nvim` like this:",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "NruegceYh+iiG/IgbzfhnjirSrZLCJPJMJsl0e3MmfM=",
+        "originContent": "Using [lazy.nvim](https://github.com/folke/lazy.nvim)",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```lua\n{\"wintermute-cell/gitignore.nvim\",\n    config = function()\n        require('gitignore')\n    end,\n}\n```",
+    "ContentSha": "RFXQToMOcFJ0XdJf6WvpeNXefhd+RNdg7rUXvS2VL0g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\n{\"wintermute-cell/gitignore.nvim\",\n    config = function()\n        require('gitignore')\n    end,\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "9WVVskhjiCc1qlypFDuiF8Kom1TQQ5pRWNVAD4jHWko=",
+        "originContent": "{\"wintermute-cell/gitignore.nvim\",",
+        "translatedContent": "{\"wintermute-cell/gitignore.nvim\","
+      },
+      {
+        "row": 3,
+        "rowsha": "TtYHI739T/CTXucuyVUj6dn2Ho9BmvZxZCWw0kkBjQE=",
+        "originContent": "    config = function()",
+        "translatedContent": "    config = function()"
+      },
+      {
+        "row": 4,
+        "rowsha": "2OBFUhv6WyPihCWT61Fb0nKF4B/gxLbR8pfiebpSahI=",
+        "originContent": "        require('gitignore')",
+        "translatedContent": "        require('gitignore')"
+      },
+      {
+        "row": 5,
+        "rowsha": "I56Vy6eR1hVmH9glMC5Pfxm6noO9PqSqjp/2hDea44k=",
+        "originContent": "    end,",
+        "translatedContent": "    end,"
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nUsing [packer.nvim](https://github.com/wbthomason/packer.nvim):",
+    "ContentSha": "f0UPQLxaNSW3LqrEYj18ja+qSTy4DUAJb8MuPz4FX0U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n[packer.nvim](https://github.com/wbthomason/packer.nvim) 사용:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "n/b8bAE1mqjoWjRqOUpLnWGP6+1ahAdvIYwo697rwIs=",
+        "originContent": "Using [packer.nvim](https://github.com/wbthomason/packer.nvim):",
+        "translatedContent": "[packer.nvim](https://github.com/wbthomason/packer.nvim) 사용:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```lua\nuse({\n     \"wintermute-cell/gitignore.nvim\",\n     requires = {\n        \"nvim-telescope/telescope.nvim\" -- optional: for multi-select\n     }\n})\n```",
+    "ContentSha": "0Ku7Rtpnwf2joaiYAgcSnSjBOSv+aNJf77coqfMUOpE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nuse({\n     \"wintermute-cell/gitignore.nvim\",\n     requires = {\n        \"nvim-telescope/telescope.nvim\" -- optional: for multi-select\n     }\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "WEXQnJTGf0M3RwRPXz8hMWkHh5g5jlxpalMJnyxZRQg=",
+        "originContent": "use({",
+        "translatedContent": "use({"
+      },
+      {
+        "row": 3,
+        "rowsha": "SCRBS2RbYfkQMLlEUQsB3sAe+6IEq52kVRBeuuXY3fo=",
+        "originContent": "     \"wintermute-cell/gitignore.nvim\",",
+        "translatedContent": "     \"wintermute-cell/gitignore.nvim\","
+      },
+      {
+        "row": 4,
+        "rowsha": "gz2CMNpOoXLDXmhFKYvUQOQ9YyzdKizdBDGEyQc2wZ8=",
+        "originContent": "     requires = {",
+        "translatedContent": "     requires = {"
+      },
+      {
+        "row": 5,
+        "rowsha": "a9WL8TuxdavJpgF0UPkNpEVUtH36XQYLSWtwYpi+GH0=",
+        "originContent": "        \"nvim-telescope/telescope.nvim\" -- optional: for multi-select",
+        "translatedContent": "        \"nvim-telescope/telescope.nvim\" -- optional: for multi-select"
+      },
+      {
+        "row": 6,
+        "rowsha": "8sqZ85E8xphQNtsNI0/TQ+F1NuC6XqvK9jb2o2Ji2xk=",
+        "originContent": "     }",
+        "translatedContent": "     }"
+      },
+      {
+        "row": 7,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Usage\nThis plugin ships with only one command which when run,\nit will create a buffer with the `.gitignore` contents:",
+    "ContentSha": "bQ6ya4kix4TqPwCe/95g5PVmeeU6CJ8Xz7UiyeVHwsU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 사용법\n이 플러그인은 하나의 명령어만 제공하며 실행 시,\n`.gitignore` 내용이 담긴 버퍼를 생성합니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 3,
+        "rowsha": "KQ9ZYd+299jDewEjHbKD0y93FS5qqLBmIHt1JMb3+qo=",
+        "originContent": "This plugin ships with only one command which when run,",
+        "translatedContent": "이 플러그인은 하나의 명령어만 제공하며 실행 시,"
+      },
+      {
+        "row": 4,
+        "rowsha": "NZZfOdJK8E9zZ6kdAip+1HqnwnzGyxoZ4oSEUEzVdLQ=",
+        "originContent": "it will create a buffer with the `.gitignore` contents:",
+        "translatedContent": "`.gitignore` 내용이 담긴 버퍼를 생성합니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\n:Gitignore [path]\n```",
+    "ContentSha": "kFQJrJC8vWeHRmwVqDqx6cRboCHhEnOWYc/LSGChgYM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n:Gitignore [path]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "p+jFc3ReHVHBczpyAGE4pBTk/10MoyZ+JEb2MrxEmns=",
+        "originContent": ":Gitignore [path]",
+        "translatedContent": ":Gitignore [path]"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "If an existing `.gitignore` is found, the generated contents will be appended\nto the existing lines. The buffer will not save automatically, so there is no\nrisk of overwriting an existing `.gitignore`.\n\nYou can **optionally** pass a `path` argument to point the command to a\nspecific directory (for example if you have nested `.gitignore` files).\n\nAlternatively, you can use the corresponding `lua` function directly, for\nexample to create a keymap:",
+    "ContentSha": "hnBOT/v5oX7v6uJqvBOOX4arGJdcxiV6pBPhNWs/Ncs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "기존 `.gitignore` 파일이 발견되면, 생성된 내용은 기존 줄 뒤에 추가됩니다. 버퍼는 자동으로 저장되지 않으므로 기존 `.gitignore` 파일이 덮어써질 위험이 없습니다.\n\n명령어에 `path` 인수를 **선택적으로** 전달하여 특정 디렉토리를 지정할 수 있습니다 (예: 중첩된 `.gitignore` 파일이 있는 경우).\n\n또는 대응하는 `lua` 함수를 직접 사용할 수도 있습니다. 예를 들어 키맵을 생성하려면:\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pCniEiKLmHKdptTN6l0+ySPjwnLN0gyY0oUy3ayQ7m0=",
+        "originContent": "If an existing `.gitignore` is found, the generated contents will be appended",
+        "translatedContent": "기존 `.gitignore` 파일이 발견되면, 생성된 내용은 기존 줄 뒤에 추가됩니다. 버퍼는 자동으로 저장되지 않으므로 기존 `.gitignore` 파일이 덮어써질 위험이 없습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "t7eqJAGglwmoF3w7mWJC+AkF2L1bo3KuSYiV1k0ydZU=",
+        "originContent": "to the existing lines. The buffer will not save automatically, so there is no",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "T1L0s1yPSlGOVTwBwSXtHq75qTGfa+qYK9lalKOA7Qc=",
+        "originContent": "risk of overwriting an existing `.gitignore`.",
+        "translatedContent": "명령어에 `path` 인수를 **선택적으로** 전달하여 특정 디렉토리를 지정할 수 있습니다 (예: 중첩된 `.gitignore` 파일이 있는 경우)."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Yw8Ix6dRlM1Zf2Xt+LYOYR2sTGOYJALJXGRsn7WnaBo=",
+        "originContent": "You can **optionally** pass a `path` argument to point the command to a",
+        "translatedContent": "또는 대응하는 `lua` 함수를 직접 사용할 수도 있습니다. 예를 들어 키맵을 생성하려면:"
+      },
+      {
+        "row": 6,
+        "rowsha": "Cv0os0os2mSX4NP6WkJP+MeMAyT7DF00Jgq+SNziq3o=",
+        "originContent": "specific directory (for example if you have nested `.gitignore` files).",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "JO4PbuapS7bKttlQwniRyZYRQfby4pxwE5y/EKMh82Q=",
+        "originContent": "Alternatively, you can use the corresponding `lua` function directly, for",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "1BC6zXvcCZUmqpCh7zBs0KxSIXhYQTWoSsuMzU4bqbc=",
+        "originContent": "example to create a keymap:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```lua\nlocal gitignore = require(\"gitignore\")\nvim.keymap.set(\"n\", \"<leader>gi\", gitignore.generate)\n```",
+    "ContentSha": "t7xfFb/3SCSLkNZMdlZlTtsvcw0BQT5xis+DetgK84U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nlocal gitignore = require(\"gitignore\")\nvim.keymap.set(\"n\", \"<leader>gi\", gitignore.generate)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "rH4h/PFDpV5zO0rTr9yWemG/aao8tWD770L2ahD28hU=",
+        "originContent": "local gitignore = require(\"gitignore\")",
+        "translatedContent": "local gitignore = require(\"gitignore\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "1BdQEcEEnyJHwb54wYw1TrwAh1YO09ob6xWeIWLlUUk=",
+        "originContent": "vim.keymap.set(\"n\", \"<leader>gi\", gitignore.generate)",
+        "translatedContent": "vim.keymap.set(\"n\", \"<leader>gi\", gitignore.generate)"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nOr with a path:",
+    "ContentSha": "VvE4oBn05nWgHzitVqQIcsmWaVkqlpTQhWgJ21P33/o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "또는 경로와 함께:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "또는 경로와 함께:"
+      },
+      {
+        "row": 2,
+        "rowsha": "xIeay39ntBkIiL2BmZB5xaSD9HISMHu2+IoMeo/7lh0=",
+        "originContent": "Or with a path:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```lua\nlocal gitignore = require(\"gitignore\")\nlocal my_path = \"./some/path\"\nvim.keymap.set(\"n\", \"<leader>gi\",\n    function ()\n        gitignore.generate(my_path)\n    end\n)\n```",
+    "ContentSha": "/SGg5ZsO6fg0e7RgBLsu4Ld245EdPvhs4WnvC3tZWX4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nlocal gitignore = require(\"gitignore\")\nlocal my_path = \"./some/path\"\nvim.keymap.set(\"n\", \"<leader>gi\",\n    function ()\n        gitignore.generate(my_path)\n    end\n)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "rH4h/PFDpV5zO0rTr9yWemG/aao8tWD770L2ahD28hU=",
+        "originContent": "local gitignore = require(\"gitignore\")",
+        "translatedContent": "local gitignore = require(\"gitignore\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "5b9YzUZgDvRY76Vf+xENeHBt7mW9r2DK1OIr+g37isE=",
+        "originContent": "local my_path = \"./some/path\"",
+        "translatedContent": "local my_path = \"./some/path\""
+      },
+      {
+        "row": 4,
+        "rowsha": "3HP8z4uNf+3eHbfmLpdR+gOcLZ9/KxuBApNnk0XkeH4=",
+        "originContent": "vim.keymap.set(\"n\", \"<leader>gi\",",
+        "translatedContent": "vim.keymap.set(\"n\", \"<leader>gi\","
+      },
+      {
+        "row": 5,
+        "rowsha": "GWTECtReCIkA+2sjhNoRz/Y+X7wetHMED/v6I8ojo5k=",
+        "originContent": "    function ()",
+        "translatedContent": "    function ()"
+      },
+      {
+        "row": 6,
+        "rowsha": "Day7zmj8HL1xqUdJu8XtiEPSCswvw/HoytgMquEcYow=",
+        "originContent": "        gitignore.generate(my_path)",
+        "translatedContent": "        gitignore.generate(my_path)"
+      },
+      {
+        "row": 7,
+        "rowsha": "gvoVxHL5c5ZCFTBleU4mILUDJKIFcP+s+BQjx5nYXiw=",
+        "originContent": "    end",
+        "translatedContent": "    end"
+      },
+      {
+        "row": 8,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### Selecting multiple items\nWithout telescope, `gitignore.nvim` does not allow you to select multiple\ntechnologies for your `.gitignore`, since the fallback picker, `vim.ui.select()`,\ncan only select one item.\nTherefore, if you want to be able to select multiple technologies, you must\neither [install\ntelescope.nvim](https://github.com/nvim-telescope/telescope.nvim#installation)\n(you may find an example using `packer.nvim` in the\n[Installation](#installation--dependencies) section), or override the provided\n`generate` method with your own implementation ([see section\nbelow](#custom-picker)).\n\n`gitignore.nvim` will detect if `telescope.nvim` is installed and use it\nautomatically, there is no further configuration required.\n\n### Selecting multiple items with telescope.nvim installed\n`gitignore.nvim` makes use of `telescope.nvim`'s multi-selection keybinds.\nThis means that by default, you can (de-)select multiple keywords with `<Tab>`,\nand confirm your selection with `<CR>` (Enter).\nIn case of multiple selected keywords, the keyword highlighted you press `<CR>`\non will **not** be added to the selection!\n\nFor convenience, when no multi-selection is made before pressing `<CR>`,\n`<CR>` will actually add the highlighted item to the selection, and create\na `.gitignore` file for the single keyword.\n\n## Configuration\nIf you want the `:Gitignore` command to overwrite your current `.gitignore`\ninstead of appending to it, you can set:",
+    "ContentSha": "nC07cY1Evvwv+6Y6sHk+HMebcmtkrm3yVgOoe5cdfJ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 여러 항목 선택하기\n텔레스코프 없이 `gitignore.nvim`은 `.gitignore`에 대해 여러\n기술을 선택할 수 없습니다. 이는 대체 선택기인 `vim.ui.select()`가\n한 항목만 선택할 수 있기 때문입니다.\n따라서 여러 기술을 선택하려면\n[telescope.nvim을 설치](https://github.com/nvim-telescope/telescope.nvim#installation)\n해야 하며(예시는\n[설치](#installation--dependencies) 섹션에서 `packer.nvim`을 사용하는 예를 찾을 수 있습니다),\n또는 제공된 `generate` 메서드를 직접 구현으로\n재정의해야 합니다([아래 섹션 참조](#custom-picker)).\n\n`gitignore.nvim`은 `telescope.nvim`이 설치되어 있으면 자동으로 감지하여\n사용하므로 추가 구성이 필요 없습니다.\n\n### telescope.nvim 설치 시 여러 항목 선택하기\n`gitignore.nvim`은 `telescope.nvim`의 다중 선택 키 바인딩을 사용합니다.\n즉, 기본적으로 `<Tab>`으로 여러 키워드를 (선택/선택 해제)할 수 있고,\n`<CR>`(엔터)로 선택을 확정할 수 있습니다.\n여러 키워드가 선택된 경우, `<CR>`을 누른 강조 표시된 키워드는\n선택에 **추가되지 않습니다**!\n\n편의를 위해 `<CR>`을 누르기 전 다중 선택이 없으면,\n`<CR>`이 강조된 항목을 선택에 추가하고 단일 키워드에 대한\n`.gitignore` 파일을 생성합니다.\n\n## 설정\n`:Gitignore` 명령어가 현재 `.gitignore`에 덧붙이는 대신\n덮어쓰기를 하도록 하려면 다음을 설정할 수 있습니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 여러 항목 선택하기"
+      },
+      {
+        "row": 2,
+        "rowsha": "SxbzKnHdoCmz91PrB0KpdBHVZ2T2t1FHVYOpOLzEn0Y=",
+        "originContent": "### Selecting multiple items",
+        "translatedContent": "텔레스코프 없이 `gitignore.nvim`은 `.gitignore`에 대해 여러"
+      },
+      {
+        "row": 3,
+        "rowsha": "QbJFN1ME6/zA3a1jrpc7cF3WGN2JlqO/GYaBRnUywWU=",
+        "originContent": "Without telescope, `gitignore.nvim` does not allow you to select multiple",
+        "translatedContent": "기술을 선택할 수 없습니다. 이는 대체 선택기인 `vim.ui.select()`가"
+      },
+      {
+        "row": 4,
+        "rowsha": "oTWZqcaYdKFFrKnzVJvPjzg1s0tCD0l5J+hdUZKp24k=",
+        "originContent": "technologies for your `.gitignore`, since the fallback picker, `vim.ui.select()`,",
+        "translatedContent": "한 항목만 선택할 수 있기 때문입니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "sa11A6KuNEV/8P5/RuHKTgUEp7hD6WUsYqCGQefGhVY=",
+        "originContent": "can only select one item.",
+        "translatedContent": "따라서 여러 기술을 선택하려면"
+      },
+      {
+        "row": 6,
+        "rowsha": "VzAhkexM7XmxsI9MNqypOXzY8MKPzZeLSjxcem82qVo=",
+        "originContent": "Therefore, if you want to be able to select multiple technologies, you must",
+        "translatedContent": "[telescope.nvim을 설치](https://github.com/nvim-telescope/telescope.nvim#installation)"
+      },
+      {
+        "row": 7,
+        "rowsha": "1IvTPEqU52ZEKFu6qni8MCSCFfm5S9+I0zMc/JkmV9w=",
+        "originContent": "either [install",
+        "translatedContent": "해야 하며(예시는"
+      },
+      {
+        "row": 8,
+        "rowsha": "eTuEboSQs8T/0dY5/62Npt6m/bjtrT0RgCk7xa3p3uU=",
+        "originContent": "telescope.nvim](https://github.com/nvim-telescope/telescope.nvim#installation)",
+        "translatedContent": "[설치](#installation--dependencies) 섹션에서 `packer.nvim`을 사용하는 예를 찾을 수 있습니다),"
+      },
+      {
+        "row": 9,
+        "rowsha": "IQCmcI7u1Cy6LzBhSvVKYYfp64SSgTqDZqSdVTH3LSg=",
+        "originContent": "(you may find an example using `packer.nvim` in the",
+        "translatedContent": "또는 제공된 `generate` 메서드를 직접 구현으로"
+      },
+      {
+        "row": 10,
+        "rowsha": "1uzEwgWoXQp95XnllWDxZXzCpI5DoEPMswTEzx/+FBc=",
+        "originContent": "[Installation](#installation--dependencies) section), or override the provided",
+        "translatedContent": "재정의해야 합니다([아래 섹션 참조](#custom-picker))."
+      },
+      {
+        "row": 11,
+        "rowsha": "aYoxOkC8WPIO8NQjoI+texMtooAH1hvmamIVqRyR778=",
+        "originContent": "`generate` method with your own implementation ([see section",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "IOjHncwB9X/+mZQljVQpT598f/xX+c1NI81TiDVTHK0=",
+        "originContent": "below](#custom-picker)).",
+        "translatedContent": "`gitignore.nvim`은 `telescope.nvim`이 설치되어 있으면 자동으로 감지하여"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "사용하므로 추가 구성이 필요 없습니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "k+mLwW3MU7G+22Umm8cS+WZxCP/+z8Zf5XV+ttNcgiM=",
+        "originContent": "`gitignore.nvim` will detect if `telescope.nvim` is installed and use it",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "18nPywUNYuX4g269o6MwMeb/q0IijZA4Z7WIENiJ3Cw=",
+        "originContent": "automatically, there is no further configuration required.",
+        "translatedContent": "### telescope.nvim 설치 시 여러 항목 선택하기"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`gitignore.nvim`은 `telescope.nvim`의 다중 선택 키 바인딩을 사용합니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "9l/D1YzLZlvQT6CcReDOyWUCCMd0DtT4CM4G+OMQ6JQ=",
+        "originContent": "### Selecting multiple items with telescope.nvim installed",
+        "translatedContent": "즉, 기본적으로 `<Tab>`으로 여러 키워드를 (선택/선택 해제)할 수 있고,"
+      },
+      {
+        "row": 18,
+        "rowsha": "U1x3XCejZrlNor8/8mz1KIMc1qOS2e/IrdantSgBH+Y=",
+        "originContent": "`gitignore.nvim` makes use of `telescope.nvim`'s multi-selection keybinds.",
+        "translatedContent": "`<CR>`(엔터)로 선택을 확정할 수 있습니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "cjj6I0Vx7T17C+mxeNQVd5As/oMteV35S7VY8yPVbJY=",
+        "originContent": "This means that by default, you can (de-)select multiple keywords with `<Tab>`,",
+        "translatedContent": "여러 키워드가 선택된 경우, `<CR>`을 누른 강조 표시된 키워드는"
+      },
+      {
+        "row": 20,
+        "rowsha": "zLNea48UjVHmkA/AUYPJDwig2aHGx23fCNc3LOc4dPE=",
+        "originContent": "and confirm your selection with `<CR>` (Enter).",
+        "translatedContent": "선택에 **추가되지 않습니다**!"
+      },
+      {
+        "row": 21,
+        "rowsha": "5wZWr3A5PNpv5pnqcCF1eewTNSk/SB/4XWb8fdTiWQc=",
+        "originContent": "In case of multiple selected keywords, the keyword highlighted you press `<CR>`",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "LGXxWsOgBBZCbVm3yaT5B6X4kXqE1g/13/ii6vJFKD0=",
+        "originContent": "on will **not** be added to the selection!",
+        "translatedContent": "편의를 위해 `<CR>`을 누르기 전 다중 선택이 없으면,"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`<CR>`이 강조된 항목을 선택에 추가하고 단일 키워드에 대한"
+      },
+      {
+        "row": 24,
+        "rowsha": "LIL0l+Ov7GH5z5SO2qXoQXjssRS6zvcXtGqXULoIkr0=",
+        "originContent": "For convenience, when no multi-selection is made before pressing `<CR>`,",
+        "translatedContent": "`.gitignore` 파일을 생성합니다."
+      },
+      {
+        "row": 25,
+        "rowsha": "LYeW1APsgS6ATNPIW5HqTEFLdGeoRSeS2nc9z91vpxo=",
+        "originContent": "`<CR>` will actually add the highlighted item to the selection, and create",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "Mqowqs9YKqwCOpddY5qqPBGEnbHylvP8afUhgSBWCB4=",
+        "originContent": "a `.gitignore` file for the single keyword.",
+        "translatedContent": "## 설정"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`:Gitignore` 명령어가 현재 `.gitignore`에 덧붙이는 대신"
+      },
+      {
+        "row": 28,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": "덮어쓰기를 하도록 하려면 다음을 설정할 수 있습니다:"
+      },
+      {
+        "row": 29,
+        "rowsha": "d6C19YsBPPLXgBDqaUvBxCoVOtY5ZM77U8sba/Wekvo=",
+        "originContent": "If you want the `:Gitignore` command to overwrite your current `.gitignore`",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "VeWPermJL6rUlGAsR2wzkuC1KHpXpjWrA8wahNxA3SM=",
+        "originContent": "instead of appending to it, you can set:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```lua\nvim.g.gitignore_nvim_overwrite = true\n```",
+    "ContentSha": "D6arhzwycBGK+/0LkA9LQGuFpGGjU2MVs5ZtroVeWOo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nvim.g.gitignore_nvim_overwrite = true\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "4kt1eiyf4pK1qHBzBaWdZykSsqkrxZxs0NhfJz7cHQE=",
+        "originContent": "vim.g.gitignore_nvim_overwrite = true",
+        "translatedContent": "vim.g.gitignore_nvim_overwrite = true"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "If this variable is set to `false`, or not set at all, `:Gitignore` will take\ninto account an existing `.gitignore`.\n\nAlternatively, you may call the command with a bang, like this:",
+    "ContentSha": "+ofAiXJ3qv93Tvr+4Qr0qcCDXn7fy86WZ+CLWlVkXRk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "이 변수가 `false`로 설정되었거나 전혀 설정되지 않은 경우, `:Gitignore`는  \n기존 `.gitignore`를 고려합니다.  \n\n또는, 명령어를 느낌표와 함께 호출할 수도 있습니다, 다음과 같이:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pCbOw/xx00UOFj/bHvg7qeXlEYKcYtFuMDCqUaLt9PM=",
+        "originContent": "If this variable is set to `false`, or not set at all, `:Gitignore` will take",
+        "translatedContent": "이 변수가 `false`로 설정되었거나 전혀 설정되지 않은 경우, `:Gitignore`는  "
+      },
+      {
+        "row": 2,
+        "rowsha": "XU8czAJEO5becU8qmI/gx7QqVY32kpG8Lkyj8BGRjk8=",
+        "originContent": "into account an existing `.gitignore`.",
+        "translatedContent": "기존 `.gitignore`를 고려합니다.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "F+/wjri4rSGXisQ5vdcOVXhL/YNcc/a2eTRG3xDUqxI=",
+        "originContent": "Alternatively, you may call the command with a bang, like this:",
+        "translatedContent": "또는, 명령어를 느낌표와 함께 호출할 수도 있습니다, 다음과 같이:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\n:Gitignore! [path]\n```",
+    "ContentSha": "SGpdHEnseesTmpS/DOs5zdTnum8IrlWRr/8GWaJjam0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n:Gitignore! [path]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Z9h9DNSHuUvTw0rVpwytlQyL/oWdZp6Kv2BTQ9tZ1Ik=",
+        "originContent": ":Gitignore! [path]",
+        "translatedContent": ":Gitignore! [path]"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "This will have the same effect as setting `vim.g.gitignore_nvim_overwrite = true` for a single call.\n\n### Custom Picker\n\nInstead of using `telescope.nvim` or the native `vim.ui.select()`, you may\nimplement your own solution according to the following contract:\n1. `gitignore.nvim` provides list of templateNames and two methods `generate` and `createGititnoreBuffer`.\n2. As its first parameter, the `generate` method will receive an `opts` table, containing the target path for the `.gitignore` in `opts.args`.\n3. One must pass on `opts.args`, and a list of selected templateNames to `createGitignoreBuffer`.\n\nHere's an example implementation using fzf-lua:",
+    "ContentSha": "EVb4t1dhiLntZfJuW2z+dWknQ55nr/cn1rwwPTToLlI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "이것은 단일 호출에 대해 `vim.g.gitignore_nvim_overwrite = true`를 설정하는 것과 동일한 효과를 가집니다.\n\n### 사용자 지정 선택기\n\n`telescope.nvim` 또는 기본 `vim.ui.select()` 대신,\n다음 계약에 따라 자신의 솔루션을 구현할 수 있습니다:\n1. `gitignore.nvim`은 템플릿 이름 목록과 두 가지 메서드 `generate` 및 `createGitignoreBuffer`를 제공합니다.\n2. `generate` 메서드는 첫 번째 매개변수로 `.gitignore`의 대상 경로가 `opts.args`에 포함된 `opts` 테이블을 받습니다.\n3. `createGitignoreBuffer`에는 `opts.args`와 선택된 템플릿 이름 목록을 전달해야 합니다.\n\n다음은 fzf-lua를 사용한 예제 구현입니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "XGAKBzYyKmL4tvFTqgTbn9iKxaCrjy225xYqi6+yu9U=",
+        "originContent": "This will have the same effect as setting `vim.g.gitignore_nvim_overwrite = true` for a single call.",
+        "translatedContent": "이것은 단일 호출에 대해 `vim.g.gitignore_nvim_overwrite = true`를 설정하는 것과 동일한 효과를 가집니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Pd4CSbL7lYUhG1/CZ/etUxTRMO3/6v9dLPawxoCsNQ0=",
+        "originContent": "### Custom Picker",
+        "translatedContent": "### 사용자 지정 선택기"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ucwppcXbvw3bBFZprGP53FYymUKyVqoCJx19VQEKSl8=",
+        "originContent": "Instead of using `telescope.nvim` or the native `vim.ui.select()`, you may",
+        "translatedContent": "`telescope.nvim` 또는 기본 `vim.ui.select()` 대신,"
+      },
+      {
+        "row": 6,
+        "rowsha": "nEfqh1E5KM+GCI/nESpm10KM8mCuytkReI1bwMgBQ2Y=",
+        "originContent": "implement your own solution according to the following contract:",
+        "translatedContent": "다음 계약에 따라 자신의 솔루션을 구현할 수 있습니다:"
+      },
+      {
+        "row": 7,
+        "rowsha": "CHPfV0BOiOCgK3/iwtm4fSS0hklKuiHMC7OxPF97tzI=",
+        "originContent": "1. `gitignore.nvim` provides list of templateNames and two methods `generate` and `createGititnoreBuffer`.",
+        "translatedContent": "1. `gitignore.nvim`은 템플릿 이름 목록과 두 가지 메서드 `generate` 및 `createGitignoreBuffer`를 제공합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "d/dsUAexbh4r2gHY0p2M37uPGAVVwl1sSN3EYjJFT+s=",
+        "originContent": "2. As its first parameter, the `generate` method will receive an `opts` table, containing the target path for the `.gitignore` in `opts.args`.",
+        "translatedContent": "2. `generate` 메서드는 첫 번째 매개변수로 `.gitignore`의 대상 경로가 `opts.args`에 포함된 `opts` 테이블을 받습니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "Joa6h14gEv7lAL7loGNZ0Ka2JMQlGW4TuYQr9ep1rSs=",
+        "originContent": "3. One must pass on `opts.args`, and a list of selected templateNames to `createGitignoreBuffer`.",
+        "translatedContent": "3. `createGitignoreBuffer`에는 `opts.args`와 선택된 템플릿 이름 목록을 전달해야 합니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "k5UutXK/NoSacguk4oNbZEd4Ree1jTdm8HnU0Z1U8pU=",
+        "originContent": "Here's an example implementation using fzf-lua:",
+        "translatedContent": "다음은 fzf-lua를 사용한 예제 구현입니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```lua\nlocal gitignore = require(\"gitignore\")\nlocal fzf = require(\"fzf-lua\")\n\ngitignore.generate = function(opts)\n    local picker_opts = {\n        -- the content of opts.args may also be displayed here for example.\n        prompt = \"Select templates for gitignore file> \",\n        winopts = {\n            width = 0.4,\n            height = 0.3,\n        },\n        actions = {\n            default = function(selected, _)\n                -- as stated in point (3) of the contract above, opts.args and\n                -- a list of selected templateNames are passed.\n                gitignore.createGitignoreBuffer(opts.args, selected)\n            end,\n        },\n    }\n    fzf.fzf_exec(function(fzf_cb)\n        for _, prefix in ipairs(gitignore.templateNames) do\n            fzf_cb(prefix)\n        end\n        fzf_cb()\n    end, picker_opts)\nend\n```",
+    "ContentSha": "ame9oAjWY4FH2rj4CbX2ZzTCuDRCeV05heD30jC1fAE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nlocal gitignore = require(\"gitignore\")\nlocal fzf = require(\"fzf-lua\")\n\ngitignore.generate = function(opts)\n    local picker_opts = {\n        -- the content of opts.args may also be displayed here for example.\n        prompt = \"Select templates for gitignore file> \",\n        winopts = {\n            width = 0.4,\n            height = 0.3,\n        },\n        actions = {\n            default = function(selected, _)\n                -- as stated in point (3) of the contract above, opts.args and\n                -- a list of selected templateNames are passed.\n                gitignore.createGitignoreBuffer(opts.args, selected)\n            end,\n        },\n    }\n    fzf.fzf_exec(function(fzf_cb)\n        for _, prefix in ipairs(gitignore.templateNames) do\n            fzf_cb(prefix)\n        end\n        fzf_cb()\n    end, picker_opts)\nend\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "rH4h/PFDpV5zO0rTr9yWemG/aao8tWD770L2ahD28hU=",
+        "originContent": "local gitignore = require(\"gitignore\")",
+        "translatedContent": "local gitignore = require(\"gitignore\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "MzIMYZSdo/Dj+K5vAHvL8WD2+P/HZ/5oDNawiwXCwgk=",
+        "originContent": "local fzf = require(\"fzf-lua\")",
+        "translatedContent": "local fzf = require(\"fzf-lua\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "GidifrH3AD+IfCCvruGXnv6oYd+sbxArlVd3KrWULVk=",
+        "originContent": "gitignore.generate = function(opts)",
+        "translatedContent": "gitignore.generate = function(opts)"
+      },
+      {
+        "row": 6,
+        "rowsha": "sUJmX2ml2uw2S7QFJnHTqlwO2xGE1DWMnzZVISLQp78=",
+        "originContent": "    local picker_opts = {",
+        "translatedContent": "    local picker_opts = {"
+      },
+      {
+        "row": 7,
+        "rowsha": "V+kOYEZWcSjsR7qgVjhxwrnsQZNusgpm3KuyfqK3UfQ=",
+        "originContent": "        -- the content of opts.args may also be displayed here for example.",
+        "translatedContent": "        -- the content of opts.args may also be displayed here for example."
+      },
+      {
+        "row": 8,
+        "rowsha": "wRHoik/+TWjUuMa2EMt4EuXFYcdQRUO2BV3bvMusXKE=",
+        "originContent": "        prompt = \"Select templates for gitignore file> \",",
+        "translatedContent": "        prompt = \"Select templates for gitignore file> \","
+      },
+      {
+        "row": 9,
+        "rowsha": "l4Id5WH8wLFHA8egmbjp7QSwPC0/svh2hUUySUonEag=",
+        "originContent": "        winopts = {",
+        "translatedContent": "        winopts = {"
+      },
+      {
+        "row": 10,
+        "rowsha": "eb09gPTPeOCKYIobC0tNH0Oth2Y22bKDCTnOsfTDzOI=",
+        "originContent": "            width = 0.4,",
+        "translatedContent": "            width = 0.4,"
+      },
+      {
+        "row": 11,
+        "rowsha": "LDPp4ehRJqB2kFXWoNKlGJpA2m7rBejxM1jxFft5COw=",
+        "originContent": "            height = 0.3,",
+        "translatedContent": "            height = 0.3,"
+      },
+      {
+        "row": 12,
+        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+        "originContent": "        },",
+        "translatedContent": "        },"
+      },
+      {
+        "row": 13,
+        "rowsha": "PZrc1vXBzmwlnOJUSPrLKNjXBMgUz13DUEYPJlCNfiA=",
+        "originContent": "        actions = {",
+        "translatedContent": "        actions = {"
+      },
+      {
+        "row": 14,
+        "rowsha": "k+DgGjRz9z9UnYeJPhDwc0zr1R4AQVgMTVcgNby6jY4=",
+        "originContent": "            default = function(selected, _)",
+        "translatedContent": "            default = function(selected, _)"
+      },
+      {
+        "row": 15,
+        "rowsha": "bNYn+zym0+errHt+c7Qzp4CWFc2oJRiU8pymFdT17Ho=",
+        "originContent": "                -- as stated in point (3) of the contract above, opts.args and",
+        "translatedContent": "                -- as stated in point (3) of the contract above, opts.args and"
+      },
+      {
+        "row": 16,
+        "rowsha": "ScozXhtWWu5IBGPHWega2615aT1dw97SHXXuZe0oBzk=",
+        "originContent": "                -- a list of selected templateNames are passed.",
+        "translatedContent": "                -- a list of selected templateNames are passed."
+      },
+      {
+        "row": 17,
+        "rowsha": "EQ1+H3N20GOXYkoxCSv1ZnSehBPEBZgTfms6BlYEUNE=",
+        "originContent": "                gitignore.createGitignoreBuffer(opts.args, selected)",
+        "translatedContent": "                gitignore.createGitignoreBuffer(opts.args, selected)"
+      },
+      {
+        "row": 18,
+        "rowsha": "wODP6UPO92r/glY8DOWDoOoIElF1u4TMHKfQ4OkHvxE=",
+        "originContent": "            end,",
+        "translatedContent": "            end,"
+      },
+      {
+        "row": 19,
+        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+        "originContent": "        },",
+        "translatedContent": "        },"
+      },
+      {
+        "row": 20,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 21,
+        "rowsha": "oD1AtiwMupf4p3gB7jci3wzT8YkAOHMv4fc7+NZb5Ko=",
+        "originContent": "    fzf.fzf_exec(function(fzf_cb)",
+        "translatedContent": "    fzf.fzf_exec(function(fzf_cb)"
+      },
+      {
+        "row": 22,
+        "rowsha": "l66q72TbARSvlyq7t9g7aWRQWQs2BWWv9DxThUCJVro=",
+        "originContent": "        for _, prefix in ipairs(gitignore.templateNames) do",
+        "translatedContent": "        for _, prefix in ipairs(gitignore.templateNames) do"
+      },
+      {
+        "row": 23,
+        "rowsha": "INawFjHc6XmDPXfy2iOoPPzm59+plaFeE6RCUyB5cmQ=",
+        "originContent": "            fzf_cb(prefix)",
+        "translatedContent": "            fzf_cb(prefix)"
+      },
+      {
+        "row": 24,
+        "rowsha": "PWDiQHXklCHTtgKC9dUjp8S6wRGFSqolC1k1cmhf5YA=",
+        "originContent": "        end",
+        "translatedContent": "        end"
+      },
+      {
+        "row": 25,
+        "rowsha": "3/xp4j2MtHsZdLd3k9CNHNzz3LeiKeECx3CodkB1dOI=",
+        "originContent": "        fzf_cb()",
+        "translatedContent": "        fzf_cb()"
+      },
+      {
+        "row": 26,
+        "rowsha": "wyvcZ/WB8moIYMkBSlUfI2Xe11vLNf//Uv9UAl/Qask=",
+        "originContent": "    end, picker_opts)",
+        "translatedContent": "    end, picker_opts)"
+      },
+      {
+        "row": 27,
+        "rowsha": "Nh5I0DCPIOMtul+1Yyi68Y1y7wzLQ7hPXCYtKmofxsg=",
+        "originContent": "end",
+        "translatedContent": "end"
+      },
+      {
+        "row": 28,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "> __Note__\n> Note that the above will not overwrite the `:Gitignore` command.\n> To do that, recreate the command after defining your generate function as\n> follows:",
+    "ContentSha": "n5iqWkFqXsYyUli5V0RFOndlguoLeEDfOfVtPmZ7ca4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> __참고__\n> 위의 방법은 `:Gitignore` 명령어를 덮어쓰지 않습니다.\n> 그렇게 하려면, generate 함수를 정의한 후에 명령어를 다시 생성하세요.\n> 다음과 같이:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "IUep6MOnIwVWT03YTfb/RRfGtb7G0kEkMwa510066vU=",
+        "originContent": "> __Note__",
+        "translatedContent": "> __참고__"
+      },
+      {
+        "row": 2,
+        "rowsha": "NiHovNL7f3Y5EU7AL/a6vlOwExED+cR70Xal1Z4XbqQ=",
+        "originContent": "> Note that the above will not overwrite the `:Gitignore` command.",
+        "translatedContent": "> 위의 방법은 `:Gitignore` 명령어를 덮어쓰지 않습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "xz1qVapmtWNCe1wFQ3sUfd8d2i3KbdUp/9bZ3Vx1xgw=",
+        "originContent": "> To do that, recreate the command after defining your generate function as",
+        "translatedContent": "> 그렇게 하려면, generate 함수를 정의한 후에 명령어를 다시 생성하세요."
+      },
+      {
+        "row": 4,
+        "rowsha": "gHfvAQWOEtAKN8+nEWjWDFJJbTo7x32LhWr429dsTNk=",
+        "originContent": "> follows:",
+        "translatedContent": "> 다음과 같이:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```lua\nvim.api.nvim_create_user_command(\"Gitignore\", gitignore.generate, { nargs = \"?\", complete = \"file\" })\n```",
+    "ContentSha": "aCyBRR3D4Hkr4xGL04gtcX/0RlXQxU1i8tsNDfVd0sI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nvim.api.nvim_create_user_command(\"Gitignore\", gitignore.generate, { nargs = \"?\", complete = \"file\" })\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "wTRtRsQGOkmnfq7cIN/y9LfvnAnfJ0qmIgltHQgPd8o=",
+        "originContent": "vim.api.nvim_create_user_command(\"Gitignore\", gitignore.generate, { nargs = \"?\", complete = \"file\" })",
+        "translatedContent": "vim.api.nvim_create_user_command(\"Gitignore\", gitignore.generate, { nargs = \"?\", complete = \"file\" })"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n## Demo\n[![asciicast](https://asciinema.org/a/GOHXDt4kYsR8pzrxTEOIridTf.svg)](https://asciinema.org/a/GOHXDt4kYsR8pzrxTEOIridTf)\n\n## Credits\nThanks to [Toptal](https://github.com/toptal/gitignore) for providing a huge\nlist of ignore-templates!\n",
+    "ContentSha": "aiPpxEeCCnEe/PWGyzyt6qkhmRyBmswYRA8Y+Ijgu0w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 데모\n[![asciicast](https://asciinema.org/a/GOHXDt4kYsR8pzrxTEOIridTf.svg)](https://asciinema.org/a/GOHXDt4kYsR8pzrxTEOIridTf)\n\n## 크레딧\n거대한 무시 템플릿 목록을 제공해 주신 [Toptal](https://github.com/toptal/gitignore) 에 감사드립니다!\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+        "originContent": "## Demo",
+        "translatedContent": "## 데모"
+      },
+      {
+        "row": 3,
+        "rowsha": "K72Qj6o2nEFcoD2PyqYO9TS8IsfT3/9f60LzyvOiG4I=",
+        "originContent": "[![asciicast](https://asciinema.org/a/GOHXDt4kYsR8pzrxTEOIridTf.svg)](https://asciinema.org/a/GOHXDt4kYsR8pzrxTEOIridTf)",
+        "translatedContent": "[![asciicast](https://asciinema.org/a/GOHXDt4kYsR8pzrxTEOIridTf.svg)](https://asciinema.org/a/GOHXDt4kYsR8pzrxTEOIridTf)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "## 크레딧"
+      },
+      {
+        "row": 6,
+        "rowsha": "uXJqdc6xMyYW821EJiyIuSFG7h4GtOd3DYzLWM1K4Rc=",
+        "originContent": "Thanks to [Toptal](https://github.com/toptal/gitignore) for providing a huge",
+        "translatedContent": "거대한 무시 템플릿 목록을 제공해 주신 [Toptal](https://github.com/toptal/gitignore) 에 감사드립니다!"
+      },
+      {
+        "row": 7,
+        "rowsha": "sFezlGmJzVtJg075oa7AIfDOrvwmph7KPzKVchvjOoU=",
+        "originContent": "list of ignore-templates!",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

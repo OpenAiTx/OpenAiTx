@@ -1,0 +1,1010 @@
+[
+  {
+    "row": 1,
+    "rowsha": "N+fKQUTgLxIxHyRiQGcoBSVAUNYOUOeWr0HxRC/KRiA=",
+    "originContent": "<!-- LTeX: language=en-US -->",
+    "translatedContent": "<!-- LTeX: language=en-US -->"
+  },
+  {
+    "row": 2,
+    "rowsha": "r97HrTf5IUVjz7F+BayPL/6dm7pg+W4QO22NL6qx8fM=",
+    "originContent": "# gitignore.nvim",
+    "translatedContent": "# gitignore.nvim"
+  },
+  {
+    "row": 3,
+    "rowsha": "JRtzSSOzYUdAp0uAjrOrJ5Kj3c/7n6MO9tHmbd2dxyE=",
+    "originContent": "![gitignore.nvim logo banner](https://github.com/wintermute-cell/gitignore.nvim/blob/resources/_resources/banner.webp)",
+    "translatedContent": "![gitignore.nvim ロゴバナー](https://github.com/wintermute-cell/gitignore.nvim/blob/resources/_resources/banner.webp)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "YZpl7QrGo4wGML9L/kGNCTGrRyBnNiIpUa8qMj5XgIc=",
+    "originContent": "A neovim plugin for generating .gitignore files in seconds, by allowing you to",
+    "translatedContent": "数多くの異なる技術から選択できることで、数秒で .gitignore ファイルを生成する"
+  },
+  {
+    "row": 6,
+    "rowsha": "XnMnMhcxXljE7MSl6CRy4zjCTdXSrwUswao7KR1/9cc=",
+    "originContent": "select from a huge number of different technologies.",
+    "translatedContent": "neovim プラグインです。"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "HqKnR6ax1eJGG9zo/Jgp4h/yFCW7gK8gBbVEp15J9dU=",
+    "originContent": "This plugin is functionally identical to the service offered by",
+    "translatedContent": "このプラグインは、[gitignore.io](https://www.toptal.com/developers/gitignore/)"
+  },
+  {
+    "row": 9,
+    "rowsha": "r0eVcTSoUdfAy/egdVjDMCLbAWWQ1onJmPEGbx/RyVQ=",
+    "originContent": "[gitignore.io](https://www.toptal.com/developers/gitignore/), but capable of",
+    "translatedContent": "が提供するサービスと機能的に同一ですが、オフラインで、かつ neovim 内部から"
+  },
+  {
+    "row": 10,
+    "rowsha": "Ei8TzqzTfbNq8O8XfI0/UUxYRdBR8xtzL2BKKI8PvUU=",
+    "originContent": "generating `.gitignore` files offline, and directly from within neovim.",
+    "translatedContent": "直接 `.gitignore` ファイルを生成可能です。"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "uOzAyCVkmDQ1S16O4SGPHMFGn3qtFY0r2igllJHVfeQ=",
+    "originContent": "1. [Installation](#installation--dependencies)",
+    "translatedContent": "1. [インストール](#installation--dependencies)"
+  },
+  {
+    "row": 13,
+    "rowsha": "2maOBvrIxYkEGyULe0jXWqB/yINI+YNoStUAAH1FuJk=",
+    "originContent": "2. [Usage](#usage)",
+    "translatedContent": "2. [使い方](#usage)"
+  },
+  {
+    "row": 14,
+    "rowsha": "XtY/zeYmh67/YXhVJmmHze/Mh7v6xgW8POfKcG/lLyY=",
+    "originContent": "3. [Demo](#demo)",
+    "translatedContent": "3. [デモ](#demo)"
+  },
+  {
+    "row": 15,
+    "rowsha": "XlDPUwzNR8NRb87S8nvZpB8C9XjbUzuVCgq/1SpTuBk=",
+    "originContent": "4. [Credits](#credits)",
+    "translatedContent": "4. [クレジット](#credits)"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "ayKgFTbHROCcpb58+JCh4E+4HRnJAbIDYPF5k7UWfws=",
+    "originContent": "## Installation & Dependencies",
+    "translatedContent": "## インストールと依存関係"
+  },
+  {
+    "row": 18,
+    "rowsha": "+0OVweMk5jkdMEk8thsvqT3BDfsgXVC0hR8+/HlG2FE=",
+    "originContent": "**`gitignore.nvim` optionally depends on",
+    "translatedContent": "**`gitignore.nvim` はオプションで"
+  },
+  {
+    "row": 19,
+    "rowsha": "GrPtLls9IuhzlKhUBze3aXn/B5TV3mkDqE0aPyi3ZNM=",
+    "originContent": "[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) to provide",
+    "translatedContent": "[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) に依存しており、"
+  },
+  {
+    "row": 20,
+    "rowsha": "kyG1i8EjRjy8xz1D01OrXTu9Utu/Za/lXN6PYmZgfBI=",
+    "originContent": "[multi-selection](#selecting-multiple-items). Without [installing",
+    "translatedContent": "[multi-selection](#selecting-multiple-items) を提供します。**"
+  },
+  {
+    "row": 21,
+    "rowsha": "1hlCUf2Y6V7XhyGx3zsF4kUtv7SwQpOmcvTl7CRtApM=",
+    "originContent": "telescope](https://github.com/nvim-telescope/telescope.nvim#installation) you",
+    "translatedContent": "[telescope をインストール](https://github.com/nvim-telescope/telescope.nvim#installation)"
+  },
+  {
+    "row": 22,
+    "rowsha": "Wzo2Q5mwvUbonKvkAF1g4JZ3auXr/W2lzjp0fLVKNeg=",
+    "originContent": "will not be able to select multiple technologies.**",
+    "translatedContent": "しない場合、複数の技術を選択することはできません。"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "F/A6TwY2ZElzCuwypiNrHBV/adUO0x6VHR35XlBN32g=",
+    "originContent": "After installing `telescope.nvim`, you can install `gitignore.nvim` like this:",
+    "translatedContent": "`telescope.nvim` をインストールした後、`gitignore.nvim` は以下のようにインストールできます。"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "NruegceYh+iiG/IgbzfhnjirSrZLCJPJMJsl0e3MmfM=",
+    "originContent": "Using [lazy.nvim](https://github.com/folke/lazy.nvim)",
+    "translatedContent": "[lazy.nvim](https://github.com/folke/lazy.nvim) を使用して"
+  },
+  {
+    "row": 27,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 28,
+    "rowsha": "9WVVskhjiCc1qlypFDuiF8Kom1TQQ5pRWNVAD4jHWko=",
+    "originContent": "{\"wintermute-cell/gitignore.nvim\",",
+    "translatedContent": "{\"wintermute-cell/gitignore.nvim\","
+  },
+  {
+    "row": 29,
+    "rowsha": "TtYHI739T/CTXucuyVUj6dn2Ho9BmvZxZCWw0kkBjQE=",
+    "originContent": "    config = function()",
+    "translatedContent": "    config = function()"
+  },
+  {
+    "row": 30,
+    "rowsha": "2OBFUhv6WyPihCWT61Fb0nKF4B/gxLbR8pfiebpSahI=",
+    "originContent": "        require('gitignore')",
+    "translatedContent": "        require('gitignore')"
+  },
+  {
+    "row": 31,
+    "rowsha": "I56Vy6eR1hVmH9glMC5Pfxm6noO9PqSqjp/2hDea44k=",
+    "originContent": "    end,",
+    "translatedContent": "    end,"
+  },
+  {
+    "row": 32,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 33,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "n/b8bAE1mqjoWjRqOUpLnWGP6+1ahAdvIYwo697rwIs=",
+    "originContent": "Using [packer.nvim](https://github.com/wbthomason/packer.nvim):",
+    "translatedContent": "[packer.nvim](https://github.com/wbthomason/packer.nvim) を使用する場合："
+  },
+  {
+    "row": 36,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 37,
+    "rowsha": "WEXQnJTGf0M3RwRPXz8hMWkHh5g5jlxpalMJnyxZRQg=",
+    "originContent": "use({",
+    "translatedContent": "use({"
+  },
+  {
+    "row": 38,
+    "rowsha": "SCRBS2RbYfkQMLlEUQsB3sAe+6IEq52kVRBeuuXY3fo=",
+    "originContent": "     \"wintermute-cell/gitignore.nvim\",",
+    "translatedContent": "     \"wintermute-cell/gitignore.nvim\","
+  },
+  {
+    "row": 39,
+    "rowsha": "gz2CMNpOoXLDXmhFKYvUQOQ9YyzdKizdBDGEyQc2wZ8=",
+    "originContent": "     requires = {",
+    "translatedContent": "     requires = {"
+  },
+  {
+    "row": 40,
+    "rowsha": "a9WL8TuxdavJpgF0UPkNpEVUtH36XQYLSWtwYpi+GH0=",
+    "originContent": "        \"nvim-telescope/telescope.nvim\" -- optional: for multi-select",
+    "translatedContent": "        \"nvim-telescope/telescope.nvim\" -- optional: for multi-select"
+  },
+  {
+    "row": 41,
+    "rowsha": "8sqZ85E8xphQNtsNI0/TQ+F1NuC6XqvK9jb2o2Ji2xk=",
+    "originContent": "     }",
+    "translatedContent": "     }"
+  },
+  {
+    "row": 42,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用法"
+  },
+  {
+    "row": 46,
+    "rowsha": "KQ9ZYd+299jDewEjHbKD0y93FS5qqLBmIHt1JMb3+qo=",
+    "originContent": "This plugin ships with only one command which when run,",
+    "translatedContent": "このプラグインには1つのコマンドだけが搭載されており、実行すると、"
+  },
+  {
+    "row": 47,
+    "rowsha": "NZZfOdJK8E9zZ6kdAip+1HqnwnzGyxoZ4oSEUEzVdLQ=",
+    "originContent": "it will create a buffer with the `.gitignore` contents:",
+    "translatedContent": "`.gitignore`の内容を持つバッファを作成します："
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "p+jFc3ReHVHBczpyAGE4pBTk/10MoyZ+JEb2MrxEmns=",
+    "originContent": ":Gitignore [path]",
+    "translatedContent": ":Gitignore [path]"
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "pCniEiKLmHKdptTN6l0+ySPjwnLN0gyY0oUy3ayQ7m0=",
+    "originContent": "If an existing `.gitignore` is found, the generated contents will be appended",
+    "translatedContent": "既存の `.gitignore` が見つかった場合、生成された内容は既存の行に追記されます。バッファは自動的に保存されないため、既存の `.gitignore` を上書きするリスクはありません。"
+  },
+  {
+    "row": 52,
+    "rowsha": "t7eqJAGglwmoF3w7mWJC+AkF2L1bo3KuSYiV1k0ydZU=",
+    "originContent": "to the existing lines. The buffer will not save automatically, so there is no",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "T1L0s1yPSlGOVTwBwSXtHq75qTGfa+qYK9lalKOA7Qc=",
+    "originContent": "risk of overwriting an existing `.gitignore`.",
+    "translatedContent": "コマンドに `path` 引数を **任意で** 渡して、特定のディレクトリを指定することもできます（例えば、ネストされた `.gitignore` ファイルがある場合など）。"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "Yw8Ix6dRlM1Zf2Xt+LYOYR2sTGOYJALJXGRsn7WnaBo=",
+    "originContent": "You can **optionally** pass a `path` argument to point the command to a",
+    "translatedContent": "あるいは、対応する `lua` 関数を直接使用することも可能です。例えば、キーマップを作成する場合など："
+  },
+  {
+    "row": 56,
+    "rowsha": "Cv0os0os2mSX4NP6WkJP+MeMAyT7DF00Jgq+SNziq3o=",
+    "originContent": "specific directory (for example if you have nested `.gitignore` files).",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "JO4PbuapS7bKttlQwniRyZYRQfby4pxwE5y/EKMh82Q=",
+    "originContent": "Alternatively, you can use the corresponding `lua` function directly, for",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "1BC6zXvcCZUmqpCh7zBs0KxSIXhYQTWoSsuMzU4bqbc=",
+    "originContent": "example to create a keymap:",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 61,
+    "rowsha": "rH4h/PFDpV5zO0rTr9yWemG/aao8tWD770L2ahD28hU=",
+    "originContent": "local gitignore = require(\"gitignore\")",
+    "translatedContent": "local gitignore = require(\"gitignore\")"
+  },
+  {
+    "row": 62,
+    "rowsha": "1BdQEcEEnyJHwb54wYw1TrwAh1YO09ob6xWeIWLlUUk=",
+    "originContent": "vim.keymap.set(\"n\", \"<leader>gi\", gitignore.generate)",
+    "translatedContent": "vim.keymap.set(\"n\", \"<leader>gi\", gitignore.generate)"
+  },
+  {
+    "row": 63,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "またはパスを指定して:"
+  },
+  {
+    "row": 65,
+    "rowsha": "xIeay39ntBkIiL2BmZB5xaSD9HISMHu2+IoMeo/7lh0=",
+    "originContent": "Or with a path:",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 67,
+    "rowsha": "rH4h/PFDpV5zO0rTr9yWemG/aao8tWD770L2ahD28hU=",
+    "originContent": "local gitignore = require(\"gitignore\")",
+    "translatedContent": "local gitignore = require(\"gitignore\")"
+  },
+  {
+    "row": 68,
+    "rowsha": "5b9YzUZgDvRY76Vf+xENeHBt7mW9r2DK1OIr+g37isE=",
+    "originContent": "local my_path = \"./some/path\"",
+    "translatedContent": "local my_path = \"./some/path\""
+  },
+  {
+    "row": 69,
+    "rowsha": "3HP8z4uNf+3eHbfmLpdR+gOcLZ9/KxuBApNnk0XkeH4=",
+    "originContent": "vim.keymap.set(\"n\", \"<leader>gi\",",
+    "translatedContent": "vim.keymap.set(\"n\", \"<leader>gi\","
+  },
+  {
+    "row": 70,
+    "rowsha": "GWTECtReCIkA+2sjhNoRz/Y+X7wetHMED/v6I8ojo5k=",
+    "originContent": "    function ()",
+    "translatedContent": "    function ()"
+  },
+  {
+    "row": 71,
+    "rowsha": "Day7zmj8HL1xqUdJu8XtiEPSCswvw/HoytgMquEcYow=",
+    "originContent": "        gitignore.generate(my_path)",
+    "translatedContent": "        gitignore.generate(my_path)"
+  },
+  {
+    "row": 72,
+    "rowsha": "gvoVxHL5c5ZCFTBleU4mILUDJKIFcP+s+BQjx5nYXiw=",
+    "originContent": "    end",
+    "translatedContent": "    end"
+  },
+  {
+    "row": 73,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 74,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 複数アイテムの選択  "
+  },
+  {
+    "row": 76,
+    "rowsha": "SxbzKnHdoCmz91PrB0KpdBHVZ2T2t1FHVYOpOLzEn0Y=",
+    "originContent": "### Selecting multiple items",
+    "translatedContent": "telescope がない場合、`gitignore.nvim` は `.gitignore` 用の複数の  "
+  },
+  {
+    "row": 77,
+    "rowsha": "QbJFN1ME6/zA3a1jrpc7cF3WGN2JlqO/GYaBRnUywWU=",
+    "originContent": "Without telescope, `gitignore.nvim` does not allow you to select multiple",
+    "translatedContent": "技術を選択できません。フォールバックのピッカーである `vim.ui.select()` は  "
+  },
+  {
+    "row": 78,
+    "rowsha": "oTWZqcaYdKFFrKnzVJvPjzg1s0tCD0l5J+hdUZKp24k=",
+    "originContent": "technologies for your `.gitignore`, since the fallback picker, `vim.ui.select()`,",
+    "translatedContent": "1つのアイテムしか選択できないためです。  "
+  },
+  {
+    "row": 79,
+    "rowsha": "sa11A6KuNEV/8P5/RuHKTgUEp7hD6WUsYqCGQefGhVY=",
+    "originContent": "can only select one item.",
+    "translatedContent": "したがって、複数の技術を選択したい場合は、  "
+  },
+  {
+    "row": 80,
+    "rowsha": "VzAhkexM7XmxsI9MNqypOXzY8MKPzZeLSjxcem82qVo=",
+    "originContent": "Therefore, if you want to be able to select multiple technologies, you must",
+    "translatedContent": "[telescope.nvim をインストールする](https://github.com/nvim-telescope/telescope.nvim#installation)  "
+  },
+  {
+    "row": 81,
+    "rowsha": "1IvTPEqU52ZEKFu6qni8MCSCFfm5S9+I0zMc/JkmV9w=",
+    "originContent": "either [install",
+    "translatedContent": "必要があります（`packer.nvim` を使った例は  "
+  },
+  {
+    "row": 82,
+    "rowsha": "eTuEboSQs8T/0dY5/62Npt6m/bjtrT0RgCk7xa3p3uU=",
+    "originContent": "telescope.nvim](https://github.com/nvim-telescope/telescope.nvim#installation)",
+    "translatedContent": "[インストール](#installation--dependencies) セクションにあります）、または提供された  "
+  },
+  {
+    "row": 83,
+    "rowsha": "IQCmcI7u1Cy6LzBhSvVKYYfp64SSgTqDZqSdVTH3LSg=",
+    "originContent": "(you may find an example using `packer.nvim` in the",
+    "translatedContent": "`generate` メソッドを独自実装でオーバーライドしてください（[下記セクション参照](#custom-picker)）。  "
+  },
+  {
+    "row": 84,
+    "rowsha": "1uzEwgWoXQp95XnllWDxZXzCpI5DoEPMswTEzx/+FBc=",
+    "originContent": "[Installation](#installation--dependencies) section), or override the provided",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "aYoxOkC8WPIO8NQjoI+texMtooAH1hvmamIVqRyR778=",
+    "originContent": "`generate` method with your own implementation ([see section",
+    "translatedContent": "`gitignore.nvim` は `telescope.nvim` のインストールを検知し、  "
+  },
+  {
+    "row": 86,
+    "rowsha": "IOjHncwB9X/+mZQljVQpT598f/xX+c1NI81TiDVTHK0=",
+    "originContent": "below](#custom-picker)).",
+    "translatedContent": "自動的にそれを使用するため、追加の設定は不要です。  "
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "k+mLwW3MU7G+22Umm8cS+WZxCP/+z8Zf5XV+ttNcgiM=",
+    "originContent": "`gitignore.nvim` will detect if `telescope.nvim` is installed and use it",
+    "translatedContent": "### telescope.nvim インストール時の複数アイテム選択  "
+  },
+  {
+    "row": 89,
+    "rowsha": "18nPywUNYuX4g269o6MwMeb/q0IijZA4Z7WIENiJ3Cw=",
+    "originContent": "automatically, there is no further configuration required.",
+    "translatedContent": "`gitignore.nvim` は `telescope.nvim` のマルチセレクション用キーバインドを利用します。  "
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "つまりデフォルトで `<Tab>` で複数のキーワードの選択・解除ができ、  "
+  },
+  {
+    "row": 91,
+    "rowsha": "9l/D1YzLZlvQT6CcReDOyWUCCMd0DtT4CM4G+OMQ6JQ=",
+    "originContent": "### Selecting multiple items with telescope.nvim installed",
+    "translatedContent": "`<CR>`（Enter）で選択を確定できます。  "
+  },
+  {
+    "row": 92,
+    "rowsha": "U1x3XCejZrlNor8/8mz1KIMc1qOS2e/IrdantSgBH+Y=",
+    "originContent": "`gitignore.nvim` makes use of `telescope.nvim`'s multi-selection keybinds.",
+    "translatedContent": "複数のキーワードが選択されている場合、`<CR>` を押したときにハイライトされているキーワードは  "
+  },
+  {
+    "row": 93,
+    "rowsha": "cjj6I0Vx7T17C+mxeNQVd5As/oMteV35S7VY8yPVbJY=",
+    "originContent": "This means that by default, you can (de-)select multiple keywords with `<Tab>`,",
+    "translatedContent": "**選択に追加されません**！  "
+  },
+  {
+    "row": 94,
+    "rowsha": "zLNea48UjVHmkA/AUYPJDwig2aHGx23fCNc3LOc4dPE=",
+    "originContent": "and confirm your selection with `<CR>` (Enter).",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "5wZWr3A5PNpv5pnqcCF1eewTNSk/SB/4XWb8fdTiWQc=",
+    "originContent": "In case of multiple selected keywords, the keyword highlighted you press `<CR>`",
+    "translatedContent": "利便性のため、複数選択せずに `<CR>` を押した場合は、  "
+  },
+  {
+    "row": 96,
+    "rowsha": "LGXxWsOgBBZCbVm3yaT5B6X4kXqE1g/13/ii6vJFKD0=",
+    "originContent": "on will **not** be added to the selection!",
+    "translatedContent": "ハイライト中のアイテムが選択に追加され、単一キーワードの `.gitignore` ファイルが作成されます。  "
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "LIL0l+Ov7GH5z5SO2qXoQXjssRS6zvcXtGqXULoIkr0=",
+    "originContent": "For convenience, when no multi-selection is made before pressing `<CR>`,",
+    "translatedContent": "## 設定  "
+  },
+  {
+    "row": 99,
+    "rowsha": "LYeW1APsgS6ATNPIW5HqTEFLdGeoRSeS2nc9z91vpxo=",
+    "originContent": "`<CR>` will actually add the highlighted item to the selection, and create",
+    "translatedContent": "`:Gitignore` コマンドで現在の `.gitignore` に追記するのではなく、  "
+  },
+  {
+    "row": 100,
+    "rowsha": "Mqowqs9YKqwCOpddY5qqPBGEnbHylvP8afUhgSBWCB4=",
+    "originContent": "a `.gitignore` file for the single keyword.",
+    "translatedContent": "上書きしたい場合は以下を設定してください："
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "d6C19YsBPPLXgBDqaUvBxCoVOtY5ZM77U8sba/Wekvo=",
+    "originContent": "If you want the `:Gitignore` command to overwrite your current `.gitignore`",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "VeWPermJL6rUlGAsR2wzkuC1KHpXpjWrA8wahNxA3SM=",
+    "originContent": "instead of appending to it, you can set:",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 106,
+    "rowsha": "4kt1eiyf4pK1qHBzBaWdZykSsqkrxZxs0NhfJz7cHQE=",
+    "originContent": "vim.g.gitignore_nvim_overwrite = true",
+    "translatedContent": "vim.g.gitignore_nvim_overwrite = true"
+  },
+  {
+    "row": 107,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 108,
+    "rowsha": "pCbOw/xx00UOFj/bHvg7qeXlEYKcYtFuMDCqUaLt9PM=",
+    "originContent": "If this variable is set to `false`, or not set at all, `:Gitignore` will take",
+    "translatedContent": "この変数が`false`に設定されているか、まったく設定されていない場合、`:Gitignore`は既存の`.gitignore`を考慮します。"
+  },
+  {
+    "row": 109,
+    "rowsha": "XU8czAJEO5becU8qmI/gx7QqVY32kpG8Lkyj8BGRjk8=",
+    "originContent": "into account an existing `.gitignore`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "あるいは、次のようにビックリマーク付きでコマンドを呼び出すこともできます。"
+  },
+  {
+    "row": 111,
+    "rowsha": "F+/wjri4rSGXisQ5vdcOVXhL/YNcc/a2eTRG3xDUqxI=",
+    "originContent": "Alternatively, you may call the command with a bang, like this:",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "Z9h9DNSHuUvTw0rVpwytlQyL/oWdZp6Kv2BTQ9tZ1Ik=",
+    "originContent": ":Gitignore! [path]",
+    "translatedContent": ":Gitignore! [path]"
+  },
+  {
+    "row": 114,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 115,
+    "rowsha": "XGAKBzYyKmL4tvFTqgTbn9iKxaCrjy225xYqi6+yu9U=",
+    "originContent": "This will have the same effect as setting `vim.g.gitignore_nvim_overwrite = true` for a single call.",
+    "translatedContent": "これは、単一の呼び出しに対して `vim.g.gitignore_nvim_overwrite = true` を設定するのと同じ効果があります。"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "Pd4CSbL7lYUhG1/CZ/etUxTRMO3/6v9dLPawxoCsNQ0=",
+    "originContent": "### Custom Picker",
+    "translatedContent": "### カスタムピッカー"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "ucwppcXbvw3bBFZprGP53FYymUKyVqoCJx19VQEKSl8=",
+    "originContent": "Instead of using `telescope.nvim` or the native `vim.ui.select()`, you may",
+    "translatedContent": "`telescope.nvim` やネイティブの `vim.ui.select()` の代わりに、"
+  },
+  {
+    "row": 120,
+    "rowsha": "nEfqh1E5KM+GCI/nESpm10KM8mCuytkReI1bwMgBQ2Y=",
+    "originContent": "implement your own solution according to the following contract:",
+    "translatedContent": "以下の契約に従って独自のソリューションを実装できます："
+  },
+  {
+    "row": 121,
+    "rowsha": "CHPfV0BOiOCgK3/iwtm4fSS0hklKuiHMC7OxPF97tzI=",
+    "originContent": "1. `gitignore.nvim` provides list of templateNames and two methods `generate` and `createGititnoreBuffer`.",
+    "translatedContent": "1. `gitignore.nvim` はテンプレート名のリストと2つのメソッド `generate` と `createGitignoreBuffer` を提供します。"
+  },
+  {
+    "row": 122,
+    "rowsha": "d/dsUAexbh4r2gHY0p2M37uPGAVVwl1sSN3EYjJFT+s=",
+    "originContent": "2. As its first parameter, the `generate` method will receive an `opts` table, containing the target path for the `.gitignore` in `opts.args`.",
+    "translatedContent": "2. `generate` メソッドの最初のパラメータとして、`.gitignore` の対象パスを含む `opts` テーブルが `opts.args` に渡されます。"
+  },
+  {
+    "row": 123,
+    "rowsha": "Joa6h14gEv7lAL7loGNZ0Ka2JMQlGW4TuYQr9ep1rSs=",
+    "originContent": "3. One must pass on `opts.args`, and a list of selected templateNames to `createGitignoreBuffer`.",
+    "translatedContent": "3. `opts.args` と選択されたテンプレート名のリストを `createGitignoreBuffer` に渡す必要があります。"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "k5UutXK/NoSacguk4oNbZEd4Ree1jTdm8HnU0Z1U8pU=",
+    "originContent": "Here's an example implementation using fzf-lua:",
+    "translatedContent": "以下は fzf-lua を使った実装例です："
+  },
+  {
+    "row": 126,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 127,
+    "rowsha": "rH4h/PFDpV5zO0rTr9yWemG/aao8tWD770L2ahD28hU=",
+    "originContent": "local gitignore = require(\"gitignore\")",
+    "translatedContent": "local gitignore = require(\"gitignore\")"
+  },
+  {
+    "row": 128,
+    "rowsha": "MzIMYZSdo/Dj+K5vAHvL8WD2+P/HZ/5oDNawiwXCwgk=",
+    "originContent": "local fzf = require(\"fzf-lua\")",
+    "translatedContent": "local fzf = require(\"fzf-lua\")"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "GidifrH3AD+IfCCvruGXnv6oYd+sbxArlVd3KrWULVk=",
+    "originContent": "gitignore.generate = function(opts)",
+    "translatedContent": "gitignore.generate = function(opts)"
+  },
+  {
+    "row": 131,
+    "rowsha": "sUJmX2ml2uw2S7QFJnHTqlwO2xGE1DWMnzZVISLQp78=",
+    "originContent": "    local picker_opts = {",
+    "translatedContent": "    local picker_opts = {"
+  },
+  {
+    "row": 132,
+    "rowsha": "V+kOYEZWcSjsR7qgVjhxwrnsQZNusgpm3KuyfqK3UfQ=",
+    "originContent": "        -- the content of opts.args may also be displayed here for example.",
+    "translatedContent": "        -- the content of opts.args may also be displayed here for example."
+  },
+  {
+    "row": 133,
+    "rowsha": "wRHoik/+TWjUuMa2EMt4EuXFYcdQRUO2BV3bvMusXKE=",
+    "originContent": "        prompt = \"Select templates for gitignore file> \",",
+    "translatedContent": "        prompt = \"Select templates for gitignore file> \","
+  },
+  {
+    "row": 134,
+    "rowsha": "l4Id5WH8wLFHA8egmbjp7QSwPC0/svh2hUUySUonEag=",
+    "originContent": "        winopts = {",
+    "translatedContent": "        winopts = {"
+  },
+  {
+    "row": 135,
+    "rowsha": "eb09gPTPeOCKYIobC0tNH0Oth2Y22bKDCTnOsfTDzOI=",
+    "originContent": "            width = 0.4,",
+    "translatedContent": "            width = 0.4,"
+  },
+  {
+    "row": 136,
+    "rowsha": "LDPp4ehRJqB2kFXWoNKlGJpA2m7rBejxM1jxFft5COw=",
+    "originContent": "            height = 0.3,",
+    "translatedContent": "            height = 0.3,"
+  },
+  {
+    "row": 137,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 138,
+    "rowsha": "PZrc1vXBzmwlnOJUSPrLKNjXBMgUz13DUEYPJlCNfiA=",
+    "originContent": "        actions = {",
+    "translatedContent": "        actions = {"
+  },
+  {
+    "row": 139,
+    "rowsha": "k+DgGjRz9z9UnYeJPhDwc0zr1R4AQVgMTVcgNby6jY4=",
+    "originContent": "            default = function(selected, _)",
+    "translatedContent": "            default = function(selected, _)"
+  },
+  {
+    "row": 140,
+    "rowsha": "bNYn+zym0+errHt+c7Qzp4CWFc2oJRiU8pymFdT17Ho=",
+    "originContent": "                -- as stated in point (3) of the contract above, opts.args and",
+    "translatedContent": "                -- as stated in point (3) of the contract above, opts.args and"
+  },
+  {
+    "row": 141,
+    "rowsha": "ScozXhtWWu5IBGPHWega2615aT1dw97SHXXuZe0oBzk=",
+    "originContent": "                -- a list of selected templateNames are passed.",
+    "translatedContent": "                -- a list of selected templateNames are passed."
+  },
+  {
+    "row": 142,
+    "rowsha": "EQ1+H3N20GOXYkoxCSv1ZnSehBPEBZgTfms6BlYEUNE=",
+    "originContent": "                gitignore.createGitignoreBuffer(opts.args, selected)",
+    "translatedContent": "                gitignore.createGitignoreBuffer(opts.args, selected)"
+  },
+  {
+    "row": 143,
+    "rowsha": "wODP6UPO92r/glY8DOWDoOoIElF1u4TMHKfQ4OkHvxE=",
+    "originContent": "            end,",
+    "translatedContent": "            end,"
+  },
+  {
+    "row": 144,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 145,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 146,
+    "rowsha": "oD1AtiwMupf4p3gB7jci3wzT8YkAOHMv4fc7+NZb5Ko=",
+    "originContent": "    fzf.fzf_exec(function(fzf_cb)",
+    "translatedContent": "    fzf.fzf_exec(function(fzf_cb)"
+  },
+  {
+    "row": 147,
+    "rowsha": "l66q72TbARSvlyq7t9g7aWRQWQs2BWWv9DxThUCJVro=",
+    "originContent": "        for _, prefix in ipairs(gitignore.templateNames) do",
+    "translatedContent": "        for _, prefix in ipairs(gitignore.templateNames) do"
+  },
+  {
+    "row": 148,
+    "rowsha": "INawFjHc6XmDPXfy2iOoPPzm59+plaFeE6RCUyB5cmQ=",
+    "originContent": "            fzf_cb(prefix)",
+    "translatedContent": "            fzf_cb(prefix)"
+  },
+  {
+    "row": 149,
+    "rowsha": "PWDiQHXklCHTtgKC9dUjp8S6wRGFSqolC1k1cmhf5YA=",
+    "originContent": "        end",
+    "translatedContent": "        end"
+  },
+  {
+    "row": 150,
+    "rowsha": "3/xp4j2MtHsZdLd3k9CNHNzz3LeiKeECx3CodkB1dOI=",
+    "originContent": "        fzf_cb()",
+    "translatedContent": "        fzf_cb()"
+  },
+  {
+    "row": 151,
+    "rowsha": "wyvcZ/WB8moIYMkBSlUfI2Xe11vLNf//Uv9UAl/Qask=",
+    "originContent": "    end, picker_opts)",
+    "translatedContent": "    end, picker_opts)"
+  },
+  {
+    "row": 152,
+    "rowsha": "Nh5I0DCPIOMtul+1Yyi68Y1y7wzLQ7hPXCYtKmofxsg=",
+    "originContent": "end",
+    "translatedContent": "end"
+  },
+  {
+    "row": 153,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 154,
+    "rowsha": "IUep6MOnIwVWT03YTfb/RRfGtb7G0kEkMwa510066vU=",
+    "originContent": "> __Note__",
+    "translatedContent": "> __注意__"
+  },
+  {
+    "row": 155,
+    "rowsha": "NiHovNL7f3Y5EU7AL/a6vlOwExED+cR70Xal1Z4XbqQ=",
+    "originContent": "> Note that the above will not overwrite the `:Gitignore` command.",
+    "translatedContent": "> 上記は `:Gitignore` コマンドを上書きしないことに注意してください。"
+  },
+  {
+    "row": 156,
+    "rowsha": "xz1qVapmtWNCe1wFQ3sUfd8d2i3KbdUp/9bZ3Vx1xgw=",
+    "originContent": "> To do that, recreate the command after defining your generate function as",
+    "translatedContent": "> それを行うには、生成関数を定義した後にコマンドを以下のように再作成します:"
+  },
+  {
+    "row": 157,
+    "rowsha": "gHfvAQWOEtAKN8+nEWjWDFJJbTo7x32LhWr429dsTNk=",
+    "originContent": "> follows:",
+    "translatedContent": "> 次のように:"
+  },
+  {
+    "row": 158,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 159,
+    "rowsha": "wTRtRsQGOkmnfq7cIN/y9LfvnAnfJ0qmIgltHQgPd8o=",
+    "originContent": "vim.api.nvim_create_user_command(\"Gitignore\", gitignore.generate, { nargs = \"?\", complete = \"file\" })",
+    "translatedContent": "vim.api.nvim_create_user_command(\"Gitignore\", gitignore.generate, { nargs = \"?\", complete = \"file\" })"
+  },
+  {
+    "row": 160,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+    "originContent": "## Demo",
+    "translatedContent": "## デモ"
+  },
+  {
+    "row": 163,
+    "rowsha": "K72Qj6o2nEFcoD2PyqYO9TS8IsfT3/9f60LzyvOiG4I=",
+    "originContent": "[![asciicast](https://asciinema.org/a/GOHXDt4kYsR8pzrxTEOIridTf.svg)](https://asciinema.org/a/GOHXDt4kYsR8pzrxTEOIridTf)",
+    "translatedContent": "[![asciicast](https://asciinema.org/a/GOHXDt4kYsR8pzrxTEOIridTf.svg)](https://asciinema.org/a/GOHXDt4kYsR8pzrxTEOIridTf)"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": "## クレジット"
+  },
+  {
+    "row": 166,
+    "rowsha": "uXJqdc6xMyYW821EJiyIuSFG7h4GtOd3DYzLWM1K4Rc=",
+    "originContent": "Thanks to [Toptal](https://github.com/toptal/gitignore) for providing a huge",
+    "translatedContent": "大量の無視テンプレートリストを提供してくれた[Toptal](https://github.com/toptal/gitignore)に感謝します！"
+  },
+  {
+    "row": 167,
+    "rowsha": "sFezlGmJzVtJg075oa7AIfDOrvwmph7KPzKVchvjOoU=",
+    "originContent": "list of ignore-templates!",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,2487 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🚄 China Railway Ticket Monitor\n\n一个简洁、高效的 12306 余票监控工具，当出现余票时，可通过多种方式推送通知。\n感谢原作者：https://github.com/BobLiu0518/CRTicketMonitor\n\n> ⚠️ 免责声明\n> 本程序仅用于学习和监控 12306 官网的余票信息，并非抢票软件，也不会增加任何抢票相关功能。程序作者不对监控结果的准确性做出任何保证，不为任何因使用本程序而产生的商业或法律纠纷负责。\n\n## 🆕 交互式配置功能\n\n通过交互式界面可以：\n\n- 🔍 输入出发地、目的地、日期，实时查询车次列表\n- 📋 查看完整的车次信息和余票情况\n- ⚙️ 动态选择监控车次和席别\n- 📲 配置推送通知方式\n- 💾 自动生成和保存配置文件\n- 🚀 一键启动监控程序\n\n详细使用说明请参考 [CLI_GUIDE.md](https://raw.githubusercontent.com/wxory/CRTMonitor/main/CLI_GUIDE.md)\n\n# 部署\n\n## 方式一：使用预编译程序 (推荐)\n\n### 下载\n\n在项目的 Releases 页面下载对应您操作系统的最新版本。\n[CNB(推荐)](https://cnb.cool/wxory/CRTMonitor/-/releases)\n[Github](https://github.com/wxory/CRTMonitor/releases)\n\n### 配置\n\n首次运行程序会自动生成一份 config.yml 模板文件。请根据 [参数配置](#配置-1) 说明修改该文件。\n\n### 运行\n\n将配置好的 config.yml 文件放置于可执行程序的同一目录下，然后直接运行即可。\n\n## 手动部署\n\n### 1. 安装 Node.js\n\n前往 [Node.js 官网](https://nodejs.org/zh-cn) 下载并安装，或使用 [包管理器](https://nodejs.org/zh-cn/download/package-manager) 安装。\n\n### 2. 下载代码\n\n直接 [下载 Zip 文件](https://github.com/wxory/CRTicketMonitor/archive/refs/heads/main.zip)，或使用 Git：\n",
+    "ContentSha": "CBH8K0AKX9P7uprTSmgsy9ZjdmhYiRHHghaOdODoV0U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🚄 China Railway Ticket Monitor\n\n12306の空きチケットを簡潔かつ効率的に監視するツールで、空きが出た場合に複数の方法で通知をプッシュできます。  \n原作者に感謝：https://github.com/BobLiu0518/CRTicketMonitor\n\n> ⚠️ 免責事項  \n> 本プログラムは学習および12306公式サイトの空きチケット情報の監視のみを目的としており、チケットの自動取得ソフトではありません。また、チケット取得に関する機能は一切追加しておりません。プログラム作者は監視結果の正確性について一切保証せず、本プログラムの使用に起因する商業的または法的な紛争について一切責任を負いません。\n\n## 🆕 対話式設定機能\n\n対話式インターフェースにより以下が可能です：\n\n- 🔍 出発地、目的地、日付を入力し、リアルタイムで列車一覧を検索  \n- 📋 列車の詳細情報と空き状況を確認  \n- ⚙️ 監視する列車と席種を動的に選択  \n- 📲 通知のプッシュ方法を設定  \n- 💾 設定ファイルの自動生成および保存  \n- 🚀 ワンクリックで監視プログラムを起動\n\n詳細な使用方法は [CLI_GUIDE.md](https://raw.githubusercontent.com/wxory/CRTMonitor/main/CLI_GUIDE.md) をご参照ください\n\n# デプロイ\n\n## 方法1：プリコンパイル済みプログラムの利用（推奨）\n\n### ダウンロード\n\nプロジェクトのReleasesページからお使いのOSに対応した最新版をダウンロードしてください。  \n[CNB(推奨)](https://cnb.cool/wxory/CRTMonitor/-/releases)  \n[Github](https://github.com/wxory/CRTMonitor/releases)\n\n### 設定\n\n初回起動時に config.yml のテンプレートファイルが自動生成されます。  \n[パラメータ設定](#配置-1)の説明に従い、該当ファイルを編集してください。\n\n### 実行\n\n設定済みの config.yml ファイルを実行ファイルと同じディレクトリに置き、直接実行してください。\n\n## 手動デプロイ\n\n### 1. Node.js のインストール\n\n[Node.js公式サイト](https://nodejs.org/ja/)からダウンロードしてインストールするか、[パッケージマネージャー](https://nodejs.org/ja/download/package-manager)を利用してください。\n\n### 2. コードのダウンロード\n\n[Zipファイルを直接ダウンロード](https://github.com/wxory/CRTicketMonitor/archive/refs/heads/main.zip)するか、Gitを使用してください：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "n2Wk5JFvKIoDQ09zPUsvvcpMrEUXPw4z/EzcmxHDqjc=",
+        "originContent": "# 🚄 China Railway Ticket Monitor",
+        "translatedContent": "# 🚄 China Railway Ticket Monitor"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "7PkVlmU1e1j2EAu7fftwed8uUZYVPJ2oaqZyhmQAeC8=",
+        "originContent": "一个简洁、高效的 12306 余票监控工具，当出现余票时，可通过多种方式推送通知。",
+        "translatedContent": "12306の空きチケットを簡潔かつ効率的に監視するツールで、空きが出た場合に複数の方法で通知をプッシュできます。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "Sc5B/Hjfqr/+bEqgAZJP//7zMEdc5l+fOfH6w0r52Ac=",
+        "originContent": "感谢原作者：https://github.com/BobLiu0518/CRTicketMonitor",
+        "translatedContent": "原作者に感謝：https://github.com/BobLiu0518/CRTicketMonitor"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Cp8wSSSreJprOpQTtfKKJz0dJQISfP/8GLzlzbQPYq0=",
+        "originContent": "> ⚠️ 免责声明",
+        "translatedContent": "> ⚠️ 免責事項  "
+      },
+      {
+        "row": 7,
+        "rowsha": "ILN2TS8G+UBDtZQDxoLAQH2tvzdWpS+idaJJgqA+p6U=",
+        "originContent": "> 本程序仅用于学习和监控 12306 官网的余票信息，并非抢票软件，也不会增加任何抢票相关功能。程序作者不对监控结果的准确性做出任何保证，不为任何因使用本程序而产生的商业或法律纠纷负责。",
+        "translatedContent": "> 本プログラムは学習および12306公式サイトの空きチケット情報の監視のみを目的としており、チケットの自動取得ソフトではありません。また、チケット取得に関する機能は一切追加しておりません。プログラム作者は監視結果の正確性について一切保証せず、本プログラムの使用に起因する商業的または法的な紛争について一切責任を負いません。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yN5ebSAvl35CHFyXGiXixzokvHLRBkXVNrbaoBz+YZc=",
+        "originContent": "## 🆕 交互式配置功能",
+        "translatedContent": "## 🆕 対話式設定機能"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "PsYaRXURseMZ8cZtvRSmBBkB0Za3lzPlK+0q7G1/lx4=",
+        "originContent": "通过交互式界面可以：",
+        "translatedContent": "対話式インターフェースにより以下が可能です："
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "wqL8WYqElFlvjBsreS8QiEcPgvpb27Bz8P3+3kCafDA=",
+        "originContent": "- 🔍 输入出发地、目的地、日期，实时查询车次列表",
+        "translatedContent": "- 🔍 出発地、目的地、日付を入力し、リアルタイムで列車一覧を検索  "
+      },
+      {
+        "row": 14,
+        "rowsha": "ZVttAvZrr3EqMxtb2s/+/sHI2v4WStRMFFqwwWUXtk4=",
+        "originContent": "- 📋 查看完整的车次信息和余票情况",
+        "translatedContent": "- 📋 列車の詳細情報と空き状況を確認  "
+      },
+      {
+        "row": 15,
+        "rowsha": "PBSAW9+/X+Pg13085hNojyPSP6TaXyGM2V1helZz3/Y=",
+        "originContent": "- ⚙️ 动态选择监控车次和席别",
+        "translatedContent": "- ⚙️ 監視する列車と席種を動的に選択  "
+      },
+      {
+        "row": 16,
+        "rowsha": "u5pDvU1KcUnhi2+OtpkwPI9q5uOoxNojQRHKgCEoBgQ=",
+        "originContent": "- 📲 配置推送通知方式",
+        "translatedContent": "- 📲 通知のプッシュ方法を設定  "
+      },
+      {
+        "row": 17,
+        "rowsha": "bniQNGmKSGPkmc/r9SBJPJIXluxlisknpYiKvIdGxtQ=",
+        "originContent": "- 💾 自动生成和保存配置文件",
+        "translatedContent": "- 💾 設定ファイルの自動生成および保存  "
+      },
+      {
+        "row": 18,
+        "rowsha": "SxtoYDIWhUWuvGMcWxUSvPJND8g7zkj6EAq9+MW20ug=",
+        "originContent": "- 🚀 一键启动监控程序",
+        "translatedContent": "- 🚀 ワンクリックで監視プログラムを起動"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "459KGR6IcD/P65D0AYkf31XDa/W/8tHWqg1cwfdWEqo=",
+        "originContent": "详细使用说明请参考 [CLI_GUIDE.md](https://raw.githubusercontent.com/wxory/CRTMonitor/main/CLI_GUIDE.md)",
+        "translatedContent": "詳細な使用方法は [CLI_GUIDE.md](https://raw.githubusercontent.com/wxory/CRTMonitor/main/CLI_GUIDE.md) をご参照ください"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "nfGo2W9IwwJgzuCeF3e51H/iVH2rKXEzocM2e/l3Vy4=",
+        "originContent": "# 部署",
+        "translatedContent": "# デプロイ"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "aSjM2vTkIcSD01L7xLPtB3EFe6LGYNyK8xuHF1F/Qo0=",
+        "originContent": "## 方式一：使用预编译程序 (推荐)",
+        "translatedContent": "## 方法1：プリコンパイル済みプログラムの利用（推奨）"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "RCG7S238/T3WY9Eu2RTLG4onjfavMBdqY2FKCpNnDMY=",
+        "originContent": "### 下载",
+        "translatedContent": "### ダウンロード"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "uXA/6gLTRl2fF/c4cyM+LTDb9HHFwtPWyvKfxWlGhuk=",
+        "originContent": "在项目的 Releases 页面下载对应您操作系统的最新版本。",
+        "translatedContent": "プロジェクトのReleasesページからお使いのOSに対応した最新版をダウンロードしてください。  "
+      },
+      {
+        "row": 29,
+        "rowsha": "W7oPf6FuxOPQK7iMo5cD7OTvc6m6IXZ+nBn7BmvJp48=",
+        "originContent": "[CNB(推荐)](https://cnb.cool/wxory/CRTMonitor/-/releases)",
+        "translatedContent": "[CNB(推奨)](https://cnb.cool/wxory/CRTMonitor/-/releases)  "
+      },
+      {
+        "row": 30,
+        "rowsha": "ibLbzSZ6gwIw4Ryyos+gnjdHVN3Zz1By4rilWkxiJHc=",
+        "originContent": "[Github](https://github.com/wxory/CRTMonitor/releases)",
+        "translatedContent": "[Github](https://github.com/wxory/CRTMonitor/releases)"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "lukItFMHER8m4+sp8P2Dr7rwRWyr9U+g7T1upvVqeDI=",
+        "originContent": "### 配置",
+        "translatedContent": "### 設定"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Wv8FC5gm4iMoF8T/lNoznSqI8yNP8QTzlXKZ6UGCzF0=",
+        "originContent": "首次运行程序会自动生成一份 config.yml 模板文件。请根据 [参数配置](#配置-1) 说明修改该文件。",
+        "translatedContent": "初回起動時に config.yml のテンプレートファイルが自動生成されます。  "
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[パラメータ設定](#配置-1)の説明に従い、該当ファイルを編集してください。"
+      },
+      {
+        "row": 36,
+        "rowsha": "0CE2iltrSkqogQ3mPQzgfMzrfa3dcuOJMYhzkf7gefE=",
+        "originContent": "### 运行",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 実行"
+      },
+      {
+        "row": 38,
+        "rowsha": "hzQPwF8FfX8vKYgbVdrd3SgssFjnXOkv7ZvjyVfx764=",
+        "originContent": "将配置好的 config.yml 文件放置于可执行程序的同一目录下，然后直接运行即可。",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "設定済みの config.yml ファイルを実行ファイルと同じディレクトリに置き、直接実行してください。"
+      },
+      {
+        "row": 40,
+        "rowsha": "+OldnvqFTeRnZux1balKomZiPlDJH3+XWa4z/KXxHro=",
+        "originContent": "## 手动部署",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 手動デプロイ"
+      },
+      {
+        "row": 42,
+        "rowsha": "gzcfYMCm7ZDxVTaN6THSE79vQOG41X/KmKFvP5eEo0E=",
+        "originContent": "### 1. 安装 Node.js",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 1. Node.js のインストール"
+      },
+      {
+        "row": 44,
+        "rowsha": "LxtGdkUM2jysYMV5+WjIbt9dNAByiAB4HY21Q9VDrLg=",
+        "originContent": "前往 [Node.js 官网](https://nodejs.org/zh-cn) 下载并安装，或使用 [包管理器](https://nodejs.org/zh-cn/download/package-manager) 安装。",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[Node.js公式サイト](https://nodejs.org/ja/)からダウンロードしてインストールするか、[パッケージマネージャー](https://nodejs.org/ja/download/package-manager)を利用してください。"
+      },
+      {
+        "row": 46,
+        "rowsha": "sq4kys0AV/r/ZqMuQW0O+fCHvPZbkrYZj37T9//w1a0=",
+        "originContent": "### 2. 下载代码",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 2. コードのダウンロード"
+      },
+      {
+        "row": 48,
+        "rowsha": "zDlOtv8mB+ig5tmLFAv5QQp3upMv/4JUBPW7eBPxNfA=",
+        "originContent": "直接 [下载 Zip 文件](https://github.com/wxory/CRTicketMonitor/archive/refs/heads/main.zip)，或使用 Git：",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[Zipファイルを直接ダウンロード](https://github.com/wxory/CRTicketMonitor/archive/refs/heads/main.zip)するか、Gitを使用してください："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n$ git clone https://github.com/wxory/CRTMonitor.git\n$ git clone https://cnb.cool/wxory/CRTMonitor.git\n```",
+    "ContentSha": "jkvxEY77I7ZgqA2S3x6mQGUg3Anv1n+OR61XUPkMyOA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ git clone https://github.com/wxory/CRTMonitor.git\n$ git clone https://cnb.cool/wxory/CRTMonitor.git\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "BuzUgAYiwtq2LR4MHQe4XBhByD8YPYUbt/ZGEDTiFuw=",
+        "originContent": "$ git clone https://github.com/wxory/CRTMonitor.git",
+        "translatedContent": "$ git clone https://github.com/wxory/CRTMonitor.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "AoX4FcLjlfpWCXvFTJlElht+wdWMQuBPBAARmaQf9Z0=",
+        "originContent": "$ git clone https://cnb.cool/wxory/CRTMonitor.git",
+        "translatedContent": "$ git clone https://cnb.cool/wxory/CRTMonitor.git"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### 3. 安装依赖\n",
+    "ContentSha": "46MqzqdBD7KngieySEIoQSAoKsN1MKn3OqM+NXGdfOQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 3. 依存関係のインストール\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 3. 依存関係のインストール"
+      },
+      {
+        "row": 2,
+        "rowsha": "Gj520rxE4J4yCLsu6Dw0vp5hLrJZbX0T4JKYtGdfpZA=",
+        "originContent": "### 3. 安装依赖",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n$ npm i\n```",
+    "ContentSha": "fAotsbIAz/lYsnE4k5boQuUc3IGYzh6JKQb+NaBYSf4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ npm i\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "mSWw3Ke/O6YqAfAYYjelao+nxsiwGkLu9KLKwNkfPX0=",
+        "originContent": "$ npm i",
+        "translatedContent": "$ npm i"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### 4. 运行\n\n#### 前台运行 (适用于所有系统):\n",
+    "ContentSha": "EvLUQZQIwf4RaVNR9ZG91HvGmX3qqELxbXjOfMf4Vnk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 4. 运行\n\n#### 前台运行 (适用于所有系统):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "gsENfCqc2I29h8HmDNeFBJBqMv4KmdaUgeGNv1X/240=",
+        "originContent": "### 4. 运行",
+        "translatedContent": "### 4. 运行"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "PgualMRsITEhQMDCyXjEQdfmmUdWnjUOZ8Xm6MIdG6U=",
+        "originContent": "#### 前台运行 (适用于所有系统):",
+        "translatedContent": "#### 前台运行 (适用于所有系统):"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nnpm start\n```",
+    "ContentSha": "Q3lB4FlzppHc0ApWBj1FfmlnMbDhHbH4yhRh69xTFHw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nnpm start\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Br9K+ZECU4r58cLP1aW0WHWQEWfcON0tS0JaPOdq3sw=",
+        "originContent": "npm start",
+        "translatedContent": "npm start"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n#### 后台运行 (适用于 Linux 服务器):\n\n项目内置了 run.sh 脚本，它使用 screen 来实现后台持久化运行。\n",
+    "ContentSha": "gZ4exhmjEjSxxMGGMHagIxESMS6ST/9fc0UBV5octcQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### バックグラウンド実行（Linuxサーバー向け）:\n\nプロジェクトには run.sh スクリプトが組み込まれており、screen を使用してバックグラウンドでの持続的な実行を実現しています。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yg+MvW5S5/LJSpqHDhe/TrR22LZ7R44KFi5A1SgeL7k=",
+        "originContent": "#### 后台运行 (适用于 Linux 服务器):",
+        "translatedContent": "#### バックグラウンド実行（Linuxサーバー向け）:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "hWKck1JihwNlXX53DxxvwbLfvMiSuE0L4TQVGOHh5gk=",
+        "originContent": "项目内置了 run.sh 脚本，它使用 screen 来实现后台持久化运行。",
+        "translatedContent": "プロジェクトには run.sh スクリプトが組み込まれており、screen を使用してバックグラウンドでの持続的な実行を実現しています。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\n# 确保已安装 screen: sudo apt install screen (Debian/Ubuntu)\n./run.sh\n```",
+    "ContentSha": "3oz475E/LxT5LPRHGIw2nO7L+Ur/v/xrAw6ZdICtyjA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n# 确保已安装 screen: sudo apt install screen (Debian/Ubuntu)\n./run.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "QZSEZtcz8fGpjJDV5X280kbexMDdpPxKPVtn+hFBb7k=",
+        "originContent": "# 确保已安装 screen: sudo apt install screen (Debian/Ubuntu)",
+        "translatedContent": "# 确保已安装 screen: sudo apt install screen (Debian/Ubuntu)"
+      },
+      {
+        "row": 3,
+        "rowsha": "WRtRlPod0EkHFzgVEVrKNHMFn342LBM9DKTSdmXBsh0=",
+        "originContent": "./run.sh",
+        "translatedContent": "./run.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## 配置\n\n程序启动时会查找同目录下的 config.yml 文件。如果文件不存在，将自动创建一个模板。\n\n以下是一个完整的配置示例：\n\nconfig.yml 示例:\n",
+    "ContentSha": "FSg42UlwzDncSCtMBt6ZFrs92o04190zL3J9jGOVzlQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 配置\n\nプログラム起動時に同じディレクトリ内の config.yml ファイルを検索します。ファイルが存在しない場合は、自動的にテンプレートが作成されます。\n\n以下は完全な設定例です：\n\nconfig.yml の例:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "LX1WCantPMOzY4qKtNHg0IJaAPPoKW9Yn32JtbKht5k=",
+        "originContent": "## 配置",
+        "translatedContent": "## 配置"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "KmQZbD1dBuXX6zLptRCtc6B/0fAiPTrcr4nvf///n6U=",
+        "originContent": "程序启动时会查找同目录下的 config.yml 文件。如果文件不存在，将自动创建一个模板。",
+        "translatedContent": "プログラム起動時に同じディレクトリ内の config.yml ファイルを検索します。ファイルが存在しない場合は、自動的にテンプレートが作成されます。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "PdDU+jCEfPD/yPEeEUEsTgvxNA0E3D6e1+hp1rclalw=",
+        "originContent": "以下是一个完整的配置示例：",
+        "translatedContent": "以下は完全な設定例です："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "YB9MhOd/nW5sE4uT3KMeXboqEAzrYxRm0IQyVkHrybs=",
+        "originContent": "config.yml 示例:",
+        "translatedContent": "config.yml の例:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```yaml\n# 🚄 China Railway Ticket Monitor 配置文件\n# 详细配置说明请参考 README.md\n\n# 查询列表 - 可添加多个查询条件\nwatch:\n  - # 基础信息\n    from: \"上海\" # 起点站（包含同城站）\n    to: \"北京\" # 终点站（包含同城站）\n    date: \"20241001\" # 日期（YYYYMMDD 格式）\n\n    # 车次列表（可选）- 不填时默认为全部车次\n    trains:\n      - code: \"G2\" # 车次号\n        from: \"上海\" # 指定起点站（可选）\n        to: \"北京南\" # 指定终点站（可选）\n        seatCategory: # 限定席别（可选，详见下文）\n          - \"二等座\"\n        checkRoundTrip: true # 查询全程车票情况（可选）\n\n# 推送配置 - 支持多种推送方式（详见下文）\nnotifications:\n  - # 飞书推送\n    type: \"Lark\"\n    webhook: \"\" # 飞书机器人 Webhook URL\n\n  - # Telegram推送\n    type: \"Telegram\"\n    botToken: \"\" # Telegram机器人Token\n    chatId: \"\" # 接收消息的Chat ID\n\n  - # Bark推送\n    type: \"Bark\"\n    deviceKey: \"\" # Bark 设备密钥\n    serverUrl: \"https://api.day.app\" # 服务器地址（可选）\n    group: \"火车票监控\" # 推送分组（可选）\n\n  - # SMTP邮件推送\n    type: \"SMTP\"\n    host: \"smtp.gmail.com\" # SMTP服务器地址\n    port: 587 # SMTP端口号\n    user: \"your-email@gmail.com\" # 邮箱用户名\n    pass: \"your-app-password\" # 邮箱密码\n    to: \"recipient@example.com\" # 收件人邮箱\n\n# 刷新间隔（分钟，可选，默认 15 分钟）\ninterval: 15\n\n# 访问延迟（秒，可选，默认 5 秒）\ndelay: 5\n```",
+    "ContentSha": "syqFoeMUydf/4ylPsDD5Hg4OHMd34+IzXYCk8/sVTIU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\n# 🚄 China Railway Ticket Monitor 配置文件\n# 详细配置说明请参考 README.md\n\n# 查询列表 - 可添加多个查询条件\nwatch:\n  - # 基础信息\n    from: \"上海\" # 起点站（包含同城站）\n    to: \"北京\" # 终点站（包含同城站）\n    date: \"20241001\" # 日期（YYYYMMDD 格式）\n\n    # 车次列表（可选）- 不填时默认为全部车次\n    trains:\n      - code: \"G2\" # 车次号\n        from: \"上海\" # 指定起点站（可选）\n        to: \"北京南\" # 指定终点站（可选）\n        seatCategory: # 限定席别（可选，详见下文）\n          - \"二等座\"\n        checkRoundTrip: true # 查询全程车票情况（可选）\n\n# 推送配置 - 支持多种推送方式（详见下文）\nnotifications:\n  - # 飞书推送\n    type: \"Lark\"\n    webhook: \"\" # 飞书机器人 Webhook URL\n\n  - # Telegram推送\n    type: \"Telegram\"\n    botToken: \"\" # Telegram机器人Token\n    chatId: \"\" # 接收消息的Chat ID\n\n  - # Bark推送\n    type: \"Bark\"\n    deviceKey: \"\" # Bark 设备密钥\n    serverUrl: \"https://api.day.app\" # 服务器地址（可选）\n    group: \"火车票监控\" # 推送分组（可选）\n\n  - # SMTP邮件推送\n    type: \"SMTP\"\n    host: \"smtp.gmail.com\" # SMTP服务器地址\n    port: 587 # SMTP端口号\n    user: \"your-email@gmail.com\" # 邮箱用户名\n    pass: \"your-app-password\" # 邮箱密码\n    to: \"recipient@example.com\" # 收件人邮箱\n\n# 刷新间隔（分钟，可选，默认 15 分钟）\ninterval: 15\n\n# 访问延迟（秒，可选，默认 5 秒）\ndelay: 5\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "alVU3rnn8/ZuaMUh3PAOuUO5kV92tPk11zHtEIakb4I=",
+        "originContent": "# 🚄 China Railway Ticket Monitor 配置文件",
+        "translatedContent": "# 🚄 China Railway Ticket Monitor 配置文件"
+      },
+      {
+        "row": 3,
+        "rowsha": "Zqt3E1TszY8NoL177xungk0nzhdHndGqiT/hDC2ewsw=",
+        "originContent": "# 详细配置说明请参考 README.md",
+        "translatedContent": "# 详细配置说明请参考 README.md"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "3ecmswEsBNt8qNDYo7F7k9zXIDm9zNx90g6JN9LJEOM=",
+        "originContent": "# 查询列表 - 可添加多个查询条件",
+        "translatedContent": "# 查询列表 - 可添加多个查询条件"
+      },
+      {
+        "row": 6,
+        "rowsha": "DRfsSZXOG8xyHLSPokUDW8jZ6hBw09oY3IgsPcqlLvw=",
+        "originContent": "watch:",
+        "translatedContent": "watch:"
+      },
+      {
+        "row": 7,
+        "rowsha": "kLHw4gvJvokCm3DP02WovdsIIrRRfOTk0wAqQbtfQkk=",
+        "originContent": "  - # 基础信息",
+        "translatedContent": "  - # 基础信息"
+      },
+      {
+        "row": 8,
+        "rowsha": "xwJhr+NE9BlNbH4ZzcGYJM9rdvpVb3HkFWF3Zuo1Nlg=",
+        "originContent": "    from: \"上海\" # 起点站（包含同城站）",
+        "translatedContent": "    from: \"上海\" # 起点站（包含同城站）"
+      },
+      {
+        "row": 9,
+        "rowsha": "KlL5TwixYujqMmW52QDBBIRBmwdqBLQOQPaQVVkRqUs=",
+        "originContent": "    to: \"北京\" # 终点站（包含同城站）",
+        "translatedContent": "    to: \"北京\" # 终点站（包含同城站）"
+      },
+      {
+        "row": 10,
+        "rowsha": "oapc2OHKhmaEkzs5etkcZvu9RCFrjgCE8rt/QLCIrCA=",
+        "originContent": "    date: \"20241001\" # 日期（YYYYMMDD 格式）",
+        "translatedContent": "    date: \"20241001\" # 日期（YYYYMMDD 格式）"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "uktywQyvdLDmUIN2GHZQ72Ulo12GnvSOiKXl1GHcRpM=",
+        "originContent": "    # 车次列表（可选）- 不填时默认为全部车次",
+        "translatedContent": "    # 车次列表（可选）- 不填时默认为全部车次"
+      },
+      {
+        "row": 13,
+        "rowsha": "DTVt51Y0x6AWAs1RxFo7/rHByg0P1yTr1Kv0b5ljScM=",
+        "originContent": "    trains:",
+        "translatedContent": "    trains:"
+      },
+      {
+        "row": 14,
+        "rowsha": "5SdA32rbBbZcRQeH4osZdPfwkv8EQoXhD+KrNDywD6c=",
+        "originContent": "      - code: \"G2\" # 车次号",
+        "translatedContent": "      - code: \"G2\" # 车次号"
+      },
+      {
+        "row": 15,
+        "rowsha": "lbaVJ/CmQYCTuLFq49EtumzDfJslJlca3lmKLWbKq0c=",
+        "originContent": "        from: \"上海\" # 指定起点站（可选）",
+        "translatedContent": "        from: \"上海\" # 指定起点站（可选）"
+      },
+      {
+        "row": 16,
+        "rowsha": "jsnSE80nePXW8LU9L8mxlyRJKzmWJv+GXPyn45hfZj8=",
+        "originContent": "        to: \"北京南\" # 指定终点站（可选）",
+        "translatedContent": "        to: \"北京南\" # 指定终点站（可选）"
+      },
+      {
+        "row": 17,
+        "rowsha": "Yq3dcVJrQp3ZdO5QWNrH3ZZlA12oSvBFw2vC/vzExp0=",
+        "originContent": "        seatCategory: # 限定席别（可选，详见下文）",
+        "translatedContent": "        seatCategory: # 限定席别（可选，详见下文）"
+      },
+      {
+        "row": 18,
+        "rowsha": "/IEmiJZ8Sf1S1QI1YrUdhxRaPVyab+ktuZkTrXIU/g4=",
+        "originContent": "          - \"二等座\"",
+        "translatedContent": "          - \"二等座\""
+      },
+      {
+        "row": 19,
+        "rowsha": "tXGyiPG7Dd0GpOf3Ejl5fFFbpc9dw/2tMrbCXOlCaFw=",
+        "originContent": "        checkRoundTrip: true # 查询全程车票情况（可选）",
+        "translatedContent": "        checkRoundTrip: true # 查询全程车票情况（可选）"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "+CTjAOtg/YvsIsPznHdeiyTBBWniO27yvCtzrxxVPFk=",
+        "originContent": "# 推送配置 - 支持多种推送方式（详见下文）",
+        "translatedContent": "# 推送配置 - 支持多种推送方式（详见下文）"
+      },
+      {
+        "row": 22,
+        "rowsha": "OjEE7wrlO/uMNzAbvaRYcDJBSS3Ebzt6YRU5gw9q3ow=",
+        "originContent": "notifications:",
+        "translatedContent": "notifications:"
+      },
+      {
+        "row": 23,
+        "rowsha": "jzNzJQE6mn/Qjz93kgjHFJ/bx31rh+Tk6yHbGyenb+Q=",
+        "originContent": "  - # 飞书推送",
+        "translatedContent": "  - # 飞书推送"
+      },
+      {
+        "row": 24,
+        "rowsha": "EWn6n6KAjTEU254QWQEqzwY91CEsiz8SyTy0cg/Bc+g=",
+        "originContent": "    type: \"Lark\"",
+        "translatedContent": "    type: \"Lark\""
+      },
+      {
+        "row": 25,
+        "rowsha": "xqfx2h1T3KBq64lm0yHjh1mQc5EXRYyOWR655cI1aRY=",
+        "originContent": "    webhook: \"\" # 飞书机器人 Webhook URL",
+        "translatedContent": "    webhook: \"\" # 飞书机器人 Webhook URL"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "oC3f23XrARNz7VdC5jpcpPQlb/bROZNWC/juvFveS2I=",
+        "originContent": "  - # Telegram推送",
+        "translatedContent": "  - # Telegram推送"
+      },
+      {
+        "row": 28,
+        "rowsha": "0f+d9tjLNLtc/Q2RpE56+sTnMwj1uTDs/8Jh1M1yIeo=",
+        "originContent": "    type: \"Telegram\"",
+        "translatedContent": "    type: \"Telegram\""
+      },
+      {
+        "row": 29,
+        "rowsha": "vqq4Wx/JPz8PczJytrNqnUn2qKiMo5MmCPNOYn9PyXk=",
+        "originContent": "    botToken: \"\" # Telegram机器人Token",
+        "translatedContent": "    botToken: \"\" # Telegram机器人Token"
+      },
+      {
+        "row": 30,
+        "rowsha": "NUBch7Ti7mfvC9jOFvEUcGeBB7ToehnMCfMO/TXuLA4=",
+        "originContent": "    chatId: \"\" # 接收消息的Chat ID",
+        "translatedContent": "    chatId: \"\" # 接收消息的Chat ID"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "4B6ErpmzZgimKs6UEFF5Qah9M2Ux2rLmpTd5gTD12gM=",
+        "originContent": "  - # Bark推送",
+        "translatedContent": "  - # Bark推送"
+      },
+      {
+        "row": 33,
+        "rowsha": "d6QdRB9aJ65A0uHVUrdUfECYEea0wtyMkgWxF+73cDI=",
+        "originContent": "    type: \"Bark\"",
+        "translatedContent": "    type: \"Bark\""
+      },
+      {
+        "row": 34,
+        "rowsha": "1BIEhJFwnFoQQ0v+FtK6nYbUd0I15XbxBwFvbu6d4qo=",
+        "originContent": "    deviceKey: \"\" # Bark 设备密钥",
+        "translatedContent": "    deviceKey: \"\" # Bark 设备密钥"
+      },
+      {
+        "row": 35,
+        "rowsha": "WtCS3MCQsFo/bCpRCV+klHX3TJ8Hrz29vX7MBUM49II=",
+        "originContent": "    serverUrl: \"https://api.day.app\" # 服务器地址（可选）",
+        "translatedContent": "    serverUrl: \"https://api.day.app\" # 服务器地址（可选）"
+      },
+      {
+        "row": 36,
+        "rowsha": "YFQ9hyHiV01kUsrjHHdbiWX6cDEY4B7lDfpgTAP8Rv4=",
+        "originContent": "    group: \"火车票监控\" # 推送分组（可选）",
+        "translatedContent": "    group: \"火车票监控\" # 推送分组（可选）"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "u0zowtuEpSv6UerM1v5iGQS9dcosxVNTVl6EEG0qYTU=",
+        "originContent": "  - # SMTP邮件推送",
+        "translatedContent": "  - # SMTP邮件推送"
+      },
+      {
+        "row": 39,
+        "rowsha": "wRI/KUKMXgm031gR6UK4hVRCOMpgM/iv6A46WHAQXX0=",
+        "originContent": "    type: \"SMTP\"",
+        "translatedContent": "    type: \"SMTP\""
+      },
+      {
+        "row": 40,
+        "rowsha": "cwvG8wMa2YAzXCSsg+2pcpz3PtwFqEvZSAj/zN2wUj0=",
+        "originContent": "    host: \"smtp.gmail.com\" # SMTP服务器地址",
+        "translatedContent": "    host: \"smtp.gmail.com\" # SMTP服务器地址"
+      },
+      {
+        "row": 41,
+        "rowsha": "osXK3X/iLVhOZozDA/gZNYFe680AeL2v/uHR3FZmBa4=",
+        "originContent": "    port: 587 # SMTP端口号",
+        "translatedContent": "    port: 587 # SMTP端口号"
+      },
+      {
+        "row": 42,
+        "rowsha": "C4wBFqR8Ie5Q5RuymVlA6M7am6x1andgML1GKiiyZ+s=",
+        "originContent": "    user: \"your-email@gmail.com\" # 邮箱用户名",
+        "translatedContent": "    user: \"your-email@gmail.com\" # 邮箱用户名"
+      },
+      {
+        "row": 43,
+        "rowsha": "2ikvtTmd52Qa/YuKoD5GRp3YUq6tcAShhXFKOJllZzc=",
+        "originContent": "    pass: \"your-app-password\" # 邮箱密码",
+        "translatedContent": "    pass: \"your-app-password\" # 邮箱密码"
+      },
+      {
+        "row": 44,
+        "rowsha": "FgPj+nmLV5dzLQHgRnWk2qNIdBTW0H1x+RL/uZ91iq8=",
+        "originContent": "    to: \"recipient@example.com\" # 收件人邮箱",
+        "translatedContent": "    to: \"recipient@example.com\" # 收件人邮箱"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "/yDMg1uRo1CFU+bVXeDpVZuTS8s72eaSlnJqPsezfjM=",
+        "originContent": "# 刷新间隔（分钟，可选，默认 15 分钟）",
+        "translatedContent": "# 刷新间隔（分钟，可选，默认 15 分钟）"
+      },
+      {
+        "row": 47,
+        "rowsha": "rBYri+kC/IiljpIIwZOiC/NsyFj8v8L5tcVN5z9i2L4=",
+        "originContent": "interval: 15",
+        "translatedContent": "interval: 15"
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "5ycbHACY3jSf0K/EKLZM1IJrlpoSzev+0D7h+TNxiYs=",
+        "originContent": "# 访问延迟（秒，可选，默认 5 秒）",
+        "translatedContent": "# 访问延迟（秒，可选，默认 5 秒）"
+      },
+      {
+        "row": 50,
+        "rowsha": "Hi45T7m5OIfPAh4HmzKuD3skpssatJDcsZkV9xDqb1Q=",
+        "originContent": "delay: 5",
+        "translatedContent": "delay: 5"
+      },
+      {
+        "row": 51,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## 推送通知\n\n目前支持飞书推送、Telegram 推送、企业微信推送、Bark 推送和 SMTP 邮件推送通知。\n\n### 飞书推送配置\n\n获取飞书机器人的 webhook 地址可参考[飞书开发文档](https://open.feishu.cn/document/client-docs/bot-v3/add-custom-bot)\n\n#### 基础配置\n\n在 `config.yml` 中填写飞书机器人的 Webhook 地址即可，例如：\n",
+    "ContentSha": "4+ab6PuAR/YgDmZfPpptMQPZemNjg/NqHQ/lJceqbg0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 推送通知\n\n現在はFeishuプッシュ、Telegramプッシュ、企業WeChatプッシュ、BarkプッシュおよびSMTPメールプッシュ通知をサポートしています。\n\n### Feishuプッシュ設定\n\nFeishuボットのWebhookアドレスの取得方法は[Feishu開発ドキュメント](https://open.feishu.cn/document/client-docs/bot-v3/add-custom-bot)を参照してください。\n\n#### 基本設定\n\n`config.yml` にFeishuボットのWebhookアドレスを記入してください。例えば：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "2SwpSBcRoDO0Pq4r7p7McpPIWgJRaCAuoLMJRayKbCY=",
+        "originContent": "## 推送通知",
+        "translatedContent": "## 推送通知"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ek9TcxFnayEggJFXkjK0L7e96mn/WMis8dWJmrL3M58=",
+        "originContent": "目前支持飞书推送、Telegram 推送、企业微信推送、Bark 推送和 SMTP 邮件推送通知。",
+        "translatedContent": "現在はFeishuプッシュ、Telegramプッシュ、企業WeChatプッシュ、BarkプッシュおよびSMTPメールプッシュ通知をサポートしています。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "r2n817HurGoEdJiz08x7lf8/SNKZownrKdvaHm1QKY0=",
+        "originContent": "### 飞书推送配置",
+        "translatedContent": "### Feishuプッシュ設定"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "/96A28lbLzyMMD3FhvLNh+LHpOj5Aq9CrslO0W2OIl0=",
+        "originContent": "获取飞书机器人的 webhook 地址可参考[飞书开发文档](https://open.feishu.cn/document/client-docs/bot-v3/add-custom-bot)",
+        "translatedContent": "FeishuボットのWebhookアドレスの取得方法は[Feishu開発ドキュメント](https://open.feishu.cn/document/client-docs/bot-v3/add-custom-bot)を参照してください。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "d9M3ieN9/3nECw4CheJKE5YsOGdQStMeXm96Fg7dijQ=",
+        "originContent": "#### 基础配置",
+        "translatedContent": "#### 基本設定"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "TAMkW3lMqMTeJnN8t/WWyfxlYM2sb7/qBAzJJ1U7Kl4=",
+        "originContent": "在 `config.yml` 中填写飞书机器人的 Webhook 地址即可，例如：",
+        "translatedContent": "`config.yml` にFeishuボットのWebhookアドレスを記入してください。例えば："
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```yaml\nnotifications:\n  - type: \"Lark\"\n    webhook: \"https://open.feishu.cn/open-apis/bot/v2/hook/your-webhook-url\"\n```",
+    "ContentSha": "4/oFTB/oGtyg2CWQw16gY+oBNVt3UNl2K75MonCZ+sQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nnotifications:\n  - type: \"Lark\"\n    webhook: \"https://open.feishu.cn/open-apis/bot/v2/hook/your-webhook-url\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "OjEE7wrlO/uMNzAbvaRYcDJBSS3Ebzt6YRU5gw9q3ow=",
+        "originContent": "notifications:",
+        "translatedContent": "notifications:"
+      },
+      {
+        "row": 3,
+        "rowsha": "WI1p2WJEHAuS3UinveYn8gIw4INKyJRjZc87RqtmyqI=",
+        "originContent": "  - type: \"Lark\"",
+        "translatedContent": "  - type: \"Lark\""
+      },
+      {
+        "row": 4,
+        "rowsha": "93TTEt5eg5VLbabwULClvR43V1U1c677U8Is7iXt8SI=",
+        "originContent": "    webhook: \"https://open.feishu.cn/open-apis/bot/v2/hook/your-webhook-url\"",
+        "translatedContent": "    webhook: \"https://open.feishu.cn/open-apis/bot/v2/hook/your-webhook-url\""
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n#### 签名校验配置（推荐）\n\n为了提高安全性，建议启用飞书机器人的签名校验功能：\n\n1. 在飞书群组中，进入自定义机器人的配置页面\n2. 在安全设置中选择\"签名校验\"\n3. 复制生成的密钥\n4. 在配置文件中添加 `secret` 字段：\n",
+    "ContentSha": "t322V0qWDjT6GBnpd6gv7dKjbN9wq4Ba5/eH2Hqbg5o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### 署名検証設定（推奨）\n\nセキュリティを向上させるために、Feishuボットの署名検証機能を有効にすることを推奨します：\n\n1. Feishuグループ内で、カスタムボットの設定ページにアクセスします\n2. セキュリティ設定で「署名検証」を選択します\n3. 生成されたシークレットキーをコピーします\n4. 設定ファイルに `secret` フィールドを追加します：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nCyAb+kTA2LnsLhcPszhg9b64R30htDQRDRvbgjAUlo=",
+        "originContent": "#### 签名校验配置（推荐）",
+        "translatedContent": "#### 署名検証設定（推奨）"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "HFerL6VQmZD6H2ZrYwktDX6dOxzE10GTExnbUdK114c=",
+        "originContent": "为了提高安全性，建议启用飞书机器人的签名校验功能：",
+        "translatedContent": "セキュリティを向上させるために、Feishuボットの署名検証機能を有効にすることを推奨します："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "k9694hjMrt0wJxvv/fuhE23dgFJmH1gQ5XObsdlWHOw=",
+        "originContent": "1. 在飞书群组中，进入自定义机器人的配置页面",
+        "translatedContent": "1. Feishuグループ内で、カスタムボットの設定ページにアクセスします"
+      },
+      {
+        "row": 7,
+        "rowsha": "iEUBmNo0PDrPi4cv3WL5LuO9yBN3VtTY5dSnO7vwWhA=",
+        "originContent": "2. 在安全设置中选择\"签名校验\"",
+        "translatedContent": "2. セキュリティ設定で「署名検証」を選択します"
+      },
+      {
+        "row": 8,
+        "rowsha": "HF+XkDU+x9szCV5+powtMIITOedMF9/KYx6ehK5S5ro=",
+        "originContent": "3. 复制生成的密钥",
+        "translatedContent": "3. 生成されたシークレットキーをコピーします"
+      },
+      {
+        "row": 9,
+        "rowsha": "7wvbaRHXUWVItzvMCjHDma4UZHMm09KCPndUG70Y+Z0=",
+        "originContent": "4. 在配置文件中添加 `secret` 字段：",
+        "translatedContent": "4. 設定ファイルに `secret` フィールドを追加します："
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```yaml\nnotifications:\n  - type: \"Lark\"\n    webhook: \"https://open.feishu.cn/open-apis/bot/v2/hook/your-webhook-url\"\n    secret: \"your-secret-key\" # 签名密钥（可选，启用签名校验时必填）\n```",
+    "ContentSha": "eXsDnKQQoXbAU47YqXkxIARmCHf+OAuEAChIP+wJ30g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nnotifications:\n  - type: \"Lark\"\n    webhook: \"https://open.feishu.cn/open-apis/bot/v2/hook/your-webhook-url\"\n    secret: \"your-secret-key\" # 签名密钥（可选，启用签名校验时必填）\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "OjEE7wrlO/uMNzAbvaRYcDJBSS3Ebzt6YRU5gw9q3ow=",
+        "originContent": "notifications:",
+        "translatedContent": "notifications:"
+      },
+      {
+        "row": 3,
+        "rowsha": "WI1p2WJEHAuS3UinveYn8gIw4INKyJRjZc87RqtmyqI=",
+        "originContent": "  - type: \"Lark\"",
+        "translatedContent": "  - type: \"Lark\""
+      },
+      {
+        "row": 4,
+        "rowsha": "93TTEt5eg5VLbabwULClvR43V1U1c677U8Is7iXt8SI=",
+        "originContent": "    webhook: \"https://open.feishu.cn/open-apis/bot/v2/hook/your-webhook-url\"",
+        "translatedContent": "    webhook: \"https://open.feishu.cn/open-apis/bot/v2/hook/your-webhook-url\""
+      },
+      {
+        "row": 5,
+        "rowsha": "dIYNtI/jvCt6k8VFAYmU+UYbBbq6fYCmyIcxbnfd3rU=",
+        "originContent": "    secret: \"your-secret-key\" # 签名密钥（可选，启用签名校验时必填）",
+        "translatedContent": "    secret: \"your-secret-key\" # 签名密钥（可选，启用签名校验时必填）"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n**注意事项：**\n\n- 签名密钥用于验证消息来源的可信性，防止恶意调用\n- 启用签名校验后，所有请求都需要通过签名验证\n- 签名算法使用 HmacSHA256 + Base64 编码\n\n### Telegram 推送配置\n\n使用 Telegram 推送需要先创建一个 Telegram 机器人并获取相关信息：\n\n1. 在 Telegram 中找到 [@BotFather](https://t.me/BotFather) 并发送 `/newbot` 创建新机器人\n2. 按照提示设置机器人名称和用户名，获取机器人 Token\n3. 将机器人添加到您的聊天中，或直接与机器人私聊\n4. 获取 Chat ID：\n   - 发送消息给机器人后，访问 `https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates`\n   - 在返回的 JSON 中找到 `chat.id` 字段\n\n在 `config.yml` 中配置 Telegram 推送：\n",
+    "ContentSha": "gMfEP/omn9+1g43HMdF9WcRS4z721xooyTY7veXKbj0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**注意事項：**\n\n- 署名鍵はメッセージの送信元の信頼性を検証し、不正な呼び出しを防止します\n- 署名検証を有効にすると、すべてのリクエストが署名検証を通過する必要があります\n- 署名アルゴリズムは HmacSHA256 + Base64 エンコードを使用します\n\n### Telegram プッシュ設定\n\nTelegram プッシュを使用するには、まず Telegram ボットを作成し関連情報を取得します：\n\n1. Telegram で [@BotFather](https://t.me/BotFather) を見つけ、`/newbot` を送信して新しいボットを作成します\n2. 指示に従ってボットの名前とユーザー名を設定し、ボットのトークンを取得します\n3. ボットをチャットに追加するか、直接ボットとプライベートチャットを開始します\n4. Chat ID を取得：\n   - ボットにメッセージを送信した後、`https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates` にアクセスします\n   - 返された JSON の中の `chat.id` フィールドを見つけます\n\n`config.yml` に Telegram プッシュを設定します：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**注意事項：**"
+      },
+      {
+        "row": 2,
+        "rowsha": "vk5VSUIVb4LPzwx3tWSZCE67P4qIut0liHXBewrPq08=",
+        "originContent": "**注意事项：**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 署名鍵はメッセージの送信元の信頼性を検証し、不正な呼び出しを防止します"
+      },
+      {
+        "row": 4,
+        "rowsha": "lfujQCc9P4Aju+zitSktbIHORSJ8D3NCKPlWepWoHnc=",
+        "originContent": "- 签名密钥用于验证消息来源的可信性，防止恶意调用",
+        "translatedContent": "- 署名検証を有効にすると、すべてのリクエストが署名検証を通過する必要があります"
+      },
+      {
+        "row": 5,
+        "rowsha": "S3qqf5nHTfUaW+kpuxVw+jwJ/TinmuNc44WBTA/vNeY=",
+        "originContent": "- 启用签名校验后，所有请求都需要通过签名验证",
+        "translatedContent": "- 署名アルゴリズムは HmacSHA256 + Base64 エンコードを使用します"
+      },
+      {
+        "row": 6,
+        "rowsha": "nNOIq5d9ggVTfCNX4XHeTHQN/VmBW0u5rGA4Jh3zO/4=",
+        "originContent": "- 签名算法使用 HmacSHA256 + Base64 编码",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Telegram プッシュ設定"
+      },
+      {
+        "row": 8,
+        "rowsha": "FANxrhV78XZwUMGMJ3T1/rVCYBppK1KOVxIHBJSkR/s=",
+        "originContent": "### Telegram 推送配置",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Telegram プッシュを使用するには、まず Telegram ボットを作成し関連情報を取得します："
+      },
+      {
+        "row": 10,
+        "rowsha": "s6xRYN/zRexjO2ca/AFm3tm92zOZcnQttNTn/M5UQxo=",
+        "originContent": "使用 Telegram 推送需要先创建一个 Telegram 机器人并获取相关信息：",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Telegram で [@BotFather](https://t.me/BotFather) を見つけ、`/newbot` を送信して新しいボットを作成します"
+      },
+      {
+        "row": 12,
+        "rowsha": "msJAiid35wwI60i0FreZrjr9d50mVSlx4S4AEQZMx34=",
+        "originContent": "1. 在 Telegram 中找到 [@BotFather](https://t.me/BotFather) 并发送 `/newbot` 创建新机器人",
+        "translatedContent": "2. 指示に従ってボットの名前とユーザー名を設定し、ボットのトークンを取得します"
+      },
+      {
+        "row": 13,
+        "rowsha": "V91pImyGihz43n5gydL+3NrfGtngayYqHH7xqEs0JgQ=",
+        "originContent": "2. 按照提示设置机器人名称和用户名，获取机器人 Token",
+        "translatedContent": "3. ボットをチャットに追加するか、直接ボットとプライベートチャットを開始します"
+      },
+      {
+        "row": 14,
+        "rowsha": "A7WorlAbbdjHKogGGUgsx4x5tHQECtod33OhRsLCUDc=",
+        "originContent": "3. 将机器人添加到您的聊天中，或直接与机器人私聊",
+        "translatedContent": "4. Chat ID を取得："
+      },
+      {
+        "row": 15,
+        "rowsha": "cMaew/Cacck9cnIe1uJzRs2aU2iaTiFPFlq1eWId5T8=",
+        "originContent": "4. 获取 Chat ID：",
+        "translatedContent": "   - ボットにメッセージを送信した後、`https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates` にアクセスします"
+      },
+      {
+        "row": 16,
+        "rowsha": "3IyBpomeroKPUD1KkccGGX8UkIVAwKw1D3xjoHCPj0w=",
+        "originContent": "   - 发送消息给机器人后，访问 `https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates`",
+        "translatedContent": "   - 返された JSON の中の `chat.id` フィールドを見つけます"
+      },
+      {
+        "row": 17,
+        "rowsha": "LFgFRRN9Jf3RCHsQ6Mg1lateDzJJn2JEsKEbCsPgiGg=",
+        "originContent": "   - 在返回的 JSON 中找到 `chat.id` 字段",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`config.yml` に Telegram プッシュを設定します："
+      },
+      {
+        "row": 19,
+        "rowsha": "csIeX1DnuyvOpwhU93wwlZwUkymDhQjnBfaiTy1F9mE=",
+        "originContent": "在 `config.yml` 中配置 Telegram 推送：",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```yaml\nnotifications:\n  - type: \"Telegram\"\n    botToken: \"123456789:ABCdefGHIjklMNOpqrsTUVwxyz\" # 机器人Token\n    chatId: \"123456789\" # Chat ID（可以是个人ID或群组ID）\n```",
+    "ContentSha": "BbFOPT/+HC5R61K33h9y7yObs2reNavLUS4G8aeVKJw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nnotifications:\n  - type: \"Telegram\"\n    botToken: \"123456789:ABCdefGHIjklMNOpqrsTUVwxyz\" # 机器人Token\n    chatId: \"123456789\" # Chat ID（可以是个人ID或群组ID）\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "OjEE7wrlO/uMNzAbvaRYcDJBSS3Ebzt6YRU5gw9q3ow=",
+        "originContent": "notifications:",
+        "translatedContent": "notifications:"
+      },
+      {
+        "row": 3,
+        "rowsha": "IJvhZOeZwMu3Zo9mpfjiJzFBQvF4t2oCYVS4Zb9Qn6E=",
+        "originContent": "  - type: \"Telegram\"",
+        "translatedContent": "  - type: \"Telegram\""
+      },
+      {
+        "row": 4,
+        "rowsha": "Eyny/5WSHdzqucP+MV1zzelfVSDbgFNOMiy9J63wyAY=",
+        "originContent": "    botToken: \"123456789:ABCdefGHIjklMNOpqrsTUVwxyz\" # 机器人Token",
+        "translatedContent": "    botToken: \"123456789:ABCdefGHIjklMNOpqrsTUVwxyz\" # 机器人Token"
+      },
+      {
+        "row": 5,
+        "rowsha": "Di98ONct/LlohIk2+ZJWylLwt0/7qniv0uCOhAztVi4=",
+        "originContent": "    chatId: \"123456789\" # Chat ID（可以是个人ID或群组ID）",
+        "translatedContent": "    chatId: \"123456789\" # Chat ID（可以是个人ID或群组ID）"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### 企业微信推送配置\n\n使用企业微信推送需要先创建企业微信群机器人：\n\n1. 在企业微信群中，点击群设置 → 群机器人 → 添加机器人\n2. 设置机器人名称和头像，获取 Webhook URL\n3. 复制完整的 Webhook URL（包含 key 参数）\n\n在 `config.yml` 中配置企业微信推送：\n",
+    "ContentSha": "QgXv4IoZqN52/YBWGH5e8KU1r02OTmXLOxo8gIwyn0E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 企業微信プッシュ設定\n\n企業微信プッシュを使用するには、まず企業微信群のロボットを作成する必要があります：\n\n1. 企業微信群で、グループ設定 → グループロボット → ロボットを追加をクリックします\n2. ロボットの名前とアイコンを設定し、Webhook URLを取得します\n3. 完全なWebhook URL（keyパラメータを含む）をコピーします\n\n`config.yml`に企業微信プッシュを設定します：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "JWrQDBjPaeuNPak8xQn89IV5HsIZX3lYn/uSHM3AZSM=",
+        "originContent": "### 企业微信推送配置",
+        "translatedContent": "### 企業微信プッシュ設定"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "zAcyHGxaqYUzUJ7SHUupFjB3mn8rk5kC6mpa54epOfg=",
+        "originContent": "使用企业微信推送需要先创建企业微信群机器人：",
+        "translatedContent": "企業微信プッシュを使用するには、まず企業微信群のロボットを作成する必要があります："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "XFbzR8EV8QHH6hg27F9w4Dqssm8Bg/Gh6XdTGc7S1I4=",
+        "originContent": "1. 在企业微信群中，点击群设置 → 群机器人 → 添加机器人",
+        "translatedContent": "1. 企業微信群で、グループ設定 → グループロボット → ロボットを追加をクリックします"
+      },
+      {
+        "row": 7,
+        "rowsha": "obzsHB40YbYz1oPSdLKcMVW5Kom0YSqd1kVMO9HCHIY=",
+        "originContent": "2. 设置机器人名称和头像，获取 Webhook URL",
+        "translatedContent": "2. ロボットの名前とアイコンを設定し、Webhook URLを取得します"
+      },
+      {
+        "row": 8,
+        "rowsha": "8IutZtUFyBjvi1jtakc8LYjwZPJyTSXgqCnDBbumOi0=",
+        "originContent": "3. 复制完整的 Webhook URL（包含 key 参数）",
+        "translatedContent": "3. 完全なWebhook URL（keyパラメータを含む）をコピーします"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "a76FQDo7w6kLEDSF9nsGjfzZEX/Ajo/Ql3g1AmHw9cc=",
+        "originContent": "在 `config.yml` 中配置企业微信推送：",
+        "translatedContent": "`config.yml`に企業微信プッシュを設定します："
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```yaml\nnotifications:\n  - type: \"WechatWork\"\n    webhook: \"https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=your-webhook-key\"\n```",
+    "ContentSha": "F6AEyO80u6O25SXS9MO12WZmd7AYlwR5rdDzXN9tF8s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nnotifications:\n  - type: \"WechatWork\"\n    webhook: \"https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=your-webhook-key\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "OjEE7wrlO/uMNzAbvaRYcDJBSS3Ebzt6YRU5gw9q3ow=",
+        "originContent": "notifications:",
+        "translatedContent": "notifications:"
+      },
+      {
+        "row": 3,
+        "rowsha": "MYEHLthlz3YXEd0+zHTzl+m+szDH8H+ywZI1daJLdjA=",
+        "originContent": "  - type: \"WechatWork\"",
+        "translatedContent": "  - type: \"WechatWork\""
+      },
+      {
+        "row": 4,
+        "rowsha": "hfeA+0oHGuq1n7olyReuAVYpOav+AUucKLBy/mtzU5w=",
+        "originContent": "    webhook: \"https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=your-webhook-key\"",
+        "translatedContent": "    webhook: \"https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=your-webhook-key\""
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n### Bark 推送配置\n\nBark 是一个 iOS 推送通知应用，支持通过 API 发送推送到 iPhone/iPad。\n\n#### 获取 Bark 设备密钥\n\n1. 在 App Store 下载并安装 [Bark](https://apps.apple.com/app/bark-customed-notifications/id1403753865) 应用\n2. 打开应用，复制显示的设备密钥（Device Key）\n3. 可选：如果你有自己的 Bark 服务器，也可以修改服务器地址\n\n#### 配置 Bark 推送\n\n在 `config.yml` 中配置 Bark 推送：\n",
+    "ContentSha": "mPm/KOCz+ZZmi8UEwet/Y7cPytPXRJlxU/tta8rsuyg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Bark 推送設定\n\nBark は iOS プッシュ通知アプリで、API を通じて iPhone/iPad にプッシュ通知を送信できます。\n\n#### Bark デバイスキーの取得\n\n1. App Store から [Bark](https://apps.apple.com/app/bark-customed-notifications/id1403753865) アプリをダウンロードしてインストールします\n2. アプリを開き、表示されるデバイスキー（Device Key）をコピーします\n3. 任意：独自の Bark サーバーがある場合は、サーバーアドレスを変更できます\n\n#### Bark プッシュの設定\n\n`config.yml` に Bark プッシュを設定します：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Low8g/aUnE8/amhMvvdtfqnQyK9H+4DMXtsofYtAoAE=",
+        "originContent": "### Bark 推送配置",
+        "translatedContent": "### Bark 推送設定"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "rtQha10r3jWqzeq18g/knLFetFNVrRnTQtckQ7r8F/c=",
+        "originContent": "Bark 是一个 iOS 推送通知应用，支持通过 API 发送推送到 iPhone/iPad。",
+        "translatedContent": "Bark は iOS プッシュ通知アプリで、API を通じて iPhone/iPad にプッシュ通知を送信できます。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "agW5ChVOxfOS4MWR0ZnSM/U8ATPCX+KLzDQyy5vSrD8=",
+        "originContent": "#### 获取 Bark 设备密钥",
+        "translatedContent": "#### Bark デバイスキーの取得"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "l0wFLhFlq7P1Z3ZWbH6M1kIXBoJ5TUf+pudlBZdA3EM=",
+        "originContent": "1. 在 App Store 下载并安装 [Bark](https://apps.apple.com/app/bark-customed-notifications/id1403753865) 应用",
+        "translatedContent": "1. App Store から [Bark](https://apps.apple.com/app/bark-customed-notifications/id1403753865) アプリをダウンロードしてインストールします"
+      },
+      {
+        "row": 9,
+        "rowsha": "Bw2+d3obSezNSvQtRmpBwblDy6MQ6pbeADiVQu3Dlhw=",
+        "originContent": "2. 打开应用，复制显示的设备密钥（Device Key）",
+        "translatedContent": "2. アプリを開き、表示されるデバイスキー（Device Key）をコピーします"
+      },
+      {
+        "row": 10,
+        "rowsha": "Ph2A7GTvw6/+oX0B0S+P9UNoJYMbmwg6ittSs7qZrx4=",
+        "originContent": "3. 可选：如果你有自己的 Bark 服务器，也可以修改服务器地址",
+        "translatedContent": "3. 任意：独自の Bark サーバーがある場合は、サーバーアドレスを変更できます"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "E2gnoTIYO6X7U3nnqHKLbeW+Zh2+f9ykIa4k5LDVtbI=",
+        "originContent": "#### 配置 Bark 推送",
+        "translatedContent": "#### Bark プッシュの設定"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "3fTRoXZBI5jFA/fASuhszCgydvzJuP2wxv2OJGYvgWM=",
+        "originContent": "在 `config.yml` 中配置 Bark 推送：",
+        "translatedContent": "`config.yml` に Bark プッシュを設定します："
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```yaml\nnotifications:\n  - type: \"Bark\"\n    deviceKey: \"your-device-key\" # 必填：设备密钥\n    serverUrl: \"https://api.day.app\" # 可选：服务器地址，默认官方服务器\n    group: \"火车票监控\" # 可选：推送分组\n    sound: \"default\" # 可选：推送声音\n    # 高级选项（可选）\n    level: \"active\" # 推送级别：active(默认)/critical(重要)/timeSensitive(时效)/passive(静默)\n    icon: \"https://example.com/icon.png\" # 自定义图标URL\n    url: \"https://example.com\" # 点击推送后跳转的URL\n    autoCopy: false # 是否自动复制推送内容\n    isArchive: true # 是否保存到推送历史\n```",
+    "ContentSha": "fz2Penzm9N8N8p1kKjgB21tFuYLesTk1YNXXSkOuBMo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nnotifications:\n  - type: \"Bark\"\n    deviceKey: \"your-device-key\" # 必填：设备密钥\n    serverUrl: \"https://api.day.app\" # 可选：服务器地址，默认官方服务器\n    group: \"火车票监控\" # 可选：推送分组\n    sound: \"default\" # 可选：推送声音\n    # 高级选项（可选）\n    level: \"active\" # 推送级别：active(默认)/critical(重要)/timeSensitive(时效)/passive(静默)\n    icon: \"https://example.com/icon.png\" # 自定义图标URL\n    url: \"https://example.com\" # 点击推送后跳转的URL\n    autoCopy: false # 是否自动复制推送内容\n    isArchive: true # 是否保存到推送历史\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "OjEE7wrlO/uMNzAbvaRYcDJBSS3Ebzt6YRU5gw9q3ow=",
+        "originContent": "notifications:",
+        "translatedContent": "notifications:"
+      },
+      {
+        "row": 3,
+        "rowsha": "6DzJbFCY4zt4zSamizgFGlqNmiTtv+68fZHVWl9sImQ=",
+        "originContent": "  - type: \"Bark\"",
+        "translatedContent": "  - type: \"Bark\""
+      },
+      {
+        "row": 4,
+        "rowsha": "gCfKp8ayBdjvlngsMAswCRAdoprPD3xOhyDrGw9TOkw=",
+        "originContent": "    deviceKey: \"your-device-key\" # 必填：设备密钥",
+        "translatedContent": "    deviceKey: \"your-device-key\" # 必填：设备密钥"
+      },
+      {
+        "row": 5,
+        "rowsha": "qEBcFghnwbbETickm5PadZOZNCgUKFbPTMQ2uyRVQXI=",
+        "originContent": "    serverUrl: \"https://api.day.app\" # 可选：服务器地址，默认官方服务器",
+        "translatedContent": "    serverUrl: \"https://api.day.app\" # 可选：服务器地址，默认官方服务器"
+      },
+      {
+        "row": 6,
+        "rowsha": "CZ8rloteugLczU8O9tLBZqZbooP9ZLzniEh9M7ukoAk=",
+        "originContent": "    group: \"火车票监控\" # 可选：推送分组",
+        "translatedContent": "    group: \"火车票监控\" # 可选：推送分组"
+      },
+      {
+        "row": 7,
+        "rowsha": "3JZBCped5eNTKYfnxY2kMj0i1rBq1lkhPHlLiiadttg=",
+        "originContent": "    sound: \"default\" # 可选：推送声音",
+        "translatedContent": "    sound: \"default\" # 可选：推送声音"
+      },
+      {
+        "row": 8,
+        "rowsha": "pG+lZouZFdQkgvlyR7EjWp+/Yack4H1/iz/9zw9Zzsg=",
+        "originContent": "    # 高级选项（可选）",
+        "translatedContent": "    # 高级选项（可选）"
+      },
+      {
+        "row": 9,
+        "rowsha": "FIsrJ8Mw/UOzvsxZGEfr6FRXHOBbahoSWYkS2q836VI=",
+        "originContent": "    level: \"active\" # 推送级别：active(默认)/critical(重要)/timeSensitive(时效)/passive(静默)",
+        "translatedContent": "    level: \"active\" # 推送级别：active(默认)/critical(重要)/timeSensitive(时效)/passive(静默)"
+      },
+      {
+        "row": 10,
+        "rowsha": "DHQSaiHvWWRQpxjH+FXX5AVdisXsVFAN+uKTkL4FbhA=",
+        "originContent": "    icon: \"https://example.com/icon.png\" # 自定义图标URL",
+        "translatedContent": "    icon: \"https://example.com/icon.png\" # 自定义图标URL"
+      },
+      {
+        "row": 11,
+        "rowsha": "wj+u3DymnvJHCGGqFrrTCzGD4/tNDlXaGOrl5wJR3Jc=",
+        "originContent": "    url: \"https://example.com\" # 点击推送后跳转的URL",
+        "translatedContent": "    url: \"https://example.com\" # 点击推送后跳转的URL"
+      },
+      {
+        "row": 12,
+        "rowsha": "GCmzFlDgLnEwcLVFYHg5yy8nbAq2AcE22+swXjKaO+k=",
+        "originContent": "    autoCopy: false # 是否自动复制推送内容",
+        "translatedContent": "    autoCopy: false # 是否自动复制推送内容"
+      },
+      {
+        "row": 13,
+        "rowsha": "kejH0Q3b/kDSoSZr6uhRISq0OdD/nfY6jur2f8r0fvw=",
+        "originContent": "    isArchive: true # 是否保存到推送历史",
+        "translatedContent": "    isArchive: true # 是否保存到推送历史"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n#### Bark 推送级别说明\n\n- `active`（默认）：系统会立即亮屏显示通知\n- `critical`：重要警告，在静音模式下也会响铃\n- `timeSensitive`：时效性通知，可在专注状态下显示通知\n- `passive`：仅将通知添加到通知列表，不会亮屏提醒\n\n### SMTP 邮件推送配置\n\nSMTP 邮件推送支持通过标准邮件服务器发送余票通知邮件。\n\n#### 配置 SMTP 邮件推送\n\n在 `config.yml` 中配置 SMTP 邮件推送：\n",
+    "ContentSha": "Mk2mc2Kd9pT/9YIy4lh2bitTx626/9q5cjd6G5FT3LY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### Bark 推送レベルの説明\n\n- `active`（デフォルト）：システムは即座に画面を点灯して通知を表示します\n- `critical`：重要警告、サイレントモードでも着信音が鳴ります\n- `timeSensitive`：時間敏感型通知、集中モード中でも通知を表示可能\n- `passive`：通知リストにのみ通知を追加し、画面点灯はしません\n\n### SMTP メールプッシュ設定\n\nSMTP メールプッシュは標準のメールサーバーを通じて残券通知メールを送信することをサポートします。\n\n#### SMTP メールプッシュの設定\n\n`config.yml` に SMTP メールプッシュを設定します：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "+Clw8fun6YRZ+MOYmMHfj6Y7OCEx1CvlEEcJB76Rlhk=",
+        "originContent": "#### Bark 推送级别说明",
+        "translatedContent": "#### Bark 推送レベルの説明"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "WPEcdGmtUT+KUYxCn7TajcmvCWUlYCYWwedZb2EeplA=",
+        "originContent": "- `active`（默认）：系统会立即亮屏显示通知",
+        "translatedContent": "- `active`（デフォルト）：システムは即座に画面を点灯して通知を表示します"
+      },
+      {
+        "row": 5,
+        "rowsha": "ap5Qc7qcu3xKWXeJakfL2p+avTDQrB0ZpGHjUTxaVXk=",
+        "originContent": "- `critical`：重要警告，在静音模式下也会响铃",
+        "translatedContent": "- `critical`：重要警告、サイレントモードでも着信音が鳴ります"
+      },
+      {
+        "row": 6,
+        "rowsha": "s+c7eKYU/BHQFgEkwoMq69JBb2jgsIP517EVUMX8Sbg=",
+        "originContent": "- `timeSensitive`：时效性通知，可在专注状态下显示通知",
+        "translatedContent": "- `timeSensitive`：時間敏感型通知、集中モード中でも通知を表示可能"
+      },
+      {
+        "row": 7,
+        "rowsha": "YF4lremjaTizUv4+KljcA7vqRYcyRzJgm+5RnsyHNJ4=",
+        "originContent": "- `passive`：仅将通知添加到通知列表，不会亮屏提醒",
+        "translatedContent": "- `passive`：通知リストにのみ通知を追加し、画面点灯はしません"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "1GGIkqV0wVNG57Ez68uwxDyJL8msAsrHwyxbneBYfos=",
+        "originContent": "### SMTP 邮件推送配置",
+        "translatedContent": "### SMTP メールプッシュ設定"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "dPYdsWX/JyhrHKuCbbt9nsJ105x3IgWyWUwLIr+Sl7g=",
+        "originContent": "SMTP 邮件推送支持通过标准邮件服务器发送余票通知邮件。",
+        "translatedContent": "SMTP メールプッシュは標準のメールサーバーを通じて残券通知メールを送信することをサポートします。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "FmoX9YTPwOkJcZ/YzQvIOkD32ASJTS4BooVDrvY29KM=",
+        "originContent": "#### 配置 SMTP 邮件推送",
+        "translatedContent": "#### SMTP メールプッシュの設定"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "kiackISI2XCAv1G5GK4pflMwqS0GGHgujNC/kUSd770=",
+        "originContent": "在 `config.yml` 中配置 SMTP 邮件推送：",
+        "translatedContent": "`config.yml` に SMTP メールプッシュを設定します："
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```yaml\nnotifications:\n  - type: \"SMTP\"\n    host: \"smtp.gmail.com\" # 必填：SMTP服务器地址\n    port: 587 # 必填：SMTP端口号\n    user: \"your-email@gmail.com\" # 必填：邮箱用户名\n    pass: \"your-app-password\" # 必填：邮箱密码或应用密码\n    to: \"recipient@example.com\" # 必填：收件人邮箱地址\n    # 可选配置\n    from: \"12306监控 <your-email@gmail.com>\" # 发件人显示名称\n    cc: \"cc@example.com\" # 抄送邮箱\n    bcc: \"bcc@example.com\" # 密送邮箱\n    replyTo: \"noreply@example.com\" # 回复邮箱\n    secure: true # 是否使用SSL/TLS (465端口使用true，587端口使用false)\n```",
+    "ContentSha": "rG3GVfKQBjMhLOEeb3Sy/8jnihS4NzQAr5El6RSor/g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nnotifications:\n  - type: \"SMTP\"\n    host: \"smtp.gmail.com\" # 必填：SMTP服务器地址\n    port: 587 # 必填：SMTP端口号\n    user: \"your-email@gmail.com\" # 必填：邮箱用户名\n    pass: \"your-app-password\" # 必填：邮箱密码或应用密码\n    to: \"recipient@example.com\" # 必填：收件人邮箱地址\n    # 可选配置\n    from: \"12306监控 <your-email@gmail.com>\" # 发件人显示名称\n    cc: \"cc@example.com\" # 抄送邮箱\n    bcc: \"bcc@example.com\" # 密送邮箱\n    replyTo: \"noreply@example.com\" # 回复邮箱\n    secure: true # 是否使用SSL/TLS (465端口使用true，587端口使用false)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "OjEE7wrlO/uMNzAbvaRYcDJBSS3Ebzt6YRU5gw9q3ow=",
+        "originContent": "notifications:",
+        "translatedContent": "notifications:"
+      },
+      {
+        "row": 3,
+        "rowsha": "pCg66CyIz+nMvC0ht+p3NK7bprm9tMplNmSNfnvtGys=",
+        "originContent": "  - type: \"SMTP\"",
+        "translatedContent": "  - type: \"SMTP\""
+      },
+      {
+        "row": 4,
+        "rowsha": "4pS+R02Voe27ol5I5sfD71k5SvLWoNNB5qp1AXHAz54=",
+        "originContent": "    host: \"smtp.gmail.com\" # 必填：SMTP服务器地址",
+        "translatedContent": "    host: \"smtp.gmail.com\" # 必填：SMTP服务器地址"
+      },
+      {
+        "row": 5,
+        "rowsha": "H1effZFf5ctfUyxPGfdEc32HimLEoJ8le9ZVQzyBQ/Y=",
+        "originContent": "    port: 587 # 必填：SMTP端口号",
+        "translatedContent": "    port: 587 # 必填：SMTP端口号"
+      },
+      {
+        "row": 6,
+        "rowsha": "nrVHGBZhnOwcP3ibBYV3Wk1LlkQbleCWTRgSc72A+Dg=",
+        "originContent": "    user: \"your-email@gmail.com\" # 必填：邮箱用户名",
+        "translatedContent": "    user: \"your-email@gmail.com\" # 必填：邮箱用户名"
+      },
+      {
+        "row": 7,
+        "rowsha": "G9MAoAY9MyiOyOGD1fhBALyrii6OuFzr9ACVVeAOS5Q=",
+        "originContent": "    pass: \"your-app-password\" # 必填：邮箱密码或应用密码",
+        "translatedContent": "    pass: \"your-app-password\" # 必填：邮箱密码或应用密码"
+      },
+      {
+        "row": 8,
+        "rowsha": "YihSo0h/MZvjLktgmf7jtw00rP129phtuQ5YwYmCO/w=",
+        "originContent": "    to: \"recipient@example.com\" # 必填：收件人邮箱地址",
+        "translatedContent": "    to: \"recipient@example.com\" # 必填：收件人邮箱地址"
+      },
+      {
+        "row": 9,
+        "rowsha": "wp6dXWqewRv+myxC4osnaA38bM3eHXGoYbbacuqcGvM=",
+        "originContent": "    # 可选配置",
+        "translatedContent": "    # 可选配置"
+      },
+      {
+        "row": 10,
+        "rowsha": "fuXQEq2+yYP0Iy/FWXSJEBsBOxi7SIRvv2/qCovyL8o=",
+        "originContent": "    from: \"12306监控 <your-email@gmail.com>\" # 发件人显示名称",
+        "translatedContent": "    from: \"12306监控 <your-email@gmail.com>\" # 发件人显示名称"
+      },
+      {
+        "row": 11,
+        "rowsha": "Rz467IIq1OVS2Uy0581TUbodTeUBEd5NwVGyLdmLckI=",
+        "originContent": "    cc: \"cc@example.com\" # 抄送邮箱",
+        "translatedContent": "    cc: \"cc@example.com\" # 抄送邮箱"
+      },
+      {
+        "row": 12,
+        "rowsha": "ubsHDnFQgA/SpRNWQW4qT0/PBnmeY3GawjFgzZEWj84=",
+        "originContent": "    bcc: \"bcc@example.com\" # 密送邮箱",
+        "translatedContent": "    bcc: \"bcc@example.com\" # 密送邮箱"
+      },
+      {
+        "row": 13,
+        "rowsha": "Qu08HaYT7lt0mqNENYQ81mOBUjEGiSIF2FjXyXaAB8Q=",
+        "originContent": "    replyTo: \"noreply@example.com\" # 回复邮箱",
+        "translatedContent": "    replyTo: \"noreply@example.com\" # 回复邮箱"
+      },
+      {
+        "row": 14,
+        "rowsha": "IgPc90NT9mkXqqjovc2xvzqJAQ5LVQ5EN0PmpBD9zdQ=",
+        "originContent": "    secure: true # 是否使用SSL/TLS (465端口使用true，587端口使用false)",
+        "translatedContent": "    secure: true # 是否使用SSL/TLS (465端口使用true，587端口使用false)"
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n#### 常用邮箱服务器配置\n\n**Gmail:**\n",
+    "ContentSha": "RbCu+khre/zmwJ2HYY44KyTm86VVFd2ckdSJeTIdJz8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### 常用メールサーバー設定\n\n**Gmail:**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "WOiQ7MSKONzVVHVSUA2rw2wlNb0HCjFSMU9QymBSbnU=",
+        "originContent": "#### 常用邮箱服务器配置",
+        "translatedContent": "#### 常用メールサーバー設定"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "A/LzWJtcZnsjfAO1InZgtXH+3HOGpgvroi3e6VsJVew=",
+        "originContent": "**Gmail:**",
+        "translatedContent": "**Gmail:**"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```yaml\nhost: \"smtp.gmail.com\"\nport: 587\nsecure: false # 使用STARTTLS\n# 需要开启两步验证并生成应用密码\n```",
+    "ContentSha": "S3kg4MyJjftqu42o+sjN0geMFREEPFh05JflxI/on5A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nhost: \"smtp.gmail.com\"\nport: 587\nsecure: false # 使用STARTTLS\n# 需要开启两步验证并生成应用密码\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "FWAXE1PO7UoZRE39UZPygF2deQpERQAp06AnRE6FlkM=",
+        "originContent": "host: \"smtp.gmail.com\"",
+        "translatedContent": "host: \"smtp.gmail.com\""
+      },
+      {
+        "row": 3,
+        "rowsha": "aQyfuqeymp4BCtjCqTVp+IeMbi24OCH8gL/uQDjAFCI=",
+        "originContent": "port: 587",
+        "translatedContent": "port: 587"
+      },
+      {
+        "row": 4,
+        "rowsha": "Vy97BAAd0cTb/d/F4gQJMWP/9IWSvsL3oeZFdV9pNsE=",
+        "originContent": "secure: false # 使用STARTTLS",
+        "translatedContent": "secure: false # 使用STARTTLS"
+      },
+      {
+        "row": 5,
+        "rowsha": "tAtW1ZiQdlZgeITr/lXnVqFLOV3WRG3u1nnp00BN7pU=",
+        "originContent": "# 需要开启两步验证并生成应用密码",
+        "translatedContent": "# 需要开启两步验证并生成应用密码"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n**QQ 邮箱:**\n",
+    "ContentSha": "lBX01VbmUHp4UFxRt1f+G+eLblmjpt/5hyng37ATjGE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**QQ メールボックス:**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "TnEs9F+IvJJROZW9vQSrHBLQ7vjqpTMSWVVnN39o7xk=",
+        "originContent": "**QQ 邮箱:**",
+        "translatedContent": "**QQ メールボックス:**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```yaml\nhost: \"smtp.qq.com\"\nport: 587\nsecure: false\n# 需要开启SMTP服务并使用授权码\n```",
+    "ContentSha": "iztGrN7l9ivRMILpaeiR5K04HEdQps4vO8Hm73YNnlc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nhost: \"smtp.qq.com\"\nport: 587\nsecure: false\n# 需要开启SMTP服务并使用授权码\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "vrsYqCIG9iC5P0/Nhxzn7IGyqMiY52HF50KsCbbSB+M=",
+        "originContent": "host: \"smtp.qq.com\"",
+        "translatedContent": "host: \"smtp.qq.com\""
+      },
+      {
+        "row": 3,
+        "rowsha": "aQyfuqeymp4BCtjCqTVp+IeMbi24OCH8gL/uQDjAFCI=",
+        "originContent": "port: 587",
+        "translatedContent": "port: 587"
+      },
+      {
+        "row": 4,
+        "rowsha": "o4HpF2Vy8oQj8A4dQhPVh1mbzzXzTQLcSg+SxWXxKnw=",
+        "originContent": "secure: false",
+        "translatedContent": "secure: false"
+      },
+      {
+        "row": 5,
+        "rowsha": "MV++9VrZ7QK3xDcaDqIZgBivdA3fp3DEVfxbkbHN7zs=",
+        "originContent": "# 需要开启SMTP服务并使用授权码",
+        "translatedContent": "# 需要开启SMTP服务并使用授权码"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n**163 邮箱:**\n",
+    "ContentSha": "iGaV05jLvaBA4WqwCnldC+MgetXUCFMMKsxNXffzKOY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**163 邮箱:**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "u3yYcqEcyfAvFuLSsU3wCR7HAPISgxpCgHqFqVQIbvw=",
+        "originContent": "**163 邮箱:**",
+        "translatedContent": "**163 邮箱:**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```yaml\nhost: \"smtp.163.com\"\nport: 587\nsecure: false\n# 需要开启SMTP服务并使用授权码\n```",
+    "ContentSha": "eQlzKDcE7RfExgjjcr2Trk5EfPav7E6GxgTaFq6Lk3M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nhost: \"smtp.163.com\"\nport: 587\nsecure: false\n# 需要开启SMTP服务并使用授权码\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "0qB3AguliPKpWKkobmZ2a362UV7EB354cBAT6ySLjRI=",
+        "originContent": "host: \"smtp.163.com\"",
+        "translatedContent": "host: \"smtp.163.com\""
+      },
+      {
+        "row": 3,
+        "rowsha": "aQyfuqeymp4BCtjCqTVp+IeMbi24OCH8gL/uQDjAFCI=",
+        "originContent": "port: 587",
+        "translatedContent": "port: 587"
+      },
+      {
+        "row": 4,
+        "rowsha": "o4HpF2Vy8oQj8A4dQhPVh1mbzzXzTQLcSg+SxWXxKnw=",
+        "originContent": "secure: false",
+        "translatedContent": "secure: false"
+      },
+      {
+        "row": 5,
+        "rowsha": "MV++9VrZ7QK3xDcaDqIZgBivdA3fp3DEVfxbkbHN7zs=",
+        "originContent": "# 需要开启SMTP服务并使用授权码",
+        "translatedContent": "# 需要开启SMTP服务并使用授权码"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n**Outlook:**\n",
+    "ContentSha": "e1W0BeMVtH0ZveprFoOqbfOzvjBZ62hPBuNtyxbwHrI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**見通し：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "kTUe7oitneCL05Yg3SZtMY/+89c0LxCmb3ox8oKVK8c=",
+        "originContent": "**Outlook:**",
+        "translatedContent": "**見通し：**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "```yaml\nhost: \"smtp-mail.outlook.com\"\nport: 587\nsecure: false\n```",
+    "ContentSha": "zlwSHJq/lPLUvTgcc5km5qpKL4i2Mf3CWr53VhzTXgM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nhost: \"smtp-mail.outlook.com\"\nport: 587\nsecure: false\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "lqH1cX54+VEt7rMILUBUQFbxdZtrJK+Ra+PHPtPnpmo=",
+        "originContent": "host: \"smtp-mail.outlook.com\"",
+        "translatedContent": "host: \"smtp-mail.outlook.com\""
+      },
+      {
+        "row": 3,
+        "rowsha": "aQyfuqeymp4BCtjCqTVp+IeMbi24OCH8gL/uQDjAFCI=",
+        "originContent": "port: 587",
+        "translatedContent": "port: 587"
+      },
+      {
+        "row": 4,
+        "rowsha": "o4HpF2Vy8oQj8A4dQhPVh1mbzzXzTQLcSg+SxWXxKnw=",
+        "originContent": "secure: false",
+        "translatedContent": "secure: false"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "\n#### 邮箱安全设置\n\n- **Gmail**: 需要开启两步验证，生成应用专用密码\n- **QQ 邮箱**: 需要在设置中开启 SMTP 服务，使用授权码作为密码\n- **163 邮箱**: 需要开启 SMTP 服务，使用授权码作为密码\n- **企业邮箱**: 根据企业邮箱服务商的要求配置\n\n#### 端口号说明\n\n- `25`: 标准 SMTP 端口（通常被 ISP 封禁）\n- `587`: STARTTLS 加密端口（推荐）\n- `465`: SSL/TLS 加密端口\n\n这样，当有余票时，程序会通过相应的平台发送通知。\n\n## 席别设置\n\n可选的席别如下：\n\n- 卧铺：\n  - `高级软卧`\n  - `软卧`（含动卧一等卧）\n  - `硬卧`（含二等卧）\n- 坐票：\n  - `商务座`\n  - `特等座`\n  - `优选一等座`\n  - `一等座`\n  - `二等座`\n  - `软座`\n  - `硬座`\n  - `无座`\n- 其他：\n  - `其他`（含包厢硬卧等）\n  - `YB`（未知类型）\n  - `SRRB`（未知类型）\n",
+    "ContentSha": "gIYIqgALcgtt6zEEx02OuqRyE7LEgaXLoRjROLQmfJI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### メールセキュリティ設定\n\n- **Gmail**: 2段階認証を有効にし、アプリケーション専用パスワードを生成する必要があります\n- **QQメール**: 設定でSMTPサービスを有効にし、認証コードをパスワードとして使用します\n- **163メール**: SMTPサービスを有効にし、認証コードをパスワードとして使用します\n- **企業メール**: 企業メールサービスプロバイダーの要件に従って設定してください\n\n#### ポート番号の説明\n\n- `25`: 標準SMTPポート（通常ISPによってブロックされています）\n- `587`: STARTTLS暗号化ポート（推奨）\n- `465`: SSL/TLS暗号化ポート\n\nこのように、空席がある場合は、プログラムが対応するプラットフォームを通じて通知を送信します。\n\n## 席種設定\n\n選択可能な席種は以下の通りです：\n\n- 寝台：\n  - `高級軟臥`\n  - `軟臥`（動卧一等卧を含む）\n  - `硬臥`（二等卧を含む）\n- 座席：\n  - `ビジネスクラス座席`\n  - `特等座`\n  - `優選一等座`\n  - `一等座`\n  - `二等座`\n  - `軟座`\n  - `硬座`\n  - `無座`\n- その他：\n  - `その他`（個室硬臥などを含む）\n  - `YB`（不明なタイプ）\n  - `SRRB`（不明なタイプ）\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### メールセキュリティ設定"
+      },
+      {
+        "row": 2,
+        "rowsha": "BpgIh5esHKbVLidb3Akfc3Nsw5HeBWi/OKsrlaiP7Cg=",
+        "originContent": "#### 邮箱安全设置",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **Gmail**: 2段階認証を有効にし、アプリケーション専用パスワードを生成する必要があります"
+      },
+      {
+        "row": 4,
+        "rowsha": "v1Mpaqac1mR3sgKdbAYsSfnogez2f8RfF//In0PV048=",
+        "originContent": "- **Gmail**: 需要开启两步验证，生成应用专用密码",
+        "translatedContent": "- **QQメール**: 設定でSMTPサービスを有効にし、認証コードをパスワードとして使用します"
+      },
+      {
+        "row": 5,
+        "rowsha": "mC6A/A2UlPcJum2dJXscBDVABvEoNLvLmCAYeS1oS/o=",
+        "originContent": "- **QQ 邮箱**: 需要在设置中开启 SMTP 服务，使用授权码作为密码",
+        "translatedContent": "- **163メール**: SMTPサービスを有効にし、認証コードをパスワードとして使用します"
+      },
+      {
+        "row": 6,
+        "rowsha": "tmJZJscY5cqIC2KuoHVYFYZomrp5zFGaYh6BYeqH75k=",
+        "originContent": "- **163 邮箱**: 需要开启 SMTP 服务，使用授权码作为密码",
+        "translatedContent": "- **企業メール**: 企業メールサービスプロバイダーの要件に従って設定してください"
+      },
+      {
+        "row": 7,
+        "rowsha": "WC4P4KC9QYKFViQUt5r1/2Bi5soASeA+mDCGEqifynM=",
+        "originContent": "- **企业邮箱**: 根据企业邮箱服务商的要求配置",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### ポート番号の説明"
+      },
+      {
+        "row": 9,
+        "rowsha": "Qzs1rpSiOdAQx+3MwtTUrqMgy4l/ntYkJIpvBgXpAV4=",
+        "originContent": "#### 端口号说明",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `25`: 標準SMTPポート（通常ISPによってブロックされています）"
+      },
+      {
+        "row": 11,
+        "rowsha": "T+zBkp5lvooVuEhdjj03GV5BwojwliRfci5+9TgcGEA=",
+        "originContent": "- `25`: 标准 SMTP 端口（通常被 ISP 封禁）",
+        "translatedContent": "- `587`: STARTTLS暗号化ポート（推奨）"
+      },
+      {
+        "row": 12,
+        "rowsha": "EBKdHduraP3mQwDJAj0/V3F9/DvbwD0Z2Nfbc3Ex02Q=",
+        "originContent": "- `587`: STARTTLS 加密端口（推荐）",
+        "translatedContent": "- `465`: SSL/TLS暗号化ポート"
+      },
+      {
+        "row": 13,
+        "rowsha": "koTAT91hrsu4k3JwWbQKKdC3mVhKnVSP53CjJGVrjP4=",
+        "originContent": "- `465`: SSL/TLS 加密端口",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "このように、空席がある場合は、プログラムが対応するプラットフォームを通じて通知を送信します。"
+      },
+      {
+        "row": 15,
+        "rowsha": "cto88JVIbMBnCJCJJRonRPzpMhUx1o1kq2TqvvYzCsk=",
+        "originContent": "这样，当有余票时，程序会通过相应的平台发送通知。",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 席種設定"
+      },
+      {
+        "row": 17,
+        "rowsha": "AfmNynl7HzbuNxv68gHo5OGDFhrZZ6XbfZqOmxUFkT8=",
+        "originContent": "## 席别设置",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "選択可能な席種は以下の通りです："
+      },
+      {
+        "row": 19,
+        "rowsha": "wxmVPWsM45wSHcSEfPAwJBHMLMADIb5JdO8XvTuPsIo=",
+        "originContent": "可选的席别如下：",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 寝台："
+      },
+      {
+        "row": 21,
+        "rowsha": "Lz257v+gc9zpswqyJEUuZAeqTKuOp51t3QW4v9HwU/k=",
+        "originContent": "- 卧铺：",
+        "translatedContent": "  - `高級軟臥`"
+      },
+      {
+        "row": 22,
+        "rowsha": "H3LqbBaI0y7cGn14VVKXHTTCjXSedxvv2LIuJrziVIY=",
+        "originContent": "  - `高级软卧`",
+        "translatedContent": "  - `軟臥`（動卧一等卧を含む）"
+      },
+      {
+        "row": 23,
+        "rowsha": "Y3DVg3ed1MywcPDWMOoHZo7cmV0NBXCvVGi/QL1T4NQ=",
+        "originContent": "  - `软卧`（含动卧一等卧）",
+        "translatedContent": "  - `硬臥`（二等卧を含む）"
+      },
+      {
+        "row": 24,
+        "rowsha": "OuU2hkE8GoM7tv2qQXAMm6VN+TlJorAWHwRjos9PBEM=",
+        "originContent": "  - `硬卧`（含二等卧）",
+        "translatedContent": "- 座席："
+      },
+      {
+        "row": 25,
+        "rowsha": "iEccXtGLvms9SmcOkB2In01C8W8FxfDEQLUbFM8zWCY=",
+        "originContent": "- 坐票：",
+        "translatedContent": "  - `ビジネスクラス座席`"
+      },
+      {
+        "row": 26,
+        "rowsha": "PSaVwcWpKeRHTxNS9wdnwpF5XT6EP/ChfuJAlv9m+bY=",
+        "originContent": "  - `商务座`",
+        "translatedContent": "  - `特等座`"
+      },
+      {
+        "row": 27,
+        "rowsha": "qw5B+AOkKl/RBdYkUs73DTujEDAXzeyZtgIq/019Gd0=",
+        "originContent": "  - `特等座`",
+        "translatedContent": "  - `優選一等座`"
+      },
+      {
+        "row": 28,
+        "rowsha": "eZT6EACStVz9+BP7qExats9DUrGn7fMtWmN2CU163WU=",
+        "originContent": "  - `优选一等座`",
+        "translatedContent": "  - `一等座`"
+      },
+      {
+        "row": 29,
+        "rowsha": "uVAIV+kfLFwHTRPK7EE7Lx4oQPOh5EHh2Ts49qDJd0s=",
+        "originContent": "  - `一等座`",
+        "translatedContent": "  - `二等座`"
+      },
+      {
+        "row": 30,
+        "rowsha": "/IyLcAJ2YtsFS0+Ndi+aJWMiIcll6xuiAfKTU1Lqy4E=",
+        "originContent": "  - `二等座`",
+        "translatedContent": "  - `軟座`"
+      },
+      {
+        "row": 31,
+        "rowsha": "imZUol4G/c585lrQuqC2GhYq6Gg40FHFYOiLvOiaAEk=",
+        "originContent": "  - `软座`",
+        "translatedContent": "  - `硬座`"
+      },
+      {
+        "row": 32,
+        "rowsha": "ZKIV6lsohKhNCtFMZc1MIdsOl+5n3PJ+MzHPQspW2WA=",
+        "originContent": "  - `硬座`",
+        "translatedContent": "  - `無座`"
+      },
+      {
+        "row": 33,
+        "rowsha": "Bvv9afoG7Vs6PU5hhpHUR06Hpq0IJfeO+6QvWuOvFsw=",
+        "originContent": "  - `无座`",
+        "translatedContent": "- その他："
+      },
+      {
+        "row": 34,
+        "rowsha": "XcbqaCEKJutPazm5wzDZr59FbfVHfeUHpcaqkDXmfXg=",
+        "originContent": "- 其他：",
+        "translatedContent": "  - `その他`（個室硬臥などを含む）"
+      },
+      {
+        "row": 35,
+        "rowsha": "jjU9Y+wIGNakF7Tax7UrqlToF4bXRpElxc1Hs44XSIU=",
+        "originContent": "  - `其他`（含包厢硬卧等）",
+        "translatedContent": "  - `YB`（不明なタイプ）"
+      },
+      {
+        "row": 36,
+        "rowsha": "rUXm3YQR+DrPT5NIUbne2ccTy8clFXc8jaMx9CJQ85o=",
+        "originContent": "  - `YB`（未知类型）",
+        "translatedContent": "  - `SRRB`（不明なタイプ）"
+      },
+      {
+        "row": 37,
+        "rowsha": "gyxCPQ7lwc1I1F86zRJKMOvA+8VxGczJf9946Cp54dY=",
+        "originContent": "  - `SRRB`（未知类型）",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

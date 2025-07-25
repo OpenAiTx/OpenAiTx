@@ -1,0 +1,793 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"right\">\n  <details>\n    <summary >🌐 Other Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n\n[English](https://raw.githubusercontent.com/sz30/2048--/main/README.md) | [简体中文](https://raw.githubusercontent.com/sz30/2048--/main/README.zh-CN.md) | [繁體中文](https://raw.githubusercontent.com/sz30/2048--/main/README.zh-TW.md)\n\n# 🎮 2048++\n\nAn enhanced version of the classic 2048 game, now with even more fun features! This is a little project I whipped up in my spare time—hope it brings you some joy!\n\n## 🎯 Game Intro\n\n2048 is a simple yet addictive number-merging game. On a 4x4 grid, swipe up, down, left, or right to merge tiles with the same number. The goal? Reach 2048 (but hey, you can keep going for even higher scores)!\n\n**How to play:**\n- Use arrow keys or WASD to move the tiles.\n- When two tiles with the same number collide, they merge into one.\n- After each move, a new 2 or 4 will randomly appear in an empty spot.\n- The game ends when there are no more moves left.\n\n## ✨ Special Features\n\n### 1. Undo Function\n- Made a wrong move? No worries!\n- Just hit the \"Undo\" button to go back one step.\n- You can undo as many times as you like, all the way back to the start.\n- Never let a slip of the finger ruin your game again!\n\n### 2. Secret Cheat Mode\n- Enter the magic sequence: ←←→→ →→←← (left, left, right, right,  right, right, left, left)\n- All tiles will magically turn into 128!\n- It’s an Easter egg, just for fun.\n- Pro tip: Cheating is fun, but don’t overdo it! 😉\n\n## 🎯 Demo\n\n🎯 Play here: [2048.765431.xyz](https://2048.765431.xyz/)\n<img width=\"1279\" alt=\"demo\" src=\"https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be\" />\n\n\n\n## 📁 Project Structure",
+    "ContentSha": "wy3Zf4XxvSb8jogIJX5DoPljMQ9jlCTZm0mm/fiCeo0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 其他语言</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n\n[English](https://raw.githubusercontent.com/sz30/2048--/main/README.md) | [简体中文](https://raw.githubusercontent.com/sz30/2048--/main/README.zh-CN.md) | [繁體中文](https://raw.githubusercontent.com/sz30/2048--/main/README.zh-TW.md)\n\n# 🎮 2048++\n\n经典 2048 游戏的增强版，现在有更多有趣的功能！这是我在业余时间做的一个小项目——希望它能为你带来快乐！\n\n## 🎯 游戏简介\n\n2048 是一个简单却令人上瘾的数字合并游戏。在 4x4 的方格中，向上、下、左、右滑动来合并相同数字的方块。目标？达到 2048（当然你也可以继续挑战更高分数）！\n\n**玩法说明：**\n- 使用方向键或 WASD 移动方块。\n- 当两个相同数字的方块碰撞时，它们会合并成一个。\n- 每次移动后，一个新的 2 或 4 会随机出现在空白处。\n- 当没有可移动的空间时，游戏结束。\n\n## ✨ 特别功能\n\n### 1. 撤销功能\n- 走错一步？别担心！\n- 只需点击“撤销”按钮即可回退一步。\n- 你可以无限次撤销，直到回到起点。\n- 再也不用担心手滑毁掉好局！\n\n### 2. 神秘作弊模式\n- 输入魔法序列：←←→→ →→←←（左、左、右、右、右、右、左、左）\n- 所有方块都会神奇地变成 128！\n- 这是一个彩蛋，只为乐趣而设。\n- 温馨提示：偶尔作弊很有趣，但别太上头哦！😉\n\n## 🎯 演示体验\n\n🎯 在线试玩：[2048.765431.xyz](https://2048.765431.xyz/)\n<img width=\"1279\" alt=\"demo\" src=\"https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be\" />\n\n\n\n## 📁 项目结构",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "dk6gMUXngSq1MiZOUwGwWLFERwSTVBLK7CZItV7nlDA=",
+        "originContent": "    <summary >🌐 Other Language</summary>",
+        "translatedContent": "    <summary >🌐 其他语言</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "rMtPSJvySOhbzGk18LylWH5jGAMgNRTHR/r8C+D7NSA=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja\">日本語</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "lK5CMs2GcCu+agIKdT3iOWCdKYF+W0s4YOfta3WkF9U=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "wh/++JV6TwxeNXx/1VNeLlR6OqVzP/trEew9gKgSu8s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "JxmJxX1aMhgM6oXHgFg5VGB5F5shXuleC4ICG2VJfLA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "B59nMbF4qI6eJIDS6jxopzlpZ4pBEHb4hMzpGPJEQt0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fr\">Français</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "i5bQi9ta7w1Iqaq5Ce2dkdQzQuuXoJpgA2PDN8BMCrQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "ZIJvAfTFmtUPvEE7vjImmsQh8f6BPACfHqksYYZocAM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=es\">Español</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "P5gVmv0Q8FbVskSLNlM33MPxueZnyCMWshMwUI00UsU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=it\">Itapano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=it\">Itapano</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "sFWueseNP13t9YkP+zbq1tg6VgDD/2wGoM6ZaEqCqkc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "uEvrv1y14sPEZI8jLWbb1kjlxozv1Z8TrO6Pc2btAZE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pt\">Português</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "vPJ5eHaQg1xajCj5ZAf+Ns7p5ccidECXFanI4/ZAXv8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "PraFebrXN5ZHnX3ubILMrBxDa+ZxIEc0y+1Bhmt5qh8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "Oq2cuDfVAjA4/aEPjcAjTjwE6/LzPyGbg70qIS30CKo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "XdCkia/cqHc26JyfPmvV2nKDXDqYvSWebjxQ5Gs2gnE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "xxRiThqP0lWJWL++zYunFEYimwPcLNXQaanSxXxmYUQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "arzDtuaQfHb3ZE6/ahCskLuqeJobZJezDxCqdJU0zfY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "JKSOJe8AC+uruxfRj6kHRPJEOKzP/vG1q6e6Bv61Uew=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 24,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 25,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 26,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "WlgPnFTGIJQkvS3hZUWrGkCi68stQ/VyAXXawDFWcnc=",
+        "originContent": "[English](https://raw.githubusercontent.com/sz30/2048--/main/README.md) | [简体中文](https://raw.githubusercontent.com/sz30/2048--/main/README.zh-CN.md) | [繁體中文](https://raw.githubusercontent.com/sz30/2048--/main/README.zh-TW.md)",
+        "translatedContent": "[English](https://raw.githubusercontent.com/sz30/2048--/main/README.md) | [简体中文](https://raw.githubusercontent.com/sz30/2048--/main/README.zh-CN.md) | [繁體中文](https://raw.githubusercontent.com/sz30/2048--/main/README.zh-TW.md)"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "Iiri2twVGISLG9e/IJFuTj0wy3Ch8m/3AxcLSJtpjgo=",
+        "originContent": "# 🎮 2048++",
+        "translatedContent": "# 🎮 2048++"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "XLnOWjNL7BRtZi3MESgT7Lqtx5+URYiEqy/0+dql0zI=",
+        "originContent": "An enhanced version of the classic 2048 game, now with even more fun features! This is a little project I whipped up in my spare time—hope it brings you some joy!",
+        "translatedContent": "经典 2048 游戏的增强版，现在有更多有趣的功能！这是我在业余时间做的一个小项目——希望它能为你带来快乐！"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "BK6rORBWxcyBFQGb2X2Ztyx2XiIhKuzSBuOHzvP/IW4=",
+        "originContent": "## 🎯 Game Intro",
+        "translatedContent": "## 🎯 游戏简介"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "8A3wAVYfRhZ+fgx/or5fGiIcTosG2S8yyY1wVdJXO4A=",
+        "originContent": "2048 is a simple yet addictive number-merging game. On a 4x4 grid, swipe up, down, left, or right to merge tiles with the same number. The goal? Reach 2048 (but hey, you can keep going for even higher scores)!",
+        "translatedContent": "2048 是一个简单却令人上瘾的数字合并游戏。在 4x4 的方格中，向上、下、左、右滑动来合并相同数字的方块。目标？达到 2048（当然你也可以继续挑战更高分数）！"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "X0HFHwero5a4pZnQhN3mLC3yjt8Xkcnppsz/hNwnNP4=",
+        "originContent": "**How to play:**",
+        "translatedContent": "**玩法说明：**"
+      },
+      {
+        "row": 40,
+        "rowsha": "bKUPK5snBhbQHW4e8BRw+RI2jKeb4ChbhA4dW5VCs5o=",
+        "originContent": "- Use arrow keys or WASD to move the tiles.",
+        "translatedContent": "- 使用方向键或 WASD 移动方块。"
+      },
+      {
+        "row": 41,
+        "rowsha": "X3B7/2Qe0s3f0CjHYyXI+G2waVGQOgkq8cOe72HgTbI=",
+        "originContent": "- When two tiles with the same number collide, they merge into one.",
+        "translatedContent": "- 当两个相同数字的方块碰撞时，它们会合并成一个。"
+      },
+      {
+        "row": 42,
+        "rowsha": "+Xu+eJKq5m6qY8J5UNE3u5sBnXdI5QHw3wv87ll8uMs=",
+        "originContent": "- After each move, a new 2 or 4 will randomly appear in an empty spot.",
+        "translatedContent": "- 每次移动后，一个新的 2 或 4 会随机出现在空白处。"
+      },
+      {
+        "row": 43,
+        "rowsha": "iytBL2JjBoRZ2dkXcphCp+2+LgNz5kZVdPPzRIPejnI=",
+        "originContent": "- The game ends when there are no more moves left.",
+        "translatedContent": "- 当没有可移动的空间时，游戏结束。"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "1fwlt0pNuy7BZ7TO5XP5zHlJzGvMX/0sDfGfRzMdQ8w=",
+        "originContent": "## ✨ Special Features",
+        "translatedContent": "## ✨ 特别功能"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "DLzATcNFzF7Qn6hf6luBuZubIAAxauFXPfejfp3ikzA=",
+        "originContent": "### 1. Undo Function",
+        "translatedContent": "### 1. 撤销功能"
+      },
+      {
+        "row": 48,
+        "rowsha": "SDQp8PHb71++tj88YdUUH9mwSZ2YvwS6it5looADya4=",
+        "originContent": "- Made a wrong move? No worries!",
+        "translatedContent": "- 走错一步？别担心！"
+      },
+      {
+        "row": 49,
+        "rowsha": "l16UHjw4bZj826K3rnmVomYEKgZn8A/Zhc3wHzlAlCU=",
+        "originContent": "- Just hit the \"Undo\" button to go back one step.",
+        "translatedContent": "- 只需点击“撤销”按钮即可回退一步。"
+      },
+      {
+        "row": 50,
+        "rowsha": "WwcMm5XnY4w3P/sFsKTMjeF5JrNBloFtaxUX5P+oz5w=",
+        "originContent": "- You can undo as many times as you like, all the way back to the start.",
+        "translatedContent": "- 你可以无限次撤销，直到回到起点。"
+      },
+      {
+        "row": 51,
+        "rowsha": "z6QXfLYXJVUD9GVlJiA68qf/Xkgcwm03zJaAd0lLZtQ=",
+        "originContent": "- Never let a slip of the finger ruin your game again!",
+        "translatedContent": "- 再也不用担心手滑毁掉好局！"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "uvUnI7+7scFx2usFM2t3bC27SBt+LX0xdYSz9PpluXc=",
+        "originContent": "### 2. Secret Cheat Mode",
+        "translatedContent": "### 2. 神秘作弊模式"
+      },
+      {
+        "row": 54,
+        "rowsha": "xOUva3z44kjAeaBT4Jff8lQT3bo7tkioSYQUpgGZk28=",
+        "originContent": "- Enter the magic sequence: ←←→→ →→←← (left, left, right, right,  right, right, left, left)",
+        "translatedContent": "- 输入魔法序列：←←→→ →→←←（左、左、右、右、右、右、左、左）"
+      },
+      {
+        "row": 55,
+        "rowsha": "+7pmCsB1CeFxxkEvOiSv8uZolqS4StIa0qi82Yb1JMM=",
+        "originContent": "- All tiles will magically turn into 128!",
+        "translatedContent": "- 所有方块都会神奇地变成 128！"
+      },
+      {
+        "row": 56,
+        "rowsha": "FnUW5AVri21HzeZTi5vBFgBISGM+6OcKzH7CfBVmYig=",
+        "originContent": "- It’s an Easter egg, just for fun.",
+        "translatedContent": "- 这是一个彩蛋，只为乐趣而设。"
+      },
+      {
+        "row": 57,
+        "rowsha": "Ii69wO1QxW4W4fijsXrbyTjUtWG+0EA6nX2AnDGcjuE=",
+        "originContent": "- Pro tip: Cheating is fun, but don’t overdo it! 😉",
+        "translatedContent": "- 温馨提示：偶尔作弊很有趣，但别太上头哦！😉"
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "8y4rcf/+EvtPylsmgTJXewf/a0EWaQUkW4W89NPLgUE=",
+        "originContent": "## 🎯 Demo",
+        "translatedContent": "## 🎯 演示体验"
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "aVd4/9QCodzi6UwVOXGF6/LlokrdD1XJR0oRUlinRsQ=",
+        "originContent": "🎯 Play here: [2048.765431.xyz](https://2048.765431.xyz/)",
+        "translatedContent": "🎯 在线试玩：[2048.765431.xyz](https://2048.765431.xyz/)"
+      },
+      {
+        "row": 62,
+        "rowsha": "JuNK+ZBdxjENQtCbcB0uA2klESb16j5YD0Zl4KFUeQw=",
+        "originContent": "<img width=\"1279\" alt=\"demo\" src=\"https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be\" />",
+        "translatedContent": "<img width=\"1279\" alt=\"demo\" src=\"https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be\" />"
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "J+2kA+i8tz3LjivQ0RcsUzCYWvN2UHGcYExXmtR1Hsk=",
+        "originContent": "## 📁 Project Structure",
+        "translatedContent": "## 📁 项目结构"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n2048/\n├── static/\n│ ├── css/\n│ │ └── styles.css # Game styles\n│ └── js/\n│ └── script.js # Frontend game logic\n├── index.html # Main game page\n└── 2048.py # Backend server\n```",
+    "ContentSha": "PtSPxxuVyFGtRSh9VMGiJkaBh+K98qWzP69wIVR3MoE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n2048/\n├── static/\n│ ├── css/\n│ │ └── styles.css # Game styles\n│ └── js/\n│ └── script.js # Frontend game logic\n├── index.html # Main game page\n└── 2048.py # Backend server\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Mc9kEl8VX1SRepQ8KswRjCc3wG2tLjEnB95CFKFqOvo=",
+        "originContent": "2048/",
+        "translatedContent": "2048/"
+      },
+      {
+        "row": 3,
+        "rowsha": "MhFhihAFYoyGNa0Z0XoQdNYdD9ac4h0STn/OfJDVOZQ=",
+        "originContent": "├── static/",
+        "translatedContent": "├── static/"
+      },
+      {
+        "row": 4,
+        "rowsha": "v8iHcWP7MY0FV3dyGGCEWnD9i6J2JtlsxKGd/XFGuM8=",
+        "originContent": "│ ├── css/",
+        "translatedContent": "│ ├── css/"
+      },
+      {
+        "row": 5,
+        "rowsha": "dF8g42mJvLA/F8hKSWSMLjvYMD6bJ9/U9uBrmyxSPF8=",
+        "originContent": "│ │ └── styles.css # Game styles",
+        "translatedContent": "│ │ └── styles.css # Game styles"
+      },
+      {
+        "row": 6,
+        "rowsha": "grJ+yEyqSCZnCk9qK8KdFJAvb3LMfIcnSlVU7HELPzQ=",
+        "originContent": "│ └── js/",
+        "translatedContent": "│ └── js/"
+      },
+      {
+        "row": 7,
+        "rowsha": "fkF5J71RVVSZR/wpFU2BI19Gzi2hIOy8VrrxC/YyRHM=",
+        "originContent": "│ └── script.js # Frontend game logic",
+        "translatedContent": "│ └── script.js # Frontend game logic"
+      },
+      {
+        "row": 8,
+        "rowsha": "ax5py0QQVehWuQ6U7KfPtpf6sOepooaJLwZulJq3bmw=",
+        "originContent": "├── index.html # Main game page",
+        "translatedContent": "├── index.html # Main game page"
+      },
+      {
+        "row": 9,
+        "rowsha": "LFbh5+MuMCRXoh8M/Ix5GNu2+sJzvmoYlX9UvsdCnvc=",
+        "originContent": "└── 2048.py # Backend server",
+        "translatedContent": "└── 2048.py # Backend server"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "**File Descriptions:**\n- `2048.py`: Backend server written with Flask, handles game logic and API requests.\n- `script.js`: Frontend game logic, including moves, animations, and special features.\n- `styles.css`: Game styles, making sure everything looks nice and responsive.\n- `index.html`: The main page that brings everything together.\n\n## 🚀 Getting Started\n\n**Method 1: Download Release**\n1. Download the latest release.\n2. Make sure you have Python 3.x installed.\n3. Install dependencies: `pip install flask`\n4. Run: `python 2048.py`\n5. Open your browser and go to: [http://localhost:9969](http://localhost:9969)\n\n**Method 2: Clone from GitHub**",
+    "ContentSha": "OekJHZjDhTUVym+Rq26FcTq1wv7VjEHKWQAYyflDqBI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**文件说明：**\n- `2048.py`：使用 Flask 编写的后端服务器，处理游戏逻辑和 API 请求。\n- `script.js`：前端游戏逻辑，包括移动、动画和特殊功能。\n- `styles.css`：游戏样式，确保界面美观且响应式。\n- `index.html`：整合所有内容的主页面。\n\n## 🚀 快速开始\n\n**方法一：下载发行版**\n1. 下载最新的发行版。\n2. 确保已安装 Python 3.x。\n3. 安装依赖项：`pip install flask`\n4. 运行：`python 2048.py`\n5. 打开浏览器并访问：[http://localhost:9969](http://localhost:9969)\n\n**方法二：从 GitHub 克隆**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "w2jDNf2TMlhiCIBb2btLxrRlNG+bx0J/ASVQBU8S9Zc=",
+        "originContent": "**File Descriptions:**",
+        "translatedContent": "**文件说明：**"
+      },
+      {
+        "row": 2,
+        "rowsha": "DziKag2lX4ssncmKidUdJD5Guq/ENBT6llyrDYAPVcU=",
+        "originContent": "- `2048.py`: Backend server written with Flask, handles game logic and API requests.",
+        "translatedContent": "- `2048.py`：使用 Flask 编写的后端服务器，处理游戏逻辑和 API 请求。"
+      },
+      {
+        "row": 3,
+        "rowsha": "vJf6XLPXG3hDo5bsTheHUrbJp3qLaqs1tapAfgtYsLo=",
+        "originContent": "- `script.js`: Frontend game logic, including moves, animations, and special features.",
+        "translatedContent": "- `script.js`：前端游戏逻辑，包括移动、动画和特殊功能。"
+      },
+      {
+        "row": 4,
+        "rowsha": "PsFVRfJCuKK0v4ETMD+Dea07Cp1yUCKme9l2qQNuYZE=",
+        "originContent": "- `styles.css`: Game styles, making sure everything looks nice and responsive.",
+        "translatedContent": "- `styles.css`：游戏样式，确保界面美观且响应式。"
+      },
+      {
+        "row": 5,
+        "rowsha": "1AXUoD2IakjdiJFdPn3wpNcRC7nrZ5914wE6MTY+5qc=",
+        "originContent": "- `index.html`: The main page that brings everything together.",
+        "translatedContent": "- `index.html`：整合所有内容的主页面。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "aKVJgV9gnSk4MAp/Su+G/EZ8/96Lvx8p89GEoOBOwkQ=",
+        "originContent": "## 🚀 Getting Started",
+        "translatedContent": "## 🚀 快速开始"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "GvJnPuQHtgK6sR1ZOKBMgmLtB39LdasPh+ZyM3HNclw=",
+        "originContent": "**Method 1: Download Release**",
+        "translatedContent": "**方法一：下载发行版**"
+      },
+      {
+        "row": 10,
+        "rowsha": "c+A2RGT9VWUAqaGYBCrKe5ObaBpX6jsDqYbou1deSb0=",
+        "originContent": "1. Download the latest release.",
+        "translatedContent": "1. 下载最新的发行版。"
+      },
+      {
+        "row": 11,
+        "rowsha": "QxY6vesAbU9Yyk/A4SGnQslGfILVPm8TgaN5Eyuz/eQ=",
+        "originContent": "2. Make sure you have Python 3.x installed.",
+        "translatedContent": "2. 确保已安装 Python 3.x。"
+      },
+      {
+        "row": 12,
+        "rowsha": "nu7ujczvF9llo5Vvb9sbHO/5Oj/PUNzSmzTfuVHT/+Y=",
+        "originContent": "3. Install dependencies: `pip install flask`",
+        "translatedContent": "3. 安装依赖项：`pip install flask`"
+      },
+      {
+        "row": 13,
+        "rowsha": "/CRtqMeQbGDRvVuX4vJRAcoDt9rAXW1WNQIzLX74y6A=",
+        "originContent": "4. Run: `python 2048.py`",
+        "translatedContent": "4. 运行：`python 2048.py`"
+      },
+      {
+        "row": 14,
+        "rowsha": "ernJlI5TaOdlsLoPwLycXcc0m2fxE9uwQeU+hMsPgrs=",
+        "originContent": "5. Open your browser and go to: [http://localhost:9969](http://localhost:9969)",
+        "translatedContent": "5. 打开浏览器并访问：[http://localhost:9969](http://localhost:9969)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Tu9FXqO39waV6S4T+B8TWO179zSVk4/XdjwKSgyDvus=",
+        "originContent": "**Method 2: Clone from GitHub**",
+        "translatedContent": "**方法二：从 GitHub 克隆**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ngit clone https://github.com/sz30/2048.git\ncd 2048\npip install flask\npython 2048.py\n```",
+    "ContentSha": "SbXbdYojXo4jRwABg95dhr/gThG4WCzIpT4DzkJDmJU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/sz30/2048.git\ncd 2048\npip install flask\npython 2048.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Scc0XF1mU9ST1viqemzSZNYaMrMxohjaLG/dXkDmfSI=",
+        "originContent": "git clone https://github.com/sz30/2048.git",
+        "translatedContent": "git clone https://github.com/sz30/2048.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ndk/0G3fAQkEKY83PlLdDBIP2qFIpXYSF3K2r8J9CPo=",
+        "originContent": "cd 2048",
+        "translatedContent": "cd 2048"
+      },
+      {
+        "row": 4,
+        "rowsha": "pJB5WzmFxzcdEKM9oltGleFBr1nX5nVqZg1dlf9ldHg=",
+        "originContent": "pip install flask",
+        "translatedContent": "pip install flask"
+      },
+      {
+        "row": 5,
+        "rowsha": "c1XUViV4Fpkdb/o7d7uY48k1W7lESyaLT+SCxY/fhno=",
+        "originContent": "python 2048.py",
+        "translatedContent": "python 2048.py"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## 🎨 Customization\n\nWant to make it your own? Tweak `styles.css` for a new look, or dive into `script.js` to change up the gameplay. All code is well-commented for easy hacking!\n\n## 📝 License\n\nGPL-2.0 license\n\n## 🤝 Contributing\n\nStill updating! Issues and Pull Requests are super welcome—let’s make this game even more awesome together!\n\n\n## 🙏 Acknowledgements\n\nThanks to the following sponsors for supporting this project:\n- [IDC.REST](https://idc.rest/) providing the server\n- [Serv00](https://www.serv00.com/) providing the server\n\n---\n_Last updated: Jun. 2025_\n",
+    "ContentSha": "PmmMenVLToDVGb5R9zx2s6Ov3JH1uqTv1U2YZZB0rw8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🎨 自定义\n\n想让它变成你自己的作品吗？修改 `styles.css` 以获得全新外观，或者深入 `script.js` 来改变游戏玩法。所有代码都有详细注释，便于你随意修改！\n\n## 📝 许可证\n\nGPL-2.0 许可证\n\n## 🤝 贡献\n\n仍在持续更新中！欢迎提交 Issue 和 Pull Request——让我们一起让这个游戏变得更棒吧！\n\n\n## 🙏 致谢\n\n感谢以下赞助商对本项目的支持：\n- [IDC.REST](https://idc.rest/) 提供服务器\n- [Serv00](https://www.serv00.com/) 提供服务器\n\n---\n_最后更新：2025年6月_\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🎨 自定义"
+      },
+      {
+        "row": 2,
+        "rowsha": "bVz6OPPBxixTm724XZ+ahEuY9/mTpgznuo7UhkUDNrM=",
+        "originContent": "## 🎨 Customization",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "想让它变成你自己的作品吗？修改 `styles.css` 以获得全新外观，或者深入 `script.js` 来改变游戏玩法。所有代码都有详细注释，便于你随意修改！"
+      },
+      {
+        "row": 4,
+        "rowsha": "h4QXeiqmaAXVEwcafVweBee5zXcxKpMF4e7dqMZyUJ8=",
+        "originContent": "Want to make it your own? Tweak `styles.css` for a new look, or dive into `script.js` to change up the gameplay. All code is well-commented for easy hacking!",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📝 许可证"
+      },
+      {
+        "row": 6,
+        "rowsha": "/bQvlvaRWY9zIHAn3VQUzqbCmwMTGIdxnaCzM+Hj0DA=",
+        "originContent": "## 📝 License",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "GPL-2.0 许可证"
+      },
+      {
+        "row": 8,
+        "rowsha": "+DzpXozGaqUYPAMvdUawsRTjSafpwOm6DWhaZ7btNeA=",
+        "originContent": "GPL-2.0 license",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🤝 贡献"
+      },
+      {
+        "row": 10,
+        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+        "originContent": "## 🤝 Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "仍在持续更新中！欢迎提交 Issue 和 Pull Request——让我们一起让这个游戏变得更棒吧！"
+      },
+      {
+        "row": 12,
+        "rowsha": "UAFK9s5ivdzguNbcPOVaeSm4SB1vzHYdHU1bNox1eQw=",
+        "originContent": "Still updating! Issues and Pull Requests are super welcome—let’s make this game even more awesome together!",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🙏 致谢"
+      },
+      {
+        "row": 15,
+        "rowsha": "xu64CG5WWAk6HrV6oWvSAQFXHyBWkQmb01SHddeshOI=",
+        "originContent": "## 🙏 Acknowledgements",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "感谢以下赞助商对本项目的支持："
+      },
+      {
+        "row": 17,
+        "rowsha": "dKPetrlX/rRaPTu8ZcweOGAFuTpIbtRNs1NXpNl+OtE=",
+        "originContent": "Thanks to the following sponsors for supporting this project:",
+        "translatedContent": "- [IDC.REST](https://idc.rest/) 提供服务器"
+      },
+      {
+        "row": 18,
+        "rowsha": "lzSHQw0DbxXR/zRog+KBECylO1J+/pq3eCW5O3OhJrQ=",
+        "originContent": "- [IDC.REST](https://idc.rest/) providing the server",
+        "translatedContent": "- [Serv00](https://www.serv00.com/) 提供服务器"
+      },
+      {
+        "row": 19,
+        "rowsha": "V5XFtzqYAZAjqn81hALmqsTXOHWLO1LYjd9bTFelyl0=",
+        "originContent": "- [Serv00](https://www.serv00.com/) providing the server",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 21,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "_最后更新：2025年6月_"
+      },
+      {
+        "row": 22,
+        "rowsha": "E+8NZr9hrap0LrQRk2TMZJ1ZjtfMu4LUicbDsbdYvPQ=",
+        "originContent": "_Last updated: Jun. 2025_",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
