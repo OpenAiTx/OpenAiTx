@@ -1,30 +1,60 @@
-﻿
-# 🧠 Proxy-Free LLM Web Search Engine
 
-A proxy-free multi-search engine LLM web retrieval tool that supports URL content parsing and web crawling, combined with LangGraph to implement modular intelligent agent workflows. Designed specifically for external knowledge invocation scenarios of large language models, supporting **Playwright + Crawl4AI** for web fetching and parsing, with asynchronous concurrency, content slicing, and reordering filtering.
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+# 🧠 Proxyless LLM Web Search Engine
+
+A multi-search engine LLM web retrieval tool that does not require a proxy, supporting URL content parsing and web crawling, combined with LangGraph to realize modular agent chains. Designed specifically for external knowledge invocation scenarios for large language models, it supports **Playwright + Crawl4AI** web acquisition and parsing, supports asynchronous concurrency, content chunking, and reranking/filtering.
 
 ## ✨ Features Overview
 
-- 🌐 **Proxy-Free**: Configures domestic browsers via Playwright, enabling web search without proxy.
-- 🔍 **Multi-Search Engine Support**: Supports major search engines like Bing, Quark, Baidu, Sogou, enhancing information source diversity.
-- 🤖 **Intent Recognition**: The system automatically determines whether to perform a web search or parse a URL based on user input.
-- 🔄 **Query Decomposition**: Automatically breaks down queries into multiple subtasks based on search intent and executes them sequentially, improving search relevance and efficiency.
-- ⚙️ **Agent Architecture**: Based on **LangGraph** encapsulated **“web_search”** and **“link_parser”** modules.
-- 🏃‍♂️ **Asynchronous Concurrent Task Handling**: Supports asynchronous concurrent task processing for efficient handling of multiple search tasks.
-- 📝 **Content Processing Optimization**:
+- 🌐 **Proxyless**: Supports domestic browsers via Playwright configuration, enabling web search without the need for a proxy.
+- 🔍 **Multi-Search Engine Support**: Supports mainstream search engines such as Bing, Quark, Baidu, Sogou, enhancing the diversity of information sources.
+- 🤖 **Intent Recognition**: The system can automatically determine whether to perform a web search or parse a URL based on user input.
+- 🔄 **Query Decomposition**: Automatically decomposes queries into multiple subtasks according to the user's search intent, executing them sequentially to improve search relevance and efficiency.
+- ⚙️ **Agent Architecture**: Encapsulates **"web_search"** and **"link_parser"** based on **LangGraph**.
+- 🏃‍♂️ **Asynchronous Concurrent Task Processing**: Supports asynchronous concurrent task processing, efficiently handling multiple search tasks.
+- 📝 **Optimized Content Processing**:
 
-  - ✂️ **Content Slicing**: Splits long web content into segments.
+  - ✂️ **Content Chunking**: Divides long web content into segments.
 
-  - 🔄 **Content Reordering**: Intelligently reorders content to enhance information relevance.
+  - 🔄 **Content Reranking**: Intelligently reorders content to enhance information relevance.
 
   - 🚫 **Content Filtering**: Automatically removes irrelevant or duplicate content.
-- 🌐 **Multi-Platform Support**:
+- 🌐 **Multi-terminal Support**:
 
-  - 🖥️ Provides FastAPI backend interfaces, integrable into any system.
+  - 🖥️ Provides FastAPI backend interface, which can be integrated into any system.
 
-  - 🌍 Provides Gradio Web UI for quick deployment as a visual application.
+  - 🌍 Offers Gradio Web UI for rapid deployment as a visual application.
   
-  - 🧩[ **Browser Extension Support**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Supports Edge, offering an intelligent URL parsing extension to initiate web parsing and content extraction requests directly in the browser.
+  - 🧩[ **Browser Extension Support**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Supports Edge, providing an intelligent URL parsing extension, enabling web page parsing and content extraction requests directly in the browser.
   
 
 ![workflow](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/workflow.png)
@@ -33,8 +63,7 @@ A proxy-free multi-search engine LLM web retrieval tool that supports URL conten
 
 ## ⚡ Quick Start
 
-### 1. Clone the Repository
-
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/itshyao/proxyless-llm-websearch.git
@@ -160,6 +189,6 @@ Some features of this project benefited from the support and inspiration of the 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
 
 ---

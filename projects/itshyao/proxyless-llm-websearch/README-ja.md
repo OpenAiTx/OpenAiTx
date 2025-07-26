@@ -1,30 +1,60 @@
-﻿
-# 🧠 代理不要のLLMネットワーク検索エンジン
 
-代理不要のマルチサーチエンジンLLMネットワーク検索ツールで、URLコンテンツ解析とウェブクローリングをサポートし、LangGraphと組み合わせてモジュラー型エージェントチェーンを実現。大規模言語モデルの外部知識呼び出しシナリオ向けに設計され、**Playwright + Crawl4AI**によるウェブ取得と解析、非同期並列処理、コンテンツスライスと再配置フィルタリングをサポート。
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=itshyao&project=proxyless-llm-websearch&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
 
-## ✨ 特徴一覧
+# 🧠 プロキシ不要のLLMウェブ検索エンジン
 
-- 🌐 **代理不要**：Playwrightで国内ブラウザを設定し、代理なしでネット検索が可能。
-- 🔍 **マルチ検索エンジン対応**：Bing、Quark、百度、搜狗など主要検索エンジンをサポートし、情報源の多様性を強化。
-- 🤖 **意図認識**：ユーザー入力に基づき、ネット検索かURL解析かを自動判定。
-- 🔄 **クエリ分解**：ユーザーの検索意図に応じてクエリを複数のサブタスクに自動分解し、順次実行することで検索の関連性と効率を向上。
-- ⚙️ **エージェント構造**：**LangGraph**をベースに封装された**「web_search」**と**「link_parser」**。
-- 🏃‍♂️ **非同期並列タスク処理**：非同期並列処理をサポートし、複数の検索タスクを効率的に処理可能。
+プロキシを必要としないマルチ検索エンジン対応のLLMウェブ検索ツールです。URLコンテンツの解析やウェブクロールをサポートし、LangGraphと組み合わせてモジュール型エージェントチェーンを実現します。大規模言語モデルによる外部知識利用シナリオ向けに設計され、**Playwright + Crawl4AI** によるウェブ取得・解析、非同期並列処理、コンテンツ分割・再構成・フィルタリングに対応しています。
+
+## ✨ 主な特徴
+
+- 🌐 **プロキシ不要**：Playwrightで国内ブラウザの設定が可能。プロキシ不要でウェブ検索ができます。
+- 🔍 **マルチ検索エンジン対応**：Bing、Quark、Baidu、Sogouなどの主要検索エンジンをサポートし、情報源の多様性を強化。
+- 🤖 **インテント認識**：ユーザー入力に応じて、自動的にウェブ検索かURL解析かを判別します。
+- 🔄 **クエリ分解**：検索意図に基づきクエリを複数サブタスクに自動分割し、順次実行して関連性と効率を向上。
+- ⚙️ **エージェントアーキテクチャ**：**LangGraph** ベースの**「web_search」**および**「link_parser」**を搭載。
+- 🏃‍♂️ **非同期並列タスク処理**：非同期並列タスク処理対応で、複数の検索タスクを効率的に処理可能。
 - 📝 **コンテンツ処理最適化**：
 
-  - ✂️ **コンテンツスライス**：ウェブページの長い内容を段落ごとに分割。
+  - ✂️ **コンテンツ分割**：長いウェブページ内容をセグメントで分割。
 
-  - 🔄 **コンテンツ再配置**：インテリジェントな並び替えで情報の関連性を向上。
+  - 🔄 **コンテンツ再構成**：インテリジェントな並べ替えで情報の関連性を向上。
 
-  - 🚫 **コンテンツフィルタリング**：無関係または重複コンテンツを自動除去。
+  - 🚫 **コンテンツフィルタ**：不要・重複コンテンツを自動除去。
 - 🌐 **マルチプラットフォーム対応**：
 
-  - 🖥️ FastAPIバックエンドAPIを提供し、任意のシステムに統合可能。
+  - 🖥️ FastAPIバックエンドAPIを提供し、あらゆるシステムに統合可能。
 
-  - 🌍 Gradio Web UIを提供し、視覚化アプリとして迅速にデプロイ可能。
+  - 🌍 Gradio Web UIを用意し、可視化アプリとして迅速に展開可能。
   
-  - 🧩[ **ブラウザ拡張機能対応**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension)：Edgeをサポートし、インテリジェントなURL解析プラグインを提供、ブラウザ内で直接ウェブ解析とコンテンツ抽出リクエストを発行可能。
+  - 🧩[ **ブラウザ拡張機能対応**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension)：Edge対応。インテリジェントURL解析プラグインを提供し、ブラウザから直接ウェブページ解析・内容抽出リクエストが可能。
   
 
 ![workflow](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/workflow.png)
@@ -33,8 +63,7 @@
 
 ## ⚡ クイックスタート
 
-### 1. リポジトリをクローンする
-
+### 1. リポジトリをクローン
 
 ```bash
 git clone https://github.com/itshyao/proxyless-llm-websearch.git
@@ -160,6 +189,6 @@ python gradio_demo.py
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
 
 ---
