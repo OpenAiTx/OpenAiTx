@@ -1,4 +1,5 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 语言</summary>
     <div>
@@ -34,10 +35,10 @@
  <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">您的无限音乐之门 - 跨平台音乐流媒体</h3>
+<h3 align="center">您的无限音乐之门——跨平台音乐流媒体</h3>
 
 <p align="center">
-  <strong>在所有设备上免费流式和下载高品质音乐，无广告，无需登录。</strong>
+  <strong>在所有设备上免费播放和下载高质量音乐，无广告、无需登录。</strong>
 </p>
 
 <p align="center">
@@ -54,48 +55,46 @@
 
 ---
 
-## 📱📺 两款优秀应用，一个仓库
+## 📱📺 两款出色应用，一个仓库
 
 本仓库包含**两个完整的音乐流媒体应用**：
 
-### 🎵 **OpenSpot 移动端** (React Native + Expo)
+### 🎵 **OpenSpot Mobile**（React Native + Expo）
 - **平台**：Android，iOS
 - **位置**：`openspot-music-mobile/`
-- **功能**：原生移动体验，支持离线下载、后台播放和状态持久化
+- **功能**：原生移动体验，支持离线下载、后台播放和持久状态
 
-### 🖥️ **OpenSpot 桌面端** (Electron + React)
-- **平台**：macOS、Windows、Linux
+### 🖥️ **OpenSpot Desktop**（Electron + React）
+- **平台**：macOS，Windows，Linux
 - **位置**：`openspot-music-electron/`
-- **功能**：桌面优化界面，支持全局音频控制、窗口管理和本地存储
+- **功能**：为桌面优化的界面，拥有全局音频控制、窗口管理和本地存储
 
 ---
 
-## ✨ 主要功能（两端通用）
+### 📢 加入我们的 Telegram 频道
 
-- **🎵 高品质流媒体**：以最佳音质收听您喜爱的曲目
-- **💾 离线下载**：将音乐直接保存到设备，随时离线收听
-- **❤️ 喜欢与收藏**：通过点赞歌曲建立您的个人收藏
-- **🔄 后台播放**：在使用其他应用时继续聆听音乐
-- **🚫 无需登录**：即刻畅享！无需注册或登录账号
-- **💾 状态持久化**：您的喜欢歌曲和最近播放曲目在应用重启后依然保留
-- **🎨 精美界面**：为各平台量身设计的简洁现代界面
-- **🆓 完全免费且无广告**：无任何费用和广告，畅享无间断音乐体验
+在官方 Openspot Telegram 频道获取**版本更新**和**重要公告**。
+
+[![Join us on Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+
 
 ---
 
-## 📱 移动端应用（React Native + Expo）
+
+## 📱 移动应用（React Native + Expo）
 
 ### 截图
 
-![Android App](https://github.com/user-attachments/assets/5a48d1e1-c862-4cea-9d0a-a29606ac5b74)
+![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
+
+
 
 ### 下载链接
 
-- **Android APK**: [OpenSpot-2.0.2-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot-2.0.2-release.apk)
-- **iOS**：即将上线（TestFlight）
+- **Android APK**：[OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
+- **iOS**：维护者招募中
 
 ### 开发环境搭建
-
 
 ```bash
 cd openspot-music-app
@@ -118,6 +117,7 @@ eas build --platform android --profile preview
 # Production Build
 eas build --platform android --profile production
 ```
+
 ---
 
 ## 🖥️ 桌面应用（Electron + React）
@@ -128,12 +128,14 @@ eas build --platform android --profile production
 
 ### 下载链接
 
-- **macOS DMG**：[OpenSpot.Music-2.0.2-arm64.dmg](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64.dmg)
-- **Windows EXE**：敬请期待！
-- **Linux DEB**：敬请期待！
+- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- 如果安装后遇到应用损坏问题，请运行此命令。
+  ```bash
+  xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
+- **Windows EXE**：即将推出！
+- **Linux DEB**：即将推出！
 
-### 开发环境配置
-
+### 开发环境设置
 
 ```bash
 cd openspot-music-app/
@@ -141,8 +143,8 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
-### 生产构建
 
+### 生产环境构建
 
 ```bash
 cd openspot-music-app/
@@ -150,44 +152,68 @@ cd openspot-music-electron/
 npm run build
 npm run electron-pack
 ```
+
+---
+
+## ✨ 主要功能（两个应用均有）
+
+- **🎵 高品质流媒体**：以最佳音质聆听你喜爱的曲目
+- **💾 离线下载**：将音乐直接保存到你的设备，随时离线播放
+- **❤️ 喜欢与收藏**：通过点赞歌曲建立你的个人收藏
+- **🔄 后台播放**：在使用其他应用时继续收听
+- **🚫 无需登录**：直接使用！无需账户或注册
+- **💾 持久化状态**：你的喜欢歌曲和最近播放曲目在应用重启后依然保存
+- **🎨 精美界面**：为每个平台设计的简洁现代界面
+- **🆓 完全免费且无广告**：畅享无广告、无花费的音乐体验
+
 ---
 
 
 ## 💻 技术栈
 
-### 移动应用
-- **框架**: [React Native](https://reactnative.dev/) 结合 [Expo](https://expo.dev/)
-- **导航**: [Expo Router](https://expo.github.io/router/)
-- **音频**: [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
-- **构建**: [EAS Build](https://docs.expo.dev/build/introduction/)
+### 移动端应用
+- **框架**：[React Native](https://reactnative.dev/) 和 [Expo](https://expo.dev/)
+- **导航**：[Expo Router](https://expo.github.io/router/)
+- **音频**：[Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
+- **构建**：[EAS Build](https://docs.expo.dev/build/introduction/)
+- **定位获取**：[IPinfo API](https://github.com/ipinfo)
 
-### 桌面应用
-- **框架**: [Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
-- **界面**: [Material-UI](https://mui.com/)
-- **状态管理**: React Context + useReducer
-- **存储**: [electron-store](https://github.com/sindresorhus/electron-store)
-- **构建**: [electron-builder](https://www.electron.build/)
+### 桌面端应用
+- **框架**：[Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
+- **界面**：[Material-UI](https://mui.com/)
+- **状态管理**：React Context + useReducer
+- **存储**：[electron-store](https://github.com/sindresorhus/electron-store)
+- **构建**：[electron-builder](https://www.electron.build/)
 
-### 共享部分
-- **语言**: [TypeScript](https://www.typescriptlang.org/)
-- **包管理器**: npm/yarn
+### 共享
+- **语言**：[TypeScript](https://www.typescriptlang.org/)
+- **包管理器**：npm/yarn
+
+---
+
+### 环境配置
+
+此项目需要一个环境变量才能正确运行。
+
+- 模板已在 [`.env.template`](https://github.com/BlackHatDevX/openspot-music-app/blob/main/openspot-mobile/.env.template) 文件中提供。
+- 完成你的 `.env` 文件所需的**值**已在我们**官方 Telegram 频道**的**置顶消息**中分享：[ @openspot_music](https://t.me/openspot_music)。
+
 
 ---
 
 ## 🚀 快速开始
 
-### 移动开发使用
-
-
+### 用于移动端开发
 ```bash
+```
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
 cd openspot-music-mobile/
 npm install
 npx expo start
 ```
-### 用于桌面开发
 
+### 用于桌面开发
 ```bash
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
@@ -195,9 +221,10 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
+
 ---
 
-## 🤝 贡献
+## 🤝 参与贡献
 
 我们欢迎对两个应用程序的贡献！
 ## 📞 社区与支持
@@ -216,20 +243,19 @@ npm run electron-dev
 
 ## 📄 许可证
 
-本项目是开源的，采用 MIT 许可证。更多信息请参见 `LICENSE` 文件。
+本项目为开源项目，遵循 MIT 许可证。更多信息请参见 `LICENSE` 文件。
 
 ---
 
 <p align="center">
-  <strong>⭐ 如果您喜欢这个项目，请给它点个星！⭐</strong>
+  <strong>⭐ 如果你喜欢这个项目，请为它加一颗星！⭐</strong>
   <br />
-  <em>您的支持帮助我们继续为大家开发出色的免费音乐应用。</em>
+  <em>你的支持帮助我们持续为所有人开发出色的免费音乐应用。</em>
 </p> 
-
-
+```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
 
 ---

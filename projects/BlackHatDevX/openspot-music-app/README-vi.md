@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Ngôn ngữ</summary>
@@ -34,10 +35,10 @@
  <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">Cổng Âm Nhạc Không Giới Hạn Của Bạn - Phát Nhạc Đa Nền Tảng</h3>
+<h3 align="center">Cổng Âm Nhạc Không Giới Hạn Của Bạn - Dịch Vụ Nghe Nhạc Đa Nền Tảng</h3>
 
 <p align="center">
-  <strong>Phát và tải nhạc chất lượng cao miễn phí trên mọi thiết bị, không quảng cáo, không cần đăng nhập.</strong>
+  <strong>Phát và tải nhạc chất lượng cao miễn phí trên mọi thiết bị của bạn, không quảng cáo và không cần đăng nhập.</strong>
 </p>
 
 <p align="center">
@@ -56,46 +57,44 @@
 
 ## 📱📺 Hai Ứng Dụng Tuyệt Vời, Một Kho Lưu Trữ
 
-Kho lưu trữ này bao gồm **hai ứng dụng phát nhạc hoàn chỉnh**:
+Kho lưu trữ này chứa **hai ứng dụng phát nhạc hoàn chỉnh**:
 
 ### 🎵 **OpenSpot Mobile** (React Native + Expo)
 - **Nền tảng**: Android, iOS
 - **Vị trí**: `openspot-music-mobile/`
-- **Tính năng**: Trải nghiệm di động gốc với tải về ngoại tuyến, phát nhạc nền và lưu trạng thái
+- **Tính năng**: Trải nghiệm di động gốc với tải nhạc ngoại tuyến, phát nhạc nền và lưu trạng thái liên tục
 
 ### 🖥️ **OpenSpot Desktop** (Electron + React)
 - **Nền tảng**: macOS, Windows, Linux
 - **Vị trí**: `openspot-music-electron/`
-- **Tính năng**: Giao diện tối ưu cho máy tính với điều khiển âm thanh toàn cục, quản lý cửa sổ và lưu trữ cục bộ
+- **Tính năng**: Giao diện tối ưu hóa cho máy tính với điều khiển âm thanh toàn cục, quản lý cửa sổ và lưu trữ cục bộ
 
 ---
 
-## ✨ Tính Năng Chính (Cả Hai Ứng Dụng)
+### 📢 Tham Gia Kênh Telegram Của Chúng Tôi
 
-- **🎵 Phát Nhạc Chất Lượng Cao**: Nghe những bản nhạc yêu thích với chất lượng tốt nhất
-- **💾 Tải Về Ngoại Tuyến**: Lưu nhạc trực tiếp vào thiết bị để nghe khi không có mạng
-- **❤️ Yêu Thích & Sưu Tầm**: Xây dựng bộ sưu tập cá nhân bằng cách thích bài hát
-- **🔄 Phát Nhạc Nền**: Tiếp tục nghe nhạc khi sử dụng ứng dụng khác
-- **🚫 Không Cần Đăng Nhập**: Bắt đầu ngay! Không cần tài khoản hay đăng ký
-- **💾 Lưu Trạng Thái**: Các bài hát yêu thích và đã phát gần đây sẽ được lưu qua các lần khởi động lại ứng dụng
-- **🎨 Giao Diện Đẹp**: Giao diện hiện đại, sạch sẽ được thiết kế riêng cho từng nền tảng
-- **🆓 Hoàn Toàn Miễn Phí & Không Quảng Cáo**: Thưởng thức nhạc liên tục không mất phí và không bị làm phiền bởi quảng cáo
+Cập nhật các **phiên bản mới**, và **thông báo quan trọng** tại kênh Telegram chính thức của Openspot.
+
+[![Tham gia trên Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+
 
 ---
+
 
 ## 📱 Ứng Dụng Di Động (React Native + Expo)
 
 ### Ảnh Chụp Màn Hình
 
-![Android App](https://github.com/user-attachments/assets/5a48d1e1-c862-4cea-9d0a-a29606ac5b74)
+![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
 
-### Liên Kết Tải Về
 
-- **Android APK**: [OpenSpot-2.0.2-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot-2.0.2-release.apk)
-- **iOS**: Sắp ra mắt (TestFlight)
 
-### Hướng Dẫn Phát Triển
+### Liên Kết Tải Xuống
 
+- **Android APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
+- **iOS**: Cần người bảo trì
+
+### Thiết Lập Phát Triển
 
 ```bash
 cd openspot-music-app
@@ -118,9 +117,10 @@ eas build --platform android --profile preview
 # Production Build
 eas build --platform android --profile production
 ```
+
 ---
 
-## 🖥️ Ứng dụng máy tính để bàn (Electron + React)
+## 🖥️ Ứng dụng Desktop (Electron + React)
 
 ### Ảnh chụp màn hình
 
@@ -128,12 +128,14 @@ eas build --platform android --profile production
 
 ### Liên kết tải về
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.dmg](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64.dmg)
+- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- Chạy lệnh này nếu bạn gặp sự cố ứng dụng bị hỏng sau khi cài đặt.
+  ```bash
+  xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
 - **Windows EXE**: Sắp ra mắt!
 - **Linux DEB**: Sắp ra mắt!
 
 ### Thiết lập phát triển
-
 
 ```bash
 cd openspot-music-app/
@@ -141,52 +143,76 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
-### Xây dựng cho môi trường sản xuất
 
+### Biên dịch cho môi trường sản xuất
 
 ```bash
 cd openspot-music-app/
 cd openspot-music-electron/
 npm run build
 npm run electron-pack
-```
+---
+
+## ✨ Tính Năng Chính (Cả Hai Ứng Dụng)
+
+- **🎵 Phát Nhạc Chất Lượng Cao**: Nghe những bản nhạc yêu thích với chất lượng tốt nhất
+- **💾 Tải Về Ngoại Tuyến**: Lưu nhạc trực tiếp vào thiết bị để nghe không cần mạng
+- **❤️ Yêu Thích & Sưu Tập**: Xây dựng bộ sưu tập cá nhân bằng cách thích bài hát
+- **🔄 Phát Nhạc Nền**: Tiếp tục nghe khi sử dụng ứng dụng khác
+- **🚫 Không Cần Đăng Nhập**: Sử dụng ngay! Không cần tài khoản hay đăng ký
+- **💾 Lưu Trạng Thái Bền Vững**: Bài hát đã thích và nhạc vừa nghe sẽ được lưu lại khi khởi động lại ứng dụng
+- **🎨 Giao Diện Đẹp Mắt**: Giao diện hiện đại, sạch sẽ được thiết kế riêng cho từng nền tảng
+- **🆓 Hoàn Toàn Miễn Phí & Không Quảng Cáo**: Thưởng thức nhạc không gián đoạn mà không mất phí hay quảng cáo
+
 ---
 
 
-## 💻 Công nghệ sử dụng
+## 💻 Công Nghệ Sử Dụng
 
-### Ứng dụng di động
+### Ứng Dụng Di Động
 - **Framework**: [React Native](https://reactnative.dev/) với [Expo](https://expo.dev/)
-- **Điều hướng**: [Expo Router](https://expo.github.io/router/)
-- **Âm thanh**: [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
-- **Build**: [EAS Build](https://docs.expo.dev/build/introduction/)
+- **Điều Hướng**: [Expo Router](https://expo.github.io/router/)
+- **Âm Thanh**: [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
+- **Xây Dựng**: [EAS Build](https://docs.expo.dev/build/introduction/)
+- **Lấy Vị Trí**: [IPinfo API](https://github.com/ipinfo)
 
-### Ứng dụng máy tính để bàn
+### Ứng Dụng Máy Tính
 - **Framework**: [Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
-- **Giao diện người dùng**: [Material-UI](https://mui.com/)
-- **Quản lý trạng thái**: React Context + useReducer
-- **Lưu trữ**: [electron-store](https://github.com/sindresorhus/electron-store)
-- **Build**: [electron-builder](https://www.electron.build/)
+- **Giao Diện Người Dùng**: [Material-UI](https://mui.com/)
+- **Quản Lý Trạng Thái**: React Context + useReducer
+- **Lưu Trữ**: [electron-store](https://github.com/sindresorhus/electron-store)
+- **Xây Dựng**: [electron-builder](https://www.electron.build/)
 
-### Dùng chung
-- **Ngôn ngữ**: [TypeScript](https://www.typescriptlang.org/)
-- **Trình quản lý gói**: npm/yarn
+### Dùng Chung
+- **Ngôn Ngữ**: [TypeScript](https://www.typescriptlang.org/)
+- **Trình Quản Lý Gói**: npm/yarn
 
 ---
 
-## 🚀 Bắt đầu nhanh
+### Cấu Hình Môi Trường
 
-### Dành cho phát triển di động
+Dự án này chỉ yêu cầu một biến môi trường để hoạt động đúng.
 
+- Một file mẫu được cung cấp tại [`.env.template`](https://github.com/BlackHatDevX/openspot-music-app/blob/main/openspot-mobile/.env.template).
+- **Giá trị** cần thiết để hoàn thiện file `.env` của bạn được chia sẻ trong **tin nhắn ghim** của **kênh Telegram chính thức**: [@openspot_music](https://t.me/openspot_music).
+
+
+---
+
+## 🚀 Bắt Đầu Nhanh
+
+### Dành Cho Phát Triển Di Động
 ```bash
+
+
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
 cd openspot-music-mobile/
 npm install
 npx expo start
 ```
-### Dành cho Phát triển Máy tính để bàn
 
+### Dành cho Phát triển trên Máy tính để bàn
 ```bash
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
@@ -194,6 +220,7 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
+
 ---
 
 ## 🤝 Đóng góp
@@ -220,15 +247,14 @@ Dự án này là mã nguồn mở và được cấp phép theo Giấy phép MI
 ---
 
 <p align="center">
-  <strong>⭐ Nếu bạn thích dự án này, hãy cho nó một ngôi sao! ⭐</strong>
+  <strong>⭐ Nếu bạn thích dự án này, xin hãy đánh dấu sao cho nó! ⭐</strong>
   <br />
-  <em>Sự ủng hộ của bạn giúp chúng tôi tiếp tục phát triển các ứng dụng âm nhạc miễn phí tuyệt vời cho mọi người.</em>
+  <em>Sự ủng hộ của bạn giúp chúng tôi tiếp tục phát triển các ứng dụng nghe nhạc miễn phí tuyệt vời cho mọi người.</em>
 </p> 
-
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
 
 ---

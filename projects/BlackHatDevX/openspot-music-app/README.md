@@ -71,29 +71,28 @@ This repository contains **two complete music streaming applications**:
 
 ---
 
-## ✨ Key Features (Both Apps)
+### 📢 Join Our Telegram Channel
 
-- **🎵 High-Quality Streaming**: Listen to your favorite tracks in the best possible quality
-- **💾 Offline Downloads**: Save music directly to your device for offline listening
-- **❤️ Like & Collect**: Build your personal collection by liking songs
-- **🔄 Background Playback**: Continue listening while using other apps
-- **🚫 No Login Required**: Jump right in! No accounts or sign-ups needed
-- **💾 Persistent State**: Your liked songs and recently played tracks are saved across app restarts
-- **🎨 Beautiful UI**: Clean, modern interface designed for each platform
-- **🆓 Completely Free & Ad-Free**: Enjoy uninterrupted music without any cost or advertisements
+Stay updated with **version releases**, and **important announcements** on official Openspot Telegram channel.
+
+[![Join us on Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+
 
 ---
+
 
 ## 📱 Mobile App (React Native + Expo)
 
 ### Screenshots
 
-![Android App](https://github.com/user-attachments/assets/5a48d1e1-c862-4cea-9d0a-a29606ac5b74)
+![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
+
+
 
 ### Download Links
 
-- **Android APK**: [OpenSpot-2.0.2-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot-2.0.2-release.apk)
-- **iOS**: Coming Soon (TestFlight)
+- **Android APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
+- **iOS**: Maintainer Needed
 
 ### Development Setup
 
@@ -129,7 +128,10 @@ eas build --platform android --profile production
 
 ### Download Links
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.dmg](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64.dmg)
+- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- Run this if you are facing damaged app issue after installation.
+  ```bash
+  xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
 - **Windows EXE**: Coming Soon!
 - **Linux DEB**: Coming Soon!
 
@@ -153,6 +155,19 @@ npm run electron-pack
 
 ---
 
+## ✨ Key Features (Both Apps)
+
+- **🎵 High-Quality Streaming**: Listen to your favorite tracks in the best possible quality
+- **💾 Offline Downloads**: Save music directly to your device for offline listening
+- **❤️ Like & Collect**: Build your personal collection by liking songs
+- **🔄 Background Playback**: Continue listening while using other apps
+- **🚫 No Login Required**: Jump right in! No accounts or sign-ups needed
+- **💾 Persistent State**: Your liked songs and recently played tracks are saved across app restarts
+- **🎨 Beautiful UI**: Clean, modern interface designed for each platform
+- **🆓 Completely Free & Ad-Free**: Enjoy uninterrupted music without any cost or advertisements
+
+---
+
 
 ## 💻 Tech Stack
 
@@ -161,6 +176,7 @@ npm run electron-pack
 - **Navigation**: [Expo Router](https://expo.github.io/router/)
 - **Audio**: [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
 - **Build**: [EAS Build](https://docs.expo.dev/build/introduction/)
+- **Location-Fetching**: [IPinfo API](https://github.com/ipinfo)
 
 ### Desktop App
 - **Framework**: [Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
@@ -172,6 +188,16 @@ npm run electron-pack
 ### Shared
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Package Manager**: npm/yarn
+
+---
+
+### Environment Configuration
+
+This project requires a single environment variable to function correctly.
+
+- A template is provided in the [`.env.template`](https://github.com/BlackHatDevX/openspot-music-app/blob/main/openspot-mobile/.env.template) file.
+- The required **value** to complete your `.env` file is shared in the **pinned message** of our **official Telegram channel**: [@openspot_music](https://t.me/openspot_music).
+
 
 ---
 

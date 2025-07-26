@@ -28,16 +28,16 @@
   </details>
 </div>
 
-# OpenSpot Music 🎶
+# OpenSpot 音樂 🎶
 
 <p align="center">
- <img width="100" alt="OpenSpot 標誌" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
+ <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">您的無限音樂入口 - 跨平台音樂串流</h3>
+<h3 align="center">您的無限音樂之門 - 跨平台音樂串流</h3>
 
 <p align="center">
-  <strong>跨所有裝置免費串流與下載高品質音樂，無廣告、無需登入。</strong>
+  <strong>在所有裝置上免費串流與下載高品質音樂，無廣告、無需登入。</strong>
 </p>
 
 <p align="center">
@@ -54,45 +54,44 @@
 
 ---
 
-## 📱📺 兩款精彩應用，一個儲存庫
+## 📱📺 兩大精彩應用，一個倉庫
 
-本儲存庫包含**兩個完整的音樂串流應用程式**：
+本倉庫包含**兩套完整的音樂串流應用程式**：
 
 ### 🎵 **OpenSpot Mobile**（React Native + Expo）
 - **平台**：Android、iOS
 - **位置**：`openspot-music-mobile/`
-- **特色**：原生行動體驗，支援離線下載、背景播放及狀態持久保存
+- **特點**：原生行動體驗，支援離線下載、背景播放和狀態持久化
 
 ### 🖥️ **OpenSpot Desktop**（Electron + React）
 - **平台**：macOS、Windows、Linux
 - **位置**：`openspot-music-electron/`
-- **特色**：桌面最佳化介面，具備全局音訊控制、視窗管理與本地儲存
+- **特點**：桌面優化介面，支援全域音訊控制、視窗管理和本地儲存
 
 ---
 
-## ✨ 主要功能（兩款應用）
+### 📢 加入我們的 Telegram 頻道
 
-- **🎵 高品質串流**：以最佳音質聆聽您最愛的曲目
-- **💾 離線下載**：將音樂直接儲存至裝置，隨時離線聆聽
-- **❤️ 收藏與喜愛**：按讚收藏，建立個人音樂庫
-- **🔄 背景播放**：使用其他應用時也可繼續播放
-- **🚫 無需登入**：立即體驗！無需帳號或註冊
-- **💾 狀態持久保存**：您的喜愛歌曲及最近播放自動保存，重啟後不遺失
-- **🎨 精美介面**：針對各平台設計的現代化介面
-- **🆓 完全免費且無廣告**：盡享無中斷、無任何費用的音樂體驗
+在官方 Openspot Telegram 頻道隨時掌握**版本釋出**與**重要公告**。
+
+[![Join us on Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+
 
 ---
 
-## 📱 行動應用（React Native + Expo）
+
+## 📱 行動應用程式（React Native + Expo）
 
 ### 截圖
 
-![Android App](https://github.com/user-attachments/assets/5a48d1e1-c862-4cea-9d0a-a29606ac5b74)
+![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
+
+
 
 ### 下載連結
 
-- **Android APK**：[OpenSpot-2.0.2-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot-2.0.2-release.apk)
-- **iOS**：即將推出（TestFlight）
+- **Android APK**：[OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
+- **iOS**：徵求維護者
 
 ### 開發環境設置
 
@@ -118,22 +117,25 @@ eas build --platform android --profile preview
 # Production Build
 eas build --platform android --profile production
 ```
+
 ---
 
 ## 🖥️ 桌面應用程式（Electron + React）
 
-### 螢幕截圖
+### 截圖
 
 ![macOS 應用程式](https://github.com/user-attachments/assets/1cb18d3f-4986-4eb2-9cd2-1b606fbf31db)
 
 ### 下載連結
 
-- **macOS DMG**：[OpenSpot.Music-2.0.2-arm64.dmg](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64.dmg)
+- **macOS DMG**：[OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- 如果安裝後遇到應用程式已損毀的問題，請執行此操作。
+  ```bash
+  xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
 - **Windows EXE**：即將推出！
 - **Linux DEB**：即將推出！
 
-### 開發環境設定
-
+### 開發環境設置
 
 ```bash
 cd openspot-music-app/
@@ -141,8 +143,8 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
-### 生產環境建置
 
+### 進行生產環境建置
 
 ```bash
 cd openspot-music-app/
@@ -150,43 +152,68 @@ cd openspot-music-electron/
 npm run build
 npm run electron-pack
 ```
+
+---
+
+## ✨ 主要功能（兩個應用程式皆有）
+
+- **🎵 高品質串流**：以最佳音質收聽您喜愛的曲目
+- **💾 離線下載**：將音樂直接儲存到您的裝置以供離線聆聽
+- **❤️ 喜愛與收藏**：透過點讚歌曲建立個人收藏
+- **🔄 背景播放**：使用其他應用時也可繼續聆聽
+- **🚫 無需登入**：立即開始！不需帳號或註冊
+- **💾 狀態持久保存**：您喜愛的歌曲與最近播放曲目在重啟應用後仍會保存
+- **🎨 精美介面**：為各平台設計的簡潔現代介面
+- **🆓 完全免費且無廣告**：享受無間斷音樂，無需付費亦無廣告
+
 ---
 
 
-## 💻 技術堆疊
+## 💻 技術棧
 
-### 行動應用程式
-- **框架**：[React Native](https://reactnative.dev/) 搭配 [Expo](https://expo.dev/)
-- **導航**：[Expo Router](https://expo.github.io/router/)
+### 行動應用
+- **框架**：[React Native](https://reactnative.dev/) 與 [Expo](https://expo.dev/)
+- **導覽**：[Expo Router](https://expo.github.io/router/)
 - **音訊**：[Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
-- **建置**：[EAS Build](https://docs.expo.dev/build/introduction/)
+- **建構**：[EAS Build](https://docs.expo.dev/build/introduction/)
+- **位置獲取**：[IPinfo API](https://github.com/ipinfo)
 
-### 桌面應用程式
+### 桌面應用
 - **框架**：[Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
-- **介面**：[Material-UI](https://mui.com/)
+- **UI**：[Material-UI](https://mui.com/)
 - **狀態管理**：React Context + useReducer
 - **儲存**：[electron-store](https://github.com/sindresorhus/electron-store)
-- **建置**：[electron-builder](https://www.electron.build/)
+- **建構**：[electron-builder](https://www.electron.build/)
 
-### 共用部分
+### 共用
 - **語言**：[TypeScript](https://www.typescriptlang.org/)
-- **套件管理器**：npm/yarn
+- **套件管理**：npm/yarn
+
+---
+
+### 環境設定
+
+本專案需要一個環境變數才能正確運作。
+
+- 範本已提供於 [`.env.template`](https://github.com/BlackHatDevX/openspot-music-app/blob/main/openspot-mobile/.env.template) 檔案中。
+- 完成 `.env` 檔所需的**值**已在我們**官方 Telegram 頻道**的**置頂訊息**中分享：[ @openspot_music](https://t.me/openspot_music)。
+
 
 ---
 
 ## 🚀 快速開始
 
-### 行動端開發
-
+### 用於行動開發
 ```bash
+```
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
 cd openspot-music-mobile/
 npm install
 npx expo start
 ```
-### 桌面開發適用
 
+### 桌面端開發
 ```bash
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
@@ -194,6 +221,7 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
+
 ---
 
 ## 🤝 貢獻指南
@@ -215,20 +243,19 @@ npm run electron-dev
 
 ## 📄 授權條款
 
-本專案為開源，並以 MIT 授權條款發佈。更多資訊請參閱 `LICENSE` 檔案。
+本專案為開源，並採用 MIT 授權條款。詳情請參閱 `LICENSE` 檔案。
 
 ---
 
 <p align="center">
-  <strong>⭐ 如果你喜歡這個專案，請幫我們點個星！⭐</strong>
+  <strong>⭐ 如果你喜歡這個專案，請給我們一顆星！⭐</strong>
   <br />
-  <em>你的支持能幫助我們持續為大家開發出優質免費的音樂應用程式。</em>
+  <em>您的支持能幫助我們繼續為大家開發優秀的免費音樂應用程式。</em>
 </p> 
-
-
+```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
 
 ---

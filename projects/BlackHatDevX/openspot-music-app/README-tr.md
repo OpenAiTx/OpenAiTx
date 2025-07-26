@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Dil</summary>
@@ -34,10 +35,10 @@
  <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">Sonsuz Müzik İçin Geçidiniz - Çoklu Platform Müzik Akışı</h3>
+<h3 align="center">Sonsuz Müzik Dünyasına Geçişiniz - Platformlar Arası Müzik Yayını</h3>
 
 <p align="center">
-  <strong>Tüm cihazlarınızda yüksek kaliteli müziği ücretsiz olarak dinleyin ve indirin, reklamsız ve giriş yapmadan.</strong>
+  <strong>Tüm cihazlarınızda yüksek kaliteli müziği ücretsiz olarak, reklamsız ve giriş yapmadan dinleyin ve indirin.</strong>
 </p>
 
 <p align="center">
@@ -56,46 +57,44 @@
 
 ## 📱📺 İki Harika Uygulama, Tek Depo
 
-Bu depo **iki tam müzik akış uygulaması** içerir:
+Bu depo **iki tam kapsamlı müzik akış uygulaması** içerir:
 
-### 🎵 **OpenSpot Mobile** (React Native + Expo)
+### 🎵 **OpenSpot Mobil** (React Native + Expo)
 - **Platformlar**: Android, iOS
 - **Konum**: `openspot-music-mobile/`
 - **Özellikler**: Çevrimdışı indirme, arka planda oynatma ve kalıcı durum ile yerel mobil deneyim
 
-### 🖥️ **OpenSpot Desktop** (Electron + React)
+### 🖥️ **OpenSpot Masaüstü** (Electron + React)
 - **Platformlar**: macOS, Windows, Linux
 - **Konum**: `openspot-music-electron/`
-- **Özellikler**: Global ses kontrolleri, pencere yönetimi ve yerel depolama ile masaüstü için optimize edilmiş arayüz
+- **Özellikler**: Global ses kontrolleri, pencere yönetimi ve yerel depolama ile masaüstüne özel arayüz
 
 ---
 
-## ✨ Temel Özellikler (Her İki Uygulama)
+### 📢 Telegram Kanalımıza Katılın
 
-- **🎵 Yüksek Kaliteli Akış**: Favori parçalarınızı mümkün olan en iyi kalitede dinleyin
-- **💾 Çevrimdışı İndirme**: Müziği doğrudan cihazınıza kaydedin ve çevrimdışı dinleyin
-- **❤️ Beğen & Koleksiyon Yap**: Şarkıları beğenerek kişisel koleksiyonunuzu oluşturun
-- **🔄 Arka Planda Oynatma**: Diğer uygulamaları kullanırken de müzik dinlemeye devam edin
-- **🚫 Giriş Gerekmez**: Hemen başlayın! Hesap veya kayıt gerekmez
-- **💾 Kalıcı Durum**: Beğendiğiniz şarkılar ve son çaldıklarınız uygulama yeniden başlatılsa da kaydedilir
-- **🎨 Şık Arayüz**: Her platform için tasarlanmış modern ve temiz bir arayüz
-- **🆓 Tamamen Ücretsiz & Reklamsız**: Kesintisiz müziğin tadını hiçbir ücret veya reklam olmadan çıkarın
+Resmi Openspot Telegram kanalından **sürüm güncellemeleri** ve **önemli duyurular** ile güncel kalın.
+
+[![Join us on Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+
 
 ---
+
 
 ## 📱 Mobil Uygulama (React Native + Expo)
 
 ### Ekran Görüntüleri
 
-![Android App](https://github.com/user-attachments/assets/5a48d1e1-c862-4cea-9d0a-a29606ac5b74)
+![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
 
-### İndirme Linkleri
 
-- **Android APK**: [OpenSpot-2.0.2-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot-2.0.2-release.apk)
-- **iOS**: Çok Yakında (TestFlight)
+
+### İndirme Bağlantıları
+
+- **Android APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
+- **iOS**: Sürdürmek için sorumlu aranıyor
 
 ### Geliştirme Kurulumu
-
 
 ```bash
 cd openspot-music-app
@@ -118,6 +117,7 @@ eas build --platform android --profile preview
 # Production Build
 eas build --platform android --profile production
 ```
+
 ---
 
 ## 🖥️ Masaüstü Uygulaması (Electron + React)
@@ -128,12 +128,14 @@ eas build --platform android --profile production
 
 ### İndirme Linkleri
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.dmg](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64.dmg)
-- **Windows EXE**: Yakında!
-- **Linux DEB**: Yakında!
+- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- Kurulumdan sonra hasarlı uygulama hatası alıyorsanız bunu çalıştırın.
+  ```bash
+  xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
+- **Windows EXE**: Çok Yakında!
+- **Linux DEB**: Çok Yakında!
 
 ### Geliştirme Kurulumu
-
 
 ```bash
 cd openspot-music-app/
@@ -141,8 +143,8 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
-### Üretim için Derleme
 
+### Üretim için Derleme
 
 ```bash
 cd openspot-music-app/
@@ -150,6 +152,20 @@ cd openspot-music-electron/
 npm run build
 npm run electron-pack
 ```
+
+---
+
+## ✨ Temel Özellikler (Her İki Uygulama İçin)
+
+- **🎵 Yüksek Kaliteli Akış**: Favori parçalarınızı mümkün olan en iyi kalitede dinleyin
+- **💾 Çevrimdışı İndirme**: Müziği doğrudan cihazınıza kaydedin ve çevrimdışı dinleyin
+- **❤️ Beğen & Koleksiyon Oluştur**: Şarkıları beğenerek kişisel koleksiyonunuzu oluşturun
+- **🔄 Arka Planda Oynatma**: Diğer uygulamaları kullanırken müzik dinlemeye devam edin
+- **🚫 Giriş Gerekmez**: Hemen başlayın! Hesap ya da kayıt gerekmez
+- **💾 Kalıcı Durum**: Beğendiğiniz şarkılar ve son çalınan parçalar uygulama yeniden başlatıldığında da saklanır
+- **🎨 Güzel Arayüz**: Her platforma özel temiz ve modern bir arayüz
+- **🆓 Tamamen Ücretsiz ve Reklamsız**: Hiçbir ücret veya reklam olmadan kesintisiz müzik keyfi
+
 ---
 
 
@@ -160,6 +176,7 @@ npm run electron-pack
 - **Navigasyon**: [Expo Router](https://expo.github.io/router/)
 - **Ses**: [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
 - **Derleme**: [EAS Build](https://docs.expo.dev/build/introduction/)
+- **Konum Alma**: [IPinfo API](https://github.com/ipinfo)
 
 ### Masaüstü Uygulaması
 - **Çerçeve**: [Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
@@ -174,19 +191,29 @@ npm run electron-pack
 
 ---
 
+### Ortam Yapılandırması
+
+Bu projenin düzgün çalışabilmesi için tek bir ortam değişkenine ihtiyacı vardır.
+
+- Bir şablon [`.env.template`](https://github.com/BlackHatDevX/openspot-music-app/blob/main/openspot-mobile/.env.template) dosyasında sağlanmıştır.
+- Gerekli **değer**, `.env` dosyanızı tamamlamak için **resmi Telegram kanalımızın** **sabitlemiş mesajında** paylaşılmıştır: [@openspot_music](https://t.me/openspot_music).
+
+
+---
+
 ## 🚀 Hızlı Başlangıç
 
 ### Mobil Geliştirme İçin
-
 ```bash
+```
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
 cd openspot-music-mobile/
 npm install
 npx expo start
 ```
-### Masaüstü Geliştirme İçin
 
+### Masaüstü Geliştirme için
 ```bash
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
@@ -194,6 +221,7 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
+
 ---
 
 ## 🤝 Katkıda Bulunma
@@ -224,11 +252,10 @@ Bu proje açık kaynaklıdır ve MIT Lisansı ile lisanslanmıştır. Daha fazla
   <br />
   <em>Desteğiniz, herkes için harika ücretsiz müzik uygulamaları geliştirmeye devam etmemizi sağlıyor.</em>
 </p> 
-
-
+```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
 
 ---

@@ -1,27 +1,28 @@
+
 <div align="right">
   <details>
     <summary >🌐 Taal</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=en">English</a>
+        <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=en">Engels</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ko">한국어</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=hi">हिन्दी</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=it">Itapano</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fr">Frans</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=de">Duits</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=es">Spaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=it">Italiaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ru">Russisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pt">Portugees</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pl">Pools</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ar">العربية</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=tr">Turks</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=vi">Vietnamees</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=id">Bahasa Indonesia</a>
       </div>
     </div>
@@ -34,7 +35,7 @@
  <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">Jouw toegangspoort tot grenzeloze muziek - Cross-platform muziekstreaming</h3>
+<h3 align="center">Jouw toegangspoort tot onbeperkte muziek - Cross-platform muziekstreaming</h3>
 
 <p align="center">
   <strong>Stream en download gratis muziek van hoge kwaliteit op al je apparaten, zonder advertenties en zonder inloggen.</strong>
@@ -48,20 +49,20 @@
     <img src="https://img.shields.io/github/forks/BlackHatDevX/openspot-music-app?style=for-the-badge&color=84b4a3" alt="Forks">
   </a>
   <a href="https://github.com/BlackHatDevX/openspot-music-app/issues">
-    <img src="https://img.shields.io/github/issues/BlackHatDevX/openspot-music-app?style=for-the-badge&color=f38ba8" alt="Problemen">
+    <img src="https://img.shields.io/github/issues/BlackHatDevX/openspot-music-app?style=for-the-badge&color=f38ba8" alt="Issues">
   </a>
 </p>
 
 ---
 
-## 📱📺 Twee geweldige apps, één repository
+## 📱📺 Twee Geweldige Apps, Eén Repository
 
 Deze repository bevat **twee complete muziekstreaming-applicaties**:
 
 ### 🎵 **OpenSpot Mobile** (React Native + Expo)
 - **Platforms**: Android, iOS
 - **Locatie**: `openspot-music-mobile/`
-- **Functies**: Native mobiele ervaring met offline downloads, achtergrondweergave en blijvende status
+- **Functies**: Native mobiele ervaring met offline downloads, afspelen op de achtergrond, en blijvende status
 
 ### 🖥️ **OpenSpot Desktop** (Electron + React)
 - **Platforms**: macOS, Windows, Linux
@@ -70,32 +71,30 @@ Deze repository bevat **twee complete muziekstreaming-applicaties**:
 
 ---
 
-## ✨ Belangrijkste functies (beide apps)
+### 📢 Word lid van ons Telegram-kanaal
 
-- **🎵 Streaming van hoge kwaliteit**: Luister naar je favoriete nummers in de best mogelijke kwaliteit
-- **💾 Offline downloads**: Sla muziek direct op je apparaat op om offline te luisteren
-- **❤️ Leuk & verzamel**: Bouw je persoonlijke collectie door nummers te liken
-- **🔄 Achtergrondweergave**: Blijf luisteren terwijl je andere apps gebruikt
-- **🚫 Geen login vereist**: Begin direct! Geen accounts of aanmeldingen nodig
-- **💾 Blijvende status**: Je gelikete nummers en recent afgespeelde tracks worden opgeslagen bij het herstarten van de app
-- **🎨 Prachtige UI**: Schone, moderne interface ontworpen voor elk platform
-- **🆓 Volledig gratis & advertentievrij**: Geniet van ononderbroken muziek zonder kosten of advertenties
+Blijf op de hoogte van **versie-releases** en **belangrijke aankondigingen** op het officiële Openspot Telegram-kanaal.
+
+[![Word lid van ons op Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+
 
 ---
 
-## 📱 Mobiele app (React Native + Expo)
+
+## 📱 Mobiele App (React Native + Expo)
 
 ### Screenshots
 
-![Android App](https://github.com/user-attachments/assets/5a48d1e1-c862-4cea-9d0a-a29606ac5b74)
+![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
 
-### Downloadlinks
 
-- **Android APK**: [OpenSpot-2.0.2-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot-2.0.2-release.apk)
-- **iOS**: Binnenkort beschikbaar (TestFlight)
 
-### Ontwikkelomgeving
+### Download Links
 
+- **Android APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
+- **iOS**: Onderhouder Gezocht
+
+### Ontwikkelomgeving Setup
 
 ```bash
 cd openspot-music-app
@@ -118,22 +117,25 @@ eas build --platform android --profile preview
 # Production Build
 eas build --platform android --profile production
 ```
+
 ---
 
-## 🖥️ Desktop-app (Electron + React)
+## 🖥️ Desktop App (Electron + React)
 
-### Screenshots
+### Schermafbeeldingen
 
 ![macOS App](https://github.com/user-attachments/assets/1cb18d3f-4986-4eb2-9cd2-1b606fbf31db)
 
 ### Downloadlinks
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.dmg](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64.dmg)
+- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- Voer dit uit als je na installatie een beschadigde app-melding krijgt.
+  ```bash
+  xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
 - **Windows EXE**: Binnenkort beschikbaar!
 - **Linux DEB**: Binnenkort beschikbaar!
 
-### Ontwikkelomgeving
-
+### Ontwikkelomgeving instellen
 
 ```bash
 cd openspot-music-app/
@@ -141,8 +143,8 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
-### Bouwen voor productie
 
+### Bouwen voor Productie
 
 ```bash
 cd openspot-music-app/
@@ -150,16 +152,31 @@ cd openspot-music-electron/
 npm run build
 npm run electron-pack
 ```
+
+---
+
+## ✨ Belangrijkste Functies (Beide Apps)
+
+- **🎵 Streaming van hoge kwaliteit**: Luister naar je favoriete nummers in de best mogelijke kwaliteit
+- **💾 Offline downloads**: Sla muziek direct op je apparaat op om offline te luisteren
+- **❤️ Leuk vinden & verzamelen**: Bouw je persoonlijke collectie door nummers leuk te vinden
+- **🔄 Achtergrondweergave**: Blijf luisteren terwijl je andere apps gebruikt
+- **🚫 Geen login vereist**: Begin meteen! Geen accounts of aanmeldingen nodig
+- **💾 Persistente status**: Je favoriete nummers en recent afgespeelde tracks worden opgeslagen, ook na het opnieuw starten van de app
+- **🎨 Prachtige UI**: Een schoon, modern ontwerp speciaal voor elk platform
+- **🆓 Volledig gratis & zonder advertenties**: Geniet van ononderbroken muziek zonder kosten of reclame
+
 ---
 
 
 ## 💻 Technologiestack
 
-### Mobiele App
+### Mobiele app
 - **Framework**: [React Native](https://reactnative.dev/) met [Expo](https://expo.dev/)
 - **Navigatie**: [Expo Router](https://expo.github.io/router/)
 - **Audio**: [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
 - **Build**: [EAS Build](https://docs.expo.dev/build/introduction/)
+- **Locatie-ophaling**: [IPinfo API](https://github.com/ipinfo)
 
 ### Desktop App
 - **Framework**: [Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
@@ -170,14 +187,23 @@ npm run electron-pack
 
 ### Gedeeld
 - **Taal**: [TypeScript](https://www.typescriptlang.org/)
-- **Pakketbeheerder**: npm/yarn
+- **Pakketbeheer**: npm/yarn
 
 ---
 
-## 🚀 Snelstart
+### Omgevingsconfiguratie
+
+Dit project vereist één omgevingsvariabele om correct te functioneren.
+
+- Er is een sjabloon voorzien in het [`.env.template`](https://github.com/BlackHatDevX/openspot-music-app/blob/main/openspot-mobile/.env.template) bestand.
+- De vereiste **waarde** om je `.env` bestand compleet te maken wordt gedeeld in het **gepinde bericht** van ons **officiële Telegramkanaal**: [@openspot_music](https://t.me/openspot_music).
+
+
+---
+
+## 🚀 Snel Starten
 
 ### Voor mobiele ontwikkeling
-
 ```bash
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
@@ -185,8 +211,8 @@ cd openspot-music-mobile/
 npm install
 npx expo start
 ```
-### Voor desktopontwikkeling
 
+### Voor Desktopontwikkeling
 ```bash
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
@@ -194,6 +220,7 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
+
 ---
 
 ## 🤝 Bijdragen
@@ -202,7 +229,7 @@ We verwelkomen bijdragen aan beide apps!
 ## 📞 Community & Ondersteuning
 
 - **Telegram**: [Openspot Music](https://telegram.dog/Openspot_Music)
-- **Problemen**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+- **Issues**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
 ## 👤 Auteur & Contact
 
@@ -224,11 +251,10 @@ Dit project is open-source en gelicentieerd onder de MIT-licentie. Zie het `LICE
   <br />
   <em>Jouw steun helpt ons om geweldige gratis muziekapps voor iedereen te blijven ontwikkelen.</em>
 </p> 
-
-
+```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
 
 ---

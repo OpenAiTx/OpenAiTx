@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Bahasa</summary>
@@ -34,7 +35,7 @@
  <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">Gerbang Anda ke Musik Tanpa Batas - Streaming Musik Lintas Platform</h3>
+<h3 align="center">Gerbang Anda Menuju Musik Tanpa Batas - Streaming Musik Lintas Platform</h3>
 
 <p align="center">
   <strong>Streaming dan unduh musik berkualitas tinggi secara gratis di semua perangkat Anda, tanpa iklan dan tanpa perlu login.</strong>
@@ -54,14 +55,14 @@
 
 ---
 
-## 📱📺 Dua Aplikasi Hebat, Satu Repositori
+## 📱📺 Dua Aplikasi Menakjubkan, Satu Repository
 
 Repositori ini berisi **dua aplikasi streaming musik lengkap**:
 
 ### 🎵 **OpenSpot Mobile** (React Native + Expo)
 - **Platform**: Android, iOS
 - **Lokasi**: `openspot-music-mobile/`
-- **Fitur**: Pengalaman mobile native dengan unduhan offline, pemutaran di latar belakang, dan penyimpanan status yang konsisten
+- **Fitur**: Pengalaman mobile asli dengan unduhan offline, pemutaran di latar belakang, dan penyimpanan status yang persisten
 
 ### 🖥️ **OpenSpot Desktop** (Electron + React)
 - **Platform**: macOS, Windows, Linux
@@ -70,32 +71,30 @@ Repositori ini berisi **dua aplikasi streaming musik lengkap**:
 
 ---
 
-## ✨ Fitur Utama (Kedua Aplikasi)
+### 📢 Gabung di Channel Telegram Kami
 
-- **🎵 Streaming Berkualitas Tinggi**: Dengarkan lagu favorit Anda dengan kualitas terbaik
-- **💾 Unduhan Offline**: Simpan musik langsung ke perangkat Anda untuk didengarkan secara offline
-- **❤️ Suka & Koleksi**: Bangun koleksi pribadi Anda dengan menyukai lagu
-- **🔄 Pemutaran Latar Belakang**: Lanjutkan mendengarkan saat menggunakan aplikasi lain
-- **🚫 Tanpa Login**: Langsung mulai! Tidak perlu akun atau daftar
-- **💾 Penyimpanan Status**: Lagu yang Anda sukai dan riwayat lagu yang diputar tersimpan walau aplikasi dimulai ulang
-- **🎨 Antarmuka Indah**: Desain modern dan bersih untuk setiap platform
-- **🆓 Gratis Sepenuhnya & Tanpa Iklan**: Nikmati musik tanpa gangguan, tanpa biaya atau iklan
+Dapatkan update tentang **rilis versi** dan **pengumuman penting** di channel Telegram resmi Openspot.
+
+[![Join us on Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+
 
 ---
+
 
 ## 📱 Aplikasi Mobile (React Native + Expo)
 
 ### Tangkapan Layar
 
-![Android App](https://github.com/user-attachments/assets/5a48d1e1-c862-4cea-9d0a-a29606ac5b74)
+![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
+
+
 
 ### Link Unduhan
 
-- **Android APK**: [OpenSpot-2.0.2-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot-2.0.2-release.apk)
-- **iOS**: Segera Hadir (TestFlight)
+- **Android APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
+- **iOS**: Butuh Maintainer
 
 ### Pengaturan Pengembangan
-
 
 ```bash
 cd openspot-music-app
@@ -118,6 +117,7 @@ eas build --platform android --profile preview
 # Production Build
 eas build --platform android --profile production
 ```
+
 ---
 
 ## 🖥️ Aplikasi Desktop (Electron + React)
@@ -128,12 +128,14 @@ eas build --platform android --profile production
 
 ### Tautan Unduhan
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.dmg](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64.dmg)
+- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- Jalankan ini jika Anda mengalami masalah aplikasi rusak setelah instalasi.
+  ```bash
+  xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
 - **Windows EXE**: Segera Hadir!
 - **Linux DEB**: Segera Hadir!
 
 ### Pengaturan Pengembangan
-
 
 ```bash
 cd openspot-music-app/
@@ -141,25 +143,37 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
-### Build untuk Produksi
 
+### Build untuk Produksi
 
 ```bash
 cd openspot-music-app/
 cd openspot-music-electron/
 npm run build
 npm run electron-pack
-```
 ---
 
+## ✨ Fitur Utama (Kedua Aplikasi)
 
-## 💻 Tumpukan Teknologi
+- **🎵 Streaming Berkualitas Tinggi**: Dengarkan lagu favorit Anda dengan kualitas terbaik
+- **💾 Unduhan Offline**: Simpan musik langsung ke perangkat Anda untuk didengarkan secara offline
+- **❤️ Suka & Koleksi**: Bangun koleksi pribadi Anda dengan menyukai lagu-lagu
+- **🔄 Pemutaran Latar Belakang**: Tetap mendengarkan sambil menggunakan aplikasi lain
+- **🚫 Tidak Perlu Login**: Langsung pakai! Tidak perlu akun atau pendaftaran
+- **💾 Status Persisten**: Lagu yang Anda sukai dan yang baru saja diputar akan tersimpan meski aplikasi di-restart
+- **🎨 Antarmuka yang Indah**: Tampilan bersih dan modern yang dirancang khusus untuk setiap platform
+- **🆓 Sepenuhnya Gratis & Tanpa Iklan**: Nikmati musik tanpa gangguan dan tanpa biaya atau iklan
+
+---
+
+## 💻 Stack Teknologi
 
 ### Aplikasi Mobile
 - **Framework**: [React Native](https://reactnative.dev/) dengan [Expo](https://expo.dev/)
 - **Navigasi**: [Expo Router](https://expo.github.io/router/)
 - **Audio**: [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
 - **Build**: [EAS Build](https://docs.expo.dev/build/introduction/)
+- **Pengambilan Lokasi**: [IPinfo API](https://github.com/ipinfo)
 
 ### Aplikasi Desktop
 - **Framework**: [Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
@@ -170,23 +184,35 @@ npm run electron-pack
 
 ### Bersama
 - **Bahasa**: [TypeScript](https://www.typescriptlang.org/)
-- **Manajer Paket**: npm/yarn
+- **Package Manager**: npm/yarn
+
+---
+
+### Konfigurasi Lingkungan
+
+Proyek ini membutuhkan satu variabel lingkungan agar dapat berfungsi dengan benar.
+
+- Template tersedia di file [`.env.template`](https://github.com/BlackHatDevX/openspot-music-app/blob/main/openspot-mobile/.env.template).
+- **Nilai** yang diperlukan untuk melengkapi file `.env` Anda dibagikan pada **pesan tersemat** di **saluran Telegram resmi** kami: [@openspot_music](https://t.me/openspot_music).
 
 ---
 
 ## 🚀 Mulai Cepat
 
 ### Untuk Pengembangan Mobile
-
 ```bash
+
+
+
+
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
 cd openspot-music-mobile/
 npm install
 npx expo start
 ```
-### Untuk Pengembangan Desktop
 
+### Untuk Pengembangan Desktop
 ```bash
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
@@ -194,9 +220,10 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
+
 ---
 
-## 🤝 Berkontribusi
+## 🤝 Kontribusi
 
 Kami menyambut kontribusi untuk kedua aplikasi!
 ## 📞 Komunitas & Dukungan
@@ -215,20 +242,19 @@ Kami menyambut kontribusi untuk kedua aplikasi!
 
 ## 📄 Lisensi
 
-Proyek ini bersifat open-source dan dilisensikan di bawah Lisensi MIT. Lihat file `LICENSE` untuk informasi lebih lanjut.
+Proyek ini bersifat open-source dan dilisensikan di bawah MIT License. Lihat berkas `LICENSE` untuk informasi lebih lanjut.
 
 ---
 
 <p align="center">
-  <strong>⭐ Jika Anda suka proyek ini, silakan beri bintang! ⭐</strong>
+  <strong>⭐ Jika Anda menyukai proyek ini, silakan beri bintang! ⭐</strong>
   <br />
   <em>Dukungan Anda membantu kami terus mengembangkan aplikasi musik gratis yang luar biasa untuk semua orang.</em>
 </p> 
-
-
+```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
 
 ---

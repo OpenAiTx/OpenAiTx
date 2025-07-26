@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Langue</summary>
@@ -37,18 +38,18 @@
 <h3 align="center">Votre passerelle vers une musique sans limites - Streaming musical multiplateforme</h3>
 
 <p align="center">
-  <strong>Écoutez et téléchargez de la musique haute qualité gratuitement sur tous vos appareils, sans publicité et sans inscription requise.</strong>
+  <strong>Écoutez et téléchargez de la musique haute qualité gratuitement sur tous vos appareils, sans publicité et sans inscription.</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/BlackHatDevX/openspot-music-app/stargazers">
-    <img src="https://img.shields.io/github/stars/BlackHatDevX/openspot-music-app?style=for-the-badge&color=ffd700" alt="Stars">
+    <img src="https://img.shields.io/github/stars/BlackHatDevX/openspot-music-app?style=for-the-badge&color=ffd700" alt="Étoiles">
   </a>
   <a href="https://github.com/BlackHatDevX/openspot-music-app/network/members">
     <img src="https://img.shields.io/github/forks/BlackHatDevX/openspot-music-app?style=for-the-badge&color=84b4a3" alt="Forks">
   </a>
   <a href="https://github.com/BlackHatDevX/openspot-music-app/issues">
-    <img src="https://img.shields.io/github/issues/BlackHatDevX/openspot-music-app?style=for-the-badge&color=f38ba8" alt="Issues">
+    <img src="https://img.shields.io/github/issues/BlackHatDevX/openspot-music-app?style=for-the-badge&color=f38ba8" alt="Problèmes">
   </a>
 </p>
 
@@ -70,32 +71,30 @@ Ce dépôt contient **deux applications complètes de streaming musical** :
 
 ---
 
-## ✨ Fonctionnalités clés (les deux applications)
+### 📢 Rejoignez notre chaîne Telegram
 
-- **🎵 Streaming haute qualité** : Écoutez vos morceaux préférés dans la meilleure qualité possible
-- **💾 Téléchargements hors ligne** : Sauvegardez la musique directement sur votre appareil pour l’écoute hors connexion
-- **❤️ J’aime & Collection** : Constituez votre collection personnelle en aimant des chansons
-- **🔄 Lecture en arrière-plan** : Continuez d’écouter tout en utilisant d’autres applications
-- **🚫 Aucun compte requis** : Lancez-vous immédiatement ! Pas de compte ni d’inscription nécessaires
-- **💾 État persistant** : Vos chansons aimées et morceaux récemment lus sont conservés après redémarrage de l’application
-- **🎨 Belle interface** : Interface moderne et épurée, conçue pour chaque plateforme
-- **🆓 Entièrement gratuit et sans publicité** : Profitez de la musique sans interruption, sans coût ni publicité
+Restez informé des **nouvelles versions** et **annonces importantes** sur la chaîne Telegram officielle d’Openspot.
+
+[![Rejoignez-nous sur Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+
 
 ---
 
+
 ## 📱 Application mobile (React Native + Expo)
 
-### Captures d’écran
+### Captures d'écran
 
-![Application Android](https://github.com/user-attachments/assets/5a48d1e1-c862-4cea-9d0a-a29606ac5b74)
+![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
+
+
 
 ### Liens de téléchargement
 
-- **APK Android** : [OpenSpot-2.0.2-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot-2.0.2-release.apk)
-- **iOS** : Bientôt disponible (TestFlight)
+- **Android APK** : [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
+- **iOS** : Mainteneur Recherché
 
 ### Configuration du développement
-
 
 ```bash
 cd openspot-music-app
@@ -118,22 +117,25 @@ eas build --platform android --profile preview
 # Production Build
 eas build --platform android --profile production
 ```
+
 ---
 
 ## 🖥️ Application de bureau (Electron + React)
 
 ### Captures d'écran
 
-![App macOS](https://github.com/user-attachments/assets/1cb18d3f-4986-4eb2-9cd2-1b606fbf31db)
+![Application macOS](https://github.com/user-attachments/assets/1cb18d3f-4986-4eb2-9cd2-1b606fbf31db)
 
 ### Liens de téléchargement
 
-- **macOS DMG** : [OpenSpot.Music-2.0.2-arm64.dmg](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64.dmg)
-- **Windows EXE** : Bientôt disponible !
-- **Linux DEB** : Bientôt disponible !
+- **macOS DMG** : [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- Exécutez ceci si vous rencontrez un problème d'application endommagée après l'installation.
+  ```bash
+  xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
+- **EXE Windows** : Bientôt disponible !
+- **DEB Linux** : Bientôt disponible !
 
 ### Configuration du développement
-
 
 ```bash
 cd openspot-music-app/
@@ -141,8 +143,8 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
-### Construire pour la production
 
+### Construire pour la production
 
 ```bash
 cd openspot-music-app/
@@ -150,18 +152,33 @@ cd openspot-music-electron/
 npm run build
 npm run electron-pack
 ```
+
+---
+
+## ✨ Fonctionnalités clés (Deux applications)
+
+- **🎵 Streaming de haute qualité** : Écoutez vos morceaux préférés avec la meilleure qualité possible
+- **💾 Téléchargements hors ligne** : Enregistrez de la musique directement sur votre appareil pour une écoute hors ligne
+- **❤️ Aimer & Collectionner** : Constituez votre collection personnelle en aimant des chansons
+- **🔄 Lecture en arrière-plan** : Continuez d'écouter tout en utilisant d'autres applications
+- **🚫 Aucune connexion requise** : Commencez immédiatement ! Aucun compte ou inscription nécessaire
+- **💾 État persistant** : Vos chansons aimées et morceaux récemment écoutés sont sauvegardés entre les redémarrages de l'application
+- **🎨 Interface magnifique** : Interface épurée et moderne, conçue pour chaque plateforme
+- **🆓 Entièrement gratuit & sans publicité** : Profitez de la musique sans interruption, sans coût ni publicité
+
 ---
 
 
-## 💻 Pile Technologique
+## 💻 Pile technologique
 
-### Application Mobile
+### Application mobile
 - **Framework** : [React Native](https://reactnative.dev/) avec [Expo](https://expo.dev/)
 - **Navigation** : [Expo Router](https://expo.github.io/router/)
 - **Audio** : [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
 - **Build** : [EAS Build](https://docs.expo.dev/build/introduction/)
+- **Récupération de localisation** : [IPinfo API](https://github.com/ipinfo)
 
-### Application Bureau
+### Application de bureau
 - **Framework** : [Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
 - **UI** : [Material-UI](https://mui.com/)
 - **État** : React Context + useReducer
@@ -174,10 +191,19 @@ npm run electron-pack
 
 ---
 
-## 🚀 Démarrage Rapide
+### Configuration de l'environnement
 
-### Pour le Développement Mobile
+Ce projet nécessite une seule variable d'environnement pour fonctionner correctement.
 
+- Un modèle est fourni dans le fichier [`.env.template`](https://github.com/BlackHatDevX/openspot-music-app/blob/main/openspot-mobile/.env.template).
+- La **valeur** requise pour compléter votre fichier `.env` est partagée dans le **message épinglé** de notre **canal Telegram officiel** : [@openspot_music](https://t.me/openspot_music).
+
+
+---
+
+## 🚀 Démarrage rapide
+
+### Pour le développement mobile
 ```bash
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
@@ -185,8 +211,8 @@ cd openspot-music-mobile/
 npm install
 npx expo start
 ```
-### Pour le développement de bureau
 
+### Pour le développement de bureau
 ```bash
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
@@ -194,11 +220,12 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
+
 ---
 
 ## 🤝 Contribution
 
-Nous accueillons les contributions sur les deux applications !
+Nous accueillons les contributions pour les deux applications !
 ## 📞 Communauté & Support
 
 - **Telegram** : [Openspot Music](https://telegram.dog/Openspot_Music)
@@ -215,20 +242,19 @@ Nous accueillons les contributions sur les deux applications !
 
 ## 📄 Licence
 
-Ce projet est open-source et licencié sous la licence MIT. Consultez le fichier `LICENSE` pour plus d’informations.
+Ce projet est open-source et sous licence MIT. Voir le fichier `LICENSE` pour plus d'informations.
 
 ---
 
 <p align="center">
-  <strong>⭐ Si vous aimez ce projet, merci de lui attribuer une étoile ! ⭐</strong>
+  <strong>⭐ Si vous aimez ce projet, mettez-lui une étoile ! ⭐</strong>
   <br />
-  <em>Votre soutien nous aide à continuer de développer d’incroyables applications musicales gratuites pour tous.</em>
+  <em>Votre soutien nous aide à continuer à développer des applications musicales gratuites et incroyables pour tous.</em>
 </p> 
-
-
+```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
 
 ---

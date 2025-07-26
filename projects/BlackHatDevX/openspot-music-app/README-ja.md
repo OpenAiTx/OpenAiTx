@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 言語</summary>
@@ -34,7 +35,7 @@
  <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">限りない音楽へのゲートウェイ - クロスプラットフォーム音楽ストリーミング</h3>
+<h3 align="center">無限の音楽へのゲートウェイ - クロスプラットフォーム音楽ストリーミング</h3>
 
 <p align="center">
   <strong>全てのデバイスで高音質の音楽を無料でストリーミング＆ダウンロード。広告なし、ログイン不要。</strong>
@@ -56,46 +57,44 @@
 
 ## 📱📺 2つの素晴らしいアプリが1つのリポジトリに
 
-このリポジトリには**2つの完全な音楽ストリーミングアプリケーション**が含まれています:
+このリポジトリには**2つの完全な音楽ストリーミングアプリケーション**が含まれています：
 
-### 🎵 **OpenSpot Mobile**（React Native + Expo）
-- **対応プラットフォーム**: Android, iOS
+### 🎵 **OpenSpot Mobile** (React Native + Expo)
+- **対応プラットフォーム**: Android、iOS
 - **場所**: `openspot-music-mobile/`
-- **特徴**: オフラインダウンロード、バックグラウンド再生、永続的な状態保存を備えたネイティブモバイル体験
+- **特徴**: オフラインダウンロード、バックグラウンド再生、永続的な状態を備えたネイティブモバイル体験
 
-### 🖥️ **OpenSpot Desktop**（Electron + React）
-- **対応プラットフォーム**: macOS, Windows, Linux
+### 🖥️ **OpenSpot Desktop** (Electron + React)
+- **対応プラットフォーム**: macOS、Windows、Linux
 - **場所**: `openspot-music-electron/`
-- **特徴**: グローバルオーディオコントロール、ウィンドウ管理、ローカルストレージに対応したデスクトップ最適化インターフェース
+- **特徴**: グローバルオーディオコントロール、ウィンドウ管理、ローカルストレージを備えたデスクトップ最適化インターフェース
 
 ---
 
-## ✨ 主な機能（両アプリ共通）
+### 📢 Telegramチャンネルに参加しよう
 
-- **🎵 高音質ストリーミング**: お気に入りの曲を最高音質で楽しめます
-- **💾 オフラインダウンロード**: 音楽を端末に直接保存し、オフラインで再生
-- **❤️ いいね＆コレクション**: 曲に「いいね」をして自分だけのコレクションを作成
-- **🔄 バックグラウンド再生**: 他のアプリを使用中も音楽を再生し続けます
-- **🚫 ログイン不要**: すぐに利用開始！アカウントやサインアップは不要
-- **💾 永続的な状態保存**: いいねした曲や最近再生した曲はアプリ再起動後も保存
-- **🎨 美しいUI**: 各プラットフォーム向けにデザインされたクリーンでモダンなインターフェース
-- **🆓 完全無料＆広告なし**: 料金や広告を気にせず、音楽を中断なしで楽しめます
+公式Openspot Telegramチャンネルで**バージョンリリース**や**重要なお知らせ**を受け取ろう。
+
+[![Join us on Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+
 
 ---
 
-## 📱 モバイルアプリ（React Native + Expo）
+
+## 📱 モバイルアプリ (React Native + Expo)
 
 ### スクリーンショット
 
-![Android App](https://github.com/user-attachments/assets/5a48d1e1-c862-4cea-9d0a-a29606ac5b74)
+![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
+
+
 
 ### ダウンロードリンク
 
-- **Android APK**: [OpenSpot-2.0.2-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot-2.0.2-release.apk)
-- **iOS**: 近日公開（TestFlight）
+- **Android APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
+- **iOS**: メンテナー募集中
 
-### 開発環境セットアップ
-
+### 開発セットアップ
 
 ```bash
 cd openspot-music-app
@@ -118,6 +117,7 @@ eas build --platform android --profile preview
 # Production Build
 eas build --platform android --profile production
 ```
+
 ---
 
 ## 🖥️ デスクトップアプリ（Electron + React）
@@ -128,12 +128,14 @@ eas build --platform android --profile production
 
 ### ダウンロードリンク
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.dmg](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64.dmg)
+- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- インストール後、アプリが破損しているという問題が発生した場合はこれを実行してください。
+  ```bash
+  xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
 - **Windows EXE**: 近日公開予定！
 - **Linux DEB**: 近日公開予定！
 
-### 開発環境設定
-
+### 開発セットアップ
 
 ```bash
 cd openspot-music-app/
@@ -141,8 +143,8 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
-### 本番環境向けビルド
 
+### 本番環境用のビルド
 
 ```bash
 cd openspot-music-app/
@@ -150,34 +152,58 @@ cd openspot-music-electron/
 npm run build
 npm run electron-pack
 ```
+
+---
+
+## ✨ 主な機能（両アプリ共通）
+
+- **🎵 高音質ストリーミング**：お気に入りのトラックを最高の音質で再生
+- **💾 オフラインダウンロード**：音楽をデバイスに直接保存してオフライン再生
+- **❤️ いいね＆コレクション**：楽曲に「いいね」して自分だけのコレクションを作成
+- **🔄 バックグラウンド再生**：他のアプリを使いながら音楽を継続再生
+- **🚫 ログイン不要**：すぐに利用開始！アカウント登録やサインアップは不要
+- **💾 永続的な状態保存**：いいねした曲や最近再生したトラックはアプリ再起動後も保存
+- **🎨 美しいUI**：各プラットフォーム向けに設計されたクリーンでモダンなインターフェース
+- **🆓 完全無料＆広告なし**：費用も広告もなく、音楽を中断されずに楽しめます
+
 ---
 
 
 ## 💻 技術スタック
 
 ### モバイルアプリ
-- **フレームワーク**: [React Native](https://reactnative.dev/) と [Expo](https://expo.dev/)
-- **ナビゲーション**: [Expo Router](https://expo.github.io/router/)
-- **オーディオ**: [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
-- **ビルド**: [EAS Build](https://docs.expo.dev/build/introduction/)
+- **フレームワーク**：[React Native](https://reactnative.dev/) + [Expo](https://expo.dev/)
+- **ナビゲーション**：[Expo Router](https://expo.github.io/router/)
+- **オーディオ**：[Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
+- **ビルド**：[EAS Build](https://docs.expo.dev/build/introduction/)
+- **ロケーション取得**：[IPinfo API](https://github.com/ipinfo)
 
 ### デスクトップアプリ
-- **フレームワーク**: [Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
-- **UI**: [Material-UI](https://mui.com/)
-- **状態管理**: React Context + useReducer
-- **ストレージ**: [electron-store](https://github.com/sindresorhus/electron-store)
-- **ビルド**: [electron-builder](https://www.electron.build/)
+- **フレームワーク**：[Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
+- **UI**：[Material-UI](https://mui.com/)
+- **状態管理**：React Context + useReducer
+- **ストレージ**：[electron-store](https://github.com/sindresorhus/electron-store)
+- **ビルド**：[electron-builder](https://www.electron.build/)
 
 ### 共通
-- **言語**: [TypeScript](https://www.typescriptlang.org/)
-- **パッケージマネージャー**: npm/yarn
+- **言語**：[TypeScript](https://www.typescriptlang.org/)
+- **パッケージマネージャ**：npm/yarn
+
+---
+
+### 環境構成
+
+このプロジェクトを正しく動作させるには、1つの環境変数が必要です。
+
+- テンプレートは [`.env.template`](https://github.com/BlackHatDevX/openspot-music-app/blob/main/openspot-mobile/.env.template) ファイル内に用意されています。
+- 必要な **値** は、**公式Telegramチャンネル**の**ピン留めメッセージ**内で共有されています：[ @openspot_music](https://t.me/openspot_music)。
+
 
 ---
 
 ## 🚀 クイックスタート
 
-### モバイル開発用
-
+### モバイル開発の場合
 ```bash
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
@@ -185,8 +211,8 @@ cd openspot-music-mobile/
 npm install
 npx expo start
 ```
-### デスクトップ開発向け
 
+### デスクトップ開発の場合
 ```bash
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
@@ -194,17 +220,18 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
+
 ---
 
 ## 🤝 貢献について
 
 両方のアプリへの貢献を歓迎します！
-## 📞 コミュニティとサポート
+## 📞 コミュニティ & サポート
 
 - **Telegram**: [Openspot Music](https://telegram.dog/Openspot_Music)
-- **Issues**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+- **課題**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
-## 👤 作者と連絡先
+## 👤 作者 & 連絡先
 
 **Jash Gro**
 
@@ -215,20 +242,19 @@ npm run electron-dev
 
 ## 📄 ライセンス
 
-このプロジェクトはオープンソースで、MITライセンスの下で提供されています。詳細は`LICENSE`ファイルをご覧ください。
+このプロジェクトはオープンソースで、MITライセンスのもとで公開されています。詳細は `LICENSE` ファイルをご覧ください。
 
 ---
 
 <p align="center">
-  <strong>⭐ このプロジェクトが気に入ったら、スターを付けてください！ ⭐</strong>
+  <strong>⭐ このプロジェクトが気に入ったら、ぜひスターをお願いします！ ⭐</strong>
   <br />
-  <em>皆さんのサポートが、素晴らしい無料音楽アプリの開発を続ける力になります。</em>
+  <em>あなたのサポートが、私たちの素晴らしい無料音楽アプリの開発継続の力となります。</em>
 </p> 
-
-
+```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
 
 ---

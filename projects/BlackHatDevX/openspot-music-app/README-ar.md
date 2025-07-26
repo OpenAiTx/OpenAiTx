@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 اللغة</summary>
@@ -28,7 +29,7 @@
   </details>
 </div>
 
-# أوبن سبوت ميوزيك 🎶
+# OpenSpot Music 🎶
 
 <p align="center">
  <img width="100" alt="شعار أوبن سبوت" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
@@ -37,7 +38,7 @@
 <h3 align="center">بوابتك إلى موسيقى بلا حدود - بث موسيقى عبر الأنظمة المختلفة</h3>
 
 <p align="center">
-  <strong>استمع وحمّل موسيقى عالية الجودة مجانًا على جميع أجهزتك، بدون إعلانات وبدون تسجيل دخول.</strong>
+  <strong>استمع وحمّل موسيقى عالية الجودة مجاناً عبر جميع أجهزتك، بدون إعلانات وبدون الحاجة لتسجيل الدخول.</strong>
 </p>
 
 <p align="center">
@@ -45,10 +46,10 @@
     <img src="https://img.shields.io/github/stars/BlackHatDevX/openspot-music-app?style=for-the-badge&color=ffd700" alt="النجوم">
   </a>
   <a href="https://github.com/BlackHatDevX/openspot-music-app/network/members">
-    <img src="https://img.shields.io/github/forks/BlackHatDevX/openspot-music-app?style=for-the-badge&color=84b4a3" alt="النسخ">
+    <img src="https://img.shields.io/github/forks/BlackHatDevX/openspot-music-app?style=for-the-badge&color=84b4a3" alt="تفرعات">
   </a>
   <a href="https://github.com/BlackHatDevX/openspot-music-app/issues">
-    <img src="https://img.shields.io/github/issues/BlackHatDevX/openspot-music-app?style=for-the-badge&color=f38ba8" alt="المشكلات">
+    <img src="https://img.shields.io/github/issues/BlackHatDevX/openspot-music-app?style=for-the-badge&color=f38ba8" alt="مشكلات">
   </a>
 </p>
 
@@ -56,46 +57,44 @@
 
 ## 📱📺 تطبيقان مذهلان في مستودع واحد
 
-يحتوي هذا المستودع على **تطبيقين متكاملين لبث الموسيقى**:
+يحتوي هذا المستودع على **تطبيقين كاملين لبث الموسيقى**:
 
-### 🎵 **أوبن سبوت موبايل** (React Native + Expo)
-- **الأنظمة**: أندرويد، iOS
+### 🎵 **OpenSpot Mobile** (React Native + Expo)
+- **الأنظمة المدعومة**: أندرويد، iOS
 - **الموقع**: `openspot-music-mobile/`
-- **الميزات**: تجربة موبايل أصلية مع تحميلات دون اتصال، تشغيل في الخلفية، وحفظ الحالة الدائم
+- **المميزات**: تجربة تطبيق جوال أصلية مع تنزيلات بدون اتصال، تشغيل في الخلفية، وحفظ الحالة بشكل دائم
 
-### 🖥️ **أوبن سبوت ديسكتوب** (Electron + React)
-- **الأنظمة**: ماك، ويندوز، لينكس
+### 🖥️ **OpenSpot Desktop** (Electron + React)
+- **الأنظمة المدعومة**: macOS، ويندوز، لينكس
 - **الموقع**: `openspot-music-electron/`
-- **الميزات**: واجهة محسنة للحاسوب مع تحكم صوتي عالمي، إدارة النوافذ، وتخزين محلي
+- **المميزات**: واجهة محسنة لسطح المكتب مع تحكم صوتي عالمي، إدارة النوافذ، وتخزين محلي
 
 ---
 
-## ✨ الميزات الرئيسية (كلا التطبيقين)
+### 📢 انضم إلى قناتنا على تيليجرام
 
-- **🎵 بث عالي الجودة**: استمع لأغانيك المفضلة بأفضل جودة ممكنة
-- **💾 التحميل بدون اتصال**: احفظ الموسيقى مباشرة على جهازك للاستماع دون إنترنت
-- **❤️ إعجاب وجمع**: كوّن مجموعتك الشخصية بإعجاب الأغاني
-- **🔄 تشغيل في الخلفية**: استمر في الاستماع أثناء استخدام تطبيقات أخرى
-- **🚫 لا حاجة لتسجيل الدخول**: ابدأ فورًا! لا حسابات أو تسجيلات مطلوبة
-- **💾 حفظ الحالة الدائم**: يتم حفظ الأغاني المعجب بها والتشغيل الأخير عند إعادة تشغيل التطبيق
-- **🎨 واجهة جميلة**: تصميم عصري ونظيف مخصص لكل نظام
-- **🆓 مجاني بالكامل وبدون إعلانات**: استمتع بالموسيقى دون انقطاع وبدون أي تكلفة أو إعلانات
+ابق على اطلاع بأحدث **إصدارات النسخ**، و **الإعلانات الهامة** عبر قناة أوبن سبوت الرسمية على تيليجرام.
+
+[![انضم إلينا على تيليجرام](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+
 
 ---
 
-## 📱 تطبيق الهاتف (React Native + Expo)
 
-### لقطات شاشة
+## 📱 تطبيق الجوال (React Native + Expo)
 
-![تطبيق أندرويد](https://github.com/user-attachments/assets/5a48d1e1-c862-4cea-9d0a-a29606ac5b74)
+### لقطات الشاشة
+
+![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
+
+
 
 ### روابط التحميل
 
-- **أندرويد APK**: [OpenSpot-2.0.2-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot-2.0.2-release.apk)
-- **iOS**: قريبًا (TestFlight)
+- **أندرويد APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
+- **iOS**: مطلوب مشرف
 
 ### إعداد بيئة التطوير
-
 
 ```bash
 cd openspot-music-app
@@ -118,6 +117,7 @@ eas build --platform android --profile preview
 # Production Build
 eas build --platform android --profile production
 ```
+
 ---
 
 ## 🖥️ تطبيق سطح المكتب (إلكترون + رياكت)
@@ -128,12 +128,14 @@ eas build --platform android --profile production
 
 ### روابط التحميل
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.dmg](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64.dmg)
-- **Windows EXE**: قريباً!
-- **Linux DEB**: قريباً!
+- **ملف macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- قم بتشغيل هذا إذا واجهت مشكلة في التطبيق التالف بعد التثبيت.
+  ```bash
+  xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
+- **ملف Windows EXE**: قريبًا!
+- **ملف Linux DEB**: قريبًا!
 
-### إعداد بيئة التطوير
-
+### إعداد التطوير
 
 ```bash
 cd openspot-music-app/
@@ -141,30 +143,42 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
-### البناء للإنتاج
 
+### البناء للإنتاج
 
 ```bash
 cd openspot-music-app/
 cd openspot-music-electron/
 npm run build
 npm run electron-pack
-```
 ---
 
+## ✨ الميزات الرئيسية (كلا التطبيقين)
 
-## 💻 التقنيات المستخدمة
+- **🎵 بث عالي الجودة**: استمع إلى مساراتك المفضلة بأفضل جودة ممكنة
+- **💾 تنزيلات بدون اتصال**: احفظ الموسيقى مباشرة على جهازك للاستماع دون اتصال
+- **❤️ الإعجاب والتجميع**: كوّن مجموعتك الشخصية من خلال الإعجاب بالأغاني
+- **🔄 التشغيل في الخلفية**: استمر في الاستماع أثناء استخدام تطبيقات أخرى
+- **🚫 لا يتطلب تسجيل دخول**: ابدأ فوراً! لا حاجة لحسابات أو تسجيل
+- **💾 حالة دائمة**: يتم حفظ الأغاني المفضلة والمسارات التي تم تشغيلها مؤخراً حتى بعد إعادة تشغيل التطبيق
+- **🎨 واجهة مستخدم جميلة**: واجهة نظيفة وعصرية مصممة لكل منصة
+- **🆓 مجاني بالكامل وبدون إعلانات**: استمتع بالموسيقى دون انقطاع وبدون أي تكلفة أو إعلانات
 
-### تطبيق الجوال
-- **الإطار البرمجي**: [React Native](https://reactnative.dev/) مع [Expo](https://expo.dev/)
+---
+
+## 💻 حزمة التقنيات
+
+### تطبيق الهاتف المحمول
+- **الإطار**: [React Native](https://reactnative.dev/) مع [Expo](https://expo.dev/)
 - **التنقل**: [Expo Router](https://expo.github.io/router/)
-- **الصوتيات**: [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
+- **الصوت**: [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
 - **البناء**: [EAS Build](https://docs.expo.dev/build/introduction/)
+- **جلب الموقع الجغرافي**: [IPinfo API](https://github.com/ipinfo)
 
 ### تطبيق سطح المكتب
-- **الإطار البرمجي**: [Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
+- **الإطار**: [Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
 - **واجهة المستخدم**: [Material-UI](https://mui.com/)
-- **إدارة الحالة**: React Context + useReducer
+- **الحالة**: React Context + useReducer
 - **التخزين**: [electron-store](https://github.com/sindresorhus/electron-store)
 - **البناء**: [electron-builder](https://www.electron.build/)
 
@@ -174,26 +188,39 @@ npm run electron-pack
 
 ---
 
-## 🚀 البدء السريع
+### إعداد البيئة
 
-### لتطوير تطبيق الجوال
+يتطلب هذا المشروع متغير بيئة واحد فقط ليعمل بشكل صحيح.
 
+- يوجد قالب في ملف [`.env.template`](https://github.com/BlackHatDevX/openspot-music-app/blob/main/openspot-mobile/.env.template).
+- **القيمة** المطلوبة لإكمال ملف `.env` الخاص بك متوفرة في **الرسالة المثبتة** بقناة **التليجرام الرسمية**: [@openspot_music](https://t.me/openspot_music).
+
+---
+
+## 🚀 بدء سريع
+
+### لتطوير تطبيق الهاتف المحمول
 ```bash
-git clone https://github.com/BlackHatDevX/openspot-music-app.git
+
+
+
+
+استنساخ git https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
 cd openspot-music-mobile/
 npm install
 npx expo start
 ```
-### لتطوير سطح المكتب
 
+### لتطوير سطح المكتب
 ```bash
-git clone https://github.com/BlackHatDevX/openspot-music-app.git
+استنساخ git https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
 cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
+
 ---
 
 ## 🤝 المساهمة
@@ -201,7 +228,7 @@ npm run electron-dev
 نرحب بالمساهمات في كلا التطبيقين!
 ## 📞 المجتمع والدعم
 
-- **تيليجرام**: [Openspot Music](https://telegram.dog/Openspot_Music)
+- **تليجرام**: [Openspot Music](https://telegram.dog/Openspot_Music)
 - **المشكلات**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
 ## 👤 المؤلف وطرق التواصل
@@ -209,8 +236,8 @@ npm run electron-dev
 **جاش جرو**
 
 - **لينكدإن**: [https://linkedin.com/in/jash-gro/](https://linkedin.com/in/jash-gro/)
-- **المعرض الشخصي**: [https://bit.ly/jashgro](https://bit.ly/jashgro)
-- **تيليجرام**: [https://telegram.dog/deveIoper_x](https://telegram.dog/deveIoper_x)
+- **ملف الأعمال**: [https://bit.ly/jashgro](https://bit.ly/jashgro)
+- **تليجرام**: [https://telegram.dog/deveIoper_x](https://telegram.dog/deveIoper_x)
 - **جيت هاب**: [https://github.com/BlackHatDevX](https://github.com/BlackHatDevX)
 
 ## 📄 الترخيص
@@ -224,11 +251,10 @@ npm run electron-dev
   <br />
   <em>دعمك يساعدنا على مواصلة تطوير تطبيقات موسيقى مجانية مذهلة للجميع.</em>
 </p> 
-
-
+```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
 
 ---

@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Sprache</summary>
@@ -34,10 +35,10 @@
  <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">Dein Tor zu grenzenloser Musik – Plattformübergreifendes Musik-Streaming</h3>
+<h3 align="center">Dein Tor zu grenzenloser Musik – Plattformübergreifendes Musikstreaming</h3>
 
 <p align="center">
-  <strong>Streame und lade hochwertige Musik kostenlos auf all deine Geräte, ohne Werbung und ohne Anmeldung.</strong>
+  <strong>Streame und lade hochwertige Musik kostenlos auf all deinen Geräten herunter, ganz ohne Werbung und ohne Anmeldung.</strong>
 </p>
 
 <p align="center">
@@ -56,46 +57,44 @@
 
 ## 📱📺 Zwei großartige Apps, ein Repository
 
-Dieses Repository enthält **zwei vollständige Musik-Streaming-Anwendungen**:
+Dieses Repository enthält **zwei vollständige Musikstreaming-Anwendungen**:
 
 ### 🎵 **OpenSpot Mobile** (React Native + Expo)
 - **Plattformen**: Android, iOS
-- **Ort**: `openspot-music-mobile/`
-- **Funktionen**: Native Mobile-Erfahrung mit Offline-Downloads, Hintergrundwiedergabe und persistentem Zustand
+- **Ablageort**: `openspot-music-mobile/`
+- **Funktionen**: Native Mobile-Erfahrung mit Offline-Downloads, Wiedergabe im Hintergrund und persistentem Zustand
 
 ### 🖥️ **OpenSpot Desktop** (Electron + React)
 - **Plattformen**: macOS, Windows, Linux
-- **Ort**: `openspot-music-electron/`
-- **Funktionen**: Desktop-optimierte Oberfläche mit globalen Audiosteuerungen, Fensterverwaltung und lokalem Speicher
+- **Ablageort**: `openspot-music-electron/`
+- **Funktionen**: Für den Desktop optimierte Oberfläche mit globalen Audiosteuerungen, Fensterverwaltung und lokaler Speicherung
 
 ---
 
-## ✨ Hauptfunktionen (Beide Apps)
+### 📢 Trete unserem Telegram-Kanal bei
 
-- **🎵 Hochwertiges Streaming**: Höre deine Lieblingstitel in bester Qualität
-- **💾 Offline-Downloads**: Speichere Musik direkt auf deinem Gerät für das Hören ohne Internet
-- **❤️ Liken & Sammeln**: Baue deine persönliche Sammlung durch das Liken von Songs auf
-- **🔄 Hintergrundwiedergabe**: Höre weiter, während du andere Apps nutzt
-- **🚫 Keine Anmeldung erforderlich**: Leg sofort los! Keine Konten oder Registrierungen nötig
-- **💾 Persistenter Zustand**: Deine Lieblingssongs und zuletzt gespielten Titel bleiben auch nach App-Neustarts gespeichert
-- **🎨 Wunderschöne UI**: Saubere, moderne Oberfläche, für jede Plattform entworfen
-- **🆓 Komplett kostenlos & werbefrei**: Genieße ununterbrochene Musik ganz ohne Kosten oder Werbung
+Bleibe auf dem Laufenden über **Version-Releases** und **wichtige Ankündigungen** auf dem offiziellen Openspot-Telegram-Kanal.
+
+[![Tritt uns auf Telegram bei](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+
 
 ---
+
 
 ## 📱 Mobile App (React Native + Expo)
 
 ### Screenshots
 
-![Android App](https://github.com/user-attachments/assets/5a48d1e1-c862-4cea-9d0a-a29606ac5b74)
+![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
+
+
 
 ### Download-Links
 
-- **Android APK**: [OpenSpot-2.0.2-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot-2.0.2-release.apk)
-- **iOS**: Demnächst verfügbar (TestFlight)
+- **Android APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
+- **iOS**: Betreuer gesucht
 
-### Entwicklungs-Setup
-
+### Entwicklungseinrichtung
 
 ```bash
 cd openspot-music-app
@@ -118,6 +117,7 @@ eas build --platform android --profile preview
 # Production Build
 eas build --platform android --profile production
 ```
+
 ---
 
 ## 🖥️ Desktop-App (Electron + React)
@@ -128,21 +128,23 @@ eas build --platform android --profile production
 
 ### Download-Links
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.dmg](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64.dmg)
-- **Windows EXE**: Kommt bald!
-- **Linux DEB**: Kommt bald!
+- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- Führen Sie dies aus, wenn nach der Installation ein Fehler mit beschädigter App auftritt.
+  ```bash
+  xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
+- **Windows EXE**: Demnächst verfügbar!
+- **Linux DEB**: Demnächst verfügbar!
 
 ### Entwicklungsumgebung
-
 
 ```bash
 cd openspot-music-app/
 cd openspot-music-electron/
-npm install
+npm installiere
 npm run electron-dev
 ```
-### Für die Produktion bauen
 
+### Für die Produktion bauen
 
 ```bash
 cd openspot-music-app/
@@ -150,22 +152,37 @@ cd openspot-music-electron/
 npm run build
 npm run electron-pack
 ```
+
+---
+
+## ✨ Hauptfunktionen (Beide Apps)
+
+- **🎵 Hochwertiges Streaming**: Höre deine Lieblingstracks in bester Qualität
+- **💾 Offline-Downloads**: Speichere Musik direkt auf deinem Gerät für das Offline-Hören
+- **❤️ Liken & Sammeln**: Baue deine persönliche Sammlung durch das Liken von Songs auf
+- **🔄 Wiedergabe im Hintergrund**: Höre weiter Musik, während du andere Apps nutzt
+- **🚫 Kein Login erforderlich**: Steige direkt ein! Keine Konten oder Anmeldungen notwendig
+- **💾 Persistenter Zustand**: Deine gelikten Songs und zuletzt gespielten Titel werden appübergreifend gespeichert
+- **🎨 Wunderschöne UI**: Sauberes, modernes Interface, speziell für jede Plattform gestaltet
+- **🆓 Komplett kostenlos & werbefrei**: Genieße ununterbrochene Musik ohne Kosten oder Werbung
+
 ---
 
 
-## 💻 Technologiestack
+## 💻 Tech-Stack
 
 ### Mobile App
 - **Framework**: [React Native](https://reactnative.dev/) mit [Expo](https://expo.dev/)
 - **Navigation**: [Expo Router](https://expo.github.io/router/)
 - **Audio**: [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/)
 - **Build**: [EAS Build](https://docs.expo.dev/build/introduction/)
+- **Standortabfrage**: [IPinfo API](https://github.com/ipinfo)
 
 ### Desktop App
 - **Framework**: [Electron](https://www.electronjs.org/) + [React](https://reactjs.org/)
 - **UI**: [Material-UI](https://mui.com/)
 - **State**: React Context + useReducer
-- **Speicher**: [electron-store](https://github.com/sindresorhus/electron-store)
+- **Speicherung**: [electron-store](https://github.com/sindresorhus/electron-store)
 - **Build**: [electron-builder](https://www.electron.build/)
 
 ### Gemeinsam
@@ -174,10 +191,19 @@ npm run electron-pack
 
 ---
 
+### Umgebungs-Konfiguration
+
+Für dieses Projekt wird eine einzige Umgebungsvariable benötigt, um korrekt zu funktionieren.
+
+- Eine Vorlage ist in der Datei [`.env.template`](https://github.com/BlackHatDevX/openspot-music-app/blob/main/openspot-mobile/.env.template) enthalten.
+- Der benötigte **Wert** zur Vervollständigung deiner `.env`-Datei ist in der **angehefteten Nachricht** unseres **offiziellen Telegram-Kanals** zu finden: [@openspot_music](https://t.me/openspot_music).
+
+
+---
+
 ## 🚀 Schnellstart
 
-### Für die Mobile-Entwicklung
-
+### Für die mobile Entwicklung
 ```bash
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
@@ -185,8 +211,8 @@ cd openspot-music-mobile/
 npm install
 npx expo start
 ```
-### Für die Desktop-Entwicklung
 
+### Für die Desktop-Entwicklung
 ```bash
 git clone https://github.com/BlackHatDevX/openspot-music-app.git
 cd openspot-music-app/
@@ -194,15 +220,16 @@ cd openspot-music-electron/
 npm install
 npm run electron-dev
 ```
+
 ---
 
 ## 🤝 Beitrag leisten
 
-Wir begrüßen Beiträge zu beiden Apps!
+Beiträge zu beiden Apps sind willkommen!
 ## 📞 Community & Support
 
 - **Telegram**: [Openspot Music](https://telegram.dog/Openspot_Music)
-- **Issues**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+- **Probleme**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
 ## 👤 Autor & Kontakt
 
@@ -215,7 +242,7 @@ Wir begrüßen Beiträge zu beiden Apps!
 
 ## 📄 Lizenz
 
-Dieses Projekt ist Open-Source und unter der MIT-Lizenz lizenziert. Siehe die Datei `LICENSE` für weitere Informationen.
+Dieses Projekt ist Open-Source und steht unter der MIT-Lizenz. Siehe die Datei `LICENSE` für weitere Informationen.
 
 ---
 
@@ -226,9 +253,8 @@ Dieses Projekt ist Open-Source und unter der MIT-Lizenz lizenziert. Siehe die Da
 </p> 
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
 
 ---
