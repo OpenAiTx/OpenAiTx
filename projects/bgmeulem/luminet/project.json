@@ -5,31 +5,133 @@
   "sha": "9062ebdd7fc4a69d5d0f756198e926d624bb8264",
   "siz": 5892,
   "stargazers_count": 109,
-  "indexTime": "2025-07-25T04:05:14.0851533Z",
+  "indexTime": "2025-07-26T09:25:50.6332866Z",
   "TokenUsage": [
     {
-      "Language": "zh-CN",
-      "PromptTokens": 2458,
-      "CompletionTokens": 1514,
-      "TotalTokens": 3972
+      "Language": "en",
+      "PromptTokens": 2438,
+      "CompletionTokens": 1483,
+      "TotalTokens": 3921
+    },
+    {
+      "Language": "de",
+      "PromptTokens": 2438,
+      "CompletionTokens": 1671,
+      "TotalTokens": 4109
+    },
+    {
+      "Language": "fr",
+      "PromptTokens": 2443,
+      "CompletionTokens": 1678,
+      "TotalTokens": 4121
     },
     {
       "Language": "ko",
       "PromptTokens": 2443,
-      "CompletionTokens": 1690,
-      "TotalTokens": 4133
+      "CompletionTokens": 1717,
+      "TotalTokens": 4160
     },
     {
-      "Language": "en",
-      "PromptTokens": 2438,
-      "CompletionTokens": 1496,
-      "TotalTokens": 3934
+      "Language": "zh-CN",
+      "PromptTokens": 2458,
+      "CompletionTokens": 1539,
+      "TotalTokens": 3997
+    },
+    {
+      "Language": "as",
+      "PromptTokens": 2443,
+      "CompletionTokens": 2041,
+      "TotalTokens": 4484
     },
     {
       "Language": "ja",
       "PromptTokens": 2443,
-      "CompletionTokens": 1819,
-      "TotalTokens": 4262
+      "CompletionTokens": 1822,
+      "TotalTokens": 4265
+    },
+    {
+      "Language": "zh-TW",
+      "PromptTokens": 2453,
+      "CompletionTokens": 1675,
+      "TotalTokens": 4128
+    },
+    {
+      "Language": "th",
+      "PromptTokens": 2438,
+      "CompletionTokens": 1913,
+      "TotalTokens": 4351
+    },
+    {
+      "Language": "es",
+      "PromptTokens": 2448,
+      "CompletionTokens": 1630,
+      "TotalTokens": 4078
+    },
+    {
+      "Language": "hi",
+      "PromptTokens": 2448,
+      "CompletionTokens": 1853,
+      "TotalTokens": 4301
+    },
+    {
+      "Language": "id",
+      "PromptTokens": 2448,
+      "CompletionTokens": 1594,
+      "TotalTokens": 4042
+    },
+    {
+      "Language": "vi",
+      "PromptTokens": 2448,
+      "CompletionTokens": 1720,
+      "TotalTokens": 4168
+    },
+    {
+      "Language": "tr",
+      "PromptTokens": 2448,
+      "CompletionTokens": 1778,
+      "TotalTokens": 4226
+    },
+    {
+      "Language": "fa",
+      "PromptTokens": 2443,
+      "CompletionTokens": 1812,
+      "TotalTokens": 4255
+    },
+    {
+      "Language": "ar",
+      "PromptTokens": 2443,
+      "CompletionTokens": 1685,
+      "TotalTokens": 4128
+    },
+    {
+      "Language": "nl",
+      "PromptTokens": 2448,
+      "CompletionTokens": 1645,
+      "TotalTokens": 4093
+    },
+    {
+      "Language": "pt",
+      "PromptTokens": 2443,
+      "CompletionTokens": 1627,
+      "TotalTokens": 4070
+    },
+    {
+      "Language": "ru",
+      "PromptTokens": 2443,
+      "CompletionTokens": 1705,
+      "TotalTokens": 4148
+    },
+    {
+      "Language": "it",
+      "PromptTokens": 2443,
+      "CompletionTokens": 1723,
+      "TotalTokens": 4166
+    },
+    {
+      "Language": "pl",
+      "PromptTokens": 2443,
+      "CompletionTokens": 1854,
+      "TotalTokens": 4297
     }
   ],
   "status": 0,
@@ -48,14 +150,31 @@
     "language": "Python",
     "stargazers_count": 109,
     "watchers_count": 109,
-    "forks_count": 7,
+    "forks_count": 8,
     "size": 84002,
     "default_branch": "master"
   },
   "TranslatedDescriptions": {
-    "zh-CN": "基于Luminet（1979）提出的方法模拟施瓦茨希尔德黑洞。",
-    "ja": "Luminet (1979)で示された手法に基づくシュヴァルツシルトブラックホールのシミュレーション",
-    "ko": "Luminet (1979)에서 제시된 방법을 기반으로 슈바르츠실트 블랙홀 시뮬레이션하기",
-    "en": "Simulate Schwarzschild black holes based on the methods presented in Luminet (1979)"
+    "zh-CN": "基于 Luminet (1979) 提出的方法模拟施瓦西黑洞",
+    "zh-TW": "根據 Luminet (1979) 提出的方法，模擬史瓦西黑洞",
+    "ja": "Luminet (1979) で提案された手法に基づき、シュワルツシルトブラックホールをシミュレーションします。",
+    "ko": "Luminet(1979)에 제시된 방법을 기반으로 슈바르츠실트 블랙홀을 시뮬레이션합니다.",
+    "th": "จำลองหลุมดำชวาร์เซิลด์โดยอิงตามวิธีที่นำเสนอใน Luminet (1979)",
+    "hi": "Luminet (1979) में प्रस्तुत विधियों के आधार पर श्वार्ज़स्चिल्ड ब्लैक होल का सिमुलेशन करें।",
+    "en": "Simulate Schwarzschild black holes based on the methods presented in Luminet (1979)",
+    "fr": "Simulez des trous noirs de Schwarzschild selon les méthodes présentées dans Luminet (1979)",
+    "de": "Simulation von Schwarzschild-Schwarzen Löchern basierend auf den Methoden aus Luminet (1979)",
+    "es": "Simula agujeros negros de Schwarzschild basados en los métodos presentados en Luminet (1979)",
+    "it": "Simula buchi neri di Schwarzschild basandosi sui metodi presentati in Luminet (1979)",
+    "pt": "Simule buracos negros de Schwarzschild com base nos métodos apresentados em Luminet (1979)",
+    "ru": "Симуляция чёрных дыр Шварцшильда на основе методов, представленных в работе Luminet (1979)",
+    "nl": "Simuleer Schwarzschild-zwarte gaten op basis van de methoden gepresenteerd in Luminet (1979)",
+    "pl": "Symuluj czarne dziury Schwarzschilda na podstawie metod przedstawionych w Luminet (1979)",
+    "ar": "محاكاة الثقوب السوداء شوارزشيلد بناءً على الأساليب المقدمة في Luminet (1979)",
+    "fa": "شبیه‌سازی سیاه‌چاله‌های شوارتزشیلد بر اساس روش‌های ارائه‌شده در Luminet (1979)",
+    "tr": "Luminet (1979)'da sunulan yöntemlere dayalı olarak Schwarzschild kara deliklerini simüle edin.",
+    "vi": "Mô phỏng các lỗ đen Schwarzschild dựa trên các phương pháp được trình bày trong Luminet (1979)",
+    "id": "Simulasikan lubang hitam Schwarzschild berdasarkan metode yang dipresentasikan dalam Luminet (1979)",
+    "as": "Luminet (1979) ত দিয়া পদ্ধতি অনুসৰি Schwarzschild ব্লেক হ'লসমূহৰ সিমুলেচন কৰক"
   }
 }
