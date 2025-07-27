@@ -1,3 +1,33 @@
+<div align="right">
+  <details>
+    <summary>🌐</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=RyanYuuki&project=AnymeX&lang=as">অসমীয়া</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=en">English</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=zh-CN">简体中文</a>
+      </div>
+    </div>
+  </details>
+</div>
 <div align="center">
 <img src="https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/assets/images/logo.png" alt='AnymeX Icon' style="border-radius: 50px; height: 150px; width: 150px;">
   
@@ -18,14 +48,14 @@
 
 # AnymeX
 
-**AnymeX** is a multiservice tracking client, with [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), and [**Simkl**](https://simkl.com/) support!
+**AnymeX** is a multiservice tracking client designed exclusively for managing and tracking anime and manga progress across [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), and [**Simkl**](https://simkl.com/).
 
-> [!NOTE]
-> AnymeX is intended for tracking purposes only.
->
-> It does **not** host, provide, or maintain any streaming content or extensions.
->
-> Users are fully responsible for how they use this app. The developer disclaims all liability for misuse or legal issues. Legal concerns should be addressed to third-party sources, not AnymeX.
+> [!IMPORTANT]  
+> **AnymeX is a tracking tool only.** It does **not** host, provide, distribute, or endorse any streaming content, media, or third-party extensions.  
+> The app integrates solely with official APIs of supported services (AniList, MyAnimeList, Simkl) for tracking purposes.  
+> Users are solely responsible for their usage of the app and any third-party services or extensions they choose to interact with. The developer of AnymeX explicitly disclaims all liability for any misuse, legal issues, or violations arising from user actions. Any legal concerns should be directed to the respective third-party services, not AnymeX.  
+>  
+> **By using this app, you agree to comply with our [Terms of Service](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md).**
 
 ## Downloads
 
@@ -36,8 +66,8 @@
   
 ### Windows
   <p>
-    <a href="/INSTALLATION.md">
-  <img src="https://img.shields.io/badge/Scoop-AnymeX-white?style=for-the-badge&labelColor=black" alt="Scoop"/></a>
+    <a href="/INSTALLATION.md"><img src="https://img.shields.io/badge/Scoop-AnymeX-white?style=for-the-badge&labelColor=black" alt="Scoop"/></a>
+    <a href="/INSTALLATION.md"><img src="https://img.shields.io/badge/Chocolatey-com.ryan.anymex-white?style=for-the-badge&labelColor=black" alt="Chocolatey"/></a>
   </p>
 </div>
 
@@ -52,7 +82,7 @@
   </p>
 </div>
 
-## Screenshots
+<!--## Screenshots
 
 | Home                                                                                                                                           | Search                                                                                                                                          | Details                                                                                                                      | Library                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -63,8 +93,7 @@
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <img src="https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_1.png" width="100%" style="margin: 0;" />
     <img src="https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_2.png" width="100%" style="margin: 0;" />
-</div>
--->
+</div>-->
 
 ## Support Us
 
