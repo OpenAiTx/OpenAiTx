@@ -1,719 +1,761 @@
 [
   {
     "Id": 1,
-    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<p align=\"center\">\n   <img src=\"https://files.catbox.moe/mdn05t.png\" alt=\"Dartotsu Banner\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n   <img src=\"https://img.shields.io/badge/platforms-android_ios_windows_linux_macos-06599d?style=for-the-badge&labelColor=00ffff&color=0d1117\"/>\n   <a href=\"https://github.com/aayush2622/Dartotsu/releases\"><img src=\"https://img.shields.io/github/downloads/aayush2622/Dartotsu/total?label=Downloads&logo=android&logoColor=1a8fa6&style=for-the-badge&labelColor=00ffff&color=0d1117\"></a>\n</p>\n\n<p align=\"center\">\n   <a href=\"https://www.codefactor.io/repository/github/aayush2622/Dartotsu\"><img src=\"https://img.shields.io/codefactor/grade/github/aayush2622/Dartotsu?style=for-the-badge&label=Codefactor&labelColor=00ffff&color=0d1117\" alt=\"CodeFactor\"/></a>\n   <a href=\"https://hosted.weblate.org/engage/dartotsu/\"><img alt=\"Weblate project translated\" src=\"https://img.shields.io/weblate/progress/dartotsu?label=Translated&labelColor=00ffff&color=0d1117&style=for-the-badge\"></a>\n   <a href=\"https://github.com/aayush2622/Dartotsu/stargazers\"><img src=\"https://img.shields.io/github/stars/aayush2622/Dartotsu?style=for-the-badge&label=Stars&labelColor=00ffff&color=0d1117\" alt=\"Stars\" /></a>\n</p>\n\n# Dartotsu\n\n**Dartotsu** is a complete rewrite of [Dantotsu](https://github.com/rebelonion/Dantotsu/) in Flutter. It's a hybrid [**AniList**](https://anilist.co/) and [**MyAnimeList**](https://myanimelist.net/) tracking client, along with [**Simkl**](https://simkl.com/) support!  \n> [!WARNING]\n> Dartotsu is for tracking and management only.\n>\n> It does **not** host, provide, or maintain streaming content or extensions.\n>\n> Users are fully responsible for their actions. The developer disclaims all liability for misuse or legal issues. Legal concerns should be addressed to third-party sources, not Dartotsu.\n\n## Downloads\n<p align=\"center\">\n\n   <a href=\"https://github.com/aayush2622/Dartotsu/releases/latest\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&logoColor=168b94&label=Stable&labelColor=06599d&color=043b69\" alt=\"Latest Stable Release\"/></a>\n   <a href=\"https://github.com/aayush2622/Dartotsu/releases/\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&include_prereleases&logoColor=087a87&label=Beta&color=818cf8\" alt=\"Latest Pre-release\"/></a>\n   <!--<a  href=\"https://github.com/aayush2622/Dartotsu/releases/latest\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&display_name=tag&label=Alpha&labelColor=087a87&color=168b94\" alt=\"Latest Alpha Release\"/></a>-->\n   \n> [!NOTE]\n> Download, test, and share feedback or issues on <a href=\"https://t.me/Dartotsu\" target=\"_blank\">Telegram</a> or <a href=\"https://discord.gg/eyQdCpdubF\" target=\"_blank\">Discord</a>.\n</p>\n\n## Support Us\n<a href='https://buymeacoffee.com/aayush262' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>\n> [!TIP]\n> ⭐ **Star This Repository To Support The Developer And Encourage The Development Of The Application!**\n<details>\n  <summary>Star History</summary>\n  <a href=\"https://github.com/aayush2622/Dartotsu/stargazers\">\n      <img alt=\"Star History Chart\" src=\"https://starchart.cc/aayush2622/Dartotsu.svg?variant=adaptive\" width=\"370\" height=\"235\" />\n  </a>\n</details>\n\n## Official Communities\nJoin our communities to stay updated and contribute to the discussion \n\n<a href=\"https://discord.gg/eyQdCpdubF\" style=\"margin-right: 10px; display: inline-block;\"><img src=\"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-color-icon.png\" alt=\"Discord\" height=\"40\" style=\"vertical-align: middle;\"></a>\n<a href=\"https://t.me/Dartotsu\" style=\"display: inline-block;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg\" alt=\"Telegram\" height=\"40\" style=\"vertical-align: middle;\"></a>\n<a href=\"https://www.reddit.com/r/dartotsu\" style=\"display: inline-block;\"><img src=\"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/reddit-icon.png\" alt=\"Reddit\" height=\"40\" style=\"vertical-align: middle;\"></a>\n\n## Contribute\nWe welcome contributions, from translations to new features. For inquiries, join our [Discord server](https://discord.gg/eyQdCpdubF) or [Telegram group](https://t.me/Dartotsu). Pull requests are welcome; check the [open issues](https://github.com/aayush2622/Dartotsu/issues) for guidance on major changes.\n\n### Translation\nYou can help us by translating the app into your language here\n\n<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://img.shields.io/badge/Weblate-90EE90?label=Translate%20On&style=for-the-badge\" alt=\"Web\"/></a>\n<details>\n<summary>Weblate Translation Graph</summary>\n<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://hosted.weblate.org/widget/dartotsu/dartotsu/multi-auto.svg\" alt=\"Translation status\" /></a>\n</details>\n\n## Visitors\n\n<img src=\"https://count.getloli.com/@aayush2622?name=dartotsu&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto\" />",
-    "ContentSha": "5JDLNbn95NRVrLDh9q7P5aqtfMD9c2DshoABOAlt6UI=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<p align=\"center\">\n   <img src=\"https://files.catbox.moe/mdn05t.png\" alt=\"Dartotsu Banner\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n   <img src=\"https://img.shields.io/badge/platforms-android_ios_windows_linux_macos-06599d?style=for-the-badge&labelColor=00ffff&color=0d1117\"/>\n   <a href=\"https://github.com/aayush2622/Dartotsu/releases\"><img src=\"https://img.shields.io/github/downloads/aayush2622/Dartotsu/total?label=Downloads&logo=android&logoColor=1a8fa6&style=for-the-badge&labelColor=00ffff&color=0d1117\"></a>\n</p>\n\n<p align=\"center\">\n   <a href=\"https://www.codefactor.io/repository/github/aayush2622/Dartotsu\"><img src=\"https://img.shields.io/codefactor/grade/github/aayush2622/Dartotsu?style=for-the-badge&label=Codefactor&labelColor=00ffff&color=0d1117\" alt=\"CodeFactor\"/></a>\n   <a href=\"https://hosted.weblate.org/engage/dartotsu/\"><img alt=\"Weblate project translated\" src=\"https://img.shields.io/weblate/progress/dartotsu?label=Translated&labelColor=00ffff&color=0d1117&style=for-the-badge\"></a>\n   <a href=\"https://github.com/aayush2622/Dartotsu/stargazers\"><img src=\"https://img.shields.io/github/stars/aayush2622/Dartotsu?style=for-the-badge&label=Stars&labelColor=00ffff&color=0d1117\" alt=\"Stars\" /></a>\n</p>\n\n# Dartotsu\n\n**Dartotsu** is a complete rewrite of [Dantotsu](https://github.com/rebelonion/Dantotsu/) in Flutter. It's a hybrid [**AniList**](https://anilist.co/) and [**MyAnimeList**](https://myanimelist.net/) tracking client, along with [**Simkl**](https://simkl.com/) support!  \n> [!WARNING]\n> Dartotsu is for tracking and management only.\n>\n> It does **not** host, provide, or maintain streaming content or extensions.\n>\n> Users are fully responsible for their actions. The developer disclaims all liability for misuse or legal issues. Legal concerns should be addressed to third-party sources, not Dartotsu.\n\n## Downloads\n<p align=\"center\">\n\n   <a href=\"https://github.com/aayush2622/Dartotsu/releases/latest\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&logoColor=168b94&label=Stable&labelColor=06599d&color=043b69\" alt=\"Latest Stable Release\"/></a>\n   <a href=\"https://github.com/aayush2622/Dartotsu/releases/\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&include_prereleases&logoColor=087a87&label=Beta&color=818cf8\" alt=\"Latest Pre-release\"/></a>\n   <!--<a  href=\"https://github.com/aayush2622/Dartotsu/releases/latest\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&display_name=tag&label=Alpha&labelColor=087a87&color=168b94\" alt=\"Latest Alpha Release\"/></a>-->\n   \n> [!NOTE]\n> Download, test, and share feedback or issues on <a href=\"https://t.me/Dartotsu\" target=\"_blank\">Telegram</a> or <a href=\"https://discord.gg/eyQdCpdubF\" target=\"_blank\">Discord</a>.\n</p>\n\n## Support Us\n<a href='https://buymeacoffee.com/aayush262' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>\n> [!TIP]\n> ⭐ **Star This Repository To Support The Developer And Encourage The Development Of The Application!**\n<details>\n  <summary>Star History</summary>\n  <a href=\"https://github.com/aayush2622/Dartotsu/stargazers\">\n      <img alt=\"Star History Chart\" src=\"https://starchart.cc/aayush2622/Dartotsu.svg?variant=adaptive\" width=\"370\" height=\"235\" />\n  </a>\n</details>\n\n## Official Communities\nJoin our communities to stay updated and contribute to the discussion \n\n<a href=\"https://discord.gg/eyQdCpdubF\" style=\"margin-right: 10px; display: inline-block;\"><img src=\"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-color-icon.png\" alt=\"Discord\" height=\"40\" style=\"vertical-align: middle;\"></a>\n<a href=\"https://t.me/Dartotsu\" style=\"display: inline-block;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg\" alt=\"Telegram\" height=\"40\" style=\"vertical-align: middle;\"></a>\n<a href=\"https://www.reddit.com/r/dartotsu\" style=\"display: inline-block;\"><img src=\"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/reddit-icon.png\" alt=\"Reddit\" height=\"40\" style=\"vertical-align: middle;\"></a>\n\n## Contribute\nWe welcome contributions, from translations to new features. For inquiries, join our [Discord server](https://discord.gg/eyQdCpdubF) or [Telegram group](https://t.me/Dartotsu). Pull requests are welcome; check the [open issues](https://github.com/aayush2622/Dartotsu/issues) for guidance on major changes.\n\n**Want to understand the structure or contribute more efficiently?**  \nCheck the full project documentation on **DeepWiki** for helpful guides and technical insights.\n\n<a href=\"https://deepwiki.com/aayush2622/Dartotsu\" target=\"_blank\" rel=\"noopener noreferrer\">\n  <img src=\"https://img.shields.io/badge/DeepWiki-blueviolet?label=View%20on&style=for-the-badge&logo=read-the-docs&logoColor=white\" alt=\"DeepWiki\" />\n</a>\n\n### Translation\nYou can help us by translating the app into your language here\n\n<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://img.shields.io/badge/Weblate-90EE90?label=Translate%20On&style=for-the-badge\" alt=\"Web\"/></a>\n<details>",
+    "ContentSha": "+L9nabepMAmgH0+C6xlzpU03LeyDqKcAFhmEaKEuTS4=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 言語</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<p align=\"center\">\n   <img src=\"https://files.catbox.moe/mdn05t.png\" alt=\"Dartotsu バナー\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n   <img src=\"https://img.shields.io/badge/platforms-android_ios_windows_linux_macos-06599d?style=for-the-badge&labelColor=00ffff&color=0d1117\"/>\n   <a href=\"https://github.com/aayush2622/Dartotsu/releases\"><img src=\"https://img.shields.io/github/downloads/aayush2622/Dartotsu/total?label=Downloads&logo=android&logoColor=1a8fa6&style=for-the-badge&labelColor=00ffff&color=0d1117\"></a>\n</p>\n\n<p align=\"center\">\n   <a href=\"https://www.codefactor.io/repository/github/aayush2622/Dartotsu\"><img src=\"https://img.shields.io/codefactor/grade/github/aayush2622/Dartotsu?style=for-the-badge&label=Codefactor&labelColor=00ffff&color=0d1117\" alt=\"CodeFactor\"/></a>\n   <a href=\"https://hosted.weblate.org/engage/dartotsu/\"><img alt=\"Weblate project translated\" src=\"https://img.shields.io/weblate/progress/dartotsu?label=Translated&labelColor=00ffff&color=0d1117&style=for-the-badge\"></a>\n   <a href=\"https://github.com/aayush2622/Dartotsu/stargazers\"><img src=\"https://img.shields.io/github/stars/aayush2622/Dartotsu?style=for-the-badge&label=Stars&labelColor=00ffff&color=0d1117\" alt=\"Stars\" /></a>\n</p>\n\n# Dartotsu\n\n**Dartotsu** は [Dantotsu](https://github.com/rebelonion/Dantotsu/) をFlutterで完全に書き直したものです。これは [**AniList**](https://anilist.co/) および [**MyAnimeList**](https://myanimelist.net/) のハイブリッド型追跡クライアントであり、[**Simkl**](https://simkl.com/) にも対応しています！  \n> [!WARNING]\n> Dartotsuは追跡と管理専用です。\n>\n> ストリーミングコンテンツや拡張機能のホスティング、提供、管理は**行っていません**。\n>\n> 利用者は自身の行動に全責任を負います。開発者は不正利用や法的問題について一切の責任を負いません。法的懸念はDartotsuではなく第三者にお問い合わせください。\n\n## ダウンロード\n<p align=\"center\">\n\n   <a href=\"https://github.com/aayush2622/Dartotsu/releases/latest\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&logoColor=168b94&label=Stable&labelColor=06599d&color=043b69\" alt=\"Latest Stable Release\"/></a>\n   <a href=\"https://github.com/aayush2622/Dartotsu/releases/\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&include_prereleases&logoColor=087a87&label=Beta&color=818cf8\" alt=\"Latest Pre-release\"/></a>\n   <!--<a  href=\"https://github.com/aayush2622/Dartotsu/releases/latest\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&display_name=tag&label=Alpha&labelColor=087a87&color=168b94\" alt=\"Latest Alpha Release\"/></a>-->\n   \n> [!NOTE]\n> ダウンロードしてテストし、ご意見や問題は <a href=\"https://t.me/Dartotsu\" target=\"_blank\">Telegram</a> または <a href=\"https://discord.gg/eyQdCpdubF\" target=\"_blank\">Discord</a> で共有してください。\n</p>\n\n## 支援について\n<a href='https://buymeacoffee.com/aayush262' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>\n> [!TIP]\n> ⭐ **リポジトリにスターを付けて、開発者を支援しアプリの開発を応援してください！**\n<details>\n  <summary>スター履歴</summary>\n  <a href=\"https://github.com/aayush2622/Dartotsu/stargazers\">\n      <img alt=\"Star History Chart\" src=\"https://starchart.cc/aayush2622/Dartotsu.svg?variant=adaptive\" width=\"370\" height=\"235\" />\n  </a>\n</details>\n\n## 公式コミュニティ\n最新情報を得たり、議論に参加したりするためにコミュニティに参加しましょう \n\n<a href=\"https://discord.gg/eyQdCpdubF\" style=\"margin-right: 10px; display: inline-block;\"><img src=\"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-color-icon.png\" alt=\"Discord\" height=\"40\" style=\"vertical-align: middle;\"></a>\n<a href=\"https://t.me/Dartotsu\" style=\"display: inline-block;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg\" alt=\"Telegram\" height=\"40\" style=\"vertical-align: middle;\"></a>\n<a href=\"https://www.reddit.com/r/dartotsu\" style=\"display: inline-block;\"><img src=\"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/reddit-icon.png\" alt=\"Reddit\" height=\"40\" style=\"vertical-align: middle;\"></a>\n\n## コントリビュート\n翻訳から新機能の追加まで、あらゆる貢献を歓迎しています。問い合わせは [Discord サーバー](https://discord.gg/eyQdCpdubF) や [Telegram グループ](https://t.me/Dartotsu) へ。プルリクエストも歓迎します。主要な変更点については [open issues](https://github.com/aayush2622/Dartotsu/issues) をご確認ください。\n\n### 翻訳\nアプリをあなたの言語に翻訳して支援いただけます\n\n<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://img.shields.io/badge/Weblate-90EE90?label=Translate%20On&style=for-the-badge\" alt=\"Web\"/></a>\n<details>\n<summary>Weblate 翻訳グラフ</summary>\n<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://hosted.weblate.org/widget/dartotsu/dartotsu/multi-auto.svg\" alt=\"Translation status\" /></a>\n</details>\n\n## ビジター\n\n<img src=\"https://count.getloli.com/@aayush2622?name=dartotsu&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto\" />\n",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 言語</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<p align=\"center\">\n   <img src=\"https://files.catbox.moe/mdn05t.png\" alt=\"Dartotsu バナー\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n   <img src=\"https://img.shields.io/badge/platforms-android_ios_windows_linux_macos-06599d?style=for-the-badge&labelColor=00ffff&color=0d1117\"/>\n   <a href=\"https://github.com/aayush2622/Dartotsu/releases\"><img src=\"https://img.shields.io/github/downloads/aayush2622/Dartotsu/total?label=Downloads&logo=android&logoColor=1a8fa6&style=for-the-badge&labelColor=00ffff&color=0d1117\"></a>\n</p>\n\n<p align=\"center\">\n   <a href=\"https://www.codefactor.io/repository/github/aayush2622/Dartotsu\"><img src=\"https://img.shields.io/codefactor/grade/github/aayush2622/Dartotsu?style=for-the-badge&label=Codefactor&labelColor=00ffff&color=0d1117\" alt=\"CodeFactor\"/></a>\n   <a href=\"https://hosted.weblate.org/engage/dartotsu/\"><img alt=\"Weblate project translated\" src=\"https://img.shields.io/weblate/progress/dartotsu?label=Translated&labelColor=00ffff&color=0d1117&style=for-the-badge\"></a>\n   <a href=\"https://github.com/aayush2622/Dartotsu/stargazers\"><img src=\"https://img.shields.io/github/stars/aayush2622/Dartotsu?style=for-the-badge&label=Stars&labelColor=00ffff&color=0d1117\" alt=\"Stars\" /></a>\n</p>\n\n# Dartotsu\n\n**Dartotsu** は [Dantotsu](https://github.com/rebelonion/Dantotsu/) を Flutter で完全に書き直したものです。これは [**AniList**](https://anilist.co/) と [**MyAnimeList**](https://myanimelist.net/) のハイブリッド追跡クライアントであり、[**Simkl**](https://simkl.com/) のサポートも備えています！  \n> [!WARNING]\n> Dartotsu は追跡および管理のみを目的としています。\n>\n> ストリーミングコンテンツや拡張機能のホスティング、提供、管理は**一切行いません**。\n>\n> 利用者の行動はすべて自己責任です。開発者は誤用または法的問題に対して一切の責任を負いません。法的な懸念がある場合は第三者へお問い合わせください。Dartotsu では対応いたしません。\n\n## ダウンロード\n<p align=\"center\">\n\n   <a href=\"https://github.com/aayush2622/Dartotsu/releases/latest\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&logoColor=168b94&label=Stable&labelColor=06599d&color=043b69\" alt=\"最新安定版リリース\"/></a>\n   <a href=\"https://github.com/aayush2622/Dartotsu/releases/\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&include_prereleases&logoColor=087a87&label=Beta&color=818cf8\" alt=\"最新プレリリース\"/></a>\n   <!--<a  href=\"https://github.com/aayush2622/Dartotsu/releases/latest\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&display_name=tag&label=Alpha&labelColor=087a87&color=168b94\" alt=\"最新アルファリリース\"/></a>-->\n   \n> [!NOTE]\n> ダウンロード・テスト・フィードバックや不具合報告は <a href=\"https://t.me/Dartotsu\" target=\"_blank\">Telegram</a> または <a href=\"https://discord.gg/eyQdCpdubF\" target=\"_blank\">Discord</a> でどうぞ。\n</p>\n\n## サポート\n<a href='https://buymeacoffee.com/aayush262' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='ko-fi.comでコーヒーをおごる' /></a>\n> [!TIP]\n> ⭐ **このリポジトリにスターを付けて、開発者を応援し、アプリの開発を後押ししましょう！**\n<details>\n  <summary>スター履歴</summary>\n  <a href=\"https://github.com/aayush2622/Dartotsu/stargazers\">\n      <img alt=\"スター履歴チャート\" src=\"https://starchart.cc/aayush2622/Dartotsu.svg?variant=adaptive\" width=\"370\" height=\"235\" />\n  </a>\n</details>\n\n## 公式コミュニティ\n最新情報を受け取り、議論に参加するにはコミュニティに参加してください\n\n<a href=\"https://discord.gg/eyQdCpdubF\" style=\"margin-right: 10px; display: inline-block;\"><img src=\"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-color-icon.png\" alt=\"Discord\" height=\"40\" style=\"vertical-align: middle;\"></a>\n<a href=\"https://t.me/Dartotsu\" style=\"display: inline-block;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg\" alt=\"Telegram\" height=\"40\" style=\"vertical-align: middle;\"></a>\n<a href=\"https://www.reddit.com/r/dartotsu\" style=\"display: inline-block;\"><img src=\"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/reddit-icon.png\" alt=\"Reddit\" height=\"40\" style=\"vertical-align: middle;\"></a>\n\n## 貢献方法\n翻訳から新機能追加まで、あらゆる貢献を歓迎します。質問は [Discordサーバー](https://discord.gg/eyQdCpdubF) または [Telegramグループ](https://t.me/Dartotsu) へどうぞ。プルリクエストも歓迎です。大きな変更の際は [open issues](https://github.com/aayush2622/Dartotsu/issues) をご確認ください。\n\n**構造を理解したい、より効率的に貢献したい方へ**  \n**DeepWiki** のプロジェクトドキュメントにガイドや技術的な情報をまとめています。\n\n<a href=\"https://deepwiki.com/aayush2622/Dartotsu\" target=\"_blank\" rel=\"noopener noreferrer\">\n  <img src=\"https://img.shields.io/badge/DeepWiki-blueviolet?label=View%20on&style=for-the-badge&logo=read-the-docs&logoColor=white\" alt=\"DeepWiki\" />\n</a>\n\n### 翻訳\nこちらからアプリの翻訳にご協力いただけます\n\n<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://img.shields.io/badge/Weblate-90EE90?label=Translate%20On&style=for-the-badge\" alt=\"Web\"/></a>\n<details>",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "<div align=\"right\">"
+        "translatedContent": ""
       },
       {
         "row": 2,
         "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
         "originContent": "<div align=\"right\">",
-        "translatedContent": "  <details>"
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 3,
         "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
         "originContent": "  <details>",
-        "translatedContent": "    <summary >🌐 言語</summary>"
+        "translatedContent": "  <details>"
       },
       {
         "row": 4,
         "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
         "originContent": "    <summary >🌐 Language</summary>",
-        "translatedContent": "    <div>"
+        "translatedContent": "    <summary >🌐 言語</summary>"
       },
       {
         "row": 5,
         "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
         "originContent": "    <div>",
-        "translatedContent": "      <div align=\"center\">"
+        "translatedContent": "    <div>"
       },
       {
         "row": 6,
         "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
         "originContent": "      <div align=\"center\">",
-        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=en\">English</a>"
+        "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 7,
         "rowsha": "j8o2ch41M6Zl+9USiuKm89AdBvzP4izAIlecEEFaEQk=",
         "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=en\">English</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-CN\">简体中文</a>"
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=en\">English</a>"
       },
       {
         "row": 8,
         "rowsha": "vGKQTqIILDtMQVVb+GN9o4YZH5/R/yGce+Ce+D61+Q0=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-CN\">简体中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-TW\">繁體中文</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 9,
         "rowsha": "Ns5ofIdNd3wb7DNbRnRpYR7GzKZahoMgTzCL69OBUH8=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-TW\">繁體中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ja\">日本語</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 10,
         "rowsha": "L+n+/b9kqC5PJshXo5MVaNsmOlYSIIMWwOVtpKfAn/w=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ja\">日本語</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ko\">한국어</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ja\">日本語</a>"
       },
       {
         "row": 11,
         "rowsha": "u03pSoqm9TANDsxvneYSGJ2W2/q/9CunfulV3CuD5u0=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ko\">한국어</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=hi\">हिन्दी</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ko\">한국어</a>"
       },
       {
         "row": 12,
         "rowsha": "L+2Y1MRvGTX+KyqskPppCwQo3NN1GBDndbsDnkFlG6c=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=hi\">हिन्दी</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=th\">ไทย</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=hi\">हिन्दी</a>"
       },
       {
         "row": 13,
         "rowsha": "tEpqGxNa/adZqT31JOFaQt0IG7aOq0IqnSLW8cVIWOs=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=th\">ไทย</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fr\">Français</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=th\">ไทย</a>"
       },
       {
         "row": 14,
         "rowsha": "FVLC9LaQanh5f8ejUdZXB1p3eK3HYDZVZDezkTBVwTM=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fr\">Français</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=de\">Deutsch</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fr\">Français</a>"
       },
       {
         "row": 15,
         "rowsha": "cEUeNr81ICz9QhhVrVvNzr+mKsbLOE/RphcNs8ObCf0=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=de\">Deutsch</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=es\">Español</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=de\">Deutsch</a>"
       },
       {
         "row": 16,
         "rowsha": "eIzYIBcivDKgiUC5093p+OvDhuhM8giouwCCSr6prFE=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=es\">Español</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=it\">Italiano</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=es\">Español</a>"
       },
       {
         "row": 17,
         "rowsha": "bk1SHVfgrGsiceEX8du18+uz2x44zgh+Uj6vCA6vxy4=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=it\">Italiano</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ru\">Русский</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=it\">Italiano</a>"
       },
       {
         "row": 18,
         "rowsha": "/WkA+SEp33HCYBrjoyV+DMi/ZIA7NXJRotdLQt9mnco=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ru\">Русский</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pt\">Português</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ru\">Русский</a>"
       },
       {
         "row": 19,
         "rowsha": "Z+0d9/zsRlgumP7dQrzJmEj0tmFwc5dfcKyeNQmCbEY=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pt\">Português</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=nl\">Nederlands</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pt\">Português</a>"
       },
       {
         "row": 20,
         "rowsha": "fDuAOMKQ4ERkOq8wybYcLpjAWT/o+NBFhdXU9aVjs2I=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=nl\">Nederlands</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pl\">Polski</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=nl\">Nederlands</a>"
       },
       {
         "row": 21,
         "rowsha": "7lVj72I8tqtylrD8zDAaiqkY+v6tcQm+szk7Ij+XPn8=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pl\">Polski</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ar\">العربية</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=pl\">Polski</a>"
       },
       {
         "row": 22,
         "rowsha": "HwAKH3wczO2O9dPxFo4u/YmpWCqZnW9urDjqhVmZxr8=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ar\">العربية</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fa\">فارسی</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=ar\">العربية</a>"
       },
       {
         "row": 23,
         "rowsha": "UNHj14Vf98rjrD1bbeLq7RKjEN/UCPb16z3zWZArzuQ=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fa\">فارسی</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=tr\">Türkçe</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=fa\">فارسی</a>"
       },
       {
         "row": 24,
         "rowsha": "CzTgPve1J6R5lk9O8DYzlTB9DF7NGRUtpqkeCZHVPR0=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=tr\">Türkçe</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=vi\">Tiếng Việt</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=tr\">Türkçe</a>"
       },
       {
         "row": 25,
         "rowsha": "tan4kUYT5YcSc2be6/qDTX0DPIKpp67Y5qbrdXe9czM=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=vi\">Tiếng Việt</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=id\">Bahasa Indonesia</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=vi\">Tiếng Việt</a>"
       },
       {
         "row": 26,
         "rowsha": "bkwMVbwOh7WBbpNVSfvRMQPggC+cQtHTTxrzidqVMt8=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=id\">Bahasa Indonesia</a>",
-        "translatedContent": "      </div>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=aayush2622&project=Dartotsu&lang=id\">Bahasa Indonesia</a>"
       },
       {
         "row": 27,
         "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
         "originContent": "      </div>",
-        "translatedContent": "    </div>"
+        "translatedContent": "      </div>"
       },
       {
         "row": 28,
         "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
         "originContent": "    </div>",
-        "translatedContent": "  </details>"
+        "translatedContent": "    </div>"
       },
       {
         "row": 29,
         "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
         "originContent": "  </details>",
-        "translatedContent": "</div>"
+        "translatedContent": "  </details>"
       },
       {
         "row": 30,
         "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
         "originContent": "</div>",
-        "translatedContent": ""
+        "translatedContent": "</div>"
       },
       {
         "row": 31,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "<p align=\"center\">"
+        "translatedContent": ""
       },
       {
         "row": 32,
         "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
         "originContent": "<p align=\"center\">",
-        "translatedContent": "   <img src=\"https://files.catbox.moe/mdn05t.png\" alt=\"Dartotsu バナー\" width=\"100%\">"
+        "translatedContent": "<p align=\"center\">"
       },
       {
         "row": 33,
         "rowsha": "QfQTrSm6b0/3z1Y+TRCGIVY12D2vCq6aM1RySJFPro0=",
         "originContent": "   <img src=\"https://files.catbox.moe/mdn05t.png\" alt=\"Dartotsu Banner\" width=\"100%\">",
-        "translatedContent": "</p>"
+        "translatedContent": "   <img src=\"https://files.catbox.moe/mdn05t.png\" alt=\"Dartotsu バナー\" width=\"100%\">"
       },
       {
         "row": 34,
         "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
         "originContent": "</p>",
-        "translatedContent": ""
+        "translatedContent": "</p>"
       },
       {
         "row": 35,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "<p align=\"center\">"
+        "translatedContent": ""
       },
       {
         "row": 36,
         "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
         "originContent": "<p align=\"center\">",
-        "translatedContent": "   <img src=\"https://img.shields.io/badge/platforms-android_ios_windows_linux_macos-06599d?style=for-the-badge&labelColor=00ffff&color=0d1117\"/>"
+        "translatedContent": "<p align=\"center\">"
       },
       {
         "row": 37,
         "rowsha": "RJUSTEkBdBbDG/1KEZPOUnErmld8e/qyOwK9NzQ+SVY=",
         "originContent": "   <img src=\"https://img.shields.io/badge/platforms-android_ios_windows_linux_macos-06599d?style=for-the-badge&labelColor=00ffff&color=0d1117\"/>",
-        "translatedContent": "   <a href=\"https://github.com/aayush2622/Dartotsu/releases\"><img src=\"https://img.shields.io/github/downloads/aayush2622/Dartotsu/total?label=Downloads&logo=android&logoColor=1a8fa6&style=for-the-badge&labelColor=00ffff&color=0d1117\"></a>"
+        "translatedContent": "   <img src=\"https://img.shields.io/badge/platforms-android_ios_windows_linux_macos-06599d?style=for-the-badge&labelColor=00ffff&color=0d1117\"/>"
       },
       {
         "row": 38,
         "rowsha": "ubOsI7lWl+T3gy43/y64AbzjR2+aCJx8F3hZCXAeKok=",
         "originContent": "   <a href=\"https://github.com/aayush2622/Dartotsu/releases\"><img src=\"https://img.shields.io/github/downloads/aayush2622/Dartotsu/total?label=Downloads&logo=android&logoColor=1a8fa6&style=for-the-badge&labelColor=00ffff&color=0d1117\"></a>",
-        "translatedContent": "</p>"
+        "translatedContent": "   <a href=\"https://github.com/aayush2622/Dartotsu/releases\"><img src=\"https://img.shields.io/github/downloads/aayush2622/Dartotsu/total?label=Downloads&logo=android&logoColor=1a8fa6&style=for-the-badge&labelColor=00ffff&color=0d1117\"></a>"
       },
       {
         "row": 39,
         "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
         "originContent": "</p>",
-        "translatedContent": ""
+        "translatedContent": "</p>"
       },
       {
         "row": 40,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "<p align=\"center\">"
+        "translatedContent": ""
       },
       {
         "row": 41,
         "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
         "originContent": "<p align=\"center\">",
-        "translatedContent": "   <a href=\"https://www.codefactor.io/repository/github/aayush2622/Dartotsu\"><img src=\"https://img.shields.io/codefactor/grade/github/aayush2622/Dartotsu?style=for-the-badge&label=Codefactor&labelColor=00ffff&color=0d1117\" alt=\"CodeFactor\"/></a>"
+        "translatedContent": "<p align=\"center\">"
       },
       {
         "row": 42,
         "rowsha": "vjvwICmbJ5jgJ3ydcwRwoPcWkntHmz+6bpnVLFEYbFQ=",
         "originContent": "   <a href=\"https://www.codefactor.io/repository/github/aayush2622/Dartotsu\"><img src=\"https://img.shields.io/codefactor/grade/github/aayush2622/Dartotsu?style=for-the-badge&label=Codefactor&labelColor=00ffff&color=0d1117\" alt=\"CodeFactor\"/></a>",
-        "translatedContent": "   <a href=\"https://hosted.weblate.org/engage/dartotsu/\"><img alt=\"Weblate project translated\" src=\"https://img.shields.io/weblate/progress/dartotsu?label=Translated&labelColor=00ffff&color=0d1117&style=for-the-badge\"></a>"
+        "translatedContent": "   <a href=\"https://www.codefactor.io/repository/github/aayush2622/Dartotsu\"><img src=\"https://img.shields.io/codefactor/grade/github/aayush2622/Dartotsu?style=for-the-badge&label=Codefactor&labelColor=00ffff&color=0d1117\" alt=\"CodeFactor\"/></a>"
       },
       {
         "row": 43,
         "rowsha": "OhNSHTYN1Wi7pgff5UE01b+H/QRIgFkaifqymypDPf0=",
         "originContent": "   <a href=\"https://hosted.weblate.org/engage/dartotsu/\"><img alt=\"Weblate project translated\" src=\"https://img.shields.io/weblate/progress/dartotsu?label=Translated&labelColor=00ffff&color=0d1117&style=for-the-badge\"></a>",
-        "translatedContent": "   <a href=\"https://github.com/aayush2622/Dartotsu/stargazers\"><img src=\"https://img.shields.io/github/stars/aayush2622/Dartotsu?style=for-the-badge&label=Stars&labelColor=00ffff&color=0d1117\" alt=\"Stars\" /></a>"
+        "translatedContent": "   <a href=\"https://hosted.weblate.org/engage/dartotsu/\"><img alt=\"Weblate project translated\" src=\"https://img.shields.io/weblate/progress/dartotsu?label=Translated&labelColor=00ffff&color=0d1117&style=for-the-badge\"></a>"
       },
       {
         "row": 44,
         "rowsha": "zKBayNM/6Ztesocs+9Sf8CYzkdSRrXXXe1VhEPhm9Kw=",
         "originContent": "   <a href=\"https://github.com/aayush2622/Dartotsu/stargazers\"><img src=\"https://img.shields.io/github/stars/aayush2622/Dartotsu?style=for-the-badge&label=Stars&labelColor=00ffff&color=0d1117\" alt=\"Stars\" /></a>",
-        "translatedContent": "</p>"
+        "translatedContent": "   <a href=\"https://github.com/aayush2622/Dartotsu/stargazers\"><img src=\"https://img.shields.io/github/stars/aayush2622/Dartotsu?style=for-the-badge&label=Stars&labelColor=00ffff&color=0d1117\" alt=\"Stars\" /></a>"
       },
       {
         "row": 45,
         "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
         "originContent": "</p>",
-        "translatedContent": ""
+        "translatedContent": "</p>"
       },
       {
         "row": 46,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# Dartotsu"
+        "translatedContent": ""
       },
       {
         "row": 47,
         "rowsha": "d2J9S64227chff3IVsI2UpPPfAf50wuFSLoK+yeuxRo=",
         "originContent": "# Dartotsu",
-        "translatedContent": ""
+        "translatedContent": "# Dartotsu"
       },
       {
         "row": 48,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "**Dartotsu** は [Dantotsu](https://github.com/rebelonion/Dantotsu/) をFlutterで完全に書き直したものです。これは [**AniList**](https://anilist.co/) および [**MyAnimeList**](https://myanimelist.net/) のハイブリッド型追跡クライアントであり、[**Simkl**](https://simkl.com/) にも対応しています！  "
+        "translatedContent": ""
       },
       {
         "row": 49,
         "rowsha": "bgeDZmxAchM/dVjxIiAK6MwiWMhLx8h0Q89XWvHpGQs=",
         "originContent": "**Dartotsu** is a complete rewrite of [Dantotsu](https://github.com/rebelonion/Dantotsu/) in Flutter. It's a hybrid [**AniList**](https://anilist.co/) and [**MyAnimeList**](https://myanimelist.net/) tracking client, along with [**Simkl**](https://simkl.com/) support!  ",
-        "translatedContent": "> [!WARNING]"
+        "translatedContent": "**Dartotsu** は [Dantotsu](https://github.com/rebelonion/Dantotsu/) を Flutter で完全に書き直したものです。これは [**AniList**](https://anilist.co/) と [**MyAnimeList**](https://myanimelist.net/) のハイブリッド追跡クライアントであり、[**Simkl**](https://simkl.com/) のサポートも備えています！  "
       },
       {
         "row": 50,
         "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
         "originContent": "> [!WARNING]",
-        "translatedContent": "> Dartotsuは追跡と管理専用です。"
+        "translatedContent": "> [!WARNING]"
       },
       {
         "row": 51,
         "rowsha": "mzZsze1rhqFDfPbp//umLLBNe9zHFblNVTGSS3wMmGo=",
         "originContent": "> Dartotsu is for tracking and management only.",
-        "translatedContent": ">"
+        "translatedContent": "> Dartotsu は追跡および管理のみを目的としています。"
       },
       {
         "row": 52,
         "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
         "originContent": ">",
-        "translatedContent": "> ストリーミングコンテンツや拡張機能のホスティング、提供、管理は**行っていません**。"
+        "translatedContent": ">"
       },
       {
         "row": 53,
         "rowsha": "ihMLGEImGpAQTKIiU7bWnsyhKqWUVo9oky1SWJLWKYI=",
         "originContent": "> It does **not** host, provide, or maintain streaming content or extensions.",
-        "translatedContent": ">"
+        "translatedContent": "> ストリーミングコンテンツや拡張機能のホスティング、提供、管理は**一切行いません**。"
       },
       {
         "row": 54,
         "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
         "originContent": ">",
-        "translatedContent": "> 利用者は自身の行動に全責任を負います。開発者は不正利用や法的問題について一切の責任を負いません。法的懸念はDartotsuではなく第三者にお問い合わせください。"
+        "translatedContent": ">"
       },
       {
         "row": 55,
         "rowsha": "L4vbXq1U8571E3qMI2Q6SZEfL+jm5hxjbkthzI0TupQ=",
         "originContent": "> Users are fully responsible for their actions. The developer disclaims all liability for misuse or legal issues. Legal concerns should be addressed to third-party sources, not Dartotsu.",
-        "translatedContent": ""
+        "translatedContent": "> 利用者の行動はすべて自己責任です。開発者は誤用または法的問題に対して一切の責任を負いません。法的な懸念がある場合は第三者へお問い合わせください。Dartotsu では対応いたしません。"
       },
       {
         "row": 56,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## ダウンロード"
+        "translatedContent": ""
       },
       {
         "row": 57,
         "rowsha": "C6wYWjaRGyeLjlRf8jDHkU/uOhFyXQv0r5Fc65FtGis=",
         "originContent": "## Downloads",
-        "translatedContent": "<p align=\"center\">"
+        "translatedContent": "## ダウンロード"
       },
       {
         "row": 58,
         "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
         "originContent": "<p align=\"center\">",
-        "translatedContent": ""
+        "translatedContent": "<p align=\"center\">"
       },
       {
         "row": 59,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "   <a href=\"https://github.com/aayush2622/Dartotsu/releases/latest\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&logoColor=168b94&label=Stable&labelColor=06599d&color=043b69\" alt=\"Latest Stable Release\"/></a>"
+        "translatedContent": ""
       },
       {
         "row": 60,
         "rowsha": "oroRo4nDXb/PM0/N0Q2lGeqdiFVmnLF8ABGE4ov5yqg=",
         "originContent": "   <a href=\"https://github.com/aayush2622/Dartotsu/releases/latest\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&logoColor=168b94&label=Stable&labelColor=06599d&color=043b69\" alt=\"Latest Stable Release\"/></a>",
-        "translatedContent": "   <a href=\"https://github.com/aayush2622/Dartotsu/releases/\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&include_prereleases&logoColor=087a87&label=Beta&color=818cf8\" alt=\"Latest Pre-release\"/></a>"
+        "translatedContent": "   <a href=\"https://github.com/aayush2622/Dartotsu/releases/latest\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&logoColor=168b94&label=Stable&labelColor=06599d&color=043b69\" alt=\"最新安定版リリース\"/></a>"
       },
       {
         "row": 61,
         "rowsha": "rCj0Yx2gTPh7ueJCbBfs7TDL10Vmetm2MSl9nh5DNYc=",
         "originContent": "   <a href=\"https://github.com/aayush2622/Dartotsu/releases/\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&include_prereleases&logoColor=087a87&label=Beta&color=818cf8\" alt=\"Latest Pre-release\"/></a>",
-        "translatedContent": "   <!--<a  href=\"https://github.com/aayush2622/Dartotsu/releases/latest\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&display_name=tag&label=Alpha&labelColor=087a87&color=168b94\" alt=\"Latest Alpha Release\"/></a>-->"
+        "translatedContent": "   <a href=\"https://github.com/aayush2622/Dartotsu/releases/\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&include_prereleases&logoColor=087a87&label=Beta&color=818cf8\" alt=\"最新プレリリース\"/></a>"
       },
       {
         "row": 62,
         "rowsha": "r0VEc4fBJqmxvHl0ElhNtjIprHwhWMYkKHLFV7iKC7A=",
         "originContent": "   <!--<a  href=\"https://github.com/aayush2622/Dartotsu/releases/latest\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&display_name=tag&label=Alpha&labelColor=087a87&color=168b94\" alt=\"Latest Alpha Release\"/></a>-->",
-        "translatedContent": "   "
+        "translatedContent": "   <!--<a  href=\"https://github.com/aayush2622/Dartotsu/releases/latest\"><img src=\"https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&display_name=tag&label=Alpha&labelColor=087a87&color=168b94\" alt=\"最新アルファリリース\"/></a>-->"
       },
       {
         "row": 63,
         "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
         "originContent": "   ",
-        "translatedContent": "> [!NOTE]"
+        "translatedContent": "   "
       },
       {
         "row": 64,
         "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
         "originContent": "> [!NOTE]",
-        "translatedContent": "> ダウンロードしてテストし、ご意見や問題は <a href=\"https://t.me/Dartotsu\" target=\"_blank\">Telegram</a> または <a href=\"https://discord.gg/eyQdCpdubF\" target=\"_blank\">Discord</a> で共有してください。"
+        "translatedContent": "> [!NOTE]"
       },
       {
         "row": 65,
         "rowsha": "aKSuXATyGxfTcW+DMZwBbIiGMa2WvvYu9ZpeXMTcAX4=",
         "originContent": "> Download, test, and share feedback or issues on <a href=\"https://t.me/Dartotsu\" target=\"_blank\">Telegram</a> or <a href=\"https://discord.gg/eyQdCpdubF\" target=\"_blank\">Discord</a>.",
-        "translatedContent": "</p>"
+        "translatedContent": "> ダウンロード・テスト・フィードバックや不具合報告は <a href=\"https://t.me/Dartotsu\" target=\"_blank\">Telegram</a> または <a href=\"https://discord.gg/eyQdCpdubF\" target=\"_blank\">Discord</a> でどうぞ。"
       },
       {
         "row": 66,
         "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
         "originContent": "</p>",
-        "translatedContent": ""
+        "translatedContent": "</p>"
       },
       {
         "row": 67,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## 支援について"
+        "translatedContent": ""
       },
       {
         "row": 68,
         "rowsha": "/sNwcek7akw7h7qNXIckVkRlgFlJGoXhn3qggFMMoRo=",
         "originContent": "## Support Us",
-        "translatedContent": "<a href='https://buymeacoffee.com/aayush262' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>"
+        "translatedContent": "## サポート"
       },
       {
         "row": 69,
         "rowsha": "mPtN/0plwoUKuJ+Pk/O7I70AsXbvh8heNnIw7NpRk5M=",
         "originContent": "<a href='https://buymeacoffee.com/aayush262' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
-        "translatedContent": "> [!TIP]"
+        "translatedContent": "<a href='https://buymeacoffee.com/aayush262' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='ko-fi.comでコーヒーをおごる' /></a>"
       },
       {
         "row": 70,
         "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
         "originContent": "> [!TIP]",
-        "translatedContent": "> ⭐ **リポジトリにスターを付けて、開発者を支援しアプリの開発を応援してください！**"
+        "translatedContent": "> [!TIP]"
       },
       {
         "row": 71,
         "rowsha": "V09P+VW1r0C4ic441sYAZ/zBWfFD2Crrw/D0Cbv6ZiQ=",
         "originContent": "> ⭐ **Star This Repository To Support The Developer And Encourage The Development Of The Application!**",
-        "translatedContent": "<details>"
+        "translatedContent": "> ⭐ **このリポジトリにスターを付けて、開発者を応援し、アプリの開発を後押ししましょう！**"
       },
       {
         "row": 72,
         "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
         "originContent": "<details>",
-        "translatedContent": "  <summary>スター履歴</summary>"
+        "translatedContent": "<details>"
       },
       {
         "row": 73,
         "rowsha": "Ze06aE3MXlFdqXy+RWlWuDMesK1ErOd321PKR69ZFVk=",
         "originContent": "  <summary>Star History</summary>",
-        "translatedContent": "  <a href=\"https://github.com/aayush2622/Dartotsu/stargazers\">"
+        "translatedContent": "  <summary>スター履歴</summary>"
       },
       {
         "row": 74,
         "rowsha": "o0gi+evt3jkha2gSnh0gGNfmeScyU0bHNggwWAIzpWk=",
         "originContent": "  <a href=\"https://github.com/aayush2622/Dartotsu/stargazers\">",
-        "translatedContent": "      <img alt=\"Star History Chart\" src=\"https://starchart.cc/aayush2622/Dartotsu.svg?variant=adaptive\" width=\"370\" height=\"235\" />"
+        "translatedContent": "  <a href=\"https://github.com/aayush2622/Dartotsu/stargazers\">"
       },
       {
         "row": 75,
         "rowsha": "8VFwZI1kU1sGpX+7EdxMRsRcRLYt0HzDUpF1kZ0nDbM=",
         "originContent": "      <img alt=\"Star History Chart\" src=\"https://starchart.cc/aayush2622/Dartotsu.svg?variant=adaptive\" width=\"370\" height=\"235\" />",
-        "translatedContent": "  </a>"
+        "translatedContent": "      <img alt=\"スター履歴チャート\" src=\"https://starchart.cc/aayush2622/Dartotsu.svg?variant=adaptive\" width=\"370\" height=\"235\" />"
       },
       {
         "row": 76,
         "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
         "originContent": "  </a>",
-        "translatedContent": "</details>"
+        "translatedContent": "  </a>"
       },
       {
         "row": 77,
         "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
         "originContent": "</details>",
-        "translatedContent": ""
+        "translatedContent": "</details>"
       },
       {
         "row": 78,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## 公式コミュニティ"
+        "translatedContent": ""
       },
       {
         "row": 79,
         "rowsha": "CrKiJRoSnu7JtDojMZON1T7o6DSSlYee82SjExxDR5o=",
         "originContent": "## Official Communities",
-        "translatedContent": "最新情報を得たり、議論に参加したりするためにコミュニティに参加しましょう "
+        "translatedContent": "## 公式コミュニティ"
       },
       {
         "row": 80,
         "rowsha": "w0Ysx4gHGpUAgfkue1QOweBt5obcbYcPqtAwdmBec/8=",
         "originContent": "Join our communities to stay updated and contribute to the discussion ",
-        "translatedContent": ""
+        "translatedContent": "最新情報を受け取り、議論に参加するにはコミュニティに参加してください"
       },
       {
         "row": 81,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "<a href=\"https://discord.gg/eyQdCpdubF\" style=\"margin-right: 10px; display: inline-block;\"><img src=\"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-color-icon.png\" alt=\"Discord\" height=\"40\" style=\"vertical-align: middle;\"></a>"
+        "translatedContent": ""
       },
       {
         "row": 82,
         "rowsha": "L3hjN0wFRqrKLjhTLjZWBhbaFl4DwtRQRA4YUcDFhPg=",
         "originContent": "<a href=\"https://discord.gg/eyQdCpdubF\" style=\"margin-right: 10px; display: inline-block;\"><img src=\"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-color-icon.png\" alt=\"Discord\" height=\"40\" style=\"vertical-align: middle;\"></a>",
-        "translatedContent": "<a href=\"https://t.me/Dartotsu\" style=\"display: inline-block;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg\" alt=\"Telegram\" height=\"40\" style=\"vertical-align: middle;\"></a>"
+        "translatedContent": "<a href=\"https://discord.gg/eyQdCpdubF\" style=\"margin-right: 10px; display: inline-block;\"><img src=\"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-color-icon.png\" alt=\"Discord\" height=\"40\" style=\"vertical-align: middle;\"></a>"
       },
       {
         "row": 83,
         "rowsha": "F1jfyfEC5k4ZVpoiiUJQVOcw3ZOI3tKkNylJM+S/uO4=",
         "originContent": "<a href=\"https://t.me/Dartotsu\" style=\"display: inline-block;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg\" alt=\"Telegram\" height=\"40\" style=\"vertical-align: middle;\"></a>",
-        "translatedContent": "<a href=\"https://www.reddit.com/r/dartotsu\" style=\"display: inline-block;\"><img src=\"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/reddit-icon.png\" alt=\"Reddit\" height=\"40\" style=\"vertical-align: middle;\"></a>"
+        "translatedContent": "<a href=\"https://t.me/Dartotsu\" style=\"display: inline-block;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg\" alt=\"Telegram\" height=\"40\" style=\"vertical-align: middle;\"></a>"
       },
       {
         "row": 84,
         "rowsha": "1UIWmpxRWEUY3XV6EeWch+e27fn4EgWNJ5R1WkIAS8Q=",
         "originContent": "<a href=\"https://www.reddit.com/r/dartotsu\" style=\"display: inline-block;\"><img src=\"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/reddit-icon.png\" alt=\"Reddit\" height=\"40\" style=\"vertical-align: middle;\"></a>",
-        "translatedContent": ""
+        "translatedContent": "<a href=\"https://www.reddit.com/r/dartotsu\" style=\"display: inline-block;\"><img src=\"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/reddit-icon.png\" alt=\"Reddit\" height=\"40\" style=\"vertical-align: middle;\"></a>"
       },
       {
         "row": 85,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## コントリビュート"
+        "translatedContent": ""
       },
       {
         "row": 86,
         "rowsha": "fMu080v6eh/hFkmstsVs1QR9bj14O7X3mMQkwTJevBw=",
         "originContent": "## Contribute",
-        "translatedContent": "翻訳から新機能の追加まで、あらゆる貢献を歓迎しています。問い合わせは [Discord サーバー](https://discord.gg/eyQdCpdubF) や [Telegram グループ](https://t.me/Dartotsu) へ。プルリクエストも歓迎します。主要な変更点については [open issues](https://github.com/aayush2622/Dartotsu/issues) をご確認ください。"
+        "translatedContent": "## 貢献方法"
       },
       {
         "row": 87,
         "rowsha": "Q2Osi9+mjkETubJAxfTIO9xgkSQlYdVBYb8rDD/UWrY=",
         "originContent": "We welcome contributions, from translations to new features. For inquiries, join our [Discord server](https://discord.gg/eyQdCpdubF) or [Telegram group](https://t.me/Dartotsu). Pull requests are welcome; check the [open issues](https://github.com/aayush2622/Dartotsu/issues) for guidance on major changes.",
-        "translatedContent": ""
+        "translatedContent": "翻訳から新機能追加まで、あらゆる貢献を歓迎します。質問は [Discordサーバー](https://discord.gg/eyQdCpdubF) または [Telegramグループ](https://t.me/Dartotsu) へどうぞ。プルリクエストも歓迎です。大きな変更の際は [open issues](https://github.com/aayush2622/Dartotsu/issues) をご確認ください。"
       },
       {
         "row": 88,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "### 翻訳"
+        "translatedContent": ""
       },
       {
         "row": 89,
-        "rowsha": "cK/xAvkAeEH5U7u/1XWPtXOothAfP9xDT6b2C+GkT7k=",
-        "originContent": "### Translation",
-        "translatedContent": "アプリをあなたの言語に翻訳して支援いただけます"
+        "rowsha": "Efi/Cvkw0qU37vce5cPEop0DhUbp0FBhh3MR0aPQ3X4=",
+        "originContent": "**Want to understand the structure or contribute more efficiently?**  ",
+        "translatedContent": "**構造を理解したい、より効率的に貢献したい方へ**  "
       },
       {
         "row": 90,
-        "rowsha": "MaveoVAO4Au5w1ozKwKiezz0vp+BbKAyfzzXBYEqWog=",
-        "originContent": "You can help us by translating the app into your language here",
-        "translatedContent": ""
+        "rowsha": "7fxIrgp8Y9xUD8w/iA12qAtI3BWcPOm6B+CKnlpkB58=",
+        "originContent": "Check the full project documentation on **DeepWiki** for helpful guides and technical insights.",
+        "translatedContent": "**DeepWiki** のプロジェクトドキュメントにガイドや技術的な情報をまとめています。"
       },
       {
         "row": 91,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://img.shields.io/badge/Weblate-90EE90?label=Translate%20On&style=for-the-badge\" alt=\"Web\"/></a>"
-      },
-      {
-        "row": 92,
-        "rowsha": "Wt4sA05WV4ANQYVcSdlybv5TzGN2tLs8S6yEvS62YlY=",
-        "originContent": "<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://img.shields.io/badge/Weblate-90EE90?label=Translate%20On&style=for-the-badge\" alt=\"Web\"/></a>",
-        "translatedContent": "<details>"
-      },
-      {
-        "row": 93,
-        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
-        "originContent": "<details>",
-        "translatedContent": "<summary>Weblate 翻訳グラフ</summary>"
-      },
-      {
-        "row": 94,
-        "rowsha": "NZpQeNxfP4+INX8CKHs2fhr/Rf6lLIOLkoUzgB4tHS8=",
-        "originContent": "<summary>Weblate Translation Graph</summary>",
-        "translatedContent": "<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://hosted.weblate.org/widget/dartotsu/dartotsu/multi-auto.svg\" alt=\"Translation status\" /></a>"
-      },
-      {
-        "row": 95,
-        "rowsha": "JitiPtf1df+/hPRrBRhDiIq8IEq7NgqnZX77v8d+Xfk=",
-        "originContent": "<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://hosted.weblate.org/widget/dartotsu/dartotsu/multi-auto.svg\" alt=\"Translation status\" /></a>",
-        "translatedContent": "</details>"
-      },
-      {
-        "row": 96,
-        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
-        "originContent": "</details>",
         "translatedContent": ""
       },
       {
-        "row": 97,
+        "row": 92,
+        "rowsha": "EUyqHlnj6j3XPw0ZjKIJqxm4TOhiX5np5WRIWItbq44=",
+        "originContent": "<a href=\"https://deepwiki.com/aayush2622/Dartotsu\" target=\"_blank\" rel=\"noopener noreferrer\">",
+        "translatedContent": "<a href=\"https://deepwiki.com/aayush2622/Dartotsu\" target=\"_blank\" rel=\"noopener noreferrer\">"
+      },
+      {
+        "row": 93,
+        "rowsha": "7XdlBL6xE+hCg0YAeG1HeOdyw3kID+7kohOczCpXhio=",
+        "originContent": "  <img src=\"https://img.shields.io/badge/DeepWiki-blueviolet?label=View%20on&style=for-the-badge&logo=read-the-docs&logoColor=white\" alt=\"DeepWiki\" />",
+        "translatedContent": "  <img src=\"https://img.shields.io/badge/DeepWiki-blueviolet?label=View%20on&style=for-the-badge&logo=read-the-docs&logoColor=white\" alt=\"DeepWiki\" />"
+      },
+      {
+        "row": 94,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 95,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## ビジター"
+        "translatedContent": ""
+      },
+      {
+        "row": 96,
+        "rowsha": "cK/xAvkAeEH5U7u/1XWPtXOothAfP9xDT6b2C+GkT7k=",
+        "originContent": "### Translation",
+        "translatedContent": "### 翻訳"
+      },
+      {
+        "row": 97,
+        "rowsha": "MaveoVAO4Au5w1ozKwKiezz0vp+BbKAyfzzXBYEqWog=",
+        "originContent": "You can help us by translating the app into your language here",
+        "translatedContent": "こちらからアプリの翻訳にご協力いただけます"
       },
       {
         "row": 98,
-        "rowsha": "pq5GzwFXRXTE7NXlEMuBJFeiqPrtWUGRJYIzFPDNol8=",
-        "originContent": "## Visitors",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 99,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "<img src=\"https://count.getloli.com/@aayush2622?name=dartotsu&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto\" />"
+        "rowsha": "Wt4sA05WV4ANQYVcSdlybv5TzGN2tLs8S6yEvS62YlY=",
+        "originContent": "<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://img.shields.io/badge/Weblate-90EE90?label=Translate%20On&style=for-the-badge\" alt=\"Web\"/></a>",
+        "translatedContent": "<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://img.shields.io/badge/Weblate-90EE90?label=Translate%20On&style=for-the-badge\" alt=\"Web\"/></a>"
       },
       {
         "row": 100,
-        "rowsha": "RBy0kda4Wc38RsbAH/bh1wtPVhUThxoLCzP4mRT1tss=",
-        "originContent": "<img src=\"https://count.getloli.com/@aayush2622?name=dartotsu&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto\" />",
-        "translatedContent": ""
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "\n## Acknowledgments\nA heartfelt thank you to everyone who has contributed to the development of Dartotsu.\nYour efforts are invaluable.\n\n<a href=\"https://github.com/aayush2622/Dartotsu/graphs/contributors\">\n  <img alt=\"GitHub contributors\" src=\"https://img.shields.io/github/contributors/aayush2622/Dartotsu?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318\" align=\"left\">\n</a>\n<br>\n<a href=\"https://github.com/aayush2622/Dartotsu/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=aayush2622/Dartotsu\" alt=\"Contributors\">\n</a>\n\n## License\nDartotsu is licensed under the Unabandon Public License (UPL). More info can be found [here](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md).\n",
-    "ContentSha": "SrTP8XsjLula42MS4GOIbl0So583o3w32IweyU4yjO0=",
+    "Content": "<summary>Weblate Translation Graph</summary>\n<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://hosted.weblate.org/widget/dartotsu/dartotsu/multi-auto.svg\" alt=\"Translation status\" /></a>\n</details>\n\n## Visitors\n\n<img src=\"https://count.getloli.com/@aayush2622?name=dartotsu&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto\" />\n\n## Acknowledgments\nA heartfelt thank you to everyone who has contributed to the development of Dartotsu.\nYour efforts are invaluable.\n\n<a href=\"https://github.com/aayush2622/Dartotsu/graphs/contributors\">\n  <img alt=\"GitHub contributors\" src=\"https://img.shields.io/github/contributors/aayush2622/Dartotsu?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318\" align=\"left\">\n</a>\n<br>\n<a href=\"https://github.com/aayush2622/Dartotsu/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=aayush2622/Dartotsu\" alt=\"Contributors\">\n</a>\n\n## License\nDartotsu is licensed under the Unabandon Public License (UPL). More info can be found [here](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md).\n",
+    "ContentSha": "dFuKJsSuIv+ig3TFEgOZTCJTZULdevLZoF8HB6/sH4M=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\n## 謝辞\nDartotsu の開発にご協力いただいたすべての方々に心より感謝申し上げます。\n皆様のご尽力はかけがえのないものです。\n\n<a href=\"https://github.com/aayush2622/Dartotsu/graphs/contributors\">\n  <img alt=\"GitHub contributors\" src=\"https://img.shields.io/github/contributors/aayush2622/Dartotsu?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318\" align=\"left\">\n</a>\n<br>\n<a href=\"https://github.com/aayush2622/Dartotsu/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=aayush2622/Dartotsu\" alt=\"Contributors\">\n</a>\n\n## ライセンス\nDartotsu は Unabandon Public License (UPL) の下でライセンスされています。詳しくは [こちら](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md) をご覧ください。\n",
+    "Translation": "<summary>Weblate 翻訳グラフ</summary>\n<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://hosted.weblate.org/widget/dartotsu/dartotsu/multi-auto.svg\" alt=\"翻訳状況\" /></a>\n</details>\n\n## 訪問者\n\n<img src=\"https://count.getloli.com/@aayush2622?name=dartotsu&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto\" />\n\n## 謝辞\nDartotsu の開発に貢献してくださったすべての方々に心より感謝申し上げます。\n皆様のご尽力はかけがえのないものです。\n\n<a href=\"https://github.com/aayush2622/Dartotsu/graphs/contributors\">\n  <img alt=\"GitHub contributors\" src=\"https://img.shields.io/github/contributors/aayush2622/Dartotsu?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318\" align=\"left\">\n</a>\n<br>\n<a href=\"https://github.com/aayush2622/Dartotsu/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=aayush2622/Dartotsu\" alt=\"Contributors\">\n</a>\n\n## ライセンス\nDartotsu は Unabandon Public License（UPL）でライセンスされています。詳細は[こちら](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md)をご覧ください。\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "NZpQeNxfP4+INX8CKHs2fhr/Rf6lLIOLkoUzgB4tHS8=",
+        "originContent": "<summary>Weblate Translation Graph</summary>",
+        "translatedContent": "<summary>Weblate 翻訳グラフ</summary>"
+      },
+      {
+        "row": 2,
+        "rowsha": "JitiPtf1df+/hPRrBRhDiIq8IEq7NgqnZX77v8d+Xfk=",
+        "originContent": "<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://hosted.weblate.org/widget/dartotsu/dartotsu/multi-auto.svg\" alt=\"Translation status\" /></a>",
+        "translatedContent": "<a href=\"https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages\"><img src=\"https://hosted.weblate.org/widget/dartotsu/dartotsu/multi-auto.svg\" alt=\"翻訳状況\" /></a>"
+      },
+      {
+        "row": 3,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 4,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 2,
+        "row": 5,
+        "rowsha": "pq5GzwFXRXTE7NXlEMuBJFeiqPrtWUGRJYIzFPDNol8=",
+        "originContent": "## Visitors",
+        "translatedContent": "## 訪問者"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "RBy0kda4Wc38RsbAH/bh1wtPVhUThxoLCzP4mRT1tss=",
+        "originContent": "<img src=\"https://count.getloli.com/@aayush2622?name=dartotsu&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto\" />",
+        "translatedContent": "<img src=\"https://count.getloli.com/@aayush2622?name=dartotsu&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto\" />"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
         "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
         "originContent": "## Acknowledgments",
         "translatedContent": "## 謝辞"
       },
       {
-        "row": 3,
+        "row": 10,
         "rowsha": "aO+l+HeOFy0Yx/8awsoIttyJHex4cIo2qEjACM46gs0=",
         "originContent": "A heartfelt thank you to everyone who has contributed to the development of Dartotsu.",
-        "translatedContent": "Dartotsu の開発にご協力いただいたすべての方々に心より感謝申し上げます。"
+        "translatedContent": "Dartotsu の開発に貢献してくださったすべての方々に心より感謝申し上げます。"
       },
       {
-        "row": 4,
+        "row": 11,
         "rowsha": "JtkoUY0DRmB1a3KWqTWZrDrwoyh40zVtsboUztsP9OA=",
         "originContent": "Your efforts are invaluable.",
         "translatedContent": "皆様のご尽力はかけがえのないものです。"
       },
       {
-        "row": 5,
+        "row": 12,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 6,
+        "row": 13,
         "rowsha": "Tm8pkaKYSu8YFyJHQlG8HGQ8bAmiX1FyMLGtoL3pQL8=",
         "originContent": "<a href=\"https://github.com/aayush2622/Dartotsu/graphs/contributors\">",
         "translatedContent": "<a href=\"https://github.com/aayush2622/Dartotsu/graphs/contributors\">"
       },
       {
-        "row": 7,
+        "row": 14,
         "rowsha": "o2SRdmrAQBQAL3iI92fZAbCH45AUNT0fnl6Sp2OCYVw=",
         "originContent": "  <img alt=\"GitHub contributors\" src=\"https://img.shields.io/github/contributors/aayush2622/Dartotsu?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318\" align=\"left\">",
         "translatedContent": "  <img alt=\"GitHub contributors\" src=\"https://img.shields.io/github/contributors/aayush2622/Dartotsu?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318\" align=\"left\">"
       },
       {
-        "row": 8,
+        "row": 15,
         "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
         "originContent": "</a>",
         "translatedContent": "</a>"
       },
       {
-        "row": 9,
+        "row": 16,
         "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
         "originContent": "<br>",
         "translatedContent": "<br>"
       },
       {
-        "row": 10,
+        "row": 17,
         "rowsha": "Tm8pkaKYSu8YFyJHQlG8HGQ8bAmiX1FyMLGtoL3pQL8=",
         "originContent": "<a href=\"https://github.com/aayush2622/Dartotsu/graphs/contributors\">",
         "translatedContent": "<a href=\"https://github.com/aayush2622/Dartotsu/graphs/contributors\">"
       },
       {
-        "row": 11,
+        "row": 18,
         "rowsha": "HMQF7P14kWfs7jJhszYjO7EATQXa5R7mYmIntsRn2Jo=",
         "originContent": "  <img src=\"https://contrib.rocks/image?repo=aayush2622/Dartotsu\" alt=\"Contributors\">",
         "translatedContent": "  <img src=\"https://contrib.rocks/image?repo=aayush2622/Dartotsu\" alt=\"Contributors\">"
       },
       {
-        "row": 12,
+        "row": 19,
         "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
         "originContent": "</a>",
         "translatedContent": "</a>"
       },
       {
-        "row": 13,
+        "row": 20,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 14,
+        "row": 21,
         "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
         "originContent": "## License",
         "translatedContent": "## ライセンス"
       },
       {
-        "row": 15,
+        "row": 22,
         "rowsha": "EqdghXqKFEI/v5B0AzsPudxFDkNYrTAbMO8sEJ2Zmh8=",
         "originContent": "Dartotsu is licensed under the Unabandon Public License (UPL). More info can be found [here](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md).",
-        "translatedContent": "Dartotsu は Unabandon Public License (UPL) の下でライセンスされています。詳しくは [こちら](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md) をご覧ください。"
+        "translatedContent": "Dartotsu は Unabandon Public License（UPL）でライセンスされています。詳細は[こちら](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md)をご覧ください。"
       },
       {
-        "row": 16,
+        "row": 23,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Sprache</summary>
@@ -46,13 +45,13 @@
 
 # Dartotsu
 
-**Dartotsu** ist eine komplette Neuentwicklung von [Dantotsu](https://github.com/rebelonion/Dantotsu/) in Flutter. Es ist ein hybrider [**AniList**](https://anilist.co/)- und [**MyAnimeList**](https://myanimelist.net/)-Tracking-Client mit zusätzlicher Unterstützung für [**Simkl**](https://simkl.com/)!  
+**Dartotsu** ist eine vollständige Neuentwicklung von [Dantotsu](https://github.com/rebelonion/Dantotsu/) in Flutter. Es ist ein hybrider [**AniList**](https://anilist.co/) und [**MyAnimeList**](https://myanimelist.net/) Tracking-Client mit Unterstützung für [**Simkl**](https://simkl.com/)!  
 > [!WARNUNG]
-> Dartotsu dient ausschließlich zum Verwalten und Verfolgen.
+> Dartotsu dient ausschließlich zur Nachverfolgung und Verwaltung.
 >
 > Es werden **keine** Streaming-Inhalte oder Erweiterungen gehostet, bereitgestellt oder gepflegt.
 >
-> Nutzer sind für ihr Handeln selbst verantwortlich. Der Entwickler übernimmt keinerlei Haftung für Missbrauch oder rechtliche Probleme. Rechtliche Anliegen sind an Drittquellen zu richten, nicht an Dartotsu.
+> Nutzer sind für ihre Handlungen selbst verantwortlich. Der Entwickler übernimmt keinerlei Haftung für Missbrauch oder rechtliche Probleme. Rechtliche Anliegen sind an Drittanbieter zu richten, nicht an Dartotsu.
 
 ## Downloads
 <p align="center">
@@ -62,36 +61,44 @@
    <!--<a  href="https://github.com/aayush2622/Dartotsu/releases/latest"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&display_name=tag&label=Alpha&labelColor=087a87&color=168b94" alt="Neueste Alpha-Version"/></a>-->
    
 > [!HINWEIS]
-> Lade herunter, teste und teile Feedback oder Probleme auf <a href="https://t.me/Dartotsu" target="_blank">Telegram</a> oder <a href="https://discord.gg/eyQdCpdubF" target="_blank">Discord</a>.
+> Lade herunter, teste und teile dein Feedback oder Probleme auf <a href="https://t.me/Dartotsu" target="_blank">Telegram</a> oder <a href="https://discord.gg/eyQdCpdubF" target="_blank">Discord</a>.
 </p>
 
 ## Unterstütze uns
 <a href='https://buymeacoffee.com/aayush262' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 > [!TIPP]
-> ⭐ **Gib diesem Repository einen Stern, um den Entwickler zu unterstützen und die Weiterentwicklung der App zu fördern!**
+> ⭐ **Markiere dieses Repository mit einem Stern, um den Entwickler zu unterstützen und die Weiterentwicklung der Anwendung zu fördern!**
 <details>
-  <summary>Sternverlauf</summary>
+  <summary>Stern-Verlauf</summary>
   <a href="https://github.com/aayush2622/Dartotsu/stargazers">
-      <img alt="Sternverlauf-Diagramm" src="https://starchart.cc/aayush2622/Dartotsu.svg?variant=adaptive" width="370" height="235" />
+      <img alt="Star History Chart" src="https://starchart.cc/aayush2622/Dartotsu.svg?variant=adaptive" width="370" height="235" />
   </a>
 </details>
 
-## Offizielle Communitys
-Tritt unseren Communitys bei, um auf dem Laufenden zu bleiben und an Diskussionen teilzunehmen 
+## Offizielle Communities
+Tritt unseren Communities bei, um auf dem Laufenden zu bleiben und dich an der Diskussion zu beteiligen 
 
 <a href="https://discord.gg/eyQdCpdubF" style="margin-right: 10px; display: inline-block;"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-color-icon.png" alt="Discord" height="40" style="vertical-align: middle;"></a>
 <a href="https://t.me/Dartotsu" style="display: inline-block;"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" height="40" style="vertical-align: middle;"></a>
 <a href="https://www.reddit.com/r/dartotsu" style="display: inline-block;"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/reddit-icon.png" alt="Reddit" height="40" style="vertical-align: middle;"></a>
 
-## Mitmachen
-Wir freuen uns über Beiträge, von Übersetzungen bis zu neuen Funktionen. Für Anfragen tritt unserem [Discord-Server](https://discord.gg/eyQdCpdubF) oder der [Telegram-Gruppe](https://t.me/Dartotsu) bei. Pull Requests sind willkommen; sieh dir die [offenen Issues](https://github.com/aayush2622/Dartotsu/issues) für Hinweise zu größeren Änderungen an.
+## Mitwirken
+Wir freuen uns über Beiträge, von Übersetzungen bis hin zu neuen Funktionen. Für Anfragen tritt unserem [Discord-Server](https://discord.gg/eyQdCpdubF) oder der [Telegram-Gruppe](https://t.me/Dartotsu) bei. Pull Requests sind willkommen; prüfe die [offenen Issues](https://github.com/aayush2622/Dartotsu/issues) für Hinweise zu größeren Änderungen.
+
+**Du möchtest die Struktur verstehen oder effizienter beitragen?**  
+Sieh dir die vollständige Projektdokumentation auf **DeepWiki** für hilfreiche Anleitungen und technische Einblicke an.
+
+<a href="https://deepwiki.com/aayush2622/Dartotsu" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/DeepWiki-blueviolet?label=View%20on&style=for-the-badge&logo=read-the-docs&logoColor=white" alt="DeepWiki" />
+</a>
 
 ### Übersetzung
-Du kannst uns helfen, indem du die App hier in deine Sprache übersetzt
+Du kannst uns helfen, die App hier in deine Sprache zu übersetzen
 
 <a href="https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages"><img src="https://img.shields.io/badge/Weblate-90EE90?label=Translate%20On&style=for-the-badge" alt="Web"/></a>
 <details>
-<summary>Weblate Übersetzungs-Graph</summary>
+
+<summary>Weblate Übersetzungsdiagramm</summary>
 <a href="https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages"><img src="https://hosted.weblate.org/widget/dartotsu/dartotsu/multi-auto.svg" alt="Übersetzungsstatus" /></a>
 </details>
 
@@ -104,19 +111,19 @@ Ein herzliches Dankeschön an alle, die zur Entwicklung von Dartotsu beigetragen
 Eure Bemühungen sind von unschätzbarem Wert.
 
 <a href="https://github.com/aayush2622/Dartotsu/graphs/contributors">
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/aayush2622/Dartotsu?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
+  <img alt="GitHub-Mitwirkende" src="https://img.shields.io/github/contributors/aayush2622/Dartotsu?style=flat-square&label=Mitwirkende%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
 </a>
 <br>
 <a href="https://github.com/aayush2622/Dartotsu/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=aayush2622/Dartotsu" alt="Contributors">
+  <img src="https://contrib.rocks/image?repo=aayush2622/Dartotsu" alt="Mitwirkende">
 </a>
 
 ## Lizenz
-Dartotsu steht unter der Unabandon Public License (UPL). Weitere Informationen finden Sie [hier](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md).
+Dartotsu ist unter der Unabandon Public License (UPL) lizenziert. Weitere Informationen finden Sie [hier](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-27
 
 ---

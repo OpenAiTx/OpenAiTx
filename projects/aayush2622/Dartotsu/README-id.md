@@ -46,29 +46,29 @@
 
 # Dartotsu
 
-**Dartotsu** adalah penulisan ulang total dari [Dantotsu](https://github.com/rebelonion/Dantotsu/) menggunakan Flutter. Ini adalah klien pelacakan hibrida [**AniList**](https://anilist.co/) dan [**MyAnimeList**](https://myanimelist.net/), serta mendukung [**Simkl**](https://simkl.com/)!  
+**Dartotsu** adalah penulisan ulang total dari [Dantotsu](https://github.com/rebelonion/Dantotsu/) menggunakan Flutter. Ini merupakan klien pelacak hybrid [**AniList**](https://anilist.co/) dan [**MyAnimeList**](https://myanimelist.net/), serta mendukung [**Simkl**](https://simkl.com/)!  
 > [!WARNING]
 > Dartotsu hanya untuk pelacakan dan manajemen.
 >
-> Ini **tidak** meng-host, menyediakan, ataupun memelihara konten streaming atau ekstensi.
+> Aplikasi ini **tidak** meng-host, menyediakan, atau memelihara konten streaming maupun ekstensi.
 >
-> Pengguna sepenuhnya bertanggung jawab atas tindakan mereka sendiri. Pengembang menolak semua tanggung jawab atas penyalahgunaan atau masalah hukum. Masalah hukum harus ditujukan ke sumber pihak ketiga, bukan ke Dartotsu.
+> Pengguna sepenuhnya bertanggung jawab atas tindakan mereka sendiri. Pengembang tidak bertanggung jawab atas penyalahgunaan atau masalah hukum. Segala masalah hukum harus ditujukan ke sumber pihak ketiga, bukan ke Dartotsu.
 
 ## Unduhan
 <p align="center">
 
-   <a href="https://github.com/aayush2622/Dartotsu/releases/latest"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&logoColor=168b94&label=Stable&labelColor=06599d&color=043b69" alt="Latest Stable Release"/></a>
-   <a href="https://github.com/aayush2622/Dartotsu/releases/"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&include_prereleases&logoColor=087a87&label=Beta&color=818cf8" alt="Latest Pre-release"/></a>
-   <!--<a  href="https://github.com/aayush2622/Dartotsu/releases/latest"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&display_name=tag&label=Alpha&labelColor=087a87&color=168b94" alt="Latest Alpha Release"/></a>-->
+   <a href="https://github.com/aayush2622/Dartotsu/releases/latest"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&logoColor=168b94&label=Stable&labelColor=06599d&color=043b69" alt="Rilis Stabil Terbaru"/></a>
+   <a href="https://github.com/aayush2622/Dartotsu/releases/"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&include_prereleases&logoColor=087a87&label=Beta&color=818cf8" alt="Prarilis Terbaru"/></a>
+   <!--<a  href="https://github.com/aayush2622/Dartotsu/releases/latest"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&display_name=tag&label=Alpha&labelColor=087a87&color=168b94" alt="Rilis Alpha Terbaru"/></a>-->
    
 > [!NOTE]
-> Unduh, uji, dan bagikan masukan atau masalah Anda di <a href="https://t.me/Dartotsu" target="_blank">Telegram</a> atau <a href="https://discord.gg/eyQdCpdubF" target="_blank">Discord</a>.
+> Unduh, uji, dan bagikan masukan atau masalah melalui <a href="https://t.me/Dartotsu" target="_blank">Telegram</a> atau <a href="https://discord.gg/eyQdCpdubF" target="_blank">Discord</a>.
 </p>
 
 ## Dukung Kami
-<a href='https://buymeacoffee.com/aayush262' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href='https://buymeacoffee.com/aayush262' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Beli Kopi untuk Kami di ko-fi.com' /></a>
 > [!TIP]
-> ⭐ **Beri Bintang Repositori Ini Untuk Mendukung Pengembang Dan Mendukung Pengembangan Aplikasi!**
+> ⭐ **Beri Bintang Repositori Ini Untuk Mendukung Pengembang dan Mendorong Pengembangan Aplikasi!**
 <details>
   <summary>Riwayat Bintang</summary>
   <a href="https://github.com/aayush2622/Dartotsu/stargazers">
@@ -77,30 +77,37 @@
 </details>
 
 ## Komunitas Resmi
-Bergabunglah dengan komunitas kami untuk tetap mendapatkan pembaruan dan berkontribusi dalam diskusi
+Bergabunglah dengan komunitas kami untuk mendapatkan pembaruan dan berkontribusi dalam diskusi 
 
 <a href="https://discord.gg/eyQdCpdubF" style="margin-right: 10px; display: inline-block;"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-color-icon.png" alt="Discord" height="40" style="vertical-align: middle;"></a>
 <a href="https://t.me/Dartotsu" style="display: inline-block;"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" height="40" style="vertical-align: middle;"></a>
 <a href="https://www.reddit.com/r/dartotsu" style="display: inline-block;"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/reddit-icon.png" alt="Reddit" height="40" style="vertical-align: middle;"></a>
 
 ## Kontribusi
-Kami menyambut kontribusi, mulai dari terjemahan hingga fitur baru. Untuk pertanyaan, bergabunglah dengan [server Discord](https://discord.gg/eyQdCpdubF) kami atau [grup Telegram](https://t.me/Dartotsu). Pull request sangat diterima; cek [isu terbuka](https://github.com/aayush2622/Dartotsu/issues) untuk panduan tentang perubahan besar.
+Kami menerima kontribusi, mulai dari terjemahan hingga fitur baru. Untuk pertanyaan, bergabunglah dengan [server Discord](https://discord.gg/eyQdCpdubF) atau [grup Telegram](https://t.me/Dartotsu) kami. Pull request diterima; cek [isu terbuka](https://github.com/aayush2622/Dartotsu/issues) untuk panduan perubahan besar.
+
+**Ingin memahami struktur atau berkontribusi lebih efisien?**  
+Lihat dokumentasi proyek lengkap di **DeepWiki** untuk panduan dan wawasan teknis.
+
+<a href="https://deepwiki.com/aayush2622/Dartotsu" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/DeepWiki-blueviolet?label=View%20on&style=for-the-badge&logo=read-the-docs&logoColor=white" alt="DeepWiki" />
+</a>
 
 ### Terjemahan
-Anda dapat membantu kami dengan menerjemahkan aplikasi ke bahasa Anda di sini
+Anda dapat membantu kami menerjemahkan aplikasi ke dalam bahasa Anda di sini
 
 <a href="https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages"><img src="https://img.shields.io/badge/Weblate-90EE90?label=Translate%20On&style=for-the-badge" alt="Web"/></a>
 <details>
-<summary>Grafik Terjemahan Weblate</summary>
-<a href="https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages"><img src="https://hosted.weblate.org/widget/dartotsu/dartotsu/multi-auto.svg" alt="Translation status" /></a>
+<summary>Grafik Translasi Weblate</summary>
+<a href="https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages"><img src="https://hosted.weblate.org/widget/dartotsu/dartotsu/multi-auto.svg" alt="Status Translasi" /></a>
 </details>
 
 ## Pengunjung
 
 <img src="https://count.getloli.com/@aayush2622?name=dartotsu&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
 
-## Ucapan Terima Kasih
-Terima kasih yang tulus kepada semua yang telah berkontribusi dalam pengembangan Dartotsu.
+## Penghargaan
+Terima kasih yang tulus kepada semua orang yang telah berkontribusi pada pengembangan Dartotsu.
 Upaya Anda sangat berharga.
 
 <a href="https://github.com/aayush2622/Dartotsu/graphs/contributors">
@@ -117,6 +124,6 @@ Dartotsu dilisensikan di bawah Unabandon Public License (UPL). Info lebih lanjut
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-27
 
 ---

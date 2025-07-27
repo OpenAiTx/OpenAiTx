@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Język</summary>
@@ -45,33 +46,33 @@
 
 # Dartotsu
 
-**Dartotsu** to całkowicie przepisana wersja [Dantotsu](https://github.com/rebelonion/Dantotsu/) w technologii Flutter. Jest to hybrydowy klient śledzenia [**AniList**](https://anilist.co/) oraz [**MyAnimeList**](https://myanimelist.net/), z obsługą [**Simkl**](https://simkl.com/)!  
+**Dartotsu** to całkowicie przepisana wersja [Dantotsu](https://github.com/rebelonion/Dantotsu/) w Flutterze. To hybrydowy klient do śledzenia [**AniList**](https://anilist.co/) i [**MyAnimeList**](https://myanimelist.net/), z obsługą [**Simkl**](https://simkl.com/)!  
 > [!WARNING]
 > Dartotsu służy wyłącznie do śledzenia i zarządzania.
 >
 > Nie hostuje, nie udostępnia ani nie utrzymuje treści streamingowych ani rozszerzeń.
 >
-> Użytkownicy ponoszą pełną odpowiedzialność za swoje działania. Twórca nie ponosi odpowiedzialności za niewłaściwe użycie ani kwestie prawne. Wszelkie kwestie prawne należy kierować do zewnętrznych źródeł, nie do Dartotsu.
+> Użytkownicy ponoszą pełną odpowiedzialność za swoje działania. Twórca zrzeka się odpowiedzialności za niewłaściwe użytkowanie lub kwestie prawne. Wszelkie problemy prawne należy kierować do źródeł zewnętrznych, nie do Dartotsu.
 
 ## Pobierz
 <p align="center">
 
-   <a href="https://github.com/aayush2622/Dartotsu/releases/latest"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&logoColor=168b94&label=Stable&labelColor=06599d&color=043b69" alt="Latest Stable Release"/></a>
-   <a href="https://github.com/aayush2622/Dartotsu/releases/"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&include_prereleases&logoColor=087a87&label=Beta&color=818cf8" alt="Latest Pre-release"/></a>
-   <!--<a  href="https://github.com/aayush2622/Dartotsu/releases/latest"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&display_name=tag&label=Alpha&labelColor=087a87&color=168b94" alt="Latest Alpha Release"/></a>-->
+   <a href="https://github.com/aayush2622/Dartotsu/releases/latest"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&logoColor=168b94&label=Stable&labelColor=06599d&color=043b69" alt="Najnowsza wersja stabilna"/></a>
+   <a href="https://github.com/aayush2622/Dartotsu/releases/"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&include_prereleases&logoColor=087a87&label=Beta&color=818cf8" alt="Najnowsza wersja beta"/></a>
+   <!--<a  href="https://github.com/aayush2622/Dartotsu/releases/latest"><img src="https://img.shields.io/github/v/release/aayush2622/Dartotsu?style=for-the-badge&display_name=tag&label=Alpha&labelColor=087a87&color=168b94" alt="Najnowsza wersja alpha"/></a>-->
    
 > [!NOTE]
-> Pobierz, przetestuj i podziel się opinią lub zgłaszaj błędy na <a href="https://t.me/Dartotsu" target="_blank">Telegramie</a> lub <a href="https://discord.gg/eyQdCpdubF" target="_blank">Discordzie</a>.
+> Pobierz, testuj i podziel się opinią lub zgłoś błędy na <a href="https://t.me/Dartotsu" target="_blank">Telegramie</a> lub <a href="https://discord.gg/eyQdCpdubF" target="_blank">Discordzie</a>.
 </p>
 
 ## Wesprzyj nas
-<a href='https://buymeacoffee.com/aayush262' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href='https://buymeacoffee.com/aayush262' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Postaw kawę na ko-fi.com' /></a>
 > [!TIP]
-> ⭐ **Oznacz repozytorium gwiazdką, aby wesprzeć twórcę i zachęcić do rozwoju aplikacji!**
+> ⭐ **Dodaj gwiazdkę temu repozytorium, aby wesprzeć twórcę i zachęcić do dalszego rozwoju aplikacji!**
 <details>
   <summary>Historia gwiazdek</summary>
   <a href="https://github.com/aayush2622/Dartotsu/stargazers">
-      <img alt="Star History Chart" src="https://starchart.cc/aayush2622/Dartotsu.svg?variant=adaptive" width="370" height="235" />
+      <img alt="Wykres historii gwiazdek" src="https://starchart.cc/aayush2622/Dartotsu.svg?variant=adaptive" width="370" height="235" />
   </a>
 </details>
 
@@ -83,7 +84,14 @@ Dołącz do naszych społeczności, aby być na bieżąco i brać udział w dysk
 <a href="https://www.reddit.com/r/dartotsu" style="display: inline-block;"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/reddit-icon.png" alt="Reddit" height="40" style="vertical-align: middle;"></a>
 
 ## Współtwórz
-Zapraszamy do współpracy, od tłumaczeń po nowe funkcje. W razie pytań dołącz do naszego [serwera Discord](https://discord.gg/eyQdCpdubF) lub [grupy na Telegramie](https://t.me/Dartotsu). Pull requesty są mile widziane; sprawdź [otwarte zgłoszenia](https://github.com/aayush2622/Dartotsu/issues) po wskazówki dotyczące większych zmian.
+Zachęcamy do współpracy – od tłumaczeń po nowe funkcje. W przypadku pytań dołącz do naszego [serwera Discord](https://discord.gg/eyQdCpdubF) lub [grupy Telegram](https://t.me/Dartotsu). Pull requesty są mile widziane; zobacz [otwarte zgłoszenia](https://github.com/aayush2622/Dartotsu/issues) po wskazówki dotyczące większych zmian.
+
+**Chcesz zrozumieć strukturę lub współtworzyć wydajniej?**  
+Sprawdź pełną dokumentację projektu na **DeepWiki** – znajdziesz tam pomocne przewodniki i informacje techniczne.
+
+<a href="https://deepwiki.com/aayush2622/Dartotsu" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/DeepWiki-blueviolet?label=View%20on&style=for-the-badge&logo=read-the-docs&logoColor=white" alt="DeepWiki" />
+</a>
 
 ### Tłumaczenie
 Możesz nam pomóc tłumacząc aplikację na swój język tutaj
@@ -91,32 +99,31 @@ Możesz nam pomóc tłumacząc aplikację na swój język tutaj
 <a href="https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages"><img src="https://img.shields.io/badge/Weblate-90EE90?label=Translate%20On&style=for-the-badge" alt="Web"/></a>
 <details>
 <summary>Wykres tłumaczeń Weblate</summary>
-<a href="https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages"><img src="https://hosted.weblate.org/widget/dartotsu/dartotsu/multi-auto.svg" alt="Translation status" /></a>
+<a href="https://hosted.weblate.org/projects/dartotsu/dartotsu/#languages"><img src="https://hosted.weblate.org/widget/dartotsu/dartotsu/multi-auto.svg" alt="Status tłumaczenia" /></a>
 </details>
 
 ## Odwiedzający
 
 <img src="https://count.getloli.com/@aayush2622?name=dartotsu&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
 
-
 ## Podziękowania
 Serdeczne podziękowania dla wszystkich, którzy przyczynili się do rozwoju Dartotsu.
 Wasz wkład jest nieoceniony.
 
 <a href="https://github.com/aayush2622/Dartotsu/graphs/contributors">
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/aayush2622/Dartotsu?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
+  <img alt="Współtwórcy GitHub" src="https://img.shields.io/github/contributors/aayush2622/Dartotsu?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
 </a>
 <br>
 <a href="https://github.com/aayush2622/Dartotsu/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=aayush2622/Dartotsu" alt="Contributors">
+  <img src="https://contrib.rocks/image?repo=aayush2622/Dartotsu" alt="Współtwórcy">
 </a>
 
 ## Licencja
-Dartotsu jest objęty licencją Unabandon Public License (UPL). Więcej informacji można znaleźć [tutaj](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md).
+Dartotsu jest licencjonowany na podstawie Unabandon Public License (UPL). Więcej informacji znajdziesz [tutaj](https://raw.githubusercontent.com/aayush2622/Dartotsu/main/LICENSE.md).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-27
 
 ---
