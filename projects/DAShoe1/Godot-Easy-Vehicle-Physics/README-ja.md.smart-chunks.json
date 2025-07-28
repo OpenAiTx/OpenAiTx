@@ -1,0 +1,315 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Godot-Easy-Vehicle-Physics\nA ray cast based rigid body vehicle system for Godot 4.2 and above\n\n## Description\nA physics based vehicle controller designed to play well on a keyboard and be easy to configure. All parameters are contained in one script (vehicle.gd) and tooltips are provided for all of them.\n\n## Features\nThis controller features many systems that assist with making a competent vehicle such as:\n- Steering Assists\n- Countersteer Assists\n- Traction Control\n- Anti-Lock Brakes\n- Stability Assist\n- In Air Assist\n- Automatic Gearbox\n- Locking Differentials\n- Tire Grip Assists\n- Calculated suspension parameters; proper suspension parameters can be difficult to get right, therefore this controller will calculate spring rates and damping rates based on ratios and weight distribution.\n\n## Examples\n4 example vehicles are included:\n- demo_arcade.tscn: Handles similar to an arcade style race car, lots of grip, easy to control, and lots of assists.\n- demo_simcade.tscn: Handles closer to a real car with assists to help keep the car under control.\n- demo_monster_truck.tscn: Handles like a monster truck, with very little assists.\n- demo_drift.tscn: Setup for easy drifting.\n\n## Controls\n- Steering: Left: ← or a Right: → or d\n- Throttle: ↑ or w\n- Brake: ↓ or s\n- Handbrake: Space\n- Clutch: C\n- Toggle Gearbox (Auto/Manual): T\n- Shift Up: F or +\n- Shift Down: R or -\n- Debug Info: ~\n- Switch Debug Screens: < or >\n\n## Physics Engine\nThis controller works well in both the Godot and Jolt physics engines. A physics tick rate of at least 120 is recommended and higher values can be used, but note that vehicle behavior will be different when switching tick rates.\n\n## Acknowledgments\nHuge thanks to Dechode and Wolfe for sharing their projects to the Godot community. Sharing this project is my way of paying it forward. Portions of this code are based on [Dechode's Godot Advanced Vehicle](https://github.com/Dechode/Godot-Advanced-Vehicle) and [SERIES: Driving Simulator Workshop](https://lupine-vidya.itch.io/gdsim/devlog/677572/series-driving-simulator-workshop-mirror) and attribution is included in the appropriate source files.\nThe car model provided as a demo is from [Kenney.nl Car Kit](https://www.kenney.nl/assets/car-kit)\n\n## Projects using Godot Easy Vehicle Physics\nIf you are working on a project using this add-on and want to list it here, open an issue to let me know.\n- [Jack of all Cars](https://dashoe1.itch.io/jack-of-all-cars)\n- [Another Lap](https://store.steampowered.com/app/3550210/Another_Lap/)\n",
+    "ContentSha": "LIyAT05lrpuhp6uH8iGE9VmIIEftlDMf0NXX5resy5Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Godot-Easy-Vehicle-Physics\nGodot 4.2以降対応のレイキャストベースの剛体車両システム\n\n## 説明\nキーボード操作に適した、設定が簡単な物理ベースの車両コントローラーです。すべてのパラメータは1つのスクリプト（vehicle.gd）にまとめられており、すべてにツールチップが付いています。\n\n## 特徴\nこのコントローラーには、以下のような優れた車両を作るための多くの支援システムが搭載されています：\n- ステアリングアシスト\n- カウンターステアアシスト\n- トラクションコントロール\n- アンチロックブレーキ\n- 安定性アシスト\n- 空中アシスト\n- 自動ギアボックス\n- ロッキングディファレンシャル\n- タイヤグリップアシスト\n- 計算されたサスペンションパラメータ；適切なサスペンションパラメータの設定は難しいため、このコントローラーは比率と重量配分に基づいてバネ定数と減衰率を計算します。\n\n## 例\n4つのサンプル車両が含まれています：\n- demo_arcade.tscn: アーケードスタイルのレーシングカーのような操作感。グリップが強く、操作が簡単で多くのアシストを搭載。\n- demo_simcade.tscn: 実車に近い操作感で、車の制御を助けるアシスト付き。\n- demo_monster_truck.tscn: モンスタートラックのような操作感で、アシストはほとんどなし。\n- demo_drift.tscn: 簡単にドリフトできるように設定。\n\n## 操作方法\n- ステアリング：左：← または a 右：→ または d\n- アクセル：↑ または w\n- ブレーキ：↓ または s\n- ハンドブレーキ：スペース\n- クラッチ：C\n- ギアボックス切替（オート/マニュアル）：T\n- ギアアップ：F または +\n- ギアダウン：R または -\n- デバッグ情報表示：~\n- デバッグ画面切替：< または >\n\n## 物理エンジン\nこのコントローラーはGodotとJoltの両方の物理エンジンで良好に動作します。物理ティックレートは少なくとも120を推奨しており、より高い値も使用可能ですが、ティックレートを変更すると車両挙動が異なることに注意してください。\n\n## 謝辞\nDechode氏とWolfe氏がGodotコミュニティにプロジェクトを共有してくれたことに大きく感謝します。このプロジェクトを共有することは恩返しの一つです。このコードの一部は[DechodeのGodot Advanced Vehicle](https://github.com/Dechode/Godot-Advanced-Vehicle)および[SERIES: Driving Simulator Workshop](https://lupine-vidya.itch.io/gdsim/devlog/677572/series-driving-simulator-workshop-mirror)に基づいており、適切なソースファイルに帰属情報を記載しています。\nデモ用の車両モデルは[Kenney.nl Car Kit](https://www.kenney.nl/assets/car-kit)から提供されています。\n\n## Godot Easy Vehicle Physicsを使用したプロジェクト\nこのアドオンを使用したプロジェクトをここに掲載したい場合は、Issueを開いてお知らせください。\n- [Jack of all Cars](https://dashoe1.itch.io/jack-of-all-cars)\n- [Another Lap](https://store.steampowered.com/app/3550210/Another_Lap/)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oj99P7YAAoW00XbIY2Q3upQ2Tzclyweujfa+d/wjc84=",
+        "originContent": "# Godot-Easy-Vehicle-Physics",
+        "translatedContent": "# Godot-Easy-Vehicle-Physics"
+      },
+      {
+        "row": 2,
+        "rowsha": "Gbr4a1BC6VFwUMA+Oqbp09y+2T+/rtBv3kRmiHjB2Og=",
+        "originContent": "A ray cast based rigid body vehicle system for Godot 4.2 and above",
+        "translatedContent": "Godot 4.2以降対応のレイキャストベースの剛体車両システム"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "K0XdQb6cPR2XYn4/Xr3GLliF7Co62hbZTlUnZJsZ2Bk=",
+        "originContent": "## Description",
+        "translatedContent": "## 説明"
+      },
+      {
+        "row": 5,
+        "rowsha": "20T+R0rkx0kH1I3RZc3NNvP0q+VD8OIVTNG1WGh68tU=",
+        "originContent": "A physics based vehicle controller designed to play well on a keyboard and be easy to configure. All parameters are contained in one script (vehicle.gd) and tooltips are provided for all of them.",
+        "translatedContent": "キーボード操作に適した、設定が簡単な物理ベースの車両コントローラーです。すべてのパラメータは1つのスクリプト（vehicle.gd）にまとめられており、すべてにツールチップが付いています。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 特徴"
+      },
+      {
+        "row": 8,
+        "rowsha": "AMxu7pMfGrkNlgkx5eLBRzpnPiBfhLR16CaXdjRl1dU=",
+        "originContent": "This controller features many systems that assist with making a competent vehicle such as:",
+        "translatedContent": "このコントローラーには、以下のような優れた車両を作るための多くの支援システムが搭載されています："
+      },
+      {
+        "row": 9,
+        "rowsha": "szQuD/Vbh6F8oF2uvWCZEW7DC7SIFeGnvCs1dnRstqY=",
+        "originContent": "- Steering Assists",
+        "translatedContent": "- ステアリングアシスト"
+      },
+      {
+        "row": 10,
+        "rowsha": "yjKkEvwjOxGyOn1Q/2z/ULNypc4MP7agP0zq2NmIzBo=",
+        "originContent": "- Countersteer Assists",
+        "translatedContent": "- カウンターステアアシスト"
+      },
+      {
+        "row": 11,
+        "rowsha": "NEDRtTXUndU1Cxd7AB1m4JFxhCsXAEV1M2gwdRaCJe8=",
+        "originContent": "- Traction Control",
+        "translatedContent": "- トラクションコントロール"
+      },
+      {
+        "row": 12,
+        "rowsha": "SkP0G2yrX7tkxPo9BJ5xFCCCJkRkHm3ISGD+8q4x3/A=",
+        "originContent": "- Anti-Lock Brakes",
+        "translatedContent": "- アンチロックブレーキ"
+      },
+      {
+        "row": 13,
+        "rowsha": "aOkIIy9Ay+LTiJepQCWPcASsoVu9ycS6chuTKIBfCAI=",
+        "originContent": "- Stability Assist",
+        "translatedContent": "- 安定性アシスト"
+      },
+      {
+        "row": 14,
+        "rowsha": "V7qWkLacDhAYPGFelSBydT/Lbk3LTDdrNWc0Ei1JsK0=",
+        "originContent": "- In Air Assist",
+        "translatedContent": "- 空中アシスト"
+      },
+      {
+        "row": 15,
+        "rowsha": "L0IyYMKbtDkCClmPMb4ZPNq7wpBQOh5apyppcn730Nk=",
+        "originContent": "- Automatic Gearbox",
+        "translatedContent": "- 自動ギアボックス"
+      },
+      {
+        "row": 16,
+        "rowsha": "I2McDuS44rQ0uCPTYGzYhASMymAKrux+PrirLah8/iE=",
+        "originContent": "- Locking Differentials",
+        "translatedContent": "- ロッキングディファレンシャル"
+      },
+      {
+        "row": 17,
+        "rowsha": "xgB7m/RC3jrVz9vMm4r48m6tE8uKeQI+Y1ToXR8Htzs=",
+        "originContent": "- Tire Grip Assists",
+        "translatedContent": "- タイヤグリップアシスト"
+      },
+      {
+        "row": 18,
+        "rowsha": "7PhbwbiTcCX+3g4FExBEq7l+5zbIfjmpwu7huNhzOuo=",
+        "originContent": "- Calculated suspension parameters; proper suspension parameters can be difficult to get right, therefore this controller will calculate spring rates and damping rates based on ratios and weight distribution.",
+        "translatedContent": "- 計算されたサスペンションパラメータ；適切なサスペンションパラメータの設定は難しいため、このコントローラーは比率と重量配分に基づいてバネ定数と減衰率を計算します。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+        "originContent": "## Examples",
+        "translatedContent": "## 例"
+      },
+      {
+        "row": 21,
+        "rowsha": "VaNd76lDP6pkpEHmmAqlQY8wRyBEAEkoSctus3utDvA=",
+        "originContent": "4 example vehicles are included:",
+        "translatedContent": "4つのサンプル車両が含まれています："
+      },
+      {
+        "row": 22,
+        "rowsha": "l/6NxKehRvPfaAjpWa2G4y0kQmejkYDHYuAyRKhvgR0=",
+        "originContent": "- demo_arcade.tscn: Handles similar to an arcade style race car, lots of grip, easy to control, and lots of assists.",
+        "translatedContent": "- demo_arcade.tscn: アーケードスタイルのレーシングカーのような操作感。グリップが強く、操作が簡単で多くのアシストを搭載。"
+      },
+      {
+        "row": 23,
+        "rowsha": "4ROV6z45Q8wLAL3eIB2oRJfhmoa413GiJvlvGufh5co=",
+        "originContent": "- demo_simcade.tscn: Handles closer to a real car with assists to help keep the car under control.",
+        "translatedContent": "- demo_simcade.tscn: 実車に近い操作感で、車の制御を助けるアシスト付き。"
+      },
+      {
+        "row": 24,
+        "rowsha": "gX/SfmKqNkrFRuGlK7rbWwIdJwRqkZpWQWSPooEjFrs=",
+        "originContent": "- demo_monster_truck.tscn: Handles like a monster truck, with very little assists.",
+        "translatedContent": "- demo_monster_truck.tscn: モンスタートラックのような操作感で、アシストはほとんどなし。"
+      },
+      {
+        "row": 25,
+        "rowsha": "uJ7shCgpq5FUcQVKHnwHXuUvo1g1ZKOU1Y4BFXpMl4o=",
+        "originContent": "- demo_drift.tscn: Setup for easy drifting.",
+        "translatedContent": "- demo_drift.tscn: 簡単にドリフトできるように設定。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "DEh4+C5CjIUHCcOSGAK4l9n/gS5w5QTSL+jcGOyrPcQ=",
+        "originContent": "## Controls",
+        "translatedContent": "## 操作方法"
+      },
+      {
+        "row": 28,
+        "rowsha": "oEQjWn97GxcIb7du9f9wPDEE5s9oGxYhFuyIXg9YEu8=",
+        "originContent": "- Steering: Left: ← or a Right: → or d",
+        "translatedContent": "- ステアリング：左：← または a 右：→ または d"
+      },
+      {
+        "row": 29,
+        "rowsha": "GSJcgZZj3lD1cw46rNxy87iTbX3/YR6OzOPKqeCCxJM=",
+        "originContent": "- Throttle: ↑ or w",
+        "translatedContent": "- アクセル：↑ または w"
+      },
+      {
+        "row": 30,
+        "rowsha": "yttOQt4Kn+HJMmGqDYAfqt9bwEL032wIAmfH2BC+ZD0=",
+        "originContent": "- Brake: ↓ or s",
+        "translatedContent": "- ブレーキ：↓ または s"
+      },
+      {
+        "row": 31,
+        "rowsha": "P+SRx4Vtk/iZkVp5cLjUgdMQECQ65AY6W7bhIbjDzOg=",
+        "originContent": "- Handbrake: Space",
+        "translatedContent": "- ハンドブレーキ：スペース"
+      },
+      {
+        "row": 32,
+        "rowsha": "ZUz24G4bDGIhlSMIrw5UJpIkzwGbb9Rv3WTeZC6ZeGA=",
+        "originContent": "- Clutch: C",
+        "translatedContent": "- クラッチ：C"
+      },
+      {
+        "row": 33,
+        "rowsha": "Dbg63oIKuaY7SOlk4eC3mhBXAZ8Js+9To9rRPVV3bIU=",
+        "originContent": "- Toggle Gearbox (Auto/Manual): T",
+        "translatedContent": "- ギアボックス切替（オート/マニュアル）：T"
+      },
+      {
+        "row": 34,
+        "rowsha": "lVrQ8qx99A4P7atgclUatDCI+Tp/z3zA5iEMvBkgblY=",
+        "originContent": "- Shift Up: F or +",
+        "translatedContent": "- ギアアップ：F または +"
+      },
+      {
+        "row": 35,
+        "rowsha": "VV2vaAGscK98ng5pPaawRmq4XbPEePAynp5nxIOUy9k=",
+        "originContent": "- Shift Down: R or -",
+        "translatedContent": "- ギアダウン：R または -"
+      },
+      {
+        "row": 36,
+        "rowsha": "CK9DTA607faQ5C0C+iV31tta8AwYzqOUf16J3rOe5/Y=",
+        "originContent": "- Debug Info: ~",
+        "translatedContent": "- デバッグ情報表示：~"
+      },
+      {
+        "row": 37,
+        "rowsha": "qpJDrcGKjwM4viGDimucgcWjJuOX2Bg2JtN7nT0Oo+I=",
+        "originContent": "- Switch Debug Screens: < or >",
+        "translatedContent": "- デバッグ画面切替：< または >"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "Lf8AOmASpvDw3u0vtfL4j3QuXgcUTdIhuwnqekaxGNo=",
+        "originContent": "## Physics Engine",
+        "translatedContent": "## 物理エンジン"
+      },
+      {
+        "row": 40,
+        "rowsha": "e2Ez0lTefEEUsLJkKdwOtmfOywZEH/wL5kVICNziftk=",
+        "originContent": "This controller works well in both the Godot and Jolt physics engines. A physics tick rate of at least 120 is recommended and higher values can be used, but note that vehicle behavior will be different when switching tick rates.",
+        "translatedContent": "このコントローラーはGodotとJoltの両方の物理エンジンで良好に動作します。物理ティックレートは少なくとも120を推奨しており、より高い値も使用可能ですが、ティックレートを変更すると車両挙動が異なることに注意してください。"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+        "originContent": "## Acknowledgments",
+        "translatedContent": "## 謝辞"
+      },
+      {
+        "row": 43,
+        "rowsha": "BB1plaGySr7KopLuWTFlGdzpMq4SCamHLSvkMm0WSpo=",
+        "originContent": "Huge thanks to Dechode and Wolfe for sharing their projects to the Godot community. Sharing this project is my way of paying it forward. Portions of this code are based on [Dechode's Godot Advanced Vehicle](https://github.com/Dechode/Godot-Advanced-Vehicle) and [SERIES: Driving Simulator Workshop](https://lupine-vidya.itch.io/gdsim/devlog/677572/series-driving-simulator-workshop-mirror) and attribution is included in the appropriate source files.",
+        "translatedContent": "Dechode氏とWolfe氏がGodotコミュニティにプロジェクトを共有してくれたことに大きく感謝します。このプロジェクトを共有することは恩返しの一つです。このコードの一部は[DechodeのGodot Advanced Vehicle](https://github.com/Dechode/Godot-Advanced-Vehicle)および[SERIES: Driving Simulator Workshop](https://lupine-vidya.itch.io/gdsim/devlog/677572/series-driving-simulator-workshop-mirror)に基づいており、適切なソースファイルに帰属情報を記載しています。"
+      },
+      {
+        "row": 44,
+        "rowsha": "m3cU2YDm15DYtQNVHgpjXbHIS3pfYVdzbPTyr/H+uE0=",
+        "originContent": "The car model provided as a demo is from [Kenney.nl Car Kit](https://www.kenney.nl/assets/car-kit)",
+        "translatedContent": "デモ用の車両モデルは[Kenney.nl Car Kit](https://www.kenney.nl/assets/car-kit)から提供されています。"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "w/k1kJ5Qt9aTp4P198zlXFzTFsYMpvTc9e1+nrXgIM8=",
+        "originContent": "## Projects using Godot Easy Vehicle Physics",
+        "translatedContent": "## Godot Easy Vehicle Physicsを使用したプロジェクト"
+      },
+      {
+        "row": 47,
+        "rowsha": "0JhkjwL5vWeW197wpjK+Pj+q9Zj7EmyCc3M0MIubVxE=",
+        "originContent": "If you are working on a project using this add-on and want to list it here, open an issue to let me know.",
+        "translatedContent": "このアドオンを使用したプロジェクトをここに掲載したい場合は、Issueを開いてお知らせください。"
+      },
+      {
+        "row": 48,
+        "rowsha": "FK5NQmHKc3gm6+yL2OTz3MCJhTP9Smw48EJLotbNdOM=",
+        "originContent": "- [Jack of all Cars](https://dashoe1.itch.io/jack-of-all-cars)",
+        "translatedContent": "- [Jack of all Cars](https://dashoe1.itch.io/jack-of-all-cars)"
+      },
+      {
+        "row": 49,
+        "rowsha": "OJWetQ/DHhsuy8LQx7sLz8TXaEjEoxprPVhlrCqs3oE=",
+        "originContent": "- [Another Lap](https://store.steampowered.com/app/3550210/Another_Lap/)",
+        "translatedContent": "- [Another Lap](https://store.steampowered.com/app/3550210/Another_Lap/)"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

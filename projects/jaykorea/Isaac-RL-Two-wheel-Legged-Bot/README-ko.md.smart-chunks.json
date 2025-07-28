@@ -1,0 +1,843 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Isaac LAB for Flamingo\n\n[![IsaacSim](https://img.shields.io/badge/IsaacSim-4.5-silver.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)\n[![IsaacLab](https://img.shields.io/badge/Lab-2.0.0-silver)](https://isaac-orbit.github.io/orbit/)\n[![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://docs.python.org/3/whatsnew/3.10.html)\n[![Linux platform](https://img.shields.io/badge/platform-linux--64-orange.svg)](https://releases.ubuntu.com/20.04/)\n[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)\n[![License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/license/mit)\n\n## **✨ New Features - Updated 🚀**\n✔️ **Flamingo rev.0.1.4**: Latest version of Flamingo added.  \n✔️ **Flamingo Edu v1**: Flamingo Edu version added.  \n✔️ **Stack Environment**: Observations can be stacked with arguments.  \n✔️ **Constraint Manager**: [Constraints as Termination (CaT)](https://arxiv.org/abs/2403.18765) method implementation added.  \n✔️ **CoRL**: Based on [rsl_rl](https://github.com/leggedrobotics/rsl_rl) library, off-policy algorithms are implemented on `off_policy_runner`.  \n\n## Sim2Real - ZeroShot Transfer\n<table>\n    <td><img src=\"https://github.com/user-attachments/assets/bb14612c-85c2-43ce-a7df-8b09ee4d3f69\" width=\"800\" height=\"400\"/></td>\n</table>\n<table>\n  <tr>\n    <td><img src=\"https://github.com/user-attachments/assets/8f9f990d-e8e9-400a-82b2-1131ff73f891\" width=\"385\" height=\"170\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/93c6b187-4680-435e-800a-9e6d3d570d13\" width=\"385\" height=\"170\"/></td>\n  </tr>\n  <tr>\n    <td><img src=\"https://github.com/user-attachments/assets/9991ff73-5b3e-4d10-9b63-548197f18e54\" width=\"385\" height=\"170\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/545fd258-1add-499a-8c62-520e113a951b\" width=\"385\" height=\"170\"/></td>\n  </tr>\n</table>\n\n\n## Isaac Lab Flamingo\n<table>\n  <tr>\n    <td><img src=\"https://github.com/user-attachments/assets/0037889b-bab7-4686-a9a5-46ea9bbe6ac2\" width=\"385\" height=\"240\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/16d8d025-7e57-479a-80d4-9cfef2cf9b6b\" width=\"385\" height=\"240\"/></td>\n  </tr>\n</table>\n\n## Sim 2 Sim framework - Lab to MuJoCo\n<table>\n  <tr>\n    <td><img src=\"https://github.com/user-attachments/assets/edcc4077-e082-4fce-90a6-b10c94869aad\" width=\"385\" height=\"240\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/df58b2db-00c6-4228-a953-eb605dee2797\" width=\"385\" height=\"240\"/></td>\n  </tr>\n</table>\n\n- Simulation to Simulation framework is available on sim2sim_onnx branch (Currently on migration update)\n- You can simply inference trained policy (basically export as .onnx from isaac lab)\n\n## Setup\n- This repo is tested on Ubuntu 20.04, and I recommend you to install 'local install'\n### 1. Install Isaac Sim",
+    "ContentSha": "VhurwrMFkOF1J0XBC5+Ay3LoyYJI3b6IJeS1+xjPckc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Isaac LAB for Flamingo\n\n[![IsaacSim](https://img.shields.io/badge/IsaacSim-4.5-silver.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)\n[![IsaacLab](https://img.shields.io/badge/Lab-2.0.0-silver)](https://isaac-orbit.github.io/orbit/)\n[![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://docs.python.org/3/whatsnew/3.10.html)\n[![Linux platform](https://img.shields.io/badge/platform-linux--64-orange.svg)](https://releases.ubuntu.com/20.04/)\n[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)\n[![License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/license/mit)\n\n## **✨ 새로운 기능 - 업데이트 🚀**\n✔️ **Flamingo rev.0.1.4**: 최신 버전의 Flamingo 추가.  \n✔️ **Flamingo Edu v1**: Flamingo Edu 버전 추가.  \n✔️ **스택 환경**: 인수와 함께 관측값을 스택할 수 있음.  \n✔️ **제약 조건 관리자**: [종료 조건으로서의 제약 (CaT)](https://arxiv.org/abs/2403.18765) 방법 구현 추가.  \n✔️ **CoRL**: [rsl_rl](https://github.com/leggedrobotics/rsl_rl) 라이브러리를 기반으로 오프폴리시 알고리즘이 `off_policy_runner`에 구현됨.  \n\n## Sim2Real - 제로샷 전이\n<table>\n    <td><img src=\"https://github.com/user-attachments/assets/bb14612c-85c2-43ce-a7df-8b09ee4d3f69\" width=\"800\" height=\"400\"/></td>\n</table>\n<table>\n  <tr>\n    <td><img src=\"https://github.com/user-attachments/assets/8f9f990d-e8e9-400a-82b2-1131ff73f891\" width=\"385\" height=\"170\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/93c6b187-4680-435e-800a-9e6d3d570d13\" width=\"385\" height=\"170\"/></td>\n  </tr>\n  <tr>\n    <td><img src=\"https://github.com/user-attachments/assets/9991ff73-5b3e-4d10-9b63-548197f18e54\" width=\"385\" height=\"170\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/545fd258-1add-499a-8c62-520e113a951b\" width=\"385\" height=\"170\"/></td>\n  </tr>\n</table>\n\n\n## Isaac Lab Flamingo\n<table>\n  <tr>\n    <td><img src=\"https://github.com/user-attachments/assets/0037889b-bab7-4686-a9a5-46ea9bbe6ac2\" width=\"385\" height=\"240\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/16d8d025-7e57-479a-80d4-9cfef2cf9b6b\" width=\"385\" height=\"240\"/></td>\n  </tr>\n</table>\n\n## Sim 2 Sim 프레임워크 - Lab에서 MuJoCo로\n<table>\n  <tr>\n    <td><img src=\"https://github.com/user-attachments/assets/edcc4077-e082-4fce-90a6-b10c94869aad\" width=\"385\" height=\"240\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/df58b2db-00c6-4228-a953-eb605dee2797\" width=\"385\" height=\"240\"/></td>\n  </tr>\n</table>\n\n- 시뮬레이션 간 프레임워크는 sim2sim_onnx 브랜치에서 사용할 수 있음 (현재 마이그레이션 업데이트 중)\n- 훈련된 정책을 간단히 추론할 수 있음 (기본적으로 isaac lab에서 .onnx로 내보내기)\n\n## 설치\n- 이 저장소는 Ubuntu 20.04에서 테스트되었으며, '로컬 설치'를 권장합니다.\n### 1. Isaac Sim 설치",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "IjkwRYwo4vNmSFdVLNBeycEo/AygFW0oWS4DQBF+Iog=",
+        "originContent": "# Isaac LAB for Flamingo",
+        "translatedContent": "# Isaac LAB for Flamingo"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "RCxSARAZx9XoScFPhLGgoAjfQlQhi9f5a5AlmoVaW38=",
+        "originContent": "[![IsaacSim](https://img.shields.io/badge/IsaacSim-4.5-silver.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)",
+        "translatedContent": "[![IsaacSim](https://img.shields.io/badge/IsaacSim-4.5-silver.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)"
+      },
+      {
+        "row": 4,
+        "rowsha": "dvQwU9N0N4aSMSV3bHU3QuvKSEPHJXgUiR5MxkwaC0Y=",
+        "originContent": "[![IsaacLab](https://img.shields.io/badge/Lab-2.0.0-silver)](https://isaac-orbit.github.io/orbit/)",
+        "translatedContent": "[![IsaacLab](https://img.shields.io/badge/Lab-2.0.0-silver)](https://isaac-orbit.github.io/orbit/)"
+      },
+      {
+        "row": 5,
+        "rowsha": "EUtq0DV5+XCqTL9q2DexX1X6EaihB/VuopUQZXAt6R0=",
+        "originContent": "[![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://docs.python.org/3/whatsnew/3.10.html)",
+        "translatedContent": "[![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://docs.python.org/3/whatsnew/3.10.html)"
+      },
+      {
+        "row": 6,
+        "rowsha": "k3Xg5fLY+AQVRv6f7+UNYSXPGWP1uS+bTfB8ClCJCaE=",
+        "originContent": "[![Linux platform](https://img.shields.io/badge/platform-linux--64-orange.svg)](https://releases.ubuntu.com/20.04/)",
+        "translatedContent": "[![Linux platform](https://img.shields.io/badge/platform-linux--64-orange.svg)](https://releases.ubuntu.com/20.04/)"
+      },
+      {
+        "row": 7,
+        "rowsha": "0vDGpGKuWSwHSoe3m3k+L6pR9becc0ylbMBg8Yky+AM=",
+        "originContent": "[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)",
+        "translatedContent": "[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)"
+      },
+      {
+        "row": 8,
+        "rowsha": "G9Zv9BOGAuUfQqME5vBmnsC4E3RD+/MsRDL4V01cd6A=",
+        "originContent": "[![License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/license/mit)",
+        "translatedContent": "[![License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/license/mit)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "DU/Kfxas57FSFkkqoXGEGQVM+oYWI7jIju+Ou17ouhE=",
+        "originContent": "## **✨ New Features - Updated 🚀**",
+        "translatedContent": "## **✨ 새로운 기능 - 업데이트 🚀**"
+      },
+      {
+        "row": 11,
+        "rowsha": "XU+m8QZAS0sXPqHofu5CazjflMR4pEgoqKAD4tBZLZw=",
+        "originContent": "✔️ **Flamingo rev.0.1.4**: Latest version of Flamingo added.  ",
+        "translatedContent": "✔️ **Flamingo rev.0.1.4**: 최신 버전의 Flamingo 추가.  "
+      },
+      {
+        "row": 12,
+        "rowsha": "Y0OHbHC68S6PTY1+So1/1ZMq0NfnZHyYAAa4wZPWy2Q=",
+        "originContent": "✔️ **Flamingo Edu v1**: Flamingo Edu version added.  ",
+        "translatedContent": "✔️ **Flamingo Edu v1**: Flamingo Edu 버전 추가.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "3kPzCHKOJFZyZXP7ld2x80GMSi85OY8jMldY2yF3cYI=",
+        "originContent": "✔️ **Stack Environment**: Observations can be stacked with arguments.  ",
+        "translatedContent": "✔️ **스택 환경**: 인수와 함께 관측값을 스택할 수 있음.  "
+      },
+      {
+        "row": 14,
+        "rowsha": "9S6SMrK82Bnx8cbFO1cihTFW8EF7BqIp7YDBI16yoVk=",
+        "originContent": "✔️ **Constraint Manager**: [Constraints as Termination (CaT)](https://arxiv.org/abs/2403.18765) method implementation added.  ",
+        "translatedContent": "✔️ **제약 조건 관리자**: [종료 조건으로서의 제약 (CaT)](https://arxiv.org/abs/2403.18765) 방법 구현 추가.  "
+      },
+      {
+        "row": 15,
+        "rowsha": "UmTQHUzsiT7MxHInogQWJVfhgol0OSfgrnf4cad2Yp8=",
+        "originContent": "✔️ **CoRL**: Based on [rsl_rl](https://github.com/leggedrobotics/rsl_rl) library, off-policy algorithms are implemented on `off_policy_runner`.  ",
+        "translatedContent": "✔️ **CoRL**: [rsl_rl](https://github.com/leggedrobotics/rsl_rl) 라이브러리를 기반으로 오프폴리시 알고리즘이 `off_policy_runner`에 구현됨.  "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "lCb6YgK87YJ6DZ0HYOWvzx4V0vrBfHq6u7Uh05yh3lo=",
+        "originContent": "## Sim2Real - ZeroShot Transfer",
+        "translatedContent": "## Sim2Real - 제로샷 전이"
+      },
+      {
+        "row": 18,
+        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+        "originContent": "<table>",
+        "translatedContent": "<table>"
+      },
+      {
+        "row": 19,
+        "rowsha": "tM/w6t3VaKMkLU+fnsWgVN2pE0wg6y20bWAtC7JO/90=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/bb14612c-85c2-43ce-a7df-8b09ee4d3f69\" width=\"800\" height=\"400\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/bb14612c-85c2-43ce-a7df-8b09ee4d3f69\" width=\"800\" height=\"400\"/></td>"
+      },
+      {
+        "row": 20,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 21,
+        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+        "originContent": "<table>",
+        "translatedContent": "<table>"
+      },
+      {
+        "row": 22,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": "  <tr>"
+      },
+      {
+        "row": 23,
+        "rowsha": "SGG6HR0ur4hG1Ro3F10HEPY4CsZhg7yxcQYZ7sSDqVU=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/8f9f990d-e8e9-400a-82b2-1131ff73f891\" width=\"385\" height=\"170\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/8f9f990d-e8e9-400a-82b2-1131ff73f891\" width=\"385\" height=\"170\"/></td>"
+      },
+      {
+        "row": 24,
+        "rowsha": "ZpnMC0pWrm4DbsPO36r6kGiVsdhLvHXwgyKSxscZkrI=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/93c6b187-4680-435e-800a-9e6d3d570d13\" width=\"385\" height=\"170\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/93c6b187-4680-435e-800a-9e6d3d570d13\" width=\"385\" height=\"170\"/></td>"
+      },
+      {
+        "row": 25,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 26,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": "  <tr>"
+      },
+      {
+        "row": 27,
+        "rowsha": "bhppIS9Xdl4WHanmR5eY4+0QBvrqDSENyIL4N1L//Zo=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/9991ff73-5b3e-4d10-9b63-548197f18e54\" width=\"385\" height=\"170\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/9991ff73-5b3e-4d10-9b63-548197f18e54\" width=\"385\" height=\"170\"/></td>"
+      },
+      {
+        "row": 28,
+        "rowsha": "hPouu0YU4iRWzpxupzAWLHb5yX1PgIhZTKiCT/g1730=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/545fd258-1add-499a-8c62-520e113a951b\" width=\"385\" height=\"170\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/545fd258-1add-499a-8c62-520e113a951b\" width=\"385\" height=\"170\"/></td>"
+      },
+      {
+        "row": 29,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 30,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "Aswg8VY4dm5LeK2LYves+NXL5qKJikjeBM2mJPpFcxY=",
+        "originContent": "## Isaac Lab Flamingo",
+        "translatedContent": "## Isaac Lab Flamingo"
+      },
+      {
+        "row": 34,
+        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+        "originContent": "<table>",
+        "translatedContent": "<table>"
+      },
+      {
+        "row": 35,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": "  <tr>"
+      },
+      {
+        "row": 36,
+        "rowsha": "Xewfe64KjORLw/ppZHEobeiyDlzPK5GPmuZ+AjPILsc=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/0037889b-bab7-4686-a9a5-46ea9bbe6ac2\" width=\"385\" height=\"240\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/0037889b-bab7-4686-a9a5-46ea9bbe6ac2\" width=\"385\" height=\"240\"/></td>"
+      },
+      {
+        "row": 37,
+        "rowsha": "FdIAyxZd/c8ctBHqx3oSF0fN8bGbTWKZIoRv8KlSFYw=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/16d8d025-7e57-479a-80d4-9cfef2cf9b6b\" width=\"385\" height=\"240\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/16d8d025-7e57-479a-80d4-9cfef2cf9b6b\" width=\"385\" height=\"240\"/></td>"
+      },
+      {
+        "row": 38,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 39,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "EuMMK4ta+IH3P6Daly8LyhRkfwxTTNzQ3eZpct6JaMY=",
+        "originContent": "## Sim 2 Sim framework - Lab to MuJoCo",
+        "translatedContent": "## Sim 2 Sim 프레임워크 - Lab에서 MuJoCo로"
+      },
+      {
+        "row": 42,
+        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+        "originContent": "<table>",
+        "translatedContent": "<table>"
+      },
+      {
+        "row": 43,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": "  <tr>"
+      },
+      {
+        "row": 44,
+        "rowsha": "Rryxyxm8zIBOcq4qLlCcoCiIs5Uu5zLQ7pGVWzDYxVc=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/edcc4077-e082-4fce-90a6-b10c94869aad\" width=\"385\" height=\"240\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/edcc4077-e082-4fce-90a6-b10c94869aad\" width=\"385\" height=\"240\"/></td>"
+      },
+      {
+        "row": 45,
+        "rowsha": "1TpoLrc0pCbZR4tL+fIfATl/khJFSjFCgjOkq7Of29I=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/df58b2db-00c6-4228-a953-eb605dee2797\" width=\"385\" height=\"240\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/df58b2db-00c6-4228-a953-eb605dee2797\" width=\"385\" height=\"240\"/></td>"
+      },
+      {
+        "row": 46,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 47,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "JMjm8SndgR5lxNSLLdXgOM6vpJfN8MmxsTOZjSEEPUI=",
+        "originContent": "- Simulation to Simulation framework is available on sim2sim_onnx branch (Currently on migration update)",
+        "translatedContent": "- 시뮬레이션 간 프레임워크는 sim2sim_onnx 브랜치에서 사용할 수 있음 (현재 마이그레이션 업데이트 중)"
+      },
+      {
+        "row": 50,
+        "rowsha": "/axm8X2ASWgHU2r99JQYI3sjGjAyrD9J4cYcz5ORsXg=",
+        "originContent": "- You can simply inference trained policy (basically export as .onnx from isaac lab)",
+        "translatedContent": "- 훈련된 정책을 간단히 추론할 수 있음 (기본적으로 isaac lab에서 .onnx로 내보내기)"
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 52,
+        "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+        "originContent": "## Setup",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 53,
+        "rowsha": "gYBRvDUtS/n8gBBIE3DwUUWJpQ2Tj/rqagqilmf5obM=",
+        "originContent": "- This repo is tested on Ubuntu 20.04, and I recommend you to install 'local install'",
+        "translatedContent": "- 이 저장소는 Ubuntu 20.04에서 테스트되었으며, '로컬 설치'를 권장합니다."
+      },
+      {
+        "row": 54,
+        "rowsha": "LY6+Xs1arXEQwar4RGd3aOcEh2ls9w5TF8vaVUf+4kI=",
+        "originContent": "### 1. Install Isaac Sim",
+        "translatedContent": "### 1. Isaac Sim 설치"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "  ```\n  https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/binaries_installation.html\n  ```",
+    "ContentSha": "KdZge5321XEE4KENeTY+y+ANXuz+58T+Qp1OIErTLbQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n  https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/binaries_installation.html\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "P9rxZjYUHAClk3ihS8mvTBzRild0uZi4qO15jmwwdNE=",
+        "originContent": "  https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/binaries_installation.html",
+        "translatedContent": "  https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/binaries_installation.html"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "### 2. Install Isaac Lab",
+    "ContentSha": "z3fSOwMgNkedTrgHSj4+LcXTqmxVldTVij//S7Xx+Qk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 2. 아이작 랩 설치",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "z3fSOwMgNkedTrgHSj4+LcXTqmxVldTVij//S7Xx+Qk=",
+        "originContent": "### 2. Install Isaac Lab",
+        "translatedContent": "### 2. 아이작 랩 설치"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "  ```\n  https://github.com/isaac-sim/IsaacLab\n  ```",
+    "ContentSha": "sHMneLAZUjJ7YDf8D7MxmJrFlLKuu5B3EseK0NNJOKw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n  https://github.com/isaac-sim/IsaacLab\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "S+UvqoPHE5c1IkzPxUs47Fb2+x0WPuSnPzyc5Mx6utE=",
+        "originContent": "  https://github.com/isaac-sim/IsaacLab",
+        "translatedContent": "  https://github.com/isaac-sim/IsaacLab"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### 3. Install lab.flamingo package\ni. clone repository",
+    "ContentSha": "OMR8Xey7WEiEqC8VgDfqNzLP2mjSAlZsvHPshpf+Ld4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 3. lab.flamingo 패키지 설치\ni. 저장소 복제하기",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3gcWqQR+3Gu8MozDV54qe28YoPmB+mqO0RoSPa6QuPQ=",
+        "originContent": "### 3. Install lab.flamingo package",
+        "translatedContent": "### 3. lab.flamingo 패키지 설치"
+      },
+      {
+        "row": 3,
+        "rowsha": "hRs/LQwQw+M8XO6VTke/0cI4zYTDQ51pl8nAqFaT0ew=",
+        "originContent": "i. clone repository",
+        "translatedContent": "i. 저장소 복제하기"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "   ```\n   git clone https://github.com/jaykorea/Isaac-RL-Two-wheel-Legged-Bot\n   ```",
+    "ContentSha": "IJQR4bohZeAEk9b9Rl6VDxxWbVCDnvewkwiSk8RKMjk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```\n   git clone https://github.com/jaykorea/Isaac-RL-Two-wheel-Legged-Bot\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "jQiEgSZuHLlJpik19ijxE6UQ3/ahgc4kGfZ1j2XEM3g=",
+        "originContent": "   git clone https://github.com/jaykorea/Isaac-RL-Two-wheel-Legged-Bot",
+        "translatedContent": "   git clone https://github.com/jaykorea/Isaac-RL-Two-wheel-Legged-Bot"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "ii. install lab.flamingo pip package by running below command\n   - run it on 'lab.flamingo' root path",
+    "ContentSha": "aqgrC/yHGFXl1sCpLwel+j/DQRyRbfib1ldOv49GBrA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "ii. 아래 명령어를 실행하여 lab.flamingo pip 패키지를 설치하십시오\n   - 'lab.flamingo' 루트 경로에서 실행하십시오",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "crEgSzw1rlixlCBnsi3hXRBmrJGndm6DarjCjyFUuE4=",
+        "originContent": "ii. install lab.flamingo pip package by running below command",
+        "translatedContent": "ii. 아래 명령어를 실행하여 lab.flamingo pip 패키지를 설치하십시오"
+      },
+      {
+        "row": 2,
+        "rowsha": "bhGYmuvzB2SqkAjLIsX2Zf3UGsbKd+89TCd3/qlqve4=",
+        "originContent": "   - run it on 'lab.flamingo' root path",
+        "translatedContent": "   - 'lab.flamingo' 루트 경로에서 실행하십시오"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "   ```\n   conda activate env_isaaclab # change to you conda env\n   pip install -e .\n   ```",
+    "ContentSha": "HVxJTxTAoiZE0yjcEIJClT3//19y55zLIecedQTO7Ug=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```\n   conda activate env_isaaclab # change to you conda env\n   pip install -e .\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "TPW+dQvo1jRyEgc6r20YfDThFI54Wjv3lhgR9499Rwg=",
+        "originContent": "   conda activate env_isaaclab # change to you conda env",
+        "translatedContent": "   conda activate env_isaaclab # change to you conda env"
+      },
+      {
+        "row": 3,
+        "rowsha": "SV3SMilXdIVXvYtzL8sLzT4iST2nJ9Da9QAq8RXRiHo=",
+        "originContent": "   pip install -e .",
+        "translatedContent": "   pip install -e ."
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "iii. Unzip assets(usd asset) on folder\n   - Since git does not correctly upload '.usd' file, you should manually unzip the usd files on assests folder",
+    "ContentSha": "pYTJkwBnS0IqizdNojTstIw/RccZ+hR7EAviRYCaR6A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "iii. 폴더 내 자산(usd 자산) 압축 해제  \n   - git이 '.usd' 파일을 올바르게 업로드하지 않으므로, 자산 폴더 내 usd 파일을 수동으로 압축 해제해야 합니다",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "F0aS9mFIxJPAkUUKAhM+uw3PWAc+1EQ0/XA9PPD5Zxc=",
+        "originContent": "iii. Unzip assets(usd asset) on folder",
+        "translatedContent": "iii. 폴더 내 자산(usd 자산) 압축 해제  "
+      },
+      {
+        "row": 2,
+        "rowsha": "sh9EsvgjaqyTKclUD74R+/dM7XMVsUr570zV6YvJ5EI=",
+        "originContent": "   - Since git does not correctly upload '.usd' file, you should manually unzip the usd files on assests folder",
+        "translatedContent": "   - git이 '.usd' 파일을 올바르게 업로드하지 않으므로, 자산 폴더 내 usd 파일을 수동으로 압축 해제해야 합니다"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "   ```\n    path example: lab/flamingo/assets/data/Robots/Flamingo/flamingo_rev01_4_1/\n   ```",
+    "ContentSha": "pmd0dPkZkTlzrO9DwNCKltUgzIVQWBXqPs+W94t4mmc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```\n    path example: lab/flamingo/assets/data/Robots/Flamingo/flamingo_rev01_4_1/\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "MtvCnr0xhb0KHDTG5ckQMrPDRljOtiuM+Wjbwlo8q74=",
+        "originContent": "    path example: lab/flamingo/assets/data/Robots/Flamingo/flamingo_rev01_4_1/",
+        "translatedContent": "    path example: lab/flamingo/assets/data/Robots/Flamingo/flamingo_rev01_4_1/"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Launch script\n### Train flamingo\n  - run it on 'lab.flamingo' root path",
+    "ContentSha": "Mzq5BtxspFp2JW6lbhVhSFTWK/6B8rPv3TmN1TAxQos=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 실행 스크립트\n### 플라밍고 훈련\n  - 'lab.flamingo' 루트 경로에서 실행하십시오",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xhv2B/iLdYC3laCchPL20NNAPNEC/pM2UAJN9sIeUzg=",
+        "originContent": "## Launch script",
+        "translatedContent": "## 실행 스크립트"
+      },
+      {
+        "row": 3,
+        "rowsha": "JhLl+u9nvXbM+30E2Hsm25cEEf+NiGu1/yIuU9vPKzc=",
+        "originContent": "### Train flamingo",
+        "translatedContent": "### 플라밍고 훈련"
+      },
+      {
+        "row": 4,
+        "rowsha": "A/5m3SvpFERQq4f/mGZV6rfCbiqQCpYU9l1EUx9GhDg=",
+        "originContent": "  - run it on 'lab.flamingo' root path",
+        "translatedContent": "  - 'lab.flamingo' 루트 경로에서 실행하십시오"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "  ```\n    python scripts/co_rl/train.py --task {task name} --algo ppo --num_envs 4096 --headless --num_policy_stacks {stack number on policy obs} --num_critic_stacks {stack number on critic obs}\n  ```",
+    "ContentSha": "wuq8BLXMVuwLd5MjV9IgKIovSe0g92clXrQrkZxa0po=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n    python scripts/co_rl/train.py --task {task name} --algo ppo --num_envs 4096 --headless --num_policy_stacks {stack number on policy obs} --num_critic_stacks {stack number on critic obs}\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "p+sAM8RvU7b/FmZFKnGQntLwjfg8FmfkpHvDFrMGAoc=",
+        "originContent": "    python scripts/co_rl/train.py --task {task name} --algo ppo --num_envs 4096 --headless --num_policy_stacks {stack number on policy obs} --num_critic_stacks {stack number on critic obs}",
+        "translatedContent": "    python scripts/co_rl/train.py --task {task name} --algo ppo --num_envs 4096 --headless --num_policy_stacks {stack number on policy obs} --num_critic_stacks {stack number on critic obs}"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "### Train example - track velocity",
+    "ContentSha": "43KxAKxxQ7B4vTh9EuPl1k1tiRYiBmnKfJvauSN6jt0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 학습 예제 - 트랙 속도",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "43KxAKxxQ7B4vTh9EuPl1k1tiRYiBmnKfJvauSN6jt0=",
+        "originContent": "### Train example - track velocity",
+        "translatedContent": "### 학습 예제 - 트랙 속도"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "  ```\n    python scripts/co_rl/train.py --task Isaac-Velocity-Flat-Flamingo-v1-ppo --algo ppo --num_envs 4096 --headless --num_policy_stacks 2 --num_critic_stacks 2\n  ```",
+    "ContentSha": "2Lcs6QofB98545UTKBswwivYC+6T+3q1TePNAg6D2uo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n    python scripts/co_rl/train.py --task Isaac-Velocity-Flat-Flamingo-v1-ppo --algo ppo --num_envs 4096 --headless --num_policy_stacks 2 --num_critic_stacks 2\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ki6W9mhmbXdq0fQd84ABbF4hrs6Sg8zwDsT3GXkCyCU=",
+        "originContent": "    python scripts/co_rl/train.py --task Isaac-Velocity-Flat-Flamingo-v1-ppo --algo ppo --num_envs 4096 --headless --num_policy_stacks 2 --num_critic_stacks 2",
+        "translatedContent": "    python scripts/co_rl/train.py --task Isaac-Velocity-Flat-Flamingo-v1-ppo --algo ppo --num_envs 4096 --headless --num_policy_stacks 2 --num_critic_stacks 2"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "### play flamingo\n  - run it on 'lab.flamingo' root path",
+    "ContentSha": "wkN+N3hhNTcv5h0SkVlcaCWKnP9iL7E9bauirvTHiSw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### play flamingo\n  - 'lab.flamingo' 루트 경로에서 실행하세요",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "busfl+SL96CYijw4vig+YI6/anvWk6Z4LQ84XPoPq1w=",
+        "originContent": "### play flamingo",
+        "translatedContent": "### play flamingo"
+      },
+      {
+        "row": 2,
+        "rowsha": "A/5m3SvpFERQq4f/mGZV6rfCbiqQCpYU9l1EUx9GhDg=",
+        "originContent": "  - run it on 'lab.flamingo' root path",
+        "translatedContent": "  - 'lab.flamingo' 루트 경로에서 실행하세요"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "  ```\n    python scripts/co_rl/play.py --task {task name} --algo ppo --num_envs 64 --num_policy_stacks {stack number on policy obs} --num_critic_stacks {stack number on critic obs} --load_run {folder name} --plot False\n  ```",
+    "ContentSha": "kdnXf3C+tQAwcLV/pRZA4K7j6LryvMQeuSofF59gf/4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n    python scripts/co_rl/play.py --task {task name} --algo ppo --num_envs 64 --num_policy_stacks {stack number on policy obs} --num_critic_stacks {stack number on critic obs} --load_run {folder name} --plot False\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "QDNR9jfmHPFRv1B3ctCRrf1mxNjR2jHUFjKQ3pLyZjM=",
+        "originContent": "    python scripts/co_rl/play.py --task {task name} --algo ppo --num_envs 64 --num_policy_stacks {stack number on policy obs} --num_critic_stacks {stack number on critic obs} --load_run {folder name} --plot False",
+        "translatedContent": "    python scripts/co_rl/play.py --task {task name} --algo ppo --num_envs 64 --num_policy_stacks {stack number on policy obs} --num_critic_stacks {stack number on critic obs} --load_run {folder name} --plot False"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "### play example - track velocity",
+    "ContentSha": "AlcSObeQfjiIjBuTERsQn2Xqy24DrAgv0W/qa8mvuNg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 연주 예시 - 트랙 벨로시티",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "AlcSObeQfjiIjBuTERsQn2Xqy24DrAgv0W/qa8mvuNg=",
+        "originContent": "### play example - track velocity",
+        "translatedContent": "### 연주 예시 - 트랙 벨로시티"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "  ```\n    python scripts/co_rl/play.py --task Isaac-Velocity-Flat-Flamingo-Play-v1-ppo --algo ppo --num_envs 64 --num_policy_stacks {stack number on policy obs} --num_critic_stacks {stack number on critic obs} --load_run 2025-03-16_17-09-35 --plot False\n  ```",
+    "ContentSha": "GM+0Dv6nCyzRN21mQP9hDGOgbkYTb4JPC8jmlxCySKs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n    python scripts/co_rl/play.py --task Isaac-Velocity-Flat-Flamingo-Play-v1-ppo --algo ppo --num_envs 64 --num_policy_stacks {stack number on policy obs} --num_critic_stacks {stack number on critic obs} --load_run 2025-03-16_17-09-35 --plot False\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "D2mVtlXydQN/v/8rh/k/Q48P5VMjnZV8wGE+2k4q1mc=",
+        "originContent": "    python scripts/co_rl/play.py --task Isaac-Velocity-Flat-Flamingo-Play-v1-ppo --algo ppo --num_envs 64 --num_policy_stacks {stack number on policy obs} --num_critic_stacks {stack number on critic obs} --load_run 2025-03-16_17-09-35 --plot False",
+        "translatedContent": "    python scripts/co_rl/play.py --task Isaac-Velocity-Flat-Flamingo-Play-v1-ppo --algo ppo --num_envs 64 --num_policy_stacks {stack number on policy obs} --num_critic_stacks {stack number on critic obs} --load_run 2025-03-16_17-09-35 --plot False"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

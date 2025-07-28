@@ -1,0 +1,249 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot1.png\" width=\"270\" alt=\"Screenshot 1\">\n  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot2.png\" width=\"270\" alt=\"Screenshot 2\">\n  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot3.png\" width=\"270\" alt=\"Screenshot 3\">\n</p>\n\n# Boundo Meta-app: Info & Manager\n\nBoundo Meta-app is all about your apps and beyond.  \nCheck info of apps on your phone, and organize them into categories.  \nDesigned for Android enthusiasts, Meta-app is available on **Android** and **Wear OS**.\n\n### 1. Develop\n**1.1 Requirements**\n- Android Studio `Meerkat` (AGP `8.9`)\n- Java `17`, Kotlin `2.1.21`, Gradle `8.13`\n\n**1.2 Configure automatic signing**\n- **Copy** the file named `custom.properties.template` in `doconfig` directory,\n  **rename** it to `custom.properties` and make necessary **change**s to it\n\n**1.3 Build universal APKs (App API feature included, release variant)**\n- Configure signing as specified in section 1.2\n- Download BundleTool binary from [BundleTool Releases](https://github.com/google/bundletool/releases),\n  and save it as `doconfig/bundletool.jar` in this project\n- Run Gradle task from commandline `gradlew :app:genUniversalApks`\n- Look for `app/build/outputs/app-universal-release.apks` in this project\n\n**1.4 Build FOSS version (less feature)**\n- Configure signing as specified in section 1.2\n- Download BundleTool binary from [BundleTool Releases](https://github.com/google/bundletool/releases),\n  and save it as `doconfig/bundletool.jar` in this project\n- Run Gradle task from commandline `gradlew :app:genFossApks`\n- Look for `app/build/outputs/app-universal-foss.apks` in this project\n\n### 2. Download\n[<img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height='100'/>](https://raw.githubusercontent.com/cliuff/boundo/main/\nhttps://play.google.com/store/apps/details?id=com.madness.collision&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)\n",
+    "ContentSha": "0PicYKeJyHu7sh/611Km+KQ/VL+tbLmXVZHBCaY2LA0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot1.png\" width=\"270\" alt=\"截图 1\">\n  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot2.png\" width=\"270\" alt=\"截图 2\">\n  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot3.png\" width=\"270\" alt=\"截图 3\">\n</p>\n\n# Boundo 元应用：信息与管理\n\nBoundo 元应用专注于您的应用及更多。  \n查看手机上应用的信息，并将它们整理成类别。  \n为 Android 爱好者设计，元应用可在 **Android** 和 **Wear OS** 上使用。\n\n### 1. 开发\n**1.1 要求**\n- Android Studio `Meerkat`（AGP `8.9`）\n- Java `17`，Kotlin `2.1.21`，Gradle `8.13`\n\n**1.2 配置自动签名**\n- **复制** 位于 `doconfig` 目录下名为 `custom.properties.template` 的文件，  \n  **重命名** 为 `custom.properties` 并进行必要的**修改**\n\n**1.3 构建通用 APK（包含应用 API 功能，发布版本）**\n- 按第 1.2 节指定配置签名\n- 从 [BundleTool Releases](https://github.com/google/bundletool/releases) 下载 BundleTool 二进制文件，  \n  并保存到本项目的 `doconfig/bundletool.jar`\n- 从命令行运行 Gradle 任务 `gradlew :app:genUniversalApks`\n- 在本项目中查找 `app/build/outputs/app-universal-release.apks`\n\n**1.4 构建 FOSS 版本（功能较少）**\n- 按第 1.2 节指定配置签名\n- 从 [BundleTool Releases](https://github.com/google/bundletool/releases) 下载 BundleTool 二进制文件，  \n  并保存到本项目的 `doconfig/bundletool.jar`\n- 从命令行运行 Gradle 任务 `gradlew :app:genFossApks`\n- 在本项目中查找 `app/build/outputs/app-universal-foss.apks`\n\n### 2. 下载\n[<img alt='在 Google Play 获取' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height='100'/>](https://raw.githubusercontent.com/cliuff/boundo/main/\nhttps://play.google.com/store/apps/details?id=com.madness.collision&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "YGVMrlzD5DZjavEXMkhkccNRYTepT0NajVarQxNWNKI=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot1.png\" width=\"270\" alt=\"Screenshot 1\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot1.png\" width=\"270\" alt=\"截图 1\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "dCfDhB/3UwYXQNIJOeZfFyfjZLSNwZnHV0TkKS1ZpaI=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot2.png\" width=\"270\" alt=\"Screenshot 2\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot2.png\" width=\"270\" alt=\"截图 2\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "cY70OYV94Fu7uxeyn80VUPkCYrMV57WvYAfp6gCeYl4=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot3.png\" width=\"270\" alt=\"Screenshot 3\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot3.png\" width=\"270\" alt=\"截图 3\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "JmfTGJpDD54EmN6+QTs655x/5ZckTQvlljejXu0UTlM=",
+        "originContent": "# Boundo Meta-app: Info & Manager",
+        "translatedContent": "# Boundo 元应用：信息与管理"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "koqQ4lzOXl8scGwtKU8BGlXlYM6Mee+svnatIbg9/B8=",
+        "originContent": "Boundo Meta-app is all about your apps and beyond.  ",
+        "translatedContent": "Boundo 元应用专注于您的应用及更多。  "
+      },
+      {
+        "row": 10,
+        "rowsha": "IW6OsIsX8ZzID6owPCjgFo1Z02ITtp4Sz/1tGXUQzIo=",
+        "originContent": "Check info of apps on your phone, and organize them into categories.  ",
+        "translatedContent": "查看手机上应用的信息，并将它们整理成类别。  "
+      },
+      {
+        "row": 11,
+        "rowsha": "N+sb87PlQTLoTIS97SDocp+ceyJqylf5ym2hRqYWMC0=",
+        "originContent": "Designed for Android enthusiasts, Meta-app is available on **Android** and **Wear OS**.",
+        "translatedContent": "为 Android 爱好者设计，元应用可在 **Android** 和 **Wear OS** 上使用。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "a9DpdnZU4wjcvKzPB0HMiXiR6XlG+Rb0esPMz5yW3p0=",
+        "originContent": "### 1. Develop",
+        "translatedContent": "### 1. 开发"
+      },
+      {
+        "row": 14,
+        "rowsha": "MBj6ZXpqaC6MAIgmuUQWB3NQvSIRZXhZnVz1C6wd/Dw=",
+        "originContent": "**1.1 Requirements**",
+        "translatedContent": "**1.1 要求**"
+      },
+      {
+        "row": 15,
+        "rowsha": "pi+x1O5+tfvbzjaY718HowxzfsWVlI4Hb0b92WkcuDE=",
+        "originContent": "- Android Studio `Meerkat` (AGP `8.9`)",
+        "translatedContent": "- Android Studio `Meerkat`（AGP `8.9`）"
+      },
+      {
+        "row": 16,
+        "rowsha": "tr4AiErR3lZf3x7H8AUXCycr3wkEhoqR7Sur0rbQN/Y=",
+        "originContent": "- Java `17`, Kotlin `2.1.21`, Gradle `8.13`",
+        "translatedContent": "- Java `17`，Kotlin `2.1.21`，Gradle `8.13`"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "56ghrrNFKjyaDqF1a7R3JHlFpCTelXe1Qr5N5N4eabE=",
+        "originContent": "**1.2 Configure automatic signing**",
+        "translatedContent": "**1.2 配置自动签名**"
+      },
+      {
+        "row": 19,
+        "rowsha": "vxdfE8SD2YX77KKxS6p7C18ysyh8a3t0Uzo96fq+cwE=",
+        "originContent": "- **Copy** the file named `custom.properties.template` in `doconfig` directory,",
+        "translatedContent": "- **复制** 位于 `doconfig` 目录下名为 `custom.properties.template` 的文件，  "
+      },
+      {
+        "row": 20,
+        "rowsha": "sqkP3VZcBbXPUysuldesvi6t/y3WbFwuM/g2bGRMF/4=",
+        "originContent": "  **rename** it to `custom.properties` and make necessary **change**s to it",
+        "translatedContent": "  **重命名** 为 `custom.properties` 并进行必要的**修改**"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "TDgNwLPZfGJnVbQmU4l6z/BvdP5FVKbYIjk41jR3/5U=",
+        "originContent": "**1.3 Build universal APKs (App API feature included, release variant)**",
+        "translatedContent": "**1.3 构建通用 APK（包含应用 API 功能，发布版本）**"
+      },
+      {
+        "row": 23,
+        "rowsha": "qlnQtR+X8EiMOd0TTD1Y5R/XQ+pcTmNvjSSMVlCAJEs=",
+        "originContent": "- Configure signing as specified in section 1.2",
+        "translatedContent": "- 按第 1.2 节指定配置签名"
+      },
+      {
+        "row": 24,
+        "rowsha": "MFV6DSJ8CNRafDnFZvSKjy06cEqYK7ZZidatwCUNUps=",
+        "originContent": "- Download BundleTool binary from [BundleTool Releases](https://github.com/google/bundletool/releases),",
+        "translatedContent": "- 从 [BundleTool Releases](https://github.com/google/bundletool/releases) 下载 BundleTool 二进制文件，  "
+      },
+      {
+        "row": 25,
+        "rowsha": "otRj8s5+oQUyvr+iaBp7K3RT26zRNJ1A4rK22XsH8pc=",
+        "originContent": "  and save it as `doconfig/bundletool.jar` in this project",
+        "translatedContent": "  并保存到本项目的 `doconfig/bundletool.jar`"
+      },
+      {
+        "row": 26,
+        "rowsha": "dOFkSDaWRN4NRWVO+poOB9z3mUlp3U6+B+qCDE0h3KM=",
+        "originContent": "- Run Gradle task from commandline `gradlew :app:genUniversalApks`",
+        "translatedContent": "- 从命令行运行 Gradle 任务 `gradlew :app:genUniversalApks`"
+      },
+      {
+        "row": 27,
+        "rowsha": "OHZ6hjkquasRKuiLlP4G6iD9NG/UvRH2R8aKMlqmLEQ=",
+        "originContent": "- Look for `app/build/outputs/app-universal-release.apks` in this project",
+        "translatedContent": "- 在本项目中查找 `app/build/outputs/app-universal-release.apks`"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "n61BHhscFJftJhoseRY/eRwBHr7jfG+wc+kZWUDpr1I=",
+        "originContent": "**1.4 Build FOSS version (less feature)**",
+        "translatedContent": "**1.4 构建 FOSS 版本（功能较少）**"
+      },
+      {
+        "row": 30,
+        "rowsha": "qlnQtR+X8EiMOd0TTD1Y5R/XQ+pcTmNvjSSMVlCAJEs=",
+        "originContent": "- Configure signing as specified in section 1.2",
+        "translatedContent": "- 按第 1.2 节指定配置签名"
+      },
+      {
+        "row": 31,
+        "rowsha": "MFV6DSJ8CNRafDnFZvSKjy06cEqYK7ZZidatwCUNUps=",
+        "originContent": "- Download BundleTool binary from [BundleTool Releases](https://github.com/google/bundletool/releases),",
+        "translatedContent": "- 从 [BundleTool Releases](https://github.com/google/bundletool/releases) 下载 BundleTool 二进制文件，  "
+      },
+      {
+        "row": 32,
+        "rowsha": "otRj8s5+oQUyvr+iaBp7K3RT26zRNJ1A4rK22XsH8pc=",
+        "originContent": "  and save it as `doconfig/bundletool.jar` in this project",
+        "translatedContent": "  并保存到本项目的 `doconfig/bundletool.jar`"
+      },
+      {
+        "row": 33,
+        "rowsha": "QwDaF24OB4Qvyd9qEFYo4dnxkBhIc7CQ363TYZD7B94=",
+        "originContent": "- Run Gradle task from commandline `gradlew :app:genFossApks`",
+        "translatedContent": "- 从命令行运行 Gradle 任务 `gradlew :app:genFossApks`"
+      },
+      {
+        "row": 34,
+        "rowsha": "kIT7t/I/IAuExVIAbNqgVV2qQjevJfla/7IRHMfT0Wo=",
+        "originContent": "- Look for `app/build/outputs/app-universal-foss.apks` in this project",
+        "translatedContent": "- 在本项目中查找 `app/build/outputs/app-universal-foss.apks`"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "TnIiV3jhROV/LfsjtMvogWM0pEilt90EWuiVki8koDc=",
+        "originContent": "### 2. Download",
+        "translatedContent": "### 2. 下载"
+      },
+      {
+        "row": 37,
+        "rowsha": "pixIbqaC6E0hEY2scypAbbtAO0RiSzvR2MA8YixA8T0=",
+        "originContent": "[<img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height='100'/>](https://raw.githubusercontent.com/cliuff/boundo/main/",
+        "translatedContent": "[<img alt='在 Google Play 获取' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height='100'/>](https://raw.githubusercontent.com/cliuff/boundo/main/"
+      },
+      {
+        "row": 38,
+        "rowsha": "Bdq7CNVTdezCn7NxsiuIqU6nVmt5ZiAWcmgYKQoJX1s=",
+        "originContent": "https://play.google.com/store/apps/details?id=com.madness.collision&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)",
+        "translatedContent": "https://play.google.com/store/apps/details?id=com.madness.collision&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

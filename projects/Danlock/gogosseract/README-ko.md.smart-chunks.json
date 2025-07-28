@@ -1,0 +1,547 @@
+[
+  {
+    "Id": 1,
+    "Content": "# gogosseract\n![Coverage](https://img.shields.io/badge/Coverage-70.4%25-brightgreen)\n[![Go Report Card](https://goreportcard.com/badge/github.com/danlock/gogosseract)](https://goreportcard.com/report/github.com/danlock/gogosseract)\n[![Go Reference](https://pkg.go.dev/badge/github.com/danlock/gogosseract.svg)](https://pkg.go.dev/github.com/danlock/gogosseract)\n\n\nA reimplementation of https://github.com/otiai10/gosseract without CGo, running Tesseract compiled to WASM with Emscripten via Wazero.\n\nTesseract is an Optical Character Recognition library written in C++.\n\nThe WASM is generated from my [personal](https://github.com/Danlock/tesseract-wasm) fork of robertknight's well written tesseract-wasm project.\n\nNote that Tesseract is only compiled with support for the LSTM neural network OCR engine, and not for \"classic\" Tesseract.\n\n> [!CAUTION]\n> This library and it's dependent libraries was broken by a backwards incompatible change in wazero 1.8.0. This library will not be updated. If you plan on\n> using this library regardless, make sure your dependencies are the same version as what's in the go.mod file in this repo.\n> Also, CGO gosseract is like 6 times faster than this library anyway the last time I checked.\n\n# Training Data\n\nTesseract requires training data in order to accurately recognize text. The official source is [here](https://github.com/tesseract-ocr/tessdata_fast). Strategies for dealing with this include downloading it at runtime, or embedding the file within your Go binary using go:embed at compile time.\n\n# Accuracy\n\nTesseract can work better if the input images are preprocessed. See this page for tips.\n\nhttps://tesseract-ocr.github.io/tessdoc/ImproveQuality.html\n\n# Examples\n\nUsing Tesseract to parse text from an image.\n",
+    "ContentSha": "QJQu1XLujo24uKBmm0gnSwcvSLAozBoLfuX3qa+h/D4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# gogosseract\n![Coverage](https://img.shields.io/badge/Coverage-70.4%25-brightgreen)\n[![Go Report Card](https://goreportcard.com/badge/github.com/danlock/gogosseract)](https://goreportcard.com/report/github.com/danlock/gogosseract)\n[![Go Reference](https://pkg.go.dev/badge/github.com/danlock/gogosseract.svg)](https://pkg.go.dev/github.com/danlock/gogosseract)\n\n\nCGo 없이 https://github.com/otiai10/gosseract 를 재구현한 것으로, Wazero를 통해 Emscripten으로 컴파일된 WASM에서 Tesseract를 실행합니다.\n\nTesseract는 C++로 작성된 광학 문자 인식 라이브러리입니다.\n\nWASM은 robertknight의 잘 작성된 tesseract-wasm 프로젝트를 포크한 제 [개인](https://github.com/Danlock/tesseract-wasm) 저장소에서 생성되었습니다.\n\nTesseract는 \"클래식\" Tesseract가 아닌 LSTM 신경망 OCR 엔진 지원만 컴파일된 점을 참고하세요.\n\n> [!CAUTION]\n> 이 라이브러리와 의존 라이브러리는 wazero 1.8.0의 하위 호환성 없는 변경으로 인해 깨졌습니다. 이 라이브러리는 더 이상 업데이트되지 않습니다.\n> 만약 이 라이브러리를 계속 사용하실 계획이라면, 의존성이 이 저장소의 go.mod 파일에 명시된 버전과 동일한지 확인하세요.\n> 또한, CGO gosseract는 제가 마지막으로 확인했을 때 이 라이브러리보다 약 6배 더 빠릅니다.\n\n# 학습 데이터\n\nTesseract는 정확한 텍스트 인식을 위해 학습 데이터가 필요합니다. 공식 소스는 [여기](https://github.com/tesseract-ocr/tessdata_fast)입니다. 이를 처리하는 방법으로는 런타임에 다운로드하거나, 컴파일 시 go:embed를 사용하여 Go 바이너리에 파일을 포함하는 방법이 있습니다.\n\n# 정확도\n\nTesseract는 입력 이미지가 전처리되면 더 잘 작동할 수 있습니다. 팁은 이 페이지를 참고하세요.\n\nhttps://tesseract-ocr.github.io/tessdoc/ImproveQuality.html\n\n# 예제\n\n이미지에서 텍스트를 파싱하기 위해 Tesseract를 사용하는 예입니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MODpjAmCkLxfLJGRGGl06GEQmDYNijwHxEgpgl4oNdk=",
+        "originContent": "# gogosseract",
+        "translatedContent": "# gogosseract"
+      },
+      {
+        "row": 2,
+        "rowsha": "P+AypaIHmAghSmhAbywHgTn/jGs5Q7nVOqKlnfUXiM4=",
+        "originContent": "![Coverage](https://img.shields.io/badge/Coverage-70.4%25-brightgreen)",
+        "translatedContent": "![Coverage](https://img.shields.io/badge/Coverage-70.4%25-brightgreen)"
+      },
+      {
+        "row": 3,
+        "rowsha": "P0tyOEzT3fh2+2V/hLmaEccKaKY8qbgMAHULML6Q3I4=",
+        "originContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/danlock/gogosseract)](https://goreportcard.com/report/github.com/danlock/gogosseract)",
+        "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/danlock/gogosseract)](https://goreportcard.com/report/github.com/danlock/gogosseract)"
+      },
+      {
+        "row": 4,
+        "rowsha": "U+iZxygmZhhvH2Xzya2L9tRoyP312HxttM4uKUbJtHQ=",
+        "originContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/danlock/gogosseract.svg)](https://pkg.go.dev/github.com/danlock/gogosseract)",
+        "translatedContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/danlock/gogosseract.svg)](https://pkg.go.dev/github.com/danlock/gogosseract)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "JUBZgSaaBMNnpVcV8xzXj520YlRnVVjfHuIwWPSM/RU=",
+        "originContent": "A reimplementation of https://github.com/otiai10/gosseract without CGo, running Tesseract compiled to WASM with Emscripten via Wazero.",
+        "translatedContent": "CGo 없이 https://github.com/otiai10/gosseract 를 재구현한 것으로, Wazero를 통해 Emscripten으로 컴파일된 WASM에서 Tesseract를 실행합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "V1EH4zX07WiAFVhbhLGeuE/ycGTPA9CdHuUyegoBTS8=",
+        "originContent": "Tesseract is an Optical Character Recognition library written in C++.",
+        "translatedContent": "Tesseract는 C++로 작성된 광학 문자 인식 라이브러리입니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "FGEngxBGFD6beRZ1uV3qluG2tnWZGYsbe9grc5jgXGc=",
+        "originContent": "The WASM is generated from my [personal](https://github.com/Danlock/tesseract-wasm) fork of robertknight's well written tesseract-wasm project.",
+        "translatedContent": "WASM은 robertknight의 잘 작성된 tesseract-wasm 프로젝트를 포크한 제 [개인](https://github.com/Danlock/tesseract-wasm) 저장소에서 생성되었습니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "7CE5Mg6+WGwun5tPeC3TDCwrtpGU5AolC4vFTlSp4/4=",
+        "originContent": "Note that Tesseract is only compiled with support for the LSTM neural network OCR engine, and not for \"classic\" Tesseract.",
+        "translatedContent": "Tesseract는 \"클래식\" Tesseract가 아닌 LSTM 신경망 OCR 엔진 지원만 컴파일된 점을 참고하세요."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "789MAWgjFWXhd0mIsjASBrf6dECsMF4LAJEW0IAIrlI=",
+        "originContent": "> [!CAUTION]",
+        "translatedContent": "> [!CAUTION]"
+      },
+      {
+        "row": 16,
+        "rowsha": "C65kaGKUH3HdSODWlJYZBoFiNfvYjWzn093HmlPyZNs=",
+        "originContent": "> This library and it's dependent libraries was broken by a backwards incompatible change in wazero 1.8.0. This library will not be updated. If you plan on",
+        "translatedContent": "> 이 라이브러리와 의존 라이브러리는 wazero 1.8.0의 하위 호환성 없는 변경으로 인해 깨졌습니다. 이 라이브러리는 더 이상 업데이트되지 않습니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "20qA2VbidXVDfA7EIP/niCrt4SQjPPmEJPRTTES2qtA=",
+        "originContent": "> using this library regardless, make sure your dependencies are the same version as what's in the go.mod file in this repo.",
+        "translatedContent": "> 만약 이 라이브러리를 계속 사용하실 계획이라면, 의존성이 이 저장소의 go.mod 파일에 명시된 버전과 동일한지 확인하세요."
+      },
+      {
+        "row": 18,
+        "rowsha": "nSZGiVhUUdcMDb5kAuUMNKZxrBANxftLeefGdCFcSso=",
+        "originContent": "> Also, CGO gosseract is like 6 times faster than this library anyway the last time I checked.",
+        "translatedContent": "> 또한, CGO gosseract는 제가 마지막으로 확인했을 때 이 라이브러리보다 약 6배 더 빠릅니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Kihslb4KDa8Q/nczqYqr5Ti37CXB3/K97IopXftC74Q=",
+        "originContent": "# Training Data",
+        "translatedContent": "# 학습 데이터"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "95A4AZcOTFWe4tEKRO1BDlCo8mHQ5HSpvTm5qt7MNsA=",
+        "originContent": "Tesseract requires training data in order to accurately recognize text. The official source is [here](https://github.com/tesseract-ocr/tessdata_fast). Strategies for dealing with this include downloading it at runtime, or embedding the file within your Go binary using go:embed at compile time.",
+        "translatedContent": "Tesseract는 정확한 텍스트 인식을 위해 학습 데이터가 필요합니다. 공식 소스는 [여기](https://github.com/tesseract-ocr/tessdata_fast)입니다. 이를 처리하는 방법으로는 런타임에 다운로드하거나, 컴파일 시 go:embed를 사용하여 Go 바이너리에 파일을 포함하는 방법이 있습니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "MAQ2wAyc78GQSK9P/SRTLCFRqAIaod1DP8ENRCKde90=",
+        "originContent": "# Accuracy",
+        "translatedContent": "# 정확도"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "ontug8EGj7iBeJDeIyCdl+yijC8ItKVO4w/cZhUfU10=",
+        "originContent": "Tesseract can work better if the input images are preprocessed. See this page for tips.",
+        "translatedContent": "Tesseract는 입력 이미지가 전처리되면 더 잘 작동할 수 있습니다. 팁은 이 페이지를 참고하세요."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "Y4BMIcdn/MCHj3wdOghbqnEJikxZRIR0sMX6GTiVe2g=",
+        "originContent": "https://tesseract-ocr.github.io/tessdoc/ImproveQuality.html",
+        "translatedContent": "https://tesseract-ocr.github.io/tessdoc/ImproveQuality.html"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "QRzcQigYV+R2VwW2ijMnxeHu/2trsZO3XiVZjkwvogM=",
+        "originContent": "# Examples",
+        "translatedContent": "# 예제"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "nFUSGuUhA0bXIe9ThB5iPBdA42kNGVBfZjRqa+NBdok=",
+        "originContent": "Using Tesseract to parse text from an image.",
+        "translatedContent": "이미지에서 텍스트를 파싱하기 위해 Tesseract를 사용하는 예입니다."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```go\n    trainingDataFile, err := os.Open(\"eng.traineddata\")\n    handleErr(err)\n\n    cfg := gogosseract.Config{\n        Language: \"eng\",\n        TrainingData: trainingDataFile,\n    }\n    // While Tesseract's logs are very useful for debugging, you have the option to silence or redirect it\n    cfg.Stderr = io.Discard\n    cfg.Stdout = io.Discard\n    // Compile the Tesseract WASM and run it, loading in the TrainingData and setting any Config Variables provided\n    tess, err := gogosseract.New(ctx, cfg)\n    handleErr(err)\n\n    imageFile, err := os.Open(\"image.png\")\n    handleErr(err)\n\n    err = tess.LoadImage(ctx, imageFile, gogosseract.LoadImageOptions{})\n    handleErr(err)\n\n    text, err = tess.GetText(ctx, func(progress int32) { log.Printf(\"Tesseract parsing is %d%% complete.\", progress) })\n    handleErr(err)\n    // Closing the Tesseract instance will clean up everything used by Tesseract and it's WASM module\n    handleErr(tess.Close(ctx))\n```",
+    "ContentSha": "DLWb5ep/JMY+u9DFaSPPIiFFaKBpis2qtH4sbw2pDiM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\n    trainingDataFile, err := os.Open(\"eng.traineddata\")\n    handleErr(err)\n\n    cfg := gogosseract.Config{\n        Language: \"eng\",\n        TrainingData: trainingDataFile,\n    }\n    // While Tesseract's logs are very useful for debugging, you have the option to silence or redirect it\n    cfg.Stderr = io.Discard\n    cfg.Stdout = io.Discard\n    // Compile the Tesseract WASM and run it, loading in the TrainingData and setting any Config Variables provided\n    tess, err := gogosseract.New(ctx, cfg)\n    handleErr(err)\n\n    imageFile, err := os.Open(\"image.png\")\n    handleErr(err)\n\n    err = tess.LoadImage(ctx, imageFile, gogosseract.LoadImageOptions{})\n    handleErr(err)\n\n    text, err = tess.GetText(ctx, func(progress int32) { log.Printf(\"Tesseract parsing is %d%% complete.\", progress) })\n    handleErr(err)\n    // Closing the Tesseract instance will clean up everything used by Tesseract and it's WASM module\n    handleErr(tess.Close(ctx))\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "j3JsIoGIy+44pn4Oq8pdMyPsitxTWDiBPbD0KtmtlLE=",
+        "originContent": "    trainingDataFile, err := os.Open(\"eng.traineddata\")",
+        "translatedContent": "    trainingDataFile, err := os.Open(\"eng.traineddata\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "LW6RlCDnpyNvS7mkM267db2Ze4XFLjwMaAUmzu8GNHw=",
+        "originContent": "    handleErr(err)",
+        "translatedContent": "    handleErr(err)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ydUPjkSxV2YnPjGodcYTvTkWhi5GaztjBg3gYZ3ZQHs=",
+        "originContent": "    cfg := gogosseract.Config{",
+        "translatedContent": "    cfg := gogosseract.Config{"
+      },
+      {
+        "row": 6,
+        "rowsha": "fyeMjsdpGMi5uinJNgBd4ZP7XXKlR7/pZ8M6IhJ4rU8=",
+        "originContent": "        Language: \"eng\",",
+        "translatedContent": "        Language: \"eng\","
+      },
+      {
+        "row": 7,
+        "rowsha": "cl1wRihNbr1TmdFRLBhyV79H3oGzU6PMtGG1iEk80ss=",
+        "originContent": "        TrainingData: trainingDataFile,",
+        "translatedContent": "        TrainingData: trainingDataFile,"
+      },
+      {
+        "row": 8,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 9,
+        "rowsha": "u1ySc/sLvDBZHKnCbO9Sv60j2bMVsi6g83GD1fbpm4U=",
+        "originContent": "    // While Tesseract's logs are very useful for debugging, you have the option to silence or redirect it",
+        "translatedContent": "    // While Tesseract's logs are very useful for debugging, you have the option to silence or redirect it"
+      },
+      {
+        "row": 10,
+        "rowsha": "GahDyoTrjV4gCOdwzCprjSnurSRJ+jTqKt5ZJJbJ5TY=",
+        "originContent": "    cfg.Stderr = io.Discard",
+        "translatedContent": "    cfg.Stderr = io.Discard"
+      },
+      {
+        "row": 11,
+        "rowsha": "d42M7Y32ya3kFVD9i6CD8ODcwI9svm2GPqKad3Bo0gQ=",
+        "originContent": "    cfg.Stdout = io.Discard",
+        "translatedContent": "    cfg.Stdout = io.Discard"
+      },
+      {
+        "row": 12,
+        "rowsha": "+EG5NtGek7e6XJDkPqOxhrjfNiWF+98E8wasegTKyt0=",
+        "originContent": "    // Compile the Tesseract WASM and run it, loading in the TrainingData and setting any Config Variables provided",
+        "translatedContent": "    // Compile the Tesseract WASM and run it, loading in the TrainingData and setting any Config Variables provided"
+      },
+      {
+        "row": 13,
+        "rowsha": "NJfpIvGfeZv8uaPZoZw1bveZQ5SPXy2yBCDG7DAs5zQ=",
+        "originContent": "    tess, err := gogosseract.New(ctx, cfg)",
+        "translatedContent": "    tess, err := gogosseract.New(ctx, cfg)"
+      },
+      {
+        "row": 14,
+        "rowsha": "LW6RlCDnpyNvS7mkM267db2Ze4XFLjwMaAUmzu8GNHw=",
+        "originContent": "    handleErr(err)",
+        "translatedContent": "    handleErr(err)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "qUCDWCsN4lfHuQzSUVuboyhy/6eQ2rcNo6emXx98rZ0=",
+        "originContent": "    imageFile, err := os.Open(\"image.png\")",
+        "translatedContent": "    imageFile, err := os.Open(\"image.png\")"
+      },
+      {
+        "row": 17,
+        "rowsha": "LW6RlCDnpyNvS7mkM267db2Ze4XFLjwMaAUmzu8GNHw=",
+        "originContent": "    handleErr(err)",
+        "translatedContent": "    handleErr(err)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "3vHC6HN2slpCeuzWqLJGQ4tMKjU2hyb4lfXTZZijITM=",
+        "originContent": "    err = tess.LoadImage(ctx, imageFile, gogosseract.LoadImageOptions{})",
+        "translatedContent": "    err = tess.LoadImage(ctx, imageFile, gogosseract.LoadImageOptions{})"
+      },
+      {
+        "row": 20,
+        "rowsha": "LW6RlCDnpyNvS7mkM267db2Ze4XFLjwMaAUmzu8GNHw=",
+        "originContent": "    handleErr(err)",
+        "translatedContent": "    handleErr(err)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "jWLO7mkENgRZhFCF1WN0JmEXJN40TBIZ8naRR2A9YgQ=",
+        "originContent": "    text, err = tess.GetText(ctx, func(progress int32) { log.Printf(\"Tesseract parsing is %d%% complete.\", progress) })",
+        "translatedContent": "    text, err = tess.GetText(ctx, func(progress int32) { log.Printf(\"Tesseract parsing is %d%% complete.\", progress) })"
+      },
+      {
+        "row": 23,
+        "rowsha": "LW6RlCDnpyNvS7mkM267db2Ze4XFLjwMaAUmzu8GNHw=",
+        "originContent": "    handleErr(err)",
+        "translatedContent": "    handleErr(err)"
+      },
+      {
+        "row": 24,
+        "rowsha": "A9POX0UwmJb6jQdZAsJEhdK24kOPI1UkaJMQ/lEraxQ=",
+        "originContent": "    // Closing the Tesseract instance will clean up everything used by Tesseract and it's WASM module",
+        "translatedContent": "    // Closing the Tesseract instance will clean up everything used by Tesseract and it's WASM module"
+      },
+      {
+        "row": 25,
+        "rowsha": "TtQw7pSkFMXt0fEp3u/IAHKIBeyugytfhaClZqKqn80=",
+        "originContent": "    handleErr(tess.Close(ctx))",
+        "translatedContent": "    handleErr(tess.Close(ctx))"
+      },
+      {
+        "row": 26,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nUsing a Pool of Tesseract workers for thread safe concurrent image parsing.\n",
+    "ContentSha": "2tEhkQxyUnqZLNJX+i8wUZ025YyCoAhMhAgtUUXRMPE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "동시 이미지 파싱을 위한 스레드 안전한 Tesseract 작업자 풀 사용.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "동시 이미지 파싱을 위한 스레드 안전한 Tesseract 작업자 풀 사용."
+      },
+      {
+        "row": 2,
+        "rowsha": "PeMu9lbwo1Lf/45QoBdY4mhH4fN7SXpfwBeFvxbLPKw=",
+        "originContent": "Using a Pool of Tesseract workers for thread safe concurrent image parsing.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```go\n    cfg := gogosseract.Config{\n        Language: \"eng\",\n        TrainingData: trainingDataFile,\n    }\n    // Create 10 Tesseract instances that can process image requests concurrently.\n    pool, err := gogosseract.NewPool(ctx, 10, gogosseract.PoolConfig{Config: cfg})\n    handleErr(err)\n    // ParseImage loads the image and waits until the Tesseract worker sends back your result.\n    hocr, err := pool.ParseImage(ctx, img, gogosseract.ParseImageOptions{\n        IsHOCR: true,\n    })\n    handleErr(err)\n    // Always remember to Close the pool to release resources\n    handleErr(pool.Close())\n\n```",
+    "ContentSha": "yTxR0ik50U2aQE0XvD2dr/Yezu1lpeMyGv/ASiVliWE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\n    cfg := gogosseract.Config{\n        Language: \"eng\",\n        TrainingData: trainingDataFile,\n    }\n    // Create 10 Tesseract instances that can process image requests concurrently.\n    pool, err := gogosseract.NewPool(ctx, 10, gogosseract.PoolConfig{Config: cfg})\n    handleErr(err)\n    // ParseImage loads the image and waits until the Tesseract worker sends back your result.\n    hocr, err := pool.ParseImage(ctx, img, gogosseract.ParseImageOptions{\n        IsHOCR: true,\n    })\n    handleErr(err)\n    // Always remember to Close the pool to release resources\n    handleErr(pool.Close())\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "ydUPjkSxV2YnPjGodcYTvTkWhi5GaztjBg3gYZ3ZQHs=",
+        "originContent": "    cfg := gogosseract.Config{",
+        "translatedContent": "    cfg := gogosseract.Config{"
+      },
+      {
+        "row": 3,
+        "rowsha": "fyeMjsdpGMi5uinJNgBd4ZP7XXKlR7/pZ8M6IhJ4rU8=",
+        "originContent": "        Language: \"eng\",",
+        "translatedContent": "        Language: \"eng\","
+      },
+      {
+        "row": 4,
+        "rowsha": "cl1wRihNbr1TmdFRLBhyV79H3oGzU6PMtGG1iEk80ss=",
+        "originContent": "        TrainingData: trainingDataFile,",
+        "translatedContent": "        TrainingData: trainingDataFile,"
+      },
+      {
+        "row": 5,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 6,
+        "rowsha": "eCHFmMt8UFpRlmAbtH/W2qwf8owaFJK3gf0FkGZ9j2k=",
+        "originContent": "    // Create 10 Tesseract instances that can process image requests concurrently.",
+        "translatedContent": "    // Create 10 Tesseract instances that can process image requests concurrently."
+      },
+      {
+        "row": 7,
+        "rowsha": "nrQAMqjqv/u/G1fTZY0cTeWEVe3oh0hs13drp1Bx4do=",
+        "originContent": "    pool, err := gogosseract.NewPool(ctx, 10, gogosseract.PoolConfig{Config: cfg})",
+        "translatedContent": "    pool, err := gogosseract.NewPool(ctx, 10, gogosseract.PoolConfig{Config: cfg})"
+      },
+      {
+        "row": 8,
+        "rowsha": "LW6RlCDnpyNvS7mkM267db2Ze4XFLjwMaAUmzu8GNHw=",
+        "originContent": "    handleErr(err)",
+        "translatedContent": "    handleErr(err)"
+      },
+      {
+        "row": 9,
+        "rowsha": "4KBj6r2W3/zpMcNcecxAmGQ/EfB8JGqJpSOnOJ+v1BM=",
+        "originContent": "    // ParseImage loads the image and waits until the Tesseract worker sends back your result.",
+        "translatedContent": "    // ParseImage loads the image and waits until the Tesseract worker sends back your result."
+      },
+      {
+        "row": 10,
+        "rowsha": "lAjgLWP7gOt9pAE1xbMF8IanUsXvt1XcJ+MDcIRm1pk=",
+        "originContent": "    hocr, err := pool.ParseImage(ctx, img, gogosseract.ParseImageOptions{",
+        "translatedContent": "    hocr, err := pool.ParseImage(ctx, img, gogosseract.ParseImageOptions{"
+      },
+      {
+        "row": 11,
+        "rowsha": "fLK/aP9FI9x2wNvPKOBxzzhS29+8rWKFnKPIbbsw4QY=",
+        "originContent": "        IsHOCR: true,",
+        "translatedContent": "        IsHOCR: true,"
+      },
+      {
+        "row": 12,
+        "rowsha": "odBdVYeaD6cbal1IjtFl4g+1UKhbjDBNurRPY9Ce3gA=",
+        "originContent": "    })",
+        "translatedContent": "    })"
+      },
+      {
+        "row": 13,
+        "rowsha": "LW6RlCDnpyNvS7mkM267db2Ze4XFLjwMaAUmzu8GNHw=",
+        "originContent": "    handleErr(err)",
+        "translatedContent": "    handleErr(err)"
+      },
+      {
+        "row": 14,
+        "rowsha": "EUBTVIlk6TCSQBD2i0gtlwlSK4xsAhicdjAe5oiaxVU=",
+        "originContent": "    // Always remember to Close the pool to release resources",
+        "translatedContent": "    // Always remember to Close the pool to release resources"
+      },
+      {
+        "row": 15,
+        "rowsha": "NmjeK62IUmsKM/EuJk1JneBhSuBsY1dDGRJZa2EjJUU=",
+        "originContent": "    handleErr(pool.Close())",
+        "translatedContent": "    handleErr(pool.Close())"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

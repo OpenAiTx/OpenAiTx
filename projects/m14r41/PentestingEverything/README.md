@@ -1,4 +1,10 @@
 
+## Upcoming:
+
+- AI/ML Pentesting
+- Threat Modeling
+
+
 <div align="right">
   <details>
     <summary >🌐 Language</summary>

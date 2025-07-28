@@ -1,0 +1,249 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot1.png\" width=\"270\" alt=\"Screenshot 1\">\n  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot2.png\" width=\"270\" alt=\"Screenshot 2\">\n  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot3.png\" width=\"270\" alt=\"Screenshot 3\">\n</p>\n\n# Boundo Meta-app: Info & Manager\n\nBoundo Meta-app is all about your apps and beyond.  \nCheck info of apps on your phone, and organize them into categories.  \nDesigned for Android enthusiasts, Meta-app is available on **Android** and **Wear OS**.\n\n### 1. Develop\n**1.1 Requirements**\n- Android Studio `Meerkat` (AGP `8.9`)\n- Java `17`, Kotlin `2.1.21`, Gradle `8.13`\n\n**1.2 Configure automatic signing**\n- **Copy** the file named `custom.properties.template` in `doconfig` directory,\n  **rename** it to `custom.properties` and make necessary **change**s to it\n\n**1.3 Build universal APKs (App API feature included, release variant)**\n- Configure signing as specified in section 1.2\n- Download BundleTool binary from [BundleTool Releases](https://github.com/google/bundletool/releases),\n  and save it as `doconfig/bundletool.jar` in this project\n- Run Gradle task from commandline `gradlew :app:genUniversalApks`\n- Look for `app/build/outputs/app-universal-release.apks` in this project\n\n**1.4 Build FOSS version (less feature)**\n- Configure signing as specified in section 1.2\n- Download BundleTool binary from [BundleTool Releases](https://github.com/google/bundletool/releases),\n  and save it as `doconfig/bundletool.jar` in this project\n- Run Gradle task from commandline `gradlew :app:genFossApks`\n- Look for `app/build/outputs/app-universal-foss.apks` in this project\n\n### 2. Download\n[<img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height='100'/>](https://raw.githubusercontent.com/cliuff/boundo/main/\nhttps://play.google.com/store/apps/details?id=com.madness.collision&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)\n",
+    "ContentSha": "0PicYKeJyHu7sh/611Km+KQ/VL+tbLmXVZHBCaY2LA0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot1.png\" width=\"270\" alt=\"스크린샷 1\">\n  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot2.png\" width=\"270\" alt=\"스크린샷 2\">\n  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot3.png\" width=\"270\" alt=\"스크린샷 3\">\n</p>\n\n# Boundo 메타앱: 정보 및 관리자\n\nBoundo 메타앱은 당신의 앱과 그 이상의 것을 다룹니다.  \n휴대폰에 있는 앱 정보를 확인하고, 카테고리로 정리하세요.  \n안드로이드 애호가를 위해 설계된 메타앱은 **안드로이드**와 **Wear OS**에서 사용 가능합니다.\n\n### 1. 개발\n**1.1 요구사항**\n- Android Studio `Meerkat` (AGP `8.9`)\n- Java `17`, Kotlin `2.1.21`, Gradle `8.13`\n\n**1.2 자동 서명 구성**\n- `doconfig` 디렉토리에 있는 `custom.properties.template` 파일을 **복사**하고,  \n  이름을 `custom.properties`로 **변경**한 후 필요한 **수정**을 합니다.\n\n**1.3 범용 APK 빌드 (앱 API 기능 포함, 릴리즈 변형)**\n- 1.2절에 명시된 대로 서명 구성\n- [BundleTool Releases](https://github.com/google/bundletool/releases)에서 BundleTool 바이너리 다운로드 후,  \n  이 프로젝트의 `doconfig/bundletool.jar`로 저장\n- 커맨드라인에서 Gradle 작업 실행 `gradlew :app:genUniversalApks`\n- 이 프로젝트 내 `app/build/outputs/app-universal-release.apks` 확인\n\n**1.4 FOSS 버전 빌드 (기능 제한)**\n- 1.2절에 명시된 대로 서명 구성\n- [BundleTool Releases](https://github.com/google/bundletool/releases)에서 BundleTool 바이너리 다운로드 후,  \n  이 프로젝트의 `doconfig/bundletool.jar`로 저장\n- 커맨드라인에서 Gradle 작업 실행 `gradlew :app:genFossApks`\n- 이 프로젝트 내 `app/build/outputs/app-universal-foss.apks` 확인\n\n### 2. 다운로드\n[<img alt='Google Play에서 받기' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height='100'/>](https://raw.githubusercontent.com/cliuff/boundo/main/\nhttps://play.google.com/store/apps/details?id=com.madness.collision&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "YGVMrlzD5DZjavEXMkhkccNRYTepT0NajVarQxNWNKI=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot1.png\" width=\"270\" alt=\"Screenshot 1\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot1.png\" width=\"270\" alt=\"스크린샷 1\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "dCfDhB/3UwYXQNIJOeZfFyfjZLSNwZnHV0TkKS1ZpaI=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot2.png\" width=\"270\" alt=\"Screenshot 2\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot2.png\" width=\"270\" alt=\"스크린샷 2\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "cY70OYV94Fu7uxeyn80VUPkCYrMV57WvYAfp6gCeYl4=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot3.png\" width=\"270\" alt=\"Screenshot 3\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/cliuff/boundo/main/doconfig/markdown/shot3.png\" width=\"270\" alt=\"스크린샷 3\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "JmfTGJpDD54EmN6+QTs655x/5ZckTQvlljejXu0UTlM=",
+        "originContent": "# Boundo Meta-app: Info & Manager",
+        "translatedContent": "# Boundo 메타앱: 정보 및 관리자"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "koqQ4lzOXl8scGwtKU8BGlXlYM6Mee+svnatIbg9/B8=",
+        "originContent": "Boundo Meta-app is all about your apps and beyond.  ",
+        "translatedContent": "Boundo 메타앱은 당신의 앱과 그 이상의 것을 다룹니다.  "
+      },
+      {
+        "row": 10,
+        "rowsha": "IW6OsIsX8ZzID6owPCjgFo1Z02ITtp4Sz/1tGXUQzIo=",
+        "originContent": "Check info of apps on your phone, and organize them into categories.  ",
+        "translatedContent": "휴대폰에 있는 앱 정보를 확인하고, 카테고리로 정리하세요.  "
+      },
+      {
+        "row": 11,
+        "rowsha": "N+sb87PlQTLoTIS97SDocp+ceyJqylf5ym2hRqYWMC0=",
+        "originContent": "Designed for Android enthusiasts, Meta-app is available on **Android** and **Wear OS**.",
+        "translatedContent": "안드로이드 애호가를 위해 설계된 메타앱은 **안드로이드**와 **Wear OS**에서 사용 가능합니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "a9DpdnZU4wjcvKzPB0HMiXiR6XlG+Rb0esPMz5yW3p0=",
+        "originContent": "### 1. Develop",
+        "translatedContent": "### 1. 개발"
+      },
+      {
+        "row": 14,
+        "rowsha": "MBj6ZXpqaC6MAIgmuUQWB3NQvSIRZXhZnVz1C6wd/Dw=",
+        "originContent": "**1.1 Requirements**",
+        "translatedContent": "**1.1 요구사항**"
+      },
+      {
+        "row": 15,
+        "rowsha": "pi+x1O5+tfvbzjaY718HowxzfsWVlI4Hb0b92WkcuDE=",
+        "originContent": "- Android Studio `Meerkat` (AGP `8.9`)",
+        "translatedContent": "- Android Studio `Meerkat` (AGP `8.9`)"
+      },
+      {
+        "row": 16,
+        "rowsha": "tr4AiErR3lZf3x7H8AUXCycr3wkEhoqR7Sur0rbQN/Y=",
+        "originContent": "- Java `17`, Kotlin `2.1.21`, Gradle `8.13`",
+        "translatedContent": "- Java `17`, Kotlin `2.1.21`, Gradle `8.13`"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "56ghrrNFKjyaDqF1a7R3JHlFpCTelXe1Qr5N5N4eabE=",
+        "originContent": "**1.2 Configure automatic signing**",
+        "translatedContent": "**1.2 자동 서명 구성**"
+      },
+      {
+        "row": 19,
+        "rowsha": "vxdfE8SD2YX77KKxS6p7C18ysyh8a3t0Uzo96fq+cwE=",
+        "originContent": "- **Copy** the file named `custom.properties.template` in `doconfig` directory,",
+        "translatedContent": "- `doconfig` 디렉토리에 있는 `custom.properties.template` 파일을 **복사**하고,  "
+      },
+      {
+        "row": 20,
+        "rowsha": "sqkP3VZcBbXPUysuldesvi6t/y3WbFwuM/g2bGRMF/4=",
+        "originContent": "  **rename** it to `custom.properties` and make necessary **change**s to it",
+        "translatedContent": "  이름을 `custom.properties`로 **변경**한 후 필요한 **수정**을 합니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "TDgNwLPZfGJnVbQmU4l6z/BvdP5FVKbYIjk41jR3/5U=",
+        "originContent": "**1.3 Build universal APKs (App API feature included, release variant)**",
+        "translatedContent": "**1.3 범용 APK 빌드 (앱 API 기능 포함, 릴리즈 변형)**"
+      },
+      {
+        "row": 23,
+        "rowsha": "qlnQtR+X8EiMOd0TTD1Y5R/XQ+pcTmNvjSSMVlCAJEs=",
+        "originContent": "- Configure signing as specified in section 1.2",
+        "translatedContent": "- 1.2절에 명시된 대로 서명 구성"
+      },
+      {
+        "row": 24,
+        "rowsha": "MFV6DSJ8CNRafDnFZvSKjy06cEqYK7ZZidatwCUNUps=",
+        "originContent": "- Download BundleTool binary from [BundleTool Releases](https://github.com/google/bundletool/releases),",
+        "translatedContent": "- [BundleTool Releases](https://github.com/google/bundletool/releases)에서 BundleTool 바이너리 다운로드 후,  "
+      },
+      {
+        "row": 25,
+        "rowsha": "otRj8s5+oQUyvr+iaBp7K3RT26zRNJ1A4rK22XsH8pc=",
+        "originContent": "  and save it as `doconfig/bundletool.jar` in this project",
+        "translatedContent": "  이 프로젝트의 `doconfig/bundletool.jar`로 저장"
+      },
+      {
+        "row": 26,
+        "rowsha": "dOFkSDaWRN4NRWVO+poOB9z3mUlp3U6+B+qCDE0h3KM=",
+        "originContent": "- Run Gradle task from commandline `gradlew :app:genUniversalApks`",
+        "translatedContent": "- 커맨드라인에서 Gradle 작업 실행 `gradlew :app:genUniversalApks`"
+      },
+      {
+        "row": 27,
+        "rowsha": "OHZ6hjkquasRKuiLlP4G6iD9NG/UvRH2R8aKMlqmLEQ=",
+        "originContent": "- Look for `app/build/outputs/app-universal-release.apks` in this project",
+        "translatedContent": "- 이 프로젝트 내 `app/build/outputs/app-universal-release.apks` 확인"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "n61BHhscFJftJhoseRY/eRwBHr7jfG+wc+kZWUDpr1I=",
+        "originContent": "**1.4 Build FOSS version (less feature)**",
+        "translatedContent": "**1.4 FOSS 버전 빌드 (기능 제한)**"
+      },
+      {
+        "row": 30,
+        "rowsha": "qlnQtR+X8EiMOd0TTD1Y5R/XQ+pcTmNvjSSMVlCAJEs=",
+        "originContent": "- Configure signing as specified in section 1.2",
+        "translatedContent": "- 1.2절에 명시된 대로 서명 구성"
+      },
+      {
+        "row": 31,
+        "rowsha": "MFV6DSJ8CNRafDnFZvSKjy06cEqYK7ZZidatwCUNUps=",
+        "originContent": "- Download BundleTool binary from [BundleTool Releases](https://github.com/google/bundletool/releases),",
+        "translatedContent": "- [BundleTool Releases](https://github.com/google/bundletool/releases)에서 BundleTool 바이너리 다운로드 후,  "
+      },
+      {
+        "row": 32,
+        "rowsha": "otRj8s5+oQUyvr+iaBp7K3RT26zRNJ1A4rK22XsH8pc=",
+        "originContent": "  and save it as `doconfig/bundletool.jar` in this project",
+        "translatedContent": "  이 프로젝트의 `doconfig/bundletool.jar`로 저장"
+      },
+      {
+        "row": 33,
+        "rowsha": "QwDaF24OB4Qvyd9qEFYo4dnxkBhIc7CQ363TYZD7B94=",
+        "originContent": "- Run Gradle task from commandline `gradlew :app:genFossApks`",
+        "translatedContent": "- 커맨드라인에서 Gradle 작업 실행 `gradlew :app:genFossApks`"
+      },
+      {
+        "row": 34,
+        "rowsha": "kIT7t/I/IAuExVIAbNqgVV2qQjevJfla/7IRHMfT0Wo=",
+        "originContent": "- Look for `app/build/outputs/app-universal-foss.apks` in this project",
+        "translatedContent": "- 이 프로젝트 내 `app/build/outputs/app-universal-foss.apks` 확인"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "TnIiV3jhROV/LfsjtMvogWM0pEilt90EWuiVki8koDc=",
+        "originContent": "### 2. Download",
+        "translatedContent": "### 2. 다운로드"
+      },
+      {
+        "row": 37,
+        "rowsha": "pixIbqaC6E0hEY2scypAbbtAO0RiSzvR2MA8YixA8T0=",
+        "originContent": "[<img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height='100'/>](https://raw.githubusercontent.com/cliuff/boundo/main/",
+        "translatedContent": "[<img alt='Google Play에서 받기' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height='100'/>](https://raw.githubusercontent.com/cliuff/boundo/main/"
+      },
+      {
+        "row": 38,
+        "rowsha": "Bdq7CNVTdezCn7NxsiuIqU6nVmt5ZiAWcmgYKQoJX1s=",
+        "originContent": "https://play.google.com/store/apps/details?id=com.madness.collision&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)",
+        "translatedContent": "https://play.google.com/store/apps/details?id=com.madness.collision&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

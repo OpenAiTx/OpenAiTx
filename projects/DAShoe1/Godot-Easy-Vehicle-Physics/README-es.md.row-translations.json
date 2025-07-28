@@ -1,0 +1,302 @@
+[
+  {
+    "row": 1,
+    "rowsha": "oj99P7YAAoW00XbIY2Q3upQ2Tzclyweujfa+d/wjc84=",
+    "originContent": "# Godot-Easy-Vehicle-Physics",
+    "translatedContent": "# Godot-Easy-Vehicle-Physics"
+  },
+  {
+    "row": 2,
+    "rowsha": "Gbr4a1BC6VFwUMA+Oqbp09y+2T+/rtBv3kRmiHjB2Og=",
+    "originContent": "A ray cast based rigid body vehicle system for Godot 4.2 and above",
+    "translatedContent": "Un sistema de vehículo con cuerpo rígido basado en rayos para Godot 4.2 y superior"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "K0XdQb6cPR2XYn4/Xr3GLliF7Co62hbZTlUnZJsZ2Bk=",
+    "originContent": "## Description",
+    "translatedContent": "## Descripción"
+  },
+  {
+    "row": 5,
+    "rowsha": "20T+R0rkx0kH1I3RZc3NNvP0q+VD8OIVTNG1WGh68tU=",
+    "originContent": "A physics based vehicle controller designed to play well on a keyboard and be easy to configure. All parameters are contained in one script (vehicle.gd) and tooltips are provided for all of them.",
+    "translatedContent": "Un controlador de vehículo basado en física diseñado para funcionar bien con teclado y ser fácil de configurar. Todos los parámetros están contenidos en un solo script (vehicle.gd) y se proporcionan descripciones emergentes para todos ellos."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Características"
+  },
+  {
+    "row": 8,
+    "rowsha": "AMxu7pMfGrkNlgkx5eLBRzpnPiBfhLR16CaXdjRl1dU=",
+    "originContent": "This controller features many systems that assist with making a competent vehicle such as:",
+    "translatedContent": "Este controlador cuenta con muchos sistemas que ayudan a crear un vehículo competente, tales como:"
+  },
+  {
+    "row": 9,
+    "rowsha": "szQuD/Vbh6F8oF2uvWCZEW7DC7SIFeGnvCs1dnRstqY=",
+    "originContent": "- Steering Assists",
+    "translatedContent": "- Asistencias de dirección"
+  },
+  {
+    "row": 10,
+    "rowsha": "yjKkEvwjOxGyOn1Q/2z/ULNypc4MP7agP0zq2NmIzBo=",
+    "originContent": "- Countersteer Assists",
+    "translatedContent": "- Asistencias de contramanillar"
+  },
+  {
+    "row": 11,
+    "rowsha": "NEDRtTXUndU1Cxd7AB1m4JFxhCsXAEV1M2gwdRaCJe8=",
+    "originContent": "- Traction Control",
+    "translatedContent": "- Control de tracción"
+  },
+  {
+    "row": 12,
+    "rowsha": "SkP0G2yrX7tkxPo9BJ5xFCCCJkRkHm3ISGD+8q4x3/A=",
+    "originContent": "- Anti-Lock Brakes",
+    "translatedContent": "- Frenos antibloqueo"
+  },
+  {
+    "row": 13,
+    "rowsha": "aOkIIy9Ay+LTiJepQCWPcASsoVu9ycS6chuTKIBfCAI=",
+    "originContent": "- Stability Assist",
+    "translatedContent": "- Asistencia de estabilidad"
+  },
+  {
+    "row": 14,
+    "rowsha": "V7qWkLacDhAYPGFelSBydT/Lbk3LTDdrNWc0Ei1JsK0=",
+    "originContent": "- In Air Assist",
+    "translatedContent": "- Asistencia en el aire"
+  },
+  {
+    "row": 15,
+    "rowsha": "L0IyYMKbtDkCClmPMb4ZPNq7wpBQOh5apyppcn730Nk=",
+    "originContent": "- Automatic Gearbox",
+    "translatedContent": "- Caja de cambios automática"
+  },
+  {
+    "row": 16,
+    "rowsha": "I2McDuS44rQ0uCPTYGzYhASMymAKrux+PrirLah8/iE=",
+    "originContent": "- Locking Differentials",
+    "translatedContent": "- Diferenciales bloqueantes"
+  },
+  {
+    "row": 17,
+    "rowsha": "xgB7m/RC3jrVz9vMm4r48m6tE8uKeQI+Y1ToXR8Htzs=",
+    "originContent": "- Tire Grip Assists",
+    "translatedContent": "- Asistencias de agarre de neumáticos"
+  },
+  {
+    "row": 18,
+    "rowsha": "7PhbwbiTcCX+3g4FExBEq7l+5zbIfjmpwu7huNhzOuo=",
+    "originContent": "- Calculated suspension parameters; proper suspension parameters can be difficult to get right, therefore this controller will calculate spring rates and damping rates based on ratios and weight distribution.",
+    "translatedContent": "- Parámetros de suspensión calculados; obtener parámetros correctos de suspensión puede ser difícil, por lo tanto este controlador calculará tasas de resorte y amortiguación basándose en proporciones y distribución de peso."
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+    "originContent": "## Examples",
+    "translatedContent": "## Ejemplos"
+  },
+  {
+    "row": 21,
+    "rowsha": "VaNd76lDP6pkpEHmmAqlQY8wRyBEAEkoSctus3utDvA=",
+    "originContent": "4 example vehicles are included:",
+    "translatedContent": "Se incluyen 4 vehículos de ejemplo:"
+  },
+  {
+    "row": 22,
+    "rowsha": "l/6NxKehRvPfaAjpWa2G4y0kQmejkYDHYuAyRKhvgR0=",
+    "originContent": "- demo_arcade.tscn: Handles similar to an arcade style race car, lots of grip, easy to control, and lots of assists.",
+    "translatedContent": "- demo_arcade.tscn: Maneja similar a un coche de carreras estilo arcade, mucho agarre, fácil de controlar y muchas asistencias."
+  },
+  {
+    "row": 23,
+    "rowsha": "4ROV6z45Q8wLAL3eIB2oRJfhmoa413GiJvlvGufh5co=",
+    "originContent": "- demo_simcade.tscn: Handles closer to a real car with assists to help keep the car under control.",
+    "translatedContent": "- demo_simcade.tscn: Maneja más parecido a un coche real con asistencias para ayudar a mantener el control del coche."
+  },
+  {
+    "row": 24,
+    "rowsha": "gX/SfmKqNkrFRuGlK7rbWwIdJwRqkZpWQWSPooEjFrs=",
+    "originContent": "- demo_monster_truck.tscn: Handles like a monster truck, with very little assists.",
+    "translatedContent": "- demo_monster_truck.tscn: Maneja como un monster truck, con muy pocas asistencias."
+  },
+  {
+    "row": 25,
+    "rowsha": "uJ7shCgpq5FUcQVKHnwHXuUvo1g1ZKOU1Y4BFXpMl4o=",
+    "originContent": "- demo_drift.tscn: Setup for easy drifting.",
+    "translatedContent": "- demo_drift.tscn: Configurado para derrapes fáciles."
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "DEh4+C5CjIUHCcOSGAK4l9n/gS5w5QTSL+jcGOyrPcQ=",
+    "originContent": "## Controls",
+    "translatedContent": "## Controles"
+  },
+  {
+    "row": 28,
+    "rowsha": "oEQjWn97GxcIb7du9f9wPDEE5s9oGxYhFuyIXg9YEu8=",
+    "originContent": "- Steering: Left: ← or a Right: → or d",
+    "translatedContent": "- Dirección: Izquierda: ← o a Derecha: → o d"
+  },
+  {
+    "row": 29,
+    "rowsha": "GSJcgZZj3lD1cw46rNxy87iTbX3/YR6OzOPKqeCCxJM=",
+    "originContent": "- Throttle: ↑ or w",
+    "translatedContent": "- Acelerador: ↑ o w"
+  },
+  {
+    "row": 30,
+    "rowsha": "yttOQt4Kn+HJMmGqDYAfqt9bwEL032wIAmfH2BC+ZD0=",
+    "originContent": "- Brake: ↓ or s",
+    "translatedContent": "- Freno: ↓ o s"
+  },
+  {
+    "row": 31,
+    "rowsha": "P+SRx4Vtk/iZkVp5cLjUgdMQECQ65AY6W7bhIbjDzOg=",
+    "originContent": "- Handbrake: Space",
+    "translatedContent": "- Freno de mano: Espacio"
+  },
+  {
+    "row": 32,
+    "rowsha": "ZUz24G4bDGIhlSMIrw5UJpIkzwGbb9Rv3WTeZC6ZeGA=",
+    "originContent": "- Clutch: C",
+    "translatedContent": "- Embrague: C"
+  },
+  {
+    "row": 33,
+    "rowsha": "Dbg63oIKuaY7SOlk4eC3mhBXAZ8Js+9To9rRPVV3bIU=",
+    "originContent": "- Toggle Gearbox (Auto/Manual): T",
+    "translatedContent": "- Cambiar caja de cambios (Auto/Manual): T"
+  },
+  {
+    "row": 34,
+    "rowsha": "lVrQ8qx99A4P7atgclUatDCI+Tp/z3zA5iEMvBkgblY=",
+    "originContent": "- Shift Up: F or +",
+    "translatedContent": "- Subir marcha: F o +"
+  },
+  {
+    "row": 35,
+    "rowsha": "VV2vaAGscK98ng5pPaawRmq4XbPEePAynp5nxIOUy9k=",
+    "originContent": "- Shift Down: R or -",
+    "translatedContent": "- Bajar marcha: R o -"
+  },
+  {
+    "row": 36,
+    "rowsha": "CK9DTA607faQ5C0C+iV31tta8AwYzqOUf16J3rOe5/Y=",
+    "originContent": "- Debug Info: ~",
+    "translatedContent": "- Información de depuración: ~"
+  },
+  {
+    "row": 37,
+    "rowsha": "qpJDrcGKjwM4viGDimucgcWjJuOX2Bg2JtN7nT0Oo+I=",
+    "originContent": "- Switch Debug Screens: < or >",
+    "translatedContent": "- Cambiar pantallas de depuración: < o >"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "Lf8AOmASpvDw3u0vtfL4j3QuXgcUTdIhuwnqekaxGNo=",
+    "originContent": "## Physics Engine",
+    "translatedContent": "## Motor de física"
+  },
+  {
+    "row": 40,
+    "rowsha": "e2Ez0lTefEEUsLJkKdwOtmfOywZEH/wL5kVICNziftk=",
+    "originContent": "This controller works well in both the Godot and Jolt physics engines. A physics tick rate of at least 120 is recommended and higher values can be used, but note that vehicle behavior will be different when switching tick rates.",
+    "translatedContent": "Este controlador funciona bien tanto en los motores de física Godot como Jolt. Se recomienda una tasa de actualización física de al menos 120 y se pueden usar valores más altos, pero tenga en cuenta que el comportamiento del vehículo será diferente al cambiar las tasas de actualización."
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+    "originContent": "## Acknowledgments",
+    "translatedContent": "## Agradecimientos"
+  },
+  {
+    "row": 43,
+    "rowsha": "BB1plaGySr7KopLuWTFlGdzpMq4SCamHLSvkMm0WSpo=",
+    "originContent": "Huge thanks to Dechode and Wolfe for sharing their projects to the Godot community. Sharing this project is my way of paying it forward. Portions of this code are based on [Dechode's Godot Advanced Vehicle](https://github.com/Dechode/Godot-Advanced-Vehicle) and [SERIES: Driving Simulator Workshop](https://lupine-vidya.itch.io/gdsim/devlog/677572/series-driving-simulator-workshop-mirror) and attribution is included in the appropriate source files.",
+    "translatedContent": "Muchísimas gracias a Dechode y Wolfe por compartir sus proyectos con la comunidad de Godot. Compartir este proyecto es mi manera de retribuir. Parte de este código se basa en [Godot Advanced Vehicle de Dechode](https://github.com/Dechode/Godot-Advanced-Vehicle) y [SERIES: Driving Simulator Workshop](https://lupine-vidya.itch.io/gdsim/devlog/677572/series-driving-simulator-workshop-mirror) y la atribución está incluida en los archivos fuente correspondientes."
+  },
+  {
+    "row": 44,
+    "rowsha": "m3cU2YDm15DYtQNVHgpjXbHIS3pfYVdzbPTyr/H+uE0=",
+    "originContent": "The car model provided as a demo is from [Kenney.nl Car Kit](https://www.kenney.nl/assets/car-kit)",
+    "translatedContent": "El modelo de coche proporcionado como demo es de [Kenney.nl Car Kit](https://www.kenney.nl/assets/car-kit)"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "w/k1kJ5Qt9aTp4P198zlXFzTFsYMpvTc9e1+nrXgIM8=",
+    "originContent": "## Projects using Godot Easy Vehicle Physics",
+    "translatedContent": "## Proyectos que usan Godot Easy Vehicle Physics"
+  },
+  {
+    "row": 47,
+    "rowsha": "0JhkjwL5vWeW197wpjK+Pj+q9Zj7EmyCc3M0MIubVxE=",
+    "originContent": "If you are working on a project using this add-on and want to list it here, open an issue to let me know.",
+    "translatedContent": "Si estás trabajando en un proyecto que usa este complemento y quieres listarlo aquí, abre un issue para informarme."
+  },
+  {
+    "row": 48,
+    "rowsha": "FK5NQmHKc3gm6+yL2OTz3MCJhTP9Smw48EJLotbNdOM=",
+    "originContent": "- [Jack of all Cars](https://dashoe1.itch.io/jack-of-all-cars)",
+    "translatedContent": "- [Jack of all Cars](https://dashoe1.itch.io/jack-of-all-cars)"
+  },
+  {
+    "row": 49,
+    "rowsha": "OJWetQ/DHhsuy8LQx7sLz8TXaEjEoxprPVhlrCqs3oE=",
+    "originContent": "- [Another Lap](https://store.steampowered.com/app/3550210/Another_Lap/)",
+    "translatedContent": "- [Another Lap](https://store.steampowered.com/app/3550210/Another_Lap/)"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

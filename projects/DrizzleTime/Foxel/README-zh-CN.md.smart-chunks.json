@@ -1,0 +1,700 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/DrizzleTime/Foxel/dev/Web/public/logo.png\" alt=\"Foxel Logo\" width=\"150\"><br>\n    <strong>Foxel - 智能图像检索与管理系统</strong>\n</p>\n<p align=\"center\">\n    <a href=\"#-核心功能\"><img src=\"https://img.shields.io/badge/功能-Features-blue?style=for-the-badge\" alt=\"核心功能\"></a>\n    <a href=\"#-部署指南\"><img src=\"https://img.shields.io/badge/部署-Deploy-orange?style=for-the-badge\" alt=\"部署\"></a>\n    <a href=\"#-贡献指南\"><img src=\"https://img.shields.io/badge/贡献-Contribute-brightgreen?style=for-the-badge\" alt=\"贡献\"></a>\n    \n</p>\n\n<p>\n    <strong>Foxel</strong> 是一个基于 <strong>.NET 9</strong> 开发的现代化智能图像检索与管理系统，集成先进的 <strong>AI 视觉模型</strong> 和 <strong>向量嵌入技术</strong>，提供高效的图像搜索与管理功能。\n</p>\n\n---\n\n> 🖥️ **在线演示：**  \n> 访问 [https://demo.foxel.cc](https://foxel.cc) 体验 Foxel 部分功能。  \n> 管理员账号：`demo@foxel.cc` 密码: `foxel_demo`  \n> ⚠️ **注意：演示环境数据可能不定期清理，请勿存放重要信息。**\n\n---\n\n## 🌐 社区交流\n\n加入我们的社区，与其他用户交流使用心得，获取技术支持，参与项目讨论：\n\n|     平台     | 群组信息                                                | 联系方式                                                                     |\n|:----------:|:----------------------------------------------------|:-------------------------------------------------------------------------|\n| 📱 **微信群** | **群名：** Foxel 小狐狸 <br>*如二维码失效，可添加 `drizzle2001` 拉群* | <img src=\"https://foxel.cc/Uploads/wechat.png\" alt=\"微信群二维码\" width=\"100\"> |\n\n> 💡 **社区规则：**\n> - 保持友善，互相帮助\n> - 发布问题时请提供详细信息\n> - 禁止发布与项目无关的广告内容\n> - 遵守各平台社区准则\n\n## ✨ 核心功能\n\n### 🔍 智能图像检索\n- [x] 自然语言搜索 - 基于 AI 的图像内容理解与检索\n- [x] 相似图像查找 - 快速定位相似内容的图片\n- [x] 条件筛选 - 按时间、大小、格式等条件精确筛选\n- [x] 高级搜索 - 多维度组合搜索条件\n\n### 🗂️ 图像管理\n- [x] 图片上传 - 支持拖拽上传、批量上传\n- [x] 匿名图床 - 无需注册即可上传分享图片\n- [x] 分类标签 - 灵活的图片分类与标签管理\n- [x] 批量操作 - 批量删除、移动、标记图片\n- [x] 缩略图生成 - 自动生成多尺寸缩略图\n- [x] WebP 转换 - 智能格式转换，优化存储空间\n\n### 🤖 AI 智能功能\n- [x] 人脸识别 - 自动检测与识别图片中的人脸\n- [x] AI 图片描述 - 智能生成图片内容描述\n- [x] AI 自动分类 - 基于内容的智能图片分类\n- [ ] 物体检测 - 识别图片中的各类物体\n- [ ] 场景识别 - 自动识别图片拍摄场景\n\n### 💾 存储功能\n- [x] 本地存储 - 服务器本地文件存储\n- [x] Telegram Channel - 基于 Telegram 的云端存储\n- [x] Amazon S3 - 兼容 S3 协议的对象存储\n- [x] 腾讯云 COS - 腾讯云对象存储服务\n- [x] 多存储配置 - 支持多个存储后端同时使用\n- [x] WebDAV - 标准 WebDAV 协议存储\n\n### 👥 用户功能\n- [x] 用户注册登录 - 完整的用户账号体系\n- [x] GitHub 第三方登录 - 支持 GitHub 账号快捷登录\n- [x] LinuxDo 第三方登录 - 支持 LinuxDo 社区账号登录\n- [x] 权限管理 - 多角色权限控制\n- [ ] 用户分组 - 用户群组管理功能\n- [x] 个人资料 - 完善的用户资料管理\n\n### 💬 社交功能\n- [x] 图片点赞 - 为喜欢的图片点赞\n- [x] 图片收藏 - 收藏感兴趣的图片内容\n- [ ] 评论系统 - 图片评论与互动\n- [ ] 分享功能 - 多平台图片分享\n- [ ] 关注系统 - 关注其他用户\n\n---\n\n## 🚀 部署指南\n\n> ⚠️ **重要提示：**  \n> Foxel 目前处于早期开发阶段，适合**尝鲜体验**和功能测试。当前版本在升级过程中可能包含**破坏性变更**，暂不提供数据迁移流程，升级时需要**重新安装**。如需**长期稳定使用**，建议等待 **Preview 版本** 发布后再部署，届时将提供完善的自动化版本升级流程。\n\nFoxel 提供多种部署方式以满足不同场景需求：\n\n- 🐳 **Docker Compose 一键部署** - 推荐新手使用\n- 🐋 **Docker 单容器部署** - 适合自定义数据库\n- 🔧 **源码编译部署** - 开发者专用\n\n📖 **详细部署教程请访问：[https://foxel.cc/guide/getting-started.html](https://foxel.cc/guide/getting-started.html)**\n\n---",
+    "ContentSha": "vzGJyXZ6DIvmwDCkr3pb3yJ7ctZPRxaGvz4Myx1pQsI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/DrizzleTime/Foxel/dev/Web/public/logo.png\" alt=\"Foxel Logo\" width=\"150\"><br>\n    <strong>Foxel - 智能图像检索与管理系统</strong>\n</p>\n<p align=\"center\">\n    <a href=\"#-核心功能\"><img src=\"https://img.shields.io/badge/功能-Features-blue?style=for-the-badge\" alt=\"核心功能\"></a>\n    <a href=\"#-部署指南\"><img src=\"https://img.shields.io/badge/部署-Deploy-orange?style=for-the-badge\" alt=\"部署\"></a>\n    <a href=\"#-贡献指南\"><img src=\"https://img.shields.io/badge/贡献-Contribute-brightgreen?style=for-the-badge\" alt=\"贡献\"></a>\n    \n</p>\n\n<p>\n    <strong>Foxel</strong> 是一个基于 <strong>.NET 9</strong> 开发的现代化智能图像检索与管理系统，集成先进的 <strong>AI 视觉模型</strong> 和 <strong>向量嵌入技术</strong>，提供高效的图像搜索与管理功能。\n</p>\n\n---\n\n> 🖥️ **在线演示：**  \n> 访问 [https://demo.foxel.cc](https://foxel.cc) 体验 Foxel 部分功能。  \n> 管理员账号：`demo@foxel.cc` 密码: `foxel_demo`  \n> ⚠️ **注意：演示环境数据可能不定期清理，请勿存放重要信息。**\n\n---\n\n## 🌐 社区交流\n\n加入我们的社区，与其他用户交流使用心得，获取技术支持，参与项目讨论：\n\n|     平台     | 群组信息                                                | 联系方式                                                                     |\n|:----------:|:----------------------------------------------------|:-------------------------------------------------------------------------|\n| 📱 **微信群** | **群名：** Foxel 小狐狸 <br>*如二维码失效，可添加 `drizzle2001` 拉群* | <img src=\"https://foxel.cc/Uploads/wechat.png\" alt=\"微信群二维码\" width=\"100\"> |\n\n> 💡 **社区规则：**\n> - 保持友善，互相帮助\n> - 发布问题时请提供详细信息\n> - 禁止发布与项目无关的广告内容\n> - 遵守各平台社区准则\n\n## ✨ 核心功能\n\n### 🔍 智能图像检索\n- [x] 自然语言搜索 - 基于 AI 的图像内容理解与检索\n- [x] 相似图像查找 - 快速定位相似内容的图片\n- [x] 条件筛选 - 按时间、大小、格式等条件精确筛选\n- [x] 高级搜索 - 多维度组合搜索条件\n\n### 🗂️ 图像管理\n- [x] 图片上传 - 支持拖拽上传、批量上传\n- [x] 匿名图床 - 无需注册即可上传分享图片\n- [x] 分类标签 - 灵活的图片分类与标签管理\n- [x] 批量操作 - 批量删除、移动、标记图片\n- [x] 缩略图生成 - 自动生成多尺寸缩略图\n- [x] WebP 转换 - 智能格式转换，优化存储空间\n\n### 🤖 AI 智能功能\n- [x] 人脸识别 - 自动检测与识别图片中的人脸\n- [x] AI 图片描述 - 智能生成图片内容描述\n- [x] AI 自动分类 - 基于内容的智能图片分类\n- [ ] 物体检测 - 识别图片中的各类物体\n- [ ] 场景识别 - 自动识别图片拍摄场景\n\n### 💾 存储功能\n- [x] 本地存储 - 服务器本地文件存储\n- [x] Telegram Channel - 基于 Telegram 的云端存储\n- [x] Amazon S3 - 兼容 S3 协议的对象存储\n- [x] 腾讯云 COS - 腾讯云对象存储服务\n- [x] 多存储配置 - 支持多个存储后端同时使用\n- [x] WebDAV - 标准 WebDAV 协议存储\n\n### 👥 用户功能\n- [x] 用户注册登录 - 完整的用户账号体系\n- [x] GitHub 第三方登录 - 支持 GitHub 账号快捷登录\n- [x] LinuxDo 第三方登录 - 支持 LinuxDo 社区账号登录\n- [x] 权限管理 - 多角色权限控制\n- [ ] 用户分组 - 用户群组管理功能\n- [x] 个人资料 - 完善的用户资料管理\n\n### 💬 社交功能\n- [x] 图片点赞 - 为喜欢的图片点赞\n- [x] 图片收藏 - 收藏感兴趣的图片内容\n- [ ] 评论系统 - 图片评论与互动\n- [ ] 分享功能 - 多平台图片分享\n- [ ] 关注系统 - 关注其他用户\n\n---\n\n## 🚀 部署指南\n\n> ⚠️ **重要提示：**  \n> Foxel 目前处于早期开发阶段，适合**尝鲜体验**和功能测试。当前版本在升级过程中可能包含**破坏性变更**，暂不提供数据迁移流程，升级时需要**重新安装**。如需**长期稳定使用**，建议等待 **Preview 版本** 发布后再部署，届时将提供完善的自动化版本升级流程。\n\nFoxel 提供多种部署方式以满足不同场景需求：\n\n- 🐳 **Docker Compose 一键部署** - 推荐新手使用\n- 🐋 **Docker 单容器部署** - 适合自定义数据库\n- 🔧 **源码编译部署** - 开发者专用\n\n📖 **详细部署教程请访问：[https://foxel.cc/guide/getting-started.html](https://foxel.cc/guide/getting-started.html)**\n\n---",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "2UJo2OmT/8gJDzgbt4HclThJ+u+wU71jRyvXGGPuscA=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/DrizzleTime/Foxel/dev/Web/public/logo.png\" alt=\"Foxel Logo\" width=\"150\"><br>",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/DrizzleTime/Foxel/dev/Web/public/logo.png\" alt=\"Foxel Logo\" width=\"150\"><br>"
+      },
+      {
+        "row": 3,
+        "rowsha": "FZfdQWZhkSB5EAuE+yiM0xYaozrS+rWktoLaQSQ/yTQ=",
+        "originContent": "    <strong>Foxel - 智能图像检索与管理系统</strong>",
+        "translatedContent": "    <strong>Foxel - 智能图像检索与管理系统</strong>"
+      },
+      {
+        "row": 4,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 5,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "XGx/sBkXWukzyKETjRCmankQRqtlnbu99vOFEM+m3Ss=",
+        "originContent": "    <a href=\"#-核心功能\"><img src=\"https://img.shields.io/badge/功能-Features-blue?style=for-the-badge\" alt=\"核心功能\"></a>",
+        "translatedContent": "    <a href=\"#-核心功能\"><img src=\"https://img.shields.io/badge/功能-Features-blue?style=for-the-badge\" alt=\"核心功能\"></a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "PTpWzyumk66JHVV4Wc47Mm8tCCd+slvNePaLUl03HF4=",
+        "originContent": "    <a href=\"#-部署指南\"><img src=\"https://img.shields.io/badge/部署-Deploy-orange?style=for-the-badge\" alt=\"部署\"></a>",
+        "translatedContent": "    <a href=\"#-部署指南\"><img src=\"https://img.shields.io/badge/部署-Deploy-orange?style=for-the-badge\" alt=\"部署\"></a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "9EUzZz+0era/XkVHDqAIIleDXmS3pj4IpFrvnyLhoTE=",
+        "originContent": "    <a href=\"#-贡献指南\"><img src=\"https://img.shields.io/badge/贡献-Contribute-brightgreen?style=for-the-badge\" alt=\"贡献\"></a>",
+        "translatedContent": "    <a href=\"#-贡献指南\"><img src=\"https://img.shields.io/badge/贡献-Contribute-brightgreen?style=for-the-badge\" alt=\"贡献\"></a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 10,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "M/J5lGcXcoeikmB4ChB6yY6mPdYWX2f8wNdHZ9CoIJA=",
+        "originContent": "<p>",
+        "translatedContent": "<p>"
+      },
+      {
+        "row": 13,
+        "rowsha": "bMjOZkupla4LM5G+H+O2FHi1c3FAkHhGaBeVbG8ZW88=",
+        "originContent": "    <strong>Foxel</strong> 是一个基于 <strong>.NET 9</strong> 开发的现代化智能图像检索与管理系统，集成先进的 <strong>AI 视觉模型</strong> 和 <strong>向量嵌入技术</strong>，提供高效的图像搜索与管理功能。",
+        "translatedContent": "    <strong>Foxel</strong> 是一个基于 <strong>.NET 9</strong> 开发的现代化智能图像检索与管理系统，集成先进的 <strong>AI 视觉模型</strong> 和 <strong>向量嵌入技术</strong>，提供高效的图像搜索与管理功能。"
+      },
+      {
+        "row": 14,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "vXduSmL9XVs345NJ38ta9f+ivQy3WhJAC/QzjBpEpdU=",
+        "originContent": "> 🖥️ **在线演示：**  ",
+        "translatedContent": "> 🖥️ **在线演示：**  "
+      },
+      {
+        "row": 19,
+        "rowsha": "0AXnFgPa0DEyE/pO8g/inCfNZSPrVrIpUvOd4kvjMRI=",
+        "originContent": "> 访问 [https://demo.foxel.cc](https://foxel.cc) 体验 Foxel 部分功能。  ",
+        "translatedContent": "> 访问 [https://demo.foxel.cc](https://foxel.cc) 体验 Foxel 部分功能。  "
+      },
+      {
+        "row": 20,
+        "rowsha": "L4BArTeF69ueG9L7buzusKp3zs7ias6Kp/i1BPQHNs0=",
+        "originContent": "> 管理员账号：`demo@foxel.cc` 密码: `foxel_demo`  ",
+        "translatedContent": "> 管理员账号：`demo@foxel.cc` 密码: `foxel_demo`  "
+      },
+      {
+        "row": 21,
+        "rowsha": "BdA6Q/wW0WWey0tkxaOi+qz2r9Wr5yOg9IJnUbc71zQ=",
+        "originContent": "> ⚠️ **注意：演示环境数据可能不定期清理，请勿存放重要信息。**",
+        "translatedContent": "> ⚠️ **注意：演示环境数据可能不定期清理，请勿存放重要信息。**"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "FGM/LQ38k53XDs3JiqR9wWaN/uAa+q+9TtWsUte6Vc8=",
+        "originContent": "## 🌐 社区交流",
+        "translatedContent": "## 🌐 社区交流"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "RoUpjhDpT2QqEKRpEgQB0vBwIqbn/OXdHfghzhpDBWU=",
+        "originContent": "加入我们的社区，与其他用户交流使用心得，获取技术支持，参与项目讨论：",
+        "translatedContent": "加入我们的社区，与其他用户交流使用心得，获取技术支持，参与项目讨论："
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "yaB33aGF8Nk3rPamGKABlRytlCnYEoJVv8bB4nXqOS8=",
+        "originContent": "|     平台     | 群组信息                                                | 联系方式                                                                     |",
+        "translatedContent": "|     平台     | 群组信息                                                | 联系方式                                                                     |"
+      },
+      {
+        "row": 30,
+        "rowsha": "fTd7wq9hCuwZvf58ac/W5iqJfm+En7L3ulhSxIXi0wY=",
+        "originContent": "|:----------:|:----------------------------------------------------|:-------------------------------------------------------------------------|",
+        "translatedContent": "|:----------:|:----------------------------------------------------|:-------------------------------------------------------------------------|"
+      },
+      {
+        "row": 31,
+        "rowsha": "+Bbo8qEqP0BJs9G1f7Holq9OUX7XLOftoangJuPvDMs=",
+        "originContent": "| 📱 **微信群** | **群名：** Foxel 小狐狸 <br>*如二维码失效，可添加 `drizzle2001` 拉群* | <img src=\"https://foxel.cc/Uploads/wechat.png\" alt=\"微信群二维码\" width=\"100\"> |",
+        "translatedContent": "| 📱 **微信群** | **群名：** Foxel 小狐狸 <br>*如二维码失效，可添加 `drizzle2001` 拉群* | <img src=\"https://foxel.cc/Uploads/wechat.png\" alt=\"微信群二维码\" width=\"100\"> |"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "NvVxy4FPtt0jWOAjvSSntNifN/7SooSEM8pLBRn9I3M=",
+        "originContent": "> 💡 **社区规则：**",
+        "translatedContent": "> 💡 **社区规则：**"
+      },
+      {
+        "row": 34,
+        "rowsha": "hrpaGLZVS6pwhq2iaX+OdDQMNIOtAiVkKGW1ko3ekYA=",
+        "originContent": "> - 保持友善，互相帮助",
+        "translatedContent": "> - 保持友善，互相帮助"
+      },
+      {
+        "row": 35,
+        "rowsha": "p/bCcIE+14v6LSr6bChJdE6HF3r7CZ5y6i2gkvdXQxs=",
+        "originContent": "> - 发布问题时请提供详细信息",
+        "translatedContent": "> - 发布问题时请提供详细信息"
+      },
+      {
+        "row": 36,
+        "rowsha": "4r18J6A1qJEWKc2QwS2E2caAGNcWmsj/fFkh2RH+tkg=",
+        "originContent": "> - 禁止发布与项目无关的广告内容",
+        "translatedContent": "> - 禁止发布与项目无关的广告内容"
+      },
+      {
+        "row": 37,
+        "rowsha": "HQc3aWgyq84jPFxIQG+sAAB7D5GaSfafYVlU4P67m+s=",
+        "originContent": "> - 遵守各平台社区准则",
+        "translatedContent": "> - 遵守各平台社区准则"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "G/iAEAKzTiyYqZ+Y7jihz2pjwAjYQwMBE/soGCUiMM0=",
+        "originContent": "## ✨ 核心功能",
+        "translatedContent": "## ✨ 核心功能"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "+Ws8dMNalKqYpQTiIJGX+XrlgEf1nz3dbN2S3TFCXsI=",
+        "originContent": "### 🔍 智能图像检索",
+        "translatedContent": "### 🔍 智能图像检索"
+      },
+      {
+        "row": 42,
+        "rowsha": "PPEYXpFWvKyDadACafXPAB5EJLz0hbunO1LRSbYI+sk=",
+        "originContent": "- [x] 自然语言搜索 - 基于 AI 的图像内容理解与检索",
+        "translatedContent": "- [x] 自然语言搜索 - 基于 AI 的图像内容理解与检索"
+      },
+      {
+        "row": 43,
+        "rowsha": "qi7dErSu4NynJyXwBsSXXzTrh8KKf7VU4xtROM+cqGM=",
+        "originContent": "- [x] 相似图像查找 - 快速定位相似内容的图片",
+        "translatedContent": "- [x] 相似图像查找 - 快速定位相似内容的图片"
+      },
+      {
+        "row": 44,
+        "rowsha": "9jBX0Gh2+G9cLfBsEte0lrX8EaHDEtxfDamNzjUftWQ=",
+        "originContent": "- [x] 条件筛选 - 按时间、大小、格式等条件精确筛选",
+        "translatedContent": "- [x] 条件筛选 - 按时间、大小、格式等条件精确筛选"
+      },
+      {
+        "row": 45,
+        "rowsha": "h8eh7GR3KLFqPPtyhwo9vn26UkWsp2cAK+4kgYuF/3w=",
+        "originContent": "- [x] 高级搜索 - 多维度组合搜索条件",
+        "translatedContent": "- [x] 高级搜索 - 多维度组合搜索条件"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "WZKv5SuQN+xAoKffmcFXVi/Hs+RshKQszD0yzV3LGiA=",
+        "originContent": "### 🗂️ 图像管理",
+        "translatedContent": "### 🗂️ 图像管理"
+      },
+      {
+        "row": 48,
+        "rowsha": "ncpwZ1l/JJLH3+cjF3hAqeTjI82DdkxsVomb/cPaKXg=",
+        "originContent": "- [x] 图片上传 - 支持拖拽上传、批量上传",
+        "translatedContent": "- [x] 图片上传 - 支持拖拽上传、批量上传"
+      },
+      {
+        "row": 49,
+        "rowsha": "Z9fJCvy58OQTsNndkwaEmmY/J24qezKszK8c65o3LGo=",
+        "originContent": "- [x] 匿名图床 - 无需注册即可上传分享图片",
+        "translatedContent": "- [x] 匿名图床 - 无需注册即可上传分享图片"
+      },
+      {
+        "row": 50,
+        "rowsha": "vKmS0GmGDJTN+SMioU6AjsiObg9sYB1DyrvnHt2ldBk=",
+        "originContent": "- [x] 分类标签 - 灵活的图片分类与标签管理",
+        "translatedContent": "- [x] 分类标签 - 灵活的图片分类与标签管理"
+      },
+      {
+        "row": 51,
+        "rowsha": "TkLB8ctCi0gwGpgkP4KOglw3Q4SKlS9AjMftHzBKda8=",
+        "originContent": "- [x] 批量操作 - 批量删除、移动、标记图片",
+        "translatedContent": "- [x] 批量操作 - 批量删除、移动、标记图片"
+      },
+      {
+        "row": 52,
+        "rowsha": "SXfR39mecLfTJ/l/YlaIIrdobnVJoiulvZSdZ+Iczgw=",
+        "originContent": "- [x] 缩略图生成 - 自动生成多尺寸缩略图",
+        "translatedContent": "- [x] 缩略图生成 - 自动生成多尺寸缩略图"
+      },
+      {
+        "row": 53,
+        "rowsha": "EExQwBEenhig9KOgWIE9wRav1hYNT3f7z3Jh2z23vcE=",
+        "originContent": "- [x] WebP 转换 - 智能格式转换，优化存储空间",
+        "translatedContent": "- [x] WebP 转换 - 智能格式转换，优化存储空间"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "fGtuoVtz7DKRRApN66WyjYtlNIA/UEAK/T4/pxsAkf8=",
+        "originContent": "### 🤖 AI 智能功能",
+        "translatedContent": "### 🤖 AI 智能功能"
+      },
+      {
+        "row": 56,
+        "rowsha": "LAD4Kc23ME9XX0Jqm6PEhwoZaY04SzzPytw8yBT8Fnc=",
+        "originContent": "- [x] 人脸识别 - 自动检测与识别图片中的人脸",
+        "translatedContent": "- [x] 人脸识别 - 自动检测与识别图片中的人脸"
+      },
+      {
+        "row": 57,
+        "rowsha": "/BOdhnmg4OzqRxrw622KAihD90DmsNniMdSgCA/zV1Q=",
+        "originContent": "- [x] AI 图片描述 - 智能生成图片内容描述",
+        "translatedContent": "- [x] AI 图片描述 - 智能生成图片内容描述"
+      },
+      {
+        "row": 58,
+        "rowsha": "tEIKEEmhQHACScu6rFom1n8mEO7/yqSzGu9IkRPOKts=",
+        "originContent": "- [x] AI 自动分类 - 基于内容的智能图片分类",
+        "translatedContent": "- [x] AI 自动分类 - 基于内容的智能图片分类"
+      },
+      {
+        "row": 59,
+        "rowsha": "/y/k1+yZhi/owzeTx1hMJtbonZCX1Hf46inApVvyX8A=",
+        "originContent": "- [ ] 物体检测 - 识别图片中的各类物体",
+        "translatedContent": "- [ ] 物体检测 - 识别图片中的各类物体"
+      },
+      {
+        "row": 60,
+        "rowsha": "P3nXIAv7VH+R2/v3CdCWAwpHFH/aEGnwB99nq6lBufA=",
+        "originContent": "- [ ] 场景识别 - 自动识别图片拍摄场景",
+        "translatedContent": "- [ ] 场景识别 - 自动识别图片拍摄场景"
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "zWl6zYzbX72hSg3rfo2TMwBC4BLuYekUUEq8irFd1I8=",
+        "originContent": "### 💾 存储功能",
+        "translatedContent": "### 💾 存储功能"
+      },
+      {
+        "row": 63,
+        "rowsha": "6QxI1t13PavqjC0xP5lkG4vgpfTWx167FlAxsOI8DJg=",
+        "originContent": "- [x] 本地存储 - 服务器本地文件存储",
+        "translatedContent": "- [x] 本地存储 - 服务器本地文件存储"
+      },
+      {
+        "row": 64,
+        "rowsha": "g/FkChujxRZw8RBIEiRhJwiZVkTMSiZk3HoNbIB5vZQ=",
+        "originContent": "- [x] Telegram Channel - 基于 Telegram 的云端存储",
+        "translatedContent": "- [x] Telegram Channel - 基于 Telegram 的云端存储"
+      },
+      {
+        "row": 65,
+        "rowsha": "WvSdm9Lhv2n9m+nbIUOUSAc1/gCFS/X8R070bxl+z6E=",
+        "originContent": "- [x] Amazon S3 - 兼容 S3 协议的对象存储",
+        "translatedContent": "- [x] Amazon S3 - 兼容 S3 协议的对象存储"
+      },
+      {
+        "row": 66,
+        "rowsha": "g9J6T7eucfGNCHCYKD5obGivAkeZ4SDys8payyWZvnE=",
+        "originContent": "- [x] 腾讯云 COS - 腾讯云对象存储服务",
+        "translatedContent": "- [x] 腾讯云 COS - 腾讯云对象存储服务"
+      },
+      {
+        "row": 67,
+        "rowsha": "4MvPS8orS+xV3q3apJ5+p1gcwoN12u4aVEgjf+VrBZA=",
+        "originContent": "- [x] 多存储配置 - 支持多个存储后端同时使用",
+        "translatedContent": "- [x] 多存储配置 - 支持多个存储后端同时使用"
+      },
+      {
+        "row": 68,
+        "rowsha": "L0mqgTo/88hL/wxJhPxas1X6/pHbn9yZYjND8o7LmxE=",
+        "originContent": "- [x] WebDAV - 标准 WebDAV 协议存储",
+        "translatedContent": "- [x] WebDAV - 标准 WebDAV 协议存储"
+      },
+      {
+        "row": 69,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 70,
+        "rowsha": "bXmyWYO+p565Ra23vkZP3XZ9JvBhVlMasygjF/w1MvY=",
+        "originContent": "### 👥 用户功能",
+        "translatedContent": "### 👥 用户功能"
+      },
+      {
+        "row": 71,
+        "rowsha": "Isd/k5Lvo6NOI2dfYYK7yeglY4sByB0tLcMOAdKAjuc=",
+        "originContent": "- [x] 用户注册登录 - 完整的用户账号体系",
+        "translatedContent": "- [x] 用户注册登录 - 完整的用户账号体系"
+      },
+      {
+        "row": 72,
+        "rowsha": "S5OlOx0i2eOF+bfvo7vdR0jSJ+c3R5gbuTvfm+3Xwbg=",
+        "originContent": "- [x] GitHub 第三方登录 - 支持 GitHub 账号快捷登录",
+        "translatedContent": "- [x] GitHub 第三方登录 - 支持 GitHub 账号快捷登录"
+      },
+      {
+        "row": 73,
+        "rowsha": "a/DCm/Ow4ajL0+r/RjpX1JgmdEyL/mqzmWZHsFRlWXA=",
+        "originContent": "- [x] LinuxDo 第三方登录 - 支持 LinuxDo 社区账号登录",
+        "translatedContent": "- [x] LinuxDo 第三方登录 - 支持 LinuxDo 社区账号登录"
+      },
+      {
+        "row": 74,
+        "rowsha": "pig1Agbf81CBxbU2pjfW+20Or3M/Jp5xIz3a1M0i8rs=",
+        "originContent": "- [x] 权限管理 - 多角色权限控制",
+        "translatedContent": "- [x] 权限管理 - 多角色权限控制"
+      },
+      {
+        "row": 75,
+        "rowsha": "SPsF3n1KsM5s1JE7zTITR3/MHh4WaoyjlHq5I0W3poM=",
+        "originContent": "- [ ] 用户分组 - 用户群组管理功能",
+        "translatedContent": "- [ ] 用户分组 - 用户群组管理功能"
+      },
+      {
+        "row": 76,
+        "rowsha": "e4ySS0gsdz4kinN6yZ1+cHcFkbqvDjFwvj5g2Y/+nF0=",
+        "originContent": "- [x] 个人资料 - 完善的用户资料管理",
+        "translatedContent": "- [x] 个人资料 - 完善的用户资料管理"
+      },
+      {
+        "row": 77,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "85p/0AphejYTqjoASb0RcCLRQr4UwCarUxEHry1eNYM=",
+        "originContent": "### 💬 社交功能",
+        "translatedContent": "### 💬 社交功能"
+      },
+      {
+        "row": 79,
+        "rowsha": "SSsLO9wLNgCE3AjPx2z1RKBZdLynkJhO1TrCzM0IVQA=",
+        "originContent": "- [x] 图片点赞 - 为喜欢的图片点赞",
+        "translatedContent": "- [x] 图片点赞 - 为喜欢的图片点赞"
+      },
+      {
+        "row": 80,
+        "rowsha": "jVEopq6z2OqG0e031H8yVTAhBx7Q7EjdaQCHwVNoIZg=",
+        "originContent": "- [x] 图片收藏 - 收藏感兴趣的图片内容",
+        "translatedContent": "- [x] 图片收藏 - 收藏感兴趣的图片内容"
+      },
+      {
+        "row": 81,
+        "rowsha": "Y5ciZB7+ySi8FKTUU8KHQ3iQr+Wt6vu0/Az4eEC6YPw=",
+        "originContent": "- [ ] 评论系统 - 图片评论与互动",
+        "translatedContent": "- [ ] 评论系统 - 图片评论与互动"
+      },
+      {
+        "row": 82,
+        "rowsha": "oMPQs3oF/j8SjqsLPzcyN8Ovvhdm67jZHY84wQ1fGYw=",
+        "originContent": "- [ ] 分享功能 - 多平台图片分享",
+        "translatedContent": "- [ ] 分享功能 - 多平台图片分享"
+      },
+      {
+        "row": 83,
+        "rowsha": "+xbo3Jk4Kw6ZhBticMLyWX4X1Y7q+Km6uTy78NHHpp8=",
+        "originContent": "- [ ] 关注系统 - 关注其他用户",
+        "translatedContent": "- [ ] 关注系统 - 关注其他用户"
+      },
+      {
+        "row": 84,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 86,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "w9CPKFbscekzkdMTw/f49BUL7dOljVam2q3WNdgYoUE=",
+        "originContent": "## 🚀 部署指南",
+        "translatedContent": "## 🚀 部署指南"
+      },
+      {
+        "row": 88,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 89,
+        "rowsha": "Ig4sSbpzvoMyUr8WOdpghbklVrtO8mDkrMuUt7C8/S8=",
+        "originContent": "> ⚠️ **重要提示：**  ",
+        "translatedContent": "> ⚠️ **重要提示：**  "
+      },
+      {
+        "row": 90,
+        "rowsha": "YZnH9bELOBvJTcd97bvzxv3tVedbSmELj+kC44snViA=",
+        "originContent": "> Foxel 目前处于早期开发阶段，适合**尝鲜体验**和功能测试。当前版本在升级过程中可能包含**破坏性变更**，暂不提供数据迁移流程，升级时需要**重新安装**。如需**长期稳定使用**，建议等待 **Preview 版本** 发布后再部署，届时将提供完善的自动化版本升级流程。",
+        "translatedContent": "> Foxel 目前处于早期开发阶段，适合**尝鲜体验**和功能测试。当前版本在升级过程中可能包含**破坏性变更**，暂不提供数据迁移流程，升级时需要**重新安装**。如需**长期稳定使用**，建议等待 **Preview 版本** 发布后再部署，届时将提供完善的自动化版本升级流程。"
+      },
+      {
+        "row": 91,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 92,
+        "rowsha": "N8ChZ7gBK5D3b/JUSCnSfKvbWCrVh3YReDyC2hNHVcM=",
+        "originContent": "Foxel 提供多种部署方式以满足不同场景需求：",
+        "translatedContent": "Foxel 提供多种部署方式以满足不同场景需求："
+      },
+      {
+        "row": 93,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 94,
+        "rowsha": "r2+rf9w7dzipc1P05tdFIT830Dp1jqko8C6EdCpymjI=",
+        "originContent": "- 🐳 **Docker Compose 一键部署** - 推荐新手使用",
+        "translatedContent": "- 🐳 **Docker Compose 一键部署** - 推荐新手使用"
+      },
+      {
+        "row": 95,
+        "rowsha": "h5dQPXEE7rD2VwTpV1OWq8H6KKJTfWrJ6IgoPQ6f9cI=",
+        "originContent": "- 🐋 **Docker 单容器部署** - 适合自定义数据库",
+        "translatedContent": "- 🐋 **Docker 单容器部署** - 适合自定义数据库"
+      },
+      {
+        "row": 96,
+        "rowsha": "MYSdYZI9I/WJf9akNT892Gdmz27blXPfyOWRDkGweTI=",
+        "originContent": "- 🔧 **源码编译部署** - 开发者专用",
+        "translatedContent": "- 🔧 **源码编译部署** - 开发者专用"
+      },
+      {
+        "row": 97,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 98,
+        "rowsha": "2lk8DTGu2IlFyph98eO9dOIG3Gj8l8AxTYoj8hD4aF8=",
+        "originContent": "📖 **详细部署教程请访问：[https://foxel.cc/guide/getting-started.html](https://foxel.cc/guide/getting-started.html)**",
+        "translatedContent": "📖 **详细部署教程请访问：[https://foxel.cc/guide/getting-started.html](https://foxel.cc/guide/getting-started.html)**"
+      },
+      {
+        "row": 99,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 100,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n## 🤝 贡献指南\n\n我们欢迎所有对 Foxel 感兴趣的开发者加入贡献，共同改进和提升这个项目。\n\n|      步骤      | 说明                                                                                          |\n|:------------:|:--------------------------------------------------------------------------------------------|\n| **提交 Issue** | - 发现 Bug 或有建议时，请提交 Issue。<br>- 请详细描述问题及复现步骤，便于快速定位和修复。                                      |\n|   **贡献代码**   | - Fork 本项目并创建新分支。<br>- 遵循项目代码规范。                                                            |\n|   **功能扩展**   | - 欢迎参与以下重点功能开发：<br>• 更智能的图像检索算法<br>• 增强社交互动<br>• 云存储/网盘集成<br>• 更多智能图像处理方法（如自动标注、风格迁移、图像增强等） |\n\n如有任何疑问或建议，欢迎通过 Issue 与我们联系。感谢您的贡献！",
+    "ContentSha": "pTJc0W9Ok+c0oW4znLEUKuHmHybXuJg0N6TzptMbgM8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🤝 贡献指南\n\n我们欢迎所有对 Foxel 感兴趣的开发者加入贡献，共同改进和提升这个项目。\n\n|      步骤      | 说明                                                                                          |\n|:------------:|:--------------------------------------------------------------------------------------------|\n| **提交 Issue** | - 发现 Bug 或有建议时，请提交 Issue。<br>- 请详细描述问题及复现步骤，便于快速定位和修复。                                      |\n|   **贡献代码**   | - Fork 本项目并创建新分支。<br>- 遵循项目代码规范。                                                            |\n|   **功能扩展**   | - 欢迎参与以下重点功能开发：<br>• 更智能的图像检索算法<br>• 增强社交互动<br>• 云存储/网盘集成<br>• 更多智能图像处理方法（如自动标注、风格迁移、图像增强等） |\n\n如有任何疑问或建议，欢迎通过 Issue 与我们联系。感谢您的贡献！",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lMa3cc3kwz/q5DYXCb6Pfu3kcEO68WTG3gfPTU2Seyw=",
+        "originContent": "## 🤝 贡献指南",
+        "translatedContent": "## 🤝 贡献指南"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "/gQXImNazR5IgLs4seW7rg8JFROQEL3jr9to5Ob26+s=",
+        "originContent": "我们欢迎所有对 Foxel 感兴趣的开发者加入贡献，共同改进和提升这个项目。",
+        "translatedContent": "我们欢迎所有对 Foxel 感兴趣的开发者加入贡献，共同改进和提升这个项目。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "CvOVYg6WMImJCAWjama9533/LtlSsXrcjEYcxR/x7wo=",
+        "originContent": "|      步骤      | 说明                                                                                          |",
+        "translatedContent": "|      步骤      | 说明                                                                                          |"
+      },
+      {
+        "row": 7,
+        "rowsha": "sjWtpc9KXlPlug8tK+EqTvN3wl+1ojsyRMJvpPYFpnI=",
+        "originContent": "|:------------:|:--------------------------------------------------------------------------------------------|",
+        "translatedContent": "|:------------:|:--------------------------------------------------------------------------------------------|"
+      },
+      {
+        "row": 8,
+        "rowsha": "JKX3ntRvgdLjJHwNcTGuRmBSGKAuQx6wxvaR0Z+Hj+Y=",
+        "originContent": "| **提交 Issue** | - 发现 Bug 或有建议时，请提交 Issue。<br>- 请详细描述问题及复现步骤，便于快速定位和修复。                                      |",
+        "translatedContent": "| **提交 Issue** | - 发现 Bug 或有建议时，请提交 Issue。<br>- 请详细描述问题及复现步骤，便于快速定位和修复。                                      |"
+      },
+      {
+        "row": 9,
+        "rowsha": "HnsKB5S4mtgDtt4AdzYkgejMKPZVuaTo+RLJCIFiaJQ=",
+        "originContent": "|   **贡献代码**   | - Fork 本项目并创建新分支。<br>- 遵循项目代码规范。                                                            |",
+        "translatedContent": "|   **贡献代码**   | - Fork 本项目并创建新分支。<br>- 遵循项目代码规范。                                                            |"
+      },
+      {
+        "row": 10,
+        "rowsha": "DY94KUl48ThJPDz01+u8WapZSuIM1LI9FYaGNHANR0A=",
+        "originContent": "|   **功能扩展**   | - 欢迎参与以下重点功能开发：<br>• 更智能的图像检索算法<br>• 增强社交互动<br>• 云存储/网盘集成<br>• 更多智能图像处理方法（如自动标注、风格迁移、图像增强等） |",
+        "translatedContent": "|   **功能扩展**   | - 欢迎参与以下重点功能开发：<br>• 更智能的图像检索算法<br>• 增强社交互动<br>• 云存储/网盘集成<br>• 更多智能图像处理方法（如自动标注、风格迁移、图像增强等） |"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "BSRiWgMpoFFmjoUcU3DCwStjXdB96gHbqu7XM7UisH0=",
+        "originContent": "如有任何疑问或建议，欢迎通过 Issue 与我们联系。感谢您的贡献！",
+        "translatedContent": "如有任何疑问或建议，欢迎通过 Issue 与我们联系。感谢您的贡献！"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

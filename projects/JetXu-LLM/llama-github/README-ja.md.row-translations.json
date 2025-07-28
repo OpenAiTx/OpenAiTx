@@ -1,0 +1,704 @@
+[
+  {
+    "row": 1,
+    "rowsha": "cAI8B2fw5xCydddeNcosOFY2wrQw8An1lrdomk97KBc=",
+    "originContent": "# llama-github",
+    "translatedContent": "# llama-github"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "jSTPMiMb5qDjmRYlxqDSx6zbsKYKOv4c6HQQgjbDUqo=",
+    "originContent": "[Detail Document] https://deepwiki.com/JetXu-LLM/llama-github",
+    "translatedContent": "[詳細ドキュメント] https://deepwiki.com/JetXu-LLM/llama-github"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "48lo1Cg6fyAcQl554s/7eKSc41UYvSn/CD6yxtLVgjY=",
+    "originContent": "[![PyPI version](https://badge.fury.io/py/llama-github.svg)](https://badge.fury.io/py/llama-github)",
+    "translatedContent": "[![PyPI バージョン](https://badge.fury.io/py/llama-github.svg)](https://badge.fury.io/py/llama-github)"
+  },
+  {
+    "row": 6,
+    "rowsha": "VG3AfiYLkBPipFZPAt/fJt5jj8aI773UKbmI1Z/kc2M=",
+    "originContent": "[![Downloads](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)",
+    "translatedContent": "[![ダウンロード数](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)"
+  },
+  {
+    "row": 7,
+    "rowsha": "U0vs77tGfFYY+r4ScaOhTOZDgt8vSKCUyj59tU13ZtE=",
+    "originContent": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+    "translatedContent": "[![ライセンス](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "y7xsY1R0s8pmwDQukNS2PQ5JqK6CRs8AwuPrZkBKiT8=",
+    "originContent": "Llama-github is a powerful tool that helps you retrieve(based on Agentic RAG) the most relevant code snippets, issues, and repository information from GitHub based on your queries, transforming them into valuable knowledge context. It empowers LLM Chatbots, AI Agents, and Auto-dev Agents to solve complex coding tasks. Whether you're a developer looking for quick solutions or an engineer implementing advanced Auto Dev AI Agents, llama-github makes it easy and efficient.",
+    "translatedContent": "Llama-githubは、Agentic RAGに基づいて、GitHubからクエリに基づいた最も関連性の高いコードスニペット、イシュー、およびリポジトリ情報を取得し、それらを価値ある知識コンテキストに変換する強力なツールです。これにより、LLMチャットボット、AIエージェント、Auto-devエージェントが複雑なコーディングタスクを解決できるようになります。迅速なソリューションを求める開発者でも、高度なAuto Dev AIエージェントを実装するエンジニアでも、llama-githubは簡単かつ効率的に利用できます。"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "6h9r25r7afHOT0YHlaj7xv1WU2JfjWqSqLUM7UgJNfQ=",
+    "originContent": "If you like this project or believe it has potential, please give it a ⭐️. Your support is our greatest motivation!",
+    "translatedContent": "このプロジェクトを気に入ったり、可能性を感じた場合は、ぜひ⭐️をお願いします。皆様のサポートが私たちの最大の励みです！"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+    "originContent": "## Architecture",
+    "translatedContent": "## アーキテクチャ"
+  },
+  {
+    "row": 14,
+    "rowsha": "TiSukfY/+ter5MJ39DMtNdHlqRXwhZFkP3uTdAfvA0c=",
+    "originContent": "![High Level Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)",
+    "translatedContent": "![ハイレベルアーキテクチャ](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 17,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 18,
+    "rowsha": "HUzQ8Fuh/Wg8Hu8KR8bezJLbFVpPKMpf5Pa7xDY6vYM=",
+    "originContent": "pip install llama-github",
+    "translatedContent": "pip install llama-github"
+  },
+  {
+    "row": 19,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "4zRpXijfFggW+Fd/VZ8qaLkuJwnjePE96Hy1hPxOIRE=",
+    "originContent": "Here's a simple example of how to use llama-github:",
+    "translatedContent": "ここでは、llama-githubの簡単な使用例を示します:"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 26,
+    "rowsha": "hA5UQDttQHKAwB+ESl7GqyiAa1AotkDZYMGTRuo/AoY=",
+    "originContent": "from llama_github import GithubRAG",
+    "translatedContent": "from llama_github import GithubRAG"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "/Xio12pWjWQxdHtqP9gkrQo8FvXup5Rnp8m6s9rWQoA=",
+    "originContent": "# Initialize GithubRAG with your credentials",
+    "translatedContent": "# Initialize GithubRAG with your credentials"
+  },
+  {
+    "row": 29,
+    "rowsha": "Z/GdSwf7Zfjb56iNk/lrSDiBY4vaKvdGc5F3qO5IgSQ=",
+    "originContent": "github_rag = GithubRAG(",
+    "translatedContent": "github_rag = GithubRAG("
+  },
+  {
+    "row": 30,
+    "rowsha": "DCUT+XvqWQMhTvTxgZeTkNrf6sB1egP0ataQmEq//Do=",
+    "originContent": "    github_access_token=\"your_github_access_token\", ",
+    "translatedContent": "    github_access_token=\"your_github_access_token\", "
+  },
+  {
+    "row": 31,
+    "rowsha": "7hDiOA+9nEfENa9R7NEJW8WSnmj71txD0Ndrw3HjngM=",
+    "originContent": "    openai_api_key=\"your_openai_api_key\", # Optional in Simple Mode",
+    "translatedContent": "    openai_api_key=\"your_openai_api_key\", # Optional in Simple Mode"
+  },
+  {
+    "row": 32,
+    "rowsha": "3gER4AqcTSuWLMk5yIWdhwT240c1f6O0Qk92225ZuVU=",
+    "originContent": "    jina_api_key=\"your_jina_api_key\" # Optional - unless you want high concurrency production deployment (s.jina.ai API will be used in llama-github)",
+    "translatedContent": "    jina_api_key=\"your_jina_api_key\" # Optional - unless you want high concurrency production deployment (s.jina.ai API will be used in llama-github)"
+  },
+  {
+    "row": 33,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "U1SUJQpzS8NM2yh7MFPYJl5dQ6gq/MR813WqTX952X0=",
+    "originContent": "# Retrieve context for a coding question (simple_mode is default set to False)",
+    "translatedContent": "# Retrieve context for a coding question (simple_mode is default set to False)"
+  },
+  {
+    "row": 36,
+    "rowsha": "ZXVeMLKgPJjdKhiZ9CK5U4oP9OsdwnWdpg8zNqEI+58=",
+    "originContent": "query = \"How to create a NumPy array in Python?\"",
+    "translatedContent": "query = \"How to create a NumPy array in Python?\""
+  },
+  {
+    "row": 37,
+    "rowsha": "tMIfL+j+gxN0VAT5YvCwzTJ6i5aIIY3fcw3LxJWoTrQ=",
+    "originContent": "context = github_rag.retrieve_context(",
+    "translatedContent": "context = github_rag.retrieve_context("
+  },
+  {
+    "row": 38,
+    "rowsha": "Q1vTmUoyeud2ZNyE6iVCY7OriQi61Wg6NLrSyM9pVLE=",
+    "originContent": "    query, # In professional mode, one query will take nearly 1 min to generate final contexts. You could set log level to INFO to monitor the retrieval progress",
+    "translatedContent": "    query, # In professional mode, one query will take nearly 1 min to generate final contexts. You could set log level to INFO to monitor the retrieval progress"
+  },
+  {
+    "row": 39,
+    "rowsha": "uvb8HENvYITO6V3XF0E9tyqODM0Be+CdeIuXZsYj/CA=",
+    "originContent": "    # simple_mode = True",
+    "translatedContent": "    # simple_mode = True"
+  },
+  {
+    "row": 40,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "ZZEcMA2fivnNWsWr7Vg5FUhhpwQQJ/ThJU+S148t13E=",
+    "originContent": "print(context)",
+    "translatedContent": "print(context)"
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "より高度な使用例や詳細については、[ドキュメント](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md)をご参照ください。"
+  },
+  {
+    "row": 45,
+    "rowsha": "zrMByz3uboJewll5VwM0OlM3JCc+dvchgXugvMGdZyA=",
+    "originContent": "For more advanced usage and examples, please refer to the [documentation](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md).",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 主な特徴"
+  },
+  {
+    "row": 47,
+    "rowsha": "khTPM/+Q4D8FMdf3qgrMDcjDejggkuMl1+JmWZMODFI=",
+    "originContent": "## Key Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **🔍 インテリジェントなGitHub検索**：ユーザーのクエリに基づき、llama-githubの力を活用してGitHubから関連性の高いコードスニペット、イシュー、リポジトリ情報を取得します。高度な検索技術により、最も適切な情報を迅速かつ効率的に見つけ出します。"
+  },
+  {
+    "row": 49,
+    "rowsha": "DfE9NcmRSF011JyFgs3cD/a2VQqPhp+XXqaTnhAtBwc=",
+    "originContent": "- **🔍 Intelligent GitHub Retrieval**: Harness the power of llama-github to retrieve highly relevant code snippets, issues, and repository information from GitHub based on user queries. Our advanced retrieval techniques ensure you find the most pertinent information quickly and efficiently.",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **⚡ リポジトリプールキャッシュ**：llama-githubは革新的なリポジトリプールキャッシュ機構を備えています。スレッド間でリポジトリ（README、構造、コード、イシューを含む）をキャッシュすることで、GitHub検索の取得効率を大幅に向上させ、GitHub APIトークンの消費を最小限に抑えます。マルチスレッドの本番環境に自信を持って導入でき、最適なパフォーマンスと貴重なリソースの節約を実現します。"
+  },
+  {
+    "row": 51,
+    "rowsha": "OtNyTLgFLD0QDlCwfKWcttMbckHUBj2YJNKV9r+Uc54=",
+    "originContent": "- **⚡ Repository Pool Caching**: Llama-github has an innovative repository pool caching mechanism. By caching repositories (including READMEs, structures, code, and issues) across threads, llama-github significantly accelerates GitHub search retrieval efficiency and minimizes the consumption of GitHub API tokens. Deploy llama-github in multi-threaded production environments with confidence, knowing that it will perform optimally and save you valuable resources.",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **🧠 LLMによる質問分析**：最先端の言語モデルを活用してユーザーの質問を分析し、高精度な検索戦略と基準を生成します。llama-githubは複雑なクエリを賢く分解し、GitHubの膨大なリポジトリネットワークから最も関連性の高い情報を取得します。"
+  },
+  {
+    "row": 53,
+    "rowsha": "JeXb8RZZhv2Wmw97j628XoyPreY+fMdIPsxoUQiEvzw=",
+    "originContent": "- **🧠 LLM-Powered Question Analysis**: Leverage state-of-the-art language models to analyze user questions and generate highly effective search strategies and criteria. Llama-github intelligently breaks down complex queries, ensuring that you retrieve the most relevant information from GitHub's vast repository network.",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **📚 包括的なコンテキスト生成**：GitHubから取得した情報と高度な言語モデルの推論能力をシームレスに組み合わせ、豊かで文脈に即した回答を生成します。llama-githubは複雑で長大な質問にも優れて対応し、開発ニーズを支援する広範なコンテキストを含む包括的で洞察に満ちた応答を提供します。"
+  },
+  {
+    "row": 55,
+    "rowsha": "yA7pWfx0KVCXQ2Eo49pVkbLR+DABI/mKnMw/tj/sCL0=",
+    "originContent": "- **📚 Comprehensive Context Generation**: Generate rich, contextually relevant answers by seamlessly combining information retrieved from GitHub with the reasoning capabilities of advanced language models. Llama-github excels at handling even the most complex and lengthy questions, providing comprehensive and insightful responses that include extensive context to support your development needs.",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **🚀 非同期処理の優位性**：llama-githubは非同期プログラミングの潜在能力を最大限に活用するように設計されています。コードベース全体に緻密に実装された非同期メカニズムにより、複数のリクエストを同時に処理でき、全体のパフォーマンスを大幅に向上させます。llama-githubが高速かつ高品質を損なうことなく大量のワークロードを効率的に管理する違いを体験してください。"
+  },
+  {
+    "row": 57,
+    "rowsha": "qku0KFnzN0JDJsFtvSnr1U47mAfoIMLCUgoTAF0FV2Q=",
+    "originContent": "- **🚀 Asynchronous Processing Excellence**: Llama-github is built from the ground up to leverage the full potential of asynchronous programming. With meticulously implemented asynchronous mechanisms woven throughout the codebase, llama-github can handle multiple requests concurrently, significantly boosting overall performance. Experience the difference as llama-github efficiently manages high-volume workloads without compromising on speed or quality.",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **🔧 柔軟なLLM統合**：さまざまなLLMプロバイダー、埋め込みモデル、再ランキングモデルと容易に統合し、ライブラリの機能を特定の要件に合わせて調整できます。拡張可能なアーキテクチャにより、llama-githubの機能をカスタマイズおよび強化し、独自の開発環境にシームレスに適応させることが可能です。"
+  },
+  {
+    "row": 59,
+    "rowsha": "0g6jkIpIeIIz2Gt8w6I2VAjPUz51+RDJs7fxVchaN/k=",
+    "originContent": "- **🔧 Flexible LLM Integration**: Easily integrate llama-github with various LLM providers, embedding models, and reranking models to tailor the library's capabilities to your specific requirements. Our extensible architecture allows you to customize and enhance llama-github's functionality, ensuring that it adapts seamlessly to your unique development environment.",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **🔒 強固な認証オプション**：llama-githubは個人アクセストークンとGitHub App認証の両方をサポートし、さまざまな開発環境に柔軟に統合できます。個人開発者でも組織内でも、安全で信頼性の高い認証メカニズムを提供します。"
+  },
+  {
+    "row": 61,
+    "rowsha": "WH0+zgaxAP/W/KtIygVDuxydKTKp6imCYyXpqvXpjaM=",
+    "originContent": "- **🔒 Robust Authentication Options**: Llama-github supports both personal access tokens and GitHub App authentication, providing you with the flexibility to integrate it into different development setups. Whether you're an individual developer or working within an organizational context, llama-github has you covered with secure and reliable authentication mechanisms.",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **🛠️ ロギングとエラーハンドリング**：スムーズな運用と容易なトラブルシューティングの重要性を理解しています。llama-githubには包括的なロギングとエラーハンドリング機構が備わっており、ライブラリの挙動を深く把握し、問題を迅速に診断し、安定した信頼性の高い開発ワークフローを維持できます。"
+  },
+  {
+    "row": 63,
+    "rowsha": "IYhTxjMvy72M7T9kEBfrXUNMz08qwsXzETVoE3WSNyQ=",
+    "originContent": "- **🛠️ Logging and Error Handling**: We understand the importance of smooth operations and easy troubleshooting. That's why llama-github comes equipped with comprehensive logging and error handling mechanisms. Gain deep insights into the library's behavior, quickly diagnose issues, and maintain a stable and reliable development workflow.",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🤖 AI搭載のPRレビューアシスタント「LlamaPReview」をお試しください"
+  },
+  {
+    "row": 65,
+    "rowsha": "QDeqAvaQEIQHPYjwq2KF5Bw3a76EiPq7ebbsGNKcRI8=",
+    "originContent": "## 🤖 Try Our AI-Powered PR Review Assistant: LlamaPReview",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "llama-githubがお役に立てる場合、AI搭載のGitHub PRレビューアシスタント「LlamaPReview」もご検討ください。開発ワークフローを補完し、コード品質をさらに向上させることを目的としています。"
+  },
+  {
+    "row": 67,
+    "rowsha": "laWUe+J402emMP2V1JeMqFpYefA8HTKWoI+lq7NfoyE=",
+    "originContent": "If you find llama-github useful, you might also be interested in our AI-powered GitHub PR review assistant, LlamaPReview. It's designed to complement your development workflow and further enhance code quality.",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### LlamaPReviewの主な特徴："
+  },
+  {
+    "row": 69,
+    "rowsha": "J3M87xxuLQISS/m0fiv7phjnw7mYaznst6rel6n7MyY=",
+    "originContent": "### Key Features of LlamaPReview:",
+    "translatedContent": "- 🚀 ワンクリックインストール、設定不要で完全自動実行"
+  },
+  {
+    "row": 70,
+    "rowsha": "dGBd2SxNdlW1UATPSu01Iq95yCVz8fXbl7xxHqDYI7E=",
+    "originContent": "- 🚀 One-click installation, zero configuration required, fully auto-run",
+    "translatedContent": "- 💯 現在無料で使用可能 - クレジットカードや支払い情報は不要"
+  },
+  {
+    "row": 71,
+    "rowsha": "EP9hYUs4aYVAzXcYQyCGf3bjwo64OjAsqQHIN75oW60=",
+    "originContent": "- 💯 Currently free to use - no credit card or payment info needed",
+    "translatedContent": "- 🧠 AI搭載で深いコード理解による自動PRレビュー"
+  },
+  {
+    "row": 72,
+    "rowsha": "jjWF/iUqSzPriHJ5iiFIq0Q6Pzx+gzPlnLu0Z4wmsSg=",
+    "originContent": "- 🧠 AI-powered, automatic PR reviews with deep code understanding",
+    "translatedContent": "- 🌐 複数プログラミング言語に対応"
+  },
+  {
+    "row": 73,
+    "rowsha": "Dsl+HsDM5NGI480TDo6eaFqgDcaofr3TDhLbUghSXhU=",
+    "originContent": "- 🌐 Supports multiple programming languages",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**LlamaPReviewはllama-githubの高度なコンテキスト取得とLLMによる分析を活用し**、インテリジェントで文脈を考慮したコードレビューを提供します。リポジトリの全コンテキストを備えたシニア開発者がすべてのPRを自動的にレビューしてくれるかのようです！"
+  },
+  {
+    "row": 75,
+    "rowsha": "GrzJg4j2iz94pupBQwJnFffhmsJ5IO9OkhqYvj0QEmo=",
+    "originContent": "**LlamaPReview utilizes llama-github's advanced context retrieval and LLM-powered analysis** to provide intelligent, context-aware code reviews. It's like having a senior developer, armed with the full context of your repository, review every PR automatically!",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "👉 [今すぐLlamaPReviewをインストール](https://github.com/marketplace/llamapreview/)（無料）"
+  },
+  {
+    "row": 77,
+    "rowsha": "4qGUTknerL/UTVikcUjFHvKzZlWho9opuf58fSIypyk=",
+    "originContent": "👉 [Install LlamaPReview Now](https://github.com/marketplace/llamapreview/) (Free)",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "llama-githubによるコンテキスト取得とLlamaPReviewによるコードレビューの組み合わせで、強力なAI強化開発環境を構築できます。"
+  },
+  {
+    "row": 79,
+    "rowsha": "luTTMbXm2ikxAkHhFfh2iG9uPEwMYBRd2lolUoOY+3o=",
+    "originContent": "By using llama-github for context retrieval and LlamaPReview for code reviews, you can create a powerful, AI-enhanced development environment.",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ビジョンとロードマップ"
+  },
+  {
+    "row": 81,
+    "rowsha": "W2b655gztUgECPmTnBIkK/WbBo7d68AbNAjMtkHS5xY=",
+    "originContent": "## Vision and Roadmap",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ビジョン"
+  },
+  {
+    "row": 83,
+    "rowsha": "Ewakmoa/Yb8fcDlChA12w7kAXVMFh8OrCLwVCTwIl84=",
+    "originContent": "### Vision",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "私たちのビジョンは、AI駆動の開発ソリューションの未来において重要なモジュールとなり、GitHubとシームレスに統合してLLMが複雑なコーディング課題を自動的に解決できるようにすることです。"
+  },
+  {
+    "row": 85,
+    "rowsha": "0e6GYQC4W2Y8Ky5Q9UNeMwDc+ebEjDIUb9h4gSLQJaI=",
+    "originContent": "Our vision is to become a pivotal module in the future of AI-driven development solutions, seamlessly integrating with GitHub to empower LLMs in automatically resolving complex coding tasks.",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![Vision Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)"
+  },
+  {
+    "row": 87,
+    "rowsha": "e3eGMrQR9LxN0lPlezIImRzi4tUu6n/GFfZsq5SBP4I=",
+    "originContent": "![Vision Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ロードマップ"
+  },
+  {
+    "row": 89,
+    "rowsha": "Q0D6oxy93TTXOZDvIiuco/ghaytG064tWvZdnLoKnOw=",
+    "originContent": "### Roadmap",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "プロジェクトの詳細なロードマップは、[プロジェクトロードマップ](https://github.com/users/JetXu-LLM/projects/2)をご覧ください。"
+  },
+  {
+    "row": 91,
+    "rowsha": "UHmL4/lEZk2jitjRxUVuHtD8JilL4OTzFLbU8R72Ymc=",
+    "originContent": "For a detailed view of our project roadmap, please visit our [Project Roadmap](https://github.com/users/JetXu-LLM/projects/2).",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 謝辞"
+  },
+  {
+    "row": 93,
+    "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+    "originContent": "## Acknowledgments",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "次のオープンソースプロジェクトに感謝の意を表します。彼らの支援と貢献により、llama-githubの開発が可能となりました。"
+  },
+  {
+    "row": 95,
+    "rowsha": "WodCIp8BqxoCo7bxE7dxagf/Dvpvw7nWeECf0qG6FGI=",
+    "originContent": "We would like to express our gratitude to the following open-source projects for their support and contributions:",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **[LangChain](https://github.com/langchain-ai/langchain)**：llama-githubのLLMプロンプトおよび処理機能を支える基盤フレームワークを提供。"
+  },
+  {
+    "row": 97,
+    "rowsha": "HBIRZKkbsYOXsJY2Xepu1VxTAAdh869qSnsGbJ0cIg0=",
+    "originContent": "- **[LangChain](https://github.com/langchain-ai/langchain)**: For providing the foundational framework that empowers the LLM prompting and processing capabilities in llama-github.",
+    "translatedContent": "- **[Jina.ai](https://github.com/jina-ai/reader)**：s.jina.ai APIおよびオープンソースの再ランキングモデルと埋め込みモデルを提供し、llama-githubの生成コンテキストの精度と関連性を向上。"
+  },
+  {
+    "row": 98,
+    "rowsha": "l7sjWwbh0OUJwk4+yJE2ZbVGypyaPrzI1YYMP7Uw9X0=",
+    "originContent": "- **[Jina.ai](https://github.com/jina-ai/reader)**: For offering s.jina.ai API and open source reranker and embedding models that enhance the accuracy and relevance of the generated contexts in llama-github.",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "彼らの貢献はllama-githubの開発に不可欠であり、より革新的なソリューションを探している方にはぜひ彼らのプロジェクトをチェックすることをお勧めします。"
+  },
+  {
+    "row": 100,
+    "rowsha": "hrChp1vDZFs3UZia39niD4Kx9hT0wKUMxSSiiyYyi7A=",
+    "originContent": "Their contributions have been instrumental in the development of llama-github, and we highly recommend checking out their projects for more innovative solutions.",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 貢献について"
+  },
+  {
+    "row": 102,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "llama-githubへの貢献を歓迎します！詳細は[貢献ガイドライン](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md)をご覧ください。"
+  },
+  {
+    "row": 104,
+    "rowsha": "JUWgAoIn9VhOEzmNL5dlAlHwcmo7N2Rm2GNx0g5Rijs=",
+    "originContent": "We welcome contributions to llama-github! Please see our [contributing guidelines](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md) for more information.",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 106,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "本プロジェクトはApache 2.0ライセンスの下で提供されています。詳細は[LICENSE](LICENSE)ファイルをご覧ください。"
+  },
+  {
+    "row": 108,
+    "rowsha": "hUzQdbczna0Cd3FyH+bhS5SWBDzmVQyA+nCi/UZO6VI=",
+    "originContent": "This project is licensed under the terms of the Apache 2.0 license. See the [LICENSE](LICENSE) file for more details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## お問い合わせ"
+  },
+  {
+    "row": 110,
+    "rowsha": "ZX9nbduzXgvmAaK8yTd+tNgwR7cV79HXV/+xbvL8suw=",
+    "originContent": "## Contact",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ご質問、ご提案、ご意見がございましたら、[Jet Xuのメール](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/mailto:Voldemort.xu@foxmail.com)までお気軽にご連絡ください。"
+  },
+  {
+    "row": 112,
+    "rowsha": "sZud9u8DDdJRsIyc+T0tdusx1FWC0pdv0Yn2hhndP9o=",
+    "originContent": "If you have any questions, suggestions, or feedback, please feel free to reach out to us at [Jet Xu's email](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/mailto:Voldemort.xu@foxmail.com).",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 114,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "llama-githubをお選びいただきありがとうございます！このライブラリが皆様のAI開発体験を向上させ、強力なアプリケーション構築の助けとなることを願っています。"
+  },
+  {
+    "row": 116,
+    "rowsha": "98t5imS5RZt8kUxGAXqZcPmlZMcru27Gl/g31hb3g/c=",
+    "originContent": "Thank you for choosing llama-github! We hope this library enhances your AI development experience and helps you build powerful applications with ease.",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
