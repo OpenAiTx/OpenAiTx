@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # llama-github
 
 [Document détaillé] https://deepwiki.com/JetXu-LLM/llama-github
@@ -6,9 +38,9 @@
 [![Téléchargements](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)
 [![Licence](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Llama-github est un outil puissant qui vous aide à récupérer (basé sur Agentic RAG) les extraits de code, problèmes et informations de dépôt les plus pertinents de GitHub en fonction de vos requêtes, les transformant en un contexte de connaissance précieux. Il permet aux chatbots LLM, agents IA et agents Auto-dev de résoudre des tâches de codage complexes. Que vous soyez un développeur cherchant des solutions rapides ou un ingénieur implémentant des agents Auto Dev IA avancés, llama-github rend cela simple et efficace.
+Llama-github est un outil puissant qui vous aide à récupérer (basé sur Agentic RAG) les extraits de code, problèmes et informations de dépôt les plus pertinents depuis GitHub selon vos requêtes, les transformant en contexte de connaissance précieux. Il permet aux chatbots LLM, agents IA et agents Auto-dev de résoudre des tâches de codage complexes. Que vous soyez un développeur cherchant des solutions rapides ou un ingénieur implémentant des agents IA Auto Dev avancés, llama-github rend cela facile et efficace.
 
-Si vous aimez ce projet ou pensez qu’il a du potentiel, merci de lui donner une ⭐️. Votre soutien est notre plus grande motivation !
+Si vous appréciez ce projet ou pensez qu'il a du potentiel, merci de lui attribuer une ⭐️. Votre soutien est notre plus grande motivation !
 
 ## Architecture
 ![Architecture de haut niveau](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)

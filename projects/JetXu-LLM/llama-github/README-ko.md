@@ -1,14 +1,46 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # llama-github
 
 [상세 문서] https://deepwiki.com/JetXu-LLM/llama-github
 
 [![PyPI 버전](https://badge.fury.io/py/llama-github.svg)](https://badge.fury.io/py/llama-github)
-[![다운로드 수](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)
+[![다운로드](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)
 [![라이선스](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Llama-github는 Agentic RAG 기반으로 GitHub에서 쿼리에 가장 관련성 높은 코드 스니펫, 이슈, 저장소 정보를 검색하여 가치 있는 지식 컨텍스트로 변환하는 강력한 도구입니다. 이는 LLM 챗봇, AI 에이전트, 자동 개발 에이전트가 복잡한 코딩 작업을 해결하도록 지원합니다. 빠른 솔루션을 찾는 개발자이든, 고급 자동 개발 AI 에이전트를 구현하는 엔지니어이든, llama-github는 쉽고 효율적인 작업을 제공합니다.
+Llama-github는 Agentic RAG 기반으로 GitHub에서 가장 관련 있는 코드 스니펫, 이슈, 저장소 정보를 쿼리에 따라 검색하여 가치 있는 지식 컨텍스트로 변환하는 강력한 도구입니다. 이 도구는 LLM 챗봇, AI 에이전트, Auto-dev 에이전트가 복잡한 코딩 작업을 해결할 수 있도록 지원합니다. 빠른 솔루션이 필요한 개발자이든, 고급 Auto Dev AI 에이전트를 구현하는 엔지니어이든, llama-github를 통해 쉽고 효율적으로 작업할 수 있습니다.
 
-이 프로젝트가 마음에 들거나 잠재력이 있다고 생각하시면 ⭐️를 눌러주세요. 여러분의 지원이 저희의 가장 큰 동기입니다!
+이 프로젝트가 마음에 들거나 잠재력이 있다고 생각하신다면, 꼭 ⭐️를 눌러주세요. 여러분의 응원이 저희의 가장 큰 동기입니다!
 
 ## 아키텍처
 ![고수준 아키텍처](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)
