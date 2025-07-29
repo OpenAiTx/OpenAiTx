@@ -1,0 +1,1933 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Claude Code Comprehensive Agent Collection\n\n**Language**: [English](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README.md) | [日本語](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README_JA.md)\n\nA complete collection of 35 specialized sub-agents for Claude Code that enable end-to-end software development automation, from requirements analysis to production deployment and ongoing maintenance.\n\n## 🎯 Overview\n\nThis repository contains a comprehensive set of Claude Code sub-agents designed to handle complete software development lifecycles with minimal human intervention. The agents are organized into six categories covering every aspect of modern software development.\n\n## 📦 Agent Categories\n\n### 1. Requirements & Analysis (4 agents)\n**Purpose**: Transform business needs into detailed technical specifications\n\n- **requirements-analyst** - Analyzes user needs and creates detailed functional specifications\n- **user-story-generator** - Creates comprehensive user stories and acceptance criteria  \n- **business-process-analyst** - Analyzes business processes and translates to technical requirements\n- **requirements-validator** - Validates requirements for completeness and consistency\n\n### 2. Design & Architecture (5 agents)\n**Purpose**: Create robust, scalable system designs\n\n- **system-architect** - Designs comprehensive system architectures and technology stacks\n- **data-architect** - Designs data models, schemas, and integration strategies\n- **interface-designer** - Designs user interfaces and API specifications\n- **security-architect** - Designs security frameworks and data protection strategies\n- **design-reviewer** - Reviews and validates system designs for quality\n\n### 3. Implementation & Development (10 agents)\n**Purpose**: Handle all aspects of code development and quality assurance\n\n- **code-reviewer** - Performs comprehensive code quality assessments\n- **test-suite-generator** - Generates comprehensive test coverage\n- **code-refactoring-specialist** - Safely improves code structure and reduces technical debt\n- **security-analyzer** - Identifies vulnerabilities and security issues\n- **performance-optimizer** - Analyzes and optimizes code performance\n- **api-designer** - Designs clean, RESTful APIs with proper specifications\n- **documentation-generator** - Creates technical documentation and code comments\n- **dependency-manager** - Manages package dependencies and resolves conflicts\n- **database-schema-designer** - Designs efficient database schemas and migrations\n- **cicd-builder** - Creates and configures CI/CD pipelines\n\n### 4. Project Management (5 agents)\n**Purpose**: Coordinate and manage the entire development process\n\n- **project-planner** - Creates comprehensive project plans and timelines\n- **risk-manager** - Identifies and creates mitigation strategies for project risks\n- **progress-tracker** - Monitors project progress and identifies blockers\n- **qa-coordinator** - Establishes quality standards and coordinates testing\n- **stakeholder-communicator** - Manages stakeholder communication and reporting\n\n### 5. Deployment & Operations (5 agents)\n**Purpose**: Handle production deployment and ongoing operations\n\n- **project-orchestrator** - Master coordinator for end-to-end project execution\n- **deployment-ops-manager** - Handles production deployment and operational monitoring\n- **uat-coordinator** - Coordinates user acceptance testing with business stakeholders\n- **training-change-manager** - Creates training materials and manages system adoption\n- **project-template-manager** - Manages project templates and quick setup for common project patterns\n\n### 6. Meta-Management (6 agents)\n**Purpose**: Optimize Claude Code itself for maximum efficiency\n\n- **context-manager** - Monitors session context and manages information for continuity\n- **session-continuity-manager** - Ensures seamless transitions between Claude Code sessions\n- **memory-manager** - Optimizes Claude Code memory usage and project documentation\n- **workflow-optimizer** - Analyzes and optimizes development workflows and agent usage\n- **resource-monitor** - Monitors resource usage and suggests optimization strategies\n- **agent-creator** - Dynamically creates new specialized agents when project needs arise\n\n## 🚀 Key Features\n\n### Complete Automation\n- **End-to-end development**: From requirements to production deployment\n- **Intelligent orchestration**: Agents automatically coordinate and sequence work\n- **Dynamic specialization**: Create new agents for unique project needs\n- **Session continuity**: Maintain context across long development sessions\n\n### Professional Quality\n- **Industry best practices**: Each agent follows established methodologies\n- **Comprehensive testing**: Automated test generation and quality assurance\n- **Security-first**: Built-in security analysis and compliance checking\n- **Production-ready**: Full deployment and operational support\n\n### Scalable Architecture\n- **Modular design**: Use individual agents or complete workflows\n- **Context preservation**: Efficient memory management for long projects\n- **Resource optimization**: Monitor and optimize Claude Code usage\n- **Template-driven**: Quick project setup with proven patterns\n\n## 💡 Use Cases\n\n### Complete Project Automation",
+    "ContentSha": "ARMtz0vDA3XZuiPju6no2IzqZEPBVWgTxH5JdyL/nJg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Claude Code Comprehensive Agent Collection\n\n**Language**: [English](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README.md) | [日本語](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README_JA.md)\n\nA complete collection of 35 specialized sub-agents for Claude Code that enable end-to-end software development automation, from requirements analysis to production deployment and ongoing maintenance.\n\n## 🎯 Overview\n\nThis repository contains a comprehensive set of Claude Code sub-agents designed to handle complete software development lifecycles with minimal human intervention. The agents are organized into six categories covering every aspect of modern software development.\n\n## 📦 Agent Categories\n\n### 1. Requirements & Analysis (4 agents)\n**Purpose**: Transform business needs into detailed technical specifications\n\n- **requirements-analyst** - Analyzes user needs and creates detailed functional specifications\n- **user-story-generator** - Creates comprehensive user stories and acceptance criteria  \n- **business-process-analyst** - Analyzes business processes and translates to technical requirements\n- **requirements-validator** - Validates requirements for completeness and consistency\n\n### 2. Design & Architecture (5 agents)\n**Purpose**: Create robust, scalable system designs\n\n- **system-architect** - Designs comprehensive system architectures and technology stacks\n- **data-architect** - Designs data models, schemas, and integration strategies\n- **interface-designer** - Designs user interfaces and API specifications\n- **security-architect** - Designs security frameworks and data protection strategies\n- **design-reviewer** - Reviews and validates system designs for quality\n\n### 3. Implementation & Development (10 agents)\n**Purpose**: Handle all aspects of code development and quality assurance\n\n- **code-reviewer** - Performs comprehensive code quality assessments\n- **test-suite-generator** - Generates comprehensive test coverage\n- **code-refactoring-specialist** - Safely improves code structure and reduces technical debt\n- **security-analyzer** - Identifies vulnerabilities and security issues\n- **performance-optimizer** - Analyzes and optimizes code performance\n- **api-designer** - Designs clean, RESTful APIs with proper specifications\n- **documentation-generator** - Creates technical documentation and code comments\n- **dependency-manager** - Manages package dependencies and resolves conflicts\n- **database-schema-designer** - Designs efficient database schemas and migrations\n- **cicd-builder** - Creates and configures CI/CD pipelines\n\n### 4. Project Management (5 agents)\n**Purpose**: Coordinate and manage the entire development process\n\n- **project-planner** - Creates comprehensive project plans and timelines\n- **risk-manager** - Identifies and creates mitigation strategies for project risks\n- **progress-tracker** - Monitors project progress and identifies blockers\n- **qa-coordinator** - Establishes quality standards and coordinates testing\n- **stakeholder-communicator** - Manages stakeholder communication and reporting\n\n### 5. Deployment & Operations (5 agents)\n**Purpose**: Handle production deployment and ongoing operations\n\n- **project-orchestrator** - Master coordinator for end-to-end project execution\n- **deployment-ops-manager** - Handles production deployment and operational monitoring\n- **uat-coordinator** - Coordinates user acceptance testing with business stakeholders\n- **training-change-manager** - Creates training materials and manages system adoption\n- **project-template-manager** - Manages project templates and quick setup for common project patterns\n\n### 6. Meta-Management (6 agents)\n**Purpose**: Optimize Claude Code itself for maximum efficiency\n\n- **context-manager** - Monitors session context and manages information for continuity\n- **session-continuity-manager** - Ensures seamless transitions between Claude Code sessions\n- **memory-manager** - Optimizes Claude Code memory usage and project documentation\n- **workflow-optimizer** - Analyzes and optimizes development workflows and agent usage\n- **resource-monitor** - Monitors resource usage and suggests optimization strategies\n- **agent-creator** - Dynamically creates new specialized agents when project needs arise\n\n## 🚀 Key Features\n\n### Complete Automation\n- **End-to-end development**: From requirements to production deployment\n- **Intelligent orchestration**: Agents automatically coordinate and sequence work\n- **Dynamic specialization**: Create new agents for unique project needs\n- **Session continuity**: Maintain context across long development sessions\n\n### Professional Quality\n- **Industry best practices**: Each agent follows established methodologies\n- **Comprehensive testing**: Automated test generation and quality assurance\n- **Security-first**: Built-in security analysis and compliance checking\n- **Production-ready**: Full deployment and operational support\n\n### Scalable Architecture\n- **Modular design**: Use individual agents or complete workflows\n- **Context preservation**: Efficient memory management for long projects\n- **Resource optimization**: Monitor and optimize Claude Code usage\n- **Template-driven**: Quick project setup with proven patterns\n\n## 💡 Use Cases\n\n### Complete Project Automation",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4sl97yVYMRU8MG6iW/EsHMKQPyMF4gMgohCu8vEtz+w=",
+        "originContent": "# Claude Code Comprehensive Agent Collection",
+        "translatedContent": "# Claude Code Comprehensive Agent Collection"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "SSte4LUBBEjNdJ+sE8P/aniCFN+VWDR7hS4rejc3mxI=",
+        "originContent": "**Language**: [English](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README.md) | [日本語](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README_JA.md)",
+        "translatedContent": "**Language**: [English](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README.md) | [日本語](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README_JA.md)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "3mAPFVhQR/ZS8U9/k5AOOElEAr2+bUSUen3KJwwOszA=",
+        "originContent": "A complete collection of 35 specialized sub-agents for Claude Code that enable end-to-end software development automation, from requirements analysis to production deployment and ongoing maintenance.",
+        "translatedContent": "A complete collection of 35 specialized sub-agents for Claude Code that enable end-to-end software development automation, from requirements analysis to production deployment and ongoing maintenance."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Vt+e2KGnKfSZNltxew//MixoOhBnJ+iMoJaVLqMT79s=",
+        "originContent": "## 🎯 Overview",
+        "translatedContent": "## 🎯 Overview"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "cbvrdzlp670at7iuqLbjKzJBHR+mOmCAPEw0HPRSBk8=",
+        "originContent": "This repository contains a comprehensive set of Claude Code sub-agents designed to handle complete software development lifecycles with minimal human intervention. The agents are organized into six categories covering every aspect of modern software development.",
+        "translatedContent": "This repository contains a comprehensive set of Claude Code sub-agents designed to handle complete software development lifecycles with minimal human intervention. The agents are organized into six categories covering every aspect of modern software development."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "9ZdUe3SX1XJBp7OwyV2jbArQmyJEvAv1QFYyxVFvddY=",
+        "originContent": "## 📦 Agent Categories",
+        "translatedContent": "## 📦 Agent Categories"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "RlzMgD66ufxRyDYbHSLssWjHEmgnftI6Ml3A9uOCKIA=",
+        "originContent": "### 1. Requirements & Analysis (4 agents)",
+        "translatedContent": "### 1. Requirements & Analysis (4 agents)"
+      },
+      {
+        "row": 14,
+        "rowsha": "3/aXK0XLjf6cPP8KJ2CZM7u4n2UtKwjF/RSNhH3jc/E=",
+        "originContent": "**Purpose**: Transform business needs into detailed technical specifications",
+        "translatedContent": "**Purpose**: Transform business needs into detailed technical specifications"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "w0/ucPkl+Onq7Li/T7AZrmKFnswxUtKhhe58QoM5Wi8=",
+        "originContent": "- **requirements-analyst** - Analyzes user needs and creates detailed functional specifications",
+        "translatedContent": "- **requirements-analyst** - Analyzes user needs and creates detailed functional specifications"
+      },
+      {
+        "row": 17,
+        "rowsha": "lrBSQXMWL6rLzEa+9y4srOdAcSljgugG7OXvOHB6pXE=",
+        "originContent": "- **user-story-generator** - Creates comprehensive user stories and acceptance criteria  ",
+        "translatedContent": "- **user-story-generator** - Creates comprehensive user stories and acceptance criteria  "
+      },
+      {
+        "row": 18,
+        "rowsha": "XrDkepAwQ2gpd+jVM9OFEcGJX530/ZI9iNOprv0W4+Q=",
+        "originContent": "- **business-process-analyst** - Analyzes business processes and translates to technical requirements",
+        "translatedContent": "- **business-process-analyst** - Analyzes business processes and translates to technical requirements"
+      },
+      {
+        "row": 19,
+        "rowsha": "U492Oe4bFnteFsHPyzSjEzKBMTIqXx/ZoWOvZzOY3gs=",
+        "originContent": "- **requirements-validator** - Validates requirements for completeness and consistency",
+        "translatedContent": "- **requirements-validator** - Validates requirements for completeness and consistency"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "W8mIsjaJcDzO7VnsnV2X6zXXMWzwVc6fdeGiP7ovSmw=",
+        "originContent": "### 2. Design & Architecture (5 agents)",
+        "translatedContent": "### 2. Design & Architecture (5 agents)"
+      },
+      {
+        "row": 22,
+        "rowsha": "qhGclV2I0Mj5XUYRTSj+riyeMEl0rqjIvTJEr21h2UQ=",
+        "originContent": "**Purpose**: Create robust, scalable system designs",
+        "translatedContent": "**Purpose**: Create robust, scalable system designs"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "F7S+yf1R+N6oVK3CJWQbuZKorXwW3kGRSYFxcE80BY8=",
+        "originContent": "- **system-architect** - Designs comprehensive system architectures and technology stacks",
+        "translatedContent": "- **system-architect** - Designs comprehensive system architectures and technology stacks"
+      },
+      {
+        "row": 25,
+        "rowsha": "/bNWVLHWmvjshksCM1rv8r80sulkbHhG4fM4OpR/09w=",
+        "originContent": "- **data-architect** - Designs data models, schemas, and integration strategies",
+        "translatedContent": "- **data-architect** - Designs data models, schemas, and integration strategies"
+      },
+      {
+        "row": 26,
+        "rowsha": "fYmlw2UF2wUCFxJ3aHR6CbqtzdAGt7WBNxY4puDX+so=",
+        "originContent": "- **interface-designer** - Designs user interfaces and API specifications",
+        "translatedContent": "- **interface-designer** - Designs user interfaces and API specifications"
+      },
+      {
+        "row": 27,
+        "rowsha": "34PZtforNW0RDAlkB5OmxZn1bkrvTa37BBIUKDhtukA=",
+        "originContent": "- **security-architect** - Designs security frameworks and data protection strategies",
+        "translatedContent": "- **security-architect** - Designs security frameworks and data protection strategies"
+      },
+      {
+        "row": 28,
+        "rowsha": "rlJewA8hlidPIXGApRykT6QFZoDEd9BVAzu6ISftTl4=",
+        "originContent": "- **design-reviewer** - Reviews and validates system designs for quality",
+        "translatedContent": "- **design-reviewer** - Reviews and validates system designs for quality"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "sIJKiUe1MxA6OJuGhoTR710n7wuy5x9ZD4LfXZhlyc0=",
+        "originContent": "### 3. Implementation & Development (10 agents)",
+        "translatedContent": "### 3. Implementation & Development (10 agents)"
+      },
+      {
+        "row": 31,
+        "rowsha": "FplivmfBKwCYZ9Qwfgje7DbF0ZtuAgyy6wLaxDCBOeo=",
+        "originContent": "**Purpose**: Handle all aspects of code development and quality assurance",
+        "translatedContent": "**Purpose**: Handle all aspects of code development and quality assurance"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "/d+2qt9/xuWLjsWT0/j2bcg0G9ob0CEtlses/zsXGPk=",
+        "originContent": "- **code-reviewer** - Performs comprehensive code quality assessments",
+        "translatedContent": "- **code-reviewer** - Performs comprehensive code quality assessments"
+      },
+      {
+        "row": 34,
+        "rowsha": "QQQCGKw90mwjwaaPBbhge7tFbfGBJi2WtnkExYYwZZE=",
+        "originContent": "- **test-suite-generator** - Generates comprehensive test coverage",
+        "translatedContent": "- **test-suite-generator** - Generates comprehensive test coverage"
+      },
+      {
+        "row": 35,
+        "rowsha": "UFA0paevpG6EOsdEF4Xa8HeTSKOOGysBgv0x4OU9AA0=",
+        "originContent": "- **code-refactoring-specialist** - Safely improves code structure and reduces technical debt",
+        "translatedContent": "- **code-refactoring-specialist** - Safely improves code structure and reduces technical debt"
+      },
+      {
+        "row": 36,
+        "rowsha": "3O3cq0EnyrEmR/BuPHEpT6Km9WY/PXfPIcvco2RuVdY=",
+        "originContent": "- **security-analyzer** - Identifies vulnerabilities and security issues",
+        "translatedContent": "- **security-analyzer** - Identifies vulnerabilities and security issues"
+      },
+      {
+        "row": 37,
+        "rowsha": "ho2+Y8qwAFObWhZ5J/6eoSMlnGSLIqTRV/SNO2RclBI=",
+        "originContent": "- **performance-optimizer** - Analyzes and optimizes code performance",
+        "translatedContent": "- **performance-optimizer** - Analyzes and optimizes code performance"
+      },
+      {
+        "row": 38,
+        "rowsha": "RP4I7KZY07TP6sRoRJHGkM3b8r5axHXISYmzVvSBmxY=",
+        "originContent": "- **api-designer** - Designs clean, RESTful APIs with proper specifications",
+        "translatedContent": "- **api-designer** - Designs clean, RESTful APIs with proper specifications"
+      },
+      {
+        "row": 39,
+        "rowsha": "xpgrRizvoCyaL/tbfzGum5UzeMMst70hEPWGbyc/9Z0=",
+        "originContent": "- **documentation-generator** - Creates technical documentation and code comments",
+        "translatedContent": "- **documentation-generator** - Creates technical documentation and code comments"
+      },
+      {
+        "row": 40,
+        "rowsha": "aznpLKrWnFIDz0Vg4IvzvMwdWL1gkrPTmwXzDIgpVtM=",
+        "originContent": "- **dependency-manager** - Manages package dependencies and resolves conflicts",
+        "translatedContent": "- **dependency-manager** - Manages package dependencies and resolves conflicts"
+      },
+      {
+        "row": 41,
+        "rowsha": "8RfUvamoUw8TW8gj4gBDgxmAywX+GaXxKVNP06OMDvA=",
+        "originContent": "- **database-schema-designer** - Designs efficient database schemas and migrations",
+        "translatedContent": "- **database-schema-designer** - Designs efficient database schemas and migrations"
+      },
+      {
+        "row": 42,
+        "rowsha": "lBaXrLs64BI/7mFIDUJypmNo6P1zNQXGbWcMKUuiSnc=",
+        "originContent": "- **cicd-builder** - Creates and configures CI/CD pipelines",
+        "translatedContent": "- **cicd-builder** - Creates and configures CI/CD pipelines"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "vRil394DO1pw2BYMZGNWBWPPOacu3eM46MGXOtwMj80=",
+        "originContent": "### 4. Project Management (5 agents)",
+        "translatedContent": "### 4. Project Management (5 agents)"
+      },
+      {
+        "row": 45,
+        "rowsha": "XY2Hao2NbKl/HBujPSkv4+SGZKEjaJJuNIhQdXpd3ww=",
+        "originContent": "**Purpose**: Coordinate and manage the entire development process",
+        "translatedContent": "**Purpose**: Coordinate and manage the entire development process"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "CqmQVZRiYMcxPYeuJQQKNvESDSUoZs8oUom9+gc0aHU=",
+        "originContent": "- **project-planner** - Creates comprehensive project plans and timelines",
+        "translatedContent": "- **project-planner** - Creates comprehensive project plans and timelines"
+      },
+      {
+        "row": 48,
+        "rowsha": "wEIgmxYaB4HcMUnDzqO7CgWogmJanJndqresf5mVnAA=",
+        "originContent": "- **risk-manager** - Identifies and creates mitigation strategies for project risks",
+        "translatedContent": "- **risk-manager** - Identifies and creates mitigation strategies for project risks"
+      },
+      {
+        "row": 49,
+        "rowsha": "AVZbZ6HAx8YGKgbV6WfFC0q8DjC83xo9u/8RBI2gFRw=",
+        "originContent": "- **progress-tracker** - Monitors project progress and identifies blockers",
+        "translatedContent": "- **progress-tracker** - Monitors project progress and identifies blockers"
+      },
+      {
+        "row": 50,
+        "rowsha": "Q0u1WmfMnNU6jKwxIm11n8vk3ezDOK3AN96TxTypNOM=",
+        "originContent": "- **qa-coordinator** - Establishes quality standards and coordinates testing",
+        "translatedContent": "- **qa-coordinator** - Establishes quality standards and coordinates testing"
+      },
+      {
+        "row": 51,
+        "rowsha": "nAWJKAUeNaVWV58uoOrJl4lK1ieKUf4GBt3GJ9Q36mo=",
+        "originContent": "- **stakeholder-communicator** - Manages stakeholder communication and reporting",
+        "translatedContent": "- **stakeholder-communicator** - Manages stakeholder communication and reporting"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "mdr/qrpUqVx/Olx6sHnGbSQGM9ngYik6mK/h2gnZMmM=",
+        "originContent": "### 5. Deployment & Operations (5 agents)",
+        "translatedContent": "### 5. Deployment & Operations (5 agents)"
+      },
+      {
+        "row": 54,
+        "rowsha": "BcNgjogW9ujwV7M6eE0skEMIuMQc6TDWqsAf7+NZ5tw=",
+        "originContent": "**Purpose**: Handle production deployment and ongoing operations",
+        "translatedContent": "**Purpose**: Handle production deployment and ongoing operations"
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "19SwWsNll3H0kq0veYYaRiGn8RqqMXYxbNDY0A9EJXU=",
+        "originContent": "- **project-orchestrator** - Master coordinator for end-to-end project execution",
+        "translatedContent": "- **project-orchestrator** - Master coordinator for end-to-end project execution"
+      },
+      {
+        "row": 57,
+        "rowsha": "VEq1+GObXyChSs9R90CYQ+RfTGV3wHoFFcvph8jm8VE=",
+        "originContent": "- **deployment-ops-manager** - Handles production deployment and operational monitoring",
+        "translatedContent": "- **deployment-ops-manager** - Handles production deployment and operational monitoring"
+      },
+      {
+        "row": 58,
+        "rowsha": "piVTq9rxMcNaep2Qj4JnbObME0hZGfMLaKsrgprSiq4=",
+        "originContent": "- **uat-coordinator** - Coordinates user acceptance testing with business stakeholders",
+        "translatedContent": "- **uat-coordinator** - Coordinates user acceptance testing with business stakeholders"
+      },
+      {
+        "row": 59,
+        "rowsha": "3yNp7eNTFMI4NaTq1WMQjngXksvhQarrjd8RaQ/1wmg=",
+        "originContent": "- **training-change-manager** - Creates training materials and manages system adoption",
+        "translatedContent": "- **training-change-manager** - Creates training materials and manages system adoption"
+      },
+      {
+        "row": 60,
+        "rowsha": "9RtwtYpz084LifCKcDCdRcshpFJNc/OBiKXFAiI4Fas=",
+        "originContent": "- **project-template-manager** - Manages project templates and quick setup for common project patterns",
+        "translatedContent": "- **project-template-manager** - Manages project templates and quick setup for common project patterns"
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "JDWzZ78ckDqqLtxvThCIPI6iw21/AV0GjsWYMLRgzFw=",
+        "originContent": "### 6. Meta-Management (6 agents)",
+        "translatedContent": "### 6. Meta-Management (6 agents)"
+      },
+      {
+        "row": 63,
+        "rowsha": "Kmlksp9P3Q8TWFBc5EiFL4Op2wP1Gv15sbR/a3dWAWE=",
+        "originContent": "**Purpose**: Optimize Claude Code itself for maximum efficiency",
+        "translatedContent": "**Purpose**: Optimize Claude Code itself for maximum efficiency"
+      },
+      {
+        "row": 64,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "WGJdNLxoydDChlwdH7aenmExQL28KNgNduBo/5gbYhE=",
+        "originContent": "- **context-manager** - Monitors session context and manages information for continuity",
+        "translatedContent": "- **context-manager** - Monitors session context and manages information for continuity"
+      },
+      {
+        "row": 66,
+        "rowsha": "jL6Bjf6WNkZHg3OzWFb/2j6RdFFXPHnNvx2wAECTLKM=",
+        "originContent": "- **session-continuity-manager** - Ensures seamless transitions between Claude Code sessions",
+        "translatedContent": "- **session-continuity-manager** - Ensures seamless transitions between Claude Code sessions"
+      },
+      {
+        "row": 67,
+        "rowsha": "zk67c20MgJXTwuQh/OzGKCtop0WFQFNG6tEUWnjLGew=",
+        "originContent": "- **memory-manager** - Optimizes Claude Code memory usage and project documentation",
+        "translatedContent": "- **memory-manager** - Optimizes Claude Code memory usage and project documentation"
+      },
+      {
+        "row": 68,
+        "rowsha": "Y3rml6PQ96OwU/+S5BDKrgK+eQFNgEi4eGhzFa2Ex9c=",
+        "originContent": "- **workflow-optimizer** - Analyzes and optimizes development workflows and agent usage",
+        "translatedContent": "- **workflow-optimizer** - Analyzes and optimizes development workflows and agent usage"
+      },
+      {
+        "row": 69,
+        "rowsha": "FDIUeHc8azF8mXg1sRUEikL/UZIkU6LdFSUy8220FtM=",
+        "originContent": "- **resource-monitor** - Monitors resource usage and suggests optimization strategies",
+        "translatedContent": "- **resource-monitor** - Monitors resource usage and suggests optimization strategies"
+      },
+      {
+        "row": 70,
+        "rowsha": "AONuHypCP32XV3aBhtj5KtltxbpjeLWCQA2vkE3zJRQ=",
+        "originContent": "- **agent-creator** - Dynamically creates new specialized agents when project needs arise",
+        "translatedContent": "- **agent-creator** - Dynamically creates new specialized agents when project needs arise"
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "0vAhKmXWDMjukIwL5SlQVUPpA0O/4mj+5Mh4JxRDWaA=",
+        "originContent": "## 🚀 Key Features",
+        "translatedContent": "## 🚀 Key Features"
+      },
+      {
+        "row": 73,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "8SdBaW7ajeCDZFJ3FfXKI+SlFM0uEhwwz8/NgHaAZ9M=",
+        "originContent": "### Complete Automation",
+        "translatedContent": "### Complete Automation"
+      },
+      {
+        "row": 75,
+        "rowsha": "1KBmODT/p2K8BbPQ4VJb8Cgxs4b2q7SoZCeLCnlXyxc=",
+        "originContent": "- **End-to-end development**: From requirements to production deployment",
+        "translatedContent": "- **End-to-end development**: From requirements to production deployment"
+      },
+      {
+        "row": 76,
+        "rowsha": "MYQtegIMlri4y74WEYYNrzAIflJIhUpKuJYoS+eKUXw=",
+        "originContent": "- **Intelligent orchestration**: Agents automatically coordinate and sequence work",
+        "translatedContent": "- **Intelligent orchestration**: Agents automatically coordinate and sequence work"
+      },
+      {
+        "row": 77,
+        "rowsha": "moq7wRbtxxVN4VRiiJXgjDDi9URndfa+vs7FXs0nYwc=",
+        "originContent": "- **Dynamic specialization**: Create new agents for unique project needs",
+        "translatedContent": "- **Dynamic specialization**: Create new agents for unique project needs"
+      },
+      {
+        "row": 78,
+        "rowsha": "LT0mCOhUEiWst4O9SbtV2bMyEflAj2xVpoFp+S5kdzs=",
+        "originContent": "- **Session continuity**: Maintain context across long development sessions",
+        "translatedContent": "- **Session continuity**: Maintain context across long development sessions"
+      },
+      {
+        "row": 79,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 80,
+        "rowsha": "U9iAEb8ZLaHt8gfQGrJKemcp6LYBogJj7mKoTffAkaU=",
+        "originContent": "### Professional Quality",
+        "translatedContent": "### Professional Quality"
+      },
+      {
+        "row": 81,
+        "rowsha": "K2KWSvLCwo21GiJXcnUEcWccwG2zxzQTZ9D7iFdeBRY=",
+        "originContent": "- **Industry best practices**: Each agent follows established methodologies",
+        "translatedContent": "- **Industry best practices**: Each agent follows established methodologies"
+      },
+      {
+        "row": 82,
+        "rowsha": "K7ds/im6yQKsLDhdUY4xJiaYm5rKUtx7bg+FMK+zjAM=",
+        "originContent": "- **Comprehensive testing**: Automated test generation and quality assurance",
+        "translatedContent": "- **Comprehensive testing**: Automated test generation and quality assurance"
+      },
+      {
+        "row": 83,
+        "rowsha": "x5i0OJEdQle1BrYQzaixjiDSezK2LsDF3Khsbsdhv+k=",
+        "originContent": "- **Security-first**: Built-in security analysis and compliance checking",
+        "translatedContent": "- **Security-first**: Built-in security analysis and compliance checking"
+      },
+      {
+        "row": 84,
+        "rowsha": "VOTQQMPIZ7kf9B2d55UdUdBVDkc/LvWR/O34uu7tvew=",
+        "originContent": "- **Production-ready**: Full deployment and operational support",
+        "translatedContent": "- **Production-ready**: Full deployment and operational support"
+      },
+      {
+        "row": 85,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 86,
+        "rowsha": "sQswc4yNlNcmmzcFgpkezJx+a/vx/JooVuC/IrVdfzc=",
+        "originContent": "### Scalable Architecture",
+        "translatedContent": "### Scalable Architecture"
+      },
+      {
+        "row": 87,
+        "rowsha": "ilJYmYfbvNZU8MxF6+aaDwZKNo5DJtKGhjj6yt5sWow=",
+        "originContent": "- **Modular design**: Use individual agents or complete workflows",
+        "translatedContent": "- **Modular design**: Use individual agents or complete workflows"
+      },
+      {
+        "row": 88,
+        "rowsha": "BFaMlkArtqxiXxN7aIuAKXmU6wDsSNMC6JCRys3xtsc=",
+        "originContent": "- **Context preservation**: Efficient memory management for long projects",
+        "translatedContent": "- **Context preservation**: Efficient memory management for long projects"
+      },
+      {
+        "row": 89,
+        "rowsha": "J+eHYm0eR6oh/CX4uNDn27k3qFhdiZ+I0pbT2VUfMio=",
+        "originContent": "- **Resource optimization**: Monitor and optimize Claude Code usage",
+        "translatedContent": "- **Resource optimization**: Monitor and optimize Claude Code usage"
+      },
+      {
+        "row": 90,
+        "rowsha": "zMzZWg8tUF3le85fDCAkMsf7gf54Q21WBwJFTAegR4Y=",
+        "originContent": "- **Template-driven**: Quick project setup with proven patterns",
+        "translatedContent": "- **Template-driven**: Quick project setup with proven patterns"
+      },
+      {
+        "row": 91,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 92,
+        "rowsha": "XUWpu+KgBlTCUqUsCcfHWfgLTbHUd2TXsrgJ7cV1o+4=",
+        "originContent": "## 💡 Use Cases",
+        "translatedContent": "## 💡 Use Cases"
+      },
+      {
+        "row": 93,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 94,
+        "rowsha": "BiZVYjuZ7LNO6W/gbbFtQVWB0MN4ZhtDUQpMlk369Kk=",
+        "originContent": "### Complete Project Automation",
+        "translatedContent": "### Complete Project Automation"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\nUser: \"Create a library management system for our company\"\nResult: Fully functional web application with database, API, frontend, tests, documentation, and deployment\n```",
+    "ContentSha": "MhArUl6loHX+vVSwPijfaFzb3nEHSsnyxvkP2uYSjiw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nUser: \"Create a library management system for our company\"\nResult: Fully functional web application with database, API, frontend, tests, documentation, and deployment\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "U3yB2gSzsN678e9LbRipZ0ee4j8nyWBhMPXv0hz3YVg=",
+        "originContent": "User: \"Create a library management system for our company\"",
+        "translatedContent": "User: \"Create a library management system for our company\""
+      },
+      {
+        "row": 3,
+        "rowsha": "GyrmwyNCG0gY3GGxJMcaaAhCRSE6kH7Yyu7iCwDTuiI=",
+        "originContent": "Result: Fully functional web application with database, API, frontend, tests, documentation, and deployment",
+        "translatedContent": "Result: Fully functional web application with database, API, frontend, tests, documentation, and deployment"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Specialized Development Tasks",
+    "ContentSha": "L/XFEqCRJVLzZyc1qC/5VYBpoft6PklcC1GF9CKk8EI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Specialized Development Tasks\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Specialized Development Tasks"
+      },
+      {
+        "row": 2,
+        "rowsha": "8SDCDLqZKImzL2DaC5gTB2rOekPQ6BNrcbmgMxmoBoU=",
+        "originContent": "### Specialized Development Tasks",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nUser: \"Review this authentication code for security issues\"\nAgent: security-analyzer performs comprehensive security audit\n```",
+    "ContentSha": "GwBXFrZxyW0H0UZeVEjW7k00ejC4apwPULp9bLg0ayQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nUser: \"Review this authentication code for security issues\"\nAgent: security-analyzer performs comprehensive security audit\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "mIC2W9TwHs2ov8aMeRte+hqI2DLad9pqidGx3Lr+czs=",
+        "originContent": "User: \"Review this authentication code for security issues\"",
+        "translatedContent": "User: \"Review this authentication code for security issues\""
+      },
+      {
+        "row": 3,
+        "rowsha": "ip/7BRerGNPdeIVRcn9gqRb3oVXyqX3rD92KL+GTcq4=",
+        "originContent": "Agent: security-analyzer performs comprehensive security audit",
+        "translatedContent": "Agent: security-analyzer performs comprehensive security audit"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Long-term Project Management",
+    "ContentSha": "1E+sF6/V3Vuz1+78q5klQLczcLzDf5wrq7oTjcG8pIk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Long-term Project Management\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Long-term Project Management"
+      },
+      {
+        "row": 2,
+        "rowsha": "WmHIJeACkbJ2yydWcL3vBK9VT8X95F8ubbU1axFD1OM=",
+        "originContent": "### Long-term Project Management",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nUser: \"Manage the development of a multi-tenant SaaS platform\"\nAgent: project-orchestrator coordinates all phases with appropriate specialists\n```",
+    "ContentSha": "Posg681aLeC+PnQO5McUg51KbKA2VFUmx3iv9ZPoV24=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nUser: \"Manage the development of a multi-tenant SaaS platform\"\nAgent: project-orchestrator coordinates all phases with appropriate specialists\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "eu585UZZuRDReiu/JP8D6/r93IgUVe23Q5JgvrfJLv8=",
+        "originContent": "User: \"Manage the development of a multi-tenant SaaS platform\"",
+        "translatedContent": "User: \"Manage the development of a multi-tenant SaaS platform\""
+      },
+      {
+        "row": 3,
+        "rowsha": "VVFNfnLKJGLNZvysQUoj5G+tjE40p0zqdjdbSKm3w80=",
+        "originContent": "Agent: project-orchestrator coordinates all phases with appropriate specialists",
+        "translatedContent": "Agent: project-orchestrator coordinates all phases with appropriate specialists"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## 📋 Installation\n\n1. **Clone or copy agent definitions** to your project's `.claude/agents/` directory:",
+    "ContentSha": "BGyiV/9Kfnl7xRfVUMFZko3lXECchz4OxukqsMqk1eA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 📋 Installation\n\n1. **Clone or copy agent definitions** to your project's `.claude/agents/` directory:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "DsxK6oirhGGJsih8ggyfe4Pyy0zS8jxtpfaZRPHBeh8=",
+        "originContent": "## 📋 Installation",
+        "translatedContent": "## 📋 Installation"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "bv0IAEZRaKOhmELGd+AAJVhUli3f8Qwf3YgWqobh6bU=",
+        "originContent": "1. **Clone or copy agent definitions** to your project's `.claude/agents/` directory:",
+        "translatedContent": "1. **Clone or copy agent definitions** to your project's `.claude/agents/` directory:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "   ```bash\n   mkdir -p .claude/agents\n   # Copy the 35 agent definition files to this directory\n   ```",
+    "ContentSha": "9j75s0dgvFI63ySzBbI44Tt3EqN8fTAUuuxOC+Vh39U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   mkdir -p .claude/agents\n   # Copy the 35 agent definition files to this directory\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "kgYBArILkvy2D1/C6XeTbQq7T3F0/D89uwkq2KD/t8M=",
+        "originContent": "   mkdir -p .claude/agents",
+        "translatedContent": "   mkdir -p .claude/agents"
+      },
+      {
+        "row": 3,
+        "rowsha": "L3f8D5Mzp0V2JnVrnISewvRh9oV8erCZ4F83vejgdFo=",
+        "originContent": "   # Copy the 35 agent definition files to this directory",
+        "translatedContent": "   # Copy the 35 agent definition files to this directory"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n2. **Verify installation**:",
+    "ContentSha": "lY80V1D9yEGd89YJUKIDBH56dtQEiJQ9JtstgMWxKuY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2. **Verify installation**:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "rwMTG+7hj2T/I6wLG855CuUQNHVMmH9zqTX17w1MlWM=",
+        "originContent": "2. **Verify installation**:",
+        "translatedContent": "2. **Verify installation**:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "   ```bash\n   ls .claude/agents/\n   # Should show all 35 agent files (.md format)\n   ```",
+    "ContentSha": "p+n9+cDxToB03UzKGFBPuEA/rAdIvfQnuslBqkCfvc4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   ls .claude/agents/\n   # Should show all 35 agent files (.md format)\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "2EIdeWZhvL5Y8gKXawQsc70K/EdfapBnMnPh4eIJ0IA=",
+        "originContent": "   ls .claude/agents/",
+        "translatedContent": "   ls .claude/agents/"
+      },
+      {
+        "row": 3,
+        "rowsha": "NWoWVn96VNP7Yx+hTuq5iZ96gD+1BFV/WV+wJIl93DM=",
+        "originContent": "   # Should show all 35 agent files (.md format)",
+        "translatedContent": "   # Should show all 35 agent files (.md format)"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n3. **Start using agents** in Claude Code:",
+    "ContentSha": "Qr9K9jZGI6OuaFEPJcG3VCSjVZ4vWSRNWqu7AyU0Hn0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. **Start using agents** in Claude Code:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. **Start using agents** in Claude Code:"
+      },
+      {
+        "row": 2,
+        "rowsha": "RnbOfCgW5SsAjyHFq+wILLnpOwNz6b0ij5f0c5DAC/Q=",
+        "originContent": "3. **Start using agents** in Claude Code:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "   ```\n   Use the project-orchestrator agent to build a complete web application\n   ```",
+    "ContentSha": "ebGoazy+rbMjXCWn3JZuCFgg4cksYCBQ0gfbukbHO5U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```\n   Use the project-orchestrator agent to build a complete web application\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "WDPKVL470/aUxHbgN+fKIkEvkFiKOIU0uPQl99pTA2c=",
+        "originContent": "   Use the project-orchestrator agent to build a complete web application",
+        "translatedContent": "   Use the project-orchestrator agent to build a complete web application"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## 🎮 Usage Examples\n\n### Starting a New Web Application",
+    "ContentSha": "U+gcuNnfMSsLAguKlSkJu3fbjAsTavwVqwR0e+lhmdQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🎮 Usage Examples\n\n### Starting a New Web Application",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "+d8dp4S5RQXcfn5sBjNZrAvgs5R9S/yoBgNeAIwrjVg=",
+        "originContent": "## 🎮 Usage Examples",
+        "translatedContent": "## 🎮 Usage Examples"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "aDGGuvbeGJGNTzRmde6sHVB9io3HCiPdZ0rxgtLSx8g=",
+        "originContent": "### Starting a New Web Application",
+        "translatedContent": "### Starting a New Web Application"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\n\"I want to build a task management web application with user authentication, real-time updates, and mobile responsiveness. Handle everything from requirements to deployment.\"\n```",
+    "ContentSha": "sgCFNV2T8qPkUfqFGiuPyc8PT8D71mGUHsWMu9z6NO8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\"I want to build a task management web application with user authentication, real-time updates, and mobile responsiveness. Handle everything from requirements to deployment.\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "btRdjHmRrrBJilexUO5H2DX11fwI6O6C9apqRfmH9Tk=",
+        "originContent": "\"I want to build a task management web application with user authentication, real-time updates, and mobile responsiveness. Handle everything from requirements to deployment.\"",
+        "translatedContent": "\"I want to build a task management web application with user authentication, real-time updates, and mobile responsiveness. Handle everything from requirements to deployment.\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nThe **project-orchestrator** will:\n1. Use **requirements-analyst** to gather detailed requirements\n2. Coordinate **system-architect** and **data-architect** for design\n3. Manage implementation with development agents\n4. Handle testing, deployment, and documentation\n5. Provide training materials for end users\n\n### Code Quality Review",
+    "ContentSha": "BNSXDm84MkkdYRAIj4mvdwZy/CAkinDYavrZhLsm++E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nThe **project-orchestrator** will:\n1. Use **requirements-analyst** to gather detailed requirements\n2. Coordinate **system-architect** and **data-architect** for design\n3. Manage implementation with development agents\n4. Handle testing, deployment, and documentation\n5. Provide training materials for end users\n\n### Code Quality Review",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5YF6MOIKiq2WWILbMdikGIfzwb1BDBtOp8pIhHiHQ7o=",
+        "originContent": "The **project-orchestrator** will:",
+        "translatedContent": "The **project-orchestrator** will:"
+      },
+      {
+        "row": 3,
+        "rowsha": "h/XK2vUlwQ5AHME/EXicgedwPgNRb04FA975live2Bw=",
+        "originContent": "1. Use **requirements-analyst** to gather detailed requirements",
+        "translatedContent": "1. Use **requirements-analyst** to gather detailed requirements"
+      },
+      {
+        "row": 4,
+        "rowsha": "flZm5Qd9/hfiTTGy1KKj1wJSZHma42XPZOSGFy6QhA0=",
+        "originContent": "2. Coordinate **system-architect** and **data-architect** for design",
+        "translatedContent": "2. Coordinate **system-architect** and **data-architect** for design"
+      },
+      {
+        "row": 5,
+        "rowsha": "CqD0DwHwwokbbZsstZ3/94Pk155jGHZwmh6LTe9J/68=",
+        "originContent": "3. Manage implementation with development agents",
+        "translatedContent": "3. Manage implementation with development agents"
+      },
+      {
+        "row": 6,
+        "rowsha": "X8FFEQ/9nimFUauVmL4JryFe1Sz2ziWejYh9AQTBnZM=",
+        "originContent": "4. Handle testing, deployment, and documentation",
+        "translatedContent": "4. Handle testing, deployment, and documentation"
+      },
+      {
+        "row": 7,
+        "rowsha": "8B5Gn1FXQRA5LgpxY3LrhMNe9YaJdR4lYIQ6tT84Sig=",
+        "originContent": "5. Provide training materials for end users",
+        "translatedContent": "5. Provide training materials for end users"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "aPfDdBi0ILh+Il1MJ23zHbtsBv/rRGVx41n9EDn+tt0=",
+        "originContent": "### Code Quality Review",
+        "translatedContent": "### Code Quality Review"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```\n\"Review my e-commerce checkout process for security vulnerabilities, performance issues, and code quality.\"\n```",
+    "ContentSha": "/q2n0OwVd/TCtklWB5kqhD/7Y8/l6E68x0YJe5BFwN4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\"Review my e-commerce checkout process for security vulnerabilities, performance issues, and code quality.\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "bchoVGdJrsnPK7qwwAjDC9+F52YufS0tuWaikolMypQ=",
+        "originContent": "\"Review my e-commerce checkout process for security vulnerabilities, performance issues, and code quality.\"",
+        "translatedContent": "\"Review my e-commerce checkout process for security vulnerabilities, performance issues, and code quality.\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nMultiple agents coordinate:\n- **security-analyzer** checks for vulnerabilities\n- **performance-optimizer** identifies bottlenecks  \n- **code-reviewer** ensures best practices\n\n### Long-term Project Management",
+    "ContentSha": "SM3Eps+a5VVBgfNk++sPBgTOMhA46lrjyzdhUVx9jII=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nMultiple agents coordinate:\n- **security-analyzer** checks for vulnerabilities\n- **performance-optimizer** identifies bottlenecks  \n- **code-reviewer** ensures best practices\n\n### Long-term Project Management",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "JE7i0Lw0j6q9SJt4mrlKUDT0LCMgNkDV1I9SzndohQQ=",
+        "originContent": "Multiple agents coordinate:",
+        "translatedContent": "Multiple agents coordinate:"
+      },
+      {
+        "row": 3,
+        "rowsha": "YnZnYNyUp35Mz711kDKY2hylXYJLhZLueNYK2A/ArHs=",
+        "originContent": "- **security-analyzer** checks for vulnerabilities",
+        "translatedContent": "- **security-analyzer** checks for vulnerabilities"
+      },
+      {
+        "row": 4,
+        "rowsha": "7iNKluyN4SHFXdlsGaQVTmIpVIXMrWDAj+ThC3fSbuo=",
+        "originContent": "- **performance-optimizer** identifies bottlenecks  ",
+        "translatedContent": "- **performance-optimizer** identifies bottlenecks  "
+      },
+      {
+        "row": 5,
+        "rowsha": "n8yXAh/Ya2X89eMmfmd3/QQTjKt3Kl31USH8GGeDDd4=",
+        "originContent": "- **code-reviewer** ensures best practices",
+        "translatedContent": "- **code-reviewer** ensures best practices"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "WmHIJeACkbJ2yydWcL3vBK9VT8X95F8ubbU1axFD1OM=",
+        "originContent": "### Long-term Project Management",
+        "translatedContent": "### Long-term Project Management"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```\n\"Manage the development of our new customer portal over the next 6 months with regular stakeholder updates.\"\n```",
+    "ContentSha": "klxIo9VrLx8m/2szKRzWzEuKpZdyQg3I5s3MI+6/uyg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\"Manage the development of our new customer portal over the next 6 months with regular stakeholder updates.\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "09fEqF3TumDuZbV9odmH2184a8glfjJsmKkYYhGctHY=",
+        "originContent": "\"Manage the development of our new customer portal over the next 6 months with regular stakeholder updates.\"",
+        "translatedContent": "\"Manage the development of our new customer portal over the next 6 months with regular stakeholder updates.\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\nThe system provides:\n- Automated project planning and risk management\n- Regular progress tracking and reporting\n- Quality gates and testing coordination\n- Stakeholder communication management\n\n## 🔧 Agent Workflow Patterns\n\n### Sequential Pattern\nRequirements → Design → Implementation → Testing → Deployment\n\n### Parallel Pattern\nMultiple development agents working simultaneously on different components\n\n### Adaptive Pattern\n**agent-creator** generates specialized agents for unique requirements\n\n### Continuous Pattern\nMeta-management agents provide ongoing optimization and monitoring\n\n## 📝 Agent Definition Format\n\nEach agent follows Claude Code's standard format:",
+    "ContentSha": "XBQoD1R5crVlQPycLBMxSh8cDRSlp1+TTLF2VcOuXNQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "The system provides:  \n- Automated project planning and risk management  \n- Regular progress tracking and reporting  \n- Quality gates and testing coordination  \n- Stakeholder communication management  \n\n## 🔧 Agent Workflow Patterns  \n\n### Sequential Pattern  \nRequirements → Design → Implementation → Testing → Deployment  \n\n### Parallel Pattern  \nMultiple development agents working simultaneously on different components  \n\n### Adaptive Pattern  \n**agent-creator** generates specialized agents for unique requirements  \n\n### Continuous Pattern  \nMeta-management agents provide ongoing optimization and monitoring  \n\n## 📝 Agent Definition Format  \n\nEach agent follows Claude Code's standard format:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The system provides:  "
+      },
+      {
+        "row": 2,
+        "rowsha": "Tf2rFeMpp8Lq5LUYynEa9gC4oybbZzksS46rCQ/fDPc=",
+        "originContent": "The system provides:",
+        "translatedContent": "- Automated project planning and risk management  "
+      },
+      {
+        "row": 3,
+        "rowsha": "pMINuL949FSTToZRVuMVbK7EPiBdlSmFa7KHPnzWEug=",
+        "originContent": "- Automated project planning and risk management",
+        "translatedContent": "- Regular progress tracking and reporting  "
+      },
+      {
+        "row": 4,
+        "rowsha": "H873BnpQbkKyxtkDBL47yyN6opD+sXYHh8OROA2Iv18=",
+        "originContent": "- Regular progress tracking and reporting",
+        "translatedContent": "- Quality gates and testing coordination  "
+      },
+      {
+        "row": 5,
+        "rowsha": "T4/sCsMwtkOwDG6dkTNPv4qDKClmKkbJrDNDCGQtTIY=",
+        "originContent": "- Quality gates and testing coordination",
+        "translatedContent": "- Stakeholder communication management  "
+      },
+      {
+        "row": 6,
+        "rowsha": "OpChTAmA/NO0xZBLWq/u0osW+juc7g2v8GlyK/7aBqY=",
+        "originContent": "- Stakeholder communication management",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🔧 Agent Workflow Patterns  "
+      },
+      {
+        "row": 8,
+        "rowsha": "N+a6z/gZjhLLMuD7uEWBLBF2MkEsfj4sUxT8gWzBSPk=",
+        "originContent": "## 🔧 Agent Workflow Patterns",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Sequential Pattern  "
+      },
+      {
+        "row": 10,
+        "rowsha": "6Kido4+ZzsYumJHDNt5TqihCrBTHM08u8+hPSuusQ6Q=",
+        "originContent": "### Sequential Pattern",
+        "translatedContent": "Requirements → Design → Implementation → Testing → Deployment  "
+      },
+      {
+        "row": 11,
+        "rowsha": "nTvneS0cmUUIPsenYEcTf702h/dh/CfHnq3YeFFyI08=",
+        "originContent": "Requirements → Design → Implementation → Testing → Deployment",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Parallel Pattern  "
+      },
+      {
+        "row": 13,
+        "rowsha": "4/QSQwRAmwLQjA9DvPOvz/v5gW2G4tekvHENI6c1+m4=",
+        "originContent": "### Parallel Pattern",
+        "translatedContent": "Multiple development agents working simultaneously on different components  "
+      },
+      {
+        "row": 14,
+        "rowsha": "fN6fJQV1YIQiWMC5Ywd4xNohse1lWadcr6gJ4c1aqKQ=",
+        "originContent": "Multiple development agents working simultaneously on different components",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Adaptive Pattern  "
+      },
+      {
+        "row": 16,
+        "rowsha": "HDzSaVGP51KDzvZMGGYNaxdqooJZY4TOghHiskYDIDY=",
+        "originContent": "### Adaptive Pattern",
+        "translatedContent": "**agent-creator** generates specialized agents for unique requirements  "
+      },
+      {
+        "row": 17,
+        "rowsha": "PMNF9f6G7Eq97ZCV3tlLLd6R1QNN0qY61rDz1mu/Fb8=",
+        "originContent": "**agent-creator** generates specialized agents for unique requirements",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Continuous Pattern  "
+      },
+      {
+        "row": 19,
+        "rowsha": "J3VaxoIdB65/u+NpM+lZuyxPYNDM9DCCQA8ul0y3yus=",
+        "originContent": "### Continuous Pattern",
+        "translatedContent": "Meta-management agents provide ongoing optimization and monitoring  "
+      },
+      {
+        "row": 20,
+        "rowsha": "we3gR4rcHwRc66bfEnVZSZvyT5p1QQane/kMz5v7QYk=",
+        "originContent": "Meta-management agents provide ongoing optimization and monitoring",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📝 Agent Definition Format  "
+      },
+      {
+        "row": 22,
+        "rowsha": "rZ9Yf2DyNYbqd4fEeRObXfQ01ukgOAVLPn91tXaDams=",
+        "originContent": "## 📝 Agent Definition Format",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Each agent follows Claude Code's standard format:"
+      },
+      {
+        "row": 24,
+        "rowsha": "p1tIZ+J6sbo5VKDRH5i1FRS2k3eh2nFAJp8dnf3lpQg=",
+        "originContent": "Each agent follows Claude Code's standard format:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```markdown\n---\nname: agent-name\ndescription: Detailed description with examples and usage patterns\n---\n\nComprehensive system prompt defining the agent's expertise, responsibilities, and methodologies.\n```",
+    "ContentSha": "Cx5r6qOHs+Amzi9nB18c4BvYj4r/p2fERiccQby3cvw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```markdown\n---\nname: agent-name\ndescription: Detailed description with examples and usage patterns\n---\n\nComprehensive system prompt defining the agent's expertise, responsibilities, and methodologies.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MHyWpNKr1KkVzz3IATBcRRAPua4ryYTWUlvrChR4qPU=",
+        "originContent": "```markdown",
+        "translatedContent": "```markdown"
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "2YkqYs4v+AlOR0fPxyj/zVGmggx7fzdFwXecoV8RBjo=",
+        "originContent": "name: agent-name",
+        "translatedContent": "name: agent-name"
+      },
+      {
+        "row": 4,
+        "rowsha": "zHHBos5fYfiPzFoqNEsLceqi1c5Jc5ZfR8SKgIsWblg=",
+        "originContent": "description: Detailed description with examples and usage patterns",
+        "translatedContent": "description: Detailed description with examples and usage patterns"
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "uRuTTPIL2NAk7Z3PFMoxqtN/dIr5VbA07Qie3UJkqDA=",
+        "originContent": "Comprehensive system prompt defining the agent's expertise, responsibilities, and methodologies.",
+        "translatedContent": "Comprehensive system prompt defining the agent's expertise, responsibilities, and methodologies."
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n## 🔄 Agent Interactions\n\n### Master Coordinator\n- **project-orchestrator** manages overall project flow\n- Automatically selects and sequences appropriate agents\n- Handles inter-agent communication and dependency management\n\n### Specialized Teams\n- **Requirements Team**: Gather and validate project needs\n- **Design Team**: Create technical architecture and specifications  \n- **Development Team**: Implement, test, and optimize code\n- **Operations Team**: Deploy and maintain production systems\n- **Meta Team**: Optimize Claude Code usage and continuity\n\n## 📚 Documentation\n\nEach agent includes:\n- **Detailed description** with usage examples\n- **Specific use cases** and trigger conditions\n- **Expected outputs** and deliverables\n- **Integration patterns** with other agents\n\n## 🎯 Complete Automation Example\n\n### Input",
+    "ContentSha": "RitykkpqCqFVXaTxojZeKbSrGpfaA0uuHJrEVyMIhpc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🔄 Agent Interactions\n\n### Master Coordinator\n- **project-orchestrator** manages overall project flow\n- Automatically selects and sequences appropriate agents\n- Handles inter-agent communication and dependency management\n\n### Specialized Teams\n- **Requirements Team**: Gather and validate project needs\n- **Design Team**: Create technical architecture and specifications  \n- **Development Team**: Implement, test, and optimize code\n- **Operations Team**: Deploy and maintain production systems\n- **Meta Team**: Optimize Claude Code usage and continuity\n\n## 📚 Documentation\n\nEach agent includes:\n- **Detailed description** with usage examples\n- **Specific use cases** and trigger conditions\n- **Expected outputs** and deliverables\n- **Integration patterns** with other agents\n\n## 🎯 Complete Automation Example\n\n### Input",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "AICBhgQqiZXJ2UUlm7RBBulSQhVNyvVxZf8afqq2fp0=",
+        "originContent": "## 🔄 Agent Interactions",
+        "translatedContent": "## 🔄 Agent Interactions"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "krnaH5Yc/cWa/pcMdhds6AbtDZC7OaleSpIZ+Q56EHE=",
+        "originContent": "### Master Coordinator",
+        "translatedContent": "### Master Coordinator"
+      },
+      {
+        "row": 5,
+        "rowsha": "+arW7WPldbnI+Fdm/v0k3e4/3EwEw6B62FG/B/WweLM=",
+        "originContent": "- **project-orchestrator** manages overall project flow",
+        "translatedContent": "- **project-orchestrator** manages overall project flow"
+      },
+      {
+        "row": 6,
+        "rowsha": "s1EcJcHN9l4erZyS4S9eMsVgj+Q/DeIC7vrqaL0UGWE=",
+        "originContent": "- Automatically selects and sequences appropriate agents",
+        "translatedContent": "- Automatically selects and sequences appropriate agents"
+      },
+      {
+        "row": 7,
+        "rowsha": "M+PE9c14AvRORbGLqsqixUXxUVwIxH++sZ9NS662ofc=",
+        "originContent": "- Handles inter-agent communication and dependency management",
+        "translatedContent": "- Handles inter-agent communication and dependency management"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "haFyzzD+mFMzA8GtSmP3uOc6BnBSc1XQBi6S/otSPo8=",
+        "originContent": "### Specialized Teams",
+        "translatedContent": "### Specialized Teams"
+      },
+      {
+        "row": 10,
+        "rowsha": "xwB7iyq9zPD8MfZKyt4ueEjMfx+B9iQUmTnkcdFAB5k=",
+        "originContent": "- **Requirements Team**: Gather and validate project needs",
+        "translatedContent": "- **Requirements Team**: Gather and validate project needs"
+      },
+      {
+        "row": 11,
+        "rowsha": "BzXVuc1dPkNpg3LYm9F5KunsN2ua4KPL75LC/ZiXRt4=",
+        "originContent": "- **Design Team**: Create technical architecture and specifications  ",
+        "translatedContent": "- **Design Team**: Create technical architecture and specifications  "
+      },
+      {
+        "row": 12,
+        "rowsha": "jYGPjxMC1tv/X+lntQc5ItichvHOL/F12KjHq81Qj6Q=",
+        "originContent": "- **Development Team**: Implement, test, and optimize code",
+        "translatedContent": "- **Development Team**: Implement, test, and optimize code"
+      },
+      {
+        "row": 13,
+        "rowsha": "TLfkhpzBedIyVi/qzRHAtBKYwaNINil5n2qeqVJxeJY=",
+        "originContent": "- **Operations Team**: Deploy and maintain production systems",
+        "translatedContent": "- **Operations Team**: Deploy and maintain production systems"
+      },
+      {
+        "row": 14,
+        "rowsha": "oA72exJAXwJhNeHo4QT0W4+XQPiCqgnLcCshVvmB9TU=",
+        "originContent": "- **Meta Team**: Optimize Claude Code usage and continuity",
+        "translatedContent": "- **Meta Team**: Optimize Claude Code usage and continuity"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "5YBW4t4C14zvjeLiv+p8S2mquwc7mp0AQxq8KLsx1B4=",
+        "originContent": "## 📚 Documentation",
+        "translatedContent": "## 📚 Documentation"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "OzHEfqGb287E/shoqefH+W4f7m9NxxT8dJopaDRUaCk=",
+        "originContent": "Each agent includes:",
+        "translatedContent": "Each agent includes:"
+      },
+      {
+        "row": 19,
+        "rowsha": "e3DBr7CieQGAPFdTLsK+JWfxRR1SHbgSAHDp0cFW+dc=",
+        "originContent": "- **Detailed description** with usage examples",
+        "translatedContent": "- **Detailed description** with usage examples"
+      },
+      {
+        "row": 20,
+        "rowsha": "xB3vO+a86Wr7VbQDkA0TpIIXmWDqmYg7/+jsZObWs5M=",
+        "originContent": "- **Specific use cases** and trigger conditions",
+        "translatedContent": "- **Specific use cases** and trigger conditions"
+      },
+      {
+        "row": 21,
+        "rowsha": "neLgY1WmoiiBkx71nESxnhOat2cDw+9nzuJtIrGd1OY=",
+        "originContent": "- **Expected outputs** and deliverables",
+        "translatedContent": "- **Expected outputs** and deliverables"
+      },
+      {
+        "row": 22,
+        "rowsha": "qGIgiwBbjixdNogH3hoGDMjpUBYKqUBQcc0QBXVT2zo=",
+        "originContent": "- **Integration patterns** with other agents",
+        "translatedContent": "- **Integration patterns** with other agents"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "9DzUQWJGrD2s3iJYfpp1nPRL0mqqfPxp7lrltwScjXA=",
+        "originContent": "## 🎯 Complete Automation Example",
+        "translatedContent": "## 🎯 Complete Automation Example"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "Ok9go7SW6tJsAWZeE6ZDGyBFBzSP3STXmUpd2AyRwLM=",
+        "originContent": "### Input",
+        "translatedContent": "### Input"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```\n\"Create a library management system for our company\"\n```",
+    "ContentSha": "nYPhboHtC/A/Ouk7+rB1qvJJgpHmfueHfsT2bBIM1nE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\"Create a library management system for our company\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "TCDlzs7MTsABCaHgg6wnSSbT1isKIQcR+SfR2uuDpPs=",
+        "originContent": "\"Create a library management system for our company\"",
+        "translatedContent": "\"Create a library management system for our company\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n### Automated Process\n1. **Requirements Analysis**: Stakeholder needs → Technical specifications\n2. **System Design**: Architecture → Database design → API design → UI design\n3. **Implementation**: Backend → Frontend → Testing → Documentation\n4. **Quality Assurance**: Code review → Security analysis → Performance optimization\n5. **Deployment**: Production setup → CI/CD pipeline → Monitoring\n6. **Handover**: User training → Documentation → Support procedures\n\n### Output\n- Fully functional web application\n- Complete test suite with high coverage\n- Production deployment with monitoring\n- User documentation and training materials\n- Ongoing maintenance procedures\n\n## 🤝 Contributing\n\nWe welcome contributions! Please:\n\n1. Follow the established agent definition format\n2. Include comprehensive examples and documentation\n3. Test thoroughly with real projects\n4. Ensure agents integrate well with existing workflows\n5. Submit clear documentation of agent capabilities\n\n## 📄 License\n\nMIT License - feel free to use, modify, and distribute these agents for any purpose.\n\n## 🙏 Acknowledgments\n\nDesigned to work seamlessly with [Claude Code](https://claude.ai/code) and follows all established patterns and best practices for sub-agent development.\n\n## 📞 Support\n\nFor issues, questions, or suggestions:\n- Open an issue in this repository\n- Check the Claude Code documentation at https://docs.anthropic.com/en/docs/claude-code\n- Review agent examples and usage patterns\n\n---\n\n*Transform your development process with intelligent automation. From a single requirement to a production system - let the agents handle the complexity while you focus on the vision.*\n\n## 🚀 Quick Start\n\n1. **Copy agents** to your project's `.claude/agents/` directory\n2. **Start Claude Code** in your project\n3. **Say**: \"Use the project-orchestrator to build [your project description]\"\n4. **Watch** as the system handles everything from requirements to deployment\n\n**That's it!** The agents will coordinate automatically to deliver a complete, production-ready solution.",
+    "ContentSha": "y7LAfHC0Rohg7OGWQ4qE7fiKphoPCcKsDMI5ks8QVzY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Automated Process\n1. **Requirements Analysis**: Stakeholder needs → Technical specifications\n2. **System Design**: Architecture → Database design → API design → UI design\n3. **Implementation**: Backend → Frontend → Testing → Documentation\n4. **Quality Assurance**: Code review → Security analysis → Performance optimization\n5. **Deployment**: Production setup → CI/CD pipeline → Monitoring\n6. **Handover**: User training → Documentation → Support procedures\n\n### Output\n- Fully functional web application\n- Complete test suite with high coverage\n- Production deployment with monitoring\n- User documentation and training materials\n- Ongoing maintenance procedures\n\n## 🤝 Contributing\n\nWe welcome contributions! Please:\n\n1. Follow the established agent definition format\n2. Include comprehensive examples and documentation\n3. Test thoroughly with real projects\n4. Ensure agents integrate well with existing workflows\n5. Submit clear documentation of agent capabilities\n\n## 📄 License\n\nMIT License - feel free to use, modify, and distribute these agents for any purpose.\n\n## 🙏 Acknowledgments\n\nDesigned to work seamlessly with [Claude Code](https://claude.ai/code) and follows all established patterns and best practices for sub-agent development.\n\n## 📞 Support\n\nFor issues, questions, or suggestions:\n- Open an issue in this repository\n- Check the Claude Code documentation at https://docs.anthropic.com/en/docs/claude-code\n- Review agent examples and usage patterns\n\n---\n\n*Transform your development process with intelligent automation. From a single requirement to a production system - let the agents handle the complexity while you focus on the vision.*\n\n## 🚀 Quick Start\n\n1. **Copy agents** to your project's `.claude/agents/` directory\n2. **Start Claude Code** in your project\n3. **Say**: \"Use the project-orchestrator to build [your project description]\"\n4. **Watch** as the system handles everything from requirements to deployment\n\n**That's it!** The agents will coordinate automatically to deliver a complete, production-ready solution.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "pPli9Kq40tB2EvM6jUDcjycre15qQFOcCTvZny/UgWI=",
+        "originContent": "### Automated Process",
+        "translatedContent": "### Automated Process"
+      },
+      {
+        "row": 3,
+        "rowsha": "uDhqcsEynsksyq581RBPBt1rWtvZELy7/DLBNvoEYAo=",
+        "originContent": "1. **Requirements Analysis**: Stakeholder needs → Technical specifications",
+        "translatedContent": "1. **Requirements Analysis**: Stakeholder needs → Technical specifications"
+      },
+      {
+        "row": 4,
+        "rowsha": "TFdASFrCeOhfiI9b1JZx02Ag2tOQIEMDANA2eySBdGg=",
+        "originContent": "2. **System Design**: Architecture → Database design → API design → UI design",
+        "translatedContent": "2. **System Design**: Architecture → Database design → API design → UI design"
+      },
+      {
+        "row": 5,
+        "rowsha": "C1/7bRr61/GpgzTkoA2PiIuIf23qNO5X6KJW8VDjCyU=",
+        "originContent": "3. **Implementation**: Backend → Frontend → Testing → Documentation",
+        "translatedContent": "3. **Implementation**: Backend → Frontend → Testing → Documentation"
+      },
+      {
+        "row": 6,
+        "rowsha": "s8D6aJxUGOvY36oH8R0R4RgOgEhEhvmIPq55eAH8CIk=",
+        "originContent": "4. **Quality Assurance**: Code review → Security analysis → Performance optimization",
+        "translatedContent": "4. **Quality Assurance**: Code review → Security analysis → Performance optimization"
+      },
+      {
+        "row": 7,
+        "rowsha": "b2ocoEHbbaTdJHtlax7DwDzBkkR0wmdCJ6KC15IFtgo=",
+        "originContent": "5. **Deployment**: Production setup → CI/CD pipeline → Monitoring",
+        "translatedContent": "5. **Deployment**: Production setup → CI/CD pipeline → Monitoring"
+      },
+      {
+        "row": 8,
+        "rowsha": "uZ8OV9/0mejQWTDFiWpTIeJNbL+jjY+WpWcA7D8BnO4=",
+        "originContent": "6. **Handover**: User training → Documentation → Support procedures",
+        "translatedContent": "6. **Handover**: User training → Documentation → Support procedures"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "8Co9jw//vpabjv9jm+4dmlAJ3g43vxQA32rq4EXSI4c=",
+        "originContent": "### Output",
+        "translatedContent": "### Output"
+      },
+      {
+        "row": 11,
+        "rowsha": "DOZsIHxtfk0VICtf0xwU/yiRkaoKRoYhqv/GZVFpR7M=",
+        "originContent": "- Fully functional web application",
+        "translatedContent": "- Fully functional web application"
+      },
+      {
+        "row": 12,
+        "rowsha": "W1aA7z3ttPDjomDpE1+qrJwXpCVM0oSCZmm5Kgf+mYQ=",
+        "originContent": "- Complete test suite with high coverage",
+        "translatedContent": "- Complete test suite with high coverage"
+      },
+      {
+        "row": 13,
+        "rowsha": "QPlWoh1h/mjiZmnGmZF5cFpPSemVxauT5HREVCZCyZY=",
+        "originContent": "- Production deployment with monitoring",
+        "translatedContent": "- Production deployment with monitoring"
+      },
+      {
+        "row": 14,
+        "rowsha": "7yuN3ONmI1PmxmoBUMzashw63d+BzKMn83ZyJEDLrBY=",
+        "originContent": "- User documentation and training materials",
+        "translatedContent": "- User documentation and training materials"
+      },
+      {
+        "row": 15,
+        "rowsha": "9sRlF17iXTbO37UaRnOGi4nDZ8I1aeHzOrYpKafZWcM=",
+        "originContent": "- Ongoing maintenance procedures",
+        "translatedContent": "- Ongoing maintenance procedures"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+        "originContent": "## 🤝 Contributing",
+        "translatedContent": "## 🤝 Contributing"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "q9R6UtrmGndtikiTS7XEoLwjkdWTgKn/OgH/17whF54=",
+        "originContent": "We welcome contributions! Please:",
+        "translatedContent": "We welcome contributions! Please:"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "tEE0f93aHuBgWKFbYih8Q2Guly1Z6WA48iRsVy2diJc=",
+        "originContent": "1. Follow the established agent definition format",
+        "translatedContent": "1. Follow the established agent definition format"
+      },
+      {
+        "row": 22,
+        "rowsha": "u/RxqhdxkPSfxnQyEyfix6LzgfnZro8Gk33NLP7Vxmw=",
+        "originContent": "2. Include comprehensive examples and documentation",
+        "translatedContent": "2. Include comprehensive examples and documentation"
+      },
+      {
+        "row": 23,
+        "rowsha": "UNMK5xyuulFHJ+6J+xPcHTzeUQJ17I0sTnBcuGa3xO0=",
+        "originContent": "3. Test thoroughly with real projects",
+        "translatedContent": "3. Test thoroughly with real projects"
+      },
+      {
+        "row": 24,
+        "rowsha": "iQ/dBiqxXW124jVgmZwm2EVCujCErFFJzNrt5/+oMlk=",
+        "originContent": "4. Ensure agents integrate well with existing workflows",
+        "translatedContent": "4. Ensure agents integrate well with existing workflows"
+      },
+      {
+        "row": 25,
+        "rowsha": "KyM3aQz6up/YMVU1hsxhmbzdgaL8ubRBBhIc7Z85Gzw=",
+        "originContent": "5. Submit clear documentation of agent capabilities",
+        "translatedContent": "5. Submit clear documentation of agent capabilities"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
+        "originContent": "## 📄 License",
+        "translatedContent": "## 📄 License"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "uY3JfIzkGmYxrGhJJa5Z75upFWUqqPBDVIEwC3hWQ1Y=",
+        "originContent": "MIT License - feel free to use, modify, and distribute these agents for any purpose.",
+        "translatedContent": "MIT License - feel free to use, modify, and distribute these agents for any purpose."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "qNOAwfAbnQ0oGAw8kiCxNmOxAO6HNOriMNTHzMq+bx0=",
+        "originContent": "## 🙏 Acknowledgments",
+        "translatedContent": "## 🙏 Acknowledgments"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "36tn1VJb8HhJGFmdz5nL/r5sJDuXEX4elFF7fZ/1oyg=",
+        "originContent": "Designed to work seamlessly with [Claude Code](https://claude.ai/code) and follows all established patterns and best practices for sub-agent development.",
+        "translatedContent": "Designed to work seamlessly with [Claude Code](https://claude.ai/code) and follows all established patterns and best practices for sub-agent development."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "0Mzf4K8fWgF/YyGh5nMJTGpp3i11g9CiS/cqP/bZm7k=",
+        "originContent": "## 📞 Support",
+        "translatedContent": "## 📞 Support"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "+myGHPR9+Zi2t61d6VWoMzIcJixnQr+Hqikmn3w8qXY=",
+        "originContent": "For issues, questions, or suggestions:",
+        "translatedContent": "For issues, questions, or suggestions:"
+      },
+      {
+        "row": 38,
+        "rowsha": "bH0mRrLlJQhwyRDY3ancsegFwaBIw/V0b6Z5JvKzbpA=",
+        "originContent": "- Open an issue in this repository",
+        "translatedContent": "- Open an issue in this repository"
+      },
+      {
+        "row": 39,
+        "rowsha": "FrOFHlvvQTiV5sHmTvwL937vQfYZ9sfFr/wNE3zt0xg=",
+        "originContent": "- Check the Claude Code documentation at https://docs.anthropic.com/en/docs/claude-code",
+        "translatedContent": "- Check the Claude Code documentation at https://docs.anthropic.com/en/docs/claude-code"
+      },
+      {
+        "row": 40,
+        "rowsha": "Ii5j1h1y7rv94ql95c78gEZQIGgXbR2Z5EV3+0ToTCE=",
+        "originContent": "- Review agent examples and usage patterns",
+        "translatedContent": "- Review agent examples and usage patterns"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "5K8Tna/y3VggcjAGmrGgUHHsxhmQ5GLfcPdjNXJ8GGU=",
+        "originContent": "*Transform your development process with intelligent automation. From a single requirement to a production system - let the agents handle the complexity while you focus on the vision.*",
+        "translatedContent": "*Transform your development process with intelligent automation. From a single requirement to a production system - let the agents handle the complexity while you focus on the vision.*"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
+        "originContent": "## 🚀 Quick Start",
+        "translatedContent": "## 🚀 Quick Start"
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "3mSLZZz4AEa2C+VMSA9DvcYkNYH7yek7U8uTL0aYNqY=",
+        "originContent": "1. **Copy agents** to your project's `.claude/agents/` directory",
+        "translatedContent": "1. **Copy agents** to your project's `.claude/agents/` directory"
+      },
+      {
+        "row": 49,
+        "rowsha": "uaaIl+dDWr0JnOoZbtJkOg28zc0rpjK4XPM2FjyBBVM=",
+        "originContent": "2. **Start Claude Code** in your project",
+        "translatedContent": "2. **Start Claude Code** in your project"
+      },
+      {
+        "row": 50,
+        "rowsha": "PXgT7uo4LJ6P0h0dl/ZjF42hiHIu1uaOC76UZqSFmLs=",
+        "originContent": "3. **Say**: \"Use the project-orchestrator to build [your project description]\"",
+        "translatedContent": "3. **Say**: \"Use the project-orchestrator to build [your project description]\""
+      },
+      {
+        "row": 51,
+        "rowsha": "ifl32aPWSN+e3KmdllXyyOHHZDxIlEOlSumCBDzPbOU=",
+        "originContent": "4. **Watch** as the system handles everything from requirements to deployment",
+        "translatedContent": "4. **Watch** as the system handles everything from requirements to deployment"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "GmibPZ/9k8+s7gAIPgyBl37yQoJprH1o2ZvzqYPnaDo=",
+        "originContent": "**That's it!** The agents will coordinate automatically to deliver a complete, production-ready solution.",
+        "translatedContent": "**That's it!** The agents will coordinate automatically to deliver a complete, production-ready solution."
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

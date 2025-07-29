@@ -1,28 +1,29 @@
+
 <div align="right">
   <details>
     <summary >🌐 Dil</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=en">İngilizce</a>
+        <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=en">English</a>
         | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN">简体中文</a>
         | <a href="#" title="Yakında">繁體中文 (yakında)</a> |
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja">Japonca</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko">Korece</a>
+        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko">한국어</a>
         | <a href="#" title="Yakında">हिन्दी (yakında)</a> |
         | <a href="#" title="Yakında">ไทย (yakında)</a> |
-        | <a href="#" title="Yakında">Fransızca (yakında)</a>
-        | <a href="#" title="Yakında">Almanca (yakında)</a>
-        | <a href="#" title="Yakında">İspanyolca (yakında)</a>
-        | <a href="#" title="Yakında">İtalyanca (yakında)</a>
-        | <a href="#" title="Yakında">Rusça (yakında)</a>
-        | <a href="#" title="Yakında">Portekizce (yakında)</a>
-        | <a href="#" title="Yakında">Felemenkçe (yakında)</a>
-        | <a href="#" title="Yakında">Lehçe (yakında)</a>
-        | <a href="#" title="Yakında">Arapça (yakında)</a>
-        | <a href="#" title="Yakında">Farsça (yakında)</a>
+        | <a href="#" title="Yakında">Français (yakında)</a>
+        | <a href="#" title="Yakında">Deutsch (yakında)</a>
+        | <a href="#" title="Yakında">Español (yakında)</a>
+        | <a href="#" title="Yakında">Italiano (yakında)</a>
+        | <a href="#" title="Yakında">Русский (yakında)</a>
+        | <a href="#" title="Yakında">Português (yakında)</a>
+        | <a href="#" title="Yakında">Nederlands (yakında)</a>
+        | <a href="#" title="Yakında">Polski (yakında)</a>
+        | <a href="#" title="Yakında">العربية (yakında)</a>
+        | <a href="#" title="Yakında">فارسی (yakında)</a>
         | <a href="#" title="Yakında">Türkçe (yakında)</a>
-        | <a href="#" title="Yakında">Vietnamca (yakında)</a>
-        | <a href="#" title="Yakında">Endonezce (yakında)</a>
+        | <a href="#" title="Yakında">Tiếng Việt (yakında)</a>
+        | <a href="#" title="Yakında">Bahasa Indonesia (yakında)</a>
 
       </div>
     </div>
@@ -30,137 +31,142 @@
 </div>
 
 # TimeCapsule LLM
-Modern önyargıyı azaltmak için yalnızca belirli zaman dilimlerinden alınan verilerle eğitilmiş bir LLM.
+Yalnızca belirli zaman dilimlerinden veriyle eğitilmiş, modern önyargıyı azaltmayı amaçlayan bir LLM.
 
-Bir AI modelinin tarihiymiş gibi davranmasının ötesinde, gerçekten tarihi olduğunu hayal edin.
+Bir yapay zekâ modelinin tarihi taklit etmekle kalmayıp, aslında gerçekten öyle olduğunu hayal edin.
 
 [Andrej Karpathy'nin nanoGPT'si](https://github.com/karpathy/nanoGPT) üzerine inşa edilmiştir. Temel eğitim betikleri ve model mimarisi ona aittir.
 
 # Proje Hedefleri
 
-TimeCapsule LLM, yalnızca belirli zaman dilimlerinde yazılmış metinlerle eğitilecek deneysel bir projedir. Amaç, belirli tarihi dönemlerin dünya görüşünü ve dilini simüle etmektir.
+TimeCapsule LLM, yalnızca belirli zaman dilimlerinde yazılmış metinlerle eğitilecek deneysel bir projedir. Amaç, belirli tarihî dönemlerin dünya görüşünü ve dilini simüle etmektir.
 
-# Neden sadece ince ayar yeterli değil
+# Neden ince ayar yeterli değil
 
-Sadece önceden eğitilmiş bir modeli ince ayarlarsanız, LLM'iniz yine de modern kavramları bilecek. Elbette sıfır modern önyargıya ulaşmak zor ama buna mümkün olduğunca yaklaşmak istiyorum. Hiç modern önyargı olmaması, modelin sıfırdan eğitilmesini gerektirir.
+Sadece önceden eğitilmiş bir modeli ince ayar yaparsanız, LLM'iniz hâlâ modern kavramları bilecektir. Elbette sıfır modern önyargı elde etmek zordur ama buna olabildiğince yaklaşmak istiyorum. Hiç modern önyargı olmaması için modeli sıfırdan eğitmek gerekiyor.
 
-# Beklenen Sonuçlar
+# Beklenen sonuçlar
 
-Umarım tamamlandığında, bu model modern kavramları bilmeyecek ve eğitildiği bilginin ötesinde akıl yürütemeyecek. Modern kavramları/kelime dağarcığını tanımamalı ve umarım modern bilgi uydurmaz.
+Umarım tamamlandığında, bu model modern kavramları bilmeyecek ve yalnızca eğitildiği bilgilerle akıl yürütebilecek. Modern kavramları/kelime dağarcığını tanımamalı ve umarım modern bilgi uydurmaz.
 
 # İlerleme Güncellemeleri
 
 ## 9 Temmuz 2025
 
-Zaman dilimimi 1800-1850 ve bölgeyi Londra olarak belirledim.
+Zaman dilimimi 1800-1850 ve bölgeyi: Londra olarak belirledim.
 
-Bir dizi metin, kitap, belge topladım.
+Bir metin, kitap, belge listesi topladım.
 
-Şimdiye kadar 50 tanesini txt dosyası olarak aldım ve yakında NanoGPT'yi eğitmeye başlayacağım.
+Şu ana kadar 50 tanesini txt dosyası olarak aldım ve yakında NanoGPT eğitimine başlayacağım.
 
-İlerleme kaydedildikçe burayı güncelleyeceğim.
+İlerleme kaydettikçe bunu güncelleyeceğim.
 
 ## 13 Temmuz 2025
 
-nanoGPT'yi 187MB'lık tarihi metin verisiyle eğittim.
+nanoGPT'yi 187MB tarihî metin verisiyle eğittim.
 
 ## 15 Temmuz 2025
 
-İkinci eğitim turu için metinleri indirmeye başladım. Tüm verileri Internet Archive'dan alıyorum ve zaman dilimini 1800-1875 olarak genişlettim. Farklı metinler almak için Internet Archive'da yayın yeri, zaman dilimi ve konu filtrelerini kullanabilirsiniz.
+İkinci eğitim turu için metinleri indirmeye başladım. Her şeyi Internet Archive'dan alıyorum ve zaman dilimini 1800-1875 olarak genişlettim. Çeşitli metinler elde etmek için Internet Archive'da yayın yeri, zaman aralığı ve konu filtrelerini kullanabilirsiniz.
 
 ![Arama Filtreleri](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/searchfilter.jpg)
 
 ## 16 Temmuz 2025
 
-Internet Archive'dan yaklaşık 500 txt dosyası indirdim ve bunları temizledikten sonra (sadece boşlukları, Gutenberg başlıklarını vs. silerek) yaklaşık 500MB veri elde ettim. Küçük bir veri seti ama geçen sefer 187MB ile eğittim, bu yüzden ikinci modeli eğittikten sonra çıktıda en azından gözle görülür bir fark olmalı. Umarım bu model en azından anlamlı cümleler üretebilir. Tabii ki bu garanti değil çünkü bu hâlâ çok küçük bir veri seti, ama geçen sefer kullandığımdan fazla.
+Internet Archive'dan yaklaşık 500 adet txt dosyası indirdim ve bunları temizledikten sonra (sadece boşlukları, Gutenberg başlıklarını vs. sildim) yaklaşık 500MB veri elde ettim. Bu çok küçük bir veri seti ama geçen sefer 187MB ile eğitmiştim, bu yüzden ikinci modeli eğittikten sonra çıktıda en azından belirgin bir fark olmalı. Bu modelin en azından daha anlamlı ve tutarlı cümleler kurabilmesini umuyorum. Elbette bu bir garanti değil çünkü hâlâ çok küçük bir veri seti, fakat geçen sefere göre daha fazla veri var.
 
-Bu kendi donanımımda yapılabilir, bu da iyi çünkü daha büyük bir veri setine geçmeden önce bazı iyileştirmeleri görebilirim. Daha büyük bir veri seti için GPU kiralamam gerekecek. Ama endişelenmeyin, yakında GPU kiralamayı hâlâ planlıyorum, fakat bunu yapmadan önce veri setimin olabildiğince seçilmiş ve temiz olduğundan emin olmak istiyorum. Sorunlardan biri temizlik; bu txt dosyalarının çoğunda anlamsız karakterler karışmış. Temizleme için kullandığım betikler çalışıyor ama %100 etkili değiller.
+Bunu kendi donanımımda yapmak mümkün, bu da iyi çünkü daha büyük bir veri setine geçmeden önce en azından bazı iyileşmeleri görebilirim. Büyük bir veri seti için GPU kiralamam gerekecek ama endişelenmeyin, yakında GPU kiralamayı planlıyorum; ancak bunu yapmadan önce veri setimin olabildiğince özenli ve temiz olmasını istiyorum. Sorunlardan biri de temizlik, birçok txt dosyasında saçma sapan yazılar karışıyor. Temizlik için kullandığım betikler işe yarıyor ama %100 etkili değiller.
 
-Bu veri setini bugün eğiteceğim ve yaklaşık 4-5 saat sürmeli. Bittiğinde ve test ettiğimde güncelleme yapacağım. Projeme bakan herkese tekrar teşekkürler, bana OCR kaynakları için bağlantı gönderenler bile oldu, çok teşekkür ederim! Umarım daha fazla kişi bunu dener ve kendi veri setleriyle deneyler yapar.
+Bu veri setini bugün eğiteceğim ve yaklaşık 4-5 saat sürecek. İşlem bittiğinde ve test ettiğimde güncellemeleri paylaşacağım. Projeme bakan herkese tekrar teşekkür ederim, hatta bana OCR kaynakları gönderenler bile oldu, teşekkürler! Umarım daha fazla insan bunu dener ve kendi veri setleriyle deney yapar.
+
+## 28 Temmuz 2025
+
+v0.5 sürümünü Hugging Face'e yükledim, [Buradan bakabilirsiniz](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) isterseniz. Artık depomu indirip yerel olarak çalıştırabilirsiniz. Maalesef nanoGPT HuggingFace ile doğrudan çalışmıyor, bu yüzden modeli indirip yerel olarak çalıştırmanız gerekecek.
+
+Ayrıca bir sonraki eğitim turum için veri toplamaya başlayacağım, akıl yürütme yeteneği elde etmek için muhtemelen 5-10 kat daha fazla veriye ihtiyacım olacak.
 
 ### Eğitim Güncellemesi
 
-435MB'lık (108 M token) bir veriyle eğitime başladım, şu anda gayet iyi gidiyor. Eğitim kaybı ilk 2800 iterasyonda 10,9'dan 4,9'a düştü. Tamamlanması yaklaşık 8-9 saat sürecek gibi görünüyor. Bittiğinde başka bir güncelleme yayınlayacağım.
+435MB'lık bir derlemede (108 M token) eğitime başladım, şu an oldukça sorunsuz ilerliyor. Eğitim kaybı ilk 2800 iterasyonda 10.9'dan 4.9'a düştü. Tamamlanmasının 8-9 saat süreceğini tahmin ediyorum. Bittiğinde başka bir güncelleme paylaşacağım.
 
-## 17 Temmuz 2025 02:13
+## 17 Temmuz 2025 2:13AM
 
-İkinci modelin eğitimi tamamlandı, 4060 kartımda 8 saat 40 dakika (saatte 3.900 iterasyon) sürdü, toplam 33.000 iterasyon (5 epoch). Son eğitim kaybı 3,73 oldu. Çıktılar şaşırtıcı derecede iyiydi, gerçekten 19. yüzyıl tarzında anlamlı cümleler üretiyor artık.
+İkinci modelin eğitimi tamamlandı, 4060 ekran kartımda yaklaşık 8 saat 40 dakika sürdü (saatte 3.900 iterasyon) ve 33.000 iterasyon (5 epoch) tamamlandı. Son eğitim kaybı 3.73 oldu. Çıktılar şaşırtıcı derecede iyi, artık gerçekten tutarlı 19. yüzyıl tarzı cümleler üretebiliyor.
 
 # V0 Model Davranışı ve Sınırlamaları
 
-İlk istemler, modelin 1800'lerin dili ve davranışıyla yanıt verdiğini gösteriyor. Mesela, "Who art Henry?" diye sordum ve "I know that man, I have did not a black, the storm." diye yanıtladı. Evet, bu cümlenin anlamı yok ama LLM bir kişiden bahsettiğimi anlıyor.
+İlk istemlerde modelin 1800'lerin dili ve davranışıyla yanıt verdiği görülüyor. Örneğin, "Who art Henry?" diye sordum ve şu cevabı verdi: "I know that man, I have did not a black, the storm." evet, bu cümlenin bir anlamı yok ama LLM bir kişiden bahsettiğimi anlıyor.
 
 ![TimeLockLLM Örnek Çıktı](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+Modern kavramlardan bahsedilmiyor, çıktılar çoğunlukla 1800'lerden kelimeler ve ifadeler içeriyor.
 
-Modern kavramlardan hiç bahsedilmiyor, çıktılar çoğunlukla 1800'lerin kelimelerini ve ifadelerini içeriyor.
+Hala çok fazla çalışmaya ihtiyaç var, 187MB üzerinden eğitmek karmaşık muhakeme üreten bir model vermez.
 
-Hâlâ çok fazla çalışmaya ihtiyacı var; 187MB ile eğitim, karmaşık akıl yürütmeye sahip metin üreten bir model vermez.
-
-Şu anda tam cümle yapısı olmayan ve genel olarak anlamlı olmayan cümleler üretiyor ama bu, eğitim veri boyutu için normal.
+Şu anda tam cümle yapısından yoksun ve genel olarak anlamsız cümleler üretiyor ama bu eğitim boyutu için normal.
 
 # V0.5 Model Davranışı & Sınırlamaları
 
-Bu, son modele kıyasla güzel bir gelişme. Yazı stili ve kelime dağarcığı Viktoryen ve neredeyse her cümle gramer olarak doğru, noktalama işaretleri de uygun. Ve yine bu model sıfırdan eğitildiği için 1800’lerin konularına bağlı kalıyor.
+Bu, bir önceki modele kıyasla güzel bir gelişme. Yazı stili ve kelime dağarcığı Viktorya dönemi ve neredeyse her cümle dilbilgisi açısından doğru, noktalama işaretleri yerinde. Ve yine bu sıfırdan eğitildiği için 1800'ler konularına sadık kalıyor.
 
 ![TimeLockLLM Örnek Çıktı](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
-Çok fazla gerçek dışı halüsinasyon var. Ayrıntıların (tarih, olay, tarihi şahıslar) çoğu (neredeyse %100’ü) uydurma. Ayrıca cümleler arasında gerçekten bağlantı yok, bazen belki 2 cümle birbiriyle ilişkili olabiliyor ama bunun ötesine geçmiyorlar. Bir diğer sorun ise bazen rastgele bir “Digitized by Google” dipnotunun görünmesi, bu yüzden bir dahaki eğitime başlamadan önce metinlerin iyice temizlendiğinden emin olmam gerekecek. Genel olarak sonuçlardan çok memnunum, henüz bir LLM olmaktan çok uzak ama kesinlikle bir cümle üretici.
+Çok fazla gerçek dışı uydurma var. Detayların (tarihler, olaylar, tarihi figürler) çoğu (yaklaşık %100'ü) uydurma. Ayrıca cümleler birbirleriyle bağlantılı değil, bazen belki 2 cümle birbirine bağlı olur ama onun dışında olmaz. Bir diğer sorun ise bazen “Digitized by Google” gibi bir dipnotun araya girmesi, bir dahaki eğitimde metinlerin iyice temizlenmiş olduğundan emin olmam gerekiyor. Genel olarak sonuçlardan çok memnunum, henüz bir LLM değil ama kesinlikle bir cümle üreteci.
 
-Çok şey öğreniyorum ve önümüzdeki haftalarda neleri daha iyi yapmam gerektiğini belirlemeye başlayacağım. Dosyaları yakında yükleyeceğim!
+Çok şey öğreniyorum ve önümüzdeki haftalarda neyi daha iyi yapmam gerektiğini anlamaya başlayacağım. Dosyaları yakında yükleyeceğim!
 
 # Yaklaşan Planlar
 
-(Tamamlandı) 0.5 sürümünde çalışmaya başlayacağım, 50 kitapla eğitim yapmak yerine mümkünse 500-600 kitapla eğitim yapacağım. Şu anda 1800-1850 yılları arasındaki kitaplarla, özellikle Londra’dan kitaplarla nanoGPT eğitiyorum. Karşılaşılan bazı zorluklar, bulduğum kitapların güncellenmemiş veya modern yorumlar içermemesi, seçtiğim zaman aralığında yayımlanmış dokunulmamış kitaplar olması.
+(Tamamlandı) 0.5 sürümü üzerinde çalışmaya başlayacağım, 50 kitapla eğitmek yerine ideal olarak 500-600 kitapla eğiteceğim. Şu anda nanoGPT'yi 1800-1850 yılları arasından ve özellikle Londra'dan kitaplarla eğitiyorum. Bulduğum kitapların güncellenmemiş ya da modern yorumlar içermediğinden, seçtiğim zaman diliminde yayımlanmış dokunulmamış kitaplar olduğundan emin olmak gibi bazı zorluklar var.
 
-Çok daha büyük bir veri kümesiyle (v1) yeni bir model eğitmek istiyorum, belki v0.5’te kullandığımın 5-10 katı büyüklüğünde. Amacım, yalnızca Seçici Zamansal Eğitim ile akıl yürütme yeteneklerinin ortaya çıkıp çıkamayacağını görmek, bu daha zor bir iş olacak ve tarihsel veri kısıtlamaları nedeniyle mümkün olup olmadığından bile emin değilim. Önümüzdeki haftalarda 5-10GB’lık bir veri kümesi için yeterli veri toplamaya çalışacağım. Eğer temiz, yüksek kaliteli veriler bulabilir ve bir GPU kiralayabilirsem ilerleme kaydedileceğine inanıyorum.
+Daha büyük bir derlemeyle (v1) yeni bir model eğitmek istiyorum, belki v0.5 için kullandığımın 5-10 katı büyüklükte. Amacım, sadece Seçici Zamansal Eğitim ile muhakeme yeteneklerinin ortaya çıkıp çıkamayacağını görmek, bu daha zor bir görev olacak ve tarihi veri sınırlamaları nedeniyle mümkün olup olmadığından emin değilim. Önümüzdeki haftalarda 5-10GB'lık bir derleme için yeterli veri toplamaya çalışacağım. Temiz, yüksek kaliteli veri ve bir GPU kiralayabilirsem ilerleme olacağına inanıyorum.
 
 # Bu Proje Nasıl Kullanılır
 
-Bu proje esas olarak tarihsel verileri toplamaya, eğitime hazırlamaya ve bir tokenizer oluşturmaya odaklanıyor. Tam LLM eğitim sürecini burada ele almayacağım, bunun için Andrej Karpathy’nin nanoGPT’sine başvurun.
+Bu proje çoğunlukla tarihi verilerin toplanması, eğitime hazırlanması ve bir ayrıştırıcı oluşturulmasına odaklanıyor. Tam LLM eğitim sürecini anlatmayacağım, bunun için Andrej Karpathy'nin nanoGPT'sine bakınız.
 
-# Adım 1: Tarihsel Metinleri Topla ve Hazırla
+# Adım 1: Tarihi Metinleri Topla ve Hazırla
 
-Seçtiğiniz zaman aralığından (örn. Londra 1800-1850) kamuya açık kitapların, belgelerin .txt dosyalarını toplayın.
+Seçtiğiniz zaman diliminden kamuya açık kitapların, belgelerin vb. .txt dosyalarını toplayın (ör. Londra 1800-1850)
 
-İsterseniz download_texts_improved.py dosyasını kullanarak sizin için kitapları indirebilirsiniz.
+İsterseniz download_texts_improved.py dosyasını kitapları indirmek için kullanabilirsiniz.
 
-Metin dosyalarını bir betik veya elle Project Gutenberg başlık/dipnotları, modern açıklamalar veya OCR hataları gibi şeyleri kaldırarak temizleyin.
+Metin dosyalarını bir betik veya elle temizleyin, Project Gutenberg başlık/dipnotlarını, modern açıklamaları ya da OCR hatalarını çıkarın.
 
-prepare_dataset.py iyi çalışacaktır.
+prepare_dataset.py sorunsuz çalışacaktır.
 
 # Adım 2: Özel Bir Tokenizer Oluştur
 
-train_tokenizer.py veya train_tokenizer_hf.py’yi temizlenmiş veriler üzerinde çalıştırın.
-Bu size vocab.json ve merges.txt dosyalarını verecek.
+train_tokenizer.py veya train_tokenizer_hf.py dosyasını temizlenmiş veri üzerinde çalıştırın.
+Bu size vocab.json ve merges.txt dosyalarını verecek
 
-Bu dosyalar modeliniz için kelime dağarcığını ve birleştirme kurallarını tanımlar.
+Bu dosyalar modeliniz için kelime dağarcığını ve birleştirme kurallarını tanımlar
 
 # Adım 3: Modelinizi Eğitin (nanoGPT)
 
-Eğitim süreci için [Andrej Karpathy’nin nanoGPT](https://github.com/karpathy/nanoGPT) rehberine bakın.
+Eğitim süreci için [Andrej Karpathy'nin nanoGPT'sine](https://github.com/karpathy/nanoGPT) bakın.
 
-İsterseniz farklı bir LLM eğitebilirsiniz, ama ben nanoGPT kullandım.
+İsterseniz farklı bir LLM de eğitebilirsiniz, ama ben nanoGPT kullandım
 
 # SSS
 
-## Seçici Zamansal Eğitim nedir?
+## Seçici Zamansal Eğitim (Selective Temporal Training) nedir?
 
-Seçici Zamansal Eğitim (STT), tüm eğitim verisinin belirli bir tarihsel zaman aralığına ait olacak şekilde özel olarak seçildiği bir makine öğrenimi metodolojisidir. Amaç, o dönemin dili ve bilgisini modern kavramlardan etkilenmeden modellemektir. Örneğin, elimdeki mevcut model (v0.5) yalnızca 1800-1875 dönemine ait verilerle sıfırdan eğitildi, ince ayar yapılmadı, sonuç olarak çıktılar o zamanın dilsel stilini ve tarihsel bağlamını yansıtıyor.
+Seçici Zamansal Eğitim (STT), tüm eğitim verilerinin belirli bir tarihsel zaman dilimine ait olacak şekilde özel olarak seçildiği bir makine öğrenimi metodolojisidir. Bu, o dönemin dilini ve bilgisini modern kavramlardan etkilenmeden modellemek için yapılır. Örneğin, şu anki modelim (v0.5) yalnızca 1800-1875 verileriyle eğitildi, ince ayar yapılmadı, sıfırdan eğitildi ve bu da çıktının o zaman diliminin dil stilini ve tarihsel bağlamını yansıtmasını sağladı.
 
-## Neden sadece ince ayar veya LoRA kullanılmıyor?
+## Neden sadece ince ayar (fine-tuning) veya LoRA kullanmıyorsun?
 
-Bu projede, modern önyargılardan arındırılmış bir dil modeli oluşturmaya çalışıyorum. GPT-2 gibi bir şeyi ince ayar yaparsam, zaten önceden eğitilmiş olur ve bu bilgi yok olmaz. Sıfırdan eğitirsem, dil modeli eski gibi davranmayacak, gerçekten öyle olacak. Şu anki proje amacı, yalnızca 1800-1850 arasında Londra’da yayımlanmış kitaplardan alınan bilgilerle akıl yürütebilen bir şey oluşturmak.
+Bu projede modern önyargıdan arındırılmış bir dil modeli üretmeye çalışıyorum. GPT-2 gibi bir şeyi ince ayar yaparsam, zaten önceden eğitilmiş ve bu bilgi ortadan kalkmaz. Sıfırdan eğitirsem, dil modeli eski gibi davranmayacak, gerçekten eski olacak. Şu anda bu projenin amacı, yalnızca 1800-1850 yılları arasında Londra'da yayımlanan kitaplardan bilgiyle mantık yürütebilen bir şey yaratmak.
 
-## Eğitimde ne tür veriler kullandınız?
+## Eğitim için ne tür veri kullandınız?
 
-1800–1850 Londra’sından kitaplar, yasal belgeler, gazeteler ve diğer yazıları kullanıyorum. Bağlantısını verdiğim listede yaklaşık 200 belge var ama ilk eğitim için sadece 50 dosya (~187 MB) kullandım. Belgelerin listesine buradan bakabilirsiniz:
+Kitaplar, yasal belgeler, gazeteler ve 1800–1850 Londra'sından diğer yazılar kullanıyorum. Bağlantısını verdiğim listede 200 kadar var ama ilk eğitimde sadece 50 dosya (~187 MB) kullandım. Belgelerin listesini şurada görebilirsiniz:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
 ## Sürüm 0 modeli ne kadar büyük?
 
-Bu model şu an çok küçük, sadece eğlence amaçlı ve kesinlikle modern kaynak kullanılmama kuralına uyuyorum. Yaklaşık 16 milyon parametre var ama daha fazla eski metin toplayıp yeni bir model eğitmeye başlayacağım. Gelişmeleri paylaşacağım.
+Bu model şu anda çok küçük, sadece eğlence amaçlı yapıyorum ve kesin bir eğitim kuralı olarak modern kaynak kullanmıyorum. Yaklaşık 16 milyon parametresi var ama daha fazla eski metin toplayıp başka bir model eğitimine başlayacağım. Gelişmeleri aktaracağım.
 
-## Eğitim Özellikleri?
+## Eğitim Teknik Özellikleri?
 
 GPU: Geforce rtx 4060
 CPU: i5-13400F
@@ -170,6 +176,6 @@ Ram: 16GB DDR5.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-29
 
 ---
