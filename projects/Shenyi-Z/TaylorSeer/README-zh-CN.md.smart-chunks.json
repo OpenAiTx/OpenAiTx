@@ -1,0 +1,667 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=center>\n  \n# [ICCV 2025] *TaylorSeer*: From Reusing to Forecasting: Accelerating Diffusion Models with *TaylorSeers*\n\n<p>\n<a href='https://arxiv.org/abs/2503.06923'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>\n<a href='https://taylorseer.github.io/TaylorSeer/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>\n</p>\n\n</div>\n\n## 🔥 News\n\n* `2025/06/26` 💥💥 TaylorSeer is honored to be accepted by ICCV 2025!\n\n* `2025/05/03` 🚀🚀 TaylorSeer for HiDream is released.\n\n* `2025/03/30` 🚀🚀 TaylorSeer for Wan2.1 is released.\n\n* `2025/03/30` 🚀🚀 The Diffusers inference scripts for TaylorSeers and the xDiT scripts applicable for multi-GPU parallel inference have been officially released.\n\n* `2025/03/10` 🚀🚀 Our latest work \"From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers\" is released! Codes are available at [TaylorSeer](https://github.com/Shenyi-Z/TaylorSeer)! TaylorSeer supports lossless compression at a rate of 4.99x on FLUX.1-dev (with a latency speedup of 3.53x) and high-quality acceleration at a compression rate of 5.00x on HunyuanVideo (with a latency speedup of 4.65x)! We hope *TaylorSeer* can move the paradigm of feature caching methods from reusing to forecasting.For more details, please refer to our latest research paper.\n* `2025/02/19` 🚀🚀 ToCa solution for **FLUX** has been officially released after adjustments, now achieving up to **3.14× lossless acceleration** (in FLOPs)!\n* `2025/01/22` 💥💥 ToCa is honored to be accepted by ICLR 2025!\n* `2024/12/29` 🚀🚀 We release our work [DuCa](https://arxiv.org/abs/2412.18911) about accelerating diffusion transformers for FREE, which achieves nearly lossless acceleration of **2.50×** on [OpenSora](https://github.com/hpcaitech/Open-Sora)! 🎉 **DuCa also overcomes the limitation of ToCa by fully supporting FlashAttention, enabling broader compatibility and efficiency improvements.**\n* `2024/12/24` 🤗🤗 We release an open-sourse repo \"[Awesome-Token-Reduction-for-Model-Compression](https://github.com/xuyang-liu16/Awesome-Token-Reduction-for-Model-Compression)\", which collects recent awesome token reduction papers! Feel free to contribute your suggestions!\n* `2024/12/10` 💥💥 Our team's recent work, **SiTo** (https://github.com/EvelynZhang-epiclab/SiTo), has been accepted to **AAAI 2025**. It accelerates diffusion models through adaptive **Token Pruning**.\n* `2024/07/15` 🤗🤗 We release an open-sourse repo \"[Awesome-Generation-Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration)\", which collects recent awesome generation accleration papers! Feel free to contribute your suggestions!\n\n<details>\n  <summary><strong>Abstract</strong></summary>\n\n  Diffusion Transformers (DiT) have revolutionized high-fidelity image and video synthesis, yet their computational demands remain prohibitive for real-time applications. To solve this problem, feature caching has been proposed to accelerate diffusion models by caching the features in the previous timesteps and then reusing them in the following timesteps. However, at timesteps with significant intervals, the feature similarity in diffusion models decreases substantially, leading to a pronounced increase in errors introduced by feature caching, significantly harming the generation quality. To solve this problem, we propose TaylorSeer, which firstly shows that features of diffusion models at future timesteps can be predicted based on their values at previous timesteps. Based on the fact that features change slowly and continuously across timesteps, TaylorSeer employs a differential method to approximate the higher-order derivatives of features and predict features in future timesteps with Taylor series expansion. Extensive experiments demonstrate its significant effectiveness in both image and video synthesis, especially in high acceleration ratios. For instance, it achieves an almost lossless acceleration of 4.99 $\\times$ on FLUX and 5.00 $\\times$ on HunyuanVideo without additional training. On DiT, it achieves $3.41$ lower FID compared with previous SOTA at $4.53$ $\\times$ acceleration.\n\n</details>\n\n## 🧩 Community Contributions\n\nThanks to all the open-source contributors for their strong support! We’d love to hear from you!\n\n* ComfyUI-TaylorSeer-philipy1219 (FP8 Inference on FLUX, more video models coming): [ComfyUI-TaylorSeer-philipy1219](https://github.com/philipy1219/ComfyUI-TaylorSeer) by [philipy1219](https://github.com/philipy1219).\n\n## 🛠 Installation\n",
+    "ContentSha": "37uFfQBn0Cp076D5K4hJQxTj573ffMx7qA31hLCBg/4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=center>\n  \n# [ICCV 2025] *TaylorSeer*: 从重用到预测：用*TaylorSeers*加速扩散模型\n\n<p>\n<a href='https://arxiv.org/abs/2503.06923'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>\n<a href='https://taylorseer.github.io/TaylorSeer/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>\n</p>\n\n</div>\n\n## 🔥 新闻\n\n* `2025/06/26` 💥💥 TaylorSeer 荣幸被 ICCV 2025 接收！\n\n* `2025/05/03` 🚀🚀 TaylorSeer for HiDream 发布。\n\n* `2025/03/30` 🚀🚀 TaylorSeer for Wan2.1 发布。\n\n* `2025/03/30` 🚀🚀 TaylorSeers 的 Diffusers 推理脚本和适用于多 GPU 并行推理的 xDiT 脚本已正式发布。\n\n* `2025/03/10` 🚀🚀 我们最新工作“从重用到预测：用 TaylorSeers 加速扩散模型”发布！代码已在 [TaylorSeer](https://github.com/Shenyi-Z/TaylorSeer) 开源！TaylorSeer 在 FLUX.1-dev 上支持 4.99 倍无损压缩（延迟加速 3.53 倍），在 HunyuanVideo 上以 5.00 倍压缩率实现高质量加速（延迟加速 4.65 倍）！我们希望 *TaylorSeer* 能推动特征缓存方法范式从重用向预测转变。更多详情请参见我们的最新研究论文。\n* `2025/02/19` 🚀🚀 调整后的 **FLUX** ToCa 方案已正式发布，现实现高达 **3.14× 无损加速**（FLOPs）！\n* `2025/01/22` 💥💥 ToCa 荣幸被 ICLR 2025 接收！\n* `2024/12/29` 🚀🚀 我们发布了关于加速扩散变换器的工作 [DuCa](https://arxiv.org/abs/2412.18911)，免费开源，在 [OpenSora](https://github.com/hpcaitech/Open-Sora) 上实现了近乎无损的 **2.50×** 加速！🎉 **DuCa 还克服了 ToCa 的限制，全面支持 FlashAttention，实现更广泛的兼容性和效率提升。**\n* `2024/12/24` 🤗🤗 我们发布了开源仓库“[Awesome-Token-Reduction-for-Model-Compression](https://github.com/xuyang-liu16/Awesome-Token-Reduction-for-Model-Compression)”，收集了近期优秀的令牌缩减论文！欢迎贡献建议！\n* `2024/12/10` 💥💥 我们团队最新工作 **SiTo** (https://github.com/EvelynZhang-epiclab/SiTo) 被 **AAAI 2025** 接收。通过自适应 **Token Pruning** 加速扩散模型。\n* `2024/07/15` 🤗🤗 我们发布了开源仓库“[Awesome-Generation-Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration)”，收集了近期优秀的生成加速论文！欢迎贡献建议！\n\n<details>\n  <summary><strong>摘要</strong></summary>\n\n  扩散变换器（DiT）在高保真图像和视频合成领域带来了革命性进展，但其计算需求对于实时应用仍然过于庞大。为解决该问题，提出了特征缓存，通过缓存前一时间步的特征并在后续时间步复用来加速扩散模型。然而，在时间步间隔较大的情况下，扩散模型中特征的相似性显著降低，导致特征缓存引入的误差明显增加，严重影响生成质量。为此，我们提出了 TaylorSeer，首次展示了扩散模型未来时间步的特征可以基于先前时间步的特征值进行预测。基于特征随时间步缓慢且连续变化的事实，TaylorSeer 采用微分方法近似特征的高阶导数，并通过泰勒级数展开预测未来时间步的特征。大量实验证明其在图像和视频合成中的显著效果，尤其在高加速比下表现突出。例如，在 FLUX 上实现了接近无损的 4.99 倍加速，在 HunyuanVideo 上实现了 5.00 倍加速且无额外训练。在 DiT 上，与之前的 SOTA 相比，在 4.53 倍加速下实现了 3.41 更低的 FID。\n\n</details>\n\n## 🧩 社区贡献\n\n感谢所有开源贡献者的大力支持！我们期待您的反馈！\n\n* ComfyUI-TaylorSeer-philipy1219（FLUX 上的 FP8 推理，更多视频模型即将推出）：[ComfyUI-TaylorSeer-philipy1219](https://github.com/philipy1219/ComfyUI-TaylorSeer) 由 [philipy1219](https://github.com/philipy1219) 维护。\n\n## 🛠 安装\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fagPb+qexaXZ3eHptDc4ivZK9kTnn6hX3OIFMxv7aKA=",
+        "originContent": "<div align=center>",
+        "translatedContent": "<div align=center>"
+      },
+      {
+        "row": 2,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 3,
+        "rowsha": "MOtTqT65KO6UuOPpgVNTUNy7DBii0E9VU9QXzmbDlRo=",
+        "originContent": "# [ICCV 2025] *TaylorSeer*: From Reusing to Forecasting: Accelerating Diffusion Models with *TaylorSeers*",
+        "translatedContent": "# [ICCV 2025] *TaylorSeer*: 从重用到预测：用*TaylorSeers*加速扩散模型"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "M/J5lGcXcoeikmB4ChB6yY6mPdYWX2f8wNdHZ9CoIJA=",
+        "originContent": "<p>",
+        "translatedContent": "<p>"
+      },
+      {
+        "row": 6,
+        "rowsha": "mz6OHfHOKolNYRAUj7PcksyTTRde9MDQh/L+SZDoFfo=",
+        "originContent": "<a href='https://arxiv.org/abs/2503.06923'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>",
+        "translatedContent": "<a href='https://arxiv.org/abs/2503.06923'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "s05rwhJ5NOYGsjO9U5kI5HYTz2AEGGz9Fbptc/Pug9c=",
+        "originContent": "<a href='https://taylorseer.github.io/TaylorSeer/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>",
+        "translatedContent": "<a href='https://taylorseer.github.io/TaylorSeer/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "D7bG/VBJXSi2hpB980ek7pr4pjcctcRkfLZHbhVcyVg=",
+        "originContent": "## 🔥 News",
+        "translatedContent": "## 🔥 新闻"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "4+OZ9EqFu/vmVQzOQg6e3fSByT5AG7kgw0p/8ZZtXvg=",
+        "originContent": "* `2025/06/26` 💥💥 TaylorSeer is honored to be accepted by ICCV 2025!",
+        "translatedContent": "* `2025/06/26` 💥💥 TaylorSeer 荣幸被 ICCV 2025 接收！"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "nWHnk9X5bw0hFy3WJgq/jX5Go8T0fpLu1GZwDSTAXQ4=",
+        "originContent": "* `2025/05/03` 🚀🚀 TaylorSeer for HiDream is released.",
+        "translatedContent": "* `2025/05/03` 🚀🚀 TaylorSeer for HiDream 发布。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "nkoB/ObNg2vVPOSBVJEmU88VVwnAhcgFXCZqkw1bSY0=",
+        "originContent": "* `2025/03/30` 🚀🚀 TaylorSeer for Wan2.1 is released.",
+        "translatedContent": "* `2025/03/30` 🚀🚀 TaylorSeer for Wan2.1 发布。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "3NpXU50QD+KRAHj2dNcg+rCjixMNdTA/nGF1u6E0oe0=",
+        "originContent": "* `2025/03/30` 🚀🚀 The Diffusers inference scripts for TaylorSeers and the xDiT scripts applicable for multi-GPU parallel inference have been officially released.",
+        "translatedContent": "* `2025/03/30` 🚀🚀 TaylorSeers 的 Diffusers 推理脚本和适用于多 GPU 并行推理的 xDiT 脚本已正式发布。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "9NG8DDgu4GTSLg6UyU6J2MUqXFt01vZBE1vkyAWpvuo=",
+        "originContent": "* `2025/03/10` 🚀🚀 Our latest work \"From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers\" is released! Codes are available at [TaylorSeer](https://github.com/Shenyi-Z/TaylorSeer)! TaylorSeer supports lossless compression at a rate of 4.99x on FLUX.1-dev (with a latency speedup of 3.53x) and high-quality acceleration at a compression rate of 5.00x on HunyuanVideo (with a latency speedup of 4.65x)! We hope *TaylorSeer* can move the paradigm of feature caching methods from reusing to forecasting.For more details, please refer to our latest research paper.",
+        "translatedContent": "* `2025/03/10` 🚀🚀 我们最新工作“从重用到预测：用 TaylorSeers 加速扩散模型”发布！代码已在 [TaylorSeer](https://github.com/Shenyi-Z/TaylorSeer) 开源！TaylorSeer 在 FLUX.1-dev 上支持 4.99 倍无损压缩（延迟加速 3.53 倍），在 HunyuanVideo 上以 5.00 倍压缩率实现高质量加速（延迟加速 4.65 倍）！我们希望 *TaylorSeer* 能推动特征缓存方法范式从重用向预测转变。更多详情请参见我们的最新研究论文。"
+      },
+      {
+        "row": 23,
+        "rowsha": "HP4JYN9AqV5x9xftKuxud6Lmj5FbX6yZVjvsYTmL3X4=",
+        "originContent": "* `2025/02/19` 🚀🚀 ToCa solution for **FLUX** has been officially released after adjustments, now achieving up to **3.14× lossless acceleration** (in FLOPs)!",
+        "translatedContent": "* `2025/02/19` 🚀🚀 调整后的 **FLUX** ToCa 方案已正式发布，现实现高达 **3.14× 无损加速**（FLOPs）！"
+      },
+      {
+        "row": 24,
+        "rowsha": "OUJy4nRS5cJZhTQ/bIHSb7tR3CPpzmEdfy9FQsPvkKY=",
+        "originContent": "* `2025/01/22` 💥💥 ToCa is honored to be accepted by ICLR 2025!",
+        "translatedContent": "* `2025/01/22` 💥💥 ToCa 荣幸被 ICLR 2025 接收！"
+      },
+      {
+        "row": 25,
+        "rowsha": "JP7Uqbgmmu3w73rzXhFcbs+DuZhRhuwWmv0rp0Z8zBQ=",
+        "originContent": "* `2024/12/29` 🚀🚀 We release our work [DuCa](https://arxiv.org/abs/2412.18911) about accelerating diffusion transformers for FREE, which achieves nearly lossless acceleration of **2.50×** on [OpenSora](https://github.com/hpcaitech/Open-Sora)! 🎉 **DuCa also overcomes the limitation of ToCa by fully supporting FlashAttention, enabling broader compatibility and efficiency improvements.**",
+        "translatedContent": "* `2024/12/29` 🚀🚀 我们发布了关于加速扩散变换器的工作 [DuCa](https://arxiv.org/abs/2412.18911)，免费开源，在 [OpenSora](https://github.com/hpcaitech/Open-Sora) 上实现了近乎无损的 **2.50×** 加速！🎉 **DuCa 还克服了 ToCa 的限制，全面支持 FlashAttention，实现更广泛的兼容性和效率提升。**"
+      },
+      {
+        "row": 26,
+        "rowsha": "76EiBVgv/EgSTVYsjHggBTygkeo1yu7OIgVRvPD3Ixs=",
+        "originContent": "* `2024/12/24` 🤗🤗 We release an open-sourse repo \"[Awesome-Token-Reduction-for-Model-Compression](https://github.com/xuyang-liu16/Awesome-Token-Reduction-for-Model-Compression)\", which collects recent awesome token reduction papers! Feel free to contribute your suggestions!",
+        "translatedContent": "* `2024/12/24` 🤗🤗 我们发布了开源仓库“[Awesome-Token-Reduction-for-Model-Compression](https://github.com/xuyang-liu16/Awesome-Token-Reduction-for-Model-Compression)”，收集了近期优秀的令牌缩减论文！欢迎贡献建议！"
+      },
+      {
+        "row": 27,
+        "rowsha": "/8zh2xS0BXOpvQxdWqtvtS7GCz9dpRDj/KNLKaArh/s=",
+        "originContent": "* `2024/12/10` 💥💥 Our team's recent work, **SiTo** (https://github.com/EvelynZhang-epiclab/SiTo), has been accepted to **AAAI 2025**. It accelerates diffusion models through adaptive **Token Pruning**.",
+        "translatedContent": "* `2024/12/10` 💥💥 我们团队最新工作 **SiTo** (https://github.com/EvelynZhang-epiclab/SiTo) 被 **AAAI 2025** 接收。通过自适应 **Token Pruning** 加速扩散模型。"
+      },
+      {
+        "row": 28,
+        "rowsha": "O7eC1AedMiPQpbcvrbKc4glnjZa6qtgwQDRRhUGn+1w=",
+        "originContent": "* `2024/07/15` 🤗🤗 We release an open-sourse repo \"[Awesome-Generation-Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration)\", which collects recent awesome generation accleration papers! Feel free to contribute your suggestions!",
+        "translatedContent": "* `2024/07/15` 🤗🤗 我们发布了开源仓库“[Awesome-Generation-Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration)”，收集了近期优秀的生成加速论文！欢迎贡献建议！"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qLx6Z+0MU0Auz7F41A3Jc4dR+cSkzESO1JVS8/SKcDc=",
+        "originContent": "  <summary><strong>Abstract</strong></summary>",
+        "translatedContent": "  <summary><strong>摘要</strong></summary>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "YIqf7kN0c/54TcKx6d15MTu4MoUYVK2v7TZvknoQpw4=",
+        "originContent": "  Diffusion Transformers (DiT) have revolutionized high-fidelity image and video synthesis, yet their computational demands remain prohibitive for real-time applications. To solve this problem, feature caching has been proposed to accelerate diffusion models by caching the features in the previous timesteps and then reusing them in the following timesteps. However, at timesteps with significant intervals, the feature similarity in diffusion models decreases substantially, leading to a pronounced increase in errors introduced by feature caching, significantly harming the generation quality. To solve this problem, we propose TaylorSeer, which firstly shows that features of diffusion models at future timesteps can be predicted based on their values at previous timesteps. Based on the fact that features change slowly and continuously across timesteps, TaylorSeer employs a differential method to approximate the higher-order derivatives of features and predict features in future timesteps with Taylor series expansion. Extensive experiments demonstrate its significant effectiveness in both image and video synthesis, especially in high acceleration ratios. For instance, it achieves an almost lossless acceleration of 4.99 $\\times$ on FLUX and 5.00 $\\times$ on HunyuanVideo without additional training. On DiT, it achieves $3.41$ lower FID compared with previous SOTA at $4.53$ $\\times$ acceleration.",
+        "translatedContent": "  扩散变换器（DiT）在高保真图像和视频合成领域带来了革命性进展，但其计算需求对于实时应用仍然过于庞大。为解决该问题，提出了特征缓存，通过缓存前一时间步的特征并在后续时间步复用来加速扩散模型。然而，在时间步间隔较大的情况下，扩散模型中特征的相似性显著降低，导致特征缓存引入的误差明显增加，严重影响生成质量。为此，我们提出了 TaylorSeer，首次展示了扩散模型未来时间步的特征可以基于先前时间步的特征值进行预测。基于特征随时间步缓慢且连续变化的事实，TaylorSeer 采用微分方法近似特征的高阶导数，并通过泰勒级数展开预测未来时间步的特征。大量实验证明其在图像和视频合成中的显著效果，尤其在高加速比下表现突出。例如，在 FLUX 上实现了接近无损的 4.99 倍加速，在 HunyuanVideo 上实现了 5.00 倍加速且无额外训练。在 DiT 上，与之前的 SOTA 相比，在 4.53 倍加速下实现了 3.41 更低的 FID。"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "vVMKG86X38wpzVR64MO4O04P+r93zrGe0ew8fB75VJE=",
+        "originContent": "## 🧩 Community Contributions",
+        "translatedContent": "## 🧩 社区贡献"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "NhqQVhWscK75IALoDKNa+hzMcIiPuhqHLJjuDbSctMA=",
+        "originContent": "Thanks to all the open-source contributors for their strong support! We’d love to hear from you!",
+        "translatedContent": "感谢所有开源贡献者的大力支持！我们期待您的反馈！"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "woBL8XbSNmvsJez4Ev755tcLFMQBHiYdzCnwQ4Dm+lo=",
+        "originContent": "* ComfyUI-TaylorSeer-philipy1219 (FP8 Inference on FLUX, more video models coming): [ComfyUI-TaylorSeer-philipy1219](https://github.com/philipy1219/ComfyUI-TaylorSeer) by [philipy1219](https://github.com/philipy1219).",
+        "translatedContent": "* ComfyUI-TaylorSeer-philipy1219（FLUX 上的 FP8 推理，更多视频模型即将推出）：[ComfyUI-TaylorSeer-philipy1219](https://github.com/philipy1219/ComfyUI-TaylorSeer) 由 [philipy1219](https://github.com/philipy1219) 维护。"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "Uib95QyFy+G2xAAPKyoC5mR8MEqKhXKN6jTjMNlQ47w=",
+        "originContent": "## 🛠 Installation",
+        "translatedContent": "## 🛠 安装"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "``` cmd\ngit clone https://github.com/Shenyi-Z/TaylorSeer.git\n```",
+    "ContentSha": "tuWrp9bDtQRlcwPecUQOIggRbo+xLp0FrvKAqYyhPhI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` cmd\ngit clone https://github.com/Shenyi-Z/TaylorSeer.git\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "m+Ye/ZAlgvAp+ebS8N9WTXZep69SFbfwiK0O7Et0+Ro=",
+        "originContent": "``` cmd",
+        "translatedContent": "``` cmd"
+      },
+      {
+        "row": 2,
+        "rowsha": "cS+FAoCjHksjXqzHsY5NCYms9p+hgMbt55zlSipAEdM=",
+        "originContent": "git clone https://github.com/Shenyi-Z/TaylorSeer.git",
+        "translatedContent": "git clone https://github.com/Shenyi-Z/TaylorSeer.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n\n## TaylorSeer-FLUX\n\nTaylorSeer achieved a lossless computational compression of 4.99 $\\times$ and a Latency Speedup of 3.53 $\\times$ on FLUX.1-dev, as measured by [ImageReward](https://github.com/THUDM/ImageReward) for comprehensive quality. To run TaylorSeer-FLUX, see [TaylorSeer-FLUX](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-FLUX.md).\n\nBesides, We have provided examples of inference scripts for the **diffusers version**, as well as multi-GPU parallel **xDiT inference scripts**. You can also conduct tests based on them, located at [TaylorSeers-Diffusers](./TaylorSeers-Diffusers ) and [TaylorSeers-xDiT](./TaylorSeers-xDiT) respectively.\n\n## TaylorSeer-HunyuanVideo\n\nTaylorSeer achieved a computational compression of 5.00 $\\times$ and a remarkable Latency Speedup of 4.65 $\\times$ on HunyuanVideo, as comprehensively measured by the [VBench](https://github.com/Vchitect/VBench) metric. Compared to previous methods, it demonstrated significant improvements in both acceleration efficiency and quality. To run TaylorSeer-HunyuanVideo, see [TaylorSeer-HunyuanVideo](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-HunyuanVideo.md).\n\nIn addition, our scripts also support multi-GPU parallel acceleration implemented by HunyuanVideo using xDiT. In this case, the acceleration effect brought by the cache and the acceleration effect of multi-GPU parallelism are independent of each other and multiply, achieving extremely high acceleration effects.\n\n## TayorSeer-DiT\n\nTaylorSeer achieved a lossless computational compression of 2.77 $\\times$ on the base model DiT, as comprehensively evaluated by metrics such as FID. Its performance across various acceleration ratios significantly surpassed previous methods. For instance, in an extreme scenario with a 4.53 $\\times$ compression ratio, TaylorSeer's FID only increased by 0.33 from the non-accelerated baseline of 2.32, reaching 2.65, while ToCa and DuCa exhibited FID scores above 6.0 under the same conditions. To run TaylorSeer-DiT,see [TaylorSeer-DiT](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-DiT.md).\n\n## TaylorSeer-Wan2.1\n\nWe implemented the TaylorSeer acceleration method on Wan2.1, with support for multi-GPU parallel inference. The installation and inference commands for TaylorSeer-Wan2.1 are fully compatible with those of Wan2.1. To run TaylorSeer-Wan2.1, see [TaylorSeer-Wan2.1](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-Wan2.1.md).\n\n## TaylorSeer-HiDream\n\nThe recently open-sourced image generation model **HiDream**, despite its impressive output quality, faces increasing demands for acceleration due to its longer inference time. We applied **TaylorSeer** to accelerate HiDream’s inference, achieving a **72% reduction in runtime**. For more details, see [TaylorSeer-HiDream](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-HiDream.md).\n\n## 👍 Acknowledgements\n\n- Thanks to [DiT](https://github.com/facebookresearch/DiT) for their great work and codebase upon which we build TaylorSeer-DiT.\n- Thanks to [FLUX](https://github.com/black-forest-labs/flux) for their great work and codebase upon which we build TaylorSeer-FLUX.\n- Thanks to [HiDream](https://github.com/HiDream-ai/HiDream-I1) for their great work and codebase upon which we build TaylorSeer-HiDream.\n- Thanks to [HunyuanVideo](https://github.com/Tencent/HunyuanVideo) for their great work and codebase upon which we build TaylorSeer-HunyuanVideo.\n- Thanks to [Wan2.1](https://github.com/Wan-Video/Wan2.1) for their great work and codebase upon which we build TaylorSeer-Wan2.1.\n- Thanks to [ImageReward](https://github.com/THUDM/ImageReward) for Text-to-Image quality evaluation.\n- Thanks to [VBench](https://github.com/Vchitect/VBench) for Text-to-Video quality evaluation.\n\n\n## 📌 Citation\n",
+    "ContentSha": "j4spOn6j9j6K+1441QrOXQV28NxAb0gvoZxPRt2rZOk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## TaylorSeer-FLUX\n\nTaylorSeer 在 FLUX.1-dev 上实现了无损计算压缩 4.99 倍和延迟加速 3.53 倍，综合质量由 [ImageReward](https://github.com/THUDM/ImageReward) 测量。有关运行 TaylorSeer-FLUX 的详情，请参见 [TaylorSeer-FLUX](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-FLUX.md)。\n\n此外，我们提供了 **diffusers 版本** 的推理脚本示例，以及多 GPU 并行的 **xDiT 推理脚本**。您也可以基于它们进行测试，分别位于 [TaylorSeers-Diffusers](./TaylorSeers-Diffusers) 和 [TaylorSeers-xDiT](./TaylorSeers-xDiT)。\n\n## TaylorSeer-HunyuanVideo\n\nTaylorSeer 在 HunyuanVideo 上实现了 5.00 倍的计算压缩和显著的 4.65 倍延迟加速，综合由 [VBench](https://github.com/Vchitect/VBench) 指标测量。与以往方法相比，在加速效率和质量上均有显著提升。有关运行 TaylorSeer-HunyuanVideo 的详情，请参见 [TaylorSeer-HunyuanVideo](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-HunyuanVideo.md)。\n\n此外，我们的脚本还支持 HunyuanVideo 使用 xDiT 实现的多 GPU 并行加速。在此情况下，缓存带来的加速效果与多 GPU 并行加速效果相互独立且相乘，实现极高的加速效果。\n\n## TayorSeer-DiT\n\nTaylorSeer 在基础模型 DiT 上实现了无损计算压缩 2.77 倍，综合通过 FID 等指标评估。其在不同加速比下的性能显著超越以往方法。例如，在极端的 4.53 倍压缩场景下，TaylorSeer 的 FID 从未加速基线的 2.32 仅增加 0.33，达到 2.65，而 ToCa 和 DuCa 在相同条件下的 FID 均高于 6.0。有关运行 TaylorSeer-DiT 的详情，请参见 [TaylorSeer-DiT](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-DiT.md)。\n\n## TaylorSeer-Wan2.1\n\n我们在 Wan2.1 上实现了 TaylorSeer 加速方法，支持多 GPU 并行推理。TaylorSeer-Wan2.1 的安装和推理命令与 Wan2.1 完全兼容。有关运行 TaylorSeer-Wan2.1 的详情，请参见 [TaylorSeer-Wan2.1](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-Wan2.1.md)。\n\n## TaylorSeer-HiDream\n\n最近开源的图像生成模型 **HiDream**，尽管输出质量出色，但因推理时间较长而面临越来越大的加速需求。我们应用 **TaylorSeer** 加速 HiDream 推理，实现了 **72% 的运行时间缩减**。更多详情请参见 [TaylorSeer-HiDream](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-HiDream.md)。\n\n## 👍 致谢\n\n- 感谢 [DiT](https://github.com/facebookresearch/DiT) 的卓越工作及代码库，基于此我们构建了 TaylorSeer-DiT。\n- 感谢 [FLUX](https://github.com/black-forest-labs/flux) 的卓越工作及代码库，基于此我们构建了 TaylorSeer-FLUX。\n- 感谢 [HiDream](https://github.com/HiDream-ai/HiDream-I1) 的卓越工作及代码库，基于此我们构建了 TaylorSeer-HiDream。\n- 感谢 [HunyuanVideo](https://github.com/Tencent/HunyuanVideo) 的卓越工作及代码库，基于此我们构建了 TaylorSeer-HunyuanVideo。\n- 感谢 [Wan2.1](https://github.com/Wan-Video/Wan2.1) 的卓越工作及代码库，基于此我们构建了 TaylorSeer-Wan2.1。\n- 感谢 [ImageReward](https://github.com/THUDM/ImageReward) 提供文本到图像质量评估。\n- 感谢 [VBench](https://github.com/Vchitect/VBench) 提供文本到视频质量评估。\n\n## 📌 引用\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## TaylorSeer-FLUX"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "L2TzcgjTuvv3I11CQ/GvH9lYRpj+s4SJYD9K/E2y5xU=",
+        "originContent": "## TaylorSeer-FLUX",
+        "translatedContent": "TaylorSeer 在 FLUX.1-dev 上实现了无损计算压缩 4.99 倍和延迟加速 3.53 倍，综合质量由 [ImageReward](https://github.com/THUDM/ImageReward) 测量。有关运行 TaylorSeer-FLUX 的详情，请参见 [TaylorSeer-FLUX](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-FLUX.md)。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "chkx6Gc6ouZXsRcw0q01pp6iUgffxNIeRz+rDYu9/8g=",
+        "originContent": "TaylorSeer achieved a lossless computational compression of 4.99 $\\times$ and a Latency Speedup of 3.53 $\\times$ on FLUX.1-dev, as measured by [ImageReward](https://github.com/THUDM/ImageReward) for comprehensive quality. To run TaylorSeer-FLUX, see [TaylorSeer-FLUX](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-FLUX.md).",
+        "translatedContent": "此外，我们提供了 **diffusers 版本** 的推理脚本示例，以及多 GPU 并行的 **xDiT 推理脚本**。您也可以基于它们进行测试，分别位于 [TaylorSeers-Diffusers](./TaylorSeers-Diffusers) 和 [TaylorSeers-xDiT](./TaylorSeers-xDiT)。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "A6kLZqPZQw64dlrFOjpMypZsNMO14xJmlmpv3pw8ezs=",
+        "originContent": "Besides, We have provided examples of inference scripts for the **diffusers version**, as well as multi-GPU parallel **xDiT inference scripts**. You can also conduct tests based on them, located at [TaylorSeers-Diffusers](./TaylorSeers-Diffusers ) and [TaylorSeers-xDiT](./TaylorSeers-xDiT) respectively.",
+        "translatedContent": "## TaylorSeer-HunyuanVideo"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "TvDelfZTkkxA47gKZAdSw/WDfVwOxAFEDF0XiTfHVe4=",
+        "originContent": "## TaylorSeer-HunyuanVideo",
+        "translatedContent": "TaylorSeer 在 HunyuanVideo 上实现了 5.00 倍的计算压缩和显著的 4.65 倍延迟加速，综合由 [VBench](https://github.com/Vchitect/VBench) 指标测量。与以往方法相比，在加速效率和质量上均有显著提升。有关运行 TaylorSeer-HunyuanVideo 的详情，请参见 [TaylorSeer-HunyuanVideo](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-HunyuanVideo.md)。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "dvznffegIKSG4P+ItV8gb99Z1QttpWlLRDzlqMddPoI=",
+        "originContent": "TaylorSeer achieved a computational compression of 5.00 $\\times$ and a remarkable Latency Speedup of 4.65 $\\times$ on HunyuanVideo, as comprehensively measured by the [VBench](https://github.com/Vchitect/VBench) metric. Compared to previous methods, it demonstrated significant improvements in both acceleration efficiency and quality. To run TaylorSeer-HunyuanVideo, see [TaylorSeer-HunyuanVideo](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-HunyuanVideo.md).",
+        "translatedContent": "此外，我们的脚本还支持 HunyuanVideo 使用 xDiT 实现的多 GPU 并行加速。在此情况下，缓存带来的加速效果与多 GPU 并行加速效果相互独立且相乘，实现极高的加速效果。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "Z3A/KHyeuxpEPv1W3z2nEo0Q6/Tl7PgTbK61vPvql+4=",
+        "originContent": "In addition, our scripts also support multi-GPU parallel acceleration implemented by HunyuanVideo using xDiT. In this case, the acceleration effect brought by the cache and the acceleration effect of multi-GPU parallelism are independent of each other and multiply, achieving extremely high acceleration effects.",
+        "translatedContent": "## TayorSeer-DiT"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "7Y5OqYcgEa7ffvscRZL+2h7W//4Wv8MkKo/KciYC+Is=",
+        "originContent": "## TayorSeer-DiT",
+        "translatedContent": "TaylorSeer 在基础模型 DiT 上实现了无损计算压缩 2.77 倍，综合通过 FID 等指标评估。其在不同加速比下的性能显著超越以往方法。例如，在极端的 4.53 倍压缩场景下，TaylorSeer 的 FID 从未加速基线的 2.32 仅增加 0.33，达到 2.65，而 ToCa 和 DuCa 在相同条件下的 FID 均高于 6.0。有关运行 TaylorSeer-DiT 的详情，请参见 [TaylorSeer-DiT](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-DiT.md)。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "jKbN9crC/lW32o3a4odXocjXPpUX4BRy6Px6c5/OADI=",
+        "originContent": "TaylorSeer achieved a lossless computational compression of 2.77 $\\times$ on the base model DiT, as comprehensively evaluated by metrics such as FID. Its performance across various acceleration ratios significantly surpassed previous methods. For instance, in an extreme scenario with a 4.53 $\\times$ compression ratio, TaylorSeer's FID only increased by 0.33 from the non-accelerated baseline of 2.32, reaching 2.65, while ToCa and DuCa exhibited FID scores above 6.0 under the same conditions. To run TaylorSeer-DiT,see [TaylorSeer-DiT](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-DiT.md).",
+        "translatedContent": "## TaylorSeer-Wan2.1"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "5DYFJIi4H43keQh/zs8HrC/0OvovNgdNRAgI1iPeXz4=",
+        "originContent": "## TaylorSeer-Wan2.1",
+        "translatedContent": "我们在 Wan2.1 上实现了 TaylorSeer 加速方法，支持多 GPU 并行推理。TaylorSeer-Wan2.1 的安装和推理命令与 Wan2.1 完全兼容。有关运行 TaylorSeer-Wan2.1 的详情，请参见 [TaylorSeer-Wan2.1](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-Wan2.1.md)。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "yw71nREC8h91wgq8ShsYXooL5pNuIYSukhKjsfMdofI=",
+        "originContent": "We implemented the TaylorSeer acceleration method on Wan2.1, with support for multi-GPU parallel inference. The installation and inference commands for TaylorSeer-Wan2.1 are fully compatible with those of Wan2.1. To run TaylorSeer-Wan2.1, see [TaylorSeer-Wan2.1](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-Wan2.1.md).",
+        "translatedContent": "## TaylorSeer-HiDream"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "S9sampwK6RNX9MCgwJoggioDY+17FhuB/kPyHb5UgxQ=",
+        "originContent": "## TaylorSeer-HiDream",
+        "translatedContent": "最近开源的图像生成模型 **HiDream**，尽管输出质量出色，但因推理时间较长而面临越来越大的加速需求。我们应用 **TaylorSeer** 加速 HiDream 推理，实现了 **72% 的运行时间缩减**。更多详情请参见 [TaylorSeer-HiDream](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-HiDream.md)。"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "NQ+OZmBUlgODN0R1c2zfq7AZz9G4P4M99o3RBv7xXRk=",
+        "originContent": "The recently open-sourced image generation model **HiDream**, despite its impressive output quality, faces increasing demands for acceleration due to its longer inference time. We applied **TaylorSeer** to accelerate HiDream’s inference, achieving a **72% reduction in runtime**. For more details, see [TaylorSeer-HiDream](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/TaylorSeer-HiDream.md).",
+        "translatedContent": "## 👍 致谢"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "u0Hxe1TnAcDLUJOZsTSfCbn/hsIWD27vYpN/fqVX6NY=",
+        "originContent": "## 👍 Acknowledgements",
+        "translatedContent": "- 感谢 [DiT](https://github.com/facebookresearch/DiT) 的卓越工作及代码库，基于此我们构建了 TaylorSeer-DiT。"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 感谢 [FLUX](https://github.com/black-forest-labs/flux) 的卓越工作及代码库，基于此我们构建了 TaylorSeer-FLUX。"
+      },
+      {
+        "row": 29,
+        "rowsha": "CMyznQjDV0UsyA0kRFrsBu46YX9RCtwQPWaz6kDw57w=",
+        "originContent": "- Thanks to [DiT](https://github.com/facebookresearch/DiT) for their great work and codebase upon which we build TaylorSeer-DiT.",
+        "translatedContent": "- 感谢 [HiDream](https://github.com/HiDream-ai/HiDream-I1) 的卓越工作及代码库，基于此我们构建了 TaylorSeer-HiDream。"
+      },
+      {
+        "row": 30,
+        "rowsha": "g/lnC2dBLYng5nlpIMvvux4+WxpFGTfff9SbzUWHVBQ=",
+        "originContent": "- Thanks to [FLUX](https://github.com/black-forest-labs/flux) for their great work and codebase upon which we build TaylorSeer-FLUX.",
+        "translatedContent": "- 感谢 [HunyuanVideo](https://github.com/Tencent/HunyuanVideo) 的卓越工作及代码库，基于此我们构建了 TaylorSeer-HunyuanVideo。"
+      },
+      {
+        "row": 31,
+        "rowsha": "yuga1q5FZmOSqw1xc0FAfu7Lu5HXOyeKTvtX/Iw2da0=",
+        "originContent": "- Thanks to [HiDream](https://github.com/HiDream-ai/HiDream-I1) for their great work and codebase upon which we build TaylorSeer-HiDream.",
+        "translatedContent": "- 感谢 [Wan2.1](https://github.com/Wan-Video/Wan2.1) 的卓越工作及代码库，基于此我们构建了 TaylorSeer-Wan2.1。"
+      },
+      {
+        "row": 32,
+        "rowsha": "FVkMzLsD/lLWDhQC+24S3sV+KYWrlNI6VWt9cXL8Wi4=",
+        "originContent": "- Thanks to [HunyuanVideo](https://github.com/Tencent/HunyuanVideo) for their great work and codebase upon which we build TaylorSeer-HunyuanVideo.",
+        "translatedContent": "- 感谢 [ImageReward](https://github.com/THUDM/ImageReward) 提供文本到图像质量评估。"
+      },
+      {
+        "row": 33,
+        "rowsha": "Eyj54ONx3tEFKlo9ycLBA5oO5Nl/y1cGnSKuJJlbEoY=",
+        "originContent": "- Thanks to [Wan2.1](https://github.com/Wan-Video/Wan2.1) for their great work and codebase upon which we build TaylorSeer-Wan2.1.",
+        "translatedContent": "- 感谢 [VBench](https://github.com/Vchitect/VBench) 提供文本到视频质量评估。"
+      },
+      {
+        "row": 34,
+        "rowsha": "GjsWMErOgzFsSLuXdW1YI/Y3mLGiO0y5QoT5y8zAKqQ=",
+        "originContent": "- Thanks to [ImageReward](https://github.com/THUDM/ImageReward) for Text-to-Image quality evaluation.",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "KlJSWNedKVvQL9mxodUIC4dZ1eBs/4O9za9u2hnJQp8=",
+        "originContent": "- Thanks to [VBench](https://github.com/Vchitect/VBench) for Text-to-Video quality evaluation.",
+        "translatedContent": "## 📌 引用"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "A4soJLbZDJ5jsV21yB+YcMlje6BkPWiyME67jma7Kxo=",
+        "originContent": "## 📌 Citation",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bibtex\n@article{TaylorSeer2025,\n  title={From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers},\n  author={Liu, Jiacheng and Zou, Chang and Lyu, Yuanhuiyi and Chen, Junjie and Zhang, Linfeng},\n  journal={arXiv preprint arXiv:2503.06923},\n  year={2025}\n}\n```",
+    "ContentSha": "fen2LVp21p8N9q/eae7nT9vcoFlYE3VN97IgBC75x9g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@article{TaylorSeer2025,\n  title={From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers},\n  author={Liu, Jiacheng and Zou, Chang and Lyu, Yuanhuiyi and Chen, Junjie and Zhang, Linfeng},\n  journal={arXiv preprint arXiv:2503.06923},\n  year={2025}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "/ty4Z1XAwebEXbgzwWSaIIwNKg9g4LtzTihn1TP3w/o=",
+        "originContent": "@article{TaylorSeer2025,",
+        "translatedContent": "@article{TaylorSeer2025,"
+      },
+      {
+        "row": 3,
+        "rowsha": "o+GEpfSsb6+HkPZus7oKYmeYIa0sYGPChFIDFE7bKJY=",
+        "originContent": "  title={From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers},",
+        "translatedContent": "  title={From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers},"
+      },
+      {
+        "row": 4,
+        "rowsha": "9Nti1MS5YJh1jS6YOETdLSqimPafh+aTqXwIUL0aqvY=",
+        "originContent": "  author={Liu, Jiacheng and Zou, Chang and Lyu, Yuanhuiyi and Chen, Junjie and Zhang, Linfeng},",
+        "translatedContent": "  author={Liu, Jiacheng and Zou, Chang and Lyu, Yuanhuiyi and Chen, Junjie and Zhang, Linfeng},"
+      },
+      {
+        "row": 5,
+        "rowsha": "g/zic5erjOtHBZRc431Y3hZJDd8qGKo8zBOAc1c/nmA=",
+        "originContent": "  journal={arXiv preprint arXiv:2503.06923},",
+        "translatedContent": "  journal={arXiv preprint arXiv:2503.06923},"
+      },
+      {
+        "row": 6,
+        "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+        "originContent": "  year={2025}",
+        "translatedContent": "  year={2025}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## :e-mail: Contact\n\nIf you have any questions, please email [`shenyizou@outlook.com`](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/mailto:shenyizou@outlook.com).\n\n",
+    "ContentSha": "71xBxPlelSoIdJqUiI+RvDt6idhGFPOYbo/OlJNyPAU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## :e-mail: 联系方式\n\n如果您有任何问题，请发送邮件至 [`shenyizou@outlook.com`](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/mailto:shenyizou@outlook.com)。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "K5bAg1EjOpNN4wve36Z6v3sJb4XtaMFL5UG4PpfakXM=",
+        "originContent": "## :e-mail: Contact",
+        "translatedContent": "## :e-mail: 联系方式"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+O5l7O4UKOwm22BlC1HWUnYRp176sGuJ1pgHlKEIMY4=",
+        "originContent": "If you have any questions, please email [`shenyizou@outlook.com`](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/mailto:shenyizou@outlook.com).",
+        "translatedContent": "如果您有任何问题，请发送邮件至 [`shenyizou@outlook.com`](https://raw.githubusercontent.com/Shenyi-Z/TaylorSeer/main/mailto:shenyizou@outlook.com)。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

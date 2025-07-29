@@ -1,0 +1,188 @@
+[
+  {
+    "row": 1,
+    "rowsha": "m0QcAE3J+iZV4kJHdUlgPCLMoR1y3kRhWGgxHkrRxqE=",
+    "originContent": "## About",
+    "translatedContent": "## 关于"
+  },
+  {
+    "row": 2,
+    "rowsha": "TU1fWkOBkCDmVh85gKOKCyr0XAN+d3/GjZM5seOf6Uw=",
+    "originContent": "TextMeshPro dynamic font assets have a very annoying habit of saving their dynamically generated binary data in the",
+    "translatedContent": "TextMeshPro 动态字体资源有一个非常恼人的习惯，就是将其动态生成的二进制数据保存在"
+  },
+  {
+    "row": 3,
+    "rowsha": "Q2fAPQu+J2SWhZv8bpL+J4IZQfVPeaDzj4i1xJ3snAU=",
+    "originContent": "same text file as their configuration data. This causes massive headaches for version control.",
+    "translatedContent": "与其配置数据相同的文本文件中。这给版本控制带来了极大的麻烦。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Xhr5iiJ5XTjkjzFuNcUJPFgShqD+bmhExFciO3lJmt4=",
+    "originContent": "The script from this package addresses the above issue. It runs whenever any assets in the project are about to be saved. If any of",
+    "translatedContent": "本包中的脚本解决了上述问题。它在项目中任何资源即将保存时运行。如果这些"
+  },
+  {
+    "row": 6,
+    "rowsha": "JfY3C7nTCnOKh3ntVe5FsWwIzfr55j9v1ajtCqO+LeM=",
+    "originContent": "those assets are a TMP dynamic font asset, they will have their dynamically generated data cleared before they are",
+    "translatedContent": "资源是 TMP 动态字体资源，它们的动态生成数据将在保存前被清除，从而防止这些数据污染版本控制。"
+  },
+  {
+    "row": 7,
+    "rowsha": "RSNm3LlHDwl/Nqn12/KUaM2JCnFRYwehr+p98tbasj0=",
+    "originContent": "saved, which prevents that data from ever polluting the version control.",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "感谢 @cxode 提出的这个精彩解决方案：<br>"
+  },
+  {
+    "row": 9,
+    "rowsha": "QBEv8y7GYTOtyO+cQKbxk4mDRe9hwAJqpsOOxxw6iFU=",
+    "originContent": "Credits to @cxode which came up with this brilliant solution:<br>",
+    "translatedContent": "`https://forum.unity.com/threads/tmpro-dynamic-font-asset-constantly-changes-in-source-control.1227831/#post-8934711`"
+  },
+  {
+    "row": 10,
+    "rowsha": "g8FlbtA3zADaND710djZOpGJ/EnUzXRoBY3dfLZ7KSw=",
+    "originContent": "`https://forum.unity.com/threads/tmpro-dynamic-font-asset-constantly-changes-in-source-control.1227831/#post-8934711`",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "我的贡献是将脚本制作成一个兼容 upm 的包，便于安装。<br>"
+  },
+  {
+    "row": 12,
+    "rowsha": "Ydl5Eb1LRqs8YnuJObUXDbSVB+VqrMUT9/VOEeKrjvU=",
+    "originContent": "My contribution is making script into a upm compatible package that could be easily installed.<br>",
+    "translatedContent": "对性能进行了改进，并增加了对边缘情况的额外检查。<br>"
+  },
+  {
+    "row": 13,
+    "rowsha": "3A3+k9Oo98SLBCxDiFgDmkDvnisb98gC9J97Q3KrQP8=",
+    "originContent": "Some performance improvements and additional checks were made for edge cases.<br>",
+    "translatedContent": "此外，我创建了一个测试，用于快速检测脚本在您的项目/Unity 版本中是否正常工作。<br>"
+  },
+  {
+    "row": 14,
+    "rowsha": "FXFRrWsXducu/n1O1yPbMZp5bJG5XUBWFvwZDPl5IMA=",
+    "originContent": "Also, I created a test to quickly test whether script is working properly in your project/unity version.<br>",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 16,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "通过 git URL 安装："
+  },
+  {
+    "row": 17,
+    "rowsha": "ZNqtMY+MU8M73Km/Z/ClB18s8C1xQh60WkREMWZpiYo=",
+    "originContent": "Install via git URL:",
+    "translatedContent": "`https://github.com/STARasGAMES/tmpro-dynamic-data-cleaner.git#upm`"
+  },
+  {
+    "row": 18,
+    "rowsha": "/zVXCMrBZw0LiYs5zfIpIoLYoh+NaLoaemPa+5KlAMs=",
+    "originContent": "`https://github.com/STARasGAMES/tmpro-dynamic-data-cleaner.git#upm`",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "或者通过在您的 **`manifest.json`** 中添加新条目安装。"
+  },
+  {
+    "row": 20,
+    "rowsha": "kvO+cv/I2coEm87Ousyx+gkgb3SuN131DDuG/uzXJbU=",
+    "originContent": "Or by adding a new entry in your **`manifest.json`**.",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 22,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 23,
+    "rowsha": "Wb9DY6OC27SgypQ+hte+7nA4TapYLIcHwI4QcGKImRI=",
+    "originContent": "  \"dependencies\": {",
+    "translatedContent": "  \"dependencies\": {"
+  },
+  {
+    "row": 24,
+    "rowsha": "DKq1MRvm4PDZjvjDHRtL41/ENsRUFwj96jmXZgbaP7o=",
+    "originContent": "    \"com.starasgames.tmpro-dynamic-data-cleaner\": \"https://github.com/STARasGAMES/tmpro-dynamic-data-cleaner.git#upm\",",
+    "translatedContent": "    \"com.starasgames.tmpro-dynamic-data-cleaner\": \"https://github.com/STARasGAMES/tmpro-dynamic-data-cleaner.git#upm\","
+  },
+  {
+    "row": 25,
+    "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+    "originContent": "    ...",
+    "translatedContent": "    ..."
+  },
+  {
+    "row": 26,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 27,
+    "rowsha": "ZIZgWM/cg4vRgRtloaY4lToykIs3V1aMxk0nfkejhWk=",
+    "originContent": "  \"testables\" : [\"com.starasgames.tmpro-dynamic-data-cleaner\"]",
+    "translatedContent": "  \"testables\" : [\"com.starasgames.tmpro-dynamic-data-cleaner\"]"
+  },
+  {
+    "row": 28,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 29,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 30,
+    "rowsha": "xjMRFirNl47kj9Bqn0z6y7Fs9i/emtjEeULwG+SnOEc=",
+    "originContent": "To make integration test visible in the TestRunner window you need to add the `\"testables\"` attribute, but this is optinal.",
+    "translatedContent": "要使集成测试在 TestRunner 窗口中可见，您需要添加 `\"testables\"` 属性，但这是可选的。"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "row": 1,
+    "rowsha": "m0QcAE3J+iZV4kJHdUlgPCLMoR1y3kRhWGgxHkrRxqE=",
+    "originContent": "## About",
+    "translatedContent": "## 소개"
+  },
+  {
+    "row": 2,
+    "rowsha": "TU1fWkOBkCDmVh85gKOKCyr0XAN+d3/GjZM5seOf6Uw=",
+    "originContent": "TextMeshPro dynamic font assets have a very annoying habit of saving their dynamically generated binary data in the",
+    "translatedContent": "TextMeshPro 동적 폰트 에셋은 동적으로 생성된 이진 데이터를 구성 데이터와 동일한 텍스트 파일에 저장하는 매우 성가신 습관이 있습니다.  "
+  },
+  {
+    "row": 3,
+    "rowsha": "Q2fAPQu+J2SWhZv8bpL+J4IZQfVPeaDzj4i1xJ3snAU=",
+    "originContent": "same text file as their configuration data. This causes massive headaches for version control.",
+    "translatedContent": "이는 버전 관리에 큰 골칫거리를 야기합니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Xhr5iiJ5XTjkjzFuNcUJPFgShqD+bmhExFciO3lJmt4=",
+    "originContent": "The script from this package addresses the above issue. It runs whenever any assets in the project are about to be saved. If any of",
+    "translatedContent": "이 패키지의 스크립트는 위 문제를 해결합니다. 프로젝트 내 어떤 에셋이 저장되려 할 때마다 실행됩니다.  "
+  },
+  {
+    "row": 6,
+    "rowsha": "JfY3C7nTCnOKh3ntVe5FsWwIzfr55j9v1ajtCqO+LeM=",
+    "originContent": "those assets are a TMP dynamic font asset, they will have their dynamically generated data cleared before they are",
+    "translatedContent": "그 중 TMP 동적 폰트 에셋이 있다면, 저장 전에 동적으로 생성된 데이터가 삭제되어  "
+  },
+  {
+    "row": 7,
+    "rowsha": "RSNm3LlHDwl/Nqn12/KUaM2JCnFRYwehr+p98tbasj0=",
+    "originContent": "saved, which prevents that data from ever polluting the version control.",
+    "translatedContent": "버전 관리에 데이터가 오염되는 것을 방지합니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "QBEv8y7GYTOtyO+cQKbxk4mDRe9hwAJqpsOOxxw6iFU=",
+    "originContent": "Credits to @cxode which came up with this brilliant solution:<br>",
+    "translatedContent": "이 훌륭한 해결책을 제시한 @cxode에게 크레딧을 드립니다:<br>"
+  },
+  {
+    "row": 10,
+    "rowsha": "g8FlbtA3zADaND710djZOpGJ/EnUzXRoBY3dfLZ7KSw=",
+    "originContent": "`https://forum.unity.com/threads/tmpro-dynamic-font-asset-constantly-changes-in-source-control.1227831/#post-8934711`",
+    "translatedContent": "`https://forum.unity.com/threads/tmpro-dynamic-font-asset-constantly-changes-in-source-control.1227831/#post-8934711`"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "Ydl5Eb1LRqs8YnuJObUXDbSVB+VqrMUT9/VOEeKrjvU=",
+    "originContent": "My contribution is making script into a upm compatible package that could be easily installed.<br>",
+    "translatedContent": "저의 기여는 이 스크립트를 쉽게 설치할 수 있는 upm 호환 패키지로 만든 것입니다.<br>"
+  },
+  {
+    "row": 13,
+    "rowsha": "3A3+k9Oo98SLBCxDiFgDmkDvnisb98gC9J97Q3KrQP8=",
+    "originContent": "Some performance improvements and additional checks were made for edge cases.<br>",
+    "translatedContent": "성능 개선과 엣지 케이스에 대한 추가 검사도 포함되었습니다.<br>"
+  },
+  {
+    "row": 14,
+    "rowsha": "FXFRrWsXducu/n1O1yPbMZp5bJG5XUBWFvwZDPl5IMA=",
+    "originContent": "Also, I created a test to quickly test whether script is working properly in your project/unity version.<br>",
+    "translatedContent": "또한, 프로젝트/유니티 버전에서 스크립트가 제대로 작동하는지 빠르게 테스트할 수 있는 테스트도 만들었습니다.<br>"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 17,
+    "rowsha": "ZNqtMY+MU8M73Km/Z/ClB18s8C1xQh60WkREMWZpiYo=",
+    "originContent": "Install via git URL:",
+    "translatedContent": "git URL을 통해 설치하세요:  "
+  },
+  {
+    "row": 18,
+    "rowsha": "/zVXCMrBZw0LiYs5zfIpIoLYoh+NaLoaemPa+5KlAMs=",
+    "originContent": "`https://github.com/STARasGAMES/tmpro-dynamic-data-cleaner.git#upm`",
+    "translatedContent": "`https://github.com/STARasGAMES/tmpro-dynamic-data-cleaner.git#upm`"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "kvO+cv/I2coEm87Ousyx+gkgb3SuN131DDuG/uzXJbU=",
+    "originContent": "Or by adding a new entry in your **`manifest.json`**.",
+    "translatedContent": "또는 **`manifest.json`** 에 새 항목을 추가하여 설치할 수 있습니다."
+  },
+  {
+    "row": 21,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 22,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 23,
+    "rowsha": "Wb9DY6OC27SgypQ+hte+7nA4TapYLIcHwI4QcGKImRI=",
+    "originContent": "  \"dependencies\": {",
+    "translatedContent": "  \"dependencies\": {"
+  },
+  {
+    "row": 24,
+    "rowsha": "DKq1MRvm4PDZjvjDHRtL41/ENsRUFwj96jmXZgbaP7o=",
+    "originContent": "    \"com.starasgames.tmpro-dynamic-data-cleaner\": \"https://github.com/STARasGAMES/tmpro-dynamic-data-cleaner.git#upm\",",
+    "translatedContent": "    \"com.starasgames.tmpro-dynamic-data-cleaner\": \"https://github.com/STARasGAMES/tmpro-dynamic-data-cleaner.git#upm\","
+  },
+  {
+    "row": 25,
+    "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+    "originContent": "    ...",
+    "translatedContent": "    ..."
+  },
+  {
+    "row": 26,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 27,
+    "rowsha": "ZIZgWM/cg4vRgRtloaY4lToykIs3V1aMxk0nfkejhWk=",
+    "originContent": "  \"testables\" : [\"com.starasgames.tmpro-dynamic-data-cleaner\"]",
+    "translatedContent": "  \"testables\" : [\"com.starasgames.tmpro-dynamic-data-cleaner\"]"
+  },
+  {
+    "row": 28,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 29,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 30,
+    "rowsha": "xjMRFirNl47kj9Bqn0z6y7Fs9i/emtjEeULwG+SnOEc=",
+    "originContent": "To make integration test visible in the TestRunner window you need to add the `\"testables\"` attribute, but this is optinal.",
+    "translatedContent": "통합 테스트를 TestRunner 창에 표시하려면 `\"testables\"` 속성을 추가해야 하지만, 이는 선택 사항입니다."
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

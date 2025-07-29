@@ -1,0 +1,1669 @@
+[
+  {
+    "Id": 1,
+    "Content": "# httpc\nhttpc is a javascript/typescript framework for building function-based API with minimal code and end-to-end type safety.\n- [Documentation and tutorials](https://httpc.dev/docs)\n- [Community](https://httpc.dev/discord)\n- [Issues and feature requests](https://httpc.dev/issues)\n\n## Quick glance\nYou just write functions and export them. No need to worry how the server will execute them.",
+    "ContentSha": "eqrBXnaoTGJSrrrNn7fW+dPGYKOlLS2Jl/EYMM6gvWg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# httpc\nhttpc is a javascript/typescript framework for building function-based API with minimal code and end-to-end type safety.\n- [Documentation and tutorials](https://httpc.dev/docs)\n- [Community](https://httpc.dev/discord)\n- [Issues and feature requests](https://httpc.dev/issues)\n\n## Quick glance\nYou just write functions and export them. No need to worry how the server will execute them.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4593Ls+KaAoyTaUOLDKX4POKTVN9Cj1t8jU6PRe+jyY=",
+        "originContent": "# httpc",
+        "translatedContent": "# httpc"
+      },
+      {
+        "row": 2,
+        "rowsha": "aR9BL6HVJcIfNlg6aX3vamm8XQcLtDrUokyyyNwmp08=",
+        "originContent": "httpc is a javascript/typescript framework for building function-based API with minimal code and end-to-end type safety.",
+        "translatedContent": "httpc is a javascript/typescript framework for building function-based API with minimal code and end-to-end type safety."
+      },
+      {
+        "row": 3,
+        "rowsha": "aWVZHmAxK2W95DG+k6La+lfgWn0FczKiY7CH1bUIKq8=",
+        "originContent": "- [Documentation and tutorials](https://httpc.dev/docs)",
+        "translatedContent": "- [Documentation and tutorials](https://httpc.dev/docs)"
+      },
+      {
+        "row": 4,
+        "rowsha": "R7OG9Mbhv/Qm4cpcmSs7U3Bnp77mrLTz0qN3gdRLtXk=",
+        "originContent": "- [Community](https://httpc.dev/discord)",
+        "translatedContent": "- [Community](https://httpc.dev/discord)"
+      },
+      {
+        "row": 5,
+        "rowsha": "CZTKXvo8BAtULtG4VfALB35WUKIW8qXwGGs1KvRXbeU=",
+        "originContent": "- [Issues and feature requests](https://httpc.dev/issues)",
+        "translatedContent": "- [Issues and feature requests](https://httpc.dev/issues)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "tSxOZXvB5tRwgxaP+GCUNzRaLAVze/O+gC18gGhXo98=",
+        "originContent": "## Quick glance",
+        "translatedContent": "## Quick glance"
+      },
+      {
+        "row": 8,
+        "rowsha": "afqiwj4iye8Ws8cfay0guvanCt9yu7WhP4rHW31mTp8=",
+        "originContent": "You just write functions and export them. No need to worry how the server will execute them.",
+        "translatedContent": "You just write functions and export them. No need to worry how the server will execute them."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```ts\nfunction add(a: number, b: number) {\n    return a + b;\n}\n\nfunction greet(name: string) {\n    return `Hello ${name}`;\n}\n\nexport default {\n    add,\n    greet,\n}\n```",
+    "ContentSha": "imQPtAh3AkMg34+tHULj92VcwH6BBHg/aPcYEeNuw/Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\nfunction add(a: number, b: number) {\n    return a + b;\n}\n\nfunction greet(name: string) {\n    return `Hello ${name}`;\n}\n\nexport default {\n    add,\n    greet,\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "ORA1WpvPVb1G0tWPDbPILcKvVe2hu0hCkAY8ER0Zz3E=",
+        "originContent": "function add(a: number, b: number) {",
+        "translatedContent": "function add(a: number, b: number) {"
+      },
+      {
+        "row": 3,
+        "rowsha": "G8yHYrlsCMhjjloEyj31iPjBWbTg0g8nBDpVWo59byk=",
+        "originContent": "    return a + b;",
+        "translatedContent": "    return a + b;"
+      },
+      {
+        "row": 4,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "spqwB0/pTYRMDvDlfbE07Tzm3ZmerB9yTRQUDAJhoGA=",
+        "originContent": "function greet(name: string) {",
+        "translatedContent": "function greet(name: string) {"
+      },
+      {
+        "row": 7,
+        "rowsha": "/OMY0FRCaN6tSJOYOu9YDpYwEVR7cHw305joUlvA7Bc=",
+        "originContent": "    return `Hello ${name}`;",
+        "translatedContent": "    return `Hello ${name}`;"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "ikHhPmgNY52/Y57QX+s+O3S6qF684Au/Zj4aR1NY1n4=",
+        "originContent": "export default {",
+        "translatedContent": "export default {"
+      },
+      {
+        "row": 11,
+        "rowsha": "JYGVk6tC6e/SgKmg26QjWlY/Z5i2i1RMv1qb8HhYC0M=",
+        "originContent": "    add,",
+        "translatedContent": "    add,"
+      },
+      {
+        "row": 12,
+        "rowsha": "e3HP+wrSzW1bzHRc/VVbUeWzfNvjxsdKO9VmYt0ekz8=",
+        "originContent": "    greet,",
+        "translatedContent": "    greet,"
+      },
+      {
+        "row": 13,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nFrom the client you can call server functions like normal javascript functions with a natural syntax.",
+    "ContentSha": "+UQdyxA4wZfPzn2GKuj3ar56f3PPB9et+wKfIsbO2Ws=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "From the client, you can call server functions like normal JavaScript functions with a natural syntax.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "From the client, you can call server functions like normal JavaScript functions with a natural syntax."
+      },
+      {
+        "row": 2,
+        "rowsha": "6aafySBl9K6IAQUCvCql3lKQiJDXMwI5LAPj1mUoids=",
+        "originContent": "From the client you can call server functions like normal javascript functions with a natural syntax.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```ts\nimport createClient from \"@your-package/api-client\";\n\nconst client = createClient({\n    endpoint: \"http://api.domain.com\"\n});\n\nlet result = await client.add(1, 2);\n// result: 3\n\nlet message = await client.greet(\"Edith\");\n// message: \"Hello Edith\"\n```",
+    "ContentSha": "OdkmvZaLeyp7rsA5K+AcKjQpsaBXd24Lwl2nVW1YkQw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\nimport createClient from \"@your-package/api-client\";\n\nconst client = createClient({\n    endpoint: \"http://api.domain.com\"\n});\n\nlet result = await client.add(1, 2);\n// result: 3\n\nlet message = await client.greet(\"Edith\");\n// message: \"Hello Edith\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "r2Tp9yD9cuaLrX/aZRKP0ZSD/dvLHadjgFiWSrT0nZM=",
+        "originContent": "import createClient from \"@your-package/api-client\";",
+        "translatedContent": "import createClient from \"@your-package/api-client\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "XFUBipYjYchu36GUHZL66KrSPSve+VHcCZDMzBeiUiU=",
+        "originContent": "const client = createClient({",
+        "translatedContent": "const client = createClient({"
+      },
+      {
+        "row": 5,
+        "rowsha": "0JZuuOOZQPYRVuUjldGjeZWxu2gZuW7qFPRgcduC31s=",
+        "originContent": "    endpoint: \"http://api.domain.com\"",
+        "translatedContent": "    endpoint: \"http://api.domain.com\""
+      },
+      {
+        "row": 6,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "idu9zN7zxLLY9icewc/YxeZuyV3esFCUN3pMCrYWaKI=",
+        "originContent": "let result = await client.add(1, 2);",
+        "translatedContent": "let result = await client.add(1, 2);"
+      },
+      {
+        "row": 9,
+        "rowsha": "yc15ch3eDq9xNnthSjtYHh6FwHjNabsfpDE3uJK5BIA=",
+        "originContent": "// result: 3",
+        "translatedContent": "// result: 3"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "o6QyUbdGZIFtsGse2AB8+g/Bvnyw55Aa1AneSCHKumM=",
+        "originContent": "let message = await client.greet(\"Edith\");",
+        "translatedContent": "let message = await client.greet(\"Edith\");"
+      },
+      {
+        "row": 12,
+        "rowsha": "uTKXNT+B6Q1kLhyM54skUNRCeAcTcurjXxJpSf8H+S0=",
+        "originContent": "// message: \"Hello Edith\"",
+        "translatedContent": "// message: \"Hello Edith\""
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Key principle\n**httpc** is an abstraction over the standard HTTP protocol. With **httpc** you can build an API that speaks functions, arguments and return values, not http verbs, headers, resource paths, data serialization…\n\nThe **httpc** framework hides all the complexity of the underling HTTP while keeping you focused on what matters: the function logic.\n\n\n## Main features\n### Middlewares\nRun common logic via middlewares.",
+    "ContentSha": "oocabQRZ6bEI605GVyGkVyyK74THRHU+0ffqwdhmIws=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Key principle\n**httpc** is an abstraction over the standard HTTP protocol. With **httpc** you can build an API that speaks functions, arguments and return values, not http verbs, headers, resource paths, data serialization…\n\nThe **httpc** framework hides all the complexity of the underling HTTP while keeping you focused on what matters: the function logic.\n\n\n## Main features\n### Middlewares\nRun common logic via middlewares.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "p0QeUYh0K/niuV0IwZNfRm91G+Kkh0wfOmvSQaaIQ+U=",
+        "originContent": "## Key principle",
+        "translatedContent": "## Key principle"
+      },
+      {
+        "row": 3,
+        "rowsha": "fVr41+TtB7nMW3e9ZLkZWu8xwSzhYRTQV0RB2TbhFEY=",
+        "originContent": "**httpc** is an abstraction over the standard HTTP protocol. With **httpc** you can build an API that speaks functions, arguments and return values, not http verbs, headers, resource paths, data serialization…",
+        "translatedContent": "**httpc** is an abstraction over the standard HTTP protocol. With **httpc** you can build an API that speaks functions, arguments and return values, not http verbs, headers, resource paths, data serialization…"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "wvFbUvaGvlVbBLjDSjUu481ck5Jw3FYtrQ49xLp8Jwg=",
+        "originContent": "The **httpc** framework hides all the complexity of the underling HTTP while keeping you focused on what matters: the function logic.",
+        "translatedContent": "The **httpc** framework hides all the complexity of the underling HTTP while keeping you focused on what matters: the function logic."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "4nybJmHBeBtjMOaqXJTOT2PmpkJde08EHK2MeTyF9d4=",
+        "originContent": "## Main features",
+        "translatedContent": "## Main features"
+      },
+      {
+        "row": 9,
+        "rowsha": "ixuvroWu/ZsUUaBUbcJn0DH7CJeaAu0rn+Nrl8Wzn04=",
+        "originContent": "### Middlewares",
+        "translatedContent": "### Middlewares"
+      },
+      {
+        "row": 10,
+        "rowsha": "9wgHn9T6eUc/5sR+b5bozXWeET0ob7eEMeGv3ArDnaI=",
+        "originContent": "Run common logic via middlewares.",
+        "translatedContent": "Run common logic via middlewares."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```ts\nimport { httpCall } from \"@httpc/server\";\n\nconst getPostById = httpCall(\n    Authenticated(),    // <-- authentication check\n    Validate(String),   // <-- parameters validation\n    Cache(\"5m\"),        // <-- result caching\n    async (postId: string) => {\n        const post = await db.select(\"posts\").where(\"id\", postId);\n        if (!post) {\n            throw new NotFoundError();\n        }\n\n        return post;\n    }\n);\n```",
+    "ContentSha": "m+4SeIa599vx8UXF3naJoSYNjuwlvs2fyaBPozV+S5k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\nimport { httpCall } from \"@httpc/server\";\n\nconst getPostById = httpCall(\n    Authenticated(),    // <-- authentication check\n    Validate(String),   // <-- parameters validation\n    Cache(\"5m\"),        // <-- result caching\n    async (postId: string) => {\n        const post = await db.select(\"posts\").where(\"id\", postId);\n        if (!post) {\n            throw new NotFoundError();\n        }\n\n        return post;\n    }\n);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "+TR2aFf64Ch9DDYmGdDQuljNv18P2GfeF4uILaPYpfE=",
+        "originContent": "import { httpCall } from \"@httpc/server\";",
+        "translatedContent": "import { httpCall } from \"@httpc/server\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "rC2Ui87LC+tT3AsPCgX1Zr2cZMPimHxcag86QIhrb7M=",
+        "originContent": "const getPostById = httpCall(",
+        "translatedContent": "const getPostById = httpCall("
+      },
+      {
+        "row": 5,
+        "rowsha": "aVMEu0GhAH8L3rS7NNYGrUeNT7/8H7yidn58+uOPN14=",
+        "originContent": "    Authenticated(),    // <-- authentication check",
+        "translatedContent": "    Authenticated(),    // <-- authentication check"
+      },
+      {
+        "row": 6,
+        "rowsha": "hJveKKh/vtCOBk6EPn86ypnsl2Uw6DhNVTM+et1AQhU=",
+        "originContent": "    Validate(String),   // <-- parameters validation",
+        "translatedContent": "    Validate(String),   // <-- parameters validation"
+      },
+      {
+        "row": 7,
+        "rowsha": "xiSX8pWsCW/byghOeSlrTZ/dIRUSAqmA3kx/tzvIxVg=",
+        "originContent": "    Cache(\"5m\"),        // <-- result caching",
+        "translatedContent": "    Cache(\"5m\"),        // <-- result caching"
+      },
+      {
+        "row": 8,
+        "rowsha": "3fpu5i/PeIdwO/Ek8r4GlgW1GrZa+PZ/wBLIcsfvv/o=",
+        "originContent": "    async (postId: string) => {",
+        "translatedContent": "    async (postId: string) => {"
+      },
+      {
+        "row": 9,
+        "rowsha": "7jeP+dQeZeiBZhEbCCG0N3WJWGav3zQ6163lfZGszXQ=",
+        "originContent": "        const post = await db.select(\"posts\").where(\"id\", postId);",
+        "translatedContent": "        const post = await db.select(\"posts\").where(\"id\", postId);"
+      },
+      {
+        "row": 10,
+        "rowsha": "n2qY+MZt2+eWZzk3UgpGZ8+sl3cmILg0hOn/4Dk6qPI=",
+        "originContent": "        if (!post) {",
+        "translatedContent": "        if (!post) {"
+      },
+      {
+        "row": 11,
+        "rowsha": "ajTvK+GzJP3X+gJZOux25wyv7jGTvnZiCV1aT33kGrk=",
+        "originContent": "            throw new NotFoundError();",
+        "translatedContent": "            throw new NotFoundError();"
+      },
+      {
+        "row": 12,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "qexKnIdKl8HLF7ihrt2gZVxWkgA+JFDISpRpdnwP08c=",
+        "originContent": "        return post;",
+        "translatedContent": "        return post;"
+      },
+      {
+        "row": 15,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 16,
+        "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+        "originContent": ");",
+        "translatedContent": ");"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Context ubiquity\nAccess the request context from everywhere in your application. Be in a handler, middleware o service logic, the context is always available with no need to pass parameters around.",
+    "ContentSha": "qr7KU+jJx2p87yvCGqIJSan97KymsV4obufp132PvEc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Context ubiquity\nAccess the request context from everywhere in your application. Whether in a handler, middleware, or service logic, the context is always available with no need to pass parameters around.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "XUI74VvBfBZhlcGJ9xI9ALiLoZ5ZQ0kIEmcYEWbMx2Y=",
+        "originContent": "### Context ubiquity",
+        "translatedContent": "### Context ubiquity"
+      },
+      {
+        "row": 3,
+        "rowsha": "9S9MJs2+BdaGTr63/DJiV+3VB42x6/nlO+v1YYbEg2w=",
+        "originContent": "Access the request context from everywhere in your application. Be in a handler, middleware o service logic, the context is always available with no need to pass parameters around.",
+        "translatedContent": "Access the request context from everywhere in your application. Whether in a handler, middleware, or service logic, the context is always available with no need to pass parameters around."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```ts\nasync function getPosts() {\n    const { user } = useContext();\n\n    let category = \"news\";\n    if (user) {\n        category = user.preferredCategory;\n        trace(\"Getting user preferred posts\");\n    }\n    \n    return await db.select(\"posts\").where(\"category\", category);\n}\n\nfunction trace(message: string) {\n    const { requestId } = useContext();\n    console.log(`[req:${requestId}] ${message}`);\n}\n```",
+    "ContentSha": "shXed5UoUV42vf43NvsI0YxtucGDm/RfK+lyzrpT4y4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\nasync function getPosts() {\n    const { user } = useContext();\n\n    let category = \"news\";\n    if (user) {\n        category = user.preferredCategory;\n        trace(\"Getting user preferred posts\");\n    }\n    \n    return await db.select(\"posts\").where(\"category\", category);\n}\n\nfunction trace(message: string) {\n    const { requestId } = useContext();\n    console.log(`[req:${requestId}] ${message}`);\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "eVuBFJg/bcH3Cat5fg5fJw2N6SQqNKsYeZxcrWrooh4=",
+        "originContent": "async function getPosts() {",
+        "translatedContent": "async function getPosts() {"
+      },
+      {
+        "row": 3,
+        "rowsha": "D1J65xghHP1ZZsqmFx08TMg69wx7VzVZHmTM1uCo5Ac=",
+        "originContent": "    const { user } = useContext();",
+        "translatedContent": "    const { user } = useContext();"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "q+OFPJgudnEkJbbflicbSzvJybeB67GtF4NzuwH44QU=",
+        "originContent": "    let category = \"news\";",
+        "translatedContent": "    let category = \"news\";"
+      },
+      {
+        "row": 6,
+        "rowsha": "7Pg4L/RAXrG3DHsl0PBEIQpUczkwqj+EhixWbnHx/aQ=",
+        "originContent": "    if (user) {",
+        "translatedContent": "    if (user) {"
+      },
+      {
+        "row": 7,
+        "rowsha": "EvSuT6pQxHAw5FP7CndwKkK47pha0zrUSYQh/pwMq6Q=",
+        "originContent": "        category = user.preferredCategory;",
+        "translatedContent": "        category = user.preferredCategory;"
+      },
+      {
+        "row": 8,
+        "rowsha": "iAz40QGs2RLmeJqLA4aHQPRFgXEPls5YXwkvZTcIMog=",
+        "originContent": "        trace(\"Getting user preferred posts\");",
+        "translatedContent": "        trace(\"Getting user preferred posts\");"
+      },
+      {
+        "row": 9,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 10,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 11,
+        "rowsha": "8VfzXtu/Sh+OW/1iWx6VKjO3olgh98nTL7G5YPpQlIw=",
+        "originContent": "    return await db.select(\"posts\").where(\"category\", category);",
+        "translatedContent": "    return await db.select(\"posts\").where(\"category\", category);"
+      },
+      {
+        "row": 12,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "zuu17oBcTgfJNqeRrXwBrfARQ17fFfo2hfg+6mm4Y9I=",
+        "originContent": "function trace(message: string) {",
+        "translatedContent": "function trace(message: string) {"
+      },
+      {
+        "row": 15,
+        "rowsha": "OpKiogwlNMoxaaAqdO3S1S1pinpt1TCpfWiNBpWWo3g=",
+        "originContent": "    const { requestId } = useContext();",
+        "translatedContent": "    const { requestId } = useContext();"
+      },
+      {
+        "row": 16,
+        "rowsha": "dL8UsaoIX6Wn37n+FijwXhwhVL/nTODxBwFehvjjatE=",
+        "originContent": "    console.log(`[req:${requestId}] ${message}`);",
+        "translatedContent": "    console.log(`[req:${requestId}] ${message}`);"
+      },
+      {
+        "row": 17,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 18,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### Hooks\nHooks encapsulate common logic around the request context. By convention hooks adopt the `use` prefix.",
+    "ContentSha": "emSd0xqlhdSi+Rq4t0DiZpHoL04igxf9FcQxBGsLZDU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Hooks\nHooks encapsulate common logic around the request context. By convention, hooks adopt the `use` prefix.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "oDGM1CJ9/MJyykn5g7GoZikKFqkWmxWaPbb2yD6NmcA=",
+        "originContent": "### Hooks",
+        "translatedContent": "### Hooks"
+      },
+      {
+        "row": 3,
+        "rowsha": "ihvtQBW+8Dzccztyxmv5HjmAxxZeaa24i5j9JpAEj8A=",
+        "originContent": "Hooks encapsulate common logic around the request context. By convention hooks adopt the `use` prefix.",
+        "translatedContent": "Hooks encapsulate common logic around the request context. By convention, hooks adopt the `use` prefix."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```ts\nasync function addNewComment(postId: string, message: string) {\n    const user = useUser();\n\n    if (!useIsAuthorized(\"comment:create\")) {\n        throw new ForbiddenError(\"Cannot add comments\");\n    }\n\n    return await db.createComment({\n        userId: user.id,\n        postId,\n        message\n    });\n}\n```",
+    "ContentSha": "KRGYKAzBH3GnQLKgWnW+Fgsdd9bGw5ecZJUHlfDyN+I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\nasync function addNewComment(postId: string, message: string) {\n    const user = useUser();\n\n    if (!useIsAuthorized(\"comment:create\")) {\n        throw new ForbiddenError(\"Cannot add comments\");\n    }\n\n    return await db.createComment({\n        userId: user.id,\n        postId,\n        message\n    });\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "/cMFExa7FRhWiMPAhM/pZ59UlC/pDa6/bf3JPcB3dLQ=",
+        "originContent": "async function addNewComment(postId: string, message: string) {",
+        "translatedContent": "async function addNewComment(postId: string, message: string) {"
+      },
+      {
+        "row": 3,
+        "rowsha": "zbjdQ4OAOGUvVl90GzTP/O74dlStwxOkXOvNAbhd9VU=",
+        "originContent": "    const user = useUser();",
+        "translatedContent": "    const user = useUser();"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "bLPsT9+FP5QrigUkFiNKEr9VEmFUSuA/4axuoLaY47k=",
+        "originContent": "    if (!useIsAuthorized(\"comment:create\")) {",
+        "translatedContent": "    if (!useIsAuthorized(\"comment:create\")) {"
+      },
+      {
+        "row": 6,
+        "rowsha": "EfVqkJQ4uitxdtOFDDfW0bWhm7Ck6kiR95AUjNpjN4c=",
+        "originContent": "        throw new ForbiddenError(\"Cannot add comments\");",
+        "translatedContent": "        throw new ForbiddenError(\"Cannot add comments\");"
+      },
+      {
+        "row": 7,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "0Ybt0P4Ghy4pAm3TMiSmyqaMiWjYhw/Xtl5pALHGkjQ=",
+        "originContent": "    return await db.createComment({",
+        "translatedContent": "    return await db.createComment({"
+      },
+      {
+        "row": 10,
+        "rowsha": "TU93LuQBm9kxWvFwFuzGHV2QfM1E80//yygal9W8m7s=",
+        "originContent": "        userId: user.id,",
+        "translatedContent": "        userId: user.id,"
+      },
+      {
+        "row": 11,
+        "rowsha": "3Cb5yiQglb6ZrCYAWW2WzdztQWfw+rp+mFn2NhAlqbY=",
+        "originContent": "        postId,",
+        "translatedContent": "        postId,"
+      },
+      {
+        "row": 12,
+        "rowsha": "47z4mw8EpTkI7/KNaETsjM3/Oyklp33VPFdoLZhiqCQ=",
+        "originContent": "        message",
+        "translatedContent": "        message"
+      },
+      {
+        "row": 13,
+        "rowsha": "J1qSMWPEACGxjVVVepYn/QGoe0S8Ili1BNZcMfXgap0=",
+        "originContent": "    });",
+        "translatedContent": "    });"
+      },
+      {
+        "row": 14,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "**@httpc/kit** offers several builtin hooks to cache data, to perform authorization checks, to make transactions…\n\n### Serverless\nYou can host a full **httpc** API inside a serverless environment like Vercel, AWS Lambda or Netlify functions.\nThis gives the advantage to deploy a single serverless function handling the whole API.\n\nFor example with Vercel, you can expose all your API functions:",
+    "ContentSha": "phoP+KBcgcUe2kiI77a06HsTM1yiC1Ed9SfK+AaTRhw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**@httpc/kit** offers several builtin hooks to cache data, to perform authorization checks, to make transactions…\n\n### Serverless\nYou can host a full **httpc** API inside a serverless environment like Vercel, AWS Lambda or Netlify functions.\nThis gives the advantage to deploy a single serverless function handling the whole API.\n\nFor example with Vercel, you can expose all your API functions:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uNDEFSr8nQ2dXr1qeuTRWEWlmBCH+CqfGLXHM8R4HjM=",
+        "originContent": "**@httpc/kit** offers several builtin hooks to cache data, to perform authorization checks, to make transactions…",
+        "translatedContent": "**@httpc/kit** offers several builtin hooks to cache data, to perform authorization checks, to make transactions…"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ezW7wEoCnRuV5tqfgjekaw/Z14nymAc/Y1Nxv6c5by0=",
+        "originContent": "### Serverless",
+        "translatedContent": "### Serverless"
+      },
+      {
+        "row": 4,
+        "rowsha": "qcO7r2B+FlIiHPWQl5geso0a6DW7/qwj76gb5rhCqqQ=",
+        "originContent": "You can host a full **httpc** API inside a serverless environment like Vercel, AWS Lambda or Netlify functions.",
+        "translatedContent": "You can host a full **httpc** API inside a serverless environment like Vercel, AWS Lambda or Netlify functions."
+      },
+      {
+        "row": 5,
+        "rowsha": "olyrhxXFlcAGN6mPNW1XIXrNgV2BBeShgTigux5PNr8=",
+        "originContent": "This gives the advantage to deploy a single serverless function handling the whole API.",
+        "translatedContent": "This gives the advantage to deploy a single serverless function handling the whole API."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "l+gOfUFVMhtPWn/M7+lKUvtYgG+lxkcztpv8Ve8x6Is=",
+        "originContent": "For example with Vercel, you can expose all your API functions:",
+        "translatedContent": "For example with Vercel, you can expose all your API functions:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```ts\n//file: api/index.ts\n\nimport { createHttpCVercelAdapter } from \"@httpc/adapter-vercel\";\nimport calls from \"../calls\";\n\nexport default createHttpCVercelAdapter({\n    calls,\n    log: \"info\"\n});\n```",
+    "ContentSha": "LvtEmDZGr+5oNEQ9jpuaR/oFqwKxeZsehGPc/0BW/mw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\n//file: api/index.ts\n\nimport { createHttpCVercelAdapter } from \"@httpc/adapter-vercel\";\nimport calls from \"../calls\";\n\nexport default createHttpCVercelAdapter({\n    calls,\n    log: \"info\"\n});\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "HIdAMyUobt+vlH0Cv3Q9/+QlBIiYSOYscqK8rAp1qg8=",
+        "originContent": "//file: api/index.ts",
+        "translatedContent": "//file: api/index.ts"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "CKAd7kM+p/t6KDXxsrq2xQis30Fd3r6nern8MqpTq9k=",
+        "originContent": "import { createHttpCVercelAdapter } from \"@httpc/adapter-vercel\";",
+        "translatedContent": "import { createHttpCVercelAdapter } from \"@httpc/adapter-vercel\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "ovzqqW2B6ABy5pcO92zDynUYwiWI20/eQZ2O4PiuSyc=",
+        "originContent": "import calls from \"../calls\";",
+        "translatedContent": "import calls from \"../calls\";"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "MOVp3IGGOVy7StMOWq1sX7NC4zvxZv1HU3WLYwM8VB8=",
+        "originContent": "export default createHttpCVercelAdapter({",
+        "translatedContent": "export default createHttpCVercelAdapter({"
+      },
+      {
+        "row": 8,
+        "rowsha": "4OqJmd1nPM4y/X84767JmePMy9aiwE6J1mvIJpXExEI=",
+        "originContent": "    calls,",
+        "translatedContent": "    calls,"
+      },
+      {
+        "row": 9,
+        "rowsha": "5/StG9Tl6fie5mRBKXkGkk4wbP8m66K1dnAku0zIkuA=",
+        "originContent": "    log: \"info\"",
+        "translatedContent": "    log: \"info\""
+      },
+      {
+        "row": 10,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nThen, you can call API functions from pages with full type checking:",
+    "ContentSha": "LB+r7C8HenDdrClobM8mGjlsfD9MaWoGzgBR3BvtWDU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Then, you can call API functions from pages with full type checking:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Then, you can call API functions from pages with full type checking:"
+      },
+      {
+        "row": 2,
+        "rowsha": "Sqpx2Msu+2Fb17PY278F3jhXHC975bIKUQ8c8tZoJEY=",
+        "originContent": "Then, you can call API functions from pages with full type checking:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```ts\n//file: pages/home.tsx\n\nimport { createClient, ClientDef } from \"@httpc/client\";\nimport { useQuery, useMutation } from \"react-query\";\nimport type calls from \"../calls\"; // <-- import calls definition\n\n// create a typed client\nconst client = createClient<ClientDef<typeof calls>>();\n\nexport default function Home() {\n  const posts = useQuery([\"posts\"], () => client.posts.getLatest());\n\n  return (\n    <div class=\"container\">\n      {posts.data.map(post =>\n        <div class=\"post\">\n          <h2>{post.title}</h2>\n          <p>{post.text}</p>\n        </div>\n      )}\n    </div>\n  );\n}\n```    ",
+    "ContentSha": "ODwD17Hkz4nFHrHlYOmuX7DPhdxI6TO8tux4nn1Ze5I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\n//file: pages/home.tsx\n\nimport { createClient, ClientDef } from \"@httpc/client\";\nimport { useQuery, useMutation } from \"react-query\";\nimport type calls from \"../calls\"; // <-- import calls definition\n\n// create a typed client\nconst client = createClient<ClientDef<typeof calls>>();\n\nexport default function Home() {\n  const posts = useQuery([\"posts\"], () => client.posts.getLatest());\n\n  return (\n    <div class=\"container\">\n      {posts.data.map(post =>\n        <div class=\"post\">\n          <h2>{post.title}</h2>\n          <p>{post.text}</p>\n        </div>\n      )}\n    </div>\n  );\n}\n```    ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "S3IoGJ4SoTaDFtBT9XPTZax147+gm+QtsTd6iXR/VA4=",
+        "originContent": "//file: pages/home.tsx",
+        "translatedContent": "//file: pages/home.tsx"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "gMR0N3oBCfsebzaNcUfJWsB30sP9cyJumvZJlC1UonU=",
+        "originContent": "import { createClient, ClientDef } from \"@httpc/client\";",
+        "translatedContent": "import { createClient, ClientDef } from \"@httpc/client\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "ct0vUp0ThHASTBPVWdpRLKxWI3J0It2dxHd+9h9+vGs=",
+        "originContent": "import { useQuery, useMutation } from \"react-query\";",
+        "translatedContent": "import { useQuery, useMutation } from \"react-query\";"
+      },
+      {
+        "row": 6,
+        "rowsha": "7DZZ5goUapW012CxMHTScwJXGhUT/SNzMvfl3xHj+T0=",
+        "originContent": "import type calls from \"../calls\"; // <-- import calls definition",
+        "translatedContent": "import type calls from \"../calls\"; // <-- import calls definition"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "LDZKAlUcJiACeeoqULLbNmM95pc13gTy88P9ORJBLe8=",
+        "originContent": "// create a typed client",
+        "translatedContent": "// create a typed client"
+      },
+      {
+        "row": 9,
+        "rowsha": "4U9UoNvKzsYnlw+Y28q7swAuiUBTULSzb+3r4/epdI0=",
+        "originContent": "const client = createClient<ClientDef<typeof calls>>();",
+        "translatedContent": "const client = createClient<ClientDef<typeof calls>>();"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "VWjt8FYAJ/oxgM9PLPVBK6AX5lEGPSt+gq79ddWdn8w=",
+        "originContent": "export default function Home() {",
+        "translatedContent": "export default function Home() {"
+      },
+      {
+        "row": 12,
+        "rowsha": "RT5uL7WeYQTIy4Bw84ybZaX8+4O4diloPhoTzBmG1T4=",
+        "originContent": "  const posts = useQuery([\"posts\"], () => client.posts.getLatest());",
+        "translatedContent": "  const posts = useQuery([\"posts\"], () => client.posts.getLatest());"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+        "originContent": "  return (",
+        "translatedContent": "  return ("
+      },
+      {
+        "row": 15,
+        "rowsha": "Z5cHEeyd9xihw5yHbYXeKVuVQQzNq72nJ94jQTAS3cg=",
+        "originContent": "    <div class=\"container\">",
+        "translatedContent": "    <div class=\"container\">"
+      },
+      {
+        "row": 16,
+        "rowsha": "2IHr83ip6fc5r4FhzLrtWwfh4eVAhJL1Vk+0RWt4g50=",
+        "originContent": "      {posts.data.map(post =>",
+        "translatedContent": "      {posts.data.map(post =>"
+      },
+      {
+        "row": 17,
+        "rowsha": "T7j3LSSMmzXix1ue779BDvCBKeXFI+U5M3QY71QP/M4=",
+        "originContent": "        <div class=\"post\">",
+        "translatedContent": "        <div class=\"post\">"
+      },
+      {
+        "row": 18,
+        "rowsha": "ZI5g9LqxpUjT/7lgozbteNM2Yx4gyh6mN9uh7bHb47k=",
+        "originContent": "          <h2>{post.title}</h2>",
+        "translatedContent": "          <h2>{post.title}</h2>"
+      },
+      {
+        "row": 19,
+        "rowsha": "2kbewIZxJqyUs/e6riZENS+i4svyXlHLw36ou5WBJXQ=",
+        "originContent": "          <p>{post.text}</p>",
+        "translatedContent": "          <p>{post.text}</p>"
+      },
+      {
+        "row": 20,
+        "rowsha": "nDcPvlfR0QUDx9VNqiReJj4lKw+ZQTuVfEa9aKsYUOw=",
+        "originContent": "        </div>",
+        "translatedContent": "        </div>"
+      },
+      {
+        "row": 21,
+        "rowsha": "gV7adOETyT2+tLtd1s5tf44eGAy85nh8vd3sM/ydX14=",
+        "originContent": "      )}",
+        "translatedContent": "      )}"
+      },
+      {
+        "row": 22,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 23,
+        "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+        "originContent": "  );",
+        "translatedContent": "  );"
+      },
+      {
+        "row": 24,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 25,
+        "rowsha": "9Hp7r82//dsE1kpQPN9fCl+eZmhCZr/2bZec6mdTCjI=",
+        "originContent": "```    ",
+        "translatedContent": "```    "
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n### Extensive type safety\nCustomize builtin objects to fit your needs, while keeping autocompletion and type checking working.\n\nYou can extend the request context:",
+    "ContentSha": "29qZKJFJw+lymnfvUcO0VSKbMJPi5sIRgQh22U7XpB8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Extensive type safety\nCustomize built-in objects to fit your needs, while keeping autocompletion and type checking functional.\n\nYou can extend the request context:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xf2oDmvVvEmw50MTljSXKwgL9TclBjQxDcD5LAD89OQ=",
+        "originContent": "### Extensive type safety",
+        "translatedContent": "### Extensive type safety"
+      },
+      {
+        "row": 3,
+        "rowsha": "l0zq6+AxUUYCdf6DdFMuJ7jTBV0pFANWeg5pZfoZHSg=",
+        "originContent": "Customize builtin objects to fit your needs, while keeping autocompletion and type checking working.",
+        "translatedContent": "Customize built-in objects to fit your needs, while keeping autocompletion and type checking functional."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "LFaLlFmhipavzI9MxW4foEOpDKW9GL6h1gvmXF0RloQ=",
+        "originContent": "You can extend the request context:",
+        "translatedContent": "You can extend the request context:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```ts\n/// <reference types=\"@httpc/kit/env\" />\n\ninterface IHttpCContext {\n    // example custom property\n    environment: string\n\n    // other custom properties here\n    // ...\n}\n```",
+    "ContentSha": "inu+L21MLeFWE2T/YyaGAK1F5++cEZe7SHxUxHK4bQ4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\n/// <reference types=\"@httpc/kit/env\" />\n\ninterface IHttpCContext {\n    // example custom property\n    environment: string\n\n    // other custom properties here\n    // ...\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "ReTwqEz0ovkySLiM54YnEliGl10Z/TIWMmUe45Lsx44=",
+        "originContent": "/// <reference types=\"@httpc/kit/env\" />",
+        "translatedContent": "/// <reference types=\"@httpc/kit/env\" />"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ZUZIVEx5ScPeJwjBec3IJlU0lrZyWKPgtSLJJl483J0=",
+        "originContent": "interface IHttpCContext {",
+        "translatedContent": "interface IHttpCContext {"
+      },
+      {
+        "row": 5,
+        "rowsha": "HpIUEA1UdcbCFGbGl3hjOsPBT+Tf7DKlZf92/nV79qg=",
+        "originContent": "    // example custom property",
+        "translatedContent": "    // example custom property"
+      },
+      {
+        "row": 6,
+        "rowsha": "GCXa8Jg21anC7Ga0WUM+Y+aq5if4+D5cvFJlPSa50nQ=",
+        "originContent": "    environment: string",
+        "translatedContent": "    environment: string"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "eDra0YGEmJduKgBlz2aRXU+YNuoVU4Ojg5B625JDebA=",
+        "originContent": "    // other custom properties here",
+        "translatedContent": "    // other custom properties here"
+      },
+      {
+        "row": 9,
+        "rowsha": "taDktuNB2oTs+UaEmyONoVTzlMbSXe/tldqQd/bP0uU=",
+        "originContent": "    // ...",
+        "translatedContent": "    // ..."
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "There're many entities available to extend. For example you can redefine the user object with custom properties:",
+    "ContentSha": "ho/Gp+gHmKyIB0/wFLlAoTR4UAWVeVXJdtmjtgXCKIQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "There're many entities available to extend. For example you can redefine the user object with custom properties:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ho/Gp+gHmKyIB0/wFLlAoTR4UAWVeVXJdtmjtgXCKIQ=",
+        "originContent": "There're many entities available to extend. For example you can redefine the user object with custom properties:",
+        "translatedContent": "There're many entities available to extend. For example you can redefine the user object with custom properties:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```ts\ninterface IUser {\n    firstName: string\n    lastName: string\n}\n```",
+    "ContentSha": "vCmO4o24ZWTyLDZVWJosSs2gl/psN2CquUNELTn3+ro=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\ninterface IUser {\n    firstName: string\n    lastName: string\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ph/DzxII6hpJg67Nt7AM0mPoblILQFSrki1rojN3Msk=",
+        "originContent": "interface IUser {",
+        "translatedContent": "interface IUser {"
+      },
+      {
+        "row": 3,
+        "rowsha": "1PS//+B5QPHK9H8hxYUY7Ppml+E94Th9zEIlBZ2fGd4=",
+        "originContent": "    firstName: string",
+        "translatedContent": "    firstName: string"
+      },
+      {
+        "row": 4,
+        "rowsha": "GUzJea8q7hr9bOsfo1jfXZG9WVIQc/7+g1SJe76ElJo=",
+        "originContent": "    lastName: string",
+        "translatedContent": "    lastName: string"
+      },
+      {
+        "row": 5,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "Builtin functions and hooks will get the custom definitions and let you use them with type checking.",
+    "ContentSha": "Z/i6K+nSser/ALLF89+xGtGct7mmsZNIsOb6sYzN7Pw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Built-in functions and hooks will receive the custom definitions and allow you to use them with type checking.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Z/i6K+nSser/ALLF89+xGtGct7mmsZNIsOb6sYzN7Pw=",
+        "originContent": "Builtin functions and hooks will get the custom definitions and let you use them with type checking.",
+        "translatedContent": "Built-in functions and hooks will receive the custom definitions and allow you to use them with type checking."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```ts\nconst { firstName } = useUser();\n```",
+    "ContentSha": "w+TT9UoAuCbBRbDa7ft+n/1mrNL2p4rkCmCZCZjmrH4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\nconst { firstName } = useUser();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "hmRamZURLXuuB7F/yn6tdSTMDtUPz723Fm3nUi5y9Co=",
+        "originContent": "const { firstName } = useUser();",
+        "translatedContent": "const { firstName } = useUser();"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n### Custom client generation\nWith **@httpc/cli** you can generate a specific client for your API. The generated client ensures type safety and a smooth experience with a natural syntax developers are familiar with.",
+    "ContentSha": "F7G+2xXswr4vvkHbtYUTZM5gp9K2pZ7UPfWMPARe1/k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Custom client generation\nWith **@httpc/cli** you can generate a specific client for your API. The generated client ensures type safety and a smooth experience with a natural syntax developers are familiar with.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "YHPhLKvdSTKz5P8EzPVrLNWF+or3znhnDYthfVBIoA0=",
+        "originContent": "### Custom client generation",
+        "translatedContent": "### Custom client generation"
+      },
+      {
+        "row": 3,
+        "rowsha": "tzGmwaL7/UUkCvZIQX4+/UTUOiag662BY1K1SQ4FD2E=",
+        "originContent": "With **@httpc/cli** you can generate a specific client for your API. The generated client ensures type safety and a smooth experience with a natural syntax developers are familiar with.",
+        "translatedContent": "With **@httpc/cli** you can generate a specific client for your API. The generated client ensures type safety and a smooth experience with a natural syntax developers are familiar with."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```ts\nconst user = await client.users.search(\"some@email.com\");\nconst posts = await client.posts.getByUser(user.id);\nconst newComment = await client.posts.addComment(posts[0].id, {\n    text: \"Hello\",\n    userId: user.id\n});\n```",
+    "ContentSha": "3Zl+2SdPdZVQCSD9AQvVpwb08k4NJKG1TTb3cZL0jBc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\nconst user = await client.users.search(\"some@email.com\");\nconst posts = await client.posts.getByUser(user.id);\nconst newComment = await client.posts.addComment(posts[0].id, {\n    text: \"Hello\",\n    userId: user.id\n});\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "h5szuKosBnH4Hud0jpF6RZ00KNKOvTt+JXohiCPDVio=",
+        "originContent": "const user = await client.users.search(\"some@email.com\");",
+        "translatedContent": "const user = await client.users.search(\"some@email.com\");"
+      },
+      {
+        "row": 3,
+        "rowsha": "zDE253zsq4cfvus7jH3gWw7NmIFZKqWa+IdretfkSRM=",
+        "originContent": "const posts = await client.posts.getByUser(user.id);",
+        "translatedContent": "const posts = await client.posts.getByUser(user.id);"
+      },
+      {
+        "row": 4,
+        "rowsha": "7ZvF+k1pQIIbfRuZVuWHRO9HbC2DpZUzb6sK5+lf5Uk=",
+        "originContent": "const newComment = await client.posts.addComment(posts[0].id, {",
+        "translatedContent": "const newComment = await client.posts.addComment(posts[0].id, {"
+      },
+      {
+        "row": 5,
+        "rowsha": "m3ESl5CSIN2FOU8y0KnY7vt3UqwNAmTACouTB733wR8=",
+        "originContent": "    text: \"Hello\",",
+        "translatedContent": "    text: \"Hello\","
+      },
+      {
+        "row": 6,
+        "rowsha": "SlRrVmb8QMb3KrYm05PFLiF+iU59fYQgVuDTD0fQ/ag=",
+        "originContent": "    userId: user.id",
+        "translatedContent": "    userId: user.id"
+      },
+      {
+        "row": 7,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n### Beyond httpc\nThe httpc server is not limited to function calls. It can handle browser form submissions, web hook callbacks, standard redirects… and, in general, any http request. By using `Parsers` (there're many builtin), you can customize how the server processes a request.\n\nHandling standard http requests is essential in scenarios where you don't control the client. An **httpc server** allows you to responds to both functions and common http requests.\n\n\n## httpc family\n**@httpc/server**: the httpc core component allowing function calls over the standard http protocol\n\n**@httpc/client**: typed interface used by consumers to interact safely with functions exposed by an httpc server\n\n**@httpc/kit**: rich toolbox of builtin components to manage common use cases and business concerns like authentication, validation, caching and logging\n\n**@httpc/cli**: commands to setup a project, generate clients, manage versioning and help with common tasks\n\n**@httpc/adapter-\\***: various [adapters](https://httpc.dev/docs/adapters) to host an httpc API inside environment like vercel, netlify functions, aws lambda and similar\n\n\n\n## Project status\n**httpc** is experimental. It's in its infancy stage. You can try it, adopt it in hobby projects. But it's not ready for production.\n<br />\nThe API is not stable yet. Breaking changes will happen.\n<br />\n**httpc** is under heavy development. You can checkout the [Changelog](https://httpc.dev/changelog) and the [Roadmap](https://httpc.dev/roadmap) for future features.\n\n\n## Involvement\n### Community\nYou can join on [Discord](https://httpc.dev/discord) and follow the development, discuss contributions, receive support or ask for help. Participation in [Github discussion](https://httpc.dev/discuss) is fine too.\n\n### File an Issue\nFor any bugs, feature requests or proposals you can [file an issue](https://httpc.dev/issues/new). All issues are available on [Github](https://httpc.dev/issues).\n\n### Contributing\nAll contribution are welcome. Any PR, issue and feedback is appreciated. Checkout the [contribution guide](https://httpc.dev/contribute).\n\n\n## License\nMIT © [Giuseppe La Torre](https://github.com/giuseppelt)\n",
+    "ContentSha": "JNocXYBtBw4Rzlt4WrUApGhqjv/DFVi1kdqNZ3HnPow=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Beyond httpc\nThe httpc server is not limited to function calls. It can handle browser form submissions, web hook callbacks, standard redirects… and, in general, any http request. By using `Parsers` (there're many builtin), you can customize how the server processes a request.\n\nHandling standard http requests is essential in scenarios where you don't control the client. An **httpc server** allows you to respond to both functions and common http requests.\n\n\n## httpc family\n**@httpc/server**: the httpc core component allowing function calls over the standard http protocol\n\n**@httpc/client**: typed interface used by consumers to interact safely with functions exposed by an httpc server\n\n**@httpc/kit**: rich toolbox of builtin components to manage common use cases and business concerns like authentication, validation, caching and logging\n\n**@httpc/cli**: commands to setup a project, generate clients, manage versioning and help with common tasks\n\n**@httpc/adapter-\\***: various [adapters](https://httpc.dev/docs/adapters) to host an httpc API inside environments like vercel, netlify functions, aws lambda and similar\n\n\n\n## Project status\n**httpc** is experimental. It's in its infancy stage. You can try it, adopt it in hobby projects. But it's not ready for production.\n<br />\nThe API is not stable yet. Breaking changes will happen.\n<br />\n**httpc** is under heavy development. You can check out the [Changelog](https://httpc.dev/changelog) and the [Roadmap](https://httpc.dev/roadmap) for future features.\n\n\n## Involvement\n### Community\nYou can join on [Discord](https://httpc.dev/discord) and follow the development, discuss contributions, receive support or ask for help. Participation in [Github discussion](https://httpc.dev/discuss) is fine too.\n\n### File an Issue\nFor any bugs, feature requests or proposals you can [file an issue](https://httpc.dev/issues/new). All issues are available on [Github](https://httpc.dev/issues).\n\n### Contributing\nAll contributions are welcome. Any PR, issue and feedback is appreciated. Check out the [contribution guide](https://httpc.dev/contribute).\n\n\n## License\nMIT © [Giuseppe La Torre](https://github.com/giuseppelt)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "RF9vQI7wvJ+pr2NTbVQBOjm8l9a8bwttRxod9S/rTjU=",
+        "originContent": "### Beyond httpc",
+        "translatedContent": "### Beyond httpc"
+      },
+      {
+        "row": 3,
+        "rowsha": "t2LQU4XucyEQ1cDBYTlFppJHj9nwQ9jE55U3Maq00Tg=",
+        "originContent": "The httpc server is not limited to function calls. It can handle browser form submissions, web hook callbacks, standard redirects… and, in general, any http request. By using `Parsers` (there're many builtin), you can customize how the server processes a request.",
+        "translatedContent": "The httpc server is not limited to function calls. It can handle browser form submissions, web hook callbacks, standard redirects… and, in general, any http request. By using `Parsers` (there're many builtin), you can customize how the server processes a request."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "VhtTYBazXm+sEfC8oRWMIWshjYhAVLJU1b/+Y8ZZ2XM=",
+        "originContent": "Handling standard http requests is essential in scenarios where you don't control the client. An **httpc server** allows you to responds to both functions and common http requests.",
+        "translatedContent": "Handling standard http requests is essential in scenarios where you don't control the client. An **httpc server** allows you to respond to both functions and common http requests."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Aucm1Ms4nQC4//cVH7QfgcXYl0Ae9+a/5y9HqNQTGh0=",
+        "originContent": "## httpc family",
+        "translatedContent": "## httpc family"
+      },
+      {
+        "row": 9,
+        "rowsha": "CwaAppNUf/w6glrrKu8CQeXKgGqgtfXGb98tdHqwoe8=",
+        "originContent": "**@httpc/server**: the httpc core component allowing function calls over the standard http protocol",
+        "translatedContent": "**@httpc/server**: the httpc core component allowing function calls over the standard http protocol"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Pvv0rgGSRoHAYsEHv201+ZMmI/bLE9eDSDQ781cHfKE=",
+        "originContent": "**@httpc/client**: typed interface used by consumers to interact safely with functions exposed by an httpc server",
+        "translatedContent": "**@httpc/client**: typed interface used by consumers to interact safely with functions exposed by an httpc server"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "gfB0JMqRKeUYT9SQV/uVzjejMkLuVOIV2wO6t5iwNi4=",
+        "originContent": "**@httpc/kit**: rich toolbox of builtin components to manage common use cases and business concerns like authentication, validation, caching and logging",
+        "translatedContent": "**@httpc/kit**: rich toolbox of builtin components to manage common use cases and business concerns like authentication, validation, caching and logging"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "W4Az30SR2A28NV/TE1xw6/UqZ1FB18wdt0knbB9t8G0=",
+        "originContent": "**@httpc/cli**: commands to setup a project, generate clients, manage versioning and help with common tasks",
+        "translatedContent": "**@httpc/cli**: commands to setup a project, generate clients, manage versioning and help with common tasks"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "AeaMumAkzNkM/9HDVVAQYpIoMOpNfTVY1Ynjx0EeTcc=",
+        "originContent": "**@httpc/adapter-\\***: various [adapters](https://httpc.dev/docs/adapters) to host an httpc API inside environment like vercel, netlify functions, aws lambda and similar",
+        "translatedContent": "**@httpc/adapter-\\***: various [adapters](https://httpc.dev/docs/adapters) to host an httpc API inside environments like vercel, netlify functions, aws lambda and similar"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "4h39qUY+B/Rcz8QMJZt62+lIJvT3mXwR3Mk7DXlGHDk=",
+        "originContent": "## Project status",
+        "translatedContent": "## Project status"
+      },
+      {
+        "row": 22,
+        "rowsha": "ka1Yb/ne0qMorBr9ksQ0W2kpUdjDI+7ovPYYKYUsq+c=",
+        "originContent": "**httpc** is experimental. It's in its infancy stage. You can try it, adopt it in hobby projects. But it's not ready for production.",
+        "translatedContent": "**httpc** is experimental. It's in its infancy stage. You can try it, adopt it in hobby projects. But it's not ready for production."
+      },
+      {
+        "row": 23,
+        "rowsha": "ehcYo8xYuYV7nQFLGhjTB5+eE1Gr/pDU+GS2vkLDTJ0=",
+        "originContent": "<br />",
+        "translatedContent": "<br />"
+      },
+      {
+        "row": 24,
+        "rowsha": "7Mpr26+n7UjvGvfMkb84M/OF3wHQphPTXutqw98wvXI=",
+        "originContent": "The API is not stable yet. Breaking changes will happen.",
+        "translatedContent": "The API is not stable yet. Breaking changes will happen."
+      },
+      {
+        "row": 25,
+        "rowsha": "ehcYo8xYuYV7nQFLGhjTB5+eE1Gr/pDU+GS2vkLDTJ0=",
+        "originContent": "<br />",
+        "translatedContent": "<br />"
+      },
+      {
+        "row": 26,
+        "rowsha": "MbjHawrKBLeGTAZMmrRoDRBUby7EyURSZFaHl/DTApM=",
+        "originContent": "**httpc** is under heavy development. You can checkout the [Changelog](https://httpc.dev/changelog) and the [Roadmap](https://httpc.dev/roadmap) for future features.",
+        "translatedContent": "**httpc** is under heavy development. You can check out the [Changelog](https://httpc.dev/changelog) and the [Roadmap](https://httpc.dev/roadmap) for future features."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "jUaM/OENJitwPaWjN3NBxHkaYFrkw/GCgf2Jj4sWKWE=",
+        "originContent": "## Involvement",
+        "translatedContent": "## Involvement"
+      },
+      {
+        "row": 30,
+        "rowsha": "ScS5c8WOjZFgskLCGukUlsh1nMqmde1C6a2UmPC+n5E=",
+        "originContent": "### Community",
+        "translatedContent": "### Community"
+      },
+      {
+        "row": 31,
+        "rowsha": "DCy3ijk32zAF5s9Yo5FrQ+hX7FdUgJiScaX+PcLtRrg=",
+        "originContent": "You can join on [Discord](https://httpc.dev/discord) and follow the development, discuss contributions, receive support or ask for help. Participation in [Github discussion](https://httpc.dev/discuss) is fine too.",
+        "translatedContent": "You can join on [Discord](https://httpc.dev/discord) and follow the development, discuss contributions, receive support or ask for help. Participation in [Github discussion](https://httpc.dev/discuss) is fine too."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "AEZR1eB2VdNaRfUKs8j1jVhvvCB+tCpVXyDVJ44yPS8=",
+        "originContent": "### File an Issue",
+        "translatedContent": "### File an Issue"
+      },
+      {
+        "row": 34,
+        "rowsha": "Gay4FXHkaNfuW3RYyB79pP0VGSLxolLT4LC6VUwEw5w=",
+        "originContent": "For any bugs, feature requests or proposals you can [file an issue](https://httpc.dev/issues/new). All issues are available on [Github](https://httpc.dev/issues).",
+        "translatedContent": "For any bugs, feature requests or proposals you can [file an issue](https://httpc.dev/issues/new). All issues are available on [Github](https://httpc.dev/issues)."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "5ww9yAUhltb679bzey3v6rRmdriJbfvnrASADmXR90c=",
+        "originContent": "### Contributing",
+        "translatedContent": "### Contributing"
+      },
+      {
+        "row": 37,
+        "rowsha": "xRXjg8EZBfYX5U0tFdh/7sEFJ2mH//8vANF+CHPzC3A=",
+        "originContent": "All contribution are welcome. Any PR, issue and feedback is appreciated. Checkout the [contribution guide](https://httpc.dev/contribute).",
+        "translatedContent": "All contributions are welcome. Any PR, issue and feedback is appreciated. Check out the [contribution guide](https://httpc.dev/contribute)."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## License"
+      },
+      {
+        "row": 41,
+        "rowsha": "srZu3ALjCwCFdcyssNYXgOYYhkJAmSV0wmEdWbtZ8G0=",
+        "originContent": "MIT © [Giuseppe La Torre](https://github.com/giuseppelt)",
+        "translatedContent": "MIT © [Giuseppe La Torre](https://github.com/giuseppelt)"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

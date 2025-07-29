@@ -1,0 +1,812 @@
+[
+  {
+    "row": 1,
+    "rowsha": "dSNZOLOR8Pu6Nn0ytlRjm13XNWeAU029OLroyPmkd/U=",
+    "originContent": "# SLT - A Common Lisp Language Plugin for Jetbrains IDE lineup",
+    "translatedContent": "# SLT - Jetbrains IDE 系列的 Common Lisp 语言插件"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "bGPiuhCPR6dEyT3tVv0CL2RKzwGcQekcaV6MmTzdqcI=",
+    "originContent": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/Enerccio/SLT)",
+    "translatedContent": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/Enerccio/SLT)"
+  },
+  {
+    "row": 4,
+    "rowsha": "lE6gH0uXe79NiQdOOKW2dbN/SuEN/JI3fJnHFF6FuHk=",
+    "originContent": "[![Version](https://img.shields.io/jetbrains/plugin/v/21132-slt.svg)](https://plugins.jetbrains.com/plugin/21132-slt)",
+    "translatedContent": "[![Version](https://img.shields.io/jetbrains/plugin/v/21132-slt.svg)](https://plugins.jetbrains.com/plugin/21132-slt)"
+  },
+  {
+    "row": 5,
+    "rowsha": "teB1Fuin7RmhtYqtG/AkBuv4ZpXRSfRHtML9QP6qyJo=",
+    "originContent": "![JetBrains plugins](https://img.shields.io/jetbrains/plugin/d/21132)",
+    "translatedContent": "![JetBrains plugins](https://img.shields.io/jetbrains/plugin/d/21132)"
+  },
+  {
+    "row": 6,
+    "rowsha": "p3/Xat8lzqHJ8o67w3+4E1Izq6sRTyddU358cvq6vic=",
+    "originContent": "![GitHub Release Date](https://img.shields.io/github/release-date/Enerccio/SLT)",
+    "translatedContent": "![GitHub Release Date](https://img.shields.io/github/release-date/Enerccio/SLT)"
+  },
+  {
+    "row": 7,
+    "rowsha": "o1hmbRj65v51wJK1u040Xki9iv9l9lW9KQSGIeez1YI=",
+    "originContent": "![OSS Lifecycle](https://img.shields.io/osslifecycle/Enerccio/SLT)",
+    "translatedContent": "![OSS Lifecycle](https://img.shields.io/osslifecycle/Enerccio/SLT)"
+  },
+  {
+    "row": 8,
+    "rowsha": "ooUTy14siCtYVMXXOAT5Df4BjZ+turNNAoNhmG8WoN8=",
+    "originContent": "![GitHub](https://img.shields.io/github/license/Enerccio/SLT)",
+    "translatedContent": "![GitHub](https://img.shields.io/github/license/Enerccio/SLT)"
+  },
+  {
+    "row": 9,
+    "rowsha": "rX4nqy/hGhhIw1bMM2WKW9nwJmxza/446r8j0jp5QQQ=",
+    "originContent": "![GitHub lisp counter](https://img.shields.io/github/search/Enerccio/SLT/lisp)",
+    "translatedContent": "![GitHub lisp counter](https://img.shields.io/github/search/Enerccio/SLT/lisp)"
+  },
+  {
+    "row": 10,
+    "rowsha": "3zh5hZuObVQ8Wdtr0bxGE2SDS1NHC06WdnH+tjIUdDw=",
+    "originContent": "[![0.1.0](https://badgen.net/github/milestones/enerccio/SLT/1)](https://github.com/enerccio/SLT/milestone/1)",
+    "translatedContent": "[![0.1.0](https://badgen.net/github/milestones/enerccio/SLT/1)](https://github.com/enerccio/SLT/milestone/1)"
+  },
+  {
+    "row": 11,
+    "rowsha": "12LhlJaNExOSRl3YOXUZkqBTK5z78g/CNFrhkISc4f0=",
+    "originContent": "[![0.2.0](https://badgen.net/github/milestones/enerccio/SLT/2)](https://github.com/enerccio/SLT/milestone/2)",
+    "translatedContent": "[![0.2.0](https://badgen.net/github/milestones/enerccio/SLT/2)](https://github.com/enerccio/SLT/milestone/2)"
+  },
+  {
+    "row": 12,
+    "rowsha": "Vg4B0LBPiUvxz5hQlr7PseGxWn+bNdb0cZa+4dL6Lc8=",
+    "originContent": "[![0.3.0](https://badgen.net/github/milestones/enerccio/SLT/4)](https://github.com/enerccio/SLT/milestone/4)",
+    "translatedContent": "[![0.3.0](https://badgen.net/github/milestones/enerccio/SLT/4)](https://github.com/enerccio/SLT/milestone/4)"
+  },
+  {
+    "row": 13,
+    "rowsha": "S548fDOrPjCAv5ymbrFJPvRLoGgm/OPQATqwQU4NZ7s=",
+    "originContent": "[![0.4.0](https://badgen.net/github/milestones/enerccio/SLT/5)](https://github.com/enerccio/SLT/milestone/5)",
+    "translatedContent": "[![0.4.0](https://badgen.net/github/milestones/enerccio/SLT/5)](https://github.com/enerccio/SLT/milestone/5)"
+  },
+  {
+    "row": 14,
+    "rowsha": "Oieqvym7tMmr+aVIbKtEx6BNG4x8Obw9ecJNSBmdAVE=",
+    "originContent": "[![0.5.0](https://badgen.net/github/milestones/enerccio/SLT/6)](https://github.com/enerccio/SLT/milestone/6)",
+    "translatedContent": "[![0.5.0](https://badgen.net/github/milestones/enerccio/SLT/6)](https://github.com/enerccio/SLT/milestone/6)"
+  },
+  {
+    "row": 15,
+    "rowsha": "EVNkeis/U+CQVS8xZL60k+Xkqj64ccEZn408IiRChGU=",
+    "originContent": "![GitHub all releases](https://img.shields.io/github/downloads/Enerccio/SLT/total)",
+    "translatedContent": "![GitHub all releases](https://img.shields.io/github/downloads/Enerccio/SLT/total)"
+  },
+  {
+    "row": 16,
+    "rowsha": "ivOJxkzAREAhPeEFcTseEbsPy7DvFKTOO4zaF0bjLrs=",
+    "originContent": "![GitHub last commit](https://img.shields.io/github/last-commit/Enerccio/SLT)",
+    "translatedContent": "![GitHub last commit](https://img.shields.io/github/last-commit/Enerccio/SLT)"
+  },
+  {
+    "row": 17,
+    "rowsha": "XxqG4ifHuELz9eINP3mqbq9+UOBTgjnts3eS91i2/AQ=",
+    "originContent": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Enerccio/SLT)",
+    "translatedContent": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Enerccio/SLT)"
+  },
+  {
+    "row": 18,
+    "rowsha": "lWqBoJfeK0Ar3jdgTdesDqdk8jntI9TwjbY7Pp+W4F8=",
+    "originContent": "![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Enerccio/SLT)",
+    "translatedContent": "![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Enerccio/SLT)"
+  },
+  {
+    "row": 19,
+    "rowsha": "g/tZbkATCLiAs7DQK/Iq/+uU+1RQFz18xA1pNBhaRQU=",
+    "originContent": "![Lines of code](https://img.shields.io/tokei/lines/github/Enerccio/SLT)",
+    "translatedContent": "![Lines of code](https://img.shields.io/tokei/lines/github/Enerccio/SLT)"
+  },
+  {
+    "row": 20,
+    "rowsha": "lfybQZV264raXdVa5RTECKP9dct+PEBH0i6oO2FQsKM=",
+    "originContent": "![GitHub top language](https://img.shields.io/github/languages/top/Enerccio/SLT)",
+    "translatedContent": "![GitHub top language](https://img.shields.io/github/languages/top/Enerccio/SLT)"
+  },
+  {
+    "row": 21,
+    "rowsha": "FrSrfak68B6FyeJmzFfe6j+lfC9rmxD9bcAnrSTZ5Ck=",
+    "originContent": "[![(want-to-support-me? T NIL)](https://img.shields.io/liberapay/receives/Enerccio.svg?logo=liberapay)](https://liberapay.com/Enerccio)",
+    "translatedContent": "[![(want-to-support-me? T NIL)](https://img.shields.io/liberapay/receives/Enerccio.svg?logo=liberapay)](https://liberapay.com/Enerccio)"
+  },
+  {
+    "row": 22,
+    "rowsha": "rq8INRDf7XIGclREurGlyZekhB2vTrJ8yXqHEg+3Ywo=",
+    "originContent": "![Liberapay patrons](https://img.shields.io/liberapay/patrons/Enerccio)",
+    "translatedContent": "![Liberapay patrons](https://img.shields.io/liberapay/patrons/Enerccio)"
+  },
+  {
+    "row": 23,
+    "rowsha": "997V8HJjp9JyET0qOsAq91wfiQ9w4ycVQcPpMzlQtvI=",
+    "originContent": "[![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Denerccio%26type%3Dpledges&style=flat)](https://patreon.com/enerccio)[![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Denerccio%26type%3Dpatrons&style=flat)](https://patreon.com/enerccio)",
+    "translatedContent": "[![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Denerccio%26type%3Dpledges&style=flat)](https://patreon.com/enerccio)[![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Denerccio%26type%3Dpatrons&style=flat)](https://patreon.com/enerccio)"
+  },
+  {
+    "row": 24,
+    "rowsha": "+sbVGyvdTHgU/XY5nq7T0Q3NQAcgTpLELAenpc6t1i8=",
+    "originContent": "![Maintenance](https://img.shields.io/maintenance/yes/2023)",
+    "translatedContent": "![Maintenance](https://img.shields.io/maintenance/yes/2023)"
+  },
+  {
+    "row": 25,
+    "rowsha": "taNP1VvBzBQOA8GQMWit2Bb0vnUlqyRRlDJY+5icBPk=",
+    "originContent": "![GitHub issues](https://img.shields.io/github/issues/Enerccio/SLT)",
+    "translatedContent": "![GitHub issues](https://img.shields.io/github/issues/Enerccio/SLT)"
+  },
+  {
+    "row": 26,
+    "rowsha": "AHiXt/eJeZLa5TGt9ccK3WLfVK7zlFXi3zOAgQ7xHls=",
+    "originContent": "![GitHub branch checks state](https://img.shields.io/github/checks-status/Enerccio/SLT/master)",
+    "translatedContent": "![GitHub branch checks state](https://img.shields.io/github/checks-status/Enerccio/SLT/master)"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "Vjg/FdoN/1+knYlrKO9S9B4W7HU+9BWh7Hj9YU6GW/0=",
+    "originContent": "[![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/SLT_IDE?style=social)](https://old.reddit.com/r/SLT_IDE/)",
+    "translatedContent": "[![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/SLT_IDE?style=social)](https://old.reddit.com/r/SLT_IDE/)"
+  },
+  {
+    "row": 29,
+    "rowsha": "3Bk9Duhk8qgeGWUtqjTuX2d5JoiY3yEJ4Z71PGJki9M=",
+    "originContent": "![GitHub forks](https://img.shields.io/github/forks/Enerccio/SLT?style=social)",
+    "translatedContent": "![GitHub forks](https://img.shields.io/github/forks/Enerccio/SLT?style=social)"
+  },
+  {
+    "row": 30,
+    "rowsha": "qubbHAKU7gJgiRjiS377QHBIoi2rvFSZb/WQPZTLKQA=",
+    "originContent": "![GitHub Repo stars](https://img.shields.io/github/stars/Enerccio/SLT?style=social)",
+    "translatedContent": "![GitHub Repo stars](https://img.shields.io/github/stars/Enerccio/SLT?style=social)"
+  },
+  {
+    "row": 31,
+    "rowsha": "oyfbu0urFZD97ZeWsxqntYLYTHgwzn9dGjbUfM8Hb8w=",
+    "originContent": "![GitHub watchers](https://img.shields.io/github/watchers/Enerccio/SLT?style=social)",
+    "translatedContent": "![GitHub watchers](https://img.shields.io/github/watchers/Enerccio/SLT?style=social)"
+  },
+  {
+    "row": 32,
+    "rowsha": "+5JK2KDWvT8YtTepdhagvKoqZnJoSt1Y9D5Jm6bLF6k=",
+    "originContent": "[![Join the chat at https://gitter.im/SLT-Plugin/community](https://badges.gitter.im/SLT-Plugin/Lobby.svg)](https://gitter.im/SLT-Plugin/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+    "translatedContent": "[![Join the chat at https://gitter.im/SLT-Plugin/community](https://badges.gitter.im/SLT-Plugin/Lobby.svg)](https://gitter.im/SLT-Plugin/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+  },
+  {
+    "row": 33,
+    "rowsha": "0Y/dZEfuTiNXwnW/8jT48kaOl4h3y99UtrBoDI2pbV0=",
+    "originContent": "![GitHub Discussions](https://img.shields.io/github/discussions/Enerccio/SLT)",
+    "translatedContent": "![GitHub Discussions](https://img.shields.io/github/discussions/Enerccio/SLT)"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "DhlcKDkq4rXFYBYpgbXU4Iteiu5cKLMGH9sf1BKloMU=",
+    "originContent": "![Image](https://raw.githubusercontent.com/Enerccio/SLT/master/src/main/resources/logo/logo.svg)",
+    "translatedContent": "![Image](https://raw.githubusercontent.com/Enerccio/SLT/master/src/main/resources/logo/logo.svg)"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "vHrO8CerpQZLlq4iqMR6/bs43PiCwCMMum4XJx0/6+g=",
+    "originContent": "**THIS PLUGIN IS EXPERIMENTAL and can crash at any time! Please report all bugs!**",
+    "translatedContent": "**此插件为实验性质，可能随时崩溃！请报告所有错误！**"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "U0dSsgUfqx7G6GsiWOr2SPgMqo/9kYwNt3UqFhbibG4=",
+    "originContent": "This plugin is providing support for Common Lisp for JetBrains IDEs. ",
+    "translatedContent": "此插件为 JetBrains IDE 提供 Common Lisp 支持。  "
+  },
+  {
+    "row": 40,
+    "rowsha": "0j9NSEG9wUOeFml2p537ZFv7LY493W4hMPGAjWCjvEw=",
+    "originContent": "Using modified SLIME/Swank protocol to communicate with lisp interpret providing ",
+    "translatedContent": "使用修改过的 SLIME/Swank 协议与 Lisp 解释器通信，  "
+  },
+  {
+    "row": 41,
+    "rowsha": "IDOfEB2FypULPVbdhO+2g2qBNnuhzQkn9aYgWX2Mofo=",
+    "originContent": "IDE capabilities for Common Lisp.",
+    "translatedContent": "为 Common Lisp 提供 IDE 功能。"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "4ZeYymhVoyU/9s3lxQVmxWdlAxcRVf4NKIOOp9ZbXAI=",
+    "originContent": "# (Somewhat) Detailed Installation and Usage Guide",
+    "translatedContent": "# （较为）详细的安装与使用指南"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "1aXDtTTvr8yPlIx9/FAZrQnj5HjzN/sDD9RozmQauS0=",
+    "originContent": "You can now download the plugin from marketplace! https://plugins.jetbrains.com/plugin/21132-slt",
+    "translatedContent": "您现在可以从市场下载该插件！https://plugins.jetbrains.com/plugin/21132-slt"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "pXqJi2YFCQnrF25mktqJSgu0MctP4dSk9LxFVADmMH8=",
+    "originContent": "https://github.com/Enerccio/SLT/wiki/User-Guide",
+    "translatedContent": "https://github.com/Enerccio/SLT/wiki/User-Guide"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": "## 要求"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "w5BJzb8jYnTuIjpa6eQFDTUIC5o+AImnbZOpJDDDWRc=",
+    "originContent": "1) Intellij based IDE - tested on `Intellij Idea Community/Ultimate` but should work on all major IDEs",
+    "translatedContent": "1) 基于 Intellij 的 IDE - 已在 `Intellij Idea Community/Ultimate` 测试，但应支持所有主流 IDE  "
+  },
+  {
+    "row": 52,
+    "rowsha": "Itd+l1KdyJJnMsBX+Oy/lXa+EC+1odTbpsEWGagtddA=",
+    "originContent": "   1) Versions supported are from 2022.2 and upwards ",
+    "translatedContent": "   1) 支持版本为 2022.2 及以上  "
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "0qyRCgrR2SQsW3WuRUr8Jg0+M8ly+YOJ7fCVh4QYr3U=",
+    "originContent": "Optionally (see more - guide):",
+    "translatedContent": "可选（详见指南）："
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "0kRYCD9J/ubR4KBu4VhbYzo/OXmUa9fmVzjGg6fcylY=",
+    "originContent": "1) One of the supported LISP Interprets installed:",
+    "translatedContent": "1) 安装以下之一的支持的 LISP 解释器：  "
+  },
+  {
+    "row": 57,
+    "rowsha": "xKOHej81qyIHP+04lHvH3i3rJjtZgE2nJyHnT5msHGo=",
+    "originContent": "   * [Steel Bank Common Lisp](https://www.sbcl.org/)",
+    "translatedContent": "   * [Steel Bank Common Lisp](https://www.sbcl.org/)  "
+  },
+  {
+    "row": 58,
+    "rowsha": "mtsJcXfDGhkjD0QjQb44l1x3W1AOqWraN1uI1jdPE/E=",
+    "originContent": "   * [Armed Bear Common Lisp](https://armedbear.common-lisp.dev/)",
+    "translatedContent": "   * [Armed Bear Common Lisp](https://armedbear.common-lisp.dev/)  "
+  },
+  {
+    "row": 59,
+    "rowsha": "ZhNIU6JVmIw5E3ybGcN23i6A7d0qkpVFN1lBlRN5LK0=",
+    "originContent": "   * [Clozure Common Lisp](https://ccl.clozure.com/)",
+    "translatedContent": "   * [Clozure Common Lisp](https://ccl.clozure.com/)  "
+  },
+  {
+    "row": 60,
+    "rowsha": "Y7Q01RTifygOE2BwL4qVjSWD6UB+H+PKFLfGgp5pUhY=",
+    "originContent": "   * [Allegro CL](https://franz.com/products/allegro-common-lisp/)",
+    "translatedContent": "   * [Allegro CL](https://franz.com/products/allegro-common-lisp/)  "
+  },
+  {
+    "row": 61,
+    "rowsha": "bT6MdRHxRXNmmuTDdEVxo+LTBcAZf8a9+LSqfm4u5go=",
+    "originContent": "   * [CMUCL](https://www.cons.org/cmucl/)",
+    "translatedContent": "   * [CMUCL](https://www.cons.org/cmucl/)  "
+  },
+  {
+    "row": 62,
+    "rowsha": "2uEpS8Nl9MUgBZl88rwVBOvplMzLkNttqpM/fO+MXcU=",
+    "originContent": "2) [Quicklisp](https://www.quicklisp.org/beta/) installed",
+    "translatedContent": "2) 安装 [Quicklisp](https://www.quicklisp.org/beta/)"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "9DNSZO/y5WW5m/9D92m1iM/qv0SS8eKXl84LJTzh8cs=",
+    "originContent": "(Not all features work with all interprets, see [FEATURES.md](https://raw.githubusercontent.com/Enerccio/SLT/master/FEATURES.md) for more info!)",
+    "translatedContent": "（并非所有功能对所有解释器均可用，详见 [FEATURES.md](https://raw.githubusercontent.com/Enerccio/SLT/master/FEATURES.md)）"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "eetlngBf9IRRYZknBdo+Zo5q71Wk5hbFmnHDAzfrtps=",
+    "originContent": "## Getting started",
+    "translatedContent": "## 入门"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "NdpypmpGqWxIO3+ILXB0UjmcCu3SIZ/TIvTjbxxgGFs=",
+    "originContent": "See https://github.com/Enerccio/SLT/wiki/User-Guide#plugin-installation",
+    "translatedContent": "参见 https://github.com/Enerccio/SLT/wiki/User-Guide#plugin-installation"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "1mmr0JyhAdMxVgdhbllKta1LUtgmYjhE9/fxNzMjxdY=",
+    "originContent": "## Plugin options",
+    "translatedContent": "## 插件选项"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "hikSMJfovBWuMTzHCB9bilz2oJKdVY9x+/azz/6FYWk=",
+    "originContent": "- See guide above for SDK",
+    "translatedContent": "- SDK 参见上面指南  "
+  },
+  {
+    "row": 73,
+    "rowsha": "3YcnvK3gUdH9ZUshjgPp5+lwLj/pSuZPjAa1EWf75Hg=",
+    "originContent": "- For changing colors https://github.com/Enerccio/SLT/wiki/User-Guide#change-colors-of-elements",
+    "translatedContent": "- 更改颜色 https://github.com/Enerccio/SLT/wiki/User-Guide#change-colors-of-elements  "
+  },
+  {
+    "row": 74,
+    "rowsha": "PdLo+ZNlwa+yFCI/LYdZXNLeY+ldC0W6vrxWUQWUtMY=",
+    "originContent": "- For changing indent https://github.com/Enerccio/SLT/wiki/User-Guide#change-indentation-settings",
+    "translatedContent": "- 更改缩进 https://github.com/Enerccio/SLT/wiki/User-Guide#change-indentation-settings"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "YTA8fWeIlClQXjHZKUnyJFfQTyJ86FB3ve7QNxajoZc=",
+    "originContent": "## Compiling source",
+    "translatedContent": "## 编译源码"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "bBekBrOA7+bCBRBjpsNLAVhCYZm0CrWaqvpEDsDyocI=",
+    "originContent": "Clone the repository and change gradle.properties for your IDE. ",
+    "translatedContent": "克隆仓库并修改 gradle.properties 以适配您的 IDE。  "
+  },
+  {
+    "row": 79,
+    "rowsha": "AL/azHVjapE0zRT497PiSBQ86qJ+y4lBcOoRNBPMuAI=",
+    "originContent": "Then use gradle to build the plugin. ",
+    "translatedContent": "然后使用 gradle 构建插件。  "
+  },
+  {
+    "row": 80,
+    "rowsha": "tFXNWDH+n/9OssoQZ7HVE2Mdr9FUiPwf1Wj97JX4dC4=",
+    "originContent": "You can also open this as a project in Intellij Idea.",
+    "translatedContent": "您也可以在 Intellij Idea 中将其作为项目打开。"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "uh66r/uFx+vyodVshn5/Dcqx0wOzZPpGu3izIDZOxOE=",
+    "originContent": "## Planned features / goals",
+    "translatedContent": "## 计划功能 / 目标"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "0vmMteebigGXQ4xRsJjWrhIvDu8cQAu2H21vz/DxOYY=",
+    "originContent": "* [x] Upload to marketplace when it has enough features",
+    "translatedContent": "* [x] 功能完善后上传市场  "
+  },
+  {
+    "row": 85,
+    "rowsha": "kUyQIbBktVAd40HsFVlxWt6Q79tsxCLH/uJRDEheSy0=",
+    "originContent": "* [x] Automatic indentation",
+    "translatedContent": "* [x] 自动缩进  "
+  },
+  {
+    "row": 86,
+    "rowsha": "8Iv+gKxsTt1YXxcvnDDh5lU2Qj4Zs4qrxR6X86ntpjY=",
+    "originContent": "* [x] REPL",
+    "translatedContent": "* [x] REPL  "
+  },
+  {
+    "row": 87,
+    "rowsha": "2AuQ3IIHk98uKfu6DS4wOCCb8obCq256cy97hT7GbG0=",
+    "originContent": "  * [x] REPL return inspection",
+    "translatedContent": "  * [x] REPL 返回值检查  "
+  },
+  {
+    "row": 88,
+    "rowsha": "pmYvLcXXMpCyj7A2q47usC7/Qo/oIhite4cEL+cgHUc=",
+    "originContent": "* [x] Interactive debugging",
+    "translatedContent": "* [x] 交互式调试  "
+  },
+  {
+    "row": 89,
+    "rowsha": "iDMJNqLqtZ0lYLHSGhnNjBB18UmIjC9PJkWUI/vdNyg=",
+    "originContent": "* [x] Argument help (Ctrl+P)",
+    "translatedContent": "* [x] 参数帮助（Ctrl+P）  "
+  },
+  {
+    "row": 90,
+    "rowsha": "tyoggQhE+6ETBQs+lbMgcizFJEvTgnFeTUAErZG6/No=",
+    "originContent": "* [x] Inspection",
+    "translatedContent": "* [x] 检查  "
+  },
+  {
+    "row": 91,
+    "rowsha": "bZuxf+x4EsE8HD3xgSDi3i5xc9H++MLJThIgMUBeKgk=",
+    "originContent": "  * [x] Basic inspection",
+    "translatedContent": "  * [x] 基础检查  "
+  },
+  {
+    "row": 92,
+    "rowsha": "ClnyXD8vLBvMsWbXFOEmaL9NdA8wLy2XvFpZW+WgKUQ=",
+    "originContent": "  * [x] Actions",
+    "translatedContent": "  * [x] 操作  "
+  },
+  {
+    "row": 93,
+    "rowsha": "GucK/sCDfLSC7SY5daj7GsS3uapNSF736FH3yMZhPHE=",
+    "originContent": "  * [x] Symbol inspector",
+    "translatedContent": "  * [x] 符号检查器  "
+  },
+  {
+    "row": 94,
+    "rowsha": "9WT9Pqwb3kn/l14RFSlrboewn64vQ/hq4gUl3jXzFmI=",
+    "originContent": "  * [ ] Inspection eval",
+    "translatedContent": "  * [ ] 检查执行  "
+  },
+  {
+    "row": 95,
+    "rowsha": "SgCXf2CHau6NoowA5JrsuK4QkSD6AWo8OMulrp3hZ30=",
+    "originContent": "* [x] Breakpoints",
+    "translatedContent": "* [x] 断点  "
+  },
+  {
+    "row": 96,
+    "rowsha": "FaD2emezgvBC8CjBLABRPFsDmoHceHYjthEoPYIBsfE=",
+    "originContent": "* [x] Documentation ",
+    "translatedContent": "* [x] 文档  "
+  },
+  {
+    "row": 97,
+    "rowsha": "mbLOwYblkBuaURTPrTuMmZktl/BOlkfPbjieabvonp4=",
+    "originContent": "  * [x] Hyperspec intergration",
+    "translatedContent": "  * [x] Hyperspec 集成  "
+  },
+  {
+    "row": 98,
+    "rowsha": "PMV39arnE/jp7r8FRzIotyTqFPSf74i5IBSw1Ytil/c=",
+    "originContent": "* [x] Macro expand (all, 1, normal)",
+    "translatedContent": "* [x] 宏展开（全部、单个、普通）  "
+  },
+  {
+    "row": 99,
+    "rowsha": "qH9MZf/lSgW/zstrzk6BWWYIbyyHku9f99wgyCV8Ejo=",
+    "originContent": "* [x] Find function by symbol name",
+    "translatedContent": "* [x] 通过符号名查找函数  "
+  },
+  {
+    "row": 100,
+    "rowsha": "rRWTI/IvEpQF/XklTg0r7hvCZZmXc0i3smPAjpKx20s=",
+    "originContent": "* [x] Search for symbols",
+    "translatedContent": "* [x] 符号搜索"
+  },
+  {
+    "row": 101,
+    "rowsha": "+obDgxFm4HyCG+soMg3yTGV6VJWcrzxdiaahfmsL57Q=",
+    "originContent": "* [x] Back references ",
+    "translatedContent": "* [x] 反向引用  "
+  },
+  {
+    "row": 102,
+    "rowsha": "eEeVts5Y9C1isulvbAEAXxO0RCxQlfxkTg4aAb9tUfo=",
+    "originContent": "* [x] Rainbow braces",
+    "translatedContent": "* [x] 彩虹括号  "
+  },
+  {
+    "row": 103,
+    "rowsha": "DEIncFRF5808TnQbw91zu+8S2mjucskscaLrI3Andes=",
+    "originContent": "* [ ] Refactoring",
+    "translatedContent": "* [ ] 重构  "
+  },
+  {
+    "row": 104,
+    "rowsha": "tZNUmDYEKTuSNbEIw4El0a0JtGS39FkGmpDr2zk1fmc=",
+    "originContent": "  * [x] Extracting lambda to function",
+    "translatedContent": "  * [x] 将 lambda 提取为函数  "
+  },
+  {
+    "row": 105,
+    "rowsha": "J+UtxuvfIj/gCTfVmA6iNiSxa49k+Fq4B23DoLMZduo=",
+    "originContent": "* [ ] List of quicklisp installed packages / ASDF packages",
+    "translatedContent": "* [ ] quicklisp 安装包列表 / ASDF 包列表  "
+  },
+  {
+    "row": 106,
+    "rowsha": "oCRBGoMuE0KDpsLhDSueFiygn0BlXmNw0OUTwjMxMo0=",
+    "originContent": "* [ ] List of modified top level forms that are yet to be evaluated",
+    "translatedContent": "* [ ] 尚未评估的修改顶级形式列表  "
+  },
+  {
+    "row": 107,
+    "rowsha": "n3qbarpVK/Rn9pdabAFR2GzPIPi+bkab9rR+KuIuEh0=",
+    "originContent": "* [ ] Actually make an IDE, ie just plugin with dependencies as one application, not a plugin",
+    "translatedContent": "* [ ] 实际制作一个 IDE，即将插件和依赖作为一个应用，而不是插件  "
+  },
+  {
+    "row": 108,
+    "rowsha": "XUfPxwWdtYPQ75o3aq5aWs2a9voz3mILkKuDXGJMzSw=",
+    "originContent": "* [x] SDK Support",
+    "translatedContent": "* [x] SDK 支持  "
+  },
+  {
+    "row": 109,
+    "rowsha": "bItIPYdlLgY+s41jQibT+Cy6qzNtmtrerAdNAsIAELI=",
+    "originContent": "    * not a true SDK because that is only available in Intellij and not in  (for instance) PyCharm, thus",
+    "translatedContent": "    * 不是真正的 SDK，因为只有在 Intellij 中可用，而不是（例如）PyCharm，因此  "
+  },
+  {
+    "row": 110,
+    "rowsha": "ChAYsASgfNdlEQjjONWhGp/Y5pDwFgpCofRIyr9nvDE=",
+    "originContent": "      this is implemented manually.",
+    "translatedContent": "      这是手动实现的。  "
+  },
+  {
+    "row": 111,
+    "rowsha": "xwK5BOZkEJR1T08TorTa/E4ZWal68fZBoOUIisI92cI=",
+    "originContent": "    * [x] Download SBCL and quicklisp for user",
+    "translatedContent": "    * [x] 为用户下载 SBCL 和 quicklisp  "
+  },
+  {
+    "row": 112,
+    "rowsha": "4Sr2BCvj0TnKwo21EL4PlFmWkAXLbW/rl5P0QcaJ7+0=",
+    "originContent": "* [x] Automatic download of lisp interpret and quicklisp",
+    "translatedContent": "* [x] 自动下载 lisp 解释器和 quicklisp  "
+  },
+  {
+    "row": 113,
+    "rowsha": "TeAeqMZScY+EzR4z8qW/ddE2uNrKXALX/7SsHB9pXss=",
+    "originContent": "* [x] Different lisp interpreter support",
+    "translatedContent": "* [x] 支持不同的 lisp 解释器  "
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 许可证  "
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "pUDDJ5wcpndoVNBme7Kh7H2ZJRdxX4O74PBgsQFaJNw=",
+    "originContent": "This project is licensed under [Apache License v2](https://raw.githubusercontent.com/Enerccio/SLT/master/LICENSE.txt).",
+    "translatedContent": "本项目采用 [Apache License v2](https://raw.githubusercontent.com/Enerccio/SLT/master/LICENSE.txt) 许可。  "
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "F2ab6bIJ02qGajgy2jhaLHIearaYbakM15CY33kiXpg=",
+    "originContent": "# How to help?",
+    "translatedContent": "# 如何帮助？  "
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "lvuUUvBx55usVmE2NsYgLdXkxLNXGavkgurR2os2SVY=",
+    "originContent": "* Please install the plugin and try it out!",
+    "translatedContent": "* 请安装插件并试用！  "
+  },
+  {
+    "row": 122,
+    "rowsha": "gIrqm6497pVGDtlTIBJ0F2Qtrqacre2W+ZvU+XaKlPs=",
+    "originContent": "* Report all bugs so I can catch them all. Click [here](https://github.com/enerccio/SLT/issues/new) to report.",
+    "translatedContent": "* 报告所有错误，以便我能全部捕捉。点击[这里](https://github.com/enerccio/SLT/issues/new)报告。  "
+  },
+  {
+    "row": 123,
+    "rowsha": "sGpNmLGX7yPGQzsUk4vEu+L1P+rhS+h/disvKxYzrMU=",
+    "originContent": "* If you like the project, consider starring it or spreading info about it",
+    "translatedContent": "* 如果你喜欢这个项目，考虑给它点星或者传播信息。  "
+  },
+  {
+    "row": 124,
+    "rowsha": "wb+Z98uMLEiRI/X2lf80KGFfaSLl4rxIgg5U+OAmwBg=",
+    "originContent": "* This project is OSS so if you have knowledge and want to implement something you can fork the repo and then create PR!",
+    "translatedContent": "* 该项目是开源软件，如果你有相关知识并想实现某些功能，可以 fork 仓库并创建 PR！  "
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "x/kHykQnDOYoMBjhKixSztWg1rO9QQXPK45W0JE9IwQ=",
+    "originContent": "## Donations",
+    "translatedContent": "## 捐赠  "
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "KQJLQD5deXJzYHXJ4I2pIM7Vuowk7CWnjwuAvOv6gJ8=",
+    "originContent": "If you feel like it, you can donate to support my work via [Liberapay](https://liberapay.com/Enerccio/donate) or ",
+    "translatedContent": "如果你愿意，可以通过 [Liberapay](https://liberapay.com/Enerccio/donate) 或  "
+  },
+  {
+    "row": 129,
+    "rowsha": "4w6NccOw1vIEx/gHH2YaYKhrYRR2+KKTiGfpjucnDjQ=",
+    "originContent": "[Patreon](https://www.patreon.com/enerccio).",
+    "translatedContent": "[Patreon](https://www.patreon.com/enerccio) 捐赠以支持我的工作。  "
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "nijDyEjwf7T8umVum7cccVGkXlHhlWgvjgI9EEN2h2Q=",
+    "originContent": "# What does SLT even mean?",
+    "translatedContent": "# SLT 到底是什么意思？  "
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "usy7epUdMYhM0qe/oTfxl00cY1YV179P9AyIT6I6Gyk=",
+    "originContent": "SLT - Speech Language Therapy. Only cure for LISP!",
+    "translatedContent": "SLT - 言语语言治疗。LISP 唯一的治疗方法！  "
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "BjJkjnUuvGwatfdafVw40v6yA+mrcsx2jSnqYEWNuCY=",
+    "originContent": "Also, backronym for Superior Lisp Tooling!",
+    "translatedContent": "同时，也是 Superior Lisp Tooling 的反向首字母缩写！"
+  }
+]

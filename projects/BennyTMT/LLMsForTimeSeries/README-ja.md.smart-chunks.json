@@ -1,0 +1,532 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Are Language Models Actually Useful for Time Series Forecasting? \n\n**(NeurIPS 2024 Spotlight)** 🌟 [Paper Link](https://arxiv.org/pdf/2406.16964) \n\nIn this work we showed that despite the recent popularity of LLMs in time series forecasting (TSF) they do not appear to meaningfully improve performance. A simple baseline, \"PAttn,\" was proposed, which outperformed most LLM-based TSF models. \n\nAuthors: [Mingtian Tan](https://x.com/MTTan1203),[Mike A. Merrill](https://mikemerrill.io/),[Vinayak Gupta](https://gvinayak.github.io/),[Tim Althoff](https://homes.cs.washington.edu/~althoff/),[Thomas Hartvigsen](https://www.tomhartvigsen.com/)\n\n### Autoregressive LLMs hold great potential for leveraging context to reason (forecast) future time series. Time Series Forecasting Models mentioned in this paper are Not.\n\nFor reasoning (forecasting) time series through text. You may refer to this [time series reasoning (forecasting) work](https://github.com/behavioral-data/TSandLanguage/tree/main/text_aid_forecast).\n\n## Overview 💁🏼\nRecent work in time series analysis has increasingly focused on adapting pretrained large language models (LLMs) for **forecasting (TSF)**, classification, and anomaly detection. These studies suggest that language models, designed for sequential dependencies in text, could generalize to time series data. While this idea aligns with the popularity of language models in machine learning, direct connections between language modeling and TSF remain unclear. **How beneficial are language models for traditional TSF task?**\n\nThrough a series of ablation studies on three recent **LLM-based TSF** methods, we found that **removing the LLM component or replacing it with a simple attention layer did not worsen results—in many cases, it even led to improvements.** Additionally, we introduced PAttn, showing that patching and attention structures can perform as well as state-of-the-art LLM-based forecasters.\n\n![Ablations/PAttn](https://raw.githubusercontent.com/BennyTMT/LLMsForTimeSeries/main/pic/ablations.png)\n\n## Dataset 📖\nYou can access the well pre-processed datasets from [Google Drive](https://drive.google.com/file/d/1NF7VEefXCmXuWNbnNe858WvQAkJ_7wuP/view), then place the downloaded contents under ./datasets\n\n## Setup 🔧\nThree different popular LLM-based TSF methods were included in our ablation approach. You might want to follow the corresponding repos, [OneFitsAll](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All), [Time-LLM](https://github.com/KimMeen/Time-LLM), and [CALF](https://github.com/Hank0626/CALF), to set up the environment respectivly. For the **''PAttn''** method, the environment from any of the above repos is compatible.\n\n\n## PAttn 🤔\nThe main difference between **PAttn** and [PatchTST](https://github.com/yuqinie98/PatchTST) is that we gradually removed parts of the Transformer module that may not be as essential, and Position Embedding. For more explanation, please refer to [this response](https://github.com/BennyTMT/LLMsForTimeSeries/issues/7).\n\n**Motivation**: When [DLinear](https://github.com/cure-lab/LTSF-Linear) has been surpassed by many new methods, we aim to provide a method based on Patching that is both simple and effective, serving as a simple baseline.\n\n     cd ./PAttn \n\n     bash ./scripts/ETTh.sh (for ETTh1 & ETTh2)\n     bash ./scripts/ETTm.sh (for ETTm1 & ETTm2)\n     bash ./scripts/weather.sh (for Weather)\n     \n#### For other datasets, Please change the script name in above command.\n\n## Ablations\n     \n#### Run Ablations on CALF (ETT) :\n     \n    cd ./CALF\n    sh scripts/long_term_forecasting/ETTh_GPT2.sh\n    sh scripts/long_term_forecasting/ETTm_GPT2.sh\n    \n    sh scripts/long_term_forecasting/traffic.sh \n    (For other datasets, such as traffic)\n\n#### Run Ablations on OneFitsAll (ETT) :\n     cd ./OFA\n     bash ./script/ETTh_GPT2.sh   \n     bash ./script/ETTm_GPT2.sh\n\n     bash ./script/illness.sh \n     (For other datasets, such as illness)\n\n#### Run Ablations on  Time-LLM (ETT) \n     cd ./Time-LLM-exp\n     bash ./scripts/train_script/TimeLLM_ETTh1.sh\n     bash ./scripts/train_script/TimeLLM_ETTm1.sh \n\n     bash ./scripts/train_script/TimeLLM_Weather.sh\n     (For other datasets, such as Weather)\n\n#### (To run ablations on other datasets, please change the dataset name as shown in example.)\n\n## Acknowledgement\n\nThis codebase is built based on the [Time-Series-Library](https://github.com/thuml/Time-Series-Library). Thanks!\n\n\n## Citation\nIf you find our work useful, please kindly cite our work as follows:",
+    "ContentSha": "xV4a7xteUa9GvKpiqc1zYhUmmnsZbBVINksZ4hnjj4E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 言語モデルは本当に時系列予測に役立つのか？\n\n**（NeurIPS 2024 スポットライト）** 🌟 [論文リンク](https://arxiv.org/pdf/2406.16964)\n\n本研究では、時系列予測（TSF）におけるLLMの最近の人気にもかかわらず、性能を大きく向上させることはほとんどないことを示しました。簡単なベースラインである「PAttn」を提案し、ほとんどのLLMベースのTSFモデルよりも優れた性能を示しました。\n\n著者：[Mingtian Tan](https://x.com/MTTan1203)、[Mike A. Merrill](https://mikemerrill.io/)、[Vinayak Gupta](https://gvinayak.github.io/)、[Tim Althoff](https://homes.cs.washington.edu/~althoff/)、[Thomas Hartvigsen](https://www.tomhartvigsen.com/)\n\n### 自己回帰型LLMは将来の時系列を推論（予測）するための文脈活用に大きな可能性を持つが、本論文で言及した時系列予測モデルはそうではない。\n\nテキストを通じた時系列の推論（予測）については、こちらの[時系列推論（予測）研究](https://github.com/behavioral-data/TSandLanguage/tree/main/text_aid_forecast)を参照してください。\n\n## 概要 💁🏼\n最近の時系列解析の研究は、事前学習済み大規模言語モデル（LLM）を**予測（TSF）**、分類、異常検知に適用することに注目しています。これらの研究は、テキストにおける連続的依存関係を対象とした言語モデルが時系列データに一般化できる可能性を示唆しています。このアイデアは機械学習における言語モデルの人気と合致しますが、言語モデリングとTSFの直接的な関連はまだ不明瞭です。**従来のTSFタスクに対して言語モデルはどれほど有効なのでしょうか？**\n\n３つの最近の**LLMベースTSF**手法に対するアブレーション研究を通じて、**LLM成分を除去または単純な注意層に置き換えても結果が悪化せず、多くの場合改善すら見られました。**さらに、PAttnを導入し、パッチ処理と注意機構が最先端のLLMベース予測器と同等の性能を発揮することを示しました。\n\n![Ablations/PAttn](https://raw.githubusercontent.com/BennyTMT/LLMsForTimeSeries/main/pic/ablations.png)\n\n## データセット 📖\n[Google Drive](https://drive.google.com/file/d/1NF7VEefXCmXuWNbnNe858WvQAkJ_7wuP/view)から適切に前処理されたデータセットを入手し、ダウンロードした内容を./datasets配下に配置してください。\n\n## セットアップ 🔧\n３つの人気LLMベースTSF手法をアブレーションに含めました。対応するリポジトリ、[OneFitsAll](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)、[Time-LLM](https://github.com/KimMeen/Time-LLM)、[CALF](https://github.com/Hank0626/CALF)を参照し、環境構築を行ってください。**「PAttn」**手法については、上記いずれかのリポジトリの環境で互換性があります。\n\n## PAttn 🤔\n**PAttn**と[PatchTST](https://github.com/yuqinie98/PatchTST)の主な違いは、Transformerモジュールの重要でない部分や位置埋め込みを段階的に除去した点です。詳細は[こちらの回答](https://github.com/BennyTMT/LLMsForTimeSeries/issues/7)を参照してください。\n\n**動機**：多くの新手法により[DLinear](https://github.com/cure-lab/LTSF-Linear)が超えられたため、簡単かつ効果的なパッチベースの手法として単純なベースラインを提供することを目指しました。\n\n     cd ./PAttn \n\n     bash ./scripts/ETTh.sh (ETTh1 & ETTh2用)\n     bash ./scripts/ETTm.sh (ETTm1 & ETTm2用)\n     bash ./scripts/weather.sh (Weather用)\n     \n#### その他のデータセットの場合は、上記コマンド内のスクリプト名を変更してください。\n\n## アブレーション\n     \n#### CALF (ETT) でアブレーションを実行：\n     \n    cd ./CALF\n    sh scripts/long_term_forecasting/ETTh_GPT2.sh\n    sh scripts/long_term_forecasting/ETTm_GPT2.sh\n    \n    sh scripts/long_term_forecasting/traffic.sh \n    （trafficなど他のデータセット用）\n\n#### OneFitsAll (ETT) でアブレーションを実行：\n     cd ./OFA\n     bash ./script/ETTh_GPT2.sh   \n     bash ./script/ETTm_GPT2.sh\n\n     bash ./script/illness.sh \n     （illnessなど他のデータセット用）\n\n#### Time-LLM (ETT) でアブレーションを実行：\n     cd ./Time-LLM-exp\n     bash ./scripts/train_script/TimeLLM_ETTh1.sh\n     bash ./scripts/train_script/TimeLLM_ETTm1.sh \n\n     bash ./scripts/train_script/TimeLLM_Weather.sh\n     （Weatherなど他のデータセット用）\n\n#### （他のデータセットでアブレーションを行う場合は、上記の例のようにデータセット名を変更してください。）\n\n## 謝辞\n\n本コードベースは[Time-Series-Library](https://github.com/thuml/Time-Series-Library)を基に構築されています。ありがとうございます！\n\n## 引用\n本研究が役立った場合は、以下のようにご引用ください。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "nhXBKDre9yzTYytsxWG2FFBrLRVROcTaw9j9P/6Ro/4=",
+        "originContent": "# Are Language Models Actually Useful for Time Series Forecasting? ",
+        "translatedContent": "# 言語モデルは本当に時系列予測に役立つのか？"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "sTKW54Nd+JNKLRAXeJnOOr/xET+TugGMmG/tXlrQMFw=",
+        "originContent": "**(NeurIPS 2024 Spotlight)** 🌟 [Paper Link](https://arxiv.org/pdf/2406.16964) ",
+        "translatedContent": "**（NeurIPS 2024 スポットライト）** 🌟 [論文リンク](https://arxiv.org/pdf/2406.16964)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "iNsqhV4y/AgEdrstdX8KdR2UNU1k5knJ1VGOaoL77C0=",
+        "originContent": "In this work we showed that despite the recent popularity of LLMs in time series forecasting (TSF) they do not appear to meaningfully improve performance. A simple baseline, \"PAttn,\" was proposed, which outperformed most LLM-based TSF models. ",
+        "translatedContent": "本研究では、時系列予測（TSF）におけるLLMの最近の人気にもかかわらず、性能を大きく向上させることはほとんどないことを示しました。簡単なベースラインである「PAttn」を提案し、ほとんどのLLMベースのTSFモデルよりも優れた性能を示しました。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "7fdrWWQZtCzvFETUBWF+KeK7bnqRla2uel5rSCEEqBQ=",
+        "originContent": "Authors: [Mingtian Tan](https://x.com/MTTan1203),[Mike A. Merrill](https://mikemerrill.io/),[Vinayak Gupta](https://gvinayak.github.io/),[Tim Althoff](https://homes.cs.washington.edu/~althoff/),[Thomas Hartvigsen](https://www.tomhartvigsen.com/)",
+        "translatedContent": "著者：[Mingtian Tan](https://x.com/MTTan1203)、[Mike A. Merrill](https://mikemerrill.io/)、[Vinayak Gupta](https://gvinayak.github.io/)、[Tim Althoff](https://homes.cs.washington.edu/~althoff/)、[Thomas Hartvigsen](https://www.tomhartvigsen.com/)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "eQXxwTbKtGWEBCTGxLAMCPi5pLc05AGE0VzLJitCTJs=",
+        "originContent": "### Autoregressive LLMs hold great potential for leveraging context to reason (forecast) future time series. Time Series Forecasting Models mentioned in this paper are Not.",
+        "translatedContent": "### 自己回帰型LLMは将来の時系列を推論（予測）するための文脈活用に大きな可能性を持つが、本論文で言及した時系列予測モデルはそうではない。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "0nqlUJoDbI815mw26ptFAR5obPl6LpkWR70gJIP9Yn4=",
+        "originContent": "For reasoning (forecasting) time series through text. You may refer to this [time series reasoning (forecasting) work](https://github.com/behavioral-data/TSandLanguage/tree/main/text_aid_forecast).",
+        "translatedContent": "テキストを通じた時系列の推論（予測）については、こちらの[時系列推論（予測）研究](https://github.com/behavioral-data/TSandLanguage/tree/main/text_aid_forecast)を参照してください。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "NuZzE7d00eOn7pR9ohXrv+JWQtSWlk0Ock0JYqzCYKs=",
+        "originContent": "## Overview 💁🏼",
+        "translatedContent": "## 概要 💁🏼"
+      },
+      {
+        "row": 14,
+        "rowsha": "ueIou1WIQkTAkHLzvzq7+rO2E3xaEW0L25AS/gMv0iQ=",
+        "originContent": "Recent work in time series analysis has increasingly focused on adapting pretrained large language models (LLMs) for **forecasting (TSF)**, classification, and anomaly detection. These studies suggest that language models, designed for sequential dependencies in text, could generalize to time series data. While this idea aligns with the popularity of language models in machine learning, direct connections between language modeling and TSF remain unclear. **How beneficial are language models for traditional TSF task?**",
+        "translatedContent": "最近の時系列解析の研究は、事前学習済み大規模言語モデル（LLM）を**予測（TSF）**、分類、異常検知に適用することに注目しています。これらの研究は、テキストにおける連続的依存関係を対象とした言語モデルが時系列データに一般化できる可能性を示唆しています。このアイデアは機械学習における言語モデルの人気と合致しますが、言語モデリングとTSFの直接的な関連はまだ不明瞭です。**従来のTSFタスクに対して言語モデルはどれほど有効なのでしょうか？**"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "9jsuhurmgW1hk9Mna4kP8CnV3Q47MbNss9wijrI/a2g=",
+        "originContent": "Through a series of ablation studies on three recent **LLM-based TSF** methods, we found that **removing the LLM component or replacing it with a simple attention layer did not worsen results—in many cases, it even led to improvements.** Additionally, we introduced PAttn, showing that patching and attention structures can perform as well as state-of-the-art LLM-based forecasters.",
+        "translatedContent": "３つの最近の**LLMベースTSF**手法に対するアブレーション研究を通じて、**LLM成分を除去または単純な注意層に置き換えても結果が悪化せず、多くの場合改善すら見られました。**さらに、PAttnを導入し、パッチ処理と注意機構が最先端のLLMベース予測器と同等の性能を発揮することを示しました。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "0GEvKQfyvgXAeQM1Sw/G7URu0yIdgIX6dR5SIUtJ1bc=",
+        "originContent": "![Ablations/PAttn](https://raw.githubusercontent.com/BennyTMT/LLMsForTimeSeries/main/pic/ablations.png)",
+        "translatedContent": "![Ablations/PAttn](https://raw.githubusercontent.com/BennyTMT/LLMsForTimeSeries/main/pic/ablations.png)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "rZWlHgUk6oafozsEIaqnc+prPrvikAJvWllEuvEQDF4=",
+        "originContent": "## Dataset 📖",
+        "translatedContent": "## データセット 📖"
+      },
+      {
+        "row": 21,
+        "rowsha": "1+5gn82bmv5Orq4Rsz4SgJxVZIO599frAAATiKQYK0A=",
+        "originContent": "You can access the well pre-processed datasets from [Google Drive](https://drive.google.com/file/d/1NF7VEefXCmXuWNbnNe858WvQAkJ_7wuP/view), then place the downloaded contents under ./datasets",
+        "translatedContent": "[Google Drive](https://drive.google.com/file/d/1NF7VEefXCmXuWNbnNe858WvQAkJ_7wuP/view)から適切に前処理されたデータセットを入手し、ダウンロードした内容を./datasets配下に配置してください。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "ADGmgREXbEJoehPdMwYSdHakOnaHUa+mw43d2eY19Zs=",
+        "originContent": "## Setup 🔧",
+        "translatedContent": "## セットアップ 🔧"
+      },
+      {
+        "row": 24,
+        "rowsha": "u/Vkz/+EAJXH+nZ3xAPieH4YmySucC9K0CdExZQ8AQ4=",
+        "originContent": "Three different popular LLM-based TSF methods were included in our ablation approach. You might want to follow the corresponding repos, [OneFitsAll](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All), [Time-LLM](https://github.com/KimMeen/Time-LLM), and [CALF](https://github.com/Hank0626/CALF), to set up the environment respectivly. For the **''PAttn''** method, the environment from any of the above repos is compatible.",
+        "translatedContent": "３つの人気LLMベースTSF手法をアブレーションに含めました。対応するリポジトリ、[OneFitsAll](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)、[Time-LLM](https://github.com/KimMeen/Time-LLM)、[CALF](https://github.com/Hank0626/CALF)を参照し、環境構築を行ってください。**「PAttn」**手法については、上記いずれかのリポジトリの環境で互換性があります。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## PAttn 🤔"
+      },
+      {
+        "row": 27,
+        "rowsha": "K9P75SqDP+uQ9o12u2/y0XDawEo1freYw17rkYA4LGk=",
+        "originContent": "## PAttn 🤔",
+        "translatedContent": "**PAttn**と[PatchTST](https://github.com/yuqinie98/PatchTST)の主な違いは、Transformerモジュールの重要でない部分や位置埋め込みを段階的に除去した点です。詳細は[こちらの回答](https://github.com/BennyTMT/LLMsForTimeSeries/issues/7)を参照してください。"
+      },
+      {
+        "row": 28,
+        "rowsha": "hm2LPr7VmB6hp8MQj4tXKJ4jc9pDUNPMyvcUqXPmDaA=",
+        "originContent": "The main difference between **PAttn** and [PatchTST](https://github.com/yuqinie98/PatchTST) is that we gradually removed parts of the Transformer module that may not be as essential, and Position Embedding. For more explanation, please refer to [this response](https://github.com/BennyTMT/LLMsForTimeSeries/issues/7).",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**動機**：多くの新手法により[DLinear](https://github.com/cure-lab/LTSF-Linear)が超えられたため、簡単かつ効果的なパッチベースの手法として単純なベースラインを提供することを目指しました。"
+      },
+      {
+        "row": 30,
+        "rowsha": "APNi0KAMgqrR5P2upmhylinaKDwpKeWhazO4ZI67duw=",
+        "originContent": "**Motivation**: When [DLinear](https://github.com/cure-lab/LTSF-Linear) has been surpassed by many new methods, we aim to provide a method based on Patching that is both simple and effective, serving as a simple baseline.",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "     cd ./PAttn "
+      },
+      {
+        "row": 32,
+        "rowsha": "cchov0xNQuMkhaK+cqxEtkrj6GwnPmxq8u8QBr+1pDg=",
+        "originContent": "     cd ./PAttn ",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "     bash ./scripts/ETTh.sh (ETTh1 & ETTh2用)"
+      },
+      {
+        "row": 34,
+        "rowsha": "7+mZGFilzWqv7bcjhtBF5/LRTrkkWJ2D/DMT02m7h/k=",
+        "originContent": "     bash ./scripts/ETTh.sh (for ETTh1 & ETTh2)",
+        "translatedContent": "     bash ./scripts/ETTm.sh (ETTm1 & ETTm2用)"
+      },
+      {
+        "row": 35,
+        "rowsha": "hIpT84MFREqYsobJhIDshPhHQZguQtn9SSBAx2Z8E1o=",
+        "originContent": "     bash ./scripts/ETTm.sh (for ETTm1 & ETTm2)",
+        "translatedContent": "     bash ./scripts/weather.sh (Weather用)"
+      },
+      {
+        "row": 36,
+        "rowsha": "sAQWBx8HQ8y64CFQvfoSW4GHHTjo2cKaVassIU1FuKw=",
+        "originContent": "     bash ./scripts/weather.sh (for Weather)",
+        "translatedContent": "     "
+      },
+      {
+        "row": 37,
+        "rowsha": "eHmYHU8iao8BkdNnMMByBdel/xx4D8qbL5BfJSZM9jY=",
+        "originContent": "     ",
+        "translatedContent": "#### その他のデータセットの場合は、上記コマンド内のスクリプト名を変更してください。"
+      },
+      {
+        "row": 38,
+        "rowsha": "U5VSJic/UwTYrD0OmrwMrIEr3fABJI6cMXRw87MoqFk=",
+        "originContent": "#### For other datasets, Please change the script name in above command.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## アブレーション"
+      },
+      {
+        "row": 40,
+        "rowsha": "bTm524Yx/+tacVtIQLK0nxeM+qsoXm1VsasKKlRnGu4=",
+        "originContent": "## Ablations",
+        "translatedContent": "     "
+      },
+      {
+        "row": 41,
+        "rowsha": "eHmYHU8iao8BkdNnMMByBdel/xx4D8qbL5BfJSZM9jY=",
+        "originContent": "     ",
+        "translatedContent": "#### CALF (ETT) でアブレーションを実行："
+      },
+      {
+        "row": 42,
+        "rowsha": "u24zan4rfVaLtzzXM6FL5pVO9MEE7Mhd0b6p8YSNUPw=",
+        "originContent": "#### Run Ablations on CALF (ETT) :",
+        "translatedContent": "     "
+      },
+      {
+        "row": 43,
+        "rowsha": "eHmYHU8iao8BkdNnMMByBdel/xx4D8qbL5BfJSZM9jY=",
+        "originContent": "     ",
+        "translatedContent": "    cd ./CALF"
+      },
+      {
+        "row": 44,
+        "rowsha": "Ztc3I7dS668LPIwEQN8r+N1tlVfsmUzNQZ+TMPRhjCw=",
+        "originContent": "    cd ./CALF",
+        "translatedContent": "    sh scripts/long_term_forecasting/ETTh_GPT2.sh"
+      },
+      {
+        "row": 45,
+        "rowsha": "FiE+RJo36T7ja8T3cVTMVOs1salJoiZ8bECHGeGW/dM=",
+        "originContent": "    sh scripts/long_term_forecasting/ETTh_GPT2.sh",
+        "translatedContent": "    sh scripts/long_term_forecasting/ETTm_GPT2.sh"
+      },
+      {
+        "row": 46,
+        "rowsha": "8ZYYkbJPJsL2DmOEUnG4N8L5bMDq/VWoDRV93qrFtvc=",
+        "originContent": "    sh scripts/long_term_forecasting/ETTm_GPT2.sh",
+        "translatedContent": "    "
+      },
+      {
+        "row": 47,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    sh scripts/long_term_forecasting/traffic.sh "
+      },
+      {
+        "row": 48,
+        "rowsha": "LeWTJMuRCjwAVbCxB8GKt0ZgagHEAKlExBGpvFXHoSw=",
+        "originContent": "    sh scripts/long_term_forecasting/traffic.sh ",
+        "translatedContent": "    （trafficなど他のデータセット用）"
+      },
+      {
+        "row": 49,
+        "rowsha": "zThv+3aLyxy3MBqKX8kcsgmTxXwUlFEdIs1p5uXKQmw=",
+        "originContent": "    (For other datasets, such as traffic)",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### OneFitsAll (ETT) でアブレーションを実行："
+      },
+      {
+        "row": 51,
+        "rowsha": "lWo5Uf2OWs9TN5L/83uIiptFkfJOUZhENj+kwNzZ+r8=",
+        "originContent": "#### Run Ablations on OneFitsAll (ETT) :",
+        "translatedContent": "     cd ./OFA"
+      },
+      {
+        "row": 52,
+        "rowsha": "TrPMAWCIn4FFI8JW0soyLx5PhdC+39gHhiYUZfZtW+k=",
+        "originContent": "     cd ./OFA",
+        "translatedContent": "     bash ./script/ETTh_GPT2.sh   "
+      },
+      {
+        "row": 53,
+        "rowsha": "ewMaQwl8E6ToawSshkrjbjjKRqtTBceMEBJMbYpSC2c=",
+        "originContent": "     bash ./script/ETTh_GPT2.sh   ",
+        "translatedContent": "     bash ./script/ETTm_GPT2.sh"
+      },
+      {
+        "row": 54,
+        "rowsha": "21FUjVh0ivhSj6I8MYu5OZQqer/TmRtQlbztJav9uW0=",
+        "originContent": "     bash ./script/ETTm_GPT2.sh",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "     bash ./script/illness.sh "
+      },
+      {
+        "row": 56,
+        "rowsha": "znBs/mpGjNp1a7rqDFvm2ma7ornQFVEBA6lKEWYnWXs=",
+        "originContent": "     bash ./script/illness.sh ",
+        "translatedContent": "     （illnessなど他のデータセット用）"
+      },
+      {
+        "row": 57,
+        "rowsha": "KgKz5sjHbLv6ALgldK+hijUcfIn07ZwtvK7phXUZ+wI=",
+        "originContent": "     (For other datasets, such as illness)",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Time-LLM (ETT) でアブレーションを実行："
+      },
+      {
+        "row": 59,
+        "rowsha": "zytr1+cyZwP6vtfejsTeb0TXrLATfUROg+/HRhDGetw=",
+        "originContent": "#### Run Ablations on  Time-LLM (ETT) ",
+        "translatedContent": "     cd ./Time-LLM-exp"
+      },
+      {
+        "row": 60,
+        "rowsha": "Us6UKKbCav3fc4lrEOSIvTeIsvHI2PycF2Mp/Vig7QM=",
+        "originContent": "     cd ./Time-LLM-exp",
+        "translatedContent": "     bash ./scripts/train_script/TimeLLM_ETTh1.sh"
+      },
+      {
+        "row": 61,
+        "rowsha": "H6K6SDWOG0LR2sIttAp3m9WG/Ma/HdvvnS4eNYvbxng=",
+        "originContent": "     bash ./scripts/train_script/TimeLLM_ETTh1.sh",
+        "translatedContent": "     bash ./scripts/train_script/TimeLLM_ETTm1.sh "
+      },
+      {
+        "row": 62,
+        "rowsha": "VIfjeAUcHfA7MjNdQjIF2yhoFVXLYvf9wzpf67yQ3V8=",
+        "originContent": "     bash ./scripts/train_script/TimeLLM_ETTm1.sh ",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "     bash ./scripts/train_script/TimeLLM_Weather.sh"
+      },
+      {
+        "row": 64,
+        "rowsha": "nxCLfYMDdI5R36lxudsHu5Q2xbO+dv18ABxA7SzUsZ8=",
+        "originContent": "     bash ./scripts/train_script/TimeLLM_Weather.sh",
+        "translatedContent": "     （Weatherなど他のデータセット用）"
+      },
+      {
+        "row": 65,
+        "rowsha": "kmomqhr5bkCl50qr++d61kZ/DZeZibWngn0xL5b6JXw=",
+        "originContent": "     (For other datasets, such as Weather)",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### （他のデータセットでアブレーションを行う場合は、上記の例のようにデータセット名を変更してください。）"
+      },
+      {
+        "row": 67,
+        "rowsha": "ZYOoLaGYr3/kkxTI9ltMHSwmqVJJCuZWb8fUUqljr+4=",
+        "originContent": "#### (To run ablations on other datasets, please change the dataset name as shown in example.)",
+        "translatedContent": ""
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 謝辞"
+      },
+      {
+        "row": 69,
+        "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+        "originContent": "## Acknowledgement",
+        "translatedContent": ""
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本コードベースは[Time-Series-Library](https://github.com/thuml/Time-Series-Library)を基に構築されています。ありがとうございます！"
+      },
+      {
+        "row": 71,
+        "rowsha": "xVZwtc6ACeNCfjpu1wabZah7anIdtHWZo3OIWAcEud8=",
+        "originContent": "This codebase is built based on the [Time-Series-Library](https://github.com/thuml/Time-Series-Library). Thanks!",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 引用"
+      },
+      {
+        "row": 73,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本研究が役立った場合は、以下のようにご引用ください。"
+      },
+      {
+        "row": 74,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": ""
+      },
+      {
+        "row": 75,
+        "rowsha": "LA1VtG02eoFpkt8AeQkz23FsiTHveK9n3uW37/kHpWs=",
+        "originContent": "If you find our work useful, please kindly cite our work as follows:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bibtex\n@inproceedings{tan2024language,\n    title={Are Language Models Actually Useful for Time Series Forecasting?},\n    author={Tan, Mingtian and Merrill, Mike A and Gupta, Vinayak and Althoff, Tim and Hartvigsen, Thomas},\n    booktitle={Neural Information Processing Systems (NeurIPS)},\n    year={2024}\n}\n\n",
+    "ContentSha": "8Iz9rmk2yTVKYO+lGlVGP7daGe+eNRLYorYrsul9GAg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@inproceedings{tan2024language,\n    title={言語モデルは実際に時系列予測に役立つのか？},\n    author={Tan, Mingtian and Merrill, Mike A and Gupta, Vinayak and Althoff, Tim and Hartvigsen, Thomas},\n    booktitle={Neural Information Processing Systems (NeurIPS)},\n    year={2024}\n}\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "3cgTyDs5MD7uTvFHouhoIsogzqNQLuTScgpmw8+LMwI=",
+        "originContent": "@inproceedings{tan2024language,",
+        "translatedContent": "@inproceedings{tan2024language,"
+      },
+      {
+        "row": 3,
+        "rowsha": "ET2Blyvdp5hgLaeDNCisIIXr69Imn6aoMfGswzPZ6ek=",
+        "originContent": "    title={Are Language Models Actually Useful for Time Series Forecasting?},",
+        "translatedContent": "    title={言語モデルは実際に時系列予測に役立つのか？},"
+      },
+      {
+        "row": 4,
+        "rowsha": "yyHKCg+AbNGFYIJ/S3gdKWi5L6rOwmyYCjLLvj3EiF8=",
+        "originContent": "    author={Tan, Mingtian and Merrill, Mike A and Gupta, Vinayak and Althoff, Tim and Hartvigsen, Thomas},",
+        "translatedContent": "    author={Tan, Mingtian and Merrill, Mike A and Gupta, Vinayak and Althoff, Tim and Hartvigsen, Thomas},"
+      },
+      {
+        "row": 5,
+        "rowsha": "ItPEN9YmNXIjoM0BQ/KXVjkFoY/rZnGBktMFd5dXOgk=",
+        "originContent": "    booktitle={Neural Information Processing Systems (NeurIPS)},",
+        "translatedContent": "    booktitle={Neural Information Processing Systems (NeurIPS)},"
+      },
+      {
+        "row": 6,
+        "rowsha": "uVHiUhL37/gMy4xMvekX+0aBRvH17JFAWIGMTujei3I=",
+        "originContent": "    year={2024}",
+        "translatedContent": "    year={2024}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

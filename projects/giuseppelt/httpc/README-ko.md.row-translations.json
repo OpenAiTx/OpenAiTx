@@ -1,0 +1,1370 @@
+[
+  {
+    "row": 1,
+    "rowsha": "4593Ls+KaAoyTaUOLDKX4POKTVN9Cj1t8jU6PRe+jyY=",
+    "originContent": "# httpc",
+    "translatedContent": "# httpc"
+  },
+  {
+    "row": 2,
+    "rowsha": "aR9BL6HVJcIfNlg6aX3vamm8XQcLtDrUokyyyNwmp08=",
+    "originContent": "httpc is a javascript/typescript framework for building function-based API with minimal code and end-to-end type safety.",
+    "translatedContent": "httpc는 최소한의 코드와 종단 간 타입 안전성으로 함수 기반 API를 구축하기 위한 자바스크립트/타입스크립트 프레임워크입니다."
+  },
+  {
+    "row": 3,
+    "rowsha": "aWVZHmAxK2W95DG+k6La+lfgWn0FczKiY7CH1bUIKq8=",
+    "originContent": "- [Documentation and tutorials](https://httpc.dev/docs)",
+    "translatedContent": "- [문서 및 튜토리얼](https://httpc.dev/docs)"
+  },
+  {
+    "row": 4,
+    "rowsha": "R7OG9Mbhv/Qm4cpcmSs7U3Bnp77mrLTz0qN3gdRLtXk=",
+    "originContent": "- [Community](https://httpc.dev/discord)",
+    "translatedContent": "- [커뮤니티](https://httpc.dev/discord)"
+  },
+  {
+    "row": 5,
+    "rowsha": "CZTKXvo8BAtULtG4VfALB35WUKIW8qXwGGs1KvRXbeU=",
+    "originContent": "- [Issues and feature requests](https://httpc.dev/issues)",
+    "translatedContent": "- [이슈 및 기능 요청](https://httpc.dev/issues)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "tSxOZXvB5tRwgxaP+GCUNzRaLAVze/O+gC18gGhXo98=",
+    "originContent": "## Quick glance",
+    "translatedContent": "## 빠른 개요"
+  },
+  {
+    "row": 8,
+    "rowsha": "afqiwj4iye8Ws8cfay0guvanCt9yu7WhP4rHW31mTp8=",
+    "originContent": "You just write functions and export them. No need to worry how the server will execute them.",
+    "translatedContent": "함수를 작성하고 내보내기만 하면 됩니다. 서버가 이를 어떻게 실행할지 걱정할 필요가 없습니다."
+  },
+  {
+    "row": 9,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 10,
+    "rowsha": "ORA1WpvPVb1G0tWPDbPILcKvVe2hu0hCkAY8ER0Zz3E=",
+    "originContent": "function add(a: number, b: number) {",
+    "translatedContent": "function add(a: number, b: number) {"
+  },
+  {
+    "row": 11,
+    "rowsha": "G8yHYrlsCMhjjloEyj31iPjBWbTg0g8nBDpVWo59byk=",
+    "originContent": "    return a + b;",
+    "translatedContent": "    return a + b;"
+  },
+  {
+    "row": 12,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "spqwB0/pTYRMDvDlfbE07Tzm3ZmerB9yTRQUDAJhoGA=",
+    "originContent": "function greet(name: string) {",
+    "translatedContent": "function greet(name: string) {"
+  },
+  {
+    "row": 15,
+    "rowsha": "/OMY0FRCaN6tSJOYOu9YDpYwEVR7cHw305joUlvA7Bc=",
+    "originContent": "    return `Hello ${name}`;",
+    "translatedContent": "    return `Hello ${name}`;"
+  },
+  {
+    "row": 16,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "ikHhPmgNY52/Y57QX+s+O3S6qF684Au/Zj4aR1NY1n4=",
+    "originContent": "export default {",
+    "translatedContent": "export default {"
+  },
+  {
+    "row": 19,
+    "rowsha": "JYGVk6tC6e/SgKmg26QjWlY/Z5i2i1RMv1qb8HhYC0M=",
+    "originContent": "    add,",
+    "translatedContent": "    add,"
+  },
+  {
+    "row": 20,
+    "rowsha": "e3HP+wrSzW1bzHRc/VVbUeWzfNvjxsdKO9VmYt0ekz8=",
+    "originContent": "    greet,",
+    "translatedContent": "    greet,"
+  },
+  {
+    "row": 21,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 22,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "클라이언트에서는 자연스러운 문법으로 일반 자바스크립트 함수처럼 서버 함수를 호출할 수 있습니다."
+  },
+  {
+    "row": 24,
+    "rowsha": "6aafySBl9K6IAQUCvCql3lKQiJDXMwI5LAPj1mUoids=",
+    "originContent": "From the client you can call server functions like normal javascript functions with a natural syntax.",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 26,
+    "rowsha": "r2Tp9yD9cuaLrX/aZRKP0ZSD/dvLHadjgFiWSrT0nZM=",
+    "originContent": "import createClient from \"@your-package/api-client\";",
+    "translatedContent": "import createClient from \"@your-package/api-client\";"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "XFUBipYjYchu36GUHZL66KrSPSve+VHcCZDMzBeiUiU=",
+    "originContent": "const client = createClient({",
+    "translatedContent": "const client = createClient({"
+  },
+  {
+    "row": 29,
+    "rowsha": "0JZuuOOZQPYRVuUjldGjeZWxu2gZuW7qFPRgcduC31s=",
+    "originContent": "    endpoint: \"http://api.domain.com\"",
+    "translatedContent": "    endpoint: \"http://api.domain.com\""
+  },
+  {
+    "row": 30,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "idu9zN7zxLLY9icewc/YxeZuyV3esFCUN3pMCrYWaKI=",
+    "originContent": "let result = await client.add(1, 2);",
+    "translatedContent": "let result = await client.add(1, 2);"
+  },
+  {
+    "row": 33,
+    "rowsha": "yc15ch3eDq9xNnthSjtYHh6FwHjNabsfpDE3uJK5BIA=",
+    "originContent": "// result: 3",
+    "translatedContent": "// result: 3"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "o6QyUbdGZIFtsGse2AB8+g/Bvnyw55Aa1AneSCHKumM=",
+    "originContent": "let message = await client.greet(\"Edith\");",
+    "translatedContent": "let message = await client.greet(\"Edith\");"
+  },
+  {
+    "row": 36,
+    "rowsha": "uTKXNT+B6Q1kLhyM54skUNRCeAcTcurjXxJpSf8H+S0=",
+    "originContent": "// message: \"Hello Edith\"",
+    "translatedContent": "// message: \"Hello Edith\""
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 핵심 원칙"
+  },
+  {
+    "row": 39,
+    "rowsha": "p0QeUYh0K/niuV0IwZNfRm91G+Kkh0wfOmvSQaaIQ+U=",
+    "originContent": "## Key principle",
+    "translatedContent": "**httpc**는 표준 HTTP 프로토콜 위에 구축된 추상화입니다. **httpc**를 사용하면 HTTP 동사, 헤더, 리소스 경로, 데이터 직렬화가 아닌 함수, 인수 및 반환 값을 사용하는 API를 구축할 수 있습니다."
+  },
+  {
+    "row": 40,
+    "rowsha": "fVr41+TtB7nMW3e9ZLkZWu8xwSzhYRTQV0RB2TbhFEY=",
+    "originContent": "**httpc** is an abstraction over the standard HTTP protocol. With **httpc** you can build an API that speaks functions, arguments and return values, not http verbs, headers, resource paths, data serialization…",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**httpc** 프레임워크는 기본 HTTP의 모든 복잡성을 숨기면서 중요한 것에 집중할 수 있게 합니다: 함수 로직입니다."
+  },
+  {
+    "row": 42,
+    "rowsha": "wvFbUvaGvlVbBLjDSjUu481ck5Jw3FYtrQ49xLp8Jwg=",
+    "originContent": "The **httpc** framework hides all the complexity of the underling HTTP while keeping you focused on what matters: the function logic.",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 주요 기능"
+  },
+  {
+    "row": 45,
+    "rowsha": "4nybJmHBeBtjMOaqXJTOT2PmpkJde08EHK2MeTyF9d4=",
+    "originContent": "## Main features",
+    "translatedContent": "### 미들웨어"
+  },
+  {
+    "row": 46,
+    "rowsha": "ixuvroWu/ZsUUaBUbcJn0DH7CJeaAu0rn+Nrl8Wzn04=",
+    "originContent": "### Middlewares",
+    "translatedContent": "미들웨어를 통해 공통 로직을 실행합니다."
+  },
+  {
+    "row": 47,
+    "rowsha": "9wgHn9T6eUc/5sR+b5bozXWeET0ob7eEMeGv3ArDnaI=",
+    "originContent": "Run common logic via middlewares.",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 49,
+    "rowsha": "+TR2aFf64Ch9DDYmGdDQuljNv18P2GfeF4uILaPYpfE=",
+    "originContent": "import { httpCall } from \"@httpc/server\";",
+    "translatedContent": "import { httpCall } from \"@httpc/server\";"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "rC2Ui87LC+tT3AsPCgX1Zr2cZMPimHxcag86QIhrb7M=",
+    "originContent": "const getPostById = httpCall(",
+    "translatedContent": "const getPostById = httpCall("
+  },
+  {
+    "row": 52,
+    "rowsha": "aVMEu0GhAH8L3rS7NNYGrUeNT7/8H7yidn58+uOPN14=",
+    "originContent": "    Authenticated(),    // <-- authentication check",
+    "translatedContent": "    Authenticated(),    // <-- authentication check"
+  },
+  {
+    "row": 53,
+    "rowsha": "hJveKKh/vtCOBk6EPn86ypnsl2Uw6DhNVTM+et1AQhU=",
+    "originContent": "    Validate(String),   // <-- parameters validation",
+    "translatedContent": "    Validate(String),   // <-- parameters validation"
+  },
+  {
+    "row": 54,
+    "rowsha": "xiSX8pWsCW/byghOeSlrTZ/dIRUSAqmA3kx/tzvIxVg=",
+    "originContent": "    Cache(\"5m\"),        // <-- result caching",
+    "translatedContent": "    Cache(\"5m\"),        // <-- result caching"
+  },
+  {
+    "row": 55,
+    "rowsha": "3fpu5i/PeIdwO/Ek8r4GlgW1GrZa+PZ/wBLIcsfvv/o=",
+    "originContent": "    async (postId: string) => {",
+    "translatedContent": "    async (postId: string) => {"
+  },
+  {
+    "row": 56,
+    "rowsha": "7jeP+dQeZeiBZhEbCCG0N3WJWGav3zQ6163lfZGszXQ=",
+    "originContent": "        const post = await db.select(\"posts\").where(\"id\", postId);",
+    "translatedContent": "        const post = await db.select(\"posts\").where(\"id\", postId);"
+  },
+  {
+    "row": 57,
+    "rowsha": "n2qY+MZt2+eWZzk3UgpGZ8+sl3cmILg0hOn/4Dk6qPI=",
+    "originContent": "        if (!post) {",
+    "translatedContent": "        if (!post) {"
+  },
+  {
+    "row": 58,
+    "rowsha": "ajTvK+GzJP3X+gJZOux25wyv7jGTvnZiCV1aT33kGrk=",
+    "originContent": "            throw new NotFoundError();",
+    "translatedContent": "            throw new NotFoundError();"
+  },
+  {
+    "row": 59,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "qexKnIdKl8HLF7ihrt2gZVxWkgA+JFDISpRpdnwP08c=",
+    "originContent": "        return post;",
+    "translatedContent": "        return post;"
+  },
+  {
+    "row": 62,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 63,
+    "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+    "originContent": ");",
+    "translatedContent": ");"
+  },
+  {
+    "row": 64,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 컨텍스트의 편재성"
+  },
+  {
+    "row": 66,
+    "rowsha": "XUI74VvBfBZhlcGJ9xI9ALiLoZ5ZQ0kIEmcYEWbMx2Y=",
+    "originContent": "### Context ubiquity",
+    "translatedContent": "애플리케이션 어디에서나 요청 컨텍스트에 접근할 수 있습니다. 핸들러, 미들웨어 또는 서비스 로직에 있든지 간에, 컨텍스트는 매개변수를 전달할 필요 없이 항상 사용할 수 있습니다."
+  },
+  {
+    "row": 67,
+    "rowsha": "9S9MJs2+BdaGTr63/DJiV+3VB42x6/nlO+v1YYbEg2w=",
+    "originContent": "Access the request context from everywhere in your application. Be in a handler, middleware o service logic, the context is always available with no need to pass parameters around.",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 69,
+    "rowsha": "eVuBFJg/bcH3Cat5fg5fJw2N6SQqNKsYeZxcrWrooh4=",
+    "originContent": "async function getPosts() {",
+    "translatedContent": "async function getPosts() {"
+  },
+  {
+    "row": 70,
+    "rowsha": "D1J65xghHP1ZZsqmFx08TMg69wx7VzVZHmTM1uCo5Ac=",
+    "originContent": "    const { user } = useContext();",
+    "translatedContent": "    const { user } = useContext();"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "q+OFPJgudnEkJbbflicbSzvJybeB67GtF4NzuwH44QU=",
+    "originContent": "    let category = \"news\";",
+    "translatedContent": "    let category = \"news\";"
+  },
+  {
+    "row": 73,
+    "rowsha": "7Pg4L/RAXrG3DHsl0PBEIQpUczkwqj+EhixWbnHx/aQ=",
+    "originContent": "    if (user) {",
+    "translatedContent": "    if (user) {"
+  },
+  {
+    "row": 74,
+    "rowsha": "EvSuT6pQxHAw5FP7CndwKkK47pha0zrUSYQh/pwMq6Q=",
+    "originContent": "        category = user.preferredCategory;",
+    "translatedContent": "        category = user.preferredCategory;"
+  },
+  {
+    "row": 75,
+    "rowsha": "iAz40QGs2RLmeJqLA4aHQPRFgXEPls5YXwkvZTcIMog=",
+    "originContent": "        trace(\"Getting user preferred posts\");",
+    "translatedContent": "        trace(\"Getting user preferred posts\");"
+  },
+  {
+    "row": 76,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 77,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 78,
+    "rowsha": "8VfzXtu/Sh+OW/1iWx6VKjO3olgh98nTL7G5YPpQlIw=",
+    "originContent": "    return await db.select(\"posts\").where(\"category\", category);",
+    "translatedContent": "    return await db.select(\"posts\").where(\"category\", category);"
+  },
+  {
+    "row": 79,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "zuu17oBcTgfJNqeRrXwBrfARQ17fFfo2hfg+6mm4Y9I=",
+    "originContent": "function trace(message: string) {",
+    "translatedContent": "function trace(message: string) {"
+  },
+  {
+    "row": 82,
+    "rowsha": "OpKiogwlNMoxaaAqdO3S1S1pinpt1TCpfWiNBpWWo3g=",
+    "originContent": "    const { requestId } = useContext();",
+    "translatedContent": "    const { requestId } = useContext();"
+  },
+  {
+    "row": 83,
+    "rowsha": "dL8UsaoIX6Wn37n+FijwXhwhVL/nTODxBwFehvjjatE=",
+    "originContent": "    console.log(`[req:${requestId}] ${message}`);",
+    "translatedContent": "    console.log(`[req:${requestId}] ${message}`);"
+  },
+  {
+    "row": 84,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 85,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "oDGM1CJ9/MJyykn5g7GoZikKFqkWmxWaPbb2yD6NmcA=",
+    "originContent": "### Hooks",
+    "translatedContent": "### 훅(Hooks)"
+  },
+  {
+    "row": 88,
+    "rowsha": "ihvtQBW+8Dzccztyxmv5HjmAxxZeaa24i5j9JpAEj8A=",
+    "originContent": "Hooks encapsulate common logic around the request context. By convention hooks adopt the `use` prefix.",
+    "translatedContent": "훅은 요청 컨텍스트 주변의 공통 로직을 캡슐화합니다. 관례적으로 훅은 `use` 접두사를 사용합니다."
+  },
+  {
+    "row": 89,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 90,
+    "rowsha": "/cMFExa7FRhWiMPAhM/pZ59UlC/pDa6/bf3JPcB3dLQ=",
+    "originContent": "async function addNewComment(postId: string, message: string) {",
+    "translatedContent": "async function addNewComment(postId: string, message: string) {"
+  },
+  {
+    "row": 91,
+    "rowsha": "zbjdQ4OAOGUvVl90GzTP/O74dlStwxOkXOvNAbhd9VU=",
+    "originContent": "    const user = useUser();",
+    "translatedContent": "    const user = useUser();"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "bLPsT9+FP5QrigUkFiNKEr9VEmFUSuA/4axuoLaY47k=",
+    "originContent": "    if (!useIsAuthorized(\"comment:create\")) {",
+    "translatedContent": "    if (!useIsAuthorized(\"comment:create\")) {"
+  },
+  {
+    "row": 94,
+    "rowsha": "EfVqkJQ4uitxdtOFDDfW0bWhm7Ck6kiR95AUjNpjN4c=",
+    "originContent": "        throw new ForbiddenError(\"Cannot add comments\");",
+    "translatedContent": "        throw new ForbiddenError(\"Cannot add comments\");"
+  },
+  {
+    "row": 95,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "0Ybt0P4Ghy4pAm3TMiSmyqaMiWjYhw/Xtl5pALHGkjQ=",
+    "originContent": "    return await db.createComment({",
+    "translatedContent": "    return await db.createComment({"
+  },
+  {
+    "row": 98,
+    "rowsha": "TU93LuQBm9kxWvFwFuzGHV2QfM1E80//yygal9W8m7s=",
+    "originContent": "        userId: user.id,",
+    "translatedContent": "        userId: user.id,"
+  },
+  {
+    "row": 99,
+    "rowsha": "3Cb5yiQglb6ZrCYAWW2WzdztQWfw+rp+mFn2NhAlqbY=",
+    "originContent": "        postId,",
+    "translatedContent": "        postId,"
+  },
+  {
+    "row": 100,
+    "rowsha": "47z4mw8EpTkI7/KNaETsjM3/Oyklp33VPFdoLZhiqCQ=",
+    "originContent": "        message",
+    "translatedContent": "        message"
+  },
+  {
+    "row": 101,
+    "rowsha": "J1qSMWPEACGxjVVVepYn/QGoe0S8Ili1BNZcMfXgap0=",
+    "originContent": "    });",
+    "translatedContent": "    });"
+  },
+  {
+    "row": 102,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 103,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 104,
+    "rowsha": "uNDEFSr8nQ2dXr1qeuTRWEWlmBCH+CqfGLXHM8R4HjM=",
+    "originContent": "**@httpc/kit** offers several builtin hooks to cache data, to perform authorization checks, to make transactions…",
+    "translatedContent": "**@httpc/kit**는 데이터를 캐시하고, 권한 검사를 수행하며, 트랜잭션을 처리하기 위한 여러 내장 훅을 제공합니다…"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "ezW7wEoCnRuV5tqfgjekaw/Z14nymAc/Y1Nxv6c5by0=",
+    "originContent": "### Serverless",
+    "translatedContent": "### 서버리스"
+  },
+  {
+    "row": 107,
+    "rowsha": "qcO7r2B+FlIiHPWQl5geso0a6DW7/qwj76gb5rhCqqQ=",
+    "originContent": "You can host a full **httpc** API inside a serverless environment like Vercel, AWS Lambda or Netlify functions.",
+    "translatedContent": "Vercel, AWS Lambda 또는 Netlify 함수와 같은 서버리스 환경 내에 전체 **httpc** API를 호스팅할 수 있습니다."
+  },
+  {
+    "row": 108,
+    "rowsha": "olyrhxXFlcAGN6mPNW1XIXrNgV2BBeShgTigux5PNr8=",
+    "originContent": "This gives the advantage to deploy a single serverless function handling the whole API.",
+    "translatedContent": "이는 전체 API를 처리하는 단일 서버리스 함수를 배포하는 이점을 제공합니다."
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "l+gOfUFVMhtPWn/M7+lKUvtYgG+lxkcztpv8Ve8x6Is=",
+    "originContent": "For example with Vercel, you can expose all your API functions:",
+    "translatedContent": "예를 들어 Vercel을 사용하면 모든 API 함수를 노출할 수 있습니다:"
+  },
+  {
+    "row": 111,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 112,
+    "rowsha": "HIdAMyUobt+vlH0Cv3Q9/+QlBIiYSOYscqK8rAp1qg8=",
+    "originContent": "//file: api/index.ts",
+    "translatedContent": "//file: api/index.ts"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "CKAd7kM+p/t6KDXxsrq2xQis30Fd3r6nern8MqpTq9k=",
+    "originContent": "import { createHttpCVercelAdapter } from \"@httpc/adapter-vercel\";",
+    "translatedContent": "import { createHttpCVercelAdapter } from \"@httpc/adapter-vercel\";"
+  },
+  {
+    "row": 115,
+    "rowsha": "ovzqqW2B6ABy5pcO92zDynUYwiWI20/eQZ2O4PiuSyc=",
+    "originContent": "import calls from \"../calls\";",
+    "translatedContent": "import calls from \"../calls\";"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "MOVp3IGGOVy7StMOWq1sX7NC4zvxZv1HU3WLYwM8VB8=",
+    "originContent": "export default createHttpCVercelAdapter({",
+    "translatedContent": "export default createHttpCVercelAdapter({"
+  },
+  {
+    "row": 118,
+    "rowsha": "4OqJmd1nPM4y/X84767JmePMy9aiwE6J1mvIJpXExEI=",
+    "originContent": "    calls,",
+    "translatedContent": "    calls,"
+  },
+  {
+    "row": 119,
+    "rowsha": "5/StG9Tl6fie5mRBKXkGkk4wbP8m66K1dnAku0zIkuA=",
+    "originContent": "    log: \"info\"",
+    "translatedContent": "    log: \"info\""
+  },
+  {
+    "row": 120,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 121,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "Sqpx2Msu+2Fb17PY278F3jhXHC975bIKUQ8c8tZoJEY=",
+    "originContent": "Then, you can call API functions from pages with full type checking:",
+    "translatedContent": "그런 다음, 전체 타입 검사를 통해 페이지에서 API 함수를 호출할 수 있습니다:"
+  },
+  {
+    "row": 124,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 125,
+    "rowsha": "S3IoGJ4SoTaDFtBT9XPTZax147+gm+QtsTd6iXR/VA4=",
+    "originContent": "//file: pages/home.tsx",
+    "translatedContent": "//file: pages/home.tsx"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "gMR0N3oBCfsebzaNcUfJWsB30sP9cyJumvZJlC1UonU=",
+    "originContent": "import { createClient, ClientDef } from \"@httpc/client\";",
+    "translatedContent": "import { createClient, ClientDef } from \"@httpc/client\";"
+  },
+  {
+    "row": 128,
+    "rowsha": "ct0vUp0ThHASTBPVWdpRLKxWI3J0It2dxHd+9h9+vGs=",
+    "originContent": "import { useQuery, useMutation } from \"react-query\";",
+    "translatedContent": "import { useQuery, useMutation } from \"react-query\";"
+  },
+  {
+    "row": 129,
+    "rowsha": "7DZZ5goUapW012CxMHTScwJXGhUT/SNzMvfl3xHj+T0=",
+    "originContent": "import type calls from \"../calls\"; // <-- import calls definition",
+    "translatedContent": "import type calls from \"../calls\"; // <-- import calls definition"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "LDZKAlUcJiACeeoqULLbNmM95pc13gTy88P9ORJBLe8=",
+    "originContent": "// create a typed client",
+    "translatedContent": "// create a typed client"
+  },
+  {
+    "row": 132,
+    "rowsha": "4U9UoNvKzsYnlw+Y28q7swAuiUBTULSzb+3r4/epdI0=",
+    "originContent": "const client = createClient<ClientDef<typeof calls>>();",
+    "translatedContent": "const client = createClient<ClientDef<typeof calls>>();"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "VWjt8FYAJ/oxgM9PLPVBK6AX5lEGPSt+gq79ddWdn8w=",
+    "originContent": "export default function Home() {",
+    "translatedContent": "export default function Home() {"
+  },
+  {
+    "row": 135,
+    "rowsha": "RT5uL7WeYQTIy4Bw84ybZaX8+4O4diloPhoTzBmG1T4=",
+    "originContent": "  const posts = useQuery([\"posts\"], () => client.posts.getLatest());",
+    "translatedContent": "  const posts = useQuery([\"posts\"], () => client.posts.getLatest());"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+    "originContent": "  return (",
+    "translatedContent": "  return ("
+  },
+  {
+    "row": 138,
+    "rowsha": "Z5cHEeyd9xihw5yHbYXeKVuVQQzNq72nJ94jQTAS3cg=",
+    "originContent": "    <div class=\"container\">",
+    "translatedContent": "    <div class=\"container\">"
+  },
+  {
+    "row": 139,
+    "rowsha": "2IHr83ip6fc5r4FhzLrtWwfh4eVAhJL1Vk+0RWt4g50=",
+    "originContent": "      {posts.data.map(post =>",
+    "translatedContent": "      {posts.data.map(post =>"
+  },
+  {
+    "row": 140,
+    "rowsha": "T7j3LSSMmzXix1ue779BDvCBKeXFI+U5M3QY71QP/M4=",
+    "originContent": "        <div class=\"post\">",
+    "translatedContent": "        <div class=\"post\">"
+  },
+  {
+    "row": 141,
+    "rowsha": "ZI5g9LqxpUjT/7lgozbteNM2Yx4gyh6mN9uh7bHb47k=",
+    "originContent": "          <h2>{post.title}</h2>",
+    "translatedContent": "          <h2>{post.title}</h2>"
+  },
+  {
+    "row": 142,
+    "rowsha": "2kbewIZxJqyUs/e6riZENS+i4svyXlHLw36ou5WBJXQ=",
+    "originContent": "          <p>{post.text}</p>",
+    "translatedContent": "          <p>{post.text}</p>"
+  },
+  {
+    "row": 143,
+    "rowsha": "nDcPvlfR0QUDx9VNqiReJj4lKw+ZQTuVfEa9aKsYUOw=",
+    "originContent": "        </div>",
+    "translatedContent": "        </div>"
+  },
+  {
+    "row": 144,
+    "rowsha": "gV7adOETyT2+tLtd1s5tf44eGAy85nh8vd3sM/ydX14=",
+    "originContent": "      )}",
+    "translatedContent": "      )}"
+  },
+  {
+    "row": 145,
+    "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+    "originContent": "    </div>",
+    "translatedContent": "    </div>"
+  },
+  {
+    "row": 146,
+    "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+    "originContent": "  );",
+    "translatedContent": "  );"
+  },
+  {
+    "row": 147,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 148,
+    "rowsha": "9Hp7r82//dsE1kpQPN9fCl+eZmhCZr/2bZec6mdTCjI=",
+    "originContent": "```    ",
+    "translatedContent": "```    "
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "xf2oDmvVvEmw50MTljSXKwgL9TclBjQxDcD5LAD89OQ=",
+    "originContent": "### Extensive type safety",
+    "translatedContent": "### 광범위한 타입 안전성"
+  },
+  {
+    "row": 151,
+    "rowsha": "l0zq6+AxUUYCdf6DdFMuJ7jTBV0pFANWeg5pZfoZHSg=",
+    "originContent": "Customize builtin objects to fit your needs, while keeping autocompletion and type checking working.",
+    "translatedContent": "자동 완성과 타입 검사를 유지하면서 내장 객체를 필요에 맞게 사용자 정의하세요."
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "LFaLlFmhipavzI9MxW4foEOpDKW9GL6h1gvmXF0RloQ=",
+    "originContent": "You can extend the request context:",
+    "translatedContent": "요청 컨텍스트를 확장할 수 있습니다:"
+  },
+  {
+    "row": 154,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 155,
+    "rowsha": "ReTwqEz0ovkySLiM54YnEliGl10Z/TIWMmUe45Lsx44=",
+    "originContent": "/// <reference types=\"@httpc/kit/env\" />",
+    "translatedContent": "/// <reference types=\"@httpc/kit/env\" />"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "ZUZIVEx5ScPeJwjBec3IJlU0lrZyWKPgtSLJJl483J0=",
+    "originContent": "interface IHttpCContext {",
+    "translatedContent": "interface IHttpCContext {"
+  },
+  {
+    "row": 158,
+    "rowsha": "HpIUEA1UdcbCFGbGl3hjOsPBT+Tf7DKlZf92/nV79qg=",
+    "originContent": "    // example custom property",
+    "translatedContent": "    // example custom property"
+  },
+  {
+    "row": 159,
+    "rowsha": "GCXa8Jg21anC7Ga0WUM+Y+aq5if4+D5cvFJlPSa50nQ=",
+    "originContent": "    environment: string",
+    "translatedContent": "    environment: string"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "eDra0YGEmJduKgBlz2aRXU+YNuoVU4Ojg5B625JDebA=",
+    "originContent": "    // other custom properties here",
+    "translatedContent": "    // other custom properties here"
+  },
+  {
+    "row": 162,
+    "rowsha": "taDktuNB2oTs+UaEmyONoVTzlMbSXe/tldqQd/bP0uU=",
+    "originContent": "    // ...",
+    "translatedContent": "    // ..."
+  },
+  {
+    "row": 163,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 164,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 165,
+    "rowsha": "ho/Gp+gHmKyIB0/wFLlAoTR4UAWVeVXJdtmjtgXCKIQ=",
+    "originContent": "There're many entities available to extend. For example you can redefine the user object with custom properties:",
+    "translatedContent": "확장할 수 있는 엔터티가 많이 있습니다. 예를 들어 사용자 객체를 사용자 정의 속성으로 재정의할 수 있습니다:"
+  },
+  {
+    "row": 166,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 167,
+    "rowsha": "Ph/DzxII6hpJg67Nt7AM0mPoblILQFSrki1rojN3Msk=",
+    "originContent": "interface IUser {",
+    "translatedContent": "interface IUser {"
+  },
+  {
+    "row": 168,
+    "rowsha": "1PS//+B5QPHK9H8hxYUY7Ppml+E94Th9zEIlBZ2fGd4=",
+    "originContent": "    firstName: string",
+    "translatedContent": "    firstName: string"
+  },
+  {
+    "row": 169,
+    "rowsha": "GUzJea8q7hr9bOsfo1jfXZG9WVIQc/7+g1SJe76ElJo=",
+    "originContent": "    lastName: string",
+    "translatedContent": "    lastName: string"
+  },
+  {
+    "row": 170,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 171,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 172,
+    "rowsha": "Z/i6K+nSser/ALLF89+xGtGct7mmsZNIsOb6sYzN7Pw=",
+    "originContent": "Builtin functions and hooks will get the custom definitions and let you use them with type checking.",
+    "translatedContent": "내장 함수 및 훅은 사용자 정의를 받아 타입 검사를 통해 사용할 수 있습니다."
+  },
+  {
+    "row": 173,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 174,
+    "rowsha": "hmRamZURLXuuB7F/yn6tdSTMDtUPz723Fm3nUi5y9Co=",
+    "originContent": "const { firstName } = useUser();",
+    "translatedContent": "const { firstName } = useUser();"
+  },
+  {
+    "row": 175,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "YHPhLKvdSTKz5P8EzPVrLNWF+or3znhnDYthfVBIoA0=",
+    "originContent": "### Custom client generation",
+    "translatedContent": "### 맞춤 클라이언트 생성"
+  },
+  {
+    "row": 178,
+    "rowsha": "tzGmwaL7/UUkCvZIQX4+/UTUOiag662BY1K1SQ4FD2E=",
+    "originContent": "With **@httpc/cli** you can generate a specific client for your API. The generated client ensures type safety and a smooth experience with a natural syntax developers are familiar with.",
+    "translatedContent": "**@httpc/cli**를 사용하면 API에 맞는 특정 클라이언트를 생성할 수 있습니다. 생성된 클라이언트는 타입 안전성을 보장하며 개발자가 익숙한 자연스러운 문법으로 원활한 사용 경험을 제공합니다."
+  },
+  {
+    "row": 179,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 180,
+    "rowsha": "h5szuKosBnH4Hud0jpF6RZ00KNKOvTt+JXohiCPDVio=",
+    "originContent": "const user = await client.users.search(\"some@email.com\");",
+    "translatedContent": "const user = await client.users.search(\"some@email.com\");"
+  },
+  {
+    "row": 181,
+    "rowsha": "zDE253zsq4cfvus7jH3gWw7NmIFZKqWa+IdretfkSRM=",
+    "originContent": "const posts = await client.posts.getByUser(user.id);",
+    "translatedContent": "const posts = await client.posts.getByUser(user.id);"
+  },
+  {
+    "row": 182,
+    "rowsha": "7ZvF+k1pQIIbfRuZVuWHRO9HbC2DpZUzb6sK5+lf5Uk=",
+    "originContent": "const newComment = await client.posts.addComment(posts[0].id, {",
+    "translatedContent": "const newComment = await client.posts.addComment(posts[0].id, {"
+  },
+  {
+    "row": 183,
+    "rowsha": "m3ESl5CSIN2FOU8y0KnY7vt3UqwNAmTACouTB733wR8=",
+    "originContent": "    text: \"Hello\",",
+    "translatedContent": "    text: \"Hello\","
+  },
+  {
+    "row": 184,
+    "rowsha": "SlRrVmb8QMb3KrYm05PFLiF+iU59fYQgVuDTD0fQ/ag=",
+    "originContent": "    userId: user.id",
+    "translatedContent": "    userId: user.id"
+  },
+  {
+    "row": 185,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 186,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 187,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### httpc를 넘어서  "
+  },
+  {
+    "row": 188,
+    "rowsha": "RF9vQI7wvJ+pr2NTbVQBOjm8l9a8bwttRxod9S/rTjU=",
+    "originContent": "### Beyond httpc",
+    "translatedContent": "httpc 서버는 함수 호출에 국한되지 않습니다. 브라우저 폼 제출, 웹훅 콜백, 표준 리디렉션 등 일반적으로 모든 http 요청을 처리할 수 있습니다. `Parsers` (내장된 것이 많음)를 사용하여 서버가 요청을 처리하는 방식을 사용자 정의할 수 있습니다.  "
+  },
+  {
+    "row": 189,
+    "rowsha": "t2LQU4XucyEQ1cDBYTlFppJHj9nwQ9jE55U3Maq00Tg=",
+    "originContent": "The httpc server is not limited to function calls. It can handle browser form submissions, web hook callbacks, standard redirects… and, in general, any http request. By using `Parsers` (there're many builtin), you can customize how the server processes a request.",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "표준 http 요청 처리는 클라이언트를 제어할 수 없는 시나리오에서 필수적입니다. **httpc 서버**는 함수 호출과 일반 http 요청 모두에 응답할 수 있습니다.  "
+  },
+  {
+    "row": 191,
+    "rowsha": "VhtTYBazXm+sEfC8oRWMIWshjYhAVLJU1b/+Y8ZZ2XM=",
+    "originContent": "Handling standard http requests is essential in scenarios where you don't control the client. An **httpc server** allows you to responds to both functions and common http requests.",
+    "translatedContent": ""
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## httpc 패밀리  "
+  },
+  {
+    "row": 193,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**@httpc/server**: 표준 http 프로토콜을 통한 함수 호출을 가능하게 하는 httpc 핵심 컴포넌트  "
+  },
+  {
+    "row": 194,
+    "rowsha": "Aucm1Ms4nQC4//cVH7QfgcXYl0Ae9+a/5y9HqNQTGh0=",
+    "originContent": "## httpc family",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "CwaAppNUf/w6glrrKu8CQeXKgGqgtfXGb98tdHqwoe8=",
+    "originContent": "**@httpc/server**: the httpc core component allowing function calls over the standard http protocol",
+    "translatedContent": "**@httpc/client**: httpc 서버가 노출한 함수와 안전하게 상호작용하기 위해 소비자가 사용하는 타입화된 인터페이스  "
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "Pvv0rgGSRoHAYsEHv201+ZMmI/bLE9eDSDQ781cHfKE=",
+    "originContent": "**@httpc/client**: typed interface used by consumers to interact safely with functions exposed by an httpc server",
+    "translatedContent": "**@httpc/kit**: 인증, 검증, 캐싱, 로깅 같은 일반적인 사용 사례와 비즈니스 문제를 관리하기 위한 풍부한 내장 컴포넌트 툴박스  "
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "gfB0JMqRKeUYT9SQV/uVzjejMkLuVOIV2wO6t5iwNi4=",
+    "originContent": "**@httpc/kit**: rich toolbox of builtin components to manage common use cases and business concerns like authentication, validation, caching and logging",
+    "translatedContent": "**@httpc/cli**: 프로젝트 설정, 클라이언트 생성, 버전 관리 및 일반 작업 지원을 위한 명령어 집합  "
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "W4Az30SR2A28NV/TE1xw6/UqZ1FB18wdt0knbB9t8G0=",
+    "originContent": "**@httpc/cli**: commands to setup a project, generate clients, manage versioning and help with common tasks",
+    "translatedContent": "**@httpc/adapter-\\***: vercel, netlify functions, aws lambda 등 환경 내에서 httpc API를 호스팅하기 위한 다양한 [어댑터](https://httpc.dev/docs/adapters)  "
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "AeaMumAkzNkM/9HDVVAQYpIoMOpNfTVY1Ynjx0EeTcc=",
+    "originContent": "**@httpc/adapter-\\***: various [adapters](https://httpc.dev/docs/adapters) to host an httpc API inside environment like vercel, netlify functions, aws lambda and similar",
+    "translatedContent": "## 프로젝트 상태  "
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**httpc**는 실험 단계입니다. 아직 초기 단계입니다. 시도해보고, 개인 프로젝트에 적용할 수 있습니다. 하지만 프로덕션용으로는 준비되지 않았습니다.  "
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<br />  "
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "API는 아직 안정적이지 않습니다. 파괴적 변경이 발생할 수 있습니다.  "
+  },
+  {
+    "row": 207,
+    "rowsha": "4h39qUY+B/Rcz8QMJZt62+lIJvT3mXwR3Mk7DXlGHDk=",
+    "originContent": "## Project status",
+    "translatedContent": "<br />  "
+  },
+  {
+    "row": 208,
+    "rowsha": "ka1Yb/ne0qMorBr9ksQ0W2kpUdjDI+7ovPYYKYUsq+c=",
+    "originContent": "**httpc** is experimental. It's in its infancy stage. You can try it, adopt it in hobby projects. But it's not ready for production.",
+    "translatedContent": "**httpc**는 활발히 개발 중입니다. 향후 기능에 대해서는 [변경 로그](https://httpc.dev/changelog)와 [로드맵](https://httpc.dev/roadmap)을 확인할 수 있습니다.  "
+  },
+  {
+    "row": 209,
+    "rowsha": "ehcYo8xYuYV7nQFLGhjTB5+eE1Gr/pDU+GS2vkLDTJ0=",
+    "originContent": "<br />",
+    "translatedContent": ""
+  },
+  {
+    "row": 210,
+    "rowsha": "7Mpr26+n7UjvGvfMkb84M/OF3wHQphPTXutqw98wvXI=",
+    "originContent": "The API is not stable yet. Breaking changes will happen.",
+    "translatedContent": "## 참여  "
+  },
+  {
+    "row": 211,
+    "rowsha": "ehcYo8xYuYV7nQFLGhjTB5+eE1Gr/pDU+GS2vkLDTJ0=",
+    "originContent": "<br />",
+    "translatedContent": "### 커뮤니티  "
+  },
+  {
+    "row": 212,
+    "rowsha": "MbjHawrKBLeGTAZMmrRoDRBUby7EyURSZFaHl/DTApM=",
+    "originContent": "**httpc** is under heavy development. You can checkout the [Changelog](https://httpc.dev/changelog) and the [Roadmap](https://httpc.dev/roadmap) for future features.",
+    "translatedContent": "[Discord](https://httpc.dev/discord)에서 참여하여 개발 상황을 팔로우하고, 기여를 논의하며, 지원을 받거나 도움을 요청할 수 있습니다. [Github 토론](https://httpc.dev/discuss) 참여도 가능합니다.  "
+  },
+  {
+    "row": 213,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 214,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 이슈 제기  "
+  },
+  {
+    "row": 215,
+    "rowsha": "jUaM/OENJitwPaWjN3NBxHkaYFrkw/GCgf2Jj4sWKWE=",
+    "originContent": "## Involvement",
+    "translatedContent": "버그, 기능 요청 또는 제안 사항이 있으면 [이슈를 등록](https://httpc.dev/issues/new)할 수 있습니다. 모든 이슈는 [Github](https://httpc.dev/issues)에서 확인할 수 있습니다.  "
+  },
+  {
+    "row": 216,
+    "rowsha": "ScS5c8WOjZFgskLCGukUlsh1nMqmde1C6a2UmPC+n5E=",
+    "originContent": "### Community",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "DCy3ijk32zAF5s9Yo5FrQ+hX7FdUgJiScaX+PcLtRrg=",
+    "originContent": "You can join on [Discord](https://httpc.dev/discord) and follow the development, discuss contributions, receive support or ask for help. Participation in [Github discussion](https://httpc.dev/discuss) is fine too.",
+    "translatedContent": "### 기여  "
+  },
+  {
+    "row": 218,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "모든 기여를 환영합니다. 모든 PR, 이슈, 피드백은 소중히 다룹니다. [기여 가이드](https://httpc.dev/contribute)를 확인하세요.  "
+  },
+  {
+    "row": 219,
+    "rowsha": "AEZR1eB2VdNaRfUKs8j1jVhvvCB+tCpVXyDVJ44yPS8=",
+    "originContent": "### File an Issue",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "Gay4FXHkaNfuW3RYyB79pP0VGSLxolLT4LC6VUwEw5w=",
+    "originContent": "For any bugs, feature requests or proposals you can [file an issue](https://httpc.dev/issues/new). All issues are available on [Github](https://httpc.dev/issues).",
+    "translatedContent": "## 라이선스  "
+  },
+  {
+    "row": 221,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MIT © [Giuseppe La Torre](https://github.com/giuseppelt)"
+  },
+  {
+    "row": 222,
+    "rowsha": "5ww9yAUhltb679bzey3v6rRmdriJbfvnrASADmXR90c=",
+    "originContent": "### Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 223,
+    "rowsha": "xRXjg8EZBfYX5U0tFdh/7sEFJ2mH//8vANF+CHPzC3A=",
+    "originContent": "All contribution are welcome. Any PR, issue and feedback is appreciated. Checkout the [contribution guide](https://httpc.dev/contribute).",
+    "translatedContent": ""
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 226,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 227,
+    "rowsha": "srZu3ALjCwCFdcyssNYXgOYYhkJAmSV0wmEdWbtZ8G0=",
+    "originContent": "MIT © [Giuseppe La Torre](https://github.com/giuseppelt)",
+    "translatedContent": ""
+  },
+  {
+    "row": 228,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
