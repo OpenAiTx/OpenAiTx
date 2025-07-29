@@ -1,541 +1,541 @@
 [
   {
     "Id": 1,
-    "Content": "[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)\n\n# Home Assistant Cupertino Icons\nApple SF Symbols Icons for Home Assistant! (3000+ Icons)\n\n<div style=\"display: inline-block;\">\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/lightbulb_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/lightbulb.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/alarm.svg\" alt=\"preview\" width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/app_badge_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/battery_25.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed_double_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  <br/>\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/camera_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/cloud_moon_rain.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/cloud_sun.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/moon_stars.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/moon_zzz_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/person_crop_circle_badge_checkmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/speaker_2_fill.svg\" alt=\"preview\"  width=\"50\"/>\n</div>\n\n## Install\n### HACS (Recommended)\n1. **HACS** tab > Menu > **Custom Repository**\n4. Paste this repo's URL\n5. Select **Integration** in the dropdown\n6. Install **cupertino-icons** from HACS\n7. Restart Home Assistant\n8. Home Assistant > Settings > Integrations > Add > Cupertino Icons > Install\n\nThe icons should be usable in Home Assistant now. If it doesnt show up, try refreshing the page, private browsing or restart Home Assistant.\n\n### Manual\n1. Copy `custom_components/cupertino` into your custom_components folder\n7. Restart Home Assistant\n8. Home Assistant > Settings > Integrations > Add > Cupertino Icons > Install\n  \nThe icons should be usable in Home Assistant now. If it doesnt show up, try refreshing the page, private browsing or restart Home Assistant\n\n## Usage\nPrefix: **ios**  \nEg: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**\n\n## Multi-Color Icons! (v3.0+)\n<div style=\"display: inline-block;\">\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/antenna-radiowaves-left-and-right-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/aqi-high.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/clock-badge-exclamationmark-fill.svg\" alt=\"preview\" width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/circle-hexagongrid-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/drop-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/eye-trianglebadge-exclamationmark-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  <br/>\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/desktopcomputer-trianglebadge-exclamationmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/fork-knife-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed-double-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg\" alt=\"preview\"  width=\"50\"/>\n</div>\n\n\nSF Symbols 3+ supports multi-color icons. This functionality has been ported into this repo to support multi-color icons in Home Assistant!  \n\nJust add Suffixes **#color**, **#invert**, **#color-invert** or **#fullcolor** to change the icon colors! (Credit to [thomasloven](https://github.com/thomasloven/hass-fontawesome) for the inspiration)\n\nEg:\n - ios:gear-badge-xmark#color\n - ios:gear-badge-xmark#color-invert\n - ios:gear-badge-xmark#fullcolor\n\n## Icon Reference\n",
-    "ContentSha": "EUtQ9cQpe7oMlWGb40IPJ/39IVAL8QfBym0rLaphAO4=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)\n\n# Home Assistant Cupertino Icons\nApple SF Symbols Icons for Home Assistant! (3000+ Icons)\n\n<div style=\"display: inline-block;\">\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/lightbulb_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/lightbulb.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/alarm.svg\" alt=\"preview\" width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/app_badge_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/battery_25.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed_double_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  <br/>\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/camera_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/cloud_moon_rain.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/cloud_sun.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/moon_stars.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/moon_zzz_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/person_crop_circle_badge_checkmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/speaker_2_fill.svg\" alt=\"preview\"  width=\"50\"/>\n</div>\n\n## Install\n### HACS (Recommended)\n1. **HACS** tab > Menu > **Custom Repository**\n4. Paste this repo's URL\n5. Select **Integration** in the dropdown\n6. Install **cupertino-icons** from HACS\n7. Restart Home Assistant\n8. Home Assistant > Settings > Integrations > Add > Cupertino Icons > Install\n\nThe icons should be usable in Home Assistant now. If it doesnt show up, try refreshing the page, private browsing or restart Home Assistant.\n\n### Manual\n1. Copy `custom_components/cupertino` into your custom_components folder\n7. Restart Home Assistant\n8. Home Assistant > Settings > Integrations > Add > Cupertino Icons > Install\n  \nThe icons should be usable in Home Assistant now. If it doesnt show up, try refreshing the page, private browsing or restart Home Assistant\n\n## Usage\nPrefix: **ios**  \nEg: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**\n\n## Multi-Color Icons! (v3.0+)\n<div style=\"display: inline-block;\">\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/antenna-radiowaves-left-and-right-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/aqi-high.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/clock-badge-exclamationmark-fill.svg\" alt=\"preview\" width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/circle-hexagongrid-fill.svg\" alt=\"preview\"  width=\"50\"/>",
+    "ContentSha": "63s27PTLz5GP8M5sQudwWGRgbsHWSQaznaqseBAweyU=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)\n\n# 홈 어시스턴트 쿠퍼티노 아이콘\n홈 어시스턴트를 위한 애플 SF 심볼 아이콘! (3000+ 아이콘)\n\n<div style=\"display: inline-block;\">\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/lightbulb_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/lightbulb.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/alarm.svg\" alt=\"preview\" width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/app_badge_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/battery_25.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed_double_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  <br/>\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/camera_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/cloud_moon_rain.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/cloud_sun.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/moon_stars.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/moon_zzz_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/person_crop_circle_badge_checkmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/speaker_2_fill.svg\" alt=\"preview\"  width=\"50\"/>\n</div>\n\n## 설치\n### HACS (권장)\n1. **HACS** 탭 > 메뉴 > **커스텀 저장소**\n4. 이 저장소의 URL 붙여넣기\n5. 드롭다운에서 **통합** 선택\n6. HACS에서 **cupertino-icons** 설치\n7. 홈 어시스턴트 재시작\n8. 홈 어시스턴트 > 설정 > 통합 > 추가 > Cupertino Icons > 설치\n\n이제 홈 어시스턴트에서 아이콘을 사용할 수 있습니다. 아이콘이 보이지 않는 경우 페이지 새로고침, 시크릿 모드 사용 또는 홈 어시스턴트 재시작을 시도해보세요.\n\n### 수동 설치\n1. `custom_components/cupertino`를 custom_components 폴더에 복사\n7. 홈 어시스턴트 재시작\n8. 홈 어시스턴트 > 설정 > 통합 > 추가 > Cupertino Icons > 설치\n  \n이제 홈 어시스턴트에서 아이콘을 사용할 수 있습니다. 아이콘이 보이지 않는 경우 페이지 새로고침, 시크릿 모드 사용 또는 홈 어시스턴트 재시작을 시도해보세요.\n\n## 사용법\n접두사: **ios**  \n예: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**\n\n## 다중 색상 아이콘! (v3.0+)\n<div style=\"display: inline-block;\">\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/antenna-radiowaves-left-and-right-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/aqi-high.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/clock-badge-exclamationmark-fill.svg\" alt=\"preview\" width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/circle-hexagongrid-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/drop-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/eye-trianglebadge-exclamationmark-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  <br/>\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/desktopcomputer-trianglebadge-exclamationmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/fork-knife-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed-double-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg\" alt=\"preview\"  width=\"50\"/>\n</div>\n\n\nSF Symbols 3+는 다중 색상 아이콘을 지원합니다. 이 기능이 이 저장소에 포팅되어 홈 어시스턴트에서 다중 색상 아이콘을 지원합니다!  \n\n아이콘 색상을 변경하려면 접미사 **#color**, **#invert**, **#color-invert** 또는 **#fullcolor**를 추가하세요! (영감은 [thomasloven](https://github.com/thomasloven/hass-fontawesome)에게 감사드립니다)\n\n예:\n - ios:gear-badge-xmark#color\n - ios:gear-badge-xmark#color-invert\n - ios:gear-badge-xmark#fullcolor\n\n## 아이콘 참조\n",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)\n\n# Home Assistant Cupertino 아이콘\nHome Assistant용 Apple SF Symbols 아이콘! (3000개 이상 아이콘)\n\n<div style=\"display: inline-block;\">\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/lightbulb_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/lightbulb.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/alarm.svg\" alt=\"preview\" width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/app_badge_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/battery_25.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed_double_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  <br/>\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/camera_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/cloud_moon_rain.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/cloud_sun.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/moon_stars.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/moon_zzz_fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/person_crop_circle_badge_checkmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/speaker_2_fill.svg\" alt=\"preview\"  width=\"50\"/>\n</div>\n\n## 설치\n### HACS (권장)\n1. **HACS** 탭 > 메뉴 > **Custom Repository**\n4. 이 저장소의 URL을 붙여넣기\n5. 드롭다운에서 **Integration** 선택\n6. HACS에서 **cupertino-icons** 설치\n7. Home Assistant 재시작\n8. Home Assistant > 설정 > 통합 > 추가 > Cupertino Icons > 설치\n\n이제 아이콘을 Home Assistant에서 사용할 수 있습니다. 만약 표시되지 않으면 페이지 새로고침, 시크릿 브라우징 또는 Home Assistant 재시작을 시도하세요.\n\n### 수동 설치\n1. `custom_components/cupertino`를 custom_components 폴더에 복사\n7. Home Assistant 재시작\n8. Home Assistant > 설정 > 통합 > 추가 > Cupertino Icons > 설치\n  \n이제 아이콘을 Home Assistant에서 사용할 수 있습니다. 만약 표시되지 않으면 페이지 새로고침, 시크릿 브라우징 또는 Home Assistant 재시작을 시도하세요.\n\n## 사용법\n접두사: **ios**  \n예시: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**\n\n## 다중 색상 아이콘! (v3.0+)\n<div style=\"display: inline-block;\">\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/antenna-radiowaves-left-and-right-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/aqi-high.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/clock-badge-exclamationmark-fill.svg\" alt=\"preview\" width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/circle-hexagongrid-fill.svg\" alt=\"preview\"  width=\"50\"/>",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 언어</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "xy8LKK3iJ2tVZiFgnQpj+igwDgdc3uBn5OU5vpuzyL0=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "ao4YiujRj1ShbzMtMHzgktX8ggrWmH1t2fpYZj3Mu7M=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "Jytk6eARuuqovGr4p26Dw9tYQVyWgdRRInLraj0iL9E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "OUaoA7gsXwscawoXF8zm33tuUdFx7PI7wS9zSuK+M5A=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "hx/AsT+uwVmJWvnSuMpAzmueA1b18HI5no90hyhcmaY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "W2lxMtY6mWvVe6ZaXXQBdcRTMbBsTwXNe35FLtH+FVY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "wm6YzrC794vOM6pX+RCHfCEeqNlpZjZ3VsiDmQgN/s8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "6utYrIEf/qgKVNlwCWyVhhFCFdzuJ9txW9qtWBAWDto=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "yVXz1bCIWRfzu1ZSduUcWvZXYz8dNz/LIHm7YFkiloE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "TM7SXUehJSxyJ7E9wLjDYNzgHGRkJI8Z0ER4ucaRB4M=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "/nnD8JuyhwU0qxQm0zmqc5wmb80XrjqqWbAMiaq1ahA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "sG60O5Jop/7bmM5l+618iccK8++lwlDV78ZQqGt5x34=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "n9qPidc8J4PoaSiL1vXCLvGgRkK+3tQ7/PflGHGeoLQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "wcxdSJA8x25ywYOYlNhu1casuSfkOd+ikAcsu/OSciY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "1p2591kYIW5JjToUYulaQ0t/NGw5kT7MEUPdavDfMa4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "TR6ZitKrEa1+JmzfcaDmUYhgU8xl8ZmiTvomkthHpqg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "kkIOSEmrYhVwNeXA2evvPtjPLKep4+Ec+6ZWnKyUyIk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "g2Dg2M1Y+ntKpPN8YcL2mLTHToNqV1PJQwS/sF6bfeI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "fwBC4+cCoFk2fe+3p/KuZ4fXQ03+YJXRD6brLCW2WCk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "H3FHMzliOucd5iEnYkXT0iulX5ArpOIJdTpwQjYt9C0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "JxEpY/VwpgULoeT/UE+99kglpF7U6y5SIytPNLtSz9Y=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
         "rowsha": "vceB1JRxk6UU608nTgSgm4BQWeEIt0L69nqBhzFzoZ4=",
         "originContent": "[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)",
         "translatedContent": "[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)"
       },
       {
-        "row": 2,
+        "row": 34,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 3,
+        "row": 35,
         "rowsha": "bs5NzY0CqEcan6yTBzcbQA2JLUFhjWD1CUsAPt8YFaM=",
         "originContent": "# Home Assistant Cupertino Icons",
-        "translatedContent": "# 홈 어시스턴트 쿠퍼티노 아이콘"
+        "translatedContent": "# Home Assistant Cupertino 아이콘"
       },
       {
-        "row": 4,
+        "row": 36,
         "rowsha": "6y9T3GnVD3f/P08QI4WCHk66mRPz+WXGrgcrYxgVhGk=",
         "originContent": "Apple SF Symbols Icons for Home Assistant! (3000+ Icons)",
-        "translatedContent": "홈 어시스턴트를 위한 애플 SF 심볼 아이콘! (3000+ 아이콘)"
+        "translatedContent": "Home Assistant용 Apple SF Symbols 아이콘! (3000개 이상 아이콘)"
       },
       {
-        "row": 5,
+        "row": 37,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 6,
+        "row": 38,
         "rowsha": "cANfaO8a1b2zND80H0i2W+3UWDVVGhFDEHOc8bDvgSo=",
         "originContent": "<div style=\"display: inline-block;\">",
         "translatedContent": "<div style=\"display: inline-block;\">"
       },
       {
-        "row": 7,
+        "row": 39,
         "rowsha": "bzzN5GdkRo1Cswp/aezfE4yfrbAbj5d7l5SYXbgOg6E=",
         "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg\" alt=\"preview\"  width=\"50\"/>",
         "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
-        "row": 8,
+        "row": 40,
         "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
         "originContent": "  &nbsp;&nbsp;&nbsp;",
         "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
-        "row": 9,
+        "row": 41,
         "rowsha": "7RJbGrdeG/20AWdQGU/0qzXyj/6MVq3Y/clabHDWL4o=",
         "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/lightbulb_fill.svg\" alt=\"preview\"  width=\"50\"/>",
         "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/lightbulb_fill.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
-        "row": 10,
+        "row": 42,
         "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
         "originContent": "  &nbsp;&nbsp;&nbsp;",
         "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
-        "row": 11,
+        "row": 43,
         "rowsha": "XrL1sVcvXTYgwqPdHlc1MiQvnRUVSseNdAQ6SjLclfc=",
         "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/lightbulb.svg\" alt=\"preview\"  width=\"50\"/>",
         "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/lightbulb.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
-        "row": 12,
+        "row": 44,
         "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
         "originContent": "  &nbsp;&nbsp;&nbsp;",
         "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
-        "row": 13,
+        "row": 45,
         "rowsha": "AHRjV3tMv8qCZMO9LGBPVyfjxBCuNXyG6B0NOW3BGJU=",
         "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/alarm.svg\" alt=\"preview\" width=\"50\"/>",
         "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/alarm.svg\" alt=\"preview\" width=\"50\"/>"
       },
       {
-        "row": 14,
+        "row": 46,
         "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
         "originContent": "  &nbsp;&nbsp;&nbsp;",
         "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
-        "row": 15,
+        "row": 47,
         "rowsha": "wRiC6Gb5uK6IcZS0D+QPmccdTqoonwg0XcRYArlXY1I=",
         "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/app_badge_fill.svg\" alt=\"preview\"  width=\"50\"/>",
         "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/app_badge_fill.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
-        "row": 16,
+        "row": 48,
         "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
         "originContent": "  &nbsp;&nbsp;&nbsp;",
         "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
-        "row": 17,
+        "row": 49,
         "rowsha": "5V5LvKRBvUKj9d9teYES1ARbLF8r7HUaewOpD/zZnBI=",
         "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/battery_25.svg\" alt=\"preview\"  width=\"50\"/>",
         "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/battery_25.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
-        "row": 18,
+        "row": 50,
         "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
         "originContent": "  &nbsp;&nbsp;&nbsp;",
         "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
-        "row": 19,
+        "row": 51,
         "rowsha": "pOEljRXD+sWt3iS7v0BWxJaageiTkJQvGflDBHoNEZQ=",
         "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed_double_fill.svg\" alt=\"preview\"  width=\"50\"/>",
         "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed_double_fill.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
-        "row": 20,
+        "row": 52,
         "rowsha": "fg0QoxpK2vHpC4Hk2JStz8AU27gMhcHNe3pAop2mDsA=",
         "originContent": "  <br/>",
         "translatedContent": "  <br/>"
       },
       {
-        "row": 21,
+        "row": 53,
         "rowsha": "FxSARDXiG4B8QKgkS5zmtiDoO1zcKXbMeJBgyvPfMrg=",
         "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/camera_fill.svg\" alt=\"preview\"  width=\"50\"/>",
         "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/camera_fill.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
-        "row": 22,
+        "row": 54,
         "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
         "originContent": "  &nbsp;&nbsp;&nbsp;",
         "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
-        "row": 23,
+        "row": 55,
         "rowsha": "OyM9nqPfqjIUWWm80hOPfosG0unUJ7JvnkZmJOvJibE=",
         "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/cloud_moon_rain.svg\" alt=\"preview\"  width=\"50\"/>",
         "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/cloud_moon_rain.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
-        "row": 24,
+        "row": 56,
         "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
         "originContent": "  &nbsp;&nbsp;&nbsp;",
         "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
-        "row": 25,
+        "row": 57,
         "rowsha": "e+ZR3g8r8BviT+0+yfe9hypnYA1eeUyN8oNFgoYf9aw=",
         "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/cloud_sun.svg\" alt=\"preview\"  width=\"50\"/>",
         "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/cloud_sun.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
-        "row": 26,
+        "row": 58,
         "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
         "originContent": "  &nbsp;&nbsp;&nbsp;",
         "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
-        "row": 27,
+        "row": 59,
         "rowsha": "Nrys+fHKK1NOcth7tKwO+uXBdpdV0OnR3t8gn9poh3s=",
         "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/moon_stars.svg\" alt=\"preview\"  width=\"50\"/>",
         "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/moon_stars.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
-        "row": 28,
+        "row": 60,
         "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
         "originContent": "  &nbsp;&nbsp;&nbsp;",
         "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
-        "row": 29,
+        "row": 61,
         "rowsha": "D1JwgyrnwKC0G2r1Q5cVhcuUkWLfdyk/FLe52DVBE/A=",
         "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/moon_zzz_fill.svg\" alt=\"preview\"  width=\"50\"/>",
         "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/moon_zzz_fill.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
-        "row": 30,
+        "row": 62,
         "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
         "originContent": "  &nbsp;&nbsp;&nbsp;",
         "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
-        "row": 31,
+        "row": 63,
         "rowsha": "vbRFfveQmYQ+lIKHrkz4F+fJ/Pyps6qHwJQs8m6bQeg=",
         "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/person_crop_circle_badge_checkmark.svg\" alt=\"preview\"  width=\"50\"/>",
         "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/person_crop_circle_badge_checkmark.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
-        "row": 32,
+        "row": 64,
         "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
         "originContent": "  &nbsp;&nbsp;&nbsp;",
         "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
-        "row": 33,
+        "row": 65,
         "rowsha": "Msc6QhbxOglwsG1X9/6anSjzsp8orc9ntb+MNcfdb1o=",
         "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/speaker_2_fill.svg\" alt=\"preview\"  width=\"50\"/>",
         "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/speaker_2_fill.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
-        "row": 34,
+        "row": 66,
         "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
         "originContent": "</div>",
         "translatedContent": "</div>"
       },
       {
-        "row": 35,
+        "row": 67,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 36,
+        "row": 68,
         "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
         "originContent": "## Install",
         "translatedContent": "## 설치"
       },
       {
-        "row": 37,
+        "row": 69,
         "rowsha": "Aq5ATrYouDf5PZPTwD23pAlLQUMAOMHoLVeSNt+OP9U=",
         "originContent": "### HACS (Recommended)",
         "translatedContent": "### HACS (권장)"
       },
       {
-        "row": 38,
+        "row": 70,
         "rowsha": "nhADTAGZpf+hDpTzIE+0bx0kc1tdaqyJc+yXqVp2xkc=",
         "originContent": "1. **HACS** tab > Menu > **Custom Repository**",
-        "translatedContent": "1. **HACS** 탭 > 메뉴 > **커스텀 저장소**"
+        "translatedContent": "1. **HACS** 탭 > 메뉴 > **Custom Repository**"
       },
       {
-        "row": 39,
+        "row": 71,
         "rowsha": "OnzNEnWHZHg3f6S877bTJvoqGH3/WUjjZzLEnousl98=",
         "originContent": "4. Paste this repo's URL",
-        "translatedContent": "4. 이 저장소의 URL 붙여넣기"
+        "translatedContent": "4. 이 저장소의 URL을 붙여넣기"
       },
       {
-        "row": 40,
+        "row": 72,
         "rowsha": "xnVAWVrj4qZd89UpgFZ19Woisc6IyLU/5jMy9EbpCh0=",
         "originContent": "5. Select **Integration** in the dropdown",
-        "translatedContent": "5. 드롭다운에서 **통합** 선택"
+        "translatedContent": "5. 드롭다운에서 **Integration** 선택"
       },
       {
-        "row": 41,
+        "row": 73,
         "rowsha": "cwkxfLCUgUXFF/bcFBt8xWMGne7uUZgKkVQqd4B85vM=",
         "originContent": "6. Install **cupertino-icons** from HACS",
         "translatedContent": "6. HACS에서 **cupertino-icons** 설치"
       },
       {
-        "row": 42,
+        "row": 74,
         "rowsha": "bzp8LOiKpJH5GA8K/MgamZnbcaoPfa1ZavOSPnK8Ftk=",
         "originContent": "7. Restart Home Assistant",
-        "translatedContent": "7. 홈 어시스턴트 재시작"
+        "translatedContent": "7. Home Assistant 재시작"
       },
       {
-        "row": 43,
+        "row": 75,
         "rowsha": "d+KaROzxzudB8XIDQwu87VYyu5TvJsdoQ2Huk+Bcsuc=",
         "originContent": "8. Home Assistant > Settings > Integrations > Add > Cupertino Icons > Install",
-        "translatedContent": "8. 홈 어시스턴트 > 설정 > 통합 > 추가 > Cupertino Icons > 설치"
+        "translatedContent": "8. Home Assistant > 설정 > 통합 > 추가 > Cupertino Icons > 설치"
       },
       {
-        "row": 44,
+        "row": 76,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 45,
+        "row": 77,
         "rowsha": "XHZB1I1EUdAC4m6MDd9JTiP2akaf8d0CNdjtZyW+HBs=",
         "originContent": "The icons should be usable in Home Assistant now. If it doesnt show up, try refreshing the page, private browsing or restart Home Assistant.",
-        "translatedContent": "이제 홈 어시스턴트에서 아이콘을 사용할 수 있습니다. 아이콘이 보이지 않는 경우 페이지 새로고침, 시크릿 모드 사용 또는 홈 어시스턴트 재시작을 시도해보세요."
+        "translatedContent": "이제 아이콘을 Home Assistant에서 사용할 수 있습니다. 만약 표시되지 않으면 페이지 새로고침, 시크릿 브라우징 또는 Home Assistant 재시작을 시도하세요."
       },
       {
-        "row": 46,
+        "row": 78,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 47,
+        "row": 79,
         "rowsha": "9OG0gmh7hn/goGKXiq1OEJ97bhWCg/x49US2cADdZYc=",
         "originContent": "### Manual",
         "translatedContent": "### 수동 설치"
       },
       {
-        "row": 48,
+        "row": 80,
         "rowsha": "TN0lDJf1QbHwDOUwQem939aCGTo9SxnzNNkbfTyxpx8=",
         "originContent": "1. Copy `custom_components/cupertino` into your custom_components folder",
         "translatedContent": "1. `custom_components/cupertino`를 custom_components 폴더에 복사"
       },
       {
-        "row": 49,
+        "row": 81,
         "rowsha": "bzp8LOiKpJH5GA8K/MgamZnbcaoPfa1ZavOSPnK8Ftk=",
         "originContent": "7. Restart Home Assistant",
-        "translatedContent": "7. 홈 어시스턴트 재시작"
+        "translatedContent": "7. Home Assistant 재시작"
       },
       {
-        "row": 50,
+        "row": 82,
         "rowsha": "d+KaROzxzudB8XIDQwu87VYyu5TvJsdoQ2Huk+Bcsuc=",
         "originContent": "8. Home Assistant > Settings > Integrations > Add > Cupertino Icons > Install",
-        "translatedContent": "8. 홈 어시스턴트 > 설정 > 통합 > 추가 > Cupertino Icons > 설치"
+        "translatedContent": "8. Home Assistant > 설정 > 통합 > 추가 > Cupertino Icons > 설치"
       },
       {
-        "row": 51,
+        "row": 83,
         "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
         "originContent": "  ",
         "translatedContent": "  "
       },
       {
-        "row": 52,
+        "row": 84,
         "rowsha": "pxezkPNYmiftON/mZfng5SnZQsA8P+0jOlqM5fHcGXo=",
         "originContent": "The icons should be usable in Home Assistant now. If it doesnt show up, try refreshing the page, private browsing or restart Home Assistant",
-        "translatedContent": "이제 홈 어시스턴트에서 아이콘을 사용할 수 있습니다. 아이콘이 보이지 않는 경우 페이지 새로고침, 시크릿 모드 사용 또는 홈 어시스턴트 재시작을 시도해보세요."
+        "translatedContent": "이제 아이콘을 Home Assistant에서 사용할 수 있습니다. 만약 표시되지 않으면 페이지 새로고침, 시크릿 브라우징 또는 Home Assistant 재시작을 시도하세요."
       },
       {
-        "row": 53,
+        "row": 85,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 54,
+        "row": 86,
         "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
         "originContent": "## Usage",
         "translatedContent": "## 사용법"
       },
       {
-        "row": 55,
+        "row": 87,
         "rowsha": "bperIJdPYPQtSgN+yzVavwP8ivq4J3dDYM8w4HdUjts=",
         "originContent": "Prefix: **ios**  ",
         "translatedContent": "접두사: **ios**  "
       },
       {
-        "row": 56,
+        "row": 88,
         "rowsha": "jpuUI2dNnZ/xK6XL5H8ZZnnc0GybSSl1mxZX7c13NLo=",
         "originContent": "Eg: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**",
-        "translatedContent": "예: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**"
-      },
-      {
-        "row": 57,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 58,
-        "rowsha": "9Y/avA7MlN4OHkilL30UGKjD6U2KhQQOR1v3tVTypL8=",
-        "originContent": "## Multi-Color Icons! (v3.0+)",
-        "translatedContent": "## 다중 색상 아이콘! (v3.0+)"
-      },
-      {
-        "row": 59,
-        "rowsha": "cANfaO8a1b2zND80H0i2W+3UWDVVGhFDEHOc8bDvgSo=",
-        "originContent": "<div style=\"display: inline-block;\">",
-        "translatedContent": "<div style=\"display: inline-block;\">"
-      },
-      {
-        "row": 60,
-        "rowsha": "6+UQuYgHRA1dl8R/ECd41kShE8tWudszlzvjPBla9gc=",
-        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg\" alt=\"preview\"  width=\"50\"/>",
-        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg\" alt=\"preview\"  width=\"50\"/>"
-      },
-      {
-        "row": 61,
-        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
-        "originContent": "  &nbsp;&nbsp;&nbsp;",
-        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
-      },
-      {
-        "row": 62,
-        "rowsha": "vHGUl9xldDTDhJpf6tjGnV8qosLV0NTcjNi+RkuKQnY=",
-        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/antenna-radiowaves-left-and-right-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>",
-        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/antenna-radiowaves-left-and-right-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>"
-      },
-      {
-        "row": 63,
-        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
-        "originContent": "  &nbsp;&nbsp;&nbsp;",
-        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
-      },
-      {
-        "row": 64,
-        "rowsha": "2ckPToSng82Fy2M7hRhnTSWop6Kb4PZvjnZS1pEbzT4=",
-        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/aqi-high.svg\" alt=\"preview\"  width=\"50\"/>",
-        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/aqi-high.svg\" alt=\"preview\"  width=\"50\"/>"
-      },
-      {
-        "row": 65,
-        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
-        "originContent": "  &nbsp;&nbsp;&nbsp;",
-        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
-      },
-      {
-        "row": 66,
-        "rowsha": "oo34OjHOStV04YCsretF/7XZ3GgdTc2RDeHvF3wOx80=",
-        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/clock-badge-exclamationmark-fill.svg\" alt=\"preview\" width=\"50\"/>",
-        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/clock-badge-exclamationmark-fill.svg\" alt=\"preview\" width=\"50\"/>"
-      },
-      {
-        "row": 67,
-        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
-        "originContent": "  &nbsp;&nbsp;&nbsp;",
-        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
-      },
-      {
-        "row": 68,
-        "rowsha": "jiFpIzKLmiMOf2lpGHbPBfc0mS8y+l23SQ/Z1AIbZEU=",
-        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/circle-hexagongrid-fill.svg\" alt=\"preview\"  width=\"50\"/>",
-        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/circle-hexagongrid-fill.svg\" alt=\"preview\"  width=\"50\"/>"
-      },
-      {
-        "row": 69,
-        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
-        "originContent": "  &nbsp;&nbsp;&nbsp;",
-        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
-      },
-      {
-        "row": 70,
-        "rowsha": "KebEnlj8A5p3owIaqfRN15UdAZ9TTbeXh3qh8e4q6fc=",
-        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/drop-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>",
-        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/drop-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>"
-      },
-      {
-        "row": 71,
-        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
-        "originContent": "  &nbsp;&nbsp;&nbsp;",
-        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
-      },
-      {
-        "row": 72,
-        "rowsha": "QBd0khuoDpAcWvn2wXwTFdZXq7IrWN3+1VE1Uye3Bv0=",
-        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/eye-trianglebadge-exclamationmark-fill.svg\" alt=\"preview\"  width=\"50\"/>",
-        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/eye-trianglebadge-exclamationmark-fill.svg\" alt=\"preview\"  width=\"50\"/>"
-      },
-      {
-        "row": 73,
-        "rowsha": "fg0QoxpK2vHpC4Hk2JStz8AU27gMhcHNe3pAop2mDsA=",
-        "originContent": "  <br/>",
-        "translatedContent": "  <br/>"
-      },
-      {
-        "row": 74,
-        "rowsha": "veYRNs0b9MDhjA0BI6VyavxbA9j4YA1t11Eu4X+GUeM=",
-        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/desktopcomputer-trianglebadge-exclamationmark.svg\" alt=\"preview\"  width=\"50\"/>",
-        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/desktopcomputer-trianglebadge-exclamationmark.svg\" alt=\"preview\"  width=\"50\"/>"
-      },
-      {
-        "row": 75,
-        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
-        "originContent": "  &nbsp;&nbsp;&nbsp;",
-        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
-      },
-      {
-        "row": 76,
-        "rowsha": "KafDodfV5TUh8kKC9SPmthhVQY1H414A/yDHrZMddLo=",
-        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/fork-knife-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>",
-        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/fork-knife-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>"
-      },
-      {
-        "row": 77,
-        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
-        "originContent": "  &nbsp;&nbsp;&nbsp;",
-        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
-      },
-      {
-        "row": 78,
-        "rowsha": "QPT+LT/Z6iMWFWQB59z7bILCgOmA+Ja8PNSqsG8LZDQ=",
-        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>",
-        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>"
-      },
-      {
-        "row": 79,
-        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
-        "originContent": "  &nbsp;&nbsp;&nbsp;",
-        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
-      },
-      {
-        "row": 80,
-        "rowsha": "ZGmU5wC3BBNaDajk7FxCCMWpoo7ehNkIaKvuS8uhrfg=",
-        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed-double-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>",
-        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed-double-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>"
-      },
-      {
-        "row": 81,
-        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
-        "originContent": "  &nbsp;&nbsp;&nbsp;",
-        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
-      },
-      {
-        "row": 82,
-        "rowsha": "OOEXaGoMc7LLiBoGYniAWPKouo0LJlkok1yUBXZIqvM=",
-        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg\" alt=\"preview\"  width=\"50\"/>",
-        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg\" alt=\"preview\"  width=\"50\"/>"
-      },
-      {
-        "row": 83,
-        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
-        "originContent": "  &nbsp;&nbsp;&nbsp;",
-        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
-      },
-      {
-        "row": 84,
-        "rowsha": "QPT+LT/Z6iMWFWQB59z7bILCgOmA+Ja8PNSqsG8LZDQ=",
-        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>",
-        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>"
-      },
-      {
-        "row": 85,
-        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
-        "originContent": "  &nbsp;&nbsp;&nbsp;",
-        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
-      },
-      {
-        "row": 86,
-        "rowsha": "picEJvdoZy87hd/yZCSr9reu8h0OIJhD5o6f/bb9wEM=",
-        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg\" alt=\"preview\"  width=\"50\"/>",
-        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg\" alt=\"preview\"  width=\"50\"/>"
-      },
-      {
-        "row": 87,
-        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-        "originContent": "</div>",
-        "translatedContent": "</div>"
-      },
-      {
-        "row": 88,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "예시: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**"
       },
       {
         "row": 89,
@@ -545,202 +545,202 @@
       },
       {
         "row": 90,
-        "rowsha": "7G3DNDTqJFvwhgR+nhm5pdkHy8bklhglhuNrMRcxq5M=",
-        "originContent": "SF Symbols 3+ supports multi-color icons. This functionality has been ported into this repo to support multi-color icons in Home Assistant!  ",
-        "translatedContent": "SF Symbols 3+는 다중 색상 아이콘을 지원합니다. 이 기능이 이 저장소에 포팅되어 홈 어시스턴트에서 다중 색상 아이콘을 지원합니다!  "
+        "rowsha": "9Y/avA7MlN4OHkilL30UGKjD6U2KhQQOR1v3tVTypL8=",
+        "originContent": "## Multi-Color Icons! (v3.0+)",
+        "translatedContent": "## 다중 색상 아이콘! (v3.0+)"
       },
       {
         "row": 91,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "cANfaO8a1b2zND80H0i2W+3UWDVVGhFDEHOc8bDvgSo=",
+        "originContent": "<div style=\"display: inline-block;\">",
+        "translatedContent": "<div style=\"display: inline-block;\">"
       },
       {
         "row": 92,
-        "rowsha": "acLI6/Z3NP6mlUqbR/IedTXbOdCGarKQvq2imN4LA90=",
-        "originContent": "Just add Suffixes **#color**, **#invert**, **#color-invert** or **#fullcolor** to change the icon colors! (Credit to [thomasloven](https://github.com/thomasloven/hass-fontawesome) for the inspiration)",
-        "translatedContent": "아이콘 색상을 변경하려면 접미사 **#color**, **#invert**, **#color-invert** 또는 **#fullcolor**를 추가하세요! (영감은 [thomasloven](https://github.com/thomasloven/hass-fontawesome)에게 감사드립니다)"
+        "rowsha": "6+UQuYgHRA1dl8R/ECd41kShE8tWudszlzvjPBla9gc=",
+        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg\" alt=\"preview\"  width=\"50\"/>",
+        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
         "row": 93,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
+        "originContent": "  &nbsp;&nbsp;&nbsp;",
+        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
         "row": 94,
-        "rowsha": "AGFzuhhY3KwNk3NHSY2Fncg+X+7vB17r4Jgfhx4O1Nw=",
-        "originContent": "Eg:",
-        "translatedContent": "예:"
+        "rowsha": "vHGUl9xldDTDhJpf6tjGnV8qosLV0NTcjNi+RkuKQnY=",
+        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/antenna-radiowaves-left-and-right-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>",
+        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/antenna-radiowaves-left-and-right-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
         "row": 95,
-        "rowsha": "rLoeMuraIknvKoGGTYDOyK/uc6sdIqCbIyc3/2FR9mA=",
-        "originContent": " - ios:gear-badge-xmark#color",
-        "translatedContent": " - ios:gear-badge-xmark#color"
+        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
+        "originContent": "  &nbsp;&nbsp;&nbsp;",
+        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
         "row": 96,
-        "rowsha": "lbLnx4+sFBp6kzXXD9ZKuaIgyWfXquQohaHn+2RwaX8=",
-        "originContent": " - ios:gear-badge-xmark#color-invert",
-        "translatedContent": " - ios:gear-badge-xmark#color-invert"
+        "rowsha": "2ckPToSng82Fy2M7hRhnTSWop6Kb4PZvjnZS1pEbzT4=",
+        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/aqi-high.svg\" alt=\"preview\"  width=\"50\"/>",
+        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/aqi-high.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
         "row": 97,
-        "rowsha": "KNmufedPHva+R/vBLXtEs8ra/PdUG5FKPwbe78daSps=",
-        "originContent": " - ios:gear-badge-xmark#fullcolor",
-        "translatedContent": " - ios:gear-badge-xmark#fullcolor"
+        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
+        "originContent": "  &nbsp;&nbsp;&nbsp;",
+        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
         "row": 98,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "oo34OjHOStV04YCsretF/7XZ3GgdTc2RDeHvF3wOx80=",
+        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/clock-badge-exclamationmark-fill.svg\" alt=\"preview\" width=\"50\"/>",
+        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/clock-badge-exclamationmark-fill.svg\" alt=\"preview\" width=\"50\"/>"
       },
       {
         "row": 99,
-        "rowsha": "MlFGVLAvGrG/uuCXDfR8Szhq/GQqZCM1GQwr71XsGEA=",
-        "originContent": "## Icon Reference",
-        "translatedContent": "## 아이콘 참조"
+        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
+        "originContent": "  &nbsp;&nbsp;&nbsp;",
+        "translatedContent": "  &nbsp;&nbsp;&nbsp;"
       },
       {
         "row": 100,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "jiFpIzKLmiMOf2lpGHbPBfc0mS8y+l23SQ/Z1AIbZEU=",
+        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/circle-hexagongrid-fill.svg\" alt=\"preview\"  width=\"50\"/>",
+        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/circle-hexagongrid-fill.svg\" alt=\"preview\"  width=\"50\"/>"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "**v3.0 Update**  \n - Home Assistant Cupertino Icons has now been updated to SF Symbols v3.0 with **3167 Icons**! (Copyrighted icons excluded)\n - Supports Home Assistant's icon picker (2021.11.0+)\n\n[SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  \n[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)\n\nYou may download the MacOS App from Apple for a better reference.\n\n**Note:** underscores(\\_) and dots(.) must be swapped with hipens(-)  \n\n## Breaking Changes\nStarting with v3.0+, this repo has been changed from a lovelace/frontend repo to a full-fledged integration. If you're upgrading from an older version:\n1. HACS > Uninstall \"cupertino-icons\"\n2. HACS > Menu > **Custom Repository**\n3. Delete this repo\n4. Follow **Install** instructions above\n\n## Legal Disclaimer\nCertain icons are copyrighted by Apple and are not allowed to used with modification. These icons have not been exported and are not present in this repo. They will not be included.\n\n<hr/>\n\n## To Do\n☑️ Upgrade to SF Pro Symbols v2.1  \n☑️ Upgrade to SF Pro Symbols v3.0  \n☑️ Multicolor support  \n☑️ Icon Picker  \n\n## Changelog\n\n### v4.0.1\n - Fix version mismatch in manifest\n\n### v4.0.0\n - Add support for SF Symbols 6 (Credit: @HoussamOtarid)\n - Fixed deprecation issue for HA 2025.7.0 (Credit: @lnlyssg)\n\n🎉 Thanks to all the contributors for v4.0!\n\n### v3.0.2\n - Fixed a bug that caused sizing issues\n\n### v3.0.1\n - Fixed a bug that caused multi-color icons to be displayed incorrectly\n\n### v3.0\n - Update to SF Symbols 3.0\n - Support for multicolor icons\n - Supports icon picker\n - Restructure and refactor layout\n - **Breaking Changes:** Repo type has been changed from frontend/lovelace plugin to a full-fledged integration. You may need to uninstall, delete the repo from HACS and reinstall.\n",
-    "ContentSha": "XvCF8WkDYgnhzFK0HnBf7kkKemEVRb1SPdSc8NWOtxw=",
+    "Content": "  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/drop-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/eye-trianglebadge-exclamationmark-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  <br/>\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/desktopcomputer-trianglebadge-exclamationmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/fork-knife-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed-double-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>\n  &nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg\" alt=\"preview\"  width=\"50\"/>\n</div>\n\n\nSF Symbols 3+ supports multi-color icons. This functionality has been ported into this repo to support multi-color icons in Home Assistant!  \n\nJust add Suffixes **#color**, **#invert**, **#color-invert** or **#fullcolor** to change the icon colors! (Credit to [thomasloven](https://github.com/thomasloven/hass-fontawesome) for the inspiration)\n\nEg:\n - ios:gear-badge-xmark#color\n - ios:gear-badge-xmark#color-invert\n - ios:gear-badge-xmark#fullcolor\n\n## Icon Reference\n\n**v3.0 Update**  \n - Home Assistant Cupertino Icons has now been updated to SF Symbols v3.0 with **3167 Icons**! (Copyrighted icons excluded)\n - Supports Home Assistant's icon picker (2021.11.0+)\n\n[SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  \n[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)\n\nYou may download the MacOS App from Apple for a better reference.\n\n**Note:** underscores(\\_) and dots(.) must be swapped with hipens(-)  \n\n## Breaking Changes\nStarting with v3.0+, this repo has been changed from a lovelace/frontend repo to a full-fledged integration. If you're upgrading from an older version:\n1. HACS > Uninstall \"cupertino-icons\"\n2. HACS > Menu > **Custom Repository**\n3. Delete this repo\n4. Follow **Install** instructions above\n\n## Legal Disclaimer\nCertain icons are copyrighted by Apple and are not allowed to used with modification. These icons have not been exported and are not present in this repo. They will not be included.\n\n<hr/>\n\n## To Do\n☑️ Upgrade to SF Pro Symbols v2.1  \n☑️ Upgrade to SF Pro Symbols v3.0  \n☑️ Multicolor support  \n☑️ Icon Picker  \n\n## Changelog\n\n### v4.0.1\n - Fix version mismatch in manifest\n\n### v4.0.0\n - Add support for SF Symbols 6 (Credit: @HoussamOtarid)\n - Fixed deprecation issue for HA 2025.7.0 (Credit: @lnlyssg)\n\n🎉 Thanks to all the contributors for v4.0!\n\n### v3.0.2\n - Fixed a bug that caused sizing issues\n\n### v3.0.1\n - Fixed a bug that caused multi-color icons to be displayed incorrectly\n\n### v3.0\n - Update to SF Symbols 3.0\n - Support for multicolor icons\n - Supports icon picker\n - Restructure and refactor layout\n - **Breaking Changes:** Repo type has been changed from frontend/lovelace plugin to a full-fledged integration. You may need to uninstall, delete the repo from HACS and reinstall.\n",
+    "ContentSha": "CAJZQVe/LuiVq6KTFS7zUNi2bQTB/1Qd3dTGvq3fCJE=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "**v3.0 업데이트**  \n - Home Assistant Cupertino 아이콘이 이제 SF Symbols v3.0으로 업데이트되어 **3167개 아이콘**을 지원합니다! (저작권 아이콘 제외)\n - Home Assistant의 아이콘 선택기(2021.11.0 이상)를 지원합니다.\n\n[SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  \n[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)\n\n더 나은 참고를 위해 Apple에서 MacOS 앱을 다운로드할 수 있습니다.\n\n**참고:** 언더스코어(\\_)와 점(.)은 하이픈(-)으로 교체해야 합니다.  \n\n## 주요 변경 사항\nv3.0 이상부터 이 저장소는 lovelace/frontend 저장소에서 완전한 통합형으로 변경되었습니다. 이전 버전에서 업그레이드하는 경우:\n1. HACS > \"cupertino-icons\" 제거\n2. HACS > 메뉴 > **사용자 저장소**\n3. 이 저장소 삭제\n4. 위의 **설치** 지침을 따르세요\n\n## 법적 고지\n일부 아이콘은 Apple의 저작권이 있으며 수정하여 사용하는 것이 허용되지 않습니다. 이러한 아이콘은 내보내지 않았으며 이 저장소에 포함되어 있지 않습니다. 포함되지 않습니다.\n\n<hr/>\n\n## 할 일\n☑️ SF Pro Symbols v2.1로 업그레이드  \n☑️ SF Pro Symbols v3.0로 업그레이드  \n☑️ 다중 색상 지원  \n☑️ 아이콘 선택기  \n\n## 변경 내역\n\n### v4.0.1\n - 매니페스트 버전 불일치 수정\n\n### v4.0.0\n - SF Symbols 6 지원 추가 (기여자: @HoussamOtarid)  \n - HA 2025.7.0에서의 사용 중단 문제 수정 (기여자: @lnlyssg)\n\n🎉 v4.0에 기여해 주신 모든 분들께 감사드립니다!\n\n### v3.0.2\n - 크기 문제를 일으키는 버그 수정\n\n### v3.0.1\n - 다중 색상 아이콘이 잘못 표시되는 버그 수정\n\n### v3.0\n - SF Symbols 3.0으로 업데이트  \n - 다중 색상 아이콘 지원  \n - 아이콘 선택기 지원  \n - 레이아웃 구조 변경 및 리팩토링  \n - **주요 변경 사항:** 저장소 유형이 frontend/lovelace 플러그인에서 완전한 통합형으로 변경되었습니다. HACS에서 제거 후 삭제하고 다시 설치해야 할 수 있습니다.\n",
+    "Translation": "&nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/drop-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n&nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/eye-trianglebadge-exclamationmark-fill.svg\" alt=\"preview\"  width=\"50\"/>\n<br/>\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/desktopcomputer-trianglebadge-exclamationmark.svg\" alt=\"preview\"  width=\"50\"/>\n&nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/fork-knife-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n&nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>\n&nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed-double-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>\n&nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg\" alt=\"preview\"  width=\"50\"/>\n&nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>\n&nbsp;&nbsp;&nbsp;\n<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg\" alt=\"preview\"  width=\"50\"/>\n</div>\n\n\nSF Symbols 3+는 다중 색상 아이콘을 지원합니다. 이 기능이 이 저장소에 이식되어 Home Assistant에서도 다중 색상 아이콘을 사용할 수 있습니다!  \n\n아이콘 색상을 변경하려면 Suffix로 **#color**, **#invert**, **#color-invert** 또는 **#fullcolor**를 추가하세요! (영감 제공: [thomasloven](https://github.com/thomasloven/hass-fontawesome))\n\n예시:\n - ios:gear-badge-xmark#color\n - ios:gear-badge-xmark#color-invert\n - ios:gear-badge-xmark#fullcolor\n\n## 아이콘 참조\n\n**v3.0 업데이트**  \n - Home Assistant Cupertino Icons가 이제 SF Symbols v3.0으로 업데이트되어 **3167개의 아이콘**을 제공합니다! (저작권 아이콘 제외)\n - Home Assistant의 아이콘 선택기(2021.11.0+)를 지원합니다\n\n[SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  \n[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)\n\n더 나은 참조를 위해 Apple에서 MacOS 앱을 다운로드할 수 있습니다.\n\n**참고:** 언더스코어(\\_)와 점(.)은 하이픈(-)으로 대체되어야 합니다.  \n\n## 주요 변경 사항\nv3.0+부터 이 저장소는 lovelace/프론트엔드 저장소에서 완전한 통합 형태로 변경되었습니다. 이전 버전에서 업그레이드하는 경우:\n1. HACS > \"cupertino-icons\" 제거\n2. HACS > 메뉴 > **Custom Repository**\n3. 이 저장소 삭제\n4. 위의 **설치** 지침을 따르세요\n\n## 법적 고지\n특정 아이콘은 Apple의 저작권에 의해 보호되며, 수정하여 사용할 수 없습니다. 이러한 아이콘은 내보내지 않았으며 이 저장소에 포함되어 있지 않습니다. 또한 포함되지 않을 예정입니다.\n\n<hr/>\n\n## 할 일\n☑️ SF Pro Symbols v2.1로 업그레이드  \n☑️ SF Pro Symbols v3.0로 업그레이드  \n☑️ 다중 색상 지원  \n☑️ 아이콘 선택기  \n\n## 변경 로그\n\n### v4.0.1\n - manifest의 버전 불일치 수정\n\n### v4.0.0\n - SF Symbols 6 지원 추가 (공로: @HoussamOtarid)\n - HA 2025.7.0의 지원 중단 문제 수정 (공로: @lnlyssg)\n\n🎉 v4.0에 기여해주신 모든 분들께 감사드립니다!\n\n### v3.0.2\n - 크기 이슈를 유발하는 버그 수정\n\n### v3.0.1\n - 다중 색상 아이콘이 잘못 표시되는 버그 수정\n\n### v3.0\n - SF Symbols 3.0로 업데이트\n - 다중 색상 아이콘 지원\n - 아이콘 선택기 지원\n - 레이아웃 구조화 및 리팩토링\n - **주요 변경:** 저장소 타입이 frontend/lovelace 플러그인에서 완전 통합형으로 변경되었습니다. HACS에서 제거 후 저장소 삭제 및 재설치가 필요할 수 있습니다.\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "gh+jxXpgzD5lzUvyyTp2i03xv9A/btgnXeYiQq8pFP8=",
-        "originContent": "**v3.0 Update**  ",
-        "translatedContent": "**v3.0 업데이트**  "
+        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
+        "originContent": "  &nbsp;&nbsp;&nbsp;",
+        "translatedContent": "&nbsp;&nbsp;&nbsp;"
       },
       {
         "row": 2,
-        "rowsha": "FajHR4yxPHYuWA/ob7zP92pg/28YSUGZOjDxAQZO2EI=",
-        "originContent": " - Home Assistant Cupertino Icons has now been updated to SF Symbols v3.0 with **3167 Icons**! (Copyrighted icons excluded)",
-        "translatedContent": " - Home Assistant Cupertino 아이콘이 이제 SF Symbols v3.0으로 업데이트되어 **3167개 아이콘**을 지원합니다! (저작권 아이콘 제외)"
+        "rowsha": "KebEnlj8A5p3owIaqfRN15UdAZ9TTbeXh3qh8e4q6fc=",
+        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/drop-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>",
+        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/drop-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
         "row": 3,
-        "rowsha": "kSU6jHgDxmtWS4LaM8QZfGoJZhLLSIdPkJO+9Pd9nw0=",
-        "originContent": " - Supports Home Assistant's icon picker (2021.11.0+)",
-        "translatedContent": " - Home Assistant의 아이콘 선택기(2021.11.0 이상)를 지원합니다."
+        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
+        "originContent": "  &nbsp;&nbsp;&nbsp;",
+        "translatedContent": "&nbsp;&nbsp;&nbsp;"
       },
       {
         "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "QBd0khuoDpAcWvn2wXwTFdZXq7IrWN3+1VE1Uye3Bv0=",
+        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/eye-trianglebadge-exclamationmark-fill.svg\" alt=\"preview\"  width=\"50\"/>",
+        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/eye-trianglebadge-exclamationmark-fill.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
         "row": 5,
-        "rowsha": "ChiBHzx5TR7gxVpF814nakQuFO2tf5C3q5MufDPHdUw=",
-        "originContent": "[SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  ",
-        "translatedContent": "[SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  "
+        "rowsha": "fg0QoxpK2vHpC4Hk2JStz8AU27gMhcHNe3pAop2mDsA=",
+        "originContent": "  <br/>",
+        "translatedContent": "<br/>"
       },
       {
         "row": 6,
-        "rowsha": "DMhHJJHQndN21SaTwPEOC34osytMCPRjZjZi5Re34Uk=",
-        "originContent": "[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)",
-        "translatedContent": "[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)"
+        "rowsha": "veYRNs0b9MDhjA0BI6VyavxbA9j4YA1t11Eu4X+GUeM=",
+        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/desktopcomputer-trianglebadge-exclamationmark.svg\" alt=\"preview\"  width=\"50\"/>",
+        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/desktopcomputer-trianglebadge-exclamationmark.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
         "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
+        "originContent": "  &nbsp;&nbsp;&nbsp;",
+        "translatedContent": "&nbsp;&nbsp;&nbsp;"
       },
       {
         "row": 8,
-        "rowsha": "O6u/ynHOv2cZKiCgfkZK8oMeNJeD0BMpJcDBMVi/3wQ=",
-        "originContent": "You may download the MacOS App from Apple for a better reference.",
-        "translatedContent": "더 나은 참고를 위해 Apple에서 MacOS 앱을 다운로드할 수 있습니다."
+        "rowsha": "KafDodfV5TUh8kKC9SPmthhVQY1H414A/yDHrZMddLo=",
+        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/fork-knife-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>",
+        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/fork-knife-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
         "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
+        "originContent": "  &nbsp;&nbsp;&nbsp;",
+        "translatedContent": "&nbsp;&nbsp;&nbsp;"
       },
       {
         "row": 10,
-        "rowsha": "2OEzbkbf5AwDN9h4juppsr+4Iqr317wfItwhVm+He38=",
-        "originContent": "**Note:** underscores(\\_) and dots(.) must be swapped with hipens(-)  ",
-        "translatedContent": "**참고:** 언더스코어(\\_)와 점(.)은 하이픈(-)으로 교체해야 합니다.  "
+        "rowsha": "QPT+LT/Z6iMWFWQB59z7bILCgOmA+Ja8PNSqsG8LZDQ=",
+        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>",
+        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
         "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
+        "originContent": "  &nbsp;&nbsp;&nbsp;",
+        "translatedContent": "&nbsp;&nbsp;&nbsp;"
       },
       {
         "row": 12,
-        "rowsha": "akKXtCsLKeVYVc8PrzFNFTDHI7MtDDb1O63FQLQDtrI=",
-        "originContent": "## Breaking Changes",
-        "translatedContent": "## 주요 변경 사항"
+        "rowsha": "ZGmU5wC3BBNaDajk7FxCCMWpoo7ehNkIaKvuS8uhrfg=",
+        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed-double-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>",
+        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed-double-circle-fill.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
         "row": 13,
-        "rowsha": "Hw077gOPw0xowlmK7JXVRYQJ6+/SX7uqqKrQifFgIo8=",
-        "originContent": "Starting with v3.0+, this repo has been changed from a lovelace/frontend repo to a full-fledged integration. If you're upgrading from an older version:",
-        "translatedContent": "v3.0 이상부터 이 저장소는 lovelace/frontend 저장소에서 완전한 통합형으로 변경되었습니다. 이전 버전에서 업그레이드하는 경우:"
+        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
+        "originContent": "  &nbsp;&nbsp;&nbsp;",
+        "translatedContent": "&nbsp;&nbsp;&nbsp;"
       },
       {
         "row": 14,
-        "rowsha": "wrjROSUeI5mGo4UPTuZBJYYFwigYIYcAgJo1zHPfUD0=",
-        "originContent": "1. HACS > Uninstall \"cupertino-icons\"",
-        "translatedContent": "1. HACS > \"cupertino-icons\" 제거"
+        "rowsha": "OOEXaGoMc7LLiBoGYniAWPKouo0LJlkok1yUBXZIqvM=",
+        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg\" alt=\"preview\"  width=\"50\"/>",
+        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
         "row": 15,
-        "rowsha": "SE1uxfIv7K1FzbVVGLN9Y2iVj4k2x+6CAOvvJar3iJI=",
-        "originContent": "2. HACS > Menu > **Custom Repository**",
-        "translatedContent": "2. HACS > 메뉴 > **사용자 저장소**"
+        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
+        "originContent": "  &nbsp;&nbsp;&nbsp;",
+        "translatedContent": "&nbsp;&nbsp;&nbsp;"
       },
       {
         "row": 16,
-        "rowsha": "4J5HFGr+flwbevTSC7t/CQGYe23r8FS54hBlbSV3qX4=",
-        "originContent": "3. Delete this repo",
-        "translatedContent": "3. 이 저장소 삭제"
+        "rowsha": "QPT+LT/Z6iMWFWQB59z7bILCgOmA+Ja8PNSqsG8LZDQ=",
+        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>",
+        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
         "row": 17,
-        "rowsha": "IL98/gutkTX6/16A5eRcXULRgUHSMA7euuGo6LFcEAo=",
-        "originContent": "4. Follow **Install** instructions above",
-        "translatedContent": "4. 위의 **설치** 지침을 따르세요"
+        "rowsha": "VRnX1NL232whkmfJGpBWWdwxtEjkdgnN+Zbm7UqfE0U=",
+        "originContent": "  &nbsp;&nbsp;&nbsp;",
+        "translatedContent": "&nbsp;&nbsp;&nbsp;"
       },
       {
         "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "picEJvdoZy87hd/yZCSr9reu8h0OIJhD5o6f/bb9wEM=",
+        "originContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg\" alt=\"preview\"  width=\"50\"/>",
+        "translatedContent": "<img src=\"https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg\" alt=\"preview\"  width=\"50\"/>"
       },
       {
         "row": 19,
-        "rowsha": "RKZUkSQB4tHkiYAR6XySPJfa2q4/sy7ID1xTo5R6DWE=",
-        "originContent": "## Legal Disclaimer",
-        "translatedContent": "## 법적 고지"
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
       },
       {
         "row": 20,
-        "rowsha": "GUyhOmEdAljqC5M54E404iExLse64iaaX3stjhQOnc4=",
-        "originContent": "Certain icons are copyrighted by Apple and are not allowed to used with modification. These icons have not been exported and are not present in this repo. They will not be included.",
-        "translatedContent": "일부 아이콘은 Apple의 저작권이 있으며 수정하여 사용하는 것이 허용되지 않습니다. 이러한 아이콘은 내보내지 않았으며 이 저장소에 포함되어 있지 않습니다. 포함되지 않습니다."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 21,
@@ -750,9 +750,9 @@
       },
       {
         "row": 22,
-        "rowsha": "lTKs6zByBVpxmDi0jz5Lnf3NmkovR719a7U6aXF99iU=",
-        "originContent": "<hr/>",
-        "translatedContent": "<hr/>"
+        "rowsha": "7G3DNDTqJFvwhgR+nhm5pdkHy8bklhglhuNrMRcxq5M=",
+        "originContent": "SF Symbols 3+ supports multi-color icons. This functionality has been ported into this repo to support multi-color icons in Home Assistant!  ",
+        "translatedContent": "SF Symbols 3+는 다중 색상 아이콘을 지원합니다. 이 기능이 이 저장소에 이식되어 Home Assistant에서도 다중 색상 아이콘을 사용할 수 있습니다!  "
       },
       {
         "row": 23,
@@ -762,117 +762,117 @@
       },
       {
         "row": 24,
-        "rowsha": "oTfayJKeRZcOOOzc80qxrJY8REFMJbgGkCex4bM30hU=",
-        "originContent": "## To Do",
-        "translatedContent": "## 할 일"
+        "rowsha": "acLI6/Z3NP6mlUqbR/IedTXbOdCGarKQvq2imN4LA90=",
+        "originContent": "Just add Suffixes **#color**, **#invert**, **#color-invert** or **#fullcolor** to change the icon colors! (Credit to [thomasloven](https://github.com/thomasloven/hass-fontawesome) for the inspiration)",
+        "translatedContent": "아이콘 색상을 변경하려면 Suffix로 **#color**, **#invert**, **#color-invert** 또는 **#fullcolor**를 추가하세요! (영감 제공: [thomasloven](https://github.com/thomasloven/hass-fontawesome))"
       },
       {
         "row": 25,
-        "rowsha": "1vr99f/3pU+wDb9I5p/q4FapHN/UcVz+7S2b4FRbE7s=",
-        "originContent": "☑️ Upgrade to SF Pro Symbols v2.1  ",
-        "translatedContent": "☑️ SF Pro Symbols v2.1로 업그레이드  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 26,
-        "rowsha": "yYi669iskROnoLUX7hyQkAwo0Bij/rw7sthseQ5+geY=",
-        "originContent": "☑️ Upgrade to SF Pro Symbols v3.0  ",
-        "translatedContent": "☑️ SF Pro Symbols v3.0로 업그레이드  "
+        "rowsha": "AGFzuhhY3KwNk3NHSY2Fncg+X+7vB17r4Jgfhx4O1Nw=",
+        "originContent": "Eg:",
+        "translatedContent": "예시:"
       },
       {
         "row": 27,
-        "rowsha": "zJ/gQGViTvvyKLvFw0gL+bqTHf+Dsng5H+nlOmQtlS4=",
-        "originContent": "☑️ Multicolor support  ",
-        "translatedContent": "☑️ 다중 색상 지원  "
+        "rowsha": "rLoeMuraIknvKoGGTYDOyK/uc6sdIqCbIyc3/2FR9mA=",
+        "originContent": " - ios:gear-badge-xmark#color",
+        "translatedContent": " - ios:gear-badge-xmark#color"
       },
       {
         "row": 28,
-        "rowsha": "wEkwLLC2c2a3bJzJmpX9PMjnecU+Gjvijjky+BBjwto=",
-        "originContent": "☑️ Icon Picker  ",
-        "translatedContent": "☑️ 아이콘 선택기  "
+        "rowsha": "lbLnx4+sFBp6kzXXD9ZKuaIgyWfXquQohaHn+2RwaX8=",
+        "originContent": " - ios:gear-badge-xmark#color-invert",
+        "translatedContent": " - ios:gear-badge-xmark#color-invert"
       },
       {
         "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "KNmufedPHva+R/vBLXtEs8ra/PdUG5FKPwbe78daSps=",
+        "originContent": " - ios:gear-badge-xmark#fullcolor",
+        "translatedContent": " - ios:gear-badge-xmark#fullcolor"
       },
       {
         "row": 30,
-        "rowsha": "sZNBxWTOjK92d5uVdMmWULuGrk66hbr3n+TVP60yreM=",
-        "originContent": "## Changelog",
-        "translatedContent": "## 변경 내역"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "MlFGVLAvGrG/uuCXDfR8Szhq/GQqZCM1GQwr71XsGEA=",
+        "originContent": "## Icon Reference",
+        "translatedContent": "## 아이콘 참조"
       },
       {
         "row": 32,
-        "rowsha": "AWwrY0VtvPbBSi/0c59myej6ip5hzWZ7HguCwp3nc6s=",
-        "originContent": "### v4.0.1",
-        "translatedContent": "### v4.0.1"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 33,
-        "rowsha": "h3wYn89kvPZCAsECBk/8hDsKbY18GQ9wp2lWwjBmiAA=",
-        "originContent": " - Fix version mismatch in manifest",
-        "translatedContent": " - 매니페스트 버전 불일치 수정"
+        "rowsha": "gh+jxXpgzD5lzUvyyTp2i03xv9A/btgnXeYiQq8pFP8=",
+        "originContent": "**v3.0 Update**  ",
+        "translatedContent": "**v3.0 업데이트**  "
       },
       {
         "row": 34,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "FajHR4yxPHYuWA/ob7zP92pg/28YSUGZOjDxAQZO2EI=",
+        "originContent": " - Home Assistant Cupertino Icons has now been updated to SF Symbols v3.0 with **3167 Icons**! (Copyrighted icons excluded)",
+        "translatedContent": " - Home Assistant Cupertino Icons가 이제 SF Symbols v3.0으로 업데이트되어 **3167개의 아이콘**을 제공합니다! (저작권 아이콘 제외)"
       },
       {
         "row": 35,
-        "rowsha": "RpcBa50jfKsdeFgb59MbBo9kzdzgUv0CTiiKDeQ124c=",
-        "originContent": "### v4.0.0",
-        "translatedContent": "### v4.0.0"
+        "rowsha": "kSU6jHgDxmtWS4LaM8QZfGoJZhLLSIdPkJO+9Pd9nw0=",
+        "originContent": " - Supports Home Assistant's icon picker (2021.11.0+)",
+        "translatedContent": " - Home Assistant의 아이콘 선택기(2021.11.0+)를 지원합니다"
       },
       {
         "row": 36,
-        "rowsha": "pQ+1ZMBUedJmXhrncmEB5i0LHn513maEcf89zvukbi8=",
-        "originContent": " - Add support for SF Symbols 6 (Credit: @HoussamOtarid)",
-        "translatedContent": " - SF Symbols 6 지원 추가 (기여자: @HoussamOtarid)  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 37,
-        "rowsha": "gzn7g3WIJjQwXQ7Uo0FPgEHlKUaPM4QgDc1sguFvN94=",
-        "originContent": " - Fixed deprecation issue for HA 2025.7.0 (Credit: @lnlyssg)",
-        "translatedContent": " - HA 2025.7.0에서의 사용 중단 문제 수정 (기여자: @lnlyssg)"
+        "rowsha": "ChiBHzx5TR7gxVpF814nakQuFO2tf5C3q5MufDPHdUw=",
+        "originContent": "[SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  ",
+        "translatedContent": "[SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  "
       },
       {
         "row": 38,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "DMhHJJHQndN21SaTwPEOC34osytMCPRjZjZi5Re34Uk=",
+        "originContent": "[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)",
+        "translatedContent": "[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)"
       },
       {
         "row": 39,
-        "rowsha": "qVBLWfzqVFRHZPtBpVD3Sv8M2QEeYsP1Q1SvfA9PaVA=",
-        "originContent": "🎉 Thanks to all the contributors for v4.0!",
-        "translatedContent": "🎉 v4.0에 기여해 주신 모든 분들께 감사드립니다!"
-      },
-      {
-        "row": 40,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 40,
+        "rowsha": "O6u/ynHOv2cZKiCgfkZK8oMeNJeD0BMpJcDBMVi/3wQ=",
+        "originContent": "You may download the MacOS App from Apple for a better reference.",
+        "translatedContent": "더 나은 참조를 위해 Apple에서 MacOS 앱을 다운로드할 수 있습니다."
+      },
+      {
         "row": 41,
-        "rowsha": "IQw1cu80TQuU+C695XRLA2ghQ7CQ6Bvh3icQ9azdwDg=",
-        "originContent": "### v3.0.2",
-        "translatedContent": "### v3.0.2"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 42,
-        "rowsha": "qfQSzwcpRTjtWlB/awX5/zjFeUHguD9uTd1TFdpBEpo=",
-        "originContent": " - Fixed a bug that caused sizing issues",
-        "translatedContent": " - 크기 문제를 일으키는 버그 수정"
+        "rowsha": "2OEzbkbf5AwDN9h4juppsr+4Iqr317wfItwhVm+He38=",
+        "originContent": "**Note:** underscores(\\_) and dots(.) must be swapped with hipens(-)  ",
+        "translatedContent": "**참고:** 언더스코어(\\_)와 점(.)은 하이픈(-)으로 대체되어야 합니다.  "
       },
       {
         "row": 43,
@@ -882,60 +882,252 @@
       },
       {
         "row": 44,
-        "rowsha": "wR5FLSOYOWTTPpSDFqYYX5jQg6Bwjakq6at7RMtDDOU=",
-        "originContent": "### v3.0.1",
-        "translatedContent": "### v3.0.1"
+        "rowsha": "akKXtCsLKeVYVc8PrzFNFTDHI7MtDDb1O63FQLQDtrI=",
+        "originContent": "## Breaking Changes",
+        "translatedContent": "## 주요 변경 사항"
       },
       {
         "row": 45,
-        "rowsha": "lQrhhrsxxH9DPUZLtyXbxMu/4NGPac+6qRvp7gC0E6w=",
-        "originContent": " - Fixed a bug that caused multi-color icons to be displayed incorrectly",
-        "translatedContent": " - 다중 색상 아이콘이 잘못 표시되는 버그 수정"
+        "rowsha": "Hw077gOPw0xowlmK7JXVRYQJ6+/SX7uqqKrQifFgIo8=",
+        "originContent": "Starting with v3.0+, this repo has been changed from a lovelace/frontend repo to a full-fledged integration. If you're upgrading from an older version:",
+        "translatedContent": "v3.0+부터 이 저장소는 lovelace/프론트엔드 저장소에서 완전한 통합 형태로 변경되었습니다. 이전 버전에서 업그레이드하는 경우:"
       },
       {
         "row": 46,
+        "rowsha": "wrjROSUeI5mGo4UPTuZBJYYFwigYIYcAgJo1zHPfUD0=",
+        "originContent": "1. HACS > Uninstall \"cupertino-icons\"",
+        "translatedContent": "1. HACS > \"cupertino-icons\" 제거"
+      },
+      {
+        "row": 47,
+        "rowsha": "SE1uxfIv7K1FzbVVGLN9Y2iVj4k2x+6CAOvvJar3iJI=",
+        "originContent": "2. HACS > Menu > **Custom Repository**",
+        "translatedContent": "2. HACS > 메뉴 > **Custom Repository**"
+      },
+      {
+        "row": 48,
+        "rowsha": "4J5HFGr+flwbevTSC7t/CQGYe23r8FS54hBlbSV3qX4=",
+        "originContent": "3. Delete this repo",
+        "translatedContent": "3. 이 저장소 삭제"
+      },
+      {
+        "row": 49,
+        "rowsha": "IL98/gutkTX6/16A5eRcXULRgUHSMA7euuGo6LFcEAo=",
+        "originContent": "4. Follow **Install** instructions above",
+        "translatedContent": "4. 위의 **설치** 지침을 따르세요"
+      },
+      {
+        "row": 50,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 47,
+        "row": 51,
+        "rowsha": "RKZUkSQB4tHkiYAR6XySPJfa2q4/sy7ID1xTo5R6DWE=",
+        "originContent": "## Legal Disclaimer",
+        "translatedContent": "## 법적 고지"
+      },
+      {
+        "row": 52,
+        "rowsha": "GUyhOmEdAljqC5M54E404iExLse64iaaX3stjhQOnc4=",
+        "originContent": "Certain icons are copyrighted by Apple and are not allowed to used with modification. These icons have not been exported and are not present in this repo. They will not be included.",
+        "translatedContent": "특정 아이콘은 Apple의 저작권에 의해 보호되며, 수정하여 사용할 수 없습니다. 이러한 아이콘은 내보내지 않았으며 이 저장소에 포함되어 있지 않습니다. 또한 포함되지 않을 예정입니다."
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "lTKs6zByBVpxmDi0jz5Lnf3NmkovR719a7U6aXF99iU=",
+        "originContent": "<hr/>",
+        "translatedContent": "<hr/>"
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "oTfayJKeRZcOOOzc80qxrJY8REFMJbgGkCex4bM30hU=",
+        "originContent": "## To Do",
+        "translatedContent": "## 할 일"
+      },
+      {
+        "row": 57,
+        "rowsha": "1vr99f/3pU+wDb9I5p/q4FapHN/UcVz+7S2b4FRbE7s=",
+        "originContent": "☑️ Upgrade to SF Pro Symbols v2.1  ",
+        "translatedContent": "☑️ SF Pro Symbols v2.1로 업그레이드  "
+      },
+      {
+        "row": 58,
+        "rowsha": "yYi669iskROnoLUX7hyQkAwo0Bij/rw7sthseQ5+geY=",
+        "originContent": "☑️ Upgrade to SF Pro Symbols v3.0  ",
+        "translatedContent": "☑️ SF Pro Symbols v3.0로 업그레이드  "
+      },
+      {
+        "row": 59,
+        "rowsha": "zJ/gQGViTvvyKLvFw0gL+bqTHf+Dsng5H+nlOmQtlS4=",
+        "originContent": "☑️ Multicolor support  ",
+        "translatedContent": "☑️ 다중 색상 지원  "
+      },
+      {
+        "row": 60,
+        "rowsha": "wEkwLLC2c2a3bJzJmpX9PMjnecU+Gjvijjky+BBjwto=",
+        "originContent": "☑️ Icon Picker  ",
+        "translatedContent": "☑️ 아이콘 선택기  "
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "sZNBxWTOjK92d5uVdMmWULuGrk66hbr3n+TVP60yreM=",
+        "originContent": "## Changelog",
+        "translatedContent": "## 변경 로그"
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "AWwrY0VtvPbBSi/0c59myej6ip5hzWZ7HguCwp3nc6s=",
+        "originContent": "### v4.0.1",
+        "translatedContent": "### v4.0.1"
+      },
+      {
+        "row": 65,
+        "rowsha": "h3wYn89kvPZCAsECBk/8hDsKbY18GQ9wp2lWwjBmiAA=",
+        "originContent": " - Fix version mismatch in manifest",
+        "translatedContent": " - manifest의 버전 불일치 수정"
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "RpcBa50jfKsdeFgb59MbBo9kzdzgUv0CTiiKDeQ124c=",
+        "originContent": "### v4.0.0",
+        "translatedContent": "### v4.0.0"
+      },
+      {
+        "row": 68,
+        "rowsha": "pQ+1ZMBUedJmXhrncmEB5i0LHn513maEcf89zvukbi8=",
+        "originContent": " - Add support for SF Symbols 6 (Credit: @HoussamOtarid)",
+        "translatedContent": " - SF Symbols 6 지원 추가 (공로: @HoussamOtarid)"
+      },
+      {
+        "row": 69,
+        "rowsha": "gzn7g3WIJjQwXQ7Uo0FPgEHlKUaPM4QgDc1sguFvN94=",
+        "originContent": " - Fixed deprecation issue for HA 2025.7.0 (Credit: @lnlyssg)",
+        "translatedContent": " - HA 2025.7.0의 지원 중단 문제 수정 (공로: @lnlyssg)"
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "qVBLWfzqVFRHZPtBpVD3Sv8M2QEeYsP1Q1SvfA9PaVA=",
+        "originContent": "🎉 Thanks to all the contributors for v4.0!",
+        "translatedContent": "🎉 v4.0에 기여해주신 모든 분들께 감사드립니다!"
+      },
+      {
+        "row": 72,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 73,
+        "rowsha": "IQw1cu80TQuU+C695XRLA2ghQ7CQ6Bvh3icQ9azdwDg=",
+        "originContent": "### v3.0.2",
+        "translatedContent": "### v3.0.2"
+      },
+      {
+        "row": 74,
+        "rowsha": "qfQSzwcpRTjtWlB/awX5/zjFeUHguD9uTd1TFdpBEpo=",
+        "originContent": " - Fixed a bug that caused sizing issues",
+        "translatedContent": " - 크기 이슈를 유발하는 버그 수정"
+      },
+      {
+        "row": 75,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 76,
+        "rowsha": "wR5FLSOYOWTTPpSDFqYYX5jQg6Bwjakq6at7RMtDDOU=",
+        "originContent": "### v3.0.1",
+        "translatedContent": "### v3.0.1"
+      },
+      {
+        "row": 77,
+        "rowsha": "lQrhhrsxxH9DPUZLtyXbxMu/4NGPac+6qRvp7gC0E6w=",
+        "originContent": " - Fixed a bug that caused multi-color icons to be displayed incorrectly",
+        "translatedContent": " - 다중 색상 아이콘이 잘못 표시되는 버그 수정"
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
         "rowsha": "A13EeI6Jx8jnDLxxIc94XZJ7Bq9UzkXpgR9GleTTtVs=",
         "originContent": "### v3.0",
         "translatedContent": "### v3.0"
       },
       {
-        "row": 48,
+        "row": 80,
         "rowsha": "Vn/AibaXG2KHeKlvmDOMwy1x+JS/SSlIBM6SAzeodbk=",
         "originContent": " - Update to SF Symbols 3.0",
-        "translatedContent": " - SF Symbols 3.0으로 업데이트  "
+        "translatedContent": " - SF Symbols 3.0로 업데이트"
       },
       {
-        "row": 49,
+        "row": 81,
         "rowsha": "ftCtMfbbLWCZBAgZLal63TDi6BlpR49QNYO1pPs1NVE=",
         "originContent": " - Support for multicolor icons",
-        "translatedContent": " - 다중 색상 아이콘 지원  "
+        "translatedContent": " - 다중 색상 아이콘 지원"
       },
       {
-        "row": 50,
+        "row": 82,
         "rowsha": "hqci4XsTPKVn+KvCN8bTnnroa6YmLPmlz1vFOc3faTQ=",
         "originContent": " - Supports icon picker",
-        "translatedContent": " - 아이콘 선택기 지원  "
+        "translatedContent": " - 아이콘 선택기 지원"
       },
       {
-        "row": 51,
+        "row": 83,
         "rowsha": "4sJWOzuAVFdwT8pzA/4dEBftzLqrxwKtub1mc/+OmSM=",
         "originContent": " - Restructure and refactor layout",
-        "translatedContent": " - 레이아웃 구조 변경 및 리팩토링  "
+        "translatedContent": " - 레이아웃 구조화 및 리팩토링"
       },
       {
-        "row": 52,
+        "row": 84,
         "rowsha": "Gt0UhO7ywTrt9QBK7mrRjMR+cihmAsdjpRNOMsS6FrU=",
         "originContent": " - **Breaking Changes:** Repo type has been changed from frontend/lovelace plugin to a full-fledged integration. You may need to uninstall, delete the repo from HACS and reinstall.",
-        "translatedContent": " - **주요 변경 사항:** 저장소 유형이 frontend/lovelace 플러그인에서 완전한 통합형으로 변경되었습니다. HACS에서 제거 후 삭제하고 다시 설치해야 할 수 있습니다."
+        "translatedContent": " - **주요 변경:** 저장소 타입이 frontend/lovelace 플러그인에서 완전 통합형으로 변경되었습니다. HACS에서 제거 후 저장소 삭제 및 재설치가 필요할 수 있습니다."
       },
       {
-        "row": 53,
+        "row": 85,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

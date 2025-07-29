@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 
 # Home Assistant Cupertino Icons
@@ -89,7 +121,7 @@ Eg: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
 
 SF Symbols 3+ supports multi-color icons. This functionality has been ported into this repo to support multi-color icons in Home Assistant!  
 
-Just add Suffixes **#color**, **#invert**, **#color-invert** or **#fullcolor** to change the icon colors! (Credit to [thomasloven](https://github.com/thomasloven/hass-fontawesome) for the inspiration)
+Just add the suffixes **#color**, **#invert**, **#color-invert** or **#fullcolor** to change the icon colors! (Credit to [thomasloven](https://github.com/thomasloven/hass-fontawesome) for the inspiration)
 
 Eg:
  - ios:gear-badge-xmark#color
@@ -107,7 +139,7 @@ Eg:
 
 You may download the MacOS App from Apple for a better reference.
 
-**Note:** underscores(\_) and dots(.) must be swapped with hipens(-)  
+**Note:** underscores(\_) and dots(.) must be swapped with hyphens(-)  
 
 ## Breaking Changes
 Starting with v3.0+, this repo has been changed from a lovelace/frontend repo to a full-fledged integration. If you're upgrading from an older version:
@@ -117,7 +149,7 @@ Starting with v3.0+, this repo has been changed from a lovelace/frontend repo to
 4. Follow **Install** instructions above
 
 ## Legal Disclaimer
-Certain icons are copyrighted by Apple and are not allowed to used with modification. These icons have not been exported and are not present in this repo. They will not be included.
+Certain icons are copyrighted by Apple and are not allowed to be used with modification. These icons have not been exported and are not present in this repo. They will not be included.
 
 <hr/>
 
@@ -154,6 +186,6 @@ Certain icons are copyrighted by Apple and are not allowed to used with modifica
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-29
 
 ---

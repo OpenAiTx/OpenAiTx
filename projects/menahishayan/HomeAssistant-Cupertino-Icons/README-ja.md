@@ -1,7 +1,39 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=en">英語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-CN">簡体字中国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-TW">繁体字中国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ko">韓国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=hi">ヒンディー語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=th">タイ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fr">フランス語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=de">ドイツ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=es">スペイン語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=it">イタリア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ru">ロシア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pt">ポルトガル語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=nl">オランダ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pl">ポーランド語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ar">アラビア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fa">ペルシャ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=tr">トルコ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=vi">ベトナム語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=id">インドネシア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=as">アッサム語</
+      </div>
+    </div>
+  </details>
+</div>
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 
 # Home Assistant Cupertino Icons
-Home Assistant用のApple SF Symbolsアイコン！(3000以上のアイコン)
+Home Assistant用Apple SF Symbolsアイコン！（3000以上のアイコン）
 
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg" alt="preview"  width="50"/>
@@ -36,26 +68,26 @@ Home Assistant用のApple SF Symbolsアイコン！(3000以上のアイコン)
 ## インストール
 ### HACS（推奨）
 1. **HACS** タブ > メニュー > **Custom Repository**
-4. このリポジトリのURLを貼り付ける
+4. このリポジトリのURLを貼り付け
 5. ドロップダウンで **Integration** を選択
 6. HACSから **cupertino-icons** をインストール
 7. Home Assistantを再起動
 8. Home Assistant > 設定 > インテグレーション > 追加 > Cupertino Icons > インストール
 
-アイコンはHome Assistantで使用可能になるはずです。表示されない場合は、ページをリフレッシュするか、プライベートブラウジングを試すか、Home Assistantを再起動してください。
+これでHome Assistantでアイコンが利用できるようになります。表示されない場合は、ページをリロード、プライベートブラウジング、またはHome Assistantの再起動をお試しください。
 
 ### 手動
 1. `custom_components/cupertino` を custom_components フォルダにコピー
 7. Home Assistantを再起動
 8. Home Assistant > 設定 > インテグレーション > 追加 > Cupertino Icons > インストール
   
-アイコンはHome Assistantで使用可能になるはずです。表示されない場合は、ページをリフレッシュするか、プライベートブラウジングを試すか、Home Assistantを再起動してください
+これでHome Assistantでアイコンが利用できるようになります。表示されない場合は、ページをリロード、プライベートブラウジング、またはHome Assistantの再起動をお試しください
 
 ## 使い方
 プレフィックス: **ios**  
 例: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
 
-## マルチカラーアイコン！(v3.0+)
+## マルチカラーアイコン！（v3.0+）
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
@@ -87,9 +119,9 @@ Home Assistant用のApple SF Symbolsアイコン！(3000以上のアイコン)
 </div>
 
 
-SF Symbols 3+ はマルチカラーアイコンに対応しています。この機能はHome Assistantでマルチカラーアイコンをサポートするためにこのリポジトリに移植されました！  
+SF Symbols 3+はマルチカラーアイコンをサポートしています。この機能は本リポジトリにも移植され、Home Assistantでマルチカラーアイコンが利用可能になりました！  
 
-アイコンの色を変更するには、サフィックス **#color**、**#invert**、**#color-invert**、または **#fullcolor** を追加してください！（インスピレーションのクレジットは [thomasloven](https://github.com/thomasloven/hass-fontawesome)）
+アイコンの色を変更するには、サフィックスとして**#color**、**#invert**、**#color-invert**、または**#fullcolor**を追加してください！（インスピレーション元: [thomasloven](https://github.com/thomasloven/hass-fontawesome) に感謝）
 
 例:
  - ios:gear-badge-xmark#color
@@ -99,61 +131,61 @@ SF Symbols 3+ はマルチカラーアイコンに対応しています。この
 ## アイコンリファレンス
 
 **v3.0 アップデート**  
- - Home Assistant Cupertino Icons が SF Symbols v3.0 に更新され、**3167 アイコン**を収録！（著作権対象アイコンは除く）  
- - Home Assistant のアイコンピッカー（2021.11.0以降）に対応  
+ - Home Assistant Cupertino IconsはSF Symbols v3.0にアップデートされ、**3167個のアイコン**に対応！（著作権のあるアイコンを除く）
+ - Home Assistantのアイコンピッカー（2021.11.0+）をサポート
 
 [SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  
-[SF Symbols リファレンス | SFSymbols.com](https://sfsymbols.com)  
+[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)
 
-より良い参照のために、Apple から MacOS アプリをダウンロードできます。  
+より詳細なリファレンスには、AppleからMacOSアプリをダウンロードしてください。
 
-**注意:** アンダースコア（\_）とドット（.）はハイフン（-）に置き換える必要があります  
+**注意:** アンダースコア（_）とドット（.）はハイフン（-）に置き換える必要があります  
 
-## 破壊的変更  
-v3.0+ 以降、このリポジトリは lovelace/frontend リポジトリから本格的なインテグレーションに変更されました。古いバージョンからアップグレードする場合：  
-1. HACS > 「cupertino-icons」をアンインストール  
-2. HACS > メニュー > **カスタムリポジトリ**  
-3. このリポジトリを削除  
-4. 上記の **インストール** 手順に従ってください  
+## 互換性に関する変更
+v3.0+以降、このリポジトリはlovelace/frontendリポジトリから本格的なインテグレーションに変更されました。古いバージョンからアップグレードする場合：
+1. HACS > 「cupertino-icons」をアンインストール
+2. HACS > メニュー > **カスタムリポジトリ**
+3. このリポジトリを削除
+4. 上記の**インストール**手順に従う
 
-## 法的免責事項  
-一部のアイコンは Apple に著作権があり、改変しての使用は許可されていません。これらのアイコンはエクスポートされておらず、このリポジトリには含まれていません。含まれません。  
+## 法的免責事項
+一部のアイコンはAppleの著作権により、改変しての利用が許可されていません。これらのアイコンはエクスポートされておらず、本リポジトリには含まれていません。今後も追加されません。
 
-<hr/>  
+<hr/>
 
-## やることリスト  
-☑️ SF Pro Symbols v2.1 にアップグレード  
-☑️ SF Pro Symbols v3.0 にアップグレード  
+## 今後の予定
+☑️ SF Pro Symbols v2.1へアップグレード  
+☑️ SF Pro Symbols v3.0へアップグレード  
 ☑️ マルチカラー対応  
 ☑️ アイコンピッカー対応  
 
-## 変更履歴  
+## 変更履歴
 
-### v4.0.1  
- - マニフェストのバージョン不一致を修正  
+### v4.0.1
+ - manifestのバージョン不一致を修正
 
-### v4.0.0  
- - SF Symbols 6 対応を追加（クレジット: @HoussamOtarid）  
- - HA 2025.7.0 の非推奨問題を修正（クレジット: @lnlyssg）  
+### v4.0.0
+ - SF Symbols 6のサポート追加（クレジット: @HoussamOtarid）
+ - HA 2025.7.0の非推奨問題を修正（クレジット: @lnlyssg）
 
-🎉 v4.0 にご協力いただいたすべての貢献者に感謝！  
+🎉 v4.0に貢献してくださったすべての皆様に感謝します！
 
-### v3.0.2  
- - サイズに関するバグを修正  
+### v3.0.2
+ - サイズの問題を引き起こすバグを修正
 
-### v3.0.1  
- - マルチカラーアイコンの表示不具合を修正  
+### v3.0.1
+ - マルチカラーアイコンが正しく表示されないバグを修正
 
-### v3.0  
- - SF Symbols 3.0 に更新  
- - マルチカラーアイコン対応  
- - アイコンピッカー対応  
- - レイアウトの再構成とリファクタリング  
- - **破壊的変更:** リポジトリの種類が frontend/lovelace プラグインから本格的なインテグレーションに変更されました。HACS からアンインストールし、リポジトリを削除した後に再インストールが必要になる場合があります。
+### v3.0
+ - SF Symbols 3.0へアップデート
+ - マルチカラーアイコンのサポート
+ - アイコンピッカーのサポート
+ - レイアウトの再構成とリファクタリング
+ - **互換性に関する変更:** リポジトリ種別がfrontend/lovelaceプラグインから本格的なインテグレーションに変更されました。HACSからアンインストール・リポジトリ削除・再インストールが必要になる場合があります。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-29
 
 ---
