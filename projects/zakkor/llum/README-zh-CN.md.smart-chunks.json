@@ -1,0 +1,389 @@
+[
+  {
+    "Id": 1,
+    "Content": "# llum\n\n### A fast, light, open chat UI\n\n![image](https://github.com/user-attachments/assets/38cc47cf-06a3-4dca-8ee5-d9c9edf57903)\n\n### Key features:\n\n- 🔌 Multiple providers, plug in your API keys (stored entirely locally) and you're good to go\n\n  - Local models (through Ollama)\n  - OpenRouter (which lets you use ALL models across many providers: OpenAI, Anthropic, OSS, 50+ others)\n  - OpenAI\n  - Anthropic\n  - Mistral\n  - Groq\n\n- 🛠️ Tool use\n  - Check out `server/toolfns/toolfns.go`. You only need to write functions. The function comment is the description the model receives, so it knows what to use. Click the `Sync` button in the web UI to refresh your tools.\n- 🖼️ Multimodal input: upload, paste, or share links to images\n- 🎨 Image generation using DALL-E 3\n- 📝 Multi-shot prompting. Also edit, delete, regenerate messages, whatever. The world is your oyster\n- ⚡ Pre-filled responses (where supported by provider)\n- 🌐 Support for all available models across all providers\n- 🔄 Change model mid-conversation\n- 🔐 Sync chats and keys across devices, end-to-end encrypted. Self-hosted, or use our hosted instance.\n- 🔗 Conversation sharing (if you choose to share, your conversation has to be stored on an external server for the share link to be made available. Self-hosted share options coming soon. No, I will not view any of your stuff.)\n- 🌿 Branching conversation history (like the left-right ChatGPT arrows that you can click to go back to a previous response)\n\n### Privacy:\n\n- Completely private and transparent. All your conversation history and keys are stored entirely locally, and kept only in your browser, on your device.\n\n## How to install?\n\nIf you don't want to use tools, you don't need to install anything. A hosted instance is available at: https://llum.chat\n\nIf you want to use tools, proceed below.\n\n## Single binary:\n\nThe llum tool server is available prebuilt as a single binary. [Download prebuilt package from the releases page.](https://github.com/zakkor/llum/releases)\n\nDownload the binary for your platform, then run it, which will start the tool server:\n",
+    "ContentSha": "vo7t+ZXArl9TyBFssDOJH2btbwYPRVyPDXywopu4TyI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# llum\n\n### 一个快速、轻量、开源的聊天界面\n\n![image](https://github.com/user-attachments/assets/38cc47cf-06a3-4dca-8ee5-d9c9edf57903)\n\n### 主要特点：\n\n- 🔌 多个提供商，插入你的 API 密钥（完全本地存储），即可开始使用\n\n  - 本地模型（通过 Ollama）\n  - OpenRouter（允许你使用多个提供商的所有模型：OpenAI、Anthropic、OSS、50 多个其他）\n  - OpenAI\n  - Anthropic\n  - Mistral\n  - Groq\n\n- 🛠️ 工具使用\n  - 查看 `server/toolfns/toolfns.go`。你只需编写函数。函数注释是模型接收的描述，因此它知道如何使用。点击网页界面中的 `Sync` 按钮刷新你的工具。\n- 🖼️ 多模态输入：上传、粘贴或分享图片链接\n- 🎨 使用 DALL-E 3 生成图片\n- 📝 多轮提示。还可以编辑、删除、重新生成消息，任你所欲\n- ⚡ 预设回复（在提供商支持的情况下）\n- 🌐 支持所有提供商的所有可用模型\n- 🔄 会话中途更换模型\n- 🔐 跨设备同步聊天和密钥，端到端加密。可自托管，或使用我们的托管实例。\n- 🔗 会话分享（如果你选择分享，你的对话必须存储在外部服务器上，才能生成分享链接。自托管分享选项即将推出。不，我不会查看你的任何内容。）\n- 🌿 分支会话历史（类似 ChatGPT 左右箭头，点击可回到之前的回复）\n\n### 隐私：\n\n- 完全私密和透明。所有对话历史和密钥均完全本地存储，仅保存在你的浏览器和设备上。\n\n## 如何安装？\n\n如果你不想使用工具，则无需安装任何东西。托管实例可访问：https://llum.chat\n\n如果你想使用工具，请继续阅读以下内容。\n\n## 单一二进制文件：\n\nllum 工具服务器提供预构建的单一二进制文件。[从发布页面下载预构建包。](https://github.com/zakkor/llum/releases)\n\n下载适合你平台的二进制文件，然后运行它，即可启动工具服务器：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2/jWLjlImb64EVIpRXOT7nxxIS1uIl/dSniHm0v/N/4=",
+        "originContent": "# llum",
+        "translatedContent": "# llum"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "UxFlJDKtasRsoaXDzdhtRUGs5PGYjpW6XQW74DHgJvk=",
+        "originContent": "### A fast, light, open chat UI",
+        "translatedContent": "### 一个快速、轻量、开源的聊天界面"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "pCwvlA4rnFWDlTL3I31r0GczxNe43vx9weO+MeCax44=",
+        "originContent": "![image](https://github.com/user-attachments/assets/38cc47cf-06a3-4dca-8ee5-d9c9edf57903)",
+        "translatedContent": "![image](https://github.com/user-attachments/assets/38cc47cf-06a3-4dca-8ee5-d9c9edf57903)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "VsZAU7rMiqkcGQQkOJ3W+qxWqhSie5CtfIHg7SMQNmM=",
+        "originContent": "### Key features:",
+        "translatedContent": "### 主要特点："
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "fhK5aLumdelcPyUTF+X0Gt//RjnELVwn0P0HMMp8gTg=",
+        "originContent": "- 🔌 Multiple providers, plug in your API keys (stored entirely locally) and you're good to go",
+        "translatedContent": "- 🔌 多个提供商，插入你的 API 密钥（完全本地存储），即可开始使用"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "/GBceh34mE1U/JEWsnW3igI7A7tkVb/fsH4zf+lShiU=",
+        "originContent": "  - Local models (through Ollama)",
+        "translatedContent": "  - 本地模型（通过 Ollama）"
+      },
+      {
+        "row": 12,
+        "rowsha": "1Pj4nwDViCduaPc4oUp7o/pk4oqJvHAh2+dg+vnzKGE=",
+        "originContent": "  - OpenRouter (which lets you use ALL models across many providers: OpenAI, Anthropic, OSS, 50+ others)",
+        "translatedContent": "  - OpenRouter（允许你使用多个提供商的所有模型：OpenAI、Anthropic、OSS、50 多个其他）"
+      },
+      {
+        "row": 13,
+        "rowsha": "6hlghl99PRVYdlBjynDa0OMvGwh0mzSEeM8TdZHK7OA=",
+        "originContent": "  - OpenAI",
+        "translatedContent": "  - OpenAI"
+      },
+      {
+        "row": 14,
+        "rowsha": "xoemDYIfXCr45gkp8syEVe4EokWEXd0CXdSU2LJeDc4=",
+        "originContent": "  - Anthropic",
+        "translatedContent": "  - Anthropic"
+      },
+      {
+        "row": 15,
+        "rowsha": "8MjNjhtR7taIV1HFmkmuefd4/JA9LO9xivWvq1doHcQ=",
+        "originContent": "  - Mistral",
+        "translatedContent": "  - Mistral"
+      },
+      {
+        "row": 16,
+        "rowsha": "vBOodCfJuKmaOIDYcG110WmwNpI2JckTu7TXElMnuwU=",
+        "originContent": "  - Groq",
+        "translatedContent": "  - Groq"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "jo3Tg6lw4eb1ZlgIe53Rn1WR6l0Lu6Uoi+tl42xH5b0=",
+        "originContent": "- 🛠️ Tool use",
+        "translatedContent": "- 🛠️ 工具使用"
+      },
+      {
+        "row": 19,
+        "rowsha": "LOCVj8SLJrMkml7WU0JTCZxy6eqY6RxVnRo0ecxza3I=",
+        "originContent": "  - Check out `server/toolfns/toolfns.go`. You only need to write functions. The function comment is the description the model receives, so it knows what to use. Click the `Sync` button in the web UI to refresh your tools.",
+        "translatedContent": "  - 查看 `server/toolfns/toolfns.go`。你只需编写函数。函数注释是模型接收的描述，因此它知道如何使用。点击网页界面中的 `Sync` 按钮刷新你的工具。"
+      },
+      {
+        "row": 20,
+        "rowsha": "f01W5wizKjf9z0nj4V38bJNDahfcaNePrQ1eg1yzlEs=",
+        "originContent": "- 🖼️ Multimodal input: upload, paste, or share links to images",
+        "translatedContent": "- 🖼️ 多模态输入：上传、粘贴或分享图片链接"
+      },
+      {
+        "row": 21,
+        "rowsha": "93O+4i/1GsuLFKa9tVKThvtiLpPd1WC6mhVHgG5BlUU=",
+        "originContent": "- 🎨 Image generation using DALL-E 3",
+        "translatedContent": "- 🎨 使用 DALL-E 3 生成图片"
+      },
+      {
+        "row": 22,
+        "rowsha": "Ep/pmZFoiBt/KABkDLxlnfL5k2KlAiaI0QImbQOAxBk=",
+        "originContent": "- 📝 Multi-shot prompting. Also edit, delete, regenerate messages, whatever. The world is your oyster",
+        "translatedContent": "- 📝 多轮提示。还可以编辑、删除、重新生成消息，任你所欲"
+      },
+      {
+        "row": 23,
+        "rowsha": "3aJA8xqz/RAfTeY129DJqNrGXI8Vai+Z4fBCv+cXONI=",
+        "originContent": "- ⚡ Pre-filled responses (where supported by provider)",
+        "translatedContent": "- ⚡ 预设回复（在提供商支持的情况下）"
+      },
+      {
+        "row": 24,
+        "rowsha": "ZghYV/+zx9vv/WrLbGwxxSVb1KX12PB6mnpLpB1MqGI=",
+        "originContent": "- 🌐 Support for all available models across all providers",
+        "translatedContent": "- 🌐 支持所有提供商的所有可用模型"
+      },
+      {
+        "row": 25,
+        "rowsha": "rL3f+LD0xnxCd+LygDcD0kPzJ8CTAeX6bSS+o/BobS8=",
+        "originContent": "- 🔄 Change model mid-conversation",
+        "translatedContent": "- 🔄 会话中途更换模型"
+      },
+      {
+        "row": 26,
+        "rowsha": "QwYrVqbXxAKr7S+AL639md1f8By7vhmpdmHueZCbuT4=",
+        "originContent": "- 🔐 Sync chats and keys across devices, end-to-end encrypted. Self-hosted, or use our hosted instance.",
+        "translatedContent": "- 🔐 跨设备同步聊天和密钥，端到端加密。可自托管，或使用我们的托管实例。"
+      },
+      {
+        "row": 27,
+        "rowsha": "ABxM0WxtbRxHJuvR2LHJlgIz3iUYpX29xyihTrqAAYc=",
+        "originContent": "- 🔗 Conversation sharing (if you choose to share, your conversation has to be stored on an external server for the share link to be made available. Self-hosted share options coming soon. No, I will not view any of your stuff.)",
+        "translatedContent": "- 🔗 会话分享（如果你选择分享，你的对话必须存储在外部服务器上，才能生成分享链接。自托管分享选项即将推出。不，我不会查看你的任何内容。）"
+      },
+      {
+        "row": 28,
+        "rowsha": "P45qVHc3MraX0WezNvavBq1POvVDSrPuQSUXubvnyiI=",
+        "originContent": "- 🌿 Branching conversation history (like the left-right ChatGPT arrows that you can click to go back to a previous response)",
+        "translatedContent": "- 🌿 分支会话历史（类似 ChatGPT 左右箭头，点击可回到之前的回复）"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "Fwz48yszd90ixBTJGQ3Pzet6r0rnDCnMElT7aagbFBo=",
+        "originContent": "### Privacy:",
+        "translatedContent": "### 隐私："
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "T5uCCIJbU7vppG4EbNnWDBVULFplMSnS70v2xvPE2Fw=",
+        "originContent": "- Completely private and transparent. All your conversation history and keys are stored entirely locally, and kept only in your browser, on your device.",
+        "translatedContent": "- 完全私密和透明。所有对话历史和密钥均完全本地存储，仅保存在你的浏览器和设备上。"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "d4Jb2+8krVVEMOT3NE5JGQ6z/uuv1y8mu5PKlcn8CwU=",
+        "originContent": "## How to install?",
+        "translatedContent": "## 如何安装？"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "53I6v8PDPFGPQ2eHXA62SRqKmsPRVZdSV+XUAeCz1O8=",
+        "originContent": "If you don't want to use tools, you don't need to install anything. A hosted instance is available at: https://llum.chat",
+        "translatedContent": "如果你不想使用工具，则无需安装任何东西。托管实例可访问：https://llum.chat"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "bz1ystKQuz/1i0zkQrAN+H5KoG44dfv4PlBMZjUqroo=",
+        "originContent": "If you want to use tools, proceed below.",
+        "translatedContent": "如果你想使用工具，请继续阅读以下内容。"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "jSE7FsnRPaI6H+30VRyJgClhyQLXk2Hkm6l7IX4Jlso=",
+        "originContent": "## Single binary:",
+        "translatedContent": "## 单一二进制文件："
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "qQL4N+hzrRmovGlQuizqsYm+kBivYxpeO6tbt4IN7Yg=",
+        "originContent": "The llum tool server is available prebuilt as a single binary. [Download prebuilt package from the releases page.](https://github.com/zakkor/llum/releases)",
+        "translatedContent": "llum 工具服务器提供预构建的单一二进制文件。[从发布页面下载预构建包。](https://github.com/zakkor/llum/releases)"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "iVV4Y2yvsw+Ke6fwaLhAWF4MrnWs3OBfOqs0qjqneFI=",
+        "originContent": "Download the binary for your platform, then run it, which will start the tool server:",
+        "translatedContent": "下载适合你平台的二进制文件，然后运行它，即可启动工具服务器："
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n./llum-darwin-amd64\nTool server running at http://localhost:8081\n```",
+    "ContentSha": "gNCBNTVJDcwj5Gztb+8w4EeJyOhuNQopuYOrodFTGkI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./llum-darwin-amd64\nTool server running at http://localhost:8081\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "gfsUO3GNe/K6uk2ptFh41yuPUk3rsXEtK2qsSOS4s4Y=",
+        "originContent": "./llum-darwin-amd64",
+        "translatedContent": "./llum-darwin-amd64"
+      },
+      {
+        "row": 3,
+        "rowsha": "+XDq4871xgyM8Spy5JqeX1mni+fa5bDzzjzQvGaN5Io=",
+        "originContent": "Tool server running at http://localhost:8081",
+        "translatedContent": "Tool server running at http://localhost:8081"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nGo back to https://llum.chat, head over to Settings -> Tool calling, and click the \"Refresh tools\" button. You should be good to go!\n\n### Building client and server locally:\n\n1. Clone the repository\n2. Install and start the client: `npm i && npm run dev`. The client will be accessible at http://localhost:5173\n3. Install and start the server: `cd server && go generate ./... && go build && ./server -password foobar`. The server will be accessible at http://localhost:8081. You can plug this into the server address in the chat UI along with the password you selected.\n",
+    "ContentSha": "0DSu/areEmbDLWU7WiK66i7jZZ3niMXf4th1Iq36OMI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "回到 https://llum.chat，进入 设置 -> 工具调用，然后点击“刷新工具”按钮。你应该可以正常使用了！\n\n### 本地构建客户端和服务器：\n\n1. 克隆代码仓库\n2. 安装并启动客户端：`npm i && npm run dev`。客户端将可通过 http://localhost:5173 访问\n3. 安装并启动服务器：`cd server && go generate ./... && go build && ./server -password foobar`。服务器将可通过 http://localhost:8081 访问。你可以在聊天界面中将此地址和你选择的密码一起填写到服务器地址中。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "回到 https://llum.chat，进入 设置 -> 工具调用，然后点击“刷新工具”按钮。你应该可以正常使用了！"
+      },
+      {
+        "row": 2,
+        "rowsha": "HsCS7qmiVKmA8Ns9n9TcpRH6APeMy8toxu6dRTdpEyE=",
+        "originContent": "Go back to https://llum.chat, head over to Settings -> Tool calling, and click the \"Refresh tools\" button. You should be good to go!",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 本地构建客户端和服务器："
+      },
+      {
+        "row": 4,
+        "rowsha": "38WeKJhHncRm/MIsqoS3HXsm7I6cFzrEin4folHzy9E=",
+        "originContent": "### Building client and server locally:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 克隆代码仓库"
+      },
+      {
+        "row": 6,
+        "rowsha": "ZK8Iy7jefVa7tPlAX3mUCH6pinIlVvQj8ounTkljVIE=",
+        "originContent": "1. Clone the repository",
+        "translatedContent": "2. 安装并启动客户端：`npm i && npm run dev`。客户端将可通过 http://localhost:5173 访问"
+      },
+      {
+        "row": 7,
+        "rowsha": "oDIcVGZKLUSbnr60sBQ4OHM9jInM/2z/p8EAfVQ74oM=",
+        "originContent": "2. Install and start the client: `npm i && npm run dev`. The client will be accessible at http://localhost:5173",
+        "translatedContent": "3. 安装并启动服务器：`cd server && go generate ./... && go build && ./server -password foobar`。服务器将可通过 http://localhost:8081 访问。你可以在聊天界面中将此地址和你选择的密码一起填写到服务器地址中。"
+      },
+      {
+        "row": 8,
+        "rowsha": "z1ym7IIIkheQ1vBRDY5ckjGYuAmsbhJYO8Fn0YN5DZM=",
+        "originContent": "3. Install and start the server: `cd server && go generate ./... && go build && ./server -password foobar`. The server will be accessible at http://localhost:8081. You can plug this into the server address in the chat UI along with the password you selected.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

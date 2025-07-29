@@ -1,0 +1,350 @@
+[
+  {
+    "row": 1,
+    "rowsha": "2/jWLjlImb64EVIpRXOT7nxxIS1uIl/dSniHm0v/N/4=",
+    "originContent": "# llum",
+    "translatedContent": "# llum"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "UxFlJDKtasRsoaXDzdhtRUGs5PGYjpW6XQW74DHgJvk=",
+    "originContent": "### A fast, light, open chat UI",
+    "translatedContent": "### Una interfaz de chat rápida, ligera y abierta"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "pCwvlA4rnFWDlTL3I31r0GczxNe43vx9weO+MeCax44=",
+    "originContent": "![image](https://github.com/user-attachments/assets/38cc47cf-06a3-4dca-8ee5-d9c9edf57903)",
+    "translatedContent": "![image](https://github.com/user-attachments/assets/38cc47cf-06a3-4dca-8ee5-d9c9edf57903)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "VsZAU7rMiqkcGQQkOJ3W+qxWqhSie5CtfIHg7SMQNmM=",
+    "originContent": "### Key features:",
+    "translatedContent": "### Características clave:"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "fhK5aLumdelcPyUTF+X0Gt//RjnELVwn0P0HMMp8gTg=",
+    "originContent": "- 🔌 Multiple providers, plug in your API keys (stored entirely locally) and you're good to go",
+    "translatedContent": "- 🔌 Múltiples proveedores, conecta tus claves API (almacenadas completamente localmente) y listo"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "/GBceh34mE1U/JEWsnW3igI7A7tkVb/fsH4zf+lShiU=",
+    "originContent": "  - Local models (through Ollama)",
+    "translatedContent": "  - Modelos locales (a través de Ollama)"
+  },
+  {
+    "row": 12,
+    "rowsha": "1Pj4nwDViCduaPc4oUp7o/pk4oqJvHAh2+dg+vnzKGE=",
+    "originContent": "  - OpenRouter (which lets you use ALL models across many providers: OpenAI, Anthropic, OSS, 50+ others)",
+    "translatedContent": "  - OpenRouter (que te permite usar TODOS los modelos de muchos proveedores: OpenAI, Anthropic, OSS, más de 50 otros)"
+  },
+  {
+    "row": 13,
+    "rowsha": "6hlghl99PRVYdlBjynDa0OMvGwh0mzSEeM8TdZHK7OA=",
+    "originContent": "  - OpenAI",
+    "translatedContent": "  - OpenAI"
+  },
+  {
+    "row": 14,
+    "rowsha": "xoemDYIfXCr45gkp8syEVe4EokWEXd0CXdSU2LJeDc4=",
+    "originContent": "  - Anthropic",
+    "translatedContent": "  - Anthropic"
+  },
+  {
+    "row": 15,
+    "rowsha": "8MjNjhtR7taIV1HFmkmuefd4/JA9LO9xivWvq1doHcQ=",
+    "originContent": "  - Mistral",
+    "translatedContent": "  - Mistral"
+  },
+  {
+    "row": 16,
+    "rowsha": "vBOodCfJuKmaOIDYcG110WmwNpI2JckTu7TXElMnuwU=",
+    "originContent": "  - Groq",
+    "translatedContent": "  - Groq"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "jo3Tg6lw4eb1ZlgIe53Rn1WR6l0Lu6Uoi+tl42xH5b0=",
+    "originContent": "- 🛠️ Tool use",
+    "translatedContent": "- 🛠️ Uso de herramientas"
+  },
+  {
+    "row": 19,
+    "rowsha": "LOCVj8SLJrMkml7WU0JTCZxy6eqY6RxVnRo0ecxza3I=",
+    "originContent": "  - Check out `server/toolfns/toolfns.go`. You only need to write functions. The function comment is the description the model receives, so it knows what to use. Click the `Sync` button in the web UI to refresh your tools.",
+    "translatedContent": "  - Revisa `server/toolfns/toolfns.go`. Solo necesitas escribir funciones. El comentario de la función es la descripción que recibe el modelo, para saber qué usar. Haz clic en el botón `Sync` en la interfaz web para actualizar tus herramientas."
+  },
+  {
+    "row": 20,
+    "rowsha": "f01W5wizKjf9z0nj4V38bJNDahfcaNePrQ1eg1yzlEs=",
+    "originContent": "- 🖼️ Multimodal input: upload, paste, or share links to images",
+    "translatedContent": "- 🖼️ Entrada multimodal: sube, pega o comparte enlaces a imágenes"
+  },
+  {
+    "row": 21,
+    "rowsha": "93O+4i/1GsuLFKa9tVKThvtiLpPd1WC6mhVHgG5BlUU=",
+    "originContent": "- 🎨 Image generation using DALL-E 3",
+    "translatedContent": "- 🎨 Generación de imágenes usando DALL-E 3"
+  },
+  {
+    "row": 22,
+    "rowsha": "Ep/pmZFoiBt/KABkDLxlnfL5k2KlAiaI0QImbQOAxBk=",
+    "originContent": "- 📝 Multi-shot prompting. Also edit, delete, regenerate messages, whatever. The world is your oyster",
+    "translatedContent": "- 📝 Prompts multi-disparo. También edita, elimina, regenera mensajes, lo que quieras. El mundo es tuyo"
+  },
+  {
+    "row": 23,
+    "rowsha": "3aJA8xqz/RAfTeY129DJqNrGXI8Vai+Z4fBCv+cXONI=",
+    "originContent": "- ⚡ Pre-filled responses (where supported by provider)",
+    "translatedContent": "- ⚡ Respuestas prellenadas (donde el proveedor lo soporte)"
+  },
+  {
+    "row": 24,
+    "rowsha": "ZghYV/+zx9vv/WrLbGwxxSVb1KX12PB6mnpLpB1MqGI=",
+    "originContent": "- 🌐 Support for all available models across all providers",
+    "translatedContent": "- 🌐 Soporte para todos los modelos disponibles en todos los proveedores"
+  },
+  {
+    "row": 25,
+    "rowsha": "rL3f+LD0xnxCd+LygDcD0kPzJ8CTAeX6bSS+o/BobS8=",
+    "originContent": "- 🔄 Change model mid-conversation",
+    "translatedContent": "- 🔄 Cambia de modelo en medio de la conversación"
+  },
+  {
+    "row": 26,
+    "rowsha": "QwYrVqbXxAKr7S+AL639md1f8By7vhmpdmHueZCbuT4=",
+    "originContent": "- 🔐 Sync chats and keys across devices, end-to-end encrypted. Self-hosted, or use our hosted instance.",
+    "translatedContent": "- 🔐 Sincroniza chats y claves entre dispositivos, cifrado de extremo a extremo. Autoalojado, o usa nuestra instancia alojada."
+  },
+  {
+    "row": 27,
+    "rowsha": "ABxM0WxtbRxHJuvR2LHJlgIz3iUYpX29xyihTrqAAYc=",
+    "originContent": "- 🔗 Conversation sharing (if you choose to share, your conversation has to be stored on an external server for the share link to be made available. Self-hosted share options coming soon. No, I will not view any of your stuff.)",
+    "translatedContent": "- 🔗 Compartir conversación (si eliges compartir, tu conversación debe almacenarse en un servidor externo para que el enlace de compartición esté disponible. Próximamente opciones de compartir autoalojadas. No, no veré nada de tu contenido.)"
+  },
+  {
+    "row": 28,
+    "rowsha": "P45qVHc3MraX0WezNvavBq1POvVDSrPuQSUXubvnyiI=",
+    "originContent": "- 🌿 Branching conversation history (like the left-right ChatGPT arrows that you can click to go back to a previous response)",
+    "translatedContent": "- 🌿 Historial de conversación ramificado (como las flechas izquierda-derecha de ChatGPT que puedes clicar para volver a una respuesta anterior)"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "Fwz48yszd90ixBTJGQ3Pzet6r0rnDCnMElT7aagbFBo=",
+    "originContent": "### Privacy:",
+    "translatedContent": "### Privacidad:"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "T5uCCIJbU7vppG4EbNnWDBVULFplMSnS70v2xvPE2Fw=",
+    "originContent": "- Completely private and transparent. All your conversation history and keys are stored entirely locally, and kept only in your browser, on your device.",
+    "translatedContent": "- Completamente privada y transparente. Todo tu historial de conversación y claves se almacenan completamente localmente, y solo en tu navegador, en tu dispositivo."
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "d4Jb2+8krVVEMOT3NE5JGQ6z/uuv1y8mu5PKlcn8CwU=",
+    "originContent": "## How to install?",
+    "translatedContent": "## ¿Cómo instalar?"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "53I6v8PDPFGPQ2eHXA62SRqKmsPRVZdSV+XUAeCz1O8=",
+    "originContent": "If you don't want to use tools, you don't need to install anything. A hosted instance is available at: https://llum.chat",
+    "translatedContent": "Si no quieres usar herramientas, no necesitas instalar nada. Hay una instancia alojada disponible en: https://llum.chat"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "bz1ystKQuz/1i0zkQrAN+H5KoG44dfv4PlBMZjUqroo=",
+    "originContent": "If you want to use tools, proceed below.",
+    "translatedContent": "Si quieres usar herramientas, continúa a continuación."
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "jSE7FsnRPaI6H+30VRyJgClhyQLXk2Hkm6l7IX4Jlso=",
+    "originContent": "## Single binary:",
+    "translatedContent": "## Binario único:"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "qQL4N+hzrRmovGlQuizqsYm+kBivYxpeO6tbt4IN7Yg=",
+    "originContent": "The llum tool server is available prebuilt as a single binary. [Download prebuilt package from the releases page.](https://github.com/zakkor/llum/releases)",
+    "translatedContent": "El servidor de herramientas llum está disponible precompilado como un binario único. [Descarga el paquete precompilado desde la página de lanzamientos.](https://github.com/zakkor/llum/releases)"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "iVV4Y2yvsw+Ke6fwaLhAWF4MrnWs3OBfOqs0qjqneFI=",
+    "originContent": "Download the binary for your platform, then run it, which will start the tool server:",
+    "translatedContent": "Descarga el binario para tu plataforma, luego ejecútalo, lo que iniciará el servidor de herramientas:"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "gfsUO3GNe/K6uk2ptFh41yuPUk3rsXEtK2qsSOS4s4Y=",
+    "originContent": "./llum-darwin-amd64",
+    "translatedContent": "./llum-darwin-amd64"
+  },
+  {
+    "row": 48,
+    "rowsha": "+XDq4871xgyM8Spy5JqeX1mni+fa5bDzzjzQvGaN5Io=",
+    "originContent": "Tool server running at http://localhost:8081",
+    "translatedContent": "Tool server running at http://localhost:8081"
+  },
+  {
+    "row": 49,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "HsCS7qmiVKmA8Ns9n9TcpRH6APeMy8toxu6dRTdpEyE=",
+    "originContent": "Go back to https://llum.chat, head over to Settings -> Tool calling, and click the \"Refresh tools\" button. You should be good to go!",
+    "translatedContent": "Vuelve a https://llum.chat, dirígete a Configuración -> Llamada de herramientas, y haz clic en el botón \"Actualizar herramientas\". ¡Deberías estar listo para continuar!"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "38WeKJhHncRm/MIsqoS3HXsm7I6cFzrEin4folHzy9E=",
+    "originContent": "### Building client and server locally:",
+    "translatedContent": "### Construcción del cliente y servidor localmente:"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "ZK8Iy7jefVa7tPlAX3mUCH6pinIlVvQj8ounTkljVIE=",
+    "originContent": "1. Clone the repository",
+    "translatedContent": "1. Clona el repositorio"
+  },
+  {
+    "row": 56,
+    "rowsha": "oDIcVGZKLUSbnr60sBQ4OHM9jInM/2z/p8EAfVQ74oM=",
+    "originContent": "2. Install and start the client: `npm i && npm run dev`. The client will be accessible at http://localhost:5173",
+    "translatedContent": "2. Instala y arranca el cliente: `npm i && npm run dev`. El cliente será accesible en http://localhost:5173"
+  },
+  {
+    "row": 57,
+    "rowsha": "z1ym7IIIkheQ1vBRDY5ckjGYuAmsbhJYO8Fn0YN5DZM=",
+    "originContent": "3. Install and start the server: `cd server && go generate ./... && go build && ./server -password foobar`. The server will be accessible at http://localhost:8081. You can plug this into the server address in the chat UI along with the password you selected.",
+    "translatedContent": "3. Instala y arranca el servidor: `cd server && go generate ./... && go build && ./server -password foobar`. El servidor será accesible en http://localhost:8081. Puedes conectar esto en la dirección del servidor en la interfaz de chat junto con la contraseña que seleccionaste."
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

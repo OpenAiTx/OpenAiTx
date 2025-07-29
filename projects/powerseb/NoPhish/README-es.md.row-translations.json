@@ -1,0 +1,548 @@
+[
+  {
+    "row": 1,
+    "rowsha": "I3daovIuR8nOa1rFDSqG5nk+0r0tmWFpiFRZkFLf9Hw=",
+    "originContent": "# NoPhish",
+    "translatedContent": "# NoPhish"
+  },
+  {
+    "row": 2,
+    "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+    "originContent": " ",
+    "translatedContent": " "
+  },
+  {
+    "row": 3,
+    "rowsha": "7rbutmSjpW1qBZ1PxZnMXtbUELhmkISFn9XmDxtyRyk=",
+    "originContent": "Another phishing toolkit which provides an docker and noVNC based infrastructure. The whole setup is based on the initial article of [mrd0x](https://mrd0x.com/bypass-2fa-using-novnc/) and [fhlipzero](https://fhlipzero.io/blogs/6_noVNC/noVNC.html).",
+    "translatedContent": "Otro conjunto de herramientas de phishing que proporciona una infraestructura basada en docker y noVNC. Toda la configuración se basa en el artículo inicial de [mrd0x](https://mrd0x.com/bypass-2fa-using-novnc/) y [fhlipzero](https://fhlipzero.io/blogs/6_noVNC/noVNC.html)."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "7BkdTEKrPNLV9YBpmWKtBqOMu5sCDAMtghTp1IkuGSo=",
+    "originContent": "A detailed description of the setup can be found here - [Another phishing tool](https://powerseb.github.io/posts/Another-phishing-tool/)",
+    "translatedContent": "Una descripción detallada de la configuración se puede encontrar aquí - [Otra herramienta de phishing](https://powerseb.github.io/posts/Another-phishing-tool/)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Instalación"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "HSXs5QGECmbAeJ7z1XidSjsLZARMKnroU7CfgbVI6m8=",
+    "originContent": "Ensure that docker is installed and working.",
+    "translatedContent": "Asegúrese de que docker esté instalado y funcionando."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "0T0sPk6dWBv8l9JVZEOV3Xf0l6EXybME14v5IY/FmIs=",
+    "originContent": "Install the required python modules:",
+    "translatedContent": "Instale los módulos de python requeridos:"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+    "originContent": "```console",
+    "translatedContent": "```console"
+  },
+  {
+    "row": 14,
+    "rowsha": "Vq81kR+lZCOI9v+/Q8oNKDMA91O4OwhTNNq342izlV4=",
+    "originContent": "pip install lz4",
+    "translatedContent": "pip install lz4"
+  },
+  {
+    "row": 15,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "oEvd+043+3/U2kp9CahwQ390m/WCiutsV+c3D38AC+Y=",
+    "originContent": "Install the setup (which will create the required docker images):",
+    "translatedContent": "Instale la configuración (que creará las imágenes de docker requeridas):"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+    "originContent": "```console",
+    "translatedContent": "```console"
+  },
+  {
+    "row": 20,
+    "rowsha": "RNBpHIpeedjsPAG8cXA4+L2nieAvNc4ZAOA/2DlJYI4=",
+    "originContent": "setup.sh install",
+    "translatedContent": "setup.sh install"
+  },
+  {
+    "row": 21,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "lZCOFEb15G0LJAmsg4dF/x7YYXKatRQ4YDzoLiXP6IE=",
+    "originContent": "## Execution",
+    "translatedContent": "## Ejecución"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "s2CPsCXtuGCCPb1IHaNe9+U5hxoIhTU4JgDmN41Da5c=",
+    "originContent": "The setup offers the following parameters:",
+    "translatedContent": "La configuración ofrece los siguientes parámetros:"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+    "originContent": "```console",
+    "translatedContent": "```console"
+  },
+  {
+    "row": 28,
+    "rowsha": "v2+n5abWBkOHzgqjKGsZY0R65RgNH8C58xGS1I7EiyA=",
+    "originContent": "Usage: ./setup.sh -u No. Users -d Domain -t Target",
+    "translatedContent": "Usage: ./setup.sh -u No. Users -d Domain -t Target"
+  },
+  {
+    "row": 29,
+    "rowsha": "3HlMnV8w8CrUeMpCiWcGJP0cjirhCxwEXreHMqC1L7Y=",
+    "originContent": "         -u Number of users - please note for every user a container is spawned so don't go crazy",
+    "translatedContent": "         -u Number of users - please note for every user a container is spawned so don't go crazy"
+  },
+  {
+    "row": 30,
+    "rowsha": "Cvv9sgzhTqqE/0nV/x84UpezOBCmYy0lXKVFYx/dQCU=",
+    "originContent": "         -d Domain which is used for phishing",
+    "translatedContent": "         -d Domain which is used for phishing"
+  },
+  {
+    "row": 31,
+    "rowsha": "jLj+VJPQPmWorbR8owkD+5zXo8assIoGEh2FGYQJTao=",
+    "originContent": "         -t Target website which should be displayed for the user",
+    "translatedContent": "         -t Target website which should be displayed for the user"
+  },
+  {
+    "row": 32,
+    "rowsha": "2fh6SCAVv3EHXFdHSfAPq/7rEImUooNW+NWfQMelpo8=",
+    "originContent": "         -e Export format",
+    "translatedContent": "         -e Export format"
+  },
+  {
+    "row": 33,
+    "rowsha": "tJvsOFWDy4gJRjCKMiKggKC3Y4FwXQkGazcL2A83i3w=",
+    "originContent": "         -s true / false if ssl is required - if ssl is set crt and key file are needed",
+    "translatedContent": "         -s true / false if ssl is required - if ssl is set crt and key file are needed"
+  },
+  {
+    "row": 34,
+    "rowsha": "f5PbHl3StGp+S/Wgt6ww0IDxjugoa3C4N8WhAMJ+Kpw=",
+    "originContent": "         -c Full path to the crt file of the ssl certificate",
+    "translatedContent": "         -c Full path to the crt file of the ssl certificate"
+  },
+  {
+    "row": 35,
+    "rowsha": "RJ55VFmdJ4MwY2wmWoyZzHB4v5wCCcBWw4DahPH9lMk=",
+    "originContent": "         -k Full path to the key file of the ssl certificate",
+    "translatedContent": "         -k Full path to the key file of the ssl certificate"
+  },
+  {
+    "row": 36,
+    "rowsha": "XOP/5GvrEVrKiYsor7gCCq80d5WQUFTERwjC8Ct9c94=",
+    "originContent": "         -a Adjust default user agent string",
+    "translatedContent": "         -a Adjust default user agent string"
+  },
+  {
+    "row": 37,
+    "rowsha": "/L2t4c9zaUyz1soCmYpbpYLkX2/kuwtC5OmJ9c5u0S8=",
+    "originContent": "         -z Compress profile to zip - will be ignored if parameter -e is set",
+    "translatedContent": "         -z Compress profile to zip - will be ignored if parameter -e is set"
+  },
+  {
+    "row": 38,
+    "rowsha": "Gch0N0TO3SfAfagZ3vabfv8RxWqQ4qXL9IWV5iJtE7U=",
+    "originContent": "         -p Additional URL parameters - if not set generic URL will be generated",
+    "translatedContent": "         -p Additional URL parameters - if not set generic URL will be generated"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "vi+6CIDMZQmkp57T0C/JHQw2kVHgy/WMvc5MGaqZKcE=",
+    "originContent": "A basic run looks like the following:",
+    "translatedContent": "Una ejecución básica se ve de la siguiente manera:"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+    "originContent": "```console",
+    "translatedContent": "```console"
+  },
+  {
+    "row": 45,
+    "rowsha": "Sty9FLhY1Lvw5r59TErJel0x7K7O103pMDv7Jq/wzG0=",
+    "originContent": "./setup.sh -u 4 -t https://accounts.google.com -d hello.local ",
+    "translatedContent": "./setup.sh -u 4 -t https://accounts.google.com -d hello.local "
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Durante la ejecución, la siguiente visión general proporciona un estado por URL de cuántas cookies o informaciones de sesión se han recopilado."
+  },
+  {
+    "row": 48,
+    "rowsha": "vnJ7d9NhRKRVsqzQHbeg2yX/Eksc3hRSYYvSw4z7LN4=",
+    "originContent": "During the run the following overview provides a status per URL how many cookies or session informations have been gathered.",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+    "originContent": "```console",
+    "translatedContent": "```console"
+  },
+  {
+    "row": 51,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 52,
+    "rowsha": "mGkbFwBfgj0iX4i34S4EY9bojIHefkkB/H/zVu7ilaw=",
+    "originContent": "[-] Starting Loop to collect sessions and cookies from containers",
+    "translatedContent": "[-] Starting Loop to collect sessions and cookies from containers"
+  },
+  {
+    "row": 53,
+    "rowsha": "57I+Zn7p/Ya7/+TbWpJM5fwnkLfxY520OS9AbaYW9Zo=",
+    "originContent": "    Every 60 Seconds Cookies and Sessions are exported - Press [CTRL+C] to stop..",
+    "translatedContent": "    Every 60 Seconds Cookies and Sessions are exported - Press [CTRL+C] to stop.."
+  },
+  {
+    "row": 54,
+    "rowsha": "CpqeFH1AZWeKZGbZ9QaWOFf8kUKzEg8orXnTa5srpjQ=",
+    "originContent": "For the url http://hello.local/v1/oauth2/authorize?access-token=b6f13b93-1b51-41c4-b8b4-b07932a45bd6 :",
+    "translatedContent": "For the url http://hello.local/v1/oauth2/authorize?access-token=b6f13b93-1b51-41c4-b8b4-b07932a45bd6 :"
+  },
+  {
+    "row": 55,
+    "rowsha": "6sqGo9T7XQLpn7DfwuKGb62GLgIrct3u5Aq/sfHx68A=",
+    "originContent": "-  0  cookies have been collected.",
+    "translatedContent": "-  0  cookies have been collected."
+  },
+  {
+    "row": 56,
+    "rowsha": "xy+TiNrdW/sZI6kL35BpV8wpGSEd4tYPev7hWTfXhts=",
+    "originContent": "-  5  session cookies have been collected.",
+    "translatedContent": "-  5  session cookies have been collected."
+  },
+  {
+    "row": 57,
+    "rowsha": "CSWE3GzbK0SqYtiYRNF3Q2RlRYBtF7Dv9ScfCgNIYN0=",
+    "originContent": "For the url http://hello.local/v2/oauth2/authorize?access-token=fd54dbec-c057-4f46-8657-c0283e5661d9 :",
+    "translatedContent": "For the url http://hello.local/v2/oauth2/authorize?access-token=fd54dbec-c057-4f46-8657-c0283e5661d9 :"
+  },
+  {
+    "row": 58,
+    "rowsha": "6sqGo9T7XQLpn7DfwuKGb62GLgIrct3u5Aq/sfHx68A=",
+    "originContent": "-  0  cookies have been collected.",
+    "translatedContent": "-  0  cookies have been collected."
+  },
+  {
+    "row": 59,
+    "rowsha": "xy+TiNrdW/sZI6kL35BpV8wpGSEd4tYPev7hWTfXhts=",
+    "originContent": "-  5  session cookies have been collected.",
+    "translatedContent": "-  5  session cookies have been collected."
+  },
+  {
+    "row": 60,
+    "rowsha": "Js3xLKFYEXk2CVOqKzP7upLthmvE+wUXS8GJs0YwDcA=",
+    "originContent": "For the url http://hello.local/v3/oauth2/authorize?access-token=9d606939-b805-4c65-9e98-2624de2cd431 :",
+    "translatedContent": "For the url http://hello.local/v3/oauth2/authorize?access-token=9d606939-b805-4c65-9e98-2624de2cd431 :"
+  },
+  {
+    "row": 61,
+    "rowsha": "6sqGo9T7XQLpn7DfwuKGb62GLgIrct3u5Aq/sfHx68A=",
+    "originContent": "-  0  cookies have been collected.",
+    "translatedContent": "-  0  cookies have been collected."
+  },
+  {
+    "row": 62,
+    "rowsha": "xy+TiNrdW/sZI6kL35BpV8wpGSEd4tYPev7hWTfXhts=",
+    "originContent": "-  5  session cookies have been collected.",
+    "translatedContent": "-  5  session cookies have been collected."
+  },
+  {
+    "row": 63,
+    "rowsha": "j+DbYj+abJSK+pad7GtnT/j5KwPnw+d1zjYWk849Vbo=",
+    "originContent": "For the url http://hello.local/v4/oauth2/authorize?access-token=84b8d725-7e87-439e-8629-53332092b68f :",
+    "translatedContent": "For the url http://hello.local/v4/oauth2/authorize?access-token=84b8d725-7e87-439e-8629-53332092b68f :"
+  },
+  {
+    "row": 64,
+    "rowsha": "6sqGo9T7XQLpn7DfwuKGb62GLgIrct3u5Aq/sfHx68A=",
+    "originContent": "-  0  cookies have been collected.",
+    "translatedContent": "-  0  cookies have been collected."
+  },
+  {
+    "row": 65,
+    "rowsha": "xy+TiNrdW/sZI6kL35BpV8wpGSEd4tYPev7hWTfXhts=",
+    "originContent": "-  5  session cookies have been collected.",
+    "translatedContent": "-  5  session cookies have been collected."
+  },
+  {
+    "row": 66,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "Y04L++u77HqPVka6gg7KgZKNoIYyRVhWRBm0lV2yjj4=",
+    "originContent": "Please note that the tool will export all cookies / session information even when it is not related to a successfull login.",
+    "translatedContent": "Tenga en cuenta que la herramienta exportará todas las cookies / información de sesión incluso cuando no esté relacionada con un inicio de sesión exitoso."
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "sNbOKV7zJgtV/eDDBYgWrm5ZET33UA5bZ5DEclBoNV0=",
+    "originContent": "Further you can also directly interact with the tool on the status page - `http(s)://%DOMAIN%:65534/status.php`. There you have the possability to disconnect the user and directly take over the session. ",
+    "translatedContent": "Además, también puede interactuar directamente con la herramienta en la página de estado - `http(s)://%DOMAIN%:65534/status.php`. Allí tiene la posibilidad de desconectar al usuario y tomar el control directo de la sesión."
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "WXEpi6JWCkNKEwb14X4pH5GLPqxqhxc6OPAd5PkkIZI=",
+    "originContent": "In the current version of the tool for every user two containers are spawned - one for desktops and one for mobile devices. Based on the user agent the target gets redirected to suitable container. The output of the mobile container is named with a leading \"m\" (e.g. mphis1-ffprofile). ",
+    "translatedContent": "En la versión actual de la herramienta, para cada usuario se inician dos contenedores: uno para escritorios y otro para dispositivos móviles. Según el agente de usuario, el objetivo es redirigido al contenedor adecuado. La salida del contenedor móvil se nombra con una \"m\" al inicio (por ejemplo, mphis1-ffprofile)."
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "zGHSZ1OPT8l08bM2cELNjcgsuCx+9ldLfletb8/Rr7c=",
+    "originContent": "## Using profile export",
+    "translatedContent": "## Uso de la exportación de perfil"
+  },
+  {
+    "row": 75,
+    "rowsha": "kPDmPIQ42LNB7eJMh9CtGvL4U2ALqo2GU8LWxspz954=",
+    "originContent": "If you are using the complete FireFox profile export, you can just call firefox with -profile like that:",
+    "translatedContent": "Si está utilizando la exportación completa del perfil de FireFox, simplemente puede llamar a firefox con -profile de la siguiente manera:"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "sIDoQ+XbMVrwT+GA1dmsszOL/g0ifBAETYnvwJpEpXE=",
+    "originContent": "On Windows:",
+    "translatedContent": "En Windows:"
+  },
+  {
+    "row": 78,
+    "rowsha": "8B0vKLcBgcZABfm8to03GIwvf8kB7LOt9m7bbpWCoWU=",
+    "originContent": "`& 'C:\\Program Files\\Mozilla Firefox\\firefox.exe' -profile <PathToProfile>\\phis1-ffprofile\\`",
+    "translatedContent": "`& 'C:\\Program Files\\Mozilla Firefox\\firefox.exe' -profile <PathToProfile>\\phis1-ffprofile\\`"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "uQE9h5u717Iuvc6eEGbsmbDmBQ51w+tApk/+j4LOyrU=",
+    "originContent": "On Linux:",
+    "translatedContent": "En Linux:"
+  },
+  {
+    "row": 81,
+    "rowsha": "MxyLPzoCKjf91sr0K0BKW+HodCFpQOHYBm5+U+9XKv8=",
+    "originContent": "`firefox-esr -profile <PathToProfile>/phis1-ffprofile --allow-downgrade`",
+    "translatedContent": "`firefox-esr -profile <PathToProfile>/phis1-ffprofile --allow-downgrade`"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "eLp6k8SmS56TANvAqDBd1BdWVOErIxy13QAWkvsly4Y=",
+    "originContent": "Everything is getting restored, including the latest site.",
+    "translatedContent": "Todo se restaura, incluida la última página visitada."
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "9luqfGiL54jQrijaWDjZiPLcV++W7Rb6uIxSfnN7ago=",
+    "originContent": "Please note by default you need to extract the zip archive or set the parameter `-z` to `false`. If the export format `-e simple` is chosen two json files will be generated which can be used with Cookiebro which is available for [Firefox](https://addons.mozilla.org/de/firefox/addon/cookiebro/) and [Chrome](https://chrome.google.com/webstore/detail/cookiebro/lpmockibcakojclnfmhchibmdpmollgn).",
+    "translatedContent": "Tenga en cuenta que por defecto debe extraer el archivo zip o establecer el parámetro `-z` en `false`. Si se elige el formato de exportación `-e simple`, se generarán dos archivos json que pueden usarse con Cookiebro, disponible para [Firefox](https://addons.mozilla.org/de/firefox/addon/cookiebro/) y [Chrome](https://chrome.google.com/webstore/detail/cookiebro/lpmockibcakojclnfmhchibmdpmollgn)."
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Limpieza"
+  },
+  {
+    "row": 88,
+    "rowsha": "pk7akDtkLvaBGpvvfye3zyB0+CgAi4jLAdPsE5voO14=",
+    "originContent": "## CleanUp",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Durante la ejecución, el script puede ser terminado con `ctrl` + `c` - todos los contenedores docker en ejecución serán eliminados. Para eliminar completamente la configuración, ejecute `setup.sh cleanup`."
+  },
+  {
+    "row": 90,
+    "rowsha": "KOUgvbYBNmjTyHWU8BXe6Wb5KBAoqIl5TobhCACLfac=",
+    "originContent": "During a run the script can be terminated with `ctrl` + `c` - all running docker container will then be deleted. To fully remove the setup run `setup.sh cleanup`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

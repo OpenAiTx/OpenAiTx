@@ -1,0 +1,398 @@
+[
+  {
+    "row": 1,
+    "rowsha": "SThH49JsLCqTo8nHnoyFPdrR8YZpHAnD1BaSa/1P7rA=",
+    "originContent": "# IntelliJ plugin for Pebble [![Gitter](https://badges.gitter.im/bjansen/pebble-intellij.svg)](https://gitter.im/bjansen/pebble-intellij) [![GitHub Actions](https://github.com/bjansen/pebble-intellij/workflows/Java%20CI/badge.svg?branch=master)](https://github.com/bjansen/pebble-intellij/actions) [![GitHub release](https://img.shields.io/github/release/bjansen/pebble-intellij.svg)](https://plugins.jetbrains.com/plugin/9407-pebble) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=pebble-intellij&metric=coverage)](https://sonarcloud.io/dashboard?id=pebble-intellij)",
+    "translatedContent": "# Pebble 的 IntelliJ 插件 [![Gitter](https://badges.gitter.im/bjansen/pebble-intellij.svg)](https://gitter.im/bjansen/pebble-intellij) [![GitHub Actions](https://github.com/bjansen/pebble-intellij/workflows/Java%20CI/badge.svg?branch=master)](https://github.com/bjansen/pebble-intellij/actions) [![GitHub release](https://img.shields.io/github/release/bjansen/pebble-intellij.svg)](https://plugins.jetbrains.com/plugin/9407-pebble) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=pebble-intellij&metric=coverage)](https://sonarcloud.io/dashboard?id=pebble-intellij)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "v7U3iv75qKwP87h1RRzdC7PrAk6gtW/ZCz8CJKmqLPY=",
+    "originContent": "This plugin provides support for the [Pebble templating engine](https://github.com/PebbleTemplates/pebble) in ",
+    "translatedContent": "该插件为 IntelliJ IDEA 2017.3 及更高版本提供对 [Pebble 模板引擎](https://github.com/PebbleTemplates/pebble) 的支持。"
+  },
+  {
+    "row": 4,
+    "rowsha": "PhKzXISM0JeIZFYv4vToVn1nP6kb30wxVonZWvdRv8k=",
+    "originContent": "IntelliJ IDEA 2017.3 and later.",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 6,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "  <img src=\"https://github.com/bjansen/pebble-intellij/raw/master/images/plugin.png\" "
+  },
+  {
+    "row": 7,
+    "rowsha": "hVrV+uY+OtF2eZq/A5ycS2hHlIa/NXZoTJ1+LK+8ywU=",
+    "originContent": "  <img src=\"https://github.com/bjansen/pebble-intellij/raw/master/images/plugin.png\" ",
+    "translatedContent": "       width=\"594\" alt=\"Pebble 的 IntelliJ 插件\"/>"
+  },
+  {
+    "row": 8,
+    "rowsha": "V2qzW2x90XQYeU2SbSSt75jji/HfCThE8QA3s2/08oI=",
+    "originContent": "       width=\"594\" alt=\"IntelliJ plugin for Pebble\"/>",
+    "translatedContent": "<p>"
+  },
+  {
+    "row": 9,
+    "rowsha": "M/J5lGcXcoeikmB4ChB6yY6mPdYWX2f8wNdHZ9CoIJA=",
+    "originContent": "<p>",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 功能"
+  },
+  {
+    "row": 11,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 解析器/词法分析器<sup>1</sup> 和语法高亮（支持自定义分隔符）"
+  },
+  {
+    "row": 13,
+    "rowsha": "scgVpt3H15iFQBoYUrXljHl+vNoGxPoMigSbin8SiIE=",
+    "originContent": "* parser/lexer<sup>1</sup> and syntax highlighter (supports custom delimiters)",
+    "translatedContent": "* 内置标签的活模板"
+  },
+  {
+    "row": 14,
+    "rowsha": "Oig4xkuthk8QOVuHkZIrvV6CWpldBzqEdQ3DoNlWDjY=",
+    "originContent": "* live templates for built-in tags",
+    "translatedContent": "* 括号匹配、代码折叠和注释"
+  },
+  {
+    "row": 15,
+    "rowsha": "jwdY4JO/UsbB23cUJicaGlACcFqBiVGKdUTsRbeY2v8=",
+    "originContent": "* braces matching, code folding and commenting",
+    "translatedContent": "* 引号处理"
+  },
+  {
+    "row": 16,
+    "rowsha": "lrRSqohIKQL0nTsXYT6tdzZCt3upXVJ+aWZELh8Gv6Y=",
+    "originContent": "* quote handler",
+    "translatedContent": "* 导航（方法和字段，包含的文件）"
+  },
+  {
+    "row": 17,
+    "rowsha": "8dkPQ59cSS8nkBDRzZJewO7EZPRtaCmxD/SiS9aa9Co=",
+    "originContent": "* navigation (methods and fields, included files)",
+    "translatedContent": "* 代码补全"
+  },
+  {
+    "row": 18,
+    "rowsha": "bU9vCuCEmV6RJ7YDcf+te4+cUufDpN92qmPocv8d3UY=",
+    "originContent": "* code completion",
+    "translatedContent": "* 高亮未知引用"
+  },
+  {
+    "row": 19,
+    "rowsha": "widq3F2zjdzQ5s+17L0HgR7gGTz3iXWryW/Wv/ZM4i0=",
+    "originContent": "* highlight unknown references",
+    "translatedContent": "* 支持由 [pebble-spring](https://github.com/PebbleTemplates/pebble/wiki/spring-integration) 引入的变量和函数"
+  },
+  {
+    "row": 20,
+    "rowsha": "dqovjgGxO12XGSoBGu+9fhktl8vvqa+HNvV4qE+k08k=",
+    "originContent": "* support for variables and functions introduced by [pebble-spring](https://github.com/PebbleTemplates/pebble/wiki/spring-integration)",
+    "translatedContent": "* [更多功能开发中](https://github.com/bjansen/pebble-intellij/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3At-feature)"
+  },
+  {
+    "row": 21,
+    "rowsha": "tCDMywdvV7pprjFkUdXYTOxjqz0+Dl0VbqlpLeWGmA4=",
+    "originContent": "* [more to come](https://github.com/bjansen/pebble-intellij/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3At-feature)",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<sup>1</sup>：*当前不支持自定义操作符*。"
+  },
+  {
+    "row": 23,
+    "rowsha": "i+R31kK3EM8Mhk2VQm21OBVVZ7c+o9TTNWMVHJ6s7K8=",
+    "originContent": "<sup>1</sup>: *Custom operators are currently not supported*.",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 25,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "该插件可在 JetBrains 的 [插件仓库](https://plugins.jetbrains.com/idea/plugin/9407-pebble) 中获取，  "
+  },
+  {
+    "row": 27,
+    "rowsha": "v72eTIkfz5hgMXkbW9CD/Nb7dB+hcyrJp+HIwemyRyM=",
+    "originContent": "This plugin is available in JetBrains' [plugin repository](https://plugins.jetbrains.com/idea/plugin/9407-pebble),",
+    "translatedContent": "在您的 IDE 中打开 `Preferences > Plugins`，并在搜索栏输入 `pebble`。"
+  },
+  {
+    "row": 28,
+    "rowsha": "0Rvi94Hc+L/cIUP6z725Gn3Gq4CuzYFykGVuGILKpp4=",
+    "originContent": "from your IDE go to `Preferences > Plugins` and enter `pebble` in the search bar.",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 混合使用 Pebble 和其他语言"
+  },
+  {
+    "row": 30,
+    "rowsha": "WqrNTp9DlHFcWhbuzps2ktveCEHmME1eJSAAQXu7GZg=",
+    "originContent": "## Mixing Pebble and other languages",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "为了让编辑器识别同一文件中的两种语言，例如 HTML 和 Pebble，  "
+  },
+  {
+    "row": 32,
+    "rowsha": "CzHmqJCDbCpZ7kA6bVZrmGCOG70McqpjCBzpPCeh6qU=",
+    "originContent": "To make the editor recognize two languages in the same file, for example HTML ",
+    "translatedContent": "请前往 `Preferences > Languages & Frameworks > Template Data Languages`，  "
+  },
+  {
+    "row": 33,
+    "rowsha": "lHtIxrfPPLBpkra5fy97t0tdwWPBIL/kxhUH6Y+OJ08=",
+    "originContent": "and Pebble, go to `Preferences > Languages & Frameworks > Template Data Languages`",
+    "translatedContent": "并在包含 Pebble 模板的目录上选择 `HTML` 数据语言："
+  },
+  {
+    "row": 34,
+    "rowsha": "DGZIZcTpRotXrCP3MF3jlYC3VAWyxMxk6OaplujZmjU=",
+    "originContent": "and select the `HTML` data language on the directory that contains your Pebble",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "FWkOVin9hhnTPlvQqdQNd+ye+p1q5hZKnHD5amjk+Pk=",
+    "originContent": "templates:",
+    "translatedContent": "![模板数据语言设置](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/settings.png)"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "MB3N3+pFqD+/pGcgjXvIYsOPnglk1BbNKGYVsFVZJtU=",
+    "originContent": "![Template data languages settings](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/settings.png)",
+    "translatedContent": "这将启用语法高亮、代码补全、导航、Emmet 扩展等功能。"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "NmXMki6uHgJsxkBmF6N0Wf0EU0UYUk69mAY7UbwBdqE=",
+    "originContent": "This will enable features like syntax highlighting, code completion, navigation,",
+    "translatedContent": "## 使用代码补全"
+  },
+  {
+    "row": 40,
+    "rowsha": "mgDHfaPrHXc/W2k3CWNEvIZfXAJFJNu6r8r1hCKo7HI=",
+    "originContent": "Emmet expansions etc.",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "为了使用代码补全，您需要让插件知道 `foo` 的类型。  "
+  },
+  {
+    "row": 42,
+    "rowsha": "IzYJI0Wn8DdG/BhPGANBqg4tP/u8XuLUeo/0Y0GGff0=",
+    "originContent": "## Using code completion",
+    "translatedContent": "这可以通过 `@pebvariable` 提示实现，类似于 JSP、FreeMarker 和 Velocity 插件："
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "25iJYzZ5AqJdGlaMN4NwlLjtgka93na57bv2X2YL2rY=",
+    "originContent": "In order to use code completion, you will have to let the plugin know what the type",
+    "translatedContent": "![代码补全](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/completion.png)"
+  },
+  {
+    "row": 45,
+    "rowsha": "9wtZDn1yJYYA/kD21J8ROwPgn1jDpFv8w7yLjoihEss=",
+    "originContent": "of `foo` is. This can be done using `@pebvariable` hints, much like in the JSP, FreeMarker",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "z3VQqQyO4rFuJzPmELNdGRIwRSge/TNxgB9djjRe8iU=",
+    "originContent": "and Velocity plugins:",
+    "translatedContent": "可以通过 `var` 活模板轻松向模板中添加 `@pebvariable` 提示。其语法必须如下："
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "RD59Sp6u9OTFH6gTz1E3PNS4iQpbp1U9hLmvzun0Dlo=",
+    "originContent": "![Code completion](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/completion.png)",
+    "translatedContent": "    {# @pebvariable name=\"<name>\" type=\"<type>\" #}"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "i6IX7V1wXrcQi7P6bzW+8Wyl81SQ53swGCMnmy1xGXY=",
+    "originContent": "`@pebvariable` hints can be easily added to templates via the `var` live template. They must",
+    "translatedContent": "为了使代码补全在 `type` 属性中正常工作，您的 `.peb` 文件需要放置在[内容根目录](https://www.jetbrains.com/help/idea/content-roots.html)下（例如 `src/main/resources`）。  "
+  },
+  {
+    "row": 51,
+    "rowsha": "xKeWEIp5JC9jfYLxctNEputWWBCGbvDSXTIQeUEzFIc=",
+    "originContent": "follow this syntax:",
+    "translatedContent": "否则，您自己源码中定义的类将不会被建议。"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "T7vxcWhXjBFJBidwSD676up3ZggDlp5lY9w3cLitKD4=",
+    "originContent": "    {# @pebvariable name=\"<name>\" type=\"<type>\" #}",
+    "translatedContent": "## 每夜构建版本"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "CwJK36yfpKzwrFKxsM+G6tRKOvD9g/fljc4S3sNyAWo=",
+    "originContent": "For code completion to work properly in the `type` attribute, your `.peb` files need to be placed",
+    "translatedContent": "快照版本可通过 Actions CI 获得：  "
+  },
+  {
+    "row": 56,
+    "rowsha": "bAbTz+4Cjyv4TwlfeuMu4hQADZ5cV95pt42RYbU4kNk=",
+    "originContent": "under a [content root](https://www.jetbrains.com/help/idea/content-roots.html) (e.g. `src/main/resources`).",
+    "translatedContent": " * 访问 https://github.com/bjansen/pebble-intellij/actions  "
+  },
+  {
+    "row": 57,
+    "rowsha": "BAIezNW3My7Ru+UMhge8fVeJhJIX+QLDvPszA5IHW4I=",
+    "originContent": "Otherwise, classes defined in your own source files won't be suggested.",
+    "translatedContent": " * 点击最新构建  "
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": " * 滚动到页面底部，在 `Artifacts` 部分点击 `pebble-intellij-development`  "
+  },
+  {
+    "row": 59,
+    "rowsha": "lMIlxJzb9tb9D0oRuHToCk1gpajDcqDCXPifLQS4Y0o=",
+    "originContent": "## Nightly builds",
+    "translatedContent": " * 这将下载一个 zip 文件，可以通过 IDE 的[从磁盘安装插件](https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk)功能安装该插件"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "ZIeeHd281qR9zfdRRXuOmipUaMPIErOfohyEtSCguFw=",
+    "originContent": "Snapshot builds are available as part of the Actions CI:",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "qiq00uwX58QrnlojnxpNwVUhMg2hFcmV00K/Ox7VHRc=",
+    "originContent": " * go to https://github.com/bjansen/pebble-intellij/actions",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "KbnGcuQqAW7tHO7hea439eEoDJkqYVJgFyd9wPlkexE=",
+    "originContent": " * click on the latest build",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "cRiDUDYTYdTSb57B7Aq2FbMI8LNGWwTePVhe5kngiow=",
+    "originContent": " * scroll to the bottom of the page, under the `Artifacts` section click on `pebble-intellij-development`",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "mo7Cx5NzFWl+0vs/COmH4dPqroWp5yf+MkTm8pFgx4Q=",
+    "originContent": " * this will download a zip file that can be installed in your IDE using [Install plugin from disk](https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk)",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

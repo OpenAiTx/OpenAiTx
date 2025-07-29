@@ -1,0 +1,411 @@
+[
+  {
+    "Id": 1,
+    "Content": "# IntelliJ plugin for Pebble [![Gitter](https://badges.gitter.im/bjansen/pebble-intellij.svg)](https://gitter.im/bjansen/pebble-intellij) [![GitHub Actions](https://github.com/bjansen/pebble-intellij/workflows/Java%20CI/badge.svg?branch=master)](https://github.com/bjansen/pebble-intellij/actions) [![GitHub release](https://img.shields.io/github/release/bjansen/pebble-intellij.svg)](https://plugins.jetbrains.com/plugin/9407-pebble) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=pebble-intellij&metric=coverage)](https://sonarcloud.io/dashboard?id=pebble-intellij)\n\nThis plugin provides support for the [Pebble templating engine](https://github.com/PebbleTemplates/pebble) in \nIntelliJ IDEA 2017.3 and later.\n\n<p align=\"center\">\n  <img src=\"https://github.com/bjansen/pebble-intellij/raw/master/images/plugin.png\" \n       width=\"594\" alt=\"IntelliJ plugin for Pebble\"/>\n<p>\n\n## Features\n\n* parser/lexer<sup>1</sup> and syntax highlighter (supports custom delimiters)\n* live templates for built-in tags\n* braces matching, code folding and commenting\n* quote handler\n* navigation (methods and fields, included files)\n* code completion\n* highlight unknown references\n* support for variables and functions introduced by [pebble-spring](https://github.com/PebbleTemplates/pebble/wiki/spring-integration)\n* [more to come](https://github.com/bjansen/pebble-intellij/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3At-feature)\n\n<sup>1</sup>: *Custom operators are currently not supported*.\n\n## Installation\n\nThis plugin is available in JetBrains' [plugin repository](https://plugins.jetbrains.com/idea/plugin/9407-pebble),\nfrom your IDE go to `Preferences > Plugins` and enter `pebble` in the search bar.\n\n## Mixing Pebble and other languages\n\nTo make the editor recognize two languages in the same file, for example HTML \nand Pebble, go to `Preferences > Languages & Frameworks > Template Data Languages`\nand select the `HTML` data language on the directory that contains your Pebble\ntemplates:\n\n![Template data languages settings](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/settings.png)\n\nThis will enable features like syntax highlighting, code completion, navigation,\nEmmet expansions etc.\n\n## Using code completion\n\nIn order to use code completion, you will have to let the plugin know what the type\nof `foo` is. This can be done using `@pebvariable` hints, much like in the JSP, FreeMarker\nand Velocity plugins:\n\n![Code completion](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/completion.png)\n\n`@pebvariable` hints can be easily added to templates via the `var` live template. They must\nfollow this syntax:\n\n    {# @pebvariable name=\"<name>\" type=\"<type>\" #}\n\nFor code completion to work properly in the `type` attribute, your `.peb` files need to be placed\nunder a [content root](https://www.jetbrains.com/help/idea/content-roots.html) (e.g. `src/main/resources`).\nOtherwise, classes defined in your own source files won't be suggested.\n\n## Nightly builds\n\nSnapshot builds are available as part of the Actions CI:\n * go to https://github.com/bjansen/pebble-intellij/actions\n * click on the latest build\n * scroll to the bottom of the page, under the `Artifacts` section click on `pebble-intellij-development`\n * this will download a zip file that can be installed in your IDE using [Install plugin from disk](https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk)\n",
+    "ContentSha": "+279Sr4Pg5Tf+laBG58TYOEYd1qmAAYtQevzlBGO3VA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Pebble용 IntelliJ 플러그인 [![Gitter](https://badges.gitter.im/bjansen/pebble-intellij.svg)](https://gitter.im/bjansen/pebble-intellij) [![GitHub Actions](https://github.com/bjansen/pebble-intellij/workflows/Java%20CI/badge.svg?branch=master)](https://github.com/bjansen/pebble-intellij/actions) [![GitHub release](https://img.shields.io/github/release/bjansen/pebble-intellij.svg)](https://plugins.jetbrains.com/plugin/9407-pebble) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=pebble-intellij&metric=coverage)](https://sonarcloud.io/dashboard?id=pebble-intellij)\n\n이 플러그인은 IntelliJ IDEA 2017.3 이상에서 [Pebble 템플릿 엔진](https://github.com/PebbleTemplates/pebble)을 지원합니다.\n\n<p align=\"center\">\n  <img src=\"https://github.com/bjansen/pebble-intellij/raw/master/images/plugin.png\" \n       width=\"594\" alt=\"Pebble용 IntelliJ 플러그인\"/>\n<p>\n\n## 기능\n\n* 파서/렉서<sup>1</sup> 및 구문 하이라이팅 (사용자 정의 구분자 지원)\n* 내장 태그용 라이브 템플릿\n* 중괄호 매칭, 코드 접기 및 주석 처리\n* 따옴표 처리기\n* 탐색 (메서드 및 필드, 포함된 파일)\n* 코드 완성\n* 알 수 없는 참조 하이라이트\n* [pebble-spring](https://github.com/PebbleTemplates/pebble/wiki/spring-integration)에서 도입된 변수 및 함수 지원\n* [추가 기능 예정](https://github.com/bjansen/pebble-intellij/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3At-feature)\n\n<sup>1</sup>: *사용자 정의 연산자는 현재 지원되지 않습니다*.\n\n## 설치\n\n이 플러그인은 JetBrains의 [플러그인 저장소](https://plugins.jetbrains.com/idea/plugin/9407-pebble)에서 제공됩니다. IDE에서 `Preferences > Plugins`로 이동한 후 검색창에 `pebble`을 입력하세요.\n\n## Pebble과 다른 언어 혼합 사용\n\n한 파일 내에서 두 가지 언어를 인식하도록 하려면, 예를 들어 HTML과 Pebble을 함께 사용할 경우, `Preferences > Languages & Frameworks > Template Data Languages`로 이동하여 Pebble 템플릿이 있는 디렉터리에 대해 `HTML` 데이터 언어를 선택하세요:\n\n![템플릿 데이터 언어 설정](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/settings.png)\n\n이렇게 하면 구문 하이라이팅, 코드 완성, 탐색, Emmet 확장 등 기능이 활성화됩니다.\n\n## 코드 완성 사용법\n\n코드 완성을 사용하려면 `foo`의 타입을 플러그인에 알려야 합니다. 이는 JSP, FreeMarker, Velocity 플러그인과 마찬가지로 `@pebvariable` 힌트를 사용하여 가능합니다:\n\n![코드 완성](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/completion.png)\n\n`@pebvariable` 힌트는 `var` 라이브 템플릿을 통해 템플릿에 쉽게 추가할 수 있습니다. 문법은 다음과 같습니다:\n\n    {# @pebvariable name=\"<name>\" type=\"<type>\" #}\n\n코드 완성이 제대로 작동하려면 `type` 속성에 명시된 클래스들이 포함된 `.peb` 파일이 [콘텐츠 루트](https://www.jetbrains.com/help/idea/content-roots.html) (예: `src/main/resources`) 아래에 위치해야 합니다. 그렇지 않으면 자신의 소스 파일에 정의된 클래스가 제안되지 않습니다.\n\n## 야간 빌드\n\n스냅샷 빌드는 Actions CI에서 제공됩니다:\n * https://github.com/bjansen/pebble-intellij/actions 로 이동\n * 최신 빌드를 클릭\n * 페이지 하단의 `Artifacts` 섹션에서 `pebble-intellij-development` 클릭\n * 다운로드된 zip 파일은 [디스크에서 플러그인 설치](https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk)를 통해 IDE에 설치할 수 있습니다\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "SThH49JsLCqTo8nHnoyFPdrR8YZpHAnD1BaSa/1P7rA=",
+        "originContent": "# IntelliJ plugin for Pebble [![Gitter](https://badges.gitter.im/bjansen/pebble-intellij.svg)](https://gitter.im/bjansen/pebble-intellij) [![GitHub Actions](https://github.com/bjansen/pebble-intellij/workflows/Java%20CI/badge.svg?branch=master)](https://github.com/bjansen/pebble-intellij/actions) [![GitHub release](https://img.shields.io/github/release/bjansen/pebble-intellij.svg)](https://plugins.jetbrains.com/plugin/9407-pebble) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=pebble-intellij&metric=coverage)](https://sonarcloud.io/dashboard?id=pebble-intellij)",
+        "translatedContent": "# Pebble용 IntelliJ 플러그인 [![Gitter](https://badges.gitter.im/bjansen/pebble-intellij.svg)](https://gitter.im/bjansen/pebble-intellij) [![GitHub Actions](https://github.com/bjansen/pebble-intellij/workflows/Java%20CI/badge.svg?branch=master)](https://github.com/bjansen/pebble-intellij/actions) [![GitHub release](https://img.shields.io/github/release/bjansen/pebble-intellij.svg)](https://plugins.jetbrains.com/plugin/9407-pebble) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=pebble-intellij&metric=coverage)](https://sonarcloud.io/dashboard?id=pebble-intellij)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "v7U3iv75qKwP87h1RRzdC7PrAk6gtW/ZCz8CJKmqLPY=",
+        "originContent": "This plugin provides support for the [Pebble templating engine](https://github.com/PebbleTemplates/pebble) in ",
+        "translatedContent": "이 플러그인은 IntelliJ IDEA 2017.3 이상에서 [Pebble 템플릿 엔진](https://github.com/PebbleTemplates/pebble)을 지원합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "PhKzXISM0JeIZFYv4vToVn1nP6kb30wxVonZWvdRv8k=",
+        "originContent": "IntelliJ IDEA 2017.3 and later.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "  <img src=\"https://github.com/bjansen/pebble-intellij/raw/master/images/plugin.png\" "
+      },
+      {
+        "row": 7,
+        "rowsha": "hVrV+uY+OtF2eZq/A5ycS2hHlIa/NXZoTJ1+LK+8ywU=",
+        "originContent": "  <img src=\"https://github.com/bjansen/pebble-intellij/raw/master/images/plugin.png\" ",
+        "translatedContent": "       width=\"594\" alt=\"Pebble용 IntelliJ 플러그인\"/>"
+      },
+      {
+        "row": 8,
+        "rowsha": "V2qzW2x90XQYeU2SbSSt75jji/HfCThE8QA3s2/08oI=",
+        "originContent": "       width=\"594\" alt=\"IntelliJ plugin for Pebble\"/>",
+        "translatedContent": "<p>"
+      },
+      {
+        "row": 9,
+        "rowsha": "M/J5lGcXcoeikmB4ChB6yY6mPdYWX2f8wNdHZ9CoIJA=",
+        "originContent": "<p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 11,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 파서/렉서<sup>1</sup> 및 구문 하이라이팅 (사용자 정의 구분자 지원)"
+      },
+      {
+        "row": 13,
+        "rowsha": "scgVpt3H15iFQBoYUrXljHl+vNoGxPoMigSbin8SiIE=",
+        "originContent": "* parser/lexer<sup>1</sup> and syntax highlighter (supports custom delimiters)",
+        "translatedContent": "* 내장 태그용 라이브 템플릿"
+      },
+      {
+        "row": 14,
+        "rowsha": "Oig4xkuthk8QOVuHkZIrvV6CWpldBzqEdQ3DoNlWDjY=",
+        "originContent": "* live templates for built-in tags",
+        "translatedContent": "* 중괄호 매칭, 코드 접기 및 주석 처리"
+      },
+      {
+        "row": 15,
+        "rowsha": "jwdY4JO/UsbB23cUJicaGlACcFqBiVGKdUTsRbeY2v8=",
+        "originContent": "* braces matching, code folding and commenting",
+        "translatedContent": "* 따옴표 처리기"
+      },
+      {
+        "row": 16,
+        "rowsha": "lrRSqohIKQL0nTsXYT6tdzZCt3upXVJ+aWZELh8Gv6Y=",
+        "originContent": "* quote handler",
+        "translatedContent": "* 탐색 (메서드 및 필드, 포함된 파일)"
+      },
+      {
+        "row": 17,
+        "rowsha": "8dkPQ59cSS8nkBDRzZJewO7EZPRtaCmxD/SiS9aa9Co=",
+        "originContent": "* navigation (methods and fields, included files)",
+        "translatedContent": "* 코드 완성"
+      },
+      {
+        "row": 18,
+        "rowsha": "bU9vCuCEmV6RJ7YDcf+te4+cUufDpN92qmPocv8d3UY=",
+        "originContent": "* code completion",
+        "translatedContent": "* 알 수 없는 참조 하이라이트"
+      },
+      {
+        "row": 19,
+        "rowsha": "widq3F2zjdzQ5s+17L0HgR7gGTz3iXWryW/Wv/ZM4i0=",
+        "originContent": "* highlight unknown references",
+        "translatedContent": "* [pebble-spring](https://github.com/PebbleTemplates/pebble/wiki/spring-integration)에서 도입된 변수 및 함수 지원"
+      },
+      {
+        "row": 20,
+        "rowsha": "dqovjgGxO12XGSoBGu+9fhktl8vvqa+HNvV4qE+k08k=",
+        "originContent": "* support for variables and functions introduced by [pebble-spring](https://github.com/PebbleTemplates/pebble/wiki/spring-integration)",
+        "translatedContent": "* [추가 기능 예정](https://github.com/bjansen/pebble-intellij/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3At-feature)"
+      },
+      {
+        "row": 21,
+        "rowsha": "tCDMywdvV7pprjFkUdXYTOxjqz0+Dl0VbqlpLeWGmA4=",
+        "originContent": "* [more to come](https://github.com/bjansen/pebble-intellij/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3At-feature)",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<sup>1</sup>: *사용자 정의 연산자는 현재 지원되지 않습니다*."
+      },
+      {
+        "row": 23,
+        "rowsha": "i+R31kK3EM8Mhk2VQm21OBVVZ7c+o9TTNWMVHJ6s7K8=",
+        "originContent": "<sup>1</sup>: *Custom operators are currently not supported*.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 25,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 플러그인은 JetBrains의 [플러그인 저장소](https://plugins.jetbrains.com/idea/plugin/9407-pebble)에서 제공됩니다. IDE에서 `Preferences > Plugins`로 이동한 후 검색창에 `pebble`을 입력하세요."
+      },
+      {
+        "row": 27,
+        "rowsha": "v72eTIkfz5hgMXkbW9CD/Nb7dB+hcyrJp+HIwemyRyM=",
+        "originContent": "This plugin is available in JetBrains' [plugin repository](https://plugins.jetbrains.com/idea/plugin/9407-pebble),",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "0Rvi94Hc+L/cIUP6z725Gn3Gq4CuzYFykGVuGILKpp4=",
+        "originContent": "from your IDE go to `Preferences > Plugins` and enter `pebble` in the search bar.",
+        "translatedContent": "## Pebble과 다른 언어 혼합 사용"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "WqrNTp9DlHFcWhbuzps2ktveCEHmME1eJSAAQXu7GZg=",
+        "originContent": "## Mixing Pebble and other languages",
+        "translatedContent": "한 파일 내에서 두 가지 언어를 인식하도록 하려면, 예를 들어 HTML과 Pebble을 함께 사용할 경우, `Preferences > Languages & Frameworks > Template Data Languages`로 이동하여 Pebble 템플릿이 있는 디렉터리에 대해 `HTML` 데이터 언어를 선택하세요:"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "CzHmqJCDbCpZ7kA6bVZrmGCOG70McqpjCBzpPCeh6qU=",
+        "originContent": "To make the editor recognize two languages in the same file, for example HTML ",
+        "translatedContent": "![템플릿 데이터 언어 설정](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/settings.png)"
+      },
+      {
+        "row": 33,
+        "rowsha": "lHtIxrfPPLBpkra5fy97t0tdwWPBIL/kxhUH6Y+OJ08=",
+        "originContent": "and Pebble, go to `Preferences > Languages & Frameworks > Template Data Languages`",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "DGZIZcTpRotXrCP3MF3jlYC3VAWyxMxk6OaplujZmjU=",
+        "originContent": "and select the `HTML` data language on the directory that contains your Pebble",
+        "translatedContent": "이렇게 하면 구문 하이라이팅, 코드 완성, 탐색, Emmet 확장 등 기능이 활성화됩니다."
+      },
+      {
+        "row": 35,
+        "rowsha": "FWkOVin9hhnTPlvQqdQNd+ye+p1q5hZKnHD5amjk+Pk=",
+        "originContent": "templates:",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 코드 완성 사용법"
+      },
+      {
+        "row": 37,
+        "rowsha": "MB3N3+pFqD+/pGcgjXvIYsOPnglk1BbNKGYVsFVZJtU=",
+        "originContent": "![Template data languages settings](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/settings.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "코드 완성을 사용하려면 `foo`의 타입을 플러그인에 알려야 합니다. 이는 JSP, FreeMarker, Velocity 플러그인과 마찬가지로 `@pebvariable` 힌트를 사용하여 가능합니다:"
+      },
+      {
+        "row": 39,
+        "rowsha": "NmXMki6uHgJsxkBmF6N0Wf0EU0UYUk69mAY7UbwBdqE=",
+        "originContent": "This will enable features like syntax highlighting, code completion, navigation,",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "mgDHfaPrHXc/W2k3CWNEvIZfXAJFJNu6r8r1hCKo7HI=",
+        "originContent": "Emmet expansions etc.",
+        "translatedContent": "![코드 완성](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/completion.png)"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "IzYJI0Wn8DdG/BhPGANBqg4tP/u8XuLUeo/0Y0GGff0=",
+        "originContent": "## Using code completion",
+        "translatedContent": "`@pebvariable` 힌트는 `var` 라이브 템플릿을 통해 템플릿에 쉽게 추가할 수 있습니다. 문법은 다음과 같습니다:"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "25iJYzZ5AqJdGlaMN4NwlLjtgka93na57bv2X2YL2rY=",
+        "originContent": "In order to use code completion, you will have to let the plugin know what the type",
+        "translatedContent": "    {# @pebvariable name=\"<name>\" type=\"<type>\" #}"
+      },
+      {
+        "row": 45,
+        "rowsha": "9wtZDn1yJYYA/kD21J8ROwPgn1jDpFv8w7yLjoihEss=",
+        "originContent": "of `foo` is. This can be done using `@pebvariable` hints, much like in the JSP, FreeMarker",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "z3VQqQyO4rFuJzPmELNdGRIwRSge/TNxgB9djjRe8iU=",
+        "originContent": "and Velocity plugins:",
+        "translatedContent": "코드 완성이 제대로 작동하려면 `type` 속성에 명시된 클래스들이 포함된 `.peb` 파일이 [콘텐츠 루트](https://www.jetbrains.com/help/idea/content-roots.html) (예: `src/main/resources`) 아래에 위치해야 합니다. 그렇지 않으면 자신의 소스 파일에 정의된 클래스가 제안되지 않습니다."
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "RD59Sp6u9OTFH6gTz1E3PNS4iQpbp1U9hLmvzun0Dlo=",
+        "originContent": "![Code completion](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/completion.png)",
+        "translatedContent": "## 야간 빌드"
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "i6IX7V1wXrcQi7P6bzW+8Wyl81SQ53swGCMnmy1xGXY=",
+        "originContent": "`@pebvariable` hints can be easily added to templates via the `var` live template. They must",
+        "translatedContent": "스냅샷 빌드는 Actions CI에서 제공됩니다:"
+      },
+      {
+        "row": 51,
+        "rowsha": "xKeWEIp5JC9jfYLxctNEputWWBCGbvDSXTIQeUEzFIc=",
+        "originContent": "follow this syntax:",
+        "translatedContent": " * https://github.com/bjansen/pebble-intellij/actions 로 이동"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": " * 최신 빌드를 클릭"
+      },
+      {
+        "row": 53,
+        "rowsha": "T7vxcWhXjBFJBidwSD676up3ZggDlp5lY9w3cLitKD4=",
+        "originContent": "    {# @pebvariable name=\"<name>\" type=\"<type>\" #}",
+        "translatedContent": " * 페이지 하단의 `Artifacts` 섹션에서 `pebble-intellij-development` 클릭"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": " * 다운로드된 zip 파일은 [디스크에서 플러그인 설치](https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk)를 통해 IDE에 설치할 수 있습니다"
+      },
+      {
+        "row": 55,
+        "rowsha": "CwJK36yfpKzwrFKxsM+G6tRKOvD9g/fljc4S3sNyAWo=",
+        "originContent": "For code completion to work properly in the `type` attribute, your `.peb` files need to be placed",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "bAbTz+4Cjyv4TwlfeuMu4hQADZ5cV95pt42RYbU4kNk=",
+        "originContent": "under a [content root](https://www.jetbrains.com/help/idea/content-roots.html) (e.g. `src/main/resources`).",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "BAIezNW3My7Ru+UMhge8fVeJhJIX+QLDvPszA5IHW4I=",
+        "originContent": "Otherwise, classes defined in your own source files won't be suggested.",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "lMIlxJzb9tb9D0oRuHToCk1gpajDcqDCXPifLQS4Y0o=",
+        "originContent": "## Nightly builds",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "ZIeeHd281qR9zfdRRXuOmipUaMPIErOfohyEtSCguFw=",
+        "originContent": "Snapshot builds are available as part of the Actions CI:",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "qiq00uwX58QrnlojnxpNwVUhMg2hFcmV00K/Ox7VHRc=",
+        "originContent": " * go to https://github.com/bjansen/pebble-intellij/actions",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "KbnGcuQqAW7tHO7hea439eEoDJkqYVJgFyd9wPlkexE=",
+        "originContent": " * click on the latest build",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "cRiDUDYTYdTSb57B7Aq2FbMI8LNGWwTePVhe5kngiow=",
+        "originContent": " * scroll to the bottom of the page, under the `Artifacts` section click on `pebble-intellij-development`",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "mo7Cx5NzFWl+0vs/COmH4dPqroWp5yf+MkTm8pFgx4Q=",
+        "originContent": " * this will download a zip file that can be installed in your IDE using [Install plugin from disk](https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk)",
+        "translatedContent": ""
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

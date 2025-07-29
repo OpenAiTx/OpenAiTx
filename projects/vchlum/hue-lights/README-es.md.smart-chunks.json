@@ -1,0 +1,315 @@
+[
+  {
+    "Id": 1,
+    "Content": "# DEPRECATED\nThis extension has been deprecated but a new extension Smart Home has been released to replace it. Please go to https://github.com/vchlum/smart-home\n\n# hue-lights\n![screenshot](https://github.com/vchlum/hue-lights/blob/main/screenshot.png)\n\n## Gnome Shell extension\nhue-lights is a Gnome Shell extension for Philips Hue lights controlled by Philips Hue Bridge on local network. The extension groups the lights in zones and rooms. It is possible to control the state, the brightness, and the color or temperature. The scenes can be activated for the zones or rooms. Multiple bridges are possible to control. It is also possible to set lights that will blink on notification.\n\n## Philips Hue Entertainment areas\nThis Extension supports the Entertainment areas. Using the original app on the phone, you can create an Entertainment area. You can start synchronizing your lights with your screen afterward. The sync feature requires a special key generated on the bridge pairing. Upgrading from version 8 or earlier requires to remove and connect the Philips Hue bridge. Please keep your bridge up to date. The feature also needs the api version 1.22 or newer.\n\n## Philips Hue HDMI sync box support\nThis extension allows controlling Philips Hue HDMI sync box on local network. You can enable/disable synchronization, change the mode, change the intensity, adjust the brightness, select the entertainment area, and select the HDMI input.\n\n## Troubleshooting\n 1. If you are experiencing any trouble with the upgrade, try to log out and log in again.\n 1. If your troubles persist, reset this extension by reseting key: \"/org/gnome/shell/extensions/hue-lights/\" in gnome.\n    * You can call: `dconf reset -f /org/gnome/shell/extensions/hue-lights/` or use `dconf-editor`.\n 1. Not vanishing your trouble, please file an issue on GitHub. If you can, please enable debug mode in the settings and attach the log file.\n    * You can obtain the logfile like this: `journalctl -f /usr/bin/gnome-shell 2>&1 | grep -i hue > hue-lights.log`.\n\n## Warning\nThis application makes use of fast changing light effects conditions alone, or in combination with certain content on the screen it may trigger previously undetected epileptic symptoms or seizures in persons who have no history of prior seizures or epilepsy.\n\n## Supported Gnome Shell version\nThis extension supports Gnome Shell verison 45 and above.\n\n## Installation from e.g.o\nhttps://extensions.gnome.org/extension/3737/hue-lights\n\n## Manual installation\n\n 1. `git clone https://github.com/vchlum/hue-lights.git`\n 1. `cd hue-lights`\n 1. `make build`\n 1. `make install`\n 1. Log out & Log in\n 1. `gnome-extensions enable hue-lights@chlumskyvaclav.gmail.com`\n\n## Install dependencies\n  - These are only required to install from source\n  - `make`\n  - `gnome-shell` (`gnome-extensions` command)\n  - `glib-compile-resources`\n  - `libglib2.0-dev-bin`\n  - `gettext`\n  - These are recommended to run the extension\n  - `avahi-tools` (`avahi-browse` command for discovering devices on local network)\n  ",
+    "ContentSha": "k1XydN5HrO2gywIZsIZJfuacKIsM4wKp5v2z71ZYK3w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# OBSOLETO\nEsta extensión ha sido obsoleta pero se ha lanzado una nueva extensión llamada Smart Home para reemplazarla. Por favor visite https://github.com/vchlum/smart-home\n\n# hue-lights\n![captura de pantalla](https://github.com/vchlum/hue-lights/blob/main/screenshot.png)\n\n## Extensión de Gnome Shell\nhue-lights es una extensión de Gnome Shell para luces Philips Hue controladas por Philips Hue Bridge en la red local. La extensión agrupa las luces en zonas y habitaciones. Es posible controlar el estado, el brillo y el color o la temperatura. Se pueden activar escenas para las zonas o habitaciones. Es posible controlar múltiples puentes. También es posible configurar luces que parpadeen en caso de notificación.\n\n## Áreas de entretenimiento Philips Hue\nEsta extensión soporta las áreas de entretenimiento. Usando la aplicación original en el teléfono, puede crear un área de entretenimiento. Luego puede comenzar a sincronizar sus luces con su pantalla. La función de sincronización requiere una clave especial generada en el emparejamiento del puente. La actualización desde la versión 8 o anterior requiere eliminar y conectar el puente Philips Hue. Por favor mantenga su puente actualizado. La función también necesita la versión de API 1.22 o superior.\n\n## Soporte para Philips Hue HDMI sync box\nEsta extensión permite controlar la caja de sincronización HDMI Philips Hue en la red local. Puede activar/desactivar la sincronización, cambiar el modo, cambiar la intensidad, ajustar el brillo, seleccionar el área de entretenimiento y seleccionar la entrada HDMI.\n\n## Solución de problemas\n 1. Si experimenta algún problema con la actualización, intente cerrar sesión y volver a iniciarla.\n 1. Si sus problemas persisten, restablezca esta extensión restableciendo la clave: \"/org/gnome/shell/extensions/hue-lights/\" en gnome.\n    * Puede ejecutar: `dconf reset -f /org/gnome/shell/extensions/hue-lights/` o usar `dconf-editor`.\n 1. Si su problema no desaparece, por favor abra un issue en GitHub. Si puede, active el modo debug en la configuración y adjunte el archivo de registro.\n    * Puede obtener el archivo de registro así: `journalctl -f /usr/bin/gnome-shell 2>&1 | grep -i hue > hue-lights.log`.\n\n## Advertencia\nEsta aplicación usa condiciones de efectos de luz que cambian rápidamente, sola o en combinación con cierto contenido en pantalla, puede desencadenar síntomas epilépticos o convulsiones en personas que no tienen historial previo de convulsiones o epilepsia.\n\n## Versión de Gnome Shell soportada\nEsta extensión soporta Gnome Shell versión 45 y superiores.\n\n## Instalación desde e.g.o\nhttps://extensions.gnome.org/extension/3737/hue-lights\n\n## Instalación manual\n\n 1. `git clone https://github.com/vchlum/hue-lights.git`\n 1. `cd hue-lights`\n 1. `make build`\n 1. `make install`\n 1. Cierre sesión y vuelva a iniciar sesión\n 1. `gnome-extensions enable hue-lights@chlumskyvaclav.gmail.com`\n\n## Instalar dependencias\n  - Estas solo son necesarias para instalar desde el código fuente\n  - `make`\n  - `gnome-shell` (comando `gnome-extensions`)\n  - `glib-compile-resources`\n  - `libglib2.0-dev-bin`\n  - `gettext`\n  - Estas se recomiendan para ejecutar la extensión\n  - `avahi-tools` (comando `avahi-browse` para descubrir dispositivos en la red local)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "xQ6Y+iwlKoCibzOJythoVdvyQhlr/rN1z9QwB2psFMw=",
+        "originContent": "# DEPRECATED",
+        "translatedContent": "# OBSOLETO"
+      },
+      {
+        "row": 2,
+        "rowsha": "6SsK9+RxoZ4RUV5vHQGjRG3TZ65fJbXkfECMYBYiZVA=",
+        "originContent": "This extension has been deprecated but a new extension Smart Home has been released to replace it. Please go to https://github.com/vchlum/smart-home",
+        "translatedContent": "Esta extensión ha sido obsoleta pero se ha lanzado una nueva extensión llamada Smart Home para reemplazarla. Por favor visite https://github.com/vchlum/smart-home"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "aVyygT03BnXsWxyW7co6N4/eEwkWD4mC9yq0PaGhjUg=",
+        "originContent": "# hue-lights",
+        "translatedContent": "# hue-lights"
+      },
+      {
+        "row": 5,
+        "rowsha": "sc9M7jLv5bGEx7FAxUQVWAvE/uIoIO0cPPx61Vukj30=",
+        "originContent": "![screenshot](https://github.com/vchlum/hue-lights/blob/main/screenshot.png)",
+        "translatedContent": "![captura de pantalla](https://github.com/vchlum/hue-lights/blob/main/screenshot.png)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "6VcsIRuZApocKY1ly4BknH0od5OGRmnAQ2n6r7MllzM=",
+        "originContent": "## Gnome Shell extension",
+        "translatedContent": "## Extensión de Gnome Shell"
+      },
+      {
+        "row": 8,
+        "rowsha": "ArNeccpe0pMnlRBtPQNRKA2p3MVV02u/+mTUfOfnBsY=",
+        "originContent": "hue-lights is a Gnome Shell extension for Philips Hue lights controlled by Philips Hue Bridge on local network. The extension groups the lights in zones and rooms. It is possible to control the state, the brightness, and the color or temperature. The scenes can be activated for the zones or rooms. Multiple bridges are possible to control. It is also possible to set lights that will blink on notification.",
+        "translatedContent": "hue-lights es una extensión de Gnome Shell para luces Philips Hue controladas por Philips Hue Bridge en la red local. La extensión agrupa las luces en zonas y habitaciones. Es posible controlar el estado, el brillo y el color o la temperatura. Se pueden activar escenas para las zonas o habitaciones. Es posible controlar múltiples puentes. También es posible configurar luces que parpadeen en caso de notificación."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "rahdLXWLZ/fygKPEQ8PxAqN/SwbC3tBhUexG5RfZNNA=",
+        "originContent": "## Philips Hue Entertainment areas",
+        "translatedContent": "## Áreas de entretenimiento Philips Hue"
+      },
+      {
+        "row": 11,
+        "rowsha": "v5wc+lL3KR/uriuQ0IROGO8Z5fxZGUIvv5bTOpoog/w=",
+        "originContent": "This Extension supports the Entertainment areas. Using the original app on the phone, you can create an Entertainment area. You can start synchronizing your lights with your screen afterward. The sync feature requires a special key generated on the bridge pairing. Upgrading from version 8 or earlier requires to remove and connect the Philips Hue bridge. Please keep your bridge up to date. The feature also needs the api version 1.22 or newer.",
+        "translatedContent": "Esta extensión soporta las áreas de entretenimiento. Usando la aplicación original en el teléfono, puede crear un área de entretenimiento. Luego puede comenzar a sincronizar sus luces con su pantalla. La función de sincronización requiere una clave especial generada en el emparejamiento del puente. La actualización desde la versión 8 o anterior requiere eliminar y conectar el puente Philips Hue. Por favor mantenga su puente actualizado. La función también necesita la versión de API 1.22 o superior."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "IEcH3TCo8XTJR7OcxjFdzZWHQQtXyfB3ZA+uzwEKLMU=",
+        "originContent": "## Philips Hue HDMI sync box support",
+        "translatedContent": "## Soporte para Philips Hue HDMI sync box"
+      },
+      {
+        "row": 14,
+        "rowsha": "0KonDZ0DONSpq0GaEss5kafP4k8WPcdaCyQYMTbsmCA=",
+        "originContent": "This extension allows controlling Philips Hue HDMI sync box on local network. You can enable/disable synchronization, change the mode, change the intensity, adjust the brightness, select the entertainment area, and select the HDMI input.",
+        "translatedContent": "Esta extensión permite controlar la caja de sincronización HDMI Philips Hue en la red local. Puede activar/desactivar la sincronización, cambiar el modo, cambiar la intensidad, ajustar el brillo, seleccionar el área de entretenimiento y seleccionar la entrada HDMI."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+        "originContent": "## Troubleshooting",
+        "translatedContent": "## Solución de problemas"
+      },
+      {
+        "row": 17,
+        "rowsha": "5Iq0dYtEzYuQIgtEhkRP4f/DhpuR/0ah6RK3Vdd6rQI=",
+        "originContent": " 1. If you are experiencing any trouble with the upgrade, try to log out and log in again.",
+        "translatedContent": " 1. Si experimenta algún problema con la actualización, intente cerrar sesión y volver a iniciarla."
+      },
+      {
+        "row": 18,
+        "rowsha": "bUGRKwt8bSglZBM4Fajai7iZAIgGWQDWZAL8XCnvdA4=",
+        "originContent": " 1. If your troubles persist, reset this extension by reseting key: \"/org/gnome/shell/extensions/hue-lights/\" in gnome.",
+        "translatedContent": " 1. Si sus problemas persisten, restablezca esta extensión restableciendo la clave: \"/org/gnome/shell/extensions/hue-lights/\" en gnome."
+      },
+      {
+        "row": 19,
+        "rowsha": "X4L1dFzn0IuvRjgCJOF7aKjPY/FQ3J31TxfLHNAPScw=",
+        "originContent": "    * You can call: `dconf reset -f /org/gnome/shell/extensions/hue-lights/` or use `dconf-editor`.",
+        "translatedContent": "    * Puede ejecutar: `dconf reset -f /org/gnome/shell/extensions/hue-lights/` o usar `dconf-editor`."
+      },
+      {
+        "row": 20,
+        "rowsha": "zL6et4wQLNixJEXgwZ6E51S2Jzj7/Vbb/tBV2qWgYik=",
+        "originContent": " 1. Not vanishing your trouble, please file an issue on GitHub. If you can, please enable debug mode in the settings and attach the log file.",
+        "translatedContent": " 1. Si su problema no desaparece, por favor abra un issue en GitHub. Si puede, active el modo debug en la configuración y adjunte el archivo de registro."
+      },
+      {
+        "row": 21,
+        "rowsha": "cejTwb7zrGWGvrF2C5KVhVeEfTo2EMV4H+VE5xuyKu8=",
+        "originContent": "    * You can obtain the logfile like this: `journalctl -f /usr/bin/gnome-shell 2>&1 | grep -i hue > hue-lights.log`.",
+        "translatedContent": "    * Puede obtener el archivo de registro así: `journalctl -f /usr/bin/gnome-shell 2>&1 | grep -i hue > hue-lights.log`."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "1sXNPbqelp/CPqqtIGTS29YH61rJeBnuBSrQToJI2uo=",
+        "originContent": "## Warning",
+        "translatedContent": "## Advertencia"
+      },
+      {
+        "row": 24,
+        "rowsha": "tSJImx7bMqqTRQZ00UstB71LME40B7eNZ4zvEs2VKkI=",
+        "originContent": "This application makes use of fast changing light effects conditions alone, or in combination with certain content on the screen it may trigger previously undetected epileptic symptoms or seizures in persons who have no history of prior seizures or epilepsy.",
+        "translatedContent": "Esta aplicación usa condiciones de efectos de luz que cambian rápidamente, sola o en combinación con cierto contenido en pantalla, puede desencadenar síntomas epilépticos o convulsiones en personas que no tienen historial previo de convulsiones o epilepsia."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "RQiUpWkfQhRqmylfNCgtRLExSRfBaFlDBYUxAM6vUTw=",
+        "originContent": "## Supported Gnome Shell version",
+        "translatedContent": "## Versión de Gnome Shell soportada"
+      },
+      {
+        "row": 27,
+        "rowsha": "1US+NewrcbeVkwINoWbCdYOVhIq3NQRqD4OY3ogI9o8=",
+        "originContent": "This extension supports Gnome Shell verison 45 and above.",
+        "translatedContent": "Esta extensión soporta Gnome Shell versión 45 y superiores."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "l9aOBsxehomlsHuSlGdSVq/fV7+6D5hIdxCzpCI+xfY=",
+        "originContent": "## Installation from e.g.o",
+        "translatedContent": "## Instalación desde e.g.o"
+      },
+      {
+        "row": 30,
+        "rowsha": "E7CK6uZwzRP8pIPABz2wFHYDGKiRPEA5qfMSarpQyXo=",
+        "originContent": "https://extensions.gnome.org/extension/3737/hue-lights",
+        "translatedContent": "https://extensions.gnome.org/extension/3737/hue-lights"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "hDHpOeSgcyKwElUOILlpO7I+uItbfnDOyr4lDBPiLKQ=",
+        "originContent": "## Manual installation",
+        "translatedContent": "## Instalación manual"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "dc1MmVXxlFrYBkdHskTtvTDGYqE6kLZTdhWH3TqPoqA=",
+        "originContent": " 1. `git clone https://github.com/vchlum/hue-lights.git`",
+        "translatedContent": " 1. `git clone https://github.com/vchlum/hue-lights.git`"
+      },
+      {
+        "row": 35,
+        "rowsha": "YTUB44GrJUQDlnFKQ9RUzX3jvC6od1GNhgc7T1LRDng=",
+        "originContent": " 1. `cd hue-lights`",
+        "translatedContent": " 1. `cd hue-lights`"
+      },
+      {
+        "row": 36,
+        "rowsha": "/o2lDOF6r/NT/DcKeXuG99Okusx8ttyetv5S0JRyWVU=",
+        "originContent": " 1. `make build`",
+        "translatedContent": " 1. `make build`"
+      },
+      {
+        "row": 37,
+        "rowsha": "Ey6cgx0xIY+GnBnDFp5AbuIAwh1e2wogY0tTOHytBzU=",
+        "originContent": " 1. `make install`",
+        "translatedContent": " 1. `make install`"
+      },
+      {
+        "row": 38,
+        "rowsha": "8/LpHG7DBXfUZ1nxfCklZovx6HbBzgbb0I1xZKShT/k=",
+        "originContent": " 1. Log out & Log in",
+        "translatedContent": " 1. Cierre sesión y vuelva a iniciar sesión"
+      },
+      {
+        "row": 39,
+        "rowsha": "NqjoorsqzInBSI01v6OqE8MfKBhSEQ3e3a3hKlmPkeM=",
+        "originContent": " 1. `gnome-extensions enable hue-lights@chlumskyvaclav.gmail.com`",
+        "translatedContent": " 1. `gnome-extensions enable hue-lights@chlumskyvaclav.gmail.com`"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "vGpX/vBzfIdttWmejj+K2TeBNYr0ndShUztCNw85cl0=",
+        "originContent": "## Install dependencies",
+        "translatedContent": "## Instalar dependencias"
+      },
+      {
+        "row": 42,
+        "rowsha": "xwVykBJIH0Mp6pOZWctvkH793dNmIrRhzrlckIh3eWw=",
+        "originContent": "  - These are only required to install from source",
+        "translatedContent": "  - Estas solo son necesarias para instalar desde el código fuente"
+      },
+      {
+        "row": 43,
+        "rowsha": "W0+9YkRzgOxml+FI516ECWZSvgbHEOdUa+UJsmsgSG8=",
+        "originContent": "  - `make`",
+        "translatedContent": "  - `make`"
+      },
+      {
+        "row": 44,
+        "rowsha": "71Zi3sYupFa6CFIp7Wfd8o0YEiAIiF5/vG9bZX8JQZI=",
+        "originContent": "  - `gnome-shell` (`gnome-extensions` command)",
+        "translatedContent": "  - `gnome-shell` (comando `gnome-extensions`)"
+      },
+      {
+        "row": 45,
+        "rowsha": "GQfYz2CsxeLc9Ms3p+5bTgZn4UzSTjU760vyQ7jvJsM=",
+        "originContent": "  - `glib-compile-resources`",
+        "translatedContent": "  - `glib-compile-resources`"
+      },
+      {
+        "row": 46,
+        "rowsha": "7rkpCKqpi51Tqyx9fQsDSP2FpwiO7xK+Sm8ucuxm+UY=",
+        "originContent": "  - `libglib2.0-dev-bin`",
+        "translatedContent": "  - `libglib2.0-dev-bin`"
+      },
+      {
+        "row": 47,
+        "rowsha": "upZFnfUdUeM95bCdEOX4J02H/wHTe0IPVEZESXOityk=",
+        "originContent": "  - `gettext`",
+        "translatedContent": "  - `gettext`"
+      },
+      {
+        "row": 48,
+        "rowsha": "xPHY4u3ucH4Gvnh7ylu52IGUoX/oTc35VQ66mHySqh4=",
+        "originContent": "  - These are recommended to run the extension",
+        "translatedContent": "  - Estas se recomiendan para ejecutar la extensión"
+      },
+      {
+        "row": 49,
+        "rowsha": "0lmKK5lZjDSzkRKmDiblfPpnu/GiNasemQGRBZoZDgg=",
+        "originContent": "  - `avahi-tools` (`avahi-browse` command for discovering devices on local network)",
+        "translatedContent": "  - `avahi-tools` (comando `avahi-browse` para descubrir dispositivos en la red local)"
+      },
+      {
+        "row": 50,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

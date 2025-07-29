@@ -1,0 +1,398 @@
+[
+  {
+    "row": 1,
+    "rowsha": "SThH49JsLCqTo8nHnoyFPdrR8YZpHAnD1BaSa/1P7rA=",
+    "originContent": "# IntelliJ plugin for Pebble [![Gitter](https://badges.gitter.im/bjansen/pebble-intellij.svg)](https://gitter.im/bjansen/pebble-intellij) [![GitHub Actions](https://github.com/bjansen/pebble-intellij/workflows/Java%20CI/badge.svg?branch=master)](https://github.com/bjansen/pebble-intellij/actions) [![GitHub release](https://img.shields.io/github/release/bjansen/pebble-intellij.svg)](https://plugins.jetbrains.com/plugin/9407-pebble) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=pebble-intellij&metric=coverage)](https://sonarcloud.io/dashboard?id=pebble-intellij)",
+    "translatedContent": "# Plugin IntelliJ pour Pebble [![Gitter](https://badges.gitter.im/bjansen/pebble-intellij.svg)](https://gitter.im/bjansen/pebble-intellij) [![GitHub Actions](https://github.com/bjansen/pebble-intellij/workflows/Java%20CI/badge.svg?branch=master)](https://github.com/bjansen/pebble-intellij/actions) [![GitHub release](https://img.shields.io/github/release/bjansen/pebble-intellij.svg)](https://plugins.jetbrains.com/plugin/9407-pebble) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=pebble-intellij&metric=coverage)](https://sonarcloud.io/dashboard?id=pebble-intellij)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "v7U3iv75qKwP87h1RRzdC7PrAk6gtW/ZCz8CJKmqLPY=",
+    "originContent": "This plugin provides support for the [Pebble templating engine](https://github.com/PebbleTemplates/pebble) in ",
+    "translatedContent": "Ce plugin fournit un support pour le [moteur de templates Pebble](https://github.com/PebbleTemplates/pebble) dans  "
+  },
+  {
+    "row": 4,
+    "rowsha": "PhKzXISM0JeIZFYv4vToVn1nP6kb30wxVonZWvdRv8k=",
+    "originContent": "IntelliJ IDEA 2017.3 and later.",
+    "translatedContent": "IntelliJ IDEA 2017.3 et versions ultérieures."
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 7,
+    "rowsha": "hVrV+uY+OtF2eZq/A5ycS2hHlIa/NXZoTJ1+LK+8ywU=",
+    "originContent": "  <img src=\"https://github.com/bjansen/pebble-intellij/raw/master/images/plugin.png\" ",
+    "translatedContent": "  <img src=\"https://github.com/bjansen/pebble-intellij/raw/master/images/plugin.png\" "
+  },
+  {
+    "row": 8,
+    "rowsha": "V2qzW2x90XQYeU2SbSSt75jji/HfCThE8QA3s2/08oI=",
+    "originContent": "       width=\"594\" alt=\"IntelliJ plugin for Pebble\"/>",
+    "translatedContent": "       width=\"594\" alt=\"Plugin IntelliJ pour Pebble\"/>"
+  },
+  {
+    "row": 9,
+    "rowsha": "M/J5lGcXcoeikmB4ChB6yY6mPdYWX2f8wNdHZ9CoIJA=",
+    "originContent": "<p>",
+    "translatedContent": "<p>"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Fonctionnalités"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "scgVpt3H15iFQBoYUrXljHl+vNoGxPoMigSbin8SiIE=",
+    "originContent": "* parser/lexer<sup>1</sup> and syntax highlighter (supports custom delimiters)",
+    "translatedContent": "* parseur/lexer<sup>1</sup> et coloration syntaxique (supporte les délimiteurs personnalisés)"
+  },
+  {
+    "row": 14,
+    "rowsha": "Oig4xkuthk8QOVuHkZIrvV6CWpldBzqEdQ3DoNlWDjY=",
+    "originContent": "* live templates for built-in tags",
+    "translatedContent": "* modèles dynamiques pour les tags intégrés"
+  },
+  {
+    "row": 15,
+    "rowsha": "jwdY4JO/UsbB23cUJicaGlACcFqBiVGKdUTsRbeY2v8=",
+    "originContent": "* braces matching, code folding and commenting",
+    "translatedContent": "* appariement des accolades, pliage de code et commentaires"
+  },
+  {
+    "row": 16,
+    "rowsha": "lrRSqohIKQL0nTsXYT6tdzZCt3upXVJ+aWZELh8Gv6Y=",
+    "originContent": "* quote handler",
+    "translatedContent": "* gestionnaire de guillemets"
+  },
+  {
+    "row": 17,
+    "rowsha": "8dkPQ59cSS8nkBDRzZJewO7EZPRtaCmxD/SiS9aa9Co=",
+    "originContent": "* navigation (methods and fields, included files)",
+    "translatedContent": "* navigation (méthodes et champs, fichiers inclus)"
+  },
+  {
+    "row": 18,
+    "rowsha": "bU9vCuCEmV6RJ7YDcf+te4+cUufDpN92qmPocv8d3UY=",
+    "originContent": "* code completion",
+    "translatedContent": "* complétion de code"
+  },
+  {
+    "row": 19,
+    "rowsha": "widq3F2zjdzQ5s+17L0HgR7gGTz3iXWryW/Wv/ZM4i0=",
+    "originContent": "* highlight unknown references",
+    "translatedContent": "* mise en évidence des références inconnues"
+  },
+  {
+    "row": 20,
+    "rowsha": "dqovjgGxO12XGSoBGu+9fhktl8vvqa+HNvV4qE+k08k=",
+    "originContent": "* support for variables and functions introduced by [pebble-spring](https://github.com/PebbleTemplates/pebble/wiki/spring-integration)",
+    "translatedContent": "* support des variables et fonctions introduites par [pebble-spring](https://github.com/PebbleTemplates/pebble/wiki/spring-integration)"
+  },
+  {
+    "row": 21,
+    "rowsha": "tCDMywdvV7pprjFkUdXYTOxjqz0+Dl0VbqlpLeWGmA4=",
+    "originContent": "* [more to come](https://github.com/bjansen/pebble-intellij/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3At-feature)",
+    "translatedContent": "* [plus à venir](https://github.com/bjansen/pebble-intellij/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3At-feature)"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "i+R31kK3EM8Mhk2VQm21OBVVZ7c+o9TTNWMVHJ6s7K8=",
+    "originContent": "<sup>1</sup>: *Custom operators are currently not supported*.",
+    "translatedContent": "<sup>1</sup>: *Les opérateurs personnalisés ne sont pas encore supportés*."
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "v72eTIkfz5hgMXkbW9CD/Nb7dB+hcyrJp+HIwemyRyM=",
+    "originContent": "This plugin is available in JetBrains' [plugin repository](https://plugins.jetbrains.com/idea/plugin/9407-pebble),",
+    "translatedContent": "Ce plugin est disponible dans le [dépôt de plugins](https://plugins.jetbrains.com/idea/plugin/9407-pebble) de JetBrains,  "
+  },
+  {
+    "row": 28,
+    "rowsha": "0Rvi94Hc+L/cIUP6z725Gn3Gq4CuzYFykGVuGILKpp4=",
+    "originContent": "from your IDE go to `Preferences > Plugins` and enter `pebble` in the search bar.",
+    "translatedContent": "depuis votre IDE, allez dans `Preferences > Plugins` et saisissez `pebble` dans la barre de recherche."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "WqrNTp9DlHFcWhbuzps2ktveCEHmME1eJSAAQXu7GZg=",
+    "originContent": "## Mixing Pebble and other languages",
+    "translatedContent": "## Mélanger Pebble et d’autres langages"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "CzHmqJCDbCpZ7kA6bVZrmGCOG70McqpjCBzpPCeh6qU=",
+    "originContent": "To make the editor recognize two languages in the same file, for example HTML ",
+    "translatedContent": "Pour faire reconnaître deux langages dans un même fichier, par exemple HTML  "
+  },
+  {
+    "row": 33,
+    "rowsha": "lHtIxrfPPLBpkra5fy97t0tdwWPBIL/kxhUH6Y+OJ08=",
+    "originContent": "and Pebble, go to `Preferences > Languages & Frameworks > Template Data Languages`",
+    "translatedContent": "et Pebble, allez dans `Preferences > Languages & Frameworks > Template Data Languages`  "
+  },
+  {
+    "row": 34,
+    "rowsha": "DGZIZcTpRotXrCP3MF3jlYC3VAWyxMxk6OaplujZmjU=",
+    "originContent": "and select the `HTML` data language on the directory that contains your Pebble",
+    "translatedContent": "et sélectionnez le langage de données `HTML` sur le répertoire contenant vos templates Pebble :"
+  },
+  {
+    "row": 35,
+    "rowsha": "FWkOVin9hhnTPlvQqdQNd+ye+p1q5hZKnHD5amjk+Pk=",
+    "originContent": "templates:",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![Paramètres des langages de données des templates](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/settings.png)"
+  },
+  {
+    "row": 37,
+    "rowsha": "MB3N3+pFqD+/pGcgjXvIYsOPnglk1BbNKGYVsFVZJtU=",
+    "originContent": "![Template data languages settings](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/settings.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Cela activera des fonctionnalités telles que la coloration syntaxique, la complétion de code, la navigation,  "
+  },
+  {
+    "row": 39,
+    "rowsha": "NmXMki6uHgJsxkBmF6N0Wf0EU0UYUk69mAY7UbwBdqE=",
+    "originContent": "This will enable features like syntax highlighting, code completion, navigation,",
+    "translatedContent": "les expansions Emmet, etc."
+  },
+  {
+    "row": 40,
+    "rowsha": "mgDHfaPrHXc/W2k3CWNEvIZfXAJFJNu6r8r1hCKo7HI=",
+    "originContent": "Emmet expansions etc.",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Utilisation de la complétion de code"
+  },
+  {
+    "row": 42,
+    "rowsha": "IzYJI0Wn8DdG/BhPGANBqg4tP/u8XuLUeo/0Y0GGff0=",
+    "originContent": "## Using code completion",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Pour utiliser la complétion de code, vous devez informer le plugin du type  "
+  },
+  {
+    "row": 44,
+    "rowsha": "25iJYzZ5AqJdGlaMN4NwlLjtgka93na57bv2X2YL2rY=",
+    "originContent": "In order to use code completion, you will have to let the plugin know what the type",
+    "translatedContent": "de `foo`. Cela peut être fait en utilisant les annotations `@pebvariable`, comme dans les plugins JSP, FreeMarker  "
+  },
+  {
+    "row": 45,
+    "rowsha": "9wtZDn1yJYYA/kD21J8ROwPgn1jDpFv8w7yLjoihEss=",
+    "originContent": "of `foo` is. This can be done using `@pebvariable` hints, much like in the JSP, FreeMarker",
+    "translatedContent": "et Velocity :"
+  },
+  {
+    "row": 46,
+    "rowsha": "z3VQqQyO4rFuJzPmELNdGRIwRSge/TNxgB9djjRe8iU=",
+    "originContent": "and Velocity plugins:",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![Complétion de code](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/completion.png)"
+  },
+  {
+    "row": 48,
+    "rowsha": "RD59Sp6u9OTFH6gTz1E3PNS4iQpbp1U9hLmvzun0Dlo=",
+    "originContent": "![Code completion](https://raw.githubusercontent.com/bjansen/pebble-intellij/master/images/completion.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Les annotations `@pebvariable` peuvent être facilement ajoutées aux templates via le modèle dynamique `var`. Elles doivent  "
+  },
+  {
+    "row": 50,
+    "rowsha": "i6IX7V1wXrcQi7P6bzW+8Wyl81SQ53swGCMnmy1xGXY=",
+    "originContent": "`@pebvariable` hints can be easily added to templates via the `var` live template. They must",
+    "translatedContent": "respecter cette syntaxe :"
+  },
+  {
+    "row": 51,
+    "rowsha": "xKeWEIp5JC9jfYLxctNEputWWBCGbvDSXTIQeUEzFIc=",
+    "originContent": "follow this syntax:",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    {# @pebvariable name=\"<nom>\" type=\"<type>\" #}"
+  },
+  {
+    "row": 53,
+    "rowsha": "T7vxcWhXjBFJBidwSD676up3ZggDlp5lY9w3cLitKD4=",
+    "originContent": "    {# @pebvariable name=\"<name>\" type=\"<type>\" #}",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Pour que la complétion fonctionne correctement avec l’attribut `type`, vos fichiers `.peb` doivent être placés  "
+  },
+  {
+    "row": 55,
+    "rowsha": "CwJK36yfpKzwrFKxsM+G6tRKOvD9g/fljc4S3sNyAWo=",
+    "originContent": "For code completion to work properly in the `type` attribute, your `.peb` files need to be placed",
+    "translatedContent": "dans une [racine de contenu](https://www.jetbrains.com/help/idea/content-roots.html) (par exemple `src/main/resources`).  "
+  },
+  {
+    "row": 56,
+    "rowsha": "bAbTz+4Cjyv4TwlfeuMu4hQADZ5cV95pt42RYbU4kNk=",
+    "originContent": "under a [content root](https://www.jetbrains.com/help/idea/content-roots.html) (e.g. `src/main/resources`).",
+    "translatedContent": "Sinon, les classes définies dans vos propres fichiers sources ne seront pas suggérées."
+  },
+  {
+    "row": 57,
+    "rowsha": "BAIezNW3My7Ru+UMhge8fVeJhJIX+QLDvPszA5IHW4I=",
+    "originContent": "Otherwise, classes defined in your own source files won't be suggested.",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Versions nocturnes"
+  },
+  {
+    "row": 59,
+    "rowsha": "lMIlxJzb9tb9D0oRuHToCk1gpajDcqDCXPifLQS4Y0o=",
+    "originContent": "## Nightly builds",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Les builds snapshot sont disponibles via le CI Actions :  "
+  },
+  {
+    "row": 61,
+    "rowsha": "ZIeeHd281qR9zfdRRXuOmipUaMPIErOfohyEtSCguFw=",
+    "originContent": "Snapshot builds are available as part of the Actions CI:",
+    "translatedContent": " * allez sur https://github.com/bjansen/pebble-intellij/actions  "
+  },
+  {
+    "row": 62,
+    "rowsha": "qiq00uwX58QrnlojnxpNwVUhMg2hFcmV00K/Ox7VHRc=",
+    "originContent": " * go to https://github.com/bjansen/pebble-intellij/actions",
+    "translatedContent": " * cliquez sur le build le plus récent  "
+  },
+  {
+    "row": 63,
+    "rowsha": "KbnGcuQqAW7tHO7hea439eEoDJkqYVJgFyd9wPlkexE=",
+    "originContent": " * click on the latest build",
+    "translatedContent": " * descendez en bas de la page, dans la section `Artifacts` cliquez sur `pebble-intellij-development`  "
+  },
+  {
+    "row": 64,
+    "rowsha": "cRiDUDYTYdTSb57B7Aq2FbMI8LNGWwTePVhe5kngiow=",
+    "originContent": " * scroll to the bottom of the page, under the `Artifacts` section click on `pebble-intellij-development`",
+    "translatedContent": " * cela téléchargera un fichier zip qui peut être installé dans votre IDE en utilisant [Installer un plugin depuis un fichier](https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk)"
+  },
+  {
+    "row": 65,
+    "rowsha": "mo7Cx5NzFWl+0vs/COmH4dPqroWp5yf+MkTm8pFgx4Q=",
+    "originContent": " * this will download a zip file that can be installed in your IDE using [Install plugin from disk](https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk)",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

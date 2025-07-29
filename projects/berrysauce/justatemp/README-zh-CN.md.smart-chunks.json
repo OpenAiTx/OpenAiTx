@@ -1,0 +1,207 @@
+[
+  {
+    "Id": 1,
+    "Content": "<h1 align=\"center\">📮 Just a Temp</h1>\n<p align=\"center\">The free temporary email service powered by Cloudflare\n  <br>\n  </br>\n  <img alt=\"CodeQL\" src=\"https://github.com/berrysauce/justatemp/actions/workflows/github-code-scanning/codeql/badge.svg\">\n  <img alt=\"GitHub release (latest by date including pre-releases)\" src=\"https://img.shields.io/github/v/release/berrysauce/junk.boats?color=blue&include_prereleases&label=latest%20release\">\n</p>\n\n> ℹ️ This service is 100% powered by [Cloudflare](https://www.cloudflare.com/)\n\n> [!IMPORTANT]\n> This project was previously available under the domain \"junk.boats\".\n\n### What is justatemp.com?\njustatemp.com is a yet another, free to use, open source, and of course, privacy-friendly, temporary email generator. You can use justatemp.com to receive emails from sites you don't really want to give your email to. All received emails are publicly stored for 2 hours and then permanently deleted.\n\n<img alt=\"Just A Temp Screenshot\" src=\"https://public-cdn.berrysauce.me/shared/justatemp-screenshot-yWtqO.png\">\n\n### What about privacy?\njustatemp.com only stores the received emails. No other user data is stored. The emails are automatically deleted after 2 hours. Until then, everyone with the receiving address can view the emails this address received. For analytics, justatemp.com uses Cloudflare's anonymous web analytics.\n\n### What are collector, postmaster, and postoffice?\n- 📮 `mailbox` is a Cloudflare email worker which receives and stores all incoming mails\n- 🚚 `postservice` is the email distributor in the form of an API powered by a HonoJS Cloudflare worker\n- 🏤 `frontend` is the SvelteKit frontend which displays the received emails to the user\n\n### How does justatemp.com work?\nIncoming mails go to the `mailbox` email worker. It saves the email in a Cloudflare KV database. The Svelte frontend generates a random email address and requests all emails for this address from the `postservice`. If emails are available, it displays them, sorted by the UNIX timestamp included in the KV entry.\n\n### Development\nMore on that soon\n",
+    "ContentSha": "3Ar2tK+DfLAddeFbmnID+UytoaVMvgRWC7aM7jusgLM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<h1 align=\"center\">📮 仅为临时邮箱</h1>\n<p align=\"center\">由 Cloudflare 提供支持的免费临时邮箱服务\n  <br>\n  </br>\n  <img alt=\"CodeQL\" src=\"https://github.com/berrysauce/justatemp/actions/workflows/github-code-scanning/codeql/badge.svg\">\n  <img alt=\"GitHub release (latest by date including pre-releases)\" src=\"https://img.shields.io/github/v/release/berrysauce/junk.boats?color=blue&include_prereleases&label=latest%20release\">\n</p>\n\n> ℹ️ 本服务 100% 由 [Cloudflare](https://www.cloudflare.com/) 提供支持\n\n> [!IMPORTANT]\n> 本项目之前使用域名 \"junk.boats\" 提供服务。\n\n### 什么是 justatemp.com？\njustatemp.com 是另一个免费使用、开源且当然注重隐私的临时邮箱生成器。您可以使用 justatemp.com 接收来自您不想真正提供邮箱的网站的邮件。所有接收的邮件会公开存储 2 小时，然后永久删除。\n\n<img alt=\"Just A Temp Screenshot\" src=\"https://public-cdn.berrysauce.me/shared/justatemp-screenshot-yWtqO.png\">\n\n### 隐私如何保障？\njustatemp.com 仅存储接收的邮件。不存储其他用户数据。邮件会在 2 小时后自动删除。在此之前，任何拥有该接收地址的人都可以查看该地址收到的邮件。为了分析，justatemp.com 使用 Cloudflare 的匿名网页分析。\n\n### 什么是 collector、postmaster 和 postoffice？\n- 📮 `mailbox` 是一个 Cloudflare 邮件 worker，用于接收并存储所有传入邮件\n- 🚚 `postservice` 是一个由 HonoJS Cloudflare worker 驱动的 API 形式邮件分发服务\n- 🏤 `frontend` 是使用 SvelteKit 的前端，向用户显示接收到的邮件\n\n### justatemp.com 如何工作？\n传入邮件会发送到 `mailbox` 邮件 worker。它将邮件保存到 Cloudflare KV 数据库。Svelte 前端生成随机邮箱地址，并从 `postservice` 请求该地址的所有邮件。如果有邮件，则按 KV 条目中包含的 UNIX 时间戳排序并显示。\n\n### 开发\n更多内容即将推出\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ApJNOuO3m8Zk7WHMSKxUrvo2c58G7sdzsphwo5dmxC8=",
+        "originContent": "<h1 align=\"center\">📮 Just a Temp</h1>",
+        "translatedContent": "<h1 align=\"center\">📮 仅为临时邮箱</h1>"
+      },
+      {
+        "row": 2,
+        "rowsha": "fCgnKik3wzpN6w318MHkUlABRjXLK1lxab+NgYxuXz8=",
+        "originContent": "<p align=\"center\">The free temporary email service powered by Cloudflare",
+        "translatedContent": "<p align=\"center\">由 Cloudflare 提供支持的免费临时邮箱服务"
+      },
+      {
+        "row": 3,
+        "rowsha": "9LaBX1pLj0uNH7jpkfGU+pcX+uzIPdfr4/tPIT1shWQ=",
+        "originContent": "  <br>",
+        "translatedContent": "  <br>"
+      },
+      {
+        "row": 4,
+        "rowsha": "8g0c7FuyypiAC+vVasOfLi3UXgD6jWAh7n0mFTVNxP8=",
+        "originContent": "  </br>",
+        "translatedContent": "  </br>"
+      },
+      {
+        "row": 5,
+        "rowsha": "eoNXec+oSI66PHcRpe1Xqad4V6tIBv4XPtBicICXca0=",
+        "originContent": "  <img alt=\"CodeQL\" src=\"https://github.com/berrysauce/justatemp/actions/workflows/github-code-scanning/codeql/badge.svg\">",
+        "translatedContent": "  <img alt=\"CodeQL\" src=\"https://github.com/berrysauce/justatemp/actions/workflows/github-code-scanning/codeql/badge.svg\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "56E1FPszCSaDssTTOQ9d0GVHLWUyS54wZcMNrPvrsic=",
+        "originContent": "  <img alt=\"GitHub release (latest by date including pre-releases)\" src=\"https://img.shields.io/github/v/release/berrysauce/junk.boats?color=blue&include_prereleases&label=latest%20release\">",
+        "translatedContent": "  <img alt=\"GitHub release (latest by date including pre-releases)\" src=\"https://img.shields.io/github/v/release/berrysauce/junk.boats?color=blue&include_prereleases&label=latest%20release\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "TPnkqpZMKdtel0laMrHmRJJ4l2gwDafMnF2Swk5PDRQ=",
+        "originContent": "> ℹ️ This service is 100% powered by [Cloudflare](https://www.cloudflare.com/)",
+        "translatedContent": "> ℹ️ 本服务 100% 由 [Cloudflare](https://www.cloudflare.com/) 提供支持"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+        "originContent": "> [!IMPORTANT]",
+        "translatedContent": "> [!IMPORTANT]"
+      },
+      {
+        "row": 12,
+        "rowsha": "odayIzRdOHyynR4oT7LGNhg2OYBIA5Gh531S7fDkGyc=",
+        "originContent": "> This project was previously available under the domain \"junk.boats\".",
+        "translatedContent": "> 本项目之前使用域名 \"junk.boats\" 提供服务。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "+Bw0iR52l7FmX9ZfGLwVqMJa77e5Jlf+Klt3MOlZ+Pc=",
+        "originContent": "### What is justatemp.com?",
+        "translatedContent": "### 什么是 justatemp.com？"
+      },
+      {
+        "row": 15,
+        "rowsha": "WabMFyQ6BRxfn8NnUHdAhxsIQCv1Rufj+0vSoML4nT4=",
+        "originContent": "justatemp.com is a yet another, free to use, open source, and of course, privacy-friendly, temporary email generator. You can use justatemp.com to receive emails from sites you don't really want to give your email to. All received emails are publicly stored for 2 hours and then permanently deleted.",
+        "translatedContent": "justatemp.com 是另一个免费使用、开源且当然注重隐私的临时邮箱生成器。您可以使用 justatemp.com 接收来自您不想真正提供邮箱的网站的邮件。所有接收的邮件会公开存储 2 小时，然后永久删除。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "3R8jRp5ONMaGl9N93ARUbAzIg2eOZSxlbF9TtqNhd84=",
+        "originContent": "<img alt=\"Just A Temp Screenshot\" src=\"https://public-cdn.berrysauce.me/shared/justatemp-screenshot-yWtqO.png\">",
+        "translatedContent": "<img alt=\"Just A Temp Screenshot\" src=\"https://public-cdn.berrysauce.me/shared/justatemp-screenshot-yWtqO.png\">"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "7k4/oz5D8ZZI7nIMRxmz+76f2c822wR82B2fxZseMQg=",
+        "originContent": "### What about privacy?",
+        "translatedContent": "### 隐私如何保障？"
+      },
+      {
+        "row": 20,
+        "rowsha": "hZ5nHLVNlx6UoCSGu5/Fr5uyySzUMZiaoO5ZXTW6cLc=",
+        "originContent": "justatemp.com only stores the received emails. No other user data is stored. The emails are automatically deleted after 2 hours. Until then, everyone with the receiving address can view the emails this address received. For analytics, justatemp.com uses Cloudflare's anonymous web analytics.",
+        "translatedContent": "justatemp.com 仅存储接收的邮件。不存储其他用户数据。邮件会在 2 小时后自动删除。在此之前，任何拥有该接收地址的人都可以查看该地址收到的邮件。为了分析，justatemp.com 使用 Cloudflare 的匿名网页分析。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "NeQz7nGqaQ3K0Euvv9ZiZjQN2zw/paQDJQr2XjdnxZU=",
+        "originContent": "### What are collector, postmaster, and postoffice?",
+        "translatedContent": "### 什么是 collector、postmaster 和 postoffice？"
+      },
+      {
+        "row": 23,
+        "rowsha": "8cjUx574e4QEyuTKCt7gmorKlz44+1dfQpBNEaNIn54=",
+        "originContent": "- 📮 `mailbox` is a Cloudflare email worker which receives and stores all incoming mails",
+        "translatedContent": "- 📮 `mailbox` 是一个 Cloudflare 邮件 worker，用于接收并存储所有传入邮件"
+      },
+      {
+        "row": 24,
+        "rowsha": "k3rMJ4dIPX4L28YaAUSgJFyUXVDZT7gmvcQIrxECJFY=",
+        "originContent": "- 🚚 `postservice` is the email distributor in the form of an API powered by a HonoJS Cloudflare worker",
+        "translatedContent": "- 🚚 `postservice` 是一个由 HonoJS Cloudflare worker 驱动的 API 形式邮件分发服务"
+      },
+      {
+        "row": 25,
+        "rowsha": "uehdahhFiHgxc++2HklTTcxriXmO5vPmc1mki9mhOKs=",
+        "originContent": "- 🏤 `frontend` is the SvelteKit frontend which displays the received emails to the user",
+        "translatedContent": "- 🏤 `frontend` 是使用 SvelteKit 的前端，向用户显示接收到的邮件"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "dRfeZrGFhz1UA1IW7rsD0Sb+kR0ni7vBd2zjVrooWI8=",
+        "originContent": "### How does justatemp.com work?",
+        "translatedContent": "### justatemp.com 如何工作？"
+      },
+      {
+        "row": 28,
+        "rowsha": "gccnleD+hW2V+tiz6GAca6bBfXV9+HRy1UPbCPiiRrc=",
+        "originContent": "Incoming mails go to the `mailbox` email worker. It saves the email in a Cloudflare KV database. The Svelte frontend generates a random email address and requests all emails for this address from the `postservice`. If emails are available, it displays them, sorted by the UNIX timestamp included in the KV entry.",
+        "translatedContent": "传入邮件会发送到 `mailbox` 邮件 worker。它将邮件保存到 Cloudflare KV 数据库。Svelte 前端生成随机邮箱地址，并从 `postservice` 请求该地址的所有邮件。如果有邮件，则按 KV 条目中包含的 UNIX 时间戳排序并显示。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "x04EB7BlvMSKobvvwbPlJfxbjTla+pt6AhDspqW/UFU=",
+        "originContent": "### Development",
+        "translatedContent": "### 开发"
+      },
+      {
+        "row": 31,
+        "rowsha": "lAGS+ezBDFV04lsiPljT3UGo4nDjcemO9bgzJcXEktQ=",
+        "originContent": "More on that soon",
+        "translatedContent": "更多内容即将推出"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
