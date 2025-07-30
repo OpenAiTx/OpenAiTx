@@ -1,0 +1,695 @@
+[
+  {
+    "Id": 1,
+    "Content": "<h1 align=\"center\">\n  <a href=\"https://github.com/tbruno25/can-explorer\">\n    <!-- Please provide path to your logo here -->\n    <img src=\"https://github.com/Tbruno25/can-explorer/raw/main/docs/images/logo.png\" alt=\"Logo\" width=\"200\" height=\"200\">\n  </a>\n</h1>\n\n<div align=\"center\">\n  can-explorer\n  <br />\n  <a href=\"https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+\">Report a Bug</a>\n  ·\n  <a href=\"https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feature%3A+\">Request a Feature</a>\n  ·\n  <a href=\"https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+\">Ask a Question</a>\n</div>\n\n<div align=\"center\">\n<br/>\n\n\n[![PyPI version](https://img.shields.io/pypi/v/can-explorer?color=mediumseagreen)](https://pypi.org/project/can-explorer/)\n[![Python Versions](https://img.shields.io/pypi/pyversions/can-explorer?color=mediumseagreen)](https://pypi.org/project/can-explorer/)\n[![Stars](https://img.shields.io/github/stars/tbruno25/can-explorer?color=mediumseagreen)](https://github.com/Tbruno25/can-explorer/stargazers)\n</div>\n\n---\n\n## About\n\n`can-explorer` is a CAN bus visualization tool designed to aid in reverse engineering.\n\n![Demo](https://github.com/Tbruno25/can-explorer/raw/main/docs/images/demo.gif)\n\n### How does this help me?\nBy continuously plotting all payloads for each CAN id, spotting trends that correspond to a specific action can become signicantly easier to identify. \n\nPlease refer to this [prior article](https://tbruno25.medium.com/car-hacking-faster-reverse-engineering-using-canopy-be1955843d57) I wrote for a working example of how this approach can be used to find which id includes speedometer data.\n\n\n### Built With\n\n\n[![DearPyGui](https://github.com/Tbruno25/can-explorer/raw/main/docs/images/dearpygui-logo.png)](https://github.com/hoffstadt/DearPyGui)\n[![PythonCan](https://github.com/Tbruno25/can-explorer/raw/main/docs/images/pythoncan-logo.png)](https://github.com/hardbyte/python-can)\n\n## Getting Started\n\n### Installation\n\n[pipx](https://pypa.github.io/pipx/) is recommended although any package manager that supports `pyproject.toml` files can be used.\n",
+    "ContentSha": "pSq69gVweqdiwzhM2TskEzVifPauShMfuok4LQDMlY0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<h1 align=\"center\">\n  <a href=\"https://github.com/tbruno25/can-explorer\">\n    <!-- Por favor proporcione la ruta a su logo aquí -->\n    <img src=\"https://github.com/Tbruno25/can-explorer/raw/main/docs/images/logo.png\" alt=\"Logo\" width=\"200\" height=\"200\">\n  </a>\n</h1>\n\n<div align=\"center\">\n  can-explorer\n  <br />\n  <a href=\"https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+\">Reportar un Error</a>\n  ·\n  <a href=\"https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feature%3A+\">Solicitar una Funcionalidad</a>\n  ·\n  <a href=\"https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+\">Hacer una Pregunta</a>\n</div>\n\n<div align=\"center\">\n<br/>\n\n\n[![PyPI version](https://img.shields.io/pypi/v/can-explorer?color=mediumseagreen)](https://pypi.org/project/can-explorer/)\n[![Python Versions](https://img.shields.io/pypi/pyversions/can-explorer?color=mediumseagreen)](https://pypi.org/project/can-explorer/)\n[![Stars](https://img.shields.io/github/stars/tbruno25/can-explorer?color=mediumseagreen)](https://github.com/Tbruno25/can-explorer/stargazers)\n</div>\n\n---\n\n## Acerca de\n\n`can-explorer` es una herramienta de visualización de bus CAN diseñada para ayudar en la ingeniería inversa.\n\n![Demo](https://github.com/Tbruno25/can-explorer/raw/main/docs/images/demo.gif)\n\n### ¿Cómo me ayuda esto?\nAl graficar continuamente todas las cargas útiles para cada ID CAN, detectar tendencias que correspondan a una acción específica puede volverse significativamente más fácil de identificar. \n\nPor favor refiérase a este [artículo previo](https://tbruno25.medium.com/car-hacking-faster-reverse-engineering-using-canopy-be1955843d57) que escribí para un ejemplo práctico de cómo este enfoque puede usarse para encontrar qué ID incluye datos del velocímetro.\n\n\n### Construido Con\n\n\n[![DearPyGui](https://github.com/Tbruno25/can-explorer/raw/main/docs/images/dearpygui-logo.png)](https://github.com/hoffstadt/DearPyGui)\n[![PythonCan](https://github.com/Tbruno25/can-explorer/raw/main/docs/images/pythoncan-logo.png)](https://github.com/hardbyte/python-can)\n\n## Comenzando\n\n### Instalación\n\n[pipx](https://pypa.github.io/pipx/) es recomendado aunque cualquier gestor de paquetes que soporte archivos `pyproject.toml` puede ser usado.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "KxBpkukaXgEZWw7xxhGlTSRDVJakr4sBw+2/l9R7Xgs=",
+        "originContent": "<h1 align=\"center\">",
+        "translatedContent": "<h1 align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "NIHH/kJ64AhoaXc+VkG3LaMjYJusSs3EWXnporKC348=",
+        "originContent": "  <a href=\"https://github.com/tbruno25/can-explorer\">",
+        "translatedContent": "  <a href=\"https://github.com/tbruno25/can-explorer\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "EDceursXRHXJfeviOgNMwlzqm6Q2g/6o5Ja0yGw2QZs=",
+        "originContent": "    <!-- Please provide path to your logo here -->",
+        "translatedContent": "    <!-- Por favor proporcione la ruta a su logo aquí -->"
+      },
+      {
+        "row": 4,
+        "rowsha": "lYbPQgW0JBjfmqW8tF1HQT/lKX2heCnGE1k665dJLVU=",
+        "originContent": "    <img src=\"https://github.com/Tbruno25/can-explorer/raw/main/docs/images/logo.png\" alt=\"Logo\" width=\"200\" height=\"200\">",
+        "translatedContent": "    <img src=\"https://github.com/Tbruno25/can-explorer/raw/main/docs/images/logo.png\" alt=\"Logo\" width=\"200\" height=\"200\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 6,
+        "rowsha": "jx7VTIaGwMtwY3ZiSh8xEG0MuMzGD34Xs/9PCAcDvw8=",
+        "originContent": "</h1>",
+        "translatedContent": "</h1>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "7DercKHQwzMTvHYoKw+PjZB53PBGxaZpH78uzgQuufk=",
+        "originContent": "  can-explorer",
+        "translatedContent": "  can-explorer"
+      },
+      {
+        "row": 10,
+        "rowsha": "HkV5o2uzv3wMAkXOstgSWtEh7X35Y20Cahb4DewGS8k=",
+        "originContent": "  <br />",
+        "translatedContent": "  <br />"
+      },
+      {
+        "row": 11,
+        "rowsha": "R1m//ET5ynmhF8UPkU0mw4OxY/spSB5SPxDQm/SskKg=",
+        "originContent": "  <a href=\"https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+\">Report a Bug</a>",
+        "translatedContent": "  <a href=\"https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+\">Reportar un Error</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "nuV9NVJA6TnHBU6UktickUE7oakdaX6/Ahq6HdYrUSU=",
+        "originContent": "  ·",
+        "translatedContent": "  ·"
+      },
+      {
+        "row": 13,
+        "rowsha": "VbNP7rtXz52f7OwjZm6is8Me1hPUTx+tUPRl1cpNh9s=",
+        "originContent": "  <a href=\"https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feature%3A+\">Request a Feature</a>",
+        "translatedContent": "  <a href=\"https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feature%3A+\">Solicitar una Funcionalidad</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "nuV9NVJA6TnHBU6UktickUE7oakdaX6/Ahq6HdYrUSU=",
+        "originContent": "  ·",
+        "translatedContent": "  ·"
+      },
+      {
+        "row": 15,
+        "rowsha": "jaEprF8EoCAXYL5lNT3+ncpjejOm4ODN84F0oDVv2To=",
+        "originContent": "  <a href=\"https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+\">Ask a Question</a>",
+        "translatedContent": "  <a href=\"https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+\">Hacer una Pregunta</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 19,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "mkKJ1xRgj49TU7262WO3WdWdTBM15z1awzeBNmQuMbU=",
+        "originContent": "[![PyPI version](https://img.shields.io/pypi/v/can-explorer?color=mediumseagreen)](https://pypi.org/project/can-explorer/)",
+        "translatedContent": "[![PyPI version](https://img.shields.io/pypi/v/can-explorer?color=mediumseagreen)](https://pypi.org/project/can-explorer/)"
+      },
+      {
+        "row": 23,
+        "rowsha": "uNo0IOiV/Xqsk9UmljC0+N0M8qCk+fgPXySUVDuiV+8=",
+        "originContent": "[![Python Versions](https://img.shields.io/pypi/pyversions/can-explorer?color=mediumseagreen)](https://pypi.org/project/can-explorer/)",
+        "translatedContent": "[![Python Versions](https://img.shields.io/pypi/pyversions/can-explorer?color=mediumseagreen)](https://pypi.org/project/can-explorer/)"
+      },
+      {
+        "row": 24,
+        "rowsha": "KYbeXP0mCSUFnNPmtEpzyXAT8K1JLGNo+7yNmlxXYKo=",
+        "originContent": "[![Stars](https://img.shields.io/github/stars/tbruno25/can-explorer?color=mediumseagreen)](https://github.com/Tbruno25/can-explorer/stargazers)",
+        "translatedContent": "[![Stars](https://img.shields.io/github/stars/tbruno25/can-explorer?color=mediumseagreen)](https://github.com/Tbruno25/can-explorer/stargazers)"
+      },
+      {
+        "row": 25,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "m0QcAE3J+iZV4kJHdUlgPCLMoR1y3kRhWGgxHkrRxqE=",
+        "originContent": "## About",
+        "translatedContent": "## Acerca de"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "gklvGg9QNVq7cRLnr3CRYxeoQWivpWY3rf2ur5J/56g=",
+        "originContent": "`can-explorer` is a CAN bus visualization tool designed to aid in reverse engineering.",
+        "translatedContent": "`can-explorer` es una herramienta de visualización de bus CAN diseñada para ayudar en la ingeniería inversa."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "IY7dZSbkj8JmtcQxahVXTFkFhaW9D0L45arZzjbS2to=",
+        "originContent": "![Demo](https://github.com/Tbruno25/can-explorer/raw/main/docs/images/demo.gif)",
+        "translatedContent": "![Demo](https://github.com/Tbruno25/can-explorer/raw/main/docs/images/demo.gif)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "BMP2UejJaL+vPbphGkmQRnPhESWhw0apjN3rM4T0bHE=",
+        "originContent": "### How does this help me?",
+        "translatedContent": "### ¿Cómo me ayuda esto?"
+      },
+      {
+        "row": 36,
+        "rowsha": "S/JJmqIa3h/WSqa6PH7rHnI0Qxt+lFezp26Vvs2YYo8=",
+        "originContent": "By continuously plotting all payloads for each CAN id, spotting trends that correspond to a specific action can become signicantly easier to identify. ",
+        "translatedContent": "Al graficar continuamente todas las cargas útiles para cada ID CAN, detectar tendencias que correspondan a una acción específica puede volverse significativamente más fácil de identificar. "
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "ZBUPL0G76zn6AOlglwcJOTcjuhpfGG8KcANs4jpVbs0=",
+        "originContent": "Please refer to this [prior article](https://tbruno25.medium.com/car-hacking-faster-reverse-engineering-using-canopy-be1955843d57) I wrote for a working example of how this approach can be used to find which id includes speedometer data.",
+        "translatedContent": "Por favor refiérase a este [artículo previo](https://tbruno25.medium.com/car-hacking-faster-reverse-engineering-using-canopy-be1955843d57) que escribí para un ejemplo práctico de cómo este enfoque puede usarse para encontrar qué ID incluye datos del velocímetro."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "3pXqLf2Kyyhf40+JbNDKQ6EhI4OGKO0gylgKzC8+7z8=",
+        "originContent": "### Built With",
+        "translatedContent": "### Construido Con"
+      },
+      {
+        "row": 42,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "xusUvzNH6Z/n0plw9ZDnH9ejDem+bTjhcObH+5j1KGM=",
+        "originContent": "[![DearPyGui](https://github.com/Tbruno25/can-explorer/raw/main/docs/images/dearpygui-logo.png)](https://github.com/hoffstadt/DearPyGui)",
+        "translatedContent": "[![DearPyGui](https://github.com/Tbruno25/can-explorer/raw/main/docs/images/dearpygui-logo.png)](https://github.com/hoffstadt/DearPyGui)"
+      },
+      {
+        "row": 45,
+        "rowsha": "J6GmoMTJraJpaHHYjz0tLEDo2Lg6EzVVwoFIN16YFHQ=",
+        "originContent": "[![PythonCan](https://github.com/Tbruno25/can-explorer/raw/main/docs/images/pythoncan-logo.png)](https://github.com/hardbyte/python-can)",
+        "translatedContent": "[![PythonCan](https://github.com/Tbruno25/can-explorer/raw/main/docs/images/pythoncan-logo.png)](https://github.com/hardbyte/python-can)"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## Comenzando"
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### Instalación"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "kyZbajOnBNixnfIU3VCL0IuUzS9FQ8SHHKOfrWX3bJc=",
+        "originContent": "[pipx](https://pypa.github.io/pipx/) is recommended although any package manager that supports `pyproject.toml` files can be used.",
+        "translatedContent": "[pipx](https://pypa.github.io/pipx/) es recomendado aunque cualquier gestor de paquetes que soporte archivos `pyproject.toml` puede ser usado."
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\npipx install can-explorer\n``` ",
+    "ContentSha": "n/iv6VdVJqCzv75z3QKyCeHi/ZWOImkE/LMmQF9H2EU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npipx install can-explorer\n``` ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "NHZ8aY97xxCj5QDl3gqk/vHw+jdYJ2Ez0wEnNFGtw1I=",
+        "originContent": "pipx install can-explorer",
+        "translatedContent": "pipx install can-explorer"
+      },
+      {
+        "row": 3,
+        "rowsha": "6l+f1PdAzkOkp8zjbFbdg+1TVGfcHDKpp/EmFpFzj+4=",
+        "originContent": "``` ",
+        "translatedContent": "``` "
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Usage\n\nThe gui can be launched by running one of the below commands from a terminal.",
+    "ContentSha": "7iKRO78N8YxnhZUBkJdluBAqmLBeo/kpx5hOQTneSSU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Uso\n\nLa interfaz gráfica puede iniciarse ejecutando uno de los siguientes comandos desde una terminal.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Uso"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "jx334ELkPLwhwbn9loaWl4sS4oaoboGZ+94N0E2tHsg=",
+        "originContent": "The gui can be launched by running one of the below commands from a terminal.",
+        "translatedContent": "La interfaz gráfica puede iniciarse ejecutando uno de los siguientes comandos desde una terminal."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh \ncan-explorer\n``` ",
+    "ContentSha": "NyoweANxcDIWXGuGKfor/pFTwotUByxCqn40vO7qQdI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh \ncan-explorer\n``` ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "AndGhQXjxKvvfm1uNXyjHxqoZycMyAn69Avs4x6l97w=",
+        "originContent": "```sh ",
+        "translatedContent": "```sh "
+      },
+      {
+        "row": 2,
+        "rowsha": "lWWdKKZUlRawQS9ofNvtUd6yglKpT7lyhqGJEjwuJU4=",
+        "originContent": "can-explorer",
+        "translatedContent": "can-explorer"
+      },
+      {
+        "row": 3,
+        "rowsha": "6l+f1PdAzkOkp8zjbFbdg+1TVGfcHDKpp/EmFpFzj+4=",
+        "originContent": "``` ",
+        "translatedContent": "``` "
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```sh \npython3 -m can_explorer\n``` ",
+    "ContentSha": "psJL3WMytHxYJIdXOb63XSUw0nfK+Hlc5rs+zlZZxHE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh \npython3 -m can_explorer\n``` ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "AndGhQXjxKvvfm1uNXyjHxqoZycMyAn69Avs4x6l97w=",
+        "originContent": "```sh ",
+        "translatedContent": "```sh "
+      },
+      {
+        "row": 2,
+        "rowsha": "oaw79an8ToMaGqONWU6DhCT6wF/uEK2cGzDfRQ/xPNk=",
+        "originContent": "python3 -m can_explorer",
+        "translatedContent": "python3 -m can_explorer"
+      },
+      {
+        "row": 3,
+        "rowsha": "6l+f1PdAzkOkp8zjbFbdg+1TVGfcHDKpp/EmFpFzj+4=",
+        "originContent": "``` ",
+        "translatedContent": "``` "
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nBefore starting the viewer, you ***must*** navigate to the settings tab and input your interface adapter configuration to create a bus instance. Please refer to the [python-can docs](https://python-can.readthedocs.io/en/stable/index.html) for more information regarding the various interfaces supported. \n\nThe gui can also be launched with a demo flag which will auto select the virtual interface option and start streaming simulated CAN data in a background process.\n",
+    "ContentSha": "moxaC5D9c+OBMkMKjqPtK1kua7eBj8FJnf7qI9gbO48=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Antes de iniciar el visor, ***debe*** navegar a la pestaña de configuración e ingresar la configuración de su adaptador de interfaz para crear una instancia de bus. Por favor, consulte la [documentación de python-can](https://python-can.readthedocs.io/en/stable/index.html) para obtener más información sobre las diversas interfaces compatibles. \n\nLa interfaz gráfica también se puede iniciar con una bandera de demostración que seleccionará automáticamente la opción de interfaz virtual y comenzará a transmitir datos CAN simulados en un proceso en segundo plano.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Antes de iniciar el visor, ***debe*** navegar a la pestaña de configuración e ingresar la configuración de su adaptador de interfaz para crear una instancia de bus. Por favor, consulte la [documentación de python-can](https://python-can.readthedocs.io/en/stable/index.html) para obtener más información sobre las diversas interfaces compatibles. "
+      },
+      {
+        "row": 2,
+        "rowsha": "dEohBKKy3zxCGNj3VG0vJsw8OyBAvi2S6p0oKjRmmBU=",
+        "originContent": "Before starting the viewer, you ***must*** navigate to the settings tab and input your interface adapter configuration to create a bus instance. Please refer to the [python-can docs](https://python-can.readthedocs.io/en/stable/index.html) for more information regarding the various interfaces supported. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "La interfaz gráfica también se puede iniciar con una bandera de demostración que seleccionará automáticamente la opción de interfaz virtual y comenzará a transmitir datos CAN simulados en un proceso en segundo plano."
+      },
+      {
+        "row": 4,
+        "rowsha": "E0ai1bx4Fca8JES9YVvbC9cVn6pudVkGgTMh+lxeVxY=",
+        "originContent": "The gui can also be launched with a demo flag which will auto select the virtual interface option and start streaming simulated CAN data in a background process.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```sh \ncan-explorer --demo\n``` ",
+    "ContentSha": "V9zGNMWZxspfIQE9/xOKmAixvGWYEt3B5gXkkhFYKVU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh \ncan-explorer --demo\n``` ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "AndGhQXjxKvvfm1uNXyjHxqoZycMyAn69Avs4x6l97w=",
+        "originContent": "```sh ",
+        "translatedContent": "```sh "
+      },
+      {
+        "row": 2,
+        "rowsha": "GWqPdRADuTeLOf1FajG85MAKCH/B8tgZFEY1Jft7o8o=",
+        "originContent": "can-explorer --demo",
+        "translatedContent": "can-explorer --demo"
+      },
+      {
+        "row": 3,
+        "rowsha": "6l+f1PdAzkOkp8zjbFbdg+1TVGfcHDKpp/EmFpFzj+4=",
+        "originContent": "``` ",
+        "translatedContent": "``` "
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Support\n\nReach out to the maintainer at one of the following places:\n- [GitHub issues](https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)\n- Contact options listed on [this GitHub profile](https://github.com/tbruno25)\n\nIf you want to say **thank you** or/and support active development of can-explorer consider adding a [GitHub Star](https://github.com/tbruno25/can-explorer) to the project.\n\n\n## Contributing\n\nPlease read [our contribution guidelines](https://raw.githubusercontent.com/Tbruno25/can-explorer/main/docs/CONTRIBUTING.md)\n\nFor a full list of all authors and contributors, see [the contributors page](https://github.com/tbruno25/can-explorer/contributors).\n\n## License\n\nThis project is licensed under the **GNU General Public License v3**.\n\nSee [LICENSE](LICENSE) for more information.\n",
+    "ContentSha": "uP23t72TpL0ygQfN7CKNd6XzQT/6aoZH/xQ420EJvPA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Soporte\n\nComunícate con el mantenedor en uno de los siguientes lugares:\n- [Incidencias en GitHub](https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)\n- Opciones de contacto listadas en [este perfil de GitHub](https://github.com/tbruno25)\n\nSi quieres decir **gracias** o/y apoyar el desarrollo activo de can-explorer considera añadir una [Estrella de GitHub](https://github.com/tbruno25/can-explorer) al proyecto.\n\n\n## Contribuciones\n\nPor favor lee [nuestras directrices de contribución](https://raw.githubusercontent.com/Tbruno25/can-explorer/main/docs/CONTRIBUTING.md)\n\nPara una lista completa de todos los autores y colaboradores, consulta [la página de colaboradores](https://github.com/tbruno25/can-explorer/contributors).\n\n## Licencia\n\nEste proyecto está licenciado bajo la **Licencia Pública General GNU v3**.\n\nConsulta [LICENSE](LICENSE) para más información.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Soporte"
+      },
+      {
+        "row": 2,
+        "rowsha": "IomX/Z8fZRvFPjDCjVVFhdA00U2wXcfNBs9BCtGX13M=",
+        "originContent": "## Support",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Comunícate con el mantenedor en uno de los siguientes lugares:"
+      },
+      {
+        "row": 4,
+        "rowsha": "yPqS2YuqFJO2+e3ztuA0uzbONltHGVTDMhOEVTNNX/4=",
+        "originContent": "Reach out to the maintainer at one of the following places:",
+        "translatedContent": "- [Incidencias en GitHub](https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)"
+      },
+      {
+        "row": 5,
+        "rowsha": "N6KoAiQhSVHjr2duQBr/+QwfXZmvpYElaJcSoABwX18=",
+        "originContent": "- [GitHub issues](https://github.com/tbruno25/can-explorer/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)",
+        "translatedContent": "- Opciones de contacto listadas en [este perfil de GitHub](https://github.com/tbruno25)"
+      },
+      {
+        "row": 6,
+        "rowsha": "8fDXpfH+cWw49GMS0GCCMkBrTW4Ie9lreUa/M8bq8fc=",
+        "originContent": "- Contact options listed on [this GitHub profile](https://github.com/tbruno25)",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Si quieres decir **gracias** o/y apoyar el desarrollo activo de can-explorer considera añadir una [Estrella de GitHub](https://github.com/tbruno25/can-explorer) al proyecto."
+      },
+      {
+        "row": 8,
+        "rowsha": "dtdOR6xSmhevJFBUwdixdXqBWR9krLB2nENyngDnxGU=",
+        "originContent": "If you want to say **thank you** or/and support active development of can-explorer consider adding a [GitHub Star](https://github.com/tbruno25/can-explorer) to the project.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Contribuciones"
+      },
+      {
+        "row": 11,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Por favor lee [nuestras directrices de contribución](https://raw.githubusercontent.com/Tbruno25/can-explorer/main/docs/CONTRIBUTING.md)"
+      },
+      {
+        "row": 13,
+        "rowsha": "I6CnYtxfC91ZZYepA1KVpSaxhXJu49QTJvufL1tJLnY=",
+        "originContent": "Please read [our contribution guidelines](https://raw.githubusercontent.com/Tbruno25/can-explorer/main/docs/CONTRIBUTING.md)",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Para una lista completa de todos los autores y colaboradores, consulta [la página de colaboradores](https://github.com/tbruno25/can-explorer/contributors)."
+      },
+      {
+        "row": 15,
+        "rowsha": "fVWuW8gt3skvHDeCNSia49vzvO4m7wBskWjDMroVPgY=",
+        "originContent": "For a full list of all authors and contributors, see [the contributors page](https://github.com/tbruno25/can-explorer/contributors).",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Licencia"
+      },
+      {
+        "row": 17,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Este proyecto está licenciado bajo la **Licencia Pública General GNU v3**."
+      },
+      {
+        "row": 19,
+        "rowsha": "+7jMY/7t+pJy00lqK8ra5xQp15l4u8sbyO57skg6664=",
+        "originContent": "This project is licensed under the **GNU General Public License v3**.",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Consulta [LICENSE](LICENSE) para más información."
+      },
+      {
+        "row": 21,
+        "rowsha": "SBgV+Zyqit+B6p+t1yCRd9gr/cSEoLWUVDS67JW71IQ=",
+        "originContent": "See [LICENSE](LICENSE) for more information.",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

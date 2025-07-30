@@ -1,0 +1,932 @@
+[
+  {
+    "row": 1,
+    "rowsha": "WwiPdU8QnhEVoJfKwkW1ruKuQaKo49CPvh2dZ3OjEFI=",
+    "originContent": "# smart_workspace_switcher.wezterm",
+    "translatedContent": "# smart_workspace_switcher.wezterm"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "bkKl6sT6pJIZMOBujNyEm1HFh9B5qxIODuC1nkNB/VI=",
+    "originContent": "A smart Wezterm workspace switcher inspired by [t-smart-tmux-session-manager](https://github.com/joshmedeski/t-smart-tmux-session-manager) and its successor [sesh](https://github.com/joshmedeski/sesh)",
+    "translatedContent": "Un commutateur intelligent d’espaces de travail Wezterm inspiré par [t-smart-tmux-session-manager](https://github.com/joshmedeski/t-smart-tmux-session-manager) et son successeur [sesh](https://github.com/joshmedeski/sesh)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Utilisation"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "S3YFGZzsvs5PDu9eKMkpyO/XcXhE4nOP/qe/ZQPmphk=",
+    "originContent": "💨 Level up your workflow by switching between workspaces ⚡ ***BLAZINGLY FAST*** ⚡ with 1️⃣ keypress, the power of fuzzy finding and zoxide! 💨",
+    "translatedContent": "💨 Améliorez votre flux de travail en passant d’un espace de travail à un autre ⚡ ***ULTRA RAPIDEMENT*** ⚡ avec 1️⃣ seule pression de touche, la puissance de la recherche floue et zoxide ! 💨"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "Rx0ZZp2Iw7dXa1rFPOeI6EG1KQA1vYRpPA2EuOQA7G4=",
+    "originContent": "![Demo gif](https://github.com/MLFlexer/smart_workspace_switcher.wezterm/assets/75012728/a4f82fcf-5304-4891-a1e2-346767678dc6)",
+    "translatedContent": "![Demo gif](https://github.com/MLFlexer/smart_workspace_switcher.wezterm/assets/75012728/a4f82fcf-5304-4891-a1e2-346767678dc6)"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "1GG6RzhUQg6MWK7hzadJlvIKgJovz9zWw6FnPT8QVK0=",
+    "originContent": "## Dependencies",
+    "translatedContent": "## Dépendances"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "3e+joeBmPAT62uWFu1XRDLafqAGO/CTqnecyqagQSdM=",
+    "originContent": "* zoxide",
+    "translatedContent": "* zoxide"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "iJa409tTUC9P1gTULbIw6Kod+KAUdLl5kgZl7whoChE=",
+    "originContent": "### Setup",
+    "translatedContent": "### Installation"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "A7P2sJZOap8AO1IGFPcIEzWdUiaHcvb7ufyP8byNyTY=",
+    "originContent": "1. Require the plugin:",
+    "translatedContent": "1. Inclure le plugin :"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "Du0FLdbotKBEyhwhz2igBFsSzEQlgAvSNq6mJztKOaw=",
+    "originContent": "    ```lua",
+    "translatedContent": "    ```lua"
+  },
+  {
+    "row": 20,
+    "rowsha": "Umw5IBHv3BIsXqMlLX9bTSfueZdifsfWl5j8iReVd9g=",
+    "originContent": "    local wezterm = require(\"wezterm\")",
+    "translatedContent": "    local wezterm = require(\"wezterm\")"
+  },
+  {
+    "row": 21,
+    "rowsha": "YkmXYXQgTJstR6z0IYcK3izc/2ILkX2zdCQZBZfeTo4=",
+    "originContent": "    local workspace_switcher = wezterm.plugin.require(\"https://github.com/MLFlexer/smart_workspace_switcher.wezterm\")",
+    "translatedContent": "    local workspace_switcher = wezterm.plugin.require(\"https://github.com/MLFlexer/smart_workspace_switcher.wezterm\")"
+  },
+  {
+    "row": 22,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "UxSFk+Mi95PhlgAnXIHZMnOgF7nZMFoPZ2nvK1zNgxM=",
+    "originContent": "2. Apply the default keybinding to the config:",
+    "translatedContent": "2. Appliquer le raccourci clavier par défaut à la configuration :"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "Du0FLdbotKBEyhwhz2igBFsSzEQlgAvSNq6mJztKOaw=",
+    "originContent": "    ```lua",
+    "translatedContent": "    ```lua"
+  },
+  {
+    "row": 27,
+    "rowsha": "OXdR7m/xsX+JL2QNblO5T00P/3Ud4EG/LEuFtamPCZo=",
+    "originContent": "    workspace_switcher.apply_to_config(config)",
+    "translatedContent": "    workspace_switcher.apply_to_config(config)"
+  },
+  {
+    "row": 28,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "8tjEmnw8l/likOwaku3sX2ujymkhm0kgi26KZoPLGFM=",
+    "originContent": "Or create your own keybinding, see [Configuration - Keybinding](#Keybinding).",
+    "translatedContent": "Ou créez votre propre raccourci clavier, voir [Configuration - Raccourci clavier](#Keybinding)."
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "vFENsDYBe7wTFEvBCe8YAHHuTp1D4UWzYLqJqhg/4bM=",
+    "originContent": "### Configuration:",
+    "translatedContent": "### Configuration :"
+  },
+  {
+    "row": 33,
+    "rowsha": "ScsL/2HmlobSGaACde+5I27M0WUAPSV2gJXHwvB6MZk=",
+    "originContent": "#### Keybinding",
+    "translatedContent": "#### Raccourci clavier"
+  },
+  {
+    "row": 34,
+    "rowsha": "aaD5ZSPO3N/5D30wfjN4S3gFuwvzSsK7FJl/CAumwqk=",
+    "originContent": "To add a custom keybinding:",
+    "translatedContent": "Pour ajouter un raccourci clavier personnalisé :"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "9jGKOrTdjHKXUwbKDTRWV4P9xoU0TKx/iyx1ymdo9Z8=",
+    "originContent": "  ```lua",
+    "translatedContent": "  ```lua"
+  },
+  {
+    "row": 37,
+    "rowsha": "GMtzyCiR1T/xxvaShkSVFgy/ZAnR8J6SYIvokwG0oZk=",
+    "originContent": "  config.keys = {",
+    "translatedContent": "  config.keys = {"
+  },
+  {
+    "row": 38,
+    "rowsha": "S9nM8pea4cKgY0sG53qCt/ZclLVKA2hlbJdkHdiwagU=",
+    "originContent": "    -- ...",
+    "translatedContent": "    -- ..."
+  },
+  {
+    "row": 39,
+    "rowsha": "ZmvnynYep2OJ17QtuSU9Nb3PoLzzh8O2YID1DiCfZA8=",
+    "originContent": "    -- your other keybindings",
+    "translatedContent": "    -- your other keybindings"
+  },
+  {
+    "row": 40,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 41,
+    "rowsha": "EUas8hyGwImu9vbSFo/C7neOkpiIscBgKkltRQmucIk=",
+    "originContent": "      key = \"s\",",
+    "translatedContent": "      key = \"s\","
+  },
+  {
+    "row": 42,
+    "rowsha": "0agF9eLxKpGYvfoE71avEwn/r1bBdkX+Ne71dnNK50I=",
+    "originContent": "      mods = \"LEADER\",",
+    "translatedContent": "      mods = \"LEADER\","
+  },
+  {
+    "row": 43,
+    "rowsha": "MXSz8+dk6oWbo8L8utlhvHDJq4HSyzQkeI//v05SP+s=",
+    "originContent": "      action = workspace_switcher.switch_workspace(),",
+    "translatedContent": "      action = workspace_switcher.switch_workspace(),"
+  },
+  {
+    "row": 44,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 45,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 46,
+    "rowsha": "Kd/GROzTsD71tbA6YZFlmjT8hasQOetNjJo4S5ZP0og=",
+    "originContent": "      key = \"S\",",
+    "translatedContent": "      key = \"S\","
+  },
+  {
+    "row": 47,
+    "rowsha": "0agF9eLxKpGYvfoE71avEwn/r1bBdkX+Ne71dnNK50I=",
+    "originContent": "      mods = \"LEADER\",",
+    "translatedContent": "      mods = \"LEADER\","
+  },
+  {
+    "row": 48,
+    "rowsha": "N5q3q8nfcIHPChUaGPtXfhwbeY/Qp/DJcGW8oNg0/cY=",
+    "originContent": "      action = workspace_switcher.switch_to_prev_workspace(),",
+    "translatedContent": "      action = workspace_switcher.switch_to_prev_workspace(),"
+  },
+  {
+    "row": 49,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 50,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 51,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "pUyTZyhjfeTB0Iux7loZsPp0OhKWrO39ulj7G6iVL2A=",
+    "originContent": "#### Changing the Default Workspace Name",
+    "translatedContent": "#### Changer le nom de l’espace de travail par défaut"
+  },
+  {
+    "row": 54,
+    "rowsha": "1C4E8M3BX0p0qtlED9aC+sJi29uJoKoJ9nZRBGumJvI=",
+    "originContent": "You can set a default workspace name:",
+    "translatedContent": "Vous pouvez définir un nom d’espace de travail par défaut :"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 57,
+    "rowsha": "GjtYNkIi/HiQ0ZHB7j8YF6BQ0gqw1+zxgq+zI+MmGv4=",
+    "originContent": "config.default_workspace = \"~\"",
+    "translatedContent": "config.default_workspace = \"~\""
+  },
+  {
+    "row": 58,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "a65xZNAfONsZ2sd4SZp8AF5qehcrGv2iKC0uTssWo3w=",
+    "originContent": "#### Additional Filtering",
+    "translatedContent": "#### Filtrage supplémentaire"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "0q/uTTVDmQyE53Vymuw/wBeJ2bNZkwGb9nLSfXNmB/8=",
+    "originContent": "You can include `extra_args` in the call to `switch_workspace` to filter the results of the zoxide query further. The `extra_args` is just a string concatenated to the command like so: `zoxide query -l <extra_args>`. For example, to select projects from a predefined list in `~/.projects`, call the plugin like this:",
+    "translatedContent": "Vous pouvez inclure `extra_args` dans l'appel à `switch_workspace` pour affiner davantage les résultats de la requête zoxide. Le `extra_args` est simplement une chaîne de caractères concaténée à la commande comme ceci : `zoxide query -l <extra_args>`. Par exemple, pour sélectionner des projets à partir d'une liste prédéfinie dans `~/.projects`, appelez le plugin ainsi :"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "9jGKOrTdjHKXUwbKDTRWV4P9xoU0TKx/iyx1ymdo9Z8=",
+    "originContent": "  ```lua",
+    "translatedContent": "  ```lua"
+  },
+  {
+    "row": 65,
+    "rowsha": "kEAPGFWtEdn/6tnRHlHjb1/VSS9JfADE5O9jJeuIJi0=",
+    "originContent": "  workspace_switcher.switch_workspace({ extra_args = \" | rg -Fxf ~/.projects\" })",
+    "translatedContent": "  workspace_switcher.switch_workspace({ extra_args = \" | rg -Fxf ~/.projects\" })"
+  },
+  {
+    "row": 66,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "Xr3LagaDWvNkf3vvzhJ8sCxAbUeMKF3ZgfcCbVxoFJI=",
+    "originContent": "#### Changing elements of the fuzzy finder",
+    "translatedContent": "#### Modifier les éléments du sélecteur flou"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "obT0J0bcpigbR2WfHZdTaJkW2hD3jq9sYO4/0kkewH8=",
+    "originContent": "You can change the list of elements of the fuzzy finder by setting a new function for `get_choices` likes so:",
+    "translatedContent": "Vous pouvez modifier la liste des éléments du sélecteur flou en définissant une nouvelle fonction pour `get_choices` comme suit :"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 73,
+    "rowsha": "3Ji9fEpdEl8E28eTtBeaF6B9jloqxiOzo357+LHyE1c=",
+    "originContent": "local workspace_switcher = wezterm.plugin.require(\"https://github.com/MLFlexer/smart_workspace_switcher.wezterm\")",
+    "translatedContent": "local workspace_switcher = wezterm.plugin.require(\"https://github.com/MLFlexer/smart_workspace_switcher.wezterm\")"
+  },
+  {
+    "row": 74,
+    "rowsha": "AQXEAPjnkK4k9wwBjPSPJ5Ang8i0S6zY/iaz75E0qfU=",
+    "originContent": "workspace_switcher.get_choices = function(opts)",
+    "translatedContent": "workspace_switcher.get_choices = function(opts)"
+  },
+  {
+    "row": 75,
+    "rowsha": "7sG83bKLPau7kLIalLHh0QiDbr6zfAXo2h7wd3Ry7Ww=",
+    "originContent": "  -- this will ONLY show the workspace elements, NOT the Zoxide results",
+    "translatedContent": "  -- this will ONLY show the workspace elements, NOT the Zoxide results"
+  },
+  {
+    "row": 76,
+    "rowsha": "7o8dDNL5Uybqufzd2+NOQMNyPmFMQgSXAWVbPNNgF+c=",
+    "originContent": "  return workspace_switcher.choices.get_workspace_elements({})",
+    "translatedContent": "  return workspace_switcher.choices.get_workspace_elements({})"
+  },
+  {
+    "row": 77,
+    "rowsha": "Nh5I0DCPIOMtul+1Yyi68Y1y7wzLQ7hPXCYtKmofxsg=",
+    "originContent": "end",
+    "translatedContent": "end"
+  },
+  {
+    "row": 78,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Par défaut, la fonction utilise les fonctions suivantes pour créer une liste :"
+  },
+  {
+    "row": 80,
+    "rowsha": "7MNdS2Jgdfj7k9ExJsDxPRhc+mwjrBWUJK5MR2SzT5o=",
+    "originContent": "By default the function uses the following functions to create a list:",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 83,
+    "rowsha": "D6slR0Lyy3ylPJyHf5QIN5ySpx3giA4UHPXgoqeaJNI=",
+    "originContent": "workspace_switcher.choices.get_workspace_elements({ id: string, label: string }[])",
+    "translatedContent": "workspace_switcher.choices.get_workspace_elements({ id: string, label: string }[])"
+  },
+  {
+    "row": 84,
+    "rowsha": "FtYfFQgoWk4pizNpDVEPHyJF082xko7oShlRynNgpnc=",
+    "originContent": "workspace_switcher.choices.get_zoxide_elements({ id: string, label: string }[], {extra_args?: string, workspace_ids?: workspace_ids}?)",
+    "translatedContent": "workspace_switcher.choices.get_zoxide_elements({ id: string, label: string }[], {extra_args?: string, workspace_ids?: workspace_ids}?)"
+  },
+  {
+    "row": 85,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "SoW/2XKxqF3bam2zGtKrSpxq3a1/bI8FNdgtK9khxKI=",
+    "originContent": "#### Updating the Right Status with the Path",
+    "translatedContent": "#### Mise à jour du statut droit avec le chemin"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "efi6oGC0YMhB6JaX59vwldCkAT4prt4q9/rJRwHxKRQ=",
+    "originContent": "To add the selected path to the right status bar, use the `smart_workspace_switcher.workspace_switcher.chosen` event emitted when choosing a workspace:",
+    "translatedContent": "Pour ajouter le chemin sélectionné à la barre d’état droite, utilisez l’événement `smart_workspace_switcher.workspace_switcher.chosen` émis lors du choix d’un espace de travail :"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "9jGKOrTdjHKXUwbKDTRWV4P9xoU0TKx/iyx1ymdo9Z8=",
+    "originContent": "  ```lua",
+    "translatedContent": "  ```lua"
+  },
+  {
+    "row": 92,
+    "rowsha": "NA1JU1nqPer+JewjBkKrz4VhrcZv4jhpbMj6eMT2X4s=",
+    "originContent": "  wezterm.on(\"smart_workspace_switcher.workspace_switcher.chosen\", function(window, workspace)",
+    "translatedContent": "  wezterm.on(\"smart_workspace_switcher.workspace_switcher.chosen\", function(window, workspace)"
+  },
+  {
+    "row": 93,
+    "rowsha": "d9qSn84xRTL2zTTcCw7g5lzAWpkDQ5aoquRkdugNg7k=",
+    "originContent": "    local gui_win = window:gui_window()",
+    "translatedContent": "    local gui_win = window:gui_window()"
+  },
+  {
+    "row": 94,
+    "rowsha": "QWODcDTqdRWRgWJkPfUwCh/G5ev6EibVphlOPEVNLck=",
+    "originContent": "    local base_path = string.gsub(workspace, \"(.*[/\\\\])(.*)\", \"%2\")",
+    "translatedContent": "    local base_path = string.gsub(workspace, \"(.*[/\\\\])(.*)\", \"%2\")"
+  },
+  {
+    "row": 95,
+    "rowsha": "hnZVj1e4UmPUhUIRAi+qsL7SYNccj5vDa8aduiW/uFI=",
+    "originContent": "    gui_win:set_right_status(wezterm.format({",
+    "translatedContent": "    gui_win:set_right_status(wezterm.format({"
+  },
+  {
+    "row": 96,
+    "rowsha": "YaTufzKAOHaO/EqR2t6Hg0nWrHO2G7N+jN1TRab/umM=",
+    "originContent": "      { Foreground = { Color = \"green\" } },",
+    "translatedContent": "      { Foreground = { Color = \"green\" } },"
+  },
+  {
+    "row": 97,
+    "rowsha": "Q+uFhNcxWYzn/++kzmrEBMy6gtF2HtVisodeEjr9v6o=",
+    "originContent": "      { Text = base_path .. \"  \" },",
+    "translatedContent": "      { Text = base_path .. \"  \" },"
+  },
+  {
+    "row": 98,
+    "rowsha": "bMayLtez+i+CTp3HTNxP1DR+V0VZ1D4mAxDFxZXhtiM=",
+    "originContent": "    }))",
+    "translatedContent": "    }))"
+  },
+  {
+    "row": 99,
+    "rowsha": "sJO52Z6QY2AIXIwcAr/T6lJLuYnP70JCEgNtOijZ9bY=",
+    "originContent": "  end)",
+    "translatedContent": "  end)"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "dFhmgRi2Iyc01A7BvYSTq56Ckx9SCPJ/6s7RbROP0IM=",
+    "originContent": "  wezterm.on(\"smart_workspace_switcher.workspace_switcher.created\", function(window, workspace)",
+    "translatedContent": "  wezterm.on(\"smart_workspace_switcher.workspace_switcher.created\", function(window, workspace)"
+  },
+  {
+    "row": 102,
+    "rowsha": "d9qSn84xRTL2zTTcCw7g5lzAWpkDQ5aoquRkdugNg7k=",
+    "originContent": "    local gui_win = window:gui_window()",
+    "translatedContent": "    local gui_win = window:gui_window()"
+  },
+  {
+    "row": 103,
+    "rowsha": "QWODcDTqdRWRgWJkPfUwCh/G5ev6EibVphlOPEVNLck=",
+    "originContent": "    local base_path = string.gsub(workspace, \"(.*[/\\\\])(.*)\", \"%2\")",
+    "translatedContent": "    local base_path = string.gsub(workspace, \"(.*[/\\\\])(.*)\", \"%2\")"
+  },
+  {
+    "row": 104,
+    "rowsha": "hnZVj1e4UmPUhUIRAi+qsL7SYNccj5vDa8aduiW/uFI=",
+    "originContent": "    gui_win:set_right_status(wezterm.format({",
+    "translatedContent": "    gui_win:set_right_status(wezterm.format({"
+  },
+  {
+    "row": 105,
+    "rowsha": "YaTufzKAOHaO/EqR2t6Hg0nWrHO2G7N+jN1TRab/umM=",
+    "originContent": "      { Foreground = { Color = \"green\" } },",
+    "translatedContent": "      { Foreground = { Color = \"green\" } },"
+  },
+  {
+    "row": 106,
+    "rowsha": "Q+uFhNcxWYzn/++kzmrEBMy6gtF2HtVisodeEjr9v6o=",
+    "originContent": "      { Text = base_path .. \"  \" },",
+    "translatedContent": "      { Text = base_path .. \"  \" },"
+  },
+  {
+    "row": 107,
+    "rowsha": "bMayLtez+i+CTp3HTNxP1DR+V0VZ1D4mAxDFxZXhtiM=",
+    "originContent": "    }))",
+    "translatedContent": "    }))"
+  },
+  {
+    "row": 108,
+    "rowsha": "sJO52Z6QY2AIXIwcAr/T6lJLuYnP70JCEgNtOijZ9bY=",
+    "originContent": "  end)",
+    "translatedContent": "  end)"
+  },
+  {
+    "row": 109,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "/twrvDGKCG1ctUpx/caMFWNDvVHAZe5FdYzNBUx+yL0=",
+    "originContent": "#### Events",
+    "translatedContent": "#### Événements"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "EUyusmjF5D+D+Rx2hMFzDfwZpbE9pZ44QB1VcnKbWpY=",
+    "originContent": "The following events are available and can be used to trigger custom behavior:",
+    "translatedContent": "Les événements suivants sont disponibles et peuvent être utilisés pour déclencher un comportement personnalisé :"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "vmjG4GWc/yr4AgSYOL8nwyGxfXeGt/x5yG5R6JTTZCY=",
+    "originContent": "* `smart_workspace_switcher.workspace_switcher.start` - Triggered when the fuzzy finder starts.",
+    "translatedContent": "* `smart_workspace_switcher.workspace_switcher.start` - Déclenché lorsque le chercheur flou démarre."
+  },
+  {
+    "row": 116,
+    "rowsha": "8VLb8A+UgqOKR5vYLhJ48oFU3ow9T3yiNIkxpYPXJXQ=",
+    "originContent": "* `smart_workspace_switcher.workspace_switcher.canceled` - Triggered if no element is chosen.",
+    "translatedContent": "* `smart_workspace_switcher.workspace_switcher.canceled` - Déclenché si aucun élément n'est choisi."
+  },
+  {
+    "row": 117,
+    "rowsha": "bWG/1eQn3fbnj/d/Kfty44/7ZDAkVzGsSK/C3OlrCW4=",
+    "originContent": "* `smart_workspace_switcher.workspace_switcher.selected` - Triggered when an element is selected.",
+    "translatedContent": "* `smart_workspace_switcher.workspace_switcher.selected` - Déclenché lorsqu'un élément est sélectionné."
+  },
+  {
+    "row": 118,
+    "rowsha": "mLqWz12n7vJEX9TpGWLvW9fcKrnX7dZlYy6aD/lqICY=",
+    "originContent": "* `smart_workspace_switcher.workspace_switcher.created` - Triggered after creating and switching to a new workspace.",
+    "translatedContent": "* `smart_workspace_switcher.workspace_switcher.created` - Déclenché après la création et le changement vers un nouvel espace de travail."
+  },
+  {
+    "row": 119,
+    "rowsha": "MMMAM3/G8aTO2qp5qtBMGfCHOXOGPDmRZtX45ePw6cE=",
+    "originContent": "* `smart_workspace_switcher.workspace_switcher.chosen` - Triggered after switching to a workspace.",
+    "translatedContent": "* `smart_workspace_switcher.workspace_switcher.chosen` - Déclenché après le changement vers un espace de travail."
+  },
+  {
+    "row": 120,
+    "rowsha": "0ZjihrVTSG7LAzPmFxJo5HXwZRbv5iX66GGa4mPpoiI=",
+    "originContent": "* `smart_workspace_switcher.workspace_switcher.switched_to_prev` - Triggered after switching to a previous workspace.",
+    "translatedContent": "* `smart_workspace_switcher.workspace_switcher.switched_to_prev` - Déclenché après le changement vers un espace de travail précédent."
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+    "originContent": "> [!NOTE]",
+    "translatedContent": "> [!NOTE]"
+  },
+  {
+    "row": 123,
+    "rowsha": "C00Fawr4SgFzixh6j3baZg4HvZzVXAKESJFYMD2siZc=",
+    "originContent": "> The `created` and `chosen` events emit [MuxWindow](https://wezfurlong.org/wezterm/config/lua/mux-window/) objects while the others emit [GuiWindow](https://wezfurlong.org/wezterm/config/lua/window/index.html) objects. ",
+    "translatedContent": "> Les événements `created` et `chosen` émettent des objets [MuxWindow](https://wezfurlong.org/wezterm/config/lua/mux-window/) tandis que les autres émettent des objets [GuiWindow](https://wezfurlong.org/wezterm/config/lua/window/index.html)."
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "Ie3fC6uOty9mB4oQfaJ9k8YiG/UGN0yEppO7S18VmDw=",
+    "originContent": "Example usage:",
+    "translatedContent": "Exemple d'utilisation :"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "9jGKOrTdjHKXUwbKDTRWV4P9xoU0TKx/iyx1ymdo9Z8=",
+    "originContent": "  ```lua",
+    "translatedContent": "  ```lua"
+  },
+  {
+    "row": 128,
+    "rowsha": "NA1JU1nqPer+JewjBkKrz4VhrcZv4jhpbMj6eMT2X4s=",
+    "originContent": "  wezterm.on(\"smart_workspace_switcher.workspace_switcher.chosen\", function(window, workspace)",
+    "translatedContent": "  wezterm.on(\"smart_workspace_switcher.workspace_switcher.chosen\", function(window, workspace)"
+  },
+  {
+    "row": 129,
+    "rowsha": "ThM6Kd/Q4SWarSRIi9Z7p5v9GQHbkOzJWipCAuN2FEM=",
+    "originContent": "    wezterm.log_info(\"THIS IS EMITTED FROM THE CALLBACK\")",
+    "translatedContent": "    wezterm.log_info(\"THIS IS EMITTED FROM THE CALLBACK\")"
+  },
+  {
+    "row": 130,
+    "rowsha": "sJO52Z6QY2AIXIwcAr/T6lJLuYnP70JCEgNtOijZ9bY=",
+    "originContent": "  end)",
+    "translatedContent": "  end)"
+  },
+  {
+    "row": 131,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "fWgBf/6lG8OSoZ1p5FEQLr1I4S9nPPkDN+vja95RsrE=",
+    "originContent": "#### Workspace Formatter",
+    "translatedContent": "#### Formateur d’espace de travail"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "86zciN6bNGrPkVsfRHONLvPsVvdQf+DWhWeKAP3dARs=",
+    "originContent": "Set a custom workspace formatter using the following example. For more information, see the [Wezterm formatting docs](https://wezfurlong.org/wezterm/config/lua/wezterm/format.html):",
+    "translatedContent": "Définissez un formateur d’espace de travail personnalisé en utilisant l’exemple suivant. Pour plus d’informations, consultez la [documentation de formatage Wezterm](https://wezfurlong.org/wezterm/config/lua/wezterm/format.html) :"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "9jGKOrTdjHKXUwbKDTRWV4P9xoU0TKx/iyx1ymdo9Z8=",
+    "originContent": "  ```lua",
+    "translatedContent": "  ```lua"
+  },
+  {
+    "row": 138,
+    "rowsha": "4kluS3c9E2jjkM+L6morcPv2ZkR6X2dKGRUdJtQSWvY=",
+    "originContent": "  workspace_switcher.workspace_formatter = function(label)",
+    "translatedContent": "  workspace_switcher.workspace_formatter = function(label)"
+  },
+  {
+    "row": 139,
+    "rowsha": "PI1Oe8AIsyiQ795yWoeMD/ashpDhzAa7+CbGolesfVM=",
+    "originContent": "    return wezterm.format({",
+    "translatedContent": "    return wezterm.format({"
+  },
+  {
+    "row": 140,
+    "rowsha": "8Wm6lipEeVwnSYFlh48tm6QXrUXr9m+04ahdMH36Ts8=",
+    "originContent": "      { Attribute = { Italic = true } },",
+    "translatedContent": "      { Attribute = { Italic = true } },"
+  },
+  {
+    "row": 141,
+    "rowsha": "YaTufzKAOHaO/EqR2t6Hg0nWrHO2G7N+jN1TRab/umM=",
+    "originContent": "      { Foreground = { Color = \"green\" } },",
+    "translatedContent": "      { Foreground = { Color = \"green\" } },"
+  },
+  {
+    "row": 142,
+    "rowsha": "fmxq3ZzqSuvAITcb+ne6/GdxvMSJBERRkG2TJclE3JE=",
+    "originContent": "      { Background = { Color = \"black\" } },",
+    "translatedContent": "      { Background = { Color = \"black\" } },"
+  },
+  {
+    "row": 143,
+    "rowsha": "O4YEnNGOSavmwgRr3w2iHh8GPHsbt38vxqSFzmZPueU=",
+    "originContent": "      { Text = \"󱂬: \" .. label },",
+    "translatedContent": "      { Text = \"󱂬: \" .. label },"
+  },
+  {
+    "row": 144,
+    "rowsha": "odBdVYeaD6cbal1IjtFl4g+1UKhbjDBNurRPY9Ce3gA=",
+    "originContent": "    })",
+    "translatedContent": "    })"
+  },
+  {
+    "row": 145,
+    "rowsha": "SNNEvL0VmogGoy/zRyjZEOiUaGkA2VqmSA26jTm2p+o=",
+    "originContent": "  end",
+    "translatedContent": "  end"
+  },
+  {
+    "row": 146,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "46qm+YQGv0F+2vlgqoDX+EOM5HcxFXyqW6Q6+fl2VAI=",
+    "originContent": "#### Zoxide Path",
+    "translatedContent": "#### Chemin Zoxide"
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "dMWC6hsGHaj8400EONFgebAY7RIk1vNNKRTN9MNcwqg=",
+    "originContent": "To define a custom path to `zoxide`:",
+    "translatedContent": "Pour définir un chemin personnalisé vers `zoxide` :"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "9jGKOrTdjHKXUwbKDTRWV4P9xoU0TKx/iyx1ymdo9Z8=",
+    "originContent": "  ```lua",
+    "translatedContent": "  ```lua"
+  },
+  {
+    "row": 153,
+    "rowsha": "qPIRdxCR80ywA9cFON0b5eR9WXg23wZD1qkAjP3N+jM=",
+    "originContent": "  workspace_switcher.zoxide_path = \"/path/to/zoxide\"",
+    "translatedContent": "  workspace_switcher.zoxide_path = \"/path/to/zoxide\""
+  },
+  {
+    "row": 154,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

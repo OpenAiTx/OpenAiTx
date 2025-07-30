@@ -1,0 +1,787 @@
+[
+  {
+    "Id": 1,
+    "Content": "# AnimateAnything: Consistent and Controllable Animation for video generation (Cvpr2025)\n\n  <div class=\"is-flex is-justify-content-center\">\n    <ul class=\"icon-list\">\n        <li>\n            <a target=\"_blank\" href=\"https://arxiv.org/pdf/2411.10836\">\n                <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/arxiv.png\" width=\"25px\" alt=\"arXiv\" class=\"icon\"> arXiv\n                    <!-- <h4><strong>arXiv</strong></h4> -->\n            </a>\n        </li>\n        <li>\n            <a target=\"_blank\" href=\"https://arxiv.org/pdf/2411.10836\">\n                <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/book_logo.png\" width=\"25px\" alt=\"Paper\" class=\"icon\"> Paper\n                    <!-- <h4><strong>arXiv</strong></h4> -->\n            </a>\n        </li>\n    <li>\n        <a target=\"_blank\" href=\"https://yu-shaonian.github.io/Animate_Anything/\">\n            <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/hf-logo.png\" width=\"25px\" alt=\"Code\" \t\t\tclass=\"icon\">Huggingface\n            <!-- <h4><strong>Github</strong></h4> -->\n        </a>\n    </li>           \n    <li>\n        <a target=\"_blank\" href=\"https://yu-shaonian.github.io/Animate_Anything/\">\n            <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/github.png\" width=\"25px\" alt=\"Project Page\" class=\"icon\"> Project Page\n                <!-- <h4><strong>Github</strong></h4> -->\n        </a>\n    </li> \n\n\n\n## OverView\n\n![image-20241115035450490](https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/teaser.png)\n\n![image-20241115035450490](https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/pipeline.png)\n\n## Project Updates\n\n- 🔥🔥 We finished **camera trajectory Control**\n- 🔥🔥 We finished the **User Annotation** to guide the video generation\n- 🔥🔥 We finished **human animation**\n- 🔥🔥 We finshed **video transfering** from a reference image\n- ......... And More\n\n## Quick Start\n\n### Diffusers\n\n**Please make sure your Python version is between 3.10 and 3.12, inclusive of both 3.10 and 3.12.**\n",
+    "ContentSha": "iHflk2Mf1fmMaTe0sbYy7N+One1u10fSNpCKo/Thn80=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# AnimateAnything: Animación Consistente y Controlable para generación de video (Cvpr2025)\n\n  <div class=\"is-flex is-justify-content-center\">\n    <ul class=\"icon-list\">\n        <li>\n            <a target=\"_blank\" href=\"https://arxiv.org/pdf/2411.10836\">\n                <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/arxiv.png\" width=\"25px\" alt=\"arXiv\" class=\"icon\"> arXiv\n                    <!-- <h4><strong>arXiv</strong></h4> -->\n            </a>\n        </li>\n        <li>\n            <a target=\"_blank\" href=\"https://arxiv.org/pdf/2411.10836\">\n                <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/book_logo.png\" width=\"25px\" alt=\"Paper\" class=\"icon\"> Artículo\n                    <!-- <h4><strong>arXiv</strong></h4> -->\n            </a>\n        </li>\n    <li>\n        <a target=\"_blank\" href=\"https://yu-shaonian.github.io/Animate_Anything/\">\n            <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/hf-logo.png\" width=\"25px\" alt=\"Code\" \t\t\tclass=\"icon\">Huggingface\n            <!-- <h4><strong>Github</strong></h4> -->\n        </a>\n    </li>           \n    <li>\n        <a target=\"_blank\" href=\"https://yu-shaonian.github.io/Animate_Anything/\">\n            <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/github.png\" width=\"25px\" alt=\"Project Page\" class=\"icon\"> Página del Proyecto\n                <!-- <h4><strong>Github</strong></h4> -->\n        </a>\n    </li> \n\n\n\n## Visión General\n\n![image-20241115035450490](https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/teaser.png)\n\n![image-20241115035450490](https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/pipeline.png)\n\n## Actualizaciones del Proyecto\n\n- 🔥🔥 Hemos terminado el **Control de trayectoria de cámara**\n- 🔥🔥 Hemos terminado la **Anotación del Usuario** para guiar la generación de video\n- 🔥🔥 Hemos terminado la **animación humana**\n- 🔥🔥 Hemos terminado la **transferencia de video** desde una imagen de referencia\n- ......... Y Más\n\n## Inicio Rápido\n\n### Diffusers\n\n**Por favor asegúrese que su versión de Python esté entre 3.10 y 3.12, inclusive 3.10 y 3.12.**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ryvttOQ3o8XO1FUCiiu+g6SQy9Sf+WY5JoiB9HCs2zc=",
+        "originContent": "# AnimateAnything: Consistent and Controllable Animation for video generation (Cvpr2025)",
+        "translatedContent": "# AnimateAnything: Animación Consistente y Controlable para generación de video (Cvpr2025)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "d8rIBGzOKJaMpXgYTM06bg00P2lNwkEMOtHR+BPc+hU=",
+        "originContent": "  <div class=\"is-flex is-justify-content-center\">",
+        "translatedContent": "  <div class=\"is-flex is-justify-content-center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "uBaukvicH1Bdeyn01xCdBTvEqVVNJUUlRNF2fkGOzSw=",
+        "originContent": "    <ul class=\"icon-list\">",
+        "translatedContent": "    <ul class=\"icon-list\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "a7lYpAG/UAmXjL+3K2saqIt9ALhjjRl6E1EXCCV/EaE=",
+        "originContent": "        <li>",
+        "translatedContent": "        <li>"
+      },
+      {
+        "row": 6,
+        "rowsha": "EdA00ifvc7gjHKxAqIRkBBKlutDDzvDSmRkr0+1U3lk=",
+        "originContent": "            <a target=\"_blank\" href=\"https://arxiv.org/pdf/2411.10836\">",
+        "translatedContent": "            <a target=\"_blank\" href=\"https://arxiv.org/pdf/2411.10836\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "I7Ht17KRP3/rNi8ShUu5qXrWKCqNeRFaWRrbjcbKNSU=",
+        "originContent": "                <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/arxiv.png\" width=\"25px\" alt=\"arXiv\" class=\"icon\"> arXiv",
+        "translatedContent": "                <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/arxiv.png\" width=\"25px\" alt=\"arXiv\" class=\"icon\"> arXiv"
+      },
+      {
+        "row": 8,
+        "rowsha": "zzTnA4YAzjCJ76Y6rpG7jF0CBWv+TpKSCF5+dYLcDig=",
+        "originContent": "                    <!-- <h4><strong>arXiv</strong></h4> -->",
+        "translatedContent": "                    <!-- <h4><strong>arXiv</strong></h4> -->"
+      },
+      {
+        "row": 9,
+        "rowsha": "/EHk5ScKYvFlDoRog815uDDb5M40F7b2EN716dcX0OM=",
+        "originContent": "            </a>",
+        "translatedContent": "            </a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "5yAan6gOQalQd8NW/vfaO/XUhspx1iAQ70t0TskYaXI=",
+        "originContent": "        </li>",
+        "translatedContent": "        </li>"
+      },
+      {
+        "row": 11,
+        "rowsha": "a7lYpAG/UAmXjL+3K2saqIt9ALhjjRl6E1EXCCV/EaE=",
+        "originContent": "        <li>",
+        "translatedContent": "        <li>"
+      },
+      {
+        "row": 12,
+        "rowsha": "EdA00ifvc7gjHKxAqIRkBBKlutDDzvDSmRkr0+1U3lk=",
+        "originContent": "            <a target=\"_blank\" href=\"https://arxiv.org/pdf/2411.10836\">",
+        "translatedContent": "            <a target=\"_blank\" href=\"https://arxiv.org/pdf/2411.10836\">"
+      },
+      {
+        "row": 13,
+        "rowsha": "DRS/HesuwHNFfPNEic7EsA7EDqbQfXjYye3pbwbZ9ZQ=",
+        "originContent": "                <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/book_logo.png\" width=\"25px\" alt=\"Paper\" class=\"icon\"> Paper",
+        "translatedContent": "                <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/book_logo.png\" width=\"25px\" alt=\"Paper\" class=\"icon\"> Artículo"
+      },
+      {
+        "row": 14,
+        "rowsha": "zzTnA4YAzjCJ76Y6rpG7jF0CBWv+TpKSCF5+dYLcDig=",
+        "originContent": "                    <!-- <h4><strong>arXiv</strong></h4> -->",
+        "translatedContent": "                    <!-- <h4><strong>arXiv</strong></h4> -->"
+      },
+      {
+        "row": 15,
+        "rowsha": "/EHk5ScKYvFlDoRog815uDDb5M40F7b2EN716dcX0OM=",
+        "originContent": "            </a>",
+        "translatedContent": "            </a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "5yAan6gOQalQd8NW/vfaO/XUhspx1iAQ70t0TskYaXI=",
+        "originContent": "        </li>",
+        "translatedContent": "        </li>"
+      },
+      {
+        "row": 17,
+        "rowsha": "hUkmZiF4TfKbTKkYvwXwsAVKnxceo4y1pixukQ/6C64=",
+        "originContent": "    <li>",
+        "translatedContent": "    <li>"
+      },
+      {
+        "row": 18,
+        "rowsha": "WvfIWhBWVQSvBXi1ZJu3pwYlNW2oqd4aw1hwR/cuv80=",
+        "originContent": "        <a target=\"_blank\" href=\"https://yu-shaonian.github.io/Animate_Anything/\">",
+        "translatedContent": "        <a target=\"_blank\" href=\"https://yu-shaonian.github.io/Animate_Anything/\">"
+      },
+      {
+        "row": 19,
+        "rowsha": "/1PnG5kdKQpQItc9teNs7xWvM81qh5Q6diQRaUoPRCE=",
+        "originContent": "            <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/hf-logo.png\" width=\"25px\" alt=\"Code\" \t\t\tclass=\"icon\">Huggingface",
+        "translatedContent": "            <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/hf-logo.png\" width=\"25px\" alt=\"Code\" \t\t\tclass=\"icon\">Huggingface"
+      },
+      {
+        "row": 20,
+        "rowsha": "y3qtRH0cdNZ/J8isipnqySoAkNGA5QN9i+1kbrkxRG4=",
+        "originContent": "            <!-- <h4><strong>Github</strong></h4> -->",
+        "translatedContent": "            <!-- <h4><strong>Github</strong></h4> -->"
+      },
+      {
+        "row": 21,
+        "rowsha": "Co3B6EpwXcCQtOdLkatevFO6yLSSUKD+qxCcJXUMyWU=",
+        "originContent": "        </a>",
+        "translatedContent": "        </a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "PgZw+4VDWQQOgrxjHWUblmirHmA2k7qdfoIE99MXpbU=",
+        "originContent": "    </li>           ",
+        "translatedContent": "    </li>           "
+      },
+      {
+        "row": 23,
+        "rowsha": "hUkmZiF4TfKbTKkYvwXwsAVKnxceo4y1pixukQ/6C64=",
+        "originContent": "    <li>",
+        "translatedContent": "    <li>"
+      },
+      {
+        "row": 24,
+        "rowsha": "WvfIWhBWVQSvBXi1ZJu3pwYlNW2oqd4aw1hwR/cuv80=",
+        "originContent": "        <a target=\"_blank\" href=\"https://yu-shaonian.github.io/Animate_Anything/\">",
+        "translatedContent": "        <a target=\"_blank\" href=\"https://yu-shaonian.github.io/Animate_Anything/\">"
+      },
+      {
+        "row": 25,
+        "rowsha": "2LT26PbW3ZtFxUQxIegp3GcGj7HRzGF5VX7joL8/6wI=",
+        "originContent": "            <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/github.png\" width=\"25px\" alt=\"Project Page\" class=\"icon\"> Project Page",
+        "translatedContent": "            <img src=\"https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/github.png\" width=\"25px\" alt=\"Project Page\" class=\"icon\"> Página del Proyecto"
+      },
+      {
+        "row": 26,
+        "rowsha": "Jr8FTrw7fOzW7Ahz0vtvvjuhurgpCoKbbAhv9fjGPMI=",
+        "originContent": "                <!-- <h4><strong>Github</strong></h4> -->",
+        "translatedContent": "                <!-- <h4><strong>Github</strong></h4> -->"
+      },
+      {
+        "row": 27,
+        "rowsha": "Co3B6EpwXcCQtOdLkatevFO6yLSSUKD+qxCcJXUMyWU=",
+        "originContent": "        </a>",
+        "translatedContent": "        </a>"
+      },
+      {
+        "row": 28,
+        "rowsha": "4qmSFOct1IB/fce2Oqi66tuSGcRW6cqIQ0q6psmCHPc=",
+        "originContent": "    </li> ",
+        "translatedContent": "    </li> "
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "3/cDX9Ki12QovJHld1xCDqG2Umfnrw3VeoBWVHsTEoA=",
+        "originContent": "## OverView",
+        "translatedContent": "## Visión General"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "xp43ppQ4QWqSyaXRvSTFCb7C4hKge7Lu56vSUuf6y1U=",
+        "originContent": "![image-20241115035450490](https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/teaser.png)",
+        "translatedContent": "![image-20241115035450490](https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/teaser.png)"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "19SkWiPJlMF+eaAhujpPvLUcq/wLExAIhqguU78LMUw=",
+        "originContent": "![image-20241115035450490](https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/pipeline.png)",
+        "translatedContent": "![image-20241115035450490](https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/pipeline.png)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "8wF+V5b9EQ2flBuayori3DAJeevLI1gNk1Ad7hlyDTo=",
+        "originContent": "## Project Updates",
+        "translatedContent": "## Actualizaciones del Proyecto"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "MmpGFnwfbUng7037PHikUsuwZAwkuoiQQcAyiab+/M0=",
+        "originContent": "- 🔥🔥 We finished **camera trajectory Control**",
+        "translatedContent": "- 🔥🔥 Hemos terminado el **Control de trayectoria de cámara**"
+      },
+      {
+        "row": 41,
+        "rowsha": "+hqgXDOFnh+DTA71KR1dewxNrQklNP61j6ezHGZjA4o=",
+        "originContent": "- 🔥🔥 We finished the **User Annotation** to guide the video generation",
+        "translatedContent": "- 🔥🔥 Hemos terminado la **Anotación del Usuario** para guiar la generación de video"
+      },
+      {
+        "row": 42,
+        "rowsha": "M/Sg5ufYD+XxdkB5yFnuZyzDFNSrbjPNdLIR6/kMD7E=",
+        "originContent": "- 🔥🔥 We finished **human animation**",
+        "translatedContent": "- 🔥🔥 Hemos terminado la **animación humana**"
+      },
+      {
+        "row": 43,
+        "rowsha": "RI7dRf/hqov1vEkluYxddO6mUvIHbv3DV99G5dgxCko=",
+        "originContent": "- 🔥🔥 We finshed **video transfering** from a reference image",
+        "translatedContent": "- 🔥🔥 Hemos terminado la **transferencia de video** desde una imagen de referencia"
+      },
+      {
+        "row": 44,
+        "rowsha": "XpXCxV1T2+2P8VnAiflz7g11lfbY5QE6VngllVrrS3A=",
+        "originContent": "- ......... And More",
+        "translatedContent": "- ......... Y Más"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## Inicio Rápido"
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "M/Osxzlt3VG+FiglcuOhMDihJQwQDiFNGTcBWz6sPQI=",
+        "originContent": "### Diffusers",
+        "translatedContent": "### Diffusers"
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "dyxgHA6blyvbwYY7+AAz6v6M7MPFX9Ih74Dw2l24bdA=",
+        "originContent": "**Please make sure your Python version is between 3.10 and 3.12, inclusive of both 3.10 and 3.12.**",
+        "translatedContent": "**Por favor asegúrese que su versión de Python esté entre 3.10 y 3.12, inclusive 3.10 y 3.12.**"
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\npip install -r requirements.txt\n```",
+    "ContentSha": "wZZiYUMP3e6ugTZtqQY/zQM1z2SfSyvUapcPMP025W0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Gallery\n\n![image-20241115204104582](https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/all_direction.png)\n\n\n\n<table border=\"0\" style=\"width: 100%; text-align: left; margin-top: 20px;\">\n  <tr>\n      <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/dynamic_scene/3_animals_ram5.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>\n      </td>\n      <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/dynamic_scene/1_animals_2_16.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>\n      </td>\n       <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/drag_all_direction/bear_taiji_2.mp4\" width=\"100%\" controls autoplay loop></video>\n     </td>\n      <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/0_scenery_xiangge1.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>\n     </td>\n  </tr>\n  <tr>\n      <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/0_scenery_guilin8.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>\n      </td>\n      <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/plants_growth/A_purple_flower_bud_is_striving_to_bloom.mp4\" width=\"100%\" controls autoplay loop></video>\n      </td>\n       <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/0_scenery_guilin8.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>\n     </td>\n      <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/4_scenery_xiangge9.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>\n     </td>\n  </tr>\n</table>\n\n## Acknowledgement\n\n- [CogVideoX](https://github.com/THUDM/CogVideo)\n- [MOFA-Video](https://github.com/MyNiuuu/MOFA-Video)\n\nThankS CogVideoX and MOFA-Video for their great contribution to the **AIGC**\n\n## Citation\n\n🌟 If you find our work helpful, please leave us a star and cite our paper. Our Code is mainly based on CogVideoX，Please Cite Them Too.\n",
+    "ContentSha": "uG7ctty1USqEn+4HLhuha702FDwHdvO+3T86KgprPZg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Galería\n\n![image-20241115204104582](https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/all_direction.png)\n\n\n\n<table border=\"0\" style=\"width: 100%; text-align: left; margin-top: 20px;\">\n  <tr>\n      <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/dynamic_scene/3_animals_ram5.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>\n      </td>\n      <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/dynamic_scene/1_animals_2_16.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>\n      </td>\n       <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/drag_all_direction/bear_taiji_2.mp4\" width=\"100%\" controls autoplay loop></video>\n     </td>\n      <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/0_scenery_xiangge1.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>\n     </td>\n  </tr>\n  <tr>\n      <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/0_scenery_guilin8.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>\n      </td>\n      <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/plants_growth/A_purple_flower_bud_is_striving_to_bloom.mp4\" width=\"100%\" controls autoplay loop></video>\n      </td>\n       <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/0_scenery_guilin8.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>\n     </td>\n      <td>\n          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/4_scenery_xiangge9.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>\n     </td>\n  </tr>\n</table>\n\n## Agradecimientos\n\n- [CogVideoX](https://github.com/THUDM/CogVideo)\n- [MOFA-Video](https://github.com/MyNiuuu/MOFA-Video)\n\nGracias a CogVideoX y MOFA-Video por su gran contribución al **AIGC**\n\n## Cita\n\n🌟 Si encuentras útil nuestro trabajo, por favor déjanos una estrella y cita nuestro artículo. Nuestro código está basado principalmente en CogVideoX, por favor cítalos también.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yaNTtAGNeGRhcmIbpGHVi5Z6gFvYeZ1kLDSy+agqc3U=",
+        "originContent": "## Gallery",
+        "translatedContent": "## Galería"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "BLKE/FTwKSsuGsMmwxsmACr3WIChgRAi8G1Wlt0uj9Y=",
+        "originContent": "![image-20241115204104582](https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/all_direction.png)",
+        "translatedContent": "![image-20241115204104582](https://raw.githubusercontent.com/yu-shaonian/AnimateAnything/main/assets/images/all_direction.png)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "QXvIxU5ogI9UOaRi0hO47sk49EqZT9zwyvjabbPWk8A=",
+        "originContent": "<table border=\"0\" style=\"width: 100%; text-align: left; margin-top: 20px;\">",
+        "translatedContent": "<table border=\"0\" style=\"width: 100%; text-align: left; margin-top: 20px;\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": "  <tr>"
+      },
+      {
+        "row": 10,
+        "rowsha": "a5ltGpvQoTJRwQVHa/3K9+9c8A93OsQRUvijmjgCgII=",
+        "originContent": "      <td>",
+        "translatedContent": "      <td>"
+      },
+      {
+        "row": 11,
+        "rowsha": "abPht6l0JdLdpJrS8JmdWW98HA+efLpkcSK1jnJfYS0=",
+        "originContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/dynamic_scene/3_animals_ram5.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>",
+        "translatedContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/dynamic_scene/3_animals_ram5.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>"
+      },
+      {
+        "row": 12,
+        "rowsha": "g9L2pM+oYzIsCvYxh3t5w6p/tkfS/AeB2Fm41GgRoOk=",
+        "originContent": "      </td>",
+        "translatedContent": "      </td>"
+      },
+      {
+        "row": 13,
+        "rowsha": "a5ltGpvQoTJRwQVHa/3K9+9c8A93OsQRUvijmjgCgII=",
+        "originContent": "      <td>",
+        "translatedContent": "      <td>"
+      },
+      {
+        "row": 14,
+        "rowsha": "xOSv2b2C5/En0WntyOw9igtejoprgAFLNnae8PolRxM=",
+        "originContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/dynamic_scene/1_animals_2_16.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>",
+        "translatedContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/dynamic_scene/1_animals_2_16.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>"
+      },
+      {
+        "row": 15,
+        "rowsha": "g9L2pM+oYzIsCvYxh3t5w6p/tkfS/AeB2Fm41GgRoOk=",
+        "originContent": "      </td>",
+        "translatedContent": "      </td>"
+      },
+      {
+        "row": 16,
+        "rowsha": "s32+rI9vF+dJnFvbcy1dNZsHbthsXry6IbH5xctzuG8=",
+        "originContent": "       <td>",
+        "translatedContent": "       <td>"
+      },
+      {
+        "row": 17,
+        "rowsha": "bgakdVp8XpnpBUALrE8ljitoXVZDw25JZ6YgncGvObQ=",
+        "originContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/drag_all_direction/bear_taiji_2.mp4\" width=\"100%\" controls autoplay loop></video>",
+        "translatedContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/drag_all_direction/bear_taiji_2.mp4\" width=\"100%\" controls autoplay loop></video>"
+      },
+      {
+        "row": 18,
+        "rowsha": "16cicM3UW3nL5JruqZfR9So4Bb7VF6AX6xtUVOhF7WE=",
+        "originContent": "     </td>",
+        "translatedContent": "     </td>"
+      },
+      {
+        "row": 19,
+        "rowsha": "a5ltGpvQoTJRwQVHa/3K9+9c8A93OsQRUvijmjgCgII=",
+        "originContent": "      <td>",
+        "translatedContent": "      <td>"
+      },
+      {
+        "row": 20,
+        "rowsha": "KLTj3a/3rliSjqsjta1Dj6/nL8g+vNFw+MozujqWv60=",
+        "originContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/0_scenery_xiangge1.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>",
+        "translatedContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/0_scenery_xiangge1.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>"
+      },
+      {
+        "row": 21,
+        "rowsha": "16cicM3UW3nL5JruqZfR9So4Bb7VF6AX6xtUVOhF7WE=",
+        "originContent": "     </td>",
+        "translatedContent": "     </td>"
+      },
+      {
+        "row": 22,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 23,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": "  <tr>"
+      },
+      {
+        "row": 24,
+        "rowsha": "a5ltGpvQoTJRwQVHa/3K9+9c8A93OsQRUvijmjgCgII=",
+        "originContent": "      <td>",
+        "translatedContent": "      <td>"
+      },
+      {
+        "row": 25,
+        "rowsha": "nqz18jqAF0HHFpSRt4dIbVY4f8THPyEqVvle1B8FkPQ=",
+        "originContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/0_scenery_guilin8.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>",
+        "translatedContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/0_scenery_guilin8.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>"
+      },
+      {
+        "row": 26,
+        "rowsha": "g9L2pM+oYzIsCvYxh3t5w6p/tkfS/AeB2Fm41GgRoOk=",
+        "originContent": "      </td>",
+        "translatedContent": "      </td>"
+      },
+      {
+        "row": 27,
+        "rowsha": "a5ltGpvQoTJRwQVHa/3K9+9c8A93OsQRUvijmjgCgII=",
+        "originContent": "      <td>",
+        "translatedContent": "      <td>"
+      },
+      {
+        "row": 28,
+        "rowsha": "VUoVnATrQ7t6BaWerw1EOTRPwcy2o4eR58R8LcvkI9Y=",
+        "originContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/plants_growth/A_purple_flower_bud_is_striving_to_bloom.mp4\" width=\"100%\" controls autoplay loop></video>",
+        "translatedContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/plants_growth/A_purple_flower_bud_is_striving_to_bloom.mp4\" width=\"100%\" controls autoplay loop></video>"
+      },
+      {
+        "row": 29,
+        "rowsha": "g9L2pM+oYzIsCvYxh3t5w6p/tkfS/AeB2Fm41GgRoOk=",
+        "originContent": "      </td>",
+        "translatedContent": "      </td>"
+      },
+      {
+        "row": 30,
+        "rowsha": "s32+rI9vF+dJnFvbcy1dNZsHbthsXry6IbH5xctzuG8=",
+        "originContent": "       <td>",
+        "translatedContent": "       <td>"
+      },
+      {
+        "row": 31,
+        "rowsha": "nqz18jqAF0HHFpSRt4dIbVY4f8THPyEqVvle1B8FkPQ=",
+        "originContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/0_scenery_guilin8.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>",
+        "translatedContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/0_scenery_guilin8.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>"
+      },
+      {
+        "row": 32,
+        "rowsha": "16cicM3UW3nL5JruqZfR9So4Bb7VF6AX6xtUVOhF7WE=",
+        "originContent": "     </td>",
+        "translatedContent": "     </td>"
+      },
+      {
+        "row": 33,
+        "rowsha": "a5ltGpvQoTJRwQVHa/3K9+9c8A93OsQRUvijmjgCgII=",
+        "originContent": "      <td>",
+        "translatedContent": "      <td>"
+      },
+      {
+        "row": 34,
+        "rowsha": "0M3wm46XgSq3qjaqQEoSEo3fKQF3hIIq9/hFUbcnU4s=",
+        "originContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/4_scenery_xiangge9.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>",
+        "translatedContent": "          <video src=\"https://yu-shaonian.github.io/Animate_Anything/static_scene/4_scenery_xiangge9.jpg_openvidcheckpoint-2400_final_video.mp4\" width=\"100%\" controls autoplay loop></video>"
+      },
+      {
+        "row": 35,
+        "rowsha": "16cicM3UW3nL5JruqZfR9So4Bb7VF6AX6xtUVOhF7WE=",
+        "originContent": "     </td>",
+        "translatedContent": "     </td>"
+      },
+      {
+        "row": 36,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 37,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+        "originContent": "## Acknowledgement",
+        "translatedContent": "## Agradecimientos"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "eL6SGwIFuqmVW2NC4vxSc7WSsSmiOsWHRxekt0PMw2k=",
+        "originContent": "- [CogVideoX](https://github.com/THUDM/CogVideo)",
+        "translatedContent": "- [CogVideoX](https://github.com/THUDM/CogVideo)"
+      },
+      {
+        "row": 42,
+        "rowsha": "j7Dyb2iS+YIYSImpCJ/J+JAlh3yYs84fTyscEIXr4oE=",
+        "originContent": "- [MOFA-Video](https://github.com/MyNiuuu/MOFA-Video)",
+        "translatedContent": "- [MOFA-Video](https://github.com/MyNiuuu/MOFA-Video)"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "ScB4B9Xq05wDPu49JfdriFdWVb7+YZ7EamG4FhB24wM=",
+        "originContent": "ThankS CogVideoX and MOFA-Video for their great contribution to the **AIGC**",
+        "translatedContent": "Gracias a CogVideoX y MOFA-Video por su gran contribución al **AIGC**"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## Cita"
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "w4k6bvEDwOJCnfXMwRmiKglfohhTHHqa2jUBHRjYCOY=",
+        "originContent": "🌟 If you find our work helpful, please leave us a star and cite our paper. Our Code is mainly based on CogVideoX，Please Cite Them Too.",
+        "translatedContent": "🌟 Si encuentras útil nuestro trabajo, por favor déjanos una estrella y cita nuestro artículo. Nuestro código está basado principalmente en CogVideoX, por favor cítalos también."
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\n@article{lei2024animateanything,\n  title={Animateanything: Consistent and controllable animation for video generation},\n  author={Lei, Guojun and Wang, Chi and Li, Hong and Zhang, Rong and Wang, Yikai and Xu, Weiwei},\n  journal={arXiv preprint arXiv:2411.10836},\n  year={2024}\n}\n```",
+    "ContentSha": "90xFTHNv1YdfT7mag/SpR6cXi438FNAUHhY82wU9QrI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@article{lei2024animateanything,\n  title={Animateanything: Consistent and controllable animation for video generation},\n  author={Lei, Guojun and Wang, Chi and Li, Hong and Zhang, Rong and Wang, Yikai and Xu, Weiwei},\n  journal={arXiv preprint arXiv:2411.10836},\n  year={2024}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ahsmSN5leTSwGOSgIhIKS7ofkeNMrsL2y1H4Z20HRLk=",
+        "originContent": "@article{lei2024animateanything,",
+        "translatedContent": "@article{lei2024animateanything,"
+      },
+      {
+        "row": 3,
+        "rowsha": "Zw84q/MChgpx44O5Gd6SnhE8dO9c0IRs2k8OyC4t1VQ=",
+        "originContent": "  title={Animateanything: Consistent and controllable animation for video generation},",
+        "translatedContent": "  title={Animateanything: Consistent and controllable animation for video generation},"
+      },
+      {
+        "row": 4,
+        "rowsha": "RuoQR5+GH1++CdcrS81dTvWVAFrpcAPmlggBiFF3F6o=",
+        "originContent": "  author={Lei, Guojun and Wang, Chi and Li, Hong and Zhang, Rong and Wang, Yikai and Xu, Weiwei},",
+        "translatedContent": "  author={Lei, Guojun and Wang, Chi and Li, Hong and Zhang, Rong and Wang, Yikai and Xu, Weiwei},"
+      },
+      {
+        "row": 5,
+        "rowsha": "2YR+g4S4a22BX9nsWqn8bgsQdiGECB9zYIKtVQalI8c=",
+        "originContent": "  journal={arXiv preprint arXiv:2411.10836},",
+        "translatedContent": "  journal={arXiv preprint arXiv:2411.10836},"
+      },
+      {
+        "row": 6,
+        "rowsha": "9vunU7Tk7EiCUudFrq1MUG4YCfjMDMPMikZF6BT/eLU=",
+        "originContent": "  year={2024}",
+        "translatedContent": "  year={2024}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n\n\n\n\n## Model-License\n\nThe code in this repository is released under the [Apache 2.0 License](LICENSE).\n",
+    "ContentSha": "e7o139oqBfuO/VPQZjTwX0WMre0puzPXoaz7FAGt1No=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\n\n\n\n## Model-License\n\nThe code in this repository is released under the [Apache 2.0 License](LICENSE).\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "kSP13R3yMMAdfSVYq9FijoMDMlO1acOCCIVIaWcWowg=",
+        "originContent": "## Model-License",
+        "translatedContent": "## Model-License"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "qa8O5JUhapl3fwF9TWfhCDJEVc/C0iZ0umhU4YczAhE=",
+        "originContent": "The code in this repository is released under the [Apache 2.0 License](LICENSE).",
+        "translatedContent": "The code in this repository is released under the [Apache 2.0 License](LICENSE)."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

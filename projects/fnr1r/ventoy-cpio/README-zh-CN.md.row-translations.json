@@ -1,0 +1,740 @@
+[
+  {
+    "row": 1,
+    "rowsha": "rVjBLn9+tdRBvG9OAvvN8bq6iolBp3e4I+R/2aZHCGA=",
+    "originContent": "# Ventoy CPIO",
+    "translatedContent": "# Ventoy CPIO"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "ghwMKYAFp5Quiwn5CmBvQN1orj8vAoegivi/HH3CRZo=",
+    "originContent": "An alternate ramdisk for [Ventoy](https://github.com/ventoy/Ventoy).",
+    "translatedContent": "Ventoy 的替代 ramdisk。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "+bz8V8aorhyWmg94qX32TR0aAdfeZ7e6/f7nf3bZY7U=",
+    "originContent": "Docs are available [here](https://github.com/fnr1r/ventoy-meta/tree/main/docs)",
+    "translatedContent": "文档可见 [这里](https://github.com/fnr1r/ventoy-meta/tree/main/docs)"
+  },
+  {
+    "row": 6,
+    "rowsha": "3MnR6UINN+FijSxmx/y/g2SXMKjCNoeHB/pY16ttkq8=",
+    "originContent": "and releases [here](https://github.com/fnr1r/ventoy-cpio/releases).",
+    "translatedContent": "发布版可见 [这里](https://github.com/fnr1r/ventoy-cpio/releases)。"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "4DSoNPJYmEQuKC4b1bhHJTk8J7zFP2hxSprOng8Uebo=",
+    "originContent": "NOTE: This is just a small part of my attempt to add a sane(-ish) build system",
+    "translatedContent": "注意：这只是我尝试为 Ventoy 添加一个合理（-ish）构建系统的一小部分。"
+  },
+  {
+    "row": 9,
+    "rowsha": "X1n1MFDeOX/Rk8m91f+wRRI8uzRpwm78AJWwU8ESU1U=",
+    "originContent": "to Ventoy. An index for all my Ventoy-related projects can be found",
+    "translatedContent": "所有与 Ventoy 相关项目的索引见"
+  },
+  {
+    "row": 10,
+    "rowsha": "rStGXT3nh3ny6chmozPp9zezCdwVVTmJ1RODWg8JZkc=",
+    "originContent": "[here](https://github.com/fnr1r/ventoy-meta).",
+    "translatedContent": "[这里](https://github.com/fnr1r/ventoy-meta)。"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "Pu0DufVep6vlolfdnMZEP8lW/kOUL+oh+EcfK4rn/2o=",
+    "originContent": "## Goal",
+    "translatedContent": "## 目标"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "8zTSXhhSKLz4ft913n6I2vDdC8/KfpAzGc7mIl/KRRg=",
+    "originContent": "Make a replacement ramdisk for Ventoy",
+    "translatedContent": "制作一个 Ventoy 的替代 ramdisk"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "L+F5t7s7kRqe3I3edP2neIn3naAuQXPJ+T+SZ/uqLSI=",
+    "originContent": "- [?] with a sane(-er) build system",
+    "translatedContent": "- [?] 具有更合理的构建系统"
+  },
+  {
+    "row": 17,
+    "rowsha": "gt9ncxUwxqmev8r1exdQ2X1FcgbgMATTfzWpx6mRbEE=",
+    "originContent": "- [x] a bootable one",
+    "translatedContent": "- [x] 可启动的"
+  },
+  {
+    "row": 18,
+    "rowsha": "7hz0DelRiuV/UyXQD/Np8k72mUQ1QO1SRPCYegTqLuw=",
+    "originContent": "- [ ] a functionally identical one  ",
+    "translatedContent": "- [ ] 功能上相同的  "
+  },
+  {
+    "row": 19,
+    "rowsha": "toGmKrbyGzU3QTPQI/QTY8TCRzyVmMz03YHguOTwCSg=",
+    "originContent": "  (i.e. can do the same things as the upstream)",
+    "translatedContent": "  （即能做与上游相同的事情）"
+  },
+  {
+    "row": 20,
+    "rowsha": "/DKUnCCTJxYQBBsWSNJoYVzNf1PcdNgssSpsMX66tOw=",
+    "originContent": "- [x] a smaller one",
+    "translatedContent": "- [x] 更小的"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "Ye76+OygkOEI+JuIZyVyqr7HSgbfAbzJGDiEKIMFGsA=",
+    "originContent": "### Non-goals",
+    "translatedContent": "### 非目标"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "F6bXmNNfgsQSF2UVubmhQG9vGBb4qcNwOARlSGtXVtg=",
+    "originContent": "- ❌ a binary-identical ramdisk to the official one",
+    "translatedContent": "- ❌ 与官方完全二进制相同的 ramdisk"
+  },
+  {
+    "row": 25,
+    "rowsha": "wwrOksUGmA5cJvpWgkwk/ajJTWQEgOT35Mk7ygqZFeg=",
+    "originContent": "  - compiling identical binaries with the instructions given would be near",
+    "translatedContent": "  - 按照给出的说明编译完全相同的二进制几乎不可能，且毫无意义"
+  },
+  {
+    "row": 26,
+    "rowsha": "XK+cUMNBQ1HMn35xhYLMbMq6PDSggsxvM+9mDHQSzis=",
+    "originContent": "  impossible and is ultimately pointless",
+    "translatedContent": "  - 但用该项目构建的 ramdisk 应该是可重现的"
+  },
+  {
+    "row": 27,
+    "rowsha": "YRj0rz+MSnqVuAxXJr+o0KGGQI5ejQnaPDtEpHhk/HU=",
+    "originContent": "  - however, ramdisks built with this project should be reproducible",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 可能的未来改动"
+  },
+  {
+    "row": 29,
+    "rowsha": "jFyQrl5NXrY2kmu411R8yx6e4ia6xLs9GJvFe1N4qyY=",
+    "originContent": "### Possible future changes",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 去掉二进制文件的后缀（它们只是烦人且不一致）  "
+  },
+  {
+    "row": 31,
+    "rowsha": "c7s6A/el/B7HHcBS5V0FhH43W6TPoG216pRfgZsDpB8=",
+    "originContent": "- Removing suffixes from binaries (they're just annoying and inconsistent)  ",
+    "translatedContent": "  （不需要上游改动）"
+  },
+  {
+    "row": 32,
+    "rowsha": "QTtcEfiOLQwoekxbBRdO5v+e2sh9+o9EZYwuY2Bxzq0=",
+    "originContent": "  (no upstream changes required)",
+    "translatedContent": "- 将 ramdisk 分为 x86 32 位和 64 位  "
+  },
+  {
+    "row": 33,
+    "rowsha": "wQvFFgfpVJR169SB2yVU5BvGOK2Y15NjivSXehkI0wU=",
+    "originContent": "- Splitting the ramdisks into x86 32-bit and 64-bit  ",
+    "translatedContent": "  （需要 grub 方面改动）"
+  },
+  {
+    "row": 34,
+    "rowsha": "Bvqk/RYXt3zOlWqPZ1JSqh+VQw9qLQDIJcrm0JSZBjA=",
+    "originContent": "  (would require changes to grub)",
+    "translatedContent": "- 清理 ramdisk 中的 shell 脚本  "
+  },
+  {
+    "row": 35,
+    "rowsha": "aC0G9pQL9Z1g6eV8+HXvdeC+rPry75+nwDlwOx0eyXc=",
+    "originContent": "- Cleaning up shell scripts in the ramdisk  ",
+    "translatedContent": "  （不需要上游改动）"
+  },
+  {
+    "row": 36,
+    "rowsha": "QTtcEfiOLQwoekxbBRdO5v+e2sh9+o9EZYwuY2Bxzq0=",
+    "originContent": "  (no upstream changes required)",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 进展"
+  },
+  {
+    "row": 38,
+    "rowsha": "mcfFCWIPGtzjdSDHuKh1fhsxAncFPemhZjUGZ+c9L+o=",
+    "originContent": "## Progress",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "可以启动，但某些功能可能无法正常工作。"
+  },
+  {
+    "row": 40,
+    "rowsha": "EH7cJsCOwkAQGMS5iwXHpIWF5X+QekuvX9tnKW/4ytE=",
+    "originContent": "It boots, but some functionality might not work.",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ventoy.cpio"
+  },
+  {
+    "row": 42,
+    "rowsha": "56n1MiOwYAo4RBgcLTWY7D375RtlZ4jV6R3uHL2Rh9c=",
+    "originContent": "### ventoy.cpio",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "100%，因为它实际上只是对一堆文件进行 xz 压缩。"
+  },
+  {
+    "row": 44,
+    "rowsha": "fhG40sSM6Fgfo3ML0QMz4WG5rhxxjvIQ3V64um1Fy20=",
+    "originContent": "100%, since it's literally just xz-ing a bunch of files.",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "大小比例："
+  },
+  {
+    "row": 46,
+    "rowsha": "mqgNGeOYqf7zX5eCcULOeo86jGNDqC2JfEP9YgpopQU=",
+    "originContent": "Size ratio:",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- du - 1 (64 / 64)"
+  },
+  {
+    "row": 48,
+    "rowsha": "y70bWX4HZu42F1ZXHVkNtvUgceecKm890jr1zR8fQS4=",
+    "originContent": "- du - 1 (64 / 64)",
+    "translatedContent": "- ls -l - 1 (62976 / 62976)"
+  },
+  {
+    "row": 49,
+    "rowsha": "U8RL3R5refT6rvxgZqVEXC5YRSRVqyXlacOFHYZ6SsI=",
+    "originContent": "- ls -l - 1 (62976 / 62976)",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ventoy_ARCH.cpio"
+  },
+  {
+    "row": 51,
+    "rowsha": "YfjZXlFf1lKK2JRM+xSiHlVZln8nr30dqxIGR/DEA5s=",
+    "originContent": "### ventoy_ARCH.cpio",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "约 75%"
+  },
+  {
+    "row": 53,
+    "rowsha": "UCy8anTswfKUSs30bDOMwziKUmp8zGly429RfsnSCuM=",
+    "originContent": "~75%",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "所有工具都在这里（大部分），以各种方式编译完成。现在剩下的就是优化。"
+  },
+  {
+    "row": 55,
+    "rowsha": "6ON3JeK0lE8oiRo3i0Y04Dj/K9Bcx1wgpWjWFx9VXsQ=",
+    "originContent": "All the tools are here (mostly), compiled in one way or another. Now all that's",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "z+wg7bBHwUcAbKISu6ksX/nLGiARaAeIcQH8n/m6p0Q=",
+    "originContent": "left is optimization.",
+    "translatedContent": "大小比例（x86）："
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "1dTGj0WVOXf7dZOUrogr3kaxfgQQ4R70dxkXwP0Hy1Y=",
+    "originContent": "Size ratio (x86):",
+    "translatedContent": "- du - 0.8540245566166439 (2504 / 2932)"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- ls -l - 0.8624375107740045 (2561536 / 2970112)"
+  },
+  {
+    "row": 60,
+    "rowsha": "ANnj9b5fx7mW12QtROrhd4v2340aSL2EdDCQem8W8KI=",
+    "originContent": "- du - 0.8540245566166439 (2504 / 2932)",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "oN2K73TA+XGS9cXoo+LSg9VtMH4YysejAWR8wQCxUcc=",
+    "originContent": "- ls -l - 0.8624375107740045 (2561536 / 2970112)",
+    "translatedContent": "大小比例（arm64）："
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "Y/iJeGR0gb2kmyixsFLBXxO1Kwo/ViQvwIIH4XT8KgE=",
+    "originContent": "Size ratio (arm64):",
+    "translatedContent": "- du - 0.8159806295399516 (1348 / 1652)"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- ls -l - 0.8159490600363857 (1377792 / 1688576)"
+  },
+  {
+    "row": 65,
+    "rowsha": "oenW0+JHaHyOTITiZC8J3H1gq+YO7QhmA7e7RQ2SH7g=",
+    "originContent": "- du - 0.8159806295399516 (1348 / 1652)",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "ChZrD7mxFCVb3h0C82ji8LSiZ3ghG+8OGJTf09Bk0nA=",
+    "originContent": "- ls -l - 0.8159490600363857 (1377792 / 1688576)",
+    "translatedContent": "大小比例（mips64）："
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "ua2l++ecNioCePyaIlZVHQy7NtpLFJHLIwWv4AlqWZc=",
+    "originContent": "Size ratio (mips64):",
+    "translatedContent": "- du - 0.9816849816849817 (1072 / 1092)"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- ls -l - 0.981642955484167 (1095168 / 1115648)"
+  },
+  {
+    "row": 70,
+    "rowsha": "NLLs1iFprq5ylPRfHJ1IKNLXe+alzOb/AJB/++XDQyU=",
+    "originContent": "- du - 0.9816849816849817 (1072 / 1092)",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "ms/JoUm6WyajNlufY6Yj/T8FMjYvj5nSY86au8duvII=",
+    "originContent": "- ls -l - 0.981642955484167 (1095168 / 1115648)",
+    "translatedContent": "### vtloopex.cpio"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "Srxb6mrjsNO7HNugwFX09cTkLaywbQTZTSE80LctgFA=",
+    "originContent": "### vtloopex.cpio",
+    "translatedContent": "待办：添加此项"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "eqDPNC2Lu00LwfZNFl6hF+bvdafa0pGJ6lMW+hOu5YQ=",
+    "originContent": "TODO: add this",
+    "translatedContent": "## 使用"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "### 构建"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "XF0OQHXARHAPgAsmm/yQrbyX0gEge0yzSplZ0vXfSIU=",
+    "originContent": "### Building",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 82,
+    "rowsha": "EfJNQbb+iZHJdqQb8OIyX8D0YrZLfmlk3A4b5cYzlJ0=",
+    "originContent": "docker compose build",
+    "translatedContent": "docker compose build"
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 86,
+    "rowsha": "jFimAULcZDIZHAmoM+tdtj7zAosAOZVWQmKCgqkSXXg=",
+    "originContent": "docker compose up",
+    "translatedContent": "docker compose up"
+  },
+  {
+    "row": 87,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "jajGovEam//bs0IhC08/lgWLOMPuMMZQna+jcu/0sKo=",
+    "originContent": "Hint:",
+    "translatedContent": "提示："
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "P7d7dQQdtdForQxEfs4ixGvba1BaKcHOkC7KTaGMyY4=",
+    "originContent": "If you don't want to redownload archives every time you rebuild the container,",
+    "translatedContent": "如果您不想每次重建容器时都重新下载归档文件，"
+  },
+  {
+    "row": 92,
+    "rowsha": "Ga2k7rWIVSenTUDXIHAWGOsjTCVVJtD3yGYnXnX0ncI=",
+    "originContent": "go to `docker/base/{dietlibc,musl,toolchains}`, look through the setup script",
+    "translatedContent": "请进入 `docker/base/{dietlibc,musl,toolchains}`，查看安装脚本"
+  },
+  {
+    "row": 93,
+    "rowsha": "C5Nuod6lyjm0sWRilL6tO0prmLQNSCmSit941F//OfA=",
+    "originContent": "and manually `wget` the file.",
+    "translatedContent": "并手动使用 `wget` 下载文件。"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "Dktm9JWS3YtFW/K7xzwTr0ut3kuyAnPFYcnuPZ+FojQ=",
+    "originContent": "You can also run this to enter the container:",
+    "translatedContent": "您也可以运行此命令进入容器："
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 98,
+    "rowsha": "LNSs5VQTp8Jb+KBNvY3Vd1Z3WqOM0WY8wASvY0qELxE=",
+    "originContent": "docker run -it --rm \\",
+    "translatedContent": "docker run -it --rm \\"
+  },
+  {
+    "row": 99,
+    "rowsha": "U9HFxK1qp00J1yo95S5sNksO7+Qrji5Csv92Un8x+tQ=",
+    "originContent": "  -v \".:/build\" \\",
+    "translatedContent": "  -v \".:/build\" \\"
+  },
+  {
+    "row": 100,
+    "rowsha": "S5K/eS9ORpo6mR4n5wM/VK2FOourNw2fYwN8RvpohaA=",
+    "originContent": "  ventoy-cpio-builder:latest \\",
+    "translatedContent": "  ventoy-cpio-builder:latest \\"
+  },
+  {
+    "row": 101,
+    "rowsha": "NDk1aP+fl3+MBGpDtGS5m15Q161i6/u5nL+E6ZO1KNk=",
+    "originContent": "  bash",
+    "translatedContent": "  bash"
+  },
+  {
+    "row": 102,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 设置"
+  },
+  {
+    "row": 104,
+    "rowsha": "iJa409tTUC9P1gTULbIw6Kod+KAUdLl5kgZl7whoChE=",
+    "originContent": "### Setup",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "一旦你获得了 `ventoy*.cpio` 文件："
+  },
+  {
+    "row": 106,
+    "rowsha": "bNPBCqJh5HYa9FFeB57H3LinLjG3agQP/TT3ZVgZaz8=",
+    "originContent": "Once you have `ventoy*.cpio` files:",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 挂载 Ventoy USB 上的第二个分区"
+  },
+  {
+    "row": 108,
+    "rowsha": "qVXT3NKzwNxlUeZ29p6iTkOUcUPYEGQd/6VpK77PUKY=",
+    "originContent": "1. Mount the second partition on your Ventoy usb",
+    "translatedContent": "1. !!! 备份原始的 `ventoy*.cpio` 文件 !!!"
+  },
+  {
+    "row": 109,
+    "rowsha": "7I0piPGHaSavDdWYpclyv7wfT7sQpcsslgc60Mn1PQM=",
+    "originContent": "1. !!! BACK UP THE ORIGINAL `ventoy*.cpio` FILES !!!",
+    "translatedContent": "1. 复制你想尝试的 cpio 文件。（提示：如果你不知道是哪一个，"
+  },
+  {
+    "row": 110,
+    "rowsha": "WsgWEhw09yTLuM/+Tgoj4W5Rq2lowJdITweM8YokPCs=",
+    "originContent": "1. Copy the cpio you want to try out. (hint: if you don't know which one it is,",
+    "translatedContent": "  那很可能是 `ventoy_x86.cpio`）"
+  },
+  {
+    "row": 111,
+    "rowsha": "E7QfrM9+JULGNv+wESz6zrVWOUqYYwcBYEN8av0hOFo=",
+    "originContent": "  then it's probably `ventoy_x86.cpio`)",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 小任务清单"
+  },
+  {
+    "row": 113,
+    "rowsha": "vwCsluQSP9dB+h/GPG3NTH96lZ02Qa5pCiVFM19QHjU=",
+    "originContent": "## Mini TODO",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 使用较旧版本的 Linux 头文件进行构建以提高兼容性"
+  },
+  {
+    "row": 115,
+    "rowsha": "vNg4r7s9mmTXw/ku2w/Cq9M0PRi3rsQAVOQQrHgG/fM=",
+    "originContent": "- Build with an older version of Linux headers for compatibility",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 备注"
+  },
+  {
+    "row": 117,
+    "rowsha": "Y+E+h7N40ehfg46tJn25AgwUV7ERijfgr5+1+XYUT0s=",
+    "originContent": "## Notes",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [在 GCC 术语中](https://gcc.gnu.org/onlinedocs/gccint/Configure-Terms.html)："
+  },
+  {
+    "row": 119,
+    "rowsha": "HdQ8xfTNrWnAfM6MO9aU0/VeJXtMzQTtwNgBM01PTZ8=",
+    "originContent": "- [In GCC terms](https://gcc.gnu.org/onlinedocs/gccint/Configure-Terms.html):",
+    "translatedContent": "  - 构建假设为 x86_64 *nix"
+  },
+  {
+    "row": 120,
+    "rowsha": "1cEAw0IskGpp6vtsgIZG7rQ2wi4hT3OeDqB+/voX8ms=",
+    "originContent": "  - The build is assumed to be x86_64 *nix",
+    "translatedContent": "  - 主机（用于 ventoy 安装工具）假设为 x86_64"
+  },
+  {
+    "row": 121,
+    "rowsha": "CHS8JL16hlnkAC+ngDbug+Hb6ablaEA0TlIb2a4s2EQ=",
+    "originContent": "  - The host (for ventoy installation tools) is assumed to be x86_64",
+    "translatedContent": "  - 目标为 x86_64、i386、aarch64 和 mips64el"
+  },
+  {
+    "row": 122,
+    "rowsha": "eGls4m/zP96ry6jEK/hQm+gArg/D08v+nm4zKnoS/Q4=",
+    "originContent": "  - The targets are x86_64, i386, aarch64 and mips64el",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

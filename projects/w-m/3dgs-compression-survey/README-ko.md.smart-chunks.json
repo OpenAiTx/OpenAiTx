@@ -1,0 +1,1097 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 3DGS.zip: A survey on 3D Gaussian Splatting Compression Methods\nThis repository contains a comprehensive survey of 3D Gaussian Splatting (3DGS) compression methods. You can view the full survey table and comparison plots at [w-m.github.io/3dgs-compression-survey/](https://w-m.github.io/3dgs-compression-survey/).\n\n## Installation\nTo run the scripts in this repository, ensure you have all necessary dependencies installed. You can install them using the following command:\n\n`pip install -r requirements.txt`\n\n## Building the Site\nTo build the site, use the following command: \n\n`python data_extraction/build_html.py`\n\nThis scrips also runs automatically to rebuild the site whenever changes are pushed to the main branch.\n\n## Fetching Results\nYou can fetch the results automatically by running: \n\n`python data_extraction/data_extraction.py`\n\nThis script attempts to fetch data from the relevant papers and update the tables in the `results` folder. To add a new paper, create an entry in `data_extraction/data_source.yaml`. \n\n## Including your own Results\n\nAuthors are kindly requested to upload their per-scene results in a designated folder within their GitHub repository. This ensures accurate data retrieval and allows for consistent and fair comparisons. The expected folder structure is:\n",
+    "ContentSha": "+caR23x0ph9XQ7Jb5J5ir5o8SL6K5ixlcu/2adAAov4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 3DGS.zip: 3D 가우시안 스플래팅 압축 방법에 대한 조사  \n이 저장소는 3D 가우시안 스플래팅(3DGS) 압축 방법에 대한 포괄적인 조사를 포함하고 있습니다. 전체 조사 표와 비교 플롯은 [w-m.github.io/3dgs-compression-survey/](https://w-m.github.io/3dgs-compression-survey/)에서 확인할 수 있습니다.  \n\n## 설치  \n이 저장소의 스크립트를 실행하려면 모든 필수 종속성이 설치되어 있는지 확인하십시오. 다음 명령어로 설치할 수 있습니다:  \n\n`pip install -r requirements.txt`  \n\n## 사이트 빌드  \n사이트를 빌드하려면 다음 명령어를 사용하십시오:  \n\n`python data_extraction/build_html.py`  \n\n이 스크립트는 또한 변경 사항이 메인 브랜치에 푸시될 때마다 사이트를 자동으로 재빌드합니다.  \n\n## 결과 가져오기  \n다음 명령어를 실행하여 결과를 자동으로 가져올 수 있습니다:  \n\n`python data_extraction/data_extraction.py`  \n\n이 스크립트는 관련 논문에서 데이터를 가져와 `results` 폴더의 표를 업데이트하려고 시도합니다. 새 논문을 추가하려면 `data_extraction/data_source.yaml`에 항목을 만드십시오.  \n\n## 자신의 결과 포함하기  \n\n저자는 정확한 데이터 검색과 일관되고 공정한 비교를 위해 GitHub 저장소 내 지정된 폴더에 씬별 결과를 업로드해 주시기 바랍니다. 예상 폴더 구조는 다음과 같습니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "BwEmIH8m133oIIRmCHIZa+OU4Bn9GDQrcx5qmARdXek=",
+        "originContent": "# 3DGS.zip: A survey on 3D Gaussian Splatting Compression Methods",
+        "translatedContent": "# 3DGS.zip: 3D 가우시안 스플래팅 압축 방법에 대한 조사  "
+      },
+      {
+        "row": 2,
+        "rowsha": "ZptEJlRzzsYtTDxFwRuN31BVHdyWjt20DPgcJtdvTbU=",
+        "originContent": "This repository contains a comprehensive survey of 3D Gaussian Splatting (3DGS) compression methods. You can view the full survey table and comparison plots at [w-m.github.io/3dgs-compression-survey/](https://w-m.github.io/3dgs-compression-survey/).",
+        "translatedContent": "이 저장소는 3D 가우시안 스플래팅(3DGS) 압축 방법에 대한 포괄적인 조사를 포함하고 있습니다. 전체 조사 표와 비교 플롯은 [w-m.github.io/3dgs-compression-survey/](https://w-m.github.io/3dgs-compression-survey/)에서 확인할 수 있습니다.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 설치  "
+      },
+      {
+        "row": 5,
+        "rowsha": "vCBCQEfYHWgJ94Iu8DOcJMj5nkZk/UM0O41Ixadq9DA=",
+        "originContent": "To run the scripts in this repository, ensure you have all necessary dependencies installed. You can install them using the following command:",
+        "translatedContent": "이 저장소의 스크립트를 실행하려면 모든 필수 종속성이 설치되어 있는지 확인하십시오. 다음 명령어로 설치할 수 있습니다:  "
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "E20kj2dow7eLAC3IHT9Ixba8Ps34uZ1DxIelWeun8R8=",
+        "originContent": "`pip install -r requirements.txt`",
+        "translatedContent": "`pip install -r requirements.txt`  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "pD9hNajfXGYYrgQPgRlOzpqR5sPAsQ3vqz/JBv2hQGE=",
+        "originContent": "## Building the Site",
+        "translatedContent": "## 사이트 빌드  "
+      },
+      {
+        "row": 10,
+        "rowsha": "L1Sm9ok/EQCTLb1gpPB/1STSQzoqTZzBOREZRTYSL6w=",
+        "originContent": "To build the site, use the following command: ",
+        "translatedContent": "사이트를 빌드하려면 다음 명령어를 사용하십시오:  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "B2GsGmZw679PYq9otcc8dzDcklZsCqHAXQeQ0oYTDhc=",
+        "originContent": "`python data_extraction/build_html.py`",
+        "translatedContent": "`python data_extraction/build_html.py`  "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "CI7xEWNT5zso7u29cGK5/ALuzbeuLkyiYJQ2fB0IMSQ=",
+        "originContent": "This scrips also runs automatically to rebuild the site whenever changes are pushed to the main branch.",
+        "translatedContent": "이 스크립트는 또한 변경 사항이 메인 브랜치에 푸시될 때마다 사이트를 자동으로 재빌드합니다.  "
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "eE6X28uIBjwbZ99iFNjvrlJwY31XNB3h+totPyj2G2A=",
+        "originContent": "## Fetching Results",
+        "translatedContent": "## 결과 가져오기  "
+      },
+      {
+        "row": 17,
+        "rowsha": "yNn2ah+s8lcrXTAC/LUQiTX2QMMZbMgC5D16cdfV5AU=",
+        "originContent": "You can fetch the results automatically by running: ",
+        "translatedContent": "다음 명령어를 실행하여 결과를 자동으로 가져올 수 있습니다:  "
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "FcwV4hsH/WByUXAbrLIs6ni4hyfRZh7FxbTOPkHraE8=",
+        "originContent": "`python data_extraction/data_extraction.py`",
+        "translatedContent": "`python data_extraction/data_extraction.py`  "
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "H7PR+jZ4kGTf5sapwvUKy+TgRq+DOlleoOeUa4UbQ4s=",
+        "originContent": "This script attempts to fetch data from the relevant papers and update the tables in the `results` folder. To add a new paper, create an entry in `data_extraction/data_source.yaml`. ",
+        "translatedContent": "이 스크립트는 관련 논문에서 데이터를 가져와 `results` 폴더의 표를 업데이트하려고 시도합니다. 새 논문을 추가하려면 `data_extraction/data_source.yaml`에 항목을 만드십시오.  "
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "lGw1DNP6V6xsUYOXgK3TJSexH7tQNn1JYHyZhVRjydk=",
+        "originContent": "## Including your own Results",
+        "translatedContent": "## 자신의 결과 포함하기  "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "U+axOOnx4Josfxf9Kjel1hlo9yPAlkM/nyj8U8Y8+SI=",
+        "originContent": "Authors are kindly requested to upload their per-scene results in a designated folder within their GitHub repository. This ensures accurate data retrieval and allows for consistent and fair comparisons. The expected folder structure is:",
+        "translatedContent": "저자는 정확한 데이터 검색과 일관되고 공정한 비교를 위해 GitHub 저장소 내 지정된 폴더에 씬별 결과를 업로드해 주시기 바랍니다. 예상 폴더 구조는 다음과 같습니다:"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\nresults\n├── DeepBlending\n│   ├── drjohnson.csv\n│   └── playroom.csv\n├── MipNeRF360\n│   ├── bicycle.csv\n│   ├── bonsai.csv\n│   ├── counter.csv\n│   ├── flowers.csv\n│   ├── garden.csv\n│   ├── kitchen.csv\n│   ├── room.csv\n│   ├── stump.csv\n│   └── treehill.csv\n├── SyntheticNeRF\n│   ├── chair.csv\n│   ├── drums.csv\n│   ├── ficus.csv\n│   ├── hotdog.csv\n│   ├── lego.csv \n│   ├── materials.csv\n│   ├── mic.csv\n│   └── ship.csv\n└── TanksAndTemples\n    ├── train.csv\n    └── truck.csv\n```",
+    "ContentSha": "zMqKET1pUZlFWXElbWdI8Nno16rIHFiOVpck0WaiDa4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nresults\n├── DeepBlending\n│   ├── drjohnson.csv\n│   └── playroom.csv\n├── MipNeRF360\n│   ├── bicycle.csv\n│   ├── bonsai.csv\n│   ├── counter.csv\n│   ├── flowers.csv\n│   ├── garden.csv\n│   ├── kitchen.csv\n│   ├── room.csv\n│   ├── stump.csv\n│   └── treehill.csv\n├── SyntheticNeRF\n│   ├── chair.csv\n│   ├── drums.csv\n│   ├── ficus.csv\n│   ├── hotdog.csv\n│   ├── lego.csv \n│   ├── materials.csv\n│   ├── mic.csv\n│   └── ship.csv\n└── TanksAndTemples\n    ├── train.csv\n    └── truck.csv\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "wJkUK8MYbe1yeGuifp6m0tokD7n9P+ebR57PjnNLKFA=",
+        "originContent": "results",
+        "translatedContent": "results"
+      },
+      {
+        "row": 3,
+        "rowsha": "HOYbKO5s0sYEH9n3I4i2F7wEFKYZpv/Dz5cfE2WbckQ=",
+        "originContent": "├── DeepBlending",
+        "translatedContent": "├── DeepBlending"
+      },
+      {
+        "row": 4,
+        "rowsha": "cQMiMI6ga1bcW8ml4U/n1213+cyp6Msd23MhiBzTopY=",
+        "originContent": "│   ├── drjohnson.csv",
+        "translatedContent": "│   ├── drjohnson.csv"
+      },
+      {
+        "row": 5,
+        "rowsha": "ABwh9HVft5RgRpubNLaA4o/1Qcsw7rKajtnbJqHhPWw=",
+        "originContent": "│   └── playroom.csv",
+        "translatedContent": "│   └── playroom.csv"
+      },
+      {
+        "row": 6,
+        "rowsha": "hhiW/BD4jK/3zQcIOxXAUlIx7dAhDJtvdz07Fh2pc7Q=",
+        "originContent": "├── MipNeRF360",
+        "translatedContent": "├── MipNeRF360"
+      },
+      {
+        "row": 7,
+        "rowsha": "wYUy3AXD8SqLQ5ipeoDh6braUT3pc6RxOzHZX131yLU=",
+        "originContent": "│   ├── bicycle.csv",
+        "translatedContent": "│   ├── bicycle.csv"
+      },
+      {
+        "row": 8,
+        "rowsha": "M3ZzdlufebsY798vFM5oW8bUg2K9U+U5nqquVkLAHgo=",
+        "originContent": "│   ├── bonsai.csv",
+        "translatedContent": "│   ├── bonsai.csv"
+      },
+      {
+        "row": 9,
+        "rowsha": "oQyOCaNy9AZIXr7iVmlydrs0lJNydiD73VISPs1fVho=",
+        "originContent": "│   ├── counter.csv",
+        "translatedContent": "│   ├── counter.csv"
+      },
+      {
+        "row": 10,
+        "rowsha": "lVYEh1yff+8VMKyJBwsXLYQD4j701dYG1yeW5DaRXiY=",
+        "originContent": "│   ├── flowers.csv",
+        "translatedContent": "│   ├── flowers.csv"
+      },
+      {
+        "row": 11,
+        "rowsha": "yLUMC8HwNBWMGA1lD9WP3zCrMsnTkeoEIXKtombNeao=",
+        "originContent": "│   ├── garden.csv",
+        "translatedContent": "│   ├── garden.csv"
+      },
+      {
+        "row": 12,
+        "rowsha": "KJhGaHKc8FAKH/v275/7zkxyPT2AnH3GdUrgJcqdDQg=",
+        "originContent": "│   ├── kitchen.csv",
+        "translatedContent": "│   ├── kitchen.csv"
+      },
+      {
+        "row": 13,
+        "rowsha": "gBAeGdkGyx94prleA7vLtqN1GIXGb3tfvHeCWnJH33w=",
+        "originContent": "│   ├── room.csv",
+        "translatedContent": "│   ├── room.csv"
+      },
+      {
+        "row": 14,
+        "rowsha": "RuMwWQSFegnT/OOwsN7b1pvGRyDOsumkD7GN94DUe9Q=",
+        "originContent": "│   ├── stump.csv",
+        "translatedContent": "│   ├── stump.csv"
+      },
+      {
+        "row": 15,
+        "rowsha": "moRL80PceHK3g9Nqmct4E56grd4qRmqbYhyF0Gy6GIc=",
+        "originContent": "│   └── treehill.csv",
+        "translatedContent": "│   └── treehill.csv"
+      },
+      {
+        "row": 16,
+        "rowsha": "Es3l8Ts31cqa1csloYy23NqCrTbtC+mpky5tl5/btC4=",
+        "originContent": "├── SyntheticNeRF",
+        "translatedContent": "├── SyntheticNeRF"
+      },
+      {
+        "row": 17,
+        "rowsha": "TrRgG6TPdWla6mb8Qi+zs4CY+t/sNhUFfGjczWaYcXA=",
+        "originContent": "│   ├── chair.csv",
+        "translatedContent": "│   ├── chair.csv"
+      },
+      {
+        "row": 18,
+        "rowsha": "b99aiBsmgRvl9NarSzkOjOM0kVG42ci0y02EhwlwujI=",
+        "originContent": "│   ├── drums.csv",
+        "translatedContent": "│   ├── drums.csv"
+      },
+      {
+        "row": 19,
+        "rowsha": "lhAD7HkT0gakagjmyI5/k7AhvGjWZjRYiy3jzSsZM1g=",
+        "originContent": "│   ├── ficus.csv",
+        "translatedContent": "│   ├── ficus.csv"
+      },
+      {
+        "row": 20,
+        "rowsha": "p/K7ghvkh2ZpWU6xJC7ZjlrJqqVNZmzVG7Rpo0mH1YY=",
+        "originContent": "│   ├── hotdog.csv",
+        "translatedContent": "│   ├── hotdog.csv"
+      },
+      {
+        "row": 21,
+        "rowsha": "MFisVVtet7lhQ+ZfseV2vAKtRU2r18ppyfmDel4v05A=",
+        "originContent": "│   ├── lego.csv ",
+        "translatedContent": "│   ├── lego.csv "
+      },
+      {
+        "row": 22,
+        "rowsha": "VzJ0WbeXoQV3gSfHCeVJR1RHbrgTITDVVQ7fRXS080s=",
+        "originContent": "│   ├── materials.csv",
+        "translatedContent": "│   ├── materials.csv"
+      },
+      {
+        "row": 23,
+        "rowsha": "PbTBfxRCX2iZpU3RxQp7DEAx5KeoEQ3/nJIJx2IdIH0=",
+        "originContent": "│   ├── mic.csv",
+        "translatedContent": "│   ├── mic.csv"
+      },
+      {
+        "row": 24,
+        "rowsha": "c+uI39sEpTMbH4tL85CguTK0YXhCr6ODRuKWegLFaS0=",
+        "originContent": "│   └── ship.csv",
+        "translatedContent": "│   └── ship.csv"
+      },
+      {
+        "row": 25,
+        "rowsha": "KMRsy4OfHt0Xd5+Bom0SLXLdyEzwdO42KHKJpY8PGPE=",
+        "originContent": "└── TanksAndTemples",
+        "translatedContent": "└── TanksAndTemples"
+      },
+      {
+        "row": 26,
+        "rowsha": "3YcMkvqkRiSTOpvC2WOaWnY0H1O81pf1uledGeRlJkA=",
+        "originContent": "    ├── train.csv",
+        "translatedContent": "    ├── train.csv"
+      },
+      {
+        "row": 27,
+        "rowsha": "5QjJwQ0jTqAGuzDIyTOqQrp3Anmbx+gC1u16llE3Evo=",
+        "originContent": "    └── truck.csv",
+        "translatedContent": "    └── truck.csv"
+      },
+      {
+        "row": 28,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nThe folder should include all datasets on which your method was evaluated and cover all scenes specified in the folder structure.\n\nEach CSV file should be structured as follows:\n",
+    "ContentSha": "DMaZTDjpFIznGGZB78/jvsZa6YXhX2Fkfjt8arMhpys=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "폴더에는 귀하의 방법이 평가된 모든 데이터셋이 포함되어야 하며 폴더 구조에 지정된 모든 장면을 포함해야 합니다.\n\n각 CSV 파일은 다음과 같이 구성되어야 합니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "폴더에는 귀하의 방법이 평가된 모든 데이터셋이 포함되어야 하며 폴더 구조에 지정된 모든 장면을 포함해야 합니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "PSj8KK+7vM4ugvgwrb7zDs8FfK4o+/ic65XqgkfJ8T8=",
+        "originContent": "The folder should include all datasets on which your method was evaluated and cover all scenes specified in the folder structure.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "각 CSV 파일은 다음과 같이 구성되어야 합니다:"
+      },
+      {
+        "row": 4,
+        "rowsha": "GJu8KmqceZhaRkPNdMg4NXQpFU9gZVEhz5TJfnZhxRY=",
+        "originContent": "Each CSV file should be structured as follows:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nSubmethod,PSNR,SSIM,LPIPS,Size [Bytes],#Gaussians\nBaseline,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx\n-SubmethodName,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx\n,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx\n,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx\n,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx\n\n```",
+    "ContentSha": "UeLr1Y3Rjz+holDa0rigyzLkh8cWJf0hR1rq2aalk9Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nSubmethod,PSNR,SSIM,LPIPS,Size [Bytes],#Gaussians\nBaseline,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx\n-SubmethodName,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx\n,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx\n,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx\n,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "bO8rAFbZypcS3OYYU0ZkLzkRIixuz+oem04Y1alDpN0=",
+        "originContent": "Submethod,PSNR,SSIM,LPIPS,Size [Bytes],#Gaussians",
+        "translatedContent": "Submethod,PSNR,SSIM,LPIPS,Size [Bytes],#Gaussians"
+      },
+      {
+        "row": 3,
+        "rowsha": "hd7z0G84OCtS0kvD1SqHQcsC/Fb2pxBpPXCk7e5jVvg=",
+        "originContent": "Baseline,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx",
+        "translatedContent": "Baseline,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx"
+      },
+      {
+        "row": 4,
+        "rowsha": "srTw0BedbcVcAe7zIbjfG1EJ2R7paTLjT6Eb+Xvx04Y=",
+        "originContent": "-SubmethodName,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx",
+        "translatedContent": "-SubmethodName,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx"
+      },
+      {
+        "row": 5,
+        "rowsha": "JJM3zDQcseSZ88Ndu31SuS8luhp3/A5+1YPGtTtYypE=",
+        "originContent": ",xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx",
+        "translatedContent": ",xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx"
+      },
+      {
+        "row": 6,
+        "rowsha": "JJM3zDQcseSZ88Ndu31SuS8luhp3/A5+1YPGtTtYypE=",
+        "originContent": ",xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx",
+        "translatedContent": ",xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx"
+      },
+      {
+        "row": 7,
+        "rowsha": "JJM3zDQcseSZ88Ndu31SuS8luhp3/A5+1YPGtTtYypE=",
+        "originContent": ",xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx",
+        "translatedContent": ",xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nPlease ensure that the PSNR results are reported with a precision of at least two decimal places, and that SSIM and LPIPS results are reported with a precision of at least three decimal places. Authors are encouraged to provide results with full precision, as these will be rounded before inclusion in our survey.\n\nInclude up to two consistent submethod names for your results across all files to ensure they appear in the survey table. These names will then be concatenated with the name of your approach in the table. If the submethod specifier should be separated from the method name with a space, make sure to include that space in front of the submethod name. If you prefer only the name of your approach to be displayed in the table, you can use \"Baseline\" as a submethod name for those results. Results without a submethod name will only be displayed in the plots.\n\nYou can view an example [here](https://github.com/fraunhoferhhi/Self-Organizing-Gaussians/tree/main/results).\n\n### Important: 3DGS testing conventions\n\nAuthors are required to adhere to the testing conventions established in the original [3DGS project](https://github.com/graphdeco-inria/gaussian-splatting). Specifically, this includes:\n\n- Using all 9 scenes from the MipNeRF360 dataset, including the [extra scenes](https://storage.googleapis.com/gresearch/refraw360/360_extra_scenes.zip) \"flowers\" and \"treehill\".\n- Evaluating images at full resolution up to a maximum side length of 1600px. Larger test images should be downscaled so that the longest dimension equals 1600px (applicable only to MipNeRF360). Make sure the resizing aligns with 3DGS, which applies the standard PIL ```.resize()``` method with bicubic resampling.  \n- For the 3 COLMAP datasets (Tanks and Temples, Deep Blending, MipNeRF360), use every 8th image for testing. Concretly, the test images are those where ```idx % 8 == 0```.\n- For the Blender dataset (SyntheticNeRF), follow the predefined train/eval split.\n\n\n## LaTeX Table\n\nUp-to-date LaTeX versions of the survey tables are available for [compression](https://github.com/w-m/3dgs-compression-survey/blob/main/data_extraction/latex/3dgs_table_compression.tex) and [compaction](https://github.com/w-m/3dgs-compression-survey/blob/main/data_extraction/latex/3dgs_table_densification.tex). Feel free to copy a line from the table into your research if you want to compare to the approach. Should you wish to copy the whole table you might need the following packages and definitions in your LaTeX preamble:",
+    "ContentSha": "wyEACb4akv5WZE4q3TYCzU7IdcnjRgx+Raa/xZa6NK0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "PSNR 결과는 소수점 이하 두 자리 이상, SSIM 및 LPIPS 결과는 소수점 이하 세 자리 이상으로 보고해야 합니다. 저자들은 전체 정밀도로 결과를 제공하는 것이 권장되며, 이는 설문 조사에 포함되기 전에 반올림됩니다.\n\n결과가 설문 조사 표에 나타나도록 모든 파일에서 일관된 하위 방법 이름을 최대 두 개까지 포함하세요. 이 이름들은 표에서 귀하의 접근법 이름과 연결됩니다. 하위 방법 지정자가 방법 이름과 공백으로 구분되어야 한다면, 하위 방법 이름 앞에 공백을 반드시 포함하세요. 표에 접근법 이름만 표시하려면 해당 결과에 대해 \"Baseline\"을 하위 방법 이름으로 사용할 수 있습니다. 하위 방법 이름이 없는 결과는 플롯에만 표시됩니다.\n\n예시는 [여기](https://github.com/fraunhoferhhi/Self-Organizing-Gaussians/tree/main/results)에서 확인할 수 있습니다.\n\n### 중요: 3DGS 테스트 규칙\n\n저자들은 원본 [3DGS 프로젝트](https://github.com/graphdeco-inria/gaussian-splatting)에서 정한 테스트 규칙을 준수해야 합니다. 구체적으로 다음을 포함합니다:\n\n- MipNeRF360 데이터셋의 모든 9개 장면과 [추가 장면](https://storage.googleapis.com/gresearch/refraw360/360_extra_scenes.zip) \"flowers\" 및 \"treehill\"을 사용합니다.\n- 최대 길이가 1600픽셀까지 원본 해상도로 이미지를 평가합니다. 더 큰 테스트 이미지는 가장 긴 변이 1600픽셀이 되도록 축소해야 합니다(MipNeRF360에만 적용). 크기 조정은 3DGS와 일치하도록 표준 PIL ```.resize()``` 메서드와 바이큐빅 리샘플링을 사용해야 합니다.  \n- 3개의 COLMAP 데이터셋(탱크와 템플, 딥 블렌딩, MipNeRF360)에서는 8번째 이미지마다 하나씩 테스트에 사용합니다. 구체적으로 테스트 이미지는 ```idx % 8 == 0```인 이미지입니다.\n- Blender 데이터셋(SyntheticNeRF)은 미리 정의된 학습/평가 분할을 따릅니다.\n\n## LaTeX 표\n\n최신 LaTeX 버전의 설문 조사 표는 [압축](https://github.com/w-m/3dgs-compression-survey/blob/main/data_extraction/latex/3dgs_table_compression.tex) 및 [조밀화](https://github.com/w-m/3dgs-compression-survey/blob/main/data_extraction/latex/3dgs_table_densification.tex)용으로 제공됩니다. 접근법과 비교하려면 표에서 한 줄을 복사해 연구에 활용하세요. 전체 표를 복사하려면 LaTeX 머리말에 다음 패키지와 정의가 필요할 수 있습니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "PSNR 결과는 소수점 이하 두 자리 이상, SSIM 및 LPIPS 결과는 소수점 이하 세 자리 이상으로 보고해야 합니다. 저자들은 전체 정밀도로 결과를 제공하는 것이 권장되며, 이는 설문 조사에 포함되기 전에 반올림됩니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "+8v964famf6Yd4Obqu1DQgfrrW1cQu6lfbHT8v5ghuk=",
+        "originContent": "Please ensure that the PSNR results are reported with a precision of at least two decimal places, and that SSIM and LPIPS results are reported with a precision of at least three decimal places. Authors are encouraged to provide results with full precision, as these will be rounded before inclusion in our survey.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "결과가 설문 조사 표에 나타나도록 모든 파일에서 일관된 하위 방법 이름을 최대 두 개까지 포함하세요. 이 이름들은 표에서 귀하의 접근법 이름과 연결됩니다. 하위 방법 지정자가 방법 이름과 공백으로 구분되어야 한다면, 하위 방법 이름 앞에 공백을 반드시 포함하세요. 표에 접근법 이름만 표시하려면 해당 결과에 대해 \"Baseline\"을 하위 방법 이름으로 사용할 수 있습니다. 하위 방법 이름이 없는 결과는 플롯에만 표시됩니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "Ww+PatSH3ZQgSckhId5QA993IXILupUqxCjT38aSNlo=",
+        "originContent": "Include up to two consistent submethod names for your results across all files to ensure they appear in the survey table. These names will then be concatenated with the name of your approach in the table. If the submethod specifier should be separated from the method name with a space, make sure to include that space in front of the submethod name. If you prefer only the name of your approach to be displayed in the table, you can use \"Baseline\" as a submethod name for those results. Results without a submethod name will only be displayed in the plots.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "예시는 [여기](https://github.com/fraunhoferhhi/Self-Organizing-Gaussians/tree/main/results)에서 확인할 수 있습니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "ZONKPin16aioMfS6suAypbHPTKU6gioxLy7OS2Lnd8g=",
+        "originContent": "You can view an example [here](https://github.com/fraunhoferhhi/Self-Organizing-Gaussians/tree/main/results).",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 중요: 3DGS 테스트 규칙"
+      },
+      {
+        "row": 8,
+        "rowsha": "jBwwJj1Vfh2dk7DSAh2VFwH00iyPAACMazvhiVUW0HI=",
+        "originContent": "### Important: 3DGS testing conventions",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "저자들은 원본 [3DGS 프로젝트](https://github.com/graphdeco-inria/gaussian-splatting)에서 정한 테스트 규칙을 준수해야 합니다. 구체적으로 다음을 포함합니다:"
+      },
+      {
+        "row": 10,
+        "rowsha": "qE1zSPHck0h9rKo7lfAyBKv//UHqdDmNi0cuY3gXbS0=",
+        "originContent": "Authors are required to adhere to the testing conventions established in the original [3DGS project](https://github.com/graphdeco-inria/gaussian-splatting). Specifically, this includes:",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- MipNeRF360 데이터셋의 모든 9개 장면과 [추가 장면](https://storage.googleapis.com/gresearch/refraw360/360_extra_scenes.zip) \"flowers\" 및 \"treehill\"을 사용합니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "6Ywo911DLhP76MuDCoQ4fJw3xUrrQ14Wlr1jkeOO2EQ=",
+        "originContent": "- Using all 9 scenes from the MipNeRF360 dataset, including the [extra scenes](https://storage.googleapis.com/gresearch/refraw360/360_extra_scenes.zip) \"flowers\" and \"treehill\".",
+        "translatedContent": "- 최대 길이가 1600픽셀까지 원본 해상도로 이미지를 평가합니다. 더 큰 테스트 이미지는 가장 긴 변이 1600픽셀이 되도록 축소해야 합니다(MipNeRF360에만 적용). 크기 조정은 3DGS와 일치하도록 표준 PIL ```.resize()``` 메서드와 바이큐빅 리샘플링을 사용해야 합니다.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "jOqTX40NJCMHjDjfVSgb/41UrXfnmM0kFRCZ+QZM60A=",
+        "originContent": "- Evaluating images at full resolution up to a maximum side length of 1600px. Larger test images should be downscaled so that the longest dimension equals 1600px (applicable only to MipNeRF360). Make sure the resizing aligns with 3DGS, which applies the standard PIL ```.resize()``` method with bicubic resampling.  ",
+        "translatedContent": "- 3개의 COLMAP 데이터셋(탱크와 템플, 딥 블렌딩, MipNeRF360)에서는 8번째 이미지마다 하나씩 테스트에 사용합니다. 구체적으로 테스트 이미지는 ```idx % 8 == 0```인 이미지입니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "pcXz7vfdIaxibH2pjB7H4Zlem0eVK5BlK+IS/AYnerw=",
+        "originContent": "- For the 3 COLMAP datasets (Tanks and Temples, Deep Blending, MipNeRF360), use every 8th image for testing. Concretly, the test images are those where ```idx % 8 == 0```.",
+        "translatedContent": "- Blender 데이터셋(SyntheticNeRF)은 미리 정의된 학습/평가 분할을 따릅니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "R7QULIAJitM+ytGNXIslCQZVoyzcKoZNlD4LEW5EopU=",
+        "originContent": "- For the Blender dataset (SyntheticNeRF), follow the predefined train/eval split.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## LaTeX 표"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "ZhmtdJSrvtHfPZiC8QtDK1O8sUe8xdM4fSNYPEcMkVM=",
+        "originContent": "## LaTeX Table",
+        "translatedContent": "최신 LaTeX 버전의 설문 조사 표는 [압축](https://github.com/w-m/3dgs-compression-survey/blob/main/data_extraction/latex/3dgs_table_compression.tex) 및 [조밀화](https://github.com/w-m/3dgs-compression-survey/blob/main/data_extraction/latex/3dgs_table_densification.tex)용으로 제공됩니다. 접근법과 비교하려면 표에서 한 줄을 복사해 연구에 활용하세요. 전체 표를 복사하려면 LaTeX 머리말에 다음 패키지와 정의가 필요할 수 있습니다:"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "53PYYMMacIqI7GBXXcVEbGMCbF2zFW70p3BlYt/6Otc=",
+        "originContent": "Up-to-date LaTeX versions of the survey tables are available for [compression](https://github.com/w-m/3dgs-compression-survey/blob/main/data_extraction/latex/3dgs_table_compression.tex) and [compaction](https://github.com/w-m/3dgs-compression-survey/blob/main/data_extraction/latex/3dgs_table_densification.tex). Feel free to copy a line from the table into your research if you want to compare to the approach. Should you wish to copy the whole table you might need the following packages and definitions in your LaTeX preamble:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\n\\usepackage{booktabs}\n\\usepackage[table]{xcolor}\n% colors for table\n\\definecolor{lightred}{HTML}{FF9999}\n\\definecolor{lightyellow}{HTML}{FFFF99}\n\\definecolor{lightorange}{HTML}{FFCC99}\n\\usepackage{makecell}\n\\usepackage{adjustbox}\n% make text the same size even when its bold in a table\n\\newsavebox\\CBox\n\\def\\textBF#1{\\sbox\\CBox{#1}\\resizebox{\\wd\\CBox}{\\ht\\CBox}{\\textbf{#1}}}\n```",
+    "ContentSha": "jQYC4/AoqEC7h6xiiprxGQp3IQr6LM+DlpflSC19Xns=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\\usepackage{booktabs}\n\\usepackage[table]{xcolor}\n% colors for table\n\\definecolor{lightred}{HTML}{FF9999}\n\\definecolor{lightyellow}{HTML}{FFFF99}\n\\definecolor{lightorange}{HTML}{FFCC99}\n\\usepackage{makecell}\n\\usepackage{adjustbox}\n% make text the same size even when its bold in a table\n\\newsavebox\\CBox\n\\def\\textBF#1{\\sbox\\CBox{#1}\\resizebox{\\wd\\CBox}{\\ht\\CBox}{\\textbf{#1}}}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "opsbPiqp7sNnPDz7j03lNulHHJcyysfwW3GL38LbeeQ=",
+        "originContent": "\\usepackage{booktabs}",
+        "translatedContent": "\\usepackage{booktabs}"
+      },
+      {
+        "row": 3,
+        "rowsha": "vzWCkxkHZxDLaFEpxTIs7UqO1w6y4dhWvPw1Sql30Nc=",
+        "originContent": "\\usepackage[table]{xcolor}",
+        "translatedContent": "\\usepackage[table]{xcolor}"
+      },
+      {
+        "row": 4,
+        "rowsha": "CyMe2D5LcEO+cJAKkobpXpzik0xYa61/kC3LeohrR6U=",
+        "originContent": "% colors for table",
+        "translatedContent": "% colors for table"
+      },
+      {
+        "row": 5,
+        "rowsha": "mzmmpRil01lxzbdFsm9V53eJklLmtMJ2LrDw+UhXG3c=",
+        "originContent": "\\definecolor{lightred}{HTML}{FF9999}",
+        "translatedContent": "\\definecolor{lightred}{HTML}{FF9999}"
+      },
+      {
+        "row": 6,
+        "rowsha": "MqzrCN1J9hj1saENkVCf9G/KVaCVCKrrE6FQTlIhtFg=",
+        "originContent": "\\definecolor{lightyellow}{HTML}{FFFF99}",
+        "translatedContent": "\\definecolor{lightyellow}{HTML}{FFFF99}"
+      },
+      {
+        "row": 7,
+        "rowsha": "Oz52Uny/9GLD7iIDspbi5kqk025E1lN25MIuEaHFnsg=",
+        "originContent": "\\definecolor{lightorange}{HTML}{FFCC99}",
+        "translatedContent": "\\definecolor{lightorange}{HTML}{FFCC99}"
+      },
+      {
+        "row": 8,
+        "rowsha": "epBS0MrG3OJbPJ3M05tezyGTSthSA0BgIm2TaJlPVNc=",
+        "originContent": "\\usepackage{makecell}",
+        "translatedContent": "\\usepackage{makecell}"
+      },
+      {
+        "row": 9,
+        "rowsha": "hMASsIPdq2C2jKLS+DIxHplivBVDOJz5aXjp90lN4Fk=",
+        "originContent": "\\usepackage{adjustbox}",
+        "translatedContent": "\\usepackage{adjustbox}"
+      },
+      {
+        "row": 10,
+        "rowsha": "Cpl3orLfabtuLf7ZdEtg4ogcCspffFg73Z/yaufRtvw=",
+        "originContent": "% make text the same size even when its bold in a table",
+        "translatedContent": "% make text the same size even when its bold in a table"
+      },
+      {
+        "row": 11,
+        "rowsha": "w1VhSDHv1G1coCX+imSYsDMagWr0m/jAU5jPa2Sc5YA=",
+        "originContent": "\\newsavebox\\CBox",
+        "translatedContent": "\\newsavebox\\CBox"
+      },
+      {
+        "row": 12,
+        "rowsha": "Li0CIHJvrLaMv1qDqIyZD2CJSsE/LGFSm3d6cU/a5zU=",
+        "originContent": "\\def\\textBF#1{\\sbox\\CBox{#1}\\resizebox{\\wd\\CBox}{\\ht\\CBox}{\\textbf{#1}}}",
+        "translatedContent": "\\def\\textBF#1{\\sbox\\CBox{#1}\\resizebox{\\wd\\CBox}{\\ht\\CBox}{\\textbf{#1}}}"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## Citation\n\nIf you use our survey in your research, please cite our work. You can use the following BibTeX entry:\n",
+    "ContentSha": "csV7kMHArfFnRkNClfL879H8ZeLgyCPVnveYPvcZOvE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 인용\n\n연구에 본 설문조사를 사용하신 경우, 저희 작업을 인용해 주시기 바랍니다. 다음의 BibTeX 항목을 사용하실 수 있습니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## 인용"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Srpc1k5+RYHtTZbRyaKm1+SAgi35vAPkHnw017FJb0g=",
+        "originContent": "If you use our survey in your research, please cite our work. You can use the following BibTeX entry:",
+        "translatedContent": "연구에 본 설문조사를 사용하신 경우, 저희 작업을 인용해 주시기 바랍니다. 다음의 BibTeX 항목을 사용하실 수 있습니다:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bibtex\n@article{3DGSzip2025,\nauthor = {Bagdasarian, M. T. and Knoll, P. and Li, Y. and Barthel, F. and Hilsmann, A. and Eisert, P. and Morgenstern, W.},\ntitle = {{3DGS.zip}: A {Survey} on {3D} {Gaussian} {Splatting} {Compression} {Methods}},\njournal = {Computer Graphics Forum},\npages = {e70078},\nyear = {2025},\nkeywords = {CCS Concepts, • Information systems → Data compression, • Computing methodologies → Rasterization, • General and reference → Surveys and overviews},\ndoi = {https://doi.org/10.1111/cgf.70078},\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.70078},\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70078},\nnote = {\\url{https://w-m.github.io/3dgs-compression-survey/}},\n} \n```",
+    "ContentSha": "CYdCVEoHB+7VbfccI32YWsnV55hQ97AaHeeimP3O+x4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@article{3DGSzip2025,\nauthor = {Bagdasarian, M. T. and Knoll, P. and Li, Y. and Barthel, F. and Hilsmann, A. and Eisert, P. and Morgenstern, W.},\ntitle = {{3DGS.zip}: A {Survey} on {3D} {Gaussian} {Splatting} {Compression} {Methods}},\njournal = {Computer Graphics Forum},\npages = {e70078},\nyear = {2025},\nkeywords = {CCS Concepts, • Information systems → Data compression, • Computing methodologies → Rasterization, • General and reference → Surveys and overviews},\ndoi = {https://doi.org/10.1111/cgf.70078},\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.70078},\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70078},\nnote = {\\url{https://w-m.github.io/3dgs-compression-survey/}},\n} \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "6dx4RmDg1ct98YNpl1DDRP7R9w536n7kSJD+Q23HqBY=",
+        "originContent": "@article{3DGSzip2025,",
+        "translatedContent": "@article{3DGSzip2025,"
+      },
+      {
+        "row": 3,
+        "rowsha": "oLhjgfYqqlU5LKdfYO0Dkam7D7Rvj1JXL8XsVTaWDKM=",
+        "originContent": "author = {Bagdasarian, M. T. and Knoll, P. and Li, Y. and Barthel, F. and Hilsmann, A. and Eisert, P. and Morgenstern, W.},",
+        "translatedContent": "author = {Bagdasarian, M. T. and Knoll, P. and Li, Y. and Barthel, F. and Hilsmann, A. and Eisert, P. and Morgenstern, W.},"
+      },
+      {
+        "row": 4,
+        "rowsha": "Zss4i5NXxgj7rfMDKAhLR9LBtmaC06Qu/GXoRnzVeoI=",
+        "originContent": "title = {{3DGS.zip}: A {Survey} on {3D} {Gaussian} {Splatting} {Compression} {Methods}},",
+        "translatedContent": "title = {{3DGS.zip}: A {Survey} on {3D} {Gaussian} {Splatting} {Compression} {Methods}},"
+      },
+      {
+        "row": 5,
+        "rowsha": "o/+rgLdStlyZ+UOhtDX8L+1V17M24VavFXBQuUgW7h8=",
+        "originContent": "journal = {Computer Graphics Forum},",
+        "translatedContent": "journal = {Computer Graphics Forum},"
+      },
+      {
+        "row": 6,
+        "rowsha": "ysvrkt4V47HZU4CqFvDK60fR2/AhF5NXtstk10EHopI=",
+        "originContent": "pages = {e70078},",
+        "translatedContent": "pages = {e70078},"
+      },
+      {
+        "row": 7,
+        "rowsha": "36hvkN+0cMEiQxiZuadcNw9+3DP5onK0Xg4EorzQfXM=",
+        "originContent": "year = {2025},",
+        "translatedContent": "year = {2025},"
+      },
+      {
+        "row": 8,
+        "rowsha": "jNXjUdFDYc46vX/sHGvEIUEHMxqC2nCqi+VTDX6jYsI=",
+        "originContent": "keywords = {CCS Concepts, • Information systems → Data compression, • Computing methodologies → Rasterization, • General and reference → Surveys and overviews},",
+        "translatedContent": "keywords = {CCS Concepts, • Information systems → Data compression, • Computing methodologies → Rasterization, • General and reference → Surveys and overviews},"
+      },
+      {
+        "row": 9,
+        "rowsha": "px6VyFYTL2pBDWayo9NAoN+N2gqwws1l+p7HBvAsfK4=",
+        "originContent": "doi = {https://doi.org/10.1111/cgf.70078},",
+        "translatedContent": "doi = {https://doi.org/10.1111/cgf.70078},"
+      },
+      {
+        "row": 10,
+        "rowsha": "QUdQK1XiXGJTL5wbQzvoWtJioqtwfR70Qvrk4bPNbtw=",
+        "originContent": "url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.70078},",
+        "translatedContent": "url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.70078},"
+      },
+      {
+        "row": 11,
+        "rowsha": "h3HOLisYINBkItUasrrLjD/WKtF5f4+7jYjFZMVT5v4=",
+        "originContent": "eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70078},",
+        "translatedContent": "eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70078},"
+      },
+      {
+        "row": 12,
+        "rowsha": "QHvVG6RiRgI1x+lUrFw9YBzW3VFB7DmBaou677BlPYc=",
+        "originContent": "note = {\\url{https://w-m.github.io/3dgs-compression-survey/}},",
+        "translatedContent": "note = {\\url{https://w-m.github.io/3dgs-compression-survey/}},"
+      },
+      {
+        "row": 13,
+        "rowsha": "c9sMbRGvB+HvAYM3Gme/mQpDmPSfFNd6+lcjnFTjkgs=",
+        "originContent": "} ",
+        "translatedContent": "} "
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Updates\n- 2025-04-29: Article published, updated bibtex in Readme and on website\n- 2025-03-04: Added GaussianSpa Summary (provided by authors).\n- 2025-02-26: Added HEMGS\n- 2025-02-25: Added GaussianSpa\n- 2025-02-25: Added HAC++\n- 2025-02-25: Added FCGS\n- 2025-02-10: Removed IGS as the publication is withdrawn\n- 2025-02-05: Added CodecGS\n- 2024-11-21: Added ContextGS\n- 2024-11-07: Added CompGS\n- 2024-11-05: Updated [arXiv](https://arxiv.org/abs/2407.09510) version with compression and compaction methods and a fundamentals of 3DGS compression\n- 2024-10-21: Officially rename \"densification\" methods to \"compaction\" methods on website to align with survey paper\n- 2024-10-17: Add GaussiansPro, AtomGS and Taming3DGS to densification/compaction methods\n- 2024-10-14: Add MesonGS to compression methods\n- 2024-09-30: Add densification methods to survey\n- 2024-09-17: Updated Morgenstern et al. results and reverted HAC results because of [confusion about testing conventions](https://github.com/YihangChen-ee/HAC/issues/14)\n- 2024-09-05: Update Scaffold-GS MipNeRF-360 results to include all 9 scenes\n- 2024-08-27: Add IGS method to survey\n- 2024-08-26: Add gsplat method to survey\n- 2024-08-14: Adaptive ranks based on attribute and dataset selection\n- 2024-08-12: New plots to show metrics over number of Gaussians instead of model size\n- 2024-08-08: Add checkboxes to select metrics and datasets to be shown in table\n- 2024-08-07: Include number of Gaussians in survey, include bits per Gaussian in table\n- 2024-08-02: Show conferences of published papers\n- 2024-06-19: New rank calculation with all available datasets\n- 2024-06-17: Include ranks of methods\n- 2024-06-17: Initial publication of survey on [arXiv](https://arxiv.org/abs/2407.09510)\n- 2024-06-13: Add plots of metrics over model size\n- 2024-06-10: First draft of survey page with interactive table\n\n\n<!-- - 2024-08-22: Released pre-trained, [compressed scenes](https://github.com/fraunhoferhhi/Self-Organizing-Gaussians/releases/tag/eccv-2024-data)\n- 2024-07-09: Project website updated with TLDR, contributions, insights and comparison to concurrent methods\n- 2024-07-01: Our work was accepted at **ECCV 2024** 🥳\n- 2024-06-13: Training code available\n- 2024-05-14: Improved compression scores! New results for paper v2 available on the [project website](https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/)\n- 2024-05-02: Revised [paper v2](https://arxiv.org/pdf/2312.13299) on arXiv: Added compression of spherical harmonics, updated compression method with improved results (all attributes compressed with JPEG XL now), added qualitative comparison of additional scenes, moved compression explanation and comparison to main paper, added comparison with \"Making Gaussian Splats smaller\".\n- 2024-02-22: The code for the sorting algorithm is now available at [fraunhoferhhi/PLAS](https://github.com/fraunhoferhhi/PLAS)\n- 2024-02-21: Video comparisons for different scenes available on the [project website](https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/)\n- 2023-12-19: Preprint available on [arXiv](https://arxiv.org/abs/2312.13299) -->\n",
+    "ContentSha": "blwZ2sa2mp6TvNOOJCP8UCLdG85NdNq+IK3I1fDTpKc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 업데이트\n- 2025-04-29: 논문 게재, Readme 및 웹사이트의 bibtex 업데이트\n- 2025-03-04: GaussianSpa 요약 추가 (저자 제공)\n- 2025-02-26: HEMGS 추가\n- 2025-02-25: GaussianSpa 추가\n- 2025-02-25: HAC++ 추가\n- 2025-02-25: FCGS 추가\n- 2025-02-10: 출판 철회로 IGS 제거\n- 2025-02-05: CodecGS 추가\n- 2024-11-21: ContextGS 추가\n- 2024-11-07: CompGS 추가\n- 2024-11-05: [arXiv](https://arxiv.org/abs/2407.09510) 버전 업데이트: 압축 및 압축 방법과 3DGS 압축 기본 내용 포함\n- 2024-10-21: 웹사이트에서 \"densification\" 용어를 설문조사 논문에 맞게 \"compaction\"으로 공식 변경\n- 2024-10-17: GaussiansPro, AtomGS, Taming3DGS를 densification/compaction 방법에 추가\n- 2024-10-14: MesonGS를 압축 방법에 추가\n- 2024-09-30: 설문조사에 densification 방법 추가\n- 2024-09-17: Morgenstern 등 결과 업데이트 및 HAC 결과는 [테스트 규약 혼동](https://github.com/YihangChen-ee/HAC/issues/14)으로 복원\n- 2024-09-05: Scaffold-GS MipNeRF-360 결과를 9개 장면 전체 포함하도록 업데이트\n- 2024-08-27: 설문조사에 IGS 방법 추가\n- 2024-08-26: 설문조사에 gsplat 방법 추가\n- 2024-08-14: 속성 및 데이터셋 선택에 따른 적응형 랭크 도입\n- 2024-08-12: 모델 크기 대신 가우시안 수에 따른 지표 플롯 추가\n- 2024-08-08: 표에 표시할 지표 및 데이터셋 선택용 체크박스 추가\n- 2024-08-07: 설문조사에 가우시안 수 포함, 표에 가우시안당 비트 포함\n- 2024-08-02: 논문 발표 학회 표시\n- 2024-06-19: 사용 가능한 모든 데이터셋을 이용한 새로운 랭크 계산\n- 2024-06-17: 방법들의 랭크 포함\n- 2024-06-17: [arXiv](https://arxiv.org/abs/2407.09510)에서 설문조사 초판 공개\n- 2024-06-13: 모델 크기에 따른 지표 플롯 추가\n- 2024-06-10: 대화형 표가 포함된 설문조사 페이지 초안 작성\n\n\n<!-- - 2024-08-22: 사전 학습된 [압축 장면](https://github.com/fraunhoferhhi/Self-Organizing-Gaussians/releases/tag/eccv-2024-data) 공개\n- 2024-07-09: TLDR, 기여, 인사이트 및 동시대 방법과의 비교를 포함한 프로젝트 웹사이트 업데이트\n- 2024-07-01: 본 연구가 **ECCV 2024**에 채택됨 🥳\n- 2024-06-13: 학습 코드 공개\n- 2024-05-14: 압축 점수 향상! 논문 v2의 새로운 결과가 [프로젝트 웹사이트](https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/)에 공개됨\n- 2024-05-02: arXiv에 수정된 [논문 v2](https://arxiv.org/pdf/2312.13299) 공개: 구면 조화 압축 추가, 개선된 압축 방법 및 결과 업데이트 (모든 속성이 JPEG XL로 압축됨), 추가 장면의 정성적 비교 추가, 압축 설명 및 비교를 본 논문으로 이동, \"Making Gaussian Splats smaller\"와 비교 추가.\n- 2024-02-22: 정렬 알고리즘 코드가 [fraunhoferhhi/PLAS](https://github.com/fraunhoferhhi/PLAS)에서 공개됨\n- 2024-02-21: 다양한 장면에 대한 비디오 비교가 [프로젝트 웹사이트](https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/)에 공개됨\n- 2023-12-19: [arXiv](https://arxiv.org/abs/2312.13299)에 사전 인쇄본 공개 -->\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 업데이트"
+      },
+      {
+        "row": 2,
+        "rowsha": "33rz/QaTx1fSJq1J/I+4UruMGDlkyUTWsPmF1Y9FSSI=",
+        "originContent": "## Updates",
+        "translatedContent": "- 2025-04-29: 논문 게재, Readme 및 웹사이트의 bibtex 업데이트"
+      },
+      {
+        "row": 3,
+        "rowsha": "TcRF4xgooU+zkrOKyolMrp6oB3vz5imiRezeaRw61nQ=",
+        "originContent": "- 2025-04-29: Article published, updated bibtex in Readme and on website",
+        "translatedContent": "- 2025-03-04: GaussianSpa 요약 추가 (저자 제공)"
+      },
+      {
+        "row": 4,
+        "rowsha": "fEHUVdR55Q2cs6ezrHUnb8rvmQrAYRLG4PwAbX9XjdI=",
+        "originContent": "- 2025-03-04: Added GaussianSpa Summary (provided by authors).",
+        "translatedContent": "- 2025-02-26: HEMGS 추가"
+      },
+      {
+        "row": 5,
+        "rowsha": "Q21vIxGxpREO1RXEmUYjDEaIG3b2txij2Lg6vTb8Uj8=",
+        "originContent": "- 2025-02-26: Added HEMGS",
+        "translatedContent": "- 2025-02-25: GaussianSpa 추가"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ln6p+x/7GDbQAMv8FCj5wKvecUoZmvtubiDJ+KKoP6I=",
+        "originContent": "- 2025-02-25: Added GaussianSpa",
+        "translatedContent": "- 2025-02-25: HAC++ 추가"
+      },
+      {
+        "row": 7,
+        "rowsha": "SS09uPoDEiiFcWrtSN0Anlly/eY8mDygl4WqaMpaWI4=",
+        "originContent": "- 2025-02-25: Added HAC++",
+        "translatedContent": "- 2025-02-25: FCGS 추가"
+      },
+      {
+        "row": 8,
+        "rowsha": "Ise7pzhwm7EqlIliugzrMPqMfw9IxM89lyE4wZyBlB0=",
+        "originContent": "- 2025-02-25: Added FCGS",
+        "translatedContent": "- 2025-02-10: 출판 철회로 IGS 제거"
+      },
+      {
+        "row": 9,
+        "rowsha": "6Kb1LzLysTn3tOYa2IE1O+scgVnRQSdHSiiMte/ayBA=",
+        "originContent": "- 2025-02-10: Removed IGS as the publication is withdrawn",
+        "translatedContent": "- 2025-02-05: CodecGS 추가"
+      },
+      {
+        "row": 10,
+        "rowsha": "5FHQ9ZCDEiz2Njmx/YPp1TMemIcNzBpoQVY1ALH6is8=",
+        "originContent": "- 2025-02-05: Added CodecGS",
+        "translatedContent": "- 2024-11-21: ContextGS 추가"
+      },
+      {
+        "row": 11,
+        "rowsha": "bE8beD5cpBAPDfKFh3B4wcyLY2WR1VyDcd05LRc4RsY=",
+        "originContent": "- 2024-11-21: Added ContextGS",
+        "translatedContent": "- 2024-11-07: CompGS 추가"
+      },
+      {
+        "row": 12,
+        "rowsha": "WAE8XTyHk43cqwWwivYl09cNUMQBGcK2M/XLkUMCMJc=",
+        "originContent": "- 2024-11-07: Added CompGS",
+        "translatedContent": "- 2024-11-05: [arXiv](https://arxiv.org/abs/2407.09510) 버전 업데이트: 압축 및 압축 방법과 3DGS 압축 기본 내용 포함"
+      },
+      {
+        "row": 13,
+        "rowsha": "m0O6bo9Rp3mlUizldJk3SEtfG5MNlo0irvdUPxVmSkY=",
+        "originContent": "- 2024-11-05: Updated [arXiv](https://arxiv.org/abs/2407.09510) version with compression and compaction methods and a fundamentals of 3DGS compression",
+        "translatedContent": "- 2024-10-21: 웹사이트에서 \"densification\" 용어를 설문조사 논문에 맞게 \"compaction\"으로 공식 변경"
+      },
+      {
+        "row": 14,
+        "rowsha": "5jtY/VJ/pwRc4QEAv2PtGYayZSddpqhsF1WS5V43Y1k=",
+        "originContent": "- 2024-10-21: Officially rename \"densification\" methods to \"compaction\" methods on website to align with survey paper",
+        "translatedContent": "- 2024-10-17: GaussiansPro, AtomGS, Taming3DGS를 densification/compaction 방법에 추가"
+      },
+      {
+        "row": 15,
+        "rowsha": "glJ4V2aD3twG5vYDH2yHFE4ZWX8q8VP4rutPw+ACoos=",
+        "originContent": "- 2024-10-17: Add GaussiansPro, AtomGS and Taming3DGS to densification/compaction methods",
+        "translatedContent": "- 2024-10-14: MesonGS를 압축 방법에 추가"
+      },
+      {
+        "row": 16,
+        "rowsha": "2Xz87y4MbgvgKDcf0IPDdy5ucdKmx27tnmM+upH1DNk=",
+        "originContent": "- 2024-10-14: Add MesonGS to compression methods",
+        "translatedContent": "- 2024-09-30: 설문조사에 densification 방법 추가"
+      },
+      {
+        "row": 17,
+        "rowsha": "VEAT4XR5x+fZQlW8ad9UKOMXzhvTOkdhG6OSVf/BiuE=",
+        "originContent": "- 2024-09-30: Add densification methods to survey",
+        "translatedContent": "- 2024-09-17: Morgenstern 등 결과 업데이트 및 HAC 결과는 [테스트 규약 혼동](https://github.com/YihangChen-ee/HAC/issues/14)으로 복원"
+      },
+      {
+        "row": 18,
+        "rowsha": "7M2vH8C9rKKSBGZ/WTkrXMhtod95fB47FdKAtPGeJL8=",
+        "originContent": "- 2024-09-17: Updated Morgenstern et al. results and reverted HAC results because of [confusion about testing conventions](https://github.com/YihangChen-ee/HAC/issues/14)",
+        "translatedContent": "- 2024-09-05: Scaffold-GS MipNeRF-360 결과를 9개 장면 전체 포함하도록 업데이트"
+      },
+      {
+        "row": 19,
+        "rowsha": "6j5NYK/c40VFU6pmU0o9u/NDZoTgWk/cEkJkRyDlOh8=",
+        "originContent": "- 2024-09-05: Update Scaffold-GS MipNeRF-360 results to include all 9 scenes",
+        "translatedContent": "- 2024-08-27: 설문조사에 IGS 방법 추가"
+      },
+      {
+        "row": 20,
+        "rowsha": "rqRyWrrZR+7mv47b4LaYw/+XvMR/aZ9NRTyWZ6q7rfc=",
+        "originContent": "- 2024-08-27: Add IGS method to survey",
+        "translatedContent": "- 2024-08-26: 설문조사에 gsplat 방법 추가"
+      },
+      {
+        "row": 21,
+        "rowsha": "pwCYfv6VRsUrh9Oej+wiv663ut2NFeKOq5xOOwyV8W4=",
+        "originContent": "- 2024-08-26: Add gsplat method to survey",
+        "translatedContent": "- 2024-08-14: 속성 및 데이터셋 선택에 따른 적응형 랭크 도입"
+      },
+      {
+        "row": 22,
+        "rowsha": "AJSvZD2aQcdByriOsLsY+pDZK6jVUsFzSDtlBr9iXj8=",
+        "originContent": "- 2024-08-14: Adaptive ranks based on attribute and dataset selection",
+        "translatedContent": "- 2024-08-12: 모델 크기 대신 가우시안 수에 따른 지표 플롯 추가"
+      },
+      {
+        "row": 23,
+        "rowsha": "yCuWn2kO9PWIpJpC6xjagqwlHYgdgvRekL0/n6k4uow=",
+        "originContent": "- 2024-08-12: New plots to show metrics over number of Gaussians instead of model size",
+        "translatedContent": "- 2024-08-08: 표에 표시할 지표 및 데이터셋 선택용 체크박스 추가"
+      },
+      {
+        "row": 24,
+        "rowsha": "gw1j+Bf7Q4DqWJREHs6ubpN38Jgo3rzaJx3eMPW1BEM=",
+        "originContent": "- 2024-08-08: Add checkboxes to select metrics and datasets to be shown in table",
+        "translatedContent": "- 2024-08-07: 설문조사에 가우시안 수 포함, 표에 가우시안당 비트 포함"
+      },
+      {
+        "row": 25,
+        "rowsha": "dxHxkIjBA0EDM+iIEkT5MIJl8O/eSfi6c1PNhkoNTcs=",
+        "originContent": "- 2024-08-07: Include number of Gaussians in survey, include bits per Gaussian in table",
+        "translatedContent": "- 2024-08-02: 논문 발표 학회 표시"
+      },
+      {
+        "row": 26,
+        "rowsha": "hp3omovaPyIBAf5aBK6toIwbqT2ndwPxUSKek4pG/9k=",
+        "originContent": "- 2024-08-02: Show conferences of published papers",
+        "translatedContent": "- 2024-06-19: 사용 가능한 모든 데이터셋을 이용한 새로운 랭크 계산"
+      },
+      {
+        "row": 27,
+        "rowsha": "RTE0ukUpmk1jutcGryZSf8qY7qTT430ONVhGy1knWqQ=",
+        "originContent": "- 2024-06-19: New rank calculation with all available datasets",
+        "translatedContent": "- 2024-06-17: 방법들의 랭크 포함"
+      },
+      {
+        "row": 28,
+        "rowsha": "z+/n9UKJfwstiX/g6yY2eiKTrIc/OylccCE/hAD37YM=",
+        "originContent": "- 2024-06-17: Include ranks of methods",
+        "translatedContent": "- 2024-06-17: [arXiv](https://arxiv.org/abs/2407.09510)에서 설문조사 초판 공개"
+      },
+      {
+        "row": 29,
+        "rowsha": "DEOPkS26cS52a5qLo7DpRlkNnMlSPB4ebSZ8mOsZRAE=",
+        "originContent": "- 2024-06-17: Initial publication of survey on [arXiv](https://arxiv.org/abs/2407.09510)",
+        "translatedContent": "- 2024-06-13: 모델 크기에 따른 지표 플롯 추가"
+      },
+      {
+        "row": 30,
+        "rowsha": "kuo9ifDF5vNqv6Tm8BselVE0dwn/EJTAitBJqf/DwDo=",
+        "originContent": "- 2024-06-13: Add plots of metrics over model size",
+        "translatedContent": "- 2024-06-10: 대화형 표가 포함된 설문조사 페이지 초안 작성"
+      },
+      {
+        "row": 31,
+        "rowsha": "mBItymlj5N5NkbNsWPvpQp7+nsITQ6m+K23QLFEtXwg=",
+        "originContent": "- 2024-06-10: First draft of survey page with interactive table",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<!-- - 2024-08-22: 사전 학습된 [압축 장면](https://github.com/fraunhoferhhi/Self-Organizing-Gaussians/releases/tag/eccv-2024-data) 공개"
+      },
+      {
+        "row": 34,
+        "rowsha": "Sx1xcPOVPE/ESHPx4Fm3IcSS19RrmF+ZS0Kvr9E1vng=",
+        "originContent": "<!-- - 2024-08-22: Released pre-trained, [compressed scenes](https://github.com/fraunhoferhhi/Self-Organizing-Gaussians/releases/tag/eccv-2024-data)",
+        "translatedContent": "- 2024-07-09: TLDR, 기여, 인사이트 및 동시대 방법과의 비교를 포함한 프로젝트 웹사이트 업데이트"
+      },
+      {
+        "row": 35,
+        "rowsha": "POCPXmYkSXStsmkbRz9ib+D10eN0RYCx2b3kXgaTMcc=",
+        "originContent": "- 2024-07-09: Project website updated with TLDR, contributions, insights and comparison to concurrent methods",
+        "translatedContent": "- 2024-07-01: 본 연구가 **ECCV 2024**에 채택됨 🥳"
+      },
+      {
+        "row": 36,
+        "rowsha": "XJrVD9p9BxCrogbe1NaI2H8KOdGkc4AORUK8wM5mURo=",
+        "originContent": "- 2024-07-01: Our work was accepted at **ECCV 2024** 🥳",
+        "translatedContent": "- 2024-06-13: 학습 코드 공개"
+      },
+      {
+        "row": 37,
+        "rowsha": "6ypt88J85PLitx6f96fQDib5CXPwtMMIg+waU5I2/6U=",
+        "originContent": "- 2024-06-13: Training code available",
+        "translatedContent": "- 2024-05-14: 압축 점수 향상! 논문 v2의 새로운 결과가 [프로젝트 웹사이트](https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/)에 공개됨"
+      },
+      {
+        "row": 38,
+        "rowsha": "/0crYT64EbYarvMAV1avw5rDDRZPDcFuqeBFcxHajs4=",
+        "originContent": "- 2024-05-14: Improved compression scores! New results for paper v2 available on the [project website](https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/)",
+        "translatedContent": "- 2024-05-02: arXiv에 수정된 [논문 v2](https://arxiv.org/pdf/2312.13299) 공개: 구면 조화 압축 추가, 개선된 압축 방법 및 결과 업데이트 (모든 속성이 JPEG XL로 압축됨), 추가 장면의 정성적 비교 추가, 압축 설명 및 비교를 본 논문으로 이동, \"Making Gaussian Splats smaller\"와 비교 추가."
+      },
+      {
+        "row": 39,
+        "rowsha": "jUt3/RuprGqHc5/j03c8wngtOlh/v9Yw3TiFWkxJLss=",
+        "originContent": "- 2024-05-02: Revised [paper v2](https://arxiv.org/pdf/2312.13299) on arXiv: Added compression of spherical harmonics, updated compression method with improved results (all attributes compressed with JPEG XL now), added qualitative comparison of additional scenes, moved compression explanation and comparison to main paper, added comparison with \"Making Gaussian Splats smaller\".",
+        "translatedContent": "- 2024-02-22: 정렬 알고리즘 코드가 [fraunhoferhhi/PLAS](https://github.com/fraunhoferhhi/PLAS)에서 공개됨"
+      },
+      {
+        "row": 40,
+        "rowsha": "ejUnKyG3Ve6fIJe1tXBcm+IKGObIOpKBN5EDE4HIesg=",
+        "originContent": "- 2024-02-22: The code for the sorting algorithm is now available at [fraunhoferhhi/PLAS](https://github.com/fraunhoferhhi/PLAS)",
+        "translatedContent": "- 2024-02-21: 다양한 장면에 대한 비디오 비교가 [프로젝트 웹사이트](https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/)에 공개됨"
+      },
+      {
+        "row": 41,
+        "rowsha": "Cs2llFtLBmPOHQGqeYaMw+4MOX+TRiTI0bK8q3Z3zi0=",
+        "originContent": "- 2024-02-21: Video comparisons for different scenes available on the [project website](https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/)",
+        "translatedContent": "- 2023-12-19: [arXiv](https://arxiv.org/abs/2312.13299)에 사전 인쇄본 공개 -->"
+      },
+      {
+        "row": 42,
+        "rowsha": "M1JHQ2u7WH71F/KW2NwbICizZvyvDFs5QgAEXlEuv08=",
+        "originContent": "- 2023-12-19: Preprint available on [arXiv](https://arxiv.org/abs/2312.13299) -->",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,980 @@
+[
+  {
+    "row": 1,
+    "rowsha": "BwEmIH8m133oIIRmCHIZa+OU4Bn9GDQrcx5qmARdXek=",
+    "originContent": "# 3DGS.zip: A survey on 3D Gaussian Splatting Compression Methods",
+    "translatedContent": "# 3DGS.zip: A survey on 3D Gaussian Splatting Compression Methods"
+  },
+  {
+    "row": 2,
+    "rowsha": "ZptEJlRzzsYtTDxFwRuN31BVHdyWjt20DPgcJtdvTbU=",
+    "originContent": "This repository contains a comprehensive survey of 3D Gaussian Splatting (3DGS) compression methods. You can view the full survey table and comparison plots at [w-m.github.io/3dgs-compression-survey/](https://w-m.github.io/3dgs-compression-survey/).",
+    "translatedContent": "This repository contains a comprehensive survey of 3D Gaussian Splatting (3DGS) compression methods. You can view the full survey table and comparison plots at [w-m.github.io/3dgs-compression-survey/](https://w-m.github.io/3dgs-compression-survey/)."
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 5,
+    "rowsha": "vCBCQEfYHWgJ94Iu8DOcJMj5nkZk/UM0O41Ixadq9DA=",
+    "originContent": "To run the scripts in this repository, ensure you have all necessary dependencies installed. You can install them using the following command:",
+    "translatedContent": "To run the scripts in this repository, ensure you have all necessary dependencies installed. You can install them using the following command:"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "E20kj2dow7eLAC3IHT9Ixba8Ps34uZ1DxIelWeun8R8=",
+    "originContent": "`pip install -r requirements.txt`",
+    "translatedContent": "`pip install -r requirements.txt`"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "pD9hNajfXGYYrgQPgRlOzpqR5sPAsQ3vqz/JBv2hQGE=",
+    "originContent": "## Building the Site",
+    "translatedContent": "## Building the Site"
+  },
+  {
+    "row": 10,
+    "rowsha": "L1Sm9ok/EQCTLb1gpPB/1STSQzoqTZzBOREZRTYSL6w=",
+    "originContent": "To build the site, use the following command: ",
+    "translatedContent": "To build the site, use the following command: "
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "B2GsGmZw679PYq9otcc8dzDcklZsCqHAXQeQ0oYTDhc=",
+    "originContent": "`python data_extraction/build_html.py`",
+    "translatedContent": "`python data_extraction/build_html.py`"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "CI7xEWNT5zso7u29cGK5/ALuzbeuLkyiYJQ2fB0IMSQ=",
+    "originContent": "This scrips also runs automatically to rebuild the site whenever changes are pushed to the main branch.",
+    "translatedContent": "This scrips also runs automatically to rebuild the site whenever changes are pushed to the main branch."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "eE6X28uIBjwbZ99iFNjvrlJwY31XNB3h+totPyj2G2A=",
+    "originContent": "## Fetching Results",
+    "translatedContent": "## Fetching Results"
+  },
+  {
+    "row": 17,
+    "rowsha": "yNn2ah+s8lcrXTAC/LUQiTX2QMMZbMgC5D16cdfV5AU=",
+    "originContent": "You can fetch the results automatically by running: ",
+    "translatedContent": "You can fetch the results automatically by running: "
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "FcwV4hsH/WByUXAbrLIs6ni4hyfRZh7FxbTOPkHraE8=",
+    "originContent": "`python data_extraction/data_extraction.py`",
+    "translatedContent": "`python data_extraction/data_extraction.py`"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "H7PR+jZ4kGTf5sapwvUKy+TgRq+DOlleoOeUa4UbQ4s=",
+    "originContent": "This script attempts to fetch data from the relevant papers and update the tables in the `results` folder. To add a new paper, create an entry in `data_extraction/data_source.yaml`. ",
+    "translatedContent": "This script attempts to fetch data from the relevant papers and update the tables in the `results` folder. To add a new paper, create an entry in `data_extraction/data_source.yaml`. "
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "lGw1DNP6V6xsUYOXgK3TJSexH7tQNn1JYHyZhVRjydk=",
+    "originContent": "## Including your own Results",
+    "translatedContent": "## Including your own Results"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "U+axOOnx4Josfxf9Kjel1hlo9yPAlkM/nyj8U8Y8+SI=",
+    "originContent": "Authors are kindly requested to upload their per-scene results in a designated folder within their GitHub repository. This ensures accurate data retrieval and allows for consistent and fair comparisons. The expected folder structure is:",
+    "translatedContent": "Authors are kindly requested to upload their per-scene results in a designated folder within their GitHub repository. This ensures accurate data retrieval and allows for consistent and fair comparisons. The expected folder structure is:"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "wJkUK8MYbe1yeGuifp6m0tokD7n9P+ebR57PjnNLKFA=",
+    "originContent": "results",
+    "translatedContent": "results"
+  },
+  {
+    "row": 29,
+    "rowsha": "HOYbKO5s0sYEH9n3I4i2F7wEFKYZpv/Dz5cfE2WbckQ=",
+    "originContent": "├── DeepBlending",
+    "translatedContent": "├── DeepBlending"
+  },
+  {
+    "row": 30,
+    "rowsha": "cQMiMI6ga1bcW8ml4U/n1213+cyp6Msd23MhiBzTopY=",
+    "originContent": "│   ├── drjohnson.csv",
+    "translatedContent": "│   ├── drjohnson.csv"
+  },
+  {
+    "row": 31,
+    "rowsha": "ABwh9HVft5RgRpubNLaA4o/1Qcsw7rKajtnbJqHhPWw=",
+    "originContent": "│   └── playroom.csv",
+    "translatedContent": "│   └── playroom.csv"
+  },
+  {
+    "row": 32,
+    "rowsha": "hhiW/BD4jK/3zQcIOxXAUlIx7dAhDJtvdz07Fh2pc7Q=",
+    "originContent": "├── MipNeRF360",
+    "translatedContent": "├── MipNeRF360"
+  },
+  {
+    "row": 33,
+    "rowsha": "wYUy3AXD8SqLQ5ipeoDh6braUT3pc6RxOzHZX131yLU=",
+    "originContent": "│   ├── bicycle.csv",
+    "translatedContent": "│   ├── bicycle.csv"
+  },
+  {
+    "row": 34,
+    "rowsha": "M3ZzdlufebsY798vFM5oW8bUg2K9U+U5nqquVkLAHgo=",
+    "originContent": "│   ├── bonsai.csv",
+    "translatedContent": "│   ├── bonsai.csv"
+  },
+  {
+    "row": 35,
+    "rowsha": "oQyOCaNy9AZIXr7iVmlydrs0lJNydiD73VISPs1fVho=",
+    "originContent": "│   ├── counter.csv",
+    "translatedContent": "│   ├── counter.csv"
+  },
+  {
+    "row": 36,
+    "rowsha": "lVYEh1yff+8VMKyJBwsXLYQD4j701dYG1yeW5DaRXiY=",
+    "originContent": "│   ├── flowers.csv",
+    "translatedContent": "│   ├── flowers.csv"
+  },
+  {
+    "row": 37,
+    "rowsha": "yLUMC8HwNBWMGA1lD9WP3zCrMsnTkeoEIXKtombNeao=",
+    "originContent": "│   ├── garden.csv",
+    "translatedContent": "│   ├── garden.csv"
+  },
+  {
+    "row": 38,
+    "rowsha": "KJhGaHKc8FAKH/v275/7zkxyPT2AnH3GdUrgJcqdDQg=",
+    "originContent": "│   ├── kitchen.csv",
+    "translatedContent": "│   ├── kitchen.csv"
+  },
+  {
+    "row": 39,
+    "rowsha": "gBAeGdkGyx94prleA7vLtqN1GIXGb3tfvHeCWnJH33w=",
+    "originContent": "│   ├── room.csv",
+    "translatedContent": "│   ├── room.csv"
+  },
+  {
+    "row": 40,
+    "rowsha": "RuMwWQSFegnT/OOwsN7b1pvGRyDOsumkD7GN94DUe9Q=",
+    "originContent": "│   ├── stump.csv",
+    "translatedContent": "│   ├── stump.csv"
+  },
+  {
+    "row": 41,
+    "rowsha": "moRL80PceHK3g9Nqmct4E56grd4qRmqbYhyF0Gy6GIc=",
+    "originContent": "│   └── treehill.csv",
+    "translatedContent": "│   └── treehill.csv"
+  },
+  {
+    "row": 42,
+    "rowsha": "Es3l8Ts31cqa1csloYy23NqCrTbtC+mpky5tl5/btC4=",
+    "originContent": "├── SyntheticNeRF",
+    "translatedContent": "├── SyntheticNeRF"
+  },
+  {
+    "row": 43,
+    "rowsha": "TrRgG6TPdWla6mb8Qi+zs4CY+t/sNhUFfGjczWaYcXA=",
+    "originContent": "│   ├── chair.csv",
+    "translatedContent": "│   ├── chair.csv"
+  },
+  {
+    "row": 44,
+    "rowsha": "b99aiBsmgRvl9NarSzkOjOM0kVG42ci0y02EhwlwujI=",
+    "originContent": "│   ├── drums.csv",
+    "translatedContent": "│   ├── drums.csv"
+  },
+  {
+    "row": 45,
+    "rowsha": "lhAD7HkT0gakagjmyI5/k7AhvGjWZjRYiy3jzSsZM1g=",
+    "originContent": "│   ├── ficus.csv",
+    "translatedContent": "│   ├── ficus.csv"
+  },
+  {
+    "row": 46,
+    "rowsha": "p/K7ghvkh2ZpWU6xJC7ZjlrJqqVNZmzVG7Rpo0mH1YY=",
+    "originContent": "│   ├── hotdog.csv",
+    "translatedContent": "│   ├── hotdog.csv"
+  },
+  {
+    "row": 47,
+    "rowsha": "MFisVVtet7lhQ+ZfseV2vAKtRU2r18ppyfmDel4v05A=",
+    "originContent": "│   ├── lego.csv ",
+    "translatedContent": "│   ├── lego.csv "
+  },
+  {
+    "row": 48,
+    "rowsha": "VzJ0WbeXoQV3gSfHCeVJR1RHbrgTITDVVQ7fRXS080s=",
+    "originContent": "│   ├── materials.csv",
+    "translatedContent": "│   ├── materials.csv"
+  },
+  {
+    "row": 49,
+    "rowsha": "PbTBfxRCX2iZpU3RxQp7DEAx5KeoEQ3/nJIJx2IdIH0=",
+    "originContent": "│   ├── mic.csv",
+    "translatedContent": "│   ├── mic.csv"
+  },
+  {
+    "row": 50,
+    "rowsha": "c+uI39sEpTMbH4tL85CguTK0YXhCr6ODRuKWegLFaS0=",
+    "originContent": "│   └── ship.csv",
+    "translatedContent": "│   └── ship.csv"
+  },
+  {
+    "row": 51,
+    "rowsha": "KMRsy4OfHt0Xd5+Bom0SLXLdyEzwdO42KHKJpY8PGPE=",
+    "originContent": "└── TanksAndTemples",
+    "translatedContent": "└── TanksAndTemples"
+  },
+  {
+    "row": 52,
+    "rowsha": "3YcMkvqkRiSTOpvC2WOaWnY0H1O81pf1uledGeRlJkA=",
+    "originContent": "    ├── train.csv",
+    "translatedContent": "    ├── train.csv"
+  },
+  {
+    "row": 53,
+    "rowsha": "5QjJwQ0jTqAGuzDIyTOqQrp3Anmbx+gC1u16llE3Evo=",
+    "originContent": "    └── truck.csv",
+    "translatedContent": "    └── truck.csv"
+  },
+  {
+    "row": 54,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "The folder should include all datasets on which your method was evaluated and cover all scenes specified in the folder structure."
+  },
+  {
+    "row": 56,
+    "rowsha": "PSj8KK+7vM4ugvgwrb7zDs8FfK4o+/ic65XqgkfJ8T8=",
+    "originContent": "The folder should include all datasets on which your method was evaluated and cover all scenes specified in the folder structure.",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Each CSV file should be structured as follows:"
+  },
+  {
+    "row": 58,
+    "rowsha": "GJu8KmqceZhaRkPNdMg4NXQpFU9gZVEhz5TJfnZhxRY=",
+    "originContent": "Each CSV file should be structured as follows:",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "bO8rAFbZypcS3OYYU0ZkLzkRIixuz+oem04Y1alDpN0=",
+    "originContent": "Submethod,PSNR,SSIM,LPIPS,Size [Bytes],#Gaussians",
+    "translatedContent": "Submethod,PSNR,SSIM,LPIPS,Size [Bytes],#Gaussians"
+  },
+  {
+    "row": 62,
+    "rowsha": "hd7z0G84OCtS0kvD1SqHQcsC/Fb2pxBpPXCk7e5jVvg=",
+    "originContent": "Baseline,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx",
+    "translatedContent": "Baseline,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx"
+  },
+  {
+    "row": 63,
+    "rowsha": "srTw0BedbcVcAe7zIbjfG1EJ2R7paTLjT6Eb+Xvx04Y=",
+    "originContent": "-SubmethodName,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx",
+    "translatedContent": "-SubmethodName,xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx"
+  },
+  {
+    "row": 64,
+    "rowsha": "JJM3zDQcseSZ88Ndu31SuS8luhp3/A5+1YPGtTtYypE=",
+    "originContent": ",xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx",
+    "translatedContent": ",xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx"
+  },
+  {
+    "row": 65,
+    "rowsha": "JJM3zDQcseSZ88Ndu31SuS8luhp3/A5+1YPGtTtYypE=",
+    "originContent": ",xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx",
+    "translatedContent": ",xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx"
+  },
+  {
+    "row": 66,
+    "rowsha": "JJM3zDQcseSZ88Ndu31SuS8luhp3/A5+1YPGtTtYypE=",
+    "originContent": ",xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx",
+    "translatedContent": ",xx.xx,0.xxx,0.xxx,xxxxxxxx,xxxxxxxx"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "+8v964famf6Yd4Obqu1DQgfrrW1cQu6lfbHT8v5ghuk=",
+    "originContent": "Please ensure that the PSNR results are reported with a precision of at least two decimal places, and that SSIM and LPIPS results are reported with a precision of at least three decimal places. Authors are encouraged to provide results with full precision, as these will be rounded before inclusion in our survey.",
+    "translatedContent": "Please ensure that the PSNR results are reported with a precision of at least two decimal places, and that SSIM and LPIPS results are reported with a precision of at least three decimal places. Authors are encouraged to provide results with full precision, as these will be rounded before inclusion in our survey."
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "Ww+PatSH3ZQgSckhId5QA993IXILupUqxCjT38aSNlo=",
+    "originContent": "Include up to two consistent submethod names for your results across all files to ensure they appear in the survey table. These names will then be concatenated with the name of your approach in the table. If the submethod specifier should be separated from the method name with a space, make sure to include that space in front of the submethod name. If you prefer only the name of your approach to be displayed in the table, you can use \"Baseline\" as a submethod name for those results. Results without a submethod name will only be displayed in the plots.",
+    "translatedContent": "Include up to two consistent submethod names for your results across all files to ensure they appear in the survey table. These names will then be concatenated with the name of your approach in the table. If the submethod specifier should be separated from the method name with a space, make sure to include that space in front of the submethod name. If you prefer only the name of your approach to be displayed in the table, you can use \"Baseline\" as a submethod name for those results. Results without a submethod name will only be displayed in the plots."
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "ZONKPin16aioMfS6suAypbHPTKU6gioxLy7OS2Lnd8g=",
+    "originContent": "You can view an example [here](https://github.com/fraunhoferhhi/Self-Organizing-Gaussians/tree/main/results).",
+    "translatedContent": "You can view an example [here](https://github.com/fraunhoferhhi/Self-Organizing-Gaussians/tree/main/results)."
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "jBwwJj1Vfh2dk7DSAh2VFwH00iyPAACMazvhiVUW0HI=",
+    "originContent": "### Important: 3DGS testing conventions",
+    "translatedContent": "### Important: 3DGS testing conventions"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "qE1zSPHck0h9rKo7lfAyBKv//UHqdDmNi0cuY3gXbS0=",
+    "originContent": "Authors are required to adhere to the testing conventions established in the original [3DGS project](https://github.com/graphdeco-inria/gaussian-splatting). Specifically, this includes:",
+    "translatedContent": "Authors are required to adhere to the testing conventions established in the original [3DGS project](https://github.com/graphdeco-inria/gaussian-splatting). Specifically, this includes:"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "6Ywo911DLhP76MuDCoQ4fJw3xUrrQ14Wlr1jkeOO2EQ=",
+    "originContent": "- Using all 9 scenes from the MipNeRF360 dataset, including the [extra scenes](https://storage.googleapis.com/gresearch/refraw360/360_extra_scenes.zip) \"flowers\" and \"treehill\".",
+    "translatedContent": "- Using all 9 scenes from the MipNeRF360 dataset, including the [extra scenes](https://storage.googleapis.com/gresearch/refraw360/360_extra_scenes.zip) \"flowers\" and \"treehill\"."
+  },
+  {
+    "row": 81,
+    "rowsha": "jOqTX40NJCMHjDjfVSgb/41UrXfnmM0kFRCZ+QZM60A=",
+    "originContent": "- Evaluating images at full resolution up to a maximum side length of 1600px. Larger test images should be downscaled so that the longest dimension equals 1600px (applicable only to MipNeRF360). Make sure the resizing aligns with 3DGS, which applies the standard PIL ```.resize()``` method with bicubic resampling.  ",
+    "translatedContent": "- Evaluating images at full resolution up to a maximum side length of 1600px. Larger test images should be downscaled so that the longest dimension equals 1600px (applicable only to MipNeRF360). Make sure the resizing aligns with 3DGS, which applies the standard PIL ```.resize()``` method with bicubic resampling.  "
+  },
+  {
+    "row": 82,
+    "rowsha": "pcXz7vfdIaxibH2pjB7H4Zlem0eVK5BlK+IS/AYnerw=",
+    "originContent": "- For the 3 COLMAP datasets (Tanks and Temples, Deep Blending, MipNeRF360), use every 8th image for testing. Concretly, the test images are those where ```idx % 8 == 0```.",
+    "translatedContent": "- For the 3 COLMAP datasets (Tanks and Temples, Deep Blending, MipNeRF360), use every 8th image for testing. Concretly, the test images are those where ```idx % 8 == 0```."
+  },
+  {
+    "row": 83,
+    "rowsha": "R7QULIAJitM+ytGNXIslCQZVoyzcKoZNlD4LEW5EopU=",
+    "originContent": "- For the Blender dataset (SyntheticNeRF), follow the predefined train/eval split.",
+    "translatedContent": "- For the Blender dataset (SyntheticNeRF), follow the predefined train/eval split."
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "ZhmtdJSrvtHfPZiC8QtDK1O8sUe8xdM4fSNYPEcMkVM=",
+    "originContent": "## LaTeX Table",
+    "translatedContent": "## LaTeX Table"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "53PYYMMacIqI7GBXXcVEbGMCbF2zFW70p3BlYt/6Otc=",
+    "originContent": "Up-to-date LaTeX versions of the survey tables are available for [compression](https://github.com/w-m/3dgs-compression-survey/blob/main/data_extraction/latex/3dgs_table_compression.tex) and [compaction](https://github.com/w-m/3dgs-compression-survey/blob/main/data_extraction/latex/3dgs_table_densification.tex). Feel free to copy a line from the table into your research if you want to compare to the approach. Should you wish to copy the whole table you might need the following packages and definitions in your LaTeX preamble:",
+    "translatedContent": "Up-to-date LaTeX versions of the survey tables are available for [compression](https://github.com/w-m/3dgs-compression-survey/blob/main/data_extraction/latex/3dgs_table_compression.tex) and [compaction](https://github.com/w-m/3dgs-compression-survey/blob/main/data_extraction/latex/3dgs_table_densification.tex). Feel free to copy a line from the table into your research if you want to compare to the approach. Should you wish to copy the whole table you might need the following packages and definitions in your LaTeX preamble:"
+  },
+  {
+    "row": 89,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 90,
+    "rowsha": "opsbPiqp7sNnPDz7j03lNulHHJcyysfwW3GL38LbeeQ=",
+    "originContent": "\\usepackage{booktabs}",
+    "translatedContent": "\\usepackage{booktabs}"
+  },
+  {
+    "row": 91,
+    "rowsha": "vzWCkxkHZxDLaFEpxTIs7UqO1w6y4dhWvPw1Sql30Nc=",
+    "originContent": "\\usepackage[table]{xcolor}",
+    "translatedContent": "\\usepackage[table]{xcolor}"
+  },
+  {
+    "row": 92,
+    "rowsha": "CyMe2D5LcEO+cJAKkobpXpzik0xYa61/kC3LeohrR6U=",
+    "originContent": "% colors for table",
+    "translatedContent": "% colors for table"
+  },
+  {
+    "row": 93,
+    "rowsha": "mzmmpRil01lxzbdFsm9V53eJklLmtMJ2LrDw+UhXG3c=",
+    "originContent": "\\definecolor{lightred}{HTML}{FF9999}",
+    "translatedContent": "\\definecolor{lightred}{HTML}{FF9999}"
+  },
+  {
+    "row": 94,
+    "rowsha": "MqzrCN1J9hj1saENkVCf9G/KVaCVCKrrE6FQTlIhtFg=",
+    "originContent": "\\definecolor{lightyellow}{HTML}{FFFF99}",
+    "translatedContent": "\\definecolor{lightyellow}{HTML}{FFFF99}"
+  },
+  {
+    "row": 95,
+    "rowsha": "Oz52Uny/9GLD7iIDspbi5kqk025E1lN25MIuEaHFnsg=",
+    "originContent": "\\definecolor{lightorange}{HTML}{FFCC99}",
+    "translatedContent": "\\definecolor{lightorange}{HTML}{FFCC99}"
+  },
+  {
+    "row": 96,
+    "rowsha": "epBS0MrG3OJbPJ3M05tezyGTSthSA0BgIm2TaJlPVNc=",
+    "originContent": "\\usepackage{makecell}",
+    "translatedContent": "\\usepackage{makecell}"
+  },
+  {
+    "row": 97,
+    "rowsha": "hMASsIPdq2C2jKLS+DIxHplivBVDOJz5aXjp90lN4Fk=",
+    "originContent": "\\usepackage{adjustbox}",
+    "translatedContent": "\\usepackage{adjustbox}"
+  },
+  {
+    "row": 98,
+    "rowsha": "Cpl3orLfabtuLf7ZdEtg4ogcCspffFg73Z/yaufRtvw=",
+    "originContent": "% make text the same size even when its bold in a table",
+    "translatedContent": "% make text the same size even when its bold in a table"
+  },
+  {
+    "row": 99,
+    "rowsha": "w1VhSDHv1G1coCX+imSYsDMagWr0m/jAU5jPa2Sc5YA=",
+    "originContent": "\\newsavebox\\CBox",
+    "translatedContent": "\\newsavebox\\CBox"
+  },
+  {
+    "row": 100,
+    "rowsha": "Li0CIHJvrLaMv1qDqIyZD2CJSsE/LGFSm3d6cU/a5zU=",
+    "originContent": "\\def\\textBF#1{\\sbox\\CBox{#1}\\resizebox{\\wd\\CBox}{\\ht\\CBox}{\\textbf{#1}}}",
+    "translatedContent": "\\def\\textBF#1{\\sbox\\CBox{#1}\\resizebox{\\wd\\CBox}{\\ht\\CBox}{\\textbf{#1}}}"
+  },
+  {
+    "row": 101,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+    "originContent": "## Citation",
+    "translatedContent": "## Citation"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "Srpc1k5+RYHtTZbRyaKm1+SAgi35vAPkHnw017FJb0g=",
+    "originContent": "If you use our survey in your research, please cite our work. You can use the following BibTeX entry:",
+    "translatedContent": "If you use our survey in your research, please cite our work. You can use the following BibTeX entry:"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+    "originContent": "```bibtex",
+    "translatedContent": "```bibtex"
+  },
+  {
+    "row": 108,
+    "rowsha": "6dx4RmDg1ct98YNpl1DDRP7R9w536n7kSJD+Q23HqBY=",
+    "originContent": "@article{3DGSzip2025,",
+    "translatedContent": "@article{3DGSzip2025,"
+  },
+  {
+    "row": 109,
+    "rowsha": "oLhjgfYqqlU5LKdfYO0Dkam7D7Rvj1JXL8XsVTaWDKM=",
+    "originContent": "author = {Bagdasarian, M. T. and Knoll, P. and Li, Y. and Barthel, F. and Hilsmann, A. and Eisert, P. and Morgenstern, W.},",
+    "translatedContent": "author = {Bagdasarian, M. T. and Knoll, P. and Li, Y. and Barthel, F. and Hilsmann, A. and Eisert, P. and Morgenstern, W.},"
+  },
+  {
+    "row": 110,
+    "rowsha": "Zss4i5NXxgj7rfMDKAhLR9LBtmaC06Qu/GXoRnzVeoI=",
+    "originContent": "title = {{3DGS.zip}: A {Survey} on {3D} {Gaussian} {Splatting} {Compression} {Methods}},",
+    "translatedContent": "title = {{3DGS.zip}: A {Survey} on {3D} {Gaussian} {Splatting} {Compression} {Methods}},"
+  },
+  {
+    "row": 111,
+    "rowsha": "o/+rgLdStlyZ+UOhtDX8L+1V17M24VavFXBQuUgW7h8=",
+    "originContent": "journal = {Computer Graphics Forum},",
+    "translatedContent": "journal = {Computer Graphics Forum},"
+  },
+  {
+    "row": 112,
+    "rowsha": "ysvrkt4V47HZU4CqFvDK60fR2/AhF5NXtstk10EHopI=",
+    "originContent": "pages = {e70078},",
+    "translatedContent": "pages = {e70078},"
+  },
+  {
+    "row": 113,
+    "rowsha": "36hvkN+0cMEiQxiZuadcNw9+3DP5onK0Xg4EorzQfXM=",
+    "originContent": "year = {2025},",
+    "translatedContent": "year = {2025},"
+  },
+  {
+    "row": 114,
+    "rowsha": "jNXjUdFDYc46vX/sHGvEIUEHMxqC2nCqi+VTDX6jYsI=",
+    "originContent": "keywords = {CCS Concepts, • Information systems → Data compression, • Computing methodologies → Rasterization, • General and reference → Surveys and overviews},",
+    "translatedContent": "keywords = {CCS Concepts, • Information systems → Data compression, • Computing methodologies → Rasterization, • General and reference → Surveys and overviews},"
+  },
+  {
+    "row": 115,
+    "rowsha": "px6VyFYTL2pBDWayo9NAoN+N2gqwws1l+p7HBvAsfK4=",
+    "originContent": "doi = {https://doi.org/10.1111/cgf.70078},",
+    "translatedContent": "doi = {https://doi.org/10.1111/cgf.70078},"
+  },
+  {
+    "row": 116,
+    "rowsha": "QUdQK1XiXGJTL5wbQzvoWtJioqtwfR70Qvrk4bPNbtw=",
+    "originContent": "url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.70078},",
+    "translatedContent": "url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.70078},"
+  },
+  {
+    "row": 117,
+    "rowsha": "h3HOLisYINBkItUasrrLjD/WKtF5f4+7jYjFZMVT5v4=",
+    "originContent": "eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70078},",
+    "translatedContent": "eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70078},"
+  },
+  {
+    "row": 118,
+    "rowsha": "QHvVG6RiRgI1x+lUrFw9YBzW3VFB7DmBaou677BlPYc=",
+    "originContent": "note = {\\url{https://w-m.github.io/3dgs-compression-survey/}},",
+    "translatedContent": "note = {\\url{https://w-m.github.io/3dgs-compression-survey/}},"
+  },
+  {
+    "row": 119,
+    "rowsha": "c9sMbRGvB+HvAYM3Gme/mQpDmPSfFNd6+lcjnFTjkgs=",
+    "originContent": "} ",
+    "translatedContent": "} "
+  },
+  {
+    "row": 120,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "33rz/QaTx1fSJq1J/I+4UruMGDlkyUTWsPmF1Y9FSSI=",
+    "originContent": "## Updates",
+    "translatedContent": "## Updates"
+  },
+  {
+    "row": 123,
+    "rowsha": "TcRF4xgooU+zkrOKyolMrp6oB3vz5imiRezeaRw61nQ=",
+    "originContent": "- 2025-04-29: Article published, updated bibtex in Readme and on website",
+    "translatedContent": "- 2025-04-29: Article published, updated bibtex in Readme and on website"
+  },
+  {
+    "row": 124,
+    "rowsha": "fEHUVdR55Q2cs6ezrHUnb8rvmQrAYRLG4PwAbX9XjdI=",
+    "originContent": "- 2025-03-04: Added GaussianSpa Summary (provided by authors).",
+    "translatedContent": "- 2025-03-04: Added GaussianSpa Summary (provided by authors)."
+  },
+  {
+    "row": 125,
+    "rowsha": "Q21vIxGxpREO1RXEmUYjDEaIG3b2txij2Lg6vTb8Uj8=",
+    "originContent": "- 2025-02-26: Added HEMGS",
+    "translatedContent": "- 2025-02-26: Added HEMGS"
+  },
+  {
+    "row": 126,
+    "rowsha": "Ln6p+x/7GDbQAMv8FCj5wKvecUoZmvtubiDJ+KKoP6I=",
+    "originContent": "- 2025-02-25: Added GaussianSpa",
+    "translatedContent": "- 2025-02-25: Added GaussianSpa"
+  },
+  {
+    "row": 127,
+    "rowsha": "SS09uPoDEiiFcWrtSN0Anlly/eY8mDygl4WqaMpaWI4=",
+    "originContent": "- 2025-02-25: Added HAC++",
+    "translatedContent": "- 2025-02-25: Added HAC++"
+  },
+  {
+    "row": 128,
+    "rowsha": "Ise7pzhwm7EqlIliugzrMPqMfw9IxM89lyE4wZyBlB0=",
+    "originContent": "- 2025-02-25: Added FCGS",
+    "translatedContent": "- 2025-02-25: Added FCGS"
+  },
+  {
+    "row": 129,
+    "rowsha": "6Kb1LzLysTn3tOYa2IE1O+scgVnRQSdHSiiMte/ayBA=",
+    "originContent": "- 2025-02-10: Removed IGS as the publication is withdrawn",
+    "translatedContent": "- 2025-02-10: Removed IGS as the publication is withdrawn"
+  },
+  {
+    "row": 130,
+    "rowsha": "5FHQ9ZCDEiz2Njmx/YPp1TMemIcNzBpoQVY1ALH6is8=",
+    "originContent": "- 2025-02-05: Added CodecGS",
+    "translatedContent": "- 2025-02-05: Added CodecGS"
+  },
+  {
+    "row": 131,
+    "rowsha": "bE8beD5cpBAPDfKFh3B4wcyLY2WR1VyDcd05LRc4RsY=",
+    "originContent": "- 2024-11-21: Added ContextGS",
+    "translatedContent": "- 2024-11-21: Added ContextGS"
+  },
+  {
+    "row": 132,
+    "rowsha": "WAE8XTyHk43cqwWwivYl09cNUMQBGcK2M/XLkUMCMJc=",
+    "originContent": "- 2024-11-07: Added CompGS",
+    "translatedContent": "- 2024-11-07: Added CompGS"
+  },
+  {
+    "row": 133,
+    "rowsha": "m0O6bo9Rp3mlUizldJk3SEtfG5MNlo0irvdUPxVmSkY=",
+    "originContent": "- 2024-11-05: Updated [arXiv](https://arxiv.org/abs/2407.09510) version with compression and compaction methods and a fundamentals of 3DGS compression",
+    "translatedContent": "- 2024-11-05: Updated [arXiv](https://arxiv.org/abs/2407.09510) version with compression and compaction methods and a fundamentals of 3DGS compression"
+  },
+  {
+    "row": 134,
+    "rowsha": "5jtY/VJ/pwRc4QEAv2PtGYayZSddpqhsF1WS5V43Y1k=",
+    "originContent": "- 2024-10-21: Officially rename \"densification\" methods to \"compaction\" methods on website to align with survey paper",
+    "translatedContent": "- 2024-10-21: Officially rename \"densification\" methods to \"compaction\" methods on website to align with survey paper"
+  },
+  {
+    "row": 135,
+    "rowsha": "glJ4V2aD3twG5vYDH2yHFE4ZWX8q8VP4rutPw+ACoos=",
+    "originContent": "- 2024-10-17: Add GaussiansPro, AtomGS and Taming3DGS to densification/compaction methods",
+    "translatedContent": "- 2024-10-17: Add GaussiansPro, AtomGS and Taming3DGS to densification/compaction methods"
+  },
+  {
+    "row": 136,
+    "rowsha": "2Xz87y4MbgvgKDcf0IPDdy5ucdKmx27tnmM+upH1DNk=",
+    "originContent": "- 2024-10-14: Add MesonGS to compression methods",
+    "translatedContent": "- 2024-10-14: Add MesonGS to compression methods"
+  },
+  {
+    "row": 137,
+    "rowsha": "VEAT4XR5x+fZQlW8ad9UKOMXzhvTOkdhG6OSVf/BiuE=",
+    "originContent": "- 2024-09-30: Add densification methods to survey",
+    "translatedContent": "- 2024-09-30: Add densification methods to survey"
+  },
+  {
+    "row": 138,
+    "rowsha": "7M2vH8C9rKKSBGZ/WTkrXMhtod95fB47FdKAtPGeJL8=",
+    "originContent": "- 2024-09-17: Updated Morgenstern et al. results and reverted HAC results because of [confusion about testing conventions](https://github.com/YihangChen-ee/HAC/issues/14)",
+    "translatedContent": "- 2024-09-17: Updated Morgenstern et al. results and reverted HAC results because of [confusion about testing conventions](https://github.com/YihangChen-ee/HAC/issues/14)"
+  },
+  {
+    "row": 139,
+    "rowsha": "6j5NYK/c40VFU6pmU0o9u/NDZoTgWk/cEkJkRyDlOh8=",
+    "originContent": "- 2024-09-05: Update Scaffold-GS MipNeRF-360 results to include all 9 scenes",
+    "translatedContent": "- 2024-09-05: Update Scaffold-GS MipNeRF-360 results to include all 9 scenes"
+  },
+  {
+    "row": 140,
+    "rowsha": "rqRyWrrZR+7mv47b4LaYw/+XvMR/aZ9NRTyWZ6q7rfc=",
+    "originContent": "- 2024-08-27: Add IGS method to survey",
+    "translatedContent": "- 2024-08-27: Add IGS method to survey"
+  },
+  {
+    "row": 141,
+    "rowsha": "pwCYfv6VRsUrh9Oej+wiv663ut2NFeKOq5xOOwyV8W4=",
+    "originContent": "- 2024-08-26: Add gsplat method to survey",
+    "translatedContent": "- 2024-08-26: Add gsplat method to survey"
+  },
+  {
+    "row": 142,
+    "rowsha": "AJSvZD2aQcdByriOsLsY+pDZK6jVUsFzSDtlBr9iXj8=",
+    "originContent": "- 2024-08-14: Adaptive ranks based on attribute and dataset selection",
+    "translatedContent": "- 2024-08-14: Adaptive ranks based on attribute and dataset selection"
+  },
+  {
+    "row": 143,
+    "rowsha": "yCuWn2kO9PWIpJpC6xjagqwlHYgdgvRekL0/n6k4uow=",
+    "originContent": "- 2024-08-12: New plots to show metrics over number of Gaussians instead of model size",
+    "translatedContent": "- 2024-08-12: New plots to show metrics over number of Gaussians instead of model size"
+  },
+  {
+    "row": 144,
+    "rowsha": "gw1j+Bf7Q4DqWJREHs6ubpN38Jgo3rzaJx3eMPW1BEM=",
+    "originContent": "- 2024-08-08: Add checkboxes to select metrics and datasets to be shown in table",
+    "translatedContent": "- 2024-08-08: Add checkboxes to select metrics and datasets to be shown in table"
+  },
+  {
+    "row": 145,
+    "rowsha": "dxHxkIjBA0EDM+iIEkT5MIJl8O/eSfi6c1PNhkoNTcs=",
+    "originContent": "- 2024-08-07: Include number of Gaussians in survey, include bits per Gaussian in table",
+    "translatedContent": "- 2024-08-07: Include number of Gaussians in survey, include bits per Gaussian in table"
+  },
+  {
+    "row": 146,
+    "rowsha": "hp3omovaPyIBAf5aBK6toIwbqT2ndwPxUSKek4pG/9k=",
+    "originContent": "- 2024-08-02: Show conferences of published papers",
+    "translatedContent": "- 2024-08-02: Show conferences of published papers"
+  },
+  {
+    "row": 147,
+    "rowsha": "RTE0ukUpmk1jutcGryZSf8qY7qTT430ONVhGy1knWqQ=",
+    "originContent": "- 2024-06-19: New rank calculation with all available datasets",
+    "translatedContent": "- 2024-06-19: New rank calculation with all available datasets"
+  },
+  {
+    "row": 148,
+    "rowsha": "z+/n9UKJfwstiX/g6yY2eiKTrIc/OylccCE/hAD37YM=",
+    "originContent": "- 2024-06-17: Include ranks of methods",
+    "translatedContent": "- 2024-06-17: Include ranks of methods"
+  },
+  {
+    "row": 149,
+    "rowsha": "DEOPkS26cS52a5qLo7DpRlkNnMlSPB4ebSZ8mOsZRAE=",
+    "originContent": "- 2024-06-17: Initial publication of survey on [arXiv](https://arxiv.org/abs/2407.09510)",
+    "translatedContent": "- 2024-06-17: Initial publication of survey on [arXiv](https://arxiv.org/abs/2407.09510)"
+  },
+  {
+    "row": 150,
+    "rowsha": "kuo9ifDF5vNqv6Tm8BselVE0dwn/EJTAitBJqf/DwDo=",
+    "originContent": "- 2024-06-13: Add plots of metrics over model size",
+    "translatedContent": "- 2024-06-13: Add plots of metrics over model size"
+  },
+  {
+    "row": 151,
+    "rowsha": "mBItymlj5N5NkbNsWPvpQp7+nsITQ6m+K23QLFEtXwg=",
+    "originContent": "- 2024-06-10: First draft of survey page with interactive table",
+    "translatedContent": "- 2024-06-10: First draft of survey page with interactive table"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "Sx1xcPOVPE/ESHPx4Fm3IcSS19RrmF+ZS0Kvr9E1vng=",
+    "originContent": "<!-- - 2024-08-22: Released pre-trained, [compressed scenes](https://github.com/fraunhoferhhi/Self-Organizing-Gaussians/releases/tag/eccv-2024-data)",
+    "translatedContent": "<!-- - 2024-08-22: Released pre-trained, [compressed scenes](https://github.com/fraunhoferhhi/Self-Organizing-Gaussians/releases/tag/eccv-2024-data)"
+  },
+  {
+    "row": 155,
+    "rowsha": "POCPXmYkSXStsmkbRz9ib+D10eN0RYCx2b3kXgaTMcc=",
+    "originContent": "- 2024-07-09: Project website updated with TLDR, contributions, insights and comparison to concurrent methods",
+    "translatedContent": "- 2024-07-09: Project website updated with TLDR, contributions, insights and comparison to concurrent methods"
+  },
+  {
+    "row": 156,
+    "rowsha": "XJrVD9p9BxCrogbe1NaI2H8KOdGkc4AORUK8wM5mURo=",
+    "originContent": "- 2024-07-01: Our work was accepted at **ECCV 2024** 🥳",
+    "translatedContent": "- 2024-07-01: Our work was accepted at **ECCV 2024** 🥳"
+  },
+  {
+    "row": 157,
+    "rowsha": "6ypt88J85PLitx6f96fQDib5CXPwtMMIg+waU5I2/6U=",
+    "originContent": "- 2024-06-13: Training code available",
+    "translatedContent": "- 2024-06-13: Training code available"
+  },
+  {
+    "row": 158,
+    "rowsha": "/0crYT64EbYarvMAV1avw5rDDRZPDcFuqeBFcxHajs4=",
+    "originContent": "- 2024-05-14: Improved compression scores! New results for paper v2 available on the [project website](https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/)",
+    "translatedContent": "- 2024-05-14: Improved compression scores! New results for paper v2 available on the [project website](https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/)"
+  },
+  {
+    "row": 159,
+    "rowsha": "jUt3/RuprGqHc5/j03c8wngtOlh/v9Yw3TiFWkxJLss=",
+    "originContent": "- 2024-05-02: Revised [paper v2](https://arxiv.org/pdf/2312.13299) on arXiv: Added compression of spherical harmonics, updated compression method with improved results (all attributes compressed with JPEG XL now), added qualitative comparison of additional scenes, moved compression explanation and comparison to main paper, added comparison with \"Making Gaussian Splats smaller\".",
+    "translatedContent": "- 2024-05-02: Revised [paper v2](https://arxiv.org/pdf/2312.13299) on arXiv: Added compression of spherical harmonics, updated compression method with improved results (all attributes compressed with JPEG XL now), added qualitative comparison of additional scenes, moved compression explanation and comparison to main paper, added comparison with \"Making Gaussian Splats smaller\"."
+  },
+  {
+    "row": 160,
+    "rowsha": "ejUnKyG3Ve6fIJe1tXBcm+IKGObIOpKBN5EDE4HIesg=",
+    "originContent": "- 2024-02-22: The code for the sorting algorithm is now available at [fraunhoferhhi/PLAS](https://github.com/fraunhoferhhi/PLAS)",
+    "translatedContent": "- 2024-02-22: The code for the sorting algorithm is now available at [fraunhoferhhi/PLAS](https://github.com/fraunhoferhhi/PLAS)"
+  },
+  {
+    "row": 161,
+    "rowsha": "Cs2llFtLBmPOHQGqeYaMw+4MOX+TRiTI0bK8q3Z3zi0=",
+    "originContent": "- 2024-02-21: Video comparisons for different scenes available on the [project website](https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/)",
+    "translatedContent": "- 2024-02-21: Video comparisons for different scenes available on the [project website](https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/)"
+  },
+  {
+    "row": 162,
+    "rowsha": "M1JHQ2u7WH71F/KW2NwbICizZvyvDFs5QgAEXlEuv08=",
+    "originContent": "- 2023-12-19: Preprint available on [arXiv](https://arxiv.org/abs/2312.13299) -->",
+    "translatedContent": "- 2023-12-19: Preprint available on [arXiv](https://arxiv.org/abs/2312.13299) -->"
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

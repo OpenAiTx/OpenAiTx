@@ -1,0 +1,831 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Ventoy CPIO\n\nAn alternate ramdisk for [Ventoy](https://github.com/ventoy/Ventoy).\n\nDocs are available [here](https://github.com/fnr1r/ventoy-meta/tree/main/docs)\nand releases [here](https://github.com/fnr1r/ventoy-cpio/releases).\n\nNOTE: This is just a small part of my attempt to add a sane(-ish) build system\nto Ventoy. An index for all my Ventoy-related projects can be found\n[here](https://github.com/fnr1r/ventoy-meta).\n\n## Goal\n\nMake a replacement ramdisk for Ventoy\n\n- [?] with a sane(-er) build system\n- [x] a bootable one\n- [ ] a functionally identical one  \n  (i.e. can do the same things as the upstream)\n- [x] a smaller one\n\n### Non-goals\n\n- ❌ a binary-identical ramdisk to the official one\n  - compiling identical binaries with the instructions given would be near\n  impossible and is ultimately pointless\n  - however, ramdisks built with this project should be reproducible\n\n### Possible future changes\n\n- Removing suffixes from binaries (they're just annoying and inconsistent)  \n  (no upstream changes required)\n- Splitting the ramdisks into x86 32-bit and 64-bit  \n  (would require changes to grub)\n- Cleaning up shell scripts in the ramdisk  \n  (no upstream changes required)\n\n## Progress\n\nIt boots, but some functionality might not work.\n\n### ventoy.cpio\n\n100%, since it's literally just xz-ing a bunch of files.\n\nSize ratio:\n\n- du - 1 (64 / 64)\n- ls -l - 1 (62976 / 62976)\n\n### ventoy_ARCH.cpio\n\n~75%\n\nAll the tools are here (mostly), compiled in one way or another. Now all that's\nleft is optimization.\n\nSize ratio (x86):\n\n- du - 0.8540245566166439 (2504 / 2932)\n- ls -l - 0.8624375107740045 (2561536 / 2970112)\n\nSize ratio (arm64):\n\n- du - 0.8159806295399516 (1348 / 1652)\n- ls -l - 0.8159490600363857 (1377792 / 1688576)\n\nSize ratio (mips64):\n\n- du - 0.9816849816849817 (1072 / 1092)\n- ls -l - 0.981642955484167 (1095168 / 1115648)\n\n### vtloopex.cpio\n\nTODO: add this\n\n## Usage\n\n### Building\n",
+    "ContentSha": "eY6aJQ/lk8qhm9QJEpIt8HIiSXLz/sGWtTxU7g3pd/0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Ventoy CPIO\n\nUn ramdisk alternatif pour [Ventoy](https://github.com/ventoy/Ventoy).\n\nLa documentation est disponible [ici](https://github.com/fnr1r/ventoy-meta/tree/main/docs)  \net les versions [ici](https://github.com/fnr1r/ventoy-cpio/releases).\n\nNOTE : Ceci n’est qu’une petite partie de ma tentative d’ajouter un système de compilation plus sensé(-ish)  \nà Ventoy. Un index de tous mes projets liés à Ventoy peut être trouvé  \n[ici](https://github.com/fnr1r/ventoy-meta).\n\n## Objectif\n\nCréer un ramdisk de remplacement pour Ventoy\n\n- [?] avec un système de compilation plus sensé(-er)  \n- [x] un ramdisk amorçable  \n- [ ] un ramdisk fonctionnellement identique  \n  (c’est-à-dire capable de faire les mêmes choses que l’original)  \n- [x] un ramdisk plus petit\n\n### Non-objectifs\n\n- ❌ un ramdisk binaire-identique à celui officiel  \n  - compiler des binaires identiques avec les instructions données serait presque  \n  impossible et est finalement inutile  \n  - cependant, les ramdisks construits avec ce projet devraient être reproductibles\n\n### Changements possibles à l’avenir\n\n- Suppression des suffixes des binaires (ils sont juste agaçants et incohérents)  \n  (aucun changement en amont requis)  \n- Séparer les ramdisks en x86 32 bits et 64 bits  \n  (exigerait des modifications dans grub)  \n- Nettoyage des scripts shell dans le ramdisk  \n  (aucun changement en amont requis)\n\n## Progrès\n\nÇa démarre, mais certaines fonctionnalités pourraient ne pas fonctionner.\n\n### ventoy.cpio\n\n100 %, car c’est littéralement juste une compression xz d’un tas de fichiers.\n\nRatio de taille :\n\n- du - 1 (64 / 64)  \n- ls -l - 1 (62976 / 62976)\n\n### ventoy_ARCH.cpio\n\n~75 %\n\nTous les outils sont là (pour la plupart), compilés d’une manière ou d’une autre. Il ne reste plus qu’à optimiser.\n\nRatio de taille (x86) :\n\n- du - 0.8540245566166439 (2504 / 2932)  \n- ls -l - 0.8624375107740045 (2561536 / 2970112)\n\nRatio de taille (arm64) :\n\n- du - 0.8159806295399516 (1348 / 1652)  \n- ls -l - 0.8159490600363857 (1377792 / 1688576)\n\nRatio de taille (mips64) :\n\n- du - 0.9816849816849817 (1072 / 1092)  \n- ls -l - 0.981642955484167 (1095168 / 1115648)\n\n### vtloopex.cpio\n\nÀ FAIRE : ajouter ceci\n\n## Utilisation\n\n### Compilation\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rVjBLn9+tdRBvG9OAvvN8bq6iolBp3e4I+R/2aZHCGA=",
+        "originContent": "# Ventoy CPIO",
+        "translatedContent": "# Ventoy CPIO"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ghwMKYAFp5Quiwn5CmBvQN1orj8vAoegivi/HH3CRZo=",
+        "originContent": "An alternate ramdisk for [Ventoy](https://github.com/ventoy/Ventoy).",
+        "translatedContent": "Un ramdisk alternatif pour [Ventoy](https://github.com/ventoy/Ventoy)."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "+bz8V8aorhyWmg94qX32TR0aAdfeZ7e6/f7nf3bZY7U=",
+        "originContent": "Docs are available [here](https://github.com/fnr1r/ventoy-meta/tree/main/docs)",
+        "translatedContent": "La documentation est disponible [ici](https://github.com/fnr1r/ventoy-meta/tree/main/docs)  "
+      },
+      {
+        "row": 6,
+        "rowsha": "3MnR6UINN+FijSxmx/y/g2SXMKjCNoeHB/pY16ttkq8=",
+        "originContent": "and releases [here](https://github.com/fnr1r/ventoy-cpio/releases).",
+        "translatedContent": "et les versions [ici](https://github.com/fnr1r/ventoy-cpio/releases)."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "4DSoNPJYmEQuKC4b1bhHJTk8J7zFP2hxSprOng8Uebo=",
+        "originContent": "NOTE: This is just a small part of my attempt to add a sane(-ish) build system",
+        "translatedContent": "NOTE : Ceci n’est qu’une petite partie de ma tentative d’ajouter un système de compilation plus sensé(-ish)  "
+      },
+      {
+        "row": 9,
+        "rowsha": "X1n1MFDeOX/Rk8m91f+wRRI8uzRpwm78AJWwU8ESU1U=",
+        "originContent": "to Ventoy. An index for all my Ventoy-related projects can be found",
+        "translatedContent": "à Ventoy. Un index de tous mes projets liés à Ventoy peut être trouvé  "
+      },
+      {
+        "row": 10,
+        "rowsha": "rStGXT3nh3ny6chmozPp9zezCdwVVTmJ1RODWg8JZkc=",
+        "originContent": "[here](https://github.com/fnr1r/ventoy-meta).",
+        "translatedContent": "[ici](https://github.com/fnr1r/ventoy-meta)."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Pu0DufVep6vlolfdnMZEP8lW/kOUL+oh+EcfK4rn/2o=",
+        "originContent": "## Goal",
+        "translatedContent": "## Objectif"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "8zTSXhhSKLz4ft913n6I2vDdC8/KfpAzGc7mIl/KRRg=",
+        "originContent": "Make a replacement ramdisk for Ventoy",
+        "translatedContent": "Créer un ramdisk de remplacement pour Ventoy"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "L+F5t7s7kRqe3I3edP2neIn3naAuQXPJ+T+SZ/uqLSI=",
+        "originContent": "- [?] with a sane(-er) build system",
+        "translatedContent": "- [?] avec un système de compilation plus sensé(-er)  "
+      },
+      {
+        "row": 17,
+        "rowsha": "gt9ncxUwxqmev8r1exdQ2X1FcgbgMATTfzWpx6mRbEE=",
+        "originContent": "- [x] a bootable one",
+        "translatedContent": "- [x] un ramdisk amorçable  "
+      },
+      {
+        "row": 18,
+        "rowsha": "7hz0DelRiuV/UyXQD/Np8k72mUQ1QO1SRPCYegTqLuw=",
+        "originContent": "- [ ] a functionally identical one  ",
+        "translatedContent": "- [ ] un ramdisk fonctionnellement identique  "
+      },
+      {
+        "row": 19,
+        "rowsha": "toGmKrbyGzU3QTPQI/QTY8TCRzyVmMz03YHguOTwCSg=",
+        "originContent": "  (i.e. can do the same things as the upstream)",
+        "translatedContent": "  (c’est-à-dire capable de faire les mêmes choses que l’original)  "
+      },
+      {
+        "row": 20,
+        "rowsha": "/DKUnCCTJxYQBBsWSNJoYVzNf1PcdNgssSpsMX66tOw=",
+        "originContent": "- [x] a smaller one",
+        "translatedContent": "- [x] un ramdisk plus petit"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "Ye76+OygkOEI+JuIZyVyqr7HSgbfAbzJGDiEKIMFGsA=",
+        "originContent": "### Non-goals",
+        "translatedContent": "### Non-objectifs"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "F6bXmNNfgsQSF2UVubmhQG9vGBb4qcNwOARlSGtXVtg=",
+        "originContent": "- ❌ a binary-identical ramdisk to the official one",
+        "translatedContent": "- ❌ un ramdisk binaire-identique à celui officiel  "
+      },
+      {
+        "row": 25,
+        "rowsha": "wwrOksUGmA5cJvpWgkwk/ajJTWQEgOT35Mk7ygqZFeg=",
+        "originContent": "  - compiling identical binaries with the instructions given would be near",
+        "translatedContent": "  - compiler des binaires identiques avec les instructions données serait presque  "
+      },
+      {
+        "row": 26,
+        "rowsha": "XK+cUMNBQ1HMn35xhYLMbMq6PDSggsxvM+9mDHQSzis=",
+        "originContent": "  impossible and is ultimately pointless",
+        "translatedContent": "  impossible et est finalement inutile  "
+      },
+      {
+        "row": 27,
+        "rowsha": "YRj0rz+MSnqVuAxXJr+o0KGGQI5ejQnaPDtEpHhk/HU=",
+        "originContent": "  - however, ramdisks built with this project should be reproducible",
+        "translatedContent": "  - cependant, les ramdisks construits avec ce projet devraient être reproductibles"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "jFyQrl5NXrY2kmu411R8yx6e4ia6xLs9GJvFe1N4qyY=",
+        "originContent": "### Possible future changes",
+        "translatedContent": "### Changements possibles à l’avenir"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "c7s6A/el/B7HHcBS5V0FhH43W6TPoG216pRfgZsDpB8=",
+        "originContent": "- Removing suffixes from binaries (they're just annoying and inconsistent)  ",
+        "translatedContent": "- Suppression des suffixes des binaires (ils sont juste agaçants et incohérents)  "
+      },
+      {
+        "row": 32,
+        "rowsha": "QTtcEfiOLQwoekxbBRdO5v+e2sh9+o9EZYwuY2Bxzq0=",
+        "originContent": "  (no upstream changes required)",
+        "translatedContent": "  (aucun changement en amont requis)  "
+      },
+      {
+        "row": 33,
+        "rowsha": "wQvFFgfpVJR169SB2yVU5BvGOK2Y15NjivSXehkI0wU=",
+        "originContent": "- Splitting the ramdisks into x86 32-bit and 64-bit  ",
+        "translatedContent": "- Séparer les ramdisks en x86 32 bits et 64 bits  "
+      },
+      {
+        "row": 34,
+        "rowsha": "Bvqk/RYXt3zOlWqPZ1JSqh+VQw9qLQDIJcrm0JSZBjA=",
+        "originContent": "  (would require changes to grub)",
+        "translatedContent": "  (exigerait des modifications dans grub)  "
+      },
+      {
+        "row": 35,
+        "rowsha": "aC0G9pQL9Z1g6eV8+HXvdeC+rPry75+nwDlwOx0eyXc=",
+        "originContent": "- Cleaning up shell scripts in the ramdisk  ",
+        "translatedContent": "- Nettoyage des scripts shell dans le ramdisk  "
+      },
+      {
+        "row": 36,
+        "rowsha": "QTtcEfiOLQwoekxbBRdO5v+e2sh9+o9EZYwuY2Bxzq0=",
+        "originContent": "  (no upstream changes required)",
+        "translatedContent": "  (aucun changement en amont requis)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "mcfFCWIPGtzjdSDHuKh1fhsxAncFPemhZjUGZ+c9L+o=",
+        "originContent": "## Progress",
+        "translatedContent": "## Progrès"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "EH7cJsCOwkAQGMS5iwXHpIWF5X+QekuvX9tnKW/4ytE=",
+        "originContent": "It boots, but some functionality might not work.",
+        "translatedContent": "Ça démarre, mais certaines fonctionnalités pourraient ne pas fonctionner."
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "56n1MiOwYAo4RBgcLTWY7D375RtlZ4jV6R3uHL2Rh9c=",
+        "originContent": "### ventoy.cpio",
+        "translatedContent": "### ventoy.cpio"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "fhG40sSM6Fgfo3ML0QMz4WG5rhxxjvIQ3V64um1Fy20=",
+        "originContent": "100%, since it's literally just xz-ing a bunch of files.",
+        "translatedContent": "100 %, car c’est littéralement juste une compression xz d’un tas de fichiers."
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "mqgNGeOYqf7zX5eCcULOeo86jGNDqC2JfEP9YgpopQU=",
+        "originContent": "Size ratio:",
+        "translatedContent": "Ratio de taille :"
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "y70bWX4HZu42F1ZXHVkNtvUgceecKm890jr1zR8fQS4=",
+        "originContent": "- du - 1 (64 / 64)",
+        "translatedContent": "- du - 1 (64 / 64)  "
+      },
+      {
+        "row": 49,
+        "rowsha": "U8RL3R5refT6rvxgZqVEXC5YRSRVqyXlacOFHYZ6SsI=",
+        "originContent": "- ls -l - 1 (62976 / 62976)",
+        "translatedContent": "- ls -l - 1 (62976 / 62976)"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "YfjZXlFf1lKK2JRM+xSiHlVZln8nr30dqxIGR/DEA5s=",
+        "originContent": "### ventoy_ARCH.cpio",
+        "translatedContent": "### ventoy_ARCH.cpio"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "UCy8anTswfKUSs30bDOMwziKUmp8zGly429RfsnSCuM=",
+        "originContent": "~75%",
+        "translatedContent": "~75 %"
+      },
+      {
+        "row": 54,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "6ON3JeK0lE8oiRo3i0Y04Dj/K9Bcx1wgpWjWFx9VXsQ=",
+        "originContent": "All the tools are here (mostly), compiled in one way or another. Now all that's",
+        "translatedContent": "Tous les outils sont là (pour la plupart), compilés d’une manière ou d’une autre. Il ne reste plus qu’à optimiser."
+      },
+      {
+        "row": 56,
+        "rowsha": "z+wg7bBHwUcAbKISu6ksX/nLGiARaAeIcQH8n/m6p0Q=",
+        "originContent": "left is optimization.",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Ratio de taille (x86) :"
+      },
+      {
+        "row": 58,
+        "rowsha": "1dTGj0WVOXf7dZOUrogr3kaxfgQQ4R70dxkXwP0Hy1Y=",
+        "originContent": "Size ratio (x86):",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- du - 0.8540245566166439 (2504 / 2932)  "
+      },
+      {
+        "row": 60,
+        "rowsha": "ANnj9b5fx7mW12QtROrhd4v2340aSL2EdDCQem8W8KI=",
+        "originContent": "- du - 0.8540245566166439 (2504 / 2932)",
+        "translatedContent": "- ls -l - 0.8624375107740045 (2561536 / 2970112)"
+      },
+      {
+        "row": 61,
+        "rowsha": "oN2K73TA+XGS9cXoo+LSg9VtMH4YysejAWR8wQCxUcc=",
+        "originContent": "- ls -l - 0.8624375107740045 (2561536 / 2970112)",
+        "translatedContent": ""
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Ratio de taille (arm64) :"
+      },
+      {
+        "row": 63,
+        "rowsha": "Y/iJeGR0gb2kmyixsFLBXxO1Kwo/ViQvwIIH4XT8KgE=",
+        "originContent": "Size ratio (arm64):",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- du - 0.8159806295399516 (1348 / 1652)  "
+      },
+      {
+        "row": 65,
+        "rowsha": "oenW0+JHaHyOTITiZC8J3H1gq+YO7QhmA7e7RQ2SH7g=",
+        "originContent": "- du - 0.8159806295399516 (1348 / 1652)",
+        "translatedContent": "- ls -l - 0.8159490600363857 (1377792 / 1688576)"
+      },
+      {
+        "row": 66,
+        "rowsha": "ChZrD7mxFCVb3h0C82ji8LSiZ3ghG+8OGJTf09Bk0nA=",
+        "originContent": "- ls -l - 0.8159490600363857 (1377792 / 1688576)",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Ratio de taille (mips64) :"
+      },
+      {
+        "row": 68,
+        "rowsha": "ua2l++ecNioCePyaIlZVHQy7NtpLFJHLIwWv4AlqWZc=",
+        "originContent": "Size ratio (mips64):",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- du - 0.9816849816849817 (1072 / 1092)  "
+      },
+      {
+        "row": 70,
+        "rowsha": "NLLs1iFprq5ylPRfHJ1IKNLXe+alzOb/AJB/++XDQyU=",
+        "originContent": "- du - 0.9816849816849817 (1072 / 1092)",
+        "translatedContent": "- ls -l - 0.981642955484167 (1095168 / 1115648)"
+      },
+      {
+        "row": 71,
+        "rowsha": "ms/JoUm6WyajNlufY6Yj/T8FMjYvj5nSY86au8duvII=",
+        "originContent": "- ls -l - 0.981642955484167 (1095168 / 1115648)",
+        "translatedContent": ""
+      },
+      {
+        "row": 72,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### vtloopex.cpio"
+      },
+      {
+        "row": 73,
+        "rowsha": "Srxb6mrjsNO7HNugwFX09cTkLaywbQTZTSE80LctgFA=",
+        "originContent": "### vtloopex.cpio",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "À FAIRE : ajouter ceci"
+      },
+      {
+        "row": 75,
+        "rowsha": "eqDPNC2Lu00LwfZNFl6hF+bvdafa0pGJ6lMW+hOu5YQ=",
+        "originContent": "TODO: add this",
+        "translatedContent": ""
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Utilisation"
+      },
+      {
+        "row": 77,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Compilation"
+      },
+      {
+        "row": 79,
+        "rowsha": "XF0OQHXARHAPgAsmm/yQrbyX0gEge0yzSplZ0vXfSIU=",
+        "originContent": "### Building",
+        "translatedContent": ""
+      },
+      {
+        "row": 80,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\ndocker compose build\n```",
+    "ContentSha": "IkciaupfEPsxs9XgpLxYLMXavudZE4fqrL75DS1jkhE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ndocker compose build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "EfJNQbb+iZHJdqQb8OIyX8D0YrZLfmlk3A4b5cYzlJ0=",
+        "originContent": "docker compose build",
+        "translatedContent": "docker compose build"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\ndocker compose up\n```",
+    "ContentSha": "iXvw3MyLwFDnvsOh1UMBT8cF6t7rE1WHtvK3S3UfNM4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ndocker compose up\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "jFimAULcZDIZHAmoM+tdtj7zAosAOZVWQmKCgqkSXXg=",
+        "originContent": "docker compose up",
+        "translatedContent": "docker compose up"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nHint:\n\nIf you don't want to redownload archives every time you rebuild the container,\ngo to `docker/base/{dietlibc,musl,toolchains}`, look through the setup script\nand manually `wget` the file.\n\nYou can also run this to enter the container:\n",
+    "ContentSha": "M4CKlKEOGsBrdtEvAR0YlcrO+6xXznHMtIvng1XoBmU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nIndice :\n\nSi vous ne souhaitez pas retélécharger les archives à chaque reconstruction du conteneur,\nallez dans `docker/base/{dietlibc,musl,toolchains}`, parcourez le script d'installation\net téléchargez manuellement le fichier avec `wget`.\n\nVous pouvez également exécuter ceci pour entrer dans le conteneur :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jajGovEam//bs0IhC08/lgWLOMPuMMZQna+jcu/0sKo=",
+        "originContent": "Hint:",
+        "translatedContent": "Indice :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "P7d7dQQdtdForQxEfs4ixGvba1BaKcHOkC7KTaGMyY4=",
+        "originContent": "If you don't want to redownload archives every time you rebuild the container,",
+        "translatedContent": "Si vous ne souhaitez pas retélécharger les archives à chaque reconstruction du conteneur,"
+      },
+      {
+        "row": 5,
+        "rowsha": "Ga2k7rWIVSenTUDXIHAWGOsjTCVVJtD3yGYnXnX0ncI=",
+        "originContent": "go to `docker/base/{dietlibc,musl,toolchains}`, look through the setup script",
+        "translatedContent": "allez dans `docker/base/{dietlibc,musl,toolchains}`, parcourez le script d'installation"
+      },
+      {
+        "row": 6,
+        "rowsha": "C5Nuod6lyjm0sWRilL6tO0prmLQNSCmSit941F//OfA=",
+        "originContent": "and manually `wget` the file.",
+        "translatedContent": "et téléchargez manuellement le fichier avec `wget`."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Dktm9JWS3YtFW/K7xzwTr0ut3kuyAnPFYcnuPZ+FojQ=",
+        "originContent": "You can also run this to enter the container:",
+        "translatedContent": "Vous pouvez également exécuter ceci pour entrer dans le conteneur :"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```sh\ndocker run -it --rm \\\n  -v \".:/build\" \\\n  ventoy-cpio-builder:latest \\\n  bash\n```",
+    "ContentSha": "fM9Peon9ciSE0gogR30ayRo0GWv54tRRtXY/wABBsA8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ndocker run -it --rm \\\n  -v \".:/build\" \\\n  ventoy-cpio-builder:latest \\\n  bash\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "LNSs5VQTp8Jb+KBNvY3Vd1Z3WqOM0WY8wASvY0qELxE=",
+        "originContent": "docker run -it --rm \\",
+        "translatedContent": "docker run -it --rm \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "U9HFxK1qp00J1yo95S5sNksO7+Qrji5Csv92Un8x+tQ=",
+        "originContent": "  -v \".:/build\" \\",
+        "translatedContent": "  -v \".:/build\" \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "S5K/eS9ORpo6mR4n5wM/VK2FOourNw2fYwN8RvpohaA=",
+        "originContent": "  ventoy-cpio-builder:latest \\",
+        "translatedContent": "  ventoy-cpio-builder:latest \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "NDk1aP+fl3+MBGpDtGS5m15Q161i6/u5nL+E6ZO1KNk=",
+        "originContent": "  bash",
+        "translatedContent": "  bash"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Setup\n\nOnce you have `ventoy*.cpio` files:\n\n1. Mount the second partition on your Ventoy usb\n1. !!! BACK UP THE ORIGINAL `ventoy*.cpio` FILES !!!\n1. Copy the cpio you want to try out. (hint: if you don't know which one it is,\n  then it's probably `ventoy_x86.cpio`)\n\n## Mini TODO\n\n- Build with an older version of Linux headers for compatibility\n\n## Notes\n\n- [In GCC terms](https://gcc.gnu.org/onlinedocs/gccint/Configure-Terms.html):\n  - The build is assumed to be x86_64 *nix\n  - The host (for ventoy installation tools) is assumed to be x86_64\n  - The targets are x86_64, i386, aarch64 and mips64el\n",
+    "ContentSha": "9bISTgKtt9ZHaFzHYt2KfVgGEJnTsumf0NWM2VJEI7Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Installation\n\nUne fois que vous avez les fichiers `ventoy*.cpio` :\n\n1. Montez la deuxième partition de votre clé USB Ventoy\n1. !!! SAUVEGARDEZ LES FICHIERS ORIGINAUX `ventoy*.cpio` !!!\n1. Copiez le cpio que vous souhaitez essayer. (indice : si vous ne savez pas lequel c’est,\n  alors c’est probablement `ventoy_x86.cpio`)\n\n## Mini TODO\n\n- Compiler avec une version plus ancienne des en-têtes Linux pour la compatibilité\n\n## Notes\n\n- [En termes de GCC](https://gcc.gnu.org/onlinedocs/gccint/Configure-Terms.html) :\n  - La compilation est supposée être pour un *nix x86_64\n  - L’hôte (pour les outils d’installation de ventoy) est supposé être x86_64\n  - Les cibles sont x86_64, i386, aarch64 et mips64el\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iJa409tTUC9P1gTULbIw6Kod+KAUdLl5kgZl7whoChE=",
+        "originContent": "### Setup",
+        "translatedContent": "### Installation"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "bNPBCqJh5HYa9FFeB57H3LinLjG3agQP/TT3ZVgZaz8=",
+        "originContent": "Once you have `ventoy*.cpio` files:",
+        "translatedContent": "Une fois que vous avez les fichiers `ventoy*.cpio` :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "qVXT3NKzwNxlUeZ29p6iTkOUcUPYEGQd/6VpK77PUKY=",
+        "originContent": "1. Mount the second partition on your Ventoy usb",
+        "translatedContent": "1. Montez la deuxième partition de votre clé USB Ventoy"
+      },
+      {
+        "row": 7,
+        "rowsha": "7I0piPGHaSavDdWYpclyv7wfT7sQpcsslgc60Mn1PQM=",
+        "originContent": "1. !!! BACK UP THE ORIGINAL `ventoy*.cpio` FILES !!!",
+        "translatedContent": "1. !!! SAUVEGARDEZ LES FICHIERS ORIGINAUX `ventoy*.cpio` !!!"
+      },
+      {
+        "row": 8,
+        "rowsha": "WsgWEhw09yTLuM/+Tgoj4W5Rq2lowJdITweM8YokPCs=",
+        "originContent": "1. Copy the cpio you want to try out. (hint: if you don't know which one it is,",
+        "translatedContent": "1. Copiez le cpio que vous souhaitez essayer. (indice : si vous ne savez pas lequel c’est,"
+      },
+      {
+        "row": 9,
+        "rowsha": "E7QfrM9+JULGNv+wESz6zrVWOUqYYwcBYEN8av0hOFo=",
+        "originContent": "  then it's probably `ventoy_x86.cpio`)",
+        "translatedContent": "  alors c’est probablement `ventoy_x86.cpio`)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "vwCsluQSP9dB+h/GPG3NTH96lZ02Qa5pCiVFM19QHjU=",
+        "originContent": "## Mini TODO",
+        "translatedContent": "## Mini TODO"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "vNg4r7s9mmTXw/ku2w/Cq9M0PRi3rsQAVOQQrHgG/fM=",
+        "originContent": "- Build with an older version of Linux headers for compatibility",
+        "translatedContent": "- Compiler avec une version plus ancienne des en-têtes Linux pour la compatibilité"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "Y+E+h7N40ehfg46tJn25AgwUV7ERijfgr5+1+XYUT0s=",
+        "originContent": "## Notes",
+        "translatedContent": "## Notes"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "HdQ8xfTNrWnAfM6MO9aU0/VeJXtMzQTtwNgBM01PTZ8=",
+        "originContent": "- [In GCC terms](https://gcc.gnu.org/onlinedocs/gccint/Configure-Terms.html):",
+        "translatedContent": "- [En termes de GCC](https://gcc.gnu.org/onlinedocs/gccint/Configure-Terms.html) :"
+      },
+      {
+        "row": 18,
+        "rowsha": "1cEAw0IskGpp6vtsgIZG7rQ2wi4hT3OeDqB+/voX8ms=",
+        "originContent": "  - The build is assumed to be x86_64 *nix",
+        "translatedContent": "  - La compilation est supposée être pour un *nix x86_64"
+      },
+      {
+        "row": 19,
+        "rowsha": "CHS8JL16hlnkAC+ngDbug+Hb6ablaEA0TlIb2a4s2EQ=",
+        "originContent": "  - The host (for ventoy installation tools) is assumed to be x86_64",
+        "translatedContent": "  - L’hôte (pour les outils d’installation de ventoy) est supposé être x86_64"
+      },
+      {
+        "row": 20,
+        "rowsha": "eGls4m/zP96ry6jEK/hQm+gArg/D08v+nm4zKnoS/Q4=",
+        "originContent": "  - The targets are x86_64, i386, aarch64 and mips64el",
+        "translatedContent": "  - Les cibles sont x86_64, i386, aarch64 et mips64el"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
