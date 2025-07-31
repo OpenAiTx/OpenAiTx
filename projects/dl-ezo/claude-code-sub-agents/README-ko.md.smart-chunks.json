@@ -1,12 +1,12 @@
 [
   {
     "Id": 1,
-    "Content": "# Claude Code Comprehensive Agent Collection\n\n**Language**: [English](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README.md) | [日本語](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README_JA.md)\n\nA complete collection of 35 specialized sub-agents for Claude Code that enable end-to-end software development automation, from requirements analysis to production deployment and ongoing maintenance.\n\n## 🎯 Overview\n\nThis repository contains a comprehensive set of Claude Code sub-agents designed to handle complete software development lifecycles with minimal human intervention. The agents are organized into six categories covering every aspect of modern software development.\n\n## 📦 Agent Categories\n\n### 1. Requirements & Analysis (4 agents)\n**Purpose**: Transform business needs into detailed technical specifications\n\n- **requirements-analyst** - Analyzes user needs and creates detailed functional specifications\n- **user-story-generator** - Creates comprehensive user stories and acceptance criteria  \n- **business-process-analyst** - Analyzes business processes and translates to technical requirements\n- **requirements-validator** - Validates requirements for completeness and consistency\n\n### 2. Design & Architecture (5 agents)\n**Purpose**: Create robust, scalable system designs\n\n- **system-architect** - Designs comprehensive system architectures and technology stacks\n- **data-architect** - Designs data models, schemas, and integration strategies\n- **interface-designer** - Designs user interfaces and API specifications\n- **security-architect** - Designs security frameworks and data protection strategies\n- **design-reviewer** - Reviews and validates system designs for quality\n\n### 3. Implementation & Development (10 agents)\n**Purpose**: Handle all aspects of code development and quality assurance\n\n- **code-reviewer** - Performs comprehensive code quality assessments\n- **test-suite-generator** - Generates comprehensive test coverage\n- **code-refactoring-specialist** - Safely improves code structure and reduces technical debt\n- **security-analyzer** - Identifies vulnerabilities and security issues\n- **performance-optimizer** - Analyzes and optimizes code performance\n- **api-designer** - Designs clean, RESTful APIs with proper specifications\n- **documentation-generator** - Creates technical documentation and code comments\n- **dependency-manager** - Manages package dependencies and resolves conflicts\n- **database-schema-designer** - Designs efficient database schemas and migrations\n- **cicd-builder** - Creates and configures CI/CD pipelines\n\n### 4. Project Management (5 agents)\n**Purpose**: Coordinate and manage the entire development process\n\n- **project-planner** - Creates comprehensive project plans and timelines\n- **risk-manager** - Identifies and creates mitigation strategies for project risks\n- **progress-tracker** - Monitors project progress and identifies blockers\n- **qa-coordinator** - Establishes quality standards and coordinates testing\n- **stakeholder-communicator** - Manages stakeholder communication and reporting\n\n### 5. Deployment & Operations (5 agents)\n**Purpose**: Handle production deployment and ongoing operations\n\n- **project-orchestrator** - Master coordinator for end-to-end project execution\n- **deployment-ops-manager** - Handles production deployment and operational monitoring\n- **uat-coordinator** - Coordinates user acceptance testing with business stakeholders\n- **training-change-manager** - Creates training materials and manages system adoption\n- **project-template-manager** - Manages project templates and quick setup for common project patterns\n\n### 6. Meta-Management (6 agents)\n**Purpose**: Optimize Claude Code itself for maximum efficiency\n\n- **context-manager** - Monitors session context and manages information for continuity\n- **session-continuity-manager** - Ensures seamless transitions between Claude Code sessions\n- **memory-manager** - Optimizes Claude Code memory usage and project documentation\n- **workflow-optimizer** - Analyzes and optimizes development workflows and agent usage\n- **resource-monitor** - Monitors resource usage and suggests optimization strategies\n- **agent-creator** - Dynamically creates new specialized agents when project needs arise\n\n## 🚀 Key Features\n\n### Complete Automation\n- **End-to-end development**: From requirements to production deployment\n- **Intelligent orchestration**: Agents automatically coordinate and sequence work\n- **Dynamic specialization**: Create new agents for unique project needs\n- **Session continuity**: Maintain context across long development sessions\n\n### Professional Quality\n- **Industry best practices**: Each agent follows established methodologies\n- **Comprehensive testing**: Automated test generation and quality assurance\n- **Security-first**: Built-in security analysis and compliance checking\n- **Production-ready**: Full deployment and operational support\n\n### Scalable Architecture\n- **Modular design**: Use individual agents or complete workflows\n- **Context preservation**: Efficient memory management for long projects\n- **Resource optimization**: Monitor and optimize Claude Code usage\n- **Template-driven**: Quick project setup with proven patterns\n\n## 💡 Use Cases\n\n### Complete Project Automation",
-    "ContentSha": "ARMtz0vDA3XZuiPju6no2IzqZEPBVWgTxH5JdyL/nJg=",
+    "Content": "# Claude Code Comprehensive Agent Collection\n\n**Language**: [English](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README.md) | [日本語](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README_JA.md)\n\nA complete collection of specialized sub-agents for Claude Code that enable end-to-end software development automation, from requirements analysis to production deployment and ongoing maintenance.\n\n## 🎯 Overview\n\nThis repository contains a comprehensive set of Claude Code sub-agents designed to handle complete software development lifecycles with minimal human intervention. The agents are organized into six categories covering every aspect of modern software development.\n\n## 📦 Agent Categories\n\n### 1. Requirements & Analysis\n**Purpose**: Transform business needs into detailed technical specifications\n\n- **requirements-analyst** - Analyzes user needs and creates detailed functional specifications\n- **user-story-generator** - Creates comprehensive user stories and acceptance criteria  \n- **business-process-analyst** - Analyzes business processes and translates to technical requirements\n- **requirements-validator** - Validates requirements for completeness and consistency\n\n### 2. Design & Architecture\n**Purpose**: Create robust, scalable system designs\n\n- **system-architect** - Designs comprehensive system architectures and technology stacks\n- **data-architect** - Designs data models, schemas, and integration strategies\n- **interface-designer** - Designs user interfaces and API specifications\n- **security-architect** - Designs security frameworks and data protection strategies\n- **design-reviewer** - Reviews and validates system designs for quality\n\n### 3. Implementation & Development\n**Purpose**: Handle all aspects of code development and quality assurance\n\n- **code-reviewer** - Performs comprehensive code quality assessments\n- **test-suite-generator** - Generates comprehensive test coverage\n- **code-refactoring-specialist** - Safely improves code structure and reduces technical debt\n- **security-analyzer** - Identifies vulnerabilities and security issues\n- **performance-optimizer** - Analyzes and optimizes code performance\n- **api-designer** - Designs clean, RESTful APIs with proper specifications\n- **documentation-generator** - Creates technical documentation and code comments\n- **dependency-manager** - Manages package dependencies and resolves conflicts\n- **database-schema-designer** - Designs efficient database schemas and migrations\n- **git-manager** - Manages Git operations, commit organization, and repository maintenance\n- **cicd-builder** - Creates and configures CI/CD pipelines\n\n### 4. Project Management\n**Purpose**: Coordinate and manage the entire development process\n\n- **project-planner** - Creates comprehensive project plans and timelines\n- **risk-manager** - Identifies and creates mitigation strategies for project risks\n- **progress-tracker** - Monitors project progress and identifies blockers\n- **qa-coordinator** - Establishes quality standards and coordinates testing\n- **stakeholder-communicator** - Manages stakeholder communication and reporting\n\n### 5. Deployment & Operations\n**Purpose**: Handle production deployment and ongoing operations\n\n- **project-orchestrator** - Master coordinator for end-to-end project execution\n- **deployment-ops-manager** - Handles production deployment and operational monitoring\n- **uat-coordinator** - Coordinates user acceptance testing with business stakeholders\n- **training-change-manager** - Creates training materials and manages system adoption\n- **project-template-manager** - Manages project templates and quick setup for common project patterns\n\n### 6. Meta-Management\n**Purpose**: Optimize Claude Code itself for maximum efficiency\n\n- **context-manager** - Monitors session context and manages information for continuity\n- **session-continuity-manager** - Ensures seamless transitions between Claude Code sessions\n- **memory-manager** - Optimizes Claude Code memory usage and project documentation\n- **workflow-optimizer** - Analyzes and optimizes development workflows and agent usage\n- **resource-monitor** - Monitors resource usage and suggests optimization strategies\n- **agent-creator** - Dynamically creates new specialized agents when project needs arise\n\n## 🚀 Key Features\n\n### Complete Automation\n- **End-to-end development**: From requirements to production deployment\n- **Intelligent orchestration**: Agents automatically coordinate and sequence work\n- **Dynamic specialization**: Create new agents for unique project needs\n- **Session continuity**: Maintain context across long development sessions\n\n### Professional Quality\n- **Industry best practices**: Each agent follows established methodologies\n- **Comprehensive testing**: Automated test generation and quality assurance\n- **Security-first**: Built-in security analysis and compliance checking\n- **Production-ready**: Full deployment and operational support\n\n### Scalable Architecture\n- **Modular design**: Use individual agents or complete workflows\n- **Context preservation**: Efficient memory management for long projects\n- **Resource optimization**: Monitor and optimize Claude Code usage\n- **Template-driven**: Quick project setup with proven patterns\n\n## 💡 Use Cases\n\n### Complete Project Automation",
+    "ContentSha": "9yQRmll6a0ygJ8kpsYDCqWdKM7xn6PL5DF9O6dRC7EI=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# Claude Code 종합 에이전트 모음\n\n**언어**: [영어](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README.md) | [日本語](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README_JA.md)\n\n요구사항 분석부터 프로덕션 배포 및 지속적인 유지보수까지 엔드투엔드 소프트웨어 개발 자동화를 가능하게 하는 Claude Code용 35개의 전문 하위 에이전트 완전 모음입니다.\n\n## 🎯 개요\n\n이 저장소는 최소한의 인간 개입으로 완전한 소프트웨어 개발 수명 주기를 처리하도록 설계된 Claude Code 하위 에이전트의 종합 세트를 포함합니다. 에이전트는 현대 소프트웨어 개발의 모든 측면을 다루는 6개 카테고리로 구성되어 있습니다.\n\n## 📦 에이전트 카테고리\n\n### 1. 요구사항 및 분석 (4개 에이전트)\n**목적**: 비즈니스 요구를 상세한 기술 사양으로 전환\n\n- **requirements-analyst** - 사용자 요구를 분석하고 상세 기능 사양을 생성\n- **user-story-generator** - 포괄적인 사용자 스토리와 수용 기준 생성  \n- **business-process-analyst** - 비즈니스 프로세스를 분석하고 기술 요구사항으로 변환\n- **requirements-validator** - 요구사항의 완전성과 일관성 검증\n\n### 2. 설계 및 아키텍처 (5개 에이전트)\n**목적**: 견고하고 확장 가능한 시스템 설계 수립\n\n- **system-architect** - 포괄적인 시스템 아키텍처 및 기술 스택 설계\n- **data-architect** - 데이터 모델, 스키마 및 통합 전략 설계\n- **interface-designer** - 사용자 인터페이스 및 API 사양 설계\n- **security-architect** - 보안 프레임워크 및 데이터 보호 전략 설계\n- **design-reviewer** - 시스템 설계의 품질 검토 및 검증\n\n### 3. 구현 및 개발 (10개 에이전트)\n**목적**: 코드 개발 및 품질 보증의 모든 측면 처리\n\n- **code-reviewer** - 종합적인 코드 품질 평가 수행\n- **test-suite-generator** - 포괄적인 테스트 커버리지 생성\n- **code-refactoring-specialist** - 코드 구조를 안전하게 개선하고 기술 부채 감소\n- **security-analyzer** - 취약점 및 보안 문제 식별\n- **performance-optimizer** - 코드 성능 분석 및 최적화\n- **api-designer** - 적절한 사양의 깔끔한 RESTful API 설계\n- **documentation-generator** - 기술 문서 및 코드 주석 생성\n- **dependency-manager** - 패키지 의존성 관리 및 충돌 해결\n- **database-schema-designer** - 효율적인 데이터베이스 스키마 및 마이그레이션 설계\n- **cicd-builder** - CI/CD 파이프라인 생성 및 구성\n\n### 4. 프로젝트 관리 (5개 에이전트)\n**목적**: 전체 개발 프로세스 조정 및 관리\n\n- **project-planner** - 포괄적인 프로젝트 계획 및 일정 수립\n- **risk-manager** - 프로젝트 위험 식별 및 완화 전략 수립\n- **progress-tracker** - 프로젝트 진행 상황 모니터링 및 장애 요소 식별\n- **qa-coordinator** - 품질 기준 설정 및 테스트 조정\n- **stakeholder-communicator** - 이해관계자 커뮤니케이션 및 보고 관리\n\n### 5. 배포 및 운영 (5개 에이전트)\n**목적**: 프로덕션 배포 및 지속 운영 처리\n\n- **project-orchestrator** - 엔드투엔드 프로젝트 실행의 마스터 조정자\n- **deployment-ops-manager** - 프로덕션 배포 및 운영 모니터링 담당\n- **uat-coordinator** - 비즈니스 이해관계자와 사용자 수용 테스트 조정\n- **training-change-manager** - 교육 자료 생성 및 시스템 도입 관리\n- **project-template-manager** - 프로젝트 템플릿 관리 및 일반 프로젝트 패턴 빠른 설정\n\n### 6. 메타 관리 (6개 에이전트)\n**목적**: Claude Code 자체의 최대 효율성 최적화\n\n- **context-manager** - 세션 컨텍스트 모니터링 및 연속성 정보 관리\n- **session-continuity-manager** - Claude Code 세션 간 원활한 전환 보장\n- **memory-manager** - Claude Code 메모리 사용 및 프로젝트 문서 최적화\n- **workflow-optimizer** - 개발 워크플로우 및 에이전트 사용 분석 및 최적화\n- **resource-monitor** - 리소스 사용 모니터링 및 최적화 전략 제안\n- **agent-creator** - 프로젝트 필요 시 새로운 전문 에이전트 동적 생성\n\n## 🚀 주요 기능\n\n### 완전 자동화\n- **엔드투엔드 개발**: 요구사항부터 프로덕션 배포까지\n- **지능형 조정**: 에이전트가 작업을 자동으로 조정 및 순서 지정\n- **동적 전문화**: 고유 프로젝트 요구에 맞는 새 에이전트 생성\n- **세션 연속성**: 장기 개발 세션 간 컨텍스트 유지\n\n### 전문 품질\n- **업계 모범 사례**: 각 에이전트는 확립된 방법론 준수\n- **포괄적 테스트**: 자동화된 테스트 생성 및 품질 보증\n- **보안 우선**: 내장 보안 분석 및 규정 준수 검사\n- **프로덕션 준비 완료**: 완전한 배포 및 운영 지원\n\n### 확장 가능한 아키텍처\n- **모듈식 설계**: 개별 에이전트 또는 완전한 워크플로우 사용 가능\n- **컨텍스트 보존**: 장기 프로젝트를 위한 효율적 메모리 관리\n- **리소스 최적화**: Claude Code 사용 모니터링 및 최적화\n- **템플릿 기반**: 검증된 패턴으로 빠른 프로젝트 설정\n\n## 💡 활용 사례\n\n### 완전한 프로젝트 자동화",
+    "Translation": "# Claude Code 종합 에이전트 모음\n\n**언어**: [영어](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README.md) | [日本語](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README_JA.md)\n\n요구 사항 분석부터 운영 배포 및 지속적인 유지보수까지, 소프트웨어 개발 자동화를 위한 Claude Code의 전문 하위 에이전트 완전 모음입니다.\n\n## 🎯 개요\n\n이 저장소에는 최소한의 인간 개입으로 완전한 소프트웨어 개발 수명주기를 처리하도록 설계된 Claude Code 하위 에이전트의 종합 세트가 포함되어 있습니다. 에이전트는 현대 소프트웨어 개발의 모든 측면을 다루는 여섯 가지 카테고리로 구성되어 있습니다.\n\n## 📦 에이전트 카테고리\n\n### 1. 요구사항 및 분석\n**목적**: 비즈니스 요구를 상세한 기술 명세로 전환\n\n- **requirements-analyst** - 사용자 요구를 분석하고 상세한 기능 명세 작성\n- **user-story-generator** - 포괄적인 사용자 스토리 및 수용 기준 생성  \n- **business-process-analyst** - 비즈니스 프로세스를 분석하고 기술 요구사항으로 변환\n- **requirements-validator** - 요구사항의 완전성과 일관성 검증\n\n### 2. 설계 및 아키텍처\n**목적**: 견고하고 확장 가능한 시스템 설계 수립\n\n- **system-architect** - 포괄적인 시스템 아키텍처 및 기술 스택 설계\n- **data-architect** - 데이터 모델, 스키마, 통합 전략 설계\n- **interface-designer** - 사용자 인터페이스 및 API 명세 설계\n- **security-architect** - 보안 프레임워크 및 데이터 보호 전략 설계\n- **design-reviewer** - 시스템 설계 품질 검토 및 검증\n\n### 3. 구현 및 개발\n**목적**: 코드 개발 및 품질 보증 전반 처리\n\n- **code-reviewer** - 포괄적인 코드 품질 평가 수행\n- **test-suite-generator** - 광범위한 테스트 커버리지 생성\n- **code-refactoring-specialist** - 안전하게 코드 구조 개선 및 기술 부채 감소\n- **security-analyzer** - 취약점 및 보안 문제 식별\n- **performance-optimizer** - 코드 성능 분석 및 최적화\n- **api-designer** - 적절한 명세를 갖춘 깔끔한 RESTful API 설계\n- **documentation-generator** - 기술 문서 및 코드 주석 생성\n- **dependency-manager** - 패키지 의존성 관리 및 충돌 해결\n- **database-schema-designer** - 효율적인 데이터베이스 스키마 및 마이그레이션 설계\n- **git-manager** - Git 작업, 커밋 구성 및 저장소 유지 관리\n- **cicd-builder** - CI/CD 파이프라인 생성 및 구성\n\n### 4. 프로젝트 관리\n**목적**: 전체 개발 프로세스 조정 및 관리\n\n- **project-planner** - 포괄적인 프로젝트 계획 및 일정 수립\n- **risk-manager** - 프로젝트 위험 식별 및 완화 전략 수립\n- **progress-tracker** - 프로젝트 진행 상황 모니터링 및 장애 요소 식별\n- **qa-coordinator** - 품질 기준 설정 및 테스트 조정\n- **stakeholder-communicator** - 이해관계자 소통 및 보고 관리\n\n### 5. 배포 및 운영\n**목적**: 운영 배포 및 지속적인 운영 처리\n\n- **project-orchestrator** - 엔드투엔드 프로젝트 실행의 마스터 코디네이터\n- **deployment-ops-manager** - 운영 배포 및 운영 모니터링 처리\n- **uat-coordinator** - 비즈니스 이해관계자와 사용자 수용 테스트 조정\n- **training-change-manager** - 교육 자료 작성 및 시스템 도입 관리\n- **project-template-manager** - 프로젝트 템플릿 관리 및 일반 프로젝트 패턴 신속 설정\n\n### 6. 메타 관리\n**목적**: Claude Code 자체의 최대 효율성 최적화\n\n- **context-manager** - 세션 컨텍스트 모니터링 및 연속성 정보 관리\n- **session-continuity-manager** - Claude Code 세션 간 원활한 전환 보장\n- **memory-manager** - Claude Code 메모리 사용 및 프로젝트 문서 최적화\n- **workflow-optimizer** - 개발 워크플로우 및 에이전트 사용 분석 및 최적화\n- **resource-monitor** - 자원 사용 모니터링 및 최적화 전략 제안\n- **agent-creator** - 프로젝트 필요에 따라 새로운 전문 에이전트 동적 생성\n\n## 🚀 주요 기능\n\n### 완전 자동화\n- **엔드투엔드 개발**: 요구사항부터 운영 배포까지\n- **지능형 조율**: 에이전트가 자동으로 작업을 조정 및 순서 지정\n- **동적 전문화**: 고유 프로젝트 요구에 맞는 신규 에이전트 생성\n- **세션 연속성**: 긴 개발 세션 간 컨텍스트 유지\n\n### 전문 품질\n- **업계 모범 사례**: 각 에이전트는 확립된 방법론 준수\n- **포괄적 테스트**: 자동 테스트 생성 및 품질 보증\n- **보안 우선**: 내장된 보안 분석 및 규정 준수 점검\n- **운영 준비 완료**: 완전한 배포 및 운영 지원\n\n### 확장 가능한 아키텍처\n- **모듈식 설계**: 개별 에이전트 또는 전체 워크플로우 사용 가능\n- **컨텍스트 보존**: 긴 프로젝트를 위한 효율적 메모리 관리\n- **자원 최적화**: Claude Code 사용 모니터링 및 최적화\n- **템플릿 기반**: 검증된 패턴으로 신속한 프로젝트 설정\n\n## 💡 사용 사례\n\n### 완전한 프로젝트 자동화",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -35,9 +35,9 @@
       },
       {
         "row": 5,
-        "rowsha": "3mAPFVhQR/ZS8U9/k5AOOElEAr2+bUSUen3KJwwOszA=",
-        "originContent": "A complete collection of 35 specialized sub-agents for Claude Code that enable end-to-end software development automation, from requirements analysis to production deployment and ongoing maintenance.",
-        "translatedContent": "요구사항 분석부터 프로덕션 배포 및 지속적인 유지보수까지 엔드투엔드 소프트웨어 개발 자동화를 가능하게 하는 Claude Code용 35개의 전문 하위 에이전트 완전 모음입니다."
+        "rowsha": "AQn0H3iyebKhHrJtTA90QJnB4fpFifXtQ1ri9eO3Ye0=",
+        "originContent": "A complete collection of specialized sub-agents for Claude Code that enable end-to-end software development automation, from requirements analysis to production deployment and ongoing maintenance.",
+        "translatedContent": "요구 사항 분석부터 운영 배포 및 지속적인 유지보수까지, 소프트웨어 개발 자동화를 위한 Claude Code의 전문 하위 에이전트 완전 모음입니다."
       },
       {
         "row": 6,
@@ -61,7 +61,7 @@
         "row": 9,
         "rowsha": "cbvrdzlp670at7iuqLbjKzJBHR+mOmCAPEw0HPRSBk8=",
         "originContent": "This repository contains a comprehensive set of Claude Code sub-agents designed to handle complete software development lifecycles with minimal human intervention. The agents are organized into six categories covering every aspect of modern software development.",
-        "translatedContent": "이 저장소는 최소한의 인간 개입으로 완전한 소프트웨어 개발 수명 주기를 처리하도록 설계된 Claude Code 하위 에이전트의 종합 세트를 포함합니다. 에이전트는 현대 소프트웨어 개발의 모든 측면을 다루는 6개 카테고리로 구성되어 있습니다."
+        "translatedContent": "이 저장소에는 최소한의 인간 개입으로 완전한 소프트웨어 개발 수명주기를 처리하도록 설계된 Claude Code 하위 에이전트의 종합 세트가 포함되어 있습니다. 에이전트는 현대 소프트웨어 개발의 모든 측면을 다루는 여섯 가지 카테고리로 구성되어 있습니다."
       },
       {
         "row": 10,
@@ -83,15 +83,15 @@
       },
       {
         "row": 13,
-        "rowsha": "RlzMgD66ufxRyDYbHSLssWjHEmgnftI6Ml3A9uOCKIA=",
-        "originContent": "### 1. Requirements & Analysis (4 agents)",
-        "translatedContent": "### 1. 요구사항 및 분석 (4개 에이전트)"
+        "rowsha": "57GhOZZ7yX+vmB5PVfnRMHHg73F56YimlF5O1LiFZuE=",
+        "originContent": "### 1. Requirements & Analysis",
+        "translatedContent": "### 1. 요구사항 및 분석"
       },
       {
         "row": 14,
         "rowsha": "3/aXK0XLjf6cPP8KJ2CZM7u4n2UtKwjF/RSNhH3jc/E=",
         "originContent": "**Purpose**: Transform business needs into detailed technical specifications",
-        "translatedContent": "**목적**: 비즈니스 요구를 상세한 기술 사양으로 전환"
+        "translatedContent": "**목적**: 비즈니스 요구를 상세한 기술 명세로 전환"
       },
       {
         "row": 15,
@@ -103,13 +103,13 @@
         "row": 16,
         "rowsha": "w0/ucPkl+Onq7Li/T7AZrmKFnswxUtKhhe58QoM5Wi8=",
         "originContent": "- **requirements-analyst** - Analyzes user needs and creates detailed functional specifications",
-        "translatedContent": "- **requirements-analyst** - 사용자 요구를 분석하고 상세 기능 사양을 생성"
+        "translatedContent": "- **requirements-analyst** - 사용자 요구를 분석하고 상세한 기능 명세 작성"
       },
       {
         "row": 17,
         "rowsha": "lrBSQXMWL6rLzEa+9y4srOdAcSljgugG7OXvOHB6pXE=",
         "originContent": "- **user-story-generator** - Creates comprehensive user stories and acceptance criteria  ",
-        "translatedContent": "- **user-story-generator** - 포괄적인 사용자 스토리와 수용 기준 생성  "
+        "translatedContent": "- **user-story-generator** - 포괄적인 사용자 스토리 및 수용 기준 생성  "
       },
       {
         "row": 18,
@@ -131,9 +131,9 @@
       },
       {
         "row": 21,
-        "rowsha": "W8mIsjaJcDzO7VnsnV2X6zXXMWzwVc6fdeGiP7ovSmw=",
-        "originContent": "### 2. Design & Architecture (5 agents)",
-        "translatedContent": "### 2. 설계 및 아키텍처 (5개 에이전트)"
+        "rowsha": "lrM9lHye29NVUzICS4/g3RdC2O1flwPeRJALO9ku0WE=",
+        "originContent": "### 2. Design & Architecture",
+        "translatedContent": "### 2. 설계 및 아키텍처"
       },
       {
         "row": 22,
@@ -157,13 +157,13 @@
         "row": 25,
         "rowsha": "/bNWVLHWmvjshksCM1rv8r80sulkbHhG4fM4OpR/09w=",
         "originContent": "- **data-architect** - Designs data models, schemas, and integration strategies",
-        "translatedContent": "- **data-architect** - 데이터 모델, 스키마 및 통합 전략 설계"
+        "translatedContent": "- **data-architect** - 데이터 모델, 스키마, 통합 전략 설계"
       },
       {
         "row": 26,
         "rowsha": "fYmlw2UF2wUCFxJ3aHR6CbqtzdAGt7WBNxY4puDX+so=",
         "originContent": "- **interface-designer** - Designs user interfaces and API specifications",
-        "translatedContent": "- **interface-designer** - 사용자 인터페이스 및 API 사양 설계"
+        "translatedContent": "- **interface-designer** - 사용자 인터페이스 및 API 명세 설계"
       },
       {
         "row": 27,
@@ -175,7 +175,7 @@
         "row": 28,
         "rowsha": "rlJewA8hlidPIXGApRykT6QFZoDEd9BVAzu6ISftTl4=",
         "originContent": "- **design-reviewer** - Reviews and validates system designs for quality",
-        "translatedContent": "- **design-reviewer** - 시스템 설계의 품질 검토 및 검증"
+        "translatedContent": "- **design-reviewer** - 시스템 설계 품질 검토 및 검증"
       },
       {
         "row": 29,
@@ -185,15 +185,15 @@
       },
       {
         "row": 30,
-        "rowsha": "sIJKiUe1MxA6OJuGhoTR710n7wuy5x9ZD4LfXZhlyc0=",
-        "originContent": "### 3. Implementation & Development (10 agents)",
-        "translatedContent": "### 3. 구현 및 개발 (10개 에이전트)"
+        "rowsha": "iQpIpbmvl2RzXUu7Es0PZUfJpobtpyRhIUmr1VrLorg=",
+        "originContent": "### 3. Implementation & Development",
+        "translatedContent": "### 3. 구현 및 개발"
       },
       {
         "row": 31,
         "rowsha": "FplivmfBKwCYZ9Qwfgje7DbF0ZtuAgyy6wLaxDCBOeo=",
         "originContent": "**Purpose**: Handle all aspects of code development and quality assurance",
-        "translatedContent": "**목적**: 코드 개발 및 품질 보증의 모든 측면 처리"
+        "translatedContent": "**목적**: 코드 개발 및 품질 보증 전반 처리"
       },
       {
         "row": 32,
@@ -205,19 +205,19 @@
         "row": 33,
         "rowsha": "/d+2qt9/xuWLjsWT0/j2bcg0G9ob0CEtlses/zsXGPk=",
         "originContent": "- **code-reviewer** - Performs comprehensive code quality assessments",
-        "translatedContent": "- **code-reviewer** - 종합적인 코드 품질 평가 수행"
+        "translatedContent": "- **code-reviewer** - 포괄적인 코드 품질 평가 수행"
       },
       {
         "row": 34,
         "rowsha": "QQQCGKw90mwjwaaPBbhge7tFbfGBJi2WtnkExYYwZZE=",
         "originContent": "- **test-suite-generator** - Generates comprehensive test coverage",
-        "translatedContent": "- **test-suite-generator** - 포괄적인 테스트 커버리지 생성"
+        "translatedContent": "- **test-suite-generator** - 광범위한 테스트 커버리지 생성"
       },
       {
         "row": 35,
         "rowsha": "UFA0paevpG6EOsdEF4Xa8HeTSKOOGysBgv0x4OU9AA0=",
         "originContent": "- **code-refactoring-specialist** - Safely improves code structure and reduces technical debt",
-        "translatedContent": "- **code-refactoring-specialist** - 코드 구조를 안전하게 개선하고 기술 부채 감소"
+        "translatedContent": "- **code-refactoring-specialist** - 안전하게 코드 구조 개선 및 기술 부채 감소"
       },
       {
         "row": 36,
@@ -235,7 +235,7 @@
         "row": 38,
         "rowsha": "RP4I7KZY07TP6sRoRJHGkM3b8r5axHXISYmzVvSBmxY=",
         "originContent": "- **api-designer** - Designs clean, RESTful APIs with proper specifications",
-        "translatedContent": "- **api-designer** - 적절한 사양의 깔끔한 RESTful API 설계"
+        "translatedContent": "- **api-designer** - 적절한 명세를 갖춘 깔끔한 RESTful API 설계"
       },
       {
         "row": 39,
@@ -257,318 +257,324 @@
       },
       {
         "row": 42,
+        "rowsha": "rbg9sYy9KUEXZCgjDXxrD4KLOtxw/uzvaraJf1Y36BI=",
+        "originContent": "- **git-manager** - Manages Git operations, commit organization, and repository maintenance",
+        "translatedContent": "- **git-manager** - Git 작업, 커밋 구성 및 저장소 유지 관리"
+      },
+      {
+        "row": 43,
         "rowsha": "lBaXrLs64BI/7mFIDUJypmNo6P1zNQXGbWcMKUuiSnc=",
         "originContent": "- **cicd-builder** - Creates and configures CI/CD pipelines",
         "translatedContent": "- **cicd-builder** - CI/CD 파이프라인 생성 및 구성"
       },
       {
-        "row": 43,
+        "row": 44,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 44,
-        "rowsha": "vRil394DO1pw2BYMZGNWBWPPOacu3eM46MGXOtwMj80=",
-        "originContent": "### 4. Project Management (5 agents)",
-        "translatedContent": "### 4. 프로젝트 관리 (5개 에이전트)"
+        "row": 45,
+        "rowsha": "mP8RKO1vQIGX+H/deu2Tj2gPyTLC4mgO6ssAlCT0mRg=",
+        "originContent": "### 4. Project Management",
+        "translatedContent": "### 4. 프로젝트 관리"
       },
       {
-        "row": 45,
+        "row": 46,
         "rowsha": "XY2Hao2NbKl/HBujPSkv4+SGZKEjaJJuNIhQdXpd3ww=",
         "originContent": "**Purpose**: Coordinate and manage the entire development process",
         "translatedContent": "**목적**: 전체 개발 프로세스 조정 및 관리"
       },
       {
-        "row": 46,
+        "row": 47,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 47,
+        "row": 48,
         "rowsha": "CqmQVZRiYMcxPYeuJQQKNvESDSUoZs8oUom9+gc0aHU=",
         "originContent": "- **project-planner** - Creates comprehensive project plans and timelines",
         "translatedContent": "- **project-planner** - 포괄적인 프로젝트 계획 및 일정 수립"
       },
       {
-        "row": 48,
+        "row": 49,
         "rowsha": "wEIgmxYaB4HcMUnDzqO7CgWogmJanJndqresf5mVnAA=",
         "originContent": "- **risk-manager** - Identifies and creates mitigation strategies for project risks",
         "translatedContent": "- **risk-manager** - 프로젝트 위험 식별 및 완화 전략 수립"
       },
       {
-        "row": 49,
+        "row": 50,
         "rowsha": "AVZbZ6HAx8YGKgbV6WfFC0q8DjC83xo9u/8RBI2gFRw=",
         "originContent": "- **progress-tracker** - Monitors project progress and identifies blockers",
         "translatedContent": "- **progress-tracker** - 프로젝트 진행 상황 모니터링 및 장애 요소 식별"
       },
       {
-        "row": 50,
+        "row": 51,
         "rowsha": "Q0u1WmfMnNU6jKwxIm11n8vk3ezDOK3AN96TxTypNOM=",
         "originContent": "- **qa-coordinator** - Establishes quality standards and coordinates testing",
         "translatedContent": "- **qa-coordinator** - 품질 기준 설정 및 테스트 조정"
       },
       {
-        "row": 51,
+        "row": 52,
         "rowsha": "nAWJKAUeNaVWV58uoOrJl4lK1ieKUf4GBt3GJ9Q36mo=",
         "originContent": "- **stakeholder-communicator** - Manages stakeholder communication and reporting",
-        "translatedContent": "- **stakeholder-communicator** - 이해관계자 커뮤니케이션 및 보고 관리"
-      },
-      {
-        "row": 52,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "- **stakeholder-communicator** - 이해관계자 소통 및 보고 관리"
       },
       {
         "row": 53,
-        "rowsha": "mdr/qrpUqVx/Olx6sHnGbSQGM9ngYik6mK/h2gnZMmM=",
-        "originContent": "### 5. Deployment & Operations (5 agents)",
-        "translatedContent": "### 5. 배포 및 운영 (5개 에이전트)"
-      },
-      {
-        "row": 54,
-        "rowsha": "BcNgjogW9ujwV7M6eE0skEMIuMQc6TDWqsAf7+NZ5tw=",
-        "originContent": "**Purpose**: Handle production deployment and ongoing operations",
-        "translatedContent": "**목적**: 프로덕션 배포 및 지속 운영 처리"
-      },
-      {
-        "row": 55,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 54,
+        "rowsha": "IeKoRw6R1oovycL6eeyNhw8u0veFiKoc/ci5nBHynKw=",
+        "originContent": "### 5. Deployment & Operations",
+        "translatedContent": "### 5. 배포 및 운영"
+      },
+      {
+        "row": 55,
+        "rowsha": "BcNgjogW9ujwV7M6eE0skEMIuMQc6TDWqsAf7+NZ5tw=",
+        "originContent": "**Purpose**: Handle production deployment and ongoing operations",
+        "translatedContent": "**목적**: 운영 배포 및 지속적인 운영 처리"
+      },
+      {
         "row": 56,
-        "rowsha": "19SwWsNll3H0kq0veYYaRiGn8RqqMXYxbNDY0A9EJXU=",
-        "originContent": "- **project-orchestrator** - Master coordinator for end-to-end project execution",
-        "translatedContent": "- **project-orchestrator** - 엔드투엔드 프로젝트 실행의 마스터 조정자"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 57,
-        "rowsha": "VEq1+GObXyChSs9R90CYQ+RfTGV3wHoFFcvph8jm8VE=",
-        "originContent": "- **deployment-ops-manager** - Handles production deployment and operational monitoring",
-        "translatedContent": "- **deployment-ops-manager** - 프로덕션 배포 및 운영 모니터링 담당"
+        "rowsha": "19SwWsNll3H0kq0veYYaRiGn8RqqMXYxbNDY0A9EJXU=",
+        "originContent": "- **project-orchestrator** - Master coordinator for end-to-end project execution",
+        "translatedContent": "- **project-orchestrator** - 엔드투엔드 프로젝트 실행의 마스터 코디네이터"
       },
       {
         "row": 58,
+        "rowsha": "VEq1+GObXyChSs9R90CYQ+RfTGV3wHoFFcvph8jm8VE=",
+        "originContent": "- **deployment-ops-manager** - Handles production deployment and operational monitoring",
+        "translatedContent": "- **deployment-ops-manager** - 운영 배포 및 운영 모니터링 처리"
+      },
+      {
+        "row": 59,
         "rowsha": "piVTq9rxMcNaep2Qj4JnbObME0hZGfMLaKsrgprSiq4=",
         "originContent": "- **uat-coordinator** - Coordinates user acceptance testing with business stakeholders",
         "translatedContent": "- **uat-coordinator** - 비즈니스 이해관계자와 사용자 수용 테스트 조정"
       },
       {
-        "row": 59,
+        "row": 60,
         "rowsha": "3yNp7eNTFMI4NaTq1WMQjngXksvhQarrjd8RaQ/1wmg=",
         "originContent": "- **training-change-manager** - Creates training materials and manages system adoption",
-        "translatedContent": "- **training-change-manager** - 교육 자료 생성 및 시스템 도입 관리"
-      },
-      {
-        "row": 60,
-        "rowsha": "9RtwtYpz084LifCKcDCdRcshpFJNc/OBiKXFAiI4Fas=",
-        "originContent": "- **project-template-manager** - Manages project templates and quick setup for common project patterns",
-        "translatedContent": "- **project-template-manager** - 프로젝트 템플릿 관리 및 일반 프로젝트 패턴 빠른 설정"
+        "translatedContent": "- **training-change-manager** - 교육 자료 작성 및 시스템 도입 관리"
       },
       {
         "row": 61,
+        "rowsha": "9RtwtYpz084LifCKcDCdRcshpFJNc/OBiKXFAiI4Fas=",
+        "originContent": "- **project-template-manager** - Manages project templates and quick setup for common project patterns",
+        "translatedContent": "- **project-template-manager** - 프로젝트 템플릿 관리 및 일반 프로젝트 패턴 신속 설정"
+      },
+      {
+        "row": 62,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 62,
-        "rowsha": "JDWzZ78ckDqqLtxvThCIPI6iw21/AV0GjsWYMLRgzFw=",
-        "originContent": "### 6. Meta-Management (6 agents)",
-        "translatedContent": "### 6. 메타 관리 (6개 에이전트)"
+        "row": 63,
+        "rowsha": "MSbqQvWH48LJuROF/ScXOlObaW7GRNY1t9M4NZ4pxzc=",
+        "originContent": "### 6. Meta-Management",
+        "translatedContent": "### 6. 메타 관리"
       },
       {
-        "row": 63,
+        "row": 64,
         "rowsha": "Kmlksp9P3Q8TWFBc5EiFL4Op2wP1Gv15sbR/a3dWAWE=",
         "originContent": "**Purpose**: Optimize Claude Code itself for maximum efficiency",
         "translatedContent": "**목적**: Claude Code 자체의 최대 효율성 최적화"
       },
       {
-        "row": 64,
+        "row": 65,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 65,
+        "row": 66,
         "rowsha": "WGJdNLxoydDChlwdH7aenmExQL28KNgNduBo/5gbYhE=",
         "originContent": "- **context-manager** - Monitors session context and manages information for continuity",
         "translatedContent": "- **context-manager** - 세션 컨텍스트 모니터링 및 연속성 정보 관리"
       },
       {
-        "row": 66,
+        "row": 67,
         "rowsha": "jL6Bjf6WNkZHg3OzWFb/2j6RdFFXPHnNvx2wAECTLKM=",
         "originContent": "- **session-continuity-manager** - Ensures seamless transitions between Claude Code sessions",
         "translatedContent": "- **session-continuity-manager** - Claude Code 세션 간 원활한 전환 보장"
       },
       {
-        "row": 67,
+        "row": 68,
         "rowsha": "zk67c20MgJXTwuQh/OzGKCtop0WFQFNG6tEUWnjLGew=",
         "originContent": "- **memory-manager** - Optimizes Claude Code memory usage and project documentation",
         "translatedContent": "- **memory-manager** - Claude Code 메모리 사용 및 프로젝트 문서 최적화"
       },
       {
-        "row": 68,
+        "row": 69,
         "rowsha": "Y3rml6PQ96OwU/+S5BDKrgK+eQFNgEi4eGhzFa2Ex9c=",
         "originContent": "- **workflow-optimizer** - Analyzes and optimizes development workflows and agent usage",
         "translatedContent": "- **workflow-optimizer** - 개발 워크플로우 및 에이전트 사용 분석 및 최적화"
       },
       {
-        "row": 69,
+        "row": 70,
         "rowsha": "FDIUeHc8azF8mXg1sRUEikL/UZIkU6LdFSUy8220FtM=",
         "originContent": "- **resource-monitor** - Monitors resource usage and suggests optimization strategies",
-        "translatedContent": "- **resource-monitor** - 리소스 사용 모니터링 및 최적화 전략 제안"
-      },
-      {
-        "row": 70,
-        "rowsha": "AONuHypCP32XV3aBhtj5KtltxbpjeLWCQA2vkE3zJRQ=",
-        "originContent": "- **agent-creator** - Dynamically creates new specialized agents when project needs arise",
-        "translatedContent": "- **agent-creator** - 프로젝트 필요 시 새로운 전문 에이전트 동적 생성"
+        "translatedContent": "- **resource-monitor** - 자원 사용 모니터링 및 최적화 전략 제안"
       },
       {
         "row": 71,
+        "rowsha": "AONuHypCP32XV3aBhtj5KtltxbpjeLWCQA2vkE3zJRQ=",
+        "originContent": "- **agent-creator** - Dynamically creates new specialized agents when project needs arise",
+        "translatedContent": "- **agent-creator** - 프로젝트 필요에 따라 새로운 전문 에이전트 동적 생성"
+      },
+      {
+        "row": 72,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 72,
+        "row": 73,
         "rowsha": "0vAhKmXWDMjukIwL5SlQVUPpA0O/4mj+5Mh4JxRDWaA=",
         "originContent": "## 🚀 Key Features",
         "translatedContent": "## 🚀 주요 기능"
       },
       {
-        "row": 73,
+        "row": 74,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 74,
+        "row": 75,
         "rowsha": "8SdBaW7ajeCDZFJ3FfXKI+SlFM0uEhwwz8/NgHaAZ9M=",
         "originContent": "### Complete Automation",
         "translatedContent": "### 완전 자동화"
       },
       {
-        "row": 75,
+        "row": 76,
         "rowsha": "1KBmODT/p2K8BbPQ4VJb8Cgxs4b2q7SoZCeLCnlXyxc=",
         "originContent": "- **End-to-end development**: From requirements to production deployment",
-        "translatedContent": "- **엔드투엔드 개발**: 요구사항부터 프로덕션 배포까지"
-      },
-      {
-        "row": 76,
-        "rowsha": "MYQtegIMlri4y74WEYYNrzAIflJIhUpKuJYoS+eKUXw=",
-        "originContent": "- **Intelligent orchestration**: Agents automatically coordinate and sequence work",
-        "translatedContent": "- **지능형 조정**: 에이전트가 작업을 자동으로 조정 및 순서 지정"
+        "translatedContent": "- **엔드투엔드 개발**: 요구사항부터 운영 배포까지"
       },
       {
         "row": 77,
-        "rowsha": "moq7wRbtxxVN4VRiiJXgjDDi9URndfa+vs7FXs0nYwc=",
-        "originContent": "- **Dynamic specialization**: Create new agents for unique project needs",
-        "translatedContent": "- **동적 전문화**: 고유 프로젝트 요구에 맞는 새 에이전트 생성"
+        "rowsha": "MYQtegIMlri4y74WEYYNrzAIflJIhUpKuJYoS+eKUXw=",
+        "originContent": "- **Intelligent orchestration**: Agents automatically coordinate and sequence work",
+        "translatedContent": "- **지능형 조율**: 에이전트가 자동으로 작업을 조정 및 순서 지정"
       },
       {
         "row": 78,
-        "rowsha": "LT0mCOhUEiWst4O9SbtV2bMyEflAj2xVpoFp+S5kdzs=",
-        "originContent": "- **Session continuity**: Maintain context across long development sessions",
-        "translatedContent": "- **세션 연속성**: 장기 개발 세션 간 컨텍스트 유지"
+        "rowsha": "moq7wRbtxxVN4VRiiJXgjDDi9URndfa+vs7FXs0nYwc=",
+        "originContent": "- **Dynamic specialization**: Create new agents for unique project needs",
+        "translatedContent": "- **동적 전문화**: 고유 프로젝트 요구에 맞는 신규 에이전트 생성"
       },
       {
         "row": 79,
+        "rowsha": "LT0mCOhUEiWst4O9SbtV2bMyEflAj2xVpoFp+S5kdzs=",
+        "originContent": "- **Session continuity**: Maintain context across long development sessions",
+        "translatedContent": "- **세션 연속성**: 긴 개발 세션 간 컨텍스트 유지"
+      },
+      {
+        "row": 80,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 80,
+        "row": 81,
         "rowsha": "U9iAEb8ZLaHt8gfQGrJKemcp6LYBogJj7mKoTffAkaU=",
         "originContent": "### Professional Quality",
         "translatedContent": "### 전문 품질"
       },
       {
-        "row": 81,
+        "row": 82,
         "rowsha": "K2KWSvLCwo21GiJXcnUEcWccwG2zxzQTZ9D7iFdeBRY=",
         "originContent": "- **Industry best practices**: Each agent follows established methodologies",
         "translatedContent": "- **업계 모범 사례**: 각 에이전트는 확립된 방법론 준수"
       },
       {
-        "row": 82,
+        "row": 83,
         "rowsha": "K7ds/im6yQKsLDhdUY4xJiaYm5rKUtx7bg+FMK+zjAM=",
         "originContent": "- **Comprehensive testing**: Automated test generation and quality assurance",
-        "translatedContent": "- **포괄적 테스트**: 자동화된 테스트 생성 및 품질 보증"
-      },
-      {
-        "row": 83,
-        "rowsha": "x5i0OJEdQle1BrYQzaixjiDSezK2LsDF3Khsbsdhv+k=",
-        "originContent": "- **Security-first**: Built-in security analysis and compliance checking",
-        "translatedContent": "- **보안 우선**: 내장 보안 분석 및 규정 준수 검사"
+        "translatedContent": "- **포괄적 테스트**: 자동 테스트 생성 및 품질 보증"
       },
       {
         "row": 84,
-        "rowsha": "VOTQQMPIZ7kf9B2d55UdUdBVDkc/LvWR/O34uu7tvew=",
-        "originContent": "- **Production-ready**: Full deployment and operational support",
-        "translatedContent": "- **프로덕션 준비 완료**: 완전한 배포 및 운영 지원"
+        "rowsha": "x5i0OJEdQle1BrYQzaixjiDSezK2LsDF3Khsbsdhv+k=",
+        "originContent": "- **Security-first**: Built-in security analysis and compliance checking",
+        "translatedContent": "- **보안 우선**: 내장된 보안 분석 및 규정 준수 점검"
       },
       {
         "row": 85,
+        "rowsha": "VOTQQMPIZ7kf9B2d55UdUdBVDkc/LvWR/O34uu7tvew=",
+        "originContent": "- **Production-ready**: Full deployment and operational support",
+        "translatedContent": "- **운영 준비 완료**: 완전한 배포 및 운영 지원"
+      },
+      {
+        "row": 86,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 86,
+        "row": 87,
         "rowsha": "sQswc4yNlNcmmzcFgpkezJx+a/vx/JooVuC/IrVdfzc=",
         "originContent": "### Scalable Architecture",
         "translatedContent": "### 확장 가능한 아키텍처"
       },
       {
-        "row": 87,
+        "row": 88,
         "rowsha": "ilJYmYfbvNZU8MxF6+aaDwZKNo5DJtKGhjj6yt5sWow=",
         "originContent": "- **Modular design**: Use individual agents or complete workflows",
-        "translatedContent": "- **모듈식 설계**: 개별 에이전트 또는 완전한 워크플로우 사용 가능"
-      },
-      {
-        "row": 88,
-        "rowsha": "BFaMlkArtqxiXxN7aIuAKXmU6wDsSNMC6JCRys3xtsc=",
-        "originContent": "- **Context preservation**: Efficient memory management for long projects",
-        "translatedContent": "- **컨텍스트 보존**: 장기 프로젝트를 위한 효율적 메모리 관리"
+        "translatedContent": "- **모듈식 설계**: 개별 에이전트 또는 전체 워크플로우 사용 가능"
       },
       {
         "row": 89,
-        "rowsha": "J+eHYm0eR6oh/CX4uNDn27k3qFhdiZ+I0pbT2VUfMio=",
-        "originContent": "- **Resource optimization**: Monitor and optimize Claude Code usage",
-        "translatedContent": "- **리소스 최적화**: Claude Code 사용 모니터링 및 최적화"
+        "rowsha": "BFaMlkArtqxiXxN7aIuAKXmU6wDsSNMC6JCRys3xtsc=",
+        "originContent": "- **Context preservation**: Efficient memory management for long projects",
+        "translatedContent": "- **컨텍스트 보존**: 긴 프로젝트를 위한 효율적 메모리 관리"
       },
       {
         "row": 90,
-        "rowsha": "zMzZWg8tUF3le85fDCAkMsf7gf54Q21WBwJFTAegR4Y=",
-        "originContent": "- **Template-driven**: Quick project setup with proven patterns",
-        "translatedContent": "- **템플릿 기반**: 검증된 패턴으로 빠른 프로젝트 설정"
+        "rowsha": "J+eHYm0eR6oh/CX4uNDn27k3qFhdiZ+I0pbT2VUfMio=",
+        "originContent": "- **Resource optimization**: Monitor and optimize Claude Code usage",
+        "translatedContent": "- **자원 최적화**: Claude Code 사용 모니터링 및 최적화"
       },
       {
         "row": 91,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "zMzZWg8tUF3le85fDCAkMsf7gf54Q21WBwJFTAegR4Y=",
+        "originContent": "- **Template-driven**: Quick project setup with proven patterns",
+        "translatedContent": "- **템플릿 기반**: 검증된 패턴으로 신속한 프로젝트 설정"
       },
       {
         "row": 92,
-        "rowsha": "XUWpu+KgBlTCUqUsCcfHWfgLTbHUd2TXsrgJ7cV1o+4=",
-        "originContent": "## 💡 Use Cases",
-        "translatedContent": "## 💡 활용 사례"
-      },
-      {
-        "row": 93,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 93,
+        "rowsha": "XUWpu+KgBlTCUqUsCcfHWfgLTbHUd2TXsrgJ7cV1o+4=",
+        "originContent": "## 💡 Use Cases",
+        "translatedContent": "## 💡 사용 사례"
+      },
+      {
         "row": 94,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 95,
         "rowsha": "BiZVYjuZ7LNO6W/gbbFtQVWB0MN4ZhtDUQpMlk369Kk=",
         "originContent": "### Complete Project Automation",
         "translatedContent": "### 완전한 프로젝트 자동화"
@@ -585,32 +591,7 @@
     "EndLine": 0,
     "Translation": "```\nUser: \"Create a library management system for our company\"\nResult: Fully functional web application with database, API, frontend, tests, documentation, and deployment\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "U3yB2gSzsN678e9LbRipZ0ee4j8nyWBhMPXv0hz3YVg=",
-        "originContent": "User: \"Create a library management system for our company\"",
-        "translatedContent": "User: \"Create a library management system for our company\""
-      },
-      {
-        "row": 3,
-        "rowsha": "GyrmwyNCG0gY3GGxJMcaaAhCRSE6kH7Yyu7iCwDTuiI=",
-        "originContent": "Result: Fully functional web application with database, API, frontend, tests, documentation, and deployment",
-        "translatedContent": "Result: Fully functional web application with database, API, frontend, tests, documentation, and deployment"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -622,20 +603,7 @@
     "EndLine": 0,
     "Translation": "### 전문 개발 작업\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 전문 개발 작업"
-      },
-      {
-        "row": 2,
-        "rowsha": "8SDCDLqZKImzL2DaC5gTB2rOekPQ6BNrcbmgMxmoBoU=",
-        "originContent": "### Specialized Development Tasks",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -647,32 +615,7 @@
     "EndLine": 0,
     "Translation": "```\nUser: \"Review this authentication code for security issues\"\nAgent: security-analyzer performs comprehensive security audit\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "mIC2W9TwHs2ov8aMeRte+hqI2DLad9pqidGx3Lr+czs=",
-        "originContent": "User: \"Review this authentication code for security issues\"",
-        "translatedContent": "User: \"Review this authentication code for security issues\""
-      },
-      {
-        "row": 3,
-        "rowsha": "ip/7BRerGNPdeIVRcn9gqRb3oVXyqX3rD92KL+GTcq4=",
-        "originContent": "Agent: security-analyzer performs comprehensive security audit",
-        "translatedContent": "Agent: security-analyzer performs comprehensive security audit"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -684,20 +627,7 @@
     "EndLine": 0,
     "Translation": "\n### 장기 프로젝트 관리",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "WmHIJeACkbJ2yydWcL3vBK9VT8X95F8ubbU1axFD1OM=",
-        "originContent": "### Long-term Project Management",
-        "translatedContent": "### 장기 프로젝트 관리"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -709,32 +639,7 @@
     "EndLine": 0,
     "Translation": "```\nUser: \"Manage the development of a multi-tenant SaaS platform\"\nAgent: project-orchestrator coordinates all phases with appropriate specialists\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "eu585UZZuRDReiu/JP8D6/r93IgUVe23Q5JgvrfJLv8=",
-        "originContent": "User: \"Manage the development of a multi-tenant SaaS platform\"",
-        "translatedContent": "User: \"Manage the development of a multi-tenant SaaS platform\""
-      },
-      {
-        "row": 3,
-        "rowsha": "VVFNfnLKJGLNZvysQUoj5G+tjE40p0zqdjdbSKm3w80=",
-        "originContent": "Agent: project-orchestrator coordinates all phases with appropriate specialists",
-        "translatedContent": "Agent: project-orchestrator coordinates all phases with appropriate specialists"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -746,42 +651,17 @@
     "EndLine": 0,
     "Translation": "\n## 📋 설치\n\n1. **에이전트 정의를 복제하거나 복사**하여 프로젝트의 `.claude/agents/` 디렉터리에 넣으세요:",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "DsxK6oirhGGJsih8ggyfe4Pyy0zS8jxtpfaZRPHBeh8=",
-        "originContent": "## 📋 Installation",
-        "translatedContent": "## 📋 설치"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "bv0IAEZRaKOhmELGd+AAJVhUli3f8Qwf3YgWqobh6bU=",
-        "originContent": "1. **Clone or copy agent definitions** to your project's `.claude/agents/` directory:",
-        "translatedContent": "1. **에이전트 정의를 복제하거나 복사**하여 프로젝트의 `.claude/agents/` 디렉터리에 넣으세요:"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
     "Id": 8,
-    "Content": "   ```bash\n   mkdir -p .claude/agents\n   # Copy the 35 agent definition files to this directory\n   ```",
-    "ContentSha": "9j75s0dgvFI63ySzBbI44Tt3EqN8fTAUuuxOC+Vh39U=",
+    "Content": "   ```bash\n   mkdir -p .claude/agents\n   # Copy the agent definition files to this directory\n   ```",
+    "ContentSha": "tkkfIaI3qeoYLN+lQBVRoinNVHvLsPHKihRx3TH3I3c=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "   ```bash\n   mkdir -p .claude/agents\n   # Copy the 35 agent definition files to this directory\n   ```",
+    "Translation": "   ```bash\n   mkdir -p .claude/agents\n   # Copy the agent definition files to this directory\n   ```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -798,9 +678,9 @@
       },
       {
         "row": 3,
-        "rowsha": "L3f8D5Mzp0V2JnVrnISewvRh9oV8erCZ4F83vejgdFo=",
-        "originContent": "   # Copy the 35 agent definition files to this directory",
-        "translatedContent": "   # Copy the 35 agent definition files to this directory"
+        "rowsha": "bo8v0NDtARzlA4gVDyVIznPrLLuyEIIgwgqOcKeKnsQ=",
+        "originContent": "   # Copy the agent definition files to this directory",
+        "translatedContent": "   # Copy the agent definition files to this directory"
       },
       {
         "row": 4,
@@ -820,30 +700,17 @@
     "EndLine": 0,
     "Translation": "\n2. **설치 확인**:",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "rwMTG+7hj2T/I6wLG855CuUQNHVMmH9zqTX17w1MlWM=",
-        "originContent": "2. **Verify installation**:",
-        "translatedContent": "2. **설치 확인**:"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
     "Id": 10,
-    "Content": "   ```bash\n   ls .claude/agents/\n   # Should show all 35 agent files (.md format)\n   ```",
-    "ContentSha": "p+n9+cDxToB03UzKGFBPuEA/rAdIvfQnuslBqkCfvc4=",
+    "Content": "   ```bash\n   ls .claude/agents/\n   # Should show all agent files (.md format)\n   ```",
+    "ContentSha": "7OeOujslpL+nSmjHCh3EsmyEn2pbyfm2oLEo9+uNgpw=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "   ```bash\n   ls .claude/agents/\n   # Should show all 35 agent files (.md format)\n   ```",
+    "Translation": "   ```bash\n   ls .claude/agents/\n   # Should show all agent files (.md format)\n   ```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -860,9 +727,9 @@
       },
       {
         "row": 3,
-        "rowsha": "NWoWVn96VNP7Yx+hTuq5iZ96gD+1BFV/WV+wJIl93DM=",
-        "originContent": "   # Should show all 35 agent files (.md format)",
-        "translatedContent": "   # Should show all 35 agent files (.md format)"
+        "rowsha": "Qi+z9Mh1xAh1Xkac9QAu2KFqqaWJWNvmzv73oQ9OiC0=",
+        "originContent": "   # Should show all agent files (.md format)",
+        "translatedContent": "   # Should show all agent files (.md format)"
       },
       {
         "row": 4,
@@ -882,20 +749,7 @@
     "EndLine": 0,
     "Translation": "\n3. **클로드 코드에서 에이전트 사용 시작하기**:",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "RnbOfCgW5SsAjyHFq+wILLnpOwNz6b0ij5f0c5DAC/Q=",
-        "originContent": "3. **Start using agents** in Claude Code:",
-        "translatedContent": "3. **클로드 코드에서 에이전트 사용 시작하기**:"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -907,26 +761,7 @@
     "EndLine": 0,
     "Translation": "   ```\n   Use the project-orchestrator agent to build a complete web application\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      },
-      {
-        "row": 2,
-        "rowsha": "WDPKVL470/aUxHbgN+fKIkEvkFiKOIU0uPQl99pTA2c=",
-        "originContent": "   Use the project-orchestrator agent to build a complete web application",
-        "translatedContent": "   Use the project-orchestrator agent to build a complete web application"
-      },
-      {
-        "row": 3,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -938,32 +773,7 @@
     "EndLine": 0,
     "Translation": "\n## 🎮 사용 예제\n\n### 새 웹 애플리케이션 시작하기",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "+d8dp4S5RQXcfn5sBjNZrAvgs5R9S/yoBgNeAIwrjVg=",
-        "originContent": "## 🎮 Usage Examples",
-        "translatedContent": "## 🎮 사용 예제"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "aDGGuvbeGJGNTzRmde6sHVB9io3HCiPdZ0rxgtLSx8g=",
-        "originContent": "### Starting a New Web Application",
-        "translatedContent": "### 새 웹 애플리케이션 시작하기"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -975,26 +785,7 @@
     "EndLine": 0,
     "Translation": "```\n\"I want to build a task management web application with user authentication, real-time updates, and mobile responsiveness. Handle everything from requirements to deployment.\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "btRdjHmRrrBJilexUO5H2DX11fwI6O6C9apqRfmH9Tk=",
-        "originContent": "\"I want to build a task management web application with user authentication, real-time updates, and mobile responsiveness. Handle everything from requirements to deployment.\"",
-        "translatedContent": "\"I want to build a task management web application with user authentication, real-time updates, and mobile responsiveness. Handle everything from requirements to deployment.\""
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1006,62 +797,7 @@
     "EndLine": 0,
     "Translation": "\n**프로젝트-오케스트레이터**는 다음을 수행합니다:\n1. **요구사항-분석가**를 사용하여 상세 요구사항 수집\n2. 설계를 위해 **시스템-아키텍트** 및 **데이터-아키텍트** 조정\n3. 개발 에이전트와 함께 구현 관리\n4. 테스트, 배포 및 문서화 처리\n5. 최종 사용자를 위한 교육 자료 제공\n\n### 코드 품질 검토",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "5YF6MOIKiq2WWILbMdikGIfzwb1BDBtOp8pIhHiHQ7o=",
-        "originContent": "The **project-orchestrator** will:",
-        "translatedContent": "**프로젝트-오케스트레이터**는 다음을 수행합니다:"
-      },
-      {
-        "row": 3,
-        "rowsha": "h/XK2vUlwQ5AHME/EXicgedwPgNRb04FA975live2Bw=",
-        "originContent": "1. Use **requirements-analyst** to gather detailed requirements",
-        "translatedContent": "1. **요구사항-분석가**를 사용하여 상세 요구사항 수집"
-      },
-      {
-        "row": 4,
-        "rowsha": "flZm5Qd9/hfiTTGy1KKj1wJSZHma42XPZOSGFy6QhA0=",
-        "originContent": "2. Coordinate **system-architect** and **data-architect** for design",
-        "translatedContent": "2. 설계를 위해 **시스템-아키텍트** 및 **데이터-아키텍트** 조정"
-      },
-      {
-        "row": 5,
-        "rowsha": "CqD0DwHwwokbbZsstZ3/94Pk155jGHZwmh6LTe9J/68=",
-        "originContent": "3. Manage implementation with development agents",
-        "translatedContent": "3. 개발 에이전트와 함께 구현 관리"
-      },
-      {
-        "row": 6,
-        "rowsha": "X8FFEQ/9nimFUauVmL4JryFe1Sz2ziWejYh9AQTBnZM=",
-        "originContent": "4. Handle testing, deployment, and documentation",
-        "translatedContent": "4. 테스트, 배포 및 문서화 처리"
-      },
-      {
-        "row": 7,
-        "rowsha": "8B5Gn1FXQRA5LgpxY3LrhMNe9YaJdR4lYIQ6tT84Sig=",
-        "originContent": "5. Provide training materials for end users",
-        "translatedContent": "5. 최종 사용자를 위한 교육 자료 제공"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "aPfDdBi0ILh+Il1MJ23zHbtsBv/rRGVx41n9EDn+tt0=",
-        "originContent": "### Code Quality Review",
-        "translatedContent": "### 코드 품질 검토"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1073,26 +809,7 @@
     "EndLine": 0,
     "Translation": "```\n\"Review my e-commerce checkout process for security vulnerabilities, performance issues, and code quality.\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "bchoVGdJrsnPK7qwwAjDC9+F52YufS0tuWaikolMypQ=",
-        "originContent": "\"Review my e-commerce checkout process for security vulnerabilities, performance issues, and code quality.\"",
-        "translatedContent": "\"Review my e-commerce checkout process for security vulnerabilities, performance issues, and code quality.\""
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1104,50 +821,7 @@
     "EndLine": 0,
     "Translation": "다수의 에이전트가 협력합니다:  \n- **security-analyzer**는 취약점을 점검합니다  \n- **performance-optimizer**는 병목 현상을 식별합니다  \n- **code-reviewer**는 최선의 관행을 보장합니다  \n\n### 장기 프로젝트 관리\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "다수의 에이전트가 협력합니다:  "
-      },
-      {
-        "row": 2,
-        "rowsha": "JE7i0Lw0j6q9SJt4mrlKUDT0LCMgNkDV1I9SzndohQQ=",
-        "originContent": "Multiple agents coordinate:",
-        "translatedContent": "- **security-analyzer**는 취약점을 점검합니다  "
-      },
-      {
-        "row": 3,
-        "rowsha": "YnZnYNyUp35Mz711kDKY2hylXYJLhZLueNYK2A/ArHs=",
-        "originContent": "- **security-analyzer** checks for vulnerabilities",
-        "translatedContent": "- **performance-optimizer**는 병목 현상을 식별합니다  "
-      },
-      {
-        "row": 4,
-        "rowsha": "7iNKluyN4SHFXdlsGaQVTmIpVIXMrWDAj+ThC3fSbuo=",
-        "originContent": "- **performance-optimizer** identifies bottlenecks  ",
-        "translatedContent": "- **code-reviewer**는 최선의 관행을 보장합니다  "
-      },
-      {
-        "row": 5,
-        "rowsha": "n8yXAh/Ya2X89eMmfmd3/QQTjKt3Kl31USH8GGeDDd4=",
-        "originContent": "- **code-reviewer** ensures best practices",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 장기 프로젝트 관리"
-      },
-      {
-        "row": 7,
-        "rowsha": "WmHIJeACkbJ2yydWcL3vBK9VT8X95F8ubbU1axFD1OM=",
-        "originContent": "### Long-term Project Management",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1159,26 +833,7 @@
     "EndLine": 0,
     "Translation": "```\n\"Manage the development of our new customer portal over the next 6 months with regular stakeholder updates.\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "09fEqF3TumDuZbV9odmH2184a8glfjJsmKkYYhGctHY=",
-        "originContent": "\"Manage the development of our new customer portal over the next 6 months with regular stakeholder updates.\"",
-        "translatedContent": "\"Manage the development of our new customer portal over the next 6 months with regular stakeholder updates.\""
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1190,152 +845,7 @@
     "EndLine": 0,
     "Translation": "시스템은 다음을 제공합니다:  \n- 자동화된 프로젝트 계획 및 위험 관리  \n- 정기적인 진행 상황 추적 및 보고  \n- 품질 게이트 및 테스트 조정  \n- 이해관계자 커뮤니케이션 관리  \n\n## 🔧 에이전트 워크플로우 패턴  \n\n### 순차 패턴  \n요구사항 → 설계 → 구현 → 테스트 → 배포  \n\n### 병렬 패턴  \n여러 개발 에이전트가 서로 다른 구성 요소를 동시에 작업  \n\n### 적응 패턴  \n**agent-creator**가 고유 요구사항에 맞는 전문 에이전트 생성  \n\n### 연속 패턴  \n메타 관리 에이전트가 지속적인 최적화 및 모니터링 제공  \n\n## 📝 에이전트 정의 형식  \n\n각 에이전트는 Claude Code의 표준 형식을 따릅니다:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "시스템은 다음을 제공합니다:  "
-      },
-      {
-        "row": 2,
-        "rowsha": "Tf2rFeMpp8Lq5LUYynEa9gC4oybbZzksS46rCQ/fDPc=",
-        "originContent": "The system provides:",
-        "translatedContent": "- 자동화된 프로젝트 계획 및 위험 관리  "
-      },
-      {
-        "row": 3,
-        "rowsha": "pMINuL949FSTToZRVuMVbK7EPiBdlSmFa7KHPnzWEug=",
-        "originContent": "- Automated project planning and risk management",
-        "translatedContent": "- 정기적인 진행 상황 추적 및 보고  "
-      },
-      {
-        "row": 4,
-        "rowsha": "H873BnpQbkKyxtkDBL47yyN6opD+sXYHh8OROA2Iv18=",
-        "originContent": "- Regular progress tracking and reporting",
-        "translatedContent": "- 품질 게이트 및 테스트 조정  "
-      },
-      {
-        "row": 5,
-        "rowsha": "T4/sCsMwtkOwDG6dkTNPv4qDKClmKkbJrDNDCGQtTIY=",
-        "originContent": "- Quality gates and testing coordination",
-        "translatedContent": "- 이해관계자 커뮤니케이션 관리  "
-      },
-      {
-        "row": 6,
-        "rowsha": "OpChTAmA/NO0xZBLWq/u0osW+juc7g2v8GlyK/7aBqY=",
-        "originContent": "- Stakeholder communication management",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 🔧 에이전트 워크플로우 패턴  "
-      },
-      {
-        "row": 8,
-        "rowsha": "N+a6z/gZjhLLMuD7uEWBLBF2MkEsfj4sUxT8gWzBSPk=",
-        "originContent": "## 🔧 Agent Workflow Patterns",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 순차 패턴  "
-      },
-      {
-        "row": 10,
-        "rowsha": "6Kido4+ZzsYumJHDNt5TqihCrBTHM08u8+hPSuusQ6Q=",
-        "originContent": "### Sequential Pattern",
-        "translatedContent": "요구사항 → 설계 → 구현 → 테스트 → 배포  "
-      },
-      {
-        "row": 11,
-        "rowsha": "nTvneS0cmUUIPsenYEcTf702h/dh/CfHnq3YeFFyI08=",
-        "originContent": "Requirements → Design → Implementation → Testing → Deployment",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 병렬 패턴  "
-      },
-      {
-        "row": 13,
-        "rowsha": "4/QSQwRAmwLQjA9DvPOvz/v5gW2G4tekvHENI6c1+m4=",
-        "originContent": "### Parallel Pattern",
-        "translatedContent": "여러 개발 에이전트가 서로 다른 구성 요소를 동시에 작업  "
-      },
-      {
-        "row": 14,
-        "rowsha": "fN6fJQV1YIQiWMC5Ywd4xNohse1lWadcr6gJ4c1aqKQ=",
-        "originContent": "Multiple development agents working simultaneously on different components",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 적응 패턴  "
-      },
-      {
-        "row": 16,
-        "rowsha": "HDzSaVGP51KDzvZMGGYNaxdqooJZY4TOghHiskYDIDY=",
-        "originContent": "### Adaptive Pattern",
-        "translatedContent": "**agent-creator**가 고유 요구사항에 맞는 전문 에이전트 생성  "
-      },
-      {
-        "row": 17,
-        "rowsha": "PMNF9f6G7Eq97ZCV3tlLLd6R1QNN0qY61rDz1mu/Fb8=",
-        "originContent": "**agent-creator** generates specialized agents for unique requirements",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 연속 패턴  "
-      },
-      {
-        "row": 19,
-        "rowsha": "J3VaxoIdB65/u+NpM+lZuyxPYNDM9DCCQA8ul0y3yus=",
-        "originContent": "### Continuous Pattern",
-        "translatedContent": "메타 관리 에이전트가 지속적인 최적화 및 모니터링 제공  "
-      },
-      {
-        "row": 20,
-        "rowsha": "we3gR4rcHwRc66bfEnVZSZvyT5p1QQane/kMz5v7QYk=",
-        "originContent": "Meta-management agents provide ongoing optimization and monitoring",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 📝 에이전트 정의 형식  "
-      },
-      {
-        "row": 22,
-        "rowsha": "rZ9Yf2DyNYbqd4fEeRObXfQ01ukgOAVLPn91tXaDams=",
-        "originContent": "## 📝 Agent Definition Format",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "각 에이전트는 Claude Code의 표준 형식을 따릅니다:"
-      },
-      {
-        "row": 24,
-        "rowsha": "p1tIZ+J6sbo5VKDRH5i1FRS2k3eh2nFAJp8dnf3lpQg=",
-        "originContent": "Each agent follows Claude Code's standard format:",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1347,56 +857,7 @@
     "EndLine": 0,
     "Translation": "```markdown\n---\nname: agent-name\ndescription: Detailed description with examples and usage patterns\n---\n\nComprehensive system prompt defining the agent's expertise, responsibilities, and methodologies.\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "MHyWpNKr1KkVzz3IATBcRRAPua4ryYTWUlvrChR4qPU=",
-        "originContent": "```markdown",
-        "translatedContent": "```markdown"
-      },
-      {
-        "row": 2,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 3,
-        "rowsha": "2YkqYs4v+AlOR0fPxyj/zVGmggx7fzdFwXecoV8RBjo=",
-        "originContent": "name: agent-name",
-        "translatedContent": "name: agent-name"
-      },
-      {
-        "row": 4,
-        "rowsha": "zHHBos5fYfiPzFoqNEsLceqi1c5Jc5ZfR8SKgIsWblg=",
-        "originContent": "description: Detailed description with examples and usage patterns",
-        "translatedContent": "description: Detailed description with examples and usage patterns"
-      },
-      {
-        "row": 5,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "uRuTTPIL2NAk7Z3PFMoxqtN/dIr5VbA07Qie3UJkqDA=",
-        "originContent": "Comprehensive system prompt defining the agent's expertise, responsibilities, and methodologies.",
-        "translatedContent": "Comprehensive system prompt defining the agent's expertise, responsibilities, and methodologies."
-      },
-      {
-        "row": 8,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1408,164 +869,7 @@
     "EndLine": 0,
     "Translation": "## 🔄 에이전트 상호작용\n\n### 마스터 코디네이터\n- **project-orchestrator**는 전체 프로젝트 흐름을 관리합니다\n- 적절한 에이전트를 자동으로 선택하고 순서를 지정합니다\n- 에이전트 간 통신 및 의존성 관리를 처리합니다\n\n### 전문 팀\n- **요구사항 팀**: 프로젝트 요구사항 수집 및 검증  \n- **설계 팀**: 기술 아키텍처 및 명세 작성  \n- **개발 팀**: 코드 구현, 테스트 및 최적화  \n- **운영 팀**: 프로덕션 시스템 배포 및 유지관리  \n- **메타 팀**: Claude Code 사용 및 연속성 최적화\n\n## 📚 문서화\n\n각 에이전트는 다음을 포함합니다:\n- **상세 설명**과 사용 예시  \n- **구체적 사용 사례** 및 트리거 조건  \n- **예상 출력** 및 산출물  \n- **다른 에이전트와의 통합 패턴**\n\n## 🎯 완전 자동화 예시\n\n### 입력\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 🔄 에이전트 상호작용"
-      },
-      {
-        "row": 2,
-        "rowsha": "AICBhgQqiZXJ2UUlm7RBBulSQhVNyvVxZf8afqq2fp0=",
-        "originContent": "## 🔄 Agent Interactions",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 마스터 코디네이터"
-      },
-      {
-        "row": 4,
-        "rowsha": "krnaH5Yc/cWa/pcMdhds6AbtDZC7OaleSpIZ+Q56EHE=",
-        "originContent": "### Master Coordinator",
-        "translatedContent": "- **project-orchestrator**는 전체 프로젝트 흐름을 관리합니다"
-      },
-      {
-        "row": 5,
-        "rowsha": "+arW7WPldbnI+Fdm/v0k3e4/3EwEw6B62FG/B/WweLM=",
-        "originContent": "- **project-orchestrator** manages overall project flow",
-        "translatedContent": "- 적절한 에이전트를 자동으로 선택하고 순서를 지정합니다"
-      },
-      {
-        "row": 6,
-        "rowsha": "s1EcJcHN9l4erZyS4S9eMsVgj+Q/DeIC7vrqaL0UGWE=",
-        "originContent": "- Automatically selects and sequences appropriate agents",
-        "translatedContent": "- 에이전트 간 통신 및 의존성 관리를 처리합니다"
-      },
-      {
-        "row": 7,
-        "rowsha": "M+PE9c14AvRORbGLqsqixUXxUVwIxH++sZ9NS662ofc=",
-        "originContent": "- Handles inter-agent communication and dependency management",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 전문 팀"
-      },
-      {
-        "row": 9,
-        "rowsha": "haFyzzD+mFMzA8GtSmP3uOc6BnBSc1XQBi6S/otSPo8=",
-        "originContent": "### Specialized Teams",
-        "translatedContent": "- **요구사항 팀**: 프로젝트 요구사항 수집 및 검증  "
-      },
-      {
-        "row": 10,
-        "rowsha": "xwB7iyq9zPD8MfZKyt4ueEjMfx+B9iQUmTnkcdFAB5k=",
-        "originContent": "- **Requirements Team**: Gather and validate project needs",
-        "translatedContent": "- **설계 팀**: 기술 아키텍처 및 명세 작성  "
-      },
-      {
-        "row": 11,
-        "rowsha": "BzXVuc1dPkNpg3LYm9F5KunsN2ua4KPL75LC/ZiXRt4=",
-        "originContent": "- **Design Team**: Create technical architecture and specifications  ",
-        "translatedContent": "- **개발 팀**: 코드 구현, 테스트 및 최적화  "
-      },
-      {
-        "row": 12,
-        "rowsha": "jYGPjxMC1tv/X+lntQc5ItichvHOL/F12KjHq81Qj6Q=",
-        "originContent": "- **Development Team**: Implement, test, and optimize code",
-        "translatedContent": "- **운영 팀**: 프로덕션 시스템 배포 및 유지관리  "
-      },
-      {
-        "row": 13,
-        "rowsha": "TLfkhpzBedIyVi/qzRHAtBKYwaNINil5n2qeqVJxeJY=",
-        "originContent": "- **Operations Team**: Deploy and maintain production systems",
-        "translatedContent": "- **메타 팀**: Claude Code 사용 및 연속성 최적화"
-      },
-      {
-        "row": 14,
-        "rowsha": "oA72exJAXwJhNeHo4QT0W4+XQPiCqgnLcCshVvmB9TU=",
-        "originContent": "- **Meta Team**: Optimize Claude Code usage and continuity",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 📚 문서화"
-      },
-      {
-        "row": 16,
-        "rowsha": "5YBW4t4C14zvjeLiv+p8S2mquwc7mp0AQxq8KLsx1B4=",
-        "originContent": "## 📚 Documentation",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "각 에이전트는 다음을 포함합니다:"
-      },
-      {
-        "row": 18,
-        "rowsha": "OzHEfqGb287E/shoqefH+W4f7m9NxxT8dJopaDRUaCk=",
-        "originContent": "Each agent includes:",
-        "translatedContent": "- **상세 설명**과 사용 예시  "
-      },
-      {
-        "row": 19,
-        "rowsha": "e3DBr7CieQGAPFdTLsK+JWfxRR1SHbgSAHDp0cFW+dc=",
-        "originContent": "- **Detailed description** with usage examples",
-        "translatedContent": "- **구체적 사용 사례** 및 트리거 조건  "
-      },
-      {
-        "row": 20,
-        "rowsha": "xB3vO+a86Wr7VbQDkA0TpIIXmWDqmYg7/+jsZObWs5M=",
-        "originContent": "- **Specific use cases** and trigger conditions",
-        "translatedContent": "- **예상 출력** 및 산출물  "
-      },
-      {
-        "row": 21,
-        "rowsha": "neLgY1WmoiiBkx71nESxnhOat2cDw+9nzuJtIrGd1OY=",
-        "originContent": "- **Expected outputs** and deliverables",
-        "translatedContent": "- **다른 에이전트와의 통합 패턴**"
-      },
-      {
-        "row": 22,
-        "rowsha": "qGIgiwBbjixdNogH3hoGDMjpUBYKqUBQcc0QBXVT2zo=",
-        "originContent": "- **Integration patterns** with other agents",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 🎯 완전 자동화 예시"
-      },
-      {
-        "row": 24,
-        "rowsha": "9DzUQWJGrD2s3iJYfpp1nPRL0mqqfPxp7lrltwScjXA=",
-        "originContent": "## 🎯 Complete Automation Example",
-        "translatedContent": ""
-      },
-      {
-        "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 입력"
-      },
-      {
-        "row": 26,
-        "rowsha": "Ok9go7SW6tJsAWZeE6ZDGyBFBzSP3STXmUpd2AyRwLM=",
-        "originContent": "### Input",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1577,26 +881,7 @@
     "EndLine": 0,
     "Translation": "```\n\"Create a library management system for our company\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "TCDlzs7MTsABCaHgg6wnSSbT1isKIQcR+SfR2uuDpPs=",
-        "originContent": "\"Create a library management system for our company\"",
-        "translatedContent": "\"Create a library management system for our company\""
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1608,326 +893,7 @@
     "EndLine": 0,
     "Translation": "### 자동화된 프로세스\n1. **요구사항 분석**: 이해관계자 요구 → 기술 사양\n2. **시스템 설계**: 아키텍처 → 데이터베이스 설계 → API 설계 → UI 설계\n3. **구현**: 백엔드 → 프론트엔드 → 테스트 → 문서화\n4. **품질 보증**: 코드 리뷰 → 보안 분석 → 성능 최적화\n5. **배포**: 프로덕션 설정 → CI/CD 파이프라인 → 모니터링\n6. **인수인계**: 사용자 교육 → 문서화 → 지원 절차\n\n### 산출물\n- 완전한 기능의 웹 애플리케이션\n- 높은 커버리지를 가진 완전한 테스트 스위트\n- 모니터링이 포함된 프로덕션 배포\n- 사용자 문서 및 교육 자료\n- 지속적인 유지보수 절차\n\n## 🤝 기여하기\n\n기여를 환영합니다! 다음을 준수해 주세요:\n\n1. 정해진 에이전트 정의 형식을 따를 것\n2. 포괄적인 예제와 문서 포함\n3. 실제 프로젝트로 철저히 테스트할 것\n4. 기존 워크플로우와 잘 통합되도록 할 것\n5. 에이전트 기능에 대한 명확한 문서 제출\n\n## 📄 라이선스\n\nMIT 라이선스 - 자유롭게 사용, 수정 및 배포 가능하며 모든 목적에 사용할 수 있습니다.\n\n## 🙏 감사의 말\n\n[Claude Code](https://claude.ai/code)와 원활히 작동하도록 설계되었으며 하위 에이전트 개발을 위한 모든 패턴과 모범 사례를 따릅니다.\n\n## 📞 지원\n\n문제, 질문 또는 제안 사항이 있으면:\n- 이 저장소에 이슈를 열어 주세요\n- Claude Code 문서 https://docs.anthropic.com/en/docs/claude-code 를 확인하세요\n- 에이전트 예제 및 사용 패턴을 검토하세요\n\n---\n\n*지능형 자동화로 개발 프로세스를 혁신하세요. 단일 요구사항부터 프로덕션 시스템까지 - 에이전트가 복잡성을 처리하는 동안 비전에 집중하세요.*\n\n## 🚀 빠른 시작\n\n1. **에이전트들을** 프로젝트의 `.claude/agents/` 디렉터리에 복사하세요\n2. **프로젝트에서 Claude Code를** 시작하세요\n3. **말하기**: \"프로젝트 오케스트레이터를 사용하여 [프로젝트 설명]을(를) 빌드해 주세요\"\n4. **지켜보기**: 시스템이 요구사항부터 배포까지 모든 것을 처리합니다\n\n**끝!** 에이전트들이 자동으로 조율하여 완전한 프로덕션 준비 솔루션을 제공합니다.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 자동화된 프로세스"
-      },
-      {
-        "row": 2,
-        "rowsha": "pPli9Kq40tB2EvM6jUDcjycre15qQFOcCTvZny/UgWI=",
-        "originContent": "### Automated Process",
-        "translatedContent": "1. **요구사항 분석**: 이해관계자 요구 → 기술 사양"
-      },
-      {
-        "row": 3,
-        "rowsha": "uDhqcsEynsksyq581RBPBt1rWtvZELy7/DLBNvoEYAo=",
-        "originContent": "1. **Requirements Analysis**: Stakeholder needs → Technical specifications",
-        "translatedContent": "2. **시스템 설계**: 아키텍처 → 데이터베이스 설계 → API 설계 → UI 설계"
-      },
-      {
-        "row": 4,
-        "rowsha": "TFdASFrCeOhfiI9b1JZx02Ag2tOQIEMDANA2eySBdGg=",
-        "originContent": "2. **System Design**: Architecture → Database design → API design → UI design",
-        "translatedContent": "3. **구현**: 백엔드 → 프론트엔드 → 테스트 → 문서화"
-      },
-      {
-        "row": 5,
-        "rowsha": "C1/7bRr61/GpgzTkoA2PiIuIf23qNO5X6KJW8VDjCyU=",
-        "originContent": "3. **Implementation**: Backend → Frontend → Testing → Documentation",
-        "translatedContent": "4. **품질 보증**: 코드 리뷰 → 보안 분석 → 성능 최적화"
-      },
-      {
-        "row": 6,
-        "rowsha": "s8D6aJxUGOvY36oH8R0R4RgOgEhEhvmIPq55eAH8CIk=",
-        "originContent": "4. **Quality Assurance**: Code review → Security analysis → Performance optimization",
-        "translatedContent": "5. **배포**: 프로덕션 설정 → CI/CD 파이프라인 → 모니터링"
-      },
-      {
-        "row": 7,
-        "rowsha": "b2ocoEHbbaTdJHtlax7DwDzBkkR0wmdCJ6KC15IFtgo=",
-        "originContent": "5. **Deployment**: Production setup → CI/CD pipeline → Monitoring",
-        "translatedContent": "6. **인수인계**: 사용자 교육 → 문서화 → 지원 절차"
-      },
-      {
-        "row": 8,
-        "rowsha": "uZ8OV9/0mejQWTDFiWpTIeJNbL+jjY+WpWcA7D8BnO4=",
-        "originContent": "6. **Handover**: User training → Documentation → Support procedures",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 산출물"
-      },
-      {
-        "row": 10,
-        "rowsha": "8Co9jw//vpabjv9jm+4dmlAJ3g43vxQA32rq4EXSI4c=",
-        "originContent": "### Output",
-        "translatedContent": "- 완전한 기능의 웹 애플리케이션"
-      },
-      {
-        "row": 11,
-        "rowsha": "DOZsIHxtfk0VICtf0xwU/yiRkaoKRoYhqv/GZVFpR7M=",
-        "originContent": "- Fully functional web application",
-        "translatedContent": "- 높은 커버리지를 가진 완전한 테스트 스위트"
-      },
-      {
-        "row": 12,
-        "rowsha": "W1aA7z3ttPDjomDpE1+qrJwXpCVM0oSCZmm5Kgf+mYQ=",
-        "originContent": "- Complete test suite with high coverage",
-        "translatedContent": "- 모니터링이 포함된 프로덕션 배포"
-      },
-      {
-        "row": 13,
-        "rowsha": "QPlWoh1h/mjiZmnGmZF5cFpPSemVxauT5HREVCZCyZY=",
-        "originContent": "- Production deployment with monitoring",
-        "translatedContent": "- 사용자 문서 및 교육 자료"
-      },
-      {
-        "row": 14,
-        "rowsha": "7yuN3ONmI1PmxmoBUMzashw63d+BzKMn83ZyJEDLrBY=",
-        "originContent": "- User documentation and training materials",
-        "translatedContent": "- 지속적인 유지보수 절차"
-      },
-      {
-        "row": 15,
-        "rowsha": "9sRlF17iXTbO37UaRnOGi4nDZ8I1aeHzOrYpKafZWcM=",
-        "originContent": "- Ongoing maintenance procedures",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 🤝 기여하기"
-      },
-      {
-        "row": 17,
-        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
-        "originContent": "## 🤝 Contributing",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "기여를 환영합니다! 다음을 준수해 주세요:"
-      },
-      {
-        "row": 19,
-        "rowsha": "q9R6UtrmGndtikiTS7XEoLwjkdWTgKn/OgH/17whF54=",
-        "originContent": "We welcome contributions! Please:",
-        "translatedContent": ""
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. 정해진 에이전트 정의 형식을 따를 것"
-      },
-      {
-        "row": 21,
-        "rowsha": "tEE0f93aHuBgWKFbYih8Q2Guly1Z6WA48iRsVy2diJc=",
-        "originContent": "1. Follow the established agent definition format",
-        "translatedContent": "2. 포괄적인 예제와 문서 포함"
-      },
-      {
-        "row": 22,
-        "rowsha": "u/RxqhdxkPSfxnQyEyfix6LzgfnZro8Gk33NLP7Vxmw=",
-        "originContent": "2. Include comprehensive examples and documentation",
-        "translatedContent": "3. 실제 프로젝트로 철저히 테스트할 것"
-      },
-      {
-        "row": 23,
-        "rowsha": "UNMK5xyuulFHJ+6J+xPcHTzeUQJ17I0sTnBcuGa3xO0=",
-        "originContent": "3. Test thoroughly with real projects",
-        "translatedContent": "4. 기존 워크플로우와 잘 통합되도록 할 것"
-      },
-      {
-        "row": 24,
-        "rowsha": "iQ/dBiqxXW124jVgmZwm2EVCujCErFFJzNrt5/+oMlk=",
-        "originContent": "4. Ensure agents integrate well with existing workflows",
-        "translatedContent": "5. 에이전트 기능에 대한 명확한 문서 제출"
-      },
-      {
-        "row": 25,
-        "rowsha": "KyM3aQz6up/YMVU1hsxhmbzdgaL8ubRBBhIc7Z85Gzw=",
-        "originContent": "5. Submit clear documentation of agent capabilities",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 📄 라이선스"
-      },
-      {
-        "row": 27,
-        "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
-        "originContent": "## 📄 License",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "MIT 라이선스 - 자유롭게 사용, 수정 및 배포 가능하며 모든 목적에 사용할 수 있습니다."
-      },
-      {
-        "row": 29,
-        "rowsha": "uY3JfIzkGmYxrGhJJa5Z75upFWUqqPBDVIEwC3hWQ1Y=",
-        "originContent": "MIT License - feel free to use, modify, and distribute these agents for any purpose.",
-        "translatedContent": ""
-      },
-      {
-        "row": 30,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 🙏 감사의 말"
-      },
-      {
-        "row": 31,
-        "rowsha": "qNOAwfAbnQ0oGAw8kiCxNmOxAO6HNOriMNTHzMq+bx0=",
-        "originContent": "## 🙏 Acknowledgments",
-        "translatedContent": ""
-      },
-      {
-        "row": 32,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "[Claude Code](https://claude.ai/code)와 원활히 작동하도록 설계되었으며 하위 에이전트 개발을 위한 모든 패턴과 모범 사례를 따릅니다."
-      },
-      {
-        "row": 33,
-        "rowsha": "36tn1VJb8HhJGFmdz5nL/r5sJDuXEX4elFF7fZ/1oyg=",
-        "originContent": "Designed to work seamlessly with [Claude Code](https://claude.ai/code) and follows all established patterns and best practices for sub-agent development.",
-        "translatedContent": ""
-      },
-      {
-        "row": 34,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 📞 지원"
-      },
-      {
-        "row": 35,
-        "rowsha": "0Mzf4K8fWgF/YyGh5nMJTGpp3i11g9CiS/cqP/bZm7k=",
-        "originContent": "## 📞 Support",
-        "translatedContent": ""
-      },
-      {
-        "row": 36,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "문제, 질문 또는 제안 사항이 있으면:"
-      },
-      {
-        "row": 37,
-        "rowsha": "+myGHPR9+Zi2t61d6VWoMzIcJixnQr+Hqikmn3w8qXY=",
-        "originContent": "For issues, questions, or suggestions:",
-        "translatedContent": "- 이 저장소에 이슈를 열어 주세요"
-      },
-      {
-        "row": 38,
-        "rowsha": "bH0mRrLlJQhwyRDY3ancsegFwaBIw/V0b6Z5JvKzbpA=",
-        "originContent": "- Open an issue in this repository",
-        "translatedContent": "- Claude Code 문서 https://docs.anthropic.com/en/docs/claude-code 를 확인하세요"
-      },
-      {
-        "row": 39,
-        "rowsha": "FrOFHlvvQTiV5sHmTvwL937vQfYZ9sfFr/wNE3zt0xg=",
-        "originContent": "- Check the Claude Code documentation at https://docs.anthropic.com/en/docs/claude-code",
-        "translatedContent": "- 에이전트 예제 및 사용 패턴을 검토하세요"
-      },
-      {
-        "row": 40,
-        "rowsha": "Ii5j1h1y7rv94ql95c78gEZQIGgXbR2Z5EV3+0ToTCE=",
-        "originContent": "- Review agent examples and usage patterns",
-        "translatedContent": ""
-      },
-      {
-        "row": 41,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "---"
-      },
-      {
-        "row": 42,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": ""
-      },
-      {
-        "row": 43,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "*지능형 자동화로 개발 프로세스를 혁신하세요. 단일 요구사항부터 프로덕션 시스템까지 - 에이전트가 복잡성을 처리하는 동안 비전에 집중하세요.*"
-      },
-      {
-        "row": 44,
-        "rowsha": "5K8Tna/y3VggcjAGmrGgUHHsxhmQ5GLfcPdjNXJ8GGU=",
-        "originContent": "*Transform your development process with intelligent automation. From a single requirement to a production system - let the agents handle the complexity while you focus on the vision.*",
-        "translatedContent": ""
-      },
-      {
-        "row": 45,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 🚀 빠른 시작"
-      },
-      {
-        "row": 46,
-        "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
-        "originContent": "## 🚀 Quick Start",
-        "translatedContent": ""
-      },
-      {
-        "row": 47,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. **에이전트들을** 프로젝트의 `.claude/agents/` 디렉터리에 복사하세요"
-      },
-      {
-        "row": 48,
-        "rowsha": "3mSLZZz4AEa2C+VMSA9DvcYkNYH7yek7U8uTL0aYNqY=",
-        "originContent": "1. **Copy agents** to your project's `.claude/agents/` directory",
-        "translatedContent": "2. **프로젝트에서 Claude Code를** 시작하세요"
-      },
-      {
-        "row": 49,
-        "rowsha": "uaaIl+dDWr0JnOoZbtJkOg28zc0rpjK4XPM2FjyBBVM=",
-        "originContent": "2. **Start Claude Code** in your project",
-        "translatedContent": "3. **말하기**: \"프로젝트 오케스트레이터를 사용하여 [프로젝트 설명]을(를) 빌드해 주세요\""
-      },
-      {
-        "row": 50,
-        "rowsha": "PXgT7uo4LJ6P0h0dl/ZjF42hiHIu1uaOC76UZqSFmLs=",
-        "originContent": "3. **Say**: \"Use the project-orchestrator to build [your project description]\"",
-        "translatedContent": "4. **지켜보기**: 시스템이 요구사항부터 배포까지 모든 것을 처리합니다"
-      },
-      {
-        "row": 51,
-        "rowsha": "ifl32aPWSN+e3KmdllXyyOHHZDxIlEOlSumCBDzPbOU=",
-        "originContent": "4. **Watch** as the system handles everything from requirements to deployment",
-        "translatedContent": ""
-      },
-      {
-        "row": 52,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**끝!** 에이전트들이 자동으로 조율하여 완전한 프로덕션 준비 솔루션을 제공합니다."
-      },
-      {
-        "row": 53,
-        "rowsha": "GmibPZ/9k8+s7gAIPgyBl37yQoJprH1o2ZvzqYPnaDo=",
-        "originContent": "**That's it!** The agents will coordinate automatically to deliver a complete, production-ready solution.",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

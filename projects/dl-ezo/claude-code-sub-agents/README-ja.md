@@ -2,94 +2,95 @@
 
 **言語**: [英語](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README.md) | [日本語](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README_JA.md)
 
-要件分析から本番展開および継続的な保守まで、エンドツーエンドのソフトウェア開発自動化を可能にするClaude Codeの35種類の専門サブエージェントの完全コレクション。
+要求分析から本番展開および継続的な保守までのエンドツーエンドのソフトウェア開発自動化を可能にする、Claude Code用の専門サブエージェントの完全なコレクション。
 
 ## 🎯 概要
 
-このリポジトリには、最小限の人間の介入で完全なソフトウェア開発ライフサイクルを処理するために設計されたClaude Codeサブエージェントの包括的なセットが含まれています。エージェントは現代のソフトウェア開発のあらゆる側面をカバーする6つのカテゴリに分類されています。
+このリポジトリには、最小限の人的介入で完全なソフトウェア開発ライフサイクルを処理するための包括的なClaude Codeサブエージェントのセットが含まれています。エージェントは、現代のソフトウェア開発のあらゆる側面をカバーする6つのカテゴリに分類されています。
 
 ## 📦 エージェントカテゴリ
 
-### 1. 要件と分析（4エージェント）
+### 1. 要件および分析
 **目的**: ビジネスニーズを詳細な技術仕様に変換する
 
-- **requirements-analyst** - ユーザーのニーズを分析し詳細な機能仕様を作成
-- **user-story-generator** - 包括的なユーザーストーリーと受け入れ基準を作成  
-- **business-process-analyst** - ビジネスプロセスを分析し技術要件に翻訳
-- **requirements-validator** - 要件の完全性と一貫性を検証
+- **requirements-analyst** - ユーザーのニーズを分析し、詳細な機能仕様を作成する
+- **user-story-generator** - 包括的なユーザーストーリーと受け入れ基準を作成する  
+- **business-process-analyst** - ビジネスプロセスを分析し、技術要件に翻訳する
+- **requirements-validator** - 要件の完全性と一貫性を検証する
 
-### 2. 設計とアーキテクチャ（5エージェント）
-**目的**: 堅牢でスケーラブルなシステム設計を作成する
+### 2. 設計およびアーキテクチャ
+**目的**: 強固でスケーラブルなシステム設計を作成する
 
-- **system-architect** - 包括的なシステムアーキテクチャと技術スタックを設計
-- **data-architect** - データモデル、スキーマ、および統合戦略を設計
-- **interface-designer** - ユーザーインターフェースおよびAPI仕様を設計
-- **security-architect** - セキュリティフレームワークとデータ保護戦略を設計
-- **design-reviewer** - システム設計の品質をレビューおよび検証
+- **system-architect** - 包括的なシステムアーキテクチャと技術スタックを設計する
+- **data-architect** - データモデル、スキーマ、および統合戦略を設計する
+- **interface-designer** - ユーザーインターフェースとAPI仕様を設計する
+- **security-architect** - セキュリティフレームワークとデータ保護戦略を設計する
+- **design-reviewer** - システム設計の品質をレビューし検証する
 
-### 3. 実装と開発（10エージェント）
-**目的**: コード開発および品質保証の全側面を担当
+### 3. 実装および開発
+**目的**: コード開発と品質保証のあらゆる側面を担当する
 
-- **code-reviewer** - 包括的なコード品質評価を実施
-- **test-suite-generator** - 包括的なテストカバレッジを生成
-- **code-refactoring-specialist** - 安全にコード構造を改善し技術的負債を削減
-- **security-analyzer** - 脆弱性およびセキュリティ問題を特定
-- **performance-optimizer** - コード性能を分析および最適化
-- **api-designer** - 適切な仕様を持つクリーンでRESTfulなAPIを設計
-- **documentation-generator** - 技術文書およびコードコメントを作成
-- **dependency-manager** - パッケージ依存関係を管理し競合を解決
-- **database-schema-designer** - 効率的なデータベーススキーマとマイグレーションを設計
-- **cicd-builder** - CI/CDパイプラインを作成および設定
+- **code-reviewer** - 包括的なコード品質評価を実施する
+- **test-suite-generator** - 包括的なテストカバレッジを生成する
+- **code-refactoring-specialist** - 安全にコード構造を改善し技術的負債を削減する
+- **security-analyzer** - 脆弱性とセキュリティ問題を特定する
+- **performance-optimizer** - コードのパフォーマンスを分析し最適化する
+- **api-designer** - 適切な仕様を持つクリーンなRESTful APIを設計する
+- **documentation-generator** - 技術文書とコードコメントを作成する
+- **dependency-manager** - パッケージ依存関係を管理し競合を解決する
+- **database-schema-designer** - 効率的なデータベーススキーマとマイグレーションを設計する
+- **git-manager** - Git操作、コミット整理、およびリポジトリ保守を管理する
+- **cicd-builder** - CI/CDパイプラインを作成および構成する
 
-### 4. プロジェクト管理（5エージェント）
-**目的**: 開発プロセス全体を調整および管理する
+### 4. プロジェクト管理
+**目的**: 開発プロセス全体の調整と管理を行う
 
-- **project-planner** - 包括的なプロジェクト計画およびタイムラインを作成
-- **risk-manager** - プロジェクトリスクを特定し軽減戦略を作成
-- **progress-tracker** - プロジェクト進捗を監視し障害を特定
-- **qa-coordinator** - 品質基準を設定しテストを調整
-- **stakeholder-communicator** - ステークホルダーとのコミュニケーションと報告を管理
+- **project-planner** - 包括的なプロジェクト計画とスケジュールを作成する
+- **risk-manager** - プロジェクトリスクを特定し緩和戦略を策定する
+- **progress-tracker** - プロジェクト進捗を監視し障害を特定する
+- **qa-coordinator** - 品質基準を確立しテストを調整する
+- **stakeholder-communicator** - ステークホルダーとのコミュニケーションと報告を管理する
 
-### 5. 展開と運用（5エージェント）
-**目的**: 本番展開および継続的運用を担当
+### 5. 展開および運用
+**目的**: 本番展開および継続的な運用を担当する
 
-- **project-orchestrator** - エンドツーエンドのプロジェクト実行のマスターコーディネーター
-- **deployment-ops-manager** - 本番展開および運用監視を担当
-- **uat-coordinator** - ビジネスステークホルダーとユーザー受け入れテストを調整
-- **training-change-manager** - トレーニング資料を作成しシステム導入を管理
-- **project-template-manager** - プロジェクトテンプレートを管理し共通プロジェクトパターンの迅速セットアップ
+- **project-orchestrator** - エンドツーエンドのプロジェクト実行の総合コーディネーター
+- **deployment-ops-manager** - 本番展開と運用監視を担当する
+- **uat-coordinator** - ビジネスステークホルダーとユーザー受け入れテストを調整する
+- **training-change-manager** - トレーニング資料を作成しシステム導入を管理する
+- **project-template-manager** - プロジェクトテンプレートを管理し一般的なプロジェクトパターンの迅速設定を実現する
 
-### 6. メタ管理（6エージェント）
-**目的**: Claude Code自体を最大効率化のために最適化する
+### 6. メタ管理
+**目的**: Claude Code自体を最大効率で最適化する
 
-- **context-manager** - セッションコンテキストを監視し継続性のため情報を管理
-- **session-continuity-manager** - Claude Codeセッション間のシームレスな遷移を保証
-- **memory-manager** - Claude Codeのメモリ使用とプロジェクト文書を最適化
-- **workflow-optimizer** - 開発ワークフローとエージェント使用を分析および最適化
-- **resource-monitor** - リソース使用を監視し最適化戦略を提案
-- **agent-creator** - プロジェクトの必要に応じて新しい専門エージェントを動的に作成
+- **context-manager** - セッションコンテキストを監視し継続性のため情報を管理する
+- **session-continuity-manager** - Claude Codeセッション間のシームレスな移行を保証する
+- **memory-manager** - Claude Codeのメモリ使用量とプロジェクト文書を最適化する
+- **workflow-optimizer** - 開発ワークフローとエージェント使用を分析し最適化する
+- **resource-monitor** - リソース使用を監視し最適化戦略を提案する
+- **agent-creator** - プロジェクトニーズに応じて新しい専門エージェントを動的に作成する
 
 ## 🚀 主な特徴
 
 ### 完全自動化
 - **エンドツーエンド開発**: 要件から本番展開まで
-- **インテリジェントなオーケストレーション**: エージェントが自動的に作業を調整・順序付け
-- **動的な専門化**: 独自のプロジェクトニーズに応じて新しいエージェントを作成
-- **セッション継続性**: 長期開発セッション間でコンテキストを維持
+- **インテリジェントなオーケストレーション**: エージェントが自動で作業を調整・順序付け
+- **動的な専門化**: 独自のプロジェクトニーズに応じて新エージェントを作成
+- **セッションの継続性**: 長期開発セッション間でコンテキストを維持
 
 ### プロフェッショナル品質
-- **業界ベストプラクティス**: 各エージェントは確立された手法に従う
-- **包括的なテスト**: 自動テスト生成と品質保証
+- **業界ベストプラクティス**: 各エージェントが確立された方法論に従う
+- **包括的テスト**: 自動テスト生成と品質保証
 - **セキュリティ優先**: 組み込みのセキュリティ分析とコンプライアンスチェック
-- **本番対応**: 完全な展開および運用サポート
+- **本番対応**: 完全な展開と運用サポート
 
 ### スケーラブルなアーキテクチャ
-- **モジュラー設計**: 個別エージェントまたは完全なワークフローを使用可能
-- **コンテキスト保存**: 長期プロジェクトのための効率的なメモリ管理
-- **リソース最適化**: Claude Code使用を監視し最適化
-- **テンプレート駆動**: 実績あるパターンで迅速なプロジェクトセットアップ
+- **モジュラー設計**: 個別エージェントまたは完全ワークフローを使用可能
+- **コンテキスト保持**: 長期プロジェクトのための効率的なメモリ管理
+- **リソース最適化**: Claude Code使用の監視と最適化
+- **テンプレート駆動**: 実績あるパターンで迅速なプロジェクト設定
 
-## 💡 利用ケース
+## 💡 ユースケース
 
 ### 完全プロジェクト自動化
 ```
@@ -114,13 +115,13 @@ Agent: project-orchestrator coordinates all phases with appropriate specialists
 1. **エージェント定義をクローンまたはコピー**して、プロジェクトの `.claude/agents/` ディレクトリに配置します:
    ```bash
    mkdir -p .claude/agents
-   # Copy the 35 agent definition files to this directory
+   # Copy the agent definition files to this directory
    ```
 
 2. **インストールの確認**:
    ```bash
    ls .claude/agents/
-   # Should show all 35 agent files (.md format)
+   # Should show all agent files (.md format)
    ```
 
 3. **Claude Codeでエージェントの使用を開始する**:
@@ -273,6 +274,6 @@ MITライセンス - これらのエージェントを目的に応じて自由�
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-31
 
 ---

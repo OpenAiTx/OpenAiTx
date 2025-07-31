@@ -2,7 +2,7 @@
 
 **Language**: [English](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README.md) | [日本語](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README_JA.md)
 
-A complete collection of 35 specialized sub-agents for Claude Code that enable end-to-end software development automation, from requirements analysis to production deployment and ongoing maintenance.
+A complete collection of specialized sub-agents for Claude Code that enable end-to-end software development automation, from requirements analysis to production deployment and ongoing maintenance.
 
 ## 🎯 Overview
 
@@ -10,7 +10,7 @@ This repository contains a comprehensive set of Claude Code sub-agents designed 
 
 ## 📦 Agent Categories
 
-### 1. Requirements & Analysis (4 agents)
+### 1. Requirements & Analysis
 **Purpose**: Transform business needs into detailed technical specifications
 
 - **requirements-analyst** - Analyzes user needs and creates detailed functional specifications
@@ -18,7 +18,7 @@ This repository contains a comprehensive set of Claude Code sub-agents designed 
 - **business-process-analyst** - Analyzes business processes and translates to technical requirements
 - **requirements-validator** - Validates requirements for completeness and consistency
 
-### 2. Design & Architecture (5 agents)
+### 2. Design & Architecture
 **Purpose**: Create robust, scalable system designs
 
 - **system-architect** - Designs comprehensive system architectures and technology stacks
@@ -27,7 +27,7 @@ This repository contains a comprehensive set of Claude Code sub-agents designed 
 - **security-architect** - Designs security frameworks and data protection strategies
 - **design-reviewer** - Reviews and validates system designs for quality
 
-### 3. Implementation & Development (10 agents)
+### 3. Implementation & Development
 **Purpose**: Handle all aspects of code development and quality assurance
 
 - **code-reviewer** - Performs comprehensive code quality assessments
@@ -39,9 +39,10 @@ This repository contains a comprehensive set of Claude Code sub-agents designed 
 - **documentation-generator** - Creates technical documentation and code comments
 - **dependency-manager** - Manages package dependencies and resolves conflicts
 - **database-schema-designer** - Designs efficient database schemas and migrations
+- **git-manager** - Manages Git operations, commit organization, and repository maintenance
 - **cicd-builder** - Creates and configures CI/CD pipelines
 
-### 4. Project Management (5 agents)
+### 4. Project Management
 **Purpose**: Coordinate and manage the entire development process
 
 - **project-planner** - Creates comprehensive project plans and timelines
@@ -50,7 +51,7 @@ This repository contains a comprehensive set of Claude Code sub-agents designed 
 - **qa-coordinator** - Establishes quality standards and coordinates testing
 - **stakeholder-communicator** - Manages stakeholder communication and reporting
 
-### 5. Deployment & Operations (5 agents)
+### 5. Deployment & Operations
 **Purpose**: Handle production deployment and ongoing operations
 
 - **project-orchestrator** - Master coordinator for end-to-end project execution
@@ -59,7 +60,7 @@ This repository contains a comprehensive set of Claude Code sub-agents designed 
 - **training-change-manager** - Creates training materials and manages system adoption
 - **project-template-manager** - Manages project templates and quick setup for common project patterns
 
-### 6. Meta-Management (6 agents)
+### 6. Meta-Management
 **Purpose**: Optimize Claude Code itself for maximum efficiency
 
 - **context-manager** - Monitors session context and manages information for continuity
@@ -114,13 +115,13 @@ Agent: project-orchestrator coordinates all phases with appropriate specialists
 1. **Clone or copy agent definitions** to your project's `.claude/agents/` directory:
    ```bash
    mkdir -p .claude/agents
-   # Copy the 35 agent definition files to this directory
+   # Copy the agent definition files to this directory
    ```
 
 2. **Verify installation**:
    ```bash
    ls .claude/agents/
-   # Should show all 35 agent files (.md format)
+   # Should show all agent files (.md format)
    ```
 
 3. **Start using agents** in Claude Code:

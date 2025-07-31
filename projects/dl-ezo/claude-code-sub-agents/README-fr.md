@@ -2,94 +2,95 @@
 
 **Langue** : [Anglais](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README.md) | [日本語](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README_JA.md)
 
-Une collection complète de 35 sous-agents spécialisés pour Claude Code qui permettent l'automatisation complète du développement logiciel, de l'analyse des besoins à la mise en production et à la maintenance continue.
+Une collection complète d’agents spécialisés pour Claude Code permettant l’automatisation complète du développement logiciel, de l’analyse des besoins à la mise en production et à la maintenance continue.
 
-## 🎯 Vue d'ensemble
+## 🎯 Vue d’ensemble
 
-Ce dépôt contient un ensemble complet de sous-agents Claude Code conçus pour gérer les cycles complets de développement logiciel avec une intervention humaine minimale. Les agents sont organisés en six catégories couvrant chaque aspect du développement logiciel moderne.
+Ce dépôt contient un ensemble complet d’agents Claude Code conçus pour gérer l’intégralité des cycles de vie du développement logiciel avec une intervention humaine minimale. Les agents sont organisés en six catégories couvrant tous les aspects du développement logiciel moderne.
 
-## 📦 Catégories d'agents
+## 📦 Catégories d’agents
 
-### 1. Exigences & Analyse (4 agents)
-**But** : Transformer les besoins métier en spécifications techniques détaillées
+### 1. Exigences & Analyse
+**Objectif** : Transformer les besoins métier en spécifications techniques détaillées
 
 - **requirements-analyst** - Analyse les besoins utilisateurs et crée des spécifications fonctionnelles détaillées
-- **user-story-generator** - Crée des user stories complètes et des critères d'acceptation  
+- **user-story-generator** - Crée des user stories complètes et des critères d’acceptation  
 - **business-process-analyst** - Analyse les processus métier et les traduit en exigences techniques
-- **requirements-validator** - Valide les exigences pour leur complétude et cohérence
+- **requirements-validator** - Valide les exigences pour leur exhaustivité et cohérence
 
-### 2. Conception & Architecture (5 agents)
-**But** : Créer des conceptions système robustes et évolutives
+### 2. Conception & Architecture
+**Objectif** : Créer des conceptions système robustes et évolutives
 
-- **system-architect** - Conçoit des architectures système complètes et des stacks technologiques
-- **data-architect** - Conçoit des modèles de données, schémas et stratégies d'intégration
-- **interface-designer** - Conçoit les interfaces utilisateurs et les spécifications API
+- **system-architect** - Conçoit des architectures système complètes et des piles technologiques
+- **data-architect** - Conçoit des modèles de données, schémas et stratégies d’intégration
+- **interface-designer** - Conçoit les interfaces utilisateur et les spécifications d’API
 - **security-architect** - Conçoit des cadres de sécurité et des stratégies de protection des données
-- **design-reviewer** - Revoit et valide la qualité des conceptions système
+- **design-reviewer** - Revoit et valide les conceptions système pour garantir la qualité
 
-### 3. Implémentation & Développement (10 agents)
-**But** : Gérer tous les aspects du développement de code et de l'assurance qualité
+### 3. Implémentation & Développement
+**Objectif** : Gérer tous les aspects du développement de code et de l’assurance qualité
 
 - **code-reviewer** - Effectue des évaluations complètes de la qualité du code
-- **test-suite-generator** - Génère une couverture de tests exhaustive
-- **code-refactoring-specialist** - Améliore la structure du code en toute sécurité et réduit la dette technique
+- **test-suite-generator** - Génère une couverture de test complète
+- **code-refactoring-specialist** - Améliore la structure du code et réduit la dette technique en toute sécurité
 - **security-analyzer** - Identifie les vulnérabilités et problèmes de sécurité
 - **performance-optimizer** - Analyse et optimise les performances du code
-- **api-designer** - Conçoit des API RESTful claires avec des spécifications appropriées
+- **api-designer** - Conçoit des API RESTful propres avec des spécifications appropriées
 - **documentation-generator** - Crée la documentation technique et les commentaires de code
-- **dependency-manager** - Gère les dépendances de paquets et résout les conflits
-- **database-schema-designer** - Conçoit des schémas de bases de données efficaces et des migrations
-- **cicd-builder** - Crée et configure des pipelines CI/CD
+- **dependency-manager** - Gère les dépendances des paquets et résout les conflits
+- **database-schema-designer** - Conçoit des schémas de base de données efficaces et des migrations
+- **git-manager** - Gère les opérations Git, l’organisation des commits et la maintenance du dépôt
+- **cicd-builder** - Crée et configure les pipelines CI/CD
 
-### 4. Gestion de projet (5 agents)
-**But** : Coordonner et gérer l’ensemble du processus de développement
+### 4. Gestion de projet
+**Objectif** : Coordonner et gérer l’ensemble du processus de développement
 
 - **project-planner** - Crée des plans de projet complets et des calendriers
-- **risk-manager** - Identifie les risques de projet et crée des stratégies d'atténuation
-- **progress-tracker** - Suit l’avancement du projet et identifie les blocages
+- **risk-manager** - Identifie les risques projet et crée des stratégies d’atténuation
+- **progress-tracker** - Suit la progression du projet et identifie les blocages
 - **qa-coordinator** - Établit les standards de qualité et coordonne les tests
 - **stakeholder-communicator** - Gère la communication et les rapports aux parties prenantes
 
-### 5. Déploiement & Exploitation (5 agents)
-**But** : Gérer le déploiement en production et les opérations continues
+### 5. Déploiement & Exploitation
+**Objectif** : Gérer la mise en production et les opérations continues
 
-- **project-orchestrator** - Coordinateur maître pour l'exécution complète du projet
-- **deployment-ops-manager** - Gère le déploiement en production et la surveillance opérationnelle
-- **uat-coordinator** - Coordonne les tests d'acceptation utilisateur avec les parties prenantes métier
+- **project-orchestrator** - Coordinateur principal pour l’exécution complète du projet
+- **deployment-ops-manager** - Gère la mise en production et la surveillance opérationnelle
+- **uat-coordinator** - Coordonne les tests d’acceptation utilisateurs avec les parties prenantes métier
 - **training-change-manager** - Crée des supports de formation et gère l’adoption du système
-- **project-template-manager** - Gère les modèles de projet et la configuration rapide des schémas courants
+- **project-template-manager** - Gère les modèles de projet et la configuration rapide pour les schémas courants
 
-### 6. Méta-Gestion (6 agents)
-**But** : Optimiser Claude Code lui-même pour une efficacité maximale
+### 6. Méta-Gestion
+**Objectif** : Optimiser Claude Code lui-même pour une efficacité maximale
 
-- **context-manager** - Surveille le contexte de session et gère les informations pour la continuité
+- **context-manager** - Surveille le contexte des sessions et gère l’information pour la continuité
 - **session-continuity-manager** - Assure des transitions fluides entre les sessions Claude Code
 - **memory-manager** - Optimise l’usage mémoire de Claude Code et la documentation projet
-- **workflow-optimizer** - Analyse et optimise les flux de travail et l’utilisation des agents
-- **resource-monitor** - Surveille l’utilisation des ressources et suggère des stratégies d’optimisation
+- **workflow-optimizer** - Analyse et optimise les workflows de développement et l’utilisation des agents
+- **resource-monitor** - Surveille l’usage des ressources et propose des stratégies d’optimisation
 - **agent-creator** - Crée dynamiquement de nouveaux agents spécialisés selon les besoins du projet
 
 ## 🚀 Fonctionnalités clés
 
 ### Automatisation complète
-- **Développement de bout en bout** : Des exigences au déploiement en production
-- **Orchestration intelligente** : Les agents coordonnent et séquencent automatiquement les tâches
-- **Spécialisation dynamique** : Création de nouveaux agents pour besoins projet uniques
+- **Développement de bout en bout** : Des exigences à la mise en production
+- **Orchestration intelligente** : Les agents coordonnent et enchaînent automatiquement les tâches
+- **Spécialisation dynamique** : Création de nouveaux agents pour des besoins uniques
 - **Continuité de session** : Maintien du contexte sur de longues sessions de développement
 
 ### Qualité professionnelle
 - **Meilleures pratiques industrielles** : Chaque agent suit des méthodologies établies
-- **Tests complets** : Génération automatisée de tests et assurance qualité
+- **Tests complets** : Génération automatique de tests et assurance qualité
 - **Sécurité prioritaire** : Analyse de sécurité intégrée et contrôle de conformité
-- **Prêt pour la production** : Support complet de déploiement et d’exploitation
+- **Prêt pour la production** : Support complet pour le déploiement et l’exploitation
 
 ### Architecture évolutive
 - **Conception modulaire** : Utilisation d’agents individuels ou de workflows complets
-- **Préservation du contexte** : Gestion efficace de la mémoire pour projets longs
+- **Préservation du contexte** : Gestion efficace de la mémoire pour les projets longs
 - **Optimisation des ressources** : Surveillance et optimisation de l’utilisation de Claude Code
-- **Basé sur des modèles** : Configuration rapide de projets avec des schémas éprouvés
+- **Basé sur des modèles** : Mise en place rapide de projets avec des schémas éprouvés
 
-## 💡 Cas d'utilisation
+## 💡 Cas d’utilisation
 
 ### Automatisation complète de projet
 ```
@@ -114,13 +115,13 @@ Agent: project-orchestrator coordinates all phases with appropriate specialists
 1. **Clonez ou copiez les définitions des agents** dans le répertoire `.claude/agents/` de votre projet :
    ```bash
    mkdir -p .claude/agents
-   # Copy the 35 agent definition files to this directory
+   # Copy the agent definition files to this directory
    ```
 
 2. **Vérifier l'installation** :
    ```bash
    ls .claude/agents/
-   # Should show all 35 agent files (.md format)
+   # Should show all agent files (.md format)
    ```
 
 3. **Commencez à utiliser des agents** dans Claude Code :
@@ -273,6 +274,6 @@ Pour les problèmes, questions ou suggestions :
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-31
 
 ---

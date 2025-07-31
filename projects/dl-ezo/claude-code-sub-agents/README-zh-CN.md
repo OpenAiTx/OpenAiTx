@@ -1,95 +1,96 @@
 # Claude Code 综合代理集合
 
-**语言**：[英语](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README.md) | [日本語](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README_JA.md)
+**语言**：[English](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README.md) | [日本語](https://raw.githubusercontent.com/dl-ezo/claude-code-sub-agents/main/README_JA.md)
 
-一个包含35个专用子代理的完整集合，适用于Claude Code，实现从需求分析到生产部署及持续维护的端到端软件开发自动化。
+一套完整的Claude Code专业子代理集合，实现从需求分析到生产部署及持续维护的端到端软件开发自动化。
 
 ## 🎯 概述
 
-本仓库包含一套全面的Claude Code子代理，旨在以最小的人为干预处理完整的软件开发生命周期。代理分为六大类，涵盖现代软件开发的各个方面。
+本仓库包含一整套Claude Code子代理，设计用于以最少人工干预处理完整的软件开发生命周期。代理分为六大类，涵盖现代软件开发的各个方面。
 
 ## 📦 代理分类
 
-### 1. 需求与分析（4个代理）
-**目的**：将业务需求转化为详细的技术规范
+### 1. 需求与分析
+**目的**：将业务需求转化为详细的技术规格
 
 - **requirements-analyst** - 分析用户需求并创建详细的功能规格
 - **user-story-generator** - 创建全面的用户故事和验收标准  
-- **business-process-analyst** - 分析业务流程并转换为技术需求
+- **business-process-analyst** - 分析业务流程并转化为技术需求
 - **requirements-validator** - 验证需求的完整性和一致性
 
-### 2. 设计与架构（5个代理）
+### 2. 设计与架构
 **目的**：创建稳健且可扩展的系统设计
 
 - **system-architect** - 设计全面的系统架构和技术栈
-- **data-architect** - 设计数据模型、架构和集成策略
+- **data-architect** - 设计数据模型、模式及集成策略
 - **interface-designer** - 设计用户界面和API规范
 - **security-architect** - 设计安全框架和数据保护策略
 - **design-reviewer** - 审查并验证系统设计质量
 
-### 3. 实现与开发（10个代理）
-**目的**：处理代码开发和质量保证的所有方面
+### 3. 实现与开发
+**目的**：处理代码开发和质量保障的各个方面
 
 - **code-reviewer** - 执行全面的代码质量评估
 - **test-suite-generator** - 生成全面的测试覆盖
-- **code-refactoring-specialist** - 安全地改善代码结构，减少技术债务
+- **code-refactoring-specialist** - 安全改进代码结构，减少技术债务
 - **security-analyzer** - 识别漏洞和安全问题
 - **performance-optimizer** - 分析并优化代码性能
-- **api-designer** - 设计清晰、符合规范的RESTful API
+- **api-designer** - 设计清晰、RESTful的API及规范
 - **documentation-generator** - 创建技术文档和代码注释
 - **dependency-manager** - 管理包依赖并解决冲突
-- **database-schema-designer** - 设计高效的数据库架构和迁移方案
+- **database-schema-designer** - 设计高效的数据库模式和迁移方案
+- **git-manager** - 管理Git操作、提交组织和仓库维护
 - **cicd-builder** - 创建和配置CI/CD流水线
 
-### 4. 项目管理（5个代理）
-**目的**：协调和管理整个开发过程
+### 4. 项目管理
+**目的**：协调和管理整个开发流程
 
 - **project-planner** - 制定全面的项目计划和时间表
 - **risk-manager** - 识别项目风险并制定缓解策略
-- **progress-tracker** - 监控项目进度并识别阻碍
+- **progress-tracker** - 监控项目进展并识别阻碍
 - **qa-coordinator** - 建立质量标准并协调测试
 - **stakeholder-communicator** - 管理利益相关者沟通和报告
 
-### 5. 部署与运维（5个代理）
+### 5. 部署与运维
 **目的**：处理生产部署和持续运维
 
-- **project-orchestrator** - 端到端项目执行的总协调者
+- **project-orchestrator** - 端到端项目执行的主协调者
 - **deployment-ops-manager** - 负责生产部署和运营监控
-- **uat-coordinator** - 协调与业务利益相关者的用户验收测试
-- **training-change-manager** - 制作培训材料并管理系统采用
-- **project-template-manager** - 管理项目模板并快速设置常见项目模式
+- **uat-coordinator** - 协调与业务相关者的用户验收测试
+- **training-change-manager** - 制作培训资料并管理系统采用
+- **project-template-manager** - 管理项目模板，快速设置常见项目模式
 
-### 6. 元管理（6个代理）
-**目的**：优化Claude Code自身以实现最高效率
+### 6. 元管理
+**目的**：优化Claude Code自身以实现最大效率
 
-- **context-manager** - 监控会话上下文并管理信息连续性
+- **context-manager** - 监控会话上下文并管理信息以保持连续性
 - **session-continuity-manager** - 确保Claude Code会话间的无缝衔接
-- **memory-manager** - 优化Claude Code内存使用和项目文档
+- **memory-manager** - 优化Claude Code内存使用和项目文档管理
 - **workflow-optimizer** - 分析并优化开发工作流和代理使用
-- **resource-monitor** - 监控资源使用并提出优化策略
-- **agent-creator** - 动态创建新的专用代理以满足项目需求
+- **resource-monitor** - 监控资源使用并建议优化策略
+- **agent-creator** - 动态创建新的专业代理以满足项目需求
 
 ## 🚀 主要特性
 
 ### 完整自动化
 - **端到端开发**：从需求到生产部署
-- **智能协调**：代理自动协作并安排工作顺序
+- **智能编排**：代理自动协调并安排工作顺序
 - **动态专业化**：为独特项目需求创建新代理
-- **会话连续性**：在长时间开发中保持上下文
+- **会话连续性**：在长时间开发会话中保持上下文
 
 ### 专业质量
 - **行业最佳实践**：每个代理遵循既定方法论
-- **全面测试**：自动测试生成和质量保证
+- **全面测试**：自动测试生成和质量保障
 - **安全优先**：内置安全分析和合规检查
-- **生产准备**：完整的部署和运营支持
+- **生产就绪**：完整的部署及运维支持
 
 ### 可扩展架构
 - **模块化设计**：可单独使用代理或完整工作流
-- **上下文保存**：长项目的高效内存管理
+- **上下文保留**：高效内存管理支持长项目
 - **资源优化**：监控并优化Claude Code使用
-- **模板驱动**：通过成熟模式快速设置项目
+- **模板驱动**：使用成熟模式快速搭建项目
 
-## 💡 使用场景
+## 💡 使用案例
 
 ### 完整项目自动化
 ```
@@ -114,13 +115,13 @@ Agent: project-orchestrator coordinates all phases with appropriate specialists
 1. **克隆或复制代理定义** 到您的项目的 `.claude/agents/` 目录：
    ```bash
    mkdir -p .claude/agents
-   # Copy the 35 agent definition files to this directory
+   # Copy the agent definition files to this directory
    ```
 
 2. **验证安装**：
    ```bash
    ls .claude/agents/
-   # Should show all 35 agent files (.md format)
+   # Should show all agent files (.md format)
    ```
 
 3. **开始在 Claude Code 中使用代理** ：
@@ -273,6 +274,6 @@ MIT 许可证 - 可自由使用、修改和分发这些代理，适用于任何�
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-31
 
 ---
