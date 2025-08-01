@@ -1,0 +1,906 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides\n<p align=\"center\">\n  📄 <a href=\"https://arxiv.org/abs/2501.03936\" target=\"_blank\">Paper</a> &nbsp; | &nbsp;\n  🤗 <a href=\"https://huggingface.co/datasets/Forceless/Zenodo10K\" target=\"_blank\">Dataset</a> &nbsp; | &nbsp;\n  📝 <a href=\"./DOC.md\" target=\"_blank\">Documentation</a> &nbsp; | &nbsp;\n  🙏 <a href=\"#citation-\" target=\"_blank\">Citation</a> &nbsp; | &nbsp;\n  <a href=\"https://deepwiki.com/icip-cas/PPTAgent\" target=\"_blank\"><img src=\"https://deepwiki.com/icon.png\" alt=\"Ask DeepWiki\"> DeepWiki</a>\n</p>\n\nWe present PPTAgent, an innovative system that automatically generates presentations from documents. Drawing inspiration from human presentation creation methods, our system employs a two-step process to ensure excellence in overall quality. Additionally, we introduce **PPTEval**, a comprehensive evaluation framework that assesses presentations across multiple dimensions.\n\n> [!TIP]\n> 🚀 Get started quickly with our pre-built Docker image - [See Docker instructions](DOC.md/#docker-)\n\n## Demo Video 🎥\n\nhttps://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863\n\n## Distinctive Features ✨\n\n- **Dynamic Content Generation**: Creates slides with seamlessly integrated text and images\n- **Smart Reference Learning**: Leverages existing presentations without requiring manual annotation\n- **Comprehensive Quality Assessment**: Evaluates presentations through multiple quality metrics\n\n## Case Study 💡\n\n- #### [Iphone 16 Pro](https://www.apple.com/iphone-16-pro/)\n\n<div style=\"display: flex; flex-wrap: wrap; gap: 10px;\">\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0001.jpg\" alt=\"图片1\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0002.jpg\" alt=\"图片2\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0003.jpg\" alt=\"图片3\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0004.jpg\" alt=\"图片4\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0005.jpg\" alt=\"图片5\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0006.jpg\" alt=\"图片6\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0007.jpg\" alt=\"图片7\" width=\"200\"/>\n\n</div>\n\n- #### [Build Effective Agents](https://www.anthropic.com/research/building-effective-agents)\n\n<div style=\"display: flex; flex-wrap: wrap; gap: 10px;\">\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg\" alt=\"图片1\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg\" alt=\"图片2\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg\" alt=\"图片3\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg\" alt=\"图片4\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg\" alt=\"图片5\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg\" alt=\"图片6\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg\" alt=\"图片7\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg\" alt=\"图片8\" width=\"200\"/>\n\n<img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg\" alt=\"图片9\" width=\"200\"/>\n",
+    "ContentSha": "DL5lADkhalne4fKOH6xlGhXV+TwtscXP3w5d/5VLyLg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Язык</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# PPTAgent: Генерация и оценка презентаций за пределами преобразования текста в слайды\n<p align=\"center\">\n  📄 <a href=\"https://arxiv.org/abs/2501.03936\" target=\"_blank\">Статья</a> &nbsp; | &nbsp;\n  🤗 <a href=\"https://huggingface.co/datasets/Forceless/Zenodo10K\" target=\"_blank\">Датасет</a> &nbsp; | &nbsp;\n  📝 <a href=\"./DOC.md\" target=\"_blank\">Документация</a> &nbsp; | &nbsp;\n  🙏 <a href=\"#citation-\" target=\"_blank\">Цитирование</a> &nbsp; | &nbsp;\n  <a href=\"https://deepwiki.com/icip-cas/PPTAgent\" target=\"_blank\"><img src=\"https://deepwiki.com/icon.png\" alt=\"Ask DeepWiki\"> DeepWiki</a>\n</p>\n\nМы представляем PPTAgent — инновационную систему, автоматически создающую презентации на основе документов. Вдохновляясь человеческими методами создания презентаций, наша система использует двухэтапный процесс для обеспечения высокого качества. Кроме того, мы представляем **PPTEval**, комплексную систему оценки презентаций по нескольким направлениям.\n\n> [!TIP]\n> 🚀 Быстрый старт с нашим готовым Docker-образом — [См. инструкции по Docker](DOC.md/#docker-)\n\n## Демонстрационное видео 🎥\n\nhttps://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863\n\n## Отличительные особенности ✨\n\n- **Динамическая генерация контента**: Создаёт слайды с гармонично объединённым текстом и изображениями\n- **Умное обучение на примерах**: Использует существующие презентации без необходимости ручной разметки\n- **Комплексная оценка качества**: Оценивает презентации по нескольким метрикам качества\n\n## Кейсы применения 💡\n\n- #### [Iphone 16 Pro](https://www.apple.com/iphone-16-pro/)\n\n<div style=\"display: flex; flex-wrap: wrap; gap: 10px;\">\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0001.jpg\" alt=\"Картинка1\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0002.jpg\" alt=\"Картинка2\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0003.jpg\" alt=\"Картинка3\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0004.jpg\" alt=\"Картинка4\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0005.jpg\" alt=\"Картинка5\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0006.jpg\" alt=\"Картинка6\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0007.jpg\" alt=\"Картинка7\" width=\"200\"/>\n\n</div>\n\n- #### [Создание эффективных агентов](https://www.anthropic.com/research/building-effective-agents)\n\n<div style=\"display: flex; flex-wrap: wrap; gap: 10px;\">\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg\" alt=\"Картинка1\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg\" alt=\"Картинка2\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg\" alt=\"Картинка3\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg\" alt=\"Картинка4\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg\" alt=\"Картинка5\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg\" alt=\"Картинка6\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg\" alt=\"Картинка7\" width=\"200\"/>\n\n  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg\" alt=\"Картинка8\" width=\"200\"/>\n\n<img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg\" alt=\"Картинка9\" width=\"200\"/>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Язык</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "+f4nwFpvKzLBgqYzHfeuvXO4mroRGxzVvRwkMWqcqIo=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "c7XXEC/7oGM6wUjHXNbIXEYMNW4w93BEorxYXit2IUc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "pdCjDJssm9RGpxF+2zuVhaEko9pxh4sqlGpX3hxkC7o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "6S/EUNs5jMhf+2Zf0gDoXqJ35HNQd5ruYiTc88M+hBI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "8UcjTjPc0gP/AgVQq7rozWka3HpKJVI3dYoz2AGxxK8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "16VUVPw4U/cL2iLkcJuEijTqoM4sq9lWBOIDUqm8b4o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "5YoMZ8T8gIo2VxuM6gf9C3fbAHfmpji6f/tMlCEuwD0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "6J1S3EpRcfkPjqlSDr+3TC2TfO0x298sDSdUlXPqf4Y=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "RHqNhslFMPkUye1DMvRNky3GGUcgomfttyfiSCA02ZE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "34zw6fp5LUqYIBpFpmMPpNauL6FMtQlYhbK70NpMrdc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "EduHYvGtV0pz9C6eibFy5HdhMOPm+G1txmMddbzr0gI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "Q3AdraIaeloB6rnSeOTJwG1gTB6OH+C2lKYfubueCeM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "g0Wgvny8qoXRFnmHPgv3x4CvYw9X2BPmFqZZp5Lz0to=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "qgXTfU3m3rgMP8n9DDg4SlUL2Pfs+075mCEL+eu3mpY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "DCnPY7gozMvE0ZNywM/4wsijP1BKpXfMkLMd2qxBzUY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "Qnq0KTMNg9gBwEgr55m75WWoxC+yUf7NRsEdJBacklc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "cuzCivy297ywLPm8SOLeikxHJ9OF/sVdUcr6TFaVDfA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "vz7Vo8Z2FVo/8/JGosdr5/auP03O8VZCV9MOSuqcR48=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "Z6Kwi/Y3JWClGFI+A1+o25LGmMdC72/yOUMFg79jkqg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "OjT8bT+kVqdbbtKa3RyZNMF1D6CB0PlalHKnq6lPosM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "LvhgA9zbn6sTCdUuV9+ZcHLwncOHeElKX7teVfMCIBU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "AsW/JVthc4dpx71pl1cczTD09T62CnBKztAoDcxW6/w=",
+        "originContent": "# PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides",
+        "translatedContent": "# PPTAgent: Генерация и оценка презентаций за пределами преобразования текста в слайды"
+      },
+      {
+        "row": 34,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 35,
+        "rowsha": "+PTTf+MpmPuEfFy+AzgQZ1ZPjZxXcaeu/hBNQ0yZx/Q=",
+        "originContent": "  📄 <a href=\"https://arxiv.org/abs/2501.03936\" target=\"_blank\">Paper</a> &nbsp; | &nbsp;",
+        "translatedContent": "  📄 <a href=\"https://arxiv.org/abs/2501.03936\" target=\"_blank\">Статья</a> &nbsp; | &nbsp;"
+      },
+      {
+        "row": 36,
+        "rowsha": "+0cP6d2qrr8wRspyDpMkctcX9qMb6bHkczXHX5sIKFA=",
+        "originContent": "  🤗 <a href=\"https://huggingface.co/datasets/Forceless/Zenodo10K\" target=\"_blank\">Dataset</a> &nbsp; | &nbsp;",
+        "translatedContent": "  🤗 <a href=\"https://huggingface.co/datasets/Forceless/Zenodo10K\" target=\"_blank\">Датасет</a> &nbsp; | &nbsp;"
+      },
+      {
+        "row": 37,
+        "rowsha": "bYUXOG10vx5T7tNo4bKcDrp31J9N3Hlil1mOoOdGRrQ=",
+        "originContent": "  📝 <a href=\"./DOC.md\" target=\"_blank\">Documentation</a> &nbsp; | &nbsp;",
+        "translatedContent": "  📝 <a href=\"./DOC.md\" target=\"_blank\">Документация</a> &nbsp; | &nbsp;"
+      },
+      {
+        "row": 38,
+        "rowsha": "y4uRWR1OBYHvzstv2yLpWlMPOWIF+/Zmtvf7eWcZJwc=",
+        "originContent": "  🙏 <a href=\"#citation-\" target=\"_blank\">Citation</a> &nbsp; | &nbsp;",
+        "translatedContent": "  🙏 <a href=\"#citation-\" target=\"_blank\">Цитирование</a> &nbsp; | &nbsp;"
+      },
+      {
+        "row": 39,
+        "rowsha": "MADo9EaNZxN6I/LSm47/cDJfeK3AymzsDWukI2+Gd30=",
+        "originContent": "  <a href=\"https://deepwiki.com/icip-cas/PPTAgent\" target=\"_blank\"><img src=\"https://deepwiki.com/icon.png\" alt=\"Ask DeepWiki\"> DeepWiki</a>",
+        "translatedContent": "  <a href=\"https://deepwiki.com/icip-cas/PPTAgent\" target=\"_blank\"><img src=\"https://deepwiki.com/icon.png\" alt=\"Ask DeepWiki\"> DeepWiki</a>"
+      },
+      {
+        "row": 40,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "KoAV0czz/Kt9XMDRbVaFXMqt7uVqgnvhxBQM45//+xg=",
+        "originContent": "We present PPTAgent, an innovative system that automatically generates presentations from documents. Drawing inspiration from human presentation creation methods, our system employs a two-step process to ensure excellence in overall quality. Additionally, we introduce **PPTEval**, a comprehensive evaluation framework that assesses presentations across multiple dimensions.",
+        "translatedContent": "Мы представляем PPTAgent — инновационную систему, автоматически создающую презентации на основе документов. Вдохновляясь человеческими методами создания презентаций, наша система использует двухэтапный процесс для обеспечения высокого качества. Кроме того, мы представляем **PPTEval**, комплексную систему оценки презентаций по нескольким направлениям."
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+        "originContent": "> [!TIP]",
+        "translatedContent": "> [!TIP]"
+      },
+      {
+        "row": 45,
+        "rowsha": "5nhrx68d2gWjoUUiXNOZt1iMXPtgfd+XALJDk5zTbnk=",
+        "originContent": "> 🚀 Get started quickly with our pre-built Docker image - [See Docker instructions](DOC.md/#docker-)",
+        "translatedContent": "> 🚀 Быстрый старт с нашим готовым Docker-образом — [См. инструкции по Docker](DOC.md/#docker-)"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "KMlm2P/3uqPk8ukHCFndhm/2QSk1UmFr6RFnyWN+fBQ=",
+        "originContent": "## Demo Video 🎥",
+        "translatedContent": "## Демонстрационное видео 🎥"
+      },
+      {
+        "row": 48,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "Pp1LqmOTBS+r0D9mTYTvXUnv+9LpQ4Vx61Z80OQcsBw=",
+        "originContent": "https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863",
+        "translatedContent": "https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "cS8d+TaMbCwee/jg8EYmtrwgdKBI0Jlyui0xjmoX5T4=",
+        "originContent": "## Distinctive Features ✨",
+        "translatedContent": "## Отличительные особенности ✨"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "hdw/ZY0h18WA5lFsVyI+VSy41Tk67LAO8Ugh/9qRc3o=",
+        "originContent": "- **Dynamic Content Generation**: Creates slides with seamlessly integrated text and images",
+        "translatedContent": "- **Динамическая генерация контента**: Создаёт слайды с гармонично объединённым текстом и изображениями"
+      },
+      {
+        "row": 54,
+        "rowsha": "tM89SEoVrGKUSbBbTO7QwvYq8Bd0CNwKCHJLm2KO8Nc=",
+        "originContent": "- **Smart Reference Learning**: Leverages existing presentations without requiring manual annotation",
+        "translatedContent": "- **Умное обучение на примерах**: Использует существующие презентации без необходимости ручной разметки"
+      },
+      {
+        "row": 55,
+        "rowsha": "/98zvymx8KJBW8bEBXnH6yzpmtRvnlbFJTl7hS7OmvM=",
+        "originContent": "- **Comprehensive Quality Assessment**: Evaluates presentations through multiple quality metrics",
+        "translatedContent": "- **Комплексная оценка качества**: Оценивает презентации по нескольким метрикам качества"
+      },
+      {
+        "row": 56,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "bGOFX25h9FivYcC+C+O2WEbmGdMyBZDbArN2YeGut18=",
+        "originContent": "## Case Study 💡",
+        "translatedContent": "## Кейсы применения 💡"
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "a0ZkedEtWjCXG3XCIaatfOCeWDkcG2iLe/D49qr4N3M=",
+        "originContent": "- #### [Iphone 16 Pro](https://www.apple.com/iphone-16-pro/)",
+        "translatedContent": "- #### [Iphone 16 Pro](https://www.apple.com/iphone-16-pro/)"
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "/y1VFMOl7p0A9tXS23pO2VwgLqVpqcsps0EDlTZASgA=",
+        "originContent": "<div style=\"display: flex; flex-wrap: wrap; gap: 10px;\">",
+        "translatedContent": "<div style=\"display: flex; flex-wrap: wrap; gap: 10px;\">"
+      },
+      {
+        "row": 62,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "HfN1cLNBRm9T62/opIcE1SQZ6UtM7QRqi4qYGWIzd7s=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0001.jpg\" alt=\"图片1\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0001.jpg\" alt=\"Картинка1\" width=\"200\"/>"
+      },
+      {
+        "row": 64,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "RKhpfdRRiITtg+sn/2A7WOBYJXoEFrAQXhK9MqnLhTk=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0002.jpg\" alt=\"图片2\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0002.jpg\" alt=\"Картинка2\" width=\"200\"/>"
+      },
+      {
+        "row": 66,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "2xJZDMZSwv0tg85aMr+B121EI6vcL5jzNQ+arvZQQJE=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0003.jpg\" alt=\"图片3\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0003.jpg\" alt=\"Картинка3\" width=\"200\"/>"
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "hkfWLe9DfvGC5qkxpLYlUhH5PYtHOlInm0L0mY8eOEs=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0004.jpg\" alt=\"图片4\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0004.jpg\" alt=\"Картинка4\" width=\"200\"/>"
+      },
+      {
+        "row": 70,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "upCSjf6VsXrxoTJRfPKvYfyR7gzx8cN+DvwdLOaGKdk=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0005.jpg\" alt=\"图片5\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0005.jpg\" alt=\"Картинка5\" width=\"200\"/>"
+      },
+      {
+        "row": 72,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 73,
+        "rowsha": "a8bN1hspzwqNJfFZOL50CjotDT/Ta+kSDV5+WVI/Qkc=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0006.jpg\" alt=\"图片6\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0006.jpg\" alt=\"Картинка6\" width=\"200\"/>"
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 75,
+        "rowsha": "4jEqu0DtLsWUFEfbRR0U6TthvW4jeoZqHDEqnRzYscU=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0007.jpg\" alt=\"图片7\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0007.jpg\" alt=\"Картинка7\" width=\"200\"/>"
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 77,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "f6YKisGcb1eSrF7PH0g61RLmGZSNsdKwpD8Ws1Ax5iI=",
+        "originContent": "- #### [Build Effective Agents](https://www.anthropic.com/research/building-effective-agents)",
+        "translatedContent": "- #### [Создание эффективных агентов](https://www.anthropic.com/research/building-effective-agents)"
+      },
+      {
+        "row": 80,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 81,
+        "rowsha": "/y1VFMOl7p0A9tXS23pO2VwgLqVpqcsps0EDlTZASgA=",
+        "originContent": "<div style=\"display: flex; flex-wrap: wrap; gap: 10px;\">",
+        "translatedContent": "<div style=\"display: flex; flex-wrap: wrap; gap: 10px;\">"
+      },
+      {
+        "row": 82,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "AENf2UKjny4bkhI07W7dQypdXlVX7cIbPcz+Gz2lRR4=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg\" alt=\"图片1\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg\" alt=\"Картинка1\" width=\"200\"/>"
+      },
+      {
+        "row": 84,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "65ea5pddkkYnpOO3hB186BQ1mWyzLst9DcNCtexS+dk=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg\" alt=\"图片2\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg\" alt=\"Картинка2\" width=\"200\"/>"
+      },
+      {
+        "row": 86,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "VH5gHd8tzsbGk9Tnxcu49ZTUgvHKdMkVqvc42mpdlS0=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg\" alt=\"图片3\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg\" alt=\"Картинка3\" width=\"200\"/>"
+      },
+      {
+        "row": 88,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 89,
+        "rowsha": "G1PiXGEHjLS3/XTm5YSoQZci1EjAxEvO/nkkf8dXfkU=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg\" alt=\"图片4\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg\" alt=\"Картинка4\" width=\"200\"/>"
+      },
+      {
+        "row": 90,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 91,
+        "rowsha": "obZ9DFqL2WRT9YKBfr19M2ookc+itpNWVj+he4qx/c4=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg\" alt=\"图片5\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg\" alt=\"Картинка5\" width=\"200\"/>"
+      },
+      {
+        "row": 92,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 93,
+        "rowsha": "THobqjc/oFXiusvLKHkCJX3CSWDy2yYn14lRX8r5O4E=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg\" alt=\"图片6\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg\" alt=\"Картинка6\" width=\"200\"/>"
+      },
+      {
+        "row": 94,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 95,
+        "rowsha": "TgfpieLeiymVK61IgetYdExh3ZNiITiShbXFbBbUOuw=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg\" alt=\"图片7\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg\" alt=\"Картинка7\" width=\"200\"/>"
+      },
+      {
+        "row": 96,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 97,
+        "rowsha": "OLiytH15w4lc+AQ5HPp5iAEvTYZSBX2gZogWkhwT2Aw=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg\" alt=\"图片8\" width=\"200\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg\" alt=\"Картинка8\" width=\"200\"/>"
+      },
+      {
+        "row": 98,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 99,
+        "rowsha": "cxmJGI+Kaz1765/xoiWwKzWeCpSrI7LRyLSTzuAtLK8=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg\" alt=\"图片9\" width=\"200\"/>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg\" alt=\"Картинка9\" width=\"200\"/>"
+      },
+      {
+        "row": 100,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "<img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0010.jpg\" alt=\"图片10\" width=\"200\"/>\n\n</div>\n\n## PPTAgent 🤖\n\nPPTAgent follows a two-phase approach:\n1. **Analysis Phase**: Extracts and learns from patterns in reference presentations\n2. **Generation Phase**: Develops structured outlines and produces visually cohesive slides\n\nOur system's workflow is illustrated below:\n\n\n![PPTAgent Workflow](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)\n\n## PPTEval ⚖️\n\nPPTEval evaluates presentations across three dimensions:\n- **Content**: Check the accuracy and relevance of the slides.\n- **Design**: Assesses the visual appeal and consistency.\n- **Coherence**: Ensures the logical flow of ideas.\n\nThe workflow of PPTEval is shown below:\n<p align=\"center\">\n<img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg\" alt=\"PPTEval Workflow\" style=\"width:70%;\"/>\n</p>\n\n\n## Citation 🙏\n\nIf you find this project helpful, please use the following to cite it:",
+    "ContentSha": "wC1PFesnI75O29KZsx2xczbo8oPqBZR4HAoFNr8mQYA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0010.jpg\" alt=\"图片10\" width=\"200\"/>\n\n</div>\n\n## PPTAgent 🤖\n\nPPTAgent использует двухфазный подход:\n1. **Фаза анализа**: Извлекает и изучает паттерны из эталонных презентаций\n2. **Фаза генерации**: Разрабатывает структурированные планы и создает визуально согласованные слайды\n\nРабочий процесс нашей системы показан ниже:\n\n\n![Рабочий процесс PPTAgent](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)\n\n## PPTEval ⚖️\n\nPPTEval оценивает презентации по трем направлениям:\n- **Содержание**: Проверяет точность и актуальность слайдов.\n- **Дизайн**: Оценивает визуальную привлекательность и согласованность.\n- **Связность**: Обеспечивает логичность изложения идей.\n\nРабочий процесс PPTEval показан ниже:\n<p align=\"center\">\n<img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg\" alt=\"PPTEval Workflow\" style=\"width:70%;\"/>\n</p>\n\n\n## Ссылка 🙏\n\nЕсли этот проект оказался для вас полезным, пожалуйста, используйте следующую ссылку для цитирования:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "osXRxZ/vCHaf/Wr2Kg6En0JkVWj6HCa64gbRCujmdnE=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0010.jpg\" alt=\"图片10\" width=\"200\"/>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0010.jpg\" alt=\"图片10\" width=\"200\"/>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "NiPIruAV8khzpzEK2TxUZ/kST8OEM8vVvhiADE1TlEQ=",
+        "originContent": "## PPTAgent 🤖",
+        "translatedContent": "## PPTAgent 🤖"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "uZJe109Z1uPU1uS5yjSKHWP8RjJsdOG/2+FhmlA7QQg=",
+        "originContent": "PPTAgent follows a two-phase approach:",
+        "translatedContent": "PPTAgent использует двухфазный подход:"
+      },
+      {
+        "row": 8,
+        "rowsha": "+28ZjVpn3wj2HtgdLUPUtOdk9lbNytZasidmvqomxZ8=",
+        "originContent": "1. **Analysis Phase**: Extracts and learns from patterns in reference presentations",
+        "translatedContent": "1. **Фаза анализа**: Извлекает и изучает паттерны из эталонных презентаций"
+      },
+      {
+        "row": 9,
+        "rowsha": "aQ4wRSxLFE+CL6Vr16m+XP05p4XNTRoHheF7WfnEe4w=",
+        "originContent": "2. **Generation Phase**: Develops structured outlines and produces visually cohesive slides",
+        "translatedContent": "2. **Фаза генерации**: Разрабатывает структурированные планы и создает визуально согласованные слайды"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "0Y6VGRKHDwoP0xJ0L1c+SLWP/toU+I2wxEsy+n/G+y4=",
+        "originContent": "Our system's workflow is illustrated below:",
+        "translatedContent": "Рабочий процесс нашей системы показан ниже:"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "V1MGNY4UONvYUQxe4mysFmh2ilNh9NeyNqD48yjhh7Q=",
+        "originContent": "![PPTAgent Workflow](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)",
+        "translatedContent": "![Рабочий процесс PPTAgent](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "NAhHhwL9nOMLKh9DvQwWDANJ8+BA2aOWWsylihOIQEk=",
+        "originContent": "## PPTEval ⚖️",
+        "translatedContent": "## PPTEval ⚖️"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "z/xBBhLX31wWvxAqA2bwnYWjKqWt4D8XmqNtYibJgzs=",
+        "originContent": "PPTEval evaluates presentations across three dimensions:",
+        "translatedContent": "PPTEval оценивает презентации по трем направлениям:"
+      },
+      {
+        "row": 19,
+        "rowsha": "ZK7cTql1dbLgyhoN6B7PdJxKZr7VJou8QS/5JcpJhkc=",
+        "originContent": "- **Content**: Check the accuracy and relevance of the slides.",
+        "translatedContent": "- **Содержание**: Проверяет точность и актуальность слайдов."
+      },
+      {
+        "row": 20,
+        "rowsha": "S6XsmGovcETpsOuZs1KbJouC8e9ahQpDMtKZlDZAHpg=",
+        "originContent": "- **Design**: Assesses the visual appeal and consistency.",
+        "translatedContent": "- **Дизайн**: Оценивает визуальную привлекательность и согласованность."
+      },
+      {
+        "row": 21,
+        "rowsha": "xFywm8gu5Axwzf/iZsTJqaQ589A0j8TBGJlYlIJw0f0=",
+        "originContent": "- **Coherence**: Ensures the logical flow of ideas.",
+        "translatedContent": "- **Связность**: Обеспечивает логичность изложения идей."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "G+/02SyUhoCBu/LL7i4OoythXieOynJIuJlQxsU/XUI=",
+        "originContent": "The workflow of PPTEval is shown below:",
+        "translatedContent": "Рабочий процесс PPTEval показан ниже:"
+      },
+      {
+        "row": 24,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 25,
+        "rowsha": "HgTUS/UtfLVbJZlm1EtdRPcwNRLGbunSNHCRfNaufck=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg\" alt=\"PPTEval Workflow\" style=\"width:70%;\"/>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg\" alt=\"PPTEval Workflow\" style=\"width:70%;\"/>"
+      },
+      {
+        "row": 26,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "CFMVsVBpRbOuLGRBHSsXNx1/dFcWnSrH/hSB5CUls3o=",
+        "originContent": "## Citation 🙏",
+        "translatedContent": "## Ссылка 🙏"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "YOy3gGGWyeeW5jBv8/Ni7DHUiO9CL0xcpfSh5AB3/jA=",
+        "originContent": "If you find this project helpful, please use the following to cite it:",
+        "translatedContent": "Если этот проект оказался для вас полезным, пожалуйста, используйте следующую ссылку для цитирования:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bibtex\n@article{zheng2025pptagent,\n  title={PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides},\n  author={Zheng, Hao and Guan, Xinyan and Kong, Hao and Zheng, Jia and Zhou, Weixiang and Lin, Hongyu and Lu, Yaojie and He, Ben and Han, Xianpei and Sun, Le},\n  journal={arXiv preprint arXiv:2501.03936},\n  year={2025}\n}\n```",
+    "ContentSha": "ZWhHT2B/RhXh1VZlCJsen7A8NLV2DpZCc+4UHZ4w3N4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@article{zheng2025pptagent,\n  title={PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides},\n  author={Zheng, Hao and Guan, Xinyan and Kong, Hao and Zheng, Jia and Zhou, Weixiang and Lin, Hongyu and Lu, Yaojie and He, Ben and Han, Xianpei and Sun, Le},\n  journal={arXiv preprint arXiv:2501.03936},\n  year={2025}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "8WsrWCyaBwMCo0PUQhgjbidGcCGWaKer2+vpG80bMiM=",
+        "originContent": "@article{zheng2025pptagent,",
+        "translatedContent": "@article{zheng2025pptagent,"
+      },
+      {
+        "row": 3,
+        "rowsha": "k7wPJw3FJ6blhwUBwDOwlzfaxuDabaR1KUqnrBj/Rlw=",
+        "originContent": "  title={PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides},",
+        "translatedContent": "  title={PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides},"
+      },
+      {
+        "row": 4,
+        "rowsha": "KdJstmWeD6ZcGzjS0B6AoUE/e1MJ///rdYbEQGKHXfY=",
+        "originContent": "  author={Zheng, Hao and Guan, Xinyan and Kong, Hao and Zheng, Jia and Zhou, Weixiang and Lin, Hongyu and Lu, Yaojie and He, Ben and Han, Xianpei and Sun, Le},",
+        "translatedContent": "  author={Zheng, Hao and Guan, Xinyan and Kong, Hao and Zheng, Jia and Zhou, Weixiang and Lin, Hongyu and Lu, Yaojie and He, Ben and Han, Xianpei and Sun, Le},"
+      },
+      {
+        "row": 5,
+        "rowsha": "fVeGhJJsYXQ3mYRLvztRJH6q6qaCyGZNF3hBFD6uR+0=",
+        "originContent": "  journal={arXiv preprint arXiv:2501.03936},",
+        "translatedContent": "  journal={arXiv preprint arXiv:2501.03936},"
+      },
+      {
+        "row": 6,
+        "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+        "originContent": "  year={2025}",
+        "translatedContent": "  year={2025}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n[![Star History Chart](https://api.star-history.com/svg?repos=icip-cas/PPTAgent&type=Date)](https://star-history.com/#icip-cas/PPTAgent&Date)\n",
+    "ContentSha": "WsAJbMCFT6aJ4tRJ/dGCpjtGQCqL+gLiPCeAPFtQmDo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n[![Star History Chart](https://api.star-history.com/svg?repos=icip-cas/PPTAgent&type=Date)](https://star-history.com/#icip-cas/PPTAgent&Date)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "WPJaf2OXjhT5vfQKOBqnOvaSZWVvF7Cbhq3e9TfhFW0=",
+        "originContent": "[![Star History Chart](https://api.star-history.com/svg?repos=icip-cas/PPTAgent&type=Date)](https://star-history.com/#icip-cas/PPTAgent&Date)",
+        "translatedContent": "[![Star History Chart](https://api.star-history.com/svg?repos=icip-cas/PPTAgent&type=Date)](https://star-history.com/#icip-cas/PPTAgent&Date)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

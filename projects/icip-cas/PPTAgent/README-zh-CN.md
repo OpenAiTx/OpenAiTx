@@ -1,4 +1,36 @@
-# PPTAgent：超越文本转幻灯片的演示文稿生成与评估
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# PPTAgent：超越文本到幻灯片的演示文稿生成与评估
 <p align="center">
   📄 <a href="https://arxiv.org/abs/2501.03936" target="_blank">论文</a> &nbsp; | &nbsp;
   🤗 <a href="https://huggingface.co/datasets/Forceless/Zenodo10K" target="_blank">数据集</a> &nbsp; | &nbsp;
@@ -7,22 +39,22 @@
   <a href="https://deepwiki.com/icip-cas/PPTAgent" target="_blank"><img src="https://deepwiki.com/icon.png" alt="Ask DeepWiki"> DeepWiki</a>
 </p>
 
-我们推出了PPTAgent，一款创新系统，能够自动从文档生成演示文稿。借鉴人类制作演示的方式，我们的系统采用两步流程以确保整体质量的卓越。此外，我们还引入了**PPTEval**，一套涵盖多维度的演示评估框架。
+我们提出了PPTAgent，一个能够自动从文档生成演示文稿的创新系统。该系统从人类创建演示文稿的方法中汲取灵感，采用两步式流程以确保整体质量的卓越表现。此外，我们还引入了**PPTEval**，一个多维度综合评估演示文稿的评价框架。
 
 > [!TIP]
-> 🚀 使用我们预构建的Docker镜像快速开始 - [查看Docker说明](DOC.md/#docker-)
+> 🚀 通过我们预构建的Docker镜像快速上手 - [查看Docker说明](DOC.md/#docker-)
 
 ## 演示视频 🎥
 
 https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
-## 特色功能 ✨
+## 主要特色 ✨
 
-- **动态内容生成**：创建无缝整合文本与图像的幻灯片
-- **智能参考学习**：利用现有演示，无需人工注释
-- **全面质量评估**：通过多项质量指标评估演示文稿
+- **动态内容生成**：无缝集成文本与图片生成幻灯片
+- **智能参考学习**：利用现有演示文稿，无需人工标注
+- **全面质量评估**：通过多项质量指标评判演示文稿
 
-## 案例研究 💡
+## 案例分析 💡
 
 - #### [Iphone 16 Pro](https://www.apple.com/iphone-16-pro/)
 
@@ -44,7 +76,7 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 </div>
 
-- #### [构建高效代理](https://www.anthropic.com/research/building-effective-agents)
+- #### [构建高效智能体](https://www.anthropic.com/research/building-effective-agents)
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
@@ -72,23 +104,23 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 ## PPTAgent 🤖
 
-PPTAgent采用两阶段方法：
-1. **分析阶段**：提取并学习参考演示的模式
-2. **生成阶段**：制定结构化提纲并制作视觉统一的幻灯片
+PPTAgent 采用两阶段方法：
+1. **分析阶段**：从参考演示文稿中提取并学习模式
+2. **生成阶段**：开发结构化大纲并生成视觉统一的幻灯片
 
-我们系统的工作流程如下图所示：
+我们系统的工作流程如下所示：
 
 
 ![PPTAgent 工作流程](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)
 
 ## PPTEval ⚖️
 
-PPTEval从三个维度评估演示文稿：
+PPTEval 从三个维度评估演示文稿：
 - **内容**：检查幻灯片的准确性和相关性。
 - **设计**：评估视觉吸引力和一致性。
-- **连贯性**：确保思路的逻辑流畅。
+- **连贯性**：确保思想的逻辑流畅。
 
-PPTEval的工作流程如下：
+PPTEval 的工作流程如下所示：
 <p align="center">
 <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg" alt="PPTEval 工作流程" style="width:70%;"/>
 </p>
@@ -96,7 +128,7 @@ PPTEval的工作流程如下：
 
 ## 引用 🙏
 
-如果您觉得本项目有帮助，请使用以下方式引用：
+如果您觉得本项目对您有帮助，请引用以下内容：
 ```bibtex
 @article{zheng2025pptagent,
   title={PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides},
@@ -111,6 +143,6 @@ PPTEval的工作流程如下：
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-31
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-01
 
 ---
