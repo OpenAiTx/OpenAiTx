@@ -1,4 +1,4 @@
-﻿<div align="right">
+<div align="right">
   <details>
     <summary >🌐 语言</summary>
     <div>
@@ -28,24 +28,43 @@
   </details>
 </div>
 
-# 开源、轻量级的 Trello 替代方案，专为创客和独立开发者设计。
+<div align="center">
+  <br />
+<br />
+<a href="https://kanba.co">
+  <img alt="Kanba" src="https://www.kanba.co/dark-hero.png" style=" width: 800px " />
+</a>
+    <br />
+<br />
+</div>
+
+<div align="center">
+  <br />
+<br />
+<a href="https://vercel.com/oss">
+  <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
+</a>
+    <br />
+<br />
+</div>
+# 一个为创作者和独立黑客设计的开源、轻量级 Trello 替代品。
 
 专注于简洁、速度和可扩展性。
 采用现代技术栈构建：Tailwind CSS、shadcn/ui、Supabase、Stripe 集成。
-支持无限项目、团队协作、暗/亮模式及无缝用户体验。
-非常适合希望完全掌控且避免不必要复杂性的独立开发者和小团队。
+支持无限项目、团队协作、深色/浅色模式和无缝用户体验。
+非常适合希望完全掌控、无需复杂性的独立开发者和小团队。
 
-## 🌟 如果你觉得这个项目有用，欢迎给它点个星！这也有助于其他人发现它。
+## 🌟 如果你觉得这个项目有用，请考虑为它加个星！这样也能帮助更多人发现它。
 
 # 部署指南
 
 ## 概述
-该应用现已改用本地 Next.js API 路由替代 Supabase Edge Functions 来集成 Stripe，简化了部署流程，并允许使用标准的 .env 文件进行配置。
+本应用现已采用本地 Next.js API 路由来替代 Supabase Edge Functions 进行 Stripe 集成。这让部署更简单，并允许你使用标准的 .env 文件进行配置。
 
-## 环境变量设置
+## 环境变量配置
 
 ### 1. 创建 .env.local 文件
-复制 `.env.example` 到 `.env.local` 并填写你的实际值：
+将 `.env.example` 复制为 `.env.local`，并填写你的实际值：
 
 
 ```bash
@@ -149,6 +168,6 @@ npx vercel
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-01
 
 ---

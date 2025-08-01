@@ -1,4 +1,5 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 Language</summary>
     <div>
@@ -28,6 +29,25 @@
   </details>
 </div>
 
+<div align="center">
+  <br />
+<br />
+<a href="https://kanba.co">
+  <img alt="Kanba" src="https://www.kanba.co/dark-hero.png" style=" width: 800px " />
+</a>
+    <br />
+<br />
+</div>
+
+<div align="center">
+  <br />
+<br />
+<a href="https://vercel.com/oss">
+  <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
+</a>
+    <br />
+<br />
+</div>
 # Open-source, lightweight Trello alternative designed for makers and indie hackers.
 
 Focus on simplicity, speed, and scalability.
@@ -46,7 +66,6 @@ This application now uses local Next.js API routes instead of Supabase Edge Func
 
 ### 1. Create .env.local file
 Copy `.env.example` to `.env.local` and fill in your actual values:
-
 
 ```bash
 cp .env.example .env.local
@@ -146,6 +165,6 @@ The application now uses these local API routes:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-01
 
 ---

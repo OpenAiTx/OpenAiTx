@@ -1,4 +1,4 @@
-﻿<div align="right">
+<div align="right">
   <details>
     <summary >🌐 언어</summary>
     <div>
@@ -28,24 +28,43 @@
   </details>
 </div>
 
-# 제작자와 인디 해커를 위해 설계된 오픈 소스 경량 Trello 대안.
+<div align="center">
+  <br />
+<br />
+<a href="https://kanba.co">
+  <img alt="Kanba" src="https://www.kanba.co/dark-hero.png" style=" width: 800px " />
+</a>
+    <br />
+<br />
+</div>
 
-단순함, 속도, 확장성에 집중.
+<div align="center">
+  <br />
+<br />
+<a href="https://vercel.com/oss">
+  <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
+</a>
+    <br />
+<br />
+</div>
+# 제작자와 인디 해커를 위해 설계된 오픈소스, 경량화된 Trello 대안
+
+단순함, 속도, 확장성에 초점을 맞췄습니다.
 최신 스택으로 구축: Tailwind CSS, shadcn/ui, Supabase, Stripe 통합.
-무제한 프로젝트, 팀 협업, 다크/라이트 모드, 원활한 사용자 경험 지원.
-불필요한 복잡함 없이 완전한 제어를 원하는 개인 개발자와 소규모 팀에 완벽.
+무제한 프로젝트, 팀 협업, 다크/라이트 모드, 매끄러운 사용자 경험 지원.
+불필요한 복잡함 없이 완전한 제어를 원하는 1인 개발자와 소규모 팀에 적합합니다.
 
-## 🌟 이 프로젝트가 유용하다면 별을 주세요! 다른 사람들이 발견하는 데 도움이 됩니다.
+## 🌟 이 프로젝트가 유용하다면 Star를 눌러주세요! 다른 사람들에게도 도움이 됩니다.
 
 # 배포 가이드
 
 ## 개요
-이 애플리케이션은 이제 Stripe 통합을 위해 Supabase Edge Functions 대신 로컬 Next.js API 라우트를 사용합니다. 이로 인해 배포가 더 간단해지고 표준 .env 파일을 사용하여 구성할 수 있습니다.
+이 애플리케이션은 Stripe 통합을 위해 Supabase Edge Functions 대신 로컬 Next.js API 라우트를 사용합니다. 배포가 더 간단해지고 표준 .env 파일로 설정할 수 있습니다.
 
 ## 환경 변수 설정
 
 ### 1. .env.local 파일 생성
-`.env.example`을 `.env.local`로 복사하고 실제 값을 입력하세요:
+`.env.example`을 `.env.local`로 복사한 후 실제 값을 입력하세요:
 
 
 ```bash
@@ -147,6 +166,6 @@ npx vercel
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-01
 
 ---

@@ -28,24 +28,43 @@
   </details>
 </div>
 
-# メーカーやインディハッカー向けに設計されたオープンソースの軽量Trello代替品。
+<div align="center">
+  <br />
+<br />
+<a href="https://kanba.co">
+  <img alt="Kanba" src="https://www.kanba.co/dark-hero.png" style=" width: 800px " />
+</a>
+    <br />
+<br />
+</div>
 
-シンプルさ、速度、スケーラビリティに注力。
-モダンなスタックで構築：Tailwind CSS、shadcn/ui、Supabase、Stripe統合。
+<div align="center">
+  <br />
+<br />
+<a href="https://vercel.com/oss">
+  <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
+</a>
+    <br />
+<br />
+</div>
+# メーカーやインディーハッカー向けに設計されたオープンソースの軽量Trello代替。
+
+シンプルさ、高速性、スケーラビリティを重視。
+モダンなスタックで構築：Tailwind CSS、shadcn/ui、Supabase、Stripe連携。
 無制限のプロジェクト、チームコラボレーション、ダーク/ライトモード、シームレスなユーザー体験をサポート。
-不要な複雑さなしに完全なコントロールを望むソロ開発者や小規模チームに最適。
+不要な複雑さなく、フルコントロールを求める個人開発者や小規模チームに最適。
 
-## 🌟 このプロジェクトが役立つと思ったら、スターを付けてください！他の人が見つけやすくなります。
+## 🌟 このプロジェクトが役に立った場合はスターを付けてください！他の人にも発見してもらいやすくなります。
 
-# デプロイメントガイド
+# デプロイガイド
 
 ## 概要
-このアプリケーションは現在、Stripe統合にSupabase Edge Functionsの代わりにローカルのNext.js APIルートを使用しています。これによりデプロイが簡単になり、標準の.envファイルを使用して設定できます。
+本アプリケーションは、Stripe連携にSupabase Edge Functionsではなく、ローカルのNext.js APIルートを使用するようになりました。これによりデプロイが簡単になり、標準的な.envファイルで設定できるようになりました。
 
 ## 環境変数の設定
 
 ### 1. .env.localファイルを作成
-`.env.example`を`.env.local`にコピーし、実際の値を入力してください：
+`.env.example` を `.env.local` にコピーし、実際の値を入力してください：
 
 
 ```bash
@@ -145,6 +164,6 @@ npx vercel
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-01
 
 ---
