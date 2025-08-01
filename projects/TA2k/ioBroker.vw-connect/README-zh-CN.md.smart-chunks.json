@@ -1,0 +1,1488 @@
+[
+  {
+    "Id": 1,
+    "Content": "![Logo](https://raw.githubusercontent.com/TA2k/ioBroker.vw-connect/master/admin/vw-connect.png)\n\n# ioBroker.vw-connect\n\n[![NPM version](http://img.shields.io/npm/v/iobroker.vw-connect.svg)](https://www.npmjs.com/package/iobroker.vw-connect)\n[![Downloads](https://img.shields.io/npm/dm/iobroker.vw-connect.svg)](https://www.npmjs.com/package/iobroker.vw-connect)\n[![Dependency Status](https://img.shields.io/david/ta2k/iobroker.vw-connect.svg)](https://david-dm.org/ta2k/iobroker.vw-connect)\n[![Known Vulnerabilities](https://snyk.io/test/github/ta2k/ioBroker.vw-connect/badge.svg)](https://snyk.io/test/github/ta2k/ioBroker.vw-connect)\n\n[![NPM](https://nodei.co/npm/iobroker.vw-connect.png?downloads=true)](https://nodei.co/npm/iobroker.vw-connect/)\n\n**Tests:**: [![Travis-CI](http://img.shields.io/travis/ta2k/ioBroker.vw-connect/master.svg)](https://travis-ci.org/ta2k/ioBroker.vw-connect)\n\n## vw-connect adapter for ioBroker\n\nAdapter for VW We Connect, We Connect ID, We Charge, myAudi, Skoda Connect, Seat Connect and We Connect Go\n\nPlease update your system on Node 10.\n<https://forum.iobroker.net/topic/22867/how-to-node-js-f%C3%BCr-iobroker-richtig-updaten>\n\n## Usage\n\nUse the state under remote control to control your car remotely.\nNormale refresh is the polling interval to receive data from the VAG Cloud\nForce refresh is for non E-Cars to enforce a refresh this number is limited by VAG until the car is turn on again.\nTrip data is only available for non E-Cars.\n\nYou can set climatisaton temperature in\n.climater.settings.targetTemperature.content\n\n## Discussion and Questions\n\n<https://forum.iobroker.net/topic/26438/test-adapter-vw-connect-für-vw-id-audi-seat-skoda>\n\n## Status fields Explanation\n\n### List of entries\n",
+    "ContentSha": "aHTEm6FXTtjA2w9PYiS0M3rly1GZM2ycgj6VYZTlvzA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![Logo](https://raw.githubusercontent.com/TA2k/ioBroker.vw-connect/master/admin/vw-connect.png)\n\n# ioBroker.vw-connect\n\n[![NPM version](http://img.shields.io/npm/v/iobroker.vw-connect.svg)](https://www.npmjs.com/package/iobroker.vw-connect)\n[![Downloads](https://img.shields.io/npm/dm/iobroker.vw-connect.svg)](https://www.npmjs.com/package/iobroker.vw-connect)\n[![Dependency Status](https://img.shields.io/david/ta2k/iobroker.vw-connect.svg)](https://david-dm.org/ta2k/iobroker.vw-connect)\n[![Known Vulnerabilities](https://snyk.io/test/github/ta2k/ioBroker.vw-connect/badge.svg)](https://snyk.io/test/github/ta2k/ioBroker.vw-connect)\n\n[![NPM](https://nodei.co/npm/iobroker.vw-connect.png?downloads=true)](https://nodei.co/npm/iobroker.vw-connect/)\n\n**测试:**: [![Travis-CI](http://img.shields.io/travis/ta2k/ioBroker.vw-connect/master.svg)](https://travis-ci.org/ta2k/ioBroker.vw-connect)\n\n## ioBroker 的 vw-connect 适配器\n\n适用于 VW We Connect、We Connect ID、We Charge、myAudi、Skoda Connect、Seat Connect 和 We Connect Go 的适配器\n\n请将您的系统更新到 Node 10。\n<https://forum.iobroker.net/topic/22867/how-to-node-js-f%C3%BCr-iobroker-richtig-updaten>\n\n## 使用方法\n\n使用 remote control 下的状态远程控制您的汽车。\n普通刷新是从 VAG 云接收数据的轮询间隔\n强制刷新用于非电动车，强制刷新次数由 VAG 限制，直到汽车再次启动。\n行程数据仅对非电动车可用。\n\n您可以在\n.climater.settings.targetTemperature.content\n设置空调温度\n\n## 讨论与问题\n\n<https://forum.iobroker.net/topic/26438/test-adapter-vw-connect-für-vw-id-audi-seat-skoda>\n\n## 状态字段说明\n\n### 条目列表",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "TYiSdOJ3BjdkPaulf/kpxC/EFvJVCztsNy1nqNiC6z0=",
+        "originContent": "![Logo](https://raw.githubusercontent.com/TA2k/ioBroker.vw-connect/master/admin/vw-connect.png)",
+        "translatedContent": "![Logo](https://raw.githubusercontent.com/TA2k/ioBroker.vw-connect/master/admin/vw-connect.png)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "6se2biUcd7GN9JL4ertlF3efLuQui5XpPgpnFshS8Lk=",
+        "originContent": "# ioBroker.vw-connect",
+        "translatedContent": "# ioBroker.vw-connect"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "h4ND6Qzx7TLngcf+kEgDYy6z++SBaWsQsfvCxkIs1jo=",
+        "originContent": "[![NPM version](http://img.shields.io/npm/v/iobroker.vw-connect.svg)](https://www.npmjs.com/package/iobroker.vw-connect)",
+        "translatedContent": "[![NPM version](http://img.shields.io/npm/v/iobroker.vw-connect.svg)](https://www.npmjs.com/package/iobroker.vw-connect)"
+      },
+      {
+        "row": 6,
+        "rowsha": "fcIMDymqaW6EF69lVrzzaZEM9bCnLcJ671XKGpiHQ9A=",
+        "originContent": "[![Downloads](https://img.shields.io/npm/dm/iobroker.vw-connect.svg)](https://www.npmjs.com/package/iobroker.vw-connect)",
+        "translatedContent": "[![Downloads](https://img.shields.io/npm/dm/iobroker.vw-connect.svg)](https://www.npmjs.com/package/iobroker.vw-connect)"
+      },
+      {
+        "row": 7,
+        "rowsha": "ZQrc7l8f5FZ4OHo/0NdpE22G+/Sn/LeTchFcaAgStPg=",
+        "originContent": "[![Dependency Status](https://img.shields.io/david/ta2k/iobroker.vw-connect.svg)](https://david-dm.org/ta2k/iobroker.vw-connect)",
+        "translatedContent": "[![Dependency Status](https://img.shields.io/david/ta2k/iobroker.vw-connect.svg)](https://david-dm.org/ta2k/iobroker.vw-connect)"
+      },
+      {
+        "row": 8,
+        "rowsha": "Hg7P+fzradZtjzj04IHDO8bX7oFKcjLpfXOgKzGGR7M=",
+        "originContent": "[![Known Vulnerabilities](https://snyk.io/test/github/ta2k/ioBroker.vw-connect/badge.svg)](https://snyk.io/test/github/ta2k/ioBroker.vw-connect)",
+        "translatedContent": "[![Known Vulnerabilities](https://snyk.io/test/github/ta2k/ioBroker.vw-connect/badge.svg)](https://snyk.io/test/github/ta2k/ioBroker.vw-connect)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "yRvF6hjRuPp0gTS/3V/jgsAO3VKCt1AoZfyRZu2R574=",
+        "originContent": "[![NPM](https://nodei.co/npm/iobroker.vw-connect.png?downloads=true)](https://nodei.co/npm/iobroker.vw-connect/)",
+        "translatedContent": "[![NPM](https://nodei.co/npm/iobroker.vw-connect.png?downloads=true)](https://nodei.co/npm/iobroker.vw-connect/)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "+PG96/zEN908zwxtNNFylrSHS9PlwRULrbRBQ43TbgU=",
+        "originContent": "**Tests:**: [![Travis-CI](http://img.shields.io/travis/ta2k/ioBroker.vw-connect/master.svg)](https://travis-ci.org/ta2k/ioBroker.vw-connect)",
+        "translatedContent": "**测试:**: [![Travis-CI](http://img.shields.io/travis/ta2k/ioBroker.vw-connect/master.svg)](https://travis-ci.org/ta2k/ioBroker.vw-connect)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "1fowC0Ds6YwmcT4dZ/TSRx9Fmo8rmAPCWgih+xrPByI=",
+        "originContent": "## vw-connect adapter for ioBroker",
+        "translatedContent": "## ioBroker 的 vw-connect 适配器"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "grpBJaUj138VlfJl8v/DforrgP1fYIDtaSrq47zORrU=",
+        "originContent": "Adapter for VW We Connect, We Connect ID, We Charge, myAudi, Skoda Connect, Seat Connect and We Connect Go",
+        "translatedContent": "适用于 VW We Connect、We Connect ID、We Charge、myAudi、Skoda Connect、Seat Connect 和 We Connect Go 的适配器"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "7hQKN8Nwj6hVlcNi02DeJs45qEpBzyP6iNz/1y6mXn0=",
+        "originContent": "Please update your system on Node 10.",
+        "translatedContent": "请将您的系统更新到 Node 10。"
+      },
+      {
+        "row": 19,
+        "rowsha": "X1UpUTyeqj39G7rlSUI9cHTis38AqnZopyl12tM2ELc=",
+        "originContent": "<https://forum.iobroker.net/topic/22867/how-to-node-js-f%C3%BCr-iobroker-richtig-updaten>",
+        "translatedContent": "<https://forum.iobroker.net/topic/22867/how-to-node-js-f%C3%BCr-iobroker-richtig-updaten>"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "1tMfeYCMjdGfezbuaWGQAxSmar6lKM0HNqFMrsKd4dI=",
+        "originContent": "Use the state under remote control to control your car remotely.",
+        "translatedContent": "使用 remote control 下的状态远程控制您的汽车。"
+      },
+      {
+        "row": 24,
+        "rowsha": "SaUd7w8gEjTRAaM1VmcJ/qJjWpyGCYMA8SVJm9iRmMM=",
+        "originContent": "Normale refresh is the polling interval to receive data from the VAG Cloud",
+        "translatedContent": "普通刷新是从 VAG 云接收数据的轮询间隔"
+      },
+      {
+        "row": 25,
+        "rowsha": "wRe2VpKJXf59Zg2Sp0fESOiu5CBV2JiMqGrRmbkHpg8=",
+        "originContent": "Force refresh is for non E-Cars to enforce a refresh this number is limited by VAG until the car is turn on again.",
+        "translatedContent": "强制刷新用于非电动车，强制刷新次数由 VAG 限制，直到汽车再次启动。"
+      },
+      {
+        "row": 26,
+        "rowsha": "e0M0n2cGvyv5+CqpDKBHJ+DGCVcb0P4VgAtmHLD9QN0=",
+        "originContent": "Trip data is only available for non E-Cars.",
+        "translatedContent": "行程数据仅对非电动车可用。"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "5bcHdXYbNSilEwwA3PlymryGyWjmJFW6M0Va8YIvMts=",
+        "originContent": "You can set climatisaton temperature in",
+        "translatedContent": "您可以在"
+      },
+      {
+        "row": 29,
+        "rowsha": "hmT5CjczGGnQX73R+NN5Ln242m4MwR5gyB5ciAWxos8=",
+        "originContent": ".climater.settings.targetTemperature.content",
+        "translatedContent": ".climater.settings.targetTemperature.content"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "设置空调温度"
+      },
+      {
+        "row": 31,
+        "rowsha": "/GT4tB2ffUPT0kkeKKTPp2GCeNAcFi2fmCjxRXIPquE=",
+        "originContent": "## Discussion and Questions",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 讨论与问题"
+      },
+      {
+        "row": 33,
+        "rowsha": "WAaV4qBwIebU2VdHBFwnhNo7Ju4WcFX+L0nF/fw94Ao=",
+        "originContent": "<https://forum.iobroker.net/topic/26438/test-adapter-vw-connect-für-vw-id-audi-seat-skoda>",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<https://forum.iobroker.net/topic/26438/test-adapter-vw-connect-für-vw-id-audi-seat-skoda>"
+      },
+      {
+        "row": 35,
+        "rowsha": "fVabTTAIydzFf0P5G45bgLPCMK8CT+xfSsOtTYNIVKg=",
+        "originContent": "## Status fields Explanation",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 状态字段说明"
+      },
+      {
+        "row": 37,
+        "rowsha": "wO4/6NqCnEc6FxL9vwawwGtETr2yrve4jwOEvBjQ++Q=",
+        "originContent": "### List of entries",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 条目列表"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n\n```",
+    "ContentSha": "vp/uCpPLIMx5Ju8kyRFXrVHiM2VeUuSohG0cxReWFIw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Changelog\n\n### 0.7.12 (2025-05-05)\n\n- fix for skoda refresh token\n- fix for ventilation activation\n- add new not supported endpoints\n\n### 0.7.9 (2025-03-20)\n\n- fix for id wall charger\n\n### 0.7.7 (2025-03-02)\n\n- fix for skoda auxiliaryheating and duration\n- fix for skoda lock/unlock\n\n### 0.7.6 (2025-02-28)\n\n- fix for charging status updates only at startup\n- fix for skoda ismoving state\n\n### 0.7.3 (2025-02-26)\n\n- fix for set setTemperature\n- fix for Skoda unlock lock\n\n### 0.7.0 (2025-02-25)\n\n- fix for skoda and seat\n- State structure changed completly please delete old states under Objects\n\n### 0.6.1 (2024-10-01)\n\n- fix for skoda login\n\n### 0.6.0 (2024-04-11)\n\n- add additonal cupra states\n\n### 0.5.4 (2024-03-17)\n\n- fix door window states\n\n### 0.4.1\n\n- Fix VW Status Update\n\n### 0.0.65\n\n- Fix Cupra login\n\n### 0.0.63\n\n- Fix VW/Skoda etron login\n\n### 0.0.62\n\n- Fix Audi etron login\n\n### 0.0.61\n\n- Fix ID login\n\n### 0.0.60\n\n- Minor improvements. WeCharge Minimum interval is now 15 minutes\n\n### 0.0.55\n\n- fix id status update\n\n### 0.0.51\n\n- fix audi etron login\n\n### 0.0.48\n\n- fix login, fix audi update, add limit for wallbox\n\n### 0.0.43\n\n- increase refresh token timeouts\n\n### 0.0.42\n\n- fix skoda login\n\n### 0.0.40\n\n- add climate v3 for newer cars. Add Powerpass and Seat Elli\n\n### 0.0.39\n\n- fix id login\n\n### 0.0.36\n\n- add Skoda Enyaq support",
+    "ContentSha": "BGEsEeNsUrZGeBnawhsCCvFS4YLj9QsQ9SEYMM/F7Z4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 更新日志\n\n### 0.7.12 (2025-05-05)\n\n- 修复斯柯达刷新令牌问题\n- 修复通风激活问题\n- 添加新的不支持端点\n\n### 0.7.9 (2025-03-20)\n\n- 修复ID壁式充电器问题\n\n### 0.7.7 (2025-03-02)\n\n- 修复斯柯达辅助加热及持续时间问题\n- 修复斯柯达锁定/解锁问题\n\n### 0.7.6 (2025-02-28)\n\n- 修复充电状态仅在启动时更新的问题\n- 修复斯柯达isMoving状态\n\n### 0.7.3 (2025-02-26)\n\n- 修复设置温度问题\n- 修复斯柯达解锁锁定问题\n\n### 0.7.0 (2025-02-25)\n\n- 修复斯柯达和西雅特相关问题\n- 状态结构完全更改，请删除对象下的旧状态\n\n### 0.6.1 (2024-10-01)\n\n- 修复斯柯达登录问题\n\n### 0.6.0 (2024-04-11)\n\n- 添加额外的Cupra状态\n\n### 0.5.4 (2024-03-17)\n\n- 修复车门窗状态\n\n### 0.4.1\n\n- 修复大众状态更新\n\n### 0.0.65\n\n- 修复Cupra登录\n\n### 0.0.63\n\n- 修复大众/斯柯达e-tron登录\n\n### 0.0.62\n\n- 修复奥迪e-tron登录\n\n### 0.0.61\n\n- 修复ID登录\n\n### 0.0.60\n\n- 小幅改进。WeCharge最小间隔现为15分钟\n\n### 0.0.55\n\n- 修复ID状态更新\n\n### 0.0.51\n\n- 修复奥迪e-tron登录\n\n### 0.0.48\n\n- 修复登录，修复奥迪更新，添加壁盒限制\n\n### 0.0.43\n\n- 增加刷新令牌超时时间\n\n### 0.0.42\n\n- 修复斯柯达登录\n\n### 0.0.40\n\n- 为较新车辆添加气候控制v3。添加Powerpass和西雅特Elli\n\n### 0.0.39\n\n- 修复ID登录\n\n### 0.0.36\n\n- 添加斯柯达Enyaq支持\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 更新日志"
+      },
+      {
+        "row": 2,
+        "rowsha": "sZNBxWTOjK92d5uVdMmWULuGrk66hbr3n+TVP60yreM=",
+        "originContent": "## Changelog",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.7.12 (2025-05-05)"
+      },
+      {
+        "row": 4,
+        "rowsha": "/03DH6gMivNSL5M0Wcdu5LCnvY3+CnhjxZ6RIMbI3CI=",
+        "originContent": "### 0.7.12 (2025-05-05)",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复斯柯达刷新令牌问题"
+      },
+      {
+        "row": 6,
+        "rowsha": "e9r6Nk4wQWVgjE6UsioEy0aDnloWJtxSGzwNk4wD/B0=",
+        "originContent": "- fix for skoda refresh token",
+        "translatedContent": "- 修复通风激活问题"
+      },
+      {
+        "row": 7,
+        "rowsha": "p44rHgHaG7Gz4rb/j3u7/hF+f9nbwy/nCsFC7xOCZeo=",
+        "originContent": "- fix for ventilation activation",
+        "translatedContent": "- 添加新的不支持端点"
+      },
+      {
+        "row": 8,
+        "rowsha": "L0bICyOldNyscxw50F+X7vi3WIKmsmz6+/mTOSIOkCQ=",
+        "originContent": "- add new not supported endpoints",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.7.9 (2025-03-20)"
+      },
+      {
+        "row": 10,
+        "rowsha": "WUt7IL+gsKApq685xMofym3VmQIjpV51F1+8T/Q+2b0=",
+        "originContent": "### 0.7.9 (2025-03-20)",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复ID壁式充电器问题"
+      },
+      {
+        "row": 12,
+        "rowsha": "Es9ig3MJg8QL76x4BvEE595Z3DyuJEVICelGFQsT4Is=",
+        "originContent": "- fix for id wall charger",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.7.7 (2025-03-02)"
+      },
+      {
+        "row": 14,
+        "rowsha": "3Iux9bl+vrMHj/pxs4H4UxK0/PCx0ThZI0WHTaWx4S8=",
+        "originContent": "### 0.7.7 (2025-03-02)",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复斯柯达辅助加热及持续时间问题"
+      },
+      {
+        "row": 16,
+        "rowsha": "NMV7iY5o77SUqJQ2oqSJrQe2yqQ2S8pR9156KWnCCdg=",
+        "originContent": "- fix for skoda auxiliaryheating and duration",
+        "translatedContent": "- 修复斯柯达锁定/解锁问题"
+      },
+      {
+        "row": 17,
+        "rowsha": "T9yBvnuksX0T0lu27iP5FQ5/IE3dw7oDTTThlC2cy1g=",
+        "originContent": "- fix for skoda lock/unlock",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.7.6 (2025-02-28)"
+      },
+      {
+        "row": 19,
+        "rowsha": "UybC7bJDPs/QIKt5xGdzrpEea3TPDKBMt67DoMmNAAI=",
+        "originContent": "### 0.7.6 (2025-02-28)",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复充电状态仅在启动时更新的问题"
+      },
+      {
+        "row": 21,
+        "rowsha": "Eu3HWFFHa4B9BqSgf1KS8ScqobX3CAr1a5STiafwNVY=",
+        "originContent": "- fix for charging status updates only at startup",
+        "translatedContent": "- 修复斯柯达isMoving状态"
+      },
+      {
+        "row": 22,
+        "rowsha": "Ye31MoKcArQdHrp36MEc1A21RS0Tn48NV55AyC2PCSA=",
+        "originContent": "- fix for skoda ismoving state",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.7.3 (2025-02-26)"
+      },
+      {
+        "row": 24,
+        "rowsha": "dTVqwL50VfSQuA5BGDl2Cq0TcA6/xYYKHs/XnF/jPw8=",
+        "originContent": "### 0.7.3 (2025-02-26)",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复设置温度问题"
+      },
+      {
+        "row": 26,
+        "rowsha": "wr8yV1lnyldDrroNfe1NtxPDlp+IalWmYPLsGgrccpE=",
+        "originContent": "- fix for set setTemperature",
+        "translatedContent": "- 修复斯柯达解锁锁定问题"
+      },
+      {
+        "row": 27,
+        "rowsha": "uF9Fh7ot+MWUMkVgUX5+J4BX1kcmuLTxNlmybhioBtE=",
+        "originContent": "- fix for Skoda unlock lock",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.7.0 (2025-02-25)"
+      },
+      {
+        "row": 29,
+        "rowsha": "Ybdbgj7NJWP7md42N5jcBLyb5XtDDr/8cSZ4Hxc68Jg=",
+        "originContent": "### 0.7.0 (2025-02-25)",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复斯柯达和西雅特相关问题"
+      },
+      {
+        "row": 31,
+        "rowsha": "haMNRSwHOW/84W6yD4/nifCJBncRsukxrPj7YdTA6zM=",
+        "originContent": "- fix for skoda and seat",
+        "translatedContent": "- 状态结构完全更改，请删除对象下的旧状态"
+      },
+      {
+        "row": 32,
+        "rowsha": "W/Az+ZGbnT9YuyfltkAk9TqOSydegvtMafw8EhDBnsw=",
+        "originContent": "- State structure changed completly please delete old states under Objects",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.6.1 (2024-10-01)"
+      },
+      {
+        "row": 34,
+        "rowsha": "Fv2VAh2tUbB0jJ8BgcopXeFZlSn6czshwE1hO5pH66Y=",
+        "originContent": "### 0.6.1 (2024-10-01)",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复斯柯达登录问题"
+      },
+      {
+        "row": 36,
+        "rowsha": "W9DYGIEX23lWA9kZF6c326lRr6TfbEFJhOagVIq8bdA=",
+        "originContent": "- fix for skoda login",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.6.0 (2024-04-11)"
+      },
+      {
+        "row": 38,
+        "rowsha": "lQYD+mQDzWo1KoeKFAqGS5M5DHAKwemJq06f0dxaupM=",
+        "originContent": "### 0.6.0 (2024-04-11)",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 添加额外的Cupra状态"
+      },
+      {
+        "row": 40,
+        "rowsha": "KrjC7Gmhrrj84gAuqx2H8uQfd8Mjf7SYRKTim06GXKA=",
+        "originContent": "- add additonal cupra states",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.5.4 (2024-03-17)"
+      },
+      {
+        "row": 42,
+        "rowsha": "bQDFyziu2N2gGS5qrGYcmB/qeOYqBFgWpkdMMBMoTEM=",
+        "originContent": "### 0.5.4 (2024-03-17)",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复车门窗状态"
+      },
+      {
+        "row": 44,
+        "rowsha": "h8PYDGiz3xMdMv3p9Fm6HQcTE2oayIa+faGWguLch2E=",
+        "originContent": "- fix door window states",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.4.1"
+      },
+      {
+        "row": 46,
+        "rowsha": "GX3S06pW/ucbT6i9KTHyVvqQFfXECJwvAYyrSPjNOc4=",
+        "originContent": "### 0.4.1",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复大众状态更新"
+      },
+      {
+        "row": 48,
+        "rowsha": "ZgsLAeEk1O/GmRM81dr7338CE29R3kMSRhKmVMDIv8Y=",
+        "originContent": "- Fix VW Status Update",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.65"
+      },
+      {
+        "row": 50,
+        "rowsha": "xH90+Aq+K/rtil5zp8eK9LfC2ZHcOfpnZJvL5fyj6Ks=",
+        "originContent": "### 0.0.65",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复Cupra登录"
+      },
+      {
+        "row": 52,
+        "rowsha": "ljHVHYv4+R8D/o7wun2m/crVOP82TKftszosvJ/Gsbk=",
+        "originContent": "- Fix Cupra login",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.63"
+      },
+      {
+        "row": 54,
+        "rowsha": "Vcyan+j8uYTkd8r900je4YPZNnxfJDnvSMh5px8jL0Y=",
+        "originContent": "### 0.0.63",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复大众/斯柯达e-tron登录"
+      },
+      {
+        "row": 56,
+        "rowsha": "E+k1eKulN7epbFQNptyr/1l4KJNYVDWt8HUtOo/9ToE=",
+        "originContent": "- Fix VW/Skoda etron login",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.62"
+      },
+      {
+        "row": 58,
+        "rowsha": "wQMABCAu0/DSBLoZUjCRUMz/OXY+I/hed2R64Il5HRw=",
+        "originContent": "### 0.0.62",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复奥迪e-tron登录"
+      },
+      {
+        "row": 60,
+        "rowsha": "1NxgE85W+RIrqnmyH4liulYH73aXTwm33f8KaTje51U=",
+        "originContent": "- Fix Audi etron login",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.61"
+      },
+      {
+        "row": 62,
+        "rowsha": "LIlAqd7vcXsRfLwCYezRFNln7uN0ybMjIXXBt+hwyEM=",
+        "originContent": "### 0.0.61",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复ID登录"
+      },
+      {
+        "row": 64,
+        "rowsha": "OU8ZW8xIGMV3GplNurFheYyT/lAAHvQgGcRhzMyi8Tw=",
+        "originContent": "- Fix ID login",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.60"
+      },
+      {
+        "row": 66,
+        "rowsha": "fhblVmTdqSfoFbkAj0f9y+a3OaA07FROGrf8gu1K5UA=",
+        "originContent": "### 0.0.60",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 小幅改进。WeCharge最小间隔现为15分钟"
+      },
+      {
+        "row": 68,
+        "rowsha": "RQoiLXFb7OuInpVLVcAUhReZonSoZfdpCzr/XaRIM3c=",
+        "originContent": "- Minor improvements. WeCharge Minimum interval is now 15 minutes",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.55"
+      },
+      {
+        "row": 70,
+        "rowsha": "PqFuHAPpIJJGAV1Kbf7NuZETZ//xvIDEEqHqIWJ4wpc=",
+        "originContent": "### 0.0.55",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复ID状态更新"
+      },
+      {
+        "row": 72,
+        "rowsha": "FOG3dnvndUZ67x8LiDhZ4afdU10aoFWzfCtbTtb50/0=",
+        "originContent": "- fix id status update",
+        "translatedContent": ""
+      },
+      {
+        "row": 73,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.51"
+      },
+      {
+        "row": 74,
+        "rowsha": "IlYXqfGTBVaxdKqsCXN7QAem+rSjXnDnQ9BC8LyRpK0=",
+        "originContent": "### 0.0.51",
+        "translatedContent": ""
+      },
+      {
+        "row": 75,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复奥迪e-tron登录"
+      },
+      {
+        "row": 76,
+        "rowsha": "VJ6e7e7y5QEo/aRkv7ixfpyqrkbr/8xt7KfQZiPSNoI=",
+        "originContent": "- fix audi etron login",
+        "translatedContent": ""
+      },
+      {
+        "row": 77,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.48"
+      },
+      {
+        "row": 78,
+        "rowsha": "LtERrYf4bQDKigTAC34gkjf18evN196AbkPbPKiv/w8=",
+        "originContent": "### 0.0.48",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复登录，修复奥迪更新，添加壁盒限制"
+      },
+      {
+        "row": 80,
+        "rowsha": "G6uQKKivUtSmBW1kFm7lfOeWv60xkQPkbaJ2JQOZkiM=",
+        "originContent": "- fix login, fix audi update, add limit for wallbox",
+        "translatedContent": ""
+      },
+      {
+        "row": 81,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.43"
+      },
+      {
+        "row": 82,
+        "rowsha": "bwFpdxnU1qPsRCJEHXpdlCgKfj37gTw5Cdd228115CM=",
+        "originContent": "### 0.0.43",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 增加刷新令牌超时时间"
+      },
+      {
+        "row": 84,
+        "rowsha": "UccWz3+W1OIoDoO/Pfz1rn/70ER9DJhSXJHdu+YLD9g=",
+        "originContent": "- increase refresh token timeouts",
+        "translatedContent": ""
+      },
+      {
+        "row": 85,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.42"
+      },
+      {
+        "row": 86,
+        "rowsha": "8f419+Jhs/NYxblqy+ia0VWeQzovpKTnSFdsgkBVC68=",
+        "originContent": "### 0.0.42",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复斯柯达登录"
+      },
+      {
+        "row": 88,
+        "rowsha": "K7LbnAXWj/RnklfMueUYD76JmgZlgknkijTupfwMz9I=",
+        "originContent": "- fix skoda login",
+        "translatedContent": ""
+      },
+      {
+        "row": 89,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.40"
+      },
+      {
+        "row": 90,
+        "rowsha": "mM2uwok9j0pVcwLQAL7X/U/GtSJy6hglI0x/3t+qUqE=",
+        "originContent": "### 0.0.40",
+        "translatedContent": ""
+      },
+      {
+        "row": 91,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 为较新车辆添加气候控制v3。添加Powerpass和西雅特Elli"
+      },
+      {
+        "row": 92,
+        "rowsha": "23hZzPq13x8OZKMrbtSzBXP3u7V+JbWKvQ/xw+BdccA=",
+        "originContent": "- add climate v3 for newer cars. Add Powerpass and Seat Elli",
+        "translatedContent": ""
+      },
+      {
+        "row": 93,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.39"
+      },
+      {
+        "row": 94,
+        "rowsha": "AM5w6HskMvsb1oisMYpBboLMwk2oP+B6LRj/YSdRS2k=",
+        "originContent": "### 0.0.39",
+        "translatedContent": ""
+      },
+      {
+        "row": 95,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复ID登录"
+      },
+      {
+        "row": 96,
+        "rowsha": "KoLtvBYAkXOun1TG+MIAfiNyVH2OyhHQbg+cLPfCTTM=",
+        "originContent": "- fix id login",
+        "translatedContent": ""
+      },
+      {
+        "row": 97,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.36"
+      },
+      {
+        "row": 98,
+        "rowsha": "lugCdKaPypL0nN4BuZW8jMEVSPxzfcT4Vp4Ql66gibQ=",
+        "originContent": "### 0.0.36",
+        "translatedContent": ""
+      },
+      {
+        "row": 99,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 添加斯柯达Enyaq支持"
+      },
+      {
+        "row": 100,
+        "rowsha": "TIC6sDTzp3hmKNaUphFQFxLaPH/UrZ2cTqXPyRsCHOA=",
+        "originContent": "- add Skoda Enyaq support",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "\n### 0.0.35\n\n- add nodeJS v10 compatibility\n\n### 0.0.34\n\n- add auto accept of new privacy consent\n\n### 0.0.32\n\n- correct selection of last recent trips\n\n### 0.0.31\n\n- enable multiple selection of trip types\n\n### 0.0.30\n\n- fix mutiple car problem, add VWv2 mode at the moment there is no different between VW and VWv2\n\n### 0.0.29\n\n- fix skoda refreshToken, smaller improvements\n\n### 0.0.26\n\n- bugfixes\n\n### 0.0.25\n\n- add we charge\n\n### 0.0.24\n\n- add remote state update\n\n### 0.0.23\n\n- add Seat and new climatisation v2\n\n### 0.0.22\n\n- calculate outside temperatur in °C also for Skoda and Audi\n\n### 0.0.21\n\n- add remotes for id\n\n### 0.0.20\n\n- fix audi login, add ID login\n\n### 0.0.19\n\n- save status objects in state by id instead of consecutive numbers\n\n### 0.0.18\n\n- fix battery status for 2020 models\n\n### 0.0.17\n\n- add support for 2020 models\n\n### 0.0.16\n\n- fix js.controller 3 problems\n\n### 0.0.11\n\n- fix audi bug with multiple vehicles\n- hide status update error if feature is not available\n\n## License\n\nMIT License\n\nCopyright (c) 2019-2030 ta2k <tombox2020@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+    "ContentSha": "ohRLF8Dmm8PsMQHeYoYppT3oXlT4MzmsEpH3AAGt+OE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 0.0.35\n\n- 添加对 nodeJS v10 的兼容性\n\n### 0.0.34\n\n- 添加自动接受新的隐私同意\n\n### 0.0.32\n\n- 修正最近行程的最后选择\n\n### 0.0.31\n\n- 启用多选行程类型\n\n### 0.0.30\n\n- 修复多车问题，目前VW和VWv2模式无差异\n\n### 0.0.29\n\n- 修复斯柯达刷新令牌，进行小幅改进\n\n### 0.0.26\n\n- 错误修复\n\n### 0.0.25\n\n- 添加 we charge 支持\n\n### 0.0.24\n\n- 添加远程状态更新\n\n### 0.0.23\n\n- 添加 Seat 和新版气候控制 v2\n\n### 0.0.22\n\n- 计算斯柯达和奥迪的外部温度，单位为摄氏度\n\n### 0.0.21\n\n- 添加 id 远程控制支持\n\n### 0.0.20\n\n- 修复奥迪登录，添加 ID 登录\n\n### 0.0.19\n\n- 通过 id 而非连续数字保存状态对象\n\n### 0.0.18\n\n- 修正 2020 年车型的电池状态\n\n### 0.0.17\n\n- 添加对 2020 年车型的支持\n\n### 0.0.16\n\n- 修复 js.controller 3 的问题\n\n### 0.0.11\n\n- 修复奥迪多车错误\n- 如果功能不可用，隐藏状态更新错误\n\n## 许可证\n\nMIT 许可证\n\n版权所有 (c) 2019-2030 ta2k <tombox2020@gmail.com>\n\n特此免费授予任何获得本软件及相关文档文件（以下简称“软件”）副本的人无限制权利，包括但不限于使用、复制、修改、合并、发布、分发、再许可及/或出售软件副本的权利，并允许向其提供软件的人这样做，须遵守以下条件：\n\n上述版权声明和本许可声明应包含在软件的所有副本或重要部分中。\n\n本软件按“原样”提供，不附带任何明示或暗示的保证，包括但不限于对适销性、特定用途适用性及非侵权的保证。在任何情况下，作者或版权持有人均不对因软件或软件的使用或其他交易而产生的任何索赔、损害或其他责任负责，无论是在合同诉讼、侵权或其他方面。\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.35"
+      },
+      {
+        "row": 2,
+        "rowsha": "nLh1nFuEXv2OC3bdtNfrbeIMf4C4bI/yvnh+6HAgaRs=",
+        "originContent": "### 0.0.35",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 添加对 nodeJS v10 的兼容性"
+      },
+      {
+        "row": 4,
+        "rowsha": "cpiBg5dYKE7Wi/GJqht5eQRfqryPfjjnHM5LhaKAAiA=",
+        "originContent": "- add nodeJS v10 compatibility",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.34"
+      },
+      {
+        "row": 6,
+        "rowsha": "QqBUfDW8XBjeo6qaRMNyj3Z63La11Uk7E8Nfxn5dVVg=",
+        "originContent": "### 0.0.34",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 添加自动接受新的隐私同意"
+      },
+      {
+        "row": 8,
+        "rowsha": "tdywlGsi8OYhm5pzbHB2qdZ+1PZvo6lveNx9JMfnbdc=",
+        "originContent": "- add auto accept of new privacy consent",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.32"
+      },
+      {
+        "row": 10,
+        "rowsha": "Q2drZzF1I0Kh3bq0Xo4xAmJ9y/b7so4BEgSl4+hJ5ZI=",
+        "originContent": "### 0.0.32",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修正最近行程的最后选择"
+      },
+      {
+        "row": 12,
+        "rowsha": "e1lIyHCOO7luQtDrr+FxOQfnRyV4ei3+v79WDhEQuxc=",
+        "originContent": "- correct selection of last recent trips",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.31"
+      },
+      {
+        "row": 14,
+        "rowsha": "e9njKNMBGwJoHL1jffMOMMJAOT2E5axEqobUFsOriTs=",
+        "originContent": "### 0.0.31",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 启用多选行程类型"
+      },
+      {
+        "row": 16,
+        "rowsha": "5f8VPPKt7WYna9SMBxTUhVq918PYvJvXhxmrCTU0VW4=",
+        "originContent": "- enable multiple selection of trip types",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.30"
+      },
+      {
+        "row": 18,
+        "rowsha": "tzEenVgEt0hJuLWp7nNaubRtglYn6gtcUDJdjJWbOGU=",
+        "originContent": "### 0.0.30",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复多车问题，目前VW和VWv2模式无差异"
+      },
+      {
+        "row": 20,
+        "rowsha": "wYe1z2SFBT4Zl/iozueYpZOK+VQFNjjSkNoscFcdpUE=",
+        "originContent": "- fix mutiple car problem, add VWv2 mode at the moment there is no different between VW and VWv2",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.29"
+      },
+      {
+        "row": 22,
+        "rowsha": "2pmA7cFH7JKS8/AWIn2hPBEnaQ2DRL8KCqWBtL6M4FM=",
+        "originContent": "### 0.0.29",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复斯柯达刷新令牌，进行小幅改进"
+      },
+      {
+        "row": 24,
+        "rowsha": "JceOs6hFoV0ouDHdyqXNtxjQFIFPtNGrMVCjGuaBxao=",
+        "originContent": "- fix skoda refreshToken, smaller improvements",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.26"
+      },
+      {
+        "row": 26,
+        "rowsha": "8EtjNzw+D4XuQAbzou4DgoWhuSlaGkTWRPHDOVsdbjA=",
+        "originContent": "### 0.0.26",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 错误修复"
+      },
+      {
+        "row": 28,
+        "rowsha": "smQWxBXR08EJvHe1OjXPnfnarcU+K10C3eRjUy0N/nI=",
+        "originContent": "- bugfixes",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.25"
+      },
+      {
+        "row": 30,
+        "rowsha": "U4Z82/WeYRzsbcx5P51OUhlUgcCqrDRTtNX3oyx5TnI=",
+        "originContent": "### 0.0.25",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 添加 we charge 支持"
+      },
+      {
+        "row": 32,
+        "rowsha": "SZgjR1miJHYwg9YQscih6C55QBDag244NLHXKShIAbI=",
+        "originContent": "- add we charge",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.24"
+      },
+      {
+        "row": 34,
+        "rowsha": "4hX5pJkEcQhKuzqdW92XXkZUJ/go9vGrOKngElmViko=",
+        "originContent": "### 0.0.24",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 添加远程状态更新"
+      },
+      {
+        "row": 36,
+        "rowsha": "TwOvSvJcHORqOpjQswTflTRYK6KnT8h2euGIbyCKOkM=",
+        "originContent": "- add remote state update",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.23"
+      },
+      {
+        "row": 38,
+        "rowsha": "+Kixi/huYJDAeCH4mk040k0/WE/l5QowwwVBP5He698=",
+        "originContent": "### 0.0.23",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 添加 Seat 和新版气候控制 v2"
+      },
+      {
+        "row": 40,
+        "rowsha": "6rzFTjg8b3yhVIGDeNLPg4C65HbsC2vuTBIlqNSmS/8=",
+        "originContent": "- add Seat and new climatisation v2",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.22"
+      },
+      {
+        "row": 42,
+        "rowsha": "Kz6dbNs7OhenszpqpcPenVmEOBx0nMMOHpX2V5Upy6g=",
+        "originContent": "### 0.0.22",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 计算斯柯达和奥迪的外部温度，单位为摄氏度"
+      },
+      {
+        "row": 44,
+        "rowsha": "xu7d8tj4I1hlLNyZJuiHfF5pzqSEKmhCILf8wOc3yI8=",
+        "originContent": "- calculate outside temperatur in °C also for Skoda and Audi",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.21"
+      },
+      {
+        "row": 46,
+        "rowsha": "QeotPc8ReeA4NvkrqgX6G/tmi99LXZ7qyvim/LJTJD8=",
+        "originContent": "### 0.0.21",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 添加 id 远程控制支持"
+      },
+      {
+        "row": 48,
+        "rowsha": "vQEUVyUctZvAjwdkabWlfd8FW2ij2CyPOG4Dql9W2bc=",
+        "originContent": "- add remotes for id",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.20"
+      },
+      {
+        "row": 50,
+        "rowsha": "ucXkdWYh/pUky619qh1hVz6hBQkfBRGCILfycjcaNTc=",
+        "originContent": "### 0.0.20",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复奥迪登录，添加 ID 登录"
+      },
+      {
+        "row": 52,
+        "rowsha": "QkMeH8t0hSUeDnmPARJzZYIKb0DPLoyyGCpsBFw9cvY=",
+        "originContent": "- fix audi login, add ID login",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.19"
+      },
+      {
+        "row": 54,
+        "rowsha": "fhLOt6+iQhzGisk1BpYqUcSc6cHdMAp3rT+Feoinlmo=",
+        "originContent": "### 0.0.19",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 通过 id 而非连续数字保存状态对象"
+      },
+      {
+        "row": 56,
+        "rowsha": "WKh+IlnTlpT5hRtuK7rFosvDxCkZSo7o0WxljfgerNQ=",
+        "originContent": "- save status objects in state by id instead of consecutive numbers",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.18"
+      },
+      {
+        "row": 58,
+        "rowsha": "H7eCybg6cF3rDtlqIt8HemcDqVjReIzKOYtHBwdm4aA=",
+        "originContent": "### 0.0.18",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修正 2020 年车型的电池状态"
+      },
+      {
+        "row": 60,
+        "rowsha": "qFUonQUnORVJB155a4FJxojuy0IwqsmA+Kcmy2isFQw=",
+        "originContent": "- fix battery status for 2020 models",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.17"
+      },
+      {
+        "row": 62,
+        "rowsha": "F2aWHTcG5w8vN/0UMQeaF6xLzpDK9b51/np7SwN17aM=",
+        "originContent": "### 0.0.17",
+        "translatedContent": ""
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 添加对 2020 年车型的支持"
+      },
+      {
+        "row": 64,
+        "rowsha": "46KKbKtjSDBoGKmbjuLFfrp73eMIWtfoJYmlc4e136g=",
+        "originContent": "- add support for 2020 models",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.16"
+      },
+      {
+        "row": 66,
+        "rowsha": "raPkdDpYw+/quPuUrZn1F0JJV0nwgteO8gptBWCg+zM=",
+        "originContent": "### 0.0.16",
+        "translatedContent": ""
+      },
+      {
+        "row": 67,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复 js.controller 3 的问题"
+      },
+      {
+        "row": 68,
+        "rowsha": "vTWLTAZvTVziUsszzdLHu/OTqaz88aCIxV+4diRps84=",
+        "originContent": "- fix js.controller 3 problems",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0.0.11"
+      },
+      {
+        "row": 70,
+        "rowsha": "GgbTuT2GwVCharQkmrwhzYVOhl8hDcp+SJzCTtZUl/g=",
+        "originContent": "### 0.0.11",
+        "translatedContent": ""
+      },
+      {
+        "row": 71,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 修复奥迪多车错误"
+      },
+      {
+        "row": 72,
+        "rowsha": "J4sVQteM5r7+94GsfOEzALZg/AafHkCfJNw7wBlMu54=",
+        "originContent": "- fix audi bug with multiple vehicles",
+        "translatedContent": "- 如果功能不可用，隐藏状态更新错误"
+      },
+      {
+        "row": 73,
+        "rowsha": "OXzD0tQdv8ePgQR2CqSHOYvKqDbWKdc0RYaQc41J3vg=",
+        "originContent": "- hide status update error if feature is not available",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 75,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 76,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MIT 许可证"
+      },
+      {
+        "row": 77,
+        "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+        "originContent": "MIT License",
+        "translatedContent": ""
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "版权所有 (c) 2019-2030 ta2k <tombox2020@gmail.com>"
+      },
+      {
+        "row": 79,
+        "rowsha": "uuSBykjfkuYUqohBoPeYBds23jnKAMtuTALAW1EpkoI=",
+        "originContent": "Copyright (c) 2019-2030 ta2k <tombox2020@gmail.com>",
+        "translatedContent": ""
+      },
+      {
+        "row": 80,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "特此免费授予任何获得本软件及相关文档文件（以下简称“软件”）副本的人无限制权利，包括但不限于使用、复制、修改、合并、发布、分发、再许可及/或出售软件副本的权利，并允许向其提供软件的人这样做，须遵守以下条件："
+      },
+      {
+        "row": 81,
+        "rowsha": "6ygdewCoVnearKfR7FGXp2NGz0d0vZZ/lMRTkwkHaog=",
+        "originContent": "Permission is hereby granted, free of charge, to any person obtaining a copy",
+        "translatedContent": ""
+      },
+      {
+        "row": 82,
+        "rowsha": "tB6IBZRBlGdDbRUpcPNnEASfdOCGi6OVvavIByTSt9Q=",
+        "originContent": "of this software and associated documentation files (the \"Software\"), to deal",
+        "translatedContent": "上述版权声明和本许可声明应包含在软件的所有副本或重要部分中。"
+      },
+      {
+        "row": 83,
+        "rowsha": "qVeJMVdSBNt5caouhRNwg0dCuXZ0vq5F3wtlaAWeffI=",
+        "originContent": "in the Software without restriction, including without limitation the rights",
+        "translatedContent": ""
+      },
+      {
+        "row": 84,
+        "rowsha": "cQWjY7xQ66jpP2dtuwvRRWSnldQwGLaGMNrpD3N/1bU=",
+        "originContent": "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell",
+        "translatedContent": "本软件按“原样”提供，不附带任何明示或暗示的保证，包括但不限于对适销性、特定用途适用性及非侵权的保证。在任何情况下，作者或版权持有人均不对因软件或软件的使用或其他交易而产生的任何索赔、损害或其他责任负责，无论是在合同诉讼、侵权或其他方面。"
+      },
+      {
+        "row": 85,
+        "rowsha": "EOduAtLdwPqRWQ5lJJ27tXL9njInefim7qIo7ykIfDw=",
+        "originContent": "copies of the Software, and to permit persons to whom the Software is",
+        "translatedContent": ""
+      },
+      {
+        "row": 86,
+        "rowsha": "yyuTUVyg3VCFD9PhSRvwbDI1IZwo8VyU39LMiocdVvs=",
+        "originContent": "furnished to do so, subject to the following conditions:",
+        "translatedContent": ""
+      },
+      {
+        "row": 87,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 88,
+        "rowsha": "2T6mDcJBdisYMKaqGZeyXXtS+TBSXP5ga9O4qrwlGJM=",
+        "originContent": "The above copyright notice and this permission notice shall be included in all",
+        "translatedContent": ""
+      },
+      {
+        "row": 89,
+        "rowsha": "WF2w9fp99xXGvWkAfCZJ48tiQQ27cd4jLoOV2W/ii7s=",
+        "originContent": "copies or substantial portions of the Software.",
+        "translatedContent": ""
+      },
+      {
+        "row": 90,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 91,
+        "rowsha": "WNq4iXJWd93FonCgffg5XjP0LHjB005/rO7dHFEfBMQ=",
+        "originContent": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR",
+        "translatedContent": ""
+      },
+      {
+        "row": 92,
+        "rowsha": "tH5wC51OBORnBEi7OQZ+0siGPIrV5z8Dfde/mrDydOA=",
+        "originContent": "IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,",
+        "translatedContent": ""
+      },
+      {
+        "row": 93,
+        "rowsha": "/1019OAyTISZuBmAx9pLfEMX++Qj8KPJPK5Et6pnBb8=",
+        "originContent": "FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE",
+        "translatedContent": ""
+      },
+      {
+        "row": 94,
+        "rowsha": "bcSYy9bifbENokMc/MMukEKKUvAifo52S48A8MxW5Bs=",
+        "originContent": "AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER",
+        "translatedContent": ""
+      },
+      {
+        "row": 95,
+        "rowsha": "y2S6grz9x1yNaNplcVngDXV/K+rs8D8qzCg7BrK/i0s=",
+        "originContent": "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+        "translatedContent": ""
+      },
+      {
+        "row": 96,
+        "rowsha": "FEQpFvEsO27s3/hIhTddi6j1At/huhtAF8dpa3LcOaE=",
+        "originContent": "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE",
+        "translatedContent": ""
+      },
+      {
+        "row": 97,
+        "rowsha": "2EKUEweHqGAPrmh06ntaxm75mKmb6Jasj34Acdz+wGM=",
+        "originContent": "SOFTWARE.",
+        "translatedContent": ""
+      },
+      {
+        "row": 98,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
