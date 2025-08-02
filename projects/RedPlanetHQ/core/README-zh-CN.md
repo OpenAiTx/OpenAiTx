@@ -33,7 +33,7 @@
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
-### C.O.R.E：AI 时代的你的数字大脑
+### C.O.R.E：AI时代的数字大脑
 
 <p align="center">
     <a href="https://deepwiki.com/RedPlanetHQ/core">
@@ -50,163 +50,82 @@
 
 **上下文观察与回忆引擎**
 
-C.O.R.E 是一个便携式记忆图谱，由你的 LLM 交互和个人数据构建而成，让你的全部上下文和工作流历史对任意 AI 工具可访问，就像一个数字大脑。这消除了反复共享上下文的需求。目标是提供：
+C.O.R.E 是一个便携的记忆图谱，由你的 LLM 交互和个人数据构建而成，使所有上下文和工作流历史可以被任何 AI 工具访问，就像数字大脑。这消除了反复共享上下文的需求。目标是提供：
 
-- **统一、便携的记忆**：无缝添加和回忆上下文，并在 Claude、Cursor、Windsurf 等应用间连接你的记忆。
-- **关系型，不仅仅是平面事实**：CORE 组织你的知识，既存储事实也存储关系，实现更深层、更丰富的记忆，像真正的大脑一样。
-- **用户所有**：你决定保留、更新或删除哪些内容，并可在你想要的工具间共享你的记忆，摆脱厂商锁定。
+- **统一、可移植的记忆**：无缝添加和调用上下文，并将你的记忆连接到 Claude、Cursor、Windsurf 等应用。
+- **关联性，不仅仅是平面事实**：CORE 组织你的知识，存储事实及其关系，实现类似大脑的深层、丰富记忆。
+- **用户所有**：你决定保留、更新或删除哪些内容，并可跨工具共享你的记忆，摆脱厂商锁定。
 
 ## 🎥 演示视频
 
 [查看 C.O.R.E 演示](https://youtu.be/iANZ32dnK60)
 
-<img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
+<img width="7480" height="4672" alt="core-memory-graph" src="https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b" />
 
-## 🧩  主要特性
+## 🧩 主要特性
 
-- **记忆图谱**：可视化你的事实和偏好之间的关联
-- **与记忆对话**：向记忆提问，获取即时洞察和理解
-- **即插即用**：可直接在 Cursor、Claude 等应用中使用 CORE 记忆
+- **记忆图谱**：可视化你的事实和偏好如何相互关联
+- **记忆对话**：就记忆提问，获得即时洞察和理解
+- **即插即用**：在 Cursor、Claude 等应用中即刻使用 CORE 记忆
 
-## ☁️ C.O.R.E 云端部署
+## ☁️ C.O.R.E 云端设置
 
-1. 注册 [Core Cloud](https://core.heysol.ai) 并开始构建你的记忆图谱。
-2. 添加你想要保存到记忆中的文本。点击 `+ Add` 按钮后你的记忆图谱将被生成。
-3. [将 Core Memory MCP 连接到 Cursor](#connecting-core-mcp-with-cursor)
+1. 访问 [core.heysol.ai](https://core.heysol.ai)
+2. 使用你的邮箱注册
+3. 向 CORE 介绍自己：“我是一个软件工程师，正在开发名为 TaskMaster 的 React 项目。我偏好 TypeScript，并使用 Tailwind 进行样式设计。”
+   <img width="2048" height="1172" alt="add-memory" src="https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938" />
+4. [将 Core MCP 连接到 Claude](https://docs.heysol.ai/providers/claude)
+5. [将 Core MCP 连接到 Cursor](https://docs.heysol.ai/providers/cursor)
 
-## 💻 C.O.R.E 本地部署
+## 💻 C.O.R.E 自托管
 
-#### 前置条件
+参阅我们的[文档](https://docs.heysol.ai/self-hosting/docker)以获取模块化部署信息
 
-1. Docker
-2. OpenAI API Key
-
-
-> **注意：** 我们正在积极改进对 Llama 模型的支持。目前，C.O.R.E 在基于 Llama 的模型上效果尚未最佳，但我们正在努力提升兼容性和输出质量，敬请期待后续更新。
-> 
-#### 本地运行 C.O.R.E
-
-1. **复制环境变量**
-
-   将示例环境文件复制到 `.env`：
-
-
-   ```bash
-   cp .env.example .env
-   ```
-2. **启动应用程序**
-
-   使用 Docker Compose 启动所有所需的服务：
-
-
-   ```bash
-   docker-compose up
-   ```
-3. **访问应用程序**
-
-   容器启动后，打开浏览器并访问 [http://localhost:3000](http://localhost:3000)。
-
-4. **使用魔法链接创建账户**
-
-   - 要创建账户，点击 `Continue with email` 按钮
-
-     <img width="865" height="490" alt="Create account" src="https://github.com/user-attachments/assets/65de110b-2b1f-42a5-9b8a-954227d68d52" />
-
-   - 输入你的邮箱并点击 `Send a Magic Link` 按钮
-
-     <img width="824" height="429" alt="Enter email" src="https://github.com/user-attachments/assets/76128b61-2086-48df-8332-38c2efa14087" />
-
-   - `从终端日志中复制魔法链接` 并在浏览器中打开
-
-     <img width="1010" height="597" alt="Magic link" src="https://github.com/user-attachments/assets/777cb4b1-bb93-4d54-b6ab-f7147e65aa5c" />
-
-
-5. **创建你的私人空间并添加数据**
-
-   - 在仪表盘右上角，输入消息，例如 `I love playing badminton`，然后点击 `+Add`。
-   - 你的记忆已排队处理中；你可以在 `Logs` 部分监控其状态。
-     
-     <img width="1496" height="691" alt="Core memory logs" src="https://github.com/user-attachments/assets/dc34a7af-fe52-4142-9ecb-49ddc4e0e854" />
-
-   - 处理完成后，节点将被添加到你的私人知识图谱中，并在仪表盘中可见。
-   - 你以后可以选择将此记忆连接到其他工具或保持私密。
-
-6. **搜索你的记忆**
-
-   - 使用仪表盘的搜索功能，在你的私人空间内查询已导入的数据。
-
-
-## 将 CORE MCP 与 Cursor 连接
-
-1. 打开 CORE 仪表盘，导航到 API 部分生成新的 API 令牌。
-2. 在 Cursor 中，进入：设置 → 工具与集成 → 新建 MCP 服务器。
-3. 使用以下格式添加 CORE MCP 服务器配置。确保将 API_TOKEN 替换为你在步骤 1 中生成的令牌。
-
-   要在 Cursor 中添加的 MCP 配置
-
-
-   ```json
-   {
-     "mcpServers": {
-       "memory": {
-         "command": "npx",
-         "args": ["-y", "@redplanethq/core-mcp"],
-         "env": {
-           "API_TOKEN": "YOUR_API_TOKEN_HERE",
-           "API_BASE_URL": "https://core.heysol.ai",
-           "SOURCE": "cursor"
-         }
-       }
-     }
-   }
-   ```
-4. 进入设置-> 用户规则 -> 新建规则 -> 并添加以下规则以确保您的所有聊天交互均被存储在CORE内存中
-
-
-```
-After every interaction, update the memory with the user's query and the assistant's
-response to core-memory mcp. sessionId should be the uuid of the conversation
-```
 ## 文档
 
-探索我们的文档，充分利用 CORE  
-- [基本概念](https://docs.heysol.ai/core/overview)  
-- [API 参考](https://docs.heysol.ai/core/local-setup)  
-- [连接 Core Memory MCP 与 Cursor](#connecting-core-mcp-with-cursor)  
+查阅我们的文档，充分利用 CORE
 
+- [基本概念](https://docs.heysol.ai/concepts/memory_graph)
+- [自托管](https://docs.heysol.ai/self-hosting/overview)
+- [将 Core MCP 连接到 Claude](https://docs.heysol.ai/providers/claude)
+- [将 Core MCP 连接到 Cursor](https://docs.heysol.ai/providers/cursor)
 
-## 🧑‍💻 支持  
-有问题或反馈？我们随时为您提供帮助：  
-- Discord：[加入 core-support 频道](https://discord.gg/YGUZcvDjUa)  
-- 文档：[docs.heysol.ai/core](https://docs.heysol.ai/core/overview)  
-- 邮箱：manik@poozle.dev  
+- [基本概念](https://docs.heysol.ai/overview)
+- [API 参考](https://docs.heysol.ai/local-setup)
 
-## 使用指南  
+## 🧑‍💻 支持
 
-**存储内容：**  
+有问题或反馈？我们随时为你解答：
 
-- 对话历史  
-- 用户偏好  
-- 任务上下文  
-- 参考资料  
+- Discord: [加入 core-support 频道](https://discord.gg/YGUZcvDjUa)
+- 文档: [docs.heysol.ai](https://docs.heysol.ai)
+- 邮箱: manik@poozle.dev
 
-**不存储内容：**  
+## 使用指南
 
-- 敏感数据（个人身份信息）  
-- 凭证信息  
-- 系统日志  
-- 临时数据  
+**存储内容：**
 
-## 👥 贡献者  
+- 对话历史
+- 用户偏好
+- 任务上下文
+- 参考资料
 
-<a href="https://github.com/RedPlanetHQ/core/graphs/contributors">  
-  <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />  
+**禁止存储：**
+
+- 敏感数据（个人身份信息）
+- 凭证信息
+- 系统日志
+- 临时数据
+
+## 👥 贡献者
+
+<a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
 </a>
-
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
 
 ---

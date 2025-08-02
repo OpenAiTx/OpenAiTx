@@ -1,669 +1,778 @@
 [
   {
     "Id": 1,
-    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n  <a href=\"https://core.heysol.ai\">\n    <img src=\"https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd\" width=\"200px\" alt=\"CORE logo\" />\n  </a>\n\n### C.O.R.E: Your digital brain for the AI era\n\n<p align=\"center\">\n    <a href=\"https://deepwiki.com/RedPlanetHQ/core\">\n        <img src=\"https://deepwiki.com/badge.svg\" alt=\"DeepWiki Badge\" />\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://docs.heysol.ai/core/overview\"><b>Documentation</b></a> •\n    <a href=\"https://discord.gg/YGUZcvDjUa\"><b>Discord</b></a>\n</p>\n</div>\n\n## 🧠 C.O.R.E.\n\n**Contextual Observation & Recall Engine**\n\nC.O.R.E is a portable memory graph built from your llm interactions and personal data, making all your context and workflow history accessible to any AI tool, just like a digital brain. This eliminates the need for repeated context sharing . The aim is to provide:\n\n- **Unified, Portable Memory**: Add and recall context seamlessly, and connect your memory across apps like Claude, Cursor, Windsurf and more.\n- **Relational, Not just Flat Facts**: CORE organizes your knowledge, storing both facts and relationships for a deeper richer memory like a real brain.\n- **User Owned**: You decide what to keep, update or delete and share your memory across the tool you want and be freed from vendor lock-in.\n\n## 🎥 Demo Video\n\n[Check C.O.R.E Demo](https://youtu.be/iANZ32dnK60)\n\n<img width=\"954\" height=\"700\" alt=\"Core dashboard\" src=\"https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694\" />\n\n## 🧩  Key Features\n\n- **Memory Graph**: Visualise how your facts and preferences link together\n- **Chat with Memory**: Ask questions about memory for instant insights and understanding\n- **Plug n Play**: Instantly use CORE memory in apps like Cursor, Claude\n\n## ☁️ C.O.R.E Cloud Setup\n\n1. Sign up to [Core Cloud](https://core.heysol.ai) and start building your memory graph.\n2. Add your text that you want to save in memory. Once clicking on `+ Add` button your memory graph will be generated.\n3. [Connect Core Memory MCP with Cursor](#connecting-core-mcp-with-cursor)\n\n## 💻 C.O.R.E Local Setup\n\n#### Prerequisites\n\n1. Docker\n2. OpenAI API Key\n\n\n> **Note:** We are actively working on improving support for Llama models. At the moment, C.O.R.E does not provide optimal results with Llama-based models, but we are making progress to ensure better compatibility and output in the near future.\n> \n#### Run C.O.R.E locally\n\n1. **Copy Environment Variables**\n\n   Copy the example environment file to `.env`:\n",
-    "ContentSha": "lYRruMKeXJaEnr0PHMLt0vLefd+n/YFV8S5+WwpWmFI=",
+    "Content": "<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n  <a href=\"https://core.heysol.ai\">\n    <img src=\"https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd\" width=\"200px\" alt=\"CORE logo\" />\n  </a>\n\n### C.O.R.E: Your digital brain for the AI era\n\n<p align=\"center\">\n    <a href=\"https://deepwiki.com/RedPlanetHQ/core\">\n        <img src=\"https://deepwiki.com/badge.svg\" alt=\"DeepWiki Badge\" />\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://docs.heysol.ai/core/overview\"><b>Documentation</b></a> •\n    <a href=\"https://discord.gg/YGUZcvDjUa\"><b>Discord</b></a>\n</p>\n</div>\n\n## 🧠 C.O.R.E.\n\n**Contextual Observation & Recall Engine**\n\nC.O.R.E is a portable memory graph built from your llm interactions and personal data, making all your context and workflow history accessible to any AI tool, just like a digital brain. This eliminates the need for repeated context sharing . The aim is to provide:\n\n- **Unified, Portable Memory**: Add and recall context seamlessly, and connect your memory across apps like Claude, Cursor, Windsurf and more.\n- **Relational, Not just Flat Facts**: CORE organizes your knowledge, storing both facts and relationships for a deeper richer memory like a real brain.\n- **User Owned**: You decide what to keep, update or delete and share your memory across the tool you want and be freed from vendor lock-in.\n\n## 🎥 Demo Video\n\n[Check C.O.R.E Demo](https://youtu.be/iANZ32dnK60)\n\n<img width=\"7480\" height=\"4672\" alt=\"core-memory-graph\" src=\"https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b\" />\n\n## 🧩 Key Features\n\n- **Memory Graph**: Visualise how your facts and preferences link together\n- **Chat with Memory**: Ask questions about memory for instant insights and understanding\n- **Plug n Play**: Instantly use CORE memory in apps like Cursor, Claude\n\n## ☁️ C.O.R.E Cloud Setup\n\n1. Visit [core.heysol.ai](https://core.heysol.ai)\n2. Sign up with your email\n3. Tell CORE about yourself: “I’m a software engineer working on a React project called TaskMaster. I prefer TypeScript and use Tailwind for styling.”\n   <img width=\"2048\" height=\"1172\" alt=\"add-memory\" src=\"https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938\" />\n4. [Connect Core MCP with Claude](https://docs.heysol.ai/providers/claude)\n5. [Connect Core MCP with Cursor](https://docs.heysol.ai/providers/cursor)\n\n## 💻 C.O.R.E Self Hosting\n\nCheck out our [docs](https://docs.heysol.ai/self-hosting/docker) for modular deployment\n\n## Documentation\n\nExplore our documentation to get the most out of CORE\n\n- [Basic Concepts](https://docs.heysol.ai/concepts/memory_graph)\n- [Self Hosting](https://docs.heysol.ai/self-hosting/overview)\n- [Connect Core MCP with Claude](https://docs.heysol.ai/providers/claude)\n- [Connect Core MCP with Cursor](https://docs.heysol.ai/providers/cursor)\n\n- [Basic Concepts](https://docs.heysol.ai/overview)\n- [API Reference](https://docs.heysol.ai/local-setup)\n\n## 🧑‍💻 Support\n\nHave questions or feedback? We're here to help:\n\n- Discord: [Join core-support channel](https://discord.gg/YGUZcvDjUa)",
+    "ContentSha": "cMdKhP5xRraBbN7YURCwFLKG1X0f1UPHmyX6oe4luDg=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 语言</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n  <a href=\"https://core.heysol.ai\">\n    <img src=\"https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd\" width=\"200px\" alt=\"CORE logo\" />\n  </a>\n\n### C.O.R.E：AI 时代的你的数字大脑\n\n<p align=\"center\">\n    <a href=\"https://deepwiki.com/RedPlanetHQ/core\">\n        <img src=\"https://deepwiki.com/badge.svg\" alt=\"DeepWiki Badge\" />\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://docs.heysol.ai/core/overview\"><b>文档</b></a> •\n    <a href=\"https://discord.gg/YGUZcvDjUa\"><b>Discord</b></a>\n</p>\n</div>\n\n## 🧠 C.O.R.E.\n\n**上下文观察与回忆引擎**\n\nC.O.R.E 是一个便携式记忆图谱，由你的 LLM 交互和个人数据构建而成，让你的全部上下文和工作流历史对任意 AI 工具可访问，就像一个数字大脑。这消除了反复共享上下文的需求。目标是提供：\n\n- **统一、便携的记忆**：无缝添加和回忆上下文，并在 Claude、Cursor、Windsurf 等应用间连接你的记忆。\n- **关系型，不仅仅是平面事实**：CORE 组织你的知识，既存储事实也存储关系，实现更深层、更丰富的记忆，像真正的大脑一样。\n- **用户所有**：你决定保留、更新或删除哪些内容，并可在你想要的工具间共享你的记忆，摆脱厂商锁定。\n\n## 🎥 演示视频\n\n[查看 C.O.R.E 演示](https://youtu.be/iANZ32dnK60)\n\n<img width=\"954\" height=\"700\" alt=\"Core dashboard\" src=\"https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694\" />\n\n## 🧩  主要特性\n\n- **记忆图谱**：可视化你的事实和偏好之间的关联\n- **与记忆对话**：向记忆提问，获取即时洞察和理解\n- **即插即用**：可直接在 Cursor、Claude 等应用中使用 CORE 记忆\n\n## ☁️ C.O.R.E 云端部署\n\n1. 注册 [Core Cloud](https://core.heysol.ai) 并开始构建你的记忆图谱。\n2. 添加你想要保存到记忆中的文本。点击 `+ Add` 按钮后你的记忆图谱将被生成。\n3. [将 Core Memory MCP 连接到 Cursor](#connecting-core-mcp-with-cursor)\n\n## 💻 C.O.R.E 本地部署\n\n#### 前置条件\n\n1. Docker\n2. OpenAI API Key\n\n\n> **注意：** 我们正在积极改进对 Llama 模型的支持。目前，C.O.R.E 在基于 Llama 的模型上效果尚未最佳，但我们正在努力提升兼容性和输出质量，敬请期待后续更新。\n> \n#### 本地运行 C.O.R.E\n\n1. **复制环境变量**\n\n   将示例环境文件复制到 `.env`：\n\n",
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 语言</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n  <a href=\"https://core.heysol.ai\">\n    <img src=\"https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd\" width=\"200px\" alt=\"CORE logo\" />\n  </a>\n\n### C.O.R.E：AI时代的数字大脑\n\n<p align=\"center\">\n    <a href=\"https://deepwiki.com/RedPlanetHQ/core\">\n        <img src=\"https://deepwiki.com/badge.svg\" alt=\"DeepWiki Badge\" />\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://docs.heysol.ai/core/overview\"><b>文档</b></a> •\n    <a href=\"https://discord.gg/YGUZcvDjUa\"><b>Discord</b></a>\n</p>\n</div>\n\n## 🧠 C.O.R.E.\n\n**上下文观察与回忆引擎**\n\nC.O.R.E 是一个便携的记忆图谱，由你的 LLM 交互和个人数据构建而成，使所有上下文和工作流历史可以被任何 AI 工具访问，就像数字大脑。这消除了反复共享上下文的需求。目标是提供：\n\n- **统一、可移植的记忆**：无缝添加和调用上下文，并将你的记忆连接到 Claude、Cursor、Windsurf 等应用。\n- **关联性，不仅仅是平面事实**：CORE 组织你的知识，存储事实及其关系，实现类似大脑的深层、丰富记忆。\n- **用户所有**：你决定保留、更新或删除哪些内容，并可跨工具共享你的记忆，摆脱厂商锁定。\n\n## 🎥 演示视频\n\n[查看 C.O.R.E 演示](https://youtu.be/iANZ32dnK60)\n\n<img width=\"7480\" height=\"4672\" alt=\"core-memory-graph\" src=\"https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b\" />\n\n## 🧩 主要特性\n\n- **记忆图谱**：可视化你的事实和偏好如何相互关联\n- **记忆对话**：就记忆提问，获得即时洞察和理解\n- **即插即用**：在 Cursor、Claude 等应用中即刻使用 CORE 记忆\n\n## ☁️ C.O.R.E 云端设置\n\n1. 访问 [core.heysol.ai](https://core.heysol.ai)\n2. 使用你的邮箱注册\n3. 向 CORE 介绍自己：“我是一个软件工程师，正在开发名为 TaskMaster 的 React 项目。我偏好 TypeScript，并使用 Tailwind 进行样式设计。”\n   <img width=\"2048\" height=\"1172\" alt=\"add-memory\" src=\"https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938\" />\n4. [将 Core MCP 连接到 Claude](https://docs.heysol.ai/providers/claude)\n5. [将 Core MCP 连接到 Cursor](https://docs.heysol.ai/providers/cursor)\n\n## 💻 C.O.R.E 自托管\n\n参阅我们的[文档](https://docs.heysol.ai/self-hosting/docker)以获取模块化部署信息\n\n## 文档\n\n查阅我们的文档，充分利用 CORE\n\n- [基本概念](https://docs.heysol.ai/concepts/memory_graph)\n- [自托管](https://docs.heysol.ai/self-hosting/overview)\n- [将 Core MCP 连接到 Claude](https://docs.heysol.ai/providers/claude)\n- [将 Core MCP 连接到 Cursor](https://docs.heysol.ai/providers/cursor)\n\n- [基本概念](https://docs.heysol.ai/overview)\n- [API 参考](https://docs.heysol.ai/local-setup)\n\n## 🧑‍💻 支持\n\n有问题或反馈？我们随时为你解答：\n\n- Discord: [加入 core-support 频道](https://discord.gg/YGUZcvDjUa)",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
         "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 2,
-        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
-        "originContent": "<div align=\"right\">",
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
         "translatedContent": "  <details>"
       },
       {
         "row": 3,
-        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
-        "originContent": "  <details>",
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
         "translatedContent": "    <summary >🌐 语言</summary>"
       },
       {
         "row": 4,
-        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
-        "originContent": "    <summary >🌐 Language</summary>",
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
         "translatedContent": "    <div>"
       },
       {
         "row": 5,
-        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
-        "originContent": "    <div>",
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
         "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 6,
-        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
-        "originContent": "      <div align=\"center\">",
+        "rowsha": "I8cXxMbpLL3NLUE7XCfFzB03d09qC8BU9rpaA2vGz3A=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en\">English</a>",
         "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en\">English</a>"
       },
       {
         "row": 7,
-        "rowsha": "I8cXxMbpLL3NLUE7XCfFzB03d09qC8BU9rpaA2vGz3A=",
-        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en\">English</a>",
+        "rowsha": "BfdGwQoObAZSeQkMBnyxa8E515BWYVtCAxpX0B1mkKo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN\">简体中文</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 8,
-        "rowsha": "BfdGwQoObAZSeQkMBnyxa8E515BWYVtCAxpX0B1mkKo=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN\">简体中文</a>",
+        "rowsha": "RIE5Drg1rNizjOzpg68FVCNupC2cHWarhpEDtPV1O4s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW\">繁體中文</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 9,
-        "rowsha": "RIE5Drg1rNizjOzpg68FVCNupC2cHWarhpEDtPV1O4s=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW\">繁體中文</a>",
+        "rowsha": "1SAW3Ze2XdXgnI9MbCH93MGECcGywgzMmn7gZ0TA6jE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja\">日本語</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja\">日本語</a>"
       },
       {
         "row": 10,
-        "rowsha": "1SAW3Ze2XdXgnI9MbCH93MGECcGywgzMmn7gZ0TA6jE=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja\">日本語</a>",
+        "rowsha": "fmAn63b+IigzDZh/p1TvXA7PmGa1mhSQsjrMp+OR4HI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko\">한국어</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko\">한국어</a>"
       },
       {
         "row": 11,
-        "rowsha": "fmAn63b+IigzDZh/p1TvXA7PmGa1mhSQsjrMp+OR4HI=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko\">한국어</a>",
+        "rowsha": "nRtC2a9EaHvOShI0zndanDUsY8aYiUi3+01OqG16hww=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi\">हिन्दी</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi\">हिन्दी</a>"
       },
       {
         "row": 12,
-        "rowsha": "nRtC2a9EaHvOShI0zndanDUsY8aYiUi3+01OqG16hww=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi\">हिन्दी</a>",
+        "rowsha": "WhyQ+gFBiB3GNuz5Vj+LdwkrvdDM+6ioxny7B19WN3U=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th\">ไทย</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th\">ไทย</a>"
       },
       {
         "row": 13,
-        "rowsha": "WhyQ+gFBiB3GNuz5Vj+LdwkrvdDM+6ioxny7B19WN3U=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th\">ไทย</a>",
+        "rowsha": "ixg2xoFVlAGaZSyUrxQl+rPL4VTeOaRE5OWUUwWpiWI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr\">Français</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr\">Français</a>"
       },
       {
         "row": 14,
-        "rowsha": "ixg2xoFVlAGaZSyUrxQl+rPL4VTeOaRE5OWUUwWpiWI=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr\">Français</a>",
+        "rowsha": "x0dvKw6Prer96zpl6Yt2hsaN+nN5WSmpByUzHwXO3bg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de\">Deutsch</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de\">Deutsch</a>"
       },
       {
         "row": 15,
-        "rowsha": "x0dvKw6Prer96zpl6Yt2hsaN+nN5WSmpByUzHwXO3bg=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de\">Deutsch</a>",
+        "rowsha": "gPjUIAL6y6tMjLfaOVGELpo48UqxG96+HfE5vnZwYsw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es\">Español</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es\">Español</a>"
       },
       {
         "row": 16,
-        "rowsha": "gPjUIAL6y6tMjLfaOVGELpo48UqxG96+HfE5vnZwYsw=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es\">Español</a>",
+        "rowsha": "7U6ZVX+gfugw+F/1xMlgtOOdTFdpeP+yWV9xnLqZTWQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it\">Italiano</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it\">Italiano</a>"
       },
       {
         "row": 17,
-        "rowsha": "7U6ZVX+gfugw+F/1xMlgtOOdTFdpeP+yWV9xnLqZTWQ=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it\">Italiano</a>",
+        "rowsha": "F+zvpEi5mULcZXASvRmUn9ewzJ5oCXJ0wE/cfUKRWVg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru\">Русский</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru\">Русский</a>"
       },
       {
         "row": 18,
-        "rowsha": "F+zvpEi5mULcZXASvRmUn9ewzJ5oCXJ0wE/cfUKRWVg=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru\">Русский</a>",
+        "rowsha": "mayV+yo7aq9DGJaLPMmkrppbCoS7IQfiHXHTiFVJanA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt\">Português</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt\">Português</a>"
       },
       {
         "row": 19,
-        "rowsha": "mayV+yo7aq9DGJaLPMmkrppbCoS7IQfiHXHTiFVJanA=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt\">Português</a>",
+        "rowsha": "pZDuOp/GaZ1hiRzmivbJbEml7LcZ6dk5q0SQk8aQ9A0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl\">Nederlands</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl\">Nederlands</a>"
       },
       {
         "row": 20,
-        "rowsha": "pZDuOp/GaZ1hiRzmivbJbEml7LcZ6dk5q0SQk8aQ9A0=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl\">Nederlands</a>",
+        "rowsha": "f4GdxdEOyi/WUmPwXCOfq7kFKnqQWPjdFufu0gjKpSs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl\">Polski</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl\">Polski</a>"
       },
       {
         "row": 21,
-        "rowsha": "f4GdxdEOyi/WUmPwXCOfq7kFKnqQWPjdFufu0gjKpSs=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl\">Polski</a>",
+        "rowsha": "KqVwRB/0umf9hjBBUXEuCRIFnRbw7Dj8m691YqtqJ2Q=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar\">العربية</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar\">العربية</a>"
       },
       {
         "row": 22,
-        "rowsha": "KqVwRB/0umf9hjBBUXEuCRIFnRbw7Dj8m691YqtqJ2Q=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar\">العربية</a>",
+        "rowsha": "IL2rtYfl+xVGvAof4kCQFmEjsIPpW6nUqRzBikkqwQ0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa\">فارسی</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa\">فارسی</a>"
       },
       {
         "row": 23,
-        "rowsha": "IL2rtYfl+xVGvAof4kCQFmEjsIPpW6nUqRzBikkqwQ0=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa\">فارسی</a>",
+        "rowsha": "pQ4ecSaFiBt3NuGi0fWNqmHMOXT+zPrBkOD3dk4YnUs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr\">Türkçe</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr\">Türkçe</a>"
       },
       {
         "row": 24,
-        "rowsha": "pQ4ecSaFiBt3NuGi0fWNqmHMOXT+zPrBkOD3dk4YnUs=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr\">Türkçe</a>",
+        "rowsha": "s0cbIgvP+UUEC+vPcO1fY3ctnUmTFmhClxsouRkUz/4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi\">Tiếng Việt</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi\">Tiếng Việt</a>"
       },
       {
         "row": 25,
-        "rowsha": "s0cbIgvP+UUEC+vPcO1fY3ctnUmTFmhClxsouRkUz/4=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi\">Tiếng Việt</a>",
+        "rowsha": "70hjgxk0pQeGdTV9M2z2eQiMx93dUqyH3ITPI2ITlRw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id\">Bahasa Indonesia</a>",
         "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id\">Bahasa Indonesia</a>"
       },
       {
         "row": 26,
-        "rowsha": "70hjgxk0pQeGdTV9M2z2eQiMx93dUqyH3ITPI2ITlRw=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id\">Bahasa Indonesia</a>",
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
         "translatedContent": "      </div>"
       },
       {
         "row": 27,
-        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
-        "originContent": "      </div>",
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
         "translatedContent": "    </div>"
       },
       {
         "row": 28,
-        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
-        "originContent": "    </div>",
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
         "translatedContent": "  </details>"
       },
       {
         "row": 29,
-        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
-        "originContent": "  </details>",
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
         "translatedContent": "</div>"
       },
       {
         "row": 30,
-        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-        "originContent": "</div>",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
         "translatedContent": "<div align=\"center\">"
       },
       {
         "row": 32,
-        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
-        "originContent": "<div align=\"center\">",
+        "rowsha": "jO6vlVhn45qcHQao1a9CstD52hQV/Klu48bWGmSTusQ=",
+        "originContent": "  <a href=\"https://core.heysol.ai\">",
         "translatedContent": "  <a href=\"https://core.heysol.ai\">"
       },
       {
         "row": 33,
-        "rowsha": "jO6vlVhn45qcHQao1a9CstD52hQV/Klu48bWGmSTusQ=",
-        "originContent": "  <a href=\"https://core.heysol.ai\">",
+        "rowsha": "5lRM8LUgM1fg7z5feY1yN+15k6fDZRfDQT1YO1QUHTc=",
+        "originContent": "    <img src=\"https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd\" width=\"200px\" alt=\"CORE logo\" />",
         "translatedContent": "    <img src=\"https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd\" width=\"200px\" alt=\"CORE logo\" />"
       },
       {
         "row": 34,
-        "rowsha": "5lRM8LUgM1fg7z5feY1yN+15k6fDZRfDQT1YO1QUHTc=",
-        "originContent": "    <img src=\"https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd\" width=\"200px\" alt=\"CORE logo\" />",
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
         "translatedContent": "  </a>"
       },
       {
         "row": 35,
-        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
-        "originContent": "  </a>",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 36,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### C.O.R.E：AI 时代的你的数字大脑"
+        "rowsha": "I0DkiIXihMzEIrWEo9NSCGMtf9h1LuyKlfd21HAmjYs=",
+        "originContent": "### C.O.R.E: Your digital brain for the AI era",
+        "translatedContent": "### C.O.R.E：AI时代的数字大脑"
       },
       {
         "row": 37,
-        "rowsha": "I0DkiIXihMzEIrWEo9NSCGMtf9h1LuyKlfd21HAmjYs=",
-        "originContent": "### C.O.R.E: Your digital brain for the AI era",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 38,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
         "translatedContent": "<p align=\"center\">"
       },
       {
         "row": 39,
-        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-        "originContent": "<p align=\"center\">",
+        "rowsha": "oQcE7PoWkrBdFMHkF6h+NZoTa5FQxHWqP1z/sfixGC0=",
+        "originContent": "    <a href=\"https://deepwiki.com/RedPlanetHQ/core\">",
         "translatedContent": "    <a href=\"https://deepwiki.com/RedPlanetHQ/core\">"
       },
       {
         "row": 40,
-        "rowsha": "oQcE7PoWkrBdFMHkF6h+NZoTa5FQxHWqP1z/sfixGC0=",
-        "originContent": "    <a href=\"https://deepwiki.com/RedPlanetHQ/core\">",
+        "rowsha": "lbNjjK0n99GjxnUrcQvQtKdWaZiQDHPjIuTmV+X2ajE=",
+        "originContent": "        <img src=\"https://deepwiki.com/badge.svg\" alt=\"DeepWiki Badge\" />",
         "translatedContent": "        <img src=\"https://deepwiki.com/badge.svg\" alt=\"DeepWiki Badge\" />"
       },
       {
         "row": 41,
-        "rowsha": "lbNjjK0n99GjxnUrcQvQtKdWaZiQDHPjIuTmV+X2ajE=",
-        "originContent": "        <img src=\"https://deepwiki.com/badge.svg\" alt=\"DeepWiki Badge\" />",
+        "rowsha": "r52QjIbZf1aIcwCydWRFx1LDX4Vc0bsXMVxnkEUrqHA=",
+        "originContent": "    </a>",
         "translatedContent": "    </a>"
       },
       {
         "row": 42,
-        "rowsha": "r52QjIbZf1aIcwCydWRFx1LDX4Vc0bsXMVxnkEUrqHA=",
-        "originContent": "    </a>",
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
         "translatedContent": "</p>"
       },
       {
         "row": 43,
-        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-        "originContent": "</p>",
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
         "translatedContent": "<p align=\"center\">"
       },
       {
         "row": 44,
-        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-        "originContent": "<p align=\"center\">",
+        "rowsha": "sqGox9oCOUCm6ZCZkOqGd9xF0IU2RaaqOLAwH5kI/Mw=",
+        "originContent": "    <a href=\"https://docs.heysol.ai/core/overview\"><b>Documentation</b></a> •",
         "translatedContent": "    <a href=\"https://docs.heysol.ai/core/overview\"><b>文档</b></a> •"
       },
       {
         "row": 45,
-        "rowsha": "sqGox9oCOUCm6ZCZkOqGd9xF0IU2RaaqOLAwH5kI/Mw=",
-        "originContent": "    <a href=\"https://docs.heysol.ai/core/overview\"><b>Documentation</b></a> •",
+        "rowsha": "JzxwMXaPxWCf5YeNucMGnB0RT+0CgI6ZhPxqCqRtTXY=",
+        "originContent": "    <a href=\"https://discord.gg/YGUZcvDjUa\"><b>Discord</b></a>",
         "translatedContent": "    <a href=\"https://discord.gg/YGUZcvDjUa\"><b>Discord</b></a>"
       },
       {
         "row": 46,
-        "rowsha": "JzxwMXaPxWCf5YeNucMGnB0RT+0CgI6ZhPxqCqRtTXY=",
-        "originContent": "    <a href=\"https://discord.gg/YGUZcvDjUa\"><b>Discord</b></a>",
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
         "translatedContent": "</p>"
       },
       {
         "row": 47,
-        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-        "originContent": "</p>",
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
         "translatedContent": "</div>"
       },
       {
         "row": 48,
-        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-        "originContent": "</div>",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 49,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "pCK2r3HVhtIAFJnd401DXZv8+pRbioaYxH+VOXEIxIM=",
+        "originContent": "## 🧠 C.O.R.E.",
         "translatedContent": "## 🧠 C.O.R.E."
       },
       {
         "row": 50,
-        "rowsha": "pCK2r3HVhtIAFJnd401DXZv8+pRbioaYxH+VOXEIxIM=",
-        "originContent": "## 🧠 C.O.R.E.",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 51,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "sV388Lz8EmmwF6aZhKbAYkxOvuMS67mOB6gKuc+xjwQ=",
+        "originContent": "**Contextual Observation & Recall Engine**",
         "translatedContent": "**上下文观察与回忆引擎**"
       },
       {
         "row": 52,
-        "rowsha": "sV388Lz8EmmwF6aZhKbAYkxOvuMS67mOB6gKuc+xjwQ=",
-        "originContent": "**Contextual Observation & Recall Engine**",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 53,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "C.O.R.E 是一个便携式记忆图谱，由你的 LLM 交互和个人数据构建而成，让你的全部上下文和工作流历史对任意 AI 工具可访问，就像一个数字大脑。这消除了反复共享上下文的需求。目标是提供："
+        "rowsha": "w62Or9pgW+5Ri+g+4OsNkto3xb3Yv5nwpUPnxoHS+co=",
+        "originContent": "C.O.R.E is a portable memory graph built from your llm interactions and personal data, making all your context and workflow history accessible to any AI tool, just like a digital brain. This eliminates the need for repeated context sharing . The aim is to provide:",
+        "translatedContent": "C.O.R.E 是一个便携的记忆图谱，由你的 LLM 交互和个人数据构建而成，使所有上下文和工作流历史可以被任何 AI 工具访问，就像数字大脑。这消除了反复共享上下文的需求。目标是提供："
       },
       {
         "row": 54,
-        "rowsha": "w62Or9pgW+5Ri+g+4OsNkto3xb3Yv5nwpUPnxoHS+co=",
-        "originContent": "C.O.R.E is a portable memory graph built from your llm interactions and personal data, making all your context and workflow history accessible to any AI tool, just like a digital brain. This eliminates the need for repeated context sharing . The aim is to provide:",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 55,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- **统一、便携的记忆**：无缝添加和回忆上下文，并在 Claude、Cursor、Windsurf 等应用间连接你的记忆。"
+        "rowsha": "dMyB+leKnEpN9mlL96Qme/dJQO+vMmGMZPv3HuyxWvk=",
+        "originContent": "- **Unified, Portable Memory**: Add and recall context seamlessly, and connect your memory across apps like Claude, Cursor, Windsurf and more.",
+        "translatedContent": "- **统一、可移植的记忆**：无缝添加和调用上下文，并将你的记忆连接到 Claude、Cursor、Windsurf 等应用。"
       },
       {
         "row": 56,
-        "rowsha": "dMyB+leKnEpN9mlL96Qme/dJQO+vMmGMZPv3HuyxWvk=",
-        "originContent": "- **Unified, Portable Memory**: Add and recall context seamlessly, and connect your memory across apps like Claude, Cursor, Windsurf and more.",
-        "translatedContent": "- **关系型，不仅仅是平面事实**：CORE 组织你的知识，既存储事实也存储关系，实现更深层、更丰富的记忆，像真正的大脑一样。"
+        "rowsha": "0mKYPIKh15SnQdkgvMxnb8BCg+hEEmYoIcLC6cGgwHE=",
+        "originContent": "- **Relational, Not just Flat Facts**: CORE organizes your knowledge, storing both facts and relationships for a deeper richer memory like a real brain.",
+        "translatedContent": "- **关联性，不仅仅是平面事实**：CORE 组织你的知识，存储事实及其关系，实现类似大脑的深层、丰富记忆。"
       },
       {
         "row": 57,
-        "rowsha": "0mKYPIKh15SnQdkgvMxnb8BCg+hEEmYoIcLC6cGgwHE=",
-        "originContent": "- **Relational, Not just Flat Facts**: CORE organizes your knowledge, storing both facts and relationships for a deeper richer memory like a real brain.",
-        "translatedContent": "- **用户所有**：你决定保留、更新或删除哪些内容，并可在你想要的工具间共享你的记忆，摆脱厂商锁定。"
+        "rowsha": "KvtSXuuaZCN0d59UCFckqhOKJ0X2fOmxH+e4sbjjdw4=",
+        "originContent": "- **User Owned**: You decide what to keep, update or delete and share your memory across the tool you want and be freed from vendor lock-in.",
+        "translatedContent": "- **用户所有**：你决定保留、更新或删除哪些内容，并可跨工具共享你的记忆，摆脱厂商锁定。"
       },
       {
         "row": 58,
-        "rowsha": "KvtSXuuaZCN0d59UCFckqhOKJ0X2fOmxH+e4sbjjdw4=",
-        "originContent": "- **User Owned**: You decide what to keep, update or delete and share your memory across the tool you want and be freed from vendor lock-in.",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 59,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "pvkEpCG0jvR2pIE3apMxwAGBiRUXPqEWdD3opE/v0iY=",
+        "originContent": "## 🎥 Demo Video",
         "translatedContent": "## 🎥 演示视频"
       },
       {
         "row": 60,
-        "rowsha": "pvkEpCG0jvR2pIE3apMxwAGBiRUXPqEWdD3opE/v0iY=",
-        "originContent": "## 🎥 Demo Video",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 61,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "unhUPYHmR+VogMCYrQ5YMd57LFEwNp5hGLUjVlJBvyo=",
+        "originContent": "[Check C.O.R.E Demo](https://youtu.be/iANZ32dnK60)",
         "translatedContent": "[查看 C.O.R.E 演示](https://youtu.be/iANZ32dnK60)"
       },
       {
         "row": 62,
-        "rowsha": "unhUPYHmR+VogMCYrQ5YMd57LFEwNp5hGLUjVlJBvyo=",
-        "originContent": "[Check C.O.R.E Demo](https://youtu.be/iANZ32dnK60)",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 63,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "<img width=\"954\" height=\"700\" alt=\"Core dashboard\" src=\"https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694\" />"
+        "rowsha": "HYDWIfM5NX9IbnUWRq1Qp8GqLshmsVw1a6Vrjx1CU60=",
+        "originContent": "<img width=\"7480\" height=\"4672\" alt=\"core-memory-graph\" src=\"https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b\" />",
+        "translatedContent": "<img width=\"7480\" height=\"4672\" alt=\"core-memory-graph\" src=\"https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b\" />"
       },
       {
         "row": 64,
-        "rowsha": "GIhWf5/RhC0urFCgb83PzHsWu30/LPJOskfj8I5gro4=",
-        "originContent": "<img width=\"954\" height=\"700\" alt=\"Core dashboard\" src=\"https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694\" />",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 65,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 🧩  主要特性"
+        "rowsha": "vW5ehWZy2R/xvKXJU8qrYkuVslHmNmiDPC6sZrqtxjo=",
+        "originContent": "## 🧩 Key Features",
+        "translatedContent": "## 🧩 主要特性"
       },
       {
         "row": 66,
-        "rowsha": "YW8u+Sg/Me0JrVN7bYLpWDp23dfCZ+zO5/duP/rUl3k=",
-        "originContent": "## 🧩  Key Features",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 67,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- **记忆图谱**：可视化你的事实和偏好之间的关联"
+        "rowsha": "4L2s1nuAleJWPFGGS97lv/1+UE3az0O/0aSZMhjOf/g=",
+        "originContent": "- **Memory Graph**: Visualise how your facts and preferences link together",
+        "translatedContent": "- **记忆图谱**：可视化你的事实和偏好如何相互关联"
       },
       {
         "row": 68,
-        "rowsha": "4L2s1nuAleJWPFGGS97lv/1+UE3az0O/0aSZMhjOf/g=",
-        "originContent": "- **Memory Graph**: Visualise how your facts and preferences link together",
-        "translatedContent": "- **与记忆对话**：向记忆提问，获取即时洞察和理解"
+        "rowsha": "sZm3Rok4nzkuGu5sPPvaErmI0h2hUkNU2Zj3OB4544k=",
+        "originContent": "- **Chat with Memory**: Ask questions about memory for instant insights and understanding",
+        "translatedContent": "- **记忆对话**：就记忆提问，获得即时洞察和理解"
       },
       {
         "row": 69,
-        "rowsha": "sZm3Rok4nzkuGu5sPPvaErmI0h2hUkNU2Zj3OB4544k=",
-        "originContent": "- **Chat with Memory**: Ask questions about memory for instant insights and understanding",
-        "translatedContent": "- **即插即用**：可直接在 Cursor、Claude 等应用中使用 CORE 记忆"
+        "rowsha": "O9FPVHkQRIVbr4uc4MY1RNA/QsewYuFZMyNx+G7qCQQ=",
+        "originContent": "- **Plug n Play**: Instantly use CORE memory in apps like Cursor, Claude",
+        "translatedContent": "- **即插即用**：在 Cursor、Claude 等应用中即刻使用 CORE 记忆"
       },
       {
         "row": 70,
-        "rowsha": "O9FPVHkQRIVbr4uc4MY1RNA/QsewYuFZMyNx+G7qCQQ=",
-        "originContent": "- **Plug n Play**: Instantly use CORE memory in apps like Cursor, Claude",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 71,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## ☁️ C.O.R.E 云端部署"
+        "rowsha": "+PD2srClk0r3Us3fWklJI8qRdlnom/pK/KKywwKgpbU=",
+        "originContent": "## ☁️ C.O.R.E Cloud Setup",
+        "translatedContent": "## ☁️ C.O.R.E 云端设置"
       },
       {
         "row": 72,
-        "rowsha": "+PD2srClk0r3Us3fWklJI8qRdlnom/pK/KKywwKgpbU=",
-        "originContent": "## ☁️ C.O.R.E Cloud Setup",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 73,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. 注册 [Core Cloud](https://core.heysol.ai) 并开始构建你的记忆图谱。"
+        "rowsha": "2oZbUSQLY23Yx8rkQTIxRxJXDkUOJrxFndG3Ljn1OdU=",
+        "originContent": "1. Visit [core.heysol.ai](https://core.heysol.ai)",
+        "translatedContent": "1. 访问 [core.heysol.ai](https://core.heysol.ai)"
       },
       {
         "row": 74,
-        "rowsha": "pwyKOZjfRU7Xk4/C9I0HzCF6SbMd9hlGM7TuPd3DiVU=",
-        "originContent": "1. Sign up to [Core Cloud](https://core.heysol.ai) and start building your memory graph.",
-        "translatedContent": "2. 添加你想要保存到记忆中的文本。点击 `+ Add` 按钮后你的记忆图谱将被生成。"
+        "rowsha": "Yjq1fnKvuEzGzhBL+ShhStysHLe2kqeOx1EfIZsKLGM=",
+        "originContent": "2. Sign up with your email",
+        "translatedContent": "2. 使用你的邮箱注册"
       },
       {
         "row": 75,
-        "rowsha": "fHaRTS6iJgLFjI/P+fE1VW+3xZqpvutELxF6ZC9IRSM=",
-        "originContent": "2. Add your text that you want to save in memory. Once clicking on `+ Add` button your memory graph will be generated.",
-        "translatedContent": "3. [将 Core Memory MCP 连接到 Cursor](#connecting-core-mcp-with-cursor)"
+        "rowsha": "MYBM4x95pGAY2BEHwcwk25dyDMVzhkLXx7vfwr1/M0g=",
+        "originContent": "3. Tell CORE about yourself: “I’m a software engineer working on a React project called TaskMaster. I prefer TypeScript and use Tailwind for styling.”",
+        "translatedContent": "3. 向 CORE 介绍自己：“我是一个软件工程师，正在开发名为 TaskMaster 的 React 项目。我偏好 TypeScript，并使用 Tailwind 进行样式设计。”"
       },
       {
         "row": 76,
-        "rowsha": "n+9eAvTcFjU7yrKOoH3oxvEjh9fGyn7BKtpBzklNDVY=",
-        "originContent": "3. [Connect Core Memory MCP with Cursor](#connecting-core-mcp-with-cursor)",
-        "translatedContent": ""
+        "rowsha": "Q/Nzfxpzsq/53+yyzo9lWpVfTNhYxCA1My/qKc0XOoI=",
+        "originContent": "   <img width=\"2048\" height=\"1172\" alt=\"add-memory\" src=\"https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938\" />",
+        "translatedContent": "   <img width=\"2048\" height=\"1172\" alt=\"add-memory\" src=\"https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938\" />"
       },
       {
         "row": 77,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 💻 C.O.R.E 本地部署"
+        "rowsha": "S9kC6vBFeGNwQ7rLPafxKRLQODoFTz3RNFaG2DFU+7M=",
+        "originContent": "4. [Connect Core MCP with Claude](https://docs.heysol.ai/providers/claude)",
+        "translatedContent": "4. [将 Core MCP 连接到 Claude](https://docs.heysol.ai/providers/claude)"
       },
       {
         "row": 78,
-        "rowsha": "396WV81B+aC3RoxN4Wtb2sEeOOUqXPKOpOC8H14wdns=",
-        "originContent": "## 💻 C.O.R.E Local Setup",
-        "translatedContent": ""
+        "rowsha": "oRTWr23D32TE6kEUxx/5CinvsRSnAAk9SlwcVmOYQGI=",
+        "originContent": "5. [Connect Core MCP with Cursor](https://docs.heysol.ai/providers/cursor)",
+        "translatedContent": "5. [将 Core MCP 连接到 Cursor](https://docs.heysol.ai/providers/cursor)"
       },
       {
         "row": 79,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "#### 前置条件"
+        "translatedContent": ""
       },
       {
         "row": 80,
-        "rowsha": "YJ9an2nCjbda0JOWCBaxTn5kBQ5lsvAwZCNxWnbuBw0=",
-        "originContent": "#### Prerequisites",
-        "translatedContent": ""
+        "rowsha": "uXGVzrjaa8H7tmCbgza3ERfMkek1GvRUwVo50YQ1eow=",
+        "originContent": "## 💻 C.O.R.E Self Hosting",
+        "translatedContent": "## 💻 C.O.R.E 自托管"
       },
       {
         "row": 81,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "1. Docker"
+        "translatedContent": ""
       },
       {
         "row": 82,
-        "rowsha": "9OG1IiCzzR9r4B8trQRNVfVMVqQ4sjUL7c1ZLlU0sL0=",
-        "originContent": "1. Docker",
-        "translatedContent": "2. OpenAI API Key"
+        "rowsha": "FRy6/P8fDh5V0/LZBArds/ZFP0+S5h9+c95jDFYOOeU=",
+        "originContent": "Check out our [docs](https://docs.heysol.ai/self-hosting/docker) for modular deployment",
+        "translatedContent": "参阅我们的[文档](https://docs.heysol.ai/self-hosting/docker)以获取模块化部署信息"
       },
       {
         "row": 83,
-        "rowsha": "iiyOMkxOQ12bTuT+UbAnB3acs2rjz1upBZ3KX3sCGZ0=",
-        "originContent": "2. OpenAI API Key",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 84,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": "## 文档"
       },
       {
         "row": 85,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "> **注意：** 我们正在积极改进对 Llama 模型的支持。目前，C.O.R.E 在基于 Llama 的模型上效果尚未最佳，但我们正在努力提升兼容性和输出质量，敬请期待后续更新。"
+        "translatedContent": ""
       },
       {
         "row": 86,
-        "rowsha": "FDLyq/kLxnJknLI0ml7JEVzBm4pFiR0ehcWrMB6fjdE=",
-        "originContent": "> **Note:** We are actively working on improving support for Llama models. At the moment, C.O.R.E does not provide optimal results with Llama-based models, but we are making progress to ensure better compatibility and output in the near future.",
-        "translatedContent": "> "
+        "rowsha": "M6M+9wPd1yvc2JNWWuahYFJzyqRuT9eEdLOtLYSw1Rs=",
+        "originContent": "Explore our documentation to get the most out of CORE",
+        "translatedContent": "查阅我们的文档，充分利用 CORE"
       },
       {
         "row": 87,
-        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
-        "originContent": "> ",
-        "translatedContent": "#### 本地运行 C.O.R.E"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 88,
-        "rowsha": "Q8Xrx20Qw0ZRkmdlRxHCHlyFNYroU6DQ/SRYcP6zE60=",
-        "originContent": "#### Run C.O.R.E locally",
-        "translatedContent": ""
+        "rowsha": "pTouilblCcnPfA4xSovry8GTfCCIvcCKPP/9jxTKRcc=",
+        "originContent": "- [Basic Concepts](https://docs.heysol.ai/concepts/memory_graph)",
+        "translatedContent": "- [基本概念](https://docs.heysol.ai/concepts/memory_graph)"
       },
       {
         "row": 89,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. **复制环境变量**"
+        "rowsha": "MqOPGW5nuRSYkEGr6ng2U2anao6EwK7NcWiNxPXZfkk=",
+        "originContent": "- [Self Hosting](https://docs.heysol.ai/self-hosting/overview)",
+        "translatedContent": "- [自托管](https://docs.heysol.ai/self-hosting/overview)"
       },
       {
         "row": 90,
-        "rowsha": "qBR3lKHOMyEkNJDDYTO4TsLRaK2ebUEKcJ1otHbExq0=",
-        "originContent": "1. **Copy Environment Variables**",
-        "translatedContent": ""
+        "rowsha": "ODUP3mxd4RRBEEz59L3Dg7jnRopqkdUAknoB/uIQO1E=",
+        "originContent": "- [Connect Core MCP with Claude](https://docs.heysol.ai/providers/claude)",
+        "translatedContent": "- [将 Core MCP 连接到 Claude](https://docs.heysol.ai/providers/claude)"
       },
       {
         "row": 91,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "   将示例环境文件复制到 `.env`："
+        "rowsha": "mIgP++xTTABdQlG47fxEmlDWvze9br3D52XFtFDu/Hc=",
+        "originContent": "- [Connect Core MCP with Cursor](https://docs.heysol.ai/providers/cursor)",
+        "translatedContent": "- [将 Core MCP 连接到 Cursor](https://docs.heysol.ai/providers/cursor)"
       },
       {
         "row": 92,
-        "rowsha": "sNksRkuQkGvORO2zqlR8tGoA1FudbJYj1gqs2wpDAkQ=",
-        "originContent": "   Copy the example environment file to `.env`:",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 93,
+        "rowsha": "fTgEk51c42c8BzhhkSi/e40PQDrypFrzl9iJx7140VE=",
+        "originContent": "- [Basic Concepts](https://docs.heysol.ai/overview)",
+        "translatedContent": "- [基本概念](https://docs.heysol.ai/overview)"
+      },
+      {
+        "row": 94,
+        "rowsha": "Y4eeUb48HFqL/KvuHhyV2WoE2O7ASgGh8TbavqgK0EE=",
+        "originContent": "- [API Reference](https://docs.heysol.ai/local-setup)",
+        "translatedContent": "- [API 参考](https://docs.heysol.ai/local-setup)"
+      },
+      {
+        "row": 95,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
+      },
+      {
+        "row": 96,
+        "rowsha": "lLaj75kJlTnPW3cnRNPRDM88dPu3t6zO0cwcv5hLxMo=",
+        "originContent": "## 🧑‍💻 Support",
+        "translatedContent": "## 🧑‍💻 支持"
+      },
+      {
+        "row": 97,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 98,
+        "rowsha": "6qaQuHmc4zAZMU/vKOimJshrA6imIk+YTn2XkOIccx0=",
+        "originContent": "Have questions or feedback? We're here to help:",
+        "translatedContent": "有问题或反馈？我们随时为你解答："
+      },
+      {
+        "row": 99,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 100,
+        "rowsha": "/2c4Zf8xzJySbONhvYYOp9+riErvTD5gWFrUAoDKxco=",
+        "originContent": "- Discord: [Join core-support channel](https://discord.gg/YGUZcvDjUa)",
+        "translatedContent": "- Discord: [加入 core-support 频道](https://discord.gg/YGUZcvDjUa)"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "   ```bash\n   cp .env.example .env\n   ```",
-    "ContentSha": "/ImwJ+mLjuKcvHwkAmih4hkab/BlV3Ck/SUPnGwb1Ww=",
+    "Content": "- Documentation: [docs.heysol.ai](https://docs.heysol.ai)\n- Email: manik@poozle.dev\n\n## Usage Guidelines\n\n**Store:**\n\n- Conversation history\n- User preferences\n- Task context\n- Reference materials\n\n**Don't Store:**\n\n- Sensitive data (PII)\n- Credentials\n- System logs\n- Temporary data\n\n## 👥 Contributors\n\n<a href=\"https://github.com/RedPlanetHQ/core/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=RedPlanetHQ/core\" />\n</a>\n",
+    "ContentSha": "0+o7oNozFLx3QozIqQwKqoIYyz2ZPCNUUtGttVN2Z4M=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "   ```bash\n   cp .env.example .env\n   ```",
+    "Translation": "- 文档: [docs.heysol.ai](https://docs.heysol.ai)\n- 邮箱: manik@poozle.dev\n\n## 使用指南\n\n**存储内容：**\n\n- 对话历史\n- 用户偏好\n- 任务上下文\n- 参考资料\n\n**禁止存储：**\n\n- 敏感数据（个人身份信息）\n- 凭证信息\n- 系统日志\n- 临时数据\n\n## 👥 贡献者\n\n<a href=\"https://github.com/RedPlanetHQ/core/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=RedPlanetHQ/core\" />\n</a>\n",
     "Status": "ok",
-    "RowTranslations": [],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 3,
-    "Content": "\n2. **Start the Application**\n\n   Use Docker Compose to start all required services:\n",
-    "ContentSha": "A5MkRk847ZfpTU5UzJbF1Spfx5sNKDJDM4dS7WOfu/0=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "2. **启动应用程序**\n\n   使用 Docker Compose 启动所有所需的服务：\n\n",
-    "Status": "ok",
-    "RowTranslations": [],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 4,
-    "Content": "   ```bash\n   docker-compose up\n   ```",
-    "ContentSha": "3/dn8jOCOe43bO9SjfzSfxOzVY77bJu7hx1NNY16deE=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "   ```bash\n   docker-compose up\n   ```",
-    "Status": "ok",
-    "RowTranslations": [],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 5,
-    "Content": "\n3. **Access the App**\n\n   Once the containers are running, open your browser and go to [http://localhost:3000](http://localhost:3000).\n\n4. **Create Account with Magic Link**\n\n   - To Create an account, click on `Continue with email` button\n\n     <img width=\"865\" height=\"490\" alt=\"Create account\" src=\"https://github.com/user-attachments/assets/65de110b-2b1f-42a5-9b8a-954227d68d52\" />\n\n   - Enter your email and click on `Send a Magic Link` button\n\n     <img width=\"824\" height=\"429\" alt=\"Enter email\" src=\"https://github.com/user-attachments/assets/76128b61-2086-48df-8332-38c2efa14087\" />\n\n   - `Copy the magic link from terminal logs` and open it in your browser\n\n     <img width=\"1010\" height=\"597\" alt=\"Magic link\" src=\"https://github.com/user-attachments/assets/777cb4b1-bb93-4d54-b6ab-f7147e65aa5c\" />\n\n\n5. **Create Your Private Space & Add Data**\n\n   - In the dashboard, go to the top right section -> Type a message, e.g., `I love playing badminton`, and click `+Add`.\n   - Your memory is queued for processing; you can monitor its status in the `Logs` section.\n     \n     <img width=\"1496\" height=\"691\" alt=\"Core memory logs\" src=\"https://github.com/user-attachments/assets/dc34a7af-fe52-4142-9ecb-49ddc4e0e854\" />\n\n   - Once processing is complete, nodes will be added to your private knowledge graph and visible in the dashboard.\n   - You can later choose to connect this memory to other tools or keep it private.\n\n6. **Search Your Memory**\n\n   - Use the dashboard's search feature to query your ingested data within your private space.\n\n\n## Connecting CORE MCP with Cursor\n\n1. Open the CORE dashboard and navigate to the API section to generate a new API token.\n2. In Cursor, go to: Settings → Tools & Integrations → New MCP Server.\n3. Add the CORE MCP server using the configuration format below. Be sure to replace the API_TOKEN value with the token you generated in step 1.\n\n   MCP configuration to add in Cursor\n",
-    "ContentSha": "oOKwRmQgiB+4qUZIvNOjgzmX7IVycmJvgGAq2LTCpVw=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "3. **访问应用程序**\n\n   容器启动后，打开浏览器并访问 [http://localhost:3000](http://localhost:3000)。\n\n4. **使用魔法链接创建账户**\n\n   - 要创建账户，点击 `Continue with email` 按钮\n\n     <img width=\"865\" height=\"490\" alt=\"Create account\" src=\"https://github.com/user-attachments/assets/65de110b-2b1f-42a5-9b8a-954227d68d52\" />\n\n   - 输入你的邮箱并点击 `Send a Magic Link` 按钮\n\n     <img width=\"824\" height=\"429\" alt=\"Enter email\" src=\"https://github.com/user-attachments/assets/76128b61-2086-48df-8332-38c2efa14087\" />\n\n   - `从终端日志中复制魔法链接` 并在浏览器中打开\n\n     <img width=\"1010\" height=\"597\" alt=\"Magic link\" src=\"https://github.com/user-attachments/assets/777cb4b1-bb93-4d54-b6ab-f7147e65aa5c\" />\n\n\n5. **创建你的私人空间并添加数据**\n\n   - 在仪表盘右上角，输入消息，例如 `I love playing badminton`，然后点击 `+Add`。\n   - 你的记忆已排队处理中；你可以在 `Logs` 部分监控其状态。\n     \n     <img width=\"1496\" height=\"691\" alt=\"Core memory logs\" src=\"https://github.com/user-attachments/assets/dc34a7af-fe52-4142-9ecb-49ddc4e0e854\" />\n\n   - 处理完成后，节点将被添加到你的私人知识图谱中，并在仪表盘中可见。\n   - 你以后可以选择将此记忆连接到其他工具或保持私密。\n\n6. **搜索你的记忆**\n\n   - 使用仪表盘的搜索功能，在你的私人空间内查询已导入的数据。\n\n\n## 将 CORE MCP 与 Cursor 连接\n\n1. 打开 CORE 仪表盘，导航到 API 部分生成新的 API 令牌。\n2. 在 Cursor 中，进入：设置 → 工具与集成 → 新建 MCP 服务器。\n3. 使用以下格式添加 CORE MCP 服务器配置。确保将 API_TOKEN 替换为你在步骤 1 中生成的令牌。\n\n   要在 Cursor 中添加的 MCP 配置\n\n",
-    "Status": "ok",
-    "RowTranslations": [],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 6,
-    "Content": "   ```json\n   {\n     \"mcpServers\": {\n       \"memory\": {\n         \"command\": \"npx\",\n         \"args\": [\"-y\", \"@redplanethq/core-mcp\"],\n         \"env\": {\n           \"API_TOKEN\": \"YOUR_API_TOKEN_HERE\",\n           \"API_BASE_URL\": \"https://core.heysol.ai\",\n           \"SOURCE\": \"cursor\"\n         }\n       }\n     }\n   }\n   ```",
-    "ContentSha": "RKy/ZEPfd4Ca26d8+l+iIjA35GzZchAr6YjlpKTaSbQ=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "   ```json\n   {\n     \"mcpServers\": {\n       \"memory\": {\n         \"command\": \"npx\",\n         \"args\": [\"-y\", \"@redplanethq/core-mcp\"],\n         \"env\": {\n           \"API_TOKEN\": \"YOUR_API_TOKEN_HERE\",\n           \"API_BASE_URL\": \"https://core.heysol.ai\",\n           \"SOURCE\": \"cursor\"\n         }\n       }\n     }\n   }\n   ```",
-    "Status": "ok",
-    "RowTranslations": [],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 7,
-    "Content": "\n4. Go to Settings-> User rules -> New Rule -> and add the below rule to ensure all your chat interactions are being stored in CORE memory\n",
-    "ContentSha": "S+CXEhAAmGYIpZckpydzy6lr1HwBr5XetQSM73OqMDg=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "4. 进入设置-> 用户规则 -> 新建规则 -> 并添加以下规则以确保您的所有聊天交互均被存储在CORE内存中\n\n",
-    "Status": "ok",
-    "RowTranslations": [],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 8,
-    "Content": "```\nAfter every interaction, update the memory with the user's query and the assistant's\nresponse to core-memory mcp. sessionId should be the uuid of the conversation\n```",
-    "ContentSha": "lyb8n017Oppm2Bsu2Ce+PiV7eX8ZPo+HcKV0rtKOpV0=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "```\nAfter every interaction, update the memory with the user's query and the assistant's\nresponse to core-memory mcp. sessionId should be the uuid of the conversation\n```",
-    "Status": "ok",
-    "RowTranslations": [],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 9,
-    "Content": "\n## Documentation\n\nExplore our documentation to get the most out of CORE\n- [Basic Concepts](https://docs.heysol.ai/core/overview)\n- [API Reference](https://docs.heysol.ai/core/local-setup)\n- [Connect Core Memory MCP with Cursor](#connecting-core-mcp-with-cursor)\n\n\n## 🧑‍💻 Support\nHave questions or feedback? We're here to help:\n- Discord: [Join core-support channel](https://discord.gg/YGUZcvDjUa)\n- Documentation: [docs.heysol.ai/core](https://docs.heysol.ai/core/overview)\n- Email: manik@poozle.dev\n\n## Usage Guidelines\n\n**Store:**\n\n- Conversation history\n- User preferences\n- Task context\n- Reference materials\n\n**Don't Store:**\n\n- Sensitive data (PII)\n- Credentials\n- System logs\n- Temporary data\n\n## 👥 Contributors\n\n<a href=\"https://github.com/RedPlanetHQ/core/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=RedPlanetHQ/core\" />\n</a>\n",
-    "ContentSha": "uSt9XQ6tsIGmYHd6OyP0UTl3v/sjXctY948hxDauMh0=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "## 文档\n\n探索我们的文档，充分利用 CORE  \n- [基本概念](https://docs.heysol.ai/core/overview)  \n- [API 参考](https://docs.heysol.ai/core/local-setup)  \n- [连接 Core Memory MCP 与 Cursor](#connecting-core-mcp-with-cursor)  \n\n\n## 🧑‍💻 支持  \n有问题或反馈？我们随时为您提供帮助：  \n- Discord：[加入 core-support 频道](https://discord.gg/YGUZcvDjUa)  \n- 文档：[docs.heysol.ai/core](https://docs.heysol.ai/core/overview)  \n- 邮箱：manik@poozle.dev  \n\n## 使用指南  \n\n**存储内容：**  \n\n- 对话历史  \n- 用户偏好  \n- 任务上下文  \n- 参考资料  \n\n**不存储内容：**  \n\n- 敏感数据（个人身份信息）  \n- 凭证信息  \n- 系统日志  \n- 临时数据  \n\n## 👥 贡献者  \n\n<a href=\"https://github.com/RedPlanetHQ/core/graphs/contributors\">  \n  <img src=\"https://contrib.rocks/image?repo=RedPlanetHQ/core\" />  \n</a>\n\n",
-    "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "t8nF7B7ywmN8FYG5qxIQCdfSexw74r6aYSsk1KJKEeQ=",
+        "originContent": "- Documentation: [docs.heysol.ai](https://docs.heysol.ai)",
+        "translatedContent": "- 文档: [docs.heysol.ai](https://docs.heysol.ai)"
+      },
+      {
+        "row": 2,
+        "rowsha": "b7Xfj0mYtvGip6hq0OeWpn1uMjz0J+doClJXOUbN0MQ=",
+        "originContent": "- Email: manik@poozle.dev",
+        "translatedContent": "- 邮箱: manik@poozle.dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "N5CTlRylADdMc475SavrytQgVf9ti79e7pTcKihyTjs=",
+        "originContent": "## Usage Guidelines",
+        "translatedContent": "## 使用指南"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "y92Qv7MGi+kLS4RhatyoJL7QFfPCFhKLDTTdn5wrKQA=",
+        "originContent": "**Store:**",
+        "translatedContent": "**存储内容：**"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "SS1E7IyVhLgNJhjpweAionRHmrq6zTqSfshsyhAwIUc=",
+        "originContent": "- Conversation history",
+        "translatedContent": "- 对话历史"
+      },
+      {
+        "row": 9,
+        "rowsha": "18QzbHVYhqK5k/tDnDnmK8iFvSUb+gFfZNImjdhwPLA=",
+        "originContent": "- User preferences",
+        "translatedContent": "- 用户偏好"
+      },
+      {
+        "row": 10,
+        "rowsha": "DhWOD7gVMqO0fn+Ahg0wMuFM9I/1H8CpXYyDff2ktyc=",
+        "originContent": "- Task context",
+        "translatedContent": "- 任务上下文"
+      },
+      {
+        "row": 11,
+        "rowsha": "7fKRcBDeHOGG9SIuBBrOEKs6s5RU9g/LwgJjchVNEzk=",
+        "originContent": "- Reference materials",
+        "translatedContent": "- 参考资料"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "dXSPwGesH3qb8SIcO+IAwelbUTvoMK4IooNYhbi1Jq0=",
+        "originContent": "**Don't Store:**",
+        "translatedContent": "**禁止存储：**"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "yKtwgROn7TDk1ehVldsUDlbzGlKTX1TJDTEndfpArOI=",
+        "originContent": "- Sensitive data (PII)",
+        "translatedContent": "- 敏感数据（个人身份信息）"
+      },
+      {
+        "row": 16,
+        "rowsha": "5IAq2oW+Zu5/avmN5dGeO58y8sDSyzr7wzV/38x4Obc=",
+        "originContent": "- Credentials",
+        "translatedContent": "- 凭证信息"
+      },
+      {
+        "row": 17,
+        "rowsha": "qnQ3dA3JUH+kK1qtgQ7SiiphkYKMthtqJxaLGySrQ7s=",
+        "originContent": "- System logs",
+        "translatedContent": "- 系统日志"
+      },
+      {
+        "row": 18,
+        "rowsha": "5ciptfDYJ8++XTPGhg7oqwElg0UTG1irI6dp4r5v2ao=",
+        "originContent": "- Temporary data",
+        "translatedContent": "- 临时数据"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "lE2y3dMkd0qYgUtmxnJv5O3EwODbAMyAu2f+h+m/sZU=",
+        "originContent": "## 👥 Contributors",
+        "translatedContent": "## 👥 贡献者"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "NkkOnWhXFae1WaangQzOVRUrjL0f/8f8/OUDF+QnOA8=",
+        "originContent": "<a href=\"https://github.com/RedPlanetHQ/core/graphs/contributors\">",
+        "translatedContent": "<a href=\"https://github.com/RedPlanetHQ/core/graphs/contributors\">"
+      },
+      {
+        "row": 23,
+        "rowsha": "4+QH42r1UhTIbH95sDXOKJtYmZQLcEstdgFam/kZchk=",
+        "originContent": "  <img src=\"https://contrib.rocks/image?repo=RedPlanetHQ/core\" />",
+        "translatedContent": "  <img src=\"https://contrib.rocks/image?repo=RedPlanetHQ/core\" />"
+      },
+      {
+        "row": 24,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
     "IsCodeBlock": false
   }
 ]

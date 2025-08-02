@@ -48,137 +48,57 @@
 
 ## 🧠 C.O.R.E.
 
-**Bộ máy Quan sát & Ghi nhớ Ngữ cảnh**
+**Bộ Máy Quan Sát Ngữ Cảnh & Ghi Nhớ**
 
-C.O.R.E là một đồ thị ghi nhớ di động được xây dựng từ các tương tác llm và dữ liệu cá nhân của bạn, giúp tất cả ngữ cảnh và lịch sử quy trình làm việc của bạn có thể truy cập từ bất kỳ công cụ AI nào, giống như một bộ não số. Điều này loại bỏ nhu cầu phải lặp lại việc chia sẻ ngữ cảnh. Mục tiêu là cung cấp:
+C.O.R.E là một đồ thị bộ nhớ di động được xây dựng từ các tương tác llm và dữ liệu cá nhân của bạn, giúp tất cả bối cảnh và lịch sử tác vụ của bạn có thể truy cập bởi bất kỳ công cụ AI nào, giống như một bộ não số. Điều này loại bỏ nhu cầu chia sẻ lại ngữ cảnh nhiều lần. Mục tiêu là cung cấp:
 
-- **Bộ nhớ hợp nhất, di động**: Thêm và truy xuất ngữ cảnh liền mạch, kết nối bộ nhớ của bạn giữa các ứng dụng như Claude, Cursor, Windsurf và nhiều hơn nữa.
-- **Mối quan hệ, không chỉ là dữ kiện rời rạc**: CORE tổ chức kiến thức của bạn, lưu trữ cả dữ kiện lẫn mối quan hệ để tạo ra bộ nhớ sâu sắc và phong phú hơn giống như một bộ não thật sự.
-- **Người dùng sở hữu**: Bạn quyết định lưu giữ, cập nhật, xóa và chia sẻ bộ nhớ của mình qua các công cụ mong muốn, không bị phụ thuộc nhà cung cấp.
+- **Bộ Nhớ Thống Nhất, Di Động**: Thêm và truy xuất ngữ cảnh liền mạch, kết nối trí nhớ của bạn qua các ứng dụng như Claude, Cursor, Windsurf và nhiều hơn nữa.
+- **Quan Hệ, Không Chỉ Thông Tin Đơn Lẻ**: CORE tổ chức tri thức của bạn, lưu cả thông tin và mối quan hệ cho một bộ nhớ sâu sắc như não thật.
+- **Người Dùng Là Chủ Sở Hữu**: Bạn quyết định điều gì giữ lại, cập nhật hoặc xóa và chia sẻ bộ nhớ qua công cụ bạn muốn, thoát khỏi sự phụ thuộc nhà cung cấp.
 
 ## 🎥 Video Demo
 
 [Xem Demo C.O.R.E](https://youtu.be/iANZ32dnK60)
 
-<img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
+<img width="7480" height="4672" alt="core-memory-graph" src="https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b" />
 
-## 🧩  Tính năng chính
+## 🧩 Tính Năng Chính
 
-- **Đồ thị bộ nhớ**: Hình dung cách các dữ kiện và sở thích của bạn liên kết với nhau
-- **Trò chuyện với bộ nhớ**: Đặt câu hỏi về bộ nhớ để có cái nhìn và hiểu biết tức thì
-- **Cắm và chạy**: Sử dụng bộ nhớ CORE ngay lập tức trong các ứng dụng như Cursor, Claude
+- **Đồ Thị Bộ Nhớ**: Hình dung cách các sự kiện và sở thích của bạn liên kết với nhau
+- **Trò Chuyện Với Bộ Nhớ**: Đặt câu hỏi về bộ nhớ để có cái nhìn và thấu hiểu tức thì
+- **Cắm & Chạy**: Sử dụng bộ nhớ CORE ngay lập tức trong các ứng dụng như Cursor, Claude
 
-## ☁️ Cài đặt C.O.R.E Cloud
+## ☁️ Thiết Lập C.O.R.E Cloud
 
-1. Đăng ký [Core Cloud](https://core.heysol.ai) và bắt đầu xây dựng đồ thị bộ nhớ của bạn.
-2. Thêm văn bản bạn muốn lưu vào bộ nhớ. Sau khi nhấn nút `+ Add`, đồ thị bộ nhớ của bạn sẽ được tạo ra.
-3. [Kết nối Core Memory MCP với Cursor](#connecting-core-mcp-with-cursor)
+1. Truy cập [core.heysol.ai](https://core.heysol.ai)
+2. Đăng ký bằng email của bạn
+3. Giới thiệu bản thân với CORE: “Tôi là kỹ sư phần mềm đang làm dự án React tên TaskMaster. Tôi thích TypeScript và dùng Tailwind để tạo giao diện.”
+   <img width="2048" height="1172" alt="add-memory" src="https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938" />
+4. [Kết nối Core MCP với Claude](https://docs.heysol.ai/providers/claude)
+5. [Kết nối Core MCP với Cursor](https://docs.heysol.ai/providers/cursor)
 
-## 💻 Cài đặt C.O.R.E Local
+## 💻 Tự Triển Khai C.O.R.E
 
-#### Yêu cầu trước
+Xem [tài liệu](https://docs.heysol.ai/self-hosting/docker) của chúng tôi để triển khai mô-đun
 
-1. Docker
-2. OpenAI API Key
+## Tài Liệu
 
+Khám phá tài liệu để tận dụng tối đa CORE
 
-> **Lưu ý:** Chúng tôi đang tích cực cải thiện hỗ trợ cho các mô hình Llama. Hiện tại, C.O.R.E chưa cung cấp kết quả tối ưu với các mô hình dựa trên Llama, nhưng chúng tôi đang tiến triển để đảm bảo khả năng tương thích và kết quả tốt hơn trong tương lai gần.
-> 
-#### Chạy C.O.R.E trên máy cục bộ
+- [Khái Niệm Cơ Bản](https://docs.heysol.ai/concepts/memory_graph)
+- [Tự Triển Khai](https://docs.heysol.ai/self-hosting/overview)
+- [Kết nối Core MCP với Claude](https://docs.heysol.ai/providers/claude)
+- [Kết nối Core MCP với Cursor](https://docs.heysol.ai/providers/cursor)
 
-1. **Sao chép biến môi trường**
+- [Khái Niệm Cơ Bản](https://docs.heysol.ai/overview)
+- [Tham Khảo API](https://docs.heysol.ai/local-setup)
 
-   Sao chép file môi trường mẫu sang `.env`:
+## 🧑‍💻 Hỗ Trợ
 
-
-   ```bash
-   cp .env.example .env
-   ```
-2. **Khởi động Ứng dụng**
-
-   Sử dụng Docker Compose để khởi động tất cả các dịch vụ cần thiết:
-
-
-   ```bash
-   docker-compose up
-   ```
-3. **Truy cập Ứng dụng**
-
-   Sau khi các container đang chạy, mở trình duyệt của bạn và truy cập [http://localhost:3000](http://localhost:3000).
-
-4. **Tạo Tài Khoản với Magic Link**
-
-   - Để tạo tài khoản, nhấn vào nút `Continue with email`
-
-     <img width="865" height="490" alt="Create account" src="https://github.com/user-attachments/assets/65de110b-2b1f-42a5-9b8a-954227d68d52" />
-
-   - Nhập email của bạn và nhấn vào nút `Send a Magic Link`
-
-     <img width="824" height="429" alt="Enter email" src="https://github.com/user-attachments/assets/76128b61-2086-48df-8332-38c2efa14087" />
-
-   - `Sao chép magic link từ log của terminal` và mở nó trên trình duyệt của bạn
-
-     <img width="1010" height="597" alt="Magic link" src="https://github.com/user-attachments/assets/777cb4b1-bb93-4d54-b6ab-f7147e65aa5c" />
-
-
-5. **Tạo Không Gian Riêng & Thêm Dữ Liệu**
-
-   - Trên dashboard, chuyển đến góc trên bên phải -> Gõ một tin nhắn, ví dụ: `Tôi thích chơi cầu lông`, và nhấn `+Add`.
-   - Ký ức của bạn sẽ được đưa vào hàng đợi xử lý; bạn có thể theo dõi trạng thái trong mục `Logs`.
-     
-     <img width="1496" height="691" alt="Core memory logs" src="https://github.com/user-attachments/assets/dc34a7af-fe52-4142-9ecb-49ddc4e0e854" />
-
-   - Khi quá trình xử lý hoàn tất, các node sẽ được thêm vào đồ thị tri thức riêng và hiển thị trên dashboard của bạn.
-   - Sau này bạn có thể chọn kết nối ký ức này với các công cụ khác hoặc giữ riêng tư.
-
-6. **Tìm kiếm Ký ức của Bạn**
-
-   - Sử dụng tính năng tìm kiếm của dashboard để truy vấn dữ liệu đã nhập trong không gian riêng của bạn.
-
-
-## Kết nối CORE MCP với Cursor
-
-1. Mở dashboard CORE và điều hướng đến mục API để tạo một API token mới.
-2. Trên Cursor, vào: Settings → Tools & Integrations → New MCP Server.
-3. Thêm máy chủ CORE MCP sử dụng định dạng cấu hình bên dưới. Đảm bảo thay giá trị API_TOKEN bằng token bạn đã tạo ở bước 1.
-
-   Cấu hình MCP để thêm vào Cursor
-
-
-   ```json
-   {
-     "mcpServers": {
-       "memory": {
-         "command": "npx",
-         "args": ["-y", "@redplanethq/core-mcp"],
-         "env": {
-           "API_TOKEN": "YOUR_API_TOKEN_HERE",
-           "API_BASE_URL": "https://core.heysol.ai",
-           "SOURCE": "cursor"
-         }
-       }
-     }
-   }
-   ```
-4. Vào Cài đặt -> Quy tắc người dùng -> Quy tắc mới -> và thêm quy tắc dưới đây để đảm bảo tất cả các tương tác trò chuyện của bạn được lưu trữ trong bộ nhớ CORE
-
-
-```
-After every interaction, update the memory with the user's query and the assistant's
-response to core-memory mcp. sessionId should be the uuid of the conversation
-```
-## Tài liệu
-
-Khám phá tài liệu của chúng tôi để tận dụng tối đa CORE
-- [Khái niệm cơ bản](https://docs.heysol.ai/core/overview)
-- [Tham khảo API](https://docs.heysol.ai/core/local-setup)
-- [Kết nối Core Memory MCP với Cursor](#connecting-core-mcp-with-cursor)
-
-
-## 🧑‍💻 Hỗ trợ
 Có câu hỏi hoặc góp ý? Chúng tôi luôn sẵn sàng hỗ trợ:
+
 - Discord: [Tham gia kênh core-support](https://discord.gg/YGUZcvDjUa)
-- Tài liệu: [docs.heysol.ai/core](https://docs.heysol.ai/core/overview)
+- Tài liệu: [docs.heysol.ai](https://docs.heysol.ai)
 - Email: manik@poozle.dev
 
 ## Hướng dẫn sử dụng
@@ -186,14 +106,14 @@ Có câu hỏi hoặc góp ý? Chúng tôi luôn sẵn sàng hỗ trợ:
 **Lưu trữ:**
 
 - Lịch sử hội thoại
-- Tùy chọn người dùng
-- Ngữ cảnh tác vụ
+- Sở thích của người dùng
+- Ngữ cảnh nhiệm vụ
 - Tài liệu tham khảo
 
 **Không lưu trữ:**
 
 - Dữ liệu nhạy cảm (PII)
-- Thông tin đăng nhập
+- Thông tin xác thực
 - Nhật ký hệ thống
 - Dữ liệu tạm thời
 
@@ -204,9 +124,8 @@ Có câu hỏi hoặc góp ý? Chúng tôi luôn sẵn sàng hỗ trợ:
 </a>
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
 
 ---

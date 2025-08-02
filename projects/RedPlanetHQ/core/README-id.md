@@ -50,138 +50,58 @@
 
 **Contextual Observation & Recall Engine**
 
-C.O.R.E adalah grafik memori portabel yang dibangun dari interaksi LLM dan data pribadi Anda, membuat semua konteks dan riwayat alur kerja Anda dapat diakses oleh alat AI mana pun, layaknya otak digital. Ini menghilangkan kebutuhan untuk berbagi konteks berulang kali. Tujuannya adalah untuk menyediakan:
+C.O.R.E adalah grafik memori portabel yang dibangun dari interaksi llm dan data pribadi Anda, membuat semua konteks dan riwayat alur kerja Anda dapat diakses oleh alat AI apa pun, layaknya otak digital. Ini menghilangkan kebutuhan untuk berbagi konteks berulang kali. Tujuannya adalah untuk menyediakan:
 
-- **Memori Terpadu dan Portabel**: Tambahkan dan panggil kembali konteks secara mulus, serta hubungkan memori Anda di aplikasi seperti Claude, Cursor, Windsurf dan lainnya.
-- **Relasional, Bukan Hanya Fakta Datar**: CORE mengorganisasi pengetahuan Anda, menyimpan fakta sekaligus hubungan untuk memori yang lebih dalam dan kaya seperti otak nyata.
-- **Dimiliki Pengguna**: Anda yang menentukan apa yang disimpan, diperbarui, dihapus, dan membagikan memori Anda ke alat yang diinginkan tanpa terikat vendor.
+- **Memori Terpadu dan Portabel**: Tambahkan dan panggil konteks dengan mulus, serta hubungkan memori Anda di aplikasi seperti Claude, Cursor, Windsurf, dan lainnya.
+- **Relasional, Bukan Hanya Fakta Datar**: CORE mengatur pengetahuan Anda, menyimpan fakta dan hubungan, untuk memori yang lebih dalam dan kaya layaknya otak nyata.
+- **Dimiliki Pengguna**: Anda yang menentukan apa yang disimpan, diperbarui, atau dihapus, dan membagikan memori Anda ke alat yang Anda inginkan tanpa terikat vendor.
 
-## 🎥 Video Demo
+## 🎥 Demo Video
 
 [Lihat Demo C.O.R.E](https://youtu.be/iANZ32dnK60)
 
-<img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
+<img width="7480" height="4672" alt="core-memory-graph" src="https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b" />
 
-## 🧩  Fitur Utama
+## 🧩 Fitur Utama
 
 - **Grafik Memori**: Visualisasikan bagaimana fakta dan preferensi Anda saling terhubung
-- **Chat dengan Memori**: Ajukan pertanyaan tentang memori untuk wawasan dan pemahaman instan
-- **Plug n Play**: Langsung gunakan memori CORE di aplikasi seperti Cursor, Claude
+- **Chat dengan Memori**: Ajukan pertanyaan tentang memori untuk mendapatkan wawasan dan pemahaman instan
+- **Plug n Play**: Gunakan memori CORE secara instan di aplikasi seperti Cursor, Claude
 
 ## ☁️ Pengaturan C.O.R.E Cloud
 
-1. Daftar ke [Core Cloud](https://core.heysol.ai) dan mulai bangun grafik memori Anda.
-2. Tambahkan teks yang ingin Anda simpan di memori. Setelah mengklik tombol `+ Add`, grafik memori Anda akan dihasilkan.
-3. [Hubungkan Core Memory MCP dengan Cursor](#connecting-core-mcp-with-cursor)
+1. Kunjungi [core.heysol.ai](https://core.heysol.ai)
+2. Daftar menggunakan email Anda
+3. Ceritakan tentang diri Anda ke CORE: “Saya seorang software engineer yang mengerjakan proyek React bernama TaskMaster. Saya lebih suka TypeScript dan menggunakan Tailwind untuk styling.”
+   <img width="2048" height="1172" alt="add-memory" src="https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938" />
+4. [Hubungkan Core MCP dengan Claude](https://docs.heysol.ai/providers/claude)
+5. [Hubungkan Core MCP dengan Cursor](https://docs.heysol.ai/providers/cursor)
 
-## 💻 Pengaturan Lokal C.O.R.E
+## 💻 C.O.R.E Self Hosting
 
-#### Prasyarat
+Lihat [dokumentasi kami](https://docs.heysol.ai/self-hosting/docker) untuk penerapan modular
 
-1. Docker
-2. OpenAI API Key
-
-
-> **Catatan:** Kami sedang aktif meningkatkan dukungan untuk model Llama. Saat ini, C.O.R.E belum memberikan hasil optimal dengan model berbasis Llama, namun kami terus berupaya agar kompatibilitas dan output-nya semakin baik dalam waktu dekat.
-> 
-#### Jalankan C.O.R.E secara lokal
-
-1. **Salin Variabel Lingkungan**
-
-   Salin file environment contoh ke `.env`:
-
-
-   ```bash
-   cp .env.example .env
-   ```
-2. **Mulai Aplikasi**
-
-   Gunakan Docker Compose untuk memulai semua layanan yang diperlukan:
-
-
-   ```bash
-   docker-compose up
-   ```
-3. **Akses Aplikasi**
-
-   Setelah kontainer berjalan, buka browser Anda dan pergi ke [http://localhost:3000](http://localhost:3000).
-
-4. **Buat Akun dengan Magic Link**
-
-   - Untuk membuat akun, klik tombol `Continue with email`
-
-     <img width="865" height="490" alt="Create account" src="https://github.com/user-attachments/assets/65de110b-2b1f-42a5-9b8a-954227d68d52" />
-
-   - Masukkan email Anda dan klik tombol `Send a Magic Link`
-
-     <img width="824" height="429" alt="Enter email" src="https://github.com/user-attachments/assets/76128b61-2086-48df-8332-38c2efa14087" />
-
-   - `Salin magic link dari log terminal` dan buka di browser Anda
-
-     <img width="1010" height="597" alt="Magic link" src="https://github.com/user-attachments/assets/777cb4b1-bb93-4d54-b6ab-f7147e65aa5c" />
-
-
-5. **Buat Ruang Pribadi & Tambahkan Data**
-
-   - Di dashboard, pergi ke bagian kanan atas -> Ketik pesan, misal `Saya suka bermain bulu tangkis`, lalu klik `+Add`.
-   - Memori Anda akan masuk antrean pemrosesan; Anda dapat memantau statusnya di bagian `Logs`.
-     
-     <img width="1496" height="691" alt="Core memory logs" src="https://github.com/user-attachments/assets/dc34a7af-fe52-4142-9ecb-49ddc4e0e854" />
-
-   - Setelah pemrosesan selesai, node akan ditambahkan ke knowledge graph pribadi Anda dan terlihat di dashboard.
-   - Anda dapat memilih untuk menghubungkan memori ini ke alat lain atau tetap menjaganya tetap privat.
-
-6. **Cari Memori Anda**
-
-   - Gunakan fitur pencarian di dashboard untuk menelusuri data yang telah Anda masukkan dalam ruang privat Anda.
-
-
-## Menghubungkan CORE MCP dengan Cursor
-
-1. Buka dashboard CORE dan navigasi ke bagian API untuk membuat token API baru.
-2. Di Cursor, masuk ke: Settings → Tools & Integrations → New MCP Server.
-3. Tambahkan server CORE MCP menggunakan format konfigurasi di bawah ini. Pastikan untuk mengganti nilai API_TOKEN dengan token yang Anda buat di langkah 1.
-
-   Konfigurasi MCP untuk ditambahkan di Cursor
-
-
-   ```json
-   {
-     "mcpServers": {
-       "memory": {
-         "command": "npx",
-         "args": ["-y", "@redplanethq/core-mcp"],
-         "env": {
-           "API_TOKEN": "YOUR_API_TOKEN_HERE",
-           "API_BASE_URL": "https://core.heysol.ai",
-           "SOURCE": "cursor"
-         }
-       }
-     }
-   }
-   ```
-4. Pergi ke Pengaturan-> Aturan Pengguna -> Aturan Baru -> dan tambahkan aturan di bawah ini untuk memastikan semua interaksi chat Anda disimpan di memori CORE
-
-
-```
-After every interaction, update the memory with the user's query and the assistant's
-response to core-memory mcp. sessionId should be the uuid of the conversation
-```
 ## Dokumentasi
 
 Jelajahi dokumentasi kami untuk memaksimalkan penggunaan CORE
-- [Konsep Dasar](https://docs.heysol.ai/core/overview)
-- [Referensi API](https://docs.heysol.ai/core/local-setup)
-- [Hubungkan Core Memory MCP dengan Cursor](#connecting-core-mcp-with-cursor)
 
+- [Konsep Dasar](https://docs.heysol.ai/concepts/memory_graph)
+- [Self Hosting](https://docs.heysol.ai/self-hosting/overview)
+- [Hubungkan Core MCP dengan Claude](https://docs.heysol.ai/providers/claude)
+- [Hubungkan Core MCP dengan Cursor](https://docs.heysol.ai/providers/cursor)
+
+- [Konsep Dasar](https://docs.heysol.ai/overview)
+- [Referensi API](https://docs.heysol.ai/local-setup)
 
 ## 🧑‍💻 Dukungan
+
 Punya pertanyaan atau masukan? Kami siap membantu:
+
 - Discord: [Bergabung di channel core-support](https://discord.gg/YGUZcvDjUa)
-- Dokumentasi: [docs.heysol.ai/core](https://docs.heysol.ai/core/overview)
+- Dokumentasi: [docs.heysol.ai](https://docs.heysol.ai)
 - Email: manik@poozle.dev
 
-## Pedoman Penggunaan
+## Panduan Penggunaan
 
 **Simpan:**
 
@@ -204,9 +124,8 @@ Punya pertanyaan atau masukan? Kami siap membantu:
 </a>
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
 
 ---

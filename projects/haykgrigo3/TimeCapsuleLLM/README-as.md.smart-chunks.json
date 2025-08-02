@@ -1,12 +1,12 @@
 [
   {
     "Id": 1,
-    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN\">简体中文</a>\n        | <a href=\"#\" title=\"Coming soon\">繁體中文 (coming soon)</a> |\n        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko\">한국어</a>\n        | <a href=\"#\" title=\"Coming soon\">हिन्दी (coming soon)</a> |\n        | <a href=\"#\" title=\"Coming soon\">ไทย (coming soon)</a> |\n        | <a href=\"#\" title=\"Coming soon\">Français (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Deutsch (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Español (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Italiano (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Русский (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Português (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Nederlands (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Polski (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">العربية (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">فارسی (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Türkçe (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Tiếng Việt (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Bahasa Indonesia (coming soon)</a>\n\n      </div>\n    </div>\n  </details>\n</div>\n\n# TimeCapsule LLM\nAn LLM trained only on data from certain time periods to reduce modern bias.\n\nImagine if an AI model didnt just pretend to be historical but actually was.\n\nBuilt on [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) Core training scripts and model architecture are his work. \n\n# Project Goals \n\nTimeCapsule LLM is an expirimental project that will only be trained on texts written during certain time periods. The goal is to simulate the worldview and language of specific historical eras.\n\n# Why fine tuning isn't enough \n\nIf you just fine tune a pre-trained model, your LLM is still gonna know modern concepts. Of course achieving zero modern bias is difficult but I want to get as close as possible to this. Getting no modern bias requires training a model from scratch.\n\n# Expected outcomes \n\nHopefully when finished, this model will not know modern concepts and will not be able to reason beyond what it's been trained on. It shouldnt recognize modern concepts/vocab and I hope it doesn't hallucinate modern knowledge.\n\n# Progress Updates\n\n## July 9th, 2025\n\nI've set my time period for 1800-1850 and region: London \n\nI've gathered a list of texts, books, documents \n\nSo far I've gotten 50 as txt files and will begin training NanoGPT soon \n\nWill update this as long as progress is made\n\n## July 13th, 2025\n\nTrained nanoGPT with 187MB of historial text data. \n\n## July 15th, 2025\n\nI started downloading texts for the second training run. I'm getting everything from Internet Archive and I've expanded the time period to 1800-1875. To get a diverse range of texts, you can use subject and search filters for publication location, time period and subjects on Internet Archive. \n\n![Search Filters](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/searchfilter.jpg)\n\n## July 16th, 2025\n\nI downloaded around 500 txt files from Internet Archive and after cleaning them (just deleting whitespaces, Gutenberg headers, etc) I have around 500MB of data. It's a tiny dataset but last time I trained off of 187MB so there should be at least some kind of noticable difference in the output after I train the second model. I'm hoping this model can at least produce more coherent sentences that kind of make sense. It's not a guarantee of course since this is still a tiny tiny dataset, but it's more than what I used last time. \n\nThis should be doable on my own hardware, it's good too because I can hopefully see some kind of improvements before I jump to a bigger dataset which would require me to rent a GPU. But don't worry I still plan on renting a GPU soon, but before I do that I wanna make sure my dataset is as curated and clean as possible. One of the issues I have is cleaning, a lot of these txt files have gibberish mixed in. The scripts I've used for cleaning do work but they're not 100% effective. \n\nI will train this dataset today and it should take around 4-5 hours. Once it's done and I test it, I will give updates. Thank you again to everyone whos checking out my project, I've even had some people even giving me links to OCR resources so Thank you! I hope more people try this out and expirement with they're own datasets. \n\n## July 28th, 2025 \n\nI've gone ahead and uploaded v0.5 to Hugging Face, [Check it out](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) if youd like. You can now download my repo and run it locally. Unfortunately nanoGPT doesn't work natively with HuggingFace, so you'll have to download and run the model locally. \n\nAlso I will begin curating data for my next training run, I believe I'll need maybe 5-10x more data to achieve reasoning capabilities. \n\n### Training Update \n\nI started training on a 435MB (108 M tokens) corpus, it's going pretty smooth right now. Train loss dropped from 10.9 to 4.9 in the first 2800 iterations. I expect it'll take around 8 or 9 hours to complete. I'll post another update once it's done.\n\n## July 17th, 2025 2:13AM\n\nThe training is done for the second model, it took my 4060 around 8 hours and 40 minutes (3,900 iters/hr) for 33,000 iters (5 epochs). Final train loss was 3.73. The outputs were suprisingly good it genuinely generates coherent 19th century style sentences now. \n\n# V0 Model Behavior & Limitations \n\nEarly prompts show the model responding with 1800's language and behavior. For example, I prompted it with \"Who art Henry?\" and it replied \"I know that man, I have did not a black, the storm.\" and yeah that sentence makes no sense but the LLM is recognizing I'm asking about a person. \n\n![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)",
-    "ContentSha": "RLQDbR0VcjBvqg5kgkBKD3KwC/2mcZW9xrm3vgATFC0=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN\">简体中文</a>\n        | <a href=\"#\" title=\"Coming soon\">繁體中文 (coming soon)</a> |\n        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko\">한국어</a>\n        | <a href=\"#\" title=\"Coming soon\">हिन्दी (coming soon)</a> |\n        | <a href=\"#\" title=\"Coming soon\">ไทย (coming soon)</a> |\n        | <a href=\"#\" title=\"Coming soon\">Français (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Deutsch (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Español (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Italiano (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Русский (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Português (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Nederlands (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Polski (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">العربية (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">فارسی (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Türkçe (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Tiếng Việt (coming soon)</a>\n        | <a href=\"#\" title=\"Coming soon\">Bahasa Indonesia (coming soon)</a>\n\n      </div>\n    </div>\n  </details>\n</div>\n\n# TimeCapsule LLM\nAn LLM trained only on data from certain time periods to reduce modern bias.\n\nImagine if an AI model didnt just pretend to be historical but actually was.\n\nBuilt on [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) Core training scripts and model architecture are his work. \n\n# Project Goals \n\nTimeCapsule LLM is an expirimental project that will only be trained on texts written during certain time periods. The goal is to simulate the worldview and language of specific historical eras.\n\n# Why fine tuning isn't enough \n\nIf you just fine tune a pre-trained model, your LLM is still gonna know modern concepts. Of course achieving zero modern bias is difficult but I want to get as close as possible to this. Getting no modern bias requires training a model from scratch.\n\n# Expected outcomes \n\nHopefully when finished, this model will not know modern concepts and will not be able to reason beyond what it's been trained on. It shouldnt recognize modern concepts/vocab and I hope it doesn't hallucinate modern knowledge.\n\n# Progress Updates\n\n## July 9th, 2025\n\nI've set my time period for 1800-1850 and region: London \n\nI've gathered a list of texts, books, documents \n\nSo far I've gotten 50 as txt files and will begin training NanoGPT soon \n\nWill update this as long as progress is made\n\n## July 13th, 2025\n\nTrained nanoGPT with 187MB of historial text data. \n\n## July 15th, 2025\n\nI started downloading texts for the second training run. I'm getting everything from Internet Archive and I've expanded the time period to 1800-1875. To get a diverse range of texts, you can use subject and search filters for publication location, time period and subjects on Internet Archive. \n\n![Search Filters](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/searchfilter.jpg)\n\n## July 16th, 2025\n\nI downloaded around 500 txt files from Internet Archive and after cleaning them (just deleting whitespaces, Gutenberg headers, etc) I have around 500MB of data. It's a tiny dataset but last time I trained off of 187MB so there should be at least some kind of noticable difference in the output after I train the second model. I'm hoping this model can at least produce more coherent sentences that kind of make sense. It's not a guarantee of course since this is still a tiny tiny dataset, but it's more than what I used last time. \n\nThis should be doable on my own hardware, it's good too because I can hopefully see some kind of improvements before I jump to a bigger dataset which would require me to rent a GPU. But don't worry I still plan on renting a GPU soon, but before I do that I wanna make sure my dataset is as curated and clean as possible. One of the issues I have is cleaning, a lot of these txt files have gibberish mixed in. The scripts I've used for cleaning do work but they're not 100% effective. \n\nI will train this dataset today and it should take around 4-5 hours. Once it's done and I test it, I will give updates. Thank you again to everyone whos checking out my project, I've even had some people even giving me links to OCR resources so Thank you! I hope more people try this out and expirement with they're own datasets. \n\n\n### Training Update \n\nI started training on a 435MB (108 M tokens) corpus, it's going pretty smooth right now. Train loss dropped from 10.9 to 4.9 in the first 2800 iterations. I expect it'll take around 8 or 9 hours to complete. I'll post another update once it's done.\n\n## July 17th, 2025 2:13AM\n\nThe training is done for the second model, it took my 4060 around 8 hours and 40 minutes (3,900 iters/hr) for 33,000 iters (5 epochs). Final train loss was 3.73. The outputs were suprisingly good it genuinely generates coherent 19th century style sentences now. \n\n## July 28th, 2025 \n\nI've gone ahead and uploaded v0.5 to Hugging Face, [Check it out](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) if youd like. You can now download my repo and run it locally. Unfortunately nanoGPT doesn't work natively with HuggingFace, so you'll have to download and run the model locally. \n\nAlso I will begin curating data for my next training run, I believe I'll need maybe 5-10x more data to achieve reasoning capabilities. \n\n\n# V0 Model Behavior & Limitations \n\nEarly prompts show the model responding with 1800's language and behavior. For example, I prompted it with \"Who art Henry?\" and it replied \"I know that man, I have did not a black, the storm.\" and yeah that sentence makes no sense but the LLM is recognizing I'm asking about a person. ",
+    "ContentSha": "yAiPsWv+OgjAGuQjWuzA/MnKkx9kDkKPzTOcVSkDPLo=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 ভাষা</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=en\">ইংৰাজী</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN\">সৰল চীনা</a>\n        | <a href=\"#\" title=\"Coming soon\">প্ৰাচীন চীনা (চিগা আহি)</a> |\n        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja\">জাপানী</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko\">কোৰীয়</a>\n        | <a href=\"#\" title=\"Coming soon\">হিন্দী (চিগা আহি)</a> |\n        | <a href=\"#\" title=\"Coming soon\">থাই (চিগা আহি)</a> |\n        | <a href=\"#\" title=\"Coming soon\">ফ্ৰেঞ্চ (চিগা আহি)</a>\n        | <a href=\"#\" title=\"Coming soon\">জাৰ্মান (চিগা আহি)</a>\n        | <a href=\"#\" title=\"Coming soon\">স্পেনিছ (চিগা আহি)</a>\n        | <a href=\"#\" title=\"Coming soon\">ইটালিয়ান (চিগা আহি)</a>\n        | <a href=\"#\" title=\"Coming soon\">ৰাছিয়ান (চিগা আহি)</a>\n        | <a href=\"#\" title=\"Coming soon\">পৰ্তুগীজ (চিগা আহি)</a>\n        | <a href=\"#\" title=\"Coming soon\">ডাচ (চিগা আহি)</a>\n        | <a href=\"#\" title=\"Coming soon\">পোলিচ (চিগা আহি)</a>\n        | <a href=\"#\" title=\"Coming soon\">আৰবী (চিগা আহি)</a>\n        | <a href=\"#\" title=\"Coming soon\">ফাৰ্ছী (চিগা আহি)</a>\n        | <a href=\"#\" title=\"Coming soon\">তুৰ্কী (চিগা আহি)</a>\n        | <a href=\"#\" title=\"Coming soon\">ভিয়েতনামী (চিগা আহি)</a>\n        | <a href=\"#\" title=\"Coming soon\">ইন্দোনেছিয়ান (চিগা আহি)</a>\n\n      </div>\n    </div>\n  </details>\n</div>\n\n# TimeCapsule LLM\nএখন LLM যি কেৱল নিৰ্দিষ্ট সময়ৰ তথ্যত শিকোৱা হৈছে যাতে আধুনিক পক্ষপাত কম হয়।\n\nভাবক, এটা AI মডেল কেৱল ঐতিহাসিকভাৱে আচৰণ নকৰে, সেয়া সঁচাকৈয়ে আছিলো।\n\n[Andrej Karpathy ৰ nanoGPT](https://github.com/karpathy/nanoGPT) ত নিৰ্মিত। মুখ্য শিকন স্ক্ৰিপ্ট আৰু মডেল স্থাপত্য তেওঁৰ কাম। \n\n# প্ৰকল্পৰ লক্ষ্যসমূহ\n\nTimeCapsule LLM এটা পৰীক্ষামূলক প্ৰকল্প, যিটো কেৱল নিৰ্দিষ্ট সময়ত লিখা পাঠ্যতহে শিকোৱা হ'ব। লক্ষ্য হৈছে, নিৰ্দিষ্ট ঐতিহাসিক যুগৰ দৃষ্টিভংগি আৰু ভাষা অনুকৰণ কৰা।\n\n# কিয় কেৱল fine tuning যথেষ্ট নহয়\n\nআপুনি কেৱল এটা pre-trained মডেলক fine tune কৰিলে, আপোনাৰ LLM-এ এতিয়াও আধুনিক ধাৰণা জানিব। সম্পূৰ্ণ আধুনিক পক্ষপাত নোহোৱা কঠিন, কিন্তু মই এইটোত সৰ্বাধিক ওচৰলৈ যাব বিচাৰোঁ। আধুনিক পক্ষপাত শূন্য কৰিবলৈ মডেলক গোড়াৰ পৰা শিকাব লাগিব।\n\n# প্রত্যাশিত ফলাফলসমূহ\n\nআশা কৰোঁ, শেষ হোৱাৰ পিছত এই মডেলটোৱে আধুনিক ধাৰণা নাজানিব আৰু কেৱল শিকোৱা তথ্যৰ বাহিৰত যুক্তি কৰিব নোৱাৰিব। ইয়াই আধুনিক শব্দ/ধাৰণা চিনিব নোৱাৰে, আৰু মই আশা কৰোঁ আধুনিক জ্ঞান কল্পনা নকৰে।\n\n# অগ্ৰগতিৰ আপডেটসমূহ\n\n## ৯ জুলাই, ২০২৫\n\nমই মোৰ সময়সীমা ১৮০০-১৮৫০ আৰু অঞ্চল: লণ্ডন নিৰ্ধাৰণ কৰিছোঁ\n\nমই পাঠ্য, কিতাপ, নথিপত্ৰৰ এটি তালিকা সংগ্ৰহ কৰিছোঁ\n\nএতিয়ালৈকে ৫০টা txt ফাইল পাইছোঁ আৰু শীঘ্ৰে NanoGPT ত শিকন আৰম্ভ কৰিম\n\nঅগ্ৰগতি অব্যাহত থাকিলে ইয়াত আপডেট দিম\n\n## ১৩ জুলাই, ২০২৫\n\nnanoGPT ত ১৮৭MB ঐতিহাসিক তথ্যৰ সৈতে শিকোৱা হৈছে।\n\n## ১৫ জুলাই, ২০২৫\n\nমই দ্বিতীয়বাৰ শিকনৰ বাবে পাঠ্য ডাউনলোড আৰম্ভ কৰিছোঁ। সকলো Internet Archive ৰ পৰা সংগ্ৰহ কৰিছোঁ আৰু সময়সীমা ১৮০০-১৮৭৫ লৈ বৃদ্ধি কৰিছোঁ। বিভিন্ন ধৰণৰ পাঠ্য পোৱাৰ বাবে, Internet Archive ত বিষয় আৰু সন্ধান ফিল্টাৰ ব্যৱহাৰ কৰিব পাৰে প্ৰকাশস্থান, সময় আৰু বিষয় অনুসৰি।\n\n![Search Filters](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/searchfilter.jpg)\n\n## ১৬ জুলাই, ২০২৫\n\nমই Internet Archive ৰ পৰা প্ৰায় ৫০০টা txt ফাইল ডাউনলোড কৰিছোঁ আৰু (কেৱল whitespaces, Gutenberg header ইত্যাদি আঁতৰাই) প্ৰায় ৫০০MB তথ্য পাইছোঁ। ই এটা সৰু dataset কিন্তু আগতে মই কেৱল ১৮৭MB ত শিকিছোঁ, সেয়ে দ্বিতীয় মডেলৰ পিছত output ত কোনো প্ৰভাৱ দেখা যাবই। আশা কৰিছোঁ এই মডেলটোৱে অধিক সুসংগত বাক্য উলিয়াব পাৰে। নিশ্চয়তা নাই কাৰণ এতিয়াও সৰু dataset, কিন্তু আগৰ তুলনাত বেছি।\n\nএইটো মোৰ নিজা hardware ত কৰিব পাৰিম, ভাল হৈছে কাৰণ ডাঙৰ dataset লৈ যাবৰ আগত কিছু উন্নতি দেখা যাব বুলি আশা। কিন্তু চিন্তা নকৰিব, মই শীঘ্ৰে GPU ভাড়া ল’বই, কিন্তু তেতিয়ালৈকে মোৰ dataset যত্নসহকাৰে পৰিষ্কাৰ কৰিব বিচাৰোঁ। এটা সমস্যা হৈছে পৰিষ্কাৰ; বহু txt ফাইলত বেয়া ডাটা থাকে। মই যি স্ক্ৰিপ্ট ব্যৱহাৰ কৰিছোঁ, সেয়া কাম কৰে, কিন্তু ১০০% নহয়।\n\nমই আজি এই dataset ত শিকাম আৰু প্ৰায় ৪-৫ ঘন্টা লাগিব। শেষ হ’লে পৰীক্ষা কৰি আপডেট দিম। মোৰ প্ৰকল্প চাই থকা সকলোকে ধন্যবাদ, কিছুমানে OCR resources ৰ লিংকো দিছে, ধন্যবাদ! আশা কৰোঁ, বহুতে নিজৰ dataset লৈ চেষ্টা কৰক।\n\n## ২৮ জুলাই, ২০২৫\n\nমই Hugging Face ত v0.5 আপলোড কৰিছোঁ, [চাব পাৰে](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) যদি বিচাৰে। এতিয়া মোৰ repo ডাউনলোড কৰি স্থানীয়ভাৱে চলাব পাৰে। দু:খিত, nanoGPT HuggingFace ৰ সৈতে native কাম নকৰে, সেয়ে মডেল স্থানীয়ভাৱে চলাব লাগিব।\n\nমই শীঘ্ৰে পৰৱৰ্তী শিকনৰ বাবে ডাটা সংগ্ৰহ আৰম্ভ কৰিম, বিশ্বাস কৰোঁ ৫-১০ গুণ বেছি ডাটা লাগিব যুক্তি ক্ষমতা পাবলৈ।\n\n### শিকন আপডেট\n\nমই ৪৩৫MB (১০৮ M token) ৰ corpus ত শিকন আৰম্ভ কৰিছোঁ, বৰ বৰ ভালকৈ চলি আছে। Train loss ১০.৯ ৰ পৰা ৪.৯ লৈ নামিছে প্ৰথম ২৮০০ iteration ত। ৮-৯ ঘণ্টাৰ ভিতৰত সম্পূৰ্ণ হ’ব বুলি আশা। শেষ হ’লে আৰু আপডেট দিম।\n\n## ১৭ জুলাই, ২০২৫ ২:১৩AM\n\nদ্বিতীয় মডেলৰ শিকন শেষ হৈছে, মোৰ ৪০৬০ ত প্ৰায় ৮ ঘণ্টা ৪০ মিনিট (৩,৯০০ iteration/ঘণ্টা) লৈ ৩৩,০০০ iteration (৫ epoch) হ’ল। Final train loss আছিল ৩.৭৩। Output গৰাকী আচৰিতভাৱে ভাল, এতিয়া সঁচাকৈ ১৯শ শতিকীৰ ধৰণৰ বাক্য উলিয়াব পাৰে।\n\n# V0 মডেলৰ আচৰণ আৰু সীমাবদ্ধতা\n\nপ্ৰাথমিক prompt ত মডেলটোৱে ১৮শ শতিকীৰ ভাষা আৰু আচৰণত সঁজুলিত হয়। উদাহৰণস্বৰূপে, মই \"Who art Henry?\" প্ৰশ্ন কৰোঁতে ই উত্তৰ দিলে \"I know that man, I have did not a black, the storm.\" আৰু হঁয়, বাক্যটো অসংগতিপূৰ্ণ, কিন্তু LLM এ বুজিছে যে মই এজন ব্যক্তি বিষয়ে সুধিছোঁ।\n\n![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)\n",
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 ভাষা</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=en\">ইংৰাজী</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN\">সৰল চীনা</a>\n        | <a href=\"#\" title=\"Coming soon\">পৰম্পৰাগত চীনা (চিগৈ অহা)</a> |\n        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja\">জাপানী</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko\">কোৰিয়ান</a>\n        | <a href=\"#\" title=\"Coming soon\">হিন্দী (চিগৈ অহা)</a> |\n        | <a href=\"#\" title=\"Coming soon\">থাই (চিগৈ অহা)</a> |\n        | <a href=\"#\" title=\"Coming soon\">ফ্ৰেঞ্চ (চিগৈ অহা)</a>\n        | <a href=\"#\" title=\"Coming soon\">জাৰ্মান (চিগৈ অহা)</a>\n        | <a href=\"#\" title=\"Coming soon\">স্পেনিছ (চিগৈ অহা)</a>\n        | <a href=\"#\" title=\"Coming soon\">ইটালিয়ান (চিগৈ অহা)</a>\n        | <a href=\"#\" title=\"Coming soon\">ৰাছিয়ান (চিগৈ অহা)</a>\n        | <a href=\"#\" title=\"Coming soon\">পৰ্তুগীজ (চিগৈ অহা)</a>\n        | <a href=\"#\" title=\"Coming soon\">ডাচ (চিগৈ অহা)</a>\n        | <a href=\"#\" title=\"Coming soon\">প'লিছ (চিগৈ অহা)</a>\n        | <a href=\"#\" title=\"Coming soon\">আৰবী (চিগৈ অহা)</a>\n        | <a href=\"#\" title=\"Coming soon\">ফাৰ্ছী (চিগৈ অহা)</a>\n        | <a href=\"#\" title=\"Coming soon\">টাৰ্কী (চিগৈ অহা)</a>\n        | <a href=\"#\" title=\"Coming soon\">ভিয়েটনামিছ (চিগৈ অহা)</a>\n        | <a href=\"#\" title=\"Coming soon\">ইন্দোনেছিয়ান (চিগৈ অহা)</a>\n\n      </div>\n    </div>\n  </details>\n</div>\n\n# TimeCapsule LLM\nএলএলএম এটা কেৱল নিৰ্দিষ্ট সময়ৰ ডাটাতকৈ প্ৰশিক্ষণ দিয়া হৈছে যাতে আধুনিক পক্ষপাত কমোৱা যায়।\n\nভাবক, যদি এটা AI মডেল কেৱল ভাও নকৰিল, বৰং সঁচাকৈয়ে ঐতিহাসিক হ’ব পাৰে।\n\n[nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT)ৰ ওপৰত নিৰ্মিত। মূল প্ৰশিক্ষণ স্ক্ৰিপ্ট আৰু মডেল স্থাপত্য তেওঁৰ কাম।\n\n# প্ৰকল্পৰ লক্ষ্যসমূহ\n\nTimeCapsule LLM এটা প্ৰয়োগধৰ্মী প্ৰকল্প যিটো কেৱল নিৰ্দিষ্ট সময়ৰ লিখিত পাঠ্যত প্ৰশিক্ষণ দিয়া হ’ব। উদ্দেশ্য হৈছে নিৰ্দিষ্ট ঐতিহাসিক যুগৰ দৃষ্টিভংগী আৰু ভাষা অনুকৰণ কৰা।\n\n# কেৱল ফাইন-টিউনিং যথেষ্ট নহয় কিয়\n\nআপুনি যদি কেৱল প্ৰি-ট্ৰেইনড মডেল ফাইন-টিউন কৰে, তেতিয়াও আপোনাৰ এলএলএম এ আধুনিক ধাৰণা জানিব। সম্পূৰ্ণ আধুনিক পক্ষপাত মুক্ত হোৱাটো কঠিন, কিন্তু মই ইয়াৰ ওচৰলৈ যাব খুজিছোঁ। আধুনিক পক্ষপাত একেবাৰে নাথাকিবলৈ মডেলটো আৰম্ভণিৰে প্ৰশিক্ষণ দিয়াটো প্ৰয়োজন।\n\n# প্ৰত্যাশিত ফলাফলসমূহ\n\nআশা কৰোঁ, সম্পূৰ্ণ হ’লে এই মডেলটোৱে আধুনিক ধাৰণা নাজানিব আৰু কেৱল যি তথ্যত প্ৰশিক্ষিত হৈছে তাৰ বাহিৰত যুক্তি কৰিব নোৱাৰিব। ই আধুনিক শব্দ/ধাৰণা চিনাকি নকৰিব লাগিব আৰু মই আশা কৰোঁ ই আধুনিক জ্ঞান কল্পনা নকৰে।\n\n# অগ্ৰগতিৰ আপডেটসমূহ\n\n## জুলাই ৯, ২০২৫\n\nমই সময়সীমা ১৮০০-১৮৫০ আৰু অঞ্চল: লণ্ডন নিৰ্ধাৰণ কৰিছোঁ\n\nমই পাঠ্য, কিতাপ, নথিপত্ৰৰ এটা তালিকা সংগ্ৰহ কৰিছোঁ\n\nএতিয়ালৈকে মই ৫০টা txt ফাইল পাইছোঁ আৰু NanoGPT প্ৰশিক্ষণ আৰম্ভ কৰিম\n\nঅগ্ৰগতি হ’লে ইয়াত আপডেট দিম\n\n## জুলাই ১৩, ২০২৫\n\nnanoGPTক ১৮৭MB ঐতিহাসিক পাঠ্য ডাটাত প্ৰশিক্ষণ দিছোঁ।\n\n## জুলাই ১৫, ২০২৫\n\nদ্বিতীয় প্ৰশিক্ষণৰ বাবে পাঠ্য ডাউনলোড কৰা আৰম্ভ কৰিছোঁ। সকলো Internet Archiveৰ পৰা লৈছোঁ আৰু সময়সীমা ১৮০০-১৮৭৫লৈ বৃদ্ধি কৰিছোঁ। বিৱিধ পাঠ্য পাবলৈ Internet Archiveত বিষয়বস্তু, প্ৰকাশ স্থান, সময় আৰু বিষয়ৰ ফিল্টাৰ ব্যৱহাৰ কৰিব পাৰি।\n\n![Search Filters](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/searchfilter.jpg)\n\n## জুলাই ১৬, ২০২৫\n\nমই Internet Archiveৰ পৰা ৫০০টাৰ ওচৰৰ txt ফাইল ডাউনলোড কৰিছোঁ আৰু পৰিষ্কাৰ কৰাৰ পিছত (কেৱল whitespaces, Gutenberg header আদি ডিলিট কৰিছোঁ) প্ৰায় ৫০০MB ডাটা পাইছোঁ। ই অতি সৰু dataset, কিন্তু আগতে ১৮৭MBত প্ৰশিক্ষণ দিছিলো, সেয়ে দ্বিতীয় মডেল প্ৰশিক্ষণৰ পিছত outputত কিছুটা পাৰ্থক্য দেখা যাব লাগিব। আশা কৰোঁ এই মডেলটোৱে অধিক সংলগ্ন বাক্য উত্পন্ন কৰিব পাৰে। নিশ্চয়তা নাই, কাৰণ dataset এতিয়াও সৰু, কিন্তু আগতেৰ তুলনাত বেছি।\n\nএইটো নিজৰ হাৰ্ডৱেৰতেই কৰিব পাৰিম, ভাল লাগিছে কাৰণ ডাঙৰ dataset লৈ যাওঁতে কিছু উন্নতি দেখিবলৈ পাবলৈ আশা কৰিছোঁ, যিটোত GPU ভাড়া লাগিব। কিন্তু চিন্তা নকৰিব, মই GPU ভাড়া ল’বই, কিন্তু তাৰ আগতে dataset যথেষ্ট চয়ন আৰু পৰিষ্কাৰ কৰিবলৈ চেষ্টা কৰিছোঁ। এজন সমস্যা হৈছে পৰিষ্কাৰ কৰাটো, বহু txt ফাইলত অচিনাকি শব্দ আছে। মোৰ ব্যৱহৃত স্ক্ৰিপ্টবোৰে কাম কৰে, কিন্তু ১০০% কার্যকৰী নহয়।\n\nআজিৰে দিনত এই dataset প্ৰশিক্ষণ কৰিম আৰু প্ৰায় ৪-৫ ঘণ্টা লাগিব। শেষ হ’লে আৰু পৰীক্ষা কৰোঁতে আপডেট দিম। মোৰ প্ৰকল্প চাই থকা সকলোলৈ ধন্যবাদ, কিছুমানে OCR resourceৰ লিংকো দিছে, ধন্যবাদ! আশা কৰোঁ, আৰু মানুহে নিজৰ datasetৰে চেষ্টা কৰক আৰু প্ৰয়োগ কৰক।\n\n\n### প্ৰশিক্ষণ আপডেট\n\n৪৩৫MB (১০৮M টোকেন) corpusত প্ৰশিক্ষণ আৰম্ভ কৰিছোঁ, বৰ্তমানে ভালেই চলি আছে। Train loss ১০.৯ৰ পৰা ৪.৯লৈ আহিল ২৮০০ iterationত। আশা কৰোঁ ৮-৯ ঘণ্টা লাগিব। শেষ হ’লে আপডেট দিম।\n\n## জুলাই ১৭, ২০২৫ ২:১৩AM\n\nদ্বিতীয় মডেলৰ প্ৰশিক্ষণ শেষ, মোৰ ৪০৬০ত প্ৰায় ৮ ঘণ্টা ৪০ মিনিট (৩,৯০০ iteration/ঘণ্টা)ত ৩৩,০০০ iteration (৫ epoch) সম্পূৰ্ণ হ’ল। শেষত train loss ৩.৭৩। Output অদ্ভুত ভাল, বৰ্তমান সঁচাকৈয়ে ১৯শ শতিকীৰ সংলগ্ন বাক্য উত্পন্ন কৰে।\n\n## জুলাই ২৮, ২০২৫\n\nv0.5 Hugging Faceত আপলোড কৰিছোঁ, [চাওক](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) ইচ্ছা থাকিলে। এতিয়া মোৰ repo ডাউনলোড কৰি স্থানীয়ভাৱে চলাব পাৰিব। দুঃখজনকভাৱে nanoGPT HuggingFaceত native চলেন, সেয়ে model locally চলাব লাগিব।\n\nএইবাৰ মই পৰৱৰ্তী প্ৰশিক্ষণৰ বাবে ডাটা চয়ন আৰম্ভ কৰিম, বিশ্বাস কৰোঁ ৫-১০ গুণ বেছি ডাটা লাগিব reasoning ক্ষমতা পাবলৈ।\n\n\n# V0 মডেলৰ আচৰণ আৰু সীমাবদ্ধতা\n\nপ্ৰাথমিক promptত মডেলটোৱে ১৮০০ দশকৰ ভাষা আৰু আচৰণৰে প্ৰতিক্ৰিয়া দিছে। উদাহৰণস্বৰূপ, মই “Who art Henry?” দিছিলোঁ আৰু ই উত্তৰ দিলে “I know that man, I have did not a black, the storm.” আৰু সেই বাক্যৰ অৰ্থ নাই, কিন্তু LLMয়ে বুজিছে মোৰ প্ৰশ্নজন ব্যক্তি সম্পৰ্কে।\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -55,7 +55,7 @@
         "row": 8,
         "rowsha": "ToO7MFa3QrNNljdQWIagsnOPxe8cXuuA2m5msIm+Kbs=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN\">简体中文</a>",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">প্ৰাচীন চীনা (চিগা আহি)</a> |"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">পৰম্পৰাগত চীনা (চিগৈ অহা)</a> |"
       },
       {
         "row": 9,
@@ -67,97 +67,97 @@
         "row": 10,
         "rowsha": "GY7LXxG3rk5eFh9itcqM0cTtmHybyjLTf1icB3jN31I=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja\">日本語</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko\">কোৰীয়</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko\">কোৰিয়ান</a>"
       },
       {
         "row": 11,
         "rowsha": "b5TwunGJh+gsAe7aQU3dkfobXF/nknCEta1msDa7XBU=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko\">한국어</a>",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">হিন্দী (চিগা আহি)</a> |"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">হিন্দী (চিগৈ অহা)</a> |"
       },
       {
         "row": 12,
         "rowsha": "1/HCgPsVh2ChqMY+k/VVxEWHPRRmWWCjy5nDRibi3mM=",
         "originContent": "        | <a href=\"#\" title=\"Coming soon\">हिन्दी (coming soon)</a> |",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">থাই (চিগা আহি)</a> |"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">থাই (চিগৈ অহা)</a> |"
       },
       {
         "row": 13,
         "rowsha": "3lfEHT+5HYFEvbE5cl+xujQPYjtVmzTifT37iqPTWII=",
         "originContent": "        | <a href=\"#\" title=\"Coming soon\">ไทย (coming soon)</a> |",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">ফ্ৰেঞ্চ (চিগা আহি)</a>"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">ফ্ৰেঞ্চ (চিগৈ অহা)</a>"
       },
       {
         "row": 14,
         "rowsha": "KmG3P0px2E3bt1lU/w3eGop+zeA1j8xL0k280Zd9m2s=",
         "originContent": "        | <a href=\"#\" title=\"Coming soon\">Français (coming soon)</a>",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">জাৰ্মান (চিগা আহি)</a>"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">জাৰ্মান (চিগৈ অহা)</a>"
       },
       {
         "row": 15,
         "rowsha": "CSdHSEXgIs3M2Q/6zIIJ8NbKkZWhydhBqNus94qrPvg=",
         "originContent": "        | <a href=\"#\" title=\"Coming soon\">Deutsch (coming soon)</a>",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">স্পেনিছ (চিগা আহি)</a>"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">স্পেনিছ (চিগৈ অহা)</a>"
       },
       {
         "row": 16,
         "rowsha": "8wz7pDuXc3dk+ZcqZ1jmmh8zh6xN3Wb6qWbCjxAj7dA=",
         "originContent": "        | <a href=\"#\" title=\"Coming soon\">Español (coming soon)</a>",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">ইটালিয়ান (চিগা আহি)</a>"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">ইটালিয়ান (চিগৈ অহা)</a>"
       },
       {
         "row": 17,
         "rowsha": "op/NqIZs7OjCSpNgpXk8RnqDnTegVPyWUQhuQxvTR7U=",
         "originContent": "        | <a href=\"#\" title=\"Coming soon\">Italiano (coming soon)</a>",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">ৰাছিয়ান (চিগা আহি)</a>"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">ৰাছিয়ান (চিগৈ অহা)</a>"
       },
       {
         "row": 18,
         "rowsha": "tAvlfwut/Ad9q1huxc8EREZGv7vYHbrEujzUS8xoaQo=",
         "originContent": "        | <a href=\"#\" title=\"Coming soon\">Русский (coming soon)</a>",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">পৰ্তুগীজ (চিগা আহি)</a>"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">পৰ্তুগীজ (চিগৈ অহা)</a>"
       },
       {
         "row": 19,
         "rowsha": "WhhSpeeCUUAqJiVTS4Fvyc6A2c+24Jnj3MW7XLQuIcI=",
         "originContent": "        | <a href=\"#\" title=\"Coming soon\">Português (coming soon)</a>",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">ডাচ (চিগা আহি)</a>"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">ডাচ (চিগৈ অহা)</a>"
       },
       {
         "row": 20,
         "rowsha": "0yPXPrWh+Vzc6FBE9iiciw5HwpOSmo05HNe36wfTWCI=",
         "originContent": "        | <a href=\"#\" title=\"Coming soon\">Nederlands (coming soon)</a>",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">পোলিচ (চিগা আহি)</a>"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">প'লিছ (চিগৈ অহা)</a>"
       },
       {
         "row": 21,
         "rowsha": "mdW6YUUXf5KzI4CwZxrE08ofaLonUOMnJpN3vPR7Y2A=",
         "originContent": "        | <a href=\"#\" title=\"Coming soon\">Polski (coming soon)</a>",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">আৰবী (চিগা আহি)</a>"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">আৰবী (চিগৈ অহা)</a>"
       },
       {
         "row": 22,
         "rowsha": "sw1AXxAGQNvn4eSG9enTWNkwKH0yr6LlVtXBH1j9z8s=",
         "originContent": "        | <a href=\"#\" title=\"Coming soon\">العربية (coming soon)</a>",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">ফাৰ্ছী (চিগা আহি)</a>"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">ফাৰ্ছী (চিগৈ অহা)</a>"
       },
       {
         "row": 23,
         "rowsha": "I8dh9zmXisU0+CpddA55QQgvujH03J/dEnXgj5aFtQM=",
         "originContent": "        | <a href=\"#\" title=\"Coming soon\">فارسی (coming soon)</a>",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">তুৰ্কী (চিগা আহি)</a>"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">টাৰ্কী (চিগৈ অহা)</a>"
       },
       {
         "row": 24,
         "rowsha": "7VFv8o6de72ciJrbh3mctfrEgCJhNvuKGWJNOmCaPdM=",
         "originContent": "        | <a href=\"#\" title=\"Coming soon\">Türkçe (coming soon)</a>",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">ভিয়েতনামী (চিগা আহি)</a>"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">ভিয়েটনামিছ (চিগৈ অহা)</a>"
       },
       {
         "row": 25,
         "rowsha": "C+XRvFz/D3o9/JyPqwitsxtskFZleJC/oFUr4SEeiHA=",
         "originContent": "        | <a href=\"#\" title=\"Coming soon\">Tiếng Việt (coming soon)</a>",
-        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">ইন্দোনেছিয়ান (চিগা আহি)</a>"
+        "translatedContent": "        | <a href=\"#\" title=\"Coming soon\">ইন্দোনেছিয়ান (চিগৈ অহা)</a>"
       },
       {
         "row": 26,
@@ -205,7 +205,7 @@
         "row": 33,
         "rowsha": "VRGjp0FtfvQ89lbX/wJLis2ypCRtNJwe8ViIi29+Rko=",
         "originContent": "# TimeCapsule LLM",
-        "translatedContent": "এখন LLM যি কেৱল নিৰ্দিষ্ট সময়ৰ তথ্যত শিকোৱা হৈছে যাতে আধুনিক পক্ষপাত কম হয়।"
+        "translatedContent": "এলএলএম এটা কেৱল নিৰ্দিষ্ট সময়ৰ ডাটাতকৈ প্ৰশিক্ষণ দিয়া হৈছে যাতে আধুনিক পক্ষপাত কমোৱা যায়।"
       },
       {
         "row": 34,
@@ -217,7 +217,7 @@
         "row": 35,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "ভাবক, এটা AI মডেল কেৱল ঐতিহাসিকভাৱে আচৰণ নকৰে, সেয়া সঁচাকৈয়ে আছিলো।"
+        "translatedContent": "ভাবক, যদি এটা AI মডেল কেৱল ভাও নকৰিল, বৰং সঁচাকৈয়ে ঐতিহাসিক হ’ব পাৰে।"
       },
       {
         "row": 36,
@@ -229,7 +229,7 @@
         "row": 37,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "[Andrej Karpathy ৰ nanoGPT](https://github.com/karpathy/nanoGPT) ত নিৰ্মিত। মুখ্য শিকন স্ক্ৰিপ্ট আৰু মডেল স্থাপত্য তেওঁৰ কাম। "
+        "translatedContent": "[nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT)ৰ ওপৰত নিৰ্মিত। মূল প্ৰশিক্ষণ স্ক্ৰিপ্ট আৰু মডেল স্থাপত্য তেওঁৰ কাম।"
       },
       {
         "row": 38,
@@ -253,7 +253,7 @@
         "row": 41,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "TimeCapsule LLM এটা পৰীক্ষামূলক প্ৰকল্প, যিটো কেৱল নিৰ্দিষ্ট সময়ত লিখা পাঠ্যতহে শিকোৱা হ'ব। লক্ষ্য হৈছে, নিৰ্দিষ্ট ঐতিহাসিক যুগৰ দৃষ্টিভংগি আৰু ভাষা অনুকৰণ কৰা।"
+        "translatedContent": "TimeCapsule LLM এটা প্ৰয়োগধৰ্মী প্ৰকল্প যিটো কেৱল নিৰ্দিষ্ট সময়ৰ লিখিত পাঠ্যত প্ৰশিক্ষণ দিয়া হ’ব। উদ্দেশ্য হৈছে নিৰ্দিষ্ট ঐতিহাসিক যুগৰ দৃষ্টিভংগী আৰু ভাষা অনুকৰণ কৰা।"
       },
       {
         "row": 42,
@@ -265,7 +265,7 @@
         "row": 43,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# কিয় কেৱল fine tuning যথেষ্ট নহয়"
+        "translatedContent": "# কেৱল ফাইন-টিউনিং যথেষ্ট নহয় কিয়"
       },
       {
         "row": 44,
@@ -277,7 +277,7 @@
         "row": 45,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "আপুনি কেৱল এটা pre-trained মডেলক fine tune কৰিলে, আপোনাৰ LLM-এ এতিয়াও আধুনিক ধাৰণা জানিব। সম্পূৰ্ণ আধুনিক পক্ষপাত নোহোৱা কঠিন, কিন্তু মই এইটোত সৰ্বাধিক ওচৰলৈ যাব বিচাৰোঁ। আধুনিক পক্ষপাত শূন্য কৰিবলৈ মডেলক গোড়াৰ পৰা শিকাব লাগিব।"
+        "translatedContent": "আপুনি যদি কেৱল প্ৰি-ট্ৰেইনড মডেল ফাইন-টিউন কৰে, তেতিয়াও আপোনাৰ এলএলএম এ আধুনিক ধাৰণা জানিব। সম্পূৰ্ণ আধুনিক পক্ষপাত মুক্ত হোৱাটো কঠিন, কিন্তু মই ইয়াৰ ওচৰলৈ যাব খুজিছোঁ। আধুনিক পক্ষপাত একেবাৰে নাথাকিবলৈ মডেলটো আৰম্ভণিৰে প্ৰশিক্ষণ দিয়াটো প্ৰয়োজন।"
       },
       {
         "row": 46,
@@ -289,7 +289,7 @@
         "row": 47,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# প্রত্যাশিত ফলাফলসমূহ"
+        "translatedContent": "# প্ৰত্যাশিত ফলাফলসমূহ"
       },
       {
         "row": 48,
@@ -301,7 +301,7 @@
         "row": 49,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "আশা কৰোঁ, শেষ হোৱাৰ পিছত এই মডেলটোৱে আধুনিক ধাৰণা নাজানিব আৰু কেৱল শিকোৱা তথ্যৰ বাহিৰত যুক্তি কৰিব নোৱাৰিব। ইয়াই আধুনিক শব্দ/ধাৰণা চিনিব নোৱাৰে, আৰু মই আশা কৰোঁ আধুনিক জ্ঞান কল্পনা নকৰে।"
+        "translatedContent": "আশা কৰোঁ, সম্পূৰ্ণ হ’লে এই মডেলটোৱে আধুনিক ধাৰণা নাজানিব আৰু কেৱল যি তথ্যত প্ৰশিক্ষিত হৈছে তাৰ বাহিৰত যুক্তি কৰিব নোৱাৰিব। ই আধুনিক শব্দ/ধাৰণা চিনাকি নকৰিব লাগিব আৰু মই আশা কৰোঁ ই আধুনিক জ্ঞান কল্পনা নকৰে।"
       },
       {
         "row": 50,
@@ -325,7 +325,7 @@
         "row": 53,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## ৯ জুলাই, ২০২৫"
+        "translatedContent": "## জুলাই ৯, ২০২৫"
       },
       {
         "row": 54,
@@ -337,7 +337,7 @@
         "row": 55,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "মই মোৰ সময়সীমা ১৮০০-১৮৫০ আৰু অঞ্চল: লণ্ডন নিৰ্ধাৰণ কৰিছোঁ"
+        "translatedContent": "মই সময়সীমা ১৮০০-১৮৫০ আৰু অঞ্চল: লণ্ডন নিৰ্ধাৰণ কৰিছোঁ"
       },
       {
         "row": 56,
@@ -349,7 +349,7 @@
         "row": 57,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "মই পাঠ্য, কিতাপ, নথিপত্ৰৰ এটি তালিকা সংগ্ৰহ কৰিছোঁ"
+        "translatedContent": "মই পাঠ্য, কিতাপ, নথিপত্ৰৰ এটা তালিকা সংগ্ৰহ কৰিছোঁ"
       },
       {
         "row": 58,
@@ -361,7 +361,7 @@
         "row": 59,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "এতিয়ালৈকে ৫০টা txt ফাইল পাইছোঁ আৰু শীঘ্ৰে NanoGPT ত শিকন আৰম্ভ কৰিম"
+        "translatedContent": "এতিয়ালৈকে মই ৫০টা txt ফাইল পাইছোঁ আৰু NanoGPT প্ৰশিক্ষণ আৰম্ভ কৰিম"
       },
       {
         "row": 60,
@@ -373,7 +373,7 @@
         "row": 61,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "অগ্ৰগতি অব্যাহত থাকিলে ইয়াত আপডেট দিম"
+        "translatedContent": "অগ্ৰগতি হ’লে ইয়াত আপডেট দিম"
       },
       {
         "row": 62,
@@ -385,7 +385,7 @@
         "row": 63,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## ১৩ জুলাই, ২০২৫"
+        "translatedContent": "## জুলাই ১৩, ২০২৫"
       },
       {
         "row": 64,
@@ -397,7 +397,7 @@
         "row": 65,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "nanoGPT ত ১৮৭MB ঐতিহাসিক তথ্যৰ সৈতে শিকোৱা হৈছে।"
+        "translatedContent": "nanoGPTক ১৮৭MB ঐতিহাসিক পাঠ্য ডাটাত প্ৰশিক্ষণ দিছোঁ।"
       },
       {
         "row": 66,
@@ -409,7 +409,7 @@
         "row": 67,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## ১৫ জুলাই, ২০২৫"
+        "translatedContent": "## জুলাই ১৫, ২০২৫"
       },
       {
         "row": 68,
@@ -421,7 +421,7 @@
         "row": 69,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "মই দ্বিতীয়বাৰ শিকনৰ বাবে পাঠ্য ডাউনলোড আৰম্ভ কৰিছোঁ। সকলো Internet Archive ৰ পৰা সংগ্ৰহ কৰিছোঁ আৰু সময়সীমা ১৮০০-১৮৭৫ লৈ বৃদ্ধি কৰিছোঁ। বিভিন্ন ধৰণৰ পাঠ্য পোৱাৰ বাবে, Internet Archive ত বিষয় আৰু সন্ধান ফিল্টাৰ ব্যৱহাৰ কৰিব পাৰে প্ৰকাশস্থান, সময় আৰু বিষয় অনুসৰি।"
+        "translatedContent": "দ্বিতীয় প্ৰশিক্ষণৰ বাবে পাঠ্য ডাউনলোড কৰা আৰম্ভ কৰিছোঁ। সকলো Internet Archiveৰ পৰা লৈছোঁ আৰু সময়সীমা ১৮০০-১৮৭৫লৈ বৃদ্ধি কৰিছোঁ। বিৱিধ পাঠ্য পাবলৈ Internet Archiveত বিষয়বস্তু, প্ৰকাশ স্থান, সময় আৰু বিষয়ৰ ফিল্টাৰ ব্যৱহাৰ কৰিব পাৰি।"
       },
       {
         "row": 70,
@@ -445,7 +445,7 @@
         "row": 73,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## ১৬ জুলাই, ২০২৫"
+        "translatedContent": "## জুলাই ১৬, ২০২৫"
       },
       {
         "row": 74,
@@ -457,7 +457,7 @@
         "row": 75,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "মই Internet Archive ৰ পৰা প্ৰায় ৫০০টা txt ফাইল ডাউনলোড কৰিছোঁ আৰু (কেৱল whitespaces, Gutenberg header ইত্যাদি আঁতৰাই) প্ৰায় ৫০০MB তথ্য পাইছোঁ। ই এটা সৰু dataset কিন্তু আগতে মই কেৱল ১৮৭MB ত শিকিছোঁ, সেয়ে দ্বিতীয় মডেলৰ পিছত output ত কোনো প্ৰভাৱ দেখা যাবই। আশা কৰিছোঁ এই মডেলটোৱে অধিক সুসংগত বাক্য উলিয়াব পাৰে। নিশ্চয়তা নাই কাৰণ এতিয়াও সৰু dataset, কিন্তু আগৰ তুলনাত বেছি।"
+        "translatedContent": "মই Internet Archiveৰ পৰা ৫০০টাৰ ওচৰৰ txt ফাইল ডাউনলোড কৰিছোঁ আৰু পৰিষ্কাৰ কৰাৰ পিছত (কেৱল whitespaces, Gutenberg header আদি ডিলিট কৰিছোঁ) প্ৰায় ৫০০MB ডাটা পাইছোঁ। ই অতি সৰু dataset, কিন্তু আগতে ১৮৭MBত প্ৰশিক্ষণ দিছিলো, সেয়ে দ্বিতীয় মডেল প্ৰশিক্ষণৰ পিছত outputত কিছুটা পাৰ্থক্য দেখা যাব লাগিব। আশা কৰোঁ এই মডেলটোৱে অধিক সংলগ্ন বাক্য উত্পন্ন কৰিব পাৰে। নিশ্চয়তা নাই, কাৰণ dataset এতিয়াও সৰু, কিন্তু আগতেৰ তুলনাত বেছি।"
       },
       {
         "row": 76,
@@ -469,7 +469,7 @@
         "row": 77,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "এইটো মোৰ নিজা hardware ত কৰিব পাৰিম, ভাল হৈছে কাৰণ ডাঙৰ dataset লৈ যাবৰ আগত কিছু উন্নতি দেখা যাব বুলি আশা। কিন্তু চিন্তা নকৰিব, মই শীঘ্ৰে GPU ভাড়া ল’বই, কিন্তু তেতিয়ালৈকে মোৰ dataset যত্নসহকাৰে পৰিষ্কাৰ কৰিব বিচাৰোঁ। এটা সমস্যা হৈছে পৰিষ্কাৰ; বহু txt ফাইলত বেয়া ডাটা থাকে। মই যি স্ক্ৰিপ্ট ব্যৱহাৰ কৰিছোঁ, সেয়া কাম কৰে, কিন্তু ১০০% নহয়।"
+        "translatedContent": "এইটো নিজৰ হাৰ্ডৱেৰতেই কৰিব পাৰিম, ভাল লাগিছে কাৰণ ডাঙৰ dataset লৈ যাওঁতে কিছু উন্নতি দেখিবলৈ পাবলৈ আশা কৰিছোঁ, যিটোত GPU ভাড়া লাগিব। কিন্তু চিন্তা নকৰিব, মই GPU ভাড়া ল’বই, কিন্তু তাৰ আগতে dataset যথেষ্ট চয়ন আৰু পৰিষ্কাৰ কৰিবলৈ চেষ্টা কৰিছোঁ। এজন সমস্যা হৈছে পৰিষ্কাৰ কৰাটো, বহু txt ফাইলত অচিনাকি শব্দ আছে। মোৰ ব্যৱহৃত স্ক্ৰিপ্টবোৰে কাম কৰে, কিন্তু ১০০% কার্যকৰী নহয়।"
       },
       {
         "row": 78,
@@ -481,7 +481,7 @@
         "row": 79,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "মই আজি এই dataset ত শিকাম আৰু প্ৰায় ৪-৫ ঘন্টা লাগিব। শেষ হ’লে পৰীক্ষা কৰি আপডেট দিম। মোৰ প্ৰকল্প চাই থকা সকলোকে ধন্যবাদ, কিছুমানে OCR resources ৰ লিংকো দিছে, ধন্যবাদ! আশা কৰোঁ, বহুতে নিজৰ dataset লৈ চেষ্টা কৰক।"
+        "translatedContent": "আজিৰে দিনত এই dataset প্ৰশিক্ষণ কৰিম আৰু প্ৰায় ৪-৫ ঘণ্টা লাগিব। শেষ হ’লে আৰু পৰীক্ষা কৰোঁতে আপডেট দিম। মোৰ প্ৰকল্প চাই থকা সকলোলৈ ধন্যবাদ, কিছুমানে OCR resourceৰ লিংকো দিছে, ধন্যবাদ! আশা কৰোঁ, আৰু মানুহে নিজৰ datasetৰে চেষ্টা কৰক আৰু প্ৰয়োগ কৰক।"
       },
       {
         "row": 80,
@@ -493,120 +493,120 @@
         "row": 81,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## ২৮ জুলাই, ২০২৫"
+        "translatedContent": ""
       },
       {
         "row": 82,
-        "rowsha": "13xzxThQO3iEGB5PU51V1kYgK85//yEFbCkwtu07a2U=",
-        "originContent": "## July 28th, 2025 ",
-        "translatedContent": ""
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### প্ৰশিক্ষণ আপডেট"
       },
       {
         "row": 83,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "মই Hugging Face ত v0.5 আপলোড কৰিছোঁ, [চাব পাৰে](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) যদি বিচাৰে। এতিয়া মোৰ repo ডাউনলোড কৰি স্থানীয়ভাৱে চলাব পাৰে। দু:খিত, nanoGPT HuggingFace ৰ সৈতে native কাম নকৰে, সেয়ে মডেল স্থানীয়ভাৱে চলাব লাগিব।"
-      },
-      {
-        "row": 84,
-        "rowsha": "R6HmXRpR+7izGCE6kI9wyELs4kYvAtLMWO75nOXAf1M=",
-        "originContent": "I've gone ahead and uploaded v0.5 to Hugging Face, [Check it out](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) if youd like. You can now download my repo and run it locally. Unfortunately nanoGPT doesn't work natively with HuggingFace, so you'll have to download and run the model locally. ",
-        "translatedContent": ""
-      },
-      {
-        "row": 85,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "মই শীঘ্ৰে পৰৱৰ্তী শিকনৰ বাবে ডাটা সংগ্ৰহ আৰম্ভ কৰিম, বিশ্বাস কৰোঁ ৫-১০ গুণ বেছি ডাটা লাগিব যুক্তি ক্ষমতা পাবলৈ।"
-      },
-      {
-        "row": 86,
-        "rowsha": "3/uUOOHuCoxdKkQ6c+1J96AfmOsQ59aZxo/FYGK9OlI=",
-        "originContent": "Also I will begin curating data for my next training run, I believe I'll need maybe 5-10x more data to achieve reasoning capabilities. ",
-        "translatedContent": ""
-      },
-      {
-        "row": 87,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### শিকন আপডেট"
-      },
-      {
-        "row": 88,
         "rowsha": "mNjt3ebwxfwyPM2/AK7E/GDTFM6i95HG8GZ/8TZs9EA=",
         "originContent": "### Training Update ",
         "translatedContent": ""
       },
       {
-        "row": 89,
+        "row": 84,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "মই ৪৩৫MB (১০৮ M token) ৰ corpus ত শিকন আৰম্ভ কৰিছোঁ, বৰ বৰ ভালকৈ চলি আছে। Train loss ১০.৯ ৰ পৰা ৪.৯ লৈ নামিছে প্ৰথম ২৮০০ iteration ত। ৮-৯ ঘণ্টাৰ ভিতৰত সম্পূৰ্ণ হ’ব বুলি আশা। শেষ হ’লে আৰু আপডেট দিম।"
+        "translatedContent": "৪৩৫MB (১০৮M টোকেন) corpusত প্ৰশিক্ষণ আৰম্ভ কৰিছোঁ, বৰ্তমানে ভালেই চলি আছে। Train loss ১০.৯ৰ পৰা ৪.৯লৈ আহিল ২৮০০ iterationত। আশা কৰোঁ ৮-৯ ঘণ্টা লাগিব। শেষ হ’লে আপডেট দিম।"
       },
       {
-        "row": 90,
+        "row": 85,
         "rowsha": "RxsWSGTgM12Md9v3+GBLg3PyoUxQ9kl1AglpanRmZqE=",
         "originContent": "I started training on a 435MB (108 M tokens) corpus, it's going pretty smooth right now. Train loss dropped from 10.9 to 4.9 in the first 2800 iterations. I expect it'll take around 8 or 9 hours to complete. I'll post another update once it's done.",
         "translatedContent": ""
       },
       {
-        "row": 91,
+        "row": 86,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## ১৭ জুলাই, ২০২৫ ২:১৩AM"
+        "translatedContent": "## জুলাই ১৭, ২০২৫ ২:১৩AM"
       },
       {
-        "row": 92,
+        "row": 87,
         "rowsha": "CLW3lPsO6v+tT6iir338rG5+IYXM+JqRoag5w7K8exE=",
         "originContent": "## July 17th, 2025 2:13AM",
         "translatedContent": ""
       },
       {
-        "row": 93,
+        "row": 88,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "দ্বিতীয় মডেলৰ শিকন শেষ হৈছে, মোৰ ৪০৬০ ত প্ৰায় ৮ ঘণ্টা ৪০ মিনিট (৩,৯০০ iteration/ঘণ্টা) লৈ ৩৩,০০০ iteration (৫ epoch) হ’ল। Final train loss আছিল ৩.৭৩। Output গৰাকী আচৰিতভাৱে ভাল, এতিয়া সঁচাকৈ ১৯শ শতিকীৰ ধৰণৰ বাক্য উলিয়াব পাৰে।"
+        "translatedContent": "দ্বিতীয় মডেলৰ প্ৰশিক্ষণ শেষ, মোৰ ৪০৬০ত প্ৰায় ৮ ঘণ্টা ৪০ মিনিট (৩,৯০০ iteration/ঘণ্টা)ত ৩৩,০০০ iteration (৫ epoch) সম্পূৰ্ণ হ’ল। শেষত train loss ৩.৭৩। Output অদ্ভুত ভাল, বৰ্তমান সঁচাকৈয়ে ১৯শ শতিকীৰ সংলগ্ন বাক্য উত্পন্ন কৰে।"
       },
       {
-        "row": 94,
+        "row": 89,
         "rowsha": "Q0uM34dBNqytALNUZSPxoBQZT3LxqlwyioEi3nTshXQ=",
         "originContent": "The training is done for the second model, it took my 4060 around 8 hours and 40 minutes (3,900 iters/hr) for 33,000 iters (5 epochs). Final train loss was 3.73. The outputs were suprisingly good it genuinely generates coherent 19th century style sentences now. ",
         "translatedContent": ""
       },
       {
-        "row": 95,
+        "row": 90,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# V0 মডেলৰ আচৰণ আৰু সীমাবদ্ধতা"
+        "translatedContent": "## জুলাই ২৮, ২০২৫"
+      },
+      {
+        "row": 91,
+        "rowsha": "13xzxThQO3iEGB5PU51V1kYgK85//yEFbCkwtu07a2U=",
+        "originContent": "## July 28th, 2025 ",
+        "translatedContent": ""
+      },
+      {
+        "row": 92,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "v0.5 Hugging Faceত আপলোড কৰিছোঁ, [চাওক](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) ইচ্ছা থাকিলে। এতিয়া মোৰ repo ডাউনলোড কৰি স্থানীয়ভাৱে চলাব পাৰিব। দুঃখজনকভাৱে nanoGPT HuggingFaceত native চলেন, সেয়ে model locally চলাব লাগিব।"
+      },
+      {
+        "row": 93,
+        "rowsha": "R6HmXRpR+7izGCE6kI9wyELs4kYvAtLMWO75nOXAf1M=",
+        "originContent": "I've gone ahead and uploaded v0.5 to Hugging Face, [Check it out](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) if youd like. You can now download my repo and run it locally. Unfortunately nanoGPT doesn't work natively with HuggingFace, so you'll have to download and run the model locally. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 94,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "এইবাৰ মই পৰৱৰ্তী প্ৰশিক্ষণৰ বাবে ডাটা চয়ন আৰম্ভ কৰিম, বিশ্বাস কৰোঁ ৫-১০ গুণ বেছি ডাটা লাগিব reasoning ক্ষমতা পাবলৈ।"
+      },
+      {
+        "row": 95,
+        "rowsha": "3/uUOOHuCoxdKkQ6c+1J96AfmOsQ59aZxo/FYGK9OlI=",
+        "originContent": "Also I will begin curating data for my next training run, I believe I'll need maybe 5-10x more data to achieve reasoning capabilities. ",
+        "translatedContent": ""
       },
       {
         "row": 96,
-        "rowsha": "YbYVsndAe75CgxPU/J34HsXOaqcQlIjTCm06o4eVQIg=",
-        "originContent": "# V0 Model Behavior & Limitations ",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 97,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "প্ৰাথমিক prompt ত মডেলটোৱে ১৮শ শতিকীৰ ভাষা আৰু আচৰণত সঁজুলিত হয়। উদাহৰণস্বৰূপে, মই \"Who art Henry?\" প্ৰশ্ন কৰোঁতে ই উত্তৰ দিলে \"I know that man, I have did not a black, the storm.\" আৰু হঁয়, বাক্যটো অসংগতিপূৰ্ণ, কিন্তু LLM এ বুজিছে যে মই এজন ব্যক্তি বিষয়ে সুধিছোঁ।"
+        "translatedContent": "# V0 মডেলৰ আচৰণ আৰু সীমাবদ্ধতা"
       },
       {
         "row": 98,
-        "rowsha": "OCh97kyOITXqFpKyZsol6voS+nrzc9n9flpDpNyf35w=",
-        "originContent": "Early prompts show the model responding with 1800's language and behavior. For example, I prompted it with \"Who art Henry?\" and it replied \"I know that man, I have did not a black, the storm.\" and yeah that sentence makes no sense but the LLM is recognizing I'm asking about a person. ",
+        "rowsha": "YbYVsndAe75CgxPU/J34HsXOaqcQlIjTCm06o4eVQIg=",
+        "originContent": "# V0 Model Behavior & Limitations ",
         "translatedContent": ""
       },
       {
         "row": 99,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)"
+        "translatedContent": "প্ৰাথমিক promptত মডেলটোৱে ১৮০০ দশকৰ ভাষা আৰু আচৰণৰে প্ৰতিক্ৰিয়া দিছে। উদাহৰণস্বৰূপ, মই “Who art Henry?” দিছিলোঁ আৰু ই উত্তৰ দিলে “I know that man, I have did not a black, the storm.” আৰু সেই বাক্যৰ অৰ্থ নাই, কিন্তু LLMয়ে বুজিছে মোৰ প্ৰশ্নজন ব্যক্তি সম্পৰ্কে।"
       },
       {
         "row": 100,
-        "rowsha": "yKIR0teTc66wVDG+jdIyNmAzItXb2JH2ld3D7tm4qnM=",
-        "originContent": "![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)",
+        "rowsha": "OCh97kyOITXqFpKyZsol6voS+nrzc9n9flpDpNyf35w=",
+        "originContent": "Early prompts show the model responding with 1800's language and behavior. For example, I prompted it with \"Who art Henry?\" and it replied \"I know that man, I have did not a black, the storm.\" and yeah that sentence makes no sense but the LLM is recognizing I'm asking about a person. ",
         "translatedContent": ""
       }
     ],
@@ -614,460 +614,472 @@
   },
   {
     "Id": 2,
-    "Content": "\nThere is no mention of modern concetps, outputs contain mostly words and phrasing from the 1800's.\n\nIt still needs alot of work, training off of 187MB will not give you a model that produces text with complex reasoning. \n\nRight now it produces sentences that lack full sentence structure and overall just make no sense but this is normal for the training size. \n\n# V0.5 Model Behavior & Limitations\n\nThis is a nice improvement compared to the last model. The writing style and vocab is Victorian and almost every sentence is grammatically correct with proper punctuation. And again this is trained from scratch so it sticks to 1800's subjects. \n\n![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)\n\nThere are a lot of factual hallucinations. A lot (like 100%) of the details (dates, events, historical figures)  are made up. Also the sentences don't really have connections to each other, sometimes maybe 2 sentences will relate to each other but beyond that they dont. Another issue is sometimes a stray “Digitized by Google” footer shows up, so the next time I train I really have to make sure the texts are cleaned well. Overall I'm very happy with the results, it's nowhere near an LLM yet but definitely a sentence generator. \n\nI'm learning a lot and will start figuring out what I need to do better in the coming weeks. I will upload files soon! \n\n# Upcoming Plans \n\n(Completed) I'm going to start work on version 0.5 , instead of training using 50 books, I'll train using ideally 500-600. Right now I'm training nanoGPT using books from 1800-1850 and specifically from London. There is some challeneges like making sure the books I find are not updated or have modern interpretations but untouched books published withtin my chosen time period.\n\nI want to train a new model (v1) with a much larger corpus, maybe 5-10x larger than the one I used for v0.5. My goal is to see if I can get reasoning abilities to emerge from Selective Temporal Training alone, this will be a more difficult task and I'm not even entirely sure if it's possible due to the fact that there is historical data limitations. In the upcoming weeks I will try to curate enough data for a 5-10GB corpus. I believe If I can get clean clean high quality data and rent a GPU, there will be progress.\n\n# How to Use This Project \n\nThis project focuses mostly on curating historical data, preparing it for training and building a tokenizer. I am not going to cover the full LLM training process, for that refer to nanoGPT by Andrej Karpathy.\n\n# Step 1: Gather and Prepare Historical Texts \n\nCollect .txt files of public domain books, documents, etc from your chosen time period (e.g., London 1800-1850)\n\nYou can use download_texts_improved.py to download books for you if you need to.\n\nClean the text files using a script or manually remove headers/footer from Project Gutenberg, Modern annotations or things like OCR errors.\n\nprepare_dataset.py should work fine.\n\n# Step 2: Build a Custom Tokenizer\n\nRun train_tokenizer.py or train_tokenizer_hf.py on the cleaned data.\nThis will give you vocab.json and merges.txt\n\nThes files define vocab and merge rules for your model\n\n# Step 3: Train Your Model (nanoGPT) \n\nRefer to [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) for the training process.\n\nYou can train a different LLM if you want, but I used nanoGPT \n\n# FAQ\n\n## What is Selective Temporal Training ?\n\nSelective Temporal Training (STT) is a machine learning methodology where all training data is specifically curated to fall within a specific historical time period. It's done in order to model the language and knowledge of that era without influence from modern concepts. For example, the current model I have now (v0.5) is trained on data exclusively from 1800-1875, it's not fine tuned but trained from scratch resulting in output that reflects the linguistic style and historical context of that time period.\n\n## Why not just use fine-tuning or LoRA?\n\nFor this project I'm trying to create a language model that is unclouded from modern bias. If I fine-tune something like GPT-2, it's already pre-trained and that information won't go away. If I train from scratch the language model won't pretend to be old, it just will be. The Goal for this project right now is to create something can reason exclusively using knowledge from London books published between 1800 and 1850.\n\n## What kind of data did you use for training?\n\nI'm using books, legal documents, newspapers, and other writings from 1800–1850 London. The list I linked has like 200 but for the first training I just used 50 files about ~187 MB. You can view a list of the documents:\nhttps://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt\n\n## How large is the Version 0 model ?\n\nThis model is very small right now, I'm just doing this for fun and following a strict training rule of no modern sources. It has almost 16 million parameters but I'm gonna start gathering more old texts to begin another model training. Will give updates as I go.\n\n## Training Specs ? \n\nGPU: Geforce rtx 4060\nCPU: i5-13400F \nRam: 16GB DDR5.\n",
-    "ContentSha": "KkciZ2KlgM0Mgb6PRUqxDc9F/T8DRKxQX/MKV4NPutA=",
+    "Content": "\n![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)\n\nThere is no mention of modern concetps, outputs contain mostly words and phrasing from the 1800's.\n\nIt still needs alot of work, training off of 187MB will not give you a model that produces text with complex reasoning. \n\nRight now it produces sentences that lack full sentence structure and overall just make no sense but this is normal for the training size. \n\n# V0.5 Model Behavior & Limitations\n\nThis is a nice improvement compared to the last model. The writing style and vocab is Victorian and almost every sentence is grammatically correct with proper punctuation. And again this is trained from scratch so it sticks to 1800's subjects. \n\n![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)\n\nThere are a lot of factual hallucinations. A lot (like 100%) of the details (dates, events, historical figures)  are made up. Also the sentences don't really have connections to each other, sometimes maybe 2 sentences will relate to each other but beyond that they dont. Another issue is sometimes a stray “Digitized by Google” footer shows up, so the next time I train I really have to make sure the texts are cleaned well. Overall I'm very happy with the results, it's nowhere near an LLM yet but definitely a sentence generator. \n\nI'm learning a lot and will start figuring out what I need to do better in the coming weeks. I will upload files soon! \n\n# Upcoming Plans \n\n(Completed) I'm going to start work on version 0.5 , instead of training using 50 books, I'll train using ideally 500-600. Right now I'm training nanoGPT using books from 1800-1850 and specifically from London. There is some challeneges like making sure the books I find are not updated or have modern interpretations but untouched books published withtin my chosen time period.\n\nI want to train a new model (v1) with a much larger corpus, maybe 5-10x larger than the one I used for v0.5. My goal is to see if I can get reasoning abilities to emerge from Selective Temporal Training alone, this will be a more difficult task and I'm not even entirely sure if it's possible due to the fact that there is historical data limitations. In the upcoming weeks I will try to curate enough data for a 5-10GB corpus. I believe If I can get clean clean high quality data and rent a GPU, there will be progress.\n\n# How to Use This Project \n\nThis project focuses mostly on curating historical data, preparing it for training and building a tokenizer. I am not going to cover the full LLM training process, for that refer to nanoGPT by Andrej Karpathy.\n\n# Step 1: Gather and Prepare Historical Texts \n\nCollect .txt files of public domain books, documents, etc from your chosen time period (e.g., London 1800-1850)\n\nYou can use download_texts_improved.py to download books for you if you need to.\n\nClean the text files using a script or manually remove headers/footer from Project Gutenberg, Modern annotations or things like OCR errors.\n\nprepare_dataset.py should work fine.\n\n# Step 2: Build a Custom Tokenizer\n\nRun train_tokenizer.py or train_tokenizer_hf.py on the cleaned data.\nThis will give you vocab.json and merges.txt\n\nThes files define vocab and merge rules for your model\n\n# Step 3: Train Your Model (nanoGPT) \n\nRefer to [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) for the training process.\n\nYou can train a different LLM if you want, but I used nanoGPT \n\n# FAQ\n\n## What is Selective Temporal Training ?\n\nSelective Temporal Training (STT) is a machine learning methodology where all training data is specifically curated to fall within a specific historical time period. It's done in order to model the language and knowledge of that era without influence from modern concepts. For example, the current model I have now (v0.5) is trained on data exclusively from 1800-1875, it's not fine tuned but trained from scratch resulting in output that reflects the linguistic style and historical context of that time period.\n\n## Why not just use fine-tuning or LoRA?\n\nFor this project I'm trying to create a language model that is unclouded from modern bias. If I fine-tune something like GPT-2, it's already pre-trained and that information won't go away. If I train from scratch the language model won't pretend to be old, it just will be. The Goal for this project right now is to create something can reason exclusively using knowledge from London books published between 1800 and 1850.\n\n## What kind of data did you use for training?\n\nI'm using books, legal documents, newspapers, and other writings from 1800–1850 London. The list I linked has like 200 but for the first training I just used 50 files about ~187 MB. You can view a list of the documents:\nhttps://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt\n\n## How large is the Version 0 model ?\n\nThis model is very small right now, I'm just doing this for fun and following a strict training rule of no modern sources. It has almost 16 million parameters but I'm gonna start gathering more old texts to begin another model training. Will give updates as I go.\n\n## Training Specs ? \n\nGPU: Geforce rtx 4060\nCPU: i5-13400F \nRam: 16GB DDR5.\n",
+    "ContentSha": "i0Mn+YIkqM2K73Eiy+Ca+RXnfQ1CRfs/qgP3DyFRazk=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "আধুনিক ধাৰণাৰ কোনো উল্লেখ নাই, আউটপুটত প্ৰধানকৈ ১৮০০-ৰ দশকৰ শব্দ আৰু বাক্য গঠন থাকে।\n\nএতিয়াও বহু কাম কৰিব লাগিব, ১৮৭MB ডেটাতকৈ মডেলটোত জটিল যুক্তি সৃষ্টি নহ’ব।\n\nএতিয়া এইটো এনেকুৱা বাক্য উৎপন্ন কৰে য’ত সম্পূৰ্ণ বাক্য গঠন নাই আৰু সাধাৰণতে কোনো অৰ্থ নাথাকে, কিন্তু এইটো প্ৰশিক্ষণ ডাটাৰ আকাৰৰ বাবে স্বাভাৱিক।\n\n# V0.5 মডেলৰ আচৰণ আৰু সীমাবদ্ধতা\n\nএইটো আগৰ মডেলৰ তুলনাত ভাল উন্নতি। লিখনীৰ ধৰণ আৰু শব্দভাণ্ডাৰ ভিক্টোৰিয়ান আৰু প্ৰায় প্ৰতিটো বাক্য ব্যাকৰণগতভাৱে শুদ্ধ আৰু সঠিক যতিচিহ্নযুক্ত। আৰু পুনৰ কওঁ, এইটো সুৰুঙাৰ পৰা প্ৰশিক্ষিত, গতিকে ১৮০০-ৰ বিষয়বস্তুতেই সীমাবদ্ধ।\n\n![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)\n\nবহু তথ্যগত বিভ্ৰান্তি আছে। অধিকাংশ (প্ৰায় ১০০%) তথ্য (তাৰিখ, ঘটনা, ঐতিহাসিক ব্যক্তিত্ব) কল্পিত। লগতে বাক্যসমূহৰ মাজত সংযোগ নাই, কেতিয়াবা ২টা বাক্য সম্পৰ্কিত হ’ব পাৰে, কিন্তু সেয়া সীমিত। আন এটা সমস্যা হৈছে কেতিয়াবা “Digitized by Google” ফুটাৰ অহা, গতিকে পৰৱৰ্তী প্ৰশিক্ষণত পাঠবোৰ ভালকৈ পৰিষ্কাৰ কৰাটো নিশ্চিত কৰিব লাগিব। মুঠতে, ফলাফলত মই সুখী, ইমানবিধ LLM নাই, কিন্তু এটা বাক্য উৎপাদক হবলৈ সক্ষম।\n\nমই বহু কথা শিকিছোঁ আৰু অহা কাইলৈ কি ভাল কৰিব পাৰিম সেয়া বিচাৰি আছোঁ। শীঘ্ৰে ফাইল আপল’ড কৰিম!\n\n# আগন্তুক পৰিকল্পনা\n\n(সম্পূৰ্ণ) মই V0.5-ৰ কাম আৰম্ভ কৰিম, ৫০খন পুথিৰ বদলে ৫০০-৬০০খন ব্যৱহাৰ কৰিম। এতিয়া মই nanoGPT-ত ১৮০০-১৮৫০ সময়ৰ আৰু বিশেষকৈ লণ্ডনৰ পুথি প্ৰশিক্ষণ দিছোঁ। চেলেঞ্জ হৈছে, পুথিবোৰ আধুনিক সংশোধিত নহ’ব লাগে, নিৰ্বাচিত সময়ছোৱাৰ মূল পুথি হব লাগিব।\n\nমই নতুন মডেল (v1) প্ৰশিক্ষণ দিব বিচাৰোঁ, আগৰ তুলনাত ৫-১০ গুণ ডাঙৰ ডেটা ব্যৱহাৰ কৰি। মোৰ লক্ষ্য হৈছে কেৱল Selective Temporal Training-ৰে যুক্তি ক্ষমতা উন্মোচিত হয় নে চোৱা, এইটো কঠিন হ’ব পাৰে কাৰণ ঐতিহাসিক ডেটাৰ সীমাবদ্ধতা আছে। অহা কাইলৈ ৫-১০GB ডেটা সংগ্ৰহ কৰিবলৈ চেষ্টা কৰিম। মই বিশ্বাস কৰোঁ, যদি পৰিষ্কাৰ, উচ্চ-গুণগত ডেটা আৰু GPU ভাড়া কৰিব পাৰোঁ, উন্নতি হব।\n\n# এই প্ৰকল্প কেনেকৈ ব্যৱহাৰ কৰিব\n\nএই প্ৰকল্পটোত প্ৰধানকৈ ঐতিহাসিক ডেটা সংগ্ৰহ, প্ৰস্তুতকৰণ আৰু টোকেনাইজাৰ নিৰ্মাণৰ ওপৰত গুৰুত্ব দিয়া হৈছে। সম্পূৰ্ণ LLM প্ৰশিক্ষণ প্ৰক্ৰিয়া আমি আলোচনা নকৰোঁ, তাৰ বাবে Andrej Karpathy-ৰ nanoGPT চাওক।\n\n# ধাপ ১: ঐতিহাসিক পাঠ সংগ্ৰহ আৰু প্ৰস্তুতি\n\nআপোনাৰ নিৰ্বাচিত সময়ছোৱা (উদাঃ, লণ্ডন ১৮০০-১৮৫০)-ৰ পাব্লিক ড’মেইন পুথি, নথি আদি .txt ফাইল সংগ্ৰহ কৰক।\n\nপ্ৰয়োজন হলে download_texts_improved.py ব্যৱহাৰ কৰি পুথি ডাউনল’ড কৰিব পাৰিব।\n\nস্ক্ৰিপ্ট বা মেনুৱেলভাৱে Project Gutenberg-ৰ হেডাৰ/ফুটাৰ, আধুনিক টীকা, বা OCR ত্ৰুটি আঁতৰাওক।\n\nprepare_dataset.py-য়ে যথেষ্ট ভাল কাম কৰিব।\n\n# ধাপ ২: কাষ্টম টোকেনাইজাৰ নিৰ্মাণ\n\ntrain_tokenizer.py বা train_tokenizer_hf.py পৰিষ্কৃত ডেটাত চলাওক।\nএইটো vocab.json আৰু merges.txt দিব\n\nএই ফাইলসমূহে আপোনাৰ মডেলৰ শব্দভাণ্ডাৰ আৰু সংযোগ নিয়ম নিৰ্ধাৰণ কৰে\n\n# ধাপ ৩: আপোনাৰ মডেল (nanoGPT) প্ৰশিক্ষণ কৰক\n\nপ্ৰশিক্ষণ প্ৰক্ৰিয়াৰ বাবে [Andrej Karpathy-ৰ nanoGPT](https://github.com/karpathy/nanoGPT) চাওক।\n\nআৰু কোনো LLM প্ৰশিক্ষণ দিব পাৰিব, কিন্তু মই nanoGPT ব্যৱহাৰ কৰিছিলোঁ\n\n# FAQ\n\n## Selective Temporal Training কি?\n\nSelective Temporal Training (STT) হৈছে এনে মেচিন লাৰ্নিং পদ্ধতি য’ত সকলো প্ৰশিক্ষণ ডেটা নিৰ্দিষ্ট এটি ঐতিহাসিক সময়ছোৱাৰ ভিতৰত সংগ্ৰহ কৰা হয়। আধুনিক ধাৰণাৰ প্ৰভাৱ নোহোৱাকৈ সেই যুগৰ ভাষা আৰু জ্ঞান মডেল কৰিবৰ বাবে এইটো কৰা হয়। উদাহৰণস্বৰূপ, মোৰ বৰ্তমান মডেল (v0.5) ১৮০০-১৮৭৫ৰ ডেটাতকৈ সুৰুঙাৰ পৰা প্ৰশিক্ষিত, ফলত সেই সময়ৰ ভাষা আৰু ইতিহাস প্ৰতিফলিত হয়।\n\n## কেৱল ফাইন-টিউনিং বা LoRA ব্যৱহাৰ নকৰা কিয়?\n\nএই প্ৰকল্পৰ বাবে মই আধুনিক পক্ষপাতৰ পৰা মুক্ত ভাষা মডেল সৃষ্টি কৰিবলৈ চেষ্টা কৰিছোঁ। GPT-2 যেনেকুৱা প্ৰি-ট্ৰেইনড মডেল ফাইন-টিউন কৰিলে আধুনিক তথ্য আঁতৰিব নোৱাৰে। সুৰুঙাৰ পৰা প্ৰশিক্ষণ দিলে মডেলটো “পুৰণি” হ’ব, অভিনয় নকৰিব। বৰ্তমান উদ্দেশ্য হৈছে ১৮০০-১৮৫০ৰ লণ্ডনৰ পুথিতকৈ কেৱল সেই জ্ঞানৰে যুক্তি কৰিব পৰা মডেল।\n\n## প্ৰশিক্ষণৰ বাবে কিমান ধৰণৰ ডেটা ব্যৱহাৰ কৰা হৈছে?\n\nমই ১৮০০–১৮৫০-ৰ লণ্ডনৰ পুথি, আইনী নথি, বাতৰিকাকত, আৰু অন্যান্য লিখনি ব্যৱহাৰ কৰিছোঁ। সংলগ্ন তালিকাত প্ৰায় ২০০টা আছে, প্ৰথম প্ৰশিক্ষণত ৫০টা ফাইল, প্ৰায় ১৮৭MB ব্যৱহাৰ কৰা। ডকুমেন্টৰ তালিকা চাব পাৰিব:\nhttps://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt\n\n## Version 0 মডেলৰ আকাৰ কিমান?\n\nএই মডেল বৰ্তমান খুব সৰু, মই মাত্ৰ আনন্দৰ বাবে আৰু আধুনিক উৎস নোহোৱাকৈ প্ৰশিক্ষণ দিছোঁ। ইয়াত প্ৰায় ১৬ নিযুত পেৰামিটাৰ আছে, আৰু মই অধিক পুৰণি পাঠ সংগ্ৰহ কৰি নতুন প্ৰশিক্ষণ আৰম্ভ কৰিম। আগবঢ়া অনুযায়ী আপডেট দিম।\n\n## প্ৰশিক্ষণৰ স্পেচিফিকেচন?\n\nGPU: Geforce rtx 4060\nCPU: i5-13400F\nRAM: 16GB DDR5.\n\n",
+    "Translation": "\n![TimeLockLLM নমুনা উত্পাদন](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)\n\nআধুনিক ধাৰণাৰ কোনো উল্লেখ নাই, উত্পাদনত প্ৰায় সকলো শব্দ আৰু বাক্য গঠন ১৮০০ দশকৰ।\n\nএতিয়াও বৰ্ধনীৰ প্ৰয়োজন, কেৱল ১৮৭MB-তকৈ শিকিলে জটিল যুক্তি সম্পন্ন পাঠ্য উত্পাদন কৰা মডেল পাব পৰা নাযায়।\n\nএতিয়া এইটো এনে বাক্য উত্পাদন কৰে যি সম্পূৰ্ণ বাক্য গঠনৰ অভাৱ থাকে আৰু সাধাৰণতে বুজি নোপোৱা হয়, কিন্তু এইটো এই পৰিমাণৰ ডেটাৰ বাবে স্বাভাৱিক।\n\n# V0.5 মডেলৰ আচৰণ আৰু সীমাবদ্ধতা\n\nএইটো আগৰ মডেলতকৈ যথেষ্ট উন্নতি। লিখন শৈলী আৰু শব্দভাণ্ডাৰ ভিক্টোৰিয়ান আৰু প্ৰায় প্ৰতিটো বাক্য ব্যাকৰণগতভাৱে শুদ্ধ আৰু সঠিক যতিচিহ্নেৰে। আৰু এইটো সম্পূৰ্ণকৈ নতুনকৈ শিকোৱা, সেইবাবে ১৮০০ দশকৰ বিষয়বোৰত কেন্দ্ৰিত।\n\n![TimeLockLLM নমুনা উত্পাদন](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)\n\nঅসত্য তথ্যৰ কল্পনা বহুত আছে। বহুতো (প্ৰায় ১০০%) তথ্য (তাৰিখ, ঘটনা, ঐতিহাসিক ব্যক্তি) গঢ়ি কৰা। লগতে বাক্যবোৰৰ মাজত সত্যিকাৰ সংযোগ নাই, কেতিয়াবা হয়তো ২টা বাক্যৰ মাজত সম্পৰ্ক পোৱা যায়, তাৰ ওপৰত নাই। আন এটা সমস্যা, কেতিয়াবা “Digitized by Google” ফুটাৰ দেখা যায়, গতিকে অহা সময়ত শিকোৱাৰ আগতে পাঠ্যবোৰ ভালদৰে পৰিষ্কাৰ কৰিব লাগিব। মুঠতে মই ফলাফলত যথেষ্ট সন্তুষ্ট, LLM হবলৈ বহু বাকি কিন্তু বাক্য উত্পাদক হিচাপে নিশ্চিত।\n\nমই বহুত শিকিছো আৰু অহা সপ্তাহত কি উন্নত কৰিব পাৰো সেইটো বিচাৰিম। মই চিগ্ৰেই ফাইল আপল'ড কৰিম!\n\n# অহা পৰিকল্পনা\n\n(সম্পূৰ্ণ) মই এতিয়া সংস্কৰণ ০.৫-ৰ ওপৰত কাম আৰম্ভ কৰিম, ৫০খন বইৰ বিপৰীতে ৫০০-৬০০খন বই ব্যৱহাৰ কৰি শিকাম। এতিয়া মই nanoGPT-ত ১৮০০-১৮৫০ লণ্ডনৰ বই ব্যৱহাৰ কৰি শিকাইছো। সমস্যা আছিল পোৱা বইবোৰ আধুনিকীকৰণ বা ব্যাখ্যা নাথকা, কেৱল মোৰ নিৰ্বাচিত সময়ৰ প্ৰকৃত প্ৰকাশিত বই।\n\nমই নতুন মডেল (v1) বহল কৰ্পাছৰ সৈতে শিকাব বিচাৰো, হয়তো v0.5-ৰ তুলনাত ৫-১০ গুণ ডাঙৰ। মোৰ লক্ষ্য হৈছে কেৱল Selective Temporal Training-এ যুক্তিৰ ক্ষমতা উন্মোচিত হয় নেকি চোৱা, এইটো কঠিন হ'ব আৰু সম্ভৱ নে নাই নিশ্চিত নহয় কাৰণ ঐতিহাসিক তথ্যৰ সীমাবদ্ধতা আছে। অহা সপ্তাহত মই ৫-১০GB ডেটা সংগ্ৰহ কৰিবলৈ চেষ্টা কৰিম। মই বিশ্বাস কৰো, যদি পৰিষ্কাৰ, উচ্চমানৰ তথ্য পাওঁ আৰু GPU ভাড়া লওঁ, অগ্ৰগতি হব।\n\n# এই প্ৰজেক্ট কেনেকৈ ব্যৱহাৰ কৰিব\n\nএই প্ৰজেক্টত প্ৰধানকৈ ঐতিহাসিক ডেটা সংগ্ৰহ, প্ৰস্তুতকৰণ আৰু টোকেনাইজাৰ নিৰ্মাণত গুৰুত্ব দিয়া হৈছে। সম্পূৰ্ণ LLM শিকোৱাৰ প্ৰক্ৰিয়া ইয়াত দিয়া নাই, তাৰ বাবে Andrej Karpathy-ৰ nanoGPT চাওক।\n\n# পদক্ষেপ ১: ঐতিহাসিক পাঠ্য সংগ্ৰহ আৰু প্ৰস্তুত কৰক\n\nআপোনাৰ নিৰ্বাচিত সময়ৰ (যেনে, লণ্ডন ১৮০০-১৮৫০) সাধাৰণ সম্পত্তি থকা বই, নথি আদি .txt ফাইল সংগ্ৰহ কৰক।\n\nআপুনি চাইলে download_texts_improved.py ব্যৱহাৰ কৰি বই ডাউনলোড কৰিব পাৰে।\n\nস্ক্ৰিপ্ট বা হাতেৰে পাঠ্যৰ Project Gutenberg-ৰ হেডাৰ/ফুটাৰ, আধুনিক টীকাভাষ্য বা OCR ত্ৰুটি আঁতৰাওক।\n\nprepare_dataset.py-ও ভালকৈ কাম কৰিব।\n\n# পদক্ষেপ ২: নিজস্ব টোকেনাইজাৰ নিৰ্মাণ কৰক\n\nপৰিষ্কৃত ডেটাত train_tokenizer.py বা train_tokenizer_hf.py চলাওক।\nএইটোৱে vocab.json আৰু merges.txt দিব\n\nএই ফাইলবোৰে আপোনাৰ মডেলৰ শব্দভাণ্ডাৰ আৰু মাৰ্জ নিয়ম সংজ্ঞায়িত কৰে\n\n# পদক্ষেপ ৩: আপোনাৰ মডেল (nanoGPT) শিকাওক\n\nশিকোৱাৰ প্ৰক্ৰিয়াৰ বাবে [Andrej Karpathy-ৰ nanoGPT](https://github.com/karpathy/nanoGPT) চাওক।\n\nআপুনি চাইলে অন্য LLM-ও শিকাব পাৰে, কিন্তু মই nanoGPT ব্যৱহাৰ কৰিছিলো\n\n# FAQ\n\n## Selective Temporal Training কি?\n\nSelective Temporal Training (STT) হৈছে এক যন্ত্ৰ শিক্ষণ পদ্ধতি য'ত সকলো শিকোৱাৰ ডেটা নিৰ্দিষ্ট ঐতিহাসিক সময়ৰ ভিতৰত সংগৃহীত হয়। এইটো সেই সময়ৰ ভাষা আৰু জ্ঞানক আধুনিক ধাৰণাৰ প্ৰভাৱৰ বাহিৰে মডেল কৰিবলৈ কৰা হয়। উদাহৰণস্বৰূপ, বৰ্তমান মোৰ (v0.5) মডেল ১৮০০-১৮৭৫ৰ ডেটাতহে শিকোৱা, এইটো সম্পূৰ্ণ নতুনকৈ শিকোৱা আৰু ফলত সেই সময়ৰ ভাষাশৈলী আৰু ঐতিহাসিক প্ৰসংগ প্ৰকাশ কৰে।\n\n## Fine-tuning বা LoRA কিয় নুব্যৱহাৰ কৰা?\n\nএই প্ৰজেক্টত মই এখন ভাষা মডেল আধুনিক পক্ষপাতৰ পৰা মুক্ত ৰাখিব বিচাৰিছো। যদি মই GPT-2-ৰ দৰে কিবা fine-tune কৰো, সেইটো ইতিমধ্যে শিকোৱা আৰু সেই তথ্য আঁতৰিব নোৱাৰি। যদি মই নতুনকৈ শিকাওঁ, ভাষা মডেলটোৱে কেৱল পুৰণি হব, অভিনয় নকৰিব। এই প্ৰজেক্টৰ লক্ষ্য, ১৮০০-১৮৫০-ত লণ্ডনত প্ৰকাশিত বইৰ জ্ঞানতে কেৱল যুক্তি কৰিব পৰা এক মডেল নিৰ্মাণ।\n\n## শিকোৱাৰ বাবে কিমান ডেটা ব্যৱহাৰ কৰিছিলা?\n\nমই ১৮০০-১৮৫০ লণ্ডনৰ বই, আইনী নথি, বাতৰি কাকত আৰু অন্যান্য লিখনি ব্যৱহাৰ কৰিছে। মই যি তালিকা দিছো তাত প্ৰায় ২০০টা আছে, কিন্তু প্ৰথম শিকাত মই কেৱল ৫০টা ফাইল, প্ৰায় ১৮৭MB ব্যৱহাৰ কৰিছিলো। আপুনি ডকুমেন্টৰ তালিকা চাব পাৰে:\nhttps://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt\n\n## Version 0 মডেলৰ আকাৰ কিমান?\n\nএই মডেল বৰ্তমানে বহুত সৰু, মই মজা আৰু কোনো আধুনিক উৎস নাথকা কঠোৰ নিয়ম অনুসৰণ কৰি কৰিছো। ইয়াত প্ৰায় ১.৬ কোটি পৰামিত্ৰ আছে, কিন্তু মই আৰু পুৰণি পাঠ্য সংগ্ৰহ কৰি নতুন শিকোৱা আৰম্ভ কৰিম। আগ্ৰগতি থাকিলে আপডেট দিম।\n\n## শিকোৱাৰ স্পেচিফিকেশন?\n\nGPU: Geforce rtx 4060\nCPU: i5-13400F \nRam: 16GB DDR5.\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "আধুনিক ধাৰণাৰ কোনো উল্লেখ নাই, আউটপুটত প্ৰধানকৈ ১৮০০-ৰ দশকৰ শব্দ আৰু বাক্য গঠন থাকে।"
+        "translatedContent": ""
       },
       {
         "row": 2,
-        "rowsha": "/GR84OQ/Xp3d+Yv3/vVIIQFyl8ExKQLgjT1Go5rPplE=",
-        "originContent": "There is no mention of modern concetps, outputs contain mostly words and phrasing from the 1800's.",
-        "translatedContent": ""
+        "rowsha": "yKIR0teTc66wVDG+jdIyNmAzItXb2JH2ld3D7tm4qnM=",
+        "originContent": "![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)",
+        "translatedContent": "![TimeLockLLM নমুনা উত্পাদন](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)"
       },
       {
         "row": 3,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "এতিয়াও বহু কাম কৰিব লাগিব, ১৮৭MB ডেটাতকৈ মডেলটোত জটিল যুক্তি সৃষ্টি নহ’ব।"
+        "translatedContent": ""
       },
       {
         "row": 4,
-        "rowsha": "aojQk3KjkX8shkLnJSZvUZBo0vk4tKDT9aysMfY9yK4=",
-        "originContent": "It still needs alot of work, training off of 187MB will not give you a model that produces text with complex reasoning. ",
-        "translatedContent": ""
+        "rowsha": "/GR84OQ/Xp3d+Yv3/vVIIQFyl8ExKQLgjT1Go5rPplE=",
+        "originContent": "There is no mention of modern concetps, outputs contain mostly words and phrasing from the 1800's.",
+        "translatedContent": "আধুনিক ধাৰণাৰ কোনো উল্লেখ নাই, উত্পাদনত প্ৰায় সকলো শব্দ আৰু বাক্য গঠন ১৮০০ দশকৰ।"
       },
       {
         "row": 5,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "এতিয়া এইটো এনেকুৱা বাক্য উৎপন্ন কৰে য’ত সম্পূৰ্ণ বাক্য গঠন নাই আৰু সাধাৰণতে কোনো অৰ্থ নাথাকে, কিন্তু এইটো প্ৰশিক্ষণ ডাটাৰ আকাৰৰ বাবে স্বাভাৱিক।"
+        "translatedContent": ""
       },
       {
         "row": 6,
-        "rowsha": "SzQ3fs08W+JGBPGw6+aEzLsm/vGfQNDJ6YZnfFE0F4I=",
-        "originContent": "Right now it produces sentences that lack full sentence structure and overall just make no sense but this is normal for the training size. ",
-        "translatedContent": ""
+        "rowsha": "aojQk3KjkX8shkLnJSZvUZBo0vk4tKDT9aysMfY9yK4=",
+        "originContent": "It still needs alot of work, training off of 187MB will not give you a model that produces text with complex reasoning. ",
+        "translatedContent": "এতিয়াও বৰ্ধনীৰ প্ৰয়োজন, কেৱল ১৮৭MB-তকৈ শিকিলে জটিল যুক্তি সম্পন্ন পাঠ্য উত্পাদন কৰা মডেল পাব পৰা নাযায়।"
       },
       {
         "row": 7,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# V0.5 মডেলৰ আচৰণ আৰু সীমাবদ্ধতা"
+        "translatedContent": ""
       },
       {
         "row": 8,
-        "rowsha": "eeaXlcgOJhwk4liDhaA6/6S4URmAdV8vj9hlqGr3LFw=",
-        "originContent": "# V0.5 Model Behavior & Limitations",
-        "translatedContent": ""
+        "rowsha": "SzQ3fs08W+JGBPGw6+aEzLsm/vGfQNDJ6YZnfFE0F4I=",
+        "originContent": "Right now it produces sentences that lack full sentence structure and overall just make no sense but this is normal for the training size. ",
+        "translatedContent": "এতিয়া এইটো এনে বাক্য উত্পাদন কৰে যি সম্পূৰ্ণ বাক্য গঠনৰ অভাৱ থাকে আৰু সাধাৰণতে বুজি নোপোৱা হয়, কিন্তু এইটো এই পৰিমাণৰ ডেটাৰ বাবে স্বাভাৱিক।"
       },
       {
         "row": 9,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "এইটো আগৰ মডেলৰ তুলনাত ভাল উন্নতি। লিখনীৰ ধৰণ আৰু শব্দভাণ্ডাৰ ভিক্টোৰিয়ান আৰু প্ৰায় প্ৰতিটো বাক্য ব্যাকৰণগতভাৱে শুদ্ধ আৰু সঠিক যতিচিহ্নযুক্ত। আৰু পুনৰ কওঁ, এইটো সুৰুঙাৰ পৰা প্ৰশিক্ষিত, গতিকে ১৮০০-ৰ বিষয়বস্তুতেই সীমাবদ্ধ।"
+        "translatedContent": ""
       },
       {
         "row": 10,
-        "rowsha": "tII9OX/M7KpPoQKPIphmQBWtsSVucUevvTnzVsTXcaI=",
-        "originContent": "This is a nice improvement compared to the last model. The writing style and vocab is Victorian and almost every sentence is grammatically correct with proper punctuation. And again this is trained from scratch so it sticks to 1800's subjects. ",
-        "translatedContent": ""
+        "rowsha": "eeaXlcgOJhwk4liDhaA6/6S4URmAdV8vj9hlqGr3LFw=",
+        "originContent": "# V0.5 Model Behavior & Limitations",
+        "translatedContent": "# V0.5 মডেলৰ আচৰণ আৰু সীমাবদ্ধতা"
       },
       {
         "row": 11,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)"
+        "translatedContent": ""
       },
       {
         "row": 12,
-        "rowsha": "8DhXpgpVtg05XdyplRHf49EFOQNCJVzXA9RpmJQ+y9U=",
-        "originContent": "![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)",
-        "translatedContent": ""
+        "rowsha": "tII9OX/M7KpPoQKPIphmQBWtsSVucUevvTnzVsTXcaI=",
+        "originContent": "This is a nice improvement compared to the last model. The writing style and vocab is Victorian and almost every sentence is grammatically correct with proper punctuation. And again this is trained from scratch so it sticks to 1800's subjects. ",
+        "translatedContent": "এইটো আগৰ মডেলতকৈ যথেষ্ট উন্নতি। লিখন শৈলী আৰু শব্দভাণ্ডাৰ ভিক্টোৰিয়ান আৰু প্ৰায় প্ৰতিটো বাক্য ব্যাকৰণগতভাৱে শুদ্ধ আৰু সঠিক যতিচিহ্নেৰে। আৰু এইটো সম্পূৰ্ণকৈ নতুনকৈ শিকোৱা, সেইবাবে ১৮০০ দশকৰ বিষয়বোৰত কেন্দ্ৰিত।"
       },
       {
         "row": 13,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "বহু তথ্যগত বিভ্ৰান্তি আছে। অধিকাংশ (প্ৰায় ১০০%) তথ্য (তাৰিখ, ঘটনা, ঐতিহাসিক ব্যক্তিত্ব) কল্পিত। লগতে বাক্যসমূহৰ মাজত সংযোগ নাই, কেতিয়াবা ২টা বাক্য সম্পৰ্কিত হ’ব পাৰে, কিন্তু সেয়া সীমিত। আন এটা সমস্যা হৈছে কেতিয়াবা “Digitized by Google” ফুটাৰ অহা, গতিকে পৰৱৰ্তী প্ৰশিক্ষণত পাঠবোৰ ভালকৈ পৰিষ্কাৰ কৰাটো নিশ্চিত কৰিব লাগিব। মুঠতে, ফলাফলত মই সুখী, ইমানবিধ LLM নাই, কিন্তু এটা বাক্য উৎপাদক হবলৈ সক্ষম।"
+        "translatedContent": ""
       },
       {
         "row": 14,
-        "rowsha": "YgdLunUOAWWHsq+eAfyWcDz1fCc0rCcobnRpEXHoK94=",
-        "originContent": "There are a lot of factual hallucinations. A lot (like 100%) of the details (dates, events, historical figures)  are made up. Also the sentences don't really have connections to each other, sometimes maybe 2 sentences will relate to each other but beyond that they dont. Another issue is sometimes a stray “Digitized by Google” footer shows up, so the next time I train I really have to make sure the texts are cleaned well. Overall I'm very happy with the results, it's nowhere near an LLM yet but definitely a sentence generator. ",
-        "translatedContent": ""
+        "rowsha": "8DhXpgpVtg05XdyplRHf49EFOQNCJVzXA9RpmJQ+y9U=",
+        "originContent": "![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)",
+        "translatedContent": "![TimeLockLLM নমুনা উত্পাদন](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)"
       },
       {
         "row": 15,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "মই বহু কথা শিকিছোঁ আৰু অহা কাইলৈ কি ভাল কৰিব পাৰিম সেয়া বিচাৰি আছোঁ। শীঘ্ৰে ফাইল আপল’ড কৰিম!"
+        "translatedContent": ""
       },
       {
         "row": 16,
-        "rowsha": "V44Ne2sN8v7ZVpRZ5vo7B2aUZFjGppYthg0fjsQAqd0=",
-        "originContent": "I'm learning a lot and will start figuring out what I need to do better in the coming weeks. I will upload files soon! ",
-        "translatedContent": ""
+        "rowsha": "YgdLunUOAWWHsq+eAfyWcDz1fCc0rCcobnRpEXHoK94=",
+        "originContent": "There are a lot of factual hallucinations. A lot (like 100%) of the details (dates, events, historical figures)  are made up. Also the sentences don't really have connections to each other, sometimes maybe 2 sentences will relate to each other but beyond that they dont. Another issue is sometimes a stray “Digitized by Google” footer shows up, so the next time I train I really have to make sure the texts are cleaned well. Overall I'm very happy with the results, it's nowhere near an LLM yet but definitely a sentence generator. ",
+        "translatedContent": "অসত্য তথ্যৰ কল্পনা বহুত আছে। বহুতো (প্ৰায় ১০০%) তথ্য (তাৰিখ, ঘটনা, ঐতিহাসিক ব্যক্তি) গঢ়ি কৰা। লগতে বাক্যবোৰৰ মাজত সত্যিকাৰ সংযোগ নাই, কেতিয়াবা হয়তো ২টা বাক্যৰ মাজত সম্পৰ্ক পোৱা যায়, তাৰ ওপৰত নাই। আন এটা সমস্যা, কেতিয়াবা “Digitized by Google” ফুটাৰ দেখা যায়, গতিকে অহা সময়ত শিকোৱাৰ আগতে পাঠ্যবোৰ ভালদৰে পৰিষ্কাৰ কৰিব লাগিব। মুঠতে মই ফলাফলত যথেষ্ট সন্তুষ্ট, LLM হবলৈ বহু বাকি কিন্তু বাক্য উত্পাদক হিচাপে নিশ্চিত।"
       },
       {
         "row": 17,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# আগন্তুক পৰিকল্পনা"
+        "translatedContent": ""
       },
       {
         "row": 18,
-        "rowsha": "iMvQyl++GAiLpFMT+58v3e9/hb7zXnIJauchG5p986Y=",
-        "originContent": "# Upcoming Plans ",
-        "translatedContent": ""
+        "rowsha": "V44Ne2sN8v7ZVpRZ5vo7B2aUZFjGppYthg0fjsQAqd0=",
+        "originContent": "I'm learning a lot and will start figuring out what I need to do better in the coming weeks. I will upload files soon! ",
+        "translatedContent": "মই বহুত শিকিছো আৰু অহা সপ্তাহত কি উন্নত কৰিব পাৰো সেইটো বিচাৰিম। মই চিগ্ৰেই ফাইল আপল'ড কৰিম!"
       },
       {
         "row": 19,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "(সম্পূৰ্ণ) মই V0.5-ৰ কাম আৰম্ভ কৰিম, ৫০খন পুথিৰ বদলে ৫০০-৬০০খন ব্যৱহাৰ কৰিম। এতিয়া মই nanoGPT-ত ১৮০০-১৮৫০ সময়ৰ আৰু বিশেষকৈ লণ্ডনৰ পুথি প্ৰশিক্ষণ দিছোঁ। চেলেঞ্জ হৈছে, পুথিবোৰ আধুনিক সংশোধিত নহ’ব লাগে, নিৰ্বাচিত সময়ছোৱাৰ মূল পুথি হব লাগিব।"
+        "translatedContent": ""
       },
       {
         "row": 20,
-        "rowsha": "OIt/QAbIp2G7kt87dbAIf6Ec0U3HnwjOW6LYRmdf68I=",
-        "originContent": "(Completed) I'm going to start work on version 0.5 , instead of training using 50 books, I'll train using ideally 500-600. Right now I'm training nanoGPT using books from 1800-1850 and specifically from London. There is some challeneges like making sure the books I find are not updated or have modern interpretations but untouched books published withtin my chosen time period.",
-        "translatedContent": ""
+        "rowsha": "iMvQyl++GAiLpFMT+58v3e9/hb7zXnIJauchG5p986Y=",
+        "originContent": "# Upcoming Plans ",
+        "translatedContent": "# অহা পৰিকল্পনা"
       },
       {
         "row": 21,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "মই নতুন মডেল (v1) প্ৰশিক্ষণ দিব বিচাৰোঁ, আগৰ তুলনাত ৫-১০ গুণ ডাঙৰ ডেটা ব্যৱহাৰ কৰি। মোৰ লক্ষ্য হৈছে কেৱল Selective Temporal Training-ৰে যুক্তি ক্ষমতা উন্মোচিত হয় নে চোৱা, এইটো কঠিন হ’ব পাৰে কাৰণ ঐতিহাসিক ডেটাৰ সীমাবদ্ধতা আছে। অহা কাইলৈ ৫-১০GB ডেটা সংগ্ৰহ কৰিবলৈ চেষ্টা কৰিম। মই বিশ্বাস কৰোঁ, যদি পৰিষ্কাৰ, উচ্চ-গুণগত ডেটা আৰু GPU ভাড়া কৰিব পাৰোঁ, উন্নতি হব।"
+        "translatedContent": ""
       },
       {
         "row": 22,
-        "rowsha": "13sW7eekt8pSDdOxr/oKukwKEOVmw/M8xiAJC1VFXZc=",
-        "originContent": "I want to train a new model (v1) with a much larger corpus, maybe 5-10x larger than the one I used for v0.5. My goal is to see if I can get reasoning abilities to emerge from Selective Temporal Training alone, this will be a more difficult task and I'm not even entirely sure if it's possible due to the fact that there is historical data limitations. In the upcoming weeks I will try to curate enough data for a 5-10GB corpus. I believe If I can get clean clean high quality data and rent a GPU, there will be progress.",
-        "translatedContent": ""
+        "rowsha": "OIt/QAbIp2G7kt87dbAIf6Ec0U3HnwjOW6LYRmdf68I=",
+        "originContent": "(Completed) I'm going to start work on version 0.5 , instead of training using 50 books, I'll train using ideally 500-600. Right now I'm training nanoGPT using books from 1800-1850 and specifically from London. There is some challeneges like making sure the books I find are not updated or have modern interpretations but untouched books published withtin my chosen time period.",
+        "translatedContent": "(সম্পূৰ্ণ) মই এতিয়া সংস্কৰণ ০.৫-ৰ ওপৰত কাম আৰম্ভ কৰিম, ৫০খন বইৰ বিপৰীতে ৫০০-৬০০খন বই ব্যৱহাৰ কৰি শিকাম। এতিয়া মই nanoGPT-ত ১৮০০-১৮৫০ লণ্ডনৰ বই ব্যৱহাৰ কৰি শিকাইছো। সমস্যা আছিল পোৱা বইবোৰ আধুনিকীকৰণ বা ব্যাখ্যা নাথকা, কেৱল মোৰ নিৰ্বাচিত সময়ৰ প্ৰকৃত প্ৰকাশিত বই।"
       },
       {
         "row": 23,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# এই প্ৰকল্প কেনেকৈ ব্যৱহাৰ কৰিব"
+        "translatedContent": ""
       },
       {
         "row": 24,
-        "rowsha": "sO+voevLpUtEbqum6Gntntle+nPVa66c5GATAMLrgf0=",
-        "originContent": "# How to Use This Project ",
-        "translatedContent": ""
+        "rowsha": "13sW7eekt8pSDdOxr/oKukwKEOVmw/M8xiAJC1VFXZc=",
+        "originContent": "I want to train a new model (v1) with a much larger corpus, maybe 5-10x larger than the one I used for v0.5. My goal is to see if I can get reasoning abilities to emerge from Selective Temporal Training alone, this will be a more difficult task and I'm not even entirely sure if it's possible due to the fact that there is historical data limitations. In the upcoming weeks I will try to curate enough data for a 5-10GB corpus. I believe If I can get clean clean high quality data and rent a GPU, there will be progress.",
+        "translatedContent": "মই নতুন মডেল (v1) বহল কৰ্পাছৰ সৈতে শিকাব বিচাৰো, হয়তো v0.5-ৰ তুলনাত ৫-১০ গুণ ডাঙৰ। মোৰ লক্ষ্য হৈছে কেৱল Selective Temporal Training-এ যুক্তিৰ ক্ষমতা উন্মোচিত হয় নেকি চোৱা, এইটো কঠিন হ'ব আৰু সম্ভৱ নে নাই নিশ্চিত নহয় কাৰণ ঐতিহাসিক তথ্যৰ সীমাবদ্ধতা আছে। অহা সপ্তাহত মই ৫-১০GB ডেটা সংগ্ৰহ কৰিবলৈ চেষ্টা কৰিম। মই বিশ্বাস কৰো, যদি পৰিষ্কাৰ, উচ্চমানৰ তথ্য পাওঁ আৰু GPU ভাড়া লওঁ, অগ্ৰগতি হব।"
       },
       {
         "row": 25,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "এই প্ৰকল্পটোত প্ৰধানকৈ ঐতিহাসিক ডেটা সংগ্ৰহ, প্ৰস্তুতকৰণ আৰু টোকেনাইজাৰ নিৰ্মাণৰ ওপৰত গুৰুত্ব দিয়া হৈছে। সম্পূৰ্ণ LLM প্ৰশিক্ষণ প্ৰক্ৰিয়া আমি আলোচনা নকৰোঁ, তাৰ বাবে Andrej Karpathy-ৰ nanoGPT চাওক।"
+        "translatedContent": ""
       },
       {
         "row": 26,
-        "rowsha": "XVoXr9uzZwN09vboETojEQJe057RBzcMUjXmQRCB/jo=",
-        "originContent": "This project focuses mostly on curating historical data, preparing it for training and building a tokenizer. I am not going to cover the full LLM training process, for that refer to nanoGPT by Andrej Karpathy.",
-        "translatedContent": ""
+        "rowsha": "sO+voevLpUtEbqum6Gntntle+nPVa66c5GATAMLrgf0=",
+        "originContent": "# How to Use This Project ",
+        "translatedContent": "# এই প্ৰজেক্ট কেনেকৈ ব্যৱহাৰ কৰিব"
       },
       {
         "row": 27,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# ধাপ ১: ঐতিহাসিক পাঠ সংগ্ৰহ আৰু প্ৰস্তুতি"
+        "translatedContent": ""
       },
       {
         "row": 28,
-        "rowsha": "kDK7XtqFkTiZvD804yYG4VEojvLrRbdEhmHEBzDAQz4=",
-        "originContent": "# Step 1: Gather and Prepare Historical Texts ",
-        "translatedContent": ""
+        "rowsha": "XVoXr9uzZwN09vboETojEQJe057RBzcMUjXmQRCB/jo=",
+        "originContent": "This project focuses mostly on curating historical data, preparing it for training and building a tokenizer. I am not going to cover the full LLM training process, for that refer to nanoGPT by Andrej Karpathy.",
+        "translatedContent": "এই প্ৰজেক্টত প্ৰধানকৈ ঐতিহাসিক ডেটা সংগ্ৰহ, প্ৰস্তুতকৰণ আৰু টোকেনাইজাৰ নিৰ্মাণত গুৰুত্ব দিয়া হৈছে। সম্পূৰ্ণ LLM শিকোৱাৰ প্ৰক্ৰিয়া ইয়াত দিয়া নাই, তাৰ বাবে Andrej Karpathy-ৰ nanoGPT চাওক।"
       },
       {
         "row": 29,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "আপোনাৰ নিৰ্বাচিত সময়ছোৱা (উদাঃ, লণ্ডন ১৮০০-১৮৫০)-ৰ পাব্লিক ড’মেইন পুথি, নথি আদি .txt ফাইল সংগ্ৰহ কৰক।"
+        "translatedContent": ""
       },
       {
         "row": 30,
-        "rowsha": "oRoOYaG+mx3SqTnhGcOKeH7W3W4wSRQmhZS4jPGMH8s=",
-        "originContent": "Collect .txt files of public domain books, documents, etc from your chosen time period (e.g., London 1800-1850)",
-        "translatedContent": ""
+        "rowsha": "kDK7XtqFkTiZvD804yYG4VEojvLrRbdEhmHEBzDAQz4=",
+        "originContent": "# Step 1: Gather and Prepare Historical Texts ",
+        "translatedContent": "# পদক্ষেপ ১: ঐতিহাসিক পাঠ্য সংগ্ৰহ আৰু প্ৰস্তুত কৰক"
       },
       {
         "row": 31,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "প্ৰয়োজন হলে download_texts_improved.py ব্যৱহাৰ কৰি পুথি ডাউনল’ড কৰিব পাৰিব।"
+        "translatedContent": ""
       },
       {
         "row": 32,
-        "rowsha": "EBDhZvTogrL4hqRuH095O7/tXXoy2OEskLQlang/pOA=",
-        "originContent": "You can use download_texts_improved.py to download books for you if you need to.",
-        "translatedContent": ""
+        "rowsha": "oRoOYaG+mx3SqTnhGcOKeH7W3W4wSRQmhZS4jPGMH8s=",
+        "originContent": "Collect .txt files of public domain books, documents, etc from your chosen time period (e.g., London 1800-1850)",
+        "translatedContent": "আপোনাৰ নিৰ্বাচিত সময়ৰ (যেনে, লণ্ডন ১৮০০-১৮৫০) সাধাৰণ সম্পত্তি থকা বই, নথি আদি .txt ফাইল সংগ্ৰহ কৰক।"
       },
       {
         "row": 33,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "স্ক্ৰিপ্ট বা মেনুৱেলভাৱে Project Gutenberg-ৰ হেডাৰ/ফুটাৰ, আধুনিক টীকা, বা OCR ত্ৰুটি আঁতৰাওক।"
+        "translatedContent": ""
       },
       {
         "row": 34,
-        "rowsha": "q5OO8x+9kIbzaQRWimI/Vo9ZowzVBtCX+TodObLsQoY=",
-        "originContent": "Clean the text files using a script or manually remove headers/footer from Project Gutenberg, Modern annotations or things like OCR errors.",
-        "translatedContent": ""
+        "rowsha": "EBDhZvTogrL4hqRuH095O7/tXXoy2OEskLQlang/pOA=",
+        "originContent": "You can use download_texts_improved.py to download books for you if you need to.",
+        "translatedContent": "আপুনি চাইলে download_texts_improved.py ব্যৱহাৰ কৰি বই ডাউনলোড কৰিব পাৰে।"
       },
       {
         "row": 35,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "prepare_dataset.py-য়ে যথেষ্ট ভাল কাম কৰিব।"
+        "translatedContent": ""
       },
       {
         "row": 36,
-        "rowsha": "N4wsIjC0LRlClodmfCtYX3qswttJnk0psU28/mlCRTw=",
-        "originContent": "prepare_dataset.py should work fine.",
-        "translatedContent": ""
+        "rowsha": "q5OO8x+9kIbzaQRWimI/Vo9ZowzVBtCX+TodObLsQoY=",
+        "originContent": "Clean the text files using a script or manually remove headers/footer from Project Gutenberg, Modern annotations or things like OCR errors.",
+        "translatedContent": "স্ক্ৰিপ্ট বা হাতেৰে পাঠ্যৰ Project Gutenberg-ৰ হেডাৰ/ফুটাৰ, আধুনিক টীকাভাষ্য বা OCR ত্ৰুটি আঁতৰাওক।"
       },
       {
         "row": 37,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# ধাপ ২: কাষ্টম টোকেনাইজাৰ নিৰ্মাণ"
+        "translatedContent": ""
       },
       {
         "row": 38,
-        "rowsha": "jDM2lr7pP+MT0pt+L0cd5nBXI83IPoT27NzIgplt7R8=",
-        "originContent": "# Step 2: Build a Custom Tokenizer",
-        "translatedContent": ""
+        "rowsha": "N4wsIjC0LRlClodmfCtYX3qswttJnk0psU28/mlCRTw=",
+        "originContent": "prepare_dataset.py should work fine.",
+        "translatedContent": "prepare_dataset.py-ও ভালকৈ কাম কৰিব।"
       },
       {
         "row": 39,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "train_tokenizer.py বা train_tokenizer_hf.py পৰিষ্কৃত ডেটাত চলাওক।"
+        "translatedContent": ""
       },
       {
         "row": 40,
-        "rowsha": "+90EorsgO/X2bFK2pYJw+vZIpjIbuMm4QR6W/xfj8C8=",
-        "originContent": "Run train_tokenizer.py or train_tokenizer_hf.py on the cleaned data.",
-        "translatedContent": "এইটো vocab.json আৰু merges.txt দিব"
+        "rowsha": "jDM2lr7pP+MT0pt+L0cd5nBXI83IPoT27NzIgplt7R8=",
+        "originContent": "# Step 2: Build a Custom Tokenizer",
+        "translatedContent": "# পদক্ষেপ ২: নিজস্ব টোকেনাইজাৰ নিৰ্মাণ কৰক"
       },
       {
         "row": 41,
-        "rowsha": "tkP3Eg1rWphTQMNhN2yYg/1+AA1IdcXbGT96aRMpnwc=",
-        "originContent": "This will give you vocab.json and merges.txt",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 42,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "এই ফাইলসমূহে আপোনাৰ মডেলৰ শব্দভাণ্ডাৰ আৰু সংযোগ নিয়ম নিৰ্ধাৰণ কৰে"
+        "rowsha": "+90EorsgO/X2bFK2pYJw+vZIpjIbuMm4QR6W/xfj8C8=",
+        "originContent": "Run train_tokenizer.py or train_tokenizer_hf.py on the cleaned data.",
+        "translatedContent": "পৰিষ্কৃত ডেটাত train_tokenizer.py বা train_tokenizer_hf.py চলাওক।"
       },
       {
         "row": 43,
-        "rowsha": "/wqxgtOu72+x3a2xi7q23jDkx+WQv2SHrJddzpvm1Ys=",
-        "originContent": "Thes files define vocab and merge rules for your model",
-        "translatedContent": ""
+        "rowsha": "tkP3Eg1rWphTQMNhN2yYg/1+AA1IdcXbGT96aRMpnwc=",
+        "originContent": "This will give you vocab.json and merges.txt",
+        "translatedContent": "এইটোৱে vocab.json আৰু merges.txt দিব"
       },
       {
         "row": 44,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# ধাপ ৩: আপোনাৰ মডেল (nanoGPT) প্ৰশিক্ষণ কৰক"
+        "translatedContent": ""
       },
       {
         "row": 45,
-        "rowsha": "vKPAEsPxc9uYtzjTX9/rNADSDnxkKwYcYpX/aiAp8Hc=",
-        "originContent": "# Step 3: Train Your Model (nanoGPT) ",
-        "translatedContent": ""
+        "rowsha": "/wqxgtOu72+x3a2xi7q23jDkx+WQv2SHrJddzpvm1Ys=",
+        "originContent": "Thes files define vocab and merge rules for your model",
+        "translatedContent": "এই ফাইলবোৰে আপোনাৰ মডেলৰ শব্দভাণ্ডাৰ আৰু মাৰ্জ নিয়ম সংজ্ঞায়িত কৰে"
       },
       {
         "row": 46,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "প্ৰশিক্ষণ প্ৰক্ৰিয়াৰ বাবে [Andrej Karpathy-ৰ nanoGPT](https://github.com/karpathy/nanoGPT) চাওক।"
+        "translatedContent": ""
       },
       {
         "row": 47,
-        "rowsha": "tCDY5iXt+Z7YYeTPouMSYDX5uuFnGROxZMvHyTOIblY=",
-        "originContent": "Refer to [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) for the training process.",
-        "translatedContent": ""
+        "rowsha": "vKPAEsPxc9uYtzjTX9/rNADSDnxkKwYcYpX/aiAp8Hc=",
+        "originContent": "# Step 3: Train Your Model (nanoGPT) ",
+        "translatedContent": "# পদক্ষেপ ৩: আপোনাৰ মডেল (nanoGPT) শিকাওক"
       },
       {
         "row": 48,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "আৰু কোনো LLM প্ৰশিক্ষণ দিব পাৰিব, কিন্তু মই nanoGPT ব্যৱহাৰ কৰিছিলোঁ"
+        "translatedContent": ""
       },
       {
         "row": 49,
-        "rowsha": "bLpr9snECDSJ5ejrqDWYNT8VXSupCQKQxyLxvAmQ2Kc=",
-        "originContent": "You can train a different LLM if you want, but I used nanoGPT ",
-        "translatedContent": ""
+        "rowsha": "tCDY5iXt+Z7YYeTPouMSYDX5uuFnGROxZMvHyTOIblY=",
+        "originContent": "Refer to [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) for the training process.",
+        "translatedContent": "শিকোৱাৰ প্ৰক্ৰিয়াৰ বাবে [Andrej Karpathy-ৰ nanoGPT](https://github.com/karpathy/nanoGPT) চাওক।"
       },
       {
         "row": 50,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# FAQ"
+        "translatedContent": ""
       },
       {
         "row": 51,
-        "rowsha": "OoCxyGfPN5TmdzAkaPphtPx303MJJ7vpfWbKrufGH5g=",
-        "originContent": "# FAQ",
-        "translatedContent": ""
+        "rowsha": "bLpr9snECDSJ5ejrqDWYNT8VXSupCQKQxyLxvAmQ2Kc=",
+        "originContent": "You can train a different LLM if you want, but I used nanoGPT ",
+        "translatedContent": "আপুনি চাইলে অন্য LLM-ও শিকাব পাৰে, কিন্তু মই nanoGPT ব্যৱহাৰ কৰিছিলো"
       },
       {
         "row": 52,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## Selective Temporal Training কি?"
+        "translatedContent": ""
       },
       {
         "row": 53,
-        "rowsha": "+5dDgPw4ILEotxso4tjjjz1cxwUei16yNQPDUKbgxoo=",
-        "originContent": "## What is Selective Temporal Training ?",
-        "translatedContent": ""
+        "rowsha": "OoCxyGfPN5TmdzAkaPphtPx303MJJ7vpfWbKrufGH5g=",
+        "originContent": "# FAQ",
+        "translatedContent": "# FAQ"
       },
       {
         "row": 54,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "Selective Temporal Training (STT) হৈছে এনে মেচিন লাৰ্নিং পদ্ধতি য’ত সকলো প্ৰশিক্ষণ ডেটা নিৰ্দিষ্ট এটি ঐতিহাসিক সময়ছোৱাৰ ভিতৰত সংগ্ৰহ কৰা হয়। আধুনিক ধাৰণাৰ প্ৰভাৱ নোহোৱাকৈ সেই যুগৰ ভাষা আৰু জ্ঞান মডেল কৰিবৰ বাবে এইটো কৰা হয়। উদাহৰণস্বৰূপ, মোৰ বৰ্তমান মডেল (v0.5) ১৮০০-১৮৭৫ৰ ডেটাতকৈ সুৰুঙাৰ পৰা প্ৰশিক্ষিত, ফলত সেই সময়ৰ ভাষা আৰু ইতিহাস প্ৰতিফলিত হয়।"
+        "translatedContent": ""
       },
       {
         "row": 55,
-        "rowsha": "hooEARKH4r/sDPh7JUtZAZ6TYMvBkTLZIcfw3g83xos=",
-        "originContent": "Selective Temporal Training (STT) is a machine learning methodology where all training data is specifically curated to fall within a specific historical time period. It's done in order to model the language and knowledge of that era without influence from modern concepts. For example, the current model I have now (v0.5) is trained on data exclusively from 1800-1875, it's not fine tuned but trained from scratch resulting in output that reflects the linguistic style and historical context of that time period.",
-        "translatedContent": ""
+        "rowsha": "+5dDgPw4ILEotxso4tjjjz1cxwUei16yNQPDUKbgxoo=",
+        "originContent": "## What is Selective Temporal Training ?",
+        "translatedContent": "## Selective Temporal Training কি?"
       },
       {
         "row": 56,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## কেৱল ফাইন-টিউনিং বা LoRA ব্যৱহাৰ নকৰা কিয়?"
+        "translatedContent": ""
       },
       {
         "row": 57,
-        "rowsha": "dVMKQ2mPI1Spc6x6r/jNG0PIR5YKpalU4MXx9JmKp/I=",
-        "originContent": "## Why not just use fine-tuning or LoRA?",
-        "translatedContent": ""
+        "rowsha": "hooEARKH4r/sDPh7JUtZAZ6TYMvBkTLZIcfw3g83xos=",
+        "originContent": "Selective Temporal Training (STT) is a machine learning methodology where all training data is specifically curated to fall within a specific historical time period. It's done in order to model the language and knowledge of that era without influence from modern concepts. For example, the current model I have now (v0.5) is trained on data exclusively from 1800-1875, it's not fine tuned but trained from scratch resulting in output that reflects the linguistic style and historical context of that time period.",
+        "translatedContent": "Selective Temporal Training (STT) হৈছে এক যন্ত্ৰ শিক্ষণ পদ্ধতি য'ত সকলো শিকোৱাৰ ডেটা নিৰ্দিষ্ট ঐতিহাসিক সময়ৰ ভিতৰত সংগৃহীত হয়। এইটো সেই সময়ৰ ভাষা আৰু জ্ঞানক আধুনিক ধাৰণাৰ প্ৰভাৱৰ বাহিৰে মডেল কৰিবলৈ কৰা হয়। উদাহৰণস্বৰূপ, বৰ্তমান মোৰ (v0.5) মডেল ১৮০০-১৮৭৫ৰ ডেটাতহে শিকোৱা, এইটো সম্পূৰ্ণ নতুনকৈ শিকোৱা আৰু ফলত সেই সময়ৰ ভাষাশৈলী আৰু ঐতিহাসিক প্ৰসংগ প্ৰকাশ কৰে।"
       },
       {
         "row": 58,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "এই প্ৰকল্পৰ বাবে মই আধুনিক পক্ষপাতৰ পৰা মুক্ত ভাষা মডেল সৃষ্টি কৰিবলৈ চেষ্টা কৰিছোঁ। GPT-2 যেনেকুৱা প্ৰি-ট্ৰেইনড মডেল ফাইন-টিউন কৰিলে আধুনিক তথ্য আঁতৰিব নোৱাৰে। সুৰুঙাৰ পৰা প্ৰশিক্ষণ দিলে মডেলটো “পুৰণি” হ’ব, অভিনয় নকৰিব। বৰ্তমান উদ্দেশ্য হৈছে ১৮০০-১৮৫০ৰ লণ্ডনৰ পুথিতকৈ কেৱল সেই জ্ঞানৰে যুক্তি কৰিব পৰা মডেল।"
+        "translatedContent": ""
       },
       {
         "row": 59,
-        "rowsha": "oNvWlJHtQSyq1TwlqJyGtMzk4Z4mBIn8AW2SudzvUYs=",
-        "originContent": "For this project I'm trying to create a language model that is unclouded from modern bias. If I fine-tune something like GPT-2, it's already pre-trained and that information won't go away. If I train from scratch the language model won't pretend to be old, it just will be. The Goal for this project right now is to create something can reason exclusively using knowledge from London books published between 1800 and 1850.",
-        "translatedContent": ""
+        "rowsha": "dVMKQ2mPI1Spc6x6r/jNG0PIR5YKpalU4MXx9JmKp/I=",
+        "originContent": "## Why not just use fine-tuning or LoRA?",
+        "translatedContent": "## Fine-tuning বা LoRA কিয় নুব্যৱহাৰ কৰা?"
       },
       {
         "row": 60,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## প্ৰশিক্ষণৰ বাবে কিমান ধৰণৰ ডেটা ব্যৱহাৰ কৰা হৈছে?"
+        "translatedContent": ""
       },
       {
         "row": 61,
-        "rowsha": "ByP4WlNmMoG6WIiLJNd6b080/DSciCgWmj9aYSJjAF0=",
-        "originContent": "## What kind of data did you use for training?",
-        "translatedContent": ""
+        "rowsha": "oNvWlJHtQSyq1TwlqJyGtMzk4Z4mBIn8AW2SudzvUYs=",
+        "originContent": "For this project I'm trying to create a language model that is unclouded from modern bias. If I fine-tune something like GPT-2, it's already pre-trained and that information won't go away. If I train from scratch the language model won't pretend to be old, it just will be. The Goal for this project right now is to create something can reason exclusively using knowledge from London books published between 1800 and 1850.",
+        "translatedContent": "এই প্ৰজেক্টত মই এখন ভাষা মডেল আধুনিক পক্ষপাতৰ পৰা মুক্ত ৰাখিব বিচাৰিছো। যদি মই GPT-2-ৰ দৰে কিবা fine-tune কৰো, সেইটো ইতিমধ্যে শিকোৱা আৰু সেই তথ্য আঁতৰিব নোৱাৰি। যদি মই নতুনকৈ শিকাওঁ, ভাষা মডেলটোৱে কেৱল পুৰণি হব, অভিনয় নকৰিব। এই প্ৰজেক্টৰ লক্ষ্য, ১৮০০-১৮৫০-ত লণ্ডনত প্ৰকাশিত বইৰ জ্ঞানতে কেৱল যুক্তি কৰিব পৰা এক মডেল নিৰ্মাণ।"
       },
       {
         "row": 62,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "মই ১৮০০–১৮৫০-ৰ লণ্ডনৰ পুথি, আইনী নথি, বাতৰিকাকত, আৰু অন্যান্য লিখনি ব্যৱহাৰ কৰিছোঁ। সংলগ্ন তালিকাত প্ৰায় ২০০টা আছে, প্ৰথম প্ৰশিক্ষণত ৫০টা ফাইল, প্ৰায় ১৮৭MB ব্যৱহাৰ কৰা। ডকুমেন্টৰ তালিকা চাব পাৰিব:"
+        "translatedContent": ""
       },
       {
         "row": 63,
-        "rowsha": "Kj6EF7wZdUrAFg4ErGmJuh9Q5Xujmb+tunpfssPKXkA=",
-        "originContent": "I'm using books, legal documents, newspapers, and other writings from 1800–1850 London. The list I linked has like 200 but for the first training I just used 50 files about ~187 MB. You can view a list of the documents:",
-        "translatedContent": "https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt"
+        "rowsha": "ByP4WlNmMoG6WIiLJNd6b080/DSciCgWmj9aYSJjAF0=",
+        "originContent": "## What kind of data did you use for training?",
+        "translatedContent": "## শিকোৱাৰ বাবে কিমান ডেটা ব্যৱহাৰ কৰিছিলা?"
       },
       {
         "row": 64,
-        "rowsha": "0mxyGiLJxzp9JPCg1oA+nbIwAKJbEC4ei9kSV3Gp84Y=",
-        "originContent": "https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 65,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Version 0 মডেলৰ আকাৰ কিমান?"
+        "rowsha": "Kj6EF7wZdUrAFg4ErGmJuh9Q5Xujmb+tunpfssPKXkA=",
+        "originContent": "I'm using books, legal documents, newspapers, and other writings from 1800–1850 London. The list I linked has like 200 but for the first training I just used 50 files about ~187 MB. You can view a list of the documents:",
+        "translatedContent": "মই ১৮০০-১৮৫০ লণ্ডনৰ বই, আইনী নথি, বাতৰি কাকত আৰু অন্যান্য লিখনি ব্যৱহাৰ কৰিছে। মই যি তালিকা দিছো তাত প্ৰায় ২০০টা আছে, কিন্তু প্ৰথম শিকাত মই কেৱল ৫০টা ফাইল, প্ৰায় ১৮৭MB ব্যৱহাৰ কৰিছিলো। আপুনি ডকুমেন্টৰ তালিকা চাব পাৰে:"
       },
       {
         "row": 66,
-        "rowsha": "RiLgksbH2sYLZRyKsFhVyfjC6nNxLsxWsc7XnFS061A=",
-        "originContent": "## How large is the Version 0 model ?",
-        "translatedContent": ""
+        "rowsha": "0mxyGiLJxzp9JPCg1oA+nbIwAKJbEC4ei9kSV3Gp84Y=",
+        "originContent": "https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt",
+        "translatedContent": "https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt"
       },
       {
         "row": 67,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "এই মডেল বৰ্তমান খুব সৰু, মই মাত্ৰ আনন্দৰ বাবে আৰু আধুনিক উৎস নোহোৱাকৈ প্ৰশিক্ষণ দিছোঁ। ইয়াত প্ৰায় ১৬ নিযুত পেৰামিটাৰ আছে, আৰু মই অধিক পুৰণি পাঠ সংগ্ৰহ কৰি নতুন প্ৰশিক্ষণ আৰম্ভ কৰিম। আগবঢ়া অনুযায়ী আপডেট দিম।"
+        "translatedContent": ""
       },
       {
         "row": 68,
-        "rowsha": "55Ce1mBEzOreC728R5HRfuMIC/nZRg3Zcr87GVkjVVY=",
-        "originContent": "This model is very small right now, I'm just doing this for fun and following a strict training rule of no modern sources. It has almost 16 million parameters but I'm gonna start gathering more old texts to begin another model training. Will give updates as I go.",
-        "translatedContent": ""
+        "rowsha": "RiLgksbH2sYLZRyKsFhVyfjC6nNxLsxWsc7XnFS061A=",
+        "originContent": "## How large is the Version 0 model ?",
+        "translatedContent": "## Version 0 মডেলৰ আকাৰ কিমান?"
       },
       {
         "row": 69,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## প্ৰশিক্ষণৰ স্পেচিফিকেচন?"
+        "translatedContent": ""
       },
       {
         "row": 70,
-        "rowsha": "A40eQ7ZJiqr+bs9cl0Cb4QKKuS9z7/PA1ZaGn1TSehI=",
-        "originContent": "## Training Specs ? ",
-        "translatedContent": ""
+        "rowsha": "55Ce1mBEzOreC728R5HRfuMIC/nZRg3Zcr87GVkjVVY=",
+        "originContent": "This model is very small right now, I'm just doing this for fun and following a strict training rule of no modern sources. It has almost 16 million parameters but I'm gonna start gathering more old texts to begin another model training. Will give updates as I go.",
+        "translatedContent": "এই মডেল বৰ্তমানে বহুত সৰু, মই মজা আৰু কোনো আধুনিক উৎস নাথকা কঠোৰ নিয়ম অনুসৰণ কৰি কৰিছো। ইয়াত প্ৰায় ১.৬ কোটি পৰামিত্ৰ আছে, কিন্তু মই আৰু পুৰণি পাঠ্য সংগ্ৰহ কৰি নতুন শিকোৱা আৰম্ভ কৰিম। আগ্ৰগতি থাকিলে আপডেট দিম।"
       },
       {
         "row": 71,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "GPU: Geforce rtx 4060"
-      },
-      {
-        "row": 72,
-        "rowsha": "EH8H1HW/C4Tb7LfJgVUnVGsk4pF9l40Rlev8tAkKhjI=",
-        "originContent": "GPU: Geforce rtx 4060",
-        "translatedContent": "CPU: i5-13400F"
-      },
-      {
-        "row": 73,
-        "rowsha": "vo3FdN37kY6VUB7PruRKfBPJDgsVJyBHIUCn/g8mt68=",
-        "originContent": "CPU: i5-13400F ",
-        "translatedContent": "RAM: 16GB DDR5."
-      },
-      {
-        "row": 74,
-        "rowsha": "W8fXPiQKUkoNso0PPfTvjYMy0IYo85j+gNXmB0aERO4=",
-        "originContent": "Ram: 16GB DDR5.",
         "translatedContent": ""
       },
       {
+        "row": 72,
+        "rowsha": "A40eQ7ZJiqr+bs9cl0Cb4QKKuS9z7/PA1ZaGn1TSehI=",
+        "originContent": "## Training Specs ? ",
+        "translatedContent": "## শিকোৱাৰ স্পেচিফিকেশন?"
+      },
+      {
+        "row": 73,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "EH8H1HW/C4Tb7LfJgVUnVGsk4pF9l40Rlev8tAkKhjI=",
+        "originContent": "GPU: Geforce rtx 4060",
+        "translatedContent": "GPU: Geforce rtx 4060"
+      },
+      {
         "row": 75,
+        "rowsha": "vo3FdN37kY6VUB7PruRKfBPJDgsVJyBHIUCn/g8mt68=",
+        "originContent": "CPU: i5-13400F ",
+        "translatedContent": "CPU: i5-13400F "
+      },
+      {
+        "row": 76,
+        "rowsha": "W8fXPiQKUkoNso0PPfTvjYMy0IYo85j+gNXmB0aERO4=",
+        "originContent": "Ram: 16GB DDR5.",
+        "translatedContent": "Ram: 16GB DDR5."
+      },
+      {
+        "row": 77,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

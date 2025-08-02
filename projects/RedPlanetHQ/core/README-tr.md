@@ -33,7 +33,7 @@
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logosu" />
   </a>
 
-### C.O.R.E: Yapay Zeka çağı için dijital beyniniz
+### C.O.R.E: Yapay Zeka çağının dijital beyniniz
 
 <p align="center">
     <a href="https://deepwiki.com/RedPlanetHQ/core">
@@ -48,140 +48,60 @@
 
 ## 🧠 C.O.R.E.
 
-**Bağlamsal Gözlem & Hatırlama Motoru**
+**Bağlamsal Gözlem ve Hatırlama Motoru**
 
-C.O.R.E, llm etkileşimlerinizden ve kişisel verilerinizden oluşturulan taşınabilir bir hafıza grafiğidir. Tüm bağlam ve iş akışı geçmişinizi tıpkı dijital bir beyin gibi herhangi bir yapay zeka aracına erişilebilir hale getirir. Bu, tekrar tekrar bağlam paylaşma ihtiyacını ortadan kaldırır. Amaç şunları sağlamaktır:
+C.O.R.E, llm etkileşimlerinizden ve kişisel verilerinizden oluşturulan taşınabilir bir bellek grafiğidir, böylece tüm bağlam ve iş akışı geçmişiniz herhangi bir yapay zeka aracı için erişilebilir olur; tıpkı dijital bir beyin gibi. Bu, tekrarlanan bağlam paylaşımı ihtiyacını ortadan kaldırır. Amaç şunları sağlamaktır:
 
-- **Birleşik, Taşınabilir Hafıza**: Bağlamı sorunsuzca ekleyin ve hatırlayın, hafızanızı Claude, Cursor, Windsurf ve daha birçok uygulamada birbirine bağlayın.
-- **İlişkisel, Sadece Düz Gerçekler Değil**: CORE, bilginizi düzenler, hem gerçekleri hem de ilişkileri saklar ve gerçek bir beyin gibi daha derin, zengin bir hafıza sunar.
-- **Kullanıcıya Ait**: Ne saklayacağınıza, güncelleyeceğinize veya sileceğinize siz karar verirsiniz ve hafızanızı istediğiniz araca aktarabilir, tedarikçi kilidinden kurtulursunuz.
+- **Birleşik, Taşınabilir Bellek**: Bağlamı sorunsuzca ekleyin ve geri çağırın, belleğinizi Claude, Cursor, Windsurf gibi uygulamalar arasında bağlayın.
+- **İlişkisel, Sadece Düz Gerçekler Değil**: CORE, bilginizi organize eder, hem gerçekleri hem de ilişkileri depolar; gerçek bir beyin gibi daha derin ve zengin bir bellek sunar.
+- **Kullanıcıya Ait**: Ne tutacağınıza, güncelleyeceğinize veya sileceğinize siz karar verirsiniz ve belleğinizi istediğiniz araçta paylaşabilir, tedarikçi kilidinden kurtulursunuz.
 
-## 🎥 Tanıtım Videosu
+## 🎥 Demo Video
 
-[C.O.R.E Demo’yu İzleyin](https://youtu.be/iANZ32dnK60)
+[C.O.R.E Demo'yu İzle](https://youtu.be/iANZ32dnK60)
 
-<img width="954" height="700" alt="Core kontrol paneli" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
+<img width="7480" height="4672" alt="core-memory-graph" src="https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b" />
 
-## 🧩  Temel Özellikler
+## 🧩 Temel Özellikler
 
-- **Hafıza Grafiği**: Gerçeklerinizin ve tercihlerin birbirine nasıl bağlandığını görselleştirin
-- **Hafıza ile Sohbet**: Anında içgörü ve anlayış için hafıza hakkında sorular sorun
-- **Tak-Çalıştır**: CORE hafızasını Cursor, Claude gibi uygulamalarda anında kullanın
+- **Bellek Grafiği**: Gerçeklerinizin ve tercihlerinizi birbirine nasıl bağlandığını görselleştirin
+- **Bellek ile Sohbet**: Anında içgörü ve anlayış için belleğiniz hakkında sorular sorun
+- **Tak Çalıştır**: CORE belleğini Cursor, Claude gibi uygulamalarda anında kullanın
 
 ## ☁️ C.O.R.E Bulut Kurulumu
 
-1. [Core Cloud](https://core.heysol.ai) adresine kaydolun ve hafıza grafiğinizi oluşturmaya başlayın.
-2. Hafızada saklamak istediğiniz metni ekleyin. `+ Ekle` butonuna tıkladıktan sonra hafıza grafiğiniz oluşturulacaktır.
-3. [Core Memory MCP’yi Cursor ile Bağlayın](#connecting-core-mcp-with-cursor)
+1. [core.heysol.ai](https://core.heysol.ai) adresini ziyaret edin
+2. E-postanızla kayıt olun
+3. CORE'a kendinizden bahsedin: “Ben bir yazılım mühendisiyim ve TaskMaster adlı bir React projesi üzerinde çalışıyorum. TypeScript tercih ederim ve stil için Tailwind kullanırım.”
+   <img width="2048" height="1172" alt="add-memory" src="https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938" />
+4. [Core MCP'yi Claude ile Bağlayın](https://docs.heysol.ai/providers/claude)
+5. [Core MCP'yi Cursor ile Bağlayın](https://docs.heysol.ai/providers/cursor)
 
-## 💻 C.O.R.E Yerel Kurulum
+## 💻 C.O.R.E Kendi Sunucunda Barındırma
 
-#### Önkoşullar
+Modüler kurulum için [dokümantasyonumuza](https://docs.heysol.ai/self-hosting/docker) göz atın
 
-1. Docker
-2. OpenAI API Anahtarı
-
-
-> **Not:** Llama modelleri için desteği geliştirmek için aktif olarak çalışıyoruz. Şu anda, C.O.R.E Llama tabanlı modeller ile en iyi sonuçları vermemektedir, ancak yakın gelecekte daha iyi uyumluluk ve çıktı sağlamak için ilerleme kaydediyoruz.
-> 
-#### C.O.R.E’u yerelde çalıştırın
-
-1. **Ortam Değişkenlerini Kopyalayın**
-
-   Örnek ortam dosyasını `.env` olarak kopyalayın:
-
-
-   ```bash
-   cp .env.example .env
-   ```
-2. **Uygulamayı Başlatın**
-
-   Gerekli tüm servisleri başlatmak için Docker Compose'u kullanın:
-
-
-   ```bash
-   docker-compose up
-   ```
-3. **Uygulamaya Erişin**
-
-   Konteynerler çalıştıktan sonra, tarayıcınızı açın ve [http://localhost:3000](http://localhost:3000) adresine gidin.
-
-4. **Sihirli Bağlantı ile Hesap Oluşturun**
-
-   - Hesap oluşturmak için, `E-posta ile devam et` butonuna tıklayın
-
-     <img width="865" height="490" alt="Hesap oluştur" src="https://github.com/user-attachments/assets/65de110b-2b1f-42a5-9b8a-954227d68d52" />
-
-   - E-postanızı girin ve `Sihirli Bağlantı Gönder` butonuna tıklayın
-
-     <img width="824" height="429" alt="E-posta gir" src="https://github.com/user-attachments/assets/76128b61-2086-48df-8332-38c2efa14087" />
-
-   - `Terminal kayıtlarından sihirli bağlantıyı kopyalayın` ve tarayıcınızda açın
-
-     <img width="1010" height="597" alt="Sihirli bağlantı" src="https://github.com/user-attachments/assets/777cb4b1-bb93-4d54-b6ab-f7147e65aa5c" />
-
-
-5. **Özel Alanınızı Oluşturun & Veri Ekleyin**
-
-   - Kontrol panelinde, sağ üst köşeye gidin -> Bir mesaj yazın, örn: `Badminton oynamayı seviyorum` ve `+Ekle`ye tıklayın.
-   - Hafızanız işlenmek üzere kuyruğa alınır; durumunu `Kayıtlar` bölümünden takip edebilirsiniz.
-     
-     <img width="1496" height="691" alt="Çekirdek hafıza kayıtları" src="https://github.com/user-attachments/assets/dc34a7af-fe52-4142-9ecb-49ddc4e0e854" />
-
-   - İşleme tamamlandığında, düğümler özel bilgi grafiğinize eklenecek ve kontrol panelinde görünecektir.
-   - Daha sonra bu hafızayı diğer araçlara bağlamayı veya özel tutmayı seçebilirsiniz.
-
-6. **Hafızanızda Arama Yapın**
-
-   - Kontrol panelinin arama özelliğini kullanarak, özel alanınızdaki verilerde sorgulama yapabilirsiniz.
-
-
-## CORE MCP’yi Cursor ile Bağlama
-
-1. CORE kontrol panelini açın ve yeni bir API anahtarı oluşturmak için API bölümüne gidin.
-2. Cursor'da: Ayarlar → Araçlar & Entegrasyonlar → Yeni MCP Sunucusu yolunu izleyin.
-3. Aşağıdaki yapılandırma formatını kullanarak CORE MCP sunucusunu ekleyin. 1. adımda oluşturduğunuz API_TOKEN değerini girdiğinizden emin olun.
-
-   Cursor’a eklemek için MCP yapılandırması
-
-
-   ```json
-   {
-     "mcpServers": {
-       "memory": {
-         "command": "npx",
-         "args": ["-y", "@redplanethq/core-mcp"],
-         "env": {
-           "API_TOKEN": "YOUR_API_TOKEN_HERE",
-           "API_BASE_URL": "https://core.heysol.ai",
-           "SOURCE": "cursor"
-         }
-       }
-     }
-   }
-   ```
-4. Ayarlar-> Kullanıcı kuralları -> Yeni Kural -> bölümüne gidin ve aşağıdaki kuralı ekleyin, böylece tüm sohbet etkileşimlerinizin CORE hafızasında saklandığından emin olun.
-
-
-```
-After every interaction, update the memory with the user's query and the assistant's
-response to core-memory mcp. sessionId should be the uuid of the conversation
-```
 ## Dokümantasyon
 
-CORE'den en iyi şekilde yararlanmak için dokümantasyonumuzu keşfedin
-- [Temel Kavramlar](https://docs.heysol.ai/core/overview)
-- [API Referansı](https://docs.heysol.ai/core/local-setup)
-- [Core Memory MCP'yi Cursor ile Bağlama](#connecting-core-mcp-with-cursor)
+CORE'dan en iyi şekilde yararlanmak için dokümantasyonumuzu keşfedin
 
+- [Temel Kavramlar](https://docs.heysol.ai/concepts/memory_graph)
+- [Kendi Sunucunda Barındırma](https://docs.heysol.ai/self-hosting/overview)
+- [Core MCP'yi Claude ile Bağlayın](https://docs.heysol.ai/providers/claude)
+- [Core MCP'yi Cursor ile Bağlayın](https://docs.heysol.ai/providers/cursor)
+
+- [Temel Kavramlar](https://docs.heysol.ai/overview)
+- [API Referansı](https://docs.heysol.ai/local-setup)
 
 ## 🧑‍💻 Destek
-Sorularınız veya geri bildiriminiz mi var? Yardımcı olmak için buradayız:
+
+Sorunuz veya geri bildiriminiz mi var? Yardım etmek için buradayız:
+
 - Discord: [core-support kanalına katılın](https://discord.gg/YGUZcvDjUa)
-- Dokümantasyon: [docs.heysol.ai/core](https://docs.heysol.ai/core/overview)
+- Dokümantasyon: [docs.heysol.ai](https://docs.heysol.ai)
 - E-posta: manik@poozle.dev
 
-## Kullanım Yönergeleri
+## Kullanım Kuralları
 
 **Saklayın:**
 
@@ -204,9 +124,8 @@ Sorularınız veya geri bildiriminiz mi var? Yardımcı olmak için buradayız:
 </a>
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
 
 ---

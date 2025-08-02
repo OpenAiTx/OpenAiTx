@@ -30,14 +30,14 @@
 
 <div align="center">
   <a href="https://core.heysol.ai">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
+    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="COREロゴ" />
   </a>
 
-### C.O.R.E: AI時代のあなたのデジタル脳
+### C.O.R.E: AI時代のためのあなたのデジタルブレイン
 
 <p align="center">
     <a href="https://deepwiki.com/RedPlanetHQ/core">
-        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Badge" />
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki バッジ" />
     </a>
 </p>
 <p align="center">
@@ -48,165 +48,84 @@
 
 ## 🧠 C.O.R.E.
 
-**Contextual Observation & Recall Engine（文脈観察・リコールエンジン）**
+**Contextual Observation & Recall Engine（コンテクスト観察・リコールエンジン）**
 
-C.O.R.Eは、あなたのLLM対話や個人データから構築されるポータブルなメモリーグラフであり、全ての文脈やワークフロー履歴をどんなAIツールからもアクセスできるようにします。これはまるでデジタル脳のようです。繰り返し文脈を共有する必要がなくなります。目的は以下の通りです：
+C.O.R.Eは、あなたのllmとのやりとりや個人データから構築されるポータブルなメモリーグラフであり、すべてのコンテクストとワークフロー履歴を、まるでデジタルブレインのように、どんなAIツールからもアクセス可能にします。これにより、繰り返しのコンテクスト共有が不要になります。目的は以下の通りです：
 
-- **統合・ポータブルメモリー**：シームレスに文脈を追加・リコールし、Claude、Cursor、Windsurfなどのアプリ間であなたの記憶をつなげます。
-- **関係的、単なるフラットな事実ではない**：COREは知識を整理し、事実とそれらの関係の両方を保存して、本物の脳のようにより深く豊かな記憶を実現します。
-- **ユーザー所有**：何を保持・更新・削除するかはあなたが決め、好きなツール間で記憶を共有でき、ベンダーロックインから解放されます。
+- **統合されたポータブルメモリー**：コンテクストをシームレスに追加・呼び出しでき、Claude、Cursor、Windsurfなどのアプリ間でメモリーを接続できます。
+- **単なるフラットな事実ではなく関係性重視**：COREは知識を整理し、事実だけでなく関係性も保存。リアルな脳のような、より深く豊かなメモリーを提供します。
+- **ユーザー所有**：何を保持・更新・削除するかを自分で決め、使いたいツール間でメモリーを共有できます。ベンダーロックインから解放されます。
 
 ## 🎥 デモ動画
 
-[C.O.R.Eデモをチェック](https://youtu.be/iANZ32dnK60)
+[C.O.R.E デモを見る](https://youtu.be/iANZ32dnK60)
 
-<img width="954" height="700" alt="Core dashboard" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
+<img width="7480" height="4672" alt="core-memory-graph" src="https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b" />
 
-## 🧩  主な機能
+## 🧩 主な特徴
 
-- **メモリーグラフ**：事実や好みがどのようにつながっているかを可視化
-- **メモリーとの対話**：記憶について質問し、即座に洞察や理解を得る
-- **Plug n Play**：CursorやClaudeなどのアプリで即座にCOREメモリーを利用
+- **メモリーグラフ**：あなたの事実や好みがどのようにつながっているかを視覚化
+- **メモリーとのチャット**：記憶に関する質問をして、即座に洞察や理解を得られます
+- **プラグアンドプレイ**：Cursor、ClaudeなどのアプリでCOREメモリーをすぐに利用可能
 
 ## ☁️ C.O.R.E クラウドセットアップ
 
-1. [Core Cloud](https://core.heysol.ai)にサインアップし、メモリーグラフの構築を開始します。
-2. 保存したいテキストを追加します。`+ Add`ボタンをクリックすると、あなたのメモリーグラフが生成されます。
-3. [Core Memory MCPをCursorと連携](#connecting-core-mcp-with-cursor)
+1. [core.heysol.ai](https://core.heysol.ai) にアクセス
+2. メールアドレスでサインアップ
+3. COREに自己紹介をしてください：「私はReactプロジェクトTaskMasterに取り組むソフトウェアエンジニアです。TypeScriptを好み、スタイリングにはTailwindを使っています。」
+   <img width="2048" height="1172" alt="add-memory" src="https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938" />
+4. [Core MCPをClaudeと接続](https://docs.heysol.ai/providers/claude)
+5. [Core MCPをCursorと接続](https://docs.heysol.ai/providers/cursor)
 
-## 💻 C.O.R.E ローカルセットアップ
+## 💻 C.O.R.E セルフホスティング
 
-#### 必要条件
+モジュラー展開については[ドキュメント](https://docs.heysol.ai/self-hosting/docker)をご覧ください
 
-1. Docker
-2. OpenAI APIキー
+## ドキュメント
 
+COREを最大限に活用するため、ドキュメントをご参照ください
 
-> **注:** 私たちはLlamaモデルのサポート向上に積極的に取り組んでいます。現時点では、C.O.R.EはLlamaベースのモデルでは最適な結果を提供しませんが、今後より良い互換性と出力を実現できるよう進行中です。
-> 
-#### C.O.R.Eをローカルで実行
+- [基本概念](https://docs.heysol.ai/concepts/memory_graph)
+- [セルフホスティング](https://docs.heysol.ai/self-hosting/overview)
+- [Core MCPをClaudeと接続](https://docs.heysol.ai/providers/claude)
+- [Core MCPをCursorと接続](https://docs.heysol.ai/providers/cursor)
 
-1. **環境変数のコピー**
-
-   サンプル環境ファイルを`.env`にコピーしてください：
-
-
-   ```bash
-   cp .env.example .env
-   ```
-2. **アプリケーションの起動**
-
-   必要なすべてのサービスを起動するには、Docker Composeを使用します:
-
-
-   ```bash
-   docker-compose up
-   ```
-3. **アプリにアクセスする**
-
-   コンテナが起動したら、ブラウザを開き [http://localhost:3000](http://localhost:3000) にアクセスしてください。
-
-4. **マジックリンクでアカウントを作成する**
-
-   - アカウントを作成するには、`Continue with email` ボタンをクリックします
-
-     <img width="865" height="490" alt="Create account" src="https://github.com/user-attachments/assets/65de110b-2b1f-42a5-9b8a-954227d68d52" />
-
-   - メールアドレスを入力し、`Send a Magic Link` ボタンをクリックします
-
-     <img width="824" height="429" alt="Enter email" src="https://github.com/user-attachments/assets/76128b61-2086-48df-8332-38c2efa14087" />
-
-   - `ターミナルのログからマジックリンクをコピー`し、ブラウザで開きます
-
-     <img width="1010" height="597" alt="Magic link" src="https://github.com/user-attachments/assets/777cb4b1-bb93-4d54-b6ab-f7147e65aa5c" />
-
-
-5. **プライベートスペースを作成しデータを追加する**
-
-   - ダッシュボードの右上セクションへ移動し、メッセージを入力します。例：`I love playing badminton`、そして `+Add` をクリックします。
-   - メモリは処理待ちキューに入り、そのステータスは `Logs` セクションで確認できます。
-     
-     <img width="1496" height="691" alt="Core memory logs" src="https://github.com/user-attachments/assets/dc34a7af-fe52-4142-9ecb-49ddc4e0e854" />
-
-   - 処理が完了すると、ノードがプライベートナレッジグラフに追加され、ダッシュボードに表示されます。
-   - 後でこのメモリを他のツールと連携するか、非公開のままにすることができます。
-
-6. **メモリを検索する**
-
-   - ダッシュボードの検索機能を使い、プライベートスペース内の取り込んだデータをクエリできます。
-
-
-## CORE MCPとCursorの接続
-
-1. COREダッシュボードを開き、APIセクションに移動して新しいAPIトークンを生成します。
-2. Cursorでは、設定 → ツールと統合 → 新規MCPサーバーに移動します。
-3. 以下の構成フォーマットを使用してCORE MCPサーバーを追加します。ステップ1で生成したAPIトークンをAPI_TOKEN値に必ず置き換えてください。
-
-   Cursorに追加するMCP構成
-
-
-   ```json
-   {
-     "mcpServers": {
-       "memory": {
-         "command": "npx",
-         "args": ["-y", "@redplanethq/core-mcp"],
-         "env": {
-           "API_TOKEN": "YOUR_API_TOKEN_HERE",
-           "API_BASE_URL": "https://core.heysol.ai",
-           "SOURCE": "cursor"
-         }
-       }
-     }
-   }
-   ```
-4. 設定 -> ユーザー規則 -> 新規規則 -> に移動し、以下の規則を追加して、すべてのチャットのやり取りがCOREメモリに保存されるようにします。
-
-
-```
-After every interaction, update the memory with the user's query and the assistant's
-response to core-memory mcp. sessionId should be the uuid of the conversation
-```
-## ドキュメンテーション
-
-COREを最大限に活用するためにドキュメントを参照してください
-- [基本概念](https://docs.heysol.ai/core/overview)
-- [APIリファレンス](https://docs.heysol.ai/core/local-setup)
-- [Core Memory MCPとCursorの接続](#connecting-core-mcp-with-cursor)
-
+- [基本概念](https://docs.heysol.ai/overview)
+- [APIリファレンス](https://docs.heysol.ai/local-setup)
 
 ## 🧑‍💻 サポート
-質問やフィードバックがありますか？私たちがサポートします：
+
+ご質問やご意見がありましたら、いつでもご連絡ください：
+
 - Discord: [core-supportチャンネルに参加](https://discord.gg/YGUZcvDjUa)
-- ドキュメンテーション: [docs.heysol.ai/core](https://docs.heysol.ai/core/overview)
+- ドキュメント: [docs.heysol.ai](https://docs.heysol.ai)
 - メール: manik@poozle.dev
 
 ## 利用ガイドライン
 
-**保存するもの：**
+**保存するもの:**
 
 - 会話履歴
-- ユーザーの好み
+- ユーザー設定
 - タスクのコンテキスト
 - 参考資料
 
-**保存しないもの：**
+**保存しないもの:**
 
-- 機微なデータ（個人識別情報）
-- 認証情報
+- 機微なデータ（PII）
+- 資格情報
 - システムログ
 - 一時データ
 
-## 👥 コントリビューター
+## 👥 貢献者
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
 </a>
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
 
 ---

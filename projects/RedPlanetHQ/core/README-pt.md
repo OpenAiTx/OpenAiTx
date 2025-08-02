@@ -30,7 +30,7 @@
 
 <div align="center">
   <a href="https://core.heysol.ai">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="LOGO CORE" />
+    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
 ### C.O.R.E: Seu cérebro digital para a era da IA
@@ -50,135 +50,55 @@
 
 **Contextual Observation & Recall Engine**
 
-C.O.R.E é um grafo de memória portátil criado a partir das suas interações com LLM e dados pessoais, tornando todo o seu contexto e histórico de trabalho acessíveis a qualquer ferramenta de IA, como um cérebro digital. Isso elimina a necessidade de compartilhar contexto repetidamente. O objetivo é fornecer:
+C.O.R.E é um grafo de memória portátil construído a partir das suas interações com LLMs e dados pessoais, tornando todo o seu contexto e histórico de fluxo de trabalho acessível a qualquer ferramenta de IA, como um cérebro digital. Isso elimina a necessidade de compartilhar contexto repetidamente. O objetivo é fornecer:
 
-- **Memória Unificada e Portátil**: Adicione e recupere contexto facilmente, conectando sua memória entre aplicativos como Claude, Cursor, Windsurf e outros.
+- **Memória Unificada e Portátil**: Adicione e recupere contexto facilmente, conectando sua memória entre apps como Claude, Cursor, Windsurf e outros.
 - **Relacional, Não Apenas Fatos Isolados**: O CORE organiza seu conhecimento, armazenando fatos e relações para uma memória mais profunda e rica, como um cérebro real.
-- **Propriedade do Usuário**: Você decide o que manter, atualizar ou excluir, e compartilha sua memória nas ferramentas que quiser, livre de aprisionamento por fornecedores.
+- **Propriedade do Usuário**: Você decide o que manter, atualizar ou excluir e compartilha sua memória nas ferramentas que quiser, livre de bloqueio de fornecedor.
 
-## 🎥 Vídeo de Demonstração
+## 🎥 Vídeo Demonstrativo
 
-[Veja a Demonstração do C.O.R.E](https://youtu.be/iANZ32dnK60)
+[Confira a Demo do C.O.R.E](https://youtu.be/iANZ32dnK60)
 
-<img width="954" height="700" alt="Painel do Core" src="https://github.com/user-attachments/assets/d684b708-6907-47be-9499-a30b25434694" />
+<img width="7480" height="4672" alt="core-memory-graph" src="https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b" />
 
-## 🧩  Funcionalidades Principais
+## 🧩 Principais Funcionalidades
 
-- **Grafo de Memória**: Visualize como seus fatos e preferências estão conectados
-- **Converse com a Memória**: Faça perguntas sobre a memória para obter insights e compreensão instantâneos
-- **Plug n Play**: Use instantaneamente a memória CORE em aplicativos como Cursor, Claude
+- **Grafo de Memória**: Visualize como seus fatos e preferências se conectam
+- **Converse com a Memória**: Faça perguntas sobre a memória para obter insights e entendimento instantâneos
+- **Plug n Play**: Use instantaneamente a memória do CORE em apps como Cursor, Claude
 
 ## ☁️ Configuração do C.O.R.E Cloud
 
-1. Cadastre-se no [Core Cloud](https://core.heysol.ai) e comece a construir seu grafo de memória.
-2. Adicione o texto que deseja salvar na memória. Ao clicar no botão `+ Add`, seu grafo de memória será gerado.
-3. [Conecte o Core Memory MCP com o Cursor](#connecting-core-mcp-with-cursor)
+1. Acesse [core.heysol.ai](https://core.heysol.ai)
+2. Cadastre-se com seu e-mail
+3. Conte ao CORE sobre você: “Sou engenheiro de software trabalhando em um projeto React chamado TaskMaster. Prefiro TypeScript e uso Tailwind para estilização.”
+   <img width="2048" height="1172" alt="add-memory" src="https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938" />
+4. [Conecte o Core MCP com Claude](https://docs.heysol.ai/providers/claude)
+5. [Conecte o Core MCP com Cursor](https://docs.heysol.ai/providers/cursor)
 
-## 💻 Configuração Local do C.O.R.E
+## 💻 C.O.R.E Auto-Hospedado
 
-#### Pré-requisitos
+Confira nossa [documentação](https://docs.heysol.ai/self-hosting/docker) para implantação modular
 
-1. Docker
-2. Chave de API OpenAI
-
-
-> **Nota:** Estamos trabalhando ativamente para melhorar o suporte a modelos Llama. No momento, o C.O.R.E não fornece resultados ideais com modelos baseados em Llama, mas estamos progredindo para garantir melhor compatibilidade e resultados em breve.
-> 
-#### Execute o C.O.R.E localmente
-
-1. **Copie as Variáveis de Ambiente**
-
-   Copie o arquivo de ambiente de exemplo para `.env`:
-
-
-   ```bash
-   cp .env.example .env
-   ```
-2. **Inicie o Aplicativo**
-
-   Use o Docker Compose para iniciar todos os serviços necessários:
-
-
-   ```bash
-   docker-compose up
-   ```
-3. **Acesse o App**
-
-   Quando os containers estiverem em execução, abra seu navegador e vá para [http://localhost:3000](http://localhost:3000).
-
-4. **Criar Conta com Magic Link**
-
-   - Para criar uma conta, clique no botão `Continue with email`
-
-     <img width="865" height="490" alt="Create account" src="https://github.com/user-attachments/assets/65de110b-2b1f-42a5-9b8a-954227d68d52" />
-
-   - Digite seu e-mail e clique no botão `Send a Magic Link`
-
-     <img width="824" height="429" alt="Enter email" src="https://github.com/user-attachments/assets/76128b61-2086-48df-8332-38c2efa14087" />
-
-   - `Copie o magic link dos logs do terminal` e abra-o em seu navegador
-
-     <img width="1010" height="597" alt="Magic link" src="https://github.com/user-attachments/assets/777cb4b1-bb93-4d54-b6ab-f7147e65aa5c" />
-
-
-5. **Crie Seu Espaço Privado & Adicione Dados**
-
-   - No painel, vá para a seção superior direita -> Digite uma mensagem, por exemplo, `Eu adoro jogar badminton`, e clique em `+Add`.
-   - Sua memória será colocada na fila para processamento; você pode monitorar o status dela na seção `Logs`.
-     
-     <img width="1496" height="691" alt="Core memory logs" src="https://github.com/user-attachments/assets/dc34a7af-fe52-4142-9ecb-49ddc4e0e854" />
-
-   - Quando o processamento for concluído, nós serão adicionados ao seu grafo de conhecimento privado e ficarão visíveis no painel.
-   - Depois, você pode optar por conectar essa memória a outras ferramentas ou mantê-la privada.
-
-6. **Pesquise Sua Memória**
-
-   - Use o recurso de busca do painel para consultar seus dados ingeridos dentro do seu espaço privado.
-
-
-## Conectando o CORE MCP com o Cursor
-
-1. Abra o painel do CORE e navegue até a seção de API para gerar um novo token de API.
-2. No Cursor, vá para: Settings → Tools & Integrations → New MCP Server.
-3. Adicione o servidor CORE MCP usando o formato de configuração abaixo. Certifique-se de substituir o valor de API_TOKEN pelo token gerado no passo 1.
-
-   Configuração do MCP para adicionar no Cursor
-
-
-   ```json
-   {
-     "mcpServers": {
-       "memory": {
-         "command": "npx",
-         "args": ["-y", "@redplanethq/core-mcp"],
-         "env": {
-           "API_TOKEN": "YOUR_API_TOKEN_HERE",
-           "API_BASE_URL": "https://core.heysol.ai",
-           "SOURCE": "cursor"
-         }
-       }
-     }
-   }
-   ```
-4. Vá para Configurações -> Regras do usuário -> Nova Regra -> e adicione a regra abaixo para garantir que todas as suas interações de chat estejam sendo armazenadas na memória CORE
-
-
-```
-After every interaction, update the memory with the user's query and the assistant's
-response to core-memory mcp. sessionId should be the uuid of the conversation
-```
 ## Documentação
 
 Explore nossa documentação para aproveitar ao máximo o CORE
-- [Conceitos Básicos](https://docs.heysol.ai/core/overview)
-- [Referência da API](https://docs.heysol.ai/core/local-setup)
-- [Conectar Core Memory MCP com Cursor](#connecting-core-mcp-with-cursor)
 
+- [Conceitos Básicos](https://docs.heysol.ai/concepts/memory_graph)
+- [Auto-Hospedagem](https://docs.heysol.ai/self-hosting/overview)
+- [Conectar Core MCP com Claude](https://docs.heysol.ai/providers/claude)
+- [Conectar Core MCP com Cursor](https://docs.heysol.ai/providers/cursor)
+
+- [Conceitos Básicos](https://docs.heysol.ai/overview)
+- [Referência da API](https://docs.heysol.ai/local-setup)
 
 ## 🧑‍💻 Suporte
-Tem dúvidas ou feedback? Estamos aqui para ajudar:
-- Discord: [Junte-se ao canal core-support](https://discord.gg/YGUZcvDjUa)
-- Documentação: [docs.heysol.ai/core](https://docs.heysol.ai/core/overview)
+
+Tem dúvidas ou sugestões? Estamos aqui para ajudar:
+
+- Discord: [Participe do canal core-support](https://discord.gg/YGUZcvDjUa)
+- Documentação: [docs.heysol.ai](https://docs.heysol.ai)
 - E-mail: manik@poozle.dev
 
 ## Diretrizes de Uso
@@ -187,10 +107,10 @@ Tem dúvidas ou feedback? Estamos aqui para ajudar:
 
 - Histórico de conversas
 - Preferências do usuário
-- Contexto de tarefas
+- Contexto da tarefa
 - Materiais de referência
 
-**Não armazene:**
+**Não Armazene:**
 
 - Dados sensíveis (PII)
 - Credenciais
@@ -204,9 +124,8 @@ Tem dúvidas ou feedback? Estamos aqui para ajudar:
 </a>
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
 
 ---
