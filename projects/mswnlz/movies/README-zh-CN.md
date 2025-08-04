@@ -1,5 +1,5 @@
 # movies
-影视媒体资源，电影，纪录片，音乐，演唱会等等，持续更新中
+影视媒体资源，电影，记录片，音乐，演唱会等等，持续更新中
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=id)
 
@@ -11,7 +11,7 @@
 
 
 -------
-# [202507](https://raw.githubusercontent.com/mswnlz/movies/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/movies/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/movies/main/202506.md)
+# [202508](https://raw.githubusercontent.com/mswnlz/movies/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/movies/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/movies/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/movies/main/202506.md)
 
 
 ---------------
@@ -32,7 +32,7 @@
 
 [各种课程材料，包括得到，网上流行材料，跟其他项目不好放的资料，都在这里面，等等等，持续更新中](https://github.com/mswnlz/curriculum)
 
-[影视媒体资源，电影，纪录片，音乐，演唱会等等，持续更新中](https://github.com/mswnlz/movies)
+[影视媒体资源，电影，记录片，音乐，演唱会等等，持续更新中](https://github.com/mswnlz/movies)
 
 [书籍资料相关的，包括各种教程、小说等各种书籍](https://github.com/mswnlz/book)
 
@@ -41,13 +41,13 @@
 ---------------
 
 # 资源主页
-[各种资料、知识、影视，纪录片，音乐，书籍，媒体聚集地，持续整理中](https://github.com/mswnlz)
+[各种资料、知识、影视，记录片，音乐，书籍，媒体聚集地，持续整理中](https://github.com/mswnlz)
 
 ---------------
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-04
 
 ---

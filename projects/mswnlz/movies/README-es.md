@@ -1,5 +1,5 @@
-# películas
-Recursos de medios audiovisuales, películas, documentales, música, conciertos, etc., actualización continua
+# movies
+影视媒体资源，电影，记录片，音乐，演唱会等等，持续更新中
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=movies&lang=id)
 
@@ -11,43 +11,43 @@ Recursos de medios audiovisuales, películas, documentales, música, conciertos,
 
 
 -------
-# [202507](https://raw.githubusercontent.com/mswnlz/movies/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/movies/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/movies/main/202506.md)
+# [202508](https://raw.githubusercontent.com/mswnlz/movies/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/movies/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/movies/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/movies/main/202506.md)
 
 
 ---------------
-### Más recursos del proyecto
+### 项目更多资源
 
-[🎁¡Recursos de gran valor! Colección de materiales de cursos raros de medicina tradicional china, precio original 59880 yuanes【versión de colección 1.18TB】, incluye fundamentos, vídeos, terapias externas, acupuntura, libros, etc.](https://github.com/mswnlz/chinese-traditional)
+[🎁重磅资源！原价59880元 绝版中医课程资料大全【收藏版1.18TB】，包括基础、视频、外治、针灸，书籍等等等应有尽有](https://github.com/mswnlz/chinese-traditional)
 
-[Recursos relacionados con herramientas útiles, incluidos sistemas operativos, complementos, herramientas portátiles y versiones crackeadas, actualización continua](https://github.com/mswnlz/tools)
+[各种好用工具相关的资源，包括操作系统，各种插件，绿色破解版工具等等，持续更新中](https://github.com/mswnlz/tools)
 
 
-[Materiales relacionados con el comercio electrónico transfronterizo, solicitudes, pagos, comercio exterior, tiktok, Amazon, apertura de tiendas, adquisición de nuevos clientes, etc., actualización continua](https://github.com/mswnlz/cross-border)
+[跨境电商相关的资料，申请，支付、外贸，tiktok，亚马逊，开店铺，拉新等资源，持续更新中](https://github.com/mswnlz/cross-border)
 
-[Recursos para medios de comunicación, incluyendo adquisición de nuevos usuarios, estrategias de tráfico, captación de clientes, conversión, monetización, etc., actualización continua](https://github.com/mswnlz/self-media)
+[自媒体相关资源，包括拉新，流量玩法、获客，转化、变现等资料，持续更新中](https://github.com/mswnlz/self-media)
 
-[ Material educativo de todo tipo, desde jardín de infantes hasta primaria y secundaria, cubre Xueersi, Wanwei, Yuanfudao y otras instituciones, en constante aumento](https://github.com/mswnlz/edu-knowlege)
+[ 教育各种资料，从幼儿园到小学、中学，涵盖学而思，万维、猿辅导等多个机构，持续增加中](https://github.com/mswnlz/edu-knowlege)
 
-[Conocimientos relacionados con IA, prompts, tutoriales, videotutoriales, cursos de monetización, etc., actualización continua](https://github.com/mswnlz/AIknowledge)
+[AI相关知识，提示词，教程，视频教程，变现课程等，持续更新中](https://github.com/mswnlz/AIknowledge)
 
-[Materiales de cursos diversos, incluidos materiales populares en línea, materiales que no caben en otros proyectos, etc., actualización continua](https://github.com/mswnlz/curriculum)
+[各种课程材料，包括得到，网上流行材料，跟其他项目不好放的资料，都在这里面，等等等，持续更新中](https://github.com/mswnlz/curriculum)
 
-[Recursos de medios audiovisuales, películas, documentales, música, conciertos, etc., actualización continua](https://github.com/mswnlz/movies)
+[影视媒体资源，电影，记录片，音乐，演唱会等等，持续更新中](https://github.com/mswnlz/movies)
 
-[Recursos de libros, incluidos tutoriales, novelas y todo tipo de libros](https://github.com/mswnlz/book)
+[书籍资料相关的，包括各种教程、小说等各种书籍](https://github.com/mswnlz/book)
 
-[Acondicionamiento físico, ejercicio, dieta, nutrición, salud, sueño, etc., actualización continua](https://github.com/mswnlz/healthy)
+[健身、锻炼、饮食，营养，健康，睡眠等，持续更新中](https://github.com/mswnlz/healthy)
 
 ---------------
 
-# Página principal de recursos
-[Materiales, conocimientos, películas, documentales, música, libros y centro de medios, en continua organización](https://github.com/mswnlz)
+# 资源主页
+[各种资料、知识、影视，记录片，音乐，书籍，媒体聚集地，持续整理中](https://github.com/mswnlz)
 
 ---------------
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-04
 
 ---
