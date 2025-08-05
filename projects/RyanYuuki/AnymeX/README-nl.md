@@ -44,18 +44,19 @@
 <a href="https://github.com/RyanYuuki/AnymeX/stargazers">
       <img src="https://img.shields.io/github/stars/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge" alt="Stars" /></a>
 </p>
+<a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX
+# AnymeX: Multiservice Tracking Client
 
-**AnymeX** is een multi-service tracking client die exclusief is ontworpen voor het beheren en volgen van je anime- en mangavoortgang over [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) en [**Simkl**](https://simkl.com/).
+**AnymeX** is een multiservice trackingclient die exclusief is ontworpen voor het beheren en bijhouden van je voortgang met anime en manga via [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) en [**Simkl**](https://simkl.com/).
 
-> [!BELANGRIJK]  
-> **AnymeX is uitsluitend een tracking tool.** Het host, levert, verspreidt of ondersteunt **geen** streamingcontent, media of derdenextensies.  
+> [!IMPORTANT]  
+> **AnymeX is enkel een trackingtool.** Het host, levert, distribueert of onderschrijft **geen** streamingcontent, media of extensies van derden.  
 > De app integreert uitsluitend met de officiële API's van ondersteunde diensten (AniList, MyAnimeList, Simkl) voor trackingdoeleinden.  
-> Gebruikers zijn zelf volledig verantwoordelijk voor het gebruik van de app en eventuele derde diensten of extensies waarmee zij kiezen te interageren. De ontwikkelaar van AnymeX wijst uitdrukkelijk alle aansprakelijkheid af voor misbruik, juridische kwesties of schendingen die voortvloeien uit gebruikershandelingen. Eventuele juridische vragen dienen te worden gericht aan de betreffende derde partijen, niet aan AnymeX.  
+> Gebruikers zijn volledig verantwoordelijk voor hun gebruik van de app en eventuele diensten of extensies van derden waarmee ze kiezen te werken. De ontwikkelaar van AnymeX wijst uitdrukkelijk alle aansprakelijkheid af voor misbruik, juridische problemen of schendingen voortvloeiend uit gebruikershandelingen. Juridische vragen dienen gericht te worden aan de betreffende derden, niet aan AnymeX.  
 >  
-> **Door deze app te gebruiken ga je akkoord met onze [Gebruiksvoorwaarden](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md).**
+> **Door deze app te gebruiken, ga je akkoord met onze [Servicevoorwaarden](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md).**
 
 ## Downloads
 
@@ -78,7 +79,7 @@
     <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="AltStore Bron" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
     <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Feather Bron" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
     <a href="https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="SideStore Bron" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white"></a>
-    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Directe bron-URL" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
+    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Directe Bron URL" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
   </p>
 </div>
 
@@ -95,9 +96,9 @@
     <img src="https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_2.png" width="100%" style="margin: 0;" />
 </div>-->
 
-## Steun ons
+## Steun Ons
 
-<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Trakteer me op een koffie op ko-fi.com' /></a>
+<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Koop een koffie voor mij op ko-fi.com' /></a>
 
 > [!TIP]
 > ⭐ **Geef deze repository een ster om de ontwikkelaar te steunen & de ontwikkeling van de app aan te moedigen!**
@@ -117,12 +118,12 @@ Word lid van onze gemeenschappen om op de hoogte te blijven en deel te nemen aan
 <a href="https://t.me/AnymeX_Discussion" style="display: inline-block;"><img src="https://files.catbox.moe/z66xwr.png" alt="Telegram" height="40" style="vertical-align: middle;"></a>
 <a href="https://www.reddit.com/r/AnymeX_/" style="display: inline-block;"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_reddit-1024.png" alt="Reddit" height="40" style="vertical-align: middle;"></a>
 
-## Bijdragen
+## Draag bij
 
-We verwelkomen bijdragen, van vertalingen tot nieuwe functies.  
-Onze gids voor het opzetten van de ontwikkelomgeving is beschikbaar [hier](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
-Voor vragen kun je deelnemen aan onze [Discord-server](https://discord.gg/5gAHhMvTcx) of [Telegram-groep](https://t.me/AnymeX_Discussion).  
-Pull requests zijn welkom; bekijk de [openstaande issues](https://github.com/RyanYuuki/AnymeX/issues) voor richtlijnen over belangrijke wijzigingen.
+Bijdragen zijn welkom, van vertalingen tot nieuwe functies.  
+Onze gids voor het opzetten van de ontwikkelomgeving vind je [hier](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
+Voor vragen, sluit je aan bij onze [Discord server](https://discord.gg/5gAHhMvTcx) of [Telegram groep](https://t.me/AnymeX_Discussion).  
+Pull requests zijn welkom; bekijk de [openstaande issues](https://github.com/RyanYuuki/AnymeX/issues) voor richtlijnen over grote wijzigingen.
 
 <!--<details>
 <summary>Weblate Vertaalgrafiek</summary>
@@ -136,7 +137,7 @@ Pull requests zijn welkom; bekijk de [openstaande issues](https://github.com/Rya
 ## Dankbetuigingen
 
 Een welgemeend dankjewel aan iedereen die heeft bijgedragen aan de ontwikkeling van AnymeX.
-Jullie inspanningen zijn van onschatbare waarde.
+Jullie inzet is van onschatbare waarde.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
   <img alt="GitHub bijdragers" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
@@ -153,6 +154,6 @@ AnymeX is gelicentieerd onder de MIT-licentie. Meer informatie vind je [hier](ht
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
 
 ---

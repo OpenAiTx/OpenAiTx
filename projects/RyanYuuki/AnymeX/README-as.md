@@ -44,18 +44,19 @@
 <a href="https://github.com/RyanYuuki/AnymeX/stargazers">
       <img src="https://img.shields.io/github/stars/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge" alt="Stars" /></a>
 </p>
+<a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX
+# AnymeX: বহু-চাৰ্ভিচ ট্ৰেকিং ক্লায়েন্ট
 
-**AnymeX** হৈছে এটা বহু-চেবাৰ্চি ট্ৰেকিং ক্লায়েণ্ট, যি বিশেষকৈ [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), আৰু [**Simkl**](https://simkl.com/)ত এনিমে আৰু মেংগাৰ অগ্ৰগতি পৰিচালনা আৰু অনুসৰণ কৰিবলৈ ডিজাইন কৰা হৈছে।
+**AnymeX** হৈছে এটা বহু-চাৰ্ভিচ ট্ৰেকিং ক্লায়েন্ট, যি বিশেষকৈ [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), আৰু [**Simkl**](https://simkl.com/) ত আপোনাৰ এনিমে আৰু মাংগা অগ্ৰগতি পৰিচালনা আৰু ট্ৰেক কৰাৰ বাবে ডিজাইন কৰা হৈছে।
 
 > [!IMPORTANT]  
-> **AnymeX কেৱল এটা ট্ৰেকিং টুল।** ই **কোনো ধৰণৰ** ষ্ট্ৰিমিং সামগ্ৰী, মিডিয়া, বা তৃতীয় পক্ষৰ এক্সটেনচন হোষ্ট, প্ৰদান, বিতৰণ বা সমৰ্থন নকৰে।  
-> এই এপ্পটোৱে কেৱল সমৰ্থিত সেৱাসমূহৰ (AniList, MyAnimeList, Simkl) চৰকাৰী APIৰ সৈতে ট্ৰেকিং উদ্দেশ্যৰ বাবে সংযোগ কৰে।  
-> এপ্পৰ ব্যৱহাৰকাৰী সকলে তেওঁলোকৰ এপ্প ব্যৱহাৰ আৰু যিকোনো তৃতীয় পক্ষৰ সেৱা বা এক্সটেনচনৰ সৈতে সম্পৃক্ততাৰ বাবে নিজেই দায়ী। AnymeXৰ ডেভেলপাৰে স্পষ্টকৈ ব্যৱহাৰকাৰী কাৰ্য্যৰ পৰা উদ্ভূত কোনো অপব্যৱহাৰ, আইনী সমস্যা, বা উল্লংঘনৰ বাবে সকলো দায়বদ্ধতা অস্বীকাৰ কৰে। যিকোনো আইনী সমস্যা সংশ্লিষ্ট তৃতীয় পক্ষৰ সেৱাক অবগত কৰিব লাগে, AnymeXক নহয়।  
+> **AnymeX কেৱল এটা ট্ৰেকিং টুল।** ই **কোনো ধৰণৰ** ষ্ট্ৰীমিং কণ্টেন্ট, মিডিয়া, বা তৃতীয়-পক্ষ এক্সটেনছন হোষ্ট, প্ৰদান, বিতৰণ, বা সমৰ্থন নকৰে।  
+> এই এপ্পে কেৱল সমৰ্থিত চাৰ্ভিচসমূহৰ (AniList, MyAnimeList, Simkl) অফিচিয়েল API ৰ সৈতে সংযোগ কৰি ট্ৰেকিং উদ্দেশ্যত ব্যৱহাৰ কৰে।  
+> ব্যৱহাৰকাৰীসকলে এপ্প আৰু যিকোনো তৃতীয়-পক্ষ চাৰ্ভিচ বা এক্সটেনছনৰ ব্যৱহাৰৰ বাবে সম্পূৰ্ণৰূপে দায়ী। AnymeX ৰ ডেভেলপাৰে ব্যৱহাৰকাৰীৰ কাৰ্য্যৰ পৰা উৎপন্ন হোৱা যিকোনো অপব্যৱহাৰ, আইনী সমস্যা, বা উলংঘনৰ বাবে স্পষ্টভাৱে সকলো দায় নাকৰে। আইনী সমস্যা থাকিলে অনুগ্ৰহ কৰি সংশ্লিষ্ট তৃতীয়-পক্ষ চাৰ্ভিচত যোগাযোগ কৰক, AnymeX ত নহয়।  
 >  
-> **এই এপ্প ব্যৱহাৰ কৰি, আপুনি আমাৰ [Terms of Service](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) মানি চলিবলৈ সম্মত।**
+> **এই এপ্প ব্যৱহাৰ কৰি, আপুনি আমাৰ [Terms of Service](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) মানি চলিবলৈ সন্মত হৈছোঁ।**
 
 ## ডাউনলোডসমূহ
 
@@ -64,7 +65,7 @@
     <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a>
   </p>
   
-### Windows
+### উইন্ড’জ
   <p>
     <a href="/INSTALLATION.md"><img src="https://img.shields.io/badge/Scoop-AnymeX-white?style=for-the-badge&labelColor=black" alt="Scoop"/></a>
     <a href="/INSTALLATION.md"><img src="https://img.shields.io/badge/Chocolatey-com.ryan.anymex-white?style=for-the-badge&labelColor=black" alt="Chocolatey"/></a>
@@ -73,7 +74,7 @@
 
 <div align="center">
   
-### iOS Sideloading উৎসসমূহ
+### iOS ছাইডল’ডিং উৎসসমূহ
   <p>
     <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="AltStore Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
     <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Feather Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
@@ -95,23 +96,23 @@
     <img src="https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_2.png" width="100%" style="margin: 0;" />
 </div>-->
 
-## আমাক সহায় কৰক
+## আমাৰ সহায় কৰক
 
 <a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 > [!TIP]
-> ⭐ **এই ৰিপ’জিটৰিটোত ষ্টাৰ দিয়ক যাতে ডেভেলপাৰক সহায় আৰু এপটোৰ উন্নয়ন আগবঢ়াবলৈ উৎসাহ দিয়ে!**
+> ⭐ **এই ৰিপ'জিট'ৰিটোত ষ্টাৰ দিয়ক যাতে ডেভেলপাৰক সমৰ্থন আৰু এপটোৰ উন্নয়ন আগবঢ়াবলৈ উৎসাহিত হয়!**
 
 <details>
   <summary>ষ্টাৰ ইতিহাস</summary>
   <a href="https://github.com/RyanYuuki/AnymeX/stargazers">
-      <img alt="ষ্টাৰ ইতিহাস চাৰ্ট" src="https://starchart.cc/RyanYuuki/AnymeX.svg?variant=adaptive" width="370" height="235" />
+      <img alt="Star History Chart" src="https://starchart.cc/RyanYuuki/AnymeX.svg?variant=adaptive" width="370" height="235" />
   </a>
 </details>
 
-## চৰকাৰী সমূহ
+## চৰকাৰী কমিউনিটি সমূহ
 
-আমাৰ সমূহত যোগ দিয়ক, সদায় আপডেট থাকক আৰু আলোচনা যোগদান কৰক:
+আমাৰ কমিউনিটি সমূহত যোগদান কৰক যাতে আপুনি সদায় সদ্যতম তথ্য পাই থাকে আৰু আলোচনা কৰা যায়:
 
 <a href="https://discord.gg/5gAHhMvTcx" style="margin-right: 10px; display: inline-block;"><img src="https://files.catbox.moe/tb0004.png" alt="Discord" height="40" style="vertical-align: middle;"></a>
 <a href="https://t.me/AnymeX_Discussion" style="display: inline-block;"><img src="https://files.catbox.moe/z66xwr.png" alt="Telegram" height="40" style="vertical-align: middle;"></a>
@@ -119,13 +120,13 @@
 
 ## অৱদান কৰক
 
-আমরা সকলো ধৰণৰ অৱদান স্বাগতম জনাইছোঁ, অনুবাদৰ পৰা নতুন ফিচাৰলৈকে।  
-আমাৰ ডেভেলপমেন্ট পৰিৱেশ স্থাপন নির্দেশিকা [ইয়াত](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md) উপলব্ধ।  
-জানিবলগীয়া বিষয় থাকিলে আমাৰ [Discord চাৰ্ভাৰ](https://discord.gg/5gAHhMvTcx) বা [Telegram গোট](https://t.me/AnymeX_Discussion)-ত যোগ দিয়ক।  
-Pull request স্বাগতম; ডাঙৰ পৰিবর্তনৰ বাবে [খোলা ইস্যুসমূহ](https://github.com/RyanYuuki/AnymeX/issues) চাওক।
+আমরা সকলো ধৰণৰ অৱদান আদৰি লওঁ, অনুবাদৰ পৰা নতুন বৈশিষ্ট্য যোগ কৰা পর্যন্ত।  
+আমাৰ ডেভেলপমেন্ট পৰিবেশ স্থাপনৰ গাইড [ইয়াত](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md) উপলব্ধ।  
+প্ৰশ্ন থাকিলে, আমাৰ [Discord server](https://discord.gg/5gAHhMvTcx) বা [Telegram group](https://t.me/AnymeX_Discussion)-ত যোগদান কৰক।  
+Pull request স্বাগতম; মুখ্য পৰিৱৰ্তনৰ বাবে [open issues](https://github.com/RyanYuuki/AnymeX/issues) চাওক।
 
 <!--<details>
-<summary>Weblate অনুবাদ গ্ৰাফ</summary>
+<summary>Weblate Translation Graph</summary>
 <a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Translation status" /></a>
 </details>-->
 
@@ -135,24 +136,24 @@ Pull request স্বাগতম; ডাঙৰ পৰিবর্তনৰ ব
 
 ## কৃতজ্ঞতা
 
-AnymeX-ৰ উন্নয়নত যিসকল ব্যক্তিয়ে অৱদান ৰাখিছে সকলোলৈ হৃদয়ৰ পৰা ধন্যবাদ।
-আপোনালোকৰ চেষ্টা অমূল্য।
+AnymeX উন্নয়নলৈ সহায় কৰা সকলোকে অন্তৰংগ ধন্যবাদ।
+আপোনালোকৰ প্ৰয়াস অমূল্য।
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
-  <img alt="GitHub অবদানকাৰীসকল" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
 </a>
 <br>
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="অৱদানকাৰীসকল">
+  <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
 
 ## লাইচেঞ্চ
 
-AnymeX-এ MIT লাইচেঞ্চৰ অধীনত লাইচেঞ্চ কৰা হৈছে। অধিক তথ্য [ইয়াত](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md) পোৱা যাব।
+AnymeX MIT License-ৰ অধীনত লাইচেঞ্চ কৰা হৈছে। অধিক তথ্য [ইয়াত](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md) পোৱা যায়।
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
 
 ---

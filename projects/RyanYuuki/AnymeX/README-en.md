@@ -6,24 +6,24 @@
         <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ar">Arabic</a>
         | <a href="https://openaitx.github.io/view.html?user=RyanYuuki&project=AnymeX&lang=as">Assamese</a>
         | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=de">German</a>
         | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=en">English</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=fa">Farsi</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=fr">French</a>
         | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=hi">Hindi</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=zh-CN">Simplified Chinese</a>
       </div>
     </div>
   </details>
@@ -44,9 +44,10 @@
 <a href="https://github.com/RyanYuuki/AnymeX/stargazers">
       <img src="https://img.shields.io/github/stars/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge" alt="Stars" /></a>
 </p>
+<a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX
+# AnymeX: Multiservice Tracking Client
 
 **AnymeX** is a multiservice tracking client designed exclusively for managing and tracking anime and manga progress across [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), and [**Simkl**](https://simkl.com/).
 
@@ -153,6 +154,6 @@ AnymeX is licensed under the MIT License. More info can be found [here](https://
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
 
 ---

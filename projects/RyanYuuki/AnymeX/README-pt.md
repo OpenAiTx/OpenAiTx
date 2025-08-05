@@ -44,18 +44,19 @@
 <a href="https://github.com/RyanYuuki/AnymeX/stargazers">
       <img src="https://img.shields.io/github/stars/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge" alt="Stars" /></a>
 </p>
+<a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX
+# AnymeX: Cliente de Rastreamento Multisserviço
 
-**AnymeX** é um cliente de rastreamento multisserviço projetado exclusivamente para gerenciar e acompanhar o progresso de animes e mangás através do [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) e [**Simkl**](https://simkl.com/).
+**AnymeX** é um cliente de rastreamento multisserviço projetado exclusivamente para gerenciar e acompanhar o progresso de anime e mangá através do [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) e [**Simkl**](https://simkl.com/).
 
 > [!IMPORTANTE]  
 > **AnymeX é apenas uma ferramenta de rastreamento.** Ele **não** hospeda, fornece, distribui ou endossa qualquer conteúdo de streaming, mídia ou extensões de terceiros.  
 > O aplicativo integra-se exclusivamente com as APIs oficiais dos serviços suportados (AniList, MyAnimeList, Simkl) para fins de rastreamento.  
-> Os usuários são os únicos responsáveis pelo uso do aplicativo e por quaisquer serviços ou extensões de terceiros que decidirem utilizar. O desenvolvedor do AnymeX se isenta explicitamente de toda responsabilidade por qualquer uso indevido, questões legais ou violações decorrentes de ações dos usuários. Quaisquer questões legais devem ser direcionadas aos respectivos serviços de terceiros, não ao AnymeX.  
+> Os usuários são os únicos responsáveis pelo uso do aplicativo e por quaisquer serviços ou extensões de terceiros que decidam utilizar. O desenvolvedor do AnymeX isenta-se explicitamente de toda responsabilidade por qualquer uso indevido, questões legais ou violações decorrentes das ações dos usuários. Quaisquer preocupações legais devem ser direcionadas aos respectivos serviços de terceiros, não ao AnymeX.  
 >  
-> **Ao utilizar este aplicativo, você concorda em cumprir com nossos [Termos de Serviço](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md).**
+> **Ao utilizar este aplicativo, você concorda em cumprir nossos [Termos de Serviço](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md).**
 
 ## Downloads
 
@@ -73,7 +74,7 @@
 
 <div align="center">
   
-### Fontes de Sideloading para iOS
+### Fontes para Sideloading no iOS
   <p>
     <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="AltStore Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
     <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Feather Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
@@ -97,10 +98,10 @@
 
 ## Apoie-nos
 
-<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Compre-me um Café no ko-fi.com' /></a>
 
 > [!TIP]
-> ⭐ **Adicione uma estrela a este repositório para apoiar o desenvolvedor e incentivar o desenvolvimento do aplicativo!**
+> ⭐ **Adicione uma estrela a este repositório para apoiar o desenvolvedor e incentivar o desenvolvimento do app!**
 
 <details>
   <summary>Histórico de Estrelas</summary>
@@ -122,10 +123,10 @@ Junte-se às nossas comunidades para se manter atualizado e contribuir para a di
 Agradecemos contribuições, desde traduções até novos recursos.  
 Nosso guia de configuração do ambiente de desenvolvimento está disponível [aqui](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
 Para dúvidas, entre em nosso [servidor do Discord](https://discord.gg/5gAHhMvTcx) ou [grupo no Telegram](https://t.me/AnymeX_Discussion).  
-Pull requests são bem-vindos; confira as [issues abertas](https://github.com/RyanYuuki/AnymeX/issues) para orientações sobre grandes mudanças.
+Pull requests são bem-vindos; confira as [issues abertas](https://github.com/RyanYuuki/AnymeX/issues) para orientação sobre mudanças importantes.
 
 <!--<details>
-<summary>Gráfico de Tradução do Weblate</summary>
+<summary>Gráfico de Tradução Weblate</summary>
 <a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Status da tradução" /></a>
 </details>-->
 
@@ -153,6 +154,6 @@ AnymeX está licenciado sob a Licença MIT. Mais informações podem ser encontr
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
 
 ---

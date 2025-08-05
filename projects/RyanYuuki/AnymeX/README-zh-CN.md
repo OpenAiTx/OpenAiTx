@@ -44,16 +44,17 @@
 <a href="https://github.com/RyanYuuki/AnymeX/stargazers">
       <img src="https://img.shields.io/github/stars/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge" alt="Stars" /></a>
 </p>
+<a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX
+# AnymeX：多服务追番客户端
 
-**AnymeX** 是一款多服务追番客户端，专为在 [**AniList**](https://anilist.co/)、[**MyAnimeList**](https://myanimelist.net/) 和 [**Simkl**](https://simkl.com/) 上管理和追踪动漫及漫画进度而设计。
+**AnymeX** 是一款多服务追番客户端，专为管理和跟踪 [**AniList**](https://anilist.co/)、[**MyAnimeList**](https://myanimelist.net/) 和 [**Simkl**](https://simkl.com/) 上的动漫和漫画进度而设计。
 
-> [!IMPORTANT]  
-> **AnymeX 仅为追番工具。** 它**不**托管、提供、分发或支持任何流媒体内容、媒体或第三方扩展。  
-> 本应用仅与受支持服务（AniList、MyAnimeList、Simkl）的官方 API 集成，用于追踪用途。  
-> 用户需自行对其使用本应用以及与第三方服务或扩展的互动承担全部责任。AnymeX 开发者明确声明，对因用户行为导致的任何误用、法律问题或违规行为概不负责。如有法律问题，请直接联系相关第三方服务，而非 AnymeX。  
+> [!重要]  
+> **AnymeX 仅为追番工具。** 它**不**托管、提供、分发或认可任何流媒体内容、媒体或第三方扩展。  
+> 此应用仅与受支持服务（AniList、MyAnimeList、Simkl）的官方 API 集成，用于追番目的。  
+> 用户对其使用本应用以及与任何第三方服务或扩展的互动自行负责。AnymeX 的开发者明确声明对因用户行为产生的任何误用、法律问题或违规行为概不负责。任何法律问题应直接联系相关第三方服务，而非 AnymeX。  
 >  
 > **使用本应用即表示您同意遵守我们的[服务条款](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md)。**
 
@@ -84,11 +85,11 @@
 
 <!--## 截图
 
-| 主页                                                                                                                                           | 搜索                                                                                                                                          | 详情                                                                                                                      | 资料库                                                                                                              |
+| 首页                                                                                                                                           | 搜索                                                                                                                                          | 详情                                                                                                                      | 资料库                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-|![主页显示了你已观看或阅读的多种内容分区。](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![搜索页展示了对JOJO的奇妙冒险的多个搜索结果。](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![Re:从零开始的异世界生活的详情页。](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![资料库页展示了用户正在观看的列表。](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
+|![主页包含多个你已阅读或观看内容的分区。](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![搜索页面展示多条 JoJo 的奇妙冒险搜索结果。](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![Re:从零开始的异世界生活详情页。](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![资料库页面显示用户的追番列表。](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
 
-<!-- 一旦我制作好截图就会重新添加
+<!-- 一旦制作好截图我会把这部分补回
 ### 💻 桌面端
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <img src="https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_1.png" width="100%" style="margin: 0;" />
@@ -97,9 +98,10 @@
 
 ## 支持我们
 
-<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='在 ko-fi.com 请我喝杯咖啡' /></a>
+
 > [!TIP]
-> ⭐ **为本仓库加星支持开发者，鼓励应用持续开发！**
+> ⭐ **为此仓库加星支持开发者，并鼓励应用持续开发！**
 
 <details>
   <summary>加星历史</summary>
@@ -110,7 +112,7 @@
 
 ## 官方社区
 
-加入我们的社区，获取最新资讯并参与讨论：
+加入我们的社区，获取最新动态并参与讨论：
 
 <a href="https://discord.gg/5gAHhMvTcx" style="margin-right: 10px; display: inline-block;"><img src="https://files.catbox.moe/tb0004.png" alt="Discord" height="40" style="vertical-align: middle;"></a>
 <a href="https://t.me/AnymeX_Discussion" style="display: inline-block;"><img src="https://files.catbox.moe/z66xwr.png" alt="Telegram" height="40" style="vertical-align: middle;"></a>
@@ -118,24 +120,24 @@
 
 ## 贡献
 
-我们欢迎各种贡献，包括翻译和新功能。  
-我们的开发环境搭建指南可在[这里](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)获取。  
+我们欢迎各类贡献，从翻译到新功能开发。  
+我们的开发环境搭建指南请见[这里](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)。  
 如有疑问，请加入我们的 [Discord 服务器](https://discord.gg/5gAHhMvTcx) 或 [Telegram 群组](https://t.me/AnymeX_Discussion)。  
-欢迎提交 Pull Request；如需重大变更建议，查看[开放议题](https://github.com/RyanYuuki/AnymeX/issues)。
+欢迎提交 Pull Request；如需了解重大更改，请查阅[开放问题](https://github.com/RyanYuuki/AnymeX/issues)。
 
 <!--<details>
 <summary>Weblate 翻译进度图</summary>
-<a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Translation status" /></a>
+<a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="翻译状态" /></a>
 </details>-->
 
-## 访客统计
+## 访客
 
 <img src="https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
 
 ## 鸣谢
 
-衷心感谢所有为 AnymeX 发展做出贡献的人。  
-你们的努力极其宝贵。
+衷心感谢每一位为 AnymeX 发展做出贡献的朋友。  
+你们的努力弥足珍贵。
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
   <img alt="GitHub 贡献者" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
@@ -147,12 +149,11 @@
 
 ## 许可证
 
-AnymeX 采用 MIT 许可证。更多信息请见[这里](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)。
-
+AnymeX 遵循 MIT 许可证。更多信息可查阅[这里](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
 
 ---

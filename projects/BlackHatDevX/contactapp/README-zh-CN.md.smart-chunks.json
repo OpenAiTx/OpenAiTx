@@ -1,0 +1,497 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Contacts App\n\nA contact application built with React, TypeScript, and Tailwind CSS.\n\n## 🌐 Live Demo\n\n**[View Live App](https://contactapp-pi.vercel.app/)**\n\n## 🛠️ Tech Stack\n\n> VITE, React, TypeScript, Tailwind CSS, React Router DOM\n\n## 🚀 Routes using (react-router-dom)\n",
+    "ContentSha": "mQqfMTt5ksQcoRSVefJCDISB8qbeEvPIVnDHyvA47+k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 联系人应用\n\n一个使用 React、TypeScript 和 Tailwind CSS 构建的联系人应用。\n\n## 🌐 在线演示\n\n**[查看在线应用](https://contactapp-pi.vercel.app/)**\n\n## 🛠️ 技术栈\n\n> VITE、React、TypeScript、Tailwind CSS、React Router DOM\n\n## 🚀 使用 (react-router-dom) 的路由\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+SPudbR2ebWV1nLj5+AlOiFXIh+/NzXhfhzqlL4FRNQ=",
+        "originContent": "# Contacts App",
+        "translatedContent": "# 联系人应用"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "juP7P8gg3D/nWJsKzK46RepPE7Zr7ZO6KYgA15blXJs=",
+        "originContent": "A contact application built with React, TypeScript, and Tailwind CSS.",
+        "translatedContent": "一个使用 React、TypeScript 和 Tailwind CSS 构建的联系人应用。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "moqOg0eOaLY0SRodK9F5qA9aT6wi4UfGWzaMJ5z972o=",
+        "originContent": "## 🌐 Live Demo",
+        "translatedContent": "## 🌐 在线演示"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "MekoFi59XhOwkVitY0oKAUlujXAjA5nYBp9ZDfqTKCY=",
+        "originContent": "**[View Live App](https://contactapp-pi.vercel.app/)**",
+        "translatedContent": "**[查看在线应用](https://contactapp-pi.vercel.app/)**"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "uF9tv30A/VV9RFgGHS2kim96TfH1k0m8iVMp/yKQrfc=",
+        "originContent": "## 🛠️ Tech Stack",
+        "translatedContent": "## 🛠️ 技术栈"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "CiFVeQJcsjVXXTiBE9Bv7W/Bs8gIMrhX9+pnFj7m9kw=",
+        "originContent": "> VITE, React, TypeScript, Tailwind CSS, React Router DOM",
+        "translatedContent": "> VITE、React、TypeScript、Tailwind CSS、React Router DOM"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "y0mJ7vBF7anKAkN6PxG4a1IL+XCYi68Wza1WKrinC2o=",
+        "originContent": "## 🚀 Routes using (react-router-dom)",
+        "translatedContent": "## 🚀 使用 (react-router-dom) 的路由"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n<Route path=\"/\" element={<Home />} />\n<Route path=\"/about\" element={<About />} />\n```",
+    "ContentSha": "e4PC22SRC9o5fJ5MDIYcNSo/zRv76v5UMdocwxXzY+A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n<Route path=\"/\" element={<Home />} />\n<Route path=\"/about\" element={<About />} />\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "swpmI253grdOZMlnVPU1r/xQzbNPVPud62nXUW6B8/c=",
+        "originContent": "<Route path=\"/\" element={<Home />} />",
+        "translatedContent": "<Route path=\"/\" element={<Home />} />"
+      },
+      {
+        "row": 3,
+        "rowsha": "gaZEJ4ZTuahqeAGW8hIJ62/eUPfRe7YG6kM+gGvULIk=",
+        "originContent": "<Route path=\"/about\" element={<About />} />",
+        "translatedContent": "<Route path=\"/about\" element={<About />} />"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## 📦 To run this project locally\n",
+    "ContentSha": "sPxks5eEJdlyJBxIVdfvTbWlVNdtys3l8JwNJh5XoV4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 📦 在本地运行此项目\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "tf+4gVxTS06WtOapamYURE6JFtL2lxY2S6OsIuit0sA=",
+        "originContent": "## 📦 To run this project locally",
+        "translatedContent": "## 📦 在本地运行此项目"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ngit clone https://github.com/BlackHatDevX/contactapp\ncd contactapp\nyarn install\nyarn dev\n```",
+    "ContentSha": "xy49WyZ+N7u4r7P1HBltbBbEHkP4CipAnbE93KR4J94=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/BlackHatDevX/contactapp\ncd contactapp\nyarn install\nyarn dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "972oPJbmzARH/EXI6KxQFiVhltUPR4b9ZDQYy9w+/K8=",
+        "originContent": "git clone https://github.com/BlackHatDevX/contactapp",
+        "translatedContent": "git clone https://github.com/BlackHatDevX/contactapp"
+      },
+      {
+        "row": 3,
+        "rowsha": "Vzmzq63DiekspfazA7IeFRmg2LvHsDt86CUj21Ix9ac=",
+        "originContent": "cd contactapp",
+        "translatedContent": "cd contactapp"
+      },
+      {
+        "row": 4,
+        "rowsha": "UWnszpf2bQa9Un4es5vKU4mcLg+R5FPsdH2U31RWLJg=",
+        "originContent": "yarn install",
+        "translatedContent": "yarn install"
+      },
+      {
+        "row": 5,
+        "rowsha": "lM0LT8xyC/N1nmR6dGIgchPO+o/ETNiEEme3ay07B+4=",
+        "originContent": "yarn dev",
+        "translatedContent": "yarn dev"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## 🏗️ To build app for production\n",
+    "ContentSha": "8jYFVyGRhjY2V/hK+sJdK4UM+KyqNdMdYRdJL8WeRbg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🏗️ 构建生产环境应用\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "gOqDY8xX25cbWRZjQyF3Xm6Z4xFEWgg6NOeNU9FUFb8=",
+        "originContent": "## 🏗️ To build app for production",
+        "translatedContent": "## 🏗️ 构建生产环境应用"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nyarn build\n(app will be available in dist)\n```",
+    "ContentSha": "FzBEb5dedg34uFYBNeA1RNJRaDhcLlWlYNC2OxG7cvM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nyarn build\n(app will be available in dist)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "787zJVQYGkNUE+RPKyP88+XggDnJlJtD9r2Ee1z+U98=",
+        "originContent": "yarn build",
+        "translatedContent": "yarn build"
+      },
+      {
+        "row": 3,
+        "rowsha": "mXTteGDgfn/SpNbnb9fDHjT4aN/8F6OoIeow6Coa3Hg=",
+        "originContent": "(app will be available in dist)",
+        "translatedContent": "(app will be available in dist)"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## 📁 Project Structure\n",
+    "ContentSha": "INrZD50W5tQCVUt/x2XsV5XLSXGNpkJ1pVbigpVeF/g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 📁 项目结构\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "J+2kA+i8tz3LjivQ0RcsUzCYWvN2UHGcYExXmtR1Hsk=",
+        "originContent": "## 📁 Project Structure",
+        "translatedContent": "## 📁 项目结构"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\n.\n├── eslint.config.js\n├── index.html\n├── package.json\n├── public\n│   └── vite.svg\n├── readme.md\n├── src\n│   ├── App.tsx\n│   ├── assets\n│   │   └── react.svg\n│   ├── components\n│   │   └── ContactDataRenderer.tsx\n│   ├── index.css\n│   ├── main.tsx\n│   ├── pages\n│   │   └── home.tsx\n│   └── vite-env.d.ts\n├── tsconfig.app.json\n├── tsconfig.json\n├── tsconfig.node.json\n├── vite.config.ts\n└── yarn.lock\n```",
+    "ContentSha": "CBooFx2YbGYCD4PVkAmzX/WsseV+MyUSM+v5GZKLnoE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n.\n├── eslint.config.js\n├── index.html\n├── package.json\n├── public\n│   └── vite.svg\n├── readme.md\n├── src\n│   ├── App.tsx\n│   ├── assets\n│   │   └── react.svg\n│   ├── components\n│   │   └── ContactDataRenderer.tsx\n│   ├── index.css\n│   ├── main.tsx\n│   ├── pages\n│   │   └── home.tsx\n│   └── vite-env.d.ts\n├── tsconfig.app.json\n├── tsconfig.json\n├── tsconfig.node.json\n├── vite.config.ts\n└── yarn.lock\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "zbTuKuppzGqDMxu+ltwsqpopnSEynvsDNvwCqC4YOag=",
+        "originContent": ".",
+        "translatedContent": "."
+      },
+      {
+        "row": 3,
+        "rowsha": "T/d1xrlsDG4NxDscM4z5uexuDEe9eMVAfChQxl7AK8w=",
+        "originContent": "├── eslint.config.js",
+        "translatedContent": "├── eslint.config.js"
+      },
+      {
+        "row": 4,
+        "rowsha": "5JwZ8eBtWoOjbfvYo6q0cKu8CfnLMsLZq6I5T3rPq3I=",
+        "originContent": "├── index.html",
+        "translatedContent": "├── index.html"
+      },
+      {
+        "row": 5,
+        "rowsha": "AhN95DjCsvGbdhw0MXcReWFoW69AqswUUEGJGKGArfg=",
+        "originContent": "├── package.json",
+        "translatedContent": "├── package.json"
+      },
+      {
+        "row": 6,
+        "rowsha": "mmazQOjY1+wu6VB9VD54nK1y1me8S6DzgeCrTxIAg0U=",
+        "originContent": "├── public",
+        "translatedContent": "├── public"
+      },
+      {
+        "row": 7,
+        "rowsha": "pzSKyqOBrKpJi5oV8mFALemYUmZZBXhnIq5dA74IN7E=",
+        "originContent": "│   └── vite.svg",
+        "translatedContent": "│   └── vite.svg"
+      },
+      {
+        "row": 8,
+        "rowsha": "LvjFDrQUN8Rf1CgL/8x1xLXMtl0zTo05Rh72NVAdU14=",
+        "originContent": "├── readme.md",
+        "translatedContent": "├── readme.md"
+      },
+      {
+        "row": 9,
+        "rowsha": "kOUjL8oqfhfrtmyYLrnGFUmLSc+AFCzD/I5+qQ1r8KY=",
+        "originContent": "├── src",
+        "translatedContent": "├── src"
+      },
+      {
+        "row": 10,
+        "rowsha": "L3OG/FnhBElPX+yx1HxvPV41RmkgKC/Vl5U7ajkdjBo=",
+        "originContent": "│   ├── App.tsx",
+        "translatedContent": "│   ├── App.tsx"
+      },
+      {
+        "row": 11,
+        "rowsha": "FiFwzYZcEpzvr+iaOfGAWWT5GjgN0g0PdZm6Vs4LgP8=",
+        "originContent": "│   ├── assets",
+        "translatedContent": "│   ├── assets"
+      },
+      {
+        "row": 12,
+        "rowsha": "8zDiym0VvagrxhE5dwP4om2nO95BU053um51mP70Ypg=",
+        "originContent": "│   │   └── react.svg",
+        "translatedContent": "│   │   └── react.svg"
+      },
+      {
+        "row": 13,
+        "rowsha": "F/q3ZNzVMiZnkwKd0oek/RE1EtjhG+SCk7OMT5oyI90=",
+        "originContent": "│   ├── components",
+        "translatedContent": "│   ├── components"
+      },
+      {
+        "row": 14,
+        "rowsha": "3G2fW9vOm5Cca5fCJl9plHgodOicQlvQ/s4k9mQ7EGM=",
+        "originContent": "│   │   └── ContactDataRenderer.tsx",
+        "translatedContent": "│   │   └── ContactDataRenderer.tsx"
+      },
+      {
+        "row": 15,
+        "rowsha": "SBalpuV1uwmQ+z9hSdiuQ5tG2461djYURMt3w/toDTo=",
+        "originContent": "│   ├── index.css",
+        "translatedContent": "│   ├── index.css"
+      },
+      {
+        "row": 16,
+        "rowsha": "e7M1IsBUFwYV/Lzhe2bWc4xQFFmjRfkFCIIKlXRxVFo=",
+        "originContent": "│   ├── main.tsx",
+        "translatedContent": "│   ├── main.tsx"
+      },
+      {
+        "row": 17,
+        "rowsha": "IdGsDZDNiGRE/5PYRQjl/v9dijochRIFkN9NpoqEQ0A=",
+        "originContent": "│   ├── pages",
+        "translatedContent": "│   ├── pages"
+      },
+      {
+        "row": 18,
+        "rowsha": "QaoLXKWSUt2WnN36aXeUF/JV3I489L/L2to90z/a/0E=",
+        "originContent": "│   │   └── home.tsx",
+        "translatedContent": "│   │   └── home.tsx"
+      },
+      {
+        "row": 19,
+        "rowsha": "C9ZC/EJNv5HwkKSeq1A7BvU04ZLTLr5l9bSbJBDp0Sk=",
+        "originContent": "│   └── vite-env.d.ts",
+        "translatedContent": "│   └── vite-env.d.ts"
+      },
+      {
+        "row": 20,
+        "rowsha": "HkX3t+wo55HnV1A8nqqwA3QBV+8lGFEgS8RjiCuez0I=",
+        "originContent": "├── tsconfig.app.json",
+        "translatedContent": "├── tsconfig.app.json"
+      },
+      {
+        "row": 21,
+        "rowsha": "cognhz32keSKv0uvGzSYRbNFxS5JHVr0is+m58vnz8A=",
+        "originContent": "├── tsconfig.json",
+        "translatedContent": "├── tsconfig.json"
+      },
+      {
+        "row": 22,
+        "rowsha": "67thtF5LUqHoNErgA3C71e/7mu9x4w9+i0gPIckba3o=",
+        "originContent": "├── tsconfig.node.json",
+        "translatedContent": "├── tsconfig.node.json"
+      },
+      {
+        "row": 23,
+        "rowsha": "W1gsj0GrSn7HS+w69ocuCUIxoSVGUiWmobkTEGnKeJQ=",
+        "originContent": "├── vite.config.ts",
+        "translatedContent": "├── vite.config.ts"
+      },
+      {
+        "row": 24,
+        "rowsha": "O2QmlS7HHbBQeKKD3lZXEnZCeJp68/2jzTs6//+w29o=",
+        "originContent": "└── yarn.lock",
+        "translatedContent": "└── yarn.lock"
+      },
+      {
+        "row": 25,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
