@@ -1,48 +1,48 @@
-# สื่อส่วนบุคคล
-แหล่งข้อมูลเกี่ยวกับสื่อส่วนบุคคล รวมถึงการดึงดูดผู้ใช้ใหม่ กลยุทธ์สร้างกระแส การหาลูกค้า การเปลี่ยนลูกค้าเป็นยอดขาย และการสร้างรายได้ อัปเดตอย่างต่อเนื่อง
+# self-media
+自媒体相关资源，包括拉新，流量玩法、获客，转化、变现等资料，持续更新中
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=id)
 
 
 
-# [202507](https://raw.githubusercontent.com/mswnlz/self-media/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/self-media/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/self-media/main/202506.md)
+# [202508](https://raw.githubusercontent.com/mswnlz/self-media/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/self-media/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/self-media/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/self-media/main/202506.md)
 
 ---------------
-### ทรัพยากรเพิ่มเติมของโปรเจ็กต์
+### 项目更多资源
 
-[🎁ทรัพยากรสุดพิเศษ! หลักสูตรแพทย์แผนจีนฉบับสมบูรณ์ ราคาปกติ 59,880 หยวน ข้อมูลฉบับสะสม 1.18TB ครบทั้งพื้นฐาน วิดีโอ ภายนอก การฝังเข็ม หนังสือ ฯลฯ](https://github.com/mswnlz/chinese-traditional)
+[🎁重磅资源！原价59880元 绝版中医课程资料大全【收藏版1.18TB】，包括基础、视频、外治、针灸、书籍等等等应有尽有](https://github.com/mswnlz/chinese-traditional)
 
-[แหล่งข้อมูลเครื่องมือดีๆ รวมถึงระบบปฏิบัติการ ปลั๊กอินต่างๆ เครื่องมือเวอร์ชันพกพาและเวอร์ชันแคร็ก อัปเดตอย่างต่อเนื่อง](https://github.com/mswnlz/tools)
-
-
-[แหล่งข้อมูลอีคอมเมิร์ซข้ามพรมแดน รวมถึงการสมัคร การชำระเงิน การค้าระหว่างประเทศ tiktok amazon การเปิดร้าน การหาลูกค้าใหม่ ฯลฯ อัปเดตอย่างต่อเนื่อง](https://github.com/mswnlz/cross-border)
-
-[แหล่งข้อมูลเกี่ยวกับสื่อส่วนบุคคล รวมทั้งการหาลูกค้าใหม่ กลยุทธ์สร้างกระแส การหาลูกค้า การเปลี่ยนลูกค้าเป็นยอดขาย และการสร้างรายได้ อัปเดตอย่างต่อเนื่อง](https://github.com/mswnlz/self-media)
-
-[ แหล่งข้อมูลการศึกษาต่างๆ ตั้งแต่อนุบาล ประถม มัธยม ครอบคลุมสถาบันชื่อดัง เช่น Xueersi, Wanwei, Yuanfudao ฯลฯ เพิ่มเติมอย่างต่อเนื่อง](https://github.com/mswnlz/edu-knowlege)
-
-[ความรู้เกี่ยวกับ AI คำแนะนำ บทเรียน วิดีโอคอร์ส บทเรียนการสร้างรายได้ ฯลฯ อัปเดตอย่างต่อเนื่อง](https://github.com/mswnlz/AIknowledge)
-
-[แหล่งรวมคอร์สเรียนต่างๆ รวมทั้งจาก Dedao วัสดุออนไลน์ยอดนิยม และเนื้อหาที่ไม่เหมาะกับโปรเจ็กต์อื่นๆ อัปเดตอย่างต่อเนื่อง](https://github.com/mswnlz/curriculum)
-
-[แหล่งข้อมูลสื่อบันเทิง ภาพยนตร์ สารคดี เพลง คอนเสิร์ต ฯลฯ อัปเดตอย่างต่อเนื่อง](https://github.com/mswnlz/movies)
-
-[แหล่งข้อมูลหนังสือต่างๆ รวมถึงคู่มือ นิยาย และอื่นๆ](https://github.com/mswnlz/book)
+[各种好用工具相关的资源，包括操作系统，各种插件，绿色破解版工具等等，持续更新中](https://github.com/mswnlz/tools)
 
 
-[ฟิตเนส การออกกำลังกาย อาหาร โภชนาการ สุขภาพ การนอนหลับ ฯลฯ อัปเดตอย่างต่อเนื่อง](https://github.com/mswnlz/healthy)
+[跨境电商相关的资料，申请，支付、外贸，tiktok，亚马逊，开店铺，拉新等资源，持续更新中](https://github.com/mswnlz/cross-border)
+
+[自媒体相关资源，包括拉新，流量玩法、获客，转化、变现等资料，持续更新中](https://github.com/mswnlz/self-media)
+
+[ 教育各种资料，从幼儿园到小学、中学，涵盖学而思，万维、猿辅导等多个机构，持续增加中](https://github.com/mswnlz/edu-knowlege)
+
+[AI相关知识，提示词，教程，视频教程，变现课程等，持续更新中](https://github.com/mswnlz/AIknowledge)
+
+[各种课程材料，包括得到，网上流行材料，跟其他项目不好放的资料，都在这里面，等等等，持续更新中](https://github.com/mswnlz/curriculum)
+
+[影视媒体资源，电影，记录片，音乐，演唱会等等，持续更新中](https://github.com/mswnlz/movies)
+
+[书籍资料相关的，包括各种教程、小说等各种书籍](https://github.com/mswnlz/book)
+
+
+[健身、锻炼、饮食、营养，健康，睡眠等，持续更新中](https://github.com/mswnlz/healthy)
 
 
 ---------------
 
-# โฮมเพจแหล่งข้อมูล
-[แหล่งรวมข้อมูล ความรู้ สื่อบันเทิง สารคดี เพลง หนังสือ สื่อ อื่นๆ ที่กำลังรวบรวมอย่างต่อเนื่อง](https://github.com/mswnlz)
+# 资源主页
+[各种资料、知识、影视、记录片，音乐，书籍，媒体聚集地，持续整理中](https://github.com/mswnlz)
 
 ---------------
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
 
 ---

@@ -1,0 +1,2174 @@
+[
+  {
+    "row": 1,
+    "rowsha": "5BOp37o21rhbGnJjuBoMsCoqbfnXRGgoEvd1SzZzZww=",
+    "originContent": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/nloui-paperless-mcp-badge.png)](https://mseep.ai/app/nloui-paperless-mcp)",
+    "translatedContent": "[![MseeP.ai 安全评估徽章](https://mseep.net/pr/nloui-paperless-mcp-badge.png)](https://mseep.ai/app/nloui-paperless-mcp)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "Fka+O+GpNWu+hKxtcyhGAy9laUGrCbAZ3ohF1Gf2ScI=",
+    "originContent": "# Paperless-NGX MCP Server",
+    "translatedContent": "# Paperless-NGX MCP 服务器"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "eGIwe7a8Q/PL498vCy0pVpqeKgZ2kM93FqCBR6mUhu0=",
+    "originContent": "[![smithery badge](https://smithery.ai/badge/@nloui/paperless-mcp)](https://smithery.ai/server/@nloui/paperless-mcp)",
+    "translatedContent": "[![smithery 徽章](https://smithery.ai/badge/@nloui/paperless-mcp)](https://smithery.ai/server/@nloui/paperless-mcp)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "uKUQsdyNenfqAVIRi8qlF69kX8bfMHYohgHoUKAq5MU=",
+    "originContent": "An MCP (Model Context Protocol) server for interacting with a Paperless-NGX API server. This server provides tools for managing documents, tags, correspondents, and document types in your Paperless-NGX instance.",
+    "translatedContent": "一个用于与 Paperless-NGX API 服务器交互的 MCP（模型上下文协议）服务器。该服务器提供了管理 Paperless-NGX 实例中的文档、标签、往来人和文档类型的工具。"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## 快速开始"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "nrsPouaM/D0rdbvJ3HSjfQ6SR6X/KFAu0no5T7HQzro=",
+    "originContent": "### Installing via Smithery",
+    "translatedContent": "### 通过 Smithery 安装"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "eXVUIB38viDwctkaLTeWeEQVLPyhWAyF8OZm1qtQjBM=",
+    "originContent": "To install Paperless NGX MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@nloui/paperless-mcp):",
+    "translatedContent": "通过 [Smithery](https://smithery.ai/server/@nloui/paperless-mcp) 自动为 Claude Desktop 安装 Paperless NGX MCP 服务器："
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 16,
+    "rowsha": "V3IsM97PbizWHxaHn/H4rrlruSEXKOiJw+BIT409QqI=",
+    "originContent": "npx -y @smithery/cli install @nloui/paperless-mcp --client claude",
+    "translatedContent": "npx -y @smithery/cli install @nloui/paperless-mcp --client claude"
+  },
+  {
+    "row": 17,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "zFp4AHeEmv1K//Saq31Al0AFX5sPI0pcQr+jQf0A/tA=",
+    "originContent": "### Manual Installation",
+    "translatedContent": "### 手动安装"
+  },
+  {
+    "row": 20,
+    "rowsha": "AK7ZyzmPpHFojFbQ0hIb9HVUisDRzXoXn2eUFHs7rrc=",
+    "originContent": "1. Install the MCP server:",
+    "translatedContent": "1. 安装 MCP 服务器："
+  },
+  {
+    "row": 21,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 22,
+    "rowsha": "SpyKSTk5N51G7iaj+z5BI9FNNT7MJPap+rb9m4jduDk=",
+    "originContent": "npm install -g paperless-mcp",
+    "translatedContent": "npm install -g paperless-mcp"
+  },
+  {
+    "row": 23,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "6UgFO4qBXh+srfxorW/4owwGrJCyD33tZaOqdQgYS4U=",
+    "originContent": "2. Add it to your Claude's MCP configuration:",
+    "translatedContent": "2. 将其添加到您的 Claude MCP 配置中："
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "03SYgwGZcq5HdwTs2To64zSWqu36qYncQqiI/NOob/M=",
+    "originContent": "For VSCode extension, edit `~/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json`:",
+    "translatedContent": "对于 VSCode 扩展，编辑 `~/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json`："
+  },
+  {
+    "row": 28,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 29,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 30,
+    "rowsha": "ZckkIpKixltZLtYSjGOhgJjNOCkOb0HBckGFnZZHIuw=",
+    "originContent": "  \"mcpServers\": {",
+    "translatedContent": "  \"mcpServers\": {"
+  },
+  {
+    "row": 31,
+    "rowsha": "XhK3UezVtQbStaMaZZ9Gs9rNkaOHDc0sXpJqgp7f/84=",
+    "originContent": "    \"paperless\": {",
+    "translatedContent": "    \"paperless\": {"
+  },
+  {
+    "row": 32,
+    "rowsha": "m1brNZrsMVLBwdNTiAu1UnTnL8Y0znjxjarXfqBMLmw=",
+    "originContent": "      \"command\": \"npx\",",
+    "translatedContent": "      \"command\": \"npx\","
+  },
+  {
+    "row": 33,
+    "rowsha": "FcpEfoTaS71Ifc9y3dbhaEjoNZ0mjDzoxQO5laTrusI=",
+    "originContent": "      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]",
+    "translatedContent": "      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]"
+  },
+  {
+    "row": 34,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 35,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 36,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "LGpgzbhZB78Owg8y1Uv+VtDwway62WnhnXex5kQ6j0k=",
+    "originContent": "For Claude desktop app, edit `~/Library/Application Support/Claude/claude_desktop_config.json`:",
+    "translatedContent": "对于Claude桌面应用，编辑 `~/Library/Application Support/Claude/claude_desktop_config.json` ："
+  },
+  {
+    "row": 40,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 41,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 42,
+    "rowsha": "ZckkIpKixltZLtYSjGOhgJjNOCkOb0HBckGFnZZHIuw=",
+    "originContent": "  \"mcpServers\": {",
+    "translatedContent": "  \"mcpServers\": {"
+  },
+  {
+    "row": 43,
+    "rowsha": "XhK3UezVtQbStaMaZZ9Gs9rNkaOHDc0sXpJqgp7f/84=",
+    "originContent": "    \"paperless\": {",
+    "translatedContent": "    \"paperless\": {"
+  },
+  {
+    "row": 44,
+    "rowsha": "m1brNZrsMVLBwdNTiAu1UnTnL8Y0znjxjarXfqBMLmw=",
+    "originContent": "      \"command\": \"npx\",",
+    "translatedContent": "      \"command\": \"npx\","
+  },
+  {
+    "row": 45,
+    "rowsha": "FcpEfoTaS71Ifc9y3dbhaEjoNZ0mjDzoxQO5laTrusI=",
+    "originContent": "      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]",
+    "translatedContent": "      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]"
+  },
+  {
+    "row": 46,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 47,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 48,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 49,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. 获取您的 API 令牌：  "
+  },
+  {
+    "row": 51,
+    "rowsha": "YnLOmlrQWkNYVRJ58QOEQ9mZOTohMMwtEAYRI5i2wwA=",
+    "originContent": "3. Get your API token:",
+    "translatedContent": "   1. 登录您的 Paperless-NGX 实例  "
+  },
+  {
+    "row": 52,
+    "rowsha": "rjb/ikX+G6AK4DkL0h1WrAIFgg4RAJXCRDJk1MmkQl0=",
+    "originContent": "   1. Log into your Paperless-NGX instance",
+    "translatedContent": "   2. 点击右上角的用户名  "
+  },
+  {
+    "row": 53,
+    "rowsha": "LC65gsXqH3bdn/ZB+hRq4t8DcgYAT/mPeAv/CqPFa1I=",
+    "originContent": "   2. Click your username in the top right",
+    "translatedContent": "   3. 选择“我的资料”  "
+  },
+  {
+    "row": 54,
+    "rowsha": "+urbUesuDJaiadehSctxybmAo4XfR/gWw5dNPUpKrFY=",
+    "originContent": "   3. Select \"My Profile\"",
+    "translatedContent": "   4. 点击圆形箭头按钮生成新令牌  "
+  },
+  {
+    "row": 55,
+    "rowsha": "K7UlkH8eVPTR1WV5+mX/Ymxx/Vb1QBQMWcX/76e0Pbw=",
+    "originContent": "   4. Click the circular arrow button to generate a new token",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "4. 替换 MCP 配置中的占位符：  "
+  },
+  {
+    "row": 57,
+    "rowsha": "IQPHNIrRRjSy+J+Ac/jUzJxYS2VmMat3OKebw6ivY64=",
+    "originContent": "4. Replace the placeholders in your MCP config:",
+    "translatedContent": "   - 将 `http://your-paperless-instance:8000` 替换为您的 Paperless-NGX URL  "
+  },
+  {
+    "row": 58,
+    "rowsha": "YWgiXPzXEHYQq5bWvdZp0aVopc++WStUT7f10pXspXg=",
+    "originContent": "   - `http://your-paperless-instance:8000` with your Paperless-NGX URL",
+    "translatedContent": "   - 将 `your-api-token` 替换为您刚刚生成的令牌  "
+  },
+  {
+    "row": 59,
+    "rowsha": "QnY/h3l1z+G2Sc1ES0a1/qFTpwIVN7rwH7CaifNvGeM=",
+    "originContent": "   - `your-api-token` with the token you just generated",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "就是这样！现在您可以让 Claude 帮助您管理 Paperless-NGX 文档。  "
+  },
+  {
+    "row": 61,
+    "rowsha": "+HIz+BK3tZxUeiv4Is+gZQrwwhmReq83FXUeff1kwlA=",
+    "originContent": "That's it! Now you can ask Claude to help you manage your Paperless-NGX documents.",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 示例用法  "
+  },
+  {
+    "row": 63,
+    "rowsha": "nCMRqL+z2RLAiY8/bspPiTBHkCBv43qQNGF97p0D5Bo=",
+    "originContent": "## Example Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "以下是您可以让 Claude 执行的一些操作：  "
+  },
+  {
+    "row": 65,
+    "rowsha": "84izLZ0M5jFO4vRsTtR2YzYshWxIQSTd8WpUClGMJVw=",
+    "originContent": "Here are some things you can ask Claude to do:",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- “显示所有标记为‘发票’的文档”  "
+  },
+  {
+    "row": 67,
+    "rowsha": "XiDaVwb5RXSQ3WHjH6t1AQolNDB5RyMz9aN903Gdgy8=",
+    "originContent": "- \"Show me all documents tagged as 'Invoice'\"",
+    "translatedContent": "- “搜索包含‘报税’的文档”  "
+  },
+  {
+    "row": 68,
+    "rowsha": "cW5RnN8KbpgCQ8Ieh5/LUW9W1uRLjkzjFkVjzgmjw7k=",
+    "originContent": "- \"Search for documents containing 'tax return'\"",
+    "translatedContent": "- “创建一个名为‘收据’、颜色为 #FF0000 的新标签”  "
+  },
+  {
+    "row": 69,
+    "rowsha": "eOR7sTmdXPvY3StHoz9dtEJgazBoqcqQqGB0r7FKVSY=",
+    "originContent": "- \"Create a new tag called 'Receipts' with color #FF0000\"",
+    "translatedContent": "- “下载文档 #123”  "
+  },
+  {
+    "row": 70,
+    "rowsha": "5FsS4fixP84luMS+KhgCes4RD/c/d3y/mOlxzQtH4Og=",
+    "originContent": "- \"Download document #123\"",
+    "translatedContent": "- “列出所有通信联系人”  "
+  },
+  {
+    "row": 71,
+    "rowsha": "tGxai1bNzJ2DGPQBjROnlTCvIDB0/hB+MhDGq9c+Q1A=",
+    "originContent": "- \"List all correspondents\"",
+    "translatedContent": "- “创建一个名为‘银行对账单’的新文档类型”  "
+  },
+  {
+    "row": 72,
+    "rowsha": "Z3I22iKvFBrspZdiwwdmC4znRu6noQjz1iKqCnfYXYM=",
+    "originContent": "- \"Create a new document type called 'Bank Statement'\"",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 可用工具  "
+  },
+  {
+    "row": 74,
+    "rowsha": "3p9HxS/FxYrtplhfcyaONljFJzSCmQticBC3tEpfjgo=",
+    "originContent": "## Available Tools",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 文档操作  "
+  },
+  {
+    "row": 76,
+    "rowsha": "3l4IqrGlPZRJLfXtmerMWtHhZq3MLAR2ZNz10iwYLIo=",
+    "originContent": "### Document Operations",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### list_documents  "
+  },
+  {
+    "row": 78,
+    "rowsha": "qn6TOdnwVP9JQ39QHe7Tku3nqPEDZoSrRu0pegXJnbQ=",
+    "originContent": "#### list_documents",
+    "translatedContent": "获取所有文档的分页列表。  "
+  },
+  {
+    "row": 79,
+    "rowsha": "AlIbMyTcFH6DjO/MtPZCYQU5XLSAX0tY87S39ZYP+FI=",
+    "originContent": "Get a paginated list of all documents.",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "参数：  "
+  },
+  {
+    "row": 81,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "- page（可选）：页码  "
+  },
+  {
+    "row": 82,
+    "rowsha": "EvTLKHWoDOAPA1DcIRlMd3p4XsM68oPLAUss+VzamtY=",
+    "originContent": "- page (optional): Page number",
+    "translatedContent": "- page_size（可选）：每页文档数量  "
+  },
+  {
+    "row": 83,
+    "rowsha": "u7oz1X+j0CQHNCiowjoRaQ6E/W6CH3xFPFFryYFCpwQ=",
+    "originContent": "- page_size (optional): Number of documents per page",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 86,
+    "rowsha": "q5CKoaM6KRSSW3fkj1NZdbGmrWLIMHbeDBDFXOAb/sw=",
+    "originContent": "list_documents({",
+    "translatedContent": "list_documents({"
+  },
+  {
+    "row": 87,
+    "rowsha": "v/NyT6NHEteiiiTMA5QTdNG2smCOu6h2HlEs+ZUCDGk=",
+    "originContent": "  page: 1,",
+    "translatedContent": "  page: 1,"
+  },
+  {
+    "row": 88,
+    "rowsha": "kB2w+OmbcLpWKUZU+84U37ARzPmIHhV/PFEFSqTbEDM=",
+    "originContent": "  page_size: 25",
+    "translatedContent": "  page_size: 25"
+  },
+  {
+    "row": 89,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 90,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "T3niO0XGvYyB2U7mvr1CMep32MeU83lqnaoHxYxQdOg=",
+    "originContent": "#### get_document",
+    "translatedContent": "#### get_document"
+  },
+  {
+    "row": 93,
+    "rowsha": "5R4D7cEIu0GTIbgOkeW3KLeur7o+fx0okmrePE4g+CU=",
+    "originContent": "Get a specific document by ID.",
+    "translatedContent": "通过ID获取特定文档。"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "参数："
+  },
+  {
+    "row": 96,
+    "rowsha": "zEuQfYi1AI0tIMTMVXHAVuCnwbBfBMqfw2DYMTlkZIw=",
+    "originContent": "- id: Document ID",
+    "translatedContent": "- id：文档ID"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 99,
+    "rowsha": "Fdc5DLMyTOFfjBVdn8q+lHfTvb95pr0q4WzMlbpO8h0=",
+    "originContent": "get_document({",
+    "translatedContent": "get_document({"
+  },
+  {
+    "row": 100,
+    "rowsha": "ASoKrd+c08He8Ym+O8Zt7Uv2O5RtEssxGjmKydaWgvg=",
+    "originContent": "  id: 123",
+    "translatedContent": "  id: 123"
+  },
+  {
+    "row": 101,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 102,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "WCwt54spIZDFKnIW4VAX21s6M6FamGmzX6OsHarHSFk=",
+    "originContent": "#### search_documents",
+    "translatedContent": "#### search_documents"
+  },
+  {
+    "row": 105,
+    "rowsha": "Qt2GOxA2DJUzThMpIKS6FS3TKdulucxUWLgDPCBeCK4=",
+    "originContent": "Full-text search across documents.",
+    "translatedContent": "跨文档全文搜索。"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "参数："
+  },
+  {
+    "row": 108,
+    "rowsha": "DMlWNun4YSR1IAtsnp7UMdgiOZlH6owtsWhDVbjJKFs=",
+    "originContent": "- query: Search query string",
+    "translatedContent": "- query: 搜索查询字符串"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 111,
+    "rowsha": "Qzle7+NeYSRhpsiAI7V5oV/LxW9ABEplxjtxe12ccG4=",
+    "originContent": "search_documents({",
+    "translatedContent": "search_documents({"
+  },
+  {
+    "row": 112,
+    "rowsha": "d+h1UFM3g2EBRra75nra/vIcoxsrLmmRri7v6DYNfEU=",
+    "originContent": "  query: \"invoice 2024\"",
+    "translatedContent": "  query: \"invoice 2024\""
+  },
+  {
+    "row": 113,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 114,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "GQSjyWKnnnrOzty1w2XQRncF3d0nSTrhu//BMWPzgGE=",
+    "originContent": "#### download_document",
+    "translatedContent": "#### download_document"
+  },
+  {
+    "row": 117,
+    "rowsha": "m8j1zAjgyb0TAfBcVcCQ7LBSVZp8u7/vjNqZCMtFZ0M=",
+    "originContent": "Download a document file by ID.",
+    "translatedContent": "通过ID下载文档文件。"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "参数："
+  },
+  {
+    "row": 120,
+    "rowsha": "zEuQfYi1AI0tIMTMVXHAVuCnwbBfBMqfw2DYMTlkZIw=",
+    "originContent": "- id: Document ID",
+    "translatedContent": "- id：文档ID"
+  },
+  {
+    "row": 121,
+    "rowsha": "cpsY7GQNOJc4SrRu4s6ogybXk1MrNMnSdE/FFEYMe4w=",
+    "originContent": "- original (optional): If true, downloads original file instead of archived version",
+    "translatedContent": "- original（可选）：如果为true，下载原始文件而非归档版本"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 124,
+    "rowsha": "XArORkYycQ5dpuG27Nnq2CiMzwY1dDQAkd4w2nMbFxI=",
+    "originContent": "download_document({",
+    "translatedContent": "download_document({"
+  },
+  {
+    "row": 125,
+    "rowsha": "C2wltRUs5u6+SfGv2asM7VjDWsIdagdu/bLjRs91TKo=",
+    "originContent": "  id: 123,",
+    "translatedContent": "  id: 123,"
+  },
+  {
+    "row": 126,
+    "rowsha": "IUrOyQpqqF93ZdfpOUpyRyatvoAfBYIfScFCf9+lLd0=",
+    "originContent": "  original: false",
+    "translatedContent": "  original: false"
+  },
+  {
+    "row": 127,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 128,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "narvMe3I1v/zb3wAWeGfcUaqnIYC06eyW0cU0jDmubM=",
+    "originContent": "#### bulk_edit_documents",
+    "translatedContent": "#### bulk_edit_documents"
+  },
+  {
+    "row": 131,
+    "rowsha": "dDL+odpgizBo4zhlfH6fAEbmlp0qNF0505B03pbTEXw=",
+    "originContent": "Perform bulk operations on multiple documents.",
+    "translatedContent": "对多个文档执行批量操作。"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "参数："
+  },
+  {
+    "row": 134,
+    "rowsha": "sVsrBOLZWXaS2zkno/NslJPdtdfls5YHgFO9L/5g+bk=",
+    "originContent": "- documents: Array of document IDs",
+    "translatedContent": "- documents：文档ID数组"
+  },
+  {
+    "row": 135,
+    "rowsha": "uhY/xzqeBYUY0CRafjXWzIu0Uu0q77rqiUf81/3Nwds=",
+    "originContent": "- method: One of:",
+    "translatedContent": "- method：以下之一："
+  },
+  {
+    "row": 136,
+    "rowsha": "3775gh5QphSVQghONaCKIxuGIwnuJO99u5+wGD93jpI=",
+    "originContent": "  - set_correspondent: Set correspondent for documents",
+    "translatedContent": "  - set_correspondent：设置文档的往来单位"
+  },
+  {
+    "row": 137,
+    "rowsha": "ojeA1700Hw92+CP1vRF70hGjysweEdmybZpMN7GbtWk=",
+    "originContent": "  - set_document_type: Set document type for documents",
+    "translatedContent": "  - set_document_type：设置文档类型"
+  },
+  {
+    "row": 138,
+    "rowsha": "xyehcvQ8q5m0jG8c87ULBbZ9D0h64VT/oFcAWQsQSAc=",
+    "originContent": "  - set_storage_path: Set storage path for documents",
+    "translatedContent": "  - set_storage_path：设置文档存储路径"
+  },
+  {
+    "row": 139,
+    "rowsha": "RSktteML+/aFuy9tV3LDqh/XG5yvVQD7XLDvUCNgRL0=",
+    "originContent": "  - add_tag: Add a tag to documents",
+    "translatedContent": "  - add_tag：为文档添加标签"
+  },
+  {
+    "row": 140,
+    "rowsha": "eEqqDJ5xdLs97Ll9EOfDpj4dz/1a+8ybDQntzwyX07c=",
+    "originContent": "  - remove_tag: Remove a tag from documents",
+    "translatedContent": "  - remove_tag：从文档中移除标签"
+  },
+  {
+    "row": 141,
+    "rowsha": "qRo0sMFfZuTgk8HRpX2FWrJ2eX8evAob/l4Um6XZfoE=",
+    "originContent": "  - modify_tags: Add and/or remove multiple tags",
+    "translatedContent": "  - modify_tags：添加和/或移除多个标签"
+  },
+  {
+    "row": 142,
+    "rowsha": "H3e3rAoMhX2xbZiN4X65YCARFDSOLk6HZ+7xjZLJ0T4=",
+    "originContent": "  - delete: Delete documents",
+    "translatedContent": "  - delete：删除文档"
+  },
+  {
+    "row": 143,
+    "rowsha": "FjACy70SlIWAWcrG0FjyPOZ2PlFUnHaoarYfguIgJyE=",
+    "originContent": "  - reprocess: Reprocess documents",
+    "translatedContent": "  - reprocess：重新处理文档"
+  },
+  {
+    "row": 144,
+    "rowsha": "pZZIkT0UpvG2cdr5FVr93VtEcOqmrRQwBrTosh5nw38=",
+    "originContent": "  - set_permissions: Set document permissions",
+    "translatedContent": "  - set_permissions：设置文档权限"
+  },
+  {
+    "row": 145,
+    "rowsha": "rSOoYao+eSEiV86SRaC5OFvllAWeQ9T6Iacp1lZ9uzw=",
+    "originContent": "  - merge: Merge multiple documents",
+    "translatedContent": "  - merge：合并多个文档"
+  },
+  {
+    "row": 146,
+    "rowsha": "gjnsbcMDiFtWXbCYqg25BQDyDeHlbNTrIRqc5pRMgZU=",
+    "originContent": "  - split: Split a document into multiple documents",
+    "translatedContent": "  - split：将文档拆分为多个文档"
+  },
+  {
+    "row": 147,
+    "rowsha": "kpDlDs6IZaBPfxEzpN/5bkPac8UNUGkjMpfaVaBdNQU=",
+    "originContent": "  - rotate: Rotate document pages",
+    "translatedContent": "  - rotate：旋转文档页面"
+  },
+  {
+    "row": 148,
+    "rowsha": "icfobfluRhic033/lhCuX7GCGd7a8xe2zgAeGfawOgE=",
+    "originContent": "  - delete_pages: Delete specific pages from a document",
+    "translatedContent": "  - delete_pages：删除文档中的特定页面"
+  },
+  {
+    "row": 149,
+    "rowsha": "WGOdn+dt8+pXVY4VUPIm2d5cI8Uns7SHaRTjq4VzMDk=",
+    "originContent": "- Additional parameters based on method:",
+    "translatedContent": "- 基于方法的附加参数："
+  },
+  {
+    "row": 150,
+    "rowsha": "c1dvFulssswCl6zEoBGerXTEBRJVqsz5xOZuZpA4Cog=",
+    "originContent": "  - correspondent: ID for set_correspondent",
+    "translatedContent": "  - correspondent：set_correspondent对应的ID"
+  },
+  {
+    "row": 151,
+    "rowsha": "4tfbC/0Hb511gpL2S+2p6feTuIRi+omu37ZalcP+J1c=",
+    "originContent": "  - document_type: ID for set_document_type",
+    "translatedContent": "  - document_type：set_document_type对应的ID"
+  },
+  {
+    "row": 152,
+    "rowsha": "AO63CPGDnYBRvHKf9HhXSKHBC7hfUy+maIgELGqQoyM=",
+    "originContent": "  - storage_path: ID for set_storage_path",
+    "translatedContent": "  - storage_path：set_storage_path对应的ID"
+  },
+  {
+    "row": 153,
+    "rowsha": "BuHZWIIZO4rWAVf9MjSvnisS7vMgUsE9IpJM3/8xOfU=",
+    "originContent": "  - tag: ID for add_tag/remove_tag",
+    "translatedContent": "  - tag：add_tag/remove_tag对应的ID"
+  },
+  {
+    "row": 154,
+    "rowsha": "0871qgdkx7cf/97ts39PnW+mgBQbxiDP8qrWiPGf7QE=",
+    "originContent": "  - add_tags: Array of tag IDs for modify_tags",
+    "translatedContent": "  - add_tags：modify_tags对应的标签ID数组"
+  },
+  {
+    "row": 155,
+    "rowsha": "N0epTZed/lt2mgdtSr7J/t/+ecdzspG+Sy6fE3E0lv4=",
+    "originContent": "  - remove_tags: Array of tag IDs for modify_tags",
+    "translatedContent": "  - remove_tags：modify_tags对应的标签ID数组"
+  },
+  {
+    "row": 156,
+    "rowsha": "2Qyi0m9PmTYGvsEw3VwN+jgT95/tQmu9DrBTZx8oy84=",
+    "originContent": "  - permissions: Object for set_permissions with owner, permissions, merge flag",
+    "translatedContent": "  - permissions：set_permissions对应的对象，包含所有者、权限、合并标志"
+  },
+  {
+    "row": 157,
+    "rowsha": "Hn+d+9DYVIteMznNBLPPVwVzhJxFF0bBER/14+8ro9c=",
+    "originContent": "  - metadata_document_id: ID for merge to specify metadata source",
+    "translatedContent": "  - metadata_document_id：merge时指定元数据来源的ID"
+  },
+  {
+    "row": 158,
+    "rowsha": "jZTQUntfgoguQRNC76ZX2ME5+pMfdbFwAA9L18mMP7w=",
+    "originContent": "  - delete_originals: Boolean for merge/split",
+    "translatedContent": "  - delete_originals：merge/split时的布尔值"
+  },
+  {
+    "row": 159,
+    "rowsha": "ySN+ZubkHTn7LsxsisXLirew94u7virejlsHtuZRpV4=",
+    "originContent": "  - pages: String for split \"[1,2-3,4,5-7]\" or delete_pages \"[2,3,4]\"",
+    "translatedContent": "  - pages：split格式为\"[1,2-3,4,5-7]\"，delete_pages格式为\"[2,3,4]\"的字符串"
+  },
+  {
+    "row": 160,
+    "rowsha": "wD12erEctqFGp87n+n3rjrilyKuENF0FuA3UpqQq0a4=",
+    "originContent": "  - degrees: Number for rotate (90, 180, or 270)",
+    "translatedContent": "  - degrees：rotate的角度数（90、180或270）"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "GInwMzi3m7rYvc3JJe9egwaVacF+QzF075pJ9i59Xuc=",
+    "originContent": "Examples:",
+    "translatedContent": "示例："
+  },
+  {
+    "row": 163,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 164,
+    "rowsha": "S6CMyOLqbMRUpvz4EIHxxjcgrl3Cg+S39HgQlNcP96A=",
+    "originContent": "// Add a tag to multiple documents",
+    "translatedContent": "// Add a tag to multiple documents"
+  },
+  {
+    "row": 165,
+    "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+    "originContent": "bulk_edit_documents({",
+    "translatedContent": "bulk_edit_documents({"
+  },
+  {
+    "row": 166,
+    "rowsha": "X9wcQijHvxeSBU/Prv/Lj6vZs3j4L+aO7BuTGLIMqIw=",
+    "originContent": "  documents: [1, 2, 3],",
+    "translatedContent": "  documents: [1, 2, 3],"
+  },
+  {
+    "row": 167,
+    "rowsha": "Y9hZLgExJApTCWx45xC3oQlqtFDH/3qQ11A/oihRPZA=",
+    "originContent": "  method: \"add_tag\",",
+    "translatedContent": "  method: \"add_tag\","
+  },
+  {
+    "row": 168,
+    "rowsha": "ej22YZ44ef5zWHRXsbUsPmZrM09/RW8xQNyI5N7CPM8=",
+    "originContent": "  tag: 5",
+    "translatedContent": "  tag: 5"
+  },
+  {
+    "row": 169,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "No07cFm+nd7kuttE60adqPx8wyKHYdl96zYRGjB0QFo=",
+    "originContent": "// Set correspondent and document type",
+    "translatedContent": "// Set correspondent and document type"
+  },
+  {
+    "row": 172,
+    "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+    "originContent": "bulk_edit_documents({",
+    "translatedContent": "bulk_edit_documents({"
+  },
+  {
+    "row": 173,
+    "rowsha": "6hGFngqjKBekWftQfRmCSMsphY4xM6moVsMfcl353QA=",
+    "originContent": "  documents: [4, 5],",
+    "translatedContent": "  documents: [4, 5],"
+  },
+  {
+    "row": 174,
+    "rowsha": "7CC28PhBK7fx/cJ5dNtpL4dHmFZhEIjH5ET0n3KxvVA=",
+    "originContent": "  method: \"set_correspondent\",",
+    "translatedContent": "  method: \"set_correspondent\","
+  },
+  {
+    "row": 175,
+    "rowsha": "CFRkTVMQuMGIhEWGXs64x6pSXP5My+TTH1RwCus+GGY=",
+    "originContent": "  correspondent: 2",
+    "translatedContent": "  correspondent: 2"
+  },
+  {
+    "row": 176,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "ETLQT6qRWkFWsPS9mtlH9I+nwjuv2MrDlKAN7o10egM=",
+    "originContent": "// Merge documents",
+    "translatedContent": "// Merge documents"
+  },
+  {
+    "row": 179,
+    "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+    "originContent": "bulk_edit_documents({",
+    "translatedContent": "bulk_edit_documents({"
+  },
+  {
+    "row": 180,
+    "rowsha": "HtyvUcvxE8a0+XX3SOaPiWISJj9VyzCJfsNCF1hsXH8=",
+    "originContent": "  documents: [6, 7, 8],",
+    "translatedContent": "  documents: [6, 7, 8],"
+  },
+  {
+    "row": 181,
+    "rowsha": "tno8yklZ+Y2eViiKLxs/lh1ssJEDfxZIkAD9rNgfDio=",
+    "originContent": "  method: \"merge\",",
+    "translatedContent": "  method: \"merge\","
+  },
+  {
+    "row": 182,
+    "rowsha": "2Kz+ZSxCrHUl3r2xgGai4qlQPmuXe8I4Qvq/lIrusWc=",
+    "originContent": "  metadata_document_id: 6,",
+    "translatedContent": "  metadata_document_id: 6,"
+  },
+  {
+    "row": 183,
+    "rowsha": "9rf0vni9Cy1DrywYqeRJOCNwjx9WasD7cBCa02WdOg0=",
+    "originContent": "  delete_originals: true",
+    "translatedContent": "  delete_originals: true"
+  },
+  {
+    "row": 184,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "uP+JUjYofnplDmKuN6/SdRqZ7XeIDz93wkeyyknQakU=",
+    "originContent": "// Split document into parts",
+    "translatedContent": "// Split document into parts"
+  },
+  {
+    "row": 187,
+    "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+    "originContent": "bulk_edit_documents({",
+    "translatedContent": "bulk_edit_documents({"
+  },
+  {
+    "row": 188,
+    "rowsha": "5jGrJ3Vs2lZSYx83FaAeQejxxgAAVSZKk6gsT0vwrdM=",
+    "originContent": "  documents: [9],",
+    "translatedContent": "  documents: [9],"
+  },
+  {
+    "row": 189,
+    "rowsha": "3I+TPj9ARUzJ1Vw7NPrKKM7KecjUanuloQjslcoHwmQ=",
+    "originContent": "  method: \"split\",",
+    "translatedContent": "  method: \"split\","
+  },
+  {
+    "row": 190,
+    "rowsha": "z2ozOyHVr8UgN+/VQKHeJlwAy5n8IFllBkE3oJqkWlQ=",
+    "originContent": "  pages: \"[1-2,3-4,5]\"",
+    "translatedContent": "  pages: \"[1-2,3-4,5]\""
+  },
+  {
+    "row": 191,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 193,
+    "rowsha": "c/67vHLvn8bKmeUgTs0NI/nfqpyW8ZBWb+cvCkXsydg=",
+    "originContent": "// Modify multiple tags at once",
+    "translatedContent": "// Modify multiple tags at once"
+  },
+  {
+    "row": 194,
+    "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+    "originContent": "bulk_edit_documents({",
+    "translatedContent": "bulk_edit_documents({"
+  },
+  {
+    "row": 195,
+    "rowsha": "FQNQoTRi4wt0l+7cX43o2XZ7NM3ZmujWJv0P8pQNcZ0=",
+    "originContent": "  documents: [10, 11],",
+    "translatedContent": "  documents: [10, 11],"
+  },
+  {
+    "row": 196,
+    "rowsha": "dqDSuoWOtmr+8nhhQrz1+Z41/tQyy891BtlSiH+mLKs=",
+    "originContent": "  method: \"modify_tags\",",
+    "translatedContent": "  method: \"modify_tags\","
+  },
+  {
+    "row": 197,
+    "rowsha": "xcqPzvToSyY8hbrTGNQvLACDhcNSm2LSGKWrF2YSjmw=",
+    "originContent": "  add_tags: [1, 2],",
+    "translatedContent": "  add_tags: [1, 2],"
+  },
+  {
+    "row": 198,
+    "rowsha": "2+zHejGWDQvhOctNOH/zU8PNdhf/p7rP/lkO5v2zl1A=",
+    "originContent": "  remove_tags: [3, 4]",
+    "translatedContent": "  remove_tags: [3, 4]"
+  },
+  {
+    "row": 199,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 200,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "Wqg02KrOX0LNYqgWBQzT9YlTFPLlYQexZtHSzv2a8t0=",
+    "originContent": "#### post_document",
+    "translatedContent": "#### post_document"
+  },
+  {
+    "row": 203,
+    "rowsha": "kAF5BDuoJ1xZzSfEn7D84HjTxtN/Xt4UwAnPAP7RBOI=",
+    "originContent": "Upload a new document to Paperless-NGX.",
+    "translatedContent": "向 Paperless-NGX 上传新文档。"
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 205,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "参数："
+  },
+  {
+    "row": 206,
+    "rowsha": "SFVoh0XYYXO36xlbfHaJEYjfLqlMwz9Il6mI4xu8ZuA=",
+    "originContent": "- file: Base64 encoded file content",
+    "translatedContent": "- file：Base64 编码的文件内容"
+  },
+  {
+    "row": 207,
+    "rowsha": "JvtRr2pc+Ihq4zrpNaxToegEOuYSohxWdFLlN9E+mWg=",
+    "originContent": "- filename: Name of the file",
+    "translatedContent": "- filename：文件名"
+  },
+  {
+    "row": 208,
+    "rowsha": "OIE6QU27N0a0EkcoSP1qtrOjVRHTe4IEDhayI/r3qn0=",
+    "originContent": "- title (optional): Title for the document",
+    "translatedContent": "- title（可选）：文档标题"
+  },
+  {
+    "row": 209,
+    "rowsha": "f4j0k+MtkWA9lev+VdX4ia8CM5ro/Qm7Zj47Qwy7nhw=",
+    "originContent": "- created (optional): DateTime when the document was created (e.g. \"2024-01-19\" or \"2024-01-19 06:15:00+02:00\")",
+    "translatedContent": "- created（可选）：文档创建日期时间（例如 \"2024-01-19\" 或 \"2024-01-19 06:15:00+02:00\"）"
+  },
+  {
+    "row": 210,
+    "rowsha": "UV89bPB61dr0y7IESSm1fM/nMa0WidImXDWBpsMEkm0=",
+    "originContent": "- correspondent (optional): ID of a correspondent",
+    "translatedContent": "- correspondent（可选）：通讯录 ID"
+  },
+  {
+    "row": 211,
+    "rowsha": "MRBvC92bDonLIoy7yjeeAD0LP5KL+ruzGiiwu5cZSVc=",
+    "originContent": "- document_type (optional): ID of a document type",
+    "translatedContent": "- document_type（可选）：文档类型 ID"
+  },
+  {
+    "row": 212,
+    "rowsha": "VAi8hks2iwZPZHfProWWDPqSikX2jBlYbsQpV1Z2L4Y=",
+    "originContent": "- storage_path (optional): ID of a storage path",
+    "translatedContent": "- storage_path（可选）：存储路径 ID"
+  },
+  {
+    "row": 213,
+    "rowsha": "oTv+62zSUzsNqQoV1r22bfeq34HaY9imMQuymEdGDQU=",
+    "originContent": "- tags (optional): Array of tag IDs",
+    "translatedContent": "- tags（可选）：标签 ID 数组"
+  },
+  {
+    "row": 214,
+    "rowsha": "D/BpxUJZO/mMbTL+0XfRlUlwcRMRUdSr9h6w14YMTXk=",
+    "originContent": "- archive_serial_number (optional): Archive serial number",
+    "translatedContent": "- archive_serial_number（可选）：档案序列号"
+  },
+  {
+    "row": 215,
+    "rowsha": "qRnKtMKiM60Dx7onuzaaHRSnqwT4WcQ1OW2lpQC5TTU=",
+    "originContent": "- custom_fields (optional): Array of custom field IDs",
+    "translatedContent": "- custom_fields（可选）：自定义字段 ID 数组"
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 218,
+    "rowsha": "wIboBgDvg8uIRbqlfNGqIun9pviInoxiWhlp4ogq32I=",
+    "originContent": "post_document({",
+    "translatedContent": "post_document({"
+  },
+  {
+    "row": 219,
+    "rowsha": "zo3iWdRkTL9FbdoLpPJbUDcHV5JJT89xFss1K3W32Qw=",
+    "originContent": "  file: \"base64_encoded_content\",",
+    "translatedContent": "  file: \"base64_encoded_content\","
+  },
+  {
+    "row": 220,
+    "rowsha": "2F/+IICYBYxNwCruj//7eeQdQ23m/MZ3dGbEkitZzIg=",
+    "originContent": "  filename: \"invoice.pdf\",",
+    "translatedContent": "  filename: \"invoice.pdf\","
+  },
+  {
+    "row": 221,
+    "rowsha": "AFSw8JjtlAmCGzps8a7OldouVY5HXAIWi75mOYoyWaQ=",
+    "originContent": "  title: \"January Invoice\",",
+    "translatedContent": "  title: \"January Invoice\","
+  },
+  {
+    "row": 222,
+    "rowsha": "BDIfOjMaAnINh5L65lDrfedPiQhugl8LIyG+U5Nj95w=",
+    "originContent": "  created: \"2024-01-19\",",
+    "translatedContent": "  created: \"2024-01-19\","
+  },
+  {
+    "row": 223,
+    "rowsha": "lD1thUVyCCkH3bW+wqlzpZkshh3SmeHFHBUJQrnoNQE=",
+    "originContent": "  correspondent: 1,",
+    "translatedContent": "  correspondent: 1,"
+  },
+  {
+    "row": 224,
+    "rowsha": "qx4k55+//3aInqkVVaa24PfBfKPQigSUZuM6sbuaCqo=",
+    "originContent": "  document_type: 2,",
+    "translatedContent": "  document_type: 2,"
+  },
+  {
+    "row": 225,
+    "rowsha": "4vSgluYH8DN2ST/dto1TvzF7/5zZHZ2NKKmFl5MQ+VU=",
+    "originContent": "  tags: [1, 3],",
+    "translatedContent": "  tags: [1, 3],"
+  },
+  {
+    "row": 226,
+    "rowsha": "F1QaaUfWPCD3INmAM7or+Gmebw3katntIfRWd236LN8=",
+    "originContent": "  archive_serial_number: \"2024-001\"",
+    "translatedContent": "  archive_serial_number: \"2024-001\""
+  },
+  {
+    "row": 227,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 228,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 229,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 230,
+    "rowsha": "96GaHOsHGbhgon+1EdPHNeaAXUbCHlRKDtZp5shNrO0=",
+    "originContent": "### Tag Operations",
+    "translatedContent": "### 标签操作"
+  },
+  {
+    "row": 231,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 232,
+    "rowsha": "9M8Q2S4Cpn2oCjGvCMJ32CIgVYIVonQ8BdaGGxgCcG8=",
+    "originContent": "#### list_tags",
+    "translatedContent": "#### list_tags"
+  },
+  {
+    "row": 233,
+    "rowsha": "L3dMrCinyqURXMYGcAtpwLe57QulsXuhxUBzV9sKEkY=",
+    "originContent": "Get all tags.",
+    "translatedContent": "获取所有标签。"
+  },
+  {
+    "row": 234,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 235,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 236,
+    "rowsha": "eqQG1UPAnvS0D81QHEV/mb6CKew9LlYB+KHJsCQ03NM=",
+    "originContent": "list_tags()",
+    "translatedContent": "list_tags()"
+  },
+  {
+    "row": 237,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 238,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### create_tag"
+  },
+  {
+    "row": 239,
+    "rowsha": "jSeer3rAbtlWmZ8NMuAQ0TaBPRTUXaonNCggKhYvw6o=",
+    "originContent": "#### create_tag",
+    "translatedContent": "创建一个新标签。"
+  },
+  {
+    "row": 240,
+    "rowsha": "tZUZb6032PXwtwz+B++myr75bZiOqzpZ1lTwJuHiiB0=",
+    "originContent": "Create a new tag.",
+    "translatedContent": ""
+  },
+  {
+    "row": 241,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "参数："
+  },
+  {
+    "row": 242,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "- name：标签名称"
+  },
+  {
+    "row": 243,
+    "rowsha": "ssmkrEEO5mIEbvUEgerKn7p/SNf90bm94ZhxTBCj90Q=",
+    "originContent": "- name: Tag name",
+    "translatedContent": "- color（可选）：十六进制颜色代码（例如 \"#ff0000\"）"
+  },
+  {
+    "row": 244,
+    "rowsha": "4kCy3lBQchTwOqnGsjiHEghT3a19u1Ithe9e4x37bCY=",
+    "originContent": "- color (optional): Hex color code (e.g. \"#ff0000\")",
+    "translatedContent": "- match（可选）：匹配的文本模式"
+  },
+  {
+    "row": 245,
+    "rowsha": "NUeP6ou4edBNNXzMGb+Soqs8z/eaQvbF22BKAmYS4Tw=",
+    "originContent": "- match (optional): Text pattern to match",
+    "translatedContent": "- matching_algorithm（可选）：以下之一 \"any\"、\"all\"、\"exact\"、\"regular expression\"、\"fuzzy\""
+  },
+  {
+    "row": 246,
+    "rowsha": "dI3fs3FlwH6zS3GgEJ+H73J2oaWqRBJZP7r80o8+ma4=",
+    "originContent": "- matching_algorithm (optional): One of \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"",
+    "translatedContent": ""
+  },
+  {
+    "row": 247,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 248,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 249,
+    "rowsha": "7NufHKLJf6s/3wmLXQ8kXKU5zO4tmUcOkkpdxBtWiF4=",
+    "originContent": "create_tag({",
+    "translatedContent": "create_tag({"
+  },
+  {
+    "row": 250,
+    "rowsha": "LE1qWmnkctI3uv7bgNFdGmRlP9WID+kT+XMRKBVKX2I=",
+    "originContent": "  name: \"Invoice\",",
+    "translatedContent": "  name: \"Invoice\","
+  },
+  {
+    "row": 251,
+    "rowsha": "N1yz84qm7+C3JEGLWyEokDZlIUOP+IDzvH2HDmRzw0I=",
+    "originContent": "  color: \"#ff0000\",",
+    "translatedContent": "  color: \"#ff0000\","
+  },
+  {
+    "row": 252,
+    "rowsha": "K9QdKcL+rLlq5Da0tpljZ4SnuBnzAq0xfZS2lgAT0iI=",
+    "originContent": "  match: \"invoice\",",
+    "translatedContent": "  match: \"invoice\","
+  },
+  {
+    "row": 253,
+    "rowsha": "kFuhYk49Kn2nfXnvalVs38QbBZeHdSzf2uZo1FbHlek=",
+    "originContent": "  matching_algorithm: \"fuzzy\"",
+    "translatedContent": "  matching_algorithm: \"fuzzy\""
+  },
+  {
+    "row": 254,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 255,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 256,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 257,
+    "rowsha": "hSoRrAzbkKmyvRfQZDTDV5dAVP+GCWDnsxP47UXx2Rw=",
+    "originContent": "### Correspondent Operations",
+    "translatedContent": "### 通讯员操作"
+  },
+  {
+    "row": 258,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 259,
+    "rowsha": "1Rr6ntmVEBSudCDBqBKdiQL0Bl8q9jwL65qP3rCVybk=",
+    "originContent": "#### list_correspondents",
+    "translatedContent": "#### list_correspondents"
+  },
+  {
+    "row": 260,
+    "rowsha": "S/p1ld9IeJDCgZZUPhcSeOfFwx0t31VFtPX4kfCznOU=",
+    "originContent": "Get all correspondents.",
+    "translatedContent": "获取所有通讯员。"
+  },
+  {
+    "row": 261,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 262,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 263,
+    "rowsha": "G7xSl8y666pPKQC4KFM484wXXNOlx+N4FR17lNMTNjM=",
+    "originContent": "list_correspondents()",
+    "translatedContent": "list_correspondents()"
+  },
+  {
+    "row": 264,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 265,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 266,
+    "rowsha": "r/mJ/XCbjamqrRAOUFwB00oel3bUYurEG61HYTYrj/E=",
+    "originContent": "#### create_correspondent",
+    "translatedContent": "#### create_correspondent"
+  },
+  {
+    "row": 267,
+    "rowsha": "lJGi8tTmqHJZyP4AdiWIBpJjSbV2V1j2+eU1c+e0Yds=",
+    "originContent": "Create a new correspondent.",
+    "translatedContent": "创建一个新的通讯员。"
+  },
+  {
+    "row": 268,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 269,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "参数："
+  },
+  {
+    "row": 270,
+    "rowsha": "dpshW59oMKRFL8xqnOrgNQ/ktCV/5h5hKEaZFa/NiAI=",
+    "originContent": "- name: Correspondent name",
+    "translatedContent": "- name：通讯员名称"
+  },
+  {
+    "row": 271,
+    "rowsha": "NUeP6ou4edBNNXzMGb+Soqs8z/eaQvbF22BKAmYS4Tw=",
+    "originContent": "- match (optional): Text pattern to match",
+    "translatedContent": "- match（可选）：匹配的文本模式"
+  },
+  {
+    "row": 272,
+    "rowsha": "dI3fs3FlwH6zS3GgEJ+H73J2oaWqRBJZP7r80o8+ma4=",
+    "originContent": "- matching_algorithm (optional): One of \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"",
+    "translatedContent": "- matching_algorithm（可选）：以下之一 \"any\"、\"all\"、\"exact\"、\"regular expression\"、\"fuzzy\""
+  },
+  {
+    "row": 273,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 274,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 275,
+    "rowsha": "KGZygB8szAW6LGuFxgTodqnnJANndirHtZsqdwjpo0Q=",
+    "originContent": "create_correspondent({",
+    "translatedContent": "create_correspondent({"
+  },
+  {
+    "row": 276,
+    "rowsha": "LIlDS6VeNywytvaa5mSqf6GaLv2kugSP+4gYjDpR4kk=",
+    "originContent": "  name: \"ACME Corp\",",
+    "translatedContent": "  name: \"ACME Corp\","
+  },
+  {
+    "row": 277,
+    "rowsha": "U1aQdm8Q2OeBlBHrYRWCOAeG/lNKSFh4WSysNzb6C20=",
+    "originContent": "  match: \"ACME\",",
+    "translatedContent": "  match: \"ACME\","
+  },
+  {
+    "row": 278,
+    "rowsha": "kFuhYk49Kn2nfXnvalVs38QbBZeHdSzf2uZo1FbHlek=",
+    "originContent": "  matching_algorithm: \"fuzzy\"",
+    "translatedContent": "  matching_algorithm: \"fuzzy\""
+  },
+  {
+    "row": 279,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 280,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 281,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 282,
+    "rowsha": "x5iF/VoYdpO7vh8/oUK2Q0TazHW+RuughUXaWgIYWBc=",
+    "originContent": "### Document Type Operations",
+    "translatedContent": "### 文档类型操作"
+  },
+  {
+    "row": 283,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 284,
+    "rowsha": "LujjnSfFChTk62prRJgPpKLxghj9Lq1nbaDA/WuN28k=",
+    "originContent": "#### list_document_types",
+    "translatedContent": "#### list_document_types"
+  },
+  {
+    "row": 285,
+    "rowsha": "fZtABRWAX+jNZYEywFrT4H5ASTJ7zy2WmRmUrMeKQRs=",
+    "originContent": "Get all document types.",
+    "translatedContent": "获取所有文档类型。"
+  },
+  {
+    "row": 286,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 287,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 288,
+    "rowsha": "r7Hj+qd6IgxDYMsJosNJb1IEk7mAT8FhztFqj5hrA6c=",
+    "originContent": "list_document_types()",
+    "translatedContent": "list_document_types()"
+  },
+  {
+    "row": 289,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 290,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 291,
+    "rowsha": "BaFHKvge2DM4qknqWaxReGYUy6G8nrMPS1MPJEKG/2Y=",
+    "originContent": "#### create_document_type",
+    "translatedContent": "#### create_document_type"
+  },
+  {
+    "row": 292,
+    "rowsha": "iDtpKPgTSmNhPedSZcByIZcTTEDm+F5QmFrLpJuE5/8=",
+    "originContent": "Create a new document type.",
+    "translatedContent": "创建一个新的文档类型。"
+  },
+  {
+    "row": 293,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 294,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "参数："
+  },
+  {
+    "row": 295,
+    "rowsha": "UHUynvQiIq6Ctd8WUspApzzb4NSTWeZ1pEXO8gFOUTA=",
+    "originContent": "- name: Document type name",
+    "translatedContent": "- name：文档类型名称"
+  },
+  {
+    "row": 296,
+    "rowsha": "NUeP6ou4edBNNXzMGb+Soqs8z/eaQvbF22BKAmYS4Tw=",
+    "originContent": "- match (optional): Text pattern to match",
+    "translatedContent": "- match（可选）：匹配的文本模式"
+  },
+  {
+    "row": 297,
+    "rowsha": "dI3fs3FlwH6zS3GgEJ+H73J2oaWqRBJZP7r80o8+ma4=",
+    "originContent": "- matching_algorithm (optional): One of \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"",
+    "translatedContent": "- matching_algorithm（可选）：\"any\"、\"all\"、\"exact\"、\"regular expression\"、\"fuzzy\" 中的一个"
+  },
+  {
+    "row": 298,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 299,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 300,
+    "rowsha": "P9HxR+xm3HDRuvWgq1UHSK/TjpWcyIo9yWAB+KFUBPY=",
+    "originContent": "create_document_type({",
+    "translatedContent": "create_document_type({"
+  },
+  {
+    "row": 301,
+    "rowsha": "LE1qWmnkctI3uv7bgNFdGmRlP9WID+kT+XMRKBVKX2I=",
+    "originContent": "  name: \"Invoice\",",
+    "translatedContent": "  name: \"Invoice\","
+  },
+  {
+    "row": 302,
+    "rowsha": "gvevXoJHZOrONR7AKMWsn/noZfyCEuz/d7IInHPncKc=",
+    "originContent": "  match: \"invoice total amount due\",",
+    "translatedContent": "  match: \"invoice total amount due\","
+  },
+  {
+    "row": 303,
+    "rowsha": "Hr6Cg0iUxfKR4aV8Nj9zm80cvSYeYgtwx4RZkxiYm6w=",
+    "originContent": "  matching_algorithm: \"any\"",
+    "translatedContent": "  matching_algorithm: \"any\""
+  },
+  {
+    "row": 304,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 305,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 306,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 307,
+    "rowsha": "Zg7yEomjR/QFytY2+h9LSXR37d9hdCRyh/C/rNPzgho=",
+    "originContent": "## Error Handling",
+    "translatedContent": "## 错误处理"
+  },
+  {
+    "row": 308,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 309,
+    "rowsha": "JIaLmtjZBF/WHtIOezKEBrIJAdQqUaM11JCR3c5kM3E=",
+    "originContent": "The server will show clear error messages if:",
+    "translatedContent": "如果出现以下情况，服务器将显示明确的错误信息："
+  },
+  {
+    "row": 310,
+    "rowsha": "4ZLurCM4KI3PrPmlg1bDpUiI2o9C/cO1BUAVJaz1SO0=",
+    "originContent": "- The Paperless-NGX URL or API token is incorrect",
+    "translatedContent": "- Paperless-NGX 的 URL 或 API 令牌不正确"
+  },
+  {
+    "row": 311,
+    "rowsha": "eQH253llVUezFxnvwyY1/9XA+1IPFbJUeu8R7tmLrKU=",
+    "originContent": "- The Paperless-NGX server is unreachable",
+    "translatedContent": "- 无法连接到 Paperless-NGX 服务器"
+  },
+  {
+    "row": 312,
+    "rowsha": "28HlcSMzjo/LjYi8SCjyoyZ4fk9UlWWLiZ3G2qN7mgE=",
+    "originContent": "- The requested operation fails",
+    "translatedContent": "- 请求的操作失败"
+  },
+  {
+    "row": 313,
+    "rowsha": "EgHSZzZkJbZjrRZ+xKzSWEabBhuWlFW0xz8W/PRh21w=",
+    "originContent": "- The provided parameters are invalid",
+    "translatedContent": "- 提供的参数无效"
+  },
+  {
+    "row": 314,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 315,
+    "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+    "originContent": "## Development",
+    "translatedContent": "## 开发"
+  },
+  {
+    "row": 316,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 317,
+    "rowsha": "KQlYWhwucncZY0KNfrXPkZHg7wPoAaY8NqSrTBUGDaU=",
+    "originContent": "Want to contribute or modify the server? Here's what you need to know:",
+    "translatedContent": "想要贡献代码或修改服务器？以下是你需要了解的："
+  },
+  {
+    "row": 318,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 319,
+    "rowsha": "ZK8Iy7jefVa7tPlAX3mUCH6pinIlVvQj8ounTkljVIE=",
+    "originContent": "1. Clone the repository",
+    "translatedContent": "1. 克隆仓库"
+  },
+  {
+    "row": 320,
+    "rowsha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
+    "originContent": "2. Install dependencies:",
+    "translatedContent": "2. 安装依赖："
+  },
+  {
+    "row": 321,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 322,
+    "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+    "originContent": "npm install",
+    "translatedContent": "npm install"
+  },
+  {
+    "row": 323,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 324,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 325,
+    "rowsha": "aVzXAY3cj9XAj8YTsK5YEvmEmFakCv58TdaZcelTJSM=",
+    "originContent": "3. Make your changes to server.js",
+    "translatedContent": "3. 对 server.js 进行更改  "
+  },
+  {
+    "row": 326,
+    "rowsha": "ZvIGk4HFX1dvPQ263afwdJePXgdz5yf7CXU3nEc++2s=",
+    "originContent": "4. Test locally:",
+    "translatedContent": "4. 本地测试："
+  },
+  {
+    "row": 327,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 328,
+    "rowsha": "OWzFtLOh1JpQSypgUuqKcvZLbzVqOsvRYfPX9nR12tA=",
+    "originContent": "node server.js http://localhost:8000 your-test-token",
+    "translatedContent": "node server.js http://localhost:8000 your-test-token"
+  },
+  {
+    "row": 329,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 330,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "服务器构建于："
+  },
+  {
+    "row": 331,
+    "rowsha": "mnZ41Kp/CCMFGAYGqNsXcYvHJkH89AU6Bvly4HRgv1s=",
+    "originContent": "The server is built with:",
+    "translatedContent": "- [litemcp](https://github.com/wong2/litemcp)：一个用于构建MCP服务器的TypeScript框架"
+  },
+  {
+    "row": 332,
+    "rowsha": "rjFpc/RdnK4DcnkT0SigrVlc0OgY8Gq2mfwCMnKcJs0=",
+    "originContent": "- [litemcp](https://github.com/wong2/litemcp): A TypeScript framework for building MCP servers",
+    "translatedContent": "- [zod](https://github.com/colinhacks/zod)：以TypeScript为先的模式验证工具"
+  },
+  {
+    "row": 333,
+    "rowsha": "ajorQza7akgQGx2DDoUP68RcFBSh5QE1if700Eucdjs=",
+    "originContent": "- [zod](https://github.com/colinhacks/zod): TypeScript-first schema validation",
+    "translatedContent": ""
+  },
+  {
+    "row": 334,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## API 文档"
+  },
+  {
+    "row": 335,
+    "rowsha": "YL+QEhp9seRnhAJNh6CSq9IHSf/hiEWvdUoknetIqVs=",
+    "originContent": "## API Documentation",
+    "translatedContent": ""
+  },
+  {
+    "row": 336,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "此MCP服务器实现了Paperless-NGX REST API的端点。有关底层API的更多详细信息，请参阅[官方文档](https://docs.paperless-ngx.com/api/)。"
+  },
+  {
+    "row": 337,
+    "rowsha": "MnoZw4JDpypcjGkcQfkvCmkhiP5HbRXYQcKZCk1edCk=",
+    "originContent": "This MCP server implements endpoints from the Paperless-NGX REST API. For more details about the underlying API, see the [official documentation](https://docs.paperless-ngx.com/api/).",
+    "translatedContent": ""
+  },
+  {
+    "row": 338,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 运行MCP服务器"
+  },
+  {
+    "row": 339,
+    "rowsha": "36ijl0brOoeEEEi+YHfgGt9gKurMbgI2d/SU5edSGX4=",
+    "originContent": "## Running the MCP Server",
+    "translatedContent": ""
+  },
+  {
+    "row": 340,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MCP服务器可以以两种模式运行："
+  },
+  {
+    "row": 341,
+    "rowsha": "uTKFPMHCbxNNCs68uh8lwwHKMiIBQ5vby1ZP8jyC5r0=",
+    "originContent": "The MCP server can be run in two modes:",
+    "translatedContent": ""
+  },
+  {
+    "row": 342,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 1. stdio（默认）"
+  },
+  {
+    "row": 343,
+    "rowsha": "mQD7UKTk1Qvc/qsQlROy9f6/6EDvVNblRAEjLJXuVMI=",
+    "originContent": "### 1. stdio (default)",
+    "translatedContent": ""
+  },
+  {
+    "row": 344,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "这是默认模式。服务器通过stdio进行通信，适用于CLI和直接集成。"
+  },
+  {
+    "row": 345,
+    "rowsha": "Kf84LE9Db+Z7x/bCt2F6RHB91clPCkNo1wPfEAUyk5A=",
+    "originContent": "This is the default mode. The server communicates over stdio, suitable for CLI and direct integrations.",
+    "translatedContent": ""
+  },
+  {
+    "row": 346,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 347,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 348,
+    "rowsha": "9IF4Mrilo2HeRJAdRwhfBzOqvtpNQ1QPHWS1lRqiV+Y=",
+    "originContent": "npm run start -- <baseUrl> <token>",
+    "translatedContent": "npm run start -- <baseUrl> <token>"
+  },
+  {
+    "row": 349,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 350,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 351,
+    "rowsha": "pGNxd2uhj6kzGE5ENRLakDnOfUr/vZhsh2EHJgip03g=",
+    "originContent": "### 2. HTTP (Streamable HTTP Transport)",
+    "translatedContent": "### 2. HTTP（可流式传输的 HTTP）"
+  },
+  {
+    "row": 352,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 353,
+    "rowsha": "Lhom5zPqtkEbl+mvlYlg4lNaodObboEBG6MWWn+1njc=",
+    "originContent": "To run the server as an HTTP service, use the `--http` flag. You can also specify the port with `--port` (default: 3000). This mode requires [Express](https://expressjs.com/) to be installed (it is included as a dependency).",
+    "translatedContent": "要以 HTTP 服务运行服务器，请使用 `--http` 标志。您还可以使用 `--port` 指定端口（默认：3000）。此模式需要安装 [Express](https://expressjs.com/)（它作为依赖包含在内）。"
+  },
+  {
+    "row": 354,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 355,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 356,
+    "rowsha": "9V3SPsKfvvl8/iKB2tLwuoYji8JPRXkq683jfN8/FKI=",
+    "originContent": "npm run start -- <baseUrl> <token> --http --port 3000",
+    "translatedContent": "npm run start -- <baseUrl> <token> --http --port 3000"
+  },
+  {
+    "row": 357,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 358,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 359,
+    "rowsha": "5Aflvuy1u+lEMXOdcrobKkPFGDPV3uLgURbLYSG+AXs=",
+    "originContent": "- The MCP API will be available at `POST /mcp` on the specified port.",
+    "translatedContent": "- MCP API 将在指定端口通过 `POST /mcp` 提供。"
+  },
+  {
+    "row": 360,
+    "rowsha": "KfUVZqrCAQ2XbCFdViedxf1G6RFjGBsbSCap2L7R2eI=",
+    "originContent": "- Each request is handled statelessly, following the [StreamableHTTPServerTransport](https://github.com/modelcontextprotocol/typescript-sdk) pattern.",
+    "translatedContent": "- 每个请求无状态处理，遵循 [StreamableHTTPServerTransport](https://github.com/modelcontextprotocol/typescript-sdk) 模式。"
+  },
+  {
+    "row": 361,
+    "rowsha": "1O3ATgPZJbbnhb/n6DgShqAmUMuq8BOjXGu8egDjwiQ=",
+    "originContent": "- GET and DELETE requests to `/mcp` will return 405 Method Not Allowed.",
+    "translatedContent": "- 对 `/mcp` 的 GET 和 DELETE 请求将返回 405 方法不允许。"
+  },
+  {
+    "row": 362,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

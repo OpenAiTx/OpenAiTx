@@ -1,48 +1,48 @@
 # curriculum
 
-Różnego rodzaju materiały kursowe, w tym materiały z platformy Dedao, popularne materiały z internetu oraz inne zasoby, które trudno przypisać do innych projektów, znajdują się tutaj. Lista jest stale aktualizowana.
+各种课程材料，包括得到，网上流行材料，跟其他项目不好放的资料，都在这里面，等等等，持续更新中
 
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=id)
 
 -------------------
 
-# [202507](https://raw.githubusercontent.com/mswnlz/curriculum/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/curriculum/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/curriculum/main/202506.md)
+# [202508](https://raw.githubusercontent.com/mswnlz/curriculum/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/curriculum/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/curriculum/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/curriculum/main/202506.md)
 
 ---------------
-### Więcej zasobów projektu
+### 项目更多资源
 
-[🎁Wyjątkowe zasoby! Oryginalna cena 59880 RMB – kompletne, unikalne materiały z kursów tradycyjnej medycyny chińskiej【wersja kolekcjonerska 1.18TB】, w tym podstawy, wideo, terapie zewnętrzne, akupunktura, książki i wiele więcej](https://github.com/mswnlz/chinese-traditional)
+[🎁重磅资源！原价59880元 绝版中医课程资料大全【收藏版1.18TB】，包括基础、视频、外治、针灸，书籍等等等应有尽有](https://github.com/mswnlz/chinese-traditional)
 
-[Różnorodne przydatne narzędzia: systemy operacyjne, wtyczki, narzędzia w wersjach portable i z crackiem itp., stale aktualizowane](https://github.com/mswnlz/tools)
+[各种好用工具相关的资源，包括操作系统，各种插件，绿色破解版工具等等，持续更新中](https://github.com/mswnlz/tools)
 
 
-[Materiały związane z e-commerce transgranicznym: aplikacje, płatności, handel zagraniczny, tiktok, Amazon, otwieranie sklepów, pozyskiwanie nowych klientów i inne zasoby, stale aktualizowane](https://github.com/mswnlz/cross-border)
+[跨境电商相关的资料，申请，支付、外贸，tiktok，亚马逊，开店铺，拉新等资源，持续更新中](https://github.com/mswnlz/cross-border)
 
-[Zasoby dotyczące mediów społecznościowych: pozyskiwanie nowych użytkowników, strategie zwiększania ruchu, pozyskiwanie klientów, konwersja, monetyzacja i inne materiały, stale aktualizowane](https://github.com/mswnlz/self-media)
+[自媒体相关资源，包括拉新，流量玩法、获客，转化、变现等资料，持续更新中](https://github.com/mswnlz/self-media)
 
-[ Materiały edukacyjne od przedszkola po szkołę podstawową i średnią, obejmujące instytucje takie jak Xueersi, Wanwei, Yuanfudao i inne, stale dodawane](https://github.com/mswnlz/edu-knowlege)
+[ 教育各种资料，从幼儿园到小学、中学，涵盖学而思，万维、猿辅导等多个机构，持续增加中](https://github.com/mswnlz/edu-knowlege)
 
-[Wiedza związana z AI: prompty, poradniki, wideokursy, kursy monetyzacji itp., stale aktualizowane](https://github.com/mswnlz/AIknowledge)
+[AI相关知识，提示词，教程，视频教程，变现课程等，持续更新中](https://github.com/mswnlz/AIknowledge)
 
-[Różne materiały kursowe, w tym Dedao, popularne materiały internetowe oraz te, które trudno przypisać do innych projektów, wszystko tutaj, ciągłe aktualizacje](https://github.com/mswnlz/curriculum)
+[各种课程材料，包括得到，网上流行材料，跟其他项目不好放的资料，都在这里面，等等等，持续更新中](https://github.com/mswnlz/curriculum)
 
-[Zasoby multimedialne: filmy, dokumenty, muzyka, koncerty i inne, stale aktualizowane](https://github.com/mswnlz/movies)
+[影视媒体资源，电影，记录片，音乐，演唱会等等，持续更新中](https://github.com/mswnlz/movies)
 
-[Książki i materiały: różne poradniki, powieści i inne książki](https://github.com/mswnlz/book)
+[书籍资料相关的，包括各种教程、小说等各种书籍](https://github.com/mswnlz/book)
 
-[Fitness, ćwiczenia, dieta, odżywianie, zdrowie, sen itp., stale aktualizowane](https://github.com/mswnlz/healthy)
+[健身、锻炼、饮食，营养，健康，睡眠等，持续更新中](https://github.com/mswnlz/healthy)
 
 ---------------
 
-# Strona główna zasobów
-[Różnorodne materiały, wiedza, filmy, dokumenty, muzyka, książki, centrum multimedialne – stale porządkowane](https://github.com/mswnlz)
+# 资源主页
+[各种资料、知识、影视，记录片，音乐，书籍，媒体聚集地，持续整理中](https://github.com/mswnlz)
 
 ---------------
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
 
 ---

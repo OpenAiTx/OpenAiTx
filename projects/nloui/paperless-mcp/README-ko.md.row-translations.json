@@ -1,0 +1,2174 @@
+[
+  {
+    "row": 1,
+    "rowsha": "5BOp37o21rhbGnJjuBoMsCoqbfnXRGgoEvd1SzZzZww=",
+    "originContent": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/nloui-paperless-mcp-badge.png)](https://mseep.ai/app/nloui-paperless-mcp)",
+    "translatedContent": "[![MseeP.ai 보안 평가 배지](https://mseep.net/pr/nloui-paperless-mcp-badge.png)](https://mseep.ai/app/nloui-paperless-mcp)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "Fka+O+GpNWu+hKxtcyhGAy9laUGrCbAZ3ohF1Gf2ScI=",
+    "originContent": "# Paperless-NGX MCP Server",
+    "translatedContent": "# Paperless-NGX MCP 서버"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "eGIwe7a8Q/PL498vCy0pVpqeKgZ2kM93FqCBR6mUhu0=",
+    "originContent": "[![smithery badge](https://smithery.ai/badge/@nloui/paperless-mcp)](https://smithery.ai/server/@nloui/paperless-mcp)",
+    "translatedContent": "[![smithery 배지](https://smithery.ai/badge/@nloui/paperless-mcp)](https://smithery.ai/server/@nloui/paperless-mcp)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "uKUQsdyNenfqAVIRi8qlF69kX8bfMHYohgHoUKAq5MU=",
+    "originContent": "An MCP (Model Context Protocol) server for interacting with a Paperless-NGX API server. This server provides tools for managing documents, tags, correspondents, and document types in your Paperless-NGX instance.",
+    "translatedContent": "Paperless-NGX API 서버와 상호작용하기 위한 MCP(모델 컨텍스트 프로토콜) 서버입니다. 이 서버는 Paperless-NGX 인스턴스에서 문서, 태그, 연락처 및 문서 유형을 관리하는 도구를 제공합니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## 빠른 시작"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "nrsPouaM/D0rdbvJ3HSjfQ6SR6X/KFAu0no5T7HQzro=",
+    "originContent": "### Installing via Smithery",
+    "translatedContent": "### Smithery를 통한 설치"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "eXVUIB38viDwctkaLTeWeEQVLPyhWAyF8OZm1qtQjBM=",
+    "originContent": "To install Paperless NGX MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@nloui/paperless-mcp):",
+    "translatedContent": "[Smithery](https://smithery.ai/server/@nloui/paperless-mcp)를 통해 Claude Desktop용 Paperless NGX MCP 서버를 자동으로 설치하려면:"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 16,
+    "rowsha": "V3IsM97PbizWHxaHn/H4rrlruSEXKOiJw+BIT409QqI=",
+    "originContent": "npx -y @smithery/cli install @nloui/paperless-mcp --client claude",
+    "translatedContent": "npx -y @smithery/cli install @nloui/paperless-mcp --client claude"
+  },
+  {
+    "row": 17,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "zFp4AHeEmv1K//Saq31Al0AFX5sPI0pcQr+jQf0A/tA=",
+    "originContent": "### Manual Installation",
+    "translatedContent": "### 수동 설치"
+  },
+  {
+    "row": 20,
+    "rowsha": "AK7ZyzmPpHFojFbQ0hIb9HVUisDRzXoXn2eUFHs7rrc=",
+    "originContent": "1. Install the MCP server:",
+    "translatedContent": "1. MCP 서버를 설치합니다:"
+  },
+  {
+    "row": 21,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 22,
+    "rowsha": "SpyKSTk5N51G7iaj+z5BI9FNNT7MJPap+rb9m4jduDk=",
+    "originContent": "npm install -g paperless-mcp",
+    "translatedContent": "npm install -g paperless-mcp"
+  },
+  {
+    "row": 23,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. Claude의 MCP 구성에 추가하세요:"
+  },
+  {
+    "row": 25,
+    "rowsha": "6UgFO4qBXh+srfxorW/4owwGrJCyD33tZaOqdQgYS4U=",
+    "originContent": "2. Add it to your Claude's MCP configuration:",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "VSCode 확장 프로그램의 경우, `~/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json`을 편집하세요:"
+  },
+  {
+    "row": 27,
+    "rowsha": "03SYgwGZcq5HdwTs2To64zSWqu36qYncQqiI/NOob/M=",
+    "originContent": "For VSCode extension, edit `~/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 29,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 30,
+    "rowsha": "ZckkIpKixltZLtYSjGOhgJjNOCkOb0HBckGFnZZHIuw=",
+    "originContent": "  \"mcpServers\": {",
+    "translatedContent": "  \"mcpServers\": {"
+  },
+  {
+    "row": 31,
+    "rowsha": "XhK3UezVtQbStaMaZZ9Gs9rNkaOHDc0sXpJqgp7f/84=",
+    "originContent": "    \"paperless\": {",
+    "translatedContent": "    \"paperless\": {"
+  },
+  {
+    "row": 32,
+    "rowsha": "m1brNZrsMVLBwdNTiAu1UnTnL8Y0znjxjarXfqBMLmw=",
+    "originContent": "      \"command\": \"npx\",",
+    "translatedContent": "      \"command\": \"npx\","
+  },
+  {
+    "row": 33,
+    "rowsha": "FcpEfoTaS71Ifc9y3dbhaEjoNZ0mjDzoxQO5laTrusI=",
+    "originContent": "      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]",
+    "translatedContent": "      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]"
+  },
+  {
+    "row": 34,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 35,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 36,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "LGpgzbhZB78Owg8y1Uv+VtDwway62WnhnXex5kQ6j0k=",
+    "originContent": "For Claude desktop app, edit `~/Library/Application Support/Claude/claude_desktop_config.json`:",
+    "translatedContent": "Claude 데스크탑 앱의 경우, `~/Library/Application Support/Claude/claude_desktop_config.json` 파일을 편집하세요:"
+  },
+  {
+    "row": 40,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 41,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 42,
+    "rowsha": "ZckkIpKixltZLtYSjGOhgJjNOCkOb0HBckGFnZZHIuw=",
+    "originContent": "  \"mcpServers\": {",
+    "translatedContent": "  \"mcpServers\": {"
+  },
+  {
+    "row": 43,
+    "rowsha": "XhK3UezVtQbStaMaZZ9Gs9rNkaOHDc0sXpJqgp7f/84=",
+    "originContent": "    \"paperless\": {",
+    "translatedContent": "    \"paperless\": {"
+  },
+  {
+    "row": 44,
+    "rowsha": "m1brNZrsMVLBwdNTiAu1UnTnL8Y0znjxjarXfqBMLmw=",
+    "originContent": "      \"command\": \"npx\",",
+    "translatedContent": "      \"command\": \"npx\","
+  },
+  {
+    "row": 45,
+    "rowsha": "FcpEfoTaS71Ifc9y3dbhaEjoNZ0mjDzoxQO5laTrusI=",
+    "originContent": "      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]",
+    "translatedContent": "      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]"
+  },
+  {
+    "row": 46,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 47,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 48,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 49,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. API 토큰 받기:"
+  },
+  {
+    "row": 51,
+    "rowsha": "YnLOmlrQWkNYVRJ58QOEQ9mZOTohMMwtEAYRI5i2wwA=",
+    "originContent": "3. Get your API token:",
+    "translatedContent": "   1. Paperless-NGX 인스턴스에 로그인하세요"
+  },
+  {
+    "row": 52,
+    "rowsha": "rjb/ikX+G6AK4DkL0h1WrAIFgg4RAJXCRDJk1MmkQl0=",
+    "originContent": "   1. Log into your Paperless-NGX instance",
+    "translatedContent": "   2. 오른쪽 상단의 사용자 이름을 클릭하세요"
+  },
+  {
+    "row": 53,
+    "rowsha": "LC65gsXqH3bdn/ZB+hRq4t8DcgYAT/mPeAv/CqPFa1I=",
+    "originContent": "   2. Click your username in the top right",
+    "translatedContent": "   3. \"내 프로필\"을 선택하세요"
+  },
+  {
+    "row": 54,
+    "rowsha": "+urbUesuDJaiadehSctxybmAo4XfR/gWw5dNPUpKrFY=",
+    "originContent": "   3. Select \"My Profile\"",
+    "translatedContent": "   4. 원형 화살표 버튼을 클릭하여 새 토큰을 생성하세요"
+  },
+  {
+    "row": 55,
+    "rowsha": "K7UlkH8eVPTR1WV5+mX/Ymxx/Vb1QBQMWcX/76e0Pbw=",
+    "originContent": "   4. Click the circular arrow button to generate a new token",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "4. MCP 설정에서 자리 표시자를 교체하세요:"
+  },
+  {
+    "row": 57,
+    "rowsha": "IQPHNIrRRjSy+J+Ac/jUzJxYS2VmMat3OKebw6ivY64=",
+    "originContent": "4. Replace the placeholders in your MCP config:",
+    "translatedContent": "   - `http://your-paperless-instance:8000`을 Paperless-NGX URL로 교체"
+  },
+  {
+    "row": 58,
+    "rowsha": "YWgiXPzXEHYQq5bWvdZp0aVopc++WStUT7f10pXspXg=",
+    "originContent": "   - `http://your-paperless-instance:8000` with your Paperless-NGX URL",
+    "translatedContent": "   - `your-api-token`을 방금 생성한 토큰으로 교체"
+  },
+  {
+    "row": 59,
+    "rowsha": "QnY/h3l1z+G2Sc1ES0a1/qFTpwIVN7rwH7CaifNvGeM=",
+    "originContent": "   - `your-api-token` with the token you just generated",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이게 전부입니다! 이제 Claude에게 Paperless-NGX 문서 관리를 요청할 수 있습니다."
+  },
+  {
+    "row": 61,
+    "rowsha": "+HIz+BK3tZxUeiv4Is+gZQrwwhmReq83FXUeff1kwlA=",
+    "originContent": "That's it! Now you can ask Claude to help you manage your Paperless-NGX documents.",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 사용 예시"
+  },
+  {
+    "row": 63,
+    "rowsha": "nCMRqL+z2RLAiY8/bspPiTBHkCBv43qQNGF97p0D5Bo=",
+    "originContent": "## Example Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Claude에게 요청할 수 있는 몇 가지 예시는 다음과 같습니다:"
+  },
+  {
+    "row": 65,
+    "rowsha": "84izLZ0M5jFO4vRsTtR2YzYshWxIQSTd8WpUClGMJVw=",
+    "originContent": "Here are some things you can ask Claude to do:",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- \"'Invoice'로 태그된 모든 문서 보여줘\""
+  },
+  {
+    "row": 67,
+    "rowsha": "XiDaVwb5RXSQ3WHjH6t1AQolNDB5RyMz9aN903Gdgy8=",
+    "originContent": "- \"Show me all documents tagged as 'Invoice'\"",
+    "translatedContent": "- \"'tax return'이 포함된 문서 검색해줘\""
+  },
+  {
+    "row": 68,
+    "rowsha": "cW5RnN8KbpgCQ8Ieh5/LUW9W1uRLjkzjFkVjzgmjw7k=",
+    "originContent": "- \"Search for documents containing 'tax return'\"",
+    "translatedContent": "- \"색상 #FF0000으로 'Receipts'라는 새 태그 만들어줘\""
+  },
+  {
+    "row": 69,
+    "rowsha": "eOR7sTmdXPvY3StHoz9dtEJgazBoqcqQqGB0r7FKVSY=",
+    "originContent": "- \"Create a new tag called 'Receipts' with color #FF0000\"",
+    "translatedContent": "- \"문서 #123 다운로드해줘\""
+  },
+  {
+    "row": 70,
+    "rowsha": "5FsS4fixP84luMS+KhgCes4RD/c/d3y/mOlxzQtH4Og=",
+    "originContent": "- \"Download document #123\"",
+    "translatedContent": "- \"모든 연락처 목록 보여줘\""
+  },
+  {
+    "row": 71,
+    "rowsha": "tGxai1bNzJ2DGPQBjROnlTCvIDB0/hB+MhDGq9c+Q1A=",
+    "originContent": "- \"List all correspondents\"",
+    "translatedContent": "- \"'Bank Statement'라는 새 문서 유형 만들어줘\""
+  },
+  {
+    "row": 72,
+    "rowsha": "Z3I22iKvFBrspZdiwwdmC4znRu6noQjz1iKqCnfYXYM=",
+    "originContent": "- \"Create a new document type called 'Bank Statement'\"",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 사용 가능한 도구"
+  },
+  {
+    "row": 74,
+    "rowsha": "3p9HxS/FxYrtplhfcyaONljFJzSCmQticBC3tEpfjgo=",
+    "originContent": "## Available Tools",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 문서 작업"
+  },
+  {
+    "row": 76,
+    "rowsha": "3l4IqrGlPZRJLfXtmerMWtHhZq3MLAR2ZNz10iwYLIo=",
+    "originContent": "### Document Operations",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### list_documents"
+  },
+  {
+    "row": 78,
+    "rowsha": "qn6TOdnwVP9JQ39QHe7Tku3nqPEDZoSrRu0pegXJnbQ=",
+    "originContent": "#### list_documents",
+    "translatedContent": "모든 문서의 페이지별 목록을 가져옵니다."
+  },
+  {
+    "row": 79,
+    "rowsha": "AlIbMyTcFH6DjO/MtPZCYQU5XLSAX0tY87S39ZYP+FI=",
+    "originContent": "Get a paginated list of all documents.",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "매개변수:"
+  },
+  {
+    "row": 81,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "- page (선택 사항): 페이지 번호"
+  },
+  {
+    "row": 82,
+    "rowsha": "EvTLKHWoDOAPA1DcIRlMd3p4XsM68oPLAUss+VzamtY=",
+    "originContent": "- page (optional): Page number",
+    "translatedContent": "- page_size (선택 사항): 페이지당 문서 수"
+  },
+  {
+    "row": 83,
+    "rowsha": "u7oz1X+j0CQHNCiowjoRaQ6E/W6CH3xFPFFryYFCpwQ=",
+    "originContent": "- page_size (optional): Number of documents per page",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 86,
+    "rowsha": "q5CKoaM6KRSSW3fkj1NZdbGmrWLIMHbeDBDFXOAb/sw=",
+    "originContent": "list_documents({",
+    "translatedContent": "list_documents({"
+  },
+  {
+    "row": 87,
+    "rowsha": "v/NyT6NHEteiiiTMA5QTdNG2smCOu6h2HlEs+ZUCDGk=",
+    "originContent": "  page: 1,",
+    "translatedContent": "  page: 1,"
+  },
+  {
+    "row": 88,
+    "rowsha": "kB2w+OmbcLpWKUZU+84U37ARzPmIHhV/PFEFSqTbEDM=",
+    "originContent": "  page_size: 25",
+    "translatedContent": "  page_size: 25"
+  },
+  {
+    "row": 89,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 90,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "T3niO0XGvYyB2U7mvr1CMep32MeU83lqnaoHxYxQdOg=",
+    "originContent": "#### get_document",
+    "translatedContent": "#### get_document"
+  },
+  {
+    "row": 93,
+    "rowsha": "5R4D7cEIu0GTIbgOkeW3KLeur7o+fx0okmrePE4g+CU=",
+    "originContent": "Get a specific document by ID.",
+    "translatedContent": "ID로 특정 문서를 가져옵니다."
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "매개변수:"
+  },
+  {
+    "row": 96,
+    "rowsha": "zEuQfYi1AI0tIMTMVXHAVuCnwbBfBMqfw2DYMTlkZIw=",
+    "originContent": "- id: Document ID",
+    "translatedContent": "- id: 문서 ID"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 99,
+    "rowsha": "Fdc5DLMyTOFfjBVdn8q+lHfTvb95pr0q4WzMlbpO8h0=",
+    "originContent": "get_document({",
+    "translatedContent": "get_document({"
+  },
+  {
+    "row": 100,
+    "rowsha": "ASoKrd+c08He8Ym+O8Zt7Uv2O5RtEssxGjmKydaWgvg=",
+    "originContent": "  id: 123",
+    "translatedContent": "  id: 123"
+  },
+  {
+    "row": 101,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 102,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "WCwt54spIZDFKnIW4VAX21s6M6FamGmzX6OsHarHSFk=",
+    "originContent": "#### search_documents",
+    "translatedContent": "#### search_documents"
+  },
+  {
+    "row": 105,
+    "rowsha": "Qt2GOxA2DJUzThMpIKS6FS3TKdulucxUWLgDPCBeCK4=",
+    "originContent": "Full-text search across documents.",
+    "translatedContent": "문서 전체에 대한 전체 텍스트 검색."
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "매개변수:"
+  },
+  {
+    "row": 108,
+    "rowsha": "DMlWNun4YSR1IAtsnp7UMdgiOZlH6owtsWhDVbjJKFs=",
+    "originContent": "- query: Search query string",
+    "translatedContent": "- query: 검색 쿼리 문자열"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 111,
+    "rowsha": "Qzle7+NeYSRhpsiAI7V5oV/LxW9ABEplxjtxe12ccG4=",
+    "originContent": "search_documents({",
+    "translatedContent": "search_documents({"
+  },
+  {
+    "row": 112,
+    "rowsha": "d+h1UFM3g2EBRra75nra/vIcoxsrLmmRri7v6DYNfEU=",
+    "originContent": "  query: \"invoice 2024\"",
+    "translatedContent": "  query: \"invoice 2024\""
+  },
+  {
+    "row": 113,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 114,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### download_document"
+  },
+  {
+    "row": 116,
+    "rowsha": "GQSjyWKnnnrOzty1w2XQRncF3d0nSTrhu//BMWPzgGE=",
+    "originContent": "#### download_document",
+    "translatedContent": "ID로 문서 파일을 다운로드합니다."
+  },
+  {
+    "row": 117,
+    "rowsha": "m8j1zAjgyb0TAfBcVcCQ7LBSVZp8u7/vjNqZCMtFZ0M=",
+    "originContent": "Download a document file by ID.",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "매개변수:"
+  },
+  {
+    "row": 119,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "- id: 문서 ID"
+  },
+  {
+    "row": 120,
+    "rowsha": "zEuQfYi1AI0tIMTMVXHAVuCnwbBfBMqfw2DYMTlkZIw=",
+    "originContent": "- id: Document ID",
+    "translatedContent": "- original (선택 사항): true인 경우 보관된 버전 대신 원본 파일을 다운로드합니다."
+  },
+  {
+    "row": 121,
+    "rowsha": "cpsY7GQNOJc4SrRu4s6ogybXk1MrNMnSdE/FFEYMe4w=",
+    "originContent": "- original (optional): If true, downloads original file instead of archived version",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 124,
+    "rowsha": "XArORkYycQ5dpuG27Nnq2CiMzwY1dDQAkd4w2nMbFxI=",
+    "originContent": "download_document({",
+    "translatedContent": "download_document({"
+  },
+  {
+    "row": 125,
+    "rowsha": "C2wltRUs5u6+SfGv2asM7VjDWsIdagdu/bLjRs91TKo=",
+    "originContent": "  id: 123,",
+    "translatedContent": "  id: 123,"
+  },
+  {
+    "row": 126,
+    "rowsha": "IUrOyQpqqF93ZdfpOUpyRyatvoAfBYIfScFCf9+lLd0=",
+    "originContent": "  original: false",
+    "translatedContent": "  original: false"
+  },
+  {
+    "row": 127,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 128,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### bulk_edit_documents"
+  },
+  {
+    "row": 130,
+    "rowsha": "narvMe3I1v/zb3wAWeGfcUaqnIYC06eyW0cU0jDmubM=",
+    "originContent": "#### bulk_edit_documents",
+    "translatedContent": "여러 문서에 대해 일괄 작업을 수행합니다."
+  },
+  {
+    "row": 131,
+    "rowsha": "dDL+odpgizBo4zhlfH6fAEbmlp0qNF0505B03pbTEXw=",
+    "originContent": "Perform bulk operations on multiple documents.",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Parameters:"
+  },
+  {
+    "row": 133,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "- documents: 문서 ID 배열"
+  },
+  {
+    "row": 134,
+    "rowsha": "sVsrBOLZWXaS2zkno/NslJPdtdfls5YHgFO9L/5g+bk=",
+    "originContent": "- documents: Array of document IDs",
+    "translatedContent": "- method: 다음 중 하나:"
+  },
+  {
+    "row": 135,
+    "rowsha": "uhY/xzqeBYUY0CRafjXWzIu0Uu0q77rqiUf81/3Nwds=",
+    "originContent": "- method: One of:",
+    "translatedContent": "  - set_correspondent: 문서에 담당자 설정"
+  },
+  {
+    "row": 136,
+    "rowsha": "3775gh5QphSVQghONaCKIxuGIwnuJO99u5+wGD93jpI=",
+    "originContent": "  - set_correspondent: Set correspondent for documents",
+    "translatedContent": "  - set_document_type: 문서 유형 설정"
+  },
+  {
+    "row": 137,
+    "rowsha": "ojeA1700Hw92+CP1vRF70hGjysweEdmybZpMN7GbtWk=",
+    "originContent": "  - set_document_type: Set document type for documents",
+    "translatedContent": "  - set_storage_path: 문서 저장 경로 설정"
+  },
+  {
+    "row": 138,
+    "rowsha": "xyehcvQ8q5m0jG8c87ULBbZ9D0h64VT/oFcAWQsQSAc=",
+    "originContent": "  - set_storage_path: Set storage path for documents",
+    "translatedContent": "  - add_tag: 문서에 태그 추가"
+  },
+  {
+    "row": 139,
+    "rowsha": "RSktteML+/aFuy9tV3LDqh/XG5yvVQD7XLDvUCNgRL0=",
+    "originContent": "  - add_tag: Add a tag to documents",
+    "translatedContent": "  - remove_tag: 문서에서 태그 제거"
+  },
+  {
+    "row": 140,
+    "rowsha": "eEqqDJ5xdLs97Ll9EOfDpj4dz/1a+8ybDQntzwyX07c=",
+    "originContent": "  - remove_tag: Remove a tag from documents",
+    "translatedContent": "  - modify_tags: 여러 태그 추가 및/또는 제거"
+  },
+  {
+    "row": 141,
+    "rowsha": "qRo0sMFfZuTgk8HRpX2FWrJ2eX8evAob/l4Um6XZfoE=",
+    "originContent": "  - modify_tags: Add and/or remove multiple tags",
+    "translatedContent": "  - delete: 문서 삭제"
+  },
+  {
+    "row": 142,
+    "rowsha": "H3e3rAoMhX2xbZiN4X65YCARFDSOLk6HZ+7xjZLJ0T4=",
+    "originContent": "  - delete: Delete documents",
+    "translatedContent": "  - reprocess: 문서 재처리"
+  },
+  {
+    "row": 143,
+    "rowsha": "FjACy70SlIWAWcrG0FjyPOZ2PlFUnHaoarYfguIgJyE=",
+    "originContent": "  - reprocess: Reprocess documents",
+    "translatedContent": "  - set_permissions: 문서 권한 설정"
+  },
+  {
+    "row": 144,
+    "rowsha": "pZZIkT0UpvG2cdr5FVr93VtEcOqmrRQwBrTosh5nw38=",
+    "originContent": "  - set_permissions: Set document permissions",
+    "translatedContent": "  - merge: 여러 문서 병합"
+  },
+  {
+    "row": 145,
+    "rowsha": "rSOoYao+eSEiV86SRaC5OFvllAWeQ9T6Iacp1lZ9uzw=",
+    "originContent": "  - merge: Merge multiple documents",
+    "translatedContent": "  - split: 문서 여러 개로 분할"
+  },
+  {
+    "row": 146,
+    "rowsha": "gjnsbcMDiFtWXbCYqg25BQDyDeHlbNTrIRqc5pRMgZU=",
+    "originContent": "  - split: Split a document into multiple documents",
+    "translatedContent": "  - rotate: 문서 페이지 회전"
+  },
+  {
+    "row": 147,
+    "rowsha": "kpDlDs6IZaBPfxEzpN/5bkPac8UNUGkjMpfaVaBdNQU=",
+    "originContent": "  - rotate: Rotate document pages",
+    "translatedContent": "  - delete_pages: 문서에서 특정 페이지 삭제"
+  },
+  {
+    "row": 148,
+    "rowsha": "icfobfluRhic033/lhCuX7GCGd7a8xe2zgAeGfawOgE=",
+    "originContent": "  - delete_pages: Delete specific pages from a document",
+    "translatedContent": "- 메서드에 따른 추가 매개변수:"
+  },
+  {
+    "row": 149,
+    "rowsha": "WGOdn+dt8+pXVY4VUPIm2d5cI8Uns7SHaRTjq4VzMDk=",
+    "originContent": "- Additional parameters based on method:",
+    "translatedContent": "  - correspondent: set_correspondent용 ID"
+  },
+  {
+    "row": 150,
+    "rowsha": "c1dvFulssswCl6zEoBGerXTEBRJVqsz5xOZuZpA4Cog=",
+    "originContent": "  - correspondent: ID for set_correspondent",
+    "translatedContent": "  - document_type: set_document_type용 ID"
+  },
+  {
+    "row": 151,
+    "rowsha": "4tfbC/0Hb511gpL2S+2p6feTuIRi+omu37ZalcP+J1c=",
+    "originContent": "  - document_type: ID for set_document_type",
+    "translatedContent": "  - storage_path: set_storage_path용 ID"
+  },
+  {
+    "row": 152,
+    "rowsha": "AO63CPGDnYBRvHKf9HhXSKHBC7hfUy+maIgELGqQoyM=",
+    "originContent": "  - storage_path: ID for set_storage_path",
+    "translatedContent": "  - tag: add_tag/remove_tag용 ID"
+  },
+  {
+    "row": 153,
+    "rowsha": "BuHZWIIZO4rWAVf9MjSvnisS7vMgUsE9IpJM3/8xOfU=",
+    "originContent": "  - tag: ID for add_tag/remove_tag",
+    "translatedContent": "  - add_tags: modify_tags용 태그 ID 배열"
+  },
+  {
+    "row": 154,
+    "rowsha": "0871qgdkx7cf/97ts39PnW+mgBQbxiDP8qrWiPGf7QE=",
+    "originContent": "  - add_tags: Array of tag IDs for modify_tags",
+    "translatedContent": "  - remove_tags: modify_tags용 태그 ID 배열"
+  },
+  {
+    "row": 155,
+    "rowsha": "N0epTZed/lt2mgdtSr7J/t/+ecdzspG+Sy6fE3E0lv4=",
+    "originContent": "  - remove_tags: Array of tag IDs for modify_tags",
+    "translatedContent": "  - permissions: set_permissions용 소유자, 권한, 병합 플래그가 포함된 객체"
+  },
+  {
+    "row": 156,
+    "rowsha": "2Qyi0m9PmTYGvsEw3VwN+jgT95/tQmu9DrBTZx8oy84=",
+    "originContent": "  - permissions: Object for set_permissions with owner, permissions, merge flag",
+    "translatedContent": "  - metadata_document_id: 병합 시 메타데이터 출처를 지정하는 ID"
+  },
+  {
+    "row": 157,
+    "rowsha": "Hn+d+9DYVIteMznNBLPPVwVzhJxFF0bBER/14+8ro9c=",
+    "originContent": "  - metadata_document_id: ID for merge to specify metadata source",
+    "translatedContent": "  - delete_originals: 병합/분할 시 원본 삭제 여부 불리언"
+  },
+  {
+    "row": 158,
+    "rowsha": "jZTQUntfgoguQRNC76ZX2ME5+pMfdbFwAA9L18mMP7w=",
+    "originContent": "  - delete_originals: Boolean for merge/split",
+    "translatedContent": "  - pages: 분할용 \"[1,2-3,4,5-7]\" 또는 delete_pages용 \"[2,3,4]\" 문자열"
+  },
+  {
+    "row": 159,
+    "rowsha": "ySN+ZubkHTn7LsxsisXLirew94u7virejlsHtuZRpV4=",
+    "originContent": "  - pages: String for split \"[1,2-3,4,5-7]\" or delete_pages \"[2,3,4]\"",
+    "translatedContent": "  - degrees: 회전 각도 (90, 180 또는 270) 숫자"
+  },
+  {
+    "row": 160,
+    "rowsha": "wD12erEctqFGp87n+n3rjrilyKuENF0FuA3UpqQq0a4=",
+    "originContent": "  - degrees: Number for rotate (90, 180, or 270)",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Examples:"
+  },
+  {
+    "row": 162,
+    "rowsha": "GInwMzi3m7rYvc3JJe9egwaVacF+QzF075pJ9i59Xuc=",
+    "originContent": "Examples:",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 164,
+    "rowsha": "S6CMyOLqbMRUpvz4EIHxxjcgrl3Cg+S39HgQlNcP96A=",
+    "originContent": "// Add a tag to multiple documents",
+    "translatedContent": "// Add a tag to multiple documents"
+  },
+  {
+    "row": 165,
+    "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+    "originContent": "bulk_edit_documents({",
+    "translatedContent": "bulk_edit_documents({"
+  },
+  {
+    "row": 166,
+    "rowsha": "X9wcQijHvxeSBU/Prv/Lj6vZs3j4L+aO7BuTGLIMqIw=",
+    "originContent": "  documents: [1, 2, 3],",
+    "translatedContent": "  documents: [1, 2, 3],"
+  },
+  {
+    "row": 167,
+    "rowsha": "Y9hZLgExJApTCWx45xC3oQlqtFDH/3qQ11A/oihRPZA=",
+    "originContent": "  method: \"add_tag\",",
+    "translatedContent": "  method: \"add_tag\","
+  },
+  {
+    "row": 168,
+    "rowsha": "ej22YZ44ef5zWHRXsbUsPmZrM09/RW8xQNyI5N7CPM8=",
+    "originContent": "  tag: 5",
+    "translatedContent": "  tag: 5"
+  },
+  {
+    "row": 169,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "No07cFm+nd7kuttE60adqPx8wyKHYdl96zYRGjB0QFo=",
+    "originContent": "// Set correspondent and document type",
+    "translatedContent": "// Set correspondent and document type"
+  },
+  {
+    "row": 172,
+    "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+    "originContent": "bulk_edit_documents({",
+    "translatedContent": "bulk_edit_documents({"
+  },
+  {
+    "row": 173,
+    "rowsha": "6hGFngqjKBekWftQfRmCSMsphY4xM6moVsMfcl353QA=",
+    "originContent": "  documents: [4, 5],",
+    "translatedContent": "  documents: [4, 5],"
+  },
+  {
+    "row": 174,
+    "rowsha": "7CC28PhBK7fx/cJ5dNtpL4dHmFZhEIjH5ET0n3KxvVA=",
+    "originContent": "  method: \"set_correspondent\",",
+    "translatedContent": "  method: \"set_correspondent\","
+  },
+  {
+    "row": 175,
+    "rowsha": "CFRkTVMQuMGIhEWGXs64x6pSXP5My+TTH1RwCus+GGY=",
+    "originContent": "  correspondent: 2",
+    "translatedContent": "  correspondent: 2"
+  },
+  {
+    "row": 176,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "ETLQT6qRWkFWsPS9mtlH9I+nwjuv2MrDlKAN7o10egM=",
+    "originContent": "// Merge documents",
+    "translatedContent": "// Merge documents"
+  },
+  {
+    "row": 179,
+    "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+    "originContent": "bulk_edit_documents({",
+    "translatedContent": "bulk_edit_documents({"
+  },
+  {
+    "row": 180,
+    "rowsha": "HtyvUcvxE8a0+XX3SOaPiWISJj9VyzCJfsNCF1hsXH8=",
+    "originContent": "  documents: [6, 7, 8],",
+    "translatedContent": "  documents: [6, 7, 8],"
+  },
+  {
+    "row": 181,
+    "rowsha": "tno8yklZ+Y2eViiKLxs/lh1ssJEDfxZIkAD9rNgfDio=",
+    "originContent": "  method: \"merge\",",
+    "translatedContent": "  method: \"merge\","
+  },
+  {
+    "row": 182,
+    "rowsha": "2Kz+ZSxCrHUl3r2xgGai4qlQPmuXe8I4Qvq/lIrusWc=",
+    "originContent": "  metadata_document_id: 6,",
+    "translatedContent": "  metadata_document_id: 6,"
+  },
+  {
+    "row": 183,
+    "rowsha": "9rf0vni9Cy1DrywYqeRJOCNwjx9WasD7cBCa02WdOg0=",
+    "originContent": "  delete_originals: true",
+    "translatedContent": "  delete_originals: true"
+  },
+  {
+    "row": 184,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "uP+JUjYofnplDmKuN6/SdRqZ7XeIDz93wkeyyknQakU=",
+    "originContent": "// Split document into parts",
+    "translatedContent": "// Split document into parts"
+  },
+  {
+    "row": 187,
+    "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+    "originContent": "bulk_edit_documents({",
+    "translatedContent": "bulk_edit_documents({"
+  },
+  {
+    "row": 188,
+    "rowsha": "5jGrJ3Vs2lZSYx83FaAeQejxxgAAVSZKk6gsT0vwrdM=",
+    "originContent": "  documents: [9],",
+    "translatedContent": "  documents: [9],"
+  },
+  {
+    "row": 189,
+    "rowsha": "3I+TPj9ARUzJ1Vw7NPrKKM7KecjUanuloQjslcoHwmQ=",
+    "originContent": "  method: \"split\",",
+    "translatedContent": "  method: \"split\","
+  },
+  {
+    "row": 190,
+    "rowsha": "z2ozOyHVr8UgN+/VQKHeJlwAy5n8IFllBkE3oJqkWlQ=",
+    "originContent": "  pages: \"[1-2,3-4,5]\"",
+    "translatedContent": "  pages: \"[1-2,3-4,5]\""
+  },
+  {
+    "row": 191,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 193,
+    "rowsha": "c/67vHLvn8bKmeUgTs0NI/nfqpyW8ZBWb+cvCkXsydg=",
+    "originContent": "// Modify multiple tags at once",
+    "translatedContent": "// Modify multiple tags at once"
+  },
+  {
+    "row": 194,
+    "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+    "originContent": "bulk_edit_documents({",
+    "translatedContent": "bulk_edit_documents({"
+  },
+  {
+    "row": 195,
+    "rowsha": "FQNQoTRi4wt0l+7cX43o2XZ7NM3ZmujWJv0P8pQNcZ0=",
+    "originContent": "  documents: [10, 11],",
+    "translatedContent": "  documents: [10, 11],"
+  },
+  {
+    "row": 196,
+    "rowsha": "dqDSuoWOtmr+8nhhQrz1+Z41/tQyy891BtlSiH+mLKs=",
+    "originContent": "  method: \"modify_tags\",",
+    "translatedContent": "  method: \"modify_tags\","
+  },
+  {
+    "row": 197,
+    "rowsha": "xcqPzvToSyY8hbrTGNQvLACDhcNSm2LSGKWrF2YSjmw=",
+    "originContent": "  add_tags: [1, 2],",
+    "translatedContent": "  add_tags: [1, 2],"
+  },
+  {
+    "row": 198,
+    "rowsha": "2+zHejGWDQvhOctNOH/zU8PNdhf/p7rP/lkO5v2zl1A=",
+    "originContent": "  remove_tags: [3, 4]",
+    "translatedContent": "  remove_tags: [3, 4]"
+  },
+  {
+    "row": 199,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 200,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### post_document"
+  },
+  {
+    "row": 202,
+    "rowsha": "Wqg02KrOX0LNYqgWBQzT9YlTFPLlYQexZtHSzv2a8t0=",
+    "originContent": "#### post_document",
+    "translatedContent": "Paperless-NGX에 새 문서를 업로드합니다."
+  },
+  {
+    "row": 203,
+    "rowsha": "kAF5BDuoJ1xZzSfEn7D84HjTxtN/Xt4UwAnPAP7RBOI=",
+    "originContent": "Upload a new document to Paperless-NGX.",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Parameters:"
+  },
+  {
+    "row": 205,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "- file: Base64로 인코딩된 파일 내용"
+  },
+  {
+    "row": 206,
+    "rowsha": "SFVoh0XYYXO36xlbfHaJEYjfLqlMwz9Il6mI4xu8ZuA=",
+    "originContent": "- file: Base64 encoded file content",
+    "translatedContent": "- filename: 파일 이름"
+  },
+  {
+    "row": 207,
+    "rowsha": "JvtRr2pc+Ihq4zrpNaxToegEOuYSohxWdFLlN9E+mWg=",
+    "originContent": "- filename: Name of the file",
+    "translatedContent": "- title (optional): 문서 제목"
+  },
+  {
+    "row": 208,
+    "rowsha": "OIE6QU27N0a0EkcoSP1qtrOjVRHTe4IEDhayI/r3qn0=",
+    "originContent": "- title (optional): Title for the document",
+    "translatedContent": "- created (optional): 문서가 생성된 날짜 및 시간 (예: \"2024-01-19\" 또는 \"2024-01-19 06:15:00+02:00\")"
+  },
+  {
+    "row": 209,
+    "rowsha": "f4j0k+MtkWA9lev+VdX4ia8CM5ro/Qm7Zj47Qwy7nhw=",
+    "originContent": "- created (optional): DateTime when the document was created (e.g. \"2024-01-19\" or \"2024-01-19 06:15:00+02:00\")",
+    "translatedContent": "- correspondent (optional): 상대방 ID"
+  },
+  {
+    "row": 210,
+    "rowsha": "UV89bPB61dr0y7IESSm1fM/nMa0WidImXDWBpsMEkm0=",
+    "originContent": "- correspondent (optional): ID of a correspondent",
+    "translatedContent": "- document_type (optional): 문서 유형 ID"
+  },
+  {
+    "row": 211,
+    "rowsha": "MRBvC92bDonLIoy7yjeeAD0LP5KL+ruzGiiwu5cZSVc=",
+    "originContent": "- document_type (optional): ID of a document type",
+    "translatedContent": "- storage_path (optional): 저장 경로 ID"
+  },
+  {
+    "row": 212,
+    "rowsha": "VAi8hks2iwZPZHfProWWDPqSikX2jBlYbsQpV1Z2L4Y=",
+    "originContent": "- storage_path (optional): ID of a storage path",
+    "translatedContent": "- tags (optional): 태그 ID 배열"
+  },
+  {
+    "row": 213,
+    "rowsha": "oTv+62zSUzsNqQoV1r22bfeq34HaY9imMQuymEdGDQU=",
+    "originContent": "- tags (optional): Array of tag IDs",
+    "translatedContent": "- archive_serial_number (optional): 아카이브 일련 번호"
+  },
+  {
+    "row": 214,
+    "rowsha": "D/BpxUJZO/mMbTL+0XfRlUlwcRMRUdSr9h6w14YMTXk=",
+    "originContent": "- archive_serial_number (optional): Archive serial number",
+    "translatedContent": "- custom_fields (optional): 사용자 정의 필드 ID 배열"
+  },
+  {
+    "row": 215,
+    "rowsha": "qRnKtMKiM60Dx7onuzaaHRSnqwT4WcQ1OW2lpQC5TTU=",
+    "originContent": "- custom_fields (optional): Array of custom field IDs",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 218,
+    "rowsha": "wIboBgDvg8uIRbqlfNGqIun9pviInoxiWhlp4ogq32I=",
+    "originContent": "post_document({",
+    "translatedContent": "post_document({"
+  },
+  {
+    "row": 219,
+    "rowsha": "zo3iWdRkTL9FbdoLpPJbUDcHV5JJT89xFss1K3W32Qw=",
+    "originContent": "  file: \"base64_encoded_content\",",
+    "translatedContent": "  file: \"base64_encoded_content\","
+  },
+  {
+    "row": 220,
+    "rowsha": "2F/+IICYBYxNwCruj//7eeQdQ23m/MZ3dGbEkitZzIg=",
+    "originContent": "  filename: \"invoice.pdf\",",
+    "translatedContent": "  filename: \"invoice.pdf\","
+  },
+  {
+    "row": 221,
+    "rowsha": "AFSw8JjtlAmCGzps8a7OldouVY5HXAIWi75mOYoyWaQ=",
+    "originContent": "  title: \"January Invoice\",",
+    "translatedContent": "  title: \"January Invoice\","
+  },
+  {
+    "row": 222,
+    "rowsha": "BDIfOjMaAnINh5L65lDrfedPiQhugl8LIyG+U5Nj95w=",
+    "originContent": "  created: \"2024-01-19\",",
+    "translatedContent": "  created: \"2024-01-19\","
+  },
+  {
+    "row": 223,
+    "rowsha": "lD1thUVyCCkH3bW+wqlzpZkshh3SmeHFHBUJQrnoNQE=",
+    "originContent": "  correspondent: 1,",
+    "translatedContent": "  correspondent: 1,"
+  },
+  {
+    "row": 224,
+    "rowsha": "qx4k55+//3aInqkVVaa24PfBfKPQigSUZuM6sbuaCqo=",
+    "originContent": "  document_type: 2,",
+    "translatedContent": "  document_type: 2,"
+  },
+  {
+    "row": 225,
+    "rowsha": "4vSgluYH8DN2ST/dto1TvzF7/5zZHZ2NKKmFl5MQ+VU=",
+    "originContent": "  tags: [1, 3],",
+    "translatedContent": "  tags: [1, 3],"
+  },
+  {
+    "row": 226,
+    "rowsha": "F1QaaUfWPCD3INmAM7or+Gmebw3katntIfRWd236LN8=",
+    "originContent": "  archive_serial_number: \"2024-001\"",
+    "translatedContent": "  archive_serial_number: \"2024-001\""
+  },
+  {
+    "row": 227,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 228,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 229,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 230,
+    "rowsha": "96GaHOsHGbhgon+1EdPHNeaAXUbCHlRKDtZp5shNrO0=",
+    "originContent": "### Tag Operations",
+    "translatedContent": "### 태그 작업"
+  },
+  {
+    "row": 231,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 232,
+    "rowsha": "9M8Q2S4Cpn2oCjGvCMJ32CIgVYIVonQ8BdaGGxgCcG8=",
+    "originContent": "#### list_tags",
+    "translatedContent": "#### list_tags"
+  },
+  {
+    "row": 233,
+    "rowsha": "L3dMrCinyqURXMYGcAtpwLe57QulsXuhxUBzV9sKEkY=",
+    "originContent": "Get all tags.",
+    "translatedContent": "모든 태그를 가져옵니다."
+  },
+  {
+    "row": 234,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 235,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 236,
+    "rowsha": "eqQG1UPAnvS0D81QHEV/mb6CKew9LlYB+KHJsCQ03NM=",
+    "originContent": "list_tags()",
+    "translatedContent": "list_tags()"
+  },
+  {
+    "row": 237,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 238,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### create_tag"
+  },
+  {
+    "row": 239,
+    "rowsha": "jSeer3rAbtlWmZ8NMuAQ0TaBPRTUXaonNCggKhYvw6o=",
+    "originContent": "#### create_tag",
+    "translatedContent": "새 태그를 생성합니다."
+  },
+  {
+    "row": 240,
+    "rowsha": "tZUZb6032PXwtwz+B++myr75bZiOqzpZ1lTwJuHiiB0=",
+    "originContent": "Create a new tag.",
+    "translatedContent": ""
+  },
+  {
+    "row": 241,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "매개변수:"
+  },
+  {
+    "row": 242,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "- name: 태그 이름"
+  },
+  {
+    "row": 243,
+    "rowsha": "ssmkrEEO5mIEbvUEgerKn7p/SNf90bm94ZhxTBCj90Q=",
+    "originContent": "- name: Tag name",
+    "translatedContent": "- color (선택 사항): 16진수 색상 코드 (예: \"#ff0000\")"
+  },
+  {
+    "row": 244,
+    "rowsha": "4kCy3lBQchTwOqnGsjiHEghT3a19u1Ithe9e4x37bCY=",
+    "originContent": "- color (optional): Hex color code (e.g. \"#ff0000\")",
+    "translatedContent": "- match (선택 사항): 일치시킬 텍스트 패턴"
+  },
+  {
+    "row": 245,
+    "rowsha": "NUeP6ou4edBNNXzMGb+Soqs8z/eaQvbF22BKAmYS4Tw=",
+    "originContent": "- match (optional): Text pattern to match",
+    "translatedContent": "- matching_algorithm (선택 사항): \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\" 중 하나"
+  },
+  {
+    "row": 246,
+    "rowsha": "dI3fs3FlwH6zS3GgEJ+H73J2oaWqRBJZP7r80o8+ma4=",
+    "originContent": "- matching_algorithm (optional): One of \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"",
+    "translatedContent": ""
+  },
+  {
+    "row": 247,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 248,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 249,
+    "rowsha": "7NufHKLJf6s/3wmLXQ8kXKU5zO4tmUcOkkpdxBtWiF4=",
+    "originContent": "create_tag({",
+    "translatedContent": "create_tag({"
+  },
+  {
+    "row": 250,
+    "rowsha": "LE1qWmnkctI3uv7bgNFdGmRlP9WID+kT+XMRKBVKX2I=",
+    "originContent": "  name: \"Invoice\",",
+    "translatedContent": "  name: \"Invoice\","
+  },
+  {
+    "row": 251,
+    "rowsha": "N1yz84qm7+C3JEGLWyEokDZlIUOP+IDzvH2HDmRzw0I=",
+    "originContent": "  color: \"#ff0000\",",
+    "translatedContent": "  color: \"#ff0000\","
+  },
+  {
+    "row": 252,
+    "rowsha": "K9QdKcL+rLlq5Da0tpljZ4SnuBnzAq0xfZS2lgAT0iI=",
+    "originContent": "  match: \"invoice\",",
+    "translatedContent": "  match: \"invoice\","
+  },
+  {
+    "row": 253,
+    "rowsha": "kFuhYk49Kn2nfXnvalVs38QbBZeHdSzf2uZo1FbHlek=",
+    "originContent": "  matching_algorithm: \"fuzzy\"",
+    "translatedContent": "  matching_algorithm: \"fuzzy\""
+  },
+  {
+    "row": 254,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 255,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 256,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 257,
+    "rowsha": "hSoRrAzbkKmyvRfQZDTDV5dAVP+GCWDnsxP47UXx2Rw=",
+    "originContent": "### Correspondent Operations",
+    "translatedContent": "### 대리점 운영"
+  },
+  {
+    "row": 258,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 259,
+    "rowsha": "1Rr6ntmVEBSudCDBqBKdiQL0Bl8q9jwL65qP3rCVybk=",
+    "originContent": "#### list_correspondents",
+    "translatedContent": "#### list_correspondents"
+  },
+  {
+    "row": 260,
+    "rowsha": "S/p1ld9IeJDCgZZUPhcSeOfFwx0t31VFtPX4kfCznOU=",
+    "originContent": "Get all correspondents.",
+    "translatedContent": "모든 대리점을 가져옵니다."
+  },
+  {
+    "row": 261,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 262,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 263,
+    "rowsha": "G7xSl8y666pPKQC4KFM484wXXNOlx+N4FR17lNMTNjM=",
+    "originContent": "list_correspondents()",
+    "translatedContent": "list_correspondents()"
+  },
+  {
+    "row": 264,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 265,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 266,
+    "rowsha": "r/mJ/XCbjamqrRAOUFwB00oel3bUYurEG61HYTYrj/E=",
+    "originContent": "#### create_correspondent",
+    "translatedContent": "#### create_correspondent"
+  },
+  {
+    "row": 267,
+    "rowsha": "lJGi8tTmqHJZyP4AdiWIBpJjSbV2V1j2+eU1c+e0Yds=",
+    "originContent": "Create a new correspondent.",
+    "translatedContent": "새로운 담당자를 생성합니다."
+  },
+  {
+    "row": 268,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 269,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "매개변수:"
+  },
+  {
+    "row": 270,
+    "rowsha": "dpshW59oMKRFL8xqnOrgNQ/ktCV/5h5hKEaZFa/NiAI=",
+    "originContent": "- name: Correspondent name",
+    "translatedContent": "- name: 담당자 이름"
+  },
+  {
+    "row": 271,
+    "rowsha": "NUeP6ou4edBNNXzMGb+Soqs8z/eaQvbF22BKAmYS4Tw=",
+    "originContent": "- match (optional): Text pattern to match",
+    "translatedContent": "- match (선택 사항): 일치시킬 텍스트 패턴"
+  },
+  {
+    "row": 272,
+    "rowsha": "dI3fs3FlwH6zS3GgEJ+H73J2oaWqRBJZP7r80o8+ma4=",
+    "originContent": "- matching_algorithm (optional): One of \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"",
+    "translatedContent": "- matching_algorithm (선택 사항): \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\" 중 하나"
+  },
+  {
+    "row": 273,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 274,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 275,
+    "rowsha": "KGZygB8szAW6LGuFxgTodqnnJANndirHtZsqdwjpo0Q=",
+    "originContent": "create_correspondent({",
+    "translatedContent": "create_correspondent({"
+  },
+  {
+    "row": 276,
+    "rowsha": "LIlDS6VeNywytvaa5mSqf6GaLv2kugSP+4gYjDpR4kk=",
+    "originContent": "  name: \"ACME Corp\",",
+    "translatedContent": "  name: \"ACME Corp\","
+  },
+  {
+    "row": 277,
+    "rowsha": "U1aQdm8Q2OeBlBHrYRWCOAeG/lNKSFh4WSysNzb6C20=",
+    "originContent": "  match: \"ACME\",",
+    "translatedContent": "  match: \"ACME\","
+  },
+  {
+    "row": 278,
+    "rowsha": "kFuhYk49Kn2nfXnvalVs38QbBZeHdSzf2uZo1FbHlek=",
+    "originContent": "  matching_algorithm: \"fuzzy\"",
+    "translatedContent": "  matching_algorithm: \"fuzzy\""
+  },
+  {
+    "row": 279,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 280,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 281,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 282,
+    "rowsha": "x5iF/VoYdpO7vh8/oUK2Q0TazHW+RuughUXaWgIYWBc=",
+    "originContent": "### Document Type Operations",
+    "translatedContent": "### 문서 유형 작업"
+  },
+  {
+    "row": 283,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 284,
+    "rowsha": "LujjnSfFChTk62prRJgPpKLxghj9Lq1nbaDA/WuN28k=",
+    "originContent": "#### list_document_types",
+    "translatedContent": "#### list_document_types"
+  },
+  {
+    "row": 285,
+    "rowsha": "fZtABRWAX+jNZYEywFrT4H5ASTJ7zy2WmRmUrMeKQRs=",
+    "originContent": "Get all document types.",
+    "translatedContent": "모든 문서 유형을 가져옵니다."
+  },
+  {
+    "row": 286,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 287,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 288,
+    "rowsha": "r7Hj+qd6IgxDYMsJosNJb1IEk7mAT8FhztFqj5hrA6c=",
+    "originContent": "list_document_types()",
+    "translatedContent": "list_document_types()"
+  },
+  {
+    "row": 289,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 290,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 291,
+    "rowsha": "BaFHKvge2DM4qknqWaxReGYUy6G8nrMPS1MPJEKG/2Y=",
+    "originContent": "#### create_document_type",
+    "translatedContent": "#### create_document_type"
+  },
+  {
+    "row": 292,
+    "rowsha": "iDtpKPgTSmNhPedSZcByIZcTTEDm+F5QmFrLpJuE5/8=",
+    "originContent": "Create a new document type.",
+    "translatedContent": "새 문서 유형을 만듭니다."
+  },
+  {
+    "row": 293,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 294,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "매개변수:"
+  },
+  {
+    "row": 295,
+    "rowsha": "UHUynvQiIq6Ctd8WUspApzzb4NSTWeZ1pEXO8gFOUTA=",
+    "originContent": "- name: Document type name",
+    "translatedContent": "- name: 문서 유형 이름"
+  },
+  {
+    "row": 296,
+    "rowsha": "NUeP6ou4edBNNXzMGb+Soqs8z/eaQvbF22BKAmYS4Tw=",
+    "originContent": "- match (optional): Text pattern to match",
+    "translatedContent": "- match (선택 사항): 일치시킬 텍스트 패턴"
+  },
+  {
+    "row": 297,
+    "rowsha": "dI3fs3FlwH6zS3GgEJ+H73J2oaWqRBJZP7r80o8+ma4=",
+    "originContent": "- matching_algorithm (optional): One of \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"",
+    "translatedContent": "- matching_algorithm (선택 사항): \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\" 중 하나"
+  },
+  {
+    "row": 298,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 299,
+    "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+    "originContent": "```typescript",
+    "translatedContent": "```typescript"
+  },
+  {
+    "row": 300,
+    "rowsha": "P9HxR+xm3HDRuvWgq1UHSK/TjpWcyIo9yWAB+KFUBPY=",
+    "originContent": "create_document_type({",
+    "translatedContent": "create_document_type({"
+  },
+  {
+    "row": 301,
+    "rowsha": "LE1qWmnkctI3uv7bgNFdGmRlP9WID+kT+XMRKBVKX2I=",
+    "originContent": "  name: \"Invoice\",",
+    "translatedContent": "  name: \"Invoice\","
+  },
+  {
+    "row": 302,
+    "rowsha": "gvevXoJHZOrONR7AKMWsn/noZfyCEuz/d7IInHPncKc=",
+    "originContent": "  match: \"invoice total amount due\",",
+    "translatedContent": "  match: \"invoice total amount due\","
+  },
+  {
+    "row": 303,
+    "rowsha": "Hr6Cg0iUxfKR4aV8Nj9zm80cvSYeYgtwx4RZkxiYm6w=",
+    "originContent": "  matching_algorithm: \"any\"",
+    "translatedContent": "  matching_algorithm: \"any\""
+  },
+  {
+    "row": 304,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 305,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 306,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 오류 처리"
+  },
+  {
+    "row": 307,
+    "rowsha": "Zg7yEomjR/QFytY2+h9LSXR37d9hdCRyh/C/rNPzgho=",
+    "originContent": "## Error Handling",
+    "translatedContent": ""
+  },
+  {
+    "row": 308,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "서버는 다음과 같은 경우 명확한 오류 메시지를 표시합니다:"
+  },
+  {
+    "row": 309,
+    "rowsha": "JIaLmtjZBF/WHtIOezKEBrIJAdQqUaM11JCR3c5kM3E=",
+    "originContent": "The server will show clear error messages if:",
+    "translatedContent": "- Paperless-NGX URL 또는 API 토큰이 올바르지 않은 경우"
+  },
+  {
+    "row": 310,
+    "rowsha": "4ZLurCM4KI3PrPmlg1bDpUiI2o9C/cO1BUAVJaz1SO0=",
+    "originContent": "- The Paperless-NGX URL or API token is incorrect",
+    "translatedContent": "- Paperless-NGX 서버에 연결할 수 없는 경우"
+  },
+  {
+    "row": 311,
+    "rowsha": "eQH253llVUezFxnvwyY1/9XA+1IPFbJUeu8R7tmLrKU=",
+    "originContent": "- The Paperless-NGX server is unreachable",
+    "translatedContent": "- 요청한 작업이 실패한 경우"
+  },
+  {
+    "row": 312,
+    "rowsha": "28HlcSMzjo/LjYi8SCjyoyZ4fk9UlWWLiZ3G2qN7mgE=",
+    "originContent": "- The requested operation fails",
+    "translatedContent": "- 제공된 매개변수가 유효하지 않은 경우"
+  },
+  {
+    "row": 313,
+    "rowsha": "EgHSZzZkJbZjrRZ+xKzSWEabBhuWlFW0xz8W/PRh21w=",
+    "originContent": "- The provided parameters are invalid",
+    "translatedContent": ""
+  },
+  {
+    "row": 314,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 개발"
+  },
+  {
+    "row": 315,
+    "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+    "originContent": "## Development",
+    "translatedContent": ""
+  },
+  {
+    "row": 316,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "서버에 기여하거나 수정하고 싶으신가요? 알아야 할 사항은 다음과 같습니다:"
+  },
+  {
+    "row": 317,
+    "rowsha": "KQlYWhwucncZY0KNfrXPkZHg7wPoAaY8NqSrTBUGDaU=",
+    "originContent": "Want to contribute or modify the server? Here's what you need to know:",
+    "translatedContent": ""
+  },
+  {
+    "row": 318,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 저장소를 클론하세요"
+  },
+  {
+    "row": 319,
+    "rowsha": "ZK8Iy7jefVa7tPlAX3mUCH6pinIlVvQj8ounTkljVIE=",
+    "originContent": "1. Clone the repository",
+    "translatedContent": "2. 의존성을 설치하세요:"
+  },
+  {
+    "row": 320,
+    "rowsha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
+    "originContent": "2. Install dependencies:",
+    "translatedContent": ""
+  },
+  {
+    "row": 321,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 322,
+    "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+    "originContent": "npm install",
+    "translatedContent": "npm install"
+  },
+  {
+    "row": 323,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 324,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 325,
+    "rowsha": "aVzXAY3cj9XAj8YTsK5YEvmEmFakCv58TdaZcelTJSM=",
+    "originContent": "3. Make your changes to server.js",
+    "translatedContent": "3. server.js 파일을 수정하세요  "
+  },
+  {
+    "row": 326,
+    "rowsha": "ZvIGk4HFX1dvPQ263afwdJePXgdz5yf7CXU3nEc++2s=",
+    "originContent": "4. Test locally:",
+    "translatedContent": "4. 로컬에서 테스트하세요:"
+  },
+  {
+    "row": 327,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 328,
+    "rowsha": "OWzFtLOh1JpQSypgUuqKcvZLbzVqOsvRYfPX9nR12tA=",
+    "originContent": "node server.js http://localhost:8000 your-test-token",
+    "translatedContent": "node server.js http://localhost:8000 your-test-token"
+  },
+  {
+    "row": 329,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 330,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "서버는 다음으로 구축되었습니다:"
+  },
+  {
+    "row": 331,
+    "rowsha": "mnZ41Kp/CCMFGAYGqNsXcYvHJkH89AU6Bvly4HRgv1s=",
+    "originContent": "The server is built with:",
+    "translatedContent": "- [litemcp](https://github.com/wong2/litemcp): MCP 서버를 구축하기 위한 TypeScript 프레임워크"
+  },
+  {
+    "row": 332,
+    "rowsha": "rjFpc/RdnK4DcnkT0SigrVlc0OgY8Gq2mfwCMnKcJs0=",
+    "originContent": "- [litemcp](https://github.com/wong2/litemcp): A TypeScript framework for building MCP servers",
+    "translatedContent": "- [zod](https://github.com/colinhacks/zod): TypeScript 우선 스키마 검증"
+  },
+  {
+    "row": 333,
+    "rowsha": "ajorQza7akgQGx2DDoUP68RcFBSh5QE1if700Eucdjs=",
+    "originContent": "- [zod](https://github.com/colinhacks/zod): TypeScript-first schema validation",
+    "translatedContent": ""
+  },
+  {
+    "row": 334,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## API 문서"
+  },
+  {
+    "row": 335,
+    "rowsha": "YL+QEhp9seRnhAJNh6CSq9IHSf/hiEWvdUoknetIqVs=",
+    "originContent": "## API Documentation",
+    "translatedContent": ""
+  },
+  {
+    "row": 336,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 MCP 서버는 Paperless-NGX REST API의 엔드포인트를 구현합니다. 기본 API에 대한 자세한 내용은 [공식 문서](https://docs.paperless-ngx.com/api/)를 참조하세요."
+  },
+  {
+    "row": 337,
+    "rowsha": "MnoZw4JDpypcjGkcQfkvCmkhiP5HbRXYQcKZCk1edCk=",
+    "originContent": "This MCP server implements endpoints from the Paperless-NGX REST API. For more details about the underlying API, see the [official documentation](https://docs.paperless-ngx.com/api/).",
+    "translatedContent": ""
+  },
+  {
+    "row": 338,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## MCP 서버 실행"
+  },
+  {
+    "row": 339,
+    "rowsha": "36ijl0brOoeEEEi+YHfgGt9gKurMbgI2d/SU5edSGX4=",
+    "originContent": "## Running the MCP Server",
+    "translatedContent": ""
+  },
+  {
+    "row": 340,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MCP 서버는 두 가지 모드로 실행할 수 있습니다:"
+  },
+  {
+    "row": 341,
+    "rowsha": "uTKFPMHCbxNNCs68uh8lwwHKMiIBQ5vby1ZP8jyC5r0=",
+    "originContent": "The MCP server can be run in two modes:",
+    "translatedContent": ""
+  },
+  {
+    "row": 342,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 1. stdio (기본)"
+  },
+  {
+    "row": 343,
+    "rowsha": "mQD7UKTk1Qvc/qsQlROy9f6/6EDvVNblRAEjLJXuVMI=",
+    "originContent": "### 1. stdio (default)",
+    "translatedContent": ""
+  },
+  {
+    "row": 344,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 모드는 기본 모드입니다. 서버는 stdio를 통해 통신하며, CLI 및 직접 통합에 적합합니다."
+  },
+  {
+    "row": 345,
+    "rowsha": "Kf84LE9Db+Z7x/bCt2F6RHB91clPCkNo1wPfEAUyk5A=",
+    "originContent": "This is the default mode. The server communicates over stdio, suitable for CLI and direct integrations.",
+    "translatedContent": ""
+  },
+  {
+    "row": 346,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 347,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 348,
+    "rowsha": "9IF4Mrilo2HeRJAdRwhfBzOqvtpNQ1QPHWS1lRqiV+Y=",
+    "originContent": "npm run start -- <baseUrl> <token>",
+    "translatedContent": "npm run start -- <baseUrl> <token>"
+  },
+  {
+    "row": 349,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 350,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 351,
+    "rowsha": "pGNxd2uhj6kzGE5ENRLakDnOfUr/vZhsh2EHJgip03g=",
+    "originContent": "### 2. HTTP (Streamable HTTP Transport)",
+    "translatedContent": "### 2. HTTP (스트리밍 가능한 HTTP 전송)"
+  },
+  {
+    "row": 352,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 353,
+    "rowsha": "Lhom5zPqtkEbl+mvlYlg4lNaodObboEBG6MWWn+1njc=",
+    "originContent": "To run the server as an HTTP service, use the `--http` flag. You can also specify the port with `--port` (default: 3000). This mode requires [Express](https://expressjs.com/) to be installed (it is included as a dependency).",
+    "translatedContent": "서버를 HTTP 서비스로 실행하려면 `--http` 플래그를 사용하세요. 포트는 `--port`로 지정할 수 있습니다(기본값: 3000). 이 모드는 [Express](https://expressjs.com/)가 설치되어 있어야 합니다(종속성에 포함되어 있음)."
+  },
+  {
+    "row": 354,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 355,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 356,
+    "rowsha": "9V3SPsKfvvl8/iKB2tLwuoYji8JPRXkq683jfN8/FKI=",
+    "originContent": "npm run start -- <baseUrl> <token> --http --port 3000",
+    "translatedContent": "npm run start -- <baseUrl> <token> --http --port 3000"
+  },
+  {
+    "row": 357,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 358,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- MCP API는 지정된 포트에서 `POST /mcp`로 제공됩니다.  "
+  },
+  {
+    "row": 359,
+    "rowsha": "5Aflvuy1u+lEMXOdcrobKkPFGDPV3uLgURbLYSG+AXs=",
+    "originContent": "- The MCP API will be available at `POST /mcp` on the specified port.",
+    "translatedContent": "- 각 요청은 [StreamableHTTPServerTransport](https://github.com/modelcontextprotocol/typescript-sdk) 패턴에 따라 상태 비저장 방식으로 처리됩니다.  "
+  },
+  {
+    "row": 360,
+    "rowsha": "KfUVZqrCAQ2XbCFdViedxf1G6RFjGBsbSCap2L7R2eI=",
+    "originContent": "- Each request is handled statelessly, following the [StreamableHTTPServerTransport](https://github.com/modelcontextprotocol/typescript-sdk) pattern.",
+    "translatedContent": "- `/mcp`에 대한 GET 및 DELETE 요청은 405 Method Not Allowed를 반환합니다.  "
+  },
+  {
+    "row": 361,
+    "rowsha": "1O3ATgPZJbbnhb/n6DgShqAmUMuq8BOjXGu8egDjwiQ=",
+    "originContent": "- GET and DELETE requests to `/mcp` will return 405 Method Not Allowed.",
+    "translatedContent": ""
+  },
+  {
+    "row": 362,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

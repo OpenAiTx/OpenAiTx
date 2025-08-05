@@ -1,0 +1,2707 @@
+[
+  {
+    "Id": 1,
+    "Content": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/nloui-paperless-mcp-badge.png)](https://mseep.ai/app/nloui-paperless-mcp)\n\n# Paperless-NGX MCP Server\n\n[![smithery badge](https://smithery.ai/badge/@nloui/paperless-mcp)](https://smithery.ai/server/@nloui/paperless-mcp)\n\nAn MCP (Model Context Protocol) server for interacting with a Paperless-NGX API server. This server provides tools for managing documents, tags, correspondents, and document types in your Paperless-NGX instance.\n\n## Quick Start\n\n### Installing via Smithery\n\nTo install Paperless NGX MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@nloui/paperless-mcp):\n",
+    "ContentSha": "J3lHxBC6nAurKQWBHbM2uUCff9/TPUCwHMDExDE2NB0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[![Badge d'évaluation de sécurité MseeP.ai](https://mseep.net/pr/nloui-paperless-mcp-badge.png)](https://mseep.ai/app/nloui-paperless-mcp)\n\n# Serveur MCP Paperless-NGX\n\n[![badge smithery](https://smithery.ai/badge/@nloui/paperless-mcp)](https://smithery.ai/server/@nloui/paperless-mcp)\n\nUn serveur MCP (Model Context Protocol) pour interagir avec un serveur API Paperless-NGX. Ce serveur fournit des outils pour gérer les documents, les tags, les correspondants et les types de documents dans votre instance Paperless-NGX.\n\n## Démarrage rapide\n\n### Installation via Smithery\n\nPour installer automatiquement le serveur Paperless NGX MCP pour Claude Desktop via [Smithery](https://smithery.ai/server/@nloui/paperless-mcp) :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5BOp37o21rhbGnJjuBoMsCoqbfnXRGgoEvd1SzZzZww=",
+        "originContent": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/nloui-paperless-mcp-badge.png)](https://mseep.ai/app/nloui-paperless-mcp)",
+        "translatedContent": "[![Badge d'évaluation de sécurité MseeP.ai](https://mseep.net/pr/nloui-paperless-mcp-badge.png)](https://mseep.ai/app/nloui-paperless-mcp)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Fka+O+GpNWu+hKxtcyhGAy9laUGrCbAZ3ohF1Gf2ScI=",
+        "originContent": "# Paperless-NGX MCP Server",
+        "translatedContent": "# Serveur MCP Paperless-NGX"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "eGIwe7a8Q/PL498vCy0pVpqeKgZ2kM93FqCBR6mUhu0=",
+        "originContent": "[![smithery badge](https://smithery.ai/badge/@nloui/paperless-mcp)](https://smithery.ai/server/@nloui/paperless-mcp)",
+        "translatedContent": "[![badge smithery](https://smithery.ai/badge/@nloui/paperless-mcp)](https://smithery.ai/server/@nloui/paperless-mcp)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "uKUQsdyNenfqAVIRi8qlF69kX8bfMHYohgHoUKAq5MU=",
+        "originContent": "An MCP (Model Context Protocol) server for interacting with a Paperless-NGX API server. This server provides tools for managing documents, tags, correspondents, and document types in your Paperless-NGX instance.",
+        "translatedContent": "Un serveur MCP (Model Context Protocol) pour interagir avec un serveur API Paperless-NGX. Ce serveur fournit des outils pour gérer les documents, les tags, les correspondants et les types de documents dans votre instance Paperless-NGX."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## Démarrage rapide"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "nrsPouaM/D0rdbvJ3HSjfQ6SR6X/KFAu0no5T7HQzro=",
+        "originContent": "### Installing via Smithery",
+        "translatedContent": "### Installation via Smithery"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "eXVUIB38viDwctkaLTeWeEQVLPyhWAyF8OZm1qtQjBM=",
+        "originContent": "To install Paperless NGX MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@nloui/paperless-mcp):",
+        "translatedContent": "Pour installer automatiquement le serveur Paperless NGX MCP pour Claude Desktop via [Smithery](https://smithery.ai/server/@nloui/paperless-mcp) :"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nnpx -y @smithery/cli install @nloui/paperless-mcp --client claude\n```",
+    "ContentSha": "QwatLYhUU+QyzjQehOopuyiQ4UKepDTDcmiLf3Wx5zE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpx -y @smithery/cli install @nloui/paperless-mcp --client claude\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "V3IsM97PbizWHxaHn/H4rrlruSEXKOiJw+BIT409QqI=",
+        "originContent": "npx -y @smithery/cli install @nloui/paperless-mcp --client claude",
+        "translatedContent": "npx -y @smithery/cli install @nloui/paperless-mcp --client claude"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Manual Installation\n1. Install the MCP server:",
+    "ContentSha": "isv1t/BdXL9Syhe93QemdRcqyCAemMrIojLTYw/mx60=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Installation manuelle\n1. Installer le serveur MCP :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "zFp4AHeEmv1K//Saq31Al0AFX5sPI0pcQr+jQf0A/tA=",
+        "originContent": "### Manual Installation",
+        "translatedContent": "### Installation manuelle"
+      },
+      {
+        "row": 3,
+        "rowsha": "AK7ZyzmPpHFojFbQ0hIb9HVUisDRzXoXn2eUFHs7rrc=",
+        "originContent": "1. Install the MCP server:",
+        "translatedContent": "1. Installer le serveur MCP :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nnpm install -g paperless-mcp\n```",
+    "ContentSha": "TfU0GFee1F0xGTihyRGUU7sprBP199U/Yi+sWJwOLlo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install -g paperless-mcp\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "SpyKSTk5N51G7iaj+z5BI9FNNT7MJPap+rb9m4jduDk=",
+        "originContent": "npm install -g paperless-mcp",
+        "translatedContent": "npm install -g paperless-mcp"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n2. Add it to your Claude's MCP configuration:\n\nFor VSCode extension, edit `~/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json`:",
+    "ContentSha": "uKj2As5kW7mcMpbrjk3FBY+oAkZ6+QCna7wS3OMxKeo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2. Ajoutez-le à la configuration MCP de votre Claude :\n\nPour l'extension VSCode, modifiez `~/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json` :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "6UgFO4qBXh+srfxorW/4owwGrJCyD33tZaOqdQgYS4U=",
+        "originContent": "2. Add it to your Claude's MCP configuration:",
+        "translatedContent": "2. Ajoutez-le à la configuration MCP de votre Claude :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "03SYgwGZcq5HdwTs2To64zSWqu36qYncQqiI/NOob/M=",
+        "originContent": "For VSCode extension, edit `~/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json`:",
+        "translatedContent": "Pour l'extension VSCode, modifiez `~/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json` :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```json\n{\n  \"mcpServers\": {\n    \"paperless\": {\n      \"command\": \"npx\",\n      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]\n    }\n  }\n}\n```",
+    "ContentSha": "TgluDsmc15hqinCjutArYLrVIwLTly0qyGyrGZnx88k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"mcpServers\": {\n    \"paperless\": {\n      \"command\": \"npx\",\n      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]\n    }\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZckkIpKixltZLtYSjGOhgJjNOCkOb0HBckGFnZZHIuw=",
+        "originContent": "  \"mcpServers\": {",
+        "translatedContent": "  \"mcpServers\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "XhK3UezVtQbStaMaZZ9Gs9rNkaOHDc0sXpJqgp7f/84=",
+        "originContent": "    \"paperless\": {",
+        "translatedContent": "    \"paperless\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "m1brNZrsMVLBwdNTiAu1UnTnL8Y0znjxjarXfqBMLmw=",
+        "originContent": "      \"command\": \"npx\",",
+        "translatedContent": "      \"command\": \"npx\","
+      },
+      {
+        "row": 6,
+        "rowsha": "FcpEfoTaS71Ifc9y3dbhaEjoNZ0mjDzoxQO5laTrusI=",
+        "originContent": "      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]",
+        "translatedContent": "      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]"
+      },
+      {
+        "row": 7,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 8,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nFor Claude desktop app, edit `~/Library/Application Support/Claude/claude_desktop_config.json`:",
+    "ContentSha": "gd2KE/D1gCqhpG+/Ped+YJRi47llELJUmSdVLihWvH4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nPour l'application de bureau Claude, modifiez `~/Library/Application Support/Claude/claude_desktop_config.json` :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "LGpgzbhZB78Owg8y1Uv+VtDwway62WnhnXex5kQ6j0k=",
+        "originContent": "For Claude desktop app, edit `~/Library/Application Support/Claude/claude_desktop_config.json`:",
+        "translatedContent": "Pour l'application de bureau Claude, modifiez `~/Library/Application Support/Claude/claude_desktop_config.json` :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```json\n{\n  \"mcpServers\": {\n    \"paperless\": {\n      \"command\": \"npx\",\n      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]\n    }\n  }\n}\n```",
+    "ContentSha": "TgluDsmc15hqinCjutArYLrVIwLTly0qyGyrGZnx88k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"mcpServers\": {\n    \"paperless\": {\n      \"command\": \"npx\",\n      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]\n    }\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZckkIpKixltZLtYSjGOhgJjNOCkOb0HBckGFnZZHIuw=",
+        "originContent": "  \"mcpServers\": {",
+        "translatedContent": "  \"mcpServers\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "XhK3UezVtQbStaMaZZ9Gs9rNkaOHDc0sXpJqgp7f/84=",
+        "originContent": "    \"paperless\": {",
+        "translatedContent": "    \"paperless\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "m1brNZrsMVLBwdNTiAu1UnTnL8Y0znjxjarXfqBMLmw=",
+        "originContent": "      \"command\": \"npx\",",
+        "translatedContent": "      \"command\": \"npx\","
+      },
+      {
+        "row": 6,
+        "rowsha": "FcpEfoTaS71Ifc9y3dbhaEjoNZ0mjDzoxQO5laTrusI=",
+        "originContent": "      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]",
+        "translatedContent": "      \"args\": [\"paperless-mcp\", \"http://your-paperless-instance:8000\", \"your-api-token\"]"
+      },
+      {
+        "row": 7,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 8,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n3. Get your API token:\n   1. Log into your Paperless-NGX instance\n   2. Click your username in the top right\n   3. Select \"My Profile\"\n   4. Click the circular arrow button to generate a new token\n\n4. Replace the placeholders in your MCP config:\n   - `http://your-paperless-instance:8000` with your Paperless-NGX URL\n   - `your-api-token` with the token you just generated\n\nThat's it! Now you can ask Claude to help you manage your Paperless-NGX documents.\n\n## Example Usage\n\nHere are some things you can ask Claude to do:\n\n- \"Show me all documents tagged as 'Invoice'\"\n- \"Search for documents containing 'tax return'\"\n- \"Create a new tag called 'Receipts' with color #FF0000\"\n- \"Download document #123\"\n- \"List all correspondents\"\n- \"Create a new document type called 'Bank Statement'\"\n\n## Available Tools\n\n### Document Operations\n\n#### list_documents\nGet a paginated list of all documents.\n\nParameters:\n- page (optional): Page number\n- page_size (optional): Number of documents per page\n",
+    "ContentSha": "7527jM4/leic/BX/Ti14mqt6uBtj4PaeUC9X/ZqxdgA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. Obtenez votre jeton API :  \n   1. Connectez-vous à votre instance Paperless-NGX  \n   2. Cliquez sur votre nom d'utilisateur en haut à droite  \n   3. Sélectionnez « Mon profil »  \n   4. Cliquez sur le bouton flèche circulaire pour générer un nouveau jeton  \n\n4. Remplacez les espaces réservés dans votre configuration MCP :  \n   - `http://your-paperless-instance:8000` par l’URL de votre Paperless-NGX  \n   - `your-api-token` par le jeton que vous venez de générer  \n\nC’est tout ! Vous pouvez maintenant demander à Claude de vous aider à gérer vos documents Paperless-NGX.  \n\n## Exemple d’utilisation  \n\nVoici quelques exemples de demandes que vous pouvez faire à Claude :  \n\n- « Montre-moi tous les documents étiquetés ‘Facture’ »  \n- « Recherche des documents contenant ‘déclaration de revenus’ »  \n- « Crée une nouvelle étiquette appelée ‘Reçus’ avec la couleur #FF0000 »  \n- « Télécharge le document n°123 »  \n- « Liste tous les correspondants »  \n- « Crée un nouveau type de document appelé ‘Relevé bancaire’ »  \n\n## Outils disponibles  \n\n### Opérations sur les documents  \n\n#### list_documents  \nObtenir une liste paginée de tous les documents.  \n\nParamètres :  \n- page (optionnel) : numéro de la page  \n- page_size (optionnel) : nombre de documents par page  \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Obtenez votre jeton API :  "
+      },
+      {
+        "row": 2,
+        "rowsha": "YnLOmlrQWkNYVRJ58QOEQ9mZOTohMMwtEAYRI5i2wwA=",
+        "originContent": "3. Get your API token:",
+        "translatedContent": "   1. Connectez-vous à votre instance Paperless-NGX  "
+      },
+      {
+        "row": 3,
+        "rowsha": "rjb/ikX+G6AK4DkL0h1WrAIFgg4RAJXCRDJk1MmkQl0=",
+        "originContent": "   1. Log into your Paperless-NGX instance",
+        "translatedContent": "   2. Cliquez sur votre nom d'utilisateur en haut à droite  "
+      },
+      {
+        "row": 4,
+        "rowsha": "LC65gsXqH3bdn/ZB+hRq4t8DcgYAT/mPeAv/CqPFa1I=",
+        "originContent": "   2. Click your username in the top right",
+        "translatedContent": "   3. Sélectionnez « Mon profil »  "
+      },
+      {
+        "row": 5,
+        "rowsha": "+urbUesuDJaiadehSctxybmAo4XfR/gWw5dNPUpKrFY=",
+        "originContent": "   3. Select \"My Profile\"",
+        "translatedContent": "   4. Cliquez sur le bouton flèche circulaire pour générer un nouveau jeton  "
+      },
+      {
+        "row": 6,
+        "rowsha": "K7UlkH8eVPTR1WV5+mX/Ymxx/Vb1QBQMWcX/76e0Pbw=",
+        "originContent": "   4. Click the circular arrow button to generate a new token",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. Remplacez les espaces réservés dans votre configuration MCP :  "
+      },
+      {
+        "row": 8,
+        "rowsha": "IQPHNIrRRjSy+J+Ac/jUzJxYS2VmMat3OKebw6ivY64=",
+        "originContent": "4. Replace the placeholders in your MCP config:",
+        "translatedContent": "   - `http://your-paperless-instance:8000` par l’URL de votre Paperless-NGX  "
+      },
+      {
+        "row": 9,
+        "rowsha": "YWgiXPzXEHYQq5bWvdZp0aVopc++WStUT7f10pXspXg=",
+        "originContent": "   - `http://your-paperless-instance:8000` with your Paperless-NGX URL",
+        "translatedContent": "   - `your-api-token` par le jeton que vous venez de générer  "
+      },
+      {
+        "row": 10,
+        "rowsha": "QnY/h3l1z+G2Sc1ES0a1/qFTpwIVN7rwH7CaifNvGeM=",
+        "originContent": "   - `your-api-token` with the token you just generated",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "C’est tout ! Vous pouvez maintenant demander à Claude de vous aider à gérer vos documents Paperless-NGX.  "
+      },
+      {
+        "row": 12,
+        "rowsha": "+HIz+BK3tZxUeiv4Is+gZQrwwhmReq83FXUeff1kwlA=",
+        "originContent": "That's it! Now you can ask Claude to help you manage your Paperless-NGX documents.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Exemple d’utilisation  "
+      },
+      {
+        "row": 14,
+        "rowsha": "nCMRqL+z2RLAiY8/bspPiTBHkCBv43qQNGF97p0D5Bo=",
+        "originContent": "## Example Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Voici quelques exemples de demandes que vous pouvez faire à Claude :  "
+      },
+      {
+        "row": 16,
+        "rowsha": "84izLZ0M5jFO4vRsTtR2YzYshWxIQSTd8WpUClGMJVw=",
+        "originContent": "Here are some things you can ask Claude to do:",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- « Montre-moi tous les documents étiquetés ‘Facture’ »  "
+      },
+      {
+        "row": 18,
+        "rowsha": "XiDaVwb5RXSQ3WHjH6t1AQolNDB5RyMz9aN903Gdgy8=",
+        "originContent": "- \"Show me all documents tagged as 'Invoice'\"",
+        "translatedContent": "- « Recherche des documents contenant ‘déclaration de revenus’ »  "
+      },
+      {
+        "row": 19,
+        "rowsha": "cW5RnN8KbpgCQ8Ieh5/LUW9W1uRLjkzjFkVjzgmjw7k=",
+        "originContent": "- \"Search for documents containing 'tax return'\"",
+        "translatedContent": "- « Crée une nouvelle étiquette appelée ‘Reçus’ avec la couleur #FF0000 »  "
+      },
+      {
+        "row": 20,
+        "rowsha": "eOR7sTmdXPvY3StHoz9dtEJgazBoqcqQqGB0r7FKVSY=",
+        "originContent": "- \"Create a new tag called 'Receipts' with color #FF0000\"",
+        "translatedContent": "- « Télécharge le document n°123 »  "
+      },
+      {
+        "row": 21,
+        "rowsha": "5FsS4fixP84luMS+KhgCes4RD/c/d3y/mOlxzQtH4Og=",
+        "originContent": "- \"Download document #123\"",
+        "translatedContent": "- « Liste tous les correspondants »  "
+      },
+      {
+        "row": 22,
+        "rowsha": "tGxai1bNzJ2DGPQBjROnlTCvIDB0/hB+MhDGq9c+Q1A=",
+        "originContent": "- \"List all correspondents\"",
+        "translatedContent": "- « Crée un nouveau type de document appelé ‘Relevé bancaire’ »  "
+      },
+      {
+        "row": 23,
+        "rowsha": "Z3I22iKvFBrspZdiwwdmC4znRu6noQjz1iKqCnfYXYM=",
+        "originContent": "- \"Create a new document type called 'Bank Statement'\"",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Outils disponibles  "
+      },
+      {
+        "row": 25,
+        "rowsha": "3p9HxS/FxYrtplhfcyaONljFJzSCmQticBC3tEpfjgo=",
+        "originContent": "## Available Tools",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Opérations sur les documents  "
+      },
+      {
+        "row": 27,
+        "rowsha": "3l4IqrGlPZRJLfXtmerMWtHhZq3MLAR2ZNz10iwYLIo=",
+        "originContent": "### Document Operations",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### list_documents  "
+      },
+      {
+        "row": 29,
+        "rowsha": "qn6TOdnwVP9JQ39QHe7Tku3nqPEDZoSrRu0pegXJnbQ=",
+        "originContent": "#### list_documents",
+        "translatedContent": "Obtenir une liste paginée de tous les documents.  "
+      },
+      {
+        "row": 30,
+        "rowsha": "AlIbMyTcFH6DjO/MtPZCYQU5XLSAX0tY87S39ZYP+FI=",
+        "originContent": "Get a paginated list of all documents.",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Paramètres :  "
+      },
+      {
+        "row": 32,
+        "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+        "originContent": "Parameters:",
+        "translatedContent": "- page (optionnel) : numéro de la page  "
+      },
+      {
+        "row": 33,
+        "rowsha": "EvTLKHWoDOAPA1DcIRlMd3p4XsM68oPLAUss+VzamtY=",
+        "originContent": "- page (optional): Page number",
+        "translatedContent": "- page_size (optionnel) : nombre de documents par page  "
+      },
+      {
+        "row": 34,
+        "rowsha": "u7oz1X+j0CQHNCiowjoRaQ6E/W6CH3xFPFFryYFCpwQ=",
+        "originContent": "- page_size (optional): Number of documents per page",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```typescript\nlist_documents({\n  page: 1,\n  page_size: 25\n})\n```",
+    "ContentSha": "+xWQgtacq8eqHDeepHjDwnj44HrPNylb+9CwIhTGpRw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\nlist_documents({\n  page: 1,\n  page_size: 25\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "q5CKoaM6KRSSW3fkj1NZdbGmrWLIMHbeDBDFXOAb/sw=",
+        "originContent": "list_documents({",
+        "translatedContent": "list_documents({"
+      },
+      {
+        "row": 3,
+        "rowsha": "v/NyT6NHEteiiiTMA5QTdNG2smCOu6h2HlEs+ZUCDGk=",
+        "originContent": "  page: 1,",
+        "translatedContent": "  page: 1,"
+      },
+      {
+        "row": 4,
+        "rowsha": "kB2w+OmbcLpWKUZU+84U37ARzPmIHhV/PFEFSqTbEDM=",
+        "originContent": "  page_size: 25",
+        "translatedContent": "  page_size: 25"
+      },
+      {
+        "row": 5,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n#### get_document\nGet a specific document by ID.\n\nParameters:\n- id: Document ID\n",
+    "ContentSha": "w62r/kP6Q6Q2iSm1FgVbDsikSQZOsZlJfEL2Tzcqfjg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### get_document\nObtenir un document spécifique par ID.\n\nParamètres :\n- id : ID du document\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "T3niO0XGvYyB2U7mvr1CMep32MeU83lqnaoHxYxQdOg=",
+        "originContent": "#### get_document",
+        "translatedContent": "#### get_document"
+      },
+      {
+        "row": 3,
+        "rowsha": "5R4D7cEIu0GTIbgOkeW3KLeur7o+fx0okmrePE4g+CU=",
+        "originContent": "Get a specific document by ID.",
+        "translatedContent": "Obtenir un document spécifique par ID."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+        "originContent": "Parameters:",
+        "translatedContent": "Paramètres :"
+      },
+      {
+        "row": 6,
+        "rowsha": "zEuQfYi1AI0tIMTMVXHAVuCnwbBfBMqfw2DYMTlkZIw=",
+        "originContent": "- id: Document ID",
+        "translatedContent": "- id : ID du document"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```typescript\nget_document({\n  id: 123\n})\n```",
+    "ContentSha": "bC68pXPc+DJjSnXzracNd+bPVro70iQIaVoro7p9U7I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\nget_document({\n  id: 123\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "Fdc5DLMyTOFfjBVdn8q+lHfTvb95pr0q4WzMlbpO8h0=",
+        "originContent": "get_document({",
+        "translatedContent": "get_document({"
+      },
+      {
+        "row": 3,
+        "rowsha": "ASoKrd+c08He8Ym+O8Zt7Uv2O5RtEssxGjmKydaWgvg=",
+        "originContent": "  id: 123",
+        "translatedContent": "  id: 123"
+      },
+      {
+        "row": 4,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n#### search_documents\nFull-text search across documents.\n\nParameters:\n- query: Search query string\n",
+    "ContentSha": "576f0AqboUye9HeK3Dh/oWT3rrM+XsVfhiaFbg9Vhh0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### search_documents\nRecherche en texte intégral dans les documents.\n\nParamètres :\n- query : Chaîne de requête de recherche\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "WCwt54spIZDFKnIW4VAX21s6M6FamGmzX6OsHarHSFk=",
+        "originContent": "#### search_documents",
+        "translatedContent": "#### search_documents"
+      },
+      {
+        "row": 3,
+        "rowsha": "Qt2GOxA2DJUzThMpIKS6FS3TKdulucxUWLgDPCBeCK4=",
+        "originContent": "Full-text search across documents.",
+        "translatedContent": "Recherche en texte intégral dans les documents."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+        "originContent": "Parameters:",
+        "translatedContent": "Paramètres :"
+      },
+      {
+        "row": 6,
+        "rowsha": "DMlWNun4YSR1IAtsnp7UMdgiOZlH6owtsWhDVbjJKFs=",
+        "originContent": "- query: Search query string",
+        "translatedContent": "- query : Chaîne de requête de recherche"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```typescript\nsearch_documents({\n  query: \"invoice 2024\"\n})\n```",
+    "ContentSha": "0gruPKPTD45DzSBGCtQuS0l2X7bHTdEOTLyto2y9+i0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\nsearch_documents({\n  query: \"invoice 2024\"\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "Qzle7+NeYSRhpsiAI7V5oV/LxW9ABEplxjtxe12ccG4=",
+        "originContent": "search_documents({",
+        "translatedContent": "search_documents({"
+      },
+      {
+        "row": 3,
+        "rowsha": "d+h1UFM3g2EBRra75nra/vIcoxsrLmmRri7v6DYNfEU=",
+        "originContent": "  query: \"invoice 2024\"",
+        "translatedContent": "  query: \"invoice 2024\""
+      },
+      {
+        "row": 4,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n#### download_document\nDownload a document file by ID.\n\nParameters:\n- id: Document ID\n- original (optional): If true, downloads original file instead of archived version\n",
+    "ContentSha": "FPBQ98slNywJhHiHbFctdUmC6DgXfSpT0MR6pY/Ptb8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### download_document\nTélécharger un fichier de document par ID.\n\nParamètres :\n- id : ID du document\n- original (optionnel) : Si vrai, télécharge le fichier original au lieu de la version archivée\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "GQSjyWKnnnrOzty1w2XQRncF3d0nSTrhu//BMWPzgGE=",
+        "originContent": "#### download_document",
+        "translatedContent": "#### download_document"
+      },
+      {
+        "row": 3,
+        "rowsha": "m8j1zAjgyb0TAfBcVcCQ7LBSVZp8u7/vjNqZCMtFZ0M=",
+        "originContent": "Download a document file by ID.",
+        "translatedContent": "Télécharger un fichier de document par ID."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+        "originContent": "Parameters:",
+        "translatedContent": "Paramètres :"
+      },
+      {
+        "row": 6,
+        "rowsha": "zEuQfYi1AI0tIMTMVXHAVuCnwbBfBMqfw2DYMTlkZIw=",
+        "originContent": "- id: Document ID",
+        "translatedContent": "- id : ID du document"
+      },
+      {
+        "row": 7,
+        "rowsha": "cpsY7GQNOJc4SrRu4s6ogybXk1MrNMnSdE/FFEYMe4w=",
+        "originContent": "- original (optional): If true, downloads original file instead of archived version",
+        "translatedContent": "- original (optionnel) : Si vrai, télécharge le fichier original au lieu de la version archivée"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```typescript\ndownload_document({\n  id: 123,\n  original: false\n})\n```",
+    "ContentSha": "E/SlrjpTT0MyDpF7shmYAIsE57+utuQKNnh8DJHWtXo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\ndownload_document({\n  id: 123,\n  original: false\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "XArORkYycQ5dpuG27Nnq2CiMzwY1dDQAkd4w2nMbFxI=",
+        "originContent": "download_document({",
+        "translatedContent": "download_document({"
+      },
+      {
+        "row": 3,
+        "rowsha": "C2wltRUs5u6+SfGv2asM7VjDWsIdagdu/bLjRs91TKo=",
+        "originContent": "  id: 123,",
+        "translatedContent": "  id: 123,"
+      },
+      {
+        "row": 4,
+        "rowsha": "IUrOyQpqqF93ZdfpOUpyRyatvoAfBYIfScFCf9+lLd0=",
+        "originContent": "  original: false",
+        "translatedContent": "  original: false"
+      },
+      {
+        "row": 5,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n#### bulk_edit_documents\nPerform bulk operations on multiple documents.\n\nParameters:\n- documents: Array of document IDs\n- method: One of:\n  - set_correspondent: Set correspondent for documents\n  - set_document_type: Set document type for documents\n  - set_storage_path: Set storage path for documents\n  - add_tag: Add a tag to documents\n  - remove_tag: Remove a tag from documents\n  - modify_tags: Add and/or remove multiple tags\n  - delete: Delete documents\n  - reprocess: Reprocess documents\n  - set_permissions: Set document permissions\n  - merge: Merge multiple documents\n  - split: Split a document into multiple documents\n  - rotate: Rotate document pages\n  - delete_pages: Delete specific pages from a document\n- Additional parameters based on method:\n  - correspondent: ID for set_correspondent\n  - document_type: ID for set_document_type\n  - storage_path: ID for set_storage_path\n  - tag: ID for add_tag/remove_tag\n  - add_tags: Array of tag IDs for modify_tags\n  - remove_tags: Array of tag IDs for modify_tags\n  - permissions: Object for set_permissions with owner, permissions, merge flag\n  - metadata_document_id: ID for merge to specify metadata source\n  - delete_originals: Boolean for merge/split\n  - pages: String for split \"[1,2-3,4,5-7]\" or delete_pages \"[2,3,4]\"\n  - degrees: Number for rotate (90, 180, or 270)\n\nExamples:",
+    "ContentSha": "cvjE7cIRrPjJZwWNt7RZUfTWS1V27sA9MMsI7a6/yFs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### bulk_edit_documents\nEffectuer des opérations groupées sur plusieurs documents.\n\nParamètres :\n- documents : Tableau d’identifiants de documents\n- method : L’un des suivants :\n  - set_correspondent : Définir le correspondant pour les documents\n  - set_document_type : Définir le type de document pour les documents\n  - set_storage_path : Définir le chemin de stockage pour les documents\n  - add_tag : Ajouter un tag aux documents\n  - remove_tag : Retirer un tag des documents\n  - modify_tags : Ajouter et/ou retirer plusieurs tags\n  - delete : Supprimer des documents\n  - reprocess : Re-traiter les documents\n  - set_permissions : Définir les permissions des documents\n  - merge : Fusionner plusieurs documents\n  - split : Diviser un document en plusieurs documents\n  - rotate : Pivoter les pages du document\n  - delete_pages : Supprimer des pages spécifiques d’un document\n- Paramètres supplémentaires selon la méthode :\n  - correspondent : ID pour set_correspondent\n  - document_type : ID pour set_document_type\n  - storage_path : ID pour set_storage_path\n  - tag : ID pour add_tag/remove_tag\n  - add_tags : Tableau d’IDs de tags pour modify_tags\n  - remove_tags : Tableau d’IDs de tags pour modify_tags\n  - permissions : Objet pour set_permissions avec owner, permissions, flag merge\n  - metadata_document_id : ID pour merge spécifiant la source des métadonnées\n  - delete_originals : Booléen pour merge/split\n  - pages : Chaîne pour split \"[1,2-3,4,5-7]\" ou delete_pages \"[2,3,4]\"\n  - degrees : Nombre pour rotate (90, 180, ou 270)\n\nExemples :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "narvMe3I1v/zb3wAWeGfcUaqnIYC06eyW0cU0jDmubM=",
+        "originContent": "#### bulk_edit_documents",
+        "translatedContent": "#### bulk_edit_documents"
+      },
+      {
+        "row": 3,
+        "rowsha": "dDL+odpgizBo4zhlfH6fAEbmlp0qNF0505B03pbTEXw=",
+        "originContent": "Perform bulk operations on multiple documents.",
+        "translatedContent": "Effectuer des opérations groupées sur plusieurs documents."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+        "originContent": "Parameters:",
+        "translatedContent": "Paramètres :"
+      },
+      {
+        "row": 6,
+        "rowsha": "sVsrBOLZWXaS2zkno/NslJPdtdfls5YHgFO9L/5g+bk=",
+        "originContent": "- documents: Array of document IDs",
+        "translatedContent": "- documents : Tableau d’identifiants de documents"
+      },
+      {
+        "row": 7,
+        "rowsha": "uhY/xzqeBYUY0CRafjXWzIu0Uu0q77rqiUf81/3Nwds=",
+        "originContent": "- method: One of:",
+        "translatedContent": "- method : L’un des suivants :"
+      },
+      {
+        "row": 8,
+        "rowsha": "3775gh5QphSVQghONaCKIxuGIwnuJO99u5+wGD93jpI=",
+        "originContent": "  - set_correspondent: Set correspondent for documents",
+        "translatedContent": "  - set_correspondent : Définir le correspondant pour les documents"
+      },
+      {
+        "row": 9,
+        "rowsha": "ojeA1700Hw92+CP1vRF70hGjysweEdmybZpMN7GbtWk=",
+        "originContent": "  - set_document_type: Set document type for documents",
+        "translatedContent": "  - set_document_type : Définir le type de document pour les documents"
+      },
+      {
+        "row": 10,
+        "rowsha": "xyehcvQ8q5m0jG8c87ULBbZ9D0h64VT/oFcAWQsQSAc=",
+        "originContent": "  - set_storage_path: Set storage path for documents",
+        "translatedContent": "  - set_storage_path : Définir le chemin de stockage pour les documents"
+      },
+      {
+        "row": 11,
+        "rowsha": "RSktteML+/aFuy9tV3LDqh/XG5yvVQD7XLDvUCNgRL0=",
+        "originContent": "  - add_tag: Add a tag to documents",
+        "translatedContent": "  - add_tag : Ajouter un tag aux documents"
+      },
+      {
+        "row": 12,
+        "rowsha": "eEqqDJ5xdLs97Ll9EOfDpj4dz/1a+8ybDQntzwyX07c=",
+        "originContent": "  - remove_tag: Remove a tag from documents",
+        "translatedContent": "  - remove_tag : Retirer un tag des documents"
+      },
+      {
+        "row": 13,
+        "rowsha": "qRo0sMFfZuTgk8HRpX2FWrJ2eX8evAob/l4Um6XZfoE=",
+        "originContent": "  - modify_tags: Add and/or remove multiple tags",
+        "translatedContent": "  - modify_tags : Ajouter et/ou retirer plusieurs tags"
+      },
+      {
+        "row": 14,
+        "rowsha": "H3e3rAoMhX2xbZiN4X65YCARFDSOLk6HZ+7xjZLJ0T4=",
+        "originContent": "  - delete: Delete documents",
+        "translatedContent": "  - delete : Supprimer des documents"
+      },
+      {
+        "row": 15,
+        "rowsha": "FjACy70SlIWAWcrG0FjyPOZ2PlFUnHaoarYfguIgJyE=",
+        "originContent": "  - reprocess: Reprocess documents",
+        "translatedContent": "  - reprocess : Re-traiter les documents"
+      },
+      {
+        "row": 16,
+        "rowsha": "pZZIkT0UpvG2cdr5FVr93VtEcOqmrRQwBrTosh5nw38=",
+        "originContent": "  - set_permissions: Set document permissions",
+        "translatedContent": "  - set_permissions : Définir les permissions des documents"
+      },
+      {
+        "row": 17,
+        "rowsha": "rSOoYao+eSEiV86SRaC5OFvllAWeQ9T6Iacp1lZ9uzw=",
+        "originContent": "  - merge: Merge multiple documents",
+        "translatedContent": "  - merge : Fusionner plusieurs documents"
+      },
+      {
+        "row": 18,
+        "rowsha": "gjnsbcMDiFtWXbCYqg25BQDyDeHlbNTrIRqc5pRMgZU=",
+        "originContent": "  - split: Split a document into multiple documents",
+        "translatedContent": "  - split : Diviser un document en plusieurs documents"
+      },
+      {
+        "row": 19,
+        "rowsha": "kpDlDs6IZaBPfxEzpN/5bkPac8UNUGkjMpfaVaBdNQU=",
+        "originContent": "  - rotate: Rotate document pages",
+        "translatedContent": "  - rotate : Pivoter les pages du document"
+      },
+      {
+        "row": 20,
+        "rowsha": "icfobfluRhic033/lhCuX7GCGd7a8xe2zgAeGfawOgE=",
+        "originContent": "  - delete_pages: Delete specific pages from a document",
+        "translatedContent": "  - delete_pages : Supprimer des pages spécifiques d’un document"
+      },
+      {
+        "row": 21,
+        "rowsha": "WGOdn+dt8+pXVY4VUPIm2d5cI8Uns7SHaRTjq4VzMDk=",
+        "originContent": "- Additional parameters based on method:",
+        "translatedContent": "- Paramètres supplémentaires selon la méthode :"
+      },
+      {
+        "row": 22,
+        "rowsha": "c1dvFulssswCl6zEoBGerXTEBRJVqsz5xOZuZpA4Cog=",
+        "originContent": "  - correspondent: ID for set_correspondent",
+        "translatedContent": "  - correspondent : ID pour set_correspondent"
+      },
+      {
+        "row": 23,
+        "rowsha": "4tfbC/0Hb511gpL2S+2p6feTuIRi+omu37ZalcP+J1c=",
+        "originContent": "  - document_type: ID for set_document_type",
+        "translatedContent": "  - document_type : ID pour set_document_type"
+      },
+      {
+        "row": 24,
+        "rowsha": "AO63CPGDnYBRvHKf9HhXSKHBC7hfUy+maIgELGqQoyM=",
+        "originContent": "  - storage_path: ID for set_storage_path",
+        "translatedContent": "  - storage_path : ID pour set_storage_path"
+      },
+      {
+        "row": 25,
+        "rowsha": "BuHZWIIZO4rWAVf9MjSvnisS7vMgUsE9IpJM3/8xOfU=",
+        "originContent": "  - tag: ID for add_tag/remove_tag",
+        "translatedContent": "  - tag : ID pour add_tag/remove_tag"
+      },
+      {
+        "row": 26,
+        "rowsha": "0871qgdkx7cf/97ts39PnW+mgBQbxiDP8qrWiPGf7QE=",
+        "originContent": "  - add_tags: Array of tag IDs for modify_tags",
+        "translatedContent": "  - add_tags : Tableau d’IDs de tags pour modify_tags"
+      },
+      {
+        "row": 27,
+        "rowsha": "N0epTZed/lt2mgdtSr7J/t/+ecdzspG+Sy6fE3E0lv4=",
+        "originContent": "  - remove_tags: Array of tag IDs for modify_tags",
+        "translatedContent": "  - remove_tags : Tableau d’IDs de tags pour modify_tags"
+      },
+      {
+        "row": 28,
+        "rowsha": "2Qyi0m9PmTYGvsEw3VwN+jgT95/tQmu9DrBTZx8oy84=",
+        "originContent": "  - permissions: Object for set_permissions with owner, permissions, merge flag",
+        "translatedContent": "  - permissions : Objet pour set_permissions avec owner, permissions, flag merge"
+      },
+      {
+        "row": 29,
+        "rowsha": "Hn+d+9DYVIteMznNBLPPVwVzhJxFF0bBER/14+8ro9c=",
+        "originContent": "  - metadata_document_id: ID for merge to specify metadata source",
+        "translatedContent": "  - metadata_document_id : ID pour merge spécifiant la source des métadonnées"
+      },
+      {
+        "row": 30,
+        "rowsha": "jZTQUntfgoguQRNC76ZX2ME5+pMfdbFwAA9L18mMP7w=",
+        "originContent": "  - delete_originals: Boolean for merge/split",
+        "translatedContent": "  - delete_originals : Booléen pour merge/split"
+      },
+      {
+        "row": 31,
+        "rowsha": "ySN+ZubkHTn7LsxsisXLirew94u7virejlsHtuZRpV4=",
+        "originContent": "  - pages: String for split \"[1,2-3,4,5-7]\" or delete_pages \"[2,3,4]\"",
+        "translatedContent": "  - pages : Chaîne pour split \"[1,2-3,4,5-7]\" ou delete_pages \"[2,3,4]\""
+      },
+      {
+        "row": 32,
+        "rowsha": "wD12erEctqFGp87n+n3rjrilyKuENF0FuA3UpqQq0a4=",
+        "originContent": "  - degrees: Number for rotate (90, 180, or 270)",
+        "translatedContent": "  - degrees : Nombre pour rotate (90, 180, ou 270)"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "GInwMzi3m7rYvc3JJe9egwaVacF+QzF075pJ9i59Xuc=",
+        "originContent": "Examples:",
+        "translatedContent": "Exemples :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```typescript\n// Add a tag to multiple documents\nbulk_edit_documents({\n  documents: [1, 2, 3],\n  method: \"add_tag\",\n  tag: 5\n})\n\n// Set correspondent and document type\nbulk_edit_documents({\n  documents: [4, 5],\n  method: \"set_correspondent\",\n  correspondent: 2\n})\n\n// Merge documents\nbulk_edit_documents({\n  documents: [6, 7, 8],\n  method: \"merge\",\n  metadata_document_id: 6,\n  delete_originals: true\n})\n\n// Split document into parts\nbulk_edit_documents({\n  documents: [9],\n  method: \"split\",\n  pages: \"[1-2,3-4,5]\"\n})\n\n// Modify multiple tags at once\nbulk_edit_documents({\n  documents: [10, 11],\n  method: \"modify_tags\",\n  add_tags: [1, 2],\n  remove_tags: [3, 4]\n})\n```",
+    "ContentSha": "/L3Ku6ZvQ32sYPxhwa8prG6+CAzRUdxpA0SvODjZ1/k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\n// Add a tag to multiple documents\nbulk_edit_documents({\n  documents: [1, 2, 3],\n  method: \"add_tag\",\n  tag: 5\n})\n\n// Set correspondent and document type\nbulk_edit_documents({\n  documents: [4, 5],\n  method: \"set_correspondent\",\n  correspondent: 2\n})\n\n// Merge documents\nbulk_edit_documents({\n  documents: [6, 7, 8],\n  method: \"merge\",\n  metadata_document_id: 6,\n  delete_originals: true\n})\n\n// Split document into parts\nbulk_edit_documents({\n  documents: [9],\n  method: \"split\",\n  pages: \"[1-2,3-4,5]\"\n})\n\n// Modify multiple tags at once\nbulk_edit_documents({\n  documents: [10, 11],\n  method: \"modify_tags\",\n  add_tags: [1, 2],\n  remove_tags: [3, 4]\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "S6CMyOLqbMRUpvz4EIHxxjcgrl3Cg+S39HgQlNcP96A=",
+        "originContent": "// Add a tag to multiple documents",
+        "translatedContent": "// Add a tag to multiple documents"
+      },
+      {
+        "row": 3,
+        "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+        "originContent": "bulk_edit_documents({",
+        "translatedContent": "bulk_edit_documents({"
+      },
+      {
+        "row": 4,
+        "rowsha": "X9wcQijHvxeSBU/Prv/Lj6vZs3j4L+aO7BuTGLIMqIw=",
+        "originContent": "  documents: [1, 2, 3],",
+        "translatedContent": "  documents: [1, 2, 3],"
+      },
+      {
+        "row": 5,
+        "rowsha": "Y9hZLgExJApTCWx45xC3oQlqtFDH/3qQ11A/oihRPZA=",
+        "originContent": "  method: \"add_tag\",",
+        "translatedContent": "  method: \"add_tag\","
+      },
+      {
+        "row": 6,
+        "rowsha": "ej22YZ44ef5zWHRXsbUsPmZrM09/RW8xQNyI5N7CPM8=",
+        "originContent": "  tag: 5",
+        "translatedContent": "  tag: 5"
+      },
+      {
+        "row": 7,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "No07cFm+nd7kuttE60adqPx8wyKHYdl96zYRGjB0QFo=",
+        "originContent": "// Set correspondent and document type",
+        "translatedContent": "// Set correspondent and document type"
+      },
+      {
+        "row": 10,
+        "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+        "originContent": "bulk_edit_documents({",
+        "translatedContent": "bulk_edit_documents({"
+      },
+      {
+        "row": 11,
+        "rowsha": "6hGFngqjKBekWftQfRmCSMsphY4xM6moVsMfcl353QA=",
+        "originContent": "  documents: [4, 5],",
+        "translatedContent": "  documents: [4, 5],"
+      },
+      {
+        "row": 12,
+        "rowsha": "7CC28PhBK7fx/cJ5dNtpL4dHmFZhEIjH5ET0n3KxvVA=",
+        "originContent": "  method: \"set_correspondent\",",
+        "translatedContent": "  method: \"set_correspondent\","
+      },
+      {
+        "row": 13,
+        "rowsha": "CFRkTVMQuMGIhEWGXs64x6pSXP5My+TTH1RwCus+GGY=",
+        "originContent": "  correspondent: 2",
+        "translatedContent": "  correspondent: 2"
+      },
+      {
+        "row": 14,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "ETLQT6qRWkFWsPS9mtlH9I+nwjuv2MrDlKAN7o10egM=",
+        "originContent": "// Merge documents",
+        "translatedContent": "// Merge documents"
+      },
+      {
+        "row": 17,
+        "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+        "originContent": "bulk_edit_documents({",
+        "translatedContent": "bulk_edit_documents({"
+      },
+      {
+        "row": 18,
+        "rowsha": "HtyvUcvxE8a0+XX3SOaPiWISJj9VyzCJfsNCF1hsXH8=",
+        "originContent": "  documents: [6, 7, 8],",
+        "translatedContent": "  documents: [6, 7, 8],"
+      },
+      {
+        "row": 19,
+        "rowsha": "tno8yklZ+Y2eViiKLxs/lh1ssJEDfxZIkAD9rNgfDio=",
+        "originContent": "  method: \"merge\",",
+        "translatedContent": "  method: \"merge\","
+      },
+      {
+        "row": 20,
+        "rowsha": "2Kz+ZSxCrHUl3r2xgGai4qlQPmuXe8I4Qvq/lIrusWc=",
+        "originContent": "  metadata_document_id: 6,",
+        "translatedContent": "  metadata_document_id: 6,"
+      },
+      {
+        "row": 21,
+        "rowsha": "9rf0vni9Cy1DrywYqeRJOCNwjx9WasD7cBCa02WdOg0=",
+        "originContent": "  delete_originals: true",
+        "translatedContent": "  delete_originals: true"
+      },
+      {
+        "row": 22,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "uP+JUjYofnplDmKuN6/SdRqZ7XeIDz93wkeyyknQakU=",
+        "originContent": "// Split document into parts",
+        "translatedContent": "// Split document into parts"
+      },
+      {
+        "row": 25,
+        "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+        "originContent": "bulk_edit_documents({",
+        "translatedContent": "bulk_edit_documents({"
+      },
+      {
+        "row": 26,
+        "rowsha": "5jGrJ3Vs2lZSYx83FaAeQejxxgAAVSZKk6gsT0vwrdM=",
+        "originContent": "  documents: [9],",
+        "translatedContent": "  documents: [9],"
+      },
+      {
+        "row": 27,
+        "rowsha": "3I+TPj9ARUzJ1Vw7NPrKKM7KecjUanuloQjslcoHwmQ=",
+        "originContent": "  method: \"split\",",
+        "translatedContent": "  method: \"split\","
+      },
+      {
+        "row": 28,
+        "rowsha": "z2ozOyHVr8UgN+/VQKHeJlwAy5n8IFllBkE3oJqkWlQ=",
+        "originContent": "  pages: \"[1-2,3-4,5]\"",
+        "translatedContent": "  pages: \"[1-2,3-4,5]\""
+      },
+      {
+        "row": 29,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "c/67vHLvn8bKmeUgTs0NI/nfqpyW8ZBWb+cvCkXsydg=",
+        "originContent": "// Modify multiple tags at once",
+        "translatedContent": "// Modify multiple tags at once"
+      },
+      {
+        "row": 32,
+        "rowsha": "DVF0u3OweeiehGYRLuCokxI75Q/Givd6LQ/yn4zXSuE=",
+        "originContent": "bulk_edit_documents({",
+        "translatedContent": "bulk_edit_documents({"
+      },
+      {
+        "row": 33,
+        "rowsha": "FQNQoTRi4wt0l+7cX43o2XZ7NM3ZmujWJv0P8pQNcZ0=",
+        "originContent": "  documents: [10, 11],",
+        "translatedContent": "  documents: [10, 11],"
+      },
+      {
+        "row": 34,
+        "rowsha": "dqDSuoWOtmr+8nhhQrz1+Z41/tQyy891BtlSiH+mLKs=",
+        "originContent": "  method: \"modify_tags\",",
+        "translatedContent": "  method: \"modify_tags\","
+      },
+      {
+        "row": 35,
+        "rowsha": "xcqPzvToSyY8hbrTGNQvLACDhcNSm2LSGKWrF2YSjmw=",
+        "originContent": "  add_tags: [1, 2],",
+        "translatedContent": "  add_tags: [1, 2],"
+      },
+      {
+        "row": 36,
+        "rowsha": "2+zHejGWDQvhOctNOH/zU8PNdhf/p7rP/lkO5v2zl1A=",
+        "originContent": "  remove_tags: [3, 4]",
+        "translatedContent": "  remove_tags: [3, 4]"
+      },
+      {
+        "row": 37,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 38,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n#### post_document\nUpload a new document to Paperless-NGX.\n\nParameters:\n- file: Base64 encoded file content\n- filename: Name of the file\n- title (optional): Title for the document\n- created (optional): DateTime when the document was created (e.g. \"2024-01-19\" or \"2024-01-19 06:15:00+02:00\")\n- correspondent (optional): ID of a correspondent\n- document_type (optional): ID of a document type\n- storage_path (optional): ID of a storage path\n- tags (optional): Array of tag IDs\n- archive_serial_number (optional): Archive serial number\n- custom_fields (optional): Array of custom field IDs\n",
+    "ContentSha": "ucqwACfT7FoPyfOy2a6Cna0J9rKswox/FmvZW77Id7k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### post_document\nTéléchargez un nouveau document sur Paperless-NGX.\n\nParamètres :\n- file : Contenu du fichier encodé en Base64\n- filename : Nom du fichier\n- title (optionnel) : Titre du document\n- created (optionnel) : Date et heure de création du document (ex. \"2024-01-19\" ou \"2024-01-19 06:15:00+02:00\")\n- correspondent (optionnel) : ID d'un correspondant\n- document_type (optionnel) : ID d'un type de document\n- storage_path (optionnel) : ID d'un chemin de stockage\n- tags (optionnel) : Tableau d'ID de tags\n- archive_serial_number (optionnel) : Numéro de série d'archive\n- custom_fields (optionnel) : Tableau d'ID de champs personnalisés\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Wqg02KrOX0LNYqgWBQzT9YlTFPLlYQexZtHSzv2a8t0=",
+        "originContent": "#### post_document",
+        "translatedContent": "#### post_document"
+      },
+      {
+        "row": 3,
+        "rowsha": "kAF5BDuoJ1xZzSfEn7D84HjTxtN/Xt4UwAnPAP7RBOI=",
+        "originContent": "Upload a new document to Paperless-NGX.",
+        "translatedContent": "Téléchargez un nouveau document sur Paperless-NGX."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+        "originContent": "Parameters:",
+        "translatedContent": "Paramètres :"
+      },
+      {
+        "row": 6,
+        "rowsha": "SFVoh0XYYXO36xlbfHaJEYjfLqlMwz9Il6mI4xu8ZuA=",
+        "originContent": "- file: Base64 encoded file content",
+        "translatedContent": "- file : Contenu du fichier encodé en Base64"
+      },
+      {
+        "row": 7,
+        "rowsha": "JvtRr2pc+Ihq4zrpNaxToegEOuYSohxWdFLlN9E+mWg=",
+        "originContent": "- filename: Name of the file",
+        "translatedContent": "- filename : Nom du fichier"
+      },
+      {
+        "row": 8,
+        "rowsha": "OIE6QU27N0a0EkcoSP1qtrOjVRHTe4IEDhayI/r3qn0=",
+        "originContent": "- title (optional): Title for the document",
+        "translatedContent": "- title (optionnel) : Titre du document"
+      },
+      {
+        "row": 9,
+        "rowsha": "f4j0k+MtkWA9lev+VdX4ia8CM5ro/Qm7Zj47Qwy7nhw=",
+        "originContent": "- created (optional): DateTime when the document was created (e.g. \"2024-01-19\" or \"2024-01-19 06:15:00+02:00\")",
+        "translatedContent": "- created (optionnel) : Date et heure de création du document (ex. \"2024-01-19\" ou \"2024-01-19 06:15:00+02:00\")"
+      },
+      {
+        "row": 10,
+        "rowsha": "UV89bPB61dr0y7IESSm1fM/nMa0WidImXDWBpsMEkm0=",
+        "originContent": "- correspondent (optional): ID of a correspondent",
+        "translatedContent": "- correspondent (optionnel) : ID d'un correspondant"
+      },
+      {
+        "row": 11,
+        "rowsha": "MRBvC92bDonLIoy7yjeeAD0LP5KL+ruzGiiwu5cZSVc=",
+        "originContent": "- document_type (optional): ID of a document type",
+        "translatedContent": "- document_type (optionnel) : ID d'un type de document"
+      },
+      {
+        "row": 12,
+        "rowsha": "VAi8hks2iwZPZHfProWWDPqSikX2jBlYbsQpV1Z2L4Y=",
+        "originContent": "- storage_path (optional): ID of a storage path",
+        "translatedContent": "- storage_path (optionnel) : ID d'un chemin de stockage"
+      },
+      {
+        "row": 13,
+        "rowsha": "oTv+62zSUzsNqQoV1r22bfeq34HaY9imMQuymEdGDQU=",
+        "originContent": "- tags (optional): Array of tag IDs",
+        "translatedContent": "- tags (optionnel) : Tableau d'ID de tags"
+      },
+      {
+        "row": 14,
+        "rowsha": "D/BpxUJZO/mMbTL+0XfRlUlwcRMRUdSr9h6w14YMTXk=",
+        "originContent": "- archive_serial_number (optional): Archive serial number",
+        "translatedContent": "- archive_serial_number (optionnel) : Numéro de série d'archive"
+      },
+      {
+        "row": 15,
+        "rowsha": "qRnKtMKiM60Dx7onuzaaHRSnqwT4WcQ1OW2lpQC5TTU=",
+        "originContent": "- custom_fields (optional): Array of custom field IDs",
+        "translatedContent": "- custom_fields (optionnel) : Tableau d'ID de champs personnalisés"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```typescript\npost_document({\n  file: \"base64_encoded_content\",\n  filename: \"invoice.pdf\",\n  title: \"January Invoice\",\n  created: \"2024-01-19\",\n  correspondent: 1,\n  document_type: 2,\n  tags: [1, 3],\n  archive_serial_number: \"2024-001\"\n})\n```",
+    "ContentSha": "3NSmIyDfovmWq9DdztbZOOH/j2BpZko0dg2EdxSXKEg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\npost_document({\n  file: \"base64_encoded_content\",\n  filename: \"invoice.pdf\",\n  title: \"January Invoice\",\n  created: \"2024-01-19\",\n  correspondent: 1,\n  document_type: 2,\n  tags: [1, 3],\n  archive_serial_number: \"2024-001\"\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "wIboBgDvg8uIRbqlfNGqIun9pviInoxiWhlp4ogq32I=",
+        "originContent": "post_document({",
+        "translatedContent": "post_document({"
+      },
+      {
+        "row": 3,
+        "rowsha": "zo3iWdRkTL9FbdoLpPJbUDcHV5JJT89xFss1K3W32Qw=",
+        "originContent": "  file: \"base64_encoded_content\",",
+        "translatedContent": "  file: \"base64_encoded_content\","
+      },
+      {
+        "row": 4,
+        "rowsha": "2F/+IICYBYxNwCruj//7eeQdQ23m/MZ3dGbEkitZzIg=",
+        "originContent": "  filename: \"invoice.pdf\",",
+        "translatedContent": "  filename: \"invoice.pdf\","
+      },
+      {
+        "row": 5,
+        "rowsha": "AFSw8JjtlAmCGzps8a7OldouVY5HXAIWi75mOYoyWaQ=",
+        "originContent": "  title: \"January Invoice\",",
+        "translatedContent": "  title: \"January Invoice\","
+      },
+      {
+        "row": 6,
+        "rowsha": "BDIfOjMaAnINh5L65lDrfedPiQhugl8LIyG+U5Nj95w=",
+        "originContent": "  created: \"2024-01-19\",",
+        "translatedContent": "  created: \"2024-01-19\","
+      },
+      {
+        "row": 7,
+        "rowsha": "lD1thUVyCCkH3bW+wqlzpZkshh3SmeHFHBUJQrnoNQE=",
+        "originContent": "  correspondent: 1,",
+        "translatedContent": "  correspondent: 1,"
+      },
+      {
+        "row": 8,
+        "rowsha": "qx4k55+//3aInqkVVaa24PfBfKPQigSUZuM6sbuaCqo=",
+        "originContent": "  document_type: 2,",
+        "translatedContent": "  document_type: 2,"
+      },
+      {
+        "row": 9,
+        "rowsha": "4vSgluYH8DN2ST/dto1TvzF7/5zZHZ2NKKmFl5MQ+VU=",
+        "originContent": "  tags: [1, 3],",
+        "translatedContent": "  tags: [1, 3],"
+      },
+      {
+        "row": 10,
+        "rowsha": "F1QaaUfWPCD3INmAM7or+Gmebw3katntIfRWd236LN8=",
+        "originContent": "  archive_serial_number: \"2024-001\"",
+        "translatedContent": "  archive_serial_number: \"2024-001\""
+      },
+      {
+        "row": 11,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n### Tag Operations\n\n#### list_tags\nGet all tags.\n",
+    "ContentSha": "tvakVIbmUMoTBvccZFE1cNwZU4CAk7NNZOBPuPUSkH4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Opérations sur les tags\n\n#### list_tags\nObtenir tous les tags.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "96GaHOsHGbhgon+1EdPHNeaAXUbCHlRKDtZp5shNrO0=",
+        "originContent": "### Tag Operations",
+        "translatedContent": "### Opérations sur les tags"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "9M8Q2S4Cpn2oCjGvCMJ32CIgVYIVonQ8BdaGGxgCcG8=",
+        "originContent": "#### list_tags",
+        "translatedContent": "#### list_tags"
+      },
+      {
+        "row": 5,
+        "rowsha": "L3dMrCinyqURXMYGcAtpwLe57QulsXuhxUBzV9sKEkY=",
+        "originContent": "Get all tags.",
+        "translatedContent": "Obtenir tous les tags."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```typescript\nlist_tags()\n```",
+    "ContentSha": "KIzNPKyGqW380WLJ7rg1njCMfIEVOBBEFfNusUf/5K8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\nlist_tags()\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "eqQG1UPAnvS0D81QHEV/mb6CKew9LlYB+KHJsCQ03NM=",
+        "originContent": "list_tags()",
+        "translatedContent": "list_tags()"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n#### create_tag\nCreate a new tag.\n\nParameters:\n- name: Tag name\n- color (optional): Hex color code (e.g. \"#ff0000\")\n- match (optional): Text pattern to match\n- matching_algorithm (optional): One of \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"\n",
+    "ContentSha": "/oYqbizUhZNwO2ddQYbP/XvTf4buspwelPkJR+6q5W0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### create_tag\nCréer un nouveau tag.\n\nParamètres :\n- name : Nom du tag\n- color (optionnel) : Code couleur hexadécimal (ex. \"#ff0000\")\n- match (optionnel) : Motif de texte à correspondre\n- matching_algorithm (optionnel) : L'un des \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jSeer3rAbtlWmZ8NMuAQ0TaBPRTUXaonNCggKhYvw6o=",
+        "originContent": "#### create_tag",
+        "translatedContent": "#### create_tag"
+      },
+      {
+        "row": 3,
+        "rowsha": "tZUZb6032PXwtwz+B++myr75bZiOqzpZ1lTwJuHiiB0=",
+        "originContent": "Create a new tag.",
+        "translatedContent": "Créer un nouveau tag."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+        "originContent": "Parameters:",
+        "translatedContent": "Paramètres :"
+      },
+      {
+        "row": 6,
+        "rowsha": "ssmkrEEO5mIEbvUEgerKn7p/SNf90bm94ZhxTBCj90Q=",
+        "originContent": "- name: Tag name",
+        "translatedContent": "- name : Nom du tag"
+      },
+      {
+        "row": 7,
+        "rowsha": "4kCy3lBQchTwOqnGsjiHEghT3a19u1Ithe9e4x37bCY=",
+        "originContent": "- color (optional): Hex color code (e.g. \"#ff0000\")",
+        "translatedContent": "- color (optionnel) : Code couleur hexadécimal (ex. \"#ff0000\")"
+      },
+      {
+        "row": 8,
+        "rowsha": "NUeP6ou4edBNNXzMGb+Soqs8z/eaQvbF22BKAmYS4Tw=",
+        "originContent": "- match (optional): Text pattern to match",
+        "translatedContent": "- match (optionnel) : Motif de texte à correspondre"
+      },
+      {
+        "row": 9,
+        "rowsha": "dI3fs3FlwH6zS3GgEJ+H73J2oaWqRBJZP7r80o8+ma4=",
+        "originContent": "- matching_algorithm (optional): One of \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"",
+        "translatedContent": "- matching_algorithm (optionnel) : L'un des \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```typescript\ncreate_tag({\n  name: \"Invoice\",\n  color: \"#ff0000\",\n  match: \"invoice\",\n  matching_algorithm: \"fuzzy\"\n})\n```",
+    "ContentSha": "gpjb0XMTu+1Mx5YWVfqRyBL1+qeRZi7HYpwYhgGHfTk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\ncreate_tag({\n  name: \"Invoice\",\n  color: \"#ff0000\",\n  match: \"invoice\",\n  matching_algorithm: \"fuzzy\"\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "7NufHKLJf6s/3wmLXQ8kXKU5zO4tmUcOkkpdxBtWiF4=",
+        "originContent": "create_tag({",
+        "translatedContent": "create_tag({"
+      },
+      {
+        "row": 3,
+        "rowsha": "LE1qWmnkctI3uv7bgNFdGmRlP9WID+kT+XMRKBVKX2I=",
+        "originContent": "  name: \"Invoice\",",
+        "translatedContent": "  name: \"Invoice\","
+      },
+      {
+        "row": 4,
+        "rowsha": "N1yz84qm7+C3JEGLWyEokDZlIUOP+IDzvH2HDmRzw0I=",
+        "originContent": "  color: \"#ff0000\",",
+        "translatedContent": "  color: \"#ff0000\","
+      },
+      {
+        "row": 5,
+        "rowsha": "K9QdKcL+rLlq5Da0tpljZ4SnuBnzAq0xfZS2lgAT0iI=",
+        "originContent": "  match: \"invoice\",",
+        "translatedContent": "  match: \"invoice\","
+      },
+      {
+        "row": 6,
+        "rowsha": "kFuhYk49Kn2nfXnvalVs38QbBZeHdSzf2uZo1FbHlek=",
+        "originContent": "  matching_algorithm: \"fuzzy\"",
+        "translatedContent": "  matching_algorithm: \"fuzzy\""
+      },
+      {
+        "row": 7,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n### Correspondent Operations\n\n#### list_correspondents\nGet all correspondents.\n",
+    "ContentSha": "sQQRu3FFq9juIBDE3trd3xyi264duXk1p9At6A1/jrk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Opérations sur les correspondants\n\n#### list_correspondents\nObtenir tous les correspondants.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "hSoRrAzbkKmyvRfQZDTDV5dAVP+GCWDnsxP47UXx2Rw=",
+        "originContent": "### Correspondent Operations",
+        "translatedContent": "### Opérations sur les correspondants"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "1Rr6ntmVEBSudCDBqBKdiQL0Bl8q9jwL65qP3rCVybk=",
+        "originContent": "#### list_correspondents",
+        "translatedContent": "#### list_correspondents"
+      },
+      {
+        "row": 5,
+        "rowsha": "S/p1ld9IeJDCgZZUPhcSeOfFwx0t31VFtPX4kfCznOU=",
+        "originContent": "Get all correspondents.",
+        "translatedContent": "Obtenir tous les correspondants."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```typescript\nlist_correspondents()\n```",
+    "ContentSha": "It3srxPuv8Y0W8YlSRRHfLl5nkv+Awf7d0XqOqBHbIs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\nlist_correspondents()\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "G7xSl8y666pPKQC4KFM484wXXNOlx+N4FR17lNMTNjM=",
+        "originContent": "list_correspondents()",
+        "translatedContent": "list_correspondents()"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n#### create_correspondent\nCreate a new correspondent.\n\nParameters:\n- name: Correspondent name\n- match (optional): Text pattern to match\n- matching_algorithm (optional): One of \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"\n",
+    "ContentSha": "jFyLRfIIeo91EBTMEUDjnLYAZ1g39Ha1SV/C37UM+ic=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### create_correspondent\nCréer un nouveau correspondant.\n\nParamètres :\n- name : Nom du correspondant\n- match (optionnel) : Motif de texte à correspondre\n- matching_algorithm (optionnel) : L’un des suivants : \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "r/mJ/XCbjamqrRAOUFwB00oel3bUYurEG61HYTYrj/E=",
+        "originContent": "#### create_correspondent",
+        "translatedContent": "#### create_correspondent"
+      },
+      {
+        "row": 3,
+        "rowsha": "lJGi8tTmqHJZyP4AdiWIBpJjSbV2V1j2+eU1c+e0Yds=",
+        "originContent": "Create a new correspondent.",
+        "translatedContent": "Créer un nouveau correspondant."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+        "originContent": "Parameters:",
+        "translatedContent": "Paramètres :"
+      },
+      {
+        "row": 6,
+        "rowsha": "dpshW59oMKRFL8xqnOrgNQ/ktCV/5h5hKEaZFa/NiAI=",
+        "originContent": "- name: Correspondent name",
+        "translatedContent": "- name : Nom du correspondant"
+      },
+      {
+        "row": 7,
+        "rowsha": "NUeP6ou4edBNNXzMGb+Soqs8z/eaQvbF22BKAmYS4Tw=",
+        "originContent": "- match (optional): Text pattern to match",
+        "translatedContent": "- match (optionnel) : Motif de texte à correspondre"
+      },
+      {
+        "row": 8,
+        "rowsha": "dI3fs3FlwH6zS3GgEJ+H73J2oaWqRBJZP7r80o8+ma4=",
+        "originContent": "- matching_algorithm (optional): One of \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"",
+        "translatedContent": "- matching_algorithm (optionnel) : L’un des suivants : \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```typescript\ncreate_correspondent({\n  name: \"ACME Corp\",\n  match: \"ACME\",\n  matching_algorithm: \"fuzzy\"\n})\n```",
+    "ContentSha": "Vx60dcNlCSd6h8z8INlehCDVkoYUc7xVM/wnQXjKG6M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\ncreate_correspondent({\n  name: \"ACME Corp\",\n  match: \"ACME\",\n  matching_algorithm: \"fuzzy\"\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "KGZygB8szAW6LGuFxgTodqnnJANndirHtZsqdwjpo0Q=",
+        "originContent": "create_correspondent({",
+        "translatedContent": "create_correspondent({"
+      },
+      {
+        "row": 3,
+        "rowsha": "LIlDS6VeNywytvaa5mSqf6GaLv2kugSP+4gYjDpR4kk=",
+        "originContent": "  name: \"ACME Corp\",",
+        "translatedContent": "  name: \"ACME Corp\","
+      },
+      {
+        "row": 4,
+        "rowsha": "U1aQdm8Q2OeBlBHrYRWCOAeG/lNKSFh4WSysNzb6C20=",
+        "originContent": "  match: \"ACME\",",
+        "translatedContent": "  match: \"ACME\","
+      },
+      {
+        "row": 5,
+        "rowsha": "kFuhYk49Kn2nfXnvalVs38QbBZeHdSzf2uZo1FbHlek=",
+        "originContent": "  matching_algorithm: \"fuzzy\"",
+        "translatedContent": "  matching_algorithm: \"fuzzy\""
+      },
+      {
+        "row": 6,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n### Document Type Operations\n\n#### list_document_types\nGet all document types.\n",
+    "ContentSha": "lPLW6gKq0E4h4mQ/6nPVyvCiuwRg8vYQwQRS6mE7cg8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Opérations sur les types de documents\n\n#### list_document_types\nObtenir tous les types de documents.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "x5iF/VoYdpO7vh8/oUK2Q0TazHW+RuughUXaWgIYWBc=",
+        "originContent": "### Document Type Operations",
+        "translatedContent": "### Opérations sur les types de documents"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "LujjnSfFChTk62prRJgPpKLxghj9Lq1nbaDA/WuN28k=",
+        "originContent": "#### list_document_types",
+        "translatedContent": "#### list_document_types"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtABRWAX+jNZYEywFrT4H5ASTJ7zy2WmRmUrMeKQRs=",
+        "originContent": "Get all document types.",
+        "translatedContent": "Obtenir tous les types de documents."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "```typescript\nlist_document_types()\n```",
+    "ContentSha": "oqtbLQ6ocU3dRxzDUjxMhZCbb3zusx8aT6WOgXJrzCA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\nlist_document_types()\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "r7Hj+qd6IgxDYMsJosNJb1IEk7mAT8FhztFqj5hrA6c=",
+        "originContent": "list_document_types()",
+        "translatedContent": "list_document_types()"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "\n#### create_document_type\nCreate a new document type.\n\nParameters:\n- name: Document type name\n- match (optional): Text pattern to match\n- matching_algorithm (optional): One of \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"\n",
+    "ContentSha": "AqD6VvtuWENJK3lzVHNiKPDhKmzxsG6b3hkz6tHpeug=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### create_document_type\nCréer un nouveau type de document.\n\nParamètres :\n- name : Nom du type de document\n- match (optionnel) : Motif de texte à correspondre\n- matching_algorithm (optionnel) : L'un des suivants \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "BaFHKvge2DM4qknqWaxReGYUy6G8nrMPS1MPJEKG/2Y=",
+        "originContent": "#### create_document_type",
+        "translatedContent": "#### create_document_type"
+      },
+      {
+        "row": 3,
+        "rowsha": "iDtpKPgTSmNhPedSZcByIZcTTEDm+F5QmFrLpJuE5/8=",
+        "originContent": "Create a new document type.",
+        "translatedContent": "Créer un nouveau type de document."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+        "originContent": "Parameters:",
+        "translatedContent": "Paramètres :"
+      },
+      {
+        "row": 6,
+        "rowsha": "UHUynvQiIq6Ctd8WUspApzzb4NSTWeZ1pEXO8gFOUTA=",
+        "originContent": "- name: Document type name",
+        "translatedContent": "- name : Nom du type de document"
+      },
+      {
+        "row": 7,
+        "rowsha": "NUeP6ou4edBNNXzMGb+Soqs8z/eaQvbF22BKAmYS4Tw=",
+        "originContent": "- match (optional): Text pattern to match",
+        "translatedContent": "- match (optionnel) : Motif de texte à correspondre"
+      },
+      {
+        "row": 8,
+        "rowsha": "dI3fs3FlwH6zS3GgEJ+H73J2oaWqRBJZP7r80o8+ma4=",
+        "originContent": "- matching_algorithm (optional): One of \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\"",
+        "translatedContent": "- matching_algorithm (optionnel) : L'un des suivants \"any\", \"all\", \"exact\", \"regular expression\", \"fuzzy\""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 32,
+    "Content": "```typescript\ncreate_document_type({\n  name: \"Invoice\",\n  match: \"invoice total amount due\",\n  matching_algorithm: \"any\"\n})\n```",
+    "ContentSha": "wP15ZX5vZ/MpUr9ChmGqH/G8RvGQ8pY3i6qhZYOvAgo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```typescript\ncreate_document_type({\n  name: \"Invoice\",\n  match: \"invoice total amount due\",\n  matching_algorithm: \"any\"\n})\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jgLIm55v6g2YH24OP31RuIuHP4sxxQJ8Cx2C8lvSCII=",
+        "originContent": "```typescript",
+        "translatedContent": "```typescript"
+      },
+      {
+        "row": 2,
+        "rowsha": "P9HxR+xm3HDRuvWgq1UHSK/TjpWcyIo9yWAB+KFUBPY=",
+        "originContent": "create_document_type({",
+        "translatedContent": "create_document_type({"
+      },
+      {
+        "row": 3,
+        "rowsha": "LE1qWmnkctI3uv7bgNFdGmRlP9WID+kT+XMRKBVKX2I=",
+        "originContent": "  name: \"Invoice\",",
+        "translatedContent": "  name: \"Invoice\","
+      },
+      {
+        "row": 4,
+        "rowsha": "gvevXoJHZOrONR7AKMWsn/noZfyCEuz/d7IInHPncKc=",
+        "originContent": "  match: \"invoice total amount due\",",
+        "translatedContent": "  match: \"invoice total amount due\","
+      },
+      {
+        "row": 5,
+        "rowsha": "Hr6Cg0iUxfKR4aV8Nj9zm80cvSYeYgtwx4RZkxiYm6w=",
+        "originContent": "  matching_algorithm: \"any\"",
+        "translatedContent": "  matching_algorithm: \"any\""
+      },
+      {
+        "row": 6,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 33,
+    "Content": "\n## Error Handling\n\nThe server will show clear error messages if:\n- The Paperless-NGX URL or API token is incorrect\n- The Paperless-NGX server is unreachable\n- The requested operation fails\n- The provided parameters are invalid\n\n## Development\n\nWant to contribute or modify the server? Here's what you need to know:\n\n1. Clone the repository\n2. Install dependencies:",
+    "ContentSha": "k+6F39+D03mSk15sAnWOlgI65193sEx1LdTU8nd7YTs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Gestion des erreurs\n\nLe serveur affichera des messages d'erreur clairs si :\n- L'URL ou le jeton API de Paperless-NGX est incorrect\n- Le serveur Paperless-NGX est injoignable\n- L'opération demandée échoue\n- Les paramètres fournis sont invalides\n\n## Développement\n\nVous souhaitez contribuer ou modifier le serveur ? Voici ce que vous devez savoir :\n\n1. Cloner le dépôt\n2. Installer les dépendances :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Zg7yEomjR/QFytY2+h9LSXR37d9hdCRyh/C/rNPzgho=",
+        "originContent": "## Error Handling",
+        "translatedContent": "## Gestion des erreurs"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "JIaLmtjZBF/WHtIOezKEBrIJAdQqUaM11JCR3c5kM3E=",
+        "originContent": "The server will show clear error messages if:",
+        "translatedContent": "Le serveur affichera des messages d'erreur clairs si :"
+      },
+      {
+        "row": 5,
+        "rowsha": "4ZLurCM4KI3PrPmlg1bDpUiI2o9C/cO1BUAVJaz1SO0=",
+        "originContent": "- The Paperless-NGX URL or API token is incorrect",
+        "translatedContent": "- L'URL ou le jeton API de Paperless-NGX est incorrect"
+      },
+      {
+        "row": 6,
+        "rowsha": "eQH253llVUezFxnvwyY1/9XA+1IPFbJUeu8R7tmLrKU=",
+        "originContent": "- The Paperless-NGX server is unreachable",
+        "translatedContent": "- Le serveur Paperless-NGX est injoignable"
+      },
+      {
+        "row": 7,
+        "rowsha": "28HlcSMzjo/LjYi8SCjyoyZ4fk9UlWWLiZ3G2qN7mgE=",
+        "originContent": "- The requested operation fails",
+        "translatedContent": "- L'opération demandée échoue"
+      },
+      {
+        "row": 8,
+        "rowsha": "EgHSZzZkJbZjrRZ+xKzSWEabBhuWlFW0xz8W/PRh21w=",
+        "originContent": "- The provided parameters are invalid",
+        "translatedContent": "- Les paramètres fournis sont invalides"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+        "originContent": "## Development",
+        "translatedContent": "## Développement"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "KQlYWhwucncZY0KNfrXPkZHg7wPoAaY8NqSrTBUGDaU=",
+        "originContent": "Want to contribute or modify the server? Here's what you need to know:",
+        "translatedContent": "Vous souhaitez contribuer ou modifier le serveur ? Voici ce que vous devez savoir :"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "ZK8Iy7jefVa7tPlAX3mUCH6pinIlVvQj8ounTkljVIE=",
+        "originContent": "1. Clone the repository",
+        "translatedContent": "1. Cloner le dépôt"
+      },
+      {
+        "row": 15,
+        "rowsha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
+        "originContent": "2. Install dependencies:",
+        "translatedContent": "2. Installer les dépendances :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 34,
+    "Content": "```bash\nnpm install\n```",
+    "ContentSha": "61pQ/Fja9zY+MRdm6d0xrWHYXeOM3qnlkhFYQhpctLs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+        "originContent": "npm install",
+        "translatedContent": "npm install"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 35,
+    "Content": "\n3. Make your changes to server.js\n4. Test locally:",
+    "ContentSha": "OU6iYY0z2esQsT1GcH1d8yoLr11DZNhXbzuiSGZ1BV0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. Apportez vos modifications à server.js  \n4. Testez localement :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Apportez vos modifications à server.js  "
+      },
+      {
+        "row": 2,
+        "rowsha": "aVzXAY3cj9XAj8YTsK5YEvmEmFakCv58TdaZcelTJSM=",
+        "originContent": "3. Make your changes to server.js",
+        "translatedContent": "4. Testez localement :"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZvIGk4HFX1dvPQ263afwdJePXgdz5yf7CXU3nEc++2s=",
+        "originContent": "4. Test locally:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 36,
+    "Content": "```bash\nnode server.js http://localhost:8000 your-test-token\n```",
+    "ContentSha": "n06jWPBnWBU45ZnGKdD7hyjozYmwvK4lBTqWIQ4fveo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnode server.js http://localhost:8000 your-test-token\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "OWzFtLOh1JpQSypgUuqKcvZLbzVqOsvRYfPX9nR12tA=",
+        "originContent": "node server.js http://localhost:8000 your-test-token",
+        "translatedContent": "node server.js http://localhost:8000 your-test-token"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 37,
+    "Content": "\nThe server is built with:\n- [litemcp](https://github.com/wong2/litemcp): A TypeScript framework for building MCP servers\n- [zod](https://github.com/colinhacks/zod): TypeScript-first schema validation\n\n## API Documentation\n\nThis MCP server implements endpoints from the Paperless-NGX REST API. For more details about the underlying API, see the [official documentation](https://docs.paperless-ngx.com/api/).\n\n## Running the MCP Server\n\nThe MCP server can be run in two modes:\n\n### 1. stdio (default)\n\nThis is the default mode. The server communicates over stdio, suitable for CLI and direct integrations.\n",
+    "ContentSha": "3DI5bhmMScWyPRC3r+2vR9QX5eIcM9JarltMI0+icDA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nLe serveur est construit avec :\n- [litemcp](https://github.com/wong2/litemcp) : Un framework TypeScript pour construire des serveurs MCP\n- [zod](https://github.com/colinhacks/zod) : Validation de schéma orientée TypeScript\n\n## Documentation de l’API\n\nCe serveur MCP implémente des points de terminaison de l’API REST Paperless-NGX. Pour plus de détails sur l’API sous-jacente, voir la [documentation officielle](https://docs.paperless-ngx.com/api/).\n\n## Exécution du serveur MCP\n\nLe serveur MCP peut fonctionner en deux modes :\n\n### 1. stdio (par défaut)\n\nC’est le mode par défaut. Le serveur communique via stdio, adapté aux CLI et intégrations directes.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mnZ41Kp/CCMFGAYGqNsXcYvHJkH89AU6Bvly4HRgv1s=",
+        "originContent": "The server is built with:",
+        "translatedContent": "Le serveur est construit avec :"
+      },
+      {
+        "row": 3,
+        "rowsha": "rjFpc/RdnK4DcnkT0SigrVlc0OgY8Gq2mfwCMnKcJs0=",
+        "originContent": "- [litemcp](https://github.com/wong2/litemcp): A TypeScript framework for building MCP servers",
+        "translatedContent": "- [litemcp](https://github.com/wong2/litemcp) : Un framework TypeScript pour construire des serveurs MCP"
+      },
+      {
+        "row": 4,
+        "rowsha": "ajorQza7akgQGx2DDoUP68RcFBSh5QE1if700Eucdjs=",
+        "originContent": "- [zod](https://github.com/colinhacks/zod): TypeScript-first schema validation",
+        "translatedContent": "- [zod](https://github.com/colinhacks/zod) : Validation de schéma orientée TypeScript"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "YL+QEhp9seRnhAJNh6CSq9IHSf/hiEWvdUoknetIqVs=",
+        "originContent": "## API Documentation",
+        "translatedContent": "## Documentation de l’API"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "MnoZw4JDpypcjGkcQfkvCmkhiP5HbRXYQcKZCk1edCk=",
+        "originContent": "This MCP server implements endpoints from the Paperless-NGX REST API. For more details about the underlying API, see the [official documentation](https://docs.paperless-ngx.com/api/).",
+        "translatedContent": "Ce serveur MCP implémente des points de terminaison de l’API REST Paperless-NGX. Pour plus de détails sur l’API sous-jacente, voir la [documentation officielle](https://docs.paperless-ngx.com/api/)."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "36ijl0brOoeEEEi+YHfgGt9gKurMbgI2d/SU5edSGX4=",
+        "originContent": "## Running the MCP Server",
+        "translatedContent": "## Exécution du serveur MCP"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "uTKFPMHCbxNNCs68uh8lwwHKMiIBQ5vby1ZP8jyC5r0=",
+        "originContent": "The MCP server can be run in two modes:",
+        "translatedContent": "Le serveur MCP peut fonctionner en deux modes :"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "mQD7UKTk1Qvc/qsQlROy9f6/6EDvVNblRAEjLJXuVMI=",
+        "originContent": "### 1. stdio (default)",
+        "translatedContent": "### 1. stdio (par défaut)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Kf84LE9Db+Z7x/bCt2F6RHB91clPCkNo1wPfEAUyk5A=",
+        "originContent": "This is the default mode. The server communicates over stdio, suitable for CLI and direct integrations.",
+        "translatedContent": "C’est le mode par défaut. Le serveur communique via stdio, adapté aux CLI et intégrations directes."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 38,
+    "Content": "```\nnpm run start -- <baseUrl> <token>\n```",
+    "ContentSha": "/5fb7jr2aF/sxZrxM3FWe+bmC2jwZf/4LuGkc3r+VeQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nnpm run start -- <baseUrl> <token>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "9IF4Mrilo2HeRJAdRwhfBzOqvtpNQ1QPHWS1lRqiV+Y=",
+        "originContent": "npm run start -- <baseUrl> <token>",
+        "translatedContent": "npm run start -- <baseUrl> <token>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 39,
+    "Content": "\n### 2. HTTP (Streamable HTTP Transport)\n\nTo run the server as an HTTP service, use the `--http` flag. You can also specify the port with `--port` (default: 3000). This mode requires [Express](https://expressjs.com/) to be installed (it is included as a dependency).\n",
+    "ContentSha": "zUjUXghRsEDqMAhuqRpDaoT+u5oqI7c1IXHumWmK/ts=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 2. HTTP (Transport HTTP Streamable)\n\nPour exécuter le serveur en tant que service HTTP, utilisez le drapeau `--http`. Vous pouvez également spécifier le port avec `--port` (par défaut : 3000). Ce mode nécessite que [Express](https://expressjs.com/) soit installé (il est inclus comme dépendance).\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "pGNxd2uhj6kzGE5ENRLakDnOfUr/vZhsh2EHJgip03g=",
+        "originContent": "### 2. HTTP (Streamable HTTP Transport)",
+        "translatedContent": "### 2. HTTP (Transport HTTP Streamable)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Lhom5zPqtkEbl+mvlYlg4lNaodObboEBG6MWWn+1njc=",
+        "originContent": "To run the server as an HTTP service, use the `--http` flag. You can also specify the port with `--port` (default: 3000). This mode requires [Express](https://expressjs.com/) to be installed (it is included as a dependency).",
+        "translatedContent": "Pour exécuter le serveur en tant que service HTTP, utilisez le drapeau `--http`. Vous pouvez également spécifier le port avec `--port` (par défaut : 3000). Ce mode nécessite que [Express](https://expressjs.com/) soit installé (il est inclus comme dépendance)."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 40,
+    "Content": "```\nnpm run start -- <baseUrl> <token> --http --port 3000\n```",
+    "ContentSha": "FC/LLrwAlAwSfKPJPCjpwQwrAxMBmO7jrWOeqXubOcA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nnpm run start -- <baseUrl> <token> --http --port 3000\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "9V3SPsKfvvl8/iKB2tLwuoYji8JPRXkq683jfN8/FKI=",
+        "originContent": "npm run start -- <baseUrl> <token> --http --port 3000",
+        "translatedContent": "npm run start -- <baseUrl> <token> --http --port 3000"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 41,
+    "Content": "\n- The MCP API will be available at `POST /mcp` on the specified port.\n- Each request is handled statelessly, following the [StreamableHTTPServerTransport](https://github.com/modelcontextprotocol/typescript-sdk) pattern.\n- GET and DELETE requests to `/mcp` will return 405 Method Not Allowed.\n",
+    "ContentSha": "HrW03Kgd5MBwiWOmooC7if+DENHWhqZMVYmTdsLMssM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- L'API MCP sera disponible à `POST /mcp` sur le port spécifié.\n- Chaque requête est traitée sans état, suivant le modèle [StreamableHTTPServerTransport](https://github.com/modelcontextprotocol/typescript-sdk).\n- Les requêtes GET et DELETE vers `/mcp` retourneront 405 Méthode Non Autorisée.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5Aflvuy1u+lEMXOdcrobKkPFGDPV3uLgURbLYSG+AXs=",
+        "originContent": "- The MCP API will be available at `POST /mcp` on the specified port.",
+        "translatedContent": "- L'API MCP sera disponible à `POST /mcp` sur le port spécifié."
+      },
+      {
+        "row": 3,
+        "rowsha": "KfUVZqrCAQ2XbCFdViedxf1G6RFjGBsbSCap2L7R2eI=",
+        "originContent": "- Each request is handled statelessly, following the [StreamableHTTPServerTransport](https://github.com/modelcontextprotocol/typescript-sdk) pattern.",
+        "translatedContent": "- Chaque requête est traitée sans état, suivant le modèle [StreamableHTTPServerTransport](https://github.com/modelcontextprotocol/typescript-sdk)."
+      },
+      {
+        "row": 4,
+        "rowsha": "1O3ATgPZJbbnhb/n6DgShqAmUMuq8BOjXGu8egDjwiQ=",
+        "originContent": "- GET and DELETE requests to `/mcp` will return 405 Method Not Allowed.",
+        "translatedContent": "- Les requêtes GET et DELETE vers `/mcp` retourneront 405 Méthode Non Autorisée."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

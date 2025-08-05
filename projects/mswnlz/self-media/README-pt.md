@@ -1,48 +1,48 @@
 # self-media
-Recursos relacionados à mídia independente, incluindo aquisição de novos usuários, estratégias de tráfego, captação de clientes, conversão, monetização e outros materiais, em atualização contínua
+自媒体相关资源，包括拉新，流量玩法、获客，转化、变现等资料，持续更新中
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=self-media&lang=id)
 
 
 
-# [202507](https://raw.githubusercontent.com/mswnlz/self-media/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/self-media/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/self-media/main/202506.md)
+# [202508](https://raw.githubusercontent.com/mswnlz/self-media/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/self-media/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/self-media/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/self-media/main/202506.md)
 
 ---------------
-### Mais recursos do projeto
+### 项目更多资源
 
-[🎁Recurso especial! Curso clássico de Medicina Tradicional Chinesa, edição completa para colecionadores (1.18TB), preço original 59.880 RMB, incluindo fundamentos, vídeos, tratamentos externos, acupuntura, livros e muito mais](https://github.com/mswnlz/chinese-traditional)
+[🎁重磅资源！原价59880元 绝版中医课程资料大全【收藏版1.18TB】，包括基础、视频、外治、针灸、书籍等等等应有尽有](https://github.com/mswnlz/chinese-traditional)
 
-[Recursos de várias ferramentas úteis, incluindo sistemas operacionais, plugins, ferramentas portáteis e versões crackeadas, atualização contínua](https://github.com/mswnlz/tools)
-
-
-[Materiais relacionados ao e-commerce internacional: inscrições, pagamentos, comércio exterior, tiktok, amazon, abertura de lojas, aquisição de novos usuários, e outros, atualização contínua](https://github.com/mswnlz/cross-border)
-
-[Recursos relacionados à mídia independente, incluindo aquisição de novos usuários, estratégias de tráfego, captação de clientes, conversão, monetização e outros materiais, em atualização contínua](https://github.com/mswnlz/self-media)
-
-[ Materiais educacionais diversos, do jardim de infância ao ensino fundamental e médio, abrangendo instituições como Xueersi, Wanwei, Yuanfudao, entre outras, em constante crescimento](https://github.com/mswnlz/edu-knowlege)
-
-[Conhecimento relacionado à IA, prompts, tutoriais, videoaulas, cursos de monetização, e muito mais, sempre atualizado](https://github.com/mswnlz/AIknowledge)
-
-[Materiais de diversos cursos, incluindo conteúdos da Dedao, materiais populares da internet, e outros que não se encaixam em outros projetos, atualização contínua](https://github.com/mswnlz/curriculum)
-
-[Recursos de mídia audiovisual, filmes, documentários, músicas, shows e muito mais, sempre atualizados](https://github.com/mswnlz/movies)
-
-[Recursos de livros, incluindo vários tutoriais, romances e outros tipos de livros](https://github.com/mswnlz/book)
+[各种好用工具相关的资源，包括操作系统，各种插件，绿色破解版工具等等，持续更新中](https://github.com/mswnlz/tools)
 
 
-[Recursos de fitness, exercícios, alimentação, nutrição, saúde, sono e outros, atualização contínua](https://github.com/mswnlz/healthy)
+[跨境电商相关的资料，申请，支付、外贸，tiktok，亚马逊，开店铺，拉新等资源，持续更新中](https://github.com/mswnlz/cross-border)
+
+[自媒体相关资源，包括拉新，流量玩法、获客，转化、变现等资料，持续更新中](https://github.com/mswnlz/self-media)
+
+[ 教育各种资料，从幼儿园到小学、中学，涵盖学而思，万维、猿辅导等多个机构，持续增加中](https://github.com/mswnlz/edu-knowlege)
+
+[AI相关知识，提示词，教程，视频教程，变现课程等，持续更新中](https://github.com/mswnlz/AIknowledge)
+
+[各种课程材料，包括得到，网上流行材料，跟其他项目不好放的资料，都在这里面，等等等，持续更新中](https://github.com/mswnlz/curriculum)
+
+[影视媒体资源，电影，记录片，音乐，演唱会等等，持续更新中](https://github.com/mswnlz/movies)
+
+[书籍资料相关的，包括各种教程、小说等各种书籍](https://github.com/mswnlz/book)
+
+
+[健身、锻炼、饮食、营养，健康，睡眠等，持续更新中](https://github.com/mswnlz/healthy)
 
 
 ---------------
 
-# Página principal de recursos
-[Central de materiais, conhecimentos, filmes, documentários, músicas, livros e mídia, em constante organização](https://github.com/mswnlz)
+# 资源主页
+[各种资料、知识、影视、记录片，音乐，书籍，媒体聚集地，持续整理中](https://github.com/mswnlz)
 
 ---------------
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
 
 ---

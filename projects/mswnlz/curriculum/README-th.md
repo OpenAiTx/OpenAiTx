@@ -1,48 +1,48 @@
-# หลักสูตร
+# curriculum
 
-รวมเนื้อหาหลักสูตรต่างๆ เช่น วัสดุการเรียนรู้, เนื้อหายอดนิยมบนอินเทอร์เน็ต, หรือข้อมูลที่ไม่เหมาะจะจัดในโปรเจกต์อื่น ๆ ทั้งหมดนี้จะรวมอยู่ที่นี่ และจะอัปเดตอย่างต่อเนื่อง
+各种课程材料，包括得到，网上流行材料，跟其他项目不好放的资料，都在这里面，等等等，持续更新中
 
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=id)
 
 -------------------
 
-# [202507](https://raw.githubusercontent.com/mswnlz/curriculum/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/curriculum/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/curriculum/main/202506.md)
+# [202508](https://raw.githubusercontent.com/mswnlz/curriculum/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/curriculum/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/curriculum/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/curriculum/main/202506.md)
 
 ---------------
-### ทรัพยากรเพิ่มเติมของโปรเจกต์
+### 项目更多资源
 
-[🎁ทรัพยากรสุดพิเศษ! คอร์สแพทย์แผนจีนหายาก มูลค่า 59880 หยวน รวมข้อมูลครบถ้วน 1.18TB ทั้งพื้นฐาน, วิดีโอ, การรักษาภายนอก, ฝังเข็ม, หนังสือ ฯลฯ](https://github.com/mswnlz/chinese-traditional)
+[🎁重磅资源！原价59880元 绝版中医课程资料大全【收藏版1.18TB】，包括基础、视频、外治、针灸，书籍等等等应有尽有](https://github.com/mswnlz/chinese-traditional)
 
-[แหล่งรวมเครื่องมือต่าง ๆ ที่มีประโยชน์ เช่น ระบบปฏิบัติการ, ปลั๊กอิน, เครื่องมือเวอร์ชันพกพาและแครก ฯลฯ อัปเดตต่อเนื่อง](https://github.com/mswnlz/tools)
+[各种好用工具相关的资源，包括操作系统，各种插件，绿色破解版工具等等，持续更新中](https://github.com/mswnlz/tools)
 
 
-[ข้อมูลเกี่ยวกับอีคอมเมิร์ซข้ามพรมแดน เช่น การสมัคร, การชำระเงิน, การค้าต่างประเทศ, tiktok, Amazon, การเปิดร้าน, การหาลูกค้าใหม่ ฯลฯ อัปเดตต่อเนื่อง](https://github.com/mswnlz/cross-border)
+[跨境电商相关的资料，申请，支付、外贸，tiktok，亚马逊，开店铺，拉新等资源，持续更新中](https://github.com/mswnlz/cross-border)
 
-[ทรัพยากรเกี่ยวกับสื่อโซเชียล เช่น วิธีการหาลูกค้า, การเพิ่มผู้ติดตาม, การสร้างรายได้ ฯลฯ อัปเดตต่อเนื่อง](https://github.com/mswnlz/self-media)
+[自媒体相关资源，包括拉新，流量玩法、获客，转化、变现等资料，持续更新中](https://github.com/mswnlz/self-media)
 
-[ แหล่งรวมข้อมูลการศึกษาทุกระดับ ตั้งแต่อนุบาล ประถม มัธยม ครอบคลุมสถาบันชื่อดัง เช่น Xueersi, Wanwei, Yuanfudao ฯลฯ อัปเดตต่อเนื่อง](https://github.com/mswnlz/edu-knowlege)
+[ 教育各种资料，从幼儿园到小学、中学，涵盖学而思，万维、猿辅导等多个机构，持续增加中](https://github.com/mswnlz/edu-knowlege)
 
-[ความรู้เกี่ยวกับ AI, Prompt, บทเรียน, วิดีโอสอน, คอร์สสร้างรายได้ ฯลฯ อัปเดตต่อเนื่อง](https://github.com/mswnlz/AIknowledge)
+[AI相关知识，提示词，教程，视频教程，变现课程等，持续更新中](https://github.com/mswnlz/AIknowledge)
 
-[เนื้อหาหลักสูตรต่าง ๆ เช่น วัสดุการเรียนรู้, เนื้อหายอดนิยม, หรือข้อมูลที่ไม่เหมาะจะจัดในโปรเจกต์อื่น ๆ ทั้งหมดนี้รวมไว้ที่นี่ อัปเดตอย่างต่อเนื่อง](https://github.com/mswnlz/curriculum)
+[各种课程材料，包括得到，网上流行材料，跟其他项目不好放的资料，都在这里面，等等等，持续更新中](https://github.com/mswnlz/curriculum)
 
-[สื่อบันเทิง ภาพยนตร์ สารคดี เพลง คอนเสิร์ต ฯลฯ อัปเดตต่อเนื่อง](https://github.com/mswnlz/movies)
+[影视媒体资源，电影，记录片，音乐，演唱会等等，持续更新中](https://github.com/mswnlz/movies)
 
-[แหล่งรวมหนังสือและคู่มือต่าง ๆ ทั้งคู่มือการสอน นวนิยาย ฯลฯ](https://github.com/mswnlz/book)
+[书籍资料相关的，包括各种教程、小说等各种书籍](https://github.com/mswnlz/book)
 
-[ฟิตเนส, การออกกำลังกาย, อาหาร, โภชนาการ, สุขภาพ, การนอน ฯลฯ อัปเดตต่อเนื่อง](https://github.com/mswnlz/healthy)
+[健身、锻炼、饮食，营养，健康，睡眠等，持续更新中](https://github.com/mswnlz/healthy)
 
 ---------------
 
-# หน้าหลักทรัพยากร
-[ศูนย์รวมข้อมูล, ความรู้, สื่อบันเทิง, สารคดี, เพลง, หนังสือ, สื่อทุกประเภท อัปเดตอย่างต่อเนื่อง](https://github.com/mswnlz)
+# 资源主页
+[各种资料、知识、影视，记录片，音乐，书籍，媒体聚集地，持续整理中](https://github.com/mswnlz)
 
 ---------------
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
 
 ---
