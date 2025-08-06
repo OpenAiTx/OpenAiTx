@@ -6,14 +6,14 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# DeTi*k*Zify<br><sub><sup>Synthèse de programmes graphiques pour figures scientifiques et croquis avec Ti*k*Z</sup></sub>",
+    "Translation": "# DeTi*k*Zify<br><sub><sup>Synthétiser des programmes graphiques pour figures scientifiques et croquis avec Ti*k*Z</sup></sub>",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "ylDjk/+udzockPD10FZ+1uYZCoSNQinB9QDkIwQsQ2I=",
         "originContent": "# DeTi*k*Zify<br><sub><sup>Synthesizing Graphics Programs for Scientific Figures and Sketches with Ti*k*Z</sup></sub>",
-        "translatedContent": "# DeTi*k*Zify<br><sub><sup>Synthèse de programmes graphiques pour figures scientifiques et croquis avec Ti*k*Z</sup></sub>"
+        "translatedContent": "# DeTi*k*Zify<br><sub><sup>Synthétiser des programmes graphiques pour figures scientifiques et croquis avec Ti*k*Z</sup></sub>"
       }
     ],
     "IsCodeBlock": false
@@ -82,7 +82,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hPWqucbPGTavNlYvOBvSNBAwdcPZKe8F)\n\nCréer des figures scientifiques de haute qualité peut être long et complexe,\nmême si esquisser des idées sur papier est relativement facile. De plus,\nreproduire des figures existantes qui ne sont pas stockées dans des formats\npréservant l'information sémantique est tout aussi complexe. Pour résoudre ce\nproblème, nous présentons [DeTi*k*Zify](https://github.com/potamides/DeTikZify),\nun nouveau modèle de langage multimodal qui synthétise automatiquement des\nfigures scientifiques sous forme de programmes graphiques [Ti*k*Z](https://github.com/pgf-tikz/pgf)\npréservant la sémantique, à partir de croquis et de figures existantes. Nous\nintroduisons également un algorithme d'inférence basé sur MCTS qui permet à\nDeTi*k*Zify de raffiner itérativement ses sorties sans nécessiter d'entraînement\nsupplémentaire.\n\nhttps://github.com/potamides/DeTikZify/assets/53401822/203d2853-0b5c-4a2b-9d09-3ccb65880cd3\n\n## Actualités\n* **2025-06-30** : Nous publions [DeTi*k*Zify<sub>v2.5</sub>\n  (8b)](https://huggingface.co/nllg/detikzify-v2.5-8b), notre dernier modèle,\n  qui s'appuie sur\n  [DeTi*k*Zify<sub>v2</sub>](https://huggingface.co/nllg/detikzify-v2-8b) en\n  utilisant l'[apprentissage par renforcement à partir d'auto-retours](https://huggingface.co/nllg/detikzify-v2.5-8b#reinforcement-learning-from-self-feedback)\n  (RLSF). Nous en faisons le modèle par défaut dans notre [Espace Hugging Face](https://huggingface.co/spaces/nllg/DeTikZify).\n  Consultez la [fiche du modèle](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)\n  pour plus d'informations.\n* **2025-06-26** : Ti*k*Zero a été accepté comme [article phare](https://iccv.thecvf.com/virtual/2025/poster/51)\n  à [ICCV 2025](https://iccv.thecvf.com) !\n* **2025-03-17** : Nous publions les adaptateurs\n  [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter) qui se branchent\n  directement dans [DeTi*k*Zify<sub>v2</sub>\n  (8b)](https://huggingface.co/nllg/detikzify-v2-8b) et permettent la\n  conditionnalité textuelle en zero-shot, ainsi que\n  [Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b) avec un\n  affinement bout-à-bout supplémentaire. Pour plus d'informations, consultez\n  notre [article](https://arxiv.org/abs/2503.11509) et les exemples d'utilisation\n  [ci-dessous](#usage).\n* **2024-12-05** : Nous publions [DeTi*k*Zify<sub>v2</sub>\n  (8b)](https://huggingface.co/nllg/detikzify-v2-8b), notre nouveau modèle\n  DeTi*k*Zify qui surpasse toutes les versions précédentes lors de nos\n  évaluations. Consultez la [fiche du modèle](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)\n  pour plus d'informations.\n* **2024-09-24** : DeTi*k*Zify a été accepté à [NeurIPS 2024](https://neurips.cc/Conferences/2024)\n  comme [article en vedette](https://neurips.cc/virtual/2024/poster/94474) !\n\n## Installation\n\n> [!TIP]\n> Si vous rencontrez des difficultés lors de l'installation ou de l'inférence sur\n> votre propre matériel, pensez à visiter notre [Espace Hugging Face](https://huggingface.co/spaces/nllg/DeTikZify)\n> (notez que le redémarrage de l'espace peut prendre jusqu'à 30 minutes). En cas\n> de longues files d'attente, vous avez la possibilité de\n> [dupliquer](https://huggingface.co/spaces/nllg/DeTikZify?duplicate=true) cet espace\n> avec un runtime GPU privé payant ou de [l'exécuter localement](https://huggingface.co/spaces/nllg/DeTikZify?docker=true)\n> avec Docker. Vous pouvez également essayer notre démo sur [Google Colab](https://colab.research.google.com/drive/1hPWqucbPGTavNlYvOBvSNBAwdcPZKe8F).\n> Cependant, la mise en place de l'environnement peut prendre un certain temps,\n> et le niveau gratuit ne supporte l'inférence que pour les modèles 1b.\n\nLe paquet Python de DeTi*k*Zify peut être facilement installé via\n[pip](https://pip.pypa.io/en/stable) :\n\n\n\n\n",
+    "Translation": "[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hPWqucbPGTavNlYvOBvSNBAwdcPZKe8F)\n\nCréer des figures scientifiques de haute qualité peut être chronophage et difficile,  \nmême si esquisser des idées sur papier est relativement facile. De plus,  \nrecréer des figures existantes qui ne sont pas stockées dans des formats préservant les informations sémantiques  \nest tout aussi complexe. Pour relever ce défi, nous présentons  \n[DeTi*k*Zify](https://github.com/potamides/DeTikZify), un nouveau modèle de langage multimodal  \nqui synthétise automatiquement des figures scientifiques sous forme de  \nprogrammes graphiques [Ti*k*Z](https://github.com/pgf-tikz/pgf)  \npréservant la sémantique, à partir de croquis et de figures existantes. Nous introduisons également un  \nalgorithme d'inférence basé sur MCTS qui permet à DeTi*k*Zify d'affiner itérativement  \nses résultats sans nécessiter d'entraînement supplémentaire.\n\nhttps://github.com/potamides/DeTikZify/assets/53401822/203d2853-0b5c-4a2b-9d09-3ccb65880cd3\n\n## Actualités\n* **2025-06-30** : Nous publions [DeTi*k*Zify<sub>v2.5</sub>  \n  (8b)](https://huggingface.co/nllg/detikzify-v2.5-8b), notre dernier modèle, qui  \n  s'appuie sur  \n  [DeTi*k*Zify<sub>v2</sub>](https://huggingface.co/nllg/detikzify-v2-8b) utilisant  \n  [l'apprentissage par renforcement à partir d'autocritique](https://huggingface.co/nllg/detikzify-v2.5-8b#reinforcement-learning-from-self-feedback)  \n  (RLSF). Nous en faisons le modèle par défaut dans notre [Hugging Face  \n  Space](https://huggingface.co/spaces/nllg/DeTikZify). Consultez la [fiche modèle](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)  \n  pour plus d'informations.\n* **2025-06-26** : Ti*k*Zero a été accepté comme [article  \n  phare](https://iccv.thecvf.com/virtual/2025/poster/51) à [ICCV  \n  2025](https://iccv.thecvf.com) !\n* **2025-03-17** : Nous publions  \n  [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter), des adaptateurs qui se branchent  \n  directement sur [DeTi*k*Zify<sub>v2</sub>  \n  (8b)](https://huggingface.co/nllg/detikzify-v2-8b) et permettent une conditionnement textuel zéro-shot, ainsi que  \n  [Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b) avec un affinage de bout en bout supplémentaire.  \n  Pour plus d'informations, consultez notre  \n  [article](https://arxiv.org/abs/2503.11509) et les exemples d'utilisation [ci-dessous](#usage).\n* **2024-12-05** : Nous publions [DeTi*k*Zify<sub>v2</sub>  \n  (8b)](https://huggingface.co/nllg/detikzify-v2-8b), notre nouveau modèle DeTi*k*Zify  \n  qui surpasse toutes les versions précédentes lors de notre évaluation. Consultez la [fiche modèle](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)  \n  pour plus d'informations.\n* **2024-09-24** : DeTi*k*Zify a été accepté à [NeurIPS  \n  2024](https://neurips.cc/Conferences/2024) comme [article  \n  phare](https://neurips.cc/virtual/2024/poster/94474) !\n\n## Installation\n\n> [!TIP]\n> Si vous rencontrez des difficultés avec l'installation ou l'inférence sur votre propre  \n> matériel, pensez à visiter notre [Hugging Face  \n> Space](https://huggingface.co/spaces/nllg/DeTikZify) (notez que  \n> le redémarrage de l'espace peut prendre jusqu'à 30 minutes). En cas de longues  \n> files d'attente, vous avez la possibilité de  \n> [dupliquer](https://huggingface.co/spaces/nllg/DeTikZify?duplicate=true) cet espace  \n> avec un runtime GPU privé payant ou de [le faire  \n> tourner localement](https://huggingface.co/spaces/nllg/DeTikZify?docker=true) avec  \n> Docker. De plus, vous pouvez essayer notre démo sur [Google  \n> Colab](https://colab.research.google.com/drive/1hPWqucbPGTavNlYvOBvSNBAwdcPZKe8F).  \n> Cependant, la configuration de l'environnement peut prendre un certain temps, et  \n> le niveau gratuit ne supporte l'inférence que pour les modèles 1b.\n\nLe paquet Python de DeTi*k*Zify peut être facilement installé avec  \n[pip](https://pip.pypa.io/en/stable) :\n\n\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -101,247 +101,247 @@
         "row": 3,
         "rowsha": "K/YeRGssFrJ+PN4Wp3ruohqP9QxqUIoyIhtjAQ9dCZw=",
         "originContent": "Creating high-quality scientific figures can be time-consuming and challenging,",
-        "translatedContent": "Créer des figures scientifiques de haute qualité peut être long et complexe,"
+        "translatedContent": "Créer des figures scientifiques de haute qualité peut être chronophage et difficile,  "
       },
       {
         "row": 4,
         "rowsha": "4ilfTAXVLILTbkvdckTqhjy1T2rccWrAih5TvOV2T/s=",
         "originContent": "even though sketching ideas on paper is relatively easy. Furthermore,",
-        "translatedContent": "même si esquisser des idées sur papier est relativement facile. De plus,"
+        "translatedContent": "même si esquisser des idées sur papier est relativement facile. De plus,  "
       },
       {
         "row": 5,
         "rowsha": "QypZxfpKXhXgHOOYaVTD77LXubSuHFCpJe7gCquEL30=",
         "originContent": "recreating existing figures that are not stored in formats preserving semantic",
-        "translatedContent": "reproduire des figures existantes qui ne sont pas stockées dans des formats"
+        "translatedContent": "recréer des figures existantes qui ne sont pas stockées dans des formats préservant les informations sémantiques  "
       },
       {
         "row": 6,
         "rowsha": "isQ2DvWLCK3EKjmmmSHKNmrVtqNSSl/4mZOkF0YRA34=",
         "originContent": "information is equally complex. To tackle this problem, we introduce",
-        "translatedContent": "préservant l'information sémantique est tout aussi complexe. Pour résoudre ce"
+        "translatedContent": "est tout aussi complexe. Pour relever ce défi, nous présentons  "
       },
       {
         "row": 7,
         "rowsha": "Rp913WkCCvebM3XM+7x77ObCkwNzW7QTfdruitYB5Wg=",
         "originContent": "[DeTi*k*Zify](https://github.com/potamides/DeTikZify), a novel multimodal",
-        "translatedContent": "problème, nous présentons [DeTi*k*Zify](https://github.com/potamides/DeTikZify),"
+        "translatedContent": "[DeTi*k*Zify](https://github.com/potamides/DeTikZify), un nouveau modèle de langage multimodal  "
       },
       {
         "row": 8,
         "rowsha": "G/Nl8tuEd7/JQResQBZHj9D9QiziOInrrhxOm8kKAWA=",
         "originContent": "language model that automatically synthesizes scientific figures as",
-        "translatedContent": "un nouveau modèle de langage multimodal qui synthétise automatiquement des"
+        "translatedContent": "qui synthétise automatiquement des figures scientifiques sous forme de  "
       },
       {
         "row": 9,
         "rowsha": "Jpjp+V3o+QFgnuhZOzApviU2xS1G1sRtMvL9PmFY6jM=",
         "originContent": "semantics-preserving [Ti*k*Z](https://github.com/pgf-tikz/pgf) graphics",
-        "translatedContent": "figures scientifiques sous forme de programmes graphiques [Ti*k*Z](https://github.com/pgf-tikz/pgf)"
+        "translatedContent": "programmes graphiques [Ti*k*Z](https://github.com/pgf-tikz/pgf)  "
       },
       {
         "row": 10,
         "rowsha": "dqS973N7mNHXs8jwT4OZXpBwaTXUQP45czQVQvkh2Zo=",
         "originContent": "programs based on sketches and existing figures. We also introduce an",
-        "translatedContent": "préservant la sémantique, à partir de croquis et de figures existantes. Nous"
+        "translatedContent": "préservant la sémantique, à partir de croquis et de figures existantes. Nous introduisons également un  "
       },
       {
         "row": 11,
         "rowsha": "KyBqN4of60qi8af5QReCyu3RFI9pWns5zgr7Sgm/zqE=",
         "originContent": "MCTS-based inference algorithm that enables DeTi*k*Zify to iteratively refine",
-        "translatedContent": "introduisons également un algorithme d'inférence basé sur MCTS qui permet à"
+        "translatedContent": "algorithme d'inférence basé sur MCTS qui permet à DeTi*k*Zify d'affiner itérativement  "
       },
       {
         "row": 12,
         "rowsha": "sc7dV2ZkYoY3D7FMmzQ9FEVecvcZkmul0CFwiY6ud5Q=",
         "originContent": "its outputs without the need for additional training.",
-        "translatedContent": "DeTi*k*Zify de raffiner itérativement ses sorties sans nécessiter d'entraînement"
+        "translatedContent": "ses résultats sans nécessiter d'entraînement supplémentaire."
       },
       {
         "row": 13,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "supplémentaire."
+        "translatedContent": ""
       },
       {
         "row": 14,
         "rowsha": "XC0/TaE4lclWoB5VpV5LOt+wEXUzMfivMtc/SfxHJfI=",
         "originContent": "https://github.com/potamides/DeTikZify/assets/53401822/203d2853-0b5c-4a2b-9d09-3ccb65880cd3",
-        "translatedContent": ""
+        "translatedContent": "https://github.com/potamides/DeTikZify/assets/53401822/203d2853-0b5c-4a2b-9d09-3ccb65880cd3"
       },
       {
         "row": 15,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "https://github.com/potamides/DeTikZify/assets/53401822/203d2853-0b5c-4a2b-9d09-3ccb65880cd3"
+        "translatedContent": ""
       },
       {
         "row": 16,
         "rowsha": "4SzYJwNNDn2R2kkHsB4X4H4ZhUVuQo9QZvhInidlbxE=",
         "originContent": "## News",
-        "translatedContent": ""
+        "translatedContent": "## Actualités"
       },
       {
         "row": 17,
         "rowsha": "4ZPXVKNoUkiVtcTmIqWqsooZzfL4yaqn+znugS0vZ9c=",
         "originContent": "* **2025-06-30**: We release [DeTi*k*Zify<sub>v2.5</sub>",
-        "translatedContent": "## Actualités"
+        "translatedContent": "* **2025-06-30** : Nous publions [DeTi*k*Zify<sub>v2.5</sub>  "
       },
       {
         "row": 18,
         "rowsha": "p6bDSK8j0YeIB0NvE3hfPsb1wUA98cPTKi8Z/0t90q4=",
         "originContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2.5-8b), our latest model, which",
-        "translatedContent": "* **2025-06-30** : Nous publions [DeTi*k*Zify<sub>v2.5</sub>"
+        "translatedContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2.5-8b), notre dernier modèle, qui  "
       },
       {
         "row": 19,
         "rowsha": "eMzGrZN0H23A7ajDk/HATTm4kL7SyHEXDqLzD9Swl3g=",
         "originContent": "  builds on",
-        "translatedContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2.5-8b), notre dernier modèle,"
+        "translatedContent": "  s'appuie sur  "
       },
       {
         "row": 20,
         "rowsha": "ONuZtcJkmP1aim97/dTDRjR2sTGjnh/Buax2ZEC+MGo=",
         "originContent": "  [DeTi*k*Zify<sub>v2</sub>](https://huggingface.co/nllg/detikzify-v2-8b) using",
-        "translatedContent": "  qui s'appuie sur"
+        "translatedContent": "  [DeTi*k*Zify<sub>v2</sub>](https://huggingface.co/nllg/detikzify-v2-8b) utilisant  "
       },
       {
         "row": 21,
         "rowsha": "XYoIzA2sW4BTC9OqkvlgGXQtGlTO7EopKjIZuA+S74s=",
         "originContent": "  [reinforment learning from",
-        "translatedContent": "  [DeTi*k*Zify<sub>v2</sub>](https://huggingface.co/nllg/detikzify-v2-8b) en"
+        "translatedContent": "  [l'apprentissage par renforcement à partir d'autocritique](https://huggingface.co/nllg/detikzify-v2.5-8b#reinforcement-learning-from-self-feedback)  "
       },
       {
         "row": 22,
         "rowsha": "ITW/o41FiuheF1HuXCqJrhT5lBw47kfL8YByXe1sagY=",
         "originContent": "  self-feedback](https://huggingface.co/nllg/detikzify-v2.5-8b#reinforcement-learning-from-self-feedback)",
-        "translatedContent": "  utilisant l'[apprentissage par renforcement à partir d'auto-retours](https://huggingface.co/nllg/detikzify-v2.5-8b#reinforcement-learning-from-self-feedback)"
+        "translatedContent": "  (RLSF). Nous en faisons le modèle par défaut dans notre [Hugging Face  "
       },
       {
         "row": 23,
         "rowsha": "x696c/yL+tEvPl+ffcxBVpJZXMYdz1uvLT1Yga62ofo=",
         "originContent": "  (RLSF). We make it the new default model in our [Hugging Face",
-        "translatedContent": "  (RLSF). Nous en faisons le modèle par défaut dans notre [Espace Hugging Face](https://huggingface.co/spaces/nllg/DeTikZify)."
+        "translatedContent": "  Space](https://huggingface.co/spaces/nllg/DeTikZify). Consultez la [fiche modèle](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)  "
       },
       {
         "row": 24,
         "rowsha": "cYWdjdu/DcCjmhCrKi1FSZWypiUesxUIPHUzcGtLR3U=",
         "originContent": "  Space](https://huggingface.co/spaces/nllg/DeTikZify). Check out the [model",
-        "translatedContent": "  Consultez la [fiche du modèle](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)"
+        "translatedContent": "  pour plus d'informations."
       },
       {
         "row": 25,
         "rowsha": "SO8GakUwJEiC2UItFftOuEarvywqgFuQF9Ylnlmnm3M=",
         "originContent": "  card](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)",
-        "translatedContent": "  pour plus d'informations."
+        "translatedContent": "* **2025-06-26** : Ti*k*Zero a été accepté comme [article  "
       },
       {
         "row": 26,
         "rowsha": "lpLbeHcEdciTNZhVxIDomLaNCdPOudgmgw++RIieL/A=",
         "originContent": "  for more information.",
-        "translatedContent": "* **2025-06-26** : Ti*k*Zero a été accepté comme [article phare](https://iccv.thecvf.com/virtual/2025/poster/51)"
+        "translatedContent": "  phare](https://iccv.thecvf.com/virtual/2025/poster/51) à [ICCV  "
       },
       {
         "row": 27,
         "rowsha": "VmhACCHQB/OOrWXNp+ZFZ3qwFNn4ahWB+9i8+Kyt7rI=",
         "originContent": "* **2025-06-26**: Ti*k*Zero was accepted as a [highlight",
-        "translatedContent": "  à [ICCV 2025](https://iccv.thecvf.com) !"
+        "translatedContent": "  2025](https://iccv.thecvf.com) !"
       },
       {
         "row": 28,
         "rowsha": "M8I2oPYlksLT7vQr8EsgC+0uwlrKQJl1EL9NkavqPyY=",
         "originContent": "  paper](https://iccv.thecvf.com/virtual/2025/poster/51) at [ICCV",
-        "translatedContent": "* **2025-03-17** : Nous publions les adaptateurs"
+        "translatedContent": "* **2025-03-17** : Nous publions  "
       },
       {
         "row": 29,
         "rowsha": "ig8LzI59DpPyddhAzFpUE9jZRojuWRPKq2aoAg+zdxc=",
         "originContent": "  2025](https://iccv.thecvf.com)!",
-        "translatedContent": "  [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter) qui se branchent"
+        "translatedContent": "  [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter), des adaptateurs qui se branchent  "
       },
       {
         "row": 30,
         "rowsha": "mjPsQBaZ4keZJ8c07tpHWTz5CEnnYlnF9my87Ejd3N8=",
         "originContent": "* **2025-03-17**: We release",
-        "translatedContent": "  directement dans [DeTi*k*Zify<sub>v2</sub>"
+        "translatedContent": "  directement sur [DeTi*k*Zify<sub>v2</sub>  "
       },
       {
         "row": 31,
         "rowsha": "e4yQj05GTSiUj4h++DaVAOY11F6xL0tBJg/zF/GSWm8=",
         "originContent": "  [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter) adapters which plug",
-        "translatedContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2-8b) et permettent la"
+        "translatedContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2-8b) et permettent une conditionnement textuel zéro-shot, ainsi que  "
       },
       {
         "row": 32,
         "rowsha": "1BK3yiPzhVfHx2MLxdHtx74gTg2QLnVK3RjrwXig9HA=",
         "originContent": "  directly into [DeTi*k*Zify<sub>v2</sub>",
-        "translatedContent": "  conditionnalité textuelle en zero-shot, ainsi que"
+        "translatedContent": "  [Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b) avec un affinage de bout en bout supplémentaire.  "
       },
       {
         "row": 33,
         "rowsha": "phBc6+AxIk0sh16Ee+DdXm15oAdNFpj1QXqCRFnKdU0=",
         "originContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2-8b) and enable zero-shot",
-        "translatedContent": "  [Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b) avec un"
+        "translatedContent": "  Pour plus d'informations, consultez notre  "
       },
       {
         "row": 34,
         "rowsha": "7P2BMX7bdiCNLLtmBHE49B1/7nYKXR3r8JCCb7lhZdI=",
         "originContent": "  text-conditioning, and",
-        "translatedContent": "  affinement bout-à-bout supplémentaire. Pour plus d'informations, consultez"
+        "translatedContent": "  [article](https://arxiv.org/abs/2503.11509) et les exemples d'utilisation [ci-dessous](#usage)."
       },
       {
         "row": 35,
         "rowsha": "52nsSboeoD9/yyTroJhaHh+aqTHnKouuyZ8Nxe4kr0M=",
         "originContent": "  [Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b) with additional",
-        "translatedContent": "  notre [article](https://arxiv.org/abs/2503.11509) et les exemples d'utilisation"
+        "translatedContent": "* **2024-12-05** : Nous publions [DeTi*k*Zify<sub>v2</sub>  "
       },
       {
         "row": 36,
         "rowsha": "JkEvmG/tIRAjdMaBG7wcYf/LCp9IpvGppQ7Xxmrf+3g=",
         "originContent": "  end-to-end fine-tuning. For more information see our",
-        "translatedContent": "  [ci-dessous](#usage)."
+        "translatedContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2-8b), notre nouveau modèle DeTi*k*Zify  "
       },
       {
         "row": 37,
         "rowsha": "SSs1i6TIuDjtq7AVEcJwCzGVsR4BOI4BdLYBTqOqm7M=",
         "originContent": "  [paper](https://arxiv.org/abs/2503.11509) and usage examples [below](#usage).",
-        "translatedContent": "* **2024-12-05** : Nous publions [DeTi*k*Zify<sub>v2</sub>"
+        "translatedContent": "  qui surpasse toutes les versions précédentes lors de notre évaluation. Consultez la [fiche modèle](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)  "
       },
       {
         "row": 38,
         "rowsha": "Swks7TR+eLBS+FD/xSD0X7eUE+AB2JtX1z+Lfp3gjrU=",
         "originContent": "* **2024-12-05**: We release [DeTi*k*Zify<sub>v2</sub>",
-        "translatedContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2-8b), notre nouveau modèle"
+        "translatedContent": "  pour plus d'informations."
       },
       {
         "row": 39,
         "rowsha": "HHKPbpwry2V3G+vBAQNrFa+/8UNQghbO93oNh0ZK/IQ=",
         "originContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2-8b), our new DeTi*k*Zify model",
-        "translatedContent": "  DeTi*k*Zify qui surpasse toutes les versions précédentes lors de nos"
+        "translatedContent": "* **2024-09-24** : DeTi*k*Zify a été accepté à [NeurIPS  "
       },
       {
         "row": 40,
         "rowsha": "P2DVG6rFD56SEsXq9H4P4GpaOTJeIzMr7nen/QhIbWk=",
         "originContent": "  that surpasses all previous versions in our evaluation. Check out the [model",
-        "translatedContent": "  évaluations. Consultez la [fiche du modèle](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)"
+        "translatedContent": "  2024](https://neurips.cc/Conferences/2024) comme [article  "
       },
       {
         "row": 41,
         "rowsha": "SO8GakUwJEiC2UItFftOuEarvywqgFuQF9Ylnlmnm3M=",
         "originContent": "  card](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)",
-        "translatedContent": "  pour plus d'informations."
+        "translatedContent": "  phare](https://neurips.cc/virtual/2024/poster/94474) !"
       },
       {
         "row": 42,
         "rowsha": "lpLbeHcEdciTNZhVxIDomLaNCdPOudgmgw++RIieL/A=",
         "originContent": "  for more information.",
-        "translatedContent": "* **2024-09-24** : DeTi*k*Zify a été accepté à [NeurIPS 2024](https://neurips.cc/Conferences/2024)"
+        "translatedContent": ""
       },
       {
         "row": 43,
         "rowsha": "70+yDtV9ZxLqeMBrsbveqaD4qhP94UlOiv3q/cA2I8o=",
         "originContent": "* **2024-09-24**: DeTi*k*Zify was accepted at [NeurIPS",
-        "translatedContent": "  comme [article en vedette](https://neurips.cc/virtual/2024/poster/94474) !"
+        "translatedContent": "## Installation"
       },
       {
         "row": 44,
@@ -353,97 +353,97 @@
         "row": 45,
         "rowsha": "wDmC3NM2e/kxtyQpnTcVMrBgrZtevjLmMBJftpoCM98=",
         "originContent": "  paper](https://neurips.cc/virtual/2024/poster/94474)!",
-        "translatedContent": "## Installation"
+        "translatedContent": "> [!TIP]"
       },
       {
         "row": 46,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "> Si vous rencontrez des difficultés avec l'installation ou l'inférence sur votre propre  "
       },
       {
         "row": 47,
         "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
         "originContent": "## Installation",
-        "translatedContent": "> [!TIP]"
+        "translatedContent": "> matériel, pensez à visiter notre [Hugging Face  "
       },
       {
         "row": 48,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "> Si vous rencontrez des difficultés lors de l'installation ou de l'inférence sur"
+        "translatedContent": "> Space](https://huggingface.co/spaces/nllg/DeTikZify) (notez que  "
       },
       {
         "row": 49,
         "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
         "originContent": "> [!TIP]",
-        "translatedContent": "> votre propre matériel, pensez à visiter notre [Espace Hugging Face](https://huggingface.co/spaces/nllg/DeTikZify)"
+        "translatedContent": "> le redémarrage de l'espace peut prendre jusqu'à 30 minutes). En cas de longues  "
       },
       {
         "row": 50,
         "rowsha": "OxTAJYsFKVqfSlmFnhN/ayWGJK5Nr8x5bmIlz4hjJlk=",
         "originContent": "> If you encounter difficulties with installation or inference on your own",
-        "translatedContent": "> (notez que le redémarrage de l'espace peut prendre jusqu'à 30 minutes). En cas"
+        "translatedContent": "> files d'attente, vous avez la possibilité de  "
       },
       {
         "row": 51,
         "rowsha": "O8Us0fT6bDgv2/Pnfz0dVEnPSG1nlHp84yHWt9upjAU=",
         "originContent": "> hardware, consider visiting our [Hugging Face",
-        "translatedContent": "> de longues files d'attente, vous avez la possibilité de"
+        "translatedContent": "> [dupliquer](https://huggingface.co/spaces/nllg/DeTikZify?duplicate=true) cet espace  "
       },
       {
         "row": 52,
         "rowsha": "29rPgCXa+12hAiAOCw5qH7pQIDWw4dJlzDOG2iprYRU=",
         "originContent": "> Space](https://huggingface.co/spaces/nllg/DeTikZify) (please note that",
-        "translatedContent": "> [dupliquer](https://huggingface.co/spaces/nllg/DeTikZify?duplicate=true) cet espace"
+        "translatedContent": "> avec un runtime GPU privé payant ou de [le faire  "
       },
       {
         "row": 53,
         "rowsha": "AlZS2F8+G40BniQkWRiQbX9+I439mihZkY9urTeNwCk=",
         "originContent": "> restarting the space can take up to 30 minutes). Should you experience long",
-        "translatedContent": "> avec un runtime GPU privé payant ou de [l'exécuter localement](https://huggingface.co/spaces/nllg/DeTikZify?docker=true)"
+        "translatedContent": "> tourner localement](https://huggingface.co/spaces/nllg/DeTikZify?docker=true) avec  "
       },
       {
         "row": 54,
         "rowsha": "2UhPELgBdtcYu7rbZLRY7CuOOp0+rRxgwj4Q/e26aWY=",
         "originContent": "> queues, you have the option to",
-        "translatedContent": "> avec Docker. Vous pouvez également essayer notre démo sur [Google Colab](https://colab.research.google.com/drive/1hPWqucbPGTavNlYvOBvSNBAwdcPZKe8F)."
+        "translatedContent": "> Docker. De plus, vous pouvez essayer notre démo sur [Google  "
       },
       {
         "row": 55,
         "rowsha": "P4AAxq503DHi8wkBu8FoWMJ5aEMvvxISr05Gilf8nXE=",
         "originContent": "> [duplicate](https://huggingface.co/spaces/nllg/DeTikZify?duplicate=true) it",
-        "translatedContent": "> Cependant, la mise en place de l'environnement peut prendre un certain temps,"
+        "translatedContent": "> Colab](https://colab.research.google.com/drive/1hPWqucbPGTavNlYvOBvSNBAwdcPZKe8F).  "
       },
       {
         "row": 56,
         "rowsha": "LAzSjvxQpqx3L0JgEVgw+19nyHY2mpnOrswIrdt547k=",
         "originContent": "> with a paid private GPU runtime or [run it",
-        "translatedContent": "> et le niveau gratuit ne supporte l'inférence que pour les modèles 1b."
+        "translatedContent": "> Cependant, la configuration de l'environnement peut prendre un certain temps, et  "
       },
       {
         "row": 57,
         "rowsha": "2g3dAjY2+uh26QuRvEYLaxdYrMrbAccqJpefZzOotZk=",
         "originContent": "> locally](https://huggingface.co/spaces/nllg/DeTikZify?docker=true) with",
-        "translatedContent": ""
+        "translatedContent": "> le niveau gratuit ne supporte l'inférence que pour les modèles 1b."
       },
       {
         "row": 58,
         "rowsha": "YPa1jFPnevdwqT9RO2/0C1Rw36ZOxYRGOxMo/jzA+X0=",
         "originContent": "> Docker. Additionally, you can try our demo on [Google",
-        "translatedContent": "Le paquet Python de DeTi*k*Zify peut être facilement installé via"
+        "translatedContent": ""
       },
       {
         "row": 59,
         "rowsha": "auPqSQi5E5wof7hT4xKPylCe4tjxrZW9N1e2MXcx9Ok=",
         "originContent": "> Colab](https://colab.research.google.com/drive/1hPWqucbPGTavNlYvOBvSNBAwdcPZKe8F).",
-        "translatedContent": "[pip](https://pip.pypa.io/en/stable) :"
+        "translatedContent": "Le paquet Python de DeTi*k*Zify peut être facilement installé avec  "
       },
       {
         "row": 60,
         "rowsha": "NbnfQYSXQgf9TS88LZDMKhpa3qiENK4AAYHCHhmzU/o=",
         "originContent": "> However, setting up the environment there might take some time, and the free",
-        "translatedContent": ""
+        "translatedContent": "[pip](https://pip.pypa.io/en/stable) :"
       },
       {
         "row": 61,
@@ -510,20 +510,20 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "L’extra `[legacy]` est uniquement nécessaire si vous prévoyez d’utiliser les\nmodèles DeTi*k*Zify<sub>v1</sub>. Si vous prévoyez d’utiliser uniquement\nDeTi*k*Zify<sub>v2</sub>, vous pouvez le supprimer. Si votre objectif est d’exécuter les\n[exemples](examples) inclus, il est plus simple de cloner le dépôt et de l’installer en\nmode modifiable comme ceci :",
+    "Translation": "L’extra `[legacy]` est uniquement nécessaire si vous prévoyez d’utiliser les modèles\nDeTi*k*Zify<sub>v1</sub>. Si vous prévoyez uniquement d’utiliser\nDeTi*k*Zify<sub>v2</sub>, vous pouvez le supprimer. Si votre objectif est d’exécuter les\n[exemples](examples) inclus, il est plus simple de cloner le dépôt et de l’installer en\nmode modifiable comme ceci :",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "SMu9TJAzBz76kN1pXocQhg56EXqc6/uAko9SxAxZKaY=",
         "originContent": "The `[legacy]` extra is only required if you plan to use the",
-        "translatedContent": "L’extra `[legacy]` est uniquement nécessaire si vous prévoyez d’utiliser les"
+        "translatedContent": "L’extra `[legacy]` est uniquement nécessaire si vous prévoyez d’utiliser les modèles"
       },
       {
         "row": 2,
         "rowsha": "A61CJEc2h3nE7Vql8gi7mRLqYZUc1lcjTGhbqL0a42o=",
         "originContent": "DeTi*k*Zify<sub>v1</sub> models. If you only plan to use",
-        "translatedContent": "modèles DeTi*k*Zify<sub>v1</sub>. Si vous prévoyez d’utiliser uniquement"
+        "translatedContent": "DeTi*k*Zify<sub>v1</sub>. Si vous prévoyez uniquement d’utiliser"
       },
       {
         "row": 3,
@@ -590,7 +590,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "De plus, DeTi*k*Zify nécessite une installation complète\nde [TeX Live 2023](https://www.tug.org/texlive),\n[ghostscript](https://www.ghostscript.com), et\n[poppler](https://poppler.freedesktop.org) que vous devez installer via\nvotre gestionnaire de paquets ou par d’autres moyens.\n\n## Utilisation\n\n> [!TIP]\n> Pour une utilisation interactive et des [conseils d’utilisation](detikzify/webui#usage-tips),\n> nous recommandons de consulter notre [interface web](detikzify/webui), qui peut être lancée\n> directement depuis la ligne de commande (utilisez `--help` pour la liste de toutes les options) :\n> ```sh\n> python -m detikzify.webui --light\n> ```\n\nSi toutes les dépendances requises sont installées, l’ensemble des fonctionnalités de DeTi*k*Zify\ntelles que la compilation, le rendu, la sauvegarde des graphiques Ti*k*Z,\net l’inférence basée sur MCTS peuvent être accessibles via son interface de programmation :\n<details open><summary>Exemple DeTi<i>k</i>Zify</summary>\n",
+    "Translation": "De plus, DeTi*k*Zify nécessite une installation complète\nde [TeX Live 2023](https://www.tug.org/texlive),\n[ghostscript](https://www.ghostscript.com), et\n[poppler](https://poppler.freedesktop.org) que vous devez installer via\nvotre gestionnaire de paquets ou par d’autres moyens.\n\n## Utilisation\n\n> [!CONSEIL]\n> Pour une utilisation interactive et des [conseils d’utilisation](detikzify/webui#usage-tips),\n> nous recommandons de consulter notre [interface web](detikzify/webui), qui peut être lancée\n> directement depuis la ligne de commande (utilisez `--help` pour une liste de toutes les options) :\n> ```sh\n> python -m detikzify.webui --light\n> ```\n\nSi toutes les dépendances requises sont installées, l’ensemble des fonctionnalités de DeTi*k*Zify\ntelles que la compilation, le rendu, la sauvegarde des graphiques Ti*k*Z, et\nl’inférence basée sur MCTS sont accessibles via son interface de programmation :\n<details open><summary>Exemple DeTi<i>k</i>Zify</summary>\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -645,7 +645,7 @@
         "row": 9,
         "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
         "originContent": "> [!TIP]",
-        "translatedContent": "> [!TIP]"
+        "translatedContent": "> [!CONSEIL]"
       },
       {
         "row": 10,
@@ -663,7 +663,7 @@
         "row": 12,
         "rowsha": "QUzgNkDiLv+ky7/8dmFvlxsz6u1yfyQT5OCVj+8ACQM=",
         "originContent": "> directly from the command line (use `--help` for a list of all options):",
-        "translatedContent": "> directement depuis la ligne de commande (utilisez `--help` pour la liste de toutes les options) :"
+        "translatedContent": "> directement depuis la ligne de commande (utilisez `--help` pour une liste de toutes les options) :"
       },
       {
         "row": 13,
@@ -699,13 +699,13 @@
         "row": 18,
         "rowsha": "cFwR1Akr80v3X45s6AHT30fbvvNeu1Ir+so7LJJCegc=",
         "originContent": "features such as compiling, rendering, and saving Ti*k*Z graphics, and",
-        "translatedContent": "telles que la compilation, le rendu, la sauvegarde des graphiques Ti*k*Z,"
+        "translatedContent": "telles que la compilation, le rendu, la sauvegarde des graphiques Ti*k*Z, et"
       },
       {
         "row": 19,
         "rowsha": "6LIMvq4CC6/kfs+E5XYtwD/GDxdZdl0P53rHwNmcpLE=",
         "originContent": "MCTS-based inference can be accessed through its programming interface:",
-        "translatedContent": "et l’inférence basée sur MCTS peuvent être accessibles via son interface de programmation :"
+        "translatedContent": "l’inférence basée sur MCTS sont accessibles via son interface de programmation :"
       },
       {
         "row": 20,
@@ -916,7 +916,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "</details>\n\nGrâce aux adaptateurs [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter) et\n[Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b), il est également possible\nde synthétiser des programmes graphiques conditionnés par du texte (cf. notre\n[article](https://arxiv.org/abs/2503.11509) pour\nplus de détails). Notez que cela est actuellement uniquement pris en charge via l'interface\nde programmation :\n\n<details open><summary>Exemple Ti<i>k</i>Zero+</summary>\n",
+    "Translation": "</details>\n\nGrâce aux adaptateurs [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter) et\n[Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b), il est également possible\nde synthétiser des programmes graphiques conditionnés par du texte (cf. notre\n[article](https://arxiv.org/abs/2503.11509) pour\nles détails). Notez que cela est actuellement uniquement pris en charge via l'interface\nde programmation :\n\n<details open><summary>Exemple Ti<i>k</i>Zero+</summary>\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -959,7 +959,7 @@
         "row": 7,
         "rowsha": "Pao2pcYQ1RIJsAYNNh82/k+km9jjx6gev5ZSgfHLp7M=",
         "originContent": "details). Note that this currently only supported through the programming",
-        "translatedContent": "plus de détails). Notez que cela est actuellement uniquement pris en charge via l'interface"
+        "translatedContent": "les détails). Notez que cela est actuellement uniquement pris en charge via l'interface"
       },
       {
         "row": 8,
@@ -1298,7 +1298,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "</details>\n\nDes exemples plus complexes, par exemple pour l'évaluation et l'entraînement, peuvent être trouvés\ndans le dossier [examples](examples).\n\n## Poids des Modèles & Jeux de Données\nNous téléversons tous nos modèles et jeux de données DeTi*k*Zify sur le [Hugging Face\nHub](https://huggingface.co/collections/nllg/detikzify-664460c521aa7c2880095a8b)\n(les modèles Ti*k*Zero sont disponibles\n[ici](https://huggingface.co/collections/nllg/tikzero-67d1952fab69f5bd172de1fe)).\nCependant, veuillez noter que pour la publication publique des\njeux de données [DaTi*k*Z<sub>v2</sub>](https://huggingface.co/datasets/nllg/datikz-v2)\net [DaTi*k*Z<sub>v3</sub>](https://huggingface.co/datasets/nllg/datikz-v3),\nnous avons dû retirer une grande partie des dessins Ti*k*Z\nprovenant de [arXiv](https://arxiv.org), car la [licence non exclusive d’arXiv](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html) ne\npermet pas la redistribution. Nous publions cependant nos [scripts de création de jeux de données](https://github.com/potamides/DaTikZ) et encourageons chacun à recréer\nla version complète de DaTi*k*Z par eux-mêmes.\n\n## Citation\nSi DeTi*k*Zify et Ti*k*Zero ont été bénéfiques pour votre recherche ou\nvos applications, nous vous prions de bien vouloir les reconnaître en les citant comme\nsuit :\n\n\n",
+    "Translation": "</details>\n\nDes exemples plus complexes, par exemple pour l'évaluation et l'entraînement, peuvent être trouvés\ndans le dossier [examples](examples).\n\n## Poids du modèle & Jeux de données\nNous téléversons tous nos modèles et jeux de données DeTi*k*Zify sur le [Hugging Face\nHub](https://huggingface.co/collections/nllg/detikzify-664460c521aa7c2880095a8b)\n(les modèles Ti*k*Zero sont disponibles\n[ici](https://huggingface.co/collections/nllg/tikzero-67d1952fab69f5bd172de1fe)).\nCependant, veuillez noter que pour la publication publique des\njeux de données [DaTi*k*Z<sub>v2</sub>](https://huggingface.co/datasets/nllg/datikz-v2)\net [DaTi*k*Z<sub>v3</sub>](https://huggingface.co/datasets/nllg/datikz-v3),\nnous avons dû retirer une portion considérable des dessins Ti*k*Z\nprovenant de [arXiv](https://arxiv.org), car la [licence non exclusive\nd'arXiv](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html) ne\npermet pas la redistribution. Nous publions cependant nos [scripts de création\nde jeu de données](https://github.com/potamides/DaTikZ) et encourageons chacun à recréer\nla version complète de DaTi*k*Z par eux-mêmes.\n\n## Citation\nSi DeTi*k*Zify et Ti*k*Zero ont été bénéfiques pour vos recherches ou\napplications, nous vous prions de bien vouloir les citer comme suit :\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -1335,7 +1335,7 @@
         "row": 6,
         "rowsha": "2KVw7QEm7NMNf4mvjwLFvqwwwIb2c2JZQyByHUIJPRM=",
         "originContent": "## Model Weights & Datasets",
-        "translatedContent": "## Poids des Modèles & Jeux de Données"
+        "translatedContent": "## Poids du modèle & Jeux de données"
       },
       {
         "row": 7,
@@ -1383,61 +1383,61 @@
         "row": 14,
         "rowsha": "SMCqSiEivw6Lt4osEsTtjKimbD7NI7SX4BnMhYeA/oM=",
         "originContent": "datasets, we had to remove a considerable portion of Ti*k*Z drawings",
-        "translatedContent": "nous avons dû retirer une grande partie des dessins Ti*k*Z"
+        "translatedContent": "nous avons dû retirer une portion considérable des dessins Ti*k*Z"
       },
       {
         "row": 15,
         "rowsha": "Hsil6XN7+H/ngZUmvhlTyNH8XTg79WSr6WQEd9R96ic=",
         "originContent": "originating from [arXiv](https://arxiv.org), as the [arXiv non-exclusive",
-        "translatedContent": "provenant de [arXiv](https://arxiv.org), car la [licence non exclusive d’arXiv](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html) ne"
+        "translatedContent": "provenant de [arXiv](https://arxiv.org), car la [licence non exclusive"
       },
       {
         "row": 16,
         "rowsha": "Ho+7xtbudn7uS6DWFWjq9Uw+UyvOiyVj4g6JmLQlmLw=",
         "originContent": "license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html) does",
-        "translatedContent": "permet pas la redistribution. Nous publions cependant nos [scripts de création de jeux de données](https://github.com/potamides/DaTikZ) et encourageons chacun à recréer"
+        "translatedContent": "d'arXiv](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html) ne"
       },
       {
         "row": 17,
         "rowsha": "evBbMcxEeHoYJeUKRbE4/tJ20JnHKRAOLRmFbINC3L8=",
         "originContent": "not permit redistribution. We do, however, release our [dataset creation",
-        "translatedContent": "la version complète de DaTi*k*Z par eux-mêmes."
+        "translatedContent": "permet pas la redistribution. Nous publions cependant nos [scripts de création"
       },
       {
         "row": 18,
         "rowsha": "ULPlSZMgvBbZrB8nsYA5zTQPKGH1EBkoRhcGKlhUYiQ=",
         "originContent": "scripts](https://github.com/potamides/DaTikZ) and encourage anyone to recreate",
-        "translatedContent": ""
+        "translatedContent": "de jeu de données](https://github.com/potamides/DaTikZ) et encourageons chacun à recréer"
       },
       {
         "row": 19,
         "rowsha": "jrPzjzHk4ChGcg4kEu++pk3fIBXaGnEms1G/LmwCvZA=",
         "originContent": "the full version of DaTi*k*Z themselves.",
-        "translatedContent": "## Citation"
+        "translatedContent": "la version complète de DaTi*k*Z par eux-mêmes."
       },
       {
         "row": 20,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "Si DeTi*k*Zify et Ti*k*Zero ont été bénéfiques pour votre recherche ou"
+        "translatedContent": ""
       },
       {
         "row": 21,
         "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
         "originContent": "## Citation",
-        "translatedContent": "vos applications, nous vous prions de bien vouloir les reconnaître en les citant comme"
+        "translatedContent": "## Citation"
       },
       {
         "row": 22,
         "rowsha": "eGq3N6C7GYdvLo2iPcRC7uQLfvWeMdd12v23hgrFdfU=",
         "originContent": "If DeTi*k*Zify and Ti*k*Zero have been beneficial for your research or",
-        "translatedContent": "suit :"
+        "translatedContent": "Si DeTi*k*Zify et Ti*k*Zero ont été bénéfiques pour vos recherches ou"
       },
       {
         "row": 23,
         "rowsha": "1+C/1txMC1sEHllK8g7Cewxs86uFik6gLT4Kzd9HKJA=",
         "originContent": "applications, we kindly request you to acknowledge this by citing them as",
-        "translatedContent": ""
+        "translatedContent": "applications, nous vous prions de bien vouloir les citer comme suit :"
       },
       {
         "row": 24,
@@ -1626,68 +1626,68 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "## Remerciements  \nL'implémentation de l'architecture du modèle DeTi*k*Zify est basée sur  \n[LLaVA](https://github.com/haotian-liu/LLaVA) et  \n[AutomaTikZ](https://github.com/potamides/AutomaTikZ) (v1), et [Idefics  \n3](https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3) (v2). Notre implémentation MCTS  \nest basée sur  \n[VerMCTS](https://github.com/namin/llm-verified-with-monte-carlo-tree-search).  \nL'architecture Ti*k*Zero s'inspire de  \n[Flamingo](https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/)  \net [LLaMA  \n3.2-Vision](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices).\n\n",
+    "Translation": "## Remerciements\nL'implémentation de l'architecture du modèle DeTi*k*Zify est basée sur\n[LLaVA](https://github.com/haotian-liu/LLaVA) et\n[AutomaTikZ](https://github.com/potamides/AutomaTikZ) (v1), ainsi que [Idefics\n3](https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3) (v2). Notre implémentation MCTS\nest basée sur\n[VerMCTS](https://github.com/namin/llm-verified-with-monte-carlo-tree-search).\nL'architecture Ti*k*Zero s'inspire de\n[Flamingo](https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/)\net [LLaMA\n3.2-Vision](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices).\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## Remerciements  "
+        "translatedContent": "## Remerciements"
       },
       {
         "row": 2,
         "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
         "originContent": "## Acknowledgments",
-        "translatedContent": "L'implémentation de l'architecture du modèle DeTi*k*Zify est basée sur  "
+        "translatedContent": "L'implémentation de l'architecture du modèle DeTi*k*Zify est basée sur"
       },
       {
         "row": 3,
         "rowsha": "QkaPCIBFkarQHfE3DYVSH3Sg2yu0ET88idHT23waKVE=",
         "originContent": "The implementation of the DeTi*k*Zify model architecture is based on",
-        "translatedContent": "[LLaVA](https://github.com/haotian-liu/LLaVA) et  "
+        "translatedContent": "[LLaVA](https://github.com/haotian-liu/LLaVA) et"
       },
       {
         "row": 4,
         "rowsha": "HQ/RPugcFJdeSUNRhFNHX8IoG9K/+pWS0FX5I81nm3s=",
         "originContent": "[LLaVA](https://github.com/haotian-liu/LLaVA) and",
-        "translatedContent": "[AutomaTikZ](https://github.com/potamides/AutomaTikZ) (v1), et [Idefics  "
+        "translatedContent": "[AutomaTikZ](https://github.com/potamides/AutomaTikZ) (v1), ainsi que [Idefics"
       },
       {
         "row": 5,
         "rowsha": "1ZyDj9Z82GIE0wAsA0yNvNGv4IilAkwV3vaobsYMTBI=",
         "originContent": "[AutomaTikZ](https://github.com/potamides/AutomaTikZ) (v1), and [Idefics",
-        "translatedContent": "3](https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3) (v2). Notre implémentation MCTS  "
+        "translatedContent": "3](https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3) (v2). Notre implémentation MCTS"
       },
       {
         "row": 6,
         "rowsha": "CvTaq0ormwD+HYWEas6Wyf0nBkbCn5wL3y4WBdQpZ7w=",
         "originContent": "3](https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3) (v2). Our MCTS",
-        "translatedContent": "est basée sur  "
+        "translatedContent": "est basée sur"
       },
       {
         "row": 7,
         "rowsha": "m9FAENOXvrbdY+eDe6aO89ITCoeKdNkSO+DVZkYTZu8=",
         "originContent": "implementation is based on",
-        "translatedContent": "[VerMCTS](https://github.com/namin/llm-verified-with-monte-carlo-tree-search).  "
+        "translatedContent": "[VerMCTS](https://github.com/namin/llm-verified-with-monte-carlo-tree-search)."
       },
       {
         "row": 8,
         "rowsha": "P9JT6ma9GuBQTxOcjDaqAXNV/yDcKxI3jDNF+zTpyCg=",
         "originContent": "[VerMCTS](https://github.com/namin/llm-verified-with-monte-carlo-tree-search).",
-        "translatedContent": "L'architecture Ti*k*Zero s'inspire de  "
+        "translatedContent": "L'architecture Ti*k*Zero s'inspire de"
       },
       {
         "row": 9,
         "rowsha": "/dm3cT+J7Y4BIkK3w54hDz/jboSVe8NrxcN9/Yo8uHA=",
         "originContent": "The Ti*k*Zero architecture draws inspiration from",
-        "translatedContent": "[Flamingo](https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/)  "
+        "translatedContent": "[Flamingo](https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/)"
       },
       {
         "row": 10,
         "rowsha": "uePVjPtoMRt4/XxC0jxt06WfQ9USQF+2MLN6lU8waCA=",
         "originContent": "[Flamingo](https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/)",
-        "translatedContent": "et [LLaMA  "
+        "translatedContent": "et [LLaMA"
       },
       {
         "row": 11,

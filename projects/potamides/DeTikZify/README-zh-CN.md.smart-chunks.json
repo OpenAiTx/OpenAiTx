@@ -82,7 +82,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hPWqucbPGTavNlYvOBvSNBAwdcPZKe8F)\n\n创建高质量的科学图形可能既费时又具挑战性，尽管在纸上草拟想法相对容易。此外，重新创建未以保留语义信息格式存储的现有图形同样复杂。为了解决这个问题，我们介绍了[DeTi*k*Zify](https://github.com/potamides/DeTikZify)，一种新颖的多模态语言模型，能够基于草图和现有图形自动合成保留语义的[Ti*k*Z](https://github.com/pgf-tikz/pgf)图形程序。我们还引入了一种基于MCTS的推理算法，使DeTi*k*Zify能够迭代优化其输出，无需额外训练。\n\nhttps://github.com/potamides/DeTikZify/assets/53401822/203d2853-0b5c-4a2b-9d09-3ccb65880cd3\n\n## 新闻\n* **2025-06-30**：我们发布了[DeTi*k*Zify<sub>v2.5</sub>\n  (8b)](https://huggingface.co/nllg/detikzify-v2.5-8b)，这是我们最新的模型，基于\n  [DeTi*k*Zify<sub>v2</sub>](https://huggingface.co/nllg/detikzify-v2-8b)利用\n  [自我反馈强化学习](https://huggingface.co/nllg/detikzify-v2.5-8b#reinforcement-learning-from-self-feedback)\n  (RLSF)进行构建。我们已将其设为我们[Hugging Face\n  Space](https://huggingface.co/spaces/nllg/DeTikZify)的默认模型。更多信息请查看[模型卡](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)。\n* **2025-06-26**：Ti*k*Zero被接收为[ICCV\n  2025](https://iccv.thecvf.com)的[重点论文](https://iccv.thecvf.com/virtual/2025/poster/51)！\n* **2025-03-17**：我们发布了\n  [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter)适配器，可直接插入\n  [DeTi*k*Zify<sub>v2</sub>\n  (8b)](https://huggingface.co/nllg/detikzify-v2-8b)，支持零样本文本条件输入，及带有额外端到端微调的\n  [Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b)。更多信息请参阅我们的\n  [论文](https://arxiv.org/abs/2503.11509)及[使用示例](#usage)。\n* **2024-12-05**：我们发布了[DeTi*k*Zify<sub>v2</sub>\n  (8b)](https://huggingface.co/nllg/detikzify-v2-8b)，这是我们在评估中超过所有先前版本的新DeTi*k*Zify模型。更多信息请查看[模型卡](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)。\n* **2024-09-24**：DeTi*k*Zify被接收为[NeurIPS\n  2024](https://neurips.cc/Conferences/2024)的[聚焦论文](https://neurips.cc/virtual/2024/poster/94474)！\n\n## 安装\n\n> [!提示]\n> 如果您在自己的硬件上安装或推理时遇到困难，可以考虑访问我们的[Hugging Face\n> Space](https://huggingface.co/spaces/nllg/DeTikZify)（请注意，重启空间可能需要长达30分钟）。若遇到长时间排队，您可以选择\n> [复制](https://huggingface.co/spaces/nllg/DeTikZify?duplicate=true)该空间，使用付费私有GPU运行时，或通过\n> [Docker本地运行](https://huggingface.co/spaces/nllg/DeTikZify?docker=true)。此外，您也可以尝试我们的[Google\n> Colab演示](https://colab.research.google.com/drive/1hPWqucbPGTavNlYvOBvSNBAwdcPZKe8F)。\n> 但在那里设置环境可能需要一些时间，且免费层仅支持1b模型的推理。\n\nDeTi*k*Zify的Python包可以通过[pip](https://pip.pypa.io/en/stable)轻松安装：\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Translation": "[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hPWqucbPGTavNlYvOBvSNBAwdcPZKe8F)\n\n创建高质量的科学图形可能既耗时又具有挑战性，  \n即使在纸上草绘想法相对容易。此外，  \n重新创建未以保留语义信息格式存储的现有图形同样复杂。为了解决这个问题，我们推出了  \n[DeTi*k*Zify](https://github.com/potamides/DeTikZify)，一种新颖的多模态  \n语言模型，能够基于草图和现有图形自动合成保留语义的  \n[Ti*k*Z](https://github.com/pgf-tikz/pgf)图形程序。我们还引入了一种  \n基于MCTS的推理算法，使DeTi*k*Zify能够迭代地优化其输出，  \n无需额外训练。\n\nhttps://github.com/potamides/DeTikZify/assets/53401822/203d2853-0b5c-4a2b-9d09-3ccb65880cd3\n\n## 新闻\n* **2025-06-30**：我们发布了最新模型[DeTi*k*Zify<sub>v2.5</sub>\n  (8b)](https://huggingface.co/nllg/detikzify-v2.5-8b)，该模型基于  \n  [DeTi*k*Zify<sub>v2</sub>](https://huggingface.co/nllg/detikzify-v2-8b)  \n  使用[来自自我反馈的强化学习](https://huggingface.co/nllg/detikzify-v2.5-8b#reinforcement-learning-from-self-feedback)  \n  (RLSF)训练。我们已将其设为我们[Hugging Face  \n  Space](https://huggingface.co/spaces/nllg/DeTikZify)的新默认模型。更多信息请参见[模型卡](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)。\n* **2025-06-26**：Ti*k*Zero被接收为[ICCV  \n  2025](https://iccv.thecvf.com)的[亮点论文](https://iccv.thecvf.com/virtual/2025/poster/51)！\n* **2025-03-17**：我们发布了  \n  [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter)适配器，  \n  该适配器可直接插入[DeTi*k*Zify<sub>v2</sub>  \n  (8b)](https://huggingface.co/nllg/detikzify-v2-8b)，实现零样本文本条件控制，  \n  以及带有额外端到端微调的[Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b)。  \n  更多信息请参见我们的[论文](https://arxiv.org/abs/2503.11509)和下面的使用示例[#usage]。\n* **2024-12-05**：我们发布了[DeTi*k*Zify<sub>v2</sub>  \n  (8b)](https://huggingface.co/nllg/detikzify-v2-8b)，这是一款在评测中超越所有前代版本的新模型。  \n  更多信息请参见[模型卡](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)。\n* **2024-09-24**：DeTi*k*Zify被接收为[NeurIPS  \n  2024](https://neurips.cc/Conferences/2024)的[聚光灯论文](https://neurips.cc/virtual/2024/poster/94474)！\n\n## 安装\n\n> [!TIP]\n> 如果在您自己的硬件上安装或推理时遇到困难，建议访问我们的[Hugging Face  \n> Space](https://huggingface.co/spaces/nllg/DeTikZify)（请注意，重启空间可能需要长达30分钟）。  \n> 如果遇到排队时间较长，您可以选择  \n> [复制](https://huggingface.co/spaces/nllg/DeTikZify?duplicate=true)该空间，使用付费私有GPU运行时，或通过  \n> [Docker](https://huggingface.co/spaces/nllg/DeTikZify?docker=true)在本地运行。  \n> 此外，您还可以尝试我们在[Google  \n> Colab](https://colab.research.google.com/drive/1hPWqucbPGTavNlYvOBvSNBAwdcPZKe8F)上的演示。  \n> 但那里的环境配置可能需要一些时间，且免费套餐仅支持1b模型的推理。\n\nDeTi*k*Zify的Python包可以通过[pip](https://pip.pypa.io/en/stable)轻松安装：\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -101,199 +101,199 @@
         "row": 3,
         "rowsha": "K/YeRGssFrJ+PN4Wp3ruohqP9QxqUIoyIhtjAQ9dCZw=",
         "originContent": "Creating high-quality scientific figures can be time-consuming and challenging,",
-        "translatedContent": "创建高质量的科学图形可能既费时又具挑战性，尽管在纸上草拟想法相对容易。此外，重新创建未以保留语义信息格式存储的现有图形同样复杂。为了解决这个问题，我们介绍了[DeTi*k*Zify](https://github.com/potamides/DeTikZify)，一种新颖的多模态语言模型，能够基于草图和现有图形自动合成保留语义的[Ti*k*Z](https://github.com/pgf-tikz/pgf)图形程序。我们还引入了一种基于MCTS的推理算法，使DeTi*k*Zify能够迭代优化其输出，无需额外训练。"
+        "translatedContent": "创建高质量的科学图形可能既耗时又具有挑战性，  "
       },
       {
         "row": 4,
         "rowsha": "4ilfTAXVLILTbkvdckTqhjy1T2rccWrAih5TvOV2T/s=",
         "originContent": "even though sketching ideas on paper is relatively easy. Furthermore,",
-        "translatedContent": ""
+        "translatedContent": "即使在纸上草绘想法相对容易。此外，  "
       },
       {
         "row": 5,
         "rowsha": "QypZxfpKXhXgHOOYaVTD77LXubSuHFCpJe7gCquEL30=",
         "originContent": "recreating existing figures that are not stored in formats preserving semantic",
-        "translatedContent": "https://github.com/potamides/DeTikZify/assets/53401822/203d2853-0b5c-4a2b-9d09-3ccb65880cd3"
+        "translatedContent": "重新创建未以保留语义信息格式存储的现有图形同样复杂。为了解决这个问题，我们推出了  "
       },
       {
         "row": 6,
         "rowsha": "isQ2DvWLCK3EKjmmmSHKNmrVtqNSSl/4mZOkF0YRA34=",
         "originContent": "information is equally complex. To tackle this problem, we introduce",
-        "translatedContent": ""
+        "translatedContent": "[DeTi*k*Zify](https://github.com/potamides/DeTikZify)，一种新颖的多模态  "
       },
       {
         "row": 7,
         "rowsha": "Rp913WkCCvebM3XM+7x77ObCkwNzW7QTfdruitYB5Wg=",
         "originContent": "[DeTi*k*Zify](https://github.com/potamides/DeTikZify), a novel multimodal",
-        "translatedContent": "## 新闻"
+        "translatedContent": "语言模型，能够基于草图和现有图形自动合成保留语义的  "
       },
       {
         "row": 8,
         "rowsha": "G/Nl8tuEd7/JQResQBZHj9D9QiziOInrrhxOm8kKAWA=",
         "originContent": "language model that automatically synthesizes scientific figures as",
-        "translatedContent": "* **2025-06-30**：我们发布了[DeTi*k*Zify<sub>v2.5</sub>"
+        "translatedContent": "[Ti*k*Z](https://github.com/pgf-tikz/pgf)图形程序。我们还引入了一种  "
       },
       {
         "row": 9,
         "rowsha": "Jpjp+V3o+QFgnuhZOzApviU2xS1G1sRtMvL9PmFY6jM=",
         "originContent": "semantics-preserving [Ti*k*Z](https://github.com/pgf-tikz/pgf) graphics",
-        "translatedContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2.5-8b)，这是我们最新的模型，基于"
+        "translatedContent": "基于MCTS的推理算法，使DeTi*k*Zify能够迭代地优化其输出，  "
       },
       {
         "row": 10,
         "rowsha": "dqS973N7mNHXs8jwT4OZXpBwaTXUQP45czQVQvkh2Zo=",
         "originContent": "programs based on sketches and existing figures. We also introduce an",
-        "translatedContent": "  [DeTi*k*Zify<sub>v2</sub>](https://huggingface.co/nllg/detikzify-v2-8b)利用"
+        "translatedContent": "无需额外训练。"
       },
       {
         "row": 11,
         "rowsha": "KyBqN4of60qi8af5QReCyu3RFI9pWns5zgr7Sgm/zqE=",
         "originContent": "MCTS-based inference algorithm that enables DeTi*k*Zify to iteratively refine",
-        "translatedContent": "  [自我反馈强化学习](https://huggingface.co/nllg/detikzify-v2.5-8b#reinforcement-learning-from-self-feedback)"
+        "translatedContent": ""
       },
       {
         "row": 12,
         "rowsha": "sc7dV2ZkYoY3D7FMmzQ9FEVecvcZkmul0CFwiY6ud5Q=",
         "originContent": "its outputs without the need for additional training.",
-        "translatedContent": "  (RLSF)进行构建。我们已将其设为我们[Hugging Face"
+        "translatedContent": "https://github.com/potamides/DeTikZify/assets/53401822/203d2853-0b5c-4a2b-9d09-3ccb65880cd3"
       },
       {
         "row": 13,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "  Space](https://huggingface.co/spaces/nllg/DeTikZify)的默认模型。更多信息请查看[模型卡](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)。"
+        "translatedContent": ""
       },
       {
         "row": 14,
         "rowsha": "XC0/TaE4lclWoB5VpV5LOt+wEXUzMfivMtc/SfxHJfI=",
         "originContent": "https://github.com/potamides/DeTikZify/assets/53401822/203d2853-0b5c-4a2b-9d09-3ccb65880cd3",
-        "translatedContent": "* **2025-06-26**：Ti*k*Zero被接收为[ICCV"
+        "translatedContent": "## 新闻"
       },
       {
         "row": 15,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "  2025](https://iccv.thecvf.com)的[重点论文](https://iccv.thecvf.com/virtual/2025/poster/51)！"
+        "translatedContent": "* **2025-06-30**：我们发布了最新模型[DeTi*k*Zify<sub>v2.5</sub>"
       },
       {
         "row": 16,
         "rowsha": "4SzYJwNNDn2R2kkHsB4X4H4ZhUVuQo9QZvhInidlbxE=",
         "originContent": "## News",
-        "translatedContent": "* **2025-03-17**：我们发布了"
+        "translatedContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2.5-8b)，该模型基于  "
       },
       {
         "row": 17,
         "rowsha": "4ZPXVKNoUkiVtcTmIqWqsooZzfL4yaqn+znugS0vZ9c=",
         "originContent": "* **2025-06-30**: We release [DeTi*k*Zify<sub>v2.5</sub>",
-        "translatedContent": "  [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter)适配器，可直接插入"
+        "translatedContent": "  [DeTi*k*Zify<sub>v2</sub>](https://huggingface.co/nllg/detikzify-v2-8b)  "
       },
       {
         "row": 18,
         "rowsha": "p6bDSK8j0YeIB0NvE3hfPsb1wUA98cPTKi8Z/0t90q4=",
         "originContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2.5-8b), our latest model, which",
-        "translatedContent": "  [DeTi*k*Zify<sub>v2</sub>"
+        "translatedContent": "  使用[来自自我反馈的强化学习](https://huggingface.co/nllg/detikzify-v2.5-8b#reinforcement-learning-from-self-feedback)  "
       },
       {
         "row": 19,
         "rowsha": "eMzGrZN0H23A7ajDk/HATTm4kL7SyHEXDqLzD9Swl3g=",
         "originContent": "  builds on",
-        "translatedContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2-8b)，支持零样本文本条件输入，及带有额外端到端微调的"
+        "translatedContent": "  (RLSF)训练。我们已将其设为我们[Hugging Face  "
       },
       {
         "row": 20,
         "rowsha": "ONuZtcJkmP1aim97/dTDRjR2sTGjnh/Buax2ZEC+MGo=",
         "originContent": "  [DeTi*k*Zify<sub>v2</sub>](https://huggingface.co/nllg/detikzify-v2-8b) using",
-        "translatedContent": "  [Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b)。更多信息请参阅我们的"
+        "translatedContent": "  Space](https://huggingface.co/spaces/nllg/DeTikZify)的新默认模型。更多信息请参见[模型卡](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)。"
       },
       {
         "row": 21,
         "rowsha": "XYoIzA2sW4BTC9OqkvlgGXQtGlTO7EopKjIZuA+S74s=",
         "originContent": "  [reinforment learning from",
-        "translatedContent": "  [论文](https://arxiv.org/abs/2503.11509)及[使用示例](#usage)。"
+        "translatedContent": "* **2025-06-26**：Ti*k*Zero被接收为[ICCV  "
       },
       {
         "row": 22,
         "rowsha": "ITW/o41FiuheF1HuXCqJrhT5lBw47kfL8YByXe1sagY=",
         "originContent": "  self-feedback](https://huggingface.co/nllg/detikzify-v2.5-8b#reinforcement-learning-from-self-feedback)",
-        "translatedContent": "* **2024-12-05**：我们发布了[DeTi*k*Zify<sub>v2</sub>"
+        "translatedContent": "  2025](https://iccv.thecvf.com)的[亮点论文](https://iccv.thecvf.com/virtual/2025/poster/51)！"
       },
       {
         "row": 23,
         "rowsha": "x696c/yL+tEvPl+ffcxBVpJZXMYdz1uvLT1Yga62ofo=",
         "originContent": "  (RLSF). We make it the new default model in our [Hugging Face",
-        "translatedContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2-8b)，这是我们在评估中超过所有先前版本的新DeTi*k*Zify模型。更多信息请查看[模型卡](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)。"
+        "translatedContent": "* **2025-03-17**：我们发布了  "
       },
       {
         "row": 24,
         "rowsha": "cYWdjdu/DcCjmhCrKi1FSZWypiUesxUIPHUzcGtLR3U=",
         "originContent": "  Space](https://huggingface.co/spaces/nllg/DeTikZify). Check out the [model",
-        "translatedContent": "* **2024-09-24**：DeTi*k*Zify被接收为[NeurIPS"
+        "translatedContent": "  [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter)适配器，  "
       },
       {
         "row": 25,
         "rowsha": "SO8GakUwJEiC2UItFftOuEarvywqgFuQF9Ylnlmnm3M=",
         "originContent": "  card](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)",
-        "translatedContent": "  2024](https://neurips.cc/Conferences/2024)的[聚焦论文](https://neurips.cc/virtual/2024/poster/94474)！"
+        "translatedContent": "  该适配器可直接插入[DeTi*k*Zify<sub>v2</sub>  "
       },
       {
         "row": 26,
         "rowsha": "lpLbeHcEdciTNZhVxIDomLaNCdPOudgmgw++RIieL/A=",
         "originContent": "  for more information.",
-        "translatedContent": ""
+        "translatedContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2-8b)，实现零样本文本条件控制，  "
       },
       {
         "row": 27,
         "rowsha": "VmhACCHQB/OOrWXNp+ZFZ3qwFNn4ahWB+9i8+Kyt7rI=",
         "originContent": "* **2025-06-26**: Ti*k*Zero was accepted as a [highlight",
-        "translatedContent": "## 安装"
+        "translatedContent": "  以及带有额外端到端微调的[Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b)。  "
       },
       {
         "row": 28,
         "rowsha": "M8I2oPYlksLT7vQr8EsgC+0uwlrKQJl1EL9NkavqPyY=",
         "originContent": "  paper](https://iccv.thecvf.com/virtual/2025/poster/51) at [ICCV",
-        "translatedContent": ""
+        "translatedContent": "  更多信息请参见我们的[论文](https://arxiv.org/abs/2503.11509)和下面的使用示例[#usage]。"
       },
       {
         "row": 29,
         "rowsha": "ig8LzI59DpPyddhAzFpUE9jZRojuWRPKq2aoAg+zdxc=",
         "originContent": "  2025](https://iccv.thecvf.com)!",
-        "translatedContent": "> [!提示]"
+        "translatedContent": "* **2024-12-05**：我们发布了[DeTi*k*Zify<sub>v2</sub>  "
       },
       {
         "row": 30,
         "rowsha": "mjPsQBaZ4keZJ8c07tpHWTz5CEnnYlnF9my87Ejd3N8=",
         "originContent": "* **2025-03-17**: We release",
-        "translatedContent": "> 如果您在自己的硬件上安装或推理时遇到困难，可以考虑访问我们的[Hugging Face"
+        "translatedContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2-8b)，这是一款在评测中超越所有前代版本的新模型。  "
       },
       {
         "row": 31,
         "rowsha": "e4yQj05GTSiUj4h++DaVAOY11F6xL0tBJg/zF/GSWm8=",
         "originContent": "  [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter) adapters which plug",
-        "translatedContent": "> Space](https://huggingface.co/spaces/nllg/DeTikZify)（请注意，重启空间可能需要长达30分钟）。若遇到长时间排队，您可以选择"
+        "translatedContent": "  更多信息请参见[模型卡](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)。"
       },
       {
         "row": 32,
         "rowsha": "1BK3yiPzhVfHx2MLxdHtx74gTg2QLnVK3RjrwXig9HA=",
         "originContent": "  directly into [DeTi*k*Zify<sub>v2</sub>",
-        "translatedContent": "> [复制](https://huggingface.co/spaces/nllg/DeTikZify?duplicate=true)该空间，使用付费私有GPU运行时，或通过"
+        "translatedContent": "* **2024-09-24**：DeTi*k*Zify被接收为[NeurIPS  "
       },
       {
         "row": 33,
         "rowsha": "phBc6+AxIk0sh16Ee+DdXm15oAdNFpj1QXqCRFnKdU0=",
         "originContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2-8b) and enable zero-shot",
-        "translatedContent": "> [Docker本地运行](https://huggingface.co/spaces/nllg/DeTikZify?docker=true)。此外，您也可以尝试我们的[Google"
+        "translatedContent": "  2024](https://neurips.cc/Conferences/2024)的[聚光灯论文](https://neurips.cc/virtual/2024/poster/94474)！"
       },
       {
         "row": 34,
         "rowsha": "7P2BMX7bdiCNLLtmBHE49B1/7nYKXR3r8JCCb7lhZdI=",
         "originContent": "  text-conditioning, and",
-        "translatedContent": "> Colab演示](https://colab.research.google.com/drive/1hPWqucbPGTavNlYvOBvSNBAwdcPZKe8F)。"
+        "translatedContent": ""
       },
       {
         "row": 35,
         "rowsha": "52nsSboeoD9/yyTroJhaHh+aqTHnKouuyZ8Nxe4kr0M=",
         "originContent": "  [Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b) with additional",
-        "translatedContent": "> 但在那里设置环境可能需要一些时间，且免费层仅支持1b模型的推理。"
+        "translatedContent": "## 安装"
       },
       {
         "row": 36,
@@ -305,55 +305,55 @@
         "row": 37,
         "rowsha": "SSs1i6TIuDjtq7AVEcJwCzGVsR4BOI4BdLYBTqOqm7M=",
         "originContent": "  [paper](https://arxiv.org/abs/2503.11509) and usage examples [below](#usage).",
-        "translatedContent": "DeTi*k*Zify的Python包可以通过[pip](https://pip.pypa.io/en/stable)轻松安装："
+        "translatedContent": "> [!TIP]"
       },
       {
         "row": 38,
         "rowsha": "Swks7TR+eLBS+FD/xSD0X7eUE+AB2JtX1z+Lfp3gjrU=",
         "originContent": "* **2024-12-05**: We release [DeTi*k*Zify<sub>v2</sub>",
-        "translatedContent": ""
+        "translatedContent": "> 如果在您自己的硬件上安装或推理时遇到困难，建议访问我们的[Hugging Face  "
       },
       {
         "row": 39,
         "rowsha": "HHKPbpwry2V3G+vBAQNrFa+/8UNQghbO93oNh0ZK/IQ=",
         "originContent": "  (8b)](https://huggingface.co/nllg/detikzify-v2-8b), our new DeTi*k*Zify model",
-        "translatedContent": ""
+        "translatedContent": "> Space](https://huggingface.co/spaces/nllg/DeTikZify)（请注意，重启空间可能需要长达30分钟）。  "
       },
       {
         "row": 40,
         "rowsha": "P2DVG6rFD56SEsXq9H4P4GpaOTJeIzMr7nen/QhIbWk=",
         "originContent": "  that surpasses all previous versions in our evaluation. Check out the [model",
-        "translatedContent": ""
+        "translatedContent": "> 如果遇到排队时间较长，您可以选择  "
       },
       {
         "row": 41,
         "rowsha": "SO8GakUwJEiC2UItFftOuEarvywqgFuQF9Ylnlmnm3M=",
         "originContent": "  card](https://huggingface.co/nllg/detikzify-v2-8b-preview#model-card-for-detikzifyv2-8b)",
-        "translatedContent": ""
+        "translatedContent": "> [复制](https://huggingface.co/spaces/nllg/DeTikZify?duplicate=true)该空间，使用付费私有GPU运行时，或通过  "
       },
       {
         "row": 42,
         "rowsha": "lpLbeHcEdciTNZhVxIDomLaNCdPOudgmgw++RIieL/A=",
         "originContent": "  for more information.",
-        "translatedContent": ""
+        "translatedContent": "> [Docker](https://huggingface.co/spaces/nllg/DeTikZify?docker=true)在本地运行。  "
       },
       {
         "row": 43,
         "rowsha": "70+yDtV9ZxLqeMBrsbveqaD4qhP94UlOiv3q/cA2I8o=",
         "originContent": "* **2024-09-24**: DeTi*k*Zify was accepted at [NeurIPS",
-        "translatedContent": ""
+        "translatedContent": "> 此外，您还可以尝试我们在[Google  "
       },
       {
         "row": 44,
         "rowsha": "nqLLmL3pZkip/DxxWAbu1AndqEdQ1eHoOtaZuTtQChE=",
         "originContent": "  2024](https://neurips.cc/Conferences/2024) as a [spotlight",
-        "translatedContent": ""
+        "translatedContent": "> Colab](https://colab.research.google.com/drive/1hPWqucbPGTavNlYvOBvSNBAwdcPZKe8F)上的演示。  "
       },
       {
         "row": 45,
         "rowsha": "wDmC3NM2e/kxtyQpnTcVMrBgrZtevjLmMBJftpoCM98=",
         "originContent": "  paper](https://neurips.cc/virtual/2024/poster/94474)!",
-        "translatedContent": ""
+        "translatedContent": "> 但那里的环境配置可能需要一些时间，且免费套餐仅支持1b模型的推理。"
       },
       {
         "row": 46,
@@ -365,7 +365,7 @@
         "row": 47,
         "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
         "originContent": "## Installation",
-        "translatedContent": ""
+        "translatedContent": "DeTi*k*Zify的Python包可以通过[pip](https://pip.pypa.io/en/stable)轻松安装："
       },
       {
         "row": 48,
@@ -510,32 +510,32 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "只有当您计划使用 DeTi*k*Zify<sub>v1</sub> 模型时，才需要 `[legacy]` 附加包。 如果您只计划使用\nDeTi*k*Zify<sub>v2</sub>，可以将其移除。 如果您的目标是运行包含的\n[示例](examples)，最好克隆仓库并以可编辑模式安装，如下所示：\n\n",
+    "Translation": "只有当您计划使用 DeTi*k*Zify<sub>v1</sub> 模型时，才需要添加 `[legacy]` 额外依赖。  \n如果您只计划使用 DeTi*k*Zify<sub>v2</sub>，则可以移除它。  \n如果您的目标是运行包含的 [示例](examples)，  \n更简单的方式是克隆仓库并以可编辑模式安装，方法如下：\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "SMu9TJAzBz76kN1pXocQhg56EXqc6/uAko9SxAxZKaY=",
         "originContent": "The `[legacy]` extra is only required if you plan to use the",
-        "translatedContent": "只有当您计划使用 DeTi*k*Zify<sub>v1</sub> 模型时，才需要 `[legacy]` 附加包。 如果您只计划使用"
+        "translatedContent": "只有当您计划使用 DeTi*k*Zify<sub>v1</sub> 模型时，才需要添加 `[legacy]` 额外依赖。  "
       },
       {
         "row": 2,
         "rowsha": "A61CJEc2h3nE7Vql8gi7mRLqYZUc1lcjTGhbqL0a42o=",
         "originContent": "DeTi*k*Zify<sub>v1</sub> models. If you only plan to use",
-        "translatedContent": "DeTi*k*Zify<sub>v2</sub>，可以将其移除。 如果您的目标是运行包含的"
+        "translatedContent": "如果您只计划使用 DeTi*k*Zify<sub>v2</sub>，则可以移除它。  "
       },
       {
         "row": 3,
         "rowsha": "h7Jf16vvq6Vff/epmG3sJ4Mq2zo0De8+SBLbsqxCX9s=",
         "originContent": "DeTi*k*Zify<sub>v2</sub> you can remove it. If your goal is to run the included",
-        "translatedContent": "[示例](examples)，最好克隆仓库并以可编辑模式安装，如下所示："
+        "translatedContent": "如果您的目标是运行包含的 [示例](examples)，  "
       },
       {
         "row": 4,
         "rowsha": "w7E0cb/Ow6ERT4zlrxTCMmYaVYh+JNb36yRKRBCo+4M=",
         "originContent": "[examples](examples), it is easier to clone the repository and install it in",
-        "translatedContent": ""
+        "translatedContent": "更简单的方式是克隆仓库并以可编辑模式安装，方法如下："
       },
       {
         "row": 5,
@@ -590,38 +590,38 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "此外，DeTi*k*Zify 需要完整的\n[TeX Live 2023](https://www.tug.org/texlive) 安装，\n[ghostscript](https://www.ghostscript.com)，以及\n[poppler](https://poppler.freedesktop.org)，你需要通过\n你的包管理器或其他方式安装它们。\n\n## 使用方法\n\n> [!TIP]\n> 对于交互式使用和一般的[使用技巧](detikzify/webui#usage-tips)，\n> 我们推荐查看我们的[网页界面](detikzify/webui)，可以直接\n> 从命令行启动（使用 `--help` 查看所有选项列表）：\n> ```sh\n> python -m detikzify.webui --light\n> ```\n\n如果所有必需的依赖项均已安装，DeTi*k*Zify 的完整功能\n如编译、渲染和保存 Ti*k*Z 图形，以及基于 MCTS 的推理，\n都可以通过其编程接口访问：\n<details open><summary>DeTi<i>k</i>Zify 示例</summary>\n",
+    "Translation": "此外，DeTi*k*Zify 需要完整的  \n[TeX Live 2023](https://www.tug.org/texlive) 安装，  \n[ghostscript](https://www.ghostscript.com)，以及  \n[poppler](https://poppler.freedesktop.org)，您需要通过  \n您的包管理器或其他方式安装它们。  \n\n## 使用方法  \n\n> [!TIP]  \n> 对于交互式使用和一般的[使用技巧](detikzify/webui#usage-tips)，  \n> 我们推荐查看我们的[网页界面](detikzify/webui)，可以从命令行直接启动  \n> （使用 `--help` 获取所有选项列表）：  \n> ```sh  \n> python -m detikzify.webui --light  \n> ```  \n\n如果安装了所有必需的依赖项，可以通过其编程接口访问  \nDeTi*k*Zify 的全部功能，如编译、渲染和保存 Ti*k*Z 图形，以及  \n基于 MCTS 的推断：  \n<details open><summary>DeTi<i>k</i>Zify 示例</summary>\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "PDTvzMLaiOZs5hWPZF28ZqD9E9MapOAjLyNMc96zPQE=",
         "originContent": "In addition, DeTi*k*Zify requires a full",
-        "translatedContent": "此外，DeTi*k*Zify 需要完整的"
+        "translatedContent": "此外，DeTi*k*Zify 需要完整的  "
       },
       {
         "row": 2,
         "rowsha": "FuGuRZKd5gsWNGppupfBKdJgZ4odsUoHb0/h4q9ZWog=",
         "originContent": "[TeX Live 2023](https://www.tug.org/texlive) installation,",
-        "translatedContent": "[TeX Live 2023](https://www.tug.org/texlive) 安装，"
+        "translatedContent": "[TeX Live 2023](https://www.tug.org/texlive) 安装，  "
       },
       {
         "row": 3,
         "rowsha": "NfYK5RdDmlqvAbvx/P2vFzI5QGrZjldccwUdb49eheo=",
         "originContent": "[ghostscript](https://www.ghostscript.com), and",
-        "translatedContent": "[ghostscript](https://www.ghostscript.com)，以及"
+        "translatedContent": "[ghostscript](https://www.ghostscript.com)，以及  "
       },
       {
         "row": 4,
         "rowsha": "dfZKjM5xgmcpTHOm2kZEXkruX69SfDXV0zuokbGx2xE=",
         "originContent": "[poppler](https://poppler.freedesktop.org) which you have to install through",
-        "translatedContent": "[poppler](https://poppler.freedesktop.org)，你需要通过"
+        "translatedContent": "[poppler](https://poppler.freedesktop.org)，您需要通过  "
       },
       {
         "row": 5,
         "rowsha": "G+MdbAkavMk8JYz1UN7H58JJdpGu6FUFAg/gi0VTCcg=",
         "originContent": "your package manager or via other means.",
-        "translatedContent": "你的包管理器或其他方式安装它们。"
+        "translatedContent": "您的包管理器或其他方式安装它们。  "
       },
       {
         "row": 6,
@@ -633,7 +633,7 @@
         "row": 7,
         "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
         "originContent": "## Usage",
-        "translatedContent": "## 使用方法"
+        "translatedContent": "## 使用方法  "
       },
       {
         "row": 8,
@@ -645,43 +645,43 @@
         "row": 9,
         "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
         "originContent": "> [!TIP]",
-        "translatedContent": "> [!TIP]"
+        "translatedContent": "> [!TIP]  "
       },
       {
         "row": 10,
         "rowsha": "/tl/zSnPGGaS1LYEqpJsdXfoNl5v4maifPVYK4xvsWs=",
         "originContent": "> For interactive use and general [usage tips](detikzify/webui#usage-tips),",
-        "translatedContent": "> 对于交互式使用和一般的[使用技巧](detikzify/webui#usage-tips)，"
+        "translatedContent": "> 对于交互式使用和一般的[使用技巧](detikzify/webui#usage-tips)，  "
       },
       {
         "row": 11,
         "rowsha": "H+zWHMRe7YGjj41ick1vkUgJXITI7/L8BUwf90SpmWI=",
         "originContent": "> we recommend checking out our [web UI](detikzify/webui), which can be started",
-        "translatedContent": "> 我们推荐查看我们的[网页界面](detikzify/webui)，可以直接"
+        "translatedContent": "> 我们推荐查看我们的[网页界面](detikzify/webui)，可以从命令行直接启动  "
       },
       {
         "row": 12,
         "rowsha": "QUzgNkDiLv+ky7/8dmFvlxsz6u1yfyQT5OCVj+8ACQM=",
         "originContent": "> directly from the command line (use `--help` for a list of all options):",
-        "translatedContent": "> 从命令行启动（使用 `--help` 查看所有选项列表）："
+        "translatedContent": "> （使用 `--help` 获取所有选项列表）：  "
       },
       {
         "row": 13,
         "rowsha": "ZmIx/E65Mi48lpO1MdZFJoiB8PIYPKdVT3d97upaxnY=",
         "originContent": "> ```sh",
-        "translatedContent": "> ```sh"
+        "translatedContent": "> ```sh  "
       },
       {
         "row": 14,
         "rowsha": "LooA5CowaZg0RclZfiTTwcQatXkQwV7hJa5ya9RM1Mo=",
         "originContent": "> python -m detikzify.webui --light",
-        "translatedContent": "> python -m detikzify.webui --light"
+        "translatedContent": "> python -m detikzify.webui --light  "
       },
       {
         "row": 15,
         "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
         "originContent": "> ```",
-        "translatedContent": "> ```"
+        "translatedContent": "> ```  "
       },
       {
         "row": 16,
@@ -693,19 +693,19 @@
         "row": 17,
         "rowsha": "XGkIMLLtmXWX/TR6lZK3ZAn2SAFE52QOEQMOS2emeto=",
         "originContent": "If all required dependencies are installed, the full range of DeTi*k*Zify",
-        "translatedContent": "如果所有必需的依赖项均已安装，DeTi*k*Zify 的完整功能"
+        "translatedContent": "如果安装了所有必需的依赖项，可以通过其编程接口访问  "
       },
       {
         "row": 18,
         "rowsha": "cFwR1Akr80v3X45s6AHT30fbvvNeu1Ir+so7LJJCegc=",
         "originContent": "features such as compiling, rendering, and saving Ti*k*Z graphics, and",
-        "translatedContent": "如编译、渲染和保存 Ti*k*Z 图形，以及基于 MCTS 的推理，"
+        "translatedContent": "DeTi*k*Zify 的全部功能，如编译、渲染和保存 Ti*k*Z 图形，以及  "
       },
       {
         "row": 19,
         "rowsha": "6LIMvq4CC6/kfs+E5XYtwD/GDxdZdl0P53rHwNmcpLE=",
         "originContent": "MCTS-based inference can be accessed through its programming interface:",
-        "translatedContent": "都可以通过其编程接口访问："
+        "translatedContent": "基于 MCTS 的推断：  "
       },
       {
         "row": 20,
@@ -916,7 +916,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "</details>\n\n通过 [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter) 适配器和\n[Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b) 也可以\n基于文本合成图形程序（参见我们的\n[论文](https://arxiv.org/abs/2503.11509) 了解\n详情）。请注意，这目前仅通过编程\n接口支持：\n\n<details open><summary>Ti<i>k</i>Zero+ 示例</summary>\n",
+    "Translation": "</details>\n\n通过 [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter) 适配器和\n[Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b)，也可以\n根据文本合成图形程序（详见我们的\n[论文](https://arxiv.org/abs/2503.11509)）。请注意，这目前仅通过编程\n接口支持：\n\n<details open><summary>Ti<i>k</i>Zero+ 示例</summary>\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -941,43 +941,43 @@
         "row": 4,
         "rowsha": "EinO5d86izJn3U2/oioj1CoxQuSoW//Zxp3D8EUIEjo=",
         "originContent": "[Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b) it is also possible",
-        "translatedContent": "[Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b) 也可以"
+        "translatedContent": "[Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b)，也可以"
       },
       {
         "row": 5,
         "rowsha": "094XGauH5MjVeDNVCidRA0UBIQsSC9IoSAC1JSJLO0U=",
         "originContent": "to synthesize graphics programs conditioned on text (cf. our",
-        "translatedContent": "基于文本合成图形程序（参见我们的"
+        "translatedContent": "根据文本合成图形程序（详见我们的"
       },
       {
         "row": 6,
         "rowsha": "nkshlfNrzy2BgMDNNjPICicWZ1evTtaa2kaXNILzXS8=",
         "originContent": "[paper](https://arxiv.org/abs/2503.11509) for",
-        "translatedContent": "[论文](https://arxiv.org/abs/2503.11509) 了解"
+        "translatedContent": "[论文](https://arxiv.org/abs/2503.11509)）。请注意，这目前仅通过编程"
       },
       {
         "row": 7,
         "rowsha": "Pao2pcYQ1RIJsAYNNh82/k+km9jjx6gev5ZSgfHLp7M=",
         "originContent": "details). Note that this currently only supported through the programming",
-        "translatedContent": "详情）。请注意，这目前仅通过编程"
+        "translatedContent": "接口支持："
       },
       {
         "row": 8,
         "rowsha": "cyxkjdEfiwi/y+s+pMBYq7Rxr92pNsuLmIHNGgO9hiA=",
         "originContent": "interface:",
-        "translatedContent": "接口支持："
+        "translatedContent": ""
       },
       {
         "row": 9,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "<details open><summary>Ti<i>k</i>Zero+ 示例</summary>"
       },
       {
         "row": 10,
         "rowsha": "JYErSpAmtsTeKW7BCcN8F6cho3YAO02QJEv/0V2msS0=",
         "originContent": "<details open><summary>Ti<i>k</i>Zero+ Example</summary>",
-        "translatedContent": "<details open><summary>Ti<i>k</i>Zero+ 示例</summary>"
+        "translatedContent": ""
       },
       {
         "row": 11,
@@ -1298,7 +1298,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "</details>\n\n更多复杂的示例，例如用于评估和训练的示例，可以在\n[examples](examples) 文件夹中找到。\n\n## 模型权重和数据集\n我们将所有的 DeTi*k*Zify 模型和数据集上传至 [Hugging Face\nHub](https://huggingface.co/collections/nllg/detikzify-664460c521aa7c2880095a8b)\n（Ti*k*Zero 模型可在\n[这里](https://huggingface.co/collections/nllg/tikzero-67d1952fab69f5bd172de1fe) 获取）。\n然而，请注意，对于公开发布的\n[DaTi*k*Z<sub>v2</sub>](https://huggingface.co/datasets/nllg/datikz-v2)\n和 [DaTi*k*Z<sub>v3</sub>](https://huggingface.co/datasets/nllg/datikz-v3)\n数据集，我们不得不移除大量来自 [arXiv](https://arxiv.org) 的 Ti*k*Z 绘图，\n因为 [arXiv 非独占许可](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html)\n不允许重新分发。但我们确实发布了我们的 [数据集创建脚本](https://github.com/potamides/DaTikZ)，\n并鼓励任何人自行重建完整版本的 DaTi*k*Z。\n\n## 引用\n如果 DeTi*k*Zify 和 Ti*k*Zero 对您的研究或应用有所帮助，\n我们恳请您通过以下方式引用它们：\n\n\n\n",
+    "Translation": "</details>\n\n更复杂的示例，例如用于评估和训练的示例，可以在\n[examples](examples) 文件夹中找到。\n\n## 模型权重与数据集\n我们将所有 DeTi*k*Zify 模型和数据集上传到了 [Hugging Face\nHub](https://huggingface.co/collections/nllg/detikzify-664460c521aa7c2880095a8b)\n（Ti*k*Zero 模型可在\n[这里](https://huggingface.co/collections/nllg/tikzero-67d1952fab69f5bd172de1fe)获取）。\n但是，请注意，对于公开发布的\n[DaTi*k*Z<sub>v2</sub>](https://huggingface.co/datasets/nllg/datikz-v2)\n和 [DaTi*k*Z<sub>v3</sub>](https://huggingface.co/datasets/nllg/datikz-v3)\n数据集，我们不得不删除了大量源自 [arXiv](https://arxiv.org) 的 Ti*k*Z 绘图，\n因为 [arXiv 非独家许可证](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html)\n不允许重新分发。不过，我们确实发布了我们的 [数据集创建脚本](https://github.com/potamides/DaTikZ)，并鼓励任何人自行重新创建完整版本的 DaTi*k*Z。\n\n## 引用\n如果 DeTi*k*Zify 和 Ti*k*Zero 对您的研究或应用有所帮助，\n我们恳请您通过以下方式引用它们：\n\n\n\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -1317,7 +1317,7 @@
         "row": 3,
         "rowsha": "/LspjArt/e/QlRQXVcBg7Z6W6m5jTCi5z0A4SqJ50nI=",
         "originContent": "More involved examples, for example for evaluation and training, can be found",
-        "translatedContent": "更多复杂的示例，例如用于评估和训练的示例，可以在"
+        "translatedContent": "更复杂的示例，例如用于评估和训练的示例，可以在"
       },
       {
         "row": 4,
@@ -1335,13 +1335,13 @@
         "row": 6,
         "rowsha": "2KVw7QEm7NMNf4mvjwLFvqwwwIb2c2JZQyByHUIJPRM=",
         "originContent": "## Model Weights & Datasets",
-        "translatedContent": "## 模型权重和数据集"
+        "translatedContent": "## 模型权重与数据集"
       },
       {
         "row": 7,
         "rowsha": "WfHPC2+qW4LmxSDRqxdZ5a2x9SdXZ/sjPFmhUwbYcds=",
         "originContent": "We upload all our DeTi*k*Zify models and datasets to the [Hugging Face",
-        "translatedContent": "我们将所有的 DeTi*k*Zify 模型和数据集上传至 [Hugging Face"
+        "translatedContent": "我们将所有 DeTi*k*Zify 模型和数据集上传到了 [Hugging Face"
       },
       {
         "row": 8,
@@ -1359,13 +1359,13 @@
         "row": 10,
         "rowsha": "mZZrsDsmW7xkaE68D/RfAV6wJjbLPZH9rbw8pRQaHFg=",
         "originContent": "[here](https://huggingface.co/collections/nllg/tikzero-67d1952fab69f5bd172de1fe)).",
-        "translatedContent": "[这里](https://huggingface.co/collections/nllg/tikzero-67d1952fab69f5bd172de1fe) 获取）。"
+        "translatedContent": "[这里](https://huggingface.co/collections/nllg/tikzero-67d1952fab69f5bd172de1fe)获取）。"
       },
       {
         "row": 11,
         "rowsha": "xOMOI/RGFoJBwfQx9TUc59L9tpnvwxiQSg81M8vdjeg=",
         "originContent": "However, please note that for the public release of the",
-        "translatedContent": "然而，请注意，对于公开发布的"
+        "translatedContent": "但是，请注意，对于公开发布的"
       },
       {
         "row": 12,
@@ -1383,49 +1383,49 @@
         "row": 14,
         "rowsha": "SMCqSiEivw6Lt4osEsTtjKimbD7NI7SX4BnMhYeA/oM=",
         "originContent": "datasets, we had to remove a considerable portion of Ti*k*Z drawings",
-        "translatedContent": "数据集，我们不得不移除大量来自 [arXiv](https://arxiv.org) 的 Ti*k*Z 绘图，"
+        "translatedContent": "数据集，我们不得不删除了大量源自 [arXiv](https://arxiv.org) 的 Ti*k*Z 绘图，"
       },
       {
         "row": 15,
         "rowsha": "Hsil6XN7+H/ngZUmvhlTyNH8XTg79WSr6WQEd9R96ic=",
         "originContent": "originating from [arXiv](https://arxiv.org), as the [arXiv non-exclusive",
-        "translatedContent": "因为 [arXiv 非独占许可](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html)"
+        "translatedContent": "因为 [arXiv 非独家许可证](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html)"
       },
       {
         "row": 16,
         "rowsha": "Ho+7xtbudn7uS6DWFWjq9Uw+UyvOiyVj4g6JmLQlmLw=",
         "originContent": "license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html) does",
-        "translatedContent": "不允许重新分发。但我们确实发布了我们的 [数据集创建脚本](https://github.com/potamides/DaTikZ)，"
+        "translatedContent": "不允许重新分发。不过，我们确实发布了我们的 [数据集创建脚本](https://github.com/potamides/DaTikZ)，并鼓励任何人自行重新创建完整版本的 DaTi*k*Z。"
       },
       {
         "row": 17,
         "rowsha": "evBbMcxEeHoYJeUKRbE4/tJ20JnHKRAOLRmFbINC3L8=",
         "originContent": "not permit redistribution. We do, however, release our [dataset creation",
-        "translatedContent": "并鼓励任何人自行重建完整版本的 DaTi*k*Z。"
+        "translatedContent": ""
       },
       {
         "row": 18,
         "rowsha": "ULPlSZMgvBbZrB8nsYA5zTQPKGH1EBkoRhcGKlhUYiQ=",
         "originContent": "scripts](https://github.com/potamides/DaTikZ) and encourage anyone to recreate",
-        "translatedContent": ""
+        "translatedContent": "## 引用"
       },
       {
         "row": 19,
         "rowsha": "jrPzjzHk4ChGcg4kEu++pk3fIBXaGnEms1G/LmwCvZA=",
         "originContent": "the full version of DaTi*k*Z themselves.",
-        "translatedContent": "## 引用"
+        "translatedContent": "如果 DeTi*k*Zify 和 Ti*k*Zero 对您的研究或应用有所帮助，"
       },
       {
         "row": 20,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "如果 DeTi*k*Zify 和 Ti*k*Zero 对您的研究或应用有所帮助，"
+        "translatedContent": "我们恳请您通过以下方式引用它们："
       },
       {
         "row": 21,
         "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
         "originContent": "## Citation",
-        "translatedContent": "我们恳请您通过以下方式引用它们："
+        "translatedContent": ""
       },
       {
         "row": 22,
@@ -1626,7 +1626,7 @@
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "## 致谢  \nDeTi*k*Zify 模型架构的实现基于  \n[LLaVA](https://github.com/haotian-liu/LLaVA) 和  \n[AutomaTikZ](https://github.com/potamides/AutomaTikZ)（v1），以及 [Idefics  \n3](https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3)（v2）。我们的 MCTS  \n实现基于  \n[VerMCTS](https://github.com/namin/llm-verified-with-monte-carlo-tree-search)。  \nTi*k*Zero 架构的灵感来自于  \n[Flamingo](https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/)  \n和 [LLaMA  \n3.2-Vision](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices)。\n\n",
+    "Translation": "## 致谢  \nDeTi*k*Zify模型架构的实现基于  \n[LLaVA](https://github.com/haotian-liu/LLaVA) 和  \n[AutomaTikZ](https://github.com/potamides/AutomaTikZ)（v1），以及 [Idefics  \n3](https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3)（v2）。我们的MCTS  \n实现基于  \n[VerMCTS](https://github.com/namin/llm-verified-with-monte-carlo-tree-search)。  \nTi*k*Zero架构的灵感来自  \n[Flamingo](https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/)  \n和 [LLaMA  \n3.2-Vision](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices)。\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -1639,7 +1639,7 @@
         "row": 2,
         "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
         "originContent": "## Acknowledgments",
-        "translatedContent": "DeTi*k*Zify 模型架构的实现基于  "
+        "translatedContent": "DeTi*k*Zify模型架构的实现基于  "
       },
       {
         "row": 3,
@@ -1657,7 +1657,7 @@
         "row": 5,
         "rowsha": "1ZyDj9Z82GIE0wAsA0yNvNGv4IilAkwV3vaobsYMTBI=",
         "originContent": "[AutomaTikZ](https://github.com/potamides/AutomaTikZ) (v1), and [Idefics",
-        "translatedContent": "3](https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3)（v2）。我们的 MCTS  "
+        "translatedContent": "3](https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3)（v2）。我们的MCTS  "
       },
       {
         "row": 6,
@@ -1675,7 +1675,7 @@
         "row": 8,
         "rowsha": "P9JT6ma9GuBQTxOcjDaqAXNV/yDcKxI3jDNF+zTpyCg=",
         "originContent": "[VerMCTS](https://github.com/namin/llm-verified-with-monte-carlo-tree-search).",
-        "translatedContent": "Ti*k*Zero 架构的灵感来自于  "
+        "translatedContent": "Ti*k*Zero架构的灵感来自  "
       },
       {
         "row": 9,
