@@ -1,0 +1,1058 @@
+[
+  {
+    "row": 1,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 2,
+    "rowsha": "Wnc41Qzdg64yIwbvwjuagvlqX9f0B+nxlYPITEUDBgs=",
+    "originContent": "pip install 'detikzify[legacy] @ git+https://github.com/potamides/DeTikZify'",
+    "translatedContent": "pip install 'detikzify[legacy] @ git+https://github.com/potamides/DeTikZify'"
+  },
+  {
+    "row": 3,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 4,
+    "rowsha": "SMu9TJAzBz76kN1pXocQhg56EXqc6/uAko9SxAxZKaY=",
+    "originContent": "The `[legacy]` extra is only required if you plan to use the",
+    "translatedContent": "The `[legacy]` extra is only required if you plan to use the"
+  },
+  {
+    "row": 5,
+    "rowsha": "A61CJEc2h3nE7Vql8gi7mRLqYZUc1lcjTGhbqL0a42o=",
+    "originContent": "DeTi*k*Zify<sub>v1</sub> models. If you only plan to use",
+    "translatedContent": "DeTi*k*Zify<sub>v1</sub> models. If you only plan to use"
+  },
+  {
+    "row": 6,
+    "rowsha": "h7Jf16vvq6Vff/epmG3sJ4Mq2zo0De8+SBLbsqxCX9s=",
+    "originContent": "DeTi*k*Zify<sub>v2</sub> you can remove it. If your goal is to run the included",
+    "translatedContent": "DeTi*k*Zify<sub>v2</sub> you can remove it. If your goal is to run the included"
+  },
+  {
+    "row": 7,
+    "rowsha": "w7E0cb/Ow6ERT4zlrxTCMmYaVYh+JNb36yRKRBCo+4M=",
+    "originContent": "[examples](examples), it is easier to clone the repository and install it in",
+    "translatedContent": "[examples](examples), it is easier to clone the repository and install it in"
+  },
+  {
+    "row": 8,
+    "rowsha": "ghWnZIcBj/EMmi80VYcK7cecmcMqdRgf/XTUqanP0AE=",
+    "originContent": "editable mode like this:",
+    "translatedContent": "editable mode like this:"
+  },
+  {
+    "row": 9,
+    "rowsha": "1/rYkrhnpkVgXNjGfKGhIBOye7m9YFsLVCozXusgxw8=",
+    "originContent": " ```sh",
+    "translatedContent": " ```sh"
+  },
+  {
+    "row": 10,
+    "rowsha": "u4zPQ8MfItkBFYa3f3I4lSqe1HAmGHvf13rh1yztRMY=",
+    "originContent": "git clone https://github.com/potamides/DeTikZify",
+    "translatedContent": "git clone https://github.com/potamides/DeTikZify"
+  },
+  {
+    "row": 11,
+    "rowsha": "0NdoTlz3kCl1bAJNfMAuE47EeVs/qlyMvAd7qsH2DBw=",
+    "originContent": "pip install -e DeTikZify[examples]",
+    "translatedContent": "pip install -e DeTikZify[examples]"
+  },
+  {
+    "row": 12,
+    "rowsha": "+yeshfat/UFFBR11hhUjUnHZG4lqIMvFysnt0D6FJwQ=",
+    "originContent": " ```",
+    "translatedContent": " ```"
+  },
+  {
+    "row": 13,
+    "rowsha": "PDTvzMLaiOZs5hWPZF28ZqD9E9MapOAjLyNMc96zPQE=",
+    "originContent": "In addition, DeTi*k*Zify requires a full",
+    "translatedContent": "In addition, DeTi*k*Zify requires a full  "
+  },
+  {
+    "row": 14,
+    "rowsha": "FuGuRZKd5gsWNGppupfBKdJgZ4odsUoHb0/h4q9ZWog=",
+    "originContent": "[TeX Live 2023](https://www.tug.org/texlive) installation,",
+    "translatedContent": "[TeX Live 2023](https://www.tug.org/texlive) installation,  "
+  },
+  {
+    "row": 15,
+    "rowsha": "NfYK5RdDmlqvAbvx/P2vFzI5QGrZjldccwUdb49eheo=",
+    "originContent": "[ghostscript](https://www.ghostscript.com), and",
+    "translatedContent": "[ghostscript](https://www.ghostscript.com), and  "
+  },
+  {
+    "row": 16,
+    "rowsha": "dfZKjM5xgmcpTHOm2kZEXkruX69SfDXV0zuokbGx2xE=",
+    "originContent": "[poppler](https://poppler.freedesktop.org) which you have to install through",
+    "translatedContent": "[poppler](https://poppler.freedesktop.org) which you have to install through  "
+  },
+  {
+    "row": 17,
+    "rowsha": "G+MdbAkavMk8JYz1UN7H58JJdpGu6FUFAg/gi0VTCcg=",
+    "originContent": "your package manager or via other means.",
+    "translatedContent": "your package manager or via other means.  "
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Usage  "
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+    "originContent": "> [!TIP]",
+    "translatedContent": "> [!TIP]  "
+  },
+  {
+    "row": 22,
+    "rowsha": "/tl/zSnPGGaS1LYEqpJsdXfoNl5v4maifPVYK4xvsWs=",
+    "originContent": "> For interactive use and general [usage tips](detikzify/webui#usage-tips),",
+    "translatedContent": "> For interactive use and general [usage tips](detikzify/webui#usage-tips),  "
+  },
+  {
+    "row": 23,
+    "rowsha": "H+zWHMRe7YGjj41ick1vkUgJXITI7/L8BUwf90SpmWI=",
+    "originContent": "> we recommend checking out our [web UI](detikzify/webui), which can be started",
+    "translatedContent": "> we recommend checking out our [web UI](detikzify/webui), which can be started  "
+  },
+  {
+    "row": 24,
+    "rowsha": "QUzgNkDiLv+ky7/8dmFvlxsz6u1yfyQT5OCVj+8ACQM=",
+    "originContent": "> directly from the command line (use `--help` for a list of all options):",
+    "translatedContent": "> directly from the command line (use `--help` for a list of all options):  "
+  },
+  {
+    "row": 25,
+    "rowsha": "ZmIx/E65Mi48lpO1MdZFJoiB8PIYPKdVT3d97upaxnY=",
+    "originContent": "> ```sh",
+    "translatedContent": "> ```sh  "
+  },
+  {
+    "row": 26,
+    "rowsha": "LooA5CowaZg0RclZfiTTwcQatXkQwV7hJa5ya9RM1Mo=",
+    "originContent": "> python -m detikzify.webui --light",
+    "translatedContent": "> python -m detikzify.webui --light  "
+  },
+  {
+    "row": 27,
+    "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+    "originContent": "> ```",
+    "translatedContent": "> ```  "
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "XGkIMLLtmXWX/TR6lZK3ZAn2SAFE52QOEQMOS2emeto=",
+    "originContent": "If all required dependencies are installed, the full range of DeTi*k*Zify",
+    "translatedContent": "If all required dependencies are installed, the full range of DeTi*k*Zify  "
+  },
+  {
+    "row": 30,
+    "rowsha": "cFwR1Akr80v3X45s6AHT30fbvvNeu1Ir+so7LJJCegc=",
+    "originContent": "features such as compiling, rendering, and saving Ti*k*Z graphics, and",
+    "translatedContent": "features such as compiling, rendering, and saving Ti*k*Z graphics, and  "
+  },
+  {
+    "row": 31,
+    "rowsha": "6LIMvq4CC6/kfs+E5XYtwD/GDxdZdl0P53rHwNmcpLE=",
+    "originContent": "MCTS-based inference can be accessed through its programming interface:",
+    "translatedContent": "MCTS-based inference can be accessed through its programming interface:  "
+  },
+  {
+    "row": 32,
+    "rowsha": "IOncCzXUPbk+NZlx+31DljTwJAb9DsMdxpY0Uq59ZAI=",
+    "originContent": "<details open><summary>DeTi<i>k</i>Zify Example</summary>",
+    "translatedContent": "<details open><summary>DeTi<i>k</i>Zify Example</summary>"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 35,
+    "rowsha": "9eqLRc7/aM0nqpbrN/I+Z3iO0DV0dH4pINCMczXPuHQ=",
+    "originContent": "from operator import itemgetter",
+    "translatedContent": "from operator import itemgetter"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "MHaBMpv7rQozrnKJ4vfoxd071hZOdQXWwBYjODcmljU=",
+    "originContent": "from detikzify.model import load",
+    "translatedContent": "from detikzify.model import load"
+  },
+  {
+    "row": 38,
+    "rowsha": "1cqryIMmok8AVjY9zI3T4UXUw9cqKpnVCr80aFRce3o=",
+    "originContent": "from detikzify.infer import DetikzifyPipeline",
+    "translatedContent": "from detikzify.infer import DetikzifyPipeline"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "QJd3pavK/gvzjN2SQu+ofUdlkxyU0C0ehDg6pM89gpw=",
+    "originContent": "image = \"https://w.wiki/A7Cc\"",
+    "translatedContent": "image = \"https://w.wiki/A7Cc\""
+  },
+  {
+    "row": 41,
+    "rowsha": "0GYnpN1PCUW12hUlm4oiU1v0wRRKNvFmBRlE25Hr6ak=",
+    "originContent": "pipeline = DetikzifyPipeline(*load(",
+    "translatedContent": "pipeline = DetikzifyPipeline(*load("
+  },
+  {
+    "row": 42,
+    "rowsha": "W8szKEs7fU5jFEGicp0/I1486QvS0iPQZ7pBjitTGhA=",
+    "originContent": "    model_name_or_path=\"nllg/detikzify-v2.5-8b\",",
+    "translatedContent": "    model_name_or_path=\"nllg/detikzify-v2.5-8b\","
+  },
+  {
+    "row": 43,
+    "rowsha": "QYKYrytWNmUhCdwieSn6Nud4oguD9iZpHx+1GOriobI=",
+    "originContent": "    device_map=\"auto\",",
+    "translatedContent": "    device_map=\"auto\","
+  },
+  {
+    "row": 44,
+    "rowsha": "l8bvBrzzlF6GQdfX3tGUkX/7VGm2jtjPRyy/nkIUrI0=",
+    "originContent": "    torch_dtype=\"bfloat16\",",
+    "translatedContent": "    torch_dtype=\"bfloat16\","
+  },
+  {
+    "row": 45,
+    "rowsha": "E3E8NpI1nXyHc+5A0hIYveZKDzcFM8tNJ5A9ddu4aZI=",
+    "originContent": "))",
+    "translatedContent": "))"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "tG1mSGhX1PW/L6zW6IOvwWYBz+jyWwBJnd73QQdtH/o=",
+    "originContent": "# generate a single TikZ program",
+    "translatedContent": "# generate a single TikZ program"
+  },
+  {
+    "row": 48,
+    "rowsha": "fU/3ZgJD1WSPvzA0Uh+YKAZg6PbjcKuVABwX5vVcqvQ=",
+    "originContent": "fig = pipeline.sample(image=image)",
+    "translatedContent": "fig = pipeline.sample(image=image)"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "MPHEGSvitiPYo6KH+RUwiXPP1FASNFAFxKdfGfI4Kv4=",
+    "originContent": "# if it compiles, rasterize it and show it",
+    "translatedContent": "# if it compiles, rasterize it and show it"
+  },
+  {
+    "row": 51,
+    "rowsha": "AsMDSvIBq1IEtmdtRYJqDz3r+RLFAP6rDG5QRG9X0Pk=",
+    "originContent": "if fig.is_rasterizable:",
+    "translatedContent": "if fig.is_rasterizable:"
+  },
+  {
+    "row": 52,
+    "rowsha": "rn14tvCsb7pb3XLJ03KCb8UvjtwM/UZb6WD+WDcKgFE=",
+    "originContent": "    fig.rasterize().show()",
+    "translatedContent": "    fig.rasterize().show()"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "Mj4Rp+y0iSczO4EhkBG7tOiMpJpyvuoHSRlFc9V+lv8=",
+    "originContent": "# run MCTS for 10 minutes and generate multiple TikZ programs",
+    "translatedContent": "# run MCTS for 10 minutes and generate multiple TikZ programs"
+  },
+  {
+    "row": 55,
+    "rowsha": "xEc6g7rBVe3zH7AKY4C5xpmZqwkK8vTUB09bvVZkJFc=",
+    "originContent": "figs = set()",
+    "translatedContent": "figs = set()"
+  },
+  {
+    "row": 56,
+    "rowsha": "AJH6/HqFcMsqNU7et1FupgtftPJB67rtFozHBrFBH9c=",
+    "originContent": "for score, fig in pipeline.simulate(image=image, timeout=600):",
+    "translatedContent": "for score, fig in pipeline.simulate(image=image, timeout=600):"
+  },
+  {
+    "row": 57,
+    "rowsha": "knfOZb33u1doE0xrhBhzJn51mcivINeIJthMK73qUUg=",
+    "originContent": "    figs.add((score, fig))",
+    "translatedContent": "    figs.add((score, fig))"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "6X1eOIlwJ9lH6wzuRhZ7HyQmOnYKqgVoOuNi7dgq2Kw=",
+    "originContent": "# save the best TikZ program",
+    "translatedContent": "# save the best TikZ program"
+  },
+  {
+    "row": 60,
+    "rowsha": "Q2mhcYbd8Zbw2CqgAPETdqXMRAxFro+WTPEViDVt7jw=",
+    "originContent": "best = sorted(figs, key=itemgetter(0))[-1][1]",
+    "translatedContent": "best = sorted(figs, key=itemgetter(0))[-1][1]"
+  },
+  {
+    "row": 61,
+    "rowsha": "tNDFzT2MVkd5oOfzG81btFKroyAjqdCHirQdcyhMK4s=",
+    "originContent": "best.save(\"fig.tex\")",
+    "translatedContent": "best.save(\"fig.tex\")"
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "brxQdInRiHdBquyV/HYQClLATOSUsjZv2Cn+xAFF3Kk=",
+    "originContent": "Through [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter) adapters and",
+    "translatedContent": "Through [Ti*k*Zero](https://huggingface.co/nllg/tikzero-adapter) adapters and"
+  },
+  {
+    "row": 66,
+    "rowsha": "EinO5d86izJn3U2/oioj1CoxQuSoW//Zxp3D8EUIEjo=",
+    "originContent": "[Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b) it is also possible",
+    "translatedContent": "[Ti*k*Zero+](https://huggingface.co/nllg/tikzero-plus-10b) it is also possible"
+  },
+  {
+    "row": 67,
+    "rowsha": "094XGauH5MjVeDNVCidRA0UBIQsSC9IoSAC1JSJLO0U=",
+    "originContent": "to synthesize graphics programs conditioned on text (cf. our",
+    "translatedContent": "to synthesize graphics programs conditioned on text (cf. our"
+  },
+  {
+    "row": 68,
+    "rowsha": "nkshlfNrzy2BgMDNNjPICicWZ1evTtaa2kaXNILzXS8=",
+    "originContent": "[paper](https://arxiv.org/abs/2503.11509) for",
+    "translatedContent": "[paper](https://arxiv.org/abs/2503.11509) for"
+  },
+  {
+    "row": 69,
+    "rowsha": "Pao2pcYQ1RIJsAYNNh82/k+km9jjx6gev5ZSgfHLp7M=",
+    "originContent": "details). Note that this currently only supported through the programming",
+    "translatedContent": "details). Note that this currently only supported through the programming"
+  },
+  {
+    "row": 70,
+    "rowsha": "cyxkjdEfiwi/y+s+pMBYq7Rxr92pNsuLmIHNGgO9hiA=",
+    "originContent": "interface:",
+    "translatedContent": "interface:"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "JYErSpAmtsTeKW7BCcN8F6cho3YAO02QJEv/0V2msS0=",
+    "originContent": "<details open><summary>Ti<i>k</i>Zero+ Example</summary>",
+    "translatedContent": "<details open><summary>Ti<i>k</i>Zero+ Example</summary>"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 75,
+    "rowsha": "MHaBMpv7rQozrnKJ4vfoxd071hZOdQXWwBYjODcmljU=",
+    "originContent": "from detikzify.model import load",
+    "translatedContent": "from detikzify.model import load"
+  },
+  {
+    "row": 76,
+    "rowsha": "1cqryIMmok8AVjY9zI3T4UXUw9cqKpnVCr80aFRce3o=",
+    "originContent": "from detikzify.infer import DetikzifyPipeline",
+    "translatedContent": "from detikzify.infer import DetikzifyPipeline"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "zs3y+GuK9OMR7340k6s5ShGtk7BKA8wwFULNCSz4Kmo=",
+    "originContent": "caption = \"A multi-layer perceptron with two hidden layers.\"",
+    "translatedContent": "caption = \"A multi-layer perceptron with two hidden layers.\""
+  },
+  {
+    "row": 79,
+    "rowsha": "0GYnpN1PCUW12hUlm4oiU1v0wRRKNvFmBRlE25Hr6ak=",
+    "originContent": "pipeline = DetikzifyPipeline(*load(",
+    "translatedContent": "pipeline = DetikzifyPipeline(*load("
+  },
+  {
+    "row": 80,
+    "rowsha": "ZB847UCKBGhp9Ztm22/fg+a+7W94pcEdhkc+dlVU0qE=",
+    "originContent": "    model_name_or_path=\"nllg/tikzero-plus-10b\",",
+    "translatedContent": "    model_name_or_path=\"nllg/tikzero-plus-10b\","
+  },
+  {
+    "row": 81,
+    "rowsha": "QYKYrytWNmUhCdwieSn6Nud4oguD9iZpHx+1GOriobI=",
+    "originContent": "    device_map=\"auto\",",
+    "translatedContent": "    device_map=\"auto\","
+  },
+  {
+    "row": 82,
+    "rowsha": "l8bvBrzzlF6GQdfX3tGUkX/7VGm2jtjPRyy/nkIUrI0=",
+    "originContent": "    torch_dtype=\"bfloat16\",",
+    "translatedContent": "    torch_dtype=\"bfloat16\","
+  },
+  {
+    "row": 83,
+    "rowsha": "E3E8NpI1nXyHc+5A0hIYveZKDzcFM8tNJ5A9ddu4aZI=",
+    "originContent": "))",
+    "translatedContent": "))"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "tG1mSGhX1PW/L6zW6IOvwWYBz+jyWwBJnd73QQdtH/o=",
+    "originContent": "# generate a single TikZ program",
+    "translatedContent": "# generate a single TikZ program"
+  },
+  {
+    "row": 86,
+    "rowsha": "p9FKd8VtczMnaBSJps8SJnFHGsPWy33z8j+ZhhmpwLU=",
+    "originContent": "fig = pipeline.sample(text=caption)",
+    "translatedContent": "fig = pipeline.sample(text=caption)"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "MPHEGSvitiPYo6KH+RUwiXPP1FASNFAFxKdfGfI4Kv4=",
+    "originContent": "# if it compiles, rasterize it and show it",
+    "translatedContent": "# if it compiles, rasterize it and show it"
+  },
+  {
+    "row": 89,
+    "rowsha": "AsMDSvIBq1IEtmdtRYJqDz3r+RLFAP6rDG5QRG9X0Pk=",
+    "originContent": "if fig.is_rasterizable:",
+    "translatedContent": "if fig.is_rasterizable:"
+  },
+  {
+    "row": 90,
+    "rowsha": "rn14tvCsb7pb3XLJ03KCb8UvjtwM/UZb6WD+WDcKgFE=",
+    "originContent": "    fig.rasterize().show()",
+    "translatedContent": "    fig.rasterize().show()"
+  },
+  {
+    "row": 91,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 92,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 93,
+    "rowsha": "ZVoKMpQL/4fjfnL1OyBzIKMEqAOO5yWy8g9KO/cihJw=",
+    "originContent": "<details><summary>Ti<i>k</i>Zero Example</summary>",
+    "translatedContent": "<details><summary>Ti<i>k</i>Zero Example</summary>"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 96,
+    "rowsha": "ITr7MvlaARZF600w26Qg0qvXxR1gmjTb67zkAMvDzvU=",
+    "originContent": "from detikzify.model import load, load_adapter",
+    "translatedContent": "from detikzify.model import load, load_adapter"
+  },
+  {
+    "row": 97,
+    "rowsha": "1cqryIMmok8AVjY9zI3T4UXUw9cqKpnVCr80aFRce3o=",
+    "originContent": "from detikzify.infer import DetikzifyPipeline",
+    "translatedContent": "from detikzify.infer import DetikzifyPipeline"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "zs3y+GuK9OMR7340k6s5ShGtk7BKA8wwFULNCSz4Kmo=",
+    "originContent": "caption = \"A multi-layer perceptron with two hidden layers.\"",
+    "translatedContent": "caption = \"A multi-layer perceptron with two hidden layers.\""
+  },
+  {
+    "row": 100,
+    "rowsha": "c2rFN7ShJABMI/EK7qHy1+h6Ry0bXUSZy3wwQYO1YRY=",
+    "originContent": "pipeline = DetikzifyPipeline(",
+    "translatedContent": "pipeline = DetikzifyPipeline("
+  },
+  {
+    "row": 101,
+    "rowsha": "KwJFILS8qKxw0ccOf4YJfnmHy7hIfMvMrbrd0+RhwZg=",
+    "originContent": "    *load_adapter(",
+    "translatedContent": "    *load_adapter("
+  },
+  {
+    "row": 102,
+    "rowsha": "/DABj3LL+lB53jU3Moyp2AyYp6dXJLSsEieVdwkbWHA=",
+    "originContent": "        *load(",
+    "translatedContent": "        *load("
+  },
+  {
+    "row": 103,
+    "rowsha": "4ELpfKsc9APRqnDw3tt6hj9vCKId7RjxCPJIB6ibG+o=",
+    "originContent": "            model_name_or_path=\"nllg/detikzify-v2-8b\",",
+    "translatedContent": "            model_name_or_path=\"nllg/detikzify-v2-8b\","
+  },
+  {
+    "row": 104,
+    "rowsha": "4iSZv2+jFzH1sSLFT/JZPPkyFYZ8x34rzlML2dsQmec=",
+    "originContent": "            device_map=\"auto\",",
+    "translatedContent": "            device_map=\"auto\","
+  },
+  {
+    "row": 105,
+    "rowsha": "gjrKGhkFq8JKOk81f1kBT5B2dH2ggsZvX7jHd8TRvOU=",
+    "originContent": "            torch_dtype=\"bfloat16\",",
+    "translatedContent": "            torch_dtype=\"bfloat16\","
+  },
+  {
+    "row": 106,
+    "rowsha": "7C3wx4lR3xJySTfmYQo9kDvDfux+CT648CRM4i88aGk=",
+    "originContent": "        ),",
+    "translatedContent": "        ),"
+  },
+  {
+    "row": 107,
+    "rowsha": "4uThzKzbJU4vTCPb7QcBbhCOQNnks3a7Htr5gf7rfsc=",
+    "originContent": "        adapter_name_or_path=\"nllg/tikzero-adapter\",",
+    "translatedContent": "        adapter_name_or_path=\"nllg/tikzero-adapter\","
+  },
+  {
+    "row": 108,
+    "rowsha": "/xlEZ1LDPBgeqSMqeVvv8VvD/u3SpYCHs/XDPuti6ZI=",
+    "originContent": "    )",
+    "translatedContent": "    )"
+  },
+  {
+    "row": 109,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "tG1mSGhX1PW/L6zW6IOvwWYBz+jyWwBJnd73QQdtH/o=",
+    "originContent": "# generate a single TikZ program",
+    "translatedContent": "# generate a single TikZ program"
+  },
+  {
+    "row": 112,
+    "rowsha": "p9FKd8VtczMnaBSJps8SJnFHGsPWy33z8j+ZhhmpwLU=",
+    "originContent": "fig = pipeline.sample(text=caption)",
+    "translatedContent": "fig = pipeline.sample(text=caption)"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "MPHEGSvitiPYo6KH+RUwiXPP1FASNFAFxKdfGfI4Kv4=",
+    "originContent": "# if it compiles, rasterize it and show it",
+    "translatedContent": "# if it compiles, rasterize it and show it"
+  },
+  {
+    "row": 115,
+    "rowsha": "AsMDSvIBq1IEtmdtRYJqDz3r+RLFAP6rDG5QRG9X0Pk=",
+    "originContent": "if fig.is_rasterizable:",
+    "translatedContent": "if fig.is_rasterizable:"
+  },
+  {
+    "row": 116,
+    "rowsha": "rn14tvCsb7pb3XLJ03KCb8UvjtwM/UZb6WD+WDcKgFE=",
+    "originContent": "    fig.rasterize().show()",
+    "translatedContent": "    fig.rasterize().show()"
+  },
+  {
+    "row": 117,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 118,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "/LspjArt/e/QlRQXVcBg7Z6W6m5jTCi5z0A4SqJ50nI=",
+    "originContent": "More involved examples, for example for evaluation and training, can be found",
+    "translatedContent": "More involved examples, for example for evaluation and training, can be found"
+  },
+  {
+    "row": 121,
+    "rowsha": "rLeTNX9e524a7IbekOE37xgelZ4NYGnVx/8W7poi058=",
+    "originContent": "in the [examples](examples) folder.",
+    "translatedContent": "in the [examples](examples) folder."
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "2KVw7QEm7NMNf4mvjwLFvqwwwIb2c2JZQyByHUIJPRM=",
+    "originContent": "## Model Weights & Datasets",
+    "translatedContent": "## Model Weights & Datasets"
+  },
+  {
+    "row": 124,
+    "rowsha": "WfHPC2+qW4LmxSDRqxdZ5a2x9SdXZ/sjPFmhUwbYcds=",
+    "originContent": "We upload all our DeTi*k*Zify models and datasets to the [Hugging Face",
+    "translatedContent": "We upload all our DeTi*k*Zify models and datasets to the [Hugging Face"
+  },
+  {
+    "row": 125,
+    "rowsha": "TlbloL1PUuH2rb4HdZgadDAGc7M8ZmWDHid1JZzCV8Q=",
+    "originContent": "Hub](https://huggingface.co/collections/nllg/detikzify-664460c521aa7c2880095a8b)",
+    "translatedContent": "Hub](https://huggingface.co/collections/nllg/detikzify-664460c521aa7c2880095a8b)"
+  },
+  {
+    "row": 126,
+    "rowsha": "CeVH4+TYP76k50LMYUMMA+WzoMGHCzi7VRxknEjZAzY=",
+    "originContent": "(Ti*k*Zero models are available",
+    "translatedContent": "(Ti*k*Zero models are available"
+  },
+  {
+    "row": 127,
+    "rowsha": "mZZrsDsmW7xkaE68D/RfAV6wJjbLPZH9rbw8pRQaHFg=",
+    "originContent": "[here](https://huggingface.co/collections/nllg/tikzero-67d1952fab69f5bd172de1fe)).",
+    "translatedContent": "[here](https://huggingface.co/collections/nllg/tikzero-67d1952fab69f5bd172de1fe))."
+  },
+  {
+    "row": 128,
+    "rowsha": "xOMOI/RGFoJBwfQx9TUc59L9tpnvwxiQSg81M8vdjeg=",
+    "originContent": "However, please note that for the public release of the",
+    "translatedContent": "However, please note that for the public release of the"
+  },
+  {
+    "row": 129,
+    "rowsha": "evTGY/U3b7ga6bc3Ou8JlSyT0vj+JNvxJdrNeHt7vJg=",
+    "originContent": "[DaTi*k*Z<sub>v2</sub>](https://huggingface.co/datasets/nllg/datikz-v2)",
+    "translatedContent": "[DaTi*k*Z<sub>v2</sub>](https://huggingface.co/datasets/nllg/datikz-v2)"
+  },
+  {
+    "row": 130,
+    "rowsha": "8ALoG6lInI1Htp0AuWWHdmJkbzj1ddEl80t9P+jQ5sg=",
+    "originContent": "and [DaTi*k*Z<sub>v3</sub>](https://huggingface.co/datasets/nllg/datikz-v3)",
+    "translatedContent": "and [DaTi*k*Z<sub>v3</sub>](https://huggingface.co/datasets/nllg/datikz-v3)"
+  },
+  {
+    "row": 131,
+    "rowsha": "SMCqSiEivw6Lt4osEsTtjKimbD7NI7SX4BnMhYeA/oM=",
+    "originContent": "datasets, we had to remove a considerable portion of Ti*k*Z drawings",
+    "translatedContent": "datasets, we had to remove a considerable portion of Ti*k*Z drawings"
+  },
+  {
+    "row": 132,
+    "rowsha": "Hsil6XN7+H/ngZUmvhlTyNH8XTg79WSr6WQEd9R96ic=",
+    "originContent": "originating from [arXiv](https://arxiv.org), as the [arXiv non-exclusive",
+    "translatedContent": "originating from [arXiv](https://arxiv.org), as the [arXiv non-exclusive"
+  },
+  {
+    "row": 133,
+    "rowsha": "Ho+7xtbudn7uS6DWFWjq9Uw+UyvOiyVj4g6JmLQlmLw=",
+    "originContent": "license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html) does",
+    "translatedContent": "license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html) does"
+  },
+  {
+    "row": 134,
+    "rowsha": "evBbMcxEeHoYJeUKRbE4/tJ20JnHKRAOLRmFbINC3L8=",
+    "originContent": "not permit redistribution. We do, however, release our [dataset creation",
+    "translatedContent": "not permit redistribution. We do, however, release our [dataset creation"
+  },
+  {
+    "row": 135,
+    "rowsha": "ULPlSZMgvBbZrB8nsYA5zTQPKGH1EBkoRhcGKlhUYiQ=",
+    "originContent": "scripts](https://github.com/potamides/DaTikZ) and encourage anyone to recreate",
+    "translatedContent": "scripts](https://github.com/potamides/DaTikZ) and encourage anyone to recreate"
+  },
+  {
+    "row": 136,
+    "rowsha": "jrPzjzHk4ChGcg4kEu++pk3fIBXaGnEms1G/LmwCvZA=",
+    "originContent": "the full version of DaTi*k*Z themselves.",
+    "translatedContent": "the full version of DaTi*k*Z themselves."
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+    "originContent": "## Citation",
+    "translatedContent": "## Citation"
+  },
+  {
+    "row": 139,
+    "rowsha": "eGq3N6C7GYdvLo2iPcRC7uQLfvWeMdd12v23hgrFdfU=",
+    "originContent": "If DeTi*k*Zify and Ti*k*Zero have been beneficial for your research or",
+    "translatedContent": "If DeTi*k*Zify and Ti*k*Zero have been beneficial for your research or"
+  },
+  {
+    "row": 140,
+    "rowsha": "1+C/1txMC1sEHllK8g7Cewxs86uFik6gLT4Kzd9HKJA=",
+    "originContent": "applications, we kindly request you to acknowledge this by citing them as",
+    "translatedContent": "applications, we kindly request you to acknowledge this by citing them as"
+  },
+  {
+    "row": 141,
+    "rowsha": "ZkNxq7hohz+a4sjBQZ7AfAQ7QnmD6EtyDP9Kq95khok=",
+    "originContent": "follows:",
+    "translatedContent": "follows:"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+    "originContent": "```bibtex",
+    "translatedContent": "```bibtex"
+  },
+  {
+    "row": 144,
+    "rowsha": "IQJ+Efu4MYfiOpT9o489/2mvZKxIuMU+yOLbuxynCDE=",
+    "originContent": "@inproceedings{belouadi2024detikzify,",
+    "translatedContent": "@inproceedings{belouadi2024detikzify,"
+  },
+  {
+    "row": 145,
+    "rowsha": "fOAfdYcA+KpZFbvUdtYJQzU5wVfayIFUuYRzKJNfDQ8=",
+    "originContent": "    title={{DeTikZify}: Synthesizing Graphics Programs for Scientific Figures and Sketches with {TikZ}},",
+    "translatedContent": "    title={{DeTikZify}: Synthesizing Graphics Programs for Scientific Figures and Sketches with {TikZ}},"
+  },
+  {
+    "row": 146,
+    "rowsha": "0mwWLOsriU1RekWJWNshL8LXHODOIVUWgC4eeQWHsLQ=",
+    "originContent": "    author={Jonas Belouadi and Simone Paolo Ponzetto and Steffen Eger},",
+    "translatedContent": "    author={Jonas Belouadi and Simone Paolo Ponzetto and Steffen Eger},"
+  },
+  {
+    "row": 147,
+    "rowsha": "GPqyDOZKr7qi8ZVpU1wW+KDtOkdB0OABfV9qIbkn1gE=",
+    "originContent": "    booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},",
+    "translatedContent": "    booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},"
+  },
+  {
+    "row": 148,
+    "rowsha": "8lLGn5qGiE3D6Hk2cp9OEROWnLC8cgff/rFhjS6fgvg=",
+    "originContent": "    year={2024},",
+    "translatedContent": "    year={2024},"
+  },
+  {
+    "row": 149,
+    "rowsha": "M9W6Qcm7+1bJK++3d8NEWHoFVpgfqsXjGqokXKPn2QY=",
+    "originContent": "    url={https://openreview.net/forum?id=bcVLFQCOjc}",
+    "translatedContent": "    url={https://openreview.net/forum?id=bcVLFQCOjc}"
+  },
+  {
+    "row": 150,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 151,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+    "originContent": "```bibtex",
+    "translatedContent": "```bibtex"
+  },
+  {
+    "row": 154,
+    "rowsha": "vGx56n6amULVvCOtQMYQZZp8esbqhe2ScEygxOcEzgA=",
+    "originContent": "@misc{belouadi2025tikzero,",
+    "translatedContent": "@misc{belouadi2025tikzero,"
+  },
+  {
+    "row": 155,
+    "rowsha": "rdFaDa+0Kj5hvw6F0JIYg9tINNGZhi/gaph1ZCULrzE=",
+    "originContent": "    title={{TikZero}: Zero-Shot Text-Guided Graphics Program Synthesis},",
+    "translatedContent": "    title={{TikZero}: Zero-Shot Text-Guided Graphics Program Synthesis},"
+  },
+  {
+    "row": 156,
+    "rowsha": "Fx4YcPrravM+b3VE88bMsTAdddGh4Bb54fHpA6ZVsdI=",
+    "originContent": "    author={Jonas Belouadi and Eddy Ilg and Margret Keuper and Hideki Tanaka and Masao Utiyama and Raj Dabre and Steffen Eger and Simone Paolo Ponzetto},",
+    "translatedContent": "    author={Jonas Belouadi and Eddy Ilg and Margret Keuper and Hideki Tanaka and Masao Utiyama and Raj Dabre and Steffen Eger and Simone Paolo Ponzetto},"
+  },
+  {
+    "row": 157,
+    "rowsha": "tZZgh+rVeU8CH5ELg7Q2n65D8cWhKtBASgEjDBbTdTY=",
+    "originContent": "    year={2025},",
+    "translatedContent": "    year={2025},"
+  },
+  {
+    "row": 158,
+    "rowsha": "DrPnb7fd/5ksUqlONaTPAEjNd+ikZMnZB/a44AeJ0Ts=",
+    "originContent": "    eprint={2503.11509},",
+    "translatedContent": "    eprint={2503.11509},"
+  },
+  {
+    "row": 159,
+    "rowsha": "4RAfmpX1vn3YzNTpPhoT0BomYvwA1j1CegqqF24QruM=",
+    "originContent": "    archivePrefix={arXiv},",
+    "translatedContent": "    archivePrefix={arXiv},"
+  },
+  {
+    "row": 160,
+    "rowsha": "EW72cKSsGuIyzNKv2AGOs82YEyHoE5EmOtyRXCpyhjA=",
+    "originContent": "    primaryClass={cs.CL},",
+    "translatedContent": "    primaryClass={cs.CL},"
+  },
+  {
+    "row": 161,
+    "rowsha": "GSX8Kg+0z9MMNdZIWxt7+earVjljeGuucwrsGPfzOOM=",
+    "originContent": "    url={https://arxiv.org/abs/2503.11509},",
+    "translatedContent": "    url={https://arxiv.org/abs/2503.11509},"
+  },
+  {
+    "row": 162,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 163,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+    "originContent": "## Acknowledgments",
+    "translatedContent": "## Acknowledgments"
+  },
+  {
+    "row": 166,
+    "rowsha": "QkaPCIBFkarQHfE3DYVSH3Sg2yu0ET88idHT23waKVE=",
+    "originContent": "The implementation of the DeTi*k*Zify model architecture is based on",
+    "translatedContent": "The implementation of the DeTi*k*Zify model architecture is based on"
+  },
+  {
+    "row": 167,
+    "rowsha": "HQ/RPugcFJdeSUNRhFNHX8IoG9K/+pWS0FX5I81nm3s=",
+    "originContent": "[LLaVA](https://github.com/haotian-liu/LLaVA) and",
+    "translatedContent": "[LLaVA](https://github.com/haotian-liu/LLaVA) and"
+  },
+  {
+    "row": 168,
+    "rowsha": "1ZyDj9Z82GIE0wAsA0yNvNGv4IilAkwV3vaobsYMTBI=",
+    "originContent": "[AutomaTikZ](https://github.com/potamides/AutomaTikZ) (v1), and [Idefics",
+    "translatedContent": "[AutomaTikZ](https://github.com/potamides/AutomaTikZ) (v1), and [Idefics"
+  },
+  {
+    "row": 169,
+    "rowsha": "CvTaq0ormwD+HYWEas6Wyf0nBkbCn5wL3y4WBdQpZ7w=",
+    "originContent": "3](https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3) (v2). Our MCTS",
+    "translatedContent": "3](https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3) (v2). Our MCTS"
+  },
+  {
+    "row": 170,
+    "rowsha": "m9FAENOXvrbdY+eDe6aO89ITCoeKdNkSO+DVZkYTZu8=",
+    "originContent": "implementation is based on",
+    "translatedContent": "implementation is based on"
+  },
+  {
+    "row": 171,
+    "rowsha": "P9JT6ma9GuBQTxOcjDaqAXNV/yDcKxI3jDNF+zTpyCg=",
+    "originContent": "[VerMCTS](https://github.com/namin/llm-verified-with-monte-carlo-tree-search).",
+    "translatedContent": "[VerMCTS](https://github.com/namin/llm-verified-with-monte-carlo-tree-search)."
+  },
+  {
+    "row": 172,
+    "rowsha": "/dm3cT+J7Y4BIkK3w54hDz/jboSVe8NrxcN9/Yo8uHA=",
+    "originContent": "The Ti*k*Zero architecture draws inspiration from",
+    "translatedContent": "The Ti*k*Zero architecture draws inspiration from"
+  },
+  {
+    "row": 173,
+    "rowsha": "uePVjPtoMRt4/XxC0jxt06WfQ9USQF+2MLN6lU8waCA=",
+    "originContent": "[Flamingo](https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/)",
+    "translatedContent": "[Flamingo](https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/)"
+  },
+  {
+    "row": 174,
+    "rowsha": "hYptkOsJNqwh6TEgxOfhSXskmIex2M6Apc7KdTDVnTY=",
+    "originContent": "and [LLaMA",
+    "translatedContent": "and [LLaMA"
+  },
+  {
+    "row": 175,
+    "rowsha": "pOaiKhjDYxbOPXUl6thU0t92CslpagXBU/tKENHJjnE=",
+    "originContent": "3.2-Vision](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices).",
+    "translatedContent": "3.2-Vision](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices)."
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

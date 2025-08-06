@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Langue</summary>
@@ -30,17 +31,24 @@
 
 # winjs-plugin-security
 
-Un plugin qui offre des fonctionnalités de sécurité améliorées pour les projets WinJS, principalement utilisé pour générer des attributs SRI (Subresource Integrity).
+Un plugin qui fournit des fonctionnalités de sécurité renforcées pour les projets WinJS, principalement utilisé pour générer des attributs SRI (Subresource Integrity).
+
+<p>
+  <a href="https://npmjs.com/package/@winner-fed/plugin-security">
+   <img src="https://img.shields.io/npm/v/@winner-fed/plugin-security?style=flat-square&colorA=564341&colorB=EDED91" alt="npm version" />
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="license" />
+  <a href="https://npmcharts.com/compare/@winner-fed/plugin-security?minimal=true"><img src="https://img.shields.io/npm/dm/@winner-fed/plugin-security.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="downloads" /></a>
+</p>
 
 ## Fonctionnalités
 
-- Génère automatiquement les attributs SRI pour les balises `<script>` et `<link>` dans les fichiers HTML
-- Prend en charge les algorithmes de hachage SHA-256, SHA-384, SHA-512 (configurable)
-- Ajoute automatiquement l'attribut `crossorigin="anonymous"` pour garantir le bon fonctionnement du SRI
-- N'est actif qu'en environnement de production, ignoré automatiquement en développement
+- Génération automatique d'attributs SRI pour les balises `<script>` et `<link>` dans les fichiers HTML
+- Prise en charge des algorithmes de hachage SHA-256, SHA-384, SHA-512 (configurables)
+- Ajout automatique de l'attribut `crossorigin="anonymous"` pour garantir le bon fonctionnement du SRI
+- N'est actif qu'en environnement de production, ignoré automatiquement en environnement de développement
 
 ## Installation
-
 
 ```bash
 pnpm add @winner-fed/plugin-security
@@ -138,6 +146,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-06
 
 ---

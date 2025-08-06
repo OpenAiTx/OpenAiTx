@@ -30,13 +30,21 @@
 
 # winjs-plugin-security
 
-WinJS プロジェクト向けにセキュリティを強化する機能を提供するプラグインで、主に SRI（Subresource Integrity）属性の生成に使用されます。
+WinJS プロジェクト向けにセキュリティ強化機能を提供するプラグインで、主に SRI（Subresource Integrity）属性の生成を行います。
 
-## 機能
+<p>
+  <a href="https://npmjs.com/package/@winner-fed/plugin-security">
+   <img src="https://img.shields.io/npm/v/@winner-fed/plugin-security?style=flat-square&colorA=564341&colorB=EDED91" alt="npm version" />
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="license" />
+  <a href="https://npmcharts.com/compare/@winner-fed/plugin-security?minimal=true"><img src="https://img.shields.io/npm/dm/@winner-fed/plugin-security.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="downloads" /></a>
+</p>
 
-- HTML ファイル内の `<script>` および `<link>` タグに SRI 属性を自動生成
-- SHA-256、SHA-384、SHA-512 のハッシュアルゴリズムをサポート（設定可能）
-- SRI が正常に動作するように `crossorigin="anonymous"` 属性を自動追加
+## 機能特性
+
+- HTML ファイル内の `<script>` および `<link>` タグに自動で SRI 属性を生成
+- SHA-256、SHA-384、SHA-512 ハッシュアルゴリズムをサポート（設定可能）
+- SRI が正常に機能するように `crossorigin="anonymous"` 属性を自動追加
 - 本番環境でのみ有効、開発環境では自動的にスキップ
 
 ## インストール
@@ -138,6 +146,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-06
 
 ---

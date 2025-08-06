@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 زبان</summary>
@@ -32,15 +33,22 @@
 
 یک افزونه برای پروژه‌های WinJS که قابلیت‌های امنیتی را افزایش می‌دهد و عمدتاً برای تولید ویژگی SRI (یکپارچگی زیرمنبع) استفاده می‌شود.
 
+<p>
+  <a href="https://npmjs.com/package/@winner-fed/plugin-security">
+   <img src="https://img.shields.io/npm/v/@winner-fed/plugin-security?style=flat-square&colorA=564341&colorB=EDED91" alt="npm version" />
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="license" />
+  <a href="https://npmcharts.com/compare/@winner-fed/plugin-security?minimal=true"><img src="https://img.shields.io/npm/dm/@winner-fed/plugin-security.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="downloads" /></a>
+</p>
+
 ## ویژگی‌ها
 
-- به صورت خودکار ویژگی SRI را برای تگ‌های `<script>` و `<link>` در فایل‌های HTML ایجاد می‌کند
-- پشتیبانی از الگوریتم‌های هش SHA-256، SHA-384، SHA-512 (قابل تنظیم)
-- افزودن خودکار ویژگی `crossorigin="anonymous"` برای اطمینان از عملکرد صحیح SRI
+- به طور خودکار ویژگی SRI را برای تگ‌های `<script>` و `<link>` در فایل‌های HTML تولید می‌کند
+- پشتیبانی از الگوریتم‌های هش SHA-256، SHA-384 و SHA-512 (قابل پیکربندی)
+- به طور خودکار ویژگی `crossorigin="anonymous"` را برای اطمینان از عملکرد صحیح SRI اضافه می‌کند
 - فقط در محیط تولید فعال است و در محیط توسعه به طور خودکار نادیده گرفته می‌شود
 
 ## نصب
-
 
 ```bash
 pnpm add @winner-fed/plugin-security
@@ -138,6 +146,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-06
 
 ---

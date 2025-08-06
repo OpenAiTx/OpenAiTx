@@ -1,0 +1,3860 @@
+[
+  {
+    "row": 1,
+    "rowsha": "N1bGW8Qk3sLgkW/kFQ6iW5Al3EBbIuqxcnXzfaG+c1k=",
+    "originContent": "# OfficeIMO - Microsoft Word .NET Library",
+    "translatedContent": "# OfficeIMO - Microsoft Word .NET 라이브러리"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "hCIDAlZjmYatIl9pRv/itofyRc8I9okqHa+ym3X81U0=",
+    "originContent": "OfficeIMO is available as a NuGet package from the gallery and is the preferred installation method.",
+    "translatedContent": "OfficeIMO는 갤러리에서 NuGet 패키지로 제공되며 권장 설치 방법입니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "QE7CPp06tkFG2yWETsSvwkaspNVALEOD63m4oK14pL0=",
+    "originContent": "[![nuget downloads](https://img.shields.io/nuget/dt/officeIMO.Word?label=nuget%20downloads)](https://www.nuget.org/packages/OfficeIMO.Word)",
+    "translatedContent": "[![nuget 다운로드](https://img.shields.io/nuget/dt/officeIMO.Word?label=nuget%20downloads)](https://www.nuget.org/packages/OfficeIMO.Word)"
+  },
+  {
+    "row": 6,
+    "rowsha": "b7tmx1/7r+R23aYHx/xShnPrOZ+X6qVcvHO6TO1/5LE=",
+    "originContent": "[![nuget version](https://img.shields.io/nuget/v/OfficeIMO.Word)](https://www.nuget.org/packages/OfficeIMO.Word)",
+    "translatedContent": "[![nuget 버전](https://img.shields.io/nuget/v/OfficeIMO.Word)](https://www.nuget.org/packages/OfficeIMO.Word)"
+  },
+  {
+    "row": 7,
+    "rowsha": "dP/0KUMlp/WPV0F6WCfBI/9XcbWYxNg8VdCOqKiy+No=",
+    "originContent": "[![license](https://img.shields.io/github/license/EvotecIT/OfficeIMO.svg)](#)",
+    "translatedContent": "[![라이선스](https://img.shields.io/github/license/EvotecIT/OfficeIMO.svg)](#)"
+  },
+  {
+    "row": 8,
+    "rowsha": "U5dfTRg+7st//W8ky+MCzkukS06HX2RM/KfsvdTr1/Q=",
+    "originContent": "[![CI](https://github.com/EvotecIT/OfficeIMO/actions/workflows/dotnet-tests.yml/badge.svg?branch=master)](https://github.com/EvotecIT/OfficeIMO/actions/workflows/dotnet-tests.yml)",
+    "translatedContent": "[![CI](https://github.com/EvotecIT/OfficeIMO/actions/workflows/dotnet-tests.yml/badge.svg?branch=master)](https://github.com/EvotecIT/OfficeIMO/actions/workflows/dotnet-tests.yml)"
+  },
+  {
+    "row": 9,
+    "rowsha": "RLFC0bLPRqvsO9S77dqYtIgI+YN1GH4yNbcQ7UmygoQ=",
+    "originContent": "[![codecov](https://codecov.io/gh/EvotecIT/OfficeIMO/branch/master/graph/badge.svg)](https://codecov.io/gh/EvotecIT/OfficeIMO)",
+    "translatedContent": "[![코드커버리지](https://codecov.io/gh/EvotecIT/OfficeIMO/branch/master/graph/badge.svg)](https://codecov.io/gh/EvotecIT/OfficeIMO)"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "GQ03JgpfR8blieYdMgW9kir1zt58bnBj/CLmaWhCwxY=",
+    "originContent": "If you would like to contact me you can do so via Twitter or LinkedIn.",
+    "translatedContent": "저에게 연락하고 싶으시면 Twitter 또는 LinkedIn을 통해 연락하실 수 있습니다."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "rRYAWg5wEQU53hqgHkLwUvsDHBeRrtLl0q/OriZCfI4=",
+    "originContent": "[![twitter](https://img.shields.io/twitter/follow/PrzemyslawKlys.svg?label=Twitter%20%40PrzemyslawKlys&style=social)](https://twitter.com/PrzemyslawKlys)",
+    "translatedContent": "[![트위터](https://img.shields.io/twitter/follow/PrzemyslawKlys.svg?label=Twitter%20%40PrzemyslawKlys&style=social)](https://twitter.com/PrzemyslawKlys)"
+  },
+  {
+    "row": 14,
+    "rowsha": "cJXjWwK+jxT2wm3wpvvbfYH5DitrvnrGfTMm5IQojYQ=",
+    "originContent": "[![blog](https://img.shields.io/badge/Blog-evotec.xyz-2A6496.svg)](https://evotec.xyz/hub)",
+    "translatedContent": "[![블로그](https://img.shields.io/badge/Blog-evotec.xyz-2A6496.svg)](https://evotec.xyz/hub)"
+  },
+  {
+    "row": 15,
+    "rowsha": "2ctvMfUkOsye7KbQDtW5GdDvT8Hyasb3qIc0NIYZ+II=",
+    "originContent": "[![linked](https://img.shields.io/badge/LinkedIn-pklys-0077B5.svg?logo=LinkedIn)](https://www.linkedin.com/in/pklys)",
+    "translatedContent": "[![링크드인](https://img.shields.io/badge/LinkedIn-pklys-0077B5.svg?logo=LinkedIn)](https://www.linkedin.com/in/pklys)"
+  },
+  {
+    "row": 16,
+    "rowsha": "j8cnFUPSQfDhdH59ZEMUOD9FmHAq1eQn0msaxLkczeA=",
+    "originContent": "[![discord](https://img.shields.io/discord/508328927853281280?style=flat-square&label=discord%20chat)](https://evo.yt/discord)",
+    "translatedContent": "[![디스코드](https://img.shields.io/discord/508328927853281280?style=flat-square&label=discord%20chat)](https://evo.yt/discord)"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "gkqKxvreVGQVXIBZRYFPALCE4/8vZduEQlS2LBLUTCk=",
+    "originContent": "## What it's all about",
+    "translatedContent": "## 이 프로젝트는 무엇인가요"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "yzSWZ+aXGp9PCpfR1evtT0jeuy5IKWfTBEKDM+ZeX6c=",
+    "originContent": "This is a small project (under development) that allows to create Microsoft Word documents (.docx) using .NET.",
+    "translatedContent": "이것은 .NET을 사용하여 Microsoft Word 문서(.docx)를 생성할 수 있게 하는 소규모 프로젝트(개발 중)입니다."
+  },
+  {
+    "row": 21,
+    "rowsha": "eQvo0VcIXgMEOR7OaAFlGkBXo7rjw9dGRxj7eK7/Exc=",
+    "originContent": "Underneath it uses [OpenXML SDK](https://github.com/OfficeDev/Open-XML-SDK) but heavily simplifies it.",
+    "translatedContent": "내부적으로는 [OpenXML SDK](https://github.com/OfficeDev/Open-XML-SDK)를 사용하지만 크게 단순화했습니다."
+  },
+  {
+    "row": 22,
+    "rowsha": "FpP6+TpY3vUGEgz+IXE6ta48tp2VxDwqgCHvDdTC8JM=",
+    "originContent": "It was created because working with OpenXML is way too hard for me and time-consuming.",
+    "translatedContent": "OpenXML 작업이 너무 어렵고 시간이 많이 걸려서 만들게 되었습니다."
+  },
+  {
+    "row": 23,
+    "rowsha": "iiPMM+WDkYToDA0UdO4+A7gd1MCQCaubFmNIDSRJe3g=",
+    "originContent": "I created it for use within the PowerShell module called [PSWriteOffice](https://github.com/EvotecIT/PSWriteOffice),",
+    "translatedContent": "PowerShell 모듈 [PSWriteOffice](https://github.com/EvotecIT/PSWriteOffice)에서 사용하기 위해 만들었지만,"
+  },
+  {
+    "row": 24,
+    "rowsha": "9aTG0kYtSllznZfOxkxAsZxM7gyB8l3LN5DgFm/0gCI=",
+    "originContent": "but thought it may be useful for others to use in the .NET community.",
+    "translatedContent": ".NET 커뮤니티의 다른 사람들에게도 유용할 수 있다고 생각했습니다."
+  },
+  {
+    "row": 25,
+    "rowsha": "Z46JOFc4+xvwgzTIs9MtVAoqi7LAhXecJBKXegtyK0s=",
+    "originContent": "This repository also includes an experimental **OfficeIMO.Excel** component for creating simple spreadsheets.",
+    "translatedContent": "이 저장소에는 간단한 스프레드시트를 만들기 위한 실험적 **OfficeIMO.Excel** 구성 요소도 포함되어 있습니다."
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "se/aIShb+7toYAwOki/7EeX+ROb1u+wNXJYWdYT9Aiw=",
+    "originContent": "If you want to see what it can do take a look at this [blog post](https://evotec.xyz/officeimo-free-cross-platform-microsoft-word-net-library/).",
+    "translatedContent": "무엇을 할 수 있는지 보고 싶다면 이 [블로그 글](https://evotec.xyz/officeimo-free-cross-platform-microsoft-word-net-library/)을 참고하세요."
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "jILlVxVsiEY9UkviTY2rw53fViqlBYDjw1+t6PrzDUA=",
+    "originContent": "I used to use the DocX library (which I co-authored/maintained before it was taken over by Xceed) to create Microsoft Word documents,",
+    "translatedContent": "저는 이전에 DocX 라이브러리(제가 공동 저자/유지보수했으며 Xceed가 인수하기 전)를 사용해 Microsoft Word 문서를 만들었지만,"
+  },
+  {
+    "row": 30,
+    "rowsha": "TCh+qjFD+pGuZzFxZdUn5Iwv3Cpuu3ed3x09M9GXQsw=",
+    "originContent": "but it only supports .NET Framework, and their newest community license makes the project unusable.",
+    "translatedContent": ".NET Framework만 지원하고 최신 커뮤니티 라이선스 때문에 프로젝트를 사용할 수 없게 되었습니다."
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "hN0hCmyaU/zadR/wQQoQKdfLVLiCIjIgZstfKC/nbpo=",
+    "originContent": "*As I am not really a developer, and I hardly know what I'm doing if you know how to help out - please do.*",
+    "translatedContent": "*저는 사실 개발자가 아니며 제가 하는 일을 잘 모릅니다. 만약 도울 방법을 아신다면 제발 도와주세요.*"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "8K+nALNobT0A5OjIXzccDMf1REmArMAeGt6nhqITFg8=",
+    "originContent": "- If you see bad practice, please open an issue/submit PR.",
+    "translatedContent": "- 잘못된 관행을 보시면 이슈를 열거나 PR을 제출해주세요."
+  },
+  {
+    "row": 35,
+    "rowsha": "viFXaERpPf5AMY7cpDneIbIdbiCP6tK1Uwu1xpoMe+w=",
+    "originContent": "- If you know how to do something in OpenXML that could help this project - please open an issue/submit PR",
+    "translatedContent": "- OpenXML에서 이 프로젝트에 도움이 될 수 있는 방법을 아시면 이슈를 열거나 PR을 제출해주세요."
+  },
+  {
+    "row": 36,
+    "rowsha": "FI4bI94+NnResyk/3aY8JRJmIhtcod7izBdSdzTpbt0=",
+    "originContent": "- If you see something that could work better - please open an issue/submit PR",
+    "translatedContent": "- 더 나은 방법이 보이면 이슈를 열거나 PR을 제출해주세요."
+  },
+  {
+    "row": 37,
+    "rowsha": "gWMg5IK2pRENu5dc0BoBIWXP9qQkWbbHtkTCAwCylkE=",
+    "originContent": "- If you see something that I made a fool of myself - please open an issue/submit PR",
+    "translatedContent": "- 제가 실수한 부분이 보이면 이슈를 열거나 PR을 제출해주세요."
+  },
+  {
+    "row": 38,
+    "rowsha": "udA/WlA9ANyIWKXQWgdVK2WYoXHcwIAk4goSUHee2DY=",
+    "originContent": "- If you see something that works not the way I think it works - please open an issue/submit PR",
+    "translatedContent": "- 작동 방식이 제가 생각한 것과 다르다면 이슈를 열거나 PR을 제출해주세요."
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "PnjsNk02TzZ4noagf9DFqovhko6lHVE635zOrFp+EW4=",
+    "originContent": "If you notice any issues or have suggestions for improvement, please open an issue or submit a pull request.",
+    "translatedContent": "문제가 있거나 개선 제안이 있으면 이슈를 열거나 풀 리퀘스트를 제출해주세요."
+  },
+  {
+    "row": 41,
+    "rowsha": "DtSba/NixKKOSRCMmUn4bPGH8S9u1NG6BCMhn3DEz08=",
+    "originContent": "The main thing is - it has to work with .NET Framework 4.7.2, .NET Standard 2.0 and so on.",
+    "translatedContent": "중요한 것은 .NET Framework 4.7.2, .NET Standard 2.0 등에서 작동해야 한다는 점입니다."
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "OFKDrKiug4IZjOjf9RYueJ+bKH3TXDPwc47ldkKmjzU=",
+    "originContent": "**This project is under development and as such there's a lot of things that can and will change, especially if some people help out.**",
+    "translatedContent": "**이 프로젝트는 개발 중이며, 특히 누군가가 도와준다면 많은 부분이 바뀔 수 있습니다.**"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "H8cE0yBa8rL8ebrn8jOQGSNkn1XSGwuPnR2IT8CnR/E=",
+    "originContent": "| Platform | Status | Code Coverage | .NET |",
+    "translatedContent": "| 플랫폼 | 상태 | 코드 커버리지 | .NET |"
+  },
+  {
+    "row": 47,
+    "rowsha": "9EFOomgQPF5sdmhMncPEjJu6W7S3PiRpSIACg7mBFPc=",
+    "originContent": "| -------- | ------ | ------------- | ---- |",
+    "translatedContent": "| -------- | ------ | ------------- | ---- |"
+  },
+  {
+    "row": 48,
+    "rowsha": "zGOTo4/IHjvlLAU5ee8AsWZcKWXwQwRsU8Bb9G6YJ0k=",
+    "originContent": "| Windows  | ![Windows](https://github.com/EvotecIT/OfficeIMO/actions/workflows/dotnet-tests.yml/badge.svg?branch=master) | [Codecov](https://codecov.io/gh/EvotecIT/OfficeIMO) | OfficeIMO.Word: `netstandard2.0`, `net472`, `net8.0`, `net9.0`; OfficeIMO.Excel: `netstandard2.0`, `net472`, `net48`, `net8.0`, `net9.0` |",
+    "translatedContent": "| Windows  | ![Windows](https://github.com/EvotecIT/OfficeIMO/actions/workflows/dotnet-tests.yml/badge.svg?branch=master) | [Codecov](https://codecov.io/gh/EvotecIT/OfficeIMO) | OfficeIMO.Word: `netstandard2.0`, `net472`, `net8.0`, `net9.0`; OfficeIMO.Excel: `netstandard2.0`, `net472`, `net48`, `net8.0`, `net9.0` |"
+  },
+  {
+    "row": 49,
+    "rowsha": "lPmJuaJ5Lqj/rXq0s69kfeHys9R3ccGdOkJJnoExyd8=",
+    "originContent": "| Linux    | ![Linux](https://github.com/EvotecIT/OfficeIMO/actions/workflows/dotnet-tests.yml/badge.svg?branch=master) | [Codecov](https://codecov.io/gh/EvotecIT/OfficeIMO) | OfficeIMO.Word: `net8.0`; OfficeIMO.Excel: `net8.0`, `net9.0` |",
+    "translatedContent": "| Linux    | ![Linux](https://github.com/EvotecIT/OfficeIMO/actions/workflows/dotnet-tests.yml/badge.svg?branch=master) | [Codecov](https://codecov.io/gh/EvotecIT/OfficeIMO) | OfficeIMO.Word: `net8.0`; OfficeIMO.Excel: `net8.0`, `net9.0` |"
+  },
+  {
+    "row": 50,
+    "rowsha": "xqFmmUtu2wOZ+SYMXZ2cCzAahC4DnimZVdkSGms2b7w=",
+    "originContent": "| MacOs    | ![macOS](https://github.com/EvotecIT/OfficeIMO/actions/workflows/dotnet-tests.yml/badge.svg?branch=master) | [Codecov](https://codecov.io/gh/EvotecIT/OfficeIMO) | OfficeIMO.Word: `net8.0`; OfficeIMO.Excel: `net8.0`, `net9.0` |",
+    "translatedContent": "| MacOs    | ![macOS](https://github.com/EvotecIT/OfficeIMO/actions/workflows/dotnet-tests.yml/badge.svg?branch=master) | [Codecov](https://codecov.io/gh/EvotecIT/OfficeIMO) | OfficeIMO.Word: `net8.0`; OfficeIMO.Excel: `net8.0`, `net9.0` |"
+  },
+  {
+    "row": 51,
+    "rowsha": "sli2L+mW27tcQkRLz8VrkK9s+M9toBnQc5AQJbhrw6c=",
+    "originContent": "## Support This Project",
+    "translatedContent": "## 이 프로젝트 지원하기"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "PafXwDt29sd7gisB7oGPW7uq/EkknxCRZFFFQWHX1jw=",
+    "originContent": "If you find this project helpful, please consider supporting its development.",
+    "translatedContent": "이 프로젝트가 도움이 되었다면 개발 지원을 고려해 주세요."
+  },
+  {
+    "row": 54,
+    "rowsha": "EpM7xlfOaRsR0B+j3V6aDWSgoW2Mbkx7K2j/Xfgmzmw=",
+    "originContent": "Your sponsorship will help the maintainers dedicate more time to maintenance and new feature development for everyone.",
+    "translatedContent": "후원은 유지보수 및 새로운 기능 개발에 더 많은 시간을 할애할 수 있도록 도와줍니다."
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "s4+kIYbAhu1mdqokMoT7Wdvw+WNOzHG2ORe/V0BZOCM=",
+    "originContent": "It takes a lot of time and effort to create and maintain this project.",
+    "translatedContent": "이 프로젝트를 만들고 유지하는 데 많은 시간과 노력이 필요합니다."
+  },
+  {
+    "row": 57,
+    "rowsha": "yhhIk9baYJlUchcoA2XxtAlrFTcmZBzyWKIife8Gxv8=",
+    "originContent": "By becoming a sponsor, you can help ensure that it stays free and accessible to everyone who needs it.",
+    "translatedContent": "후원자가 되어 주시면 모든 사람이 무료로 이용할 수 있도록 프로젝트를 유지하는 데 도움이 됩니다."
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "JhA1yRI6pMedSMVBeXe6TFrmpoPXkLX+Eq3Ph3Q148s=",
+    "originContent": "To become a sponsor, you can choose from the following options:",
+    "translatedContent": "후원자가 되려면 다음 옵션 중 선택할 수 있습니다:"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "WhEph9bO9obU6RkW41v9/hM4Em0mQw7nonwolEhNfoI=",
+    "originContent": "- [Become a sponsor via GitHub Sponsors :heart:](https://github.com/sponsors/PrzemyslawKlys)",
+    "translatedContent": "- [GitHub Sponsors를 통한 후원 :heart:](https://github.com/sponsors/PrzemyslawKlys)"
+  },
+  {
+    "row": 62,
+    "rowsha": "3iJQXcdBfqBLczgKoWVIR1G2d9Qp2BWf6n1KsOyCeDo=",
+    "originContent": "- [Become a sponsor via PayPal :heart:](https://paypal.me/PrzemyslawKlys)",
+    "translatedContent": "- [PayPal을 통한 후원 :heart:](https://paypal.me/PrzemyslawKlys)"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "1hXk0phHxSjRN2PTZ4WWTZHAr8bTbq1x235AWqdKTUo=",
+    "originContent": "Your sponsorship is completely optional and not required for using this project.",
+    "translatedContent": "후원은 전적으로 선택 사항이며 이 프로젝트 사용에 필수 조건이 아닙니다."
+  },
+  {
+    "row": 65,
+    "rowsha": "ZDFozJoUxHkl22qi3DXHq3RKXakOLpz1imQ9AmvfOrw=",
+    "originContent": "We want this project to remain open-source and available for anyone to use for free,",
+    "translatedContent": "이 프로젝트는 오픈 소스로 유지되어 누구나 무료로 사용할 수 있도록 하고 싶습니다."
+  },
+  {
+    "row": 66,
+    "rowsha": "HrBHkG5CynYvYAXlSNXT4wVufi1VbuoRfZxzm5ex79I=",
+    "originContent": "regardless of whether they choose to sponsor it or not.",
+    "translatedContent": "후원 여부와 관계없이 말입니다."
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "U0BwAqVNdSuU3OYtEtUcYNPdyyIBpya1w3y5gXNucFk=",
+    "originContent": "If you work for a company that uses our .NET libraries or PowerShell Modules,",
+    "translatedContent": "만약 귀사가 저희 .NET 라이브러리 또는 PowerShell 모듈을 사용한다면,"
+  },
+  {
+    "row": 69,
+    "rowsha": "k+KMnccReQqnU3fnC+kSseHvEb0gKzXVfNbV5r1gY8M=",
+    "originContent": "please consider asking your manager or marketing team if your company would be interested in supporting this project.",
+    "translatedContent": "매니저나 마케팅 팀에 이 프로젝트 지원 가능성을 문의해 주세요."
+  },
+  {
+    "row": 70,
+    "rowsha": "C/W6MgYwHI+hBhqmHw3udxVOabrx+vcME4+dyXnGVg4=",
+    "originContent": "Your company's support can help us continue to maintain and improve this project for the benefit of everyone.",
+    "translatedContent": "귀사의 지원은 모두를 위한 프로젝트 유지와 개선에 큰 도움이 됩니다."
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "HQuDk700LC197i1KfE+3RGVCwELi8SIr5VizmPaTdgY=",
+    "originContent": "Thank you for considering supporting this project!",
+    "translatedContent": "이 프로젝트 지원을 고려해 주셔서 감사합니다!"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "Lh89w9zkWk4KbtpGDjeKOyZnSWU6B0TEwJDHZxK1gzs=",
+    "originContent": "## Please share with the community",
+    "translatedContent": "## 커뮤니티와 공유해 주세요"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "EBhtOfg/ikDFFVsPtax2QZQPQ08J3nG6CJS84MBvga4=",
+    "originContent": "Please consider sharing a post about OfficeIMO and the value it provides. It really does help!",
+    "translatedContent": "OfficeIMO와 그 가치에 대한 게시물을 공유하는 것을 고려해 주세요. 정말 도움이 됩니다!"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "6hG/Q2HQhL545qt7CMzIEl1W2mrZWQdGzdggRJqfwDg=",
+    "originContent": "[![Share on reddit](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https://github.com/EvotecIT/OfficeIMO&title=OfficeIMO)",
+    "translatedContent": "[![레딧에 공유](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https://github.com/EvotecIT/OfficeIMO&title=OfficeIMO)"
+  },
+  {
+    "row": 79,
+    "rowsha": "oC74OpRc9kJlXI+UowDg6hwoDW5C/nIRpevIXDnn/bw=",
+    "originContent": "[![Share on hacker news](https://img.shields.io/badge/share%20on-hacker%20news-orange?logo=ycombinator)](https://news.ycombinator.com/submitlink?u=https://github.com/EvotecIT/OfficeIMO)",
+    "translatedContent": "[![해커뉴스에 공유](https://img.shields.io/badge/share%20on-hacker%20news-orange?logo=ycombinator)](https://news.ycombinator.com/submitlink?u=https://github.com/EvotecIT/OfficeIMO)"
+  },
+  {
+    "row": 80,
+    "rowsha": "OkMqglwxEPkkXC6oM2k92LnWAPZraoMLDNW9vU2S+nw=",
+    "originContent": "[![Share on twitter](https://img.shields.io/badge/share%20on-twitter-03A9F4?logo=twitter)](https://twitter.com/share?url=https://github.com/EvotecIT/OfficeIMO&t=OfficeIMO)",
+    "translatedContent": "[![트위터에 공유](https://img.shields.io/badge/share%20on-twitter-03A9F4?logo=twitter)](https://twitter.com/share?url=https://github.com/EvotecIT/OfficeIMO&t=OfficeIMO)"
+  },
+  {
+    "row": 81,
+    "rowsha": "pTrA1v8A1rB2i0Icmj6Iz3GdMzmYKso8WSSG3yYAhjw=",
+    "originContent": "[![Share on facebook](https://img.shields.io/badge/share%20on-facebook-1976D2?logo=facebook)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/EvotecIT/OfficeIMO)",
+    "translatedContent": "[![페이스북에 공유](https://img.shields.io/badge/share%20on-facebook-1976D2?logo=facebook)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/EvotecIT/OfficeIMO)"
+  },
+  {
+    "row": 82,
+    "rowsha": "3Tqb+VLfY9IkFtNaun6TsVn2MZFeul7Vr/moYMqHnKM=",
+    "originContent": "[![Share on linkedin](https://img.shields.io/badge/share%20on-linkedin-3949AB?logo=linkedin)](https://www.linkedin.com/shareArticle?url=https://github.com/EvotecIT/OfficeIMO&title=OfficeIMO)",
+    "translatedContent": "[![링크드인에 공유](https://img.shields.io/badge/share%20on-linkedin-3949AB?logo=linkedin)](https://www.linkedin.com/shareArticle?url=https://github.com/EvotecIT/OfficeIMO&title=OfficeIMO)"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 기능"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "9Y/qm5Mx2pAt54qxshbjfQ2sJS8pTzSeUx+xUlg2t08=",
+    "originContent": "Here's a list of features currently supported (and probably a lot I forgot) and those that are planned. It's not a closed list, more of TODO, and I'm sure there's more:",
+    "translatedContent": "현재 지원하는 기능 목록입니다(아마도 잊은 것도 많고 계획된 것도 있습니다). 닫힌 목록이 아니라 TODO 목록이며 더 많은 기능이 있을 것입니다:"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "/ck6+PO+lfgUdE9NNA9E7D1AixJJLHbrE+mpcSPmsSo=",
+    "originContent": "- ☑️ Word basics",
+    "translatedContent": "- ☑️ Word 기본 기능"
+  },
+  {
+    "row": 89,
+    "rowsha": "p0rktVbN2xwI7EH5a2+faLnJYBARXC0FauQrM+HoAAk=",
+    "originContent": "    - ☑️ Create",
+    "translatedContent": "    - ☑️ 생성"
+  },
+  {
+    "row": 90,
+    "rowsha": "FuuInRfEp90mG/G1jn7ymFTFadTqVHS5l1Z1KwpGUCM=",
+    "originContent": "    - ☑️ Load",
+    "translatedContent": "    - ☑️ 불러오기"
+  },
+  {
+    "row": 91,
+    "rowsha": "X83DcgKNmnj+X4eZOELOufKQVSN+HKaucyZV+Dpgzn8=",
+    "originContent": "    - ☑️ Save (auto open on save as an option)",
+    "translatedContent": "    - ☑️ 저장 (저장 시 자동 열기 옵션 포함)"
+  },
+  {
+    "row": 92,
+    "rowsha": "SLgU5hxhaZi0+h2qgoqsQ5RhnuL2aIONgI3tAwYPEfw=",
+    "originContent": "    - ☑️ SaveAs (auto open on save as an option)",
+    "translatedContent": "    - ☑️ 다른 이름으로 저장 (저장 시 자동 열기 옵션 포함)"
+  },
+  {
+    "row": 93,
+    "rowsha": "D1hHPtG/GDJAXNU7VfHMJcO0KFDwbwxv+G+NgTBYOLw=",
+    "originContent": "- ☑️ Word properties",
+    "translatedContent": "- ☑️ Word 속성"
+  },
+  {
+    "row": 94,
+    "rowsha": "lPKxJ6vUrVmlzGb0qrcK94q5X5bNwXKycTrauz6nAfk=",
+    "originContent": "    - ☑️ Reading basic and custom properties",
+    "translatedContent": "    - ☑️ 기본 및 사용자 정의 속성 읽기"
+  },
+  {
+    "row": 95,
+    "rowsha": "MIZ5Mp6XmXDxF1uw3hPQoSGz5t2okWODSum9BQ7T1dE=",
+    "originContent": "    - ☑️ Setting basic and custom properties",
+    "translatedContent": "    - ☑️ 기본 및 사용자 정의 속성 설정"
+  },
+  {
+    "row": 96,
+    "rowsha": "gGAzge461MCwBBSasQ165giWtNMEpLbCEVWjS5rT1e4=",
+    "originContent": "- ☑️ Sections",
+    "translatedContent": "- ☑️ 섹션"
+  },
+  {
+    "row": 97,
+    "rowsha": "wtk3bCrrSsEqojY56O+S2hJU2mvou5q/5N9E98alFAY=",
+    "originContent": "    - ☑️ Add Paragraphs",
+    "translatedContent": "    - ☑️ 문단 추가"
+  },
+  {
+    "row": 98,
+    "rowsha": "PeoT/0Ef1fciEgdqg3xG6oMm+bml7qtkypTjrQjjZAg=",
+    "originContent": "    - ☑️ Add Headers and Footers (Odd/Even/First)",
+    "translatedContent": "    - ☑️ 머리글 및 바닥글 추가 (홀수/짝수/첫 페이지)"
+  },
+  {
+    "row": 99,
+    "rowsha": "L2J/WrxsfLj9kWGamK+29MwQv3BAH+becBqIYY6DrVM=",
+    "originContent": "    - ☑️ Remove Headers and Footers (Odd/Even/First)",
+    "translatedContent": "    - ☑️ 머리글 및 바닥글 제거 (홀수/짝수/첫 페이지)"
+  },
+  {
+    "row": 100,
+    "rowsha": "dH02lCHrrRBcYu3I+kg+3cSj3NbofwWrnc5ev/IwYhw=",
+    "originContent": "    - ☑️ Remove Paragraphs",
+    "translatedContent": "    - ☑️ 문단 제거"
+  },
+  {
+    "row": 101,
+    "rowsha": "/Yb3ZnJTK8PmZk0An+0SW1EjmNmLuAJ87C/pJANcheY=",
+    "originContent": "    - ☑️ Remove Sections",
+    "translatedContent": "    - ☑️ 섹션 제거"
+  },
+  {
+    "row": 102,
+    "rowsha": "7M1T8/4MVJVrakrUOjB0v6s5CeCj8UaK1dhc4x7nFRg=",
+    "originContent": "- ☑️ Headers and Footers in the document (not including sections)",
+    "translatedContent": "- ☑️ 문서 내 머리글과 바닥글(섹션 제외)"
+  },
+  {
+    "row": 103,
+    "rowsha": "kHOY7VmIXMNltJqTPOIZSrZ/zTdpPEhBKYv6sCgn8aw=",
+    "originContent": "    - ☑️ Add Default, Odd, Even, First",
+    "translatedContent": "    - ☑️ 기본, 홀수, 짝수, 첫 페이지 추가"
+  },
+  {
+    "row": 104,
+    "rowsha": "AEqEiKY6RPh0ghoTRyGmrLtPns9ZJ1LrsqS4PEFbREA=",
+    "originContent": "    - ☑️ Remove Default, Odd, Even, First",
+    "translatedContent": "    - ☑️ 기본, 홀수, 짝수, 첫 페이지 제거"
+  },
+  {
+    "row": 105,
+    "rowsha": "89ntw3nxSIVikvEQLm0JAguuOjjCRhfzI6RWQzBCJrU=",
+    "originContent": "- ☑️ Paragraphs/Text and make it bold, underlined, colored and so on",
+    "translatedContent": "- ☑️ 문단/텍스트를 굵게, 밑줄, 색상 등으로 설정"
+  },
+  {
+    "row": 106,
+    "rowsha": "TGjH8xPg6lKZcqN52yA0NJTvU6o2QsQz5rLnTg7ej+o=",
+    "originContent": "    - ☑️ Custom paragraph styles via `WordParagraphStyle`",
+    "translatedContent": "    - ☑️ `WordParagraphStyle`을 통한 사용자 지정 문단 스타일"
+  },
+  {
+    "row": 107,
+    "rowsha": "PXx9IDu/jT++hkatUHinTqUpV/uQpXf7CQdiRp/juNA=",
+    "originContent": "- ☑️ Paragraphs and change alignment",
+    "translatedContent": "- ☑️ 문단 정렬 변경"
+  },
+  {
+    "row": 108,
+    "rowsha": "6ZFM6XAPvfb+o8bigEPtqNS2W6OaSlpTLuOEf+hO+X0=",
+    "originContent": "- ☑️ Paragraph indentation (before, after, first line, hanging)",
+    "translatedContent": "- ☑️ 문단 들여쓰기(앞, 뒤, 첫 줄, 행걸이)"
+  },
+  {
+    "row": 109,
+    "rowsha": "uPzOGRgI6DNLiufKniVK0vyQoQ7gXX0w00eNKQw4WcQ=",
+    "originContent": "- ☑️ Line spacing with support for twips and points",
+    "translatedContent": "- ☑️ 줄 간격(twips 및 포인트 단위 지원)"
+  },
+  {
+    "row": 110,
+    "rowsha": "TJHQY6N7r3GZyZygrWNg9Awdmq8xgAz+cOOe72w4jqc=",
+    "originContent": "- ☑️ Tables",
+    "translatedContent": "- ☑️ 표"
+  },
+  {
+    "row": 111,
+    "rowsha": "9btJVBxF/09YwMcf7uqzcdfLDqaIwIyz+49jcSDlgJU=",
+    "originContent": "    - ☑️ [Add and modify table styles (one of 105 built-in styles)](https://evotec.xyz/docs/adding-tables-with-built-in-styles-managing-borders/)",
+    "translatedContent": "    - ☑️ [표 스타일 추가 및 수정(내장 스타일 105개 중 하나)](https://evotec.xyz/docs/adding-tables-with-built-in-styles-managing-borders/)"
+  },
+  {
+    "row": 112,
+    "rowsha": "8C/BQokL6AeW2PaGBRtPK4sqhQ8Cj32vLrVIeNQrYhk=",
+    "originContent": "    - ☑️ Add rows and columns",
+    "translatedContent": "    - ☑️ 행과 열 추가"
+  },
+  {
+    "row": 113,
+    "rowsha": "uWOXuRKf+j14ht5RKIH0sa5Rfrv5GBfVCDE36hnuVyQ=",
+    "originContent": "    - ☑️ Add cells",
+    "translatedContent": "    - ☑️ 셀 추가"
+  },
+  {
+    "row": 114,
+    "rowsha": "cOVOfjyRDoz1X8IxwYYZWyv1dc4qSysAj6GvAAfyQeM=",
+    "originContent": "    - ☑️ Add cell properties",
+    "translatedContent": "    - ☑️ 셀 속성 추가"
+  },
+  {
+    "row": 115,
+    "rowsha": "lY0pW9di5TEbnnjcCxbL8Yr7EYCKOpNiTKl5BU08xeU=",
+    "originContent": "    - ☑️ [Add and modify table cell borders](https://evotec.xyz/docs/adding-tables-with-built-in-styles-managing-borders/)",
+    "translatedContent": "    - ☑️ [표 셀 테두리 추가 및 수정](https://evotec.xyz/docs/adding-tables-with-built-in-styles-managing-borders/)"
+  },
+  {
+    "row": 116,
+    "rowsha": "T5Z+ja+tXSKfyKHDL/bLziChgukR4xwZThq65+wgTfs=",
+    "originContent": "    - ☑️ Remove rows",
+    "translatedContent": "    - ☑️ 행 제거"
+  },
+  {
+    "row": 117,
+    "rowsha": "XhCSqaSI9GcLPQ7AYQ/LbW91qgn0UNQ0ZSZ+nlv4BeY=",
+    "originContent": "    - ☑️ Remove cells",
+    "translatedContent": "    - ☑️ 셀 제거"
+  },
+  {
+    "row": 118,
+    "rowsha": "ZPY5ExEbZ+89yIH5EaJBRLdgF6O0PkvsUV7CqLgkoKE=",
+    "originContent": "    - ☑️ Others",
+    "translatedContent": "    - ☑️ 기타"
+  },
+  {
+    "row": 119,
+    "rowsha": "BvFNvtGdER8qB/6sJaFrmhIzNp5H6Jho/TyyWfqHWxg=",
+    "originContent": "        - ☑️ Merge cells (vertically, horizontally)",
+    "translatedContent": "        - ☑️ 셀 병합(수직, 수평)"
+  },
+  {
+    "row": 120,
+    "rowsha": "BtN81HE9Lr4/NkfID9mid3Qh4cm44Awc6DCsQfjVuZ4=",
+    "originContent": "        - ☑️ Split cells (vertically)",
+    "translatedContent": "        - ☑️ 셀 분할(수직)"
+  },
+  {
+    "row": 121,
+    "rowsha": "bCa78I0BtzeVHOGAbCGfQL+nDqJddi2r6Sabwy7IJ90=",
+    "originContent": "        - ☑️ Split cells (horizontally)",
+    "translatedContent": "        - ☑️ 셀 분할(수평)"
+  },
+  {
+    "row": 122,
+    "rowsha": "maLbmHuzrXvpvuiwy5ZaMBvEKh5yj0qGAzhmigk92kc=",
+    "originContent": "        - ☑️ Detect merged cells (vertically, horizontally)",
+    "translatedContent": "        - ☑️ 병합된 셀 감지(수직, 수평)"
+  },
+  {
+    "row": 123,
+    "rowsha": "UifL3IhV6Ad2947uj9JmEzH+TqzkGgh7woQUgOapQnE=",
+    "originContent": "        - ☑️ Nested tables",
+    "translatedContent": "        - ☑️ 중첩 표"
+  },
+  {
+    "row": 124,
+    "rowsha": "DADrfMxHJ5wiHFti0hv/5IeaWKPtmICRVWiz88HIo7w=",
+    "originContent": "        - ☑️ Repeat header row on each page",
+    "translatedContent": "        - ☑️ 각 페이지에 머리글 행 반복"
+  },
+  {
+    "row": 125,
+    "rowsha": "JL921veI+eVrFClwboWBVsDNSWsAb/cCvgs863nCQd4=",
+    "originContent": "        - ☑️ Control row page breaks",
+    "translatedContent": "        - ☑️ 행 페이지 나누기 제어"
+  },
+  {
+    "row": 126,
+    "rowsha": "SU+T0qtErj/Gy+2HxJ71mLo5hPDLr6wfmn8scJfK6NM=",
+    "originContent": "        - ☑️ Set row height and table width",
+    "translatedContent": "        - ☑️ 행 높이 및 표 너비 설정"
+  },
+  {
+    "row": 127,
+    "rowsha": "B4xUBWXe+he0F5wKvRq2QccF7r3O2pgYlT0Wx01Klfw=",
+    "originContent": "- ☑️ Images/Pictures (supports BMP, GIF, JPEG, PNG, TIFF, EMF with various wrapping options)",
+    "translatedContent": "- ☑️ 이미지/그림(BMP, GIF, JPEG, PNG, TIFF, EMF 지원, 다양한 감싸기 옵션 포함)"
+  },
+  {
+    "row": 128,
+    "rowsha": "AXL8iZ+C1mRRBBorGp+CMoVDV4yVMX/1VRMONk92Zjw=",
+    "originContent": "    - ☑️ Add images from file to Word",
+    "translatedContent": "    - ☑️ 파일에서 워드로 이미지 추가"
+  },
+  {
+    "row": 129,
+    "rowsha": "ykX1Twk/awSJShA+IEr4dKW226cpMjcNmPj+EI4bkXs=",
+    "originContent": "    - ☑️ Add images from Base64 strings",
+    "translatedContent": "    - ☑️ Base64 문자열에서 이미지 추가"
+  },
+  {
+    "row": 130,
+    "rowsha": "LN/tPUdsjBL4szF6YAlrCmUWtrVNiAsmZztu/ImjUuI=",
+    "originContent": "    - ☑️ Save image from Word to File",
+    "translatedContent": "    - ☑️ 워드에서 파일로 이미지 저장"
+  },
+  {
+    "row": 131,
+    "rowsha": "cx/FBDtzgEZq6UUld2ZR/D+HNFAFRSi2jELdpTHC0r4=",
+    "originContent": "    - ☑️ Crop images and set transparency",
+    "translatedContent": "    - ☑️ 이미지 자르기 및 투명도 설정"
+  },
+  {
+    "row": 132,
+    "rowsha": "a2KynB516ywWqFyj5uuRV3ZVGcWvVenm7n+94PUqtUY=",
+    "originContent": "    - ☑️ Image positioning and location retrieval",
+    "translatedContent": "    - ☑️ 이미지 위치 지정 및 위치 정보 조회"
+  },
+  {
+    "row": 133,
+    "rowsha": "sBiNAhAYtY0nni2+V3UQulKLwEF1QXEbps/2sUpY+KM=",
+    "originContent": "    - ◼️ Other location types",
+    "translatedContent": "    - ◼️ 기타 위치 유형"
+  },
+  {
+    "row": 134,
+    "rowsha": "yNi4nny8fCxBUrCOITBSczfJv1b2O29pQ+MaicZ9F1A=",
+    "originContent": "- ☑️ Hyperlinks",
+    "translatedContent": "- ☑️ 하이퍼링크"
+  },
+  {
+    "row": 135,
+    "rowsha": "xctujUOFuW8Q9DC+xIR+rGgbtrRnJ0YKKWl6FqAe8lQ=",
+    "originContent": "    - ☑️ Add HyperLink",
+    "translatedContent": "    - ☑️ 하이퍼링크 추가"
+  },
+  {
+    "row": 136,
+    "rowsha": "E3Cl6lYU9Brm8fHGzyzkQQNMs/wEqTdFU2Se0y6GCA0=",
+    "originContent": "    - ☑️ Read HyperLink",
+    "translatedContent": "    - ☑️ 하이퍼링크 읽기"
+  },
+  {
+    "row": 137,
+    "rowsha": "7J9N+KmepE4+apAPWGAsL40/T/mRCMRLpw845gi/7dg=",
+    "originContent": "    - ☑️ Remove HyperLink",
+    "translatedContent": "    - ☑️ 하이퍼링크 제거"
+  },
+  {
+    "row": 138,
+    "rowsha": "RiorIcOQRwul3BrDhzf71NeuuJsOoRuN1SHX8II+gN0=",
+    "originContent": "    - ☑️ Change HyperLink",
+    "translatedContent": "    - ☑️ 하이퍼링크 변경"
+  },
+  {
+    "row": 139,
+    "rowsha": "njC5Co81HDu/EqzvHv1mwGW0tTiGUOL7k3BlL2PFc/4=",
+    "originContent": "- ☑️ PageBreaks",
+    "translatedContent": "- ☑️ 페이지 나누기"
+  },
+  {
+    "row": 140,
+    "rowsha": "8GZqIn+yLQsbv2fTgPLvIFCcHvUAGfivg0Jrwv18AYU=",
+    "originContent": "    - ☑️ Add PageBreak",
+    "translatedContent": "    - ☑️ 페이지 나누기 추가"
+  },
+  {
+    "row": 141,
+    "rowsha": "/x2r5f091dVNKabjdyoh23ZKSRYczLjHlBrjdwhUeKw=",
+    "originContent": "    - ☑️ Read PageBreak",
+    "translatedContent": "    - ☑️ 페이지 나누기 읽기"
+  },
+  {
+    "row": 142,
+    "rowsha": "xlnY45Gapn3AnzUQVJieMg5qUPPWcmSZGab/LlnZnfQ=",
+    "originContent": "    - ☑️ Remove PageBreak",
+    "translatedContent": "    - ☑️ 페이지 나누기 제거"
+  },
+  {
+    "row": 143,
+    "rowsha": "eyGUoSVDRb+CfuuOaDZCgARmARL4jKYjXqZ0ArSgo6I=",
+    "originContent": "    - ☑️ Change PageBreak",
+    "translatedContent": "    - ☑️ 페이지 나누기 변경"
+  },
+  {
+    "row": 144,
+    "rowsha": "TVMOLB9PjvuUECoe8TZAPuuqmKWSFU7WmPnN5T7EljI=",
+    "originContent": "- ☑️ Page numbering",
+    "translatedContent": "- ☑️ 페이지 번호 매기기"
+  },
+  {
+    "row": 145,
+    "rowsha": "gl3+q8pjMhncAzAcd3EaC4UKMbx6bCi8weeUQDNjHkY=",
+    "originContent": "    - ☑️ Insert page numbers in headers or footers",
+    "translatedContent": "    - ☑️ 머리글 또는 바닥글에 페이지 번호 삽입"
+  },
+  {
+    "row": 146,
+    "rowsha": "RtfXleodfjY9j6xDbl6LYryJI9pDCmurinhwsGT56w0=",
+    "originContent": "    - ☑️ Choose style with `WordPageNumberStyle`",
+    "translatedContent": "    - ☑️ `WordPageNumberStyle`로 스타일 선택"
+  },
+  {
+    "row": 147,
+    "rowsha": "mIjEw+syaXzUmamaoJXGRjelLMbp+ohjpPGl7cNsRJI=",
+    "originContent": "- ☑️ Bookmarks",
+    "translatedContent": "- ☑️ 책갈피"
+  },
+  {
+    "row": 148,
+    "rowsha": "VVo1IpweHd43sChAmCtIz31uPzbP+9gynAoXA3FJVq4=",
+    "originContent": "    - ☑️ Add Bookmark",
+    "translatedContent": "    - ☑️ 책갈피 추가"
+  },
+  {
+    "row": 149,
+    "rowsha": "5BaHjZgiYmwdaClXiSaQolZtgdyen9s3A8QTk3OM8lM=",
+    "originContent": "    - ☑️ Read Bookmark",
+    "translatedContent": "    - ☑️ 책갈피 읽기"
+  },
+  {
+    "row": 150,
+    "rowsha": "arVX++qtR2ztn+8ZZbO7l9wWOOTiztrrQEwIicTglwg=",
+    "originContent": "    - ☑️ Remove Bookmark",
+    "translatedContent": "    - ☑️ 책갈피 제거"
+  },
+  {
+    "row": 151,
+    "rowsha": "2wReaKCBsLoA7Vb5DjOUssd0dhDDfol0xI4TJnX+jNA=",
+    "originContent": "    - ☑️ Change Bookmark",
+    "translatedContent": "    - ☑️ 책갈피 변경"
+  },
+  {
+    "row": 152,
+    "rowsha": "9HO0iYswkWR+rF9Yblj7cfrzyLWPfpFsGz//4Vb0Mfs=",
+    "originContent": "- ☑️ Find and replace text",
+    "translatedContent": "- ☑️ 텍스트 찾기 및 바꾸기"
+  },
+  {
+    "row": 153,
+    "rowsha": "AywYkfJ16P2LriBERVPEYS2hoWBzAwfVzr83JQzhqn0=",
+    "originContent": "  - ☑️ Comments",
+    "translatedContent": "  - ☑️ 주석"
+  },
+  {
+    "row": 154,
+    "rowsha": "lXim2sothqxmrVSUNCQGbC1NZUUACFoveNxGb90qoHo=",
+    "originContent": "      - ☑️ Add comments",
+    "translatedContent": "      - ☑️ 주석 추가"
+  },
+  {
+    "row": 155,
+    "rowsha": "s5gFePXWCUk8Ga82B0wXRY4dthTeDPzbPrH1eGgZsxY=",
+    "originContent": "      - ☑️ Read comments",
+    "translatedContent": "      - ☑️ 주석 읽기"
+  },
+  {
+    "row": 156,
+    "rowsha": "5E94jZZ9lJbrNXnD5eKydwW1Kcxn/Dg5E5VUlKlL4nQ=",
+    "originContent": "      - ☑️ Remove comments (single or all)",
+    "translatedContent": "      - ☑️ 주석 제거(단일 또는 전체)"
+  },
+  {
+    "row": 157,
+    "rowsha": "uKDn0kaC7uKaEUGMAiRbCWH3Uq6Pi+PdvW6BbxAkxp4=",
+    "originContent": "      - ☑️ Track comments",
+    "translatedContent": "      - ☑️ 주석 추적"
+  },
+  {
+    "row": 158,
+    "rowsha": "XSPNnJut71ujF8S7oH8vzbjzMae0jSHqMrrqkR40gcc=",
+    "originContent": "      - ☑️ Threaded replies",
+    "translatedContent": "      - ☑️ 스레드형 답글"
+  },
+  {
+    "row": 159,
+    "rowsha": "l+aa9sikCmuGEG8J7EUII8xLBxqDsBHxWSbyZZ8v1NI=",
+    "originContent": "- ☑️ Fields",
+    "translatedContent": "- ☑️ 필드"
+  },
+  {
+    "row": 160,
+    "rowsha": "ZVgMYptSlumyupvuw7stf5LtMen+X0RjuF3HZY92ToQ=",
+    "originContent": "    - ☑️ Add Field",
+    "translatedContent": "    - ☑️ 필드 추가"
+  },
+  {
+    "row": 161,
+    "rowsha": "k5Kl5t59JtnYDiHepnXl+vM23tucuktu632tp70VwLo=",
+    "originContent": "    - ☑️ Read Field",
+    "translatedContent": "    - ☑️ 필드 읽기"
+  },
+  {
+    "row": 162,
+    "rowsha": "2eryOP8zxUYcOj61AXJPmjS3c6iiomh41Qmwrwf7HSY=",
+    "originContent": "    - ☑️ Remove Field",
+    "translatedContent": "    - ☑️ 필드 제거"
+  },
+  {
+    "row": 163,
+    "rowsha": "/5ii4sTBf3zxtjqXdehk1jptPC1eUGHIffALTiE4Q58=",
+    "originContent": "    - ☑️ Change Field",
+    "translatedContent": "    - ☑️ 필드 변경"
+  },
+  {
+    "row": 164,
+    "rowsha": "/OV98QFP9qb5X3YShAwrKGdB/QQbn0Xe6O7OYP+1rjE=",
+    "originContent": "- ☑️ Footnotes",
+    "translatedContent": "- ☑️ 각주"
+  },
+  {
+    "row": 165,
+    "rowsha": "OCi0atU8M/9PRCOxcujtxwjTyVRgbqLt1R09wSU1hjc=",
+    "originContent": "    - ☑️ Add new footnotes",
+    "translatedContent": "    - ☑️ 새 각주 추가"
+  },
+  {
+    "row": 166,
+    "rowsha": "or1r8RSJUeLbnDfeECETC8W3JbIT28nWglWVBS3rcgI=",
+    "originContent": "    - ☑️ Read footnotes",
+    "translatedContent": "    - ☑️ 각주 읽기"
+  },
+  {
+    "row": 167,
+    "rowsha": "uNFZUdfqJqZxDPUiP8PRsdBs8lItYtokrBoZskrNzD4=",
+    "originContent": "    - ☑️ Remove footnotes",
+    "translatedContent": "    - ☑️ 각주 제거"
+  },
+  {
+    "row": 168,
+    "rowsha": "5LHy2qnl8NUYzvkOnMRPDco6QBaxHNeWvjavBgu8eT8=",
+    "originContent": "- ☑️ Endnotes",
+    "translatedContent": "- ☑️ 미주"
+  },
+  {
+    "row": 169,
+    "rowsha": "qif/jmy5Zadoj6u/7BU1OLy0f/KCJWvjsVSkOIZN4lc=",
+    "originContent": "    - ☑️Add new endnotes",
+    "translatedContent": "    - ☑️ 새 미주 추가"
+  },
+  {
+    "row": 170,
+    "rowsha": "yL22hTCEUe5r9WUd2e5h0YwbHRfOwdrHNMHAZ8Tyao8=",
+    "originContent": "    - ☑️Read endnotes",
+    "translatedContent": "    - ☑️ 미주 읽기"
+  },
+  {
+    "row": 171,
+    "rowsha": "0KhsA6NtCk/hqGHQ0FAbORaZfKHCQJBilFvFIbfekO8=",
+    "originContent": "    - ☑️Remove endnotes",
+    "translatedContent": "    - ☑️ 미주 제거"
+  },
+  {
+    "row": 172,
+    "rowsha": "RH4mx2K18ykcTOeJrKg3h7bhUhWcUohiYM2e8wD+C+k=",
+    "originContent": "- ☑️ Document variables",
+    "translatedContent": "- ☑️ 문서 변수"
+  },
+  {
+    "row": 173,
+    "rowsha": "gNpz3fileA7Zu7EIb5NY4GTqCA8nur0hwJy18MPVFm8=",
+    "originContent": "    - ☑️ Set and read variables stored in the document",
+    "translatedContent": "    - ☑️ 문서 내 저장된 변수 설정 및 읽기"
+  },
+  {
+    "row": 174,
+    "rowsha": "ygvbidRprxS4HPFVFwybnw/WsXG2a0iRQ7V4FXO3BUk=",
+    "originContent": "    - ☑️ Remove variables by name or index",
+    "translatedContent": "    - ☑️ 이름 또는 인덱스로 변수 제거"
+  },
+  {
+    "row": 175,
+    "rowsha": "cFPAhfSzDT1Et5dmk8YG6AyNjJJkIIBLk9lBl9DuMRI=",
+    "originContent": "- ☑️ Macros",
+    "translatedContent": "- ☑️ 매크로"
+  },
+  {
+    "row": 176,
+    "rowsha": "+8hj1q4s/r23zY+oJOMPQ1yiSdk0CdijIZolnkmGERA=",
+    "originContent": "    - ☑️ Add or extract VBA projects",
+    "translatedContent": "    - ☑️ VBA 프로젝트 추가 또는 추출"
+  },
+  {
+    "row": 177,
+    "rowsha": "Gf5YZF8HJqPlHiAoG6AS17kawMHJGIbryrEhbXMtIlY=",
+    "originContent": "    - ☑️ Remove macro modules",
+    "translatedContent": "    - ☑️ 매크로 모듈 제거"
+  },
+  {
+    "row": 178,
+    "rowsha": "ge39B2b+O+kJ6f2UuLPi9IZH66THn50qjQ9PaRdaGSk=",
+    "originContent": "- ☑️ Mail merge",
+    "translatedContent": "- ☑️ 메일 병합"
+  },
+  {
+    "row": 179,
+    "rowsha": "oo6Co3KCHiuP3OuUbaMOQmWlF0s2gTqu+KaHBkK2Xoo=",
+    "originContent": "    - ☑️ Replace `MERGEFIELD` values",
+    "translatedContent": "    - ☑️ `MERGEFIELD` 값 교체"
+  },
+  {
+    "row": 180,
+    "rowsha": "0t8BANEksmy6onMUbUIFtQaVdYidDnAzR406bEJiswY=",
+    "originContent": "    - ☑️ Optionally keep field codes",
+    "translatedContent": "    - ☑️ 선택적으로 필드 코드 유지"
+  },
+  {
+    "row": 181,
+    "rowsha": "OvGE3Ns1XKxwgBh9MZV+Aqh8C08SqbUVNEo0hy7buis=",
+    "originContent": "- ☑️ Content Controls",
+    "translatedContent": "- ☑️ 콘텐츠 컨트롤"
+  },
+  {
+    "row": 182,
+    "rowsha": "UdJlra+bBCzV5BANuAjHZlZetiGvyCpQbyxiP/MYx/w=",
+    "originContent": "    - ☑️ Add controls",
+    "translatedContent": "    - ☑️ 컨트롤 추가"
+  },
+  {
+    "row": 183,
+    "rowsha": "mZO1a6wA086Pi0QvSpBATwIPqP1h/ovPF9at/f+waXY=",
+    "originContent": "    - ☑️ Read controls",
+    "translatedContent": "    - ☑️ 컨트롤 읽기"
+  },
+  {
+    "row": 184,
+    "rowsha": "QBXLsAYWg2Iv3b/b2maQDTGY8YjJFjl34gkbGnhCxiU=",
+    "originContent": "    - ☑️ Update control text",
+    "translatedContent": "    - ☑️ 컨트롤 텍스트 업데이트"
+  },
+  {
+    "row": 185,
+    "rowsha": "/sqMo4vFzSmd7wiobes2acPLBgUu7JcW63ALFgoDbcM=",
+    "originContent": "    - ☑️ Remove controls",
+    "translatedContent": "    - ☑️ 컨트롤 제거"
+  },
+  {
+    "row": 186,
+    "rowsha": "OL8RcDA6oR5xyKaLVHTGD/3rfHOGidyFRxYutPE5u5M=",
+    "originContent": "    - ☑️ Checkbox form controls",
+    "translatedContent": "    - ☑️ 체크박스 폼 컨트롤"
+  },
+  {
+    "row": 187,
+    "rowsha": "ZdrUbjNNAmcpOJ3mtnpLcq5FS7R/EXvUQZbtxgYlIys=",
+    "originContent": "    - ☑️ Date picker form controls",
+    "translatedContent": "    - ☑️ 날짜 선택기 폼 컨트롤"
+  },
+  {
+    "row": 188,
+    "rowsha": "a8z6JjG68KxYCjAEqj7+NvHDHZda/GJm3uH+F1AeO1E=",
+    "originContent": "    - ☑️ Dropdown list form controls",
+    "translatedContent": "    - ☑️ 드롭다운 목록 폼 컨트롤"
+  },
+  {
+    "row": 189,
+    "rowsha": "2/JAnjbD6hbwJq2f8wK2xkmkxVQERrAWYcyPCaoFNnc=",
+    "originContent": "    - ☑️ Combo box form controls",
+    "translatedContent": "    - ☑️ 콤보박스 폼 컨트롤"
+  },
+  {
+    "row": 190,
+    "rowsha": "HjCb2oXL7zfqRH56ACSSVLMAGlFBXylbqKfgAHLTMr0=",
+    "originContent": "    - ☑️ Picture form controls",
+    "translatedContent": "    - ☑️ 그림 폼 컨트롤"
+  },
+  {
+    "row": 191,
+    "rowsha": "ygJpNHBoeoeARf33cZAYgW6ETRkPBJvfVnFW1NZKWHc=",
+    "originContent": "    - ☑️ Repeating section form controls",
+    "translatedContent": "    - ☑️ 반복 섹션 폼 컨트롤"
+  },
+  {
+    "row": 192,
+    "rowsha": "9+YxCCYxChZVDdZjtnENChGxtpFtsDjdqWplWsRI+lk=",
+    "originContent": "- ☑️ Shapes",
+    "translatedContent": "- ☑️ 도형"
+  },
+  {
+    "row": 193,
+    "rowsha": "+PZcdQgBSjVT6cZTVoLNDxxiu4+/I0egmjDwqyig/cg=",
+    "originContent": "    - ☑️ Add rectangles",
+    "translatedContent": "    - ☑️ 사각형 추가"
+  },
+  {
+    "row": 194,
+    "rowsha": "jVEZQaD0pug28IE1oA/NQA0edyPR/G6qPk5Y/sNFRhs=",
+    "originContent": "    - ☑️ Add ellipses",
+    "translatedContent": "    - ☑️ 타원 추가"
+  },
+  {
+    "row": 195,
+    "rowsha": "szDK41PGcb+YOK6JTr8qIkOI3xBizuE1eBkDcaPLGH0=",
+    "originContent": "    - ☑️ Add lines",
+    "translatedContent": "    - ☑️ 선 추가"
+  },
+  {
+    "row": 196,
+    "rowsha": "TIiictg+IdS64l7iFX038JeCX1nvWJeVMbhfm4AIGjE=",
+    "originContent": "    - ☑️ Add polygons",
+    "translatedContent": "    - ☑️ 다각형 추가"
+  },
+  {
+    "row": 197,
+    "rowsha": "qE0x6HG1dSPL81DqHvGgD/BuUAxDPmaiyDPkSdPUzOk=",
+    "originContent": "    - ☑️ Set fill and stroke color",
+    "translatedContent": "    - ☑️ 채우기 및 스트로크 색 설정"
+  },
+  {
+    "row": 198,
+    "rowsha": "79Z7Nmqwsw8yFdbkBvgzShNou5g07SRnXaM+4piw+28=",
+    "originContent": "    - ☑️ Remove shapes",
+    "translatedContent": "    - ☑️ 도형 제거"
+  },
+  {
+    "row": 199,
+    "rowsha": "KBZT7x3h8ArPdfZbpGk0OMYV0d1JN11IHhN4Pkeotuo=",
+    "originContent": "- ☑️ Charts",
+    "translatedContent": "- ☑️ 차트"
+  },
+  {
+    "row": 200,
+    "rowsha": "6OyMlQecR9jjCAa1zax9NRru2FzgY/Qnpd2kHWXOIsQ=",
+    "originContent": "    - ☑️ Add charts",
+    "translatedContent": "    - ☑️ 차트 추가"
+  },
+  {
+    "row": 201,
+    "rowsha": "naULl2wYE/M7uHRVrA8MOS6XoZYImTqWDdO9uREU4a8=",
+    "originContent": "        - ☑️ Pie and Pie 3D",
+    "translatedContent": "        - ☑️ 파이 및 파이 3D"
+  },
+  {
+    "row": 202,
+    "rowsha": "ER9oeDhMqpdqLH0LHp5I2d2vysEMzJRLJrV+ReVaNgo=",
+    "originContent": "        - ☑️ Bar and Bar 3D",
+    "translatedContent": "        - ☑️ 막대 및 막대 3D"
+  },
+  {
+    "row": 203,
+    "rowsha": "/Tit4MDlS6gCpNgQu/uB9IGOYNNLXl73ZckZxaIRK/w=",
+    "originContent": "        - ☑️ Line and Line 3D",
+    "translatedContent": "        - ☑️ 선 및 선 3D"
+  },
+  {
+    "row": 204,
+    "rowsha": "UjZcLNYviISe/ni8++4qAM6TSFbmN4hhKogfnljdN1w=",
+    "originContent": "        - ☑️ Combo (Bar + Line)",
+    "translatedContent": "        - ☑️ 콤보 (막대 + 선)"
+  },
+  {
+    "row": 205,
+    "rowsha": "3rOtucttLeSZmvSmOFKexBFexiOo+2h4ohrmF5XJhpY=",
+    "originContent": "        - ☑️ Area and Area 3D",
+    "translatedContent": "        - ☑️ 영역 및 영역 3D"
+  },
+  {
+    "row": 206,
+    "rowsha": "NVZFT9jzHOM5uhf3P9Q20L3SBaFpb7maHlvOvqTtucA=",
+    "originContent": "        - ☑️ Scatter",
+    "translatedContent": "        - ☑️ 산점도"
+  },
+  {
+    "row": 207,
+    "rowsha": "hWM8mgxx9Z6gSdjO03NQOmpTg4wNCCw9yqWfbcRpt70=",
+    "originContent": "        - ☑️ Radar",
+    "translatedContent": "        - ☑️ 레이더"
+  },
+  {
+    "row": 208,
+    "rowsha": "6vUvY8aIJAAF4qA3rZVz7o5B4YgR+RpDGiUFMv/NINo=",
+    "originContent": "    - ☑️ Add categories and legends",
+    "translatedContent": "    - ☑️ 카테고리 및 범례 추가"
+  },
+  {
+    "row": 209,
+    "rowsha": "lfBs0Y9EAoKbYoYcygreXBffoISUM5i3M/3nDjDtEpY=",
+    "originContent": "    - ☑️ Configure axes",
+    "translatedContent": "    - ☑️ 축 구성"
+  },
+  {
+    "row": 210,
+    "rowsha": "kBQRVy+efoQZsvx3E35gloVUzpm++f152LgaIjuzXzw=",
+    "originContent": "    - ☑️ Add multiple series",
+    "translatedContent": "    - ☑️ 여러 시리즈 추가"
+  },
+  {
+    "row": 211,
+    "rowsha": "Uw1szPG1W0jLDr5lGjiv3PKPhKwV78i/s4afYkY252c=",
+    "originContent": "    - ⚠️ When mixing bar and line series call `AddChartAxisX` before adding",
+    "translatedContent": "    - ⚠️ 막대와 선 시리즈를 혼합할 때는 `AddChartAxisX`를 데이터를 추가하기 전에 호출하여 두 차트 유형이 동일한 카테고리 축을 공유하도록 해야 합니다."
+  },
+  {
+    "row": 212,
+    "rowsha": "1N0EFCtBhYfagi4zNVn69I0rDkJMZnPmELDJpOyiRVQ=",
+    "originContent": "      any data so both chart types share the same category axis.",
+    "translatedContent": "- ☑️ 수식"
+  },
+  {
+    "row": 213,
+    "rowsha": "3vka1qemTKWxE4JYtshIf+cAsAi+Qvz6EEBHy84QLB8=",
+    "originContent": "- ☑️ Equations",
+    "translatedContent": "    - ☑️ OMML에서 오피스 수식 삽입"
+  },
+  {
+    "row": 214,
+    "rowsha": "5Izj35ocPH9m8SRyllk/PejuJVl1pOoZjs5AKnL2+No=",
+    "originContent": "    - ☑️ Insert Office Math equations from OMML",
+    "translatedContent": "    - ☑️ 필요 시 수식 제거"
+  },
+  {
+    "row": 215,
+    "rowsha": "BV6+OYzKZ3XiykqdBWRJTokdbwv98oZtbHk+Nop3+ls=",
+    "originContent": "    - ☑️ Remove equations when needed",
+    "translatedContent": "- ☑️ 목록"
+  },
+  {
+    "row": 216,
+    "rowsha": "KAvuHgkUzHB6jjeODPYgm0+/OeLV7vwEevp+gG1Jntw=",
+    "originContent": "- ☑️ Lists",
+    "translatedContent": "    - ☑️ 목록 추가"
+  },
+  {
+    "row": 217,
+    "rowsha": "FuyPqwOtb8G6uWpeki2waveDqjV41ZVuEZTNkbjpvzY=",
+    "originContent": "    - ☑️ Add lists",
+    "translatedContent": "    - ☑️ 목록 제거"
+  },
+  {
+    "row": 218,
+    "rowsha": "KyUH2wb+VPNypsBgYGKm8iyDWgV+0LOU+cBJws4NMls=",
+    "originContent": "    - ☑️ Remove lists",
+    "translatedContent": "    - ☑️ 번호 매기기 설정을 유지하면서 목록 복제"
+  },
+  {
+    "row": 219,
+    "rowsha": "eIKFejJGF+CzVugISB57ykY/EDnsOfZghc84X3o+QQk=",
+    "originContent": "    - ☑️ Clone lists preserving numbering settings",
+    "translatedContent": "    - ☑️ 그림 글머리 기호 목록 추가"
+  },
+  {
+    "row": 220,
+    "rowsha": "9u5teuuNw7rE/XyW6iXFYH0s5jXNObbYzR3FMGazBm0=",
+    "originContent": "    - ☑️ Add picture bullet lists",
+    "translatedContent": "    - ☑️ 사용자 정의 글머리 기호 및 번호 매기기 목록 생성"
+  },
+  {
+    "row": 221,
+    "rowsha": "dsXQwAKxNO4DrIlYWr8b5uAQlqrLvox1KoletOxRFv8=",
+    "originContent": "    - ☑️ Create custom bullet and numbered lists",
+    "translatedContent": "    - ☑️ 기존 단락에서 목록 스타일 감지"
+  },
+  {
+    "row": 222,
+    "rowsha": "p3C6fiwWzNVeAWNwGR7ROE6iPCBTA48e6ZbTet1XJWY=",
+    "originContent": "    - ☑️ Detect list style from existing paragraphs",
+    "translatedContent": "- ☑️ 목차"
+  },
+  {
+    "row": 223,
+    "rowsha": "OVpgivlnSDAJ5r47TQRy3/p0CaK0Csv86FFKOosYDXk=",
+    "originContent": "- ☑️ Table of contents",
+    "translatedContent": "    - ☑️ 목차 추가"
+  },
+  {
+    "row": 224,
+    "rowsha": "XOZkWQo2mh8KaQ37SLhnr09zG6s7UDbbUsl3+Q+IJtc=",
+    "originContent": "    - ☑️ Add TOC",
+    "translatedContent": "    - ☑️ 열기 시 목차 필드 업데이트"
+  },
+  {
+    "row": 225,
+    "rowsha": "K7kdhyR9wQypMUbp6kuwRU3Z8cNoo506SiBFwaf5AU8=",
+    "originContent": "    - ☑️ Update TOC fields on open",
+    "translatedContent": "- ☑️ 테두리"
+  },
+  {
+    "row": 226,
+    "rowsha": "z4RnUgF879Bc5kBJFCpwEAJaDAO6yfLQJFjrsZhyrdE=",
+    "originContent": "- ☑️ Borders",
+    "translatedContent": "    - ☑️ 내장 스타일 또는 사용자 정의 설정"
+  },
+  {
+    "row": 227,
+    "rowsha": "dHbjT9/CWIlaHggJuN+r+ZgtbJeFyV4AHxiB3Wg+wEU=",
+    "originContent": "    - ☑️ Built-in styles or custom settings",
+    "translatedContent": "    - ☑️ 크기, 색상, 스타일 및 간격 변경"
+  },
+  {
+    "row": 228,
+    "rowsha": "IX+ahn079sWnvq6vJfWpkxm1rNgEgyhrc9Hp/0FTLvA=",
+    "originContent": "    - ☑️ Change size, color, style and spacing",
+    "translatedContent": "- ☑️ 배경"
+  },
+  {
+    "row": 229,
+    "rowsha": "MBqHQ1CCk0/3b99h1DS8lMm/U3tFP/N3L45zsXKcjg0=",
+    "originContent": "- ☑️ Background",
+    "translatedContent": "    - ☑️ 배경 색상 설정"
+  },
+  {
+    "row": 230,
+    "rowsha": "7yfG4lwpXATC8cPqGZQ5RRCx6YUlG+MqWpMVt5qdELQ=",
+    "originContent": "    - ☑️ Set background color",
+    "translatedContent": "- ☑️ 워터마크"
+  },
+  {
+    "row": 231,
+    "rowsha": "HdWjxvk2tj+bgNgoQiJ+s3tu7HpzZyv21mahdfB/W8Y=",
+    "originContent": "- ☑️ Watermarks",
+    "translatedContent": "    - ☑️ 텍스트 또는 이미지 워터마크 추가"
+  },
+  {
+    "row": 232,
+    "rowsha": "31igor80uAPtVIM8v7km7iypCgJjwOWNcVfNZx1LMZs=",
+    "originContent": "    - ☑️ Add text or image watermark",
+    "translatedContent": "    - ☑️ `WordWatermarkStyle`을 통해 텍스트 또는 이미지 스타일 선택"
+  },
+  {
+    "row": 233,
+    "rowsha": "8GhUxugaTdnVbSCaGTRaIB+TrboUp/Yp3f/iI9Cdlfc=",
+    "originContent": "    - ☑️ Choose text or image style via `WordWatermarkStyle`",
+    "translatedContent": "    - ☑️ 회전, 너비 및 높이 설정"
+  },
+  {
+    "row": 234,
+    "rowsha": "sU7q6xZZ2hcvvbtCsK5qS2ed8no6CtSlNiT8zUdf73w=",
+    "originContent": "    - ☑️ Set rotation, width and height",
+    "translatedContent": "    - ☑️ 워터마크 제거"
+  },
+  {
+    "row": 235,
+    "rowsha": "ctC0h01cC4cXo24iuZF2yrxS/7JJ8yK9ChoMMEufRgs=",
+    "originContent": "    - ☑️ Remove watermark",
+    "translatedContent": ""
+  },
+  {
+    "row": 236,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- ☑️ 표지 페이지"
+  },
+  {
+    "row": 237,
+    "rowsha": "js4LnH/xiKKHIyXwFEbUxAnNqs9wQnvIt+wqQN3W+3g=",
+    "originContent": "- ☑️ Cover pages",
+    "translatedContent": "    - ☑️ 내장 표지 페이지 추가"
+  },
+  {
+    "row": 238,
+    "rowsha": "KpvMp1eKnGKAvkUcnxMoyGL1S3i+ZMfDtD/qvYDgmbY=",
+    "originContent": "    - ☑️ Add built-in cover pages",
+    "translatedContent": ""
+  },
+  {
+    "row": 239,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- ☑️ 글꼴"
+  },
+  {
+    "row": 240,
+    "rowsha": "T1vaWqiu4LRK9cRHsbVjnMHkW34Eh9XvKfXUddEBrHY=",
+    "originContent": "- ☑️ Fonts",
+    "translatedContent": "    - ☑️ `WordDocument.EmbedFont`를 통한 글꼴 포함"
+  },
+  {
+    "row": 241,
+    "rowsha": "skcP5euGyD9ygq9pY68bH++KZoKBWZgNepgYCSZj1UY=",
+    "originContent": "    - ☑️ Embed fonts via `WordDocument.EmbedFont`",
+    "translatedContent": ""
+  },
+  {
+    "row": 242,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- ☑️ 내장 콘텐츠"
+  },
+  {
+    "row": 243,
+    "rowsha": "Z7SRkR5E+e43KJVVwNgrW42n6bE2x5FqS4OGMNgpf3M=",
+    "originContent": "- ☑️ Embedded content",
+    "translatedContent": "    - ☑️ 내장 문서 추가 (RTF, HTML, TXT)"
+  },
+  {
+    "row": 244,
+    "rowsha": "xhPMgwZHkMr3cN2f8M/iCtyW2L2/TrnaOU1jxm0f/y8=",
+    "originContent": "    - ☑️ Add embedded documents (RTF, HTML, TXT)",
+    "translatedContent": "    - ☑️ HTML 조각 추가"
+  },
+  {
+    "row": 245,
+    "rowsha": "j1ASmhIVmbIcSHv4IXPXA9Ai5Wg6DDDypXO8juE7gMc=",
+    "originContent": "    - ☑️ Add HTML fragments",
+    "translatedContent": "    - ☑️ 단락 뒤에 HTML 조각 삽입"
+  },
+  {
+    "row": 246,
+    "rowsha": "8I3MjhWmZoSMFacsvMh27X6G+5ehZktyorxly0tOvrk=",
+    "originContent": "    - ☑️ Insert HTML fragment after a paragraph",
+    "translatedContent": "    - ☑️ 텍스트를 HTML 조각으로 대체"
+  },
+  {
+    "row": 247,
+    "rowsha": "kse6dy5DDxuMrEhbMIDV9DSE1FzTom28GWA7CmCyYLY=",
+    "originContent": "    - ☑️ Replace text with an HTML fragment",
+    "translatedContent": "    - ☑️ 내장 문서 제거"
+  },
+  {
+    "row": 248,
+    "rowsha": "o5s0ZIun6vxecKbikM4jYXlraDP0VrcZblw8eABV9jQ=",
+    "originContent": "    - ☑️ Remove embedded documents",
+    "translatedContent": "    - ☑️ 사용자 정의 아이콘과 크기로 객체 포함"
+  },
+  {
+    "row": 249,
+    "rowsha": "8maKU80KJ5+vsLolJloy5C+BLxSajEgeuiZ53iG0Hxg=",
+    "originContent": "    - ☑️ Embed objects with custom icons and sizes",
+    "translatedContent": " - ☑️ [디지털 서명 및 문서 보안](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.DigitalSignature.cs)"
+  },
+  {
+    "row": 250,
+    "rowsha": "J7WRM1oIWBn3Yyf0XAblNrtY8oRGzQBVRNNKVb2maoY=",
+    "originContent": " - ☑️ [Digital signatures and document security](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.DigitalSignature.cs)",
+    "translatedContent": " - ☑️ [문서 보호 옵션](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.Settings.cs) (최종 문서, 읽기 전용 권장, 읽기 전용 강제)"
+  },
+  {
+    "row": 251,
+    "rowsha": "pqX4vUBFdelry+vzzmUc5bKUxhXco/+iftZo6+wXQtU=",
+    "originContent": " - ☑️ [Document protection options](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.Settings.cs) (final document, read-only recommended, read-only enforced)",
+    "translatedContent": " - ☑️ [수정 내용 수락/거부](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.Revisions.cs)"
+  },
+  {
+    "row": 252,
+    "rowsha": "vF5ykEn/b7KceZazvxq8DrsRSzxYwiKGA85ua6lXL8Y=",
+    "originContent": " - ☑️ [Accepting/rejecting revisions](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.Revisions.cs)",
+    "translatedContent": " - ☑️ [비동기 저장/로드 API](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.Async.cs)"
+  },
+  {
+    "row": 253,
+    "rowsha": "WWl0zmVxIbwMIVK1QaWxaDlSlMSFJQJlXYzsjkoJD4A=",
+    "originContent": " - ☑️ [Async save/load APIs](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.Async.cs)",
+    "translatedContent": " - ☑️ [여러 문서 병합](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.MergeDocuments.cs)"
+  },
+  {
+    "row": 254,
+    "rowsha": "XrEdjdrtOjCOO9KmnerC/VE3tUHnjajGWNdwfR9QA58=",
+    "originContent": " - ☑️ [Merging multiple documents](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.MergeDocuments.cs)",
+    "translatedContent": " - ☑️ [위치 지정 옵션이 있는 텍스트 상자](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.TextBox.cs)"
+  },
+  {
+    "row": 255,
+    "rowsha": "fwUy8s0ZLmB4L8AxP0szov5/yx+a+OX8ONorby9nuo0=",
+    "originContent": " - ☑️ [Text boxes with positioning options](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.TextBox.cs)",
+    "translatedContent": " - ☑️ [페이지 방향, 페이지 크기 및 여백 사전 설정](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.PageSettings.cs) ([여백](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.Sections.cs))"
+  },
+  {
+    "row": 256,
+    "rowsha": "mwxppXMrFNG+gf4dmDvixX1nXXDKPYNTkrNaI4qeRDk=",
+    "originContent": " - ☑️ [Page orientation, page size, and margin presets](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.PageSettings.cs) ([margins](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.Sections.cs))",
+    "translatedContent": " - ☑️ [탭 문자 및 사용자 정의 탭 정지](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.TabStops.cs)"
+  },
+  {
+    "row": 257,
+    "rowsha": "/1xClQ95amJK50mB0HsVKcP5nWMBKHaQQwA0kY37v8A=",
+    "originContent": " - ☑️ [Tab characters and custom tab stops](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.TabStops.cs)",
+    "translatedContent": " - ☑️ [문서 검증 유틸리티](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.Validation.cs)"
+  },
+  {
+    "row": 258,
+    "rowsha": "EKmc0KuZ+bUZSERfOIUONDSf02xLX8XZdEfc2iET/VY=",
+    "originContent": " - ☑️ [Document validation utilities](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.Validation.cs)",
+    "translatedContent": " - ☑️ [CleanupDocument 메서드](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.Cleanup.cs) 동일한 런 병합"
+  },
+  {
+    "row": 259,
+    "rowsha": "owXlX87L76pi3KbI9ud2JV4R/0kaP0smPF9SdquD3xU=",
+    "originContent": " - ☑️ [CleanupDocument method](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.Cleanup.cs) merges identical runs",
+    "translatedContent": " - ☑️ [단락 XML 직렬화](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Examples/Word/XmlSerialization/XmlSerialization.Basic.cs)"
+  },
+  {
+    "row": 260,
+    "rowsha": "dASzgTQCraUmBTyhptc+QmXlmfsPpjKXXIzkkd51lxQ=",
+    "originContent": " - ☑️ [Paragraph XML serialization](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Examples/Word/XmlSerialization/XmlSerialization.Basic.cs)",
+    "translatedContent": " - ☑️ [측정 단위 변환 도우미](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.HelpersConversions.cs)"
+  },
+  {
+    "row": 261,
+    "rowsha": "yjA2O4FfOETKX958mAZQ3lMQU04D6MOcv20Cqcc9Ae8=",
+    "originContent": " - ☑️ [Measurement unit conversion helpers](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/OfficeIMO.Tests/Word.HelpersConversions.cs)",
+    "translatedContent": ""
+  },
+  {
+    "row": 262,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- ☑️ 실험적 Excel 컴포넌트"
+  },
+  {
+    "row": 263,
+    "rowsha": "uuQz4iiLW+rNe0CP/FvwTL4KK3vMa8FblxU/fVnHic8=",
+    "originContent": "- ☑️ Experimental Excel component",
+    "translatedContent": "    - ☑️ 통합 문서 생성 및 로드"
+  },
+  {
+    "row": 264,
+    "rowsha": "2ahnMHmoV96vEVC71hnh35oOGLZOeWfZZZWus1nVR2c=",
+    "originContent": "    - ☑️ Create and load workbooks",
+    "translatedContent": "    - ☑️ 워크시트 추가"
+  },
+  {
+    "row": 265,
+    "rowsha": "9Ofc/3HfeccK5zqyPmB8VhuUY7xcbKb8nnutPCLOYPo=",
+    "originContent": "    - ☑️ Add worksheets",
+    "translatedContent": "    - ☑️ 비동기 저장 및 로드 API"
+  },
+  {
+    "row": 266,
+    "rowsha": "PcTrkqQB60QwwqQkY5YAxuGvyzm2Wc4UWznUxdYovPk=",
+    "originContent": "    - ☑️ Async save and load APIs",
+    "translatedContent": ""
+  },
+  {
+    "row": 267,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 268,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 기능 (한줄 요약):"
+  },
+  {
+    "row": 269,
+    "rowsha": "XqxX/YzearFJ8qF/WO0a3KrITA8jHjT+0Nrb9L/ERo0=",
+    "originContent": "## Features (oneliners):",
+    "translatedContent": ""
+  },
+  {
+    "row": 270,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 기능 목록은 전체 기능을 다루기보다는 빠르게 무언가를 수정하고자 할 때 유용합니다."
+  },
+  {
+    "row": 271,
+    "rowsha": "Oin4hA1mMbhFvFsqbjYQveYbYjIe5MgHGlKyUFspl7k=",
+    "originContent": "This list of features is for times when you want to quickly fix something rather than playing with full features.",
+    "translatedContent": "이 기능들은 `WordHelpers` 클래스의 일부로 제공됩니다."
+  },
+  {
+    "row": 272,
+    "rowsha": "DbdqC3dEhpneNWcvUiUK39zB9U3Mx9mR32sZMVQ0hY4=",
+    "originContent": "These features are available as part of `WordHelpers` class.",
+    "translatedContent": ""
+  },
+  {
+    "row": 273,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- ☑️ 파일에서 머리글과 바닥글 제거"
+  },
+  {
+    "row": 274,
+    "rowsha": "EGUWjt4cB654l+c5jQd9Zh1r4DMDCS9p4QOZdZS8cfw=",
+    "originContent": "- ☑️ Remove Headers and Footers from a file",
+    "translatedContent": "- ☑️ DOTX 템플릿을 DOCX로 변환"
+  },
+  {
+    "row": 275,
+    "rowsha": "vmw/TVQZ0/e0jBG/hYm0YQYsi8xf/Y9Yk33SwE5Ro64=",
+    "originContent": "- ☑️ Convert DOTX template to DOCX",
+    "translatedContent": ""
+  },
+  {
+    "row": 276,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 예제"
+  },
+  {
+    "row": 277,
+    "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+    "originContent": "## Examples",
+    "translatedContent": ""
+  },
+  {
+    "row": 278,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 기본 문서: 몇 가지 문서 속성과 단락 포함"
+  },
+  {
+    "row": 279,
+    "rowsha": "MrqCQ0nCUSDvNJqo708qQp89ND2UFwTHPVXfnTh++F4=",
+    "originContent": "### Basic Document with few document properties and paragraph",
+    "translatedContent": ""
+  },
+  {
+    "row": 280,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 짧은 예제는 텍스트 한 단락과 몇 가지 문서 속성만 포함하는 워드 문서 생성 방법을 보여줍니다."
+  },
+  {
+    "row": 281,
+    "rowsha": "Sg4i3O6MOX4l8liZ9XusxHyh0BYv8rG2m7f0ZbJozbg=",
+    "originContent": "This short example shows how to create a Word document with just one paragraph of text and a few document properties.",
+    "translatedContent": ""
+  },
+  {
+    "row": 282,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 283,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 284,
+    "rowsha": "z4y4Ao3ETkM6tepfO4ieEv4vQj8Doomt9hw2esHdhZA=",
+    "originContent": "string filePath = System.IO.Path.Combine(",
+    "translatedContent": "string filePath = System.IO.Path.Combine("
+  },
+  {
+    "row": 285,
+    "rowsha": "PV6DKqSDtJdcU9OCg0YjRYaAHnx3MTwvxaiGAXyZVOU=",
+    "originContent": "    \"Support\",",
+    "translatedContent": "    \"Support\","
+  },
+  {
+    "row": 286,
+    "rowsha": "pOt4XCSpD48k8rAi1xM2bXtPxwXcmesG3I14tzohI3k=",
+    "originContent": "    \"GitHub\",",
+    "translatedContent": "    \"GitHub\","
+  },
+  {
+    "row": 287,
+    "rowsha": "AZw5hYopx/FBJpARFI6Q8mpdmHBGS6nEXRpITctQJyA=",
+    "originContent": "    \"PSWriteOffice\",",
+    "translatedContent": "    \"PSWriteOffice\","
+  },
+  {
+    "row": 288,
+    "rowsha": "N99OTzviaHtZxeLgirectECliiyZ3jAD0J30bg7Etvw=",
+    "originContent": "    \"Examples\",",
+    "translatedContent": "    \"Examples\","
+  },
+  {
+    "row": 289,
+    "rowsha": "M+7RBqiE5yMMPTzv8FrTAeNIyH9f3i/p/OTnivDl7BQ=",
+    "originContent": "    \"Documents\",",
+    "translatedContent": "    \"Documents\","
+  },
+  {
+    "row": 290,
+    "rowsha": "L0bybSAmqiaQBCy7S1Nh+NYUuX8dhVyHRCCSN2vUzh0=",
+    "originContent": "    \"BasicDocument.docx\");",
+    "translatedContent": "    \"BasicDocument.docx\");"
+  },
+  {
+    "row": 291,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 292,
+    "rowsha": "+RLZYtU611kJoPH7GLvfR5Z1N0pVyZ+ceqsp1Qn9euU=",
+    "originContent": "using (WordDocument document = WordDocument.Create(filePath)) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Create(filePath)) {"
+  },
+  {
+    "row": 293,
+    "rowsha": "Dgo+wh4ZrTRZDmR07rBRsrtCoZBz5VyqGnp4Uu2UshE=",
+    "originContent": "    document.BuiltinDocumentProperties.Title = \"This is my title\";",
+    "translatedContent": "    document.BuiltinDocumentProperties.Title = \"This is my title\";"
+  },
+  {
+    "row": 294,
+    "rowsha": "3T90ExqdxOJrq5p1uqdPRNt4QIhCccLBrpwh+5C2bIY=",
+    "originContent": "    document.BuiltinDocumentProperties.Creator = \"Przemysław Kłys\";",
+    "translatedContent": "    document.BuiltinDocumentProperties.Creator = \"Przemysław Kłys\";"
+  },
+  {
+    "row": 295,
+    "rowsha": "j5Y0YN8IWi7keYec5EUAfdTLz12HkzRm7yKIWGq+juw=",
+    "originContent": "    document.BuiltinDocumentProperties.Keywords = \"word, docx, test\";",
+    "translatedContent": "    document.BuiltinDocumentProperties.Keywords = \"word, docx, test\";"
+  },
+  {
+    "row": 296,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 297,
+    "rowsha": "e4V4hGUhmBdL043nBYD4bQ+W4ezE0GIRWtimgn5p1OE=",
+    "originContent": "    var paragraph = document.AddParagraph(\"Basic paragraph\");",
+    "translatedContent": "    var paragraph = document.AddParagraph(\"Basic paragraph\");"
+  },
+  {
+    "row": 298,
+    "rowsha": "cKkp/NJQtxoJgGJln/b/THWZNYUb4ZajRIz6TIvEHdM=",
+    "originContent": "    paragraph.ParagraphAlignment = JustificationValues.Center;",
+    "translatedContent": "    paragraph.ParagraphAlignment = JustificationValues.Center;"
+  },
+  {
+    "row": 299,
+    "rowsha": "m3XqEi5FZMK3yghQlURkQAfmPuKo1yiS7PZKOYPuG9A=",
+    "originContent": "    paragraph.Color = SixLabors.ImageSharp.Color.Red;",
+    "translatedContent": "    paragraph.Color = SixLabors.ImageSharp.Color.Red;"
+  },
+  {
+    "row": 300,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 301,
+    "rowsha": "N0ZeVCTiGrX4d2K1oUnxoVfm95LIhUCvKlmxJCIxlDI=",
+    "originContent": "document.Save(true);",
+    "translatedContent": "document.Save(true);"
+  },
+  {
+    "row": 302,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 303,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 304,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 305,
+    "rowsha": "NtS7bcN9dKe3sEhugoiXC91esqW+1fzN0fZ6PZw2KAM=",
+    "originContent": "### Creating documents directly in a stream",
+    "translatedContent": "### 스트림에서 직접 문서 생성하기"
+  },
+  {
+    "row": 306,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 307,
+    "rowsha": "o/AX/RaIhd3lZQ8L9DmVfMEAbhjEQiNnYdZF3PgrmP8=",
+    "originContent": "This overload allows generating a document entirely in memory or on any provided stream.",
+    "translatedContent": "이 오버로드는 문서를 완전히 메모리 내에서 또는 제공된 스트림에서 생성할 수 있게 합니다."
+  },
+  {
+    "row": 308,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 309,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 310,
+    "rowsha": "X+Z8oTrlVmzfleYQrdABZXsr+I3CiY79DgDJXlosgi4=",
+    "originContent": "using var stream = new MemoryStream();",
+    "translatedContent": "using var stream = new MemoryStream();"
+  },
+  {
+    "row": 311,
+    "rowsha": "bX88IZ2ZB5/21Zd12NWnlYhg6Irx2t3e3UZbbHvzpNM=",
+    "originContent": "using (var document = WordDocument.Create(stream)) {",
+    "translatedContent": "using (var document = WordDocument.Create(stream)) {"
+  },
+  {
+    "row": 312,
+    "rowsha": "1t5q9xJNPiJ67njbq69PwiHlMBSBlX+RQD0eqzStfHU=",
+    "originContent": "    document.AddParagraph(\"Stream based document\");",
+    "translatedContent": "    document.AddParagraph(\"Stream based document\");"
+  },
+  {
+    "row": 313,
+    "rowsha": "RvWfbQr5Zya2DzGFi5rJfk1EDStlffZGIHrqevh1pys=",
+    "originContent": "    document.Save(stream);",
+    "translatedContent": "    document.Save(stream);"
+  },
+  {
+    "row": 314,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 315,
+    "rowsha": "8LIgmweqEptq9PLrh6Fsg69KK/8ns3K8GlM5qo4DFZE=",
+    "originContent": "stream.Position = 0;",
+    "translatedContent": "stream.Position = 0;"
+  },
+  {
+    "row": 316,
+    "rowsha": "2IYrBm/xGaRUQvJZknqQwhJwVP8wnqbMqYQAozagoPw=",
+    "originContent": "using (var loaded = WordDocument.Load(stream)) {",
+    "translatedContent": "using (var loaded = WordDocument.Load(stream)) {"
+  },
+  {
+    "row": 317,
+    "rowsha": "Umm2qY0jAcZDV3pXSwkT5x4+3aV4Hy+qWo3To21hHYs=",
+    "originContent": "    Console.WriteLine(loaded.Paragraphs[0].Text);",
+    "translatedContent": "    Console.WriteLine(loaded.Paragraphs[0].Text);"
+  },
+  {
+    "row": 318,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 319,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 320,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 새 문서로 저장하기"
+  },
+  {
+    "row": 321,
+    "rowsha": "q2bYRYmDvDTiZ+IkFZlo/j0Js7xHEwuQxjVnoQFJOeg=",
+    "originContent": "### Saving as a new document",
+    "translatedContent": ""
+  },
+  {
+    "row": 322,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`SaveAs`는 현재 문서를 새 경로로 복제하고 원래 `FilePath`를 변경하지 않은 채 새 `WordDocument` 인스턴스를 반환합니다."
+  },
+  {
+    "row": 323,
+    "rowsha": "YA5CIMek+bCNKFWBv8y9rrvMvDxht5YoKvGxMrwy8CI=",
+    "originContent": "`SaveAs` clones the current document to a new path and returns a new `WordDocument` instance without changing the original `FilePath`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 324,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 325,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 326,
+    "rowsha": "IWbSCgpRcQLIWA27P1GsPaloqdFQVDEB0Ogrny/XSGE=",
+    "originContent": "using (WordDocument document = WordDocument.Create()) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Create()) {"
+  },
+  {
+    "row": 327,
+    "rowsha": "2ySbotr2QNKGZhWNfLXaJiZJNmYI5+p8MCZIRhlKhxo=",
+    "originContent": "    document.AddParagraph(\"Some text\");",
+    "translatedContent": "    document.AddParagraph(\"Some text\");"
+  },
+  {
+    "row": 328,
+    "rowsha": "yWMtqvXpBwWNqAjC6ZDoYnT2MkuBH8CTWOtUuCYYWRc=",
+    "originContent": "    using var copy = document.SaveAs(filePath);",
+    "translatedContent": "    using var copy = document.SaveAs(filePath);"
+  },
+  {
+    "row": 329,
+    "rowsha": "H/mdILo/aCTRcPb3nD2X3eD0SgYFFDARD39RUe2xl3w=",
+    "originContent": "    // document.FilePath is still null",
+    "translatedContent": "    // document.FilePath is still null"
+  },
+  {
+    "row": 330,
+    "rowsha": "kyDtWQroPZYVzCJpCbROXTb2lRf6FQNCQ2PWFCWYz8E=",
+    "originContent": "    // copy.FilePath equals filePath",
+    "translatedContent": "    // copy.FilePath equals filePath"
+  },
+  {
+    "row": 331,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 332,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 333,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 334,
+    "rowsha": "xsnIGPUyUPUhHGk+ysjdxL82MFhIaiZANcy+8lYApkU=",
+    "originContent": "### Saving to byte arrays and streams",
+    "translatedContent": "### 바이트 배열 및 스트림에 저장하기"
+  },
+  {
+    "row": 335,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 336,
+    "rowsha": "uh+3h2C9CnrRPbq4WYtZfeR0Slbng5KpJkM/74kmfwI=",
+    "originContent": "`SaveAsByteArray` and `SaveAsMemoryStream` let you keep everything in memory. `SaveAs(Stream)` clones the document to a provided stream and returns a new instance loaded from it.",
+    "translatedContent": "`SaveAsByteArray` 및 `SaveAsMemoryStream`은 모든 것을 메모리에 저장할 수 있게 해줍니다. `SaveAs(Stream)`은 문서를 제공된 스트림에 복제하고, 해당 스트림에서 로드된 새 인스턴스를 반환합니다."
+  },
+  {
+    "row": 337,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 338,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 339,
+    "rowsha": "IWbSCgpRcQLIWA27P1GsPaloqdFQVDEB0Ogrny/XSGE=",
+    "originContent": "using (WordDocument document = WordDocument.Create()) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Create()) {"
+  },
+  {
+    "row": 340,
+    "rowsha": "9ouLPYFc9tAKV+Yu9aJGvgTq0TmnEv/WN/ar5O3HQCE=",
+    "originContent": "    document.AddParagraph(\"In memory\");",
+    "translatedContent": "    document.AddParagraph(\"In memory\");"
+  },
+  {
+    "row": 341,
+    "rowsha": "T2cy3dOsZaL0CVayZZyz7NupZlnIcRcJ1mMPOSNfHLk=",
+    "originContent": "    byte[] data = document.SaveAsByteArray();",
+    "translatedContent": "    byte[] data = document.SaveAsByteArray();"
+  },
+  {
+    "row": 342,
+    "rowsha": "4BCDiKl463yegk5unr5eWq6gjUnSzkQHW9Y8trvpC8A=",
+    "originContent": "    using MemoryStream stream = document.SaveAsMemoryStream();",
+    "translatedContent": "    using MemoryStream stream = document.SaveAsMemoryStream();"
+  },
+  {
+    "row": 343,
+    "rowsha": "NFolPNpdtxyCzVZH9SG/pdRI2ZPABqARt7pu3cTn7uE=",
+    "originContent": "    using var clone = document.SaveAs(stream);",
+    "translatedContent": "    using var clone = document.SaveAs(stream);"
+  },
+  {
+    "row": 344,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 345,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 346,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 글꼴 포함하기"
+  },
+  {
+    "row": 347,
+    "rowsha": "/ISnA6vMuRMQcdILo5QHqtDtnTxClGuglQENUMc8PeY=",
+    "originContent": "### Embedding a font",
+    "translatedContent": ""
+  },
+  {
+    "row": 348,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`EmbedFont`는 TrueType 또는 OpenType 글꼴 파일을 문서에 추가하여 어떤 기기에서든 사용할 수 있게 합니다."
+  },
+  {
+    "row": 349,
+    "rowsha": "iefp3esT2pSFWXw+VhnFc7KyAYehkn+8b0qwzCY6/ec=",
+    "originContent": "`EmbedFont` adds a TrueType or OpenType font file to the document so it can be used on any machine.",
+    "translatedContent": ""
+  },
+  {
+    "row": 350,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 351,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 352,
+    "rowsha": "+RLZYtU611kJoPH7GLvfR5Z1N0pVyZ+ceqsp1Qn9euU=",
+    "originContent": "using (WordDocument document = WordDocument.Create(filePath)) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Create(filePath)) {"
+  },
+  {
+    "row": 353,
+    "rowsha": "0gpSP5hzR3NiCJ4dFTJ0p82J5GnU4GcNaq1kS74ji08=",
+    "originContent": "    document.EmbedFont(fontPath);",
+    "translatedContent": "    document.EmbedFont(fontPath);"
+  },
+  {
+    "row": 354,
+    "rowsha": "r7Ps+aI/8rCqgrA87jo2RRHgAoXMeaeoMkSLrGKgcJA=",
+    "originContent": "    document.AddParagraph(\"This document uses an embedded font.\");",
+    "translatedContent": "    document.AddParagraph(\"This document uses an embedded font.\");"
+  },
+  {
+    "row": 355,
+    "rowsha": "7Pv/nbqTdZvdQrqdpOhTxZDStkKTdobi9KDM5Mjr1PY=",
+    "originContent": "    document.Save();",
+    "translatedContent": "    document.Save();"
+  },
+  {
+    "row": 356,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 357,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 358,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 359,
+    "rowsha": "yTeRxbGA/vo/PihOjvbj0PNJ8WhNijIPwHuXEBxlObM=",
+    "originContent": "`EmbedFont` has an overload that can register a paragraph style automatically:",
+    "translatedContent": "`EmbedFont`에는 단락 스타일을 자동으로 등록할 수 있는 오버로드가 있습니다:"
+  },
+  {
+    "row": 360,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 361,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 362,
+    "rowsha": "+RLZYtU611kJoPH7GLvfR5Z1N0pVyZ+ceqsp1Qn9euU=",
+    "originContent": "using (WordDocument document = WordDocument.Create(filePath)) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Create(filePath)) {"
+  },
+  {
+    "row": 363,
+    "rowsha": "4ucfpxSZ7GMtn7pEtN4hhbzjQvtf7jcLu2gaBYMGiAY=",
+    "originContent": "    document.EmbedFont(fontPath, \"DejaVuStyle\", \"DejaVu Style\");",
+    "translatedContent": "    document.EmbedFont(fontPath, \"DejaVuStyle\", \"DejaVu Style\");"
+  },
+  {
+    "row": 364,
+    "rowsha": "DgvK2erXMo/HrxNgf8b7aXVgwR8Rb2kVi2JMgKbfV34=",
+    "originContent": "    document.AddParagraph(\"Styled paragraph\").SetStyleId(\"DejaVuStyle\");",
+    "translatedContent": "    document.AddParagraph(\"Styled paragraph\").SetStyleId(\"DejaVuStyle\");"
+  },
+  {
+    "row": 365,
+    "rowsha": "7Pv/nbqTdZvdQrqdpOhTxZDStkKTdobi9KDM5Mjr1PY=",
+    "originContent": "    document.Save();",
+    "translatedContent": "    document.Save();"
+  },
+  {
+    "row": 366,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 367,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 368,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 369,
+    "rowsha": "jO4YpRcTIWdqj72/V33aqboMyCEqBKU0S69lpmufkFc=",
+    "originContent": "### Mixing builtin and embedded fonts",
+    "translatedContent": "### 내장 글꼴과 포함된 글꼴 혼합하기"
+  },
+  {
+    "row": 370,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 371,
+    "rowsha": "tDwClMq3EOOkruJ1aQXGR8d3tDPnlrFIOa7RBB9YJ1Y=",
+    "originContent": "After embedding a font you can reference it by name along with standard fonts.",
+    "translatedContent": "글꼴을 포함한 후에는 표준 글꼴과 함께 이름으로 참조할 수 있습니다."
+  },
+  {
+    "row": 372,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 373,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 374,
+    "rowsha": "+RLZYtU611kJoPH7GLvfR5Z1N0pVyZ+ceqsp1Qn9euU=",
+    "originContent": "using (WordDocument document = WordDocument.Create(filePath)) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Create(filePath)) {"
+  },
+  {
+    "row": 375,
+    "rowsha": "0gpSP5hzR3NiCJ4dFTJ0p82J5GnU4GcNaq1kS74ji08=",
+    "originContent": "    document.EmbedFont(fontPath);",
+    "translatedContent": "    document.EmbedFont(fontPath);"
+  },
+  {
+    "row": 376,
+    "rowsha": "PM5veapul6fTjJhhU750Gw3/cKxUORvXmC8p0zFTXOE=",
+    "originContent": "    document.AddParagraph(\"Builtin Arial\").SetFontFamily(\"Arial\");",
+    "translatedContent": "    document.AddParagraph(\"Builtin Arial\").SetFontFamily(\"Arial\");"
+  },
+  {
+    "row": 377,
+    "rowsha": "4eyZ+0O1IZLneZ/cLo72FpIk8iH3sJX9IvasBVhUHvo=",
+    "originContent": "    document.AddParagraph(\"Embedded DejaVu Sans\").SetFontFamily(\"DejaVu Sans\");",
+    "translatedContent": "    document.AddParagraph(\"Embedded DejaVu Sans\").SetFontFamily(\"DejaVu Sans\");"
+  },
+  {
+    "row": 378,
+    "rowsha": "VEeRhcCaRl6wqeI18cI6P+iXtgchrKE4S7EVon46mpk=",
+    "originContent": "    var mixed = document.AddParagraph(\"Mix: \");",
+    "translatedContent": "    var mixed = document.AddParagraph(\"Mix: \");"
+  },
+  {
+    "row": 379,
+    "rowsha": "KlEIvw+x56yDUbQit+bKPAgQty/77Jw2dDwI6O0IGzI=",
+    "originContent": "    mixed.AddText(\"Arial, \").SetFontFamily(\"Arial\");",
+    "translatedContent": "    mixed.AddText(\"Arial, \").SetFontFamily(\"Arial\");"
+  },
+  {
+    "row": 380,
+    "rowsha": "T8dU/cTOur9bBf1e/iu9x9bmD4Omp6Vz8r6m4rnWgoY=",
+    "originContent": "    mixed.AddText(\"DejaVu\").SetFontFamily(\"DejaVu Sans\");",
+    "translatedContent": "    mixed.AddText(\"DejaVu\").SetFontFamily(\"DejaVu Sans\");"
+  },
+  {
+    "row": 381,
+    "rowsha": "7Pv/nbqTdZvdQrqdpOhTxZDStkKTdobi9KDM5Mjr1PY=",
+    "originContent": "    document.Save();",
+    "translatedContent": "    document.Save();"
+  },
+  {
+    "row": 382,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 383,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 384,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "내장 폰트를 사용하는 단락 스타일을 만들 수도 있습니다."
+  },
+  {
+    "row": 385,
+    "rowsha": "XGmXP0/izGZ22mbM78zgcoBky7+qQDxVe0LWIlczf6I=",
+    "originContent": "You can also create a paragraph style that uses the embedded font.",
+    "translatedContent": ""
+  },
+  {
+    "row": 386,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 387,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 388,
+    "rowsha": "wVbH/0Fx8Wo35ZsY1DpP3lDVU4xS4yhOpVy00inolic=",
+    "originContent": "var style = new Style { Type = StyleValues.Paragraph, StyleId = \"EmbeddedStyle\" };",
+    "translatedContent": "var style = new Style { Type = StyleValues.Paragraph, StyleId = \"EmbeddedStyle\" };"
+  },
+  {
+    "row": 389,
+    "rowsha": "OPty0Esz0QAGwi1ICBrZ1j8enxfSKmtWCfW3+5urVQQ=",
+    "originContent": "style.Append(new StyleName { Val = \"EmbeddedStyle\" });",
+    "translatedContent": "style.Append(new StyleName { Val = \"EmbeddedStyle\" });"
+  },
+  {
+    "row": 390,
+    "rowsha": "bWeRm/ktTZG0dnvjSQr9SrU0P15ZY7zcCyk4xBA8MuA=",
+    "originContent": "style.Append(new StyleRunProperties(new RunFonts { Ascii = \"DejaVu Sans\" }));",
+    "translatedContent": "style.Append(new StyleRunProperties(new RunFonts { Ascii = \"DejaVu Sans\" }));"
+  },
+  {
+    "row": 391,
+    "rowsha": "FlKBxsj9DIUBrvQ1gZ/csl0HkAojlAQ4Ljv2Te8DPaw=",
+    "originContent": "WordParagraphStyle.RegisterCustomStyle(\"EmbeddedStyle\", style);",
+    "translatedContent": "WordParagraphStyle.RegisterCustomStyle(\"EmbeddedStyle\", style);"
+  },
+  {
+    "row": 392,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 393,
+    "rowsha": "+RLZYtU611kJoPH7GLvfR5Z1N0pVyZ+ceqsp1Qn9euU=",
+    "originContent": "using (WordDocument document = WordDocument.Create(filePath)) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Create(filePath)) {"
+  },
+  {
+    "row": 394,
+    "rowsha": "0gpSP5hzR3NiCJ4dFTJ0p82J5GnU4GcNaq1kS74ji08=",
+    "originContent": "    document.EmbedFont(fontPath);",
+    "translatedContent": "    document.EmbedFont(fontPath);"
+  },
+  {
+    "row": 395,
+    "rowsha": "H5Bu4DeOibWdYK5n8TAXXacTd/QaK6pA2TQRYRqID7w=",
+    "originContent": "    document.AddParagraph(\"Paragraph with embedded style\").SetStyleId(\"EmbeddedStyle\");",
+    "translatedContent": "    document.AddParagraph(\"Paragraph with embedded style\").SetStyleId(\"EmbeddedStyle\");"
+  },
+  {
+    "row": 396,
+    "rowsha": "FseBwx/sOZkvfVmlYJ/p3hRGn/02/Vh8MUjLr2Z7Sks=",
+    "originContent": "    document.AddParagraph(\"Built-in style example\").Style = WordParagraphStyles.Normal;",
+    "translatedContent": "    document.AddParagraph(\"Built-in style example\").Style = WordParagraphStyles.Normal;"
+  },
+  {
+    "row": 397,
+    "rowsha": "7Pv/nbqTdZvdQrqdpOhTxZDStkKTdobi9KDM5Mjr1PY=",
+    "originContent": "    document.Save();",
+    "translatedContent": "    document.Save();"
+  },
+  {
+    "row": 398,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 399,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 400,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 401,
+    "rowsha": "zDnIEMnn1YZyfqCXy1cVr2WPcKb/uYTrAPns4irlz9M=",
+    "originContent": "### Basic Document with Headers/Footers (first, odd, even)",
+    "translatedContent": "### 머리글/바닥글이 있는 기본 문서 (첫 번째, 홀수, 짝수)"
+  },
+  {
+    "row": 402,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 403,
+    "rowsha": "k043c6dRgJrigQA3WcJ+FANLIVe6uYW3VMR5me9llFU=",
+    "originContent": "This short example shows how to add headers and footers to a Word document.",
+    "translatedContent": "이 짧은 예제는 Word 문서에 머리글과 바닥글을 추가하는 방법을 보여줍니다."
+  },
+  {
+    "row": 404,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 405,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 406,
+    "rowsha": "+RLZYtU611kJoPH7GLvfR5Z1N0pVyZ+ceqsp1Qn9euU=",
+    "originContent": "using (WordDocument document = WordDocument.Create(filePath)) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Create(filePath)) {"
+  },
+  {
+    "row": 407,
+    "rowsha": "9gXXZTg7q/z7KcESzgkHIdgPoUIDPRkAlvdVTfNZ/aw=",
+    "originContent": "    document.Sections[0].PageOrientation = PageOrientationValues.Landscape;",
+    "translatedContent": "    document.Sections[0].PageOrientation = PageOrientationValues.Landscape;"
+  },
+  {
+    "row": 408,
+    "rowsha": "LRmw7gwHopIhJ/nx2rC0XpiY+YFvfDH49lfv7/8Nzr4=",
+    "originContent": "    document.AddParagraph(\"Test Section0\");",
+    "translatedContent": "    document.AddParagraph(\"Test Section0\");"
+  },
+  {
+    "row": 409,
+    "rowsha": "v4D04sQe+iGUI48HTYOwBwWuAvKb7Vcholx/W7GDDAw=",
+    "originContent": "    document.AddHeadersAndFooters();",
+    "translatedContent": "    document.AddHeadersAndFooters();"
+  },
+  {
+    "row": 410,
+    "rowsha": "rXxJSeO7bAgKxt7f7nmxUFJ1gC/6D+/nS95J/aKyA6o=",
+    "originContent": "    document.DifferentFirstPage = true;",
+    "translatedContent": "    document.DifferentFirstPage = true;"
+  },
+  {
+    "row": 411,
+    "rowsha": "Uz/2NqLxdw1S349+31/F6RchUEO++g5hQYi9Mvmetog=",
+    "originContent": "    document.DifferentOddAndEvenPages = true;",
+    "translatedContent": "    document.DifferentOddAndEvenPages = true;"
+  },
+  {
+    "row": 412,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 413,
+    "rowsha": "aAtdzGSKPmPSKBLwteuc0/G3ej74VwufvZ9VdwLvc3k=",
+    "originContent": "    document.Sections[0].Header.First.AddParagraph().SetText(\"Test Section 0 - First Header\");",
+    "translatedContent": "    document.Sections[0].Header.First.AddParagraph().SetText(\"Test Section 0 - First Header\");"
+  },
+  {
+    "row": 414,
+    "rowsha": "3YqH/8ydGnANirdLkpbYuosk4UQgmgU6IzBptRF5QfQ=",
+    "originContent": "    document.Sections[0].Header.Default.AddParagraph().SetText(\"Test Section 0 - Header\");",
+    "translatedContent": "    document.Sections[0].Header.Default.AddParagraph().SetText(\"Test Section 0 - Header\");"
+  },
+  {
+    "row": 415,
+    "rowsha": "3xEKrSIKtshLmhTySofsFCcC1r4O1yaDMVibm6KYxzk=",
+    "originContent": "    document.Sections[0].Header.Even.AddParagraph().SetText(\"Test Section 0 - Even\");",
+    "translatedContent": "    document.Sections[0].Header.Even.AddParagraph().SetText(\"Test Section 0 - Even\");"
+  },
+  {
+    "row": 416,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 417,
+    "rowsha": "nw82FHLz+NsFxfJnFO/ROyqND3R7gqh1MpXkxL+K/vc=",
+    "originContent": "    document.AddPageBreak();",
+    "translatedContent": "    document.AddPageBreak();"
+  },
+  {
+    "row": 418,
+    "rowsha": "nw82FHLz+NsFxfJnFO/ROyqND3R7gqh1MpXkxL+K/vc=",
+    "originContent": "    document.AddPageBreak();",
+    "translatedContent": "    document.AddPageBreak();"
+  },
+  {
+    "row": 419,
+    "rowsha": "nw82FHLz+NsFxfJnFO/ROyqND3R7gqh1MpXkxL+K/vc=",
+    "originContent": "    document.AddPageBreak();",
+    "translatedContent": "    document.AddPageBreak();"
+  },
+  {
+    "row": 420,
+    "rowsha": "nw82FHLz+NsFxfJnFO/ROyqND3R7gqh1MpXkxL+K/vc=",
+    "originContent": "    document.AddPageBreak();",
+    "translatedContent": "    document.AddPageBreak();"
+  },
+  {
+    "row": 421,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 422,
+    "rowsha": "ovZI/PS0UPBJzEfU0SI6HhGcFRQj8bPdRhqbhO5x+Ro=",
+    "originContent": "    var section1 = document.AddSection();",
+    "translatedContent": "    var section1 = document.AddSection();"
+  },
+  {
+    "row": 423,
+    "rowsha": "1tr2w8EhMAtIvq3Z1nKF7dNd+OjShD2nKoYGbHQmyVs=",
+    "originContent": "    section1.PageOrientation = PageOrientationValues.Portrait;",
+    "translatedContent": "    section1.PageOrientation = PageOrientationValues.Portrait;"
+  },
+  {
+    "row": 424,
+    "rowsha": "d8SkGrqPgcPBVyy1Jt+MOwoQ4u40qth//oP9rrc3bhE=",
+    "originContent": "    section1.AddParagraph(\"Test Section1\");",
+    "translatedContent": "    section1.AddParagraph(\"Test Section1\");"
+  },
+  {
+    "row": 425,
+    "rowsha": "Nn+EOqBa7PIyaQGRN9qihcz7HxpZvRmYKX8RJcx6CrE=",
+    "originContent": "    section1.AddHeadersAndFooters();",
+    "translatedContent": "    section1.AddHeadersAndFooters();"
+  },
+  {
+    "row": 426,
+    "rowsha": "q+rftn7bTrkjsigMLOyOGHomMe9myQw2/v1jsyWvuEM=",
+    "originContent": "    section1.Header.Default.AddParagraph().SetText(\"Test Section 1 - Header\");",
+    "translatedContent": "    section1.Header.Default.AddParagraph().SetText(\"Test Section 1 - Header\");"
+  },
+  {
+    "row": 427,
+    "rowsha": "8JZLDTcLDsUHzq1ZTeKmBJc/KK7kBduk54b3/wz40w0=",
+    "originContent": "    section1.DifferentFirstPage = true;",
+    "translatedContent": "    section1.DifferentFirstPage = true;"
+  },
+  {
+    "row": 428,
+    "rowsha": "A1XxW168U8XpTdogSKcI4mP6YUYmT8f0XgnEeI7U9Bw=",
+    "originContent": "    section1.Header.First.AddParagraph().SetText(\"Test Section 1 - First Header\");",
+    "translatedContent": "    section1.Header.First.AddParagraph().SetText(\"Test Section 1 - First Header\");"
+  },
+  {
+    "row": 429,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 430,
+    "rowsha": "nw82FHLz+NsFxfJnFO/ROyqND3R7gqh1MpXkxL+K/vc=",
+    "originContent": "    document.AddPageBreak();",
+    "translatedContent": "    document.AddPageBreak();"
+  },
+  {
+    "row": 431,
+    "rowsha": "nw82FHLz+NsFxfJnFO/ROyqND3R7gqh1MpXkxL+K/vc=",
+    "originContent": "    document.AddPageBreak();",
+    "translatedContent": "    document.AddPageBreak();"
+  },
+  {
+    "row": 432,
+    "rowsha": "nw82FHLz+NsFxfJnFO/ROyqND3R7gqh1MpXkxL+K/vc=",
+    "originContent": "    document.AddPageBreak();",
+    "translatedContent": "    document.AddPageBreak();"
+  },
+  {
+    "row": 433,
+    "rowsha": "nw82FHLz+NsFxfJnFO/ROyqND3R7gqh1MpXkxL+K/vc=",
+    "originContent": "    document.AddPageBreak();",
+    "translatedContent": "    document.AddPageBreak();"
+  },
+  {
+    "row": 434,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 435,
+    "rowsha": "RGMjc7iiUm3fNq+dY2cJqWqh7dM1l7KQxNL/fj0apdo=",
+    "originContent": "    var section2 = document.AddSection();",
+    "translatedContent": "    var section2 = document.AddSection();"
+  },
+  {
+    "row": 436,
+    "rowsha": "a4MTx1oU5OOKdfVFmIzjaGwczwkqqxRcGLPuwx92Fhk=",
+    "originContent": "    section2.AddParagraph(\"Test Section2\");",
+    "translatedContent": "    section2.AddParagraph(\"Test Section2\");"
+  },
+  {
+    "row": 437,
+    "rowsha": "42gSDi+oLwLxs0Jx/T0P3v/23OQsAo0Swb8+BXe6Ars=",
+    "originContent": "    section2.PageOrientation = PageOrientationValues.Landscape;",
+    "translatedContent": "    section2.PageOrientation = PageOrientationValues.Landscape;"
+  },
+  {
+    "row": 438,
+    "rowsha": "k8HQgQp6j7N260ZxWvuFTr8qNO4KL7RSUiOU8R3ZlLg=",
+    "originContent": "    section2.AddHeadersAndFooters();",
+    "translatedContent": "    section2.AddHeadersAndFooters();"
+  },
+  {
+    "row": 439,
+    "rowsha": "LEHOWzlWkbDm54Woz3TSi92wSjYTL50qWw1qtVTSBLw=",
+    "originContent": "    section2.Header.Default.AddParagraph().SetText(\"Test Section 2 - Header\");",
+    "translatedContent": "    section2.Header.Default.AddParagraph().SetText(\"Test Section 2 - Header\");"
+  },
+  {
+    "row": 440,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 441,
+    "rowsha": "BqIg83rf8DLLJrIS4pHAItyiV5ZFCiw5gp0hvwptHYc=",
+    "originContent": "    document.AddParagraph(\"Test Section2 - Paragraph 1\");",
+    "translatedContent": "    document.AddParagraph(\"Test Section2 - Paragraph 1\");"
+  },
+  {
+    "row": 442,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 443,
+    "rowsha": "0KO+WNxemhV7EffWrGWkRbMghtcc2E3hpf85v6FGWRI=",
+    "originContent": "    var section3 = document.AddSection();",
+    "translatedContent": "    var section3 = document.AddSection();"
+  },
+  {
+    "row": 444,
+    "rowsha": "EvJeO4NtYGRtImJJ8a6Rla3AMEi+4x0KtIJEPD+tPWc=",
+    "originContent": "    section3.AddParagraph(\"Test Section3\");",
+    "translatedContent": "    section3.AddParagraph(\"Test Section3\");"
+  },
+  {
+    "row": 445,
+    "rowsha": "PYbZkHpQpvBRqjqpG+Ur3lDssB+pOqgbAg3TSfJaujc=",
+    "originContent": "    section3.AddHeadersAndFooters();",
+    "translatedContent": "    section3.AddHeadersAndFooters();"
+  },
+  {
+    "row": 446,
+    "rowsha": "4gnIv7ousiwog/ZGLSoi+bP4AOk8REWvcAfeHuepDD8=",
+    "originContent": "    section3.Header.Default.AddParagraph().SetText(\"Test Section 3 - Header\");",
+    "translatedContent": "    section3.Header.Default.AddParagraph().SetText(\"Test Section 3 - Header\");"
+  },
+  {
+    "row": 447,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 448,
+    "rowsha": "wlwmXIab6FIXEzzSzwjUMtaz1VnYPmmn1FNQDqTiAgc=",
+    "originContent": "    Console.WriteLine(\"Section 0 - Text 0: \" + document.Sections[0].Paragraphs[0].Text);",
+    "translatedContent": "    Console.WriteLine(\"Section 0 - Text 0: \" + document.Sections[0].Paragraphs[0].Text);"
+  },
+  {
+    "row": 449,
+    "rowsha": "mxWrlBLOFucP7rJNNFTJoHHwK/EQSTw6PKygtJ5r9mU=",
+    "originContent": "    Console.WriteLine(\"Section 1 - Text 0: \" + document.Sections[1].Paragraphs[0].Text);",
+    "translatedContent": "    Console.WriteLine(\"Section 1 - Text 0: \" + document.Sections[1].Paragraphs[0].Text);"
+  },
+  {
+    "row": 450,
+    "rowsha": "iGJlyaC0ggBJAPC1UnbVvwueUsvTPf4AEb+YFcrQ56Y=",
+    "originContent": "    Console.WriteLine(\"Section 2 - Text 0: \" + document.Sections[2].Paragraphs[0].Text);",
+    "translatedContent": "    Console.WriteLine(\"Section 2 - Text 0: \" + document.Sections[2].Paragraphs[0].Text);"
+  },
+  {
+    "row": 451,
+    "rowsha": "Vsh25ZCQTL6r41oBYeGwdsMgPX2yws43xrc5vZ+yQHw=",
+    "originContent": "    Console.WriteLine(\"Section 2 - Text 1: \" + document.Sections[2].Paragraphs[1].Text);",
+    "translatedContent": "    Console.WriteLine(\"Section 2 - Text 1: \" + document.Sections[2].Paragraphs[1].Text);"
+  },
+  {
+    "row": 452,
+    "rowsha": "UGuzImPuM5az63XfV7eAso8e98Au7Bybmq8u4qa+944=",
+    "originContent": "    Console.WriteLine(\"Section 3 - Text 0: \" + document.Sections[3].Paragraphs[0].Text);",
+    "translatedContent": "    Console.WriteLine(\"Section 3 - Text 0: \" + document.Sections[3].Paragraphs[0].Text);"
+  },
+  {
+    "row": 453,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 454,
+    "rowsha": "9+MK3FnOD3/LaN+lQBYRHW+c86IHsuJyVQ1aXacxHpc=",
+    "originContent": "    Console.WriteLine(\"Section 0 - Text 0: \" + document.Sections[0].Header.Default.Paragraphs[0].Text);",
+    "translatedContent": "    Console.WriteLine(\"Section 0 - Text 0: \" + document.Sections[0].Header.Default.Paragraphs[0].Text);"
+  },
+  {
+    "row": 455,
+    "rowsha": "zq4xnbeRZHyCjUIol6vCrEFda6w49iU4jz/+GGwJBwI=",
+    "originContent": "    Console.WriteLine(\"Section 1 - Text 0: \" + document.Sections[1].Header.Default.Paragraphs[0].Text);",
+    "translatedContent": "    Console.WriteLine(\"Section 1 - Text 0: \" + document.Sections[1].Header.Default.Paragraphs[0].Text);"
+  },
+  {
+    "row": 456,
+    "rowsha": "f6gFVMOCKL5Vbiiq2ozGBaZqnP9knmXmmsj1YD+uBRg=",
+    "originContent": "    Console.WriteLine(\"Section 2 - Text 0: \" + document.Sections[2].Header.Default.Paragraphs[0].Text);",
+    "translatedContent": "    Console.WriteLine(\"Section 2 - Text 0: \" + document.Sections[2].Header.Default.Paragraphs[0].Text);"
+  },
+  {
+    "row": 457,
+    "rowsha": "IXu4Oe2BE8ZWTNt0hP5a/4iIyZZbTDrwWmmCeZqkB68=",
+    "originContent": "    Console.WriteLine(\"Section 3 - Text 0: \" + document.Sections[3].Header.Default.Paragraphs[0].Text);",
+    "translatedContent": "    Console.WriteLine(\"Section 3 - Text 0: \" + document.Sections[3].Header.Default.Paragraphs[0].Text);"
+  },
+  {
+    "row": 458,
+    "rowsha": "NWSImAPRhLTC5xezPZFNjwB2uRWGcrCYrvflX84pr+E=",
+    "originContent": "    document.Save(true);",
+    "translatedContent": "    document.Save(true);"
+  },
+  {
+    "row": 459,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 460,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 461,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 462,
+    "rowsha": "IEeWRx8SAE4dvXES9GDd+KywvhEv0q4IK8UmAZU4GJM=",
+    "originContent": "### Adding a Content Control",
+    "translatedContent": "### 콘텐츠 컨트롤 추가하기"
+  },
+  {
+    "row": 463,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 464,
+    "rowsha": "I+jzbwNPqh0f0ZwfP1yst4ch4mgxOBcZqMqACHXYZ84=",
+    "originContent": "This example shows how to add and update a simple content control and then retrieve it by tag.",
+    "translatedContent": "이 예제는 간단한 콘텐츠 컨트롤을 추가하고 업데이트한 다음 태그로 검색하는 방법을 보여줍니다."
+  },
+  {
+    "row": 465,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 466,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 467,
+    "rowsha": "+RLZYtU611kJoPH7GLvfR5Z1N0pVyZ+ceqsp1Qn9euU=",
+    "originContent": "using (WordDocument document = WordDocument.Create(filePath)) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Create(filePath)) {"
+  },
+  {
+    "row": 468,
+    "rowsha": "W1sGx53uX32E1LaKqvJJ5hSpd55QwWjiWouLCcNsWVY=",
+    "originContent": "    var sdt = document.AddStructuredDocumentTag(\"Hello\", \"MyAlias\", \"MyTag\");",
+    "translatedContent": "    var sdt = document.AddStructuredDocumentTag(\"Hello\", \"MyAlias\", \"MyTag\");"
+  },
+  {
+    "row": 469,
+    "rowsha": "J0VFCD4PhHlEjsSU++iypS2alBxap3a3NnTo+k0RI+U=",
+    "originContent": "    sdt.Text = \"Changed\";",
+    "translatedContent": "    sdt.Text = \"Changed\";"
+  },
+  {
+    "row": 470,
+    "rowsha": "NWSImAPRhLTC5xezPZFNjwB2uRWGcrCYrvflX84pr+E=",
+    "originContent": "    document.Save(true);",
+    "translatedContent": "    document.Save(true);"
+  },
+  {
+    "row": 471,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 472,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 473,
+    "rowsha": "97oXtd2VK0bqtNyGxS1F80nP2UsrWF7bLOlKKLeRWEU=",
+    "originContent": "using (WordDocument document = WordDocument.Load(filePath)) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Load(filePath)) {"
+  },
+  {
+    "row": 474,
+    "rowsha": "LA0Q4TVYgXn70w6NpiAOdFb3gTMyiQE4EEHth2s+mCY=",
+    "originContent": "    var tag = document.GetStructuredDocumentTagByTag(\"MyTag\");",
+    "translatedContent": "    var tag = document.GetStructuredDocumentTagByTag(\"MyTag\");"
+  },
+  {
+    "row": 475,
+    "rowsha": "SUwRLoEP9wu3Bm/LFQbPAuoTY5Z13BbvpUxv/SqYXQg=",
+    "originContent": "Console.WriteLine(tag.Text);",
+    "translatedContent": "Console.WriteLine(tag.Text);"
+  },
+  {
+    "row": 476,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 477,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 478,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 479,
+    "rowsha": "cSHiQPcrp9/oulgooy87zwdSz7wpkJR7XOciVRCauVA=",
+    "originContent": "### Multiple Content Controls",
+    "translatedContent": "### 다중 콘텐츠 컨트롤"
+  },
+  {
+    "row": 480,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 481,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 482,
+    "rowsha": "+RLZYtU611kJoPH7GLvfR5Z1N0pVyZ+ceqsp1Qn9euU=",
+    "originContent": "using (WordDocument document = WordDocument.Create(filePath)) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Create(filePath)) {"
+  },
+  {
+    "row": 483,
+    "rowsha": "Xi4rwGB/C3dkkbjOEA8cMtDh7FLIKfhZLP2GapS2MkM=",
+    "originContent": "    document.AddStructuredDocumentTag(\"First\", \"Alias1\", \"Tag1\");",
+    "translatedContent": "    document.AddStructuredDocumentTag(\"First\", \"Alias1\", \"Tag1\");"
+  },
+  {
+    "row": 484,
+    "rowsha": "7GtFGi4rCMTz5HNS4+rRYA8fTQQrRXUEImCTT4R3lok=",
+    "originContent": "    document.AddStructuredDocumentTag(\"Second\", \"Alias2\", \"Tag2\");",
+    "translatedContent": "    document.AddStructuredDocumentTag(\"Second\", \"Alias2\", \"Tag2\");"
+  },
+  {
+    "row": 485,
+    "rowsha": "k1vRptzjZX2B003+9F708lHedULYsy7mVU63X2mlHvQ=",
+    "originContent": "    document.AddStructuredDocumentTag(\"Third\", \"Alias3\", \"Tag3\");",
+    "translatedContent": "    document.AddStructuredDocumentTag(\"Third\", \"Alias3\", \"Tag3\");"
+  },
+  {
+    "row": 486,
+    "rowsha": "NWSImAPRhLTC5xezPZFNjwB2uRWGcrCYrvflX84pr+E=",
+    "originContent": "    document.Save(true);",
+    "translatedContent": "    document.Save(true);"
+  },
+  {
+    "row": 487,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 488,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 489,
+    "rowsha": "97oXtd2VK0bqtNyGxS1F80nP2UsrWF7bLOlKKLeRWEU=",
+    "originContent": "using (WordDocument document = WordDocument.Load(filePath)) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Load(filePath)) {"
+  },
+  {
+    "row": 490,
+    "rowsha": "tmV75MHeWi5SgCpEMX3NtYXWBjCAaRj3Uz1HW12KVFk=",
+    "originContent": "    foreach (var control in document.StructuredDocumentTags) {",
+    "translatedContent": "    foreach (var control in document.StructuredDocumentTags) {"
+  },
+  {
+    "row": 491,
+    "rowsha": "+cleFISHXRANEDAgSSl6XK37xRYQ3JNqDjlNQ76os4E=",
+    "originContent": "        Console.WriteLine(control.Tag + \": \" + control.Text);",
+    "translatedContent": "        Console.WriteLine(control.Tag + \": \" + control.Text);"
+  },
+  {
+    "row": 492,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 493,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 494,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 495,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 고급 콘텐츠 제어 사용법"
+  },
+  {
+    "row": 496,
+    "rowsha": "2Uu+XkjAgErH9CkBOU6gEz7E2ogqWfxwCQvu+Yvc4Sw=",
+    "originContent": "### Advanced Content Control Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 497,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 498,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 499,
+    "rowsha": "+RLZYtU611kJoPH7GLvfR5Z1N0pVyZ+ceqsp1Qn9euU=",
+    "originContent": "using (WordDocument document = WordDocument.Create(filePath)) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Create(filePath)) {"
+  },
+  {
+    "row": 500,
+    "rowsha": "Xi4rwGB/C3dkkbjOEA8cMtDh7FLIKfhZLP2GapS2MkM=",
+    "originContent": "    document.AddStructuredDocumentTag(\"First\", \"Alias1\", \"Tag1\");",
+    "translatedContent": "    document.AddStructuredDocumentTag(\"First\", \"Alias1\", \"Tag1\");"
+  },
+  {
+    "row": 501,
+    "rowsha": "7GtFGi4rCMTz5HNS4+rRYA8fTQQrRXUEImCTT4R3lok=",
+    "originContent": "    document.AddStructuredDocumentTag(\"Second\", \"Alias2\", \"Tag2\");",
+    "translatedContent": "    document.AddStructuredDocumentTag(\"Second\", \"Alias2\", \"Tag2\");"
+  },
+  {
+    "row": 502,
+    "rowsha": "NWSImAPRhLTC5xezPZFNjwB2uRWGcrCYrvflX84pr+E=",
+    "originContent": "    document.Save(true);",
+    "translatedContent": "    document.Save(true);"
+  },
+  {
+    "row": 503,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 504,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 505,
+    "rowsha": "97oXtd2VK0bqtNyGxS1F80nP2UsrWF7bLOlKKLeRWEU=",
+    "originContent": "using (WordDocument document = WordDocument.Load(filePath)) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Load(filePath)) {"
+  },
+  {
+    "row": 506,
+    "rowsha": "JHiZV2eIQZXgGuJRWNbFwQ7tuK+jOAm7NfuKq6/EBwM=",
+    "originContent": "    var alias = document.GetStructuredDocumentTagByAlias(\"Alias2\");",
+    "translatedContent": "    var alias = document.GetStructuredDocumentTagByAlias(\"Alias2\");"
+  },
+  {
+    "row": 507,
+    "rowsha": "R2Box7m7nKrooVnPb96oe1cfN5TDop+Nx/aIdrVoulY=",
+    "originContent": "    alias.Text = \"Updated\";",
+    "translatedContent": "    alias.Text = \"Updated\";"
+  },
+  {
+    "row": 508,
+    "rowsha": "+3UEa5PsfC/gEoGFRuJUMRqEaksyE++DASp8S37Uszk=",
+    "originContent": "    var tag = document.GetStructuredDocumentTagByTag(\"Tag1\");",
+    "translatedContent": "    var tag = document.GetStructuredDocumentTagByTag(\"Tag1\");"
+  },
+  {
+    "row": 509,
+    "rowsha": "xWCaOyylatJpMLCHW/K+VGhtESSEMYHa6XPcIS6sQPk=",
+    "originContent": "    Console.WriteLine(tag.Text);",
+    "translatedContent": "    Console.WriteLine(tag.Text);"
+  },
+  {
+    "row": 510,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 511,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 512,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### OfficeIMO의 고급 사용법"
+  },
+  {
+    "row": 513,
+    "rowsha": "nALtJ7/zGO0svZWlLK0d6zzOHa0t/Xo7S0Ktjdl+i+E=",
+    "originContent": "### Advanced usage of OfficeIMO",
+    "translatedContent": ""
+  },
+  {
+    "row": 514,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 짧은 예제는 `OfficeIMO.Word`의 여러 기능을 보여줍니다."
+  },
+  {
+    "row": 515,
+    "rowsha": "asw62aNcRCvyElnl5TvDYsAwHrhVaO65N6+ky4WM7MI=",
+    "originContent": "This short example shows multiple features of `OfficeIMO.Word`",
+    "translatedContent": ""
+  },
+  {
+    "row": 516,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 517,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 518,
+    "rowsha": "bcD4FSIyFVTZLUS3JjDz1MANndlHxsRUUC0D8wPzhi0=",
+    "originContent": "string filePath = System.IO.Path.Combine(folderPath, \"AdvancedDocument.docx\");",
+    "translatedContent": "string filePath = System.IO.Path.Combine(folderPath, \"AdvancedDocument.docx\");"
+  },
+  {
+    "row": 519,
+    "rowsha": "+RLZYtU611kJoPH7GLvfR5Z1N0pVyZ+ceqsp1Qn9euU=",
+    "originContent": "using (WordDocument document = WordDocument.Create(filePath)) {",
+    "translatedContent": "using (WordDocument document = WordDocument.Create(filePath)) {"
+  },
+  {
+    "row": 520,
+    "rowsha": "ve7g9Geh+1o2dwJPLqQgOMysmZonDqystymRbg41BZg=",
+    "originContent": "    // lets add some properties to the document",
+    "translatedContent": "    // lets add some properties to the document"
+  },
+  {
+    "row": 521,
+    "rowsha": "9Kr4atOZGRKt0fPNnn3AMIsxyHWKZ5gRa1JeHggnjjQ=",
+    "originContent": "    document.BuiltinDocumentProperties.Title = \"Cover Page Templates\";",
+    "translatedContent": "    document.BuiltinDocumentProperties.Title = \"Cover Page Templates\";"
+  },
+  {
+    "row": 522,
+    "rowsha": "1ex0cdNXNmR21r59glCY+OA6Pq8b9493kOYa+VLJT6w=",
+    "originContent": "    document.BuiltinDocumentProperties.Subject = \"How to use Cover Pages with TOC\";",
+    "translatedContent": "    document.BuiltinDocumentProperties.Subject = \"How to use Cover Pages with TOC\";"
+  },
+  {
+    "row": 523,
+    "rowsha": "RPLDyHdHOqS6rC8fZ5ufXhHWFcibqSu6QbRNyeweTfw=",
+    "originContent": "    document.ApplicationProperties.Company = \"Evotec Services\";",
+    "translatedContent": "    document.ApplicationProperties.Company = \"Evotec Services\";"
+  },
+  {
+    "row": 524,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 525,
+    "rowsha": "iXAK/zzaou71UgsOnQyhxPbyGmvBv/PnQJAdGm0Guto=",
+    "originContent": "    // we force document to update fields on open, this will be used by TOC",
+    "translatedContent": "    // we force document to update fields on open, this will be used by TOC"
+  },
+  {
+    "row": 526,
+    "rowsha": "dagLmAqsRI5pnShrP7TZZE+r700hDwJgQ4daqNg8vt0=",
+    "originContent": "    document.Settings.UpdateFieldsOnOpen = true;",
+    "translatedContent": "    document.Settings.UpdateFieldsOnOpen = true;"
+  },
+  {
+    "row": 527,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 528,
+    "rowsha": "y8zqvit368h8C2UCKahUtfj2alb4H/zSIiRnWOGM8EA=",
+    "originContent": "    // lets add one of multiple added Cover Pages",
+    "translatedContent": "    // lets add one of multiple added Cover Pages"
+  },
+  {
+    "row": 529,
+    "rowsha": "4HIOAQzUKgFOqRn1G1yLzkLlwX+a0wpX49GgJd4Q87o=",
+    "originContent": "    document.AddCoverPage(CoverPageTemplate.IonDark);",
+    "translatedContent": "    document.AddCoverPage(CoverPageTemplate.IonDark);"
+  },
+  {
+    "row": 530,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 531,
+    "rowsha": "MNL7xKmst9WZmmUUVO5HnjIQZk/TdXHl9TW5gX4MmXk=",
+    "originContent": "    // lets add Table of Content (1 of 2)",
+    "translatedContent": "    // lets add Table of Content (1 of 2)"
+  },
+  {
+    "row": 532,
+    "rowsha": "4lOTEebyAsPwt1Dy2KPieqO+ozf5Hemfg8kOVqTATBY=",
+    "originContent": "    document.AddTableOfContent(TableOfContentStyle.Template1);",
+    "translatedContent": "    document.AddTableOfContent(TableOfContentStyle.Template1);"
+  },
+  {
+    "row": 533,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 534,
+    "rowsha": "o6vfbKz62JU1SizV4BaQwd/RWdenAk5DSTDTw43mO8k=",
+    "originContent": "    // lets add page break",
+    "translatedContent": "    // lets add page break"
+  },
+  {
+    "row": 535,
+    "rowsha": "nw82FHLz+NsFxfJnFO/ROyqND3R7gqh1MpXkxL+K/vc=",
+    "originContent": "    document.AddPageBreak();",
+    "translatedContent": "    document.AddPageBreak();"
+  },
+  {
+    "row": 536,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 537,
+    "rowsha": "RMkXmUa5UQJuggBUwmCUBgFx4ZEh+lpf+ynZOzWBdiw=",
+    "originContent": "    // lets create a list that will be binded to TOC",
+    "translatedContent": "    // lets create a list that will be binded to TOC"
+  },
+  {
+    "row": 538,
+    "rowsha": "sIbqsOour21z6ZuOiLhZM24axdpR2oPQchYFMqHOmJQ=",
+    "originContent": "    var wordListToc = document.AddTableOfContentList(WordListStyle.Headings111);",
+    "translatedContent": "    var wordListToc = document.AddTableOfContentList(WordListStyle.Headings111);"
+  },
+  {
+    "row": 539,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 540,
+    "rowsha": "TFlqdid1vDTXflZVafNrNZIjrJJ/vVkI+0uOnsbnPZs=",
+    "originContent": "    wordListToc.AddItem(\"How to add a table to document?\");",
+    "translatedContent": "    wordListToc.AddItem(\"How to add a table to document?\");"
+  },
+  {
+    "row": 541,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 542,
+    "rowsha": "ar0ldPntIEC+62xf5p8ki73dIQuBrALcohf5dktRhJQ=",
+    "originContent": "    document.AddParagraph(\"In the first paragraph I would like to show you how to add a table to the document using one of the 105 built-in styles:\");",
+    "translatedContent": "    document.AddParagraph(\"In the first paragraph I would like to show you how to add a table to the document using one of the 105 built-in styles:\");"
+  },
+  {
+    "row": 543,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 544,
+    "rowsha": "rrXAA919W2hsTl4E+wUn66J3XdW14XnvERgAZ8jrZAI=",
+    "originContent": "    // adding a table and modifying content",
+    "translatedContent": "    // adding a table and modifying content"
+  },
+  {
+    "row": 545,
+    "rowsha": "Fi9+MkYEJmYjuu/QJoqKNNxxIRmFkYCLVujB93UZjGI=",
+    "originContent": "    var table = document.AddTable(5, 4, WordTableStyle.GridTable5DarkAccent5);",
+    "translatedContent": "    var table = document.AddTable(5, 4, WordTableStyle.GridTable5DarkAccent5);"
+  },
+  {
+    "row": 546,
+    "rowsha": "gbdzFo4na7v2BxW0j/IqNjYwuUBvMaWUjXwbNCSU67c=",
+    "originContent": "    table.Rows[3].Cells[2].Paragraphs[0].Text = \"Adding text to cell\";",
+    "translatedContent": "    table.Rows[3].Cells[2].Paragraphs[0].Text = \"Adding text to cell\";"
+  },
+  {
+    "row": 547,
+    "rowsha": "Z3c+hbQ1B3WNl8glnqcdJVxOWKE/lOiETFIU/rdCvkw=",
+    "originContent": "    table.Rows[3].Cells[2].Paragraphs[0].Color = Color.Blue; ;",
+    "translatedContent": "    table.Rows[3].Cells[2].Paragraphs[0].Color = Color.Blue; ;"
+  },
+  {
+    "row": 548,
+    "rowsha": "976bZf4+2FAW6k2kBY8mMHgvZKidKWMzs6jRr1pEcwo=",
+    "originContent": "    table.Rows[3].Cells[3].Paragraphs[0].Text = \"Different cell\";",
+    "translatedContent": "    table.Rows[3].Cells[3].Paragraphs[0].Text = \"Different cell\";"
+  },
+  {
+    "row": 549,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 550,
+    "rowsha": "OKYZz2aTUYfoaKF0gjc03jqI3CSFHueckZaUkANaDK0=",
+    "originContent": "    document.AddParagraph(\"As you can see adding a table with some style, and adding content to it \").SetBold().SetUnderline(UnderlineValues.Dotted).AddText(\"is not really complicated\").SetColor(Color.OrangeRed);",
+    "translatedContent": "    document.AddParagraph(\"As you can see adding a table with some style, and adding content to it \").SetBold().SetUnderline(UnderlineValues.Dotted).AddText(\"is not really complicated\").SetColor(Color.OrangeRed);"
+  },
+  {
+    "row": 551,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 552,
+    "rowsha": "yrXvcsLAzI/09naUhtQ2tqv7vHHYz9rw0YAFSrYgULg=",
+    "originContent": "    wordListToc.AddItem(\"How to add a list to document?\");",
+    "translatedContent": "    wordListToc.AddItem(\"How to add a list to document?\");"
+  },
+  {
+    "row": 553,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 554,
+    "rowsha": "OQN8Ie1moxmgaArF9UWdrrsW80yiQM0kz8RIvL+Rql8=",
+    "originContent": "    var paragraph = document.AddParagraph(\"Adding lists is similar to ading a table. Just define a list and add list items to it. \").SetText(\"Remember that you can add anything between list items! \");",
+    "translatedContent": "    var paragraph = document.AddParagraph(\"Adding lists is similar to ading a table. Just define a list and add list items to it. \").SetText(\"Remember that you can add anything between list items! \");"
+  },
+  {
+    "row": 555,
+    "rowsha": "9Ud/IoX/DHIpqwc9+0iqfK9WLOyin1jTTH5e8VJCoKI=",
+    "originContent": "    paragraph.SetColor(Color.Blue).SetText(\"For example TOC List is just another list, but defining a specific style.\");",
+    "translatedContent": "    paragraph.SetColor(Color.Blue).SetText(\"For example TOC List is just another list, but defining a specific style.\");"
+  },
+  {
+    "row": 556,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 557,
+    "rowsha": "O/cidD4yTk2TrPVw/qAlnpKH0Fn5MabNUtmRLKqP474=",
+    "originContent": "    var list = document.AddList(WordListStyle.Bulleted);",
+    "translatedContent": "    var list = document.AddList(WordListStyle.Bulleted);"
+  },
+  {
+    "row": 558,
+    "rowsha": "Yat8bwDqd6iPlxaPPLIEyfJuYdmCGX4g6SgVHt27bgM=",
+    "originContent": "    list.AddItem(\"First element of list\", 0);",
+    "translatedContent": "    list.AddItem(\"First element of list\", 0);"
+  },
+  {
+    "row": 559,
+    "rowsha": "AIr5LHASLaiOfB7tMerZmFarC9m4s+sJywXnQ5Sld7s=",
+    "originContent": "    list.AddItem(\"Second element of list\", 1);",
+    "translatedContent": "    list.AddItem(\"Second element of list\", 1);"
+  },
+  {
+    "row": 560,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 561,
+    "rowsha": "y+rcEBm3paks40NmuMdFZiy6gU4lku4Lr3ztOM3FfvM=",
+    "originContent": "    var paragraphWithHyperlink = document.AddHyperLink(\"Go to Evotec Blogs\", new Uri(\"https://evotec.xyz\"), true, \"URL with tooltip\");",
+    "translatedContent": "    var paragraphWithHyperlink = document.AddHyperLink(\"Go to Evotec Blogs\", new Uri(\"https://evotec.xyz\"), true, \"URL with tooltip\");"
+  },
+  {
+    "row": 562,
+    "rowsha": "cFS2QV8yw0DsaTAbDxhuERf2KRcoV6reaSF7g8X40Ng=",
+    "originContent": "    // you can also change the hyperlink text, uri later on using properties",
+    "translatedContent": "    // you can also change the hyperlink text, uri later on using properties"
+  },
+  {
+    "row": 563,
+    "rowsha": "kBGItKVqoS3Z8nL0NO9ioKqJ/ex7Q1Pt7f+G8KUs4rM=",
+    "originContent": "    paragraphWithHyperlink.Hyperlink.Uri = new Uri(\"https://evotec.xyz/hub\");",
+    "translatedContent": "    paragraphWithHyperlink.Hyperlink.Uri = new Uri(\"https://evotec.xyz/hub\");"
+  },
+  {
+    "row": 564,
+    "rowsha": "Jp+GZgjue3q56x0KBEYyKxdDpWMTygaq3rq8hAgMaok=",
+    "originContent": "    paragraphWithHyperlink.ParagraphAlignment = JustificationValues.Center;",
+    "translatedContent": "    paragraphWithHyperlink.ParagraphAlignment = JustificationValues.Center;"
+  },
+  {
+    "row": 565,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 566,
+    "rowsha": "L/RiqgVF9/duzpe1YMcFVv2RkkRQ/tE+UQNG5rpO11w=",
+    "originContent": "    list.AddItem(\"3rd element of list, but added after hyperlink\", 0);",
+    "translatedContent": "    list.AddItem(\"3rd element of list, but added after hyperlink\", 0);"
+  },
+  {
+    "row": 567,
+    "rowsha": "XeRCQe5ygygG34KiithUFfwctLuFmGg1kV+7ybrUPns=",
+    "originContent": "    list.AddItem(\"4th element with hyperlink \").AddHyperLink(\"included.\", new Uri(\"https://evotec.xyz/hub\"), addStyle: true);",
+    "translatedContent": "    list.AddItem(\"4th element with hyperlink \").AddHyperLink(\"included.\", new Uri(\"https://evotec.xyz/hub\"), addStyle: true);"
+  },
+  {
+    "row": 568,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 569,
+    "rowsha": "A2lnX3Y9W/wTem6kZVicNG69slGWZW85s7lZLf6vmHI=",
+    "originContent": "    document.AddParagraph();",
+    "translatedContent": "    document.AddParagraph();"
+  },
+  {
+    "row": 570,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 571,
+    "rowsha": "fJQpdic9NMg05KrVdc3Li/p6Tu8pl0hWMyyoFyjcTmQ=",
+    "originContent": "    // create a custom bullet list",
+    "translatedContent": "    // create a custom bullet list"
+  },
+  {
+    "row": 572,
+    "rowsha": "XSLz3SEzatMaWacPxnkfnD0TZgGbcHW1ZYwXEyVAEV4=",
+    "originContent": "    var custom = document.AddCustomBulletList(WordListLevelKind.BulletSquareSymbol, \"Courier New\", SixLabors.ImageSharp.Color.Red, fontSize: 16);",
+    "translatedContent": "    var custom = document.AddCustomBulletList(WordListLevelKind.BulletSquareSymbol, \"Courier New\", SixLabors.ImageSharp.Color.Red, fontSize: 16);"
+  },
+  {
+    "row": 573,
+    "rowsha": "q+YdEn6rZmpek+BWVJnZJf0JekRXoThS+0JgmYLFNTI=",
+    "originContent": "    custom.AddItem(\"Custom bullet item\");",
+    "translatedContent": "    custom.AddItem(\"Custom bullet item\");"
+  },
+  {
+    "row": 574,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 575,
+    "rowsha": "KSJscp44TI7tVgUYlQIQjyfHihToUM/aV4WqffjCxbU=",
+    "originContent": "    // create a list using an image as the bullet",
+    "translatedContent": "    // create a list using an image as the bullet"
+  },
+  {
+    "row": 576,
+    "rowsha": "RG35OmSm1FX/gUTNNFbBfwDvdQnjKTmXwKx1XKQ1H6s=",
+    "originContent": "    var pictureList = document.AddPictureBulletList(Path.Combine(folderPath, \"Images\", \"Kulek.jpg\"));",
+    "translatedContent": "    var pictureList = document.AddPictureBulletList(Path.Combine(folderPath, \"Images\", \"Kulek.jpg\"));"
+  },
+  {
+    "row": 577,
+    "rowsha": "FLmAR+yYhGBLKysCrSYnhbnYq3l+oz9SB/ZvqpoyiO4=",
+    "originContent": "    pictureList.AddItem(\"Image bullet 1\");",
+    "translatedContent": "    pictureList.AddItem(\"Image bullet 1\");"
+  },
+  {
+    "row": 578,
+    "rowsha": "ITP6G6/+iPNUpFpfwqOzD85mudVWyNBcgZfzH8Arbbo=",
+    "originContent": "    pictureList.AddItem(\"Image bullet 2\");",
+    "translatedContent": "    pictureList.AddItem(\"Image bullet 2\");"
+  },
+  {
+    "row": 579,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 580,
+    "rowsha": "Vc2xn99mOVJpkgzw7OTDtrA+nzQESjFwHWyKnynh2WE=",
+    "originContent": "    // create a multi-level custom list",
+    "translatedContent": "    // create a multi-level custom list"
+  },
+  {
+    "row": 581,
+    "rowsha": "f3wMCH9V5Cx7HH14Fxilc4okKfOxlr2CU/XZ7qs+60s=",
+    "originContent": "    var builder = document.AddCustomList()",
+    "translatedContent": "    var builder = document.AddCustomList()"
+  },
+  {
+    "row": 582,
+    "rowsha": "3rJU3en9przU1EznW8EfZZyl6l1f0UmnQNHy6wINIKE=",
+    "originContent": "        .AddListLevel(1, WordListLevelKind.BulletSquareSymbol, \"Courier New\", SixLabors.ImageSharp.Color.Red, fontSize: 14)",
+    "translatedContent": "        .AddListLevel(1, WordListLevelKind.BulletSquareSymbol, \"Courier New\", SixLabors.ImageSharp.Color.Red, fontSize: 14)"
+  },
+  {
+    "row": 583,
+    "rowsha": "+DdIQXoLg0lQmckHDTzayJD5lO0Ek4pF4i8AtikBnoM=",
+    "originContent": "        .AddListLevel(5, WordListLevelKind.BulletBlackCircle, \"Arial\", colorHex: \"#00ff00\", fontSize: 10);",
+    "translatedContent": "        .AddListLevel(5, WordListLevelKind.BulletBlackCircle, \"Arial\", colorHex: \"#00ff00\", fontSize: 10);"
+  },
+  {
+    "row": 584,
+    "rowsha": "onpY/1e7Uw3Eh0l8QLBDB6DGBouHvnz1350WcgelDoY=",
+    "originContent": "    builder.AddItem(\"First\");",
+    "translatedContent": "    builder.AddItem(\"First\");"
+  },
+  {
+    "row": 585,
+    "rowsha": "GbMHtHjO9ntMz5JIcShrOpwGwsFiKHamJJevswC1oIM=",
+    "originContent": "    builder.AddItem(\"Fifth\", 4);",
+    "translatedContent": "    builder.AddItem(\"Fifth\", 4);"
+  },
+  {
+    "row": 586,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 587,
+    "rowsha": "UVh2ZfLda0RIvH7nEWf16DC7K6mEkOVRWSiE+tsTR6Y=",
+    "originContent": "    // Note: use AddCustomList() rather than AddList(WordListStyle.Custom)",
+    "translatedContent": "    // Note: use AddCustomList() rather than AddList(WordListStyle.Custom)"
+  },
+  {
+    "row": 588,
+    "rowsha": "nvbmP4bhVBVye3i2FnLm29FALPLggfHrY4o8rs0wpI4=",
+    "originContent": "    // when you want to build lists with your own levels.",
+    "translatedContent": "    // when you want to build lists with your own levels."
+  },
+  {
+    "row": 589,
+    "rowsha": "fm1Mn6/vsYXSmaxMqPdOXzJW7o1MAfWbazEJ5oqs80Q=",
+    "originContent": "    // See [Custom Lists](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/Docs/custom-lists.md) for details on configuring levels.",
+    "translatedContent": "    // See [Custom Lists](https://raw.githubusercontent.com/EvotecIT/OfficeIMO/master/Docs/custom-lists.md) for details on configuring levels."
+  },
+  {
+    "row": 590,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 591,
+    "rowsha": "mU49BifX4+XFibzca5p30UY7kHGWFC9P4vFp+651D9w=",
+    "originContent": "    var listNumbered = document.AddList(WordListStyle.Heading1ai);",
+    "translatedContent": "    var listNumbered = document.AddList(WordListStyle.Heading1ai);"
+  },
+  {
+    "row": 592,
+    "rowsha": "cDWDxCJyEf4VRXXmMtYfzGeSiIJsSy9KObCjv61Q+C0=",
+    "originContent": "    listNumbered.AddItem(\"Different list number 1\");",
+    "translatedContent": "    listNumbered.AddItem(\"Different list number 1\");"
+  },
+  {
+    "row": 593,
+    "rowsha": "TARRaBhVgkCXMIc1QqeblT9sKbioP/HX583Cchh2xZM=",
+    "originContent": "    listNumbered.AddItem(\"Different list number 2\", 1);",
+    "translatedContent": "    listNumbered.AddItem(\"Different list number 2\", 1);"
+  },
+  {
+    "row": 594,
+    "rowsha": "lmaGAtXJj2nOz6Ns1TiFsi9RnBA+aLXxR6AjuZZaAJM=",
+    "originContent": "    listNumbered.AddItem(\"Different list number 3\", 1);",
+    "translatedContent": "    listNumbered.AddItem(\"Different list number 3\", 1);"
+  },
+  {
+    "row": 595,
+    "rowsha": "AAX+ljhB/1E4NS8MisUPNgJIkTB51BLrPITcJvRJT5A=",
+    "originContent": "    listNumbered.AddItem(\"Different list number 4\", 1);",
+    "translatedContent": "    listNumbered.AddItem(\"Different list number 4\", 1);"
+  },
+  {
+    "row": 596,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 597,
+    "rowsha": "HocSbmc+UErf1k3acr1No/H0FqxOSpqFJc4uq0LXBgo=",
+    "originContent": "    var section = document.AddSection();",
+    "translatedContent": "    var section = document.AddSection();"
+  },
+  {
+    "row": 598,
+    "rowsha": "XDTdZxDeIsCFevYDiv/Xky5o9jMcOFMOnowSTk7c9bQ=",
+    "originContent": "    section.PageOrientation = PageOrientationValues.Landscape;",
+    "translatedContent": "    section.PageOrientation = PageOrientationValues.Landscape;"
+  },
+  {
+    "row": 599,
+    "rowsha": "W0ZDAQFuFY+xnb+RCcRz9P8FpOsI04ndMVNzWUWxzk8=",
+    "originContent": "    section.PageSettings.PageSize = WordPageSize.A4;",
+    "translatedContent": "    section.PageSettings.PageSize = WordPageSize.A4;"
+  },
+  {
+    "row": 600,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 601,
+    "rowsha": "6n0tWnCGZhmP8hVATxIF27CAKauB79D7i+3bLACJWP4=",
+    "originContent": "    wordListToc.AddItem(\"Adding headers / footers\");",
+    "translatedContent": "    wordListToc.AddItem(\"Adding headers / footers\");"
+  },
+  {
+    "row": 602,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 603,
+    "rowsha": "mdJx/IzkE25MnVHqk7dbUaNETQY4PvyGod5nx9HAwBE=",
+    "originContent": "    // lets add headers and footers",
+    "translatedContent": "    // lets add headers and footers"
+  },
+  {
+    "row": 604,
+    "rowsha": "v4D04sQe+iGUI48HTYOwBwWuAvKb7Vcholx/W7GDDAw=",
+    "originContent": "    document.AddHeadersAndFooters();",
+    "translatedContent": "    document.AddHeadersAndFooters();"
+  },
+  {
+    "row": 605,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 606,
+    "rowsha": "fCYtH6m6U4lqO5KSCt1B4LVIjhp6M+LQTCgPx4WxRX0=",
+    "originContent": "    // adding text to default header",
+    "translatedContent": "    // adding text to default header"
+  },
+  {
+    "row": 607,
+    "rowsha": "ccleWbMeo45lmr3hfjKHqNEnq19gpqeQuTTEmkTiAp0=",
+    "originContent": "    document.Header.Default.AddParagraph(\"Text added to header - Default\");",
+    "translatedContent": "    document.Header.Default.AddParagraph(\"Text added to header - Default\");"
+  },
+  {
+    "row": 608,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 609,
+    "rowsha": "ovZI/PS0UPBJzEfU0SI6HhGcFRQj8bPdRhqbhO5x+Ro=",
+    "originContent": "    var section1 = document.AddSection();",
+    "translatedContent": "    var section1 = document.AddSection();"
+  },
+  {
+    "row": 610,
+    "rowsha": "1tr2w8EhMAtIvq3Z1nKF7dNd+OjShD2nKoYGbHQmyVs=",
+    "originContent": "    section1.PageOrientation = PageOrientationValues.Portrait;",
+    "translatedContent": "    section1.PageOrientation = PageOrientationValues.Portrait;"
+  },
+  {
+    "row": 611,
+    "rowsha": "/L+GDUeoXgi85EP0u1QtYoZCa4seiIva+y3bn+/B360=",
+    "originContent": "    section1.PageSettings.PageSize = WordPageSize.A5;",
+    "translatedContent": "    section1.PageSettings.PageSize = WordPageSize.A5;"
+  },
+  {
+    "row": 612,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 613,
+    "rowsha": "hQ4pujT1Afq1GElGJyTUqCzwUVo4m4AAW8kGr5SBZzg=",
+    "originContent": "    wordListToc.AddItem(\"Adding custom properties to document\");",
+    "translatedContent": "    wordListToc.AddItem(\"Adding custom properties to document\");"
+  },
+  {
+    "row": 614,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 615,
+    "rowsha": "IJNa/cVoZdz+lPR0Thj+70w3DsepZMIe/6wBQpFhUiI=",
+    "originContent": "    document.CustomDocumentProperties.Add(\"TestProperty\", new WordCustomProperty { Value = DateTime.Today });",
+    "translatedContent": "    document.CustomDocumentProperties.Add(\"TestProperty\", new WordCustomProperty { Value = DateTime.Today });"
+  },
+  {
+    "row": 616,
+    "rowsha": "XfCP1LTo0m1JjISPYhVY7hOsyUeIBi2Z21aP5WZaGfg=",
+    "originContent": "    document.CustomDocumentProperties.Add(\"MyName\", new WordCustomProperty(\"Some text\"));",
+    "translatedContent": "    document.CustomDocumentProperties.Add(\"MyName\", new WordCustomProperty(\"Some text\"));"
+  },
+  {
+    "row": 617,
+    "rowsha": "HYxxuTMCfnSj1a4rwMEk1Oqs0+7c5J7pt9mENTe2VUI=",
+    "originContent": "    document.CustomDocumentProperties.Add(\"IsTodayGreatDay\", new WordCustomProperty(true));",
+    "translatedContent": "    document.CustomDocumentProperties.Add(\"IsTodayGreatDay\", new WordCustomProperty(true));"
+  },
+  {
+    "row": 618,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 619,
+    "rowsha": "InrVeIpnRKqQjdZSv3SAfn0Bzj/MCr5mSTcf53iLaQ4=",
+    "originContent": "    // document variables available via DocVariable fields",
+    "translatedContent": "    // document variables available via DocVariable fields"
+  },
+  {
+    "row": 620,
+    "rowsha": "RCJHppyL/H2fIaRBRFQk9pmsIp+UdUIjIT6JT4JlJuU=",
+    "originContent": "    document.SetDocumentVariable(\"Project\", \"OfficeIMO\");",
+    "translatedContent": "    document.SetDocumentVariable(\"Project\", \"OfficeIMO\");"
+  },
+  {
+    "row": 621,
+    "rowsha": "XtUkWjiYXV58wkBmW5uTp6kXJf6kqzijn/YuyhSgQEs=",
+    "originContent": "    document.SetDocumentVariable(\"Year\", DateTime.Now.Year.ToString());",
+    "translatedContent": "    document.SetDocumentVariable(\"Year\", DateTime.Now.Year.ToString());"
+  },
+  {
+    "row": 622,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 623,
+    "rowsha": "7Ib81lHUtcsKAozq3NbCXN9Ek9uqipgItTnOTwPGwH0=",
+    "originContent": "    if (document.HasDocumentVariables) {",
+    "translatedContent": "    if (document.HasDocumentVariables) {"
+  },
+  {
+    "row": 624,
+    "rowsha": "e8pw1fyQfDhCReDIi+n4CmTA1R31piY536pneN6r5xo=",
+    "originContent": "        foreach (var pair in document.DocumentVariables) {",
+    "translatedContent": "        foreach (var pair in document.DocumentVariables) {"
+  },
+  {
+    "row": 625,
+    "rowsha": "lm52Q/mZBYE5rxG7PWbqOHW3WVF3SVUZ68Ska9z/b5E=",
+    "originContent": "            Console.WriteLine($\"{pair.Key}: {pair.Value}\");",
+    "translatedContent": "            Console.WriteLine($\"{pair.Key}: {pair.Value}\");"
+  },
+  {
+    "row": 626,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 627,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 628,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 629,
+    "rowsha": "gxsIwnB61GUuySeu1PUHwtE1Nmpz/kpLPrmrNBblr1g=",
+    "originContent": "    document.Save(openWord);",
+    "translatedContent": "    document.Save(openWord);"
+  },
+  {
+    "row": 630,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 631,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 632,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 633,
+    "rowsha": "ixorykg8zuCaRukP5G6Nu9Bs0rAGdXVyc8AggtYxu0k=",
+    "originContent": "## Tests",
+    "translatedContent": "## 테스트"
+  },
+  {
+    "row": 634,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 635,
+    "rowsha": "A/ZjRVfxxGPgzAv+nWHYOzCDpFkbaX84iZvFTFysWTs=",
+    "originContent": "In addition to the fact that `OfficeIMO.Word` uses Unit Tests, [Characterization Tests](https://en.wikipedia.org/wiki/Characterization_test) are also used.",
+    "translatedContent": "`OfficeIMO.Word`가 단위 테스트를 사용하는 것 외에도, [특성화 테스트](https://en.wikipedia.org/wiki/Characterization_test)도 사용됩니다."
+  },
+  {
+    "row": 636,
+    "rowsha": "qv8vqeue8sIJFjtFOxnr2kunmOePfEtpSVeyfpsb6R8=",
+    "originContent": "Characterization test were added in order to not overlook a change that breaks the behavior. These tests are based on [Verify](https://github.com/VerifyTests/Verify) ([\"Snapshot Testing in .NET with Verify\"](https://youtu.be/wA7oJDyvn4c)).",
+    "translatedContent": "특성화 테스트는 동작을 깨뜨리는 변경을 간과하지 않기 위해 추가되었습니다. 이 테스트들은 [Verify](https://github.com/VerifyTests/Verify) ([\".NET에서 Verify를 이용한 스냅샷 테스트\"](https://youtu.be/wA7oJDyvn4c))를 기반으로 합니다."
+  },
+  {
+    "row": 637,
+    "rowsha": "m/Nlni8X0x23kOikS4Bz3NzdqdL1xtm2a4jugpaMWaI=",
+    "originContent": "if you need to add or update a verified snapshot, you can use the powershell script:",
+    "translatedContent": "검증된 스냅샷을 추가하거나 업데이트해야 하는 경우, powershell 스크립트를 사용할 수 있습니다:"
+  },
+  {
+    "row": 638,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 639,
+    "rowsha": "+686OjRPVdj0ourWJqGl07uVy+KmoNRWMj9ZIuy3LXU=",
+    "originContent": "$ pwsh -c ./Build/ApproveVerifyTests.ps1",
+    "translatedContent": "$ pwsh -c ./Build/ApproveVerifyTests.ps1"
+  },
+  {
+    "row": 640,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 641,
+    "rowsha": "DpXYHi536u+bwFA1jaX2zB5o9W40D477z3k4kfRWLBg=",
+    "originContent": "To show a graphical diff instead of console output when Verify tests fail, set",
+    "translatedContent": "Verify 테스트가 실패할 때 콘솔 출력 대신 그래픽 차이점을 표시하려면,"
+  },
+  {
+    "row": 642,
+    "rowsha": "kZkVg6oLneI1ct2oHRRUCqYQhkLyQHjMHUU86oNSTg0=",
+    "originContent": "the environment variable `DiffEngine_Disabled=false` before running the tests.",
+    "translatedContent": "테스트를 실행하기 전에 환경 변수 `DiffEngine_Disabled=false`를 설정하세요."
+  },
+  {
+    "row": 643,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

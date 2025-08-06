@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Sprache</summary>
@@ -30,17 +31,24 @@
 
 # winjs-plugin-security
 
-Ein Plugin, das Sicherheitsfunktionen für WinJS-Projekte bereitstellt und hauptsächlich zur Generierung von SRI (Subresource Integrity)-Attributen dient.
+Ein Plugin zur Sicherheitsverbesserung für WinJS-Projekte, das hauptsächlich zur Generierung von SRI- (Subresource Integrity) Attributen dient.
+
+<p>
+  <a href="https://npmjs.com/package/@winner-fed/plugin-security">
+   <img src="https://img.shields.io/npm/v/@winner-fed/plugin-security?style=flat-square&colorA=564341&colorB=EDED91" alt="npm version" />
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="license" />
+  <a href="https://npmcharts.com/compare/@winner-fed/plugin-security?minimal=true"><img src="https://img.shields.io/npm/dm/@winner-fed/plugin-security.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="downloads" /></a>
+</p>
 
 ## Funktionsmerkmale
 
 - Automatische Generierung von SRI-Attributen für `<script>`- und `<link>`-Tags in HTML-Dateien
-- Unterstützung für SHA-256-, SHA-384- und SHA-512-Hash-Algorithmen (konfigurierbar)
-- Automatisches Hinzufügen des Attributs `crossorigin="anonymous"` zur Sicherstellung der SRI-Funktionalität
-- Wirksam nur in Produktionsumgebungen, Entwicklungsumgebung wird automatisch übersprungen
+- Unterstützung der Hash-Algorithmen SHA-256, SHA-384 und SHA-512 (konfigurierbar)
+- Automatisches Hinzufügen des Attributes `crossorigin="anonymous"` zur Sicherstellung der ordnungsgemäßen Funktion von SRI
+- Wirkt nur in Produktionsumgebungen, in Entwicklungsumgebungen wird automatisch übersprungen
 
 ## Installation
-
 
 ```bash
 pnpm add @winner-fed/plugin-security
@@ -138,6 +146,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-06
 
 ---

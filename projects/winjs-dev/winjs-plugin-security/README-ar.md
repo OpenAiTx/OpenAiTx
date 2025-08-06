@@ -30,14 +30,22 @@
 
 # winjs-plugin-security
 
-إضافة لتعزيز الأمان في مشاريع WinJS، تُستخدم بشكل أساسي لتوليد خاصية SRI (سلامة الموارد الفرعية).
+إضافة لتعزيز الأمان في مشاريع WinJS، تُستخدم بشكل أساسي لتوليد خاصية SRI (تكامل الموارد الفرعية).
+
+<p>
+  <a href="https://npmjs.com/package/@winner-fed/plugin-security">
+   <img src="https://img.shields.io/npm/v/@winner-fed/plugin-security?style=flat-square&colorA=564341&colorB=EDED91" alt="إصدار npm" />
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="الترخيص" />
+  <a href="https://npmcharts.com/compare/@winner-fed/plugin-security?minimal=true"><img src="https://img.shields.io/npm/dm/@winner-fed/plugin-security.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="عدد التنزيلات" /></a>
+</p>
 
 ## الميزات
 
-- توليد تلقائي لخاصية SRI لوسوم `<script>` و `<link>` في ملفات HTML
-- دعم خوارزميات التشفير SHA-256 وSHA-384 وSHA-512 (قابلة للتكوين)
-- إضافة تلقائية لخاصية `crossorigin="anonymous"` لضمان عمل SRI بشكل صحيح
-- تعمل فقط في بيئة الإنتاج، وتتخطى ذلك تلقائياً في بيئة التطوير
+- توليد خاصية SRI تلقائياً لعناصر `<script>` و `<link>` في ملفات HTML
+- دعم خوارزميات التجزئة SHA-256 و SHA-384 و SHA-512 (قابل للتكوين)
+- إضافة خاصية `crossorigin="anonymous"` تلقائياً لضمان عمل SRI بشكل صحيح
+- يعمل فقط في بيئة الإنتاج، ويتخطى تلقائياً في بيئة التطوير
 
 ## التثبيت
 
@@ -138,6 +146,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-06
 
 ---

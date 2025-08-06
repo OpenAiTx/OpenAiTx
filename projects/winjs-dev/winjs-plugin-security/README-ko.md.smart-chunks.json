@@ -1,274 +1,322 @@
 [
   {
     "Id": 1,
-    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# winjs-plugin-security\n\n一个为 WinJS 项目提供安全增强功能的插件，主要用于生成 SRI（Subresource Integrity）属性。\n\n## 功能特性\n\n- 自动为 HTML 文件中的 `<script>` 和 `<link>` 标签生成 SRI 属性\n- 支持 SHA-256、SHA-384、SHA-512 哈希算法（可配置）\n- 自动添加 `crossorigin=\"anonymous\"` 属性以确保 SRI 正常工作\n- 仅在生产环境下生效，开发环境自动跳过\n\n## 安装\n",
-    "ContentSha": "iy10XPaDlRB2BuMuCKbj8luuXv6Xg31I3tVBF5IfLKg=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# winjs-plugin-security\n\n一个为 WinJS 项目提供安全增强功能的插件，主要用于生成 SRI（Subresource Integrity）属性。\n\n<p>\n  <a href=\"https://npmjs.com/package/@winner-fed/plugin-security\">\n   <img src=\"https://img.shields.io/npm/v/@winner-fed/plugin-security?style=flat-square&colorA=564341&colorB=EDED91\" alt=\"npm version\" />\n  </a>\n  <img src=\"https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&colorA=564341&colorB=EDED91\" alt=\"license\" />\n  <a href=\"https://npmcharts.com/compare/@winner-fed/plugin-security?minimal=true\"><img src=\"https://img.shields.io/npm/dm/@winner-fed/plugin-security.svg?style=flat-square&colorA=564341&colorB=EDED91\" alt=\"downloads\" /></a>\n</p>\n\n## 功能特性\n\n- 自动为 HTML 文件中的 `<script>` 和 `<link>` 标签生成 SRI 属性\n- 支持 SHA-256、SHA-384、SHA-512 哈希算法（可配置）\n- 自动添加 `crossorigin=\"anonymous\"` 属性以确保 SRI 正常工作\n- 仅在生产环境下生效，开发环境自动跳过\n\n## 安装\n",
+    "ContentSha": "gZVRSnua/FwB/DKAuM3y58Aj22GZucWs/QH8tOqiKKE=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# winjs-plugin-security\n\nWinJS 프로젝트에 보안 강화 기능을 제공하는 플러그인으로, 주로 SRI(Subresource Integrity) 속성을 생성하는 데 사용됩니다.\n\n## 기능 특성\n\n- HTML 파일 내 `<script>`, `<link>` 태그에 SRI 속성 자동 생성\n- SHA-256, SHA-384, SHA-512 해시 알고리즘 지원(설정 가능)\n- SRI가 정상 동작하도록 `crossorigin=\"anonymous\"` 속성 자동 추가\n- 프로덕션 환경에서만 작동하며, 개발 환경에서는 자동으로 건너뜀\n\n## 설치\n\n",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# winjs-plugin-security\n\nWinJS 프로젝트에 보안 강화 기능을 제공하는 플러그인으로, 주로 SRI(Subresource Integrity) 속성 생성을 지원합니다.\n\n<p>\n  <a href=\"https://npmjs.com/package/@winner-fed/plugin-security\">\n   <img src=\"https://img.shields.io/npm/v/@winner-fed/plugin-security?style=flat-square&colorA=564341&colorB=EDED91\" alt=\"npm version\" />\n  </a>\n  <img src=\"https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&colorA=564341&colorB=EDED91\" alt=\"license\" />\n  <a href=\"https://npmcharts.com/compare/@winner-fed/plugin-security?minimal=true\"><img src=\"https://img.shields.io/npm/dm/@winner-fed/plugin-security.svg?style=flat-square&colorA=564341&colorB=EDED91\" alt=\"downloads\" /></a>\n</p>\n\n## 기능 특성\n\n- HTML 파일의 `<script>` 및 `<link>` 태그에 대해 SRI 속성을 자동 생성\n- SHA-256, SHA-384, SHA-512 해시 알고리즘 지원(설정 가능)\n- SRI가 정상 동작하도록 `crossorigin=\"anonymous\"` 속성 자동 추가\n- 프로덕션 환경에서만 활성화, 개발 환경에서는 자동으로 건너뜀\n\n## 설치\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "<div align=\"right\">"
+        "translatedContent": ""
       },
       {
         "row": 2,
         "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
         "originContent": "<div align=\"right\">",
-        "translatedContent": "  <details>"
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 3,
         "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
         "originContent": "  <details>",
-        "translatedContent": "    <summary >🌐 언어</summary>"
+        "translatedContent": "  <details>"
       },
       {
         "row": 4,
         "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
         "originContent": "    <summary >🌐 Language</summary>",
-        "translatedContent": "    <div>"
+        "translatedContent": "    <summary >🌐 언어</summary>"
       },
       {
         "row": 5,
         "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
         "originContent": "    <div>",
-        "translatedContent": "      <div align=\"center\">"
+        "translatedContent": "    <div>"
       },
       {
         "row": 6,
         "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
         "originContent": "      <div align=\"center\">",
-        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=en\">English</a>"
+        "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 7,
         "rowsha": "VXm11CFCU6c0P00V1MJtgDXSA1qx23s38fl7YY2lj2k=",
         "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=en\">English</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-CN\">简体中文</a>"
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=en\">English</a>"
       },
       {
         "row": 8,
         "rowsha": "n07VmR7JGemSMw0GmCty7quk8NKxcpeG6AhpOShcqyo=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-CN\">简体中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-TW\">繁體中文</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 9,
         "rowsha": "8okMnK4NaawOuw3Vf9BHeAZFAxWCnMoL2LtjG2gGixI=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-TW\">繁體中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ja\">日本語</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 10,
         "rowsha": "P32Zjpgzs3dURjiUcsi/GqV27GBcvZ0/4wB4qmorEz8=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ja\">日本語</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ko\">한국어</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ja\">日本語</a>"
       },
       {
         "row": 11,
         "rowsha": "XF0gtdd8j+Yp0vzvsH1vG3I4KHQyyAPggymyWst64K0=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ko\">한국어</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=hi\">हिन्दी</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ko\">한국어</a>"
       },
       {
         "row": 12,
         "rowsha": "1EoiZ/HAUfuV4EP+cr/4YLnaw6uDOIWaQValOVJCGoA=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=hi\">हिन्दी</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=th\">ไทย</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=hi\">हिन्दी</a>"
       },
       {
         "row": 13,
         "rowsha": "YoExaeF6hyZquxSVLQ7ycjptEpf+Oi6p638oc5D7k0Y=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=th\">ไทย</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fr\">Français</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=th\">ไทย</a>"
       },
       {
         "row": 14,
         "rowsha": "TQu+UsHE4S0TekaltqMybuHkhM8XpdssfV2wMcTD02Y=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fr\">Français</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=de\">Deutsch</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fr\">Français</a>"
       },
       {
         "row": 15,
         "rowsha": "5DNW0C0vLtFSyxTFCjxYcrzhKiZ9U9qA+Hq2I0cED0k=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=de\">Deutsch</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=es\">Español</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=de\">Deutsch</a>"
       },
       {
         "row": 16,
         "rowsha": "8X7zX3/U7yROMzybANO4S5CqbqnULwwHa1zHAk1TB3c=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=es\">Español</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=it\">Italiano</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=es\">Español</a>"
       },
       {
         "row": 17,
         "rowsha": "8SCJRos1QKFf1TGrBNtSB5TJ3pfhcQ67CXv+vrIg19A=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=it\">Italiano</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ru\">Русский</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=it\">Italiano</a>"
       },
       {
         "row": 18,
         "rowsha": "hHrPzTzvOsHEV7hq+3alGihPOHzjgArP73421WSzHYc=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ru\">Русский</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pt\">Português</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ru\">Русский</a>"
       },
       {
         "row": 19,
         "rowsha": "ozdgCrFL5iTL4ZB1IVjQ39yvsjKzHITpVZYjlLF9u84=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pt\">Português</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=nl\">Nederlands</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pt\">Português</a>"
       },
       {
         "row": 20,
         "rowsha": "y1M47oYrxVfDX9GhOSIzV5ZCTBX4WXCgU1o7XkFrDfk=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=nl\">Nederlands</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pl\">Polski</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=nl\">Nederlands</a>"
       },
       {
         "row": 21,
         "rowsha": "Ec4W0LfYmt1/UFBTGPRxPhHU5mNABFClSg+sBCIjL/o=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pl\">Polski</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ar\">العربية</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=pl\">Polski</a>"
       },
       {
         "row": 22,
         "rowsha": "tKH+ybQn3l7Wb4ndsxT9yEkvv/HCSW8zV9iG8atTdZg=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ar\">العربية</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fa\">فارسی</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=ar\">العربية</a>"
       },
       {
         "row": 23,
         "rowsha": "G4g6SLVDICJ6c/IQQLJBMknQaoNOEPaMUTi9rDQqGBc=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fa\">فارسی</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=tr\">Türkçe</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=fa\">فارسی</a>"
       },
       {
         "row": 24,
         "rowsha": "WmX4LF5jrIM8cAyjwBxwjiaJ6NxAcTBAC5AHsLDzxUk=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=tr\">Türkçe</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=vi\">Tiếng Việt</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=tr\">Türkçe</a>"
       },
       {
         "row": 25,
         "rowsha": "5Tv8ILDBo4PUEsUChwbp5eHBXm1tFFbZxzTh3WRkMlg=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=vi\">Tiếng Việt</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=id\">Bahasa Indonesia</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=vi\">Tiếng Việt</a>"
       },
       {
         "row": 26,
         "rowsha": "Xf1v/zHahQpxefrnVB1N2ZpW7y+0otS9DdKPZDYJ/ro=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=id\">Bahasa Indonesia</a>",
-        "translatedContent": "      </div>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=winjs-dev&project=winjs-plugin-security&lang=id\">Bahasa Indonesia</a>"
       },
       {
         "row": 27,
         "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
         "originContent": "      </div>",
-        "translatedContent": "    </div>"
+        "translatedContent": "      </div>"
       },
       {
         "row": 28,
         "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
         "originContent": "    </div>",
-        "translatedContent": "  </details>"
+        "translatedContent": "    </div>"
       },
       {
         "row": 29,
         "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
         "originContent": "  </details>",
-        "translatedContent": "</div>"
+        "translatedContent": "  </details>"
       },
       {
         "row": 30,
         "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
         "originContent": "</div>",
-        "translatedContent": ""
+        "translatedContent": "</div>"
       },
       {
         "row": 31,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# winjs-plugin-security"
+        "translatedContent": ""
       },
       {
         "row": 32,
         "rowsha": "wFccN2CM0J1YGLUiozHToWkjA2gmNRfxbbrQEmDcyYE=",
         "originContent": "# winjs-plugin-security",
-        "translatedContent": ""
+        "translatedContent": "# winjs-plugin-security"
       },
       {
         "row": 33,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "WinJS 프로젝트에 보안 강화 기능을 제공하는 플러그인으로, 주로 SRI(Subresource Integrity) 속성을 생성하는 데 사용됩니다."
+        "translatedContent": ""
       },
       {
         "row": 34,
         "rowsha": "W6XH1qokxgeRVySx5wekOBmO9i21cwvumKVSXoEdB/8=",
         "originContent": "一个为 WinJS 项目提供安全增强功能的插件，主要用于生成 SRI（Subresource Integrity）属性。",
-        "translatedContent": ""
+        "translatedContent": "WinJS 프로젝트에 보안 강화 기능을 제공하는 플러그인으로, 주로 SRI(Subresource Integrity) 속성 생성을 지원합니다."
       },
       {
         "row": 35,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## 기능 특성"
+        "translatedContent": ""
       },
       {
         "row": 36,
-        "rowsha": "hcZsKlpSPkTFpH/QegoKHGVWmJDSH48IDfZVw6T3YEk=",
-        "originContent": "## 功能特性",
-        "translatedContent": ""
+        "rowsha": "M/J5lGcXcoeikmB4ChB6yY6mPdYWX2f8wNdHZ9CoIJA=",
+        "originContent": "<p>",
+        "translatedContent": "<p>"
       },
       {
         "row": 37,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- HTML 파일 내 `<script>`, `<link>` 태그에 SRI 속성 자동 생성"
+        "rowsha": "H00pMvfy8T6t9hYPtg8Z3l48KfGlkrGIq4rCFqLHSwQ=",
+        "originContent": "  <a href=\"https://npmjs.com/package/@winner-fed/plugin-security\">",
+        "translatedContent": "  <a href=\"https://npmjs.com/package/@winner-fed/plugin-security\">"
       },
       {
         "row": 38,
-        "rowsha": "h/LHtXvd3J90P5WxCfQGsrvQZNJrv61OLPCX3L/cR2E=",
-        "originContent": "- 自动为 HTML 文件中的 `<script>` 和 `<link>` 标签生成 SRI 属性",
-        "translatedContent": "- SHA-256, SHA-384, SHA-512 해시 알고리즘 지원(설정 가능)"
+        "rowsha": "NXdIdwC9SLd+G4PFKimVttk/FUTuOvQ+UuvUYD+EsXU=",
+        "originContent": "   <img src=\"https://img.shields.io/npm/v/@winner-fed/plugin-security?style=flat-square&colorA=564341&colorB=EDED91\" alt=\"npm version\" />",
+        "translatedContent": "   <img src=\"https://img.shields.io/npm/v/@winner-fed/plugin-security?style=flat-square&colorA=564341&colorB=EDED91\" alt=\"npm version\" />"
       },
       {
         "row": 39,
-        "rowsha": "9QgnEULa7mBvIZMKR5W0CywDhB1/sxmFtWHGNi+0uB4=",
-        "originContent": "- 支持 SHA-256、SHA-384、SHA-512 哈希算法（可配置）",
-        "translatedContent": "- SRI가 정상 동작하도록 `crossorigin=\"anonymous\"` 속성 자동 추가"
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
       },
       {
         "row": 40,
-        "rowsha": "aVx9xL3fzzP2Kb3vPf02QOp6FWSRGdFd6v+NjTGwDpU=",
-        "originContent": "- 自动添加 `crossorigin=\"anonymous\"` 属性以确保 SRI 正常工作",
-        "translatedContent": "- 프로덕션 환경에서만 작동하며, 개발 환경에서는 자동으로 건너뜀"
+        "rowsha": "aBquF3fLa2Z7e/wVURHW/eNqFl2f6PibItAfyxKM2vE=",
+        "originContent": "  <img src=\"https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&colorA=564341&colorB=EDED91\" alt=\"license\" />",
+        "translatedContent": "  <img src=\"https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&colorA=564341&colorB=EDED91\" alt=\"license\" />"
       },
       {
         "row": 41,
-        "rowsha": "4eU52SYjvW1DV4luukN4GM88LynWouSWAwMRpJO2qsg=",
-        "originContent": "- 仅在生产环境下生效，开发环境自动跳过",
-        "translatedContent": ""
+        "rowsha": "m9n7HaCP9TNiKHvK6t5qvFg9zUnYGfknlf1FFJqk1ec=",
+        "originContent": "  <a href=\"https://npmcharts.com/compare/@winner-fed/plugin-security?minimal=true\"><img src=\"https://img.shields.io/npm/dm/@winner-fed/plugin-security.svg?style=flat-square&colorA=564341&colorB=EDED91\" alt=\"downloads\" /></a>",
+        "translatedContent": "  <a href=\"https://npmcharts.com/compare/@winner-fed/plugin-security?minimal=true\"><img src=\"https://img.shields.io/npm/dm/@winner-fed/plugin-security.svg?style=flat-square&colorA=564341&colorB=EDED91\" alt=\"downloads\" /></a>"
       },
       {
         "row": 42,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 설치"
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
       },
       {
         "row": 43,
-        "rowsha": "UMqC31ngvFKTTTEuKqsTk79HILGU8WWgF72p6TJJqbg=",
-        "originContent": "## 安装",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 44,
+        "rowsha": "hcZsKlpSPkTFpH/QegoKHGVWmJDSH48IDfZVw6T3YEk=",
+        "originContent": "## 功能特性",
+        "translatedContent": "## 기능 특성"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "h/LHtXvd3J90P5WxCfQGsrvQZNJrv61OLPCX3L/cR2E=",
+        "originContent": "- 自动为 HTML 文件中的 `<script>` 和 `<link>` 标签生成 SRI 属性",
+        "translatedContent": "- HTML 파일의 `<script>` 및 `<link>` 태그에 대해 SRI 속성을 자동 생성"
+      },
+      {
+        "row": 47,
+        "rowsha": "9QgnEULa7mBvIZMKR5W0CywDhB1/sxmFtWHGNi+0uB4=",
+        "originContent": "- 支持 SHA-256、SHA-384、SHA-512 哈希算法（可配置）",
+        "translatedContent": "- SHA-256, SHA-384, SHA-512 해시 알고리즘 지원(설정 가능)"
+      },
+      {
+        "row": 48,
+        "rowsha": "aVx9xL3fzzP2Kb3vPf02QOp6FWSRGdFd6v+NjTGwDpU=",
+        "originContent": "- 自动添加 `crossorigin=\"anonymous\"` 属性以确保 SRI 正常工作",
+        "translatedContent": "- SRI가 정상 동작하도록 `crossorigin=\"anonymous\"` 속성 자동 추가"
+      },
+      {
+        "row": 49,
+        "rowsha": "4eU52SYjvW1DV4luukN4GM88LynWouSWAwMRpJO2qsg=",
+        "originContent": "- 仅在生产环境下生效，开发环境自动跳过",
+        "translatedContent": "- 프로덕션 환경에서만 활성화, 개발 환경에서는 자동으로 건너뜀"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "UMqC31ngvFKTTTEuKqsTk79HILGU8WWgF72p6TJJqbg=",
+        "originContent": "## 安装",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 52,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

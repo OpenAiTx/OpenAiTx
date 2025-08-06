@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Language</summary>
@@ -30,17 +31,24 @@
 
 # winjs-plugin-security
 
-A plugin that provides security enhancements for WinJS projects, mainly used to generate SRI (Subresource Integrity) attributes.
+A plugin that provides security enhancements for WinJS projects, mainly used for generating SRI (Subresource Integrity) attributes.
+
+<p>
+  <a href="https://npmjs.com/package/@winner-fed/plugin-security">
+   <img src="https://img.shields.io/npm/v/@winner-fed/plugin-security?style=flat-square&colorA=564341&colorB=EDED91" alt="npm version" />
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="license" />
+  <a href="https://npmcharts.com/compare/@winner-fed/plugin-security?minimal=true"><img src="https://img.shields.io/npm/dm/@winner-fed/plugin-security.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="downloads" /></a>
+</p>
 
 ## Features
 
 - Automatically generates SRI attributes for `<script>` and `<link>` tags in HTML files
-- Supports SHA-256, SHA-384, SHA-512 hash algorithms (configurable)
+- Supports SHA-256, SHA-384, and SHA-512 hash algorithms (configurable)
 - Automatically adds `crossorigin="anonymous"` attribute to ensure SRI works properly
-- Only effective in production environments; automatically skipped in development
+- Only effective in production environments, automatically skipped in development environments
 
 ## Installation
-
 
 ```bash
 pnpm add @winner-fed/plugin-security
@@ -138,6 +146,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-06
 
 ---

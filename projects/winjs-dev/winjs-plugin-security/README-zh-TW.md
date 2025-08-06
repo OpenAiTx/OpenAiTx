@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 語言</summary>
@@ -30,17 +31,24 @@
 
 # winjs-plugin-security
 
-一個為 WinJS 專案提供安全強化功能的插件，主要用於生成 SRI（Subresource Integrity）屬性。
+一個為 WinJS 專案提供安全性增強功能的插件，主要用於生成 SRI（子資源完整性）屬性。
+
+<p>
+  <a href="https://npmjs.com/package/@winner-fed/plugin-security">
+   <img src="https://img.shields.io/npm/v/@winner-fed/plugin-security?style=flat-square&colorA=564341&colorB=EDED91" alt="npm version" />
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="license" />
+  <a href="https://npmcharts.com/compare/@winner-fed/plugin-security?minimal=true"><img src="https://img.shields.io/npm/dm/@winner-fed/plugin-security.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="downloads" /></a>
+</p>
 
 ## 功能特性
 
-- 自動為 HTML 檔案中的 `<script>` 和 `<link>` 標籤生成 SRI 屬性
+- 自動為 HTML 檔案中的 `<script>` 與 `<link>` 標籤生成 SRI 屬性
 - 支援 SHA-256、SHA-384、SHA-512 雜湊演算法（可設定）
-- 自動新增 `crossorigin="anonymous"` 屬性以確保 SRI 正常運作
-- 僅於生產環境下生效，開發環境會自動略過
+- 自動添加 `crossorigin="anonymous"` 屬性以確保 SRI 正常運作
+- 僅於生產環境下生效，開發環境自動略過
 
 ## 安裝
-
 
 ```bash
 pnpm add @winner-fed/plugin-security
@@ -138,6 +146,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-06
 
 ---

@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Dil</summary>
@@ -30,17 +31,24 @@
 
 # winjs-plugin-security
 
-WinJS projeleri için güvenlik artırıcı özellikler sağlayan ve esas olarak SRI (Alt Kaynak Bütünlüğü) özniteliği üretmek için kullanılan bir eklenti.
+WinJS projeleri için güvenlik artırma işlevleri sağlayan, özellikle SRI (Subresource Integrity) özniteliği üretmek için kullanılan bir eklenti.
+
+<p>
+  <a href="https://npmjs.com/package/@winner-fed/plugin-security">
+   <img src="https://img.shields.io/npm/v/@winner-fed/plugin-security?style=flat-square&colorA=564341&colorB=EDED91" alt="npm version" />
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="license" />
+  <a href="https://npmcharts.com/compare/@winner-fed/plugin-security?minimal=true"><img src="https://img.shields.io/npm/dm/@winner-fed/plugin-security.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="downloads" /></a>
+</p>
 
 ## Özellikler
 
 - HTML dosyalarındaki `<script>` ve `<link>` etiketlerine otomatik olarak SRI özniteliği ekler
 - SHA-256, SHA-384, SHA-512 karma algoritmalarını destekler (yapılandırılabilir)
-- SRI'nın düzgün çalışması için otomatik olarak `crossorigin="anonymous"` özniteliği ekler
-- Sadece üretim ortamında etkindir, geliştirme ortamında otomatik olarak atlanır
+- SRI'nin düzgün çalışmasını sağlamak için otomatik olarak `crossorigin="anonymous"` özniteliği ekler
+- Sadece üretim ortamında etkilidir, geliştirme ortamında otomatik olarak atlanır
 
 ## Kurulum
-
 
 ```bash
 pnpm add @winner-fed/plugin-security
@@ -138,6 +146,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-06
 
 ---
