@@ -1,0 +1,1368 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Stable Diffusion web UI\nA web interface for Stable Diffusion, implemented using Gradio library.\n\n![](https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/screenshot.png)\n\n## Features\n[Detailed feature showcase with images](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features):\n- Original txt2img and img2img modes\n- One click install and run script (but you still must install python and git)\n- Outpainting\n- Inpainting\n- Color Sketch\n- Prompt Matrix\n- Stable Diffusion Upscale\n- Attention, specify parts of text that the model should pay more attention to\n    - a man in a `((tuxedo))` - will pay more attention to tuxedo\n    - a man in a `(tuxedo:1.21)` - alternative syntax\n    - select text and press `Ctrl+Up` or `Ctrl+Down` (or `Command+Up` or `Command+Down` if you're on a MacOS) to automatically adjust attention to selected text (code contributed by anonymous user)\n- Loopback, run img2img processing multiple times\n- X/Y/Z plot, a way to draw a 3 dimensional plot of images with different parameters\n- Textual Inversion\n    - have as many embeddings as you want and use any names you like for them\n    - use multiple embeddings with different numbers of vectors per token\n    - works with half precision floating point numbers\n    - train embeddings on 8GB (also reports of 6GB working)\n- Extras tab with:\n    - GFPGAN, neural network that fixes faces\n    - CodeFormer, face restoration tool as an alternative to GFPGAN\n    - RealESRGAN, neural network upscaler\n    - ESRGAN, neural network upscaler with a lot of third party models\n    - SwinIR and Swin2SR ([see here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)), neural network upscalers\n    - LDSR, Latent diffusion super resolution upscaling\n- Resizing aspect ratio options\n- Sampling method selection\n    - Adjust sampler eta values (noise multiplier)\n    - More advanced noise setting options\n- Interrupt processing at any time\n- 4GB video card support (also reports of 2GB working)\n- Correct seeds for batches\n- Live prompt token length validation\n- Generation parameters\n     - parameters you used to generate images are saved with that image\n     - in PNG chunks for PNG, in EXIF for JPEG\n     - can drag the image to PNG info tab to restore generation parameters and automatically copy them into UI\n     - can be disabled in settings\n     - drag and drop an image/text-parameters to promptbox\n- Read Generation Parameters Button, loads parameters in promptbox to UI\n- Settings page\n- Running arbitrary python code from UI (must run with `--allow-code` to enable)\n- Mouseover hints for most UI elements\n- Possible to change defaults/mix/max/step values for UI elements via text config\n- Tiling support, a checkbox to create images that can be tiled like textures\n- Progress bar and live image generation preview\n    - Can use a separate neural network to produce previews with almost none VRAM or compute requirement\n- Negative prompt, an extra text field that allows you to list what you don't want to see in generated image\n- Styles, a way to save part of prompt and easily apply them via dropdown later\n- Variations, a way to generate same image but with tiny differences\n- Seed resizing, a way to generate same image but at slightly different resolution\n- CLIP interrogator, a button that tries to guess prompt from an image\n- Prompt Editing, a way to change prompt mid-generation, say to start making a watermelon and switch to anime girl midway\n- Batch Processing, process a group of files using img2img\n- Img2img Alternative, reverse Euler method of cross attention control\n- Highres Fix, a convenience option to produce high resolution pictures in one click without usual distortions\n- Reloading checkpoints on the fly\n- Checkpoint Merger, a tab that allows you to merge up to 3 checkpoints into one\n- [Custom scripts](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts) with many extensions from community\n- [Composable-Diffusion](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/), a way to use multiple prompts at once\n     - separate prompts using uppercase `AND`\n     - also supports weights for prompts: `a cat :1.2 AND a dog AND a penguin :2.2`\n- No token limit for prompts (original stable diffusion lets you use up to 75 tokens)\n- DeepDanbooru integration, creates danbooru style tags for anime prompts\n- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers), major speed increase for select cards: (add `--xformers` to commandline args)\n- via extension: [History tab](https://github.com/yfszzx/stable-diffusion-webui-images-browser): view, direct and delete images conveniently within the UI\n- Generate forever option\n- Training tab\n     - hypernetworks and embeddings options\n     - Preprocessing images: cropping, mirroring, autotagging using BLIP or deepdanbooru (for anime)\n- Clip skip\n- Hypernetworks\n- Loras (same as Hypernetworks but more pretty)\n- A separate UI where you can choose, with preview, which embeddings, hypernetworks or Loras to add to your prompt\n- Can select to load a different VAE from settings screen\n- Estimated completion time in progress bar\n- API\n- Support for dedicated [inpainting model](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion) by RunwayML\n- via extension: [Aesthetic Gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients), a way to generate images with a specific aesthetic by using clip images embeds (implementation of [https://github.com/vicgalle/stable-diffusion-aesthetic-gradients](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients))\n- [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion) support - see [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion-20) for instructions\n- [Alt-Diffusion](https://arxiv.org/abs/2211.06679) support - see [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion) for instructions\n- Now without any bad letters!\n- Load checkpoints in safetensors format\n- Eased resolution restriction: generated image's dimensions must be a multiple of 8 rather than 64\n- Now with a license!\n- Reorder elements in the UI from settings screen\n- [Segmind Stable Diffusion](https://huggingface.co/segmind/SSD-1B) support\n\n## Installation and Running\nMake sure the required [dependencies](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) are met and follow the instructions available for:\n- [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) (recommended)\n- [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs) GPUs.\n- [Intel CPUs, Intel GPUs (both integrated and discrete)](https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon) (external wiki page)",
+    "ContentSha": "aNSj2oomnrrjx/p1Mrl0YZuAxvyJb1q15F3ezt+rIhg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Stable Diffusion 웹 UI\nStable Diffusion을 위한 웹 인터페이스로, Gradio 라이브러리를 사용하여 구현되었습니다.\n\n![](https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/screenshot.png)\n\n## 기능\n[이미지와 함께 자세한 기능 소개](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features):\n- 원래의 txt2img 및 img2img 모드\n- 원클릭 설치 및 실행 스크립트 (하지만 여전히 python과 git은 설치해야 합니다)\n- 아웃페인팅\n- 인페인팅\n- 컬러 스케치\n- 프롬프트 매트릭스\n- Stable Diffusion 업스케일\n- 어텐션, 모델이 더 주목해야 할 텍스트 부분 지정\n    - a man in a `((tuxedo))` - tuxedo에 더 주목함\n    - a man in a `(tuxedo:1.21)` - 대체 문법\n    - 텍스트 선택 후 `Ctrl+Up` 또는 `Ctrl+Down` (MacOS에서는 `Command+Up` 또는 `Command+Down`)을 눌러 선택한 텍스트의 어텐션을 자동 조절 (익명 사용자가 기여한 코드)\n- 루프백, img2img 처리를 여러 번 실행\n- X/Y/Z 플롯, 다양한 매개변수로 이미지를 3차원 플롯으로 그리는 방법\n- 텍스추얼 인버전\n    - 원하는 만큼 임베딩을 보유하고 자유롭게 이름 지정 가능\n    - 토큰당 벡터 수가 다른 여러 임베딩 사용 가능\n    - 반정밀도 부동소수점 숫자 사용 가능\n    - 8GB에서 임베딩 훈련 가능 (6GB에서도 가능하다는 보고 있음)\n- Extras 탭에:\n    - GFPGAN, 얼굴을 복원하는 신경망\n    - CodeFormer, GFPGAN 대체 얼굴 복원 도구\n    - RealESRGAN, 신경망 업스케일러\n    - ESRGAN, 다양한 서드파티 모델을 지원하는 신경망 업스케일러\n    - SwinIR 및 Swin2SR ([여기 참조](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)), 신경망 업스케일러\n    - LDSR, 잠재 확산 초해상도 업스케일링\n- 종횡비 조절 옵션\n- 샘플링 방법 선택\n    - 샘플러 eta 값(노이즈 배수) 조절\n    - 더 고급 노이즈 설정 옵션\n- 언제든지 처리 중단 가능\n- 4GB 비디오 카드 지원 (2GB에서도 작동 보고 있음)\n- 배치별 올바른 시드 지원\n- 실시간 프롬프트 토큰 길이 검증\n- 생성 매개변수\n     - 이미지 생성에 사용된 매개변수가 해당 이미지와 함께 저장됨\n     - PNG 파일의 PNG 청크에, JPEG는 EXIF에 저장\n     - 이미지를 PNG 정보 탭으로 드래그하면 생성 매개변수를 복원하고 UI에 자동 복사\n     - 설정에서 비활성화 가능\n     - 이미지/텍스트 매개변수를 프롬프트 박스로 드래그 앤 드롭 가능\n- 생성 매개변수 읽기 버튼, 프롬프트 박스에 매개변수를 로드하여 UI에 반영\n- 설정 페이지\n- UI에서 임의의 파이썬 코드 실행 (활성화하려면 `--allow-code` 옵션 필요)\n- 대부분 UI 요소에 마우스오버 힌트 제공\n- 텍스트 구성으로 UI 요소의 기본값/최대값/최소값/단계값 변경 가능\n- 타일링 지원, 텍스처처럼 타일링 가능한 이미지 생성용 체크박스\n- 진행 바와 실시간 이미지 생성 미리보기\n    - 거의 VRAM이나 연산 요구 없이 별도의 신경망으로 미리보기 생성 가능\n- 네거티브 프롬프트, 생성 이미지에 포함하지 않을 내용을 나열할 수 있는 추가 텍스트 필드\n- 스타일, 프롬프트 일부를 저장하고 드롭다운으로 쉽게 적용 가능\n- 변형, 거의 동일하지만 약간 다른 이미지를 생성하는 방법\n- 시드 크기 조절, 약간 다른 해상도로 동일한 이미지 생성 방법\n- CLIP 인터로게이터, 이미지에서 프롬프트를 추측하는 버튼\n- 프롬프트 편집, 생성 중간에 프롬프트 변경 가능 (예: 수박을 만들다 중간에 애니메이션 소녀로 변경)\n- 배치 처리, img2img를 사용하여 여러 파일 일괄 처리\n- Img2img 대체, 역 오일러 방식의 교차 어텐션 제어\n- 고해상도 수정, 일반 왜곡 없이 원클릭으로 고해상도 이미지 생성 편의 옵션\n- 체크포인트를 실시간으로 다시 로드\n- 체크포인트 병합기, 최대 3개의 체크포인트를 하나로 병합하는 탭\n- [커스텀 스크립트](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts), 커뮤니티에서 제공하는 다양한 확장 기능\n- [Composable-Diffusion](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/), 여러 프롬프트를 동시에 사용하는 방법\n     - 대문자 `AND`로 프롬프트 구분\n     - 프롬프트 가중치도 지원: `a cat :1.2 AND a dog AND a penguin :2.2`\n- 프롬프트 토큰 제한 없음 (원래 stable diffusion은 최대 75토큰 사용 가능)\n- DeepDanbooru 통합, 애니메이션 프롬프트에 대해 단보루 스타일 태그 생성\n- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers), 일부 그래픽 카드에서 속도 대폭 향상: (명령줄 인자에 `--xformers` 추가)\n- 확장 기능으로: [히스토리 탭](https://github.com/yfszzx/stable-diffusion-webui-images-browser), UI 내에서 이미지 보기, 직접 접근 및 삭제 가능\n- 무한 생성 옵션\n- 훈련 탭\n     - 하이퍼네트워크 및 임베딩 옵션\n     - 이미지 전처리: 자르기, 미러링, BLIP 또는 deepdanbooru(애니용)를 이용한 자동 태깅\n- 클립 스킵\n- 하이퍼네트워크\n- 로라(Loras) (하이퍼네트워크와 같지만 더 예쁘게)\n- 임베딩, 하이퍼네트워크 또는 로라를 미리보기와 함께 선택할 수 있는 별도 UI\n- 설정 화면에서 다른 VAE 로드 선택 가능\n- 진행 바에 예상 완료 시간 표시\n- API\n- RunwayML의 전용 [인페인팅 모델](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion) 지원\n- 확장 기능으로: [미적 그라디언트](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients), 클립 이미지 임베드를 사용해 특정 미학의 이미지 생성 방법 ([https://github.com/vicgalle/stable-diffusion-aesthetic-gradients](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients) 구현)\n- [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion) 지원 - [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion-20)에서 사용법 참고\n- [Alt-Diffusion](https://arxiv.org/abs/2211.06679) 지원 - [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion)에서 사용법 참고\n- 이제 나쁜 글자 없음!\n- safetensors 형식의 체크포인트 로드\n- 해상도 제한 완화: 생성 이미지 크기는 64가 아닌 8의 배수여야 함\n- 이제 라이선스 포함!\n- 설정 화면에서 UI 요소 순서 변경 가능\n- [Segmind Stable Diffusion](https://huggingface.co/segmind/SSD-1B) 지원\n\n## 설치 및 실행\n필요한 [종속성](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies)이 충족되는지 확인하고 다음 지침을 따르세요:\n- [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) (권장)\n- [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs) GPU\n- [Intel CPU, Intel GPU (통합 및 별도)](https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon) (외부 wiki 페이지)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0NgM9p6GcKCmThRP8YIrZAANTHDeEO61jzTAXezNRbw=",
+        "originContent": "# Stable Diffusion web UI",
+        "translatedContent": "# Stable Diffusion 웹 UI"
+      },
+      {
+        "row": 2,
+        "rowsha": "KtYRWGnqOPybukDOeihZ9YzOmbUDESxCNLJmgDgEgg4=",
+        "originContent": "A web interface for Stable Diffusion, implemented using Gradio library.",
+        "translatedContent": "Stable Diffusion을 위한 웹 인터페이스로, Gradio 라이브러리를 사용하여 구현되었습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "1Aem4P04SakaDKKhR+3S/wcw7+YGsOUr3BKUeKnRRvc=",
+        "originContent": "![](https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/screenshot.png)",
+        "translatedContent": "![](https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/screenshot.png)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 7,
+        "rowsha": "K/b3BPvywYFQlOJnwExVueX97wkbAfylch3xXicmny4=",
+        "originContent": "[Detailed feature showcase with images](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features):",
+        "translatedContent": "[이미지와 함께 자세한 기능 소개](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features):"
+      },
+      {
+        "row": 8,
+        "rowsha": "vsc+BIItMPVPhJBABKgCTNfT3AZbeo6UNcOJOpxy0vk=",
+        "originContent": "- Original txt2img and img2img modes",
+        "translatedContent": "- 원래의 txt2img 및 img2img 모드"
+      },
+      {
+        "row": 9,
+        "rowsha": "UOiOweckCoVpz/Tb0gw4/FSNg9Rm48FmllmDaDtRJCA=",
+        "originContent": "- One click install and run script (but you still must install python and git)",
+        "translatedContent": "- 원클릭 설치 및 실행 스크립트 (하지만 여전히 python과 git은 설치해야 합니다)"
+      },
+      {
+        "row": 10,
+        "rowsha": "grC9rV2H6S8i3uFWmbr9+RzPYWARu7FotaPPm4avIY0=",
+        "originContent": "- Outpainting",
+        "translatedContent": "- 아웃페인팅"
+      },
+      {
+        "row": 11,
+        "rowsha": "xWXblTdxCkwBGN9BQLuCoAnbmMjjLUN4pBdAbyNqowc=",
+        "originContent": "- Inpainting",
+        "translatedContent": "- 인페인팅"
+      },
+      {
+        "row": 12,
+        "rowsha": "chxK8pU8dzgHlkqk1HjwZtTTrP401lxMWvHrVz+/OHI=",
+        "originContent": "- Color Sketch",
+        "translatedContent": "- 컬러 스케치"
+      },
+      {
+        "row": 13,
+        "rowsha": "mhGi9tXlYhY0K3NUp2WoICMFzaAxaa9E29ENnbMROh8=",
+        "originContent": "- Prompt Matrix",
+        "translatedContent": "- 프롬프트 매트릭스"
+      },
+      {
+        "row": 14,
+        "rowsha": "QMOhnJniQbUnkLye5pSzL3CBeByQT5KV4WlCDOZJVCA=",
+        "originContent": "- Stable Diffusion Upscale",
+        "translatedContent": "- Stable Diffusion 업스케일"
+      },
+      {
+        "row": 15,
+        "rowsha": "DPrtgRettXf+PhsCObP+U2MgnI44a2QWnIZNABVON6k=",
+        "originContent": "- Attention, specify parts of text that the model should pay more attention to",
+        "translatedContent": "- 어텐션, 모델이 더 주목해야 할 텍스트 부분 지정"
+      },
+      {
+        "row": 16,
+        "rowsha": "WxbreT1rge3NXS/TR7LzNG8rLAmqrKJVrmV2hkrTjlo=",
+        "originContent": "    - a man in a `((tuxedo))` - will pay more attention to tuxedo",
+        "translatedContent": "    - a man in a `((tuxedo))` - tuxedo에 더 주목함"
+      },
+      {
+        "row": 17,
+        "rowsha": "D7uLlVXTbPkceLlReF7DyiEqEfbxsh8QCqsHLj09tJo=",
+        "originContent": "    - a man in a `(tuxedo:1.21)` - alternative syntax",
+        "translatedContent": "    - a man in a `(tuxedo:1.21)` - 대체 문법"
+      },
+      {
+        "row": 18,
+        "rowsha": "icPjBr37BVNBp/lw5eqLBV708Fo25jcN0QpymBOK3xU=",
+        "originContent": "    - select text and press `Ctrl+Up` or `Ctrl+Down` (or `Command+Up` or `Command+Down` if you're on a MacOS) to automatically adjust attention to selected text (code contributed by anonymous user)",
+        "translatedContent": "    - 텍스트 선택 후 `Ctrl+Up` 또는 `Ctrl+Down` (MacOS에서는 `Command+Up` 또는 `Command+Down`)을 눌러 선택한 텍스트의 어텐션을 자동 조절 (익명 사용자가 기여한 코드)"
+      },
+      {
+        "row": 19,
+        "rowsha": "0za7l8E6fhqCgF1kguRXxyXe5XllaNdPyYk3Gs+mUzU=",
+        "originContent": "- Loopback, run img2img processing multiple times",
+        "translatedContent": "- 루프백, img2img 처리를 여러 번 실행"
+      },
+      {
+        "row": 20,
+        "rowsha": "hmcvShOCwQFWWZq0xRd+xym+uk1UJwaNJeurN8OVwHE=",
+        "originContent": "- X/Y/Z plot, a way to draw a 3 dimensional plot of images with different parameters",
+        "translatedContent": "- X/Y/Z 플롯, 다양한 매개변수로 이미지를 3차원 플롯으로 그리는 방법"
+      },
+      {
+        "row": 21,
+        "rowsha": "oL8gTpo4FLKYYR0Vo7ZYZaWN8RwOeK2zCzIMBTQE+50=",
+        "originContent": "- Textual Inversion",
+        "translatedContent": "- 텍스추얼 인버전"
+      },
+      {
+        "row": 22,
+        "rowsha": "zayCtBGYmnWZnsb514IJSo1biVZ8wtkkoQfzTs32agM=",
+        "originContent": "    - have as many embeddings as you want and use any names you like for them",
+        "translatedContent": "    - 원하는 만큼 임베딩을 보유하고 자유롭게 이름 지정 가능"
+      },
+      {
+        "row": 23,
+        "rowsha": "Z8ndCC4XDFCqJ3SHZ2TozpjJmYCLwlc2O6PUCefkUGE=",
+        "originContent": "    - use multiple embeddings with different numbers of vectors per token",
+        "translatedContent": "    - 토큰당 벡터 수가 다른 여러 임베딩 사용 가능"
+      },
+      {
+        "row": 24,
+        "rowsha": "N6WHpCwXFyyb0fUTIyzTdETo79uOtDPOU0Rn8n/Cj+Q=",
+        "originContent": "    - works with half precision floating point numbers",
+        "translatedContent": "    - 반정밀도 부동소수점 숫자 사용 가능"
+      },
+      {
+        "row": 25,
+        "rowsha": "XzzU6XjGMv1XDlFXZp1IfJkDGliIWRAEC4Wcg3MP9G0=",
+        "originContent": "    - train embeddings on 8GB (also reports of 6GB working)",
+        "translatedContent": "    - 8GB에서 임베딩 훈련 가능 (6GB에서도 가능하다는 보고 있음)"
+      },
+      {
+        "row": 26,
+        "rowsha": "9q8rICZ/w/YFW9gNIFYBrSzm6KYC5CBkMWtqTnbm+9M=",
+        "originContent": "- Extras tab with:",
+        "translatedContent": "- Extras 탭에:"
+      },
+      {
+        "row": 27,
+        "rowsha": "6W1XaCggy+1qwkZohA0FImCbOHhnP+OYs/zixS3NB3M=",
+        "originContent": "    - GFPGAN, neural network that fixes faces",
+        "translatedContent": "    - GFPGAN, 얼굴을 복원하는 신경망"
+      },
+      {
+        "row": 28,
+        "rowsha": "hIC85W965ddMKALrWyZwlno+pOcRzRHTp3SqaqI32Y0=",
+        "originContent": "    - CodeFormer, face restoration tool as an alternative to GFPGAN",
+        "translatedContent": "    - CodeFormer, GFPGAN 대체 얼굴 복원 도구"
+      },
+      {
+        "row": 29,
+        "rowsha": "zOtIuIdDZieWJ0ETc2xLGoLIlE52mV+gYYTvxgoQ+gk=",
+        "originContent": "    - RealESRGAN, neural network upscaler",
+        "translatedContent": "    - RealESRGAN, 신경망 업스케일러"
+      },
+      {
+        "row": 30,
+        "rowsha": "gQJ8Gr4tymeacpIHGMeBapDf0C1GnjygalvouZGQwnU=",
+        "originContent": "    - ESRGAN, neural network upscaler with a lot of third party models",
+        "translatedContent": "    - ESRGAN, 다양한 서드파티 모델을 지원하는 신경망 업스케일러"
+      },
+      {
+        "row": 31,
+        "rowsha": "l1Cy3QXAUO/ByzWPnP9sEqk+4BHkZD8Qx5/PnNA/urY=",
+        "originContent": "    - SwinIR and Swin2SR ([see here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)), neural network upscalers",
+        "translatedContent": "    - SwinIR 및 Swin2SR ([여기 참조](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)), 신경망 업스케일러"
+      },
+      {
+        "row": 32,
+        "rowsha": "law7rMPN+VceyzREzX8Z61zQgzhnAEu9z511UzD+WkQ=",
+        "originContent": "    - LDSR, Latent diffusion super resolution upscaling",
+        "translatedContent": "    - LDSR, 잠재 확산 초해상도 업스케일링"
+      },
+      {
+        "row": 33,
+        "rowsha": "c8+kazPWjav2M9iniqc0iOG2rJUwmWC7JJ4smGBXkyY=",
+        "originContent": "- Resizing aspect ratio options",
+        "translatedContent": "- 종횡비 조절 옵션"
+      },
+      {
+        "row": 34,
+        "rowsha": "1kfkfMBDycQ21DSwi4/kko5ZlMFUQdCb7tkFk32a6qI=",
+        "originContent": "- Sampling method selection",
+        "translatedContent": "- 샘플링 방법 선택"
+      },
+      {
+        "row": 35,
+        "rowsha": "8QRkC7RzOfhKLy6uNm3Zeg0hgPHYofsZo2W9QC9vjTY=",
+        "originContent": "    - Adjust sampler eta values (noise multiplier)",
+        "translatedContent": "    - 샘플러 eta 값(노이즈 배수) 조절"
+      },
+      {
+        "row": 36,
+        "rowsha": "yoKJDEqliiDsX+r+7JdZQGBI4Jc7PZr2UfbebQseHTw=",
+        "originContent": "    - More advanced noise setting options",
+        "translatedContent": "    - 더 고급 노이즈 설정 옵션"
+      },
+      {
+        "row": 37,
+        "rowsha": "XgaTobbGDiN98EQkMkRN6wHXphJjxsdG8wPRP35xnEk=",
+        "originContent": "- Interrupt processing at any time",
+        "translatedContent": "- 언제든지 처리 중단 가능"
+      },
+      {
+        "row": 38,
+        "rowsha": "eYwi9cHHABaElqzLW5x4ND93PcaCPuVOLt9O+d7Pfek=",
+        "originContent": "- 4GB video card support (also reports of 2GB working)",
+        "translatedContent": "- 4GB 비디오 카드 지원 (2GB에서도 작동 보고 있음)"
+      },
+      {
+        "row": 39,
+        "rowsha": "iHSaf0Rpsn6Fqe03QoEbQNclE36Yq93FPBrBtcfSEyY=",
+        "originContent": "- Correct seeds for batches",
+        "translatedContent": "- 배치별 올바른 시드 지원"
+      },
+      {
+        "row": 40,
+        "rowsha": "9knhcIdDjpIo4CE3LCFGS35Rd8aEllDx1YxU3BejM7g=",
+        "originContent": "- Live prompt token length validation",
+        "translatedContent": "- 실시간 프롬프트 토큰 길이 검증"
+      },
+      {
+        "row": 41,
+        "rowsha": "Af++uw/lnxWsDbH6BlwLbugiEKWWoneAp0EHjJ98IXo=",
+        "originContent": "- Generation parameters",
+        "translatedContent": "- 생성 매개변수"
+      },
+      {
+        "row": 42,
+        "rowsha": "6BPGiqOLtmzdJmr6j/HerRex3vliQdphBrygWfC+Tdw=",
+        "originContent": "     - parameters you used to generate images are saved with that image",
+        "translatedContent": "     - 이미지 생성에 사용된 매개변수가 해당 이미지와 함께 저장됨"
+      },
+      {
+        "row": 43,
+        "rowsha": "B8Jkl7tCTZMfbTpA3wuJEJvh05V7glmvc+YFXeMQ0Ks=",
+        "originContent": "     - in PNG chunks for PNG, in EXIF for JPEG",
+        "translatedContent": "     - PNG 파일의 PNG 청크에, JPEG는 EXIF에 저장"
+      },
+      {
+        "row": 44,
+        "rowsha": "YfGxY4IsjSS8CR56fzkHyow3pPTW/l1cJzwqzHTDxUc=",
+        "originContent": "     - can drag the image to PNG info tab to restore generation parameters and automatically copy them into UI",
+        "translatedContent": "     - 이미지를 PNG 정보 탭으로 드래그하면 생성 매개변수를 복원하고 UI에 자동 복사"
+      },
+      {
+        "row": 45,
+        "rowsha": "npLwfTGHeRsgu+TdkOosXBQ7q3geDWINx90A0gRVZdg=",
+        "originContent": "     - can be disabled in settings",
+        "translatedContent": "     - 설정에서 비활성화 가능"
+      },
+      {
+        "row": 46,
+        "rowsha": "vdwDPG57pwEFpsRFYoxwOhkOOa17VCfN+3RM3vDU3qk=",
+        "originContent": "     - drag and drop an image/text-parameters to promptbox",
+        "translatedContent": "     - 이미지/텍스트 매개변수를 프롬프트 박스로 드래그 앤 드롭 가능"
+      },
+      {
+        "row": 47,
+        "rowsha": "BVGuTe5PG2QP9rBP82jJWswWqSQuvyg/Cbcw/hL/R8Y=",
+        "originContent": "- Read Generation Parameters Button, loads parameters in promptbox to UI",
+        "translatedContent": "- 생성 매개변수 읽기 버튼, 프롬프트 박스에 매개변수를 로드하여 UI에 반영"
+      },
+      {
+        "row": 48,
+        "rowsha": "Im0BYfwXMDonr3AHaq0cjx5+pK03L0tzwo0v+DajkhA=",
+        "originContent": "- Settings page",
+        "translatedContent": "- 설정 페이지"
+      },
+      {
+        "row": 49,
+        "rowsha": "HSCPv33re32KtR4xyYCrnD0+JE3JuUl/FDEzokCk7fo=",
+        "originContent": "- Running arbitrary python code from UI (must run with `--allow-code` to enable)",
+        "translatedContent": "- UI에서 임의의 파이썬 코드 실행 (활성화하려면 `--allow-code` 옵션 필요)"
+      },
+      {
+        "row": 50,
+        "rowsha": "OfP5/6B+qnnlpGuNaQ9GJPD1zMrqf/cr0G/H/p5o9to=",
+        "originContent": "- Mouseover hints for most UI elements",
+        "translatedContent": "- 대부분 UI 요소에 마우스오버 힌트 제공"
+      },
+      {
+        "row": 51,
+        "rowsha": "r1XqA3mFXKLVx1lUl6TXfXTyeEK1VJqlxxf9g2L4yuQ=",
+        "originContent": "- Possible to change defaults/mix/max/step values for UI elements via text config",
+        "translatedContent": "- 텍스트 구성으로 UI 요소의 기본값/최대값/최소값/단계값 변경 가능"
+      },
+      {
+        "row": 52,
+        "rowsha": "e10Kgfo6ThIelwyBy6bpcgOov3hRNSZwd2IerXNoerQ=",
+        "originContent": "- Tiling support, a checkbox to create images that can be tiled like textures",
+        "translatedContent": "- 타일링 지원, 텍스처처럼 타일링 가능한 이미지 생성용 체크박스"
+      },
+      {
+        "row": 53,
+        "rowsha": "zlGoaym0Tsq1Gm4bvn8A3X080g202ChrS1y+AQbl3Nk=",
+        "originContent": "- Progress bar and live image generation preview",
+        "translatedContent": "- 진행 바와 실시간 이미지 생성 미리보기"
+      },
+      {
+        "row": 54,
+        "rowsha": "tCs8Iba7YgEp2dD83lJgLD8k+00TQX1Vz/duauL6OGk=",
+        "originContent": "    - Can use a separate neural network to produce previews with almost none VRAM or compute requirement",
+        "translatedContent": "    - 거의 VRAM이나 연산 요구 없이 별도의 신경망으로 미리보기 생성 가능"
+      },
+      {
+        "row": 55,
+        "rowsha": "eg+SCqyAtATnNgqGrp6WAG3Syi1t9cDTxLIcW7O7Bjc=",
+        "originContent": "- Negative prompt, an extra text field that allows you to list what you don't want to see in generated image",
+        "translatedContent": "- 네거티브 프롬프트, 생성 이미지에 포함하지 않을 내용을 나열할 수 있는 추가 텍스트 필드"
+      },
+      {
+        "row": 56,
+        "rowsha": "o2duHBDr+SDRMAP5IegRCAuBYYD21wWnnL42M11m3J8=",
+        "originContent": "- Styles, a way to save part of prompt and easily apply them via dropdown later",
+        "translatedContent": "- 스타일, 프롬프트 일부를 저장하고 드롭다운으로 쉽게 적용 가능"
+      },
+      {
+        "row": 57,
+        "rowsha": "GzASGaBMg5m34ATAuHhjII+UFQdUqON0HwIjAItfn50=",
+        "originContent": "- Variations, a way to generate same image but with tiny differences",
+        "translatedContent": "- 변형, 거의 동일하지만 약간 다른 이미지를 생성하는 방법"
+      },
+      {
+        "row": 58,
+        "rowsha": "PGtIHkUTmtaXNvP99gVThu682e67Ww7zH2Kkos/pJXM=",
+        "originContent": "- Seed resizing, a way to generate same image but at slightly different resolution",
+        "translatedContent": "- 시드 크기 조절, 약간 다른 해상도로 동일한 이미지 생성 방법"
+      },
+      {
+        "row": 59,
+        "rowsha": "39Tjd5gZQrgwudiNwJcWmeESKcQrYQyuuBItAhP+WX0=",
+        "originContent": "- CLIP interrogator, a button that tries to guess prompt from an image",
+        "translatedContent": "- CLIP 인터로게이터, 이미지에서 프롬프트를 추측하는 버튼"
+      },
+      {
+        "row": 60,
+        "rowsha": "8NvBKu+FTjNr8KEsVYoWe8u3hnALX9Jfb7ATHT+CVOg=",
+        "originContent": "- Prompt Editing, a way to change prompt mid-generation, say to start making a watermelon and switch to anime girl midway",
+        "translatedContent": "- 프롬프트 편집, 생성 중간에 프롬프트 변경 가능 (예: 수박을 만들다 중간에 애니메이션 소녀로 변경)"
+      },
+      {
+        "row": 61,
+        "rowsha": "MlxCJEqKLV+ErQ+8JFzwPp8Ks/671+Ms1Ymqnlsk1GQ=",
+        "originContent": "- Batch Processing, process a group of files using img2img",
+        "translatedContent": "- 배치 처리, img2img를 사용하여 여러 파일 일괄 처리"
+      },
+      {
+        "row": 62,
+        "rowsha": "amTTuvq9/ijmpz4NxJCKxBNDS1Ck6rF1SM7bF5zZqnI=",
+        "originContent": "- Img2img Alternative, reverse Euler method of cross attention control",
+        "translatedContent": "- Img2img 대체, 역 오일러 방식의 교차 어텐션 제어"
+      },
+      {
+        "row": 63,
+        "rowsha": "7Irzxs5eLxPrncAKCAesEEb160NzaJ+B2kwPMnDGEtk=",
+        "originContent": "- Highres Fix, a convenience option to produce high resolution pictures in one click without usual distortions",
+        "translatedContent": "- 고해상도 수정, 일반 왜곡 없이 원클릭으로 고해상도 이미지 생성 편의 옵션"
+      },
+      {
+        "row": 64,
+        "rowsha": "z6+0Sz/Q6UDZzF5Dnj300MuV0FQRXlDHVODFM9VqeMQ=",
+        "originContent": "- Reloading checkpoints on the fly",
+        "translatedContent": "- 체크포인트를 실시간으로 다시 로드"
+      },
+      {
+        "row": 65,
+        "rowsha": "KFzXuOHSN1oqdPcfniCX8Jl1FrSa61eeysv7LxbNgp0=",
+        "originContent": "- Checkpoint Merger, a tab that allows you to merge up to 3 checkpoints into one",
+        "translatedContent": "- 체크포인트 병합기, 최대 3개의 체크포인트를 하나로 병합하는 탭"
+      },
+      {
+        "row": 66,
+        "rowsha": "5l9CAHq75/+cHcdmkR9vh9f3KIoUGeMfEhcACaQpW9M=",
+        "originContent": "- [Custom scripts](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts) with many extensions from community",
+        "translatedContent": "- [커스텀 스크립트](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts), 커뮤니티에서 제공하는 다양한 확장 기능"
+      },
+      {
+        "row": 67,
+        "rowsha": "Rx80f2hre+EAx9NPevOtmOOTK1I3sIifx60NoQz0nYY=",
+        "originContent": "- [Composable-Diffusion](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/), a way to use multiple prompts at once",
+        "translatedContent": "- [Composable-Diffusion](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/), 여러 프롬프트를 동시에 사용하는 방법"
+      },
+      {
+        "row": 68,
+        "rowsha": "Q4RN2uOXf4E2bRblJd/LRZlF+/Hk0Aw5NeGMuOCINKc=",
+        "originContent": "     - separate prompts using uppercase `AND`",
+        "translatedContent": "     - 대문자 `AND`로 프롬프트 구분"
+      },
+      {
+        "row": 69,
+        "rowsha": "+VWyyDxjULdo10fLXrmJc1hDxUE9OwDBGPXWJm0/OTY=",
+        "originContent": "     - also supports weights for prompts: `a cat :1.2 AND a dog AND a penguin :2.2`",
+        "translatedContent": "     - 프롬프트 가중치도 지원: `a cat :1.2 AND a dog AND a penguin :2.2`"
+      },
+      {
+        "row": 70,
+        "rowsha": "pOvYY0jKLn9Ih64MfFPRAXyepUFEwQ/D417abJHdJW4=",
+        "originContent": "- No token limit for prompts (original stable diffusion lets you use up to 75 tokens)",
+        "translatedContent": "- 프롬프트 토큰 제한 없음 (원래 stable diffusion은 최대 75토큰 사용 가능)"
+      },
+      {
+        "row": 71,
+        "rowsha": "T5Ews2slDUK7R/kkkeQPCKyOGnCez4gfl2vybF+YTpw=",
+        "originContent": "- DeepDanbooru integration, creates danbooru style tags for anime prompts",
+        "translatedContent": "- DeepDanbooru 통합, 애니메이션 프롬프트에 대해 단보루 스타일 태그 생성"
+      },
+      {
+        "row": 72,
+        "rowsha": "zCQdAX8rCfqQ6E+fc12qa6dDwh4FxXFQ9jVaYc7Cm/s=",
+        "originContent": "- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers), major speed increase for select cards: (add `--xformers` to commandline args)",
+        "translatedContent": "- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers), 일부 그래픽 카드에서 속도 대폭 향상: (명령줄 인자에 `--xformers` 추가)"
+      },
+      {
+        "row": 73,
+        "rowsha": "bOV+MlqUOd2dqMRIUhwsYRZz1pxUrlNg4bFhsGLjjvQ=",
+        "originContent": "- via extension: [History tab](https://github.com/yfszzx/stable-diffusion-webui-images-browser): view, direct and delete images conveniently within the UI",
+        "translatedContent": "- 확장 기능으로: [히스토리 탭](https://github.com/yfszzx/stable-diffusion-webui-images-browser), UI 내에서 이미지 보기, 직접 접근 및 삭제 가능"
+      },
+      {
+        "row": 74,
+        "rowsha": "ecKDgbU0llmrNUd2feuVhcQfCDN+DoJTZzNn+k0OWLQ=",
+        "originContent": "- Generate forever option",
+        "translatedContent": "- 무한 생성 옵션"
+      },
+      {
+        "row": 75,
+        "rowsha": "6W+dFaMhrPGBGBk7ReWR1tNr4rQPa1NlWILpw7NDGM0=",
+        "originContent": "- Training tab",
+        "translatedContent": "- 훈련 탭"
+      },
+      {
+        "row": 76,
+        "rowsha": "/qw1r4Uniu4crBehh7c1ZsXOHVedutvmldRGA3XuiIE=",
+        "originContent": "     - hypernetworks and embeddings options",
+        "translatedContent": "     - 하이퍼네트워크 및 임베딩 옵션"
+      },
+      {
+        "row": 77,
+        "rowsha": "1XLokKc60MQUXjt/3EVpfucWeCmH/K+mR/lqM26cu+U=",
+        "originContent": "     - Preprocessing images: cropping, mirroring, autotagging using BLIP or deepdanbooru (for anime)",
+        "translatedContent": "     - 이미지 전처리: 자르기, 미러링, BLIP 또는 deepdanbooru(애니용)를 이용한 자동 태깅"
+      },
+      {
+        "row": 78,
+        "rowsha": "21aXYSmeZIPHtdagOaFcTfOI+XveS2PQagG0GM3YgjY=",
+        "originContent": "- Clip skip",
+        "translatedContent": "- 클립 스킵"
+      },
+      {
+        "row": 79,
+        "rowsha": "JZ/9gFDcdl/sxtcPPh5p9tJKGQdHMh0/9iKAz42c1ZA=",
+        "originContent": "- Hypernetworks",
+        "translatedContent": "- 하이퍼네트워크"
+      },
+      {
+        "row": 80,
+        "rowsha": "Da7mqKKbWbdshnWLUZ5Wut8n/aL1xyh7CyR+KTumREA=",
+        "originContent": "- Loras (same as Hypernetworks but more pretty)",
+        "translatedContent": "- 로라(Loras) (하이퍼네트워크와 같지만 더 예쁘게)"
+      },
+      {
+        "row": 81,
+        "rowsha": "daZfNbTZk+f91PC+nP6J1GmlzjZIN8QG8gfqxuejC1c=",
+        "originContent": "- A separate UI where you can choose, with preview, which embeddings, hypernetworks or Loras to add to your prompt",
+        "translatedContent": "- 임베딩, 하이퍼네트워크 또는 로라를 미리보기와 함께 선택할 수 있는 별도 UI"
+      },
+      {
+        "row": 82,
+        "rowsha": "Ka2QIhK/gqx8esDkoM4n3VoOEIBF/3PzlyaljKuiV6E=",
+        "originContent": "- Can select to load a different VAE from settings screen",
+        "translatedContent": "- 설정 화면에서 다른 VAE 로드 선택 가능"
+      },
+      {
+        "row": 83,
+        "rowsha": "fF3KcWEO0YxEq1KOwFFWUMYrdEnZofXavePNvxgaGb4=",
+        "originContent": "- Estimated completion time in progress bar",
+        "translatedContent": "- 진행 바에 예상 완료 시간 표시"
+      },
+      {
+        "row": 84,
+        "rowsha": "8X1cguYfqwuFWlIGov7l4er6QmGbdc84+kJ1I2jEGHg=",
+        "originContent": "- API",
+        "translatedContent": "- API"
+      },
+      {
+        "row": 85,
+        "rowsha": "G/8oxAt8mV8fjy2brUEOsbdwDKBuBSL4joky79RKs5g=",
+        "originContent": "- Support for dedicated [inpainting model](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion) by RunwayML",
+        "translatedContent": "- RunwayML의 전용 [인페인팅 모델](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion) 지원"
+      },
+      {
+        "row": 86,
+        "rowsha": "sAcTlsc3PZjpf+/30LVn8ocOiY6MnNZzVpzH/hrd2eU=",
+        "originContent": "- via extension: [Aesthetic Gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients), a way to generate images with a specific aesthetic by using clip images embeds (implementation of [https://github.com/vicgalle/stable-diffusion-aesthetic-gradients](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients))",
+        "translatedContent": "- 확장 기능으로: [미적 그라디언트](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients), 클립 이미지 임베드를 사용해 특정 미학의 이미지 생성 방법 ([https://github.com/vicgalle/stable-diffusion-aesthetic-gradients](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients) 구현)"
+      },
+      {
+        "row": 87,
+        "rowsha": "ivS17hZgGyI3o279jTsbsam86FSs5GAtECK98kKlwm8=",
+        "originContent": "- [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion) support - see [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion-20) for instructions",
+        "translatedContent": "- [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion) 지원 - [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion-20)에서 사용법 참고"
+      },
+      {
+        "row": 88,
+        "rowsha": "TGgRDThmCL2OSBOoo2VoOPMc2gI2a77MD/MJw1C7jm8=",
+        "originContent": "- [Alt-Diffusion](https://arxiv.org/abs/2211.06679) support - see [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion) for instructions",
+        "translatedContent": "- [Alt-Diffusion](https://arxiv.org/abs/2211.06679) 지원 - [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion)에서 사용법 참고"
+      },
+      {
+        "row": 89,
+        "rowsha": "rACfoJ0h6JdV6oqB1AMdqCRBZB78KlGBmYbr3IaD8Z4=",
+        "originContent": "- Now without any bad letters!",
+        "translatedContent": "- 이제 나쁜 글자 없음!"
+      },
+      {
+        "row": 90,
+        "rowsha": "VtnZwwalzvKYCk61/RkIlJAV1LbVFfYNirfCg2OCFNQ=",
+        "originContent": "- Load checkpoints in safetensors format",
+        "translatedContent": "- safetensors 형식의 체크포인트 로드"
+      },
+      {
+        "row": 91,
+        "rowsha": "cHVi/M5fYerhe0IFB6Gf/eAtGrtBzSO8qa7Hkq8XSoE=",
+        "originContent": "- Eased resolution restriction: generated image's dimensions must be a multiple of 8 rather than 64",
+        "translatedContent": "- 해상도 제한 완화: 생성 이미지 크기는 64가 아닌 8의 배수여야 함"
+      },
+      {
+        "row": 92,
+        "rowsha": "RpXNTiG1xf2QS07ORC49xc1jtoACRuhqOUxQnWLXI0E=",
+        "originContent": "- Now with a license!",
+        "translatedContent": "- 이제 라이선스 포함!"
+      },
+      {
+        "row": 93,
+        "rowsha": "PGx1vfu0g6GDcdv+qT3MQWsHTyf49nqWDTgvcrNMIPg=",
+        "originContent": "- Reorder elements in the UI from settings screen",
+        "translatedContent": "- 설정 화면에서 UI 요소 순서 변경 가능"
+      },
+      {
+        "row": 94,
+        "rowsha": "dvS3tsw5wHJdHf0UJqfFeBuX8VXpzWlZjZpkrygJL5Q=",
+        "originContent": "- [Segmind Stable Diffusion](https://huggingface.co/segmind/SSD-1B) support",
+        "translatedContent": "- [Segmind Stable Diffusion](https://huggingface.co/segmind/SSD-1B) 지원"
+      },
+      {
+        "row": 95,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 96,
+        "rowsha": "ZNpf3ZXHnelbII83qAbP7bMs+7T16YDCoev9KgNnQ3c=",
+        "originContent": "## Installation and Running",
+        "translatedContent": "## 설치 및 실행"
+      },
+      {
+        "row": 97,
+        "rowsha": "U9gGtfa34bv1RCWBUysr0C9Vv/BywI2WeEkkn/ujtLU=",
+        "originContent": "Make sure the required [dependencies](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) are met and follow the instructions available for:",
+        "translatedContent": "필요한 [종속성](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies)이 충족되는지 확인하고 다음 지침을 따르세요:"
+      },
+      {
+        "row": 98,
+        "rowsha": "waetxRu2un9wyLN2KZMoGMY8kqXTtPf8IuJ3o8ByGx0=",
+        "originContent": "- [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) (recommended)",
+        "translatedContent": "- [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) (권장)"
+      },
+      {
+        "row": 99,
+        "rowsha": "/fvYw+/CkdTrzo3jyW0s2MNb6L+iWR7rtVsjouqhNmY=",
+        "originContent": "- [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs) GPUs.",
+        "translatedContent": "- [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs) GPU"
+      },
+      {
+        "row": 100,
+        "rowsha": "zVYFxPHXK5k/7+x25iYOR68mUVVN4l+jSo58gXGGOr8=",
+        "originContent": "- [Intel CPUs, Intel GPUs (both integrated and discrete)](https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon) (external wiki page)",
+        "translatedContent": "- [Intel CPU, Intel GPU (통합 및 별도)](https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon) (외부 wiki 페이지)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- [Ascend NPUs](https://github.com/wangshuai09/stable-diffusion-webui/wiki/Install-and-run-on-Ascend-NPUs) (external wiki page)\n\nAlternatively, use online services (like Google Colab):\n\n- [List of Online Services](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services)\n\n### Installation on Windows 10/11 with NVidia-GPUs using release package\n1. Download `sd.webui.zip` from [v1.0.0-pre](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre) and extract its contents.\n2. Run `update.bat`.\n3. Run `run.bat`.\n> For more details see [Install-and-Run-on-NVidia-GPUs](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)\n\n### Automatic Installation on Windows\n1. Install [Python 3.10.6](https://www.python.org/downloads/release/python-3106/) (Newer version of Python does not support torch), checking \"Add Python to PATH\".\n2. Install [git](https://git-scm.com/download/win).\n3. Download the stable-diffusion-webui repository, for example by running `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`.\n4. Run `webui-user.bat` from Windows Explorer as normal, non-administrator, user.\n\n### Automatic Installation on Linux\n1. Install the dependencies:",
+    "ContentSha": "mBlKBP121mz4yBGjrmCmY/wb/8AsROoMEDt9hQoi6xs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- [Ascend NPUs](https://github.com/wangshuai09/stable-diffusion-webui/wiki/Install-and-run-on-Ascend-NPUs) (외부 위키 페이지)\n\n또는, 온라인 서비스(예: Google Colab)를 사용하세요:\n\n- [온라인 서비스 목록](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services)\n\n### NVidia-GPU를 사용하는 Windows 10/11에서 릴리스 패키지 설치\n1. [v1.0.0-pre](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre)에서 `sd.webui.zip`을 다운로드하고 내용을 압축 해제합니다.\n2. `update.bat`을 실행합니다.\n3. `run.bat`을 실행합니다.\n> 자세한 내용은 [Install-and-Run-on-NVidia-GPUs](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)를 참조하세요.\n\n### Windows에서 자동 설치\n1. [Python 3.10.6](https://www.python.org/downloads/release/python-3106/)을 설치합니다 (더 최신 버전의 Python은 torch를 지원하지 않습니다), \"Add Python to PATH\"를 체크하세요.\n2. [git](https://git-scm.com/download/win)을 설치합니다.\n3. stable-diffusion-webui 저장소를 다운로드합니다. 예를 들어 `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git` 명령어를 실행합니다.\n4. Windows 탐색기에서 일반 사용자 권한(관리자 아님)으로 `webui-user.bat`을 실행합니다.\n\n### Linux에서 자동 설치\n1. 의존성 패키지를 설치합니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pppJ0+pFe47TOKw7I2kZt+IVfo1DoxkWiYMf4fZ3jJw=",
+        "originContent": "- [Ascend NPUs](https://github.com/wangshuai09/stable-diffusion-webui/wiki/Install-and-run-on-Ascend-NPUs) (external wiki page)",
+        "translatedContent": "- [Ascend NPUs](https://github.com/wangshuai09/stable-diffusion-webui/wiki/Install-and-run-on-Ascend-NPUs) (외부 위키 페이지)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "34uKhqWr9YBx1Xf0CfVtHjxRl6bnw4TJ8e6ZoV8HbKI=",
+        "originContent": "Alternatively, use online services (like Google Colab):",
+        "translatedContent": "또는, 온라인 서비스(예: Google Colab)를 사용하세요:"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Bimv0tbsmB+SZzbFdiXLe20XpF3yuxpRrIPCJTjLnk8=",
+        "originContent": "- [List of Online Services](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services)",
+        "translatedContent": "- [온라인 서비스 목록](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "vXkOHZLvDZ3KILluXjWXwUsp2QnmR4WgupaAO+UozWU=",
+        "originContent": "### Installation on Windows 10/11 with NVidia-GPUs using release package",
+        "translatedContent": "### NVidia-GPU를 사용하는 Windows 10/11에서 릴리스 패키지 설치"
+      },
+      {
+        "row": 8,
+        "rowsha": "Ysfl9o4osnHmHBY+XIjFYMsA61obiPFdIdxs+fiXZho=",
+        "originContent": "1. Download `sd.webui.zip` from [v1.0.0-pre](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre) and extract its contents.",
+        "translatedContent": "1. [v1.0.0-pre](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre)에서 `sd.webui.zip`을 다운로드하고 내용을 압축 해제합니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "H7/Vg553u3KuJtDyZqJwSPBxQg3p781qtns+ul6nKLc=",
+        "originContent": "2. Run `update.bat`.",
+        "translatedContent": "2. `update.bat`을 실행합니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "aerd2Pvo+GVm62sCebwlbnButzOl1kRRt0W1YlmuA/0=",
+        "originContent": "3. Run `run.bat`.",
+        "translatedContent": "3. `run.bat`을 실행합니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "iIqdoS7fQ2YG3c3OeUkCiy2KyTgL7D6h5m0C/HQEqBs=",
+        "originContent": "> For more details see [Install-and-Run-on-NVidia-GPUs](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)",
+        "translatedContent": "> 자세한 내용은 [Install-and-Run-on-NVidia-GPUs](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)를 참조하세요."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "o7sgLue8fofzaUlBDOXaOk7bghznM7B5v7UWUAUtdf0=",
+        "originContent": "### Automatic Installation on Windows",
+        "translatedContent": "### Windows에서 자동 설치"
+      },
+      {
+        "row": 14,
+        "rowsha": "jCr7lDsZOyMaHF0kyi/+UOWTkaArJ0j4VLShZrqwiGs=",
+        "originContent": "1. Install [Python 3.10.6](https://www.python.org/downloads/release/python-3106/) (Newer version of Python does not support torch), checking \"Add Python to PATH\".",
+        "translatedContent": "1. [Python 3.10.6](https://www.python.org/downloads/release/python-3106/)을 설치합니다 (더 최신 버전의 Python은 torch를 지원하지 않습니다), \"Add Python to PATH\"를 체크하세요."
+      },
+      {
+        "row": 15,
+        "rowsha": "K+ARQyintlx+a1eNoimVh5XhBq1xsMA55AHaL3Zl/9w=",
+        "originContent": "2. Install [git](https://git-scm.com/download/win).",
+        "translatedContent": "2. [git](https://git-scm.com/download/win)을 설치합니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "IN5wITdiA9TpBGkJVQvDqpQCwAz/1nDPJmQFCHGG/NE=",
+        "originContent": "3. Download the stable-diffusion-webui repository, for example by running `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`.",
+        "translatedContent": "3. stable-diffusion-webui 저장소를 다운로드합니다. 예를 들어 `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git` 명령어를 실행합니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "oY4qCVNynWTznIjNxBDNf4knBmqucTc3Rae1ife1CpM=",
+        "originContent": "4. Run `webui-user.bat` from Windows Explorer as normal, non-administrator, user.",
+        "translatedContent": "4. Windows 탐색기에서 일반 사용자 권한(관리자 아님)으로 `webui-user.bat`을 실행합니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "IKUpqDSGJkxilYwVAQ/gXhdEUqB/lYT4rc0eaIcjBCg=",
+        "originContent": "### Automatic Installation on Linux",
+        "translatedContent": "### Linux에서 자동 설치"
+      },
+      {
+        "row": 20,
+        "rowsha": "KXOwkR4c/g08PBm8vugZkwznxvS2HVvsVMMQ6i2YvHk=",
+        "originContent": "1. Install the dependencies:",
+        "translatedContent": "1. 의존성 패키지를 설치합니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\n# Debian-based:\nsudo apt install wget git python3 python3-venv libgl1 libglib2.0-0\n# Red Hat-based:\nsudo dnf install wget git python3 gperftools-libs libglvnd-glx\n# openSUSE-based:\nsudo zypper install wget git python3 libtcmalloc4 libglvnd\n# Arch-based:\nsudo pacman -S wget git python3\n```",
+    "ContentSha": "w5L59o6Pbpe/mzqU9xHkAU+iIF7Oko+tvf8njzcWRus=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Debian-based:\nsudo apt install wget git python3 python3-venv libgl1 libglib2.0-0\n# Red Hat-based:\nsudo dnf install wget git python3 gperftools-libs libglvnd-glx\n# openSUSE-based:\nsudo zypper install wget git python3 libtcmalloc4 libglvnd\n# Arch-based:\nsudo pacman -S wget git python3\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "UZbO1mUZSmsujR1cEyWm1qYOsrrIA2F/nEF1HcoannU=",
+        "originContent": "# Debian-based:",
+        "translatedContent": "# Debian-based:"
+      },
+      {
+        "row": 3,
+        "rowsha": "rPrMt7C0dAKDpKy9qVYQdWhx/RdapH72L8WhimH7SMY=",
+        "originContent": "sudo apt install wget git python3 python3-venv libgl1 libglib2.0-0",
+        "translatedContent": "sudo apt install wget git python3 python3-venv libgl1 libglib2.0-0"
+      },
+      {
+        "row": 4,
+        "rowsha": "MOoFIy4mr6vBEXtLQ/CSB5mDvD/MfMdun7iYpTDwRzs=",
+        "originContent": "# Red Hat-based:",
+        "translatedContent": "# Red Hat-based:"
+      },
+      {
+        "row": 5,
+        "rowsha": "d6q3J2k2DeFdns58GE7Vp7ZFcPgge9LyguuGEZShVuE=",
+        "originContent": "sudo dnf install wget git python3 gperftools-libs libglvnd-glx",
+        "translatedContent": "sudo dnf install wget git python3 gperftools-libs libglvnd-glx"
+      },
+      {
+        "row": 6,
+        "rowsha": "1GWR/l7iJY3MWikYxygtXmdalQlPDQaz2tsRzoEHokk=",
+        "originContent": "# openSUSE-based:",
+        "translatedContent": "# openSUSE-based:"
+      },
+      {
+        "row": 7,
+        "rowsha": "A+jKIHBHGNtlrdfG6fAL0dcryPvGm2g3coOZiyMf+OU=",
+        "originContent": "sudo zypper install wget git python3 libtcmalloc4 libglvnd",
+        "translatedContent": "sudo zypper install wget git python3 libtcmalloc4 libglvnd"
+      },
+      {
+        "row": 8,
+        "rowsha": "5I2MZlylPLSkwhns94gs05zeN6CVCvnTCd7Q8GWgeaE=",
+        "originContent": "# Arch-based:",
+        "translatedContent": "# Arch-based:"
+      },
+      {
+        "row": 9,
+        "rowsha": "vrJVyy0nC4Z35x9FY+IMlCPCn+jnI/S7seLLUiceZ28=",
+        "originContent": "sudo pacman -S wget git python3",
+        "translatedContent": "sudo pacman -S wget git python3"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "If your system is very new, you need to install python3.11 or python3.10:",
+    "ContentSha": "ZO9T464iMuQbP4T+pJ3tq+opjlU7ldtvUpqZeVbA8h8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "시스템이 매우 최신인 경우, python3.11 또는 python3.10을 설치해야 합니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZO9T464iMuQbP4T+pJ3tq+opjlU7ldtvUpqZeVbA8h8=",
+        "originContent": "If your system is very new, you need to install python3.11 or python3.10:",
+        "translatedContent": "시스템이 매우 최신인 경우, python3.11 또는 python3.10을 설치해야 합니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\n# Ubuntu 24.04\nsudo add-apt-repository ppa:deadsnakes/ppa\nsudo apt update\nsudo apt install python3.11\n\n# Manjaro/Arch\nsudo pacman -S yay\nyay -S python311 # do not confuse with python3.11 package\n\n# Only for 3.11\n# Then set up env variable in launch script\nexport python_cmd=\"python3.11\"\n# or in webui-user.sh\npython_cmd=\"python3.11\"\n```",
+    "ContentSha": "7Plp04HQwA+c4RwhNVMGhrgw6ydG1URrZTne2ROH5Hk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Ubuntu 24.04\nsudo add-apt-repository ppa:deadsnakes/ppa\nsudo apt update\nsudo apt install python3.11\n\n# Manjaro/Arch\nsudo pacman -S yay\nyay -S python311 # do not confuse with python3.11 package\n\n# Only for 3.11\n# Then set up env variable in launch script\nexport python_cmd=\"python3.11\"\n# or in webui-user.sh\npython_cmd=\"python3.11\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "uqcLBbTuUe2vF0gJphjkYua1iivA8t8ONepx1q9aKIk=",
+        "originContent": "# Ubuntu 24.04",
+        "translatedContent": "# Ubuntu 24.04"
+      },
+      {
+        "row": 3,
+        "rowsha": "rOllOfwCQnRJYDXT12qZLPdBYHO5tGerhive9ZVbvRc=",
+        "originContent": "sudo add-apt-repository ppa:deadsnakes/ppa",
+        "translatedContent": "sudo add-apt-repository ppa:deadsnakes/ppa"
+      },
+      {
+        "row": 4,
+        "rowsha": "vsYfDMWqUGKl0v9rj6v4u69Jc+N5Z5zxQIom0T0+4Mo=",
+        "originContent": "sudo apt update",
+        "translatedContent": "sudo apt update"
+      },
+      {
+        "row": 5,
+        "rowsha": "3xpXJ+eK/LHNnPM8+M0QhKS5c5l50NU3/G1ylMr4HKs=",
+        "originContent": "sudo apt install python3.11",
+        "translatedContent": "sudo apt install python3.11"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "lTuFucec/TvkfK6sQaMg+GKhJewIP3205ksW+osMO3A=",
+        "originContent": "# Manjaro/Arch",
+        "translatedContent": "# Manjaro/Arch"
+      },
+      {
+        "row": 8,
+        "rowsha": "8VIU4RZ4KDpRpPSZWms9g0T67mNV+H5heC2uen8CH4E=",
+        "originContent": "sudo pacman -S yay",
+        "translatedContent": "sudo pacman -S yay"
+      },
+      {
+        "row": 9,
+        "rowsha": "UoUhA9t91QOPocWZ9U6cgHzRykmSZqv75IpzjHCo/I8=",
+        "originContent": "yay -S python311 # do not confuse with python3.11 package",
+        "translatedContent": "yay -S python311 # do not confuse with python3.11 package"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "rcLWBjJb6Q1tw8lk5KfB6wQLORcicCtmvRgxq618v5s=",
+        "originContent": "# Only for 3.11",
+        "translatedContent": "# Only for 3.11"
+      },
+      {
+        "row": 12,
+        "rowsha": "xgpBWXzi1H6ChkRmsMoe5EgdCo6jPvwi6HgMFW0QcLM=",
+        "originContent": "# Then set up env variable in launch script",
+        "translatedContent": "# Then set up env variable in launch script"
+      },
+      {
+        "row": 13,
+        "rowsha": "QcNWpoVEq1t54VjdKTTeD+shpBc4ogDzAkv+31PIeQw=",
+        "originContent": "export python_cmd=\"python3.11\"",
+        "translatedContent": "export python_cmd=\"python3.11\""
+      },
+      {
+        "row": 14,
+        "rowsha": "JnldxF7qxZVWfKyTv4goSYJ21X6HnB6pPQxA1UUT/yw=",
+        "originContent": "# or in webui-user.sh",
+        "translatedContent": "# or in webui-user.sh"
+      },
+      {
+        "row": 15,
+        "rowsha": "LMDfBMKOOn9Dku4G7iZfezxnEH4DRSAm3zA9EhosPPY=",
+        "originContent": "python_cmd=\"python3.11\"",
+        "translatedContent": "python_cmd=\"python3.11\""
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "2. Navigate to the directory you would like the webui to be installed and execute the following command:",
+    "ContentSha": "gAKMbWBvusTbDTmkyNFxB44OJig3dYtVHSQVD5aObuo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. 웹 UI를 설치할 디렉터리로 이동한 후 다음 명령어를 실행하세요:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "gAKMbWBvusTbDTmkyNFxB44OJig3dYtVHSQVD5aObuo=",
+        "originContent": "2. Navigate to the directory you would like the webui to be installed and execute the following command:",
+        "translatedContent": "2. 웹 UI를 설치할 디렉터리로 이동한 후 다음 명령어를 실행하세요:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\nwget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh\n```",
+    "ContentSha": "EO1/ksEOWzyrmd227Rmd5tc9n5JC0a/WcfvTESUqHQk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "EgOKEfFB18ahtpHYHEBcrorE3uVuJVnSKOaHTwA1UOI=",
+        "originContent": "wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh",
+        "translatedContent": "wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "Or just clone the repo wherever you want:",
+    "ContentSha": "i+PQ/ZYPHHo7mXAtze8Wguz7P9m5hxYR1AUrdnyaW6E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "또는 원하는 곳에 저장소를 복제하세요:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "i+PQ/ZYPHHo7mXAtze8Wguz7P9m5hxYR1AUrdnyaW6E=",
+        "originContent": "Or just clone the repo wherever you want:",
+        "translatedContent": "또는 원하는 곳에 저장소를 복제하세요:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\ngit clone https://github.com/AUTOMATIC1111/stable-diffusion-webui\n```",
+    "ContentSha": "kk/ErX+/fHClMm6ZdABv6K8emvaIrgRjcFshsbmkvRs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/AUTOMATIC1111/stable-diffusion-webui\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "FzmwjNylJxBXNMYQVP+tsseAiVJ53EJmXacNcicHqIs=",
+        "originContent": "git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "translatedContent": "git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n3. Run `webui.sh`.\n4. Check `webui-user.sh` for options.\n### Installation on Apple Silicon\n\nFind the instructions [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon).\n\n## Contributing\nHere's how to add code to this repo: [Contributing](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Contributing)\n\n## Documentation\n\nThe documentation was moved from this README over to the project's [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki).\n\nFor the purposes of getting Google and other search engines to crawl the wiki, here's a link to the (not for humans) [crawlable wiki](https://github-wiki-see.page/m/AUTOMATIC1111/stable-diffusion-webui/wiki).\n\n## Credits\nLicenses for borrowed code can be found in `Settings -> Licenses` screen, and also in `html/licenses.html` file.\n\n- Stable Diffusion - https://github.com/Stability-AI/stablediffusion, https://github.com/CompVis/taming-transformers, https://github.com/mcmonkey4eva/sd3-ref\n- k-diffusion - https://github.com/crowsonkb/k-diffusion.git\n- Spandrel - https://github.com/chaiNNer-org/spandrel implementing\n  - GFPGAN - https://github.com/TencentARC/GFPGAN.git\n  - CodeFormer - https://github.com/sczhou/CodeFormer\n  - ESRGAN - https://github.com/xinntao/ESRGAN\n  - SwinIR - https://github.com/JingyunLiang/SwinIR\n  - Swin2SR - https://github.com/mv-lab/swin2sr\n- LDSR - https://github.com/Hafiidz/latent-diffusion\n- MiDaS - https://github.com/isl-org/MiDaS\n- Ideas for optimizations - https://github.com/basujindal/stable-diffusion\n- Cross Attention layer optimization - Doggettx - https://github.com/Doggettx/stable-diffusion, original idea for prompt editing.\n- Cross Attention layer optimization - InvokeAI, lstein - https://github.com/invoke-ai/InvokeAI (originally http://github.com/lstein/stable-diffusion)\n- Sub-quadratic Cross Attention layer optimization - Alex Birch (https://github.com/Birch-san/diffusers/pull/1), Amin Rezaei (https://github.com/AminRezaei0x443/memory-efficient-attention)\n- Textual Inversion - Rinon Gal - https://github.com/rinongal/textual_inversion (we're not using his code, but we are using his ideas).\n- Idea for SD upscale - https://github.com/jquesnelle/txt2imghd\n- Noise generation for outpainting mk2 - https://github.com/parlance-zz/g-diffuser-bot\n- CLIP interrogator idea and borrowing some code - https://github.com/pharmapsychotic/clip-interrogator\n- Idea for Composable Diffusion - https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch\n- xformers - https://github.com/facebookresearch/xformers\n- DeepDanbooru - interrogator for anime diffusers https://github.com/KichangKim/DeepDanbooru\n- Sampling in float32 precision from a float16 UNet - marunine for the idea, Birch-san for the example Diffusers implementation (https://github.com/Birch-san/diffusers-play/tree/92feee6)\n- Instruct pix2pix - Tim Brooks (star), Aleksander Holynski (star), Alexei A. Efros (no star) - https://github.com/timothybrooks/instruct-pix2pix\n- Security advice - RyotaK\n- UniPC sampler - Wenliang Zhao - https://github.com/wl-zhao/UniPC\n- TAESD - Ollin Boer Bohan - https://github.com/madebyollin/taesd\n- LyCORIS - KohakuBlueleaf\n- Restart sampling - lambertae - https://github.com/Newbeeer/diffusion_restart_sampling\n- Hypertile - tfernd - https://github.com/tfernd/HyperTile\n- Initial Gradio script - posted on 4chan by an Anonymous user. Thank you Anonymous user.\n- (You)\n",
+    "ContentSha": "6bOjGvAfi4F+wRui/4UzpLlnLx3nKDGdiLm69vn9FeI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. `webui.sh`를 실행하세요.  \n4. 옵션은 `webui-user.sh`를 확인하세요.  \n### Apple Silicon 설치  \n\n설치 방법은 [여기](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon)에서 찾으실 수 있습니다.  \n\n## 기여하기  \n이 저장소에 코드를 추가하는 방법은 다음과 같습니다: [기여하기](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Contributing)  \n\n## 문서  \n\n문서는 이 README에서 프로젝트의 [위키](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki)로 옮겨졌습니다.  \n\nGoogle 및 기타 검색 엔진이 위키를 크롤링하도록 하기 위한 목적으로, (사람용이 아닌) [크롤링 가능한 위키](https://github-wiki-see.page/m/AUTOMATIC1111/stable-diffusion-webui/wiki) 링크를 제공합니다.  \n\n## 크레딧  \n차용한 코드의 라이선스는 `Settings -> Licenses` 화면과 `html/licenses.html` 파일에서 확인할 수 있습니다.  \n\n- Stable Diffusion - https://github.com/Stability-AI/stablediffusion, https://github.com/CompVis/taming-transformers, https://github.com/mcmonkey4eva/sd3-ref  \n- k-diffusion - https://github.com/crowsonkb/k-diffusion.git  \n- Spandrel - https://github.com/chaiNNer-org/spandrel 구현  \n  - GFPGAN - https://github.com/TencentARC/GFPGAN.git  \n  - CodeFormer - https://github.com/sczhou/CodeFormer  \n  - ESRGAN - https://github.com/xinntao/ESRGAN  \n  - SwinIR - https://github.com/JingyunLiang/SwinIR  \n  - Swin2SR - https://github.com/mv-lab/swin2sr  \n- LDSR - https://github.com/Hafiidz/latent-diffusion  \n- MiDaS - https://github.com/isl-org/MiDaS  \n- 최적화 아이디어 - https://github.com/basujindal/stable-diffusion  \n- Cross Attention 레이어 최적화 - Doggettx - https://github.com/Doggettx/stable-diffusion, 프롬프트 편집의 원래 아이디어.  \n- Cross Attention 레이어 최적화 - InvokeAI, lstein - https://github.com/invoke-ai/InvokeAI (원래는 http://github.com/lstein/stable-diffusion)  \n- Sub-quadratic Cross Attention 레이어 최적화 - Alex Birch (https://github.com/Birch-san/diffusers/pull/1), Amin Rezaei (https://github.com/AminRezaei0x443/memory-efficient-attention)  \n- Textual Inversion - Rinon Gal - https://github.com/rinongal/textual_inversion (코드는 사용하지 않지만 아이디어는 사용 중).  \n- SD 업스케일 아이디어 - https://github.com/jquesnelle/txt2imghd  \n- 아웃페인팅 mk2용 노이즈 생성 - https://github.com/parlance-zz/g-diffuser-bot  \n- CLIP 인터로게이터 아이디어 및 일부 코드 차용 - https://github.com/pharmapsychotic/clip-interrogator  \n- Composable Diffusion 아이디어 - https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch  \n- xformers - https://github.com/facebookresearch/xformers  \n- DeepDanbooru - 애니메이션 디퓨저용 인터로게이터 https://github.com/KichangKim/DeepDanbooru  \n- float16 UNet에서 float32 정밀도로 샘플링 - 아이디어는 marunine, Diffusers 구현 예시는 Birch-san (https://github.com/Birch-san/diffusers-play/tree/92feee6)  \n- Instruct pix2pix - Tim Brooks (별), Aleksander Holynski (별), Alexei A. Efros (별 없음) - https://github.com/timothybrooks/instruct-pix2pix  \n- 보안 조언 - RyotaK  \n- UniPC 샘플러 - Wenliang Zhao - https://github.com/wl-zhao/UniPC  \n- TAESD - Ollin Boer Bohan - https://github.com/madebyollin/taesd  \n- LyCORIS - KohakuBlueleaf  \n- 재시작 샘플링 - lambertae - https://github.com/Newbeeer/diffusion_restart_sampling  \n- Hypertile - tfernd - https://github.com/tfernd/HyperTile  \n- 초기 Gradio 스크립트 - 4chan의 익명 사용자 게시. 익명 사용자에게 감사드립니다.  \n- (당신)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. `webui.sh`를 실행하세요.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "6qV6BtVOT2vcMRtO3Ud2LomzoaF/fJJw5ujoYepEUlc=",
+        "originContent": "3. Run `webui.sh`.",
+        "translatedContent": "4. 옵션은 `webui-user.sh`를 확인하세요.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "4H3xrWwQuJGwiN64GdP0hsRpLcw4v/O6ZFjCkvFSibc=",
+        "originContent": "4. Check `webui-user.sh` for options.",
+        "translatedContent": "### Apple Silicon 설치  "
+      },
+      {
+        "row": 4,
+        "rowsha": "nLS1IKeIH4wWX2Ky62abDs7Dg9FfVguBud6HVSyaWMI=",
+        "originContent": "### Installation on Apple Silicon",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "설치 방법은 [여기](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon)에서 찾으실 수 있습니다.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "lHfqG/piUwDXIkaCxLorkU8FHs1r+jkkS1L7YmGtYIQ=",
+        "originContent": "Find the instructions [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon).",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 기여하기  "
+      },
+      {
+        "row": 8,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "이 저장소에 코드를 추가하는 방법은 다음과 같습니다: [기여하기](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Contributing)  "
+      },
+      {
+        "row": 9,
+        "rowsha": "taJfl0/cEc8fJdjhiPQVz96R48sih04D1FFwCt26tCo=",
+        "originContent": "Here's how to add code to this repo: [Contributing](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Contributing)",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 문서  "
+      },
+      {
+        "row": 11,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "문서는 이 README에서 프로젝트의 [위키](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki)로 옮겨졌습니다.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "Z3jU1EhBiHKypxtBHjlIMWaL77jatk6ub3EgHNcDN1Y=",
+        "originContent": "The documentation was moved from this README over to the project's [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki).",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Google 및 기타 검색 엔진이 위키를 크롤링하도록 하기 위한 목적으로, (사람용이 아닌) [크롤링 가능한 위키](https://github-wiki-see.page/m/AUTOMATIC1111/stable-diffusion-webui/wiki) 링크를 제공합니다.  "
+      },
+      {
+        "row": 15,
+        "rowsha": "KKdRe1bjeWZkR0AuNulD64Huu9S0cVXCOhoLU7qD7No=",
+        "originContent": "For the purposes of getting Google and other search engines to crawl the wiki, here's a link to the (not for humans) [crawlable wiki](https://github-wiki-see.page/m/AUTOMATIC1111/stable-diffusion-webui/wiki).",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 크레딧  "
+      },
+      {
+        "row": 17,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "차용한 코드의 라이선스는 `Settings -> Licenses` 화면과 `html/licenses.html` 파일에서 확인할 수 있습니다.  "
+      },
+      {
+        "row": 18,
+        "rowsha": "3EZWzwChLbxDvTuukBSfnS2EY0Pqsd+dlqKQTGXwCh8=",
+        "originContent": "Licenses for borrowed code can be found in `Settings -> Licenses` screen, and also in `html/licenses.html` file.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Stable Diffusion - https://github.com/Stability-AI/stablediffusion, https://github.com/CompVis/taming-transformers, https://github.com/mcmonkey4eva/sd3-ref  "
+      },
+      {
+        "row": 20,
+        "rowsha": "mCmqBoXcMct1uGrtkLIsaewmnrEQP/P+JpelSDwQ8vg=",
+        "originContent": "- Stable Diffusion - https://github.com/Stability-AI/stablediffusion, https://github.com/CompVis/taming-transformers, https://github.com/mcmonkey4eva/sd3-ref",
+        "translatedContent": "- k-diffusion - https://github.com/crowsonkb/k-diffusion.git  "
+      },
+      {
+        "row": 21,
+        "rowsha": "yPCjyTKLFtS/Po8jShD5tFIfjKXCIdWygglEHxcLtbk=",
+        "originContent": "- k-diffusion - https://github.com/crowsonkb/k-diffusion.git",
+        "translatedContent": "- Spandrel - https://github.com/chaiNNer-org/spandrel 구현  "
+      },
+      {
+        "row": 22,
+        "rowsha": "klPz7LuM6K/zA65FtAW5sJM0Wuya7smoZhnhFhBCjJc=",
+        "originContent": "- Spandrel - https://github.com/chaiNNer-org/spandrel implementing",
+        "translatedContent": "  - GFPGAN - https://github.com/TencentARC/GFPGAN.git  "
+      },
+      {
+        "row": 23,
+        "rowsha": "auts5kkN/2CwVXQFy42kkW/VDb77ICDBHQUx1BOA9JA=",
+        "originContent": "  - GFPGAN - https://github.com/TencentARC/GFPGAN.git",
+        "translatedContent": "  - CodeFormer - https://github.com/sczhou/CodeFormer  "
+      },
+      {
+        "row": 24,
+        "rowsha": "MoRSlI3jL4ynjIa653d6z2jxYl9P0xD2EleXuS+3kcE=",
+        "originContent": "  - CodeFormer - https://github.com/sczhou/CodeFormer",
+        "translatedContent": "  - ESRGAN - https://github.com/xinntao/ESRGAN  "
+      },
+      {
+        "row": 25,
+        "rowsha": "RuTxc2Zebq+OALVO35nsWUmav9YxV6Y1WCjjbCyXZiE=",
+        "originContent": "  - ESRGAN - https://github.com/xinntao/ESRGAN",
+        "translatedContent": "  - SwinIR - https://github.com/JingyunLiang/SwinIR  "
+      },
+      {
+        "row": 26,
+        "rowsha": "FiQtce0Qm/tkt3pYFrkP2lnuI7Rjyil3o63dd/CDroQ=",
+        "originContent": "  - SwinIR - https://github.com/JingyunLiang/SwinIR",
+        "translatedContent": "  - Swin2SR - https://github.com/mv-lab/swin2sr  "
+      },
+      {
+        "row": 27,
+        "rowsha": "y+y8sD0Ubltl8EDvjTh1QHyjknekp+JSR8KG6/wMrZU=",
+        "originContent": "  - Swin2SR - https://github.com/mv-lab/swin2sr",
+        "translatedContent": "- LDSR - https://github.com/Hafiidz/latent-diffusion  "
+      },
+      {
+        "row": 28,
+        "rowsha": "KY9TVuyq5LEICOw8HMqSEJhi5mvlgzoFdWBrK4wS4kU=",
+        "originContent": "- LDSR - https://github.com/Hafiidz/latent-diffusion",
+        "translatedContent": "- MiDaS - https://github.com/isl-org/MiDaS  "
+      },
+      {
+        "row": 29,
+        "rowsha": "mS7SwQQHKmCBzuzFVNcIKUDac0l6rhsCV0nAj049W1c=",
+        "originContent": "- MiDaS - https://github.com/isl-org/MiDaS",
+        "translatedContent": "- 최적화 아이디어 - https://github.com/basujindal/stable-diffusion  "
+      },
+      {
+        "row": 30,
+        "rowsha": "YOxGftSfCe1D400zttnqpajSBghb2VgaVOlUBm9HKqc=",
+        "originContent": "- Ideas for optimizations - https://github.com/basujindal/stable-diffusion",
+        "translatedContent": "- Cross Attention 레이어 최적화 - Doggettx - https://github.com/Doggettx/stable-diffusion, 프롬프트 편집의 원래 아이디어.  "
+      },
+      {
+        "row": 31,
+        "rowsha": "7+8qpmDIeVU+BDF0RXT3v8BfmpE5nPUQf6ZSOaUmEeI=",
+        "originContent": "- Cross Attention layer optimization - Doggettx - https://github.com/Doggettx/stable-diffusion, original idea for prompt editing.",
+        "translatedContent": "- Cross Attention 레이어 최적화 - InvokeAI, lstein - https://github.com/invoke-ai/InvokeAI (원래는 http://github.com/lstein/stable-diffusion)  "
+      },
+      {
+        "row": 32,
+        "rowsha": "dmFubXlM3W4PiTAzOFxm8zxd8v/ZAsxOxON6sXi4K84=",
+        "originContent": "- Cross Attention layer optimization - InvokeAI, lstein - https://github.com/invoke-ai/InvokeAI (originally http://github.com/lstein/stable-diffusion)",
+        "translatedContent": "- Sub-quadratic Cross Attention 레이어 최적화 - Alex Birch (https://github.com/Birch-san/diffusers/pull/1), Amin Rezaei (https://github.com/AminRezaei0x443/memory-efficient-attention)  "
+      },
+      {
+        "row": 33,
+        "rowsha": "4jr6LMqRTjRXQw1w68PiowvHC2JuatEtKRjF69o9fQg=",
+        "originContent": "- Sub-quadratic Cross Attention layer optimization - Alex Birch (https://github.com/Birch-san/diffusers/pull/1), Amin Rezaei (https://github.com/AminRezaei0x443/memory-efficient-attention)",
+        "translatedContent": "- Textual Inversion - Rinon Gal - https://github.com/rinongal/textual_inversion (코드는 사용하지 않지만 아이디어는 사용 중).  "
+      },
+      {
+        "row": 34,
+        "rowsha": "299y0tVuZAQJOFcr2ixWAldm6ZqDdWZPo1TMrJh0ZRg=",
+        "originContent": "- Textual Inversion - Rinon Gal - https://github.com/rinongal/textual_inversion (we're not using his code, but we are using his ideas).",
+        "translatedContent": "- SD 업스케일 아이디어 - https://github.com/jquesnelle/txt2imghd  "
+      },
+      {
+        "row": 35,
+        "rowsha": "uc3J8STIvFzgunL3YVD/Q4Fq1VOz8TR3eiyNiJTEaA0=",
+        "originContent": "- Idea for SD upscale - https://github.com/jquesnelle/txt2imghd",
+        "translatedContent": "- 아웃페인팅 mk2용 노이즈 생성 - https://github.com/parlance-zz/g-diffuser-bot  "
+      },
+      {
+        "row": 36,
+        "rowsha": "9yVB5JN2e/NmDNfrOyUJ6MMVew9Sxr/Nq0eePxchHvA=",
+        "originContent": "- Noise generation for outpainting mk2 - https://github.com/parlance-zz/g-diffuser-bot",
+        "translatedContent": "- CLIP 인터로게이터 아이디어 및 일부 코드 차용 - https://github.com/pharmapsychotic/clip-interrogator  "
+      },
+      {
+        "row": 37,
+        "rowsha": "F2+UlmYyuSHXEq1vB2EJzfHnYxv2Wt1mXHWsl07LM9U=",
+        "originContent": "- CLIP interrogator idea and borrowing some code - https://github.com/pharmapsychotic/clip-interrogator",
+        "translatedContent": "- Composable Diffusion 아이디어 - https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch  "
+      },
+      {
+        "row": 38,
+        "rowsha": "T6poScaG5LLJJAq5I8bxqyo/0oJHylhWZIn0mpH+I9k=",
+        "originContent": "- Idea for Composable Diffusion - https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+        "translatedContent": "- xformers - https://github.com/facebookresearch/xformers  "
+      },
+      {
+        "row": 39,
+        "rowsha": "Kf3oV0QRT3z5aWyXg8fn1+AJfpWfNFY+w2xt8qEJpZg=",
+        "originContent": "- xformers - https://github.com/facebookresearch/xformers",
+        "translatedContent": "- DeepDanbooru - 애니메이션 디퓨저용 인터로게이터 https://github.com/KichangKim/DeepDanbooru  "
+      },
+      {
+        "row": 40,
+        "rowsha": "8IyIewzYNujmg4NzGIDC5HNENgmlKbYWYMHTmHTp0yk=",
+        "originContent": "- DeepDanbooru - interrogator for anime diffusers https://github.com/KichangKim/DeepDanbooru",
+        "translatedContent": "- float16 UNet에서 float32 정밀도로 샘플링 - 아이디어는 marunine, Diffusers 구현 예시는 Birch-san (https://github.com/Birch-san/diffusers-play/tree/92feee6)  "
+      },
+      {
+        "row": 41,
+        "rowsha": "EietfKiiJIAAeWsFBBhgEpLhfogLoPbEWjme8YHoivY=",
+        "originContent": "- Sampling in float32 precision from a float16 UNet - marunine for the idea, Birch-san for the example Diffusers implementation (https://github.com/Birch-san/diffusers-play/tree/92feee6)",
+        "translatedContent": "- Instruct pix2pix - Tim Brooks (별), Aleksander Holynski (별), Alexei A. Efros (별 없음) - https://github.com/timothybrooks/instruct-pix2pix  "
+      },
+      {
+        "row": 42,
+        "rowsha": "54ZLFJg76TaVQ3RG4wayYlYeX6oCJ+85xdPzyO5s8Dc=",
+        "originContent": "- Instruct pix2pix - Tim Brooks (star), Aleksander Holynski (star), Alexei A. Efros (no star) - https://github.com/timothybrooks/instruct-pix2pix",
+        "translatedContent": "- 보안 조언 - RyotaK  "
+      },
+      {
+        "row": 43,
+        "rowsha": "EYHaDISF5SSathOov6z3hfz/ghTwy5XdG9Q63K3D3pE=",
+        "originContent": "- Security advice - RyotaK",
+        "translatedContent": "- UniPC 샘플러 - Wenliang Zhao - https://github.com/wl-zhao/UniPC  "
+      },
+      {
+        "row": 44,
+        "rowsha": "OLIyV9/X0Sicfd9e2T4Yy366GmCVm+nTes4oOTFTb/M=",
+        "originContent": "- UniPC sampler - Wenliang Zhao - https://github.com/wl-zhao/UniPC",
+        "translatedContent": "- TAESD - Ollin Boer Bohan - https://github.com/madebyollin/taesd  "
+      },
+      {
+        "row": 45,
+        "rowsha": "3K5ZnYdVvWAi0gvTMfuAyW0xzd0X2kK48fON+oyMi0I=",
+        "originContent": "- TAESD - Ollin Boer Bohan - https://github.com/madebyollin/taesd",
+        "translatedContent": "- LyCORIS - KohakuBlueleaf  "
+      },
+      {
+        "row": 46,
+        "rowsha": "qkZq/c3LKSrO+HO1x591rV7wzeu2D78FYhw/s8s9ivc=",
+        "originContent": "- LyCORIS - KohakuBlueleaf",
+        "translatedContent": "- 재시작 샘플링 - lambertae - https://github.com/Newbeeer/diffusion_restart_sampling  "
+      },
+      {
+        "row": 47,
+        "rowsha": "SDBQbqpeb8kZM+yWIWeCVWzT9FcB7UHRPaD7nYtda7w=",
+        "originContent": "- Restart sampling - lambertae - https://github.com/Newbeeer/diffusion_restart_sampling",
+        "translatedContent": "- Hypertile - tfernd - https://github.com/tfernd/HyperTile  "
+      },
+      {
+        "row": 48,
+        "rowsha": "7nBjlpO267Uv+QTuML4AysvR6Px/MHf35wM2tn27LkI=",
+        "originContent": "- Hypertile - tfernd - https://github.com/tfernd/HyperTile",
+        "translatedContent": "- 초기 Gradio 스크립트 - 4chan의 익명 사용자 게시. 익명 사용자에게 감사드립니다.  "
+      },
+      {
+        "row": 49,
+        "rowsha": "BiiDtzF6AvZuUWT4D9HDYEz5OPpLpds+JzfzNb67kTc=",
+        "originContent": "- Initial Gradio script - posted on 4chan by an Anonymous user. Thank you Anonymous user.",
+        "translatedContent": "- (당신)"
+      },
+      {
+        "row": 50,
+        "rowsha": "NPbz+Itvw5p6N20RCQ7zhaGX6oySDfWhc9FgTAWYLfs=",
+        "originContent": "- (You)",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

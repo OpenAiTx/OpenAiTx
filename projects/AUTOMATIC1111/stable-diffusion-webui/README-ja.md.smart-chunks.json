@@ -1,0 +1,1368 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Stable Diffusion web UI\nA web interface for Stable Diffusion, implemented using Gradio library.\n\n![](https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/screenshot.png)\n\n## Features\n[Detailed feature showcase with images](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features):\n- Original txt2img and img2img modes\n- One click install and run script (but you still must install python and git)\n- Outpainting\n- Inpainting\n- Color Sketch\n- Prompt Matrix\n- Stable Diffusion Upscale\n- Attention, specify parts of text that the model should pay more attention to\n    - a man in a `((tuxedo))` - will pay more attention to tuxedo\n    - a man in a `(tuxedo:1.21)` - alternative syntax\n    - select text and press `Ctrl+Up` or `Ctrl+Down` (or `Command+Up` or `Command+Down` if you're on a MacOS) to automatically adjust attention to selected text (code contributed by anonymous user)\n- Loopback, run img2img processing multiple times\n- X/Y/Z plot, a way to draw a 3 dimensional plot of images with different parameters\n- Textual Inversion\n    - have as many embeddings as you want and use any names you like for them\n    - use multiple embeddings with different numbers of vectors per token\n    - works with half precision floating point numbers\n    - train embeddings on 8GB (also reports of 6GB working)\n- Extras tab with:\n    - GFPGAN, neural network that fixes faces\n    - CodeFormer, face restoration tool as an alternative to GFPGAN\n    - RealESRGAN, neural network upscaler\n    - ESRGAN, neural network upscaler with a lot of third party models\n    - SwinIR and Swin2SR ([see here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)), neural network upscalers\n    - LDSR, Latent diffusion super resolution upscaling\n- Resizing aspect ratio options\n- Sampling method selection\n    - Adjust sampler eta values (noise multiplier)\n    - More advanced noise setting options\n- Interrupt processing at any time\n- 4GB video card support (also reports of 2GB working)\n- Correct seeds for batches\n- Live prompt token length validation\n- Generation parameters\n     - parameters you used to generate images are saved with that image\n     - in PNG chunks for PNG, in EXIF for JPEG\n     - can drag the image to PNG info tab to restore generation parameters and automatically copy them into UI\n     - can be disabled in settings\n     - drag and drop an image/text-parameters to promptbox\n- Read Generation Parameters Button, loads parameters in promptbox to UI\n- Settings page\n- Running arbitrary python code from UI (must run with `--allow-code` to enable)\n- Mouseover hints for most UI elements\n- Possible to change defaults/mix/max/step values for UI elements via text config\n- Tiling support, a checkbox to create images that can be tiled like textures\n- Progress bar and live image generation preview\n    - Can use a separate neural network to produce previews with almost none VRAM or compute requirement\n- Negative prompt, an extra text field that allows you to list what you don't want to see in generated image\n- Styles, a way to save part of prompt and easily apply them via dropdown later\n- Variations, a way to generate same image but with tiny differences\n- Seed resizing, a way to generate same image but at slightly different resolution\n- CLIP interrogator, a button that tries to guess prompt from an image\n- Prompt Editing, a way to change prompt mid-generation, say to start making a watermelon and switch to anime girl midway\n- Batch Processing, process a group of files using img2img\n- Img2img Alternative, reverse Euler method of cross attention control\n- Highres Fix, a convenience option to produce high resolution pictures in one click without usual distortions\n- Reloading checkpoints on the fly\n- Checkpoint Merger, a tab that allows you to merge up to 3 checkpoints into one\n- [Custom scripts](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts) with many extensions from community\n- [Composable-Diffusion](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/), a way to use multiple prompts at once\n     - separate prompts using uppercase `AND`\n     - also supports weights for prompts: `a cat :1.2 AND a dog AND a penguin :2.2`\n- No token limit for prompts (original stable diffusion lets you use up to 75 tokens)\n- DeepDanbooru integration, creates danbooru style tags for anime prompts\n- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers), major speed increase for select cards: (add `--xformers` to commandline args)\n- via extension: [History tab](https://github.com/yfszzx/stable-diffusion-webui-images-browser): view, direct and delete images conveniently within the UI\n- Generate forever option\n- Training tab\n     - hypernetworks and embeddings options\n     - Preprocessing images: cropping, mirroring, autotagging using BLIP or deepdanbooru (for anime)\n- Clip skip\n- Hypernetworks\n- Loras (same as Hypernetworks but more pretty)\n- A separate UI where you can choose, with preview, which embeddings, hypernetworks or Loras to add to your prompt\n- Can select to load a different VAE from settings screen\n- Estimated completion time in progress bar\n- API\n- Support for dedicated [inpainting model](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion) by RunwayML\n- via extension: [Aesthetic Gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients), a way to generate images with a specific aesthetic by using clip images embeds (implementation of [https://github.com/vicgalle/stable-diffusion-aesthetic-gradients](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients))\n- [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion) support - see [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion-20) for instructions\n- [Alt-Diffusion](https://arxiv.org/abs/2211.06679) support - see [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion) for instructions\n- Now without any bad letters!\n- Load checkpoints in safetensors format\n- Eased resolution restriction: generated image's dimensions must be a multiple of 8 rather than 64\n- Now with a license!\n- Reorder elements in the UI from settings screen\n- [Segmind Stable Diffusion](https://huggingface.co/segmind/SSD-1B) support\n\n## Installation and Running\nMake sure the required [dependencies](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) are met and follow the instructions available for:\n- [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) (recommended)\n- [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs) GPUs.\n- [Intel CPUs, Intel GPUs (both integrated and discrete)](https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon) (external wiki page)",
+    "ContentSha": "aNSj2oomnrrjx/p1Mrl0YZuAxvyJb1q15F3ezt+rIhg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Stable Diffusion web UI\nStable Diffusionのためのウェブインターフェースで、Gradioライブラリを使用して実装されています。\n\n![](https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/screenshot.png)\n\n## Features\n[画像付き詳細機能紹介](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features):\n- オリジナルのtxt2imgおよびimg2imgモード\n- ワンクリックでインストールと実行スクリプト（ただしPythonとgitは別途インストールが必要）\n- アウトペインティング\n- インペインティング\n- カラースケッチ\n- プロンプトマトリックス\n- Stable Diffusion アップスケール\n- アテンション、モデルがより注意を払うべきテキスト部分を指定\n    - a man in a `((tuxedo))` - tuxedoにより注意を払う\n    - a man in a `(tuxedo:1.21)` - 代替構文\n    - テキストを選択し、`Ctrl+Up`または`Ctrl+Down`（MacOSの場合は`Command+Up`または`Command+Down`）を押すと選択テキストのアテンションを自動調整（匿名ユーザーのコード提供）\n- ループバック、img2img処理を複数回実行\n- X/Y/Zプロット、異なるパラメータで画像の3次元プロットを描画する方法\n- テキスチュアルインバージョン\n    - 好きなだけ埋め込みを持て、好きな名前を使える\n    - トークンごとに異なるベクトル数の複数埋め込みを使用可能\n    - 半精度浮動小数点数で動作\n    - 8GBで埋め込みを訓練可能（6GBで動作報告もあり）\n- Extrasタブに以下を含む：\n    - GFPGAN、顔を修正するニューラルネットワーク\n    - CodeFormer、GFPGANの代替顔修復ツール\n    - RealESRGAN、ニューラルネットワークアップスケーラー\n    - ESRGAN、多数のサードパーティモデルを持つニューラルネットワークアップスケーラー\n    - SwinIRおよびSwin2SR（[こちら参照](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)）、ニューラルネットワークアップスケーラー\n    - LDSR、潜在拡散スーパーレゾリューションアップスケーリング\n- アスペクト比リサイズオプション\n- サンプリング手法選択\n    - サンプラーのeta値（ノイズ乗数）調整\n    - より高度なノイズ設定オプション\n- いつでも処理を中断可能\n- 4GBビデオカードサポート（2GBで動作報告もあり）\n- バッチごとに正しいシード生成\n- プロンプトトークン長のリアルタイム検証\n- 生成パラメータ\n     - 画像を生成するために使用したパラメータが画像と一緒に保存される\n     - PNGの場合はPNGチャンクに、JPEGの場合はEXIFに保存\n     - 画像をPNG情報タブにドラッグすると生成パラメータを復元しUIに自動コピー\n     - 設定で無効化可能\n     - 画像／テキストパラメータをプロンプトボックスにドラッグ＆ドロップ可能\n- 生成パラメータ読み込みボタン、プロンプトボックスにパラメータをロード\n- 設定ページ\n- UIから任意のPythonコードを実行可能（`--allow-code`オプションで有効化）\n- ほとんどのUI要素にマウスオーバーヒント\n- UI要素のデフォルト／最小／最大／ステップ値をテキスト設定で変更可能\n- タイリング対応、テクスチャのようにタイル可能な画像を作成するチェックボックス\n- 進捗バーとリアルタイム画像生成プレビュー\n    - VRAMや計算資源をほぼ使わずにプレビューを生成する別ニューラルネットワークを使用可能\n- ネガティブプロンプト、生成画像に含めたくない要素を列挙する追加テキスト欄\n- スタイル、プロンプトの一部を保存し、後でドロップダウンから簡単に適用可能\n- バリエーション、ほぼ同じ画像を僅かな違いで生成する方法\n- シードリサイズ、ほぼ同じ画像をわずかに異なる解像度で生成\n- CLIPインターロゲーター、画像からプロンプトを推測するボタン\n- プロンプト編集、生成中にプロンプトを変更可能。例：スイカから途中でアニメ少女に切り替え\n- バッチ処理、複数ファイルをimg2imgで処理\n- Img2img代替、逆オイラー法によるクロスアテンション制御\n- 高解像度修正、ワンクリックで通常の歪みなしに高解像度画像を生成する便利オプション\n- チェックポイントを即時再読み込み可能\n- チェックポイントマージャー、最大3つのチェックポイントを1つにマージ可能なタブ\n- [カスタムスクリプト](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts)、コミュニティによる多くの拡張\n- [Composable-Diffusion](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/)、複数プロンプトを同時使用可能\n     - プロンプトを大文字の`AND`で区切る\n     - 重み付けも対応：`a cat :1.2 AND a dog AND a penguin :2.2`\n- プロンプトにトークン制限なし（元のStable Diffusionは最大75トークン）\n- DeepDanbooru統合、アニメプロンプト用のdanbooruスタイルタグ生成\n- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers)、特定GPUで大幅な高速化（コマンドライン引数に`--xformers`を追加）\n- 拡張機能経由：[履歴タブ](https://github.com/yfszzx/stable-diffusion-webui-images-browser)、UI内で画像の閲覧、直接操作、削除が便利に\n- 永続生成オプション\n- トレーニングタブ\n     - ハイパーネットワークと埋め込みオプション\n     - 画像の前処理：クロッピング、ミラーリング、BLIPやdeepdanbooruによる自動タグ付け（アニメ用）\n- Clip skip\n- ハイパーネットワーク\n- Lora（ハイパーネットワークと同様だがより見た目が良い）\n- 埋め込み、ハイパーネットワーク、Loraを選択しプレビュー付きでプロンプトに追加できる別UI\n- 設定画面から異なるVAEの読み込み選択可能\n- 進捗バーに推定完了時間表示\n- API\n- RunwayML提供の[専用インペインティングモデル](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion)対応\n- 拡張機能経由：[Aesthetic Gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients)、クリップ画像埋め込みを使って特定の美的感覚で画像生成（[実装元](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients)）\n- [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion)対応 - 詳細は[wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion-20)\n- [Alt-Diffusion](https://arxiv.org/abs/2211.06679)対応 - 詳細は[wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion)\n- 悪い文字なしで今ここに！\n- safetensorsフォーマットのチェックポイント読み込み対応\n- 解像度制限緩和：生成画像の寸法は64の倍数ではなく8の倍数でよくなった\n- ライセンス付きになりました！\n- 設定画面からUI要素の並び順変更可能\n- [Segmind Stable Diffusion](https://huggingface.co/segmind/SSD-1B)対応\n\n## インストールと実行\n必要な[依存関係](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies)を満たしていることを確認し、以下の手順に従ってください：\n- [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)（推奨）\n- [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs) GPU\n- [Intel CPU、Intel GPU（内蔵およびディスクリート）](https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon)（外部wikiページ）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0NgM9p6GcKCmThRP8YIrZAANTHDeEO61jzTAXezNRbw=",
+        "originContent": "# Stable Diffusion web UI",
+        "translatedContent": "# Stable Diffusion web UI"
+      },
+      {
+        "row": 2,
+        "rowsha": "KtYRWGnqOPybukDOeihZ9YzOmbUDESxCNLJmgDgEgg4=",
+        "originContent": "A web interface for Stable Diffusion, implemented using Gradio library.",
+        "translatedContent": "Stable Diffusionのためのウェブインターフェースで、Gradioライブラリを使用して実装されています。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "1Aem4P04SakaDKKhR+3S/wcw7+YGsOUr3BKUeKnRRvc=",
+        "originContent": "![](https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/screenshot.png)",
+        "translatedContent": "![](https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/screenshot.png)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Features"
+      },
+      {
+        "row": 7,
+        "rowsha": "K/b3BPvywYFQlOJnwExVueX97wkbAfylch3xXicmny4=",
+        "originContent": "[Detailed feature showcase with images](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features):",
+        "translatedContent": "[画像付き詳細機能紹介](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features):"
+      },
+      {
+        "row": 8,
+        "rowsha": "vsc+BIItMPVPhJBABKgCTNfT3AZbeo6UNcOJOpxy0vk=",
+        "originContent": "- Original txt2img and img2img modes",
+        "translatedContent": "- オリジナルのtxt2imgおよびimg2imgモード"
+      },
+      {
+        "row": 9,
+        "rowsha": "UOiOweckCoVpz/Tb0gw4/FSNg9Rm48FmllmDaDtRJCA=",
+        "originContent": "- One click install and run script (but you still must install python and git)",
+        "translatedContent": "- ワンクリックでインストールと実行スクリプト（ただしPythonとgitは別途インストールが必要）"
+      },
+      {
+        "row": 10,
+        "rowsha": "grC9rV2H6S8i3uFWmbr9+RzPYWARu7FotaPPm4avIY0=",
+        "originContent": "- Outpainting",
+        "translatedContent": "- アウトペインティング"
+      },
+      {
+        "row": 11,
+        "rowsha": "xWXblTdxCkwBGN9BQLuCoAnbmMjjLUN4pBdAbyNqowc=",
+        "originContent": "- Inpainting",
+        "translatedContent": "- インペインティング"
+      },
+      {
+        "row": 12,
+        "rowsha": "chxK8pU8dzgHlkqk1HjwZtTTrP401lxMWvHrVz+/OHI=",
+        "originContent": "- Color Sketch",
+        "translatedContent": "- カラースケッチ"
+      },
+      {
+        "row": 13,
+        "rowsha": "mhGi9tXlYhY0K3NUp2WoICMFzaAxaa9E29ENnbMROh8=",
+        "originContent": "- Prompt Matrix",
+        "translatedContent": "- プロンプトマトリックス"
+      },
+      {
+        "row": 14,
+        "rowsha": "QMOhnJniQbUnkLye5pSzL3CBeByQT5KV4WlCDOZJVCA=",
+        "originContent": "- Stable Diffusion Upscale",
+        "translatedContent": "- Stable Diffusion アップスケール"
+      },
+      {
+        "row": 15,
+        "rowsha": "DPrtgRettXf+PhsCObP+U2MgnI44a2QWnIZNABVON6k=",
+        "originContent": "- Attention, specify parts of text that the model should pay more attention to",
+        "translatedContent": "- アテンション、モデルがより注意を払うべきテキスト部分を指定"
+      },
+      {
+        "row": 16,
+        "rowsha": "WxbreT1rge3NXS/TR7LzNG8rLAmqrKJVrmV2hkrTjlo=",
+        "originContent": "    - a man in a `((tuxedo))` - will pay more attention to tuxedo",
+        "translatedContent": "    - a man in a `((tuxedo))` - tuxedoにより注意を払う"
+      },
+      {
+        "row": 17,
+        "rowsha": "D7uLlVXTbPkceLlReF7DyiEqEfbxsh8QCqsHLj09tJo=",
+        "originContent": "    - a man in a `(tuxedo:1.21)` - alternative syntax",
+        "translatedContent": "    - a man in a `(tuxedo:1.21)` - 代替構文"
+      },
+      {
+        "row": 18,
+        "rowsha": "icPjBr37BVNBp/lw5eqLBV708Fo25jcN0QpymBOK3xU=",
+        "originContent": "    - select text and press `Ctrl+Up` or `Ctrl+Down` (or `Command+Up` or `Command+Down` if you're on a MacOS) to automatically adjust attention to selected text (code contributed by anonymous user)",
+        "translatedContent": "    - テキストを選択し、`Ctrl+Up`または`Ctrl+Down`（MacOSの場合は`Command+Up`または`Command+Down`）を押すと選択テキストのアテンションを自動調整（匿名ユーザーのコード提供）"
+      },
+      {
+        "row": 19,
+        "rowsha": "0za7l8E6fhqCgF1kguRXxyXe5XllaNdPyYk3Gs+mUzU=",
+        "originContent": "- Loopback, run img2img processing multiple times",
+        "translatedContent": "- ループバック、img2img処理を複数回実行"
+      },
+      {
+        "row": 20,
+        "rowsha": "hmcvShOCwQFWWZq0xRd+xym+uk1UJwaNJeurN8OVwHE=",
+        "originContent": "- X/Y/Z plot, a way to draw a 3 dimensional plot of images with different parameters",
+        "translatedContent": "- X/Y/Zプロット、異なるパラメータで画像の3次元プロットを描画する方法"
+      },
+      {
+        "row": 21,
+        "rowsha": "oL8gTpo4FLKYYR0Vo7ZYZaWN8RwOeK2zCzIMBTQE+50=",
+        "originContent": "- Textual Inversion",
+        "translatedContent": "- テキスチュアルインバージョン"
+      },
+      {
+        "row": 22,
+        "rowsha": "zayCtBGYmnWZnsb514IJSo1biVZ8wtkkoQfzTs32agM=",
+        "originContent": "    - have as many embeddings as you want and use any names you like for them",
+        "translatedContent": "    - 好きなだけ埋め込みを持て、好きな名前を使える"
+      },
+      {
+        "row": 23,
+        "rowsha": "Z8ndCC4XDFCqJ3SHZ2TozpjJmYCLwlc2O6PUCefkUGE=",
+        "originContent": "    - use multiple embeddings with different numbers of vectors per token",
+        "translatedContent": "    - トークンごとに異なるベクトル数の複数埋め込みを使用可能"
+      },
+      {
+        "row": 24,
+        "rowsha": "N6WHpCwXFyyb0fUTIyzTdETo79uOtDPOU0Rn8n/Cj+Q=",
+        "originContent": "    - works with half precision floating point numbers",
+        "translatedContent": "    - 半精度浮動小数点数で動作"
+      },
+      {
+        "row": 25,
+        "rowsha": "XzzU6XjGMv1XDlFXZp1IfJkDGliIWRAEC4Wcg3MP9G0=",
+        "originContent": "    - train embeddings on 8GB (also reports of 6GB working)",
+        "translatedContent": "    - 8GBで埋め込みを訓練可能（6GBで動作報告もあり）"
+      },
+      {
+        "row": 26,
+        "rowsha": "9q8rICZ/w/YFW9gNIFYBrSzm6KYC5CBkMWtqTnbm+9M=",
+        "originContent": "- Extras tab with:",
+        "translatedContent": "- Extrasタブに以下を含む："
+      },
+      {
+        "row": 27,
+        "rowsha": "6W1XaCggy+1qwkZohA0FImCbOHhnP+OYs/zixS3NB3M=",
+        "originContent": "    - GFPGAN, neural network that fixes faces",
+        "translatedContent": "    - GFPGAN、顔を修正するニューラルネットワーク"
+      },
+      {
+        "row": 28,
+        "rowsha": "hIC85W965ddMKALrWyZwlno+pOcRzRHTp3SqaqI32Y0=",
+        "originContent": "    - CodeFormer, face restoration tool as an alternative to GFPGAN",
+        "translatedContent": "    - CodeFormer、GFPGANの代替顔修復ツール"
+      },
+      {
+        "row": 29,
+        "rowsha": "zOtIuIdDZieWJ0ETc2xLGoLIlE52mV+gYYTvxgoQ+gk=",
+        "originContent": "    - RealESRGAN, neural network upscaler",
+        "translatedContent": "    - RealESRGAN、ニューラルネットワークアップスケーラー"
+      },
+      {
+        "row": 30,
+        "rowsha": "gQJ8Gr4tymeacpIHGMeBapDf0C1GnjygalvouZGQwnU=",
+        "originContent": "    - ESRGAN, neural network upscaler with a lot of third party models",
+        "translatedContent": "    - ESRGAN、多数のサードパーティモデルを持つニューラルネットワークアップスケーラー"
+      },
+      {
+        "row": 31,
+        "rowsha": "l1Cy3QXAUO/ByzWPnP9sEqk+4BHkZD8Qx5/PnNA/urY=",
+        "originContent": "    - SwinIR and Swin2SR ([see here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)), neural network upscalers",
+        "translatedContent": "    - SwinIRおよびSwin2SR（[こちら参照](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)）、ニューラルネットワークアップスケーラー"
+      },
+      {
+        "row": 32,
+        "rowsha": "law7rMPN+VceyzREzX8Z61zQgzhnAEu9z511UzD+WkQ=",
+        "originContent": "    - LDSR, Latent diffusion super resolution upscaling",
+        "translatedContent": "    - LDSR、潜在拡散スーパーレゾリューションアップスケーリング"
+      },
+      {
+        "row": 33,
+        "rowsha": "c8+kazPWjav2M9iniqc0iOG2rJUwmWC7JJ4smGBXkyY=",
+        "originContent": "- Resizing aspect ratio options",
+        "translatedContent": "- アスペクト比リサイズオプション"
+      },
+      {
+        "row": 34,
+        "rowsha": "1kfkfMBDycQ21DSwi4/kko5ZlMFUQdCb7tkFk32a6qI=",
+        "originContent": "- Sampling method selection",
+        "translatedContent": "- サンプリング手法選択"
+      },
+      {
+        "row": 35,
+        "rowsha": "8QRkC7RzOfhKLy6uNm3Zeg0hgPHYofsZo2W9QC9vjTY=",
+        "originContent": "    - Adjust sampler eta values (noise multiplier)",
+        "translatedContent": "    - サンプラーのeta値（ノイズ乗数）調整"
+      },
+      {
+        "row": 36,
+        "rowsha": "yoKJDEqliiDsX+r+7JdZQGBI4Jc7PZr2UfbebQseHTw=",
+        "originContent": "    - More advanced noise setting options",
+        "translatedContent": "    - より高度なノイズ設定オプション"
+      },
+      {
+        "row": 37,
+        "rowsha": "XgaTobbGDiN98EQkMkRN6wHXphJjxsdG8wPRP35xnEk=",
+        "originContent": "- Interrupt processing at any time",
+        "translatedContent": "- いつでも処理を中断可能"
+      },
+      {
+        "row": 38,
+        "rowsha": "eYwi9cHHABaElqzLW5x4ND93PcaCPuVOLt9O+d7Pfek=",
+        "originContent": "- 4GB video card support (also reports of 2GB working)",
+        "translatedContent": "- 4GBビデオカードサポート（2GBで動作報告もあり）"
+      },
+      {
+        "row": 39,
+        "rowsha": "iHSaf0Rpsn6Fqe03QoEbQNclE36Yq93FPBrBtcfSEyY=",
+        "originContent": "- Correct seeds for batches",
+        "translatedContent": "- バッチごとに正しいシード生成"
+      },
+      {
+        "row": 40,
+        "rowsha": "9knhcIdDjpIo4CE3LCFGS35Rd8aEllDx1YxU3BejM7g=",
+        "originContent": "- Live prompt token length validation",
+        "translatedContent": "- プロンプトトークン長のリアルタイム検証"
+      },
+      {
+        "row": 41,
+        "rowsha": "Af++uw/lnxWsDbH6BlwLbugiEKWWoneAp0EHjJ98IXo=",
+        "originContent": "- Generation parameters",
+        "translatedContent": "- 生成パラメータ"
+      },
+      {
+        "row": 42,
+        "rowsha": "6BPGiqOLtmzdJmr6j/HerRex3vliQdphBrygWfC+Tdw=",
+        "originContent": "     - parameters you used to generate images are saved with that image",
+        "translatedContent": "     - 画像を生成するために使用したパラメータが画像と一緒に保存される"
+      },
+      {
+        "row": 43,
+        "rowsha": "B8Jkl7tCTZMfbTpA3wuJEJvh05V7glmvc+YFXeMQ0Ks=",
+        "originContent": "     - in PNG chunks for PNG, in EXIF for JPEG",
+        "translatedContent": "     - PNGの場合はPNGチャンクに、JPEGの場合はEXIFに保存"
+      },
+      {
+        "row": 44,
+        "rowsha": "YfGxY4IsjSS8CR56fzkHyow3pPTW/l1cJzwqzHTDxUc=",
+        "originContent": "     - can drag the image to PNG info tab to restore generation parameters and automatically copy them into UI",
+        "translatedContent": "     - 画像をPNG情報タブにドラッグすると生成パラメータを復元しUIに自動コピー"
+      },
+      {
+        "row": 45,
+        "rowsha": "npLwfTGHeRsgu+TdkOosXBQ7q3geDWINx90A0gRVZdg=",
+        "originContent": "     - can be disabled in settings",
+        "translatedContent": "     - 設定で無効化可能"
+      },
+      {
+        "row": 46,
+        "rowsha": "vdwDPG57pwEFpsRFYoxwOhkOOa17VCfN+3RM3vDU3qk=",
+        "originContent": "     - drag and drop an image/text-parameters to promptbox",
+        "translatedContent": "     - 画像／テキストパラメータをプロンプトボックスにドラッグ＆ドロップ可能"
+      },
+      {
+        "row": 47,
+        "rowsha": "BVGuTe5PG2QP9rBP82jJWswWqSQuvyg/Cbcw/hL/R8Y=",
+        "originContent": "- Read Generation Parameters Button, loads parameters in promptbox to UI",
+        "translatedContent": "- 生成パラメータ読み込みボタン、プロンプトボックスにパラメータをロード"
+      },
+      {
+        "row": 48,
+        "rowsha": "Im0BYfwXMDonr3AHaq0cjx5+pK03L0tzwo0v+DajkhA=",
+        "originContent": "- Settings page",
+        "translatedContent": "- 設定ページ"
+      },
+      {
+        "row": 49,
+        "rowsha": "HSCPv33re32KtR4xyYCrnD0+JE3JuUl/FDEzokCk7fo=",
+        "originContent": "- Running arbitrary python code from UI (must run with `--allow-code` to enable)",
+        "translatedContent": "- UIから任意のPythonコードを実行可能（`--allow-code`オプションで有効化）"
+      },
+      {
+        "row": 50,
+        "rowsha": "OfP5/6B+qnnlpGuNaQ9GJPD1zMrqf/cr0G/H/p5o9to=",
+        "originContent": "- Mouseover hints for most UI elements",
+        "translatedContent": "- ほとんどのUI要素にマウスオーバーヒント"
+      },
+      {
+        "row": 51,
+        "rowsha": "r1XqA3mFXKLVx1lUl6TXfXTyeEK1VJqlxxf9g2L4yuQ=",
+        "originContent": "- Possible to change defaults/mix/max/step values for UI elements via text config",
+        "translatedContent": "- UI要素のデフォルト／最小／最大／ステップ値をテキスト設定で変更可能"
+      },
+      {
+        "row": 52,
+        "rowsha": "e10Kgfo6ThIelwyBy6bpcgOov3hRNSZwd2IerXNoerQ=",
+        "originContent": "- Tiling support, a checkbox to create images that can be tiled like textures",
+        "translatedContent": "- タイリング対応、テクスチャのようにタイル可能な画像を作成するチェックボックス"
+      },
+      {
+        "row": 53,
+        "rowsha": "zlGoaym0Tsq1Gm4bvn8A3X080g202ChrS1y+AQbl3Nk=",
+        "originContent": "- Progress bar and live image generation preview",
+        "translatedContent": "- 進捗バーとリアルタイム画像生成プレビュー"
+      },
+      {
+        "row": 54,
+        "rowsha": "tCs8Iba7YgEp2dD83lJgLD8k+00TQX1Vz/duauL6OGk=",
+        "originContent": "    - Can use a separate neural network to produce previews with almost none VRAM or compute requirement",
+        "translatedContent": "    - VRAMや計算資源をほぼ使わずにプレビューを生成する別ニューラルネットワークを使用可能"
+      },
+      {
+        "row": 55,
+        "rowsha": "eg+SCqyAtATnNgqGrp6WAG3Syi1t9cDTxLIcW7O7Bjc=",
+        "originContent": "- Negative prompt, an extra text field that allows you to list what you don't want to see in generated image",
+        "translatedContent": "- ネガティブプロンプト、生成画像に含めたくない要素を列挙する追加テキスト欄"
+      },
+      {
+        "row": 56,
+        "rowsha": "o2duHBDr+SDRMAP5IegRCAuBYYD21wWnnL42M11m3J8=",
+        "originContent": "- Styles, a way to save part of prompt and easily apply them via dropdown later",
+        "translatedContent": "- スタイル、プロンプトの一部を保存し、後でドロップダウンから簡単に適用可能"
+      },
+      {
+        "row": 57,
+        "rowsha": "GzASGaBMg5m34ATAuHhjII+UFQdUqON0HwIjAItfn50=",
+        "originContent": "- Variations, a way to generate same image but with tiny differences",
+        "translatedContent": "- バリエーション、ほぼ同じ画像を僅かな違いで生成する方法"
+      },
+      {
+        "row": 58,
+        "rowsha": "PGtIHkUTmtaXNvP99gVThu682e67Ww7zH2Kkos/pJXM=",
+        "originContent": "- Seed resizing, a way to generate same image but at slightly different resolution",
+        "translatedContent": "- シードリサイズ、ほぼ同じ画像をわずかに異なる解像度で生成"
+      },
+      {
+        "row": 59,
+        "rowsha": "39Tjd5gZQrgwudiNwJcWmeESKcQrYQyuuBItAhP+WX0=",
+        "originContent": "- CLIP interrogator, a button that tries to guess prompt from an image",
+        "translatedContent": "- CLIPインターロゲーター、画像からプロンプトを推測するボタン"
+      },
+      {
+        "row": 60,
+        "rowsha": "8NvBKu+FTjNr8KEsVYoWe8u3hnALX9Jfb7ATHT+CVOg=",
+        "originContent": "- Prompt Editing, a way to change prompt mid-generation, say to start making a watermelon and switch to anime girl midway",
+        "translatedContent": "- プロンプト編集、生成中にプロンプトを変更可能。例：スイカから途中でアニメ少女に切り替え"
+      },
+      {
+        "row": 61,
+        "rowsha": "MlxCJEqKLV+ErQ+8JFzwPp8Ks/671+Ms1Ymqnlsk1GQ=",
+        "originContent": "- Batch Processing, process a group of files using img2img",
+        "translatedContent": "- バッチ処理、複数ファイルをimg2imgで処理"
+      },
+      {
+        "row": 62,
+        "rowsha": "amTTuvq9/ijmpz4NxJCKxBNDS1Ck6rF1SM7bF5zZqnI=",
+        "originContent": "- Img2img Alternative, reverse Euler method of cross attention control",
+        "translatedContent": "- Img2img代替、逆オイラー法によるクロスアテンション制御"
+      },
+      {
+        "row": 63,
+        "rowsha": "7Irzxs5eLxPrncAKCAesEEb160NzaJ+B2kwPMnDGEtk=",
+        "originContent": "- Highres Fix, a convenience option to produce high resolution pictures in one click without usual distortions",
+        "translatedContent": "- 高解像度修正、ワンクリックで通常の歪みなしに高解像度画像を生成する便利オプション"
+      },
+      {
+        "row": 64,
+        "rowsha": "z6+0Sz/Q6UDZzF5Dnj300MuV0FQRXlDHVODFM9VqeMQ=",
+        "originContent": "- Reloading checkpoints on the fly",
+        "translatedContent": "- チェックポイントを即時再読み込み可能"
+      },
+      {
+        "row": 65,
+        "rowsha": "KFzXuOHSN1oqdPcfniCX8Jl1FrSa61eeysv7LxbNgp0=",
+        "originContent": "- Checkpoint Merger, a tab that allows you to merge up to 3 checkpoints into one",
+        "translatedContent": "- チェックポイントマージャー、最大3つのチェックポイントを1つにマージ可能なタブ"
+      },
+      {
+        "row": 66,
+        "rowsha": "5l9CAHq75/+cHcdmkR9vh9f3KIoUGeMfEhcACaQpW9M=",
+        "originContent": "- [Custom scripts](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts) with many extensions from community",
+        "translatedContent": "- [カスタムスクリプト](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts)、コミュニティによる多くの拡張"
+      },
+      {
+        "row": 67,
+        "rowsha": "Rx80f2hre+EAx9NPevOtmOOTK1I3sIifx60NoQz0nYY=",
+        "originContent": "- [Composable-Diffusion](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/), a way to use multiple prompts at once",
+        "translatedContent": "- [Composable-Diffusion](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/)、複数プロンプトを同時使用可能"
+      },
+      {
+        "row": 68,
+        "rowsha": "Q4RN2uOXf4E2bRblJd/LRZlF+/Hk0Aw5NeGMuOCINKc=",
+        "originContent": "     - separate prompts using uppercase `AND`",
+        "translatedContent": "     - プロンプトを大文字の`AND`で区切る"
+      },
+      {
+        "row": 69,
+        "rowsha": "+VWyyDxjULdo10fLXrmJc1hDxUE9OwDBGPXWJm0/OTY=",
+        "originContent": "     - also supports weights for prompts: `a cat :1.2 AND a dog AND a penguin :2.2`",
+        "translatedContent": "     - 重み付けも対応：`a cat :1.2 AND a dog AND a penguin :2.2`"
+      },
+      {
+        "row": 70,
+        "rowsha": "pOvYY0jKLn9Ih64MfFPRAXyepUFEwQ/D417abJHdJW4=",
+        "originContent": "- No token limit for prompts (original stable diffusion lets you use up to 75 tokens)",
+        "translatedContent": "- プロンプトにトークン制限なし（元のStable Diffusionは最大75トークン）"
+      },
+      {
+        "row": 71,
+        "rowsha": "T5Ews2slDUK7R/kkkeQPCKyOGnCez4gfl2vybF+YTpw=",
+        "originContent": "- DeepDanbooru integration, creates danbooru style tags for anime prompts",
+        "translatedContent": "- DeepDanbooru統合、アニメプロンプト用のdanbooruスタイルタグ生成"
+      },
+      {
+        "row": 72,
+        "rowsha": "zCQdAX8rCfqQ6E+fc12qa6dDwh4FxXFQ9jVaYc7Cm/s=",
+        "originContent": "- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers), major speed increase for select cards: (add `--xformers` to commandline args)",
+        "translatedContent": "- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers)、特定GPUで大幅な高速化（コマンドライン引数に`--xformers`を追加）"
+      },
+      {
+        "row": 73,
+        "rowsha": "bOV+MlqUOd2dqMRIUhwsYRZz1pxUrlNg4bFhsGLjjvQ=",
+        "originContent": "- via extension: [History tab](https://github.com/yfszzx/stable-diffusion-webui-images-browser): view, direct and delete images conveniently within the UI",
+        "translatedContent": "- 拡張機能経由：[履歴タブ](https://github.com/yfszzx/stable-diffusion-webui-images-browser)、UI内で画像の閲覧、直接操作、削除が便利に"
+      },
+      {
+        "row": 74,
+        "rowsha": "ecKDgbU0llmrNUd2feuVhcQfCDN+DoJTZzNn+k0OWLQ=",
+        "originContent": "- Generate forever option",
+        "translatedContent": "- 永続生成オプション"
+      },
+      {
+        "row": 75,
+        "rowsha": "6W+dFaMhrPGBGBk7ReWR1tNr4rQPa1NlWILpw7NDGM0=",
+        "originContent": "- Training tab",
+        "translatedContent": "- トレーニングタブ"
+      },
+      {
+        "row": 76,
+        "rowsha": "/qw1r4Uniu4crBehh7c1ZsXOHVedutvmldRGA3XuiIE=",
+        "originContent": "     - hypernetworks and embeddings options",
+        "translatedContent": "     - ハイパーネットワークと埋め込みオプション"
+      },
+      {
+        "row": 77,
+        "rowsha": "1XLokKc60MQUXjt/3EVpfucWeCmH/K+mR/lqM26cu+U=",
+        "originContent": "     - Preprocessing images: cropping, mirroring, autotagging using BLIP or deepdanbooru (for anime)",
+        "translatedContent": "     - 画像の前処理：クロッピング、ミラーリング、BLIPやdeepdanbooruによる自動タグ付け（アニメ用）"
+      },
+      {
+        "row": 78,
+        "rowsha": "21aXYSmeZIPHtdagOaFcTfOI+XveS2PQagG0GM3YgjY=",
+        "originContent": "- Clip skip",
+        "translatedContent": "- Clip skip"
+      },
+      {
+        "row": 79,
+        "rowsha": "JZ/9gFDcdl/sxtcPPh5p9tJKGQdHMh0/9iKAz42c1ZA=",
+        "originContent": "- Hypernetworks",
+        "translatedContent": "- ハイパーネットワーク"
+      },
+      {
+        "row": 80,
+        "rowsha": "Da7mqKKbWbdshnWLUZ5Wut8n/aL1xyh7CyR+KTumREA=",
+        "originContent": "- Loras (same as Hypernetworks but more pretty)",
+        "translatedContent": "- Lora（ハイパーネットワークと同様だがより見た目が良い）"
+      },
+      {
+        "row": 81,
+        "rowsha": "daZfNbTZk+f91PC+nP6J1GmlzjZIN8QG8gfqxuejC1c=",
+        "originContent": "- A separate UI where you can choose, with preview, which embeddings, hypernetworks or Loras to add to your prompt",
+        "translatedContent": "- 埋め込み、ハイパーネットワーク、Loraを選択しプレビュー付きでプロンプトに追加できる別UI"
+      },
+      {
+        "row": 82,
+        "rowsha": "Ka2QIhK/gqx8esDkoM4n3VoOEIBF/3PzlyaljKuiV6E=",
+        "originContent": "- Can select to load a different VAE from settings screen",
+        "translatedContent": "- 設定画面から異なるVAEの読み込み選択可能"
+      },
+      {
+        "row": 83,
+        "rowsha": "fF3KcWEO0YxEq1KOwFFWUMYrdEnZofXavePNvxgaGb4=",
+        "originContent": "- Estimated completion time in progress bar",
+        "translatedContent": "- 進捗バーに推定完了時間表示"
+      },
+      {
+        "row": 84,
+        "rowsha": "8X1cguYfqwuFWlIGov7l4er6QmGbdc84+kJ1I2jEGHg=",
+        "originContent": "- API",
+        "translatedContent": "- API"
+      },
+      {
+        "row": 85,
+        "rowsha": "G/8oxAt8mV8fjy2brUEOsbdwDKBuBSL4joky79RKs5g=",
+        "originContent": "- Support for dedicated [inpainting model](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion) by RunwayML",
+        "translatedContent": "- RunwayML提供の[専用インペインティングモデル](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion)対応"
+      },
+      {
+        "row": 86,
+        "rowsha": "sAcTlsc3PZjpf+/30LVn8ocOiY6MnNZzVpzH/hrd2eU=",
+        "originContent": "- via extension: [Aesthetic Gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients), a way to generate images with a specific aesthetic by using clip images embeds (implementation of [https://github.com/vicgalle/stable-diffusion-aesthetic-gradients](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients))",
+        "translatedContent": "- 拡張機能経由：[Aesthetic Gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients)、クリップ画像埋め込みを使って特定の美的感覚で画像生成（[実装元](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients)）"
+      },
+      {
+        "row": 87,
+        "rowsha": "ivS17hZgGyI3o279jTsbsam86FSs5GAtECK98kKlwm8=",
+        "originContent": "- [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion) support - see [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion-20) for instructions",
+        "translatedContent": "- [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion)対応 - 詳細は[wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion-20)"
+      },
+      {
+        "row": 88,
+        "rowsha": "TGgRDThmCL2OSBOoo2VoOPMc2gI2a77MD/MJw1C7jm8=",
+        "originContent": "- [Alt-Diffusion](https://arxiv.org/abs/2211.06679) support - see [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion) for instructions",
+        "translatedContent": "- [Alt-Diffusion](https://arxiv.org/abs/2211.06679)対応 - 詳細は[wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion)"
+      },
+      {
+        "row": 89,
+        "rowsha": "rACfoJ0h6JdV6oqB1AMdqCRBZB78KlGBmYbr3IaD8Z4=",
+        "originContent": "- Now without any bad letters!",
+        "translatedContent": "- 悪い文字なしで今ここに！"
+      },
+      {
+        "row": 90,
+        "rowsha": "VtnZwwalzvKYCk61/RkIlJAV1LbVFfYNirfCg2OCFNQ=",
+        "originContent": "- Load checkpoints in safetensors format",
+        "translatedContent": "- safetensorsフォーマットのチェックポイント読み込み対応"
+      },
+      {
+        "row": 91,
+        "rowsha": "cHVi/M5fYerhe0IFB6Gf/eAtGrtBzSO8qa7Hkq8XSoE=",
+        "originContent": "- Eased resolution restriction: generated image's dimensions must be a multiple of 8 rather than 64",
+        "translatedContent": "- 解像度制限緩和：生成画像の寸法は64の倍数ではなく8の倍数でよくなった"
+      },
+      {
+        "row": 92,
+        "rowsha": "RpXNTiG1xf2QS07ORC49xc1jtoACRuhqOUxQnWLXI0E=",
+        "originContent": "- Now with a license!",
+        "translatedContent": "- ライセンス付きになりました！"
+      },
+      {
+        "row": 93,
+        "rowsha": "PGx1vfu0g6GDcdv+qT3MQWsHTyf49nqWDTgvcrNMIPg=",
+        "originContent": "- Reorder elements in the UI from settings screen",
+        "translatedContent": "- 設定画面からUI要素の並び順変更可能"
+      },
+      {
+        "row": 94,
+        "rowsha": "dvS3tsw5wHJdHf0UJqfFeBuX8VXpzWlZjZpkrygJL5Q=",
+        "originContent": "- [Segmind Stable Diffusion](https://huggingface.co/segmind/SSD-1B) support",
+        "translatedContent": "- [Segmind Stable Diffusion](https://huggingface.co/segmind/SSD-1B)対応"
+      },
+      {
+        "row": 95,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 96,
+        "rowsha": "ZNpf3ZXHnelbII83qAbP7bMs+7T16YDCoev9KgNnQ3c=",
+        "originContent": "## Installation and Running",
+        "translatedContent": "## インストールと実行"
+      },
+      {
+        "row": 97,
+        "rowsha": "U9gGtfa34bv1RCWBUysr0C9Vv/BywI2WeEkkn/ujtLU=",
+        "originContent": "Make sure the required [dependencies](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) are met and follow the instructions available for:",
+        "translatedContent": "必要な[依存関係](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies)を満たしていることを確認し、以下の手順に従ってください："
+      },
+      {
+        "row": 98,
+        "rowsha": "waetxRu2un9wyLN2KZMoGMY8kqXTtPf8IuJ3o8ByGx0=",
+        "originContent": "- [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) (recommended)",
+        "translatedContent": "- [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)（推奨）"
+      },
+      {
+        "row": 99,
+        "rowsha": "/fvYw+/CkdTrzo3jyW0s2MNb6L+iWR7rtVsjouqhNmY=",
+        "originContent": "- [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs) GPUs.",
+        "translatedContent": "- [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs) GPU"
+      },
+      {
+        "row": 100,
+        "rowsha": "zVYFxPHXK5k/7+x25iYOR68mUVVN4l+jSo58gXGGOr8=",
+        "originContent": "- [Intel CPUs, Intel GPUs (both integrated and discrete)](https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon) (external wiki page)",
+        "translatedContent": "- [Intel CPU、Intel GPU（内蔵およびディスクリート）](https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon)（外部wikiページ）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- [Ascend NPUs](https://github.com/wangshuai09/stable-diffusion-webui/wiki/Install-and-run-on-Ascend-NPUs) (external wiki page)\n\nAlternatively, use online services (like Google Colab):\n\n- [List of Online Services](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services)\n\n### Installation on Windows 10/11 with NVidia-GPUs using release package\n1. Download `sd.webui.zip` from [v1.0.0-pre](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre) and extract its contents.\n2. Run `update.bat`.\n3. Run `run.bat`.\n> For more details see [Install-and-Run-on-NVidia-GPUs](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)\n\n### Automatic Installation on Windows\n1. Install [Python 3.10.6](https://www.python.org/downloads/release/python-3106/) (Newer version of Python does not support torch), checking \"Add Python to PATH\".\n2. Install [git](https://git-scm.com/download/win).\n3. Download the stable-diffusion-webui repository, for example by running `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`.\n4. Run `webui-user.bat` from Windows Explorer as normal, non-administrator, user.\n\n### Automatic Installation on Linux\n1. Install the dependencies:",
+    "ContentSha": "mBlKBP121mz4yBGjrmCmY/wb/8AsROoMEDt9hQoi6xs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- [Ascend NPU](https://github.com/wangshuai09/stable-diffusion-webui/wiki/Install-and-run-on-Ascend-NPUs)（外部Wikiページ）\n\nまたは、オンラインサービス（Google Colabなど）を利用してください：\n\n- [オンラインサービス一覧](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services)\n\n### NVidia GPU搭載Windows 10/11でのリリースパッケージによるインストール\n1. [v1.0.0-pre](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre)から `sd.webui.zip` をダウンロードし、展開します。\n2. `update.bat` を実行します。\n3. `run.bat` を実行します。\n> 詳細は [Install-and-Run-on-NVidia-GPUs](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) を参照してください。\n\n### Windowsでの自動インストール\n1. [Python 3.10.6](https://www.python.org/downloads/release/python-3106/) をインストールします（新しいPythonバージョンはtorchをサポートしていません）。「Add Python to PATH」にチェックを入れてください。\n2. [git](https://git-scm.com/download/win) をインストールします。\n3. stable-diffusion-webuiリポジトリをダウンロードします。例： `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git` を実行。\n4. Windowsエクスプローラーから `webui-user.bat` を通常ユーザー（管理者ではなく）で実行します。\n\n### Linuxでの自動インストール\n1. 依存関係をインストールします：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pppJ0+pFe47TOKw7I2kZt+IVfo1DoxkWiYMf4fZ3jJw=",
+        "originContent": "- [Ascend NPUs](https://github.com/wangshuai09/stable-diffusion-webui/wiki/Install-and-run-on-Ascend-NPUs) (external wiki page)",
+        "translatedContent": "- [Ascend NPU](https://github.com/wangshuai09/stable-diffusion-webui/wiki/Install-and-run-on-Ascend-NPUs)（外部Wikiページ）"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "34uKhqWr9YBx1Xf0CfVtHjxRl6bnw4TJ8e6ZoV8HbKI=",
+        "originContent": "Alternatively, use online services (like Google Colab):",
+        "translatedContent": "または、オンラインサービス（Google Colabなど）を利用してください："
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Bimv0tbsmB+SZzbFdiXLe20XpF3yuxpRrIPCJTjLnk8=",
+        "originContent": "- [List of Online Services](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services)",
+        "translatedContent": "- [オンラインサービス一覧](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "vXkOHZLvDZ3KILluXjWXwUsp2QnmR4WgupaAO+UozWU=",
+        "originContent": "### Installation on Windows 10/11 with NVidia-GPUs using release package",
+        "translatedContent": "### NVidia GPU搭載Windows 10/11でのリリースパッケージによるインストール"
+      },
+      {
+        "row": 8,
+        "rowsha": "Ysfl9o4osnHmHBY+XIjFYMsA61obiPFdIdxs+fiXZho=",
+        "originContent": "1. Download `sd.webui.zip` from [v1.0.0-pre](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre) and extract its contents.",
+        "translatedContent": "1. [v1.0.0-pre](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre)から `sd.webui.zip` をダウンロードし、展開します。"
+      },
+      {
+        "row": 9,
+        "rowsha": "H7/Vg553u3KuJtDyZqJwSPBxQg3p781qtns+ul6nKLc=",
+        "originContent": "2. Run `update.bat`.",
+        "translatedContent": "2. `update.bat` を実行します。"
+      },
+      {
+        "row": 10,
+        "rowsha": "aerd2Pvo+GVm62sCebwlbnButzOl1kRRt0W1YlmuA/0=",
+        "originContent": "3. Run `run.bat`.",
+        "translatedContent": "3. `run.bat` を実行します。"
+      },
+      {
+        "row": 11,
+        "rowsha": "iIqdoS7fQ2YG3c3OeUkCiy2KyTgL7D6h5m0C/HQEqBs=",
+        "originContent": "> For more details see [Install-and-Run-on-NVidia-GPUs](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)",
+        "translatedContent": "> 詳細は [Install-and-Run-on-NVidia-GPUs](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) を参照してください。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "o7sgLue8fofzaUlBDOXaOk7bghznM7B5v7UWUAUtdf0=",
+        "originContent": "### Automatic Installation on Windows",
+        "translatedContent": "### Windowsでの自動インストール"
+      },
+      {
+        "row": 14,
+        "rowsha": "jCr7lDsZOyMaHF0kyi/+UOWTkaArJ0j4VLShZrqwiGs=",
+        "originContent": "1. Install [Python 3.10.6](https://www.python.org/downloads/release/python-3106/) (Newer version of Python does not support torch), checking \"Add Python to PATH\".",
+        "translatedContent": "1. [Python 3.10.6](https://www.python.org/downloads/release/python-3106/) をインストールします（新しいPythonバージョンはtorchをサポートしていません）。「Add Python to PATH」にチェックを入れてください。"
+      },
+      {
+        "row": 15,
+        "rowsha": "K+ARQyintlx+a1eNoimVh5XhBq1xsMA55AHaL3Zl/9w=",
+        "originContent": "2. Install [git](https://git-scm.com/download/win).",
+        "translatedContent": "2. [git](https://git-scm.com/download/win) をインストールします。"
+      },
+      {
+        "row": 16,
+        "rowsha": "IN5wITdiA9TpBGkJVQvDqpQCwAz/1nDPJmQFCHGG/NE=",
+        "originContent": "3. Download the stable-diffusion-webui repository, for example by running `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`.",
+        "translatedContent": "3. stable-diffusion-webuiリポジトリをダウンロードします。例： `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git` を実行。"
+      },
+      {
+        "row": 17,
+        "rowsha": "oY4qCVNynWTznIjNxBDNf4knBmqucTc3Rae1ife1CpM=",
+        "originContent": "4. Run `webui-user.bat` from Windows Explorer as normal, non-administrator, user.",
+        "translatedContent": "4. Windowsエクスプローラーから `webui-user.bat` を通常ユーザー（管理者ではなく）で実行します。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "IKUpqDSGJkxilYwVAQ/gXhdEUqB/lYT4rc0eaIcjBCg=",
+        "originContent": "### Automatic Installation on Linux",
+        "translatedContent": "### Linuxでの自動インストール"
+      },
+      {
+        "row": 20,
+        "rowsha": "KXOwkR4c/g08PBm8vugZkwznxvS2HVvsVMMQ6i2YvHk=",
+        "originContent": "1. Install the dependencies:",
+        "translatedContent": "1. 依存関係をインストールします："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\n# Debian-based:\nsudo apt install wget git python3 python3-venv libgl1 libglib2.0-0\n# Red Hat-based:\nsudo dnf install wget git python3 gperftools-libs libglvnd-glx\n# openSUSE-based:\nsudo zypper install wget git python3 libtcmalloc4 libglvnd\n# Arch-based:\nsudo pacman -S wget git python3\n```",
+    "ContentSha": "w5L59o6Pbpe/mzqU9xHkAU+iIF7Oko+tvf8njzcWRus=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Debian-based:\nsudo apt install wget git python3 python3-venv libgl1 libglib2.0-0\n# Red Hat-based:\nsudo dnf install wget git python3 gperftools-libs libglvnd-glx\n# openSUSE-based:\nsudo zypper install wget git python3 libtcmalloc4 libglvnd\n# Arch-based:\nsudo pacman -S wget git python3\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "UZbO1mUZSmsujR1cEyWm1qYOsrrIA2F/nEF1HcoannU=",
+        "originContent": "# Debian-based:",
+        "translatedContent": "# Debian-based:"
+      },
+      {
+        "row": 3,
+        "rowsha": "rPrMt7C0dAKDpKy9qVYQdWhx/RdapH72L8WhimH7SMY=",
+        "originContent": "sudo apt install wget git python3 python3-venv libgl1 libglib2.0-0",
+        "translatedContent": "sudo apt install wget git python3 python3-venv libgl1 libglib2.0-0"
+      },
+      {
+        "row": 4,
+        "rowsha": "MOoFIy4mr6vBEXtLQ/CSB5mDvD/MfMdun7iYpTDwRzs=",
+        "originContent": "# Red Hat-based:",
+        "translatedContent": "# Red Hat-based:"
+      },
+      {
+        "row": 5,
+        "rowsha": "d6q3J2k2DeFdns58GE7Vp7ZFcPgge9LyguuGEZShVuE=",
+        "originContent": "sudo dnf install wget git python3 gperftools-libs libglvnd-glx",
+        "translatedContent": "sudo dnf install wget git python3 gperftools-libs libglvnd-glx"
+      },
+      {
+        "row": 6,
+        "rowsha": "1GWR/l7iJY3MWikYxygtXmdalQlPDQaz2tsRzoEHokk=",
+        "originContent": "# openSUSE-based:",
+        "translatedContent": "# openSUSE-based:"
+      },
+      {
+        "row": 7,
+        "rowsha": "A+jKIHBHGNtlrdfG6fAL0dcryPvGm2g3coOZiyMf+OU=",
+        "originContent": "sudo zypper install wget git python3 libtcmalloc4 libglvnd",
+        "translatedContent": "sudo zypper install wget git python3 libtcmalloc4 libglvnd"
+      },
+      {
+        "row": 8,
+        "rowsha": "5I2MZlylPLSkwhns94gs05zeN6CVCvnTCd7Q8GWgeaE=",
+        "originContent": "# Arch-based:",
+        "translatedContent": "# Arch-based:"
+      },
+      {
+        "row": 9,
+        "rowsha": "vrJVyy0nC4Z35x9FY+IMlCPCn+jnI/S7seLLUiceZ28=",
+        "originContent": "sudo pacman -S wget git python3",
+        "translatedContent": "sudo pacman -S wget git python3"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "If your system is very new, you need to install python3.11 or python3.10:",
+    "ContentSha": "ZO9T464iMuQbP4T+pJ3tq+opjlU7ldtvUpqZeVbA8h8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "システムが非常に新しい場合は、python3.11 または python3.10 をインストールする必要があります:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZO9T464iMuQbP4T+pJ3tq+opjlU7ldtvUpqZeVbA8h8=",
+        "originContent": "If your system is very new, you need to install python3.11 or python3.10:",
+        "translatedContent": "システムが非常に新しい場合は、python3.11 または python3.10 をインストールする必要があります:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\n# Ubuntu 24.04\nsudo add-apt-repository ppa:deadsnakes/ppa\nsudo apt update\nsudo apt install python3.11\n\n# Manjaro/Arch\nsudo pacman -S yay\nyay -S python311 # do not confuse with python3.11 package\n\n# Only for 3.11\n# Then set up env variable in launch script\nexport python_cmd=\"python3.11\"\n# or in webui-user.sh\npython_cmd=\"python3.11\"\n```",
+    "ContentSha": "7Plp04HQwA+c4RwhNVMGhrgw6ydG1URrZTne2ROH5Hk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Ubuntu 24.04\nsudo add-apt-repository ppa:deadsnakes/ppa\nsudo apt update\nsudo apt install python3.11\n\n# Manjaro/Arch\nsudo pacman -S yay\nyay -S python311 # do not confuse with python3.11 package\n\n# Only for 3.11\n# Then set up env variable in launch script\nexport python_cmd=\"python3.11\"\n# or in webui-user.sh\npython_cmd=\"python3.11\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "uqcLBbTuUe2vF0gJphjkYua1iivA8t8ONepx1q9aKIk=",
+        "originContent": "# Ubuntu 24.04",
+        "translatedContent": "# Ubuntu 24.04"
+      },
+      {
+        "row": 3,
+        "rowsha": "rOllOfwCQnRJYDXT12qZLPdBYHO5tGerhive9ZVbvRc=",
+        "originContent": "sudo add-apt-repository ppa:deadsnakes/ppa",
+        "translatedContent": "sudo add-apt-repository ppa:deadsnakes/ppa"
+      },
+      {
+        "row": 4,
+        "rowsha": "vsYfDMWqUGKl0v9rj6v4u69Jc+N5Z5zxQIom0T0+4Mo=",
+        "originContent": "sudo apt update",
+        "translatedContent": "sudo apt update"
+      },
+      {
+        "row": 5,
+        "rowsha": "3xpXJ+eK/LHNnPM8+M0QhKS5c5l50NU3/G1ylMr4HKs=",
+        "originContent": "sudo apt install python3.11",
+        "translatedContent": "sudo apt install python3.11"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "lTuFucec/TvkfK6sQaMg+GKhJewIP3205ksW+osMO3A=",
+        "originContent": "# Manjaro/Arch",
+        "translatedContent": "# Manjaro/Arch"
+      },
+      {
+        "row": 8,
+        "rowsha": "8VIU4RZ4KDpRpPSZWms9g0T67mNV+H5heC2uen8CH4E=",
+        "originContent": "sudo pacman -S yay",
+        "translatedContent": "sudo pacman -S yay"
+      },
+      {
+        "row": 9,
+        "rowsha": "UoUhA9t91QOPocWZ9U6cgHzRykmSZqv75IpzjHCo/I8=",
+        "originContent": "yay -S python311 # do not confuse with python3.11 package",
+        "translatedContent": "yay -S python311 # do not confuse with python3.11 package"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "rcLWBjJb6Q1tw8lk5KfB6wQLORcicCtmvRgxq618v5s=",
+        "originContent": "# Only for 3.11",
+        "translatedContent": "# Only for 3.11"
+      },
+      {
+        "row": 12,
+        "rowsha": "xgpBWXzi1H6ChkRmsMoe5EgdCo6jPvwi6HgMFW0QcLM=",
+        "originContent": "# Then set up env variable in launch script",
+        "translatedContent": "# Then set up env variable in launch script"
+      },
+      {
+        "row": 13,
+        "rowsha": "QcNWpoVEq1t54VjdKTTeD+shpBc4ogDzAkv+31PIeQw=",
+        "originContent": "export python_cmd=\"python3.11\"",
+        "translatedContent": "export python_cmd=\"python3.11\""
+      },
+      {
+        "row": 14,
+        "rowsha": "JnldxF7qxZVWfKyTv4goSYJ21X6HnB6pPQxA1UUT/yw=",
+        "originContent": "# or in webui-user.sh",
+        "translatedContent": "# or in webui-user.sh"
+      },
+      {
+        "row": 15,
+        "rowsha": "LMDfBMKOOn9Dku4G7iZfezxnEH4DRSAm3zA9EhosPPY=",
+        "originContent": "python_cmd=\"python3.11\"",
+        "translatedContent": "python_cmd=\"python3.11\""
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "2. Navigate to the directory you would like the webui to be installed and execute the following command:",
+    "ContentSha": "gAKMbWBvusTbDTmkyNFxB44OJig3dYtVHSQVD5aObuo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. WebUIをインストールしたいディレクトリに移動し、次のコマンドを実行します:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "gAKMbWBvusTbDTmkyNFxB44OJig3dYtVHSQVD5aObuo=",
+        "originContent": "2. Navigate to the directory you would like the webui to be installed and execute the following command:",
+        "translatedContent": "2. WebUIをインストールしたいディレクトリに移動し、次のコマンドを実行します:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\nwget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh\n```",
+    "ContentSha": "EO1/ksEOWzyrmd227Rmd5tc9n5JC0a/WcfvTESUqHQk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nwget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "EgOKEfFB18ahtpHYHEBcrorE3uVuJVnSKOaHTwA1UOI=",
+        "originContent": "wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh",
+        "translatedContent": "wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "Or just clone the repo wherever you want:",
+    "ContentSha": "i+PQ/ZYPHHo7mXAtze8Wguz7P9m5hxYR1AUrdnyaW6E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "または、リポジトリを好きな場所にクローンしてください:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "i+PQ/ZYPHHo7mXAtze8Wguz7P9m5hxYR1AUrdnyaW6E=",
+        "originContent": "Or just clone the repo wherever you want:",
+        "translatedContent": "または、リポジトリを好きな場所にクローンしてください:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\ngit clone https://github.com/AUTOMATIC1111/stable-diffusion-webui\n```",
+    "ContentSha": "kk/ErX+/fHClMm6ZdABv6K8emvaIrgRjcFshsbmkvRs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/AUTOMATIC1111/stable-diffusion-webui\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "FzmwjNylJxBXNMYQVP+tsseAiVJ53EJmXacNcicHqIs=",
+        "originContent": "git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "translatedContent": "git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n3. Run `webui.sh`.\n4. Check `webui-user.sh` for options.\n### Installation on Apple Silicon\n\nFind the instructions [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon).\n\n## Contributing\nHere's how to add code to this repo: [Contributing](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Contributing)\n\n## Documentation\n\nThe documentation was moved from this README over to the project's [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki).\n\nFor the purposes of getting Google and other search engines to crawl the wiki, here's a link to the (not for humans) [crawlable wiki](https://github-wiki-see.page/m/AUTOMATIC1111/stable-diffusion-webui/wiki).\n\n## Credits\nLicenses for borrowed code can be found in `Settings -> Licenses` screen, and also in `html/licenses.html` file.\n\n- Stable Diffusion - https://github.com/Stability-AI/stablediffusion, https://github.com/CompVis/taming-transformers, https://github.com/mcmonkey4eva/sd3-ref\n- k-diffusion - https://github.com/crowsonkb/k-diffusion.git\n- Spandrel - https://github.com/chaiNNer-org/spandrel implementing\n  - GFPGAN - https://github.com/TencentARC/GFPGAN.git\n  - CodeFormer - https://github.com/sczhou/CodeFormer\n  - ESRGAN - https://github.com/xinntao/ESRGAN\n  - SwinIR - https://github.com/JingyunLiang/SwinIR\n  - Swin2SR - https://github.com/mv-lab/swin2sr\n- LDSR - https://github.com/Hafiidz/latent-diffusion\n- MiDaS - https://github.com/isl-org/MiDaS\n- Ideas for optimizations - https://github.com/basujindal/stable-diffusion\n- Cross Attention layer optimization - Doggettx - https://github.com/Doggettx/stable-diffusion, original idea for prompt editing.\n- Cross Attention layer optimization - InvokeAI, lstein - https://github.com/invoke-ai/InvokeAI (originally http://github.com/lstein/stable-diffusion)\n- Sub-quadratic Cross Attention layer optimization - Alex Birch (https://github.com/Birch-san/diffusers/pull/1), Amin Rezaei (https://github.com/AminRezaei0x443/memory-efficient-attention)\n- Textual Inversion - Rinon Gal - https://github.com/rinongal/textual_inversion (we're not using his code, but we are using his ideas).\n- Idea for SD upscale - https://github.com/jquesnelle/txt2imghd\n- Noise generation for outpainting mk2 - https://github.com/parlance-zz/g-diffuser-bot\n- CLIP interrogator idea and borrowing some code - https://github.com/pharmapsychotic/clip-interrogator\n- Idea for Composable Diffusion - https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch\n- xformers - https://github.com/facebookresearch/xformers\n- DeepDanbooru - interrogator for anime diffusers https://github.com/KichangKim/DeepDanbooru\n- Sampling in float32 precision from a float16 UNet - marunine for the idea, Birch-san for the example Diffusers implementation (https://github.com/Birch-san/diffusers-play/tree/92feee6)\n- Instruct pix2pix - Tim Brooks (star), Aleksander Holynski (star), Alexei A. Efros (no star) - https://github.com/timothybrooks/instruct-pix2pix\n- Security advice - RyotaK\n- UniPC sampler - Wenliang Zhao - https://github.com/wl-zhao/UniPC\n- TAESD - Ollin Boer Bohan - https://github.com/madebyollin/taesd\n- LyCORIS - KohakuBlueleaf\n- Restart sampling - lambertae - https://github.com/Newbeeer/diffusion_restart_sampling\n- Hypertile - tfernd - https://github.com/tfernd/HyperTile\n- Initial Gradio script - posted on 4chan by an Anonymous user. Thank you Anonymous user.\n- (You)\n",
+    "ContentSha": "6bOjGvAfi4F+wRui/4UzpLlnLx3nKDGdiLm69vn9FeI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. `webui.sh`を実行します。  \n4. オプションについては`webui-user.sh`を確認してください。  \n### Apple Siliconでのインストール  \n\nインストール手順は[こちら](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon)を参照してください。  \n\n## 貢献方法  \nこのリポジトリにコードを追加する方法はこちらです: [Contributing](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Contributing)  \n\n## ドキュメント  \n\nドキュメントはこのREADMEからプロジェクトの[ウィキ](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki)に移動しました。  \n\nGoogleや他の検索エンジンにウィキをクロールさせるために、（人間向けではない）[クロール可能なウィキ](https://github-wiki-see.page/m/AUTOMATIC1111/stable-diffusion-webui/wiki)へのリンクを用意しています。  \n\n## クレジット  \n借用したコードのライセンスは`Settings -> Licenses`画面および`html/licenses.html`ファイルに記載されています。  \n\n- Stable Diffusion - https://github.com/Stability-AI/stablediffusion, https://github.com/CompVis/taming-transformers, https://github.com/mcmonkey4eva/sd3-ref  \n- k-diffusion - https://github.com/crowsonkb/k-diffusion.git  \n- Spandrel - https://github.com/chaiNNer-org/spandrel 実装  \n  - GFPGAN - https://github.com/TencentARC/GFPGAN.git  \n  - CodeFormer - https://github.com/sczhou/CodeFormer  \n  - ESRGAN - https://github.com/xinntao/ESRGAN  \n  - SwinIR - https://github.com/JingyunLiang/SwinIR  \n  - Swin2SR - https://github.com/mv-lab/swin2sr  \n- LDSR - https://github.com/Hafiidz/latent-diffusion  \n- MiDaS - https://github.com/isl-org/MiDaS  \n- 最適化のアイデア - https://github.com/basujindal/stable-diffusion  \n- クロスアテンション層の最適化 - Doggettx - https://github.com/Doggettx/stable-diffusion、プロンプト編集のオリジナルアイデア。  \n- クロスアテンション層の最適化 - InvokeAI、lstein - https://github.com/invoke-ai/InvokeAI （元は http://github.com/lstein/stable-diffusion）  \n- サブ二次的クロスアテンション層の最適化 - Alex Birch (https://github.com/Birch-san/diffusers/pull/1), Amin Rezaei (https://github.com/AminRezaei0x443/memory-efficient-attention)  \n- Textual Inversion - Rinon Gal - https://github.com/rinongal/textual_inversion （コードは使っていませんがアイデアを利用しています）。  \n- SDアップスケールのアイデア - https://github.com/jquesnelle/txt2imghd  \n- アウトペインティングmk2用ノイズ生成 - https://github.com/parlance-zz/g-diffuser-bot  \n- CLIPインタロゲーターのアイデアと一部コード借用 - https://github.com/pharmapsychotic/clip-interrogator  \n- Composable Diffusionのアイデア - https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch  \n- xformers - https://github.com/facebookresearch/xformers  \n- DeepDanbooru - アニメディフューザー用インタロゲーター https://github.com/KichangKim/DeepDanbooru  \n- float16 UNetからfloat32精度でのサンプリング - marunineのアイデア、Birch-sanのDiffusers実装例 (https://github.com/Birch-san/diffusers-play/tree/92feee6)  \n- Instruct pix2pix - Tim Brooks (スター), Aleksander Holynski (スター), Alexei A. Efros (スターなし) - https://github.com/timothybrooks/instruct-pix2pix  \n- セキュリティアドバイス - RyotaK  \n- UniPCサンプラー - Wenliang Zhao - https://github.com/wl-zhao/UniPC  \n- TAESD - Ollin Boer Bohan - https://github.com/madebyollin/taesd  \n- LyCORIS - KohakuBlueleaf  \n- サンプリングの再開 - lambertae - https://github.com/Newbeeer/diffusion_restart_sampling  \n- Hypertile - tfernd - https://github.com/tfernd/HyperTile  \n- 最初のGradioスクリプト - 4chanの匿名ユーザーによる投稿。匿名ユーザーに感謝します。  \n- （あなた）\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. `webui.sh`を実行します。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "6qV6BtVOT2vcMRtO3Ud2LomzoaF/fJJw5ujoYepEUlc=",
+        "originContent": "3. Run `webui.sh`.",
+        "translatedContent": "4. オプションについては`webui-user.sh`を確認してください。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "4H3xrWwQuJGwiN64GdP0hsRpLcw4v/O6ZFjCkvFSibc=",
+        "originContent": "4. Check `webui-user.sh` for options.",
+        "translatedContent": "### Apple Siliconでのインストール  "
+      },
+      {
+        "row": 4,
+        "rowsha": "nLS1IKeIH4wWX2Ky62abDs7Dg9FfVguBud6HVSyaWMI=",
+        "originContent": "### Installation on Apple Silicon",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "インストール手順は[こちら](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon)を参照してください。  "
+      },
+      {
+        "row": 6,
+        "rowsha": "lHfqG/piUwDXIkaCxLorkU8FHs1r+jkkS1L7YmGtYIQ=",
+        "originContent": "Find the instructions [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon).",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 貢献方法  "
+      },
+      {
+        "row": 8,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "このリポジトリにコードを追加する方法はこちらです: [Contributing](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Contributing)  "
+      },
+      {
+        "row": 9,
+        "rowsha": "taJfl0/cEc8fJdjhiPQVz96R48sih04D1FFwCt26tCo=",
+        "originContent": "Here's how to add code to this repo: [Contributing](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Contributing)",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ドキュメント  "
+      },
+      {
+        "row": 11,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ドキュメントはこのREADMEからプロジェクトの[ウィキ](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki)に移動しました。  "
+      },
+      {
+        "row": 13,
+        "rowsha": "Z3jU1EhBiHKypxtBHjlIMWaL77jatk6ub3EgHNcDN1Y=",
+        "originContent": "The documentation was moved from this README over to the project's [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki).",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Googleや他の検索エンジンにウィキをクロールさせるために、（人間向けではない）[クロール可能なウィキ](https://github-wiki-see.page/m/AUTOMATIC1111/stable-diffusion-webui/wiki)へのリンクを用意しています。  "
+      },
+      {
+        "row": 15,
+        "rowsha": "KKdRe1bjeWZkR0AuNulD64Huu9S0cVXCOhoLU7qD7No=",
+        "originContent": "For the purposes of getting Google and other search engines to crawl the wiki, here's a link to the (not for humans) [crawlable wiki](https://github-wiki-see.page/m/AUTOMATIC1111/stable-diffusion-webui/wiki).",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## クレジット  "
+      },
+      {
+        "row": 17,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "借用したコードのライセンスは`Settings -> Licenses`画面および`html/licenses.html`ファイルに記載されています。  "
+      },
+      {
+        "row": 18,
+        "rowsha": "3EZWzwChLbxDvTuukBSfnS2EY0Pqsd+dlqKQTGXwCh8=",
+        "originContent": "Licenses for borrowed code can be found in `Settings -> Licenses` screen, and also in `html/licenses.html` file.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Stable Diffusion - https://github.com/Stability-AI/stablediffusion, https://github.com/CompVis/taming-transformers, https://github.com/mcmonkey4eva/sd3-ref  "
+      },
+      {
+        "row": 20,
+        "rowsha": "mCmqBoXcMct1uGrtkLIsaewmnrEQP/P+JpelSDwQ8vg=",
+        "originContent": "- Stable Diffusion - https://github.com/Stability-AI/stablediffusion, https://github.com/CompVis/taming-transformers, https://github.com/mcmonkey4eva/sd3-ref",
+        "translatedContent": "- k-diffusion - https://github.com/crowsonkb/k-diffusion.git  "
+      },
+      {
+        "row": 21,
+        "rowsha": "yPCjyTKLFtS/Po8jShD5tFIfjKXCIdWygglEHxcLtbk=",
+        "originContent": "- k-diffusion - https://github.com/crowsonkb/k-diffusion.git",
+        "translatedContent": "- Spandrel - https://github.com/chaiNNer-org/spandrel 実装  "
+      },
+      {
+        "row": 22,
+        "rowsha": "klPz7LuM6K/zA65FtAW5sJM0Wuya7smoZhnhFhBCjJc=",
+        "originContent": "- Spandrel - https://github.com/chaiNNer-org/spandrel implementing",
+        "translatedContent": "  - GFPGAN - https://github.com/TencentARC/GFPGAN.git  "
+      },
+      {
+        "row": 23,
+        "rowsha": "auts5kkN/2CwVXQFy42kkW/VDb77ICDBHQUx1BOA9JA=",
+        "originContent": "  - GFPGAN - https://github.com/TencentARC/GFPGAN.git",
+        "translatedContent": "  - CodeFormer - https://github.com/sczhou/CodeFormer  "
+      },
+      {
+        "row": 24,
+        "rowsha": "MoRSlI3jL4ynjIa653d6z2jxYl9P0xD2EleXuS+3kcE=",
+        "originContent": "  - CodeFormer - https://github.com/sczhou/CodeFormer",
+        "translatedContent": "  - ESRGAN - https://github.com/xinntao/ESRGAN  "
+      },
+      {
+        "row": 25,
+        "rowsha": "RuTxc2Zebq+OALVO35nsWUmav9YxV6Y1WCjjbCyXZiE=",
+        "originContent": "  - ESRGAN - https://github.com/xinntao/ESRGAN",
+        "translatedContent": "  - SwinIR - https://github.com/JingyunLiang/SwinIR  "
+      },
+      {
+        "row": 26,
+        "rowsha": "FiQtce0Qm/tkt3pYFrkP2lnuI7Rjyil3o63dd/CDroQ=",
+        "originContent": "  - SwinIR - https://github.com/JingyunLiang/SwinIR",
+        "translatedContent": "  - Swin2SR - https://github.com/mv-lab/swin2sr  "
+      },
+      {
+        "row": 27,
+        "rowsha": "y+y8sD0Ubltl8EDvjTh1QHyjknekp+JSR8KG6/wMrZU=",
+        "originContent": "  - Swin2SR - https://github.com/mv-lab/swin2sr",
+        "translatedContent": "- LDSR - https://github.com/Hafiidz/latent-diffusion  "
+      },
+      {
+        "row": 28,
+        "rowsha": "KY9TVuyq5LEICOw8HMqSEJhi5mvlgzoFdWBrK4wS4kU=",
+        "originContent": "- LDSR - https://github.com/Hafiidz/latent-diffusion",
+        "translatedContent": "- MiDaS - https://github.com/isl-org/MiDaS  "
+      },
+      {
+        "row": 29,
+        "rowsha": "mS7SwQQHKmCBzuzFVNcIKUDac0l6rhsCV0nAj049W1c=",
+        "originContent": "- MiDaS - https://github.com/isl-org/MiDaS",
+        "translatedContent": "- 最適化のアイデア - https://github.com/basujindal/stable-diffusion  "
+      },
+      {
+        "row": 30,
+        "rowsha": "YOxGftSfCe1D400zttnqpajSBghb2VgaVOlUBm9HKqc=",
+        "originContent": "- Ideas for optimizations - https://github.com/basujindal/stable-diffusion",
+        "translatedContent": "- クロスアテンション層の最適化 - Doggettx - https://github.com/Doggettx/stable-diffusion、プロンプト編集のオリジナルアイデア。  "
+      },
+      {
+        "row": 31,
+        "rowsha": "7+8qpmDIeVU+BDF0RXT3v8BfmpE5nPUQf6ZSOaUmEeI=",
+        "originContent": "- Cross Attention layer optimization - Doggettx - https://github.com/Doggettx/stable-diffusion, original idea for prompt editing.",
+        "translatedContent": "- クロスアテンション層の最適化 - InvokeAI、lstein - https://github.com/invoke-ai/InvokeAI （元は http://github.com/lstein/stable-diffusion）  "
+      },
+      {
+        "row": 32,
+        "rowsha": "dmFubXlM3W4PiTAzOFxm8zxd8v/ZAsxOxON6sXi4K84=",
+        "originContent": "- Cross Attention layer optimization - InvokeAI, lstein - https://github.com/invoke-ai/InvokeAI (originally http://github.com/lstein/stable-diffusion)",
+        "translatedContent": "- サブ二次的クロスアテンション層の最適化 - Alex Birch (https://github.com/Birch-san/diffusers/pull/1), Amin Rezaei (https://github.com/AminRezaei0x443/memory-efficient-attention)  "
+      },
+      {
+        "row": 33,
+        "rowsha": "4jr6LMqRTjRXQw1w68PiowvHC2JuatEtKRjF69o9fQg=",
+        "originContent": "- Sub-quadratic Cross Attention layer optimization - Alex Birch (https://github.com/Birch-san/diffusers/pull/1), Amin Rezaei (https://github.com/AminRezaei0x443/memory-efficient-attention)",
+        "translatedContent": "- Textual Inversion - Rinon Gal - https://github.com/rinongal/textual_inversion （コードは使っていませんがアイデアを利用しています）。  "
+      },
+      {
+        "row": 34,
+        "rowsha": "299y0tVuZAQJOFcr2ixWAldm6ZqDdWZPo1TMrJh0ZRg=",
+        "originContent": "- Textual Inversion - Rinon Gal - https://github.com/rinongal/textual_inversion (we're not using his code, but we are using his ideas).",
+        "translatedContent": "- SDアップスケールのアイデア - https://github.com/jquesnelle/txt2imghd  "
+      },
+      {
+        "row": 35,
+        "rowsha": "uc3J8STIvFzgunL3YVD/Q4Fq1VOz8TR3eiyNiJTEaA0=",
+        "originContent": "- Idea for SD upscale - https://github.com/jquesnelle/txt2imghd",
+        "translatedContent": "- アウトペインティングmk2用ノイズ生成 - https://github.com/parlance-zz/g-diffuser-bot  "
+      },
+      {
+        "row": 36,
+        "rowsha": "9yVB5JN2e/NmDNfrOyUJ6MMVew9Sxr/Nq0eePxchHvA=",
+        "originContent": "- Noise generation for outpainting mk2 - https://github.com/parlance-zz/g-diffuser-bot",
+        "translatedContent": "- CLIPインタロゲーターのアイデアと一部コード借用 - https://github.com/pharmapsychotic/clip-interrogator  "
+      },
+      {
+        "row": 37,
+        "rowsha": "F2+UlmYyuSHXEq1vB2EJzfHnYxv2Wt1mXHWsl07LM9U=",
+        "originContent": "- CLIP interrogator idea and borrowing some code - https://github.com/pharmapsychotic/clip-interrogator",
+        "translatedContent": "- Composable Diffusionのアイデア - https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch  "
+      },
+      {
+        "row": 38,
+        "rowsha": "T6poScaG5LLJJAq5I8bxqyo/0oJHylhWZIn0mpH+I9k=",
+        "originContent": "- Idea for Composable Diffusion - https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+        "translatedContent": "- xformers - https://github.com/facebookresearch/xformers  "
+      },
+      {
+        "row": 39,
+        "rowsha": "Kf3oV0QRT3z5aWyXg8fn1+AJfpWfNFY+w2xt8qEJpZg=",
+        "originContent": "- xformers - https://github.com/facebookresearch/xformers",
+        "translatedContent": "- DeepDanbooru - アニメディフューザー用インタロゲーター https://github.com/KichangKim/DeepDanbooru  "
+      },
+      {
+        "row": 40,
+        "rowsha": "8IyIewzYNujmg4NzGIDC5HNENgmlKbYWYMHTmHTp0yk=",
+        "originContent": "- DeepDanbooru - interrogator for anime diffusers https://github.com/KichangKim/DeepDanbooru",
+        "translatedContent": "- float16 UNetからfloat32精度でのサンプリング - marunineのアイデア、Birch-sanのDiffusers実装例 (https://github.com/Birch-san/diffusers-play/tree/92feee6)  "
+      },
+      {
+        "row": 41,
+        "rowsha": "EietfKiiJIAAeWsFBBhgEpLhfogLoPbEWjme8YHoivY=",
+        "originContent": "- Sampling in float32 precision from a float16 UNet - marunine for the idea, Birch-san for the example Diffusers implementation (https://github.com/Birch-san/diffusers-play/tree/92feee6)",
+        "translatedContent": "- Instruct pix2pix - Tim Brooks (スター), Aleksander Holynski (スター), Alexei A. Efros (スターなし) - https://github.com/timothybrooks/instruct-pix2pix  "
+      },
+      {
+        "row": 42,
+        "rowsha": "54ZLFJg76TaVQ3RG4wayYlYeX6oCJ+85xdPzyO5s8Dc=",
+        "originContent": "- Instruct pix2pix - Tim Brooks (star), Aleksander Holynski (star), Alexei A. Efros (no star) - https://github.com/timothybrooks/instruct-pix2pix",
+        "translatedContent": "- セキュリティアドバイス - RyotaK  "
+      },
+      {
+        "row": 43,
+        "rowsha": "EYHaDISF5SSathOov6z3hfz/ghTwy5XdG9Q63K3D3pE=",
+        "originContent": "- Security advice - RyotaK",
+        "translatedContent": "- UniPCサンプラー - Wenliang Zhao - https://github.com/wl-zhao/UniPC  "
+      },
+      {
+        "row": 44,
+        "rowsha": "OLIyV9/X0Sicfd9e2T4Yy366GmCVm+nTes4oOTFTb/M=",
+        "originContent": "- UniPC sampler - Wenliang Zhao - https://github.com/wl-zhao/UniPC",
+        "translatedContent": "- TAESD - Ollin Boer Bohan - https://github.com/madebyollin/taesd  "
+      },
+      {
+        "row": 45,
+        "rowsha": "3K5ZnYdVvWAi0gvTMfuAyW0xzd0X2kK48fON+oyMi0I=",
+        "originContent": "- TAESD - Ollin Boer Bohan - https://github.com/madebyollin/taesd",
+        "translatedContent": "- LyCORIS - KohakuBlueleaf  "
+      },
+      {
+        "row": 46,
+        "rowsha": "qkZq/c3LKSrO+HO1x591rV7wzeu2D78FYhw/s8s9ivc=",
+        "originContent": "- LyCORIS - KohakuBlueleaf",
+        "translatedContent": "- サンプリングの再開 - lambertae - https://github.com/Newbeeer/diffusion_restart_sampling  "
+      },
+      {
+        "row": 47,
+        "rowsha": "SDBQbqpeb8kZM+yWIWeCVWzT9FcB7UHRPaD7nYtda7w=",
+        "originContent": "- Restart sampling - lambertae - https://github.com/Newbeeer/diffusion_restart_sampling",
+        "translatedContent": "- Hypertile - tfernd - https://github.com/tfernd/HyperTile  "
+      },
+      {
+        "row": 48,
+        "rowsha": "7nBjlpO267Uv+QTuML4AysvR6Px/MHf35wM2tn27LkI=",
+        "originContent": "- Hypertile - tfernd - https://github.com/tfernd/HyperTile",
+        "translatedContent": "- 最初のGradioスクリプト - 4chanの匿名ユーザーによる投稿。匿名ユーザーに感謝します。  "
+      },
+      {
+        "row": 49,
+        "rowsha": "BiiDtzF6AvZuUWT4D9HDYEz5OPpLpds+JzfzNb67kTc=",
+        "originContent": "- Initial Gradio script - posted on 4chan by an Anonymous user. Thank you Anonymous user.",
+        "translatedContent": "- （あなた）"
+      },
+      {
+        "row": 50,
+        "rowsha": "NPbz+Itvw5p6N20RCQ7zhaGX6oySDfWhc9FgTAWYLfs=",
+        "originContent": "- (You)",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

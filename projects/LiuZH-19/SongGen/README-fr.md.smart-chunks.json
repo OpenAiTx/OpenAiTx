@@ -1,0 +1,1419 @@
+[
+  {
+    "Id": 1,
+    "Content": "# SongGen: A Single Stage Auto-regressive Transformer for Text-to-Song Generation\n\n🚀🚀🚀 Official implementation of **SongGen: A Single Stage Auto-regressive Transformer for Text-to-Song Generation**\n<p align=\"center\" style=\"font-size: 1 em; margin-top: -1em\">\n<a href=\"https://scholar.google.com/citations?user=iELd-Q0AAAAJ\">Zihan Liu</a>,  \n<a href=\"https://mark12ding.github.io/\">Shuangrui Ding</a>,  \n<a href=\"https://github.com/rookiexiong7/\">Zhixiong Zhang</a>, \n<a href=\"https://lightdxy.github.io/\">Xiaoyi Dong</a>,  \n<a href=\"https://panzhang0212.github.io/\">Pan Zhang</a>,\n<a href=\"https://yuhangzang.github.io/\">Yuhang Zang</a>,  \n<a href=\"https://scholar.google.com/citations?user=sJkqsqkAAAAJ\">Yuhang Cao</a>, </br>  \n<a href=\"http://dahua.site/\">Dahua Lin</a>,  \n<a href=\"https://myownskyw7.github.io/\">Jiaqi Wang</a> \n</p>\n\n<p align=\"center\" style=\"font-size: 5 em; margin-top: 0.5em\">\n<a href=\"https://arxiv.org/abs/2502.13128\"><img src=\"https://img.shields.io/badge/arXiv-<color>\"></a>\n<a href=\"https://github.com/LiuZH-19/SongGen\"><img src=\"https://img.shields.io/badge/Code-red\"></a>\n<a href=\"https://liuzh-19.github.io/SongGen/\"><img src=\"https://img.shields.io/badge/Demo-20d67c\"></a>\n<a href=\"https://huggingface.co/collections/LiuZH-19/songgen-a-single-stage-auto-regressive-transformer-for-text-6867ec21169d808034f6d252\">\n    <img src=\"https://img.shields.io/badge/HF-Collection-yellow\"></a>\n</p>\n\n\n\n\n\n## 📜 News\n🚀 [2025/7/4] We released the training code along with a detailed [training guide](https://raw.githubusercontent.com/LiuZH-19/SongGen/master/./training/README.md) .\n\n🚀 [2025/6/30] The MusicCaps Test Set is now available on [Huggingface🤗](https://huggingface.co/datasets/LiuZH-19/MusicCaps_Test_Song) for text-to-song eveluation.\n\n🚀 [2025/6/27] We released the checkpoint of SongGen Interleaving (A-V) at [Huggingface🤗](https://huggingface.co/LiuZH-19/SongGen_interleaving_A_V).\n\n🎉 [2025/5/1] SongGen is accepted by ICML 2025!\n\n🚀 [2025/3/18] We released the checkpoint of SongGen Mixed_Pro at [Huggingface🤗](https://huggingface.co/LiuZH-19/SongGen_mixed_pro).\n\n🚀 [2025/2/19] The [paper](https://arxiv.org/abs/2502.13128) and [demo page](https://liuzh-19.github.io/SongGen/) are released!\n\n## 💡 Highlights\n- 🔥We introduce SongGen, a **single-stage** auto-regressive transformer for **text-to-song** generation, offering versatile control via lyrics, descriptive text, and an optional reference voice.\n- 🔥SongGen supports both **mixed** and **dual-track mode** to accommodate diverse requirements. Our experiments provide **valuable insights** for optimizing both modes.\n- 🔥By releasing the **model weights**, **code**, **annotated data**, and **preprocessing pipeline**, we aim to establish a simple yet effective baseline for future song generation research.\n<!-- <img align=\"center\" src=\"https://raw.githubusercontent.com/LiuZH-19/SongGen/master/assets/imgs/motivation1.jpg\" style=\"  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  width: 50%;\" /> -->\n\n## 👨‍💻 Todo\n- [ ] Release annotated data and preprocessing pipeline\n- [x] Release Musiccaps Test set\n- [x] Release SongGen training code\n- [x] Release SongGen (Interleaving A-V) checkpoint\n- [x] Release SongGen Mixed_pro checkpoint\n- [x] Release SongGen inference code \n- [x] SongGen demo\n\n## 🛠️ Usage\n\n### 1. Install environment and dependencies",
+    "ContentSha": "4nTrJF45VzKMnLJff71ZWwvSK3PkyjpgpdGgTSEZqnk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# SongGen : Un transformeur auto-régressif à étape unique pour la génération de chansons à partir de texte\n\n🚀🚀🚀 Implémentation officielle de **SongGen : Un transformeur auto-régressif à étape unique pour la génération de chansons à partir de texte**\n<p align=\"center\" style=\"font-size: 1 em; margin-top: -1em\">\n<a href=\"https://scholar.google.com/citations?user=iELd-Q0AAAAJ\">Zihan Liu</a>,  \n<a href=\"https://mark12ding.github.io/\">Shuangrui Ding</a>,  \n<a href=\"https://github.com/rookiexiong7/\">Zhixiong Zhang</a>, \n<a href=\"https://lightdxy.github.io/\">Xiaoyi Dong</a>,  \n<a href=\"https://panzhang0212.github.io/\">Pan Zhang</a>,\n<a href=\"https://yuhangzang.github.io/\">Yuhang Zang</a>,  \n<a href=\"https://scholar.google.com/citations?user=sJkqsqkAAAAJ\">Yuhang Cao</a>, </br>  \n<a href=\"http://dahua.site/\">Dahua Lin</a>,  \n<a href=\"https://myownskyw7.github.io/\">Jiaqi Wang</a> \n</p>\n\n<p align=\"center\" style=\"font-size: 5 em; margin-top: 0.5em\">\n<a href=\"https://arxiv.org/abs/2502.13128\"><img src=\"https://img.shields.io/badge/arXiv-<color>\"></a>\n<a href=\"https://github.com/LiuZH-19/SongGen\"><img src=\"https://img.shields.io/badge/Code-red\"></a>\n<a href=\"https://liuzh-19.github.io/SongGen/\"><img src=\"https://img.shields.io/badge/Demo-20d67c\"></a>\n<a href=\"https://huggingface.co/collections/LiuZH-19/songgen-a-single-stage-auto-regressive-transformer-for-text-6867ec21169d808034f6d252\">\n    <img src=\"https://img.shields.io/badge/HF-Collection-yellow\"></a>\n</p>\n\n\n\n\n\n## 📜 Actualités\n🚀 [2025/7/4] Nous avons publié le code d'entraînement avec un [guide détaillé](https://raw.githubusercontent.com/LiuZH-19/SongGen/master/./training/README.md).\n\n🚀 [2025/6/30] Le jeu de test MusicCaps est désormais disponible sur [Huggingface🤗](https://huggingface.co/datasets/LiuZH-19/MusicCaps_Test_Song) pour l’évaluation texte-à-chanson.\n\n🚀 [2025/6/27] Nous avons publié le checkpoint de SongGen Interleaving (A-V) sur [Huggingface🤗](https://huggingface.co/LiuZH-19/SongGen_interleaving_A_V).\n\n🎉 [2025/5/1] SongGen est accepté à ICML 2025 !\n\n🚀 [2025/3/18] Nous avons publié le checkpoint de SongGen Mixed_Pro sur [Huggingface🤗](https://huggingface.co/LiuZH-19/SongGen_mixed_pro).\n\n🚀 [2025/2/19] Le [papier](https://arxiv.org/abs/2502.13128) et la [page de démonstration](https://liuzh-19.github.io/SongGen/) sont publiés !\n\n## 💡 Points forts\n- 🔥Nous présentons SongGen, un transformeur auto-régressif **à étape unique** pour la génération **texte-à-chanson**, offrant un contrôle polyvalent via les paroles, un texte descriptif, et une voix de référence optionnelle.\n- 🔥SongGen supporte à la fois les modes **mixte** et **double-piste** pour répondre à des besoins divers. Nos expériences fournissent des **insights précieux** pour optimiser les deux modes.\n- 🔥En publiant les **poids du modèle**, le **code**, les **données annotées** et le **pipeline de prétraitement**, nous visons à établir une base simple mais efficace pour les futures recherches en génération de chansons.\n<!-- <img align=\"center\" src=\"https://raw.githubusercontent.com/LiuZH-19/SongGen/master/assets/imgs/motivation1.jpg\" style=\"  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  width: 50%;\" /> -->\n\n## 👨‍💻 À faire\n- [ ] Publier les données annotées et le pipeline de prétraitement\n- [x] Publier le jeu de test Musiccaps\n- [x] Publier le code d’entraînement SongGen\n- [x] Publier le checkpoint SongGen (Interleaving A-V)\n- [x] Publier le checkpoint SongGen Mixed_pro\n- [x] Publier le code d’inférence SongGen\n- [x] Démo SongGen\n\n## 🛠️ Utilisation\n\n### 1. Installer l’environnement et les dépendances",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Pwdn4/PzHGcD0v5xY6wn3HJS9p2ix7R/keFTuJBpw8w=",
+        "originContent": "# SongGen: A Single Stage Auto-regressive Transformer for Text-to-Song Generation",
+        "translatedContent": "# SongGen : Un transformeur auto-régressif à étape unique pour la génération de chansons à partir de texte"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "KKXc0XhlBRbcMEOJIU5Ghal5wcgXNnU+p7ANG0hUjVk=",
+        "originContent": "🚀🚀🚀 Official implementation of **SongGen: A Single Stage Auto-regressive Transformer for Text-to-Song Generation**",
+        "translatedContent": "🚀🚀🚀 Implémentation officielle de **SongGen : Un transformeur auto-régressif à étape unique pour la génération de chansons à partir de texte**"
+      },
+      {
+        "row": 4,
+        "rowsha": "f4T0NQg3Djsvubh21jCw5AJcDiFrSN43CJCBLWHhiZU=",
+        "originContent": "<p align=\"center\" style=\"font-size: 1 em; margin-top: -1em\">",
+        "translatedContent": "<p align=\"center\" style=\"font-size: 1 em; margin-top: -1em\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "q+AktSemCyATta9GA4pqHHvkufvFtyCc4JmQWAIR8L8=",
+        "originContent": "<a href=\"https://scholar.google.com/citations?user=iELd-Q0AAAAJ\">Zihan Liu</a>,  ",
+        "translatedContent": "<a href=\"https://scholar.google.com/citations?user=iELd-Q0AAAAJ\">Zihan Liu</a>,  "
+      },
+      {
+        "row": 6,
+        "rowsha": "B/4gWC72X1izzvBci6aC236T7FylYxPSyhPkCt36M6U=",
+        "originContent": "<a href=\"https://mark12ding.github.io/\">Shuangrui Ding</a>,  ",
+        "translatedContent": "<a href=\"https://mark12ding.github.io/\">Shuangrui Ding</a>,  "
+      },
+      {
+        "row": 7,
+        "rowsha": "tstpQ5EChCzICzZixsjtQXkk69cmXd1thLFV9gYdbaI=",
+        "originContent": "<a href=\"https://github.com/rookiexiong7/\">Zhixiong Zhang</a>, ",
+        "translatedContent": "<a href=\"https://github.com/rookiexiong7/\">Zhixiong Zhang</a>, "
+      },
+      {
+        "row": 8,
+        "rowsha": "ooKB/To5X6g1fPM3fn4dep1VZVCID7HJO75jNh9N1xM=",
+        "originContent": "<a href=\"https://lightdxy.github.io/\">Xiaoyi Dong</a>,  ",
+        "translatedContent": "<a href=\"https://lightdxy.github.io/\">Xiaoyi Dong</a>,  "
+      },
+      {
+        "row": 9,
+        "rowsha": "MfBwziVFSsuQ5Zux5M0r5uCRmZJ7Yyw0jLTJJJqhIc0=",
+        "originContent": "<a href=\"https://panzhang0212.github.io/\">Pan Zhang</a>,",
+        "translatedContent": "<a href=\"https://panzhang0212.github.io/\">Pan Zhang</a>,"
+      },
+      {
+        "row": 10,
+        "rowsha": "tMtbygXepqauI+ePKGv8QfMLebIvSJVI71H3bJIl+DU=",
+        "originContent": "<a href=\"https://yuhangzang.github.io/\">Yuhang Zang</a>,  ",
+        "translatedContent": "<a href=\"https://yuhangzang.github.io/\">Yuhang Zang</a>,  "
+      },
+      {
+        "row": 11,
+        "rowsha": "j13VFseddhbRV43fCiQu81YQ6xLxU3ScEH83TJvqf2E=",
+        "originContent": "<a href=\"https://scholar.google.com/citations?user=sJkqsqkAAAAJ\">Yuhang Cao</a>, </br>  ",
+        "translatedContent": "<a href=\"https://scholar.google.com/citations?user=sJkqsqkAAAAJ\">Yuhang Cao</a>, </br>  "
+      },
+      {
+        "row": 12,
+        "rowsha": "mEZ/MWbC019QenTesOgIFumSj6AMlN4NlddD9dVIzww=",
+        "originContent": "<a href=\"http://dahua.site/\">Dahua Lin</a>,  ",
+        "translatedContent": "<a href=\"http://dahua.site/\">Dahua Lin</a>,  "
+      },
+      {
+        "row": 13,
+        "rowsha": "ChuXK8Tsu+RDz1BEKrAmi3IrNJk4VtD+4fobRl7thak=",
+        "originContent": "<a href=\"https://myownskyw7.github.io/\">Jiaqi Wang</a> ",
+        "translatedContent": "<a href=\"https://myownskyw7.github.io/\">Jiaqi Wang</a> "
+      },
+      {
+        "row": 14,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "/x6uu44JJsQ7ay1Rgu0+qnboMCpXkVQ8hNuwwkoop6s=",
+        "originContent": "<p align=\"center\" style=\"font-size: 5 em; margin-top: 0.5em\">",
+        "translatedContent": "<p align=\"center\" style=\"font-size: 5 em; margin-top: 0.5em\">"
+      },
+      {
+        "row": 17,
+        "rowsha": "DRrzE3DtueaSwr0F6Dp1VoBg6ciL7iU7FqyG4Jpmwbo=",
+        "originContent": "<a href=\"https://arxiv.org/abs/2502.13128\"><img src=\"https://img.shields.io/badge/arXiv-<color>\"></a>",
+        "translatedContent": "<a href=\"https://arxiv.org/abs/2502.13128\"><img src=\"https://img.shields.io/badge/arXiv-<color>\"></a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "kysnCe4IKPDM2Iqtwq2IXe0GA2qmV600oFdrm2ue384=",
+        "originContent": "<a href=\"https://github.com/LiuZH-19/SongGen\"><img src=\"https://img.shields.io/badge/Code-red\"></a>",
+        "translatedContent": "<a href=\"https://github.com/LiuZH-19/SongGen\"><img src=\"https://img.shields.io/badge/Code-red\"></a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "rVd7vIN4fe+RtQJK8/fzQH+IdwgWKQ5KIGj5b8/eUTM=",
+        "originContent": "<a href=\"https://liuzh-19.github.io/SongGen/\"><img src=\"https://img.shields.io/badge/Demo-20d67c\"></a>",
+        "translatedContent": "<a href=\"https://liuzh-19.github.io/SongGen/\"><img src=\"https://img.shields.io/badge/Demo-20d67c\"></a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "nBS/WgbCxTyyfjpCv6zNC6lXtlcuVTZ63/2tnYeiMrU=",
+        "originContent": "<a href=\"https://huggingface.co/collections/LiuZH-19/songgen-a-single-stage-auto-regressive-transformer-for-text-6867ec21169d808034f6d252\">",
+        "translatedContent": "<a href=\"https://huggingface.co/collections/LiuZH-19/songgen-a-single-stage-auto-regressive-transformer-for-text-6867ec21169d808034f6d252\">"
+      },
+      {
+        "row": 21,
+        "rowsha": "2EGlcyFT+5s+7d1VZNbtRpu8tMdJ4ZJoIKYuqT1C788=",
+        "originContent": "    <img src=\"https://img.shields.io/badge/HF-Collection-yellow\"></a>",
+        "translatedContent": "    <img src=\"https://img.shields.io/badge/HF-Collection-yellow\"></a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "l7AGe56h7pmaykueJZVnG01kth/PLajGE2E+6idalWM=",
+        "originContent": "## 📜 News",
+        "translatedContent": "## 📜 Actualités"
+      },
+      {
+        "row": 29,
+        "rowsha": "hSJMBsdcjV/SlDp5D4foQqz3Tot6NQKwW6Kd7XGsftk=",
+        "originContent": "🚀 [2025/7/4] We released the training code along with a detailed [training guide](https://raw.githubusercontent.com/LiuZH-19/SongGen/master/./training/README.md) .",
+        "translatedContent": "🚀 [2025/7/4] Nous avons publié le code d'entraînement avec un [guide détaillé](https://raw.githubusercontent.com/LiuZH-19/SongGen/master/./training/README.md)."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "IrUvehJL9clVFPy4aW43vHm9pMzXEB8jNjPZSErDK4A=",
+        "originContent": "🚀 [2025/6/30] The MusicCaps Test Set is now available on [Huggingface🤗](https://huggingface.co/datasets/LiuZH-19/MusicCaps_Test_Song) for text-to-song eveluation.",
+        "translatedContent": "🚀 [2025/6/30] Le jeu de test MusicCaps est désormais disponible sur [Huggingface🤗](https://huggingface.co/datasets/LiuZH-19/MusicCaps_Test_Song) pour l’évaluation texte-à-chanson."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "6EXlNxM+xkvGDkY3HOa1oLtZmZbwMiCS8ZZzRSTEmj0=",
+        "originContent": "🚀 [2025/6/27] We released the checkpoint of SongGen Interleaving (A-V) at [Huggingface🤗](https://huggingface.co/LiuZH-19/SongGen_interleaving_A_V).",
+        "translatedContent": "🚀 [2025/6/27] Nous avons publié le checkpoint de SongGen Interleaving (A-V) sur [Huggingface🤗](https://huggingface.co/LiuZH-19/SongGen_interleaving_A_V)."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "dCFyA7zXhdZMZommbsaqYAhw2iqwJg8RJj+Q/CvMRQY=",
+        "originContent": "🎉 [2025/5/1] SongGen is accepted by ICML 2025!",
+        "translatedContent": "🎉 [2025/5/1] SongGen est accepté à ICML 2025 !"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "J/4q3XiOAVheRu3CShKTMfUi4VgKFmZsOMoc/V5pGEo=",
+        "originContent": "🚀 [2025/3/18] We released the checkpoint of SongGen Mixed_Pro at [Huggingface🤗](https://huggingface.co/LiuZH-19/SongGen_mixed_pro).",
+        "translatedContent": "🚀 [2025/3/18] Nous avons publié le checkpoint de SongGen Mixed_Pro sur [Huggingface🤗](https://huggingface.co/LiuZH-19/SongGen_mixed_pro)."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "e3GxQxYugfjoSz81Q6oRnj8XFIq/ACs/B0KTaG/6wUc=",
+        "originContent": "🚀 [2025/2/19] The [paper](https://arxiv.org/abs/2502.13128) and [demo page](https://liuzh-19.github.io/SongGen/) are released!",
+        "translatedContent": "🚀 [2025/2/19] Le [papier](https://arxiv.org/abs/2502.13128) et la [page de démonstration](https://liuzh-19.github.io/SongGen/) sont publiés !"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "2xGvJvS9bWwCXPzgpWUxiFdIc5SNyzD/Fb2UspGqPiM=",
+        "originContent": "## 💡 Highlights",
+        "translatedContent": "## 💡 Points forts"
+      },
+      {
+        "row": 42,
+        "rowsha": "kO/cHWY0d2/cAcRRO7j1HponIMGBg5+Eco/8CeMwacY=",
+        "originContent": "- 🔥We introduce SongGen, a **single-stage** auto-regressive transformer for **text-to-song** generation, offering versatile control via lyrics, descriptive text, and an optional reference voice.",
+        "translatedContent": "- 🔥Nous présentons SongGen, un transformeur auto-régressif **à étape unique** pour la génération **texte-à-chanson**, offrant un contrôle polyvalent via les paroles, un texte descriptif, et une voix de référence optionnelle."
+      },
+      {
+        "row": 43,
+        "rowsha": "vISX0+haZG7osgnLan1neO1cGL54/OcexDHB15J8U9Q=",
+        "originContent": "- 🔥SongGen supports both **mixed** and **dual-track mode** to accommodate diverse requirements. Our experiments provide **valuable insights** for optimizing both modes.",
+        "translatedContent": "- 🔥SongGen supporte à la fois les modes **mixte** et **double-piste** pour répondre à des besoins divers. Nos expériences fournissent des **insights précieux** pour optimiser les deux modes."
+      },
+      {
+        "row": 44,
+        "rowsha": "T63+pUD5TnjZ3yVc/5VT8GaCOS9s3MIe883K4i561Ws=",
+        "originContent": "- 🔥By releasing the **model weights**, **code**, **annotated data**, and **preprocessing pipeline**, we aim to establish a simple yet effective baseline for future song generation research.",
+        "translatedContent": "- 🔥En publiant les **poids du modèle**, le **code**, les **données annotées** et le **pipeline de prétraitement**, nous visons à établir une base simple mais efficace pour les futures recherches en génération de chansons."
+      },
+      {
+        "row": 45,
+        "rowsha": "YkJ8xN3uZy9LlPz2PUw/J4ZfjOaeoEbAZDAyx81xXFY=",
+        "originContent": "<!-- <img align=\"center\" src=\"https://raw.githubusercontent.com/LiuZH-19/SongGen/master/assets/imgs/motivation1.jpg\" style=\"  display: block;",
+        "translatedContent": "<!-- <img align=\"center\" src=\"https://raw.githubusercontent.com/LiuZH-19/SongGen/master/assets/imgs/motivation1.jpg\" style=\"  display: block;"
+      },
+      {
+        "row": 46,
+        "rowsha": "aEWYlRXNpAg4+CkwSDEXdkIth7FYPdkvxhZyqo2T254=",
+        "originContent": "  margin-left: auto;",
+        "translatedContent": "  margin-left: auto;"
+      },
+      {
+        "row": 47,
+        "rowsha": "DvpK2Km7UWlySDPMfyamp7tByClvkJ3eMCFjxNhh+g8=",
+        "originContent": "  margin-right: auto;",
+        "translatedContent": "  margin-right: auto;"
+      },
+      {
+        "row": 48,
+        "rowsha": "t6VUhbRD86J2DmpGHq6PSlGpM6Z5x0DKymbbTMb07ww=",
+        "originContent": "  width: 50%;\" /> -->",
+        "translatedContent": "  width: 50%;\" /> -->"
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "eFwwETkGSRKFKv6BLNrVQxzQOfmS8iH7rTlNFx2crkM=",
+        "originContent": "## 👨‍💻 Todo",
+        "translatedContent": "## 👨‍💻 À faire"
+      },
+      {
+        "row": 51,
+        "rowsha": "8LncijF1bhgbOxAFs3J/JqzuCHAvNL6bOsRO06qvecM=",
+        "originContent": "- [ ] Release annotated data and preprocessing pipeline",
+        "translatedContent": "- [ ] Publier les données annotées et le pipeline de prétraitement"
+      },
+      {
+        "row": 52,
+        "rowsha": "hC+lYJA2sUbjXDDs7gFZ2NKg9uTzrVctLL9fteMST9A=",
+        "originContent": "- [x] Release Musiccaps Test set",
+        "translatedContent": "- [x] Publier le jeu de test Musiccaps"
+      },
+      {
+        "row": 53,
+        "rowsha": "XzPtnr7tfw+zkg8CpYJT0lU5IGm4G3DB/adU6bVvOEg=",
+        "originContent": "- [x] Release SongGen training code",
+        "translatedContent": "- [x] Publier le code d’entraînement SongGen"
+      },
+      {
+        "row": 54,
+        "rowsha": "9Ror2GBkR9cY6uAprMMzK3K2yqSK+cbVRKMcOMv8pTk=",
+        "originContent": "- [x] Release SongGen (Interleaving A-V) checkpoint",
+        "translatedContent": "- [x] Publier le checkpoint SongGen (Interleaving A-V)"
+      },
+      {
+        "row": 55,
+        "rowsha": "j6gbESAedOlgBLug2T4v1LveFKLScidq+wILWfPpur8=",
+        "originContent": "- [x] Release SongGen Mixed_pro checkpoint",
+        "translatedContent": "- [x] Publier le checkpoint SongGen Mixed_pro"
+      },
+      {
+        "row": 56,
+        "rowsha": "5nap7hSPgqRDW1+zPS7rwZLWyGR80ZX4Z6uTbaBIqys=",
+        "originContent": "- [x] Release SongGen inference code ",
+        "translatedContent": "- [x] Publier le code d’inférence SongGen"
+      },
+      {
+        "row": 57,
+        "rowsha": "4I5z95Ymt1MZTiwfHqw68CPW18xBrISwJTXbDEUVKzg=",
+        "originContent": "- [x] SongGen demo",
+        "translatedContent": "- [x] Démo SongGen"
+      },
+      {
+        "row": 58,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "46N08JrB7gGyNuBV4kRL2Sq4N/Lh36axkVUUs2Shgs4=",
+        "originContent": "## 🛠️ Usage",
+        "translatedContent": "## 🛠️ Utilisation"
+      },
+      {
+        "row": 60,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 61,
+        "rowsha": "BguJVMax1EPwuCwjZ5XzkRYuBjzxILkeF9bhXderpRg=",
+        "originContent": "### 1. Install environment and dependencies",
+        "translatedContent": "### 1. Installer l’environnement et les dépendances"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngit clone https://github.com/LiuZH-19/SongGen.git\ncd SongGen\n# We recommend using conda to create a new environment.\nconda create -n songgen_env python=3.9.18 \nconda activate songgen_env\n# Install CUDA >= 11.8 and PyTorch, e.g.,\npip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu118\npip install flash-attn==2.6.1 --no-build-isolation\n```",
+    "ContentSha": "BtfylzZZ2bmg0JdUsFSoV9+uc6NoLU6fG7ftIBmZyq4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/LiuZH-19/SongGen.git\ncd SongGen\n# We recommend using conda to create a new environment.\nconda create -n songgen_env python=3.9.18 \nconda activate songgen_env\n# Install CUDA >= 11.8 and PyTorch, e.g.,\npip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu118\npip install flash-attn==2.6.1 --no-build-isolation\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "xpnTh/e6PW5jhES4B4Tirp2crL1YLdIgbC8LTY6MInE=",
+        "originContent": "git clone https://github.com/LiuZH-19/SongGen.git",
+        "translatedContent": "git clone https://github.com/LiuZH-19/SongGen.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "fvPveVJB1Z4B3l+PZKxTuowRV25xCuWPVSICuXax2kQ=",
+        "originContent": "cd SongGen",
+        "translatedContent": "cd SongGen"
+      },
+      {
+        "row": 4,
+        "rowsha": "3V32uzCu+T6dOJJNxYxHM4ALg8ApVUEJU9UR+SCfdik=",
+        "originContent": "# We recommend using conda to create a new environment.",
+        "translatedContent": "# We recommend using conda to create a new environment."
+      },
+      {
+        "row": 5,
+        "rowsha": "XzfB+yAYJkwZ+ZfPdeGJhjS7qeJJoO3vdrWt/wnJ/DY=",
+        "originContent": "conda create -n songgen_env python=3.9.18 ",
+        "translatedContent": "conda create -n songgen_env python=3.9.18 "
+      },
+      {
+        "row": 6,
+        "rowsha": "wMoeSpuSG8cCuxfwoeXUU/Jp12A/Wenge7tm6vroOjw=",
+        "originContent": "conda activate songgen_env",
+        "translatedContent": "conda activate songgen_env"
+      },
+      {
+        "row": 7,
+        "rowsha": "mORdxXV814pXVtu5BWEBQektku3GiOSyHVyGq0mkN68=",
+        "originContent": "# Install CUDA >= 11.8 and PyTorch, e.g.,",
+        "translatedContent": "# Install CUDA >= 11.8 and PyTorch, e.g.,"
+      },
+      {
+        "row": 8,
+        "rowsha": "6+WFf6Xk2qLGCA9VmHdM9wZ1qDZNc90N+SH+bXba6C8=",
+        "originContent": "pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu118",
+        "translatedContent": "pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu118"
+      },
+      {
+        "row": 9,
+        "rowsha": "0ukpplTbjYiHCsrz84nvSugSowI+uQnVT0RXpvI8fFM=",
+        "originContent": "pip install flash-attn==2.6.1 --no-build-isolation",
+        "translatedContent": "pip install flash-attn==2.6.1 --no-build-isolation"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "To use SongGen only in inference mode, install it using:",
+    "ContentSha": "c3wSPdQJ2durIF5vFWa9rh8FMVd6eUUxbB4tBgELlKs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Pour utiliser SongGen uniquement en mode inférence, installez-le en utilisant :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "c3wSPdQJ2durIF5vFWa9rh8FMVd6eUUxbB4tBgELlKs=",
+        "originContent": "To use SongGen only in inference mode, install it using:",
+        "translatedContent": "Pour utiliser SongGen uniquement en mode inférence, installez-le en utilisant :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\npip install -e .\n```",
+    "ContentSha": "btiWREgdkN7Q/yxnNMcbe6kgL2sgHO8jVururanS9BU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install -e .\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "knVRIKwsU4emj9biFUgJoBjbMP5EER6U5AGxS0Ix1+Y=",
+        "originContent": "pip install -e .",
+        "translatedContent": "pip install -e ."
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "### 2. Download the xcodec\n\nDownload the X-Codec checkpoint from [🤗](https://raw.githubusercontent.com/LiuZH-19/SongGen/master/\nhttps://huggingface.co/ZhenYe234/xcodec/blob/main/xcodec_hubert_general_audio_v2.pth) and place it in the following directory : SongGen/songgen/xcodec_wrapper/xcodec_infer/ckpts/general_more\n",
+    "ContentSha": "UiCuS+3Aw7LvdCHa0CjwA2Rz3Cq7xWfEfW4gGvKY24s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 2. Télécharger le xcodec\n\nTéléchargez le point de contrôle X-Codec depuis [🤗](https://raw.githubusercontent.com/LiuZH-19/SongGen/master/\nhttps://huggingface.co/ZhenYe234/xcodec/blob/main/xcodec_hubert_general_audio_v2.pth) et placez-le dans le répertoire suivant : SongGen/songgen/xcodec_wrapper/xcodec_infer/ckpts/general_more\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kDeybwpgITs8DDqj0kerQKuJST5d5hbw3iyQ6bwUjaA=",
+        "originContent": "### 2. Download the xcodec",
+        "translatedContent": "### 2. Télécharger le xcodec"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "7h2D8vYzNUUQjBMNOYi/SB0wy/B91eMtcVANL6h8ENg=",
+        "originContent": "Download the X-Codec checkpoint from [🤗](https://raw.githubusercontent.com/LiuZH-19/SongGen/master/",
+        "translatedContent": "Téléchargez le point de contrôle X-Codec depuis [🤗](https://raw.githubusercontent.com/LiuZH-19/SongGen/master/"
+      },
+      {
+        "row": 4,
+        "rowsha": "QeEP5boJTKkulmztA/QPn2WvVIvnLyp1HbX/Bd08p9E=",
+        "originContent": "https://huggingface.co/ZhenYe234/xcodec/blob/main/xcodec_hubert_general_audio_v2.pth) and place it in the following directory : SongGen/songgen/xcodec_wrapper/xcodec_infer/ckpts/general_more",
+        "translatedContent": "https://huggingface.co/ZhenYe234/xcodec/blob/main/xcodec_hubert_general_audio_v2.pth) et placez-le dans le répertoire suivant : SongGen/songgen/xcodec_wrapper/xcodec_infer/ckpts/general_more"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nxcodec_infer\n    ├── ckpts\n    │   └── general_more\n    │       ├── config_hubert_general.yaml\n    │       └── xcodec_hubert_general_audio_v2.pth\n\n```",
+    "ContentSha": "mLHRhaPIeVdHjLnP7ysBtIMrnKCHjUnKN9/ftaQlXhs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nxcodec_infer\n    ├── ckpts\n    │   └── general_more\n    │       ├── config_hubert_general.yaml\n    │       └── xcodec_hubert_general_audio_v2.pth\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "SmBkyG+BDHyp6AHZ9ZC4ga1whjizmw+05RQj1+WQxMA=",
+        "originContent": "xcodec_infer",
+        "translatedContent": "xcodec_infer"
+      },
+      {
+        "row": 3,
+        "rowsha": "d5J5VoQtNBgTavlQ4FkmlqXHwbR0UXHKg7gSoB35BXg=",
+        "originContent": "    ├── ckpts",
+        "translatedContent": "    ├── ckpts"
+      },
+      {
+        "row": 4,
+        "rowsha": "dDcZZxHL3qSl6liw0q5ETFIsTCxV6GLFvMFrAQR3kkE=",
+        "originContent": "    │   └── general_more",
+        "translatedContent": "    │   └── general_more"
+      },
+      {
+        "row": 5,
+        "rowsha": "28leDVjQc10lQ1Yk9QHtYmFzU4qIBG2uy3RTJAj+VeE=",
+        "originContent": "    │       ├── config_hubert_general.yaml",
+        "translatedContent": "    │       ├── config_hubert_general.yaml"
+      },
+      {
+        "row": 6,
+        "rowsha": "PWmZ6KDeNyHqx5nPYonkfKPE3n43lLLJSkfHg0HfE6s=",
+        "originContent": "    │       └── xcodec_hubert_general_audio_v2.pth",
+        "translatedContent": "    │       └── xcodec_hubert_general_audio_v2.pth"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### 3. Run the inference\n\n#### (1). Mixed Pro Mode\n",
+    "ContentSha": "jXHIBEfjGGWygMxAAm8TdfUxE/0gqc2D65lrS51yx7s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 3. Exécuter l'inférence\n\n#### (1). Mode Pro Mixte\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KyOHCOk6DPCpY3r6kes10qmXhhXz/opDTkNErBlG81w=",
+        "originContent": "### 3. Run the inference",
+        "translatedContent": "### 3. Exécuter l'inférence"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "vZkcMx5z6tyO0GFyvgLxk8bmW4QkT3iQkCIRzBUlYxI=",
+        "originContent": "#### (1). Mixed Pro Mode",
+        "translatedContent": "#### (1). Mode Pro Mixte"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```python\nimport torch\nimport os\nfrom songgen import (\n    VoiceBpeTokenizer,\n    SongGenMixedForConditionalGeneration,\n    SongGenProcessor\n)\nimport soundfile as sf\n\nckpt_path = \"LiuZH-19/SongGen_mixed_pro\" # Path to the pretrained model\ndevice = \"cuda:0\" if torch.cuda.is_available() else \"cpu\"\nmodel = SongGenMixedForConditionalGeneration.from_pretrained(\n    ckpt_path,\n    attn_implementation='sdpa').to(device)\nprocessor = SongGenProcessor(ckpt_path, device)\n\n# Define input text and lyrics\nlyrics = \"...\" # The lyrics text\ntext = \"...\" # The music description text\nref_voice_path = 'path/to/your/reference_audio.wav' # Path to reference audio, optional\nseparate= True # Whether to separate the vocal track from the reference voice audio\n\nmodel_inputs = processor(text=text, lyrics=lyrics, ref_voice_path=ref_voice_path, separate=separate) \ngeneration = model.generate(**model_inputs,\n                do_sample=True,\n            )\naudio_arr = generation.cpu().numpy().squeeze()\nsf.write(\"songgen_out.wav\", audio_arr, model.config.sampling_rate)\n```",
+    "ContentSha": "ho3p70TEd+v/RkGySdK1I6QDWKMdskXIh95RZlOtRGQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nimport torch\nimport os\nfrom songgen import (\n    VoiceBpeTokenizer,\n    SongGenMixedForConditionalGeneration,\n    SongGenProcessor\n)\nimport soundfile as sf\n\nckpt_path = \"LiuZH-19/SongGen_mixed_pro\" # Path to the pretrained model\ndevice = \"cuda:0\" if torch.cuda.is_available() else \"cpu\"\nmodel = SongGenMixedForConditionalGeneration.from_pretrained(\n    ckpt_path,\n    attn_implementation='sdpa').to(device)\nprocessor = SongGenProcessor(ckpt_path, device)\n\n# Define input text and lyrics\nlyrics = \"...\" # The lyrics text\ntext = \"...\" # The music description text\nref_voice_path = 'path/to/your/reference_audio.wav' # Path to reference audio, optional\nseparate= True # Whether to separate the vocal track from the reference voice audio\n\nmodel_inputs = processor(text=text, lyrics=lyrics, ref_voice_path=ref_voice_path, separate=separate) \ngeneration = model.generate(**model_inputs,\n                do_sample=True,\n            )\naudio_arr = generation.cpu().numpy().squeeze()\nsf.write(\"songgen_out.wav\", audio_arr, model.config.sampling_rate)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "zxBw06FvJLIw2Dd3RSqpYlDRFQTGQfTrh4zBDzR9Gvo=",
+        "originContent": "import torch",
+        "translatedContent": "import torch"
+      },
+      {
+        "row": 3,
+        "rowsha": "3iq63oMsjjUKG9yYz82x4gKsR0nF/FGkqXDUFza231w=",
+        "originContent": "import os",
+        "translatedContent": "import os"
+      },
+      {
+        "row": 4,
+        "rowsha": "hS2vdq087Ns/9ft7Th2eadC1F5l6MiSdZb1pEUBONtw=",
+        "originContent": "from songgen import (",
+        "translatedContent": "from songgen import ("
+      },
+      {
+        "row": 5,
+        "rowsha": "WgIq7rrjh+smKUZu1RKuxQTrq2wcIuCUxYXzL4cNe9s=",
+        "originContent": "    VoiceBpeTokenizer,",
+        "translatedContent": "    VoiceBpeTokenizer,"
+      },
+      {
+        "row": 6,
+        "rowsha": "nx30fY1N/KSgjIIwXcDCLKi6Rqks1mlYuhCaYKSUSys=",
+        "originContent": "    SongGenMixedForConditionalGeneration,",
+        "translatedContent": "    SongGenMixedForConditionalGeneration,"
+      },
+      {
+        "row": 7,
+        "rowsha": "CisWtBhQ2PVOGjre4B7qc3Dhc+kZ1zp/v2/k5OAx3VI=",
+        "originContent": "    SongGenProcessor",
+        "translatedContent": "    SongGenProcessor"
+      },
+      {
+        "row": 8,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 9,
+        "rowsha": "hjANxvagR04zdL9dLGO1xYbvgnWeeuMAHyxq4PW4/F8=",
+        "originContent": "import soundfile as sf",
+        "translatedContent": "import soundfile as sf"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "kCOe2OCvgcUUl4RHNhgoEv2TZWNWGfaG0wuU8atv2NY=",
+        "originContent": "ckpt_path = \"LiuZH-19/SongGen_mixed_pro\" # Path to the pretrained model",
+        "translatedContent": "ckpt_path = \"LiuZH-19/SongGen_mixed_pro\" # Path to the pretrained model"
+      },
+      {
+        "row": 12,
+        "rowsha": "HBO3XG5R0ChPA7t+xlK5BgRR1oCn0A67zc8WKqkuovU=",
+        "originContent": "device = \"cuda:0\" if torch.cuda.is_available() else \"cpu\"",
+        "translatedContent": "device = \"cuda:0\" if torch.cuda.is_available() else \"cpu\""
+      },
+      {
+        "row": 13,
+        "rowsha": "OO40SPy6UWf1m3to/h1TYTClLeSyTdWg/4dZMHSlVno=",
+        "originContent": "model = SongGenMixedForConditionalGeneration.from_pretrained(",
+        "translatedContent": "model = SongGenMixedForConditionalGeneration.from_pretrained("
+      },
+      {
+        "row": 14,
+        "rowsha": "Xde+hiB1vgpJqx5pStVlHyekz4tH2LcEmb7IRqZj4N0=",
+        "originContent": "    ckpt_path,",
+        "translatedContent": "    ckpt_path,"
+      },
+      {
+        "row": 15,
+        "rowsha": "jIpWLuydazA3yKVUGfW5OHvEhdvRgmACDaQtf+IIt/k=",
+        "originContent": "    attn_implementation='sdpa').to(device)",
+        "translatedContent": "    attn_implementation='sdpa').to(device)"
+      },
+      {
+        "row": 16,
+        "rowsha": "mOiexkRgyiPvp/raajekp+LMQAI1Pbj5sQrmCQSukqo=",
+        "originContent": "processor = SongGenProcessor(ckpt_path, device)",
+        "translatedContent": "processor = SongGenProcessor(ckpt_path, device)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "EIwOuKe+xmTFnlNdj82rIhWPLFK1yQgQRQv+2X2+BB0=",
+        "originContent": "# Define input text and lyrics",
+        "translatedContent": "# Define input text and lyrics"
+      },
+      {
+        "row": 19,
+        "rowsha": "LOxmZGJ01Cgf0DwOf9RzazQ5XYUHnWDO/AHdFDFzfNM=",
+        "originContent": "lyrics = \"...\" # The lyrics text",
+        "translatedContent": "lyrics = \"...\" # The lyrics text"
+      },
+      {
+        "row": 20,
+        "rowsha": "kTgyZ8+yZw8c6v1zy/qp5MeMYtwAnhTHruMMRedYq+E=",
+        "originContent": "text = \"...\" # The music description text",
+        "translatedContent": "text = \"...\" # The music description text"
+      },
+      {
+        "row": 21,
+        "rowsha": "+lwuhM+0UfPNxNHc9baoJgUcec80Ly8ezlG/Z4Fvawg=",
+        "originContent": "ref_voice_path = 'path/to/your/reference_audio.wav' # Path to reference audio, optional",
+        "translatedContent": "ref_voice_path = 'path/to/your/reference_audio.wav' # Path to reference audio, optional"
+      },
+      {
+        "row": 22,
+        "rowsha": "GaTFpewXFptzprm/K8Nyvyyav4g6wpUApcRHLQKM4ho=",
+        "originContent": "separate= True # Whether to separate the vocal track from the reference voice audio",
+        "translatedContent": "separate= True # Whether to separate the vocal track from the reference voice audio"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "/BrrhJcFVpEbDmj0nzdY9s9lQGsd31ix3jGDNmOZlyo=",
+        "originContent": "model_inputs = processor(text=text, lyrics=lyrics, ref_voice_path=ref_voice_path, separate=separate) ",
+        "translatedContent": "model_inputs = processor(text=text, lyrics=lyrics, ref_voice_path=ref_voice_path, separate=separate) "
+      },
+      {
+        "row": 25,
+        "rowsha": "HyLJ961weJ2kmS3KE4g+B92sm3VE5riglXGwxfPNdhE=",
+        "originContent": "generation = model.generate(**model_inputs,",
+        "translatedContent": "generation = model.generate(**model_inputs,"
+      },
+      {
+        "row": 26,
+        "rowsha": "RmfRrSeDXbRBymLHMdZi79+7skV4Ngc7IudIvNSsDp8=",
+        "originContent": "                do_sample=True,",
+        "translatedContent": "                do_sample=True,"
+      },
+      {
+        "row": 27,
+        "rowsha": "jOhom+QiNwmL4CEFQXIhET9s+tla6/bQMr9KqE8jNuY=",
+        "originContent": "            )",
+        "translatedContent": "            )"
+      },
+      {
+        "row": 28,
+        "rowsha": "NokZ4bxft2JNpRjmV5UJAalWajatoBpFmpNV7QneZJY=",
+        "originContent": "audio_arr = generation.cpu().numpy().squeeze()",
+        "translatedContent": "audio_arr = generation.cpu().numpy().squeeze()"
+      },
+      {
+        "row": 29,
+        "rowsha": "I7oR4DetzehfmfUrUlcOd9LqfHDfM+bSkBCwrQY6P9g=",
+        "originContent": "sf.write(\"songgen_out.wav\", audio_arr, model.config.sampling_rate)",
+        "translatedContent": "sf.write(\"songgen_out.wav\", audio_arr, model.config.sampling_rate)"
+      },
+      {
+        "row": 30,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n\n\n#### (2). Interleaving A-V  (Dual-track mode)",
+    "ContentSha": "tKFsIayUxw7GV/g5bFq8rqBtC13tjvgS7uSbkmaa05o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\n\n#### (2). Interleaving A-V  (Dual-track mode)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Dp9Bx0EJYnWIA88IA8KbCKXeENLcfe3ZiuAeZF047Eo=",
+        "originContent": "#### (2). Interleaving A-V  (Dual-track mode)",
+        "translatedContent": "#### (2). Interleaving A-V  (Dual-track mode)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```python\nimport torch\nimport os\nfrom songgen import (\n    VoiceBpeTokenizer,\n    SongGenDualTrackForConditionalGeneration,\n    SongGenProcessor\n)\nimport soundfile as sf\n\nckpt_path = \"LiuZH-19/SongGen_interleaving_A_V\" # Path to the pretrained model\ndevice = \"cuda:0\" if torch.cuda.is_available() else \"cpu\"\nmodel = SongGenDualTrackForConditionalGeneration.from_pretrained(\n    ckpt_path,\n    attn_implementation='sdpa').to(device)\nprocessor = SongGenProcessor(ckpt_path, device)\n\n# Define input text and lyrics\nlyrics = \"...\" # The lyrics text\ntext = \"...\" # The music description text\nref_voice_path = 'path/to/your/reference_audio.wav' # Path to reference audio, optional\nseparate= True # Whether to separate the vocal track from the reference voice audio\n\nmodel_inputs = processor(text=text, lyrics=lyrics, ref_voice_path=ref_voice_path, separate=True) \ngeneration = model.generate(**model_inputs,\n                do_sample=True,\n            )\n\nacc_array = generation[0].cpu().numpy()\nvocal_array = generation[1].cpu().numpy()\nmin_len =min(vocal_array.shape[0], acc_array.shape[0])\nacc_array = acc_array[:min_len]\nvocal_array = vocal_array[:min_len]\naudio_arr = vocal_array + acc_array\nsf.write(\"songgen_out.wav\", audio_arr, model.config.sampling_rate)\n```",
+    "ContentSha": "TxinuMUF2ZCiy6P3iU4IOvpPiaamCRuGXK/HO2Jyltc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nimport torch\nimport os\nfrom songgen import (\n    VoiceBpeTokenizer,\n    SongGenDualTrackForConditionalGeneration,\n    SongGenProcessor\n)\nimport soundfile as sf\n\nckpt_path = \"LiuZH-19/SongGen_interleaving_A_V\" # Path to the pretrained model\ndevice = \"cuda:0\" if torch.cuda.is_available() else \"cpu\"\nmodel = SongGenDualTrackForConditionalGeneration.from_pretrained(\n    ckpt_path,\n    attn_implementation='sdpa').to(device)\nprocessor = SongGenProcessor(ckpt_path, device)\n\n# Define input text and lyrics\nlyrics = \"...\" # The lyrics text\ntext = \"...\" # The music description text\nref_voice_path = 'path/to/your/reference_audio.wav' # Path to reference audio, optional\nseparate= True # Whether to separate the vocal track from the reference voice audio\n\nmodel_inputs = processor(text=text, lyrics=lyrics, ref_voice_path=ref_voice_path, separate=True) \ngeneration = model.generate(**model_inputs,\n                do_sample=True,\n            )\n\nacc_array = generation[0].cpu().numpy()\nvocal_array = generation[1].cpu().numpy()\nmin_len =min(vocal_array.shape[0], acc_array.shape[0])\nacc_array = acc_array[:min_len]\nvocal_array = vocal_array[:min_len]\naudio_arr = vocal_array + acc_array\nsf.write(\"songgen_out.wav\", audio_arr, model.config.sampling_rate)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "zxBw06FvJLIw2Dd3RSqpYlDRFQTGQfTrh4zBDzR9Gvo=",
+        "originContent": "import torch",
+        "translatedContent": "import torch"
+      },
+      {
+        "row": 3,
+        "rowsha": "3iq63oMsjjUKG9yYz82x4gKsR0nF/FGkqXDUFza231w=",
+        "originContent": "import os",
+        "translatedContent": "import os"
+      },
+      {
+        "row": 4,
+        "rowsha": "hS2vdq087Ns/9ft7Th2eadC1F5l6MiSdZb1pEUBONtw=",
+        "originContent": "from songgen import (",
+        "translatedContent": "from songgen import ("
+      },
+      {
+        "row": 5,
+        "rowsha": "WgIq7rrjh+smKUZu1RKuxQTrq2wcIuCUxYXzL4cNe9s=",
+        "originContent": "    VoiceBpeTokenizer,",
+        "translatedContent": "    VoiceBpeTokenizer,"
+      },
+      {
+        "row": 6,
+        "rowsha": "jHUM8B0yI1WhfmmBbXSZEozz8mt8p078GilsmOh4orc=",
+        "originContent": "    SongGenDualTrackForConditionalGeneration,",
+        "translatedContent": "    SongGenDualTrackForConditionalGeneration,"
+      },
+      {
+        "row": 7,
+        "rowsha": "CisWtBhQ2PVOGjre4B7qc3Dhc+kZ1zp/v2/k5OAx3VI=",
+        "originContent": "    SongGenProcessor",
+        "translatedContent": "    SongGenProcessor"
+      },
+      {
+        "row": 8,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 9,
+        "rowsha": "hjANxvagR04zdL9dLGO1xYbvgnWeeuMAHyxq4PW4/F8=",
+        "originContent": "import soundfile as sf",
+        "translatedContent": "import soundfile as sf"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "hM6rZqcP/tKfIBvEfWPrGRucPdx9DU0el6+VXNkmTEs=",
+        "originContent": "ckpt_path = \"LiuZH-19/SongGen_interleaving_A_V\" # Path to the pretrained model",
+        "translatedContent": "ckpt_path = \"LiuZH-19/SongGen_interleaving_A_V\" # Path to the pretrained model"
+      },
+      {
+        "row": 12,
+        "rowsha": "HBO3XG5R0ChPA7t+xlK5BgRR1oCn0A67zc8WKqkuovU=",
+        "originContent": "device = \"cuda:0\" if torch.cuda.is_available() else \"cpu\"",
+        "translatedContent": "device = \"cuda:0\" if torch.cuda.is_available() else \"cpu\""
+      },
+      {
+        "row": 13,
+        "rowsha": "SAlP7sjHggwTKs+Fl8FgLv8hgrA0rM8L3RKsy30CS6k=",
+        "originContent": "model = SongGenDualTrackForConditionalGeneration.from_pretrained(",
+        "translatedContent": "model = SongGenDualTrackForConditionalGeneration.from_pretrained("
+      },
+      {
+        "row": 14,
+        "rowsha": "Xde+hiB1vgpJqx5pStVlHyekz4tH2LcEmb7IRqZj4N0=",
+        "originContent": "    ckpt_path,",
+        "translatedContent": "    ckpt_path,"
+      },
+      {
+        "row": 15,
+        "rowsha": "jIpWLuydazA3yKVUGfW5OHvEhdvRgmACDaQtf+IIt/k=",
+        "originContent": "    attn_implementation='sdpa').to(device)",
+        "translatedContent": "    attn_implementation='sdpa').to(device)"
+      },
+      {
+        "row": 16,
+        "rowsha": "mOiexkRgyiPvp/raajekp+LMQAI1Pbj5sQrmCQSukqo=",
+        "originContent": "processor = SongGenProcessor(ckpt_path, device)",
+        "translatedContent": "processor = SongGenProcessor(ckpt_path, device)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "EIwOuKe+xmTFnlNdj82rIhWPLFK1yQgQRQv+2X2+BB0=",
+        "originContent": "# Define input text and lyrics",
+        "translatedContent": "# Define input text and lyrics"
+      },
+      {
+        "row": 19,
+        "rowsha": "LOxmZGJ01Cgf0DwOf9RzazQ5XYUHnWDO/AHdFDFzfNM=",
+        "originContent": "lyrics = \"...\" # The lyrics text",
+        "translatedContent": "lyrics = \"...\" # The lyrics text"
+      },
+      {
+        "row": 20,
+        "rowsha": "kTgyZ8+yZw8c6v1zy/qp5MeMYtwAnhTHruMMRedYq+E=",
+        "originContent": "text = \"...\" # The music description text",
+        "translatedContent": "text = \"...\" # The music description text"
+      },
+      {
+        "row": 21,
+        "rowsha": "+lwuhM+0UfPNxNHc9baoJgUcec80Ly8ezlG/Z4Fvawg=",
+        "originContent": "ref_voice_path = 'path/to/your/reference_audio.wav' # Path to reference audio, optional",
+        "translatedContent": "ref_voice_path = 'path/to/your/reference_audio.wav' # Path to reference audio, optional"
+      },
+      {
+        "row": 22,
+        "rowsha": "GaTFpewXFptzprm/K8Nyvyyav4g6wpUApcRHLQKM4ho=",
+        "originContent": "separate= True # Whether to separate the vocal track from the reference voice audio",
+        "translatedContent": "separate= True # Whether to separate the vocal track from the reference voice audio"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "Tk4u1v2RHN3aDipqQHuB3Mcc/DOLKaDR7B5LtjrQMN8=",
+        "originContent": "model_inputs = processor(text=text, lyrics=lyrics, ref_voice_path=ref_voice_path, separate=True) ",
+        "translatedContent": "model_inputs = processor(text=text, lyrics=lyrics, ref_voice_path=ref_voice_path, separate=True) "
+      },
+      {
+        "row": 25,
+        "rowsha": "HyLJ961weJ2kmS3KE4g+B92sm3VE5riglXGwxfPNdhE=",
+        "originContent": "generation = model.generate(**model_inputs,",
+        "translatedContent": "generation = model.generate(**model_inputs,"
+      },
+      {
+        "row": 26,
+        "rowsha": "RmfRrSeDXbRBymLHMdZi79+7skV4Ngc7IudIvNSsDp8=",
+        "originContent": "                do_sample=True,",
+        "translatedContent": "                do_sample=True,"
+      },
+      {
+        "row": 27,
+        "rowsha": "jOhom+QiNwmL4CEFQXIhET9s+tla6/bQMr9KqE8jNuY=",
+        "originContent": "            )",
+        "translatedContent": "            )"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "3tqv3v3a2L76386JN2ykhuttNCNfuITewohWIljBUQk=",
+        "originContent": "acc_array = generation[0].cpu().numpy()",
+        "translatedContent": "acc_array = generation[0].cpu().numpy()"
+      },
+      {
+        "row": 30,
+        "rowsha": "jqstf4f6Fj2NmjKao/SfBfCd37F7RrjNP4QciHdP0ZU=",
+        "originContent": "vocal_array = generation[1].cpu().numpy()",
+        "translatedContent": "vocal_array = generation[1].cpu().numpy()"
+      },
+      {
+        "row": 31,
+        "rowsha": "/jp+hgBe1Yh2rhKPEtQgbk+X3/zXL6EFbgkFyaRvgTA=",
+        "originContent": "min_len =min(vocal_array.shape[0], acc_array.shape[0])",
+        "translatedContent": "min_len =min(vocal_array.shape[0], acc_array.shape[0])"
+      },
+      {
+        "row": 32,
+        "rowsha": "eLE2zKHdFt8UNN/kq3h/AqBNgmE28W+Bidax2V5ShyA=",
+        "originContent": "acc_array = acc_array[:min_len]",
+        "translatedContent": "acc_array = acc_array[:min_len]"
+      },
+      {
+        "row": 33,
+        "rowsha": "fSt0Oa5mng6acpudM8KaHfoMLw/loOIFI9rcxCMWaYE=",
+        "originContent": "vocal_array = vocal_array[:min_len]",
+        "translatedContent": "vocal_array = vocal_array[:min_len]"
+      },
+      {
+        "row": 34,
+        "rowsha": "Wj4B73qkOD5rbe0/sPejMvfG68u0tLe4lqjKRk4bRpk=",
+        "originContent": "audio_arr = vocal_array + acc_array",
+        "translatedContent": "audio_arr = vocal_array + acc_array"
+      },
+      {
+        "row": 35,
+        "rowsha": "I7oR4DetzehfmfUrUlcOd9LqfHDfM+bSkBCwrQY6P9g=",
+        "originContent": "sf.write(\"songgen_out.wav\", audio_arr, model.config.sampling_rate)",
+        "translatedContent": "sf.write(\"songgen_out.wav\", audio_arr, model.config.sampling_rate)"
+      },
+      {
+        "row": 36,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### 4. Training\n\nThe [training folder](./training) contains all the information to train or fine-tune your own SongGen model. See the [training guide](https://raw.githubusercontent.com/LiuZH-19/SongGen/master/./training/README.md) for step-by-step instructions.\n\n\n\n## ❤️ Acknowledgments\nThis library builds on top of a number of open-source giants, to whom we'd like to extend our warmest thanks for providing these tools!\n\nSpecial thanks to:\n\n- [Parler-tts](https://github.com/huggingface/parler-tts): The codebase we built upon. \n- [X-Codec](https://github.com/zhenye234/xcodec): The audio codec utilized in our research.\n- [lp-music-caps](https://github.com/seungheondoh/lp-music-caps): A project aimed at generating captions for music. \n\nWe deeply appreciate all the support we've received along the way.\n\n## ☎️ Limitation and Future Work\n\nThis is a **research work** focused on **text-to-song** generation. Due to the limitations of the current training dataset, our model is currently restricted to generating English songs with a maximum duration of 30 seconds.\nHowever, despite being trained on only **2k hours** of data with a **1.3B** parameter model, our approach has demonstrated strong effectiveness and promising potential in generating coherent and expressive songs. We believe that scaling up both data and model size will further enhance lyrics alignment and musicality.\nThat being said, scaling the dataset is time-consuming and challenging. We welcome collaborations and discussions to explore new ways to improve the model and extend its capabilities.\nFor any inquiries or potential collaborations, feel free to reach out: Zihan Liu (liuzihan@pjlab.org.cn) and Jiaqi Wang (wangjiaqi@pjlab.org.cn).\n\n## ✒️ Citation\nIf you find our work helpful for your research, please consider giving a star ⭐ and citation 📝",
+    "ContentSha": "GrId3RU0LsurDqZVGzzit0O4qcCzzac97bQpLzIOC6Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 4. Entraînement\n\nLe [dossier d'entraînement](./training) contient toutes les informations pour entraîner ou affiner votre propre modèle SongGen. Consultez le [guide d'entraînement](https://raw.githubusercontent.com/LiuZH-19/SongGen/master/./training/README.md) pour des instructions étape par étape.\n\n\n\n## ❤️ Remerciements\nCette bibliothèque s'appuie sur plusieurs géants open-source, auxquels nous souhaitons adresser nos plus chaleureux remerciements pour avoir fourni ces outils !\n\nRemerciements particuliers à :\n\n- [Parler-tts](https://github.com/huggingface/parler-tts) : La base de code sur laquelle nous nous sommes appuyés. \n- [X-Codec](https://github.com/zhenye234/xcodec) : Le codec audio utilisé dans notre recherche.\n- [lp-music-caps](https://github.com/seungheondoh/lp-music-caps) : Un projet visant à générer des légendes pour la musique. \n\nNous apprécions profondément tout le soutien reçu au cours de cette aventure.\n\n## ☎️ Limites et travaux futurs\n\nIl s'agit d'un **travail de recherche** axé sur la génération de **texte en chanson**. En raison des limites du jeu de données actuel, notre modèle est actuellement limité à la génération de chansons en anglais d'une durée maximale de 30 secondes.\nCependant, malgré un entraînement sur seulement **2k heures** de données avec un modèle de **1,3 milliard** de paramètres, notre approche a démontré une forte efficacité et un potentiel prometteur pour générer des chansons cohérentes et expressives. Nous croyons que l'augmentation des données et de la taille du modèle améliorera davantage l'alignement des paroles et la musicalité.\nCela dit, l'agrandissement du jeu de données est long et difficile. Nous accueillons volontiers collaborations et discussions pour explorer de nouvelles façons d'améliorer le modèle et d'étendre ses capacités.\nPour toute question ou collaboration potentielle, n'hésitez pas à contacter : Zihan Liu (liuzihan@pjlab.org.cn) et Jiaqi Wang (wangjiaqi@pjlab.org.cn).\n\n## ✒️ Citation\nSi vous trouvez notre travail utile pour votre recherche, merci de considérer mettre une étoile ⭐ et une citation 📝",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "snPZwg36W7KklRtUWyFn2gWLPXb0X+muygLBH4V6PdY=",
+        "originContent": "### 4. Training",
+        "translatedContent": "### 4. Entraînement"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0iidDrhDSz0pZz1Qi7MnmVctLYAceOMepvlFmy6qK/w=",
+        "originContent": "The [training folder](./training) contains all the information to train or fine-tune your own SongGen model. See the [training guide](https://raw.githubusercontent.com/LiuZH-19/SongGen/master/./training/README.md) for step-by-step instructions.",
+        "translatedContent": "Le [dossier d'entraînement](./training) contient toutes les informations pour entraîner ou affiner votre propre modèle SongGen. Consultez le [guide d'entraînement](https://raw.githubusercontent.com/LiuZH-19/SongGen/master/./training/README.md) pour des instructions étape par étape."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "t3qxQQnNn0wmpSFgmvoEuT6C374CqfpjCfDNJxsNhGY=",
+        "originContent": "## ❤️ Acknowledgments",
+        "translatedContent": "## ❤️ Remerciements"
+      },
+      {
+        "row": 9,
+        "rowsha": "GVD+RqIk3jUiGyuk0xTG7NV06NQU+6bQp2Llw3tYYjI=",
+        "originContent": "This library builds on top of a number of open-source giants, to whom we'd like to extend our warmest thanks for providing these tools!",
+        "translatedContent": "Cette bibliothèque s'appuie sur plusieurs géants open-source, auxquels nous souhaitons adresser nos plus chaleureux remerciements pour avoir fourni ces outils !"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "17xrnRFrxtbV2/VrEOM7MvNVU+4x1tdBoWQSX8P3fpo=",
+        "originContent": "Special thanks to:",
+        "translatedContent": "Remerciements particuliers à :"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "WSiefAJWKLwTEp9K2qwMjhSTiMI0eoCpXLVZ0uUGBZs=",
+        "originContent": "- [Parler-tts](https://github.com/huggingface/parler-tts): The codebase we built upon. ",
+        "translatedContent": "- [Parler-tts](https://github.com/huggingface/parler-tts) : La base de code sur laquelle nous nous sommes appuyés. "
+      },
+      {
+        "row": 14,
+        "rowsha": "5wL6yoApQljAhrm8WRcv0cbM45V9vqY74OUakulp38M=",
+        "originContent": "- [X-Codec](https://github.com/zhenye234/xcodec): The audio codec utilized in our research.",
+        "translatedContent": "- [X-Codec](https://github.com/zhenye234/xcodec) : Le codec audio utilisé dans notre recherche."
+      },
+      {
+        "row": 15,
+        "rowsha": "pSs7wbyx7iy/sYabsnr3rWsKN8+mdGPEAggKJGU6Dp4=",
+        "originContent": "- [lp-music-caps](https://github.com/seungheondoh/lp-music-caps): A project aimed at generating captions for music. ",
+        "translatedContent": "- [lp-music-caps](https://github.com/seungheondoh/lp-music-caps) : Un projet visant à générer des légendes pour la musique. "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "HG3QWO9x+I0Il/qg6yYwrs+FyFUxULSj/s/8ag/J84o=",
+        "originContent": "We deeply appreciate all the support we've received along the way.",
+        "translatedContent": "Nous apprécions profondément tout le soutien reçu au cours de cette aventure."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "1FVrfBonsMTlvni2HqAbDLfQgSWaE5s1XMcwf93j6QY=",
+        "originContent": "## ☎️ Limitation and Future Work",
+        "translatedContent": "## ☎️ Limites et travaux futurs"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "JCCTVkxPBm6YFhiatclf2g7XuU8l3AWbKbHtSXjQl0M=",
+        "originContent": "This is a **research work** focused on **text-to-song** generation. Due to the limitations of the current training dataset, our model is currently restricted to generating English songs with a maximum duration of 30 seconds.",
+        "translatedContent": "Il s'agit d'un **travail de recherche** axé sur la génération de **texte en chanson**. En raison des limites du jeu de données actuel, notre modèle est actuellement limité à la génération de chansons en anglais d'une durée maximale de 30 secondes."
+      },
+      {
+        "row": 22,
+        "rowsha": "NbfaYsYrVpdactfQgaqjjYZ5db54rmDqQE9Z7xkVNgY=",
+        "originContent": "However, despite being trained on only **2k hours** of data with a **1.3B** parameter model, our approach has demonstrated strong effectiveness and promising potential in generating coherent and expressive songs. We believe that scaling up both data and model size will further enhance lyrics alignment and musicality.",
+        "translatedContent": "Cependant, malgré un entraînement sur seulement **2k heures** de données avec un modèle de **1,3 milliard** de paramètres, notre approche a démontré une forte efficacité et un potentiel prometteur pour générer des chansons cohérentes et expressives. Nous croyons que l'augmentation des données et de la taille du modèle améliorera davantage l'alignement des paroles et la musicalité."
+      },
+      {
+        "row": 23,
+        "rowsha": "7Ntl/t6VYjUZzVihxX/FdcUzPAmLOBWQBwHVo00EUF0=",
+        "originContent": "That being said, scaling the dataset is time-consuming and challenging. We welcome collaborations and discussions to explore new ways to improve the model and extend its capabilities.",
+        "translatedContent": "Cela dit, l'agrandissement du jeu de données est long et difficile. Nous accueillons volontiers collaborations et discussions pour explorer de nouvelles façons d'améliorer le modèle et d'étendre ses capacités."
+      },
+      {
+        "row": 24,
+        "rowsha": "m0an+KLm++67UmSXPBpXM/rCUFeFxi18ggC1pEKSnQE=",
+        "originContent": "For any inquiries or potential collaborations, feel free to reach out: Zihan Liu (liuzihan@pjlab.org.cn) and Jiaqi Wang (wangjiaqi@pjlab.org.cn).",
+        "translatedContent": "Pour toute question ou collaboration potentielle, n'hésitez pas à contacter : Zihan Liu (liuzihan@pjlab.org.cn) et Jiaqi Wang (wangjiaqi@pjlab.org.cn)."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "55BgQZPkemWWZ6X5pOQTMHY6OI75m8Us5no5cH7Xdak=",
+        "originContent": "## ✒️ Citation",
+        "translatedContent": "## ✒️ Citation"
+      },
+      {
+        "row": 27,
+        "rowsha": "A5BhJmNr6i15I2FkKhoKFxG79rFFtNu+3WWOux2S0a0=",
+        "originContent": "If you find our work helpful for your research, please consider giving a star ⭐ and citation 📝",
+        "translatedContent": "Si vous trouvez notre travail utile pour votre recherche, merci de considérer mettre une étoile ⭐ et une citation 📝"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bibtex\n@misc{liu2025songgen,\n      title={SongGen: A Single Stage Auto-regressive Transformer for Text-to-Song Generation}, \n      author={Zihan Liu and Shuangrui Ding and Zhixiong Zhang and Xiaoyi Dong and Pan Zhang and Yuhang Zang and Yuhang Cao and Dahua Lin and Jiaqi Wang},\n      year={2025},\n      eprint={2502.13128},\n      archivePrefix={arXiv},\n      primaryClass={cs.SD},\n      url={https://arxiv.org/abs/2502.13128}, \n}\n\n```",
+    "ContentSha": "9wFd1HnWOIQGpz+PBDQa5QCPDGqMyo0POf6In2KjS1A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@misc{liu2025songgen,\n      title={SongGen: A Single Stage Auto-regressive Transformer for Text-to-Song Generation}, \n      author={Zihan Liu and Shuangrui Ding and Zhixiong Zhang and Xiaoyi Dong and Pan Zhang and Yuhang Zang and Yuhang Cao and Dahua Lin and Jiaqi Wang},\n      year={2025},\n      eprint={2502.13128},\n      archivePrefix={arXiv},\n      primaryClass={cs.SD},\n      url={https://arxiv.org/abs/2502.13128}, \n}\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "k0DldySasSoVbzYFtQ2b3io6KpeAJZfjO8JmqQ2iaY4=",
+        "originContent": "@misc{liu2025songgen,",
+        "translatedContent": "@misc{liu2025songgen,"
+      },
+      {
+        "row": 3,
+        "rowsha": "YeyxAM/o83UyJF17AolraWmTb1k21vJRgwK/blrk5KY=",
+        "originContent": "      title={SongGen: A Single Stage Auto-regressive Transformer for Text-to-Song Generation}, ",
+        "translatedContent": "      title={SongGen: A Single Stage Auto-regressive Transformer for Text-to-Song Generation}, "
+      },
+      {
+        "row": 4,
+        "rowsha": "BsGqSt3TRUOGggBPfM6f5m6qj1z5QkcRaMDwi4BE5lI=",
+        "originContent": "      author={Zihan Liu and Shuangrui Ding and Zhixiong Zhang and Xiaoyi Dong and Pan Zhang and Yuhang Zang and Yuhang Cao and Dahua Lin and Jiaqi Wang},",
+        "translatedContent": "      author={Zihan Liu and Shuangrui Ding and Zhixiong Zhang and Xiaoyi Dong and Pan Zhang and Yuhang Zang and Yuhang Cao and Dahua Lin and Jiaqi Wang},"
+      },
+      {
+        "row": 5,
+        "rowsha": "1cuvfM9h03loQfZOlvsx9juVCvU41kevaYb2CnD9Gak=",
+        "originContent": "      year={2025},",
+        "translatedContent": "      year={2025},"
+      },
+      {
+        "row": 6,
+        "rowsha": "Y5lijkRDfHsUATATawpxetMUjPtGDQ/BPtI3nRvZwV4=",
+        "originContent": "      eprint={2502.13128},",
+        "translatedContent": "      eprint={2502.13128},"
+      },
+      {
+        "row": 7,
+        "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+        "originContent": "      archivePrefix={arXiv},",
+        "translatedContent": "      archivePrefix={arXiv},"
+      },
+      {
+        "row": 8,
+        "rowsha": "m5Iy3DplRulR5bVmlDQZ97AqdNG51jZ3+1ncDbQ7ryc=",
+        "originContent": "      primaryClass={cs.SD},",
+        "translatedContent": "      primaryClass={cs.SD},"
+      },
+      {
+        "row": 9,
+        "rowsha": "TRiG4rEZg/i8NJOtZaC4xwwq1t3k+F70pBeNxXObyaE=",
+        "originContent": "      url={https://arxiv.org/abs/2502.13128}, ",
+        "translatedContent": "      url={https://arxiv.org/abs/2502.13128}, "
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n\n\n\n\n",
+    "ContentSha": "fDcNlTbX0Nag981/mCZpKs2T5PsFukb3tjC4eXQDQ9M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

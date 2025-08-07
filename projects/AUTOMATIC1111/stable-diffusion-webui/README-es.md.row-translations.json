@@ -1,0 +1,1238 @@
+[
+  {
+    "row": 1,
+    "rowsha": "0NgM9p6GcKCmThRP8YIrZAANTHDeEO61jzTAXezNRbw=",
+    "originContent": "# Stable Diffusion web UI",
+    "translatedContent": "# Interfaz web de Stable Diffusion"
+  },
+  {
+    "row": 2,
+    "rowsha": "KtYRWGnqOPybukDOeihZ9YzOmbUDESxCNLJmgDgEgg4=",
+    "originContent": "A web interface for Stable Diffusion, implemented using Gradio library.",
+    "translatedContent": "Una interfaz web para Stable Diffusion, implementada usando la biblioteca Gradio."
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "1Aem4P04SakaDKKhR+3S/wcw7+YGsOUr3BKUeKnRRvc=",
+    "originContent": "![](https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/screenshot.png)",
+    "translatedContent": "![](https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/screenshot.png)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Características"
+  },
+  {
+    "row": 7,
+    "rowsha": "K/b3BPvywYFQlOJnwExVueX97wkbAfylch3xXicmny4=",
+    "originContent": "[Detailed feature showcase with images](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features):",
+    "translatedContent": "[Demostración detallada de características con imágenes](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features):"
+  },
+  {
+    "row": 8,
+    "rowsha": "vsc+BIItMPVPhJBABKgCTNfT3AZbeo6UNcOJOpxy0vk=",
+    "originContent": "- Original txt2img and img2img modes",
+    "translatedContent": "- Modos originales txt2img y img2img"
+  },
+  {
+    "row": 9,
+    "rowsha": "UOiOweckCoVpz/Tb0gw4/FSNg9Rm48FmllmDaDtRJCA=",
+    "originContent": "- One click install and run script (but you still must install python and git)",
+    "translatedContent": "- Script de instalación y ejecución con un clic (pero aún debe instalar python y git)"
+  },
+  {
+    "row": 10,
+    "rowsha": "grC9rV2H6S8i3uFWmbr9+RzPYWARu7FotaPPm4avIY0=",
+    "originContent": "- Outpainting",
+    "translatedContent": "- Outpainting"
+  },
+  {
+    "row": 11,
+    "rowsha": "xWXblTdxCkwBGN9BQLuCoAnbmMjjLUN4pBdAbyNqowc=",
+    "originContent": "- Inpainting",
+    "translatedContent": "- Inpainting"
+  },
+  {
+    "row": 12,
+    "rowsha": "chxK8pU8dzgHlkqk1HjwZtTTrP401lxMWvHrVz+/OHI=",
+    "originContent": "- Color Sketch",
+    "translatedContent": "- Boceto en color"
+  },
+  {
+    "row": 13,
+    "rowsha": "mhGi9tXlYhY0K3NUp2WoICMFzaAxaa9E29ENnbMROh8=",
+    "originContent": "- Prompt Matrix",
+    "translatedContent": "- Matriz de prompts"
+  },
+  {
+    "row": 14,
+    "rowsha": "QMOhnJniQbUnkLye5pSzL3CBeByQT5KV4WlCDOZJVCA=",
+    "originContent": "- Stable Diffusion Upscale",
+    "translatedContent": "- Escalado de Stable Diffusion"
+  },
+  {
+    "row": 15,
+    "rowsha": "DPrtgRettXf+PhsCObP+U2MgnI44a2QWnIZNABVON6k=",
+    "originContent": "- Attention, specify parts of text that the model should pay more attention to",
+    "translatedContent": "- Atención, especificar partes del texto a las que el modelo debe prestar más atención"
+  },
+  {
+    "row": 16,
+    "rowsha": "WxbreT1rge3NXS/TR7LzNG8rLAmqrKJVrmV2hkrTjlo=",
+    "originContent": "    - a man in a `((tuxedo))` - will pay more attention to tuxedo",
+    "translatedContent": "    - un hombre en un `((esmoquin))` - prestará más atención al esmoquin"
+  },
+  {
+    "row": 17,
+    "rowsha": "D7uLlVXTbPkceLlReF7DyiEqEfbxsh8QCqsHLj09tJo=",
+    "originContent": "    - a man in a `(tuxedo:1.21)` - alternative syntax",
+    "translatedContent": "    - un hombre en un `(esmoquin:1.21)` - sintaxis alternativa"
+  },
+  {
+    "row": 18,
+    "rowsha": "icPjBr37BVNBp/lw5eqLBV708Fo25jcN0QpymBOK3xU=",
+    "originContent": "    - select text and press `Ctrl+Up` or `Ctrl+Down` (or `Command+Up` or `Command+Down` if you're on a MacOS) to automatically adjust attention to selected text (code contributed by anonymous user)",
+    "translatedContent": "    - seleccionar texto y presionar `Ctrl+Arriba` o `Ctrl+Abajo` (o `Command+Arriba` o `Command+Abajo` si usas MacOS) para ajustar automáticamente la atención al texto seleccionado (código aportado por usuario anónimo)"
+  },
+  {
+    "row": 19,
+    "rowsha": "0za7l8E6fhqCgF1kguRXxyXe5XllaNdPyYk3Gs+mUzU=",
+    "originContent": "- Loopback, run img2img processing multiple times",
+    "translatedContent": "- Bucle, ejecutar procesamiento img2img múltiples veces"
+  },
+  {
+    "row": 20,
+    "rowsha": "hmcvShOCwQFWWZq0xRd+xym+uk1UJwaNJeurN8OVwHE=",
+    "originContent": "- X/Y/Z plot, a way to draw a 3 dimensional plot of images with different parameters",
+    "translatedContent": "- Gráfico X/Y/Z, una manera de dibujar un gráfico tridimensional de imágenes con diferentes parámetros"
+  },
+  {
+    "row": 21,
+    "rowsha": "oL8gTpo4FLKYYR0Vo7ZYZaWN8RwOeK2zCzIMBTQE+50=",
+    "originContent": "- Textual Inversion",
+    "translatedContent": "- Inversión textual"
+  },
+  {
+    "row": 22,
+    "rowsha": "zayCtBGYmnWZnsb514IJSo1biVZ8wtkkoQfzTs32agM=",
+    "originContent": "    - have as many embeddings as you want and use any names you like for them",
+    "translatedContent": "    - tener tantos embeddings como quieras y usar cualquier nombre para ellos"
+  },
+  {
+    "row": 23,
+    "rowsha": "Z8ndCC4XDFCqJ3SHZ2TozpjJmYCLwlc2O6PUCefkUGE=",
+    "originContent": "    - use multiple embeddings with different numbers of vectors per token",
+    "translatedContent": "    - usar múltiples embeddings con diferente número de vectores por token"
+  },
+  {
+    "row": 24,
+    "rowsha": "N6WHpCwXFyyb0fUTIyzTdETo79uOtDPOU0Rn8n/Cj+Q=",
+    "originContent": "    - works with half precision floating point numbers",
+    "translatedContent": "    - funciona con números de punto flotante de media precisión"
+  },
+  {
+    "row": 25,
+    "rowsha": "XzzU6XjGMv1XDlFXZp1IfJkDGliIWRAEC4Wcg3MP9G0=",
+    "originContent": "    - train embeddings on 8GB (also reports of 6GB working)",
+    "translatedContent": "    - entrenar embeddings en 8GB (también reportes de funcionamiento con 6GB)"
+  },
+  {
+    "row": 26,
+    "rowsha": "9q8rICZ/w/YFW9gNIFYBrSzm6KYC5CBkMWtqTnbm+9M=",
+    "originContent": "- Extras tab with:",
+    "translatedContent": "- Pestaña Extras con:"
+  },
+  {
+    "row": 27,
+    "rowsha": "6W1XaCggy+1qwkZohA0FImCbOHhnP+OYs/zixS3NB3M=",
+    "originContent": "    - GFPGAN, neural network that fixes faces",
+    "translatedContent": "    - GFPGAN, red neuronal que corrige caras"
+  },
+  {
+    "row": 28,
+    "rowsha": "hIC85W965ddMKALrWyZwlno+pOcRzRHTp3SqaqI32Y0=",
+    "originContent": "    - CodeFormer, face restoration tool as an alternative to GFPGAN",
+    "translatedContent": "    - CodeFormer, herramienta de restauración facial como alternativa a GFPGAN"
+  },
+  {
+    "row": 29,
+    "rowsha": "zOtIuIdDZieWJ0ETc2xLGoLIlE52mV+gYYTvxgoQ+gk=",
+    "originContent": "    - RealESRGAN, neural network upscaler",
+    "translatedContent": "    - RealESRGAN, red neuronal para escalado"
+  },
+  {
+    "row": 30,
+    "rowsha": "gQJ8Gr4tymeacpIHGMeBapDf0C1GnjygalvouZGQwnU=",
+    "originContent": "    - ESRGAN, neural network upscaler with a lot of third party models",
+    "translatedContent": "    - ESRGAN, red neuronal para escalado con muchos modelos de terceros"
+  },
+  {
+    "row": 31,
+    "rowsha": "l1Cy3QXAUO/ByzWPnP9sEqk+4BHkZD8Qx5/PnNA/urY=",
+    "originContent": "    - SwinIR and Swin2SR ([see here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)), neural network upscalers",
+    "translatedContent": "    - SwinIR y Swin2SR ([ver aquí](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)), redes neuronales para escalado"
+  },
+  {
+    "row": 32,
+    "rowsha": "law7rMPN+VceyzREzX8Z61zQgzhnAEu9z511UzD+WkQ=",
+    "originContent": "    - LDSR, Latent diffusion super resolution upscaling",
+    "translatedContent": "    - LDSR, escalado super resolución por difusión latente"
+  },
+  {
+    "row": 33,
+    "rowsha": "c8+kazPWjav2M9iniqc0iOG2rJUwmWC7JJ4smGBXkyY=",
+    "originContent": "- Resizing aspect ratio options",
+    "translatedContent": "- Opciones para cambiar proporción de aspecto al redimensionar"
+  },
+  {
+    "row": 34,
+    "rowsha": "1kfkfMBDycQ21DSwi4/kko5ZlMFUQdCb7tkFk32a6qI=",
+    "originContent": "- Sampling method selection",
+    "translatedContent": "- Selección de método de muestreo"
+  },
+  {
+    "row": 35,
+    "rowsha": "8QRkC7RzOfhKLy6uNm3Zeg0hgPHYofsZo2W9QC9vjTY=",
+    "originContent": "    - Adjust sampler eta values (noise multiplier)",
+    "translatedContent": "    - Ajustar valores eta del muestreador (multiplicador de ruido)"
+  },
+  {
+    "row": 36,
+    "rowsha": "yoKJDEqliiDsX+r+7JdZQGBI4Jc7PZr2UfbebQseHTw=",
+    "originContent": "    - More advanced noise setting options",
+    "translatedContent": "    - Opciones avanzadas de configuración de ruido"
+  },
+  {
+    "row": 37,
+    "rowsha": "XgaTobbGDiN98EQkMkRN6wHXphJjxsdG8wPRP35xnEk=",
+    "originContent": "- Interrupt processing at any time",
+    "translatedContent": "- Interrumpir el procesamiento en cualquier momento"
+  },
+  {
+    "row": 38,
+    "rowsha": "eYwi9cHHABaElqzLW5x4ND93PcaCPuVOLt9O+d7Pfek=",
+    "originContent": "- 4GB video card support (also reports of 2GB working)",
+    "translatedContent": "- Soporte para tarjetas de video de 4GB (también reportes de funcionamiento con 2GB)"
+  },
+  {
+    "row": 39,
+    "rowsha": "iHSaf0Rpsn6Fqe03QoEbQNclE36Yq93FPBrBtcfSEyY=",
+    "originContent": "- Correct seeds for batches",
+    "translatedContent": "- Semillas correctas para lotes"
+  },
+  {
+    "row": 40,
+    "rowsha": "9knhcIdDjpIo4CE3LCFGS35Rd8aEllDx1YxU3BejM7g=",
+    "originContent": "- Live prompt token length validation",
+    "translatedContent": "- Validación en vivo de longitud de tokens del prompt"
+  },
+  {
+    "row": 41,
+    "rowsha": "Af++uw/lnxWsDbH6BlwLbugiEKWWoneAp0EHjJ98IXo=",
+    "originContent": "- Generation parameters",
+    "translatedContent": "- Parámetros de generación"
+  },
+  {
+    "row": 42,
+    "rowsha": "6BPGiqOLtmzdJmr6j/HerRex3vliQdphBrygWfC+Tdw=",
+    "originContent": "     - parameters you used to generate images are saved with that image",
+    "translatedContent": "     - parámetros usados para generar imágenes se guardan con la imagen"
+  },
+  {
+    "row": 43,
+    "rowsha": "B8Jkl7tCTZMfbTpA3wuJEJvh05V7glmvc+YFXeMQ0Ks=",
+    "originContent": "     - in PNG chunks for PNG, in EXIF for JPEG",
+    "translatedContent": "     - en chunks PNG para PNG, en EXIF para JPEG"
+  },
+  {
+    "row": 44,
+    "rowsha": "YfGxY4IsjSS8CR56fzkHyow3pPTW/l1cJzwqzHTDxUc=",
+    "originContent": "     - can drag the image to PNG info tab to restore generation parameters and automatically copy them into UI",
+    "translatedContent": "     - se puede arrastrar la imagen a la pestaña de información PNG para restaurar parámetros de generación y copiarlos automáticamente a la UI"
+  },
+  {
+    "row": 45,
+    "rowsha": "npLwfTGHeRsgu+TdkOosXBQ7q3geDWINx90A0gRVZdg=",
+    "originContent": "     - can be disabled in settings",
+    "translatedContent": "     - puede desactivarse en la configuración"
+  },
+  {
+    "row": 46,
+    "rowsha": "vdwDPG57pwEFpsRFYoxwOhkOOa17VCfN+3RM3vDU3qk=",
+    "originContent": "     - drag and drop an image/text-parameters to promptbox",
+    "translatedContent": "     - arrastrar y soltar imagen/parámetros-texto al cuadro de prompt"
+  },
+  {
+    "row": 47,
+    "rowsha": "BVGuTe5PG2QP9rBP82jJWswWqSQuvyg/Cbcw/hL/R8Y=",
+    "originContent": "- Read Generation Parameters Button, loads parameters in promptbox to UI",
+    "translatedContent": "- Botón Leer Parámetros de Generación, carga parámetros en el cuadro de prompt en la UI"
+  },
+  {
+    "row": 48,
+    "rowsha": "Im0BYfwXMDonr3AHaq0cjx5+pK03L0tzwo0v+DajkhA=",
+    "originContent": "- Settings page",
+    "translatedContent": "- Página de configuración"
+  },
+  {
+    "row": 49,
+    "rowsha": "HSCPv33re32KtR4xyYCrnD0+JE3JuUl/FDEzokCk7fo=",
+    "originContent": "- Running arbitrary python code from UI (must run with `--allow-code` to enable)",
+    "translatedContent": "- Ejecutar código python arbitrario desde la UI (debe correr con `--allow-code` para habilitar)"
+  },
+  {
+    "row": 50,
+    "rowsha": "OfP5/6B+qnnlpGuNaQ9GJPD1zMrqf/cr0G/H/p5o9to=",
+    "originContent": "- Mouseover hints for most UI elements",
+    "translatedContent": "- Sugerencias al pasar el mouse sobre la mayoría de elementos UI"
+  },
+  {
+    "row": 51,
+    "rowsha": "r1XqA3mFXKLVx1lUl6TXfXTyeEK1VJqlxxf9g2L4yuQ=",
+    "originContent": "- Possible to change defaults/mix/max/step values for UI elements via text config",
+    "translatedContent": "- Posibilidad de cambiar valores por defecto/máximos/mínimos/pasos para elementos UI vía archivo de configuración de texto"
+  },
+  {
+    "row": 52,
+    "rowsha": "e10Kgfo6ThIelwyBy6bpcgOov3hRNSZwd2IerXNoerQ=",
+    "originContent": "- Tiling support, a checkbox to create images that can be tiled like textures",
+    "translatedContent": "- Soporte para teselado, una casilla para crear imágenes que se puedan teselar como texturas"
+  },
+  {
+    "row": 53,
+    "rowsha": "zlGoaym0Tsq1Gm4bvn8A3X080g202ChrS1y+AQbl3Nk=",
+    "originContent": "- Progress bar and live image generation preview",
+    "translatedContent": "- Barra de progreso y vista previa en vivo de generación de imagen"
+  },
+  {
+    "row": 54,
+    "rowsha": "tCs8Iba7YgEp2dD83lJgLD8k+00TQX1Vz/duauL6OGk=",
+    "originContent": "    - Can use a separate neural network to produce previews with almost none VRAM or compute requirement",
+    "translatedContent": "    - Puede usar una red neuronal separada para producir vistas previas con casi ningún requerimiento de VRAM o cálculo"
+  },
+  {
+    "row": 55,
+    "rowsha": "eg+SCqyAtATnNgqGrp6WAG3Syi1t9cDTxLIcW7O7Bjc=",
+    "originContent": "- Negative prompt, an extra text field that allows you to list what you don't want to see in generated image",
+    "translatedContent": "- Prompt negativo, un campo de texto extra que permite listar lo que no quieres ver en la imagen generada"
+  },
+  {
+    "row": 56,
+    "rowsha": "o2duHBDr+SDRMAP5IegRCAuBYYD21wWnnL42M11m3J8=",
+    "originContent": "- Styles, a way to save part of prompt and easily apply them via dropdown later",
+    "translatedContent": "- Estilos, una forma de guardar parte del prompt y aplicarlo fácilmente luego vía menú desplegable"
+  },
+  {
+    "row": 57,
+    "rowsha": "GzASGaBMg5m34ATAuHhjII+UFQdUqON0HwIjAItfn50=",
+    "originContent": "- Variations, a way to generate same image but with tiny differences",
+    "translatedContent": "- Variaciones, una forma de generar la misma imagen pero con pequeñas diferencias"
+  },
+  {
+    "row": 58,
+    "rowsha": "PGtIHkUTmtaXNvP99gVThu682e67Ww7zH2Kkos/pJXM=",
+    "originContent": "- Seed resizing, a way to generate same image but at slightly different resolution",
+    "translatedContent": "- Redimensionamiento por semilla, una forma de generar la misma imagen pero con resolución ligeramente diferente"
+  },
+  {
+    "row": 59,
+    "rowsha": "39Tjd5gZQrgwudiNwJcWmeESKcQrYQyuuBItAhP+WX0=",
+    "originContent": "- CLIP interrogator, a button that tries to guess prompt from an image",
+    "translatedContent": "- Interrogador CLIP, un botón que intenta adivinar el prompt a partir de una imagen"
+  },
+  {
+    "row": 60,
+    "rowsha": "8NvBKu+FTjNr8KEsVYoWe8u3hnALX9Jfb7ATHT+CVOg=",
+    "originContent": "- Prompt Editing, a way to change prompt mid-generation, say to start making a watermelon and switch to anime girl midway",
+    "translatedContent": "- Edición de prompt, una forma de cambiar el prompt a mitad de generación, por ejemplo para empezar haciendo una sandía y cambiar a chica anime a mitad del proceso"
+  },
+  {
+    "row": 61,
+    "rowsha": "MlxCJEqKLV+ErQ+8JFzwPp8Ks/671+Ms1Ymqnlsk1GQ=",
+    "originContent": "- Batch Processing, process a group of files using img2img",
+    "translatedContent": "- Procesamiento por lotes, procesar un grupo de archivos usando img2img"
+  },
+  {
+    "row": 62,
+    "rowsha": "amTTuvq9/ijmpz4NxJCKxBNDS1Ck6rF1SM7bF5zZqnI=",
+    "originContent": "- Img2img Alternative, reverse Euler method of cross attention control",
+    "translatedContent": "- Alternativa img2img, método Euler inverso de control de atención cruzada"
+  },
+  {
+    "row": 63,
+    "rowsha": "7Irzxs5eLxPrncAKCAesEEb160NzaJ+B2kwPMnDGEtk=",
+    "originContent": "- Highres Fix, a convenience option to produce high resolution pictures in one click without usual distortions",
+    "translatedContent": "- Corrección de alta resolución, opción cómoda para producir imágenes de alta resolución en un clic sin distorsiones habituales"
+  },
+  {
+    "row": 64,
+    "rowsha": "z6+0Sz/Q6UDZzF5Dnj300MuV0FQRXlDHVODFM9VqeMQ=",
+    "originContent": "- Reloading checkpoints on the fly",
+    "translatedContent": "- Recarga de checkpoints en caliente"
+  },
+  {
+    "row": 65,
+    "rowsha": "KFzXuOHSN1oqdPcfniCX8Jl1FrSa61eeysv7LxbNgp0=",
+    "originContent": "- Checkpoint Merger, a tab that allows you to merge up to 3 checkpoints into one",
+    "translatedContent": "- Fusionador de checkpoints, una pestaña que permite fusionar hasta 3 checkpoints en uno"
+  },
+  {
+    "row": 66,
+    "rowsha": "5l9CAHq75/+cHcdmkR9vh9f3KIoUGeMfEhcACaQpW9M=",
+    "originContent": "- [Custom scripts](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts) with many extensions from community",
+    "translatedContent": "- [Scripts personalizados](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts) con muchas extensiones de la comunidad"
+  },
+  {
+    "row": 67,
+    "rowsha": "Rx80f2hre+EAx9NPevOtmOOTK1I3sIifx60NoQz0nYY=",
+    "originContent": "- [Composable-Diffusion](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/), a way to use multiple prompts at once",
+    "translatedContent": "- [Composable-Diffusion](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/), una forma de usar múltiples prompts a la vez"
+  },
+  {
+    "row": 68,
+    "rowsha": "Q4RN2uOXf4E2bRblJd/LRZlF+/Hk0Aw5NeGMuOCINKc=",
+    "originContent": "     - separate prompts using uppercase `AND`",
+    "translatedContent": "     - separar prompts usando `AND` en mayúsculas"
+  },
+  {
+    "row": 69,
+    "rowsha": "+VWyyDxjULdo10fLXrmJc1hDxUE9OwDBGPXWJm0/OTY=",
+    "originContent": "     - also supports weights for prompts: `a cat :1.2 AND a dog AND a penguin :2.2`",
+    "translatedContent": "     - también soporta pesos para prompts: `un gato :1.2 AND un perro AND un pingüino :2.2`"
+  },
+  {
+    "row": 70,
+    "rowsha": "pOvYY0jKLn9Ih64MfFPRAXyepUFEwQ/D417abJHdJW4=",
+    "originContent": "- No token limit for prompts (original stable diffusion lets you use up to 75 tokens)",
+    "translatedContent": "- Sin límite de tokens para prompts (Stable Diffusion original permite hasta 75 tokens)"
+  },
+  {
+    "row": 71,
+    "rowsha": "T5Ews2slDUK7R/kkkeQPCKyOGnCez4gfl2vybF+YTpw=",
+    "originContent": "- DeepDanbooru integration, creates danbooru style tags for anime prompts",
+    "translatedContent": "- Integración DeepDanbooru, crea etiquetas estilo danbooru para prompts de anime"
+  },
+  {
+    "row": 72,
+    "rowsha": "zCQdAX8rCfqQ6E+fc12qa6dDwh4FxXFQ9jVaYc7Cm/s=",
+    "originContent": "- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers), major speed increase for select cards: (add `--xformers` to commandline args)",
+    "translatedContent": "- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers), gran aumento de velocidad para tarjetas selectas: (agregar `--xformers` a los argumentos de línea de comandos)"
+  },
+  {
+    "row": 73,
+    "rowsha": "bOV+MlqUOd2dqMRIUhwsYRZz1pxUrlNg4bFhsGLjjvQ=",
+    "originContent": "- via extension: [History tab](https://github.com/yfszzx/stable-diffusion-webui-images-browser): view, direct and delete images conveniently within the UI",
+    "translatedContent": "- vía extensión: [Pestaña Historial](https://github.com/yfszzx/stable-diffusion-webui-images-browser): ver, dirigir y eliminar imágenes cómodamente dentro de la UI"
+  },
+  {
+    "row": 74,
+    "rowsha": "ecKDgbU0llmrNUd2feuVhcQfCDN+DoJTZzNn+k0OWLQ=",
+    "originContent": "- Generate forever option",
+    "translatedContent": "- Opción de generar para siempre"
+  },
+  {
+    "row": 75,
+    "rowsha": "6W+dFaMhrPGBGBk7ReWR1tNr4rQPa1NlWILpw7NDGM0=",
+    "originContent": "- Training tab",
+    "translatedContent": "- Pestaña de entrenamiento"
+  },
+  {
+    "row": 76,
+    "rowsha": "/qw1r4Uniu4crBehh7c1ZsXOHVedutvmldRGA3XuiIE=",
+    "originContent": "     - hypernetworks and embeddings options",
+    "translatedContent": "     - opciones para hypernetworks y embeddings"
+  },
+  {
+    "row": 77,
+    "rowsha": "1XLokKc60MQUXjt/3EVpfucWeCmH/K+mR/lqM26cu+U=",
+    "originContent": "     - Preprocessing images: cropping, mirroring, autotagging using BLIP or deepdanbooru (for anime)",
+    "translatedContent": "     - Preprocesamiento de imágenes: recorte, espejado, etiquetado automático usando BLIP o deepdanbooru (para anime)"
+  },
+  {
+    "row": 78,
+    "rowsha": "21aXYSmeZIPHtdagOaFcTfOI+XveS2PQagG0GM3YgjY=",
+    "originContent": "- Clip skip",
+    "translatedContent": "- Clip skip"
+  },
+  {
+    "row": 79,
+    "rowsha": "JZ/9gFDcdl/sxtcPPh5p9tJKGQdHMh0/9iKAz42c1ZA=",
+    "originContent": "- Hypernetworks",
+    "translatedContent": "- Hypernetworks"
+  },
+  {
+    "row": 80,
+    "rowsha": "Da7mqKKbWbdshnWLUZ5Wut8n/aL1xyh7CyR+KTumREA=",
+    "originContent": "- Loras (same as Hypernetworks but more pretty)",
+    "translatedContent": "- Loras (igual que Hypernetworks pero más bonitos)"
+  },
+  {
+    "row": 81,
+    "rowsha": "daZfNbTZk+f91PC+nP6J1GmlzjZIN8QG8gfqxuejC1c=",
+    "originContent": "- A separate UI where you can choose, with preview, which embeddings, hypernetworks or Loras to add to your prompt",
+    "translatedContent": "- Una UI separada donde puedes elegir, con vista previa, qué embeddings, hypernetworks o Loras añadir a tu prompt"
+  },
+  {
+    "row": 82,
+    "rowsha": "Ka2QIhK/gqx8esDkoM4n3VoOEIBF/3PzlyaljKuiV6E=",
+    "originContent": "- Can select to load a different VAE from settings screen",
+    "translatedContent": "- Se puede seleccionar cargar un VAE distinto desde la pantalla de configuración"
+  },
+  {
+    "row": 83,
+    "rowsha": "fF3KcWEO0YxEq1KOwFFWUMYrdEnZofXavePNvxgaGb4=",
+    "originContent": "- Estimated completion time in progress bar",
+    "translatedContent": "- Tiempo estimado de finalización en barra de progreso"
+  },
+  {
+    "row": 84,
+    "rowsha": "8X1cguYfqwuFWlIGov7l4er6QmGbdc84+kJ1I2jEGHg=",
+    "originContent": "- API",
+    "translatedContent": "- API"
+  },
+  {
+    "row": 85,
+    "rowsha": "G/8oxAt8mV8fjy2brUEOsbdwDKBuBSL4joky79RKs5g=",
+    "originContent": "- Support for dedicated [inpainting model](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion) by RunwayML",
+    "translatedContent": "- Soporte para [modelo dedicado de inpainting](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion) por RunwayML"
+  },
+  {
+    "row": 86,
+    "rowsha": "sAcTlsc3PZjpf+/30LVn8ocOiY6MnNZzVpzH/hrd2eU=",
+    "originContent": "- via extension: [Aesthetic Gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients), a way to generate images with a specific aesthetic by using clip images embeds (implementation of [https://github.com/vicgalle/stable-diffusion-aesthetic-gradients](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients))",
+    "translatedContent": "- vía extensión: [Gradientes Estéticos](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients), una forma de generar imágenes con una estética específica usando embeddings de imágenes clip (implementación de [https://github.com/vicgalle/stable-diffusion-aesthetic-gradients](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients))"
+  },
+  {
+    "row": 87,
+    "rowsha": "ivS17hZgGyI3o279jTsbsam86FSs5GAtECK98kKlwm8=",
+    "originContent": "- [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion) support - see [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion-20) for instructions",
+    "translatedContent": "- Soporte para [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion) - ver [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion-20) para instrucciones"
+  },
+  {
+    "row": 88,
+    "rowsha": "TGgRDThmCL2OSBOoo2VoOPMc2gI2a77MD/MJw1C7jm8=",
+    "originContent": "- [Alt-Diffusion](https://arxiv.org/abs/2211.06679) support - see [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion) for instructions",
+    "translatedContent": "- Soporte para [Alt-Diffusion](https://arxiv.org/abs/2211.06679) - ver [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion) para instrucciones"
+  },
+  {
+    "row": 89,
+    "rowsha": "rACfoJ0h6JdV6oqB1AMdqCRBZB78KlGBmYbr3IaD8Z4=",
+    "originContent": "- Now without any bad letters!",
+    "translatedContent": "- Ahora sin letras malas!"
+  },
+  {
+    "row": 90,
+    "rowsha": "VtnZwwalzvKYCk61/RkIlJAV1LbVFfYNirfCg2OCFNQ=",
+    "originContent": "- Load checkpoints in safetensors format",
+    "translatedContent": "- Carga de checkpoints en formato safetensors"
+  },
+  {
+    "row": 91,
+    "rowsha": "cHVi/M5fYerhe0IFB6Gf/eAtGrtBzSO8qa7Hkq8XSoE=",
+    "originContent": "- Eased resolution restriction: generated image's dimensions must be a multiple of 8 rather than 64",
+    "translatedContent": "- Restricción de resolución relajada: las dimensiones de la imagen generada deben ser múltiplos de 8 en lugar de 64"
+  },
+  {
+    "row": 92,
+    "rowsha": "RpXNTiG1xf2QS07ORC49xc1jtoACRuhqOUxQnWLXI0E=",
+    "originContent": "- Now with a license!",
+    "translatedContent": "- ¡Ahora con licencia!"
+  },
+  {
+    "row": 93,
+    "rowsha": "PGx1vfu0g6GDcdv+qT3MQWsHTyf49nqWDTgvcrNMIPg=",
+    "originContent": "- Reorder elements in the UI from settings screen",
+    "translatedContent": "- Reordenar elementos en la UI desde la pantalla de configuración"
+  },
+  {
+    "row": 94,
+    "rowsha": "dvS3tsw5wHJdHf0UJqfFeBuX8VXpzWlZjZpkrygJL5Q=",
+    "originContent": "- [Segmind Stable Diffusion](https://huggingface.co/segmind/SSD-1B) support",
+    "translatedContent": "- Soporte para [Segmind Stable Diffusion](https://huggingface.co/segmind/SSD-1B)"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "ZNpf3ZXHnelbII83qAbP7bMs+7T16YDCoev9KgNnQ3c=",
+    "originContent": "## Installation and Running",
+    "translatedContent": "## Instalación y ejecución"
+  },
+  {
+    "row": 97,
+    "rowsha": "U9gGtfa34bv1RCWBUysr0C9Vv/BywI2WeEkkn/ujtLU=",
+    "originContent": "Make sure the required [dependencies](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) are met and follow the instructions available for:",
+    "translatedContent": "Asegúrate de cumplir con las [dependencias](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) requeridas y sigue las instrucciones disponibles para:"
+  },
+  {
+    "row": 98,
+    "rowsha": "waetxRu2un9wyLN2KZMoGMY8kqXTtPf8IuJ3o8ByGx0=",
+    "originContent": "- [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) (recommended)",
+    "translatedContent": "- [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) (recomendado)"
+  },
+  {
+    "row": 99,
+    "rowsha": "/fvYw+/CkdTrzo3jyW0s2MNb6L+iWR7rtVsjouqhNmY=",
+    "originContent": "- [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs) GPUs.",
+    "translatedContent": "- GPUs [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs)."
+  },
+  {
+    "row": 100,
+    "rowsha": "zVYFxPHXK5k/7+x25iYOR68mUVVN4l+jSo58gXGGOr8=",
+    "originContent": "- [Intel CPUs, Intel GPUs (both integrated and discrete)](https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon) (external wiki page)",
+    "translatedContent": "- [CPUs Intel, GPUs Intel (integradas y discretas)](https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon) (página wiki externa)"
+  },
+  {
+    "row": 101,
+    "rowsha": "pppJ0+pFe47TOKw7I2kZt+IVfo1DoxkWiYMf4fZ3jJw=",
+    "originContent": "- [Ascend NPUs](https://github.com/wangshuai09/stable-diffusion-webui/wiki/Install-and-run-on-Ascend-NPUs) (external wiki page)",
+    "translatedContent": "- [Ascend NPUs](https://github.com/wangshuai09/stable-diffusion-webui/wiki/Install-and-run-on-Ascend-NPUs) (página wiki externa)"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "34uKhqWr9YBx1Xf0CfVtHjxRl6bnw4TJ8e6ZoV8HbKI=",
+    "originContent": "Alternatively, use online services (like Google Colab):",
+    "translatedContent": "Alternativamente, use servicios en línea (como Google Colab):"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "Bimv0tbsmB+SZzbFdiXLe20XpF3yuxpRrIPCJTjLnk8=",
+    "originContent": "- [List of Online Services](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services)",
+    "translatedContent": "- [Lista de Servicios en Línea](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services)"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "vXkOHZLvDZ3KILluXjWXwUsp2QnmR4WgupaAO+UozWU=",
+    "originContent": "### Installation on Windows 10/11 with NVidia-GPUs using release package",
+    "translatedContent": "### Instalación en Windows 10/11 con GPUs NVidia usando paquete de lanzamiento"
+  },
+  {
+    "row": 108,
+    "rowsha": "Ysfl9o4osnHmHBY+XIjFYMsA61obiPFdIdxs+fiXZho=",
+    "originContent": "1. Download `sd.webui.zip` from [v1.0.0-pre](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre) and extract its contents.",
+    "translatedContent": "1. Descargue `sd.webui.zip` desde [v1.0.0-pre](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre) y extraiga su contenido."
+  },
+  {
+    "row": 109,
+    "rowsha": "H7/Vg553u3KuJtDyZqJwSPBxQg3p781qtns+ul6nKLc=",
+    "originContent": "2. Run `update.bat`.",
+    "translatedContent": "2. Ejecute `update.bat`."
+  },
+  {
+    "row": 110,
+    "rowsha": "aerd2Pvo+GVm62sCebwlbnButzOl1kRRt0W1YlmuA/0=",
+    "originContent": "3. Run `run.bat`.",
+    "translatedContent": "3. Ejecute `run.bat`."
+  },
+  {
+    "row": 111,
+    "rowsha": "iIqdoS7fQ2YG3c3OeUkCiy2KyTgL7D6h5m0C/HQEqBs=",
+    "originContent": "> For more details see [Install-and-Run-on-NVidia-GPUs](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)",
+    "translatedContent": "> Para más detalles vea [Install-and-Run-on-NVidia-GPUs](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "o7sgLue8fofzaUlBDOXaOk7bghznM7B5v7UWUAUtdf0=",
+    "originContent": "### Automatic Installation on Windows",
+    "translatedContent": "### Instalación Automática en Windows"
+  },
+  {
+    "row": 114,
+    "rowsha": "jCr7lDsZOyMaHF0kyi/+UOWTkaArJ0j4VLShZrqwiGs=",
+    "originContent": "1. Install [Python 3.10.6](https://www.python.org/downloads/release/python-3106/) (Newer version of Python does not support torch), checking \"Add Python to PATH\".",
+    "translatedContent": "1. Instale [Python 3.10.6](https://www.python.org/downloads/release/python-3106/) (la versión más reciente de Python no soporta torch), marcando \"Add Python to PATH\"."
+  },
+  {
+    "row": 115,
+    "rowsha": "K+ARQyintlx+a1eNoimVh5XhBq1xsMA55AHaL3Zl/9w=",
+    "originContent": "2. Install [git](https://git-scm.com/download/win).",
+    "translatedContent": "2. Instale [git](https://git-scm.com/download/win)."
+  },
+  {
+    "row": 116,
+    "rowsha": "IN5wITdiA9TpBGkJVQvDqpQCwAz/1nDPJmQFCHGG/NE=",
+    "originContent": "3. Download the stable-diffusion-webui repository, for example by running `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`.",
+    "translatedContent": "3. Descargue el repositorio stable-diffusion-webui, por ejemplo ejecutando `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`."
+  },
+  {
+    "row": 117,
+    "rowsha": "oY4qCVNynWTznIjNxBDNf4knBmqucTc3Rae1ife1CpM=",
+    "originContent": "4. Run `webui-user.bat` from Windows Explorer as normal, non-administrator, user.",
+    "translatedContent": "4. Ejecute `webui-user.bat` desde el Explorador de Windows como un usuario normal, sin privilegios de administrador."
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "IKUpqDSGJkxilYwVAQ/gXhdEUqB/lYT4rc0eaIcjBCg=",
+    "originContent": "### Automatic Installation on Linux",
+    "translatedContent": "### Instalación Automática en Linux"
+  },
+  {
+    "row": 120,
+    "rowsha": "KXOwkR4c/g08PBm8vugZkwznxvS2HVvsVMMQ6i2YvHk=",
+    "originContent": "1. Install the dependencies:",
+    "translatedContent": "1. Instale las dependencias:"
+  },
+  {
+    "row": 121,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 122,
+    "rowsha": "UZbO1mUZSmsujR1cEyWm1qYOsrrIA2F/nEF1HcoannU=",
+    "originContent": "# Debian-based:",
+    "translatedContent": "# Debian-based:"
+  },
+  {
+    "row": 123,
+    "rowsha": "rPrMt7C0dAKDpKy9qVYQdWhx/RdapH72L8WhimH7SMY=",
+    "originContent": "sudo apt install wget git python3 python3-venv libgl1 libglib2.0-0",
+    "translatedContent": "sudo apt install wget git python3 python3-venv libgl1 libglib2.0-0"
+  },
+  {
+    "row": 124,
+    "rowsha": "MOoFIy4mr6vBEXtLQ/CSB5mDvD/MfMdun7iYpTDwRzs=",
+    "originContent": "# Red Hat-based:",
+    "translatedContent": "# Red Hat-based:"
+  },
+  {
+    "row": 125,
+    "rowsha": "d6q3J2k2DeFdns58GE7Vp7ZFcPgge9LyguuGEZShVuE=",
+    "originContent": "sudo dnf install wget git python3 gperftools-libs libglvnd-glx",
+    "translatedContent": "sudo dnf install wget git python3 gperftools-libs libglvnd-glx"
+  },
+  {
+    "row": 126,
+    "rowsha": "1GWR/l7iJY3MWikYxygtXmdalQlPDQaz2tsRzoEHokk=",
+    "originContent": "# openSUSE-based:",
+    "translatedContent": "# openSUSE-based:"
+  },
+  {
+    "row": 127,
+    "rowsha": "A+jKIHBHGNtlrdfG6fAL0dcryPvGm2g3coOZiyMf+OU=",
+    "originContent": "sudo zypper install wget git python3 libtcmalloc4 libglvnd",
+    "translatedContent": "sudo zypper install wget git python3 libtcmalloc4 libglvnd"
+  },
+  {
+    "row": 128,
+    "rowsha": "5I2MZlylPLSkwhns94gs05zeN6CVCvnTCd7Q8GWgeaE=",
+    "originContent": "# Arch-based:",
+    "translatedContent": "# Arch-based:"
+  },
+  {
+    "row": 129,
+    "rowsha": "vrJVyy0nC4Z35x9FY+IMlCPCn+jnI/S7seLLUiceZ28=",
+    "originContent": "sudo pacman -S wget git python3",
+    "translatedContent": "sudo pacman -S wget git python3"
+  },
+  {
+    "row": 130,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 131,
+    "rowsha": "ZO9T464iMuQbP4T+pJ3tq+opjlU7ldtvUpqZeVbA8h8=",
+    "originContent": "If your system is very new, you need to install python3.11 or python3.10:",
+    "translatedContent": "Si su sistema es muy nuevo, necesita instalar python3.11 o python3.10:"
+  },
+  {
+    "row": 132,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 133,
+    "rowsha": "uqcLBbTuUe2vF0gJphjkYua1iivA8t8ONepx1q9aKIk=",
+    "originContent": "# Ubuntu 24.04",
+    "translatedContent": "# Ubuntu 24.04"
+  },
+  {
+    "row": 134,
+    "rowsha": "rOllOfwCQnRJYDXT12qZLPdBYHO5tGerhive9ZVbvRc=",
+    "originContent": "sudo add-apt-repository ppa:deadsnakes/ppa",
+    "translatedContent": "sudo add-apt-repository ppa:deadsnakes/ppa"
+  },
+  {
+    "row": 135,
+    "rowsha": "vsYfDMWqUGKl0v9rj6v4u69Jc+N5Z5zxQIom0T0+4Mo=",
+    "originContent": "sudo apt update",
+    "translatedContent": "sudo apt update"
+  },
+  {
+    "row": 136,
+    "rowsha": "3xpXJ+eK/LHNnPM8+M0QhKS5c5l50NU3/G1ylMr4HKs=",
+    "originContent": "sudo apt install python3.11",
+    "translatedContent": "sudo apt install python3.11"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "lTuFucec/TvkfK6sQaMg+GKhJewIP3205ksW+osMO3A=",
+    "originContent": "# Manjaro/Arch",
+    "translatedContent": "# Manjaro/Arch"
+  },
+  {
+    "row": 139,
+    "rowsha": "8VIU4RZ4KDpRpPSZWms9g0T67mNV+H5heC2uen8CH4E=",
+    "originContent": "sudo pacman -S yay",
+    "translatedContent": "sudo pacman -S yay"
+  },
+  {
+    "row": 140,
+    "rowsha": "UoUhA9t91QOPocWZ9U6cgHzRykmSZqv75IpzjHCo/I8=",
+    "originContent": "yay -S python311 # do not confuse with python3.11 package",
+    "translatedContent": "yay -S python311 # do not confuse with python3.11 package"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "rcLWBjJb6Q1tw8lk5KfB6wQLORcicCtmvRgxq618v5s=",
+    "originContent": "# Only for 3.11",
+    "translatedContent": "# Only for 3.11"
+  },
+  {
+    "row": 143,
+    "rowsha": "xgpBWXzi1H6ChkRmsMoe5EgdCo6jPvwi6HgMFW0QcLM=",
+    "originContent": "# Then set up env variable in launch script",
+    "translatedContent": "# Then set up env variable in launch script"
+  },
+  {
+    "row": 144,
+    "rowsha": "QcNWpoVEq1t54VjdKTTeD+shpBc4ogDzAkv+31PIeQw=",
+    "originContent": "export python_cmd=\"python3.11\"",
+    "translatedContent": "export python_cmd=\"python3.11\""
+  },
+  {
+    "row": 145,
+    "rowsha": "JnldxF7qxZVWfKyTv4goSYJ21X6HnB6pPQxA1UUT/yw=",
+    "originContent": "# or in webui-user.sh",
+    "translatedContent": "# or in webui-user.sh"
+  },
+  {
+    "row": 146,
+    "rowsha": "LMDfBMKOOn9Dku4G7iZfezxnEH4DRSAm3zA9EhosPPY=",
+    "originContent": "python_cmd=\"python3.11\"",
+    "translatedContent": "python_cmd=\"python3.11\""
+  },
+  {
+    "row": 147,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 148,
+    "rowsha": "gAKMbWBvusTbDTmkyNFxB44OJig3dYtVHSQVD5aObuo=",
+    "originContent": "2. Navigate to the directory you would like the webui to be installed and execute the following command:",
+    "translatedContent": "2. Navegue al directorio donde desea que se instale la interfaz web y ejecute el siguiente comando:"
+  },
+  {
+    "row": 149,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 150,
+    "rowsha": "EgOKEfFB18ahtpHYHEBcrorE3uVuJVnSKOaHTwA1UOI=",
+    "originContent": "wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh",
+    "translatedContent": "wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh"
+  },
+  {
+    "row": 151,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 152,
+    "rowsha": "i+PQ/ZYPHHo7mXAtze8Wguz7P9m5hxYR1AUrdnyaW6E=",
+    "originContent": "Or just clone the repo wherever you want:",
+    "translatedContent": "O simplemente clona el repositorio donde quieras:"
+  },
+  {
+    "row": 153,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 154,
+    "rowsha": "FzmwjNylJxBXNMYQVP+tsseAiVJ53EJmXacNcicHqIs=",
+    "originContent": "git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "translatedContent": "git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+  },
+  {
+    "row": 155,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. Ejecuta `webui.sh`."
+  },
+  {
+    "row": 157,
+    "rowsha": "6qV6BtVOT2vcMRtO3Ud2LomzoaF/fJJw5ujoYepEUlc=",
+    "originContent": "3. Run `webui.sh`.",
+    "translatedContent": "4. Consulta `webui-user.sh` para opciones."
+  },
+  {
+    "row": 158,
+    "rowsha": "4H3xrWwQuJGwiN64GdP0hsRpLcw4v/O6ZFjCkvFSibc=",
+    "originContent": "4. Check `webui-user.sh` for options.",
+    "translatedContent": "### Instalación en Apple Silicon"
+  },
+  {
+    "row": 159,
+    "rowsha": "nLS1IKeIH4wWX2Ky62abDs7Dg9FfVguBud6HVSyaWMI=",
+    "originContent": "### Installation on Apple Silicon",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Encuentra las instrucciones [aquí](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon)."
+  },
+  {
+    "row": 161,
+    "rowsha": "lHfqG/piUwDXIkaCxLorkU8FHs1r+jkkS1L7YmGtYIQ=",
+    "originContent": "Find the instructions [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon).",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Contribuciones"
+  },
+  {
+    "row": 163,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "Aquí se explica cómo agregar código a este repositorio: [Contributing](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Contributing)"
+  },
+  {
+    "row": 164,
+    "rowsha": "taJfl0/cEc8fJdjhiPQVz96R48sih04D1FFwCt26tCo=",
+    "originContent": "Here's how to add code to this repo: [Contributing](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Contributing)",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Documentación"
+  },
+  {
+    "row": 166,
+    "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+    "originContent": "## Documentation",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "La documentación se trasladó de este README al [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki) del proyecto."
+  },
+  {
+    "row": 168,
+    "rowsha": "Z3jU1EhBiHKypxtBHjlIMWaL77jatk6ub3EgHNcDN1Y=",
+    "originContent": "The documentation was moved from this README over to the project's [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki).",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Para que Google y otros motores de búsqueda rastreen el wiki, aquí hay un enlace al (no para humanos) [wiki rastreable](https://github-wiki-see.page/m/AUTOMATIC1111/stable-diffusion-webui/wiki)."
+  },
+  {
+    "row": 170,
+    "rowsha": "KKdRe1bjeWZkR0AuNulD64Huu9S0cVXCOhoLU7qD7No=",
+    "originContent": "For the purposes of getting Google and other search engines to crawl the wiki, here's a link to the (not for humans) [crawlable wiki](https://github-wiki-see.page/m/AUTOMATIC1111/stable-diffusion-webui/wiki).",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Créditos"
+  },
+  {
+    "row": 172,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": "Las licencias para el código prestado se pueden encontrar en la pantalla `Settings -> Licenses`, y también en el archivo `html/licenses.html`."
+  },
+  {
+    "row": 173,
+    "rowsha": "3EZWzwChLbxDvTuukBSfnS2EY0Pqsd+dlqKQTGXwCh8=",
+    "originContent": "Licenses for borrowed code can be found in `Settings -> Licenses` screen, and also in `html/licenses.html` file.",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Stable Diffusion - https://github.com/Stability-AI/stablediffusion, https://github.com/CompVis/taming-transformers, https://github.com/mcmonkey4eva/sd3-ref"
+  },
+  {
+    "row": 175,
+    "rowsha": "mCmqBoXcMct1uGrtkLIsaewmnrEQP/P+JpelSDwQ8vg=",
+    "originContent": "- Stable Diffusion - https://github.com/Stability-AI/stablediffusion, https://github.com/CompVis/taming-transformers, https://github.com/mcmonkey4eva/sd3-ref",
+    "translatedContent": "- k-diffusion - https://github.com/crowsonkb/k-diffusion.git"
+  },
+  {
+    "row": 176,
+    "rowsha": "yPCjyTKLFtS/Po8jShD5tFIfjKXCIdWygglEHxcLtbk=",
+    "originContent": "- k-diffusion - https://github.com/crowsonkb/k-diffusion.git",
+    "translatedContent": "- Spandrel - https://github.com/chaiNNer-org/spandrel implementando"
+  },
+  {
+    "row": 177,
+    "rowsha": "klPz7LuM6K/zA65FtAW5sJM0Wuya7smoZhnhFhBCjJc=",
+    "originContent": "- Spandrel - https://github.com/chaiNNer-org/spandrel implementing",
+    "translatedContent": "  - GFPGAN - https://github.com/TencentARC/GFPGAN.git"
+  },
+  {
+    "row": 178,
+    "rowsha": "auts5kkN/2CwVXQFy42kkW/VDb77ICDBHQUx1BOA9JA=",
+    "originContent": "  - GFPGAN - https://github.com/TencentARC/GFPGAN.git",
+    "translatedContent": "  - CodeFormer - https://github.com/sczhou/CodeFormer"
+  },
+  {
+    "row": 179,
+    "rowsha": "MoRSlI3jL4ynjIa653d6z2jxYl9P0xD2EleXuS+3kcE=",
+    "originContent": "  - CodeFormer - https://github.com/sczhou/CodeFormer",
+    "translatedContent": "  - ESRGAN - https://github.com/xinntao/ESRGAN"
+  },
+  {
+    "row": 180,
+    "rowsha": "RuTxc2Zebq+OALVO35nsWUmav9YxV6Y1WCjjbCyXZiE=",
+    "originContent": "  - ESRGAN - https://github.com/xinntao/ESRGAN",
+    "translatedContent": "  - SwinIR - https://github.com/JingyunLiang/SwinIR"
+  },
+  {
+    "row": 181,
+    "rowsha": "FiQtce0Qm/tkt3pYFrkP2lnuI7Rjyil3o63dd/CDroQ=",
+    "originContent": "  - SwinIR - https://github.com/JingyunLiang/SwinIR",
+    "translatedContent": "  - Swin2SR - https://github.com/mv-lab/swin2sr"
+  },
+  {
+    "row": 182,
+    "rowsha": "y+y8sD0Ubltl8EDvjTh1QHyjknekp+JSR8KG6/wMrZU=",
+    "originContent": "  - Swin2SR - https://github.com/mv-lab/swin2sr",
+    "translatedContent": "- LDSR - https://github.com/Hafiidz/latent-diffusion"
+  },
+  {
+    "row": 183,
+    "rowsha": "KY9TVuyq5LEICOw8HMqSEJhi5mvlgzoFdWBrK4wS4kU=",
+    "originContent": "- LDSR - https://github.com/Hafiidz/latent-diffusion",
+    "translatedContent": "- MiDaS - https://github.com/isl-org/MiDaS"
+  },
+  {
+    "row": 184,
+    "rowsha": "mS7SwQQHKmCBzuzFVNcIKUDac0l6rhsCV0nAj049W1c=",
+    "originContent": "- MiDaS - https://github.com/isl-org/MiDaS",
+    "translatedContent": "- Ideas para optimizaciones - https://github.com/basujindal/stable-diffusion"
+  },
+  {
+    "row": 185,
+    "rowsha": "YOxGftSfCe1D400zttnqpajSBghb2VgaVOlUBm9HKqc=",
+    "originContent": "- Ideas for optimizations - https://github.com/basujindal/stable-diffusion",
+    "translatedContent": "- Optimización de capa de Cross Attention - Doggettx - https://github.com/Doggettx/stable-diffusion, idea original para edición de prompts."
+  },
+  {
+    "row": 186,
+    "rowsha": "7+8qpmDIeVU+BDF0RXT3v8BfmpE5nPUQf6ZSOaUmEeI=",
+    "originContent": "- Cross Attention layer optimization - Doggettx - https://github.com/Doggettx/stable-diffusion, original idea for prompt editing.",
+    "translatedContent": "- Optimización de capa de Cross Attention - InvokeAI, lstein - https://github.com/invoke-ai/InvokeAI (originalmente http://github.com/lstein/stable-diffusion)"
+  },
+  {
+    "row": 187,
+    "rowsha": "dmFubXlM3W4PiTAzOFxm8zxd8v/ZAsxOxON6sXi4K84=",
+    "originContent": "- Cross Attention layer optimization - InvokeAI, lstein - https://github.com/invoke-ai/InvokeAI (originally http://github.com/lstein/stable-diffusion)",
+    "translatedContent": "- Optimización sub-cuadrática de capa de Cross Attention - Alex Birch (https://github.com/Birch-san/diffusers/pull/1), Amin Rezaei (https://github.com/AminRezaei0x443/memory-efficient-attention)"
+  },
+  {
+    "row": 188,
+    "rowsha": "4jr6LMqRTjRXQw1w68PiowvHC2JuatEtKRjF69o9fQg=",
+    "originContent": "- Sub-quadratic Cross Attention layer optimization - Alex Birch (https://github.com/Birch-san/diffusers/pull/1), Amin Rezaei (https://github.com/AminRezaei0x443/memory-efficient-attention)",
+    "translatedContent": "- Textual Inversion - Rinon Gal - https://github.com/rinongal/textual_inversion (no usamos su código, pero sí sus ideas)."
+  },
+  {
+    "row": 189,
+    "rowsha": "299y0tVuZAQJOFcr2ixWAldm6ZqDdWZPo1TMrJh0ZRg=",
+    "originContent": "- Textual Inversion - Rinon Gal - https://github.com/rinongal/textual_inversion (we're not using his code, but we are using his ideas).",
+    "translatedContent": "- Idea para escalado SD - https://github.com/jquesnelle/txt2imghd"
+  },
+  {
+    "row": 190,
+    "rowsha": "uc3J8STIvFzgunL3YVD/Q4Fq1VOz8TR3eiyNiJTEaA0=",
+    "originContent": "- Idea for SD upscale - https://github.com/jquesnelle/txt2imghd",
+    "translatedContent": "- Generación de ruido para outpainting mk2 - https://github.com/parlance-zz/g-diffuser-bot"
+  },
+  {
+    "row": 191,
+    "rowsha": "9yVB5JN2e/NmDNfrOyUJ6MMVew9Sxr/Nq0eePxchHvA=",
+    "originContent": "- Noise generation for outpainting mk2 - https://github.com/parlance-zz/g-diffuser-bot",
+    "translatedContent": "- Idea y código prestado del interrogador CLIP - https://github.com/pharmapsychotic/clip-interrogator"
+  },
+  {
+    "row": 192,
+    "rowsha": "F2+UlmYyuSHXEq1vB2EJzfHnYxv2Wt1mXHWsl07LM9U=",
+    "originContent": "- CLIP interrogator idea and borrowing some code - https://github.com/pharmapsychotic/clip-interrogator",
+    "translatedContent": "- Idea para Composable Diffusion - https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch"
+  },
+  {
+    "row": 193,
+    "rowsha": "T6poScaG5LLJJAq5I8bxqyo/0oJHylhWZIn0mpH+I9k=",
+    "originContent": "- Idea for Composable Diffusion - https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+    "translatedContent": "- xformers - https://github.com/facebookresearch/xformers"
+  },
+  {
+    "row": 194,
+    "rowsha": "Kf3oV0QRT3z5aWyXg8fn1+AJfpWfNFY+w2xt8qEJpZg=",
+    "originContent": "- xformers - https://github.com/facebookresearch/xformers",
+    "translatedContent": "- DeepDanbooru - interrogador para anime diffusers https://github.com/KichangKim/DeepDanbooru"
+  },
+  {
+    "row": 195,
+    "rowsha": "8IyIewzYNujmg4NzGIDC5HNENgmlKbYWYMHTmHTp0yk=",
+    "originContent": "- DeepDanbooru - interrogator for anime diffusers https://github.com/KichangKim/DeepDanbooru",
+    "translatedContent": "- Muestreo en precisión float32 desde un UNet float16 - marunine por la idea, Birch-san por la implementación ejemplo en Diffusers (https://github.com/Birch-san/diffusers-play/tree/92feee6)"
+  },
+  {
+    "row": 196,
+    "rowsha": "EietfKiiJIAAeWsFBBhgEpLhfogLoPbEWjme8YHoivY=",
+    "originContent": "- Sampling in float32 precision from a float16 UNet - marunine for the idea, Birch-san for the example Diffusers implementation (https://github.com/Birch-san/diffusers-play/tree/92feee6)",
+    "translatedContent": "- Instruct pix2pix - Tim Brooks (estrella), Aleksander Holynski (estrella), Alexei A. Efros (sin estrella) - https://github.com/timothybrooks/instruct-pix2pix"
+  },
+  {
+    "row": 197,
+    "rowsha": "54ZLFJg76TaVQ3RG4wayYlYeX6oCJ+85xdPzyO5s8Dc=",
+    "originContent": "- Instruct pix2pix - Tim Brooks (star), Aleksander Holynski (star), Alexei A. Efros (no star) - https://github.com/timothybrooks/instruct-pix2pix",
+    "translatedContent": "- Consejos de seguridad - RyotaK"
+  },
+  {
+    "row": 198,
+    "rowsha": "EYHaDISF5SSathOov6z3hfz/ghTwy5XdG9Q63K3D3pE=",
+    "originContent": "- Security advice - RyotaK",
+    "translatedContent": "- Muestreador UniPC - Wenliang Zhao - https://github.com/wl-zhao/UniPC"
+  },
+  {
+    "row": 199,
+    "rowsha": "OLIyV9/X0Sicfd9e2T4Yy366GmCVm+nTes4oOTFTb/M=",
+    "originContent": "- UniPC sampler - Wenliang Zhao - https://github.com/wl-zhao/UniPC",
+    "translatedContent": "- TAESD - Ollin Boer Bohan - https://github.com/madebyollin/taesd"
+  },
+  {
+    "row": 200,
+    "rowsha": "3K5ZnYdVvWAi0gvTMfuAyW0xzd0X2kK48fON+oyMi0I=",
+    "originContent": "- TAESD - Ollin Boer Bohan - https://github.com/madebyollin/taesd",
+    "translatedContent": "- LyCORIS - KohakuBlueleaf"
+  },
+  {
+    "row": 201,
+    "rowsha": "qkZq/c3LKSrO+HO1x591rV7wzeu2D78FYhw/s8s9ivc=",
+    "originContent": "- LyCORIS - KohakuBlueleaf",
+    "translatedContent": "- Reinicio de muestreo - lambertae - https://github.com/Newbeeer/diffusion_restart_sampling"
+  },
+  {
+    "row": 202,
+    "rowsha": "SDBQbqpeb8kZM+yWIWeCVWzT9FcB7UHRPaD7nYtda7w=",
+    "originContent": "- Restart sampling - lambertae - https://github.com/Newbeeer/diffusion_restart_sampling",
+    "translatedContent": "- Hypertile - tfernd - https://github.com/tfernd/HyperTile"
+  },
+  {
+    "row": 203,
+    "rowsha": "7nBjlpO267Uv+QTuML4AysvR6Px/MHf35wM2tn27LkI=",
+    "originContent": "- Hypertile - tfernd - https://github.com/tfernd/HyperTile",
+    "translatedContent": "- Script inicial de Gradio - publicado en 4chan por un usuario Anónimo. Gracias usuario Anónimo."
+  },
+  {
+    "row": 204,
+    "rowsha": "BiiDtzF6AvZuUWT4D9HDYEz5OPpLpds+JzfzNb67kTc=",
+    "originContent": "- Initial Gradio script - posted on 4chan by an Anonymous user. Thank you Anonymous user.",
+    "translatedContent": "- (Tú)"
+  },
+  {
+    "row": 205,
+    "rowsha": "NPbz+Itvw5p6N20RCQ7zhaGX6oySDfWhc9FgTAWYLfs=",
+    "originContent": "- (You)",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

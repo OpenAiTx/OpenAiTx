@@ -20,7 +20,7 @@
         | <a href="#" title="Coming soon">Dutch (coming soon)</a>
         | <a href="#" title="Coming soon">Polish (coming soon)</a>
         | <a href="#" title="Coming soon">Arabic (coming soon)</a>
-        | <a href="#" title="Coming soon">Farsi (coming soon)</a>
+        | <a href="#" title="Coming soon">Persian (coming soon)</a>
         | <a href="#" title="Coming soon">Turkish (coming soon)</a>
         | <a href="#" title="Coming soon">Vietnamese (coming soon)</a>
         | <a href="#" title="Coming soon">Bahasa Indonesia (coming soon)</a>
@@ -31,11 +31,11 @@
 </div>
 
 # TimeCapsule LLM
-An LLM trained only on data from certain time periods to reduce modern bias.
+An LLM trained only on data from specific time periods to reduce modern bias.
 
-Imagine if an AI model didn’t just pretend to be historical but actually was.
+Imagine if an AI model didn't just pretend to be historical but actually was.
 
-Built on [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) Core training scripts and model architecture are his work.
+Built on [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT). Core training scripts and model architecture are his work.
 
 # Project Goals
 
@@ -47,7 +47,7 @@ If you just fine-tune a pre-trained model, your LLM is still going to know moder
 
 # Expected outcomes
 
-Hopefully when finished, this model will not know modern concepts and will not be able to reason beyond what it's been trained on. It shouldn’t recognize modern concepts/vocab and I hope it doesn't hallucinate modern knowledge.
+Hopefully, when finished, this model will not know modern concepts and will not be able to reason beyond what it's been trained on. It shouldn't recognize modern concepts/vocab and I hope it doesn't hallucinate modern knowledge.
 
 # Progress Updates
 
@@ -84,56 +84,59 @@ I will train this dataset today and it should take around 4-5 hours. Once it's d
 
 I started training on a 435MB (108 M tokens) corpus, it's going pretty smooth right now. Train loss dropped from 10.9 to 4.9 in the first 2800 iterations. I expect it'll take around 8 or 9 hours to complete. I'll post another update once it's done.
 
-## July 17th, 2025 2:13AM
+## July 17th, 2025
 
-The training is done for the second model, it took my 4060 around 8 hours and 40 minutes (3,900 iters/hr) for 33,000 iters (5 epochs). Final train loss was 3.73. The outputs were surprisingly good it genuinely generates coherent 19th century style sentences now.
+The training is done for the second model, it took my 4060 around 8 hours and 40 minutes (3,900 iters/hr) for 33,000 iters (5 epochs). Final train loss was 3.73. The outputs were surprisingly good; it genuinely generates coherent 19th century style sentences now.
 
 ## July 28th, 2025
 
-I've gone ahead and uploaded v0.5 to Hugging Face, [Check it out](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) if you'd like. You can now download my repo and run it locally. Unfortunately nanoGPT doesn't work natively with HuggingFace, so you'll have to download and run the model locally.
+I've gone ahead and uploaded v0.5 to Hugging Face, [Check it out](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) if you'd like. You can now download my repo and run it locally. Unfortunately, nanoGPT doesn't work natively with HuggingFace, so you'll have to download and run the model locally.
 
 Also I will begin curating data for my next training run, I believe I'll need maybe 5-10x more data to achieve reasoning capabilities.
 
+## August 2nd, 2025
 
-# V0 Model Behavior & Limitations
+I'm going to start work on Version 1 soon. I will need to transition from nanoGPT's architecture to something more modern. I have several open-source LLM architectures in mind, including: OpenLLaMA v3, Phi-2 and Qwen 1.5B. And to support the jump to V1, I'll need to carefully curate a much bigger and diverse dataset. I'll need at least 5GB of clean training data.
 
-Early prompts show the model responding with 1800's language and behavior. For example, I prompted it with "Who art Henry?" and it replied "I know that man, I have did not a black, the storm." and yeah that sentence makes no sense but the LLM is recognizing I'm asking about a person.
+# V0 Model Behavior & Limitations 
+
+Early prompts show the model responding with 1800's language and behavior. For example, I prompted it with "Who art Henry?" and it replied "I know that man, I have did not a black, the storm." and yeah that sentence makes no sense but the LLM is recognizing I'm asking about a person. 
 
 ![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-There is no mention of modern concepts, outputs mostly contain words and phrasing from the 1800s.
+There is no mention of modern concepts, outputs contain mostly words and phrasing from the 1800's.
 
-It still needs a lot of work, training on 187MB will not give you a model that produces text with complex reasoning.
+It still needs a lot of work, training off of 187MB will not give you a model that produces text with complex reasoning. 
 
-Right now it produces sentences that lack full sentence structure and overall just make no sense but this is normal for the training size.
+Right now it produces sentences that lack full sentence structure and overall just make no sense but this is normal for the training size. 
 
 # V0.5 Model Behavior & Limitations
 
-This is a nice improvement compared to the last model. The writing style and vocab are Victorian and almost every sentence is grammatically correct with proper punctuation. And again this is trained from scratch so it sticks to 1800s subjects.
+This is a nice improvement compared to the last model. The writing style and vocab is Victorian and almost every sentence is grammatically correct with proper punctuation. And again this is trained from scratch so it sticks to 1800's subjects. 
 
 ![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
-There are a lot of factual hallucinations. A lot (like 100%) of the details (dates, events, historical figures) are made up. Also the sentences don't really have connections to each other, sometimes maybe 2 sentences will relate to each other but beyond that they don't. Another issue is sometimes a stray “Digitized by Google” footer shows up, so the next time I train I really have to make sure the texts are cleaned well. Overall I'm very happy with the results, it's nowhere near an LLM yet but definitely a sentence generator.
+There are a lot of factual hallucinations. A lot (like 100%) of the details (dates, events, historical figures) are made up. Also the sentences don't really have connections to each other, sometimes maybe 2 sentences will relate to each other but beyond that they don't. Another issue is sometimes a stray “Digitized by Google” footer shows up, so the next time I train I really have to make sure the texts are cleaned well. Overall I'm very happy with the results, it's nowhere near an LLM yet but definitely a sentence generator. 
 
-I'm learning a lot and will start figuring out what I need to do better in the coming weeks. I will upload files soon!
+I'm learning a lot and will start figuring out what I need to do better in the coming weeks. I will upload files soon! 
 
-# Upcoming Plans
+# Upcoming Plans 
 
 (Completed) I'm going to start work on version 0.5, instead of training using 50 books, I'll train using ideally 500-600. Right now I'm training nanoGPT using books from 1800-1850 and specifically from London. There are some challenges like making sure the books I find are not updated or have modern interpretations but untouched books published within my chosen time period.
 
-I want to train a new model (v1) with a much larger corpus, maybe 5-10x larger than the one I used for v0.5. My goal is to see if I can get reasoning abilities to emerge from Selective Temporal Training alone, this will be a more difficult task and I'm not even entirely sure if it's possible due to the fact that there are historical data limitations. In the upcoming weeks I will try to curate enough data for a 5-10GB corpus. I believe if I can get clean, high quality data and rent a GPU, there will be progress.
+I want to train a new model (v1) with a much larger corpus, maybe 5-10x larger than the one I used for v0.5. My goal is to see if I can get reasoning abilities to emerge from Selective Temporal Training alone, this will be a more difficult task and I'm not even entirely sure if it's possible due to the fact that there is historical data limitations. In the upcoming weeks I will try to curate enough data for a 5-10GB corpus. I believe if I can get clean clean high quality data and rent a GPU, there will be progress.
 
-# How to Use This Project
+# How to Use This Project 
 
 This project focuses mostly on curating historical data, preparing it for training and building a tokenizer. I am not going to cover the full LLM training process, for that refer to nanoGPT by Andrej Karpathy.
 
-# Step 1: Gather and Prepare Historical Texts
+# Step 1: Gather and Prepare Historical Texts 
 
 Collect .txt files of public domain books, documents, etc from your chosen time period (e.g., London 1800-1850)
 
 You can use download_texts_improved.py to download books for you if you need to.
 
-Clean the text files using a script or manually remove headers/footers from Project Gutenberg, modern annotations, or things like OCR errors.
+Clean the text files using a script or manually remove headers/footer from Project Gutenberg, Modern annotations or things like OCR errors.
 
 prepare_dataset.py should work fine.
 
@@ -144,17 +147,17 @@ This will give you vocab.json and merges.txt
 
 These files define vocab and merge rules for your model
 
-# Step 3: Train Your Model (nanoGPT)
+# Step 3: Train Your Model (nanoGPT) 
 
 Refer to [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) for the training process.
 
-You can train a different LLM if you want, but I used nanoGPT
+You can train a different LLM if you want, but I used nanoGPT 
 
 # FAQ
 
-## What is Selective Temporal Training?
+## What is Selective Temporal Training ?
 
-Selective Temporal Training (STT) is a machine learning methodology where all training data is specifically curated to fall within a specific historical time period. It's done in order to model the language and knowledge of that era without influence from modern concepts. For example, the current model I have now (v0.5) is trained on data exclusively from 1800-1875, it's not fine-tuned but trained from scratch resulting in output that reflects the linguistic style and historical context of that time period.
+Selective Temporal Training (STT) is a machine learning methodology where all training data is specifically curated to fall within a specific historical time period. It's done in order to model the language and knowledge of that era without influence from modern concepts. For example, the current model I have now (v0.5) is trained on data exclusively from 1800-1875, it's not fine tuned but trained from scratch resulting in output that reflects the linguistic style and historical context of that time period.
 
 ## Why not just use fine-tuning or LoRA?
 
@@ -165,19 +168,20 @@ For this project I'm trying to create a language model that is unclouded from mo
 I'm using books, legal documents, newspapers, and other writings from 1800–1850 London. The list I linked has like 200 but for the first training I just used 50 files about ~187 MB. You can view a list of the documents:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
-## How large is the Version 0 model?
+## How large is the Version 0 model ?
 
 This model is very small right now, I'm just doing this for fun and following a strict training rule of no modern sources. It has almost 16 million parameters but I'm gonna start gathering more old texts to begin another model training. Will give updates as I go.
 
-## Training Specs?
+## Training Specs ? 
 
-GPU: Geforce RTX 4060
-CPU: i5-13400F
+GPU: Geforce rtx 4060
+CPU: i5-13400F 
 Ram: 16GB DDR5.
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-07
 
 ---

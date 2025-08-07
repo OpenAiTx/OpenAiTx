@@ -1,134 +1,134 @@
-# Stable Diffusion web UI
-基于 Gradio 库实现的 Stable Diffusion Web 界面。
+# Stable Diffusion 网页界面
+使用 Gradio 库实现的 Stable Diffusion 网络接口。
 
-![](screenshot.png)
+![](https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/screenshot.png)
 
 ## 功能
-[带图片的详细功能展示](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features)：
-- 原生 txt2img 和 img2img 模式
-- 一键安装和运行脚本（但你仍需自行安装 Python 和 git）
-- 外延绘图（Outpainting）
-- 局部修复（Inpainting）
-- 彩色草图（Color Sketch）
-- 提示矩阵（Prompt Matrix）
-- Stable Diffusion 超分（Upscale）
-- 注意力机制，指定模型应重点关注的文本部分
-    - a man in a `((tuxedo))` - 模型会更加关注“tuxedo”
-    - a man in a `(tuxedo:1.21)` - 另一种语法
-    - 选中文本后按下 `Ctrl+Up` 或 `Ctrl+Down`（MacOS 为 `Command+Up` 或 `Command+Down`）可自动调整选中文本的注意力（代码由匿名用户贡献）
-- 循环处理，多次运行 img2img
-- X/Y/Z 绘图，可根据不同参数绘制三维图片图表
-- 文本反演（Textual Inversion）
-    - 可以添加任意数量的嵌入，并使用自定义名称
-    - 支持多个每 Token 不同向量数量的嵌入
+[详细功能展示及图片](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features)：
+- 原始的 txt2img 和 img2img 模式
+- 一键安装和运行脚本（但你仍需安装 python 和 git）
+- 外扩绘制
+- 内填绘制
+- 颜色草图
+- 提示矩阵
+- Stable Diffusion 放大
+- 关注度，指定模型应更加关注文本的某些部分
+    - 一个穿着 `((燕尾服))` 的男人 - 会更加关注燕尾服
+    - 一个穿着 `(燕尾服:1.21)` 的男人 - 替代语法
+    - 选中文本并按 `Ctrl+Up` 或 `Ctrl+Down`（macOS 上是 `Command+Up` 或 `Command+Down`）自动调整选中文本的关注度（代码由匿名用户贡献）
+- 循环回传，多次运行 img2img 处理
+- X/Y/Z 图，绘制具有不同参数的图像三维图的方式
+- 文本反演
+    - 可以拥有任意多的嵌入向量，并使用任何喜欢的名称
+    - 支持多个嵌入，每个令牌可有不同数量的向量
     - 支持半精度浮点数
-    - 可在 8GB 显存（也有 6GB 显存可用的报告）上训练嵌入
-- 附加功能（Extras）选项卡，包含：
+    - 可在 8GB 显存上训练嵌入（也有 6GB 可用的报告）
+- 扩展标签页包含：
     - GFPGAN，修复人脸的神经网络
     - CodeFormer，作为 GFPGAN 替代的人脸修复工具
-    - RealESRGAN，神经网络超分辨率
-    - ESRGAN，支持大量第三方模型的神经网络超分
-    - SwinIR 和 Swin2SR（[见此处](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)），神经网络超分
-    - LDSR，潜空间扩散超分辨率
-- 调整尺寸比例选项
+    - RealESRGAN，神经网络放大器
+    - ESRGAN，带有许多第三方模型的神经网络放大器
+    - SwinIR 和 Swin2SR（[见这里](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092)），神经网络放大器
+    - LDSR，潜在扩散超分辨率放大
+- 调整宽高比选项
 - 采样方法选择
-    - 调整采样器 eta 值（噪声倍率）
-    - 提供更高级的噪声设置选项
-- 随时中断处理
+    - 调整采样器 eta 值（噪声乘数）
+    - 更高级的噪声设置选项
+- 可随时中断处理
 - 支持 4GB 显卡（也有 2GB 可用的报告）
-- 批量生成时的种子校正
-- 实时提示词 Token 长度校验
+- 批量正确的随机种子
+- 实时提示令牌长度验证
 - 生成参数
-     - 生成图片时所用参数会随图片保存
-     - PNG 保存在 PNG 的 chunk 中，JPEG 保存在 EXIF 信息中
-     - 可将图片拖至 PNG info 选项卡以恢复生成参数并自动复制到界面
+     - 生成图像时使用的参数会随图像保存
+     - PNG 文件以 PNG 块形式保存，JPEG 以 EXIF 保存
+     - 可以将图像拖到 PNG 信息标签页以恢复生成参数并自动复制到界面
      - 可在设置中禁用
-     - 支持拖拽图片/文本参数到提示框
-- 读取生成参数按钮，将提示框中的参数加载至界面
+     - 支持将图像/文本参数拖放到提示框
+- 读取生成参数按钮，加载提示框中的参数到界面
 - 设置页面
-- 可在界面运行任意 Python 代码（需使用 `--allow-code` 启动以启用）
-- 大多数 UI 元素均带有鼠标悬浮提示
-- 可通过文本配置更改 UI 元素的默认/最小/最大/步进值
-- 平铺支持，勾选后可生成可拼接为贴图的图片
-- 进度条与实时图片生成预览
-    - 可使用独立神经网络生成几乎不占用显存或计算资源的预览图
-- 负面提示词，额外的文本框可填写不希望在生成图片中出现的内容
-- 样式（Styles），可保存部分提示词，后续通过下拉菜单快捷应用
-- 变体（Variations），可生成几乎相同但略有不同的图片
-- 种子缩放，生成几乎相同但分辨率略有差异的图片
-- CLIP interrogator，一键猜测图片对应的提示词
-- 提示词编辑，可在生成过程中修改提示词，例如从“生成西瓜”中途切换到“生成动漫女孩”
+- 从界面运行任意 python 代码（需使用 `--allow-code` 运行以启用）
+- 大多数界面元素有鼠标悬停提示
+- 可通过文本配置更改默认值/混合值/最大值/步长值
+- 瓦片支持，复选框用于创建可以平铺的纹理图像
+- 进度条和实时图像生成预览
+    - 可使用单独神经网络生成预览，几乎不占用显存或计算资源
+- 负面提示，额外文本框允许列出不希望出现在生成图像中的内容
+- 样式，保存部分提示并通过下拉菜单轻松应用
+- 变体，生成相同图像但有微小差异的方式
+- 种子缩放，生成相同图像但分辨率稍有不同
+- CLIP 询问器，尝试从图像猜测提示的按钮
+- 提示编辑，生成过程中更改提示，比如开始做西瓜，中途切换到动漫女孩
 - 批量处理，使用 img2img 处理一组文件
-- Img2img 替代方案，逆欧拉交叉注意力控制法
-- 高清修复（Highres Fix），一键生成高清图片且避免常见变形
-- 热更新模型权重（Reloading checkpoints on the fly）
-- 模型权重合并器（Checkpoint Merger），可将最多 3 个模型权重合并为一个
-- [自定义脚本](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts)与社区丰富扩展
-- [可组合扩散（Composable-Diffusion）](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/)，可同时使用多个提示词
-     - 用大写 `AND` 分隔提示词
-     - 支持提示词权重：`a cat :1.2 AND a dog AND a penguin :2.2`
-- 提示词无 Token 数限制（原生 stable diffusion 最多 75 个 Token）
-- DeepDanbooru 集成，为动漫提示词自动生成 danbooru 风格标签
-- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers)，对部分显卡显著提速（启动参数加 `--xformers`）
-- 通过扩展：[历史记录选项卡](https://github.com/yfszzx/stable-diffusion-webui-images-browser)：界面内便捷查看、管理、删除图片
-- 无限生成选项
-- 训练选项卡
-     - 超网络（hypernetworks）和嵌入（embeddings）选项
-     - 预处理图片：裁剪、镜像、BLIP 或 deepdanbooru（动漫用）自动打标签
+- Img2img 替代方法，交叉注意力控制的反向欧拉方法
+- 高分辨率修正，一键生成高分辨率图片且无通常失真
+- 动态重新加载检查点
+- 检查点合并，标签页允许合并最多 3 个检查点为一个
+- [自定义脚本](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts)，社区提供多种扩展
+- [可组合扩散](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/)，同时使用多个提示的方式
+     - 使用大写 `AND` 分隔提示
+     - 支持提示权重：`一只猫 :1.2 AND 一只狗 AND 一只企鹅 :2.2`
+- 提示无令牌限制（原始 Stable Diffusion 允许最多 75 个令牌）
+- DeepDanbooru 集成，为动漫提示创建 danbooru 风格标签
+- [xformers](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers)，部分显卡大幅提升速度：（命令行参数添加 `--xformers`）
+- 通过扩展：[历史标签](https://github.com/yfszzx/stable-diffusion-webui-images-browser)：方便在界面内查看、导向和删除图像
+- 永远生成选项
+- 训练标签页
+     - 超网络和嵌入向量选项
+     - 图像预处理：裁剪、镜像、使用 BLIP 或 deepdanbooru 自动标注（动漫专用）
 - Clip skip
-- 超网络（Hypernetworks）
-- Loras（功能同超网络但界面更美观）
-- 独立界面，可预览并选择要加入提示词的嵌入、超网络或 Lora
-- 可在设置界面选择加载不同的 VAE
-- 进度条显示预计完成时间
-- API
-- 支持 RunwayML 的专用 [局部修复模型](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion)
-- 通过扩展：[Aesthetic Gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients)，通过 clip 图片嵌入生成特定美学风格图片（实现自 [https://github.com/vicgalle/stable-diffusion-aesthetic-gradients](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients)）
-- 支持 [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion) — 参见 [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion-20) 获取说明
-- 支持 [Alt-Diffusion](https://arxiv.org/abs/2211.06679) — 参见 [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion) 获取说明
-- 现已无任何违规字母！
-- 支持 safetensors 格式模型权重
-- 分辨率限制放宽：生成图片尺寸需为 8 的倍数（原为 64 的倍数）
-- 现已添加许可证！
-- 可在设置界面自定义 UI 元素顺序
+- 超网络
+- Loras（与超网络类似，但更美观）
+- 独立界面，可以选择并预览要添加到提示中的嵌入向量、超网络或 Loras
+- 可从设置界面选择加载不同的 VAE
+- 进度条显示估计完成时间
+- API 支持
+- 支持 RunwayML 提供的专用[内填绘制模型](https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion)
+- 通过扩展：[美学梯度](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients)，使用 CLIP 图像嵌入生成特定美学图像的方法（实现自 [https://github.com/vicgalle/stable-diffusion-aesthetic-gradients](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients)）
+- 支持 [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion) - 见 [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion-20) 获取说明
+- 支持 [Alt-Diffusion](https://arxiv.org/abs/2211.06679) - 见 [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion) 获取说明
+- 现在无任何不良字母！
+- 加载 safetensors 格式的检查点
+- 放宽分辨率限制：生成图像尺寸必须是 8 的倍数，而非 64 的倍数
+- 现在附带许可证！
+- 可从设置界面重新排序 UI 元素
 - 支持 [Segmind Stable Diffusion](https://huggingface.co/segmind/SSD-1B)
 
 ## 安装与运行
-请确保满足所需 [依赖项](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies)，并根据以下平台说明操作：
+确保满足所需的[依赖](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies)，并按照以下说明操作：
 - [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)（推荐）
-- [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs) 显卡
-- [Intel CPU、Intel GPU（集成及独显）](https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon)（外部 wiki 页面）
-- [Ascend NPU](https://github.com/wangshuai09/stable-diffusion-webui/wiki/Install-and-run-on-Ascend-NPUs)（外部 wiki 页面）
+- [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs) 显卡。
+- [Intel CPU，Intel GPU（集成与独立）](https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon)（外部 wiki 页面）
+- [昇腾 NPU](https://github.com/wangshuai09/stable-diffusion-webui/wiki/Install-and-run-on-Ascend-NPUs)（外部维基页面）
 
 或者，使用在线服务（如 Google Colab）：
 
 - [在线服务列表](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services)
 
-### Windows 10/11 + NVidia 显卡，使用发行包自动安装
-1. 从 [v1.0.0-pre](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre) 下载 `sd.webui.zip` 并解压。
+### 使用发布包在 Windows 10/11 上安装带 NVidia GPU 的版本
+1. 从 [v1.0.0-pre](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre) 下载 `sd.webui.zip` 并解压其内容。
 2. 运行 `update.bat`。
 3. 运行 `run.bat`。
-> 详情请见 [Install-and-Run-on-NVidia-GPUs](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)
+> 更多详情请参见 [Install-and-Run-on-NVidia-GPUs](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs)
 
-### Windows 自动安装
-1. 安装 [Python 3.10.6](https://www.python.org/downloads/release/python-3106/)（新版 Python 不支持 torch），勾选“Add Python to PATH”。
+### Windows 上的自动安装
+1. 安装 [Python 3.10.6](https://www.python.org/downloads/release/python-3106/)（较新版本的 Python 不支持 torch），勾选“将 Python 添加到 PATH”。
 2. 安装 [git](https://git-scm.com/download/win)。
 3. 下载 stable-diffusion-webui 仓库，例如运行 `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`。
-4. 以普通用户身份（非管理员）在资源管理器中运行 `webui-user.bat`。
+4. 在 Windows 资源管理器中以普通非管理员用户身份运行 `webui-user.bat`。
 
-### Linux 自动安装
+### Linux 上的自动安装
 1. 安装依赖项：
 ```bash
-# Debian 系：
+# Debian-based:
 sudo apt install wget git python3 python3-venv libgl1 libglib2.0-0
-# Red Hat 系：
+# Red Hat-based:
 sudo dnf install wget git python3 gperftools-libs libglvnd-glx
-# openSUSE 系：
+# openSUSE-based:
 sudo zypper install wget git python3 libtcmalloc4 libglvnd
-# Arch 系：
+# Arch-based:
 sudo pacman -S wget git python3
 ```
-如果你的系统较新，需要安装 python3.11 或 python3.10：
+如果您的系统非常新，您需要安装 python3.11 或 python3.10：
 ```bash
 # Ubuntu 24.04
 sudo add-apt-repository ppa:deadsnakes/ppa
@@ -137,75 +137,76 @@ sudo apt install python3.11
 
 # Manjaro/Arch
 sudo pacman -S yay
-yay -S python311 # 注意不要与 python3.11 包混淆
+yay -S python311 # do not confuse with python3.11 package
 
-# 仅适用于 3.11
-# 然后在启动脚本设置环境变量
+# Only for 3.11
+# Then set up env variable in launch script
 export python_cmd="python3.11"
-# 或在 webui-user.sh 设置
+# or in webui-user.sh
 python_cmd="python3.11"
 ```
-2. 进入你想安装 webui 的目录，执行下列命令：
+2. 导航到您希望安装 webui 的目录并执行以下命令：
 ```bash
 wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh
 ```
-或在任意目录克隆仓库：
+或者直接在你想要的位置克隆仓库：
 ```bash
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
 ```
+3. 运行 `webui.sh`。  
+4. 查看 `webui-user.sh` 了解选项。  
+### 在 Apple Silicon 上安装  
 
-3. 运行 `webui.sh`。
-4. 查看 `webui-user.sh` 获取更多选项。
-### Apple Silicon 安装
+安装说明见[此处](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon)。  
 
-请参见[此处说明](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon)。
+## 贡献  
+以下是向此仓库添加代码的方法：[贡献指南](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Contributing)  
 
-## 贡献
-如何向本仓库贡献代码：[贡献说明](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Contributing)
+## 文档  
 
-## 文档
+文档已从此 README 移至项目的[wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki)。  
 
-文档已从本 README 移至项目 [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki)。
+为了让 Google 和其他搜索引擎抓取 wiki，这里有一个（非为人类设计的）[可抓取 wiki 链接](https://github-wiki-see.page/m/AUTOMATIC1111/stable-diffusion-webui/wiki)。  
 
-为了便于 Google 及其他搜索引擎抓取 wiki，提供一个（非面向人类的）[可抓取 wiki](https://github-wiki-see.page/m/AUTOMATIC1111/stable-diffusion-webui/wiki) 链接。
+## 致谢  
+借用代码的许可证可在 `Settings -> Licenses` 界面以及 `html/licenses.html` 文件中找到。  
 
-## 致谢
-相关借用代码的许可证可在 `设置 -> 许可证` 页面以及 `html/licenses.html` 文件中查阅。
-
-- Stable Diffusion - https://github.com/Stability-AI/stablediffusion, https://github.com/CompVis/taming-transformers, https://github.com/mcmonkey4eva/sd3-ref
-- k-diffusion - https://github.com/crowsonkb/k-diffusion.git
-- Spandrel - https://github.com/chaiNNer-org/spandrel 实现
-  - GFPGAN - https://github.com/TencentARC/GFPGAN.git
-  - CodeFormer - https://github.com/sczhou/CodeFormer
-  - ESRGAN - https://github.com/xinntao/ESRGAN
-  - SwinIR - https://github.com/JingyunLiang/SwinIR
-  - Swin2SR - https://github.com/mv-lab/swin2sr
-- LDSR - https://github.com/Hafiidz/latent-diffusion
-- MiDaS - https://github.com/isl-org/MiDaS
-- 优化相关思路 - https://github.com/basujindal/stable-diffusion
-- Cross Attention 层优化 - Doggettx - https://github.com/Doggettx/stable-diffusion，提示词编辑的原始思路。
-- Cross Attention 层优化 - InvokeAI, lstein - https://github.com/invoke-ai/InvokeAI（原始项目 http://github.com/lstein/stable-diffusion）
-- 次二次方 Cross Attention 层优化 - Alex Birch (https://github.com/Birch-san/diffusers/pull/1), Amin Rezaei (https://github.com/AminRezaei0x443/memory-efficient-attention)
-- 文本反演（Textual Inversion）- Rinon Gal - https://github.com/rinongal/textual_inversion（我们未使用其代码，但借鉴了其思路）
-- SD 超分思路 - https://github.com/jquesnelle/txt2imghd
-- Outpainting mk2 噪声生成 - https://github.com/parlance-zz/g-diffuser-bot
-- CLIP interrogator 思路及部分代码 - https://github.com/pharmapsychotic/clip-interrogator
-- 可组合扩散思路 - https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch
-- xformers - https://github.com/facebookresearch/xformers
-- DeepDanbooru - 动漫 diffusers interrogator https://github.com/KichangKim/DeepDanbooru
-- 以 float32 精度采样 float16 UNet - marunine 提出思路，Birch-san 提供 Diffusers 实现示例（https://github.com/Birch-san/diffusers-play/tree/92feee6）
-- Instruct pix2pix - Tim Brooks (star), Aleksander Holynski (star), Alexei A. Efros (no star) - https://github.com/timothybrooks/instruct-pix2pix
-- 安全建议 - RyotaK
-- UniPC 采样器 - Wenliang Zhao - https://github.com/wl-zhao/UniPC
-- TAESD - Ollin Boer Bohan - https://github.com/madebyollin/taesd
-- LyCORIS - KohakuBlueleaf
-- 重启采样 - lambertae - https://github.com/Newbeeer/diffusion_restart_sampling
-- Hypertile - tfernd - https://github.com/tfernd/HyperTile
-- 最初的 Gradio 脚本 - 由匿名用户在 4chan 发布。感谢这位匿名用户。
+- Stable Diffusion - https://github.com/Stability-AI/stablediffusion, https://github.com/CompVis/taming-transformers, https://github.com/mcmonkey4eva/sd3-ref  
+- k-diffusion - https://github.com/crowsonkb/k-diffusion.git  
+- Spandrel - https://github.com/chaiNNer-org/spandrel 实现了  
+  - GFPGAN - https://github.com/TencentARC/GFPGAN.git  
+  - CodeFormer - https://github.com/sczhou/CodeFormer  
+  - ESRGAN - https://github.com/xinntao/ESRGAN  
+  - SwinIR - https://github.com/JingyunLiang/SwinIR  
+  - Swin2SR - https://github.com/mv-lab/swin2sr  
+- LDSR - https://github.com/Hafiidz/latent-diffusion  
+- MiDaS - https://github.com/isl-org/MiDaS  
+- 优化思路 - https://github.com/basujindal/stable-diffusion  
+- 交叉注意力层优化 - Doggettx - https://github.com/Doggettx/stable-diffusion，提示编辑的原始想法。  
+- 交叉注意力层优化 - InvokeAI，lstein - https://github.com/invoke-ai/InvokeAI（原项目 http://github.com/lstein/stable-diffusion）  
+- 亚二次方复杂度交叉注意力层优化 - Alex Birch (https://github.com/Birch-san/diffusers/pull/1), Amin Rezaei (https://github.com/AminRezaei0x443/memory-efficient-attention)  
+- 文本反演 - Rinon Gal - https://github.com/rinongal/textual_inversion（我们未使用他的代码，但采纳了他的思路）。  
+- SD 放大思路 - https://github.com/jquesnelle/txt2imghd  
+- mk2 外延噪声生成 - https://github.com/parlance-zz/g-diffuser-bot  
+- CLIP 询问器的想法及部分代码借用 - https://github.com/pharmapsychotic/clip-interrogator  
+- 可组合扩散的思路 - https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch  
+- xformers - https://github.com/facebookresearch/xformers  
+- DeepDanbooru - 动漫扩散器的询问器 https://github.com/KichangKim/DeepDanbooru  
+- 从 float16 UNet 浮点32精度采样 - 感谢 marunine 的想法，Birch-san 的 Diffusers 示例实现（https://github.com/Birch-san/diffusers-play/tree/92feee6）  
+- Instruct pix2pix - Tim Brooks（星标）、Aleksander Holynski（星标）、Alexei A. Efros（无星标）- https://github.com/timothybrooks/instruct-pix2pix  
+- 安全建议 - RyotaK  
+- UniPC 采样器 - Wenliang Zhao - https://github.com/wl-zhao/UniPC  
+- TAESD - Ollin Boer Bohan - https://github.com/madebyollin/taesd  
+- LyCORIS - KohakuBlueleaf  
+- 重新开始采样 - lambertae - https://github.com/Newbeeer/diffusion_restart_sampling  
+- Hypertile - tfernd - https://github.com/tfernd/HyperTile  
+- 初始 Gradio 脚本 - 由匿名用户在 4chan 发布。感谢匿名用户。  
 - （你）
+
+
 
 ---
 
-[Powered By OpenAiTx](https://github.com/OpenAiTx/OpenAiTx)
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-07
 
 ---

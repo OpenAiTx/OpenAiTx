@@ -1,0 +1,1059 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <h1 align=\"center\">VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step</h1>\n  <p align=\"center\">\n    <a href=\"https://hanyang-21.github.io/\">Hanyang Wang</a><sup>*</sup>,\n    <a href=\"https://liuff19.github.io/\">Fangfu Liu</a><sup>*</sup>,\n    <a href=\"https://github.com/hanyang-21/VideoScene\">Jiawei Chi</a>,\n    <a href=\"https://duanyueqi.github.io/\">Yueqi Duan</a>\n    <br>\n    <sup>*</sup>Equal Contribution.\n    <br>\n    Tsinghua University\n  </p>\n  <h3 align=\"center\">CVPR 2025 Hightlight 🔥</h3>\n  <h5 align=\"center\">\n\n[![arXiv](https://img.shields.io/badge/Arxiv-2403.20309-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2504.01956) \n[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://hanyang-21.github.io/VideoScene)\n<a><img src='https://img.shields.io/badge/License-MIT-blue'></a>\n<a href='https://mp.weixin.qq.com/s/u6OUo5mHKPG6I3yYJPMC8Q'><img src='https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%E4%B8%AD%E6%96%87%E4%BB%8B%E7%BB%8D-green'></a>\n\n</h5>\n  <!-- <h3 align=\"center\"><a href=\"https://arxiv.org/abs/\">Paper</a> | <a href=\"\">Project Page</a> | <a href=\"\">Pretrained Models</a> </h3> -->\n<!--   <div align=\"center\">\n    <a href=\"https://news.ycombinator.com/item?id=41222655\">\n      <img\n        alt=\"Featured on Hacker News\"\n        src=\"https://hackerbadge.vercel.app/api?id=41222655&type=dark\"\n      />\n    </a>\n  </div> -->\n\n</p>\n\n<div align=\"center\">\nVideoScene is a one-step video diffusion model that bridges the gap from video to 3D.\n</div>\n</br>\n\n\nhttps://github.com/user-attachments/assets/dca733b1-b78f-49ac-ae47-5d1b1e8a689b\n\nBuilding on [ReconX](https://github.com/liuff19/ReconX), VideoScene has achieved a turbo-version advancement.\n\n\n\n## Installation\n\nTo get started, clone this project, create a conda virtual environment using Python 3.10+, and install the requirements:\n\n1. Clone VideoScene.",
+    "ContentSha": "kEerAxSkZoqoBh+eypqECgba1SIwF9LI1sVz36iEhxg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <h1 align=\"center\">VideoScene: Destilando un Modelo de Difusión de Video para Generar Escenas 3D en un Solo Paso</h1>\n  <p align=\"center\">\n    <a href=\"https://hanyang-21.github.io/\">Hanyang Wang</a><sup>*</sup>,\n    <a href=\"https://liuff19.github.io/\">Fangfu Liu</a><sup>*</sup>,\n    <a href=\"https://github.com/hanyang-21/VideoScene\">Jiawei Chi</a>,\n    <a href=\"https://duanyueqi.github.io/\">Yueqi Duan</a>\n    <br>\n    <sup>*</sup>Contribución Igual.\n    <br>\n    Universidad de Tsinghua\n  </p>\n  <h3 align=\"center\">Destacado CVPR 2025 🔥</h3>\n  <h5 align=\"center\">\n\n[![arXiv](https://img.shields.io/badge/Arxiv-2403.20309-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2504.01956) \n[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://hanyang-21.github.io/VideoScene)\n<a><img src='https://img.shields.io/badge/License-MIT-blue'></a>\n<a href='https://mp.weixin.qq.com/s/u6OUo5mHKPG6I3yYJPMC8Q'><img src='https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%E4%B8%AD%E6%96%87%E4%BB%8B%E7%BB%8D-green'></a>\n\n</h5>\n  <!-- <h3 align=\"center\"><a href=\"https://arxiv.org/abs/\">Paper</a> | <a href=\"\">Project Page</a> | <a href=\"\">Pretrained Models</a> </h3> -->\n<!--   <div align=\"center\">\n    <a href=\"https://news.ycombinator.com/item?id=41222655\">\n      <img\n        alt=\"Featured on Hacker News\"\n        src=\"https://hackerbadge.vercel.app/api?id=41222655&type=dark\"\n      />\n    </a>\n  </div> -->\n\n</p>\n\n<div align=\"center\">\nVideoScene es un modelo de difusión de video en un solo paso que cierra la brecha del video al 3D.\n</div>\n</br>\n\n\nhttps://github.com/user-attachments/assets/dca733b1-b78f-49ac-ae47-5d1b1e8a689b\n\nBasado en [ReconX](https://github.com/liuff19/ReconX), VideoScene ha logrado un avance en versión turbo.\n\n\n\n## Instalación\n\nPara comenzar, clona este proyecto, crea un entorno virtual conda usando Python 3.10+ e instala los requisitos:\n\n1. Clona VideoScene.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "7sjR8w4BUNyFltt/2To9Tw1XfNatf6+F9stklXl8A0M=",
+        "originContent": "  <h1 align=\"center\">VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step</h1>",
+        "translatedContent": "  <h1 align=\"center\">VideoScene: Destilando un Modelo de Difusión de Video para Generar Escenas 3D en un Solo Paso</h1>"
+      },
+      {
+        "row": 3,
+        "rowsha": "bxjJn5W5U4615UwnNH02Y8/BQYk3ChIXDUAi1KtQj40=",
+        "originContent": "  <p align=\"center\">",
+        "translatedContent": "  <p align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "+rEDK1dpXp8Js1pUrIKEA+msWINaiMCLscPYFu0mWdI=",
+        "originContent": "    <a href=\"https://hanyang-21.github.io/\">Hanyang Wang</a><sup>*</sup>,",
+        "translatedContent": "    <a href=\"https://hanyang-21.github.io/\">Hanyang Wang</a><sup>*</sup>,"
+      },
+      {
+        "row": 5,
+        "rowsha": "PhP1cEdR6gFszEgLTHS6Ee6IEDABLNqh/WqGyvG5tEs=",
+        "originContent": "    <a href=\"https://liuff19.github.io/\">Fangfu Liu</a><sup>*</sup>,",
+        "translatedContent": "    <a href=\"https://liuff19.github.io/\">Fangfu Liu</a><sup>*</sup>,"
+      },
+      {
+        "row": 6,
+        "rowsha": "xqKdM/hPYNoR1d+gr5ANQm8+JAXhMkrm8DmTwFNr3eM=",
+        "originContent": "    <a href=\"https://github.com/hanyang-21/VideoScene\">Jiawei Chi</a>,",
+        "translatedContent": "    <a href=\"https://github.com/hanyang-21/VideoScene\">Jiawei Chi</a>,"
+      },
+      {
+        "row": 7,
+        "rowsha": "0YiZq22rl1qKOiqwHh3ui79TmWUOeTVmSD4uH/9tC1o=",
+        "originContent": "    <a href=\"https://duanyueqi.github.io/\">Yueqi Duan</a>",
+        "translatedContent": "    <a href=\"https://duanyueqi.github.io/\">Yueqi Duan</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "ldkof3tSZSR8AxV1iN1j5dYOMEW2sgWcUEGXzSXIgLw=",
+        "originContent": "    <br>",
+        "translatedContent": "    <br>"
+      },
+      {
+        "row": 9,
+        "rowsha": "eKo569+zYkWWIr0Wi2txJekKroqKHJ7dvk4n7WZz53s=",
+        "originContent": "    <sup>*</sup>Equal Contribution.",
+        "translatedContent": "    <sup>*</sup>Contribución Igual."
+      },
+      {
+        "row": 10,
+        "rowsha": "ldkof3tSZSR8AxV1iN1j5dYOMEW2sgWcUEGXzSXIgLw=",
+        "originContent": "    <br>",
+        "translatedContent": "    <br>"
+      },
+      {
+        "row": 11,
+        "rowsha": "fVwMRvm35Y7FKXPlUofz3hZmeHg4iQ/aPU2wjoGp5Og=",
+        "originContent": "    Tsinghua University",
+        "translatedContent": "    Universidad de Tsinghua"
+      },
+      {
+        "row": 12,
+        "rowsha": "xekGMwR1kXr+mg5XAB6V3dYHsyhEy+YsYHHE8Tdsue4=",
+        "originContent": "  </p>",
+        "translatedContent": "  </p>"
+      },
+      {
+        "row": 13,
+        "rowsha": "FNfX5pfBJDx/BsZHU/rjydNaL3R+r9e7ekt5HKeIsvM=",
+        "originContent": "  <h3 align=\"center\">CVPR 2025 Hightlight 🔥</h3>",
+        "translatedContent": "  <h3 align=\"center\">Destacado CVPR 2025 🔥</h3>"
+      },
+      {
+        "row": 14,
+        "rowsha": "BOxz8MRb/P1GiY7h6a4Lh8T7se4F+N6NS8PEtQAp+c4=",
+        "originContent": "  <h5 align=\"center\">",
+        "translatedContent": "  <h5 align=\"center\">"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "LSY98OnJdkHQ1kvCq3ocdtbnKmkcyol4mL56NsKp80c=",
+        "originContent": "[![arXiv](https://img.shields.io/badge/Arxiv-2403.20309-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2504.01956) ",
+        "translatedContent": "[![arXiv](https://img.shields.io/badge/Arxiv-2403.20309-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2504.01956) "
+      },
+      {
+        "row": 17,
+        "rowsha": "+e+OuPhqq0XT+cUEXERBa3CNzwKbIld30rBx5hZY0dw=",
+        "originContent": "[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://hanyang-21.github.io/VideoScene)",
+        "translatedContent": "[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://hanyang-21.github.io/VideoScene)"
+      },
+      {
+        "row": 18,
+        "rowsha": "4lOdkTfaeqUwijrOd+lpTE04tIgolI0nrBYnn7oWZns=",
+        "originContent": "<a><img src='https://img.shields.io/badge/License-MIT-blue'></a>",
+        "translatedContent": "<a><img src='https://img.shields.io/badge/License-MIT-blue'></a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "I04/yy1fu/fEsYRr5/eWc3GrLAaKSNpopEzNCABBhLU=",
+        "originContent": "<a href='https://mp.weixin.qq.com/s/u6OUo5mHKPG6I3yYJPMC8Q'><img src='https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%E4%B8%AD%E6%96%87%E4%BB%8B%E7%BB%8D-green'></a>",
+        "translatedContent": "<a href='https://mp.weixin.qq.com/s/u6OUo5mHKPG6I3yYJPMC8Q'><img src='https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%E4%B8%AD%E6%96%87%E4%BB%8B%E7%BB%8D-green'></a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "YM0w/+Gy2nPkE/+F3BY5fsV16Jbdv4iAtRjMamnhSqE=",
+        "originContent": "</h5>",
+        "translatedContent": "</h5>"
+      },
+      {
+        "row": 22,
+        "rowsha": "zW50lMGry6bnufOW7lWHejDJepzq3ugS/w+QfqtlN64=",
+        "originContent": "  <!-- <h3 align=\"center\"><a href=\"https://arxiv.org/abs/\">Paper</a> | <a href=\"\">Project Page</a> | <a href=\"\">Pretrained Models</a> </h3> -->",
+        "translatedContent": "  <!-- <h3 align=\"center\"><a href=\"https://arxiv.org/abs/\">Paper</a> | <a href=\"\">Project Page</a> | <a href=\"\">Pretrained Models</a> </h3> -->"
+      },
+      {
+        "row": 23,
+        "rowsha": "XPweTq8BHz4cdP4uuoQY5MJR9uZXPJtH07tNurUXXo4=",
+        "originContent": "<!--   <div align=\"center\">",
+        "translatedContent": "<!--   <div align=\"center\">"
+      },
+      {
+        "row": 24,
+        "rowsha": "6iYLxyWtQ/gXIWm0JZDPeOIXNyhNpsqTMBvGZt6gRSo=",
+        "originContent": "    <a href=\"https://news.ycombinator.com/item?id=41222655\">",
+        "translatedContent": "    <a href=\"https://news.ycombinator.com/item?id=41222655\">"
+      },
+      {
+        "row": 25,
+        "rowsha": "lpVVi0rj7X00Y/3z1vZt5TiCxCVlv1099iKilkfgfw4=",
+        "originContent": "      <img",
+        "translatedContent": "      <img"
+      },
+      {
+        "row": 26,
+        "rowsha": "4lodnPk+Il3OnRDWBwG21p/A6VJ7ghU9gITfuI+rjCk=",
+        "originContent": "        alt=\"Featured on Hacker News\"",
+        "translatedContent": "        alt=\"Featured on Hacker News\""
+      },
+      {
+        "row": 27,
+        "rowsha": "l3rIZV+mD0bjmTQ6TQgnAD4F3Qa2OG9Cv88VEaKggCs=",
+        "originContent": "        src=\"https://hackerbadge.vercel.app/api?id=41222655&type=dark\"",
+        "translatedContent": "        src=\"https://hackerbadge.vercel.app/api?id=41222655&type=dark\""
+      },
+      {
+        "row": 28,
+        "rowsha": "5wp2GBwQoHZoG0b0x7DA8igs4rjwg5du1U92ZziR368=",
+        "originContent": "      />",
+        "translatedContent": "      />"
+      },
+      {
+        "row": 29,
+        "rowsha": "r52QjIbZf1aIcwCydWRFx1LDX4Vc0bsXMVxnkEUrqHA=",
+        "originContent": "    </a>",
+        "translatedContent": "    </a>"
+      },
+      {
+        "row": 30,
+        "rowsha": "8qaiKVdfXcp8A95L6kxJ2KBUhytQCn6omZl7mPa7UQ4=",
+        "originContent": "  </div> -->",
+        "translatedContent": "  </div> -->"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 35,
+        "rowsha": "SeLfcGkBldB9qJvQTi/H2E/VOQ/GIp83P6wrEGjR21g=",
+        "originContent": "VideoScene is a one-step video diffusion model that bridges the gap from video to 3D.",
+        "translatedContent": "VideoScene es un modelo de difusión de video en un solo paso que cierra la brecha del video al 3D."
+      },
+      {
+        "row": 36,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 37,
+        "rowsha": "7s9q1NJ/yyokhTktGw5lSs/FO1fQ83HZfNVIsHV8n9c=",
+        "originContent": "</br>",
+        "translatedContent": "</br>"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "Jvq57OXnNkA8SMfIDuXz9H0z/ExTLOi1zho6hyOKPx0=",
+        "originContent": "https://github.com/user-attachments/assets/dca733b1-b78f-49ac-ae47-5d1b1e8a689b",
+        "translatedContent": "https://github.com/user-attachments/assets/dca733b1-b78f-49ac-ae47-5d1b1e8a689b"
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 42,
+        "rowsha": "tA7l11axGEhlSlxCKi8FhJBsT4GadVsN85knReeFqhA=",
+        "originContent": "Building on [ReconX](https://github.com/liuff19/ReconX), VideoScene has achieved a turbo-version advancement.",
+        "translatedContent": "Basado en [ReconX](https://github.com/liuff19/ReconX), VideoScene ha logrado un avance en versión turbo."
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Instalación"
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 48,
+        "rowsha": "baHKq2cZk4tM9HMtYu1FvonTFWrGr82tJSYXPD6xpB4=",
+        "originContent": "To get started, clone this project, create a conda virtual environment using Python 3.10+, and install the requirements:",
+        "translatedContent": "Para comenzar, clona este proyecto, crea un entorno virtual conda usando Python 3.10+ e instala los requisitos:"
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "jtpI2amsnUHNCTxu3Y1dFKlE1JW013Vv2UvlmIlO3Gg=",
+        "originContent": "1. Clone VideoScene.",
+        "translatedContent": "1. Clona VideoScene."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngit clone https://github.com/hanyang-21/VideoScene\ncd VideoScene\n```",
+    "ContentSha": "Cwg8WDS22NiCHHYopvnSBvtuZB9yRVhPkivkKI403G0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/hanyang-21/VideoScene\ncd VideoScene\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "zljNzo0TwyTnxOtZ3o42OMQTOIu1d+bpSRFVK5qijlE=",
+        "originContent": "git clone https://github.com/hanyang-21/VideoScene",
+        "translatedContent": "git clone https://github.com/hanyang-21/VideoScene"
+      },
+      {
+        "row": 3,
+        "rowsha": "mrXTzVD/5MCG4whrUjxP/M6VTAtvh5h6HjsDS934W0M=",
+        "originContent": "cd VideoScene",
+        "translatedContent": "cd VideoScene"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n2. Create the environment, here we show an example using conda.",
+    "ContentSha": "uFFgdlSgaQmYZfoX1oCHZbkjMNTC1PduC9MtdEalzM0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Crea el entorno, aquí mostramos un ejemplo usando conda.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. Crea el entorno, aquí mostramos un ejemplo usando conda."
+      },
+      {
+        "row": 2,
+        "rowsha": "31Dfad6AcdyB5XsnbjSCkDHWMyt/0ZHFBQUxR6ts+G0=",
+        "originContent": "2. Create the environment, here we show an example using conda.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nconda create -y -n videoscene python=3.10\nconda activate videoscene\npip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118\npip install -r requirements.txt\n```",
+    "ContentSha": "cZTLGVpMEcrht4Jvm5GC/V7xT8MA7hTa0o/rMg859bw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nconda create -y -n videoscene python=3.10\nconda activate videoscene\npip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "EY4sHnwfcC8dElK/+QRkV7oi2mrbiNTiz3sPu1gnZF4=",
+        "originContent": "conda create -y -n videoscene python=3.10",
+        "translatedContent": "conda create -y -n videoscene python=3.10"
+      },
+      {
+        "row": 3,
+        "rowsha": "Yjt6jqANUsOmDZ6o4Ddl0DaqGbDfT0dIolkGWWZr2xA=",
+        "originContent": "conda activate videoscene",
+        "translatedContent": "conda activate videoscene"
+      },
+      {
+        "row": 4,
+        "rowsha": "7HGXLPu5OklwX2BS9s0W57/KyXP3//DPuaBmyzjG0RY=",
+        "originContent": "pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118",
+        "translatedContent": "pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118"
+      },
+      {
+        "row": 5,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n3. Optional, compile the cuda kernels for RoPE (as in CroCo v2).",
+    "ContentSha": "4TtjmMIg5lM3doqqW7CDKFSk++4Q9rqn7a2Cf9PvFNQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n3. Opcional, compilar los kernels de cuda para RoPE (como en CroCo v2).",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ZPgnnfMDvo4YUAYq4By4HfTEG9zWP93gvHcdMY5Jv6E=",
+        "originContent": "3. Optional, compile the cuda kernels for RoPE (as in CroCo v2).",
+        "translatedContent": "3. Opcional, compilar los kernels de cuda para RoPE (como en CroCo v2)."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# NoPoSplat relies on RoPE positional embeddings for which you can compile some cuda kernels for faster runtime.\ncd src/model/encoder/backbone/croco/curope/\npython setup.py build_ext --inplace\ncd ../../../../../..\n```",
+    "ContentSha": "hXnkyz48DeySBBQMVTmAonakwm5C3yw8l7IqBUlBXxQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# NoPoSplat relies on RoPE positional embeddings for which you can compile some cuda kernels for faster runtime.\ncd src/model/encoder/backbone/croco/curope/\npython setup.py build_ext --inplace\ncd ../../../../../..\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "kYS3aAT5+qX5O+SXOHyyJCsfHDV7HUJ6iBLa77ZBQsI=",
+        "originContent": "# NoPoSplat relies on RoPE positional embeddings for which you can compile some cuda kernels for faster runtime.",
+        "translatedContent": "# NoPoSplat relies on RoPE positional embeddings for which you can compile some cuda kernels for faster runtime."
+      },
+      {
+        "row": 3,
+        "rowsha": "ElHE/vw6jm9GCD/EIJvODeg8lc3nMkRYCs6SiKbJQ4Q=",
+        "originContent": "cd src/model/encoder/backbone/croco/curope/",
+        "translatedContent": "cd src/model/encoder/backbone/croco/curope/"
+      },
+      {
+        "row": 4,
+        "rowsha": "EO6iGOJXxFWOCJlIhhvRylaZpoa1R8PznZM9jDek55w=",
+        "originContent": "python setup.py build_ext --inplace",
+        "translatedContent": "python setup.py build_ext --inplace"
+      },
+      {
+        "row": 5,
+        "rowsha": "rOJkvL4dAg0TeHcJmlBs5rNJsS0p5nJ4PCDVO1QndEA=",
+        "originContent": "cd ../../../../../..",
+        "translatedContent": "cd ../../../../../.."
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## Acquiring Datasets\n\n### RealEstate10K and ACID\n\nOur VideoScene uses the same training datasets as pixelSplat. Below we quote pixelSplat's [detailed instructions](https://github.com/dcharatan/pixelsplat?tab=readme-ov-file#acquiring-datasets) on getting datasets.\n\n> pixelSplat was trained using versions of the RealEstate10k and ACID datasets that were split into ~100 MB chunks for use on server cluster file systems. Small subsets of the Real Estate 10k and ACID datasets in this format can be found [here](https://drive.google.com/drive/folders/1joiezNCyQK2BvWMnfwHJpm2V77c7iYGe?usp=sharing). To use them, simply unzip them into a newly created `datasets` folder in the project root directory.\n\n> If you would like to convert downloaded versions of the Real Estate 10k and ACID datasets to our format, you can use the [scripts here](https://github.com/dcharatan/real_estate_10k_tools). Reach out to us (pixelSplat) if you want the full versions of our processed datasets, which are about 500 GB and 160 GB for Real Estate 10k and ACID respectively.\n\n## Downloading checkpoints\n\n* download our [pretrained weights](https://wisemodel.cn/models/hanyang/VideoScene/file) (`VideoScene/checkpoints/model.safetensors` and `VideoScene/checkpoints/prompt_embeds.pt`), and save them to `checkpoints`.\n\n* for customized image inputs, get the NoPoSplat [pretrained models](https://huggingface.co/botaoye/NoPoSplat/resolve/main/mixRe10kDl3dv_512x512.ckpt), and save them to `checkpoints/noposplat`.\n\n\n* for RealEstate10K datasets, get the MVSplat [pretrained models](https://drive.google.com/drive/folders/14_E_5R6ojOWnLSrSVLVEMHnTiKsfddjU), and save them to `checkpoints/mvsplat`.\n\n## Running the Code\n\n### Gradio Demo\nIn this demo, you can run VideoScene on your machine to generate a video with unposed input views.\n\n* select image pairs that depicts the same scene and hit \"RUN\" for a video of the scene.\n",
+    "ContentSha": "49zP07bdLOPsh2bucMcIrrRpy11ZE7PJhSSZgWmSong=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Adquisición de Conjuntos de Datos\n\n### RealEstate10K y ACID\n\nNuestro VideoScene usa los mismos conjuntos de datos de entrenamiento que pixelSplat. A continuación citamos las [instrucciones detalladas](https://github.com/dcharatan/pixelsplat?tab=readme-ov-file#acquiring-datasets) de pixelSplat para obtener conjuntos de datos.\n\n> pixelSplat fue entrenado usando versiones de los conjuntos de datos RealEstate10k y ACID que fueron divididos en fragmentos de ~100 MB para su uso en sistemas de archivos de clústeres de servidores. Pequeños subconjuntos de los conjuntos de datos Real Estate 10k y ACID en este formato pueden encontrarse [aquí](https://drive.google.com/drive/folders/1joiezNCyQK2BvWMnfwHJpm2V77c7iYGe?usp=sharing). Para usarlos, simplemente descomprímelos en una carpeta `datasets` recién creada en el directorio raíz del proyecto.\n\n> Si quieres convertir versiones descargadas de los conjuntos de datos Real Estate 10k y ACID a nuestro formato, puedes usar los [scripts aquí](https://github.com/dcharatan/real_estate_10k_tools). Contáctanos (pixelSplat) si deseas las versiones completas de nuestros conjuntos de datos procesados, que son aproximadamente 500 GB y 160 GB para Real Estate 10k y ACID respectivamente.\n\n## Descarga de puntos de control\n\n* descarga nuestros [pesos preentrenados](https://wisemodel.cn/models/hanyang/VideoScene/file) (`VideoScene/checkpoints/model.safetensors` y `VideoScene/checkpoints/prompt_embeds.pt`), y guárdalos en `checkpoints`.\n\n* para entradas de imagen personalizadas, obtén los modelos preentrenados NoPoSplat [aquí](https://huggingface.co/botaoye/NoPoSplat/resolve/main/mixRe10kDl3dv_512x512.ckpt), y guárdalos en `checkpoints/noposplat`.\n\n* para los conjuntos de datos RealEstate10K, obtén los modelos preentrenados MVSplat [aquí](https://drive.google.com/drive/folders/14_E_5R6ojOWnLSrSVLVEMHnTiKsfddjU), y guárdalos en `checkpoints/mvsplat`.\n\n## Ejecución del Código\n\n### Demo Gradio\nEn esta demo, puedes ejecutar VideoScene en tu máquina para generar un video con vistas de entrada no posadas.\n\n* selecciona pares de imágenes que representen la misma escena y pulsa \"RUN\" para obtener un video de la escena.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "2KTVnsJs9C1tPBnWlYava7zzOxNlYh6v7zQx2f1HKW0=",
+        "originContent": "## Acquiring Datasets",
+        "translatedContent": "## Adquisición de Conjuntos de Datos"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "V5rXkWNXkhY1ik4RjpR7AJi8of293nRnjNzigdin8cc=",
+        "originContent": "### RealEstate10K and ACID",
+        "translatedContent": "### RealEstate10K y ACID"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "9a9FRoBd3H403ZkR+VSwQiY1cpopJh2QS3InnBsUuXg=",
+        "originContent": "Our VideoScene uses the same training datasets as pixelSplat. Below we quote pixelSplat's [detailed instructions](https://github.com/dcharatan/pixelsplat?tab=readme-ov-file#acquiring-datasets) on getting datasets.",
+        "translatedContent": "Nuestro VideoScene usa los mismos conjuntos de datos de entrenamiento que pixelSplat. A continuación citamos las [instrucciones detalladas](https://github.com/dcharatan/pixelsplat?tab=readme-ov-file#acquiring-datasets) de pixelSplat para obtener conjuntos de datos."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Nwx86R5UYZEkLML4rX89eraR+4eo/L3Jj61hVxYs9R8=",
+        "originContent": "> pixelSplat was trained using versions of the RealEstate10k and ACID datasets that were split into ~100 MB chunks for use on server cluster file systems. Small subsets of the Real Estate 10k and ACID datasets in this format can be found [here](https://drive.google.com/drive/folders/1joiezNCyQK2BvWMnfwHJpm2V77c7iYGe?usp=sharing). To use them, simply unzip them into a newly created `datasets` folder in the project root directory.",
+        "translatedContent": "> pixelSplat fue entrenado usando versiones de los conjuntos de datos RealEstate10k y ACID que fueron divididos en fragmentos de ~100 MB para su uso en sistemas de archivos de clústeres de servidores. Pequeños subconjuntos de los conjuntos de datos Real Estate 10k y ACID en este formato pueden encontrarse [aquí](https://drive.google.com/drive/folders/1joiezNCyQK2BvWMnfwHJpm2V77c7iYGe?usp=sharing). Para usarlos, simplemente descomprímelos en una carpeta `datasets` recién creada en el directorio raíz del proyecto."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "cCnQ1rKV1cENWF+ARMSmtWk+xAIGUpAeHXryZIxzHs4=",
+        "originContent": "> If you would like to convert downloaded versions of the Real Estate 10k and ACID datasets to our format, you can use the [scripts here](https://github.com/dcharatan/real_estate_10k_tools). Reach out to us (pixelSplat) if you want the full versions of our processed datasets, which are about 500 GB and 160 GB for Real Estate 10k and ACID respectively.",
+        "translatedContent": "> Si quieres convertir versiones descargadas de los conjuntos de datos Real Estate 10k y ACID a nuestro formato, puedes usar los [scripts aquí](https://github.com/dcharatan/real_estate_10k_tools). Contáctanos (pixelSplat) si deseas las versiones completas de nuestros conjuntos de datos procesados, que son aproximadamente 500 GB y 160 GB para Real Estate 10k y ACID respectivamente."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "f8x6qwRppWIx25qvawcG6PRJSeCqCtL9ZgbEWjXeK7w=",
+        "originContent": "## Downloading checkpoints",
+        "translatedContent": "## Descarga de puntos de control"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "NVBSolKlmPj+6YQU71WH2NWl5npvJUgJ3KRyPm2qUos=",
+        "originContent": "* download our [pretrained weights](https://wisemodel.cn/models/hanyang/VideoScene/file) (`VideoScene/checkpoints/model.safetensors` and `VideoScene/checkpoints/prompt_embeds.pt`), and save them to `checkpoints`.",
+        "translatedContent": "* descarga nuestros [pesos preentrenados](https://wisemodel.cn/models/hanyang/VideoScene/file) (`VideoScene/checkpoints/model.safetensors` y `VideoScene/checkpoints/prompt_embeds.pt`), y guárdalos en `checkpoints`."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "pc6OtnjC8ulg6sRoMoBfQsf65DUqpyXQBJto2ufR4Xg=",
+        "originContent": "* for customized image inputs, get the NoPoSplat [pretrained models](https://huggingface.co/botaoye/NoPoSplat/resolve/main/mixRe10kDl3dv_512x512.ckpt), and save them to `checkpoints/noposplat`.",
+        "translatedContent": "* para entradas de imagen personalizadas, obtén los modelos preentrenados NoPoSplat [aquí](https://huggingface.co/botaoye/NoPoSplat/resolve/main/mixRe10kDl3dv_512x512.ckpt), y guárdalos en `checkpoints/noposplat`."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* para los conjuntos de datos RealEstate10K, obtén los modelos preentrenados MVSplat [aquí](https://drive.google.com/drive/folders/14_E_5R6ojOWnLSrSVLVEMHnTiKsfddjU), y guárdalos en `checkpoints/mvsplat`."
+      },
+      {
+        "row": 19,
+        "rowsha": "r8NzYkFTO/7yafpTL6GVZOdJW/C4a/gTrJEN+2UYqNw=",
+        "originContent": "* for RealEstate10K datasets, get the MVSplat [pretrained models](https://drive.google.com/drive/folders/14_E_5R6ojOWnLSrSVLVEMHnTiKsfddjU), and save them to `checkpoints/mvsplat`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Ejecución del Código"
+      },
+      {
+        "row": 21,
+        "rowsha": "YKmHTzabQNg3HUjPOO0sP8dYSq8NVR2VUHu0LUsvIOQ=",
+        "originContent": "## Running the Code",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Demo Gradio"
+      },
+      {
+        "row": 23,
+        "rowsha": "vMju2QckEfiWCTECo+YgUXnpWE8IevYVfGSxv5ZKN5Q=",
+        "originContent": "### Gradio Demo",
+        "translatedContent": "En esta demo, puedes ejecutar VideoScene en tu máquina para generar un video con vistas de entrada no posadas."
+      },
+      {
+        "row": 24,
+        "rowsha": "rKvA3Ei447+IskhkjCPpMiQkeRdIfRwjQ9I41unLzIw=",
+        "originContent": "In this demo, you can run VideoScene on your machine to generate a video with unposed input views.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* selecciona pares de imágenes que representen la misma escena y pulsa \"RUN\" para obtener un video de la escena."
+      },
+      {
+        "row": 26,
+        "rowsha": "Qa2o4O4aylHr8sBWPSqNhOSWnVCn2OKlbO/kCbdZCaI=",
+        "originContent": "* select image pairs that depicts the same scene and hit \"RUN\" for a video of the scene.",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\npython -m noposplat.src.app \\\n    checkpointing.load=checkpoints/noposplat/mixRe10kDl3dv_512x512.ckpt \\\n    test.video=checkpoints/model.safetensors\n\n# also \"bash demo.sh\"\n```",
+    "ContentSha": "DPXflRb+bdd71UBiSvHSRVdq/VLfwjdvjpkbOkG8cNw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython -m noposplat.src.app \\\n    checkpointing.load=checkpoints/noposplat/mixRe10kDl3dv_512x512.ckpt \\\n    test.video=checkpoints/model.safetensors\n\n# also \"bash demo.sh\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "BO/60Yu29218BQsjHFK57EdGifAUjW8gZZg2WMQNnd8=",
+        "originContent": "python -m noposplat.src.app \\",
+        "translatedContent": "python -m noposplat.src.app \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "mpuUhCc273IwjyuMtLTjMcQXG4UXTVMT7n5hlr3AfEc=",
+        "originContent": "    checkpointing.load=checkpoints/noposplat/mixRe10kDl3dv_512x512.ckpt \\",
+        "translatedContent": "    checkpointing.load=checkpoints/noposplat/mixRe10kDl3dv_512x512.ckpt \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "dIdrLRYUDpU0QMJwWcZ0FIwdzhQnKCNtr5bayIMO8f4=",
+        "originContent": "    test.video=checkpoints/model.safetensors",
+        "translatedContent": "    test.video=checkpoints/model.safetensors"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ZwPMDF2yzTax343wdUBl5lZyKP1gUNCQSYOpGRfKnPc=",
+        "originContent": "# also \"bash demo.sh\"",
+        "translatedContent": "# also \"bash demo.sh\""
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "* the generated video will be stored under `outputs/gradio`\n\n### Inference\n\nTo generate videos on RealEstate10K dataseets, we use a [MVSplat](https://github.com/donydchen/mvsplat) pretrained model,\n\n* run the following:\n",
+    "ContentSha": "PjpXVXmdFGU1xSpdW4YKB4Zj7BS6u6s6QiChhXTfjI0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* el video generado se almacenará en `outputs/gradio`\n\n### Inferencia\n\nPara generar videos en los conjuntos de datos RealEstate10K, usamos un modelo preentrenado [MVSplat](https://github.com/donydchen/mvsplat),\n\n* ejecute lo siguiente:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Cylinf0U3KMKenroIfkJk6ydEXQOf1JJ+SO16niu0T0=",
+        "originContent": "* the generated video will be stored under `outputs/gradio`",
+        "translatedContent": "* el video generado se almacenará en `outputs/gradio`"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "2SmNjqU06v1YA3xkfV0D3vipmwN42OP1QG6rSUyG2B4=",
+        "originContent": "### Inference",
+        "translatedContent": "### Inferencia"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "I854PNx1sEao/OEWeczql0rWd8MAW9yp4gecOsxHZrk=",
+        "originContent": "To generate videos on RealEstate10K dataseets, we use a [MVSplat](https://github.com/donydchen/mvsplat) pretrained model,",
+        "translatedContent": "Para generar videos en los conjuntos de datos RealEstate10K, usamos un modelo preentrenado [MVSplat](https://github.com/donydchen/mvsplat),"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "f/v6vbWKLGLV+QTxA9Hu40FQGwYtxPvNenuoLl4pJRk=",
+        "originContent": "* run the following:",
+        "translatedContent": "* ejecute lo siguiente:"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# re10k\npython -m mvsplat.src.main +experiment=re10k \\\ncheckpointing.load=checkpoints/mvsplat/re10k.ckpt \\\nmode=test \\\ndataset/view_sampler=evaluation \\\ndataset.view_sampler.index_path=mvsplat/assets/evaluation_index_re10k_video.json \\\ntest.save_video=true \\\ntest.save_image=false \\\ntest.compute_scores=false \\\ntest.video=checkpoints/model.safetensors\n\n# also \"bash inference.sh\"\n```",
+    "ContentSha": "HJQDSVZphYMfkq/hsxAuwik/PMGzZDfWBpQqqBDVkVk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# re10k\npython -m mvsplat.src.main +experiment=re10k \\\ncheckpointing.load=checkpoints/mvsplat/re10k.ckpt \\\nmode=test \\\ndataset/view_sampler=evaluation \\\ndataset.view_sampler.index_path=mvsplat/assets/evaluation_index_re10k_video.json \\\ntest.save_video=true \\\ntest.save_image=false \\\ntest.compute_scores=false \\\ntest.video=checkpoints/model.safetensors\n\n# also \"bash inference.sh\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "r0myyofyThgFCw9vMGlP3oHN6F8onRey7WW18/Hmjvg=",
+        "originContent": "# re10k",
+        "translatedContent": "# re10k"
+      },
+      {
+        "row": 3,
+        "rowsha": "n0THRgUYyRCZtMpeD2NhTYjZfVBl0cy0p1yF0G1SOWg=",
+        "originContent": "python -m mvsplat.src.main +experiment=re10k \\",
+        "translatedContent": "python -m mvsplat.src.main +experiment=re10k \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "3y40DfUd3rzW8fjTTWUVk229laWlGrBXuoW4JnYoZfs=",
+        "originContent": "checkpointing.load=checkpoints/mvsplat/re10k.ckpt \\",
+        "translatedContent": "checkpointing.load=checkpoints/mvsplat/re10k.ckpt \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "ogLbo5zXW9LhehryPzJOkx8Fmg8vFxV90fAvfZzvxWU=",
+        "originContent": "mode=test \\",
+        "translatedContent": "mode=test \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "SnJFISeJIPklzsMxdMMLz15+Mzsf4tTB0TU2PV8dZtE=",
+        "originContent": "dataset/view_sampler=evaluation \\",
+        "translatedContent": "dataset/view_sampler=evaluation \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "6DMH3wQhtmSsHo1h6FI2jfIIv/vuWXqB5p3tIdtdV+g=",
+        "originContent": "dataset.view_sampler.index_path=mvsplat/assets/evaluation_index_re10k_video.json \\",
+        "translatedContent": "dataset.view_sampler.index_path=mvsplat/assets/evaluation_index_re10k_video.json \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "kIlxMMUCSreHuyQ1zirHrX7iV6lGdENIRYRtuxrRoyU=",
+        "originContent": "test.save_video=true \\",
+        "translatedContent": "test.save_video=true \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "N9i/v5mdBIiEKH/Fwo/qFMQpeKULYgrrgwwgv0f3xAI=",
+        "originContent": "test.save_image=false \\",
+        "translatedContent": "test.save_image=false \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "z97TUI/cnb8vO6wkRCQrT4N8lwusOhREZoYGmuKDm+Q=",
+        "originContent": "test.compute_scores=false \\",
+        "translatedContent": "test.compute_scores=false \\"
+      },
+      {
+        "row": 11,
+        "rowsha": "/qZo/fHv15NxehTcp4JylJADjOwljX71xe75mXMbo8M=",
+        "originContent": "test.video=checkpoints/model.safetensors",
+        "translatedContent": "test.video=checkpoints/model.safetensors"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "ZBrdZpla1eLnGhjZkFccjuuQ2Nx8+V6K5JHcbvckFks=",
+        "originContent": "# also \"bash inference.sh\"",
+        "translatedContent": "# also \"bash inference.sh\""
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n* the generated video will be stored under `outputs/test`\n\n\n## BibTeX\n",
+    "ContentSha": "P+AH/wnkBHMNHKOMDFKZb5UXzb7Dg2OD42fsY2qbYGY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n* el video generado se almacenará en `outputs/test`\n\n\n## BibTeX\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "V5513JAE0sZc+J0s516AVmKtSWAXmoeaQZNb4Ort0Vo=",
+        "originContent": "* the generated video will be stored under `outputs/test`",
+        "translatedContent": "* el video generado se almacenará en `outputs/test`"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "b7jl+G7TcKN1xV5inNuAdNubLkrwyqpFVm8DeAYIjEc=",
+        "originContent": "## BibTeX",
+        "translatedContent": "## BibTeX"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bibtex\n@misc{wang2025videoscenedistillingvideodiffusion,\n      title={VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step}, \n      author={Hanyang Wang and Fangfu Liu and Jiawei Chi and Yueqi Duan},\n      year={2025},\n      eprint={2504.01956},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2504.01956}, \n}\n```",
+    "ContentSha": "OrJlTIEnYhpagE+ALSsgHu0ehFMudZPWsoPe9qKQDJc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@misc{wang2025videoscenedistillingvideodiffusion,\n      title={VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step}, \n      author={Hanyang Wang and Fangfu Liu and Jiawei Chi and Yueqi Duan},\n      year={2025},\n      eprint={2504.01956},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2504.01956}, \n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "cNMNxI1UdasuTBdInROAGIhoR9gtg2STKU3KWuIH7SI=",
+        "originContent": "@misc{wang2025videoscenedistillingvideodiffusion,",
+        "translatedContent": "@misc{wang2025videoscenedistillingvideodiffusion,"
+      },
+      {
+        "row": 3,
+        "rowsha": "f8e7iZkougm+/JJ5BRld6KEdtryo1/Yzvc/6qo2VC8c=",
+        "originContent": "      title={VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step}, ",
+        "translatedContent": "      title={VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step}, "
+      },
+      {
+        "row": 4,
+        "rowsha": "Ok1JzZC+q9VdqBr07Vw7wpczOp/fWydkFitodrZ8xks=",
+        "originContent": "      author={Hanyang Wang and Fangfu Liu and Jiawei Chi and Yueqi Duan},",
+        "translatedContent": "      author={Hanyang Wang and Fangfu Liu and Jiawei Chi and Yueqi Duan},"
+      },
+      {
+        "row": 5,
+        "rowsha": "1cuvfM9h03loQfZOlvsx9juVCvU41kevaYb2CnD9Gak=",
+        "originContent": "      year={2025},",
+        "translatedContent": "      year={2025},"
+      },
+      {
+        "row": 6,
+        "rowsha": "itqDLcEKw8Fg4q6ZXP9N/LWMAuQy0Yqa30GLTPVkv9Q=",
+        "originContent": "      eprint={2504.01956},",
+        "translatedContent": "      eprint={2504.01956},"
+      },
+      {
+        "row": 7,
+        "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+        "originContent": "      archivePrefix={arXiv},",
+        "translatedContent": "      archivePrefix={arXiv},"
+      },
+      {
+        "row": 8,
+        "rowsha": "RPNBhgHdrY2A+XYLnuhpAr/aqag2LU2pAjasgtM0tg4=",
+        "originContent": "      primaryClass={cs.CV},",
+        "translatedContent": "      primaryClass={cs.CV},"
+      },
+      {
+        "row": 9,
+        "rowsha": "INusw8miL6vPQz/Vsrdu2Qx6uM2BVWKSM+IOqElAKL0=",
+        "originContent": "      url={https://arxiv.org/abs/2504.01956}, ",
+        "translatedContent": "      url={https://arxiv.org/abs/2504.01956}, "
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## Acknowledgements\n\nThis project is developed with several fantastic repos: [ReconX](https://github.com/liuff19/ReconX), [MVSplat](https://github.com/donydchen/mvsplat), [NoPoSplat](https://github.com/cvg/NoPoSplat), [CogVideo](https://github.com/THUDM/CogVideo), and [CogvideX-Interpolation](https://github.com/feizc/CogvideX-Interpolation). Many thanks to these projects for their excellent contributions!\n",
+    "ContentSha": "WPYlR2ppog7wJLm573zbprmucvkUGnAwDQA0pJ/Th7w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Agradecimientos\n\nEste proyecto se desarrolla con varios repositorios fantásticos: [ReconX](https://github.com/liuff19/ReconX), [MVSplat](https://github.com/donydchen/mvsplat), [NoPoSplat](https://github.com/cvg/NoPoSplat), [CogVideo](https://github.com/THUDM/CogVideo), y [CogvideX-Interpolation](https://github.com/feizc/CogvideX-Interpolation). ¡Muchas gracias a estos proyectos por sus excelentes contribuciones!\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+        "originContent": "## Acknowledgements",
+        "translatedContent": "## Agradecimientos"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "6D663waQZsF+zaOrO8J6ISDW2gziojbNQ00E11JCgPA=",
+        "originContent": "This project is developed with several fantastic repos: [ReconX](https://github.com/liuff19/ReconX), [MVSplat](https://github.com/donydchen/mvsplat), [NoPoSplat](https://github.com/cvg/NoPoSplat), [CogVideo](https://github.com/THUDM/CogVideo), and [CogvideX-Interpolation](https://github.com/feizc/CogvideX-Interpolation). Many thanks to these projects for their excellent contributions!",
+        "translatedContent": "Este proyecto se desarrolla con varios repositorios fantásticos: [ReconX](https://github.com/liuff19/ReconX), [MVSplat](https://github.com/donydchen/mvsplat), [NoPoSplat](https://github.com/cvg/NoPoSplat), [CogVideo](https://github.com/THUDM/CogVideo), y [CogvideX-Interpolation](https://github.com/feizc/CogvideX-Interpolation). ¡Muchas gracias a estos proyectos por sus excelentes contribuciones!"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

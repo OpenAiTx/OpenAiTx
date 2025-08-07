@@ -195,7 +195,7 @@
     "row": 33,
     "rowsha": "VRGjp0FtfvQ89lbX/wJLis2ypCRtNJwe8ViIi29+Rko=",
     "originContent": "# TimeCapsule LLM",
-    "translatedContent": "Um LLM treinado apenas com dados de certos períodos de tempo para reduzir o viés moderno."
+    "translatedContent": "Um LLM treinado apenas com dados de certos períodos para reduzir o viés moderno."
   },
   {
     "row": 34,
@@ -219,7 +219,7 @@
     "row": 37,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Baseado no [nanoGPT de Andrej Karpathy](https://github.com/karpathy/nanoGPT) Os scripts principais de treinamento e a arquitetura do modelo são de sua autoria."
+    "translatedContent": "Construído sobre o [nanoGPT de Andrej Karpathy](https://github.com/karpathy/nanoGPT) Os scripts principais de treinamento e a arquitetura do modelo são de sua autoria."
   },
   {
     "row": 38,
@@ -243,7 +243,7 @@
     "row": 41,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "TimeCapsule LLM é um projeto experimental que será treinado apenas em textos escritos durante certos períodos históricos. O objetivo é simular a visão de mundo e a linguagem de eras históricas específicas."
+    "translatedContent": "TimeCapsule LLM é um projeto experimental que será treinado apenas em textos escritos durante determinados períodos históricos. O objetivo é simular a visão de mundo e a linguagem de eras históricas específicas."
   },
   {
     "row": 42,
@@ -255,7 +255,7 @@
     "row": 43,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "# Por que apenas o fine tuning não é suficiente"
+    "translatedContent": "# Por que o fine tuning não é suficiente"
   },
   {
     "row": 44,
@@ -267,7 +267,7 @@
     "row": 45,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Se você apenas fizer fine tuning em um modelo pré-treinado, seu LLM ainda conhecerá conceitos modernos. Claro que alcançar zero viés moderno é difícil, mas quero chegar o mais próximo possível disso. Para não ter viés moderno, é preciso treinar um modelo do zero."
+    "translatedContent": "Se você apenas fizer fine tuning em um modelo pré-treinado, seu LLM ainda conhecerá conceitos modernos. Claro que conseguir zero viés moderno é difícil, mas quero chegar o mais próximo possível disso. Para não ter viés moderno, é preciso treinar um modelo do zero."
   },
   {
     "row": 46,
@@ -279,7 +279,7 @@
     "row": 47,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "# Resultados esperados"
+    "translatedContent": "# Resultados Esperados"
   },
   {
     "row": 48,
@@ -291,7 +291,7 @@
     "row": 49,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Espero que, quando finalizado, este modelo não conheça conceitos modernos e não consiga raciocinar além do que foi treinado. Ele não deve reconhecer conceitos/vocabulário modernos e espero que não \"alucine\" conhecimento atual."
+    "translatedContent": "Espero que, quando finalizado, esse modelo não conheça conceitos modernos e não seja capaz de raciocinar além do que foi treinado. Não deve reconhecer conceitos/vocabulário modernos e espero que não alucine conhecimentos atuais."
   },
   {
     "row": 50,
@@ -351,7 +351,7 @@
     "row": 59,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Até agora consegui 50 arquivos em txt e vou começar o treinamento do NanoGPT em breve"
+    "translatedContent": "Até agora consegui 50 arquivos txt e vou começar o treinamento do NanoGPT em breve"
   },
   {
     "row": 60,
@@ -363,7 +363,7 @@
     "row": 61,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Vou atualizar aqui à medida que houver progresso"
+    "translatedContent": "Vou atualizar isso enquanto houver progresso"
   },
   {
     "row": 62,
@@ -387,7 +387,7 @@
     "row": 65,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Treinei o nanoGPT com 187MB de dados históricos em texto."
+    "translatedContent": "Treinei o nanoGPT com 187MB de dados textuais históricos."
   },
   {
     "row": 66,
@@ -411,7 +411,7 @@
     "row": 69,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Comecei a baixar textos para a segunda rodada de treinamento. Estou pegando tudo do Internet Archive e expandi o período para 1800-1875. Para obter uma variedade maior de textos, você pode usar filtros de assunto e pesquisa para local de publicação, período e temas no Internet Archive."
+    "translatedContent": "Comecei a baixar textos para a segunda rodada de treinamento. Estou pegando tudo do Internet Archive e expandi o período para 1800-1875. Para obter uma gama diversificada de textos, você pode usar filtros de assunto e pesquisa para local de publicação, período e temas no Internet Archive."
   },
   {
     "row": 70,
@@ -447,7 +447,7 @@
     "row": 75,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Baixei cerca de 500 arquivos txt do Internet Archive e após limpá-los (apenas removendo espaços em branco, cabeçalhos do Gutenberg, etc.) fiquei com cerca de 500MB de dados. É um conjunto de dados pequeno, mas da última vez treinei com 187MB, então deve haver alguma diferença perceptível na saída após treinar o segundo modelo. Espero que este modelo consiga pelo menos produzir frases mais coerentes que façam algum sentido. Claro que não é garantia, pois ainda é um conjunto de dados bem pequeno, mas é mais do que usei antes."
+    "translatedContent": "Baixei cerca de 500 arquivos txt do Internet Archive e, após limpá-los (apenas removendo espaços em branco, cabeçalhos do Gutenberg, etc), tenho cerca de 500MB de dados. É um dataset pequeno, mas da última vez treinei com 187MB, então deve haver pelo menos alguma diferença perceptível na saída depois que treinar o segundo modelo. Espero que este modelo consiga pelo menos produzir frases mais coerentes que façam algum sentido. Claro que não é garantia, pois ainda é um dataset muito pequeno, mas já é mais do que usei da última vez."
   },
   {
     "row": 76,
@@ -459,7 +459,7 @@
     "row": 77,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Deve ser possível treinar no meu próprio hardware, o que é bom porque assim posso ver melhorias antes de partir para um conjunto de dados maior, o que exigiria alugar uma GPU. Mas não se preocupem, ainda pretendo alugar uma GPU em breve, só quero garantir que meu conjunto de dados esteja o mais curado e limpo possível antes. Um dos problemas é a limpeza, muitos desses txt têm trechos sem sentido misturados. Os scripts que usei para limpar funcionam, mas não são 100% eficazes."
+    "translatedContent": "Isso deve ser possível no meu próprio hardware, o que é bom também porque espero ver algum tipo de melhora antes de pular para um dataset maior, o que exigiria alugar uma GPU. Mas não se preocupe, ainda pretendo alugar uma GPU em breve, mas antes quero garantir que meu dataset esteja o mais curado e limpo possível. Um dos problemas que tenho é a limpeza, muitos desses arquivos txt têm lixo misturado. Os scripts que usei para limpar funcionam, mas não são 100% eficazes."
   },
   {
     "row": 78,
@@ -471,7 +471,7 @@
     "row": 79,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Vou treinar este conjunto de dados hoje e deve levar cerca de 4-5 horas. Assim que terminar e eu testar, darei atualizações. Obrigado novamente a todos que estão acompanhando o projeto, já teve gente me enviando links de recursos de OCR, então obrigado! Espero que mais pessoas tentem isso e experimentem com seus próprios conjuntos de dados."
+    "translatedContent": "Vou treinar esse dataset hoje e deve levar cerca de 4-5 horas. Assim que terminar e eu testar, darei atualizações. Obrigado novamente a todos que estão acompanhando meu projeto, já teve até gente me enviando links de recursos de OCR, então obrigado! Espero que mais pessoas tentem isso e experimentem com seus próprios datasets."
   },
   {
     "row": 80,
@@ -489,7 +489,7 @@
     "row": 82,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "### Atualização de Treinamento"
+    "translatedContent": "### Atualização do Treinamento"
   },
   {
     "row": 83,
@@ -501,7 +501,7 @@
     "row": 84,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Comecei o treinamento com um corpus de 435MB (108 M tokens), está indo bem por enquanto. O train loss caiu de 10,9 para 4,9 nas primeiras 2800 iterações. Espero que leve cerca de 8 ou 9 horas para completar. Vou postar outra atualização quando terminar."
+    "translatedContent": "Comecei a treinar em um corpus de 435MB (108 M tokens), está indo bem até agora. O train loss caiu de 10,9 para 4,9 nas primeiras 2800 iterações. Acho que vai levar cerca de 8 ou 9 horas para terminar. Postarei outra atualização assim que acabar."
   },
   {
     "row": 85,
@@ -513,19 +513,19 @@
     "row": 86,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "## 17 de julho de 2025 2:13AM"
+    "translatedContent": "## 17 de julho de 2025"
   },
   {
     "row": 87,
-    "rowsha": "CLW3lPsO6v+tT6iir338rG5+IYXM+JqRoag5w7K8exE=",
-    "originContent": "## July 17th, 2025 2:13AM",
+    "rowsha": "+KGe6w5lIW875VBdo8dnngqlaSzfoN0zFImo+SuVZ3k=",
+    "originContent": "## July 17th, 2025",
     "translatedContent": ""
   },
   {
     "row": 88,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "O treinamento do segundo modelo terminou, levou cerca de 8 horas e 40 minutos na minha 4060 (3.900 iterações/hora) para 33.000 iterações (5 épocas). O loss final de treino foi 3,73. Os resultados foram surpreendentemente bons, agora genuinamente gera frases coerentes no estilo do século XIX."
+    "translatedContent": "O treinamento do segundo modelo terminou, levou cerca de 8 horas e 40 minutos no meu 4060 (3.900 iters/h) para 33.000 iterações (5 épocas). O train loss final foi 3,73. As saídas ficaram surpreendentemente boas, realmente gera frases coerentes no estilo do século XIX agora."
   },
   {
     "row": 89,
@@ -549,7 +549,7 @@
     "row": 92,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Já subi a versão v0.5 no Hugging Face, [Confira aqui](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) se quiser. Agora você pode baixar meu repositório e rodar localmente. Infelizmente o nanoGPT não funciona nativamente com o HuggingFace, então você terá que baixar e rodar o modelo localmente."
+    "translatedContent": "Fui em frente e subi a v0.5 no Hugging Face, [confira aqui](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) se quiser. Agora você pode baixar meu repositório e rodar localmente. Infelizmente o nanoGPT não funciona nativamente com o HuggingFace, então você terá que baixar e rodar o modelo localmente."
   },
   {
     "row": 93,
@@ -561,7 +561,7 @@
     "row": 94,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Também vou começar a curar dados para meu próximo ciclo de treinamento, acredito que precisarei de 5 a 10 vezes mais dados para atingir capacidades de raciocínio."
+    "translatedContent": "Também vou começar a curar dados para minha próxima rodada de treinamento, acredito que vou precisar de 5 a 10 vezes mais dados para alcançar capacidade de raciocínio."
   },
   {
     "row": 95,
@@ -573,289 +573,289 @@
     "row": 96,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": ""
+    "translatedContent": "## 2 de agosto de 2025"
   },
   {
     "row": 97,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "# Comportamento & Limitações do Modelo V0"
-  },
-  {
-    "row": 98,
-    "rowsha": "YbYVsndAe75CgxPU/J34HsXOaqcQlIjTCm06o4eVQIg=",
-    "originContent": "# V0 Model Behavior & Limitations ",
+    "rowsha": "UXyL9heEocaX5oRp2rVKQgcRB28wVdVl+Kl7/DqbKLc=",
+    "originContent": "## August 2nd, 2025",
     "translatedContent": ""
   },
   {
-    "row": 99,
+    "row": 98,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Os primeiros prompts mostram o modelo respondendo com linguagem e comportamento dos anos 1800. Por exemplo, perguntei \"Who art Henry?\" e ele respondeu \"I know that man, I have did not a black, the storm.\" e sim, essa frase não faz sentido, mas o LLM está reconhecendo que estou perguntando sobre uma pessoa."
+    "translatedContent": "Vou começar a trabalhar na Versão 1 em breve. Vou precisar fazer a transição da arquitetura do nanoGPT para algo mais moderno. Tenho várias arquiteturas LLM open-source em mente, incluindo: OpenLLaMA v3, Phi-2 e Qwen 1.5B. E para suportar o salto para a V1, vou precisar curar cuidadosamente um dataset muito maior e mais diverso. Preciso de pelo menos 5GB de dados de treinamento limpos."
+  },
+  {
+    "row": 99,
+    "rowsha": "PTcIrGtJ33LlUO6TFsGwvV/mCnbcxmmcYIasCuuLx40=",
+    "originContent": "I'm going to start work on Version 1 soon. I will need to transition from nanoGPT's architecture to soemthing more modern. I have several open-source LLM archictectures in mind, including: OpenLLaMA v3, Phi-2 and Qwen 1.5B. And to support the jump to V1, I'll need to carefully curate a much bigger and diverse dataset. I'll need at least 5GB of clean training data.",
+    "translatedContent": ""
   },
   {
     "row": 100,
-    "rowsha": "OCh97kyOITXqFpKyZsol6voS+nrzc9n9flpDpNyf35w=",
-    "originContent": "Early prompts show the model responding with 1800's language and behavior. For example, I prompted it with \"Who art Henry?\" and it replied \"I know that man, I have did not a black, the storm.\" and yeah that sentence makes no sense but the LLM is recognizing I'm asking about a person. ",
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
     "translatedContent": ""
   },
   {
     "row": 101,
+    "rowsha": "YbYVsndAe75CgxPU/J34HsXOaqcQlIjTCm06o4eVQIg=",
+    "originContent": "# V0 Model Behavior & Limitations ",
+    "translatedContent": "# Comportamento e Limitações do Modelo V0"
+  },
+  {
+    "row": 102,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 102,
+    "row": 103,
+    "rowsha": "OCh97kyOITXqFpKyZsol6voS+nrzc9n9flpDpNyf35w=",
+    "originContent": "Early prompts show the model responding with 1800's language and behavior. For example, I prompted it with \"Who art Henry?\" and it replied \"I know that man, I have did not a black, the storm.\" and yeah that sentence makes no sense but the LLM is recognizing I'm asking about a person. ",
+    "translatedContent": "Os primeiros prompts mostram o modelo respondendo com linguagem e comportamento do século XIX. Por exemplo, eu perguntei \"Who art Henry?\" e ele respondeu \"I know that man, I have did not a black, the storm.\" e sim, essa frase não faz sentido, mas o LLM reconheceu que estou perguntando sobre uma pessoa."
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
     "rowsha": "yKIR0teTc66wVDG+jdIyNmAzItXb2JH2ld3D7tm4qnM=",
     "originContent": "![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)",
     "translatedContent": "![Exemplo de Saída do TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)"
   },
   {
-    "row": 103,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 104,
-    "rowsha": "/GR84OQ/Xp3d+Yv3/vVIIQFyl8ExKQLgjT1Go5rPplE=",
-    "originContent": "There is no mention of modern concetps, outputs contain mostly words and phrasing from the 1800's.",
-    "translatedContent": "Não há menção de conceitos modernos, as saídas contêm principalmente palavras e frases do século XIX."
-  },
-  {
-    "row": 105,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
     "row": 106,
-    "rowsha": "aojQk3KjkX8shkLnJSZvUZBo0vk4tKDT9aysMfY9yK4=",
-    "originContent": "It still needs alot of work, training off of 187MB will not give you a model that produces text with complex reasoning. ",
-    "translatedContent": "Ainda precisa de muito trabalho, treinar com 187MB não vai te dar um modelo que produza textos com raciocínio complexo."
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 107,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "/GR84OQ/Xp3d+Yv3/vVIIQFyl8ExKQLgjT1Go5rPplE=",
+    "originContent": "There is no mention of modern concetps, outputs contain mostly words and phrasing from the 1800's.",
+    "translatedContent": "Não há menção a conceitos modernos, as saídas contêm principalmente palavras e frases do século XIX."
   },
   {
     "row": 108,
-    "rowsha": "SzQ3fs08W+JGBPGw6+aEzLsm/vGfQNDJ6YZnfFE0F4I=",
-    "originContent": "Right now it produces sentences that lack full sentence structure and overall just make no sense but this is normal for the training size. ",
-    "translatedContent": "Atualmente ele produz sentenças sem estrutura frasal completa e, no geral, sem sentido, mas isso é normal para o tamanho do treinamento."
-  },
-  {
-    "row": 109,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 109,
+    "rowsha": "aojQk3KjkX8shkLnJSZvUZBo0vk4tKDT9aysMfY9yK4=",
+    "originContent": "It still needs alot of work, training off of 187MB will not give you a model that produces text with complex reasoning. ",
+    "translatedContent": "Ainda precisa de muito trabalho, treinar com 187MB não resultará em um modelo que produza texto com raciocínio complexo."
+  },
+  {
     "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "SzQ3fs08W+JGBPGw6+aEzLsm/vGfQNDJ6YZnfFE0F4I=",
+    "originContent": "Right now it produces sentences that lack full sentence structure and overall just make no sense but this is normal for the training size. ",
+    "translatedContent": "No momento, ele produz frases que não têm estrutura completa e, em geral, não fazem sentido, mas isso é normal para esse tamanho de treinamento."
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
     "rowsha": "eeaXlcgOJhwk4liDhaA6/6S4URmAdV8vj9hlqGr3LFw=",
     "originContent": "# V0.5 Model Behavior & Limitations",
     "translatedContent": "# Comportamento e Limitações do Modelo V0.5"
   },
   {
-    "row": 111,
+    "row": 114,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 112,
+    "row": 115,
     "rowsha": "tII9OX/M7KpPoQKPIphmQBWtsSVucUevvTnzVsTXcaI=",
     "originContent": "This is a nice improvement compared to the last model. The writing style and vocab is Victorian and almost every sentence is grammatically correct with proper punctuation. And again this is trained from scratch so it sticks to 1800's subjects. ",
-    "translatedContent": "Esta é uma boa melhoria em comparação ao último modelo. O estilo de escrita e o vocabulário são vitorianos e quase todas as frases são gramaticalmente corretas com pontuação adequada. E novamente, este foi treinado do zero, então se mantém nos assuntos do século XIX."
+    "translatedContent": "Esta é uma boa melhoria em relação ao modelo anterior. O estilo de escrita e o vocabulário são vitorianos e quase todas as frases são gramaticalmente corretas com a pontuação adequada. E novamente, foi treinado do zero, então mantém os temas do século XIX."
   },
   {
-    "row": 113,
+    "row": 116,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 114,
+    "row": 117,
     "rowsha": "8DhXpgpVtg05XdyplRHf49EFOQNCJVzXA9RpmJQ+y9U=",
     "originContent": "![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)",
     "translatedContent": "![Exemplo de Saída do TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)"
   },
   {
-    "row": 115,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 116,
-    "rowsha": "YgdLunUOAWWHsq+eAfyWcDz1fCc0rCcobnRpEXHoK94=",
-    "originContent": "There are a lot of factual hallucinations. A lot (like 100%) of the details (dates, events, historical figures)  are made up. Also the sentences don't really have connections to each other, sometimes maybe 2 sentences will relate to each other but beyond that they dont. Another issue is sometimes a stray “Digitized by Google” footer shows up, so the next time I train I really have to make sure the texts are cleaned well. Overall I'm very happy with the results, it's nowhere near an LLM yet but definitely a sentence generator. ",
-    "translatedContent": "Há muitas alucinações factuais. Muitos (como 100%) dos detalhes (datas, eventos, figuras históricas) são inventados. Além disso, as frases realmente não têm conexão entre si, às vezes talvez 2 frases se relacionem, mas além disso não. Outro problema é que às vezes aparece um rodapé “Digitized by Google” perdido, então na próxima vez que eu treinar realmente preciso garantir que os textos estejam bem limpos. No geral, estou muito satisfeito com os resultados, ainda está longe de ser um LLM, mas definitivamente é um gerador de sentenças."
-  },
-  {
-    "row": 117,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
     "row": 118,
-    "rowsha": "V44Ne2sN8v7ZVpRZ5vo7B2aUZFjGppYthg0fjsQAqd0=",
-    "originContent": "I'm learning a lot and will start figuring out what I need to do better in the coming weeks. I will upload files soon! ",
-    "translatedContent": "Estou aprendendo muito e vou começar a descobrir o que preciso melhorar nas próximas semanas. Em breve vou disponibilizar arquivos!"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 119,
+    "rowsha": "YgdLunUOAWWHsq+eAfyWcDz1fCc0rCcobnRpEXHoK94=",
+    "originContent": "There are a lot of factual hallucinations. A lot (like 100%) of the details (dates, events, historical figures)  are made up. Also the sentences don't really have connections to each other, sometimes maybe 2 sentences will relate to each other but beyond that they dont. Another issue is sometimes a stray “Digitized by Google” footer shows up, so the next time I train I really have to make sure the texts are cleaned well. Overall I'm very happy with the results, it's nowhere near an LLM yet but definitely a sentence generator. ",
+    "translatedContent": "Há muitas alucinações factuais. Muitas (tipo 100%) das informações (datas, eventos, figuras históricas) são inventadas. Além disso, as frases não têm muita conexão entre si; às vezes, talvez duas frases se relacionem, mas além disso não se conectam. Outro problema é que, às vezes, aparece um rodapé “Digitized by Google”, então na próxima vez que eu treinar preciso garantir que os textos estejam bem limpos. No geral, estou muito satisfeito com os resultados, ainda não é um LLM, mas definitivamente um gerador de frases."
+  },
+  {
+    "row": 120,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 120,
+    "row": 121,
+    "rowsha": "V44Ne2sN8v7ZVpRZ5vo7B2aUZFjGppYthg0fjsQAqd0=",
+    "originContent": "I'm learning a lot and will start figuring out what I need to do better in the coming weeks. I will upload files soon! ",
+    "translatedContent": "Estou aprendendo muito e começarei a entender o que preciso melhorar nas próximas semanas. Em breve, vou fazer upload dos arquivos!"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
     "rowsha": "iMvQyl++GAiLpFMT+58v3e9/hb7zXnIJauchG5p986Y=",
     "originContent": "# Upcoming Plans ",
     "translatedContent": "# Planos Futuros"
   },
   {
-    "row": 121,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 122,
-    "rowsha": "OIt/QAbIp2G7kt87dbAIf6Ec0U3HnwjOW6LYRmdf68I=",
-    "originContent": "(Completed) I'm going to start work on version 0.5 , instead of training using 50 books, I'll train using ideally 500-600. Right now I'm training nanoGPT using books from 1800-1850 and specifically from London. There is some challeneges like making sure the books I find are not updated or have modern interpretations but untouched books published withtin my chosen time period.",
-    "translatedContent": "(Concluído) Vou começar a trabalhar na versão 0.5, em vez de treinar usando 50 livros, vou treinar idealmente usando 500-600. No momento estou treinando o nanoGPT usando livros de 1800-1850 e especificamente de Londres. Existem alguns desafios como garantir que os livros que encontro não foram atualizados ou tenham interpretações modernas, mas sim livros intactos publicados dentro do período escolhido."
-  },
-  {
-    "row": 123,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
     "row": 124,
-    "rowsha": "13sW7eekt8pSDdOxr/oKukwKEOVmw/M8xiAJC1VFXZc=",
-    "originContent": "I want to train a new model (v1) with a much larger corpus, maybe 5-10x larger than the one I used for v0.5. My goal is to see if I can get reasoning abilities to emerge from Selective Temporal Training alone, this will be a more difficult task and I'm not even entirely sure if it's possible due to the fact that there is historical data limitations. In the upcoming weeks I will try to curate enough data for a 5-10GB corpus. I believe If I can get clean clean high quality data and rent a GPU, there will be progress.",
-    "translatedContent": "Quero treinar um novo modelo (v1) com um corpus muito maior, talvez 5-10x maior que o que usei para o v0.5. Meu objetivo é ver se consigo fazer habilidades de raciocínio emergirem apenas do Treinamento Temporal Seletivo, o que será uma tarefa mais difícil e nem tenho certeza se é possível devido às limitações de dados históricos. Nas próximas semanas, tentarei reunir dados suficientes para um corpus de 5-10GB. Acredito que se conseguir dados limpos e de alta qualidade e alugar uma GPU, haverá progresso."
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 125,
+    "rowsha": "OIt/QAbIp2G7kt87dbAIf6Ec0U3HnwjOW6LYRmdf68I=",
+    "originContent": "(Completed) I'm going to start work on version 0.5 , instead of training using 50 books, I'll train using ideally 500-600. Right now I'm training nanoGPT using books from 1800-1850 and specifically from London. There is some challeneges like making sure the books I find are not updated or have modern interpretations but untouched books published withtin my chosen time period.",
+    "translatedContent": "(Concluído) Vou começar a trabalhar na versão 0.5, em vez de treinar com 50 livros, vou treinar idealmente com 500-600. No momento estou treinando o nanoGPT com livros de 1800-1850 e especificamente de Londres. Há alguns desafios, como garantir que os livros encontrados não sejam atualizados ou tenham interpretações modernas, mas sim livros intocados publicados dentro do período escolhido."
+  },
+  {
+    "row": 126,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 126,
+    "row": 127,
+    "rowsha": "13sW7eekt8pSDdOxr/oKukwKEOVmw/M8xiAJC1VFXZc=",
+    "originContent": "I want to train a new model (v1) with a much larger corpus, maybe 5-10x larger than the one I used for v0.5. My goal is to see if I can get reasoning abilities to emerge from Selective Temporal Training alone, this will be a more difficult task and I'm not even entirely sure if it's possible due to the fact that there is historical data limitations. In the upcoming weeks I will try to curate enough data for a 5-10GB corpus. I believe If I can get clean clean high quality data and rent a GPU, there will be progress.",
+    "translatedContent": "Quero treinar um novo modelo (v1) com um corpus muito maior, talvez 5-10x maior do que o que usei para o v0.5. Meu objetivo é ver se consigo fazer com que habilidades de raciocínio emerjam apenas do Treinamento Temporal Seletivo, será uma tarefa mais difícil e nem tenho certeza se é possível devido às limitações de dados históricos. Nas próximas semanas, tentarei reunir dados suficientes para um corpus de 5-10GB. Acredito que se eu conseguir dados limpos e de alta qualidade e alugar uma GPU, haverá progresso."
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
     "rowsha": "sO+voevLpUtEbqum6Gntntle+nPVa66c5GATAMLrgf0=",
     "originContent": "# How to Use This Project ",
     "translatedContent": "# Como Usar Este Projeto"
   },
   {
-    "row": 127,
+    "row": 130,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 128,
+    "row": 131,
     "rowsha": "XVoXr9uzZwN09vboETojEQJe057RBzcMUjXmQRCB/jo=",
     "originContent": "This project focuses mostly on curating historical data, preparing it for training and building a tokenizer. I am not going to cover the full LLM training process, for that refer to nanoGPT by Andrej Karpathy.",
-    "translatedContent": "Este projeto foca principalmente em curar dados históricos, prepará-los para treinamento e construir um tokenizador. Não vou cobrir o processo completo de treinamento de LLM, para isso consulte o nanoGPT do Andrej Karpathy."
+    "translatedContent": "Este projeto foca principalmente na curadoria de dados históricos, preparação para treinamento e construção de um tokenizador. Não vou cobrir o processo completo de treinamento de LLM, para isso consulte o nanoGPT de Andrej Karpathy."
   },
   {
-    "row": 129,
+    "row": 132,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 130,
+    "row": 133,
     "rowsha": "kDK7XtqFkTiZvD804yYG4VEojvLrRbdEhmHEBzDAQz4=",
     "originContent": "# Step 1: Gather and Prepare Historical Texts ",
     "translatedContent": "# Passo 1: Coletar e Preparar Textos Históricos"
   },
   {
-    "row": 131,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 132,
-    "rowsha": "oRoOYaG+mx3SqTnhGcOKeH7W3W4wSRQmhZS4jPGMH8s=",
-    "originContent": "Collect .txt files of public domain books, documents, etc from your chosen time period (e.g., London 1800-1850)",
-    "translatedContent": "Colete arquivos .txt de livros de domínio público, documentos, etc, do período escolhido (ex: Londres 1800-1850)"
-  },
-  {
-    "row": 133,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
     "row": 134,
-    "rowsha": "EBDhZvTogrL4hqRuH095O7/tXXoy2OEskLQlang/pOA=",
-    "originContent": "You can use download_texts_improved.py to download books for you if you need to.",
-    "translatedContent": "Você pode usar o download_texts_improved.py para baixar livros para você, se precisar."
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 135,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "oRoOYaG+mx3SqTnhGcOKeH7W3W4wSRQmhZS4jPGMH8s=",
+    "originContent": "Collect .txt files of public domain books, documents, etc from your chosen time period (e.g., London 1800-1850)",
+    "translatedContent": "Colete arquivos .txt de livros de domínio público, documentos, etc. do período escolhido (ex: Londres 1800-1850)"
   },
   {
     "row": 136,
-    "rowsha": "q5OO8x+9kIbzaQRWimI/Vo9ZowzVBtCX+TodObLsQoY=",
-    "originContent": "Clean the text files using a script or manually remove headers/footer from Project Gutenberg, Modern annotations or things like OCR errors.",
-    "translatedContent": "Limpe os arquivos de texto usando um script ou remova manualmente cabeçalhos/rodapés do Project Gutenberg, anotações modernas ou coisas como erros de OCR."
-  },
-  {
-    "row": 137,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 137,
+    "rowsha": "EBDhZvTogrL4hqRuH095O7/tXXoy2OEskLQlang/pOA=",
+    "originContent": "You can use download_texts_improved.py to download books for you if you need to.",
+    "translatedContent": "Você pode usar o download_texts_improved.py para baixar livros se precisar."
+  },
+  {
     "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "q5OO8x+9kIbzaQRWimI/Vo9ZowzVBtCX+TodObLsQoY=",
+    "originContent": "Clean the text files using a script or manually remove headers/footer from Project Gutenberg, Modern annotations or things like OCR errors.",
+    "translatedContent": "Limpe os arquivos de texto usando um script ou remova manualmente cabeçalhos/rodapés do Project Gutenberg, anotações modernas ou erros de OCR."
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
     "rowsha": "N4wsIjC0LRlClodmfCtYX3qswttJnk0psU28/mlCRTw=",
     "originContent": "prepare_dataset.py should work fine.",
     "translatedContent": "prepare_dataset.py deve funcionar bem."
   },
   {
-    "row": 139,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 140,
-    "rowsha": "jDM2lr7pP+MT0pt+L0cd5nBXI83IPoT27NzIgplt7R8=",
-    "originContent": "# Step 2: Build a Custom Tokenizer",
-    "translatedContent": "# Passo 2: Construir um Tokenizador Personalizado"
-  },
-  {
-    "row": 141,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
     "row": 142,
-    "rowsha": "+90EorsgO/X2bFK2pYJw+vZIpjIbuMm4QR6W/xfj8C8=",
-    "originContent": "Run train_tokenizer.py or train_tokenizer_hf.py on the cleaned data.",
-    "translatedContent": "Execute train_tokenizer.py ou train_tokenizer_hf.py nos dados limpos."
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 143,
-    "rowsha": "tkP3Eg1rWphTQMNhN2yYg/1+AA1IdcXbGT96aRMpnwc=",
-    "originContent": "This will give you vocab.json and merges.txt",
-    "translatedContent": "Isso irá gerar vocab.json e merges.txt"
+    "rowsha": "jDM2lr7pP+MT0pt+L0cd5nBXI83IPoT27NzIgplt7R8=",
+    "originContent": "# Step 2: Build a Custom Tokenizer",
+    "translatedContent": "# Passo 2: Construir um Tokenizador Personalizado"
   },
   {
     "row": 144,
@@ -865,135 +865,135 @@
   },
   {
     "row": 145,
-    "rowsha": "/wqxgtOu72+x3a2xi7q23jDkx+WQv2SHrJddzpvm1Ys=",
-    "originContent": "Thes files define vocab and merge rules for your model",
-    "translatedContent": "Esses arquivos definem vocabulário e regras de fusão para seu modelo"
+    "rowsha": "+90EorsgO/X2bFK2pYJw+vZIpjIbuMm4QR6W/xfj8C8=",
+    "originContent": "Run train_tokenizer.py or train_tokenizer_hf.py on the cleaned data.",
+    "translatedContent": "Execute train_tokenizer.py ou train_tokenizer_hf.py nos dados limpos."
   },
   {
     "row": 146,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "tkP3Eg1rWphTQMNhN2yYg/1+AA1IdcXbGT96aRMpnwc=",
+    "originContent": "This will give you vocab.json and merges.txt",
+    "translatedContent": "Isso irá gerar vocab.json e merges.txt"
   },
   {
     "row": 147,
-    "rowsha": "vKPAEsPxc9uYtzjTX9/rNADSDnxkKwYcYpX/aiAp8Hc=",
-    "originContent": "# Step 3: Train Your Model (nanoGPT) ",
-    "translatedContent": "# Passo 3: Treine Seu Modelo (nanoGPT)"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 148,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "/wqxgtOu72+x3a2xi7q23jDkx+WQv2SHrJddzpvm1Ys=",
+    "originContent": "Thes files define vocab and merge rules for your model",
+    "translatedContent": "Esses arquivos definem o vocabulário e as regras de junção para o seu modelo"
   },
   {
     "row": 149,
-    "rowsha": "tCDY5iXt+Z7YYeTPouMSYDX5uuFnGROxZMvHyTOIblY=",
-    "originContent": "Refer to [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) for the training process.",
-    "translatedContent": "Consulte o [nanoGPT do Andrej Karpathy](https://github.com/karpathy/nanoGPT) para o processo de treinamento."
-  },
-  {
-    "row": 150,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 150,
+    "rowsha": "vKPAEsPxc9uYtzjTX9/rNADSDnxkKwYcYpX/aiAp8Hc=",
+    "originContent": "# Step 3: Train Your Model (nanoGPT) ",
+    "translatedContent": "# Passo 3: Treinar seu Modelo (nanoGPT)"
+  },
+  {
     "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "tCDY5iXt+Z7YYeTPouMSYDX5uuFnGROxZMvHyTOIblY=",
+    "originContent": "Refer to [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) for the training process.",
+    "translatedContent": "Consulte [nanoGPT por Andrej Karpathy](https://github.com/karpathy/nanoGPT) para o processo de treinamento."
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
     "rowsha": "bLpr9snECDSJ5ejrqDWYNT8VXSupCQKQxyLxvAmQ2Kc=",
     "originContent": "You can train a different LLM if you want, but I used nanoGPT ",
     "translatedContent": "Você pode treinar outro LLM se quiser, mas eu usei o nanoGPT"
   },
   {
-    "row": 152,
+    "row": 155,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 153,
+    "row": 156,
     "rowsha": "OoCxyGfPN5TmdzAkaPphtPx303MJJ7vpfWbKrufGH5g=",
     "originContent": "# FAQ",
     "translatedContent": "# FAQ"
   },
   {
-    "row": 154,
+    "row": 157,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 155,
+    "row": 158,
     "rowsha": "+5dDgPw4ILEotxso4tjjjz1cxwUei16yNQPDUKbgxoo=",
     "originContent": "## What is Selective Temporal Training ?",
     "translatedContent": "## O que é Treinamento Temporal Seletivo?"
   },
   {
-    "row": 156,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 157,
-    "rowsha": "hooEARKH4r/sDPh7JUtZAZ6TYMvBkTLZIcfw3g83xos=",
-    "originContent": "Selective Temporal Training (STT) is a machine learning methodology where all training data is specifically curated to fall within a specific historical time period. It's done in order to model the language and knowledge of that era without influence from modern concepts. For example, the current model I have now (v0.5) is trained on data exclusively from 1800-1875, it's not fine tuned but trained from scratch resulting in output that reflects the linguistic style and historical context of that time period.",
-    "translatedContent": "Treinamento Temporal Seletivo (STT) é uma metodologia de aprendizado de máquina onde todos os dados de treinamento são especificamente curados para pertencer a um determinado período histórico. É feito para modelar a linguagem e o conhecimento daquela época sem influência de conceitos modernos. Por exemplo, o modelo que tenho agora (v0.5) foi treinado exclusivamente com dados de 1800-1875, não foi ajustado, mas treinado do zero, resultando em saídas que refletem o estilo linguístico e o contexto histórico desse período."
-  },
-  {
-    "row": 158,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
     "row": 159,
-    "rowsha": "dVMKQ2mPI1Spc6x6r/jNG0PIR5YKpalU4MXx9JmKp/I=",
-    "originContent": "## Why not just use fine-tuning or LoRA?",
-    "translatedContent": "## Por que não usar apenas fine-tuning ou LoRA?"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 160,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "hooEARKH4r/sDPh7JUtZAZ6TYMvBkTLZIcfw3g83xos=",
+    "originContent": "Selective Temporal Training (STT) is a machine learning methodology where all training data is specifically curated to fall within a specific historical time period. It's done in order to model the language and knowledge of that era without influence from modern concepts. For example, the current model I have now (v0.5) is trained on data exclusively from 1800-1875, it's not fine tuned but trained from scratch resulting in output that reflects the linguistic style and historical context of that time period.",
+    "translatedContent": "Treinamento Temporal Seletivo (STT) é uma metodologia de machine learning onde todos os dados de treinamento são especificamente selecionados para pertencer a um determinado período histórico. É feito para modelar a linguagem e o conhecimento daquela época sem influência de conceitos modernos. Por exemplo, o modelo atual (v0.5) foi treinado exclusivamente com dados de 1800-1875, não foi ajustado, mas treinado do zero, resultando em saídas que refletem o estilo linguístico e o contexto histórico daquele período."
   },
   {
     "row": 161,
-    "rowsha": "oNvWlJHtQSyq1TwlqJyGtMzk4Z4mBIn8AW2SudzvUYs=",
-    "originContent": "For this project I'm trying to create a language model that is unclouded from modern bias. If I fine-tune something like GPT-2, it's already pre-trained and that information won't go away. If I train from scratch the language model won't pretend to be old, it just will be. The Goal for this project right now is to create something can reason exclusively using knowledge from London books published between 1800 and 1850.",
-    "translatedContent": "Para este projeto, estou tentando criar um modelo de linguagem sem viés moderno. Se eu fizer fine-tuning em algo como o GPT-2, ele já está pré-treinado e essa informação não vai embora. Se eu treinar do zero, o modelo de linguagem não vai fingir ser antigo, ele simplesmente será. O objetivo deste projeto no momento é criar algo que possa raciocinar exclusivamente usando conhecimento de livros de Londres publicados entre 1800 e 1850."
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 162,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "dVMKQ2mPI1Spc6x6r/jNG0PIR5YKpalU4MXx9JmKp/I=",
+    "originContent": "## Why not just use fine-tuning or LoRA?",
+    "translatedContent": "## Por que não apenas usar fine-tuning ou LoRA?"
   },
   {
     "row": 163,
-    "rowsha": "ByP4WlNmMoG6WIiLJNd6b080/DSciCgWmj9aYSJjAF0=",
-    "originContent": "## What kind of data did you use for training?",
-    "translatedContent": "## Que tipo de dados você usou para o treinamento?"
-  },
-  {
-    "row": 164,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 164,
+    "rowsha": "oNvWlJHtQSyq1TwlqJyGtMzk4Z4mBIn8AW2SudzvUYs=",
+    "originContent": "For this project I'm trying to create a language model that is unclouded from modern bias. If I fine-tune something like GPT-2, it's already pre-trained and that information won't go away. If I train from scratch the language model won't pretend to be old, it just will be. The Goal for this project right now is to create something can reason exclusively using knowledge from London books published between 1800 and 1850.",
+    "translatedContent": "Para este projeto, estou tentando criar um modelo de linguagem sem viés moderno. Se eu fizer fine-tuning em algo como o GPT-2, ele já foi pré-treinado e essa informação não será removida. Se eu treinar do zero, o modelo de linguagem não vai fingir ser antigo, ele realmente será. O objetivo do projeto agora é criar algo que possa raciocinar exclusivamente usando conhecimentos de livros de Londres publicados entre 1800 e 1850."
+  },
+  {
     "row": 165,
-    "rowsha": "Kj6EF7wZdUrAFg4ErGmJuh9Q5Xujmb+tunpfssPKXkA=",
-    "originContent": "I'm using books, legal documents, newspapers, and other writings from 1800–1850 London. The list I linked has like 200 but for the first training I just used 50 files about ~187 MB. You can view a list of the documents:",
-    "translatedContent": "Estou usando livros, documentos legais, jornais e outros escritos de Londres entre 1800–1850. A lista que linkei tem cerca de 200, mas para o primeiro treinamento usei apenas 50 arquivos de ~187 MB. Você pode ver uma lista dos documentos:"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 166,
-    "rowsha": "0mxyGiLJxzp9JPCg1oA+nbIwAKJbEC4ei9kSV3Gp84Y=",
-    "originContent": "https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt",
-    "translatedContent": "https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt"
+    "rowsha": "ByP4WlNmMoG6WIiLJNd6b080/DSciCgWmj9aYSJjAF0=",
+    "originContent": "## What kind of data did you use for training?",
+    "translatedContent": "## Que tipo de dados você usou para o treinamento?"
   },
   {
     "row": 167,
@@ -1003,60 +1003,84 @@
   },
   {
     "row": 168,
+    "rowsha": "Kj6EF7wZdUrAFg4ErGmJuh9Q5Xujmb+tunpfssPKXkA=",
+    "originContent": "I'm using books, legal documents, newspapers, and other writings from 1800–1850 London. The list I linked has like 200 but for the first training I just used 50 files about ~187 MB. You can view a list of the documents:",
+    "translatedContent": "Estou usando livros, documentos legais, jornais e outros escritos de Londres de 1800–1850. A lista que eu linkei tem cerca de 200, mas para o primeiro treinamento usei apenas 50 arquivos, cerca de 187 MB. Você pode ver a lista dos documentos:"
+  },
+  {
+    "row": 169,
+    "rowsha": "0mxyGiLJxzp9JPCg1oA+nbIwAKJbEC4ei9kSV3Gp84Y=",
+    "originContent": "https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt",
+    "translatedContent": "https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
     "rowsha": "RiLgksbH2sYLZRyKsFhVyfjC6nNxLsxWsc7XnFS061A=",
     "originContent": "## How large is the Version 0 model ?",
     "translatedContent": "## Qual o tamanho do modelo Versão 0?"
   },
   {
-    "row": 169,
+    "row": 172,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 170,
+    "row": 173,
     "rowsha": "55Ce1mBEzOreC728R5HRfuMIC/nZRg3Zcr87GVkjVVY=",
     "originContent": "This model is very small right now, I'm just doing this for fun and following a strict training rule of no modern sources. It has almost 16 million parameters but I'm gonna start gathering more old texts to begin another model training. Will give updates as I go.",
-    "translatedContent": "Este modelo é muito pequeno no momento, estou fazendo isso por diversão e seguindo uma regra rigorosa de treinamento sem fontes modernas. Ele tem quase 16 milhões de parâmetros, mas vou começar a reunir mais textos antigos para iniciar outro treinamento de modelo. Darei atualizações conforme avançar."
+    "translatedContent": "Este modelo é bem pequeno no momento, estou fazendo isso por diversão e seguindo uma regra rígida de treinamento sem fontes modernas. Tem quase 16 milhões de parâmetros, mas vou começar a reunir mais textos antigos para iniciar outro treinamento de modelo. Vou dar atualizações conforme avanço."
   },
   {
-    "row": 171,
+    "row": 174,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 172,
+    "row": 175,
     "rowsha": "A40eQ7ZJiqr+bs9cl0Cb4QKKuS9z7/PA1ZaGn1TSehI=",
     "originContent": "## Training Specs ? ",
     "translatedContent": "## Especificações de Treinamento?"
   },
   {
-    "row": 173,
+    "row": 176,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 174,
+    "row": 177,
     "rowsha": "EH8H1HW/C4Tb7LfJgVUnVGsk4pF9l40Rlev8tAkKhjI=",
     "originContent": "GPU: Geforce rtx 4060",
     "translatedContent": "GPU: Geforce rtx 4060"
   },
   {
-    "row": 175,
+    "row": 178,
     "rowsha": "vo3FdN37kY6VUB7PruRKfBPJDgsVJyBHIUCn/g8mt68=",
     "originContent": "CPU: i5-13400F ",
     "translatedContent": "CPU: i5-13400F"
   },
   {
-    "row": 176,
+    "row": 179,
     "rowsha": "W8fXPiQKUkoNso0PPfTvjYMy0IYo85j+gNXmB0aERO4=",
     "originContent": "Ram: 16GB DDR5.",
     "translatedContent": "Ram: 16GB DDR5."
   },
   {
-    "row": 177,
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
