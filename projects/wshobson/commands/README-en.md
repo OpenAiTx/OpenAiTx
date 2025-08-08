@@ -1,14 +1,46 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=fa">Farsi</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Claude Code Slash Commands
 
-Production-ready slash commands for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) that accelerate development through intelligent automation.
+Production-grade slash commands for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) that speed up development via intelligent automation.
 
-**52 commands** organized as:
+**52 commands** categorized as:
 - **🤖 Workflows**: Multi-subagent orchestration for complex tasks
-- **🔧 Tools**: Single-purpose utilities for specific operations
+- **🔧 Tools**: Single-purpose utilities for dedicated operations
 
 ### 🤝 Requires Claude Code Subagents
 
-These commands work with the [Claude Code Subagents](https://github.com/wshobson/agents) for orchestration capabilities.
+These commands operate with [Claude Code Subagents](https://github.com/wshobson/agents) to enable orchestration capabilities.
 
 ## Installation
 
@@ -453,6 +485,6 @@ Slash commands are simple markdown files where:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-07
 
 ---

@@ -1,8 +1,40 @@
-# Claude Code 슬래시 명령어
 
-지능형 자동화를 통해 개발 속도를 높이는 [Claude Code](https://docs.anthropic.com/en/docs/claude-code)용 프로덕션 준비된 슬래시 명령어입니다.
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
 
-**52개의 명령어**로 구성되어 있습니다:
+# Claude Code 슬래시 커맨드
+
+지능형 자동화를 통해 개발을 가속화하는 [Claude Code](https://docs.anthropic.com/en/docs/claude-code)용 프로덕션 준비 완료 슬래시 커맨드입니다.
+
+**52개 명령어**가 다음과 같이 구성됨:
 - **🤖 워크플로우**: 복잡한 작업을 위한 다중 서브에이전트 오케스트레이션
 - **🔧 도구**: 특정 작업을 위한 단일 목적 유틸리티
 
@@ -453,6 +485,6 @@ Claude Code는 상황에 맞는 관련 명령을 자동으로 제안합니다.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-07
 
 ---

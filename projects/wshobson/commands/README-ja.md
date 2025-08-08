@@ -1,14 +1,46 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Claude Code スラッシュコマンド
 
-インテリジェントな自動化によって開発を加速する、[Claude Code](https://docs.anthropic.com/en/docs/claude-code)向けの本番対応スラッシュコマンド。
+開発を加速するインテリジェント自動化を備えた [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 用の本番対応スラッシュコマンド。
 
-**52個のコマンド**が以下のように整理されています：
-- **🤖 ワークフロー**：複雑なタスクのためのマルチサブエージェントオーケストレーション
-- **🔧 ツール**：特定の操作に特化したユーティリティ
+**52コマンド**は以下のように分類されています：
+- **🤖 ワークフロー**: 複雑なタスクのためのマルチサブエージェントオーケストレーション
+- **🔧 ツール**: 特定の操作向けの単機能ユーティリティ
 
 ### 🤝 Claude Code サブエージェントが必要
 
-これらのコマンドは、オーケストレーション機能のために[Claude Code サブエージェント](https://github.com/wshobson/agents)と連携します。
+これらのコマンドは、オーケストレーション機能を備えた [Claude Code サブエージェント](https://github.com/wshobson/agents) で動作します。
 
 ## インストール
 
@@ -453,6 +485,6 @@ Claude Codeは、コンテキストに基づいて関連するコマンドを自
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-07
 
 ---

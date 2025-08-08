@@ -1,14 +1,46 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=commands&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Claude Code 斜杠命令
 
-适用于 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 的生产就绪斜杠命令，通过智能自动化加速开发。
+适用于 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 的生产级斜杠命令，通过智能自动化加速开发。
 
-**52 个命令**，组织如下：
-- **🤖 工作流程**：多子代理协同处理复杂任务
-- **🔧 工具**：针对特定操作的单一功能实用工具
+**52 个命令** 分类如下：
+- **🤖 工作流**：多子代理协作执行复杂任务
+- **🔧 工具**：用于特定操作的单一功能实用工具
 
 ### 🤝 需要 Claude Code 子代理
 
-这些命令与 [Claude Code 子代理](https://github.com/wshobson/agents) 配合使用，提供编排功能。
+这些命令需配合 [Claude Code 子代理](https://github.com/wshobson/agents) 实现编排功能。
 
 ## 安装
 
@@ -453,6 +485,6 @@ Claude Code 会根据上下文自动建议相关命令。
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-07
 
 ---
