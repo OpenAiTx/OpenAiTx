@@ -1,0 +1,2606 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Claude Code Subagents Collection\n\nA comprehensive collection of specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), designed to enhance development workflows with domain-specific expertise.\n\n## Overview\n\nThis repository contains 57 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.\n\n## Available Subagents",
+    "ContentSha": "9HloJCZynS0qfrrxw4CJ0yqN91qi5SToMa88xULg65g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 Język</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Kolekcja Subagentów Claude Code\n\nKompleksowa kolekcja wyspecjalizowanych subagentów AI dla [Claude Code](https://docs.anthropic.com/en/docs/claude-code), zaprojektowana w celu usprawnienia procesów programistycznych dzięki ekspertyzie domenowej.\n\n## Przegląd\n\nTo repozytorium zawiera 57 wyspecjalizowanych subagentów rozszerzających możliwości Claude Code. Każdy subagent jest ekspertem w wybranej dziedzinie, automatycznie uruchamiany na podstawie kontekstu lub wywoływany ręcznie w razie potrzeby. Wszystkie agenty skonfigurowano z określonymi modelami Claude w zależności od złożoności zadania, aby zapewnić optymalną wydajność i efektywność kosztową.\n\n## Dostępne subagenty",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Język</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "QBxIsbFr7w8tKFgjM6ObPJt9HobsjlFgL+9mVmJu5E4=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=en\">English</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "3i9b3lTYso5fcBHxnKVLi5pmUsay6zlWKZX8bIf5lDA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "hsw7SCpjLgSBf/zl/ljrdoXR3ZaRcGged4JJZXMng48=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "YnuFlwqItojVDMhXRpbA5DHapoCbToffYwrueF5PHo0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "wHm8npmQ2mgNakmnsrGyB2LKwYWW+54UrodW0hSKn18=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "eiLOsEnbJE1qp2IjydAxLgUSNo7uh9qFZ08clFNuWik=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "JkClW4H83aYUthY8kMkBybShme7/xjlDdh/jQmAXVjU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "hqYbzxVX9dwqBfLFqllW5hcEItG4nDW6TdLLgtqVmVo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr\">Français</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "LBeWruv0Yx5H5a4ImeaFBffGdctkTyHysV8456tGHfM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "giMJOCMXukEemfPBy/M4B2uzTRzcYP/2rU+8W0wuk94=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es\">Español</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "5fKOFX9O6sbSg8PP1p508iQgEH2Wn+Vh5EEY+RCcRfE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "1uS1F00MpDec0H6WeCHH5WZcbfT051aufBwei+2831s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "2A/OtCQYO6qT7D5a+ew4voH3woVcDsD0zk4Hk8xvChs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt\">Português</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "lZ0FRRb0IH4cViRORRMXB7cjpjp5VDCu0lh+Ut8GqNY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "SPNmI/OeLHq2q2Gt7aZ64POQqYgfNRowLSDjp87KQvw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "tUyHvJOi7QDsLEkHf4lZ9bHrZJCCeakXiidS0pjeXxI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "DOo+hePIQ3BVwpDy4wr5LnyMEvn8/jcfZcIhDx5REwU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "JZlX9sZPkITDmc4gJl6lvVaO6w3cjoIPOQC1mS2wCsM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "FdIccnnew/lRm6FhpcRRgJKoUgnvMfds8LIYT2sLRD4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "q2a5p64mG5tlxyxieQk/3K3PQRv9D9OrGUAQOuRLxvk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "LcttbIAzvWVbC6FjfAXoleWgwDC9I77hC9QoC++Az34=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 27,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 30,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "fg2Ag/QHkW+OuI/Vy8vtd9d4hcvQAMiY1SJ49x366mY=",
+        "originContent": "# Claude Code Subagents Collection",
+        "translatedContent": "# Kolekcja Subagentów Claude Code"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "yJzSyPZ3+RO+s6w1iSspA7z8muF8HWX9XiDtLy0vlFg=",
+        "originContent": "A comprehensive collection of specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), designed to enhance development workflows with domain-specific expertise.",
+        "translatedContent": "Kompleksowa kolekcja wyspecjalizowanych subagentów AI dla [Claude Code](https://docs.anthropic.com/en/docs/claude-code), zaprojektowana w celu usprawnienia procesów programistycznych dzięki ekspertyzie domenowej."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "## Przegląd"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "x3fRRSz04AjpA3cendM7YOSSTQtuiNcmaS9MZ5qbtPQ=",
+        "originContent": "This repository contains 57 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.",
+        "translatedContent": "To repozytorium zawiera 57 wyspecjalizowanych subagentów rozszerzających możliwości Claude Code. Każdy subagent jest ekspertem w wybranej dziedzinie, automatycznie uruchamiany na podstawie kontekstu lub wywoływany ręcznie w razie potrzeby. Wszystkie agenty skonfigurowano z określonymi modelami Claude w zależności od złożoności zadania, aby zapewnić optymalną wydajność i efektywność kosztową."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "lI7EqjRSbUZ5SqwzUT3m651i+XazTQE6pdx/wgdanyo=",
+        "originContent": "## Available Subagents",
+        "translatedContent": "## Dostępne subagenty"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n### Development & Architecture\n- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Design RESTful APIs, microservice boundaries, and database schemas\n- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Build React components, implement responsive layouts, and handle client-side state management\n- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Create interface designs, wireframes, and design systems\n- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - Develop React Native or Flutter apps with native integrations\n- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - Design GraphQL schemas, resolvers, and federation\n- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Reviews code changes for architectural consistency and patterns\n\n### Language Specialists\n- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - Write idiomatic Python code with advanced features and optimizations\n- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Write idiomatic Go code with goroutines, channels, and interfaces\n- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Write idiomatic Rust with ownership patterns, lifetimes, and trait implementations\n- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Write efficient C code with proper memory management and system calls\n- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms\n- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Master modern JavaScript with ES6+, async patterns, and Node.js APIs\n- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Master TypeScript with advanced types, generics, and strict type safety\n- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Write idiomatic PHP code with modern features and performance optimizations\n- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Master modern Java with streams, concurrency, and JVM optimization\n- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Write idiomatic Elixir code with OTP patterns, functional programming, and Phoenix frameworks\n- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Write modern C# code with advanced features and .NET optimization\n- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Build Unity games with optimized scripts and performance tuning\n- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs\n- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Develop native iOS applications with Swift/SwiftUI\n- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Write complex SQL queries, optimize execution plans, and design normalized schemas\n\n### Infrastructure & Operations\n- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Debug production issues, analyze logs, and fix deployment failures\n- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - Configure CI/CD pipelines, Docker containers, and cloud deployments\n- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - Design AWS/Azure/GCP infrastructure and optimize cloud costs\n- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - Optimize SQL queries, design efficient indexes, and handle database migrations\n- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - Manage database operations, backups, replication, and monitoring\n- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Write advanced Terraform modules, manage state files, and implement IaC best practices\n- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Handles production incidents with urgency and precision\n- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Debug network connectivity, configure load balancers, and analyze traffic patterns\n- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Developer Experience specialist that improves tooling, setup, and workflows\n\n### Quality & Security\n- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Expert code review with deep configuration security focus and production reliability\n- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Review code for vulnerabilities and ensure OWASP compliance",
+    "ContentSha": "R1N6edKP13nYnxNNQ3TEFSTJVJLrKofoXcaQS/uq0Lk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Rozwój i Architektura\n- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Projektuje RESTful API, granice mikroserwisów i schematy baz danych\n- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Buduje komponenty React, wdraża responsywne układy i zarządza stanem po stronie klienta\n- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Tworzy projekty interfejsów, makiety oraz systemy projektowe\n- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - Tworzy aplikacje React Native lub Flutter z natywnymi integracjami\n- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - Projektuje schematy GraphQL, resolvery i federacje\n- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Przegląda zmiany w kodzie pod kątem spójności architektonicznej i wzorców\n\n### Specjaliści Językowi\n- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - Pisze idiomatyczny kod Python z zaawansowanymi funkcjami i optymalizacjami\n- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Pisze idiomatyczny kod Go z użyciem goroutines, kanałów i interfejsów\n- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Pisze idiomatyczny kod Rust z wzorcami własności, czasem życia i implementacjami traitów\n- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Pisze wydajny kod C z poprawnym zarządzaniem pamięcią i wywołaniami systemowymi\n- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Pisze idiomatyczny kod C++ z nowoczesnymi funkcjami, RAII, smart pointerami i algorytmami STL\n- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Opanowuje nowoczesny JavaScript z ES6+, wzorcami async i API Node.js\n- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Opanowuje TypeScript z zaawansowanymi typami, generykami i ścisłym bezpieczeństwem typów\n- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Pisze idiomatyczny kod PHP z nowoczesnymi funkcjami i optymalizacjami wydajności\n- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Opanowuje nowoczesną Javę ze strumieniami, współbieżnością i optymalizacją JVM\n- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Pisze idiomatyczny kod Elixir z wzorcami OTP, programowaniem funkcyjnym i frameworkiem Phoenix\n- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Pisze nowoczesny kod C# z zaawansowanymi funkcjami i optymalizacją .NET\n- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Tworzy gry w Unity z zoptymalizowanymi skryptami i tuningiem wydajności\n- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Opanowuje tworzenie pluginów do serwera Minecraft z Bukkit, Spigot i Paper API\n- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Tworzy natywne aplikacje iOS w Swift/SwiftUI\n- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Pisze złożone zapytania SQL, optymalizuje plany wykonania i projektuje znormalizowane schematy\n\n### Infrastruktura i Operacje\n- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Debuguje problemy produkcyjne, analizuje logi i naprawia błędy wdrożeniowe\n- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - Konfiguruje pipeline'y CI/CD, kontenery Docker i wdrożenia chmurowe\n- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - Projektuje infrastrukturę AWS/Azure/GCP i optymalizuje koszty chmurowe\n- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - Optymalizuje zapytania SQL, projektuje wydajne indeksy i zarządza migracjami baz danych\n- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - Zarządza operacjami bazy danych, kopiami zapasowymi, replikacją i monitoringiem\n- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Pisze zaawansowane moduły Terraform, zarządza plikami stanu i wdraża najlepsze praktyki IaC\n- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Obsługuje incydenty produkcyjne z pilnością i precyzją\n- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Debuguje łączność sieciową, konfiguruje load balancery i analizuje wzorce ruchu\n- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Specjalista Developer Experience, który usprawnia narzędzia, konfigurację i workflow\n\n### Jakość i Bezpieczeństwo\n- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Ekspert w przeglądzie kodu z naciskiem na bezpieczeństwo konfiguracji i niezawodność produkcyjną\n- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Przegląda kod pod kątem podatności i zapewnia zgodność z OWASP",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "e20g2eXsuQJ+i1BQXBrWY1fVhqcdWpQDz8nVvXvrcyg=",
+        "originContent": "### Development & Architecture",
+        "translatedContent": "### Rozwój i Architektura"
+      },
+      {
+        "row": 3,
+        "rowsha": "R1waTsxEgmUrvLD3prdOsETdrvfRoyGYuozPKmtOx+A=",
+        "originContent": "- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Design RESTful APIs, microservice boundaries, and database schemas",
+        "translatedContent": "- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Projektuje RESTful API, granice mikroserwisów i schematy baz danych"
+      },
+      {
+        "row": 4,
+        "rowsha": "YTbD4HowqHn8m4ZyxSkHPzd5HYCG7npnO45Pzq9qEVA=",
+        "originContent": "- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Build React components, implement responsive layouts, and handle client-side state management",
+        "translatedContent": "- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Buduje komponenty React, wdraża responsywne układy i zarządza stanem po stronie klienta"
+      },
+      {
+        "row": 5,
+        "rowsha": "TffcVmvkSwwQONMyP6s1Qfg8ETVNzqBK21xNPczjSa8=",
+        "originContent": "- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Create interface designs, wireframes, and design systems",
+        "translatedContent": "- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Tworzy projekty interfejsów, makiety oraz systemy projektowe"
+      },
+      {
+        "row": 6,
+        "rowsha": "nrROyocdQs+b7xjzyc0wBQxJHatIMdnV0n5Cmuc3oCE=",
+        "originContent": "- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - Develop React Native or Flutter apps with native integrations",
+        "translatedContent": "- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - Tworzy aplikacje React Native lub Flutter z natywnymi integracjami"
+      },
+      {
+        "row": 7,
+        "rowsha": "cpvLXKFZfwvxkLr8d/UdQDHTQ43BpVlvyAxaHelUXYc=",
+        "originContent": "- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - Design GraphQL schemas, resolvers, and federation",
+        "translatedContent": "- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - Projektuje schematy GraphQL, resolvery i federacje"
+      },
+      {
+        "row": 8,
+        "rowsha": "TQlS2qsLlkwWWjiTPDhg7pLIgoIspJA+qG71gOHEpHs=",
+        "originContent": "- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Reviews code changes for architectural consistency and patterns",
+        "translatedContent": "- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Przegląda zmiany w kodzie pod kątem spójności architektonicznej i wzorców"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "sco6JHLTJuualuhwXfo8ST1o2qdilBdCZTz/PjeQxls=",
+        "originContent": "### Language Specialists",
+        "translatedContent": "### Specjaliści Językowi"
+      },
+      {
+        "row": 11,
+        "rowsha": "/V0GB1E9WN9RHsv2RTLenNgf3CTRcHuTkL7sAEw8vJg=",
+        "originContent": "- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - Write idiomatic Python code with advanced features and optimizations",
+        "translatedContent": "- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - Pisze idiomatyczny kod Python z zaawansowanymi funkcjami i optymalizacjami"
+      },
+      {
+        "row": 12,
+        "rowsha": "PihsLjmS8dk73jHafOSy12GOmHP4aW2VUbCGvkV29hU=",
+        "originContent": "- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Write idiomatic Go code with goroutines, channels, and interfaces",
+        "translatedContent": "- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Pisze idiomatyczny kod Go z użyciem goroutines, kanałów i interfejsów"
+      },
+      {
+        "row": 13,
+        "rowsha": "6WGHc0vRY2qK5P+giIy4m9E10FjJggpLcbLI7szDLdg=",
+        "originContent": "- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Write idiomatic Rust with ownership patterns, lifetimes, and trait implementations",
+        "translatedContent": "- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Pisze idiomatyczny kod Rust z wzorcami własności, czasem życia i implementacjami traitów"
+      },
+      {
+        "row": 14,
+        "rowsha": "93r0xk6dLRoXZugv5Cbdbh2/VEBDoWbNiRirq0LH8qc=",
+        "originContent": "- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Write efficient C code with proper memory management and system calls",
+        "translatedContent": "- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Pisze wydajny kod C z poprawnym zarządzaniem pamięcią i wywołaniami systemowymi"
+      },
+      {
+        "row": 15,
+        "rowsha": "2qTBJrmG7FTq5zm3EPPoPsaMVMGE1hc9OI+DmPIgpXg=",
+        "originContent": "- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms",
+        "translatedContent": "- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Pisze idiomatyczny kod C++ z nowoczesnymi funkcjami, RAII, smart pointerami i algorytmami STL"
+      },
+      {
+        "row": 16,
+        "rowsha": "ybwd8YufzF/RsfKPshkVgLUz/FmvaEuaYhCpH+rH7F4=",
+        "originContent": "- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Master modern JavaScript with ES6+, async patterns, and Node.js APIs",
+        "translatedContent": "- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Opanowuje nowoczesny JavaScript z ES6+, wzorcami async i API Node.js"
+      },
+      {
+        "row": 17,
+        "rowsha": "r8gCeCs8a8Fya1rHt7OGE4fsdEMCs5dyQJ3JCKXOM2k=",
+        "originContent": "- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Master TypeScript with advanced types, generics, and strict type safety",
+        "translatedContent": "- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Opanowuje TypeScript z zaawansowanymi typami, generykami i ścisłym bezpieczeństwem typów"
+      },
+      {
+        "row": 18,
+        "rowsha": "50b4A2/NGa6S4ZW02EVsiebUun9tigM0EpyPuhKqIEE=",
+        "originContent": "- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Write idiomatic PHP code with modern features and performance optimizations",
+        "translatedContent": "- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Pisze idiomatyczny kod PHP z nowoczesnymi funkcjami i optymalizacjami wydajności"
+      },
+      {
+        "row": 19,
+        "rowsha": "0ICyafS8yCqL94P6Jov7l/vkmthiTM++34mjX5KMcgc=",
+        "originContent": "- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Master modern Java with streams, concurrency, and JVM optimization",
+        "translatedContent": "- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Opanowuje nowoczesną Javę ze strumieniami, współbieżnością i optymalizacją JVM"
+      },
+      {
+        "row": 20,
+        "rowsha": "cKOhVomxa/xvirqyJca5QOLpXHvAy78cTTpgwRD+32k=",
+        "originContent": "- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Write idiomatic Elixir code with OTP patterns, functional programming, and Phoenix frameworks",
+        "translatedContent": "- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Pisze idiomatyczny kod Elixir z wzorcami OTP, programowaniem funkcyjnym i frameworkiem Phoenix"
+      },
+      {
+        "row": 21,
+        "rowsha": "nrvAxinQhIfp6WJY0JrAsLcH9OBdLB4tcgOgYDQwXyc=",
+        "originContent": "- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Write modern C# code with advanced features and .NET optimization",
+        "translatedContent": "- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Pisze nowoczesny kod C# z zaawansowanymi funkcjami i optymalizacją .NET"
+      },
+      {
+        "row": 22,
+        "rowsha": "AOz4jyUqWP9Z7+tZWfs/EiGw8SBhr4nwt5pTzlyYu74=",
+        "originContent": "- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Build Unity games with optimized scripts and performance tuning",
+        "translatedContent": "- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Tworzy gry w Unity z zoptymalizowanymi skryptami i tuningiem wydajności"
+      },
+      {
+        "row": 23,
+        "rowsha": "2xmvrzDWBEVVZeJeUMVXFgcf8cqkEu+4zWGgsg7VX1A=",
+        "originContent": "- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs",
+        "translatedContent": "- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Opanowuje tworzenie pluginów do serwera Minecraft z Bukkit, Spigot i Paper API"
+      },
+      {
+        "row": 24,
+        "rowsha": "/ZSfFlZrATSWJcUazwnCnqS3WN9E0ywDNLTqtkykeHg=",
+        "originContent": "- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Develop native iOS applications with Swift/SwiftUI",
+        "translatedContent": "- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Tworzy natywne aplikacje iOS w Swift/SwiftUI"
+      },
+      {
+        "row": 25,
+        "rowsha": "EN05Ywktu3jD9LrByHedAIBcqqMrr3nPCZ0ZR6b9IXI=",
+        "originContent": "- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Write complex SQL queries, optimize execution plans, and design normalized schemas",
+        "translatedContent": "- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Pisze złożone zapytania SQL, optymalizuje plany wykonania i projektuje znormalizowane schematy"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "Pdqqvds7cPUbRQx+04EVAgc+/9gGtNYoaqgf+jSm1aU=",
+        "originContent": "### Infrastructure & Operations",
+        "translatedContent": "### Infrastruktura i Operacje"
+      },
+      {
+        "row": 28,
+        "rowsha": "lLZYvYJsN+S/jiBKGGqXYDNkLGlmttBKmhyCC/NexHY=",
+        "originContent": "- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Debug production issues, analyze logs, and fix deployment failures",
+        "translatedContent": "- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Debuguje problemy produkcyjne, analizuje logi i naprawia błędy wdrożeniowe"
+      },
+      {
+        "row": 29,
+        "rowsha": "jsZbLhlP6kXN97soiHbRfybpwvhSw7Kr6P9dDmPTwUk=",
+        "originContent": "- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - Configure CI/CD pipelines, Docker containers, and cloud deployments",
+        "translatedContent": "- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - Konfiguruje pipeline'y CI/CD, kontenery Docker i wdrożenia chmurowe"
+      },
+      {
+        "row": 30,
+        "rowsha": "yvkrx4As5d6cvJJWFjS+Avz2XgZPqwhP0KHax8NEZ9M=",
+        "originContent": "- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - Design AWS/Azure/GCP infrastructure and optimize cloud costs",
+        "translatedContent": "- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - Projektuje infrastrukturę AWS/Azure/GCP i optymalizuje koszty chmurowe"
+      },
+      {
+        "row": 31,
+        "rowsha": "UAvcFooT1FEvhhitmcnanrix76Ph8qwCbTTuu+GdIT4=",
+        "originContent": "- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - Optimize SQL queries, design efficient indexes, and handle database migrations",
+        "translatedContent": "- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - Optymalizuje zapytania SQL, projektuje wydajne indeksy i zarządza migracjami baz danych"
+      },
+      {
+        "row": 32,
+        "rowsha": "9zBei5DIZd3yxaN3CbtR1UQd4vrM3+/btY7z1zGQCq4=",
+        "originContent": "- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - Manage database operations, backups, replication, and monitoring",
+        "translatedContent": "- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - Zarządza operacjami bazy danych, kopiami zapasowymi, replikacją i monitoringiem"
+      },
+      {
+        "row": 33,
+        "rowsha": "BgIFP6Y9xED4WjH/I4P3N8oVbRUkl0GxPAAvA+DsOf4=",
+        "originContent": "- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Write advanced Terraform modules, manage state files, and implement IaC best practices",
+        "translatedContent": "- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Pisze zaawansowane moduły Terraform, zarządza plikami stanu i wdraża najlepsze praktyki IaC"
+      },
+      {
+        "row": 34,
+        "rowsha": "OX5xchyXWtN3B3KgPDjUW11cuywRpSurvnNX5BRRHX0=",
+        "originContent": "- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Handles production incidents with urgency and precision",
+        "translatedContent": "- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Obsługuje incydenty produkcyjne z pilnością i precyzją"
+      },
+      {
+        "row": 35,
+        "rowsha": "ww5iBSwGPrsXupfNP6CGeceZlu1EcVqu0WgZ1Pc07n8=",
+        "originContent": "- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Debug network connectivity, configure load balancers, and analyze traffic patterns",
+        "translatedContent": "- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Debuguje łączność sieciową, konfiguruje load balancery i analizuje wzorce ruchu"
+      },
+      {
+        "row": 36,
+        "rowsha": "2Q+vtWO9QPcavzZDjTj+XBOPu4tMmH2eZBYdwhgdzw8=",
+        "originContent": "- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Developer Experience specialist that improves tooling, setup, and workflows",
+        "translatedContent": "- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Specjalista Developer Experience, który usprawnia narzędzia, konfigurację i workflow"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "fiQyxSU50TISFtlOfgkv+Q5bgDjVoszuLluwEJnZ9n8=",
+        "originContent": "### Quality & Security",
+        "translatedContent": "### Jakość i Bezpieczeństwo"
+      },
+      {
+        "row": 39,
+        "rowsha": "EGOT/RFFOuw9S/ylSG97nrwn0ssIZZiQJpdTLavMwzA=",
+        "originContent": "- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Expert code review with deep configuration security focus and production reliability",
+        "translatedContent": "- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Ekspert w przeglądzie kodu z naciskiem na bezpieczeństwo konfiguracji i niezawodność produkcyjną"
+      },
+      {
+        "row": 40,
+        "rowsha": "EVjniZInbT6v8nRa0A+HCx/v2OPZTkt/NwhioWyPHUk=",
+        "originContent": "- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Review code for vulnerabilities and ensure OWASP compliance",
+        "translatedContent": "- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Przegląda kod pod kątem podatności i zapewnia zgodność z OWASP"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Create comprehensive test suites with unit, integration, and e2e tests\n- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profile applications, optimize bottlenecks, and implement caching strategies\n- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Debugging specialist for errors, test failures, and unexpected behavior\n- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Search logs and codebases for error patterns, stack traces, and anomalies\n- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Expert web researcher using advanced search techniques and synthesis\n\n### Data & AI\n- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Data analysis expert for SQL queries, BigQuery operations, and data insights\n- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Build ETL pipelines, data warehouses, and streaming architectures\n- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Build LLM applications, RAG systems, and prompt pipelines\n- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Implement ML pipelines, model serving, and feature engineering\n- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Build ML pipelines, experiment tracking, and model registries\n- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - Optimizes prompts for LLMs and AI systems\n\n### Specialized Domains\n- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Create OpenAPI/Swagger specs and write developer documentation\n- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integrate Stripe, PayPal, and payment processors\n- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Build financial models, backtest trading strategies, and analyze market data\n- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Monitor portfolio risk, R-multiples, and position limits\n- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refactor legacy codebases and implement gradual modernization\n- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Manages context across multiple agents and long-running tasks\n\n### Documentation\n- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Creates comprehensive technical documentation from existing codebases\n- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Creates exhaustive technical references and API documentation\n- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Creates step-by-step tutorials and educational content from code\n\n### Business & Marketing\n- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analyze metrics, create reports, and track KPIs\n- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Write blog posts, social media content, and email newsletters\n- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Draft cold emails, follow-ups, and proposal templates\n- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Handle support tickets, FAQ responses, and customer emails\n- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Draft privacy policies, terms of service, disclaimers, and legal notices\n\n## Model Assignments\n\nAll 57 subagents are configured with specific Claude models based on task complexity:\n\n### 🚀 Haiku (Fast & Cost-Effective) - 9 agents\n**Model:** `haiku`",
+    "ContentSha": "0jdbxrH53gOrhtg0PyEuifjesqeWPiC/4CZ+wJwBCyU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Twórz kompleksowe zestawy testów: jednostkowych, integracyjnych i e2e\n- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profilowanie aplikacji, optymalizacja wąskich gardeł i wdrażanie strategii cache’owania\n- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Specjalista od debugowania błędów, nieudanych testów i nieoczekiwanych zachowań\n- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Przeszukuje logi i bazy kodu pod kątem wzorców błędów, stack trace’ów i anomalii\n- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Ekspert w zakresie badań internetowych z użyciem zaawansowanych technik wyszukiwania i syntezy\n\n### Dane & AI\n- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Ekspert analizy danych: zapytania SQL, operacje BigQuery i wnioski z danych\n- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Buduje pipeline’y ETL, hurtownie danych i architektury streamingowe\n- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Tworzy aplikacje LLM, systemy RAG i pipeline’y promptów\n- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Implementuje pipeline’y ML, serwowanie modeli i inżynierię cech\n- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Buduje pipeline’y ML, śledzenie eksperymentów i rejestry modeli\n- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - Optymalizuje prompt’y dla LLM i systemów AI\n\n### Specjalistyczne dziedziny\n- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Tworzy specyfikacje OpenAPI/Swagger i pisze dokumentację deweloperską\n- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integruje Stripe, PayPal i procesory płatności\n- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Buduje modele finansowe, testuje strategie tradingowe i analizuje dane rynkowe\n- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Monitoruje ryzyko portfela, R-multiple i limity pozycji\n- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refaktoryzuje stare bazy kodu i wdraża stopniową modernizację\n- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Zarządza kontekstem pomiędzy wieloma agentami i długotrwałymi zadaniami\n\n### Dokumentacja\n- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Tworzy kompleksową dokumentację techniczną na podstawie istniejących baz kodu\n- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Tworzy wyczerpujące referencje techniczne i dokumentację API\n- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Tworzy tutoriale krok po kroku i materiały edukacyjne z kodu\n\n### Biznes & Marketing\n- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analizuje metryki, tworzy raporty i śledzi KPI\n- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Pisze wpisy na blogi, treści na social media i newslettery e-mailowe\n- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Tworzy maile cold, follow-upy i szablony ofert\n- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Obsługuje zgłoszenia, odpowiedzi do FAQ i korespondencję z klientami\n- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Opracowuje polityki prywatności, regulaminy, zastrzeżenia i powiadomienia prawne\n\n## Przypisania modeli\n\nWszystkich 57 subagentów skonfigurowano z konkretnymi modelami Claude w zależności od złożoności zadania:\n\n### 🚀 Haiku (Szybki & Ekonomiczny) - 9 agentów\n**Model:** `haiku`",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UvYmZc3vgtfA/RNkLc6D1FrJMDG4+EJaDgdqoxmp/ak=",
+        "originContent": "- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Create comprehensive test suites with unit, integration, and e2e tests",
+        "translatedContent": "- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Twórz kompleksowe zestawy testów: jednostkowych, integracyjnych i e2e"
+      },
+      {
+        "row": 2,
+        "rowsha": "DIyXlRLcz94JInmtpn/jAJyTc/ljKMQPPvAhAj3CtkA=",
+        "originContent": "- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profile applications, optimize bottlenecks, and implement caching strategies",
+        "translatedContent": "- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profilowanie aplikacji, optymalizacja wąskich gardeł i wdrażanie strategii cache’owania"
+      },
+      {
+        "row": 3,
+        "rowsha": "Wa1NAI5ZGLjw7HShSJpRcQJh11H6y5QYGBooa8h15lY=",
+        "originContent": "- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Debugging specialist for errors, test failures, and unexpected behavior",
+        "translatedContent": "- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Specjalista od debugowania błędów, nieudanych testów i nieoczekiwanych zachowań"
+      },
+      {
+        "row": 4,
+        "rowsha": "WIR2yphIb1VNpF/rp99kPLglSxMZKihvnqH7lCuWTBg=",
+        "originContent": "- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Search logs and codebases for error patterns, stack traces, and anomalies",
+        "translatedContent": "- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Przeszukuje logi i bazy kodu pod kątem wzorców błędów, stack trace’ów i anomalii"
+      },
+      {
+        "row": 5,
+        "rowsha": "xb64K/KXq3C/lpNnx/hq+uZ5BI2e1Ohr2Oeawrv6Ovw=",
+        "originContent": "- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Expert web researcher using advanced search techniques and synthesis",
+        "translatedContent": "- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Ekspert w zakresie badań internetowych z użyciem zaawansowanych technik wyszukiwania i syntezy"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "euYINzvdfkMiyGfT17bK3oS3pzbMGQ6uMJnYCkpxLA8=",
+        "originContent": "### Data & AI",
+        "translatedContent": "### Dane & AI"
+      },
+      {
+        "row": 8,
+        "rowsha": "eiGc4Sso1X31ctpoBJXPXFglYX8wbmoHaTx926aq9QI=",
+        "originContent": "- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Data analysis expert for SQL queries, BigQuery operations, and data insights",
+        "translatedContent": "- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Ekspert analizy danych: zapytania SQL, operacje BigQuery i wnioski z danych"
+      },
+      {
+        "row": 9,
+        "rowsha": "IynYPFXwdLqsbXFrzkEk7n8ctHdMcNKSxrbsyl8Ki+I=",
+        "originContent": "- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Build ETL pipelines, data warehouses, and streaming architectures",
+        "translatedContent": "- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Buduje pipeline’y ETL, hurtownie danych i architektury streamingowe"
+      },
+      {
+        "row": 10,
+        "rowsha": "eXKjU77dxO0sG3ZU4iUhWDWC5xKbVO5TuA7MM5bmk6w=",
+        "originContent": "- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Build LLM applications, RAG systems, and prompt pipelines",
+        "translatedContent": "- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Tworzy aplikacje LLM, systemy RAG i pipeline’y promptów"
+      },
+      {
+        "row": 11,
+        "rowsha": "KSCBPUfcTpsGndZBljwIUSGanYkGGOgYD86YmRKeptY=",
+        "originContent": "- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Implement ML pipelines, model serving, and feature engineering",
+        "translatedContent": "- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Implementuje pipeline’y ML, serwowanie modeli i inżynierię cech"
+      },
+      {
+        "row": 12,
+        "rowsha": "uiLtVGxDSOA1HNr/RFhuqyyTg6fcRxvrunpChQSS8Jo=",
+        "originContent": "- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Build ML pipelines, experiment tracking, and model registries",
+        "translatedContent": "- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Buduje pipeline’y ML, śledzenie eksperymentów i rejestry modeli"
+      },
+      {
+        "row": 13,
+        "rowsha": "Y5j/V+1x74iHKxP+GKV1qfcBpomOLVa2xcWWYLieHYo=",
+        "originContent": "- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - Optimizes prompts for LLMs and AI systems",
+        "translatedContent": "- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - Optymalizuje prompt’y dla LLM i systemów AI"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "7rWVzhnbGuAUu5v8/ja1AQqqpPH0WSvOmSR5QYOOXlQ=",
+        "originContent": "### Specialized Domains",
+        "translatedContent": "### Specjalistyczne dziedziny"
+      },
+      {
+        "row": 16,
+        "rowsha": "TTYf/44MyFFHWJX6AlKGfDJCXZOa2oXBLsmKoaWMrMI=",
+        "originContent": "- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Create OpenAPI/Swagger specs and write developer documentation",
+        "translatedContent": "- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Tworzy specyfikacje OpenAPI/Swagger i pisze dokumentację deweloperską"
+      },
+      {
+        "row": 17,
+        "rowsha": "IooV9F4rFpjkJrNhXYImC5yfu+LRWFEPavKNfwpPlF8=",
+        "originContent": "- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integrate Stripe, PayPal, and payment processors",
+        "translatedContent": "- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integruje Stripe, PayPal i procesory płatności"
+      },
+      {
+        "row": 18,
+        "rowsha": "QUfOCHSHthxFLCjJUNCmMP38kHZInzP+DjC2d/Dx5l8=",
+        "originContent": "- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Build financial models, backtest trading strategies, and analyze market data",
+        "translatedContent": "- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Buduje modele finansowe, testuje strategie tradingowe i analizuje dane rynkowe"
+      },
+      {
+        "row": 19,
+        "rowsha": "eIVpPqh/j0+XL7hjBKB7M45NNQCI16aHBTcWtTmIMjs=",
+        "originContent": "- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Monitor portfolio risk, R-multiples, and position limits",
+        "translatedContent": "- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Monitoruje ryzyko portfela, R-multiple i limity pozycji"
+      },
+      {
+        "row": 20,
+        "rowsha": "1U/nnlAb06JvCiBMzJq6frQd4+ULIzHmDJpVYTz7DwE=",
+        "originContent": "- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refactor legacy codebases and implement gradual modernization",
+        "translatedContent": "- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refaktoryzuje stare bazy kodu i wdraża stopniową modernizację"
+      },
+      {
+        "row": 21,
+        "rowsha": "pNxroTKe+UBhmprVuAsPhwjKbDD2pKEOEOxFQ6PBOvE=",
+        "originContent": "- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Manages context across multiple agents and long-running tasks",
+        "translatedContent": "- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Zarządza kontekstem pomiędzy wieloma agentami i długotrwałymi zadaniami"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "2mMUh/WBPxNHjUUe8ZJhHcWcT77DHoUsPD+naSd90X0=",
+        "originContent": "### Documentation",
+        "translatedContent": "### Dokumentacja"
+      },
+      {
+        "row": 24,
+        "rowsha": "RCNy4EnXM3sbAwO2HV6GkkbvEOQHSz8tCVYhe7TyUYY=",
+        "originContent": "- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Creates comprehensive technical documentation from existing codebases",
+        "translatedContent": "- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Tworzy kompleksową dokumentację techniczną na podstawie istniejących baz kodu"
+      },
+      {
+        "row": 25,
+        "rowsha": "5/5b5ALZw6XGwavOmzuE9Za0tXUagZWsQBnCTPMMZa4=",
+        "originContent": "- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Creates exhaustive technical references and API documentation",
+        "translatedContent": "- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Tworzy wyczerpujące referencje techniczne i dokumentację API"
+      },
+      {
+        "row": 26,
+        "rowsha": "Qxust4SIwhgROR0v055Ob0KfOBRnfXCRqn7KyNzndFQ=",
+        "originContent": "- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Creates step-by-step tutorials and educational content from code",
+        "translatedContent": "- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Tworzy tutoriale krok po kroku i materiały edukacyjne z kodu"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "Tr+/n6CobY0V0VIiOVnbDLM7BlLe3GYte0uCthkOJG0=",
+        "originContent": "### Business & Marketing",
+        "translatedContent": "### Biznes & Marketing"
+      },
+      {
+        "row": 29,
+        "rowsha": "Z94OelWNlW3gzrl+8Mrh52bDe1IGqWYthfOwE80C5bQ=",
+        "originContent": "- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analyze metrics, create reports, and track KPIs",
+        "translatedContent": "- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analizuje metryki, tworzy raporty i śledzi KPI"
+      },
+      {
+        "row": 30,
+        "rowsha": "2QgQ9d/5aQulvQ36VCqObfq0GUH2D96qYarhod/okqI=",
+        "originContent": "- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Write blog posts, social media content, and email newsletters",
+        "translatedContent": "- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Pisze wpisy na blogi, treści na social media i newslettery e-mailowe"
+      },
+      {
+        "row": 31,
+        "rowsha": "lfnt8yqonPGXrS06hsYR9UuJtHv0ke69ohKb10IVYfY=",
+        "originContent": "- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Draft cold emails, follow-ups, and proposal templates",
+        "translatedContent": "- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Tworzy maile cold, follow-upy i szablony ofert"
+      },
+      {
+        "row": 32,
+        "rowsha": "Q73SUMoDCzhjd7Aww57c3Cz2Ga56YyI31ROGbMX5kQw=",
+        "originContent": "- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Handle support tickets, FAQ responses, and customer emails",
+        "translatedContent": "- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Obsługuje zgłoszenia, odpowiedzi do FAQ i korespondencję z klientami"
+      },
+      {
+        "row": 33,
+        "rowsha": "AZ3ErYSXITvrHOve0uvWQlNeQrYEgdtLvB5GIeQUYp4=",
+        "originContent": "- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Draft privacy policies, terms of service, disclaimers, and legal notices",
+        "translatedContent": "- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Opracowuje polityki prywatności, regulaminy, zastrzeżenia i powiadomienia prawne"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "Uxdem9ei2c9Bt1V7PCdIeY2VH2Yo6XKcHWiCxBMv8pU=",
+        "originContent": "## Model Assignments",
+        "translatedContent": "## Przypisania modeli"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "4mjfXhrHdSEymNOwlObUGcxrwfqAAbsoSZpVOhSlG2M=",
+        "originContent": "All 57 subagents are configured with specific Claude models based on task complexity:",
+        "translatedContent": "Wszystkich 57 subagentów skonfigurowano z konkretnymi modelami Claude w zależności od złożoności zadania:"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "Mu+SvZMVSz5k1aZLa1iqOM1yS7bhn3wHJO9oC0GGqyo=",
+        "originContent": "### 🚀 Haiku (Fast & Cost-Effective) - 9 agents",
+        "translatedContent": "### 🚀 Haiku (Szybki & Ekonomiczny) - 9 agentów"
+      },
+      {
+        "row": 40,
+        "rowsha": "KQYusdnPsoBs3XWFvrl0jc0cockZrOh2GzfWlBo/JVM=",
+        "originContent": "**Model:** `haiku`",
+        "translatedContent": "**Model:** `haiku`"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "- `data-scientist` - SQL queries and data analysis\n- `api-documenter` - OpenAPI/Swagger documentation\n- `reference-builder` - Exhaustive technical references and API documentation\n- `business-analyst` - Metrics and KPI tracking\n- `content-marketer` - Blog posts and social media\n- `customer-support` - Support tickets and FAQs\n- `sales-automator` - Cold emails and proposals\n- `search-specialist` - Web research and information gathering\n- `legal-advisor` - Privacy policies and compliance documents\n\n### ⚡ Sonnet (Balanced Performance) - 35 agents\n**Model:** `sonnet`\n\n**Development & Languages:**\n- `python-pro` - Python development with advanced features\n- `javascript-pro` - Modern JavaScript and Node.js\n- `typescript-pro` - Advanced TypeScript with type systems\n- `golang-pro` - Go concurrency and idiomatic patterns\n- `rust-pro` - Rust memory safety and systems programming\n- `c-pro` - C programming and embedded systems\n- `cpp-pro` - Modern C++ with STL and templates\n- `php-pro` - Modern PHP with advanced features\n- `java-pro` - Modern Java with streams and concurrency\n- `elixir-pro` - Elixir with OTP patterns and Phoenix\n- `csharp-pro` - Modern C# with .NET frameworks and patterns\n- `unity-developer` - Unity game development and optimization\n- `minecraft-bukkit-pro` - Minecraft plugin development with Bukkit/Spigot/Paper\n- `ios-developer` - Native iOS development with Swift/SwiftUI\n- `frontend-developer` - React components and UI\n- `ui-ux-designer` - Interface design and wireframes\n- `backend-architect` - API design and microservices\n- `mobile-developer` - React Native/Flutter apps\n- `sql-pro` - Complex SQL optimization\n- `graphql-architect` - GraphQL schemas and resolvers\n\n**Infrastructure & Operations:**\n- `devops-troubleshooter` - Production debugging\n- `deployment-engineer` - CI/CD pipelines\n- `database-optimizer` - Query optimization\n- `database-admin` - Database operations",
+    "ContentSha": "Hpu7ui6/fK1whe8Ozwy54yb20zDsOVhzdx/LR2LPc0Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- `data-scientist` - Zapytania SQL i analiza danych\n- `api-documenter` - Dokumentacja OpenAPI/Swagger\n- `reference-builder` - Wyjątkowo szczegółowe odniesienia techniczne i dokumentacja API\n- `business-analyst` - Śledzenie metryk i KPI\n- `content-marketer` - Posty na blogu i media społecznościowe\n- `customer-support` - Zgłoszenia wsparcia i FAQ\n- `sales-automator` - Maile sprzedażowe i propozycje\n- `search-specialist` - Badania internetowe i zbieranie informacji\n- `legal-advisor` - Polityki prywatności i dokumenty zgodności\n\n### ⚡ Sonnet (Zrównoważona wydajność) - 35 agentów\n**Model:** `sonnet`\n\n**Rozwój i Języki:**\n- `python-pro` - Programowanie w Pythonie z zaawansowanymi funkcjami\n- `javascript-pro` - Nowoczesny JavaScript i Node.js\n- `typescript-pro` - Zaawansowany TypeScript z systemami typów\n- `golang-pro` - Go z współbieżnością i idiomatycznymi wzorcami\n- `rust-pro` - Bezpieczeństwo pamięci w Rust i programowanie systemowe\n- `c-pro` - Programowanie w C i systemy wbudowane\n- `cpp-pro` - Nowoczesny C++ z STL i szablonami\n- `php-pro` - Nowoczesny PHP z zaawansowanymi funkcjami\n- `java-pro` - Nowoczesna Java ze strumieniami i współbieżnością\n- `elixir-pro` - Elixir z wzorcami OTP i Phoenix\n- `csharp-pro` - Nowoczesny C# z frameworkami .NET i wzorcami\n- `unity-developer` - Tworzenie gier w Unity i optymalizacja\n- `minecraft-bukkit-pro` - Tworzenie pluginów do Minecraft z Bukkit/Spigot/Paper\n- `ios-developer` - Natywne aplikacje iOS w Swift/SwiftUI\n- `frontend-developer` - Komponenty React i interfejsy użytkownika\n- `ui-ux-designer` - Projektowanie interfejsów i makiety\n- `backend-architect` - Projektowanie API i mikroserwisy\n- `mobile-developer` - Aplikacje React Native/Flutter\n- `sql-pro` - Zaawansowana optymalizacja SQL\n- `graphql-architect` - Schematy i resolver’y GraphQL\n\n**Infrastruktura i Operacje:**\n- `devops-troubleshooter` - Debugowanie środowiska produkcyjnego\n- `deployment-engineer` - Pipelines CI/CD\n- `database-optimizer` - Optymalizacja zapytań\n- `database-admin` - Operacje bazodanowe",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2blwJ4Hjo5d7QEQiCkCnX0gzkQ7mMYd74OG2ZpifaAE=",
+        "originContent": "- `data-scientist` - SQL queries and data analysis",
+        "translatedContent": "- `data-scientist` - Zapytania SQL i analiza danych"
+      },
+      {
+        "row": 2,
+        "rowsha": "CX/mG+e/DoSz+cAVptxQ44xUigULOM3EC3pX/1nWqWU=",
+        "originContent": "- `api-documenter` - OpenAPI/Swagger documentation",
+        "translatedContent": "- `api-documenter` - Dokumentacja OpenAPI/Swagger"
+      },
+      {
+        "row": 3,
+        "rowsha": "Kq3khkst9EyTaEOc5AYbwH19tf2IB/7bTYeE1l/nr0I=",
+        "originContent": "- `reference-builder` - Exhaustive technical references and API documentation",
+        "translatedContent": "- `reference-builder` - Wyjątkowo szczegółowe odniesienia techniczne i dokumentacja API"
+      },
+      {
+        "row": 4,
+        "rowsha": "XjADI8N6GLzVOJ6OW3HLlVkhHhL4nM+p5GtJQMYzekw=",
+        "originContent": "- `business-analyst` - Metrics and KPI tracking",
+        "translatedContent": "- `business-analyst` - Śledzenie metryk i KPI"
+      },
+      {
+        "row": 5,
+        "rowsha": "SaRrDQ5/Y4vJgs9gxn1UvcE5Q5cA4tx4ZDp3Ekf5bJ4=",
+        "originContent": "- `content-marketer` - Blog posts and social media",
+        "translatedContent": "- `content-marketer` - Posty na blogu i media społecznościowe"
+      },
+      {
+        "row": 6,
+        "rowsha": "5+vzDxL6DSD7X1wX7WgDl2m7CJS98TVJ+bWSotvPokg=",
+        "originContent": "- `customer-support` - Support tickets and FAQs",
+        "translatedContent": "- `customer-support` - Zgłoszenia wsparcia i FAQ"
+      },
+      {
+        "row": 7,
+        "rowsha": "LL9rO1Ia9sNrgfKBtIj5OD8VCNTzc0OYYW3H6rs614w=",
+        "originContent": "- `sales-automator` - Cold emails and proposals",
+        "translatedContent": "- `sales-automator` - Maile sprzedażowe i propozycje"
+      },
+      {
+        "row": 8,
+        "rowsha": "QpTkH+NXCmN0ZeUcgZVkDlJLaTu/wD8qEyHF09pb6R4=",
+        "originContent": "- `search-specialist` - Web research and information gathering",
+        "translatedContent": "- `search-specialist` - Badania internetowe i zbieranie informacji"
+      },
+      {
+        "row": 9,
+        "rowsha": "W6eWU+TYxoG+plXjBRsdYxMA5NVS5Khbs9kEUOIDa/I=",
+        "originContent": "- `legal-advisor` - Privacy policies and compliance documents",
+        "translatedContent": "- `legal-advisor` - Polityki prywatności i dokumenty zgodności"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "4Ewjc6yGkWwQC+EKHGayk9YFmCgCfNaCXNUzGW4nn3w=",
+        "originContent": "### ⚡ Sonnet (Balanced Performance) - 35 agents",
+        "translatedContent": "### ⚡ Sonnet (Zrównoważona wydajność) - 35 agentów"
+      },
+      {
+        "row": 12,
+        "rowsha": "TZp9L8cbxRXhsnLQYHhTDiaO327i/yFA7V4aHbjsyTE=",
+        "originContent": "**Model:** `sonnet`",
+        "translatedContent": "**Model:** `sonnet`"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "dq2UZdjXks73e2HyPxxlgjVplto1NDmUWBLWMJLJAOQ=",
+        "originContent": "**Development & Languages:**",
+        "translatedContent": "**Rozwój i Języki:**"
+      },
+      {
+        "row": 15,
+        "rowsha": "IcDocoH3v5gFelRY7FJESenCIuuxOOlwovsQntx4kK4=",
+        "originContent": "- `python-pro` - Python development with advanced features",
+        "translatedContent": "- `python-pro` - Programowanie w Pythonie z zaawansowanymi funkcjami"
+      },
+      {
+        "row": 16,
+        "rowsha": "v8miVTTd0f9iew5kAVs/xWhBr9zc/7uVZZmsdSW/R1U=",
+        "originContent": "- `javascript-pro` - Modern JavaScript and Node.js",
+        "translatedContent": "- `javascript-pro` - Nowoczesny JavaScript i Node.js"
+      },
+      {
+        "row": 17,
+        "rowsha": "2XQwBfWsv8u3gOZnKWuEDuhP/ol+C+Hc9a5bf49842M=",
+        "originContent": "- `typescript-pro` - Advanced TypeScript with type systems",
+        "translatedContent": "- `typescript-pro` - Zaawansowany TypeScript z systemami typów"
+      },
+      {
+        "row": 18,
+        "rowsha": "BX3tFBdLA/YCAWZb/kUg/yrJSXeH+HaqSg/co5XiGDs=",
+        "originContent": "- `golang-pro` - Go concurrency and idiomatic patterns",
+        "translatedContent": "- `golang-pro` - Go z współbieżnością i idiomatycznymi wzorcami"
+      },
+      {
+        "row": 19,
+        "rowsha": "n2b3+LEZyAlpBoaHqeqWKooZZc/TyvQ+uLtAcyH9m3M=",
+        "originContent": "- `rust-pro` - Rust memory safety and systems programming",
+        "translatedContent": "- `rust-pro` - Bezpieczeństwo pamięci w Rust i programowanie systemowe"
+      },
+      {
+        "row": 20,
+        "rowsha": "wfAPXW1c9iK3HQnnYASTzh4aBBr5wai2rGcbOTPbOpI=",
+        "originContent": "- `c-pro` - C programming and embedded systems",
+        "translatedContent": "- `c-pro` - Programowanie w C i systemy wbudowane"
+      },
+      {
+        "row": 21,
+        "rowsha": "835IybEs3VbKWgl9JvQ+MNVwdQ1QJ74FKlldcCVy/tI=",
+        "originContent": "- `cpp-pro` - Modern C++ with STL and templates",
+        "translatedContent": "- `cpp-pro` - Nowoczesny C++ z STL i szablonami"
+      },
+      {
+        "row": 22,
+        "rowsha": "ay8rmQIqjNJiVgcDGjJ+ejrZl/FIbDxm5BtCt3oQ+ts=",
+        "originContent": "- `php-pro` - Modern PHP with advanced features",
+        "translatedContent": "- `php-pro` - Nowoczesny PHP z zaawansowanymi funkcjami"
+      },
+      {
+        "row": 23,
+        "rowsha": "VpvkOsu4HxXRDfScdJsRmWr+9GGE8Jikgm8YHpQV2oI=",
+        "originContent": "- `java-pro` - Modern Java with streams and concurrency",
+        "translatedContent": "- `java-pro` - Nowoczesna Java ze strumieniami i współbieżnością"
+      },
+      {
+        "row": 24,
+        "rowsha": "HPEWqNGQJsRC3Vc65K+06N8yF6H6nn59hLa5LXjRWb0=",
+        "originContent": "- `elixir-pro` - Elixir with OTP patterns and Phoenix",
+        "translatedContent": "- `elixir-pro` - Elixir z wzorcami OTP i Phoenix"
+      },
+      {
+        "row": 25,
+        "rowsha": "eneH9GhsNJaCSaZI7Y8uRz3qW6RKBCq8UPWclEdpV2Q=",
+        "originContent": "- `csharp-pro` - Modern C# with .NET frameworks and patterns",
+        "translatedContent": "- `csharp-pro` - Nowoczesny C# z frameworkami .NET i wzorcami"
+      },
+      {
+        "row": 26,
+        "rowsha": "sYB6Bhzvo97rgrp1PCcCvKPPwdaxx1WUwMo0ecIumNU=",
+        "originContent": "- `unity-developer` - Unity game development and optimization",
+        "translatedContent": "- `unity-developer` - Tworzenie gier w Unity i optymalizacja"
+      },
+      {
+        "row": 27,
+        "rowsha": "R4rjZ8RKvJ1OdnDmm87Y1esrPxi6aimPhF0WNkkDBHM=",
+        "originContent": "- `minecraft-bukkit-pro` - Minecraft plugin development with Bukkit/Spigot/Paper",
+        "translatedContent": "- `minecraft-bukkit-pro` - Tworzenie pluginów do Minecraft z Bukkit/Spigot/Paper"
+      },
+      {
+        "row": 28,
+        "rowsha": "e6MQ/3YTgkxl47do1GbdJ1Gon5PjSTvd9b6PsoGcBnc=",
+        "originContent": "- `ios-developer` - Native iOS development with Swift/SwiftUI",
+        "translatedContent": "- `ios-developer` - Natywne aplikacje iOS w Swift/SwiftUI"
+      },
+      {
+        "row": 29,
+        "rowsha": "XLE5Krp8wASddAPGSZNC5udwyg5D4+FpgOebLsyrXAQ=",
+        "originContent": "- `frontend-developer` - React components and UI",
+        "translatedContent": "- `frontend-developer` - Komponenty React i interfejsy użytkownika"
+      },
+      {
+        "row": 30,
+        "rowsha": "0b0VyEKd0Nw6MgJCT9GtYbcZzZ+tLNzfc/tWTZr60ss=",
+        "originContent": "- `ui-ux-designer` - Interface design and wireframes",
+        "translatedContent": "- `ui-ux-designer` - Projektowanie interfejsów i makiety"
+      },
+      {
+        "row": 31,
+        "rowsha": "/fFMaRVJ2vwYu9r22UxJ+tNicbJA6jTl51kJ5BJeKYI=",
+        "originContent": "- `backend-architect` - API design and microservices",
+        "translatedContent": "- `backend-architect` - Projektowanie API i mikroserwisy"
+      },
+      {
+        "row": 32,
+        "rowsha": "GJ1rwi1vQy7HJe6cTQTDRQIehBcnaWXxYVsA4tasioo=",
+        "originContent": "- `mobile-developer` - React Native/Flutter apps",
+        "translatedContent": "- `mobile-developer` - Aplikacje React Native/Flutter"
+      },
+      {
+        "row": 33,
+        "rowsha": "v3hUrIsufBWJZK4AjiHkNVAnibYj1WuKoiVPzo4DtcU=",
+        "originContent": "- `sql-pro` - Complex SQL optimization",
+        "translatedContent": "- `sql-pro` - Zaawansowana optymalizacja SQL"
+      },
+      {
+        "row": 34,
+        "rowsha": "NtLzSkKAO/hgrTXXYo1CeuVGrdyqWzPjarAJa/6xwyU=",
+        "originContent": "- `graphql-architect` - GraphQL schemas and resolvers",
+        "translatedContent": "- `graphql-architect` - Schematy i resolver’y GraphQL"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "+n6DxVqdcBHBH8p8iGWm7friJY4VwFEePWLFx/I1+qo=",
+        "originContent": "**Infrastructure & Operations:**",
+        "translatedContent": "**Infrastruktura i Operacje:**"
+      },
+      {
+        "row": 37,
+        "rowsha": "aq92msVMSKsEC8ngZdD1uF8V59DjumUMsJfLTTssYSo=",
+        "originContent": "- `devops-troubleshooter` - Production debugging",
+        "translatedContent": "- `devops-troubleshooter` - Debugowanie środowiska produkcyjnego"
+      },
+      {
+        "row": 38,
+        "rowsha": "q6K8qoyFZpu82hEABtPeKPj8hRP2u5IhuSXQ535+eGc=",
+        "originContent": "- `deployment-engineer` - CI/CD pipelines",
+        "translatedContent": "- `deployment-engineer` - Pipelines CI/CD"
+      },
+      {
+        "row": 39,
+        "rowsha": "VzzTZ/+JGj9WPHLNfqJNVTTBI2PIaosWmO6FV5FKneU=",
+        "originContent": "- `database-optimizer` - Query optimization",
+        "translatedContent": "- `database-optimizer` - Optymalizacja zapytań"
+      },
+      {
+        "row": 40,
+        "rowsha": "AfRHizAwkgMM6momLy8geGbHs8FN9jJiL/g05uDe01A=",
+        "originContent": "- `database-admin` - Database operations",
+        "translatedContent": "- `database-admin` - Operacje bazodanowe"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "- `terraform-specialist` - Infrastructure as Code\n- `network-engineer` - Network configuration\n- `dx-optimizer` - Developer experience\n- `data-engineer` - ETL pipelines\n\n**Quality & Support:**\n- `test-automator` - Test suite creation\n- `code-reviewer` - Code quality analysis\n- `debugger` - Error investigation\n- `error-detective` - Log analysis\n- `ml-engineer` - ML model deployment\n- `legacy-modernizer` - Framework migrations\n- `payment-integration` - Payment processing\n\n### 🧠 Opus (Maximum Capability) - 13 agents\n**Model:** `opus`\n- `ai-engineer` - LLM applications and RAG systems\n- `security-auditor` - Vulnerability analysis\n- `performance-engineer` - Application optimization\n- `incident-responder` - Production incident handling\n- `mlops-engineer` - ML infrastructure\n- `architect-reviewer` - Architectural consistency\n- `cloud-architect` - Cloud infrastructure design\n- `prompt-engineer` - LLM prompt optimization\n- `context-manager` - Multi-agent coordination\n- `quant-analyst` - Financial modeling\n- `risk-manager` - Portfolio risk management\n- `docs-architect` - Comprehensive technical documentation from codebases\n- `tutorial-engineer` - Step-by-step tutorials and educational content\n\n## Installation\n\nThese subagents are automatically available when placed in `~/.claude/agents/` directory.\n",
+    "ContentSha": "skZqLyTVZr+ge8Jitz8Q2h8u7vOyzOPdbG4hg8VsPfA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- `terraform-specialist` - Infrastruktura jako kod\n- `network-engineer` - Konfiguracja sieci\n- `dx-optimizer` - Optymalizacja doświadczenia dewelopera\n- `data-engineer` - Potoki ETL\n\n**Jakość i wsparcie:**\n- `test-automator` - Tworzenie zestawu testów\n- `code-reviewer` - Analiza jakości kodu\n- `debugger` - Badanie błędów\n- `error-detective` - Analiza logów\n- `ml-engineer` - Wdrażanie modeli ML\n- `legacy-modernizer` - Migracje frameworków\n- `payment-integration` - Przetwarzanie płatności\n\n### 🧠 Opus (Maksymalna funkcjonalność) - 13 agentów\n**Model:** `opus`\n- `ai-engineer` - Zastosowania LLM i systemy RAG\n- `security-auditor` - Analiza podatności\n- `performance-engineer` - Optymalizacja aplikacji\n- `incident-responder` - Obsługa incydentów produkcyjnych\n- `mlops-engineer` - Infrastruktura ML\n- `architect-reviewer` - Spójność architektury\n- `cloud-architect` - Projektowanie infrastruktury chmurowej\n- `prompt-engineer` - Optymalizacja promptów dla LLM\n- `context-manager` - Koordynacja wielu agentów\n- `quant-analyst` - Modelowanie finansowe\n- `risk-manager` - Zarządzanie ryzykiem portfela\n- `docs-architect` - Kompleksowa dokumentacja techniczna na podstawie kodu\n- `tutorial-engineer` - Instrukcje krok po kroku i materiały edukacyjne\n\n## Instalacja\n\nTe subagenty są automatycznie dostępne po umieszczeniu w katalogu `~/.claude/agents/`.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "xo5xszxRcqXq9PzR1lNMYJkT2QhM3UaXG6aDCELkaW0=",
+        "originContent": "- `terraform-specialist` - Infrastructure as Code",
+        "translatedContent": "- `terraform-specialist` - Infrastruktura jako kod"
+      },
+      {
+        "row": 2,
+        "rowsha": "QiK28Fxui1DkIZ6fLLR/coABhFB1ADhZ/ealVoGkXWc=",
+        "originContent": "- `network-engineer` - Network configuration",
+        "translatedContent": "- `network-engineer` - Konfiguracja sieci"
+      },
+      {
+        "row": 3,
+        "rowsha": "AvPbfg4qNkJP9Wql6Eb4paFhUN4USoRKSOAzzLrjHao=",
+        "originContent": "- `dx-optimizer` - Developer experience",
+        "translatedContent": "- `dx-optimizer` - Optymalizacja doświadczenia dewelopera"
+      },
+      {
+        "row": 4,
+        "rowsha": "t1skxvTnzCH9s8cQJxvWWMjYIrRsJzvgGny0w1/SQdg=",
+        "originContent": "- `data-engineer` - ETL pipelines",
+        "translatedContent": "- `data-engineer` - Potoki ETL"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "k9mRGpD/kRJAZ/oJ3wSLuMGTYZej+nmd7O2GvUM36E8=",
+        "originContent": "**Quality & Support:**",
+        "translatedContent": "**Jakość i wsparcie:**"
+      },
+      {
+        "row": 7,
+        "rowsha": "2F7scdGPB8XIPVScah73MvgUnwAXhmGBVc8BdnFKjoQ=",
+        "originContent": "- `test-automator` - Test suite creation",
+        "translatedContent": "- `test-automator` - Tworzenie zestawu testów"
+      },
+      {
+        "row": 8,
+        "rowsha": "QOdOQ/H7fXORADBZN4EYE9nvnmkxVR2vyNQaT6oZw+g=",
+        "originContent": "- `code-reviewer` - Code quality analysis",
+        "translatedContent": "- `code-reviewer` - Analiza jakości kodu"
+      },
+      {
+        "row": 9,
+        "rowsha": "CeefJX1Z4S6xco6gRB+oz9jTqsbrpK2lg4n9gbDgKT4=",
+        "originContent": "- `debugger` - Error investigation",
+        "translatedContent": "- `debugger` - Badanie błędów"
+      },
+      {
+        "row": 10,
+        "rowsha": "HUIIqhukwORD6Tsk3Q5nLX9lAYaZsxCROyE2ONfFW/g=",
+        "originContent": "- `error-detective` - Log analysis",
+        "translatedContent": "- `error-detective` - Analiza logów"
+      },
+      {
+        "row": 11,
+        "rowsha": "Lz6S8THECtA/IwmxtiPOajlxqMZ5eWiXTbKHO/pa3d0=",
+        "originContent": "- `ml-engineer` - ML model deployment",
+        "translatedContent": "- `ml-engineer` - Wdrażanie modeli ML"
+      },
+      {
+        "row": 12,
+        "rowsha": "X+sB25hqD5ysHVonWzRxLsxvdYaA3+Hq6VrzI3bOpDo=",
+        "originContent": "- `legacy-modernizer` - Framework migrations",
+        "translatedContent": "- `legacy-modernizer` - Migracje frameworków"
+      },
+      {
+        "row": 13,
+        "rowsha": "5i8Ig+Nq3koSyW3HYaQjZfsc2eTgZe84FhpS3C/0gtk=",
+        "originContent": "- `payment-integration` - Payment processing",
+        "translatedContent": "- `payment-integration` - Przetwarzanie płatności"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "lvahiMeZnpTHiXV5zqEc4UycvpayMFtPdAqgLZPkiag=",
+        "originContent": "### 🧠 Opus (Maximum Capability) - 13 agents",
+        "translatedContent": "### 🧠 Opus (Maksymalna funkcjonalność) - 13 agentów"
+      },
+      {
+        "row": 16,
+        "rowsha": "X1Z9CrcTozxVAbsYw2LgjNT4i43aPaVLdOqFocRt2+g=",
+        "originContent": "**Model:** `opus`",
+        "translatedContent": "**Model:** `opus`"
+      },
+      {
+        "row": 17,
+        "rowsha": "DzER6GtvPH31oFyRsZL32gbA0Hw4ZAsem08fP8Pg8Tk=",
+        "originContent": "- `ai-engineer` - LLM applications and RAG systems",
+        "translatedContent": "- `ai-engineer` - Zastosowania LLM i systemy RAG"
+      },
+      {
+        "row": 18,
+        "rowsha": "EmQe2u3TNilulalvfkY5hftQtz+cB1YsJx/PAk8Rs3s=",
+        "originContent": "- `security-auditor` - Vulnerability analysis",
+        "translatedContent": "- `security-auditor` - Analiza podatności"
+      },
+      {
+        "row": 19,
+        "rowsha": "E6iYLXqqrtt9J8NEaYQoE9Nu0Nj4nYaSeMLHaXoNrCw=",
+        "originContent": "- `performance-engineer` - Application optimization",
+        "translatedContent": "- `performance-engineer` - Optymalizacja aplikacji"
+      },
+      {
+        "row": 20,
+        "rowsha": "CnyaInxCRYJYT8haKGKHcWVxSezuSroxq5JaeDkbt5Y=",
+        "originContent": "- `incident-responder` - Production incident handling",
+        "translatedContent": "- `incident-responder` - Obsługa incydentów produkcyjnych"
+      },
+      {
+        "row": 21,
+        "rowsha": "ayvO2N1GbbJDM1KMWzbs7GbwpP7x3sEE3RyQwB6RAm4=",
+        "originContent": "- `mlops-engineer` - ML infrastructure",
+        "translatedContent": "- `mlops-engineer` - Infrastruktura ML"
+      },
+      {
+        "row": 22,
+        "rowsha": "t0rQfkkIyNokSFgBxM+G2h7TX0hap0cYbi+fGLk0qUs=",
+        "originContent": "- `architect-reviewer` - Architectural consistency",
+        "translatedContent": "- `architect-reviewer` - Spójność architektury"
+      },
+      {
+        "row": 23,
+        "rowsha": "BJDG+a8HAAb/n0rpXtgRTvfvwwPLgl3cyC+crCt9tFI=",
+        "originContent": "- `cloud-architect` - Cloud infrastructure design",
+        "translatedContent": "- `cloud-architect` - Projektowanie infrastruktury chmurowej"
+      },
+      {
+        "row": 24,
+        "rowsha": "pIfYYhIRmrNEsdUBgE8qTBqrOs4E6cUZO+EczHCXKQo=",
+        "originContent": "- `prompt-engineer` - LLM prompt optimization",
+        "translatedContent": "- `prompt-engineer` - Optymalizacja promptów dla LLM"
+      },
+      {
+        "row": 25,
+        "rowsha": "+gWO3vGU5UmcXI5EcT1QhYoFFAhcA2n7hWK0C92zCOs=",
+        "originContent": "- `context-manager` - Multi-agent coordination",
+        "translatedContent": "- `context-manager` - Koordynacja wielu agentów"
+      },
+      {
+        "row": 26,
+        "rowsha": "CJmltCfdnysKnRDGwoD+6NkmMbFVSwKahV+lDU84m+I=",
+        "originContent": "- `quant-analyst` - Financial modeling",
+        "translatedContent": "- `quant-analyst` - Modelowanie finansowe"
+      },
+      {
+        "row": 27,
+        "rowsha": "UqvuUtJi61sjvF8j8TUX3eexwQ3FDENChpwFCBExC0A=",
+        "originContent": "- `risk-manager` - Portfolio risk management",
+        "translatedContent": "- `risk-manager` - Zarządzanie ryzykiem portfela"
+      },
+      {
+        "row": 28,
+        "rowsha": "OZb/DJ284AVjVGaRIzbRzTKvh0wy+aGkK/ps/cHh7+Q=",
+        "originContent": "- `docs-architect` - Comprehensive technical documentation from codebases",
+        "translatedContent": "- `docs-architect` - Kompleksowa dokumentacja techniczna na podstawie kodu"
+      },
+      {
+        "row": 29,
+        "rowsha": "sCY1eCO8cv3v7gXcYEIbMpgGsomn1IK4D/Ryhflz1H4=",
+        "originContent": "- `tutorial-engineer` - Step-by-step tutorials and educational content",
+        "translatedContent": "- `tutorial-engineer` - Instrukcje krok po kroku i materiały edukacyjne"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Instalacja"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "+kqvi/1PA0h03c1iJ0MDkMhYFpmwxPZSIqzXhIQDujI=",
+        "originContent": "These subagents are automatically available when placed in `~/.claude/agents/` directory.",
+        "translatedContent": "Te subagenty są automatycznie dostępne po umieszczeniu w katalogu `~/.claude/agents/`."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\ncd ~/.claude\ngit clone https://github.com/wshobson/agents.git\n```",
+    "ContentSha": "ymejwwNPfOhfbNg6ZWyBl+3jzzabnbZN4iIGFWYGNUk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd ~/.claude\ngit clone https://github.com/wshobson/agents.git\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## Usage\n\n### Automatic Invocation\nClaude Code will automatically delegate to the appropriate subagent based on the task context and the subagent's description.\n\n### Explicit Invocation\nMention the subagent by name in your request:",
+    "ContentSha": "aPOpM7o6C2LheFMGybjYdlOEfsNhycBfR7Dl9HM00l4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Użycie\n\n### Automatyczne wywołanie\nClaude Code automatycznie deleguje zadania do odpowiedniego subagenta na podstawie kontekstu zadania oraz opisu subagenta.\n\n### Jawne wywołanie\nWspomnij nazwę subagenta w swojej prośbie:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Użycie"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Uo6ZQkAp3XOrcU+SZU0DxFj0jtsIcbYRyZsNoJLf+Yw=",
+        "originContent": "### Automatic Invocation",
+        "translatedContent": "### Automatyczne wywołanie"
+      },
+      {
+        "row": 5,
+        "rowsha": "4vfd70AfTH8YyIeUw8n8nJ/EznFw05B6QFyuW2DDP7c=",
+        "originContent": "Claude Code will automatically delegate to the appropriate subagent based on the task context and the subagent's description.",
+        "translatedContent": "Claude Code automatycznie deleguje zadania do odpowiedniego subagenta na podstawie kontekstu zadania oraz opisu subagenta."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "y83MwRLesO+UBe3MwfxjxTwNHuQvaaho0yzwGgs0LUg=",
+        "originContent": "### Explicit Invocation",
+        "translatedContent": "### Jawne wywołanie"
+      },
+      {
+        "row": 8,
+        "rowsha": "BiKNpqgszPmxA7w2E6EZDFr8ZjTiHE1sPwnopSi5Woo=",
+        "originContent": "Mention the subagent by name in your request:",
+        "translatedContent": "Wspomnij nazwę subagenta w swojej prośbie:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\n\"Use the code-reviewer to check my recent changes\"\n\"Have the security-auditor scan for vulnerabilities\"\n\"Get the performance-engineer to optimize this bottleneck\"\n```",
+    "ContentSha": "/LSyroHcyZhNF4dvAM9da9wHLh5wKzhgIEwEKOX7Fh0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\"Use the code-reviewer to check my recent changes\"\n\"Have the security-auditor scan for vulnerabilities\"\n\"Get the performance-engineer to optimize this bottleneck\"\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Usage Examples\n\n### Single Agent Tasks",
+    "ContentSha": "aM+Fhosi+zL3JF77KmWXAODY/tAzdw1VufzW3LbXoCs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Przykłady użycia\n\n### Zadania pojedynczego agenta",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "S26wdEyXDtbwhsw5/RfwoNc6EYkI3moIDhrEDjveQB0=",
+        "originContent": "## Usage Examples",
+        "translatedContent": "## Przykłady użycia"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Eg4jHayhFqfNjSTVw1qhZronwV/KpSyS/EHucghmNsU=",
+        "originContent": "### Single Agent Tasks",
+        "translatedContent": "### Zadania pojedynczego agenta"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# Code quality and review\n\"Use code-reviewer to analyze this component for best practices\"\n\"Have code-reviewer scrutinize these configuration changes\"\n\"Have security-auditor check for OWASP compliance issues\"\n\n# Development tasks  \n\"Get backend-architect to design a user authentication API\"\n\"Use frontend-developer to create a responsive dashboard layout\"\n\n# Infrastructure and operations\n\"Have devops-troubleshooter analyze these production logs\"\n\"Use cloud-architect to design a scalable AWS architecture\"\n\"Get network-engineer to debug SSL certificate issues\"\n\"Use database-admin to set up backup and replication\"\n\n# Data and AI\n\"Get data-scientist to analyze this customer behavior dataset\"\n\"Use ai-engineer to build a RAG system for document search\"\n\"Have mlops-engineer set up MLflow experiment tracking\"\n\n# Business and marketing\n\"Have business-analyst create investor deck with growth metrics\"\n\"Use content-marketer to write SEO-optimized blog post\"\n\"Get sales-automator to create cold email sequence\"\n\"Have customer-support draft FAQ documentation\"\n```",
+    "ContentSha": "iSoNAYu+1Llk16Td1NNxMYnKaxuW+JezqueDWu+lf8g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Code quality and review\n\"Use code-reviewer to analyze this component for best practices\"\n\"Have code-reviewer scrutinize these configuration changes\"\n\"Have security-auditor check for OWASP compliance issues\"\n\n# Development tasks  \n\"Get backend-architect to design a user authentication API\"\n\"Use frontend-developer to create a responsive dashboard layout\"\n\n# Infrastructure and operations\n\"Have devops-troubleshooter analyze these production logs\"\n\"Use cloud-architect to design a scalable AWS architecture\"\n\"Get network-engineer to debug SSL certificate issues\"\n\"Use database-admin to set up backup and replication\"\n\n# Data and AI\n\"Get data-scientist to analyze this customer behavior dataset\"\n\"Use ai-engineer to build a RAG system for document search\"\n\"Have mlops-engineer set up MLflow experiment tracking\"\n\n# Business and marketing\n\"Have business-analyst create investor deck with growth metrics\"\n\"Use content-marketer to write SEO-optimized blog post\"\n\"Get sales-automator to create cold email sequence\"\n\"Have customer-support draft FAQ documentation\"\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### Multi-Agent Workflows\n\nThese subagents work together seamlessly, and for more complex orchestrations, you can use the **[Claude Code Commands](https://github.com/wshobson/commands)** collection which provides 52 pre-built slash commands that leverage these subagents in sophisticated workflows.\n",
+    "ContentSha": "n8cwnJKe2gn04EG+M8DzjH7ZGupcYLZAkXMKvsYpT9g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Wieloagentowe przepływy pracy\n\nTe subagentki współpracują ze sobą bezproblemowo, a do bardziej złożonych orkiestracji możesz użyć kolekcji **[Claude Code Commands](https://github.com/wshobson/commands)**, która zawiera 52 gotowe komendy ukośnikowe wykorzystujące te subagentki w zaawansowanych przepływach pracy.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Eidk3q+cgnPMAgq7G2Vty8N+uI8YCLqlI5xDLzJVPMU=",
+        "originContent": "### Multi-Agent Workflows",
+        "translatedContent": "### Wieloagentowe przepływy pracy"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "G6xkEggYWgwRFR6EYEl+aIVWQ6LJcAUf4/pbiREyUvw=",
+        "originContent": "These subagents work together seamlessly, and for more complex orchestrations, you can use the **[Claude Code Commands](https://github.com/wshobson/commands)** collection which provides 52 pre-built slash commands that leverage these subagents in sophisticated workflows.",
+        "translatedContent": "Te subagentki współpracują ze sobą bezproblemowo, a do bardziej złożonych orkiestracji możesz użyć kolekcji **[Claude Code Commands](https://github.com/wshobson/commands)**, która zawiera 52 gotowe komendy ukośnikowe wykorzystujące te subagentki w zaawansowanych przepływach pracy."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\n# Feature development workflow\n\"Implement user authentication feature\"\n# Automatically uses: backend-architect → frontend-developer → test-automator → security-auditor\n\n# Performance optimization workflow  \n\"Optimize the checkout process performance\"\n# Automatically uses: performance-engineer → database-optimizer → frontend-developer\n\n# Production incident workflow\n\"Debug high memory usage in production\"\n# Automatically uses: incident-responder → devops-troubleshooter → error-detective → performance-engineer\n\n# Network connectivity workflow\n\"Fix intermittent API timeouts\"\n# Automatically uses: network-engineer → devops-troubleshooter → performance-engineer\n\n# Database maintenance workflow\n\"Set up disaster recovery for production database\"\n# Automatically uses: database-admin → database-optimizer → incident-responder\n\n# ML pipeline workflow\n\"Build end-to-end ML pipeline with monitoring\"\n# Automatically uses: mlops-engineer → ml-engineer → data-engineer → performance-engineer\n\n# Product launch workflow\n\"Launch new feature with marketing campaign\"\n# Automatically uses: business-analyst → content-marketer → sales-automator → customer-support\n```",
+    "ContentSha": "QTJ7UBLEUv7QR7shoFf2kSuyRJpT1udMhJuH78YhtbM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Feature development workflow\n\"Implement user authentication feature\"\n# Automatically uses: backend-architect → frontend-developer → test-automator → security-auditor\n\n# Performance optimization workflow  \n\"Optimize the checkout process performance\"\n# Automatically uses: performance-engineer → database-optimizer → frontend-developer\n\n# Production incident workflow\n\"Debug high memory usage in production\"\n# Automatically uses: incident-responder → devops-troubleshooter → error-detective → performance-engineer\n\n# Network connectivity workflow\n\"Fix intermittent API timeouts\"\n# Automatically uses: network-engineer → devops-troubleshooter → performance-engineer\n\n# Database maintenance workflow\n\"Set up disaster recovery for production database\"\n# Automatically uses: database-admin → database-optimizer → incident-responder\n\n# ML pipeline workflow\n\"Build end-to-end ML pipeline with monitoring\"\n# Automatically uses: mlops-engineer → ml-engineer → data-engineer → performance-engineer\n\n# Product launch workflow\n\"Launch new feature with marketing campaign\"\n# Automatically uses: business-analyst → content-marketer → sales-automator → customer-support\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### Advanced Workflows with Slash Commands\n\nFor more sophisticated multi-subagent orchestration, use the companion [Commands repository](https://github.com/wshobson/commands):\n",
+    "ContentSha": "dsC9vTozFJN7zL/Df2Bh+fne/rUfhtC+/bCtB0IQai8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Zaawansowane przepływy pracy z poleceniami Slash\n\nDo bardziej zaawansowanej orkiestracji z wieloma subagentami użyj towarzyszącego repozytorium [Commands](https://github.com/wshobson/commands):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "pGlwI8fXjyTFO/yRlnJHs2o53jSZ6TEZ8vWGIlnEoqs=",
+        "originContent": "### Advanced Workflows with Slash Commands",
+        "translatedContent": "### Zaawansowane przepływy pracy z poleceniami Slash"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "fQVjuwCnlptOZcMPTBKMRThxCQZobEQaAoxa27GLE9w=",
+        "originContent": "For more sophisticated multi-subagent orchestration, use the companion [Commands repository](https://github.com/wshobson/commands):",
+        "translatedContent": "Do bardziej zaawansowanej orkiestracji z wieloma subagentami użyj towarzyszącego repozytorium [Commands](https://github.com/wshobson/commands):"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\n# Complex feature development (8+ subagents)\n/full-stack-feature Build user dashboard with real-time analytics\n\n# Production incident response (5+ subagents) \n/incident-response Database connection pool exhausted\n\n# ML infrastructure setup (6+ subagents)\n/ml-pipeline Create recommendation engine with A/B testing\n\n# Security-focused implementation (7+ subagents)\n/security-hardening Implement OAuth2 with zero-trust architecture\n```",
+    "ContentSha": "pzNIN42BJveIYvtoIe2c1+ZC7DZ3fgdDiCTrT67L5TE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Complex feature development (8+ subagents)\n/full-stack-feature Build user dashboard with real-time analytics\n\n# Production incident response (5+ subagents) \n/incident-response Database connection pool exhausted\n\n# ML infrastructure setup (6+ subagents)\n/ml-pipeline Create recommendation engine with A/B testing\n\n# Security-focused implementation (7+ subagents)\n/security-hardening Implement OAuth2 with zero-trust architecture\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n## Subagent Format\n\nEach subagent follows this structure:",
+    "ContentSha": "bRTlE/XNM1EE+lDkevaGWZrIFLQtyewrqVxqEz4jLIE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Formatka subagenta\n\nKażdy subagent stosuje następującą strukturę:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "neq2V8MT+/D64VOCN4xAAqzEnBjGbJ3DbSYL6UvMhZk=",
+        "originContent": "## Subagent Format",
+        "translatedContent": "## Formatka subagenta"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VpczTeaXllEZF1jt38pi7RVVol/bBVZEs3LfyrFjH6A=",
+        "originContent": "Each subagent follows this structure:",
+        "translatedContent": "Każdy subagent stosuje następującą strukturę:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```markdown\n---\nname: subagent-name\ndescription: When this subagent should be invoked\nmodel: haiku  # Optional - specify which model to use (haiku/sonnet/opus)\ntools: tool1, tool2  # Optional - defaults to all tools\n---\n\nSystem prompt defining the subagent's role and capabilities\n```",
+    "ContentSha": "hxoyRIoeQ4nZ5ar12JHKf7Dv/E/328cYDx4XJwzWApA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```markdown\n---\nname: subagent-name\ndescription: When this subagent should be invoked\nmodel: haiku  # Optional - specify which model to use (haiku/sonnet/opus)\ntools: tool1, tool2  # Optional - defaults to all tools\n---\n\nSystem prompt defining the subagent's role and capabilities\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### Model Configuration\n\nAs of Claude Code v1.0.64, subagents can specify which Claude model they should use. This allows for cost-effective task delegation based on complexity:\n\n- **Low Complexity (Haiku)**: Simple tasks like basic data analysis, documentation generation, and standard responses\n- **Medium Complexity (Sonnet)**: Development tasks, code review, testing, and standard engineering work  \n- **High Complexity (Opus)**: Critical tasks like security auditing, architecture review, incident response, and AI/ML engineering\n\nAvailable models (using simplified naming as of Claude Code v1.0.64):\n- `haiku` - Fast and cost-effective for simple tasks\n- `sonnet` - Balanced performance for most development work\n- `opus` - Most capable for complex analysis and critical tasks\n\nIf no model is specified, the subagent will use the system's default model.\n\n## Agent Orchestration Patterns\n\nClaude Code automatically coordinates agents using these common patterns:\n\n### Sequential Workflows",
+    "ContentSha": "bFaO85nDxu5E1/4JnG5wDsR3B1i6p/nCPVTLUmhsnSY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Konfiguracja Modelu\n\nOd wersji Claude Code v1.0.64, subagenci mogą określić, którego modelu Claude powinni używać. Umożliwia to delegowanie zadań w sposób opłacalny w zależności od złożoności:\n\n- **Niska złożoność (Haiku)**: Proste zadania, takie jak podstawowa analiza danych, generowanie dokumentacji i standardowe odpowiedzi\n- **Średnia złożoność (Sonnet)**: Zadania deweloperskie, przegląd kodu, testowanie i standardowa praca inżynierska  \n- **Wysoka złożoność (Opus)**: Krytyczne zadania, takie jak audyty bezpieczeństwa, przegląd architektury, reakcja na incydenty oraz inżynieria AI/ML\n\nDostępne modele (z uproszczonymi nazwami od Claude Code v1.0.64):\n- `haiku` - Szybki i ekonomiczny do prostych zadań\n- `sonnet` - Zrównoważona wydajność dla większości prac deweloperskich\n- `opus` - Najbardziej zaawansowany do złożonej analizy i krytycznych zadań\n\nJeśli model nie zostanie określony, subagent użyje domyślnego modelu systemowego.\n\n## Wzorce Orkiestracji Agentów\n\nClaude Code automatycznie koordynuje agentów, wykorzystując te popularne wzorce:\n\n### Przepływy pracy sekwencyjnej",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "9ZcH5v6rncPXgXZv1L4t0DvStoEtU1kbEkdOLetThtU=",
+        "originContent": "### Model Configuration",
+        "translatedContent": "### Konfiguracja Modelu"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "/ZI+zvlFI/5oe4HfhlyBaaoj0QU2NFIXEnWy2h26nis=",
+        "originContent": "As of Claude Code v1.0.64, subagents can specify which Claude model they should use. This allows for cost-effective task delegation based on complexity:",
+        "translatedContent": "Od wersji Claude Code v1.0.64, subagenci mogą określić, którego modelu Claude powinni używać. Umożliwia to delegowanie zadań w sposób opłacalny w zależności od złożoności:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Ow99J/6gmxZWyBjO+ms3Ux/YgJVmXcBmHUEAyJiCS2U=",
+        "originContent": "- **Low Complexity (Haiku)**: Simple tasks like basic data analysis, documentation generation, and standard responses",
+        "translatedContent": "- **Niska złożoność (Haiku)**: Proste zadania, takie jak podstawowa analiza danych, generowanie dokumentacji i standardowe odpowiedzi"
+      },
+      {
+        "row": 7,
+        "rowsha": "tHgxoQrmRqIld0ychPnrHzgbNlpsmPGfPUFZ3oqitBE=",
+        "originContent": "- **Medium Complexity (Sonnet)**: Development tasks, code review, testing, and standard engineering work  ",
+        "translatedContent": "- **Średnia złożoność (Sonnet)**: Zadania deweloperskie, przegląd kodu, testowanie i standardowa praca inżynierska  "
+      },
+      {
+        "row": 8,
+        "rowsha": "d6nosls1NTtOIMYo5/kZEMbULAOzrgoZ3oQ80krUsvQ=",
+        "originContent": "- **High Complexity (Opus)**: Critical tasks like security auditing, architecture review, incident response, and AI/ML engineering",
+        "translatedContent": "- **Wysoka złożoność (Opus)**: Krytyczne zadania, takie jak audyty bezpieczeństwa, przegląd architektury, reakcja na incydenty oraz inżynieria AI/ML"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "d90X9/aYGgFE2IzbK8gxExidYdQoaTT4dUcIHwRbfTU=",
+        "originContent": "Available models (using simplified naming as of Claude Code v1.0.64):",
+        "translatedContent": "Dostępne modele (z uproszczonymi nazwami od Claude Code v1.0.64):"
+      },
+      {
+        "row": 11,
+        "rowsha": "L1DIkgC/9MZYJjZP+AJE/gVYpp13VyqqbIPdXDX39uU=",
+        "originContent": "- `haiku` - Fast and cost-effective for simple tasks",
+        "translatedContent": "- `haiku` - Szybki i ekonomiczny do prostych zadań"
+      },
+      {
+        "row": 12,
+        "rowsha": "/zd6m/okXWgbewZAfe9/JkjixaG0YiB6dJCfxBI18qk=",
+        "originContent": "- `sonnet` - Balanced performance for most development work",
+        "translatedContent": "- `sonnet` - Zrównoważona wydajność dla większości prac deweloperskich"
+      },
+      {
+        "row": 13,
+        "rowsha": "pWk70zVYCVnS9/L6821FVMgJld5yldyXSTGhUhTN3cw=",
+        "originContent": "- `opus` - Most capable for complex analysis and critical tasks",
+        "translatedContent": "- `opus` - Najbardziej zaawansowany do złożonej analizy i krytycznych zadań"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "mlETNOFGbuIzJRbPilrGuHgak2NOuXgeA07TOTAr8e4=",
+        "originContent": "If no model is specified, the subagent will use the system's default model.",
+        "translatedContent": "Jeśli model nie zostanie określony, subagent użyje domyślnego modelu systemowego."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "KdnYE++HFA38NqW77bXRDOdtQ7xkztMluC1V2ioNRAA=",
+        "originContent": "## Agent Orchestration Patterns",
+        "translatedContent": "## Wzorce Orkiestracji Agentów"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "8VJO0zRuz/70809nANKg21/Jr8PJSL1BBQCBR9I1Nco=",
+        "originContent": "Claude Code automatically coordinates agents using these common patterns:",
+        "translatedContent": "Claude Code automatycznie koordynuje agentów, wykorzystując te popularne wzorce:"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "74HDSiTa6ctPSGYL6k46LD/k6kPDwROeolbzIt1rkzE=",
+        "originContent": "### Sequential Workflows",
+        "translatedContent": "### Przepływy pracy sekwencyjnej"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```\nUser Request → Agent A → Agent B → Agent C → Result\n\nExample: \"Build a new API feature\"\nbackend-architect → frontend-developer → test-automator → security-auditor\n```",
+    "ContentSha": "DA6t9/Y8KVEROwvFSLWx6CafGekKweHItPUbTr/TYJw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nUser Request → Agent A → Agent B → Agent C → Result\n\nExample: \"Build a new API feature\"\nbackend-architect → frontend-developer → test-automator → security-auditor\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n### Parallel Execution",
+    "ContentSha": "gmO2ZpqApeN7gn45CbFsOPbztFAFLwgb1eS3bXxFIoI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Parallel Execution",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PRIHUCFkI5flIvKcuOVViOU9ce3RFd5yBaRiSXKH9xk=",
+        "originContent": "### Parallel Execution",
+        "translatedContent": "### Parallel Execution"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```\nUser Request → Agent A + Agent B (simultaneously) → Merge Results\n\nExample: \"Optimize application performance\" \nperformance-engineer + database-optimizer → Combined recommendations\n```",
+    "ContentSha": "fTW0dFA1yESf6i2L+Rv+WYV7eQjNBwtM/5+eZt8XjP8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nUser Request → Agent A + Agent B (simultaneously) → Merge Results\n\nExample: \"Optimize application performance\" \nperformance-engineer + database-optimizer → Combined recommendations\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n### Conditional Branching",
+    "ContentSha": "MSKoGCeVLFelow05ymGPlLXljcdijmFv5F9VAYNdMME=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Warunkowe rozgałęzianie",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jiUhBfVp5Kq9zMTw/VZ9BzSsS2AGSS/TaDGsYb7QFM4=",
+        "originContent": "### Conditional Branching",
+        "translatedContent": "### Warunkowe rozgałęzianie"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```\nUser Request → Analysis → Route to appropriate specialist\n\nExample: \"Fix this bug\"\ndebugger (analyzes) → Routes to: backend-architect OR frontend-developer OR devops-troubleshooter\n```",
+    "ContentSha": "IZX/5T6xsurT+yWc5hDNYShdaEfIr4+bEUXBtAcYG4Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nUser Request → Analysis → Route to appropriate specialist\n\nExample: \"Fix this bug\"\ndebugger (analyzes) → Routes to: backend-architect OR frontend-developer OR devops-troubleshooter\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n### Review & Validation",
+    "ContentSha": "9Rs00X12OhH40P1qQES7N41mIg91jcZ2dNDq4NHypso=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Przegląd i walidacja",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "H4yYO8sjAHn0J93W2V9eNXj0JUot7ll3vU3iaXxOMxs=",
+        "originContent": "### Review & Validation",
+        "translatedContent": "### Przegląd i walidacja"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```\nPrimary Agent → Review Agent → Final Result\n\nExample: \"Implement payment processing\"\npayment-integration → security-auditor → Validated implementation\n```",
+    "ContentSha": "6zo06TwX/Nsszi8o4/v1VkcBgq0OxgP8dq8/lxuH8i8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nPrimary Agent → Review Agent → Final Result\n\nExample: \"Implement payment processing\"\npayment-integration → security-auditor → Validated implementation\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n## When to Use Which Agent\n\n### 🏗️ Planning & Architecture\n- **backend-architect**: API design, database schemas, system architecture\n- **frontend-developer**: UI/UX planning, component architecture\n- **ui-ux-designer**: Interface design, wireframes, design systems, user research\n- **cloud-architect**: Infrastructure design, scalability planning\n\n### 🔧 Implementation & Development  \n- **python-pro**: Python-specific development tasks\n- **golang-pro**: Go-specific development tasks\n- **rust-pro**: Rust-specific development, memory safety, systems programming\n- **c-pro**: C programming, embedded systems, performance-critical code\n- **javascript-pro**: Modern JavaScript, async patterns, Node.js/browser code\n- **typescript-pro**: Advanced TypeScript, generics, type inference, enterprise patterns\n- **java-pro**: Modern Java development, streams, concurrency, Spring Boot\n- **elixir-pro**: Elixir development, OTP patterns, Phoenix frameworks, functional programming\n- **csharp-pro**: Modern C# development, .NET frameworks, enterprise patterns\n- **unity-developer**: Unity game development, C# scripting, performance optimization\n- **minecraft-bukkit-pro**: Minecraft plugin development, event systems, server-side features\n- **ios-developer**: Native iOS development with Swift/SwiftUI\n- **sql-pro**: Database queries, schema design, query optimization\n- **mobile-developer**: React Native/Flutter development\n\n### 🛠️ Operations & Maintenance\n- **devops-troubleshooter**: Production issues, deployment problems\n- **incident-responder**: Critical outages requiring immediate response\n- **database-optimizer**: Query performance, indexing strategies\n- **database-admin**: Backup strategies, replication, user management, disaster recovery\n- **terraform-specialist**: Infrastructure as Code, Terraform modules, state management\n- **network-engineer**: Network connectivity, load balancers, SSL/TLS, DNS debugging\n\n### 📊 Analysis & Optimization\n- **performance-engineer**: Application bottlenecks, optimization\n- **security-auditor**: Vulnerability scanning, compliance checks\n- **data-scientist**: Data analysis, insights, reporting\n- **mlops-engineer**: ML infrastructure, experiment tracking, model registries, pipeline automation\n\n### 🧪 Quality Assurance",
+    "ContentSha": "clnZVbrvv6++epoyPCtBXzx/PhhQlIIWG96v56RX398=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Kiedy używać którego agenta\n\n### 🏗️ Planowanie i Architektura\n- **backend-architect**: projektowanie API, schematy baz danych, architektura systemu\n- **frontend-developer**: planowanie UI/UX, architektura komponentów\n- **ui-ux-designer**: projektowanie interfejsu, makiety, systemy projektowe, badania użytkowników\n- **cloud-architect**: projektowanie infrastruktury, planowanie skalowalności\n\n### 🔧 Implementacja i Rozwój  \n- **python-pro**: zadania związane z programowaniem w Pythonie\n- **golang-pro**: zadania związane z programowaniem w Go\n- **rust-pro**: rozwój w Rust, bezpieczeństwo pamięci, programowanie systemowe\n- **c-pro**: programowanie w C, systemy wbudowane, kod krytyczny wydajnościowo\n- **javascript-pro**: nowoczesny JavaScript, wzorce asynchroniczne, kod Node.js/przeglądarka\n- **typescript-pro**: zaawansowany TypeScript, generyki, wnioskowanie typów, wzorce korporacyjne\n- **java-pro**: nowoczesny rozwój Java, strumienie, współbieżność, Spring Boot\n- **elixir-pro**: programowanie w Elixir, wzorce OTP, frameworki Phoenix, programowanie funkcyjne\n- **csharp-pro**: nowoczesny C#, frameworki .NET, wzorce korporacyjne\n- **unity-developer**: programowanie gier w Unity, skrypty C#, optymalizacja wydajności\n- **minecraft-bukkit-pro**: tworzenie pluginów Minecraft, systemy zdarzeń, funkcje po stronie serwera\n- **ios-developer**: natywne aplikacje iOS w Swift/SwiftUI\n- **sql-pro**: zapytania do baz danych, projektowanie schematów, optymalizacja zapytań\n- **mobile-developer**: programowanie w React Native/Flutter\n\n### 🛠️ Operacje i Utrzymanie\n- **devops-troubleshooter**: problemy produkcyjne, kłopoty z wdrożeniem\n- **incident-responder**: krytyczne awarie wymagające natychmiastowej reakcji\n- **database-optimizer**: wydajność zapytań, strategie indeksowania\n- **database-admin**: strategie backupu, replikacja, zarządzanie użytkownikami, odzyskiwanie awaryjne\n- **terraform-specialist**: Infrastructure as Code, moduły Terraform, zarządzanie stanem\n- **network-engineer**: łączność sieciowa, load balancery, SSL/TLS, debugowanie DNS\n\n### 📊 Analiza i Optymalizacja\n- **performance-engineer**: wąskie gardła aplikacji, optymalizacja\n- **security-auditor**: skanowanie podatności, kontrole zgodności\n- **data-scientist**: analiza danych, wnioski, raportowanie\n- **mlops-engineer**: infrastruktura ML, śledzenie eksperymentów, rejestry modeli, automatyzacja pipeline'ów\n\n### 🧪 Zapewnienie Jakości",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "tacxfmJcQ8fFR+rN+9EfiDfBymiCCL3wFpShk0Bxg1k=",
+        "originContent": "## When to Use Which Agent",
+        "translatedContent": "## Kiedy używać którego agenta"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "eidzVQtHz4MjcEku4ymIk/WT3vPZ4w3h/CrUAHUKUwU=",
+        "originContent": "### 🏗️ Planning & Architecture",
+        "translatedContent": "### 🏗️ Planowanie i Architektura"
+      },
+      {
+        "row": 5,
+        "rowsha": "mGXw67iwhzSD70UtEA7TeS17/qv+vSUdd5qbnWEy0zw=",
+        "originContent": "- **backend-architect**: API design, database schemas, system architecture",
+        "translatedContent": "- **backend-architect**: projektowanie API, schematy baz danych, architektura systemu"
+      },
+      {
+        "row": 6,
+        "rowsha": "EM6YMWgRf/q7n9u9GOWCgDEEuTKpeU1lf6WrrYOkmd0=",
+        "originContent": "- **frontend-developer**: UI/UX planning, component architecture",
+        "translatedContent": "- **frontend-developer**: planowanie UI/UX, architektura komponentów"
+      },
+      {
+        "row": 7,
+        "rowsha": "PYDAL74+I2SV3joWCJDaPG3HBVW2kuNFImf1nfnseM8=",
+        "originContent": "- **ui-ux-designer**: Interface design, wireframes, design systems, user research",
+        "translatedContent": "- **ui-ux-designer**: projektowanie interfejsu, makiety, systemy projektowe, badania użytkowników"
+      },
+      {
+        "row": 8,
+        "rowsha": "8WAprFFsPvThsIpcfZXZYlhjmD2OpDWFrfXi3wgJmq8=",
+        "originContent": "- **cloud-architect**: Infrastructure design, scalability planning",
+        "translatedContent": "- **cloud-architect**: projektowanie infrastruktury, planowanie skalowalności"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "CXZMb7pBOoTQtiaOU7k3YxUN8AthdCfaWZmg3uoq1QQ=",
+        "originContent": "### 🔧 Implementation & Development  ",
+        "translatedContent": "### 🔧 Implementacja i Rozwój  "
+      },
+      {
+        "row": 11,
+        "rowsha": "NODFRdEeQwp3rfSdsj0vAnjbvtAafIQlWVqW7B28fPc=",
+        "originContent": "- **python-pro**: Python-specific development tasks",
+        "translatedContent": "- **python-pro**: zadania związane z programowaniem w Pythonie"
+      },
+      {
+        "row": 12,
+        "rowsha": "Pm5aJCYRek+w6C6+KvClgkS/i2Oe52Xv+GaMUFwOpro=",
+        "originContent": "- **golang-pro**: Go-specific development tasks",
+        "translatedContent": "- **golang-pro**: zadania związane z programowaniem w Go"
+      },
+      {
+        "row": 13,
+        "rowsha": "ba3TROfbUaCn+l1aLJNRfgvteUA3PE8mLrSFBsI7z8c=",
+        "originContent": "- **rust-pro**: Rust-specific development, memory safety, systems programming",
+        "translatedContent": "- **rust-pro**: rozwój w Rust, bezpieczeństwo pamięci, programowanie systemowe"
+      },
+      {
+        "row": 14,
+        "rowsha": "TWFcKjA1BF2ixEluG6Pb4ECIauiiBuY80UIgp0nV9WQ=",
+        "originContent": "- **c-pro**: C programming, embedded systems, performance-critical code",
+        "translatedContent": "- **c-pro**: programowanie w C, systemy wbudowane, kod krytyczny wydajnościowo"
+      },
+      {
+        "row": 15,
+        "rowsha": "VAmyK9iAy4RxylD92UMJ09gnqRXWa5K2vVeGF+bAeew=",
+        "originContent": "- **javascript-pro**: Modern JavaScript, async patterns, Node.js/browser code",
+        "translatedContent": "- **javascript-pro**: nowoczesny JavaScript, wzorce asynchroniczne, kod Node.js/przeglądarka"
+      },
+      {
+        "row": 16,
+        "rowsha": "JDZ5VBHg+xkm+VkIPwIrtaFjJh0ylP3NXkeDw/Ih0p0=",
+        "originContent": "- **typescript-pro**: Advanced TypeScript, generics, type inference, enterprise patterns",
+        "translatedContent": "- **typescript-pro**: zaawansowany TypeScript, generyki, wnioskowanie typów, wzorce korporacyjne"
+      },
+      {
+        "row": 17,
+        "rowsha": "8PcGwdQLk7hxzBNHZa9LePlZzO64il1aoGNR7oD4vIg=",
+        "originContent": "- **java-pro**: Modern Java development, streams, concurrency, Spring Boot",
+        "translatedContent": "- **java-pro**: nowoczesny rozwój Java, strumienie, współbieżność, Spring Boot"
+      },
+      {
+        "row": 18,
+        "rowsha": "6xn1H3DE7HQPuC6hg8Ba9opzUYm5k/4y3uJVPNRRaqw=",
+        "originContent": "- **elixir-pro**: Elixir development, OTP patterns, Phoenix frameworks, functional programming",
+        "translatedContent": "- **elixir-pro**: programowanie w Elixir, wzorce OTP, frameworki Phoenix, programowanie funkcyjne"
+      },
+      {
+        "row": 19,
+        "rowsha": "B4IJgi1VuGfTku0WI5Hg8HIkLsDPs+EdOTGSVOA6+Rk=",
+        "originContent": "- **csharp-pro**: Modern C# development, .NET frameworks, enterprise patterns",
+        "translatedContent": "- **csharp-pro**: nowoczesny C#, frameworki .NET, wzorce korporacyjne"
+      },
+      {
+        "row": 20,
+        "rowsha": "amhLiHpuke07xF1J1DZbz60vA2ix+sfzLgSLdLwKajE=",
+        "originContent": "- **unity-developer**: Unity game development, C# scripting, performance optimization",
+        "translatedContent": "- **unity-developer**: programowanie gier w Unity, skrypty C#, optymalizacja wydajności"
+      },
+      {
+        "row": 21,
+        "rowsha": "jkmKzxoCBIP806yHzm5dAZFO1sdlgjWC9NqkuRHMhn0=",
+        "originContent": "- **minecraft-bukkit-pro**: Minecraft plugin development, event systems, server-side features",
+        "translatedContent": "- **minecraft-bukkit-pro**: tworzenie pluginów Minecraft, systemy zdarzeń, funkcje po stronie serwera"
+      },
+      {
+        "row": 22,
+        "rowsha": "cw1mxlOIXDHWiaf9rmOlIzXkFuK1MOzbALZ7Nfs8/3Q=",
+        "originContent": "- **ios-developer**: Native iOS development with Swift/SwiftUI",
+        "translatedContent": "- **ios-developer**: natywne aplikacje iOS w Swift/SwiftUI"
+      },
+      {
+        "row": 23,
+        "rowsha": "1okgExlBnxv778t4Zu3jIFq+m4XfZMFWvSlhhXZpRiI=",
+        "originContent": "- **sql-pro**: Database queries, schema design, query optimization",
+        "translatedContent": "- **sql-pro**: zapytania do baz danych, projektowanie schematów, optymalizacja zapytań"
+      },
+      {
+        "row": 24,
+        "rowsha": "L8Y24IWUpeU3ubBBDb9Cbu8Hl8WtfDqJLNmbh0YdrNc=",
+        "originContent": "- **mobile-developer**: React Native/Flutter development",
+        "translatedContent": "- **mobile-developer**: programowanie w React Native/Flutter"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "frqCsqUWV3ObOfaBP6ZxV2RywbKIfVIepVHSXC23bIw=",
+        "originContent": "### 🛠️ Operations & Maintenance",
+        "translatedContent": "### 🛠️ Operacje i Utrzymanie"
+      },
+      {
+        "row": 27,
+        "rowsha": "xSCmE6GJzYp4UjL2Mc+wMpAhvE4w/TZkHDm3XanUfXI=",
+        "originContent": "- **devops-troubleshooter**: Production issues, deployment problems",
+        "translatedContent": "- **devops-troubleshooter**: problemy produkcyjne, kłopoty z wdrożeniem"
+      },
+      {
+        "row": 28,
+        "rowsha": "scjLFW7qWPLUrIvz4zz5aKXMuEQKjBNdS8nPM2v8zYU=",
+        "originContent": "- **incident-responder**: Critical outages requiring immediate response",
+        "translatedContent": "- **incident-responder**: krytyczne awarie wymagające natychmiastowej reakcji"
+      },
+      {
+        "row": 29,
+        "rowsha": "QxStJqEzHeSbOHsS5i0Cw2pz+cuZxb+1NaFstlHv6rM=",
+        "originContent": "- **database-optimizer**: Query performance, indexing strategies",
+        "translatedContent": "- **database-optimizer**: wydajność zapytań, strategie indeksowania"
+      },
+      {
+        "row": 30,
+        "rowsha": "wqBAZ9/FT9IIJGRqmLeiDKh479BayRB/4Ty7rhFAYxo=",
+        "originContent": "- **database-admin**: Backup strategies, replication, user management, disaster recovery",
+        "translatedContent": "- **database-admin**: strategie backupu, replikacja, zarządzanie użytkownikami, odzyskiwanie awaryjne"
+      },
+      {
+        "row": 31,
+        "rowsha": "MCO3nMgPheaSEGMg2xGco9UciyiVBYY/zBRo6pC7n+0=",
+        "originContent": "- **terraform-specialist**: Infrastructure as Code, Terraform modules, state management",
+        "translatedContent": "- **terraform-specialist**: Infrastructure as Code, moduły Terraform, zarządzanie stanem"
+      },
+      {
+        "row": 32,
+        "rowsha": "vR48yIaaNyaEoGNymsjbKn+G68lnT83CTQYPU9Q3G1o=",
+        "originContent": "- **network-engineer**: Network connectivity, load balancers, SSL/TLS, DNS debugging",
+        "translatedContent": "- **network-engineer**: łączność sieciowa, load balancery, SSL/TLS, debugowanie DNS"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "yV4pOLrd6zEjOtdP/RWKscITsEURa+XpmS94w9YyEqs=",
+        "originContent": "### 📊 Analysis & Optimization",
+        "translatedContent": "### 📊 Analiza i Optymalizacja"
+      },
+      {
+        "row": 35,
+        "rowsha": "ykp2lX0b13mBj0/lW4VxkPqkxC7rFY440S4zVAdHNA0=",
+        "originContent": "- **performance-engineer**: Application bottlenecks, optimization",
+        "translatedContent": "- **performance-engineer**: wąskie gardła aplikacji, optymalizacja"
+      },
+      {
+        "row": 36,
+        "rowsha": "p6cL/+HJ34BBriITk2eKb6W3871t7SmyJQ+ZtAQ2m2U=",
+        "originContent": "- **security-auditor**: Vulnerability scanning, compliance checks",
+        "translatedContent": "- **security-auditor**: skanowanie podatności, kontrole zgodności"
+      },
+      {
+        "row": 37,
+        "rowsha": "cBz0bK/LHS/74w7JhVDQj3uR8YLdRfch2iQCAwWHOts=",
+        "originContent": "- **data-scientist**: Data analysis, insights, reporting",
+        "translatedContent": "- **data-scientist**: analiza danych, wnioski, raportowanie"
+      },
+      {
+        "row": 38,
+        "rowsha": "HQ3frhSMRev6V78hFeENSpY55fVywNWKvPl4Re9Jdgc=",
+        "originContent": "- **mlops-engineer**: ML infrastructure, experiment tracking, model registries, pipeline automation",
+        "translatedContent": "- **mlops-engineer**: infrastruktura ML, śledzenie eksperymentów, rejestry modeli, automatyzacja pipeline'ów"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "/97TzVdVSHowMxieKHSj3E3fDEVDc16TyK1F8H/GZv4=",
+        "originContent": "### 🧪 Quality Assurance",
+        "translatedContent": "### 🧪 Zapewnienie Jakości"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "- **code-reviewer**: Code quality, configuration security, production reliability\n- **test-automator**: Test strategy, test suite creation\n- **debugger**: Bug investigation, error resolution\n- **error-detective**: Log analysis, error pattern recognition, root cause analysis\n- **search-specialist**: Deep web research, competitive analysis, fact-checking\n\n### 📚 Documentation\n- **api-documenter**: OpenAPI/Swagger specs, API documentation\n- **docs-architect**: Comprehensive technical documentation, architecture guides, system manuals\n- **reference-builder**: Exhaustive API references, configuration guides, parameter documentation\n- **tutorial-engineer**: Step-by-step tutorials, learning paths, educational content\n\n### 💼 Business & Strategy\n- **business-analyst**: KPIs, revenue models, growth projections, investor metrics\n- **risk-manager**: Portfolio risk, hedging strategies, R-multiples, position sizing\n- **content-marketer**: SEO content, blog posts, social media, email campaigns\n- **sales-automator**: Cold emails, follow-ups, proposals, lead nurturing\n- **customer-support**: Support tickets, FAQs, help documentation, troubleshooting\n- **legal-advisor** - Draft privacy policies, terms of service, disclaimers, and legal notices \n\n## Best Practices\n\n### 🎯 Task Delegation\n1. **Let Claude Code delegate automatically** - The main agent analyzes context and selects optimal agents\n2. **Be specific about requirements** - Include constraints, tech stack, and quality requirements\n3. **Trust agent expertise** - Each agent is optimized for their domain\n\n### 🔄 Multi-Agent Workflows\n4. **Start with high-level requests** - Let agents coordinate complex multi-step tasks\n5. **Provide context between agents** - Ensure agents have necessary background information\n6. **Review integration points** - Check how different agents' outputs work together\n\n### 🎛️ Explicit Control\n7. **Use explicit invocation for specific needs** - When you want a particular expert's perspective\n8. **Combine multiple agents strategically** - Different specialists can validate each other's work\n9. **Request specific review patterns** - \"Have security-auditor review backend-architect's API design\"\n\n### 📈 Optimization\n10. **Monitor agent effectiveness** - Learn which agents work best for your use cases\n11. **Iterate on complex tasks** - Use agent feedback to refine requirements",
+    "ContentSha": "Zu2K6ZKWO6huoI5CBnPcXjhPXM8o81P1ywTbE4gQUVA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **code-reviewer**: Jakość kodu, bezpieczeństwo konfiguracji, niezawodność produkcji\n- **test-automator**: Strategia testów, tworzenie zestawów testowych\n- **debugger**: Badanie błędów, rozwiązywanie problemów\n- **error-detective**: Analiza logów, rozpoznawanie wzorców błędów, analiza przyczyn źródłowych\n- **search-specialist**: Dogłębne badania internetowe, analiza konkurencji, weryfikacja faktów\n\n### 📚 Dokumentacja\n- **api-documenter**: Specyfikacje OpenAPI/Swagger, dokumentacja API\n- **docs-architect**: Kompleksowa dokumentacja techniczna, przewodniki architektoniczne, podręczniki systemowe\n- **reference-builder**: Wyjątkowo szczegółowe odniesienia do API, przewodniki konfiguracyjne, dokumentacja parametrów\n- **tutorial-engineer**: Samouczki krok po kroku, ścieżki nauki, treści edukacyjne\n\n### 💼 Biznes i Strategia\n- **business-analyst**: KPI, modele przychodów, prognozy wzrostu, wskaźniki inwestorskie\n- **risk-manager**: Ryzyko portfela, strategie zabezpieczające, współczynniki R, rozmiarowanie pozycji\n- **content-marketer**: Treści SEO, wpisy na bloga, media społecznościowe, kampanie e-mailowe\n- **sales-automator**: Cold maile, follow-upy, propozycje, pielęgnowanie leadów\n- **customer-support**: Zgłoszenia wsparcia, FAQ, dokumentacja pomocy, rozwiązywanie problemów\n- **legal-advisor** - Tworzenie polityk prywatności, regulaminów, zastrzeżeń i not prawnych\n\n## Najlepsze praktyki\n\n### 🎯 Delegowanie zadań\n1. **Pozwól Claude Code delegować automatycznie** – Główny agent analizuje kontekst i wybiera optymalnych agentów\n2. **Sprecyzuj wymagania** – Uwzględnij ograniczenia, stos technologiczny i wymagania jakościowe\n3. **Zaufaj wiedzy agentów** – Każdy agent jest zoptymalizowany pod swoją dziedzinę\n\n### 🔄 Przepływy wieloagentowe\n4. **Zaczynaj od zapytań wysokopoziomowych** – Pozwól agentom koordynować złożone zadania wieloetapowe\n5. **Przekazuj kontekst między agentami** – Upewnij się, że agenci mają niezbędne informacje w tle\n6. **Przeglądaj punkty integracji** – Sprawdź, jak współdziałają wyniki różnych agentów\n\n### 🎛️ Kontrola jawna\n7. **Stosuj jawne wywołania do konkretnych potrzeb** – Gdy chcesz uzyskać opinię danego eksperta\n8. **Strategicznie łącz wielu agentów** – Różni specjaliści mogą wzajemnie weryfikować swoją pracę\n9. **Proś o konkretne wzorce recenzji** – \"Poproś security-auditor o przegląd projektu API backend-architect\"\n\n### 📈 Optymalizacja\n10. **Monitoruj skuteczność agentów** – Dowiedz się, którzy agenci najlepiej sprawdzają się w twoich zastosowaniach\n11. **Iteruj przy złożonych zadaniach** – Wykorzystaj opinie agentów do doprecyzowania wymagań",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "IBCK2gc25tUAHXnk8zT1Mt6GAPCtdsznLc4BhSYbDPk=",
+        "originContent": "- **code-reviewer**: Code quality, configuration security, production reliability",
+        "translatedContent": "- **code-reviewer**: Jakość kodu, bezpieczeństwo konfiguracji, niezawodność produkcji"
+      },
+      {
+        "row": 2,
+        "rowsha": "07tE4CGri1CHSAKE1/PJzcv2v4mISMT3vplXCvTj8Ho=",
+        "originContent": "- **test-automator**: Test strategy, test suite creation",
+        "translatedContent": "- **test-automator**: Strategia testów, tworzenie zestawów testowych"
+      },
+      {
+        "row": 3,
+        "rowsha": "S+2TwYNCv3zrf/2knhyApIpi9EFH8pt0IYWGbkYbqKI=",
+        "originContent": "- **debugger**: Bug investigation, error resolution",
+        "translatedContent": "- **debugger**: Badanie błędów, rozwiązywanie problemów"
+      },
+      {
+        "row": 4,
+        "rowsha": "pE/z4unE8qAF2iRS0C7r7uROEava1HtV+GolPQ804Ow=",
+        "originContent": "- **error-detective**: Log analysis, error pattern recognition, root cause analysis",
+        "translatedContent": "- **error-detective**: Analiza logów, rozpoznawanie wzorców błędów, analiza przyczyn źródłowych"
+      },
+      {
+        "row": 5,
+        "rowsha": "7Z4JJ4/75zjadkr1b8AGrQjPWu8E4UYIu/Kd7CYPxiU=",
+        "originContent": "- **search-specialist**: Deep web research, competitive analysis, fact-checking",
+        "translatedContent": "- **search-specialist**: Dogłębne badania internetowe, analiza konkurencji, weryfikacja faktów"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "+hz57qoY0fgtGIZKxDRiMQq2kSD4SlMDkKV7RiP/Js0=",
+        "originContent": "### 📚 Documentation",
+        "translatedContent": "### 📚 Dokumentacja"
+      },
+      {
+        "row": 8,
+        "rowsha": "c2b6mM+T88cWU6/W7XzKvvrTQoY2VXl3rfzlzXDvj7U=",
+        "originContent": "- **api-documenter**: OpenAPI/Swagger specs, API documentation",
+        "translatedContent": "- **api-documenter**: Specyfikacje OpenAPI/Swagger, dokumentacja API"
+      },
+      {
+        "row": 9,
+        "rowsha": "yMRTkyb/U5kAGArGA8O0jb00I5/8Qh78N5kHlcVKy1g=",
+        "originContent": "- **docs-architect**: Comprehensive technical documentation, architecture guides, system manuals",
+        "translatedContent": "- **docs-architect**: Kompleksowa dokumentacja techniczna, przewodniki architektoniczne, podręczniki systemowe"
+      },
+      {
+        "row": 10,
+        "rowsha": "C0HANbzMVq6VS9UZJgSZC10ey4OQXc7SfsEiLlaANLI=",
+        "originContent": "- **reference-builder**: Exhaustive API references, configuration guides, parameter documentation",
+        "translatedContent": "- **reference-builder**: Wyjątkowo szczegółowe odniesienia do API, przewodniki konfiguracyjne, dokumentacja parametrów"
+      },
+      {
+        "row": 11,
+        "rowsha": "x92hRRi/KACWhfl1bMU/Ar69l2KEGqYDucUZdm8WUuQ=",
+        "originContent": "- **tutorial-engineer**: Step-by-step tutorials, learning paths, educational content",
+        "translatedContent": "- **tutorial-engineer**: Samouczki krok po kroku, ścieżki nauki, treści edukacyjne"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "n3qDJ/g7eOYZvzAoGlbFNPgAwF+gn3oO+lUkNHW30Ag=",
+        "originContent": "### 💼 Business & Strategy",
+        "translatedContent": "### 💼 Biznes i Strategia"
+      },
+      {
+        "row": 14,
+        "rowsha": "xmCGznQIzimEwllGsOhisQ0d73cmMcnjLLQk1XqynaU=",
+        "originContent": "- **business-analyst**: KPIs, revenue models, growth projections, investor metrics",
+        "translatedContent": "- **business-analyst**: KPI, modele przychodów, prognozy wzrostu, wskaźniki inwestorskie"
+      },
+      {
+        "row": 15,
+        "rowsha": "ao/cEOjviV0+SlvPzcMIIvaEd0y1ICljIlIiVXkCXoA=",
+        "originContent": "- **risk-manager**: Portfolio risk, hedging strategies, R-multiples, position sizing",
+        "translatedContent": "- **risk-manager**: Ryzyko portfela, strategie zabezpieczające, współczynniki R, rozmiarowanie pozycji"
+      },
+      {
+        "row": 16,
+        "rowsha": "shVZiyce8/ZasBucipvCnfAhDvAGrz9Og04D7l2IhtI=",
+        "originContent": "- **content-marketer**: SEO content, blog posts, social media, email campaigns",
+        "translatedContent": "- **content-marketer**: Treści SEO, wpisy na bloga, media społecznościowe, kampanie e-mailowe"
+      },
+      {
+        "row": 17,
+        "rowsha": "p7UnUXIjhfB48fAAc+FC9AIq6zLJevKMSMEzbMBfmCI=",
+        "originContent": "- **sales-automator**: Cold emails, follow-ups, proposals, lead nurturing",
+        "translatedContent": "- **sales-automator**: Cold maile, follow-upy, propozycje, pielęgnowanie leadów"
+      },
+      {
+        "row": 18,
+        "rowsha": "PghqkctuxuweM1oomuZtKdlui13ho9unpZztAcef2c4=",
+        "originContent": "- **customer-support**: Support tickets, FAQs, help documentation, troubleshooting",
+        "translatedContent": "- **customer-support**: Zgłoszenia wsparcia, FAQ, dokumentacja pomocy, rozwiązywanie problemów"
+      },
+      {
+        "row": 19,
+        "rowsha": "bBwfYPX+uBez60WJsr7YRM7Bbr6cEnAW31DRPeM7XJA=",
+        "originContent": "- **legal-advisor** - Draft privacy policies, terms of service, disclaimers, and legal notices ",
+        "translatedContent": "- **legal-advisor** - Tworzenie polityk prywatności, regulaminów, zastrzeżeń i not prawnych"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "D0Q/1tx0tI6c2GIh3eW5hOR5oD5PFrsuC21txCOwOpM=",
+        "originContent": "## Best Practices",
+        "translatedContent": "## Najlepsze praktyki"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "gY9vCIqw8etMhyHBoWcY4e5PuXLuRuQnEY1ps/4DIAc=",
+        "originContent": "### 🎯 Task Delegation",
+        "translatedContent": "### 🎯 Delegowanie zadań"
+      },
+      {
+        "row": 24,
+        "rowsha": "mzPQhwyA+64DTbcDxZ/OKcVgYfKQGGVlnubAbeZZ9vc=",
+        "originContent": "1. **Let Claude Code delegate automatically** - The main agent analyzes context and selects optimal agents",
+        "translatedContent": "1. **Pozwól Claude Code delegować automatycznie** – Główny agent analizuje kontekst i wybiera optymalnych agentów"
+      },
+      {
+        "row": 25,
+        "rowsha": "AOukqmSHShY+EL8ET0U3uX6b2tEzdqIH24CHEQoG6Jw=",
+        "originContent": "2. **Be specific about requirements** - Include constraints, tech stack, and quality requirements",
+        "translatedContent": "2. **Sprecyzuj wymagania** – Uwzględnij ograniczenia, stos technologiczny i wymagania jakościowe"
+      },
+      {
+        "row": 26,
+        "rowsha": "ea02fBpK58SU2TNxMgIe8kBro/OsHtWeXbhbmecIJxw=",
+        "originContent": "3. **Trust agent expertise** - Each agent is optimized for their domain",
+        "translatedContent": "3. **Zaufaj wiedzy agentów** – Każdy agent jest zoptymalizowany pod swoją dziedzinę"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "4o8S6Z39aLXTEMIdw4AJb5HFYNEFdQowzxXl/nvOAz0=",
+        "originContent": "### 🔄 Multi-Agent Workflows",
+        "translatedContent": "### 🔄 Przepływy wieloagentowe"
+      },
+      {
+        "row": 29,
+        "rowsha": "ZUrpjZJ0fVOZmqhVbsTvCFrjl0yPbtFr+H1d8blW+wI=",
+        "originContent": "4. **Start with high-level requests** - Let agents coordinate complex multi-step tasks",
+        "translatedContent": "4. **Zaczynaj od zapytań wysokopoziomowych** – Pozwól agentom koordynować złożone zadania wieloetapowe"
+      },
+      {
+        "row": 30,
+        "rowsha": "rPBL7dJ4QE+kaBrEzXJUDF4z/vyExkDPAxbuviZeadQ=",
+        "originContent": "5. **Provide context between agents** - Ensure agents have necessary background information",
+        "translatedContent": "5. **Przekazuj kontekst między agentami** – Upewnij się, że agenci mają niezbędne informacje w tle"
+      },
+      {
+        "row": 31,
+        "rowsha": "KaCBWisW87XtjI45FCDATlKXN4uwSyUhlNoyKVZgnoo=",
+        "originContent": "6. **Review integration points** - Check how different agents' outputs work together",
+        "translatedContent": "6. **Przeglądaj punkty integracji** – Sprawdź, jak współdziałają wyniki różnych agentów"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "AIurfA5Xe113UyKyFtCPzL13V8dLz268YTJvv4gOqQI=",
+        "originContent": "### 🎛️ Explicit Control",
+        "translatedContent": "### 🎛️ Kontrola jawna"
+      },
+      {
+        "row": 34,
+        "rowsha": "kqHXHONRqaHnGXLJGIXHSd4EL+bI24W0Yqox92DfFpk=",
+        "originContent": "7. **Use explicit invocation for specific needs** - When you want a particular expert's perspective",
+        "translatedContent": "7. **Stosuj jawne wywołania do konkretnych potrzeb** – Gdy chcesz uzyskać opinię danego eksperta"
+      },
+      {
+        "row": 35,
+        "rowsha": "53nzyUJWTmCUhjfw+YDuYFS/ITAxM1i0l06lRfflC/A=",
+        "originContent": "8. **Combine multiple agents strategically** - Different specialists can validate each other's work",
+        "translatedContent": "8. **Strategicznie łącz wielu agentów** – Różni specjaliści mogą wzajemnie weryfikować swoją pracę"
+      },
+      {
+        "row": 36,
+        "rowsha": "DzZYEQYUkYRnpmYQax/fWiK6cC8Kh32OSCYb0ev7d8M=",
+        "originContent": "9. **Request specific review patterns** - \"Have security-auditor review backend-architect's API design\"",
+        "translatedContent": "9. **Proś o konkretne wzorce recenzji** – \"Poproś security-auditor o przegląd projektu API backend-architect\""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "pLxTaNW+dSNmSvnXlvkRB1mvQhXAKoYOz7YJUNWXWHY=",
+        "originContent": "### 📈 Optimization",
+        "translatedContent": "### 📈 Optymalizacja"
+      },
+      {
+        "row": 39,
+        "rowsha": "3+A4Z3N/w1kNoyZOUJJIR7VPYVFSzfkbi32h3O6/b1U=",
+        "originContent": "10. **Monitor agent effectiveness** - Learn which agents work best for your use cases",
+        "translatedContent": "10. **Monitoruj skuteczność agentów** – Dowiedz się, którzy agenci najlepiej sprawdzają się w twoich zastosowaniach"
+      },
+      {
+        "row": 40,
+        "rowsha": "ltcNwrbm8dF4cb7wTnXLdR4Aocgg8kiEySbO+fK19kk=",
+        "originContent": "11. **Iterate on complex tasks** - Use agent feedback to refine requirements",
+        "translatedContent": "11. **Iteruj przy złożonych zadaniach** – Wykorzystaj opinie agentów do doprecyzowania wymagań"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 27,
+    "Content": "12. **Leverage agent strengths** - Match task complexity to agent capabilities\n\n## Contributing\n\nTo add a new subagent:\n1. Create a new `.md` file following the format above\n2. Use lowercase, hyphen-separated names\n3. Write clear descriptions for when the subagent should be used\n4. Include specific instructions in the system prompt\n\n## Troubleshooting\n\n### Common Issues\n\n**Agent not being invoked automatically:**\n- Ensure your request clearly indicates the domain (e.g., \"performance issue\" → performance-engineer)\n- Be specific about the task type (e.g., \"review code\" → code-reviewer)\n\n**Unexpected agent selection:**\n- Provide more context about your tech stack and requirements\n- Use explicit invocation if you need a specific agent\n\n**Multiple agents producing conflicting advice:**\n- This is normal - different specialists may have different priorities\n- Ask for clarification: \"Reconcile the recommendations from security-auditor and performance-engineer\"\n\n**Agent seems to lack context:**\n- Provide background information in your request\n- Reference previous conversations or established patterns\n\n### Getting Help\n\nIf agents aren't working as expected:\n1. Check agent descriptions in their individual files\n2. Try more specific language in your requests\n3. Use explicit invocation to test specific agents\n4. Provide more context about your project and goals\n\n## License\n",
+    "ContentSha": "zfSUk300WzjMyfnC9rtD3f1EsngbRitwCsA+jbeXQBM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "12. **Wykorzystaj mocne strony agenta** - Dopasuj złożoność zadania do możliwości agenta\n\n## Wkład w rozwój\n\nAby dodać nowego subagenta:\n1. Utwórz nowy plik `.md`, zgodnie z powyższym formatem\n2. Używaj nazw pisanych małymi literami, oddzielanych myślnikami\n3. Napisz jasny opis sytuacji, w której subagent powinien być użyty\n4. Uwzględnij szczegółowe instrukcje w podpowiedzi systemowej\n\n## Rozwiązywanie problemów\n\n### Typowe problemy\n\n**Agent nie jest wywoływany automatycznie:**\n- Upewnij się, że Twoje żądanie jasno wskazuje domenę (np. \"problem z wydajnością\" → performance-engineer)\n- Bądź konkretny w określaniu typu zadania (np. \"przejrzyj kod\" → code-reviewer)\n\n**Nieoczekiwany wybór agenta:**\n- Podaj więcej informacji o swoim stosie technologicznym i wymaganiach\n- Użyj wywołania jawnego, jeśli potrzebujesz konkretnego agenta\n\n**Wielu agentów daje sprzeczne rady:**\n- To normalne – różni specjaliści mają różne priorytety\n- Poproś o wyjaśnienie: \"Pogódź rekomendacje od security-auditor i performance-engineer\"\n\n**Agent wydaje się nie mieć kontekstu:**\n- Podaj informacje w tle w swoim żądaniu\n- Odwołaj się do poprzednich rozmów lub ustalonych wzorców\n\n### Uzyskiwanie pomocy\n\nJeśli agenci nie działają zgodnie z oczekiwaniami:\n1. Sprawdź opisy agentów w ich indywidualnych plikach\n2. Spróbuj użyć bardziej precyzyjnego języka w swoich żądaniach\n3. Użyj jawnego wywołania, aby przetestować konkretnego agenta\n4. Podaj więcej informacji o swoim projekcie i celach\n\n## Licencja\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6NSadOmy6hqpzuUaPaJ8FvC3I+2izkCEbqJGnjxRFow=",
+        "originContent": "12. **Leverage agent strengths** - Match task complexity to agent capabilities",
+        "translatedContent": "12. **Wykorzystaj mocne strony agenta** - Dopasuj złożoność zadania do możliwości agenta"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Wkład w rozwój"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "caCH+CulnZ2ZzosKCzFrWgdwXKW1kebr0z9JF4jIpdo=",
+        "originContent": "To add a new subagent:",
+        "translatedContent": "Aby dodać nowego subagenta:"
+      },
+      {
+        "row": 6,
+        "rowsha": "AyNlRGYWUFNRuK0+rCuBeNG6XYucwJpYraCKLIhLC6M=",
+        "originContent": "1. Create a new `.md` file following the format above",
+        "translatedContent": "1. Utwórz nowy plik `.md`, zgodnie z powyższym formatem"
+      },
+      {
+        "row": 7,
+        "rowsha": "CLkTBVNks1n6UiNNgs0PXrekDb6Dlr5n2krNZ1MBAPs=",
+        "originContent": "2. Use lowercase, hyphen-separated names",
+        "translatedContent": "2. Używaj nazw pisanych małymi literami, oddzielanych myślnikami"
+      },
+      {
+        "row": 8,
+        "rowsha": "Hvgf4JGjYHFq/nQrEqgVmirrAKOmLZvWE4ZlhUjQBO0=",
+        "originContent": "3. Write clear descriptions for when the subagent should be used",
+        "translatedContent": "3. Napisz jasny opis sytuacji, w której subagent powinien być użyty"
+      },
+      {
+        "row": 9,
+        "rowsha": "9dH3fJUp3yDWjmNzvmBSD34nwdUKseFvL5NECefQMxM=",
+        "originContent": "4. Include specific instructions in the system prompt",
+        "translatedContent": "4. Uwzględnij szczegółowe instrukcje w podpowiedzi systemowej"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+        "originContent": "## Troubleshooting",
+        "translatedContent": "## Rozwiązywanie problemów"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "RkRAwQVP7sn7/Owemvt8kSXbJ+bqNfpGvNpbr3Nkbgc=",
+        "originContent": "### Common Issues",
+        "translatedContent": "### Typowe problemy"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "gAWHlHB4E18mrA9mEhXWvVVswMeXvDmZjPzfthRXog0=",
+        "originContent": "**Agent not being invoked automatically:**",
+        "translatedContent": "**Agent nie jest wywoływany automatycznie:**"
+      },
+      {
+        "row": 16,
+        "rowsha": "e7rl5WnavROQPtTlprsiY3Y2GGT/xeqcMJpESE0blHQ=",
+        "originContent": "- Ensure your request clearly indicates the domain (e.g., \"performance issue\" → performance-engineer)",
+        "translatedContent": "- Upewnij się, że Twoje żądanie jasno wskazuje domenę (np. \"problem z wydajnością\" → performance-engineer)"
+      },
+      {
+        "row": 17,
+        "rowsha": "6QaoViEQe9whiv5Jj8H8s9pvbbhi6s3gJ5XVDF9TOkk=",
+        "originContent": "- Be specific about the task type (e.g., \"review code\" → code-reviewer)",
+        "translatedContent": "- Bądź konkretny w określaniu typu zadania (np. \"przejrzyj kod\" → code-reviewer)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "I2LnAyukU3NKc+zHVI8JvUHTdGz7485yLKmD/hvT00Q=",
+        "originContent": "**Unexpected agent selection:**",
+        "translatedContent": "**Nieoczekiwany wybór agenta:**"
+      },
+      {
+        "row": 20,
+        "rowsha": "TjlYvJA/qU+soFpOSjYQ6+nPRpUwGQKIQ6WebTiFKLQ=",
+        "originContent": "- Provide more context about your tech stack and requirements",
+        "translatedContent": "- Podaj więcej informacji o swoim stosie technologicznym i wymaganiach"
+      },
+      {
+        "row": 21,
+        "rowsha": "LK1iTMIqvPTbuUlASo1dylJ6P0tiMlwqxN1zEghwNbw=",
+        "originContent": "- Use explicit invocation if you need a specific agent",
+        "translatedContent": "- Użyj wywołania jawnego, jeśli potrzebujesz konkretnego agenta"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "f3yEF5RGvxu0qcxd4+l3Dg1Ze2YkA4LBuTeNr+2Onks=",
+        "originContent": "**Multiple agents producing conflicting advice:**",
+        "translatedContent": "**Wielu agentów daje sprzeczne rady:**"
+      },
+      {
+        "row": 24,
+        "rowsha": "DMEDlYnevozlamGtxTsmLA/da/HrwrEaMVuiesLPK3I=",
+        "originContent": "- This is normal - different specialists may have different priorities",
+        "translatedContent": "- To normalne – różni specjaliści mają różne priorytety"
+      },
+      {
+        "row": 25,
+        "rowsha": "dH3OCygW2L/+vLCIvcPBNGuvgwZBLM/lHuz01lCOHPc=",
+        "originContent": "- Ask for clarification: \"Reconcile the recommendations from security-auditor and performance-engineer\"",
+        "translatedContent": "- Poproś o wyjaśnienie: \"Pogódź rekomendacje od security-auditor i performance-engineer\""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "kRtqhIwhrt6En3R120BHQ521nVys0d0Tunz49y95xKg=",
+        "originContent": "**Agent seems to lack context:**",
+        "translatedContent": "**Agent wydaje się nie mieć kontekstu:**"
+      },
+      {
+        "row": 28,
+        "rowsha": "ZV/sYtMewL3SmnWT+hEbHNxh1viSNz8R7D1hJXZWm2c=",
+        "originContent": "- Provide background information in your request",
+        "translatedContent": "- Podaj informacje w tle w swoim żądaniu"
+      },
+      {
+        "row": 29,
+        "rowsha": "5zsCB0mnVl7fLdSnMSbo5AQZYfuN1sub84MSIj8hfWI=",
+        "originContent": "- Reference previous conversations or established patterns",
+        "translatedContent": "- Odwołaj się do poprzednich rozmów lub ustalonych wzorców"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "QptjqCKXd8FKACS3J4B/ONlgrfRJTJmPpELKcshRARc=",
+        "originContent": "### Getting Help",
+        "translatedContent": "### Uzyskiwanie pomocy"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "IT4JkxXowHfd1NUAgBjAbPRYQO5pQ48bmV1Uit4p4XM=",
+        "originContent": "If agents aren't working as expected:",
+        "translatedContent": "Jeśli agenci nie działają zgodnie z oczekiwaniami:"
+      },
+      {
+        "row": 34,
+        "rowsha": "GSDXHyEzbkUmlBsusCmyWOElrMeMyZaL7GLbkr7092Q=",
+        "originContent": "1. Check agent descriptions in their individual files",
+        "translatedContent": "1. Sprawdź opisy agentów w ich indywidualnych plikach"
+      },
+      {
+        "row": 35,
+        "rowsha": "KykwIttY1z3A8lU1vknrtWdrgDbXBfxoR/dEfiCO1I8=",
+        "originContent": "2. Try more specific language in your requests",
+        "translatedContent": "2. Spróbuj użyć bardziej precyzyjnego języka w swoich żądaniach"
+      },
+      {
+        "row": 36,
+        "rowsha": "nTZz96iBDIZUGHEg3pJcQ4UrMS+rc91dWTK6G/Z2EN4=",
+        "originContent": "3. Use explicit invocation to test specific agents",
+        "translatedContent": "3. Użyj jawnego wywołania, aby przetestować konkretnego agenta"
+      },
+      {
+        "row": 37,
+        "rowsha": "K3l9X8gEKLl8M/rGHKv8u/kskWFWw85gTNCMNGxsQUA=",
+        "originContent": "4. Provide more context about your project and goals",
+        "translatedContent": "4. Podaj więcej informacji o swoim projekcie i celach"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licencja"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n## Learn More\n\n- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)\n- [Subagents Documentation](https://docs.anthropic.com/en/docs/claude-code/sub-agents)\n- [Claude Code GitHub](https://github.com/anthropics/claude-code)\n",
+    "ContentSha": "La0/ABWFB1a1zHMeFlwboA7uwj6pv9G5nLzwCRr0zSM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Ten projekt jest objęty licencją MIT – szczegóły znajdziesz w pliku [LICENSE](LICENSE).\n\n## Dowiedz się więcej\n\n- [Dokumentacja Claude Code](https://docs.anthropic.com/en/docs/claude-code)\n- [Dokumentacja Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents)\n- [Claude Code na GitHubie](https://github.com/anthropics/claude-code)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fOZgQLjSABDxHjJbYQ1wqD20ynEX33m+IkBDktyXUqY=",
+        "originContent": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.",
+        "translatedContent": "Ten projekt jest objęty licencją MIT – szczegóły znajdziesz w pliku [LICENSE](LICENSE)."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "jFtJ2BhpCg0G0oDyXio9aStpQGxOCp0YibvXJ3zXixE=",
+        "originContent": "## Learn More",
+        "translatedContent": "## Dowiedz się więcej"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "OTibF4BofnW6RcquIYGSeOF1ehjZ4ge/KzMuMpxyVkk=",
+        "originContent": "- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)",
+        "translatedContent": "- [Dokumentacja Claude Code](https://docs.anthropic.com/en/docs/claude-code)"
+      },
+      {
+        "row": 6,
+        "rowsha": "DbTVLzg3OMOoeNwsiZKOrFQKiUTlpMcg1Pw+hm8Z5Do=",
+        "originContent": "- [Subagents Documentation](https://docs.anthropic.com/en/docs/claude-code/sub-agents)",
+        "translatedContent": "- [Dokumentacja Subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents)"
+      },
+      {
+        "row": 7,
+        "rowsha": "S+3mwQ1jJLKekVVT07kvq6fdMiZbB+IN5PYDwMKW020=",
+        "originContent": "- [Claude Code GitHub](https://github.com/anthropics/claude-code)",
+        "translatedContent": "- [Claude Code na GitHubie](https://github.com/anthropics/claude-code)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
