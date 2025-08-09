@@ -31,17 +31,17 @@
 
 # Coleção de Subagentes Claude Code
 
-Uma coleção abrangente de subagentes de IA especializados para o [Claude Code](https://docs.anthropic.com/en/docs/claude-code), projetada para aprimorar fluxos de trabalho de desenvolvimento com expertise específica de domínio.
+Uma coleção abrangente de subagentes de IA especializados para o [Claude Code](https://docs.anthropic.com/en/docs/claude-code), projetados para aprimorar fluxos de trabalho de desenvolvimento com expertise específica de domínio.
 
 ## Visão Geral
 
-Este repositório contém 57 subagentes especializados que expandem as capacidades do Claude Code. Cada subagente é um especialista em um domínio específico, sendo invocado automaticamente conforme o contexto ou chamado explicitamente quando necessário. Todos os agentes são configurados com modelos Claude específicos, de acordo com a complexidade da tarefa, para desempenho ideal e custo-benefício.
+Este repositório contém 58 subagentes especializados que expandem as capacidades do Claude Code. Cada subagente é especialista em um domínio específico, sendo automaticamente acionado com base no contexto ou chamado explicitamente quando necessário. Todos os agentes são configurados com modelos Claude específicos conforme a complexidade da tarefa, visando desempenho ideal e custo-benefício.
 
 ## Subagentes Disponíveis
 
 ### Desenvolvimento & Arquitetura
 - **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Projetar APIs RESTful, limites de microsserviços e esquemas de banco de dados
-- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Construir componentes React, implementar layouts responsivos e gerenciar estado do lado do cliente
+- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Construir componentes React, implementar layouts responsivos e gerenciar estado do cliente
 - **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Criar designs de interface, wireframes e sistemas de design
 - **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - Desenvolver aplicativos React Native ou Flutter com integrações nativas
 - **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - Projetar esquemas GraphQL, resolvers e federação
@@ -50,71 +50,73 @@ Este repositório contém 57 subagentes especializados que expandem as capacidad
 ### Especialistas em Linguagens
 - **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - Escrever código Python idiomático com recursos avançados e otimizações
 - **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Escrever código Go idiomático com goroutines, canais e interfaces
-- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Escrever código Rust idiomático com padrões de propriedade, lifetimes e implementação de traits
-- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Escrever código C eficiente com gerenciamento de memória adequado e chamadas de sistema
-- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Escrever código C++ idiomático com recursos modernos, RAII, smart pointers e algoritmos STL
-- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Dominar JavaScript moderno com ES6+, padrões assíncronos e APIs Node.js
-- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Dominar TypeScript com tipos avançados, genéricos e segurança de tipos estrita
+- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Escrever Rust idiomático com padrões de posse, lifetimes e implementações de traits
+- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Escrever código C eficiente com gerenciamento de memória e chamadas de sistema adequadas
+- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Escrever código C++ idiomático com recursos modernos, RAII, ponteiros inteligentes e algoritmos STL
+- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Dominar JavaScript moderno com ES6+, padrões assíncronos e APIs do Node.js
+- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Dominar TypeScript com tipos avançados, genéricos e rigorosa segurança de tipo
 - **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Escrever código PHP idiomático com recursos modernos e otimizações de desempenho
-- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Dominar Java moderno com streams, concorrência e otimização de JVM
+- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Dominar Java moderno com streams, concorrência e otimização da JVM
 - **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Escrever código Elixir idiomático com padrões OTP, programação funcional e frameworks Phoenix
 - **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Escrever código C# moderno com recursos avançados e otimização .NET
-- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Construir jogos Unity com scripts otimizados e ajuste de desempenho
-- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Dominar desenvolvimento de plugins para servidores Minecraft com Bukkit, Spigot e APIs Paper
-- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Desenvolver aplicações nativas iOS com Swift/SwiftUI
+- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - Dominar desenvolvimento Scala corporativo com programação funcional, sistemas distribuídos e processamento de big data
+- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Criar jogos Unity com scripts otimizados e ajuste de desempenho
+- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Dominar desenvolvimento de plugins para servidores Minecraft com APIs Bukkit, Spigot e Paper
+- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Desenvolver aplicativos nativos iOS com Swift/SwiftUI
 - **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Escrever consultas SQL complexas, otimizar planos de execução e criar esquemas normalizados
 
 ### Infraestrutura & Operações
 - **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Depurar problemas em produção, analisar logs e corrigir falhas de implantação
-- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - Configurar pipelines CI/CD, contêineres Docker e implantações em nuvem
+- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - Configurar pipelines CI/CD, containers Docker e implantações em nuvem
 - **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - Projetar infraestrutura AWS/Azure/GCP e otimizar custos em nuvem
-- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - Otimizar consultas SQL, projetar índices eficientes e gerenciar migrações de banco de dados
+- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - Otimizar consultas SQL, criar índices eficientes e gerenciar migrações de banco de dados
 - **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - Gerenciar operações de banco de dados, backups, replicação e monitoramento
 - **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Escrever módulos Terraform avançados, gerenciar arquivos de estado e implementar melhores práticas de IaC
-- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Lida com incidentes de produção com urgência e precisão
+- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Lida com incidentes em produção com urgência e precisão
 - **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Depurar conectividade de rede, configurar balanceadores de carga e analisar padrões de tráfego
-- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Especialista em Experiência do Desenvolvedor que melhora ferramentas, configuração e fluxos de trabalho
+- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Especialista em Experiência do Desenvolvedor que aprimora ferramentas, configuração e fluxos de trabalho
 
 ### Qualidade & Segurança
 - **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Revisão de código especializada com foco profundo em segurança de configuração e confiabilidade em produção
 - **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Revisar código para vulnerabilidades e garantir conformidade com OWASP
-- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Crie suítes de testes abrangentes com testes unitários, de integração e e2e
-- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Faça o perfil de aplicações, otimize gargalos e implemente estratégias de cache
-- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Especialista em depuração de erros, falhas de teste e comportamentos inesperados
-- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Procure padrões de erro, rastreamentos de pilha e anomalias em logs e bases de código
-- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Pesquisador web especialista usando técnicas avançadas de busca e síntese
+- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Criar suítes de testes abrangentes com testes unitários, de integração e e2e
+- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Fazer perfil de aplicações, otimizar gargalos e implementar estratégias de cache
+- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Especialista em depuração de erros, falhas de testes e comportamento inesperado
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Buscar padrões de erro, rastreamentos e anomalias em logs e bases de código
+- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Especialista em pesquisa web usando técnicas avançadas e síntese
 
 ### Dados & IA
-- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Especialista em análise de dados para consultas SQL, operações BigQuery e insights
-- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Construa pipelines ETL, data warehouses e arquiteturas de streaming
-- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Construa aplicações LLM, sistemas RAG e pipelines de prompts
-- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Implemente pipelines de ML, serviço de modelos e engenharia de atributos
-- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Construa pipelines de ML, rastreio de experimentos e registros de modelos
+- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Especialista em análise de dados para consultas SQL, BigQuery e insights
+- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Construir pipelines ETL, data warehouses e arquiteturas de streaming
+- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Desenvolver aplicações LLM, sistemas RAG e pipelines de prompts
+- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Implementar pipelines de ML, servir modelos e engenharia de atributos
+- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Construir pipelines de ML, rastreamento de experimentos e registro de modelos
 - **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - Otimiza prompts para LLMs e sistemas de IA
 
 ### Domínios Especializados
-- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Crie especificações OpenAPI/Swagger e escreva documentação de desenvolvedor
-- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integre Stripe, PayPal e processadores de pagamento
-- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Construa modelos financeiros, faça backtest de estratégias de trading e analise dados de mercado
-- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Monitore riscos de portfólio, múltiplos-R e limites de posição
-- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refatore bases de código legadas e implemente modernização gradual
+- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Criar especificações OpenAPI/Swagger e documentação para desenvolvedores
+- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integrar Stripe, PayPal e processadores de pagamento
+- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Construir modelos financeiros, backtest de estratégias e análise de dados de mercado
+- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Monitorar risco de portfólio, múltiplos R e limites de posição
+- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refatorar bases de código legadas e implementar modernização gradual
 - **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Gerencia contexto entre múltiplos agentes e tarefas de longa duração
 
 ### Documentação
 - **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Cria documentação técnica abrangente a partir de bases de código existentes
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Criar diagramas Mermaid para fluxogramas, sequências, ERDs e arquiteturas
 - **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Cria referências técnicas exaustivas e documentação de API
-- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Cria tutoriais passo a passo e conteúdo educacional a partir de código
+- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Cria tutoriais passo a passo e conteúdo educacional a partir do código
 
 ### Negócios & Marketing
-- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analisa métricas, cria relatórios e acompanha KPIs
-- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Escreve postagens de blog, conteúdo para redes sociais e newsletters por e-mail
-- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Redige e-mails frios, follow-ups e modelos de propostas
-- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Lida com tickets de suporte, respostas de FAQ e e-mails de clientes
-- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Redige políticas de privacidade, termos de serviço, avisos legais e disclaimers
+- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analisar métricas, criar relatórios e acompanhar KPIs
+- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Escrever posts de blog, conteúdos para redes sociais e newsletters
+- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Redigir e-mails frios, follow-ups e modelos de propostas
+- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Lidar com chamados de suporte, respostas de FAQ e e-mails de clientes
+- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Redigir políticas de privacidade, termos de serviço, avisos e notificações legais
 
-## Atribuições de Modelo
+## Designação de Modelos
 
-Todos os 57 subagentes são configurados com modelos Claude específicos baseados na complexidade da tarefa:
+Todos os 58 subagentes são configurados com modelos Claude específicos de acordo com a complexidade da tarefa:
 
 ### 🚀 Haiku (Rápido & Econômico) - 9 agentes
 **Modelo:** `haiku`
@@ -122,13 +124,13 @@ Todos os 57 subagentes são configurados com modelos Claude específicos baseado
 - `api-documenter` - Documentação OpenAPI/Swagger
 - `reference-builder` - Referências técnicas exaustivas e documentação de API
 - `business-analyst` - Acompanhamento de métricas e KPIs
-- `content-marketer` - Postagens de blog e mídias sociais
-- `customer-support` - Chamados de suporte e FAQs
+- `content-marketer` - Postagens de blog e redes sociais
+- `customer-support` - Tickets de suporte e FAQs
 - `sales-automator` - E-mails frios e propostas
 - `search-specialist` - Pesquisa web e coleta de informações
 - `legal-advisor` - Políticas de privacidade e documentos de conformidade
 
-### ⚡ Sonnet (Desempenho Balanceado) - 35 agentes
+### ⚡ Sonnet (Desempenho Balanceado) - 36 agentes
 **Modelo:** `sonnet`
 
 **Desenvolvimento & Linguagens:**
@@ -143,15 +145,16 @@ Todos os 57 subagentes são configurados com modelos Claude específicos baseado
 - `java-pro` - Java moderno com streams e concorrência
 - `elixir-pro` - Elixir com padrões OTP e Phoenix
 - `csharp-pro` - C# moderno com frameworks .NET e padrões
-- `unity-developer` - Desenvolvimento e otimização de jogos Unity
+- `scala-pro` - Scala empresarial com Apache Pekko, Akka, Spark e ZIO/Cats Effect
+- `unity-developer` - Desenvolvimento de jogos Unity e otimização
 - `minecraft-bukkit-pro` - Desenvolvimento de plugins Minecraft com Bukkit/Spigot/Paper
 - `ios-developer` - Desenvolvimento nativo iOS com Swift/SwiftUI
 - `frontend-developer` - Componentes React e UI
 - `ui-ux-designer` - Design de interface e wireframes
 - `backend-architect` - Design de API e microsserviços
-- `mobile-developer` - Apps React Native/Flutter
-- `sql-pro` - Otimização avançada de SQL
-- `graphql-architect` - Schemas GraphQL e resolvers
+- `mobile-developer` - Aplicativos React Native/Flutter
+- `sql-pro` - Otimização complexa de SQL
+- `graphql-architect` - Schemas e resolvers GraphQL
 
 **Infraestrutura & Operações:**
 - `devops-troubleshooter` - Depuração em produção
@@ -165,24 +168,25 @@ Todos os 57 subagentes são configurados com modelos Claude específicos baseado
 
 **Qualidade & Suporte:**
 - `test-automator` - Criação de suíte de testes
-- `code-reviewer` - Análise de qualidade do código
+- `code-reviewer` - Análise de qualidade de código
 - `debugger` - Investigação de erros
 - `error-detective` - Análise de logs
 - `ml-engineer` - Implantação de modelos de ML
 - `legacy-modernizer` - Migração de frameworks
 - `payment-integration` - Processamento de pagamentos
+- `mermaid-expert` - Diagramas Mermaid e documentação visual
 
-### 🧠 Opus (Máxima Capacidade) - 13 agentes
+### 🧠 Opus (Capacidade Máxima) - 13 agentes
 **Modelo:** `opus`
 - `ai-engineer` - Aplicações LLM e sistemas RAG
 - `security-auditor` - Análise de vulnerabilidades
 - `performance-engineer` - Otimização de aplicações
-- `incident-responder` - Gestão de incidentes em produção
+- `incident-responder` - Tratamento de incidentes em produção
 - `mlops-engineer` - Infraestrutura de ML
 - `architect-reviewer` - Consistência arquitetural
 - `cloud-architect` - Design de infraestrutura em nuvem
 - `prompt-engineer` - Otimização de prompts LLM
-- `context-manager` - Coordenação multiagente
+- `context-manager` - Coordenação multi-agente
 - `quant-analyst` - Modelagem financeira
 - `risk-manager` - Gestão de risco de portfólio
 - `docs-architect` - Documentação técnica abrangente a partir de bases de código
@@ -190,7 +194,7 @@ Todos os 57 subagentes são configurados com modelos Claude específicos baseado
 
 ## Instalação
 
-Esses subagentes ficam disponíveis automaticamente quando colocados no diretório `~/.claude/agents/`.
+Esses subagentes ficam automaticamente disponíveis quando colocados no diretório `~/.claude/agents/`.
 
 ```bash
 cd ~/.claude
@@ -363,7 +367,7 @@ payment-integration → security-auditor → Validated implementation
 ### 🏗️ Planejamento & Arquitetura
 - **backend-architect**: Design de API, esquemas de banco de dados, arquitetura de sistemas
 - **frontend-developer**: Planejamento de UI/UX, arquitetura de componentes
-- **ui-ux-designer**: Design de interface, wireframes, sistemas de design, pesquisa de usuários
+- **ui-ux-designer**: Design de interface, wireframes, sistemas de design, pesquisa de usuário
 - **cloud-architect**: Design de infraestrutura, planejamento de escalabilidade
 
 ### 🔧 Implementação & Desenvolvimento  
@@ -372,106 +376,107 @@ payment-integration → security-auditor → Validated implementation
 - **rust-pro**: Desenvolvimento em Rust, segurança de memória, programação de sistemas
 - **c-pro**: Programação em C, sistemas embarcados, código de alta performance
 - **javascript-pro**: JavaScript moderno, padrões assíncronos, código Node.js/navegador
-- **typescript-pro**: TypeScript avançado, generics, inferência de tipos, padrões corporativos
+- **typescript-pro**: TypeScript avançado, genéricos, inferência de tipos, padrões empresariais
 - **java-pro**: Desenvolvimento Java moderno, streams, concorrência, Spring Boot
 - **elixir-pro**: Desenvolvimento em Elixir, padrões OTP, frameworks Phoenix, programação funcional
-- **csharp-pro**: Desenvolvimento moderno em C#, frameworks .NET, padrões corporativos
-- **unity-developer**: Desenvolvimento de jogos Unity, scripting em C#, otimização de performance
+- **csharp-pro**: Desenvolvimento moderno em C#, frameworks .NET, padrões empresariais
+- **scala-pro**: Scala empresarial com programação funcional, Apache Pekko/Akka actors, Apache Spark, ZIO/Cats Effect, arquiteturas reativas
+- **unity-developer**: Desenvolvimento de jogos Unity, scripts em C#, otimização de performance
 - **minecraft-bukkit-pro**: Desenvolvimento de plugins para Minecraft, sistemas de eventos, recursos do lado do servidor
 - **ios-developer**: Desenvolvimento nativo iOS com Swift/SwiftUI
-- **sql-pro**: Consultas de banco de dados, design de esquemas, otimização de queries
-- **mobile-developer**: Desenvolvimento React Native/Flutter
+- **sql-pro**: Consultas a banco de dados, design de esquemas, otimização de consultas
+- **mobile-developer**: Desenvolvimento em React Native/Flutter
 
 ### 🛠️ Operações & Manutenção
-- **devops-troubleshooter**: Problemas em produção, dificuldades de deploy
+- **devops-troubleshooter**: Problemas em produção, dificuldades de implantação
 - **incident-responder**: Interrupções críticas que exigem resposta imediata
-- **database-optimizer**: Performance de queries, estratégias de indexação
-- **database-admin**: Estratégias de backup, replicação, gestão de usuários, recuperação de desastres
+- **database-optimizer**: Performance de consultas, estratégias de indexação
+- **database-admin**: Estratégias de backup, replicação, gerenciamento de usuários, recuperação de desastres
 - **terraform-specialist**: Infraestrutura como Código, módulos Terraform, gerenciamento de estado
-- **network-engineer**: Conectividade de rede, balanceadores de carga, SSL/TLS, depuração DNS
+- **network-engineer**: Conectividade de rede, balanceadores de carga, SSL/TLS, depuração de DNS
 
 ### 📊 Análise & Otimização
-- **performance-engineer**: Gargalos de aplicações, otimização
+- **performance-engineer**: Gargalos em aplicações, otimização
 - **security-auditor**: Varredura de vulnerabilidades, verificações de conformidade
 - **data-scientist**: Análise de dados, insights, relatórios
-- **mlops-engineer**: Infraestrutura de ML, acompanhamento de experimentos, registro de modelos, automação de pipelines
+- **mlops-engineer**: Infraestrutura de ML, rastreamento de experimentos, registros de modelos, automação de pipelines
 
 ### 🧪 Garantia de Qualidade
-- **code-reviewer**: Qualidade de código, segurança de configuração, confiabilidade em produção
-- **test-automator**: Estratégia de testes, criação de suíte de testes
-- **debugger**: Investigação de bugs, resolução de erros
-- **error-detective**: Análise de logs, reconhecimento de padrões de erro, análise da causa raiz
-- **search-specialist**: Pesquisa profunda na web, análise competitiva, verificação de fatos
+- **revisor-de-código**: Qualidade do código, segurança da configuração, confiabilidade em produção
+- **automatizador-de-testes**: Estratégia de testes, criação de suíte de testes
+- **depurador**: Investigação de bugs, resolução de erros
+- **detetive-de-erros**: Análise de logs, reconhecimento de padrões de erro, análise da causa raiz
+- **especialista-em-pesquisa**: Pesquisa profunda na web, análise competitiva, verificação de fatos
 
 ### 📚 Documentação
-- **api-documenter**: Especificações OpenAPI/Swagger, documentação de API
-- **docs-architect**: Documentação técnica abrangente, guias de arquitetura, manuais de sistema
-- **reference-builder**: Referências exaustivas de API, guias de configuração, documentação de parâmetros
-- **tutorial-engineer**: Tutoriais passo a passo, trilhas de aprendizagem, conteúdo educacional
+- **documentador-de-api**: Especificações OpenAPI/Swagger, documentação de API
+- **arquiteto-de-documentação**: Documentação técnica abrangente, guias de arquitetura, manuais de sistema
+- **construtor-de-referência**: Referências exaustivas de API, guias de configuração, documentação de parâmetros
+- **engenheiro-de-tutoriais**: Tutoriais passo a passo, trilhas de aprendizagem, conteúdo educacional
 
 ### 💼 Negócios & Estratégia
-- **business-analyst**: KPIs, modelos de receita, projeções de crescimento, métricas de investidores
-- **risk-manager**: Risco de portfólio, estratégias de hedge, múltiplos R, dimensionamento de posição
-- **content-marketer**: Conteúdo para SEO, posts de blog, redes sociais, campanhas de e-mail
-- **sales-automator**: E-mails frios, follow-ups, propostas, nutrição de leads
-- **customer-support**: Chamados de suporte, FAQs, documentação de ajuda, resolução de problemas
-- **legal-advisor** - Redação de políticas de privacidade, termos de serviço, avisos legais e disclaimers
+- **analista-de-negócios**: KPIs, modelos de receita, projeções de crescimento, métricas para investidores
+- **gerente-de-risco**: Risco de portfólio, estratégias de hedge, R-múltiplos, dimensionamento de posição
+- **especialista-em-marketing-de-conteúdo**: Conteúdo SEO, postagens em blog, redes sociais, campanhas de e-mail
+- **automatizador-de-vendas**: E-mails frios, acompanhamentos, propostas, nutrição de leads
+- **suporte-ao-cliente**: Chamados de suporte, FAQs, documentação de ajuda, solução de problemas
+- **consultor-jurídico** - Redação de políticas de privacidade, termos de serviço, avisos legais e disclaimers
 
 ## Melhores Práticas
 
 ### 🎯 Delegação de Tarefas
 1. **Deixe o Claude Code delegar automaticamente** - O agente principal analisa o contexto e seleciona os agentes ideais
-2. **Seja específico sobre requisitos** - Inclua restrições, stack tecnológica e exigências de qualidade
+2. **Seja específico sobre os requisitos** - Inclua restrições, stack tecnológico e requisitos de qualidade
 3. **Confie na expertise dos agentes** - Cada agente é otimizado para seu domínio
 
-### 🔄 Fluxos de Trabalho Multiagente
-4. **Comece com solicitações de alto nível** - Deixe os agentes coordenarem tarefas complexas e multi-etapas
-5. **Forneça contexto entre agentes** - Garanta que os agentes tenham as informações de fundo necessárias
-6. **Reveja pontos de integração** - Verifique como os resultados dos agentes trabalham juntos
+### 🔄 Fluxos de Trabalho Multi-Agente
+4. **Comece com solicitações de alto nível** - Deixe os agentes coordenarem tarefas complexas de múltiplas etapas
+5. **Forneça contexto entre os agentes** - Garanta que os agentes tenham as informações de fundo necessárias
+6. **Revise pontos de integração** - Verifique como as saídas dos diferentes agentes funcionam juntas
 
 ### 🎛️ Controle Explícito
-7. **Use invocação explícita para necessidades específicas** - Quando quiser a perspectiva de um especialista em particular
-8. **Combine múltiplos agentes estrategicamente** - Diferentes especialistas podem validar o trabalho uns dos outros
-9. **Solicite padrões de revisão específicos** - "Peça ao security-auditor para revisar o design de API do backend-architect"
+7. **Use invocação explícita para necessidades específicas** - Quando você deseja a perspectiva de um especialista em particular
+8. **Combine vários agentes estrategicamente** - Diferentes especialistas podem validar o trabalho uns dos outros
+9. **Solicite padrões de revisão específicos** - "Peça ao auditor-de-segurança para revisar o design de API do arquiteto-de-backend"
 
 ### 📈 Otimização
-10. **Monitore a efetividade dos agentes** - Aprenda quais agentes funcionam melhor para seus casos de uso
-11. **Itere em tarefas complexas** - Use o feedback dos agentes para refinar requisitos
-12. **Aproveite os pontos fortes dos agentes** - Combine a complexidade da tarefa com as capacidades do agente
+10. **Monitore a eficácia dos agentes** - Aprenda quais agentes funcionam melhor para seus casos de uso
+11. **Itere em tarefas complexas** - Use o feedback do agente para refinar requisitos
+12. **Aproveite os pontos fortes do agente** - Combine a complexidade da tarefa com as capacidades do agente
 
 ## Contribuindo
 
 Para adicionar um novo subagente:
 1. Crie um novo arquivo `.md` seguindo o formato acima
-2. Use nomes em minúsculas, separados por hífen
-3. Escreva descrições claras de quando o subagente deve ser usado
+2. Use nomes em minúsculas, separados por hífens
+3. Escreva descrições claras sobre quando o subagente deve ser utilizado
 4. Inclua instruções específicas no prompt do sistema
 
 ## Solução de Problemas
 
 ### Problemas Comuns
 
-**Agente não está sendo invocado automaticamente:**
+**Agente não sendo invocado automaticamente:**
 - Certifique-se de que sua solicitação indica claramente o domínio (ex.: "problema de desempenho" → performance-engineer)
-- Seja específico sobre o tipo de tarefa (ex.: "revisar código" → code-reviewer)
+- Seja específico quanto ao tipo de tarefa (ex.: "revisar código" → code-reviewer)
 
 **Seleção inesperada de agente:**
 - Forneça mais contexto sobre sua stack tecnológica e requisitos
 - Use invocação explícita se precisar de um agente específico
 
-**Vários agentes produzindo conselhos conflitantes:**
-- Isso é normal - diferentes especialistas podem ter prioridades diferentes
+**Múltiplos agentes produzindo recomendações conflitantes:**
+- Isso é normal - diferentes especialistas podem ter prioridades distintas
 - Peça esclarecimentos: "Reconciliar as recomendações de security-auditor e performance-engineer"
 
 **Agente parece não ter contexto:**
 - Forneça informações de fundo em sua solicitação
-- Faça referência a conversas anteriores ou padrões já estabelecidos
+- Faça referência a conversas anteriores ou padrões estabelecidos
 
 ### Obtendo Ajuda
 
 Se os agentes não estiverem funcionando como esperado:
 1. Verifique as descrições dos agentes em seus arquivos individuais
-2. Tente usar uma linguagem mais específica em suas solicitações
+2. Tente utilizar uma linguagem mais específica em suas solicitações
 3. Use invocação explícita para testar agentes específicos
 4. Forneça mais contexto sobre seu projeto e objetivos
 
@@ -482,12 +487,12 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 ## Saiba Mais
 
 - [Documentação do Claude Code](https://docs.anthropic.com/en/docs/claude-code)
-- [Documentação de Subagentes](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
+- [Documentação dos Subagentes](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
 - [Claude Code no GitHub](https://github.com/anthropics/claude-code)
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-09
 
 ---

@@ -1,0 +1,2839 @@
+[
+  {
+    "Id": 1,
+    "Content": "<image src=\"https://raw.githubusercontent.com/UglyToad/Pdf/master/documentation/pdfpig.png\" width=\"128px\" height=\"128px\"/>\n\n# PdfPig\n\n[![nuget](https://img.shields.io/nuget/dt/PdfPig)](https://www.nuget.org/packages/PdfPig/)\n[![Build and test](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test.yml)\n[![Build and test [MacOS]](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test_macos.yml/badge.svg)](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test_macos.yml)\n\nPdfPig supports reading text and content from PDF files. It also supports basic PDF file creation.\n\n## Installation\n\nThe package is available via the releases tab or from Nuget:\n\nhttps://www.nuget.org/packages/PdfPig/\n\nOr from the package manager console:\n\n    > Install-Package PdfPig\n\nWhile the version is below 1.0.0 minor versions will change the public API without warning (SemVer will not be followed until 1.0.0 is reached).\n\n## Get Started\n\nSee the [wiki](https://github.com/UglyToad/PdfPig/wiki) for more examples \n\n### Reading text from a PDF\n\nThe simplest usage at this stage is to open a document, reading the words from every page:\n",
+    "ContentSha": "q+G2J4hXFxnxOoTgRZSVBR+qClfvC3UMBmJxI01ap2o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<image src=\"https://raw.githubusercontent.com/UglyToad/Pdf/master/documentation/pdfpig.png\" width=\"128px\" height=\"128px\"/>\n\n# PdfPig\n\n[![nuget](https://img.shields.io/nuget/dt/PdfPig)](https://www.nuget.org/packages/PdfPig/)\n[![Build and test](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test.yml)\n[![Build and test [MacOS]](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test_macos.yml/badge.svg)](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test_macos.yml)\n\nPdfPig supports reading text and content from PDF files. It also supports basic PDF file creation.\n\n## Installation\n\nThe package is available via the releases tab or from Nuget:\n\nhttps://www.nuget.org/packages/PdfPig/\n\nOr from the package manager console:\n\n    > Install-Package PdfPig\n\nWhile the version is below 1.0.0 minor versions will change the public API without warning (SemVer will not be followed until 1.0.0 is reached).\n\n## Get Started\n\nSee the [wiki](https://github.com/UglyToad/PdfPig/wiki) for more examples \n\n### Reading text from a PDF\n\nThe simplest usage at this stage is to open a document, reading the words from every page:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kOkmHPdPtQIcKNZ+YP1TTkXR42i9cP+NI7rOUzON/NY=",
+        "originContent": "<image src=\"https://raw.githubusercontent.com/UglyToad/Pdf/master/documentation/pdfpig.png\" width=\"128px\" height=\"128px\"/>",
+        "translatedContent": "<image src=\"https://raw.githubusercontent.com/UglyToad/Pdf/master/documentation/pdfpig.png\" width=\"128px\" height=\"128px\"/>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "RKTAqfLGGRlcoNic3HSgaByXcBi9NMWOWp6QqqU65fk=",
+        "originContent": "# PdfPig",
+        "translatedContent": "# PdfPig"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "U8Hw08CdtDZWuFyS7mO0FaZubPBEbZmKsikJfzZityQ=",
+        "originContent": "[![nuget](https://img.shields.io/nuget/dt/PdfPig)](https://www.nuget.org/packages/PdfPig/)",
+        "translatedContent": "[![nuget](https://img.shields.io/nuget/dt/PdfPig)](https://www.nuget.org/packages/PdfPig/)"
+      },
+      {
+        "row": 6,
+        "rowsha": "UvBr4YPlwhYwMC2SDANdkAT0IF8uaL2D/4o1xrjogac=",
+        "originContent": "[![Build and test](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test.yml)",
+        "translatedContent": "[![Build and test](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test.yml)"
+      },
+      {
+        "row": 7,
+        "rowsha": "BsL0J5eyB1SK0TukXpj/JSdsaGmnH654ego1kzLZqFs=",
+        "originContent": "[![Build and test [MacOS]](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test_macos.yml/badge.svg)](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test_macos.yml)",
+        "translatedContent": "[![Build and test [MacOS]](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test_macos.yml/badge.svg)](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test_macos.yml)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "iOm9TPZGC8zsAiFUbT2cWrL0U+PCDuPfIkyAUslXFiM=",
+        "originContent": "PdfPig supports reading text and content from PDF files. It also supports basic PDF file creation.",
+        "translatedContent": "PdfPig supports reading text and content from PDF files. It also supports basic PDF file creation."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "fCs7ijBr7cMAi4mqPFnOujdVz7M0bE4grKriXFHZtjk=",
+        "originContent": "The package is available via the releases tab or from Nuget:",
+        "translatedContent": "The package is available via the releases tab or from Nuget:"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "WFtr61X4fAP3VTapn7g4zxiIp1WQ5zY2L3Lh6pi1KDE=",
+        "originContent": "https://www.nuget.org/packages/PdfPig/",
+        "translatedContent": "https://www.nuget.org/packages/PdfPig/"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "qjo4HSMkOfR+s77XeGaiiSFCcVvlnYI93O3G9BmXKXI=",
+        "originContent": "Or from the package manager console:",
+        "translatedContent": "Or from the package manager console:"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "3K8G2X/vHNaNxQjUfXHyUN8l5Hf/u5YynPQW06lead8=",
+        "originContent": "    > Install-Package PdfPig",
+        "translatedContent": "    > Install-Package PdfPig"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Z/GYC9+mV5z6AenqaeoeUoKlUMYrJhv4n02osiDzVyo=",
+        "originContent": "While the version is below 1.0.0 minor versions will change the public API without warning (SemVer will not be followed until 1.0.0 is reached).",
+        "translatedContent": "While the version is below 1.0.0 minor versions will change the public API without warning (SemVer will not be followed until 1.0.0 is reached)."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "fdzSvcVmecTeZF5A18WcXJ925k4OTH/HculV8+p+hkk=",
+        "originContent": "## Get Started",
+        "translatedContent": "## Get Started"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "PbSmGvToVyArLuGAQ9UlmtnWWqYVsbsLKUBT5C9jmCg=",
+        "originContent": "See the [wiki](https://github.com/UglyToad/PdfPig/wiki) for more examples ",
+        "translatedContent": "See the [wiki](https://github.com/UglyToad/PdfPig/wiki) for more examples "
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "+SmDAwLJM7A/eDYDmLcsyWsVja8Pn1nxd+D+07wGX/o=",
+        "originContent": "### Reading text from a PDF",
+        "translatedContent": "### Reading text from a PDF"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "U1vaBBQunnfTCvawKhInxwshN5b+ZTXfSzA6HlgtCks=",
+        "originContent": "The simplest usage at this stage is to open a document, reading the words from every page:",
+        "translatedContent": "The simplest usage at this stage is to open a document, reading the words from every page:"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```cs\n// using UglyToad.PdfPig.DocumentLayoutAnalysis.TextExtractor;\n// using UglyToad.PdfPig.DocumentLayoutAnalysis.WordExtractor;\nusing (PdfDocument document = PdfDocument.Open(@\"C:\\Documents\\document.pdf\"))\n{\n    foreach (Page page in document.GetPages())\n    {\n        string text = ContentOrderTextExtractor.GetText(page);\n        IEnumerable<Word> words = page.GetWords(NearestNeighbourWordExtractor.Instance);\n    }\n}\n```",
+    "ContentSha": "hFtoHRLz5oUAuCG1xoq976PqhhCJe5ghLJpl+CxtfE0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cs\n// using UglyToad.PdfPig.DocumentLayoutAnalysis.TextExtractor;\n// using UglyToad.PdfPig.DocumentLayoutAnalysis.WordExtractor;\nusing (PdfDocument document = PdfDocument.Open(@\"C:\\Documents\\document.pdf\"))\n{\n    foreach (Page page in document.GetPages())\n    {\n        string text = ContentOrderTextExtractor.GetText(page);\n        IEnumerable<Word> words = page.GetWords(NearestNeighbourWordExtractor.Instance);\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+        "originContent": "```cs",
+        "translatedContent": "```cs"
+      },
+      {
+        "row": 2,
+        "rowsha": "6cclvqTbKFHYkZE40xu6LrEZJMwGCPLVPc9E1VKzGBU=",
+        "originContent": "// using UglyToad.PdfPig.DocumentLayoutAnalysis.TextExtractor;",
+        "translatedContent": "// using UglyToad.PdfPig.DocumentLayoutAnalysis.TextExtractor;"
+      },
+      {
+        "row": 3,
+        "rowsha": "7uQcXlvpvIEtAPpxAZ438qYHzOs7+td5t1AAxDpXMho=",
+        "originContent": "// using UglyToad.PdfPig.DocumentLayoutAnalysis.WordExtractor;",
+        "translatedContent": "// using UglyToad.PdfPig.DocumentLayoutAnalysis.WordExtractor;"
+      },
+      {
+        "row": 4,
+        "rowsha": "nxH5GL1UO44kYlJDJYp72ifVNaFk5ejKCYm35yoZmw8=",
+        "originContent": "using (PdfDocument document = PdfDocument.Open(@\"C:\\Documents\\document.pdf\"))",
+        "translatedContent": "using (PdfDocument document = PdfDocument.Open(@\"C:\\Documents\\document.pdf\"))"
+      },
+      {
+        "row": 5,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 6,
+        "rowsha": "Wswi2qyVyvZehI0qk9DxnNAXqUTFauQUJxLwccVikiY=",
+        "originContent": "    foreach (Page page in document.GetPages())",
+        "translatedContent": "    foreach (Page page in document.GetPages())"
+      },
+      {
+        "row": 7,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 8,
+        "rowsha": "EHr8yeOB0+H6hxhzm5k9Qui2ZwdQ/u0U4gM86hlmQVM=",
+        "originContent": "        string text = ContentOrderTextExtractor.GetText(page);",
+        "translatedContent": "        string text = ContentOrderTextExtractor.GetText(page);"
+      },
+      {
+        "row": 9,
+        "rowsha": "dcqLT/4pj99UfqAskFPhy9ApdWJ+3de5JUmPaUSJl1s=",
+        "originContent": "        IEnumerable<Word> words = page.GetWords(NearestNeighbourWordExtractor.Instance);",
+        "translatedContent": "        IEnumerable<Word> words = page.GetWords(NearestNeighbourWordExtractor.Instance);"
+      },
+      {
+        "row": 10,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 11,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nYou **should not** use `page.Text` directly, unless you know what you're doing. The `Text` property preserves the internal content order which is rarely ever the text in the order you want.\n\nThese layout analysis tools should get you the text you want in most cases.\n\n### Create PDF Document\nTo create documents use the class `PdfDocumentBuilder`. The Standard 14 fonts provide a quick way to get started:\n",
+    "ContentSha": "2reZkRyL+q6EhGZgJ+vVKhcsclvk0Y09Qgs5wsJl0FY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "You **should not** use `page.Text` directly, unless you know what you're doing. The `Text` property preserves the internal content order which is rarely ever the text in the order you want.\n\nThese layout analysis tools should get you the text you want in most cases.\n\n### Create PDF Document\nTo create documents use the class `PdfDocumentBuilder`. The Standard 14 fonts provide a quick way to get started:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "You **should not** use `page.Text` directly, unless you know what you're doing. The `Text` property preserves the internal content order which is rarely ever the text in the order you want."
+      },
+      {
+        "row": 2,
+        "rowsha": "0hshZGbGy8kuGjm2nTcx/W7ColQJTe6AyHaFqEy9lDc=",
+        "originContent": "You **should not** use `page.Text` directly, unless you know what you're doing. The `Text` property preserves the internal content order which is rarely ever the text in the order you want.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "These layout analysis tools should get you the text you want in most cases."
+      },
+      {
+        "row": 4,
+        "rowsha": "VJ2MzdPYlVwesK/lcKP6JxGYoNcEJ5cTQgEX4nBvjK0=",
+        "originContent": "These layout analysis tools should get you the text you want in most cases.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Create PDF Document"
+      },
+      {
+        "row": 6,
+        "rowsha": "fTGtrdFwT5zncYrmtIN0BaHVjZ7RWrtK+EVLsv0WsPs=",
+        "originContent": "### Create PDF Document",
+        "translatedContent": "To create documents use the class `PdfDocumentBuilder`. The Standard 14 fonts provide a quick way to get started:"
+      },
+      {
+        "row": 7,
+        "rowsha": "BCDl88XeEr8eMfvMAiUX9D87v0rrl9GjImNuCjbo1dg=",
+        "originContent": "To create documents use the class `PdfDocumentBuilder`. The Standard 14 fonts provide a quick way to get started:",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```cs\nPdfDocumentBuilder builder = new PdfDocumentBuilder();\n\nPdfPageBuilder page = builder.AddPage(PageSize.A4);\n\n// Fonts must be registered with the document builder prior to use to prevent duplication.\nPdfDocumentBuilder.AddedFont font = builder.AddStandard14Font(Standard14Font.Helvetica);\n\npage.AddText(\"Hello World!\", 12, new PdfPoint(25, 700), font);\n\nbyte[] documentBytes = builder.Build();\n\nFile.WriteAllBytes(@\"C:\\git\\newPdf.pdf\", documentBytes);\n```",
+    "ContentSha": "N5m2JN/neZ0vOjJ2GR8fd0RH8wUMP9U9W80wZcNx8L8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cs\nPdfDocumentBuilder builder = new PdfDocumentBuilder();\n\nPdfPageBuilder page = builder.AddPage(PageSize.A4);\n\n// Fonts must be registered with the document builder prior to use to prevent duplication.\nPdfDocumentBuilder.AddedFont font = builder.AddStandard14Font(Standard14Font.Helvetica);\n\npage.AddText(\"Hello World!\", 12, new PdfPoint(25, 700), font);\n\nbyte[] documentBytes = builder.Build();\n\nFile.WriteAllBytes(@\"C:\\git\\newPdf.pdf\", documentBytes);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+        "originContent": "```cs",
+        "translatedContent": "```cs"
+      },
+      {
+        "row": 2,
+        "rowsha": "iy0kDO5/zIvIyF7G3onKzck6bjv2RqBnX+NfKtLhxY0=",
+        "originContent": "PdfDocumentBuilder builder = new PdfDocumentBuilder();",
+        "translatedContent": "PdfDocumentBuilder builder = new PdfDocumentBuilder();"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ovYZgZMBplbuA6Qiy6BSTeHc1t6TcGsgJPqBZRIhvos=",
+        "originContent": "PdfPageBuilder page = builder.AddPage(PageSize.A4);",
+        "translatedContent": "PdfPageBuilder page = builder.AddPage(PageSize.A4);"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "b9v5ZGyxkCwNDARaNMPlac+JKPSf733nOqhWykgjYms=",
+        "originContent": "// Fonts must be registered with the document builder prior to use to prevent duplication.",
+        "translatedContent": "// Fonts must be registered with the document builder prior to use to prevent duplication."
+      },
+      {
+        "row": 7,
+        "rowsha": "6cf6KV8Tbmla2ZoIbcuS6/7r3+5/15IsOf7MYFsVICQ=",
+        "originContent": "PdfDocumentBuilder.AddedFont font = builder.AddStandard14Font(Standard14Font.Helvetica);",
+        "translatedContent": "PdfDocumentBuilder.AddedFont font = builder.AddStandard14Font(Standard14Font.Helvetica);"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "2leQ+ELc/wOVVL4NRlauWVRavybJadpWPsrcaZpl170=",
+        "originContent": "page.AddText(\"Hello World!\", 12, new PdfPoint(25, 700), font);",
+        "translatedContent": "page.AddText(\"Hello World!\", 12, new PdfPoint(25, 700), font);"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "+r84aA0I/zDo+yMIHLTF0r1xtNikPVByETBJsMDimUI=",
+        "originContent": "byte[] documentBytes = builder.Build();",
+        "translatedContent": "byte[] documentBytes = builder.Build();"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "u7SsS5U8TmrUD+ZTdkoBbIZJ78XbYOeclAdF5FsTVLw=",
+        "originContent": "File.WriteAllBytes(@\"C:\\git\\newPdf.pdf\", documentBytes);",
+        "translatedContent": "File.WriteAllBytes(@\"C:\\git\\newPdf.pdf\", documentBytes);"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nThe output is a 1 page PDF document with the text \"Hello World!\" in Helvetica near the top of the page:\n\n![Image shows a PDF document in Google Chrome's PDF viewer. The text \"Hello World!\" is visible](https://raw.githubusercontent.com/UglyToad/Pdf/master/documentation/builder-output.png)\n\nEach font must be registered with the `PdfDocumentBuilder` prior to use enable pages to share the font resources. Only Standard 14 fonts and TrueType fonts (.ttf) are supported.\n\nDocument creation supports very limited changes to existing PDF documents. However it does not support any of the following:\n\n- Editing forms\n- Copying or changing annotations, metadata or document structure data\n- Adding or removing text with existing fonts\n\n### Advanced Document Extraction\nIn this example a more advanced document extraction is performed. `PdfDocumentBuilder` is used to create a copy of the pdf with debug information (bounding boxes and reading order) added.\n\n",
+    "ContentSha": "M3SPG+zPo3blDMeej2penzcnLYaQf0Yy7XATJiCnzG4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "The output is a 1 page PDF document with the text \"Hello World!\" in Helvetica near the top of the page:\n\n![Image shows a PDF document in Google Chrome's PDF viewer. The text \"Hello World!\" is visible](https://raw.githubusercontent.com/UglyToad/Pdf/master/documentation/builder-output.png)\n\nEach font must be registered with the `PdfDocumentBuilder` prior to use enable pages to share the font resources. Only Standard 14 fonts and TrueType fonts (.ttf) are supported.\n\nDocument creation supports very limited changes to existing PDF documents. However it does not support any of the following:\n\n- Editing forms\n- Copying or changing annotations, metadata or document structure data\n- Adding or removing text with existing fonts\n\n### Advanced Document Extraction\nIn this example a more advanced document extraction is performed. `PdfDocumentBuilder` is used to create a copy of the pdf with debug information (bounding boxes and reading order) added.\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The output is a 1 page PDF document with the text \"Hello World!\" in Helvetica near the top of the page:"
+      },
+      {
+        "row": 2,
+        "rowsha": "FynWUz1wClLpes+LNWcOboy7HT7uQng/A0ZVhyZD5I0=",
+        "originContent": "The output is a 1 page PDF document with the text \"Hello World!\" in Helvetica near the top of the page:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Image shows a PDF document in Google Chrome's PDF viewer. The text \"Hello World!\" is visible](https://raw.githubusercontent.com/UglyToad/Pdf/master/documentation/builder-output.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "B4CFPRbj6cRcTnh5CZ8bVoOKbz0FzryGYgO3tSVcFZU=",
+        "originContent": "![Image shows a PDF document in Google Chrome's PDF viewer. The text \"Hello World!\" is visible](https://raw.githubusercontent.com/UglyToad/Pdf/master/documentation/builder-output.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Each font must be registered with the `PdfDocumentBuilder` prior to use enable pages to share the font resources. Only Standard 14 fonts and TrueType fonts (.ttf) are supported."
+      },
+      {
+        "row": 6,
+        "rowsha": "A5buaEMdD6htrghlRNNyjsBMg82yN0LQ22gKwA95b5M=",
+        "originContent": "Each font must be registered with the `PdfDocumentBuilder` prior to use enable pages to share the font resources. Only Standard 14 fonts and TrueType fonts (.ttf) are supported.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Document creation supports very limited changes to existing PDF documents. However it does not support any of the following:"
+      },
+      {
+        "row": 8,
+        "rowsha": "qB/HEBTfEhJ79Rn0Dw4dsYnTvl6KA5WYuK1gdjkTv7Q=",
+        "originContent": "Document creation supports very limited changes to existing PDF documents. However it does not support any of the following:",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Editing forms"
+      },
+      {
+        "row": 10,
+        "rowsha": "grTP274fK+OEJRKdJsgF8jX+0G3qnG2cCBvVbNtbLug=",
+        "originContent": "- Editing forms",
+        "translatedContent": "- Copying or changing annotations, metadata or document structure data"
+      },
+      {
+        "row": 11,
+        "rowsha": "7g7itkAqYy178Vipqc7/aEntVWq1Xi+NWWS2vkUWlhs=",
+        "originContent": "- Copying or changing annotations, metadata or document structure data",
+        "translatedContent": "- Adding or removing text with existing fonts"
+      },
+      {
+        "row": 12,
+        "rowsha": "67fhKSW8cyxUyEy9mS2jGPwFPpZplz/GE5G6bq5YrZc=",
+        "originContent": "- Adding or removing text with existing fonts",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Advanced Document Extraction"
+      },
+      {
+        "row": 14,
+        "rowsha": "mgNmewPU3PhXFxYQUwfIDcJNgnG781077XuyG6waU/U=",
+        "originContent": "### Advanced Document Extraction",
+        "translatedContent": "In this example a more advanced document extraction is performed. `PdfDocumentBuilder` is used to create a copy of the pdf with debug information (bounding boxes and reading order) added."
+      },
+      {
+        "row": 15,
+        "rowsha": "T4MAMzhi8rCpzGtCUXaEV0Y6ljWzLj+9XlP/nb/6yhM=",
+        "originContent": "In this example a more advanced document extraction is performed. `PdfDocumentBuilder` is used to create a copy of the pdf with debug information (bounding boxes and reading order) added.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```cs\n//using UglyToad.PdfPig;\n//using UglyToad.PdfPig.DocumentLayoutAnalysis.PageSegmenter;\n//using UglyToad.PdfPig.DocumentLayoutAnalysis.ReadingOrderDetector;\n//using UglyToad.PdfPig.DocumentLayoutAnalysis.WordExtractor;\n//using UglyToad.PdfPig.Fonts.Standard14Fonts;\n//using UglyToad.PdfPig.Writer;\n\n\nvar sourcePdfPath = \"\";\nvar outputPath = \"\";\nvar pageNumber = 1;\nusing (var document = PdfDocument.Open(sourcePdfPath))\n{\n    var builder = new PdfDocumentBuilder { };\n    PdfDocumentBuilder.AddedFont font = builder.AddStandard14Font(Standard14Font.Helvetica);\n    var pageBuilder = builder.AddPage(document, pageNumber);\n    pageBuilder.SetStrokeColor(0, 255, 0);\n    var page = document.GetPage(pageNumber);\n\n    var letters = page.Letters; // no preprocessing\n\n    // 1. Extract words\n    var wordExtractor = NearestNeighbourWordExtractor.Instance;\n\n    var words = wordExtractor.GetWords(letters);\n\n    // 2. Segment page\n    var pageSegmenter = DocstrumBoundingBoxes.Instance;\n\n    var textBlocks = pageSegmenter.GetBlocks(words);\n\n    // 3. Postprocessing\n    var readingOrder = UnsupervisedReadingOrderDetector.Instance;\n    var orderedTextBlocks = readingOrder.Get(textBlocks);\n\n    // 4. Add debug info - Bounding boxes and reading order\n    foreach (var block in orderedTextBlocks)\n    {\n        var bbox = block.BoundingBox;\n        pageBuilder.DrawRectangle(bbox.BottomLeft, bbox.Width, bbox.Height);\n        pageBuilder.AddText(block.ReadingOrder.ToString(), 8, bbox.TopLeft, font);\n    }\n\n    // 5. Write result to a file\n    byte[] fileBytes = builder.Build();\n    File.WriteAllBytes(outputPath, fileBytes); // save to file\n}\n```",
+    "ContentSha": "vsAgHO7kdGzMcAk0HBsaB7onRm2f1gh3CTrosDa9B/w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cs\n//using UglyToad.PdfPig;\n//using UglyToad.PdfPig.DocumentLayoutAnalysis.PageSegmenter;\n//using UglyToad.PdfPig.DocumentLayoutAnalysis.ReadingOrderDetector;\n//using UglyToad.PdfPig.DocumentLayoutAnalysis.WordExtractor;\n//using UglyToad.PdfPig.Fonts.Standard14Fonts;\n//using UglyToad.PdfPig.Writer;\n\n\nvar sourcePdfPath = \"\";\nvar outputPath = \"\";\nvar pageNumber = 1;\nusing (var document = PdfDocument.Open(sourcePdfPath))\n{\n    var builder = new PdfDocumentBuilder { };\n    PdfDocumentBuilder.AddedFont font = builder.AddStandard14Font(Standard14Font.Helvetica);\n    var pageBuilder = builder.AddPage(document, pageNumber);\n    pageBuilder.SetStrokeColor(0, 255, 0);\n    var page = document.GetPage(pageNumber);\n\n    var letters = page.Letters; // no preprocessing\n\n    // 1. Extract words\n    var wordExtractor = NearestNeighbourWordExtractor.Instance;\n\n    var words = wordExtractor.GetWords(letters);\n\n    // 2. Segment page\n    var pageSegmenter = DocstrumBoundingBoxes.Instance;\n\n    var textBlocks = pageSegmenter.GetBlocks(words);\n\n    // 3. Postprocessing\n    var readingOrder = UnsupervisedReadingOrderDetector.Instance;\n    var orderedTextBlocks = readingOrder.Get(textBlocks);\n\n    // 4. Add debug info - Bounding boxes and reading order\n    foreach (var block in orderedTextBlocks)\n    {\n        var bbox = block.BoundingBox;\n        pageBuilder.DrawRectangle(bbox.BottomLeft, bbox.Width, bbox.Height);\n        pageBuilder.AddText(block.ReadingOrder.ToString(), 8, bbox.TopLeft, font);\n    }\n\n    // 5. Write result to a file\n    byte[] fileBytes = builder.Build();\n    File.WriteAllBytes(outputPath, fileBytes); // save to file\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+        "originContent": "```cs",
+        "translatedContent": "```cs"
+      },
+      {
+        "row": 2,
+        "rowsha": "rgBB5YSJOMKMA3UQtaibYKQNsOrueiVrTJR88+dsCfM=",
+        "originContent": "//using UglyToad.PdfPig;",
+        "translatedContent": "//using UglyToad.PdfPig;"
+      },
+      {
+        "row": 3,
+        "rowsha": "HcBr7mPfFS95vh3CmtYqIsMUwUgqYEZQJJfea4Q8+kQ=",
+        "originContent": "//using UglyToad.PdfPig.DocumentLayoutAnalysis.PageSegmenter;",
+        "translatedContent": "//using UglyToad.PdfPig.DocumentLayoutAnalysis.PageSegmenter;"
+      },
+      {
+        "row": 4,
+        "rowsha": "f8cJJgNXE9pawY1ohqPb/LDn59oGjmSZd6ul+EzaLf4=",
+        "originContent": "//using UglyToad.PdfPig.DocumentLayoutAnalysis.ReadingOrderDetector;",
+        "translatedContent": "//using UglyToad.PdfPig.DocumentLayoutAnalysis.ReadingOrderDetector;"
+      },
+      {
+        "row": 5,
+        "rowsha": "upXr4o3JaEkTHudteFHS1aECrt03kbrSl6D4Dw2vwCI=",
+        "originContent": "//using UglyToad.PdfPig.DocumentLayoutAnalysis.WordExtractor;",
+        "translatedContent": "//using UglyToad.PdfPig.DocumentLayoutAnalysis.WordExtractor;"
+      },
+      {
+        "row": 6,
+        "rowsha": "DPxiV71kwqwrehTKftKy1tFRehtulAR/skM3xDAmx6U=",
+        "originContent": "//using UglyToad.PdfPig.Fonts.Standard14Fonts;",
+        "translatedContent": "//using UglyToad.PdfPig.Fonts.Standard14Fonts;"
+      },
+      {
+        "row": 7,
+        "rowsha": "jXarWtqktw+OZFSDK9JMTxqMci3vc1X5w0SlS3UsB2E=",
+        "originContent": "//using UglyToad.PdfPig.Writer;",
+        "translatedContent": "//using UglyToad.PdfPig.Writer;"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "n8twXN6q2ZicnJ16c+X1GyEockAh/6r0QMpbaiGPiXI=",
+        "originContent": "var sourcePdfPath = \"\";",
+        "translatedContent": "var sourcePdfPath = \"\";"
+      },
+      {
+        "row": 11,
+        "rowsha": "nO+hfcumC6dfgYP7wr0ccOC27k+yfYUgYLzmKS1id8c=",
+        "originContent": "var outputPath = \"\";",
+        "translatedContent": "var outputPath = \"\";"
+      },
+      {
+        "row": 12,
+        "rowsha": "OH0qBxue79/ManXD/fLkliXShf6vh0PRkC7fRr6TQ3A=",
+        "originContent": "var pageNumber = 1;",
+        "translatedContent": "var pageNumber = 1;"
+      },
+      {
+        "row": 13,
+        "rowsha": "5egH2mhgcyfcPa3zoM/aJb3EdTLSHeg+ZS8vCqgL5Nk=",
+        "originContent": "using (var document = PdfDocument.Open(sourcePdfPath))",
+        "translatedContent": "using (var document = PdfDocument.Open(sourcePdfPath))"
+      },
+      {
+        "row": 14,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 15,
+        "rowsha": "JqmbOmcH7rNd4VO6xW0fWPZxM+Lv91foT0g8oddlJ9c=",
+        "originContent": "    var builder = new PdfDocumentBuilder { };",
+        "translatedContent": "    var builder = new PdfDocumentBuilder { };"
+      },
+      {
+        "row": 16,
+        "rowsha": "hVWlhakRB+y6lbdYeinnRCY+A7WpnO+BFEiaQiegJRQ=",
+        "originContent": "    PdfDocumentBuilder.AddedFont font = builder.AddStandard14Font(Standard14Font.Helvetica);",
+        "translatedContent": "    PdfDocumentBuilder.AddedFont font = builder.AddStandard14Font(Standard14Font.Helvetica);"
+      },
+      {
+        "row": 17,
+        "rowsha": "cdvSU2BaAUDi2DiHCK8892PJE2fi1zAu/J7B5zY2UjE=",
+        "originContent": "    var pageBuilder = builder.AddPage(document, pageNumber);",
+        "translatedContent": "    var pageBuilder = builder.AddPage(document, pageNumber);"
+      },
+      {
+        "row": 18,
+        "rowsha": "ZYLHXelWDl0Un2NomNkXgxAXQ1LZLYgJtTQpTXN+0KE=",
+        "originContent": "    pageBuilder.SetStrokeColor(0, 255, 0);",
+        "translatedContent": "    pageBuilder.SetStrokeColor(0, 255, 0);"
+      },
+      {
+        "row": 19,
+        "rowsha": "1oBcJ2rPqlP2RvWRu9EDjRnxQ7vm212h1f5GOE7Ou4s=",
+        "originContent": "    var page = document.GetPage(pageNumber);",
+        "translatedContent": "    var page = document.GetPage(pageNumber);"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "ltyoEjzEpRPJa7ZKge3jLXsrCUOdVgL8T7MPyStVy4w=",
+        "originContent": "    var letters = page.Letters; // no preprocessing",
+        "translatedContent": "    var letters = page.Letters; // no preprocessing"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "LKYCZzFao8yOunYQJD4FOaFpKOaDaMVaA2xzS3DkNrM=",
+        "originContent": "    // 1. Extract words",
+        "translatedContent": "    // 1. Extract words"
+      },
+      {
+        "row": 24,
+        "rowsha": "aYqDOFboj1bBGpWSa8DNSl3UQL1K6cFOWvWB4PaP7HE=",
+        "originContent": "    var wordExtractor = NearestNeighbourWordExtractor.Instance;",
+        "translatedContent": "    var wordExtractor = NearestNeighbourWordExtractor.Instance;"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "mghSjmaotkfwIzA2ocC0T55VLNv5+c7HGjMMGNOsRD0=",
+        "originContent": "    var words = wordExtractor.GetWords(letters);",
+        "translatedContent": "    var words = wordExtractor.GetWords(letters);"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "MrpqONGIdmFqf5YzInTkWlZuSIlw04U0Joo+qvpvfSU=",
+        "originContent": "    // 2. Segment page",
+        "translatedContent": "    // 2. Segment page"
+      },
+      {
+        "row": 29,
+        "rowsha": "X4GPhX9qzhz5S06Zq1KVQH8Kr2wk9tsiDD1AqrLSTA4=",
+        "originContent": "    var pageSegmenter = DocstrumBoundingBoxes.Instance;",
+        "translatedContent": "    var pageSegmenter = DocstrumBoundingBoxes.Instance;"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "r7AiU5eCh9OYpFopLiZEhzVZKeixlcDN2hGX5XyBB7s=",
+        "originContent": "    var textBlocks = pageSegmenter.GetBlocks(words);",
+        "translatedContent": "    var textBlocks = pageSegmenter.GetBlocks(words);"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "+TdlQkXeMMWT7fTOU9jCKAUE8NR9AjkKYDGPjFOFFJA=",
+        "originContent": "    // 3. Postprocessing",
+        "translatedContent": "    // 3. Postprocessing"
+      },
+      {
+        "row": 34,
+        "rowsha": "Ir6zNjFtvxl4ooCBJ0pzFPkI/ePHuvLB+r9VgfXiXtU=",
+        "originContent": "    var readingOrder = UnsupervisedReadingOrderDetector.Instance;",
+        "translatedContent": "    var readingOrder = UnsupervisedReadingOrderDetector.Instance;"
+      },
+      {
+        "row": 35,
+        "rowsha": "Gm+EyS3wZmbYzwthch3AhGTi7qYhr4/i0l6wVkXIKys=",
+        "originContent": "    var orderedTextBlocks = readingOrder.Get(textBlocks);",
+        "translatedContent": "    var orderedTextBlocks = readingOrder.Get(textBlocks);"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "y390luMjbBfcPC+kjmjarHyl8pac68ZTYQpSFNgrJ4M=",
+        "originContent": "    // 4. Add debug info - Bounding boxes and reading order",
+        "translatedContent": "    // 4. Add debug info - Bounding boxes and reading order"
+      },
+      {
+        "row": 38,
+        "rowsha": "orN7FeYJur/Es8uxAAvy8zklJsM7p+ozCHgfwZZ2MFo=",
+        "originContent": "    foreach (var block in orderedTextBlocks)",
+        "translatedContent": "    foreach (var block in orderedTextBlocks)"
+      },
+      {
+        "row": 39,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 40,
+        "rowsha": "9XBeRe8ZH5J8AOz5EBMAFGR9/Sl4sad6nj1G7iQ8JC4=",
+        "originContent": "        var bbox = block.BoundingBox;",
+        "translatedContent": "        var bbox = block.BoundingBox;"
+      },
+      {
+        "row": 41,
+        "rowsha": "139LQSOgLcr0S1ypnfFVHT0Mhp448U1+EA752Erl/JU=",
+        "originContent": "        pageBuilder.DrawRectangle(bbox.BottomLeft, bbox.Width, bbox.Height);",
+        "translatedContent": "        pageBuilder.DrawRectangle(bbox.BottomLeft, bbox.Width, bbox.Height);"
+      },
+      {
+        "row": 42,
+        "rowsha": "fQrXgFgat+V6S79NQX53mNVSjLdr6GhRVDtDppV2zK4=",
+        "originContent": "        pageBuilder.AddText(block.ReadingOrder.ToString(), 8, bbox.TopLeft, font);",
+        "translatedContent": "        pageBuilder.AddText(block.ReadingOrder.ToString(), 8, bbox.TopLeft, font);"
+      },
+      {
+        "row": 43,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "zS1042QseFLz9MENCUpQM/f+O8LUJnty4s5D/YMveQk=",
+        "originContent": "    // 5. Write result to a file",
+        "translatedContent": "    // 5. Write result to a file"
+      },
+      {
+        "row": 46,
+        "rowsha": "0g79tYZ+NQ21xbJ9kZeFR4Xs6K+Pg8J/PQ0YmGkVI88=",
+        "originContent": "    byte[] fileBytes = builder.Build();",
+        "translatedContent": "    byte[] fileBytes = builder.Build();"
+      },
+      {
+        "row": 47,
+        "rowsha": "x9dMYjOEZyNmOunuIHuK+RWpT1Q2GvkoZcjTg+BeKc4=",
+        "originContent": "    File.WriteAllBytes(outputPath, fileBytes); // save to file",
+        "translatedContent": "    File.WriteAllBytes(outputPath, fileBytes); // save to file"
+      },
+      {
+        "row": 48,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 49,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n![Image shows a PDF document created by the above code block with the bounding boxes and reading order of the words displayed](/documentation/boundingBoxes_ReadingOrder.png)\n\nSee [Document Layout Analysis](https://github.com/UglyToad/PdfPig/wiki/Document-Layout-Analysis) for more information on advanced document analysing.\n\nSee [Export](https://github.com/UglyToad/PdfPig/wiki/Document-Layout-Analysis#export) for more advanced tooling to analyse document layouts.\n\n\n## Usage\n\n### PdfDocument\n\nThe `PdfDocument` class provides access to the contents of a document loaded either from file or passed in as bytes. To open from a file use the `PdfDocument.Open` static method:\n",
+    "ContentSha": "HX6gqLBRoDcdBnfVidYOWXeYzs9WJUF9zGKdt31rBDE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n![Image shows a PDF document created by the above code block with the bounding boxes and reading order of the words displayed](/documentation/boundingBoxes_ReadingOrder.png)\n\nSee [Document Layout Analysis](https://github.com/UglyToad/PdfPig/wiki/Document-Layout-Analysis) for more information on advanced document analysing.\n\nSee [Export](https://github.com/UglyToad/PdfPig/wiki/Document-Layout-Analysis#export) for more advanced tooling to analyse document layouts.\n\n\n## Usage\n\n### PdfDocument\n\nThe `PdfDocument` class provides access to the contents of a document loaded either from file or passed in as bytes. To open from a file use the `PdfDocument.Open` static method:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "p/TV4L90CfBDaH0IPbo4csMYVG3Ig8G3TKnAWyt67yw=",
+        "originContent": "![Image shows a PDF document created by the above code block with the bounding boxes and reading order of the words displayed](/documentation/boundingBoxes_ReadingOrder.png)",
+        "translatedContent": "![Image shows a PDF document created by the above code block with the bounding boxes and reading order of the words displayed](/documentation/boundingBoxes_ReadingOrder.png)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yt6b/ihjbQ2sR+iB75FBW2+744r1SyCGFpndU36TYKo=",
+        "originContent": "See [Document Layout Analysis](https://github.com/UglyToad/PdfPig/wiki/Document-Layout-Analysis) for more information on advanced document analysing.",
+        "translatedContent": "See [Document Layout Analysis](https://github.com/UglyToad/PdfPig/wiki/Document-Layout-Analysis) for more information on advanced document analysing."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "RORNKqWKJLk7mIi2rPGKT+bvnKSJlydhReP0au8NhL0=",
+        "originContent": "See [Export](https://github.com/UglyToad/PdfPig/wiki/Document-Layout-Analysis#export) for more advanced tooling to analyse document layouts.",
+        "translatedContent": "See [Export](https://github.com/UglyToad/PdfPig/wiki/Document-Layout-Analysis#export) for more advanced tooling to analyse document layouts."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Usage"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "88AazpUXKYZbZm9hRFojh/beVSi8DQeatWyZcYFL/YI=",
+        "originContent": "### PdfDocument",
+        "translatedContent": "### PdfDocument"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "4CfEfPHOIAGTFoWiLj7e/5UiRMTTy21+plikSLkbAxQ=",
+        "originContent": "The `PdfDocument` class provides access to the contents of a document loaded either from file or passed in as bytes. To open from a file use the `PdfDocument.Open` static method:",
+        "translatedContent": "The `PdfDocument` class provides access to the contents of a document loaded either from file or passed in as bytes. To open from a file use the `PdfDocument.Open` static method:"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```cs\nusing UglyToad.PdfPig;\nusing UglyToad.PdfPig.Content;\n\nusing (PdfDocument document = PdfDocument.Open(@\"C:\\my-file.pdf\"))\n{\n\tint pageCount = document.NumberOfPages;\n\n\t// Page number starts from 1, not 0.\n\tPage page = document.GetPage(1);\n\n\tdecimal widthInPoints = page.Width;\n\tdecimal heightInPoints = page.Height;\n\n\tstring text = page.Text;\n}\n```",
+    "ContentSha": "OgIIr7IbTAaM0m7tdtHPH4v3Bw+lEvlLb983aP2YEgk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cs\nusing UglyToad.PdfPig;\nusing UglyToad.PdfPig.Content;\n\nusing (PdfDocument document = PdfDocument.Open(@\"C:\\my-file.pdf\"))\n{\n\tint pageCount = document.NumberOfPages;\n\n\t// Page number starts from 1, not 0.\n\tPage page = document.GetPage(1);\n\n\tdecimal widthInPoints = page.Width;\n\tdecimal heightInPoints = page.Height;\n\n\tstring text = page.Text;\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+        "originContent": "```cs",
+        "translatedContent": "```cs"
+      },
+      {
+        "row": 2,
+        "rowsha": "LyAbV3xi/2kmxKeNhUx4VCIFuGarOGRmFz/oKXPgABs=",
+        "originContent": "using UglyToad.PdfPig;",
+        "translatedContent": "using UglyToad.PdfPig;"
+      },
+      {
+        "row": 3,
+        "rowsha": "OJtqI0fVYfuimmnhQgzHZfFlKZLyrYTC0+fl6938qyg=",
+        "originContent": "using UglyToad.PdfPig.Content;",
+        "translatedContent": "using UglyToad.PdfPig.Content;"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "vLmnZTB7KwxcPwFwlnF8VLFBRYFmiFxmaegZ4APkhtQ=",
+        "originContent": "using (PdfDocument document = PdfDocument.Open(@\"C:\\my-file.pdf\"))",
+        "translatedContent": "using (PdfDocument document = PdfDocument.Open(@\"C:\\my-file.pdf\"))"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 7,
+        "rowsha": "zqeJz3g2FP0ursUj78Ef4JRLpyPppP1fBA0s5aMFNeY=",
+        "originContent": "\tint pageCount = document.NumberOfPages;",
+        "translatedContent": "\tint pageCount = document.NumberOfPages;"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "QD4Lhx+/QDHfewqneTB6ionb/dSEXYpHxvYmCC7sQcc=",
+        "originContent": "\t// Page number starts from 1, not 0.",
+        "translatedContent": "\t// Page number starts from 1, not 0."
+      },
+      {
+        "row": 10,
+        "rowsha": "sAgWCI+0JNaqb0nmZ1uv5yK54iBBcEjhjRSNeVz84+4=",
+        "originContent": "\tPage page = document.GetPage(1);",
+        "translatedContent": "\tPage page = document.GetPage(1);"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "8Cbb6jSd8vXKm9W0mkrzsd4BRAh+nXDl6AAV6f1ahdA=",
+        "originContent": "\tdecimal widthInPoints = page.Width;",
+        "translatedContent": "\tdecimal widthInPoints = page.Width;"
+      },
+      {
+        "row": 13,
+        "rowsha": "DbEYstoHB3He4xDOEzpsgtJAbWsCubNCq60BCoysijk=",
+        "originContent": "\tdecimal heightInPoints = page.Height;",
+        "translatedContent": "\tdecimal heightInPoints = page.Height;"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "feJ3yn47uEz+O6RdJ8OfDBDIHjxaN/Ixh4ps6BUaRJM=",
+        "originContent": "\tstring text = page.Text;",
+        "translatedContent": "\tstring text = page.Text;"
+      },
+      {
+        "row": 16,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n`PdfDocument` should only be used in a `using` statement since it implements `IDisposable` (unless the consumer disposes of it elsewhere).\n\nEncrypted documents can be opened by PdfPig. To provide an owner or user password provide the optional `ParsingOptions` when calling `Open` with the `Password` property defined. For example:\n\n    using (PdfDocument document = PdfDocument.Open(@\"C:\\my-file.pdf\",  new ParsingOptions { Password = \"password here\" }))\n\nYou can also provide a list of passwords to try:\n",
+    "ContentSha": "gL9p5VH178rpQ6iXNcUGqicBpoPhny6D3Oxq005H6Aw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`PdfDocument` should only be used in a `using` statement since it implements `IDisposable` (unless the consumer disposes of it elsewhere).\n\nEncrypted documents can be opened by PdfPig. To provide an owner or user password provide the optional `ParsingOptions` when calling `Open` with the `Password` property defined. For example:\n\n    using (PdfDocument document = PdfDocument.Open(@\"C:\\my-file.pdf\",  new ParsingOptions { Password = \"password here\" }))\n\nYou can also provide a list of passwords to try:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`PdfDocument` should only be used in a `using` statement since it implements `IDisposable` (unless the consumer disposes of it elsewhere)."
+      },
+      {
+        "row": 2,
+        "rowsha": "AkPnsLo9O5TvqLGiuFZwrYHfQHjvyEBkpaejaR8uARo=",
+        "originContent": "`PdfDocument` should only be used in a `using` statement since it implements `IDisposable` (unless the consumer disposes of it elsewhere).",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Encrypted documents can be opened by PdfPig. To provide an owner or user password provide the optional `ParsingOptions` when calling `Open` with the `Password` property defined. For example:"
+      },
+      {
+        "row": 4,
+        "rowsha": "Y39d1gzNyBDSviqyo1n1P4yfP6bZL0vyTSVc07Gf4to=",
+        "originContent": "Encrypted documents can be opened by PdfPig. To provide an owner or user password provide the optional `ParsingOptions` when calling `Open` with the `Password` property defined. For example:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    using (PdfDocument document = PdfDocument.Open(@\"C:\\my-file.pdf\",  new ParsingOptions { Password = \"password here\" }))"
+      },
+      {
+        "row": 6,
+        "rowsha": "sSXvojk9OkpEr4e69j1U1nfMV+7IawccRP7aHf94cVU=",
+        "originContent": "    using (PdfDocument document = PdfDocument.Open(@\"C:\\my-file.pdf\",  new ParsingOptions { Password = \"password here\" }))",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "You can also provide a list of passwords to try:"
+      },
+      {
+        "row": 8,
+        "rowsha": "jhLBbuBapksu55DhGZQ9YbI23rBgsKYvgiRiT4MUz30=",
+        "originContent": "You can also provide a list of passwords to try:",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```cs\nusing (PdfDocument document = PdfDocument.Open(@\"C:\\file.pdf\", new ParsingOptions\n{\n\tPasswords = new List<string> { \"One\", \"Two\" }\n}))\n```",
+    "ContentSha": "zKMke0hJ5DAFUwXUG8pEaZd0uqm6dK+VU2AxXYyI3J4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cs\nusing (PdfDocument document = PdfDocument.Open(@\"C:\\file.pdf\", new ParsingOptions\n{\n\tPasswords = new List<string> { \"One\", \"Two\" }\n}))\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+        "originContent": "```cs",
+        "translatedContent": "```cs"
+      },
+      {
+        "row": 2,
+        "rowsha": "swEvTAvmwkB9Jk1TuJpq4+SNks5GS/52RrxnKDTDE3o=",
+        "originContent": "using (PdfDocument document = PdfDocument.Open(@\"C:\\file.pdf\", new ParsingOptions",
+        "translatedContent": "using (PdfDocument document = PdfDocument.Open(@\"C:\\file.pdf\", new ParsingOptions"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 4,
+        "rowsha": "7le6Ii8qz/sY07IvTADWQDz+vEumplvIHkFBPs+/FbY=",
+        "originContent": "\tPasswords = new List<string> { \"One\", \"Two\" }",
+        "translatedContent": "\tPasswords = new List<string> { \"One\", \"Two\" }"
+      },
+      {
+        "row": 5,
+        "rowsha": "JGFEUGe2NgwZbFc0eow3hia/hdLzjauk6daLr6ziHtQ=",
+        "originContent": "}))",
+        "translatedContent": "}))"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nThe document contains the version of the PDF specification it complies with, accessed by `document.Version`:\n\n    decimal version = document.Version;\n\n### Document Creation\n\nThe `PdfDocumentBuilder` creates a new document with no pages or content.\n\nFor text content, a font must be registered with the builder. This library supports Standard 14 fonts provided by Adobe by default and TrueType format fonts.\n\nTo add a Standard 14 font use:\n\n    public AddedFont AddStandard14Font(Standard14Font type)\n\nOr for a TrueType font use:\n\n    AddedFont AddTrueTypeFont(IReadOnlyList<byte> fontFileBytes)\n\nPassing in the bytes of a TrueType file (.ttf). You can check the suitability of a TrueType file for embedding in a PDF document using:\n\n    bool CanUseTrueTypeFont(IReadOnlyList<byte> fontFileBytes, out IReadOnlyList<string> reasons)\n\nWhich provides a list of reasons why the font cannot be used if the check fails. You should check the license for a TrueType font prior to use, since the compressed font file is embedded in, and distributed with, the resultant document.\n\nThe `AddedFont` class represents a key to the font stored on the document builder. This must be provided when adding text content to pages. To add a page to a document use:\n\n    PdfPageBuilder AddPage(PageSize size, bool isPortrait = true)\n\nThis creates a new `PdfPageBuilder` with the specified size. The first added page is page number 1, then 2, then 3, etc. The page builder supports adding text, drawing lines and rectangles and measuring the size of text prior to drawing.\n\nTo draw lines and rectangles use the methods:\n",
+    "ContentSha": "08NaFsLoNkMSMyhWf/ws773ruWO4Qh6MD5POORGQlx4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "The document contains the version of the PDF specification it complies with, accessed by `document.Version`:\n\n    decimal version = document.Version;\n\n### Document Creation\n\nThe `PdfDocumentBuilder` creates a new document with no pages or content.\n\nFor text content, a font must be registered with the builder. This library supports Standard 14 fonts provided by Adobe by default and TrueType format fonts.\n\nTo add a Standard 14 font use:\n\n    public AddedFont AddStandard14Font(Standard14Font type)\n\nOr for a TrueType font use:\n\n    AddedFont AddTrueTypeFont(IReadOnlyList<byte> fontFileBytes)\n\nPassing in the bytes of a TrueType file (.ttf). You can check the suitability of a TrueType file for embedding in a PDF document using:\n\n    bool CanUseTrueTypeFont(IReadOnlyList<byte> fontFileBytes, out IReadOnlyList<string> reasons)\n\nWhich provides a list of reasons why the font cannot be used if the check fails. You should check the license for a TrueType font prior to use, since the compressed font file is embedded in, and distributed with, the resultant document.\n\nThe `AddedFont` class represents a key to the font stored on the document builder. This must be provided when adding text content to pages. To add a page to a document use:\n\n    PdfPageBuilder AddPage(PageSize size, bool isPortrait = true)\n\nThis creates a new `PdfPageBuilder` with the specified size. The first added page is page number 1, then 2, then 3, etc. The page builder supports adding text, drawing lines and rectangles and measuring the size of text prior to drawing.\n\nTo draw lines and rectangles use the methods:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The document contains the version of the PDF specification it complies with, accessed by `document.Version`:"
+      },
+      {
+        "row": 2,
+        "rowsha": "5WUzbaGDmY+54b99rsRqWnmzA+dryhTfr2DlgIfBo5c=",
+        "originContent": "The document contains the version of the PDF specification it complies with, accessed by `document.Version`:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    decimal version = document.Version;"
+      },
+      {
+        "row": 4,
+        "rowsha": "lzDteEAO+TfR+v0CfmBDg98hMLhQPW1ubw5ATBRNS9c=",
+        "originContent": "    decimal version = document.Version;",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Document Creation"
+      },
+      {
+        "row": 6,
+        "rowsha": "Qidxr/Uclq+wybN5XRUW7GGjlZFCaDyg81/umHR4Se0=",
+        "originContent": "### Document Creation",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The `PdfDocumentBuilder` creates a new document with no pages or content."
+      },
+      {
+        "row": 8,
+        "rowsha": "lweePpSgCZaYV730IQwLtgcuR/C1bz8TM3nibrffXxE=",
+        "originContent": "The `PdfDocumentBuilder` creates a new document with no pages or content.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "For text content, a font must be registered with the builder. This library supports Standard 14 fonts provided by Adobe by default and TrueType format fonts."
+      },
+      {
+        "row": 10,
+        "rowsha": "z9dl3lJj44eXWxHAWwjCSOty2JzbizyXg6AgyP22xCc=",
+        "originContent": "For text content, a font must be registered with the builder. This library supports Standard 14 fonts provided by Adobe by default and TrueType format fonts.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "To add a Standard 14 font use:"
+      },
+      {
+        "row": 12,
+        "rowsha": "Lm/zh7YRsnVxk/JK/JTGYLXxjUHZzKeOqvpJQi42+us=",
+        "originContent": "To add a Standard 14 font use:",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    public AddedFont AddStandard14Font(Standard14Font type)"
+      },
+      {
+        "row": 14,
+        "rowsha": "j708XgfjBKMSEBmo56NmGufEf758kYpASe3iX6Si4tE=",
+        "originContent": "    public AddedFont AddStandard14Font(Standard14Font type)",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Or for a TrueType font use:"
+      },
+      {
+        "row": 16,
+        "rowsha": "ItRvzWUId2xwARMY3OeZ9bWWcTgf9RJcXPjR54XsEi8=",
+        "originContent": "Or for a TrueType font use:",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    AddedFont AddTrueTypeFont(IReadOnlyList<byte> fontFileBytes)"
+      },
+      {
+        "row": 18,
+        "rowsha": "iyfNMFSR0XJ1LFWVMfImPa8ba8Nmp2eRnN2DdTsQkm8=",
+        "originContent": "    AddedFont AddTrueTypeFont(IReadOnlyList<byte> fontFileBytes)",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Passing in the bytes of a TrueType file (.ttf). You can check the suitability of a TrueType file for embedding in a PDF document using:"
+      },
+      {
+        "row": 20,
+        "rowsha": "UESUeMks/IhfvQQDl/EQFwW8wrPpM/fZeXzWv00Kubc=",
+        "originContent": "Passing in the bytes of a TrueType file (.ttf). You can check the suitability of a TrueType file for embedding in a PDF document using:",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    bool CanUseTrueTypeFont(IReadOnlyList<byte> fontFileBytes, out IReadOnlyList<string> reasons)"
+      },
+      {
+        "row": 22,
+        "rowsha": "BYaBj4feiVCE99bF0EuphCgmGF1KBNBq4JK21r4U4qU=",
+        "originContent": "    bool CanUseTrueTypeFont(IReadOnlyList<byte> fontFileBytes, out IReadOnlyList<string> reasons)",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Which provides a list of reasons why the font cannot be used if the check fails. You should check the license for a TrueType font prior to use, since the compressed font file is embedded in, and distributed with, the resultant document."
+      },
+      {
+        "row": 24,
+        "rowsha": "kMa2Lkbk+GTY584w7ij4zs4FZCLY6NGqJeh3rKqgzig=",
+        "originContent": "Which provides a list of reasons why the font cannot be used if the check fails. You should check the license for a TrueType font prior to use, since the compressed font file is embedded in, and distributed with, the resultant document.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The `AddedFont` class represents a key to the font stored on the document builder. This must be provided when adding text content to pages. To add a page to a document use:"
+      },
+      {
+        "row": 26,
+        "rowsha": "VbjMgUgtjoE2nv6ECB0mJ3FHtE4WPqM2D0WD02Mrfpc=",
+        "originContent": "The `AddedFont` class represents a key to the font stored on the document builder. This must be provided when adding text content to pages. To add a page to a document use:",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    PdfPageBuilder AddPage(PageSize size, bool isPortrait = true)"
+      },
+      {
+        "row": 28,
+        "rowsha": "XCMzWPaxLAaZGDeEM5pN+ETsgsdqzxs+FZFbGeMQAxw=",
+        "originContent": "    PdfPageBuilder AddPage(PageSize size, bool isPortrait = true)",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "This creates a new `PdfPageBuilder` with the specified size. The first added page is page number 1, then 2, then 3, etc. The page builder supports adding text, drawing lines and rectangles and measuring the size of text prior to drawing."
+      },
+      {
+        "row": 30,
+        "rowsha": "vO1Oc6Keb3RBTt11TNpfaj4QRlCWLEV4WfsCmi15hUE=",
+        "originContent": "This creates a new `PdfPageBuilder` with the specified size. The first added page is page number 1, then 2, then 3, etc. The page builder supports adding text, drawing lines and rectangles and measuring the size of text prior to drawing.",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "To draw lines and rectangles use the methods:"
+      },
+      {
+        "row": 32,
+        "rowsha": "rv3JIxVp1jP8NIzPK+odv6GmW09pyDmYjBTDiDr1xA4=",
+        "originContent": "To draw lines and rectangles use the methods:",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```cs\nvoid DrawLine(PdfPoint from, PdfPoint to, decimal lineWidth = 1)\nvoid DrawRectangle(PdfPoint position, decimal width, decimal height, decimal lineWidth = 1)\n```",
+    "ContentSha": "3Jr6nFQ6ye20AhQrYUXO5ubTZVz96rC+pTajG/NfcpQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cs\nvoid DrawLine(PdfPoint from, PdfPoint to, decimal lineWidth = 1)\nvoid DrawRectangle(PdfPoint position, decimal width, decimal height, decimal lineWidth = 1)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+        "originContent": "```cs",
+        "translatedContent": "```cs"
+      },
+      {
+        "row": 2,
+        "rowsha": "MfX5ZOQehUEW/8cBzK/vjhWASny2d9icByPLUpT5MyU=",
+        "originContent": "void DrawLine(PdfPoint from, PdfPoint to, decimal lineWidth = 1)",
+        "translatedContent": "void DrawLine(PdfPoint from, PdfPoint to, decimal lineWidth = 1)"
+      },
+      {
+        "row": 3,
+        "rowsha": "wRqskSYrgyjSf4CdR+/z3sSFkcXGL31rsHHMRjIMyVg=",
+        "originContent": "void DrawRectangle(PdfPoint position, decimal width, decimal height, decimal lineWidth = 1)",
+        "translatedContent": "void DrawRectangle(PdfPoint position, decimal width, decimal height, decimal lineWidth = 1)"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nThe line width can be varied and defaults to 1. Rectangles are unfilled and the fill color cannot be changed at present.\n\nTo write text to the page you must have a reference to an `AddedFont` from the methods on `PdfDocumentBuilder` as described above. You can then draw the text to the page using:\n\n    IReadOnlyList<Letter> AddText(string text, decimal fontSize, PdfPoint position, PdfDocumentBuilder.AddedFont font)\n\nWhere `position` is the baseline of the text to draw. Currently **only ASCII text is supported**. You can also measure the resulting size of text prior to drawing using the method:\n\n    IReadOnlyList<Letter> MeasureText(string text, decimal fontSize, PdfPoint position, PdfDocumentBuilder.AddedFont font)\n\nWhich does not change the state of the page, unlike `AddText`.\n\nChanging the RGB color of text, lines and rectangles is supported using:\n",
+    "ContentSha": "lcb1kwAqYvs2chwBvDXn0fqKXkTjH9L7NmuF5YjzkS0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "The line width can be varied and defaults to 1. Rectangles are unfilled and the fill color cannot be changed at present.\n\nTo write text to the page you must have a reference to an `AddedFont` from the methods on `PdfDocumentBuilder` as described above. You can then draw the text to the page using:\n\n    IReadOnlyList<Letter> AddText(string text, decimal fontSize, PdfPoint position, PdfDocumentBuilder.AddedFont font)\n\nWhere `position` is the baseline of the text to draw. Currently **only ASCII text is supported**. You can also measure the resulting size of text prior to drawing using the method:\n\n    IReadOnlyList<Letter> MeasureText(string text, decimal fontSize, PdfPoint position, PdfDocumentBuilder.AddedFont font)\n\nWhich does not change the state of the page, unlike `AddText`.\n\nChanging the RGB color of text, lines and rectangles is supported using:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The line width can be varied and defaults to 1. Rectangles are unfilled and the fill color cannot be changed at present."
+      },
+      {
+        "row": 2,
+        "rowsha": "++y80LRayRk/oWmcziAbqKke0QRKM7lSkF9KhOH/ZYM=",
+        "originContent": "The line width can be varied and defaults to 1. Rectangles are unfilled and the fill color cannot be changed at present.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "To write text to the page you must have a reference to an `AddedFont` from the methods on `PdfDocumentBuilder` as described above. You can then draw the text to the page using:"
+      },
+      {
+        "row": 4,
+        "rowsha": "vi0cj/kdN5VH9aMDjiMj2kFWWG3UyWpcwohpSfKLDFI=",
+        "originContent": "To write text to the page you must have a reference to an `AddedFont` from the methods on `PdfDocumentBuilder` as described above. You can then draw the text to the page using:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    IReadOnlyList<Letter> AddText(string text, decimal fontSize, PdfPoint position, PdfDocumentBuilder.AddedFont font)"
+      },
+      {
+        "row": 6,
+        "rowsha": "K2PQc9jLqCfXcqOsZn554f35xNkDvRptjU3Nhh+5b2Q=",
+        "originContent": "    IReadOnlyList<Letter> AddText(string text, decimal fontSize, PdfPoint position, PdfDocumentBuilder.AddedFont font)",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Where `position` is the baseline of the text to draw. Currently **only ASCII text is supported**. You can also measure the resulting size of text prior to drawing using the method:"
+      },
+      {
+        "row": 8,
+        "rowsha": "4Mcs7S6dQ0P1l5tRlkPL3+1YFNTh3al7ot3VW3DnjrA=",
+        "originContent": "Where `position` is the baseline of the text to draw. Currently **only ASCII text is supported**. You can also measure the resulting size of text prior to drawing using the method:",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    IReadOnlyList<Letter> MeasureText(string text, decimal fontSize, PdfPoint position, PdfDocumentBuilder.AddedFont font)"
+      },
+      {
+        "row": 10,
+        "rowsha": "dncbsi8/amMQD+1pRJurHLTWFHKSGhJZaFRC+Jq+s6w=",
+        "originContent": "    IReadOnlyList<Letter> MeasureText(string text, decimal fontSize, PdfPoint position, PdfDocumentBuilder.AddedFont font)",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Which does not change the state of the page, unlike `AddText`."
+      },
+      {
+        "row": 12,
+        "rowsha": "UGs1dGhZmTq17ZLrGcpOweCP7drga4fg5QRbeO3XMBI=",
+        "originContent": "Which does not change the state of the page, unlike `AddText`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Changing the RGB color of text, lines and rectangles is supported using:"
+      },
+      {
+        "row": 14,
+        "rowsha": "iH7jRuTP/IuI8+mimEdaqZusky1A5auqHuDeQuqo95E=",
+        "originContent": "Changing the RGB color of text, lines and rectangles is supported using:",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```cs\nvoid SetStrokeColor(byte r, byte g, byte b)\nvoid SetTextAndFillColor(byte r, byte g, byte b)\n```",
+    "ContentSha": "2OuZyttpBNOTsVMZpUUYIKBH5DSKM2vKpdLO0fxpago=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cs\nvoid SetStrokeColor(byte r, byte g, byte b)\nvoid SetTextAndFillColor(byte r, byte g, byte b)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+        "originContent": "```cs",
+        "translatedContent": "```cs"
+      },
+      {
+        "row": 2,
+        "rowsha": "3FTE731iQsL9yNGjZ3WRT39xERAdSD81tPFn+KoeE2s=",
+        "originContent": "void SetStrokeColor(byte r, byte g, byte b)",
+        "translatedContent": "void SetStrokeColor(byte r, byte g, byte b)"
+      },
+      {
+        "row": 3,
+        "rowsha": "cvnKrzliazhJM1bxAevmEHUbma/wPD/9zF2wNKXX6EM=",
+        "originContent": "void SetTextAndFillColor(byte r, byte g, byte b)",
+        "translatedContent": "void SetTextAndFillColor(byte r, byte g, byte b)"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nWhich take RGB values between 0 and 255. The color will remain active for all operations called after these methods until reset is called using:\n\n    void ResetColor()\n\nWhich resets the color for stroke, fill and text drawing to black.\n\n### Document Information\n\nThe `PdfDocument` provides access to the document metadata as `DocumentInformation` defined in the PDF file. These tend not to be provided therefore most of these entries will be `null`:\n",
+    "ContentSha": "+iyfM4PmMMy3CbnXTGsQOyMu1nxii2g/Lxj6nCpSww0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nWhich take RGB values between 0 and 255. The color will remain active for all operations called after these methods until reset is called using:\n\n    void ResetColor()\n\nWhich resets the color for stroke, fill and text drawing to black.\n\n### Document Information\n\nThe `PdfDocument` provides access to the document metadata as `DocumentInformation` defined in the PDF file. These tend not to be provided therefore most of these entries will be `null`:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "LyRd/a5oJik86eDxDTB3mkTZfSViQTmQdCE+fYkQ3mE=",
+        "originContent": "Which take RGB values between 0 and 255. The color will remain active for all operations called after these methods until reset is called using:",
+        "translatedContent": "Which take RGB values between 0 and 255. The color will remain active for all operations called after these methods until reset is called using:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "F8KVJaLXFt/Kz/wCOo6w6rDPmuUWXm4xR/X9Id7amXA=",
+        "originContent": "    void ResetColor()",
+        "translatedContent": "    void ResetColor()"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "EbOXKawxefrlSzMwxzxkVAH1b94bAnrKZ0EwDY7UIuA=",
+        "originContent": "Which resets the color for stroke, fill and text drawing to black.",
+        "translatedContent": "Which resets the color for stroke, fill and text drawing to black."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ml5k/tky/nl34745o1kGsYnWpX1ZwgyeiACCEVjZ0Qw=",
+        "originContent": "### Document Information",
+        "translatedContent": "### Document Information"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "fYoEa3jVzr53kpEklY5OAb4r+JWIsT4fzPDudwoJI78=",
+        "originContent": "The `PdfDocument` provides access to the document metadata as `DocumentInformation` defined in the PDF file. These tend not to be provided therefore most of these entries will be `null`:",
+        "translatedContent": "The `PdfDocument` provides access to the document metadata as `DocumentInformation` defined in the PDF file. These tend not to be provided therefore most of these entries will be `null`:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```\nPdfDocument document = PdfDocument.Open(fileName);\n\n// The name of the program used to convert this document to PDF.\nstring producer = document.Information.Producer;\n\n// The title given to the document\nstring title = document.Information.Title;\n// etc...\n```",
+    "ContentSha": "1JbbE2L08HVIhpYfT0gmVTjFvjMGYO/vr4K9AtDB8II=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nPdfDocument document = PdfDocument.Open(fileName);\n\n// The name of the program used to convert this document to PDF.\nstring producer = document.Information.Producer;\n\n// The title given to the document\nstring title = document.Information.Title;\n// etc...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Mmq6qQ0Sgbiaq1T1JzqTVBVOvd0djl/lfPrFfuERGwg=",
+        "originContent": "PdfDocument document = PdfDocument.Open(fileName);",
+        "translatedContent": "PdfDocument document = PdfDocument.Open(fileName);"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "9y1vfwxB73dJWAlSl5RUPmeitaMt52Sr9zc0BdhIr5Y=",
+        "originContent": "// The name of the program used to convert this document to PDF.",
+        "translatedContent": "// The name of the program used to convert this document to PDF."
+      },
+      {
+        "row": 5,
+        "rowsha": "0Ch98SdhEEfk/GBEKY93BPnf2DJeYeP907gTSIGao8o=",
+        "originContent": "string producer = document.Information.Producer;",
+        "translatedContent": "string producer = document.Information.Producer;"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Ww4A5w0dQ1Om7Vd52f2dUC/FAEuQWWhf6n4T893zXTI=",
+        "originContent": "// The title given to the document",
+        "translatedContent": "// The title given to the document"
+      },
+      {
+        "row": 8,
+        "rowsha": "b9LHC57XCiDA4ijoma540vYPP5sfSZRl2wbyOkLyD+Y=",
+        "originContent": "string title = document.Information.Title;",
+        "translatedContent": "string title = document.Information.Title;"
+      },
+      {
+        "row": 9,
+        "rowsha": "lpSwEYs38RKQbqRGN2sPQfVKUpsjTPsT5c2avUB4/T8=",
+        "originContent": "// etc...",
+        "translatedContent": "// etc..."
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### Document Structure\n\nThe `PdfDocument` has a Structure member:\n\n    UglyToad.PdfPig.Structure structure = document.Structure;\n\nThis provides access to tokenized PDF document content:\n",
+    "ContentSha": "MVgUMuYaa9JYSn0aSTQnqyORYU1ArZAdZ43x+8AsN0Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Document Structure\n\nThe `PdfDocument` has a Structure member:\n\n    UglyToad.PdfPig.Structure structure = document.Structure;\n\nThis provides access to tokenized PDF document content:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "o5geGAYxjGndmtZ8KP3T+nFB+KxBybXW40DqkfK6pY4=",
+        "originContent": "### Document Structure",
+        "translatedContent": "### Document Structure"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "cquZT3H2t5DYkMBOPpahE8l92gRMquuOfaMFyQibOYo=",
+        "originContent": "The `PdfDocument` has a Structure member:",
+        "translatedContent": "The `PdfDocument` has a Structure member:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "nI2VomtxqBIT9F9q7SIZNyACZkqDWBAIopfD3BBO7uw=",
+        "originContent": "    UglyToad.PdfPig.Structure structure = document.Structure;",
+        "translatedContent": "    UglyToad.PdfPig.Structure structure = document.Structure;"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "z+9NHXpMs28xNoFDbTcPikR39RR3h4NraGxQfenGIqY=",
+        "originContent": "This provides access to tokenized PDF document content:",
+        "translatedContent": "This provides access to tokenized PDF document content:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```cs\nCatalog catalog = structure.Catalog;\nDictionaryToken pagesDictionary = catalog.PagesDictionary;\n```",
+    "ContentSha": "jbV7wWiRPAAOG9fn7qb9OMGHWDzecnyiZsHTSiWskrM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cs\nCatalog catalog = structure.Catalog;\nDictionaryToken pagesDictionary = catalog.PagesDictionary;\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+        "originContent": "```cs",
+        "translatedContent": "```cs"
+      },
+      {
+        "row": 2,
+        "rowsha": "k2ufgLKeVloAmXOefI+f88zd5tTd/YisSiSm88Wnh9s=",
+        "originContent": "Catalog catalog = structure.Catalog;",
+        "translatedContent": "Catalog catalog = structure.Catalog;"
+      },
+      {
+        "row": 3,
+        "rowsha": "VXvTx9Ba3nrvieAORIQWKP/qj66fcq7EGlHKX3RifmA=",
+        "originContent": "DictionaryToken pagesDictionary = catalog.PagesDictionary;",
+        "translatedContent": "DictionaryToken pagesDictionary = catalog.PagesDictionary;"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\nThe pages dictionary is the root of the pages tree within a PDF document. The structure also exposes a `GetObject(IndirectReference reference)` method which allows random access to any object in the PDF as long as its identifier number is known. This is an identifier of the form `69 0 R` where 69 is the object number and 0 is the generation.\n\n### Page\n\nThe `Page` contains the page width and height in points as well as mapping to the `PageSize` enum:\n\n",
+    "ContentSha": "li+BSGEXATG4NX2BM2VHd8eHJP2ee3UH0g7jEShjQBw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "The pages dictionary is the root of the pages tree within a PDF document. The structure also exposes a `GetObject(IndirectReference reference)` method which allows random access to any object in the PDF as long as its identifier number is known. This is an identifier of the form `69 0 R` where 69 is the object number and 0 is the generation.\n\n### Page\n\nThe `Page` contains the page width and height in points as well as mapping to the `PageSize` enum:\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The pages dictionary is the root of the pages tree within a PDF document. The structure also exposes a `GetObject(IndirectReference reference)` method which allows random access to any object in the PDF as long as its identifier number is known. This is an identifier of the form `69 0 R` where 69 is the object number and 0 is the generation."
+      },
+      {
+        "row": 2,
+        "rowsha": "nhm2HAThIPKA/tkMzudOAu9OGaaSolNNo5z+w/vNQUw=",
+        "originContent": "The pages dictionary is the root of the pages tree within a PDF document. The structure also exposes a `GetObject(IndirectReference reference)` method which allows random access to any object in the PDF as long as its identifier number is known. This is an identifier of the form `69 0 R` where 69 is the object number and 0 is the generation.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Page"
+      },
+      {
+        "row": 4,
+        "rowsha": "omgz2M+cxmOtbhwgFjzRPlr00xXn/MOkfJOnbstZu80=",
+        "originContent": "### Page",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The `Page` contains the page width and height in points as well as mapping to the `PageSize` enum:"
+      },
+      {
+        "row": 6,
+        "rowsha": "+ul9ZXjNbwuHDmqR0eIdCToBKB8/IJWVzL8bHl+r8E8=",
+        "originContent": "The `Page` contains the page width and height in points as well as mapping to the `PageSize` enum:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```cs\nPageSize size = Page.Size;\n\nbool isA4 = size == PageSize.A4;\n```",
+    "ContentSha": "Q/BETNlTIBONKL7x64UEPNO8p1wGk2bNup0LyiPbGhg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cs\nPageSize size = Page.Size;\n\nbool isA4 = size == PageSize.A4;\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+        "originContent": "```cs",
+        "translatedContent": "```cs"
+      },
+      {
+        "row": 2,
+        "rowsha": "gZ4ZGk1o9l5wWw4+X40ZgU4mU6s8zmIuf5mmh3EjyWU=",
+        "originContent": "PageSize size = Page.Size;",
+        "translatedContent": "PageSize size = Page.Size;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "mD2dy5NV5TO5XmMi/4GVQG6qouw4BbIMgBhw5E6SPH8=",
+        "originContent": "bool isA4 = size == PageSize.A4;",
+        "translatedContent": "bool isA4 = size == PageSize.A4;"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n`Page` provides access to the text of the page but you should use `ContentOrderTextExtractor` or alternatives if indexing the text, e.g. for RAG/LLMs:\n\n    string text = page.Text;\n\nThere is a method which provides access to the words. The default method uses basic heuristics. For advanced cases, You can also implement your own `IWordExtractor` or use the `NearestNeighbourWordExtractor`:\n\n    IEnumerable<Word> words = page.GetWords();\n\nYou can also access the raw operations used in the page's content stream for drawing graphics and content on the page:\n\n    IReadOnlyList<IGraphicsStateOperation> operations = page.Operations;\n\nConsult the PDF specification for the meaning of individual operators.\n\nThere is also an API for retrieving the PDF image objects per page:\n\n    IEnumerable<XObjectImage> images = page.GetImages();\n\nPlease read the [wiki on Images](https://github.com/UglyToad/PdfPig/wiki/Images).\n\n### Letter\n\nDue to the way a PDF is structured internally the page text may not be a readable representation of the text as it appears in the document. Since PDF is a presentation format, text can be drawn in any order, not necessarily reading order. This means spaces may be missing or words may be in unexpected positions in the text.\n\nTo help users resolve actual text order on the page, the `Page` file provides access to a list of the letters:\n\n    IReadOnlyList<Letter> letters = page.Letters;\n\nThese letters contain:\n\n- The text of the letter: `letter.Value`.\n- The location of the lower left of the letter: `letter.Location`.\n- The width of the letter: `letter.Width`.\n- The font size in unscaled relative text units (these sizes are internal to the PDF and do not correspond to sizes in pixels, points or other units): `letter.FontSize`.\n- The name of the font used to render the letter if available: `letter.FontName`.\n- A rectangle which is the smallest rectangle that completely contains the visible region of the letter/glyph: `letter.GlyphRectangle`.\n- The points at the start and end of the baseline `StartBaseLine` and `EndBaseLine` which indicate if the letter is rotated. The `TextDirection` indicates if this is a commonly used rotation or a custom rotation.\n\nLetter position is measured in PDF coordinates where the origin is the lower left corner of the page. Therefore a higher Y value means closer to the top of the page.",
+    "ContentSha": "MdQmhBktgiSu63KEet8X6w1EAWTUjEpw53ajEjLGyq0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`Page` provides access to the text of the page but you should use `ContentOrderTextExtractor` or alternatives if indexing the text, e.g. for RAG/LLMs:\n\n    string text = page.Text;\n\nThere is a method which provides access to the words. The default method uses basic heuristics. For advanced cases, You can also implement your own `IWordExtractor` or use the `NearestNeighbourWordExtractor`:\n\n    IEnumerable<Word> words = page.GetWords();\n\nYou can also access the raw operations used in the page's content stream for drawing graphics and content on the page:\n\n    IReadOnlyList<IGraphicsStateOperation> operations = page.Operations;\n\nConsult the PDF specification for the meaning of individual operators.\n\nThere is also an API for retrieving the PDF image objects per page:\n\n    IEnumerable<XObjectImage> images = page.GetImages();\n\nPlease read the [wiki on Images](https://github.com/UglyToad/PdfPig/wiki/Images).\n\n### Letter\n\nDue to the way a PDF is structured internally the page text may not be a readable representation of the text as it appears in the document. Since PDF is a presentation format, text can be drawn in any order, not necessarily reading order. This means spaces may be missing or words may be in unexpected positions in the text.\n\nTo help users resolve actual text order on the page, the `Page` file provides access to a list of the letters:\n\n    IReadOnlyList<Letter> letters = page.Letters;\n\nThese letters contain:\n\n- The text of the letter: `letter.Value`.\n- The location of the lower left of the letter: `letter.Location`.\n- The width of the letter: `letter.Width`.\n- The font size in unscaled relative text units (these sizes are internal to the PDF and do not correspond to sizes in pixels, points or other units): `letter.FontSize`.\n- The name of the font used to render the letter if available: `letter.FontName`.\n- A rectangle which is the smallest rectangle that completely contains the visible region of the letter/glyph: `letter.GlyphRectangle`.\n- The points at the start and end of the baseline `StartBaseLine` and `EndBaseLine` which indicate if the letter is rotated. The `TextDirection` indicates if this is a commonly used rotation or a custom rotation.\n\nLetter position is measured in PDF coordinates where the origin is the lower left corner of the page. Therefore a higher Y value means closer to the top of the page.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`Page` provides access to the text of the page but you should use `ContentOrderTextExtractor` or alternatives if indexing the text, e.g. for RAG/LLMs:"
+      },
+      {
+        "row": 2,
+        "rowsha": "BNEhIshpQfl1OSGhSDcnalyDaQt/Iyo4bjY1qPuDKTk=",
+        "originContent": "`Page` provides access to the text of the page but you should use `ContentOrderTextExtractor` or alternatives if indexing the text, e.g. for RAG/LLMs:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    string text = page.Text;"
+      },
+      {
+        "row": 4,
+        "rowsha": "7XPpzEEi5gzywPzfSz9WT7gOq2JPi8ImX5W/C4pn22A=",
+        "originContent": "    string text = page.Text;",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "There is a method which provides access to the words. The default method uses basic heuristics. For advanced cases, You can also implement your own `IWordExtractor` or use the `NearestNeighbourWordExtractor`:"
+      },
+      {
+        "row": 6,
+        "rowsha": "nNMHCKAxQwFHAOg79xii547+PySC4fQGlJgPmTyu+gY=",
+        "originContent": "There is a method which provides access to the words. The default method uses basic heuristics. For advanced cases, You can also implement your own `IWordExtractor` or use the `NearestNeighbourWordExtractor`:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    IEnumerable<Word> words = page.GetWords();"
+      },
+      {
+        "row": 8,
+        "rowsha": "jERkOvqrevqVTv8Xcbd4TlINS8MQXw+VXoO2ninWzfk=",
+        "originContent": "    IEnumerable<Word> words = page.GetWords();",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "You can also access the raw operations used in the page's content stream for drawing graphics and content on the page:"
+      },
+      {
+        "row": 10,
+        "rowsha": "gdpU7oxeCfSFncLh0B1+YkWiyiX+skbpDFiT2UHTQ5s=",
+        "originContent": "You can also access the raw operations used in the page's content stream for drawing graphics and content on the page:",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    IReadOnlyList<IGraphicsStateOperation> operations = page.Operations;"
+      },
+      {
+        "row": 12,
+        "rowsha": "hQE0D2fYpFyL6fU/QqLY9zPSgoNsyAWmKzM3YQ4KSZ0=",
+        "originContent": "    IReadOnlyList<IGraphicsStateOperation> operations = page.Operations;",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Consult the PDF specification for the meaning of individual operators."
+      },
+      {
+        "row": 14,
+        "rowsha": "PqLFueqB3L0a5msBzkSiLwzCHqiqSUrz1DmACQ1Or4M=",
+        "originContent": "Consult the PDF specification for the meaning of individual operators.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "There is also an API for retrieving the PDF image objects per page:"
+      },
+      {
+        "row": 16,
+        "rowsha": "nYfIZSsRK0xKDzHs+zGBxJjwQoqRInJnH8x1LZa6Ybk=",
+        "originContent": "There is also an API for retrieving the PDF image objects per page:",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    IEnumerable<XObjectImage> images = page.GetImages();"
+      },
+      {
+        "row": 18,
+        "rowsha": "81CmppcoVuBTwh3IWCWnCQIjEV2/rqOjsjuQNAC+niA=",
+        "originContent": "    IEnumerable<XObjectImage> images = page.GetImages();",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Please read the [wiki on Images](https://github.com/UglyToad/PdfPig/wiki/Images)."
+      },
+      {
+        "row": 20,
+        "rowsha": "A722ysUNSk/nHekGD5EobNxBG+Tt18GUXgyk1RVM9yE=",
+        "originContent": "Please read the [wiki on Images](https://github.com/UglyToad/PdfPig/wiki/Images).",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Letter"
+      },
+      {
+        "row": 22,
+        "rowsha": "OkizQzBohiLyqqPYC2E0MBRwu0+1EiWVh4xU2zifW5E=",
+        "originContent": "### Letter",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Due to the way a PDF is structured internally the page text may not be a readable representation of the text as it appears in the document. Since PDF is a presentation format, text can be drawn in any order, not necessarily reading order. This means spaces may be missing or words may be in unexpected positions in the text."
+      },
+      {
+        "row": 24,
+        "rowsha": "oqD+4bzbWsdOgyAL7Bi+sQ4VlXem72sx68/WsU8Q9tw=",
+        "originContent": "Due to the way a PDF is structured internally the page text may not be a readable representation of the text as it appears in the document. Since PDF is a presentation format, text can be drawn in any order, not necessarily reading order. This means spaces may be missing or words may be in unexpected positions in the text.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "To help users resolve actual text order on the page, the `Page` file provides access to a list of the letters:"
+      },
+      {
+        "row": 26,
+        "rowsha": "CD9oMS77a+hIwtRzMHgXvukrXcKGEP6klzbTX6bBTqs=",
+        "originContent": "To help users resolve actual text order on the page, the `Page` file provides access to a list of the letters:",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    IReadOnlyList<Letter> letters = page.Letters;"
+      },
+      {
+        "row": 28,
+        "rowsha": "u/YWHlJ00FF9+8MnMOGC5LhI4l/dDzE/1sBlZudx2tM=",
+        "originContent": "    IReadOnlyList<Letter> letters = page.Letters;",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "These letters contain:"
+      },
+      {
+        "row": 30,
+        "rowsha": "QnNGhBVTvEsG+OqfTplCfKLlRZFQ3/ZdBhVcfIFPqKs=",
+        "originContent": "These letters contain:",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- The text of the letter: `letter.Value`."
+      },
+      {
+        "row": 32,
+        "rowsha": "xrG7joQpv83nMQoDfp3DJU7KPzaPK9xJ4GTDPKp9/B0=",
+        "originContent": "- The text of the letter: `letter.Value`.",
+        "translatedContent": "- The location of the lower left of the letter: `letter.Location`."
+      },
+      {
+        "row": 33,
+        "rowsha": "02Kn5L6CWADexpZIK+C2JG76U9RfL4yBleK3ka6q5ow=",
+        "originContent": "- The location of the lower left of the letter: `letter.Location`.",
+        "translatedContent": "- The width of the letter: `letter.Width`."
+      },
+      {
+        "row": 34,
+        "rowsha": "QdfBt8rVgqbUVmEVg7AWhsLa8Tptrm2PnchiMEtNApo=",
+        "originContent": "- The width of the letter: `letter.Width`.",
+        "translatedContent": "- The font size in unscaled relative text units (these sizes are internal to the PDF and do not correspond to sizes in pixels, points or other units): `letter.FontSize`."
+      },
+      {
+        "row": 35,
+        "rowsha": "rdcxi3gl+tKzQYdMlFh7IEZkgpePy48JS8hjz5v9yLs=",
+        "originContent": "- The font size in unscaled relative text units (these sizes are internal to the PDF and do not correspond to sizes in pixels, points or other units): `letter.FontSize`.",
+        "translatedContent": "- The name of the font used to render the letter if available: `letter.FontName`."
+      },
+      {
+        "row": 36,
+        "rowsha": "sIH+QNaQoZNpcQwG8MLLJAlxn6Hp7mFSfMNGsv2lUkc=",
+        "originContent": "- The name of the font used to render the letter if available: `letter.FontName`.",
+        "translatedContent": "- A rectangle which is the smallest rectangle that completely contains the visible region of the letter/glyph: `letter.GlyphRectangle`."
+      },
+      {
+        "row": 37,
+        "rowsha": "1e/8tdlDnDggzLA9HcBt8CdLxTHKNJoUkQO8lx+uud0=",
+        "originContent": "- A rectangle which is the smallest rectangle that completely contains the visible region of the letter/glyph: `letter.GlyphRectangle`.",
+        "translatedContent": "- The points at the start and end of the baseline `StartBaseLine` and `EndBaseLine` which indicate if the letter is rotated. The `TextDirection` indicates if this is a commonly used rotation or a custom rotation."
+      },
+      {
+        "row": 38,
+        "rowsha": "n/S4DQtUvQ8SYLEu8VFUShAQhg9pcC3R8sMQYSAPd3o=",
+        "originContent": "- The points at the start and end of the baseline `StartBaseLine` and `EndBaseLine` which indicate if the letter is rotated. The `TextDirection` indicates if this is a commonly used rotation or a custom rotation.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Letter position is measured in PDF coordinates where the origin is the lower left corner of the page. Therefore a higher Y value means closer to the top of the page."
+      },
+      {
+        "row": 40,
+        "rowsha": "AImDZAsdOnVhBHRXnP7aXRpvXKK7sb3HHcPaeIw3Iqc=",
+        "originContent": "Letter position is measured in PDF coordinates where the origin is the lower left corner of the page. Therefore a higher Y value means closer to the top of the page.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "\n### Annotations\n\nRetrieving annotations on each page is provided using the method:\n\n    page.GetAnnotations()\n\nThis call is not cached and the document must not have been disposed prior to use. Annotations cannot be edited.\n\n### Bookmarks\n\nThe bookmarks (outlines) of a document may be retrieved at the document level:\n\n    bool hasBookmarks = document.TryGetBookmarks(out Bookmarks bookmarks);\n\nThis will return `false` if the document does not define any bookmarks.\n\n### Forms\n\nForm fields for interactive forms (AcroForms) can be retrieved using:\n\n    bool hasForm = document.TryGetForm(out AcroForm form);\n\nThis will return `false` if the document does not contain a form.\n\nThe fields can be accessed using the `AcroForm`'s `Fields` property. Since the form is defined at the document level this will return fields from all pages in the document. Fields are of the types defined by the enum `AcroFieldType`, for example `PushButton`, `Checkbox`, `Text`, etc.\n\nPlease note the forms are readonly and values cannot be changed or added using PdfPig.\n\n### Hyperlinks\n\nA page has a method to extract hyperlinks (annotations of link type):\n\n    IReadOnlyList<UglyToad.PdfPig.Content.Hyperlink> hyperlinks = page.GetHyperlinks();\n\nHyperlinks cannot be added or edited when building documents.\n\n### TrueType\n\nThe classes used to work with TrueType fonts in the PDF file are available for public consumption. Given an input file:",
+    "ContentSha": "4d8YZ4O5A29O/dFQ+dDRXlqP4fXWBlxyMRSX/qCyHZk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Annotations\n\nRetrieving annotations on each page is provided using the method:\n\n    page.GetAnnotations()\n\nThis call is not cached and the document must not have been disposed prior to use. Annotations cannot be edited.\n\n### Bookmarks\n\nThe bookmarks (outlines) of a document may be retrieved at the document level:\n\n    bool hasBookmarks = document.TryGetBookmarks(out Bookmarks bookmarks);\n\nThis will return `false` if the document does not define any bookmarks.\n\n### Forms\n\nForm fields for interactive forms (AcroForms) can be retrieved using:\n\n    bool hasForm = document.TryGetForm(out AcroForm form);\n\nThis will return `false` if the document does not contain a form.\n\nThe fields can be accessed using the `AcroForm`'s `Fields` property. Since the form is defined at the document level this will return fields from all pages in the document. Fields are of the types defined by the enum `AcroFieldType`, for example `PushButton`, `Checkbox`, `Text`, etc.\n\nPlease note the forms are readonly and values cannot be changed or added using PdfPig.\n\n### Hyperlinks\n\nA page has a method to extract hyperlinks (annotations of link type):\n\n    IReadOnlyList<UglyToad.PdfPig.Content.Hyperlink> hyperlinks = page.GetHyperlinks();\n\nHyperlinks cannot be added or edited when building documents.\n\n### TrueType\n\nThe classes used to work with TrueType fonts in the PDF file are available for public consumption. Given an input file:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PfhyB2bLmPWApo6xok3LYDuZ1VVUZlPCsqZcvD1PmY0=",
+        "originContent": "### Annotations",
+        "translatedContent": "### Annotations"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "dD38e+tBlc7yX6nmSD3BEEjg1FTsdXvM/kBmvDoiLUk=",
+        "originContent": "Retrieving annotations on each page is provided using the method:",
+        "translatedContent": "Retrieving annotations on each page is provided using the method:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "phdvYaOxvMMgn0vyngGmqsHEv5de6rjnJ1TEkZwtbiE=",
+        "originContent": "    page.GetAnnotations()",
+        "translatedContent": "    page.GetAnnotations()"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "fD/vu09hkbAumdHP+kCCie3Fe8/d7VJHqHW1+Bu//JI=",
+        "originContent": "This call is not cached and the document must not have been disposed prior to use. Annotations cannot be edited.",
+        "translatedContent": "This call is not cached and the document must not have been disposed prior to use. Annotations cannot be edited."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "zDUKXrGGq9oWx5XqC2tIBuG7f1+muBBaGtHrPbciGpM=",
+        "originContent": "### Bookmarks",
+        "translatedContent": "### Bookmarks"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "bj1kY7SLFhA7WLPG03UBenS+EKvG7SeZjxErl2xSJfU=",
+        "originContent": "The bookmarks (outlines) of a document may be retrieved at the document level:",
+        "translatedContent": "The bookmarks (outlines) of a document may be retrieved at the document level:"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "ZVeZ8pcwyzlOIhE1O9hiEm3AcunlwcQ+6K44/NldJPo=",
+        "originContent": "    bool hasBookmarks = document.TryGetBookmarks(out Bookmarks bookmarks);",
+        "translatedContent": "    bool hasBookmarks = document.TryGetBookmarks(out Bookmarks bookmarks);"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "xpZrV1MJ4M1t9meG9jNSRac0FmcJN63aeYkEBhNcYEA=",
+        "originContent": "This will return `false` if the document does not define any bookmarks.",
+        "translatedContent": "This will return `false` if the document does not define any bookmarks."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "PVuET6TU6xzCVBzPZy3105X4LRrepv18rwvyTZ5WdYw=",
+        "originContent": "### Forms",
+        "translatedContent": "### Forms"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "gkqOaKowi/G3ZibTZTKVH1pbNT2LL08GNE/pFqLyhEQ=",
+        "originContent": "Form fields for interactive forms (AcroForms) can be retrieved using:",
+        "translatedContent": "Form fields for interactive forms (AcroForms) can be retrieved using:"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "8fyQ6b6vg3A2WxOrw4GM2j/gnEwgPXO6r8Lm5f6c014=",
+        "originContent": "    bool hasForm = document.TryGetForm(out AcroForm form);",
+        "translatedContent": "    bool hasForm = document.TryGetForm(out AcroForm form);"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "M4AdToT5PMJsWR8xAlHD9YMdJeqmJbt+f4tZlljfMKQ=",
+        "originContent": "This will return `false` if the document does not contain a form.",
+        "translatedContent": "This will return `false` if the document does not contain a form."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "AOCaMIJq/Hr/IWXmMSNzzNXz8+WOPCTYplyMm7uclEE=",
+        "originContent": "The fields can be accessed using the `AcroForm`'s `Fields` property. Since the form is defined at the document level this will return fields from all pages in the document. Fields are of the types defined by the enum `AcroFieldType`, for example `PushButton`, `Checkbox`, `Text`, etc.",
+        "translatedContent": "The fields can be accessed using the `AcroForm`'s `Fields` property. Since the form is defined at the document level this will return fields from all pages in the document. Fields are of the types defined by the enum `AcroFieldType`, for example `PushButton`, `Checkbox`, `Text`, etc."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "gCApfNZ4woCMG5AUcsMsPzeRo2O6ljNYQ6jieSJzaaM=",
+        "originContent": "Please note the forms are readonly and values cannot be changed or added using PdfPig.",
+        "translatedContent": "Please note the forms are readonly and values cannot be changed or added using PdfPig."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "8hYtFrp07yFq7z+0VGaNwyljA35dtaxF+81Oivgk5Kc=",
+        "originContent": "### Hyperlinks",
+        "translatedContent": "### Hyperlinks"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "hzlBgHBs3Cs7IzEGKgiw4jJvU2frD958RRV+9R13NjU=",
+        "originContent": "A page has a method to extract hyperlinks (annotations of link type):",
+        "translatedContent": "A page has a method to extract hyperlinks (annotations of link type):"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "GQn2NJB2yoqjdD1/mRfJwtubIsUi3YEpPsm77sVcqj8=",
+        "originContent": "    IReadOnlyList<UglyToad.PdfPig.Content.Hyperlink> hyperlinks = page.GetHyperlinks();",
+        "translatedContent": "    IReadOnlyList<UglyToad.PdfPig.Content.Hyperlink> hyperlinks = page.GetHyperlinks();"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "clotETRJgoXlDP6qEF9Ajjgxn7kvBWe4lcx3wT0F1K4=",
+        "originContent": "Hyperlinks cannot be added or edited when building documents.",
+        "translatedContent": "Hyperlinks cannot be added or edited when building documents."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "/Qq8VAo09VO5MJ4c/Ad5G/+232koH5ITTJJCKPpfBf0=",
+        "originContent": "### TrueType",
+        "translatedContent": "### TrueType"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "LTOq/hVhX0QI/fh/aIX6Uxhw9OLw8Fq5CzbZGAMyGkU=",
+        "originContent": "The classes used to work with TrueType fonts in the PDF file are available for public consumption. Given an input file:",
+        "translatedContent": "The classes used to work with TrueType fonts in the PDF file are available for public consumption. Given an input file:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "\n",
+    "ContentSha": "AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```cs\nusing UglyToad.PdfPig.Fonts.TrueType;\nusing UglyToad.PdfPig.Fonts.TrueType.Parser;\n\nbyte[] fontBytes = System.IO.File.ReadAllBytes(@\"C:\\font.ttf\");\nTrueTypeDataBytes input = new TrueTypeDataBytes(fontBytes);\nTrueTypeFont font = TrueTypeFontParser.Parse(input);\n```",
+    "ContentSha": "waZf2yMBkJp8Dfk1LxAhQejV0N5QUIDnVJUDZBiMWho=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cs\nusing UglyToad.PdfPig.Fonts.TrueType;\nusing UglyToad.PdfPig.Fonts.TrueType.Parser;\n\nbyte[] fontBytes = System.IO.File.ReadAllBytes(@\"C:\\font.ttf\");\nTrueTypeDataBytes input = new TrueTypeDataBytes(fontBytes);\nTrueTypeFont font = TrueTypeFontParser.Parse(input);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+        "originContent": "```cs",
+        "translatedContent": "```cs"
+      },
+      {
+        "row": 2,
+        "rowsha": "hpONs4qxKmL1TuSCl+Bjshu0rIiHlO45dZq/eOloFAg=",
+        "originContent": "using UglyToad.PdfPig.Fonts.TrueType;",
+        "translatedContent": "using UglyToad.PdfPig.Fonts.TrueType;"
+      },
+      {
+        "row": 3,
+        "rowsha": "LtvYH0R6zjxa4ijCpa7R57S8rEfijNCkVAetPTYaZlY=",
+        "originContent": "using UglyToad.PdfPig.Fonts.TrueType.Parser;",
+        "translatedContent": "using UglyToad.PdfPig.Fonts.TrueType.Parser;"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "7xEvue34BWK+xGWdxgEPpc1Mfz0dFD7XZ/5i3Ew74L4=",
+        "originContent": "byte[] fontBytes = System.IO.File.ReadAllBytes(@\"C:\\font.ttf\");",
+        "translatedContent": "byte[] fontBytes = System.IO.File.ReadAllBytes(@\"C:\\font.ttf\");"
+      },
+      {
+        "row": 6,
+        "rowsha": "hJ99g3qXRoO0Cmu5FSHe1UYxqETGYoDEbpAuSG2OIB4=",
+        "originContent": "TrueTypeDataBytes input = new TrueTypeDataBytes(fontBytes);",
+        "translatedContent": "TrueTypeDataBytes input = new TrueTypeDataBytes(fontBytes);"
+      },
+      {
+        "row": 7,
+        "rowsha": "2LzIolFX6CdcN/d/+NgnO355fXe/EdGZ4fm9BZ80R6g=",
+        "originContent": "TrueTypeFont font = TrueTypeFontParser.Parse(input);",
+        "translatedContent": "TrueTypeFont font = TrueTypeFontParser.Parse(input);"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\nThe parsed font can then be inspected.\n\n### Embedded Files\n\nPDF files may contain other files entirely embedded inside them for document annotations. The list of embedded files and their byte content may be accessed:\n",
+    "ContentSha": "aF98UF6pVAZE/pU2IdHz9A83NYR/UhgDFidOeoILb/w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nThe parsed font can then be inspected.\n\n### Embedded Files\n\nPDF files may contain other files entirely embedded inside them for document annotations. The list of embedded files and their byte content may be accessed:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "kUCPXazd3JeCFT+8pjXdTY9g5jMXOdKjB4T5xA7TtOI=",
+        "originContent": "The parsed font can then be inspected.",
+        "translatedContent": "The parsed font can then be inspected."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "dSMQoQ0ZR2hqvmmobXEux7GEqKTbLpc8Jjw8Js5jMQM=",
+        "originContent": "### Embedded Files",
+        "translatedContent": "### Embedded Files"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "aKM+Ac70IqcD6thvo4wEtAgh9tndrTU1N9729AdtFW4=",
+        "originContent": "PDF files may contain other files entirely embedded inside them for document annotations. The list of embedded files and their byte content may be accessed:",
+        "translatedContent": "PDF files may contain other files entirely embedded inside them for document annotations. The list of embedded files and their byte content may be accessed:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```cs\nif (document.Advanced.TryGetEmbeddedFiles(out IReadOnlyList<EmbeddedFile> files)\n    && files.Count > 0)\n{\n    var firstFile = files[0];\n    string name = firstFile.Name;\n    IReadOnlyList<byte> bytes = firstFile.Bytes;\n}\n```",
+    "ContentSha": "K+ZzttKBY7lqcl+SarMN8D7G3wjUFoRxGvute8whC+s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cs\nif (document.Advanced.TryGetEmbeddedFiles(out IReadOnlyList<EmbeddedFile> files)\n    && files.Count > 0)\n{\n    var firstFile = files[0];\n    string name = firstFile.Name;\n    IReadOnlyList<byte> bytes = firstFile.Bytes;\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+        "originContent": "```cs",
+        "translatedContent": "```cs"
+      },
+      {
+        "row": 2,
+        "rowsha": "kRulvzfYEyg2q0XD3lxXa4VSB9p2DKp6hNzzlcbtP+A=",
+        "originContent": "if (document.Advanced.TryGetEmbeddedFiles(out IReadOnlyList<EmbeddedFile> files)",
+        "translatedContent": "if (document.Advanced.TryGetEmbeddedFiles(out IReadOnlyList<EmbeddedFile> files)"
+      },
+      {
+        "row": 3,
+        "rowsha": "tdZ6d2kAuaDv02gLiaY9OvUhb+2ZAyLgBk6CqeZy7PM=",
+        "originContent": "    && files.Count > 0)",
+        "translatedContent": "    && files.Count > 0)"
+      },
+      {
+        "row": 4,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 5,
+        "rowsha": "PsX4hfZRiJsuQzS1zQLckL5dx3/lGENaawglsDiLPvE=",
+        "originContent": "    var firstFile = files[0];",
+        "translatedContent": "    var firstFile = files[0];"
+      },
+      {
+        "row": 6,
+        "rowsha": "dwMU3XMPNJUhQ6dj6KSF2ASC4vMzR+LiwnQwn5ozWkY=",
+        "originContent": "    string name = firstFile.Name;",
+        "translatedContent": "    string name = firstFile.Name;"
+      },
+      {
+        "row": 7,
+        "rowsha": "9vJg728+bJ0zHRi4y3o+rOZ4gnZ/Kg4GT92TC917gq4=",
+        "originContent": "    IReadOnlyList<byte> bytes = firstFile.Bytes;",
+        "translatedContent": "    IReadOnlyList<byte> bytes = firstFile.Bytes;"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n### Merging\n\nYou can merge 2 or more existing PDF files using the `PdfMerger` class:\n",
+    "ContentSha": "uMVbILf01pTdpWg1HG+kZrC1SGf11vqIWQdF6L0JMpQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Merging\n\nYou can merge 2 or more existing PDF files using the `PdfMerger` class:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1T5wwFjhcFE5YylMuM1aEuZ3GYHoBiYbgDYWdc3FqCU=",
+        "originContent": "### Merging",
+        "translatedContent": "### Merging"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "NPbT8wI+Mku4VFSZfhS7zVDVcqtHQKRge/o2/9LJCjs=",
+        "originContent": "You can merge 2 or more existing PDF files using the `PdfMerger` class:",
+        "translatedContent": "You can merge 2 or more existing PDF files using the `PdfMerger` class:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```cs\nvar resultFileBytes = PdfMerger.Merge(filePath1, filePath2);\nFile.WriteAllBytes(@\"C:\\pdfs\\outputfilename.pdf\", resultFileBytes);\n```",
+    "ContentSha": "gas7esmIpKLb/0gxKVeiCC0Gfxzs3CYM0P8fV+1EAew=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cs\nvar resultFileBytes = PdfMerger.Merge(filePath1, filePath2);\nFile.WriteAllBytes(@\"C:\\pdfs\\outputfilename.pdf\", resultFileBytes);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+        "originContent": "```cs",
+        "translatedContent": "```cs"
+      },
+      {
+        "row": 2,
+        "rowsha": "vG7q9KjfqUvZifhLDs51rGxxNFmT9jcd+AFzR95rBMk=",
+        "originContent": "var resultFileBytes = PdfMerger.Merge(filePath1, filePath2);",
+        "translatedContent": "var resultFileBytes = PdfMerger.Merge(filePath1, filePath2);"
+      },
+      {
+        "row": 3,
+        "rowsha": "0LwO3m8pZwS1tVuNa8L90M4XuWlVmRYjV+zPaQnqsQo=",
+        "originContent": "File.WriteAllBytes(@\"C:\\pdfs\\outputfilename.pdf\", resultFileBytes);",
+        "translatedContent": "File.WriteAllBytes(@\"C:\\pdfs\\outputfilename.pdf\", resultFileBytes);"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n## Wiki\nCheck out our [wiki](https://github.com/UglyToad/PdfPig/wiki) for more examples and detailed guides on the API.\n\n## Issues\n\nPlease do file an issue if you encounter a bug. See our [issue policy](https://github.com/UglyToad/PdfPig/issues/1095) and [contributing guide](https://github.com/UglyToad/PdfPig/blob/master/CONTRIBUTING.md) for details.\n\n## API Reference\n\nIf you wish to generate doxygen documentation, run `doxygen doxygen-docs` and open `docs/doxygen/html/index.html`.\n\n## Credit\n\nThis project started as an effort to port [PDFBox](https://github.com/apache/pdfbox) to C#. This project wouldn't be possible without the work done by the [PDFBox](https://pdfbox.apache.org/) team and the Apache Foundation.\n",
+    "ContentSha": "OkuPHTb7g9K7nkdXITZnIFX0m2w5WGy1NajQYofTz5I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Wiki\nCheck out our [wiki](https://github.com/UglyToad/PdfPig/wiki) for more examples and detailed guides on the API.\n\n## Issues\n\nPlease do file an issue if you encounter a bug. See our [issue policy](https://github.com/UglyToad/PdfPig/issues/1095) and [contributing guide](https://github.com/UglyToad/PdfPig/blob/master/CONTRIBUTING.md) for details.\n\n## API Reference\n\nIf you wish to generate doxygen documentation, run `doxygen doxygen-docs` and open `docs/doxygen/html/index.html`.\n\n## Credit\n\nThis project started as an effort to port [PDFBox](https://github.com/apache/pdfbox) to C#. This project wouldn't be possible without the work done by the [PDFBox](https://pdfbox.apache.org/) team and the Apache Foundation.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "IVjOi103RvithEqiMPR5mQPwgl1ggxbmAIBlsST8CkE=",
+        "originContent": "## Wiki",
+        "translatedContent": "## Wiki"
+      },
+      {
+        "row": 3,
+        "rowsha": "TgR6coPn0eVlNN/wMsW8tm2Rq+PYd8wnA7TlxyNNnw0=",
+        "originContent": "Check out our [wiki](https://github.com/UglyToad/PdfPig/wiki) for more examples and detailed guides on the API.",
+        "translatedContent": "Check out our [wiki](https://github.com/UglyToad/PdfPig/wiki) for more examples and detailed guides on the API."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "SOHoTyczzE2dykvhN7RF5URhGMRaVtt1NdUAqSrXRZ4=",
+        "originContent": "## Issues",
+        "translatedContent": "## Issues"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "j4DMGRRJBuNPLUrbOIju11juqLlmbvDneOMG2wF1LdY=",
+        "originContent": "Please do file an issue if you encounter a bug. See our [issue policy](https://github.com/UglyToad/PdfPig/issues/1095) and [contributing guide](https://github.com/UglyToad/PdfPig/blob/master/CONTRIBUTING.md) for details.",
+        "translatedContent": "Please do file an issue if you encounter a bug. See our [issue policy](https://github.com/UglyToad/PdfPig/issues/1095) and [contributing guide](https://github.com/UglyToad/PdfPig/blob/master/CONTRIBUTING.md) for details."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "nvAYtiZ8HdVYa6kQLlWO++52V6Dkv1H6BZ+0YJLenok=",
+        "originContent": "## API Reference",
+        "translatedContent": "## API Reference"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "gKQuiEKnWQXoB3dNwEpvb1azwFky5BfECMzHvUleYq4=",
+        "originContent": "If you wish to generate doxygen documentation, run `doxygen doxygen-docs` and open `docs/doxygen/html/index.html`.",
+        "translatedContent": "If you wish to generate doxygen documentation, run `doxygen doxygen-docs` and open `docs/doxygen/html/index.html`."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "TKxkJIn+NKVXflgq7wMa9qdzdibh4Bg27iRXk7BEs10=",
+        "originContent": "## Credit",
+        "translatedContent": "## Credit"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "n2HH9YkcQo+eaYOOzZirPnwYzdQm/z4byDiu4kgavtg=",
+        "originContent": "This project started as an effort to port [PDFBox](https://github.com/apache/pdfbox) to C#. This project wouldn't be possible without the work done by the [PDFBox](https://pdfbox.apache.org/) team and the Apache Foundation.",
+        "translatedContent": "This project started as an effort to port [PDFBox](https://github.com/apache/pdfbox) to C#. This project wouldn't be possible without the work done by the [PDFBox](https://pdfbox.apache.org/) team and the Apache Foundation."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

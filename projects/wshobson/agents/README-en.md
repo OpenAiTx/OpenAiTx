@@ -4,26 +4,26 @@
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as">Assamese</
       </div>
     </div>
   </details>
@@ -35,7 +35,7 @@ A comprehensive collection of specialized AI subagents for [Claude Code](https:/
 
 ## Overview
 
-This repository contains 57 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
+This repository contains 58 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
 
 ## Available Subagents
 
@@ -59,6 +59,7 @@ This repository contains 57 specialized subagents that extend Claude Code's capa
 - **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Master modern Java with streams, concurrency, and JVM optimization
 - **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Write idiomatic Elixir code with OTP patterns, functional programming, and Phoenix frameworks
 - **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Write modern C# code with advanced features and .NET optimization
+- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing
 - **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Build Unity games with optimized scripts and performance tuning
 - **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs
 - **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Develop native iOS applications with Swift/SwiftUI
@@ -102,6 +103,7 @@ This repository contains 57 specialized subagents that extend Claude Code's capa
 
 ### Documentation
 - **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Creates comprehensive technical documentation from existing codebases
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures
 - **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Creates exhaustive technical references and API documentation
 - **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Creates step-by-step tutorials and educational content from code
 
@@ -114,13 +116,13 @@ This repository contains 57 specialized subagents that extend Claude Code's capa
 
 ## Model Assignments
 
-All 57 subagents are configured with specific Claude models based on task complexity:
+All 58 subagents are configured with specific Claude models based on task complexity:
 
 ### 🚀 Haiku (Fast & Cost-Effective) - 9 agents
 **Model:** `haiku`
 - `data-scientist` - SQL queries and data analysis
 - `api-documenter` - OpenAPI/Swagger documentation
-- `reference-builder` - Exhaustive technical references and API documentation
+- `reference-builder` - Comprehensive technical references and API documentation
 - `business-analyst` - Metrics and KPI tracking
 - `content-marketer` - Blog posts and social media
 - `customer-support` - Support tickets and FAQs
@@ -128,7 +130,7 @@ All 57 subagents are configured with specific Claude models based on task comple
 - `search-specialist` - Web research and information gathering
 - `legal-advisor` - Privacy policies and compliance documents
 
-### ⚡ Sonnet (Balanced Performance) - 35 agents
+### ⚡ Sonnet (Balanced Performance) - 36 agents
 **Model:** `sonnet`
 
 **Development & Languages:**
@@ -143,6 +145,7 @@ All 57 subagents are configured with specific Claude models based on task comple
 - `java-pro` - Modern Java with streams and concurrency
 - `elixir-pro` - Elixir with OTP patterns and Phoenix
 - `csharp-pro` - Modern C# with .NET frameworks and patterns
+- `scala-pro` - Enterprise Scala with Apache Pekko, Akka, Spark, and ZIO/Cats Effect
 - `unity-developer` - Unity game development and optimization
 - `minecraft-bukkit-pro` - Minecraft plugin development with Bukkit/Spigot/Paper
 - `ios-developer` - Native iOS development with Swift/SwiftUI
@@ -171,6 +174,7 @@ All 57 subagents are configured with specific Claude models based on task comple
 - `ml-engineer` - ML model deployment
 - `legacy-modernizer` - Framework migrations
 - `payment-integration` - Payment processing
+- `mermaid-expert` - Mermaid diagrams and visual documentation
 
 ### 🧠 Opus (Maximum Capability) - 13 agents
 **Model:** `opus`
@@ -376,6 +380,7 @@ payment-integration → security-auditor → Validated implementation
 - **java-pro**: Modern Java development, streams, concurrency, Spring Boot
 - **elixir-pro**: Elixir development, OTP patterns, Phoenix frameworks, functional programming
 - **csharp-pro**: Modern C# development, .NET frameworks, enterprise patterns
+- **scala-pro**: Enterprise Scala with functional programming, Apache Pekko/Akka actors, Apache Spark, ZIO/Cats Effect, reactive architectures
 - **unity-developer**: Unity game development, C# scripting, performance optimization
 - **minecraft-bukkit-pro**: Minecraft plugin development, event systems, server-side features
 - **ios-developer**: Native iOS development with Swift/SwiftUI
@@ -436,44 +441,44 @@ payment-integration → security-auditor → Validated implementation
 
 ### 📈 Optimization
 10. **Monitor agent effectiveness** - Learn which agents work best for your use cases
-11. **Iterate on complex tasks** - Use agent feedback to refine requirements
-12. **Leverage agent strengths** - Match task complexity to agent capabilities
+11. **Iterate on complex tasks** - Use agent feedback to refine requirements  
+12. **Leverage agent strengths** - Match task complexity to agent capabilities  
 
-## Contributing
+## Contributing  
 
-To add a new subagent:
-1. Create a new `.md` file following the format above
-2. Use lowercase, hyphen-separated names
-3. Write clear descriptions for when the subagent should be used
-4. Include specific instructions in the system prompt
+To add a new subagent:  
+1. Create a new `.md` file following the format above  
+2. Use lowercase, hyphen-separated names  
+3. Write clear descriptions for when the subagent should be used  
+4. Include specific instructions in the system prompt  
 
-## Troubleshooting
+## Troubleshooting  
 
-### Common Issues
+### Common Issues  
 
-**Agent not being invoked automatically:**
-- Ensure your request clearly indicates the domain (e.g., "performance issue" → performance-engineer)
-- Be specific about the task type (e.g., "review code" → code-reviewer)
+**Agent not being invoked automatically:**  
+- Ensure your request clearly indicates the domain (e.g., "performance issue" → performance-engineer)  
+- Be specific about the task type (e.g., "review code" → code-reviewer)  
 
-**Unexpected agent selection:**
-- Provide more context about your tech stack and requirements
-- Use explicit invocation if you need a specific agent
+**Unexpected agent selection:**  
+- Provide more context about your tech stack and requirements  
+- Use explicit invocation if you need a specific agent  
 
-**Multiple agents producing conflicting advice:**
-- This is normal - different specialists may have different priorities
-- Ask for clarification: "Reconcile the recommendations from security-auditor and performance-engineer"
+**Multiple agents producing conflicting advice:**  
+- This is normal - different specialists may have different priorities  
+- Ask for clarification: "Reconcile the recommendations from security-auditor and performance-engineer"  
 
-**Agent seems to lack context:**
-- Provide background information in your request
-- Reference previous conversations or established patterns
+**Agent seems to lack context:**  
+- Provide background information in your request  
+- Reference previous conversations or established patterns  
 
-### Getting Help
+### Getting Help  
 
-If agents aren't working as expected:
-1. Check agent descriptions in their individual files
-2. Try more specific language in your requests
-3. Use explicit invocation to test specific agents
-4. Provide more context about your project and goals
+If agents aren't working as expected:  
+1. Check agent descriptions in their individual files  
+2. Try more specific language in your requests  
+3. Use explicit invocation to test specific agents  
+4. Provide more context about your project and goals  
 
 ## License
 
@@ -488,6 +493,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-09
 
 ---

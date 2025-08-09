@@ -1,0 +1,2462 @@
+[
+  {
+    "row": 1,
+    "rowsha": "kOkmHPdPtQIcKNZ+YP1TTkXR42i9cP+NI7rOUzON/NY=",
+    "originContent": "<image src=\"https://raw.githubusercontent.com/UglyToad/Pdf/master/documentation/pdfpig.png\" width=\"128px\" height=\"128px\"/>",
+    "translatedContent": "<image src=\"https://raw.githubusercontent.com/UglyToad/Pdf/master/documentation/pdfpig.png\" width=\"128px\" height=\"128px\"/>"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "RKTAqfLGGRlcoNic3HSgaByXcBi9NMWOWp6QqqU65fk=",
+    "originContent": "# PdfPig",
+    "translatedContent": "# PdfPig"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "U8Hw08CdtDZWuFyS7mO0FaZubPBEbZmKsikJfzZityQ=",
+    "originContent": "[![nuget](https://img.shields.io/nuget/dt/PdfPig)](https://www.nuget.org/packages/PdfPig/)",
+    "translatedContent": "[![nuget](https://img.shields.io/nuget/dt/PdfPig)](https://www.nuget.org/packages/PdfPig/)"
+  },
+  {
+    "row": 6,
+    "rowsha": "UvBr4YPlwhYwMC2SDANdkAT0IF8uaL2D/4o1xrjogac=",
+    "originContent": "[![Build and test](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test.yml)",
+    "translatedContent": "[![Build and test](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test.yml)"
+  },
+  {
+    "row": 7,
+    "rowsha": "BsL0J5eyB1SK0TukXpj/JSdsaGmnH654ego1kzLZqFs=",
+    "originContent": "[![Build and test [MacOS]](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test_macos.yml/badge.svg)](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test_macos.yml)",
+    "translatedContent": "[![Build and test [MacOS]](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test_macos.yml/badge.svg)](https://github.com/UglyToad/PdfPig/actions/workflows/build_and_test_macos.yml)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "iOm9TPZGC8zsAiFUbT2cWrL0U+PCDuPfIkyAUslXFiM=",
+    "originContent": "PdfPig supports reading text and content from PDF files. It also supports basic PDF file creation.",
+    "translatedContent": "PdfPig은 PDF 파일에서 텍스트와 콘텐츠를 읽는 것을 지원합니다. 또한 기본적인 PDF 파일 생성도 지원합니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "fCs7ijBr7cMAi4mqPFnOujdVz7M0bE4grKriXFHZtjk=",
+    "originContent": "The package is available via the releases tab or from Nuget:",
+    "translatedContent": "패키지는 릴리즈 탭이나 Nuget에서 사용 가능합니다:"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "WFtr61X4fAP3VTapn7g4zxiIp1WQ5zY2L3Lh6pi1KDE=",
+    "originContent": "https://www.nuget.org/packages/PdfPig/",
+    "translatedContent": "https://www.nuget.org/packages/PdfPig/"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "qjo4HSMkOfR+s77XeGaiiSFCcVvlnYI93O3G9BmXKXI=",
+    "originContent": "Or from the package manager console:",
+    "translatedContent": "또는 패키지 관리자 콘솔에서:"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "3K8G2X/vHNaNxQjUfXHyUN8l5Hf/u5YynPQW06lead8=",
+    "originContent": "    > Install-Package PdfPig",
+    "translatedContent": "    > Install-Package PdfPig"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "Z/GYC9+mV5z6AenqaeoeUoKlUMYrJhv4n02osiDzVyo=",
+    "originContent": "While the version is below 1.0.0 minor versions will change the public API without warning (SemVer will not be followed until 1.0.0 is reached).",
+    "translatedContent": "버전이 1.0.0 미만인 동안에는 경고 없이 공용 API가 변경될 수 있습니다 (1.0.0에 도달할 때까지 SemVer가 준수되지 않습니다)."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "fdzSvcVmecTeZF5A18WcXJ925k4OTH/HculV8+p+hkk=",
+    "originContent": "## Get Started",
+    "translatedContent": "## 시작하기"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "PbSmGvToVyArLuGAQ9UlmtnWWqYVsbsLKUBT5C9jmCg=",
+    "originContent": "See the [wiki](https://github.com/UglyToad/PdfPig/wiki) for more examples ",
+    "translatedContent": "더 많은 예제는 [위키](https://github.com/UglyToad/PdfPig/wiki)를 참조하세요"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "+SmDAwLJM7A/eDYDmLcsyWsVja8Pn1nxd+D+07wGX/o=",
+    "originContent": "### Reading text from a PDF",
+    "translatedContent": "### PDF에서 텍스트 읽기"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "U1vaBBQunnfTCvawKhInxwshN5b+ZTXfSzA6HlgtCks=",
+    "originContent": "The simplest usage at this stage is to open a document, reading the words from every page:",
+    "translatedContent": "현재 가장 간단한 사용법은 문서를 열고 모든 페이지에서 단어를 읽는 것입니다:"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+    "originContent": "```cs",
+    "translatedContent": "```cs"
+  },
+  {
+    "row": 32,
+    "rowsha": "6cclvqTbKFHYkZE40xu6LrEZJMwGCPLVPc9E1VKzGBU=",
+    "originContent": "// using UglyToad.PdfPig.DocumentLayoutAnalysis.TextExtractor;",
+    "translatedContent": "// using UglyToad.PdfPig.DocumentLayoutAnalysis.TextExtractor;"
+  },
+  {
+    "row": 33,
+    "rowsha": "7uQcXlvpvIEtAPpxAZ438qYHzOs7+td5t1AAxDpXMho=",
+    "originContent": "// using UglyToad.PdfPig.DocumentLayoutAnalysis.WordExtractor;",
+    "translatedContent": "// using UglyToad.PdfPig.DocumentLayoutAnalysis.WordExtractor;"
+  },
+  {
+    "row": 34,
+    "rowsha": "nxH5GL1UO44kYlJDJYp72ifVNaFk5ejKCYm35yoZmw8=",
+    "originContent": "using (PdfDocument document = PdfDocument.Open(@\"C:\\Documents\\document.pdf\"))",
+    "translatedContent": "using (PdfDocument document = PdfDocument.Open(@\"C:\\Documents\\document.pdf\"))"
+  },
+  {
+    "row": 35,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 36,
+    "rowsha": "Wswi2qyVyvZehI0qk9DxnNAXqUTFauQUJxLwccVikiY=",
+    "originContent": "    foreach (Page page in document.GetPages())",
+    "translatedContent": "    foreach (Page page in document.GetPages())"
+  },
+  {
+    "row": 37,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 38,
+    "rowsha": "EHr8yeOB0+H6hxhzm5k9Qui2ZwdQ/u0U4gM86hlmQVM=",
+    "originContent": "        string text = ContentOrderTextExtractor.GetText(page);",
+    "translatedContent": "        string text = ContentOrderTextExtractor.GetText(page);"
+  },
+  {
+    "row": 39,
+    "rowsha": "dcqLT/4pj99UfqAskFPhy9ApdWJ+3de5JUmPaUSJl1s=",
+    "originContent": "        IEnumerable<Word> words = page.GetWords(NearestNeighbourWordExtractor.Instance);",
+    "translatedContent": "        IEnumerable<Word> words = page.GetWords(NearestNeighbourWordExtractor.Instance);"
+  },
+  {
+    "row": 40,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 41,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`page.Text`를 직접 사용해서는 **안 됩니다**, 만약 사용한다면 무엇을 하는지 정확히 알고 있어야 합니다. `Text` 속성은 내부 콘텐츠 순서를 보존하는데, 이는 거의 원하는 순서의 텍스트가 아닙니다."
+  },
+  {
+    "row": 44,
+    "rowsha": "0hshZGbGy8kuGjm2nTcx/W7ColQJTe6AyHaFqEy9lDc=",
+    "originContent": "You **should not** use `page.Text` directly, unless you know what you're doing. The `Text` property preserves the internal content order which is rarely ever the text in the order you want.",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 레이아웃 분석 도구들은 대부분의 경우 원하는 텍스트를 얻는 데 도움이 될 것입니다."
+  },
+  {
+    "row": 46,
+    "rowsha": "VJ2MzdPYlVwesK/lcKP6JxGYoNcEJ5cTQgEX4nBvjK0=",
+    "originContent": "These layout analysis tools should get you the text you want in most cases.",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### PDF 문서 생성"
+  },
+  {
+    "row": 48,
+    "rowsha": "fTGtrdFwT5zncYrmtIN0BaHVjZ7RWrtK+EVLsv0WsPs=",
+    "originContent": "### Create PDF Document",
+    "translatedContent": "문서를 생성하려면 `PdfDocumentBuilder` 클래스를 사용하세요. Standard 14 폰트는 빠르게 시작할 수 있는 방법을 제공합니다:"
+  },
+  {
+    "row": 49,
+    "rowsha": "BCDl88XeEr8eMfvMAiUX9D87v0rrl9GjImNuCjbo1dg=",
+    "originContent": "To create documents use the class `PdfDocumentBuilder`. The Standard 14 fonts provide a quick way to get started:",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+    "originContent": "```cs",
+    "translatedContent": "```cs"
+  },
+  {
+    "row": 52,
+    "rowsha": "iy0kDO5/zIvIyF7G3onKzck6bjv2RqBnX+NfKtLhxY0=",
+    "originContent": "PdfDocumentBuilder builder = new PdfDocumentBuilder();",
+    "translatedContent": "PdfDocumentBuilder builder = new PdfDocumentBuilder();"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "ovYZgZMBplbuA6Qiy6BSTeHc1t6TcGsgJPqBZRIhvos=",
+    "originContent": "PdfPageBuilder page = builder.AddPage(PageSize.A4);",
+    "translatedContent": "PdfPageBuilder page = builder.AddPage(PageSize.A4);"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "b9v5ZGyxkCwNDARaNMPlac+JKPSf733nOqhWykgjYms=",
+    "originContent": "// Fonts must be registered with the document builder prior to use to prevent duplication.",
+    "translatedContent": "// Fonts must be registered with the document builder prior to use to prevent duplication."
+  },
+  {
+    "row": 57,
+    "rowsha": "6cf6KV8Tbmla2ZoIbcuS6/7r3+5/15IsOf7MYFsVICQ=",
+    "originContent": "PdfDocumentBuilder.AddedFont font = builder.AddStandard14Font(Standard14Font.Helvetica);",
+    "translatedContent": "PdfDocumentBuilder.AddedFont font = builder.AddStandard14Font(Standard14Font.Helvetica);"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "2leQ+ELc/wOVVL4NRlauWVRavybJadpWPsrcaZpl170=",
+    "originContent": "page.AddText(\"Hello World!\", 12, new PdfPoint(25, 700), font);",
+    "translatedContent": "page.AddText(\"Hello World!\", 12, new PdfPoint(25, 700), font);"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "+r84aA0I/zDo+yMIHLTF0r1xtNikPVByETBJsMDimUI=",
+    "originContent": "byte[] documentBytes = builder.Build();",
+    "translatedContent": "byte[] documentBytes = builder.Build();"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "u7SsS5U8TmrUD+ZTdkoBbIZJ78XbYOeclAdF5FsTVLw=",
+    "originContent": "File.WriteAllBytes(@\"C:\\git\\newPdf.pdf\", documentBytes);",
+    "translatedContent": "File.WriteAllBytes(@\"C:\\git\\newPdf.pdf\", documentBytes);"
+  },
+  {
+    "row": 64,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "출력은 페이지 상단 근처에 헬베티카 글꼴로 \"Hello World!\" 텍스트가 있는 1페이지 PDF 문서입니다:"
+  },
+  {
+    "row": 66,
+    "rowsha": "FynWUz1wClLpes+LNWcOboy7HT7uQng/A0ZVhyZD5I0=",
+    "originContent": "The output is a 1 page PDF document with the text \"Hello World!\" in Helvetica near the top of the page:",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![이미지는 Google Chrome의 PDF 뷰어에서 PDF 문서를 보여줍니다. \"Hello World!\" 텍스트가 보입니다](https://raw.githubusercontent.com/UglyToad/Pdf/master/documentation/builder-output.png)"
+  },
+  {
+    "row": 68,
+    "rowsha": "B4CFPRbj6cRcTnh5CZ8bVoOKbz0FzryGYgO3tSVcFZU=",
+    "originContent": "![Image shows a PDF document in Google Chrome's PDF viewer. The text \"Hello World!\" is visible](https://raw.githubusercontent.com/UglyToad/Pdf/master/documentation/builder-output.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "각 글꼴은 `PdfDocumentBuilder`에 사전에 등록되어야 페이지들이 글꼴 리소스를 공유할 수 있습니다. 표준 14 글꼴과 TrueType 글꼴(.ttf)만 지원됩니다."
+  },
+  {
+    "row": 70,
+    "rowsha": "A5buaEMdD6htrghlRNNyjsBMg82yN0LQ22gKwA95b5M=",
+    "originContent": "Each font must be registered with the `PdfDocumentBuilder` prior to use enable pages to share the font resources. Only Standard 14 fonts and TrueType fonts (.ttf) are supported.",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "문서 생성은 기존 PDF 문서에 매우 제한적인 변경만 지원합니다. 그러나 다음과 같은 작업은 지원하지 않습니다:"
+  },
+  {
+    "row": 72,
+    "rowsha": "qB/HEBTfEhJ79Rn0Dw4dsYnTvl6KA5WYuK1gdjkTv7Q=",
+    "originContent": "Document creation supports very limited changes to existing PDF documents. However it does not support any of the following:",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 폼 편집"
+  },
+  {
+    "row": 74,
+    "rowsha": "grTP274fK+OEJRKdJsgF8jX+0G3qnG2cCBvVbNtbLug=",
+    "originContent": "- Editing forms",
+    "translatedContent": "- 주석, 메타데이터 또는 문서 구조 데이터 복사 또는 변경"
+  },
+  {
+    "row": 75,
+    "rowsha": "7g7itkAqYy178Vipqc7/aEntVWq1Xi+NWWS2vkUWlhs=",
+    "originContent": "- Copying or changing annotations, metadata or document structure data",
+    "translatedContent": "- 기존 글꼴로 텍스트 추가 또는 제거"
+  },
+  {
+    "row": 76,
+    "rowsha": "67fhKSW8cyxUyEy9mS2jGPwFPpZplz/GE5G6bq5YrZc=",
+    "originContent": "- Adding or removing text with existing fonts",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 고급 문서 추출"
+  },
+  {
+    "row": 78,
+    "rowsha": "mgNmewPU3PhXFxYQUwfIDcJNgnG781077XuyG6waU/U=",
+    "originContent": "### Advanced Document Extraction",
+    "translatedContent": "이 예제에서는 보다 고급 문서 추출이 수행됩니다. `PdfDocumentBuilder`를 사용하여 디버그 정보(경계 상자 및 읽기 순서)가 추가된 pdf 복사본을 만듭니다."
+  },
+  {
+    "row": 79,
+    "rowsha": "T4MAMzhi8rCpzGtCUXaEV0Y6ljWzLj+9XlP/nb/6yhM=",
+    "originContent": "In this example a more advanced document extraction is performed. `PdfDocumentBuilder` is used to create a copy of the pdf with debug information (bounding boxes and reading order) added.",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+    "originContent": "```cs",
+    "translatedContent": "```cs"
+  },
+  {
+    "row": 83,
+    "rowsha": "rgBB5YSJOMKMA3UQtaibYKQNsOrueiVrTJR88+dsCfM=",
+    "originContent": "//using UglyToad.PdfPig;",
+    "translatedContent": "//using UglyToad.PdfPig;"
+  },
+  {
+    "row": 84,
+    "rowsha": "HcBr7mPfFS95vh3CmtYqIsMUwUgqYEZQJJfea4Q8+kQ=",
+    "originContent": "//using UglyToad.PdfPig.DocumentLayoutAnalysis.PageSegmenter;",
+    "translatedContent": "//using UglyToad.PdfPig.DocumentLayoutAnalysis.PageSegmenter;"
+  },
+  {
+    "row": 85,
+    "rowsha": "f8cJJgNXE9pawY1ohqPb/LDn59oGjmSZd6ul+EzaLf4=",
+    "originContent": "//using UglyToad.PdfPig.DocumentLayoutAnalysis.ReadingOrderDetector;",
+    "translatedContent": "//using UglyToad.PdfPig.DocumentLayoutAnalysis.ReadingOrderDetector;"
+  },
+  {
+    "row": 86,
+    "rowsha": "upXr4o3JaEkTHudteFHS1aECrt03kbrSl6D4Dw2vwCI=",
+    "originContent": "//using UglyToad.PdfPig.DocumentLayoutAnalysis.WordExtractor;",
+    "translatedContent": "//using UglyToad.PdfPig.DocumentLayoutAnalysis.WordExtractor;"
+  },
+  {
+    "row": 87,
+    "rowsha": "DPxiV71kwqwrehTKftKy1tFRehtulAR/skM3xDAmx6U=",
+    "originContent": "//using UglyToad.PdfPig.Fonts.Standard14Fonts;",
+    "translatedContent": "//using UglyToad.PdfPig.Fonts.Standard14Fonts;"
+  },
+  {
+    "row": 88,
+    "rowsha": "jXarWtqktw+OZFSDK9JMTxqMci3vc1X5w0SlS3UsB2E=",
+    "originContent": "//using UglyToad.PdfPig.Writer;",
+    "translatedContent": "//using UglyToad.PdfPig.Writer;"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "n8twXN6q2ZicnJ16c+X1GyEockAh/6r0QMpbaiGPiXI=",
+    "originContent": "var sourcePdfPath = \"\";",
+    "translatedContent": "var sourcePdfPath = \"\";"
+  },
+  {
+    "row": 92,
+    "rowsha": "nO+hfcumC6dfgYP7wr0ccOC27k+yfYUgYLzmKS1id8c=",
+    "originContent": "var outputPath = \"\";",
+    "translatedContent": "var outputPath = \"\";"
+  },
+  {
+    "row": 93,
+    "rowsha": "OH0qBxue79/ManXD/fLkliXShf6vh0PRkC7fRr6TQ3A=",
+    "originContent": "var pageNumber = 1;",
+    "translatedContent": "var pageNumber = 1;"
+  },
+  {
+    "row": 94,
+    "rowsha": "5egH2mhgcyfcPa3zoM/aJb3EdTLSHeg+ZS8vCqgL5Nk=",
+    "originContent": "using (var document = PdfDocument.Open(sourcePdfPath))",
+    "translatedContent": "using (var document = PdfDocument.Open(sourcePdfPath))"
+  },
+  {
+    "row": 95,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 96,
+    "rowsha": "JqmbOmcH7rNd4VO6xW0fWPZxM+Lv91foT0g8oddlJ9c=",
+    "originContent": "    var builder = new PdfDocumentBuilder { };",
+    "translatedContent": "    var builder = new PdfDocumentBuilder { };"
+  },
+  {
+    "row": 97,
+    "rowsha": "hVWlhakRB+y6lbdYeinnRCY+A7WpnO+BFEiaQiegJRQ=",
+    "originContent": "    PdfDocumentBuilder.AddedFont font = builder.AddStandard14Font(Standard14Font.Helvetica);",
+    "translatedContent": "    PdfDocumentBuilder.AddedFont font = builder.AddStandard14Font(Standard14Font.Helvetica);"
+  },
+  {
+    "row": 98,
+    "rowsha": "cdvSU2BaAUDi2DiHCK8892PJE2fi1zAu/J7B5zY2UjE=",
+    "originContent": "    var pageBuilder = builder.AddPage(document, pageNumber);",
+    "translatedContent": "    var pageBuilder = builder.AddPage(document, pageNumber);"
+  },
+  {
+    "row": 99,
+    "rowsha": "ZYLHXelWDl0Un2NomNkXgxAXQ1LZLYgJtTQpTXN+0KE=",
+    "originContent": "    pageBuilder.SetStrokeColor(0, 255, 0);",
+    "translatedContent": "    pageBuilder.SetStrokeColor(0, 255, 0);"
+  },
+  {
+    "row": 100,
+    "rowsha": "1oBcJ2rPqlP2RvWRu9EDjRnxQ7vm212h1f5GOE7Ou4s=",
+    "originContent": "    var page = document.GetPage(pageNumber);",
+    "translatedContent": "    var page = document.GetPage(pageNumber);"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "ltyoEjzEpRPJa7ZKge3jLXsrCUOdVgL8T7MPyStVy4w=",
+    "originContent": "    var letters = page.Letters; // no preprocessing",
+    "translatedContent": "    var letters = page.Letters; // no preprocessing"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "LKYCZzFao8yOunYQJD4FOaFpKOaDaMVaA2xzS3DkNrM=",
+    "originContent": "    // 1. Extract words",
+    "translatedContent": "    // 1. Extract words"
+  },
+  {
+    "row": 105,
+    "rowsha": "aYqDOFboj1bBGpWSa8DNSl3UQL1K6cFOWvWB4PaP7HE=",
+    "originContent": "    var wordExtractor = NearestNeighbourWordExtractor.Instance;",
+    "translatedContent": "    var wordExtractor = NearestNeighbourWordExtractor.Instance;"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "mghSjmaotkfwIzA2ocC0T55VLNv5+c7HGjMMGNOsRD0=",
+    "originContent": "    var words = wordExtractor.GetWords(letters);",
+    "translatedContent": "    var words = wordExtractor.GetWords(letters);"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "MrpqONGIdmFqf5YzInTkWlZuSIlw04U0Joo+qvpvfSU=",
+    "originContent": "    // 2. Segment page",
+    "translatedContent": "    // 2. Segment page"
+  },
+  {
+    "row": 110,
+    "rowsha": "X4GPhX9qzhz5S06Zq1KVQH8Kr2wk9tsiDD1AqrLSTA4=",
+    "originContent": "    var pageSegmenter = DocstrumBoundingBoxes.Instance;",
+    "translatedContent": "    var pageSegmenter = DocstrumBoundingBoxes.Instance;"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "r7AiU5eCh9OYpFopLiZEhzVZKeixlcDN2hGX5XyBB7s=",
+    "originContent": "    var textBlocks = pageSegmenter.GetBlocks(words);",
+    "translatedContent": "    var textBlocks = pageSegmenter.GetBlocks(words);"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "+TdlQkXeMMWT7fTOU9jCKAUE8NR9AjkKYDGPjFOFFJA=",
+    "originContent": "    // 3. Postprocessing",
+    "translatedContent": "    // 3. Postprocessing"
+  },
+  {
+    "row": 115,
+    "rowsha": "Ir6zNjFtvxl4ooCBJ0pzFPkI/ePHuvLB+r9VgfXiXtU=",
+    "originContent": "    var readingOrder = UnsupervisedReadingOrderDetector.Instance;",
+    "translatedContent": "    var readingOrder = UnsupervisedReadingOrderDetector.Instance;"
+  },
+  {
+    "row": 116,
+    "rowsha": "Gm+EyS3wZmbYzwthch3AhGTi7qYhr4/i0l6wVkXIKys=",
+    "originContent": "    var orderedTextBlocks = readingOrder.Get(textBlocks);",
+    "translatedContent": "    var orderedTextBlocks = readingOrder.Get(textBlocks);"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "y390luMjbBfcPC+kjmjarHyl8pac68ZTYQpSFNgrJ4M=",
+    "originContent": "    // 4. Add debug info - Bounding boxes and reading order",
+    "translatedContent": "    // 4. Add debug info - Bounding boxes and reading order"
+  },
+  {
+    "row": 119,
+    "rowsha": "orN7FeYJur/Es8uxAAvy8zklJsM7p+ozCHgfwZZ2MFo=",
+    "originContent": "    foreach (var block in orderedTextBlocks)",
+    "translatedContent": "    foreach (var block in orderedTextBlocks)"
+  },
+  {
+    "row": 120,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 121,
+    "rowsha": "9XBeRe8ZH5J8AOz5EBMAFGR9/Sl4sad6nj1G7iQ8JC4=",
+    "originContent": "        var bbox = block.BoundingBox;",
+    "translatedContent": "        var bbox = block.BoundingBox;"
+  },
+  {
+    "row": 122,
+    "rowsha": "139LQSOgLcr0S1ypnfFVHT0Mhp448U1+EA752Erl/JU=",
+    "originContent": "        pageBuilder.DrawRectangle(bbox.BottomLeft, bbox.Width, bbox.Height);",
+    "translatedContent": "        pageBuilder.DrawRectangle(bbox.BottomLeft, bbox.Width, bbox.Height);"
+  },
+  {
+    "row": 123,
+    "rowsha": "fQrXgFgat+V6S79NQX53mNVSjLdr6GhRVDtDppV2zK4=",
+    "originContent": "        pageBuilder.AddText(block.ReadingOrder.ToString(), 8, bbox.TopLeft, font);",
+    "translatedContent": "        pageBuilder.AddText(block.ReadingOrder.ToString(), 8, bbox.TopLeft, font);"
+  },
+  {
+    "row": 124,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "zS1042QseFLz9MENCUpQM/f+O8LUJnty4s5D/YMveQk=",
+    "originContent": "    // 5. Write result to a file",
+    "translatedContent": "    // 5. Write result to a file"
+  },
+  {
+    "row": 127,
+    "rowsha": "0g79tYZ+NQ21xbJ9kZeFR4Xs6K+Pg8J/PQ0YmGkVI88=",
+    "originContent": "    byte[] fileBytes = builder.Build();",
+    "translatedContent": "    byte[] fileBytes = builder.Build();"
+  },
+  {
+    "row": 128,
+    "rowsha": "x9dMYjOEZyNmOunuIHuK+RWpT1Q2GvkoZcjTg+BeKc4=",
+    "originContent": "    File.WriteAllBytes(outputPath, fileBytes); // save to file",
+    "translatedContent": "    File.WriteAllBytes(outputPath, fileBytes); // save to file"
+  },
+  {
+    "row": 129,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 130,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "p/TV4L90CfBDaH0IPbo4csMYVG3Ig8G3TKnAWyt67yw=",
+    "originContent": "![Image shows a PDF document created by the above code block with the bounding boxes and reading order of the words displayed](/documentation/boundingBoxes_ReadingOrder.png)",
+    "translatedContent": "![위 코드를 통해 생성된 PDF 문서의 단어 경계 상자와 읽기 순서가 표시된 이미지](/documentation/boundingBoxes_ReadingOrder.png)"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "yt6b/ihjbQ2sR+iB75FBW2+744r1SyCGFpndU36TYKo=",
+    "originContent": "See [Document Layout Analysis](https://github.com/UglyToad/PdfPig/wiki/Document-Layout-Analysis) for more information on advanced document analysing.",
+    "translatedContent": "고급 문서 분석에 관한 자세한 내용은 [문서 레이아웃 분석](https://github.com/UglyToad/PdfPig/wiki/Document-Layout-Analysis)을 참조하세요."
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "RORNKqWKJLk7mIi2rPGKT+bvnKSJlydhReP0au8NhL0=",
+    "originContent": "See [Export](https://github.com/UglyToad/PdfPig/wiki/Document-Layout-Analysis#export) for more advanced tooling to analyse document layouts.",
+    "translatedContent": "문서 레이아웃 분석을 위한 더 고급 도구는 [내보내기](https://github.com/UglyToad/PdfPig/wiki/Document-Layout-Analysis#export)를 참조하세요."
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "88AazpUXKYZbZm9hRFojh/beVSi8DQeatWyZcYFL/YI=",
+    "originContent": "### PdfDocument",
+    "translatedContent": "### PdfDocument"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "4CfEfPHOIAGTFoWiLj7e/5UiRMTTy21+plikSLkbAxQ=",
+    "originContent": "The `PdfDocument` class provides access to the contents of a document loaded either from file or passed in as bytes. To open from a file use the `PdfDocument.Open` static method:",
+    "translatedContent": "`PdfDocument` 클래스는 파일에서 로드되었거나 바이트로 전달된 문서의 내용에 접근할 수 있도록 합니다. 파일에서 열려면 `PdfDocument.Open` 정적 메서드를 사용하세요:"
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+    "originContent": "```cs",
+    "translatedContent": "```cs"
+  },
+  {
+    "row": 146,
+    "rowsha": "LyAbV3xi/2kmxKeNhUx4VCIFuGarOGRmFz/oKXPgABs=",
+    "originContent": "using UglyToad.PdfPig;",
+    "translatedContent": "using UglyToad.PdfPig;"
+  },
+  {
+    "row": 147,
+    "rowsha": "OJtqI0fVYfuimmnhQgzHZfFlKZLyrYTC0+fl6938qyg=",
+    "originContent": "using UglyToad.PdfPig.Content;",
+    "translatedContent": "using UglyToad.PdfPig.Content;"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "vLmnZTB7KwxcPwFwlnF8VLFBRYFmiFxmaegZ4APkhtQ=",
+    "originContent": "using (PdfDocument document = PdfDocument.Open(@\"C:\\my-file.pdf\"))",
+    "translatedContent": "using (PdfDocument document = PdfDocument.Open(@\"C:\\my-file.pdf\"))"
+  },
+  {
+    "row": 150,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 151,
+    "rowsha": "zqeJz3g2FP0ursUj78Ef4JRLpyPppP1fBA0s5aMFNeY=",
+    "originContent": "\tint pageCount = document.NumberOfPages;",
+    "translatedContent": "\tint pageCount = document.NumberOfPages;"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "QD4Lhx+/QDHfewqneTB6ionb/dSEXYpHxvYmCC7sQcc=",
+    "originContent": "\t// Page number starts from 1, not 0.",
+    "translatedContent": "\t// Page number starts from 1, not 0."
+  },
+  {
+    "row": 154,
+    "rowsha": "sAgWCI+0JNaqb0nmZ1uv5yK54iBBcEjhjRSNeVz84+4=",
+    "originContent": "\tPage page = document.GetPage(1);",
+    "translatedContent": "\tPage page = document.GetPage(1);"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "8Cbb6jSd8vXKm9W0mkrzsd4BRAh+nXDl6AAV6f1ahdA=",
+    "originContent": "\tdecimal widthInPoints = page.Width;",
+    "translatedContent": "\tdecimal widthInPoints = page.Width;"
+  },
+  {
+    "row": 157,
+    "rowsha": "DbEYstoHB3He4xDOEzpsgtJAbWsCubNCq60BCoysijk=",
+    "originContent": "\tdecimal heightInPoints = page.Height;",
+    "translatedContent": "\tdecimal heightInPoints = page.Height;"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "feJ3yn47uEz+O6RdJ8OfDBDIHjxaN/Ixh4ps6BUaRJM=",
+    "originContent": "\tstring text = page.Text;",
+    "translatedContent": "\tstring text = page.Text;"
+  },
+  {
+    "row": 160,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 161,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`PdfDocument`는 `IDisposable`을 구현하므로 `using` 문 내에서만 사용해야 합니다(소비자가 다른 곳에서 해제하지 않는 한)."
+  },
+  {
+    "row": 163,
+    "rowsha": "AkPnsLo9O5TvqLGiuFZwrYHfQHjvyEBkpaejaR8uARo=",
+    "originContent": "`PdfDocument` should only be used in a `using` statement since it implements `IDisposable` (unless the consumer disposes of it elsewhere).",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "암호화된 문서는 PdfPig로 열 수 있습니다. 소유자 또는 사용자 암호를 제공하려면 `Open`을 호출할 때 `Password` 속성이 정의된 선택적 `ParsingOptions`를 제공합니다. 예를 들어:"
+  },
+  {
+    "row": 165,
+    "rowsha": "Y39d1gzNyBDSviqyo1n1P4yfP6bZL0vyTSVc07Gf4to=",
+    "originContent": "Encrypted documents can be opened by PdfPig. To provide an owner or user password provide the optional `ParsingOptions` when calling `Open` with the `Password` property defined. For example:",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    using (PdfDocument document = PdfDocument.Open(@\"C:\\my-file.pdf\",  new ParsingOptions { Password = \"password here\" }))"
+  },
+  {
+    "row": 167,
+    "rowsha": "sSXvojk9OkpEr4e69j1U1nfMV+7IawccRP7aHf94cVU=",
+    "originContent": "    using (PdfDocument document = PdfDocument.Open(@\"C:\\my-file.pdf\",  new ParsingOptions { Password = \"password here\" }))",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "시도할 암호 목록을 제공할 수도 있습니다:"
+  },
+  {
+    "row": 169,
+    "rowsha": "jhLBbuBapksu55DhGZQ9YbI23rBgsKYvgiRiT4MUz30=",
+    "originContent": "You can also provide a list of passwords to try:",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+    "originContent": "```cs",
+    "translatedContent": "```cs"
+  },
+  {
+    "row": 172,
+    "rowsha": "swEvTAvmwkB9Jk1TuJpq4+SNks5GS/52RrxnKDTDE3o=",
+    "originContent": "using (PdfDocument document = PdfDocument.Open(@\"C:\\file.pdf\", new ParsingOptions",
+    "translatedContent": "using (PdfDocument document = PdfDocument.Open(@\"C:\\file.pdf\", new ParsingOptions"
+  },
+  {
+    "row": 173,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 174,
+    "rowsha": "7le6Ii8qz/sY07IvTADWQDz+vEumplvIHkFBPs+/FbY=",
+    "originContent": "\tPasswords = new List<string> { \"One\", \"Two\" }",
+    "translatedContent": "\tPasswords = new List<string> { \"One\", \"Two\" }"
+  },
+  {
+    "row": 175,
+    "rowsha": "JGFEUGe2NgwZbFc0eow3hia/hdLzjauk6daLr6ziHtQ=",
+    "originContent": "}))",
+    "translatedContent": "}))"
+  },
+  {
+    "row": 176,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "문서에는 `document.Version`을 통해 접근할 수 있는 준수하는 PDF 사양 버전이 포함되어 있습니다:"
+  },
+  {
+    "row": 178,
+    "rowsha": "5WUzbaGDmY+54b99rsRqWnmzA+dryhTfr2DlgIfBo5c=",
+    "originContent": "The document contains the version of the PDF specification it complies with, accessed by `document.Version`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    decimal version = document.Version;"
+  },
+  {
+    "row": 180,
+    "rowsha": "lzDteEAO+TfR+v0CfmBDg98hMLhQPW1ubw5ATBRNS9c=",
+    "originContent": "    decimal version = document.Version;",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 문서 생성"
+  },
+  {
+    "row": 182,
+    "rowsha": "Qidxr/Uclq+wybN5XRUW7GGjlZFCaDyg81/umHR4Se0=",
+    "originContent": "### Document Creation",
+    "translatedContent": ""
+  },
+  {
+    "row": 183,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`PdfDocumentBuilder`는 페이지나 내용이 없는 새 문서를 생성합니다."
+  },
+  {
+    "row": 184,
+    "rowsha": "lweePpSgCZaYV730IQwLtgcuR/C1bz8TM3nibrffXxE=",
+    "originContent": "The `PdfDocumentBuilder` creates a new document with no pages or content.",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "텍스트 내용을 위해서는 빌더에 글꼴이 등록되어야 합니다. 이 라이브러리는 기본적으로 Adobe에서 제공하는 Standard 14 글꼴과 TrueType 형식 글꼴을 지원합니다."
+  },
+  {
+    "row": 186,
+    "rowsha": "z9dl3lJj44eXWxHAWwjCSOty2JzbizyXg6AgyP22xCc=",
+    "originContent": "For text content, a font must be registered with the builder. This library supports Standard 14 fonts provided by Adobe by default and TrueType format fonts.",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Standard 14 글꼴을 추가하려면 다음을 사용하세요:"
+  },
+  {
+    "row": 188,
+    "rowsha": "Lm/zh7YRsnVxk/JK/JTGYLXxjUHZzKeOqvpJQi42+us=",
+    "originContent": "To add a Standard 14 font use:",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    public AddedFont AddStandard14Font(Standard14Font type)"
+  },
+  {
+    "row": 190,
+    "rowsha": "j708XgfjBKMSEBmo56NmGufEf758kYpASe3iX6Si4tE=",
+    "originContent": "    public AddedFont AddStandard14Font(Standard14Font type)",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "또는 TrueType 글꼴의 경우:"
+  },
+  {
+    "row": 192,
+    "rowsha": "ItRvzWUId2xwARMY3OeZ9bWWcTgf9RJcXPjR54XsEi8=",
+    "originContent": "Or for a TrueType font use:",
+    "translatedContent": ""
+  },
+  {
+    "row": 193,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    AddedFont AddTrueTypeFont(IReadOnlyList<byte> fontFileBytes)"
+  },
+  {
+    "row": 194,
+    "rowsha": "iyfNMFSR0XJ1LFWVMfImPa8ba8Nmp2eRnN2DdTsQkm8=",
+    "originContent": "    AddedFont AddTrueTypeFont(IReadOnlyList<byte> fontFileBytes)",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "TrueType 파일(.ttf)의 바이트를 전달합니다. TrueType 파일이 PDF 문서에 포함하기 적합한지 확인하려면 다음을 사용할 수 있습니다:"
+  },
+  {
+    "row": 196,
+    "rowsha": "UESUeMks/IhfvQQDl/EQFwW8wrPpM/fZeXzWv00Kubc=",
+    "originContent": "Passing in the bytes of a TrueType file (.ttf). You can check the suitability of a TrueType file for embedding in a PDF document using:",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    bool CanUseTrueTypeFont(IReadOnlyList<byte> fontFileBytes, out IReadOnlyList<string> reasons)"
+  },
+  {
+    "row": 198,
+    "rowsha": "BYaBj4feiVCE99bF0EuphCgmGF1KBNBq4JK21r4U4qU=",
+    "originContent": "    bool CanUseTrueTypeFont(IReadOnlyList<byte> fontFileBytes, out IReadOnlyList<string> reasons)",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 함수는 체크 실패 시 글꼴을 사용할 수 없는 이유 목록을 제공합니다. TrueType 글꼴을 사용하기 전에 라이선스를 확인해야 합니다. 왜냐하면 압축된 글꼴 파일이 결과 문서에 포함되어 배포되기 때문입니다."
+  },
+  {
+    "row": 200,
+    "rowsha": "kMa2Lkbk+GTY584w7ij4zs4FZCLY6NGqJeh3rKqgzig=",
+    "originContent": "Which provides a list of reasons why the font cannot be used if the check fails. You should check the license for a TrueType font prior to use, since the compressed font file is embedded in, and distributed with, the resultant document.",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`AddedFont` 클래스는 문서 빌더에 저장된 글꼴에 대한 키를 나타냅니다. 페이지에 텍스트 내용을 추가할 때 반드시 이 키를 제공해야 합니다. 문서에 페이지를 추가하려면 다음을 사용하세요:"
+  },
+  {
+    "row": 202,
+    "rowsha": "VbjMgUgtjoE2nv6ECB0mJ3FHtE4WPqM2D0WD02Mrfpc=",
+    "originContent": "The `AddedFont` class represents a key to the font stored on the document builder. This must be provided when adding text content to pages. To add a page to a document use:",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    PdfPageBuilder AddPage(PageSize size, bool isPortrait = true)"
+  },
+  {
+    "row": 204,
+    "rowsha": "XCMzWPaxLAaZGDeEM5pN+ETsgsdqzxs+FZFbGeMQAxw=",
+    "originContent": "    PdfPageBuilder AddPage(PageSize size, bool isPortrait = true)",
+    "translatedContent": ""
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "지정한 크기로 새 `PdfPageBuilder`를 생성합니다. 처음 추가된 페이지가 1번 페이지이고 그 다음이 2, 3 등입니다. 페이지 빌더는 텍스트 추가, 선과 사각형 그리기, 그리고 그리기 전에 텍스트 크기 측정을 지원합니다."
+  },
+  {
+    "row": 206,
+    "rowsha": "vO1Oc6Keb3RBTt11TNpfaj4QRlCWLEV4WfsCmi15hUE=",
+    "originContent": "This creates a new `PdfPageBuilder` with the specified size. The first added page is page number 1, then 2, then 3, etc. The page builder supports adding text, drawing lines and rectangles and measuring the size of text prior to drawing.",
+    "translatedContent": ""
+  },
+  {
+    "row": 207,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "선과 사각형을 그리려면 다음 메서드를 사용하세요:"
+  },
+  {
+    "row": 208,
+    "rowsha": "rv3JIxVp1jP8NIzPK+odv6GmW09pyDmYjBTDiDr1xA4=",
+    "originContent": "To draw lines and rectangles use the methods:",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 210,
+    "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+    "originContent": "```cs",
+    "translatedContent": "```cs"
+  },
+  {
+    "row": 211,
+    "rowsha": "MfX5ZOQehUEW/8cBzK/vjhWASny2d9icByPLUpT5MyU=",
+    "originContent": "void DrawLine(PdfPoint from, PdfPoint to, decimal lineWidth = 1)",
+    "translatedContent": "void DrawLine(PdfPoint from, PdfPoint to, decimal lineWidth = 1)"
+  },
+  {
+    "row": 212,
+    "rowsha": "wRqskSYrgyjSf4CdR+/z3sSFkcXGL31rsHHMRjIMyVg=",
+    "originContent": "void DrawRectangle(PdfPoint position, decimal width, decimal height, decimal lineWidth = 1)",
+    "translatedContent": "void DrawRectangle(PdfPoint position, decimal width, decimal height, decimal lineWidth = 1)"
+  },
+  {
+    "row": 213,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 214,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "선 너비는 변경할 수 있으며 기본값은 1입니다. 사각형은 채워지지 않으며 현재 채우기 색상을 변경할 수 없습니다."
+  },
+  {
+    "row": 215,
+    "rowsha": "++y80LRayRk/oWmcziAbqKke0QRKM7lSkF9KhOH/ZYM=",
+    "originContent": "The line width can be varied and defaults to 1. Rectangles are unfilled and the fill color cannot be changed at present.",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "페이지에 텍스트를 작성하려면 위에서 설명한 `PdfDocumentBuilder`의 메서드에서 `AddedFont`에 대한 참조가 있어야 합니다. 그런 다음 다음을 사용하여 텍스트를 페이지에 그릴 수 있습니다:"
+  },
+  {
+    "row": 217,
+    "rowsha": "vi0cj/kdN5VH9aMDjiMj2kFWWG3UyWpcwohpSfKLDFI=",
+    "originContent": "To write text to the page you must have a reference to an `AddedFont` from the methods on `PdfDocumentBuilder` as described above. You can then draw the text to the page using:",
+    "translatedContent": ""
+  },
+  {
+    "row": 218,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    IReadOnlyList<Letter> AddText(string text, decimal fontSize, PdfPoint position, PdfDocumentBuilder.AddedFont font)"
+  },
+  {
+    "row": 219,
+    "rowsha": "K2PQc9jLqCfXcqOsZn554f35xNkDvRptjU3Nhh+5b2Q=",
+    "originContent": "    IReadOnlyList<Letter> AddText(string text, decimal fontSize, PdfPoint position, PdfDocumentBuilder.AddedFont font)",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "여기서 `position`은 그릴 텍스트의 기준선입니다. 현재 **ASCII 텍스트만 지원**됩니다. 또한 다음 메서드를 사용하여 그리기 전에 텍스트의 결과 크기를 측정할 수 있습니다:"
+  },
+  {
+    "row": 221,
+    "rowsha": "4Mcs7S6dQ0P1l5tRlkPL3+1YFNTh3al7ot3VW3DnjrA=",
+    "originContent": "Where `position` is the baseline of the text to draw. Currently **only ASCII text is supported**. You can also measure the resulting size of text prior to drawing using the method:",
+    "translatedContent": ""
+  },
+  {
+    "row": 222,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    IReadOnlyList<Letter> MeasureText(string text, decimal fontSize, PdfPoint position, PdfDocumentBuilder.AddedFont font)"
+  },
+  {
+    "row": 223,
+    "rowsha": "dncbsi8/amMQD+1pRJurHLTWFHKSGhJZaFRC+Jq+s6w=",
+    "originContent": "    IReadOnlyList<Letter> MeasureText(string text, decimal fontSize, PdfPoint position, PdfDocumentBuilder.AddedFont font)",
+    "translatedContent": ""
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 메서드는 `AddText`와 달리 페이지의 상태를 변경하지 않습니다."
+  },
+  {
+    "row": 225,
+    "rowsha": "UGs1dGhZmTq17ZLrGcpOweCP7drga4fg5QRbeO3XMBI=",
+    "originContent": "Which does not change the state of the page, unlike `AddText`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 226,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "텍스트, 선 및 사각형의 RGB 색상 변경은 다음을 사용하여 지원됩니다:"
+  },
+  {
+    "row": 227,
+    "rowsha": "iH7jRuTP/IuI8+mimEdaqZusky1A5auqHuDeQuqo95E=",
+    "originContent": "Changing the RGB color of text, lines and rectangles is supported using:",
+    "translatedContent": ""
+  },
+  {
+    "row": 228,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 229,
+    "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+    "originContent": "```cs",
+    "translatedContent": "```cs"
+  },
+  {
+    "row": 230,
+    "rowsha": "3FTE731iQsL9yNGjZ3WRT39xERAdSD81tPFn+KoeE2s=",
+    "originContent": "void SetStrokeColor(byte r, byte g, byte b)",
+    "translatedContent": "void SetStrokeColor(byte r, byte g, byte b)"
+  },
+  {
+    "row": 231,
+    "rowsha": "cvnKrzliazhJM1bxAevmEHUbma/wPD/9zF2wNKXX6EM=",
+    "originContent": "void SetTextAndFillColor(byte r, byte g, byte b)",
+    "translatedContent": "void SetTextAndFillColor(byte r, byte g, byte b)"
+  },
+  {
+    "row": 232,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 233,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  "
+  },
+  {
+    "row": 234,
+    "rowsha": "LyRd/a5oJik86eDxDTB3mkTZfSViQTmQdCE+fYkQ3mE=",
+    "originContent": "Which take RGB values between 0 and 255. The color will remain active for all operations called after these methods until reset is called using:",
+    "translatedContent": "RGB 값이 0에서 255 사이인 값을 받습니다. 이 색상은 다음 메서드들이 호출될 때까지 모든 작업에 대해 활성 상태로 유지되며, 다음을 사용하여 리셋할 때까지 유지됩니다:"
+  },
+  {
+    "row": 235,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 236,
+    "rowsha": "F8KVJaLXFt/Kz/wCOo6w6rDPmuUWXm4xR/X9Id7amXA=",
+    "originContent": "    void ResetColor()",
+    "translatedContent": "    void ResetColor()"
+  },
+  {
+    "row": 237,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 238,
+    "rowsha": "EbOXKawxefrlSzMwxzxkVAH1b94bAnrKZ0EwDY7UIuA=",
+    "originContent": "Which resets the color for stroke, fill and text drawing to black.",
+    "translatedContent": "이는 스트로크, 채우기 및 텍스트 그리기 색상을 검정색으로 재설정합니다."
+  },
+  {
+    "row": 239,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 240,
+    "rowsha": "ml5k/tky/nl34745o1kGsYnWpX1ZwgyeiACCEVjZ0Qw=",
+    "originContent": "### Document Information",
+    "translatedContent": "### 문서 정보"
+  },
+  {
+    "row": 241,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 242,
+    "rowsha": "fYoEa3jVzr53kpEklY5OAb4r+JWIsT4fzPDudwoJI78=",
+    "originContent": "The `PdfDocument` provides access to the document metadata as `DocumentInformation` defined in the PDF file. These tend not to be provided therefore most of these entries will be `null`:",
+    "translatedContent": "`PdfDocument`는 PDF 파일에 정의된 문서 메타데이터에 대한 접근을 `DocumentInformation`으로 제공합니다. 이 정보들은 대부분 제공되지 않으므로 대부분의 항목이 `null`일 것입니다:"
+  },
+  {
+    "row": 243,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 244,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 245,
+    "rowsha": "Mmq6qQ0Sgbiaq1T1JzqTVBVOvd0djl/lfPrFfuERGwg=",
+    "originContent": "PdfDocument document = PdfDocument.Open(fileName);",
+    "translatedContent": "PdfDocument document = PdfDocument.Open(fileName);"
+  },
+  {
+    "row": 246,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 247,
+    "rowsha": "9y1vfwxB73dJWAlSl5RUPmeitaMt52Sr9zc0BdhIr5Y=",
+    "originContent": "// The name of the program used to convert this document to PDF.",
+    "translatedContent": "// The name of the program used to convert this document to PDF."
+  },
+  {
+    "row": 248,
+    "rowsha": "0Ch98SdhEEfk/GBEKY93BPnf2DJeYeP907gTSIGao8o=",
+    "originContent": "string producer = document.Information.Producer;",
+    "translatedContent": "string producer = document.Information.Producer;"
+  },
+  {
+    "row": 249,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 250,
+    "rowsha": "Ww4A5w0dQ1Om7Vd52f2dUC/FAEuQWWhf6n4T893zXTI=",
+    "originContent": "// The title given to the document",
+    "translatedContent": "// The title given to the document"
+  },
+  {
+    "row": 251,
+    "rowsha": "b9LHC57XCiDA4ijoma540vYPP5sfSZRl2wbyOkLyD+Y=",
+    "originContent": "string title = document.Information.Title;",
+    "translatedContent": "string title = document.Information.Title;"
+  },
+  {
+    "row": 252,
+    "rowsha": "lpSwEYs38RKQbqRGN2sPQfVKUpsjTPsT5c2avUB4/T8=",
+    "originContent": "// etc...",
+    "translatedContent": "// etc..."
+  },
+  {
+    "row": 253,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 254,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 문서 구조"
+  },
+  {
+    "row": 255,
+    "rowsha": "o5geGAYxjGndmtZ8KP3T+nFB+KxBybXW40DqkfK6pY4=",
+    "originContent": "### Document Structure",
+    "translatedContent": ""
+  },
+  {
+    "row": 256,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`PdfDocument`에는 Structure 멤버가 있습니다:"
+  },
+  {
+    "row": 257,
+    "rowsha": "cquZT3H2t5DYkMBOPpahE8l92gRMquuOfaMFyQibOYo=",
+    "originContent": "The `PdfDocument` has a Structure member:",
+    "translatedContent": ""
+  },
+  {
+    "row": 258,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    UglyToad.PdfPig.Structure structure = document.Structure;"
+  },
+  {
+    "row": 259,
+    "rowsha": "nI2VomtxqBIT9F9q7SIZNyACZkqDWBAIopfD3BBO7uw=",
+    "originContent": "    UglyToad.PdfPig.Structure structure = document.Structure;",
+    "translatedContent": ""
+  },
+  {
+    "row": 260,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이것은 토큰화된 PDF 문서 내용에 접근을 제공합니다:"
+  },
+  {
+    "row": 261,
+    "rowsha": "z+9NHXpMs28xNoFDbTcPikR39RR3h4NraGxQfenGIqY=",
+    "originContent": "This provides access to tokenized PDF document content:",
+    "translatedContent": ""
+  },
+  {
+    "row": 262,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 263,
+    "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+    "originContent": "```cs",
+    "translatedContent": "```cs"
+  },
+  {
+    "row": 264,
+    "rowsha": "k2ufgLKeVloAmXOefI+f88zd5tTd/YisSiSm88Wnh9s=",
+    "originContent": "Catalog catalog = structure.Catalog;",
+    "translatedContent": "Catalog catalog = structure.Catalog;"
+  },
+  {
+    "row": 265,
+    "rowsha": "VXvTx9Ba3nrvieAORIQWKP/qj66fcq7EGlHKX3RifmA=",
+    "originContent": "DictionaryToken pagesDictionary = catalog.PagesDictionary;",
+    "translatedContent": "DictionaryToken pagesDictionary = catalog.PagesDictionary;"
+  },
+  {
+    "row": 266,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 267,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 268,
+    "rowsha": "nhm2HAThIPKA/tkMzudOAu9OGaaSolNNo5z+w/vNQUw=",
+    "originContent": "The pages dictionary is the root of the pages tree within a PDF document. The structure also exposes a `GetObject(IndirectReference reference)` method which allows random access to any object in the PDF as long as its identifier number is known. This is an identifier of the form `69 0 R` where 69 is the object number and 0 is the generation.",
+    "translatedContent": "페이지 사전은 PDF 문서 내 페이지 트리의 루트입니다. 이 구조는 식별자 번호가 알려져 있는 한 PDF 내의 모든 객체에 임의 접근을 허용하는 `GetObject(IndirectReference reference)` 메서드도 노출합니다. 이 식별자는 `69 0 R` 형식이며, 여기서 69는 객체 번호이고 0은 세대 번호입니다."
+  },
+  {
+    "row": 269,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 270,
+    "rowsha": "omgz2M+cxmOtbhwgFjzRPlr00xXn/MOkfJOnbstZu80=",
+    "originContent": "### Page",
+    "translatedContent": "### 페이지"
+  },
+  {
+    "row": 271,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 272,
+    "rowsha": "+ul9ZXjNbwuHDmqR0eIdCToBKB8/IJWVzL8bHl+r8E8=",
+    "originContent": "The `Page` contains the page width and height in points as well as mapping to the `PageSize` enum:",
+    "translatedContent": "`Page`는 포인트 단위의 페이지 너비와 높이 및 `PageSize` 열거형에 대한 매핑을 포함합니다:"
+  },
+  {
+    "row": 273,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 274,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 275,
+    "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+    "originContent": "```cs",
+    "translatedContent": "```cs"
+  },
+  {
+    "row": 276,
+    "rowsha": "gZ4ZGk1o9l5wWw4+X40ZgU4mU6s8zmIuf5mmh3EjyWU=",
+    "originContent": "PageSize size = Page.Size;",
+    "translatedContent": "PageSize size = Page.Size;"
+  },
+  {
+    "row": 277,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 278,
+    "rowsha": "mD2dy5NV5TO5XmMi/4GVQG6qouw4BbIMgBhw5E6SPH8=",
+    "originContent": "bool isA4 = size == PageSize.A4;",
+    "translatedContent": "bool isA4 = size == PageSize.A4;"
+  },
+  {
+    "row": 279,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 280,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`Page`는 페이지의 텍스트에 접근할 수 있지만, 텍스트를 인덱싱할 때는 예를 들어 RAG/LLMs 용으로 `ContentOrderTextExtractor` 또는 대체 방법을 사용하는 것이 좋습니다:"
+  },
+  {
+    "row": 281,
+    "rowsha": "BNEhIshpQfl1OSGhSDcnalyDaQt/Iyo4bjY1qPuDKTk=",
+    "originContent": "`Page` provides access to the text of the page but you should use `ContentOrderTextExtractor` or alternatives if indexing the text, e.g. for RAG/LLMs:",
+    "translatedContent": ""
+  },
+  {
+    "row": 282,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    string text = page.Text;"
+  },
+  {
+    "row": 283,
+    "rowsha": "7XPpzEEi5gzywPzfSz9WT7gOq2JPi8ImX5W/C4pn22A=",
+    "originContent": "    string text = page.Text;",
+    "translatedContent": ""
+  },
+  {
+    "row": 284,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "단어에 접근할 수 있는 메서드가 있습니다. 기본 메서드는 기본적인 휴리스틱을 사용합니다. 고급 경우에는 직접 `IWordExtractor`를 구현하거나 `NearestNeighbourWordExtractor`를 사용할 수 있습니다:"
+  },
+  {
+    "row": 285,
+    "rowsha": "nNMHCKAxQwFHAOg79xii547+PySC4fQGlJgPmTyu+gY=",
+    "originContent": "There is a method which provides access to the words. The default method uses basic heuristics. For advanced cases, You can also implement your own `IWordExtractor` or use the `NearestNeighbourWordExtractor`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 286,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    IEnumerable<Word> words = page.GetWords();"
+  },
+  {
+    "row": 287,
+    "rowsha": "jERkOvqrevqVTv8Xcbd4TlINS8MQXw+VXoO2ninWzfk=",
+    "originContent": "    IEnumerable<Word> words = page.GetWords();",
+    "translatedContent": ""
+  },
+  {
+    "row": 288,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "페이지의 콘텐츠 스트림에서 그래픽과 콘텐츠를 그리기 위해 사용된 원시 작업들에도 접근할 수 있습니다:"
+  },
+  {
+    "row": 289,
+    "rowsha": "gdpU7oxeCfSFncLh0B1+YkWiyiX+skbpDFiT2UHTQ5s=",
+    "originContent": "You can also access the raw operations used in the page's content stream for drawing graphics and content on the page:",
+    "translatedContent": ""
+  },
+  {
+    "row": 290,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    IReadOnlyList<IGraphicsStateOperation> operations = page.Operations;"
+  },
+  {
+    "row": 291,
+    "rowsha": "hQE0D2fYpFyL6fU/QqLY9zPSgoNsyAWmKzM3YQ4KSZ0=",
+    "originContent": "    IReadOnlyList<IGraphicsStateOperation> operations = page.Operations;",
+    "translatedContent": ""
+  },
+  {
+    "row": 292,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "개별 연산자의 의미는 PDF 명세서를 참조하세요."
+  },
+  {
+    "row": 293,
+    "rowsha": "PqLFueqB3L0a5msBzkSiLwzCHqiqSUrz1DmACQ1Or4M=",
+    "originContent": "Consult the PDF specification for the meaning of individual operators.",
+    "translatedContent": ""
+  },
+  {
+    "row": 294,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "페이지별 PDF 이미지 객체를 가져오는 API도 있습니다:"
+  },
+  {
+    "row": 295,
+    "rowsha": "nYfIZSsRK0xKDzHs+zGBxJjwQoqRInJnH8x1LZa6Ybk=",
+    "originContent": "There is also an API for retrieving the PDF image objects per page:",
+    "translatedContent": ""
+  },
+  {
+    "row": 296,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    IEnumerable<XObjectImage> images = page.GetImages();"
+  },
+  {
+    "row": 297,
+    "rowsha": "81CmppcoVuBTwh3IWCWnCQIjEV2/rqOjsjuQNAC+niA=",
+    "originContent": "    IEnumerable<XObjectImage> images = page.GetImages();",
+    "translatedContent": ""
+  },
+  {
+    "row": 298,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[Images 위키](https://github.com/UglyToad/PdfPig/wiki/Images)를 읽어보세요."
+  },
+  {
+    "row": 299,
+    "rowsha": "A722ysUNSk/nHekGD5EobNxBG+Tt18GUXgyk1RVM9yE=",
+    "originContent": "Please read the [wiki on Images](https://github.com/UglyToad/PdfPig/wiki/Images).",
+    "translatedContent": ""
+  },
+  {
+    "row": 300,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Letter"
+  },
+  {
+    "row": 301,
+    "rowsha": "OkizQzBohiLyqqPYC2E0MBRwu0+1EiWVh4xU2zifW5E=",
+    "originContent": "### Letter",
+    "translatedContent": ""
+  },
+  {
+    "row": 302,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "PDF가 내부적으로 구성되는 방식 때문에 페이지 텍스트는 문서에 나타나는 텍스트의 읽기 가능한 표현이 아닐 수 있습니다. PDF는 표현 형식이기 때문에 텍스트가 반드시 읽기 순서대로 그려지지 않습니다. 이로 인해 공백이 없거나 단어가 예상치 못한 위치에 있을 수 있습니다."
+  },
+  {
+    "row": 303,
+    "rowsha": "oqD+4bzbWsdOgyAL7Bi+sQ4VlXem72sx68/WsU8Q9tw=",
+    "originContent": "Due to the way a PDF is structured internally the page text may not be a readable representation of the text as it appears in the document. Since PDF is a presentation format, text can be drawn in any order, not necessarily reading order. This means spaces may be missing or words may be in unexpected positions in the text.",
+    "translatedContent": ""
+  },
+  {
+    "row": 304,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "사용자가 실제 페이지 텍스트 순서를 해결하도록 돕기 위해 `Page` 파일은 문자 목록에 접근할 수 있도록 제공합니다:"
+  },
+  {
+    "row": 305,
+    "rowsha": "CD9oMS77a+hIwtRzMHgXvukrXcKGEP6klzbTX6bBTqs=",
+    "originContent": "To help users resolve actual text order on the page, the `Page` file provides access to a list of the letters:",
+    "translatedContent": ""
+  },
+  {
+    "row": 306,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    IReadOnlyList<Letter> letters = page.Letters;"
+  },
+  {
+    "row": 307,
+    "rowsha": "u/YWHlJ00FF9+8MnMOGC5LhI4l/dDzE/1sBlZudx2tM=",
+    "originContent": "    IReadOnlyList<Letter> letters = page.Letters;",
+    "translatedContent": ""
+  },
+  {
+    "row": 308,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 문자들은 다음을 포함합니다:"
+  },
+  {
+    "row": 309,
+    "rowsha": "QnNGhBVTvEsG+OqfTplCfKLlRZFQ3/ZdBhVcfIFPqKs=",
+    "originContent": "These letters contain:",
+    "translatedContent": ""
+  },
+  {
+    "row": 310,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 문자의 텍스트: `letter.Value`."
+  },
+  {
+    "row": 311,
+    "rowsha": "xrG7joQpv83nMQoDfp3DJU7KPzaPK9xJ4GTDPKp9/B0=",
+    "originContent": "- The text of the letter: `letter.Value`.",
+    "translatedContent": "- 문자의 왼쪽 하단 위치: `letter.Location`."
+  },
+  {
+    "row": 312,
+    "rowsha": "02Kn5L6CWADexpZIK+C2JG76U9RfL4yBleK3ka6q5ow=",
+    "originContent": "- The location of the lower left of the letter: `letter.Location`.",
+    "translatedContent": "- 문자의 너비: `letter.Width`."
+  },
+  {
+    "row": 313,
+    "rowsha": "QdfBt8rVgqbUVmEVg7AWhsLa8Tptrm2PnchiMEtNApo=",
+    "originContent": "- The width of the letter: `letter.Width`.",
+    "translatedContent": "- 스케일링되지 않은 상대 텍스트 단위의 글꼴 크기(PDF 내부 크기로, 픽셀, 포인트 또는 다른 단위와 일치하지 않음): `letter.FontSize`."
+  },
+  {
+    "row": 314,
+    "rowsha": "rdcxi3gl+tKzQYdMlFh7IEZkgpePy48JS8hjz5v9yLs=",
+    "originContent": "- The font size in unscaled relative text units (these sizes are internal to the PDF and do not correspond to sizes in pixels, points or other units): `letter.FontSize`.",
+    "translatedContent": "- 문자를 렌더링하는 데 사용된 글꼴 이름(가능한 경우): `letter.FontName`."
+  },
+  {
+    "row": 315,
+    "rowsha": "sIH+QNaQoZNpcQwG8MLLJAlxn6Hp7mFSfMNGsv2lUkc=",
+    "originContent": "- The name of the font used to render the letter if available: `letter.FontName`.",
+    "translatedContent": "- 문자/글리프의 가시 영역을 완전히 포함하는 가장 작은 사각형: `letter.GlyphRectangle`."
+  },
+  {
+    "row": 316,
+    "rowsha": "1e/8tdlDnDggzLA9HcBt8CdLxTHKNJoUkQO8lx+uud0=",
+    "originContent": "- A rectangle which is the smallest rectangle that completely contains the visible region of the letter/glyph: `letter.GlyphRectangle`.",
+    "translatedContent": "- 문자가 회전되었는지 나타내는 기준선 시작점과 끝점 `StartBaseLine` 및 `EndBaseLine`. `TextDirection`은 일반적으로 사용되는 회전인지 사용자 지정 회전인지 나타냅니다."
+  },
+  {
+    "row": 317,
+    "rowsha": "n/S4DQtUvQ8SYLEu8VFUShAQhg9pcC3R8sMQYSAPd3o=",
+    "originContent": "- The points at the start and end of the baseline `StartBaseLine` and `EndBaseLine` which indicate if the letter is rotated. The `TextDirection` indicates if this is a commonly used rotation or a custom rotation.",
+    "translatedContent": ""
+  },
+  {
+    "row": 318,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "문자 위치는 PDF 좌표계로 측정되며, 원점은 페이지의 왼쪽 하단 모서리입니다. 따라서 Y 값이 클수록 페이지 상단에 가깝습니다."
+  },
+  {
+    "row": 319,
+    "rowsha": "AImDZAsdOnVhBHRXnP7aXRpvXKK7sb3HHcPaeIw3Iqc=",
+    "originContent": "Letter position is measured in PDF coordinates where the origin is the lower left corner of the page. Therefore a higher Y value means closer to the top of the page.",
+    "translatedContent": ""
+  },
+  {
+    "row": 320,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 주석"
+  },
+  {
+    "row": 321,
+    "rowsha": "PfhyB2bLmPWApo6xok3LYDuZ1VVUZlPCsqZcvD1PmY0=",
+    "originContent": "### Annotations",
+    "translatedContent": ""
+  },
+  {
+    "row": 322,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "각 페이지의 주석을 가져오는 방법은 다음과 같습니다:"
+  },
+  {
+    "row": 323,
+    "rowsha": "dD38e+tBlc7yX6nmSD3BEEjg1FTsdXvM/kBmvDoiLUk=",
+    "originContent": "Retrieving annotations on each page is provided using the method:",
+    "translatedContent": ""
+  },
+  {
+    "row": 324,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    page.GetAnnotations()"
+  },
+  {
+    "row": 325,
+    "rowsha": "phdvYaOxvMMgn0vyngGmqsHEv5de6rjnJ1TEkZwtbiE=",
+    "originContent": "    page.GetAnnotations()",
+    "translatedContent": ""
+  },
+  {
+    "row": 326,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 호출은 캐시되지 않으며, 문서가 사용 전에 해제되지 않아야 합니다. 주석은 편집할 수 없습니다."
+  },
+  {
+    "row": 327,
+    "rowsha": "fD/vu09hkbAumdHP+kCCie3Fe8/d7VJHqHW1+Bu//JI=",
+    "originContent": "This call is not cached and the document must not have been disposed prior to use. Annotations cannot be edited.",
+    "translatedContent": ""
+  },
+  {
+    "row": 328,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 북마크"
+  },
+  {
+    "row": 329,
+    "rowsha": "zDUKXrGGq9oWx5XqC2tIBuG7f1+muBBaGtHrPbciGpM=",
+    "originContent": "### Bookmarks",
+    "translatedContent": ""
+  },
+  {
+    "row": 330,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "문서의 북마크(개요)는 문서 수준에서 가져올 수 있습니다:"
+  },
+  {
+    "row": 331,
+    "rowsha": "bj1kY7SLFhA7WLPG03UBenS+EKvG7SeZjxErl2xSJfU=",
+    "originContent": "The bookmarks (outlines) of a document may be retrieved at the document level:",
+    "translatedContent": ""
+  },
+  {
+    "row": 332,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    bool hasBookmarks = document.TryGetBookmarks(out Bookmarks bookmarks);"
+  },
+  {
+    "row": 333,
+    "rowsha": "ZVeZ8pcwyzlOIhE1O9hiEm3AcunlwcQ+6K44/NldJPo=",
+    "originContent": "    bool hasBookmarks = document.TryGetBookmarks(out Bookmarks bookmarks);",
+    "translatedContent": ""
+  },
+  {
+    "row": 334,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "문서에 북마크가 정의되어 있지 않으면 `false`를 반환합니다."
+  },
+  {
+    "row": 335,
+    "rowsha": "xpZrV1MJ4M1t9meG9jNSRac0FmcJN63aeYkEBhNcYEA=",
+    "originContent": "This will return `false` if the document does not define any bookmarks.",
+    "translatedContent": ""
+  },
+  {
+    "row": 336,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 폼"
+  },
+  {
+    "row": 337,
+    "rowsha": "PVuET6TU6xzCVBzPZy3105X4LRrepv18rwvyTZ5WdYw=",
+    "originContent": "### Forms",
+    "translatedContent": ""
+  },
+  {
+    "row": 338,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "대화형 폼(AcroForms)의 폼 필드는 다음을 사용하여 가져올 수 있습니다:"
+  },
+  {
+    "row": 339,
+    "rowsha": "gkqOaKowi/G3ZibTZTKVH1pbNT2LL08GNE/pFqLyhEQ=",
+    "originContent": "Form fields for interactive forms (AcroForms) can be retrieved using:",
+    "translatedContent": ""
+  },
+  {
+    "row": 340,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    bool hasForm = document.TryGetForm(out AcroForm form);"
+  },
+  {
+    "row": 341,
+    "rowsha": "8fyQ6b6vg3A2WxOrw4GM2j/gnEwgPXO6r8Lm5f6c014=",
+    "originContent": "    bool hasForm = document.TryGetForm(out AcroForm form);",
+    "translatedContent": ""
+  },
+  {
+    "row": 342,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "문서에 폼이 포함되어 있지 않으면 `false`를 반환합니다."
+  },
+  {
+    "row": 343,
+    "rowsha": "M4AdToT5PMJsWR8xAlHD9YMdJeqmJbt+f4tZlljfMKQ=",
+    "originContent": "This will return `false` if the document does not contain a form.",
+    "translatedContent": ""
+  },
+  {
+    "row": 344,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "필드는 `AcroForm`의 `Fields` 속성을 통해 접근할 수 있습니다. 폼이 문서 수준에서 정의되어 있으므로 문서의 모든 페이지에서 필드를 반환합니다. 필드는 `AcroFieldType` 열거형으로 정의된 유형이며, 예를 들어 `PushButton`, `Checkbox`, `Text` 등이 있습니다."
+  },
+  {
+    "row": 345,
+    "rowsha": "AOCaMIJq/Hr/IWXmMSNzzNXz8+WOPCTYplyMm7uclEE=",
+    "originContent": "The fields can be accessed using the `AcroForm`'s `Fields` property. Since the form is defined at the document level this will return fields from all pages in the document. Fields are of the types defined by the enum `AcroFieldType`, for example `PushButton`, `Checkbox`, `Text`, etc.",
+    "translatedContent": ""
+  },
+  {
+    "row": 346,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "PdfPig을 사용하여 폼은 읽기 전용이며 값 변경이나 추가는 불가능합니다."
+  },
+  {
+    "row": 347,
+    "rowsha": "gCApfNZ4woCMG5AUcsMsPzeRo2O6ljNYQ6jieSJzaaM=",
+    "originContent": "Please note the forms are readonly and values cannot be changed or added using PdfPig.",
+    "translatedContent": ""
+  },
+  {
+    "row": 348,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 하이퍼링크"
+  },
+  {
+    "row": 349,
+    "rowsha": "8hYtFrp07yFq7z+0VGaNwyljA35dtaxF+81Oivgk5Kc=",
+    "originContent": "### Hyperlinks",
+    "translatedContent": ""
+  },
+  {
+    "row": 350,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "페이지는 하이퍼링크(링크 유형 주석)를 추출하는 메서드를 갖고 있습니다:"
+  },
+  {
+    "row": 351,
+    "rowsha": "hzlBgHBs3Cs7IzEGKgiw4jJvU2frD958RRV+9R13NjU=",
+    "originContent": "A page has a method to extract hyperlinks (annotations of link type):",
+    "translatedContent": ""
+  },
+  {
+    "row": 352,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    IReadOnlyList<UglyToad.PdfPig.Content.Hyperlink> hyperlinks = page.GetHyperlinks();"
+  },
+  {
+    "row": 353,
+    "rowsha": "GQn2NJB2yoqjdD1/mRfJwtubIsUi3YEpPsm77sVcqj8=",
+    "originContent": "    IReadOnlyList<UglyToad.PdfPig.Content.Hyperlink> hyperlinks = page.GetHyperlinks();",
+    "translatedContent": ""
+  },
+  {
+    "row": 354,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "문서 작성 시 하이퍼링크를 추가하거나 편집할 수 없습니다."
+  },
+  {
+    "row": 355,
+    "rowsha": "clotETRJgoXlDP6qEF9Ajjgxn7kvBWe4lcx3wT0F1K4=",
+    "originContent": "Hyperlinks cannot be added or edited when building documents.",
+    "translatedContent": ""
+  },
+  {
+    "row": 356,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### TrueType"
+  },
+  {
+    "row": 357,
+    "rowsha": "/Qq8VAo09VO5MJ4c/Ad5G/+232koH5ITTJJCKPpfBf0=",
+    "originContent": "### TrueType",
+    "translatedContent": ""
+  },
+  {
+    "row": 358,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "PDF 파일 내 TrueType 글꼴 작업에 사용되는 클래스는 공개되어 있습니다. 입력 파일이 주어지면:"
+  },
+  {
+    "row": 359,
+    "rowsha": "LTOq/hVhX0QI/fh/aIX6Uxhw9OLw8Fq5CzbZGAMyGkU=",
+    "originContent": "The classes used to work with TrueType fonts in the PDF file are available for public consumption. Given an input file:",
+    "translatedContent": ""
+  },
+  {
+    "row": 360,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 361,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 362,
+    "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+    "originContent": "```cs",
+    "translatedContent": "```cs"
+  },
+  {
+    "row": 363,
+    "rowsha": "hpONs4qxKmL1TuSCl+Bjshu0rIiHlO45dZq/eOloFAg=",
+    "originContent": "using UglyToad.PdfPig.Fonts.TrueType;",
+    "translatedContent": "using UglyToad.PdfPig.Fonts.TrueType;"
+  },
+  {
+    "row": 364,
+    "rowsha": "LtvYH0R6zjxa4ijCpa7R57S8rEfijNCkVAetPTYaZlY=",
+    "originContent": "using UglyToad.PdfPig.Fonts.TrueType.Parser;",
+    "translatedContent": "using UglyToad.PdfPig.Fonts.TrueType.Parser;"
+  },
+  {
+    "row": 365,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 366,
+    "rowsha": "7xEvue34BWK+xGWdxgEPpc1Mfz0dFD7XZ/5i3Ew74L4=",
+    "originContent": "byte[] fontBytes = System.IO.File.ReadAllBytes(@\"C:\\font.ttf\");",
+    "translatedContent": "byte[] fontBytes = System.IO.File.ReadAllBytes(@\"C:\\font.ttf\");"
+  },
+  {
+    "row": 367,
+    "rowsha": "hJ99g3qXRoO0Cmu5FSHe1UYxqETGYoDEbpAuSG2OIB4=",
+    "originContent": "TrueTypeDataBytes input = new TrueTypeDataBytes(fontBytes);",
+    "translatedContent": "TrueTypeDataBytes input = new TrueTypeDataBytes(fontBytes);"
+  },
+  {
+    "row": 368,
+    "rowsha": "2LzIolFX6CdcN/d/+NgnO355fXe/EdGZ4fm9BZ80R6g=",
+    "originContent": "TrueTypeFont font = TrueTypeFontParser.Parse(input);",
+    "translatedContent": "TrueTypeFont font = TrueTypeFontParser.Parse(input);"
+  },
+  {
+    "row": 369,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 370,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 371,
+    "rowsha": "kUCPXazd3JeCFT+8pjXdTY9g5jMXOdKjB4T5xA7TtOI=",
+    "originContent": "The parsed font can then be inspected.",
+    "translatedContent": "파싱된 폰트를 검사할 수 있습니다."
+  },
+  {
+    "row": 372,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 373,
+    "rowsha": "dSMQoQ0ZR2hqvmmobXEux7GEqKTbLpc8Jjw8Js5jMQM=",
+    "originContent": "### Embedded Files",
+    "translatedContent": "### 포함된 파일"
+  },
+  {
+    "row": 374,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 375,
+    "rowsha": "aKM+Ac70IqcD6thvo4wEtAgh9tndrTU1N9729AdtFW4=",
+    "originContent": "PDF files may contain other files entirely embedded inside them for document annotations. The list of embedded files and their byte content may be accessed:",
+    "translatedContent": "PDF 파일에는 문서 주석을 위해 완전히 포함된 다른 파일들이 있을 수 있습니다. 포함된 파일 목록과 해당 바이트 내용을 확인할 수 있습니다:"
+  },
+  {
+    "row": 376,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 377,
+    "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+    "originContent": "```cs",
+    "translatedContent": "```cs"
+  },
+  {
+    "row": 378,
+    "rowsha": "kRulvzfYEyg2q0XD3lxXa4VSB9p2DKp6hNzzlcbtP+A=",
+    "originContent": "if (document.Advanced.TryGetEmbeddedFiles(out IReadOnlyList<EmbeddedFile> files)",
+    "translatedContent": "if (document.Advanced.TryGetEmbeddedFiles(out IReadOnlyList<EmbeddedFile> files)"
+  },
+  {
+    "row": 379,
+    "rowsha": "tdZ6d2kAuaDv02gLiaY9OvUhb+2ZAyLgBk6CqeZy7PM=",
+    "originContent": "    && files.Count > 0)",
+    "translatedContent": "    && files.Count > 0)"
+  },
+  {
+    "row": 380,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 381,
+    "rowsha": "PsX4hfZRiJsuQzS1zQLckL5dx3/lGENaawglsDiLPvE=",
+    "originContent": "    var firstFile = files[0];",
+    "translatedContent": "    var firstFile = files[0];"
+  },
+  {
+    "row": 382,
+    "rowsha": "dwMU3XMPNJUhQ6dj6KSF2ASC4vMzR+LiwnQwn5ozWkY=",
+    "originContent": "    string name = firstFile.Name;",
+    "translatedContent": "    string name = firstFile.Name;"
+  },
+  {
+    "row": 383,
+    "rowsha": "9vJg728+bJ0zHRi4y3o+rOZ4gnZ/Kg4GT92TC917gq4=",
+    "originContent": "    IReadOnlyList<byte> bytes = firstFile.Bytes;",
+    "translatedContent": "    IReadOnlyList<byte> bytes = firstFile.Bytes;"
+  },
+  {
+    "row": 384,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 385,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 386,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 387,
+    "rowsha": "1T5wwFjhcFE5YylMuM1aEuZ3GYHoBiYbgDYWdc3FqCU=",
+    "originContent": "### Merging",
+    "translatedContent": "### 병합"
+  },
+  {
+    "row": 388,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 389,
+    "rowsha": "NPbT8wI+Mku4VFSZfhS7zVDVcqtHQKRge/o2/9LJCjs=",
+    "originContent": "You can merge 2 or more existing PDF files using the `PdfMerger` class:",
+    "translatedContent": "`PdfMerger` 클래스를 사용하여 2개 이상의 기존 PDF 파일을 병합할 수 있습니다:"
+  },
+  {
+    "row": 390,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 391,
+    "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+    "originContent": "```cs",
+    "translatedContent": "```cs"
+  },
+  {
+    "row": 392,
+    "rowsha": "vG7q9KjfqUvZifhLDs51rGxxNFmT9jcd+AFzR95rBMk=",
+    "originContent": "var resultFileBytes = PdfMerger.Merge(filePath1, filePath2);",
+    "translatedContent": "var resultFileBytes = PdfMerger.Merge(filePath1, filePath2);"
+  },
+  {
+    "row": 393,
+    "rowsha": "0LwO3m8pZwS1tVuNa8L90M4XuWlVmRYjV+zPaQnqsQo=",
+    "originContent": "File.WriteAllBytes(@\"C:\\pdfs\\outputfilename.pdf\", resultFileBytes);",
+    "translatedContent": "File.WriteAllBytes(@\"C:\\pdfs\\outputfilename.pdf\", resultFileBytes);"
+  },
+  {
+    "row": 394,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 395,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Wiki"
+  },
+  {
+    "row": 396,
+    "rowsha": "IVjOi103RvithEqiMPR5mQPwgl1ggxbmAIBlsST8CkE=",
+    "originContent": "## Wiki",
+    "translatedContent": "더 많은 예제와 API에 대한 자세한 안내는 [위키](https://github.com/UglyToad/PdfPig/wiki)를 확인하세요."
+  },
+  {
+    "row": 397,
+    "rowsha": "TgR6coPn0eVlNN/wMsW8tm2Rq+PYd8wnA7TlxyNNnw0=",
+    "originContent": "Check out our [wiki](https://github.com/UglyToad/PdfPig/wiki) for more examples and detailed guides on the API.",
+    "translatedContent": ""
+  },
+  {
+    "row": 398,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Issues"
+  },
+  {
+    "row": 399,
+    "rowsha": "SOHoTyczzE2dykvhN7RF5URhGMRaVtt1NdUAqSrXRZ4=",
+    "originContent": "## Issues",
+    "translatedContent": ""
+  },
+  {
+    "row": 400,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "버그가 발견되면 꼭 이슈를 등록해 주세요. 자세한 내용은 [이슈 정책](https://github.com/UglyToad/PdfPig/issues/1095)과 [기여 가이드](https://github.com/UglyToad/PdfPig/blob/master/CONTRIBUTING.md)를 참조하세요."
+  },
+  {
+    "row": 401,
+    "rowsha": "j4DMGRRJBuNPLUrbOIju11juqLlmbvDneOMG2wF1LdY=",
+    "originContent": "Please do file an issue if you encounter a bug. See our [issue policy](https://github.com/UglyToad/PdfPig/issues/1095) and [contributing guide](https://github.com/UglyToad/PdfPig/blob/master/CONTRIBUTING.md) for details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 402,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## API Reference"
+  },
+  {
+    "row": 403,
+    "rowsha": "nvAYtiZ8HdVYa6kQLlWO++52V6Dkv1H6BZ+0YJLenok=",
+    "originContent": "## API Reference",
+    "translatedContent": ""
+  },
+  {
+    "row": 404,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "doxygen 문서를 생성하려면 `doxygen doxygen-docs` 명령을 실행한 후 `docs/doxygen/html/index.html`을 열어보세요."
+  },
+  {
+    "row": 405,
+    "rowsha": "gKQuiEKnWQXoB3dNwEpvb1azwFky5BfECMzHvUleYq4=",
+    "originContent": "If you wish to generate doxygen documentation, run `doxygen doxygen-docs` and open `docs/doxygen/html/index.html`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 406,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Credit"
+  },
+  {
+    "row": 407,
+    "rowsha": "TKxkJIn+NKVXflgq7wMa9qdzdibh4Bg27iRXk7BEs10=",
+    "originContent": "## Credit",
+    "translatedContent": ""
+  },
+  {
+    "row": 408,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 프로젝트는 [PDFBox](https://github.com/apache/pdfbox)를 C#으로 포팅하는 작업에서 시작되었습니다. 이 프로젝트는 [PDFBox](https://pdfbox.apache.org/) 팀과 아파치 재단의 작업 없이는 불가능했을 것입니다."
+  },
+  {
+    "row": 409,
+    "rowsha": "n2HH9YkcQo+eaYOOzZirPnwYzdQm/z4byDiu4kgavtg=",
+    "originContent": "This project started as an effort to port [PDFBox](https://github.com/apache/pdfbox) to C#. This project wouldn't be possible without the work done by the [PDFBox](https://pdfbox.apache.org/) team and the Apache Foundation.",
+    "translatedContent": ""
+  },
+  {
+    "row": 410,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

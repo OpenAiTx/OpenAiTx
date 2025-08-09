@@ -1,0 +1,890 @@
+[
+  {
+    "row": 1,
+    "rowsha": "pBOTvyfaFa7ojqpBKGS+OeYqKBlFSR+jXvCZPVbO2jk=",
+    "originContent": "# ZXing.Net ",
+    "translatedContent": "# ZXing.Net "
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "BlhfPAh17fHg663GoDiG2lCVtqaPsplt8qQ2iveNax4=",
+    "originContent": "[![N|NuGet](https://img.shields.io/nuget/v/ZXing.Net.svg)](https://www.nuget.org/packages/ZXing.Net/)",
+    "translatedContent": "[![N|NuGet](https://img.shields.io/nuget/v/ZXing.Net.svg)](https://www.nuget.org/packages/ZXing.Net/)"
+  },
+  {
+    "row": 4,
+    "rowsha": "ev+9Z3BYEG0HDP2zGGfk1StzvMVh1XV6B9x4kH4YOYI=",
+    "originContent": "[![Build status](https://ci.appveyor.com/api/projects/status/49uvsxpw3ak9jtmm?svg=true)](https://ci.appveyor.com/project/MichaelJahn/zxing-net)",
+    "translatedContent": "[![Build status](https://ci.appveyor.com/api/projects/status/49uvsxpw3ak9jtmm?svg=true)](https://ci.appveyor.com/project/MichaelJahn/zxing-net)"
+  },
+  {
+    "row": 5,
+    "rowsha": "XxkDVocsVkvcEjCCnItFXWNWvf5QWD0bYTm3inDv/mA=",
+    "originContent": "[![Donate](https://img.shields.io/badge/%F0%9F%92%99-Donate%20%2F%20Support%20Us-blue.svg)](#donate)",
+    "translatedContent": "[![Donate](https://img.shields.io/badge/%F0%9F%92%99-Donate%20%2F%20Support%20Us-blue.svg)](#donate)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "ppa2HwVo5Nil4oOSy8jXpfBHg95vwYRR9dGh20cL1u0=",
+    "originContent": "![ZXing.Net.Mobile Logo](https://raw.githubusercontent.com/micjahn/ZXing.Net/master/Icons/logo.jpg)",
+    "translatedContent": "![ZXing.Net.Mobile Logo](https://raw.githubusercontent.com/micjahn/ZXing.Net/master/Icons/logo.jpg)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "UAvl3Lo4Oa+B4c8Rs3KkivhVMf5CJ3riNdvraQQ0wcc=",
+    "originContent": "## Project Description",
+    "translatedContent": "## 项目描述"
+  },
+  {
+    "row": 10,
+    "rowsha": "vMxBbImVvXong2Ka9bEQGxEiGJXB1gUkoFovgM7ChnM=",
+    "originContent": "A library which supports decoding and generating of barcodes (like QR Code, PDF 417, EAN, UPC, Aztec, Data Matrix, Codabar) within images.",
+    "translatedContent": "一个支持在图像中解码和生成条形码（如二维码、PDF 417、EAN、UPC、Aztec、数据矩阵、Codabar）的库。"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "RregNBav+j/lNSsa5cSyu4w6zeK1mPyDE6qQ2ZNi/YI=",
+    "originContent": "The project is a port of the java based barcode reader and generator library ZXing.  ",
+    "translatedContent": "该项目是基于Java的条形码读取和生成库ZXing的移植。  "
+  },
+  {
+    "row": 13,
+    "rowsha": "YKAN6rAkaM0z5l0IHZ9Pp3i2Sezm+uIJXluDJ5OdwN0=",
+    "originContent": "https://github.com/zxing/zxing  ",
+    "translatedContent": "https://github.com/zxing/zxing  "
+  },
+  {
+    "row": 14,
+    "rowsha": "vAnPMKda/v9dF5k1EGRIoDKmSW5DOH3Vsv5BCZUxyQ4=",
+    "originContent": "It has been ported by hand with a lot of optimizations and improvements.",
+    "translatedContent": "它是手工移植的，进行了大量优化和改进。"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "QFistuZB6yangOkvkJiszFQ497A2mxwB5XaXdOaQFhs=",
+    "originContent": "The following barcodes are supported by the decoder:",
+    "translatedContent": "解码器支持以下条形码："
+  },
+  {
+    "row": 17,
+    "rowsha": "OrSK80CwZSf7RbDKV7ygcByD2yD6lbB/y6hwmGelWX4=",
+    "originContent": "UPC-A, UPC-E, EAN-8, EAN-13, Code 39, Code 93, Code 128, ITF, Codabar, MSI, RSS-14 (all variants), QR Code, Data Matrix, Aztec and PDF-417.",
+    "translatedContent": "UPC-A、UPC-E、EAN-8、EAN-13、Code 39、Code 93、Code 128、ITF、Codabar、MSI、RSS-14（所有变体）、二维码、数据矩阵、Aztec和PDF-417。"
+  },
+  {
+    "row": 18,
+    "rowsha": "DMMUM7/OVDpKcbb6h76exttBCiPrX0DAbdQ5if0y8L0=",
+    "originContent": "The encoder supports the following formats:",
+    "translatedContent": "编码器支持以下格式："
+  },
+  {
+    "row": 19,
+    "rowsha": "baKVNyCGKAd3kGVGFvoyc4Xy651hP8qqahu8dV5OSQs=",
+    "originContent": "UPC-A, EAN-8, EAN-13, Code 39, Code 128, ITF, Codabar, Plessey, MSI, QR Code, PDF-417, Aztec, Data Matrix",
+    "translatedContent": "UPC-A、EAN-8、EAN-13、Code 39、Code 128、ITF、Codabar、Plessey、MSI、二维码、PDF-417、Aztec、数据矩阵"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "DSDmKRc04I1o7kRGr/D2RSPsyfDt1Qkl2EZL3oDxlJg=",
+    "originContent": "#### Assemblies are available for the following platforms:",
+    "translatedContent": "#### 以下平台可用程序集："
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "av/xS7qKTsLLx8Wivdp/hkrosd8Y/NrkV4TcGtFltL4=",
+    "originContent": "* .Net 2.0, 3.5, 4.x, 5.0, 6.0, 7.0",
+    "translatedContent": "* .Net 2.0、3.5、4.x、5.0、6.0、7.0"
+  },
+  {
+    "row": 24,
+    "rowsha": "P5bpC9m2P4j0XwBZAB5PDPLoXnWP/z3wbqGdAnObfxA=",
+    "originContent": "* Windows RT Class Library and Runtime Components (winmd)",
+    "translatedContent": "* Windows RT 类库和运行时组件（winmd）"
+  },
+  {
+    "row": 25,
+    "rowsha": "8FhkdaFz/f0gf8yfM11GTe7n3WXA7U9hZTFtrkosneE=",
+    "originContent": "* .NET Standard / .NET Core / UWP",
+    "translatedContent": "* .NET Standard / .NET Core / UWP"
+  },
+  {
+    "row": 26,
+    "rowsha": "E44IsZ8mp+58/jPdtpDiwHvWuXi6odM//i0taVQleUo=",
+    "originContent": "* Portable Class Library",
+    "translatedContent": "* 便携类库"
+  },
+  {
+    "row": 27,
+    "rowsha": "V7wc+zCV9S7ArisqcX+jGyS2zM+BX66NBhH9Nxv81E4=",
+    "originContent": "* Unity3D (.Net 2.0 built without System.Drawing reference)",
+    "translatedContent": "* Unity3D（基于 .Net 2.0 构建，无 System.Drawing 引用）"
+  },
+  {
+    "row": 28,
+    "rowsha": "LQ7UX1El3oGPcXXILGI7Cc4YTKwJpdIiW656MHyhC+A=",
+    "originContent": "* Xamarin.Android (formerly Mono for Android)",
+    "translatedContent": "* Xamarin.Android（原 Mono for Android）"
+  },
+  {
+    "row": 29,
+    "rowsha": "mwWohyyGCp+7bBhezsi9Ifv5qujYJtS+5Go3VyNf2dE=",
+    "originContent": "* bindings to Windows.Compatibility, CoreCompat.System.Drawing, ImageSharp, SkiaSharp, OpenCVSharp, Magick, Kinect V1 and V2, EmguCV, Eto.Forms, ZKWeb.System.Drawing",
+    "translatedContent": "* Windows.Compatibility、CoreCompat.System.Drawing、ImageSharp、SkiaSharp、OpenCVSharp、Magick、Kinect V1 和 V2、EmguCV、Eto.Forms、ZKWeb.System.Drawing 绑定"
+  },
+  {
+    "row": 30,
+    "rowsha": "NIkU/QhwakBECByOrz8TjBKjado1D4uytULFEC0WI/I=",
+    "originContent": "* support COM interop, can be used with VBA",
+    "translatedContent": "* 支持 COM 互操作，可用于 VBA"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "6twnsAWUJ/QkrH4g4jWXaYCIrIZuYqxWen2a4EVVg28=",
+    "originContent": "#### obsolete Assemblies are available for the following platforms up to release 0.16:",
+    "translatedContent": "#### 以下平台的过时程序集可用，直到版本0.16："
+  },
+  {
+    "row": 33,
+    "rowsha": "IhrFNjoMLi7/f8qzYCJt9XM8KVxCKyi7XMqRtph5lwU=",
+    "originContent": "* Windows Phone 7.0, 7.1 and 8.0",
+    "translatedContent": "* Windows Phone 7.0、7.1 和 8.0"
+  },
+  {
+    "row": 34,
+    "rowsha": "Rqc64rAeO7eDGfBSZkK1jACCwuJ0tu0VBI0V29m/zII=",
+    "originContent": "* Windows CE",
+    "translatedContent": "* Windows CE"
+  },
+  {
+    "row": 35,
+    "rowsha": "G0DLhq3hEFxoyO1SE7d8hfw5Yk+njrZa8HjUdS5ULDE=",
+    "originContent": "* Silverlight 4 and 5",
+    "translatedContent": "* Silverlight 4 和 5"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "gKpj0yO4PimSEHWTWbJMzQFR+1gZhtbEKzs/50n9rig=",
+    "originContent": "The library is available in the [release section](https://github.com/micjahn/ZXing.Net/releases) and as [NuGet package](https://www.nuget.org/packages/ZXing.Net/), too.",
+    "translatedContent": "该库可在[发布版](https://github.com/micjahn/ZXing.Net/releases)和[NuGet包](https://www.nuget.org/packages/ZXing.Net/)中获取。"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "mHRffZhmZNt6Qxqc5VUxu5FN6JaEtxTPHpNy9f7ni0E=",
+    "originContent": "#### Additional platform support without pre-built binaries",
+    "translatedContent": "#### 无预构建二进制文件的额外平台支持"
+  },
+  {
+    "row": 40,
+    "rowsha": "aJfEXltFAizuQvcA6MWdS0sQ2g3s99hXAS8c5HBrzYU=",
+    "originContent": "The library can be built for Xamarin.iOS (formerly MonoTouch). The project file and solution are available in the source code repository.",
+    "translatedContent": "该库可为 Xamarin.iOS（原 MonoTouch）构建。项目文件和解决方案可在源码仓库中找到。"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "针对 [.Net 微框架](http://www.microsoft.com/netmf/) 的特殊版本可以在源码仓库的独立分支中找到。"
+  },
+  {
+    "row": 42,
+    "rowsha": "DpEzEwLUjqs72Fq/ftBbYzmvJ4c+DDyU0rxfvYv6f68=",
+    "originContent": "A special version for the [.Net Micro Framework](http://www.microsoft.com/netmf/) can be found in a separate branch in the source code repository.",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 提供以下演示客户端："
+  },
+  {
+    "row": 44,
+    "rowsha": "gJbv8ol6bgiYiJvAjxc3CDhb4TW8fG+ReyGZfO0lFnQ=",
+    "originContent": "#### The following demo clients are available:",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 命令行解码器"
+  },
+  {
+    "row": 46,
+    "rowsha": "PUrvpSmHrg9LrHjHLP0XI8DXut6ZSUuBfy8cUHl2H7M=",
+    "originContent": "* decoder for the command line",
+    "translatedContent": "* 命令行编码器"
+  },
+  {
+    "row": 47,
+    "rowsha": "vS4dRvyF/AjmprD55HUH6hku8DpHJgqE9iAU8txUJHQ=",
+    "originContent": "* encoder for the command line",
+    "translatedContent": "* Windows 窗体演示（演示静态图像和摄像头的解码与编码）"
+  },
+  {
+    "row": 48,
+    "rowsha": "/xsy/WtXgCmC4JVBM76+BQ8nEKH+WCXrFxxTuSCj5Og=",
+    "originContent": "* Windows Forms demo (demonstrates decoding and encoding of static images and from a camera)",
+    "translatedContent": "* Windows 服务演示（演示静态图像的解码）"
+  },
+  {
+    "row": 49,
+    "rowsha": "XfG50ldGXwE+oImSA/42NEuS2Za5ank5kEVfvCSSu+g=",
+    "originContent": "* Windows Service demo (demonstrates decoding of static images)",
+    "translatedContent": "* Windows 演示框架演示（演示静态图像的解码）"
+  },
+  {
+    "row": 50,
+    "rowsha": "Qjh7FFk6vNCnJ9QLf4RCNwdrlaBsfpFFVcr4SuOqy3g=",
+    "originContent": "* Windows Presentation Framework demo (demonstrates decoding of static images)",
+    "translatedContent": "* Windows RT 演示（演示静态图像的解码）"
+  },
+  {
+    "row": 51,
+    "rowsha": "YuMBLl+ShBTY2Aj3B/11cupOXp23QJnOHasjyAYm2ZA=",
+    "originContent": "* Windows RT demo (demonstrates decoding of static images)",
+    "translatedContent": "* Windows 商店应用 HTML5/JS（演示静态图像的解码）"
+  },
+  {
+    "row": 52,
+    "rowsha": "rLXj9lq7Ps8Mz83eTNc2oOBEBX8AhyOYGthxVBcyunA=",
+    "originContent": "* Windows Store App with HTML5/JS (demonstrates decoding of static images)",
+    "translatedContent": "* Unity3D 和 Vuforia 演示（演示条码编码及使用 [Unity3D](http://unity3d.com/) 从摄像头解码图像）"
+  },
+  {
+    "row": 53,
+    "rowsha": "/leyZ1hLtPdTFsF/vSA8tP8v8WVZOsiwj6lnEQWIq7I=",
+    "originContent": "* Unity3D and Vuforia demo (demonstrates encoding of barcodes and decoding of images from a camera with [Unity3D](http://unity3d.com/))",
+    "translatedContent": "* EmguCV 演示（演示使用 [EmguCV 框架](http://www.emgu.com/) 从摄像头解码图像）"
+  },
+  {
+    "row": 54,
+    "rowsha": "Tv26rrLTPbsLve2iCY9kIa248uUfVQa5cpos4PZBylE=",
+    "originContent": "* EmguCV demo (demonstrates decoding of images from a camera and uses the [EmguCV framework](http://www.emgu.com/))",
+    "translatedContent": "* OpenCV 演示（演示使用 [OpenCVSharp 框架](https://github.com/shimat/opencvsharp/) 从摄像头解码图像）"
+  },
+  {
+    "row": 55,
+    "rowsha": "PNy30Gd4j9/UmcBZFS8dSAnpT9c/3kpsjxo/bbqwDz4=",
+    "originContent": "* OpenCV demo (demonstrates decoding of images from a camera and uses the [OpenCVSharp framework](https://github.com/shimat/opencvsharp/))",
+    "translatedContent": "* AForge 演示（演示使用 [AForge 框架](http://www.aforgenet.com/) 从摄像头解码图像）"
+  },
+  {
+    "row": 56,
+    "rowsha": "6apgFwzkj6TLaerMe+O4TWseJBwkqRXav++rTVLIVGI=",
+    "originContent": "* AForge demo (demonstrates decoding of images from a camera and uses the [AForge framework](http://www.aforgenet.com/))",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 致谢"
+  },
+  {
+    "row": 58,
+    "rowsha": "Hlc2b08rg0LOEYZFWHgWTiwJnUG0U95FbBqSFSDg31k=",
+    "originContent": "## Thanks",
+    "translatedContent": "非常感谢 [zxing 项目](https://github.com/zxing/zxing) 团队的卓越贡献。没有你们的工作，ZXing.Net 无法实现！"
+  },
+  {
+    "row": 59,
+    "rowsha": "AA8CDGFYN8SW7mEIFBH6hWVrzyFCQnVjM4S2z838ANE=",
+    "originContent": "Many thanks to the team of the [zxing project](https://github.com/zxing/zxing) for their great work. ZXing.Net would not be possible without your work!",
+    "translatedContent": "## 使用示例"
+  },
+  {
+    "row": 60,
+    "rowsha": "uZYWTMHfCjPeWqx+bHFkGvf9XSNlNIyXhAXcEezKSj4=",
+    "originContent": "## Usage examples",
+    "translatedContent": "源码仓库包含了 Windows 窗体、Windows Phone 及其他项目类型的小示例。"
+  },
+  {
+    "row": 61,
+    "rowsha": "G4lg+LPQ/eOwjjE3FxT8+8uaZYsWserux7/dPCJI/A8=",
+    "originContent": "The source code repository includes small examples for Windows Forms, Windows Phone and other project types.",
+    "translatedContent": "以下平台的过时示例可在独立分支中找到："
+  },
+  {
+    "row": 62,
+    "rowsha": "RsjsSN1r+mAs7GLsdhJm2P8puzRaRxh9JIQBZetW7sw=",
+    "originContent": "Obsolete examples are available for the following platforms in separate branches:",
+    "translatedContent": "0.16: "
+  },
+  {
+    "row": 63,
+    "rowsha": "4hf8iDQiH4OFIxBTGm/onqggjQuRsqzTlRmI8aNHPII=",
+    "originContent": "0.16: ",
+    "translatedContent": "* Silverlight 4 和 5，"
+  },
+  {
+    "row": 64,
+    "rowsha": "zd+akcBKnNQkJnhmpswHqDfYJjYmYtyw7FQt2p7+FNE=",
+    "originContent": "* Silverlight 4 and 5,",
+    "translatedContent": "* Windows CE 演示（演示静态图像的解码）"
+  },
+  {
+    "row": 65,
+    "rowsha": "yybr9QwygFVojyapX55wX6WiRTO6d7noTA0sUoYJEzE=",
+    "originContent": "* Windows CE demo (demonstrates decoding of static images)",
+    "translatedContent": "* Windows Phone 演示（演示静态图像及摄像头的解码）"
+  },
+  {
+    "row": 66,
+    "rowsha": "zu//kDrlwN9+Yg1GefRVdpG5uzQZGDVH/MeagOn4VB0=",
+    "originContent": "* Windows Phone demo (demonstrates decoding of static images and from a camera)",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 在位图中解码条码的小示例 (.Net 2.0/3.5/4.x)"
+  },
+  {
+    "row": 68,
+    "rowsha": "b4jWSQGnI135Pf7anvGiKO/gELFvTYtS5iDKFgGZ6zs=",
+    "originContent": "#### small example decoding a barcode inside a bitmap (.Net 2.0/3.5/4.x)",
+    "translatedContent": "以下示例适用于经典 .Net 框架至版本 4.8.1："
+  },
+  {
+    "row": 69,
+    "rowsha": "57bGu8eMh40DYt81vTVzgNm/qCze83Yx0uzB1JTaO5o=",
+    "originContent": "The following example works with the classic .Net framework until version 4.8.1:",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 72,
+    "rowsha": "aXlu7OJBBdSNGCV4wZTTfZYKThTcPNJQQnR+f3VLKiM=",
+    "originContent": "// create a barcode reader instance",
+    "translatedContent": "// create a barcode reader instance"
+  },
+  {
+    "row": 73,
+    "rowsha": "hjLTfzMeMIGcYowl25b1ppJM1YsNTyutgh3u27cflKI=",
+    "originContent": "IBarcodeReader reader = new BarcodeReader();",
+    "translatedContent": "IBarcodeReader reader = new BarcodeReader();"
+  },
+  {
+    "row": 74,
+    "rowsha": "dT4opOO1pgAgAA41ZJO5nvTexHYsDm3ybWAr85H5Ndc=",
+    "originContent": "// load a bitmap",
+    "translatedContent": "// load a bitmap"
+  },
+  {
+    "row": 75,
+    "rowsha": "BgPfQH9+jiJCOZ13qW0RGmhlXuqsUnVGuiiGQtyLcpY=",
+    "originContent": "var barcodeBitmap = (Bitmap)Image.FromFile(\"C:\\\\sample-barcode-image.png\");",
+    "translatedContent": "var barcodeBitmap = (Bitmap)Image.FromFile(\"C:\\\\sample-barcode-image.png\");"
+  },
+  {
+    "row": 76,
+    "rowsha": "XthPorKWVpwNhuJE2QfvlM7CQWnit5bhEWUO8AVKDZM=",
+    "originContent": "// detect and decode the barcode inside the bitmap",
+    "translatedContent": "// detect and decode the barcode inside the bitmap"
+  },
+  {
+    "row": 77,
+    "rowsha": "vpuNPWcNZ+LWE4sULlnCHRUF+qxW/IcDAQG/WBd7hAs=",
+    "originContent": "var result = reader.Decode(barcodeBitmap);",
+    "translatedContent": "var result = reader.Decode(barcodeBitmap);"
+  },
+  {
+    "row": 78,
+    "rowsha": "JKtK+KrnbAM4R9IpqEVOS1SGmQherd9fwTdjDB7uDdM=",
+    "originContent": "// do something with the result",
+    "translatedContent": "// do something with the result"
+  },
+  {
+    "row": 79,
+    "rowsha": "Uw3U6dm11HXkgttfFn3NcgRYamUm3ZxiKyfmw1LKU4c=",
+    "originContent": "if (result != null)",
+    "translatedContent": "if (result != null)"
+  },
+  {
+    "row": 80,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 81,
+    "rowsha": "BEjXbpSp21hSbP3rSQGeeNRRyXMjbtfq7065bjdwnPA=",
+    "originContent": "   txtDecoderType.Text = result.BarcodeFormat.ToString();",
+    "translatedContent": "   txtDecoderType.Text = result.BarcodeFormat.ToString();"
+  },
+  {
+    "row": 82,
+    "rowsha": "GtD1c/feHAvRH16TetJNysJi0C93hkk2UA+p8znbnPM=",
+    "originContent": "   txtDecoderContent.Text = result.Text;",
+    "translatedContent": "   txtDecoderContent.Text = result.Text;"
+  },
+  {
+    "row": 83,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 84,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 85,
+    "rowsha": "zO9bbMVhG9vwsqqbRt9GbZqrHzDNL9WvZOpsnNX5zVg=",
+    "originContent": "#### important notice for .Net Standard and .Net 5.0 and above target platforms",
+    "translatedContent": "#### 针对 .Net Standard 和 .Net 5.0 及以上目标平台的重要通知"
+  },
+  {
+    "row": 86,
+    "rowsha": "5DnNT7RC5UYOazdPavoSUsUgE4JQdNhAP8cuBwOolNQ=",
+    "originContent": "If you want to try the sample code above within a project which target .Net Standard or .Net 5.0 or higher then you have to add one of the",
+    "translatedContent": "如果您想在目标为 .Net Standard 或 .Net 5.0 及更高版本的项目中尝试上述示例代码，则必须添加以下"
+  },
+  {
+    "row": 87,
+    "rowsha": "M5BsoK7FuHdJEQZ0xKTUthC113u/0wgUZlTmVK1NV6g=",
+    "originContent": "additional nuget package for a specific image library: https://www.nuget.org/packages?q=ZXing.Bindings",
+    "translatedContent": "特定图像库的额外 NuGet 包之一：https://www.nuget.org/packages?q=ZXing.Bindings"
+  },
+  {
+    "row": 88,
+    "rowsha": "I5Y2cBvDywOH3WCoFumDiAbt+KjykJpnifgd6Olpzdo=",
+    "originContent": "The main package of ZXing.Net for such platforms only contains the core classes which are not dependent on a specific assembly for image formats.",
+    "translatedContent": "ZXing.Net 在此类平台上的主包仅包含核心类，这些类不依赖于特定的图像格式程序集。"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+    "originContent": "```csharp",
+    "translatedContent": "```csharp"
+  },
+  {
+    "row": 91,
+    "rowsha": "k1O0u7l6z/Ikq7UM53WSMMH+oNAmZCTaEp0ExbTROvY=",
+    "originContent": "// example shows a simple decoding snippet as a .Net 8.0 console appliation which uses the ZXing.Windows.Compatibility package",
+    "translatedContent": "// example shows a simple decoding snippet as a .Net 8.0 console appliation which uses the ZXing.Windows.Compatibility package"
+  },
+  {
+    "row": 92,
+    "rowsha": "XYb5PM5R1FOxQIlvo/w7NkkIQ1LxLkFiQ7NsneSMrIU=",
+    "originContent": "using System.Drawing;",
+    "translatedContent": "using System.Drawing;"
+  },
+  {
+    "row": 93,
+    "rowsha": "TMgnXvrJfbxOYqQEEOTiu1q5k/ly17TDd70mROQvWOc=",
+    "originContent": "using ZXing.Windows.Compatibility;",
+    "translatedContent": "using ZXing.Windows.Compatibility;"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "aXlu7OJBBdSNGCV4wZTTfZYKThTcPNJQQnR+f3VLKiM=",
+    "originContent": "// create a barcode reader instance",
+    "translatedContent": "// create a barcode reader instance"
+  },
+  {
+    "row": 96,
+    "rowsha": "5KwLsAZgVkbqG/HPeujRzTV3qjcqkgaAp5N33UKbPeg=",
+    "originContent": "var reader = new BarcodeReader();",
+    "translatedContent": "var reader = new BarcodeReader();"
+  },
+  {
+    "row": 97,
+    "rowsha": "dT4opOO1pgAgAA41ZJO5nvTexHYsDm3ybWAr85H5Ndc=",
+    "originContent": "// load a bitmap",
+    "translatedContent": "// load a bitmap"
+  },
+  {
+    "row": 98,
+    "rowsha": "BgPfQH9+jiJCOZ13qW0RGmhlXuqsUnVGuiiGQtyLcpY=",
+    "originContent": "var barcodeBitmap = (Bitmap)Image.FromFile(\"C:\\\\sample-barcode-image.png\");",
+    "translatedContent": "var barcodeBitmap = (Bitmap)Image.FromFile(\"C:\\\\sample-barcode-image.png\");"
+  },
+  {
+    "row": 99,
+    "rowsha": "XthPorKWVpwNhuJE2QfvlM7CQWnit5bhEWUO8AVKDZM=",
+    "originContent": "// detect and decode the barcode inside the bitmap",
+    "translatedContent": "// detect and decode the barcode inside the bitmap"
+  },
+  {
+    "row": 100,
+    "rowsha": "vpuNPWcNZ+LWE4sULlnCHRUF+qxW/IcDAQG/WBd7hAs=",
+    "originContent": "var result = reader.Decode(barcodeBitmap);",
+    "translatedContent": "var result = reader.Decode(barcodeBitmap);"
+  },
+  {
+    "row": 101,
+    "rowsha": "JKtK+KrnbAM4R9IpqEVOS1SGmQherd9fwTdjDB7uDdM=",
+    "originContent": "// do something with the result",
+    "translatedContent": "// do something with the result"
+  },
+  {
+    "row": 102,
+    "rowsha": "Uw3U6dm11HXkgttfFn3NcgRYamUm3ZxiKyfmw1LKU4c=",
+    "originContent": "if (result != null)",
+    "translatedContent": "if (result != null)"
+  },
+  {
+    "row": 103,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 104,
+    "rowsha": "d99q5TFwkKJ5vu3+TckCVtp4gg7xJw27NnLwgQp9ADg=",
+    "originContent": "    Console.WriteLine(result.BarcodeFormat.ToString());",
+    "translatedContent": "    Console.WriteLine(result.BarcodeFormat.ToString());"
+  },
+  {
+    "row": 105,
+    "rowsha": "Z6krccKnyvC6Hw8hpIJAFHvCFjCSoW05x3VpC20eE/c=",
+    "originContent": "    Console.WriteLine(result.Text);",
+    "translatedContent": "    Console.WriteLine(result.Text);"
+  },
+  {
+    "row": 106,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 107,
+    "rowsha": "fdUwxNNtpHzTM5ZxjvH6HowPfZHuVR1/3BxzqmXttFQ=",
+    "originContent": "else",
+    "translatedContent": "else"
+  },
+  {
+    "row": 108,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 109,
+    "rowsha": "hUKd72qXVZR/JdssqKSgtZkVv4ekTlM7q2+IPzSpKDM=",
+    "originContent": "    Console.WriteLine(\"No barcode found\");",
+    "translatedContent": "    Console.WriteLine(\"No barcode found\");"
+  },
+  {
+    "row": 110,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 111,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 112,
+    "rowsha": "coQiAf9tHBnExI5J3BOtpakcXn1+CxZ3gZVMEjmjpyw=",
+    "originContent": "## Help wanted",
+    "translatedContent": "## 寻求帮助"
+  },
+  {
+    "row": 113,
+    "rowsha": "p/zONqkTx5zrNIAF0sux2pMw5n5hxA4KRlcG4jdQ3ho=",
+    "originContent": "All help is welcome!",
+    "translatedContent": "欢迎所有帮助！"
+  },
+  {
+    "row": 114,
+    "rowsha": "9BxVj6uHaY/xKjoGCsw4mh6SplbgPVuJnaRxO9kr2wk=",
+    "originContent": "## Feedback",
+    "translatedContent": "## 反馈"
+  },
+  {
+    "row": 115,
+    "rowsha": "L2q5qcCjrEiinT2L1SzkJIMwcbBbd+rI85OZH3QmMtQ=",
+    "originContent": "You use the library?",
+    "translatedContent": "您在使用本库吗？"
+  },
+  {
+    "row": 116,
+    "rowsha": "neJxcymFxmorcUggqH7DVoMFhoVvt/T+I4Y1VBCIEf0=",
+    "originContent": "We would be happy if you give us a short note on the use of the library.",
+    "translatedContent": "如果您能给我们写一段简短的使用心得，我们将非常高兴。"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "i+SU753HTdupWUOmievQ0JP0p23OkzdqWkUIcPPlb6M=",
+    "originContent": "You found a bug?",
+    "translatedContent": "您发现了一个漏洞？"
+  },
+  {
+    "row": 119,
+    "rowsha": "9u9ZO8N+7IOQqc10n12epMLjnrj+pc/89v+yPz6lsPs=",
+    "originContent": "Please create a new issue here or start a discussion about it if you are not sure.",
+    "translatedContent": "请在这里创建一个新的问题，或者如果不确定，可以开启讨论。"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "/g6cTOWpg7TEyYjflACvcT5BREylf1bAG8hGkFG4jG0=",
+    "originContent": "You use the library and you are not happy with it?",
+    "translatedContent": "您在使用本库但不满意？"
+  },
+  {
+    "row": 122,
+    "rowsha": "VklLSDBUWxBB/ffNFMqDX6hjjXFuU2tzG/C1nKkRBck=",
+    "originContent": "Write us an email please or start a discussion about your problems with it. We will try to help you.",
+    "translatedContent": "请给我们发邮件，或者开启讨论，告诉我们您的问题。我们会尽力帮助您。"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "Ic6E2Cf2GqYYtxUDzYxTEmydh/wvPCb5+ERlf4scjm4=",
+    "originContent": "And you can find me on [Twitter](http://twitter.com/micjahn).",
+    "translatedContent": "您也可以在[Twitter](http://twitter.com/micjahn)上找到我。"
+  },
+  {
+    "row": 125,
+    "rowsha": "jAoxLFr18j0IdSGHWkcF4sDeTunkUxFSuejTf1u6YWk=",
+    "originContent": "[![N|http://twitter.com/micjahn](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](http://twitter.com/micjahn)",
+    "translatedContent": "[![N|http://twitter.com/micjahn](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](http://twitter.com/micjahn)"
+  },
+  {
+    "row": 126,
+    "rowsha": "WVBAFfgwhX7jxTH9u4p2fHSxtaX99jgXsYWWjjIjU14=",
+    "originContent": "## Support it",
+    "translatedContent": "## 支持我们"
+  },
+  {
+    "row": 127,
+    "rowsha": "iwEU5q24tWKZH0unKcrH7yTRTAZHeDQZuvp3mSqDwak=",
+    "originContent": "If you find the project useful and you wish to support the future development feel free to support it with a donation.",
+    "translatedContent": "如果您觉得本项目有用，并希望支持未来的发展，欢迎通过捐赠支持。"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "FNvaJIRsvZSjSfd1AKN5t1DSohP4YV++BeEW/C1EOJY=",
+    "originContent": "## Donate",
+    "translatedContent": "## 捐赠"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "wafzeaxeKwFKeQmttAkJopU5/dNxS+naSHZIQQ0zkUg=",
+    "originContent": "[![N|Donate](https://www.paypal.com/en_US/i/btn/btn_donateCC_LG_global.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BYHN42UHPA86E)",
+    "translatedContent": "[![N|Donate](https://www.paypal.com/en_US/i/btn/btn_donateCC_LG_global.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BYHN42UHPA86E)"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "XMrCuPo+ze/wSNRjwzkp7VVH15tKUrXbR6QBYaKslaM=",
+    "originContent": "Beside a donation patches, bug reports, feedback and other useful help are always welcome!",
+    "translatedContent": "除了捐赠，补丁、漏洞报告、反馈和其他有用的帮助也始终受欢迎！"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "bbxamqCRr2Gnwz/Ik2k3WbSF+jc4YntpaZKLSrEXOWQ=",
+    "originContent": "## Sponsors",
+    "translatedContent": "## 赞助商"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "r7BxfnPJUTdO2xEtAUA0QnDin4cdpn803PVjZru1wc8=",
+    "originContent": "Support us with a monthly donation and help us continue our activities. ",
+    "translatedContent": "通过每月捐赠支持我们，帮助我们继续开展工作。"
+  },
+  {
+    "row": 138,
+    "rowsha": "LDq+p8JOJo3ecQlvFn27DEllJr7iLsaAn7rWxJgY7u0=",
+    "originContent": "Become a sponsor and get your logo on our README on Github with a link to your site. ",
+    "translatedContent": "成为赞助商，您的徽标将显示在我们Github的README中，并附带指向您网站的链接。"
+  },
+  {
+    "row": 139,
+    "rowsha": "StAkR+rvRqRpBVZ+g1e6SpE4cb2MtRDQMM8IdbU2Bck=",
+    "originContent": "* [[Become a Github Sponsor](https://github.com/sponsors/micjahn)]",
+    "translatedContent": "* [[成为Github赞助商](https://github.com/sponsors/micjahn)]"
+  },
+  {
+    "row": 140,
+    "rowsha": "jtGIQYsmSpi0n4SCruQcdXK++WYekVKSGR8jMUi21L8=",
+    "originContent": "* [[Become a Opencollective backer/sponsor](https://opencollective.com/zxingnet)]",
+    "translatedContent": "* [[成为Opencollective支持者/赞助商](https://opencollective.com/zxingnet)]"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "QWtF9Wx70c1quRREuDfqvjtZOTJ/HAGk9IpPoD3i064=",
+    "originContent": "## Donation WITHOUT money",
+    "translatedContent": "## 非金钱捐赠"
+  },
+  {
+    "row": 143,
+    "rowsha": "klASietkofGHIyyc29kgnWb2rCorch1jhlq0SI7z9WM=",
+    "originContent": "It would be really, really great if you could support one of my social projects. You can support it WITHOUT paying money.",
+    "translatedContent": "如果您能支持我的社会项目之一，那将非常非常好。您无需支付金钱即可支持它。"
+  },
+  {
+    "row": 144,
+    "rowsha": "XgriaIoo103TqEs/URKNQHVrgeOgyy5rHOjuRSjT2Pc=",
+    "originContent": "You only have to go to the following url before you buy anything from a supported online shop (like Amazon or eBay):  ",
+    "translatedContent": "您只需在购买受支持的在线商店（如Amazon或eBay）的商品前访问以下网址：  "
+  },
+  {
+    "row": 145,
+    "rowsha": "fCN4aZbaHiehPJ0Zg5cVERmww7CJRCC0+3WNRyOfh74=",
+    "originContent": "http://www.bildungsspender.de/kitadorfhain  ",
+    "translatedContent": "http://www.bildungsspender.de/kitadorfhain  "
+  },
+  {
+    "row": 146,
+    "rowsha": "IvUWSwW04uwe54w0qaQwgQIR6bF+6KuydbsKdTKfkFo=",
+    "originContent": "Select you prefered online shop and go shopping like everytime. The online shop will pay a provision to our Kindergarten for your purchase. No extra costs for you. There are 85 thankful kids.",
+    "translatedContent": "选择您偏好的在线商店，像往常一样购物。该商店将为您的购买向我们的幼儿园支付佣金。您无需额外付费。有85个感激的孩子。"
+  },
+  {
+    "row": 147,
+    "rowsha": "ndMLugcXYOdBsU+ulT0dWvfDT++UmPcRu3dmDCiK3lg=",
+    "originContent": "(and one thankful developer of ZXing.Net ;) )",
+    "translatedContent": "（还有一个感激的ZXing.Net开发者 ;) ）"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
