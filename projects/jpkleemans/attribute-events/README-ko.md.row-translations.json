@@ -1,0 +1,662 @@
+[
+  {
+    "row": 1,
+    "rowsha": "7kgI0Av3J8fMC5tUN7Y9MGh+8iGc6LHoT68NEbrryNg=",
+    "originContent": "![Laravel Attribute Events](/../gh-pages/attribute-events.svg#gh-light-mode-only)",
+    "translatedContent": "![Laravel Attribute Events](/../gh-pages/attribute-events.svg#gh-light-mode-only)"
+  },
+  {
+    "row": 2,
+    "rowsha": "MLRKNTPW9FYTRxJ398WoRT92tUXLlPVkZ66vyoFH424=",
+    "originContent": "![Laravel Attribute Events](/../gh-pages/attribute-events-dark.svg#gh-dark-mode-only)",
+    "translatedContent": "![Laravel Attribute Events](/../gh-pages/attribute-events-dark.svg#gh-dark-mode-only)"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 5,
+    "rowsha": "DLUZYLLxKpcAt8qTdZYYQ3J0fVpcmxe0gqRHHy+OIeE=",
+    "originContent": "  <a href=\"https://app.travis-ci.com/jpkleemans/attribute-events\" target=\"_blank\"><img src=\"https://img.shields.io/travis/com/jpkleemans/attribute-events?label=tests&style=flat-square\" alt=\"Build Status\"></a>",
+    "translatedContent": "  <a href=\"https://app.travis-ci.com/jpkleemans/attribute-events\" target=\"_blank\"><img src=\"https://img.shields.io/travis/com/jpkleemans/attribute-events?label=tests&style=flat-square\" alt=\"빌드 상태\"></a>"
+  },
+  {
+    "row": 6,
+    "rowsha": "1Mz3Y2OXHALCpjBv5LliiBuQM3UVO/Gg7RYHFFHQ5ps=",
+    "originContent": "  <a href=\"https://github.com/jpkleemans/attribute-events/commits\" target=\"_blank\"><img src=\"https://img.shields.io/github/last-commit/jpkleemans/attribute-events?label=updated&style=flat-square\" alt=\"Last Updated\"></a>",
+    "translatedContent": "  <a href=\"https://github.com/jpkleemans/attribute-events/commits\" target=\"_blank\"><img src=\"https://img.shields.io/github/last-commit/jpkleemans/attribute-events?label=업데이트됨&style=flat-square\" alt=\"최종 업데이트\"></a>"
+  },
+  {
+    "row": 7,
+    "rowsha": "YcCyP8A3YPQLXSMsFM2WCSDf3t0JTywfHauMx3PDmy8=",
+    "originContent": "  <a href=\"https://packagist.org/packages/jpkleemans/attribute-events\"><img src=\"https://img.shields.io/packagist/v/jpkleemans/attribute-events?label=stable&style=flat-square\" alt=\"Latest Stable Version\"></a>",
+    "translatedContent": "  <a href=\"https://packagist.org/packages/jpkleemans/attribute-events\"><img src=\"https://img.shields.io/packagist/v/jpkleemans/attribute-events?label=안정&style=flat-square\" alt=\"최신 안정 버전\"></a>"
+  },
+  {
+    "row": 8,
+    "rowsha": "ZkBl7VzerFNnDc1O/Luyq7dtglpNQBrhSSZnF0PVbz4=",
+    "originContent": "  <a href=\"https://packagist.org/packages/jpkleemans/attribute-events\"><img src=\"https://img.shields.io/packagist/l/jpkleemans/attribute-events?style=flat-square\" alt=\"License\"></a>",
+    "translatedContent": "  <a href=\"https://packagist.org/packages/jpkleemans/attribute-events\"><img src=\"https://img.shields.io/packagist/l/jpkleemans/attribute-events?style=flat-square\" alt=\"라이선스\"></a>"
+  },
+  {
+    "row": 9,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 12,
+    "rowsha": "b2X80ILdombAFBrIlG9vaVgxo25MgRqK9w1O+/O15/w=",
+    "originContent": "class Order extends Model",
+    "translatedContent": "class Order extends Model"
+  },
+  {
+    "row": 13,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 14,
+    "rowsha": "9klMCv1am7wRRbLkcZYbNqo6fEGQMITjmVxoLhUvn/E=",
+    "originContent": "    protected $dispatchesEvents = [",
+    "translatedContent": "    protected $dispatchesEvents = ["
+  },
+  {
+    "row": 15,
+    "rowsha": "injBUfBJa+A2PMAGiS26Z1ztDLpb0umvdUbMy1wftcE=",
+    "originContent": "        'status:shipped' => OrderShipped::class,",
+    "translatedContent": "        'status:shipped' => OrderShipped::class,"
+  },
+  {
+    "row": 16,
+    "rowsha": "JsSvqDq5nwDNlU5w1nHRe35ZX4y84W6QFr8XjPt9edU=",
+    "originContent": "        'note:*' => OrderNoteChanged::class,",
+    "translatedContent": "        'note:*' => OrderNoteChanged::class,"
+  },
+  {
+    "row": 17,
+    "rowsha": "tImqtZ4ozeLhsmXcaeSs+CDJtMeQja3q2UKShiFjM98=",
+    "originContent": "    ];",
+    "translatedContent": "    ];"
+  },
+  {
+    "row": 18,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 19,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Eloquent 모델은 `created` 및 `deleted`와 같은 여러 유용한 이벤트를 라이프사이클 동안 발생시킵니다. 그러나 모델의 생애 동안 일반적으로 더 많은 비즈니스 의미 있는 이벤트가 발생합니다. 이 라이브러리를 사용하면 속성 변경을 자체 이벤트 클래스에 매핑하여 이를 캡처할 수 있습니다."
+  },
+  {
+    "row": 21,
+    "rowsha": "cnSLQnViCx5G+I7zrMRMVINyJX5OTu/5gN5qNKFtVwg=",
+    "originContent": "Eloquent models fire several handy events throughout their lifecycle, like `created` and `deleted`. However, there are usually many more business meaningful events that happen during a model's life. With this library you can capture those, by mapping attribute changes to your own event classes.",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 23,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 25,
+    "rowsha": "6Hdhf+FziZC0/QR4N1W3HsukwDNRaxmWNRxuVMbkByw=",
+    "originContent": "composer require jpkleemans/attribute-events",
+    "translatedContent": "composer require jpkleemans/attribute-events"
+  },
+  {
+    "row": 26,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "7IYhBXNUuHEdm2jeKg9Hwaza1VRntl447KpIircWU8U=",
+    "originContent": "## How to use it",
+    "translatedContent": "## 사용 방법"
+  },
+  {
+    "row": 29,
+    "rowsha": "a/5p6cOwUIKYOW+HPV+Qc+rrTTUkSmd50OEjKhsDYv0=",
+    "originContent": "Use the `Kleemans\\AttributeEvents` trait in your model and add the attributes to the `$dispatchesEvents` property:",
+    "translatedContent": "모델에서 `Kleemans\\AttributeEvents` 트레이트를 사용하고 속성을 `$dispatchesEvents` 속성에 추가하세요:"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 32,
+    "rowsha": "b2X80ILdombAFBrIlG9vaVgxo25MgRqK9w1O+/O15/w=",
+    "originContent": "class Order extends Model",
+    "translatedContent": "class Order extends Model"
+  },
+  {
+    "row": 33,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 34,
+    "rowsha": "FAArb2eSWAh3Pc7ek6uGwWPlPn3UcX3HEvfUfO9N3RI=",
+    "originContent": "    use AttributeEvents;",
+    "translatedContent": "    use AttributeEvents;"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "9klMCv1am7wRRbLkcZYbNqo6fEGQMITjmVxoLhUvn/E=",
+    "originContent": "    protected $dispatchesEvents = [",
+    "translatedContent": "    protected $dispatchesEvents = ["
+  },
+  {
+    "row": 37,
+    "rowsha": "F5lQVdAPcXlun03Y7NYWvDITJsUXgGPeSzzDM7Lc1eQ=",
+    "originContent": "        'created'         => OrderPlaced::class,",
+    "translatedContent": "        'created'         => OrderPlaced::class,"
+  },
+  {
+    "row": 38,
+    "rowsha": "webnXbBe9IJt0ZFk/WUkLq73sfJFM+GOiaGtcXtAaUg=",
+    "originContent": "        'status:canceled' => OrderCanceled::class,",
+    "translatedContent": "        'status:canceled' => OrderCanceled::class,"
+  },
+  {
+    "row": 39,
+    "rowsha": "3Pc9CXP6exP9yxPQipkSB9PWR29Plkah20a9FFIdQwk=",
+    "originContent": "        'note:*'          => OrderNoteChanged::class,",
+    "translatedContent": "        'note:*'          => OrderNoteChanged::class,"
+  },
+  {
+    "row": 40,
+    "rowsha": "tImqtZ4ozeLhsmXcaeSs+CDJtMeQja3q2UKShiFjM98=",
+    "originContent": "    ];",
+    "translatedContent": "    ];"
+  },
+  {
+    "row": 41,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "속성 이벤트는 업데이트된 모델이 저장된 후에 디스패치됩니다. 각 이벤트는 생성자를 통해 모델의 인스턴스를 받습니다."
+  },
+  {
+    "row": 44,
+    "rowsha": "YD+c5CfIwjUW3i3y4hI2DDNUMEJ8WY/RHjWrLN5PZw8=",
+    "originContent": "The attribute events will be dispatched after the updated model is saved. Each event receives the instance of the model through its constructor.",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> 모델 이벤트 및 `$dispatchesEvents` 속성에 대한 자세한 내용은 <a href=\"https://laravel.com/docs/eloquent#events\" target=\"_blank\">Laravel 문서</a>를 참조하세요."
+  },
+  {
+    "row": 46,
+    "rowsha": "nhDREfqzcRdzrhriG2tG2WPGPgG8AqmFx4Ks/4YoVtQ=",
+    "originContent": "> For more info on model events and the `$dispatchesEvents` property, visit the <a href=\"https://laravel.com/docs/eloquent#events\" target=\"_blank\">Laravel Docs</a>",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 리스닝"
+  },
+  {
+    "row": 48,
+    "rowsha": "KqgVBS9YBQ13NrGoBudKgVP2NdWWv7y1Ce5709yIc/E=",
+    "originContent": "## Listening",
+    "translatedContent": "이제 `EventServiceProvider`의 `$listen` 배열을 통해 이벤트를 구독하거나, 클로저 기반 리스너로 수동 구독할 수 있습니다:"
+  },
+  {
+    "row": 49,
+    "rowsha": "FAoFV2I9cACtkQ5GAtFa9DdrkT8leC4utEQNVdzpaxU=",
+    "originContent": "Now you can subscribe to the events via the `EventServiceProvider` `$listen` array, or manually with Closure based listeners:",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 52,
+    "rowsha": "pzNRgCWgvJQf+9iVqwJnhQSteNi1cOUEKwS53qVLTn8=",
+    "originContent": "Event::listen(function (OrderCanceled $event) {",
+    "translatedContent": "Event::listen(function (OrderCanceled $event) {"
+  },
+  {
+    "row": 53,
+    "rowsha": "CyonsDPgFdlONAMI0Sz79wdmb1HwVdvXRkO3O5xQPHM=",
+    "originContent": "    // Restock inventory",
+    "translatedContent": "    // Restock inventory"
+  },
+  {
+    "row": 54,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 55,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "uDcL7NXLiAUz29PplXO7Ot1iGoHGAgvAKUppR63rEAM=",
+    "originContent": "Or push realtime updates to your users, using Laravel's <a href=\"https://laravel.com/docs/broadcasting\" target=\"_blank\">broadcasting</a> feature:",
+    "translatedContent": "또는 Laravel의 <a href=\"https://laravel.com/docs/broadcasting\" target=\"_blank\">브로드캐스팅</a> 기능을 사용하여 사용자에게 실시간 업데이트를 푸시할 수 있습니다:"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 60,
+    "rowsha": "NBAqjnLOVRE4nUPFXliRmP9oJBs1u1Vh1XuDNRUezVQ=",
+    "originContent": "Echo.channel('orders')",
+    "translatedContent": "Echo.channel('orders')"
+  },
+  {
+    "row": 61,
+    "rowsha": "5yJ764II8Jy+EwCxdD+3C7yTzB0cwaIrPZf0LKrvrGc=",
+    "originContent": "    .listen('OrderShipped', (event) => {",
+    "translatedContent": "    .listen('OrderShipped', (event) => {"
+  },
+  {
+    "row": 62,
+    "rowsha": "MuXGV/Xjhi9Oqj/tAdPej7JyGuKWAcuickbdX0Rc128=",
+    "originContent": "        // Display a notification",
+    "translatedContent": "        // Display a notification"
+  },
+  {
+    "row": 63,
+    "rowsha": "odBdVYeaD6cbal1IjtFl4g+1UKhbjDBNurRPY9Ce3gA=",
+    "originContent": "    })",
+    "translatedContent": "    })"
+  },
+  {
+    "row": 64,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "wKTooEUvhMCWendhSCKyUT8K2OHokXvnHlH40df3Rx4=",
+    "originContent": "## JSON attributes",
+    "translatedContent": "## JSON 속성"
+  },
+  {
+    "row": 67,
+    "rowsha": "H/zWj5x4GeUTo3aLQGf92K1ayyjAjCcqTOFAXGEp4p0=",
+    "originContent": "For attributes stored as JSON, you can use the `->` operator:",
+    "translatedContent": "JSON으로 저장된 속성의 경우 `->` 연산자를 사용할 수 있습니다:"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 70,
+    "rowsha": "WcHxqt8T6MluwiaExQVFTxBSfCzaLRH78GjsbG8htK4=",
+    "originContent": "protected $dispatchesEvents = [",
+    "translatedContent": "protected $dispatchesEvents = ["
+  },
+  {
+    "row": 71,
+    "rowsha": "nKr9Buvyk4phkmwTZDlzNIrkGPLYS2Kfpdede3tFrGU=",
+    "originContent": "    'payment->status:completed' => PaymentCompleted::class,",
+    "translatedContent": "    'payment->status:completed' => PaymentCompleted::class,"
+  },
+  {
+    "row": 72,
+    "rowsha": "NYuj8iI3hNgA6iuo33czj0wIyzssKA7IswIJJforxO8=",
+    "originContent": "];",
+    "translatedContent": "];"
+  },
+  {
+    "row": 73,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "OPi/CQgomxSLq4tkGY1d7K83jt9zf36gVdRwW7hhcxc=",
+    "originContent": "## Accessors",
+    "translatedContent": "## 접근자"
+  },
+  {
+    "row": 76,
+    "rowsha": "TXdvXRwIQqyfbK3SrJ6CYmIotsyDT3JBNGhpxRdS2oI=",
+    "originContent": "For more complex state changes, you can use attributes defined by an <a href=\"https://laravel.com/docs/eloquent-mutators#defining-an-accessor\" target=\"_blank\">accessor</a>:",
+    "translatedContent": "더 복잡한 상태 변경을 위해 <a href=\"https://laravel.com/docs/eloquent-mutators#defining-an-accessor\" target=\"_blank\">접근자</a>로 정의된 속성을 사용할 수 있습니다:"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 79,
+    "rowsha": "gnqtJEbNSd4Ja/WUlvNyzUTDsg2AGck1SRtU6dtAP6k=",
+    "originContent": "class Product extends Model",
+    "translatedContent": "class Product extends Model"
+  },
+  {
+    "row": 80,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 81,
+    "rowsha": "9klMCv1am7wRRbLkcZYbNqo6fEGQMITjmVxoLhUvn/E=",
+    "originContent": "    protected $dispatchesEvents = [",
+    "translatedContent": "    protected $dispatchesEvents = ["
+  },
+  {
+    "row": 82,
+    "rowsha": "2dD7t6rWIpeuIVqc2qAs49xt9DJ90Wc3VcKCpu24uEk=",
+    "originContent": "        'low_stock:true' => ProductReachedLowStock::class,",
+    "translatedContent": "        'low_stock:true' => ProductReachedLowStock::class,"
+  },
+  {
+    "row": 83,
+    "rowsha": "tImqtZ4ozeLhsmXcaeSs+CDJtMeQja3q2UKShiFjM98=",
+    "originContent": "    ];",
+    "translatedContent": "    ];"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "IOXUj3zbj2+q9QOUGwtyCWKBpKWe2+greL0tSOSh7Q4=",
+    "originContent": "    public function getLowStockAttribute(): bool",
+    "translatedContent": "    public function getLowStockAttribute(): bool"
+  },
+  {
+    "row": 86,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 87,
+    "rowsha": "2I+JWeWGvx2f9qUi2Pb6aOJ/2ly88kbQ75v84HHyuhw=",
+    "originContent": "        return $this->stock <= 3;",
+    "translatedContent": "        return $this->stock <= 3;"
+  },
+  {
+    "row": 88,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 89,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 90,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> Laravel 9에서 도입된 [새로운 접근자 정의 방식](https://laravel.com/docs/9.x/releases#eloquent-accessors-and-mutators)도 사용할 수 있습니다."
+  },
+  {
+    "row": 92,
+    "rowsha": "plAiBCro4+58QoRGEcs3CQeZDdpzvXzTFFd5r++plgI=",
+    "originContent": "> You can also use the [new way of defining accessors](https://laravel.com/docs/9.x/releases#eloquent-accessors-and-mutators) introduced in Laravel 9.",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 자세히 알아보기"
+  },
+  {
+    "row": 94,
+    "rowsha": "KDCqpPQsLqWepPTHrvLCZSARlXi6CJLhyRgzCs+TT9w=",
+    "originContent": "## Learn more",
+    "translatedContent": "- Jan-Paul Kleemans의 [“Attribute Events를 사용하여 Laravel 코드를 분리하기”](https://jpkleemans.medium.com/decouple-your-laravel-code-using-attribute-events-de8f2528f46a)"
+  },
+  {
+    "row": 95,
+    "rowsha": "kbJlWswPMqLQPlsmYkapvQe2NJ5xY2kRgUCHXpQPTjA=",
+    "originContent": "- [“Decouple your Laravel code using Attribute Events”](https://jpkleemans.medium.com/decouple-your-laravel-code-using-attribute-events-de8f2528f46a) by Jan-Paul Kleemans",
+    "translatedContent": "- [모델 이벤트에 대한 Laravel 문서](https://laravel.com/docs/eloquent#events)"
+  },
+  {
+    "row": 96,
+    "rowsha": "3zzXGhXrxE6A01ptco7YuabB+LHOUfzLlsPXdvgaCgw=",
+    "originContent": "- [Laravel Docs on Model Events](https://laravel.com/docs/eloquent#events)",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 후원사"
+  },
+  {
+    "row": 98,
+    "rowsha": "bbxamqCRr2Gnwz/Ik2k3WbSF+jc4YntpaZKLSrEXOWQ=",
+    "originContent": "## Sponsors",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<a href=\"https://www.nexxtmove.nl/\" target=\"_blank\">"
+  },
+  {
+    "row": 100,
+    "rowsha": "Xbw8TCw8Z7jXLHOqhSBqToVJaZN9fn1tNN3tjZd36tI=",
+    "originContent": "<a href=\"https://www.nexxtmove.nl/\" target=\"_blank\">",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/jpkleemans/attribute-events/gh-pages/nexxtmove-logo.svg\" alt=\"Nexxtmove 로고\" width=\"200\">"
+  },
+  {
+    "row": 101,
+    "rowsha": "tsdkcdNxPheWN5alq2uazQ/qmFEM/Y5WetOQbAfeENg=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/jpkleemans/attribute-events/gh-pages/nexxtmove-logo.svg\" alt=\"Nexxtmove Logo\" width=\"200\">",
+    "translatedContent": "</a>"
+  },
+  {
+    "row": 102,
+    "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+    "originContent": "</a>",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 프로젝트 개발을 후원해 주신 <a href=\"https://www.nexxtmove.nl/\" target=\"_blank\">Nexxtmove</a>에 감사드립니다.  "
+  },
+  {
+    "row": 104,
+    "rowsha": "BZPzjF+2GXs/l7TcRZKww/fl/OCKhjEvRxlQGCOmjGI=",
+    "originContent": "Thanks to <a href=\"https://www.nexxtmove.nl/\" target=\"_blank\">Nexxtmove</a> for sponsoring the development of this project.  ",
+    "translatedContent": "여기에 로고나 이름을 넣고 싶으신가요? [이 프로젝트 후원하기](https://github.com/sponsors/jpkleemans)."
+  },
+  {
+    "row": 105,
+    "rowsha": "upOCpVVdL3u8pOwUZpv67mTeUY7jy3vzCMqNpWBJwrE=",
+    "originContent": "Your logo or name here? [Sponsor this project](https://github.com/sponsors/jpkleemans).",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 라이선스"
+  },
+  {
+    "row": 107,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "코드는 [MIT 라이선스](https://github.com/jpkleemans/attribute-events/blob/master/LICENSE) 하에 배포됩니다."
+  },
+  {
+    "row": 109,
+    "rowsha": "j0ZD80V5jyviqtCkRt8ltTJ7a24KUTFE9jPIEDuP77A=",
+    "originContent": "Code released under the [MIT License](https://github.com/jpkleemans/attribute-events/blob/master/LICENSE).",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

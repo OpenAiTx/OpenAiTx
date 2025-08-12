@@ -1,0 +1,728 @@
+[
+  {
+    "row": 1,
+    "rowsha": "pnGwMOu+CxHlLozzUiYLJ0ibf94C5rNibBimoTQPEnY=",
+    "originContent": "# Stixview",
+    "translatedContent": "# Stixview"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "1JK+uhxvGwMJ4iKVAzOfJpOjhlmnvz7E777y/gWMcus=",
+    "originContent": "[![npm version](https://badge.fury.io/js/stixview.svg)](https://badge.fury.io/js/stixview)",
+    "translatedContent": "[![npm version](https://badge.fury.io/js/stixview.svg)](https://badge.fury.io/js/stixview)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "bXcW4ej2gOGCwy7qkVzwgkxGUP7A0OPy/iAuEhh5RYU=",
+    "originContent": "[Stixview](https://github.com/traut/stixview) is a JS library for embeddable interactive STIX2 graphs.",
+    "translatedContent": "[Stixview](https://github.com/traut/stixview) 是一个用于嵌入交互式 STIX2 图的 JS 库。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "v3fX4RjxFmnVGouLaQUO99pcF4wnQ7S2jn5cai1aM0I=",
+    "originContent": "> [!NOTE]  ",
+    "translatedContent": "> [!注意]  "
+  },
+  {
+    "row": 8,
+    "rowsha": "FSK8BbrNKKRvCdNTbcbG68ROPZkCXnWlYEh4Xh4pA98=",
+    "originContent": "> Hosted version of Stixview is available at [CTIChef.com](https://ctichef.com)",
+    "translatedContent": "> Stixview 的托管版本可在 [CTIChef.com](https://ctichef.com) 访问"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "Rj4NyXYAyzc3wkRYWuYLdAmZAebebI3+ulZuRpE7sWk=",
+    "originContent": "![Stixview graph](https://raw.githubusercontent.com/traut/stixview/master/.github/stixview-graph.png)",
+    "translatedContent": "![Stixview graph](https://raw.githubusercontent.com/traut/stixview/master/.github/stixview-graph.png)"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "XkjmO8GZw+NPlqtsKIz94hXoCCSSximfmFKrLHYsZ2I=",
+    "originContent": "## Motivation",
+    "translatedContent": "## 动机"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "hMfZO5/JkRjNgkgtNqOrmX+Q3sNehjF1jY5Hc9HM9lQ=",
+    "originContent": "CTI (Cyber Threat Intelligence) is very much about telling stories. Information becomes intelligence when it is complimented with a context and is placed in a story. These stories are usually crystallised in the reports by an intelligence provider and disseminated to the customers.",
+    "translatedContent": "CTI（网络威胁情报）非常注重讲述故事。信息在具备上下文并被置于故事中时，才成为情报。这些故事通常由情报提供者在报告中结晶，并传播给客户。"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "oiDCVu2us43Q6HRmM5Uzr/G+yPG6bpjGV2Gf3HQS5Ls=",
+    "originContent": "If intelligence provider cares about structured machine-readable CTI, the reports produced will be supplemented with [STIX2](https://oasis-open.github.io/cti-documentation/) bundles. There is a gap there between a story, narrated in a report, and a structured CTI snapshot, represented by a STIX2 bundle.",
+    "translatedContent": "如果情报提供者关注结构化的机器可读 CTI，所产生的报告将附带 [STIX2](https://oasis-open.github.io/cti-documentation/) 包。报告中叙述的故事与由 STIX2 包表示的结构化 CTI 快照之间存在差距。"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "6GdapSLowyzJoPSHXSISvVgAdREuoiNFpb23rQPAEw8=",
+    "originContent": "The objective of [Stixview](https://github.com/traut/stixview) library is to provide easily embeddable STIX2 graphs with necessary level of interactivity, so that CTI community can create informative and engaging stories.",
+    "translatedContent": "[Stixview](https://github.com/traut/stixview) 库的目标是提供易于嵌入且具备必要交互性的 STIX2 图，以便 CTI 社区能够创建信息丰富且吸引人的故事。"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "t5ZY7hdgJWgoAzJoT0P8EoI2v+qmVbi7gITr3Qnf1Ow=",
+    "originContent": "## Demos",
+    "translatedContent": "## 演示"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "Rh8a4/J9Tzl6J06KG1y5y9GYCyME3i5vhFKXmQhKPx0=",
+    "originContent": "To see Stixview in action, take a look at these demo pages:",
+    "translatedContent": "要查看 Stixview 的实际效果，请查看以下演示页面："
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "fIpd4DF6KaYNY9983EGHva4FU1kEMpzXypC8+8cxMDI=",
+    "originContent": "* [STIX2.1 demo](https://traut.github.io/stixview/dist/demos/stix21-demo.html) — sample graph with all STIX 2.1 objects.",
+    "translatedContent": "* [STIX2.1 演示](https://traut.github.io/stixview/dist/demos/stix21-demo.html) — 包含所有 STIX 2.1 对象的示例图。"
+  },
+  {
+    "row": 25,
+    "rowsha": "txAev7+5oXS8Og9lXUXY0qowlR+0pAm6On6VQwGK7yE=",
+    "originContent": "* [Storyline](https://traut.github.io/stixview/dist/demos/story.html) — multiple graphs per page, rendering selected entities from the same STIX bundle.",
+    "translatedContent": "* [故事线](https://traut.github.io/stixview/dist/demos/story.html) — 每页多个图，呈现同一 STIX 包中选定实体。"
+  },
+  {
+    "row": 26,
+    "rowsha": "37Y/WXdFG0KTL0oNWc/MrpeGZR10atha7gHVJ471C4k=",
+    "originContent": "* [Viewer](https://traut.github.io/stixview/dist/demos/viewer.html) — graph viewer with custom controls.",
+    "translatedContent": "* [查看器](https://traut.github.io/stixview/dist/demos/viewer.html) — 带有自定义控件的图查看器。"
+  },
+  {
+    "row": 27,
+    "rowsha": "j0qUaV+pzgD3fQgD7nyHYMNhHmFLyooEPNtcIUZ9qd0=",
+    "originContent": "* [Drag-n-drop](https://traut.github.io/stixview/dist/demos/drag-n-drop.html) — graph views with drag-n-drop enabled.",
+    "translatedContent": "* [拖放](https://traut.github.io/stixview/dist/demos/drag-n-drop.html) — 启用拖放功能的图视图。"
+  },
+  {
+    "row": 28,
+    "rowsha": "CYBVdj4CIB4XmLZnFJ+pS1605R263RavPmmniZwXEMA=",
+    "originContent": "* [Dark theme graph from inline data](https://traut.github.io/stixview/dist/demos/load-data.html) — rendering graph from inline STIX2 bundle and custom styling.",
+    "translatedContent": "* [从内联数据生成的暗色主题图](https://traut.github.io/stixview/dist/demos/load-data.html) — 从内联 STIX2 包和自定义样式渲染图。"
+  },
+  {
+    "row": 29,
+    "rowsha": "gXc0v+vcsgX24mrEjZsPUO6bkwfIx3Y9lr1UM/P7vNQ=",
+    "originContent": "* [TLP tags and custom sidebar content renderer](https://traut.github.io/stixview/dist/demos/tags-and-custom-sidebar.html) — TLP marking definitions shown as tags and sidebar is rendered with provided function.",
+    "translatedContent": "* [TLP 标签和自定义侧边栏内容渲染器](https://traut.github.io/stixview/dist/demos/tags-and-custom-sidebar.html) — 将 TLP 标记定义显示为标签，侧边栏由提供的函数渲染。"
+  },
+  {
+    "row": 30,
+    "rowsha": "uU6OE1XlDGJJdbSnMmka0uh88butfcKHQhOUTZbbEhM=",
+    "originContent": "* [Examples of various configuration settings](https://traut.github.io/stixview/dist/demos/misc.html)",
+    "translatedContent": "* [各种配置设置示例](https://traut.github.io/stixview/dist/demos/misc.html)"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "LuniWieG6JiWaMHMHOIkHotUR31R9KyP5eFeYIImbWw=",
+    "originContent": "To use Stixview in a browser, download the latest build from `dist` directory (`stixview.bundle.js`) and reference it from your HTML file:",
+    "translatedContent": "在浏览器中使用 Stixview，请从 `dist` 目录下载最新构建文件（`stixview.bundle.js`），并在您的 HTML 文件中引用："
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 37,
+    "rowsha": "P8K9gX+/pKo84RZQB5lCojLnpprF5eiN/ID/nK8bGWo=",
+    "originContent": "<script src=\"stixview.bundle.js\" type=\"text/javascript\"></script>",
+    "translatedContent": "<script src=\"stixview.bundle.js\" type=\"text/javascript\"></script>"
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "或使用 [unpkg](https://unpkg.com) CDN 服务："
+  },
+  {
+    "row": 40,
+    "rowsha": "IDyVXb+Sy+nU/Evip9igULYSbcnFbA4hk/rKsfoQmT0=",
+    "originContent": "or use [unpkg](https://unpkg.com) CDN service:",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 43,
+    "rowsha": "1/QDMFbP8t19pdaVQXMUj0VBzTOob+NYaTfxm3LP9UQ=",
+    "originContent": "<script src=\"https://unpkg.com/stixview/dist/stixview.bundle.js\" type=\"text/javascript\"></script>",
+    "translatedContent": "<script src=\"https://unpkg.com/stixview/dist/stixview.bundle.js\" type=\"text/javascript\"></script>"
+  },
+  {
+    "row": 44,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "QMr2bE3lbka3JIXEet/0kWxLx+Vj7Nn3J46dyvktHK0=",
+    "originContent": "## API",
+    "translatedContent": "## API"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "BybV/MqhjmwBDFSq/gyBZKYQMqpmbO9UCVA7n+dA4o8=",
+    "originContent": "The library relies heavily on [data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes).",
+    "translatedContent": "该库在很大程度上依赖于 [数据属性](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)。"
+  },
+  {
+    "row": 49,
+    "rowsha": "vDFLn0DrUUs063+cBL/eQ0UIdT9LfJYMxD6iGhuFikg=",
+    "originContent": "On page load, Stixview will find all HTML elements with `data-stix-gist-id`, `data-stix-url` or `data-stix-allow-dragdrop` set and use these elements as graph holders.",
+    "translatedContent": "页面加载时，Stixview 会查找所有设置了 `data-stix-gist-id`、`data-stix-url` 或 `data-stix-allow-dragdrop` 的 HTML 元素，并将这些元素用作图表容器。"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "8fQ2R6THzGZ3jjz3HJ/L23O900mqvsO/tvgUj3nrEgg=",
+    "originContent": "Example of a graph holder div:",
+    "translatedContent": "图表容器 div 示例："
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 54,
+    "rowsha": "8EWf6YZJdr3CA322b8mpi1gWVnAskxNdq5vqtt+fXzA=",
+    "originContent": "<div data-stix-gist-id=\"6a0fbb0f6e7faf063c748b23f9c7dc62\"",
+    "translatedContent": "<div data-stix-gist-id=\"6a0fbb0f6e7faf063c748b23f9c7dc62\""
+  },
+  {
+    "row": 55,
+    "rowsha": "WV8Ty1nFYICBKAkAzxYKcEu4QxaS4/KzvMh4iuwvJpY=",
+    "originContent": "     data-show-sidebar=true",
+    "translatedContent": "     data-show-sidebar=true"
+  },
+  {
+    "row": 56,
+    "rowsha": "irAW0LDG++4L7i1ELvFjvdLfwI3Xbblnbw2e0u14Kns=",
+    "originContent": "     data-enable-mouse-zoom=false",
+    "translatedContent": "     data-enable-mouse-zoom=false"
+  },
+  {
+    "row": 57,
+    "rowsha": "7lzeqC/r7zyeevnxIYF2QCRVplAjCKBkxAcoPyLAbts=",
+    "originContent": "     data-graph-width=500",
+    "translatedContent": "     data-graph-width=500"
+  },
+  {
+    "row": 58,
+    "rowsha": "frbAv0NH2bKI5s7A36xduDptWzJFOC0H/3zrqQlXTv4=",
+    "originContent": "     data-graph-height=300>",
+    "translatedContent": "     data-graph-height=300>"
+  },
+  {
+    "row": 59,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "68E5Ep1T5jbnaPzvETiOJxr0R3Jo9KZZdi+7Y540Q/8=",
+    "originContent": "### Data attributes",
+    "translatedContent": "### 数据属性"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "hd0FXrDHSCKRvEvTAzoXedmNkqgG1KFeNZDIo4gWFmg=",
+    "originContent": "Every holder element _must have_ one of `data-stix-gist-id`, `data-stix-url` or `data-stix-allow-dragdrop` set, otherwise it will not be detected by the library.",
+    "translatedContent": "每个持有元素_必须_设置`data-stix-gist-id`、`data-stix-url`或`data-stix-allow-dragdrop`中的一个，否则库将无法检测到该元素。"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "0TriuROSOSf7k9VKtLv+HbO1HP2H5VNOeMHCJ21MGvc=",
+    "originContent": "Stixview supports these `data-` attributes:",
+    "translatedContent": "Stixview支持以下`data-`属性："
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "kzMfMbZQiVihdiwzUsAN1yHKW36xvWiED/COMtOZV9A=",
+    "originContent": "* `stix-gist-id` — id of a gist that contains STIX2 bundle. if `gist-file` is not specified, first file will be used.",
+    "translatedContent": "* `stix-gist-id` — 包含STIX2包的gist的ID。如果未指定`gist-file`，则使用第一个文件。"
+  },
+  {
+    "row": 69,
+    "rowsha": "XdUucI9xY2Ml+AEaeTSYQ2iUPmCV3V4Q5JaFSrRG4Eg=",
+    "originContent": "* `gist-file` — name of a file from gist to be used as STIX2 bundle. Only used if `stix-gist-id` is set.",
+    "translatedContent": "* `gist-file` — gist中用作STIX2包的文件名。仅当设置了`stix-gist-id`时使用。"
+  },
+  {
+    "row": 70,
+    "rowsha": "lRqRI/cECOjhFRL2PLn7+XhlXjG0EyRzWyCUUSBcGJM=",
+    "originContent": "* `stix-url` — URL pointing to a remote STIX2 bundle JSON file.",
+    "translatedContent": "* `stix-url` — 指向远程STIX2包JSON文件的URL。"
+  },
+  {
+    "row": 71,
+    "rowsha": "m7ANnCBvVQ+IdVFoxJBRtSryxBAJgYmm2f99saKe0Eg=",
+    "originContent": "* `stix-allow-dragdrop` (`false` by default) — enable ability to drag-n-drop STIX2 bundle into the graph element. If this property is set to `true` and `stix-gist-id` and `stix-url` are not specified, empty graph will be rendered.",
+    "translatedContent": "* `stix-allow-dragdrop`（默认`false`）— 启用将STIX2包拖放到图形元素中的功能。如果该属性设置为`true`且未指定`stix-gist-id`和`stix-url`，将渲染空图。"
+  },
+  {
+    "row": 72,
+    "rowsha": "33vCDHEl7vd5r4UsynLiAsGk9mz+nIJPBDyRnZn9xeg=",
+    "originContent": "* `caption` — a title of the graph. Header is not shown if `caption` is not set.",
+    "translatedContent": "* `caption` — 图的标题。如果未设置`caption`，则不显示标题。"
+  },
+  {
+    "row": 73,
+    "rowsha": "h75poYZsBPuksM9a6kM9+4vXL4jYQPAdOuxVsUOBwdM=",
+    "originContent": "* `show-footer` (`true` by default) — show a footer with the download links to STIX2 bundle and PNG file.",
+    "translatedContent": "* `show-footer`（默认`true`）— 显示包含STIX2包和PNG文件下载链接的页脚。"
+  },
+  {
+    "row": 74,
+    "rowsha": "5BeFzlXAtwQF67qu4jMIUQVQz6zPvbePaaG62jgjE8Y=",
+    "originContent": "* `show-sidebar` (`true` by default) — enable a sidebar with object details, opened when object is clicked on.",
+    "translatedContent": "* `show-sidebar`（默认`true`）— 启用侧边栏，点击对象时显示对象详情。"
+  },
+  {
+    "row": 75,
+    "rowsha": "5y7Nv8/IM13sG0C02D2cBPLEWOOtW5RiC6htYSx4u4Q=",
+    "originContent": "* `show-tlp-as-tags` (`true` by default) — show connected TLP marking definition objects as tags on entities.",
+    "translatedContent": "* `show-tlp-as-tags`（默认`true`）— 将关联的TLP标记定义对象显示为实体上的标签。"
+  },
+  {
+    "row": 76,
+    "rowsha": "yzG1/hHhRY/Q5AX3mp9gTqY4fV3054W2zLG5tHhpi3A=",
+    "originContent": "* `show-marking-nodes` (`true` by default) — show the marking definition nodes.",
+    "translatedContent": "* `show-marking-nodes`（默认`true`）— 显示标记定义节点。"
+  },
+  {
+    "row": 77,
+    "rowsha": "cgCgSNrFiXvfK5jviAKvudA6uOyRAxtX+xN4ta9qhr4=",
+    "originContent": "* `show-labels` (`true` by default) — show node labels.",
+    "translatedContent": "* `show-labels`（默认`true`）— 显示节点标签。"
+  },
+  {
+    "row": 78,
+    "rowsha": "ozfaRmWlKxnrDUfpMZkfjVDH3BErTrzl/fborWW+6Us=",
+    "originContent": "* `show-idrefs` (`false` by default) — show placeholder objects for ids mentioned in the relationships but not present in a bundle.",
+    "translatedContent": "* `show-idrefs`（默认`false`）— 显示关系中提及但未包含在包中的ID的占位符对象。"
+  },
+  {
+    "row": 79,
+    "rowsha": "TEr3JuxNaQMm5I0SXuIrmJmEykYNhQwSlv2YoBiAHTo=",
+    "originContent": "* `graph-layout` (`cola` by default) — name of the graph layout algorythm. Supported algorythms are `cola` , `klay`, `cose-bilkent`, `cise`, `grid` and `dagre`.",
+    "translatedContent": "* `graph-layout`（默认`cola`）— 图布局算法名称。支持的算法有`cola`、`klay`、`cose-bilkent`、`cise`、`grid`和`dagre`。"
+  },
+  {
+    "row": 80,
+    "rowsha": "5BSh2NVFyy5EsUopP8NEI8nu9XUYaXG+pj/3JGmCAbE=",
+    "originContent": "* `enable-mouse-zoom` (`true` by default) — enable mouse wheel zoom.",
+    "translatedContent": "* `enable-mouse-zoom`（默认`true`）— 启用鼠标滚轮缩放。"
+  },
+  {
+    "row": 81,
+    "rowsha": "GYByQuxX+BUK4jUq95hVKiA1aKwk7cNRrsI3R4rEON0=",
+    "originContent": "* `enable-panning` (`true` by default) — enable panning in the graph. If `false`, a graph has a fixed view. Users will still be able to drag nodes around.",
+    "translatedContent": "* `enable-panning`（默认`true`）— 启用图的平移。如果为`false`，图视图固定，用户仍可拖动节点。"
+  },
+  {
+    "row": 82,
+    "rowsha": "rR3zTA+T+U8KJ+Ww+rXKaFWXR5XZ64wnfP5MwQlPWWg=",
+    "originContent": "* `highlighted-objects` — a string with comma-separated STIX2 ids. If set, graph will contain _only objects with ids listed_.",
+    "translatedContent": "* `highlighted-objects` — 以逗号分隔的STIX2 ID字符串。如果设置，图只包含列出的ID对象。"
+  },
+  {
+    "row": 83,
+    "rowsha": "Nlq9q+0vrb0mCTFpIutYiYH3zvgv7KXlhzAcLRR+7ug=",
+    "originContent": "* `hidden-objects` — a string with comma-separated STIX2 ids. If set, objects with ids listed will be skipped and not rendered in the graph.",
+    "translatedContent": "* `hidden-objects` — 以逗号分隔的STIX2 ID字符串。设置后，列出的ID对象将被跳过，不在图中渲染。"
+  },
+  {
+    "row": 84,
+    "rowsha": "jWinUgdlvvZMov68Pdv8qVCHcHxXIVJMecUCOs7POHY=",
+    "originContent": "* `min-zoom` (`0.3` by default) — minimum allowed zoom.",
+    "translatedContent": "* `min-zoom`（默认`0.3`）— 最小允许缩放比例。"
+  },
+  {
+    "row": 85,
+    "rowsha": "HV4/6G6pYTOD3stzhdjJbLm4Fca9yCc9liWbsH97bhM=",
+    "originContent": "* `max-zoom` (`2.5` by default) — maximum allowed zoom.",
+    "translatedContent": "* `max-zoom`（默认`2.5`）— 最大允许缩放比例。"
+  },
+  {
+    "row": 86,
+    "rowsha": "M9Y6l25eXkryk/ZzPw3HL4Byv5JEU7XPGGkgGDOMT6s=",
+    "originContent": "* `graph-width` (all available width by default) — width of a graph element. Both pixel and % values are supported (see misc demo page for an example).",
+    "translatedContent": "* `graph-width`（默认占满所有可用宽度）— 图元素宽度。支持像素和百分比值（参见misc演示页面示例）。"
+  },
+  {
+    "row": 87,
+    "rowsha": "axdtu0dkMVVFm6gkScgWJbyjF08Wp1daynf+1Mm+cjg=",
+    "originContent": "* `graph-height` (`600` pixels by default) — height of a graph element. Both pixel and % values are supported (see misc demo page for an example).",
+    "translatedContent": "* `graph-height`（默认`600`像素）— 图元素高度。支持像素和百分比值（参见misc演示页面示例）。"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "a/OvHRQ70NSeK4OdhKTXPfa8OL5tIyYxGw7QTxiIss4=",
+    "originContent": "### Browser object",
+    "translatedContent": "### 浏览器对象"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "/fNDNbaticKwxRcrsJwKXSqaZ+jXbgtTcx11YODyprg=",
+    "originContent": "The library, when used in a browser, will register `stixview` variable on `window` object with these properties:",
+    "translatedContent": "在浏览器中使用时，库会在`window`对象上注册`stixview`变量，具有以下属性："
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "TI4DfuhjSPjf+gZrIZMsHJWVdL/YaF19D4j/ohOUQyI=",
+    "originContent": "* `registry` — a registry of graphs initiated on a page.",
+    "translatedContent": "* `registry` — 页面上已初始化图的注册表。"
+  },
+  {
+    "row": 94,
+    "rowsha": "Sc3KB7ZBWuMrCZX5fT6fi48qZpcGX1Q6a+yM35B0qmY=",
+    "originContent": "* `onInit(selector, callback)` – listener hook for graph's init event on a DOM element that matches provided `selector` value (see [demo](https://traut.github.io/stixview/dist/demos/viewer.html) for usage example). Callback receive instance of a graph interface.",
+    "translatedContent": "* `onInit(selector, callback)` – 针对匹配提供的`selector`的DOM元素的图初始化事件的监听钩子（参见[演示](https://traut.github.io/stixview/dist/demos/viewer.html)的使用示例）。回调接收图接口实例。"
+  },
+  {
+    "row": 95,
+    "rowsha": "tWrWy3PMgUt414RKoO9EX4EuX97PkFDqVBDQEXW6POs=",
+    "originContent": "* `onLoad(selector, callback)` – listener hook for graph's load event on a DOM element that matches provided `selector` value (see [demo](https://traut.github.io/stixview/dist/demos/viewer.html) for usage example). Callback receive instance of a graph interface.",
+    "translatedContent": "* `onLoad(selector, callback)` – 针对匹配提供的`selector`的DOM元素的图加载事件的监听钩子（参见[演示](https://traut.github.io/stixview/dist/demos/viewer.html)的使用示例）。回调接收图接口实例。"
+  },
+  {
+    "row": 96,
+    "rowsha": "cbyXQPQaYc3bGmmT2C5LIBKFn4VcmLDBu4bHiz9cDlc=",
+    "originContent": "* `init(element, properties, initCallback, loadCallback)` — method that initiates a graph view in specified `element` with provided `properties` that override defaults (see [demo](https://traut.github.io/stixview/dist/demos/load-data.html) for usage example).",
+    "translatedContent": "* `init(element, properties, initCallback, loadCallback)` — 在指定`element`中初始化图视图的方法，使用提供的`properties`覆盖默认值（参见[演示](https://traut.github.io/stixview/dist/demos/load-data.html)的使用示例）。"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "fV4usKXHTmMSVVLyW7GAM95Pig9cFkmzMY1jn5Vv4n0=",
+    "originContent": "### Graph object",
+    "translatedContent": "### 图对象"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "9NxW7Bspwxaqziq6AfkM8CJ3olcWwMXiNnwdvj52h6w=",
+    "originContent": "Graph is an object with properties:",
+    "translatedContent": "图是具有以下属性的对象："
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "hPQ/13tgeR89aBFwqIrhp0XXvA27iswIPtP3cHDFJH8=",
+    "originContent": "* `cy` – [cytoscape.js](http://js.cytoscape.org) graph object.",
+    "translatedContent": "* `cy` – [cytoscape.js](http://js.cytoscape.org) 图对象。"
+  },
+  {
+    "row": 103,
+    "rowsha": "ADFTBrAs09rqibNrNePaOANeBL7u6jQsdqLHSaPeNCE=",
+    "originContent": "* `element` — DOM element that holds a graph.",
+    "translatedContent": "* `element` — 保存图的 DOM 元素。"
+  },
+  {
+    "row": 104,
+    "rowsha": "A+3gxwNIqORzwcWmb9a+aluwCj/N1WmPZgKnp+1dL5A=",
+    "originContent": "* `dataProps` – configured data filtering properties.",
+    "translatedContent": "* `dataProps` – 配置的数据过滤属性。"
+  },
+  {
+    "row": 105,
+    "rowsha": "Dap5POxbotM2przxtgsjl47w+h6MeicSFRB9jjEa4UE=",
+    "originContent": "* `viewProps` – configured viewing properties.",
+    "translatedContent": "* `viewProps` – 配置的视图属性。"
+  },
+  {
+    "row": 106,
+    "rowsha": "zwF9Rvux0hMxn5qCrTf9XF/0Yp2M2pqFYCavW1xDPT0=",
+    "originContent": "* `runLayout(name)` — run specific layout on a graph.",
+    "translatedContent": "* `runLayout(name)` — 在图上运行特定布局。"
+  },
+  {
+    "row": 107,
+    "rowsha": "rdRcpU4J5S9fttxXWu2Xh8JFlC1eX/qkLBqDIJz/y3s=",
+    "originContent": "* `reloadData()` — reload graph data with new data filtering properties.",
+    "translatedContent": "* `reloadData()` — 使用新的数据过滤属性重新加载图数据。"
+  },
+  {
+    "row": 108,
+    "rowsha": "4O4T5aMowv1cZ4WWnU0vZMLSxGfZYIKoi2i0+BFgghQ=",
+    "originContent": "* `fit()` — fit graph fully into a graph view.",
+    "translatedContent": "* `fit()` — 将图完全适配到图视图中。"
+  },
+  {
+    "row": 109,
+    "rowsha": "LiinpU/LH77sb3/Xl6JKw51SOsLt0Nq7WVap0ibPs9U=",
+    "originContent": "* `toggleLabels(<bool-value>)` — show / hide node labels.",
+    "translatedContent": "* `toggleLabels(<bool-value>)` — 显示 / 隐藏节点标签。"
+  },
+  {
+    "row": 110,
+    "rowsha": "MbFTYyDLa3oR8gzdIR1C/s/cQJ48cUpLb4vb43xwqn8=",
+    "originContent": "* `toggleLoading(<bool-value>)` — show / hide loading overlay.",
+    "translatedContent": "* `toggleLoading(<bool-value>)` — 显示 / 隐藏加载覆盖层。"
+  },
+  {
+    "row": 111,
+    "rowsha": "jOFgoeyVdxPmu/etLlXjIwSlEp5H4bc71r2CnTxZkC8=",
+    "originContent": "* `loadData(data)` — load STIX2 bundle from `data` JSON object and render on a graph.",
+    "translatedContent": "* `loadData(data)` — 从 `data` JSON 对象加载 STIX2 包并在图上渲染。"
+  },
+  {
+    "row": 112,
+    "rowsha": "TMrugw4rbKOAjtedWICe9A9nXuam/AVG/M1tem0BjZY=",
+    "originContent": "* `loadDataFromFile(file)` — load STIX2 bundle from `file` file object and render on a graph.",
+    "translatedContent": "* `loadDataFromFile(file)` — 从 `file` 文件对象加载 STIX2 包并在图上渲染。"
+  },
+  {
+    "row": 113,
+    "rowsha": "z4s29I25uNigoHMv/QyGY1ZpBvwv5EMwlMLU671Klec=",
+    "originContent": "* `loadDataFromUrl(url)` — load STIX2 bundle from remote URL and render on a graph.",
+    "translatedContent": "* `loadDataFromUrl(url)` — 从远程 URL 加载 STIX2 包并在图上渲染。"
+  },
+  {
+    "row": 114,
+    "rowsha": "rqbTrPIg3kbphNV6Aki3+y2yZQ8+gSHH/hodTaRsV6w=",
+    "originContent": "* `loadDataFromParamUrl(paramName)` — load STIX2 bundle from remote URL, configured in HTTP GET paramter with name in `paramName` and render on a graph.",
+    "translatedContent": "* `loadDataFromParamUrl(paramName)` — 从 HTTP GET 参数名为 `paramName` 配置的远程 URL 加载 STIX2 包并在图上渲染。"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "sJ/yPrjOl4CqqmNX52jV/O9t1ocQUKu6R6aB9zUAdQM=",
+    "originContent": "## Build",
+    "translatedContent": "## 构建"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 119,
+    "rowsha": "787zJVQYGkNUE+RPKyP88+XggDnJlJtD9r2Ee1z+U98=",
+    "originContent": "yarn build",
+    "translatedContent": "yarn build"
+  },
+  {
+    "row": 120,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,858 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Stixview\n\n[![npm version](https://badge.fury.io/js/stixview.svg)](https://badge.fury.io/js/stixview)\n\n[Stixview](https://github.com/traut/stixview) is a JS library for embeddable interactive STIX2 graphs.\n\n> [!NOTE]  \n> Hosted version of Stixview is available at [CTIChef.com](https://ctichef.com)\n\n![Stixview graph](https://raw.githubusercontent.com/traut/stixview/master/.github/stixview-graph.png)\n\n## Motivation\n\nCTI (Cyber Threat Intelligence) is very much about telling stories. Information becomes intelligence when it is complimented with a context and is placed in a story. These stories are usually crystallised in the reports by an intelligence provider and disseminated to the customers.\n\nIf intelligence provider cares about structured machine-readable CTI, the reports produced will be supplemented with [STIX2](https://oasis-open.github.io/cti-documentation/) bundles. There is a gap there between a story, narrated in a report, and a structured CTI snapshot, represented by a STIX2 bundle.\n\nThe objective of [Stixview](https://github.com/traut/stixview) library is to provide easily embeddable STIX2 graphs with necessary level of interactivity, so that CTI community can create informative and engaging stories.\n\n## Demos\n\nTo see Stixview in action, take a look at these demo pages:\n\n* [STIX2.1 demo](https://traut.github.io/stixview/dist/demos/stix21-demo.html) — sample graph with all STIX 2.1 objects.\n* [Storyline](https://traut.github.io/stixview/dist/demos/story.html) — multiple graphs per page, rendering selected entities from the same STIX bundle.\n* [Viewer](https://traut.github.io/stixview/dist/demos/viewer.html) — graph viewer with custom controls.\n* [Drag-n-drop](https://traut.github.io/stixview/dist/demos/drag-n-drop.html) — graph views with drag-n-drop enabled.\n* [Dark theme graph from inline data](https://traut.github.io/stixview/dist/demos/load-data.html) — rendering graph from inline STIX2 bundle and custom styling.\n* [TLP tags and custom sidebar content renderer](https://traut.github.io/stixview/dist/demos/tags-and-custom-sidebar.html) — TLP marking definitions shown as tags and sidebar is rendered with provided function.\n* [Examples of various configuration settings](https://traut.github.io/stixview/dist/demos/misc.html)\n\n## Usage\n\nTo use Stixview in a browser, download the latest build from `dist` directory (`stixview.bundle.js`) and reference it from your HTML file:\n",
+    "ContentSha": "vqZph9dpBBsmHQkL+ooMSD4B1aQAPDJJt9bl/VOQVVI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Stixview\n\n[![npm version](https://badge.fury.io/js/stixview.svg)](https://badge.fury.io/js/stixview)\n\n[Stixview](https://github.com/traut/stixview) es una biblioteca JS para gráficos STIX2 interactivos y embebibles.\n\n> [!NOTE]  \n> La versión alojada de Stixview está disponible en [CTIChef.com](https://ctichef.com)\n\n![Gráfico Stixview](https://raw.githubusercontent.com/traut/stixview/master/.github/stixview-graph.png)\n\n## Motivación\n\nCTI (Inteligencia de Amenazas Cibernéticas) se trata mucho de contar historias. La información se convierte en inteligencia cuando se complementa con un contexto y se coloca en una historia. Estas historias usualmente se cristalizan en los informes por un proveedor de inteligencia y se diseminan a los clientes.\n\nSi el proveedor de inteligencia se preocupa por CTI estructurado y legible por máquina, los informes producidos estarán complementados con paquetes [STIX2](https://oasis-open.github.io/cti-documentation/). Existe una brecha entre una historia, narrada en un informe, y una instantánea de CTI estructurado, representada por un paquete STIX2.\n\nEl objetivo de la biblioteca [Stixview](https://github.com/traut/stixview) es proveer gráficos STIX2 fácilmente embebibles con el nivel necesario de interactividad, para que la comunidad CTI pueda crear historias informativas y atractivas.\n\n## Demostraciones\n\nPara ver Stixview en acción, eche un vistazo a estas páginas de demostración:\n\n* [Demostración STIX2.1](https://traut.github.io/stixview/dist/demos/stix21-demo.html) — gráfico de ejemplo con todos los objetos STIX 2.1.\n* [Línea de historia](https://traut.github.io/stixview/dist/demos/story.html) — múltiples gráficos por página, mostrando entidades seleccionadas del mismo paquete STIX.\n* [Visor](https://traut.github.io/stixview/dist/demos/viewer.html) — visor de gráficos con controles personalizados.\n* [Arrastrar y soltar](https://traut.github.io/stixview/dist/demos/drag-n-drop.html) — vistas de gráficos con arrastrar y soltar habilitado.\n* [Gráfico en tema oscuro desde datos en línea](https://traut.github.io/stixview/dist/demos/load-data.html) — renderizando gráfico desde paquete STIX2 en línea y estilo personalizado.\n* [Etiquetas TLP y renderizador personalizado de contenido lateral](https://traut.github.io/stixview/dist/demos/tags-and-custom-sidebar.html) — definiciones de marcado TLP mostradas como etiquetas y la barra lateral se renderiza con función proporcionada.\n* [Ejemplos de varias configuraciones](https://traut.github.io/stixview/dist/demos/misc.html)\n\n## Uso\n\nPara usar Stixview en un navegador, descargue la última versión desde el directorio `dist` (`stixview.bundle.js`) y refiéralo desde su archivo HTML:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pnGwMOu+CxHlLozzUiYLJ0ibf94C5rNibBimoTQPEnY=",
+        "originContent": "# Stixview",
+        "translatedContent": "# Stixview"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "1JK+uhxvGwMJ4iKVAzOfJpOjhlmnvz7E777y/gWMcus=",
+        "originContent": "[![npm version](https://badge.fury.io/js/stixview.svg)](https://badge.fury.io/js/stixview)",
+        "translatedContent": "[![npm version](https://badge.fury.io/js/stixview.svg)](https://badge.fury.io/js/stixview)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "bXcW4ej2gOGCwy7qkVzwgkxGUP7A0OPy/iAuEhh5RYU=",
+        "originContent": "[Stixview](https://github.com/traut/stixview) is a JS library for embeddable interactive STIX2 graphs.",
+        "translatedContent": "[Stixview](https://github.com/traut/stixview) es una biblioteca JS para gráficos STIX2 interactivos y embebibles."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "v3fX4RjxFmnVGouLaQUO99pcF4wnQ7S2jn5cai1aM0I=",
+        "originContent": "> [!NOTE]  ",
+        "translatedContent": "> [!NOTE]  "
+      },
+      {
+        "row": 8,
+        "rowsha": "FSK8BbrNKKRvCdNTbcbG68ROPZkCXnWlYEh4Xh4pA98=",
+        "originContent": "> Hosted version of Stixview is available at [CTIChef.com](https://ctichef.com)",
+        "translatedContent": "> La versión alojada de Stixview está disponible en [CTIChef.com](https://ctichef.com)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Rj4NyXYAyzc3wkRYWuYLdAmZAebebI3+ulZuRpE7sWk=",
+        "originContent": "![Stixview graph](https://raw.githubusercontent.com/traut/stixview/master/.github/stixview-graph.png)",
+        "translatedContent": "![Gráfico Stixview](https://raw.githubusercontent.com/traut/stixview/master/.github/stixview-graph.png)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "XkjmO8GZw+NPlqtsKIz94hXoCCSSximfmFKrLHYsZ2I=",
+        "originContent": "## Motivation",
+        "translatedContent": "## Motivación"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "hMfZO5/JkRjNgkgtNqOrmX+Q3sNehjF1jY5Hc9HM9lQ=",
+        "originContent": "CTI (Cyber Threat Intelligence) is very much about telling stories. Information becomes intelligence when it is complimented with a context and is placed in a story. These stories are usually crystallised in the reports by an intelligence provider and disseminated to the customers.",
+        "translatedContent": "CTI (Inteligencia de Amenazas Cibernéticas) se trata mucho de contar historias. La información se convierte en inteligencia cuando se complementa con un contexto y se coloca en una historia. Estas historias usualmente se cristalizan en los informes por un proveedor de inteligencia y se diseminan a los clientes."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "oiDCVu2us43Q6HRmM5Uzr/G+yPG6bpjGV2Gf3HQS5Ls=",
+        "originContent": "If intelligence provider cares about structured machine-readable CTI, the reports produced will be supplemented with [STIX2](https://oasis-open.github.io/cti-documentation/) bundles. There is a gap there between a story, narrated in a report, and a structured CTI snapshot, represented by a STIX2 bundle.",
+        "translatedContent": "Si el proveedor de inteligencia se preocupa por CTI estructurado y legible por máquina, los informes producidos estarán complementados con paquetes [STIX2](https://oasis-open.github.io/cti-documentation/). Existe una brecha entre una historia, narrada en un informe, y una instantánea de CTI estructurado, representada por un paquete STIX2."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "6GdapSLowyzJoPSHXSISvVgAdREuoiNFpb23rQPAEw8=",
+        "originContent": "The objective of [Stixview](https://github.com/traut/stixview) library is to provide easily embeddable STIX2 graphs with necessary level of interactivity, so that CTI community can create informative and engaging stories.",
+        "translatedContent": "El objetivo de la biblioteca [Stixview](https://github.com/traut/stixview) es proveer gráficos STIX2 fácilmente embebibles con el nivel necesario de interactividad, para que la comunidad CTI pueda crear historias informativas y atractivas."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "t5ZY7hdgJWgoAzJoT0P8EoI2v+qmVbi7gITr3Qnf1Ow=",
+        "originContent": "## Demos",
+        "translatedContent": "## Demostraciones"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "Rh8a4/J9Tzl6J06KG1y5y9GYCyME3i5vhFKXmQhKPx0=",
+        "originContent": "To see Stixview in action, take a look at these demo pages:",
+        "translatedContent": "Para ver Stixview en acción, eche un vistazo a estas páginas de demostración:"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "fIpd4DF6KaYNY9983EGHva4FU1kEMpzXypC8+8cxMDI=",
+        "originContent": "* [STIX2.1 demo](https://traut.github.io/stixview/dist/demos/stix21-demo.html) — sample graph with all STIX 2.1 objects.",
+        "translatedContent": "* [Demostración STIX2.1](https://traut.github.io/stixview/dist/demos/stix21-demo.html) — gráfico de ejemplo con todos los objetos STIX 2.1."
+      },
+      {
+        "row": 25,
+        "rowsha": "txAev7+5oXS8Og9lXUXY0qowlR+0pAm6On6VQwGK7yE=",
+        "originContent": "* [Storyline](https://traut.github.io/stixview/dist/demos/story.html) — multiple graphs per page, rendering selected entities from the same STIX bundle.",
+        "translatedContent": "* [Línea de historia](https://traut.github.io/stixview/dist/demos/story.html) — múltiples gráficos por página, mostrando entidades seleccionadas del mismo paquete STIX."
+      },
+      {
+        "row": 26,
+        "rowsha": "37Y/WXdFG0KTL0oNWc/MrpeGZR10atha7gHVJ471C4k=",
+        "originContent": "* [Viewer](https://traut.github.io/stixview/dist/demos/viewer.html) — graph viewer with custom controls.",
+        "translatedContent": "* [Visor](https://traut.github.io/stixview/dist/demos/viewer.html) — visor de gráficos con controles personalizados."
+      },
+      {
+        "row": 27,
+        "rowsha": "j0qUaV+pzgD3fQgD7nyHYMNhHmFLyooEPNtcIUZ9qd0=",
+        "originContent": "* [Drag-n-drop](https://traut.github.io/stixview/dist/demos/drag-n-drop.html) — graph views with drag-n-drop enabled.",
+        "translatedContent": "* [Arrastrar y soltar](https://traut.github.io/stixview/dist/demos/drag-n-drop.html) — vistas de gráficos con arrastrar y soltar habilitado."
+      },
+      {
+        "row": 28,
+        "rowsha": "CYBVdj4CIB4XmLZnFJ+pS1605R263RavPmmniZwXEMA=",
+        "originContent": "* [Dark theme graph from inline data](https://traut.github.io/stixview/dist/demos/load-data.html) — rendering graph from inline STIX2 bundle and custom styling.",
+        "translatedContent": "* [Gráfico en tema oscuro desde datos en línea](https://traut.github.io/stixview/dist/demos/load-data.html) — renderizando gráfico desde paquete STIX2 en línea y estilo personalizado."
+      },
+      {
+        "row": 29,
+        "rowsha": "gXc0v+vcsgX24mrEjZsPUO6bkwfIx3Y9lr1UM/P7vNQ=",
+        "originContent": "* [TLP tags and custom sidebar content renderer](https://traut.github.io/stixview/dist/demos/tags-and-custom-sidebar.html) — TLP marking definitions shown as tags and sidebar is rendered with provided function.",
+        "translatedContent": "* [Etiquetas TLP y renderizador personalizado de contenido lateral](https://traut.github.io/stixview/dist/demos/tags-and-custom-sidebar.html) — definiciones de marcado TLP mostradas como etiquetas y la barra lateral se renderiza con función proporcionada."
+      },
+      {
+        "row": 30,
+        "rowsha": "uU6OE1XlDGJJdbSnMmka0uh88butfcKHQhOUTZbbEhM=",
+        "originContent": "* [Examples of various configuration settings](https://traut.github.io/stixview/dist/demos/misc.html)",
+        "translatedContent": "* [Ejemplos de varias configuraciones](https://traut.github.io/stixview/dist/demos/misc.html)"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Uso"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "LuniWieG6JiWaMHMHOIkHotUR31R9KyP5eFeYIImbWw=",
+        "originContent": "To use Stixview in a browser, download the latest build from `dist` directory (`stixview.bundle.js`) and reference it from your HTML file:",
+        "translatedContent": "Para usar Stixview en un navegador, descargue la última versión desde el directorio `dist` (`stixview.bundle.js`) y refiéralo desde su archivo HTML:"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```html\n<script src=\"stixview.bundle.js\" type=\"text/javascript\"></script>\n```",
+    "ContentSha": "1oQEbz74EyuB+WGBse/LiBRb1pKAAnJsLGpR92pR4Co=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<script src=\"stixview.bundle.js\" type=\"text/javascript\"></script>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "P8K9gX+/pKo84RZQB5lCojLnpprF5eiN/ID/nK8bGWo=",
+        "originContent": "<script src=\"stixview.bundle.js\" type=\"text/javascript\"></script>",
+        "translatedContent": "<script src=\"stixview.bundle.js\" type=\"text/javascript\"></script>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nor use [unpkg](https://unpkg.com) CDN service:\n",
+    "ContentSha": "3Nhuqzvg8Zpxoehw/PlgX4OJ40bG3icLCxEE+Pa68/Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\no use el servicio CDN [unpkg](https://unpkg.com):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "IDyVXb+Sy+nU/Evip9igULYSbcnFbA4hk/rKsfoQmT0=",
+        "originContent": "or use [unpkg](https://unpkg.com) CDN service:",
+        "translatedContent": "o use el servicio CDN [unpkg](https://unpkg.com):"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```html\n<script src=\"https://unpkg.com/stixview/dist/stixview.bundle.js\" type=\"text/javascript\"></script>\n```",
+    "ContentSha": "WTW4hYPg0UjbanTlLlPKuIcRi84pioGvrU6ZwMWiFOc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<script src=\"https://unpkg.com/stixview/dist/stixview.bundle.js\" type=\"text/javascript\"></script>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "1/QDMFbP8t19pdaVQXMUj0VBzTOob+NYaTfxm3LP9UQ=",
+        "originContent": "<script src=\"https://unpkg.com/stixview/dist/stixview.bundle.js\" type=\"text/javascript\"></script>",
+        "translatedContent": "<script src=\"https://unpkg.com/stixview/dist/stixview.bundle.js\" type=\"text/javascript\"></script>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## API\n\nThe library relies heavily on [data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes).\nOn page load, Stixview will find all HTML elements with `data-stix-gist-id`, `data-stix-url` or `data-stix-allow-dragdrop` set and use these elements as graph holders.\n\nExample of a graph holder div:\n",
+    "ContentSha": "Wwx1caY8NvHD8bBuHjPV0/vSLIqudzPPoYXxSn41brc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## API\n\nLa biblioteca depende en gran medida de los [atributos de datos](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes).\nAl cargar la página, Stixview encontrará todos los elementos HTML con `data-stix-gist-id`, `data-stix-url` o `data-stix-allow-dragdrop` establecidos y usará estos elementos como contenedores de gráficos.\n\nEjemplo de un div contenedor de gráficos:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "QMr2bE3lbka3JIXEet/0kWxLx+Vj7Nn3J46dyvktHK0=",
+        "originContent": "## API",
+        "translatedContent": "## API"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "BybV/MqhjmwBDFSq/gyBZKYQMqpmbO9UCVA7n+dA4o8=",
+        "originContent": "The library relies heavily on [data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes).",
+        "translatedContent": "La biblioteca depende en gran medida de los [atributos de datos](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)."
+      },
+      {
+        "row": 5,
+        "rowsha": "vDFLn0DrUUs063+cBL/eQ0UIdT9LfJYMxD6iGhuFikg=",
+        "originContent": "On page load, Stixview will find all HTML elements with `data-stix-gist-id`, `data-stix-url` or `data-stix-allow-dragdrop` set and use these elements as graph holders.",
+        "translatedContent": "Al cargar la página, Stixview encontrará todos los elementos HTML con `data-stix-gist-id`, `data-stix-url` o `data-stix-allow-dragdrop` establecidos y usará estos elementos como contenedores de gráficos."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "8fQ2R6THzGZ3jjz3HJ/L23O900mqvsO/tvgUj3nrEgg=",
+        "originContent": "Example of a graph holder div:",
+        "translatedContent": "Ejemplo de un div contenedor de gráficos:"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```html\n<div data-stix-gist-id=\"6a0fbb0f6e7faf063c748b23f9c7dc62\"\n     data-show-sidebar=true\n     data-enable-mouse-zoom=false\n     data-graph-width=500\n     data-graph-height=300>\n</div>\n```",
+    "ContentSha": "4B9iMcvrbpIiK5nwts8yRuv1Rfm1Rv1BX8H3qgUPlTQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<div data-stix-gist-id=\"6a0fbb0f6e7faf063c748b23f9c7dc62\"\n     data-show-sidebar=true\n     data-enable-mouse-zoom=false\n     data-graph-width=500\n     data-graph-height=300>\n</div>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "8EWf6YZJdr3CA322b8mpi1gWVnAskxNdq5vqtt+fXzA=",
+        "originContent": "<div data-stix-gist-id=\"6a0fbb0f6e7faf063c748b23f9c7dc62\"",
+        "translatedContent": "<div data-stix-gist-id=\"6a0fbb0f6e7faf063c748b23f9c7dc62\""
+      },
+      {
+        "row": 3,
+        "rowsha": "WV8Ty1nFYICBKAkAzxYKcEu4QxaS4/KzvMh4iuwvJpY=",
+        "originContent": "     data-show-sidebar=true",
+        "translatedContent": "     data-show-sidebar=true"
+      },
+      {
+        "row": 4,
+        "rowsha": "irAW0LDG++4L7i1ELvFjvdLfwI3Xbblnbw2e0u14Kns=",
+        "originContent": "     data-enable-mouse-zoom=false",
+        "translatedContent": "     data-enable-mouse-zoom=false"
+      },
+      {
+        "row": 5,
+        "rowsha": "7lzeqC/r7zyeevnxIYF2QCRVplAjCKBkxAcoPyLAbts=",
+        "originContent": "     data-graph-width=500",
+        "translatedContent": "     data-graph-width=500"
+      },
+      {
+        "row": 6,
+        "rowsha": "frbAv0NH2bKI5s7A36xduDptWzJFOC0H/3zrqQlXTv4=",
+        "originContent": "     data-graph-height=300>",
+        "translatedContent": "     data-graph-height=300>"
+      },
+      {
+        "row": 7,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Data attributes\n\nEvery holder element _must have_ one of `data-stix-gist-id`, `data-stix-url` or `data-stix-allow-dragdrop` set, otherwise it will not be detected by the library.\n\nStixview supports these `data-` attributes:\n\n* `stix-gist-id` — id of a gist that contains STIX2 bundle. if `gist-file` is not specified, first file will be used.\n* `gist-file` — name of a file from gist to be used as STIX2 bundle. Only used if `stix-gist-id` is set.\n* `stix-url` — URL pointing to a remote STIX2 bundle JSON file.\n* `stix-allow-dragdrop` (`false` by default) — enable ability to drag-n-drop STIX2 bundle into the graph element. If this property is set to `true` and `stix-gist-id` and `stix-url` are not specified, empty graph will be rendered.\n* `caption` — a title of the graph. Header is not shown if `caption` is not set.\n* `show-footer` (`true` by default) — show a footer with the download links to STIX2 bundle and PNG file.\n* `show-sidebar` (`true` by default) — enable a sidebar with object details, opened when object is clicked on.\n* `show-tlp-as-tags` (`true` by default) — show connected TLP marking definition objects as tags on entities.\n* `show-marking-nodes` (`true` by default) — show the marking definition nodes.\n* `show-labels` (`true` by default) — show node labels.\n* `show-idrefs` (`false` by default) — show placeholder objects for ids mentioned in the relationships but not present in a bundle.\n* `graph-layout` (`cola` by default) — name of the graph layout algorythm. Supported algorythms are `cola` , `klay`, `cose-bilkent`, `cise`, `grid` and `dagre`.\n* `enable-mouse-zoom` (`true` by default) — enable mouse wheel zoom.\n* `enable-panning` (`true` by default) — enable panning in the graph. If `false`, a graph has a fixed view. Users will still be able to drag nodes around.\n* `highlighted-objects` — a string with comma-separated STIX2 ids. If set, graph will contain _only objects with ids listed_.\n* `hidden-objects` — a string with comma-separated STIX2 ids. If set, objects with ids listed will be skipped and not rendered in the graph.\n* `min-zoom` (`0.3` by default) — minimum allowed zoom.\n* `max-zoom` (`2.5` by default) — maximum allowed zoom.\n* `graph-width` (all available width by default) — width of a graph element. Both pixel and % values are supported (see misc demo page for an example).\n* `graph-height` (`600` pixels by default) — height of a graph element. Both pixel and % values are supported (see misc demo page for an example).\n\n### Browser object\n\nThe library, when used in a browser, will register `stixview` variable on `window` object with these properties:\n\n* `registry` — a registry of graphs initiated on a page.\n* `onInit(selector, callback)` – listener hook for graph's init event on a DOM element that matches provided `selector` value (see [demo](https://traut.github.io/stixview/dist/demos/viewer.html) for usage example). Callback receive instance of a graph interface.\n* `onLoad(selector, callback)` – listener hook for graph's load event on a DOM element that matches provided `selector` value (see [demo](https://traut.github.io/stixview/dist/demos/viewer.html) for usage example). Callback receive instance of a graph interface.\n* `init(element, properties, initCallback, loadCallback)` — method that initiates a graph view in specified `element` with provided `properties` that override defaults (see [demo](https://traut.github.io/stixview/dist/demos/load-data.html) for usage example).\n\n### Graph object\n\nGraph is an object with properties:",
+    "ContentSha": "O4NN4uYZb/m6WW4o2y3BoxXFSGT2zw89thcxX1BOxH8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Atributos de datos\n\nCada elemento contenedor _debe tener_ uno de `data-stix-gist-id`, `data-stix-url` o `data-stix-allow-dragdrop` configurado, de lo contrario no será detectado por la biblioteca.\n\nStixview soporta estos atributos `data-`:\n\n* `stix-gist-id` — id de un gist que contiene un paquete STIX2. si no se especifica `gist-file`, se usará el primer archivo.\n* `gist-file` — nombre de un archivo del gist que se usará como paquete STIX2. Solo se usa si se establece `stix-gist-id`.\n* `stix-url` — URL que apunta a un archivo JSON remoto con un paquete STIX2.\n* `stix-allow-dragdrop` (`false` por defecto) — habilita la capacidad de arrastrar y soltar un paquete STIX2 en el elemento del gráfico. Si esta propiedad se establece en `true` y no se especifican `stix-gist-id` ni `stix-url`, se renderizará un gráfico vacío.\n* `caption` — un título para el gráfico. El encabezado no se muestra si no se establece `caption`.\n* `show-footer` (`true` por defecto) — muestra un pie de página con los enlaces de descarga del paquete STIX2 y archivo PNG.\n* `show-sidebar` (`true` por defecto) — habilita una barra lateral con detalles del objeto, que se abre al hacer clic en el objeto.\n* `show-tlp-as-tags` (`true` por defecto) — muestra los objetos de definición de marcado TLP conectados como etiquetas en las entidades.\n* `show-marking-nodes` (`true` por defecto) — muestra los nodos de definición de marcado.\n* `show-labels` (`true` por defecto) — muestra las etiquetas de los nodos.\n* `show-idrefs` (`false` por defecto) — muestra objetos de marcador de posición para ids mencionados en las relaciones pero no presentes en un paquete.\n* `graph-layout` (`cola` por defecto) — nombre del algoritmo de disposición del gráfico. Los algoritmos soportados son `cola`, `klay`, `cose-bilkent`, `cise`, `grid` y `dagre`.\n* `enable-mouse-zoom` (`true` por defecto) — habilita el zoom con la rueda del ratón.\n* `enable-panning` (`true` por defecto) — habilita el desplazamiento en el gráfico. Si es `false`, el gráfico tiene una vista fija. Los usuarios aún podrán arrastrar nodos.\n* `highlighted-objects` — una cadena con ids STIX2 separadas por comas. Si se establece, el gráfico contendrá _solo objetos con ids listados_.\n* `hidden-objects` — una cadena con ids STIX2 separadas por comas. Si se establece, los objetos con ids listados serán omitidos y no renderizados en el gráfico.\n* `min-zoom` (`0.3` por defecto) — zoom mínimo permitido.\n* `max-zoom` (`2.5` por defecto) — zoom máximo permitido.\n* `graph-width` (ancho disponible completo por defecto) — ancho del elemento gráfico. Se soportan valores en píxeles y en % (ver página demo misc para un ejemplo).\n* `graph-height` (`600` píxeles por defecto) — altura del elemento gráfico. Se soportan valores en píxeles y en % (ver página demo misc para un ejemplo).\n\n### Objeto del navegador\n\nLa biblioteca, cuando se usa en un navegador, registrará la variable `stixview` en el objeto `window` con estas propiedades:\n\n* `registry` — un registro de gráficos iniciados en una página.\n* `onInit(selector, callback)` – gancho de escucha para el evento de inicialización de un gráfico en un elemento DOM que coincida con el valor `selector` proporcionado (ver [demo](https://traut.github.io/stixview/dist/demos/viewer.html) para ejemplo de uso). El callback recibe una instancia de la interfaz del gráfico.\n* `onLoad(selector, callback)` – gancho de escucha para el evento de carga de un gráfico en un elemento DOM que coincida con el valor `selector` proporcionado (ver [demo](https://traut.github.io/stixview/dist/demos/viewer.html) para ejemplo de uso). El callback recibe una instancia de la interfaz del gráfico.\n* `init(element, properties, initCallback, loadCallback)` — método que inicia una vista de gráfico en el `element` especificado con las `properties` proporcionadas que sobreescriben los valores por defecto (ver [demo](https://traut.github.io/stixview/dist/demos/load-data.html) para ejemplo de uso).\n\n### Objeto gráfico\n\nEl gráfico es un objeto con propiedades:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Atributos de datos"
+      },
+      {
+        "row": 2,
+        "rowsha": "68E5Ep1T5jbnaPzvETiOJxr0R3Jo9KZZdi+7Y540Q/8=",
+        "originContent": "### Data attributes",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Cada elemento contenedor _debe tener_ uno de `data-stix-gist-id`, `data-stix-url` o `data-stix-allow-dragdrop` configurado, de lo contrario no será detectado por la biblioteca."
+      },
+      {
+        "row": 4,
+        "rowsha": "hd0FXrDHSCKRvEvTAzoXedmNkqgG1KFeNZDIo4gWFmg=",
+        "originContent": "Every holder element _must have_ one of `data-stix-gist-id`, `data-stix-url` or `data-stix-allow-dragdrop` set, otherwise it will not be detected by the library.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Stixview soporta estos atributos `data-`:"
+      },
+      {
+        "row": 6,
+        "rowsha": "0TriuROSOSf7k9VKtLv+HbO1HP2H5VNOeMHCJ21MGvc=",
+        "originContent": "Stixview supports these `data-` attributes:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* `stix-gist-id` — id de un gist que contiene un paquete STIX2. si no se especifica `gist-file`, se usará el primer archivo."
+      },
+      {
+        "row": 8,
+        "rowsha": "kzMfMbZQiVihdiwzUsAN1yHKW36xvWiED/COMtOZV9A=",
+        "originContent": "* `stix-gist-id` — id of a gist that contains STIX2 bundle. if `gist-file` is not specified, first file will be used.",
+        "translatedContent": "* `gist-file` — nombre de un archivo del gist que se usará como paquete STIX2. Solo se usa si se establece `stix-gist-id`."
+      },
+      {
+        "row": 9,
+        "rowsha": "XdUucI9xY2Ml+AEaeTSYQ2iUPmCV3V4Q5JaFSrRG4Eg=",
+        "originContent": "* `gist-file` — name of a file from gist to be used as STIX2 bundle. Only used if `stix-gist-id` is set.",
+        "translatedContent": "* `stix-url` — URL que apunta a un archivo JSON remoto con un paquete STIX2."
+      },
+      {
+        "row": 10,
+        "rowsha": "lRqRI/cECOjhFRL2PLn7+XhlXjG0EyRzWyCUUSBcGJM=",
+        "originContent": "* `stix-url` — URL pointing to a remote STIX2 bundle JSON file.",
+        "translatedContent": "* `stix-allow-dragdrop` (`false` por defecto) — habilita la capacidad de arrastrar y soltar un paquete STIX2 en el elemento del gráfico. Si esta propiedad se establece en `true` y no se especifican `stix-gist-id` ni `stix-url`, se renderizará un gráfico vacío."
+      },
+      {
+        "row": 11,
+        "rowsha": "m7ANnCBvVQ+IdVFoxJBRtSryxBAJgYmm2f99saKe0Eg=",
+        "originContent": "* `stix-allow-dragdrop` (`false` by default) — enable ability to drag-n-drop STIX2 bundle into the graph element. If this property is set to `true` and `stix-gist-id` and `stix-url` are not specified, empty graph will be rendered.",
+        "translatedContent": "* `caption` — un título para el gráfico. El encabezado no se muestra si no se establece `caption`."
+      },
+      {
+        "row": 12,
+        "rowsha": "33vCDHEl7vd5r4UsynLiAsGk9mz+nIJPBDyRnZn9xeg=",
+        "originContent": "* `caption` — a title of the graph. Header is not shown if `caption` is not set.",
+        "translatedContent": "* `show-footer` (`true` por defecto) — muestra un pie de página con los enlaces de descarga del paquete STIX2 y archivo PNG."
+      },
+      {
+        "row": 13,
+        "rowsha": "h75poYZsBPuksM9a6kM9+4vXL4jYQPAdOuxVsUOBwdM=",
+        "originContent": "* `show-footer` (`true` by default) — show a footer with the download links to STIX2 bundle and PNG file.",
+        "translatedContent": "* `show-sidebar` (`true` por defecto) — habilita una barra lateral con detalles del objeto, que se abre al hacer clic en el objeto."
+      },
+      {
+        "row": 14,
+        "rowsha": "5BeFzlXAtwQF67qu4jMIUQVQz6zPvbePaaG62jgjE8Y=",
+        "originContent": "* `show-sidebar` (`true` by default) — enable a sidebar with object details, opened when object is clicked on.",
+        "translatedContent": "* `show-tlp-as-tags` (`true` por defecto) — muestra los objetos de definición de marcado TLP conectados como etiquetas en las entidades."
+      },
+      {
+        "row": 15,
+        "rowsha": "5y7Nv8/IM13sG0C02D2cBPLEWOOtW5RiC6htYSx4u4Q=",
+        "originContent": "* `show-tlp-as-tags` (`true` by default) — show connected TLP marking definition objects as tags on entities.",
+        "translatedContent": "* `show-marking-nodes` (`true` por defecto) — muestra los nodos de definición de marcado."
+      },
+      {
+        "row": 16,
+        "rowsha": "yzG1/hHhRY/Q5AX3mp9gTqY4fV3054W2zLG5tHhpi3A=",
+        "originContent": "* `show-marking-nodes` (`true` by default) — show the marking definition nodes.",
+        "translatedContent": "* `show-labels` (`true` por defecto) — muestra las etiquetas de los nodos."
+      },
+      {
+        "row": 17,
+        "rowsha": "cgCgSNrFiXvfK5jviAKvudA6uOyRAxtX+xN4ta9qhr4=",
+        "originContent": "* `show-labels` (`true` by default) — show node labels.",
+        "translatedContent": "* `show-idrefs` (`false` por defecto) — muestra objetos de marcador de posición para ids mencionados en las relaciones pero no presentes en un paquete."
+      },
+      {
+        "row": 18,
+        "rowsha": "ozfaRmWlKxnrDUfpMZkfjVDH3BErTrzl/fborWW+6Us=",
+        "originContent": "* `show-idrefs` (`false` by default) — show placeholder objects for ids mentioned in the relationships but not present in a bundle.",
+        "translatedContent": "* `graph-layout` (`cola` por defecto) — nombre del algoritmo de disposición del gráfico. Los algoritmos soportados son `cola`, `klay`, `cose-bilkent`, `cise`, `grid` y `dagre`."
+      },
+      {
+        "row": 19,
+        "rowsha": "TEr3JuxNaQMm5I0SXuIrmJmEykYNhQwSlv2YoBiAHTo=",
+        "originContent": "* `graph-layout` (`cola` by default) — name of the graph layout algorythm. Supported algorythms are `cola` , `klay`, `cose-bilkent`, `cise`, `grid` and `dagre`.",
+        "translatedContent": "* `enable-mouse-zoom` (`true` por defecto) — habilita el zoom con la rueda del ratón."
+      },
+      {
+        "row": 20,
+        "rowsha": "5BSh2NVFyy5EsUopP8NEI8nu9XUYaXG+pj/3JGmCAbE=",
+        "originContent": "* `enable-mouse-zoom` (`true` by default) — enable mouse wheel zoom.",
+        "translatedContent": "* `enable-panning` (`true` por defecto) — habilita el desplazamiento en el gráfico. Si es `false`, el gráfico tiene una vista fija. Los usuarios aún podrán arrastrar nodos."
+      },
+      {
+        "row": 21,
+        "rowsha": "GYByQuxX+BUK4jUq95hVKiA1aKwk7cNRrsI3R4rEON0=",
+        "originContent": "* `enable-panning` (`true` by default) — enable panning in the graph. If `false`, a graph has a fixed view. Users will still be able to drag nodes around.",
+        "translatedContent": "* `highlighted-objects` — una cadena con ids STIX2 separadas por comas. Si se establece, el gráfico contendrá _solo objetos con ids listados_."
+      },
+      {
+        "row": 22,
+        "rowsha": "rR3zTA+T+U8KJ+Ww+rXKaFWXR5XZ64wnfP5MwQlPWWg=",
+        "originContent": "* `highlighted-objects` — a string with comma-separated STIX2 ids. If set, graph will contain _only objects with ids listed_.",
+        "translatedContent": "* `hidden-objects` — una cadena con ids STIX2 separadas por comas. Si se establece, los objetos con ids listados serán omitidos y no renderizados en el gráfico."
+      },
+      {
+        "row": 23,
+        "rowsha": "Nlq9q+0vrb0mCTFpIutYiYH3zvgv7KXlhzAcLRR+7ug=",
+        "originContent": "* `hidden-objects` — a string with comma-separated STIX2 ids. If set, objects with ids listed will be skipped and not rendered in the graph.",
+        "translatedContent": "* `min-zoom` (`0.3` por defecto) — zoom mínimo permitido."
+      },
+      {
+        "row": 24,
+        "rowsha": "jWinUgdlvvZMov68Pdv8qVCHcHxXIVJMecUCOs7POHY=",
+        "originContent": "* `min-zoom` (`0.3` by default) — minimum allowed zoom.",
+        "translatedContent": "* `max-zoom` (`2.5` por defecto) — zoom máximo permitido."
+      },
+      {
+        "row": 25,
+        "rowsha": "HV4/6G6pYTOD3stzhdjJbLm4Fca9yCc9liWbsH97bhM=",
+        "originContent": "* `max-zoom` (`2.5` by default) — maximum allowed zoom.",
+        "translatedContent": "* `graph-width` (ancho disponible completo por defecto) — ancho del elemento gráfico. Se soportan valores en píxeles y en % (ver página demo misc para un ejemplo)."
+      },
+      {
+        "row": 26,
+        "rowsha": "M9Y6l25eXkryk/ZzPw3HL4Byv5JEU7XPGGkgGDOMT6s=",
+        "originContent": "* `graph-width` (all available width by default) — width of a graph element. Both pixel and % values are supported (see misc demo page for an example).",
+        "translatedContent": "* `graph-height` (`600` píxeles por defecto) — altura del elemento gráfico. Se soportan valores en píxeles y en % (ver página demo misc para un ejemplo)."
+      },
+      {
+        "row": 27,
+        "rowsha": "axdtu0dkMVVFm6gkScgWJbyjF08Wp1daynf+1Mm+cjg=",
+        "originContent": "* `graph-height` (`600` pixels by default) — height of a graph element. Both pixel and % values are supported (see misc demo page for an example).",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Objeto del navegador"
+      },
+      {
+        "row": 29,
+        "rowsha": "a/OvHRQ70NSeK4OdhKTXPfa8OL5tIyYxGw7QTxiIss4=",
+        "originContent": "### Browser object",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "La biblioteca, cuando se usa en un navegador, registrará la variable `stixview` en el objeto `window` con estas propiedades:"
+      },
+      {
+        "row": 31,
+        "rowsha": "/fNDNbaticKwxRcrsJwKXSqaZ+jXbgtTcx11YODyprg=",
+        "originContent": "The library, when used in a browser, will register `stixview` variable on `window` object with these properties:",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* `registry` — un registro de gráficos iniciados en una página."
+      },
+      {
+        "row": 33,
+        "rowsha": "TI4DfuhjSPjf+gZrIZMsHJWVdL/YaF19D4j/ohOUQyI=",
+        "originContent": "* `registry` — a registry of graphs initiated on a page.",
+        "translatedContent": "* `onInit(selector, callback)` – gancho de escucha para el evento de inicialización de un gráfico en un elemento DOM que coincida con el valor `selector` proporcionado (ver [demo](https://traut.github.io/stixview/dist/demos/viewer.html) para ejemplo de uso). El callback recibe una instancia de la interfaz del gráfico."
+      },
+      {
+        "row": 34,
+        "rowsha": "Sc3KB7ZBWuMrCZX5fT6fi48qZpcGX1Q6a+yM35B0qmY=",
+        "originContent": "* `onInit(selector, callback)` – listener hook for graph's init event on a DOM element that matches provided `selector` value (see [demo](https://traut.github.io/stixview/dist/demos/viewer.html) for usage example). Callback receive instance of a graph interface.",
+        "translatedContent": "* `onLoad(selector, callback)` – gancho de escucha para el evento de carga de un gráfico en un elemento DOM que coincida con el valor `selector` proporcionado (ver [demo](https://traut.github.io/stixview/dist/demos/viewer.html) para ejemplo de uso). El callback recibe una instancia de la interfaz del gráfico."
+      },
+      {
+        "row": 35,
+        "rowsha": "tWrWy3PMgUt414RKoO9EX4EuX97PkFDqVBDQEXW6POs=",
+        "originContent": "* `onLoad(selector, callback)` – listener hook for graph's load event on a DOM element that matches provided `selector` value (see [demo](https://traut.github.io/stixview/dist/demos/viewer.html) for usage example). Callback receive instance of a graph interface.",
+        "translatedContent": "* `init(element, properties, initCallback, loadCallback)` — método que inicia una vista de gráfico en el `element` especificado con las `properties` proporcionadas que sobreescriben los valores por defecto (ver [demo](https://traut.github.io/stixview/dist/demos/load-data.html) para ejemplo de uso)."
+      },
+      {
+        "row": 36,
+        "rowsha": "cbyXQPQaYc3bGmmT2C5LIBKFn4VcmLDBu4bHiz9cDlc=",
+        "originContent": "* `init(element, properties, initCallback, loadCallback)` — method that initiates a graph view in specified `element` with provided `properties` that override defaults (see [demo](https://traut.github.io/stixview/dist/demos/load-data.html) for usage example).",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Objeto gráfico"
+      },
+      {
+        "row": 38,
+        "rowsha": "fV4usKXHTmMSVVLyW7GAM95Pig9cFkmzMY1jn5Vv4n0=",
+        "originContent": "### Graph object",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "El gráfico es un objeto con propiedades:"
+      },
+      {
+        "row": 40,
+        "rowsha": "9NxW7Bspwxaqziq6AfkM8CJ3olcWwMXiNnwdvj52h6w=",
+        "originContent": "Graph is an object with properties:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "\n* `cy` – [cytoscape.js](http://js.cytoscape.org) graph object.\n* `element` — DOM element that holds a graph.\n* `dataProps` – configured data filtering properties.\n* `viewProps` – configured viewing properties.\n* `runLayout(name)` — run specific layout on a graph.\n* `reloadData()` — reload graph data with new data filtering properties.\n* `fit()` — fit graph fully into a graph view.\n* `toggleLabels(<bool-value>)` — show / hide node labels.\n* `toggleLoading(<bool-value>)` — show / hide loading overlay.\n* `loadData(data)` — load STIX2 bundle from `data` JSON object and render on a graph.\n* `loadDataFromFile(file)` — load STIX2 bundle from `file` file object and render on a graph.\n* `loadDataFromUrl(url)` — load STIX2 bundle from remote URL and render on a graph.\n* `loadDataFromParamUrl(paramName)` — load STIX2 bundle from remote URL, configured in HTTP GET paramter with name in `paramName` and render on a graph.\n\n## Build\n",
+    "ContentSha": "2c2ESftdcqgInjCdoywUOPAc6KxlM8Qpzj95ows/7lw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n* `cy` – objeto de grafo de [cytoscape.js](http://js.cytoscape.org).\n* `element` — elemento DOM que contiene un grafo.\n* `dataProps` – propiedades configuradas para el filtrado de datos.\n* `viewProps` – propiedades configuradas para la visualización.\n* `runLayout(name)` — ejecutar un layout específico en un grafo.\n* `reloadData()` — recargar los datos del grafo con nuevas propiedades de filtrado de datos.\n* `fit()` — ajustar completamente el grafo dentro de la vista del grafo.\n* `toggleLabels(<bool-value>)` — mostrar / ocultar etiquetas de nodos.\n* `toggleLoading(<bool-value>)` — mostrar / ocultar la superposición de carga.\n* `loadData(data)` — cargar un paquete STIX2 desde el objeto JSON `data` y renderizarlo en un grafo.\n* `loadDataFromFile(file)` — cargar un paquete STIX2 desde el objeto archivo `file` y renderizarlo en un grafo.\n* `loadDataFromUrl(url)` — cargar un paquete STIX2 desde una URL remota y renderizarlo en un grafo.\n* `loadDataFromParamUrl(paramName)` — cargar un paquete STIX2 desde una URL remota, configurada en el parámetro HTTP GET con nombre en `paramName` y renderizarlo en un grafo.\n\n## Build\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "hPQ/13tgeR89aBFwqIrhp0XXvA27iswIPtP3cHDFJH8=",
+        "originContent": "* `cy` – [cytoscape.js](http://js.cytoscape.org) graph object.",
+        "translatedContent": "* `cy` – objeto de grafo de [cytoscape.js](http://js.cytoscape.org)."
+      },
+      {
+        "row": 3,
+        "rowsha": "ADFTBrAs09rqibNrNePaOANeBL7u6jQsdqLHSaPeNCE=",
+        "originContent": "* `element` — DOM element that holds a graph.",
+        "translatedContent": "* `element` — elemento DOM que contiene un grafo."
+      },
+      {
+        "row": 4,
+        "rowsha": "A+3gxwNIqORzwcWmb9a+aluwCj/N1WmPZgKnp+1dL5A=",
+        "originContent": "* `dataProps` – configured data filtering properties.",
+        "translatedContent": "* `dataProps` – propiedades configuradas para el filtrado de datos."
+      },
+      {
+        "row": 5,
+        "rowsha": "Dap5POxbotM2przxtgsjl47w+h6MeicSFRB9jjEa4UE=",
+        "originContent": "* `viewProps` – configured viewing properties.",
+        "translatedContent": "* `viewProps` – propiedades configuradas para la visualización."
+      },
+      {
+        "row": 6,
+        "rowsha": "zwF9Rvux0hMxn5qCrTf9XF/0Yp2M2pqFYCavW1xDPT0=",
+        "originContent": "* `runLayout(name)` — run specific layout on a graph.",
+        "translatedContent": "* `runLayout(name)` — ejecutar un layout específico en un grafo."
+      },
+      {
+        "row": 7,
+        "rowsha": "rdRcpU4J5S9fttxXWu2Xh8JFlC1eX/qkLBqDIJz/y3s=",
+        "originContent": "* `reloadData()` — reload graph data with new data filtering properties.",
+        "translatedContent": "* `reloadData()` — recargar los datos del grafo con nuevas propiedades de filtrado de datos."
+      },
+      {
+        "row": 8,
+        "rowsha": "4O4T5aMowv1cZ4WWnU0vZMLSxGfZYIKoi2i0+BFgghQ=",
+        "originContent": "* `fit()` — fit graph fully into a graph view.",
+        "translatedContent": "* `fit()` — ajustar completamente el grafo dentro de la vista del grafo."
+      },
+      {
+        "row": 9,
+        "rowsha": "LiinpU/LH77sb3/Xl6JKw51SOsLt0Nq7WVap0ibPs9U=",
+        "originContent": "* `toggleLabels(<bool-value>)` — show / hide node labels.",
+        "translatedContent": "* `toggleLabels(<bool-value>)` — mostrar / ocultar etiquetas de nodos."
+      },
+      {
+        "row": 10,
+        "rowsha": "MbFTYyDLa3oR8gzdIR1C/s/cQJ48cUpLb4vb43xwqn8=",
+        "originContent": "* `toggleLoading(<bool-value>)` — show / hide loading overlay.",
+        "translatedContent": "* `toggleLoading(<bool-value>)` — mostrar / ocultar la superposición de carga."
+      },
+      {
+        "row": 11,
+        "rowsha": "jOFgoeyVdxPmu/etLlXjIwSlEp5H4bc71r2CnTxZkC8=",
+        "originContent": "* `loadData(data)` — load STIX2 bundle from `data` JSON object and render on a graph.",
+        "translatedContent": "* `loadData(data)` — cargar un paquete STIX2 desde el objeto JSON `data` y renderizarlo en un grafo."
+      },
+      {
+        "row": 12,
+        "rowsha": "TMrugw4rbKOAjtedWICe9A9nXuam/AVG/M1tem0BjZY=",
+        "originContent": "* `loadDataFromFile(file)` — load STIX2 bundle from `file` file object and render on a graph.",
+        "translatedContent": "* `loadDataFromFile(file)` — cargar un paquete STIX2 desde el objeto archivo `file` y renderizarlo en un grafo."
+      },
+      {
+        "row": 13,
+        "rowsha": "z4s29I25uNigoHMv/QyGY1ZpBvwv5EMwlMLU671Klec=",
+        "originContent": "* `loadDataFromUrl(url)` — load STIX2 bundle from remote URL and render on a graph.",
+        "translatedContent": "* `loadDataFromUrl(url)` — cargar un paquete STIX2 desde una URL remota y renderizarlo en un grafo."
+      },
+      {
+        "row": 14,
+        "rowsha": "rqbTrPIg3kbphNV6Aki3+y2yZQ8+gSHH/hodTaRsV6w=",
+        "originContent": "* `loadDataFromParamUrl(paramName)` — load STIX2 bundle from remote URL, configured in HTTP GET paramter with name in `paramName` and render on a graph.",
+        "translatedContent": "* `loadDataFromParamUrl(paramName)` — cargar un paquete STIX2 desde una URL remota, configurada en el parámetro HTTP GET con nombre en `paramName` y renderizarlo en un grafo."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "sJ/yPrjOl4CqqmNX52jV/O9t1ocQUKu6R6aB9zUAdQM=",
+        "originContent": "## Build",
+        "translatedContent": "## Build"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```shell\nyarn build\n```",
+    "ContentSha": "waQzKMdyOqhubF4G+TTxn/FwzCuOkWqo3MSXKW+K7V0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nyarn build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "787zJVQYGkNUE+RPKyP88+XggDnJlJtD9r2Ee1z+U98=",
+        "originContent": "yarn build",
+        "translatedContent": "yarn build"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

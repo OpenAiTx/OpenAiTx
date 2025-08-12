@@ -35,7 +35,7 @@ A comprehensive collection of specialized AI subagents for [Claude Code](https:/
 
 ## Overview
 
-This repository contains 58 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
+This repository contains 61 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
 
 ## Available Subagents
 
@@ -49,6 +49,7 @@ This repository contains 58 specialized subagents that extend Claude Code's capa
 
 ### Language Specialists
 - **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - Write idiomatic Python code with advanced features and optimizations
+- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - Write idiomatic Ruby code with metaprogramming, Rails patterns, gem development, and testing frameworks
 - **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Write idiomatic Go code with goroutines, channels, and interfaces
 - **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Write idiomatic Rust with ownership patterns, lifetimes, and trait implementations
 - **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Write efficient C code with proper memory management and system calls
@@ -60,6 +61,7 @@ This repository contains 58 specialized subagents that extend Claude Code's capa
 - **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Write idiomatic Elixir code with OTP patterns, functional programming, and Phoenix frameworks
 - **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Write modern C# code with advanced features and .NET optimization
 - **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing
+- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Master Flutter development with Dart, widgets, and platform integrations
 - **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Build Unity games with optimized scripts and performance tuning
 - **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs
 - **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Develop native iOS applications with Swift/SwiftUI
@@ -116,7 +118,7 @@ This repository contains 58 specialized subagents that extend Claude Code's capa
 
 ## Model Assignments
 
-All 58 subagents are configured with specific Claude models based on task complexity:
+All 59 subagents are configured with specific Claude models based on task complexity:
 
 ### 🚀 Haiku (Fast & Cost-Effective) - 9 agents
 **Model:** `haiku`
@@ -130,11 +132,12 @@ All 58 subagents are configured with specific Claude models based on task comple
 - `search-specialist` - Web research and information gathering
 - `legal-advisor` - Privacy policies and compliance documents
 
-### ⚡ Sonnet (Balanced Performance) - 36 agents
+### ⚡ Sonnet (Balanced Performance) - 37 agents
 **Model:** `sonnet`
 
 **Development & Languages:**
 - `python-pro` - Python development with advanced features
+- `ruby-pro` - Ruby development with metaprogramming, Rails patterns, and gem development
 - `javascript-pro` - Modern JavaScript and Node.js
 - `typescript-pro` - Advanced TypeScript with type systems
 - `golang-pro` - Go concurrency and idiomatic patterns
@@ -146,6 +149,7 @@ All 58 subagents are configured with specific Claude models based on task comple
 - `elixir-pro` - Elixir with OTP patterns and Phoenix
 - `csharp-pro` - Modern C# with .NET frameworks and patterns
 - `scala-pro` - Enterprise Scala with Apache Pekko, Akka, Spark, and ZIO/Cats Effect
+- `flutter-expert` - Flutter development with state management and animations
 - `unity-developer` - Unity game development and optimization
 - `minecraft-bukkit-pro` - Minecraft plugin development with Bukkit/Spigot/Paper
 - `ios-developer` - Native iOS development with Swift/SwiftUI
@@ -175,6 +179,7 @@ All 58 subagents are configured with specific Claude models based on task comple
 - `legacy-modernizer` - Framework migrations
 - `payment-integration` - Payment processing
 - `mermaid-expert` - Mermaid diagrams and visual documentation
+- `flutter-expert` - Flutter development
 
 ### 🧠 Opus (Maximum Capability) - 13 agents
 **Model:** `opus`
@@ -372,6 +377,7 @@ payment-integration → security-auditor → Validated implementation
 
 ### 🔧 Implementation & Development  
 - **python-pro**: Python-specific development tasks
+- **ruby-pro**: Ruby metaprogramming, Rails applications, gem development, RSpec/Minitest testing
 - **golang-pro**: Go-specific development tasks
 - **rust-pro**: Rust-specific development, memory safety, systems programming
 - **c-pro**: C programming, embedded systems, performance-critical code
@@ -381,6 +387,7 @@ payment-integration → security-auditor → Validated implementation
 - **elixir-pro**: Elixir development, OTP patterns, Phoenix frameworks, functional programming
 - **csharp-pro**: Modern C# development, .NET frameworks, enterprise patterns
 - **scala-pro**: Enterprise Scala with functional programming, Apache Pekko/Akka actors, Apache Spark, ZIO/Cats Effect, reactive architectures
+- **flutter-expert**: Flutter development, Dart, state management, animations, cross-platform deployment
 - **unity-developer**: Unity game development, C# scripting, performance optimization
 - **minecraft-bukkit-pro**: Minecraft plugin development, event systems, server-side features
 - **ios-developer**: Native iOS development with Swift/SwiftUI

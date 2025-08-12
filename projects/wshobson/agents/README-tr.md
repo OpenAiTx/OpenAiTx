@@ -29,139 +29,143 @@
   </details>
 </div>
 
-# Claude Code Alt Ajanları Koleksiyonu
+# Claude Code Alt Ajan Koleksiyonu
 
-[Claude Code](https://docs.anthropic.com/en/docs/claude-code) için geliştirilmiş, alanına özel uzmanlıklarla yazılım geliştirme süreçlerini iyileştirmek üzere tasarlanmış kapsamlı AI alt ajan koleksiyonu.
+[Claude Code](https://docs.anthropic.com/en/docs/claude-code) için geliştirilmiş, alanında uzmanlaşmış yapay zeka alt ajanlarının kapsamlı koleksiyonu; geliştirme süreçlerini alanına özgü uzmanlıkla geliştirmek üzere tasarlanmıştır.
 
 ## Genel Bakış
 
-Bu depo, Claude Code'un yeteneklerini genişleten 58 özel alt ajan içerir. Her bir alt ajan, belirli bir alanda uzmandır ve bağlama göre otomatik olarak çağrılır ya da ihtiyaç duyulduğunda manuel olarak etkinleştirilebilir. Tüm ajanlar, görev karmaşıklığına göre belirlenen Claude modelleriyle yapılandırılarak en iyi performans ve maliyet verimliliği sunar.
+Bu depo, Claude Code'un yeteneklerini genişleten 61 özel alt ajan içerir. Her alt ajan, belirli bir alanda uzmandır; bağlama göre otomatik olarak veya ihtiyaç duyulduğunda açıkça çağrılarak kullanılır. Tüm ajanlar, görev karmaşıklığına göre belirlenmiş Claude modelleriyle yapılandırılmıştır; böylece en iyi performans ve maliyet-etkinlik sağlanır.
 
 ## Mevcut Alt Ajanlar
 
 ### Geliştirme & Mimari
-- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - RESTful API'ler, mikroservis sınırları ve veritabanı şemalarını tasarlar
+- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - RESTful API'ler, mikroservis sınırları ve veritabanı şemaları tasarlar
 - **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - React bileşenleri oluşturur, duyarlı düzenler uygular ve istemci tarafı durum yönetimini sağlar
-- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Arayüz tasarımları, wireframe'ler ve tasarım sistemleri oluşturur
+- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Arayüz tasarımları, akış şemaları ve tasarım sistemleri oluşturur
 - **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - React Native veya Flutter ile yerel entegrasyonlara sahip uygulamalar geliştirir
 - **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - GraphQL şemaları, çözücüler ve federasyon tasarlar
-- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Mimari tutarlılık ve desenler için kod değişikliklerini inceler
+- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Kod değişikliklerini mimari tutarlılık ve desenler açısından inceler
 
 ### Dil Uzmanları
-- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - İleri düzey özellikler ve optimizasyonlar ile idiomatik Python kodu yazar
-- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Gorutinler, kanallar ve arayüzlerle idiomatik Go kodu yazar
-- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Sahiplik desenleri, ömürler ve trait uygulamaları ile idiomatik Rust kodu yazar
-- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Doğru bellek yönetimi ve sistem çağrıları ile verimli C kodu yazar
-- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Modern özellikler, RAII, akıllı işaretçiler ve STL algoritmaları ile idiomatik C++ kodu yazar
-- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Modern JavaScript'i ES6+, asenkron desenler ve Node.js API'leri ile ustaca kullanır
-- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Gelişmiş tipler, generikler ve katı tip güvenliği ile TypeScript'i ustaca kullanır
-- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Modern özellikler ve performans iyileştirmeleri ile idiomatik PHP kodu yazar
-- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Akışlar, eşzamanlılık ve JVM optimizasyonu ile modern Java'yı ustaca kullanır
-- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - OTP desenleri, fonksiyonel programlama ve Phoenix framework ile idiomatik Elixir kodu yazar
-- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Gelişmiş özellikler ve .NET optimizasyonu ile modern C# kodu yazar
-- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - Fonksiyonel programlama, dağıtık sistemler ve büyük veri işlemleriyle kurumsal düzeyde Scala geliştiriciliği ustalaşır
-- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Optimizasyonlu scriptler ve performans ayarlamaları ile Unity oyunları geliştirir
-- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Bukkit, Spigot ve Paper API'leri ile Minecraft sunucu eklenti geliştirmesinde ustadır
+- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - İleri düzey özellikler ve optimizasyonlarla idiomatik Python kodu yazar
+- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - Metaprogramlama, Rails desenleri, gem geliştirme ve test çerçeveleriyle idiomatik Ruby kodu yazar
+- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Goroutine, kanal ve arayüzlerle idiomatik Go kodu yazar
+- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Sahiplik desenleri, ömürler ve trait uygulamalarıyla idiomatik Rust kodu yazar
+- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Doğru bellek yönetimi ve sistem çağrılarıyla verimli C kodu yazar
+- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Modern özellikler, RAII, akıllı işaretçiler ve STL algoritmalarıyla idiomatik C++ kodu yazar
+- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Modern JavaScript'i ES6+, asenkron desenler ve Node.js API'leriyle uzmanlaşır
+- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Gelişmiş tipler, generikler ve sıkı tip güvenliğiyle TypeScript'i uzmanlaşır
+- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Modern özellikler ve performans optimizasyonlarıyla idiomatik PHP kodu yazar
+- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Akışlar, eşzamanlılık ve JVM optimizasyonuyla modern Java'yı uzmanlaşır
+- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - OTP desenleri, fonksiyonel programlama ve Phoenix çerçevesiyle idiomatik Elixir kodu yazar
+- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Modern C# kodu, ileri düzey özellikler ve .NET optimizasyonuyla yazar
+- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - Fonksiyonel programlama, dağıtık sistemler ve büyük veri işleme ile kurumsal düzeyde Scala geliştirmesinde uzmanlaşır
+- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Dart, widget'lar ve platform entegrasyonlarıyla Flutter geliştirmesinde uzmanlaşır
+- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Optimize edilmiş scriptler ve performans ayarı ile Unity oyunları geliştirir
+- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Bukkit, Spigot ve Paper API'leri ile Minecraft sunucu eklenti geliştirmesinde uzmanlaşır
 - **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Swift/SwiftUI ile yerel iOS uygulamaları geliştirir
-- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Karmaşık SQL sorguları yazar, yürütme planlarını optimize eder ve normalize şemalar tasarlar
+- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Karmaşık SQL sorguları yazar, yürütme planlarını optimize eder ve normalleştirilmiş şemalar tasarlar
 
 ### Altyapı & Operasyonlar
-- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Üretim sorunlarını giderir, logları analiz eder ve dağıtım hatalarını düzeltir
-- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - CI/CD boru hatları, Docker konteynerleri ve bulut dağıtımlarını yapılandırır
+- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Üretim sorunlarını ayıklar, logları analiz eder ve dağıtım hatalarını düzeltir
+- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - CI/CD boru hatlarını, Docker konteynerlerini ve bulut dağıtımlarını yapılandırır
 - **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - AWS/Azure/GCP altyapısı tasarlar ve bulut maliyetlerini optimize eder
 - **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - SQL sorgularını optimize eder, verimli indeksler tasarlar ve veritabanı geçişlerini yönetir
-- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - Veritabanı operasyonlarını, yedeklemeleri, replikasyonu ve izlemeyi yönetir
-- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Gelişmiş Terraform modülleri yazar, durum dosyalarını yönetir ve IaC en iyi uygulamalarını uygular
-- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Üretim olaylarını acil ve hassas şekilde yönetir
-- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Ağ bağlantılarını giderir, yük dengeleyicileri yapılandırır ve trafik desenlerini analiz eder
-- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Geliştirici Deneyimi uzmanı; araçları, kurulumları ve iş akışlarını iyileştirir
+- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - Veritabanı işlemlerini, yedeklemeleri, replikasyonu ve izlemeyi yönetir
+- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - İleri düzey Terraform modülleri yazar, durum dosyalarını yönetir ve IaC en iyi uygulamalarını uygular
+- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Üretim olaylarını aciliyet ve hassasiyetle ele alır
+- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Ağ bağlantı sorunlarını ayıklar, yük dengeleyicileri yapılandırır ve trafik desenlerini analiz eder
+- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Geliştirici Deneyimi uzmanı; araçları, kurulumu ve iş akışlarını iyileştirir
 
 ### Kalite & Güvenlik
-- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Derin yapılandırma güvenliği odağı ve üretim güvenilirliği ile uzman kod incelemesi yapar
-- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Güvenlik açıklarını inceleyin ve OWASP uyumluluğunu sağlayın
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Derin yapılandırma güvenliği odağı ve üretim güvenilirliği ile uzman kod incelemesi
+- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Kodun güvenlik açıklarını inceleyin ve OWASP uyumluluğunu sağlayın
 - **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Birim, entegrasyon ve uçtan uca testlerle kapsamlı test paketleri oluşturun
-- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Uygulamaları profilleyin, darboğazları optimize edin ve önbellekleme stratejileri uygulayın
+- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Uygulamaları profil edin, darboğazları optimize edin ve önbellekleme stratejileri uygulayın
 - **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Hatalar, test başarısızlıkları ve beklenmeyen davranışlar için hata ayıklama uzmanı
-- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Hata kalıpları, yığın izleri ve anormallikler için log ve kod tabanlarını araştırır
-- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Gelişmiş arama teknikleri ve sentez kullanan web araştırma uzmanı
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Hata desenleri, yığın izleri ve anormallikler için günlükleri ve kod tabanlarını arayın
+- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Gelişmiş arama teknikleri ve sentez ile uzman web araştırmacısı
 
 ### Veri & Yapay Zeka
-- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQL sorguları, BigQuery işlemleri ve veri içgörüleri için veri analizi uzmanı
-- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - ETL boru hatları, veri ambarları ve akış mimarileri oluşturur
-- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - LLM uygulamaları, RAG sistemleri ve prompt boru hatları oluşturur
-- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - ML boru hatları, model sunumu ve özellik mühendisliği uygular
-- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - ML boru hatları, deney takibi ve model kayıtları oluşturur
-- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - LLM’ler ve yapay zeka sistemleri için istemleri optimize eder
+- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQL sorguları, BigQuery işlemleri ve veri analizlerinde uzman
+- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - ETL boru hatları, veri ambarları ve akış mimarileri oluşturun
+- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - LLM uygulamaları, RAG sistemleri ve istem boru hatları oluşturun
+- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - ML boru hatları, model sunumu ve özellik mühendisliği uygulayın
+- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - ML boru hatları, deney takibi ve model kayıtları oluşturun
+- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - LLM'ler ve yapay zeka sistemleri için istemleri optimize eder
 
-### Uzmanlaşmış Alanlar
-- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - OpenAPI/Swagger spesifikasyonları oluşturur ve geliştirici dokümantasyonu yazar
-- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Stripe, PayPal ve ödeme işlemcilerini entegre eder
+### Uzmanlık Alanları
+- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - OpenAPI/Swagger şemaları oluşturur ve geliştirici dokümantasyonu yazar
+- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Stripe, PayPal ve ödeme işlemcilerini entegre edin
 - **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Finansal modeller oluşturur, ticaret stratejilerini geriye dönük test eder ve piyasa verilerini analiz eder
-- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Portföy riski, R-çarpanları ve pozisyon limitlerini izler
+- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Portföy riskini, R-çarpanlarını ve pozisyon limitlerini izler
 - **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Eski kod tabanlarını yeniden düzenler ve kademeli modernizasyon uygular
-- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Birden fazla ajan ve uzun süreli görev arasında bağlam yönetir
+- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Birden fazla ajan ve uzun süreli görevlerde bağlamı yönetir
 
 ### Dokümantasyon
 - **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Mevcut kod tabanlarından kapsamlı teknik dokümantasyon oluşturur
-- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Akış diyagramları, sıralar, ERD’ler ve mimariler için Mermaid diyagramları oluşturur
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Akış şemaları, diziler, ERD'ler ve mimariler için Mermaid diyagramları oluşturur
 - **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Kapsamlı teknik referanslar ve API dokümantasyonu oluşturur
 - **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Koddan adım adım eğitimler ve öğretici içerikler oluşturur
 
 ### İş & Pazarlama
-- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Metrikleri analiz eder, raporlar oluşturur ve KPI’ları takip eder
-- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Blog gönderileri, sosyal medya içerikleri ve e-posta bültenleri yazar
-- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Soğuk e-postalar, takipler ve teklif şablonları hazırlar
+- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Metrikleri analiz eder, raporlar oluşturur ve KPI'ları takip eder
+- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Blog yazıları, sosyal medya içerikleri ve e-posta bültenleri yazar
+- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Soğuk e-postalar, takip mesajları ve teklif şablonları hazırlar
 - **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Destek taleplerini, SSS yanıtlarını ve müşteri e-postalarını yönetir
-- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Gizlilik politikaları, hizmet şartları, feragatnameler ve yasal bildirimler hazırlar
+- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Gizlilik politikaları, hizmet şartları, feragatler ve yasal bildirimler hazırlar
 
 ## Model Atamaları
 
-Tüm 58 alt ajan, görev karmaşıklığına göre belirli Claude modelleriyle yapılandırılmıştır:
+Tüm 59 alt ajan, görev karmaşıklığına göre özel Claude modelleriyle yapılandırılmıştır:
 
-### 🚀 Haiku (Hızlı ve Maliyet Etkin) - 9 ajan
+### 🚀 Haiku (Hızlı & Ekonomik) - 9 ajan
 **Model:** `haiku`
 - `data-scientist` - SQL sorguları ve veri analizi
 - `api-documenter` - OpenAPI/Swagger dokümantasyonu
 - `reference-builder` - Kapsamlı teknik referanslar ve API dokümantasyonu
-- `business-analyst` - Metrik ve KPI takibi
+- `business-analyst` - Metrikler ve KPI takibi
 - `content-marketer` - Blog yazıları ve sosyal medya
 - `customer-support` - Destek talepleri ve SSS
-- `sales-automator` - Soğuk e-postalar ve teklifler
+- `sales-automator` - Soğuk e-postalar ve teklif hazırlama
 - `search-specialist` - Web araştırması ve bilgi toplama
-- `legal-advisor` - Gizlilik politikaları ve uyumluluk belgeleri
+- `legal-advisor` - Gizlilik politikaları ve uyum belgeleri
 
-### ⚡ Sonnet (Dengeli Performans) - 36 ajan
+### ⚡ Sonnet (Dengeli Performans) - 37 ajan
 **Model:** `sonnet`
 
 **Geliştirme & Diller:**
 - `python-pro` - Gelişmiş özelliklerle Python geliştirme
+- `ruby-pro` - Metaprogramlama, Rails desenleri ve gem geliştirme ile Ruby geliştirme
 - `javascript-pro` - Modern JavaScript ve Node.js
-- `typescript-pro` - Gelişmiş tip sistemleriyle TypeScript
-- `golang-pro` - Go eşzamanlılığı ve idiyomatik kalıplar
+- `typescript-pro` - Tip sistemleriyle gelişmiş TypeScript
+- `golang-pro` - Go eşzamanlılığı ve idiomatik desenler
 - `rust-pro` - Rust bellek güvenliği ve sistem programlama
 - `c-pro` - C programlama ve gömülü sistemler
 - `cpp-pro` - STL ve şablonlarla modern C++
 - `php-pro` - Gelişmiş özelliklerle modern PHP
-- `java-pro` - Akışlar ve eşzamanlılıkla modern Java
-- `elixir-pro` - OTP kalıpları ve Phoenix ile Elixir
-- `csharp-pro` - .NET çerçeveleri ve kalıplarıyla modern C#
+- `java-pro` - Akışlar ve eşzamanlılık ile modern Java
+- `elixir-pro` - OTP desenleri ve Phoenix ile Elixir
+- `csharp-pro` - .NET frameworkleri ve desenlerle modern C#
 - `scala-pro` - Apache Pekko, Akka, Spark ve ZIO/Cats Effect ile kurumsal Scala
-- `unity-developer` - Unity oyun geliştirme ve optimizasyonu
+- `flutter-expert` - Durum yönetimi ve animasyonlarla Flutter geliştirme
+- `unity-developer` - Unity oyun geliştirme ve optimizasyon
 - `minecraft-bukkit-pro` - Bukkit/Spigot/Paper ile Minecraft eklenti geliştirme
 - `ios-developer` - Swift/SwiftUI ile yerel iOS geliştirme
-- `frontend-developer` - React bileşenleri ve arayüzü
-- `ui-ux-designer` - Arayüz tasarımı ve wireframe çizimleri
+- `frontend-developer` - React bileşenleri ve arayüz
+- `ui-ux-designer` - Arayüz tasarımı ve çizelgeler
 - `backend-architect` - API tasarımı ve mikroservisler
 - `mobile-developer` - React Native/Flutter uygulamaları
 - `sql-pro` - Karmaşık SQL optimizasyonu
 - `graphql-architect` - GraphQL şemaları ve çözücüler
 
 **Altyapı & Operasyonlar:**
-- `devops-troubleshooter` - Üretim ortamı hata ayıklama
+- `devops-troubleshooter` - Üretim hata ayıklama
 - `deployment-engineer` - CI/CD boru hatları
 - `database-optimizer` - Sorgu optimizasyonu
 - `database-admin` - Veritabanı işlemleri
-- `terraform-specialist` - Kod ile Altyapı
+- `terraform-specialist` - Kod olarak Altyapı
 - `network-engineer` - Ağ yapılandırması
 - `dx-optimizer` - Geliştirici deneyimi
 - `data-engineer` - ETL boru hatları
@@ -169,32 +173,33 @@ Tüm 58 alt ajan, görev karmaşıklığına göre belirli Claude modelleriyle y
 **Kalite & Destek:**
 - `test-automator` - Test paketi oluşturma
 - `code-reviewer` - Kod kalitesi analizi
-- `debugger` - Hata araştırma
-- `error-detective` - Log analizi
-- `ml-engineer` - ML modeli dağıtımı
-- `legacy-modernizer` - Framework geçişleri
-- `payment-integration` - Ödeme işlemleri
+- `debugger` - Hata araştırması
+- `error-detective` - Günlük analizi
+- `ml-engineer` - ML model dağıtımı
+- `legacy-modernizer` - Çerçeve geçişleri
+- `payment-integration` - Ödeme işleme
 - `mermaid-expert` - Mermaid diyagramları ve görsel dokümantasyon
+- `flutter-expert` - Flutter geliştirme
 
 ### 🧠 Opus (Maksimum Kapasite) - 13 ajan
 **Model:** `opus`
 - `ai-engineer` - LLM uygulamaları ve RAG sistemleri
-- `security-auditor` - Açık analizleri
+- `security-auditor` - Açıklık analizi
 - `performance-engineer` - Uygulama optimizasyonu
 - `incident-responder` - Üretim olay yönetimi
 - `mlops-engineer` - ML altyapısı
 - `architect-reviewer` - Mimari tutarlılık
-- `cloud-architect` - Bulut altyapı tasarımı
+- `cloud-architect` - Bulut altyapısı tasarımı
 - `prompt-engineer` - LLM istemi optimizasyonu
 - `context-manager` - Çoklu ajan koordinasyonu
 - `quant-analyst` - Finansal modelleme
 - `risk-manager` - Portföy risk yönetimi
 - `docs-architect` - Kod tabanlarından kapsamlı teknik dokümantasyon
-- `tutorial-engineer` - Adım adım eğitimler ve öğretici içerik
+- `tutorial-engineer` - Adım adım eğitimler ve öğretici içerikler
 
 ## Kurulum
 
-Bu alt ajanlar, `~/.claude/agents/` dizinine yerleştirildiğinde otomatik olarak kullanılabilir olur.
+Bu alt ajanlar, `~/.claude/agents/` dizinine yerleştirildiklerinde otomatik olarak kullanılabilir.
 
 ```bash
 cd ~/.claude
@@ -362,47 +367,49 @@ Example: "Implement payment processing"
 payment-integration → security-auditor → Validated implementation
 ```
 
-## Hangi Ajan Ne Zaman Kullanılır
+## Hangi Ajant Ne Zaman Kullanılır
 
-### 🏗️ Planlama ve Mimarî
+### 🏗️ Planlama & Mimari
 - **backend-architect**: API tasarımı, veritabanı şemaları, sistem mimarisi
 - **frontend-developer**: UI/UX planlama, bileşen mimarisi
 - **ui-ux-designer**: Arayüz tasarımı, tel kafesler, tasarım sistemleri, kullanıcı araştırması
 - **cloud-architect**: Altyapı tasarımı, ölçeklenebilirlik planlaması
 
-### 🔧 Uygulama ve Geliştirme  
-- **python-pro**: Python’a özgü yazılım geliştirme görevleri
-- **golang-pro**: Go’ya özgü yazılım geliştirme görevleri
-- **rust-pro**: Rust geliştirme, bellek güvenliği, sistem programlama
-- **c-pro**: C programlama, gömülü sistemler, performansa duyarlı kod
+### 🔧 Uygulama & Geliştirme  
+- **python-pro**: Python'a özgü geliştirme görevleri
+- **ruby-pro**: Ruby metaprogramlama, Rails uygulamaları, gem geliştirme, RSpec/Minitest testi
+- **golang-pro**: Go'ya özgü geliştirme görevleri
+- **rust-pro**: Rust'a özgü geliştirme, bellek güvenliği, sistem programlama
+- **c-pro**: C programlama, gömülü sistemler, performans kritik kod
 - **javascript-pro**: Modern JavaScript, asenkron desenler, Node.js/tarayıcı kodu
-- **typescript-pro**: İleri düzey TypeScript, generics, tip çıkarımı, kurumsal desenler
-- **java-pro**: Modern Java geliştirme, stream’ler, eşzamanlılık, Spring Boot
+- **typescript-pro**: İleri düzey TypeScript, generikler, tür çıkarımı, kurumsal desenler
+- **java-pro**: Modern Java geliştirme, akışlar, eşzamanlılık, Spring Boot
 - **elixir-pro**: Elixir geliştirme, OTP desenleri, Phoenix frameworkleri, fonksiyonel programlama
 - **csharp-pro**: Modern C# geliştirme, .NET frameworkleri, kurumsal desenler
-- **scala-pro**: Kurumsal Scala ile fonksiyonel programlama, Apache Pekko/Akka aktörleri, Apache Spark, ZIO/Cats Effect, reaktif mimariler
-- **unity-developer**: Unity oyun geliştirme, C# betik yazımı, performans optimizasyonu
+- **scala-pro**: Kurumsal Scala ve fonksiyonel programlama, Apache Pekko/Akka aktörleri, Apache Spark, ZIO/Cats Effect, reaktif mimariler
+- **flutter-expert**: Flutter geliştirme, Dart, durum yönetimi, animasyonlar, çapraz platform dağıtımı
+- **unity-developer**: Unity oyun geliştirme, C# betikleme, performans optimizasyonu
 - **minecraft-bukkit-pro**: Minecraft eklenti geliştirme, olay sistemleri, sunucu tarafı özellikler
 - **ios-developer**: Swift/SwiftUI ile yerel iOS geliştirme
 - **sql-pro**: Veritabanı sorguları, şema tasarımı, sorgu optimizasyonu
 - **mobile-developer**: React Native/Flutter geliştirme
 
-### 🛠️ Operasyon ve Bakım
+### 🛠️ Operasyon & Bakım
 - **devops-troubleshooter**: Üretim sorunları, dağıtım problemleri
 - **incident-responder**: Anında müdahale gerektiren kritik kesintiler
 - **database-optimizer**: Sorgu performansı, indeksleme stratejileri
 - **database-admin**: Yedekleme stratejileri, replikasyon, kullanıcı yönetimi, felaket kurtarma
-- **terraform-specialist**: Kod ile Altyapı, Terraform modülleri, durum yönetimi
+- **terraform-specialist**: Kod olarak Altyapı, Terraform modülleri, durum yönetimi
 - **network-engineer**: Ağ bağlantısı, yük dengeleyiciler, SSL/TLS, DNS hata ayıklama
 
-### 📊 Analiz ve Optimizasyon
+### 📊 Analiz & Optimizasyon
 - **performance-engineer**: Uygulama darboğazları, optimizasyon
 - **security-auditor**: Zafiyet taraması, uyumluluk kontrolleri
 - **data-scientist**: Veri analizi, içgörüler, raporlama
-- **mlops-engineer**: ML altyapısı, deney takibi, model kayıtları, boru hattı otomasyonu
+- **mlops-mühendisi**: ML altyapısı, deney takibi, model kayıtları, boru hattı otomasyonu
 
 ### 🧪 Kalite Güvencesi
-- **kod-denetçisi**: Kod kalitesi, yapılandırma güvenliği, üretim güvenilirliği
+- **kod-inceleyici**: Kod kalitesi, yapılandırma güvenliği, üretim güvenilirliği
 - **test-otomasyoncusu**: Test stratejisi, test paketi oluşturma
 - **hata-ayıklayıcı**: Hata araştırması, hata çözümü
 - **hata-dedektifi**: Log analizi, hata deseni tanıma, kök neden analizi
@@ -410,79 +417,79 @@ payment-integration → security-auditor → Validated implementation
 
 ### 📚 Dokümantasyon
 - **api-belgeleyici**: OpenAPI/Swagger spesifikasyonları, API dokümantasyonu
-- **doküman-mimarı**: Kapsamlı teknik dokümantasyon, mimari rehberler, sistem el kitapları
-- **referans-oluşturucu**: Eksiksiz API referansları, yapılandırma rehberleri, parametre dokümantasyonu
-- **eğitim-mühendisi**: Adım adım eğitimler, öğrenme yolları, eğitim içeriği
+- **doküman-mimarı**: Kapsamlı teknik dokümantasyon, mimari rehberler, sistem kılavuzları
+- **referans-oluşturucu**: Kapsamlı API referansları, yapılandırma rehberleri, parametre dokümantasyonu
+- **eğitim-mühendisi**: Adım adım eğitimler, öğrenme yolları, eğitsel içerik
 
 ### 💼 İş & Strateji
 - **iş-analisti**: KPI'lar, gelir modelleri, büyüme projeksiyonları, yatırımcı metrikleri
-- **risk-yöneticisi**: Portföy riski, koruma stratejileri, R-çarpanları, pozisyon büyüklüğü
+- **risk-yöneticisi**: Portföy riski, koruma stratejileri, R-çarpanları, pozisyon boyutlandırma
 - **içerik-pazarlamacısı**: SEO içeriği, blog yazıları, sosyal medya, e-posta kampanyaları
-- **satış-otomasyoncusu**: Soğuk e-postalar, takipler, teklif dosyaları, müşteri adaylarını besleme
+- **satış-otomasyoncusu**: Soğuk e-postalar, takipler, teklifler, aday besleme
 - **müşteri-destekçisi**: Destek talepleri, SSS, yardım dokümantasyonu, sorun giderme
-- **hukuk-danışmanı** - Gizlilik politikası, hizmet şartları, feragatnameler ve yasal bildirim taslakları hazırlar
+- **hukuk-danışmanı** - Gizlilik politikaları, hizmet şartları, feragatnameler ve yasal bildirimler hazırlama 
 
 ## En İyi Uygulamalar
 
-### 🎯 Görev Dağılımı
-1. **Claude Code’un otomatik olarak görev dağıtmasına izin verin** - Ana ajan bağlamı analiz eder ve en uygun ajanları seçer
-2. **Gereksinimlerde net olun** - Kısıtlamalar, teknoloji yığını ve kalite gereksinimlerini belirtin
+### 🎯 Görev Delegasyonu
+1. **Claude Code otomatik olarak delege etsin** - Ana ajan bağlamı analiz eder ve en uygun ajanları seçer
+2. **Gereksinimleri net belirtin** - Kısıtlamalar, teknoloji yığını ve kalite gereksinimlerini ekleyin
 3. **Ajan uzmanlığına güvenin** - Her ajan kendi alanı için optimize edilmiştir
 
-### 🔄 Çoklu-Ajan İş Akışları
-4. **Yüksek seviyeli isteklerle başlayın** - Ajanların karmaşık çok aşamalı görevleri koordine etmesine izin verin
-5. **Ajanlar arasında bağlam sağlayın** - Ajanların gerekli arka plan bilgisine sahip olduğundan emin olun
+### 🔄 Çoklu Ajan İş Akışları
+4. **Yüksek seviyeli isteklerle başlayın** - Ajanlara karmaşık çok adımlı görevleri koordine ettirin
+5. **Ajanlar arası bağlam sağlayın** - Ajanların gerekli arka plan bilgisine sahip olduğundan emin olun
 6. **Entegrasyon noktalarını gözden geçirin** - Farklı ajanların çıktılarının birlikte nasıl çalıştığını kontrol edin
 
 ### 🎛️ Açık Kontrol
-7. **Belirli ihtiyaçlar için açık çağrım kullanın** - Belirli bir uzmanın bakış açısını istediğinizde
-8. **Birden fazla ajanı stratejik olarak birleştirin** - Farklı uzmanlar birbirlerinin çalışmalarını doğrulayabilir
-9. **Belirli inceleme desenleri isteyin** - "Güvenlik-denetçisi, arka-uç mimarının API tasarımını gözden geçirsin"
+7. **Belirli ihtiyaçlar için açık çağrı kullanın** - Özellikle bir uzmanın bakış açısını istediğinizde
+8. **Birden fazla ajanı stratejik olarak birleştirin** - Farklı uzmanlar birbirlerinin işini doğrulayabilir
+9. **Belirli inceleme kalıpları isteyin** - "security-auditor'ın backend-architect'in API tasarımını incelemesini isteyin"
 
 ### 📈 Optimizasyon
-10. **Ajan etkinliğini izleyin** - Hangi ajanların kullanım senaryolarınızda en iyi çalıştığını öğrenin
-11. **Karmaşık görevlerde yineleme yapın** - Gereksinimleri iyileştirmek için ajanın geri bildirimini kullanın
-12. **Ajana özgü güçlü yönleri kullanın** - Görev karmaşıklığını ajan yetenekleriyle eşleştirin
+10. **Ajans etkinliğini izleyin** - Hangi ajanların sizin kullanım senaryolarınızda en iyi çalıştığını öğrenin
+11. **Karmaşık görevlerde yineleme yapın** - Gereksinimleri iyileştirmek için ajan geri bildirimini kullanın
+12. **Ajanların güçlü yönlerinden yararlanın** - Görev karmaşıklığını ajan yeteneklerine göre eşleştirin
 
 ## Katkıda Bulunma
 
 Yeni bir alt ajan eklemek için:
-1. Yukarıdaki formatı takip ederek yeni bir `.md` dosyası oluşturun
-2. Küçük harfli, tire ile ayrılmış isimler kullanın
-3. Alt ajanın ne zaman kullanılacağını açıkça açıklayın
+1. Yukarıdaki formata uygun yeni bir `.md` dosyası oluşturun
+2. Küçük harf ve tire ile ayrılmış isimler kullanın
+3. Alt ajanın ne zaman kullanılacağına dair net açıklamalar yazın
 4. Sistem isteminde özel talimatlar ekleyin
 
 ## Sorun Giderme
 
-### Sık Karşılaşılan Sorunlar
+### Yaygın Sorunlar
 
 **Ajan otomatik olarak çağrılmıyor:**
-- İsteğinizin alanı net olarak belirtildiğinden emin olun (ör. "performans sorunu" → performance-engineer)
-- Görev türünü spesifik olarak belirtin (ör. "kodu incele" → code-reviewer)
+- Talebinizin açıkça alanı belirttiğinden emin olun (örn. "performans sorunu" → performance-engineer)
+- Görev türü hakkında spesifik olun (örn. "kodu gözden geçir" → code-reviewer)
 
 **Beklenmeyen ajan seçimi:**
-- Teknoloji yığını ve gereksinimleriniz hakkında daha fazla bilgi verin
-- Belirli bir ajan istiyorsanız açıkça çağırın
+- Teknoloji yığını ve gereksinimler hakkında daha fazla bağlam sağlayın
+- Belirli bir ajana ihtiyacınız varsa açık çağrı kullanın
 
 **Birden fazla ajan çelişkili öneriler sunuyor:**
 - Bu normaldir - farklı uzmanlar farklı önceliklere sahip olabilir
-- Açıklama isteyin: "security-auditor ile performance-engineer'ın önerilerini uzlaştır"
+- Açıklama isteyin: "security-auditor ve performance-engineer'ın önerilerini uzlaştır"
 
 **Ajan bağlamdan yoksun görünüyor:**
-- İsteğinizde arka plan bilgisi sağlayın
-- Önceki konuşmaları veya yerleşik kalıpları referans gösterin
+- Talebinizde arka plan bilgisi sağlayın
+- Önceki görüşmelere veya belirlenmiş kalıplara referans verin
 
-### Yardım Almak
+### Yardım Alma
 
 Ajanlar beklendiği gibi çalışmıyorsa:
 1. Bireysel dosyalarındaki ajan açıklamalarını kontrol edin
-2. İsteklerinizde daha spesifik bir dil deneyin
-3. Belirli ajanları test etmek için açıkça çağırın
+2. Taleplerinizde daha spesifik bir dil deneyin
+3. Belirli ajanları test etmek için açık çağrı kullanın
 4. Projeniz ve hedefleriniz hakkında daha fazla bağlam sağlayın
 
 ## Lisans
 
-Bu proje MIT Lisansı altında lisanslanmıştır - ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
+Bu proje MIT Lisansı altında lisanslanmıştır - ayrıntılar için [LICENSE](LICENSE) dosyasına bakınız.
 
 ## Daha Fazla Bilgi Edinin
 
@@ -493,6 +500,6 @@ Bu proje MIT Lisansı altında lisanslanmıştır - ayrıntılar için [LICENSE]
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-12
 
 ---

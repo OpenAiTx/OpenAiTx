@@ -3,26 +3,26 @@
     <summary >🌐 Taal</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=en">English</a>
+        <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=en">Engels</a>
         | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja">Japans</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko">Koreaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th">Thais</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr">Frans</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de">Duits</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es">Spaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it">Italiaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru">Russisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt">Portugees</a>
         | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl">Pools</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar">Arabisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa">Perzisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr">Turks</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi">Vietnamees</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id">Bahasa Indonesisch</a>
         | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as">অসমীয়া</
       </div>
     </div>
@@ -35,32 +35,34 @@ Een uitgebreide verzameling gespecialiseerde AI-subagents voor [Claude Code](htt
 
 ## Overzicht
 
-Deze repository bevat 58 gespecialiseerde subagents die de mogelijkheden van Claude Code uitbreiden. Elke subagent is een expert in een specifiek domein, automatisch geactiveerd op basis van context of expliciet opgeroepen wanneer nodig. Alle agents zijn geconfigureerd met specifieke Claude-modellen op basis van taakcomplexiteit voor optimale prestaties en kosteneffectiviteit.
+Deze repository bevat 61 gespecialiseerde subagents die de mogelijkheden van Claude Code uitbreiden. Elke subagent is een expert op een specifiek domein, automatisch geactiveerd op basis van context of expliciet opgeroepen indien nodig. Alle agents zijn geconfigureerd met specifieke Claude-modellen op basis van taakcomplexiteit voor optimale prestaties en kosteneffectiviteit.
 
 ## Beschikbare Subagents
 
 ### Ontwikkeling & Architectuur
 - **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Ontwerp RESTful API's, microservice-grenzen en databaseschema's
-- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Bouw React-componenten, implementeer responsieve layouts en beheer client-side state management
-- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Maak interface-ontwerpen, wireframes en design systemen
-- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - Ontwikkel React Native of Flutter-apps met native integraties
+- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Bouw React-componenten, implementeer responsieve layouts en beheer client-side state
+- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Maak interface-ontwerpen, wireframes en designsystemen
+- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - Ontwikkel React Native- of Flutter-apps met native integraties
 - **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - Ontwerp GraphQL-schema's, resolvers en federatie
 - **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Beoordeelt codewijzigingen op architecturale consistentie en patronen
 
 ### Taal Specialisten
 - **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - Schrijf idiomatische Python-code met geavanceerde functies en optimalisaties
+- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - Schrijf idiomatische Ruby-code met metaprogrammering, Rails-patronen, gem-ontwikkeling en testframeworks
 - **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Schrijf idiomatische Go-code met goroutines, kanalen en interfaces
 - **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Schrijf idiomatische Rust met ownership-patronen, lifetimes en trait-implementaties
-- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Schrijf efficiënte C-code met goed geheugenbeheer en systeemaanroepen
-- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Schrijf idiomatische C++-code met moderne functies, RAII, smart pointers en STL-algoritmes
-- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Beheers modern JavaScript met ES6+, async-patronen en Node.js API's
+- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Schrijf efficiënte C-code met correcte geheugenbeheer en systeemaanroepen
+- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Schrijf idiomatische C++-code met moderne features, RAII, smart pointers en STL-algoritmes
+- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Beheers moderne JavaScript met ES6+, async-patronen en Node.js API's
 - **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Beheers TypeScript met geavanceerde types, generics en strikte typeveiligheid
-- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Schrijf idiomatische PHP-code met moderne functies en prestatieoptimalisaties
-- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Beheers modern Java met streams, concurrency en JVM-optimalisatie
-- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Schrijf idiomatische Elixir-code met OTP-patronen, functionele programmering en Phoenix-frameworks
-- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Schrijf moderne C#-code met geavanceerde functies en .NET-optimalisatie
-- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - Beheers Scala-ontwikkeling van ondernemingsklasse met functionele programmering, gedistribueerde systemen en big data-verwerking
-- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Bouw Unity-games met geoptimaliseerde scripts en prestatie-tuning
+- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Schrijf idiomatische PHP-code met moderne features en prestatieoptimalisaties
+- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Beheers moderne Java met streams, concurrency en JVM-optimalisatie
+- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Schrijf idiomatische Elixir-code met OTP-patronen, functioneel programmeren en Phoenix-frameworks
+- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Schrijf moderne C#-code met geavanceerde features en .NET-optimalisatie
+- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - Beheers Scala-ontwikkeling op enterprise-niveau met functioneel programmeren, gedistribueerde systemen en big data-verwerking
+- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Beheers Flutter-ontwikkeling met Dart, widgets en platformintegraties
+- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Bouw Unity-games met geoptimaliseerde scripts en prestatieafstemming
 - **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Beheers Minecraft-server plugin-ontwikkeling met Bukkit, Spigot en Paper API's
 - **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Ontwikkel native iOS-applicaties met Swift/SwiftUI
 - **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Schrijf complexe SQL-queries, optimaliseer uitvoeringsplannen en ontwerp genormaliseerde schema's
@@ -68,133 +70,136 @@ Deze repository bevat 58 gespecialiseerde subagents die de mogelijkheden van Cla
 ### Infrastructuur & Operaties
 - **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Debug productieproblemen, analyseer logs en los deployment-fouten op
 - **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - Configureer CI/CD-pijplijnen, Docker-containers en cloud-deployments
-- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - Ontwerp AWS/Azure/GCP-infrastructuur en optimaliseer cloud-kosten
-- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - Optimaliseer SQL-queries, ontwerp efficiënte indexen en voer database-migraties uit
+- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - Ontwerp AWS/Azure/GCP-infrastructuur en optimaliseer cloudkosten
+- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - Optimaliseer SQL-queries, ontwerp efficiënte indexen en voer databasemigraties uit
 - **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - Beheer database-operaties, back-ups, replicatie en monitoring
-- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Schrijf geavanceerde Terraform-modules, beheer state-bestanden en implementeer IaC best practices
-- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Handelt productie-incidenten af met urgentie en precisie
+- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Schrijf geavanceerde Terraform-modules, beheer state-files en implementeer IaC best practices
+- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Handelt productie-incidenten met urgentie en precisie af
 - **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Debug netwerkconnectiviteit, configureer load balancers en analyseer verkeerspatronen
-- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Developer Experience specialist die tooling, setup en workflows verbetert
+- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Developer Experience-specialist die tooling, setup en workflows verbetert
 
 ### Kwaliteit & Veiligheid
-- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Expert code-review met diepe focus op configuratiebeveiliging en productiebetrouwbaarheid
-- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Controleer code op kwetsbaarheden en zorg voor OWASP-naleving
-- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Maak uitgebreide testreeksen met unit-, integratie- en e2e-tests
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Deskundige code review met diepe focus op configuratiebeveiliging en productiebetrouwbaarheid
+- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Controleer code op kwetsbaarheden en waarborg OWASP-naleving
+- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Maak uitgebreide testsuites met unit, integratie en e2e tests
 - **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profiel applicaties, optimaliseer knelpunten en implementeer cachingstrategieën
-- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Debugspecialist voor fouten, testfalen en onverwacht gedrag
-- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Doorzoek logs en codebases op foutpatronen, stacktraces en anomalieën
+- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Debugspecialist voor fouten, testfouten en onverwacht gedrag
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Doorzoek logs en codebases op foutpatronen, stack traces en anomalieën
 - **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Expert webonderzoeker met geavanceerde zoektechnieken en synthese
 
 ### Data & AI
-- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Data-analyse expert voor SQL-queries, BigQuery-operaties en data-inzichten
+- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Expert in data-analyse voor SQL-queries, BigQuery-operaties en data-inzichten
 - **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Bouw ETL-pijplijnen, datawarehouses en streamingarchitecturen
-- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Bouw LLM-applicaties, RAG-systemen en promptpijplijnen
+- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Bouw LLM-toepassingen, RAG-systemen en prompt-pijplijnen
 - **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Implementeer ML-pijplijnen, model serving en feature engineering
-- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Bouw ML-pijplijnen, experiment tracking en modelregisters
+- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Bouw ML-pijplijnen, experiment tracking en modelregistraties
 - **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - Optimaliseert prompts voor LLMs en AI-systemen
 
 ### Gespecialiseerde Domeinen
 - **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Maak OpenAPI/Swagger-specificaties en schrijf ontwikkelaarsdocumentatie
-- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integreer Stripe, PayPal en betalingsverwerkers
+- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integreer Stripe, PayPal en betaalverwerkers
 - **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Bouw financiële modellen, backtest handelsstrategieën en analyseer marktdata
 - **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Monitor portefeuillerisico, R-multiples en positielimieten
-- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refactor legacy-codebases en implementeer geleidelijke modernisering
+- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refactor legacy codebases en implementeer geleidelijke modernisering
 - **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Beheert context over meerdere agents en langdurige taken
 
 ### Documentatie
 - **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Maakt uitgebreide technische documentatie vanuit bestaande codebases
-- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Maak Mermaid-diagrammen voor stroomdiagrammen, sequenties, ERD's en architecturen
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Maakt Mermaid-diagrammen voor stroomdiagrammen, sequenties, ERDs en architecturen
 - **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Maakt uitputtende technische referenties en API-documentatie
 - **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Maakt stapsgewijze tutorials en educatieve inhoud vanuit code
 
-### Business & Marketing
+### Zakelijk & Marketing
 - **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analyseert statistieken, maakt rapporten en volgt KPI's
-- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Schrijft blogposts, social media-inhoud en e-mailnieuwsbrieven
+- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Schrijft blogposts, sociale media-inhoud en e-mailnieuwsbrieven
 - **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Stelt koude e-mails, follow-ups en voorsteltemplates op
-- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Behandelt supporttickets, FAQ-antwoorden en klant-e-mails
-- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Stelt privacybeleid, servicevoorwaarden, disclaimers en juridische kennisgevingen op
+- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Behandelt supporttickets, FAQ-antwoorden en klantmails
+- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Stelt privacyverklaringen, servicevoorwaarden, disclaimers en juridische mededelingen op
 
 ## Modeltoewijzingen
 
-Alle 58 subagents zijn geconfigureerd met specifieke Claude-modellen op basis van taakcomplexiteit:
+Alle 59 subagenten zijn geconfigureerd met specifieke Claude-modellen op basis van taakcomplexiteit:
 
-### 🚀 Haiku (Snel & Kosteneffectief) - 9 agents
+### 🚀 Haiku (Snel & Kosteneffectief) - 9 agenten
 **Model:** `haiku`
 - `data-scientist` - SQL-query's en data-analyse
-- `api-documenter` - OpenAPI/Swagger-documentatie
+- `api-documenter` - OpenAPI/Swagger documentatie
 - `reference-builder` - Uitputtende technische referenties en API-documentatie
 - `business-analyst` - Metrics en KPI-tracking
 - `content-marketer` - Blogposts en sociale media
-- `customer-support` - Supporttickets en veelgestelde vragen
-- `sales-automator` - Koude e-mails en voorstellen
-- `search-specialist` - Webonderzoek en informatieverzameling
-- `legal-advisor` - Privacybeleid en nalevingsdocumenten
+- `customer-support` - Supporttickets en FAQ's
+- `sales-automator` - Cold emails en voorstellen
+- `search-specialist` - Webonderzoek en informatievergaring
+- `legal-advisor` - Privacybeleid en compliance-documenten
 
-### ⚡ Sonnet (Gebalanceerde Prestatie) - 36 agents
+### ⚡ Sonnet (Gebalanceerde Prestatie) - 37 agenten
 **Model:** `sonnet`
 
 **Ontwikkeling & Talen:**
 - `python-pro` - Python-ontwikkeling met geavanceerde functies
-- `javascript-pro` - Modern JavaScript en Node.js
+- `ruby-pro` - Ruby-ontwikkeling met metaprogrammering, Rails-patronen en gem-ontwikkeling
+- `javascript-pro` - Moderne JavaScript en Node.js
 - `typescript-pro` - Geavanceerde TypeScript met typesystemen
 - `golang-pro` - Go-concurrentie en idiomatische patronen
 - `rust-pro` - Rust-geheugenveiligheid en systeemprogrammering
 - `c-pro` - C-programmering en embedded systemen
-- `cpp-pro` - Modern C++ met STL en templates
-- `php-pro` - Modern PHP met geavanceerde functies
-- `java-pro` - Modern Java met streams en concurrentie
+- `cpp-pro` - Moderne C++ met STL en templates
+- `php-pro` - Moderne PHP met geavanceerde functies
+- `java-pro` - Moderne Java met streams en concurrentie
 - `elixir-pro` - Elixir met OTP-patronen en Phoenix
-- `csharp-pro` - Modern C# met .NET-frameworks en patronen
-- `scala-pro` - Enterprise Scala met Apache Pekko, Akka, Spark, en ZIO/Cats Effect
+- `csharp-pro` - Moderne C# met .NET-frameworks en patronen
+- `scala-pro` - Enterprise Scala met Apache Pekko, Akka, Spark en ZIO/Cats Effect
+- `flutter-expert` - Flutter-ontwikkeling met state management en animaties
 - `unity-developer` - Unity-gameontwikkeling en optimalisatie
 - `minecraft-bukkit-pro` - Minecraft-pluginontwikkeling met Bukkit/Spigot/Paper
 - `ios-developer` - Native iOS-ontwikkeling met Swift/SwiftUI
 - `frontend-developer` - React-componenten en UI
-- `ui-ux-designer` - Interfaceontwerp en wireframes
+- `ui-ux-designer` - Interface-ontwerp en wireframes
 - `backend-architect` - API-ontwerp en microservices
-- `mobile-developer` - React Native/Flutter-apps
+- `mobile-developer` - React Native/Flutter apps
 - `sql-pro` - Complexe SQL-optimalisatie
 - `graphql-architect` - GraphQL-schema's en resolvers
 
 **Infrastructuur & Operaties:**
-- `devops-troubleshooter` - Productiedebugging
+- `devops-troubleshooter` - Productie debugging
 - `deployment-engineer` - CI/CD-pijplijnen
-- `database-optimizer` - Queryoptimalisatie
+- `database-optimizer` - Query-optimalisatie
 - `database-admin` - Databasebeheer
-- `terraform-specialist` - Infrastructuur als Code
+- `terraform-specialist` - Infrastructure as Code
 - `network-engineer` - Netwerkconfiguratie
 - `dx-optimizer` - Ontwikkelaarservaring
 - `data-engineer` - ETL-pijplijnen
 
 **Kwaliteit & Ondersteuning:**
-- `test-automator` - Aanmaak van testsuites
-- `code-reviewer` - Analyse van codekwaliteit
+- `test-automator` - Test suite creatie
+- `code-reviewer` - Codekwaliteitsanalyse
 - `debugger` - Foutonderzoek
 - `error-detective` - Loganalyse
-- `ml-engineer` - Implementatie van ML-modellen
+- `ml-engineer` - ML-modelimplementatie
 - `legacy-modernizer` - Frameworkmigraties
 - `payment-integration` - Betalingsverwerking
 - `mermaid-expert` - Mermaid-diagrammen en visuele documentatie
+- `flutter-expert` - Flutter-ontwikkeling
 
 ### 🧠 Opus (Maximale Capaciteit) - 13 agenten
 **Model:** `opus`
 - `ai-engineer` - LLM-toepassingen en RAG-systemen
 - `security-auditor` - Kwetsbaarheidsanalyse
-- `performance-engineer` - Applicatieoptimalisatie
+- `performance-engineer` - Applicatie-optimalisatie
 - `incident-responder` - Afhandeling van productie-incidenten
 - `mlops-engineer` - ML-infrastructuur
 - `architect-reviewer` - Architecturale consistentie
-- `cloud-architect` - Cloudinfrastructuurontwerp
-- `prompt-engineer` - LLM-promptoptimalisatie
-- `context-manager` - Coördinatie tussen meerdere agenten
+- `cloud-architect` - Ontwerp van cloudinfrastructuur
+- `prompt-engineer` - LLM promptoptimalisatie
+- `context-manager` - Multi-agent coördinatie
 - `quant-analyst` - Financiële modellering
-- `risk-manager` - Beheer van portefeuillerisico
+- `risk-manager` - Portefeuille risicobeheer
 - `docs-architect` - Uitgebreide technische documentatie vanuit codebases
 - `tutorial-engineer` - Stapsgewijze tutorials en educatieve inhoud
 
 ## Installatie
+Deze subagenten zijn automatisch beschikbaar wanneer ze in de map `~/.claude/agents/` worden geplaatst.
 
-Deze subagenten zijn automatisch beschikbaar wanneer ze worden geplaatst in de map `~/.claude/agents/`.
 
 ```bash
 cd ~/.claude
@@ -361,124 +366,126 @@ Primary Agent → Review Agent → Final Result
 Example: "Implement payment processing"
 payment-integration → security-auditor → Validated implementation
 ```
-## Wanneer gebruik je welke agent
+
+## Wanneer Welke Agent Gebruiken
 
 ### 🏗️ Planning & Architectuur
 - **backend-architect**: API-ontwerp, databaseschema's, systeemarchitectuur
 - **frontend-developer**: UI/UX-planning, componentarchitectuur
-- **ui-ux-designer**: Interfaceontwerp, wireframes, designsystemen, gebruikersonderzoek
+- **ui-ux-designer**: Interface-ontwerp, wireframes, design systems, gebruikersonderzoek
 - **cloud-architect**: Infrastructuurontwerp, schaalbaarheidsplanning
 
 ### 🔧 Implementatie & Ontwikkeling  
 - **python-pro**: Python-specifieke ontwikkeltaken
+- **ruby-pro**: Ruby metaprogrammering, Rails-applicaties, gem-ontwikkeling, RSpec/Minitest testen
 - **golang-pro**: Go-specifieke ontwikkeltaken
 - **rust-pro**: Rust-ontwikkeling, geheugenveiligheid, systeemprogrammering
 - **c-pro**: C-programmering, embedded systemen, prestatiekritische code
-- **javascript-pro**: Moderne JavaScript, asynchrone patronen, Node.js/browser code
-- **typescript-pro**: Geavanceerde TypeScript, generieken, type-inferentie, enterprise-patronen
-- **java-pro**: Moderne Java-ontwikkeling, streams, gelijktijdigheid, Spring Boot
+- **javascript-pro**: Moderne JavaScript, async-patronen, Node.js/browsercode
+- **typescript-pro**: Geavanceerde TypeScript, generics, type-inferentie, enterprise-patronen
+- **java-pro**: Moderne Java-ontwikkeling, streams, concurrency, Spring Boot
 - **elixir-pro**: Elixir-ontwikkeling, OTP-patronen, Phoenix-frameworks, functioneel programmeren
 - **csharp-pro**: Moderne C#-ontwikkeling, .NET-frameworks, enterprise-patronen
 - **scala-pro**: Enterprise Scala met functioneel programmeren, Apache Pekko/Akka actors, Apache Spark, ZIO/Cats Effect, reactieve architecturen
-- **unity-developer**: Unity-gameontwikkeling, C#-scripting, prestatieoptimalisatie
+- **flutter-expert**: Flutter-ontwikkeling, Dart, state management, animaties, cross-platform uitrol
+- **unity-developer**: Unity game-ontwikkeling, C#-scripting, prestatieoptimalisatie
 - **minecraft-bukkit-pro**: Minecraft plugin-ontwikkeling, eventsystemen, server-side features
 - **ios-developer**: Native iOS-ontwikkeling met Swift/SwiftUI
-- **sql-pro**: Databasequeries, schemaontwerp, queryoptimalisatie
+- **sql-pro**: Databasequery's, schema-ontwerp, query-optimalisatie
 - **mobile-developer**: React Native/Flutter-ontwikkeling
 
 ### 🛠️ Operaties & Onderhoud
-- **devops-troubleshooter**: Productieproblemen, deploymentproblemen
-- **incident-responder**: Kritieke storingen die onmiddellijke actie vereisen
-- **database-optimizer**: Queryprestaties, indexeringsstrategieën
+- **devops-troubleshooter**: Productieproblemen, deployment-issues
+- **incident-responder**: Kritieke storingen die directe reactie vereisen
+- **database-optimizer**: Query-prestaties, indexeringsstrategieën
 - **database-admin**: Backupstrategieën, replicatie, gebruikersbeheer, disaster recovery
-- **terraform-specialist**: Infrastructure as Code, Terraform-modules, statemanagement
+- **terraform-specialist**: Infrastructure as Code, Terraform-modules, state management
 - **network-engineer**: Netwerkconnectiviteit, load balancers, SSL/TLS, DNS-debugging
 
 ### 📊 Analyse & Optimalisatie
 - **performance-engineer**: Applicatieknelpunten, optimalisatie
-- **security-auditor**: Kwetsbaarheidsscans, compliance-controles
-- **data-scientist**: Data-analyse, inzichten, rapportages
-- **mlops-engineer**: ML-infrastructuur, experimenttracking, modelregistraties, pipelineautomatisering
-
+- **security-auditor**: Kwetsbaarheidsscans, compliance-checks
+- **data-scientist**: Data-analyse, inzichten, rapportage
+- **mlops-engineer**: ML-infrastructuur, experiment tracking, modelregistraties, pijplijnautomatisering
 
 ### 🧪 Kwaliteitsborging
 - **code-reviewer**: Codekwaliteit, configuratiebeveiliging, productiebetrouwbaarheid
-- **test-automator**: Teststrategie, test suite creatie
-- **debugger**: Foutonderzoek, probleemoplossing
-- **error-detective**: Loganalyse, foutpatroonherkenning, root cause analyse
-- **search-specialist**: Diepgaande webresearch, concurrentieanalyse, feitencontrole
+- **test-automator**: Teststrategie, opbouw van test suites
+- **debugger**: Foutopsporing, oplossen van fouten
+- **error-detective**: Loganalyse, foutpatroonherkenning, grondoorzaakanalyse
+- **search-specialist**: Diepgaand webonderzoek, concurrentieanalyse, fact-checking
 
 ### 📚 Documentatie
-- **api-documenter**: OpenAPI/Swagger specificaties, API-documentatie
+- **api-documenter**: OpenAPI/Swagger-specificaties, API-documentatie
 - **docs-architect**: Uitgebreide technische documentatie, architectuurgidsen, systeemhandleidingen
 - **reference-builder**: Uitputtende API-referenties, configuratiegidsen, parameterdocumentatie
-- **tutorial-engineer**: Stapsgewijze tutorials, leertrajecten, educatieve inhoud
+- **tutorial-engineer**: Stapsgewijze tutorials, leerpaden, educatieve content
 
-### 💼 Business & Strategie
-- **business-analyst**: KPI's, inkomstenmodellen, groeiprojecties, investeringsstatistieken
-- **risk-manager**: Portefeuillerisico, hedgingstrategieën, R-multiples, positiegrootte
+### 💼 Bedrijf & Strategie
+- **business-analyst**: KPI’s, verdienmodellen, groeiprognoses, investeringsstatistieken
+- **risk-manager**: Portefeuillerisico, hedgestrategieën, R-multiples, positiegrootte
 - **content-marketer**: SEO-content, blogposts, sociale media, e-mailcampagnes
-- **sales-automator**: Koude e-mails, follow-ups, voorstellen, lead nurturing
-- **customer-support**: Supporttickets, FAQ's, helpdocumentatie, probleemoplossing
-- **legal-advisor** - Stel privacybeleid, gebruiksvoorwaarden, disclaimers en juridische kennisgevingen op
+- **sales-automator**: Koude e-mails, opvolgingen, voorstellen, lead nurturing
+- **customer-support**: Supporttickets, veelgestelde vragen, hulphandleidingen, probleemoplossing
+- **legal-advisor** - Opstellen van privacybeleid, servicevoorwaarden, disclaimers en juridische kennisgevingen
 
 ## Best Practices
 
 ### 🎯 Taakdelegatie
-1. **Laat Claude Code automatisch delegeren** - De hoofdagent analyseert de context en kiest optimale agenten
-2. **Wees specifiek over eisen** - Vermeld beperkingen, technologie-stack en kwaliteitsvereisten
-3. **Vertrouw op de expertise van agenten** - Elke agent is geoptimaliseerd voor zijn domein
+1. **Laat Claude Code automatisch delegeren** - De hoofdagent analyseert de context en kiest optimale agents
+2. **Wees specifiek over vereisten** - Vermeld beperkingen, tech stack en kwaliteitsvereisten
+3. **Vertrouw op agent-expertise** - Elke agent is geoptimaliseerd voor zijn domein
 
 ### 🔄 Multi-Agent Workflows
-4. **Begin met verzoeken op hoog niveau** - Laat agenten complexe, meerstaps taken coördineren
-5. **Geef context tussen agenten** - Zorg dat agenten de benodigde achtergrondinformatie hebben
-6. **Herzie integratiepunten** - Controleer hoe de output van verschillende agenten samenwerkt
+4. **Begin met verzoeken op hoog niveau** - Laat agents complexe meerstapstaken coördineren
+5. **Voorzie context tussen agents** - Zorg dat agents de benodigde achtergrondinformatie hebben
+6. **Controleer integratiepunten** - Bekijk hoe de outputs van verschillende agents samenwerken
 
 ### 🎛️ Expliciete Controle
-7. **Gebruik expliciete aanroep voor specifieke behoeften** - Wanneer u het perspectief van een bepaalde expert wilt
-8. **Combineer meerdere agenten strategisch** - Verschillende specialisten kunnen elkaars werk valideren
+7. **Gebruik expliciete aanroep voor specifieke behoeften** - Wanneer je een specifiek expertperspectief wilt
+8. **Combineer meerdere agents strategisch** - Verschillende specialisten kunnen elkaars werk valideren
 9. **Vraag om specifieke reviewpatronen** - "Laat security-auditor het API-ontwerp van backend-architect beoordelen"
 
 ### 📈 Optimalisatie
-10. **Monitor de effectiviteit van agenten** - Leer welke agenten het beste werken voor uw use cases
-11. **Itereer op complexe taken** - Gebruik agentfeedback om vereisten te verfijnen  
-12. **Benut de sterke punten van de agent** - Stem taakcomplexiteit af op de capaciteiten van de agent  
+10. **Monitor de effectiviteit van agenten** - Leer welke agenten het beste werken voor jouw use cases
+11. **Itereer op complexe taken** - Gebruik agentfeedback om vereisten te verfijnen
+12. **Benut de sterke punten van agenten** - Stem taakcomplexiteit af op de capaciteiten van agenten
 
-## Bijdragen  
+## Bijdragen
 
-Om een nieuwe subagent toe te voegen:  
-1. Maak een nieuw `.md`-bestand aan volgens het bovenstaande formaat  
-2. Gebruik kleine letters, gescheiden door koppeltekens  
-3. Schrijf duidelijke beschrijvingen voor wanneer de subagent gebruikt moet worden  
-4. Neem specifieke instructies op in de systeemprompt  
+Om een nieuwe subagent toe te voegen:
+1. Maak een nieuw `.md`-bestand aan volgens het bovenstaande formaat
+2. Gebruik namen in kleine letters, gescheiden door koppeltekens
+3. Schrijf duidelijke beschrijvingen voor wanneer de subagent gebruikt moet worden
+4. Neem specifieke instructies op in de systeemprompt
 
-## Problemen oplossen  
+## Problemen oplossen
 
-### Veelvoorkomende problemen  
+### Veelvoorkomende problemen
 
-**Agent wordt niet automatisch aangeroepen:**  
-- Zorg dat je verzoek duidelijk het domein aangeeft (bijv. "prestatieprobleem" → performance-engineer)  
-- Wees specifiek over het type taak (bijv. "code beoordelen" → code-reviewer)  
+**Agent wordt niet automatisch aangeroepen:**
+- Zorg dat je verzoek duidelijk het domein aangeeft (bv. "prestatieprobleem" → performance-engineer)
+- Wees specifiek over het type taak (bv. "code beoordelen" → code-reviewer)
 
-**Onverwachte agentselectie:**  
-- Geef meer context over je tech-stack en vereisten  
-- Gebruik expliciete aanroep als je een specifieke agent nodig hebt  
+**Onverwachte agentselectie:**
+- Geef meer context over je technische stack en vereisten
+- Gebruik expliciete aanroep als je een specifieke agent nodig hebt
 
-**Meerdere agents geven tegenstrijdig advies:**  
-- Dit is normaal - verschillende specialisten kunnen andere prioriteiten hebben  
-- Vraag om verduidelijking: "Verzoen de aanbevelingen van security-auditor en performance-engineer"  
+**Meerdere agenten geven tegenstrijdig advies:**
+- Dit is normaal - verschillende specialisten hebben verschillende prioriteiten
+- Vraag om verduidelijking: "Verzoen de aanbevelingen van security-auditor en performance-engineer"
 
-**Agent lijkt context te missen:**  
-- Geef achtergrondinformatie in je verzoek  
-- Verwijs naar eerdere gesprekken of gevestigde patronen  
+**Agent lijkt context te missen:**
+- Geef achtergrondinformatie in je verzoek
+- Verwijs naar eerdere gesprekken of gevestigde patronen
 
-### Hulp krijgen  
+### Hulp krijgen
 
-Als agents niet werken zoals verwacht:  
-1. Controleer agentbeschrijvingen in hun individuele bestanden  
-2. Probeer specifiekere taal in je verzoeken  
-3. Gebruik expliciete aanroep om specifieke agents te testen  
-4. Geef meer context over je project en doelen  
+Als agenten niet werken zoals verwacht:
+1. Controleer de beschrijvingen van agenten in hun individuele bestanden
+2. Probeer specifiekere taal in je verzoeken
+3. Gebruik expliciete aanroep om specifieke agenten te testen
+4. Geef meer context over je project en doelen
 
 ## Licentie
 
@@ -493,6 +500,6 @@ Dit project is gelicentieerd onder de MIT-licentie - zie het [LICENSE](LICENSE) 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-12
 
 ---

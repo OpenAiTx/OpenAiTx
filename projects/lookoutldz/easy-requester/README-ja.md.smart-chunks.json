@@ -1,0 +1,1715 @@
+[
+  {
+    "Id": 1,
+    "Content": "### English | [中文](https://raw.githubusercontent.com/lookoutldz/easy-requester/main/README-zh.md)\n\n# Easy Requester\n\nEasy Requester is a lightweight Java/Kotlin HTTP client library built on OkHttp3, providing a simple and easy-to-use API for sending HTTP requests.\n\n---\n<div align=\"center\">\n\n[![Maven Central](https://img.shields.io/maven-central/v/io.github.lookoutldz/easy-requester.svg)](https://central.sonatype.com/artifact/io.github.lookoutldz/easy-requester)\n[![GitHub](https://img.shields.io/github/license/lookoutldz/easy-requester.svg)](https://github.com/lookoutldz/easy-requester/blob/main/LICENSE)\n[![GitHub stars](https://img.shields.io/github/stars/lookoutldz/easy-requester.svg?style=social)](https://github.com/lookoutldz/easy-requester)\n\n</div>\n\n---\n\n## Features\n\n- Clean API design, easy to use\n- Support for synchronous HTTP requests\n- Custom request parameters, headers, and cookies\n- Automatic serialization and deserialization of JSON data (using Jackson)\n- Automatic mapping for Kotlin data classes\n- Custom response and exception handling\n- Builder pattern with fluent interface\n- Functional programming style with Kotlin higher-order functions\n\n## Installation\n\n### Maven\n\nAdd the following dependency to your `pom.xml` file:\n",
+    "ContentSha": "NZrGfGgfuXQzJOkz7UaIWGRqk0sdOEcvS/fM2yn32G4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### English | [中文](https://raw.githubusercontent.com/lookoutldz/easy-requester/main/README-zh.md)\n\n# Easy Requester\n\nEasy Requesterは、OkHttp3をベースに構築された軽量なJava/Kotlin HTTPクライアントライブラリで、HTTPリクエストを送信するためのシンプルで使いやすいAPIを提供します。\n\n---\n<div align=\"center\">\n\n[![Maven Central](https://img.shields.io/maven-central/v/io.github.lookoutldz/easy-requester.svg)](https://central.sonatype.com/artifact/io.github.lookoutldz/easy-requester)\n[![GitHub](https://img.shields.io/github/license/lookoutldz/easy-requester.svg)](https://github.com/lookoutldz/easy-requester/blob/main/LICENSE)\n[![GitHub stars](https://img.shields.io/github/stars/lookoutldz/easy-requester.svg?style=social)](https://github.com/lookoutldz/easy-requester)\n\n</div>\n\n---\n\n## 特徴\n\n- クリーンなAPI設計で使いやすい\n- 同期HTTPリクエストのサポート\n- カスタムリクエストパラメータ、ヘッダー、クッキー\n- JSONデータの自動シリアライズとデシリアライズ（Jackson使用）\n- Kotlinデータクラスへの自動マッピング\n- カスタムレスポンスおよび例外処理\n- フルーエントインターフェースを持つビルダーパターン\n- Kotlinの高階関数を用いた関数型プログラミングスタイル\n\n## インストール\n\n### Maven\n\n以下の依存関係を`pom.xml`ファイルに追加してください：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "xUFSU22EquQ4Td7VrYy3SCT8ncZKJVWvRVHlNMiobZk=",
+        "originContent": "### English | [中文](https://raw.githubusercontent.com/lookoutldz/easy-requester/main/README-zh.md)",
+        "translatedContent": "### English | [中文](https://raw.githubusercontent.com/lookoutldz/easy-requester/main/README-zh.md)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "RpEdfjsmPyE5c1Lf3MeVpxLhQPdU/PSMU+PqSZGYDgs=",
+        "originContent": "# Easy Requester",
+        "translatedContent": "# Easy Requester"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "YLztaACKoWJ/iJm5LFg95eOvQMZzfXP/yfvKCCKXpd8=",
+        "originContent": "Easy Requester is a lightweight Java/Kotlin HTTP client library built on OkHttp3, providing a simple and easy-to-use API for sending HTTP requests.",
+        "translatedContent": "Easy Requesterは、OkHttp3をベースに構築された軽量なJava/Kotlin HTTPクライアントライブラリで、HTTPリクエストを送信するためのシンプルで使いやすいAPIを提供します。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 8,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "CzVStfTHX+aJ47fIdEnszAd8Tg9bjWtV4DXYHHZE/G0=",
+        "originContent": "[![Maven Central](https://img.shields.io/maven-central/v/io.github.lookoutldz/easy-requester.svg)](https://central.sonatype.com/artifact/io.github.lookoutldz/easy-requester)",
+        "translatedContent": "[![Maven Central](https://img.shields.io/maven-central/v/io.github.lookoutldz/easy-requester.svg)](https://central.sonatype.com/artifact/io.github.lookoutldz/easy-requester)"
+      },
+      {
+        "row": 11,
+        "rowsha": "b9xywMCtKyPBpZ7f6Ky4f3H6l/2bZJm3X1vsTkqqTuE=",
+        "originContent": "[![GitHub](https://img.shields.io/github/license/lookoutldz/easy-requester.svg)](https://github.com/lookoutldz/easy-requester/blob/main/LICENSE)",
+        "translatedContent": "[![GitHub](https://img.shields.io/github/license/lookoutldz/easy-requester.svg)](https://github.com/lookoutldz/easy-requester/blob/main/LICENSE)"
+      },
+      {
+        "row": 12,
+        "rowsha": "Bn/yATqlS3dDtN9iMqKjmc7VHy1Nomr6esLrtet7IR4=",
+        "originContent": "[![GitHub stars](https://img.shields.io/github/stars/lookoutldz/easy-requester.svg?style=social)](https://github.com/lookoutldz/easy-requester)",
+        "translatedContent": "[![GitHub stars](https://img.shields.io/github/stars/lookoutldz/easy-requester.svg?style=social)](https://github.com/lookoutldz/easy-requester)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 特徴"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "PCsfAoV6TA4VdAEuDqDjwHZsVDgW0u9kZx/EPPsZNjM=",
+        "originContent": "- Clean API design, easy to use",
+        "translatedContent": "- クリーンなAPI設計で使いやすい"
+      },
+      {
+        "row": 21,
+        "rowsha": "JTLHcfzvhbRu4c4TbWjT9QXoIIa8lD4YbjWCWQjSeBk=",
+        "originContent": "- Support for synchronous HTTP requests",
+        "translatedContent": "- 同期HTTPリクエストのサポート"
+      },
+      {
+        "row": 22,
+        "rowsha": "Yvm1F7i25oiX7SZezG3fg24+LyM5gtG+IsykLSmBi0g=",
+        "originContent": "- Custom request parameters, headers, and cookies",
+        "translatedContent": "- カスタムリクエストパラメータ、ヘッダー、クッキー"
+      },
+      {
+        "row": 23,
+        "rowsha": "IkS9zDg83y15iJDV2WI/B4As0FpU6ssC2Ym80UTy2jU=",
+        "originContent": "- Automatic serialization and deserialization of JSON data (using Jackson)",
+        "translatedContent": "- JSONデータの自動シリアライズとデシリアライズ（Jackson使用）"
+      },
+      {
+        "row": 24,
+        "rowsha": "Gh4E4ZgQM8zmediKFmx3eLzg8YtlmMu8ZO0EdrKttJg=",
+        "originContent": "- Automatic mapping for Kotlin data classes",
+        "translatedContent": "- Kotlinデータクラスへの自動マッピング"
+      },
+      {
+        "row": 25,
+        "rowsha": "rEtLZeoyVXAsjRRVfEUPVn81crsJeu+I88LbbliSeVA=",
+        "originContent": "- Custom response and exception handling",
+        "translatedContent": "- カスタムレスポンスおよび例外処理"
+      },
+      {
+        "row": 26,
+        "rowsha": "7jMNNijZCvA1+ZEB1TG/gy+fuQlqMxx4fBYzBcOJ9J0=",
+        "originContent": "- Builder pattern with fluent interface",
+        "translatedContent": "- フルーエントインターフェースを持つビルダーパターン"
+      },
+      {
+        "row": 27,
+        "rowsha": "xse9tyPoaMu6IvYKUW4u3tMzFLFAYs2EyI1KHnuyaJ0=",
+        "originContent": "- Functional programming style with Kotlin higher-order functions",
+        "translatedContent": "- Kotlinの高階関数を用いた関数型プログラミングスタイル"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "Trxtpz8YZgcsIGPuc46zK8dg7/p1JbYX6uDVTTYSKVY=",
+        "originContent": "### Maven",
+        "translatedContent": "### Maven"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "SvRxufegrrvcKjhQE4HHBqgxSiFV2uI23cqCQAG/yZs=",
+        "originContent": "Add the following dependency to your `pom.xml` file:",
+        "translatedContent": "以下の依存関係を`pom.xml`ファイルに追加してください："
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```xml\n<dependency>\n    <groupId>io.github.lookoutldz</groupId>\n    <artifactId>easy-requester</artifactId>\n    <version>2.3.3</version>\n</dependency>\n```",
+    "ContentSha": "Xp4BlxG7AsovM0SXdwu3iNXglWczQvvNmBsuj305E6M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```xml\n<dependency>\n    <groupId>io.github.lookoutldz</groupId>\n    <artifactId>easy-requester</artifactId>\n    <version>2.3.3</version>\n</dependency>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "t8tiRzaNtUnLbiIQGiHIAAk1ELMO6fTRRvBkkpFEsR4=",
+        "originContent": "```xml",
+        "translatedContent": "```xml"
+      },
+      {
+        "row": 2,
+        "rowsha": "v7nyWQMb1qauIPODGUlQbnSwfWPz/hjeIQkU9GturX8=",
+        "originContent": "<dependency>",
+        "translatedContent": "<dependency>"
+      },
+      {
+        "row": 3,
+        "rowsha": "Mlp4nKCyiOqGNkvTCVe5JnTMjaiHgx8e1+FqnBAFId4=",
+        "originContent": "    <groupId>io.github.lookoutldz</groupId>",
+        "translatedContent": "    <groupId>io.github.lookoutldz</groupId>"
+      },
+      {
+        "row": 4,
+        "rowsha": "1ZxjCoQ64QK3RxbmHtwesi5YVCxGW9/rIxcC34P9TE0=",
+        "originContent": "    <artifactId>easy-requester</artifactId>",
+        "translatedContent": "    <artifactId>easy-requester</artifactId>"
+      },
+      {
+        "row": 5,
+        "rowsha": "LNDXIfCOVRaT01BiGqg/VXEVyC9uiZutBZLy3kptNuw=",
+        "originContent": "    <version>2.3.3</version>",
+        "translatedContent": "    <version>2.3.3</version>"
+      },
+      {
+        "row": 6,
+        "rowsha": "xu7jPaG6V+TqDyDLNYPZdxZkaNxyWzP83/S8E74Pe4k=",
+        "originContent": "</dependency>",
+        "translatedContent": "</dependency>"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Gradle\n\nAdd the following dependency to your `build.gradle` file:\n",
+    "ContentSha": "JONfPAbcBqESTPVabR6vG8Q9j7gK1Q92c1+lBZWukRU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Gradle\n\n`build.gradle` ファイルに以下の依存関係を追加してください:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nRMQHWDe5aR9UhKIweqzglGVNoR+F8UpxTzOkLs+Nvg=",
+        "originContent": "### Gradle",
+        "translatedContent": "### Gradle"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0nxTY8427hQVgwnndxXThqJ3B+p6OhWK3WMV12MxgaY=",
+        "originContent": "Add the following dependency to your `build.gradle` file:",
+        "translatedContent": "`build.gradle` ファイルに以下の依存関係を追加してください:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```groovy\nimplementation 'io.github.lookoutldz:easy-requester:2.3.3'\n```",
+    "ContentSha": "SwEPIvbPj/Q0e3jOLQ8RQKWcTLgMUoTVm/2Ry53OZUI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```groovy\nimplementation 'io.github.lookoutldz:easy-requester:2.3.3'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "g+Aw4cPfqPDCPTiCNsZQbUB3bA7JGQHvl59DgSeEmNM=",
+        "originContent": "```groovy",
+        "translatedContent": "```groovy"
+      },
+      {
+        "row": 2,
+        "rowsha": "dWwgbU1dIvfOawIGiPF9J+9G9j/vMCO4yvpbcxZFIdU=",
+        "originContent": "implementation 'io.github.lookoutldz:easy-requester:2.3.3'",
+        "translatedContent": "implementation 'io.github.lookoutldz:easy-requester:2.3.3'"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nOr add the following dependency to your `build.gradle.kts` file if you are using Kotlin DSL:\n",
+    "ContentSha": "C0xgoj1PMvrrvijY9RYXCF1/NAI+ILvnWnz/cEAA9OQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nまたは、Kotlin DSL を使用している場合は、次の依存関係を `build.gradle.kts` ファイルに追加してください:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cf+YCfgoCLleYC6e68eIhslb7W+N3KTTo8OxECIWHh4=",
+        "originContent": "Or add the following dependency to your `build.gradle.kts` file if you are using Kotlin DSL:",
+        "translatedContent": "または、Kotlin DSL を使用している場合は、次の依存関係を `build.gradle.kts` ファイルに追加してください:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```kotlin\nimplementation(\"io.github.lookoutldz:easy-requester:2.3.3\")\n```",
+    "ContentSha": "sgTbwskwlvJtreAchKGTyAeJ7NR7vgQozlB+AibuUYA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\nimplementation(\"io.github.lookoutldz:easy-requester:2.3.3\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "wGEruhSXZ5pFhveumcIFn4FeMq7GZFu+rYysVSKJOgk=",
+        "originContent": "implementation(\"io.github.lookoutldz:easy-requester:2.3.3\")",
+        "translatedContent": "implementation(\"io.github.lookoutldz:easy-requester:2.3.3\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## Quick Start\n\n### Basic Usage\n",
+    "ContentSha": "XDsg/yeuKMtjppBo4P4lbSV4PffP0/rNxzICKXr+Kvw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## クイックスタート\n\n### 基本的な使い方\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## クイックスタート"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "qwWY7P47JqonFUUvUAujmI3i0aD6KQEJ90a+gO+DuVw=",
+        "originContent": "### Basic Usage",
+        "translatedContent": "### 基本的な使い方"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```kotlin\n// Simplest way - returns a string\nEasyHttpGet.doRequestDefault(url = \"https://api.example.com\") { response ->\n    println(\"Response content: $response\")\n}\n\n// Using a data class to receive the response\ndata class User(val id: Int, val name: String)\n\nEasyHttpGet.doRequest<User>(url = \"https://api.example.com/users/1\") { user ->\n    println(\"Username: ${user?.name}\")\n}\n```",
+    "ContentSha": "j7IEUWGJ9BbMNuoA/ZfncVlrx2OJx5A/XS9uyajQnoo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\n// Simplest way - returns a string\nEasyHttpGet.doRequestDefault(url = \"https://api.example.com\") { response ->\n    println(\"Response content: $response\")\n}\n\n// Using a data class to receive the response\ndata class User(val id: Int, val name: String)\n\nEasyHttpGet.doRequest<User>(url = \"https://api.example.com/users/1\") { user ->\n    println(\"Username: ${user?.name}\")\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "M2FeGxCuaUMnEq/mHMGf9U5Wz8SvSM5B9g4RC7AghGk=",
+        "originContent": "// Simplest way - returns a string",
+        "translatedContent": "// Simplest way - returns a string"
+      },
+      {
+        "row": 3,
+        "rowsha": "6zEV9YcpHW4UxsfKKE0QBBiUx08GMp6XFaAp6PagiJY=",
+        "originContent": "EasyHttpGet.doRequestDefault(url = \"https://api.example.com\") { response ->",
+        "translatedContent": "EasyHttpGet.doRequestDefault(url = \"https://api.example.com\") { response ->"
+      },
+      {
+        "row": 4,
+        "rowsha": "Fu0DQ9TJKNleweQXe71s7cpkiwXIdDXY6F2cvYiCTb8=",
+        "originContent": "    println(\"Response content: $response\")",
+        "translatedContent": "    println(\"Response content: $response\")"
+      },
+      {
+        "row": 5,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "KrgVM/BLzVOS4FLu+oFJguMWAuz/uByd5Jw4Am/hcFA=",
+        "originContent": "// Using a data class to receive the response",
+        "translatedContent": "// Using a data class to receive the response"
+      },
+      {
+        "row": 8,
+        "rowsha": "9/OAuWp025EZK4cAICxLYE5O2XIoH5fu8xYCysZflZ8=",
+        "originContent": "data class User(val id: Int, val name: String)",
+        "translatedContent": "data class User(val id: Int, val name: String)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "BGKCPXPUknf+nxUtQTPfK6JhUqavbx2v7cLaEx5HMHY=",
+        "originContent": "EasyHttpGet.doRequest<User>(url = \"https://api.example.com/users/1\") { user ->",
+        "translatedContent": "EasyHttpGet.doRequest<User>(url = \"https://api.example.com/users/1\") { user ->"
+      },
+      {
+        "row": 11,
+        "rowsha": "BGklBh9y0xSAe8ZOT5t9QFHz9r/QorPhEZOYdTqLces=",
+        "originContent": "    println(\"Username: ${user?.name}\")",
+        "translatedContent": "    println(\"Username: ${user?.name}\")"
+      },
+      {
+        "row": 12,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### Adding Request Parameters\n",
+    "ContentSha": "GD2sXzjydFqnAmvKdmaW2N8B6w4Q4ek6VDuYiGEAT6s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### リクエストパラメータの追加\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "XS+g1OrayqNhxr2muq1yvBWGEaUzJjzvH0vaOjD2fDg=",
+        "originContent": "### Adding Request Parameters",
+        "translatedContent": "### リクエストパラメータの追加"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```kotlin\n// Adding query parameters\nval params = mapOf(\"page\" to \"1\", \"limit\" to \"10\")\n\nEasyHttpGet.doRequest<User>(\n    url = \"https://api.example.com/users\",\n    params = params\n) { users ->\n    println(\"Retrieved ${users?.size} users\")\n}\n```",
+    "ContentSha": "avwhsH6N3fMS+hzKGOqVei5oBJis7kzAVq41s6GVqf8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\n// Adding query parameters\nval params = mapOf(\"page\" to \"1\", \"limit\" to \"10\")\n\nEasyHttpGet.doRequest<User>(\n    url = \"https://api.example.com/users\",\n    params = params\n) { users ->\n    println(\"Retrieved ${users?.size} users\")\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "JeXYgjn7TDdtx0Ru14yGgW+j3tUfAe54CzYUec3OJPM=",
+        "originContent": "// Adding query parameters",
+        "translatedContent": "// Adding query parameters"
+      },
+      {
+        "row": 3,
+        "rowsha": "dRaWei2z2WEqpfuWjxTdzOYHu1wtGQicwl6UBPq6JTc=",
+        "originContent": "val params = mapOf(\"page\" to \"1\", \"limit\" to \"10\")",
+        "translatedContent": "val params = mapOf(\"page\" to \"1\", \"limit\" to \"10\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "wgE5J27NztD9lW3jiZU1sNnq29COigVEyUDUt9gF1Xs=",
+        "originContent": "EasyHttpGet.doRequest<User>(",
+        "translatedContent": "EasyHttpGet.doRequest<User>("
+      },
+      {
+        "row": 6,
+        "rowsha": "GLncK3aud9CiDCdSWcutQzuc/hh75enBYpMdCX/iVjo=",
+        "originContent": "    url = \"https://api.example.com/users\",",
+        "translatedContent": "    url = \"https://api.example.com/users\","
+      },
+      {
+        "row": 7,
+        "rowsha": "xFuoK0jKrcSriMrOHP8FZSX0ALBkwqvxoxlMp3qZAac=",
+        "originContent": "    params = params",
+        "translatedContent": "    params = params"
+      },
+      {
+        "row": 8,
+        "rowsha": "4+1vVjuECfSE2UONigqAjT+2Anz3jTrARzk+c8n5wGM=",
+        "originContent": ") { users ->",
+        "translatedContent": ") { users ->"
+      },
+      {
+        "row": 9,
+        "rowsha": "rohYy4K8xZpFL6CJQ9oD+htA/CvWcrlLyt7kQ6lp9tI=",
+        "originContent": "    println(\"Retrieved ${users?.size} users\")",
+        "translatedContent": "    println(\"Retrieved ${users?.size} users\")"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### Adding Headers and Cookies\n",
+    "ContentSha": "fCPG/96KUEOfAtP8nJZAHt2NJjWK26Ui4BnzqIQK7uE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### ヘッダーとクッキーの追加\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "k7ZW2K5rpD9NkXowyI1/m9makUe9SwagK6IlHf8HsQw=",
+        "originContent": "### Adding Headers and Cookies",
+        "translatedContent": "### ヘッダーとクッキーの追加"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```kotlin\nval headers = mapOf(\"Authorization\" to \"Bearer token123\")\nval cookies = mapOf(\"sessionId\" to \"abc123\")\n\nEasyHttpGet.doRequest<User>(\n    url = \"https://api.example.com/users\",\n    headers = headers,\n    cookies = cookies\n) { user ->\n    println(\"User info: $user\")\n}\n```",
+    "ContentSha": "WiQb5sNL+Upi467RyP2Xji8aSq2SG48g1jwKOJnepYA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\nval headers = mapOf(\"Authorization\" to \"Bearer token123\")\nval cookies = mapOf(\"sessionId\" to \"abc123\")\n\nEasyHttpGet.doRequest<User>(\n    url = \"https://api.example.com/users\",\n    headers = headers,\n    cookies = cookies\n) { user ->\n    println(\"User info: $user\")\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "IZbIMyWJLp6s5CuMmtaCJW3xxwtaQTjyNZPzwcwvfuU=",
+        "originContent": "val headers = mapOf(\"Authorization\" to \"Bearer token123\")",
+        "translatedContent": "val headers = mapOf(\"Authorization\" to \"Bearer token123\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "cPBxC2c6fnCL50UbUp0hCjvh2WsJR7p6X8nLUZ+hcdY=",
+        "originContent": "val cookies = mapOf(\"sessionId\" to \"abc123\")",
+        "translatedContent": "val cookies = mapOf(\"sessionId\" to \"abc123\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "wgE5J27NztD9lW3jiZU1sNnq29COigVEyUDUt9gF1Xs=",
+        "originContent": "EasyHttpGet.doRequest<User>(",
+        "translatedContent": "EasyHttpGet.doRequest<User>("
+      },
+      {
+        "row": 6,
+        "rowsha": "GLncK3aud9CiDCdSWcutQzuc/hh75enBYpMdCX/iVjo=",
+        "originContent": "    url = \"https://api.example.com/users\",",
+        "translatedContent": "    url = \"https://api.example.com/users\","
+      },
+      {
+        "row": 7,
+        "rowsha": "UKDOetpF5s2xORBx4qiL1iQCNFhIIgzN7RHrq5LiV8s=",
+        "originContent": "    headers = headers,",
+        "translatedContent": "    headers = headers,"
+      },
+      {
+        "row": 8,
+        "rowsha": "a5yBXzRWXFyZbyUi2pELDK0fLegmsWjkDoRtf8A2lzA=",
+        "originContent": "    cookies = cookies",
+        "translatedContent": "    cookies = cookies"
+      },
+      {
+        "row": 9,
+        "rowsha": "Fc4wA6ZMNviWupqLoHv+npr21EDEiidqGdC2d9rk/cE=",
+        "originContent": ") { user ->",
+        "translatedContent": ") { user ->"
+      },
+      {
+        "row": 10,
+        "rowsha": "HEPEaW+bMxqeeoALSBE5khiC/plIVCyb4LvVhoHXQ+o=",
+        "originContent": "    println(\"User info: $user\")",
+        "translatedContent": "    println(\"User info: $user\")"
+      },
+      {
+        "row": 11,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### Custom Exception Handling\n",
+    "ContentSha": "YgpWas/zgu2QdS1xRoj7SohxvrCzWmsmfqsf8LR3aTE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### カスタム例外処理\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "GS1wB4ig8mF6axn+CrofBn96Vao+iXnOGlRMVyVSXZk=",
+        "originContent": "### Custom Exception Handling",
+        "translatedContent": "### カスタム例外処理"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```kotlin\nEasyHttpGet.doRequest<User>(\n    url = \"https://api.example.com/users/1\",\n    exceptionHandler = { throwable, request ->\n        println(\"Request failed: ${request.url}, Error: ${throwable?.message}\")\n        // Handle exceptions here, e.g., retry or log\n    }\n) { user ->\n    println(\"User info: $user\")\n}\n```",
+    "ContentSha": "Hfn0XnUSNv2jhBD8XYKOIjq+a1tdt0l5aZ1paotDHEQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\nEasyHttpGet.doRequest<User>(\n    url = \"https://api.example.com/users/1\",\n    exceptionHandler = { throwable, request ->\n        println(\"Request failed: ${request.url}, Error: ${throwable?.message}\")\n        // Handle exceptions here, e.g., retry or log\n    }\n) { user ->\n    println(\"User info: $user\")\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "wgE5J27NztD9lW3jiZU1sNnq29COigVEyUDUt9gF1Xs=",
+        "originContent": "EasyHttpGet.doRequest<User>(",
+        "translatedContent": "EasyHttpGet.doRequest<User>("
+      },
+      {
+        "row": 3,
+        "rowsha": "Y87MH2IVTVsfj4OPMt9YLv5HgNBUH2AJ0ov+eHU/QIA=",
+        "originContent": "    url = \"https://api.example.com/users/1\",",
+        "translatedContent": "    url = \"https://api.example.com/users/1\","
+      },
+      {
+        "row": 4,
+        "rowsha": "x26EZm4K0GN5rZjGYAfZZIHrY1GSZFn5KTRHg0R57VQ=",
+        "originContent": "    exceptionHandler = { throwable, request ->",
+        "translatedContent": "    exceptionHandler = { throwable, request ->"
+      },
+      {
+        "row": 5,
+        "rowsha": "2TVv9iQ6GkKfCzTbQ27gerFaMqR6/HG/kB0Qa7fO/o0=",
+        "originContent": "        println(\"Request failed: ${request.url}, Error: ${throwable?.message}\")",
+        "translatedContent": "        println(\"Request failed: ${request.url}, Error: ${throwable?.message}\")"
+      },
+      {
+        "row": 6,
+        "rowsha": "wMWWNZVDZyzInSnhsEt7L4vYv/gfiFp9qdkhfyqygkk=",
+        "originContent": "        // Handle exceptions here, e.g., retry or log",
+        "translatedContent": "        // Handle exceptions here, e.g., retry or log"
+      },
+      {
+        "row": 7,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 8,
+        "rowsha": "Fc4wA6ZMNviWupqLoHv+npr21EDEiidqGdC2d9rk/cE=",
+        "originContent": ") { user ->",
+        "translatedContent": ") { user ->"
+      },
+      {
+        "row": 9,
+        "rowsha": "HEPEaW+bMxqeeoALSBE5khiC/plIVCyb4LvVhoHXQ+o=",
+        "originContent": "    println(\"User info: $user\")",
+        "translatedContent": "    println(\"User info: $user\")"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n### Handling Raw Responses\n",
+    "ContentSha": "1wT/OQr31R5Yr45WkCOwDoLNP47glXc3aAK+lK3aCt8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 生のレスポンスの処理\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "UzjhbWzl6r3fx16ZlA4oX9Bm4Od/cnsnpHrD1Qx6rts=",
+        "originContent": "### Handling Raw Responses",
+        "translatedContent": "### 生のレスポンスの処理"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```kotlin\nEasyHttpGet.doRequestRaw(url = \"https://api.example.com\") { response ->\n    println(\"Status code: ${response.code}\")\n    println(\"Headers: ${response.headers}\")\n    println(\"Body: ${response.body?.string()}\")\n}\n```",
+    "ContentSha": "FBmuvG5TzYiRAijdPheORlSUxY1ztXueY02FAouwJe0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\nEasyHttpGet.doRequestRaw(url = \"https://api.example.com\") { response ->\n    println(\"Status code: ${response.code}\")\n    println(\"Headers: ${response.headers}\")\n    println(\"Body: ${response.body?.string()}\")\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "OOTFy3+i12yHNHoLgr945R6UdqIQxm7VltIYjcgFEZU=",
+        "originContent": "EasyHttpGet.doRequestRaw(url = \"https://api.example.com\") { response ->",
+        "translatedContent": "EasyHttpGet.doRequestRaw(url = \"https://api.example.com\") { response ->"
+      },
+      {
+        "row": 3,
+        "rowsha": "/iXksDaCIxGiqas3R1dIiXBAOXdoKjcBFGeJUHVKWv4=",
+        "originContent": "    println(\"Status code: ${response.code}\")",
+        "translatedContent": "    println(\"Status code: ${response.code}\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "xfhlnF0ZRcV0dceNRBbpj1wCq89k+XO7EFT77v+3GOs=",
+        "originContent": "    println(\"Headers: ${response.headers}\")",
+        "translatedContent": "    println(\"Headers: ${response.headers}\")"
+      },
+      {
+        "row": 5,
+        "rowsha": "+ZUPlu76D/1ui2JauhyrrbJOQKXDlEgxaiuVsdKFjr8=",
+        "originContent": "    println(\"Body: ${response.body?.string()}\")",
+        "translatedContent": "    println(\"Body: ${response.body?.string()}\")"
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### Using the Builder Pattern\n",
+    "ContentSha": "HrprqWFStmeDTL4GbKjTUGKHWl1zG8MxJPkly7UOT4k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### ビルダーパターンの使用方法\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nZ0QmP/oPR9KCfwLRbv7KbBPP2Q1FPfGerF7CsNiSlo=",
+        "originContent": "### Using the Builder Pattern",
+        "translatedContent": "### ビルダーパターンの使用方法"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```kotlin\n// Using Class to specify return type\nEasyHttpGet\n    .Builder(User::class.java)\n    .setUrl(\"https://api.example.com/users/1\")\n    .setHeaders(mapOf(\"Authorization\" to \"Bearer token123\"))\n    .onSuccess { user ->\n        println(\"Username: ${user?.name}\")\n    }\n    .onException { throwable, request ->\n        println(\"Request failed: ${throwable.message}\")\n    }\n    .build()\n    .execute()\n\n// Using TypeReference to handle generic types\nEasyHttpGet\n    .Builder(object : TypeReference<List<User>>() {})\n    .setUrl(\"https://api.example.com/users\")\n    .setParams(mapOf(\"page\" to \"1\"))\n    .onSuccess { users ->\n        println(\"User list: $users\")\n    }\n    .build()\n    .execute()\n```",
+    "ContentSha": "/gY7Ly4UNB15qBzEjY9/dbKxaPEMr6esufkkmM4kbIA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\n// Using Class to specify return type\nEasyHttpGet\n    .Builder(User::class.java)\n    .setUrl(\"https://api.example.com/users/1\")\n    .setHeaders(mapOf(\"Authorization\" to \"Bearer token123\"))\n    .onSuccess { user ->\n        println(\"Username: ${user?.name}\")\n    }\n    .onException { throwable, request ->\n        println(\"Request failed: ${throwable.message}\")\n    }\n    .build()\n    .execute()\n\n// Using TypeReference to handle generic types\nEasyHttpGet\n    .Builder(object : TypeReference<List<User>>() {})\n    .setUrl(\"https://api.example.com/users\")\n    .setParams(mapOf(\"page\" to \"1\"))\n    .onSuccess { users ->\n        println(\"User list: $users\")\n    }\n    .build()\n    .execute()\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "Yo0IV2meEklIVbEZfZVsGlQkLzrdtXi5MGkJFuPi7Gw=",
+        "originContent": "// Using Class to specify return type",
+        "translatedContent": "// Using Class to specify return type"
+      },
+      {
+        "row": 3,
+        "rowsha": "LswBRGvne7FeZKiZmsqpFestNbULbp5eABYHwsSmIcI=",
+        "originContent": "EasyHttpGet",
+        "translatedContent": "EasyHttpGet"
+      },
+      {
+        "row": 4,
+        "rowsha": "uPds7CgBfHZyUrPhWQTJ5GJMjD50ySWMgzAD1fiBoks=",
+        "originContent": "    .Builder(User::class.java)",
+        "translatedContent": "    .Builder(User::class.java)"
+      },
+      {
+        "row": 5,
+        "rowsha": "qkwfPOcZSzYmu3n6bMIya6HPRH6NIwcCEKmL5YE+x5k=",
+        "originContent": "    .setUrl(\"https://api.example.com/users/1\")",
+        "translatedContent": "    .setUrl(\"https://api.example.com/users/1\")"
+      },
+      {
+        "row": 6,
+        "rowsha": "dP5ZhZPD4Wg+cY+i+zf0cXOY7n8cJAa+Aq7P6Irs/sw=",
+        "originContent": "    .setHeaders(mapOf(\"Authorization\" to \"Bearer token123\"))",
+        "translatedContent": "    .setHeaders(mapOf(\"Authorization\" to \"Bearer token123\"))"
+      },
+      {
+        "row": 7,
+        "rowsha": "hlezZZDGjdLhj7skX/RVmEVNrfd94SFBAZy69h4ft2A=",
+        "originContent": "    .onSuccess { user ->",
+        "translatedContent": "    .onSuccess { user ->"
+      },
+      {
+        "row": 8,
+        "rowsha": "Ex3SnQZExAE87UvTHftqsd5YrOzJfLr3qqU5132I73k=",
+        "originContent": "        println(\"Username: ${user?.name}\")",
+        "translatedContent": "        println(\"Username: ${user?.name}\")"
+      },
+      {
+        "row": 9,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 10,
+        "rowsha": "lzOYrW4VFVMN0HBnP5qXEnYFuE0wsLXFcEgk5TcjA5k=",
+        "originContent": "    .onException { throwable, request ->",
+        "translatedContent": "    .onException { throwable, request ->"
+      },
+      {
+        "row": 11,
+        "rowsha": "Z4NLESQ0qa17AVqax8sCkHgsUwpDgKf8xvR2ejVfXxo=",
+        "originContent": "        println(\"Request failed: ${throwable.message}\")",
+        "translatedContent": "        println(\"Request failed: ${throwable.message}\")"
+      },
+      {
+        "row": 12,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 13,
+        "rowsha": "6nVm1sgVeo+sVyQ/78es9D8JRvgqn6Lui7rE7OFeSDs=",
+        "originContent": "    .build()",
+        "translatedContent": "    .build()"
+      },
+      {
+        "row": 14,
+        "rowsha": "cYhmlsLaPsEqeLwsgbccK0wVdxApzEhYPMRRfw480XQ=",
+        "originContent": "    .execute()",
+        "translatedContent": "    .execute()"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "a4tSzTXJ825BeKaj9ZRftWgd0p8Vg6w2s+Z6MEsSWRY=",
+        "originContent": "// Using TypeReference to handle generic types",
+        "translatedContent": "// Using TypeReference to handle generic types"
+      },
+      {
+        "row": 17,
+        "rowsha": "LswBRGvne7FeZKiZmsqpFestNbULbp5eABYHwsSmIcI=",
+        "originContent": "EasyHttpGet",
+        "translatedContent": "EasyHttpGet"
+      },
+      {
+        "row": 18,
+        "rowsha": "dLmfHXhN2LrAyhy14KOo/khJRAVEPyz7INfS52e7kZU=",
+        "originContent": "    .Builder(object : TypeReference<List<User>>() {})",
+        "translatedContent": "    .Builder(object : TypeReference<List<User>>() {})"
+      },
+      {
+        "row": 19,
+        "rowsha": "9L31RiI5yKl2IqB9fLtxPbxZKlAAw9sv66DAzlEyRVQ=",
+        "originContent": "    .setUrl(\"https://api.example.com/users\")",
+        "translatedContent": "    .setUrl(\"https://api.example.com/users\")"
+      },
+      {
+        "row": 20,
+        "rowsha": "LA/A2U2vNyBMOinCBQj64E76CoBBQWk2Z0/tcqIm3fk=",
+        "originContent": "    .setParams(mapOf(\"page\" to \"1\"))",
+        "translatedContent": "    .setParams(mapOf(\"page\" to \"1\"))"
+      },
+      {
+        "row": 21,
+        "rowsha": "nXJUemP2Fn1bESy/EJrUjtAnipZsA3ZhReGk3nTV9rc=",
+        "originContent": "    .onSuccess { users ->",
+        "translatedContent": "    .onSuccess { users ->"
+      },
+      {
+        "row": 22,
+        "rowsha": "il7dYuvt3K8nH5rw47t+36FVck92OWpx93ijqVMIZik=",
+        "originContent": "        println(\"User list: $users\")",
+        "translatedContent": "        println(\"User list: $users\")"
+      },
+      {
+        "row": 23,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 24,
+        "rowsha": "6nVm1sgVeo+sVyQ/78es9D8JRvgqn6Lui7rE7OFeSDs=",
+        "originContent": "    .build()",
+        "translatedContent": "    .build()"
+      },
+      {
+        "row": 25,
+        "rowsha": "cYhmlsLaPsEqeLwsgbccK0wVdxApzEhYPMRRfw480XQ=",
+        "originContent": "    .execute()",
+        "translatedContent": "    .execute()"
+      },
+      {
+        "row": 26,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n### Custom ObjectMapper\n",
+    "ContentSha": "o18pg74/ETeINwkQgEnTYVJb9XeQoTWTDrl1f9fXFMY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### カスタム ObjectMapper\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "zz+EHafev8VoSZgNrSPlR9Lqb0x1LrJ/rPY9N2FofK0=",
+        "originContent": "### Custom ObjectMapper",
+        "translatedContent": "### カスタム ObjectMapper"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```kotlin\nval objectMapper = ObjectMapper().registerKotlinModule()\n// Configure ObjectMapper here, e.g., date format, serialization options, etc.\n\nEasyHttpGet.doRequest<User>(\n    url = \"https://api.example.com/users/1\",\n    objectMapper = objectMapper\n) { user ->\n    println(\"User info: $user\")\n}\n```",
+    "ContentSha": "knwD4ap/EEbPuJwegLMGpE12IcHBNZx/0izzbe47YgQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\nval objectMapper = ObjectMapper().registerKotlinModule()\n// Configure ObjectMapper here, e.g., date format, serialization options, etc.\n\nEasyHttpGet.doRequest<User>(\n    url = \"https://api.example.com/users/1\",\n    objectMapper = objectMapper\n) { user ->\n    println(\"User info: $user\")\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "Oc4ZoXFjdmY0p8a+kXzob2X/OHmfArIZrmL/WmIsyts=",
+        "originContent": "val objectMapper = ObjectMapper().registerKotlinModule()",
+        "translatedContent": "val objectMapper = ObjectMapper().registerKotlinModule()"
+      },
+      {
+        "row": 3,
+        "rowsha": "P/Uhl2SneVw9dy9PmO0RlC16DeykxJf44uRLP4m3v4o=",
+        "originContent": "// Configure ObjectMapper here, e.g., date format, serialization options, etc.",
+        "translatedContent": "// Configure ObjectMapper here, e.g., date format, serialization options, etc."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "wgE5J27NztD9lW3jiZU1sNnq29COigVEyUDUt9gF1Xs=",
+        "originContent": "EasyHttpGet.doRequest<User>(",
+        "translatedContent": "EasyHttpGet.doRequest<User>("
+      },
+      {
+        "row": 6,
+        "rowsha": "Y87MH2IVTVsfj4OPMt9YLv5HgNBUH2AJ0ov+eHU/QIA=",
+        "originContent": "    url = \"https://api.example.com/users/1\",",
+        "translatedContent": "    url = \"https://api.example.com/users/1\","
+      },
+      {
+        "row": 7,
+        "rowsha": "tM6nBVhzFAPlDPYF3elfKBoCSETTe2KrjsE8DPYgWSE=",
+        "originContent": "    objectMapper = objectMapper",
+        "translatedContent": "    objectMapper = objectMapper"
+      },
+      {
+        "row": 8,
+        "rowsha": "Fc4wA6ZMNviWupqLoHv+npr21EDEiidqGdC2d9rk/cE=",
+        "originContent": ") { user ->",
+        "translatedContent": ") { user ->"
+      },
+      {
+        "row": 9,
+        "rowsha": "HEPEaW+bMxqeeoALSBE5khiC/plIVCyb4LvVhoHXQ+o=",
+        "originContent": "    println(\"User info: $user\")",
+        "translatedContent": "    println(\"User info: $user\")"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n## Advanced Usage\n\n### Custom Response Handling\n",
+    "ContentSha": "QIfyEG2oPC2b9df6C1RxNQy2duK2UsFntRGKGX3Cf8A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 高度な使用法\n\n### カスタムレスポンス処理\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3q+lclQQKa/mkVijw2G5SxQQg/odrvMc/jR58kE4feY=",
+        "originContent": "## Advanced Usage",
+        "translatedContent": "## 高度な使用法"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "dXW1LW2+uVAzdy6Cva2HDAuz0GoLgpttmzjeFpE+4nI=",
+        "originContent": "### Custom Response Handling",
+        "translatedContent": "### カスタムレスポンス処理"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```kotlin\nEasyHttpGet.doRequest<User>(\n    url = \"https://api.example.com/users/1\",\n    responseSuccessHandler = { response ->\n        // Handle successful responses\n        println(\"Success: ${response.code}\")\n        // Execute custom logic here, e.g., extract specific headers\n    },\n    responseFailureHandler = { response ->\n        // Handle failed responses\n        println(\"Failure: ${response.code} - ${response.message}\")\n    }\n) { user ->\n    println(\"User info: $user\")\n}\n```",
+    "ContentSha": "r+F4hi9FdNgChcpsJZgQD4yMsu8sgR6yByEHNKp6PQM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\nEasyHttpGet.doRequest<User>(\n    url = \"https://api.example.com/users/1\",\n    responseSuccessHandler = { response ->\n        // Handle successful responses\n        println(\"Success: ${response.code}\")\n        // Execute custom logic here, e.g., extract specific headers\n    },\n    responseFailureHandler = { response ->\n        // Handle failed responses\n        println(\"Failure: ${response.code} - ${response.message}\")\n    }\n) { user ->\n    println(\"User info: $user\")\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "wgE5J27NztD9lW3jiZU1sNnq29COigVEyUDUt9gF1Xs=",
+        "originContent": "EasyHttpGet.doRequest<User>(",
+        "translatedContent": "EasyHttpGet.doRequest<User>("
+      },
+      {
+        "row": 3,
+        "rowsha": "Y87MH2IVTVsfj4OPMt9YLv5HgNBUH2AJ0ov+eHU/QIA=",
+        "originContent": "    url = \"https://api.example.com/users/1\",",
+        "translatedContent": "    url = \"https://api.example.com/users/1\","
+      },
+      {
+        "row": 4,
+        "rowsha": "yhiKstlR9jF3tk3MsiWAziSwdB2udM6Q3D9HaueHsAs=",
+        "originContent": "    responseSuccessHandler = { response ->",
+        "translatedContent": "    responseSuccessHandler = { response ->"
+      },
+      {
+        "row": 5,
+        "rowsha": "1azfe1Bhgi7dVAZKSZxgZFK1yJ+xEr5D9n9QJ3ENWAg=",
+        "originContent": "        // Handle successful responses",
+        "translatedContent": "        // Handle successful responses"
+      },
+      {
+        "row": 6,
+        "rowsha": "soNcQgEMm5ROUgEcE8Ylg9GFIqZqqiL7ICCytFLXsC0=",
+        "originContent": "        println(\"Success: ${response.code}\")",
+        "translatedContent": "        println(\"Success: ${response.code}\")"
+      },
+      {
+        "row": 7,
+        "rowsha": "Z5t2tlIfmE3MJZaKuDHF8y0yKh2Ag27xD4qMEUI6q/c=",
+        "originContent": "        // Execute custom logic here, e.g., extract specific headers",
+        "translatedContent": "        // Execute custom logic here, e.g., extract specific headers"
+      },
+      {
+        "row": 8,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 9,
+        "rowsha": "hggiYVo25o6TCmNoffu39W+z64ImA2svsRuR6SCDym8=",
+        "originContent": "    responseFailureHandler = { response ->",
+        "translatedContent": "    responseFailureHandler = { response ->"
+      },
+      {
+        "row": 10,
+        "rowsha": "I4D1gOf9rnUEnbJOo87HMUe4s/jIMhC/J5aZZRqhwcU=",
+        "originContent": "        // Handle failed responses",
+        "translatedContent": "        // Handle failed responses"
+      },
+      {
+        "row": 11,
+        "rowsha": "DJ4NVzpvC8OZtJ7JtFnoGCOUVw66q0bw73ScQ/Ftjp4=",
+        "originContent": "        println(\"Failure: ${response.code} - ${response.message}\")",
+        "translatedContent": "        println(\"Failure: ${response.code} - ${response.message}\")"
+      },
+      {
+        "row": 12,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 13,
+        "rowsha": "Fc4wA6ZMNviWupqLoHv+npr21EDEiidqGdC2d9rk/cE=",
+        "originContent": ") { user ->",
+        "translatedContent": ") { user ->"
+      },
+      {
+        "row": 14,
+        "rowsha": "HEPEaW+bMxqeeoALSBE5khiC/plIVCyb4LvVhoHXQ+o=",
+        "originContent": "    println(\"User info: $user\")",
+        "translatedContent": "    println(\"User info: $user\")"
+      },
+      {
+        "row": 15,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n### Custom OkHttpClient\n",
+    "ContentSha": "t64NUb0mBfACC+QJnTK/F4bu5NbH8wqRnNhmDIUdvKY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### カスタム OkHttpClient\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "irPHvvH0kYkB4mX2F+ZKQnUWb1UvPC/tygnUdQYcyPE=",
+        "originContent": "### Custom OkHttpClient",
+        "translatedContent": "### カスタム OkHttpClient"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```kotlin\nval okHttpClient = OkHttpClient.Builder()\n    .connectTimeout(30, TimeUnit.SECONDS)\n    .readTimeout(30, TimeUnit.SECONDS)\n    .writeTimeout(30, TimeUnit.SECONDS)\n    .build()\n\nEasyHttpGet.doRequest<User>(\n    url = \"https://api.example.com/users/1\",\n    okHttpClient = okHttpClient\n) { user ->\n    println(\"User info: $user\")\n}\n```",
+    "ContentSha": "FWGWJuPe2sjnpV2mmflHG32o5ovivaykETBlufOuyA0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\nval okHttpClient = OkHttpClient.Builder()\n    .connectTimeout(30, TimeUnit.SECONDS)\n    .readTimeout(30, TimeUnit.SECONDS)\n    .writeTimeout(30, TimeUnit.SECONDS)\n    .build()\n\nEasyHttpGet.doRequest<User>(\n    url = \"https://api.example.com/users/1\",\n    okHttpClient = okHttpClient\n) { user ->\n    println(\"User info: $user\")\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "bqkay7FzJWkF/ejZr4Uw9/tgu2gj/v4wrETlu9gBXlk=",
+        "originContent": "val okHttpClient = OkHttpClient.Builder()",
+        "translatedContent": "val okHttpClient = OkHttpClient.Builder()"
+      },
+      {
+        "row": 3,
+        "rowsha": "l3DY/5Y2C6Nz9AZTHpSvg9YVau8izbqwbxz210TecLk=",
+        "originContent": "    .connectTimeout(30, TimeUnit.SECONDS)",
+        "translatedContent": "    .connectTimeout(30, TimeUnit.SECONDS)"
+      },
+      {
+        "row": 4,
+        "rowsha": "3CCbIpa1UGdu1UmgtyJc5Xvf7tE7OvO03LaKp/YJSFI=",
+        "originContent": "    .readTimeout(30, TimeUnit.SECONDS)",
+        "translatedContent": "    .readTimeout(30, TimeUnit.SECONDS)"
+      },
+      {
+        "row": 5,
+        "rowsha": "1OMxSTIBre53RlewcfTzxxdShU2nE5Z0/7VWfyp9GWs=",
+        "originContent": "    .writeTimeout(30, TimeUnit.SECONDS)",
+        "translatedContent": "    .writeTimeout(30, TimeUnit.SECONDS)"
+      },
+      {
+        "row": 6,
+        "rowsha": "6nVm1sgVeo+sVyQ/78es9D8JRvgqn6Lui7rE7OFeSDs=",
+        "originContent": "    .build()",
+        "translatedContent": "    .build()"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "wgE5J27NztD9lW3jiZU1sNnq29COigVEyUDUt9gF1Xs=",
+        "originContent": "EasyHttpGet.doRequest<User>(",
+        "translatedContent": "EasyHttpGet.doRequest<User>("
+      },
+      {
+        "row": 9,
+        "rowsha": "Y87MH2IVTVsfj4OPMt9YLv5HgNBUH2AJ0ov+eHU/QIA=",
+        "originContent": "    url = \"https://api.example.com/users/1\",",
+        "translatedContent": "    url = \"https://api.example.com/users/1\","
+      },
+      {
+        "row": 10,
+        "rowsha": "mbf65vwpp7VpIML3hFB35PZs9V+vGApv8Ph+whTwcG8=",
+        "originContent": "    okHttpClient = okHttpClient",
+        "translatedContent": "    okHttpClient = okHttpClient"
+      },
+      {
+        "row": 11,
+        "rowsha": "Fc4wA6ZMNviWupqLoHv+npr21EDEiidqGdC2d9rk/cE=",
+        "originContent": ") { user ->",
+        "translatedContent": ") { user ->"
+      },
+      {
+        "row": 12,
+        "rowsha": "HEPEaW+bMxqeeoALSBE5khiC/plIVCyb4LvVhoHXQ+o=",
+        "originContent": "    println(\"User info: $user\")",
+        "translatedContent": "    println(\"User info: $user\")"
+      },
+      {
+        "row": 13,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n## Notes\n\n1. When handling Kotlin data classes, ensure you use an ObjectMapper with the Kotlin module:",
+    "ContentSha": "djD+1Fh9Tz7E5EVOEL4yAtD3U07UT0POEyWcKRq42Co=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 注意事項\n\n1. Kotlinのデータクラスを扱う場合は、Kotlinモジュールを組み込んだObjectMapperを使用してください:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y+E+h7N40ehfg46tJn25AgwUV7ERijfgr5+1+XYUT0s=",
+        "originContent": "## Notes",
+        "translatedContent": "## 注意事項"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "X0hj67OfYFnUrEftjr/b46m3jDLHekCfcL0PMlv9AXQ=",
+        "originContent": "1. When handling Kotlin data classes, ensure you use an ObjectMapper with the Kotlin module:",
+        "translatedContent": "1. Kotlinのデータクラスを扱う場合は、Kotlinモジュールを組み込んだObjectMapperを使用してください:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "   ```kotlin\n   ObjectMapper().registerKotlinModule()\n   ```",
+    "ContentSha": "GWCkh6M0sJgcmi7iizDSu8WJ+AtcEHdRiUgeMh/0RZs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```kotlin\n   ObjectMapper().registerKotlinModule()\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+        "originContent": "   ```kotlin",
+        "translatedContent": "   ```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "MMocbJJHlNw3QGyd0Gu5lZb9ZFuRrzrauAsYYfqEw9o=",
+        "originContent": "   ObjectMapper().registerKotlinModule()",
+        "translatedContent": "   ObjectMapper().registerKotlinModule()"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n2. By default, the library automatically detects if the Kotlin module is needed, but in some cases, you may need to specify it manually.\n\n3. All requests are synchronous. If you need asynchronous operations, consider executing them in coroutines or threads.\n\n## License\n\n[MIT License](./LICENSE)\n\n## Contributing\n\nPull Requests and Issues are welcome!\n",
+    "ContentSha": "QSUUG8ZE7OIqnmME6e8oD4n5IZMPYDaGHEqWQ1OotvU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. デフォルトでは、ライブラリはKotlinモジュールが必要かどうかを自動的に検出しますが、場合によっては手動で指定する必要があります。\n\n3. すべてのリクエストは同期的です。非同期処理が必要な場合は、コルーチンやスレッドで実行することを検討してください。\n\n## ライセンス\n\n[MIT ライセンス](./LICENSE)\n\n## コントリビュート\n\nプルリクエストと問題報告は歓迎します！\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. デフォルトでは、ライブラリはKotlinモジュールが必要かどうかを自動的に検出しますが、場合によっては手動で指定する必要があります。"
+      },
+      {
+        "row": 2,
+        "rowsha": "XAI4lJjclkuIlPf2xW/s07NhqUWAUlqLQ9UunGPGHg8=",
+        "originContent": "2. By default, the library automatically detects if the Kotlin module is needed, but in some cases, you may need to specify it manually.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. すべてのリクエストは同期的です。非同期処理が必要な場合は、コルーチンやスレッドで実行することを検討してください。"
+      },
+      {
+        "row": 4,
+        "rowsha": "bVwc8nu37PwKq4oXh+8eu6YdVPvcbY/zzSE85duKSH4=",
+        "originContent": "3. All requests are synchronous. If you need asynchronous operations, consider executing them in coroutines or threads.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 6,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[MIT ライセンス](./LICENSE)"
+      },
+      {
+        "row": 8,
+        "rowsha": "/WUH+/u0CzWnaUNErrZIGMIZv/KdKcRsIQ6dUFG83lU=",
+        "originContent": "[MIT License](./LICENSE)",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## コントリビュート"
+      },
+      {
+        "row": 10,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "プルリクエストと問題報告は歓迎します！"
+      },
+      {
+        "row": 12,
+        "rowsha": "vZReKHfpGBEsxLUyWHjvgXLY6icZd8bn9EuBOPCQLaM=",
+        "originContent": "Pull Requests and Issues are welcome!",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
