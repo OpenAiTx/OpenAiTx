@@ -9,7 +9,7 @@
         | <a href="#" title="Coming soon">繁體中文 (binnenkort beschikbaar)</a> |
         | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja">Japans</a>
         | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko">Koreaans</a>
-        | <a href="#" title="Coming soon">हिन्दी (binnenkort beschikbaar)</a> |
+        | <a href="#" title="Coming soon">Hindi (binnenkort beschikbaar)</a> |
         | <a href="#" title="Coming soon">Thai (binnenkort beschikbaar)</a> |
         | <a href="#" title="Coming soon">Frans (binnenkort beschikbaar)</a>
         | <a href="#" title="Coming soon">Duits (binnenkort beschikbaar)</a>
@@ -31,110 +31,124 @@
 </div>
 
 # TimeCapsule LLM
-Een LLM getraind uitsluitend op gegevens uit bepaalde tijdsperiodes om moderne bias te verminderen.
+Een LLM die uitsluitend is getraind op gegevens uit bepaalde tijdsperiodes om moderne bias te verminderen.
 
-Stel je voor dat een AI-model niet alleen doet alsof het historisch is, maar het ook echt is.
+Stel je voor dat een AI-model niet alleen deed alsof het historisch was, maar het echt was.
 
-Gebouwd op [nanoGPT van Andrej Karpathy](https://github.com/karpathy/nanoGPT). De kerntrainingsscripts en modelarchitectuur zijn van hem. 
+Gebouwd op [nanoGPT door Andrej Karpathy](https://github.com/karpathy/nanoGPT). De kerntrainingsscripts en modelarchitectuur zijn zijn werk.
 
-# Projectdoelen 
+# Projectdoelen
+TimeCapsule LLM is een experimenteel project dat alleen zal worden getraind op teksten geschreven tijdens bepaalde tijdsperiodes. Het doel is om het wereldbeeld en de taal van specifieke historische tijdperken te simuleren.
 
-TimeCapsule LLM is een experimenteel project dat alleen getraind zal worden op teksten geschreven in bepaalde tijdsperiodes. Het doel is om het wereldbeeld en de taal van specifieke historische tijdperken te simuleren.
+# Waarom fine tuning niet genoeg is
 
-# Waarom fine-tunen niet genoeg is 
+Als je alleen een voorgetraind model fine-tunet, zal je LLM nog steeds moderne concepten kennen. Natuurlijk is het bereiken van nul moderne bias moeilijk, maar ik wil hier zo dicht mogelijk bij komen. Geen moderne bias krijgen vereist het trainen van een model vanaf nul.
 
-Als je alleen een voorgetraind model fine-tunet, zal je LLM nog steeds moderne concepten kennen. Natuurlijk is het bereiken van nul moderne bias moeilijk, maar ik wil hier zo dicht mogelijk bij komen. Geen moderne bias krijgen vereist dat een model vanaf nul getraind wordt.
+# Verwachte resultaten
 
-# Verwachte uitkomsten 
-
-Hopelijk zal dit model, eenmaal klaar, geen moderne concepten kennen en niet kunnen redeneren buiten wat het geleerd heeft. Het zou moderne concepten/vocabulaire niet moeten herkennen en hopelijk geen moderne kennis hallucineren.
+Hopelijk weet dit model, als het klaar is, geen moderne concepten en kan het niet redeneren buiten wat het is getraind op. Het zou moderne concepten/vocabulaire niet moeten herkennen en zou geen moderne kennis mogen hallucineren.
 
 # Voortgangsupdates
 
 ## 9 juli 2025
 
-Ik heb mijn tijdsperiode vastgesteld op 1800-1850 en regio: Londen 
+Ik heb mijn tijdsperiode ingesteld op 1800-1850 en regio: Londen
 
-Ik heb een lijst verzameld met teksten, boeken, documenten 
+Ik heb een lijst met teksten, boeken, documenten verzameld
 
-Tot nu toe heb ik er 50 als txt-bestanden en zal binnenkort beginnen met het trainen van NanoGPT 
+Tot nu toe heb ik er 50 als txt-bestanden en ga binnenkort beginnen met trainen op NanoGPT
 
-Ik zal dit bijwerken zolang er voortgang is
+Zal dit bijwerken zolang er voortgang wordt geboekt
 
 ## 13 juli 2025
 
-nanoGPT getraind met 187MB aan historische tekstdata. 
+NanoGPT getraind met 187MB aan historische tekstdata.
 
 ## 15 juli 2025
 
-Ik ben begonnen met het downloaden van teksten voor de tweede trainingsronde. Ik haal alles van Internet Archive en heb de tijdsperiode uitgebreid tot 1800-1875. Voor een diverse reeks teksten kun je onderwerp- en zoekfilters gebruiken voor publicatielocatie, tijdsperiode en onderwerpen op Internet Archive. 
+Ik ben begonnen met het downloaden van teksten voor de tweede trainingsronde. Ik haal alles van Internet Archive en heb de tijdsperiode uitgebreid naar 1800-1875. Om een diverse reeks teksten te krijgen, kun je onderwerp- en zoekfilters gebruiken voor publicatielocatie, tijdsperiode en onderwerpen op Internet Archive.
 
 ![Zoekfilters](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/searchfilter.jpg)
 
 ## 16 juli 2025
 
-Ik heb ongeveer 500 txt-bestanden gedownload van Internet Archive en na het opschonen ervan (alleen witruimtes verwijderen, Gutenberg-headers, enz.) heb ik ongeveer 500MB aan data. Het is een kleine dataset maar de vorige keer trainde ik op 187MB dus er zou ten minste enig merkbaar verschil in de output moeten zijn na het trainen van het tweede model. Ik hoop dat dit model ten minste meer samenhangende zinnen kan produceren die enigszins logisch zijn. Het is natuurlijk geen garantie want dit is nog steeds een erg kleine dataset, maar het is meer dan wat ik de vorige keer gebruikte. 
+Ik heb ongeveer 500 txt-bestanden gedownload van Internet Archive en na het opschonen (alleen witruimtes, Gutenberg-headers, enz. verwijderen) heb ik ongeveer 500MB aan data. Het is een kleine dataset, maar de vorige keer trainde ik op 187MB dus er zou ten minste een merkbaar verschil in output moeten zijn zodra ik het tweede model train. Ik hoop dat dit model in ieder geval meer samenhangende zinnen kan produceren die enigszins logisch zijn. Dat is natuurlijk geen garantie, want het blijft een erg kleine dataset, maar het is meer dan wat ik de vorige keer gebruikte.
 
-Dit zou haalbaar moeten zijn op mijn eigen hardware, dat is ook goed omdat ik hopelijk enige verbetering kan zien voordat ik overstap naar een grotere dataset waarvoor ik een GPU moet huren. Maak je geen zorgen, ik ben wel van plan binnenkort een GPU te huren, maar voordat ik dat doe wil ik zeker weten dat mijn dataset zo goed mogelijk gecureerd en schoon is. Een van de problemen die ik heb is schoonmaken; veel van deze txt-bestanden bevatten onzin. De scripts die ik voor het schonen heb gebruikt werken wel, maar zijn niet 100% effectief. 
+Dit zou op mijn eigen hardware moeten lukken, dat is ook goed omdat ik hopelijk enige verbetering kan zien voordat ik overstap op een grotere dataset, waarvoor ik een GPU zou moeten huren. Maar maak je geen zorgen, ik ben nog steeds van plan om binnenkort een GPU te huren, maar voordat ik dat doe wil ik mijn dataset zo goed mogelijk gecureerd en opgeschoond hebben. Een van de problemen die ik heb is het opschonen; veel van deze txt-bestanden bevatten onzin ertussen. De scripts die ik heb gebruikt voor het opschonen werken wel, maar zijn niet 100% effectief.
 
-Ik ga deze dataset vandaag trainen en het zou ongeveer 4-5 uur moeten duren. Zodra het klaar is en ik het test, zal ik updates geven. Nogmaals bedankt aan iedereen die mijn project bekijkt; sommige mensen hebben me zelfs links gegeven naar OCR-bronnen, dus bedankt! Ik hoop dat meer mensen dit proberen en experimenteren met hun eigen datasets. 
+Ik ga deze dataset vandaag trainen en het zal ongeveer 4-5 uur duren. Zodra het klaar is en ik het test, zal ik updates geven. Nogmaals bedankt aan iedereen die mijn project bekijkt, ik heb zelfs van mensen links gekregen naar OCR-bronnen dus dankjewel! Ik hoop dat meer mensen dit proberen en experimenteren met hun eigen datasets.
 
 
-### Trainingsupdate 
+## 12 augustus 2025
 
-Ik ben begonnen met trainen op een corpus van 435MB (108M tokens), het verloopt momenteel vrij soepel. De train loss daalde van 10,9 naar 4,9 in de eerste 2800 iteraties. Ik verwacht dat het ongeveer 8 of 9 uur zal duren om te voltooien. Ik zal nog een update plaatsen zodra het klaar is.
+Versie 1 is voltooid, deze versie gebruikt Phi 1.5 (700M parameters) en is getraind op een dataset met bijna 7000 teksten. De belangrijkste verbetering van dit model is zijn vermogen om soms echte namen en historische gebeurtenissen te refereren. Versie 0 en 0.5 konden dit niet, als ik die modellen bijvoorbeeld promptte met "In het jaar 1821" was de output gewoon hallucinaties, dingen die nooit gebeurd zijn. Een voorbeeld hiervan met Versie 1:
+
+Mijn prompt: Het was het jaar onzes Heren 1834,
+
+De output: "Het was het jaar onzes Heren 1834 en de straten van Londen waren gevuld met protest en petitie. De reden, zoals velen vertelden, was niet gebonden aan het privé, maar had dezelfde dag aangenomen in de dag van Lord Palmerston, het publiek zal een korte verklaring ontvangen van de moeilijkheden waaronder de dag van de wet ons heeft bereikt. Het is zeer betreurenswaardig dat de huidige gebeurtenissen in de wereldgeschiedenis duidelijk zijn en bijgevolg bekend zullen worden. Het is niet waar dat de mannen die zich eerst in het Evangelie te Jeruzalem vestigden zo'n uitgebreide en interessante registratie van welvaart en voorspoed zouden hebben."
+
+Eerst dacht ik dat het toeval was, maar kijk hier eens naar: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+
+
+### Trainingsupdate
+
+Ik begon met trainen op een corpus van 435MB (108 M tokens), het verloopt momenteel vrij soepel. De train loss daalde van 10,9 naar 4,9 in de eerste 2800 iteraties. Ik verwacht dat het ongeveer 8 of 9 uur zal duren om te voltooien. Ik post een nieuwe update zodra het klaar is.
 
 ## 17 juli 2025
 
-De training is klaar voor het tweede model; het kostte mijn 4060 ongeveer 8 uur en 40 minuten (3.900 iters/uur) voor 33.000 iteraties (5 epochs). De uiteindelijke train loss was 3,73. De outputs waren verrassend goed; het genereert nu echt samenhangende zinnen in 19e-eeuwse stijl. 
+De training is voltooid voor het tweede model, mijn 4060 deed er ongeveer 8 uur en 40 minuten over (3.900 iters/uur) voor 33.000 iteraties (5 epochs). Eindtrainingsverlies was 3,73. De outputs waren verrassend goed, het genereert nu echt samenhangende zinnen in 19e-eeuwse stijl.
 
-## 28 juli 2025 
+## 28 juli 2025
 
-Ik heb v0.5 geüpload naar Hugging Face, [Bekijk het hier](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) als je wilt. Je kunt nu mijn repo downloaden en lokaal draaien. Helaas werkt nanoGPT niet native met HuggingFace, dus je zult het model lokaal moeten downloaden en draaien. 
+Ik heb v0.5 geüpload naar Hugging Face, [bekijk het hier](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) als je wilt. Je kunt nu mijn repo downloaden en lokaal uitvoeren. Helaas werkt nanoGPT niet native met HuggingFace, dus je zult het model moeten downloaden en lokaal draaien.
 
-Ook zal ik beginnen met het cureren van data voor mijn volgende trainingsronde; ik denk dat ik misschien 5-10x meer data nodig heb om redeneervermogen te bereiken. 
+Ook zal ik beginnen met het verzamelen van data voor mijn volgende trainingsronde, ik denk dat ik misschien 5-10x meer data nodig heb om redeneervermogen te bereiken.
 
 ## 2 augustus 2025
 
-Ik ga binnenkort beginnen aan Versie 1. Ik zal moeten overstappen van nanoGPT's architectuur naar iets moderners. Ik heb verschillende open-source LLM-architecturen in gedachten, waaronder: OpenLLaMA v3, Phi-2 en Qwen 1.5B. En om de sprong naar V1 te ondersteunen, zal ik zorgvuldig een veel grotere en diverse dataset moeten cureren. Ik heb minstens 5GB aan schone trainingsdata nodig.
+Ik ga binnenkort beginnen aan Versie 1. Ik zal moeten overstappen van nanoGPT's architectuur naar iets moderners. Ik heb verschillende open-source LLM-architecturen in gedachten, waaronder: OpenLLaMA v3, Phi-2 en Qwen 1.5B. En om de sprong naar V1 te ondersteunen, zal ik zorgvuldig een veel grotere en diverse dataset moeten samenstellen. Ik heb minstens 5GB aan schone trainingsdata nodig.
 
 # V0 Modelgedrag & Beperkingen
 
-Vroege prompts laten het model reageren met taalgebruik en gedrag uit de 19e eeuw. Bijvoorbeeld, ik gaf de prompt "Who art Henry?" en het antwoordde "I know that man, I have did not a black, the storm." en ja, die zin slaat nergens op maar de LLM herkent dat ik naar een persoon vraag.
+Vroege prompts laten zien dat het model reageert met taal en gedrag uit de 19e eeuw. Bijvoorbeeld, ik promptte met "Who art Henry?" en het antwoordde "I know that man, I have did not a black, the storm." en ja die zin slaat nergens op maar de LLM herkent wel dat ik naar een persoon vraag.
 
 ![TimeLockLLM Voorbeeldoutput](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-Er wordt geen melding gemaakt van moderne concepten, de output bevat voornamelijk woorden en zinswendingen uit de 19e eeuw.
+Er is geen sprake van moderne concepten, de outputs bevatten vooral woorden en zinsbouw uit de 19e eeuw.
 
-Het heeft nog veel werk nodig, trainen op 187MB levert geen model op dat tekst met complexe redenering kan produceren.
+Het heeft nog veel werk nodig, trainen op 187MB levert geen model op dat tekst met complexe redenatie produceert.
 
-Op dit moment produceert het zinnen die niet volledig gestructureerd zijn en over het algemeen nergens op slaan, maar dit is normaal voor deze trainingsgrootte.
+Op dit moment produceert het zinnen die niet volledig gestructureerd zijn en over het algemeen gewoon niet logisch zijn, maar dit is normaal voor de trainingsomvang.
 
 # V0.5 Modelgedrag & Beperkingen
 
-Dit is een mooie verbetering ten opzichte van het vorige model. De schrijfstijl en woordenschat zijn Victoriaans en bijna elke zin is grammaticaal correct met juiste interpunctie. En opnieuw, het is getraind vanaf nul dus het blijft bij onderwerpen uit de 19e eeuw.
+Dit is een mooie verbetering ten opzichte van het vorige model. De schrijfstijl en woordenschat zijn Victoriaans en bijna elke zin is grammaticaal correct met juiste interpunctie. En opnieuw is dit vanaf nul getraind, dus het blijft bij onderwerpen uit de jaren 1800.
 
 ![TimeLockLLM Voorbeeldoutput](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
-Er zijn veel feitelijke hallucinaties. Heel veel (zoals 100%) van de details (data, gebeurtenissen, historische figuren) zijn verzonnen. Ook hebben de zinnen niet echt een samenhang; soms zijn misschien 2 zinnen aan elkaar gerelateerd maar verder niet. Een ander probleem is dat soms een verdwaalde “Digitized by Google” footer opduikt, dus de volgende keer dat ik train moet ik echt zorgen dat de teksten goed opgeschoond zijn. Al met al ben ik erg blij met de resultaten, het is nog lang geen LLM maar beslist een zinnen-generator.
+Er zijn veel feitelijke hallucinaties. Heel veel (zoals 100%) van de details (data, gebeurtenissen, historische figuren) zijn verzonnen. Ook hebben de zinnen eigenlijk geen verband met elkaar, soms zijn er misschien 2 zinnen die aan elkaar gerelateerd zijn, maar verder niet. Een ander probleem is dat er soms een verdwaalde “Digitized by Google” voettekst verschijnt, dus de volgende keer dat ik train moet ik er echt op letten dat de teksten goed opgeschoond zijn. Over het algemeen ben ik erg blij met de resultaten, het is nog lang geen LLM maar zeker een zinnen-generator.
 
-Ik leer veel en ga de komende weken uitzoeken wat ik beter moet doen. Ik zal binnenkort bestanden uploaden!
+Ik leer veel en zal de komende weken gaan uitzoeken wat ik beter moet doen. Ik upload binnenkort bestanden!
+
+# V1 Modelgedrag & Beperkingen
+
+Ik upload binnenkort een voorbeeldoutput en doe ook vergelijkingen tussen de 3 modellen met dezelfde prompt. Ik zal V1 ook uploaden naar huggingface zoals ik met mijn vorige versie deed, je vindt mijn huggingface-account hier: https://huggingface.co/haykgrigorian/TimeCapsuleLLM
 
 # Komende Plannen
 
-(Gereed) Ik ga beginnen aan versie 0.5, in plaats van 50 boeken te gebruiken voor training, wil ik idealiter 500-600 gebruiken. Op dit moment train ik nanoGPT met boeken uit 1800-1850 en specifiek uit Londen. Er zijn wat uitdagingen, zoals ervoor zorgen dat de boeken die ik vind niet zijn bijgewerkt of moderne interpretaties bevatten, maar onaangetaste boeken die binnen mijn gekozen periode zijn gepubliceerd.
+(Voltooid) Ik ga beginnen met werken aan versie 0.5, in plaats van te trainen met 50 boeken, train ik idealiter met 500-600. Op dit moment train ik nanoGPT met boeken uit 1800-1850 en specifiek uit Londen. Er zijn wat uitdagingen zoals zorgen dat de boeken die ik vind niet bijgewerkt zijn of moderne interpretaties bevatten, maar onaangetaste boeken die binnen mijn gekozen periode zijn uitgegeven.
 
-Ik wil een nieuw model (v1) trainen met een veel grotere corpus, misschien 5-10x groter dan die ik voor v0.5 gebruikte. Mijn doel is om te kijken of redeneringsvermogen kan ontstaan uit alleen Selective Temporal Training, dit wordt een moeilijkere taak en ik weet niet zeker of het mogelijk is vanwege historische databeperkingen. In de komende weken zal ik proberen genoeg data te verzamelen voor een 5-10GB corpus. Ik geloof dat als ik schone, hoogwaardige data kan krijgen en een GPU kan huren, er voortgang zal zijn.
+Ik wil een nieuw model (v1) trainen met een veel grotere corpus, misschien 5-10x groter dan die ik voor v0.5 gebruikte. Mijn doel is om te zien of er redeneervermogen kan ontstaan uit alleen Selective Temporal Training, dit zal een moeilijkere taak zijn en ik ben er niet eens volledig zeker van of het mogelijk is vanwege de beperkingen van historische data. In de komende weken zal ik proberen genoeg data te verzamelen voor een corpus van 5-10GB. Ik geloof dat als ik schone, hoge kwaliteitsdata kan krijgen en een GPU huur, er vooruitgang zal zijn.
 
-# Hoe Dit Project Te Gebruiken
+# Hoe Gebruik Je Dit Project
 
-Dit project richt zich voornamelijk op het verzamelen van historische data, het voorbereiden voor training en het bouwen van een tokenizer. Ik ga het volledige LLM-trainingsproces niet behandelen, daarvoor verwijs ik naar nanoGPT van Andrej Karpathy.
+Dit project richt zich vooral op het verzamelen van historische data, het voorbereiden voor training en het bouwen van een tokenizer. Ik ga het volledige LLM-trainingsproces niet behandelen, verwijs daarvoor naar nanoGPT van Andrej Karpathy.
 
 # Stap 1: Verzamel en Bereid Historische Teksten Voor
 
-Verzamel .txt-bestanden van boeken, documenten, enz. uit het publieke domein uit de door jou gekozen periode (bijv. Londen 1800-1850)
+Verzamel .txt-bestanden van boeken, documenten, etc uit het publieke domein uit je gekozen periode (bijv. Londen 1800-1850)
 
-Je kunt download_texts_improved.py gebruiken om boeken te downloaden als je dat nodig hebt.
+Je kunt download_texts_improved.py gebruiken om boeken voor je te downloaden als dat nodig is.
 
 Maak de tekstbestanden schoon met een script of verwijder handmatig headers/footers van Project Gutenberg, moderne annotaties of dingen zoals OCR-fouten.
 
@@ -143,45 +157,59 @@ prepare_dataset.py zou prima moeten werken.
 # Stap 2: Bouw een Aangepaste Tokenizer
 
 Voer train_tokenizer.py of train_tokenizer_hf.py uit op de opgeschoonde data.
-Dit levert je vocab.json en merges.txt op
+Dit levert vocab.json en merges.txt op.
 
-Deze bestanden definiëren de woordenschat en samenvoegregels voor je model
+Deze bestanden definiëren vocabulaire en samenvoegregels voor uw model
 
-# Stap 3: Train Je Model (nanoGPT)
+# Stap 3: Train Uw Model (nanoGPT)
 
 Raadpleeg [nanoGPT van Andrej Karpathy](https://github.com/karpathy/nanoGPT) voor het trainingsproces.
 
-Je kunt een ander LLM trainen als je wilt, maar ik heb nanoGPT gebruikt
+U kunt een ander LLM trainen als u wilt, maar ik heb nanoGPT gebruikt
 
 # FAQ
 
 ## Wat is Selective Temporal Training?
 
-Selective Temporal Training (STT) is een machine learning-methodologie waarbij alle trainingsdata specifiek wordt geselecteerd binnen een bepaalde historische periode. Dit gebeurt om de taal en kennis van dat tijdperk te modelleren zonder invloed van moderne concepten. Bijvoorbeeld: het huidige model dat ik heb (v0.5) is uitsluitend getraind op data uit 1800-1875, het is niet fijn-getuned maar vanaf nul getraind met als resultaat een output die de linguïstische stijl en historische context van die periode weerspiegelt.
+Selective Temporal Training (STT) is een machine learning-methodologie waarbij alle trainingsdata specifiek zijn samengesteld om binnen een bepaald historisch tijdsbestek te vallen. Dit gebeurt om de taal en kennis van die periode te modelleren zonder invloed van moderne concepten. Bijvoorbeeld, het huidige model dat ik nu heb (v0.5) is getraind op data uitsluitend uit 1800-1875, het is niet fijngestemd maar vanaf nul getraind, wat resulteert in output die de linguïstische stijl en historische context van die periode weerspiegelt.
 
-## Waarom niet gewoon fine-tuning of LoRA gebruiken?
+## Waarom niet gewoon fine-tunen of LoRA gebruiken?
 
-Voor dit project probeer ik een taalmodel te maken dat niet wordt vertroebeld door moderne vooringenomenheid. Als ik bijvoorbeeld GPT-2 fine-tune, is het al voorgetraind en die informatie verdwijnt niet. Als ik vanaf nul train zal het taalmodel zich niet voordoen als oud, het zal het daadwerkelijk zijn. Het doel voor dit project is nu om iets te creëren dat uitsluitend kan redeneren met kennis uit Londense boeken gepubliceerd tussen 1800 en 1850.
+Voor dit project probeer ik een taalmodel te maken dat vrij is van moderne bias. Als ik iets als GPT-2 fine-tune, is het al voorgetraind en die informatie verdwijnt niet. Als ik vanaf nul train, zal het taalmodel niet doen alsof het oud is, het zal het gewoon zijn. Het doel voor dit project is nu om iets te maken dat uitsluitend kan redeneren met kennis uit Londense boeken gepubliceerd tussen 1800 en 1850.
 
-## Wat voor data heb je gebruikt voor training?
+## Wat voor soort data heeft u gebruikt voor training?
 
-Ik gebruik boeken, juridische documenten, kranten en andere geschriften uit Londen van 1800–1850. De lijst die ik heb gelinkt bevat er ongeveer 200, maar voor de eerste training heb ik slechts 50 bestanden gebruikt, ongeveer ~187 MB. Je kunt een lijst van de documenten bekijken:
+Ik gebruik boeken, juridische documenten, kranten en andere geschriften uit Londen van 1800–1850. De lijst die ik heb gelinkt bevat ongeveer 200 documenten, maar voor de eerste training heb ik slechts 50 bestanden van ~187 MB gebruikt. U kunt een lijst van de documenten bekijken:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
-## Hoe groot is het Versie 0-model?
+## Hoe groot zijn de modellen?
 
-Dit model is nu erg klein, ik doe dit voor de lol en volg een strikte trainingsregel van geen moderne bronnen. Het heeft bijna 16 miljoen parameters maar ik ga beginnen met het verzamelen van meer oude teksten om een nieuw model te trainen. Ik zal updates geven naarmate ik vorder.
+V0: 16M Parameters
 
-## Trainingsspecificaties?
+V0.5: 123M Parameters
 
+V1: 700M Parameters
+
+# Trainingsspecificaties?
+
+#V0/V0.5
 GPU: Geforce rtx 4060
 CPU: i5-13400F
 Ram: 16GB DDR5.
+
+#V1
+GPU: A100 rented
+
+
+
+
+
+
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-12
 
 ---
