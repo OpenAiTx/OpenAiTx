@@ -1,0 +1,2327 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n\nEnglish | [简体中文](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_zh-CN.md) | [繁體中文](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_zh-TW.md) | [日本語](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_ja-JP.md) | [한국어](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_ko-KR.md)\n\n<img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/banner.png\" width=\"320px\"  alt=\"PDF2ZH\"/>\n\n<h2 id=\"title\">PDFMathTranslate</h2>\n\n<p>\n  <!-- PyPI -->\n  <a href=\"https://pypi.org/project/pdf2zh/\">\n    <img src=\"https://img.shields.io/pypi/v/pdf2zh\"></a>\n  <a href=\"https://pepy.tech/projects/pdf2zh\">\n    <img src=\"https://static.pepy.tech/badge/pdf2zh\"></a>\n  <a href=\"https://hub.docker.com/r/byaidu/pdf2zh\">\n    <img src=\"https://img.shields.io/docker/pulls/byaidu/pdf2zh\"></a>\n  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Featured｜HelloGitHub\" /></a>\n  <a href=\"https://gitcode.com/Byaidu/PDFMathTranslate/overview\">\n    <img src=\"https://gitcode.com/Byaidu/PDFMathTranslate/star/badge.svg\"></a>\n  <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">\n    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a>\n  <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\">\n    <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a>\n  <a href=\"https://github.com/Byaidu/PDFMathTranslate/pulls\">\n    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a>\n  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">\n    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>\n  <!-- License -->\n  <a href=\"./LICENSE\">\n    <img src=\"https://img.shields.io/github/license/Byaidu/PDFMathTranslate\"></a>\n</p>\n\n<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n</div>\n\nPDF scientific paper translation and bilingual comparison.\n\n- 📊 Preserve formulas, charts, table of contents, and annotations _([preview](#preview))_.\n- 🌐 Support [multiple languages](#language), and diverse [translation services](#services).",
+    "ContentSha": "Tymm/M/RoRIrZ1SvGqRM3jDMv3xxct8Lo8nE+rIc5KU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n\nEnglish | [简体中文](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_zh-CN.md) | [繁體中文](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_zh-TW.md) | [日本語](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_ja-JP.md) | [한국어](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_ko-KR.md)\n\n<img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/banner.png\" width=\"320px\"  alt=\"PDF2ZH\"/>\n\n<h2 id=\"title\">PDFMathTranslate</h2>\n\n<p>\n  <!-- PyPI -->\n  <a href=\"https://pypi.org/project/pdf2zh/\">\n    <img src=\"https://img.shields.io/pypi/v/pdf2zh\"></a>\n  <a href=\"https://pepy.tech/projects/pdf2zh\">\n    <img src=\"https://static.pepy.tech/badge/pdf2zh\"></a>\n  <a href=\"https://hub.docker.com/r/byaidu/pdf2zh\">\n    <img src=\"https://img.shields.io/docker/pulls/byaidu/pdf2zh\"></a>\n  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Featured｜HelloGitHub\" /></a>\n  <a href=\"https://gitcode.com/Byaidu/PDFMathTranslate/overview\">\n    <img src=\"https://gitcode.com/Byaidu/PDFMathTranslate/star/badge.svg\"></a>\n  <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">\n    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a>\n  <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\">\n    <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a>\n  <a href=\"https://github.com/Byaidu/PDFMathTranslate/pulls\">\n    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a>\n  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">\n    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>\n  <!-- License -->\n  <a href=\"./LICENSE\">\n    <img src=\"https://img.shields.io/github/license/Byaidu/PDFMathTranslate\"></a>\n</p>\n\n<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n</div>\n\nTraduction d’articles scientifiques au format PDF et comparaison bilingue.\n\n- 📊 Préservation des formules, graphiques, table des matières et annotations _([aperçu](#preview))_.\n- 🌐 Support de [plusieurs langues](#language) et de divers [services de traduction](#services).",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "x33zbXa6NfRNjZI+fnjeoN9dYPb7yOriphCGkAySozI=",
+        "originContent": "English | [简体中文](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_zh-CN.md) | [繁體中文](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_zh-TW.md) | [日本語](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_ja-JP.md) | [한국어](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_ko-KR.md)",
+        "translatedContent": "English | [简体中文](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_zh-CN.md) | [繁體中文](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_zh-TW.md) | [日本語](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_ja-JP.md) | [한국어](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/docs/README_ko-KR.md)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "QOCfjUbsqHb0w1gM/5qOX2nwYCGTQWdx3E/ImJ6b4rQ=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/banner.png\" width=\"320px\"  alt=\"PDF2ZH\"/>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/banner.png\" width=\"320px\"  alt=\"PDF2ZH\"/>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "dXT+tOkjuDez99G2F9JTxZ2FMpBlmMx2PPnEOlKhFkg=",
+        "originContent": "<h2 id=\"title\">PDFMathTranslate</h2>",
+        "translatedContent": "<h2 id=\"title\">PDFMathTranslate</h2>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "M/J5lGcXcoeikmB4ChB6yY6mPdYWX2f8wNdHZ9CoIJA=",
+        "originContent": "<p>",
+        "translatedContent": "<p>"
+      },
+      {
+        "row": 10,
+        "rowsha": "o/+JW0fjjsvPbh8uFnFde7XR7AfkB4IZCjOo+/kFaig=",
+        "originContent": "  <!-- PyPI -->",
+        "translatedContent": "  <!-- PyPI -->"
+      },
+      {
+        "row": 11,
+        "rowsha": "yulPym0j3fXGpLOfgiHD7G2/099/um6uzKbl3CUXHH4=",
+        "originContent": "  <a href=\"https://pypi.org/project/pdf2zh/\">",
+        "translatedContent": "  <a href=\"https://pypi.org/project/pdf2zh/\">"
+      },
+      {
+        "row": 12,
+        "rowsha": "CBEQhcvMO22zunUFRK4uIYby+p4bJGBSUO4zwDTtB+s=",
+        "originContent": "    <img src=\"https://img.shields.io/pypi/v/pdf2zh\"></a>",
+        "translatedContent": "    <img src=\"https://img.shields.io/pypi/v/pdf2zh\"></a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "Y9cocZx9YB2IN9BBeNr5amSZdQh0vWguYUqJbb1ExxQ=",
+        "originContent": "  <a href=\"https://pepy.tech/projects/pdf2zh\">",
+        "translatedContent": "  <a href=\"https://pepy.tech/projects/pdf2zh\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "VyuuTV48kmAWNMgBCytl/joscSd8bOWF0wMVlR7gQrQ=",
+        "originContent": "    <img src=\"https://static.pepy.tech/badge/pdf2zh\"></a>",
+        "translatedContent": "    <img src=\"https://static.pepy.tech/badge/pdf2zh\"></a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "FujSzqf9yc3QWFk/OvkNdPJiKZQ9V3Lfdy1ZJ8S0xiE=",
+        "originContent": "  <a href=\"https://hub.docker.com/r/byaidu/pdf2zh\">",
+        "translatedContent": "  <a href=\"https://hub.docker.com/r/byaidu/pdf2zh\">"
+      },
+      {
+        "row": 16,
+        "rowsha": "hIyvv82g8lwjBCpc7nJDBrdFtR7ClZTr+bXpAGbW9gI=",
+        "originContent": "    <img src=\"https://img.shields.io/docker/pulls/byaidu/pdf2zh\"></a>",
+        "translatedContent": "    <img src=\"https://img.shields.io/docker/pulls/byaidu/pdf2zh\"></a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "Xxi/7PYNnzKeUwqipdDUljcdOq0cJeaE/oPUSdQ9xb8=",
+        "originContent": "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Featured｜HelloGitHub\" /></a>",
+        "translatedContent": "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Featured｜HelloGitHub\" /></a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "TBcMYoYhGWjaYtKUqn25rD4FX+BNjzyA6NREwZCZ76A=",
+        "originContent": "  <a href=\"https://gitcode.com/Byaidu/PDFMathTranslate/overview\">",
+        "translatedContent": "  <a href=\"https://gitcode.com/Byaidu/PDFMathTranslate/overview\">"
+      },
+      {
+        "row": 19,
+        "rowsha": "ou27YtdMQx0cxN8VQbMBXAFM0OGiJznMXyRO3BQTmN0=",
+        "originContent": "    <img src=\"https://gitcode.com/Byaidu/PDFMathTranslate/star/badge.svg\"></a>",
+        "translatedContent": "    <img src=\"https://gitcode.com/Byaidu/PDFMathTranslate/star/badge.svg\"></a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "bmFHkdRAPGcknAtJBOYKpIbYeSEVKpR8AH4hUBzNqHk=",
+        "originContent": "  <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">",
+        "translatedContent": "  <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">"
+      },
+      {
+        "row": 21,
+        "rowsha": "F+Ya6ifXbSHxaLs+dacIKNmRi9Rr9lkTYGZkhbdDZIY=",
+        "originContent": "    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a>",
+        "translatedContent": "    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "3tl59JXqLubvApeBfBk+4qGhgOm/gDvHmmyF9cCRPWw=",
+        "originContent": "  <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\">",
+        "translatedContent": "  <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\">"
+      },
+      {
+        "row": 23,
+        "rowsha": "C7QcR2o+HPqN97yyGunexkMr2F9geWacm3oTyZ6pNVc=",
+        "originContent": "    <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a>",
+        "translatedContent": "    <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "vnO/6bBsPAoXDjMJBbaQXm5COjTv63UtcYPjGkTjeGY=",
+        "originContent": "  <a href=\"https://github.com/Byaidu/PDFMathTranslate/pulls\">",
+        "translatedContent": "  <a href=\"https://github.com/Byaidu/PDFMathTranslate/pulls\">"
+      },
+      {
+        "row": 25,
+        "rowsha": "gGbKOGZHkfBu//vwuvKutm8gEVHRLR/uBwPZSda8Rrw=",
+        "originContent": "    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a>",
+        "translatedContent": "    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "m9x1f8HH4xnlXh+6UcEzoYrVYff49vlV6o57T7k6Mk4=",
+        "originContent": "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">",
+        "translatedContent": "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">"
+      },
+      {
+        "row": 27,
+        "rowsha": "owfNZ/6Y5JyWiBazN69DXlR+J4lqnWCpHivA6VBCQDk=",
+        "originContent": "    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>",
+        "translatedContent": "    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>"
+      },
+      {
+        "row": 28,
+        "rowsha": "io9Q7PpXhwDrDhronsf35jWZr9PtF0wHDaHtbqfixqo=",
+        "originContent": "  <!-- License -->",
+        "translatedContent": "  <!-- License -->"
+      },
+      {
+        "row": 29,
+        "rowsha": "EWPg/ZGsqAsNZElvMVIWgu21FYVCYZEPFDeqCzXNqYU=",
+        "originContent": "  <a href=\"./LICENSE\">",
+        "translatedContent": "  <a href=\"./LICENSE\">"
+      },
+      {
+        "row": 30,
+        "rowsha": "SvyYa9Z1ITt80oB4K94o333IqA6FlWZFWmo5RpP8HQg=",
+        "originContent": "    <img src=\"https://img.shields.io/github/license/Byaidu/PDFMathTranslate\"></a>",
+        "translatedContent": "    <img src=\"https://img.shields.io/github/license/Byaidu/PDFMathTranslate\"></a>"
+      },
+      {
+        "row": 31,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "eIL1u2owfc+wNSH5yORzyvzzPePR5YR7cI6r0GZ8Zck=",
+        "originContent": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>",
+        "translatedContent": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "kUgKydIOBgIdIuEwuZ0ks9+ZBXDg2Le25PbZY2Fecf4=",
+        "originContent": "PDF scientific paper translation and bilingual comparison.",
+        "translatedContent": "Traduction d’articles scientifiques au format PDF et comparaison bilingue."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "Toim7+Lh8F4tdE0JsoKGqkGJ0yZP4lFaft/AFuX0neo=",
+        "originContent": "- 📊 Preserve formulas, charts, table of contents, and annotations _([preview](#preview))_.",
+        "translatedContent": "- 📊 Préservation des formules, graphiques, table des matières et annotations _([aperçu](#preview))_."
+      },
+      {
+        "row": 40,
+        "rowsha": "n6PEccyA796lFQ2XHuVhsu4l6lM3sw7gkQsplKYcayw=",
+        "originContent": "- 🌐 Support [multiple languages](#language), and diverse [translation services](#services).",
+        "translatedContent": "- 🌐 Support de [plusieurs langues](#language) et de divers [services de traduction](#services)."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- 🤖 Provides [commandline tool](#usage), [interactive user interface](#gui), and [Docker](#docker)\n\nFeel free to provide feedback in [GitHub Issues](https://github.com/Byaidu/PDFMathTranslate/issues) or [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).\n\nFor details on how to contribute, please consult the [Contribution Guide](https://github.com/Byaidu/PDFMathTranslate/wiki/Contribution-Guide---%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97).\n\n<h2 id=\"updates\">Updates</h2>\n\n- [May 9, 2025] pdf2zh 2.0 Preview Version [#586](https://github.com/Byaidu/PDFMathTranslate/issues/586): The Windows ZIP file and Docker image are now available.\n\n> [!NOTE]\n>\n> 2.0 Moved to a new repository under the organization: [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)\n> \n> Version 2.0 official release has been published.\n\n- [Mar. 3, 2025] Experimental support for the new backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI added as an experimental option (by [@awwaawwa](https://github.com/awwaawwa))\n- [Feb. 22 2025] Better release CI and well-packaged windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))\n- [Dec. 24 2024] The translator now supports local models on [Xinference](https://github.com/xorbitsai/inference) _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [Dec. 19 2024] Non-PDF/A documents are now supported using `-cp` _(by [@reycn](https://github.com/reycn))_\n- [Dec. 13 2024] Additional support for backend by _(by [@YadominJinta](https://github.com/YadominJinta))_\n- [Dec. 10 2024] The translator now supports OpenAI models on Azure _(by [@yidasanqian](https://github.com/yidasanqian))_\n\n<h2 id=\"preview\">Preview</h2>\n\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/preview.gif\" width=\"80%\"/>\n</div>\n\n<h2 id=\"demo\">Online Service 🌟</h2>\n\nYou can try our application out using either of the following demos:\n\n- [Public free service](https://pdf2zh.com/) online without installation _(recommended)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 free pages per month. _(recommended)_\n- [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation.\n\nNote that the computing resources of the demo are limited, so please avoid abusing them.\n",
+    "ContentSha": "frlxGm1PkxGG0pRpTWN+Bd1BvnpvHhvJfSs9AuSGeEI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 🤖 Fournit un [outil en ligne de commande](#usage), une [interface utilisateur interactive](#gui) et un [Docker](#docker)\n\nN’hésitez pas à donner votre avis dans les [Issues GitHub](https://github.com/Byaidu/PDFMathTranslate/issues) ou le [Groupe Telegram](https://t.me/+Z9_SgnxmsmA5NzBl).\n\nPour les détails sur la contribution, veuillez consulter le [Guide de Contribution](https://github.com/Byaidu/PDFMathTranslate/wiki/Contribution-Guide---%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97).\n\n<h2 id=\"updates\">Mises à jour</h2>\n\n- [9 mai 2025] Version Preview pdf2zh 2.0 [#586](https://github.com/Byaidu/PDFMathTranslate/issues/586) : Le fichier ZIP Windows et l’image Docker sont désormais disponibles.\n\n> [!NOTE]\n>\n> 2.0 Migré vers un nouveau dépôt sous l’organisation : [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)\n> \n> La version officielle 2.0 a été publiée.\n\n- [3 mars 2025] Support expérimental pour le nouveau backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI ajouté en option expérimentale (par [@awwaawwa](https://github.com/awwaawwa))\n- [22 févr. 2025] Meilleur CI de release et exécutable windows-amd64 bien packagé (par [@awwaawwa](https://github.com/awwaawwa))\n- [24 déc. 2024] Le traducteur supporte désormais les modèles locaux sur [Xinference](https://github.com/xorbitsai/inference) _(par [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [19 déc. 2024] Les documents non PDF/A sont désormais supportés via `-cp` _(par [@reycn](https://github.com/reycn))_\n- [13 déc. 2024] Support additionnel pour backend _(par [@YadominJinta](https://github.com/YadominJinta))_\n- [10 déc. 2024] Le traducteur supporte désormais les modèles OpenAI sur Azure _(par [@yidasanqian](https://github.com/yidasanqian))_\n\n<h2 id=\"preview\">Aperçu</h2>\n\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/preview.gif\" width=\"80%\"/>\n</div>\n\n<h2 id=\"demo\">Service en ligne 🌟</h2>\n\nVous pouvez essayer notre application en utilisant l’une des démos suivantes :\n\n- [Service public gratuit](https://pdf2zh.com/) en ligne sans installation _(recommandé)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 pages gratuites par mois. _(recommandé)_\n- [Démo hébergée sur HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Démo hébergée sur ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) sans installation.\n\nNotez que les ressources de calcul de la démo sont limitées, merci d’éviter toute utilisation abusive.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RXnIW9jV47RXa8cGx9VDlG+GYYRcy7imJF86wDSm1ro=",
+        "originContent": "- 🤖 Provides [commandline tool](#usage), [interactive user interface](#gui), and [Docker](#docker)",
+        "translatedContent": "- 🤖 Fournit un [outil en ligne de commande](#usage), une [interface utilisateur interactive](#gui) et un [Docker](#docker)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "rLC/qIF8NuiFe3clGpUOxMo5sE42EkRtG60/o9qZcCw=",
+        "originContent": "Feel free to provide feedback in [GitHub Issues](https://github.com/Byaidu/PDFMathTranslate/issues) or [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).",
+        "translatedContent": "N’hésitez pas à donner votre avis dans les [Issues GitHub](https://github.com/Byaidu/PDFMathTranslate/issues) ou le [Groupe Telegram](https://t.me/+Z9_SgnxmsmA5NzBl)."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "OLvJeO/r6pd1s0BRamJqpjvsqtxtONFP4JXv7r0/N8E=",
+        "originContent": "For details on how to contribute, please consult the [Contribution Guide](https://github.com/Byaidu/PDFMathTranslate/wiki/Contribution-Guide---%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97).",
+        "translatedContent": "Pour les détails sur la contribution, veuillez consulter le [Guide de Contribution](https://github.com/Byaidu/PDFMathTranslate/wiki/Contribution-Guide---%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97)."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "nxIZWji4d9llv998cE4ABY2T+a9vXvRIzxe1kcCOeTk=",
+        "originContent": "<h2 id=\"updates\">Updates</h2>",
+        "translatedContent": "<h2 id=\"updates\">Mises à jour</h2>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "cQl463EM5m16a2WOk/d+uSNgV5q+yct4RwbjXFor2P0=",
+        "originContent": "- [May 9, 2025] pdf2zh 2.0 Preview Version [#586](https://github.com/Byaidu/PDFMathTranslate/issues/586): The Windows ZIP file and Docker image are now available.",
+        "translatedContent": "- [9 mai 2025] Version Preview pdf2zh 2.0 [#586](https://github.com/Byaidu/PDFMathTranslate/issues/586) : Le fichier ZIP Windows et l’image Docker sont désormais disponibles."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTE]"
+      },
+      {
+        "row": 12,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 13,
+        "rowsha": "3w8IEycIbDmRbTD9z4eGTcZlcAjnkRJwVDLFvsdJwtI=",
+        "originContent": "> 2.0 Moved to a new repository under the organization: [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)",
+        "translatedContent": "> 2.0 Migré vers un nouveau dépôt sous l’organisation : [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)"
+      },
+      {
+        "row": 14,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> "
+      },
+      {
+        "row": 15,
+        "rowsha": "gr1WPAQGyoi8p0ePwcrnCSlvlHyzwQznnQYuu8EtyI0=",
+        "originContent": "> Version 2.0 official release has been published.",
+        "translatedContent": "> La version officielle 2.0 a été publiée."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "TO3fr74RoTYL1zx0r3Vv+6CV2mPOpxOqLrZqjEUBrBA=",
+        "originContent": "- [Mar. 3, 2025] Experimental support for the new backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI added as an experimental option (by [@awwaawwa](https://github.com/awwaawwa))",
+        "translatedContent": "- [3 mars 2025] Support expérimental pour le nouveau backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI ajouté en option expérimentale (par [@awwaawwa](https://github.com/awwaawwa))"
+      },
+      {
+        "row": 18,
+        "rowsha": "JNjNNuSfDB0hbLSDYQaGqkj5+czBASI+aQghwXaDj0U=",
+        "originContent": "- [Feb. 22 2025] Better release CI and well-packaged windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))",
+        "translatedContent": "- [22 févr. 2025] Meilleur CI de release et exécutable windows-amd64 bien packagé (par [@awwaawwa](https://github.com/awwaawwa))"
+      },
+      {
+        "row": 19,
+        "rowsha": "J74ZcswD6WFmx4+dokKWYUDy8aCCnqdA6kRBX800dFk=",
+        "originContent": "- [Dec. 24 2024] The translator now supports local models on [Xinference](https://github.com/xorbitsai/inference) _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_",
+        "translatedContent": "- [24 déc. 2024] Le traducteur supporte désormais les modèles locaux sur [Xinference](https://github.com/xorbitsai/inference) _(par [@imClumsyPanda](https://github.com/imClumsyPanda))_"
+      },
+      {
+        "row": 20,
+        "rowsha": "n9my6/hmPA7+U/k7e7kAJ8Fw2OGzXs2Pv9dx3muMf6k=",
+        "originContent": "- [Dec. 19 2024] Non-PDF/A documents are now supported using `-cp` _(by [@reycn](https://github.com/reycn))_",
+        "translatedContent": "- [19 déc. 2024] Les documents non PDF/A sont désormais supportés via `-cp` _(par [@reycn](https://github.com/reycn))_"
+      },
+      {
+        "row": 21,
+        "rowsha": "JwIuqCjFvf+7q87fza4p3+OzAo+C2+6KQwg8pzYEBeA=",
+        "originContent": "- [Dec. 13 2024] Additional support for backend by _(by [@YadominJinta](https://github.com/YadominJinta))_",
+        "translatedContent": "- [13 déc. 2024] Support additionnel pour backend _(par [@YadominJinta](https://github.com/YadominJinta))_"
+      },
+      {
+        "row": 22,
+        "rowsha": "C7DsoekENNaGdvbfaz8zkwE+BoxhruOEmdZZcYZGA/g=",
+        "originContent": "- [Dec. 10 2024] The translator now supports OpenAI models on Azure _(by [@yidasanqian](https://github.com/yidasanqian))_",
+        "translatedContent": "- [10 déc. 2024] Le traducteur supporte désormais les modèles OpenAI sur Azure _(par [@yidasanqian](https://github.com/yidasanqian))_"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "uSRQUBsdlqbvsL7vjR6dootfPEI3qGp9NunOFUxvnvI=",
+        "originContent": "<h2 id=\"preview\">Preview</h2>",
+        "translatedContent": "<h2 id=\"preview\">Aperçu</h2>"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 27,
+        "rowsha": "azikDvmmqD+ZLAKJpXnNAuMZQictXfXhJ0M+MapbKmk=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/preview.gif\" width=\"80%\"/>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/preview.gif\" width=\"80%\"/>"
+      },
+      {
+        "row": 28,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "7pT3jPqQYBmfALhT9rIIPAun0FgCvNDPQprzQBXR9vM=",
+        "originContent": "<h2 id=\"demo\">Online Service 🌟</h2>",
+        "translatedContent": "<h2 id=\"demo\">Service en ligne 🌟</h2>"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "IJALtFB6xBnsCu3SacmtrRx8NQquijLv9DU9DX5Ms74=",
+        "originContent": "You can try our application out using either of the following demos:",
+        "translatedContent": "Vous pouvez essayer notre application en utilisant l’une des démos suivantes :"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "G42wROLp6djNPbmKXyP3nvPts+kWBTHWB+wobdwfFqc=",
+        "originContent": "- [Public free service](https://pdf2zh.com/) online without installation _(recommended)_.",
+        "translatedContent": "- [Service public gratuit](https://pdf2zh.com/) en ligne sans installation _(recommandé)_."
+      },
+      {
+        "row": 35,
+        "rowsha": "KY64OVaoQtI8lk8yVod6S+YJuykEw12cj7ihFl+epu8=",
+        "originContent": "- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 free pages per month. _(recommended)_",
+        "translatedContent": "- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 pages gratuites par mois. _(recommandé)_"
+      },
+      {
+        "row": 36,
+        "rowsha": "7tSnoVbCGBW6vuYOKPSNY8TYvef9VDVGYgW28pxADK8=",
+        "originContent": "- [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)",
+        "translatedContent": "- [Démo hébergée sur HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)"
+      },
+      {
+        "row": 37,
+        "rowsha": "sNWWC7B6qZqm7S3f7Vy8z1nApJ7YXXugESNwdsevrww=",
+        "originContent": "- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation.",
+        "translatedContent": "- [Démo hébergée sur ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) sans installation."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "n8IP9/GTZgmD9jVyFsgV9fR4gCIfHWGrcvVus+yrsto=",
+        "originContent": "Note that the computing resources of the demo are limited, so please avoid abusing them.",
+        "translatedContent": "Notez que les ressources de calcul de la démo sont limitées, merci d’éviter toute utilisation abusive."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "<h2 id=\"install\">Installation and Usage</h2>\n\n### Methods\n\nFor different use cases, we provide distinct methods to use our program:\n\n<details open>\n  <summary>1. UV install</summary>\n\n1. Python installed (3.10 <= version <= 3.12)\n\n2. Install our package:\n",
+    "ContentSha": "ZF6SrJ7NZARUTlhCRWyWxPanU9vkkE52xPEeJ78Nty4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<h2 id=\"install\">Installation et Utilisation</h2>\n\n### Méthodes\n\nPour différents cas d'utilisation, nous proposons des méthodes distinctes pour utiliser notre programme :\n\n<details open>\n  <summary>1. Installation UV</summary>\n\n1. Python installé (3.10 <= version <= 3.12)\n\n2. Installer notre paquet :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ermVfBbFMigFFC0PKPlUEWoduCN7+bPyA6BJHHcy/GY=",
+        "originContent": "<h2 id=\"install\">Installation and Usage</h2>",
+        "translatedContent": "<h2 id=\"install\">Installation et Utilisation</h2>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "genn2FcoYYJdRhf/sTT4iS8JNP8I8mvBJdUzqkJHDHY=",
+        "originContent": "### Methods",
+        "translatedContent": "### Méthodes"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Id3DPmPSeecWVIsQoOjtTcuxul13Bluu7TJFFKXvFK4=",
+        "originContent": "For different use cases, we provide distinct methods to use our program:",
+        "translatedContent": "Pour différents cas d'utilisation, nous proposons des méthodes distinctes pour utiliser notre programme :"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+        "originContent": "<details open>",
+        "translatedContent": "<details open>"
+      },
+      {
+        "row": 8,
+        "rowsha": "m0emQSBf5d80U7aKY1kQjchmtS5C3dQeF2s5aTiwIhI=",
+        "originContent": "  <summary>1. UV install</summary>",
+        "translatedContent": "  <summary>1. Installation UV</summary>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "P1YHO8S9Awa1AA+HmJtTyo3XuOMjKWiCWQMAYCijtM0=",
+        "originContent": "1. Python installed (3.10 <= version <= 3.12)",
+        "translatedContent": "1. Python installé (3.10 <= version <= 3.12)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Z2cPtnNKCnuORNexqPRMN/1NMGmL/iD/Ko2Ip+lg/jI=",
+        "originContent": "2. Install our package:",
+        "translatedContent": "2. Installer notre paquet :"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "   ```bash\n   pip install uv\n   uv tool install --python 3.12 pdf2zh\n   ```",
+    "ContentSha": "XebUhwpeGiPI8YGjebAY8sZ7G51dlUqSl9U8UMsB/iw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   pip install uv\n   uv tool install --python 3.12 pdf2zh\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Jj0/p/U2ZA9f2urGDbDr+vIrkQXAX5wS4xgFOXTq38M=",
+        "originContent": "   pip install uv",
+        "translatedContent": "   pip install uv"
+      },
+      {
+        "row": 3,
+        "rowsha": "jhxjpqYzhNW+VpcY5yNMIFJqkQfwosSgkrxkc73sOs8=",
+        "originContent": "   uv tool install --python 3.12 pdf2zh",
+        "translatedContent": "   uv tool install --python 3.12 pdf2zh"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n3. Execute translation, files generated in [current working directory](https://chatgpt.com/share/6745ed36-9acc-800e-8a90-59204bd13444):\n",
+    "ContentSha": "vTG1BmDYiQg065rrnqLewL/Qn/PsA1uoc7LuSlDhF0Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n3. Exécuter la traduction, fichiers générés dans [répertoire de travail actuel](https://chatgpt.com/share/6745ed36-9acc-800e-8a90-59204bd13444) :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "m2NIKn243dPOp6M+qmmJtLd802e3j9RZZRaHJaGyPeM=",
+        "originContent": "3. Execute translation, files generated in [current working directory](https://chatgpt.com/share/6745ed36-9acc-800e-8a90-59204bd13444):",
+        "translatedContent": "3. Exécuter la traduction, fichiers générés dans [répertoire de travail actuel](https://chatgpt.com/share/6745ed36-9acc-800e-8a90-59204bd13444) :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "   ```bash\n   pdf2zh document.pdf\n   ```",
+    "ContentSha": "0/Md6MxiPJ/N6JPxSe4CkjkS019pRc4BiiD1p4Elk24=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   pdf2zh document.pdf\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "YkYmiVOwreQkGBdUvbUT+YnjjoDYfov7IK2TEN75QXo=",
+        "originContent": "   pdf2zh document.pdf",
+        "translatedContent": "   pdf2zh document.pdf"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n</details>\n\n<details>\n  <summary>2. Windows exe</summary>\n\n1. Download pdf2zh-version-win64.zip from [release page](https://github.com/Byaidu/PDFMathTranslate/releases)\n\n2. Unzip and double-click `pdf2zh.exe` to run.\n\n</details>\n\n<details>\n  <summary>3. Graphic user interface</summary>\n\n1. Python installed (3.10 <= version <= 3.12)\n\n2. Install our package:\n",
+    "ContentSha": "3FWzo/UhNvtc9BMbAFhas/p3bQ/J2fTxJzmQCTTHwF8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n<details>\n  <summary>2. Exécutable Windows</summary>\n\n1. Téléchargez pdf2zh-version-win64.zip depuis la [page des releases](https://github.com/Byaidu/PDFMathTranslate/releases)\n\n2. Décompressez et double-cliquez sur `pdf2zh.exe` pour lancer.\n\n</details>\n\n<details>\n  <summary>3. Interface graphique utilisateur</summary>\n\n1. Python installé (3.10 <= version <= 3.12)\n\n2. Installez notre package :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "IK/XKfukiRkk9k8lmbY0WAgFPJK353OSxg65juCKDOw=",
+        "originContent": "  <summary>2. Windows exe</summary>",
+        "translatedContent": "  <summary>2. Exécutable Windows</summary>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "NkXqKnm88kBAnrpqr+iL4Iuh9hllxBu7yJgpMyuDsZc=",
+        "originContent": "1. Download pdf2zh-version-win64.zip from [release page](https://github.com/Byaidu/PDFMathTranslate/releases)",
+        "translatedContent": "1. Téléchargez pdf2zh-version-win64.zip depuis la [page des releases](https://github.com/Byaidu/PDFMathTranslate/releases)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ece17NsdHPsiCuYi/zE0OWKvqeGKx1yaRGXUqgvOPfE=",
+        "originContent": "2. Unzip and double-click `pdf2zh.exe` to run.",
+        "translatedContent": "2. Décompressez et double-cliquez sur `pdf2zh.exe` pour lancer."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 14,
+        "rowsha": "C3Zyp4Bayn/bhhPLsus4eWBrnWA/SxOXYT2ktw4491U=",
+        "originContent": "  <summary>3. Graphic user interface</summary>",
+        "translatedContent": "  <summary>3. Interface graphique utilisateur</summary>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "P1YHO8S9Awa1AA+HmJtTyo3XuOMjKWiCWQMAYCijtM0=",
+        "originContent": "1. Python installed (3.10 <= version <= 3.12)",
+        "translatedContent": "1. Python installé (3.10 <= version <= 3.12)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "Z2cPtnNKCnuORNexqPRMN/1NMGmL/iD/Ko2Ip+lg/jI=",
+        "originContent": "2. Install our package:",
+        "translatedContent": "2. Installez notre package :"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\npip install pdf2zh\n```",
+    "ContentSha": "eQcLvSbaa/krv1M4XiL0YfON6/T7hBjjgH+8mUzWlPU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install pdf2zh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ciUOuM3RKWV85PXzKPo2uTAs96aXeCMohHn/q1DbDyY=",
+        "originContent": "pip install pdf2zh",
+        "translatedContent": "pip install pdf2zh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n3. Start using in browser:\n",
+    "ContentSha": "IQic2uZTYm7BQjFfgEKhvohLmIBpXS5GrxzaGD5oJ8E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. Commencez à utiliser dans le navigateur :\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Commencez à utiliser dans le navigateur :"
+      },
+      {
+        "row": 2,
+        "rowsha": "O8IgFhmVQkQsx6uWg4OUQQXiB9r+7JBZSBQucqji3QM=",
+        "originContent": "3. Start using in browser:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "   ```bash\n   pdf2zh -i\n   ```",
+    "ContentSha": "xAqa4VcjCJXGHoHwtTUYMqztNuSxGGTeD/rVziOGgXY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   pdf2zh -i\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "OUslUCnX0F1Vyzk8k1Yx7a40N/xn7Fk3bxI8jCteif4=",
+        "originContent": "   pdf2zh -i",
+        "translatedContent": "   pdf2zh -i"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n4. If your browser has not been started automatically, goto\n",
+    "ContentSha": "753tRnIK7sIkZWBm1sF+PlLPzMpr19AkNBmgwPqoBIo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. Si votre navigateur ne s'est pas lancé automatiquement, allez à  \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. Si votre navigateur ne s'est pas lancé automatiquement, allez à  "
+      },
+      {
+        "row": 2,
+        "rowsha": "F/vdF7gc40cG0RXjZBdIxHzSWAQB3+cazEptFYwkCD8=",
+        "originContent": "4. If your browser has not been started automatically, goto",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "   ```bash\n   http://localhost:7860/\n   ```",
+    "ContentSha": "LJnCP8Y7LoQMvxVAmE6/NiAVNT337rzN/Q7TpGCS2Pk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   http://localhost:7860/\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "OD8QACX6yYSs39lmssP2I0w3wPSL6CxSvN2Y4S2tHdQ=",
+        "originContent": "   http://localhost:7860/",
+        "translatedContent": "   http://localhost:7860/"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n   <img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/gui.gif\" width=\"500\"/>\n\nSee [documentation for GUI](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/README_GUI.md) for more details.\n\n</details>\n\n<details>\n  <summary>4. Docker</summary>\n\n1. Pull and run:\n",
+    "ContentSha": "LKBwpbHSV39VPTachDev4fotOy5T4yXog6YlnDsKVmo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n   <img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/gui.gif\" width=\"500\"/>\n\nVoir la [documentation pour l'interface graphique (GUI)](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/README_GUI.md) pour plus de détails.\n\n</details>\n\n<details>\n  <summary>4. Docker</summary>\n\n1. Télécharger et exécuter :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "7V6lqrKzVYxYUl7JfubZoFIGd5tBkTG/SRqov/vg8rY=",
+        "originContent": "   <img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/gui.gif\" width=\"500\"/>",
+        "translatedContent": "   <img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/gui.gif\" width=\"500\"/>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "odSS421JNvkaHTH8P5N+fS7LRpVDK77xo/Wlab9FMY4=",
+        "originContent": "See [documentation for GUI](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/README_GUI.md) for more details.",
+        "translatedContent": "Voir la [documentation pour l'interface graphique (GUI)](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/README_GUI.md) pour plus de détails."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 9,
+        "rowsha": "G0B/xJEr/Y0CU+vD/XbMCRs+Sjx1pvyEb5m7J0KIaVw=",
+        "originContent": "  <summary>4. Docker</summary>",
+        "translatedContent": "  <summary>4. Docker</summary>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ac9QGnEfSnrZvAYYDPu+M5JAisO4i+T/RnUZWDAqqTE=",
+        "originContent": "1. Pull and run:",
+        "translatedContent": "1. Télécharger et exécuter :"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "   ```bash\n   docker pull byaidu/pdf2zh\n   docker run -d -p 7860:7860 byaidu/pdf2zh\n   ```",
+    "ContentSha": "HyFQSN4wOdpPRdF31t6DYHaZh1ijoifC9iMYz/Hxv4o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   docker pull byaidu/pdf2zh\n   docker run -d -p 7860:7860 byaidu/pdf2zh\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "WQYY/OwuSX4BLLDT081IA1Ww9Q6qIc8SBxsyR+7WeCQ=",
+        "originContent": "   docker pull byaidu/pdf2zh",
+        "translatedContent": "   docker pull byaidu/pdf2zh"
+      },
+      {
+        "row": 3,
+        "rowsha": "sLXopy8BV/NkqCaP4h6SSfiWndaF9tjN5luqLcISVyk=",
+        "originContent": "   docker run -d -p 7860:7860 byaidu/pdf2zh",
+        "translatedContent": "   docker run -d -p 7860:7860 byaidu/pdf2zh"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n2. Open in browser:\n",
+    "ContentSha": "n+fQ0dpkZg9AAE4NAPHWGGKoZRP0jOokjBT9c8RQDfk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2. Ouvrir dans le navigateur :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "od3hg7W9C/T4KCWJuYX1iz7XHuS5gMRgbPkS0wg6OOo=",
+        "originContent": "2. Open in browser:",
+        "translatedContent": "2. Ouvrir dans le navigateur :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "   ```\n   http://localhost:7860/\n   ```",
+    "ContentSha": "kAAKPECJunmHuPGqvrukpBgAP4su2wdZzBzVU0B6WcQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```\n   http://localhost:7860/\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "OD8QACX6yYSs39lmssP2I0w3wPSL6CxSvN2Y4S2tHdQ=",
+        "originContent": "   http://localhost:7860/",
+        "translatedContent": "   http://localhost:7860/"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nFor docker deployment on cloud service:\n\n<div>\n<a href=\"https://www.heroku.com/deploy?template=https://github.com/Byaidu/PDFMathTranslate\">\n  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy\" height=\"26\"></a>\n<a href=\"https://render.com/deploy\">\n  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">\n  <img src=\"https://zeabur.com/button.svg\" alt=\"Deploy on Zeabur\" height=\"26\"></a>\n<a href=\"https://template.sealos.io/deploy?templateName=pdf2zh\">\n  <img src=\"https://sealos.io/Deploy-on-Sealos.svg\" alt=\"Deploy on Sealos\" height=\"26\"></a>\n<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/Byaidu/PDFMathTranslate&branch=main&name=pdf-math-translate\">\n  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n</div>\n\n</details>\n\n<details>\n  <summary>5. Zotero Plugin</summary>\n\n\nSee [Zotero PDF2zh](https://github.com/guaguastandup/zotero-pdf2zh) for more details.\n\n</details>\n\n<details>\n  <summary>6. Commandline</summary>\n\n1. Python installed (3.10 <= version <= 3.12)\n2. Install our package:\n",
+    "ContentSha": "7c9v+CLbAc2tH+PndbQJku5kPygy+FM8ndPmmRX2iLQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nPour le déploiement Docker sur un service cloud :\n\n<div>\n<a href=\"https://www.heroku.com/deploy?template=https://github.com/Byaidu/PDFMathTranslate\">\n  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Déployer\" height=\"26\"></a>\n<a href=\"https://render.com/deploy\">\n  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Déployer sur Koyeb\" height=\"26\"></a>\n<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">\n  <img src=\"https://zeabur.com/button.svg\" alt=\"Déployer sur Zeabur\" height=\"26\"></a>\n<a href=\"https://template.sealos.io/deploy?templateName=pdf2zh\">\n  <img src=\"https://sealos.io/Deploy-on-Sealos.svg\" alt=\"Déployer sur Sealos\" height=\"26\"></a>\n<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/Byaidu/PDFMathTranslate&branch=main&name=pdf-math-translate\">\n  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Déployer sur Koyeb\" height=\"26\"></a>\n</div>\n\n</details>\n\n<details>\n  <summary>5. Plugin Zotero</summary>\n\n\nVoir [Zotero PDF2zh](https://github.com/guaguastandup/zotero-pdf2zh) pour plus de détails.\n\n</details>\n\n<details>\n  <summary>6. Ligne de commande</summary>\n\n1. Python installé (3.10 <= version <= 3.12)\n2. Installer notre paquet :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "UOyPMK/+CbKUpBEDCX714rAzfvjUncl/QASixPlK5S0=",
+        "originContent": "For docker deployment on cloud service:",
+        "translatedContent": "Pour le déploiement Docker sur un service cloud :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "nkUn+xN/CzcfeDtOk14RpAo9+3G9PEheeFaPGaNcIe4=",
+        "originContent": "<div>",
+        "translatedContent": "<div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "XMY5z5SaJnCfjQ3tyJmNJO0V8gWntqTE/CZjheffV4k=",
+        "originContent": "<a href=\"https://www.heroku.com/deploy?template=https://github.com/Byaidu/PDFMathTranslate\">",
+        "translatedContent": "<a href=\"https://www.heroku.com/deploy?template=https://github.com/Byaidu/PDFMathTranslate\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "ABz2tVwslcVfX9P4psVq1rc4FsN/T+cADZ7wdeWcawM=",
+        "originContent": "  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy\" height=\"26\"></a>",
+        "translatedContent": "  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Déployer\" height=\"26\"></a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "1REVCHJ4S8za/H3xAhR3/L4yz86asJcZe+yKHQ+f2uQ=",
+        "originContent": "<a href=\"https://render.com/deploy\">",
+        "translatedContent": "<a href=\"https://render.com/deploy\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "u4FJhMBVX0fyvLMzj37zMvaWti8b0vtngAIVsbR/UUc=",
+        "originContent": "  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>",
+        "translatedContent": "  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Déployer sur Koyeb\" height=\"26\"></a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "ZTzgXfnImrDqmXA/TTIp10RzGWiQ1l5/0fCfH1s6y2w=",
+        "originContent": "<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">",
+        "translatedContent": "<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "9awtqKO1fXVpnj8FW9o/cAW1y3E2jfexF8MuqTtUogA=",
+        "originContent": "  <img src=\"https://zeabur.com/button.svg\" alt=\"Deploy on Zeabur\" height=\"26\"></a>",
+        "translatedContent": "  <img src=\"https://zeabur.com/button.svg\" alt=\"Déployer sur Zeabur\" height=\"26\"></a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "YbkrWbfqaeuMtv54e9Fp1LF91No/NJ8UC7rTRKUnbxI=",
+        "originContent": "<a href=\"https://template.sealos.io/deploy?templateName=pdf2zh\">",
+        "translatedContent": "<a href=\"https://template.sealos.io/deploy?templateName=pdf2zh\">"
+      },
+      {
+        "row": 12,
+        "rowsha": "3c4C8wXcgugLaGN19gxEN/Utdnp4BkwdlHqDgnrPyo8=",
+        "originContent": "  <img src=\"https://sealos.io/Deploy-on-Sealos.svg\" alt=\"Deploy on Sealos\" height=\"26\"></a>",
+        "translatedContent": "  <img src=\"https://sealos.io/Deploy-on-Sealos.svg\" alt=\"Déployer sur Sealos\" height=\"26\"></a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "3E2YsT6oUhYzShDpbGkZUVOZ+yKIwg4QMUaR2HLrwE4=",
+        "originContent": "<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/Byaidu/PDFMathTranslate&branch=main&name=pdf-math-translate\">",
+        "translatedContent": "<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/Byaidu/PDFMathTranslate&branch=main&name=pdf-math-translate\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "72mE7W/UMxqWabQeKmGj3BTUBISGVw8WRsa46fs5IZw=",
+        "originContent": "  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>",
+        "translatedContent": "  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Déployer sur Koyeb\" height=\"26\"></a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 20,
+        "rowsha": "Ql061Is1kDh9AikcIlKGYw6XHcMLwMK7bCWc/AaX0jg=",
+        "originContent": "  <summary>5. Zotero Plugin</summary>",
+        "translatedContent": "  <summary>5. Plugin Zotero</summary>"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "ehzkOygwOL+XY4xBYi17jBRaNUnQVgT44SMX62dM8rQ=",
+        "originContent": "See [Zotero PDF2zh](https://github.com/guaguastandup/zotero-pdf2zh) for more details.",
+        "translatedContent": "Voir [Zotero PDF2zh](https://github.com/guaguastandup/zotero-pdf2zh) pour plus de détails."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 28,
+        "rowsha": "JyH1trhYOtcB/Cxf1QyxF5pfOvGkDmigS/L64f9Ja6g=",
+        "originContent": "  <summary>6. Commandline</summary>",
+        "translatedContent": "  <summary>6. Ligne de commande</summary>"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "P1YHO8S9Awa1AA+HmJtTyo3XuOMjKWiCWQMAYCijtM0=",
+        "originContent": "1. Python installed (3.10 <= version <= 3.12)",
+        "translatedContent": "1. Python installé (3.10 <= version <= 3.12)"
+      },
+      {
+        "row": 31,
+        "rowsha": "Z2cPtnNKCnuORNexqPRMN/1NMGmL/iD/Ko2Ip+lg/jI=",
+        "originContent": "2. Install our package:",
+        "translatedContent": "2. Installer notre paquet :"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "   ```bash\n   pip install pdf2zh\n   ```",
+    "ContentSha": "+P7dPzFGk5eTTFe0fR4HiAKo8Co32wDXuPV1RJdrB4Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   pip install pdf2zh\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "5wSRLym/+O/g3JqTVCm1PwYxE4SGxoNwEjvFKQakaCs=",
+        "originContent": "   pip install pdf2zh",
+        "translatedContent": "   pip install pdf2zh"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n3. Execute translation, files generated in [current working directory](https://chatgpt.com/share/6745ed36-9acc-800e-8a90-59204bd13444):\n",
+    "ContentSha": "vTG1BmDYiQg065rrnqLewL/Qn/PsA1uoc7LuSlDhF0Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n3. Exécuter la traduction, fichiers générés dans [répertoire de travail actuel](https://chatgpt.com/share/6745ed36-9acc-800e-8a90-59204bd13444) :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "m2NIKn243dPOp6M+qmmJtLd802e3j9RZZRaHJaGyPeM=",
+        "originContent": "3. Execute translation, files generated in [current working directory](https://chatgpt.com/share/6745ed36-9acc-800e-8a90-59204bd13444):",
+        "translatedContent": "3. Exécuter la traduction, fichiers générés dans [répertoire de travail actuel](https://chatgpt.com/share/6745ed36-9acc-800e-8a90-59204bd13444) :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "   ```bash\n   pdf2zh document.pdf\n   ```",
+    "ContentSha": "0/Md6MxiPJ/N6JPxSe4CkjkS019pRc4BiiD1p4Elk24=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   pdf2zh document.pdf\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "YkYmiVOwreQkGBdUvbUT+YnjjoDYfov7IK2TEN75QXo=",
+        "originContent": "   pdf2zh document.pdf",
+        "translatedContent": "   pdf2zh document.pdf"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n</details>\n\n> [!TIP]\n>\n> - If you're using Windows and cannot open the file after downloading, please install [vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe) and try again.\n>\n> - If you cannot access Docker Hub, please try the image on [GitHub Container Registry](https://github.com/Byaidu/PDFMathTranslate/pkgs/container/pdfmathtranslate).\n> ```bash\n> docker pull ghcr.io/byaidu/pdfmathtranslate\n> docker run -d -p 7860:7860 ghcr.io/byaidu/pdfmathtranslate\n> ```\n\n### Unable to install?\n\nThe present program needs an AI model(`wybxc/DocLayout-YOLO-DocStructBench-onnx`) before working and some users are not able to download due to network issues. If you have a problem with downloading this model, we provide a workaround using the following environment variable:\n",
+    "ContentSha": "yipyoH1sD9AqTC/e9p1Itw3cCb3gE74DzidNKr+fQWY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n> [!ASTUCE]\n>\n> - Si vous utilisez Windows et ne pouvez pas ouvrir le fichier après l'avoir téléchargé, veuillez installer [vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe) et réessayez.\n>\n> - Si vous ne pouvez pas accéder à Docker Hub, veuillez essayer l'image sur [GitHub Container Registry](https://github.com/Byaidu/PDFMathTranslate/pkgs/container/pdfmathtranslate).\n> ```bash\n> docker pull ghcr.io/byaidu/pdfmathtranslate\n> docker run -d -p 7860:7860 ghcr.io/byaidu/pdfmathtranslate\n> ```\n\n### Impossible d'installer ?\n\nLe programme actuel nécessite un modèle d'IA (`wybxc/DocLayout-YOLO-DocStructBench-onnx`) avant de fonctionner et certains utilisateurs ne peuvent pas le télécharger à cause de problèmes réseau. Si vous avez un problème pour télécharger ce modèle, nous proposons une solution de contournement en utilisant la variable d'environnement suivante :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+        "originContent": "> [!TIP]",
+        "translatedContent": "> [!ASTUCE]"
+      },
+      {
+        "row": 5,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 6,
+        "rowsha": "3VDvvrI87X1JMKjYb1BtFUCQjlsXHh9HOQVHzRs/EO0=",
+        "originContent": "> - If you're using Windows and cannot open the file after downloading, please install [vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe) and try again.",
+        "translatedContent": "> - Si vous utilisez Windows et ne pouvez pas ouvrir le fichier après l'avoir téléchargé, veuillez installer [vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe) et réessayez."
+      },
+      {
+        "row": 7,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 8,
+        "rowsha": "H0A1DSn+FEziQo4YoAXR3v1eNeY1w74EdHEyJ3UL5Cg=",
+        "originContent": "> - If you cannot access Docker Hub, please try the image on [GitHub Container Registry](https://github.com/Byaidu/PDFMathTranslate/pkgs/container/pdfmathtranslate).",
+        "translatedContent": "> - Si vous ne pouvez pas accéder à Docker Hub, veuillez essayer l'image sur [GitHub Container Registry](https://github.com/Byaidu/PDFMathTranslate/pkgs/container/pdfmathtranslate)."
+      },
+      {
+        "row": 9,
+        "rowsha": "wdkEOeFso6tqiT11qRgwNFig8+xjxbk3wJKCvpYihdM=",
+        "originContent": "> ```bash",
+        "translatedContent": "> ```bash"
+      },
+      {
+        "row": 10,
+        "rowsha": "JeifDL5m3U0Z08Wxez7cXMlq3v0X1zHs2SICjsHL6T0=",
+        "originContent": "> docker pull ghcr.io/byaidu/pdfmathtranslate",
+        "translatedContent": "> docker pull ghcr.io/byaidu/pdfmathtranslate"
+      },
+      {
+        "row": 11,
+        "rowsha": "GWnQjnI7zNND+kqeMqlJUjbTEj7Y/f6b7AIwelk599c=",
+        "originContent": "> docker run -d -p 7860:7860 ghcr.io/byaidu/pdfmathtranslate",
+        "translatedContent": "> docker run -d -p 7860:7860 ghcr.io/byaidu/pdfmathtranslate"
+      },
+      {
+        "row": 12,
+        "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+        "originContent": "> ```",
+        "translatedContent": "> ```"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "ji1/YLEaU2L0sV94gyZngNt4d30UX0vCbB0MpUhFbx8=",
+        "originContent": "### Unable to install?",
+        "translatedContent": "### Impossible d'installer ?"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "wx1qQbjgIyDjRvZ/QojEx8Y1s4Pc26J28c7lahoTxTE=",
+        "originContent": "The present program needs an AI model(`wybxc/DocLayout-YOLO-DocStructBench-onnx`) before working and some users are not able to download due to network issues. If you have a problem with downloading this model, we provide a workaround using the following environment variable:",
+        "translatedContent": "Le programme actuel nécessite un modèle d'IA (`wybxc/DocLayout-YOLO-DocStructBench-onnx`) avant de fonctionner et certains utilisateurs ne peuvent pas le télécharger à cause de problèmes réseau. Si vous avez un problème pour télécharger ce modèle, nous proposons une solution de contournement en utilisant la variable d'environnement suivante :"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```shell\nset HF_ENDPOINT=https://hf-mirror.com\n```",
+    "ContentSha": "EeWiTorUUfiBWBZnrPYJxk0EQ9a5wr5ylWjnTcC1Rak=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nset HF_ENDPOINT=https://hf-mirror.com\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "enEryrjxFNyy834b0Z4PG5Y5pBKWv5VtlxzyPhablrQ=",
+        "originContent": "set HF_ENDPOINT=https://hf-mirror.com",
+        "translatedContent": "set HF_ENDPOINT=https://hf-mirror.com"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\nFor PowerShell user:\n",
+    "ContentSha": "9B/kYl6t3YM8GwsAS0gbPZA5qw7l+SG8mcw4diDN1tw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Pour l'utilisateur PowerShell :\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Pour l'utilisateur PowerShell :"
+      },
+      {
+        "row": 2,
+        "rowsha": "iy07Z1FHqpvPJnbGzcVbwV2+FFQ+Pw02HMBAcnKQdMQ=",
+        "originContent": "For PowerShell user:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```shell\n$env:HF_ENDPOINT = https://hf-mirror.com\n```",
+    "ContentSha": "aUVov+WZYGx9KH8Spp4CDDqdDxzTZgtoRKo70Sy1w3E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n$env:HF_ENDPOINT = https://hf-mirror.com\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "8h69eRVeT7XcAokT2jtQSNtOzfX402m8WVn6xkWRkQk=",
+        "originContent": "$env:HF_ENDPOINT = https://hf-mirror.com",
+        "translatedContent": "$env:HF_ENDPOINT = https://hf-mirror.com"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\nIf the solution does not work to you / you encountered other issues, please refer to [frequently asked questions](https://github.com/Byaidu/PDFMathTranslate/wiki#-faq--%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98).\n\n<h2 id=\"usage\">Advanced Options</h2>\n\nExecute the translation command in the command line to generate the translated document `example-mono.pdf` and the bilingual document `example-dual.pdf` in the current working directory. Use Google as the default translation service. More support translation services can find [HERE](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#services).\n\n<img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/cmd.explained.png\" width=\"580px\"  alt=\"cmd\"/>\n\nIn the following table, we list all advanced options for reference:\n\n| Option                | Function                                                                                                      | Example                                        |\n| --------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |\n| files                 | Local files                                                                                                   | `pdf2zh ~/local.pdf`                           |\n| links                 | Online files                                                                                                  | `pdf2zh http://arxiv.org/paper.pdf`            |\n| `-i`                  | [Enter GUI](#gui)                                                                                             | `pdf2zh -i`                                    |\n| `-p`                  | [Partial document translation](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#partial) | `pdf2zh example.pdf -p 1`                      |\n| `-li`                 | [Source language](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#languages)            | `pdf2zh example.pdf -li en`                    |\n| `-lo`                 | [Target language](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#languages)            | `pdf2zh example.pdf -lo zh`                    |\n| `-s`                  | [Translation service](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#services)         | `pdf2zh example.pdf -s deepl`                  |\n| `-t`                  | [Multi-threads](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#threads)                | `pdf2zh example.pdf -t 1`                      |\n| `-o`                  | Output dir                                                                                                    | `pdf2zh example.pdf -o output`                 |\n| `-f`, `-c`            | [Exceptions](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#exceptions)                | `pdf2zh example.pdf -f \"(MS.*)\"`               |\n| `-cp`                 | Compatibility Mode                                                                                            | `pdf2zh example.pdf --compatible`              |\n| `--skip-subset-fonts` | [Skip font subset](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#font-subset)         | `pdf2zh example.pdf --skip-subset-fonts`       |\n| `--ignore-cache`      | [Ignore translate cache](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#cache)         | `pdf2zh example.pdf --ignore-cache`            |\n| `--share`             | Public link                                                                                                   | `pdf2zh -i --share`                            |\n| `--authorized`        | [Authorization](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#auth)                   | `pdf2zh -i --authorized users.txt [auth.html]` |\n| `--prompt`            | [Custom Prompt](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#prompt)                 | `pdf2zh --prompt [prompt.txt]`                 |\n| `--onnx`              | [Use Custom DocLayout-YOLO ONNX model]                                                                        | `pdf2zh --onnx [onnx/model/path]`              |\n| `--serverport`        | [Use Custom WebUI port]                                                                                       | `pdf2zh --serverport 7860`                     |\n| `--dir`               | [batch translate]                                                                                             | `pdf2zh --dir /path/to/translate/`             |\n| `--config`            | [configuration file](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#cofig)             | `pdf2zh --config /path/to/config/config.json`  |\n| `--serverport`        | [custom gradio server port]                                                                                   | `pdf2zh --serverport 7860`                     |\n| `--babeldoc`          | Use Experimental backend [BabelDOC](https://funstory-ai.github.io/BabelDOC/) to translate                     | `pdf2zh --babeldoc` -s openai example.pdf      |\n| `--mcp`               | Enable MCP STDIO mode                                                                                         | `pdf2zh --mcp`                                 |\n| `--sse`               | Enable MCP SSE mode                                                                                           | `pdf2zh --mcp --sse`                           |\n\nFor detailed explanations, please refer to our document about [Advanced Usage](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/ADVANCED.md) for a full list of each option.\n",
+    "ContentSha": "fHTxq5fNrO4NnzeSjNMt5G8OmuzkKTYTBmujpE6aE9g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Si la solution ne fonctionne pas pour vous / vous rencontrez d'autres problèmes, veuillez consulter la [FAQ](https://github.com/Byaidu/PDFMathTranslate/wiki#-faq--%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98).\n\n<h2 id=\"usage\">Options Avancées</h2>\n\nExécutez la commande de traduction dans la ligne de commande pour générer le document traduit `example-mono.pdf` et le document bilingue `example-dual.pdf` dans le répertoire de travail actuel. Utilisez Google comme service de traduction par défaut. Plus de services de traduction supportés sont disponibles [ICI](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#services).\n\n<img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/cmd.explained.png\" width=\"580px\"  alt=\"cmd\"/>\n\nDans le tableau suivant, nous listons toutes les options avancées à titre de référence :\n\n| Option                | Fonction                                                                                                      | Exemple                                        |\n| --------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |\n| files                 | Fichiers locaux                                                                                                | `pdf2zh ~/local.pdf`                           |\n| links                 | Fichiers en ligne                                                                                              | `pdf2zh http://arxiv.org/paper.pdf`            |\n| `-i`                  | [Entrer dans l'interface graphique](#gui)                                                                     | `pdf2zh -i`                                    |\n| `-p`                  | [Traduction partielle du document](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#partial) | `pdf2zh example.pdf -p 1`                      |\n| `-li`                 | [Langue source](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#languages)                | `pdf2zh example.pdf -li en`                    |\n| `-lo`                 | [Langue cible](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#languages)                 | `pdf2zh example.pdf -lo zh`                    |\n| `-s`                  | [Service de traduction](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#services)         | `pdf2zh example.pdf -s deepl`                  |\n| `-t`                  | [Multi-threads](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#threads)                  | `pdf2zh example.pdf -t 1`                      |\n| `-o`                  | Répertoire de sortie                                                                                            | `pdf2zh example.pdf -o output`                 |\n| `-f`, `-c`            | [Exceptions](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#exceptions)                  | `pdf2zh example.pdf -f \"(MS.*)\"`               |\n| `-cp`                 | Mode compatibilité                                                                                              | `pdf2zh example.pdf --compatible`              |\n| `--skip-subset-fonts` | [Ignorer le sous-ensemble de polices](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#font-subset) | `pdf2zh example.pdf --skip-subset-fonts`       |\n| `--ignore-cache`      | [Ignorer le cache de traduction](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#cache)   | `pdf2zh example.pdf --ignore-cache`            |\n| `--share`             | Lien public                                                                                                     | `pdf2zh -i --share`                            |\n| `--authorized`        | [Autorisation](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#auth)                       | `pdf2zh -i --authorized users.txt [auth.html]` |\n| `--prompt`            | [Invite personnalisée](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#prompt)             | `pdf2zh --prompt [prompt.txt]`                 |\n| `--onnx`              | [Utiliser un modèle DocLayout-YOLO ONNX personnalisé]                                                          | `pdf2zh --onnx [onnx/model/path]`              |\n| `--serverport`        | [Utiliser un port WebUI personnalisé]                                                                           | `pdf2zh --serverport 7860`                     |\n| `--dir`               | [Traduction par lot]                                                                                            | `pdf2zh --dir /path/to/translate/`             |\n| `--config`            | [Fichier de configuration](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#cofig)          | `pdf2zh --config /path/to/config/config.json`  |\n| `--serverport`        | [Port serveur gradio personnalisé]                                                                              | `pdf2zh --serverport 7860`                     |\n| `--babeldoc`          | Utiliser le backend expérimental [BabelDOC](https://funstory-ai.github.io/BabelDOC/) pour traduire               | `pdf2zh --babeldoc` -s openai example.pdf      |\n| `--mcp`               | Activer le mode MCP STDIO                                                                                        | `pdf2zh --mcp`                                 |\n| `--sse`               | Activer le mode MCP SSE                                                                                          | `pdf2zh --mcp --sse`                           |\n\nPour des explications détaillées, veuillez vous référer à notre document sur [l'utilisation avancée](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/ADVANCED.md) pour la liste complète de chaque option.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Si la solution ne fonctionne pas pour vous / vous rencontrez d'autres problèmes, veuillez consulter la [FAQ](https://github.com/Byaidu/PDFMathTranslate/wiki#-faq--%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)."
+      },
+      {
+        "row": 2,
+        "rowsha": "tjbl+l1JJcfAet3I2+yJOVOT7q29ZiKn+24K/ipyUlY=",
+        "originContent": "If the solution does not work to you / you encountered other issues, please refer to [frequently asked questions](https://github.com/Byaidu/PDFMathTranslate/wiki#-faq--%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98).",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<h2 id=\"usage\">Options Avancées</h2>"
+      },
+      {
+        "row": 4,
+        "rowsha": "Mwip2SHM3An+4gHtwh8yJbQnaia2Y7lQUwBb/sJfRQs=",
+        "originContent": "<h2 id=\"usage\">Advanced Options</h2>",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Exécutez la commande de traduction dans la ligne de commande pour générer le document traduit `example-mono.pdf` et le document bilingue `example-dual.pdf` dans le répertoire de travail actuel. Utilisez Google comme service de traduction par défaut. Plus de services de traduction supportés sont disponibles [ICI](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#services)."
+      },
+      {
+        "row": 6,
+        "rowsha": "f6opu5XJncSD3xVb4VpwqZpBK7lBmaQTJrHwwJ5ytek=",
+        "originContent": "Execute the translation command in the command line to generate the translated document `example-mono.pdf` and the bilingual document `example-dual.pdf` in the current working directory. Use Google as the default translation service. More support translation services can find [HERE](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#services).",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/cmd.explained.png\" width=\"580px\"  alt=\"cmd\"/>"
+      },
+      {
+        "row": 8,
+        "rowsha": "HbFh7rw0GDS99XMrNv+KCwt8xFunYotGsDaXU8IL2MU=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/images/cmd.explained.png\" width=\"580px\"  alt=\"cmd\"/>",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Dans le tableau suivant, nous listons toutes les options avancées à titre de référence :"
+      },
+      {
+        "row": 10,
+        "rowsha": "51KjOz7T8Bvoqr7vku6lhKVVFO04e7a2SNbM2MbBKAU=",
+        "originContent": "In the following table, we list all advanced options for reference:",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Option                | Fonction                                                                                                      | Exemple                                        |"
+      },
+      {
+        "row": 12,
+        "rowsha": "RLysKc+T+pb0UkEEqBQjKbdMfrR2kPfgfe8HCRodxAA=",
+        "originContent": "| Option                | Function                                                                                                      | Example                                        |",
+        "translatedContent": "| --------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |"
+      },
+      {
+        "row": 13,
+        "rowsha": "CGMO8dtCWbNjcdiEuP9B9OThSQQxDrsG9PKsIo1Sp9I=",
+        "originContent": "| --------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |",
+        "translatedContent": "| files                 | Fichiers locaux                                                                                                | `pdf2zh ~/local.pdf`                           |"
+      },
+      {
+        "row": 14,
+        "rowsha": "CWMGy6CcBELpAlt7CdG7Q5nnqcqDTXvAm2I/LzZuWeU=",
+        "originContent": "| files                 | Local files                                                                                                   | `pdf2zh ~/local.pdf`                           |",
+        "translatedContent": "| links                 | Fichiers en ligne                                                                                              | `pdf2zh http://arxiv.org/paper.pdf`            |"
+      },
+      {
+        "row": 15,
+        "rowsha": "7l/lbXWqUD/df9pGDCzmsxEcsaPYEniSq6EDZqgxtqM=",
+        "originContent": "| links                 | Online files                                                                                                  | `pdf2zh http://arxiv.org/paper.pdf`            |",
+        "translatedContent": "| `-i`                  | [Entrer dans l'interface graphique](#gui)                                                                     | `pdf2zh -i`                                    |"
+      },
+      {
+        "row": 16,
+        "rowsha": "YIb/ewRfnxz+GBK144WmCQz4UTcWNVlX9Izi1R8zxJQ=",
+        "originContent": "| `-i`                  | [Enter GUI](#gui)                                                                                             | `pdf2zh -i`                                    |",
+        "translatedContent": "| `-p`                  | [Traduction partielle du document](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#partial) | `pdf2zh example.pdf -p 1`                      |"
+      },
+      {
+        "row": 17,
+        "rowsha": "oxt5RZpdvtbtJCbQMYIAKhDm9ykLHOsVlbxvCuks7gI=",
+        "originContent": "| `-p`                  | [Partial document translation](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#partial) | `pdf2zh example.pdf -p 1`                      |",
+        "translatedContent": "| `-li`                 | [Langue source](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#languages)                | `pdf2zh example.pdf -li en`                    |"
+      },
+      {
+        "row": 18,
+        "rowsha": "RFZZ9uPxGOW9AcJvWlvyFhFdQSXfXqdi2o8Rr3UOUMc=",
+        "originContent": "| `-li`                 | [Source language](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#languages)            | `pdf2zh example.pdf -li en`                    |",
+        "translatedContent": "| `-lo`                 | [Langue cible](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#languages)                 | `pdf2zh example.pdf -lo zh`                    |"
+      },
+      {
+        "row": 19,
+        "rowsha": "dpv2JZuBz8niKAgrOKldAx+zI7TiHBx1e1KcYJoB3o8=",
+        "originContent": "| `-lo`                 | [Target language](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#languages)            | `pdf2zh example.pdf -lo zh`                    |",
+        "translatedContent": "| `-s`                  | [Service de traduction](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#services)         | `pdf2zh example.pdf -s deepl`                  |"
+      },
+      {
+        "row": 20,
+        "rowsha": "3w4spPo73lr/BTB1mNx/DoF+V+QUtN20lJCJMUC8Ozw=",
+        "originContent": "| `-s`                  | [Translation service](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#services)         | `pdf2zh example.pdf -s deepl`                  |",
+        "translatedContent": "| `-t`                  | [Multi-threads](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#threads)                  | `pdf2zh example.pdf -t 1`                      |"
+      },
+      {
+        "row": 21,
+        "rowsha": "XcknJ85sPYCL52fMCDuHNoIsuitUBPUHutEGf0PDQzU=",
+        "originContent": "| `-t`                  | [Multi-threads](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#threads)                | `pdf2zh example.pdf -t 1`                      |",
+        "translatedContent": "| `-o`                  | Répertoire de sortie                                                                                            | `pdf2zh example.pdf -o output`                 |"
+      },
+      {
+        "row": 22,
+        "rowsha": "DeUp45A4j81ALnXKYmJGDSS2wsXSIOMO65q83bQqRZM=",
+        "originContent": "| `-o`                  | Output dir                                                                                                    | `pdf2zh example.pdf -o output`                 |",
+        "translatedContent": "| `-f`, `-c`            | [Exceptions](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#exceptions)                  | `pdf2zh example.pdf -f \"(MS.*)\"`               |"
+      },
+      {
+        "row": 23,
+        "rowsha": "z2JUGoUDNebFND3pC17WNl2FWG36AdAwhR/U57OhTg4=",
+        "originContent": "| `-f`, `-c`            | [Exceptions](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#exceptions)                | `pdf2zh example.pdf -f \"(MS.*)\"`               |",
+        "translatedContent": "| `-cp`                 | Mode compatibilité                                                                                              | `pdf2zh example.pdf --compatible`              |"
+      },
+      {
+        "row": 24,
+        "rowsha": "ppkp8nUMvC1cOZLgvkQAg7PwM/wWuGdFi6c2mCpmGN4=",
+        "originContent": "| `-cp`                 | Compatibility Mode                                                                                            | `pdf2zh example.pdf --compatible`              |",
+        "translatedContent": "| `--skip-subset-fonts` | [Ignorer le sous-ensemble de polices](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#font-subset) | `pdf2zh example.pdf --skip-subset-fonts`       |"
+      },
+      {
+        "row": 25,
+        "rowsha": "E3U2eRnXTmzLHJadE0sa7n+Dvznh6X+fvIonAizShjM=",
+        "originContent": "| `--skip-subset-fonts` | [Skip font subset](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#font-subset)         | `pdf2zh example.pdf --skip-subset-fonts`       |",
+        "translatedContent": "| `--ignore-cache`      | [Ignorer le cache de traduction](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#cache)   | `pdf2zh example.pdf --ignore-cache`            |"
+      },
+      {
+        "row": 26,
+        "rowsha": "Te7rkDFCLm6WKisBEj04TgjgKZ8KIJroE4WZHtu4aTw=",
+        "originContent": "| `--ignore-cache`      | [Ignore translate cache](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#cache)         | `pdf2zh example.pdf --ignore-cache`            |",
+        "translatedContent": "| `--share`             | Lien public                                                                                                     | `pdf2zh -i --share`                            |"
+      },
+      {
+        "row": 27,
+        "rowsha": "gLGxQkGESo+Htgok/UdM7pMNPyYmOrq6UQL8Lv3AbsA=",
+        "originContent": "| `--share`             | Public link                                                                                                   | `pdf2zh -i --share`                            |",
+        "translatedContent": "| `--authorized`        | [Autorisation](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#auth)                       | `pdf2zh -i --authorized users.txt [auth.html]` |"
+      },
+      {
+        "row": 28,
+        "rowsha": "htodzOmfuYOizUKTiG5EZJ6QgTOXuD4CpJDwXK5sXMg=",
+        "originContent": "| `--authorized`        | [Authorization](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#auth)                   | `pdf2zh -i --authorized users.txt [auth.html]` |",
+        "translatedContent": "| `--prompt`            | [Invite personnalisée](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#prompt)             | `pdf2zh --prompt [prompt.txt]`                 |"
+      },
+      {
+        "row": 29,
+        "rowsha": "1jmIXTshhJx9tV8aZZ6gyp8z2diMFLP+/hiN2EoVnBM=",
+        "originContent": "| `--prompt`            | [Custom Prompt](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#prompt)                 | `pdf2zh --prompt [prompt.txt]`                 |",
+        "translatedContent": "| `--onnx`              | [Utiliser un modèle DocLayout-YOLO ONNX personnalisé]                                                          | `pdf2zh --onnx [onnx/model/path]`              |"
+      },
+      {
+        "row": 30,
+        "rowsha": "ArwbWT0kVPXWeQicXEkc3uNMQmDp1NBk4hJX81/wnn4=",
+        "originContent": "| `--onnx`              | [Use Custom DocLayout-YOLO ONNX model]                                                                        | `pdf2zh --onnx [onnx/model/path]`              |",
+        "translatedContent": "| `--serverport`        | [Utiliser un port WebUI personnalisé]                                                                           | `pdf2zh --serverport 7860`                     |"
+      },
+      {
+        "row": 31,
+        "rowsha": "vQlF20R86Y7xnMRLiqrtneBseKh3Vq0mZtCrfPfvjqE=",
+        "originContent": "| `--serverport`        | [Use Custom WebUI port]                                                                                       | `pdf2zh --serverport 7860`                     |",
+        "translatedContent": "| `--dir`               | [Traduction par lot]                                                                                            | `pdf2zh --dir /path/to/translate/`             |"
+      },
+      {
+        "row": 32,
+        "rowsha": "TqIT63f5XeHvHBwWsDx969FYMRXTewEIlrx+fuCozsc=",
+        "originContent": "| `--dir`               | [batch translate]                                                                                             | `pdf2zh --dir /path/to/translate/`             |",
+        "translatedContent": "| `--config`            | [Fichier de configuration](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#cofig)          | `pdf2zh --config /path/to/config/config.json`  |"
+      },
+      {
+        "row": 33,
+        "rowsha": "NdoklIwbYZz3Qm+2p9SgdUp6CFwzDmp+HD9g0yQijsI=",
+        "originContent": "| `--config`            | [configuration file](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#cofig)             | `pdf2zh --config /path/to/config/config.json`  |",
+        "translatedContent": "| `--serverport`        | [Port serveur gradio personnalisé]                                                                              | `pdf2zh --serverport 7860`                     |"
+      },
+      {
+        "row": 34,
+        "rowsha": "dtbYlsPDnlpM1XT49wFVO9AXEBAygjeD0rlauK9NQpY=",
+        "originContent": "| `--serverport`        | [custom gradio server port]                                                                                   | `pdf2zh --serverport 7860`                     |",
+        "translatedContent": "| `--babeldoc`          | Utiliser le backend expérimental [BabelDOC](https://funstory-ai.github.io/BabelDOC/) pour traduire               | `pdf2zh --babeldoc` -s openai example.pdf      |"
+      },
+      {
+        "row": 35,
+        "rowsha": "y04JCt3rk9lMWkAJEjEc51bQJNv2+isbUkLifW3J2TA=",
+        "originContent": "| `--babeldoc`          | Use Experimental backend [BabelDOC](https://funstory-ai.github.io/BabelDOC/) to translate                     | `pdf2zh --babeldoc` -s openai example.pdf      |",
+        "translatedContent": "| `--mcp`               | Activer le mode MCP STDIO                                                                                        | `pdf2zh --mcp`                                 |"
+      },
+      {
+        "row": 36,
+        "rowsha": "ycK72nZZXnZJRa90QVnG//jf1aq0p5L04lxd7m1E37k=",
+        "originContent": "| `--mcp`               | Enable MCP STDIO mode                                                                                         | `pdf2zh --mcp`                                 |",
+        "translatedContent": "| `--sse`               | Activer le mode MCP SSE                                                                                          | `pdf2zh --mcp --sse`                           |"
+      },
+      {
+        "row": 37,
+        "rowsha": "xNoxKMLmB1VdbKaWdOqQoiAmuLofQ7oFoXIaLI2s2P0=",
+        "originContent": "| `--sse`               | Enable MCP SSE mode                                                                                           | `pdf2zh --mcp --sse`                           |",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Pour des explications détaillées, veuillez vous référer à notre document sur [l'utilisation avancée](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/ADVANCED.md) pour la liste complète de chaque option."
+      },
+      {
+        "row": 39,
+        "rowsha": "BHpxJeSTfprIcWNhJr9H3C0htYFU0DPzRePhEdHs03A=",
+        "originContent": "For detailed explanations, please refer to our document about [Advanced Usage](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/ADVANCED.md) for a full list of each option.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "<h2 id=\"downstream\">Secondary Development (APIs)</h2>\n\nFor downstream applications, please refer to our document about [API Details](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/APIS.md) for further information about:\n\n- [Python API](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/APIS.md#api-http), how to communicate with a server with the program installed\n\n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases)\n\n<h2 id=\"acknowledgement\">Acknowledgements</h2>\n\n- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- New backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Document merging: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Document parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Document extraction: [MinerU](https://github.com/opendatalab/MinerU)\n\n- Document Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Multi-threaded translation: [MathTranslate](https://github.com/SUSYUSTC/MathTranslate)\n\n- Layout parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)",
+    "ContentSha": "p6MX1y6/R4LidFQiSlwj0kV9QptU88IisLo46+rJ5g4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<h2 id=\"downstream\">Développement Secondaire (APIs)</h2>\n\nPour les applications en aval, veuillez vous référer à notre document sur les [Détails de l’API](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/APIS.md) pour plus d’informations sur :\n\n- [API Python](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/APIS.md#api-python), comment utiliser le programme dans d’autres programmes Python  \n- [API HTTP](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/APIS.md#api-http), comment communiquer avec un serveur ayant le programme installé\n\n<h2 id=\"todo\">À FAIRE</h2>\n\n- [ ] Analyser la mise en page avec des modèles basés sur DocLayNet, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Corriger la rotation des pages, la table des matières, le format des listes\n\n- [ ] Corriger les formules pixellisées dans les anciens articles\n\n- [ ] Reprise asynchrone sauf KeyboardInterrupt\n\n- [ ] Algorithme Knuth–Plass pour les langues occidentales\n\n- [ ] Support des fichiers non PDF/A\n\n- [ ] Plugins pour [Zotero](https://github.com/zotero/zotero) et [Obsidian](https://github.com/obsidianmd/obsidian-releases)\n\n<h2 id=\"acknowledgement\">Remerciements</h2>\n\n- [Immersive Translation](https://immersivetranslate.com) sponsorise des codes d’échange d’abonnement Pro mensuels pour les contributeurs actifs de ce projet, voir détails sur : [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- Nouveau backend : [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Fusion de documents : [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Analyse de documents : [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Extraction de documents : [MinerU](https://github.com/opendatalab/MinerU)\n\n- Aperçu de documents : [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Traduction multithread : [MathTranslate](https://github.com/SUSYUSTC/MathTranslate)\n\n- Analyse de mise en page : [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ina33247MjZNtH3ryfGE7PsIU2kUFgD/BOt1lI1a/18=",
+        "originContent": "<h2 id=\"downstream\">Secondary Development (APIs)</h2>",
+        "translatedContent": "<h2 id=\"downstream\">Développement Secondaire (APIs)</h2>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "p+RqWF9wKq3ZoEa5S7lBZ86HOryi84yoAx++COjkPhM=",
+        "originContent": "For downstream applications, please refer to our document about [API Details](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/APIS.md) for further information about:",
+        "translatedContent": "Pour les applications en aval, veuillez vous référer à notre document sur les [Détails de l’API](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/APIS.md) pour plus d’informations sur :"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "O1BPtm/VMzPQIZsYhtQ49xkJZWbr2qd2A2/weLz8Hww=",
+        "originContent": "- [Python API](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/APIS.md#api-python), how to use the program in other Python programs",
+        "translatedContent": "- [API Python](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/APIS.md#api-python), comment utiliser le programme dans d’autres programmes Python  "
+      },
+      {
+        "row": 6,
+        "rowsha": "npbZl9ZxTTY9zsOI1qGGDdUGNlUDNNW3xEbN3I0QH84=",
+        "originContent": "- [HTTP API](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/APIS.md#api-http), how to communicate with a server with the program installed",
+        "translatedContent": "- [API HTTP](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/main/./docs/APIS.md#api-http), comment communiquer avec un serveur ayant le programme installé"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "r3L53fte2rMCbXW4skciw7NH27VPirJiidIAkDnNmUg=",
+        "originContent": "<h2 id=\"todo\">TODOs</h2>",
+        "translatedContent": "<h2 id=\"todo\">À FAIRE</h2>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "d7Dpbl20zKHKpNDUd/X5W3uNDbqFrA4e64IjgNYrv44=",
+        "originContent": "- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)",
+        "translatedContent": "- [ ] Analyser la mise en page avec des modèles basés sur DocLayNet, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "1lHghtlvst5VFZowV9s+qLvvSFgQ0cfvMN5KLCfzVXM=",
+        "originContent": "- [ ] Fix page rotation, table of contents, format of lists",
+        "translatedContent": "- [ ] Corriger la rotation des pages, la table des matières, le format des listes"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "LR/ZNh4mVXgryMqM2aF+74tWqbUD9t1PEkoeG6PqWW4=",
+        "originContent": "- [ ] Fix pixel formula in old papers",
+        "translatedContent": "- [ ] Corriger les formules pixellisées dans les anciens articles"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "umArPW0pWLVIWg5seu6IRl0w5N6pxq6nPdoEuWzqcAA=",
+        "originContent": "- [ ] Async retry except KeyboardInterrupt",
+        "translatedContent": "- [ ] Reprise asynchrone sauf KeyboardInterrupt"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "BOUeVipP1C02p/gBVc1chIw207Y8MXa9T2T6YV3f3fQ=",
+        "originContent": "- [ ] Knuth–Plass algorithm for western languages",
+        "translatedContent": "- [ ] Algorithme Knuth–Plass pour les langues occidentales"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "usy0e9spIDWGwQsvR9Asg+97JbQ6ICHCmC9smrMViP0=",
+        "originContent": "- [ ] Support non-PDF/A files",
+        "translatedContent": "- [ ] Support des fichiers non PDF/A"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "jj5NMDkY4zDMl5/Thyi7+BoSYpkeoHg2SOYfp7BlOEs=",
+        "originContent": "- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases)",
+        "translatedContent": "- [ ] Plugins pour [Zotero](https://github.com/zotero/zotero) et [Obsidian](https://github.com/obsidianmd/obsidian-releases)"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "JBIDHpV3YAK9+9ncZ8xvSSDFQjcpy3kr8WmDDCtQ680=",
+        "originContent": "<h2 id=\"acknowledgement\">Acknowledgements</h2>",
+        "translatedContent": "<h2 id=\"acknowledgement\">Remerciements</h2>"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "nboYBoA2S3d2QagBeI8sCzPMlUyk9oc/0k8o2h8G3IM=",
+        "originContent": "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)",
+        "translatedContent": "- [Immersive Translation](https://immersivetranslate.com) sponsorise des codes d’échange d’abonnement Pro mensuels pour les contributeurs actifs de ce projet, voir détails sur : [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "7ONlQ7RCEgBIH2/uvWm944GDChz5eLOT/K+tFW82jIs=",
+        "originContent": "- New backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)",
+        "translatedContent": "- Nouveau backend : [BabelDOC](https://github.com/funstory-ai/BabelDOC)"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "dH9IfmuVBhi/lKr994yVAFwDKamnO5WyzJWNWcILhx0=",
+        "originContent": "- Document merging: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)",
+        "translatedContent": "- Fusion de documents : [PyMuPDF](https://github.com/pymupdf/PyMuPDF)"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "yrdtRdc2DRixtMZncAkRdy8mZbi3ZX/piTJzkCjAVFc=",
+        "originContent": "- Document parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)",
+        "translatedContent": "- Analyse de documents : [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "xh36NjPMzskv+wAg9rMIT59NlvtYu1xjOQQ2+Od+Pg8=",
+        "originContent": "- Document extraction: [MinerU](https://github.com/opendatalab/MinerU)",
+        "translatedContent": "- Extraction de documents : [MinerU](https://github.com/opendatalab/MinerU)"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "T5z7MQrO9OsCKXwuOvKSaSVGTZyBMNbFy8/cDnPXe+U=",
+        "originContent": "- Document Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)",
+        "translatedContent": "- Aperçu de documents : [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "v3M/8pH8VY50FQorzDW340Vy+wN9sxJowTJd0ILMcZg=",
+        "originContent": "- Multi-threaded translation: [MathTranslate](https://github.com/SUSYUSTC/MathTranslate)",
+        "translatedContent": "- Traduction multithread : [MathTranslate](https://github.com/SUSYUSTC/MathTranslate)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "bNqWUkZXwJ7VII6gaw9BooRgYrI0GNMehUf/aeX+uJE=",
+        "originContent": "- Layout parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)",
+        "translatedContent": "- Analyse de mise en page : [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 27,
+    "Content": "\n- Document standard: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: [Go Noto Universal](https://github.com/satbyy/go-noto-universal)\n\n<h2 id=\"contrib\">Contributors</h2>\n\n<a href=\"https://github.com/Byaidu/PDFMathTranslate/graphs/contributors\">\n  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />\n</a>\n\n![Alt](https://repobeats.axiom.co/api/embed/dfa7583da5332a11468d686fbd29b92320a6a869.svg \"Repobeats analytics image\")\n\n<h2 id=\"star_hist\">Star History</h2>\n\n<a href=\"https://star-history.com/#Byaidu/PDFMathTranslate&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date\" />\n   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date\"/>\n </picture>\n</a>\n",
+    "ContentSha": "b5WCDQFTNiMRzzi/p1ugpqot768jUMRi9j0owTexcjE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- Norme du document : [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Police multilingue : [Go Noto Universal](https://github.com/satbyy/go-noto-universal)\n\n<h2 id=\"contrib\">Contributeurs</h2>\n\n<a href=\"https://github.com/Byaidu/PDFMathTranslate/graphs/contributors\">\n  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />\n</a>\n\n![Alt](https://repobeats.axiom.co/api/embed/dfa7583da5332a11468d686fbd29b92320a6a869.svg \"Image analytique Repobeats\")\n\n<h2 id=\"star_hist\">Historique des étoiles</h2>\n\n<a href=\"https://star-history.com/#Byaidu/PDFMathTranslate&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date\" />\n   <img alt=\"Graphique de l'historique des étoiles\" src=\"https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date\"/>\n </picture>\n</a>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "/JkDit0i21Bt0doGasbwpuXKmH2Y8yfZTzDpqfzW5Yw=",
+        "originContent": "- Document standard: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)",
+        "translatedContent": "- Norme du document : [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "cAua+PBxV4M134nWZg9WYsY1uaeeLRstHf/naN23SEY=",
+        "originContent": "- Multilingual Font: [Go Noto Universal](https://github.com/satbyy/go-noto-universal)",
+        "translatedContent": "- Police multilingue : [Go Noto Universal](https://github.com/satbyy/go-noto-universal)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "i2iJ6GKK4MSaqfII4O/EQ55Jl/vNdShBjIFzy1kj+XU=",
+        "originContent": "<h2 id=\"contrib\">Contributors</h2>",
+        "translatedContent": "<h2 id=\"contrib\">Contributeurs</h2>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "cbl5JHtw6HbHKwK8YFh4bZZuDhiws3J0vKy0BDaHPsA=",
+        "originContent": "<a href=\"https://github.com/Byaidu/PDFMathTranslate/graphs/contributors\">",
+        "translatedContent": "<a href=\"https://github.com/Byaidu/PDFMathTranslate/graphs/contributors\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "lXzdRdT3eicQgjTiCukahs9tbiLay2YSmOaP+5HC5iY=",
+        "originContent": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
+        "translatedContent": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />"
+      },
+      {
+        "row": 10,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "z5IdSIfGOavzSSa199KaTr+zzO6R8eOpiI8ws3pN8qA=",
+        "originContent": "![Alt](https://repobeats.axiom.co/api/embed/dfa7583da5332a11468d686fbd29b92320a6a869.svg \"Repobeats analytics image\")",
+        "translatedContent": "![Alt](https://repobeats.axiom.co/api/embed/dfa7583da5332a11468d686fbd29b92320a6a869.svg \"Image analytique Repobeats\")"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "wMME4XDuwrGaRonqBkhtDHI9rh0PIaPT1cMiarOzuKs=",
+        "originContent": "<h2 id=\"star_hist\">Star History</h2>",
+        "translatedContent": "<h2 id=\"star_hist\">Historique des étoiles</h2>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "0eoEauSEym3r7Y4rn05aXuDkxwDRi7Q6HjAaC0XRCr8=",
+        "originContent": "<a href=\"https://star-history.com/#Byaidu/PDFMathTranslate&Date\">",
+        "translatedContent": "<a href=\"https://star-history.com/#Byaidu/PDFMathTranslate&Date\">"
+      },
+      {
+        "row": 17,
+        "rowsha": "TFdaG2cyM78Bclocz/GopuysT4bztU94JJRzBZs2Vn0=",
+        "originContent": " <picture>",
+        "translatedContent": " <picture>"
+      },
+      {
+        "row": 18,
+        "rowsha": "eQADP+Juzdtdc54Nw82QV8KI02/egaOknFy0w4jmrbE=",
+        "originContent": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date&theme=dark\" />",
+        "translatedContent": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date&theme=dark\" />"
+      },
+      {
+        "row": 19,
+        "rowsha": "OSZy0pJkmhmeG8i93MRspz2nPZWpqmpTYZ/ql6wkS/0=",
+        "originContent": "   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date\" />",
+        "translatedContent": "   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date\" />"
+      },
+      {
+        "row": 20,
+        "rowsha": "LS++VMJBLd55pONbhrNoLWoCleZbGz8YuWhDi/yNQtU=",
+        "originContent": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date\"/>",
+        "translatedContent": "   <img alt=\"Graphique de l'historique des étoiles\" src=\"https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date\"/>"
+      },
+      {
+        "row": 21,
+        "rowsha": "hmjVHkUZVe2T5TOA6gV3253XP4pU7SxFtUBDpd9akPA=",
+        "originContent": " </picture>",
+        "translatedContent": " </picture>"
+      },
+      {
+        "row": 22,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
