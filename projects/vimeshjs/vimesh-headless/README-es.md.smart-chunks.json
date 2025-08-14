@@ -1,0 +1,665 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Vimesh Headless UI\n## Features\nThis is Alpine.js implementation of [Tailwind Headless UI](https://headlessui.com/). Built with [Vimesh UI](https://github.com/vimeshjs/vimesh-ui) framework, Vimesh Headless UI has some nice features:\n### Ultra lightweight \nVimesh Headless UI has much smaller code size\n\n| Components   | Vimesh Headless UI   | Tailwind Headless UI for Vue | Tailwind Headless UI for React |\n| ----------- | -------------------- | -------- | ----- |\n| Listbox   | 8k  | 34k | 30k | \n| Combobox  | 9k  | 25k | 39k |\n| Menu      | 7k  | 18k | 20k |\n| Switch    | 0.6k | 5k | 6k |\n| Tabs      | 4k  | 12k | 16k |\n| Dialog    | 2k  | 15k | 17k |\n| Popover   | 6k  | 23k | 28k |\n| Radio Group | 1k | 11k | 14k |\n\nComparing the production version of Vimesh and Tailwind headless dialog example page size, Vimesh is much smaller with more features and less bugs (check the menu display in the tailwind popup dialog). \n\n* Vimesh (192k) \n![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/vimesh001.png) \n* Tailwind (425k)\n![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/tailwind001.png)\n\n### Load only used components dynamically\nComponents are plain html files, which could be hosted anywhere, normally at CDN. They could be shared cross different projects without extra tree shaking magic. For example, the dialog basic example uses two components `hui-dialog` and `hui-menu`. Just load them asynchronously with `x-import`. Vimesh UI registers corresponding native custom elements and initialize them.\n",
+    "ContentSha": "8MKxm6519ETMs5ZbznK2jEaVlqNRGPAnuSSUrdue79M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Vimesh Headless UI\n## Características\nEsta es una implementación de Alpine.js de [Tailwind Headless UI](https://headlessui.com/). Construido con el framework [Vimesh UI](https://github.com/vimeshjs/vimesh-ui), Vimesh Headless UI tiene algunas características interesantes:\n### Ultra ligero\nVimesh Headless UI tiene un tamaño de código mucho más pequeño\n\n| Componentes   | Vimesh Headless UI   | Tailwind Headless UI para Vue | Tailwind Headless UI para React |\n| ----------- | -------------------- | -------- | ----- |\n| Listbox   | 8k  | 34k | 30k | \n| Combobox  | 9k  | 25k | 39k |\n| Menú      | 7k  | 18k | 20k |\n| Interruptor    | 0.6k | 5k | 6k |\n| Pestañas      | 4k  | 12k | 16k |\n| Diálogo    | 2k  | 15k | 17k |\n| Popover   | 6k  | 23k | 28k |\n| Grupo de Radio | 1k | 11k | 14k |\n\nComparando la versión de producción de Vimesh y Tailwind headless en la página de ejemplo de diálogo, Vimesh es mucho más pequeño con más características y menos errores (revisa la visualización del menú en el diálogo emergente de tailwind).\n\n* Vimesh (192k) \n![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/vimesh001.png) \n* Tailwind (425k)\n![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/tailwind001.png)\n\n### Carga dinámica solo de los componentes usados\nLos componentes son archivos HTML simples, que pueden alojarse en cualquier lugar, normalmente en un CDN. Pueden ser compartidos entre diferentes proyectos sin magia extra de tree shaking. Por ejemplo, el ejemplo básico de diálogo usa dos componentes `hui-dialog` y `hui-menu`. Simplemente cárgalos asincrónicamente con `x-import`. Vimesh UI registra los elementos personalizados nativos correspondientes y los inicializa.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "A+pwWl6l2inOiXHB59//boKx+GPZskQOOCbinGz4oL8=",
+        "originContent": "# Vimesh Headless UI",
+        "translatedContent": "# Vimesh Headless UI"
+      },
+      {
+        "row": 2,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Características"
+      },
+      {
+        "row": 3,
+        "rowsha": "MgA1NkInDtc4v3WALHfBQiwkczSfARDDZWrOIE2TCcA=",
+        "originContent": "This is Alpine.js implementation of [Tailwind Headless UI](https://headlessui.com/). Built with [Vimesh UI](https://github.com/vimeshjs/vimesh-ui) framework, Vimesh Headless UI has some nice features:",
+        "translatedContent": "Esta es una implementación de Alpine.js de [Tailwind Headless UI](https://headlessui.com/). Construido con el framework [Vimesh UI](https://github.com/vimeshjs/vimesh-ui), Vimesh Headless UI tiene algunas características interesantes:"
+      },
+      {
+        "row": 4,
+        "rowsha": "cNPKETLrlIaCo+8CfwXUcb7liB/zW7ATIVk1DtL1vfE=",
+        "originContent": "### Ultra lightweight ",
+        "translatedContent": "### Ultra ligero"
+      },
+      {
+        "row": 5,
+        "rowsha": "/Eagf2Fx91uAe9iW/V1aeTnP1K9c8mJpqr5nb0g1rEc=",
+        "originContent": "Vimesh Headless UI has much smaller code size",
+        "translatedContent": "Vimesh Headless UI tiene un tamaño de código mucho más pequeño"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ArAn3Qbam3NGPG0LBr4veJJOGX3moxVYoDj8Eiv5bsY=",
+        "originContent": "| Components   | Vimesh Headless UI   | Tailwind Headless UI for Vue | Tailwind Headless UI for React |",
+        "translatedContent": "| Componentes   | Vimesh Headless UI   | Tailwind Headless UI para Vue | Tailwind Headless UI para React |"
+      },
+      {
+        "row": 8,
+        "rowsha": "L53IoaGSnvOnPQZQTJ/hBc47TurBA0UcoaHsAf8jXCE=",
+        "originContent": "| ----------- | -------------------- | -------- | ----- |",
+        "translatedContent": "| ----------- | -------------------- | -------- | ----- |"
+      },
+      {
+        "row": 9,
+        "rowsha": "rVfYeD21KBbANOaJu9mUKN+Wo0G76bpDujZyHxoOI3M=",
+        "originContent": "| Listbox   | 8k  | 34k | 30k | ",
+        "translatedContent": "| Listbox   | 8k  | 34k | 30k | "
+      },
+      {
+        "row": 10,
+        "rowsha": "wpOokthIENtKfarYepvhhfMXPxh0E7tJg5Mn8/XahiI=",
+        "originContent": "| Combobox  | 9k  | 25k | 39k |",
+        "translatedContent": "| Combobox  | 9k  | 25k | 39k |"
+      },
+      {
+        "row": 11,
+        "rowsha": "jBQ7aVmxN9fl+UYEDmVe6TIET/oLUpUyt41uZKafLmE=",
+        "originContent": "| Menu      | 7k  | 18k | 20k |",
+        "translatedContent": "| Menú      | 7k  | 18k | 20k |"
+      },
+      {
+        "row": 12,
+        "rowsha": "isj+dR89ALXASlO8nJR7SiEV2W4na6YM4kLH1IJ92ak=",
+        "originContent": "| Switch    | 0.6k | 5k | 6k |",
+        "translatedContent": "| Interruptor    | 0.6k | 5k | 6k |"
+      },
+      {
+        "row": 13,
+        "rowsha": "ufRpM9ULlK8tACygezxiALs3YSavWvwOfGxS+EJYIjU=",
+        "originContent": "| Tabs      | 4k  | 12k | 16k |",
+        "translatedContent": "| Pestañas      | 4k  | 12k | 16k |"
+      },
+      {
+        "row": 14,
+        "rowsha": "Pr61u3gPBkmWO5cD9yg2o6IY1q6C884LWdFraHJt/u8=",
+        "originContent": "| Dialog    | 2k  | 15k | 17k |",
+        "translatedContent": "| Diálogo    | 2k  | 15k | 17k |"
+      },
+      {
+        "row": 15,
+        "rowsha": "NavC43ScByFUzQyP+JieJJoNHVWOtroe+J5ed93Pgz4=",
+        "originContent": "| Popover   | 6k  | 23k | 28k |",
+        "translatedContent": "| Popover   | 6k  | 23k | 28k |"
+      },
+      {
+        "row": 16,
+        "rowsha": "Jov/ybRVXBC2cA48Piaj0RmyalGzUPUD+JboerMf5y4=",
+        "originContent": "| Radio Group | 1k | 11k | 14k |",
+        "translatedContent": "| Grupo de Radio | 1k | 11k | 14k |"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "5pjLzhSfTpSwd6R5sfGiyZLdf4uZfXkq8Kz2n9B9LGY=",
+        "originContent": "Comparing the production version of Vimesh and Tailwind headless dialog example page size, Vimesh is much smaller with more features and less bugs (check the menu display in the tailwind popup dialog). ",
+        "translatedContent": "Comparando la versión de producción de Vimesh y Tailwind headless en la página de ejemplo de diálogo, Vimesh es mucho más pequeño con más características y menos errores (revisa la visualización del menú en el diálogo emergente de tailwind)."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "FvaLtsp689MX2XHI3E85L5/AieoptT44QwQ2ZX5i+Rk=",
+        "originContent": "* Vimesh (192k) ",
+        "translatedContent": "* Vimesh (192k) "
+      },
+      {
+        "row": 21,
+        "rowsha": "sblikaSKs7Tf5cAupSTsXLi+xgCtC3JvHddX3C8vD28=",
+        "originContent": "![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/vimesh001.png) ",
+        "translatedContent": "![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/vimesh001.png) "
+      },
+      {
+        "row": 22,
+        "rowsha": "LQkEZmRuwJOxXODl4Po2UtOlIhmq0ZZjuNyhGKwAw78=",
+        "originContent": "* Tailwind (425k)",
+        "translatedContent": "* Tailwind (425k)"
+      },
+      {
+        "row": 23,
+        "rowsha": "lNOHqX+AO3trEza0MgkwQQ2ibgEkYZSa1HgYNOLJ41k=",
+        "originContent": "![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/tailwind001.png)",
+        "translatedContent": "![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/tailwind001.png)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "oiLhNbvOvtVG8qYn75T58K2KkX8Qv/J3Robew2E7ljI=",
+        "originContent": "### Load only used components dynamically",
+        "translatedContent": "### Carga dinámica solo de los componentes usados"
+      },
+      {
+        "row": 26,
+        "rowsha": "upNa9Gi5dWNKVodKOBif5ZoBV/cYE6ZL4oCndLBSQpw=",
+        "originContent": "Components are plain html files, which could be hosted anywhere, normally at CDN. They could be shared cross different projects without extra tree shaking magic. For example, the dialog basic example uses two components `hui-dialog` and `hui-menu`. Just load them asynchronously with `x-import`. Vimesh UI registers corresponding native custom elements and initialize them.",
+        "translatedContent": "Los componentes son archivos HTML simples, que pueden alojarse en cualquier lugar, normalmente en un CDN. Pueden ser compartidos entre diferentes proyectos sin magia extra de tree shaking. Por ejemplo, el ejemplo básico de diálogo usa dos componentes `hui-dialog` y `hui-menu`. Simplemente cárgalos asincrónicamente con `x-import`. Vimesh UI registra los elementos personalizados nativos correspondientes y los inicializa."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```html\n<template x-component:page=\"dialog-basic\" x-import=\"hui:dialog,menu\" x-data=\"setupDialogBasicData()\"\n    class=\"overflow-y-auto\">\n    ...\n    <hui-dialog :open=\"isOpen\" @close=\"setIsOpen(false)\">\n        ...\n        <hui-menu>\n        </hui-menu>\n    </hui-dialog>\n    ...\n</template>\n```",
+    "ContentSha": "0xwgTiOjQ6ImEC8zWWoTZMyC3F32SgUzWPdkPen4eBo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<template x-component:page=\"dialog-basic\" x-import=\"hui:dialog,menu\" x-data=\"setupDialogBasicData()\"\n    class=\"overflow-y-auto\">\n    ...\n    <hui-dialog :open=\"isOpen\" @close=\"setIsOpen(false)\">\n        ...\n        <hui-menu>\n        </hui-menu>\n    </hui-dialog>\n    ...\n</template>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "nmm078qCvIXdvd2iBORBEfHlvdRG472vDSclqGXMBMQ=",
+        "originContent": "<template x-component:page=\"dialog-basic\" x-import=\"hui:dialog,menu\" x-data=\"setupDialogBasicData()\"",
+        "translatedContent": "<template x-component:page=\"dialog-basic\" x-import=\"hui:dialog,menu\" x-data=\"setupDialogBasicData()\""
+      },
+      {
+        "row": 3,
+        "rowsha": "c6x62h/aebIMxygbaNUuMQmg9R4jNn6N5bFeLwj9Jw0=",
+        "originContent": "    class=\"overflow-y-auto\">",
+        "translatedContent": "    class=\"overflow-y-auto\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+        "originContent": "    ...",
+        "translatedContent": "    ..."
+      },
+      {
+        "row": 5,
+        "rowsha": "tLFlRl67bvQfoR5scMJuDP/oeDlQpW38RpD2SDOIxTQ=",
+        "originContent": "    <hui-dialog :open=\"isOpen\" @close=\"setIsOpen(false)\">",
+        "translatedContent": "    <hui-dialog :open=\"isOpen\" @close=\"setIsOpen(false)\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "MgOoEvhv2bLKT2kQJfXS1Ou/EcfJNQpxe2yrpM1q8yQ=",
+        "originContent": "        ...",
+        "translatedContent": "        ..."
+      },
+      {
+        "row": 7,
+        "rowsha": "TAD5N7cXT7FdzUAC4+7wy2ZohasY3Pz7J2yc4pC5lME=",
+        "originContent": "        <hui-menu>",
+        "translatedContent": "        <hui-menu>"
+      },
+      {
+        "row": 8,
+        "rowsha": "LBYpKntNt+dSq0wltUAPC0QAz/2rFvRizPMxR+pvwYY=",
+        "originContent": "        </hui-menu>",
+        "translatedContent": "        </hui-menu>"
+      },
+      {
+        "row": 9,
+        "rowsha": "K4+d5Jv3Pv9XiNKEwsK1F8QTCoJPo3Yxk3ppQgEk8uc=",
+        "originContent": "    </hui-dialog>",
+        "translatedContent": "    </hui-dialog>"
+      },
+      {
+        "row": 10,
+        "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+        "originContent": "    ...",
+        "translatedContent": "    ..."
+      },
+      {
+        "row": 11,
+        "rowsha": "gADIfArf+0AI9UvMusq6n+ATIvVjKRPKaMwvB5xz17c=",
+        "originContent": "</template>",
+        "translatedContent": "</template>"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### No build, no bundle\nWhat you write is what you get. Organize components to html files under meaningful namespaces. You do not need webpack, rollup, vite etc. \n\n## Getting Started\n### Development mode\nInstall development dependencies, including alpinejs, @vimesh/style, @vimesh/ui, universal-router and http-server.",
+    "ContentSha": "hG4x6N76kNNNbG8nlcaaN65f7nCBabzuZwI75AbEIRE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Sin compilación, sin paquete\nLo que escribes es lo que obtienes. Organiza los componentes en archivos html bajo espacios de nombres significativos. No necesitas webpack, rollup, vite, etc. \n\n## Comenzando\n### Modo de desarrollo\nInstala las dependencias de desarrollo, incluyendo alpinejs, @vimesh/style, @vimesh/ui, universal-router y http-server.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "j9ADXrrcUWuMufjmPrm53WZYUrtOivpxG3hNfCES4lc=",
+        "originContent": "### No build, no bundle",
+        "translatedContent": "### Sin compilación, sin paquete"
+      },
+      {
+        "row": 3,
+        "rowsha": "DS7vabZxo2O4j0AzCo+wXrSD0a0ifVro8Pj2lh0rYpE=",
+        "originContent": "What you write is what you get. Organize components to html files under meaningful namespaces. You do not need webpack, rollup, vite etc. ",
+        "translatedContent": "Lo que escribes es lo que obtienes. Organiza los componentes en archivos html bajo espacios de nombres significativos. No necesitas webpack, rollup, vite, etc. "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## Comenzando"
+      },
+      {
+        "row": 6,
+        "rowsha": "EK1Ed52ZajVWLicYnliPtCCSwTXHmB4/3vdAy7VW5NQ=",
+        "originContent": "### Development mode",
+        "translatedContent": "### Modo de desarrollo"
+      },
+      {
+        "row": 7,
+        "rowsha": "hH4zw+3eatmRNisoPgckkMFqxi2JftV0l5p3z5cJjr4=",
+        "originContent": "Install development dependencies, including alpinejs, @vimesh/style, @vimesh/ui, universal-router and http-server.",
+        "translatedContent": "Instala las dependencias de desarrollo, incluyendo alpinejs, @vimesh/style, @vimesh/ui, universal-router y http-server."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nyarn\n```",
+    "ContentSha": "lYi29xnrGQC3Izp9zgv/SG5NlGNIunGUgtGkNgaSFl4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nyarn\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "7E5Zi9DzEqfEm/g5hLcBdvMRrxQqR8o1TzVCT7efK/0=",
+        "originContent": "yarn",
+        "translatedContent": "yarn"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "Run static http server",
+    "ContentSha": "WoyeLCT+a/nuRtuvTiEg4uc70jFFQuzTstxKGGtNPPw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Ejecutar servidor http estático",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WoyeLCT+a/nuRtuvTiEg4uc70jFFQuzTstxKGGtNPPw=",
+        "originContent": "Run static http server",
+        "translatedContent": "Ejecutar servidor http estático"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nyarn dev\n```",
+    "ContentSha": "d74FqgonHS1sSGmTdbVPuFTJ9h7EfUEfOWC2rBh+3RQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nyarn dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "lM0LT8xyC/N1nmR6dGIgchPO+o/ETNiEEme3ay07B+4=",
+        "originContent": "yarn dev",
+        "translatedContent": "yarn dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "Open the url `http://127.0.0.1:8080/playground/dev.html`\n\nIt shows an index page\n![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/vimesh002.jpg)\n\nThere are many examples for different components with relative source code.\n\n![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/vimesh003.jpg)\n\nIt uses development version of alpinejs and @vimesh/ui in the node_modules folder. \n\n### Production mode\nPlease check `playground/index.html`, which use the latest alpinejs and @vimesh/ui at `unpkg.com`. In fact it is also what you would do if you use Vimesh Headless UI in your real projects.",
+    "ContentSha": "FE1NZepazYl6MimiTBbGA4YWRnDUhMtEkzLhgekcNxs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Abra la URL `http://127.0.0.1:8080/playground/dev.html`\n\nMuestra una página de índice\n![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/vimesh002.jpg)\n\nHay muchos ejemplos para diferentes componentes con el código fuente relativo.\n\n![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/vimesh003.jpg)\n\nUtiliza la versión de desarrollo de alpinejs y @vimesh/ui en la carpeta node_modules.\n\n### Modo de producción\nPor favor, consulte `playground/index.html`, que usa la última versión de alpinejs y @vimesh/ui en `unpkg.com`. De hecho, también es lo que haría si usa Vimesh Headless UI en sus proyectos reales.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "yDBaIzTcLwlqsZcp2QVLGrgNIk1CcGHpQpTqH1eR47Q=",
+        "originContent": "Open the url `http://127.0.0.1:8080/playground/dev.html`",
+        "translatedContent": "Abra la URL `http://127.0.0.1:8080/playground/dev.html`"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "m1RVCc1CNHuQD7HUwJR6K2CORIfS6t7ZTKt33lWA+po=",
+        "originContent": "It shows an index page",
+        "translatedContent": "Muestra una página de índice"
+      },
+      {
+        "row": 4,
+        "rowsha": "Vfx/Fg31nwDnLqhNxdTGBrXO2p2JcVvZveE4n8wQGP8=",
+        "originContent": "![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/vimesh002.jpg)",
+        "translatedContent": "![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/vimesh002.jpg)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "KRF7GAN6OqqevgYnIdqcpypiNFz94qxPkB+ttGr9rHo=",
+        "originContent": "There are many examples for different components with relative source code.",
+        "translatedContent": "Hay muchos ejemplos para diferentes componentes con el código fuente relativo."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "FVN5IcVg7qCXANPYAKEMRTDLlyGyyPDQcGOajnbrnro=",
+        "originContent": "![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/vimesh003.jpg)",
+        "translatedContent": "![](https://raw.githubusercontent.com/vimeshjs/vimesh-headless/master/./assets/vimesh003.jpg)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "MITU4FA6nx88/7BVohP3L4zZCCZ892LoM7KPkhIlNqE=",
+        "originContent": "It uses development version of alpinejs and @vimesh/ui in the node_modules folder. ",
+        "translatedContent": "Utiliza la versión de desarrollo de alpinejs y @vimesh/ui en la carpeta node_modules."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "anmjr2eJprljkaeXEU3IV/y0RYkwRaiTh7LqFl3D3I0=",
+        "originContent": "### Production mode",
+        "translatedContent": "### Modo de producción"
+      },
+      {
+        "row": 13,
+        "rowsha": "NQW11aBTiVjresdWul4aTBVr9XZvGFrXTH+F9Nuup1k=",
+        "originContent": "Please check `playground/index.html`, which use the latest alpinejs and @vimesh/ui at `unpkg.com`. In fact it is also what you would do if you use Vimesh Headless UI in your real projects.",
+        "translatedContent": "Por favor, consulte `playground/index.html`, que usa la última versión de alpinejs y @vimesh/ui en `unpkg.com`. De hecho, también es lo que haría si usa Vimesh Headless UI en sus proyectos reales."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "``` html\n<head>\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"./assets/favicon.ico\">\n\n    <script src=\"https://unpkg.com/@vimesh/style\"></script>\n    <script src=\"https://unpkg.com/@vimesh/ui\"></script>\n    <script src=\"https://unpkg.com/alpinejs\" defer></script>\n    <script src=\"https://unpkg.com/universal-router/universal-router.min.js\"></script>\n\n    <script>\n        const DEBUG = false\n        $vui.config.debug = DEBUG\n        $vui.config.importMap = {\n            \"hui\": '../components/${component}.html' + (DEBUG ? '?v=' + new Date().valueOf() : '?v=0.1'),\n            \"app\": './components/${path}${component}.html' + (DEBUG ? '?v=' + new Date().valueOf() : '?v=0.1'),\n            \"page\": './pages/${path}${component}.html' + (DEBUG ? '?v=' + new Date().valueOf() : '?v=0.1'),\n        }\n    </script>\n    ...\n</head>\n```",
+    "ContentSha": "fX+wMdkwm5/fmp0gteD67ilhYb7uoDZabw/hNYyHHMU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` html\n<head>\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"./assets/favicon.ico\">\n\n    <script src=\"https://unpkg.com/@vimesh/style\"></script>\n    <script src=\"https://unpkg.com/@vimesh/ui\"></script>\n    <script src=\"https://unpkg.com/alpinejs\" defer></script>\n    <script src=\"https://unpkg.com/universal-router/universal-router.min.js\"></script>\n\n    <script>\n        const DEBUG = false\n        $vui.config.debug = DEBUG\n        $vui.config.importMap = {\n            \"hui\": '../components/${component}.html' + (DEBUG ? '?v=' + new Date().valueOf() : '?v=0.1'),\n            \"app\": './components/${path}${component}.html' + (DEBUG ? '?v=' + new Date().valueOf() : '?v=0.1'),\n            \"page\": './pages/${path}${component}.html' + (DEBUG ? '?v=' + new Date().valueOf() : '?v=0.1'),\n        }\n    </script>\n    ...\n</head>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "vOmPYZyQuXwTl1OAuym1f9ngDQFj1vsE2Un+YUYfuIs=",
+        "originContent": "``` html",
+        "translatedContent": "``` html"
+      },
+      {
+        "row": 2,
+        "rowsha": "zlGczMOM8ivYJXmRDd/csA9XJjc9rlr4cEixVzA+jyc=",
+        "originContent": "<head>",
+        "translatedContent": "<head>"
+      },
+      {
+        "row": 3,
+        "rowsha": "uLcPb+NFyTXn5IxJ7MMBckq5iuhT3HxdM6M7UZtwSRo=",
+        "originContent": "    <link rel=\"icon\" type=\"image/x-icon\" href=\"./assets/favicon.ico\">",
+        "translatedContent": "    <link rel=\"icon\" type=\"image/x-icon\" href=\"./assets/favicon.ico\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "fztSdjDqjZwxy5WR5o/tqUpZjEqVBIzq2PODxWhCEmQ=",
+        "originContent": "    <script src=\"https://unpkg.com/@vimesh/style\"></script>",
+        "translatedContent": "    <script src=\"https://unpkg.com/@vimesh/style\"></script>"
+      },
+      {
+        "row": 6,
+        "rowsha": "aXW+CX9watp45Zc7VHcQkgqM7kf4YbCtST4KC5P8odA=",
+        "originContent": "    <script src=\"https://unpkg.com/@vimesh/ui\"></script>",
+        "translatedContent": "    <script src=\"https://unpkg.com/@vimesh/ui\"></script>"
+      },
+      {
+        "row": 7,
+        "rowsha": "3r+bG+1mCj5uMA/J69YSwtlWPxYWLrYuLmZN5kDDqSg=",
+        "originContent": "    <script src=\"https://unpkg.com/alpinejs\" defer></script>",
+        "translatedContent": "    <script src=\"https://unpkg.com/alpinejs\" defer></script>"
+      },
+      {
+        "row": 8,
+        "rowsha": "E54ThSAEtUmcw2Oh+Jfb3C/ixm7OZZPV5b2ru7BbEug=",
+        "originContent": "    <script src=\"https://unpkg.com/universal-router/universal-router.min.js\"></script>",
+        "translatedContent": "    <script src=\"https://unpkg.com/universal-router/universal-router.min.js\"></script>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "mw6ACaI7TRqOj2Q6WrXA0cnzbJu8/52m28gPIQOB6iE=",
+        "originContent": "    <script>",
+        "translatedContent": "    <script>"
+      },
+      {
+        "row": 11,
+        "rowsha": "pQoC2m4UGSROyQ/f3ljO0TCE5ShGIzlKLGBOlA3zvfs=",
+        "originContent": "        const DEBUG = false",
+        "translatedContent": "        const DEBUG = false"
+      },
+      {
+        "row": 12,
+        "rowsha": "bVN1kJc0s2Jgvak4UiYXbCUUHOW019PVK+wLfHVi0SA=",
+        "originContent": "        $vui.config.debug = DEBUG",
+        "translatedContent": "        $vui.config.debug = DEBUG"
+      },
+      {
+        "row": 13,
+        "rowsha": "OuozMtMdhiuJv8lyjvYEhmMjmw5FmYIGlGS0PbDPb0U=",
+        "originContent": "        $vui.config.importMap = {",
+        "translatedContent": "        $vui.config.importMap = {"
+      },
+      {
+        "row": 14,
+        "rowsha": "HgZhL+vUBmjIxMZvS76l2UrYsKYLEL3W16AKyEL9Tqw=",
+        "originContent": "            \"hui\": '../components/${component}.html' + (DEBUG ? '?v=' + new Date().valueOf() : '?v=0.1'),",
+        "translatedContent": "            \"hui\": '../components/${component}.html' + (DEBUG ? '?v=' + new Date().valueOf() : '?v=0.1'),"
+      },
+      {
+        "row": 15,
+        "rowsha": "muox0nmlAcfEbMPALkYVFMUpditRp3APM/Tp95d1BW4=",
+        "originContent": "            \"app\": './components/${path}${component}.html' + (DEBUG ? '?v=' + new Date().valueOf() : '?v=0.1'),",
+        "translatedContent": "            \"app\": './components/${path}${component}.html' + (DEBUG ? '?v=' + new Date().valueOf() : '?v=0.1'),"
+      },
+      {
+        "row": 16,
+        "rowsha": "KuEcLkILlXswRvgnkQ1jWIXGMhLSjTRJvHtHzXDgB2g=",
+        "originContent": "            \"page\": './pages/${path}${component}.html' + (DEBUG ? '?v=' + new Date().valueOf() : '?v=0.1'),",
+        "translatedContent": "            \"page\": './pages/${path}${component}.html' + (DEBUG ? '?v=' + new Date().valueOf() : '?v=0.1'),"
+      },
+      {
+        "row": 17,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 18,
+        "rowsha": "qM2s2qPTW4aTSV9H3ETTODlLyXdwyJ9vMINLT3fQLFA=",
+        "originContent": "    </script>",
+        "translatedContent": "    </script>"
+      },
+      {
+        "row": 19,
+        "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+        "originContent": "    ...",
+        "translatedContent": "    ..."
+      },
+      {
+        "row": 20,
+        "rowsha": "aesxEatlAAiLzA9csEP0Ur17eAG9zXsOR4wvxFT9ugo=",
+        "originContent": "</head>",
+        "translatedContent": "</head>"
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n[Online Playground](https://unpkg.com/@vimesh/headless/playground/index.html)\n\nYes, the online playground are 100% plain html hosted at `unpkg.com`. It is very old school style, right? Let's make frondend development back to what it should be.",
+    "ContentSha": "SPXuB78MTz/fEKztYBzX+yBEuEt1tEPfWWBTi/DEoGk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n[Online Playground](https://unpkg.com/@vimesh/headless/playground/index.html)\n\nYes, the online playground are 100% plain html hosted at `unpkg.com`. It is very old school style, right? Let's make frondend development back to what it should be.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ecKYZGwCDBiAGQiuEIJzFPoZekT4xrkCfllswZ8bVVs=",
+        "originContent": "[Online Playground](https://unpkg.com/@vimesh/headless/playground/index.html)",
+        "translatedContent": "[Online Playground](https://unpkg.com/@vimesh/headless/playground/index.html)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "xi007OdgGhKHkzIDi7ct5Mk4wvUwXUUg9UgLWiu/RmQ=",
+        "originContent": "Yes, the online playground are 100% plain html hosted at `unpkg.com`. It is very old school style, right? Let's make frondend development back to what it should be.",
+        "translatedContent": "Yes, the online playground are 100% plain html hosted at `unpkg.com`. It is very old school style, right? Let's make frondend development back to what it should be."
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

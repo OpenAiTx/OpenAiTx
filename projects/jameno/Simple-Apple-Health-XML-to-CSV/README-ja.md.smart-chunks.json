@@ -1,0 +1,364 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Simple Apple Health XML to CSV\n\nA simple script to convert Apple Health's export.xml file to an easy to use csv.\n\n\n\n## How to Run \n\n### 1. Verify you have Python 3 & Pandas installed on your machine or environment\n\n`python --version` should return _Python 3.x.x_ where x is any number. \n\nIf you have Python 2.x.x, please upgrade to Python 3 here: https://www.python.org/downloads/ (or specify your environment's Python version)\n\n`python3 -c \"import pandas\"` should return blank from the command line\n\nIf you get a _**ModuleNotFoundError: No module named 'pandas'**_ error, install pandas and try again:\n\n`pip3 install pandas`\n\n\n### 2. Export your Apple Health Data\n\n| Health Home | ➡️ | Export Data |\n|--|--|--|\n|<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/health_home.jpg\" width=300>||<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/export_data_button.jpg\" width = 300 >|\n\nYour data will be prepared, and then you can transfer the export.zip file to your machine.\n\n### 3. Unzip the file, which should contain:\n\n   * apple_health_export\n     * export.xml (This is the file with your data that you want to convert)\n     \n     * export_cda.xml\n     \n       \n\n### 4. Place the \"apple_health_xml_convert.py\" file from this repo into the folder alongside the files and run the script\n",
+    "ContentSha": "pRfGjH5JeTlou2k49JDbdppXG68Jgh2ZLkgGltPV9Wo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# シンプルなApple Health XMLからCSVへの変換\n\nApple Healthのexport.xmlファイルを使いやすいcsvに変換する簡単なスクリプトです。\n\n\n\n## 実行方法\n\n### 1. マシンまたは環境にPython 3とPandasがインストールされていることを確認\n\n`python --version` は _Python 3.x.x_ を返すはずです。xは任意の数字です。\n\nもしPython 2.x.xの場合は、こちらからPython 3にアップグレードしてください：https://www.python.org/downloads/ （または環境のPythonバージョンを指定）\n\n`python3 -c \"import pandas\"` はコマンドラインで何も返さないはずです。\n\nもし _**ModuleNotFoundError: No module named 'pandas'**_ エラーが出る場合は、pandasをインストールして再試行してください：\n\n`pip3 install pandas`\n\n\n### 2. Apple Healthデータをエクスポートする\n\n| Health Home | ➡️ | Export Data |\n|--|--|--|\n|<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/health_home.jpg\" width=300>||<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/export_data_button.jpg\" width = 300 >|\n\nデータが準備され、その後export.zipファイルをマシンに転送できます。\n\n### 3. ファイルを解凍すると、以下が含まれているはずです：\n\n   * apple_health_export\n     * export.xml（変換したいデータが入ったファイルです）\n     \n     * export_cda.xml\n     \n       \n\n### 4. このリポジトリの\"apple_health_xml_convert.py\"ファイルをこれらのファイルと同じフォルダに置き、スクリプトを実行してください\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "hibwDWz39Jc7n09zeajHid3QWSR0tn+VHRYJRZC5CyE=",
+        "originContent": "# Simple Apple Health XML to CSV",
+        "translatedContent": "# シンプルなApple Health XMLからCSVへの変換"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "BF1wd4k+c1CWWD8a4yPiI2HqKm3BR5kd2Ekq8XNDjXQ=",
+        "originContent": "A simple script to convert Apple Health's export.xml file to an easy to use csv.",
+        "translatedContent": "Apple Healthのexport.xmlファイルを使いやすいcsvに変換する簡単なスクリプトです。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "huAhrm5iIcy5YCNqS/vTUKT1+fsDkXFA3rHISJPOmu4=",
+        "originContent": "## How to Run ",
+        "translatedContent": "## 実行方法"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "nnQziZ1ADM5XltY7o3bFL3qSw7s6FsHHDpO8fCG7YnU=",
+        "originContent": "### 1. Verify you have Python 3 & Pandas installed on your machine or environment",
+        "translatedContent": "### 1. マシンまたは環境にPython 3とPandasがインストールされていることを確認"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "fiy+qOILo9kQe2PTp7MMKJnOSrej97ht7zYl3ODJnR4=",
+        "originContent": "`python --version` should return _Python 3.x.x_ where x is any number. ",
+        "translatedContent": "`python --version` は _Python 3.x.x_ を返すはずです。xは任意の数字です。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "xY5QJEec6SL6yOI7fMr0+MhqaGHx6uWguNToXDkQHJg=",
+        "originContent": "If you have Python 2.x.x, please upgrade to Python 3 here: https://www.python.org/downloads/ (or specify your environment's Python version)",
+        "translatedContent": "もしPython 2.x.xの場合は、こちらからPython 3にアップグレードしてください：https://www.python.org/downloads/ （または環境のPythonバージョンを指定）"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "oSNBSSKaklu5s/lDgY+VCUx+XPGjdSMG2GAu7DzbB6o=",
+        "originContent": "`python3 -c \"import pandas\"` should return blank from the command line",
+        "translatedContent": "`python3 -c \"import pandas\"` はコマンドラインで何も返さないはずです。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "ueU6ohKQOAxqRMZ2KEkIKGb6HGvx5oJboqJ0qqq/skc=",
+        "originContent": "If you get a _**ModuleNotFoundError: No module named 'pandas'**_ error, install pandas and try again:",
+        "translatedContent": "もし _**ModuleNotFoundError: No module named 'pandas'**_ エラーが出る場合は、pandasをインストールして再試行してください："
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "vF/V2FCzHjtaYvxSTtN/Yi9Kyv8z/fpV632oirUQGM4=",
+        "originContent": "`pip3 install pandas`",
+        "translatedContent": "`pip3 install pandas`"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "/Wt03jx9aswQycq7cnR+C9vqU0IOE3SwodbVi3eJ9BI=",
+        "originContent": "### 2. Export your Apple Health Data",
+        "translatedContent": "### 2. Apple Healthデータをエクスポートする"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "IoHpUSzBWIMNN82gXPIo5dKQD9v4/h1C9QL+ukTHCbE=",
+        "originContent": "| Health Home | ➡️ | Export Data |",
+        "translatedContent": "| Health Home | ➡️ | Export Data |"
+      },
+      {
+        "row": 25,
+        "rowsha": "S9MOBjViM/N6yByXHICvTw0gv8UAYwmLZVdsZ6A34OM=",
+        "originContent": "|--|--|--|",
+        "translatedContent": "|--|--|--|"
+      },
+      {
+        "row": 26,
+        "rowsha": "WHAZeFlpuYqCI7d3yRW0bisR65HmVUz7ku57XOdIR/A=",
+        "originContent": "|<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/health_home.jpg\" width=300>||<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/export_data_button.jpg\" width = 300 >|",
+        "translatedContent": "|<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/health_home.jpg\" width=300>||<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/export_data_button.jpg\" width = 300 >|"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "AX0Ri/JdbfQs2hYUBpuGM2o79vL3W7quFudKYpf9Y4A=",
+        "originContent": "Your data will be prepared, and then you can transfer the export.zip file to your machine.",
+        "translatedContent": "データが準備され、その後export.zipファイルをマシンに転送できます。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "qPo+xfAkpKDd/nviokuqn1OJA42MGtfYpUTB4I74Rwk=",
+        "originContent": "### 3. Unzip the file, which should contain:",
+        "translatedContent": "### 3. ファイルを解凍すると、以下が含まれているはずです："
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "V+sgF+Hg2+jqsB+s0BdtU6ahfAXId1FUSB8L4cUWtrk=",
+        "originContent": "   * apple_health_export",
+        "translatedContent": "   * apple_health_export"
+      },
+      {
+        "row": 33,
+        "rowsha": "B0+Zw2TP+lTXW4yW1mkbCVPeWXrRA1Dc4WU08LrbsNA=",
+        "originContent": "     * export.xml (This is the file with your data that you want to convert)",
+        "translatedContent": "     * export.xml（変換したいデータが入ったファイルです）"
+      },
+      {
+        "row": 34,
+        "rowsha": "eHmYHU8iao8BkdNnMMByBdel/xx4D8qbL5BfJSZM9jY=",
+        "originContent": "     ",
+        "translatedContent": "     "
+      },
+      {
+        "row": 35,
+        "rowsha": "6Kn8SIPhJE6nXOXCnr6M6lh6MFgfFygc2o98LlBwRv4=",
+        "originContent": "     * export_cda.xml",
+        "translatedContent": "     * export_cda.xml"
+      },
+      {
+        "row": 36,
+        "rowsha": "eHmYHU8iao8BkdNnMMByBdel/xx4D8qbL5BfJSZM9jY=",
+        "originContent": "     ",
+        "translatedContent": "     "
+      },
+      {
+        "row": 37,
+        "rowsha": "kKUSpbihBwZcEeEDqtnEqdm8X4uSrE2WLELcwQEPnds=",
+        "originContent": "       ",
+        "translatedContent": "       "
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "7mKD8lRpCWfMtDPNIjIOf0ZDyeScH2qdVf4aPML/K5E=",
+        "originContent": "### 4. Place the \"apple_health_xml_convert.py\" file from this repo into the folder alongside the files and run the script",
+        "translatedContent": "### 4. このリポジトリの\"apple_health_xml_convert.py\"ファイルをこれらのファイルと同じフォルダに置き、スクリプトを実行してください"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "`python3 apple_health_xml_convert.py`\n\n\n\nThe export will be written with the format:\n\n* **apple_health_export_YYYY-MM-DD.csv**\n\n  \n\nIn Excel, the output should look something like this:\n\n<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/example_output.jpg\">\n\nNote: This script removes the Apple Health data prefixes: `HKQuantityTypeIdentifier`, `HKCategoryTypeIdentifier`, and `HKCharacteristicTypeIdentifier` for increased legibility. Feel free to comment out those lines in the code with a `#` if you want to keep them in the CSV output.\n",
+    "ContentSha": "C8sAvxyMjM9l386fvDc4ycqVnAXacACd43Tvi27Sjgc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`python3 apple_health_xml_convert.py`\n\n\n\nエクスポートは次の形式で書き込まれます：\n\n* **apple_health_export_YYYY-MM-DD.csv**\n\n  \n\nExcelでは、出力は次のように表示されます：\n\n<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/example_output.jpg\">\n\n注意：このスクリプトはApple Healthデータのプレフィックスである `HKQuantityTypeIdentifier`、`HKCategoryTypeIdentifier`、および `HKCharacteristicTypeIdentifier` を可読性向上のために削除します。CSV出力にそれらを残したい場合は、コード内の該当行を `#` でコメントアウトしてください。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "zPS457J1uNwkjGvP3Xb7YcVX7FChspPKXQP1KNeNfxA=",
+        "originContent": "`python3 apple_health_xml_convert.py`",
+        "translatedContent": "`python3 apple_health_xml_convert.py`"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "RmxiNnGtMDkcu1V9zG2TR03+/XO7mKU0fmdXQk4oWZ0=",
+        "originContent": "The export will be written with the format:",
+        "translatedContent": "エクスポートは次の形式で書き込まれます："
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "88eQZCi6JMLVDS/wpi9QT1ZEqzo4jruDE2V1/+wCQtA=",
+        "originContent": "* **apple_health_export_YYYY-MM-DD.csv**",
+        "translatedContent": "* **apple_health_export_YYYY-MM-DD.csv**"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "TXxB0SifxFmBS8Lt7oj6dyjH2tvzdLwRrAIlF1x6c9M=",
+        "originContent": "In Excel, the output should look something like this:",
+        "translatedContent": "Excelでは、出力は次のように表示されます："
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "KNJD+NGrYAv0Zj/B0vA1ggzf8xxfHKu8mtzl0pxpzZo=",
+        "originContent": "<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/example_output.jpg\">",
+        "translatedContent": "<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/example_output.jpg\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "MH01dDOOPUhELQtAFjlueL7R14pcGtuSSN66KPThL68=",
+        "originContent": "Note: This script removes the Apple Health data prefixes: `HKQuantityTypeIdentifier`, `HKCategoryTypeIdentifier`, and `HKCharacteristicTypeIdentifier` for increased legibility. Feel free to comment out those lines in the code with a `#` if you want to keep them in the CSV output.",
+        "translatedContent": "注意：このスクリプトはApple Healthデータのプレフィックスである `HKQuantityTypeIdentifier`、`HKCategoryTypeIdentifier`、および `HKCharacteristicTypeIdentifier` を可読性向上のために削除します。CSV出力にそれらを残したい場合は、コード内の該当行を `#` でコメントアウトしてください。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

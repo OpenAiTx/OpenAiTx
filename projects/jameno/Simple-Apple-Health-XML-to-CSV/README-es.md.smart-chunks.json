@@ -1,0 +1,364 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Simple Apple Health XML to CSV\n\nA simple script to convert Apple Health's export.xml file to an easy to use csv.\n\n\n\n## How to Run \n\n### 1. Verify you have Python 3 & Pandas installed on your machine or environment\n\n`python --version` should return _Python 3.x.x_ where x is any number. \n\nIf you have Python 2.x.x, please upgrade to Python 3 here: https://www.python.org/downloads/ (or specify your environment's Python version)\n\n`python3 -c \"import pandas\"` should return blank from the command line\n\nIf you get a _**ModuleNotFoundError: No module named 'pandas'**_ error, install pandas and try again:\n\n`pip3 install pandas`\n\n\n### 2. Export your Apple Health Data\n\n| Health Home | ➡️ | Export Data |\n|--|--|--|\n|<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/health_home.jpg\" width=300>||<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/export_data_button.jpg\" width = 300 >|\n\nYour data will be prepared, and then you can transfer the export.zip file to your machine.\n\n### 3. Unzip the file, which should contain:\n\n   * apple_health_export\n     * export.xml (This is the file with your data that you want to convert)\n     \n     * export_cda.xml\n     \n       \n\n### 4. Place the \"apple_health_xml_convert.py\" file from this repo into the folder alongside the files and run the script\n",
+    "ContentSha": "pRfGjH5JeTlou2k49JDbdppXG68Jgh2ZLkgGltPV9Wo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Conversor Simple de Apple Health XML a CSV\n\nUn script simple para convertir el archivo export.xml de Apple Health en un csv fácil de usar.\n\n\n\n## Cómo Ejecutar \n\n### 1. Verifique que tenga Python 3 y Pandas instalados en su máquina o entorno\n\n`python --version` debería devolver _Python 3.x.x_ donde x es cualquier número. \n\nSi tiene Python 2.x.x, por favor actualice a Python 3 aquí: https://www.python.org/downloads/ (o especifique la versión de Python de su entorno)\n\n`python3 -c \"import pandas\"` debería no mostrar nada en la línea de comandos\n\nSi obtiene un error _**ModuleNotFoundError: No module named 'pandas'**_, instale pandas y pruebe de nuevo:\n\n`pip3 install pandas`\n\n\n### 2. Exporte sus datos de Apple Health\n\n| Inicio de Salud | ➡️ | Exportar Datos |\n|--|--|--|\n|<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/health_home.jpg\" width=300>||<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/export_data_button.jpg\" width = 300 >|\n\nSus datos serán preparados, y luego podrá transferir el archivo export.zip a su máquina.\n\n### 3. Descomprima el archivo, que debería contener:\n\n   * apple_health_export\n     * export.xml (Este es el archivo con sus datos que desea convertir)\n     \n     * export_cda.xml\n     \n       \n\n### 4. Coloque el archivo \"apple_health_xml_convert.py\" de este repositorio en la carpeta junto a los archivos y ejecute el script\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "hibwDWz39Jc7n09zeajHid3QWSR0tn+VHRYJRZC5CyE=",
+        "originContent": "# Simple Apple Health XML to CSV",
+        "translatedContent": "# Conversor Simple de Apple Health XML a CSV"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "BF1wd4k+c1CWWD8a4yPiI2HqKm3BR5kd2Ekq8XNDjXQ=",
+        "originContent": "A simple script to convert Apple Health's export.xml file to an easy to use csv.",
+        "translatedContent": "Un script simple para convertir el archivo export.xml de Apple Health en un csv fácil de usar."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "huAhrm5iIcy5YCNqS/vTUKT1+fsDkXFA3rHISJPOmu4=",
+        "originContent": "## How to Run ",
+        "translatedContent": "## Cómo Ejecutar "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "nnQziZ1ADM5XltY7o3bFL3qSw7s6FsHHDpO8fCG7YnU=",
+        "originContent": "### 1. Verify you have Python 3 & Pandas installed on your machine or environment",
+        "translatedContent": "### 1. Verifique que tenga Python 3 y Pandas instalados en su máquina o entorno"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "fiy+qOILo9kQe2PTp7MMKJnOSrej97ht7zYl3ODJnR4=",
+        "originContent": "`python --version` should return _Python 3.x.x_ where x is any number. ",
+        "translatedContent": "`python --version` debería devolver _Python 3.x.x_ donde x es cualquier número. "
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "xY5QJEec6SL6yOI7fMr0+MhqaGHx6uWguNToXDkQHJg=",
+        "originContent": "If you have Python 2.x.x, please upgrade to Python 3 here: https://www.python.org/downloads/ (or specify your environment's Python version)",
+        "translatedContent": "Si tiene Python 2.x.x, por favor actualice a Python 3 aquí: https://www.python.org/downloads/ (o especifique la versión de Python de su entorno)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "oSNBSSKaklu5s/lDgY+VCUx+XPGjdSMG2GAu7DzbB6o=",
+        "originContent": "`python3 -c \"import pandas\"` should return blank from the command line",
+        "translatedContent": "`python3 -c \"import pandas\"` debería no mostrar nada en la línea de comandos"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "ueU6ohKQOAxqRMZ2KEkIKGb6HGvx5oJboqJ0qqq/skc=",
+        "originContent": "If you get a _**ModuleNotFoundError: No module named 'pandas'**_ error, install pandas and try again:",
+        "translatedContent": "Si obtiene un error _**ModuleNotFoundError: No module named 'pandas'**_, instale pandas y pruebe de nuevo:"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "vF/V2FCzHjtaYvxSTtN/Yi9Kyv8z/fpV632oirUQGM4=",
+        "originContent": "`pip3 install pandas`",
+        "translatedContent": "`pip3 install pandas`"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "/Wt03jx9aswQycq7cnR+C9vqU0IOE3SwodbVi3eJ9BI=",
+        "originContent": "### 2. Export your Apple Health Data",
+        "translatedContent": "### 2. Exporte sus datos de Apple Health"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "IoHpUSzBWIMNN82gXPIo5dKQD9v4/h1C9QL+ukTHCbE=",
+        "originContent": "| Health Home | ➡️ | Export Data |",
+        "translatedContent": "| Inicio de Salud | ➡️ | Exportar Datos |"
+      },
+      {
+        "row": 25,
+        "rowsha": "S9MOBjViM/N6yByXHICvTw0gv8UAYwmLZVdsZ6A34OM=",
+        "originContent": "|--|--|--|",
+        "translatedContent": "|--|--|--|"
+      },
+      {
+        "row": 26,
+        "rowsha": "WHAZeFlpuYqCI7d3yRW0bisR65HmVUz7ku57XOdIR/A=",
+        "originContent": "|<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/health_home.jpg\" width=300>||<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/export_data_button.jpg\" width = 300 >|",
+        "translatedContent": "|<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/health_home.jpg\" width=300>||<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/export_data_button.jpg\" width = 300 >|"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "AX0Ri/JdbfQs2hYUBpuGM2o79vL3W7quFudKYpf9Y4A=",
+        "originContent": "Your data will be prepared, and then you can transfer the export.zip file to your machine.",
+        "translatedContent": "Sus datos serán preparados, y luego podrá transferir el archivo export.zip a su máquina."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "qPo+xfAkpKDd/nviokuqn1OJA42MGtfYpUTB4I74Rwk=",
+        "originContent": "### 3. Unzip the file, which should contain:",
+        "translatedContent": "### 3. Descomprima el archivo, que debería contener:"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "V+sgF+Hg2+jqsB+s0BdtU6ahfAXId1FUSB8L4cUWtrk=",
+        "originContent": "   * apple_health_export",
+        "translatedContent": "   * apple_health_export"
+      },
+      {
+        "row": 33,
+        "rowsha": "B0+Zw2TP+lTXW4yW1mkbCVPeWXrRA1Dc4WU08LrbsNA=",
+        "originContent": "     * export.xml (This is the file with your data that you want to convert)",
+        "translatedContent": "     * export.xml (Este es el archivo con sus datos que desea convertir)"
+      },
+      {
+        "row": 34,
+        "rowsha": "eHmYHU8iao8BkdNnMMByBdel/xx4D8qbL5BfJSZM9jY=",
+        "originContent": "     ",
+        "translatedContent": "     "
+      },
+      {
+        "row": 35,
+        "rowsha": "6Kn8SIPhJE6nXOXCnr6M6lh6MFgfFygc2o98LlBwRv4=",
+        "originContent": "     * export_cda.xml",
+        "translatedContent": "     * export_cda.xml"
+      },
+      {
+        "row": 36,
+        "rowsha": "eHmYHU8iao8BkdNnMMByBdel/xx4D8qbL5BfJSZM9jY=",
+        "originContent": "     ",
+        "translatedContent": "     "
+      },
+      {
+        "row": 37,
+        "rowsha": "kKUSpbihBwZcEeEDqtnEqdm8X4uSrE2WLELcwQEPnds=",
+        "originContent": "       ",
+        "translatedContent": "       "
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "7mKD8lRpCWfMtDPNIjIOf0ZDyeScH2qdVf4aPML/K5E=",
+        "originContent": "### 4. Place the \"apple_health_xml_convert.py\" file from this repo into the folder alongside the files and run the script",
+        "translatedContent": "### 4. Coloque el archivo \"apple_health_xml_convert.py\" de este repositorio en la carpeta junto a los archivos y ejecute el script"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "`python3 apple_health_xml_convert.py`\n\n\n\nThe export will be written with the format:\n\n* **apple_health_export_YYYY-MM-DD.csv**\n\n  \n\nIn Excel, the output should look something like this:\n\n<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/example_output.jpg\">\n\nNote: This script removes the Apple Health data prefixes: `HKQuantityTypeIdentifier`, `HKCategoryTypeIdentifier`, and `HKCharacteristicTypeIdentifier` for increased legibility. Feel free to comment out those lines in the code with a `#` if you want to keep them in the CSV output.\n",
+    "ContentSha": "C8sAvxyMjM9l386fvDc4ycqVnAXacACd43Tvi27Sjgc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`python3 apple_health_xml_convert.py`\n\n\n\nLa exportación se escribirá con el formato:\n\n* **apple_health_export_YYYY-MM-DD.csv**\n\n  \n\nEn Excel, la salida debería verse algo así:\n\n<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/example_output.jpg\">\n\nNota: Este script elimina los prefijos de datos de Apple Health: `HKQuantityTypeIdentifier`, `HKCategoryTypeIdentifier` y `HKCharacteristicTypeIdentifier` para mejorar la legibilidad. Si lo deseas, puedes comentar esas líneas en el código con un `#` para mantenerlos en la salida CSV.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "zPS457J1uNwkjGvP3Xb7YcVX7FChspPKXQP1KNeNfxA=",
+        "originContent": "`python3 apple_health_xml_convert.py`",
+        "translatedContent": "`python3 apple_health_xml_convert.py`"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "RmxiNnGtMDkcu1V9zG2TR03+/XO7mKU0fmdXQk4oWZ0=",
+        "originContent": "The export will be written with the format:",
+        "translatedContent": "La exportación se escribirá con el formato:"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "88eQZCi6JMLVDS/wpi9QT1ZEqzo4jruDE2V1/+wCQtA=",
+        "originContent": "* **apple_health_export_YYYY-MM-DD.csv**",
+        "translatedContent": "* **apple_health_export_YYYY-MM-DD.csv**"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "TXxB0SifxFmBS8Lt7oj6dyjH2tvzdLwRrAIlF1x6c9M=",
+        "originContent": "In Excel, the output should look something like this:",
+        "translatedContent": "En Excel, la salida debería verse algo así:"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "KNJD+NGrYAv0Zj/B0vA1ggzf8xxfHKu8mtzl0pxpzZo=",
+        "originContent": "<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/example_output.jpg\">",
+        "translatedContent": "<img style=\"float: left;\" src=\"https://raw.githubusercontent.com/jameno/Simple-Apple-Health-XML-to-CSV/master/img/example_output.jpg\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "MH01dDOOPUhELQtAFjlueL7R14pcGtuSSN66KPThL68=",
+        "originContent": "Note: This script removes the Apple Health data prefixes: `HKQuantityTypeIdentifier`, `HKCategoryTypeIdentifier`, and `HKCharacteristicTypeIdentifier` for increased legibility. Feel free to comment out those lines in the code with a `#` if you want to keep them in the CSV output.",
+        "translatedContent": "Nota: Este script elimina los prefijos de datos de Apple Health: `HKQuantityTypeIdentifier`, `HKCategoryTypeIdentifier` y `HKCharacteristicTypeIdentifier` para mejorar la legibilidad. Si lo deseas, puedes comentar esas líneas en el código con un `#` para mantenerlos en la salida CSV."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
