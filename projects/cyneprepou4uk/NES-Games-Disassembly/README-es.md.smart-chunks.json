@@ -1,0 +1,629 @@
+[
+  {
+    "Id": 1,
+    "Content": "# NES Games Disassembly\n\nEach source code is equal to the original ROM, compilable and editable.\n\nAll of them were made with my [BZK 6502 Disassembler](https://github.com/cyneprepou4uk/BZK-6502-Disassembler) scripts.\n\nYou can contact me at [RHDN](https://www.romhacking.net/forum/index.php?topic=32220.0) topic.\n\n\n\n## How to build a disassembly\n\n### Windows\n\nNo special requirements. Just launch `assemble.bat` and wait until it's done.\n\n### Any other OS\n\nTry using `sh assemble.sh` in terminal instead. All credits goes to [gb-2312](https://github.com/gb-2312).\n\nDo not delete or edit `_scripts` and `_install_packages` folders, unless you know how it works.\n\n\n\n## Syntax highlighting\n\nUse `syntax_6502.xml` to highlight code in [Notepad++](https://notepad-plus-plus.org/).\n\nGo to Language -> User Defined Language -> Define your language -> Import.\n\n\n\n## How to edit a disassembly\n\nImportant comments are marked with `bzk` text. Start with deleting garbage to free up some space.\n\nAnd don't worry about stuff like `C - - - - - 0x00009C 00:C08C: A9 00     LDA #$00`.\n\n`preparations.lua` script will take care of it before compilation. You just write new code as usual, like this `LDA #$00`.\n",
+    "ContentSha": "stt2R7qfo8iY3y2mnW4i9hx78L6ACcyVIoXEL+qRGYE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Desensamblado de Juegos NES\n\nCada código fuente es igual al ROM original, compilable y editable.\n\nTodos fueron hechos con mis scripts de [BZK 6502 Disassembler](https://github.com/cyneprepou4uk/BZK-6502-Disassembler).\n\nPuedes contactarme en el tema de [RHDN](https://www.romhacking.net/forum/index.php?topic=32220.0).\n\n\n\n## Cómo construir un desensamblado\n\n### Windows\n\nNo se requieren requisitos especiales. Solo ejecuta `assemble.bat` y espera a que termine.\n\n### Cualquier otro SO\n\nIntenta usar `sh assemble.sh` en la terminal. Todos los créditos van para [gb-2312](https://github.com/gb-2312).\n\nNo elimines ni edites las carpetas `_scripts` y `_install_packages`, a menos que sepas cómo funcionan.\n\n\n\n## Resaltado de sintaxis\n\nUsa `syntax_6502.xml` para resaltar código en [Notepad++](https://notepad-plus-plus.org/).\n\nVe a Lenguaje -> Lenguaje definido por el usuario -> Define tu lenguaje -> Importar.\n\n\n\n## Cómo editar un desensamblado\n\nLos comentarios importantes están marcados con el texto `bzk`. Comienza eliminando basura para liberar espacio.\n\nY no te preocupes por cosas como `C - - - - - 0x00009C 00:C08C: A9 00     LDA #$00`.\n\nEl script `preparations.lua` se encargará de eso antes de la compilación. Solo escribe nuevo código como de costumbre, así: `LDA #$00`.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QsID90lMsqaJh4E+XUuvKnLhn1J9Ltb7BCKxJgzklCs=",
+        "originContent": "# NES Games Disassembly",
+        "translatedContent": "# Desensamblado de Juegos NES"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "hC/VGfdNt4RMB9fbElxLNJiTPDNcQgHrlxDBaXAuIkQ=",
+        "originContent": "Each source code is equal to the original ROM, compilable and editable.",
+        "translatedContent": "Cada código fuente es igual al ROM original, compilable y editable."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "TffpsflKbmZujNgvFOV0c+5G0cwEFnZ0kGUPR3vDIOY=",
+        "originContent": "All of them were made with my [BZK 6502 Disassembler](https://github.com/cyneprepou4uk/BZK-6502-Disassembler) scripts.",
+        "translatedContent": "Todos fueron hechos con mis scripts de [BZK 6502 Disassembler](https://github.com/cyneprepou4uk/BZK-6502-Disassembler)."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "jgEbyvqhv1pjghAdFSyQ3AqOKfqn4q4C5JHzpyfJFNU=",
+        "originContent": "You can contact me at [RHDN](https://www.romhacking.net/forum/index.php?topic=32220.0) topic.",
+        "translatedContent": "Puedes contactarme en el tema de [RHDN](https://www.romhacking.net/forum/index.php?topic=32220.0)."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "JCR3kMAcU6Cvv4snwK4KxJROwIp07YmYFS/lA+jVTeE=",
+        "originContent": "## How to build a disassembly",
+        "translatedContent": "## Cómo construir un desensamblado"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": "### Windows"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "beE4jzFz4wAJOyEhgXVeq5CRb8GLmvfT3OUWBfV5/i0=",
+        "originContent": "No special requirements. Just launch `assemble.bat` and wait until it's done.",
+        "translatedContent": "No se requieren requisitos especiales. Solo ejecuta `assemble.bat` y espera a que termine."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "HUBdurIVegLkBokcg8b8xYc8Z7jwuTvXG6U/8N9BnNY=",
+        "originContent": "### Any other OS",
+        "translatedContent": "### Cualquier otro SO"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "OCFV33HM+2G6duvjaUHiV2kn0rgOP3lA86ofTneFt1E=",
+        "originContent": "Try using `sh assemble.sh` in terminal instead. All credits goes to [gb-2312](https://github.com/gb-2312).",
+        "translatedContent": "Intenta usar `sh assemble.sh` en la terminal. Todos los créditos van para [gb-2312](https://github.com/gb-2312)."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "MHxTxt70Y/ygLKDx5XuRsIyPv5ZhDHQ2zIZDinSyxsA=",
+        "originContent": "Do not delete or edit `_scripts` and `_install_packages` folders, unless you know how it works.",
+        "translatedContent": "No elimines ni edites las carpetas `_scripts` y `_install_packages`, a menos que sepas cómo funcionan."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "Z+mk0EpTO/dYkr10mHnpmm+DWLw9qZxIU2U37vSHxYY=",
+        "originContent": "## Syntax highlighting",
+        "translatedContent": "## Resaltado de sintaxis"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "5qTISRYppzZhsxHVbH29oPSUGP0BA367CuAJ1gFxhf4=",
+        "originContent": "Use `syntax_6502.xml` to highlight code in [Notepad++](https://notepad-plus-plus.org/).",
+        "translatedContent": "Usa `syntax_6502.xml` para resaltar código en [Notepad++](https://notepad-plus-plus.org/)."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "GCvZlL37zELY5DLFznVCpN2yns5DFX2Ra3PS3VOVR4g=",
+        "originContent": "Go to Language -> User Defined Language -> Define your language -> Import.",
+        "translatedContent": "Ve a Lenguaje -> Lenguaje definido por el usuario -> Define tu lenguaje -> Importar."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "MpxnxkEPK0gYvKH0tWhekDB3o54LHTyFCpoUuG+PN4s=",
+        "originContent": "## How to edit a disassembly",
+        "translatedContent": "## Cómo editar un desensamblado"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "pSyizP1hg3oqWRVYwGpf/RnVu4TuzfW1T5pq8x0/hjM=",
+        "originContent": "Important comments are marked with `bzk` text. Start with deleting garbage to free up some space.",
+        "translatedContent": "Los comentarios importantes están marcados con el texto `bzk`. Comienza eliminando basura para liberar espacio."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "Z7EbWkBW2/yzI5AJcM0eGEcQeVIDaoar6rCKJzs8FSY=",
+        "originContent": "And don't worry about stuff like `C - - - - - 0x00009C 00:C08C: A9 00     LDA #$00`.",
+        "translatedContent": "Y no te preocupes por cosas como `C - - - - - 0x00009C 00:C08C: A9 00     LDA #$00`."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "SBEIlYVZOPW8ehcMxT00+RODD23WZAuCRQpPJJAnek0=",
+        "originContent": "`preparations.lua` script will take care of it before compilation. You just write new code as usual, like this `LDA #$00`.",
+        "translatedContent": "El script `preparations.lua` se encargará de eso antes de la compilación. Solo escribe nuevo código como de costumbre, así: `LDA #$00`."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "You can manually delete this text with `.\\s.\\s.\\s.\\s.\\s.\\s0x0........:....:\\s..\\s..\\s..\\s\\s` regex if necessary.\n\n\n\n## Games list (GoodNES) + CRC32\n\n### Disassembled\n* Adventure Island (U) [!] `B78C09A2`\n* Battle City (J) [!] `F599A07E`\n* Bugs Bunny Crazy Castle, The (U) [!] `DB0C3656`\n* Castlevania III - Dracula's Curse (U) [!] `7CC9C669`\n* Contra Force (U) [!] `83D69922`\n* Danny Sullivan's Indy Heat (U) [!] `311B5A58`\n* Double Dragon II - The Revenge (J) `8CF69E4B`\n* Dr. Mario (JU) (PRG0) [!] `B1F7E3E9`\n* Excitebike (JU) [!] `2BB33C69`\n* Felix the Cat (U) [!] `0639E88E`\n* Ice Climber (J) [!] `80C41616`\n* Kunio-kun no Nekketsu Soccer League (J) [!] `61C27F7B`\n* Legend of Zelda, The (U) (PRG0) [!] `D7AE93DF`\n* Little Mermaid, The (U) [!] `08EB97DB`\n* Mappy (J) [!] `3F0E8E0A`\n* Nuts & Milk (J) [!] `11879FE8`\n* Pac-Man (J) (V1.1) [!] `D747B639`\n* RoboCop 3 (U) [!] `FBBB58A6`\n* Solstice - The Quest for the Staff of Demnos (U) [!] `1D60732E`\n* Son Son (J) [!] `F7C8F42D`\n* Street Fighter III (9 Fighter) (Unl) `22CDD2F6`\n* Super C (U) [!] `1AC846F0`\n* Tecmo World Cup Soccer (J) [!] `19F24980`\n* Tennis (JU) [!] `5F457C00`\n* Yie Ar Kung-Fu (J) (V1.4) [!] `0D526208`\n\n\n\n### WIP\n* Battletoads & Double Dragon - The Ultimate Team (U) [!] `53B02F3D`\n* Captain America and The Avengers (U) [!].nes `7254D53D`\n* Galaga - Demons of Death (U) [!] `E36D5991`\n* Ninja Gaiden III - The Ancient Ship of Doom (U) [!] `BABD39FA`",
+    "ContentSha": "myT0tWmK34AYYO2ExxvXeM+B42+HwlLUxas8QSbpq6U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Puedes eliminar este texto manualmente con la expresión regular `.\\s.\\s.\\s.\\s.\\s.\\s0x0........:....:\\s..\\s..\\s..\\s\\s` si es necesario.\n\n\n\n## Lista de juegos (GoodNES) + CRC32\n\n### Desensamblado\n* Adventure Island (U) [!] `B78C09A2`\n* Battle City (J) [!] `F599A07E`\n* Bugs Bunny Crazy Castle, The (U) [!] `DB0C3656`\n* Castlevania III - Dracula's Curse (U) [!] `7CC9C669`\n* Contra Force (U) [!] `83D69922`\n* Danny Sullivan's Indy Heat (U) [!] `311B5A58`\n* Double Dragon II - The Revenge (J) `8CF69E4B`\n* Dr. Mario (JU) (PRG0) [!] `B1F7E3E9`\n* Excitebike (JU) [!] `2BB33C69`\n* Felix the Cat (U) [!] `0639E88E`\n* Ice Climber (J) [!] `80C41616`\n* Kunio-kun no Nekketsu Soccer League (J) [!] `61C27F7B`\n* Legend of Zelda, The (U) (PRG0) [!] `D7AE93DF`\n* Little Mermaid, The (U) [!] `08EB97DB`\n* Mappy (J) [!] `3F0E8E0A`\n* Nuts & Milk (J) [!] `11879FE8`\n* Pac-Man (J) (V1.1) [!] `D747B639`\n* RoboCop 3 (U) [!] `FBBB58A6`\n* Solstice - The Quest for the Staff of Demnos (U) [!] `1D60732E`\n* Son Son (J) [!] `F7C8F42D`\n* Street Fighter III (9 Fighter) (Unl) `22CDD2F6`\n* Super C (U) [!] `1AC846F0`\n* Tecmo World Cup Soccer (J) [!] `19F24980`\n* Tennis (JU) [!] `5F457C00`\n* Yie Ar Kung-Fu (J) (V1.4) [!] `0D526208`\n\n\n\n### En progreso\n* Battletoads & Double Dragon - The Ultimate Team (U) [!] `53B02F3D`\n* Captain America and The Avengers (U) [!].nes `7254D53D`\n* Galaga - Demons of Death (U) [!] `E36D5991`\n* Ninja Gaiden III - The Ancient Ship of Doom (U) [!] `BABD39FA`",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6/2T/Ct9wx3Ae+2LSdzhUmcgG02SQE3uZNmd3xItXAg=",
+        "originContent": "You can manually delete this text with `.\\s.\\s.\\s.\\s.\\s.\\s0x0........:....:\\s..\\s..\\s..\\s\\s` regex if necessary.",
+        "translatedContent": "Puedes eliminar este texto manualmente con la expresión regular `.\\s.\\s.\\s.\\s.\\s.\\s0x0........:....:\\s..\\s..\\s..\\s\\s` si es necesario."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "TNN51BlAI1RJHddCV7/LVudXRFiSfROS/XidWFPMSw8=",
+        "originContent": "## Games list (GoodNES) + CRC32",
+        "translatedContent": "## Lista de juegos (GoodNES) + CRC32"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "93SdfhqB3bp5ZBNUiciXKSNEn4KkXEe+tFpb/tsSku0=",
+        "originContent": "### Disassembled",
+        "translatedContent": "### Desensamblado"
+      },
+      {
+        "row": 8,
+        "rowsha": "4UdS4S3VXvwYmXbcRklF3Xnu0KndgCr1YSkipjkFfV4=",
+        "originContent": "* Adventure Island (U) [!] `B78C09A2`",
+        "translatedContent": "* Adventure Island (U) [!] `B78C09A2`"
+      },
+      {
+        "row": 9,
+        "rowsha": "UU2G+ZbvVPIFIVlYKoL3PAM0ceF3G1Ojzyx0SYXHzmI=",
+        "originContent": "* Battle City (J) [!] `F599A07E`",
+        "translatedContent": "* Battle City (J) [!] `F599A07E`"
+      },
+      {
+        "row": 10,
+        "rowsha": "TqdmxwPe9lPSTXIzgDgg0RBsU50IGUL33dm12rYYuL0=",
+        "originContent": "* Bugs Bunny Crazy Castle, The (U) [!] `DB0C3656`",
+        "translatedContent": "* Bugs Bunny Crazy Castle, The (U) [!] `DB0C3656`"
+      },
+      {
+        "row": 11,
+        "rowsha": "56oLh60Yfdv9sZbZ150AgGfxpaDWCXAzmSBKPdRhaBM=",
+        "originContent": "* Castlevania III - Dracula's Curse (U) [!] `7CC9C669`",
+        "translatedContent": "* Castlevania III - Dracula's Curse (U) [!] `7CC9C669`"
+      },
+      {
+        "row": 12,
+        "rowsha": "k993Q9lGgGoo28jlrfcsXd03skbuaPHK175FhgeYa8s=",
+        "originContent": "* Contra Force (U) [!] `83D69922`",
+        "translatedContent": "* Contra Force (U) [!] `83D69922`"
+      },
+      {
+        "row": 13,
+        "rowsha": "H8Y7fE44iNOTKhk15Xaqiqf/NBjfMSXzM1ls8NSp4gc=",
+        "originContent": "* Danny Sullivan's Indy Heat (U) [!] `311B5A58`",
+        "translatedContent": "* Danny Sullivan's Indy Heat (U) [!] `311B5A58`"
+      },
+      {
+        "row": 14,
+        "rowsha": "CjJYJdhKh9i2uAD76Knk3SOm9zGzMDUzbzY0z5U2pko=",
+        "originContent": "* Double Dragon II - The Revenge (J) `8CF69E4B`",
+        "translatedContent": "* Double Dragon II - The Revenge (J) `8CF69E4B`"
+      },
+      {
+        "row": 15,
+        "rowsha": "AgeJNhsuojiudFa7rjoqqzv5MD7yOoz3fwd0mLQOhnw=",
+        "originContent": "* Dr. Mario (JU) (PRG0) [!] `B1F7E3E9`",
+        "translatedContent": "* Dr. Mario (JU) (PRG0) [!] `B1F7E3E9`"
+      },
+      {
+        "row": 16,
+        "rowsha": "rvI0lHAJT7oftSmdqAQxi8mdZ4gS5RK6N+bxiuP/zTA=",
+        "originContent": "* Excitebike (JU) [!] `2BB33C69`",
+        "translatedContent": "* Excitebike (JU) [!] `2BB33C69`"
+      },
+      {
+        "row": 17,
+        "rowsha": "mvHKAzBkLhf1pthM6SNpduSo9hzcyazY2NGW+5vPtbs=",
+        "originContent": "* Felix the Cat (U) [!] `0639E88E`",
+        "translatedContent": "* Felix the Cat (U) [!] `0639E88E`"
+      },
+      {
+        "row": 18,
+        "rowsha": "AN5gliOiGd8xE82NsaGcZliSMI3fbLD9Px7uATW+y6A=",
+        "originContent": "* Ice Climber (J) [!] `80C41616`",
+        "translatedContent": "* Ice Climber (J) [!] `80C41616`"
+      },
+      {
+        "row": 19,
+        "rowsha": "18/833aZuzE4HjmQtDXAkR6lV81/cqW8jglAYItLIzw=",
+        "originContent": "* Kunio-kun no Nekketsu Soccer League (J) [!] `61C27F7B`",
+        "translatedContent": "* Kunio-kun no Nekketsu Soccer League (J) [!] `61C27F7B`"
+      },
+      {
+        "row": 20,
+        "rowsha": "Tdnk2vLKcX5bVw9gqiewxDDmKQhBJFQw4SFMbx2eD9E=",
+        "originContent": "* Legend of Zelda, The (U) (PRG0) [!] `D7AE93DF`",
+        "translatedContent": "* Legend of Zelda, The (U) (PRG0) [!] `D7AE93DF`"
+      },
+      {
+        "row": 21,
+        "rowsha": "pim1R40+ICsPIuk7Nuaj8EOEviV2N1G+7yMDIafcw8k=",
+        "originContent": "* Little Mermaid, The (U) [!] `08EB97DB`",
+        "translatedContent": "* Little Mermaid, The (U) [!] `08EB97DB`"
+      },
+      {
+        "row": 22,
+        "rowsha": "mf28OfpmP47CzmJEocxu/4dyorqnyces7IKvkMC4cb0=",
+        "originContent": "* Mappy (J) [!] `3F0E8E0A`",
+        "translatedContent": "* Mappy (J) [!] `3F0E8E0A`"
+      },
+      {
+        "row": 23,
+        "rowsha": "9lp6nJatBtOnujz5LB8+5lib6NFsVjXevZIHtEZbaz0=",
+        "originContent": "* Nuts & Milk (J) [!] `11879FE8`",
+        "translatedContent": "* Nuts & Milk (J) [!] `11879FE8`"
+      },
+      {
+        "row": 24,
+        "rowsha": "3wzswUvfRmYycUmK8TTZzIgU7J3XK6bMwmqGCVtBvCA=",
+        "originContent": "* Pac-Man (J) (V1.1) [!] `D747B639`",
+        "translatedContent": "* Pac-Man (J) (V1.1) [!] `D747B639`"
+      },
+      {
+        "row": 25,
+        "rowsha": "BrJTfBLEmsHbNgXQOa6htUfsYs8PNrjxMBRgYvjvjo0=",
+        "originContent": "* RoboCop 3 (U) [!] `FBBB58A6`",
+        "translatedContent": "* RoboCop 3 (U) [!] `FBBB58A6`"
+      },
+      {
+        "row": 26,
+        "rowsha": "tHsDAZZD1wCxJaVvAu23eUfRYymc2mNzfc7iNwUGmls=",
+        "originContent": "* Solstice - The Quest for the Staff of Demnos (U) [!] `1D60732E`",
+        "translatedContent": "* Solstice - The Quest for the Staff of Demnos (U) [!] `1D60732E`"
+      },
+      {
+        "row": 27,
+        "rowsha": "22XXDHaRfB10xdGvWP5Y8R5lGpfDJxT1PbpOLPUMfu8=",
+        "originContent": "* Son Son (J) [!] `F7C8F42D`",
+        "translatedContent": "* Son Son (J) [!] `F7C8F42D`"
+      },
+      {
+        "row": 28,
+        "rowsha": "tL6oNqfl7IqMv73vNCzXNUJpOxxwZ9YloiNJZG7yGqk=",
+        "originContent": "* Street Fighter III (9 Fighter) (Unl) `22CDD2F6`",
+        "translatedContent": "* Street Fighter III (9 Fighter) (Unl) `22CDD2F6`"
+      },
+      {
+        "row": 29,
+        "rowsha": "7api7Y81oQbuaiZlJ+BPtNbNcUMGOAVAroFEBQNsH70=",
+        "originContent": "* Super C (U) [!] `1AC846F0`",
+        "translatedContent": "* Super C (U) [!] `1AC846F0`"
+      },
+      {
+        "row": 30,
+        "rowsha": "Fub4osAjD6gIHYI8qvl4M6mIZHgeBcYsJ+rA7MwC+FE=",
+        "originContent": "* Tecmo World Cup Soccer (J) [!] `19F24980`",
+        "translatedContent": "* Tecmo World Cup Soccer (J) [!] `19F24980`"
+      },
+      {
+        "row": 31,
+        "rowsha": "2j07O+uVrD+UY3yMNUL5GbhcJSGwE0BcyszI5zn0jVs=",
+        "originContent": "* Tennis (JU) [!] `5F457C00`",
+        "translatedContent": "* Tennis (JU) [!] `5F457C00`"
+      },
+      {
+        "row": 32,
+        "rowsha": "8K73R1OiXv2UKMDk/qmqhE9Wha/Tk82q/cdrz5AljN4=",
+        "originContent": "* Yie Ar Kung-Fu (J) (V1.4) [!] `0D526208`",
+        "translatedContent": "* Yie Ar Kung-Fu (J) (V1.4) [!] `0D526208`"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "evy7QlBH9D5lyh1YHp6b9/WJcR3Nb5DCkgjLkUhHSmo=",
+        "originContent": "### WIP",
+        "translatedContent": "### En progreso"
+      },
+      {
+        "row": 37,
+        "rowsha": "0eQ/WhONdu/KWU3ZCellmKfJrMYU/xPnCF9UBDMqZlg=",
+        "originContent": "* Battletoads & Double Dragon - The Ultimate Team (U) [!] `53B02F3D`",
+        "translatedContent": "* Battletoads & Double Dragon - The Ultimate Team (U) [!] `53B02F3D`"
+      },
+      {
+        "row": 38,
+        "rowsha": "hjMoTYYBwgNV8Ns3fEoeeFQ/Ixz5nZ1BGAY3wAmbl0M=",
+        "originContent": "* Captain America and The Avengers (U) [!].nes `7254D53D`",
+        "translatedContent": "* Captain America and The Avengers (U) [!].nes `7254D53D`"
+      },
+      {
+        "row": 39,
+        "rowsha": "tpPDuOAY0qKr/snkOw7+uKMx9UBdqxZPY3D9Z5FT2Es=",
+        "originContent": "* Galaga - Demons of Death (U) [!] `E36D5991`",
+        "translatedContent": "* Galaga - Demons of Death (U) [!] `E36D5991`"
+      },
+      {
+        "row": 40,
+        "rowsha": "+7UeFlGu4ZQKH7OefTvHFZFa7ICTaPRkNUXNl78z6Ik=",
+        "originContent": "* Ninja Gaiden III - The Ancient Ship of Doom (U) [!] `BABD39FA`",
+        "translatedContent": "* Ninja Gaiden III - The Ancient Ship of Doom (U) [!] `BABD39FA`"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "* R.C. Pro-Am II (U) [!] `03DB5562`\n* River City Ransom (U) [!] `C3508F7E`\n* Super Mario Bros. (W) [!] `3337EC46`\n* Urban Champion (W) [!] `0770CDAA`\n\n\n\n### Planning\n* Balloon Fight (J) [!] `A0DABE0A`\n* Bubble Bobble (U) [!] `D3A91B41`\n* Ghosts 'N Goblins (U) [!] `87ED54AA`\n* Kid Icarus (UE) [!] `0B30E036`\n* Kinnikuman - Muscle Tag Match (J) (PRG0) [!] `C296C8CE`\n* Mighty Final Fight (U) [!] `15EB0BEE`\n* Mitsume ga Tooru (J) [!] `E27EC1EC`\n* Popeye (JU) (PRG0) [!] `DE1D762F`\n* Tetris (Tengen) [!] `88F071C3`\n",
+    "ContentSha": "FVOBIhakRwnFUdoc5NMMhF3dWVcKSiV3HFh9zwCs8NQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* R.C. Pro-Am II (U) [!] `03DB5562`\n* River City Ransom (U) [!] `C3508F7E`\n* Super Mario Bros. (W) [!] `3337EC46`\n* Urban Champion (W) [!] `0770CDAA`\n\n\n\n### Planificación\n* Balloon Fight (J) [!] `A0DABE0A`\n* Bubble Bobble (U) [!] `D3A91B41`\n* Ghosts 'N Goblins (U) [!] `87ED54AA`\n* Kid Icarus (UE) [!] `0B30E036`\n* Kinnikuman - Muscle Tag Match (J) (PRG0) [!] `C296C8CE`\n* Mighty Final Fight (U) [!] `15EB0BEE`\n* Mitsume ga Tooru (J) [!] `E27EC1EC`\n* Popeye (JU) (PRG0) [!] `DE1D762F`\n* Tetris (Tengen) [!] `88F071C3`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "NvgJLkx4T7anLrR2IB5zMUlVpXc9w1jJABRRwo3PKL0=",
+        "originContent": "* R.C. Pro-Am II (U) [!] `03DB5562`",
+        "translatedContent": "* R.C. Pro-Am II (U) [!] `03DB5562`"
+      },
+      {
+        "row": 2,
+        "rowsha": "p0LmDX67bTZwYS7b1OrPUz5pGIhON9+L/+xLi1SejSE=",
+        "originContent": "* River City Ransom (U) [!] `C3508F7E`",
+        "translatedContent": "* River City Ransom (U) [!] `C3508F7E`"
+      },
+      {
+        "row": 3,
+        "rowsha": "I/jWerK5ThpZ3/+wrnJcaos57et3Kml8L+3AyOXvdJk=",
+        "originContent": "* Super Mario Bros. (W) [!] `3337EC46`",
+        "translatedContent": "* Super Mario Bros. (W) [!] `3337EC46`"
+      },
+      {
+        "row": 4,
+        "rowsha": "MgH1grc8Ha0DNa8NkAlXFpJHkuU+iDeSbmx7IOmrBqo=",
+        "originContent": "* Urban Champion (W) [!] `0770CDAA`",
+        "translatedContent": "* Urban Champion (W) [!] `0770CDAA`"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "GfDK9cKyI5veoKSuEKOiQTBvB823oiANqpCN1nSNZWE=",
+        "originContent": "### Planning",
+        "translatedContent": "### Planificación"
+      },
+      {
+        "row": 9,
+        "rowsha": "bCPUfdk5pyU6BT0YevIdz1SfQHqroEWRr8Qy8gVRczc=",
+        "originContent": "* Balloon Fight (J) [!] `A0DABE0A`",
+        "translatedContent": "* Balloon Fight (J) [!] `A0DABE0A`"
+      },
+      {
+        "row": 10,
+        "rowsha": "XeS2kiaC9he2+qilLQpiLrJ0rYrdlRfkgxfRdJSJwoo=",
+        "originContent": "* Bubble Bobble (U) [!] `D3A91B41`",
+        "translatedContent": "* Bubble Bobble (U) [!] `D3A91B41`"
+      },
+      {
+        "row": 11,
+        "rowsha": "V7rLSEflz/HkZWum8cruMKitfutSj0x8aQRBSA17i4g=",
+        "originContent": "* Ghosts 'N Goblins (U) [!] `87ED54AA`",
+        "translatedContent": "* Ghosts 'N Goblins (U) [!] `87ED54AA`"
+      },
+      {
+        "row": 12,
+        "rowsha": "0IKcWXmSpQhlLR0FMVygQjgx4B9iyBRCqnIXr1cunPY=",
+        "originContent": "* Kid Icarus (UE) [!] `0B30E036`",
+        "translatedContent": "* Kid Icarus (UE) [!] `0B30E036`"
+      },
+      {
+        "row": 13,
+        "rowsha": "SAvnOK+ymEhFxCD+ODsiQvusYiErN41lVop42UOW3i0=",
+        "originContent": "* Kinnikuman - Muscle Tag Match (J) (PRG0) [!] `C296C8CE`",
+        "translatedContent": "* Kinnikuman - Muscle Tag Match (J) (PRG0) [!] `C296C8CE`"
+      },
+      {
+        "row": 14,
+        "rowsha": "2dnxESl0Pvtqvi4Yopa9ym04Kd8zzvjoZplDNEHov0o=",
+        "originContent": "* Mighty Final Fight (U) [!] `15EB0BEE`",
+        "translatedContent": "* Mighty Final Fight (U) [!] `15EB0BEE`"
+      },
+      {
+        "row": 15,
+        "rowsha": "m5FEblkxDNymcgsByp+a9cx/8fgORM2B7GL8kv74qKM=",
+        "originContent": "* Mitsume ga Tooru (J) [!] `E27EC1EC`",
+        "translatedContent": "* Mitsume ga Tooru (J) [!] `E27EC1EC`"
+      },
+      {
+        "row": 16,
+        "rowsha": "CORrmaye+BuwYSg27Z727SSuSFJ6Tkt2cnXZMYzf4v0=",
+        "originContent": "* Popeye (JU) (PRG0) [!] `DE1D762F`",
+        "translatedContent": "* Popeye (JU) (PRG0) [!] `DE1D762F`"
+      },
+      {
+        "row": 17,
+        "rowsha": "tkIEovsNLq41N3Lg+n3NlUT/pj61CUpGenz3qk+AGY8=",
+        "originContent": "* Tetris (Tengen) [!] `88F071C3`",
+        "translatedContent": "* Tetris (Tengen) [!] `88F071C3`"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
