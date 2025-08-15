@@ -1,4 +1,5 @@
 
+<!-- 
 <div align="right">
   <details>
     <summary >🌐 Bahasa</summary>
@@ -30,21 +31,29 @@
   </details>
 
 </div>
+-->
+- [English](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.en.md)
+- [简体中文](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.zh-CN.md)
+- [繁体中文](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.zh-TW.md)
 
-## [ Riwayat Pembelajaran Flutter ]( https://github.com/shaoting0730/mobile-learn/tree/master/Flutter )
-## [ Riwayat Pembelajaran React Native ](  https://github.com/shaoting0730/mobile-learn/tree/master/React%20Native  )    <br/>
-## [ Riwayat Pembelajaran uni app ]( https://github.com/shaoting0730/mobile-learn/tree/master/uniapp )    <br/>
-## [ Riwayat Pembelajaran WeChat Mini Program Native ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F )    <br/>
-## [ Riwayat Pembelajaran iOS ](  https://github.com/shaoting0730/mobile-learn/tree/master/iOS )    <br/>
-## [ Riwayat Pembelajaran Android ](  https://github.com/shaoting0730/mobile-learn/tree/master/Android )    <br/>
-## [ Riwayat Pembelajaran HarmonyOS ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E9%B8%BF%E8%92%99 )    <br/>
-## [ 杂类学习 ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E6%9D%82%E7%B1%BB )    <br/>
+## [ Riwayat Belajar Flutter ]( https://github.com/shaoting0730/mobile-learn/tree/master/Flutter )
+## [ Riwayat Belajar React Native ](  https://github.com/shaoting0730/mobile-learn/tree/master/React%20Native  )    <br/>
+## [ Riwayat Belajar uni app ]( https://github.com/shaoting0730/mobile-learn/tree/master/uniapp )    <br/>
+## [ Riwayat Belajar WeChat Mini Program Native ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F )    <br/>
+## [ Riwayat Belajar iOS ](  https://github.com/shaoting0730/mobile-learn/tree/master/iOS )    <br/>
+## [ Riwayat Belajar Android ]( https://github.com/shaoting0730/mobile-learn/tree/master/Android )    <br/>
+## [ Riwayat Belajar HarmonyOS ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E9%B8%BF%E8%92%99 )    <br/>
+## [ Belajar Berbagai Topik ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E6%9D%82%E7%B1%BB )    <br/>
+
+
+
+
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-15
 
 ---

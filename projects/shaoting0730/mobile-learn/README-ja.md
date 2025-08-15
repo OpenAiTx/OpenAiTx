@@ -1,4 +1,5 @@
 
+<!-- 
 <div align="right">
   <details>
     <summary >🌐 言語</summary>
@@ -30,21 +31,29 @@
   </details>
 
 </div>
+-->
+- [英語](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.en.md)
+- [簡体中国語](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.zh-CN.md)
+- [繁体中国語](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.zh-TW.md)
 
-## [ Flutter 学習記録 ]( https://github.com/shaoting0730/mobile-learn/tree/master/Flutter )
-## [ React Native 学習記録 ](  https://github.com/shaoting0730/mobile-learn/tree/master/React%20Native  )    <br/>
-## [ uni app 学習記録 ]( https://github.com/shaoting0730/mobile-learn/tree/master/uniapp )    <br/>
-## [ WeChatミニプログラム（ネイティブ）学習記録 ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F )    <br/>
-## [ iOS 学習記録 ](  https://github.com/shaoting0730/mobile-learn/tree/master/iOS )    <br/>
-## [ Android 学習記録 ](  https://github.com/shaoting0730/mobile-learn/tree/master/Android )    <br/>
-## [ HarmonyOS 学習記録 ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E9%B8%BF%E8%92%99 )    <br/>
-## [ 杂类学习 ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E6%9D%82%E7%B1%BB )    <br/>
+## [ Flutter 学習過程 ]( https://github.com/shaoting0730/mobile-learn/tree/master/Flutter )
+## [ React Native 学習過程 ](  https://github.com/shaoting0730/mobile-learn/tree/master/React%20Native  )    <br/>
+## [ uni app 学習履歴 ]( https://github.com/shaoting0730/mobile-learn/tree/master/uniapp )    <br/>
+## [ WeChatミニプログラム（原生）学習履歴 ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F )    <br/>
+## [ iOS 学習履歴 ](  https://github.com/shaoting0730/mobile-learn/tree/master/iOS )    <br/>
+## [ Android 学習履歴 ](  https://github.com/shaoting0730/mobile-learn/tree/master/Android )    <br/>
+## [ HarmonyOS 学習履歴 ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E9%B8%BF%E8%92%99 )    <br/>
+## [ 雑多学習 ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E6%9D%82%E7%B1%BB )    <br/>
+
+
+
+
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-15
 
 ---

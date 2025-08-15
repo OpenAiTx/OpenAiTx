@@ -1,4 +1,5 @@
 
+<!-- 
 <div align="right">
   <details>
     <summary >🌐 Taal</summary>
@@ -30,21 +31,29 @@
   </details>
 
 </div>
+-->
+- [English](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.en.md)
+- [简体中文](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.zh-CN.md)
+- [繁体中文](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.zh-TW.md)
 
-## [ Flutter leergeschiedenis ]( https://github.com/shaoting0730/mobile-learn/tree/master/Flutter )
-## [ React Native leergeschiedenis ](  https://github.com/shaoting0730/mobile-learn/tree/master/React%20Native  )    <br/>
-## [ uni app leergeschiedenis ]( https://github.com/shaoting0730/mobile-learn/tree/master/uniapp )    <br/>
-## [ WeChat Mini Program native leergeschiedenis ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F )    <br/>
-## [ iOS leergeschiedenis ](  https://github.com/shaoting0730/mobile-learn/tree/master/iOS )    <br/>
-## [ Android leergeschiedenis ](  https://github.com/shaoting0730/mobile-learn/tree/master/Android )    <br/>
-## [ HarmonyOS leergeschiedenis ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E9%B8%BF%E8%92%99 )    <br/>
-## [ 杂类学习 ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E6%9D%82%E7%B1%BB )    <br/>
+## [ Flutter Leertraject ]( https://github.com/shaoting0730/mobile-learn/tree/master/Flutter )
+## [ React Native Leertraject ](  https://github.com/shaoting0730/mobile-learn/tree/master/React%20Native  )    <br/>
+## [ uni app leertraject ]( https://github.com/shaoting0730/mobile-learn/tree/master/uniapp )    <br/>
+## [ WeChat Mini Program native leertraject ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F )    <br/>
+## [ iOS leertraject ](  https://github.com/shaoting0730/mobile-learn/tree/master/iOS )    <br/>
+## [ Android leertraject ](  https://github.com/shaoting0730/mobile-learn/tree/master/Android )    <br/>
+## [ Hongmeng leertraject ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E9%B8%BF%E8%92%99 )    <br/>
+## [ Diverse studies ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E6%9D%82%E7%B1%BB )    <br/>
+
+
+
+
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-15
 
 ---

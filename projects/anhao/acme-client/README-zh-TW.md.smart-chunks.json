@@ -1,0 +1,4222 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# ACME Client\n\nA comprehensive PHP ACME v2 client library for automating SSL/TLS certificate management with Let's Encrypt, ZeroSSL, and other ACME-compatible Certificate Authorities.\n\n[![github stats](https://img.shields.io/github/stars/anhao/acme-client?style=flat-square&label=github%20stats)](https://github.com/anhao/acme-client)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/anhao/acme-client)\n[![PHP Version](https://img.shields.io/badge/PHP-%3E%3D8.2-blue.svg)](https://www.php.net/)\n",
+    "ContentSha": "bnc/+syqC02t5SGeDiNugc+hZJyN48LNABTrPCUIO10=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 語言</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-CN\">簡體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ko\">韓國語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=hi\">印地語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=th\">泰語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fr\">法語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=de\">德語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=es\">西班牙語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=it\">義大利語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ru\">俄語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pt\">葡萄牙語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=nl\">荷蘭語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pl\">波蘭語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ar\">阿拉伯語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fa\">波斯語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=tr\">土耳其語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=vi\">越南語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=id\">印尼語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=as\">阿薩姆語</\n      </div>\n    </div>\n  </details>\n</div>\n\n# ACME 客戶端\n\n一個全面的 PHP ACME v2 客戶端函式庫，可自動化 SSL/TLS 憑證管理，支援 Let's Encrypt、ZeroSSL 及其他相容 ACME 的憑證機構。\n\n[![github stats](https://img.shields.io/github/stars/anhao/acme-client?style=flat-square&label=github%20stats)](https://github.com/anhao/acme-client)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/anhao/acme-client)\n[![PHP Version](https://img.shields.io/badge/PHP-%3E%3D8.2-blue.svg)](https://www.php.net/)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 語言</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "98AXK3Tiz8frV49/3tULsw3mgdC9kdz1cTR/aMw8INE=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "W2ttqZygSJyKA6t9lsLa7PmZ59zte/YBUI8d+FOFgW4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-CN\">簡體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "AUqRKyHF/XTPcUlvQNEuyYnYeJV68CqYv3C9Yxqw+0U=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "Ko7r6feBMLp5F+RnPa3ENMW7WG9Sw3rRsg0Ar0eikE8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "+2R7i7woRqlCwCl3z0HyWEJH3GNbdUypxCAKUbjFiFg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ko\">韓國語</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "UxBwwfwZpbV4JB6JjLJZgc+4JLwKPhzxlsFCI4pNmnM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=hi\">印地語</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "Rfg0rkXKWGgqrbO/NxgxNM2SweiPPqScxFyvgD2V1Vs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=th\">泰語</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "h89UGFJ23L8NU6T4h0a6xZknBJIWzbgH2OO2nQKIBUA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fr\">法語</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "zgFhdzyXYqzYQqpkKBBPhmyXQVi6P8KAIsHW+wieBwk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=de\">德語</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "9kIhLMQdg4652gzgpTtMdzGiuxswiRo/3p7ZoO+84ak=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=es\">西班牙語</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "lkP6lsADj9sgZNfkiIsCVzCV47wIpbZlJmhepusFwQ0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=it\">義大利語</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "Y0F3JySNwM8GFBDkpMTyjIJnZFA5ikEI0ekqgM8wv5s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ru\">俄語</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "HJXvcGgkmdipsOe4SzTt1TAQGs+QA8W+Qt+WfSv4AxM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pt\">葡萄牙語</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "TZXZhgHcCSvLIB+akZVGWb/y7qUSO+HEZa0or5kqiCs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=nl\">荷蘭語</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "UuCMEdrSlAp+hgii/XKc7g6P1Vg5hJA83NazmgDNbdA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pl\">波蘭語</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "sy0Do7I/Egp9D8H8PoIb8NYwoU54RxfjCjsTNSFVIaA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ar\">阿拉伯語</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "9CYLnBncGuvPwqLL9UXdYdpuRGb97u0ve46QZgzpYrU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fa\">波斯語</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "t7bYoiKSHpmjSUVZPrBIi62cPR/867D41NXleucy3H8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=tr\">土耳其語</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "g73TT5zxCel98ipoztEHp1TjMURJfgLEavbrLbP8v20=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=vi\">越南語</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "aixeMJ1PEfQyLikJc8qy1t6LR8E7Y4oj2V0Ehj9wTEo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=id\">印尼語</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "ntcGNEIIcn1Ycwxby5HGA4/Ck7i29ECAg5H6G1/KDrs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=as\">阿薩姆語</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "SIv+FVEnGy/EF+hSro6SCUshEQbi4pT/4JmEzCfWp3U=",
+        "originContent": "# ACME Client",
+        "translatedContent": "# ACME 客戶端"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "76G65iG+5BPH5+OAlyQn9IlG/BpLoGCfMWbwxE3i7nU=",
+        "originContent": "A comprehensive PHP ACME v2 client library for automating SSL/TLS certificate management with Let's Encrypt, ZeroSSL, and other ACME-compatible Certificate Authorities.",
+        "translatedContent": "一個全面的 PHP ACME v2 客戶端函式庫，可自動化 SSL/TLS 憑證管理，支援 Let's Encrypt、ZeroSSL 及其他相容 ACME 的憑證機構。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "utRVILkSZoMocibDg0njpdw643VfbHcVo8doClcRj9k=",
+        "originContent": "[![github stats](https://img.shields.io/github/stars/anhao/acme-client?style=flat-square&label=github%20stats)](https://github.com/anhao/acme-client)",
+        "translatedContent": "[![github stats](https://img.shields.io/github/stars/anhao/acme-client?style=flat-square&label=github%20stats)](https://github.com/anhao/acme-client)"
+      },
+      {
+        "row": 38,
+        "rowsha": "IPy+6ziDN8HXvviE6pbA7GTGUdb9FBr43eH5aBPC14Q=",
+        "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/anhao/acme-client)",
+        "translatedContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/anhao/acme-client)"
+      },
+      {
+        "row": 39,
+        "rowsha": "hSgwb0EmbXNPpYSg+r06UG2DKZSpmzC77R6q4W7dWa4=",
+        "originContent": "[![PHP Version](https://img.shields.io/badge/PHP-%3E%3D8.2-blue.svg)](https://www.php.net/)",
+        "translatedContent": "[![PHP Version](https://img.shields.io/badge/PHP-%3E%3D8.2-blue.svg)](https://www.php.net/)"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "> **Language / 语言**: [English](https://raw.githubusercontent.com/anhao/acme-client/main/README.md) | [中文](https://raw.githubusercontent.com/anhao/acme-client/main/README_ZH.md)\n\n## Features\n\n- **ACME v2 Protocol Support**: Full compatibility with ACME v2 specification\n- **Multiple CA Support**: Works with Let's Encrypt, ZeroSSL, and other ACME providers\n- **Account Management**: Create, store, and manage ACME accounts\n- **Certificate Operations**: Request, renew, and revoke SSL certificates\n- **Domain Validation**: Support for HTTP-01 and DNS-01 challenges\n- **ARI Support**: Automatic Renewal Information for optimal renewal timing\n- **Flexible Key Types**: Support for RSA and ECC keys\n- **Comprehensive Logging**: Built-in PSR-3 compatible logging\n- **Easy Integration**: Simple and intuitive API design\n\n## Requirements\n\n- PHP 8.2 or higher\n- OpenSSL extension\n- cURL extension\n- JSON extension\n- mbstring extension\n\n## Installation\n\nInstall via Composer:\n",
+    "ContentSha": "/iQ0KBDvvcHFjhm3uhbyzEcyCPucS1XKivCUjj8yYUg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> **語言 / Language**: [English](https://raw.githubusercontent.com/anhao/acme-client/main/README.md) | [中文](https://raw.githubusercontent.com/anhao/acme-client/main/README_ZH.md)\n\n## 功能特色\n\n- **ACME v2 協定支援**：完全符合 ACME v2 規範\n- **多重 CA 支援**：可與 Let's Encrypt、ZeroSSL 及其他 ACME 提供者搭配使用\n- **帳戶管理**：建立、儲存並管理 ACME 帳戶\n- **憑證操作**：申請、續期與撤銷 SSL 憑證\n- **網域驗證**：支援 HTTP-01 與 DNS-01 驗證挑戰\n- **ARI 支援**：自動續期資訊以最佳化續期時機\n- **彈性金鑰類型**：支援 RSA 與 ECC 金鑰\n- **完整日誌記錄**：內建 PSR-3 相容日誌系統\n- **簡易整合**：簡單直覺的 API 設計\n\n## 系統需求\n\n- PHP 8.2 或以上版本\n- OpenSSL 擴充套件\n- cURL 擴充套件\n- JSON 擴充套件\n- mbstring 擴充套件\n\n## 安裝方式\n\n透過 Composer 安裝：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Awk+pD0xHT6xGn6Z1PyP7i3xWB/Eqvi1XnSeTPIA69M=",
+        "originContent": "> **Language / 语言**: [English](https://raw.githubusercontent.com/anhao/acme-client/main/README.md) | [中文](https://raw.githubusercontent.com/anhao/acme-client/main/README_ZH.md)",
+        "translatedContent": "> **語言 / Language**: [English](https://raw.githubusercontent.com/anhao/acme-client/main/README.md) | [中文](https://raw.githubusercontent.com/anhao/acme-client/main/README_ZH.md)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能特色"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "FlqrKd7CA2c24eFjnZ6hwVVCybysQUl5i40VyjVcMog=",
+        "originContent": "- **ACME v2 Protocol Support**: Full compatibility with ACME v2 specification",
+        "translatedContent": "- **ACME v2 協定支援**：完全符合 ACME v2 規範"
+      },
+      {
+        "row": 6,
+        "rowsha": "/QeXXNnZjNLz/VK+4CPasL3iD2W2l4Dfwj1xlndYTEc=",
+        "originContent": "- **Multiple CA Support**: Works with Let's Encrypt, ZeroSSL, and other ACME providers",
+        "translatedContent": "- **多重 CA 支援**：可與 Let's Encrypt、ZeroSSL 及其他 ACME 提供者搭配使用"
+      },
+      {
+        "row": 7,
+        "rowsha": "YObLUG7SPC+CRYib6a1i2gJVTsWYTUvh5lJOgjySw+U=",
+        "originContent": "- **Account Management**: Create, store, and manage ACME accounts",
+        "translatedContent": "- **帳戶管理**：建立、儲存並管理 ACME 帳戶"
+      },
+      {
+        "row": 8,
+        "rowsha": "xrVC5ZlOm0tJ6qfjoJXM/+H7KtAubUadAagAJlLZELU=",
+        "originContent": "- **Certificate Operations**: Request, renew, and revoke SSL certificates",
+        "translatedContent": "- **憑證操作**：申請、續期與撤銷 SSL 憑證"
+      },
+      {
+        "row": 9,
+        "rowsha": "T0dalypm5LMLLU1w4uuzGEqymF1wha/bE0NCvvNER8k=",
+        "originContent": "- **Domain Validation**: Support for HTTP-01 and DNS-01 challenges",
+        "translatedContent": "- **網域驗證**：支援 HTTP-01 與 DNS-01 驗證挑戰"
+      },
+      {
+        "row": 10,
+        "rowsha": "Tgq5kB6u8xhZbvYN6OK197TO1i1jsvX1OHuH22xOImc=",
+        "originContent": "- **ARI Support**: Automatic Renewal Information for optimal renewal timing",
+        "translatedContent": "- **ARI 支援**：自動續期資訊以最佳化續期時機"
+      },
+      {
+        "row": 11,
+        "rowsha": "DdOOyVlbzpsQcL/35HgWQmEnvTMTT+GHgNnq+SZUctg=",
+        "originContent": "- **Flexible Key Types**: Support for RSA and ECC keys",
+        "translatedContent": "- **彈性金鑰類型**：支援 RSA 與 ECC 金鑰"
+      },
+      {
+        "row": 12,
+        "rowsha": "mt9s7DTYGETWYXzaEQ6T9z1CdOhnLxkPzDUImBo7tjg=",
+        "originContent": "- **Comprehensive Logging**: Built-in PSR-3 compatible logging",
+        "translatedContent": "- **完整日誌記錄**：內建 PSR-3 相容日誌系統"
+      },
+      {
+        "row": 13,
+        "rowsha": "TS0NxHnu2Z1dOG9/ChRzNl6EjYICh17UOp1qH9JJ34Q=",
+        "originContent": "- **Easy Integration**: Simple and intuitive API design",
+        "translatedContent": "- **簡易整合**：簡單直覺的 API 設計"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## 系統需求"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "q3nALKT3l+3orRiJG8SRBBpJ7gUSTQIGbqmbUAuccA4=",
+        "originContent": "- PHP 8.2 or higher",
+        "translatedContent": "- PHP 8.2 或以上版本"
+      },
+      {
+        "row": 18,
+        "rowsha": "4K7Z7PbVf2avuaoqr9+1Nfz79FurgzyELSQVrW4rLyY=",
+        "originContent": "- OpenSSL extension",
+        "translatedContent": "- OpenSSL 擴充套件"
+      },
+      {
+        "row": 19,
+        "rowsha": "EI4kiwMLTmffsu3nIGMdB8XiasHUZBbBU6km5+4hu/w=",
+        "originContent": "- cURL extension",
+        "translatedContent": "- cURL 擴充套件"
+      },
+      {
+        "row": 20,
+        "rowsha": "DhdHy4werbohW2Deuo1JjcI8F1JSQbdrBj1aZtJFaQo=",
+        "originContent": "- JSON extension",
+        "translatedContent": "- JSON 擴充套件"
+      },
+      {
+        "row": 21,
+        "rowsha": "lsGQCTNpL3+CgmPgDAlx7STXzWVUcDW4P6AHCEEAOuE=",
+        "originContent": "- mbstring extension",
+        "translatedContent": "- mbstring 擴充套件"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 安裝方式"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "3bumKUyLIlzyOvpV1uvzHWJOraCTmZg4WtCHYCDJJ/k=",
+        "originContent": "Install via Composer:",
+        "translatedContent": "透過 Composer 安裝："
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\ncomposer require alapi/acme-client\n```",
+    "ContentSha": "3cDRPteMVZ+z5zcAnG4U0RTXNjiyW2stBHokkKul/B0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncomposer require alapi/acme-client\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "zNoR6uEqFLAIzu9Hbhb6egug6t7y7WZ4ulDi4pSNd/Q=",
+        "originContent": "composer require alapi/acme-client",
+        "translatedContent": "composer require alapi/acme-client"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## Quick Start\n\n### 1. Create Local Account Keys\n\nYou have two ways to create and manage ACME account keys:\n\n**Option A: Using existing keys with Account class**\n",
+    "ContentSha": "HT8Nw0DLjtJomuesDNL+mrJHV/kzg6kHqYYo5Oh+cog=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 快速入門\n\n### 1. 建立本地帳戶金鑰\n\n您有兩種方式可以建立及管理 ACME 帳戶金鑰：\n\n**選項A：使用現有金鑰與 Account 類別**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## 快速入門"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "7O7mTQfzdcC0suEXwgFKIzlEC09q1+prK7T7hSsVx/o=",
+        "originContent": "### 1. Create Local Account Keys",
+        "translatedContent": "### 1. 建立本地帳戶金鑰"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "nj9BCupSGU7wN7EnknovMH0TvPuHvhLV9lM84QQ0hnQ=",
+        "originContent": "You have two ways to create and manage ACME account keys:",
+        "translatedContent": "您有兩種方式可以建立及管理 ACME 帳戶金鑰："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "zgVnRCTDV+RQTZwVg1y7ATQ8pw0irb5U/oNAVATiyn8=",
+        "originContent": "**Option A: Using existing keys with Account class**",
+        "translatedContent": "**選項A：使用現有金鑰與 Account 類別**"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```php\n<?php\nrequire_once 'vendor/autoload.php';\n\nuse ALAPI\\Acme\\Accounts\\Account;\n\n// Create account from existing private key string\n$privateKeyPem = '-----BEGIN PRIVATE KEY-----...-----END PRIVATE KEY-----';\n$account = new Account($privateKeyPem);\n\n// Or create account with both private and public keys\n$publicKeyPem = '-----BEGIN PUBLIC KEY-----...-----END PUBLIC KEY-----';\n$account = new Account($privateKeyPem, $publicKeyPem);\n\n// Or create account from private key only (public key will be extracted)\n$account = Account::fromPrivateKey($privateKeyPem);\n```",
+    "ContentSha": "aHCTSEbebvzTMhGuHbMcs7EL/wxibEWXdHYnNHCMKtE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n<?php\nrequire_once 'vendor/autoload.php';\n\nuse ALAPI\\Acme\\Accounts\\Account;\n\n// Create account from existing private key string\n$privateKeyPem = '-----BEGIN PRIVATE KEY-----...-----END PRIVATE KEY-----';\n$account = new Account($privateKeyPem);\n\n// Or create account with both private and public keys\n$publicKeyPem = '-----BEGIN PUBLIC KEY-----...-----END PUBLIC KEY-----';\n$account = new Account($privateKeyPem, $publicKeyPem);\n\n// Or create account from private key only (public key will be extracted)\n$account = Account::fromPrivateKey($privateKeyPem);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "/lvLVMVuC59FagYDZN0osiSPOg4hwWjUzp0Am3PoPjw=",
+        "originContent": "<?php",
+        "translatedContent": "<?php"
+      },
+      {
+        "row": 3,
+        "rowsha": "MJwlX9u0fCMAFoscb49qGyK/OQYajPb+1lFtfLYQpP4=",
+        "originContent": "require_once 'vendor/autoload.php';",
+        "translatedContent": "require_once 'vendor/autoload.php';"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "6wL42yTvoCFFmmf8gwlnCvruqWIMZFRd7yKRrx1cW1o=",
+        "originContent": "use ALAPI\\Acme\\Accounts\\Account;",
+        "translatedContent": "use ALAPI\\Acme\\Accounts\\Account;"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "I6Yx+WJEy60yKabmKO2GRMDW2zmBWGvg96qEb3oKp8o=",
+        "originContent": "// Create account from existing private key string",
+        "translatedContent": "// Create account from existing private key string"
+      },
+      {
+        "row": 8,
+        "rowsha": "nFC6HJBAXNj0ilhINqAv+Eu3kUsC0fMrvGIahS21eXc=",
+        "originContent": "$privateKeyPem = '-----BEGIN PRIVATE KEY-----...-----END PRIVATE KEY-----';",
+        "translatedContent": "$privateKeyPem = '-----BEGIN PRIVATE KEY-----...-----END PRIVATE KEY-----';"
+      },
+      {
+        "row": 9,
+        "rowsha": "ZpIhfwI1N61jVyd6wfKAUu6lWyV5xA5PHQ4l8tOUhZM=",
+        "originContent": "$account = new Account($privateKeyPem);",
+        "translatedContent": "$account = new Account($privateKeyPem);"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "AN/023LsGslac1rgPx/bF+PZTNe5pjlaN/D40lUQEdU=",
+        "originContent": "// Or create account with both private and public keys",
+        "translatedContent": "// Or create account with both private and public keys"
+      },
+      {
+        "row": 12,
+        "rowsha": "otPnBOtMGGUWbUj/vSwKyMGUqUnZfwVkc5X0PIA3mS8=",
+        "originContent": "$publicKeyPem = '-----BEGIN PUBLIC KEY-----...-----END PUBLIC KEY-----';",
+        "translatedContent": "$publicKeyPem = '-----BEGIN PUBLIC KEY-----...-----END PUBLIC KEY-----';"
+      },
+      {
+        "row": 13,
+        "rowsha": "WbwpXyXG7T78GMUcqZv2P1lVK1Alo40za2WJ8DadDoU=",
+        "originContent": "$account = new Account($privateKeyPem, $publicKeyPem);",
+        "translatedContent": "$account = new Account($privateKeyPem, $publicKeyPem);"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "AZNvCqGD3Ddqy01QsKTtNuSNVoZ/jvVhdkhZCaYL9iE=",
+        "originContent": "// Or create account from private key only (public key will be extracted)",
+        "translatedContent": "// Or create account from private key only (public key will be extracted)"
+      },
+      {
+        "row": 16,
+        "rowsha": "p9EdhtBX5S4hpsOZ9A+ZAfFmbMua8lNeicTNwEhQcgo=",
+        "originContent": "$account = Account::fromPrivateKey($privateKeyPem);",
+        "translatedContent": "$account = Account::fromPrivateKey($privateKeyPem);"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n**Option B: Using AccountStorage for file-based key management**\n",
+    "ContentSha": "30lwvF9pYqVqFFlMIxF7YbN8hSdiZpMZW+7/9iAzACs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**選項 B：使用 AccountStorage 進行基於檔案的金鑰管理**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cdVugVi3DrONdAF0UlN7leO2IxZ0+B0b/w14tK8r4OY=",
+        "originContent": "**Option B: Using AccountStorage for file-based key management**",
+        "translatedContent": "**選項 B：使用 AccountStorage 進行基於檔案的金鑰管理**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```php\n<?php\nrequire_once 'vendor/autoload.php';\n\nuse ALAPI\\Acme\\Utils\\AccountStorage;\n\n// Create new ECC account and save to files (recommended)\n$account = AccountStorage::createAndSave(\n    directory: 'storage',\n    name: 'my-account',\n    keyType: 'ECC',\n    keySize: 'P-384'\n);\n\n// Or create RSA account and save to files\n$rsaAccount = AccountStorage::createAndSave(\n    directory: 'storage', \n    name: 'my-rsa-account',\n    keyType: 'RSA',\n    keySize: 4096\n);\n\necho \"Account keys created and saved successfully!\\n\";\n```",
+    "ContentSha": "rrx7LEEZAz/S6NwngR5BM8FxSwskHvWMJVZypn2UMcE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n<?php\nrequire_once 'vendor/autoload.php';\n\nuse ALAPI\\Acme\\Utils\\AccountStorage;\n\n// Create new ECC account and save to files (recommended)\n$account = AccountStorage::createAndSave(\n    directory: 'storage',\n    name: 'my-account',\n    keyType: 'ECC',\n    keySize: 'P-384'\n);\n\n// Or create RSA account and save to files\n$rsaAccount = AccountStorage::createAndSave(\n    directory: 'storage', \n    name: 'my-rsa-account',\n    keyType: 'RSA',\n    keySize: 4096\n);\n\necho \"Account keys created and saved successfully!\\n\";\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "/lvLVMVuC59FagYDZN0osiSPOg4hwWjUzp0Am3PoPjw=",
+        "originContent": "<?php",
+        "translatedContent": "<?php"
+      },
+      {
+        "row": 3,
+        "rowsha": "MJwlX9u0fCMAFoscb49qGyK/OQYajPb+1lFtfLYQpP4=",
+        "originContent": "require_once 'vendor/autoload.php';",
+        "translatedContent": "require_once 'vendor/autoload.php';"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "TsYfGNKx0ch72qV3nP5LsNbaPSs7KdQRnxpaEnDmRkw=",
+        "originContent": "use ALAPI\\Acme\\Utils\\AccountStorage;",
+        "translatedContent": "use ALAPI\\Acme\\Utils\\AccountStorage;"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "OZPIa7Byv/+euN3G3nkcs8kn2QftpqsM13K0hiaQSac=",
+        "originContent": "// Create new ECC account and save to files (recommended)",
+        "translatedContent": "// Create new ECC account and save to files (recommended)"
+      },
+      {
+        "row": 8,
+        "rowsha": "A+QZDVKu2LucBEssP2Yj6qg3uQM+ggNfJmwUGW3NO6g=",
+        "originContent": "$account = AccountStorage::createAndSave(",
+        "translatedContent": "$account = AccountStorage::createAndSave("
+      },
+      {
+        "row": 9,
+        "rowsha": "UZUX0Ac3XxJXZ4silzsKHvMGL4Vv76UVsEZ/JubYA1s=",
+        "originContent": "    directory: 'storage',",
+        "translatedContent": "    directory: 'storage',"
+      },
+      {
+        "row": 10,
+        "rowsha": "chCUvuwefJ2KZj7I6wQMLEclD91fay1y8Hm3SMS6r6M=",
+        "originContent": "    name: 'my-account',",
+        "translatedContent": "    name: 'my-account',"
+      },
+      {
+        "row": 11,
+        "rowsha": "L8dGyVBXJWREW9UFRAcdKfKwVA+jLnaEyMZ7Mb5mHoM=",
+        "originContent": "    keyType: 'ECC',",
+        "translatedContent": "    keyType: 'ECC',"
+      },
+      {
+        "row": 12,
+        "rowsha": "77EvaEAEDcpWzXshi0NVUemVmdQ1X44gQfgwhVjwMIY=",
+        "originContent": "    keySize: 'P-384'",
+        "translatedContent": "    keySize: 'P-384'"
+      },
+      {
+        "row": 13,
+        "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+        "originContent": ");",
+        "translatedContent": ");"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "uo0gL2SSgWawQDIz/gkH8P0BLtELEI66sd49dvboYlA=",
+        "originContent": "// Or create RSA account and save to files",
+        "translatedContent": "// Or create RSA account and save to files"
+      },
+      {
+        "row": 16,
+        "rowsha": "niiUjv1XMSi5UtT1uB6aLiYIhyl22Gbgi1ca5Lkzl7M=",
+        "originContent": "$rsaAccount = AccountStorage::createAndSave(",
+        "translatedContent": "$rsaAccount = AccountStorage::createAndSave("
+      },
+      {
+        "row": 17,
+        "rowsha": "vfF+MmvQJht+Q3DKvZ0DMgVoV608lf06iFvSeYzB+ag=",
+        "originContent": "    directory: 'storage', ",
+        "translatedContent": "    directory: 'storage', "
+      },
+      {
+        "row": 18,
+        "rowsha": "qbbCsgvSMrdPmv1TXnTNex+VZg0cp2dQYATXH88qbDY=",
+        "originContent": "    name: 'my-rsa-account',",
+        "translatedContent": "    name: 'my-rsa-account',"
+      },
+      {
+        "row": 19,
+        "rowsha": "xG718DMuvBrnk69z11oSa1CXhC8Zs/6dUQJukFsmDBk=",
+        "originContent": "    keyType: 'RSA',",
+        "translatedContent": "    keyType: 'RSA',"
+      },
+      {
+        "row": 20,
+        "rowsha": "DYIypW3r6EO6L0HJQNevXESNpMBR+Y1yA92oTF6qH5o=",
+        "originContent": "    keySize: 4096",
+        "translatedContent": "    keySize: 4096"
+      },
+      {
+        "row": 21,
+        "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+        "originContent": ");",
+        "translatedContent": ");"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "0OOng70NzNfjeubYTKF5t/6C4Fy1GYWXEW2sIVJDTfI=",
+        "originContent": "echo \"Account keys created and saved successfully!\\n\";",
+        "translatedContent": "echo \"Account keys created and saved successfully!\\n\";"
+      },
+      {
+        "row": 24,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n### 2. Initialize ACME Client\n",
+    "ContentSha": "6mcYfBXdfLZ+Zdk0ZqDKDd5VQYqlmYkG25o9uCwq2i0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 2. 初始化 ACME 客戶端\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ydCo2B4ZQqmDH3IVgKv6shax4Uc9UR7G5gcCfdDHICk=",
+        "originContent": "### 2. Initialize ACME Client",
+        "translatedContent": "### 2. 初始化 ACME 客戶端"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```php\n<?php\nrequire_once 'vendor/autoload.php';\n\nuse ALAPI\\Acme\\AcmeClient;\nuse ALAPI\\Acme\\Accounts\\Account;\nuse ALAPI\\Acme\\Utils\\AccountStorage;\nuse ALAPI\\Acme\\Http\\Clients\\ClientFactory;\n\n// Option A: Load account from files\n$account = AccountStorage::loadFromFiles('storage', 'my-account');\n\n// Option B: Create account from existing keys\n$privateKey = '-----BEGIN PRIVATE KEY-----...-----END PRIVATE KEY-----';\n$account = new Account($privateKey);\n\n// Create HTTP client with optional proxy\n$httpClient = ClientFactory::create(timeout: 30, options: [\n    // 'proxy' => 'http://proxy.example.com:8080'\n]);\n\n// Initialize client for Let's Encrypt production\n$acmeClient = new AcmeClient(\n    staging: false, // Set to true for testing\n    localAccount: $account,\n    httpClient: $httpClient\n);\n\n// Or use ZeroSSL\n$zeroSslClient = new AcmeClient(\n    localAccount: $account,\n    httpClient: $httpClient,\n    baseUrl: 'https://acme.zerossl.com/v2/DV90/directory'\n);\n```",
+    "ContentSha": "CMW4FEM87OU7xeSUntDkpmBw+oHaQGLQUzRx4TPcI1g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n<?php\nrequire_once 'vendor/autoload.php';\n\nuse ALAPI\\Acme\\AcmeClient;\nuse ALAPI\\Acme\\Accounts\\Account;\nuse ALAPI\\Acme\\Utils\\AccountStorage;\nuse ALAPI\\Acme\\Http\\Clients\\ClientFactory;\n\n// Option A: Load account from files\n$account = AccountStorage::loadFromFiles('storage', 'my-account');\n\n// Option B: Create account from existing keys\n$privateKey = '-----BEGIN PRIVATE KEY-----...-----END PRIVATE KEY-----';\n$account = new Account($privateKey);\n\n// Create HTTP client with optional proxy\n$httpClient = ClientFactory::create(timeout: 30, options: [\n    // 'proxy' => 'http://proxy.example.com:8080'\n]);\n\n// Initialize client for Let's Encrypt production\n$acmeClient = new AcmeClient(\n    staging: false, // Set to true for testing\n    localAccount: $account,\n    httpClient: $httpClient\n);\n\n// Or use ZeroSSL\n$zeroSslClient = new AcmeClient(\n    localAccount: $account,\n    httpClient: $httpClient,\n    baseUrl: 'https://acme.zerossl.com/v2/DV90/directory'\n);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "/lvLVMVuC59FagYDZN0osiSPOg4hwWjUzp0Am3PoPjw=",
+        "originContent": "<?php",
+        "translatedContent": "<?php"
+      },
+      {
+        "row": 3,
+        "rowsha": "MJwlX9u0fCMAFoscb49qGyK/OQYajPb+1lFtfLYQpP4=",
+        "originContent": "require_once 'vendor/autoload.php';",
+        "translatedContent": "require_once 'vendor/autoload.php';"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "HP3rmMKLa/Shxp8ErjN96eHTXfC4ycoNp4I4jr/XQpo=",
+        "originContent": "use ALAPI\\Acme\\AcmeClient;",
+        "translatedContent": "use ALAPI\\Acme\\AcmeClient;"
+      },
+      {
+        "row": 6,
+        "rowsha": "6wL42yTvoCFFmmf8gwlnCvruqWIMZFRd7yKRrx1cW1o=",
+        "originContent": "use ALAPI\\Acme\\Accounts\\Account;",
+        "translatedContent": "use ALAPI\\Acme\\Accounts\\Account;"
+      },
+      {
+        "row": 7,
+        "rowsha": "TsYfGNKx0ch72qV3nP5LsNbaPSs7KdQRnxpaEnDmRkw=",
+        "originContent": "use ALAPI\\Acme\\Utils\\AccountStorage;",
+        "translatedContent": "use ALAPI\\Acme\\Utils\\AccountStorage;"
+      },
+      {
+        "row": 8,
+        "rowsha": "nGMYe5d5PH6vKJdDQ1OoCp5jNuKsDrNKuaib4KW7J80=",
+        "originContent": "use ALAPI\\Acme\\Http\\Clients\\ClientFactory;",
+        "translatedContent": "use ALAPI\\Acme\\Http\\Clients\\ClientFactory;"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "E2lvzlOhL5RlnqYrm/OXj/QSORZFojQvifj90pvoMn0=",
+        "originContent": "// Option A: Load account from files",
+        "translatedContent": "// Option A: Load account from files"
+      },
+      {
+        "row": 11,
+        "rowsha": "7tM3A9+Feubc4Ca1vhSbJnIL5LhS88jwbcFcr23L7CU=",
+        "originContent": "$account = AccountStorage::loadFromFiles('storage', 'my-account');",
+        "translatedContent": "$account = AccountStorage::loadFromFiles('storage', 'my-account');"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "AsbSW4oeWlD/KDdDLgQsLUzvJ0tPU9dt21OjcLQlMqk=",
+        "originContent": "// Option B: Create account from existing keys",
+        "translatedContent": "// Option B: Create account from existing keys"
+      },
+      {
+        "row": 14,
+        "rowsha": "i8Hj5nyZCE2kO46P/yX2qYmN5urerRnGKmYaG1I4LCc=",
+        "originContent": "$privateKey = '-----BEGIN PRIVATE KEY-----...-----END PRIVATE KEY-----';",
+        "translatedContent": "$privateKey = '-----BEGIN PRIVATE KEY-----...-----END PRIVATE KEY-----';"
+      },
+      {
+        "row": 15,
+        "rowsha": "T61rdVyucxS9U4IBxuyZudHy0tw1xRbdRj5RyhK4XbU=",
+        "originContent": "$account = new Account($privateKey);",
+        "translatedContent": "$account = new Account($privateKey);"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "sQgMnje4fG18sVQQ/2ysu396XatyNQ60BhQ5Rn2OGzA=",
+        "originContent": "// Create HTTP client with optional proxy",
+        "translatedContent": "// Create HTTP client with optional proxy"
+      },
+      {
+        "row": 18,
+        "rowsha": "8hNi/RU6Y7PX/x2kXmKqa7ZHIKa444DJg0PTNUPS5+M=",
+        "originContent": "$httpClient = ClientFactory::create(timeout: 30, options: [",
+        "translatedContent": "$httpClient = ClientFactory::create(timeout: 30, options: ["
+      },
+      {
+        "row": 19,
+        "rowsha": "BGjtsfYugbjWfaKD1L9+cigCJdM89wR4Ei19+1OSOlo=",
+        "originContent": "    // 'proxy' => 'http://proxy.example.com:8080'",
+        "translatedContent": "    // 'proxy' => 'http://proxy.example.com:8080'"
+      },
+      {
+        "row": 20,
+        "rowsha": "CuR6E5gPslkALbYlfjVOXImUpTVGK/isDJUvzfVETmk=",
+        "originContent": "]);",
+        "translatedContent": "]);"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "fWncm4D5suTuzMuiZ9/fKVQMgawRKdEgWU/fe0pDArs=",
+        "originContent": "// Initialize client for Let's Encrypt production",
+        "translatedContent": "// Initialize client for Let's Encrypt production"
+      },
+      {
+        "row": 23,
+        "rowsha": "QFOeL5/oc0i7LiK3MJf5vck9YE+0UWM4z/6TWYSFYSg=",
+        "originContent": "$acmeClient = new AcmeClient(",
+        "translatedContent": "$acmeClient = new AcmeClient("
+      },
+      {
+        "row": 24,
+        "rowsha": "cmDbE37oOp2M2V+hjdtQ7qZIdhVTNw6BaZSAD4V1RZw=",
+        "originContent": "    staging: false, // Set to true for testing",
+        "translatedContent": "    staging: false, // Set to true for testing"
+      },
+      {
+        "row": 25,
+        "rowsha": "Morc2PwiEiYQ4+HtpPWXCM/LpqvvaCQgeznQUCGS6ZM=",
+        "originContent": "    localAccount: $account,",
+        "translatedContent": "    localAccount: $account,"
+      },
+      {
+        "row": 26,
+        "rowsha": "D8d+gL2kR0QIvq217vkwoTav2CQzjvomy6+oaH8L0iQ=",
+        "originContent": "    httpClient: $httpClient",
+        "translatedContent": "    httpClient: $httpClient"
+      },
+      {
+        "row": 27,
+        "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+        "originContent": ");",
+        "translatedContent": ");"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "Hgc5WPfE6sK2ZjFq06EYF9ZT7tVxRStWrgaWD15iGls=",
+        "originContent": "// Or use ZeroSSL",
+        "translatedContent": "// Or use ZeroSSL"
+      },
+      {
+        "row": 30,
+        "rowsha": "nSWbagSosZ3d3LNVxD8T8gE6vqaAqGElpEMNj56dBHo=",
+        "originContent": "$zeroSslClient = new AcmeClient(",
+        "translatedContent": "$zeroSslClient = new AcmeClient("
+      },
+      {
+        "row": 31,
+        "rowsha": "Morc2PwiEiYQ4+HtpPWXCM/LpqvvaCQgeznQUCGS6ZM=",
+        "originContent": "    localAccount: $account,",
+        "translatedContent": "    localAccount: $account,"
+      },
+      {
+        "row": 32,
+        "rowsha": "oBNI20k6MFU5RjngeY8zZy8CfO2p6Y450rd3KDlksr4=",
+        "originContent": "    httpClient: $httpClient,",
+        "translatedContent": "    httpClient: $httpClient,"
+      },
+      {
+        "row": 33,
+        "rowsha": "msptcaeeQ/vfNXeyuOahXsSTObULVIDC5H//ybNf8DA=",
+        "originContent": "    baseUrl: 'https://acme.zerossl.com/v2/DV90/directory'",
+        "translatedContent": "    baseUrl: 'https://acme.zerossl.com/v2/DV90/directory'"
+      },
+      {
+        "row": 34,
+        "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+        "originContent": ");",
+        "translatedContent": ");"
+      },
+      {
+        "row": 35,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n### 3. Register ACME Account\n\nFor Let's Encrypt (no EAB required):\n",
+    "ContentSha": "EJQoTHcVaxNEv4p5JBBriWhMnpQ9b892sggnzaVnO68=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 3. 註冊 ACME 帳戶\n\n對於 Let's Encrypt（不需要 EAB）：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "fZeijQPVJiaj4CNcsfTYsmjhpqNOn5Mtj2E2MO+EIpo=",
+        "originContent": "### 3. Register ACME Account",
+        "translatedContent": "### 3. 註冊 ACME 帳戶"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "nsmVRyx2K9XPEdZMr+4jr/hV/ENP8OdUpLuriwVgEtI=",
+        "originContent": "For Let's Encrypt (no EAB required):",
+        "translatedContent": "對於 Let's Encrypt（不需要 EAB）："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```php\ntry {\n    // Register account with Let's Encrypt\n    $accountData = $acmeClient->account()->create(\n        contacts: ['mailto:admin@example.com']\n    );\n    \n    echo \"Account registered successfully!\\n\";\n    echo \"Account URL: \" . $accountData->url . \"\\n\";\n} catch (Exception $e) {\n    echo \"Registration failed: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "ContentSha": "D4kvKEfw39tQCVUkiqMcAympDE6ieikl4gfCo7sB/p4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\ntry {\n    // Register account with Let's Encrypt\n    $accountData = $acmeClient->account()->create(\n        contacts: ['mailto:admin@example.com']\n    );\n    \n    echo \"Account registered successfully!\\n\";\n    echo \"Account URL: \" . $accountData->url . \"\\n\";\n} catch (Exception $e) {\n    echo \"Registration failed: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "A9mrpjURc+X4xHnz54Ykevyii9gU3ULmR3+lG0jJ/jY=",
+        "originContent": "try {",
+        "translatedContent": "try {"
+      },
+      {
+        "row": 3,
+        "rowsha": "wFl93pi7m7oO8u6SgAkh4iCf4F9YvUalx0RK5Q3d5/4=",
+        "originContent": "    // Register account with Let's Encrypt",
+        "translatedContent": "    // Register account with Let's Encrypt"
+      },
+      {
+        "row": 4,
+        "rowsha": "Bfix8Pz/1zHLlgAIs6NgjwaYnxTrgVZyqT3tM653wYg=",
+        "originContent": "    $accountData = $acmeClient->account()->create(",
+        "translatedContent": "    $accountData = $acmeClient->account()->create("
+      },
+      {
+        "row": 5,
+        "rowsha": "T37XifFRAxON8zwwSG5HTYJ+W68La9jhFnf1YG+6+4Q=",
+        "originContent": "        contacts: ['mailto:admin@example.com']",
+        "translatedContent": "        contacts: ['mailto:admin@example.com']"
+      },
+      {
+        "row": 6,
+        "rowsha": "Z2lMElzKjKCmJyXf71joUm6rTSJ2l9cz8FUpXZAfx3I=",
+        "originContent": "    );",
+        "translatedContent": "    );"
+      },
+      {
+        "row": 7,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 8,
+        "rowsha": "CeFyvtNvxreFsYxs6EdjAeS9C9Oi8D087o69JkXdePI=",
+        "originContent": "    echo \"Account registered successfully!\\n\";",
+        "translatedContent": "    echo \"Account registered successfully!\\n\";"
+      },
+      {
+        "row": 9,
+        "rowsha": "t6HEqa2++oA0R/69u/7z+mJkIoQ/OZiLt9OhbHmhFIY=",
+        "originContent": "    echo \"Account URL: \" . $accountData->url . \"\\n\";",
+        "translatedContent": "    echo \"Account URL: \" . $accountData->url . \"\\n\";"
+      },
+      {
+        "row": 10,
+        "rowsha": "+WRTLyw6O+EcfEWksCTXrYzcy4m+kYiZhMeBa1slEWs=",
+        "originContent": "} catch (Exception $e) {",
+        "translatedContent": "} catch (Exception $e) {"
+      },
+      {
+        "row": 11,
+        "rowsha": "kpC6vJuAuHh756byMYkClsONZ0e8eLLyv9jxu9g7B8A=",
+        "originContent": "    echo \"Registration failed: \" . $e->getMessage() . \"\\n\";",
+        "translatedContent": "    echo \"Registration failed: \" . $e->getMessage() . \"\\n\";"
+      },
+      {
+        "row": 12,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nFor ZeroSSL (EAB required):\n",
+    "ContentSha": "ZLQLXeHoT4Fc/XSGteHNRdcnfuZDFRxI7TuBcaiPwLA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n對於 ZeroSSL（需要 EAB）：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3IXvOuPORXRld7JJDbIalMzWmBFUv6INMfPbwDG7zAA=",
+        "originContent": "For ZeroSSL (EAB required):",
+        "translatedContent": "對於 ZeroSSL（需要 EAB）："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```php\ntry {\n    // Get EAB credentials from ZeroSSL dashboard\n    $eabKid = 'your-eab-kid';\n    $eabHmacKey = 'your-eab-hmac-key';\n    \n    $accountData = $zeroSslClient->account()->create(\n        eabKid: $eabKid,\n        eabHmacKey: $eabHmacKey,\n        contacts: ['mailto:admin@example.com']\n    );\n    \n    echo \"ZeroSSL account registered successfully!\\n\";\n} catch (Exception $e) {\n    echo \"Registration failed: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "ContentSha": "W91ZAeG0UHOWCnUA25gC+mDWGY4T5mC1WKSnjkwCCXM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\ntry {\n    // Get EAB credentials from ZeroSSL dashboard\n    $eabKid = 'your-eab-kid';\n    $eabHmacKey = 'your-eab-hmac-key';\n    \n    $accountData = $zeroSslClient->account()->create(\n        eabKid: $eabKid,\n        eabHmacKey: $eabHmacKey,\n        contacts: ['mailto:admin@example.com']\n    );\n    \n    echo \"ZeroSSL account registered successfully!\\n\";\n} catch (Exception $e) {\n    echo \"Registration failed: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "A9mrpjURc+X4xHnz54Ykevyii9gU3ULmR3+lG0jJ/jY=",
+        "originContent": "try {",
+        "translatedContent": "try {"
+      },
+      {
+        "row": 3,
+        "rowsha": "uCtmqjMpe3BcK1MKVV81lly28lVM5YbCJiV1NUAsY78=",
+        "originContent": "    // Get EAB credentials from ZeroSSL dashboard",
+        "translatedContent": "    // Get EAB credentials from ZeroSSL dashboard"
+      },
+      {
+        "row": 4,
+        "rowsha": "IggNrLVT8FWXqca3k5HGQ1n5cYvqM1YopBiU9MslICU=",
+        "originContent": "    $eabKid = 'your-eab-kid';",
+        "translatedContent": "    $eabKid = 'your-eab-kid';"
+      },
+      {
+        "row": 5,
+        "rowsha": "4T0FeEQh8aj0Ome4Ywspn4xzrK+LfCSqXvVCeU9U3lM=",
+        "originContent": "    $eabHmacKey = 'your-eab-hmac-key';",
+        "translatedContent": "    $eabHmacKey = 'your-eab-hmac-key';"
+      },
+      {
+        "row": 6,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 7,
+        "rowsha": "Zcf9GeFmqEBNuYFPK4gotyskYyHyOdzHORwCdaYdNgQ=",
+        "originContent": "    $accountData = $zeroSslClient->account()->create(",
+        "translatedContent": "    $accountData = $zeroSslClient->account()->create("
+      },
+      {
+        "row": 8,
+        "rowsha": "B4+tdrhFIogZE9K3NQo1ywJo6fuPw18YkTyLeyiNwsQ=",
+        "originContent": "        eabKid: $eabKid,",
+        "translatedContent": "        eabKid: $eabKid,"
+      },
+      {
+        "row": 9,
+        "rowsha": "TdfvGPq2aOsBiHC/EVIS4NUhRp38a2zbFVL3AZb5OSY=",
+        "originContent": "        eabHmacKey: $eabHmacKey,",
+        "translatedContent": "        eabHmacKey: $eabHmacKey,"
+      },
+      {
+        "row": 10,
+        "rowsha": "T37XifFRAxON8zwwSG5HTYJ+W68La9jhFnf1YG+6+4Q=",
+        "originContent": "        contacts: ['mailto:admin@example.com']",
+        "translatedContent": "        contacts: ['mailto:admin@example.com']"
+      },
+      {
+        "row": 11,
+        "rowsha": "Z2lMElzKjKCmJyXf71joUm6rTSJ2l9cz8FUpXZAfx3I=",
+        "originContent": "    );",
+        "translatedContent": "    );"
+      },
+      {
+        "row": 12,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 13,
+        "rowsha": "9ge9vjlrgDocrsAdd1a6/mtwPf+PQFBoD5keJLNlhFA=",
+        "originContent": "    echo \"ZeroSSL account registered successfully!\\n\";",
+        "translatedContent": "    echo \"ZeroSSL account registered successfully!\\n\";"
+      },
+      {
+        "row": 14,
+        "rowsha": "+WRTLyw6O+EcfEWksCTXrYzcy4m+kYiZhMeBa1slEWs=",
+        "originContent": "} catch (Exception $e) {",
+        "translatedContent": "} catch (Exception $e) {"
+      },
+      {
+        "row": 15,
+        "rowsha": "kpC6vJuAuHh756byMYkClsONZ0e8eLLyv9jxu9g7B8A=",
+        "originContent": "    echo \"Registration failed: \" . $e->getMessage() . \"\\n\";",
+        "translatedContent": "    echo \"Registration failed: \" . $e->getMessage() . \"\\n\";"
+      },
+      {
+        "row": 16,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n### 4. Request Certificate\n",
+    "ContentSha": "y9lUvS9XSKYaG3r9eq99/1a1Oil5WUetfzApwv0xqPU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 4. 請求憑證\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "tCPODahZruG8QOSluvn7mM/Aumwe0FRk/JHDRvZQvXE=",
+        "originContent": "### 4. Request Certificate",
+        "translatedContent": "### 4. 請求憑證"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```php\n<?php\nuse ALAPI\\Acme\\Enums\\AuthorizationChallengeEnum;\n\ntry {\n    // Get account data\n    $accountData = $acmeClient->account()->get();\n    \n    // Create new order for domains\n    $domains = ['example.com', 'www.example.com'];\n    $order = $acmeClient->order()->new($accountData, $domains);\n    \n    echo \"Order created: \" . $order->url . \"\\n\";\n    echo \"Status: \" . $order->status . \"\\n\";\n    \n    // Check domain validations\n    $validations = $acmeClient->domainValidation()->status($order);\n    \n    foreach ($validations as $validation) {\n        $domain = $validation->identifier['value'];\n        echo \"Domain: $domain - Status: \" . $validation->status . \"\\n\";\n        \n        if ($validation->isPending()) {\n            // Get validation data for HTTP-01 challenge\n            $challenges = $acmeClient->domainValidation()->getValidationData(\n                [$validation], \n                AuthorizationChallengeEnum::HTTP\n            );\n            \n            foreach ($challenges as $challenge) {\n                echo \"HTTP Challenge for $domain:\\n\";\n                echo \"  File: \" . $challenge['filename'] . \"\\n\";\n                echo \"  Content: \" . $challenge['content'] . \"\\n\";\n                echo \"  Place it at: http://$domain/.well-known/acme-challenge/\" . $challenge['filename'] . \"\\n\\n\";\n            }\n        }\n    }\n} catch (Exception $e) {\n    echo \"Error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "ContentSha": "BWbL+QG69rRYbPIwfJiX0Hd6a9LtWhQcpBqu6Kiowjw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n<?php\nuse ALAPI\\Acme\\Enums\\AuthorizationChallengeEnum;\n\ntry {\n    // Get account data\n    $accountData = $acmeClient->account()->get();\n    \n    // Create new order for domains\n    $domains = ['example.com', 'www.example.com'];\n    $order = $acmeClient->order()->new($accountData, $domains);\n    \n    echo \"Order created: \" . $order->url . \"\\n\";\n    echo \"Status: \" . $order->status . \"\\n\";\n    \n    // Check domain validations\n    $validations = $acmeClient->domainValidation()->status($order);\n    \n    foreach ($validations as $validation) {\n        $domain = $validation->identifier['value'];\n        echo \"Domain: $domain - Status: \" . $validation->status . \"\\n\";\n        \n        if ($validation->isPending()) {\n            // Get validation data for HTTP-01 challenge\n            $challenges = $acmeClient->domainValidation()->getValidationData(\n                [$validation], \n                AuthorizationChallengeEnum::HTTP\n            );\n            \n            foreach ($challenges as $challenge) {\n                echo \"HTTP Challenge for $domain:\\n\";\n                echo \"  File: \" . $challenge['filename'] . \"\\n\";\n                echo \"  Content: \" . $challenge['content'] . \"\\n\";\n                echo \"  Place it at: http://$domain/.well-known/acme-challenge/\" . $challenge['filename'] . \"\\n\\n\";\n            }\n        }\n    }\n} catch (Exception $e) {\n    echo \"Error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "/lvLVMVuC59FagYDZN0osiSPOg4hwWjUzp0Am3PoPjw=",
+        "originContent": "<?php",
+        "translatedContent": "<?php"
+      },
+      {
+        "row": 3,
+        "rowsha": "vP24Mfzg4/rSTqMFp9ebya2BPqpq9MNeH/+9rSFmzxo=",
+        "originContent": "use ALAPI\\Acme\\Enums\\AuthorizationChallengeEnum;",
+        "translatedContent": "use ALAPI\\Acme\\Enums\\AuthorizationChallengeEnum;"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "A9mrpjURc+X4xHnz54Ykevyii9gU3ULmR3+lG0jJ/jY=",
+        "originContent": "try {",
+        "translatedContent": "try {"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ht6ThzPJDZV0gcSCnrkdConcn5QtoH2z6GlNSCOdlN8=",
+        "originContent": "    // Get account data",
+        "translatedContent": "    // Get account data"
+      },
+      {
+        "row": 7,
+        "rowsha": "VsZupJuqeNiSzyrbic8XHVuO1RpwtpdYCGX7m9etfPI=",
+        "originContent": "    $accountData = $acmeClient->account()->get();",
+        "translatedContent": "    $accountData = $acmeClient->account()->get();"
+      },
+      {
+        "row": 8,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 9,
+        "rowsha": "02YeSoS48cqu6C5/y4/jRcvNx9o+7KN7LzwDTGrJb40=",
+        "originContent": "    // Create new order for domains",
+        "translatedContent": "    // Create new order for domains"
+      },
+      {
+        "row": 10,
+        "rowsha": "ViSUPEg0gAsv73SjV1mM20/hXvMxMvRJg6EznhkbLq4=",
+        "originContent": "    $domains = ['example.com', 'www.example.com'];",
+        "translatedContent": "    $domains = ['example.com', 'www.example.com'];"
+      },
+      {
+        "row": 11,
+        "rowsha": "5v5yYijM4bhNuA7ZsCs9xIgerj/zHMjDzTkou8wmYzE=",
+        "originContent": "    $order = $acmeClient->order()->new($accountData, $domains);",
+        "translatedContent": "    $order = $acmeClient->order()->new($accountData, $domains);"
+      },
+      {
+        "row": 12,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 13,
+        "rowsha": "6G48gDliECvlHKQun/9mJ6KrGs4AhaHEtFeHWBUjs8M=",
+        "originContent": "    echo \"Order created: \" . $order->url . \"\\n\";",
+        "translatedContent": "    echo \"Order created: \" . $order->url . \"\\n\";"
+      },
+      {
+        "row": 14,
+        "rowsha": "ghGnIMdvdZr91wvM0lccqyx9IgB06xGN4PBkcuQiyNM=",
+        "originContent": "    echo \"Status: \" . $order->status . \"\\n\";",
+        "translatedContent": "    echo \"Status: \" . $order->status . \"\\n\";"
+      },
+      {
+        "row": 15,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 16,
+        "rowsha": "AXtVxMDQ5uTsXEDKvVpuSQUFwxT6qWX5/KdFPmzFdEI=",
+        "originContent": "    // Check domain validations",
+        "translatedContent": "    // Check domain validations"
+      },
+      {
+        "row": 17,
+        "rowsha": "GUnIEua3QYKhReixdDqfXfz405GjFMb/eayjGEWBFG8=",
+        "originContent": "    $validations = $acmeClient->domainValidation()->status($order);",
+        "translatedContent": "    $validations = $acmeClient->domainValidation()->status($order);"
+      },
+      {
+        "row": 18,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 19,
+        "rowsha": "DazdW6LPKiHsPyW1+kvT1isC4qOKzYkIcOFUg9mhnwY=",
+        "originContent": "    foreach ($validations as $validation) {",
+        "translatedContent": "    foreach ($validations as $validation) {"
+      },
+      {
+        "row": 20,
+        "rowsha": "jR5f5tMaE/oRKuAn+9717ZmhtenDU8luEUAgL+NJnxo=",
+        "originContent": "        $domain = $validation->identifier['value'];",
+        "translatedContent": "        $domain = $validation->identifier['value'];"
+      },
+      {
+        "row": 21,
+        "rowsha": "rndCZpcrf17KsIbNGMvqRnDYCoY7rvCV2ZeHd4+5O6E=",
+        "originContent": "        echo \"Domain: $domain - Status: \" . $validation->status . \"\\n\";",
+        "translatedContent": "        echo \"Domain: $domain - Status: \" . $validation->status . \"\\n\";"
+      },
+      {
+        "row": 22,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 23,
+        "rowsha": "y7hW90qJGy3zN8NCzDINpinUsLXJkyOwdoQr4Qht6VM=",
+        "originContent": "        if ($validation->isPending()) {",
+        "translatedContent": "        if ($validation->isPending()) {"
+      },
+      {
+        "row": 24,
+        "rowsha": "MN8vPGQ+y/1s0JGEkj5K/iZk3sZYYpxWG1midT/9Zs8=",
+        "originContent": "            // Get validation data for HTTP-01 challenge",
+        "translatedContent": "            // Get validation data for HTTP-01 challenge"
+      },
+      {
+        "row": 25,
+        "rowsha": "0Yb7I0Ipz/fAlFiIHTUXAPPdkkHAI2JA7NbyA7wElnA=",
+        "originContent": "            $challenges = $acmeClient->domainValidation()->getValidationData(",
+        "translatedContent": "            $challenges = $acmeClient->domainValidation()->getValidationData("
+      },
+      {
+        "row": 26,
+        "rowsha": "ZuZxmGkh6+Jm4+YFTtRMw6/yW3ocybBWEoA9cczoFOw=",
+        "originContent": "                [$validation], ",
+        "translatedContent": "                [$validation], "
+      },
+      {
+        "row": 27,
+        "rowsha": "ddAqHU7EhhxoABom97O5PYeIc7IwvOnRW4HocRwLJGA=",
+        "originContent": "                AuthorizationChallengeEnum::HTTP",
+        "translatedContent": "                AuthorizationChallengeEnum::HTTP"
+      },
+      {
+        "row": 28,
+        "rowsha": "TP8Q3DEGchm51Vip29yFq2ARapMUfh7WtjTaIXt6tXc=",
+        "originContent": "            );",
+        "translatedContent": "            );"
+      },
+      {
+        "row": 29,
+        "rowsha": "BahHX+67/qaF7OBgRb5jci7cYbsq3oBgqfA67W1J9FQ=",
+        "originContent": "            ",
+        "translatedContent": "            "
+      },
+      {
+        "row": 30,
+        "rowsha": "+7dLbUOyH9yh3rrd7Iz0/A0WWaLQ6wHBMLH5qTlX7pQ=",
+        "originContent": "            foreach ($challenges as $challenge) {",
+        "translatedContent": "            foreach ($challenges as $challenge) {"
+      },
+      {
+        "row": 31,
+        "rowsha": "T4GXwPxO/M5ls3ZE9dW0EKW4y7Mt0Hf66wmTpCFMA/M=",
+        "originContent": "                echo \"HTTP Challenge for $domain:\\n\";",
+        "translatedContent": "                echo \"HTTP Challenge for $domain:\\n\";"
+      },
+      {
+        "row": 32,
+        "rowsha": "QiGFE1Sz+JgL+gW46URrC11TZuhqKMEkpvzIzyRYDtA=",
+        "originContent": "                echo \"  File: \" . $challenge['filename'] . \"\\n\";",
+        "translatedContent": "                echo \"  File: \" . $challenge['filename'] . \"\\n\";"
+      },
+      {
+        "row": 33,
+        "rowsha": "Uh1bGtrvDqAFBrkMMQEmPyfZOe5P4nYB0Zm266kkHj8=",
+        "originContent": "                echo \"  Content: \" . $challenge['content'] . \"\\n\";",
+        "translatedContent": "                echo \"  Content: \" . $challenge['content'] . \"\\n\";"
+      },
+      {
+        "row": 34,
+        "rowsha": "SswMjZxN/zSv3lRutORtHyaHkifYFbExIcEtI/wWAmY=",
+        "originContent": "                echo \"  Place it at: http://$domain/.well-known/acme-challenge/\" . $challenge['filename'] . \"\\n\\n\";",
+        "translatedContent": "                echo \"  Place it at: http://$domain/.well-known/acme-challenge/\" . $challenge['filename'] . \"\\n\\n\";"
+      },
+      {
+        "row": 35,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 36,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 37,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 38,
+        "rowsha": "+WRTLyw6O+EcfEWksCTXrYzcy4m+kYiZhMeBa1slEWs=",
+        "originContent": "} catch (Exception $e) {",
+        "translatedContent": "} catch (Exception $e) {"
+      },
+      {
+        "row": 39,
+        "rowsha": "AzN2cIMbpleUXFoWnXc7d71HGesDL8J5LbqBa2FuX/0=",
+        "originContent": "    echo \"Error: \" . $e->getMessage() . \"\\n\";",
+        "translatedContent": "    echo \"Error: \" . $e->getMessage() . \"\\n\";"
+      },
+      {
+        "row": 40,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 41,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n### 5. Complete Domain Validation\n\nAfter placing the challenge files on your web server:\n",
+    "ContentSha": "n9MqJOVbbEX2dmtGaNOek0Tto1fns89aDftAhI0m0bo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 5. 完成網域驗證\n\n在將挑戰檔案放置到您的網頁伺服器後：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ufycAdQNIQUhYxo2FMLVMvoiEvHd7VZKoUszhxJOT28=",
+        "originContent": "### 5. Complete Domain Validation",
+        "translatedContent": "### 5. 完成網域驗證"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8VqABU4Qd8uL1UTOhIqYv0fMB1R9csiJIZXdcx8B4nI=",
+        "originContent": "After placing the challenge files on your web server:",
+        "translatedContent": "在將挑戰檔案放置到您的網頁伺服器後："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```php\ntry {\n    // Trigger validation for each domain\n    foreach ($validations as $validation) {\n        if ($validation->isPending()) {\n            $response = $acmeClient->domainValidation()->validate(\n                $accountData,\n                $validation,\n                AuthorizationChallengeEnum::HTTP,\n                localTest: true // Performs local validation first\n            );\n            \n            echo \"Validation triggered for: \" . $validation->identifier['value'] . \"\\n\";\n        }\n    }\n    \n    // Wait for validation to complete\n    $maxAttempts = 10;\n    $attempt = 0;\n    \n    do {\n        sleep(5);\n        $attempt++;\n        \n        // Check order status\n        $currentOrder = $acmeClient->order()->get($accountData, $order->url);\n        echo \"Order status: \" . $currentOrder->status . \"\\n\";\n        \n        if ($currentOrder->status === 'ready') {\n            echo \"All validations completed successfully!\\n\";\n            break;\n        }\n        \n        if ($currentOrder->status === 'invalid') {\n            echo \"Order validation failed!\\n\";\n            break;\n        }\n        \n    } while ($attempt < $maxAttempts);\n    \n} catch (Exception $e) {\n    echo \"Validation error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "ContentSha": "a26k2HI0yC3e/Wt3vwKGYkTmmN2MegOMVXEMEj5GjZg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\ntry {\n    // Trigger validation for each domain\n    foreach ($validations as $validation) {\n        if ($validation->isPending()) {\n            $response = $acmeClient->domainValidation()->validate(\n                $accountData,\n                $validation,\n                AuthorizationChallengeEnum::HTTP,\n                localTest: true // Performs local validation first\n            );\n            \n            echo \"Validation triggered for: \" . $validation->identifier['value'] . \"\\n\";\n        }\n    }\n    \n    // Wait for validation to complete\n    $maxAttempts = 10;\n    $attempt = 0;\n    \n    do {\n        sleep(5);\n        $attempt++;\n        \n        // Check order status\n        $currentOrder = $acmeClient->order()->get($accountData, $order->url);\n        echo \"Order status: \" . $currentOrder->status . \"\\n\";\n        \n        if ($currentOrder->status === 'ready') {\n            echo \"All validations completed successfully!\\n\";\n            break;\n        }\n        \n        if ($currentOrder->status === 'invalid') {\n            echo \"Order validation failed!\\n\";\n            break;\n        }\n        \n    } while ($attempt < $maxAttempts);\n    \n} catch (Exception $e) {\n    echo \"Validation error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "A9mrpjURc+X4xHnz54Ykevyii9gU3ULmR3+lG0jJ/jY=",
+        "originContent": "try {",
+        "translatedContent": "try {"
+      },
+      {
+        "row": 3,
+        "rowsha": "/oCu8/cNdq3tO9iFkp8TLP9KoLnEy0r9GO6GkNBT+DA=",
+        "originContent": "    // Trigger validation for each domain",
+        "translatedContent": "    // Trigger validation for each domain"
+      },
+      {
+        "row": 4,
+        "rowsha": "DazdW6LPKiHsPyW1+kvT1isC4qOKzYkIcOFUg9mhnwY=",
+        "originContent": "    foreach ($validations as $validation) {",
+        "translatedContent": "    foreach ($validations as $validation) {"
+      },
+      {
+        "row": 5,
+        "rowsha": "y7hW90qJGy3zN8NCzDINpinUsLXJkyOwdoQr4Qht6VM=",
+        "originContent": "        if ($validation->isPending()) {",
+        "translatedContent": "        if ($validation->isPending()) {"
+      },
+      {
+        "row": 6,
+        "rowsha": "o3WfCpkRsvBabf6uE0vYF/CLxcnGGSqu+np4CP3WR8c=",
+        "originContent": "            $response = $acmeClient->domainValidation()->validate(",
+        "translatedContent": "            $response = $acmeClient->domainValidation()->validate("
+      },
+      {
+        "row": 7,
+        "rowsha": "yJj8cBuaLaAv83bXeCzgtkC3MhKf1XEXbM3J1BNxKYM=",
+        "originContent": "                $accountData,",
+        "translatedContent": "                $accountData,"
+      },
+      {
+        "row": 8,
+        "rowsha": "AUMXMfEmmpMG1Unh2T1N2OpQq03xFO6fj+5MMGdpnbk=",
+        "originContent": "                $validation,",
+        "translatedContent": "                $validation,"
+      },
+      {
+        "row": 9,
+        "rowsha": "93ym5wmPo6AW7eNGw5ITmjXTSup5tXaM1n+almJoUZI=",
+        "originContent": "                AuthorizationChallengeEnum::HTTP,",
+        "translatedContent": "                AuthorizationChallengeEnum::HTTP,"
+      },
+      {
+        "row": 10,
+        "rowsha": "hUcILwWpcrB7EKanR9FkkONiy/se1nlZ69xoNreokm8=",
+        "originContent": "                localTest: true // Performs local validation first",
+        "translatedContent": "                localTest: true // Performs local validation first"
+      },
+      {
+        "row": 11,
+        "rowsha": "TP8Q3DEGchm51Vip29yFq2ARapMUfh7WtjTaIXt6tXc=",
+        "originContent": "            );",
+        "translatedContent": "            );"
+      },
+      {
+        "row": 12,
+        "rowsha": "BahHX+67/qaF7OBgRb5jci7cYbsq3oBgqfA67W1J9FQ=",
+        "originContent": "            ",
+        "translatedContent": "            "
+      },
+      {
+        "row": 13,
+        "rowsha": "fVDiWOKiK7nnBqyYlW0ttsXys3Sa91tTQs1tNMthPX4=",
+        "originContent": "            echo \"Validation triggered for: \" . $validation->identifier['value'] . \"\\n\";",
+        "translatedContent": "            echo \"Validation triggered for: \" . $validation->identifier['value'] . \"\\n\";"
+      },
+      {
+        "row": 14,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 15,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 16,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 17,
+        "rowsha": "7KzPH/b7XzSgV0vH5U8yJNgkjtU/A8cHey3XKN5p8FI=",
+        "originContent": "    // Wait for validation to complete",
+        "translatedContent": "    // Wait for validation to complete"
+      },
+      {
+        "row": 18,
+        "rowsha": "tFqzezSfg9/ubZX6HTl7vrjzq5UhDMo4avV3xMELA64=",
+        "originContent": "    $maxAttempts = 10;",
+        "translatedContent": "    $maxAttempts = 10;"
+      },
+      {
+        "row": 19,
+        "rowsha": "356gXAktyJAsuIflRaNg9hhBvH8x7rqf7/U5DJKJ+lo=",
+        "originContent": "    $attempt = 0;",
+        "translatedContent": "    $attempt = 0;"
+      },
+      {
+        "row": 20,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 21,
+        "rowsha": "0XPZc4lj6Co2meEbweWnLRuRyhKXq0xWM12LmuWYa3g=",
+        "originContent": "    do {",
+        "translatedContent": "    do {"
+      },
+      {
+        "row": 22,
+        "rowsha": "QFM4zBXmD7KBQEZfVEed+7Nw8uJ4YS5+lxQNmZTFFig=",
+        "originContent": "        sleep(5);",
+        "translatedContent": "        sleep(5);"
+      },
+      {
+        "row": 23,
+        "rowsha": "zbxlsu+mh+NAJBQ3sBino2RHhuguXsNdMg503656s0Y=",
+        "originContent": "        $attempt++;",
+        "translatedContent": "        $attempt++;"
+      },
+      {
+        "row": 24,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 25,
+        "rowsha": "AQlXDu688m4SFQUXElP/nW560rlDcWHA7xVGDL6inss=",
+        "originContent": "        // Check order status",
+        "translatedContent": "        // Check order status"
+      },
+      {
+        "row": 26,
+        "rowsha": "SlLsucZ8HZMBAbdMGAmKoZhrkeGYVLGkB+G2ygea35c=",
+        "originContent": "        $currentOrder = $acmeClient->order()->get($accountData, $order->url);",
+        "translatedContent": "        $currentOrder = $acmeClient->order()->get($accountData, $order->url);"
+      },
+      {
+        "row": 27,
+        "rowsha": "ceyJc4M/QHX10DbQxH2LtufXWvDclOT1kxEdlmsqBNM=",
+        "originContent": "        echo \"Order status: \" . $currentOrder->status . \"\\n\";",
+        "translatedContent": "        echo \"Order status: \" . $currentOrder->status . \"\\n\";"
+      },
+      {
+        "row": 28,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 29,
+        "rowsha": "3kUaLP+rp+gblwjrEDVWLtBBjzwOnZiMAnS4bpPIH58=",
+        "originContent": "        if ($currentOrder->status === 'ready') {",
+        "translatedContent": "        if ($currentOrder->status === 'ready') {"
+      },
+      {
+        "row": 30,
+        "rowsha": "9HgqLE1+6LbQglm3SDpn37aUnHS16OirnuFMfpYlfkM=",
+        "originContent": "            echo \"All validations completed successfully!\\n\";",
+        "translatedContent": "            echo \"All validations completed successfully!\\n\";"
+      },
+      {
+        "row": 31,
+        "rowsha": "TbXqio75kNoEUPGMUhkKYsdjw5i/FqlxpFl3qtNaDNE=",
+        "originContent": "            break;",
+        "translatedContent": "            break;"
+      },
+      {
+        "row": 32,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 33,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 34,
+        "rowsha": "5EHkuuSYqfnwPADdKgOi/vY4Y5Cuzcd0dSpIt8gT6cU=",
+        "originContent": "        if ($currentOrder->status === 'invalid') {",
+        "translatedContent": "        if ($currentOrder->status === 'invalid') {"
+      },
+      {
+        "row": 35,
+        "rowsha": "L0HUrkjLv44bCKm1A0YpK0oC2m5fUyrjy6Unedf1zto=",
+        "originContent": "            echo \"Order validation failed!\\n\";",
+        "translatedContent": "            echo \"Order validation failed!\\n\";"
+      },
+      {
+        "row": 36,
+        "rowsha": "TbXqio75kNoEUPGMUhkKYsdjw5i/FqlxpFl3qtNaDNE=",
+        "originContent": "            break;",
+        "translatedContent": "            break;"
+      },
+      {
+        "row": 37,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 38,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 39,
+        "rowsha": "Dv3Zu02plJYSCFljFrNi6FfchfNQjm3MU3VpetDbCrs=",
+        "originContent": "    } while ($attempt < $maxAttempts);",
+        "translatedContent": "    } while ($attempt < $maxAttempts);"
+      },
+      {
+        "row": 40,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 41,
+        "rowsha": "+WRTLyw6O+EcfEWksCTXrYzcy4m+kYiZhMeBa1slEWs=",
+        "originContent": "} catch (Exception $e) {",
+        "translatedContent": "} catch (Exception $e) {"
+      },
+      {
+        "row": 42,
+        "rowsha": "QfuAp4f9VDcnVP5z+rRFOI+PlZ4yklcvNcn1NbdKUlc=",
+        "originContent": "    echo \"Validation error: \" . $e->getMessage() . \"\\n\";",
+        "translatedContent": "    echo \"Validation error: \" . $e->getMessage() . \"\\n\";"
+      },
+      {
+        "row": 43,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 44,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n### 6. Generate and Submit CSR\n",
+    "ContentSha": "rzh4h2dCTmn+pl7ZzwoDAtYZo9Qb75ExwDiLfWto4O0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 6. 產生並提交 CSR\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ZYPbQFkmUyDj4QJb/ZCYIomhE0uIDP4tDruTaQG/ljU=",
+        "originContent": "### 6. Generate and Submit CSR",
+        "translatedContent": "### 6. 產生並提交 CSR"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```php\nuse ALAPI\\Acme\\Security\\Cryptography\\OpenSsl;\n\ntry {\n    if ($currentOrder->status === 'ready') {\n        // Generate Certificate private key\n        $certificatePrivateKey = OpenSsl::generatePrivateKey('RSA', 2048);\n        \n        // Generate Certificate Signing Request (CSR) using OpenSsl helper\n        $csrString = OpenSsl::generateCsr($domains, $certificatePrivateKey);\n        \n        // Export private key for saving\n        $privateKeyString = OpenSsl::openSslKeyToString($certificatePrivateKey);\n        \n        // Submit CSR to finalize order\n        $finalizedOrder = $acmeClient->order()->finalize(\n            $accountData,\n            $currentOrder,\n            $csrString\n        );\n        \n        echo \"Order finalized successfully!\\n\";\n        echo \"Certificate URL: \" . $finalizedOrder->certificateUrl . \"\\n\";\n        \n        // Download certificate bundle\n        $certificateBundle = $acmeClient->certificate()->get(\n            $accountData,\n            $finalizedOrder->certificateUrl\n        );\n        \n        // Save certificate and private key\n        file_put_contents('certificate.pem', $certificateBundle->certificate);\n        file_put_contents('fullchain.pem', $certificateBundle->fullchain);\n        file_put_contents('private-key.pem', $privateKeyString);\n        \n        echo \"Certificate saved to certificate.pem\\n\";\n        echo \"Fullchain certificate saved to fullchain.pem\\n\";\n        echo \"Private key saved to private-key.pem\\n\";\n    }\n    \n} catch (Exception $e) {\n    echo \"Certificate generation error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "ContentSha": "+R9jqo6NF2ntgpqTAQj0Nmz+oI6cvmDha3pLakC5YZI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nuse ALAPI\\Acme\\Security\\Cryptography\\OpenSsl;\n\ntry {\n    if ($currentOrder->status === 'ready') {\n        // Generate Certificate private key\n        $certificatePrivateKey = OpenSsl::generatePrivateKey('RSA', 2048);\n        \n        // Generate Certificate Signing Request (CSR) using OpenSsl helper\n        $csrString = OpenSsl::generateCsr($domains, $certificatePrivateKey);\n        \n        // Export private key for saving\n        $privateKeyString = OpenSsl::openSslKeyToString($certificatePrivateKey);\n        \n        // Submit CSR to finalize order\n        $finalizedOrder = $acmeClient->order()->finalize(\n            $accountData,\n            $currentOrder,\n            $csrString\n        );\n        \n        echo \"Order finalized successfully!\\n\";\n        echo \"Certificate URL: \" . $finalizedOrder->certificateUrl . \"\\n\";\n        \n        // Download certificate bundle\n        $certificateBundle = $acmeClient->certificate()->get(\n            $accountData,\n            $finalizedOrder->certificateUrl\n        );\n        \n        // Save certificate and private key\n        file_put_contents('certificate.pem', $certificateBundle->certificate);\n        file_put_contents('fullchain.pem', $certificateBundle->fullchain);\n        file_put_contents('private-key.pem', $privateKeyString);\n        \n        echo \"Certificate saved to certificate.pem\\n\";\n        echo \"Fullchain certificate saved to fullchain.pem\\n\";\n        echo \"Private key saved to private-key.pem\\n\";\n    }\n    \n} catch (Exception $e) {\n    echo \"Certificate generation error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ozgr1xy9QXF5ZOcCFTDP9MAWzZLXuEEKjPUaI0G6Bxk=",
+        "originContent": "use ALAPI\\Acme\\Security\\Cryptography\\OpenSsl;",
+        "translatedContent": "use ALAPI\\Acme\\Security\\Cryptography\\OpenSsl;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "A9mrpjURc+X4xHnz54Ykevyii9gU3ULmR3+lG0jJ/jY=",
+        "originContent": "try {",
+        "translatedContent": "try {"
+      },
+      {
+        "row": 5,
+        "rowsha": "En1Iybkv3y8Jw2WlY+pTu+MFYwqFz3ach020so4d6Ts=",
+        "originContent": "    if ($currentOrder->status === 'ready') {",
+        "translatedContent": "    if ($currentOrder->status === 'ready') {"
+      },
+      {
+        "row": 6,
+        "rowsha": "vA/mKWLlVC+2y77rMxHuaNb6CBo4H4THT04dwnutypY=",
+        "originContent": "        // Generate Certificate private key",
+        "translatedContent": "        // Generate Certificate private key"
+      },
+      {
+        "row": 7,
+        "rowsha": "lbCCwDEXbVQdu9hg1UXvxaIgTykmMf70yfQHTsYleB8=",
+        "originContent": "        $certificatePrivateKey = OpenSsl::generatePrivateKey('RSA', 2048);",
+        "translatedContent": "        $certificatePrivateKey = OpenSsl::generatePrivateKey('RSA', 2048);"
+      },
+      {
+        "row": 8,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 9,
+        "rowsha": "XkDUwYtU/WQvENF8J3kDYgKwrU1bguMkgeIVw6j0A/A=",
+        "originContent": "        // Generate Certificate Signing Request (CSR) using OpenSsl helper",
+        "translatedContent": "        // Generate Certificate Signing Request (CSR) using OpenSsl helper"
+      },
+      {
+        "row": 10,
+        "rowsha": "PA4ORk+RxiVqzJBPgwlxzCA9G5XJj+zP4Z6GhTkNDs4=",
+        "originContent": "        $csrString = OpenSsl::generateCsr($domains, $certificatePrivateKey);",
+        "translatedContent": "        $csrString = OpenSsl::generateCsr($domains, $certificatePrivateKey);"
+      },
+      {
+        "row": 11,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 12,
+        "rowsha": "T81Vb3blE30MBdtss4wXy5iAdighBDae0vpBry6XAho=",
+        "originContent": "        // Export private key for saving",
+        "translatedContent": "        // Export private key for saving"
+      },
+      {
+        "row": 13,
+        "rowsha": "tWIEUwGmIvJf0Y0zCSGA96HsBHr5IcM8EFGsOoWeLhk=",
+        "originContent": "        $privateKeyString = OpenSsl::openSslKeyToString($certificatePrivateKey);",
+        "translatedContent": "        $privateKeyString = OpenSsl::openSslKeyToString($certificatePrivateKey);"
+      },
+      {
+        "row": 14,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 15,
+        "rowsha": "1mYjBku42iSt97A0VbMhN4NG/UvjZ/QSGDhs3/8MhVg=",
+        "originContent": "        // Submit CSR to finalize order",
+        "translatedContent": "        // Submit CSR to finalize order"
+      },
+      {
+        "row": 16,
+        "rowsha": "VfJJQYCDqT88Lfts9tuRNY55VYoKmaUvHMVekT29JjU=",
+        "originContent": "        $finalizedOrder = $acmeClient->order()->finalize(",
+        "translatedContent": "        $finalizedOrder = $acmeClient->order()->finalize("
+      },
+      {
+        "row": 17,
+        "rowsha": "r2KyQ6hJDPzpw8ORJ2TtvppJOIKetF0RTqupkwhasY8=",
+        "originContent": "            $accountData,",
+        "translatedContent": "            $accountData,"
+      },
+      {
+        "row": 18,
+        "rowsha": "ItdhlR4+gYfFbO97WEBnTsskhSFCUSEk00M42XEMVDg=",
+        "originContent": "            $currentOrder,",
+        "translatedContent": "            $currentOrder,"
+      },
+      {
+        "row": 19,
+        "rowsha": "Zd2Fx7pe+Ji0pSZs7eS2Wl8dLrERPxY3ZJIhMYeK+Nc=",
+        "originContent": "            $csrString",
+        "translatedContent": "            $csrString"
+      },
+      {
+        "row": 20,
+        "rowsha": "bq/4eiC48vFtXXAuFRwkmntL9c8Jdj21yA8p0PHvrPk=",
+        "originContent": "        );",
+        "translatedContent": "        );"
+      },
+      {
+        "row": 21,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 22,
+        "rowsha": "2E1Ub3ymuTkGCDwmdzTy7e0GHXjAKtDkpH4FpWWNcyA=",
+        "originContent": "        echo \"Order finalized successfully!\\n\";",
+        "translatedContent": "        echo \"Order finalized successfully!\\n\";"
+      },
+      {
+        "row": 23,
+        "rowsha": "/YPTyuLZnbE9QersS/iuZpoUITnBZbA/rqXf/BhEtBU=",
+        "originContent": "        echo \"Certificate URL: \" . $finalizedOrder->certificateUrl . \"\\n\";",
+        "translatedContent": "        echo \"Certificate URL: \" . $finalizedOrder->certificateUrl . \"\\n\";"
+      },
+      {
+        "row": 24,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 25,
+        "rowsha": "xwPKLKFs/tj4R4nTaCGkKqlL4ZGtygOdTFcsuwyuX4I=",
+        "originContent": "        // Download certificate bundle",
+        "translatedContent": "        // Download certificate bundle"
+      },
+      {
+        "row": 26,
+        "rowsha": "OJuhj/nvJw0OcCFtpKw42wxqa+p7vNYnDty8bN+pggo=",
+        "originContent": "        $certificateBundle = $acmeClient->certificate()->get(",
+        "translatedContent": "        $certificateBundle = $acmeClient->certificate()->get("
+      },
+      {
+        "row": 27,
+        "rowsha": "r2KyQ6hJDPzpw8ORJ2TtvppJOIKetF0RTqupkwhasY8=",
+        "originContent": "            $accountData,",
+        "translatedContent": "            $accountData,"
+      },
+      {
+        "row": 28,
+        "rowsha": "uGI6y8kLXNJeV2QZ8ls/ByPSRePyZcRDIXXZcFGcKBc=",
+        "originContent": "            $finalizedOrder->certificateUrl",
+        "translatedContent": "            $finalizedOrder->certificateUrl"
+      },
+      {
+        "row": 29,
+        "rowsha": "bq/4eiC48vFtXXAuFRwkmntL9c8Jdj21yA8p0PHvrPk=",
+        "originContent": "        );",
+        "translatedContent": "        );"
+      },
+      {
+        "row": 30,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 31,
+        "rowsha": "x1GcjR44ODPLJ+hVAITDIcy/B47RW0oMqO5rmCm5TkQ=",
+        "originContent": "        // Save certificate and private key",
+        "translatedContent": "        // Save certificate and private key"
+      },
+      {
+        "row": 32,
+        "rowsha": "Zzqg67Lj1tkk0bOiGiwjYXyr3A2f2eax8/1GaTqioZI=",
+        "originContent": "        file_put_contents('certificate.pem', $certificateBundle->certificate);",
+        "translatedContent": "        file_put_contents('certificate.pem', $certificateBundle->certificate);"
+      },
+      {
+        "row": 33,
+        "rowsha": "L7sR9FkuIERikZpypmn/oNTrazH9DadFTWh2z+gqfF8=",
+        "originContent": "        file_put_contents('fullchain.pem', $certificateBundle->fullchain);",
+        "translatedContent": "        file_put_contents('fullchain.pem', $certificateBundle->fullchain);"
+      },
+      {
+        "row": 34,
+        "rowsha": "SnZNyW9v/4S1c96IRO8UIwIid9720+yB7kIo/enY0Es=",
+        "originContent": "        file_put_contents('private-key.pem', $privateKeyString);",
+        "translatedContent": "        file_put_contents('private-key.pem', $privateKeyString);"
+      },
+      {
+        "row": 35,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 36,
+        "rowsha": "RJoWB/N6qthRj8NGjlAo6+F8lkQO2M262vwunBCG48M=",
+        "originContent": "        echo \"Certificate saved to certificate.pem\\n\";",
+        "translatedContent": "        echo \"Certificate saved to certificate.pem\\n\";"
+      },
+      {
+        "row": 37,
+        "rowsha": "lQMMMR7vg5BLpJfZlEbTJqNkbA6IhZwy685orhEZEsc=",
+        "originContent": "        echo \"Fullchain certificate saved to fullchain.pem\\n\";",
+        "translatedContent": "        echo \"Fullchain certificate saved to fullchain.pem\\n\";"
+      },
+      {
+        "row": 38,
+        "rowsha": "/ViFWOjmrOx28No2vij+TmSB59JqIS1dEeopoTewdKg=",
+        "originContent": "        echo \"Private key saved to private-key.pem\\n\";",
+        "translatedContent": "        echo \"Private key saved to private-key.pem\\n\";"
+      },
+      {
+        "row": 39,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 40,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 41,
+        "rowsha": "+WRTLyw6O+EcfEWksCTXrYzcy4m+kYiZhMeBa1slEWs=",
+        "originContent": "} catch (Exception $e) {",
+        "translatedContent": "} catch (Exception $e) {"
+      },
+      {
+        "row": 42,
+        "rowsha": "FI53Co3NyLEgb5KrP8RCPfrLkjCU+I7g5kphgVNmvx4=",
+        "originContent": "    echo \"Certificate generation error: \" . $e->getMessage() . \"\\n\";",
+        "translatedContent": "    echo \"Certificate generation error: \" . $e->getMessage() . \"\\n\";"
+      },
+      {
+        "row": 43,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 44,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\n## Advanced Usage\n\n### DNS-01 Challenge\n\nFor wildcard certificates or when HTTP validation isn't possible:\n",
+    "ContentSha": "aRoTRZIfuZe0JLdklOOQLwT9MbVVuH7UCda7EoqeHDM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 進階用法\n\n### DNS-01 挑戰\n\n適用於萬用字元憑證或無法進行 HTTP 驗證時：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3q+lclQQKa/mkVijw2G5SxQQg/odrvMc/jR58kE4feY=",
+        "originContent": "## Advanced Usage",
+        "translatedContent": "## 進階用法"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "7AkQKX70FdJ4fMvaQJplq91RqjmileTCjL/YpmKGv8A=",
+        "originContent": "### DNS-01 Challenge",
+        "translatedContent": "### DNS-01 挑戰"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "3FRCRv5m4TbQZFrkZi9zP9DjDE2lSc3DMFm6TfsfkrI=",
+        "originContent": "For wildcard certificates or when HTTP validation isn't possible:",
+        "translatedContent": "適用於萬用字元憑證或無法進行 HTTP 驗證時："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "```php\n// Get DNS challenge data\n$dnsChallenge = $acmeClient->domainValidation()->getValidationData(\n    [$validation],\n    AuthorizationChallengeEnum::DNS\n);\n\nforeach ($dnsChallenge as $challenge) {\n    echo \"DNS Challenge for \" . $challenge['domain'] . \":\\n\";\n    echo \"  Record Name: \" . $challenge['domain'] . \"\\n\";\n    echo \"  Record Type: TXT\\n\";\n    echo \"  Record Value: \" . $challenge['digest'] . \"\\n\\n\";\n}\n\n// After adding DNS records, trigger validation\n$response = $acmeClient->domainValidation()->validate(\n    $accountData,\n    $validation,\n    AuthorizationChallengeEnum::DNS,\n    localTest: true\n);\n```",
+    "ContentSha": "G03IdtLLHWwFN1X2Ie2Kd6ezjS83lBlcyfBJXNBuq+I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n// Get DNS challenge data\n$dnsChallenge = $acmeClient->domainValidation()->getValidationData(\n    [$validation],\n    AuthorizationChallengeEnum::DNS\n);\n\nforeach ($dnsChallenge as $challenge) {\n    echo \"DNS Challenge for \" . $challenge['domain'] . \":\\n\";\n    echo \"  Record Name: \" . $challenge['domain'] . \"\\n\";\n    echo \"  Record Type: TXT\\n\";\n    echo \"  Record Value: \" . $challenge['digest'] . \"\\n\\n\";\n}\n\n// After adding DNS records, trigger validation\n$response = $acmeClient->domainValidation()->validate(\n    $accountData,\n    $validation,\n    AuthorizationChallengeEnum::DNS,\n    localTest: true\n);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "iBYdWk+dEH9h+68sTXgNN5Yn4k2EdmUoi0ZuCrp/i28=",
+        "originContent": "// Get DNS challenge data",
+        "translatedContent": "// Get DNS challenge data"
+      },
+      {
+        "row": 3,
+        "rowsha": "d+H8JszFOQokjN108p4/5709aeHruk6UyB5gGDqZCzU=",
+        "originContent": "$dnsChallenge = $acmeClient->domainValidation()->getValidationData(",
+        "translatedContent": "$dnsChallenge = $acmeClient->domainValidation()->getValidationData("
+      },
+      {
+        "row": 4,
+        "rowsha": "Ut5yAnjcfPpZH7hZMzMLDPuhpYKxainuGFlmek4FICs=",
+        "originContent": "    [$validation],",
+        "translatedContent": "    [$validation],"
+      },
+      {
+        "row": 5,
+        "rowsha": "325wBhvBBvu1hxCwcnqQ4n2Q0NzyAiI25AIE4fmE79I=",
+        "originContent": "    AuthorizationChallengeEnum::DNS",
+        "translatedContent": "    AuthorizationChallengeEnum::DNS"
+      },
+      {
+        "row": 6,
+        "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+        "originContent": ");",
+        "translatedContent": ");"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "k96rWP+ZQUXsw35n/TXMnbAKRq5ULzphGbX9KQ4Srpg=",
+        "originContent": "foreach ($dnsChallenge as $challenge) {",
+        "translatedContent": "foreach ($dnsChallenge as $challenge) {"
+      },
+      {
+        "row": 9,
+        "rowsha": "BsiVP1ybXdQibxiKUZHXzNKhaW01sm2QTFGO4c3jKiE=",
+        "originContent": "    echo \"DNS Challenge for \" . $challenge['domain'] . \":\\n\";",
+        "translatedContent": "    echo \"DNS Challenge for \" . $challenge['domain'] . \":\\n\";"
+      },
+      {
+        "row": 10,
+        "rowsha": "NRAC5D9GiHijksvozHqNNn9+HWxnCOoqPq/Fg4rNIvA=",
+        "originContent": "    echo \"  Record Name: \" . $challenge['domain'] . \"\\n\";",
+        "translatedContent": "    echo \"  Record Name: \" . $challenge['domain'] . \"\\n\";"
+      },
+      {
+        "row": 11,
+        "rowsha": "kCFGbHcrPo49KPU0ZSPxulUZReMnM5241tsMeycih2E=",
+        "originContent": "    echo \"  Record Type: TXT\\n\";",
+        "translatedContent": "    echo \"  Record Type: TXT\\n\";"
+      },
+      {
+        "row": 12,
+        "rowsha": "Yf1uSMIh9X7qqJge553XYQagO2smc7fguMyd2i3rdkY=",
+        "originContent": "    echo \"  Record Value: \" . $challenge['digest'] . \"\\n\\n\";",
+        "translatedContent": "    echo \"  Record Value: \" . $challenge['digest'] . \"\\n\\n\";"
+      },
+      {
+        "row": 13,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "9pkB93x5fVnBNf8hb1ZAL51/9k1wYB4ZR5vY0wOqAXo=",
+        "originContent": "// After adding DNS records, trigger validation",
+        "translatedContent": "// After adding DNS records, trigger validation"
+      },
+      {
+        "row": 16,
+        "rowsha": "L0RewBqkAV0l1JWSNcAZdoh/prjTrYuOfzgFaPOE1Os=",
+        "originContent": "$response = $acmeClient->domainValidation()->validate(",
+        "translatedContent": "$response = $acmeClient->domainValidation()->validate("
+      },
+      {
+        "row": 17,
+        "rowsha": "UMijiso7zxOGjxx8ZXK9+rWBbx+5CVb4xMBFx57tif4=",
+        "originContent": "    $accountData,",
+        "translatedContent": "    $accountData,"
+      },
+      {
+        "row": 18,
+        "rowsha": "3VQR1oGViHVUDkLcRZOAcgyiF35F/0xpK9lX6uORllk=",
+        "originContent": "    $validation,",
+        "translatedContent": "    $validation,"
+      },
+      {
+        "row": 19,
+        "rowsha": "V5eByIujYEwmxgGevKm1oMIiX+w9E28TyZPpmCG61WM=",
+        "originContent": "    AuthorizationChallengeEnum::DNS,",
+        "translatedContent": "    AuthorizationChallengeEnum::DNS,"
+      },
+      {
+        "row": 20,
+        "rowsha": "D13OI2ZWNIpJAClxu8EcX0xlE4onYcrd92VODZ1aGAQ=",
+        "originContent": "    localTest: true",
+        "translatedContent": "    localTest: true"
+      },
+      {
+        "row": 21,
+        "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+        "originContent": ");",
+        "translatedContent": ");"
+      },
+      {
+        "row": 22,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "\n### Certificate Renewal with ARI\n",
+    "ContentSha": "Wnd3OMetu1GdXKNrS+IM4Qs0wQ4kqvdVR4lfghme8+k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 使用 ARI 進行憑證續期\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mqMFZukuKjjs0ilQuFH7rF2UyR4vcwgq8FkM+Kg0kYs=",
+        "originContent": "### Certificate Renewal with ARI",
+        "translatedContent": "### 使用 ARI 進行憑證續期"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "```php\nuse ALAPI\\Acme\\Management\\RenewalManager;\n\n// Load existing certificate\n$certificatePem = file_get_contents('certificate.pem');\n\n// Create renewal manager\n$renewalManager = $acmeClient->renewalManager(defaultRenewalDays: 30);\n\n// Check if renewal is needed\nif ($renewalManager->shouldRenew($certificatePem)) {\n    echo \"Certificate needs renewal\\n\";\n    \n    // Get ARI information if supported\n    if ($acmeClient->directory()->supportsARI()) {\n        $renewalInfo = $acmeClient->renewalInfo()->getFromCertificate($certificatePem);\n        \n        echo \"Suggested renewal window:\\n\";\n        echo \"  Start: \" . $renewalInfo->suggestedWindow['start'] . \"\\n\";\n        echo \"  End: \" . $renewalInfo->suggestedWindow['end'] . \"\\n\";\n        \n        if ($renewalInfo->shouldRenewNow()) {\n            echo \"ARI recommends renewing now\\n\";\n            // Proceed with renewal...\n        }\n    }\n} else {\n    echo \"Certificate renewal not needed yet\\n\";\n}\n```",
+    "ContentSha": "Dzf7S+ImtZVkTqVffJdpdBBok8s3YZSKgdIjfutbWXo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nuse ALAPI\\Acme\\Management\\RenewalManager;\n\n// Load existing certificate\n$certificatePem = file_get_contents('certificate.pem');\n\n// Create renewal manager\n$renewalManager = $acmeClient->renewalManager(defaultRenewalDays: 30);\n\n// Check if renewal is needed\nif ($renewalManager->shouldRenew($certificatePem)) {\n    echo \"Certificate needs renewal\\n\";\n    \n    // Get ARI information if supported\n    if ($acmeClient->directory()->supportsARI()) {\n        $renewalInfo = $acmeClient->renewalInfo()->getFromCertificate($certificatePem);\n        \n        echo \"Suggested renewal window:\\n\";\n        echo \"  Start: \" . $renewalInfo->suggestedWindow['start'] . \"\\n\";\n        echo \"  End: \" . $renewalInfo->suggestedWindow['end'] . \"\\n\";\n        \n        if ($renewalInfo->shouldRenewNow()) {\n            echo \"ARI recommends renewing now\\n\";\n            // Proceed with renewal...\n        }\n    }\n} else {\n    echo \"Certificate renewal not needed yet\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "2IlEBcq1GUDExjZQvseasayaFsF1l7dZMio9rd8D3UI=",
+        "originContent": "use ALAPI\\Acme\\Management\\RenewalManager;",
+        "translatedContent": "use ALAPI\\Acme\\Management\\RenewalManager;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "l54MROZ2AaaJklppfdk3KkNmIxScOutobYNyJLKYqps=",
+        "originContent": "// Load existing certificate",
+        "translatedContent": "// Load existing certificate"
+      },
+      {
+        "row": 5,
+        "rowsha": "Blv03fYJWjW4kq31L/TJoeL+zfAmgoOXXtUm38f/m/Q=",
+        "originContent": "$certificatePem = file_get_contents('certificate.pem');",
+        "translatedContent": "$certificatePem = file_get_contents('certificate.pem');"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Kk3rfkd37ACy64iQKt/6ewTUc7O0UXurRTXFYyuiSFc=",
+        "originContent": "// Create renewal manager",
+        "translatedContent": "// Create renewal manager"
+      },
+      {
+        "row": 8,
+        "rowsha": "oN5sTeEUqZmjwKpOqYcCAgsvQvlyZLKIhTqdnpmEQQs=",
+        "originContent": "$renewalManager = $acmeClient->renewalManager(defaultRenewalDays: 30);",
+        "translatedContent": "$renewalManager = $acmeClient->renewalManager(defaultRenewalDays: 30);"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "uSp4hMc5NST9UuCxGbX/BixNe/jWGEidjTlbEhRlRik=",
+        "originContent": "// Check if renewal is needed",
+        "translatedContent": "// Check if renewal is needed"
+      },
+      {
+        "row": 11,
+        "rowsha": "UTWagxNfkBnX1REk5ds9rDmzuQkelMJLS3lcU6DHbk0=",
+        "originContent": "if ($renewalManager->shouldRenew($certificatePem)) {",
+        "translatedContent": "if ($renewalManager->shouldRenew($certificatePem)) {"
+      },
+      {
+        "row": 12,
+        "rowsha": "H8EvfpvfO68U0TZ47q7c8BJ3NABEzSS2VMX++oC+M3s=",
+        "originContent": "    echo \"Certificate needs renewal\\n\";",
+        "translatedContent": "    echo \"Certificate needs renewal\\n\";"
+      },
+      {
+        "row": 13,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 14,
+        "rowsha": "ckSfTIrl+PeFAkL4kRB0IkeG+WUWFSVET3vy/C0wP4g=",
+        "originContent": "    // Get ARI information if supported",
+        "translatedContent": "    // Get ARI information if supported"
+      },
+      {
+        "row": 15,
+        "rowsha": "wtHCCfn1PiFolvkrjwcXf49uDo+3DQj8dsTUMglFXJk=",
+        "originContent": "    if ($acmeClient->directory()->supportsARI()) {",
+        "translatedContent": "    if ($acmeClient->directory()->supportsARI()) {"
+      },
+      {
+        "row": 16,
+        "rowsha": "+9T3Wapylz83q3Kp8OQCO1x+EmD23OVkn2R3V5AN9XE=",
+        "originContent": "        $renewalInfo = $acmeClient->renewalInfo()->getFromCertificate($certificatePem);",
+        "translatedContent": "        $renewalInfo = $acmeClient->renewalInfo()->getFromCertificate($certificatePem);"
+      },
+      {
+        "row": 17,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 18,
+        "rowsha": "MyETbzsN/8XdEFnQ2PMA6RB1u1oSN6w+xpPF7pQsZ6o=",
+        "originContent": "        echo \"Suggested renewal window:\\n\";",
+        "translatedContent": "        echo \"Suggested renewal window:\\n\";"
+      },
+      {
+        "row": 19,
+        "rowsha": "Z0C3eDOfpUD9d1hU0UesT0I2H2ZeOgW4rfJE/lmWGfg=",
+        "originContent": "        echo \"  Start: \" . $renewalInfo->suggestedWindow['start'] . \"\\n\";",
+        "translatedContent": "        echo \"  Start: \" . $renewalInfo->suggestedWindow['start'] . \"\\n\";"
+      },
+      {
+        "row": 20,
+        "rowsha": "9jcssevcwMs5fyWO00Uo1ylujZ5XWZ5+BAA/PqnGSpk=",
+        "originContent": "        echo \"  End: \" . $renewalInfo->suggestedWindow['end'] . \"\\n\";",
+        "translatedContent": "        echo \"  End: \" . $renewalInfo->suggestedWindow['end'] . \"\\n\";"
+      },
+      {
+        "row": 21,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 22,
+        "rowsha": "bjxiLeBeJgHz5rBCHgOEOh7YB++YcBMI0B7/A0e+gJo=",
+        "originContent": "        if ($renewalInfo->shouldRenewNow()) {",
+        "translatedContent": "        if ($renewalInfo->shouldRenewNow()) {"
+      },
+      {
+        "row": 23,
+        "rowsha": "ZeOiU9eIXBwr2srFUX45dJKORloo7astTEwN3c0/vmY=",
+        "originContent": "            echo \"ARI recommends renewing now\\n\";",
+        "translatedContent": "            echo \"ARI recommends renewing now\\n\";"
+      },
+      {
+        "row": 24,
+        "rowsha": "+uiFAIBUN3gx5v44bROnvIz3/rrkUBOVc9g5X/ET9KQ=",
+        "originContent": "            // Proceed with renewal...",
+        "translatedContent": "            // Proceed with renewal..."
+      },
+      {
+        "row": 25,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 26,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 27,
+        "rowsha": "mFBF8cBXio0Uhu8/bX1VO6Q8PJKJhy9T5YFaqhzIFxA=",
+        "originContent": "} else {",
+        "translatedContent": "} else {"
+      },
+      {
+        "row": 28,
+        "rowsha": "525mye5rvEap5N/oAuQ3Dj69tu8Elpy94qMtv69fI7w=",
+        "originContent": "    echo \"Certificate renewal not needed yet\\n\";",
+        "translatedContent": "    echo \"Certificate renewal not needed yet\\n\";"
+      },
+      {
+        "row": 29,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 30,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 24,
+    "Content": "\n### Certificate Revocation\n",
+    "ContentSha": "N+OIjSG53AOkyEC046/5Ok466ltIZZkcoQp8rQZPEy4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 憑證註銷\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "sfJFrKHiB794vPBEsdHbQQvGQNidHxFOd5eCjUReHMk=",
+        "originContent": "### Certificate Revocation",
+        "translatedContent": "### 憑證註銷"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 25,
+    "Content": "```php\ntry {\n    // Load certificate to revoke\n    $certificatePem = file_get_contents('certificate.pem');\n    \n    // Revoke certificate\n    $success = $acmeClient->certificate()->revoke(\n        $certificatePem,\n        reason: 1 // 0=unspecified, 1=keyCompromise, 2=cACompromise, 3=affiliationChanged, 4=superseded, 5=cessationOfOperation\n    );\n    \n    if ($success) {\n        echo \"Certificate revoked successfully\\n\";\n    } else {\n        echo \"Certificate revocation failed\\n\";\n    }\n    \n} catch (Exception $e) {\n    echo \"Revocation error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "ContentSha": "1jFfaiMYU/hZNMZ2dDTTCq2ylQ0EWMqQICfR05Gkg+U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\ntry {\n    // Load certificate to revoke\n    $certificatePem = file_get_contents('certificate.pem');\n    \n    // Revoke certificate\n    $success = $acmeClient->certificate()->revoke(\n        $certificatePem,\n        reason: 1 // 0=unspecified, 1=keyCompromise, 2=cACompromise, 3=affiliationChanged, 4=superseded, 5=cessationOfOperation\n    );\n    \n    if ($success) {\n        echo \"Certificate revoked successfully\\n\";\n    } else {\n        echo \"Certificate revocation failed\\n\";\n    }\n    \n} catch (Exception $e) {\n    echo \"Revocation error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "A9mrpjURc+X4xHnz54Ykevyii9gU3ULmR3+lG0jJ/jY=",
+        "originContent": "try {",
+        "translatedContent": "try {"
+      },
+      {
+        "row": 3,
+        "rowsha": "vSBN3DZ9NN2Mn+rMLMj81iGqbyOrOpuf5lPlbkyPrfg=",
+        "originContent": "    // Load certificate to revoke",
+        "translatedContent": "    // Load certificate to revoke"
+      },
+      {
+        "row": 4,
+        "rowsha": "+uM37o6lU3CFiGVf7cMBEV8vZ13O58PNKdIFPml49dE=",
+        "originContent": "    $certificatePem = file_get_contents('certificate.pem');",
+        "translatedContent": "    $certificatePem = file_get_contents('certificate.pem');"
+      },
+      {
+        "row": 5,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 6,
+        "rowsha": "4BbVgPxOrDKsJVd2A1LmhgbQl+/Xlb2NOmyH7FrwXgo=",
+        "originContent": "    // Revoke certificate",
+        "translatedContent": "    // Revoke certificate"
+      },
+      {
+        "row": 7,
+        "rowsha": "PYKcc//x+F1y0u5dYtAGl9d1OC4w6iNo88bBpoGNTtw=",
+        "originContent": "    $success = $acmeClient->certificate()->revoke(",
+        "translatedContent": "    $success = $acmeClient->certificate()->revoke("
+      },
+      {
+        "row": 8,
+        "rowsha": "gY+ylslzhUA4A7xbWyovebvXE/u0H1ZhnkyUKLJbE7A=",
+        "originContent": "        $certificatePem,",
+        "translatedContent": "        $certificatePem,"
+      },
+      {
+        "row": 9,
+        "rowsha": "8OyQRsJ427jmdw3g8DgHpIYQF7sOZW7L+M0/Ls3s5Lo=",
+        "originContent": "        reason: 1 // 0=unspecified, 1=keyCompromise, 2=cACompromise, 3=affiliationChanged, 4=superseded, 5=cessationOfOperation",
+        "translatedContent": "        reason: 1 // 0=unspecified, 1=keyCompromise, 2=cACompromise, 3=affiliationChanged, 4=superseded, 5=cessationOfOperation"
+      },
+      {
+        "row": 10,
+        "rowsha": "Z2lMElzKjKCmJyXf71joUm6rTSJ2l9cz8FUpXZAfx3I=",
+        "originContent": "    );",
+        "translatedContent": "    );"
+      },
+      {
+        "row": 11,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 12,
+        "rowsha": "o+k15NE6xO6dHBGSOE2hrU42GyqwTdLeGpwkqNqlrUE=",
+        "originContent": "    if ($success) {",
+        "translatedContent": "    if ($success) {"
+      },
+      {
+        "row": 13,
+        "rowsha": "EV7RyLy9cjccZCQZh4bNP0XDLNofjRzTs7MibsWRkJU=",
+        "originContent": "        echo \"Certificate revoked successfully\\n\";",
+        "translatedContent": "        echo \"Certificate revoked successfully\\n\";"
+      },
+      {
+        "row": 14,
+        "rowsha": "1iXXq0O88YnGJrVGefga2st0aG+9pfvcLwJpmYyV0ls=",
+        "originContent": "    } else {",
+        "translatedContent": "    } else {"
+      },
+      {
+        "row": 15,
+        "rowsha": "W1etu5/svwE+H+3PxkhMEtDZbm2K71PvHalOOoy3d+Q=",
+        "originContent": "        echo \"Certificate revocation failed\\n\";",
+        "translatedContent": "        echo \"Certificate revocation failed\\n\";"
+      },
+      {
+        "row": 16,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 17,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 18,
+        "rowsha": "+WRTLyw6O+EcfEWksCTXrYzcy4m+kYiZhMeBa1slEWs=",
+        "originContent": "} catch (Exception $e) {",
+        "translatedContent": "} catch (Exception $e) {"
+      },
+      {
+        "row": 19,
+        "rowsha": "H8dtWoD0Lps4P3QTsDDqp1iI2oByuPr+ciK31KOwq6U=",
+        "originContent": "    echo \"Revocation error: \" . $e->getMessage() . \"\\n\";",
+        "translatedContent": "    echo \"Revocation error: \" . $e->getMessage() . \"\\n\";"
+      },
+      {
+        "row": 20,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 26,
+    "Content": "\n### Multiple Certificate Authorities\n",
+    "ContentSha": "Pu8ASbnvrQFXr9Ra6rzOAFR/jgPGLlvFWaeNAkk0j5g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 多重憑證授權機構\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5s41ocf2SoTYn4AlChoQvIGYpRWs4iB93tjZCSLdNXk=",
+        "originContent": "### Multiple Certificate Authorities",
+        "translatedContent": "### 多重憑證授權機構"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 27,
+    "Content": "```php\n// Let's Encrypt\n$letsEncrypt = new AcmeClient(\n    staging: false,\n    localAccount: $account,\n    httpClient: $httpClient\n);\n\n// ZeroSSL\n$zeroSSL = new AcmeClient(\n    localAccount: $account,\n    httpClient: $httpClient,\n    baseUrl: 'https://acme.zerossl.com/v2/DV90/directory'\n);\n\n// Google Trust Services\n$googleCA = new AcmeClient(\n    localAccount: $account,\n    httpClient: $httpClient,\n    baseUrl: 'https://dv.acme-v02.api.pki.goog/directory'\n);\n```",
+    "ContentSha": "u19Zp1exhqzx+UTyJ4tItu7Rj9xr7rcH9MGBNgKxevA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n// Let's Encrypt\n$letsEncrypt = new AcmeClient(\n    staging: false,\n    localAccount: $account,\n    httpClient: $httpClient\n);\n\n// ZeroSSL\n$zeroSSL = new AcmeClient(\n    localAccount: $account,\n    httpClient: $httpClient,\n    baseUrl: 'https://acme.zerossl.com/v2/DV90/directory'\n);\n\n// Google Trust Services\n$googleCA = new AcmeClient(\n    localAccount: $account,\n    httpClient: $httpClient,\n    baseUrl: 'https://dv.acme-v02.api.pki.goog/directory'\n);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "TeqRJ0fcj9CSz8IVCeaZOQIghqziXiTGzoJJVtA1ePg=",
+        "originContent": "// Let's Encrypt",
+        "translatedContent": "// Let's Encrypt"
+      },
+      {
+        "row": 3,
+        "rowsha": "M2T/5j7RcOvZxIkqkZXBwHR2UCZNJg1mt8J/lK07JP4=",
+        "originContent": "$letsEncrypt = new AcmeClient(",
+        "translatedContent": "$letsEncrypt = new AcmeClient("
+      },
+      {
+        "row": 4,
+        "rowsha": "pl+9Lx5Y4S6gPc45lB9UmjcGM7ramwKvUlsMC/wgU28=",
+        "originContent": "    staging: false,",
+        "translatedContent": "    staging: false,"
+      },
+      {
+        "row": 5,
+        "rowsha": "Morc2PwiEiYQ4+HtpPWXCM/LpqvvaCQgeznQUCGS6ZM=",
+        "originContent": "    localAccount: $account,",
+        "translatedContent": "    localAccount: $account,"
+      },
+      {
+        "row": 6,
+        "rowsha": "D8d+gL2kR0QIvq217vkwoTav2CQzjvomy6+oaH8L0iQ=",
+        "originContent": "    httpClient: $httpClient",
+        "translatedContent": "    httpClient: $httpClient"
+      },
+      {
+        "row": 7,
+        "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+        "originContent": ");",
+        "translatedContent": ");"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Qk5A1GThDY6IBn0FaFl4/L8MMdVtTiPTiky8Q2XoYcE=",
+        "originContent": "// ZeroSSL",
+        "translatedContent": "// ZeroSSL"
+      },
+      {
+        "row": 10,
+        "rowsha": "P8/n2tsqzIB7lE6ES0eR6yf0cNPsjQjfpjuJjCT3joU=",
+        "originContent": "$zeroSSL = new AcmeClient(",
+        "translatedContent": "$zeroSSL = new AcmeClient("
+      },
+      {
+        "row": 11,
+        "rowsha": "Morc2PwiEiYQ4+HtpPWXCM/LpqvvaCQgeznQUCGS6ZM=",
+        "originContent": "    localAccount: $account,",
+        "translatedContent": "    localAccount: $account,"
+      },
+      {
+        "row": 12,
+        "rowsha": "oBNI20k6MFU5RjngeY8zZy8CfO2p6Y450rd3KDlksr4=",
+        "originContent": "    httpClient: $httpClient,",
+        "translatedContent": "    httpClient: $httpClient,"
+      },
+      {
+        "row": 13,
+        "rowsha": "msptcaeeQ/vfNXeyuOahXsSTObULVIDC5H//ybNf8DA=",
+        "originContent": "    baseUrl: 'https://acme.zerossl.com/v2/DV90/directory'",
+        "translatedContent": "    baseUrl: 'https://acme.zerossl.com/v2/DV90/directory'"
+      },
+      {
+        "row": 14,
+        "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+        "originContent": ");",
+        "translatedContent": ");"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "JwvlubOV+TF60nA54q9EhG4wlpM7YTEgFgmslAZqTNE=",
+        "originContent": "// Google Trust Services",
+        "translatedContent": "// Google Trust Services"
+      },
+      {
+        "row": 17,
+        "rowsha": "rGqTQdfIJi7xJNJAr947qoC0sHzr9ET9eho6V/80w/E=",
+        "originContent": "$googleCA = new AcmeClient(",
+        "translatedContent": "$googleCA = new AcmeClient("
+      },
+      {
+        "row": 18,
+        "rowsha": "Morc2PwiEiYQ4+HtpPWXCM/LpqvvaCQgeznQUCGS6ZM=",
+        "originContent": "    localAccount: $account,",
+        "translatedContent": "    localAccount: $account,"
+      },
+      {
+        "row": 19,
+        "rowsha": "oBNI20k6MFU5RjngeY8zZy8CfO2p6Y450rd3KDlksr4=",
+        "originContent": "    httpClient: $httpClient,",
+        "translatedContent": "    httpClient: $httpClient,"
+      },
+      {
+        "row": 20,
+        "rowsha": "uDLWuGsUml934SvJ7xlsE+SOcgdqhUWWTsrKH61QmwY=",
+        "originContent": "    baseUrl: 'https://dv.acme-v02.api.pki.goog/directory'",
+        "translatedContent": "    baseUrl: 'https://dv.acme-v02.api.pki.goog/directory'"
+      },
+      {
+        "row": 21,
+        "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+        "originContent": ");",
+        "translatedContent": ");"
+      },
+      {
+        "row": 22,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 28,
+    "Content": "\n### Custom HTTP Client Configuration\n",
+    "ContentSha": "4EAiSGfF0wvPYge7V0SgVONVe0v6NwFEimXzkiHTa/I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 自訂 HTTP 用戶端組態\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xhpTNRdNna64haZau4/5MM/SEC89tfJXbjcm+bnt+MU=",
+        "originContent": "### Custom HTTP Client Configuration",
+        "translatedContent": "### 自訂 HTTP 用戶端組態"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 29,
+    "Content": "```php\nuse ALAPI\\Acme\\Http\\Clients\\ClientFactory;\n\n$httpClient = ClientFactory::create(30, [\n    'proxy' => 'http://proxy.example.com:8080',\n    'verify' => true, // SSL verification\n    'timeout' => 30,\n    'connect_timeout' => 10,\n    'headers' => [\n        'User-Agent' => 'MyApp ACME Client 1.0'\n    ]\n]);\n```",
+    "ContentSha": "3XJEPRDqXHNm8EY2bc0tDgIJdzX7Dx3S0JFtYS9HOJk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nuse ALAPI\\Acme\\Http\\Clients\\ClientFactory;\n\n$httpClient = ClientFactory::create(30, [\n    'proxy' => 'http://proxy.example.com:8080',\n    'verify' => true, // SSL verification\n    'timeout' => 30,\n    'connect_timeout' => 10,\n    'headers' => [\n        'User-Agent' => 'MyApp ACME Client 1.0'\n    ]\n]);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "nGMYe5d5PH6vKJdDQ1OoCp5jNuKsDrNKuaib4KW7J80=",
+        "originContent": "use ALAPI\\Acme\\Http\\Clients\\ClientFactory;",
+        "translatedContent": "use ALAPI\\Acme\\Http\\Clients\\ClientFactory;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0moY2xj7wttcg+KOkEfubEemMkdeW75bOCkoLLO9kQw=",
+        "originContent": "$httpClient = ClientFactory::create(30, [",
+        "translatedContent": "$httpClient = ClientFactory::create(30, ["
+      },
+      {
+        "row": 5,
+        "rowsha": "qqP6qoD9iiVpU2TzVWlM3xzgYwcebViRiRLJkrGvTZk=",
+        "originContent": "    'proxy' => 'http://proxy.example.com:8080',",
+        "translatedContent": "    'proxy' => 'http://proxy.example.com:8080',"
+      },
+      {
+        "row": 6,
+        "rowsha": "4xG+Y9eTog7uNtevZK9zUxM9UbZMX6XCC0A0lyhpz6s=",
+        "originContent": "    'verify' => true, // SSL verification",
+        "translatedContent": "    'verify' => true, // SSL verification"
+      },
+      {
+        "row": 7,
+        "rowsha": "AuKkToN8SHNqCd+D21avA9ffB5Mwzp5DrE07ZD6hEXc=",
+        "originContent": "    'timeout' => 30,",
+        "translatedContent": "    'timeout' => 30,"
+      },
+      {
+        "row": 8,
+        "rowsha": "faA9xWpcg7wHrxX3Z4pA250AzdOa/S5JRvnV3RROpEM=",
+        "originContent": "    'connect_timeout' => 10,",
+        "translatedContent": "    'connect_timeout' => 10,"
+      },
+      {
+        "row": 9,
+        "rowsha": "BLg0Du4xj/yYakb2gZs1UByDXjRKWgXR9g5vxr6Uw6k=",
+        "originContent": "    'headers' => [",
+        "translatedContent": "    'headers' => ["
+      },
+      {
+        "row": 10,
+        "rowsha": "PynuSR62p34IBoudqYipatLEgh8FPzayZUp66dBqUQ4=",
+        "originContent": "        'User-Agent' => 'MyApp ACME Client 1.0'",
+        "translatedContent": "        'User-Agent' => 'MyApp ACME Client 1.0'"
+      },
+      {
+        "row": 11,
+        "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+        "originContent": "    ]",
+        "translatedContent": "    ]"
+      },
+      {
+        "row": 12,
+        "rowsha": "CuR6E5gPslkALbYlfjVOXImUpTVGK/isDJUvzfVETmk=",
+        "originContent": "]);",
+        "translatedContent": "]);"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 30,
+    "Content": "\n### Logging\n",
+    "ContentSha": "jOw3QCKsZA3E6LgJiwPi1D7aPu1fv4UiYpCvUezxYzI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 日誌記錄\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PAVQ/R38Rk84Kvvg/3XWCXCOAYwJNwdke6GFhtGM8Sg=",
+        "originContent": "### Logging",
+        "translatedContent": "### 日誌記錄"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 31,
+    "Content": "```php\nuse Monolog\\Logger;\nuse Monolog\\Handler\\StreamHandler;\n\n// Create logger\n$logger = new Logger('acme');\n$logger->pushHandler(new StreamHandler('acme.log', Logger::INFO));\n\n// Set logger on client\n$acmeClient->setLogger($logger);\n```",
+    "ContentSha": "qYsc1VlKCDlSXwXem94cCu4q5HgBJkwqhiJXI4cE0JY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nuse Monolog\\Logger;\nuse Monolog\\Handler\\StreamHandler;\n\n// Create logger\n$logger = new Logger('acme');\n$logger->pushHandler(new StreamHandler('acme.log', Logger::INFO));\n\n// Set logger on client\n$acmeClient->setLogger($logger);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "k2UHzTSI9zUIp9wAu5C29A//z9Z4rGUKn7DFiF2rpWs=",
+        "originContent": "use Monolog\\Logger;",
+        "translatedContent": "use Monolog\\Logger;"
+      },
+      {
+        "row": 3,
+        "rowsha": "1fz6X1mMMjEpRP3RaVauMxj2IIIfm+MPDw90y8sVCN0=",
+        "originContent": "use Monolog\\Handler\\StreamHandler;",
+        "translatedContent": "use Monolog\\Handler\\StreamHandler;"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "vX9RGiLBFS6vbhYUPesJUq5GhZrEtFKEwSjoyJBH3ic=",
+        "originContent": "// Create logger",
+        "translatedContent": "// Create logger"
+      },
+      {
+        "row": 6,
+        "rowsha": "eiVxDyi1Sk7MvIT+pAPw6LF/yRkJO/pujXaiJx9YBrA=",
+        "originContent": "$logger = new Logger('acme');",
+        "translatedContent": "$logger = new Logger('acme');"
+      },
+      {
+        "row": 7,
+        "rowsha": "3mnjg3hXiWBseX+KYasgkMZXvdjX/8waVisogOKvsG8=",
+        "originContent": "$logger->pushHandler(new StreamHandler('acme.log', Logger::INFO));",
+        "translatedContent": "$logger->pushHandler(new StreamHandler('acme.log', Logger::INFO));"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "E74pvt+VUvZFwjv5ipMpDQ8PGQPQjJHnn2ip8vaxuek=",
+        "originContent": "// Set logger on client",
+        "translatedContent": "// Set logger on client"
+      },
+      {
+        "row": 10,
+        "rowsha": "1Be+aMuhtUoI1ZUjohyna7luPs0L6+hfv/dwiK3B8NY=",
+        "originContent": "$acmeClient->setLogger($logger);",
+        "translatedContent": "$acmeClient->setLogger($logger);"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 32,
+    "Content": "\n## Configuration\n\n### Account Management Options\n\n**Using AccountStorage for file-based management:**\n",
+    "ContentSha": "cIq+cVXl5k3m4lu/Na2hvtvUoc0IMwEMdYGUkjlUjnk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 設定\n\n### 帳戶管理選項\n\n**使用 AccountStorage 進行檔案型管理：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": "## 設定"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "EOnfgBWhZakVj4qfQWwnIz/C1EG0zYKnhSQ2sDnZzV8=",
+        "originContent": "### Account Management Options",
+        "translatedContent": "### 帳戶管理選項"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "qi8sqwWPKOM4Dc0S04PXKY73wiA5oEYODof7kf8t2tE=",
+        "originContent": "**Using AccountStorage for file-based management:**",
+        "translatedContent": "**使用 AccountStorage 進行檔案型管理：**"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 33,
+    "Content": "```php\nuse ALAPI\\Acme\\Utils\\AccountStorage;\n\n// Check if account files exist\nif (AccountStorage::exists('storage', 'my-account')) {\n    $account = AccountStorage::loadFromFiles('storage', 'my-account');\n} else {\n    $account = AccountStorage::createAndSave('storage', 'my-account');\n}\n\n// Load or create account automatically\n$account = AccountStorage::loadOrCreate(\n    directory: 'storage',\n    name: 'my-account',\n    keyType: 'ECC',\n    keySize: 'P-384'\n);\n```",
+    "ContentSha": "f42kC2RFRZ5rfIRFdNBJO91A2Xeb8kt5FLQicSHs/xU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nuse ALAPI\\Acme\\Utils\\AccountStorage;\n\n// Check if account files exist\nif (AccountStorage::exists('storage', 'my-account')) {\n    $account = AccountStorage::loadFromFiles('storage', 'my-account');\n} else {\n    $account = AccountStorage::createAndSave('storage', 'my-account');\n}\n\n// Load or create account automatically\n$account = AccountStorage::loadOrCreate(\n    directory: 'storage',\n    name: 'my-account',\n    keyType: 'ECC',\n    keySize: 'P-384'\n);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "TsYfGNKx0ch72qV3nP5LsNbaPSs7KdQRnxpaEnDmRkw=",
+        "originContent": "use ALAPI\\Acme\\Utils\\AccountStorage;",
+        "translatedContent": "use ALAPI\\Acme\\Utils\\AccountStorage;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "dz7g5cdB3aYh2L46ggGPzg07IIzjqut2gH8h64kHgf4=",
+        "originContent": "// Check if account files exist",
+        "translatedContent": "// Check if account files exist"
+      },
+      {
+        "row": 5,
+        "rowsha": "2FQR0HffmvGHoSNHVF6l2j6p+/teh6XGke/cvyByswQ=",
+        "originContent": "if (AccountStorage::exists('storage', 'my-account')) {",
+        "translatedContent": "if (AccountStorage::exists('storage', 'my-account')) {"
+      },
+      {
+        "row": 6,
+        "rowsha": "EVkg2g/fJdnQoAVmzNTovkBhXYxXGwwMfjL7LX2Coi8=",
+        "originContent": "    $account = AccountStorage::loadFromFiles('storage', 'my-account');",
+        "translatedContent": "    $account = AccountStorage::loadFromFiles('storage', 'my-account');"
+      },
+      {
+        "row": 7,
+        "rowsha": "mFBF8cBXio0Uhu8/bX1VO6Q8PJKJhy9T5YFaqhzIFxA=",
+        "originContent": "} else {",
+        "translatedContent": "} else {"
+      },
+      {
+        "row": 8,
+        "rowsha": "owPK8B0tNsINb2Dr0sB5dyFV2otx7cMY2IMUwK6Tygk=",
+        "originContent": "    $account = AccountStorage::createAndSave('storage', 'my-account');",
+        "translatedContent": "    $account = AccountStorage::createAndSave('storage', 'my-account');"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "iKNTwJY3PzWioxkahhg3uTuX3/1fExd/LnEoy7DjU5g=",
+        "originContent": "// Load or create account automatically",
+        "translatedContent": "// Load or create account automatically"
+      },
+      {
+        "row": 12,
+        "rowsha": "2uPP0AWsZA2i3VIipuSRkv7RkmIkWi0bvFDq4w4t2vg=",
+        "originContent": "$account = AccountStorage::loadOrCreate(",
+        "translatedContent": "$account = AccountStorage::loadOrCreate("
+      },
+      {
+        "row": 13,
+        "rowsha": "UZUX0Ac3XxJXZ4silzsKHvMGL4Vv76UVsEZ/JubYA1s=",
+        "originContent": "    directory: 'storage',",
+        "translatedContent": "    directory: 'storage',"
+      },
+      {
+        "row": 14,
+        "rowsha": "chCUvuwefJ2KZj7I6wQMLEclD91fay1y8Hm3SMS6r6M=",
+        "originContent": "    name: 'my-account',",
+        "translatedContent": "    name: 'my-account',"
+      },
+      {
+        "row": 15,
+        "rowsha": "L8dGyVBXJWREW9UFRAcdKfKwVA+jLnaEyMZ7Mb5mHoM=",
+        "originContent": "    keyType: 'ECC',",
+        "translatedContent": "    keyType: 'ECC',"
+      },
+      {
+        "row": 16,
+        "rowsha": "77EvaEAEDcpWzXshi0NVUemVmdQ1X44gQfgwhVjwMIY=",
+        "originContent": "    keySize: 'P-384'",
+        "translatedContent": "    keySize: 'P-384'"
+      },
+      {
+        "row": 17,
+        "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+        "originContent": ");",
+        "translatedContent": ");"
+      },
+      {
+        "row": 18,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 34,
+    "Content": "\n**Using Account class for existing keys:**\n",
+    "ContentSha": "KpTyVI8mHgo1yA+WFNM99GxlciMrpBFtDXVNYNGRnq0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**針對現有金鑰使用 Account 類別：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "OwEzi+cVB3+4bsGT+jPsBP7Et47aOj6a7uYSjef3GpE=",
+        "originContent": "**Using Account class for existing keys:**",
+        "translatedContent": "**針對現有金鑰使用 Account 類別：**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 35,
+    "Content": "```php\nuse ALAPI\\Acme\\Accounts\\Account;\n\n// From existing private key\n$privateKey = file_get_contents('/path/to/private.key');\n$account = new Account($privateKey);\n\n// With both private and public keys\n$privateKey = file_get_contents('/path/to/private.key');\n$publicKey = file_get_contents('/path/to/public.key');\n$account = new Account($privateKey, $publicKey);\n\n// Create new account with specific key type\n$account = Account::createECC('P-384');  // or 'P-256', 'P-384'\n$account = Account::createRSA(4096);     // or 2048, 3072\n\n// Get account information\necho \"Key Type: \" . $account->getKeyType() . \"\\n\";\necho \"Key Size: \" . $account->getKeySize() . \"\\n\";\n```",
+    "ContentSha": "MagKMhzg23rWyw6rUwEF3Zfu7Nla5hKUOA5j6SWuM54=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nuse ALAPI\\Acme\\Accounts\\Account;\n\n// From existing private key\n$privateKey = file_get_contents('/path/to/private.key');\n$account = new Account($privateKey);\n\n// With both private and public keys\n$privateKey = file_get_contents('/path/to/private.key');\n$publicKey = file_get_contents('/path/to/public.key');\n$account = new Account($privateKey, $publicKey);\n\n// Create new account with specific key type\n$account = Account::createECC('P-384');  // or 'P-256', 'P-384'\n$account = Account::createRSA(4096);     // or 2048, 3072\n\n// Get account information\necho \"Key Type: \" . $account->getKeyType() . \"\\n\";\necho \"Key Size: \" . $account->getKeySize() . \"\\n\";\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "6wL42yTvoCFFmmf8gwlnCvruqWIMZFRd7yKRrx1cW1o=",
+        "originContent": "use ALAPI\\Acme\\Accounts\\Account;",
+        "translatedContent": "use ALAPI\\Acme\\Accounts\\Account;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "9ySncfsuyv6PgoI38EGdNGxA8BZ3IYaROWPpYS3CjRw=",
+        "originContent": "// From existing private key",
+        "translatedContent": "// From existing private key"
+      },
+      {
+        "row": 5,
+        "rowsha": "egzzOl698Z9rOz16v1vahy381jGTF66VQqLWWvLBfss=",
+        "originContent": "$privateKey = file_get_contents('/path/to/private.key');",
+        "translatedContent": "$privateKey = file_get_contents('/path/to/private.key');"
+      },
+      {
+        "row": 6,
+        "rowsha": "T61rdVyucxS9U4IBxuyZudHy0tw1xRbdRj5RyhK4XbU=",
+        "originContent": "$account = new Account($privateKey);",
+        "translatedContent": "$account = new Account($privateKey);"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "zLfdaCzZhEoc7WXvZnkXArQXzWKQX4SVi6+gBdy8Rrk=",
+        "originContent": "// With both private and public keys",
+        "translatedContent": "// With both private and public keys"
+      },
+      {
+        "row": 9,
+        "rowsha": "egzzOl698Z9rOz16v1vahy381jGTF66VQqLWWvLBfss=",
+        "originContent": "$privateKey = file_get_contents('/path/to/private.key');",
+        "translatedContent": "$privateKey = file_get_contents('/path/to/private.key');"
+      },
+      {
+        "row": 10,
+        "rowsha": "qDmqhWf7Ux4skMX43sEdwxaoEqiKRtS3/FuYmrLtJT8=",
+        "originContent": "$publicKey = file_get_contents('/path/to/public.key');",
+        "translatedContent": "$publicKey = file_get_contents('/path/to/public.key');"
+      },
+      {
+        "row": 11,
+        "rowsha": "y+Gwctk5vjZKjkAzk9nsDGN3q/cvYCQHGNTEWV9T9n8=",
+        "originContent": "$account = new Account($privateKey, $publicKey);",
+        "translatedContent": "$account = new Account($privateKey, $publicKey);"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "9xRjv0zoXErecWtSBaBOX+oGEV//tefCyzWEtQ7+IYw=",
+        "originContent": "// Create new account with specific key type",
+        "translatedContent": "// Create new account with specific key type"
+      },
+      {
+        "row": 14,
+        "rowsha": "dLmUoCVTgveb4Q6wkzynbJp0ukor1fH9duwqAJkC2S0=",
+        "originContent": "$account = Account::createECC('P-384');  // or 'P-256', 'P-384'",
+        "translatedContent": "$account = Account::createECC('P-384');  // or 'P-256', 'P-384'"
+      },
+      {
+        "row": 15,
+        "rowsha": "0fz8fYDSR6aJo1GAaF8dg9uulO+wXKjiqJIKHVhrRMs=",
+        "originContent": "$account = Account::createRSA(4096);     // or 2048, 3072",
+        "translatedContent": "$account = Account::createRSA(4096);     // or 2048, 3072"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "BJI+FnnoPRTisfRI3zhlGU94WuNK9ZEdBKZZvV3MLXY=",
+        "originContent": "// Get account information",
+        "translatedContent": "// Get account information"
+      },
+      {
+        "row": 18,
+        "rowsha": "26p5xvGVk/7c1f2/v80KxrVej5UdJbJJzVl6uzhyXbM=",
+        "originContent": "echo \"Key Type: \" . $account->getKeyType() . \"\\n\";",
+        "translatedContent": "echo \"Key Type: \" . $account->getKeyType() . \"\\n\";"
+      },
+      {
+        "row": 19,
+        "rowsha": "7IWYPAzCojh7ehoeP2hFinue2wHXlLLpEXXlYKm3dHs=",
+        "originContent": "echo \"Key Size: \" . $account->getKeySize() . \"\\n\";",
+        "translatedContent": "echo \"Key Size: \" . $account->getKeySize() . \"\\n\";"
+      },
+      {
+        "row": 20,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 36,
+    "Content": "\n## Error Handling\n",
+    "ContentSha": "bvCAqnMMtvpavfIFRaiIfHQzNziIS+N6O4aXZSD0BRM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 錯誤處理\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Zg7yEomjR/QFytY2+h9LSXR37d9hdCRyh/C/rNPzgho=",
+        "originContent": "## Error Handling",
+        "translatedContent": "## 錯誤處理"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 37,
+    "Content": "```php\nuse ALAPI\\Acme\\Exceptions\\AcmeException;\nuse ALAPI\\Acme\\Exceptions\\AcmeAccountException;\nuse ALAPI\\Acme\\Exceptions\\DomainValidationException;\nuse ALAPI\\Acme\\Exceptions\\AcmeCertificateException;\n\ntry {\n    // ACME operations here\n} catch (AcmeAccountException $e) {\n    echo \"Account error: \" . $e->getMessage() . \"\\n\";\n    echo \"Detail: \" . $e->getDetail() . \"\\n\";\n    echo \"Type: \" . $e->getAcmeType() . \"\\n\";\n} catch (DomainValidationException $e) {\n    echo \"Validation error: \" . $e->getMessage() . \"\\n\";\n} catch (AcmeCertificateException $e) {\n    echo \"Certificate error: \" . $e->getMessage() . \"\\n\";\n} catch (AcmeException $e) {\n    echo \"ACME error: \" . $e->getMessage() . \"\\n\";\n} catch (Exception $e) {\n    echo \"General error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "ContentSha": "mYJfIC7j6PAhPYJSDLIgEIoFc4mmAsILMug2JneItIw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nuse ALAPI\\Acme\\Exceptions\\AcmeException;\nuse ALAPI\\Acme\\Exceptions\\AcmeAccountException;\nuse ALAPI\\Acme\\Exceptions\\DomainValidationException;\nuse ALAPI\\Acme\\Exceptions\\AcmeCertificateException;\n\ntry {\n    // ACME operations here\n} catch (AcmeAccountException $e) {\n    echo \"Account error: \" . $e->getMessage() . \"\\n\";\n    echo \"Detail: \" . $e->getDetail() . \"\\n\";\n    echo \"Type: \" . $e->getAcmeType() . \"\\n\";\n} catch (DomainValidationException $e) {\n    echo \"Validation error: \" . $e->getMessage() . \"\\n\";\n} catch (AcmeCertificateException $e) {\n    echo \"Certificate error: \" . $e->getMessage() . \"\\n\";\n} catch (AcmeException $e) {\n    echo \"ACME error: \" . $e->getMessage() . \"\\n\";\n} catch (Exception $e) {\n    echo \"General error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "7simhF7ci+9DnzLbd+yiMQZI68H1GpoKukAg1GOMrB8=",
+        "originContent": "use ALAPI\\Acme\\Exceptions\\AcmeException;",
+        "translatedContent": "use ALAPI\\Acme\\Exceptions\\AcmeException;"
+      },
+      {
+        "row": 3,
+        "rowsha": "d7QDQ0Q3Lh4M87qqn9OdyGbIvG3y+kCy5ssXoPBv+lc=",
+        "originContent": "use ALAPI\\Acme\\Exceptions\\AcmeAccountException;",
+        "translatedContent": "use ALAPI\\Acme\\Exceptions\\AcmeAccountException;"
+      },
+      {
+        "row": 4,
+        "rowsha": "d0yR1Y9jOF0me0VzRmKzENoMTvDkmAlms/e6HrwT/3I=",
+        "originContent": "use ALAPI\\Acme\\Exceptions\\DomainValidationException;",
+        "translatedContent": "use ALAPI\\Acme\\Exceptions\\DomainValidationException;"
+      },
+      {
+        "row": 5,
+        "rowsha": "WlHBb9zTUcM1BWwDlxatSzUV9YXy+b+2UCyw7zS1Y7U=",
+        "originContent": "use ALAPI\\Acme\\Exceptions\\AcmeCertificateException;",
+        "translatedContent": "use ALAPI\\Acme\\Exceptions\\AcmeCertificateException;"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "A9mrpjURc+X4xHnz54Ykevyii9gU3ULmR3+lG0jJ/jY=",
+        "originContent": "try {",
+        "translatedContent": "try {"
+      },
+      {
+        "row": 8,
+        "rowsha": "D4pySYm8B/5QzGD2UgdwWFh0AS+O83LX8y0dg92HOrM=",
+        "originContent": "    // ACME operations here",
+        "translatedContent": "    // ACME operations here"
+      },
+      {
+        "row": 9,
+        "rowsha": "nLcgVt4GOZWObvdkw/uGDSdNQaZScGDoPbq9vnscGyk=",
+        "originContent": "} catch (AcmeAccountException $e) {",
+        "translatedContent": "} catch (AcmeAccountException $e) {"
+      },
+      {
+        "row": 10,
+        "rowsha": "7JlVVuyLFnrhghkW9RaOSKlMgSVHN0Csa4V0Jdkk1sU=",
+        "originContent": "    echo \"Account error: \" . $e->getMessage() . \"\\n\";",
+        "translatedContent": "    echo \"Account error: \" . $e->getMessage() . \"\\n\";"
+      },
+      {
+        "row": 11,
+        "rowsha": "XYY5TlbUIp2W+nhkhoyZdVyY0X3CLSs4ZDS6rWQDJ2o=",
+        "originContent": "    echo \"Detail: \" . $e->getDetail() . \"\\n\";",
+        "translatedContent": "    echo \"Detail: \" . $e->getDetail() . \"\\n\";"
+      },
+      {
+        "row": 12,
+        "rowsha": "mHFYqq7h8V7gi//51tRPDRmcqYCQxzVMn61ked3h1y4=",
+        "originContent": "    echo \"Type: \" . $e->getAcmeType() . \"\\n\";",
+        "translatedContent": "    echo \"Type: \" . $e->getAcmeType() . \"\\n\";"
+      },
+      {
+        "row": 13,
+        "rowsha": "aUic/H/3VzXj8HFn3n4BXgIlqw0sRuIvzkRUJWSzAVA=",
+        "originContent": "} catch (DomainValidationException $e) {",
+        "translatedContent": "} catch (DomainValidationException $e) {"
+      },
+      {
+        "row": 14,
+        "rowsha": "QfuAp4f9VDcnVP5z+rRFOI+PlZ4yklcvNcn1NbdKUlc=",
+        "originContent": "    echo \"Validation error: \" . $e->getMessage() . \"\\n\";",
+        "translatedContent": "    echo \"Validation error: \" . $e->getMessage() . \"\\n\";"
+      },
+      {
+        "row": 15,
+        "rowsha": "x/J6sK253kZue5yPuNQHx2oxl1HoWrBwSEjO8lUwEXU=",
+        "originContent": "} catch (AcmeCertificateException $e) {",
+        "translatedContent": "} catch (AcmeCertificateException $e) {"
+      },
+      {
+        "row": 16,
+        "rowsha": "yJi0wsgXGJLGhmsK3nPVLBkdgOwMeSScnG6bTp1yQSM=",
+        "originContent": "    echo \"Certificate error: \" . $e->getMessage() . \"\\n\";",
+        "translatedContent": "    echo \"Certificate error: \" . $e->getMessage() . \"\\n\";"
+      },
+      {
+        "row": 17,
+        "rowsha": "SPWPKwFKHnc/Xei/R+ZeokTzUilIuEJhnn+ghThdU20=",
+        "originContent": "} catch (AcmeException $e) {",
+        "translatedContent": "} catch (AcmeException $e) {"
+      },
+      {
+        "row": 18,
+        "rowsha": "faeVtfDjRek77Ns6fPPt97W4IMFFdJUkt7fCR5nDEyk=",
+        "originContent": "    echo \"ACME error: \" . $e->getMessage() . \"\\n\";",
+        "translatedContent": "    echo \"ACME error: \" . $e->getMessage() . \"\\n\";"
+      },
+      {
+        "row": 19,
+        "rowsha": "+WRTLyw6O+EcfEWksCTXrYzcy4m+kYiZhMeBa1slEWs=",
+        "originContent": "} catch (Exception $e) {",
+        "translatedContent": "} catch (Exception $e) {"
+      },
+      {
+        "row": 20,
+        "rowsha": "ErBrUqiovRVUtUlKvJm+dbiuubC50h29eAhB1eQXAEs=",
+        "originContent": "    echo \"General error: \" . $e->getMessage() . \"\\n\";",
+        "translatedContent": "    echo \"General error: \" . $e->getMessage() . \"\\n\";"
+      },
+      {
+        "row": 21,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 22,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 38,
+    "Content": "\n## Testing\n\nRun the test suite:\n",
+    "ContentSha": "0B+1jXGyt5gg+ifq26sOO4P2SCTNt22K/2puTADmsuE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 測試\n\n執行測試套件：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "WMDkUwHVRQAfrBKQYiruIvD/yDZBe9wJzIVoLcRpccs=",
+        "originContent": "## Testing",
+        "translatedContent": "## 測試"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "XAXVet+XklDe4YQaHhztsrJjceiaNb1kObpKHgIozCk=",
+        "originContent": "Run the test suite:",
+        "translatedContent": "執行測試套件："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 39,
+    "Content": "```bash\ncomposer test\n```",
+    "ContentSha": "nCNn/JSHdXtlM8BILO0Z5JjhUvpwm4IRlcC4iMvzYwI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncomposer test\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "TQpJg0Y4jeHihx2OaV13YyXDzqsumcxfpluaJG+8wHo=",
+        "originContent": "composer test",
+        "translatedContent": "composer test"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 40,
+    "Content": "\nRun static analysis:\n",
+    "ContentSha": "Qbzcyl7/AFcnmzuyry44Th9Ik5BsEgZGcL8gQlJ1r1E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n執行靜態分析：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "54WdJy3G7pJL4N2MyHpQzWkdSkxLgoyWn3TflmrbkH4=",
+        "originContent": "Run static analysis:",
+        "translatedContent": "執行靜態分析："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 41,
+    "Content": "```bash\ncomposer analyse\n```",
+    "ContentSha": "SvDkCYd5J8wvWL+TjuD0chOhMV+sZ8k3ef9NOw3HUTQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncomposer analyse\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "7ImCCtpks2viCC1YFzRK0SB/NsnPlbb7jszy7vDyBtA=",
+        "originContent": "composer analyse",
+        "translatedContent": "composer analyse"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 42,
+    "Content": "\nFix code style:\n",
+    "ContentSha": "3uSrvDEXv0kbu0Vqkf7m8B9iDRCpKTZCq6/OM7aCm4U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n修正程式碼風格：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ssI1aA4iLfFK3sG0J/qgFAiq7XzVavAuSW5DqNnC3w8=",
+        "originContent": "Fix code style:",
+        "translatedContent": "修正程式碼風格："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 43,
+    "Content": "```bash\ncomposer cs-fix\n```",
+    "ContentSha": "d/EO6/034AajmEN3i/NyW2FKs90N1c19pJJMEi52YeI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncomposer cs-fix\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "vL+2L3xwFB81LfJmzJ1UkSRd/zIO2ztCSXBWxLEaQMU=",
+        "originContent": "composer cs-fix",
+        "translatedContent": "composer cs-fix"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 44,
+    "Content": "\n## Security Considerations\n\n1. **Private Keys**: Store private keys securely with appropriate file permissions (600)\n2. **Account Keys**: Keep account keys separate from certificate keys\n3. **Staging Environment**: Use staging environment for testing\n4. **Rate Limits**: Be aware of CA rate limits\n5. **Validation**: Always validate challenges locally before triggering ACME validation\n\n## Contributing\n\n1. Fork the repository\n2. Create a feature branch\n3. Make your changes\n4. Add tests for new functionality\n5. Run the test suite\n6. Submit a pull request\n\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n## Links\n\n- [Let's Encrypt Documentation](https://letsencrypt.org/docs/)\n- [ACME Specification RFC 8555](https://tools.ietf.org/html/rfc8555)\n- [ZeroSSL ACME Guide](https://zerossl.com/documentation/acme/)\n\n## Support\n\nIf you encounter any issues or have questions:\n\n1. Check the [documentation](#quick-start)\n2. Search existing [issues](https://github.com/anhao/acme-client/issues)\n3. Create a [new issue](https://github.com/anhao/acme-client/issues/new) if needed\n",
+    "ContentSha": "S/uhYuii9OtPRdeYCG2ihiM7/VhlrdcUOMyI7QyZiKM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 安全考量\n\n1. **私密金鑰**：請以適當的檔案權限（600）安全儲存私密金鑰\n2. **帳戶金鑰**：請將帳戶金鑰與憑證金鑰分開保存\n3. **測試環境**：請使用測試環境進行測試\n4. **速率限制**：請注意 CA 的速率限制\n5. **驗證**：在觸發 ACME 驗證前，務必在本地先驗證挑戰\n\n## 貢獻方式\n\n1. 複製本儲存庫（fork repository）\n2. 建立功能分支\n3. 進行您的修改\n4. 為新功能新增測試\n5. 執行測試套件\n6. 提交拉取請求（pull request）\n\n## 授權條款\n\n本專案依 MIT 授權條款發佈——詳情請參閱 [LICENSE](LICENSE) 檔案。\n\n## 相關連結\n\n- [Let's Encrypt 文件](https://letsencrypt.org/docs/)\n- [ACME 規範 RFC 8555](https://tools.ietf.org/html/rfc8555)\n- [ZeroSSL ACME 指南](https://zerossl.com/documentation/acme/)\n\n## 支援\n\n如有任何問題或疑問：\n\n1. 請先查閱 [文件](#quick-start)\n2. 搜尋現有 [問題](https://github.com/anhao/acme-client/issues)\n3. 如有需要，請建立 [新問題](https://github.com/anhao/acme-client/issues/new)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Yin2W1CKtzHtJzfNXFfpYtC0lslG+trsFw7wLJJEOB8=",
+        "originContent": "## Security Considerations",
+        "translatedContent": "## 安全考量"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GMQUeJW89eDHyN2DD5QkztMVq274WUFfoCpsIrnu0A8=",
+        "originContent": "1. **Private Keys**: Store private keys securely with appropriate file permissions (600)",
+        "translatedContent": "1. **私密金鑰**：請以適當的檔案權限（600）安全儲存私密金鑰"
+      },
+      {
+        "row": 5,
+        "rowsha": "KDAFJTfESULVKbIKNdkaV0baI7rRe73i35REfsNIYok=",
+        "originContent": "2. **Account Keys**: Keep account keys separate from certificate keys",
+        "translatedContent": "2. **帳戶金鑰**：請將帳戶金鑰與憑證金鑰分開保存"
+      },
+      {
+        "row": 6,
+        "rowsha": "kSEUEk/bmh/gQbNNDHp/6rARcT/C1osX7mJi+CT5WAI=",
+        "originContent": "3. **Staging Environment**: Use staging environment for testing",
+        "translatedContent": "3. **測試環境**：請使用測試環境進行測試"
+      },
+      {
+        "row": 7,
+        "rowsha": "2gMb0yfDp70Ev495goXL/PU3ukRGqlx83lrVS9hv7to=",
+        "originContent": "4. **Rate Limits**: Be aware of CA rate limits",
+        "translatedContent": "4. **速率限制**：請注意 CA 的速率限制"
+      },
+      {
+        "row": 8,
+        "rowsha": "uvIpH67lzKYEyokcQ7vNRhiZDCyNcdeebPIqH3FXs7Q=",
+        "originContent": "5. **Validation**: Always validate challenges locally before triggering ACME validation",
+        "translatedContent": "5. **驗證**：在觸發 ACME 驗證前，務必在本地先驗證挑戰"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 貢獻方式"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "gKYrfInB5vs8/nXoZ513IRiv+2rnhN0mL7v7OAyCepM=",
+        "originContent": "1. Fork the repository",
+        "translatedContent": "1. 複製本儲存庫（fork repository）"
+      },
+      {
+        "row": 13,
+        "rowsha": "zjkMalfFBFdl/fW6/abWk0EDPTi1ZacY0Tz89IHmrrA=",
+        "originContent": "2. Create a feature branch",
+        "translatedContent": "2. 建立功能分支"
+      },
+      {
+        "row": 14,
+        "rowsha": "oIeRmHhMC8YR++vfT37Edr7lXiU0nQKQZPZkT6sdMIg=",
+        "originContent": "3. Make your changes",
+        "translatedContent": "3. 進行您的修改"
+      },
+      {
+        "row": 15,
+        "rowsha": "tnr2eaEN+nUZG0uxW2W/eBMRq48vtfDD8iMUob5FHkU=",
+        "originContent": "4. Add tests for new functionality",
+        "translatedContent": "4. 為新功能新增測試"
+      },
+      {
+        "row": 16,
+        "rowsha": "3vUehhcILzZh9PVKQkxuo5afN+QdgXzPgt46KC082fY=",
+        "originContent": "5. Run the test suite",
+        "translatedContent": "5. 執行測試套件"
+      },
+      {
+        "row": 17,
+        "rowsha": "tFJHV83Gb8yiwqVmx+EnMFcoZrul71eoHrPLcc70TMA=",
+        "originContent": "6. Submit a pull request",
+        "translatedContent": "6. 提交拉取請求（pull request）"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 授權條款"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "fOZgQLjSABDxHjJbYQ1wqD20ynEX33m+IkBDktyXUqY=",
+        "originContent": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.",
+        "translatedContent": "本專案依 MIT 授權條款發佈——詳情請參閱 [LICENSE](LICENSE) 檔案。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "diHpFstuV7UK+A46mhFkbkPIHzxRakTriwoPTCVX3QI=",
+        "originContent": "## Links",
+        "translatedContent": "## 相關連結"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "0lw/OBbpNkh7KOH0TZ93Oz8IirhS6t7by3KLuJAiWNQ=",
+        "originContent": "- [Let's Encrypt Documentation](https://letsencrypt.org/docs/)",
+        "translatedContent": "- [Let's Encrypt 文件](https://letsencrypt.org/docs/)"
+      },
+      {
+        "row": 26,
+        "rowsha": "oigcuGsi6QeCMquzGqOAU3b9GmOOZm3uYG4yIj0o4T0=",
+        "originContent": "- [ACME Specification RFC 8555](https://tools.ietf.org/html/rfc8555)",
+        "translatedContent": "- [ACME 規範 RFC 8555](https://tools.ietf.org/html/rfc8555)"
+      },
+      {
+        "row": 27,
+        "rowsha": "JQtmKIynUz6dPZAoTiHnmdJwrW2y0ooThWYOFNEc/5o=",
+        "originContent": "- [ZeroSSL ACME Guide](https://zerossl.com/documentation/acme/)",
+        "translatedContent": "- [ZeroSSL ACME 指南](https://zerossl.com/documentation/acme/)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "IomX/Z8fZRvFPjDCjVVFhdA00U2wXcfNBs9BCtGX13M=",
+        "originContent": "## Support",
+        "translatedContent": "## 支援"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "zNrrYPz6Y/5d/g3hzx5iOhep9o95Bjelx8otMWoSUvM=",
+        "originContent": "If you encounter any issues or have questions:",
+        "translatedContent": "如有任何問題或疑問："
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "Ix0BaITal92jxxdNh28XeU9YPhWpOGGSPWUX/5z7kSM=",
+        "originContent": "1. Check the [documentation](#quick-start)",
+        "translatedContent": "1. 請先查閱 [文件](#quick-start)"
+      },
+      {
+        "row": 34,
+        "rowsha": "8wpVMYZ6kYPNzvKjis44qhEntSf3tOF3yfXQNZaCir4=",
+        "originContent": "2. Search existing [issues](https://github.com/anhao/acme-client/issues)",
+        "translatedContent": "2. 搜尋現有 [問題](https://github.com/anhao/acme-client/issues)"
+      },
+      {
+        "row": 35,
+        "rowsha": "IIsqlfks0h4zlDkP72W4SSgmegWaH5qDu6C735gXzVs=",
+        "originContent": "3. Create a [new issue](https://github.com/anhao/acme-client/issues/new) if needed",
+        "translatedContent": "3. 如有需要，請建立 [新問題](https://github.com/anhao/acme-client/issues/new)"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

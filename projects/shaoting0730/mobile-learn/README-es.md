@@ -1,3 +1,5 @@
+
+<!-- 
 <div align="right">
   <details>
     <summary >🌐 Idioma</summary>
@@ -29,22 +31,29 @@
   </details>
 
 </div>
+-->
+- [English](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.en.md)
+- [简体中文](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.zh-CN.md)
+- [繁体中文](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.zh-TW.md)
 
-## [ Proceso de aprendizaje de Flutter ]( https://github.com/shaoting0730/mobile-learn/tree/master/Flutter )
-## [ Proceso de aprendizaje de React Native ](  https://github.com/shaoting0730/mobile-learn/tree/master/React%20Native  )    <br/>
-## [ Proceso de aprendizaje de uni app ]( https://github.com/shaoting0730/mobile-learn/tree/master/uniapp )    <br/>
-## [ Proceso de aprendizaje de Mini Programas WeChat Nativo ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F )    <br/>
-## [ Proceso de aprendizaje de iOS ](  https://github.com/shaoting0730/mobile-learn/tree/master/iOS )    <br/>
-## [ Proceso de aprendizaje de Android ](  https://github.com/shaoting0730/mobile-learn/tree/master/Android )    <br/>
-## [ Proceso de aprendizaje de HarmonyOS ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E9%B8%BF%E8%92%99 )    <br/>
+## [ Trayectoria de aprendizaje de Flutter ]( https://github.com/shaoting0730/mobile-learn/tree/master/Flutter )
+## [ Trayectoria de aprendizaje de React Native ](  https://github.com/shaoting0730/mobile-learn/tree/master/React%20Native  )    <br/>
+## [ Historial de aprendizaje de uni app ]( https://github.com/shaoting0730/mobile-learn/tree/master/uniapp )    <br/>
+## [ Historial de aprendizaje de WeChat Mini Program nativo ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F )    <br/>
+## [ Historial de aprendizaje de iOS ](  https://github.com/shaoting0730/mobile-learn/tree/master/iOS )    <br/>
+## [ Historial de aprendizaje de Android ]( https://github.com/shaoting0730/mobile-learn/tree/master/Android )    <br/>
+## [ Historial de aprendizaje de HarmonyOS ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E9%B8%BF%E8%92%99 )    <br/>
+## [ Aprendizaje de misceláneos ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E6%9D%82%E7%B1%BB )    <br/>
 
-## [ 杂类学习 ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E6%9D%82%E7%B1%BB )    <br/>
+
+
+
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-15
 
 ---

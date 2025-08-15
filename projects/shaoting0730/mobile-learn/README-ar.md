@@ -1,4 +1,5 @@
 
+<!-- 
 <div align="right">
   <details>
     <summary >🌐 اللغة</summary>
@@ -30,6 +31,10 @@
   </details>
 
 </div>
+-->
+- [English](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.en.md)
+- [简体中文](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.zh-CN.md)
+- [繁体中文](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.zh-TW.md)
 
 ## [ مسار تعلم Flutter ]( https://github.com/shaoting0730/mobile-learn/tree/master/Flutter )
 ## [ مسار تعلم React Native ](  https://github.com/shaoting0730/mobile-learn/tree/master/React%20Native  )    <br/>
@@ -37,14 +42,18 @@
 ## [ مسار تعلم تطبيقات WeChat الأصلية ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F )    <br/>
 ## [ مسار تعلم iOS ](  https://github.com/shaoting0730/mobile-learn/tree/master/iOS )    <br/>
 ## [ مسار تعلم Android ](  https://github.com/shaoting0730/mobile-learn/tree/master/Android )    <br/>
-## [ مسار تعلم نظام هونغمينغ ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E9%B8%BF%E8%92%99 )    <br/>
-## [ 杂类学习 ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E6%9D%82%E7%B1%BB )    <br/>
+## [ مسار تعلم نظام Hongmeng ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E9%B8%BF%E8%92%99 )    <br/>
+## [ تعلم متنوع ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E6%9D%82%E7%B1%BB )    <br/>
+
+
+
+
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-15
 
 ---

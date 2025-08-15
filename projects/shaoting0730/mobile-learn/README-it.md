@@ -1,4 +1,5 @@
 
+<!-- 
 <div align="right">
   <details>
     <summary >🌐 Lingua</summary>
@@ -30,6 +31,10 @@
   </details>
 
 </div>
+-->
+- [English](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.en.md)
+- [简体中文](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.zh-CN.md)
+- [繁体中文](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.zh-TW.md)
 
 ## [ Percorso di apprendimento Flutter ]( https://github.com/shaoting0730/mobile-learn/tree/master/Flutter )
 ## [ Percorso di apprendimento React Native ](  https://github.com/shaoting0730/mobile-learn/tree/master/React%20Native  )    <br/>
@@ -38,13 +43,17 @@
 ## [ Percorso di apprendimento iOS ](  https://github.com/shaoting0730/mobile-learn/tree/master/iOS )    <br/>
 ## [ Percorso di apprendimento Android ](  https://github.com/shaoting0730/mobile-learn/tree/master/Android )    <br/>
 ## [ Percorso di apprendimento HarmonyOS ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E9%B8%BF%E8%92%99 )    <br/>
-## [ 杂类学习 ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E6%9D%82%E7%B1%BB )    <br/>
+## [ Apprendimento vario ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E6%9D%82%E7%B1%BB )    <br/>
+
+
+
+
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-15
 
 ---

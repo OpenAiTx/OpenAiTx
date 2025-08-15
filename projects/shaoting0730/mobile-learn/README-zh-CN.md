@@ -1,4 +1,5 @@
 
+<!-- 
 <div align="right">
   <details>
     <summary >🌐 语言</summary>
@@ -30,11 +31,15 @@
   </details>
 
 </div>
+-->
+- [English](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.en.md)
+- [简体中文](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.zh-CN.md)
+- [繁体中文](https://raw.githubusercontent.com/shaoting0730/mobile-learn/master/README.zh-TW.md)
 
 ## [ Flutter 学习历程 ]( https://github.com/shaoting0730/mobile-learn/tree/master/Flutter )
 ## [ React Native 学习历程 ](  https://github.com/shaoting0730/mobile-learn/tree/master/React%20Native  )    <br/>
 ## [ uni app 学习历程 ]( https://github.com/shaoting0730/mobile-learn/tree/master/uniapp )    <br/>
-## [ 微信小程序原生 学习历程 ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F )    <br/>
+## [ 微信小程序原生学习历程 ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F )    <br/>
 ## [ iOS 学习历程 ](  https://github.com/shaoting0730/mobile-learn/tree/master/iOS )    <br/>
 ## [ Android 学习历程 ](  https://github.com/shaoting0730/mobile-learn/tree/master/Android )    <br/>
 ## [ 鸿蒙学习历程 ]( https://github.com/shaoting0730/mobile-learn/tree/master/%E9%B8%BF%E8%92%99 )    <br/>
@@ -43,8 +48,12 @@
 
 
 
+
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-15
 
 ---

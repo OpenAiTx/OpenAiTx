@@ -1,0 +1,928 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# ACME Client\n\nA comprehensive PHP ACME v2 client library for automating SSL/TLS certificate management with Let's Encrypt, ZeroSSL, and other ACME-compatible Certificate Authorities.\n\n[![github stats](https://img.shields.io/github/stars/anhao/acme-client?style=flat-square&label=github%20stats)](https://github.com/anhao/acme-client)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/anhao/acme-client)\n[![PHP Version](https://img.shields.io/badge/PHP-%3E%3D8.2-blue.svg)](https://www.php.net/)\n",
+    "ContentSha": "bnc/+syqC02t5SGeDiNugc+hZJyN48LNABTrPCUIO10=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# ACME 클라이언트\n\nLet's Encrypt, ZeroSSL 및 기타 ACME 호환 인증 기관과 함께 SSL/TLS 인증서 관리를 자동화하는 포괄적인 PHP ACME v2 클라이언트 라이브러리입니다.\n\n[![github stats](https://img.shields.io/github/stars/anhao/acme-client?style=flat-square&label=github%20stats)](https://github.com/anhao/acme-client)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/anhao/acme-client)\n[![PHP Version](https://img.shields.io/badge/PHP-%3E%3D8.2-blue.svg)](https://www.php.net/)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 언어</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "98AXK3Tiz8frV49/3tULsw3mgdC9kdz1cTR/aMw8INE=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "W2ttqZygSJyKA6t9lsLa7PmZ59zte/YBUI8d+FOFgW4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "AUqRKyHF/XTPcUlvQNEuyYnYeJV68CqYv3C9Yxqw+0U=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "Ko7r6feBMLp5F+RnPa3ENMW7WG9Sw3rRsg0Ar0eikE8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "+2R7i7woRqlCwCl3z0HyWEJH3GNbdUypxCAKUbjFiFg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "UxBwwfwZpbV4JB6JjLJZgc+4JLwKPhzxlsFCI4pNmnM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "Rfg0rkXKWGgqrbO/NxgxNM2SweiPPqScxFyvgD2V1Vs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "h89UGFJ23L8NU6T4h0a6xZknBJIWzbgH2OO2nQKIBUA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "zgFhdzyXYqzYQqpkKBBPhmyXQVi6P8KAIsHW+wieBwk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "9kIhLMQdg4652gzgpTtMdzGiuxswiRo/3p7ZoO+84ak=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "lkP6lsADj9sgZNfkiIsCVzCV47wIpbZlJmhepusFwQ0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "Y0F3JySNwM8GFBDkpMTyjIJnZFA5ikEI0ekqgM8wv5s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "HJXvcGgkmdipsOe4SzTt1TAQGs+QA8W+Qt+WfSv4AxM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "TZXZhgHcCSvLIB+akZVGWb/y7qUSO+HEZa0or5kqiCs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "UuCMEdrSlAp+hgii/XKc7g6P1Vg5hJA83NazmgDNbdA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "sy0Do7I/Egp9D8H8PoIb8NYwoU54RxfjCjsTNSFVIaA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "9CYLnBncGuvPwqLL9UXdYdpuRGb97u0ve46QZgzpYrU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "t7bYoiKSHpmjSUVZPrBIi62cPR/867D41NXleucy3H8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "g73TT5zxCel98ipoztEHp1TjMURJfgLEavbrLbP8v20=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "aixeMJ1PEfQyLikJc8qy1t6LR8E7Y4oj2V0Ehj9wTEo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "ntcGNEIIcn1Ycwxby5HGA4/Ck7i29ECAg5H6G1/KDrs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anhao&project=acme-client&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "SIv+FVEnGy/EF+hSro6SCUshEQbi4pT/4JmEzCfWp3U=",
+        "originContent": "# ACME Client",
+        "translatedContent": "# ACME 클라이언트"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "76G65iG+5BPH5+OAlyQn9IlG/BpLoGCfMWbwxE3i7nU=",
+        "originContent": "A comprehensive PHP ACME v2 client library for automating SSL/TLS certificate management with Let's Encrypt, ZeroSSL, and other ACME-compatible Certificate Authorities.",
+        "translatedContent": "Let's Encrypt, ZeroSSL 및 기타 ACME 호환 인증 기관과 함께 SSL/TLS 인증서 관리를 자동화하는 포괄적인 PHP ACME v2 클라이언트 라이브러리입니다."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "utRVILkSZoMocibDg0njpdw643VfbHcVo8doClcRj9k=",
+        "originContent": "[![github stats](https://img.shields.io/github/stars/anhao/acme-client?style=flat-square&label=github%20stats)](https://github.com/anhao/acme-client)",
+        "translatedContent": "[![github stats](https://img.shields.io/github/stars/anhao/acme-client?style=flat-square&label=github%20stats)](https://github.com/anhao/acme-client)"
+      },
+      {
+        "row": 38,
+        "rowsha": "IPy+6ziDN8HXvviE6pbA7GTGUdb9FBr43eH5aBPC14Q=",
+        "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/anhao/acme-client)",
+        "translatedContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/anhao/acme-client)"
+      },
+      {
+        "row": 39,
+        "rowsha": "hSgwb0EmbXNPpYSg+r06UG2DKZSpmzC77R6q4W7dWa4=",
+        "originContent": "[![PHP Version](https://img.shields.io/badge/PHP-%3E%3D8.2-blue.svg)](https://www.php.net/)",
+        "translatedContent": "[![PHP Version](https://img.shields.io/badge/PHP-%3E%3D8.2-blue.svg)](https://www.php.net/)"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "> **Language / 语言**: [English](https://raw.githubusercontent.com/anhao/acme-client/main/README.md) | [中文](https://raw.githubusercontent.com/anhao/acme-client/main/README_ZH.md)\n\n## Features\n\n- **ACME v2 Protocol Support**: Full compatibility with ACME v2 specification\n- **Multiple CA Support**: Works with Let's Encrypt, ZeroSSL, and other ACME providers\n- **Account Management**: Create, store, and manage ACME accounts\n- **Certificate Operations**: Request, renew, and revoke SSL certificates\n- **Domain Validation**: Support for HTTP-01 and DNS-01 challenges\n- **ARI Support**: Automatic Renewal Information for optimal renewal timing\n- **Flexible Key Types**: Support for RSA and ECC keys\n- **Comprehensive Logging**: Built-in PSR-3 compatible logging\n- **Easy Integration**: Simple and intuitive API design\n\n## Requirements\n\n- PHP 8.2 or higher\n- OpenSSL extension\n- cURL extension\n- JSON extension\n- mbstring extension\n\n## Installation\n\nInstall via Composer:\n",
+    "ContentSha": "/iQ0KBDvvcHFjhm3uhbyzEcyCPucS1XKivCUjj8yYUg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> **Language / 语言**: [English](https://raw.githubusercontent.com/anhao/acme-client/main/README.md) | [中文](https://raw.githubusercontent.com/anhao/acme-client/main/README_ZH.md)\n\n## 기능\n\n- **ACME v2 프로토콜 지원**: ACME v2 사양과 완벽하게 호환\n- **다중 CA 지원**: Let's Encrypt, ZeroSSL 및 기타 ACME 공급자와 연동\n- **계정 관리**: ACME 계정 생성, 저장 및 관리\n- **인증서 작업**: SSL 인증서 요청, 갱신, 폐기\n- **도메인 검증**: HTTP-01 및 DNS-01 챌린지 지원\n- **ARI 지원**: 최적의 갱신 타이밍을 위한 자동 갱신 정보 제공\n- **유연한 키 타입**: RSA 및 ECC 키 지원\n- **포괄적 로깅**: 내장 PSR-3 호환 로깅 기능\n- **쉬운 통합**: 간단하고 직관적인 API 설계\n\n## 요구 사항\n\n- PHP 8.2 이상\n- OpenSSL 확장\n- cURL 확장\n- JSON 확장\n- mbstring 확장\n\n## 설치\n\nComposer를 통해 설치:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Awk+pD0xHT6xGn6Z1PyP7i3xWB/Eqvi1XnSeTPIA69M=",
+        "originContent": "> **Language / 语言**: [English](https://raw.githubusercontent.com/anhao/acme-client/main/README.md) | [中文](https://raw.githubusercontent.com/anhao/acme-client/main/README_ZH.md)",
+        "translatedContent": "> **Language / 语言**: [English](https://raw.githubusercontent.com/anhao/acme-client/main/README.md) | [中文](https://raw.githubusercontent.com/anhao/acme-client/main/README_ZH.md)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "FlqrKd7CA2c24eFjnZ6hwVVCybysQUl5i40VyjVcMog=",
+        "originContent": "- **ACME v2 Protocol Support**: Full compatibility with ACME v2 specification",
+        "translatedContent": "- **ACME v2 프로토콜 지원**: ACME v2 사양과 완벽하게 호환"
+      },
+      {
+        "row": 6,
+        "rowsha": "/QeXXNnZjNLz/VK+4CPasL3iD2W2l4Dfwj1xlndYTEc=",
+        "originContent": "- **Multiple CA Support**: Works with Let's Encrypt, ZeroSSL, and other ACME providers",
+        "translatedContent": "- **다중 CA 지원**: Let's Encrypt, ZeroSSL 및 기타 ACME 공급자와 연동"
+      },
+      {
+        "row": 7,
+        "rowsha": "YObLUG7SPC+CRYib6a1i2gJVTsWYTUvh5lJOgjySw+U=",
+        "originContent": "- **Account Management**: Create, store, and manage ACME accounts",
+        "translatedContent": "- **계정 관리**: ACME 계정 생성, 저장 및 관리"
+      },
+      {
+        "row": 8,
+        "rowsha": "xrVC5ZlOm0tJ6qfjoJXM/+H7KtAubUadAagAJlLZELU=",
+        "originContent": "- **Certificate Operations**: Request, renew, and revoke SSL certificates",
+        "translatedContent": "- **인증서 작업**: SSL 인증서 요청, 갱신, 폐기"
+      },
+      {
+        "row": 9,
+        "rowsha": "T0dalypm5LMLLU1w4uuzGEqymF1wha/bE0NCvvNER8k=",
+        "originContent": "- **Domain Validation**: Support for HTTP-01 and DNS-01 challenges",
+        "translatedContent": "- **도메인 검증**: HTTP-01 및 DNS-01 챌린지 지원"
+      },
+      {
+        "row": 10,
+        "rowsha": "Tgq5kB6u8xhZbvYN6OK197TO1i1jsvX1OHuH22xOImc=",
+        "originContent": "- **ARI Support**: Automatic Renewal Information for optimal renewal timing",
+        "translatedContent": "- **ARI 지원**: 최적의 갱신 타이밍을 위한 자동 갱신 정보 제공"
+      },
+      {
+        "row": 11,
+        "rowsha": "DdOOyVlbzpsQcL/35HgWQmEnvTMTT+GHgNnq+SZUctg=",
+        "originContent": "- **Flexible Key Types**: Support for RSA and ECC keys",
+        "translatedContent": "- **유연한 키 타입**: RSA 및 ECC 키 지원"
+      },
+      {
+        "row": 12,
+        "rowsha": "mt9s7DTYGETWYXzaEQ6T9z1CdOhnLxkPzDUImBo7tjg=",
+        "originContent": "- **Comprehensive Logging**: Built-in PSR-3 compatible logging",
+        "translatedContent": "- **포괄적 로깅**: 내장 PSR-3 호환 로깅 기능"
+      },
+      {
+        "row": 13,
+        "rowsha": "TS0NxHnu2Z1dOG9/ChRzNl6EjYICh17UOp1qH9JJ34Q=",
+        "originContent": "- **Easy Integration**: Simple and intuitive API design",
+        "translatedContent": "- **쉬운 통합**: 간단하고 직관적인 API 설계"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## 요구 사항"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "q3nALKT3l+3orRiJG8SRBBpJ7gUSTQIGbqmbUAuccA4=",
+        "originContent": "- PHP 8.2 or higher",
+        "translatedContent": "- PHP 8.2 이상"
+      },
+      {
+        "row": 18,
+        "rowsha": "4K7Z7PbVf2avuaoqr9+1Nfz79FurgzyELSQVrW4rLyY=",
+        "originContent": "- OpenSSL extension",
+        "translatedContent": "- OpenSSL 확장"
+      },
+      {
+        "row": 19,
+        "rowsha": "EI4kiwMLTmffsu3nIGMdB8XiasHUZBbBU6km5+4hu/w=",
+        "originContent": "- cURL extension",
+        "translatedContent": "- cURL 확장"
+      },
+      {
+        "row": 20,
+        "rowsha": "DhdHy4werbohW2Deuo1JjcI8F1JSQbdrBj1aZtJFaQo=",
+        "originContent": "- JSON extension",
+        "translatedContent": "- JSON 확장"
+      },
+      {
+        "row": 21,
+        "rowsha": "lsGQCTNpL3+CgmPgDAlx7STXzWVUcDW4P6AHCEEAOuE=",
+        "originContent": "- mbstring extension",
+        "translatedContent": "- mbstring 확장"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "3bumKUyLIlzyOvpV1uvzHWJOraCTmZg4WtCHYCDJJ/k=",
+        "originContent": "Install via Composer:",
+        "translatedContent": "Composer를 통해 설치:"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\ncomposer require alapi/acme-client\n```",
+    "ContentSha": "3cDRPteMVZ+z5zcAnG4U0RTXNjiyW2stBHokkKul/B0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncomposer require alapi/acme-client\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## Quick Start\n\n### 1. Create Local Account Keys\n\nYou have two ways to create and manage ACME account keys:\n\n**Option A: Using existing keys with Account class**\n",
+    "ContentSha": "HT8Nw0DLjtJomuesDNL+mrJHV/kzg6kHqYYo5Oh+cog=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 빠른 시작\n\n### 1. 로컬 계정 키 생성\n\nACME 계정 키를 생성하고 관리하는 두 가지 방법이 있습니다:\n\n**옵션 A: Account 클래스로 기존 키 사용하기**\n\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```php\n<?php\nrequire_once 'vendor/autoload.php';\n\nuse ALAPI\\Acme\\Accounts\\Account;\n\n// Create account from existing private key string\n$privateKeyPem = '-----BEGIN PRIVATE KEY-----...-----END PRIVATE KEY-----';\n$account = new Account($privateKeyPem);\n\n// Or create account with both private and public keys\n$publicKeyPem = '-----BEGIN PUBLIC KEY-----...-----END PUBLIC KEY-----';\n$account = new Account($privateKeyPem, $publicKeyPem);\n\n// Or create account from private key only (public key will be extracted)\n$account = Account::fromPrivateKey($privateKeyPem);\n```",
+    "ContentSha": "aHCTSEbebvzTMhGuHbMcs7EL/wxibEWXdHYnNHCMKtE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n<?php\nrequire_once 'vendor/autoload.php';\n\nuse ALAPI\\Acme\\Accounts\\Account;\n\n// Create account from existing private key string\n$privateKeyPem = '-----BEGIN PRIVATE KEY-----...-----END PRIVATE KEY-----';\n$account = new Account($privateKeyPem);\n\n// Or create account with both private and public keys\n$publicKeyPem = '-----BEGIN PUBLIC KEY-----...-----END PUBLIC KEY-----';\n$account = new Account($privateKeyPem, $publicKeyPem);\n\n// Or create account from private key only (public key will be extracted)\n$account = Account::fromPrivateKey($privateKeyPem);\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n**Option B: Using AccountStorage for file-based key management**\n",
+    "ContentSha": "30lwvF9pYqVqFFlMIxF7YbN8hSdiZpMZW+7/9iAzACs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**옵션 B: 파일 기반 키 관리를 위한 AccountStorage 사용**\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```php\n<?php\nrequire_once 'vendor/autoload.php';\n\nuse ALAPI\\Acme\\Utils\\AccountStorage;\n\n// Create new ECC account and save to files (recommended)\n$account = AccountStorage::createAndSave(\n    directory: 'storage',\n    name: 'my-account',\n    keyType: 'ECC',\n    keySize: 'P-384'\n);\n\n// Or create RSA account and save to files\n$rsaAccount = AccountStorage::createAndSave(\n    directory: 'storage', \n    name: 'my-rsa-account',\n    keyType: 'RSA',\n    keySize: 4096\n);\n\necho \"Account keys created and saved successfully!\\n\";\n```",
+    "ContentSha": "rrx7LEEZAz/S6NwngR5BM8FxSwskHvWMJVZypn2UMcE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n<?php\nrequire_once 'vendor/autoload.php';\n\nuse ALAPI\\Acme\\Utils\\AccountStorage;\n\n// Create new ECC account and save to files (recommended)\n$account = AccountStorage::createAndSave(\n    directory: 'storage',\n    name: 'my-account',\n    keyType: 'ECC',\n    keySize: 'P-384'\n);\n\n// Or create RSA account and save to files\n$rsaAccount = AccountStorage::createAndSave(\n    directory: 'storage', \n    name: 'my-rsa-account',\n    keyType: 'RSA',\n    keySize: 4096\n);\n\necho \"Account keys created and saved successfully!\\n\";\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n### 2. Initialize ACME Client\n",
+    "ContentSha": "6mcYfBXdfLZ+Zdk0ZqDKDd5VQYqlmYkG25o9uCwq2i0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 2. ACME 클라이언트 초기화\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```php\n<?php\nrequire_once 'vendor/autoload.php';\n\nuse ALAPI\\Acme\\AcmeClient;\nuse ALAPI\\Acme\\Accounts\\Account;\nuse ALAPI\\Acme\\Utils\\AccountStorage;\nuse ALAPI\\Acme\\Http\\Clients\\ClientFactory;\n\n// Option A: Load account from files\n$account = AccountStorage::loadFromFiles('storage', 'my-account');\n\n// Option B: Create account from existing keys\n$privateKey = '-----BEGIN PRIVATE KEY-----...-----END PRIVATE KEY-----';\n$account = new Account($privateKey);\n\n// Create HTTP client with optional proxy\n$httpClient = ClientFactory::create(timeout: 30, options: [\n    // 'proxy' => 'http://proxy.example.com:8080'\n]);\n\n// Initialize client for Let's Encrypt production\n$acmeClient = new AcmeClient(\n    staging: false, // Set to true for testing\n    localAccount: $account,\n    httpClient: $httpClient\n);\n\n// Or use ZeroSSL\n$zeroSslClient = new AcmeClient(\n    localAccount: $account,\n    httpClient: $httpClient,\n    baseUrl: 'https://acme.zerossl.com/v2/DV90/directory'\n);\n```",
+    "ContentSha": "CMW4FEM87OU7xeSUntDkpmBw+oHaQGLQUzRx4TPcI1g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n<?php\nrequire_once 'vendor/autoload.php';\n\nuse ALAPI\\Acme\\AcmeClient;\nuse ALAPI\\Acme\\Accounts\\Account;\nuse ALAPI\\Acme\\Utils\\AccountStorage;\nuse ALAPI\\Acme\\Http\\Clients\\ClientFactory;\n\n// Option A: Load account from files\n$account = AccountStorage::loadFromFiles('storage', 'my-account');\n\n// Option B: Create account from existing keys\n$privateKey = '-----BEGIN PRIVATE KEY-----...-----END PRIVATE KEY-----';\n$account = new Account($privateKey);\n\n// Create HTTP client with optional proxy\n$httpClient = ClientFactory::create(timeout: 30, options: [\n    // 'proxy' => 'http://proxy.example.com:8080'\n]);\n\n// Initialize client for Let's Encrypt production\n$acmeClient = new AcmeClient(\n    staging: false, // Set to true for testing\n    localAccount: $account,\n    httpClient: $httpClient\n);\n\n// Or use ZeroSSL\n$zeroSslClient = new AcmeClient(\n    localAccount: $account,\n    httpClient: $httpClient,\n    baseUrl: 'https://acme.zerossl.com/v2/DV90/directory'\n);\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n### 3. Register ACME Account\n\nFor Let's Encrypt (no EAB required):\n",
+    "ContentSha": "EJQoTHcVaxNEv4p5JBBriWhMnpQ9b892sggnzaVnO68=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 3. ACME 계정 등록\n\nLet's Encrypt용 (EAB 필요 없음):\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```php\ntry {\n    // Register account with Let's Encrypt\n    $accountData = $acmeClient->account()->create(\n        contacts: ['mailto:admin@example.com']\n    );\n    \n    echo \"Account registered successfully!\\n\";\n    echo \"Account URL: \" . $accountData->url . \"\\n\";\n} catch (Exception $e) {\n    echo \"Registration failed: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "ContentSha": "D4kvKEfw39tQCVUkiqMcAympDE6ieikl4gfCo7sB/p4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\ntry {\n    // Register account with Let's Encrypt\n    $accountData = $acmeClient->account()->create(\n        contacts: ['mailto:admin@example.com']\n    );\n    \n    echo \"Account registered successfully!\\n\";\n    echo \"Account URL: \" . $accountData->url . \"\\n\";\n} catch (Exception $e) {\n    echo \"Registration failed: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nFor ZeroSSL (EAB required):\n",
+    "ContentSha": "ZLQLXeHoT4Fc/XSGteHNRdcnfuZDFRxI7TuBcaiPwLA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nZeroSSL의 경우 (EAB 필요):\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```php\ntry {\n    // Get EAB credentials from ZeroSSL dashboard\n    $eabKid = 'your-eab-kid';\n    $eabHmacKey = 'your-eab-hmac-key';\n    \n    $accountData = $zeroSslClient->account()->create(\n        eabKid: $eabKid,\n        eabHmacKey: $eabHmacKey,\n        contacts: ['mailto:admin@example.com']\n    );\n    \n    echo \"ZeroSSL account registered successfully!\\n\";\n} catch (Exception $e) {\n    echo \"Registration failed: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "ContentSha": "W91ZAeG0UHOWCnUA25gC+mDWGY4T5mC1WKSnjkwCCXM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\ntry {\n    // Get EAB credentials from ZeroSSL dashboard\n    $eabKid = 'your-eab-kid';\n    $eabHmacKey = 'your-eab-hmac-key';\n    \n    $accountData = $zeroSslClient->account()->create(\n        eabKid: $eabKid,\n        eabHmacKey: $eabHmacKey,\n        contacts: ['mailto:admin@example.com']\n    );\n    \n    echo \"ZeroSSL account registered successfully!\\n\";\n} catch (Exception $e) {\n    echo \"Registration failed: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n### 4. Request Certificate\n",
+    "ContentSha": "y9lUvS9XSKYaG3r9eq99/1a1Oil5WUetfzApwv0xqPU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 4. 인증서 요청\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```php\n<?php\nuse ALAPI\\Acme\\Enums\\AuthorizationChallengeEnum;\n\ntry {\n    // Get account data\n    $accountData = $acmeClient->account()->get();\n    \n    // Create new order for domains\n    $domains = ['example.com', 'www.example.com'];\n    $order = $acmeClient->order()->new($accountData, $domains);\n    \n    echo \"Order created: \" . $order->url . \"\\n\";\n    echo \"Status: \" . $order->status . \"\\n\";\n    \n    // Check domain validations\n    $validations = $acmeClient->domainValidation()->status($order);\n    \n    foreach ($validations as $validation) {\n        $domain = $validation->identifier['value'];\n        echo \"Domain: $domain - Status: \" . $validation->status . \"\\n\";\n        \n        if ($validation->isPending()) {\n            // Get validation data for HTTP-01 challenge\n            $challenges = $acmeClient->domainValidation()->getValidationData(\n                [$validation], \n                AuthorizationChallengeEnum::HTTP\n            );\n            \n            foreach ($challenges as $challenge) {\n                echo \"HTTP Challenge for $domain:\\n\";\n                echo \"  File: \" . $challenge['filename'] . \"\\n\";\n                echo \"  Content: \" . $challenge['content'] . \"\\n\";\n                echo \"  Place it at: http://$domain/.well-known/acme-challenge/\" . $challenge['filename'] . \"\\n\\n\";\n            }\n        }\n    }\n} catch (Exception $e) {\n    echo \"Error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "ContentSha": "BWbL+QG69rRYbPIwfJiX0Hd6a9LtWhQcpBqu6Kiowjw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n<?php\nuse ALAPI\\Acme\\Enums\\AuthorizationChallengeEnum;\n\ntry {\n    // Get account data\n    $accountData = $acmeClient->account()->get();\n    \n    // Create new order for domains\n    $domains = ['example.com', 'www.example.com'];\n    $order = $acmeClient->order()->new($accountData, $domains);\n    \n    echo \"Order created: \" . $order->url . \"\\n\";\n    echo \"Status: \" . $order->status . \"\\n\";\n    \n    // Check domain validations\n    $validations = $acmeClient->domainValidation()->status($order);\n    \n    foreach ($validations as $validation) {\n        $domain = $validation->identifier['value'];\n        echo \"Domain: $domain - Status: \" . $validation->status . \"\\n\";\n        \n        if ($validation->isPending()) {\n            // Get validation data for HTTP-01 challenge\n            $challenges = $acmeClient->domainValidation()->getValidationData(\n                [$validation], \n                AuthorizationChallengeEnum::HTTP\n            );\n            \n            foreach ($challenges as $challenge) {\n                echo \"HTTP Challenge for $domain:\\n\";\n                echo \"  File: \" . $challenge['filename'] . \"\\n\";\n                echo \"  Content: \" . $challenge['content'] . \"\\n\";\n                echo \"  Place it at: http://$domain/.well-known/acme-challenge/\" . $challenge['filename'] . \"\\n\\n\";\n            }\n        }\n    }\n} catch (Exception $e) {\n    echo \"Error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n### 5. Complete Domain Validation\n\nAfter placing the challenge files on your web server:\n",
+    "ContentSha": "n9MqJOVbbEX2dmtGaNOek0Tto1fns89aDftAhI0m0bo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 5. 도메인 검증 완료\n\n도전 과제 파일을 웹 서버에 배치한 후:\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```php\ntry {\n    // Trigger validation for each domain\n    foreach ($validations as $validation) {\n        if ($validation->isPending()) {\n            $response = $acmeClient->domainValidation()->validate(\n                $accountData,\n                $validation,\n                AuthorizationChallengeEnum::HTTP,\n                localTest: true // Performs local validation first\n            );\n            \n            echo \"Validation triggered for: \" . $validation->identifier['value'] . \"\\n\";\n        }\n    }\n    \n    // Wait for validation to complete\n    $maxAttempts = 10;\n    $attempt = 0;\n    \n    do {\n        sleep(5);\n        $attempt++;\n        \n        // Check order status\n        $currentOrder = $acmeClient->order()->get($accountData, $order->url);\n        echo \"Order status: \" . $currentOrder->status . \"\\n\";\n        \n        if ($currentOrder->status === 'ready') {\n            echo \"All validations completed successfully!\\n\";\n            break;\n        }\n        \n        if ($currentOrder->status === 'invalid') {\n            echo \"Order validation failed!\\n\";\n            break;\n        }\n        \n    } while ($attempt < $maxAttempts);\n    \n} catch (Exception $e) {\n    echo \"Validation error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "ContentSha": "a26k2HI0yC3e/Wt3vwKGYkTmmN2MegOMVXEMEj5GjZg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\ntry {\n    // Trigger validation for each domain\n    foreach ($validations as $validation) {\n        if ($validation->isPending()) {\n            $response = $acmeClient->domainValidation()->validate(\n                $accountData,\n                $validation,\n                AuthorizationChallengeEnum::HTTP,\n                localTest: true // Performs local validation first\n            );\n            \n            echo \"Validation triggered for: \" . $validation->identifier['value'] . \"\\n\";\n        }\n    }\n    \n    // Wait for validation to complete\n    $maxAttempts = 10;\n    $attempt = 0;\n    \n    do {\n        sleep(5);\n        $attempt++;\n        \n        // Check order status\n        $currentOrder = $acmeClient->order()->get($accountData, $order->url);\n        echo \"Order status: \" . $currentOrder->status . \"\\n\";\n        \n        if ($currentOrder->status === 'ready') {\n            echo \"All validations completed successfully!\\n\";\n            break;\n        }\n        \n        if ($currentOrder->status === 'invalid') {\n            echo \"Order validation failed!\\n\";\n            break;\n        }\n        \n    } while ($attempt < $maxAttempts);\n    \n} catch (Exception $e) {\n    echo \"Validation error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n### 6. Generate and Submit CSR\n",
+    "ContentSha": "rzh4h2dCTmn+pl7ZzwoDAtYZo9Qb75ExwDiLfWto4O0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 6. CSR 생성 및 제출\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```php\nuse ALAPI\\Acme\\Security\\Cryptography\\OpenSsl;\n\ntry {\n    if ($currentOrder->status === 'ready') {\n        // Generate Certificate private key\n        $certificatePrivateKey = OpenSsl::generatePrivateKey('RSA', 2048);\n        \n        // Generate Certificate Signing Request (CSR) using OpenSsl helper\n        $csrString = OpenSsl::generateCsr($domains, $certificatePrivateKey);\n        \n        // Export private key for saving\n        $privateKeyString = OpenSsl::openSslKeyToString($certificatePrivateKey);\n        \n        // Submit CSR to finalize order\n        $finalizedOrder = $acmeClient->order()->finalize(\n            $accountData,\n            $currentOrder,\n            $csrString\n        );\n        \n        echo \"Order finalized successfully!\\n\";\n        echo \"Certificate URL: \" . $finalizedOrder->certificateUrl . \"\\n\";\n        \n        // Download certificate bundle\n        $certificateBundle = $acmeClient->certificate()->get(\n            $accountData,\n            $finalizedOrder->certificateUrl\n        );\n        \n        // Save certificate and private key\n        file_put_contents('certificate.pem', $certificateBundle->certificate);\n        file_put_contents('fullchain.pem', $certificateBundle->fullchain);\n        file_put_contents('private-key.pem', $privateKeyString);\n        \n        echo \"Certificate saved to certificate.pem\\n\";\n        echo \"Fullchain certificate saved to fullchain.pem\\n\";\n        echo \"Private key saved to private-key.pem\\n\";\n    }\n    \n} catch (Exception $e) {\n    echo \"Certificate generation error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "ContentSha": "+R9jqo6NF2ntgpqTAQj0Nmz+oI6cvmDha3pLakC5YZI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nuse ALAPI\\Acme\\Security\\Cryptography\\OpenSsl;\n\ntry {\n    if ($currentOrder->status === 'ready') {\n        // Generate Certificate private key\n        $certificatePrivateKey = OpenSsl::generatePrivateKey('RSA', 2048);\n        \n        // Generate Certificate Signing Request (CSR) using OpenSsl helper\n        $csrString = OpenSsl::generateCsr($domains, $certificatePrivateKey);\n        \n        // Export private key for saving\n        $privateKeyString = OpenSsl::openSslKeyToString($certificatePrivateKey);\n        \n        // Submit CSR to finalize order\n        $finalizedOrder = $acmeClient->order()->finalize(\n            $accountData,\n            $currentOrder,\n            $csrString\n        );\n        \n        echo \"Order finalized successfully!\\n\";\n        echo \"Certificate URL: \" . $finalizedOrder->certificateUrl . \"\\n\";\n        \n        // Download certificate bundle\n        $certificateBundle = $acmeClient->certificate()->get(\n            $accountData,\n            $finalizedOrder->certificateUrl\n        );\n        \n        // Save certificate and private key\n        file_put_contents('certificate.pem', $certificateBundle->certificate);\n        file_put_contents('fullchain.pem', $certificateBundle->fullchain);\n        file_put_contents('private-key.pem', $privateKeyString);\n        \n        echo \"Certificate saved to certificate.pem\\n\";\n        echo \"Fullchain certificate saved to fullchain.pem\\n\";\n        echo \"Private key saved to private-key.pem\\n\";\n    }\n    \n} catch (Exception $e) {\n    echo \"Certificate generation error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\n## Advanced Usage\n\n### DNS-01 Challenge\n\nFor wildcard certificates or when HTTP validation isn't possible:\n",
+    "ContentSha": "aRoTRZIfuZe0JLdklOOQLwT9MbVVuH7UCda7EoqeHDM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 고급 사용법\n\n### DNS-01 챌린지\n\n와일드카드 인증서 또는 HTTP 검증이 불가능할 때:\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "```php\n// Get DNS challenge data\n$dnsChallenge = $acmeClient->domainValidation()->getValidationData(\n    [$validation],\n    AuthorizationChallengeEnum::DNS\n);\n\nforeach ($dnsChallenge as $challenge) {\n    echo \"DNS Challenge for \" . $challenge['domain'] . \":\\n\";\n    echo \"  Record Name: \" . $challenge['domain'] . \"\\n\";\n    echo \"  Record Type: TXT\\n\";\n    echo \"  Record Value: \" . $challenge['digest'] . \"\\n\\n\";\n}\n\n// After adding DNS records, trigger validation\n$response = $acmeClient->domainValidation()->validate(\n    $accountData,\n    $validation,\n    AuthorizationChallengeEnum::DNS,\n    localTest: true\n);\n```",
+    "ContentSha": "G03IdtLLHWwFN1X2Ie2Kd6ezjS83lBlcyfBJXNBuq+I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n// Get DNS challenge data\n$dnsChallenge = $acmeClient->domainValidation()->getValidationData(\n    [$validation],\n    AuthorizationChallengeEnum::DNS\n);\n\nforeach ($dnsChallenge as $challenge) {\n    echo \"DNS Challenge for \" . $challenge['domain'] . \":\\n\";\n    echo \"  Record Name: \" . $challenge['domain'] . \"\\n\";\n    echo \"  Record Type: TXT\\n\";\n    echo \"  Record Value: \" . $challenge['digest'] . \"\\n\\n\";\n}\n\n// After adding DNS records, trigger validation\n$response = $acmeClient->domainValidation()->validate(\n    $accountData,\n    $validation,\n    AuthorizationChallengeEnum::DNS,\n    localTest: true\n);\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "\n### Certificate Renewal with ARI\n",
+    "ContentSha": "Wnd3OMetu1GdXKNrS+IM4Qs0wQ4kqvdVR4lfghme8+k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### ARI를 통한 인증서 갱신\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "```php\nuse ALAPI\\Acme\\Management\\RenewalManager;\n\n// Load existing certificate\n$certificatePem = file_get_contents('certificate.pem');\n\n// Create renewal manager\n$renewalManager = $acmeClient->renewalManager(defaultRenewalDays: 30);\n\n// Check if renewal is needed\nif ($renewalManager->shouldRenew($certificatePem)) {\n    echo \"Certificate needs renewal\\n\";\n    \n    // Get ARI information if supported\n    if ($acmeClient->directory()->supportsARI()) {\n        $renewalInfo = $acmeClient->renewalInfo()->getFromCertificate($certificatePem);\n        \n        echo \"Suggested renewal window:\\n\";\n        echo \"  Start: \" . $renewalInfo->suggestedWindow['start'] . \"\\n\";\n        echo \"  End: \" . $renewalInfo->suggestedWindow['end'] . \"\\n\";\n        \n        if ($renewalInfo->shouldRenewNow()) {\n            echo \"ARI recommends renewing now\\n\";\n            // Proceed with renewal...\n        }\n    }\n} else {\n    echo \"Certificate renewal not needed yet\\n\";\n}\n```",
+    "ContentSha": "Dzf7S+ImtZVkTqVffJdpdBBok8s3YZSKgdIjfutbWXo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nuse ALAPI\\Acme\\Management\\RenewalManager;\n\n// Load existing certificate\n$certificatePem = file_get_contents('certificate.pem');\n\n// Create renewal manager\n$renewalManager = $acmeClient->renewalManager(defaultRenewalDays: 30);\n\n// Check if renewal is needed\nif ($renewalManager->shouldRenew($certificatePem)) {\n    echo \"Certificate needs renewal\\n\";\n    \n    // Get ARI information if supported\n    if ($acmeClient->directory()->supportsARI()) {\n        $renewalInfo = $acmeClient->renewalInfo()->getFromCertificate($certificatePem);\n        \n        echo \"Suggested renewal window:\\n\";\n        echo \"  Start: \" . $renewalInfo->suggestedWindow['start'] . \"\\n\";\n        echo \"  End: \" . $renewalInfo->suggestedWindow['end'] . \"\\n\";\n        \n        if ($renewalInfo->shouldRenewNow()) {\n            echo \"ARI recommends renewing now\\n\";\n            // Proceed with renewal...\n        }\n    }\n} else {\n    echo \"Certificate renewal not needed yet\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 24,
+    "Content": "\n### Certificate Revocation\n",
+    "ContentSha": "N+OIjSG53AOkyEC046/5Ok466ltIZZkcoQp8rQZPEy4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 인증서 폐기\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 25,
+    "Content": "```php\ntry {\n    // Load certificate to revoke\n    $certificatePem = file_get_contents('certificate.pem');\n    \n    // Revoke certificate\n    $success = $acmeClient->certificate()->revoke(\n        $certificatePem,\n        reason: 1 // 0=unspecified, 1=keyCompromise, 2=cACompromise, 3=affiliationChanged, 4=superseded, 5=cessationOfOperation\n    );\n    \n    if ($success) {\n        echo \"Certificate revoked successfully\\n\";\n    } else {\n        echo \"Certificate revocation failed\\n\";\n    }\n    \n} catch (Exception $e) {\n    echo \"Revocation error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "ContentSha": "1jFfaiMYU/hZNMZ2dDTTCq2ylQ0EWMqQICfR05Gkg+U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\ntry {\n    // Load certificate to revoke\n    $certificatePem = file_get_contents('certificate.pem');\n    \n    // Revoke certificate\n    $success = $acmeClient->certificate()->revoke(\n        $certificatePem,\n        reason: 1 // 0=unspecified, 1=keyCompromise, 2=cACompromise, 3=affiliationChanged, 4=superseded, 5=cessationOfOperation\n    );\n    \n    if ($success) {\n        echo \"Certificate revoked successfully\\n\";\n    } else {\n        echo \"Certificate revocation failed\\n\";\n    }\n    \n} catch (Exception $e) {\n    echo \"Revocation error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 26,
+    "Content": "\n### Multiple Certificate Authorities\n",
+    "ContentSha": "Pu8ASbnvrQFXr9Ra6rzOAFR/jgPGLlvFWaeNAkk0j5g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 다중 인증 기관\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 27,
+    "Content": "```php\n// Let's Encrypt\n$letsEncrypt = new AcmeClient(\n    staging: false,\n    localAccount: $account,\n    httpClient: $httpClient\n);\n\n// ZeroSSL\n$zeroSSL = new AcmeClient(\n    localAccount: $account,\n    httpClient: $httpClient,\n    baseUrl: 'https://acme.zerossl.com/v2/DV90/directory'\n);\n\n// Google Trust Services\n$googleCA = new AcmeClient(\n    localAccount: $account,\n    httpClient: $httpClient,\n    baseUrl: 'https://dv.acme-v02.api.pki.goog/directory'\n);\n```",
+    "ContentSha": "u19Zp1exhqzx+UTyJ4tItu7Rj9xr7rcH9MGBNgKxevA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n// Let's Encrypt\n$letsEncrypt = new AcmeClient(\n    staging: false,\n    localAccount: $account,\n    httpClient: $httpClient\n);\n\n// ZeroSSL\n$zeroSSL = new AcmeClient(\n    localAccount: $account,\n    httpClient: $httpClient,\n    baseUrl: 'https://acme.zerossl.com/v2/DV90/directory'\n);\n\n// Google Trust Services\n$googleCA = new AcmeClient(\n    localAccount: $account,\n    httpClient: $httpClient,\n    baseUrl: 'https://dv.acme-v02.api.pki.goog/directory'\n);\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 28,
+    "Content": "\n### Custom HTTP Client Configuration\n",
+    "ContentSha": "4EAiSGfF0wvPYge7V0SgVONVe0v6NwFEimXzkiHTa/I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 사용자 정의 HTTP 클라이언트 구성\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 29,
+    "Content": "```php\nuse ALAPI\\Acme\\Http\\Clients\\ClientFactory;\n\n$httpClient = ClientFactory::create(30, [\n    'proxy' => 'http://proxy.example.com:8080',\n    'verify' => true, // SSL verification\n    'timeout' => 30,\n    'connect_timeout' => 10,\n    'headers' => [\n        'User-Agent' => 'MyApp ACME Client 1.0'\n    ]\n]);\n```",
+    "ContentSha": "3XJEPRDqXHNm8EY2bc0tDgIJdzX7Dx3S0JFtYS9HOJk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nuse ALAPI\\Acme\\Http\\Clients\\ClientFactory;\n\n$httpClient = ClientFactory::create(30, [\n    'proxy' => 'http://proxy.example.com:8080',\n    'verify' => true, // SSL verification\n    'timeout' => 30,\n    'connect_timeout' => 10,\n    'headers' => [\n        'User-Agent' => 'MyApp ACME Client 1.0'\n    ]\n]);\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 30,
+    "Content": "\n### Logging\n",
+    "ContentSha": "jOw3QCKsZA3E6LgJiwPi1D7aPu1fv4UiYpCvUezxYzI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 로깅\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 31,
+    "Content": "```php\nuse Monolog\\Logger;\nuse Monolog\\Handler\\StreamHandler;\n\n// Create logger\n$logger = new Logger('acme');\n$logger->pushHandler(new StreamHandler('acme.log', Logger::INFO));\n\n// Set logger on client\n$acmeClient->setLogger($logger);\n```",
+    "ContentSha": "qYsc1VlKCDlSXwXem94cCu4q5HgBJkwqhiJXI4cE0JY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nuse Monolog\\Logger;\nuse Monolog\\Handler\\StreamHandler;\n\n// Create logger\n$logger = new Logger('acme');\n$logger->pushHandler(new StreamHandler('acme.log', Logger::INFO));\n\n// Set logger on client\n$acmeClient->setLogger($logger);\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 32,
+    "Content": "\n## Configuration\n\n### Account Management Options\n\n**Using AccountStorage for file-based management:**\n",
+    "ContentSha": "cIq+cVXl5k3m4lu/Na2hvtvUoc0IMwEMdYGUkjlUjnk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 구성\n\n### 계정 관리 옵션\n\n**파일 기반 관리를 위한 AccountStorage 사용:**\n\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 33,
+    "Content": "```php\nuse ALAPI\\Acme\\Utils\\AccountStorage;\n\n// Check if account files exist\nif (AccountStorage::exists('storage', 'my-account')) {\n    $account = AccountStorage::loadFromFiles('storage', 'my-account');\n} else {\n    $account = AccountStorage::createAndSave('storage', 'my-account');\n}\n\n// Load or create account automatically\n$account = AccountStorage::loadOrCreate(\n    directory: 'storage',\n    name: 'my-account',\n    keyType: 'ECC',\n    keySize: 'P-384'\n);\n```",
+    "ContentSha": "f42kC2RFRZ5rfIRFdNBJO91A2Xeb8kt5FLQicSHs/xU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nuse ALAPI\\Acme\\Utils\\AccountStorage;\n\n// Check if account files exist\nif (AccountStorage::exists('storage', 'my-account')) {\n    $account = AccountStorage::loadFromFiles('storage', 'my-account');\n} else {\n    $account = AccountStorage::createAndSave('storage', 'my-account');\n}\n\n// Load or create account automatically\n$account = AccountStorage::loadOrCreate(\n    directory: 'storage',\n    name: 'my-account',\n    keyType: 'ECC',\n    keySize: 'P-384'\n);\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 34,
+    "Content": "\n**Using Account class for existing keys:**\n",
+    "ContentSha": "KpTyVI8mHgo1yA+WFNM99GxlciMrpBFtDXVNYNGRnq0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**기존 키에 대해 Account 클래스 사용:**\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 35,
+    "Content": "```php\nuse ALAPI\\Acme\\Accounts\\Account;\n\n// From existing private key\n$privateKey = file_get_contents('/path/to/private.key');\n$account = new Account($privateKey);\n\n// With both private and public keys\n$privateKey = file_get_contents('/path/to/private.key');\n$publicKey = file_get_contents('/path/to/public.key');\n$account = new Account($privateKey, $publicKey);\n\n// Create new account with specific key type\n$account = Account::createECC('P-384');  // or 'P-256', 'P-384'\n$account = Account::createRSA(4096);     // or 2048, 3072\n\n// Get account information\necho \"Key Type: \" . $account->getKeyType() . \"\\n\";\necho \"Key Size: \" . $account->getKeySize() . \"\\n\";\n```",
+    "ContentSha": "MagKMhzg23rWyw6rUwEF3Zfu7Nla5hKUOA5j6SWuM54=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nuse ALAPI\\Acme\\Accounts\\Account;\n\n// From existing private key\n$privateKey = file_get_contents('/path/to/private.key');\n$account = new Account($privateKey);\n\n// With both private and public keys\n$privateKey = file_get_contents('/path/to/private.key');\n$publicKey = file_get_contents('/path/to/public.key');\n$account = new Account($privateKey, $publicKey);\n\n// Create new account with specific key type\n$account = Account::createECC('P-384');  // or 'P-256', 'P-384'\n$account = Account::createRSA(4096);     // or 2048, 3072\n\n// Get account information\necho \"Key Type: \" . $account->getKeyType() . \"\\n\";\necho \"Key Size: \" . $account->getKeySize() . \"\\n\";\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 36,
+    "Content": "\n## Error Handling\n",
+    "ContentSha": "bvCAqnMMtvpavfIFRaiIfHQzNziIS+N6O4aXZSD0BRM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 오류 처리\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 37,
+    "Content": "```php\nuse ALAPI\\Acme\\Exceptions\\AcmeException;\nuse ALAPI\\Acme\\Exceptions\\AcmeAccountException;\nuse ALAPI\\Acme\\Exceptions\\DomainValidationException;\nuse ALAPI\\Acme\\Exceptions\\AcmeCertificateException;\n\ntry {\n    // ACME operations here\n} catch (AcmeAccountException $e) {\n    echo \"Account error: \" . $e->getMessage() . \"\\n\";\n    echo \"Detail: \" . $e->getDetail() . \"\\n\";\n    echo \"Type: \" . $e->getAcmeType() . \"\\n\";\n} catch (DomainValidationException $e) {\n    echo \"Validation error: \" . $e->getMessage() . \"\\n\";\n} catch (AcmeCertificateException $e) {\n    echo \"Certificate error: \" . $e->getMessage() . \"\\n\";\n} catch (AcmeException $e) {\n    echo \"ACME error: \" . $e->getMessage() . \"\\n\";\n} catch (Exception $e) {\n    echo \"General error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "ContentSha": "mYJfIC7j6PAhPYJSDLIgEIoFc4mmAsILMug2JneItIw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nuse ALAPI\\Acme\\Exceptions\\AcmeException;\nuse ALAPI\\Acme\\Exceptions\\AcmeAccountException;\nuse ALAPI\\Acme\\Exceptions\\DomainValidationException;\nuse ALAPI\\Acme\\Exceptions\\AcmeCertificateException;\n\ntry {\n    // ACME operations here\n} catch (AcmeAccountException $e) {\n    echo \"Account error: \" . $e->getMessage() . \"\\n\";\n    echo \"Detail: \" . $e->getDetail() . \"\\n\";\n    echo \"Type: \" . $e->getAcmeType() . \"\\n\";\n} catch (DomainValidationException $e) {\n    echo \"Validation error: \" . $e->getMessage() . \"\\n\";\n} catch (AcmeCertificateException $e) {\n    echo \"Certificate error: \" . $e->getMessage() . \"\\n\";\n} catch (AcmeException $e) {\n    echo \"ACME error: \" . $e->getMessage() . \"\\n\";\n} catch (Exception $e) {\n    echo \"General error: \" . $e->getMessage() . \"\\n\";\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 38,
+    "Content": "\n## Testing\n\nRun the test suite:\n",
+    "ContentSha": "0B+1jXGyt5gg+ifq26sOO4P2SCTNt22K/2puTADmsuE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 테스트\n\n테스트 스위트를 실행하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 39,
+    "Content": "```bash\ncomposer test\n```",
+    "ContentSha": "nCNn/JSHdXtlM8BILO0Z5JjhUvpwm4IRlcC4iMvzYwI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncomposer test\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 40,
+    "Content": "\nRun static analysis:\n",
+    "ContentSha": "Qbzcyl7/AFcnmzuyry44Th9Ik5BsEgZGcL8gQlJ1r1E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n정적 분석 실행:\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 41,
+    "Content": "```bash\ncomposer analyse\n```",
+    "ContentSha": "SvDkCYd5J8wvWL+TjuD0chOhMV+sZ8k3ef9NOw3HUTQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncomposer analyse\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 42,
+    "Content": "\nFix code style:\n",
+    "ContentSha": "3uSrvDEXv0kbu0Vqkf7m8B9iDRCpKTZCq6/OM7aCm4U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "코드 스타일 수정:\n\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 43,
+    "Content": "```bash\ncomposer cs-fix\n```",
+    "ContentSha": "d/EO6/034AajmEN3i/NyW2FKs90N1c19pJJMEi52YeI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncomposer cs-fix\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 44,
+    "Content": "\n## Security Considerations\n\n1. **Private Keys**: Store private keys securely with appropriate file permissions (600)\n2. **Account Keys**: Keep account keys separate from certificate keys\n3. **Staging Environment**: Use staging environment for testing\n4. **Rate Limits**: Be aware of CA rate limits\n5. **Validation**: Always validate challenges locally before triggering ACME validation\n\n## Contributing\n\n1. Fork the repository\n2. Create a feature branch\n3. Make your changes\n4. Add tests for new functionality\n5. Run the test suite\n6. Submit a pull request\n\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n## Links\n\n- [Let's Encrypt Documentation](https://letsencrypt.org/docs/)\n- [ACME Specification RFC 8555](https://tools.ietf.org/html/rfc8555)\n- [ZeroSSL ACME Guide](https://zerossl.com/documentation/acme/)\n\n## Support\n\nIf you encounter any issues or have questions:\n\n1. Check the [documentation](#quick-start)\n2. Search existing [issues](https://github.com/anhao/acme-client/issues)\n3. Create a [new issue](https://github.com/anhao/acme-client/issues/new) if needed\n",
+    "ContentSha": "S/uhYuii9OtPRdeYCG2ihiM7/VhlrdcUOMyI7QyZiKM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 보안 고려사항\n\n1. **개인 키**: 적절한 파일 권한(600)으로 개인 키를 안전하게 저장하세요  \n2. **계정 키**: 계정 키는 인증서 키와 분리하여 보관하세요  \n3. **스테이징 환경**: 테스트를 위해 스테이징 환경을 사용하세요  \n4. **요율 제한**: CA의 요율 제한을 인지하세요  \n5. **검증**: ACME 검증을 트리거하기 전에 항상 로컬에서 챌린지를 검증하세요  \n\n## 기여 방법\n\n1. 저장소를 포크하세요  \n2. 기능 브랜치를 만드세요  \n3. 변경사항을 적용하세요  \n4. 새로운 기능에 대한 테스트를 추가하세요  \n5. 테스트 스위트를 실행하세요  \n6. 풀 리퀘스트를 제출하세요  \n\n## 라이선스\n\n이 프로젝트는 MIT 라이선스 하에 배포됩니다 - 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.  \n\n## 링크\n\n- [Let's Encrypt 문서](https://letsencrypt.org/docs/)  \n- [ACME 명세 RFC 8555](https://tools.ietf.org/html/rfc8555)  \n- [ZeroSSL ACME 가이드](https://zerossl.com/documentation/acme/)  \n\n## 지원\n\n문제가 발생하거나 질문이 있을 경우:\n\n1. [문서](#quick-start)를 확인하세요  \n2. 기존 [이슈](https://github.com/anhao/acme-client/issues)를 검색하세요  \n3. 필요 시 [새 이슈](https://github.com/anhao/acme-client/issues/new)를 생성하세요  \n\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  }
+]
