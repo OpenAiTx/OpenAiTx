@@ -1,0 +1,1631 @@
+[
+  {
+    "Id": 1,
+    "Content": "# ./dops - better `docker ps` \nA replacement for the default docker-ps that tries really hard to fit within your terminal width.\n\n![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/main.png)\n\n## Rationale\n\nBy default, my `docker ps` output is really wide and every line wraps around into three.\nThis (obviously) breaks the tabular display and makes everything chaotic.  \n*(This gets especially bad if one container has multiple port mappings, and they are all displayed in a single row)*\nIt doesn’t look like we’ll get improved output in the foreseeable future (see [moby#7477](https://github.com/moby/moby/issues/7477)), so I decided to make my own drop-in replacement.  \n\n## Features\n\n - All normal commandline flags/options from docker-ps work *(almost)* the same.\n - Write multi-value data (like multiple port mappings, multiple networks, etc.) into multiple lines instead of concatenating them.\n - Add color to the STATE and STATUS column (green / yellow / red).\n - Automatically remove columns in the output until it fits in the current terminal width.\n - sort the output with the `--sort` argument\n - Enter watch mode with the `--watch` argument\n\nMore Changes from default docker-ps:\n - Show (by default) the container-cmd without arguments.\n - Show the ImageName (by default) without the registry prefix, and split ImageName and ImageTag into two columns.\n - Added the columns IP and NETWORK to the default column set (if they fit)\n - Added support for a few new columns (via --format):  \n   `{{.ImageName}`, `{{.ImageTag}`, `{{.Tag}`, `{{.ImageRegistry}`, `{{.Registry}`, `{{.ShortCommand}`, `{{.LabelKeys}`, `{{.IP}`                         \n - Added options to control the color-output, the used socket, the time-zone and time-format, etc (see `./dops --help`) \n\n## Getting started\n\n### Generic Linux (e.g. Debian/Fedora/...)\n - Download the latest binary from the [releases page](https://github.com/Mikescher/better-docker-ps/releases) and put it into your PATH (eg /usr/local/bin)\n - You can also use the following one-liner (afterwards you can use the `dops` command everywhere):",
+    "ContentSha": "EC9YZLjDDOE5CEMBvxAUSyvtux2ZLzvVDneQHrZgCNo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ./dops - 更好的 `docker ps` \n一个替代默认 docker-ps 的工具，努力适配你的终端宽度。\n\n![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/main.png)\n\n## 原因\n\n默认情况下，我的 `docker ps` 输出非常宽，每行会换行成三行。\n这（显然）破坏了表格显示，使一切变得混乱。  \n*（如果一个容器有多个端口映射，并且都显示在同一行时，这种情况尤其糟糕）*\n看起来在可预见的未来不会有改进的输出（参见 [moby#7477](https://github.com/moby/moby/issues/7477)），所以我决定做一个自己的替代方案。  \n\n## 特性\n\n - 所有 docker-ps 的普通命令行标志/选项 *(几乎)* 一样。\n - 将多值数据（如多个端口映射、多个网络等）写入多行，而不是连接在一起。\n - 给 STATE 和 STATUS 列添加颜色（绿色 / 黄色 / 红色）。\n - 自动删除输出中的列，直到适应当前终端宽度。\n - 通过 `--sort` 参数对输出排序\n - 通过 `--watch` 参数进入监视模式\n\n相比默认 docker-ps 的更多改动：\n - 默认显示容器命令但不带参数。\n - 默认显示镜像名称时去掉注册表前缀，并将镜像名称和标签拆分成两列。\n - 默认列集添加了 IP 和 NETWORK 列（如果适合的话）\n - 通过 --format 支持了几个新列：  \n   `{{.ImageName}`, `{{.ImageTag}`, `{{.Tag}`, `{{.ImageRegistry}`, `{{.Registry}`, `{{.ShortCommand}`, `{{.LabelKeys}`, `{{.IP}`                         \n - 添加了控制颜色输出、使用的 socket、时区和时间格式等选项（参见 `./dops --help`） \n\n## 快速开始\n\n### 通用 Linux（例如 Debian/Fedora/...）\n - 从[发布页面](https://github.com/Mikescher/better-docker-ps/releases)下载最新二进制文件并放入你的 PATH（例如 /usr/local/bin）\n - 你也可以使用以下一行命令（之后你可以在任何地方使用 `dops` 命令）：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Vo7rUd7kgOqn+F78eac2KXCSpnTcZ12X3tTFrcBO6qc=",
+        "originContent": "# ./dops - better `docker ps` ",
+        "translatedContent": "# ./dops - 更好的 `docker ps` "
+      },
+      {
+        "row": 2,
+        "rowsha": "esy2U4AloWneV/FXydom3QhuzPeA1a4iWfyT5y2nd1M=",
+        "originContent": "A replacement for the default docker-ps that tries really hard to fit within your terminal width.",
+        "translatedContent": "一个替代默认 docker-ps 的工具，努力适配你的终端宽度。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "OgKDw+YIrhQQw5BGu0RsyH/cxImJ7lhiclMdS1VdUuo=",
+        "originContent": "![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/main.png)",
+        "translatedContent": "![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/main.png)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "4Ggvf6kvqr9OcBlhnjjlw1Ta8jPP9v8/mxiQqJgrsts=",
+        "originContent": "## Rationale",
+        "translatedContent": "## 原因"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "GnXTBuWGH3wqeZa4XiODDcTOrExEHUalTYGN9McCCaE=",
+        "originContent": "By default, my `docker ps` output is really wide and every line wraps around into three.",
+        "translatedContent": "默认情况下，我的 `docker ps` 输出非常宽，每行会换行成三行。"
+      },
+      {
+        "row": 9,
+        "rowsha": "My4Gu2OYoP0e+mO3seGFhqUAY9/hmQCZ801+oQENX5o=",
+        "originContent": "This (obviously) breaks the tabular display and makes everything chaotic.  ",
+        "translatedContent": "这（显然）破坏了表格显示，使一切变得混乱。  "
+      },
+      {
+        "row": 10,
+        "rowsha": "/AKiw6FepTBVCPkCzLl7s8a9s/N93LuLpFaUrk6h/oM=",
+        "originContent": "*(This gets especially bad if one container has multiple port mappings, and they are all displayed in a single row)*",
+        "translatedContent": "*（如果一个容器有多个端口映射，并且都显示在同一行时，这种情况尤其糟糕）*"
+      },
+      {
+        "row": 11,
+        "rowsha": "d4wnDz2dczAf70Iygtgjai1mpVs6phol2+yekpvH2fw=",
+        "originContent": "It doesn’t look like we’ll get improved output in the foreseeable future (see [moby#7477](https://github.com/moby/moby/issues/7477)), so I decided to make my own drop-in replacement.  ",
+        "translatedContent": "看起来在可预见的未来不会有改进的输出（参见 [moby#7477](https://github.com/moby/moby/issues/7477)），所以我决定做一个自己的替代方案。  "
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 特性"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "+iJd86rSJa4pMWG7e6I+FWgQJXMszaCdH2gqbaoEIfQ=",
+        "originContent": " - All normal commandline flags/options from docker-ps work *(almost)* the same.",
+        "translatedContent": " - 所有 docker-ps 的普通命令行标志/选项 *(几乎)* 一样。"
+      },
+      {
+        "row": 16,
+        "rowsha": "SGcC9gRNEXwFJoJEfdGPmRWnUnHkjPqsCdTH/NMyYkw=",
+        "originContent": " - Write multi-value data (like multiple port mappings, multiple networks, etc.) into multiple lines instead of concatenating them.",
+        "translatedContent": " - 将多值数据（如多个端口映射、多个网络等）写入多行，而不是连接在一起。"
+      },
+      {
+        "row": 17,
+        "rowsha": "usjeOwFvbVUMazTykKT0igADUr7GmXD/7Iq7QQgMnjQ=",
+        "originContent": " - Add color to the STATE and STATUS column (green / yellow / red).",
+        "translatedContent": " - 给 STATE 和 STATUS 列添加颜色（绿色 / 黄色 / 红色）。"
+      },
+      {
+        "row": 18,
+        "rowsha": "Px0SB9Shm6pNb9xI7KrEgkQlwKmYhkaDa67+oRJ3V9E=",
+        "originContent": " - Automatically remove columns in the output until it fits in the current terminal width.",
+        "translatedContent": " - 自动删除输出中的列，直到适应当前终端宽度。"
+      },
+      {
+        "row": 19,
+        "rowsha": "Cc1OTA34c8qvYJOYa6AEGYqegXsElCFvqjVwBR8SqSs=",
+        "originContent": " - sort the output with the `--sort` argument",
+        "translatedContent": " - 通过 `--sort` 参数对输出排序"
+      },
+      {
+        "row": 20,
+        "rowsha": "L7Tnp2kP82OqehWR0IHgvt2f4VXTczqeVjzf4e+jfYw=",
+        "originContent": " - Enter watch mode with the `--watch` argument",
+        "translatedContent": " - 通过 `--watch` 参数进入监视模式"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "PwTjMZCtBg6RmasgdtRCjFs1Duw/02uXXjdQbAVCvm8=",
+        "originContent": "More Changes from default docker-ps:",
+        "translatedContent": "相比默认 docker-ps 的更多改动："
+      },
+      {
+        "row": 23,
+        "rowsha": "DTVSpdWc7Ajuz2RNM5qSPwhUJ1e9fpoM88yIKmnd+0A=",
+        "originContent": " - Show (by default) the container-cmd without arguments.",
+        "translatedContent": " - 默认显示容器命令但不带参数。"
+      },
+      {
+        "row": 24,
+        "rowsha": "veEx05d8u7FISnmXwz6iYUpRYKVlNpvcyslkrJ8MoSM=",
+        "originContent": " - Show the ImageName (by default) without the registry prefix, and split ImageName and ImageTag into two columns.",
+        "translatedContent": " - 默认显示镜像名称时去掉注册表前缀，并将镜像名称和标签拆分成两列。"
+      },
+      {
+        "row": 25,
+        "rowsha": "U42htsbLCIDFybjoS/DIRiFPkY4dXEj7EWBO8eT7KxQ=",
+        "originContent": " - Added the columns IP and NETWORK to the default column set (if they fit)",
+        "translatedContent": " - 默认列集添加了 IP 和 NETWORK 列（如果适合的话）"
+      },
+      {
+        "row": 26,
+        "rowsha": "sEdPsEmQbOr7LEAWKX4aqOgTpwsjk3nu689s7LXNcn4=",
+        "originContent": " - Added support for a few new columns (via --format):  ",
+        "translatedContent": " - 通过 --format 支持了几个新列：  "
+      },
+      {
+        "row": 27,
+        "rowsha": "76BuUzcGpVpU3aBaOzzY8WjQNp0X9n12QEW2d1fLV4g=",
+        "originContent": "   `{{.ImageName}`, `{{.ImageTag}`, `{{.Tag}`, `{{.ImageRegistry}`, `{{.Registry}`, `{{.ShortCommand}`, `{{.LabelKeys}`, `{{.IP}`                         ",
+        "translatedContent": "   `{{.ImageName}`, `{{.ImageTag}`, `{{.Tag}`, `{{.ImageRegistry}`, `{{.Registry}`, `{{.ShortCommand}`, `{{.LabelKeys}`, `{{.IP}`                         "
+      },
+      {
+        "row": 28,
+        "rowsha": "kmp7yf/jihRdCoxd1gzxhKpUheojUfTBZ7KYU+PgY4U=",
+        "originContent": " - Added options to control the color-output, the used socket, the time-zone and time-format, etc (see `./dops --help`) ",
+        "translatedContent": " - 添加了控制颜色输出、使用的 socket、时区和时间格式等选项（参见 `./dops --help`） "
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "eetlngBf9IRRYZknBdo+Zo5q71Wk5hbFmnHDAzfrtps=",
+        "originContent": "## Getting started",
+        "translatedContent": "## 快速开始"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "5pEqFbN9/wsG3cY3/xl5s0MlC67jg4H0CdOFx5PM8Nk=",
+        "originContent": "### Generic Linux (e.g. Debian/Fedora/...)",
+        "translatedContent": "### 通用 Linux（例如 Debian/Fedora/...）"
+      },
+      {
+        "row": 33,
+        "rowsha": "XvDhQkC18dsxbFJSbU97e1YUN1SQc0M5C9XYjcefLmo=",
+        "originContent": " - Download the latest binary from the [releases page](https://github.com/Mikescher/better-docker-ps/releases) and put it into your PATH (eg /usr/local/bin)",
+        "translatedContent": " - 从[发布页面](https://github.com/Mikescher/better-docker-ps/releases)下载最新二进制文件并放入你的 PATH（例如 /usr/local/bin）"
+      },
+      {
+        "row": 34,
+        "rowsha": "x9B9J0nbAzG6ODlRV8QGRSB8rTEsjHAjge9uK4ZCLK8=",
+        "originContent": " - You can also use the following one-liner (afterwards you can use the `dops` command everywhere):",
+        "translatedContent": " - 你也可以使用以下一行命令（之后你可以在任何地方使用 `dops` 命令）："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n$> sudo wget \"https://github.com/Mikescher/better-docker-ps/releases/latest/download/dops_linux-amd64-static\" -O \"/usr/local/bin/dops\" && sudo chmod +x \"/usr/local/bin/dops\"\n```",
+    "ContentSha": "mVzdaXeec9S75ETklzZL2dr31C8Kjf3EJ/ESaVVVUWg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n$> sudo wget \"https://github.com/Mikescher/better-docker-ps/releases/latest/download/dops_linux-amd64-static\" -O \"/usr/local/bin/dops\" && sudo chmod +x \"/usr/local/bin/dops\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "D0PMBEYo/8nq+9rs4yRwIjz3hJW8ahoQbIKsqi94jnI=",
+        "originContent": "$> sudo wget \"https://github.com/Mikescher/better-docker-ps/releases/latest/download/dops_linux-amd64-static\" -O \"/usr/local/bin/dops\" && sudo chmod +x \"/usr/local/bin/dops\"",
+        "translatedContent": "$> sudo wget \"https://github.com/Mikescher/better-docker-ps/releases/latest/download/dops_linux-amd64-static\" -O \"/usr/local/bin/dops\" && sudo chmod +x \"/usr/local/bin/dops\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### ArchLinux\n - Alternatively you can use one of the AUR packages (under Arch Linux):\n    * https://aur.archlinux.org/packages/dops-bin (installs `dops` into your PATH)\n    * https://aur.archlinux.org/packages/dops-git (installs `dops` into your PATH)\n - or the homebrew package: \n    * `brew tap mikescher/tap && brew install dops`\n\n### Optional steps\n - Alias the docker ps command to `dops` (see [section below](#usage-as-drop-in-replacement))\n\n## Screenshots\n\n![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/fullsize.png)  \nAll (default) columns visible\n\n&nbsp;\n\n![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/default.png)  \nOutput on a medium sized terminal\n\n&nbsp;\n\n![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/small.png)  \nOutput on a small terminal\n\n&nbsp;\n\n## Usage as drop-in replacement\n\nYou can fully replace docker ps by creating a shell function in your `.bashrc` / `.zshrc`...\n\n~~~sh\ndocker() {\n  case $1 in\n    ps)\n      shift\n      command dops \"$@\"\n      ;;\n    *)",
+    "ContentSha": "kBmsMtIlmowq7rpjjKMTFx5MN8nLBNvBAoW6zIoDClI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### ArchLinux\n - 或者您可以使用 AUR 包之一（在 Arch Linux 下）：\n    * https://aur.archlinux.org/packages/dops-bin （将 `dops` 安装到您的 PATH 中）\n    * https://aur.archlinux.org/packages/dops-git （将 `dops` 安装到您的 PATH 中）\n - 或者使用 homebrew 包：\n    * `brew tap mikescher/tap && brew install dops`\n\n### 可选步骤\n - 将 docker ps 命令别名为 `dops`（参见[下面章节](#usage-as-drop-in-replacement)）\n\n## 截图\n\n![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/fullsize.png)  \n所有（默认）列可见\n\n&nbsp;\n\n![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/default.png)  \n中等大小终端的输出\n\n&nbsp;\n\n![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/small.png)  \n小终端的输出\n\n&nbsp;\n\n## 作为直接替代使用\n\n您可以通过在 `.bashrc` / `.zshrc` 中创建一个 shell 函数来完全替代 docker ps...\n\n~~~sh\ndocker() {\n  case $1 in\n    ps)\n      shift\n      command dops \"$@\"\n      ;;\n    *)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ArchLinux"
+      },
+      {
+        "row": 2,
+        "rowsha": "H8yuSm/9l3mz6B+7EBBl5Ql8JqYKb99mSCCGxLnRNlk=",
+        "originContent": "### ArchLinux",
+        "translatedContent": " - 或者您可以使用 AUR 包之一（在 Arch Linux 下）："
+      },
+      {
+        "row": 3,
+        "rowsha": "5v9Hw4Fv856b/Gzy/p6Y8p6Z2UrxLJdlNITlk4T9gLs=",
+        "originContent": " - Alternatively you can use one of the AUR packages (under Arch Linux):",
+        "translatedContent": "    * https://aur.archlinux.org/packages/dops-bin （将 `dops` 安装到您的 PATH 中）"
+      },
+      {
+        "row": 4,
+        "rowsha": "wR1DVJ9npjAk/0hFm8pH6qDupEPEc9Tzj9Dls6jt+Tw=",
+        "originContent": "    * https://aur.archlinux.org/packages/dops-bin (installs `dops` into your PATH)",
+        "translatedContent": "    * https://aur.archlinux.org/packages/dops-git （将 `dops` 安装到您的 PATH 中）"
+      },
+      {
+        "row": 5,
+        "rowsha": "2piNWzWfeAGqypf51YGSivqnF7cyHFy1lwGVObogbzY=",
+        "originContent": "    * https://aur.archlinux.org/packages/dops-git (installs `dops` into your PATH)",
+        "translatedContent": " - 或者使用 homebrew 包："
+      },
+      {
+        "row": 6,
+        "rowsha": "GzaXMH02ABWd/+bHDXxj/GafbIDgQa4jTo5vnRlS6OA=",
+        "originContent": " - or the homebrew package: ",
+        "translatedContent": "    * `brew tap mikescher/tap && brew install dops`"
+      },
+      {
+        "row": 7,
+        "rowsha": "v4P2v6csUlnvLrIGT5PgZf3+Yi5HVueCFMB102yhA/Y=",
+        "originContent": "    * `brew tap mikescher/tap && brew install dops`",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 可选步骤"
+      },
+      {
+        "row": 9,
+        "rowsha": "ZAuVq1zVxSNLjXSWcTgtxHFzj9YYuhXwaHqxoTuS5J0=",
+        "originContent": "### Optional steps",
+        "translatedContent": " - 将 docker ps 命令别名为 `dops`（参见[下面章节](#usage-as-drop-in-replacement)）"
+      },
+      {
+        "row": 10,
+        "rowsha": "H1MI5k7/ZPYRxuJQ81eD+kQTyLbaDq9PIHTA9YLN2kk=",
+        "originContent": " - Alias the docker ps command to `dops` (see [section below](#usage-as-drop-in-replacement))",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 截图"
+      },
+      {
+        "row": 12,
+        "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
+        "originContent": "## Screenshots",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/fullsize.png)  "
+      },
+      {
+        "row": 14,
+        "rowsha": "63cZzu1qUNrE9I2JPv/pF+AUidfNJ9z6W21pFf344Fw=",
+        "originContent": "![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/fullsize.png)  ",
+        "translatedContent": "所有（默认）列可见"
+      },
+      {
+        "row": 15,
+        "rowsha": "4qWDcn5B65GnmG2skoA36OfzG1/QYCR03DIIv4M4I1I=",
+        "originContent": "All (default) columns visible",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "&nbsp;"
+      },
+      {
+        "row": 17,
+        "rowsha": "YQw1zhmrdfNYQy1u5ZWEMHrkhsQEDTNtHYDFznAW4q8=",
+        "originContent": "&nbsp;",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/default.png)  "
+      },
+      {
+        "row": 19,
+        "rowsha": "00fFcxGpTTNa2rzaI8C0W+c11Hl44q+79aAJGwXDGM0=",
+        "originContent": "![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/default.png)  ",
+        "translatedContent": "中等大小终端的输出"
+      },
+      {
+        "row": 20,
+        "rowsha": "BIo8HOE1YJ02E+hRXnZrGMm6263IWCJfGI9c3hUj0SM=",
+        "originContent": "Output on a medium sized terminal",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "&nbsp;"
+      },
+      {
+        "row": 22,
+        "rowsha": "YQw1zhmrdfNYQy1u5ZWEMHrkhsQEDTNtHYDFznAW4q8=",
+        "originContent": "&nbsp;",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/small.png)  "
+      },
+      {
+        "row": 24,
+        "rowsha": "VuP1UwT5XX26D9hEfewjascULi0HRMtkOGwenIH7tDM=",
+        "originContent": "![](https://raw.githubusercontent.com/Mikescher/better-docker-ps/master/readme.d/small.png)  ",
+        "translatedContent": "小终端的输出"
+      },
+      {
+        "row": 25,
+        "rowsha": "UeNzzjNy39bmn8tKVs2WVFl6nQ8UCLi0iHFQHd+2eBo=",
+        "originContent": "Output on a small terminal",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "&nbsp;"
+      },
+      {
+        "row": 27,
+        "rowsha": "YQw1zhmrdfNYQy1u5ZWEMHrkhsQEDTNtHYDFznAW4q8=",
+        "originContent": "&nbsp;",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 作为直接替代使用"
+      },
+      {
+        "row": 29,
+        "rowsha": "+UwYj0eHwQlPU3d/U5hjoX04fJoEDL+7z4nVJ5R0P0s=",
+        "originContent": "## Usage as drop-in replacement",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "您可以通过在 `.bashrc` / `.zshrc` 中创建一个 shell 函数来完全替代 docker ps..."
+      },
+      {
+        "row": 31,
+        "rowsha": "A1Ah+jd4CiC8NeEWOPTCMvH0sr2i2c561x42AJ85k2g=",
+        "originContent": "You can fully replace docker ps by creating a shell function in your `.bashrc` / `.zshrc`...",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "~~~sh"
+      },
+      {
+        "row": 33,
+        "rowsha": "QpRzPr7nBgBfdtb3dWD+qjkr+DCX2/gCVDrBgWMqwd8=",
+        "originContent": "~~~sh",
+        "translatedContent": "docker() {"
+      },
+      {
+        "row": 34,
+        "rowsha": "K/I8CfigBF+IZMhmTLt8+YkfmBQXhISwHk0rXH6YMPA=",
+        "originContent": "docker() {",
+        "translatedContent": "  case $1 in"
+      },
+      {
+        "row": 35,
+        "rowsha": "z/t5KbYuLbwz4Y2pYzrEuDnuytsOXWfyba2VHDX9HNA=",
+        "originContent": "  case $1 in",
+        "translatedContent": "    ps)"
+      },
+      {
+        "row": 36,
+        "rowsha": "AFIHvRKfjBFA5KFNE7zd1T7XekKd9HPHq3x9ysbx30w=",
+        "originContent": "    ps)",
+        "translatedContent": "      shift"
+      },
+      {
+        "row": 37,
+        "rowsha": "Zu18PYnT0Fh5Fnzz/BncVmymBOpeReGqfEi3jyBe+fk=",
+        "originContent": "      shift",
+        "translatedContent": "      command dops \"$@\""
+      },
+      {
+        "row": 38,
+        "rowsha": "z+r4NWgLopqn02dd8HOayVQrhB73Ihq6TAbdXdSOvz0=",
+        "originContent": "      command dops \"$@\"",
+        "translatedContent": "      ;;"
+      },
+      {
+        "row": 39,
+        "rowsha": "UIkpbq7PPCLE9un/ldiTb1yUGt2zRXKLWSRla1ANfbY=",
+        "originContent": "      ;;",
+        "translatedContent": "    *)"
+      },
+      {
+        "row": 40,
+        "rowsha": "WKNIyWLhaUhEX3z8hlasCnuEQfIHUJdiXjvBj6DlDwQ=",
+        "originContent": "    *)",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "      command docker \"$@\";;\n  esac\n}\n~~~\n\nThis will alias every call to `docker ps ...` with `dops ...` (be sure to have the dops binary in your PATH).\n\nIf you are using the fish-shell you have to create a (similar) function:\n\n~~~fish\nfunction docker\n    if test -n \"$argv[1]\"\n        switch $argv[1]\n            case ps\n                dops $argv[2..-1]\n            case '*'\n                command docker $argv[1..-1]\n        end\n    end\nend\n~~~\n\n## Changing the output format\n\nBy default dops tries to be \"intelligent\" and find the best output format for your terminal width.\nThe current output formats (= table columns) are defined in the [options.go](https://github.com/Mikescher/better-docker-ps/blob/master/cli/options.go).\nThe first format that fits in your terminal width is used.\n\nBut you can also override it by supplying a `--format` parameter. If you supply more than one `--format` parameter the first one that fits your terminal is used (same logic as with the default ones...)\n\nNormally only simple columns aka `{{.Status}}` are supported.  \nBut you can also use the full golang template syntax (e.g. `{{ printf \"%.15s\" .Command }}`).\nIn this case it can be useful to specify the column header by prefixing it with a colon (`SHORTENED NAME:{{ printf \"%.10s\" (join .Names \";\") }}`)\n\nThe following functions are defined in these templates (plus the [default go functions](https://pkg.go.dev/text/template)):\n - `join`: strings.Join\n - `array_last`: v\\[-1\\]\n - `array_slice`: v\\[a..b\\] \n - `in_array`: v1.contains(v2)\n - `json`: json.Marshal(v)",
+    "ContentSha": "Ox39sYHKDbBIO6EbBLsWYt4HOVGp4gWoC0e8cSyVi7g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "      command docker \"$@\";;\n  esac\n}\n~~~\n\n这将把所有对 `docker ps ...` 的调用别名为 `dops ...`（确保 dops 二进制文件在你的 PATH 中）。\n\n如果你使用的是 fish-shell，你需要创建一个（类似的）函数：\n\n~~~fish\nfunction docker\n    if test -n \"$argv[1]\"\n        switch $argv[1]\n            case ps\n                dops $argv[2..-1]\n            case '*'\n                command docker $argv[1..-1]\n        end\n    end\nend\n~~~\n\n## 更改输出格式\n\n默认情况下，dops 会尝试“智能”地根据你的终端宽度选择最佳输出格式。  \n当前的输出格式（即表格列）定义在 [options.go](https://github.com/Mikescher/better-docker-ps/blob/master/cli/options.go) 中。  \n第一个适合你终端宽度的格式将被使用。\n\n但你也可以通过提供 `--format` 参数来覆盖它。如果你提供多个 `--format` 参数，则会使用第一个适合你终端的（与默认格式的逻辑相同……）\n\n通常只支持简单列，也就是 `{{.Status}}`。  \n但你也可以使用完整的 golang 模板语法（例如 `{{ printf \"%.15s\" .Command }}`）。  \n在这种情况下，可以通过在前面加冒号来指定列标题（例如 `SHORTENED NAME:{{ printf \"%.10s\" (join .Names \";\") }}`）\n\n以下函数在这些模板中定义（加上 [默认的 go 函数](https://pkg.go.dev/text/template)）：  \n - `join`: strings.Join  \n - `array_last`: v\\[-1\\]  \n - `array_slice`: v\\[a..b\\]  \n - `in_array`: v1.contains(v2)  \n - `json`: json.Marshal(v)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "svs54Jm7lwyG64MiXLUOaPgi1dUdo8yMLNhAf8uDtSQ=",
+        "originContent": "      command docker \"$@\";;",
+        "translatedContent": "      command docker \"$@\";;"
+      },
+      {
+        "row": 2,
+        "rowsha": "vGp85ofQ+rLudzx/JXN+SQ1TT5N3JEMl/oEoKj0kfdo=",
+        "originContent": "  esac",
+        "translatedContent": "  esac"
+      },
+      {
+        "row": 3,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 4,
+        "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+        "originContent": "~~~",
+        "translatedContent": "~~~"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "JU9XIrjIIs5FIxl3GyuZj/1kXGgNIeCVPOLbDRw2PrM=",
+        "originContent": "This will alias every call to `docker ps ...` with `dops ...` (be sure to have the dops binary in your PATH).",
+        "translatedContent": "这将把所有对 `docker ps ...` 的调用别名为 `dops ...`（确保 dops 二进制文件在你的 PATH 中）。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "dkzQzAOEZ0+RXll8lqkt2g3fNPorCs+7QwqAwyESCPA=",
+        "originContent": "If you are using the fish-shell you have to create a (similar) function:",
+        "translatedContent": "如果你使用的是 fish-shell，你需要创建一个（类似的）函数："
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "HcTO9IHPn7pWQYHIEJMSTfppfUQwFKsDV0pE0zUID8k=",
+        "originContent": "~~~fish",
+        "translatedContent": "~~~fish"
+      },
+      {
+        "row": 11,
+        "rowsha": "WrWRCjNI8Y5djn+mkKmE2B3X/j729QbJOv0WaQbGWV4=",
+        "originContent": "function docker",
+        "translatedContent": "function docker"
+      },
+      {
+        "row": 12,
+        "rowsha": "xzL2h7WYQkVrY3mlElhvIow17l42+okXWynk7j9YdFg=",
+        "originContent": "    if test -n \"$argv[1]\"",
+        "translatedContent": "    if test -n \"$argv[1]\""
+      },
+      {
+        "row": 13,
+        "rowsha": "E9KQvxUQ+2e5rTZ4RGAcQeeCfwpFvvQ+SccKvH6dv0s=",
+        "originContent": "        switch $argv[1]",
+        "translatedContent": "        switch $argv[1]"
+      },
+      {
+        "row": 14,
+        "rowsha": "YgEVDBDLsRgJJ8IxG2cwjDJMlKTOL8e8boU1JEp7G+E=",
+        "originContent": "            case ps",
+        "translatedContent": "            case ps"
+      },
+      {
+        "row": 15,
+        "rowsha": "NwnhdFOjKffGt003pFsbdtioO3s0OLI1rlS4tkGX8qM=",
+        "originContent": "                dops $argv[2..-1]",
+        "translatedContent": "                dops $argv[2..-1]"
+      },
+      {
+        "row": 16,
+        "rowsha": "GHmSCnlGF+LZjkeb1mQuj49B/TX1F8Xx55tLVkNpaVU=",
+        "originContent": "            case '*'",
+        "translatedContent": "            case '*'"
+      },
+      {
+        "row": 17,
+        "rowsha": "ZTL37VfcZjIqe99byyHkUXzWETYSV81W6w1S4ErnNI0=",
+        "originContent": "                command docker $argv[1..-1]",
+        "translatedContent": "                command docker $argv[1..-1]"
+      },
+      {
+        "row": 18,
+        "rowsha": "PWDiQHXklCHTtgKC9dUjp8S6wRGFSqolC1k1cmhf5YA=",
+        "originContent": "        end",
+        "translatedContent": "        end"
+      },
+      {
+        "row": 19,
+        "rowsha": "gvoVxHL5c5ZCFTBleU4mILUDJKIFcP+s+BQjx5nYXiw=",
+        "originContent": "    end",
+        "translatedContent": "    end"
+      },
+      {
+        "row": 20,
+        "rowsha": "Nh5I0DCPIOMtul+1Yyi68Y1y7wzLQ7hPXCYtKmofxsg=",
+        "originContent": "end",
+        "translatedContent": "end"
+      },
+      {
+        "row": 21,
+        "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+        "originContent": "~~~",
+        "translatedContent": "~~~"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "YlHSoJufGDELvhAplSItxf1VN+j7PctsO3lnJmF78oE=",
+        "originContent": "## Changing the output format",
+        "translatedContent": "## 更改输出格式"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "0oEUsqvYeKJ5siN+UGIAAkBtcpx4spc6S5EmU9B+7pU=",
+        "originContent": "By default dops tries to be \"intelligent\" and find the best output format for your terminal width.",
+        "translatedContent": "默认情况下，dops 会尝试“智能”地根据你的终端宽度选择最佳输出格式。  "
+      },
+      {
+        "row": 26,
+        "rowsha": "bQbJXbOaSVYkEeUCjWWrF7ivWCB0thyOmUMLd5HLiqM=",
+        "originContent": "The current output formats (= table columns) are defined in the [options.go](https://github.com/Mikescher/better-docker-ps/blob/master/cli/options.go).",
+        "translatedContent": "当前的输出格式（即表格列）定义在 [options.go](https://github.com/Mikescher/better-docker-ps/blob/master/cli/options.go) 中。  "
+      },
+      {
+        "row": 27,
+        "rowsha": "2IDWb3lIsxWadcWzDDSvJyzoqOVA4IAIG+JkW6iuaEc=",
+        "originContent": "The first format that fits in your terminal width is used.",
+        "translatedContent": "第一个适合你终端宽度的格式将被使用。"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "KMUuIkK6TltSBU+XT2tSPAkUYRZl+YaPJYR0vFCZNbI=",
+        "originContent": "But you can also override it by supplying a `--format` parameter. If you supply more than one `--format` parameter the first one that fits your terminal is used (same logic as with the default ones...)",
+        "translatedContent": "但你也可以通过提供 `--format` 参数来覆盖它。如果你提供多个 `--format` 参数，则会使用第一个适合你终端的（与默认格式的逻辑相同……）"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "12FRIZ/MEtaswZGVIo/G7gPadHu2LKJ/yCEaaOzP1Z4=",
+        "originContent": "Normally only simple columns aka `{{.Status}}` are supported.  ",
+        "translatedContent": "通常只支持简单列，也就是 `{{.Status}}`。  "
+      },
+      {
+        "row": 32,
+        "rowsha": "5sD0lBo51jSSPU8qICWJI59MsTKt19RBarxhUFU28+M=",
+        "originContent": "But you can also use the full golang template syntax (e.g. `{{ printf \"%.15s\" .Command }}`).",
+        "translatedContent": "但你也可以使用完整的 golang 模板语法（例如 `{{ printf \"%.15s\" .Command }}`）。  "
+      },
+      {
+        "row": 33,
+        "rowsha": "eWrPLfr1MGPudgJNcrclh3M2NaR0+5BxEZE3Qw5iMcI=",
+        "originContent": "In this case it can be useful to specify the column header by prefixing it with a colon (`SHORTENED NAME:{{ printf \"%.10s\" (join .Names \";\") }}`)",
+        "translatedContent": "在这种情况下，可以通过在前面加冒号来指定列标题（例如 `SHORTENED NAME:{{ printf \"%.10s\" (join .Names \";\") }}`）"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "F4z1cVgiVa1+yXljBiy3bEiyD7VDzmXOES5V6TrwWQU=",
+        "originContent": "The following functions are defined in these templates (plus the [default go functions](https://pkg.go.dev/text/template)):",
+        "translatedContent": "以下函数在这些模板中定义（加上 [默认的 go 函数](https://pkg.go.dev/text/template)）：  "
+      },
+      {
+        "row": 36,
+        "rowsha": "xTtSqUdvhv1+RFpqbOFWRaJuq7MgZLtyly943ZRon+M=",
+        "originContent": " - `join`: strings.Join",
+        "translatedContent": " - `join`: strings.Join  "
+      },
+      {
+        "row": 37,
+        "rowsha": "R9a5XZCBuNRN3HrrkZSYY9hbRiwAPhZVUMf5wGcMwNU=",
+        "originContent": " - `array_last`: v\\[-1\\]",
+        "translatedContent": " - `array_last`: v\\[-1\\]  "
+      },
+      {
+        "row": 38,
+        "rowsha": "2rGfSiWJ12hP9ukTTJMDRHbR2XoiGLPtPfd5grmOclM=",
+        "originContent": " - `array_slice`: v\\[a..b\\] ",
+        "translatedContent": " - `array_slice`: v\\[a..b\\]  "
+      },
+      {
+        "row": 39,
+        "rowsha": "9A7Im08HRyht0tzR7bg7XfPf9a/RI5sSe3lLTVqaLqo=",
+        "originContent": " - `in_array`: v1.contains(v2)",
+        "translatedContent": " - `in_array`: v1.contains(v2)  "
+      },
+      {
+        "row": 40,
+        "rowsha": "2r2CeSx3rB4Hn6eXWwwxVT7SjJJzxwyzEssjhdCzVJI=",
+        "originContent": " - `json`: json.Marshal(v)",
+        "translatedContent": " - `json`: json.Marshal(v)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": " - `json_indent`: json.MarshalIndent(v, \"\", \"  \")\n - `json_pretty`:  json.Indent(v, \"\", \"  \")\n - `coalesce`: v1 ?? v2\n - `to_string`: fmt.Sprintf(\"%v\", v)\n - `deref`: *v\n - `now`: time.Now()\n - `uniqid`: UUID\n\nExamples:\n~~~~\n$ ./dops --format \"table {{.ID}}\"\n$ ./dops --format \"table {{.ID}}\\\\t{{.Names}}\\\\t{{.State}}\"\n\n$ ./dops --format \"idlist\"\n\n$ ./dops --format \"table {{.ID}}\\\\t{{.Names}}\\\\t{{.State}}\"  --format \"table {{.ID}}\\\\t{{.Names}}\" --format \"table {{.ID}}\"\n\n$ ./dops --format \"ID: {{.ID}}; Name: {{.Names}}\"\n\n$ ./dops -aq\n\n$ ./dops --sort \"IP\" --sort-direction \"ASC\"\n\n$ ./dops --format \"table {{.ID}}\\\\tCMD:{{ printf \\\"%.15s\\\" .Command }}\"\n$ ./dops --format \"table {{.ID}}\\\\tNAME:{{ printf \\\"%.10s\\\" (join .Names \\\";\\\") }}\"\n\n~~~~\n\n## Persistant configuration\n\nYou can also configure some/most of the options via a configuration file.  \nPlace a TOML formatted file in `$HOME/.config/dops.conf` / `$XDG_CONFIG_HOME/dops.conf`.\n\nThe following keys are supported:\n - verbose\n - silent\n - timezone\n - timeformat\n - timeformat-header\n - color",
+    "ContentSha": "Ec58nQxgSgvunGAO7Dr1xK6sHgerYthQCrC+Etd3z84=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " - `json_indent`: json.MarshalIndent(v, \"\", \"  \")\n - `json_pretty`:  json.Indent(v, \"\", \"  \")\n - `coalesce`: v1 ?? v2\n - `to_string`: fmt.Sprintf(\"%v\", v)\n - `deref`: *v\n - `now`: time.Now()\n - `uniqid`: UUID\n\nExamples:\n~~~~\n$ ./dops --format \"table {{.ID}}\"\n$ ./dops --format \"table {{.ID}}\\\\t{{.Names}}\\\\t{{.State}}\"\n\n$ ./dops --format \"idlist\"\n\n$ ./dops --format \"table {{.ID}}\\\\t{{.Names}}\\\\t{{.State}}\"  --format \"table {{.ID}}\\\\t{{.Names}}\" --format \"table {{.ID}}\"\n\n$ ./dops --format \"ID: {{.ID}}; Name: {{.Names}}\"\n\n$ ./dops -aq\n\n$ ./dops --sort \"IP\" --sort-direction \"ASC\"\n\n$ ./dops --format \"table {{.ID}}\\\\tCMD:{{ printf \\\"%.15s\\\" .Command }}\"\n$ ./dops --format \"table {{.ID}}\\\\tNAME:{{ printf \\\"%.10s\\\" (join .Names \\\";\\\") }}\"\n\n~~~~\n\n## 持久化配置\n\n你也可以通过配置文件配置部分或大部分选项。  \n将一个 TOML 格式的文件放置在 `$HOME/.config/dops.conf` / `$XDG_CONFIG_HOME/dops.conf`。\n\n支持以下键：\n - verbose\n - silent\n - timezone\n - timeformat\n - timeformat-header\n - color",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EgeJBaBYcYQhYoBNxFc2bbCaO/DXecGgM3uVIT0+wf8=",
+        "originContent": " - `json_indent`: json.MarshalIndent(v, \"\", \"  \")",
+        "translatedContent": " - `json_indent`: json.MarshalIndent(v, \"\", \"  \")"
+      },
+      {
+        "row": 2,
+        "rowsha": "/6+ZMYX3XXwQm6CtTL/PlK1tk3JzsVUpgkK6D0Krch0=",
+        "originContent": " - `json_pretty`:  json.Indent(v, \"\", \"  \")",
+        "translatedContent": " - `json_pretty`:  json.Indent(v, \"\", \"  \")"
+      },
+      {
+        "row": 3,
+        "rowsha": "6381tlxxG0bNBMwXmH+ln11qGtP8z/BW6Xh7rk5UGo4=",
+        "originContent": " - `coalesce`: v1 ?? v2",
+        "translatedContent": " - `coalesce`: v1 ?? v2"
+      },
+      {
+        "row": 4,
+        "rowsha": "BaWqLFXbXXKuJli8ONFKFAtYERv7wGNw2aN+ioA7BmI=",
+        "originContent": " - `to_string`: fmt.Sprintf(\"%v\", v)",
+        "translatedContent": " - `to_string`: fmt.Sprintf(\"%v\", v)"
+      },
+      {
+        "row": 5,
+        "rowsha": "BXrleQjr2EU4DP2KqSSa1wfbr2vBwTjXnAvwnsXOqdo=",
+        "originContent": " - `deref`: *v",
+        "translatedContent": " - `deref`: *v"
+      },
+      {
+        "row": 6,
+        "rowsha": "uAv9U3fg/Mb8jQZlCRf3V98PXAqAtieDbvt0Fk9f0Zc=",
+        "originContent": " - `now`: time.Now()",
+        "translatedContent": " - `now`: time.Now()"
+      },
+      {
+        "row": 7,
+        "rowsha": "HuBKVeyjplv/gD+pa1IQPmw00bL3h8YtxId7EyK7iWs=",
+        "originContent": " - `uniqid`: UUID",
+        "translatedContent": " - `uniqid`: UUID"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "GInwMzi3m7rYvc3JJe9egwaVacF+QzF075pJ9i59Xuc=",
+        "originContent": "Examples:",
+        "translatedContent": "Examples:"
+      },
+      {
+        "row": 10,
+        "rowsha": "U+huENnT8ff/Y/k9LPpfnK3+ewisFheVu6vwrLHYpiU=",
+        "originContent": "~~~~",
+        "translatedContent": "~~~~"
+      },
+      {
+        "row": 11,
+        "rowsha": "42KopRR53obYWXn87IjAbbb7YvbckZxzqqbRFKP4b8A=",
+        "originContent": "$ ./dops --format \"table {{.ID}}\"",
+        "translatedContent": "$ ./dops --format \"table {{.ID}}\""
+      },
+      {
+        "row": 12,
+        "rowsha": "SGUSImjueFxOPXy8CpW4V6r8SF26KWWoSu5aPMPWnn0=",
+        "originContent": "$ ./dops --format \"table {{.ID}}\\\\t{{.Names}}\\\\t{{.State}}\"",
+        "translatedContent": "$ ./dops --format \"table {{.ID}}\\\\t{{.Names}}\\\\t{{.State}}\""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "V4aqbM+wWRpR7sB31qfmInmYb8pj5/sFjiBKFoE+JgI=",
+        "originContent": "$ ./dops --format \"idlist\"",
+        "translatedContent": "$ ./dops --format \"idlist\""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "3j4TJLb8rnkMUnE9IZmQ7yIbAcOh9b2fBWw9Ws+if4I=",
+        "originContent": "$ ./dops --format \"table {{.ID}}\\\\t{{.Names}}\\\\t{{.State}}\"  --format \"table {{.ID}}\\\\t{{.Names}}\" --format \"table {{.ID}}\"",
+        "translatedContent": "$ ./dops --format \"table {{.ID}}\\\\t{{.Names}}\\\\t{{.State}}\"  --format \"table {{.ID}}\\\\t{{.Names}}\" --format \"table {{.ID}}\""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "E4Mj7e8mjf/se69fQXgQm4cfSr4QauoS20Apw6YipVs=",
+        "originContent": "$ ./dops --format \"ID: {{.ID}}; Name: {{.Names}}\"",
+        "translatedContent": "$ ./dops --format \"ID: {{.ID}}; Name: {{.Names}}\""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "O17Zz/BnzzogvWgKocESsDMydjQxzL02XENMN3XFWI8=",
+        "originContent": "$ ./dops -aq",
+        "translatedContent": "$ ./dops -aq"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "pmkN/nRP9UHHJ5gwcZJWylZle56uPyvLT+eLS787lSo=",
+        "originContent": "$ ./dops --sort \"IP\" --sort-direction \"ASC\"",
+        "translatedContent": "$ ./dops --sort \"IP\" --sort-direction \"ASC\""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "iiJ37QaW01BhvsoSS6zpbZcst7ucvrbMQoztv108IUg=",
+        "originContent": "$ ./dops --format \"table {{.ID}}\\\\tCMD:{{ printf \\\"%.15s\\\" .Command }}\"",
+        "translatedContent": "$ ./dops --format \"table {{.ID}}\\\\tCMD:{{ printf \\\"%.15s\\\" .Command }}\""
+      },
+      {
+        "row": 25,
+        "rowsha": "dPL8uQD0quCsVBvpP9zuNL9r8fRCEi83kMy81tdL5TU=",
+        "originContent": "$ ./dops --format \"table {{.ID}}\\\\tNAME:{{ printf \\\"%.10s\\\" (join .Names \\\";\\\") }}\"",
+        "translatedContent": "$ ./dops --format \"table {{.ID}}\\\\tNAME:{{ printf \\\"%.10s\\\" (join .Names \\\";\\\") }}\""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "U+huENnT8ff/Y/k9LPpfnK3+ewisFheVu6vwrLHYpiU=",
+        "originContent": "~~~~",
+        "translatedContent": "~~~~"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "ZPSo+7fBui6LZIhLKsUNan5EPa93PWHMjpnO2fsx2bk=",
+        "originContent": "## Persistant configuration",
+        "translatedContent": "## 持久化配置"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "Bx4+wlqAqZjnxpSYNcc32bQ9jvhSErN3w3XeHFGwLZM=",
+        "originContent": "You can also configure some/most of the options via a configuration file.  ",
+        "translatedContent": "你也可以通过配置文件配置部分或大部分选项。  "
+      },
+      {
+        "row": 32,
+        "rowsha": "OAZ06DsMxaIihgAIWvbr06w6y+Y4PUFxt1AtSf1iSFc=",
+        "originContent": "Place a TOML formatted file in `$HOME/.config/dops.conf` / `$XDG_CONFIG_HOME/dops.conf`.",
+        "translatedContent": "将一个 TOML 格式的文件放置在 `$HOME/.config/dops.conf` / `$XDG_CONFIG_HOME/dops.conf`。"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "A++G3VGLvnQFgQBujKXVRq+yg1I6Tcw5wPFyly48HrA=",
+        "originContent": "The following keys are supported:",
+        "translatedContent": "支持以下键："
+      },
+      {
+        "row": 35,
+        "rowsha": "naFQ//Lo3a1zFeOUQyZM2LoeHgsEIGFM8I96+VdZ5DI=",
+        "originContent": " - verbose",
+        "translatedContent": " - verbose"
+      },
+      {
+        "row": 36,
+        "rowsha": "gi2EEkY6qlzj1iLoybT0FWYxTEOBtjVruiifP/a5r7M=",
+        "originContent": " - silent",
+        "translatedContent": " - silent"
+      },
+      {
+        "row": 37,
+        "rowsha": "D0JQsy7S0dbRQy3Nq3y0rCQMR5PLDqA22xMYndX5tMs=",
+        "originContent": " - timezone",
+        "translatedContent": " - timezone"
+      },
+      {
+        "row": 38,
+        "rowsha": "NzUiB4wBvu5TDSzfHcGXhPbEOGB2fNnIAmMzrMUe0tk=",
+        "originContent": " - timeformat",
+        "translatedContent": " - timeformat"
+      },
+      {
+        "row": 39,
+        "rowsha": "OhnDUDmzG3PwzbY0CH4aeMRoW1n7xUanbIJpKz5JU5A=",
+        "originContent": " - timeformat-header",
+        "translatedContent": " - timeformat-header"
+      },
+      {
+        "row": 40,
+        "rowsha": "wU7M0vgmmugv81hjoq2QYxwgitbN/sg4xG2d1CfRPr4=",
+        "originContent": " - color",
+        "translatedContent": " - color"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": " - socket\n - all\n - size\n - filter (= string array)\n - format (= string array)\n - last\n - latest\n - truncate\n - header (= true / false / simple)\n - sort (= string array)\n - sort-direction (= string array)\n\nExample:",
+    "ContentSha": "RERRggFjKzGJk9rsITVYSHM0NIXKi1PcSIQ9iSDJqSY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " - 套接字\n - 全部\n - 大小\n - 过滤器 (= 字符串数组)\n - 格式 (= 字符串数组)\n - 最后\n - 最新\n - 截断\n - 头部 (= true / false / simple)\n - 排序 (= 字符串数组)\n - 排序方向 (= 字符串数组)\n\n示例:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "IfDnTDI8K4RX86GDsVAhFrm4hF6RVLyrG4YQ3rgs5LQ=",
+        "originContent": " - socket",
+        "translatedContent": " - 套接字"
+      },
+      {
+        "row": 2,
+        "rowsha": "7hUWjOdbg5cLyNhmzn4nN/muwhUFPf4YYpkTg4mQgeA=",
+        "originContent": " - all",
+        "translatedContent": " - 全部"
+      },
+      {
+        "row": 3,
+        "rowsha": "5OCJQllrkFZM4Vh+AjpZRlfrSk6C640r6kXgSNPYhnY=",
+        "originContent": " - size",
+        "translatedContent": " - 大小"
+      },
+      {
+        "row": 4,
+        "rowsha": "JP6apsf1cyIDfgKuIIYURtuMiPfYLOkyf/m5BuDyApE=",
+        "originContent": " - filter (= string array)",
+        "translatedContent": " - 过滤器 (= 字符串数组)"
+      },
+      {
+        "row": 5,
+        "rowsha": "kszyV9srxec0I97qEOATbTX2xV0CFEvYZ5YFEdyyAK8=",
+        "originContent": " - format (= string array)",
+        "translatedContent": " - 格式 (= 字符串数组)"
+      },
+      {
+        "row": 6,
+        "rowsha": "WURq9fWzg9TFVvUPrEJlDu/lo5dmDUCWhhhYZJ+hCrk=",
+        "originContent": " - last",
+        "translatedContent": " - 最后"
+      },
+      {
+        "row": 7,
+        "rowsha": "T97MII+gpOgTcmW3Eh6zxKaaitQ0wsVp3qiiLzJ2RWs=",
+        "originContent": " - latest",
+        "translatedContent": " - 最新"
+      },
+      {
+        "row": 8,
+        "rowsha": "7f2vxJElTcyLOLbrOYPDbiUpfZIFtu4Xtq5xdy7G2hE=",
+        "originContent": " - truncate",
+        "translatedContent": " - 截断"
+      },
+      {
+        "row": 9,
+        "rowsha": "Em+JHeUJXo6GsN2lKUmyDC3HV0KMOhUMAe9tAA4YsxM=",
+        "originContent": " - header (= true / false / simple)",
+        "translatedContent": " - 头部 (= true / false / simple)"
+      },
+      {
+        "row": 10,
+        "rowsha": "nlMXPF0COPSGnF0WXG+QGAK185aLjRb+zzfYkoMR8C8=",
+        "originContent": " - sort (= string array)",
+        "translatedContent": " - 排序 (= 字符串数组)"
+      },
+      {
+        "row": 11,
+        "rowsha": "e4CzLk/hqiSG9DTzXKw6LtuG3N3VeRS5TseexNaMd1o=",
+        "originContent": " - sort-direction (= string array)",
+        "translatedContent": " - 排序方向 (= 字符串数组)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "示例:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```toml\nverbose = 0\n\ntimezone = \"Europe/Berlin\"\n\nformat = [\n   \"table {{.ID}}\\t{{.Names}}\\t{{.State}}\\t{{.Status}}\",\n   \"table {{.ID}}\\t{{.Names}}\\t{{.State}}\",\n   \"table {{.ID}}\\t{{.Names}}\",\n   \"table {{.ID}}\",\n]\n\nheader = \"simple\"\n```",
+    "ContentSha": "5/qwsPlXqTEOqE/47TWmEot/fFeR723VLu6zu2dXYf0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\nverbose = 0\n\ntimezone = \"Europe/Berlin\"\n\nformat = [\n   \"table {{.ID}}\\t{{.Names}}\\t{{.State}}\\t{{.Status}}\",\n   \"table {{.ID}}\\t{{.Names}}\\t{{.State}}\",\n   \"table {{.ID}}\\t{{.Names}}\",\n   \"table {{.ID}}\",\n]\n\nheader = \"simple\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "H5nPBWZxBq763IXBXcsxqdIiwKNvUDNBeEDJyF3qf98=",
+        "originContent": "verbose = 0",
+        "translatedContent": "verbose = 0"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "7+RS7m5fjCF8gIUSpvgR4zuhVzXTJvoQSaBZ/ollmfY=",
+        "originContent": "timezone = \"Europe/Berlin\"",
+        "translatedContent": "timezone = \"Europe/Berlin\""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "vGwCRvLKImmTZmC62rZ2Hyv2Z/cRpyZmUo/difj36uY=",
+        "originContent": "format = [",
+        "translatedContent": "format = ["
+      },
+      {
+        "row": 7,
+        "rowsha": "H3la4dscHVO0IspFCDgsdzAWJyOchrvn9YK8oCWpg2I=",
+        "originContent": "   \"table {{.ID}}\\t{{.Names}}\\t{{.State}}\\t{{.Status}}\",",
+        "translatedContent": "   \"table {{.ID}}\\t{{.Names}}\\t{{.State}}\\t{{.Status}}\","
+      },
+      {
+        "row": 8,
+        "rowsha": "H39RRk0wEbLzLamTGKrZD0ie69lR2gUa/Yn4gAzb2Ug=",
+        "originContent": "   \"table {{.ID}}\\t{{.Names}}\\t{{.State}}\",",
+        "translatedContent": "   \"table {{.ID}}\\t{{.Names}}\\t{{.State}}\","
+      },
+      {
+        "row": 9,
+        "rowsha": "kqhCoLKO6LA2OGKdFYs0NC1kqYgUZI1dfr6RDWrRtJw=",
+        "originContent": "   \"table {{.ID}}\\t{{.Names}}\",",
+        "translatedContent": "   \"table {{.ID}}\\t{{.Names}}\","
+      },
+      {
+        "row": 10,
+        "rowsha": "HMp8awKwpqQr3LHpM38X4qJxE6QMOF66iMNmN3EI1qg=",
+        "originContent": "   \"table {{.ID}}\",",
+        "translatedContent": "   \"table {{.ID}}\","
+      },
+      {
+        "row": 11,
+        "rowsha": "z64NQkj3FC97F/gmzXpRkoDjEld2kOlXgw0j3PNaP/8=",
+        "originContent": "]",
+        "translatedContent": "]"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "2k7KzU8jfwWM4O4hYrFt0Qdnmo3Qk3Q64Ayrbdf62sc=",
+        "originContent": "header = \"simple\"",
+        "translatedContent": "header = \"simple\""
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n## Manual\n\nOutput of `./dops --help`:\n\n~~~~~~\nbetter-docker-ps\n\nUsage:\n  dops [OPTIONS]                     List docker container\n\nOptions (default):\n  -h, --help                         Show this screen.\n  --version                          Show version.\n  --all , -a                         Show all containers (default shows just running)\n  --filter <ftr>, -f <ftr>           Filter output based on conditions provided\n  --format <fmt>                     Pretty-print containers using a Go template\n  --last , -n                        Show n last created containers (includes all states)\n  --latest , -l                      Show the latest created container (includes all states)\n  --no-trunc                         Don't truncate output (eg ContainerIDs, Sha256 Image references, commandline)\n  --quiet , -q                       Only display container IDs\n  --size , -s                        Display total file sizes\n\nOptions (extra | do not exist in `docker ps`):\n  --silent                           Do not print any output\n  --timezone                         Specify the timezone for date outputs\n  --color <true|false>               Enable/Disable terminal color output\n  --no-color                         Disable terminal color output\n  --socket <filepath>                Specify the docker socket location (Default: `auto` - which calls the docker cli to determine the socket)\n  --timeformat <go-time-fmt>         Specify the datetime output format (golang syntax)\n  --no-header                        Do not print the table header\n  --simple-header                    Do not print the lines under the header\n  --format <fmt>                     You can specify multiple formats and the first one that fits your terminal widt will be used\n  --sort <col>                       Sort output by a specific column, use the same identifier as in --format, only useful together with table formats \n  --sort-direction <ASC|DESC>        The sort direction, only useful in combination with --sort\n  --watch <interval>, -w <interval>  Automatically refresh output periodically (interval is optional, default: 2s) \n\nAvailable --format keys (default):\n  {{.ID}}                            Container ID\n  {{.Image}}                         Image ID",
+    "ContentSha": "wfQVX3V5HTvqe9RwGAAVBeLK38q82KQ0L6m0yKLLGnI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 手册\n\n`./dops --help` 的输出：\n\n~~~~~~\nbetter-docker-ps\n\n用法：\n  dops [选项]                       列出 docker 容器\n\n选项（默认）：\n  -h, --help                       显示此帮助信息。\n  --version                       显示版本。\n  --all , -a                     显示所有容器（默认只显示运行中容器）\n  --filter <ftr>, -f <ftr>       根据提供的条件过滤输出\n  --format <fmt>                 使用 Go 模板美化打印容器信息\n  --last , -n                    显示最近创建的 n 个容器（包含所有状态）\n  --latest , -l                  显示最新创建的容器（包含所有状态）\n  --no-trunc                     不截断输出（例如容器ID、Sha256 镜像引用、命令行）\n  --quiet , -q                   仅显示容器 ID\n  --size , -s                    显示文件总大小\n\n额外选项（`docker ps` 中不存在）：\n  --silent                      不打印任何输出\n  --timezone                    指定日期输出的时区\n  --color <true|false>          启用/禁用终端颜色输出\n  --no-color                    禁用终端颜色输出\n  --socket <文件路径>            指定 docker socket 位置（默认：`auto` - 调用 docker CLI 自动确定 socket）\n  --timeformat <go-time-fmt>     指定日期时间输出格式（Go 语言语法）\n  --no-header                   不打印表头\n  --simple-header               不打印表头下的分割线\n  --format <fmt>                可指定多个格式，终端宽度适配时使用第一个合适的格式\n  --sort <列>                   按指定列排序，使用与 --format 中相同的标识，仅对表格格式有效\n  --sort-direction <ASC|DESC>  排序方向，仅与 --sort 配合使用有效\n  --watch <间隔>, -w <间隔>     自动定时刷新输出（间隔可选，默认：2秒）\n\n可用的 --format 键（默认）：\n  {{.ID}}                      容器 ID\n  {{.Image}}                   镜像 ID\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 手册"
+      },
+      {
+        "row": 2,
+        "rowsha": "DRbBzGJ+vdIe9ze9FTu2+yBjqOZZf/i2t5+tMq319ZI=",
+        "originContent": "## Manual",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`./dops --help` 的输出："
+      },
+      {
+        "row": 4,
+        "rowsha": "e/OB7aQ3oQOVgR6kRXYEoR5611kX2R6uFTvtpR7U8OU=",
+        "originContent": "Output of `./dops --help`:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "~~~~~~"
+      },
+      {
+        "row": 6,
+        "rowsha": "6ijg5Aq5qyJ9hpLriMDuvmgsJLjlgzuYy5FPD7T4wis=",
+        "originContent": "~~~~~~",
+        "translatedContent": "better-docker-ps"
+      },
+      {
+        "row": 7,
+        "rowsha": "HW16pPhLHHZpI05ewiDONoqMg8odMBROawgiMFyiOrU=",
+        "originContent": "better-docker-ps",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "用法："
+      },
+      {
+        "row": 9,
+        "rowsha": "K60+6vM8r/47ybSCtJNO0Z607DYUwSNz4aXF+JSCF9o=",
+        "originContent": "Usage:",
+        "translatedContent": "  dops [选项]                       列出 docker 容器"
+      },
+      {
+        "row": 10,
+        "rowsha": "FdkTng/vp50g32sl+E4HxD2JDN4ry4B6NCdOzRk67gw=",
+        "originContent": "  dops [OPTIONS]                     List docker container",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "选项（默认）："
+      },
+      {
+        "row": 12,
+        "rowsha": "sjM6E6s1oef4OFZhmU9K0tkODpCvNOG/P7h/Xsg2VU0=",
+        "originContent": "Options (default):",
+        "translatedContent": "  -h, --help                       显示此帮助信息。"
+      },
+      {
+        "row": 13,
+        "rowsha": "UNL1T6c0Z05Zu+lna1Hy+q0zFKUwkreU7SgzHXdU9oE=",
+        "originContent": "  -h, --help                         Show this screen.",
+        "translatedContent": "  --version                       显示版本。"
+      },
+      {
+        "row": 14,
+        "rowsha": "rMEdCwGSXdu7XoLLdGi9Qbynt9gO6y0FyyJFPjfB4Og=",
+        "originContent": "  --version                          Show version.",
+        "translatedContent": "  --all , -a                     显示所有容器（默认只显示运行中容器）"
+      },
+      {
+        "row": 15,
+        "rowsha": "4t0vfeCa2e34GE7tnDHkegogH84xcaFHfTRuoVQS+hE=",
+        "originContent": "  --all , -a                         Show all containers (default shows just running)",
+        "translatedContent": "  --filter <ftr>, -f <ftr>       根据提供的条件过滤输出"
+      },
+      {
+        "row": 16,
+        "rowsha": "0EJ7iTNUrJvjzQIxKrYBv7f4DbP0i2ypxK2PMJaNt0A=",
+        "originContent": "  --filter <ftr>, -f <ftr>           Filter output based on conditions provided",
+        "translatedContent": "  --format <fmt>                 使用 Go 模板美化打印容器信息"
+      },
+      {
+        "row": 17,
+        "rowsha": "upflK0IgiRIg88P5RlnrJghgcSYPK6n6jfe4OcATTr8=",
+        "originContent": "  --format <fmt>                     Pretty-print containers using a Go template",
+        "translatedContent": "  --last , -n                    显示最近创建的 n 个容器（包含所有状态）"
+      },
+      {
+        "row": 18,
+        "rowsha": "7xPsXL3JYziwSC4/Ud/J9AiHVAIByQ/v2FsL2obXSuE=",
+        "originContent": "  --last , -n                        Show n last created containers (includes all states)",
+        "translatedContent": "  --latest , -l                  显示最新创建的容器（包含所有状态）"
+      },
+      {
+        "row": 19,
+        "rowsha": "FbEpHfptJzdnif5DvHsZ6QyP+9V5++Y65lq34OUiNI8=",
+        "originContent": "  --latest , -l                      Show the latest created container (includes all states)",
+        "translatedContent": "  --no-trunc                     不截断输出（例如容器ID、Sha256 镜像引用、命令行）"
+      },
+      {
+        "row": 20,
+        "rowsha": "qCTU5URl8Fnt2TSuxUwpAyOEvl0KzoReeTgWsWgRHWk=",
+        "originContent": "  --no-trunc                         Don't truncate output (eg ContainerIDs, Sha256 Image references, commandline)",
+        "translatedContent": "  --quiet , -q                   仅显示容器 ID"
+      },
+      {
+        "row": 21,
+        "rowsha": "GFtRoA/ob4g2RWbasLsztHV//hm6qfkGoGnDgnMOXVo=",
+        "originContent": "  --quiet , -q                       Only display container IDs",
+        "translatedContent": "  --size , -s                    显示文件总大小"
+      },
+      {
+        "row": 22,
+        "rowsha": "L80fB3vQa1vGWobLJKS7cnmPuRDVu0HM7F7l33KBOyo=",
+        "originContent": "  --size , -s                        Display total file sizes",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "额外选项（`docker ps` 中不存在）："
+      },
+      {
+        "row": 24,
+        "rowsha": "jqB+9xeB3eP/ovmXVQ+KxkAnqmNAFGypgHCUbXTE4g4=",
+        "originContent": "Options (extra | do not exist in `docker ps`):",
+        "translatedContent": "  --silent                      不打印任何输出"
+      },
+      {
+        "row": 25,
+        "rowsha": "RMXA5W6pIhk0AnJB5pMMe18B6a+nATVa4yXVgdBU6Hc=",
+        "originContent": "  --silent                           Do not print any output",
+        "translatedContent": "  --timezone                    指定日期输出的时区"
+      },
+      {
+        "row": 26,
+        "rowsha": "54/o2PH940VJQk7bfrNZGd6UUL43hJ0Hkl8wIZuA/OM=",
+        "originContent": "  --timezone                         Specify the timezone for date outputs",
+        "translatedContent": "  --color <true|false>          启用/禁用终端颜色输出"
+      },
+      {
+        "row": 27,
+        "rowsha": "bKziMz2B17V8eXm64X1n3+AGhZj6dvgTp5fbx9eE6Ug=",
+        "originContent": "  --color <true|false>               Enable/Disable terminal color output",
+        "translatedContent": "  --no-color                    禁用终端颜色输出"
+      },
+      {
+        "row": 28,
+        "rowsha": "z+M8rC4pHIN3F6Vu284A0gTiqVSAe/I0gxL+SXKkfdo=",
+        "originContent": "  --no-color                         Disable terminal color output",
+        "translatedContent": "  --socket <文件路径>            指定 docker socket 位置（默认：`auto` - 调用 docker CLI 自动确定 socket）"
+      },
+      {
+        "row": 29,
+        "rowsha": "RtddJB+XNPMFwacbPWr1xuiznYy+NngUFVz0DPqhmkk=",
+        "originContent": "  --socket <filepath>                Specify the docker socket location (Default: `auto` - which calls the docker cli to determine the socket)",
+        "translatedContent": "  --timeformat <go-time-fmt>     指定日期时间输出格式（Go 语言语法）"
+      },
+      {
+        "row": 30,
+        "rowsha": "eE+eB0Gt4SUrjLmr7rABdRVqE2pFun8j7dorGhTvD8A=",
+        "originContent": "  --timeformat <go-time-fmt>         Specify the datetime output format (golang syntax)",
+        "translatedContent": "  --no-header                   不打印表头"
+      },
+      {
+        "row": 31,
+        "rowsha": "qaDF4xMZrclve/BMO5pjF1RJVtMD8HNohk8LK6PlyHA=",
+        "originContent": "  --no-header                        Do not print the table header",
+        "translatedContent": "  --simple-header               不打印表头下的分割线"
+      },
+      {
+        "row": 32,
+        "rowsha": "Wshnbzsn+FQ8gmtJsAbsBPZSiytLE2He9fDSwLXbxsQ=",
+        "originContent": "  --simple-header                    Do not print the lines under the header",
+        "translatedContent": "  --format <fmt>                可指定多个格式，终端宽度适配时使用第一个合适的格式"
+      },
+      {
+        "row": 33,
+        "rowsha": "wtZ6hxMUIqFXDYRHi8/kMlJ7BYOGHFaXS41oyIkFeH4=",
+        "originContent": "  --format <fmt>                     You can specify multiple formats and the first one that fits your terminal widt will be used",
+        "translatedContent": "  --sort <列>                   按指定列排序，使用与 --format 中相同的标识，仅对表格格式有效"
+      },
+      {
+        "row": 34,
+        "rowsha": "wPnRwQYhYJN0oVLY2mwOZG0cexNyxIDi+4qtTLiDmzU=",
+        "originContent": "  --sort <col>                       Sort output by a specific column, use the same identifier as in --format, only useful together with table formats ",
+        "translatedContent": "  --sort-direction <ASC|DESC>  排序方向，仅与 --sort 配合使用有效"
+      },
+      {
+        "row": 35,
+        "rowsha": "Zu0yxCq4KOnsueei1t0enXdqs+eBJEJOdoYf8KGfSLk=",
+        "originContent": "  --sort-direction <ASC|DESC>        The sort direction, only useful in combination with --sort",
+        "translatedContent": "  --watch <间隔>, -w <间隔>     自动定时刷新输出（间隔可选，默认：2秒）"
+      },
+      {
+        "row": 36,
+        "rowsha": "H+FYh17n4Iy+XB+8ND0zS82B6J3qr5VhbpAJ9sRCAyQ=",
+        "originContent": "  --watch <interval>, -w <interval>  Automatically refresh output periodically (interval is optional, default: 2s) ",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "可用的 --format 键（默认）："
+      },
+      {
+        "row": 38,
+        "rowsha": "A2kYwcduwv0/zZphlb7y4ovC3ZJAWWwRpVN5MjXN9PY=",
+        "originContent": "Available --format keys (default):",
+        "translatedContent": "  {{.ID}}                      容器 ID"
+      },
+      {
+        "row": 39,
+        "rowsha": "fKGq0h6d0Rvyqxa5KiAat2DKH7/SXqLdPIUj7HKCHCg=",
+        "originContent": "  {{.ID}}                            Container ID",
+        "translatedContent": "  {{.Image}}                   镜像 ID"
+      },
+      {
+        "row": 40,
+        "rowsha": "X15AzkLHqM/ZPkRmdiC4HniV6VCm016+PuGjc92AV0k=",
+        "originContent": "  {{.Image}}                         Image ID",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "  {{.Command}}                       Quoted command\n  {{.CreatedAt}}                     Time when the container was created.\n  {{.RunningFor}}                    Elapsed time since the container was started.\n  {{.Ports}}                         Published ports. ([!] differs from docker CLI, these are only the published ports)\n  {{.State}}                         Container status\n  {{.Status}}                        Container status with details\n  {{.Size}}                          Container disk size.\n  {{.Names}}                         Container names.\n  {{.Labels}}                        All labels assigned to the container.\n  {{.Label}}                         [!] Unsupported\n  {{.Mounts}}                        Names of the volumes mounted in this container.\n  {{.Networks}}                      Names of the networks attached to this container.\n\nAvailable --format keys (extra | do not exist in `docker ps`):\n  {{.ImageName}}                     Image ID (without tag and registry)\n  {{.ImageTag}}, {{.Tag}}            Image Tag\n  {{.ImageRegistry}}, {{.Registry}}  Image Registry\n  {{.ShortCommand}}                  Command without arguments\n  {{.LabelKeys}}                     All labels assigned to the container (keys only)\n  {{.ShortPublishedPorts}}           Published ports, shorter output than {{.Ports}}\n  {{.LongPublishedPorts}}            Published ports, full output with IP\n  {{.ExposedPorts}}                  Exposed ports\n  {{.PublishedPorts}}                Published ports\n  {{.NotPublishedPorts}}             Exposed but not published ports\n  {{.PublicPorts}}                   Only the public part of published ports\n  {{.IP}}                            Internal IP Address\n~~~~~~\n",
+    "ContentSha": "zGTRhGphxYzY2xAfHyHD179q6T/yF76dtlOSYHe2P/8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  {{.Command}}                       引号中的命令\n  {{.CreatedAt}}                     容器创建时间。\n  {{.RunningFor}}                    容器启动以来经过的时间。\n  {{.Ports}}                         发布的端口。([!] 与 docker CLI 不同，这里仅指已发布的端口)\n  {{.State}}                         容器状态\n  {{.Status}}                        容器状态详情\n  {{.Size}}                          容器磁盘大小。\n  {{.Names}}                         容器名称。\n  {{.Labels}}                        分配给容器的所有标签。\n  {{.Label}}                         [!] 不支持\n  {{.Mounts}}                        挂载在此容器中的卷名称。\n  {{.Networks}}                      连接到此容器的网络名称。\n\n可用的 --format 键（额外的 | docker ps 中不存在）：\n  {{.ImageName}}                     镜像 ID（不含标签和注册表）\n  {{.ImageTag}}, {{.Tag}}            镜像标签\n  {{.ImageRegistry}}, {{.Registry}}  镜像注册表\n  {{.ShortCommand}}                  不带参数的命令\n  {{.LabelKeys}}                     分配给容器的所有标签（仅键）\n  {{.ShortPublishedPorts}}           发布的端口，较 {{.Ports}} 输出更短\n  {{.LongPublishedPorts}}            发布的端口，带 IP 的完整输出\n  {{.ExposedPorts}}                  暴露的端口\n  {{.PublishedPorts}}                发布的端口\n  {{.NotPublishedPorts}}             暴露但未发布的端口\n  {{.PublicPorts}}                   仅发布端口中的公共部分\n  {{.IP}}                            内部 IP 地址\n~~~~~~\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0kQhlBYrQCNE/B1M5EU/DMHZDwmYathPP/vakdceBXo=",
+        "originContent": "  {{.Command}}                       Quoted command",
+        "translatedContent": "  {{.Command}}                       引号中的命令"
+      },
+      {
+        "row": 2,
+        "rowsha": "cMzw2lxH4bqqpDLxf7zXKoeJ4FSBrrmQLuXksFf+BjM=",
+        "originContent": "  {{.CreatedAt}}                     Time when the container was created.",
+        "translatedContent": "  {{.CreatedAt}}                     容器创建时间。"
+      },
+      {
+        "row": 3,
+        "rowsha": "uneZtFEsg2oDrsAlILL2zyu8d6ws3VOTnIGQcM2Kgqc=",
+        "originContent": "  {{.RunningFor}}                    Elapsed time since the container was started.",
+        "translatedContent": "  {{.RunningFor}}                    容器启动以来经过的时间。"
+      },
+      {
+        "row": 4,
+        "rowsha": "/smAAs1UK/0J8Pnkd8R6IjrAw4xLCe7jeSF5cbyEE2s=",
+        "originContent": "  {{.Ports}}                         Published ports. ([!] differs from docker CLI, these are only the published ports)",
+        "translatedContent": "  {{.Ports}}                         发布的端口。([!] 与 docker CLI 不同，这里仅指已发布的端口)"
+      },
+      {
+        "row": 5,
+        "rowsha": "TUerIZ4BkSpwiihgexEeofd2WHfpKsaCBHer9Y7szw8=",
+        "originContent": "  {{.State}}                         Container status",
+        "translatedContent": "  {{.State}}                         容器状态"
+      },
+      {
+        "row": 6,
+        "rowsha": "vhB3fVTIOMXcflWTF5FtwZRlYmd1X3bL3rBQjZM6iN0=",
+        "originContent": "  {{.Status}}                        Container status with details",
+        "translatedContent": "  {{.Status}}                        容器状态详情"
+      },
+      {
+        "row": 7,
+        "rowsha": "JWNJu3SHxeCAsFRdw32lhjPRRne6DR+cNPfM6nQ8XFI=",
+        "originContent": "  {{.Size}}                          Container disk size.",
+        "translatedContent": "  {{.Size}}                          容器磁盘大小。"
+      },
+      {
+        "row": 8,
+        "rowsha": "7cu8vegN1rmAh/b7BwvIisR8TA7h/srQLD6j9TJd0UA=",
+        "originContent": "  {{.Names}}                         Container names.",
+        "translatedContent": "  {{.Names}}                         容器名称。"
+      },
+      {
+        "row": 9,
+        "rowsha": "LVcIM8z8XRNbMldbD2I/VENru6+9vSTWfH7xG07zo8A=",
+        "originContent": "  {{.Labels}}                        All labels assigned to the container.",
+        "translatedContent": "  {{.Labels}}                        分配给容器的所有标签。"
+      },
+      {
+        "row": 10,
+        "rowsha": "5oXoag9nhyhHCVQiF14/O2M5K8RPvUiW0zfSOErazGQ=",
+        "originContent": "  {{.Label}}                         [!] Unsupported",
+        "translatedContent": "  {{.Label}}                         [!] 不支持"
+      },
+      {
+        "row": 11,
+        "rowsha": "9mBq5poAXztDBek5swO4VX7SfF8mUiEebg7u1CuUosA=",
+        "originContent": "  {{.Mounts}}                        Names of the volumes mounted in this container.",
+        "translatedContent": "  {{.Mounts}}                        挂载在此容器中的卷名称。"
+      },
+      {
+        "row": 12,
+        "rowsha": "FW287RPRs+fYRpO3FKBXDJXFuFdSR36It1faJiGN3DI=",
+        "originContent": "  {{.Networks}}                      Names of the networks attached to this container.",
+        "translatedContent": "  {{.Networks}}                      连接到此容器的网络名称。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "1V2dh2LW4G1ExUE/sYzL0XN95WcnJuwBvFFXMVmrHbM=",
+        "originContent": "Available --format keys (extra | do not exist in `docker ps`):",
+        "translatedContent": "可用的 --format 键（额外的 | docker ps 中不存在）："
+      },
+      {
+        "row": 15,
+        "rowsha": "La1WlPV9CzIHSmDiBxV9MdWAgiK/0Xqz/+1ji2/XgZo=",
+        "originContent": "  {{.ImageName}}                     Image ID (without tag and registry)",
+        "translatedContent": "  {{.ImageName}}                     镜像 ID（不含标签和注册表）"
+      },
+      {
+        "row": 16,
+        "rowsha": "wsosnMex7anzsoYFvLj1E9hBCBrJji3O7jBc7aR8H5I=",
+        "originContent": "  {{.ImageTag}}, {{.Tag}}            Image Tag",
+        "translatedContent": "  {{.ImageTag}}, {{.Tag}}            镜像标签"
+      },
+      {
+        "row": 17,
+        "rowsha": "YiG1ibeLW4mxGv11Ukq/aTSJnpmHSoT2r622m8sRsUQ=",
+        "originContent": "  {{.ImageRegistry}}, {{.Registry}}  Image Registry",
+        "translatedContent": "  {{.ImageRegistry}}, {{.Registry}}  镜像注册表"
+      },
+      {
+        "row": 18,
+        "rowsha": "b59hEUTGesxxR0iLEKFNd0iEbacYof2twDc3ICF3GM8=",
+        "originContent": "  {{.ShortCommand}}                  Command without arguments",
+        "translatedContent": "  {{.ShortCommand}}                  不带参数的命令"
+      },
+      {
+        "row": 19,
+        "rowsha": "e3Cb+x9B/T9hobCCqC1WpQJE1VO/3Ltqmf8uYQ/AXTY=",
+        "originContent": "  {{.LabelKeys}}                     All labels assigned to the container (keys only)",
+        "translatedContent": "  {{.LabelKeys}}                     分配给容器的所有标签（仅键）"
+      },
+      {
+        "row": 20,
+        "rowsha": "5e6l8fp1KK4tKD1IZIQ4sFtfMJ40x5bSBh64FXgpmR0=",
+        "originContent": "  {{.ShortPublishedPorts}}           Published ports, shorter output than {{.Ports}}",
+        "translatedContent": "  {{.ShortPublishedPorts}}           发布的端口，较 {{.Ports}} 输出更短"
+      },
+      {
+        "row": 21,
+        "rowsha": "7w9brYfamtg6XnyweQ0mNVUVqh5V1qPmfYxQgQ8gkQM=",
+        "originContent": "  {{.LongPublishedPorts}}            Published ports, full output with IP",
+        "translatedContent": "  {{.LongPublishedPorts}}            发布的端口，带 IP 的完整输出"
+      },
+      {
+        "row": 22,
+        "rowsha": "OwkMtWsaLnoggcr16AbTF5LQvY3O8Gpv1yxzHg9koPk=",
+        "originContent": "  {{.ExposedPorts}}                  Exposed ports",
+        "translatedContent": "  {{.ExposedPorts}}                  暴露的端口"
+      },
+      {
+        "row": 23,
+        "rowsha": "TA5mA5VHuvbgehlUq5DgjQAbOA2QogPxbIZQv7Wqlek=",
+        "originContent": "  {{.PublishedPorts}}                Published ports",
+        "translatedContent": "  {{.PublishedPorts}}                发布的端口"
+      },
+      {
+        "row": 24,
+        "rowsha": "z8DsNZyE7eOG4/81PP/EFIdnTV7vql0xhlOzzhDLjWs=",
+        "originContent": "  {{.NotPublishedPorts}}             Exposed but not published ports",
+        "translatedContent": "  {{.NotPublishedPorts}}             暴露但未发布的端口"
+      },
+      {
+        "row": 25,
+        "rowsha": "chTAdLVZtXLt/CVQJpe58ZSWCQ/F5fE7nMR8/qywgDg=",
+        "originContent": "  {{.PublicPorts}}                   Only the public part of published ports",
+        "translatedContent": "  {{.PublicPorts}}                   仅发布端口中的公共部分"
+      },
+      {
+        "row": 26,
+        "rowsha": "mLkIWWZIeS3Xn4EAAk/UKS2bf0AapnVUbb9jXQjNbnA=",
+        "originContent": "  {{.IP}}                            Internal IP Address",
+        "translatedContent": "  {{.IP}}                            内部 IP 地址"
+      },
+      {
+        "row": 27,
+        "rowsha": "6ijg5Aq5qyJ9hpLriMDuvmgsJLjlgzuYy5FPD7T4wis=",
+        "originContent": "~~~~~~",
+        "translatedContent": "~~~~~~"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
