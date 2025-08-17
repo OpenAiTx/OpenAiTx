@@ -1,0 +1,320 @@
+[
+  {
+    "row": 1,
+    "rowsha": "NCtAm88g0al5ubyDUcjuSWyVbuAA1anhraMWtVhtpQ8=",
+    "originContent": "# Blueprint To C++",
+    "translatedContent": "# Blueprint To C++"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "iWMBnbpkO0p6h/CXsnzaYZM0uNFEgVh7M9kr8v6dYmA=",
+    "originContent": "A tool that converts Unreal Engine Blueprints to C++ code.",
+    "translatedContent": "Unreal EngineのBlueprintをC++コードに変換するツール。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "htuLYGwyCt+q0kKB0WTOg/d3UnVGzU+oRQ5x14wYDIc=",
+    "originContent": "Powered by [CUE4Parse](https://github.com/FabianFG/CUE4Parse)",
+    "translatedContent": "[CUE4Parse](https://github.com/FabianFG/CUE4Parse)によって動作しています。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+    "originContent": "1. Clone the repository:",
+    "translatedContent": "1. リポジトリをクローンします:"
+  },
+  {
+    "row": 10,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 11,
+    "rowsha": "/HfDFGrXmfe6Rpi6m2VKXqYbA8RpeBOt04iklXODdDQ=",
+    "originContent": "    git clone https://github.com/Krowe-moh/BlueprintToCpp.git --recursive",
+    "translatedContent": "    git clone https://github.com/Krowe-moh/BlueprintToCpp.git --recursive"
+  },
+  {
+    "row": 12,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "ZxveYijcCvuAgOs/7iYNkq9ESU1iKcd60RFHgdpjZq0=",
+    "originContent": "2. Open the solution file in your IDE and build the project.",
+    "translatedContent": "2. IDEでソリューションファイルを開き、プロジェクトをビルドします。"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "UT4Am8RgbBo877Y1qPR1rMi20KBE2vDphyFf2ZjYxyY=",
+    "originContent": "1. Run the executable to automatically create a `config.json` file.",
+    "translatedContent": "1. 実行可能ファイルを実行して、`config.json` ファイルを自動的に作成します。"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "FhqIjc5432qatnlKBO7jLQoeVAewSBUBOMVjz+Vyv4c=",
+    "originContent": "2. Configure the options in `config.json`:",
+    "translatedContent": "2. `config.json` のオプションを設定します："
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "trRRD3Nb5hVM/FHlyVlYjE7bxJNIKNl7APbbRFZlb8Q=",
+    "originContent": "    Example:",
+    "translatedContent": "    例："
+  },
+  {
+    "row": 23,
+    "rowsha": "mWcmj/csAfAlYdWniA3PScIGXOcCYgl0k6otH1HQzW8=",
+    "originContent": "    ```js",
+    "translatedContent": "    ```js"
+  },
+  {
+    "row": 24,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 25,
+    "rowsha": "ysexJGB7EtfL1cbKauYd3RIMzqa2dk4y/fOsjwnRLFw=",
+    "originContent": "      \"PakFolderPath\": \"C:/Program Files/Epic Games/Fortnite/FortniteGame/Content/Paks\",",
+    "translatedContent": "      \"PakFolderPath\": \"C:/Program Files/Epic Games/Fortnite/FortniteGame/Content/Paks\","
+  },
+  {
+    "row": 26,
+    "rowsha": "3YefGfRctV6eMXXxYUJOUcpxQoDSD28GjtwdhDPynFg=",
+    "originContent": "      \"BlueprintPath\": \"FortniteGame/Content/Athena/Cosmetics/Sprays/BP_SprayDecal.uasset\",",
+    "translatedContent": "      \"BlueprintPath\": \"FortniteGame/Content/Athena/Cosmetics/Sprays/BP_SprayDecal.uasset\","
+  },
+  {
+    "row": 27,
+    "rowsha": "GPvcMM8GlxkF+2ir8LkVShp8ZM5j8Sm+Cw+1g5uFRZs=",
+    "originContent": "      \"OodlePath\": \"C:/Users/krowe/BlueprintToCpp/oo2core_5_win64.dll\",",
+    "translatedContent": "      \"OodlePath\": \"C:/Users/krowe/BlueprintToCpp/oo2core_5_win64.dll\","
+  },
+  {
+    "row": 28,
+    "rowsha": "7inNju/vTWMH/D2IsvyDf7rkp5Cq1RMQoEc5F58OhOM=",
+    "originContent": "      \"ZlibPath \": \"\", // leave blank if no zlib compression",
+    "translatedContent": "      \"ZlibPath \": \"\", // leave blank if no zlib compression"
+  },
+  {
+    "row": 29,
+    "rowsha": "LiTbT+fgDhUYDpukUBfE9FeyubimPGnkHPOjfh4D0Cw=",
+    "originContent": "      \"UsmapPath\": \"C:/Users/krowe/BlueprintToCpp/++Fortnite+Release-33.20-CL-39082670-Windows_oo.usmap\",",
+    "translatedContent": "      \"UsmapPath\": \"C:/Users/krowe/BlueprintToCpp/++Fortnite+Release-33.20-CL-39082670-Windows_oo.usmap\","
+  },
+  {
+    "row": 30,
+    "rowsha": "r2Za8fMROeFlPhAyjwXFxArjNh1zSTur0FcD0gcXG8w=",
+    "originContent": "      \"Version\": \"GAME_UE5_LATEST\"",
+    "translatedContent": "      \"Version\": \"GAME_UE5_LATEST\""
+  },
+  {
+    "row": 31,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 32,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. 変換を開始するには、`Main.exe` を実行してください。"
+  },
+  {
+    "row": 34,
+    "rowsha": "sPkDYcqXpk+45lXNswuCFu4AAoX4nnuDBNqew1KrMCE=",
+    "originContent": "3. Run `Main.exe` to start the conversion.",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## AES"
+  },
+  {
+    "row": 36,
+    "rowsha": "EUr5DT9Zcvo+RJnWnohVoW6KpPzLkVlvbNjHi+nDgbY=",
+    "originContent": "## AES",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "AESを設定したい場合は、プログラムを一度実行（設定済みの状態で）し、その後作成される `aes.json` ファイルを編集してください。"
+  },
+  {
+    "row": 38,
+    "rowsha": "tGn+LXS28Od9QCgme0gj8dc1ds+vwPaAAz90KAtfzUg=",
+    "originContent": "If you want to set up AES, run the program once (with the config set), then modify the `aes.json` file that is created.",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 出力"
+  },
+  {
+    "row": 40,
+    "rowsha": "4042S5xrfYSMll0r1ym3bVw4Mkd0PBQ+zmLB8ov9V80=",
+    "originContent": "## Output",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "逆コンパイルされたブループリントは `Output.cpp` として出力されます（現在はフォルダ階層として出力されるように変更されており、近日中に無効化するオプションが追加される予定です）。"
+  },
+  {
+    "row": 42,
+    "rowsha": "bUebiw92LuVDXo6fyCrBdotthAg0rpv+hroAeUHER8c=",
+    "originContent": "The decompiled blueprint will be output as `Output.cpp` (this has changed to output as folder hierarchy, will have a option to disable soon).",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "注意：現時点では、このツールはすべての式に対応しておらず、C++の出力は100％正確ではない可能性があります。"
+  },
+  {
+    "row": 44,
+    "rowsha": "R68smJq8tDORZHHVc7ldMJb2EuJvXDMoTimTLGyvrxE=",
+    "originContent": "Note: Currently, this tool does not support all expressions, and the C++ output may not be 100% accurate.",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 問題点"
+  },
+  {
+    "row": 46,
+    "rowsha": "SOHoTyczzE2dykvhN7RF5URhGMRaVtt1NdUAqSrXRZ4=",
+    "originContent": "## Issues",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "問題が発生した場合は、[こちら](https://github.com/Krowe-moh/BlueprintToCpp/issues)に報告してください。"
+  },
+  {
+    "row": 48,
+    "rowsha": "akxAfVNBovS5B6oXXAGmwVQq9nHEGnnogLTeLqtfVwM=",
+    "originContent": "If you encounter any issues, please submit them [here](https://github.com/Krowe-moh/BlueprintToCpp/issues).",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 貢献"
+  },
+  {
+    "row": 50,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "問題を報告したり、リポジトリをフォークして改善のためのプルリクエストを作成したりすることは自由です。"
+  },
+  {
+    "row": 52,
+    "rowsha": "CUBoEas7uw6j1P56YBNu+V9H5zqjv00+g1N0RB/oXjA=",
+    "originContent": "Feel free to submit issues, fork the repository, and create pull requests for any improvements.",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
