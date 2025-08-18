@@ -1,0 +1,872 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Hi there, I'm WxBotClient <img width=\"30px\" src=\"https://media.tenor.com/images/3b388fe03da271d2674faf85eb7c3fcd/tenor.gif\" />\n我是一款开源的微信托管软件，基于electron、wechaty和vue开发，现已接入ChatGPT，编译出的安装包开箱即用，不依赖复杂环境，托管程序不随意掉线，稳定可靠。\n\n<img align=\"right\" height=\"200\" src=\"https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./src/assets/icons/icon.png\" />\n\n---\n## 搭建方式\n### 下载&安装\n[releases包下载地址](https://github.com/WhiteWatson/wx-bot-client/releases)，在这里你可以下载到已经构建好的 **.exe安装包(windows)**，下载过程中下载软件可能提示文件不安全，可以忽略此提示，下载完成后本地安装即可。\n\n### 托管你的微信\n打开软件，点击**开始使用吧**按钮，在弹出的窗口填写你的openAI APIKey，\n\n![markdown picture](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/images/one.png)\n\n![markdown picture](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/images/apikeyinput.png)\n\n填写完毕后点击**就是现在，启动机器人**，等待二维码出现，二维码出现后使用微信扫描二维码即可登录并托管微信。\n\ntips: 国内使用请挂梯子，否则API不通过，AI会一直处于思考状态\n\n### 机器人基本设置\n登录成功后进入机器人管理后台，在左侧点击**GPT设置**菜单，可以看到基础的机器人设置。\n\n在**AI触发词**修改机器人触发词\n\n在**AI群聊、AI私聊**处可以指定机器人服务的群聊或微信用户\n\n![markdown picture](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/images/gptsetting.png)\n\n---\n## 功能简介\n### AI文字对话能力\n",
+    "ContentSha": "2xTXpHG9TIl9BKuHqwZAL8/bM3XXPLUM39wGumHkjJg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 안녕하세요, 저는 WxBotClient 입니다 <img width=\"30px\" src=\"https://media.tenor.com/images/3b388fe03da271d2674faf85eb7c3fcd/tenor.gif\" />\n저는 electron, wechaty, vue를 기반으로 개발된 오픈소스 위챗 위탁 소프트웨어이며, 현재 ChatGPT가 접목되어 있습니다. 빌드된 설치 패키지는 바로 사용할 수 있고, 복잡한 환경에 의존하지 않으며, 위탁 프로그램이 임의로 연결이 끊기지 않아 안정적이고 신뢰할 수 있습니다.\n\n<img align=\"right\" height=\"200\" src=\"https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./src/assets/icons/icon.png\" />\n\n---\n## 구축 방법\n### 다운로드&설치\n[릴리즈 패키지 다운로드 주소](https://github.com/WhiteWatson/wx-bot-client/releases), 여기서 이미 빌드된 **.exe 설치 패키지(윈도우용)** 를 다운로드할 수 있습니다. 다운로드 중에 소프트웨어가 파일이 안전하지 않다고 경고할 수 있으나, 이 경고는 무시해도 됩니다. 다운로드가 완료되면 로컬에서 설치하면 됩니다.\n\n### 위챗 위탁하기\n소프트웨어를 열고, **시작하기** 버튼을 클릭하세요. 팝업 창에 당신의 openAI APIKey를 입력합니다.\n\n![markdown picture](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/images/one.png)\n\n![markdown picture](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/images/apikeyinput.png)\n\n입력 완료 후 **지금 바로, 로봇 시작하기**를 클릭하고 QR 코드가 나타날 때까지 기다리세요. QR 코드가 나타나면 위챗으로 스캔하여 로그인하고 위챗을 위탁할 수 있습니다.\n\n팁: 국내에서 사용 시 VPN을 사용해야 하며, 그렇지 않으면 API가 통과되지 않아 AI가 계속 생각 중 상태에 머무를 수 있습니다.\n\n### 로봇 기본 설정\n로그인에 성공하면 로봇 관리 백엔드에 진입합니다. 좌측에서 **GPT 설정** 메뉴를 클릭하면 기본 로봇 설정을 볼 수 있습니다.\n\n**AI 트리거 단어**에서 로봇의 트리거 단어를 수정할 수 있습니다.\n\n**AI 그룹채팅, AI 개인채팅**에서는 로봇이 서비스를 제공할 그룹채팅 또는 위챗 사용자를 지정할 수 있습니다.\n\n![markdown picture](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/images/gptsetting.png)\n\n---\n## 기능 소개\n### AI 문자 대화 능력\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "c84g0pacAWBFtG0q0S8lTi74JIWjhwTIPBlKe5PUSAI=",
+        "originContent": "# Hi there, I'm WxBotClient <img width=\"30px\" src=\"https://media.tenor.com/images/3b388fe03da271d2674faf85eb7c3fcd/tenor.gif\" />",
+        "translatedContent": "# 안녕하세요, 저는 WxBotClient 입니다 <img width=\"30px\" src=\"https://media.tenor.com/images/3b388fe03da271d2674faf85eb7c3fcd/tenor.gif\" />"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ip9ySCmsadMEpHMWXQX41lyCxvwqzamZ9ZnBoE6KGBs=",
+        "originContent": "我是一款开源的微信托管软件，基于electron、wechaty和vue开发，现已接入ChatGPT，编译出的安装包开箱即用，不依赖复杂环境，托管程序不随意掉线，稳定可靠。",
+        "translatedContent": "저는 electron, wechaty, vue를 기반으로 개발된 오픈소스 위챗 위탁 소프트웨어이며, 현재 ChatGPT가 접목되어 있습니다. 빌드된 설치 패키지는 바로 사용할 수 있고, 복잡한 환경에 의존하지 않으며, 위탁 프로그램이 임의로 연결이 끊기지 않아 안정적이고 신뢰할 수 있습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "1ggaF72nUdPnfUQV/lKPNxX7okDytcIu9Eb0dQQreWI=",
+        "originContent": "<img align=\"right\" height=\"200\" src=\"https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./src/assets/icons/icon.png\" />",
+        "translatedContent": "<img align=\"right\" height=\"200\" src=\"https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./src/assets/icons/icon.png\" />"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 7,
+        "rowsha": "BMiq1VyA9ANYpDV/3OEKHEIVXi9Xzzoyoc96VsSFSfo=",
+        "originContent": "## 搭建方式",
+        "translatedContent": "## 구축 방법"
+      },
+      {
+        "row": 8,
+        "rowsha": "0HPI2bL7fC99zS+nHqSZUinr3aIcbqKc2N3caUQ35Gc=",
+        "originContent": "### 下载&安装",
+        "translatedContent": "### 다운로드&설치"
+      },
+      {
+        "row": 9,
+        "rowsha": "mVZHOganHvyoPXZUJanRjDed5v9s3kzmeCpaFAR1IiE=",
+        "originContent": "[releases包下载地址](https://github.com/WhiteWatson/wx-bot-client/releases)，在这里你可以下载到已经构建好的 **.exe安装包(windows)**，下载过程中下载软件可能提示文件不安全，可以忽略此提示，下载完成后本地安装即可。",
+        "translatedContent": "[릴리즈 패키지 다운로드 주소](https://github.com/WhiteWatson/wx-bot-client/releases), 여기서 이미 빌드된 **.exe 설치 패키지(윈도우용)** 를 다운로드할 수 있습니다. 다운로드 중에 소프트웨어가 파일이 안전하지 않다고 경고할 수 있으나, 이 경고는 무시해도 됩니다. 다운로드가 완료되면 로컬에서 설치하면 됩니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "uipA2POtYc+sLaoLSeXbptEl/+yGKzToCbC9E1+EyEA=",
+        "originContent": "### 托管你的微信",
+        "translatedContent": "### 위챗 위탁하기"
+      },
+      {
+        "row": 12,
+        "rowsha": "hWNjszvHYCFo4DRbq7Z/Ej7/BNDXRfPkEmeXIG1sCfs=",
+        "originContent": "打开软件，点击**开始使用吧**按钮，在弹出的窗口填写你的openAI APIKey，",
+        "translatedContent": "소프트웨어를 열고, **시작하기** 버튼을 클릭하세요. 팝업 창에 당신의 openAI APIKey를 입력합니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "cVv4MnBSr/Pewm1kLKBc1Ej69Purd5qEflSoNp0vN6U=",
+        "originContent": "![markdown picture](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/images/one.png)",
+        "translatedContent": "![markdown picture](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/images/one.png)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "USB9cAtw2XAaPEwwCRwQ8XzQk2wJV6aHKq8rK3G4NSQ=",
+        "originContent": "![markdown picture](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/images/apikeyinput.png)",
+        "translatedContent": "![markdown picture](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/images/apikeyinput.png)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "SiqJ2Zim65i2a0dV2duJgHethXkdfUeUCZowQo455bY=",
+        "originContent": "填写完毕后点击**就是现在，启动机器人**，等待二维码出现，二维码出现后使用微信扫描二维码即可登录并托管微信。",
+        "translatedContent": "입력 완료 후 **지금 바로, 로봇 시작하기**를 클릭하고 QR 코드가 나타날 때까지 기다리세요. QR 코드가 나타나면 위챗으로 스캔하여 로그인하고 위챗을 위탁할 수 있습니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Cu7cpW9LJR1f+q5qf81uv5/FQ40wf/canrHHzMpCuoE=",
+        "originContent": "tips: 国内使用请挂梯子，否则API不通过，AI会一直处于思考状态",
+        "translatedContent": "팁: 국내에서 사용 시 VPN을 사용해야 하며, 그렇지 않으면 API가 통과되지 않아 AI가 계속 생각 중 상태에 머무를 수 있습니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "JH9co1Pp4mc+TSkKyBMS2JYSsm9zdgyR8lr/4IETm3w=",
+        "originContent": "### 机器人基本设置",
+        "translatedContent": "### 로봇 기본 설정"
+      },
+      {
+        "row": 23,
+        "rowsha": "SJqBINaX3kxbEPD9IGb9Ie4kEETlJebGM3WAZ0Dfb+I=",
+        "originContent": "登录成功后进入机器人管理后台，在左侧点击**GPT设置**菜单，可以看到基础的机器人设置。",
+        "translatedContent": "로그인에 성공하면 로봇 관리 백엔드에 진입합니다. 좌측에서 **GPT 설정** 메뉴를 클릭하면 기본 로봇 설정을 볼 수 있습니다."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "aT7EaihSRfjn9zGciNvLkEMcLXEYsOnkYaUcOYKX3TE=",
+        "originContent": "在**AI触发词**修改机器人触发词",
+        "translatedContent": "**AI 트리거 단어**에서 로봇의 트리거 단어를 수정할 수 있습니다."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "6mZ5zGuc5yYqfuLwhOjjdXzV+LoVzPiF0bIRiBr+VN4=",
+        "originContent": "在**AI群聊、AI私聊**处可以指定机器人服务的群聊或微信用户",
+        "translatedContent": "**AI 그룹채팅, AI 개인채팅**에서는 로봇이 서비스를 제공할 그룹채팅 또는 위챗 사용자를 지정할 수 있습니다."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "z8QTcaLWdMA8QFOBjSTjGe5j+PAOE0lW/rHpwLm8u3c=",
+        "originContent": "![markdown picture](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/images/gptsetting.png)",
+        "translatedContent": "![markdown picture](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/images/gptsetting.png)"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 32,
+        "rowsha": "+6gIrKvk4bpp6M+h6YEBUMa430QiYC5p8dZB/NxTGWc=",
+        "originContent": "## 功能简介",
+        "translatedContent": "## 기능 소개"
+      },
+      {
+        "row": 33,
+        "rowsha": "XvCh6gtTEI78B3Fl5J7Y31R80Lar4u/RRvzn3vOoreY=",
+        "originContent": "### AI文字对话能力",
+        "translatedContent": "### AI 문자 대화 능력"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n提问格式： @AI + 问题内容\n\n例：@AI 你是谁？\n```",
+    "ContentSha": "uy1hU0v1aR6TmkJlCbMH5u3U7wS7o4jhNIaXubH2tmA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n提问格式： @AI + 问题内容\n\n例：@AI 你是谁？\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "MdGx2qbK2XhFNY2EIZAEdVPKwHddBPrVyRBEvt1KfSA=",
+        "originContent": "提问格式： @AI + 问题内容",
+        "translatedContent": "提问格式： @AI + 问题内容"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "1+iTmYV6KNGzbZUxRxyUKYve4XBM3pJSJgrEf2/eaN4=",
+        "originContent": "例：@AI 你是谁？",
+        "translatedContent": "例：@AI 你是谁？"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### AI生成图片能力",
+    "ContentSha": "pZmbR1WODksH0cSxVqWuFdArYRNxP6nf6lAvR7+Z+Po=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### AI 생성 이미지 능력\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### AI 생성 이미지 능력"
+      },
+      {
+        "row": 2,
+        "rowsha": "j545w2RvbPyp9OYfqwALl3n+PLLnlrrjvsMvlj/UxiM=",
+        "originContent": "### AI生成图片能力",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\n提问格式： /image + 图片提示词\n\n例：/image 一个骑马的人\n```",
+    "ContentSha": "MhRhL1sqeps28QT4MLivq7gXRelfQN0mypC+qcuOWQ8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n提问格式： /image + 图片提示词\n\n例：/image 一个骑马的人\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "+iaAPFpIXrzo3+7rCGBRT8XqsUnRBAte86FeqFOuGbY=",
+        "originContent": "提问格式： /image + 图片提示词",
+        "translatedContent": "提问格式： /image + 图片提示词"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "jHQxrCNA0xS2MRJqejZjwaTsophniL7mRy0HRv4QI+g=",
+        "originContent": "例：/image 一个骑马的人",
+        "translatedContent": "例：/image 一个骑马的人"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "tips: 由于AI容易生成违禁图片，因此机器人直接发送图片链接，且链接具有时效性\n\n---\n\n## 自定义部署\n此项目本地运行依赖node环境\n\n### 安装依赖\n\n请注意这里必须用 yarn 或者 pnpm 安装依赖",
+    "ContentSha": "1nHYy+fTYxI4bFTrOdUo5UAyOT6s9Um/woJgfbb3dSc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "tips: AI가 금지된 이미지를 쉽게 생성할 수 있으므로, 로봇은 직접 이미지 링크를 전송하며 링크는 유효 기간이 있습니다.\n\n---\n\n## 사용자 정의 배포\n이 프로젝트는 로컬에서 node 환경에 의존합니다.\n\n### 의존성 설치\n\n여기서는 반드시 yarn 또는 pnpm을 사용하여 의존성을 설치해야 합니다.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTxocvPxUvlTTX6NrBvMEQF0jkPA7yALQHOQe6xYDPU=",
+        "originContent": "tips: 由于AI容易生成违禁图片，因此机器人直接发送图片链接，且链接具有时效性",
+        "translatedContent": "tips: AI가 금지된 이미지를 쉽게 생성할 수 있으므로, 로봇은 직접 이미지 링크를 전송하며 링크는 유효 기간이 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "coZQRxuDB+OPi9PidmzHTOuzWy/jdRO1+6kXUtmNVc4=",
+        "originContent": "## 自定义部署",
+        "translatedContent": "## 사용자 정의 배포"
+      },
+      {
+        "row": 6,
+        "rowsha": "ap/donB1fgxIuWndCQ6iA3D/TaaLV55u/kk0toGU29o=",
+        "originContent": "此项目本地运行依赖node环境",
+        "translatedContent": "이 프로젝트는 로컬에서 node 환경에 의존합니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "QzL5i5hKukb30pFjI5poVgl1VXnZiwwoV8uXeunZcYE=",
+        "originContent": "### 安装依赖",
+        "translatedContent": "### 의존성 설치"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "1iEum+gnHp+zRjRyCHZ066pS+FdRP44GNv0qMsUaK+4=",
+        "originContent": "请注意这里必须用 yarn 或者 pnpm 安装依赖",
+        "translatedContent": "여기서는 반드시 yarn 또는 pnpm을 사용하여 의존성을 설치해야 합니다."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nyarn install\n```",
+    "ContentSha": "Rta19DTQgHcAJiHm8MUz6p79pm303zdo4daT1zcFnQk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nyarn install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "UWnszpf2bQa9Un4es5vKU4mcLg+R5FPsdH2U31RWLJg=",
+        "originContent": "yarn install",
+        "translatedContent": "yarn install"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### 接入ChatGPT并本地运行项目：\n",
+    "ContentSha": "dbRHlM4Dj0mYHAQcrbK0PrY88CeEiVkZ9eeZpJ/gUdo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### ChatGPT 접속 및 로컬 실행 프로젝트:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ChatGPT 접속 및 로컬 실행 프로젝트:"
+      },
+      {
+        "row": 2,
+        "rowsha": "5SCgQ8leBSPO7/iBWD4rsmQo9fkm+Ye0zQY3EJsTXkY=",
+        "originContent": "### 接入ChatGPT并本地运行项目：",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\nnpm run electron:serve\n```",
+    "ContentSha": "5wmojPG5aAzVi+iGWZDcve6KDE80jTASuVbMG6JvIsY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nnpm run electron:serve\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "lgua9Ft71iachTacIPH3k3AJo5E2xPDNY4mgQBIx2G0=",
+        "originContent": "npm run electron:serve",
+        "translatedContent": "npm run electron:serve"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### 打包客户端安装包:",
+    "ContentSha": "B0Awp7wW98k0e5v1/h1hWxmMhUa/d4N1BmCCAbO5aDs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 클라이언트 설치 패키지 패키징:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mvYqfFwWHm2jrKiu8M6ReVzlEtAAZuxVpGaPfGUuCQI=",
+        "originContent": "### 打包客户端安装包:",
+        "translatedContent": "### 클라이언트 설치 패키지 패키징:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\nnpm run electron:build\n```",
+    "ContentSha": "iwjNUIpJlUtRugZpPAc6T8lRdQx0g0g6+AO1SPh7TCE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nnpm run electron:build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "cEIxTO/KxvQgBbFM9NyyNQg4VFIzkrYLUkWuoLgP9is=",
+        "originContent": "npm run electron:build",
+        "translatedContent": "npm run electron:build"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "### 在项目中配置openAI APIKey\n进入`/src/bot/config.ts`目录，将从[openAi官网API申请入口](https://platform.openai.com/account/api-keys)申请到`Organization`和`APIKey`的填写到`setApiKey`函数中\n\n### 如果遇到问题[可以先查阅此文档](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/problem.md)\n\n---\n## I'm a Computer Science and Engineering Student  \n\n- 👨‍💻 I’m currently working on web development technologies like JavaScript, Vue etc.\n- 💪🏼 Future Goals: Learn more technologies - Never stop creating new ideas.\n- ⚡ Fun fact: I love to play Genshin Impact.\n\n### 特别感谢 leeguiyu@qq.com创作的icon\n\n### Languages and Tools 🛠 \n\n![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)\n![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)\n![CSS3](https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3)\n![Sass](https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff)\n![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap)\n![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown)\n![Nodejs](https://img.shields.io/badge/-Nodejs-339933?style=flat-square&logo=Node.js&logoColor=ffffff)\n![Npm](https://img.shields.io/badge/-npm-CB3837?style=flat-square&logo=npm)\n![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff)\n![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)\n![VS Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=ffffff)\n![Powershell](http://img.shields.io/badge/-Powershell-5391FE?style=flat-square&logo=powershell&logoColor=ffffff)\n![Windows](http://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=windows&logoColor=ffffff)\n\n<br/>\n\n<br/>\n\n  <h2 align=\"center\"> Github Statistics 📈 </h2>\n  \n  <div align=\"center\"> \n     <a href=\"\">\n      <img align=\"center\" src=\"https://github-readme-stats-sigma-five.vercel.app/api?username=WhiteWatson&show_icons=true&include_all_commits=true&count_private=true&theme=react&line_height=40\" />\n    </a>",
+    "ContentSha": "gtlxrY+l9cmqCWEBFI9dLsb+ssRrHt6lYHFAkQvPntM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 프로젝트에서 openAI APIKey 설정하기\n`/src/bot/config.ts` 경로로 이동하여, [openAi 공식 API 신청 페이지](https://platform.openai.com/account/api-keys)에서 받은 `Organization`과 `APIKey`를 `setApiKey` 함수에 입력합니다.\n\n### 문제가 발생하면 [이 문서를 먼저 참조하세요](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/problem.md)\n\n---\n## 저는 컴퓨터 공학과 학생입니다  \n\n- 👨‍💻 현재 JavaScript, Vue 등의 웹 개발 기술을 공부하고 있습니다.\n- 💪🏼 미래 목표: 더 많은 기술을 배우고 새로운 아이디어를 계속 창조하는 것.\n- ⚡ 재미있는 사실: 저는 원신(Genshin Impact)을 즐겨 합니다.\n\n### 특별히 leeguiyu@qq.com 님이 제작한 아이콘에 감사드립니다.\n\n### 사용 언어 및 도구 🛠 \n\n![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)\n![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)\n![CSS3](https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3)\n![Sass](https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff)\n![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap)\n![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown)\n![Nodejs](https://img.shields.io/badge/-Nodejs-339933?style=flat-square&logo=Node.js&logoColor=ffffff)\n![Npm](https://img.shields.io/badge/-npm-CB3837?style=flat-square&logo=npm)\n![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff)\n![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)\n![VS Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=ffffff)\n![Powershell](http://img.shields.io/badge/-Powershell-5391FE?style=flat-square&logo=powershell&logoColor=ffffff)\n![Windows](http://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=windows&logoColor=ffffff)\n\n<br/>\n\n<br/>\n\n  <h2 align=\"center\"> Github 통계 📈 </h2>\n  \n  <div align=\"center\"> \n     <a href=\"\">\n      <img align=\"center\" src=\"https://github-readme-stats-sigma-five.vercel.app/api?username=WhiteWatson&show_icons=true&include_all_commits=true&count_private=true&theme=react&line_height=40\" />\n    </a>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "yJYIYht2tZhA4R/oNHFIQgZSw3upuZluftZ7oDYn1rQ=",
+        "originContent": "### 在项目中配置openAI APIKey",
+        "translatedContent": "### 프로젝트에서 openAI APIKey 설정하기"
+      },
+      {
+        "row": 2,
+        "rowsha": "+2HNcf2EptXjTQzO+ptGs6a6MsrjD7/r1foyCkxGbPk=",
+        "originContent": "进入`/src/bot/config.ts`目录，将从[openAi官网API申请入口](https://platform.openai.com/account/api-keys)申请到`Organization`和`APIKey`的填写到`setApiKey`函数中",
+        "translatedContent": "`/src/bot/config.ts` 경로로 이동하여, [openAi 공식 API 신청 페이지](https://platform.openai.com/account/api-keys)에서 받은 `Organization`과 `APIKey`를 `setApiKey` 함수에 입력합니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8jobfmuAN7rXN7UYTyHc/VdvkpYa0zYNLfXfoQa9lrg=",
+        "originContent": "### 如果遇到问题[可以先查阅此文档](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/problem.md)",
+        "translatedContent": "### 문제가 발생하면 [이 문서를 먼저 참조하세요](https://raw.githubusercontent.com/WhiteWatson/wx-bot-client/main/./doc/problem.md)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 7,
+        "rowsha": "FJMWXbxi+hJDZa0bTqJCSxVE6z+rVRyPQBr0A0IFJ40=",
+        "originContent": "## I'm a Computer Science and Engineering Student  ",
+        "translatedContent": "## 저는 컴퓨터 공학과 학생입니다  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "xWSbVriKziKELYrCrXAMcdSFEFPkusxod/Q62OgcJYw=",
+        "originContent": "- 👨‍💻 I’m currently working on web development technologies like JavaScript, Vue etc.",
+        "translatedContent": "- 👨‍💻 현재 JavaScript, Vue 등의 웹 개발 기술을 공부하고 있습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "IxZbw5h67MpF44zxNAXkpafXQuHvgY/LYGvom5lGonY=",
+        "originContent": "- 💪🏼 Future Goals: Learn more technologies - Never stop creating new ideas.",
+        "translatedContent": "- 💪🏼 미래 목표: 더 많은 기술을 배우고 새로운 아이디어를 계속 창조하는 것."
+      },
+      {
+        "row": 11,
+        "rowsha": "80bMxiLza4FXiXvcHRhQZ276FDE4azz1TLg8Qaw0Kv8=",
+        "originContent": "- ⚡ Fun fact: I love to play Genshin Impact.",
+        "translatedContent": "- ⚡ 재미있는 사실: 저는 원신(Genshin Impact)을 즐겨 합니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "ZLZLu8D4r3ccGivzqLCd+6tO7OC7YYPUvk/ixwrfINI=",
+        "originContent": "### 特别感谢 leeguiyu@qq.com创作的icon",
+        "translatedContent": "### 특별히 leeguiyu@qq.com 님이 제작한 아이콘에 감사드립니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "VdAf48jR8jYqXoydwfXhcvv4SS7GNXhgMhe4Qq+tdxM=",
+        "originContent": "### Languages and Tools 🛠 ",
+        "translatedContent": "### 사용 언어 및 도구 🛠 "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "4ipB4g/Nt/dWTuu5r2UAKDfOBLTaaiLBJEw7kkhkZ/8=",
+        "originContent": "![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)",
+        "translatedContent": "![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)"
+      },
+      {
+        "row": 18,
+        "rowsha": "xmiPaFOcuzlOj07NITCjqJTyyeLUCZ0LtimllspFhS4=",
+        "originContent": "![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)",
+        "translatedContent": "![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)"
+      },
+      {
+        "row": 19,
+        "rowsha": "ZQaFzwyZowNz5O8XvUPnzTmvHj2x6f8gvIcwXg9brZY=",
+        "originContent": "![CSS3](https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3)",
+        "translatedContent": "![CSS3](https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3)"
+      },
+      {
+        "row": 20,
+        "rowsha": "JriFon586DOD152x3L7N1MYwXjEeo87pZHvoueWERbQ=",
+        "originContent": "![Sass](https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff)",
+        "translatedContent": "![Sass](https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff)"
+      },
+      {
+        "row": 21,
+        "rowsha": "0Oca6c6Gryt2OeabBSrMDe3K4K3Eydf9LdCKVJkT/pU=",
+        "originContent": "![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap)",
+        "translatedContent": "![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap)"
+      },
+      {
+        "row": 22,
+        "rowsha": "oO/K/2BcZdCYlzbEgkWSN+oSRNuiqBm1dWiHzZbSyEw=",
+        "originContent": "![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown)",
+        "translatedContent": "![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown)"
+      },
+      {
+        "row": 23,
+        "rowsha": "zOWlUHlLsj05Lh31kmoYQyP9UBH5feqivEXmFae/3j0=",
+        "originContent": "![Nodejs](https://img.shields.io/badge/-Nodejs-339933?style=flat-square&logo=Node.js&logoColor=ffffff)",
+        "translatedContent": "![Nodejs](https://img.shields.io/badge/-Nodejs-339933?style=flat-square&logo=Node.js&logoColor=ffffff)"
+      },
+      {
+        "row": 24,
+        "rowsha": "7Cje5bCECGXcWlYhoVPAYDLXy62d6Axkp+jB5UNJzIY=",
+        "originContent": "![Npm](https://img.shields.io/badge/-npm-CB3837?style=flat-square&logo=npm)",
+        "translatedContent": "![Npm](https://img.shields.io/badge/-npm-CB3837?style=flat-square&logo=npm)"
+      },
+      {
+        "row": 25,
+        "rowsha": "aKLQerznjtZ/W/79fPR2RtWHdDjxniGae6MKM69lXuM=",
+        "originContent": "![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff)",
+        "translatedContent": "![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff)"
+      },
+      {
+        "row": 26,
+        "rowsha": "7QO+jFJw9z3ZakaGZcEnNQBKrwOQqHEBjHACkItCKsk=",
+        "originContent": "![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)",
+        "translatedContent": "![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)"
+      },
+      {
+        "row": 27,
+        "rowsha": "fkQ2dvT5c+gv05aL4Ys/N9OP37mJAgwmg+u7GoUsLzw=",
+        "originContent": "![VS Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=ffffff)",
+        "translatedContent": "![VS Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=ffffff)"
+      },
+      {
+        "row": 28,
+        "rowsha": "aRopbdqNurpJ0PboTaQhJUdopVkw6z9mbuujTiQMT0Q=",
+        "originContent": "![Powershell](http://img.shields.io/badge/-Powershell-5391FE?style=flat-square&logo=powershell&logoColor=ffffff)",
+        "translatedContent": "![Powershell](http://img.shields.io/badge/-Powershell-5391FE?style=flat-square&logo=powershell&logoColor=ffffff)"
+      },
+      {
+        "row": 29,
+        "rowsha": "WWqWtHammzxPkcEW+Z8QahnBBAVnyKxdG7r9unDL/Vk=",
+        "originContent": "![Windows](http://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=windows&logoColor=ffffff)",
+        "translatedContent": "![Windows](http://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=windows&logoColor=ffffff)"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "rruxwmyOg/fdIP4qTHAiCXZkrZbcVv6fB/NLSd5I/vY=",
+        "originContent": "  <h2 align=\"center\"> Github Statistics 📈 </h2>",
+        "translatedContent": "  <h2 align=\"center\"> Github 통계 📈 </h2>"
+      },
+      {
+        "row": 36,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 37,
+        "rowsha": "/AWOPuZ6TrUcCdo9N9XzvGaBoIE/rAcrC3a7xwfBRFE=",
+        "originContent": "  <div align=\"center\"> ",
+        "translatedContent": "  <div align=\"center\"> "
+      },
+      {
+        "row": 38,
+        "rowsha": "Tjcd8D1P563xd29TRXTfC44uxbyd9+w6ZrPQkojuaIY=",
+        "originContent": "     <a href=\"\">",
+        "translatedContent": "     <a href=\"\">"
+      },
+      {
+        "row": 39,
+        "rowsha": "C3nYqgOXDJO+EerOaArb2BSs+pz/fHTqRHu6OOS1rCo=",
+        "originContent": "      <img align=\"center\" src=\"https://github-readme-stats-sigma-five.vercel.app/api?username=WhiteWatson&show_icons=true&include_all_commits=true&count_private=true&theme=react&line_height=40\" />",
+        "translatedContent": "      <img align=\"center\" src=\"https://github-readme-stats-sigma-five.vercel.app/api?username=WhiteWatson&show_icons=true&include_all_commits=true&count_private=true&theme=react&line_height=40\" />"
+      },
+      {
+        "row": 40,
+        "rowsha": "r52QjIbZf1aIcwCydWRFx1LDX4Vc0bsXMVxnkEUrqHA=",
+        "originContent": "    </a>",
+        "translatedContent": "    </a>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "    <a href=\"\">\n      <img align=\"center\" src=\"https://github-readme-stats.vercel.app/api/top-langs/?username=WhiteWatson&theme=react&line_height=40&hide=css\"/>\n    </a>\n</div\n  \n<br/>\n\n\n",
+    "ContentSha": "P/hsRQR5ZV561D4a/Pc6YLaUz8Upraq1bx6w+QQTJWQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    <a href=\"\">\n      <img align=\"center\" src=\"https://github-readme-stats.vercel.app/api/top-langs/?username=WhiteWatson&theme=react&line_height=40&hide=css\"/>\n    </a>\n</div\n  \n<br/>\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "OC2xXPqm82juZ/shNGbTyneS5+oG3HRRwB39w7Rw9WI=",
+        "originContent": "    <a href=\"\">",
+        "translatedContent": "    <a href=\"\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "ML1IlqRyp63gtVzl+n1/XxIy9TqH79IiRfb56SIlJb4=",
+        "originContent": "      <img align=\"center\" src=\"https://github-readme-stats.vercel.app/api/top-langs/?username=WhiteWatson&theme=react&line_height=40&hide=css\"/>",
+        "translatedContent": "      <img align=\"center\" src=\"https://github-readme-stats.vercel.app/api/top-langs/?username=WhiteWatson&theme=react&line_height=40&hide=css\"/>"
+      },
+      {
+        "row": 3,
+        "rowsha": "r52QjIbZf1aIcwCydWRFx1LDX4Vc0bsXMVxnkEUrqHA=",
+        "originContent": "    </a>",
+        "translatedContent": "    </a>"
+      },
+      {
+        "row": 4,
+        "rowsha": "Zld409y40RgouDDBGL66UT0S0Rya2ztqzHfIBduXzS8=",
+        "originContent": "</div",
+        "translatedContent": "</div"
+      },
+      {
+        "row": 5,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 6,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
