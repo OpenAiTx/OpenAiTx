@@ -1,5 +1,20 @@
 # Agent2Agent (A2A) Voorbeelden
 
+<a href="https://studio.firebase.google.com/new?template=https%3A%2F%2Fgithub.com%2Fa2aproject%2Fa2a-samples%2Ftree%2Fmain%2F.firebase-studio">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_light_20.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_dark_20.svg">
+    <img
+      height="20"
+      alt="Probeer in Firebase Studio"
+      src="https://cdn.firebasestudio.dev/btn/try_blue_20.svg">
+  </picture>
+</a>
+
 <div style="text-align: right;">
   <details>
     <summary>🌐 Taal</summary>
@@ -23,7 +38,7 @@
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa">فارسی</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=tr">Türkçe</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=vi">Tiếng Việt</a>
-      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=id">Bahasa Indonesia</a>
+      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=nl">Nederlands</a>
     </div>
   </details>
 </div>
@@ -32,31 +47,31 @@ Deze repository bevat codevoorbeelden en demo’s die gebruikmaken van het [Agen
 
 ## Gerelateerde Repositories
 
-- [A2A](https://github.com/a2aproject/A2A) - A2A Specificatie en documentatie.
+- [A2A](https://github.com/a2aproject/A2A) - A2A-specificatie en documentatie.
 - [a2a-python](https://github.com/a2aproject/a2a-python) - A2A Python SDK.
-- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - UI-tool om A2A-agenten te inspecteren.
+- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - UI-tool voor het inspecteren van A2A-geactiveerde agents.
 
 ## Bijdragen
 
-Bijdragen zijn welkom! Zie de [Contributiehandleiding](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).
+Bijdragen zijn welkom! Zie de [Bijdragegids](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).
 
 ## Hulp nodig
 
-Gebruik de [issues-pagina](https://github.com/a2aproject/a2a-samples/issues) om suggesties, feedback of een bugrapport in te dienen.
+Gebruik de [issues-pagina](https://github.com/a2aproject/a2a-samples/issues) om suggesties, feedback te geven of een bugrapport in te dienen.
 
 ## Disclaimer
 
-Deze repository is zelf geen officieel ondersteund Google-product. De code in deze repository is uitsluitend bedoeld ter demonstratie.
+Deze repository zelf is geen officieel ondersteund Google-product. De code in deze repository is alleen voor demonstratieve doeleinden.
 
-Belangrijk: De aangeboden voorbeeldcode is bedoeld ter demonstratie en toont de werking van het Agent-to-Agent (A2A) protocol. Bij het bouwen van productieapplicaties is het essentieel om elke agent buiten uw directe controle als mogelijk onbetrouwbaar te beschouwen.
+Belangrijk: De voorbeeldcode die wordt verstrekt is uitsluitend bedoeld ter demonstratie en illustreert de werking van het Agent-to-Agent (A2A) protocol. Bij het bouwen van productieapplicaties is het cruciaal om iedere agent buiten uw directe controle als potentieel onbetrouwbaar te beschouwen.
 
-Alle data afkomstig van een externe agent—waaronder maar niet beperkt tot zijn AgentCard, berichten, artefacten en taakstatussen—moet worden behandeld als onbetrouwbare input. Bijvoorbeeld, een kwaadaardige agent kan een AgentCard leveren met gemanipuleerde gegevens in zijn velden (zoals beschrijving, naam, skills.description). Als deze gegevens zonder opschoning worden gebruikt om prompts voor een Large Language Model (LLM) te maken, kan dit uw applicatie blootstellen aan prompt-injectieaanvallen. Het niet goed valideren en opschonen van deze gegevens vóór gebruik kan beveiligingslekken in uw applicatie introduceren.
+Alle gegevens ontvangen van een externe agent—including maar niet beperkt tot AgentCard, berichten, artefacten en taakstatussen—moeten worden behandeld als onbetrouwbare input. Bijvoorbeeld, een kwaadaardige agent kan een AgentCard leveren met gemanipuleerde gegevens in de velden (bijv. beschrijving, naam, skills.beschrijving). Als deze gegevens zonder sanering worden gebruikt om prompts te maken voor een Large Language Model (LLM), kan dit uw applicatie blootstellen aan promptinjectie-aanvallen. Het niet juist valideren en saneren van deze gegevens vóór gebruik kan beveiligingslekken introduceren in uw applicatie.
 
-Ontwikkelaars zijn verantwoordelijk voor het implementeren van passende beveiligingsmaatregelen, zoals inputvalidatie en veilige omgang met inloggegevens, om hun systemen en gebruikers te beschermen.
+Ontwikkelaars zijn verantwoordelijk voor het implementeren van passende beveiligingsmaatregelen, zoals inputvalidatie en veilige omgang met inloggegevens om hun systemen en gebruikers te beschermen.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

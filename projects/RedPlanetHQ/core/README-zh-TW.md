@@ -33,7 +33,7 @@
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
-### C.O.R.E：AI時代的數位大腦
+### CORE：Claude、Cursor、ChatGPT 及所有 AI 工具的統一記憶層
 
 <p align="center">
     <a href="https://deepwiki.com/RedPlanetHQ/core">
@@ -41,71 +41,102 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>文件</b></a> •
+    <a href="https://docs.heysol.ai/core/overview"><b>文件說明</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
 </div>
 
-## 🧠 C.O.R.E.
+## 概覽
 
-**情境觀察與回憶引擎**
+**問題**
 
-C.O.R.E是一個可攜式記憶圖譜，根據你的llm互動和個人資料建立，讓所有情境和工作流程歷史對任意AI工具可用，就像你的數位大腦。這消除了重複提供情境的需要。目標是提供：
+開發者需重複向 AI 工具解釋背景，浪費時間。在 Claude 遇到 Token 上限？只能重新開始，所有內容都消失。從 ChatGPT/Claude 換到 Cursor？又得重新解釋你的背景。你的對話、決策和洞見在不同工作階段間都消失不見。
 
-- **統一可攜的記憶體**：無縫新增與回憶情境，並將你的記憶連接到如Claude、Cursor、Windsurf等應用。
-- **關聯式，而非僅僅平面事實**：CORE組織你的知識，儲存事實和關係，打造如真實大腦般更深更豐富的記憶。
-- **使用者擁有**：你決定保留、更新或刪除什麼，並可在所需工具間分享記憶，免於廠商綁定。
+**解決方案** - **CORE**（**情境觀察與回憶引擎**）
 
-## 🎥 示範影片
+CORE 是一個開源、統一且持久的記憶層，適用於所有 AI 工具。你的背景會從 Cursor 跟著你到 Claude、ChatGPT、Claude Code。單一知識圖譜記錄誰在什麼時候說了什麼，以及原因。只需連接一次，隨處記得。停止管理背景，開始專注於建設。
 
-[觀看C.O.R.E示範](https://youtu.be/iANZ32dnK60)
+## 🚀 開始使用
+**5 分鐘建立你的統一記憶圖譜：**
 
-<img width="7480" height="4672" alt="core-memory-graph" src="https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b" />
+1. 在 [core.heysol.ai](https://core.heysol.ai) **註冊**並建立帳戶
+2. **新增第一則記憶** - 分享你的個人背景
+
+    <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
+
+
+3. **視覺化你的記憶圖譜**，看 CORE 如何自動建立事實間的連結
+5. **試用看看** - 在對話區問「你知道我什麼？」
+6. 連接你的工具：
+   - [Claude](https://docs.heysol.ai/providers/claude) 與 [Cursor](https://docs.heysol.ai/providers/cursor) - 帶背景的程式開發
+   - [Claude Code CLI](https://docs.heysol.ai/providers/claude) 與 [Gemini CLI](https://docs.heysol.ai/providers/cursor) - 終端機記憶程式開發
+   - [安裝瀏覽器擴充套件](https://docs.heysol.ai/providers/cursor) - 把你的記憶帶到任何網站
+   - [Linear](https://docs.heysol.ai/providers/claude)、[Slack](https://docs.heysol.ai/providers/cursor)、[Github](https://docs.heysol.ai/providers/cursor) - 自動加入專案背景
 
 ## 🧩 主要功能
 
-- **記憶圖譜**：可視化你的事實和偏好如何彼此連結
-- **記憶對話**：詢問關於記憶的問題，立即獲得洞見與理解
-- **即插即用**：在Cursor、Claude等應用中即時使用CORE記憶
+### 🧠 **統一且可攜式記憶**：
+透過 MCP 在 **Cursor、Windsurf、Claude Desktop、Claude Code、Gemini CLI、AWS 的 Kiro、VS Code 和 Roo Code** 間新增並呼叫你的記憶
 
-## ☁️ C.O.R.E 雲端設置
+### 🕸️ **時序化 + 具現化知識圖譜**：
 
-1. 造訪 [core.heysol.ai](https://core.heysol.ai)
-2. 以你的電子郵件註冊
-3. 告訴CORE你的資訊：“我是一位軟體工程師，正在開發名為TaskMaster的React專案。我偏好TypeScript並使用Tailwind進行樣式設計。”
-   <img width="2048" height="1172" alt="add-memory" src="https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938" />
-4. [將Core MCP連接到Claude](https://docs.heysol.ai/providers/claude)
-5. [將Core MCP連接到Cursor](https://docs.heysol.ai/providers/cursor)
+記住每個事實背後的故事——追蹤誰說了什麼、何時、為什麼，擁有豐富的關係與完整的溯源，不只是平面儲存
 
-## 💻 C.O.R.E 自架部署
+https://github.com/user-attachments/assets/d18e3caa-72ea-4596-bbf7-cc9e32bd772f
 
-參閱我們的[文件](https://docs.heysol.ai/self-hosting/docker)獲得模組化部署方式
+### 🌐 **瀏覽器擴充功能**：
+
+直接將 ChatGPT、Grok、Gemini、Twitter、YouTube、部落格文章及任何網頁上的對話捕捉到你的 CORE 記憶中
+
+
+https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
+
+
+### 💬 **與記憶對話**：
+詢問如「我的寫作偏好是什麼？」等問題，並從你連結的知識中即時獲得洞察
+
+https://github.com/user-attachments/assets/6be5aca5-1d2f-419e-9deb-acb897a05c20
+
+### ⚡ **自動從應用程式同步**：
+
+自動將 Linear、Slack、Notion、GitHub 及其他連結應用程式中的相關內容捕捉到你的 CORE 記憶中
+
+https://github.com/user-attachments/assets/a797f182-406d-49e8-80a8-20932169931d
+
+### 🔗 **MCP 整合中心**：
+
+只需一次連接 Linear、Slack、GitHub、Notion 到 CORE——即可在 Claude、Cursor 或任何 MCP 客戶端中使用所有工具
+
+
+https://github.com/user-attachments/assets/be2d69a7-6c6c-43ad-91b7-6db66712821d
+
+
 
 ## 文件
 
-瀏覽我們的文件，充分發揮CORE效能
+探索我們的文件，充分發揮 CORE 的價值
 
 - [基本概念](https://docs.heysol.ai/concepts/memory_graph)
-- [自架部署](https://docs.heysol.ai/self-hosting/overview)
-- [將Core MCP連接到Claude](https://docs.heysol.ai/providers/claude)
-- [將Core MCP連接到Cursor](https://docs.heysol.ai/providers/cursor)
+- [自我架設](https://docs.heysol.ai/self-hosting/overview)
+- [連接 Core MCP 與 Claude](https://docs.heysol.ai/providers/claude)
+- [連接 Core MCP 與 Cursor](https://docs.heysol.ai/providers/cursor)
 
 - [基本概念](https://docs.heysol.ai/overview)
-- [API參考](https://docs.heysol.ai/local-setup)
+- [API 參考](https://docs.heysol.ai/local-setup)
 
 ## 🧑‍💻 支援
 
-有問題或回饋嗎？我們隨時為你服務：
+有任何問題或回饋？我們隨時為您服務：
 
-- Discord: [加入core-support頻道](https://discord.gg/YGUZcvDjUa)
-- 文件說明: [docs.heysol.ai](https://docs.heysol.ai)
+- Discord: [加入 core-support 頻道](https://discord.gg/YGUZcvDjUa)
+- 文件: [docs.heysol.ai](https://docs.heysol.ai)
 - 電子郵件: manik@poozle.dev
 
-## 使用指引
+## 使用指南
 
-**請儲存：**
+**儲存：**
 
-- 對話紀錄
+- 對話歷史
 - 使用者偏好設定
 - 任務內容
 - 參考資料
@@ -124,8 +155,9 @@ C.O.R.E是一個可攜式記憶圖譜，根據你的llm互動和個人資料建�
 </a>
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

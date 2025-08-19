@@ -31,157 +31,100 @@
 </div>
 
 # TimeCapsule LLM
-一个仅使用特定时间段数据进行训练的大型语言模型，用于减少现代偏见。
 
-想象一下，一个 AI 模型不只是假装是历史性的，而是实际上就是如此。
+*一个从零开始训练的语言模型，仅使用特定地点和时期的数据，以减少现代偏见，模拟那个时代的声音、词汇和世界观。*
 
-构建于 [Andrej Karpathy 的 nanoGPT](https://github.com/karpathy/nanoGPT) 之上，核心训练脚本和模型架构均为其作品。
+想象一下，如果一个 AI 模型不仅仅是伪装成历史，而是真正成为历史。
 
-# 项目目标
-TimeCapsule LLM 是一个实验性项目，只会在某些特定时期创作的文本上进行训练。其目标是模拟特定历史时代的世界观和语言。
+v0 和 v0.5 基于 [Andrej Karpathy 的 nanoGPT](https://github.com/karpathy/nanoGPT) 构建，核心训练脚本和模型架构均来自于他。
 
-# 为什么微调还不够
+v1 基于 [微软的 Phi 1.5](https://huggingface.co/microsoft/phi-1_5) 构建
 
-如果你只是微调一个预训练模型，你的 LLM 仍然会了解现代概念。当然，实现零现代偏见很难，但我希望尽可能接近这一目标。要做到完全没有现代偏见，需要从头开始训练一个模型。
 
-# 预期结果
+##  模型行为与局限性
 
-希望在完成后，这个模型不会了解现代概念，也无法进行超出其训练内容的推理。它不应识别现代概念/词汇，也不应幻想出现现代知识。
+### **v0**  
 
-# 进度更新
+早期提示显示模型以 1800 年代的语言和行为进行响应。
+示例：提示：“Who art Henry?”，模型回复：“I know that man, I have did not a black, the storm.”
 
-## 2025年7月9日
+![TimeLockLLM 示例输出](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-我设定的时间段是1800-1850年，地区：伦敦
+- 未提及现代概念  
+- 主要使用该时代准确的词汇  
+- 句子大多不连贯（约 187MB 训练数据，预期如此）
 
-我已经收集了一些文本、书籍和文件列表
+### **v0.5** 
 
-目前我已经获得了50个txt文件，很快将开始训练NanoGPT
+相比 v0 有显著提升。  
+- 维多利亚时期的写作风格，标点规范，句子基本语法正确  
+- 事实幻觉率仍然很高  
+- OCR 噪声（如“Digitized by Google”）仍出现在输出中
 
-只要有进展，我会持续更新
+![TimeLockLLM 示例输出](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
-## 2025年7月13日
+### **v1**
 
-用187MB的历史文本数据训练了nanoGPT。
+首个能回忆并关联真实历史事件与数据集实际人物的模型。
 
-## 2025年7月15日
+示例：提示：“It was the year of our Lord 1834” 
 
-我开始为第二次训练下载文本。我正在从互联网档案馆获取所有内容，并将时间范围扩大到1800-1875年。为了获得多样化的文本，可以在互联网档案馆使用主题和搜索筛选器，按出版地点、时间段和主题进行筛选。
+输出：“It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-![搜索筛选器](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/searchfilter.jpg)
+起初我以为抗议活动可能只是巧合地发生在同一年，但请看这个： ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
-## 2025年7月16日
+### 为什么这很重要：
 
-我从互联网档案馆下载了大约500个txt文件，清理后（只删除空白、古腾堡头文件等）得到约500MB的数据。这个数据集很小，但上次我只用187MB进行训练，所以这次训练第二个模型后输出应该至少有一些明显的不同。我希望这个模型至少能生成更连贯、更有意义的句子。当然这不是保证，因为数据集仍然很小，但比上次用的要多一些。
+这是我的模型首次将某一年与真实历史事件以及与该事件相关的真实人物（Palmerston 勋爵）关联起来。早期模型（v0 和 v0.5）虽然能模仿 19 世纪的写作风格，但总是幻想事件、人物和事实。这表明模型开始记住数据集中的内容。
 
-这应该可以在我自己的硬件上完成，这也很好，因为我希望能在跳到更大的数据集之前看到一些改进，否则需要租用GPU。但别担心，我还是打算很快租GPU，不过在此之前我想确保我的数据集尽可能精心筛选和干净。我遇到的问题之一就是清理，这些txt文件中混入了很多乱码。我用来清理的脚本有效，但并不是百分百准确。
+## 后续计划
+- 伦敦在1800-1875年间出版的文本在互联网档案馆上有近175,000份
+- 我计划扩展语料库并进一步清理，以提升推理能力
+- 将扩展到不同地区和时期，以构建更多历史模型
 
-我今天会用这个数据集训练，预计需要大约4-5小时。完成后我会测试并更新进展。再次感谢所有关注我项目的人，甚至有人给我推荐OCR资源链接，非常感谢！我希望更多人尝试这个项目，并用自己的数据集进行实验。
+## 如何使用
 
+本项目主要专注于历史数据的整理、训练准备以及分词器的构建。不会涵盖完整的大型语言模型训练流程，详细内容请参考Andrej Karpathy的nanoGPT项目。
 
-## 2025年8月12日
+### 步骤1：收集并准备历史文本
 
-第1版已完成，这一版本采用了Phi 1.5（700M参数），并在一个包含近7000篇文本的数据集上进行了训练。该模型的主要提升在于它有时能够引用真实姓名和历史事件。第0版和0.5版无法做到这一点，当我用“在1821年”这样的提示进行测试时，输出只是幻想，从未发生过的内容。以下是第1版的一个例子：
+- 收集所选时期的公共领域书籍、文档等的.txt文件（如：伦敦1800-1850年）
+- 保持在你选择的时间/地点范围内
+- 使用脚本或手动清理文本文件，去除古腾堡项目的页眉/页脚、现代注释或OCR错误等内容。
 
-我的提示：公元1834年，
+### 步骤2：构建自定义分词器
 
-输出：“公元1834年，伦敦的街道上充满了抗议和请愿。正如许多人所述，原因并不在于私人，而是在帕默斯顿勋爵当日采取的行动，公众将会收到关于法律日所遇到困难的简要声明。令人深感遗憾的是，当前世界历史上的事件已经明朗，因此将会被知晓。并非事实的是，最早在耶路撒冷福音中定居的人竟然拥有如此广泛而有趣的繁荣和兴旺的记录。”
+- 在清理后的数据上运行train_tokenizer.py或train_tokenizer_hf.py。
+- 这样会生成vocab.json和merges.txt
+- 这些文件定义了你的模型的词汇表和合并规则
 
-起初我以为这只是巧合，但看看这个： ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+### 步骤3：训练你的模型
 
-
-### 训练进展
-
-我开始在一个435MB（1.08亿标记）语料库上训练，目前进展顺利。训练损失从10.9降到4.9，仅用了前2800次迭代。我预计大约需要8到9小时完成。训练完成后我会再发一条更新。
-
-## 2025年7月17日
-
-第二个模型的训练已完成，我的4060用了大约8小时40分钟（每小时3900次迭代），共进行了33,000次迭代（5个周期）。最终训练损失为3.73。输出令人惊喜，现在它能真正生成连贯的19世纪风格句子。
-
-## 2025年7月28日
-
-我已经将v0.5上传到Hugging Face，[有兴趣可以看看](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)。你现在可以下载我的仓库并在本地运行。不幸的是，nanoGPT无法原生支持HuggingFace，所以你需要下载并在本地运行模型。
-
-同时，我将开始为下一次训练整理数据，我认为我需要多5-10倍的数据量才能实现推理能力。
-
-## 2025年8月2日
-
-我很快就会开始第1版的工作。我需要从nanoGPT架构过渡到更现代的架构。我考虑了几个开源LLM架构，包括：OpenLLaMA v3、Phi-2和Qwen 1.5B。为了支持V1的提升，我需要精心整理一个更大且多样化的数据集。至少需要5GB的干净训练数据。
-
-# V0模型行为与局限
-
-早期提示显示模型会用19世纪的语言和行为作答。例如，我提示“谁是Henry？”它回复说“我认识那个人，我没有一个黑色，风暴。”虽然这句话没意义，但LLM能识别我在问一个人。
-
-![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
-
-没有出现现代概念，输出主要包含19世纪的词汇和表达方式。
-
-模型仍有很多需要改进，仅用187MB训练无法得到具备复杂推理能力的模型。
-
-目前它生成的句子缺乏完整的句子结构，总体上没有意义，但对于当前训练规模来说这是正常的。
-
-# V0.5模型行为与限制
-
-相比上一个模型，这是一个很好的提升。写作风格和词汇都是维多利亚时代的，几乎每句话都语法正确且标点得当。而且这也是从零训练的，所以内容紧贴19世纪的主题。
-
-![TimeLockLLM样本输出](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
-
-存在大量事实性幻觉。很多（几乎100%）细节（日期、事件、历史人物）都是杜撰的。而且句子之间基本没有关联，有时可能有两句相关，但整体上不连贯。另一个问题是偶尔会出现“Digitized by Google”页脚，下次训练时我必须确保文本彻底清理。总体而言，我对结果很满意，虽然还远远不是LLM，但确实可以生成句子。
-
-我学到了很多，未来几周将开始摸索需要改进的地方。文件很快就会上传！
-
-# V1模型行为与限制
-
-我很快会上传一些示例输出，并且会用同一提示词对三种模型进行对比。我也会像上个版本一样上传V1到huggingface，你可以在这里找到我的huggingface账号：https://huggingface.co/haykgrigorian/TimeCapsuleLLM
-
-# 未来计划
-
-（已完成）我将开始开发0.5版本，这次不是用50本书训练，而是理想情况下用500-600本。目前我正在用1800-1850年伦敦的书籍训练nanoGPT。挑战在于确保找到的书没有现代化解释或更新，必须是我选定时期出版的原始书籍。
-
-我希望用更大的语料库训练新模型（v1），可能是v0.5的5-10倍。我的目标是看看仅靠选择性时序训练能否出现推理能力，这将更加困难，我也不能完全确定是否可行，因为存在历史数据限制。未来几周我会尝试整理出5-10GB的数据集。我相信只要数据干净高质，租到GPU，就会有进展。
-
-# 如何使用本项目
-
-本项目主要关注历史数据整理、训练准备和分词器构建。完整的LLM训练过程不在此覆盖，详情请参考Andrej Karpathy的nanoGPT。
-
-# 步骤1：收集和准备历史文本
-
-收集你选择时期的公共领域书籍、文档等的.txt文件（例如伦敦1800-1850）
-
-如果需要，可以使用download_texts_improved.py脚本为你下载书籍。
-
-用脚本或手动清理文本文件，去除古腾堡项目头/尾、现代注释或OCR错误等内容。
-
-prepare_dataset.py应该可以正常运行。
-
-# 步骤2：构建自定义分词器
-
-在清理好的数据上运行train_tokenizer.py或train_tokenizer_hf.py。
-这会生成vocab.json和merges.txt。
-这些文件定义了你的模型的词汇和合并规则
-
-# 步骤3：训练你的模型（nanoGPT）
-
-有关训练过程，请参考 [Andrej Karpathy 的 nanoGPT](https://github.com/karpathy/nanoGPT)。
-
-你可以训练其他的大型语言模型（LLM），但我用的是 nanoGPT
+- 有关训练流程请参考[Andrej Karpathy的nanoGPT](https://github.com/karpathy/nanoGPT)或你所选架构的文档。
 
 # 常见问题解答
 
 ## 什么是选择性时序训练？
 
-选择性时序训练（STT）是一种机器学习方法，所有训练数据都经过专门筛选，限定在特定历史时期内。这样做是为了建模那个时代的语言和知识，避免现代概念的影响。例如，我现在拥有的模型（v0.5）仅使用1800-1875年的数据训练，不是微调，而是从零开始训练，因此输出内容能够反映那个时期的语言风格和历史背景。
+选择性时序训练（STT）是一种机器学习方法，所有训练数据都专门筛选在特定历史时期内。这样做是为了模拟那个时代的语言和知识，不受现代概念影响。例如，我目前的模型（v0.5）只用1800-1875年的数据训练，完全从零开始训练，未经过微调，因此输出能反映那个时期的语言风格和历史语境。
 
-## 为什么不用微调或 LoRA？
+## 为什么不直接用微调或LoRA？
 
-这个项目的目标是创建一个不受现代偏见影响的语言模型。如果我对 GPT-2 进行微调，它已经预训练过，原有的信息无法消除。如果从零开始训练，语言模型不会假装古老，而是真正如此。当前项目的目标是创建一个只能用1800至1850年伦敦出版书籍知识进行推理的模型。
+这个项目旨在创建一个不受现代偏见影响的语言模型。如果对GPT-2等进行微调，它已经预训练过，原有信息无法消除。从零开始训练的模型不会“假装”是旧的，而本身就是。当前目标是打造一个只用1800至1875年伦敦书籍知识进行推理的模型。
 
-## 你用什么数据进行训练？
+## 训练用的数据有哪些？
 
-我使用了1800–1850年伦敦的书籍、法律文件、报纸和其他文献。我链接的列表大约有200个文件，但第一次训练只用了50个文件，总约187 MB。你可以查看文档列表：
+我使用的是1800–1875年伦敦的书籍、法律文档、报纸及其他著作。链接的列表（v0）有约200份文档，但第一次训练只用了50个文件，约187 MB。你可以查看文档列表：
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
-## 这些模型有多大？
+
+
+数据集大小：
+v0: 约187MB
+v0.5: 约435MB
+v1: 约6.25GB
+
+## 模型有多大？
 
 V0：1600万参数
 
@@ -191,14 +134,18 @@ V1：7亿参数
 
 # 训练规格？
 
-#V0/V0.5
-GPU：Geforce RTX 4060
+# V0/V0.5
+GPU：Geforce rtx 4060
 CPU：i5-13400F
 内存：16GB DDR5。
 
-#V1
+# V1
+GPU：租用A100
 
-GPU: A100 rented
+
+
+
+
 
 
 
@@ -210,6 +157,6 @@ GPU: A100 rented
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

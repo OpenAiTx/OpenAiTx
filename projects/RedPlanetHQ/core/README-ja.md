@@ -33,71 +33,102 @@
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="COREロゴ" />
   </a>
 
-### C.O.R.E: AI時代のためのあなたのデジタルブレイン
+### CORE: Claude、Cursor、ChatGPTおよび全AIツールのための統合メモリレイヤー
 
 <p align="center">
     <a href="https://deepwiki.com/RedPlanetHQ/core">
-        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki バッジ" />
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWikiバッジ" />
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>ドキュメント</b></a> •
+    <a href="https://docs.heysol.ai/core/overview"><b>ドキュメント</b></a> ・
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
 </div>
 
-## 🧠 C.O.R.E.
+## 概要
 
-**Contextual Observation & Recall Engine（コンテクスト観察・リコールエンジン）**
+**問題**
 
-C.O.R.Eは、あなたのllmとのやりとりや個人データから構築されるポータブルなメモリーグラフであり、すべてのコンテクストとワークフロー履歴を、まるでデジタルブレインのように、どんなAIツールからもアクセス可能にします。これにより、繰り返しのコンテクスト共有が不要になります。目的は以下の通りです：
+開発者は、AIツールに文脈を何度も説明することに時間を浪費しています。Claudeでトークン制限に達した場合は、やり直しで全て失われます。ChatGPTやClaudeからCursorに切り替えても、また文脈を説明し直す必要があります。会話、決定、洞察はセッション間で消えてしまいます。
 
-- **統合されたポータブルメモリー**：コンテクストをシームレスに追加・呼び出しでき、Claude、Cursor、Windsurfなどのアプリ間でメモリーを接続できます。
-- **単なるフラットな事実ではなく関係性重視**：COREは知識を整理し、事実だけでなく関係性も保存。リアルな脳のような、より深く豊かなメモリーを提供します。
-- **ユーザー所有**：何を保持・更新・削除するかを自分で決め、使いたいツール間でメモリーを共有できます。ベンダーロックインから解放されます。
+**解決策** - **CORE** （**Contextual Observation & Recall Engine**）
 
-## 🎥 デモ動画
+COREは、全てのAIツール向けのオープンソース統合・永続メモリレイヤーです。あなたの文脈はCursorからClaude、ChatGPT、Claude Codeまで一貫して引き継がれます。知識グラフが、誰が何を、いつ、なぜ言ったかを記憶します。一度接続すれば、どこでも記憶。文脈管理をやめて、開発を始めましょう。
 
-[C.O.R.E デモを見る](https://youtu.be/iANZ32dnK60)
+## 🚀 はじめ方
+**5分で統合メモリグラフを構築:**
 
-<img width="7480" height="4672" alt="core-memory-graph" src="https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b" />
+1. [core.heysol.ai](https://core.heysol.ai)で**サインアップ**し、アカウントを作成します
+2. **最初のメモリを追加** - 自分についての文脈を共有します
 
-## 🧩 主な特徴
+    <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
-- **メモリーグラフ**：あなたの事実や好みがどのようにつながっているかを視覚化
-- **メモリーとのチャット**：記憶に関する質問をして、即座に洞察や理解を得られます
-- **プラグアンドプレイ**：Cursor、ClaudeなどのアプリでCOREメモリーをすぐに利用可能
 
-## ☁️ C.O.R.E クラウドセットアップ
+3. **メモリグラフを可視化**し、COREが事実間の接続を自動で構築する様子を確認します
+5. **テスト** - 会話セクションで「私について何を知っていますか？」と聞いてみてください
+6. ツールと連携する:
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - 文脈を活用したコーディング
+   - [Claude Code CLI](https://docs.heysol.ai/providers/claude) & [Gemini CLI](https://docs.heysol.ai/providers/cursor) - メモリを使ったターミナルコーディング
+   - [ブラウザ拡張機能追加](https://docs.heysol.ai/providers/cursor) - どのウェブサイトでもメモリを利用
+   - [Linear](https://docs.heysol.ai/providers/claude)、[Slack](https://docs.heysol.ai/providers/cursor)、[Github](https://docs.heysol.ai/providers/cursor) - プロジェクト文脈を自動追加
 
-1. [core.heysol.ai](https://core.heysol.ai) にアクセス
-2. メールアドレスでサインアップ
-3. COREに自己紹介をしてください：「私はReactプロジェクトTaskMasterに取り組むソフトウェアエンジニアです。TypeScriptを好み、スタイリングにはTailwindを使っています。」
-   <img width="2048" height="1172" alt="add-memory" src="https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938" />
-4. [Core MCPをClaudeと接続](https://docs.heysol.ai/providers/claude)
-5. [Core MCPをCursorと接続](https://docs.heysol.ai/providers/cursor)
+## 🧩 主要な特徴
 
-## 💻 C.O.R.E セルフホスティング
+### 🧠 **統合・ポータブルメモリ**:
+**Cursor、Windsurf、Claude Desktop、Claude Code、Gemini CLI、AWSのKiro、VS Code、Roo Code**でMCPを通じてメモリの追加・呼び出しが可能
 
-モジュラー展開については[ドキュメント](https://docs.heysol.ai/self-hosting/docker)をご覧ください
+### 🕸️ **時系列 + 再構成型ナレッジグラフ**:
+
+すべての事実の裏にある物語を記憶—誰が何を、いつ、なぜ言ったかを豊かな関係と完全な出自情報で追跡。単なるフラットな保存ではありません
+
+https://github.com/user-attachments/assets/d18e3caa-72ea-4596-bbf7-cc9e32bd772f
+
+### 🌐 **ブラウザー拡張機能**:
+
+ChatGPT、Grok、Gemini、Twitter、YouTube、ブログ記事、あらゆるウェブページから直接COREメモリに会話を保存
+
+
+https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
+
+
+### 💬 **メモリとのチャット**:
+「私の執筆の好みは何ですか？」のような質問も、接続された知識から即座にインサイトを取得
+
+https://github.com/user-attachments/assets/6be5aca5-1d2f-419e-9deb-acb897a05c20
+
+### ⚡ **アプリからの自動同期**:
+
+Linear、Slack、Notion、GitHubなど、接続されたアプリから関連するコンテキストを自動的にCOREメモリに保存
+
+https://github.com/user-attachments/assets/a797f182-406d-49e8-80a8-20932169931d
+
+### 🔗 **MCP統合ハブ**:
+
+Linear、Slack、GitHub、NotionをCOREに一度接続すれば、Claude、Cursor、その他のMCPクライアントで全てのツールが利用可能
+
+
+https://github.com/user-attachments/assets/be2d69a7-6c6c-43ad-91b7-6db66712821d
+
+
 
 ## ドキュメント
 
-COREを最大限に活用するため、ドキュメントをご参照ください
+COREを最大限に活用するためにドキュメントを参照してください
 
 - [基本概念](https://docs.heysol.ai/concepts/memory_graph)
 - [セルフホスティング](https://docs.heysol.ai/self-hosting/overview)
-- [Core MCPをClaudeと接続](https://docs.heysol.ai/providers/claude)
-- [Core MCPをCursorと接続](https://docs.heysol.ai/providers/cursor)
+- [Core MCPをClaudeと接続する](https://docs.heysol.ai/providers/claude)
+- [Core MCPをCursorと接続する](https://docs.heysol.ai/providers/cursor)
 
 - [基本概念](https://docs.heysol.ai/overview)
 - [APIリファレンス](https://docs.heysol.ai/local-setup)
 
 ## 🧑‍💻 サポート
 
-ご質問やご意見がありましたら、いつでもご連絡ください：
+ご質問やご意見がございますか？サポートいたします：
 
-- Discord: [core-supportチャンネルに参加](https://discord.gg/YGUZcvDjUa)
+- Discord: [core-supportチャンネルに参加する](https://discord.gg/YGUZcvDjUa)
 - ドキュメント: [docs.heysol.ai](https://docs.heysol.ai)
 - メール: manik@poozle.dev
 
@@ -107,25 +138,26 @@ COREを最大限に活用するため、ドキュメントをご参照くださ�
 
 - 会話履歴
 - ユーザー設定
-- タスクのコンテキスト
+- タスクコンテキスト
 - 参考資料
 
 **保存しないもの:**
 
-- 機微なデータ（PII）
-- 資格情報
+- 機密データ（PII）
+- 認証情報
 - システムログ
 - 一時データ
 
-## 👥 貢献者
+## 👥 コントリビューター
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
 </a>
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

@@ -1,5 +1,19 @@
-﻿
 # عينات Agent2Agent (A2A)
+
+<a href="https://studio.firebase.google.com/new?template=https%3A%2F%2Fgithub.com%2Fa2aproject%2Fa2a-samples%2Ftree%2Fmain%2F.firebase-studio">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_light_20.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_dark_20.svg">
+    <img
+      height="20"
+      alt="جرّب في Firebase Studio"
+      src="https://cdn.firebasestudio.dev/btn/try_blue_20.svg">
+  </picture>
+</a>
 
 <div style="text-align: right;">
   <details>
@@ -24,41 +38,40 @@
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa">فارسی</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=tr">Türkçe</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=vi">Tiếng Việt</a>
-      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=id">Bahasa Indonesia</a>
+      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=id">اللغة الإندونيسية</a>
     </div>
   </details>
 </div>
 
-يحتوي هذا المستودع على عينات من الشفرات وعروض توضيحية تستخدم [بروتوكول Agent2Agent (A2A)](https://goo.gle/a2a).
+يحتوي هذا المستودع على عينات من الشيفرات وعروض توضيحية تستخدم [بروتوكول Agent2Agent (A2A)](https://goo.gle/a2a).
 
 ## المستودعات ذات الصلة
 
-- [A2A](https://github.com/a2aproject/A2A) - مواصفات A2A والتوثيقات.
-- [a2a-python](https://github.com/a2aproject/a2a-python) - حزمة تطوير برامج A2A بلغة بايثون.
-- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - أداة واجهة مستخدم لفحص العوامل المدعومة بـ A2A.
+- [A2A](https://github.com/a2aproject/A2A) - المواصفات والوثائق الخاصة بـ A2A.
+- [a2a-python](https://github.com/a2aproject/a2a-python) - مجموعة تطوير البرمجيات A2A بلغة بايثون.
+- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - أداة واجهة المستخدم لفحص الوكلاء المدعومين ببروتوكول A2A.
 
 ## المساهمة
 
-المساهمات مرحب بها! راجع [دليل المساهمة](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).
+نرحب بالمساهمات! راجع [دليل المساهمة](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).
 
 ## الحصول على المساعدة
 
-يرجى استخدام [صفحة المشاكل](https://github.com/a2aproject/a2a-samples/issues) لتقديم الاقتراحات أو الملاحظات أو الإبلاغ عن عطل.
+يرجى استخدام [صفحة المشكلات](https://github.com/a2aproject/a2a-samples/issues) لتقديم الاقتراحات أو الملاحظات أو الإبلاغ عن الأخطاء.
 
 ## إخلاء المسؤولية
 
-هذا المستودع نفسه ليس منتجًا رسميًا مدعومًا من Google. الشفرة في هذا المستودع لأغراض توضيحية فقط.
+هذا المستودع نفسه ليس منتجاً رسمياً مدعوماً من Google. الشيفرة الموجودة في هذا المستودع لأغراض العرض التوضيحي فقط.
 
-هام: الشفرة البرمجية المقدمة هي لأغراض العرض فقط وتوضح آلية بروتوكول Agent-to-Agent (A2A). عند بناء تطبيقات للإنتاج، من المهم التعامل مع أي وكيل يعمل خارج نطاق تحكمك المباشر باعتباره كيانًا غير موثوق به.
+هام: الشيفرات البرمجية المعروضة هنا لأغراض العرض فقط وتوضح آلية عمل بروتوكول الوكيل إلى الوكيل (A2A). عند بناء تطبيقات الإنتاج، من الضروري اعتبار أي وكيل يعمل خارج نطاق سيطرتك المباشرة كجهة غير موثوقة محتملة.
 
-يجب التعامل مع جميع البيانات المستلمة من وكيل خارجي — بما في ذلك، وليس حصراً على، بطاقة الوكيل AgentCard، الرسائل، الملفات، وحالات المهام — على أنها مدخلات غير موثوقة. على سبيل المثال، قد يوفر وكيل خبيث بطاقة وكيل تحتوي على بيانات معدلة في حقولها (مثلاً: الوصف، الاسم، skills.description). إذا تم استخدام هذه البيانات بدون تنقيح لإنشاء مدخلات لنموذج لغة كبير (LLM)، فقد تعرض تطبيقك لهجمات حقن المدخلات. عدم التحقق وتنقيح هذه البيانات بشكل صحيح قبل الاستخدام قد يؤدي إلى إدخال ثغرات أمنية في تطبيقك.
+يجب التعامل مع جميع البيانات المستقبلة من وكيل خارجي—بما في ذلك بطاقة الوكيل والرسائل والمواد وحالات المهام—على أنها مدخلات غير موثوقة. على سبيل المثال، قد يقدم وكيل ضار بطاقة وكيل تحتوي على بيانات مصاغة في حقولها (مثل الوصف، الاسم، skills.description). إذا تم استخدام هذه البيانات دون تنقيح لإنشاء مطالبات لنموذج لغة كبير (LLM)، فقد تعرض تطبيقك لهجمات حقن المطالبات. عدم التحقق وتنقيح هذه البيانات بشكل صحيح قبل استخدامها يمكن أن يؤدي إلى إدخال ثغرات أمنية في تطبيقك.
 
-يقع على عاتق المطورين تنفيذ تدابير أمنية مناسبة، مثل التحقق من صحة المدخلات والتعامل الآمن مع بيانات الاعتماد لحماية أنظمتهم ومستخدميهم.
-
+يقع على عاتق المطورين تنفيذ التدابير الأمنية المناسبة، مثل التحقق من المدخلات والتعامل الآمن مع بيانات الاعتماد لحماية أنظمتهم ومستخدميهم.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

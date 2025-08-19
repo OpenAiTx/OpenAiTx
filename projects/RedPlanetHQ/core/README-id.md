@@ -33,7 +33,7 @@
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
-### C.O.R.E: Otak digital Anda untuk era AI
+### CORE: Lapisan Memori Terpadu untuk Claude, Cursor, ChatGPT & Semua Alat AI
 
 <p align="center">
     <a href="https://deepwiki.com/RedPlanetHQ/core">
@@ -46,44 +46,75 @@
 </p>
 </div>
 
-## 🧠 C.O.R.E.
+## Ikhtisar
 
-**Contextual Observation & Recall Engine**
+**Masalah**
 
-C.O.R.E adalah grafik memori portabel yang dibangun dari interaksi llm dan data pribadi Anda, membuat semua konteks dan riwayat alur kerja Anda dapat diakses oleh alat AI apa pun, layaknya otak digital. Ini menghilangkan kebutuhan untuk berbagi konteks berulang kali. Tujuannya adalah untuk menyediakan:
+Pengembang membuang waktu untuk menjelaskan ulang konteks ke alat AI. Terkena batas token di Claude? Mulai dari awal dan kehilangan semuanya. Beralih dari ChatGPT/Claude ke Cursor? Jelaskan konteks Anda lagi. Percakapan, keputusan, dan wawasan Anda hilang di antara sesi.
 
-- **Memori Terpadu dan Portabel**: Tambahkan dan panggil konteks dengan mulus, serta hubungkan memori Anda di aplikasi seperti Claude, Cursor, Windsurf, dan lainnya.
-- **Relasional, Bukan Hanya Fakta Datar**: CORE mengatur pengetahuan Anda, menyimpan fakta dan hubungan, untuk memori yang lebih dalam dan kaya layaknya otak nyata.
-- **Dimiliki Pengguna**: Anda yang menentukan apa yang disimpan, diperbarui, atau dihapus, dan membagikan memori Anda ke alat yang Anda inginkan tanpa terikat vendor.
+**Solusi** - **CORE** (**Contextual Observation & Recall Engine**)
 
-## 🎥 Demo Video
+CORE adalah lapisan memori persisten, terbuka, dan terpadu untuk semua alat AI Anda. Konteks Anda mengikuti Anda dari Cursor ke Claude ke ChatGPT ke Claude Code. Satu grafik pengetahuan mengingat siapa yang mengatakan apa, kapan, dan mengapa. Terhubung sekali, ingat di mana saja. Hentikan pengelolaan konteks dan mulai membangun.
 
-[Lihat Demo C.O.R.E](https://youtu.be/iANZ32dnK60)
+## 🚀 Mulai Sekarang
+**Bangun grafik memori terpadu Anda dalam 5 menit:**
 
-<img width="7480" height="4672" alt="core-memory-graph" src="https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b" />
+1. **Daftar** di [core.heysol.ai](https://core.heysol.ai) dan buat akun Anda
+2. **Tambahkan memori pertama Anda** - bagikan konteks tentang diri Anda
+
+    <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
+
+
+3. **Visualisasikan grafik memori Anda** dan lihat bagaimana CORE secara otomatis membentuk koneksi antar fakta
+5. **Coba** - tanyakan "Apa yang kamu ketahui tentang saya?" di bagian percakapan
+6. Hubungkan ke alat Anda:
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - coding dengan konteks
+   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude) & [Gemini CLI](https://docs.heysol.ai/providers/cursor) - coding di terminal dengan memori
+   - [Tambahkan Ekstensi Browser](https://docs.heysol.ai/providers/cursor) - bawa memori Anda ke situs web mana saja
+   - [Linear](https://docs.heysol.ai/providers/claude), [Slack](https://docs.heysol.ai/providers/cursor), [Github](https://docs.heysol.ai/providers/cursor) - tambahkan konteks proyek secara otomatis
 
 ## 🧩 Fitur Utama
 
-- **Grafik Memori**: Visualisasikan bagaimana fakta dan preferensi Anda saling terhubung
-- **Chat dengan Memori**: Ajukan pertanyaan tentang memori untuk mendapatkan wawasan dan pemahaman instan
-- **Plug n Play**: Gunakan memori CORE secara instan di aplikasi seperti Cursor, Claude
+### 🧠 **Memori Terpadu dan Portabel**:
+Tambahkan dan panggil memori Anda di **Cursor, Windsurf, Claude Desktop, Claude Code, Gemini CLI, AWS's Kiro, VS Code, dan Roo Code** melalui MCP
 
-## ☁️ Pengaturan C.O.R.E Cloud
+### 🕸️ **Graf Pengetahuan Temporal + Reifikasi**: 
 
-1. Kunjungi [core.heysol.ai](https://core.heysol.ai)
-2. Daftar menggunakan email Anda
-3. Ceritakan tentang diri Anda ke CORE: “Saya seorang software engineer yang mengerjakan proyek React bernama TaskMaster. Saya lebih suka TypeScript dan menggunakan Tailwind untuk styling.”
-   <img width="2048" height="1172" alt="add-memory" src="https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938" />
-4. [Hubungkan Core MCP dengan Claude](https://docs.heysol.ai/providers/claude)
-5. [Hubungkan Core MCP dengan Cursor](https://docs.heysol.ai/providers/cursor)
+Ingat kisah di balik setiap fakta—lacak siapa yang mengatakan apa, kapan, dan mengapa dengan hubungan yang kaya dan asal-usul penuh, bukan hanya penyimpanan datar
 
-## 💻 C.O.R.E Self Hosting
+https://github.com/user-attachments/assets/d18e3caa-72ea-4596-bbf7-cc9e32bd772f
 
-Lihat [dokumentasi kami](https://docs.heysol.ai/self-hosting/docker) untuk penerapan modular
+### 🌐 **Ekstensi Browser**: 
+
+Tangkap percakapan dari ChatGPT, Grok, Gemini, Twitter, YouTube, posting blog, dan halaman web apa pun langsung ke memori INTI Anda
+
+
+https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
+
+
+### 💬 **Chat dengan Memori**: 
+Ajukan pertanyaan seperti "Apa preferensi menulis saya?" dengan wawasan instan dari pengetahuan yang terhubung
+
+https://github.com/user-attachments/assets/6be5aca5-1d2f-419e-9deb-acb897a05c20
+
+### ⚡ **Sinkronisasi Otomatis dari Aplikasi**: 
+
+Otomatis tangkap konteks relevan dari Linear, Slack, Notion, GitHub, dan aplikasi terhubung lainnya ke memori INTI Anda
+
+https://github.com/user-attachments/assets/a797f182-406d-49e8-80a8-20932169931d
+
+### 🔗 **Hub Integrasi MCP**: 
+
+Hubungkan Linear, Slack, GitHub, Notion satu kali ke INTI—lalu gunakan semua alat mereka di Claude, Cursor, atau klien MCP mana pun
+
+
+https://github.com/user-attachments/assets/be2d69a7-6c6c-43ad-91b7-6db66712821d
+
+
 
 ## Dokumentasi
 
-Jelajahi dokumentasi kami untuk memaksimalkan penggunaan CORE
+Jelajahi dokumentasi kami untuk memaksimalkan penggunaan INTI
 
 - [Konsep Dasar](https://docs.heysol.ai/concepts/memory_graph)
 - [Self Hosting](https://docs.heysol.ai/self-hosting/overview)
@@ -97,11 +128,11 @@ Jelajahi dokumentasi kami untuk memaksimalkan penggunaan CORE
 
 Punya pertanyaan atau masukan? Kami siap membantu:
 
-- Discord: [Bergabung di channel core-support](https://discord.gg/YGUZcvDjUa)
+- Discord: [Gabung ke channel core-support](https://discord.gg/YGUZcvDjUa)
 - Dokumentasi: [docs.heysol.ai](https://docs.heysol.ai)
 - Email: manik@poozle.dev
 
-## Panduan Penggunaan
+## Pedoman Penggunaan
 
 **Simpan:**
 
@@ -124,8 +155,9 @@ Punya pertanyaan atau masukan? Kami siap membantu:
 </a>
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

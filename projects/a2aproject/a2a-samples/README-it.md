@@ -1,4 +1,19 @@
-# Esempi di Agent2Agent (A2A)
+# Esempi Agent2Agent (A2A)
+
+<a href="https://studio.firebase.google.com/new?template=https%3A%2F%2Fgithub.com%2Fa2aproject%2Fa2a-samples%2Ftree%2Fmain%2F.firebase-studio">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_light_20.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_dark_20.svg">
+    <img
+      height="20"
+      alt="Prova in Firebase Studio"
+      src="https://cdn.firebasestudio.dev/btn/try_blue_20.svg">
+  </picture>
+</a>
 
 <div style="text-align: right;">
   <details>
@@ -23,7 +38,7 @@
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa">فارسی</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=tr">Türkçe</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=vi">Tiếng Việt</a>
-      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=id">Bahasa Indonesia</a>
+      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=it">Italiano</a>
     </div>
   </details>
 </div>
@@ -34,29 +49,29 @@ Questo repository contiene esempi di codice e demo che utilizzano il [Protocollo
 
 - [A2A](https://github.com/a2aproject/A2A) - Specifiche e documentazione A2A.
 - [a2a-python](https://github.com/a2aproject/a2a-python) - SDK Python per A2A.
-- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - Strumento UI per l'ispezione degli agenti abilitati A2A.
+- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - Strumento UI per l'ispezione di agenti abilitati A2A.
 
 ## Contribuire
 
-Contributi benvenuti! Consulta la [Guida ai Contributi](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).
+Contributi benvenuti! Consulta la [Guida alla Contribuzione](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).
 
-## Ottenere aiuto
+## Ottenere assistenza
 
 Utilizza la [pagina delle issues](https://github.com/a2aproject/a2a-samples/issues) per fornire suggerimenti, feedback o segnalare un bug.
 
-## Disclaimer
+## Dichiarazione di non responsabilità
 
-Questo repository non è un prodotto Google ufficialmente supportato. Il codice presente in questo repository è solo a scopo dimostrativo.
+Questo repository non è un prodotto Google ufficialmente supportato. Il codice presente è solo a scopo dimostrativo.
 
-Importante: Il codice di esempio fornito è solo a scopo dimostrativo e illustra la meccanica del protocollo Agent-to-Agent (A2A). Quando si sviluppano applicazioni di produzione, è fondamentale trattare qualsiasi agente che operi al di fuori del proprio controllo diretto come un'entità potenzialmente non affidabile.
+Importante: Il codice di esempio fornito è solo a scopo dimostrativo e illustra le meccaniche del protocollo Agent-to-Agent (A2A). Quando si sviluppano applicazioni di produzione, è fondamentale trattare qualsiasi agente operante al di fuori del proprio controllo diretto come potenzialmente non affidabile.
 
-Tutti i dati ricevuti da un agente esterno—compresi, ma non solo, AgentCard, messaggi, artefatti e stati dei task—devono essere considerati come input non affidabili. Ad esempio, un agente malevolo potrebbe fornire una AgentCard contenente dati creati appositamente nei suoi campi (ad esempio, descrizione, nome, skills.description). Se questi dati vengono utilizzati senza sanificazione per costruire prompt per un Large Language Model (LLM), si potrebbe esporre la propria applicazione ad attacchi di prompt injection. La mancata validazione e sanificazione di questi dati prima dell'uso può introdurre vulnerabilità di sicurezza nella propria applicazione.
+Tutti i dati ricevuti da un agente esterno—inclusi, ma non limitati a, AgentCard, messaggi, artefatti e stati dei task—devono essere gestiti come input non affidabile. Ad esempio, un agente malevolo potrebbe fornire una AgentCard con dati manipolati nei suoi campi (ad es. descrizione, nome, skills.description). Se questi dati vengono utilizzati senza sanificazione per costruire prompt per un Large Language Model (LLM), si potrebbe esporre l'applicazione ad attacchi di prompt injection. La mancata validazione e sanificazione di questi dati prima dell'uso può introdurre vulnerabilità di sicurezza nell'applicazione.
 
-Gli sviluppatori sono responsabili dell'implementazione di adeguate misure di sicurezza, come la validazione degli input e la gestione sicura delle credenziali, per proteggere i propri sistemi e utenti.
+Gli sviluppatori sono responsabili dell'implementazione di misure di sicurezza adeguate, come la validazione degli input e la gestione sicura delle credenziali, per proteggere i propri sistemi e utenti.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

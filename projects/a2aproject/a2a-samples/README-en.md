@@ -1,5 +1,20 @@
 # Agent2Agent (A2A) Samples
 
+<a href="https://studio.firebase.google.com/new?template=https%3A%2F%2Fgithub.com%2Fa2aproject%2Fa2a-samples%2Ftree%2Fmain%2F.firebase-studio">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_light_20.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_dark_20.svg">
+    <img
+      height="20"
+      alt="Try in Firebase Studio"
+      src="https://cdn.firebasestudio.dev/btn/try_blue_20.svg">
+  </picture>
+</a>
+
 <div style="text-align: right;">
   <details>
     <summary>🌐 Language</summary>
@@ -20,10 +35,10 @@
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=nl">Dutch</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=pl">Polish</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ar">Arabic</a>
-      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa">Farsi</a>
+      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa">Persian</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=tr">Turkish</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=vi">Vietnamese</a>
-      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=id">Indonesian</a>
+      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=en">English</a>
     </div>
   </details>
 </div>
@@ -38,25 +53,25 @@ This repository contains code samples and demos that use the [Agent2Agent (A2A) 
 
 ## Contributing
 
-Contributions welcome! See the [Contributing Guide](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).
+Contributions are welcome! See the [Contributing Guide](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).
 
 ## Getting help
 
-Please use the [issues page](https://github.com/a2aproject/a2a-samples/issues) to provide suggestions, feedback or submit a bug report.
+Please use the [issues page](https://github.com/a2aproject/a2a-samples/issues) to provide suggestions, feedback, or submit a bug report.
 
 ## Disclaimer
 
-This repository itself is not an officially supported Google product. The code in this repository is for demonstrative purposes only.
+This repository itself is not an officially supported Google product. The code in this repository is for demonstration purposes only.
 
 Important: The sample code provided is for demonstration purposes and illustrates the mechanics of the Agent-to-Agent (A2A) protocol. When building production applications, it is critical to treat any agent operating outside of your direct control as a potentially untrusted entity.
 
-All data received from an external agent—including but not limited to its AgentCard, messages, artifacts, and task statuses—should be handled as untrusted input. For example, a malicious agent could provide an AgentCard containing crafted data in its fields (e.g., description, name, skills.description). If this data is used without sanitization to construct prompts for a Large Language Model (LLM), it could expose your application to prompt injection attacks.  Failure to properly validate and sanitize this data before use can introduce security vulnerabilities into your application.
+All data received from an external agent—including but not limited to its AgentCard, messages, artifacts, and task statuses—should be treated as untrusted input. For example, a malicious agent could provide an AgentCard containing crafted data in its fields (e.g., description, name, skills.description). If this data is used without sanitization to construct prompts for a Large Language Model (LLM), it could expose your application to prompt injection attacks. Failure to properly validate and sanitize this data before use can introduce security vulnerabilities into your application.
 
 Developers are responsible for implementing appropriate security measures, such as input validation and secure handling of credentials to protect their systems and users.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

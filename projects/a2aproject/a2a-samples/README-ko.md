@@ -1,5 +1,20 @@
 # Agent2Agent (A2A) 샘플
 
+<a href="https://studio.firebase.google.com/new?template=https%3A%2F%2Fgithub.com%2Fa2aproject%2Fa2a-samples%2Ftree%2Fmain%2F.firebase-studio">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_light_20.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_dark_20.svg">
+    <img
+      height="20"
+      alt="Firebase Studio에서 체험하기"
+      src="https://cdn.firebasestudio.dev/btn/try_blue_20.svg">
+  </picture>
+</a>
+
 <div style="text-align: right;">
   <details>
     <summary>🌐 언어</summary>
@@ -23,7 +38,7 @@
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa">فارسی</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=tr">Türkçe</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=vi">Tiếng Việt</a>
-      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=id">Bahasa Indonesia</a>
+      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ko">한국어</a>
     </div>
   </details>
 </div>
@@ -34,7 +49,7 @@
 
 - [A2A](https://github.com/a2aproject/A2A) - A2A 명세 및 문서.
 - [a2a-python](https://github.com/a2aproject/a2a-python) - A2A Python SDK.
-- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - A2A 지원 에이전트 점검을 위한 UI 도구.
+- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - A2A 에이전트 검사용 UI 도구.
 
 ## 기여하기
 
@@ -46,17 +61,17 @@
 
 ## 면책 조항
 
-이 저장소 자체는 공식적으로 지원되는 Google 제품이 아닙니다. 이 저장소의 코드는 데모 용도로만 제공됩니다.
+이 저장소 자체는 공식적으로 지원되는 Google 제품이 아닙니다. 이 저장소의 코드는 데모 목적입니다.
 
-중요: 제공된 샘플 코드는 데모 목적으로, Agent-to-Agent(A2A) 프로토콜의 메커니즘을 설명합니다. 실제 운영 환경에서 애플리케이션을 구축할 때, 직접 제어하지 않는 모든 에이전트는 잠재적으로 신뢰할 수 없는 엔터티로 취급하는 것이 중요합니다.
+중요: 제공되는 샘플 코드는 데모용이며 Agent-to-Agent(A2A) 프로토콜의 동작을 설명합니다. 실제 애플리케이션을 개발할 때, 직접 제어하지 않는 모든 에이전트는 잠재적으로 신뢰할 수 없는 엔티티로 간주해야 합니다.
 
-외부 에이전트로부터 수신된 모든 데이터(AgentCard, 메시지, 산출물, 작업 상태 등을 포함하되 이에 국한되지 않음)는 신뢰할 수 없는 입력으로 처리해야 합니다. 예를 들어, 악의적인 에이전트가 필드(예: 설명, 이름, skills.description)에 조작된 데이터를 담은 AgentCard를 제공할 수 있습니다. 만약 이 데이터가 정제 없이 대형 언어 모델(LLM) 프롬프트 구성에 사용된다면, 프롬프트 인젝션 공격에 노출될 수 있습니다. 해당 데이터를 적절히 검증 및 정제하지 않고 사용할 경우 애플리케이션에 보안 취약점이 발생할 수 있습니다.
+외부 에이전트로부터 받은 모든 데이터—AgentCard, 메시지, 산출물, 작업 상태 등—는 신뢰할 수 없는 입력으로 처리해야 합니다. 예를 들어, 악의적인 에이전트가 필드(예: 설명, 이름, skills.description)에 조작된 데이터가 포함된 AgentCard를 제공할 수 있습니다. 이 데이터를 정제하지 않고 대형 언어 모델(LLM) 프롬프트 구성에 사용하면 프롬프트 인젝션 공격에 노출될 수 있습니다. 데이터를 사용 전에 적절히 검증 및 정제하지 않으면 애플리케이션에 보안 취약점이 발생할 수 있습니다.
 
-개발자는 시스템과 사용자를 보호하기 위해 입력 검증 및 자격 증명 안전 처리 등 적절한 보안 조치를 구현할 책임이 있습니다.
+개발자는 입력 검증 및 자격 증명 안전 처리 등 적절한 보안 조치를 구현하여 시스템과 사용자를 보호할 책임이 있습니다.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

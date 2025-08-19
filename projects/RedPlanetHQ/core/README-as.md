@@ -3,26 +3,26 @@
     <summary >🌐 ভাষা</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id">Bahasa Indonesia</a>
+        <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">ইংৰাজী</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN">সৰল চীনা</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW">জটিল চীনা</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">জাপানী</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko">কোৰিয়ান</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi">হিন্দী</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">থাই</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">ফৰাছ</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">জাৰ্মান</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">স্পেনিছ</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">ইটালিয়ান</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">ৰাছিয়ান</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">পৰ্তুগীজ</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl">ডাচ</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">প'লিছ</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar">আৰবী</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa">ফাৰ্ছী</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">তুৰ্কী</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">ভিয়েটনামী</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id">ইন্দোনেছিয়ান</a>
       </div>
     </div>
   </details>
@@ -30,92 +30,123 @@
 
 <div align="center">
   <a href="https://core.heysol.ai">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
+    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE লোগো" />
   </a>
 
-### C.O.R.E: AI যুগৰ বাবে আপোনাৰ ডিজিটেল মগজু
+### CORE: Claude, Cursor, ChatGPT আৰু সকলো AI টুলৰ বাবে একত্ৰিত স্মৃতি স্তৰ
 
 <p align="center">
     <a href="https://deepwiki.com/RedPlanetHQ/core">
-        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Badge" />
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki ব্যাজ" />
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>ডকুমেন্টেচন</b></a> •
+    <a href="https://docs.heysol.ai/core/overview"><b>ডকুমেন্টেশ্বন</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>ডিছকর্ড</b></a>
 </p>
 </div>
 
-## 🧠 C.O.R.E.
+## পৰ্যালোচনা
 
-**Contextual Observation & Recall Engine**
+**সমস্যা** 
 
-C.O.R.E হৈছে এটা পৰিবহণযোগ্য মেমৰি গ্ৰাফ, যি আপোনাৰ llm ইন্টাৰেকশ্যন আৰু ব্যক্তিগত তথ্যৰ পৰা নিৰ্মিত, আৰু সকলো প্ৰাসংগিক তথ্য আৰু কাম-কাজৰ ইতিহাস যিকোনো AI টুলত সহজে ব্যৱহাৰ কৰিব পৰা যায়, যেনে এটা ডিজিটেল মগজুৰ দৰে। এইটো পুনৰাবৃত্তি প্ৰসংগ আদান-প্ৰদানৰ প্ৰয়োজন নোহোৱা কৰে। লক্ষ্য হৈছে:
+ডেভেলপাৰসকলে AI টুলসমূহক পুনৰায় পৰিপ্ৰেক্ষিত বুজাই সময় নষ্ট কৰে। Claude-ত টোকেন সীমা শেষ? নতুনকৈ আৰম্ভ কৰক আৰু সকলো হেৰুৱান। ChatGPT/Claudeৰ পৰা Cursorলৈ সলনি? আপোনাৰ পৰিপ্ৰেক্ষিত পুনৰ ব্যাখ্যা কৰক। আপোনাৰ বাৰ্তালাপ, সিদ্ধান্ত আৰু অন্তৰ্দৃষ্টি সেশনসমূহৰ মাজত গুম হৈ যায়।
 
-- **একত্ৰিত, পৰিবহণযোগ্য মেমৰি**: প্ৰসঙ্গ সহজে সংযোগ কৰক আৰু বিভিন্ন এপ্লিকেশ্যন (যেনে Claude, Cursor, Windsurf আদিত) আপোনাৰ মেমৰি সংযোগ কৰক।
-- **সম্পৰ্কযুক্ত, কেৱল সাধাৰণ তথ্য নহয়**: CORE-এ আপোনাৰ জ্ঞান সংগঠিত কৰে, তথ্য আৰু সম্পৰ্ক উভয়েই সংৰক্ষণ কৰে, যাতে ডাঙৰ আৰু গভীৰ মেমৰি হয়, যেনে বাস্তৱ মগজুত।
-- **ব্যৱহাৰকাৰী-অধিকৃত**: আপুনি নিৰ্ধাৰণ কৰিব পাৰে কি ৰাখিব, আপডেট বা ডিলিট কৰিব, আৰু যিকোনো টুলত আপোনাৰ মেমৰি ভাগ-বতৰা কৰিব পাৰে, বিক্ৰেতা নিৰ্ভৰতা মুক্ত।
+**সমাধান** - **CORE** (**Contextual Observation & Recall Engine**)
 
-## 🎥 ডেমো ভিডিঅ’
+CORE হৈছে আপোনাৰ সকলো AI টুলৰ বাবে এটা মুক্ত উৎস, একত্ৰিত, স্থায়ী মেম'ৰী স্তৰ। আপোনাৰ পৰিপ্ৰেক্ষিত Cursorৰ পৰা Claude, ChatGPT, Claude Codeলৈ অনুসৰণ কৰে। এটা জ্ঞান গ্ৰাফে ক'ত, কি, কেতিয়া আৰু কিয় ক'লে সেয়া মনত ৰাখে। এটা বাৰ সংযোগ কৰক, সকলো ঠাইত মনত ৰাখক। পৰিপ্ৰেক্ষিত পৰিচালনা কৰা বন্ধ কৰক আৰু নিৰ্মাণ আৰম্ভ কৰক।
 
-[CORE ডেমো চাওক](https://youtu.be/iANZ32dnK60)
+## 🚀 আৰম্ভ কৰক
+**আপোনাৰ একত্ৰিত মেম'ৰী গ্ৰাফ ৫ মিনিটত নিৰ্মাণ কৰক:**
 
-<img width="7480" height="4672" alt="core-memory-graph" src="https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b" />
+1. **Sign Up** কৰক [core.heysol.ai](https://core.heysol.ai)ত আৰু আপোনাৰ একাউণ্ট সৃষ্টি কৰক
+2. **আপোনাৰ প্ৰথম মেম'ৰী যোগ কৰক** - আপোনাৰ বিষয়ে পৰিপ্ৰেক্ষিত ভাগ-বতৰা কৰক
 
-## 🧩 মুখ্য বৈশিষ্ট্যসমূহ
+    <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
-- **মেমৰি গ্ৰাফ**: আপোনাৰ তথ্য আৰু পছন্দবোৰ কেনেকৈ সংযুক্ত হৈছে, তাৰ ভিজুৱালাইজ কৰক
-- **মেমৰিৰ সৈতে চেট**: মেমৰি সম্পৰ্কে প্ৰশ্ন কৰক, তৎক্ষণাৎ তথ্য আৰু বুজ পাব
-- **প্লাগ এণ্ড প্লে**: Cursor, Claude আদিত CORE মেমৰি তৎক্ষণাৎ ব্যৱহাৰ কৰক
 
-## ☁️ C.O.R.E ক্লাউড ছেটআপ
+3. **আপোনাৰ মেম'ৰী গ্ৰাফ চাওক** আৰু CORE-এ কেনেকৈ তথ্যসমূহত স্বয়ংক্ৰিয়ভাৱে সংযোগ গঢ়ে চাওক
+5. **এটা পৰীক্ষা কৰক** - বাৰ্তালাপ বিভাগত "তুমি মোৰ বিষয়ে কি জানো?" সোধক
+6. আপোনাৰ টুলসমূহত সংযোগ কৰক:
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - পৰিপ্ৰেক্ষিতৰ সৈতে কোডিং
+   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude) & [Gemini CLI](https://docs.heysol.ai/providers/cursor) - মেম'ৰীৰ সৈতে টাৰ্মিনেল-ভিত্তিক কোডিং
+   - [Add Browser Extension](https://docs.heysol.ai/providers/cursor) - আপোনাৰ মেম'ৰী যিকোনো ৱেবছাইটলৈ লৈ যাওক
+   - [Linear](https://docs.heysol.ai/providers/claude), [Slack](https://docs.heysol.ai/providers/cursor), [Github](https://docs.heysol.ai/providers/cursor) - প্ৰকল্পৰ পৰিপ্ৰেক্ষিত স্বয়ংক্ৰিয়ভাৱে যোগ কৰক
 
-1. [core.heysol.ai](https://core.heysol.ai)লৈ যাওক
-2. আপোনাৰ ই-মেইল ব্যৱহাৰ কৰি চাইন আপ কৰক
-3. CORE-লৈ আপোনাৰ বিষয়ে ক’ব: “মই এটা চফ্টৱে’ৰ ইঞ্জিনীয়াৰ, TaskMaster নামৰ এটা React প্ৰজেক্টত কাম কৰিছো। মই TypeScript প্ৰিয় আৰু স্টাইলিংৰ বাবে Tailwind ব্যৱহাৰ কৰোঁ।”
-   <img width="2048" height="1172" alt="add-memory" src="https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938" />
-4. [Core MCP-ৰ সৈতে Claude সংযোগ কৰক](https://docs.heysol.ai/providers/claude)
-5. [Core MCP-ৰ সৈতে Cursor সংযোগ কৰক](https://docs.heysol.ai/providers/cursor)
+## 🧩 প্ৰধান বৈশিষ্ট্যসমূহ
 
-## 💻 C.O.R.E স্ব-হোষ্টিং
+### 🧠 **একত্ৰিত, বহনযোগ্য মেম'ৰী**: 
+**Cursor, Windsurf, Claude Desktop, Claude Code, Gemini CLI, AWSৰ Kiro, VS Code, আৰু Roo Code**-ত আপোনাৰ মেম'ৰী যোগ কৰক আৰু স্মৰণ কৰক MCPৰ জৰিয়তে
 
-মডুলাৰ ডিপ্লয়মেন্টৰ বাবে আমাৰ [ডকুমেন্টেচন](https://docs.heysol.ai/self-hosting/docker) চাওক
+### 🕸️ **টেম্পোৰেল + ৰিফাইড নলেজ গ্ৰাফ**: 
+
+প্ৰত্যেক তথ্যৰ পিছত থকা কাহিনী মনত ৰাখক—কেৱল সমান সংৰক্ষণ নহয়, সম্পূৰ্ণ প্ৰভেনেন্স, সমৃদ্ধ সম্পৰ্ক আৰু কে, কেতিয়া, কিয় কৈছে সেয়া অনুসৰণ কৰক
+
+https://github.com/user-attachments/assets/d18e3caa-72ea-4596-bbf7-cc9e32bd772f
+
+### 🌐 **ব্ৰাউজাৰ এক্সটেনচন**: 
+
+ChatGPT, Grok, Gemini, Twitter, YouTube, ব্লগ প'ষ্ট আৰু যিকোনো ৱেবপেজৰ কথোপকথন CORE মেমৰীত সৰাসৰি সংৰক্ষণ কৰক
+
+https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
+
+
+### 💬 **মেমৰীৰ সৈতে চেট কৰক**: 
+"মোৰ লিখন শৈলী কি?" দৰে প্ৰশ্ন কৰক আৰু সংযুক্ত জ্ঞানৰ পৰা তৎক্ষণাত অন্তৰ্দৃষ্টি লাভ কৰক
+
+https://github.com/user-attachments/assets/6be5aca5-1d2f-419e-9deb-acb897a05c20
+
+### ⚡ **এপসমূহৰ পৰা অটো-সিঙ্ক**: 
+
+Linear, Slack, Notion, GitHub আৰু সংযুক্ত আন এপসমূহৰ প্ৰাসঙ্গিক পৰিপ্ৰেক্ষিত CORE মেমৰীত স্বয়ংক্ৰিয়ভাৱে সংৰক্ষণ কৰক
+
+https://github.com/user-attachments/assets/a797f182-406d-49e8-80a8-20932169931d
+
+### 🔗 **MCP ইন্টেগ্ৰেচন হাব**: 
+
+Linear, Slack, GitHub, Notion এবাৰ CORE-ত সংযোগ কৰক—তেতিয়াৰ পৰা Claude, Cursor, অথবা যিকোনো MCP ক্লায়েন্টত সকলো টুল ব্যৱহাৰ কৰক
+
+
+https://github.com/user-attachments/assets/be2d69a7-6c6c-43ad-91b7-6db66712821d
+
+
 
 ## ডকুমেন্টেচন
 
-CORE-ৰ সকলো সুবিধা ল’বলৈ আমাৰ ডকুমেন্টেচন চাওক
+CORE-ৰ অধিক সুবিধা পাবলৈ আমাৰ ডকুমেন্টেচন পৰীক্ষা কৰক
 
-- [প্ৰাথমিক ধাৰণা](https://docs.heysol.ai/concepts/memory_graph)
+- [মৌলিক ধাৰণা](https://docs.heysol.ai/concepts/memory_graph)
 - [স্ব-হোষ্টিং](https://docs.heysol.ai/self-hosting/overview)
-- [Core MCP-ৰ সৈতে Claude সংযোগ কৰক](https://docs.heysol.ai/providers/claude)
-- [Core MCP-ৰ সৈতে Cursor সংযোগ কৰক](https://docs.heysol.ai/providers/cursor)
 
-- [প্ৰাথমিক ধাৰণা](https://docs.heysol.ai/overview)
+- [Core MCPক Claudeৰ সৈতে সংযোগ কৰক](https://docs.heysol.ai/providers/claude)
+- [Core MCPক Cursorৰ সৈতে সংযোগ কৰক](https://docs.heysol.ai/providers/cursor)
+
+- [মৌলিক ধাৰণা](https://docs.heysol.ai/overview)
 - [API Reference](https://docs.heysol.ai/local-setup)
 
-## 🧑‍💻 সহায়
+## 🧑‍💻 সহায়
 
-প্ৰশ্ন অথবা মতামত আছে নেকি? আমি আপোনাৰ সহায়ত সদায় সাজু:
+প্ৰশ্ন আছে নে মতামত আছে? আমি আপোনাক সহায় কৰিবলৈ আছোঁ:
 
-- Discord: [core-support channel-ত যোগদান কৰক](https://discord.gg/YGUZcvDjUa)
-- নথিপত্ৰ: [docs.heysol.ai](https://docs.heysol.ai)
-- ইমেইল: manik@poozle.dev
+- Discord: [core-support channelত যোগদান কৰক](https://discord.gg/YGUZcvDjUa)
+- Documentation: [docs.heysol.ai](https://docs.heysol.ai)
+- Email: manik@poozle.dev
 
-## ব্যৱহাৰ নিৰ্দেশনা
+## ব্যৱহাৰৰ নিৰ্দেশনা
 
-**সংৰক্ষণ কৰক:**
+**সংগ্ৰহ কৰক:**
 
-- বাৰ্তালাপ ইতিহাস
-- ব্যৱহাৰকাৰীৰ পছন্দ
-- কাৰ্যৰ প্ৰসংগ
-- উল্লেখযোগ্য সামগ্রী
+- কথোপকথনৰ ইতিহাস
+- ব্যৱহাৰকাৰীৰ পছন্দসমূহ
+- Task context
+- Reference materials
 
-**সংৰক্ষণ নকৰিব:**
+**সংগ্ৰহ নকৰিব:**
 
 - সংবেদনশীল তথ্য (PII)
-- প্ৰমাণপত্ৰ
-- চিষ্টেম লগ
-- অস্থায়ী তথ্য
+- Credentials
+- System logs
+- Temporary data
 
 ## 👥 অৱদানকাৰীসকল
 
@@ -124,8 +155,9 @@ CORE-ৰ সকলো সুবিধা ল’বলৈ আমাৰ ডকু�
 </a>
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

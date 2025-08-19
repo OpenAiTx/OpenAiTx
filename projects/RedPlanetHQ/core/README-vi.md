@@ -33,7 +33,7 @@
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
-### C.O.R.E: Bộ não số của bạn cho kỷ nguyên AI
+### CORE: Lớp Bộ Nhớ Thống Nhất cho Claude, Cursor, ChatGPT & Mọi Công Cụ AI
 
 <p align="center">
     <a href="https://deepwiki.com/RedPlanetHQ/core">
@@ -41,59 +41,90 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>Tài liệu</b></a> •
+    <a href="https://docs.heysol.ai/core/overview"><b>Tài liệu hướng dẫn</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
 </div>
 
-## 🧠 C.O.R.E.
+## Tổng quan
 
-**Bộ Máy Quan Sát Ngữ Cảnh & Ghi Nhớ**
+**Vấn đề**
 
-C.O.R.E là một đồ thị bộ nhớ di động được xây dựng từ các tương tác llm và dữ liệu cá nhân của bạn, giúp tất cả bối cảnh và lịch sử tác vụ của bạn có thể truy cập bởi bất kỳ công cụ AI nào, giống như một bộ não số. Điều này loại bỏ nhu cầu chia sẻ lại ngữ cảnh nhiều lần. Mục tiêu là cung cấp:
+Nhà phát triển lãng phí thời gian để giải thích lại bối cảnh cho các công cụ AI. Gặp giới hạn token ở Claude? Bắt đầu lại và mất hết mọi thứ. Chuyển từ ChatGPT/Claude sang Cursor? Lại phải giải thích bối cảnh một lần nữa. Các cuộc trò chuyện, quyết định, và ý tưởng của bạn biến mất giữa các phiên làm việc.
 
-- **Bộ Nhớ Thống Nhất, Di Động**: Thêm và truy xuất ngữ cảnh liền mạch, kết nối trí nhớ của bạn qua các ứng dụng như Claude, Cursor, Windsurf và nhiều hơn nữa.
-- **Quan Hệ, Không Chỉ Thông Tin Đơn Lẻ**: CORE tổ chức tri thức của bạn, lưu cả thông tin và mối quan hệ cho một bộ nhớ sâu sắc như não thật.
-- **Người Dùng Là Chủ Sở Hữu**: Bạn quyết định điều gì giữ lại, cập nhật hoặc xóa và chia sẻ bộ nhớ qua công cụ bạn muốn, thoát khỏi sự phụ thuộc nhà cung cấp.
+**Giải pháp** - **CORE** (**Contextual Observation & Recall Engine**)
 
-## 🎥 Video Demo
+CORE là một lớp bộ nhớ hợp nhất, liên tục và mã nguồn mở cho tất cả các công cụ AI của bạn. Bối cảnh của bạn sẽ theo bạn từ Cursor sang Claude rồi đến ChatGPT và Claude Code. Một đồ thị tri thức duy nhất ghi nhớ ai đã nói gì, khi nào và tại sao. Kết nối một lần, ghi nhớ mọi nơi. Ngừng quản lý bối cảnh và bắt đầu xây dựng.
 
-[Xem Demo C.O.R.E](https://youtu.be/iANZ32dnK60)
+## 🚀 Bắt đầu sử dụng
+**Xây dựng đồ thị bộ nhớ hợp nhất trong 5 phút:**
 
-<img width="7480" height="4672" alt="core-memory-graph" src="https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b" />
+1. **Đăng ký** tại [core.heysol.ai](https://core.heysol.ai) và tạo tài khoản của bạn
+2. **Thêm bộ nhớ đầu tiên** - chia sẻ bối cảnh về bản thân bạn
 
-## 🧩 Tính Năng Chính
+    <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
-- **Đồ Thị Bộ Nhớ**: Hình dung cách các sự kiện và sở thích của bạn liên kết với nhau
-- **Trò Chuyện Với Bộ Nhớ**: Đặt câu hỏi về bộ nhớ để có cái nhìn và thấu hiểu tức thì
-- **Cắm & Chạy**: Sử dụng bộ nhớ CORE ngay lập tức trong các ứng dụng như Cursor, Claude
 
-## ☁️ Thiết Lập C.O.R.E Cloud
+3. **Trực quan hóa đồ thị bộ nhớ của bạn** và xem cách CORE tự động tạo liên kết giữa các sự kiện
+5. **Thử nghiệm** - hỏi "Bạn biết gì về tôi?" trong phần trò chuyện
+6. Kết nối với công cụ của bạn:
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - lập trình với bối cảnh
+   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude) & [Gemini CLI](https://docs.heysol.ai/providers/cursor) - lập trình trên terminal có bộ nhớ
+   - [Thêm tiện ích mở rộng trình duyệt](https://docs.heysol.ai/providers/cursor) - mang bộ nhớ của bạn đến mọi website
+   - [Linear](https://docs.heysol.ai/providers/claude), [Slack](https://docs.heysol.ai/providers/cursor), [Github](https://docs.heysol.ai/providers/cursor) - tự động thêm bối cảnh dự án
 
-1. Truy cập [core.heysol.ai](https://core.heysol.ai)
-2. Đăng ký bằng email của bạn
-3. Giới thiệu bản thân với CORE: “Tôi là kỹ sư phần mềm đang làm dự án React tên TaskMaster. Tôi thích TypeScript và dùng Tailwind để tạo giao diện.”
-   <img width="2048" height="1172" alt="add-memory" src="https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938" />
-4. [Kết nối Core MCP với Claude](https://docs.heysol.ai/providers/claude)
-5. [Kết nối Core MCP với Cursor](https://docs.heysol.ai/providers/cursor)
+## 🧩 Tính năng chính
 
-## 💻 Tự Triển Khai C.O.R.E
+### 🧠 **Bộ nhớ hợp nhất, di động**:
+Thêm và truy xuất bộ nhớ của bạn trên **Cursor, Windsurf, Claude Desktop, Claude Code, Gemini CLI, AWS's Kiro, VS Code, và Roo Code** thông qua MCP
 
-Xem [tài liệu](https://docs.heysol.ai/self-hosting/docker) của chúng tôi để triển khai mô-đun
+### 🕸️ **Đồ thị tri thức có thời gian + khái quát hóa**: 
 
-## Tài Liệu
+Ghi nhớ câu chuyện phía sau mỗi dữ kiện—theo dõi ai nói gì, khi nào và tại sao với các mối quan hệ phong phú và nguồn gốc đầy đủ, không chỉ lưu trữ phẳng
 
-Khám phá tài liệu để tận dụng tối đa CORE
+https://github.com/user-attachments/assets/d18e3caa-72ea-4596-bbf7-cc9e32bd772f
 
-- [Khái Niệm Cơ Bản](https://docs.heysol.ai/concepts/memory_graph)
-- [Tự Triển Khai](https://docs.heysol.ai/self-hosting/overview)
+### 🌐 **Tiện ích mở rộng trình duyệt**: 
+
+Thu thập cuộc trò chuyện từ ChatGPT, Grok, Gemini, Twitter, YouTube, bài đăng blog và bất kỳ trang web nào trực tiếp vào bộ nhớ CORE của bạn
+
+
+https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
+
+
+### 💬 **Trò chuyện với bộ nhớ**: 
+Đặt câu hỏi như "Sở thích viết của tôi là gì?" với thông tin tức thì từ tri thức đã kết nối của bạn
+
+https://github.com/user-attachments/assets/6be5aca5-1d2f-419e-9deb-acb897a05c20
+
+### ⚡ **Đồng bộ tự động từ các ứng dụng**: 
+
+Tự động thu thập ngữ cảnh liên quan từ Linear, Slack, Notion, GitHub và các ứng dụng đã kết nối khác vào bộ nhớ CORE của bạn
+
+https://github.com/user-attachments/assets/a797f182-406d-49e8-80a8-20932169931d
+
+### 🔗 **Trung tâm tích hợp MCP**: 
+
+Kết nối Linear, Slack, GitHub, Notion một lần với CORE—sau đó sử dụng tất cả công cụ của họ trong Claude, Cursor, hoặc bất kỳ khách hàng MCP nào
+
+
+https://github.com/user-attachments/assets/be2d69a7-6c6c-43ad-91b7-6db66712821d
+
+
+
+## Tài liệu
+
+Khám phá tài liệu của chúng tôi để tận dụng tối đa CORE
+
+- [Khái niệm cơ bản](https://docs.heysol.ai/concepts/memory_graph)
+- [Tự triển khai](https://docs.heysol.ai/self-hosting/overview)
 - [Kết nối Core MCP với Claude](https://docs.heysol.ai/providers/claude)
 - [Kết nối Core MCP với Cursor](https://docs.heysol.ai/providers/cursor)
 
-- [Khái Niệm Cơ Bản](https://docs.heysol.ai/overview)
-- [Tham Khảo API](https://docs.heysol.ai/local-setup)
+- [Các khái niệm cơ bản](https://docs.heysol.ai/overview)
+- [Tham khảo API](https://docs.heysol.ai/local-setup)
 
-## 🧑‍💻 Hỗ Trợ
+## 🧑‍💻 Hỗ trợ
 
 Có câu hỏi hoặc góp ý? Chúng tôi luôn sẵn sàng hỗ trợ:
 
@@ -105,15 +136,15 @@ Có câu hỏi hoặc góp ý? Chúng tôi luôn sẵn sàng hỗ trợ:
 
 **Lưu trữ:**
 
-- Lịch sử hội thoại
-- Sở thích của người dùng
+- Lịch sử cuộc trò chuyện
+- Sở thích người dùng
 - Ngữ cảnh nhiệm vụ
 - Tài liệu tham khảo
 
 **Không lưu trữ:**
 
 - Dữ liệu nhạy cảm (PII)
-- Thông tin xác thực
+- Thông tin đăng nhập
 - Nhật ký hệ thống
 - Dữ liệu tạm thời
 
@@ -124,8 +155,9 @@ Có câu hỏi hoặc góp ý? Chúng tôi luôn sẵn sàng hỗ trợ:
 </a>
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

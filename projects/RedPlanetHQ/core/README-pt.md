@@ -33,7 +33,7 @@
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
-### C.O.R.E: Seu cérebro digital para a era da IA
+### CORE: Camada Unificada de Memória para Claude, Cursor, ChatGPT & Todas as Ferramentas de IA
 
 <p align="center">
     <a href="https://deepwiki.com/RedPlanetHQ/core">
@@ -46,71 +46,102 @@
 </p>
 </div>
 
-## 🧠 C.O.R.E.
+## Visão Geral
 
-**Contextual Observation & Recall Engine**
+**Problema**
 
-C.O.R.E é um grafo de memória portátil construído a partir das suas interações com LLMs e dados pessoais, tornando todo o seu contexto e histórico de fluxo de trabalho acessível a qualquer ferramenta de IA, como um cérebro digital. Isso elimina a necessidade de compartilhar contexto repetidamente. O objetivo é fornecer:
+Desenvolvedores perdem tempo reexplicando contexto para ferramentas de IA. Chegou ao limite de tokens no Claude? Comece do zero e perca tudo. Mudou do ChatGPT/Claude para Cursor? Explique seu contexto novamente. Suas conversas, decisões e insights desaparecem entre sessões.
 
-- **Memória Unificada e Portátil**: Adicione e recupere contexto facilmente, conectando sua memória entre apps como Claude, Cursor, Windsurf e outros.
-- **Relacional, Não Apenas Fatos Isolados**: O CORE organiza seu conhecimento, armazenando fatos e relações para uma memória mais profunda e rica, como um cérebro real.
-- **Propriedade do Usuário**: Você decide o que manter, atualizar ou excluir e compartilha sua memória nas ferramentas que quiser, livre de bloqueio de fornecedor.
+**Solução** - **CORE** (**Contextual Observation & Recall Engine**)
 
-## 🎥 Vídeo Demonstrativo
+CORE é uma camada de memória unificada, persistente e open-source para todas as suas ferramentas de IA. Seu contexto acompanha você do Cursor ao Claude, ChatGPT e Claude Code. Um grafo de conhecimento lembra quem disse o quê, quando e por quê. Conecte uma vez, lembre em todo lugar. Pare de gerenciar contexto e comece a construir.
 
-[Confira a Demo do C.O.R.E](https://youtu.be/iANZ32dnK60)
+## 🚀 Comece Agora
+**Construa seu grafo de memória unificado em 5 minutos:**
 
-<img width="7480" height="4672" alt="core-memory-graph" src="https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b" />
+1. **Cadastre-se** em [core.heysol.ai](https://core.heysol.ai) e crie sua conta
+2. **Adicione sua primeira memória** - compartilhe contexto sobre você
+
+    <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
+
+
+3. **Visualize seu grafo de memória** e veja como o CORE conecta fatos automaticamente
+5. **Teste** - pergunte "O que você sabe sobre mim?" na seção de conversa
+6. Conecte às suas ferramentas:
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - programação com contexto
+   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude) & [Gemini CLI](https://docs.heysol.ai/providers/cursor) - programação no terminal com memória
+   - [Adicione a extensão de navegador](https://docs.heysol.ai/providers/cursor) - leve sua memória para qualquer site
+   - [Linear](https://docs.heysol.ai/providers/claude), [Slack](https://docs.heysol.ai/providers/cursor), [Github](https://docs.heysol.ai/providers/cursor) - adicione contexto de projeto automaticamente
 
 ## 🧩 Principais Funcionalidades
 
-- **Grafo de Memória**: Visualize como seus fatos e preferências se conectam
-- **Converse com a Memória**: Faça perguntas sobre a memória para obter insights e entendimento instantâneos
-- **Plug n Play**: Use instantaneamente a memória do CORE em apps como Cursor, Claude
+### 🧠 **Memória Unificada e Portátil**:
+Adicione e recupere sua memória em **Cursor, Windsurf, Claude Desktop, Claude Code, Gemini CLI, AWS Kiro, VS Code e Roo Code** via MCP
 
-## ☁️ Configuração do C.O.R.E Cloud
+### 🕸️ **Grafo de Conhecimento Temporal + Reificado**:
 
-1. Acesse [core.heysol.ai](https://core.heysol.ai)
-2. Cadastre-se com seu e-mail
-3. Conte ao CORE sobre você: “Sou engenheiro de software trabalhando em um projeto React chamado TaskMaster. Prefiro TypeScript e uso Tailwind para estilização.”
-   <img width="2048" height="1172" alt="add-memory" src="https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938" />
-4. [Conecte o Core MCP com Claude](https://docs.heysol.ai/providers/claude)
-5. [Conecte o Core MCP com Cursor](https://docs.heysol.ai/providers/cursor)
+Lembre-se da história por trás de cada fato—rastreie quem disse o quê, quando e por quê, com relacionamentos ricos e total proveniência, não apenas armazenamento plano
 
-## 💻 C.O.R.E Auto-Hospedado
+https://github.com/user-attachments/assets/d18e3caa-72ea-4596-bbf7-cc9e32bd772f
 
-Confira nossa [documentação](https://docs.heysol.ai/self-hosting/docker) para implantação modular
+### 🌐 **Extensão de Navegador**:
+
+Capture conversas do ChatGPT, Grok, Gemini, Twitter, YouTube, postagens de blogs e qualquer página da web diretamente para sua memória CORE
+
+
+https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
+
+
+### 💬 **Converse com a Memória**:
+Faça perguntas como "Quais são minhas preferências de escrita?" com insights instantâneos do seu conhecimento conectado
+
+https://github.com/user-attachments/assets/6be5aca5-1d2f-419e-9deb-acb897a05c20
+
+### ⚡ **Sincronização Automática de Apps**:
+
+Capture automaticamente contexto relevante do Linear, Slack, Notion, GitHub e outros aplicativos conectados para sua memória CORE
+
+https://github.com/user-attachments/assets/a797f182-406d-49e8-80a8-20932169931d
+
+### 🔗 **Hub de Integração MCP**:
+
+Conecte Linear, Slack, GitHub, Notion uma vez ao CORE—depois use todas as ferramentas deles no Claude, Cursor ou qualquer cliente MCP
+
+
+https://github.com/user-attachments/assets/be2d69a7-6c6c-43ad-91b7-6db66712821d
+
+
 
 ## Documentação
 
 Explore nossa documentação para aproveitar ao máximo o CORE
 
 - [Conceitos Básicos](https://docs.heysol.ai/concepts/memory_graph)
-- [Auto-Hospedagem](https://docs.heysol.ai/self-hosting/overview)
-- [Conectar Core MCP com Claude](https://docs.heysol.ai/providers/claude)
-- [Conectar Core MCP com Cursor](https://docs.heysol.ai/providers/cursor)
+- [Hospedagem Própria](https://docs.heysol.ai/self-hosting/overview)
+- [Conecte o Core MCP com Claude](https://docs.heysol.ai/providers/claude)
+- [Conecte o Core MCP com Cursor](https://docs.heysol.ai/providers/cursor)
 
 - [Conceitos Básicos](https://docs.heysol.ai/overview)
 - [Referência da API](https://docs.heysol.ai/local-setup)
 
 ## 🧑‍💻 Suporte
 
-Tem dúvidas ou sugestões? Estamos aqui para ajudar:
+Tem dúvidas ou feedback? Estamos aqui para ajudar:
 
-- Discord: [Participe do canal core-support](https://discord.gg/YGUZcvDjUa)
+- Discord: [Entre no canal core-support](https://discord.gg/YGUZcvDjUa)
 - Documentação: [docs.heysol.ai](https://docs.heysol.ai)
-- E-mail: manik@poozle.dev
+- Email: manik@poozle.dev
 
 ## Diretrizes de Uso
 
-**Armazene:**
+**Armazenar:**
 
 - Histórico de conversas
 - Preferências do usuário
-- Contexto da tarefa
+- Contexto de tarefas
 - Materiais de referência
 
-**Não Armazene:**
+**Não Armazenar:**
 
 - Dados sensíveis (PII)
 - Credenciais
@@ -124,8 +155,9 @@ Tem dúvidas ou sugestões? Estamos aqui para ajudar:
 </a>
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

@@ -1,4 +1,19 @@
-# Exemples Agent2Agent (A2A)
+# Échantillons Agent2Agent (A2A)
+
+<a href="https://studio.firebase.google.com/new?template=https%3A%2F%2Fgithub.com%2Fa2aproject%2Fa2a-samples%2Ftree%2Fmain%2F.firebase-studio">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_light_20.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_dark_20.svg">
+    <img
+      height="20"
+      alt="Essayer dans Firebase Studio"
+      src="https://cdn.firebasestudio.dev/btn/try_blue_20.svg">
+  </picture>
+</a>
 
 <div style="text-align: right;">
   <details>
@@ -23,7 +38,7 @@
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa">فارسی</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=tr">Türkçe</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=vi">Tiếng Việt</a>
-      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=id">Bahasa Indonesia</a>
+      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fr">Français</a>
     </div>
   </details>
 </div>
@@ -46,17 +61,17 @@ Veuillez utiliser la [page des issues](https://github.com/a2aproject/a2a-samples
 
 ## Avertissement
 
-Ce dépôt n'est pas un produit Google officiellement pris en charge. Le code de ce dépôt est uniquement à des fins de démonstration.
+Ce dépôt n'est pas un produit Google officiellement pris en charge. Le code contenu dans ce dépôt est fourni uniquement à titre de démonstration.
 
-Important : Le code exemple fourni est destiné à la démonstration et illustre la mécanique du protocole Agent-to-Agent (A2A). Lors du développement d'applications en production, il est crucial de considérer tout agent opérant en dehors de votre contrôle direct comme une entité potentiellement non fiable.
+Important : Le code d'exemple fourni est destiné à la démonstration et illustre le fonctionnement du protocole Agent-to-Agent (A2A). Lors de la création d'applications en production, il est essentiel de considérer tout agent opérant en dehors de votre contrôle direct comme potentiellement non fiable.
 
-Toutes les données reçues d'un agent externe—including mais sans s'y limiter à sa AgentCard, aux messages, artefacts et statuts de tâches—doivent être traitées comme des entrées non fiables. Par exemple, un agent malveillant pourrait fournir une AgentCard contenant des données falsifiées dans ses champs (par exemple, description, nom, skills.description). Si ces données sont utilisées sans assainissement pour construire des invites pour un Large Language Model (LLM), cela pourrait exposer votre application à des attaques d'injection de prompt. Ne pas valider et assainir correctement ces données avant leur utilisation peut introduire des vulnérabilités de sécurité dans votre application.
+Toutes les données reçues d'un agent externe, y compris mais sans s'y limiter sa AgentCard, ses messages, ses artefacts et ses statuts de tâche, doivent être traitées comme des entrées non fiables. Par exemple, un agent malveillant pourrait fournir une AgentCard contenant des données falsifiées dans ses champs (par exemple, description, nom, skills.description). Si ces données sont utilisées sans être nettoyées pour construire des prompts pour un Large Language Model (LLM), cela pourrait exposer votre application à des attaques par injection de prompt. Le défaut de valider et de nettoyer correctement ces données avant utilisation peut introduire des vulnérabilités de sécurité dans votre application.
 
-Les développeurs sont responsables de la mise en œuvre de mesures de sécurité appropriées, telles que la validation des entrées et la gestion sécurisée des identifiants pour protéger leurs systèmes et utilisateurs.
+Les développeurs sont responsables de la mise en œuvre de mesures de sécurité appropriées, telles que la validation des entrées et la gestion sécurisée des identifiants afin de protéger leurs systèmes et utilisateurs.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

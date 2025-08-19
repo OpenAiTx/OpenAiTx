@@ -1,5 +1,20 @@
 # Przykłady Agent2Agent (A2A)
 
+<a href="https://studio.firebase.google.com/new?template=https%3A%2F%2Fgithub.com%2Fa2aproject%2Fa2a-samples%2Ftree%2Fmain%2F.firebase-studio">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_light_20.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_dark_20.svg">
+    <img
+      height="20"
+      alt="Wypróbuj w Firebase Studio"
+      src="https://cdn.firebasestudio.dev/btn/try_blue_20.svg">
+  </picture>
+</a>
+
 <div style="text-align: right;">
   <details>
     <summary>🌐 Język</summary>
@@ -23,12 +38,12 @@
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa">فارسی</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=tr">Türkçe</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=vi">Tiếng Việt</a>
-      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=id">Bahasa Indonesia</a>
+      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=pl">Polski</a>
     </div>
   </details>
 </div>
 
-To repozytorium zawiera przykłady kodu i dema wykorzystujące [Protokół Agent2Agent (A2A)](https://goo.gle/a2a).
+To repozytorium zawiera przykładowy kod i dema wykorzystujące [Protokół Agent2Agent (A2A)](https://goo.gle/a2a).
 
 ## Powiązane repozytoria
 
@@ -38,25 +53,25 @@ To repozytorium zawiera przykłady kodu i dema wykorzystujące [Protokół Agent
 
 ## Współtworzenie
 
-Wkład mile widziany! Zobacz [Przewodnik współtworzenia](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).
+Zapraszamy do współpracy! Zobacz [Przewodnik dla współtwórców](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md).
 
 ## Uzyskiwanie pomocy
 
-Prosimy korzystać z [zakładki issues](https://github.com/a2aproject/a2a-samples/issues), aby zgłaszać sugestie, uwagi lub raportować błędy.
+Użyj [strony zgłaszania problemów](https://github.com/a2aproject/a2a-samples/issues), aby przekazać sugestie, opinie lub zgłosić błąd.
 
 ## Zastrzeżenie
 
-To repozytorium nie jest oficjalnie wspieranym produktem Google. Kod w tym repozytorium służy wyłącznie celom demonstracyjnym.
+To repozytorium nie jest oficjalnie wspieranym produktem Google. Kod w tym repozytorium służy wyłącznie do celów demonstracyjnych.
 
-Ważne: Przykładowy kod ma charakter demonstracyjny i ilustruje mechanikę działania protokołu Agent-to-Agent (A2A). Tworząc aplikacje produkcyjne, należy traktować każdego agenta działającego poza bezpośrednią kontrolą jako potencjalnie nieufne źródło.
+Ważne: Przykładowy kod jest przeznaczony do celów demonstracyjnych i ilustruje mechanikę protokołu Agent-to-Agent (A2A). Tworząc aplikacje produkcyjne, należy traktować każdego agenta działającego poza Twoją bezpośrednią kontrolą jako potencjalnie nieufne źródło.
 
-Wszelkie dane otrzymywane od zewnętrznego agenta — w tym m.in. AgentCard, wiadomości, artefakty i statusy zadań — powinny być traktowane jako dane nieufne. Przykładowo, złośliwy agent może dostarczyć AgentCard z przygotowanymi danymi w polach (np. opis, nazwa, skills.description). Jeśli dane te zostaną użyte bez sanitizacji do budowy promptów dla dużego modelu językowego (LLM), mogą narazić Twoją aplikację na ataki typu prompt injection. Brak właściwej walidacji i sanitizacji tych danych przed użyciem może wprowadzić luki bezpieczeństwa do Twojej aplikacji.
+Wszelkie dane otrzymane od zewnętrznego agenta – w tym, ale nie tylko, jego AgentCard, wiadomości, artefakty i statusy zadań – powinny być traktowane jako nieufne wejście. Na przykład złośliwy agent może dostarczyć AgentCard zawierający spreparowane dane w polach (np. opis, nazwa, skills.description). Jeśli te dane zostaną użyte bez sanitizacji do budowania promptów dla dużego modelu językowego (LLM), może to narazić Twoją aplikację na ataki typu prompt injection. Brak odpowiedniej walidacji i sanitizacji tych danych przed użyciem może wprowadzić podatności na zagrożenia do Twojej aplikacji.
 
-Programiści są odpowiedzialni za wdrożenie odpowiednich środków bezpieczeństwa, takich jak walidacja wejścia i bezpieczna obsługa poświadczeń, aby chronić swoje systemy i użytkowników.
+Programiści są odpowiedzialni za wdrożenie odpowiednich środków bezpieczeństwa, takich jak walidacja wejścia i bezpieczne zarządzanie poświadczeniami w celu ochrony swoich systemów i użytkowników.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

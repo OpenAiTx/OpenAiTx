@@ -30,10 +30,10 @@
 
 <div align="center">
   <a href="https://core.heysol.ai">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logosu" />
+    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
-### C.O.R.E: Yapay Zeka çağının dijital beyniniz
+### CORE: Claude, Cursor, ChatGPT ve Tüm Yapay Zeka Araçları için Birleşik Bellek Katmanı
 
 <p align="center">
     <a href="https://deepwiki.com/RedPlanetHQ/core">
@@ -46,40 +46,68 @@
 </p>
 </div>
 
-## 🧠 C.O.R.E.
+## Genel Bakış
 
-**Bağlamsal Gözlem ve Hatırlama Motoru**
+**Sorun** 
 
-C.O.R.E, llm etkileşimlerinizden ve kişisel verilerinizden oluşturulan taşınabilir bir bellek grafiğidir, böylece tüm bağlam ve iş akışı geçmişiniz herhangi bir yapay zeka aracı için erişilebilir olur; tıpkı dijital bir beyin gibi. Bu, tekrarlanan bağlam paylaşımı ihtiyacını ortadan kaldırır. Amaç şunları sağlamaktır:
+Geliştiriciler, AI araçlarına sürekli olarak bağlamı yeniden açıklayarak zaman kaybediyor. Claude’da token sınırına mı ulaştınız? Yeniden başlayın ve her şeyi kaybedin. ChatGPT/Claude’dan Cursor’a mı geçiyorsunuz? Bağlamınızı tekrar açıklayın. Konuşmalarınız, kararlarınız ve içgörüleriniz oturumlar arasında kaybolur.
 
-- **Birleşik, Taşınabilir Bellek**: Bağlamı sorunsuzca ekleyin ve geri çağırın, belleğinizi Claude, Cursor, Windsurf gibi uygulamalar arasında bağlayın.
-- **İlişkisel, Sadece Düz Gerçekler Değil**: CORE, bilginizi organize eder, hem gerçekleri hem de ilişkileri depolar; gerçek bir beyin gibi daha derin ve zengin bir bellek sunar.
-- **Kullanıcıya Ait**: Ne tutacağınıza, güncelleyeceğinize veya sileceğinize siz karar verirsiniz ve belleğinizi istediğiniz araçta paylaşabilir, tedarikçi kilidinden kurtulursunuz.
+**Çözüm** - **CORE** (**Bağlamsal Gözlem & Hatırlama Motoru**)
 
-## 🎥 Demo Video
+CORE, tüm AI araçlarınız için açık kaynaklı, birleşik ve kalıcı bir hafıza katmanıdır. Bağlamınız Cursor’dan Claude’a, ChatGPT’den Claude Code’a sizinle birlikte gelir. Bir bilgi grafiği, kim ne zaman ve neden söylediğini hatırlar. Bir kez bağlanın, her yerde hatırlayın. Bağlamı yönetmeyi bırakın, üretmeye başlayın.
 
-[C.O.R.E Demo'yu İzle](https://youtu.be/iANZ32dnK60)
+## 🚀 Başlangıç
+**Birleşik hafıza grafiğinizi 5 dakikada oluşturun:**
 
-<img width="7480" height="4672" alt="core-memory-graph" src="https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b" />
+1. [core.heysol.ai](https://core.heysol.ai) adresinden **Kayıt Olun** ve hesabınızı oluşturun
+2. **İlk hafızanızı ekleyin** - kendinizle ilgili bağlamı paylaşın
 
-## 🧩 Temel Özellikler
+    <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
-- **Bellek Grafiği**: Gerçeklerinizin ve tercihlerinizi birbirine nasıl bağlandığını görselleştirin
-- **Bellek ile Sohbet**: Anında içgörü ve anlayış için belleğiniz hakkında sorular sorun
-- **Tak Çalıştır**: CORE belleğini Cursor, Claude gibi uygulamalarda anında kullanın
 
-## ☁️ C.O.R.E Bulut Kurulumu
+3. **Hafıza grafiğinizi görselleştirin** ve CORE’un otomatik olarak gerçekler arasında nasıl bağlantı kurduğunu izleyin
+5. **Deneyin** - konuşma bölümünde "Benim hakkımda ne biliyorsun?" diye sorun
+6. Araçlarınıza bağlanın:
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - bağlamlı kodlama
+   - [Claude Code CLI](https://docs.heysol.ai/providers/claude) & [Gemini CLI](https://docs.heysol.ai/providers/cursor) - terminal tabanlı hafızalı kodlama
+   - [Tarayıcı Eklentisi Ekle](https://docs.heysol.ai/providers/cursor) - hafızanızı herhangi bir web sitesine getirin
+   - [Linear](https://docs.heysol.ai/providers/claude), [Slack](https://docs.heysol.ai/providers/cursor), [Github](https://docs.heysol.ai/providers/cursor) - proje bağlamını otomatik olarak ekleyin
 
-1. [core.heysol.ai](https://core.heysol.ai) adresini ziyaret edin
-2. E-postanızla kayıt olun
-3. CORE'a kendinizden bahsedin: “Ben bir yazılım mühendisiyim ve TaskMaster adlı bir React projesi üzerinde çalışıyorum. TypeScript tercih ederim ve stil için Tailwind kullanırım.”
-   <img width="2048" height="1172" alt="add-memory" src="https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938" />
-4. [Core MCP'yi Claude ile Bağlayın](https://docs.heysol.ai/providers/claude)
-5. [Core MCP'yi Cursor ile Bağlayın](https://docs.heysol.ai/providers/cursor)
+## 🧩 Ana Özellikler
 
-## 💻 C.O.R.E Kendi Sunucunda Barındırma
+### 🧠 **Birleşik, Taşınabilir Hafıza**: 
+Hafızanızı **Cursor, Windsurf, Claude Desktop, Claude Code, Gemini CLI, AWS'nin Kiro'su, VS Code ve Roo Code** üzerinde MCP ile ekleyin ve hatırlayın
 
-Modüler kurulum için [dokümantasyonumuza](https://docs.heysol.ai/self-hosting/docker) göz atın
+### 🕸️ **Zamansal + Yeniden Şekillendirilmiş Bilgi Grafiği**:
+
+Her gerçeğin ardındaki hikayeyi hatırlayın—kim neyi, ne zaman ve neden söylediğini zengin ilişkiler ve tam kökenle takip edin, sadece düz depolama değil
+
+https://github.com/user-attachments/assets/d18e3caa-72ea-4596-bbf7-cc9e32bd772f
+
+### 🌐 **Tarayıcı Eklentisi**:
+
+ChatGPT, Grok, Gemini, Twitter, YouTube, blog yazıları ve herhangi bir web sayfasındaki sohbetleri doğrudan CORE belleğinize aktarın
+
+https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
+
+### 💬 **Bellek ile Sohbet**:
+"Yazma tercihlerimler neler?" gibi soruları bağlı bilginizden anında içgörülerle sorun
+
+https://github.com/user-attachments/assets/6be5aca5-1d2f-419e-9deb-acb897a05c20
+
+### ⚡ **Uygulamalardan Otomatik Senkronizasyon**:
+
+Linear, Slack, Notion, GitHub ve diğer bağlı uygulamalardan ilgili bağlamı otomatik olarak CORE belleğinize aktarın
+
+https://github.com/user-attachments/assets/a797f182-406d-49e8-80a8-20932169931d
+
+### 🔗 **MCP Entegrasyon Merkezi**:
+
+Linear, Slack, GitHub, Notion'u bir kere CORE'a bağlayın—sonra tüm araçlarını Claude, Cursor veya herhangi bir MCP istemcisinde kullanın
+
+https://github.com/user-attachments/assets/be2d69a7-6c6c-43ad-91b7-6db66712821d
+
+
 
 ## Dokümantasyon
 
@@ -87,6 +115,9 @@ CORE'dan en iyi şekilde yararlanmak için dokümantasyonumuzu keşfedin
 
 - [Temel Kavramlar](https://docs.heysol.ai/concepts/memory_graph)
 - [Kendi Sunucunda Barındırma](https://docs.heysol.ai/self-hosting/overview)
+
+
+
 - [Core MCP'yi Claude ile Bağlayın](https://docs.heysol.ai/providers/claude)
 - [Core MCP'yi Cursor ile Bağlayın](https://docs.heysol.ai/providers/cursor)
 
@@ -95,13 +126,13 @@ CORE'dan en iyi şekilde yararlanmak için dokümantasyonumuzu keşfedin
 
 ## 🧑‍💻 Destek
 
-Sorunuz veya geri bildiriminiz mi var? Yardım etmek için buradayız:
+Sorularınız veya geri bildiriminiz mi var? Yardım etmek için buradayız:
 
 - Discord: [core-support kanalına katılın](https://discord.gg/YGUZcvDjUa)
 - Dokümantasyon: [docs.heysol.ai](https://docs.heysol.ai)
 - E-posta: manik@poozle.dev
 
-## Kullanım Kuralları
+## Kullanım Yönergeleri
 
 **Saklayın:**
 
@@ -112,7 +143,7 @@ Sorunuz veya geri bildiriminiz mi var? Yardım etmek için buradayız:
 
 **Saklamayın:**
 
-- Hassas veriler (Kişisel Bilgiler)
+- Hassas veriler (Kişisel Bilgi)
 - Kimlik bilgileri
 - Sistem günlükleri
 - Geçici veriler
@@ -124,8 +155,9 @@ Sorunuz veya geri bildiriminiz mi var? Yardım etmek için buradayız:
 </a>
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

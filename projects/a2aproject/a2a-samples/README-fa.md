@@ -1,5 +1,19 @@
-﻿
 # نمونه‌های Agent2Agent (A2A)
+
+<a href="https://studio.firebase.google.com/new?template=https%3A%2F%2Fgithub.com%2Fa2aproject%2Fa2a-samples%2Ftree%2Fmain%2F.firebase-studio">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_light_20.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_dark_20.svg">
+    <img
+      height="20"
+      alt="امتحان در Firebase Studio"
+      src="https://cdn.firebasestudio.dev/btn/try_blue_20.svg">
+  </picture>
+</a>
 
 <div style="text-align: right;">
   <details>
@@ -24,18 +38,18 @@
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa">فارسی</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=tr">Türkçe</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=vi">Tiếng Việt</a>
-      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=id">Bahasa Indonesia</a>
+      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa">فارسی</a>
     </div>
   </details>
 </div>
 
-این مخزن شامل نمونه کدها و دموهایی است که از [پروتکل Agent2Agent (A2A)](https://goo.gle/a2a) استفاده می‌کنند.
+این مخزن شامل نمونه‌های کد و دموهایی است که از [پروتکل Agent2Agent (A2A)](https://goo.gle/a2a) استفاده می‌کنند.
 
 ## مخازن مرتبط
 
-- [A2A](https://github.com/a2aproject/A2A) - مستندات و مشخصات فنی A2A.
+- [A2A](https://github.com/a2aproject/A2A) - مستندات و مشخصات A2A.
 - [a2a-python](https://github.com/a2aproject/a2a-python) - کیت توسعه نرم‌افزار پایتون A2A.
-- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - ابزار رابط کاربری برای بازرسی ایجنت‌های مجهز به A2A.
+- [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - ابزار رابط کاربری برای بررسی عامل‌های فعال‌شده با A2A.
 
 ## مشارکت
 
@@ -43,22 +57,21 @@
 
 ## دریافت کمک
 
-لطفاً برای ارائه پیشنهاد، بازخورد یا گزارش اشکال، از [صفحه مشکلات](https://github.com/a2aproject/a2a-samples/issues) استفاده کنید.
+لطفاً برای ارائه پیشنهادات، بازخورد یا ارسال گزارش اشکال از [صفحه مسائل](https://github.com/a2aproject/a2a-samples/issues) استفاده کنید.
 
 ## سلب مسئولیت
 
-این مخزن به طور رسمی یک محصول پشتیبانی‌شده گوگل نیست. کد موجود در این مخزن صرفاً برای اهداف نمایشی است.
+این مخزن به خودی خود یک محصول رسمی پشتیبانی شده توسط گوگل نیست. کدهای موجود در این مخزن صرفاً برای اهداف نمایشی ارائه شده‌اند.
 
-مهم: کد نمونه ارائه‌شده فقط برای اهداف نمایشی است و مکانیزم‌های پروتکل عامل-به-عامل (A2A) را نشان می‌دهد. هنگام ساخت برنامه‌های تولیدی، بسیار مهم است که هر عاملی که خارج از کنترل مستقیم شما عمل می‌کند را به عنوان یک موجودیت غیرقابل اعتماد در نظر بگیرید.
+مهم: کد نمونه ارائه شده صرفاً جهت نمایش بوده و مکانیزم‌های پروتکل عامل-به-عامل (A2A) را نشان می‌دهد. هنگام ساخت برنامه‌های تولیدی، ضروری است که هر عامل خارج از کنترل مستقیم خود را به عنوان یک موجودیت بالقوه غیرقابل اعتماد در نظر بگیرید.
 
-تمام داده‌های دریافتی از یک عامل خارجی — از جمله اما نه محدود به AgentCard، پیام‌ها، مصنوعات و وضعیت وظایف آن — باید به عنوان ورودی غیرقابل اعتماد تلقی شود. به عنوان مثال، یک عامل مخرب می‌تواند یک AgentCard با داده‌های دست‌کاری‌شده در فیلدهای خود (مثلاً توضیحات، نام، مهارت‌ها.توضیحات) ارائه دهد. اگر این داده‌ها بدون پاک‌سازی برای ساخت پرامپت برای یک مدل زبانی بزرگ (LLM) مورد استفاده قرار گیرند، ممکن است برنامه شما را در معرض حملات تزریق پرامپت قرار دهد. عدم اعتبارسنجی و پاک‌سازی صحیح این داده‌ها قبل از استفاده می‌تواند آسیب‌پذیری‌های امنیتی در برنامه شما ایجاد کند.
+تمام داده‌های دریافت‌شده از یک عامل خارجی — از جمله اما نه محدود به AgentCard، پیام‌ها، مصنوعات و وضعیت وظایف — باید به عنوان ورودی غیرقابل اعتماد مدیریت شوند. به عنوان مثال، یک عامل مخرب می‌تواند AgentCardی با داده‌های ساختگی در فیلدهایش (مانند توضیحات، نام، skills.description) ارائه دهد. اگر این داده‌ها بدون پاک‌سازی برای ساخت پرامپت‌های یک مدل زبان بزرگ (LLM) استفاده شوند، ممکن است برنامه شما را در معرض حملات تزریق پرامپت قرار دهند. عدم اعتبارسنجی و پاک‌سازی مناسب این داده‌ها قبل از استفاده می‌تواند آسیب‌پذیری‌های امنیتی را وارد برنامه شما کند.
 
-توسعه‌دهندگان مسئول پیاده‌سازی تدابیر امنیتی مناسب مانند اعتبارسنجی ورودی و مدیریت امن مدارک برای محافظت از سیستم‌ها و کاربران خود هستند.
-
+توسعه‌دهندگان مسئول پیاده‌سازی اقدامات امنیتی مناسب، مانند اعتبارسنجی ورودی و مدیریت ایمن اطلاعات محرمانه برای محافظت از سیستم‌ها و کاربران خود هستند.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

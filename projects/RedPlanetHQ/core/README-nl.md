@@ -3,26 +3,26 @@
     <summary >🌐 Taal</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">English</a>
+        <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=en">Engels</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ja">Japans</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ko">Koreaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fr">Frans</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=de">Duits</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=es">Spaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=it">Italiaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ru">Russisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pt">Portugees</a>
         | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=pl">Pools</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=ar">Arabisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=fa">Perzisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=tr">Turks</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=vi">Vietnamees</a>
+        | <a href="https://openaitx.github.io/view.html?user=RedPlanetHQ&project=core&lang=id">Indonesisch</a>
       </div>
     </div>
   </details>
@@ -33,7 +33,7 @@
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
-### C.O.R.E: Je digitale brein voor het AI-tijdperk
+### CORE: Uniforme Geheugenlaag voor Claude, Cursor, ChatGPT & Alle AI Tools
 
 <p align="center">
     <a href="https://deepwiki.com/RedPlanetHQ/core">
@@ -46,56 +46,87 @@
 </p>
 </div>
 
-## 🧠 C.O.R.E.
+## Overzicht
 
-**Contextual Observation & Recall Engine**
+**Probleem**
 
-C.O.R.E is een draagbare geheugenkaart opgebouwd uit je llm-interacties en persoonlijke data, waardoor al je context en workflowgeschiedenis toegankelijk wordt voor elke AI-tool, net als een digitaal brein. Dit elimineert de noodzaak om context steeds opnieuw te delen. Het doel is om te voorzien in:
+Ontwikkelaars verspillen tijd door steeds opnieuw context uit te leggen aan AI-tools. Loop je tegen tokenlimieten aan in Claude? Dan begin je opnieuw en raak je alles kwijt. Wissel je van ChatGPT/Claude naar Cursor? Dan moet je je context weer uitleggen. Je gesprekken, beslissingen en inzichten verdwijnen tussen sessies.
 
-- **Geünificeerd, draagbaar geheugen**: Voeg context toe en haal het naadloos op, en verbind je geheugen tussen apps als Claude, Cursor, Windsurf en meer.
-- **Relationeel, niet alleen platte feiten**: CORE organiseert je kennis, slaat zowel feiten als relaties op voor een diepgaander, rijker geheugen zoals een echt brein.
-- **Gebruikerseigendom**: Jij bepaalt wat je bewaart, bijwerkt of verwijdert en deelt je geheugen met de tool die je wilt, zonder vendor lock-in.
+**Oplossing** - **CORE** (**Contextual Observation & Recall Engine**)
 
-## 🎥 Demo Video
+CORE is een open-source, verenigde en persistente geheugenzaag voor al je AI-tools. Je context volgt je van Cursor naar Claude, naar ChatGPT, naar Claude Code. Eén kennisgrafiek onthoudt wie wat zei, wanneer en waarom. Eén keer verbinden, overal onthouden. Stop met context beheren, begin met bouwen.
 
-[Bekijk C.O.R.E Demo](https://youtu.be/iANZ32dnK60)
+## 🚀 Aan de slag
+**Bouw je verenigde geheugenkaart in 5 minuten:**
 
-<img width="7480" height="4672" alt="core-memory-graph" src="https://github.com/user-attachments/assets/2b159e87-38ce-4cc6-ac16-047f645c3a4b" />
+1. **Registreer** je op [core.heysol.ai](https://core.heysol.ai) en maak je account aan
+2. **Voeg je eerste geheugen toe** – deel context over jezelf
+
+    <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
+
+
+3. **Visualiseer je geheugenkaart** en zie hoe CORE automatisch verbindingen tussen feiten legt
+5. **Probeer het uit** – vraag "Wat weet je over mij?" in het conversatiegedeelte
+6. Koppel aan je tools:
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) – coderen met context
+   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude) & [Gemini CLI](https://docs.heysol.ai/providers/cursor) – terminalgebaseerd coderen met geheugen
+   - [Browserextensie toevoegen](https://docs.heysol.ai/providers/cursor) – neem je geheugen mee naar elke website
+   - [Linear](https://docs.heysol.ai/providers/claude), [Slack](https://docs.heysol.ai/providers/cursor), [Github](https://docs.heysol.ai/providers/cursor) – voeg projectcontext automatisch toe
 
 ## 🧩 Belangrijkste functies
 
-- **Geheugengrafiek**: Visualiseer hoe je feiten en voorkeuren samenhangen
-- **Chatten met geheugen**: Stel vragen over je geheugen voor directe inzichten en begrip
-- **Plug n Play**: Gebruik CORE-geheugen direct in apps als Cursor, Claude
+### 🧠 **Verenigd, draagbaar geheugen**:
+Voeg geheugen toe en haal het terug op **Cursor, Windsurf, Claude Desktop, Claude Code, Gemini CLI, AWS's Kiro, VS Code en Roo Code** via MCP
 
-## ☁️ C.O.R.E Cloud Setup
+### 🕸️ **Tijdelijke + Gerefereerde Kennnisgrafiek**:
 
-1. Bezoek [core.heysol.ai](https://core.heysol.ai)
-2. Registreer je met je e-mailadres
-3. Vertel CORE over jezelf: “Ik ben een software engineer die werkt aan een React-project genaamd TaskMaster. Ik geef de voorkeur aan TypeScript en gebruik Tailwind voor styling.”
-   <img width="2048" height="1172" alt="add-memory" src="https://github.com/user-attachments/assets/a2b27235-23a2-41c1-a09a-aa5b9f6d4938" />
-4. [Verbind Core MCP met Claude](https://docs.heysol.ai/providers/claude)
-5. [Verbind Core MCP met Cursor](https://docs.heysol.ai/providers/cursor)
+Onthoud het verhaal achter elk feit—houd bij wie wat zei, wanneer en waarom met rijke relaties en volledige herkomst, niet alleen platte opslag
 
-## 💻 C.O.R.E Zelf Host
+https://github.com/user-attachments/assets/d18e3caa-72ea-4596-bbf7-cc9e32bd772f
 
-Bekijk onze [documentatie](https://docs.heysol.ai/self-hosting/docker) voor modulaire implementatie
+### 🌐 **Browserextensie**:
+
+Leg gesprekken vast van ChatGPT, Grok, Gemini, Twitter, YouTube, blogposts en elke webpagina direct in je CORE-geheugen
+
+
+https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
+
+
+### 💬 **Chatten met Geheugen**:
+Stel vragen als "Wat zijn mijn schrijvoorkeuren?" met directe inzichten uit je gekoppelde kennis
+
+https://github.com/user-attachments/assets/6be5aca5-1d2f-419e-9deb-acb897a05c20
+
+### ⚡ **Automatisch Synchroniseren vanuit Apps**:
+
+Leg automatisch relevante context vast vanuit Linear, Slack, Notion, GitHub en andere gekoppelde apps in je CORE-geheugen
+
+https://github.com/user-attachments/assets/a797f182-406d-49e8-80a8-20932169931d
+
+### 🔗 **MCP Integratiehub**:
+
+Verbind Linear, Slack, GitHub, Notion één keer met CORE—gebruik daarna al hun tools in Claude, Cursor of elke MCP-client
+
+
+https://github.com/user-attachments/assets/be2d69a7-6c6c-43ad-91b7-6db66712821d
+
+
 
 ## Documentatie
 
-Bekijk onze documentatie om het meeste uit CORE te halen
+Bekijk onze documentatie om het maximale uit CORE te halen
 
 - [Basisconcepten](https://docs.heysol.ai/concepts/memory_graph)
-- [Zelf hosten](https://docs.heysol.ai/self-hosting/overview)
+- [Zelf Host](https://docs.heysol.ai/self-hosting/overview)
 - [Verbind Core MCP met Claude](https://docs.heysol.ai/providers/claude)
 - [Verbind Core MCP met Cursor](https://docs.heysol.ai/providers/cursor)
 
 - [Basisconcepten](https://docs.heysol.ai/overview)
-- [API Referentie](https://docs.heysol.ai/local-setup)
+- [API-referentie](https://docs.heysol.ai/local-setup)
 
 ## 🧑‍💻 Ondersteuning
 
-Vragen of feedback? We helpen je graag:
+Heb je vragen of feedback? We staan klaar om te helpen:
 
 - Discord: [Word lid van het core-support kanaal](https://discord.gg/YGUZcvDjUa)
 - Documentatie: [docs.heysol.ai](https://docs.heysol.ai)
@@ -115,7 +146,7 @@ Vragen of feedback? We helpen je graag:
 - Gevoelige gegevens (PII)
 - Inloggegevens
 - Systeemlogs
-- Tijdelijke gegevens
+- Tijdelijke data
 
 ## 👥 Bijdragers
 
@@ -124,8 +155,9 @@ Vragen of feedback? We helpen je graag:
 </a>
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---

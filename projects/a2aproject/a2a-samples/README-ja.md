@@ -1,5 +1,20 @@
 # Agent2Agent (A2A) サンプル
 
+<a href="https://studio.firebase.google.com/new?template=https%3A%2F%2Fgithub.com%2Fa2aproject%2Fa2a-samples%2Ftree%2Fmain%2F.firebase-studio">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_light_20.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.firebasestudio.dev/btn/try_dark_20.svg">
+    <img
+      height="20"
+      alt="Firebase Studio で試す"
+      src="https://cdn.firebasestudio.dev/btn/try_blue_20.svg">
+  </picture>
+</a>
+
 <div style="text-align: right;">
   <details>
     <summary>🌐 言語</summary>
@@ -23,12 +38,12 @@
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=fa">فارسی</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=tr">Türkçe</a>
       | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=vi">Tiếng Việt</a>
-      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=id">Bahasa Indonesia</a>
+      | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=a2a-samples&lang=ja">日本語</a>
     </div>
   </details>
 </div>
 
-このリポジトリには [Agent2Agent (A2A) プロトコル](https://goo.gle/a2a) を使用したコードサンプルとデモが含まれています。
+このリポジトリには、[Agent2Agent (A2A) プロトコル](https://goo.gle/a2a) を使用したコードサンプルとデモが含まれています。
 
 ## 関連リポジトリ
 
@@ -36,27 +51,27 @@
 - [a2a-python](https://github.com/a2aproject/a2a-python) - A2A Python SDK。
 - [a2a-inspector](https://github.com/a2aproject/a2a-inspector) - A2A対応エージェントの検査用UIツール。
 
-## コントリビューション
+## コントリビュートについて
 
-貢献は大歓迎です！[コントリビューションガイド](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md)をご覧ください。
+貢献は歓迎します！ [コントリビュートガイド](https://raw.githubusercontent.com/a2aproject/a2a-samples/main/CONTRIBUTING.md)をご覧ください。
 
 ## ヘルプの取得
 
-提案、フィードバック、バグ報告は [issuesページ](https://github.com/a2aproject/a2a-samples/issues) をご利用ください。
+提案、フィードバック、バグ報告には [issuesページ](https://github.com/a2aproject/a2a-samples/issues) をご利用ください。
 
 ## 免責事項
 
-このリポジトリ自体はGoogleの公式サポート製品ではありません。このリポジトリのコードはデモ目的のものです。
+このリポジトリ自体はGoogleの公式製品としてサポートされているものではありません。本リポジトリのコードはデモンストレーション目的のみで提供されています。
 
-重要: 提供されているサンプルコードはデモンストレーション目的であり、Agent-to-Agent (A2A) プロトコルの仕組みを示すものです。本番アプリケーションを構築する際は、自分の直接管理外で動作するエージェントは潜在的に信頼できない存在とみなすことが重要です。
+重要: 提供されているサンプルコードはデモンストレーション目的であり、Agent-to-Agent (A2A) プロトコルの仕組みを説明するものです。本番アプリケーションを構築する際には、自分の直接管理下にないエージェントを潜在的に信頼できない存在として扱うことが重要です。
 
-外部エージェントから受信するすべてのデータ（AgentCard、メッセージ、アーティファクト、タスクステータスなどを含むがこれらに限定されない）は、信頼できない入力として取り扱う必要があります。例えば、悪意のあるエージェントがフィールド（例：description、name、skills.description）に細工したデータを含むAgentCardを提供する場合があります。このデータをサニタイズせずに大規模言語モデル（LLM）のプロンプト構築に使用した場合、プロンプトインジェクション攻撃にアプリケーションがさらされる可能性があります。このデータを適切に検証・サニタイズせずに使用すると、アプリケーションにセキュリティ上の脆弱性が生じます。
+外部エージェントから受け取るすべてのデータ（AgentCard、メッセージ、アーティファクト、タスクステータスなどを含む）は、信頼できない入力として扱うべきです。例えば、悪意のあるエージェントが、フィールド（例: 説明、名前、skills.description）に細工したデータを含むAgentCardを提供する可能性があります。このデータをサニタイズせずに大規模言語モデル（LLM）のプロンプト生成に利用すると、プロンプトインジェクション攻撃にアプリケーションがさらされることがあります。データを利用する前に適切な検証やサニタイズを行わないと、アプリケーションにセキュリティ脆弱性が発生します。
 
-開発者は、システムやユーザーを守るために、入力検証や認証情報の安全な取り扱いなど、適切なセキュリティ対策を実装する責任があります。
+開発者は、入力検証や認証情報の安全な取り扱いなど、適切なセキュリティ対策を講じ、システムとユーザーを保護する責任があります。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---
