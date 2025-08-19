@@ -1,0 +1,656 @@
+[
+  {
+    "row": 1,
+    "rowsha": "ogYM3gjzcu183SkEMXcM300xFFnjk5aniFD3WGygB1M=",
+    "originContent": "[![Build on Debian](https://github.com/bailuk/java-gtk/actions/workflows/build-on-debian.yml/badge.svg)](https://github.com/bailuk/java-gtk/actions/workflows/build-on-debian.yml)",
+    "translatedContent": "[![Build on Debian](https://github.com/bailuk/java-gtk/actions/workflows/build-on-debian.yml/badge.svg)](https://github.com/bailuk/java-gtk/actions/workflows/build-on-debian.yml)"
+  },
+  {
+    "row": 2,
+    "rowsha": "EDN/iRLe+5WEcdeQAieSAtcnF6DO3353QNu+rymusks=",
+    "originContent": "[![Build on Fedora](https://github.com/bailuk/java-gtk/actions/workflows/build-on-fedora.yml/badge.svg)](https://github.com/bailuk/java-gtk/actions/workflows/build-on-fedora.yml)",
+    "translatedContent": "[![Build on Fedora](https://github.com/bailuk/java-gtk/actions/workflows/build-on-fedora.yml/badge.svg)](https://github.com/bailuk/java-gtk/actions/workflows/build-on-fedora.yml)"
+  },
+  {
+    "row": 3,
+    "rowsha": "t2zd1WtqkFrv4G5iWWu35mBUeKmh1QDdhvIwbRVL0R0=",
+    "originContent": "[![Build on Ubuntu](https://github.com/bailuk/java-gtk/actions/workflows/build-on-ubuntu.yml/badge.svg)](https://github.com/bailuk/java-gtk/actions/workflows/build-on-ubuntu.yml)",
+    "translatedContent": "[![Build on Ubuntu](https://github.com/bailuk/java-gtk/actions/workflows/build-on-ubuntu.yml/badge.svg)](https://github.com/bailuk/java-gtk/actions/workflows/build-on-ubuntu.yml)"
+  },
+  {
+    "row": 4,
+    "rowsha": "NGuGCUHQm7uGsWm09hIQO3sBWQgpKSKOQCDpOcTVwow=",
+    "originContent": "[![Build on Windows](https://github.com/bailuk/java-gtk/actions/workflows/build-on-windows.yml/badge.svg)](https://github.com/bailuk/java-gtk/actions/workflows/build-on-windows.yml)",
+    "translatedContent": "[![Build on Windows](https://github.com/bailuk/java-gtk/actions/workflows/build-on-windows.yml/badge.svg)](https://github.com/bailuk/java-gtk/actions/workflows/build-on-windows.yml)"
+  },
+  {
+    "row": 5,
+    "rowsha": "KrCM935wy9paiYXbMtcIoRV3h52SOj3VAnJGAlA40Cc=",
+    "originContent": "[![JitPack](https://jitpack.io/v/bailuk/java-gtk.svg)](https://jitpack.io/#bailuk/java-gtk)",
+    "translatedContent": "[![JitPack](https://jitpack.io/v/bailuk/java-gtk.svg)](https://jitpack.io/#bailuk/java-gtk)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "t6WSP3rmQQI5w/VJHB4ciUvUSGjNE+2p7T95e0Mn6l8=",
+    "originContent": "# Java-GTK",
+    "translatedContent": "# Java-GTK"
+  },
+  {
+    "row": 8,
+    "rowsha": "LcZe0Bpbt6io7G0jjhqA6uGLfY08vN7TNzoOM0mazko=",
+    "originContent": "GTK 4 bindings for Java.",
+    "translatedContent": "GTK 4 bindings for Java."
+  },
+  {
+    "row": 9,
+    "rowsha": "4V7MSnrQOq2uTwVXrH1Mi5SI191H79/zb4UbONKbM/Q=",
+    "originContent": "It uses [Java Native Access (JNA)](https://github.com/java-native-access/jna) to access GTK libraries. ",
+    "translatedContent": "It uses [Java Native Access (JNA)](https://github.com/java-native-access/jna) to access GTK libraries. "
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "5AkSPH3t8gPGYOGbe5lfsWFCXFR1iaCMu513TUJhvCU=",
+    "originContent": "[![POC screenshot](https://raw.githubusercontent.com/bailuk/java-gtk/stage/doc/screenshot.png)](examples/src/main/java/examples/ImageBridge.java)",
+    "translatedContent": "[![POC screenshot](https://raw.githubusercontent.com/bailuk/java-gtk/stage/doc/screenshot.png)](examples/src/main/java/examples/ImageBridge.java)"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+    "originContent": "## Example",
+    "translatedContent": "## Example"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 16,
+    "rowsha": "xHCOkgXKnMHVILBWlWcAZ2HGC+0G8UKAr6TMNsW8/9k=",
+    "originContent": "package examples;",
+    "translatedContent": "package examples;"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "7U032/Y67PrSf+2ZZBHugvSoCY1zU/VBZS6SddlGe5A=",
+    "originContent": "import ch.bailu.gtk.gio.ApplicationFlags;",
+    "translatedContent": "import ch.bailu.gtk.gio.ApplicationFlags;"
+  },
+  {
+    "row": 19,
+    "rowsha": "vjJ2TWy3uW7/juN77k02chjMIY2KObcpyhb7jacjfcE=",
+    "originContent": "import ch.bailu.gtk.gtk.Application;",
+    "translatedContent": "import ch.bailu.gtk.gtk.Application;"
+  },
+  {
+    "row": 20,
+    "rowsha": "nWS0rXngCqcSnrrhk8A8xtvxqQ07nAXZddlib51PKL0=",
+    "originContent": "import ch.bailu.gtk.gtk.ApplicationWindow;",
+    "translatedContent": "import ch.bailu.gtk.gtk.ApplicationWindow;"
+  },
+  {
+    "row": 21,
+    "rowsha": "awx1oAOpLdtFSk2AtX/YMqmDM8/y9TEv/Pp+UYskAxk=",
+    "originContent": "import ch.bailu.gtk.gtk.Button;",
+    "translatedContent": "import ch.bailu.gtk.gtk.Button;"
+  },
+  {
+    "row": 22,
+    "rowsha": "pjLpOqkx3R1jTlxDeg+YypHuLwHf9JQNlMMi4MvCWBw=",
+    "originContent": "import ch.bailu.gtk.type.Strs;",
+    "translatedContent": "import ch.bailu.gtk.type.Strs;"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "VDzuGtctRxo7wWmngb5uwLcG9eFQl2iBPQfmPFHOv7A=",
+    "originContent": "public class HelloWorld {",
+    "translatedContent": "public class HelloWorld {"
+  },
+  {
+    "row": 25,
+    "rowsha": "dWat72JPTa14JST6Cpc8NckqhNWg7JxIt13jZHfJbV0=",
+    "originContent": "    public static void main(String[] args) {",
+    "translatedContent": "    public static void main(String[] args) {"
+  },
+  {
+    "row": 26,
+    "rowsha": "oKyAh7k27G6iRGfl1CkJYPa0IzC5vlCCWfOVrFPQnGo=",
+    "originContent": "        var app = new Application(\"com.example.hello\",",
+    "translatedContent": "        var app = new Application(\"com.example.hello\","
+  },
+  {
+    "row": 27,
+    "rowsha": "NZro7sKzIppoLyipcShcrYV/jJXfL00f+aiYzgQ+zro=",
+    "originContent": "                ApplicationFlags.FLAGS_NONE);",
+    "translatedContent": "                ApplicationFlags.FLAGS_NONE);"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "jmb/M7f+nQh/olD0lYcjdcLcZBoFmifeteI9J6sCLco=",
+    "originContent": "        app.onActivate(() -> {",
+    "translatedContent": "        app.onActivate(() -> {"
+  },
+  {
+    "row": 30,
+    "rowsha": "yZeEo/n0eUs+a+3slof409MJTRzbY7MnzgM4y5eRCpY=",
+    "originContent": "            // Create a new window",
+    "translatedContent": "            // Create a new window"
+  },
+  {
+    "row": 31,
+    "rowsha": "iB//PoKIWWNqjM3K+Wr8gQg3cpYhWuj7sKrRCcFSua0=",
+    "originContent": "            var window = new ApplicationWindow(app);",
+    "translatedContent": "            var window = new ApplicationWindow(app);"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "Bh/s5J1IeJhivPFtwnuMNkKpzIz0cXIMlzW9B/dTUt8=",
+    "originContent": "            // Create a new button",
+    "translatedContent": "            // Create a new button"
+  },
+  {
+    "row": 34,
+    "rowsha": "HCLI5/27adlU9gcSedjJY+jkj8iuz+qjFlIUcOeKggI=",
+    "originContent": "            var button = new Button();",
+    "translatedContent": "            var button = new Button();"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "H+KCFmyYYBrJ7dBg9nBKnr3jyLg0pdGRRre1WAjBbC0=",
+    "originContent": "            // Set button label",
+    "translatedContent": "            // Set button label"
+  },
+  {
+    "row": 37,
+    "rowsha": "TxIY3A4C1P44kSY5QE3Ec6YoRWPsytrxJBZn3RB8/UM=",
+    "originContent": "            button.setLabel(\"Hello, World!\");",
+    "translatedContent": "            button.setLabel(\"Hello, World!\");"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "/F0g8EJe5AZFMUnJotEubBlQAKOCNSa6P/PGjGlVtwc=",
+    "originContent": "            // When the button is clicked, close the window",
+    "translatedContent": "            // When the button is clicked, close the window"
+  },
+  {
+    "row": 40,
+    "rowsha": "cQqKgU2MLDXpOxcKMg6kJ9wQNoZg63RuIKbVUqg2xEw=",
+    "originContent": "            button.onClicked(window::close);",
+    "translatedContent": "            button.onClicked(window::close);"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "EkDr31j8UiemAt7KQ7sAIx1dB9TyK4W+AzU7rGDR6Ak=",
+    "originContent": "            window.setChild(button);",
+    "translatedContent": "            window.setChild(button);"
+  },
+  {
+    "row": 43,
+    "rowsha": "LhJoxGvDfXUJedP37q3+DfH7hhH//Fv5Ft9BGSf8lec=",
+    "originContent": "            window.show();",
+    "translatedContent": "            window.show();"
+  },
+  {
+    "row": 44,
+    "rowsha": "NQ+BLDQ4Wh3WGukY2eJk7IUZAuSeJT1M0oa7uuSCAF4=",
+    "originContent": "        });",
+    "translatedContent": "        });"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "/MIDNVkW+6oqtGa8cuZPiUFg4+qVZnsHueaALifJN1g=",
+    "originContent": "        // Start application main loop",
+    "translatedContent": "        // Start application main loop"
+  },
+  {
+    "row": 47,
+    "rowsha": "5NBa4BhlrXEk+F17Dqef9iEDtVARqaSRIi7JnFhb4zY=",
+    "originContent": "        var result = app.run(args.length, new Strs(args));",
+    "translatedContent": "        var result = app.run(args.length, new Strs(args));"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "P2BOjwWirL7CN7waeVyE7c9LENrFSVq8g2qNWhPfne4=",
+    "originContent": "        // Terminate with exit code",
+    "translatedContent": "        // Terminate with exit code"
+  },
+  {
+    "row": 50,
+    "rowsha": "kdi46vPQSJ0UOsivzEuK8Qy96xhOrG+snWKCaueG3rQ=",
+    "originContent": "        System.exit(result);",
+    "translatedContent": "        System.exit(result);"
+  },
+  {
+    "row": 51,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 52,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 53,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 빌드 및 실행"
+  },
+  {
+    "row": 55,
+    "rowsha": "Pb69mAQExvDbbdA1hVnnFTQ6P2hYZofIUKrvOe3IeoU=",
+    "originContent": "## Build and run",
+    "translatedContent": "`./gradlew generate` 또는 `make gen`  "
+  },
+  {
+    "row": 56,
+    "rowsha": "59FMp8c4qll0hM8H53exsMi9BCh0GUrGIhmuN2Iq1Ow=",
+    "originContent": "`./gradlew generate` or `make gen`  ",
+    "translatedContent": "코드 생성기를 컴파일하고 실행합니다. 이는 [GIR](https://gi.readthedocs.io/en/latest/) 파일로부터 자바 코드를 생성합니다."
+  },
+  {
+    "row": 57,
+    "rowsha": "BqF6UwCK790/cxji790V7nrObqFm0tTwc4R34hRLbo8=",
+    "originContent": "Compiles and runs the code generator. This will generate Java code from [GIR](https://gi.readthedocs.io/en/latest/) files.",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 입력: `generator/src/resources/gir/*`"
+  },
+  {
+    "row": 59,
+    "rowsha": "v7cVeF6URRyncPGHc4nJd0ZFyo5IzbiRoHn2Lt2Qi6Y=",
+    "originContent": "- Input: `generator/src/resources/gir/*`",
+    "translatedContent": "- 출력 자바: `java-gtk/build/generated/src/main/java/[...]/*.java`"
+  },
+  {
+    "row": 60,
+    "rowsha": "RxFTiB6F7P3OHIHRJFQFaA3ItqFXLZavDKLxRzwX5BA=",
+    "originContent": "- Output Java: `java-gtk/build/generated/src/main/java/[...]/*.java`",
+    "translatedContent": "- 구성: [generator/src/main/kotlin/ch/bailu/gtk/Configuration.kt](https://raw.githubusercontent.com/bailuk/java-gtk/stage/generator/src/main/kotlin/ch/bailu/gtk/Configuration.kt)"
+  },
+  {
+    "row": 61,
+    "rowsha": "UvBOKtsGDLWahKk7s5jbi3kLT0KlbCzk952Sq9WPt5Q=",
+    "originContent": "- Configuration: [generator/src/main/kotlin/ch/bailu/gtk/Configuration.kt](https://raw.githubusercontent.com/bailuk/java-gtk/stage/generator/src/main/kotlin/ch/bailu/gtk/Configuration.kt)",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`./gradlew build` 또는 `make`  "
+  },
+  {
+    "row": 63,
+    "rowsha": "YVrUzhmoNemfiaSt/cWtHL9tWo6+1Nj87P6LJo/fHxc=",
+    "originContent": "`./gradlew build` or `make`  ",
+    "translatedContent": "라이브러리, 자바독을 생성하고 테스트를 실행합니다"
+  },
+  {
+    "row": 64,
+    "rowsha": "lvTI2AYQKinAwUU09oLn6EciMVTAsQcxuaYqW5dp/sU=",
+    "originContent": "Creates library, javadoc and run tests",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 출력: `libray/build/libs/` 내의 jar, javadoc.jar 및 sources.jar "
+  },
+  {
+    "row": 66,
+    "rowsha": "q/boB6ImaY26bvde+7gjDd3+hal4gWIuDGJvGwI+JeE=",
+    "originContent": "- Output: jar, javadoc.jar and sources.jar in `libray/build/libs/` ",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`./gradlew run` 또는 `make run`  "
+  },
+  {
+    "row": 68,
+    "rowsha": "42KdIr3oFjC1RAU0YBafEHKfYH26U89VeK4eG13qnzA=",
+    "originContent": "`./gradlew run` or `make run`  ",
+    "translatedContent": "기본 데모 애플리케이션을 실행합니다."
+  },
+  {
+    "row": 69,
+    "rowsha": "CfHA45uWlHUm6QzQ7QvU4ABw17XmZ//ahJ9os1nFQlk=",
+    "originContent": "Run the default demo application.",
+    "translatedContent": "[examples/src/main/java/examples](examples/src/main/java/examples)에는 GeoClue2 및 Adwaita 샘플을 포함한 더 많은 데모 애플리케이션이 있습니다."
+  },
+  {
+    "row": 70,
+    "rowsha": "c7JupX+2DulFD1FwVcgmZdNhabQEcM6i19xWnY2u9qE=",
+    "originContent": "There are more demo applications in [examples/src/main/java/examples](examples/src/main/java/examples) including GeoClue2 and Adwaita samples.",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Windows에서 실행하려면 [doc/windows.md](https://raw.githubusercontent.com/bailuk/java-gtk/stage/doc/windows.md)를 참조하세요"
+  },
+  {
+    "row": 72,
+    "rowsha": "6FynSB2jnx8FdtvkBtwt3GQow6YkGaiehv1Q6Zyy9wE=",
+    "originContent": "- To run on Windows see [doc/windows.md](https://raw.githubusercontent.com/bailuk/java-gtk/stage/doc/windows.md)",
+    "translatedContent": "- MacOS에서 실행하려면 [doc/macos.md](https://raw.githubusercontent.com/bailuk/java-gtk/stage/doc/macos.md)를 참조하세요"
+  },
+  {
+    "row": 73,
+    "rowsha": "hgAbSi013WFFxByEYmTVM0HQscLu5OBAmzz2jPQwEPI=",
+    "originContent": "- To run on MacOS see [doc/macos.md](https://raw.githubusercontent.com/bailuk/java-gtk/stage/doc/macos.md)",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`make install`  "
+  },
+  {
+    "row": 75,
+    "rowsha": "MnGLDEoG6fIBD59ZLntgS1YrqPE4UGMj0EQyiW32wTQ=",
+    "originContent": "`make install`  ",
+    "translatedContent": "자바 라이브러리를 컴파일하고 JAR 아카이브를 생성한 후 JAR 아카이브를 로컬 Maven 저장소(`~/.m2/repository`)에 아티팩트로 복사합니다."
+  },
+  {
+    "row": 76,
+    "rowsha": "ZbEe6EL7/7dZm1r7aEtsmwTt1X1qi4+VVY1OywPRhwc=",
+    "originContent": "Compile Java library, generate JAR archive and copy JAR archive as artifact to local Maven repository (`~/.m2/repository`).",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 통합"
+  },
+  {
+    "row": 78,
+    "rowsha": "NIRxHqG7D9F0mlSLO/hfbdwm/jAN6i5/G2LFgF4lD08=",
+    "originContent": "## Integration",
+    "translatedContent": "라이브러리와 [Javadoc](https://javadoc.jitpack.io/com/github/bailuk/java-gtk/0.6.1/javadoc/)은 [JitPack](https://jitpack.io) 을 통해 제공됩니다."
+  },
+  {
+    "row": 79,
+    "rowsha": "w+EY3QOY/OP+YZiLgeU4sig9PG8yqrUKeXxqybnxiL4=",
+    "originContent": "Library and [Javadoc](https://javadoc.jitpack.io/com/github/bailuk/java-gtk/0.6.1/javadoc/) is available via [JitPack](https://jitpack.io).",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 82,
+    "rowsha": "bazjfxG4nISSyp3ce4YaS5LJLoDeujQWZ/KmpShaNHM=",
+    "originContent": "// build.gradle.kts",
+    "translatedContent": "// build.gradle.kts"
+  },
+  {
+    "row": 83,
+    "rowsha": "TpXRua9oA1LlGXbJ4v1/1JiwKOLUGgxp/cVta+YFvR0=",
+    "originContent": "plugins {",
+    "translatedContent": "plugins {"
+  },
+  {
+    "row": 84,
+    "rowsha": "4OD1Qmt10DvitW/Uw7WuvobYMZRB6AUd5kwHlfJuGNA=",
+    "originContent": "    application",
+    "translatedContent": "    application"
+  },
+  {
+    "row": 85,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "TvBbktu5UvgB5/q5LAiHoocG1fD5JwV9oTX2FLNJr8Y=",
+    "originContent": "repositories {",
+    "translatedContent": "repositories {"
+  },
+  {
+    "row": 88,
+    "rowsha": "xHYZG5XC1xpzXP/+benFR3PjAUwKDdJL+YDcQDPEXi0=",
+    "originContent": "    maven { url = uri(\"https://jitpack.io\") }",
+    "translatedContent": "    maven { url = uri(\"https://jitpack.io\") }"
+  },
+  {
+    "row": 89,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "YiU0BYrj6/iCE+VQzVtTmQYPeT0yaMuVWxaQJ1+t/zA=",
+    "originContent": "dependencies {",
+    "translatedContent": "dependencies {"
+  },
+  {
+    "row": 92,
+    "rowsha": "cYLjDLeMQKibtq1EolXIl0lqPpqi4gTxuqMa6IBZTr4=",
+    "originContent": "    implementation(\"com.github.bailuk:java-gtk:0.6.1\")",
+    "translatedContent": "    implementation(\"com.github.bailuk:java-gtk:0.6.1\")"
+  },
+  {
+    "row": 93,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "e7BByNN/suzideMQiQ6B8npH1t4kUtiOb+7OJy92NW8=",
+    "originContent": "application {",
+    "translatedContent": "application {"
+  },
+  {
+    "row": 96,
+    "rowsha": "HEYVDJzOfR9lW680DnRxeUz66AxFW5gYNiPdNTYQLz4=",
+    "originContent": "    mainClass.set(\"examples.HelloWorld\")",
+    "translatedContent": "    mainClass.set(\"examples.HelloWorld\")"
+  },
+  {
+    "row": 97,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 98,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Modules"
+  },
+  {
+    "row": 100,
+    "rowsha": "Pb2IYZFw/tp4ofTFrkY1qSywMvTPyDl/+XAVCJq9/6c=",
+    "originContent": "## Modules",
+    "translatedContent": "- `generator/`: GIR 파일에서 Java 코드를 생성하는 Kotlin 애플리케이션(xml 파서 -> 모델 빌더 -> 작성기). GIR 파일은 Debian 개발 패키지에서 가져옵니다."
+  },
+  {
+    "row": 101,
+    "rowsha": "4few7H1ZkbdMNu9a17WDW010gw+gSlXRUFZ/WhNg2C0=",
+    "originContent": "- `generator/`: Kotlin application that generates Java code from GIR files (xml parser -> model builder -> writer). GIR files are taken from Debian dev packages.",
+    "translatedContent": "- `java-gtk/` : java-gtk 라이브러리는 생성된 Java 코드에 의존합니다."
+  },
+  {
+    "row": 102,
+    "rowsha": "OQxEODHcY2yNOHDwTkmBja3NuZcj/ttF9IJPc6ro8eA=",
+    "originContent": "- `java-gtk/` : java-gtk library depends on generated Java code.",
+    "translatedContent": "- `examples/` : 바인딩을 테스트하기 위한 몇 가지 예제입니다. 대부분 [https://gitlab.gnome.org/GNOME/gtk/-/tree/main/demos/gtk-demo](https://gitlab.gnome.org/GNOME/gtk/-/tree/main/demos/gtk-demo)에서 포팅되었습니다."
+  },
+  {
+    "row": 103,
+    "rowsha": "yZoaaAJF9vyyzX1p+21MXxP0vvYl200HDxkWM4nPWdk=",
+    "originContent": "- `examples/` : Some examples to test the bindings. Mostly ported from [https://gitlab.gnome.org/GNOME/gtk/-/tree/main/demos/gtk-demo](https://gitlab.gnome.org/GNOME/gtk/-/tree/main/demos/gtk-demo).",
+    "translatedContent": " "
+  },
+  {
+    "row": 104,
+    "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+    "originContent": " ",
+    "translatedContent": "## License"
+  },
+  {
+    "row": 105,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "- [generator/src/main/resources/gir/](generator/src/main/resources/gir) 내 파일들은 [GTK 프로젝트](https://gitlab.gnome.org/GNOME/gtk)에서 가져온 것이며 따라서 GNU 라이브러리 일반 공중 사용 허가서 하에 라이선스가 부여됩니다."
+  },
+  {
+    "row": 106,
+    "rowsha": "1/HO7jWIq3EwYzGFtrmuM/9nYY7zz03vurrJZInfaw4=",
+    "originContent": "- Files in [generator/src/main/resources/gir/](generator/src/main/resources/gir) are comming from the [GTK project](https://gitlab.gnome.org/GNOME/gtk) and are therefore licensed under the GNU Library General Public License.",
+    "translatedContent": "- [examples/src/main/java/examples/gtk4_demo](examples/src/main/java/examples/gtk4_demo)의 예제들은 [GTK 프로젝트](https://gitlab.gnome.org/GNOME/gtk/-/tree/main/demos/gtk-demo)에서 포팅된 것이며 따라서 GNU 라이브러리 일반 공중 사용 허가서 하에 라이선스가 부여됩니다.   "
+  },
+  {
+    "row": 107,
+    "rowsha": "yXuDhhKQ0Nh2uoQ9jYfoYHZnUjBQwb+yz9/BBh9FMAA=",
+    "originContent": "- Examples in [examples/src/main/java/examples/gtk4_demo](examples/src/main/java/examples/gtk4_demo) are ported from the [GTK project](https://gitlab.gnome.org/GNOME/gtk/-/tree/main/demos/gtk-demo) and are therefore licensed under the GNU Library General Public License.   ",
+    "translatedContent": "- 기타 모든 것은 [MIT 라이선스](https://en.wikipedia.org/wiki/MIT_License) 하에 라이선스가 부여됩니다."
+  },
+  {
+    "row": 108,
+    "rowsha": "di6cixsKiJp6yGHKCYuMtU3BFVVtjNQZjW7oz3TTems=",
+    "originContent": "- Everything else licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License)",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

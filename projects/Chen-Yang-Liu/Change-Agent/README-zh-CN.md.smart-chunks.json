@@ -1,0 +1,1452 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n    \n<h1><a href=\"https://ieeexplore.ieee.org/document/10591792\">Change-Agent: Toward Interactive Comprehensive Remote Sensing Change Interpretation and Analysis</a></h1>\n\n**[Chenyang Liu](https://chen-yang-liu.github.io/), [Keyan Chen](https://kyanchen.github.io), [Haotian Zhang](https://scholar.google.com/citations?user=c7uR6NUAAAAJ), [Zipeng Qi](https://scholar.google.com/citations?user=KhMtmBsAAAAJ), [Zhengxia Zou](https://scholar.google.com.hk/citations?hl=en&user=DzwoyZsAAAAJ), and [Zhenwei Shi*✉](https://scholar.google.com.hk/citations?hl=en&user=kNhFWQIAAAAJ)**\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/Change_Agent.png\" width=\"400\"/>\n</div>\n</div>\n\n## Share us a :star: if you're interested in this repo\n\nOfficial PyTorch implementation of the paper: \"**Change-Agent: Toward Interactive Comprehensive Remote Sensing Change Interpretation and Analysis**\" in [[IEEE](https://ieeexplore.ieee.org/document/10591792)]  ***(Accepted by IEEE TGRS 2024)***\n\n## 🥳News\n\n- 2024-06: The code is **available**.\n- 2024-03: The paper is **available**.\n- 🔥 Our survey \"**Remote Sensing Temporal Vision-Language Models: A Comprehensive Survey\": [Arxiv](https://arxiv.org/abs/2412.02573) || [Github](https://github.com/Chen-Yang-Liu/Awesome-RS-Temporal-VLM)** 🔥 \n\n## Table of Contents\n- [LEVIR-MCI dataset](#LEVIR-MCI-dataset)\n- [Training of MCI model](#Training-of-the-multi-level-change-interpretation-model)\n- [Construction of Change-Agent](#Construction-of-Change-Agent)\n- [Citation](#Citation)\n\n## LEVIR-MCI dataset \n- Download the LEVIR_MCI dataset: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main) (**Available Now!**).\n- This dataset is an extension of our previously established [LEVIR-CC dataset](https://github.com/Chen-Yang-Liu/RSICC). It contains bi-temporal images as well as diverse change detection masks and descriptive sentences. It provides a crucial data foundation for exploring multi-task learning for change detection and change captioning.\n    <br>\n    <div align=\"center\">\n      <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/dataset.png\" width=\"800\"/>\n    </div>\n    <br>\n## Training of the multi-level change interpretation model\nThe overview of the MCI model:\n<br>\n    <div align=\"center\">\n      <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/MCI_model.png\" width=\"800\"/>",
+    "ContentSha": "9Og+SFRrEU08zMZEL+Jv17pEAubShx7hUlgW4QxQtH4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n    \n<h1><a href=\"https://ieeexplore.ieee.org/document/10591792\">Change-Agent：迈向交互式综合遥感变化解释与分析</a></h1>\n\n**[刘晨阳](https://chen-yang-liu.github.io/), [陈克言](https://kyanchen.github.io), [张浩天](https://scholar.google.com/citations?user=c7uR6NUAAAAJ), [齐子鹏](https://scholar.google.com/citations?user=KhMtmBsAAAAJ), [邹正霞](https://scholar.google.com.hk/citations?hl=en&user=DzwoyZsAAAAJ), 以及 [石振伟*✉](https://scholar.google.com.hk/citations?hl=en&user=kNhFWQIAAAAJ)**\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/Change_Agent.png\" width=\"400\"/>\n</div>\n</div>\n\n## 如果你对本仓库感兴趣，请给我们一个 :star: \n\n本文的官方 PyTorch 实现：“**Change-Agent：迈向交互式综合遥感变化解释与分析**”发表于 [[IEEE](https://ieeexplore.ieee.org/document/10591792)] ***(被 IEEE TGRS 2024 接收)***\n\n## 🥳新闻\n\n- 2024-06：代码 **已发布**。\n- 2024-03：论文 **已发布**。\n- 🔥 我们的综述“**遥感时序视觉-语言模型：一项综合调研**”：[Arxiv](https://arxiv.org/abs/2412.02573) || [Github](https://github.com/Chen-Yang-Liu/Awesome-RS-Temporal-VLM)** 🔥 \n\n## 目录\n- [LEVIR-MCI 数据集](#LEVIR-MCI-dataset)\n- [多层次变化解释模型训练](#Training-of-the-multi-level-change-interpretation-model)\n- [Change-Agent 构建](#Construction-of-Change-Agent)\n- [引用](#Citation)\n\n## LEVIR-MCI 数据集 \n- 下载 LEVIR_MCI 数据集：[LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main)（**现已开放！**）。\n- 本数据集是我们先前建立的 [LEVIR-CC 数据集](https://github.com/Chen-Yang-Liu/RSICC) 的扩展，包含双时相影像以及多样的变化检测掩码和描述性句子。它为探索变化检测与变化描述的多任务学习提供了关键数据基础。\n    <br>\n    <div align=\"center\">\n      <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/dataset.png\" width=\"800\"/>\n    </div>\n    <br>\n## 多层次变化解释模型训练\nMCI 模型概览：\n<br>\n    <div align=\"center\">\n      <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/MCI_model.png\" width=\"800\"/>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 3,
+        "rowsha": "wTJs6fHxLW4muP8lHuKlX8+rcv3h2vxDrCbJgYo4Hh4=",
+        "originContent": "<h1><a href=\"https://ieeexplore.ieee.org/document/10591792\">Change-Agent: Toward Interactive Comprehensive Remote Sensing Change Interpretation and Analysis</a></h1>",
+        "translatedContent": "<h1><a href=\"https://ieeexplore.ieee.org/document/10591792\">Change-Agent：迈向交互式综合遥感变化解释与分析</a></h1>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "7NE+Cs8ope5HAPa3//tHTFT26C8GJE5+TmeAAifBLqk=",
+        "originContent": "**[Chenyang Liu](https://chen-yang-liu.github.io/), [Keyan Chen](https://kyanchen.github.io), [Haotian Zhang](https://scholar.google.com/citations?user=c7uR6NUAAAAJ), [Zipeng Qi](https://scholar.google.com/citations?user=KhMtmBsAAAAJ), [Zhengxia Zou](https://scholar.google.com.hk/citations?hl=en&user=DzwoyZsAAAAJ), and [Zhenwei Shi*✉](https://scholar.google.com.hk/citations?hl=en&user=kNhFWQIAAAAJ)**",
+        "translatedContent": "**[刘晨阳](https://chen-yang-liu.github.io/), [陈克言](https://kyanchen.github.io), [张浩天](https://scholar.google.com/citations?user=c7uR6NUAAAAJ), [齐子鹏](https://scholar.google.com/citations?user=KhMtmBsAAAAJ), [邹正霞](https://scholar.google.com.hk/citations?hl=en&user=DzwoyZsAAAAJ), 以及 [石振伟*✉](https://scholar.google.com.hk/citations?hl=en&user=kNhFWQIAAAAJ)**"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "dc+qiFEg3g6rUEbeh7MAHx7kkUPzlf1F50vWnRpcTow=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/Change_Agent.png\" width=\"400\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/Change_Agent.png\" width=\"400\"/>"
+      },
+      {
+        "row": 9,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 10,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "pqOgovqipl7CxQ3RlO+LZGBthE0An1NY1jOnlU+Oy5o=",
+        "originContent": "## Share us a :star: if you're interested in this repo",
+        "translatedContent": "## 如果你对本仓库感兴趣，请给我们一个 :star: "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "MMcXsHhtbSXnHocAUTHGPdMqKU3j3426rwOAekPfa3w=",
+        "originContent": "Official PyTorch implementation of the paper: \"**Change-Agent: Toward Interactive Comprehensive Remote Sensing Change Interpretation and Analysis**\" in [[IEEE](https://ieeexplore.ieee.org/document/10591792)]  ***(Accepted by IEEE TGRS 2024)***",
+        "translatedContent": "本文的官方 PyTorch 实现：“**Change-Agent：迈向交互式综合遥感变化解释与分析**”发表于 [[IEEE](https://ieeexplore.ieee.org/document/10591792)] ***(被 IEEE TGRS 2024 接收)***"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "lAKtX27Y1OZix34yZQRmurMHMBeQXjWe5SnlLRU4dvY=",
+        "originContent": "## 🥳News",
+        "translatedContent": "## 🥳新闻"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "lAZKK+DckZpN+bZtmKNWt6tAB4Oyyi5fd4n7IMwd4Eg=",
+        "originContent": "- 2024-06: The code is **available**.",
+        "translatedContent": "- 2024-06：代码 **已发布**。"
+      },
+      {
+        "row": 19,
+        "rowsha": "PGH3ctBuPHb7JCzoNdtOkce6nFVPJFfC65WAH8ibuyY=",
+        "originContent": "- 2024-03: The paper is **available**.",
+        "translatedContent": "- 2024-03：论文 **已发布**。"
+      },
+      {
+        "row": 20,
+        "rowsha": "h9pcnbfhlqZCgWQr2D1DvgS0+/3uZHz6a6BPK0Sc3fw=",
+        "originContent": "- 🔥 Our survey \"**Remote Sensing Temporal Vision-Language Models: A Comprehensive Survey\": [Arxiv](https://arxiv.org/abs/2412.02573) || [Github](https://github.com/Chen-Yang-Liu/Awesome-RS-Temporal-VLM)** 🔥 ",
+        "translatedContent": "- 🔥 我们的综述“**遥感时序视觉-语言模型：一项综合调研**”：[Arxiv](https://arxiv.org/abs/2412.02573) || [Github](https://github.com/Chen-Yang-Liu/Awesome-RS-Temporal-VLM)** 🔥 "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## 目录"
+      },
+      {
+        "row": 23,
+        "rowsha": "O9ro/i1fvI9HvlY8nRhIxdetg6YJeA1VQ8raIHKdI38=",
+        "originContent": "- [LEVIR-MCI dataset](#LEVIR-MCI-dataset)",
+        "translatedContent": "- [LEVIR-MCI 数据集](#LEVIR-MCI-dataset)"
+      },
+      {
+        "row": 24,
+        "rowsha": "BNAhrw6ogvYQmfEd8OfczaxrooD0lk6AmmaIVkLiQ4U=",
+        "originContent": "- [Training of MCI model](#Training-of-the-multi-level-change-interpretation-model)",
+        "translatedContent": "- [多层次变化解释模型训练](#Training-of-the-multi-level-change-interpretation-model)"
+      },
+      {
+        "row": 25,
+        "rowsha": "hrRuusLq2AQH/bPm5K1+MY03JRT+kRT1kkviXOMg+/U=",
+        "originContent": "- [Construction of Change-Agent](#Construction-of-Change-Agent)",
+        "translatedContent": "- [Change-Agent 构建](#Construction-of-Change-Agent)"
+      },
+      {
+        "row": 26,
+        "rowsha": "/BN7EntRGTelvx0OFw9ESC1HLaZ6iG0IINjHeWr+xoY=",
+        "originContent": "- [Citation](#Citation)",
+        "translatedContent": "- [引用](#Citation)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "C7EOWq6gdB/LpcRO+/aFJtxr8SEbkf9nGNJNcU2w5XI=",
+        "originContent": "## LEVIR-MCI dataset ",
+        "translatedContent": "## LEVIR-MCI 数据集 "
+      },
+      {
+        "row": 29,
+        "rowsha": "TTpUvOjYPVDeF00OSA+JZ3ITYPiQbb0vnlKhQAjnab8=",
+        "originContent": "- Download the LEVIR_MCI dataset: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main) (**Available Now!**).",
+        "translatedContent": "- 下载 LEVIR_MCI 数据集：[LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main)（**现已开放！**）。"
+      },
+      {
+        "row": 30,
+        "rowsha": "6xzmwTIksckRe3pbG7pSX8Is2qf7Un8dsLv/S/Lozc8=",
+        "originContent": "- This dataset is an extension of our previously established [LEVIR-CC dataset](https://github.com/Chen-Yang-Liu/RSICC). It contains bi-temporal images as well as diverse change detection masks and descriptive sentences. It provides a crucial data foundation for exploring multi-task learning for change detection and change captioning.",
+        "translatedContent": "- 本数据集是我们先前建立的 [LEVIR-CC 数据集](https://github.com/Chen-Yang-Liu/RSICC) 的扩展，包含双时相影像以及多样的变化检测掩码和描述性句子。它为探索变化检测与变化描述的多任务学习提供了关键数据基础。"
+      },
+      {
+        "row": 31,
+        "rowsha": "ldkof3tSZSR8AxV1iN1j5dYOMEW2sgWcUEGXzSXIgLw=",
+        "originContent": "    <br>",
+        "translatedContent": "    <br>"
+      },
+      {
+        "row": 32,
+        "rowsha": "OQ641hZv+jmDJcqSPXY8SWj0z5JF01F0iIXHY0oAcHg=",
+        "originContent": "    <div align=\"center\">",
+        "translatedContent": "    <div align=\"center\">"
+      },
+      {
+        "row": 33,
+        "rowsha": "cxEbonwex7QIyzGygccsaGRGFxPBFvWg8aroaQDWWY0=",
+        "originContent": "      <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/dataset.png\" width=\"800\"/>",
+        "translatedContent": "      <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/dataset.png\" width=\"800\"/>"
+      },
+      {
+        "row": 34,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 35,
+        "rowsha": "ldkof3tSZSR8AxV1iN1j5dYOMEW2sgWcUEGXzSXIgLw=",
+        "originContent": "    <br>",
+        "translatedContent": "    <br>"
+      },
+      {
+        "row": 36,
+        "rowsha": "9jCAZyDd/x0nF6TyUD2/EY50qugSrRApDYSWadvJvpQ=",
+        "originContent": "## Training of the multi-level change interpretation model",
+        "translatedContent": "## 多层次变化解释模型训练"
+      },
+      {
+        "row": 37,
+        "rowsha": "jvdnSyDgwsIpeuOyROWTKwgnSU4qTggmM5iuZCdzvG4=",
+        "originContent": "The overview of the MCI model:",
+        "translatedContent": "MCI 模型概览："
+      },
+      {
+        "row": 38,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 39,
+        "rowsha": "OQ641hZv+jmDJcqSPXY8SWj0z5JF01F0iIXHY0oAcHg=",
+        "originContent": "    <div align=\"center\">",
+        "translatedContent": "    <div align=\"center\">"
+      },
+      {
+        "row": 40,
+        "rowsha": "IsksDefG2DSs8LXWDky6C9sZI0X3/AqBuF4DWXphfvk=",
+        "originContent": "      <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/MCI_model.png\" width=\"800\"/>",
+        "translatedContent": "      <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/MCI_model.png\" width=\"800\"/>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "    </div>\n<br>\n\n### Preparation\n    \n- **Environment Installation**:\n    <details open>\n    \n    **Step 1**: Create a virtual environment named `Multi_change_env` and activate it.",
+    "ContentSha": "QBbTx1cLdoHzOL1FMrsDlaRySPslmJ/Mxp+tPd12TVY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    </div>\n<br>\n\n### 准备工作\n    \n- **环境安装**：\n    <details open>\n    \n    **步骤 1**：创建一个名为 `Multi_change_env` 的虚拟环境并激活它。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 2,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "u64SLURBm42EAX2fjHG9zWjMtS+OwBUoW5+TyLO7Cu8=",
+        "originContent": "### Preparation",
+        "translatedContent": "### 准备工作"
+      },
+      {
+        "row": 5,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 6,
+        "rowsha": "gHSvaI264eeiZ2xz7g/46y2IlShS2pPJzkmJgNwecDo=",
+        "originContent": "- **Environment Installation**:",
+        "translatedContent": "- **环境安装**："
+      },
+      {
+        "row": 7,
+        "rowsha": "4Psx8OhruLRFL2RXcvz74XxqeJ4gDLMpGCRB+Cj1Qqo=",
+        "originContent": "    <details open>",
+        "translatedContent": "    <details open>"
+      },
+      {
+        "row": 8,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 9,
+        "rowsha": "7vinfiUW9A6GNOM4VKsFZvn5sW6H8C++N5lbne9gLR4=",
+        "originContent": "    **Step 1**: Create a virtual environment named `Multi_change_env` and activate it.",
+        "translatedContent": "    **步骤 1**：创建一个名为 `Multi_change_env` 的虚拟环境并激活它。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "    ```python\n    conda create -n Multi_change_env python=3.9\n    conda activate Multi_change_env\n    ```",
+    "ContentSha": "x/UIlqNV2z3QmhMOLMK9Jif9coa/Gu+H44Ip2IxQiIU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```python\n    conda create -n Multi_change_env python=3.9\n    conda activate Multi_change_env\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/3YcnfYMIbg5SHdjtA0V75d0xzbY90Q/7NqlXH2Y9ZM=",
+        "originContent": "    ```python",
+        "translatedContent": "    ```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "04bulLK14O/sjusQuFm37oLzbh6yMggq1pvNjMJj3d4=",
+        "originContent": "    conda create -n Multi_change_env python=3.9",
+        "translatedContent": "    conda create -n Multi_change_env python=3.9"
+      },
+      {
+        "row": 3,
+        "rowsha": "SWXXm89ZPKr4xFV9BB2YqxyBSvzbB2TPNKw+3F8wgw4=",
+        "originContent": "    conda activate Multi_change_env",
+        "translatedContent": "    conda activate Multi_change_env"
+      },
+      {
+        "row": 4,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "    \n    **Step 2**: Download or clone the repository.",
+    "ContentSha": "NY7ilzmUb7xj+3U7jDE4NPQdTKLV/Oe3R4zA4d64pIg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    \n    **步骤 2**：下载或克隆该仓库。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 2,
+        "rowsha": "oNHnLjZmFzKpTwSx2V31h6xZH9ViHB8H91UalENJBl0=",
+        "originContent": "    **Step 2**: Download or clone the repository.",
+        "translatedContent": "    **步骤 2**：下载或克隆该仓库。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "    ```python\n    git clone https://github.com/Chen-Yang-Liu/Change-Agent.git\n    cd ./Change-Agent/Multi_change\n    ```",
+    "ContentSha": "Ihf4EYglrXVtEeOwHz1TGBqB0d6dxEluB2dZwb9SfwM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```python\n    git clone https://github.com/Chen-Yang-Liu/Change-Agent.git\n    cd ./Change-Agent/Multi_change\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/3YcnfYMIbg5SHdjtA0V75d0xzbY90Q/7NqlXH2Y9ZM=",
+        "originContent": "    ```python",
+        "translatedContent": "    ```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "eaZPer1QBS9vT/KlUs2u/7cj6s9Mu2rT2XW6gxuNKXI=",
+        "originContent": "    git clone https://github.com/Chen-Yang-Liu/Change-Agent.git",
+        "translatedContent": "    git clone https://github.com/Chen-Yang-Liu/Change-Agent.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "SVElxKQTi8vZE883miRG6zG9WqWKzsejRKVLXcb6zLk=",
+        "originContent": "    cd ./Change-Agent/Multi_change",
+        "translatedContent": "    cd ./Change-Agent/Multi_change"
+      },
+      {
+        "row": 4,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "    \n    **Step 3**: Install dependencies.",
+    "ContentSha": "byU6qfZLpL9gyEQQU+VfsFgqVJQIQwcz/iiyZ63JjK0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    \n    **步骤3**：安装依赖项。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 2,
+        "rowsha": "MnDBvSQ/m/l/cHyYyXVWWPL0XXl4akerjNmf0PlL/Iw=",
+        "originContent": "    **Step 3**: Install dependencies.",
+        "translatedContent": "    **步骤3**：安装依赖项。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "    ```python\n    pip install -r requirements.txt\n    ```",
+    "ContentSha": "cmy4adqx84i2JKBctMJgJ/g5Te0Siq781oqW/vfa0Bg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```python\n    pip install -r requirements.txt\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/3YcnfYMIbg5SHdjtA0V75d0xzbY90Q/7NqlXH2Y9ZM=",
+        "originContent": "    ```python",
+        "translatedContent": "    ```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "+NKC0vwYQgnTT+HBcUv0fI91TXX3bV2l62ETZ0yRyG8=",
+        "originContent": "    pip install -r requirements.txt",
+        "translatedContent": "    pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "    </details>\n\n- **Download Dataset**:\n  <details open>\n      \n  Link: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main). The data structure of LEVIR-MCI is organized as follows:\n",
+    "ContentSha": "gVkyKn6aa0cQ8fCPY3nmkGSSX6smLZIpzJWozyNLmRo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    </details>\n\n- **下载数据集**：\n  <details open>\n      \n  链接：[LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main)。LEVIR-MCI 的数据结构组织如下：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "yUd5hCZvHS7Zzyjzu4mhhn9W5dOFZulnxGwG7dHgG9A=",
+        "originContent": "    </details>",
+        "translatedContent": "    </details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "kwBv2e2A0u/1xPiBlvbbF4RK7dSYFZV4ApME/To3ZPE=",
+        "originContent": "- **Download Dataset**:",
+        "translatedContent": "- **下载数据集**："
+      },
+      {
+        "row": 4,
+        "rowsha": "kKUKFcUSJntEkX/K61z3Vc969uK80CQ+aVjKjyta/QY=",
+        "originContent": "  <details open>",
+        "translatedContent": "  <details open>"
+      },
+      {
+        "row": 5,
+        "rowsha": "OZFBvh0wrCZW2J7tzw2NztqnLWwpv5WcriQ9x7FELPY=",
+        "originContent": "      ",
+        "translatedContent": "      "
+      },
+      {
+        "row": 6,
+        "rowsha": "GrAuKgLLAoOI6FgoSKBgHCokw5O9a+/H1+2HHhnYnLA=",
+        "originContent": "  Link: [LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main). The data structure of LEVIR-MCI is organized as follows:",
+        "translatedContent": "  链接：[LEVIR-MCI](https://huggingface.co/datasets/lcybuaa/LEVIR-MCI/tree/main)。LEVIR-MCI 的数据结构组织如下："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "    ```\n    ├─/DATA_PATH_ROOT/Levir-MCI-dataset/\n            ├─LevirCCcaptions.json\n            ├─images\n                 ├─train\n                 │  ├─A\n                 │  ├─B\n                 │  ├─label\n                 ├─val\n                 │  ├─A\n                 │  ├─B\n                 │  ├─label\n                 ├─test\n                 │  ├─A\n                 │  ├─B\n                 │  ├─label\n    ```",
+    "ContentSha": "g3rtIG4wlSmsDO1MXABtAkWcXLpkOMoTDuQrzXXIh5c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```\n    ├─/DATA_PATH_ROOT/Levir-MCI-dataset/\n            ├─LevirCCcaptions.json\n            ├─images\n                 ├─train\n                 │  ├─A\n                 │  ├─B\n                 │  ├─label\n                 ├─val\n                 │  ├─A\n                 │  ├─B\n                 │  ├─label\n                 ├─test\n                 │  ├─A\n                 │  ├─B\n                 │  ├─label\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "HyDmxEKPncZ6JTZYiFQ3jmjlFCy0xlMkmRi9kXrcRj0=",
+        "originContent": "    ├─/DATA_PATH_ROOT/Levir-MCI-dataset/",
+        "translatedContent": "    ├─/DATA_PATH_ROOT/Levir-MCI-dataset/"
+      },
+      {
+        "row": 3,
+        "rowsha": "HL821l6dUa7NQdp/6IlT+fOojQArYwVqLXLl0WHxBNk=",
+        "originContent": "            ├─LevirCCcaptions.json",
+        "translatedContent": "            ├─LevirCCcaptions.json"
+      },
+      {
+        "row": 4,
+        "rowsha": "z+Ologtnt0Yl0SmHta7HrSeMxRC4qJrrFb+IPi4Nb9E=",
+        "originContent": "            ├─images",
+        "translatedContent": "            ├─images"
+      },
+      {
+        "row": 5,
+        "rowsha": "1toHn8XlqlzYbuVoqjprd/UQtCYLXtaV3dcLDWqiayE=",
+        "originContent": "                 ├─train",
+        "translatedContent": "                 ├─train"
+      },
+      {
+        "row": 6,
+        "rowsha": "/TWp8uKFppJevnz3AyUsjHeJETmXY5kkaUQfdA7MxE8=",
+        "originContent": "                 │  ├─A",
+        "translatedContent": "                 │  ├─A"
+      },
+      {
+        "row": 7,
+        "rowsha": "K4aMub2E2oFeLlhESegrXRUzuXFEZQbRDKseiXpDbJA=",
+        "originContent": "                 │  ├─B",
+        "translatedContent": "                 │  ├─B"
+      },
+      {
+        "row": 8,
+        "rowsha": "OROLblE7uNbFSnUF/Cx4VXePypG38xaGABrIM0q4XNo=",
+        "originContent": "                 │  ├─label",
+        "translatedContent": "                 │  ├─label"
+      },
+      {
+        "row": 9,
+        "rowsha": "GlZABp7OASvHeqw/JBgnMUe/9CC1qyAKCwa0QonPgtI=",
+        "originContent": "                 ├─val",
+        "translatedContent": "                 ├─val"
+      },
+      {
+        "row": 10,
+        "rowsha": "/TWp8uKFppJevnz3AyUsjHeJETmXY5kkaUQfdA7MxE8=",
+        "originContent": "                 │  ├─A",
+        "translatedContent": "                 │  ├─A"
+      },
+      {
+        "row": 11,
+        "rowsha": "K4aMub2E2oFeLlhESegrXRUzuXFEZQbRDKseiXpDbJA=",
+        "originContent": "                 │  ├─B",
+        "translatedContent": "                 │  ├─B"
+      },
+      {
+        "row": 12,
+        "rowsha": "OROLblE7uNbFSnUF/Cx4VXePypG38xaGABrIM0q4XNo=",
+        "originContent": "                 │  ├─label",
+        "translatedContent": "                 │  ├─label"
+      },
+      {
+        "row": 13,
+        "rowsha": "f6IYE7BidS4zSPSfk1i/MAHWtAcKQ4jQOKNX6Cc0+nI=",
+        "originContent": "                 ├─test",
+        "translatedContent": "                 ├─test"
+      },
+      {
+        "row": 14,
+        "rowsha": "/TWp8uKFppJevnz3AyUsjHeJETmXY5kkaUQfdA7MxE8=",
+        "originContent": "                 │  ├─A",
+        "translatedContent": "                 │  ├─A"
+      },
+      {
+        "row": 15,
+        "rowsha": "K4aMub2E2oFeLlhESegrXRUzuXFEZQbRDKseiXpDbJA=",
+        "originContent": "                 │  ├─B",
+        "translatedContent": "                 │  ├─B"
+      },
+      {
+        "row": 16,
+        "rowsha": "OROLblE7uNbFSnUF/Cx4VXePypG38xaGABrIM0q4XNo=",
+        "originContent": "                 │  ├─label",
+        "translatedContent": "                 │  ├─label"
+      },
+      {
+        "row": 17,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "    where folder ``A`` contains pre-phase images, folder ``B`` contains post-phase images, and folder ``label`` contains the change detection masks.\n    </details>\n\n- **Extract text files for the descriptions of each image pair in LEVIR-MCI**:\n",
+    "ContentSha": "vOteMyLNedhuyVD+TF2IVMHAJPuI7hKZK2BIlZNbsS4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    其中文件夹``A``包含前期图像，文件夹``B``包含后期图像，文件夹``label``包含变化检测掩码。\n    </details>\n\n- **提取LEVIR-MCI中每对图像描述的文本文件**：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2KUR45x5Iu4vqwhZBEZOxT3T2pJGlBLq60ByyfZiXVc=",
+        "originContent": "    where folder ``A`` contains pre-phase images, folder ``B`` contains post-phase images, and folder ``label`` contains the change detection masks.",
+        "translatedContent": "    其中文件夹``A``包含前期图像，文件夹``B``包含后期图像，文件夹``label``包含变化检测掩码。"
+      },
+      {
+        "row": 2,
+        "rowsha": "yUd5hCZvHS7Zzyjzu4mhhn9W5dOFZulnxGwG7dHgG9A=",
+        "originContent": "    </details>",
+        "translatedContent": "    </details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "CNckWpzeAlsr3bppfK+j6drmIgkd+M+I207YThP0EBI=",
+        "originContent": "- **Extract text files for the descriptions of each image pair in LEVIR-MCI**:",
+        "translatedContent": "- **提取LEVIR-MCI中每对图像描述的文本文件**："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "    ```\n    python preprocess_data.py\n    ```",
+    "ContentSha": "o2bDnmMETQFYIzSThItvm4Ih5ndTZxTu6qaciQBU9LE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```\n    python preprocess_data.py\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "MGQPUBRK7E9KsKqOFZaa8LzqqirnbAay9rZEjntxRjY=",
+        "originContent": "    python preprocess_data.py",
+        "translatedContent": "    python preprocess_data.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "    After that, you can find some generated files in `./data/LEVIR_MCI/`. \n\n### Train\nMake sure you performed the data preparation above. Then, start training as follows:",
+    "ContentSha": "/nNouds8QN+WM7Kphca3GwmX122+JPXOaEFWgjO7wmo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    之后，您可以在 `./data/LEVIR_MCI/` 中找到一些生成的文件。\n\n### 训练\n确保您已完成上述数据准备。然后，按如下方式开始训练：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o6H+1a5WQL8bZ/b/1P/i7X8nZx0LAaVb0AXIJWBht0k=",
+        "originContent": "    After that, you can find some generated files in `./data/LEVIR_MCI/`. ",
+        "translatedContent": "    之后，您可以在 `./data/LEVIR_MCI/` 中找到一些生成的文件。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "U9ggftLMiDE+3THEq2UG8dDSB5RRAcnCD5f2Fk0Pgx4=",
+        "originContent": "### Train",
+        "translatedContent": "### 训练"
+      },
+      {
+        "row": 4,
+        "rowsha": "4t3h0Iq650wiA0z62FXmK1pHe4yusK3tFrM0L4JQcZ0=",
+        "originContent": "Make sure you performed the data preparation above. Then, start training as follows:",
+        "translatedContent": "确保您已完成上述数据准备。然后，按如下方式开始训练："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```python\npython train.py --train_goal 2 --data_folder /DATA_PATH_ROOT/Levir-MCI-dataset/images --savepath ./models_ckpt/\n```",
+    "ContentSha": "EDGw8q3exQLSUoOYVgwjJXRp8THXDMFxBjvyhMEpkxk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\npython train.py --train_goal 2 --data_folder /DATA_PATH_ROOT/Levir-MCI-dataset/images --savepath ./models_ckpt/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "eOLNxpn4w4SQuUFKI64VdZGIrqseIgRFw4362YinvpQ=",
+        "originContent": "python train.py --train_goal 2 --data_folder /DATA_PATH_ROOT/Levir-MCI-dataset/images --savepath ./models_ckpt/",
+        "translatedContent": "python train.py --train_goal 2 --data_folder /DATA_PATH_ROOT/Levir-MCI-dataset/images --savepath ./models_ckpt/"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n### Evaluate",
+    "ContentSha": "5+WBrcd5YhJst0fbN1aZuytgEvX+YfUs1hngy8zd4ZI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 评估",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ZhKEcYDZbxapHLXR7rHhHoH4XNJxCEVg3AjQIfiilI8=",
+        "originContent": "### Evaluate",
+        "translatedContent": "### 评估"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```python\npython test.py --data_folder /DATA_PATH_ROOT/Levir-MCI-dataset/images --checkpoint {checkpoint_PATH}\n```",
+    "ContentSha": "slIodJ23zctvXAV/oxa4JmLYVLGaGlnAfSCAKPEx/34=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\npython test.py --data_folder /DATA_PATH_ROOT/Levir-MCI-dataset/images --checkpoint {checkpoint_PATH}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "vNDcKWWP6SqWNW82nhKoQiJzOgGSMqaKCQeQ8mUNtjs=",
+        "originContent": "python test.py --data_folder /DATA_PATH_ROOT/Levir-MCI-dataset/images --checkpoint {checkpoint_PATH}",
+        "translatedContent": "python test.py --data_folder /DATA_PATH_ROOT/Levir-MCI-dataset/images --checkpoint {checkpoint_PATH}"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "We recommend training the model 5 times to get an average score.\n\n### Inference\nRun inference to get started as follows:",
+    "ContentSha": "QMxRolFGRjiJhmoYyqAB88/+FDra9STGuEM7ZN+OwXU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "我们建议训练模型5次以获得平均分数。\n\n### 推理\n运行推理以开始，方法如下：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "mcwRF6jacMYiHp0rg5VnXU1tVWBh/gnQFezT6QcdE+M=",
+        "originContent": "We recommend training the model 5 times to get an average score.",
+        "translatedContent": "我们建议训练模型5次以获得平均分数。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "2SmNjqU06v1YA3xkfV0D3vipmwN42OP1QG6rSUyG2B4=",
+        "originContent": "### Inference",
+        "translatedContent": "### 推理"
+      },
+      {
+        "row": 4,
+        "rowsha": "mYCTtipIYWSxd/oreY4ZjjTxvjQJJPt84LL7Ttx6fYs=",
+        "originContent": "Run inference to get started as follows:",
+        "translatedContent": "运行推理以开始，方法如下："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```python\npython predict.py --imgA_path {imgA_path} --imgB_path {imgA_path} --mask_save_path ./CDmask.png\n```",
+    "ContentSha": "uvjlD5dSME/kc6+Tg32fw+661kno28EGY7Bb1vpbsTo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\npython predict.py --imgA_path {imgA_path} --imgB_path {imgA_path} --mask_save_path ./CDmask.png\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "A3LrgkwT11N5Z7x4ZUCUMo+Z/kFrImwNqINA920gepU=",
+        "originContent": "python predict.py --imgA_path {imgA_path} --imgB_path {imgA_path} --mask_save_path ./CDmask.png",
+        "translatedContent": "python predict.py --imgA_path {imgA_path} --imgB_path {imgA_path} --mask_save_path ./CDmask.png"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "You can modify ``--checkpoint`` of ``Change_Perception.define_args()`` in ``predict.py``. Then you can use your own model, of course, you also can download our pretrained model ``MCI_model.pth`` here: [[Hugging face](https://huggingface.co/lcybuaa/Change-Agent/tree/main)]. After that, put it in `./models_ckpt/`.\n\n\n\n## Construction of Change-Agent\n<br>\n<div align=\"center\">\n      <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/overview_agent.png\" width=\"800\"/>\n</div>\n\n- **Agent Installation**:",
+    "ContentSha": "IYG2rn/4dLlCIgy5RfWw25olZYIqOhf4GI773j2tBdQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "你可以修改 ``predict.py`` 中 ``Change_Perception.define_args()`` 的 ``--checkpoint`` 参数。然后你可以使用你自己的模型，当然，你也可以下载我们的预训练模型 ``MCI_model.pth``，下载地址：[[Hugging face](https://huggingface.co/lcybuaa/Change-Agent/tree/main)]。下载后，将其放入 `./models_ckpt/` 文件夹中。\n\n\n\n## Change-Agent 的构建\n<br>\n<div align=\"center\">\n      <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/overview_agent.png\" width=\"800\"/>\n</div>\n\n- **Agent 安装**：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZGxzMV9oIqSPlb87VpJDWuVxs5yLYtZ/d2PVaQi+MVg=",
+        "originContent": "You can modify ``--checkpoint`` of ``Change_Perception.define_args()`` in ``predict.py``. Then you can use your own model, of course, you also can download our pretrained model ``MCI_model.pth`` here: [[Hugging face](https://huggingface.co/lcybuaa/Change-Agent/tree/main)]. After that, put it in `./models_ckpt/`.",
+        "translatedContent": "你可以修改 ``predict.py`` 中 ``Change_Perception.define_args()`` 的 ``--checkpoint`` 参数。然后你可以使用你自己的模型，当然，你也可以下载我们的预训练模型 ``MCI_model.pth``，下载地址：[[Hugging face](https://huggingface.co/lcybuaa/Change-Agent/tree/main)]。下载后，将其放入 `./models_ckpt/` 文件夹中。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "KBRHk1hvgpBV2PkQeN1gkCoz8feLInpScDsy8CbMamE=",
+        "originContent": "## Construction of Change-Agent",
+        "translatedContent": "## Change-Agent 的构建"
+      },
+      {
+        "row": 6,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 7,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "6D7r3+L0IaLE4cXn2mGjgswafbkCPewcl8TPPhc+oMk=",
+        "originContent": "      <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/overview_agent.png\" width=\"800\"/>",
+        "translatedContent": "      <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/overview_agent.png\" width=\"800\"/>"
+      },
+      {
+        "row": 9,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "8TzowNRo3mtxZXTX7/QGf4DxX0Jq0e5tqrDY30Ir36A=",
+        "originContent": "- **Agent Installation**:",
+        "translatedContent": "- **Agent 安装**："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "    ```python\n    cd ./Change-Agent/lagent-main\n    pip install -e .[all]\n    ```",
+    "ContentSha": "Bf9y/TTZmLVreC+f5nCxJZZGYGHFcUdaNziwMHlYQZk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```python\n    cd ./Change-Agent/lagent-main\n    pip install -e .[all]\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/3YcnfYMIbg5SHdjtA0V75d0xzbY90Q/7NqlXH2Y9ZM=",
+        "originContent": "    ```python",
+        "translatedContent": "    ```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "i9M+y31WfTxSun3hd1j1OAVNgbIzGNrNQjiqqzRXqBM=",
+        "originContent": "    cd ./Change-Agent/lagent-main",
+        "translatedContent": "    cd ./Change-Agent/lagent-main"
+      },
+      {
+        "row": 3,
+        "rowsha": "AQpQUuiGVKnh33clZ5R2fu6TmlMYoY0YoMxM5Kwvhlo=",
+        "originContent": "    pip install -e .[all]",
+        "translatedContent": "    pip install -e .[all]"
+      },
+      {
+        "row": 4,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "- **Run Agent**:\n\n    cd into the ``Multi_change`` folder:",
+    "ContentSha": "3r9xTXmvkRBHhij1CGaE1BGEKBUgMDCpnAifWkP51LM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **运行代理**：\n\n    进入 ``Multi_change`` 文件夹：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Na+3cMgBuk4hPfQegRfJh7e2u5V+5XYRrp9UmnbnUYw=",
+        "originContent": "- **Run Agent**:",
+        "translatedContent": "- **运行代理**："
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "36HPUdvXZO9r6ltVAUzG+KHLbvua3eybMFnZcdmHf9k=",
+        "originContent": "    cd into the ``Multi_change`` folder:",
+        "translatedContent": "    进入 ``Multi_change`` 文件夹："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "    ```python\n    cd ./Change-Agent/Multi_change\n    ```",
+    "ContentSha": "fdu25oWxr4OJNK4g2KOKtCnaJNkcGwKizhmlYK3LIzw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```python\n    cd ./Change-Agent/Multi_change\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/3YcnfYMIbg5SHdjtA0V75d0xzbY90Q/7NqlXH2Y9ZM=",
+        "originContent": "    ```python",
+        "translatedContent": "    ```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "SVElxKQTi8vZE883miRG6zG9WqWKzsejRKVLXcb6zLk=",
+        "originContent": "    cd ./Change-Agent/Multi_change",
+        "translatedContent": "    cd ./Change-Agent/Multi_change"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "    (1) Run Agent Cli Demo:",
+    "ContentSha": "0/ySx1rbm+yG9qAzpG/6hfgpz60U7ky8v070A2XkpMY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    （1）运行代理客户端演示：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0/ySx1rbm+yG9qAzpG/6hfgpz60U7ky8v070A2XkpMY=",
+        "originContent": "    (1) Run Agent Cli Demo:",
+        "translatedContent": "    （1）运行代理客户端演示："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "    ```bash\n    # You need to install streamlit first\n    # pip install streamlit\n    python try_chat.py\n    ```",
+    "ContentSha": "AE0fmCcGhdPybp+Mnbvm4Dbtewl5FDTOwO8GB2jUnNQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    # You need to install streamlit first\n    # pip install streamlit\n    python try_chat.py\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "HwViGk2iY4c+oxxVD9o5JIsjh8l2bEtagrXXU0hSyhg=",
+        "originContent": "    # You need to install streamlit first",
+        "translatedContent": "    # You need to install streamlit first"
+      },
+      {
+        "row": 3,
+        "rowsha": "Zserg/txMx1iMGrboF1NRPQ96BSFyc2RwZdLX2a0hl0=",
+        "originContent": "    # pip install streamlit",
+        "translatedContent": "    # pip install streamlit"
+      },
+      {
+        "row": 4,
+        "rowsha": "rJwCQCVQVv5xlRQW1qRArnzTJYjP67oyajno0GnpXhY=",
+        "originContent": "    python try_chat.py",
+        "translatedContent": "    python try_chat.py"
+      },
+      {
+        "row": 5,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 24,
+    "Content": "        \n    (2) Run Agent Web Demo:",
+    "ContentSha": "J0QPXKS1mHZrzgcRdZsU90GzM+U7hcbIngdExxquSg8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "        \n    （2）运行代理网页演示：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 2,
+        "rowsha": "63k+Lq+upGwwviD2s6M+XSkrsNRgf5DwGsZ0hFY3q2U=",
+        "originContent": "    (2) Run Agent Web Demo:",
+        "translatedContent": "    （2）运行代理网页演示："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 25,
+    "Content": "    ```bash\n    # You need to install streamlit first\n    # pip install streamlit\n    streamlit run react_web_demo.py\n    ```",
+    "ContentSha": "XS1pc3DK5XF/oezS/m49lA4O3pkSxff+HajCMAio9ws=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    # You need to install streamlit first\n    # pip install streamlit\n    streamlit run react_web_demo.py\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "HwViGk2iY4c+oxxVD9o5JIsjh8l2bEtagrXXU0hSyhg=",
+        "originContent": "    # You need to install streamlit first",
+        "translatedContent": "    # You need to install streamlit first"
+      },
+      {
+        "row": 3,
+        "rowsha": "Zserg/txMx1iMGrboF1NRPQ96BSFyc2RwZdLX2a0hl0=",
+        "originContent": "    # pip install streamlit",
+        "translatedContent": "    # pip install streamlit"
+      },
+      {
+        "row": 4,
+        "rowsha": "5s9okbr9o5ZQ848GsLHg6+yP8UIFJIFxYLvxMuchdZA=",
+        "originContent": "    streamlit run react_web_demo.py",
+        "translatedContent": "    streamlit run react_web_demo.py"
+      },
+      {
+        "row": 5,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 26,
+    "Content": "    <br>\n    <div align=\"center\">\n          <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/web.png\"/>\n    </div>\n\n## Citation\nIf you find this paper useful in your research, please consider citing:",
+    "ContentSha": "XEq9nd7NBh4xO1EzlxIDua2mAA5drMGfBIWVHI5hbFs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    <br>\n    <div align=\"center\">\n          <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/web.png\"/>\n    </div>\n\n## 引用\n如果您在研究中发现本文有用，请考虑引用：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ldkof3tSZSR8AxV1iN1j5dYOMEW2sgWcUEGXzSXIgLw=",
+        "originContent": "    <br>",
+        "translatedContent": "    <br>"
+      },
+      {
+        "row": 2,
+        "rowsha": "OQ641hZv+jmDJcqSPXY8SWj0z5JF01F0iIXHY0oAcHg=",
+        "originContent": "    <div align=\"center\">",
+        "translatedContent": "    <div align=\"center\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "h9BMV+HGxga/OtRRuQE0XxHV17SUe/5ZKJPpRbAj5jY=",
+        "originContent": "          <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/web.png\"/>",
+        "translatedContent": "          <img src=\"https://raw.githubusercontent.com/Chen-Yang-Liu/Change-Agent/main/resource/web.png\"/>"
+      },
+      {
+        "row": 4,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## 引用"
+      },
+      {
+        "row": 7,
+        "rowsha": "If6rokcA4T5gpmkSTP/I7YAIya38YliG3uxj4jG7s9Y=",
+        "originContent": "If you find this paper useful in your research, please consider citing:",
+        "translatedContent": "如果您在研究中发现本文有用，请考虑引用："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 27,
+    "Content": "```\n@ARTICLE{Liu_Change_Agent,\n  author={Liu, Chenyang and Chen, Keyan and Zhang, Haotian and Qi, Zipeng and Zou, Zhengxia and Shi, Zhenwei},\n  journal={IEEE Transactions on Geoscience and Remote Sensing}, \n  title={Change-Agent: Toward Interactive Comprehensive Remote Sensing Change Interpretation and Analysis}, \n  year={2024},\n  volume={},\n  number={},\n  pages={1-1},\n  keywords={Remote sensing;Feature extraction;Semantics;Transformers;Roads;Earth;Task analysis;Interactive Change-Agent;change captioning;change detection;multi-task learning;large language model},\n  doi={10.1109/TGRS.2024.3425815}}\n\n```",
+    "ContentSha": "mbLnLvxoekgU4C774MZP7Q1o8XUtRVC7H6NqBfAQbyc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@ARTICLE{Liu_Change_Agent,\n  author={Liu, Chenyang and Chen, Keyan and Zhang, Haotian and Qi, Zipeng and Zou, Zhengxia and Shi, Zhenwei},\n  journal={IEEE Transactions on Geoscience and Remote Sensing}, \n  title={Change-Agent: Toward Interactive Comprehensive Remote Sensing Change Interpretation and Analysis}, \n  year={2024},\n  volume={},\n  number={},\n  pages={1-1},\n  keywords={Remote sensing;Feature extraction;Semantics;Transformers;Roads;Earth;Task analysis;Interactive Change-Agent;change captioning;change detection;multi-task learning;large language model},\n  doi={10.1109/TGRS.2024.3425815}}\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "WGXnOsxmiOvvail9JPuTVIJk/KWj9+5XKw3WTt265hk=",
+        "originContent": "@ARTICLE{Liu_Change_Agent,",
+        "translatedContent": "@ARTICLE{Liu_Change_Agent,"
+      },
+      {
+        "row": 3,
+        "rowsha": "Vh5GUefWyedByB0MbzfdDKGQ4kaue3DDAXtWq9EgMhw=",
+        "originContent": "  author={Liu, Chenyang and Chen, Keyan and Zhang, Haotian and Qi, Zipeng and Zou, Zhengxia and Shi, Zhenwei},",
+        "translatedContent": "  author={Liu, Chenyang and Chen, Keyan and Zhang, Haotian and Qi, Zipeng and Zou, Zhengxia and Shi, Zhenwei},"
+      },
+      {
+        "row": 4,
+        "rowsha": "26un6hCAVQr92g/jXk0tL/Jle2Y7AfvI8saT8v0fyMQ=",
+        "originContent": "  journal={IEEE Transactions on Geoscience and Remote Sensing}, ",
+        "translatedContent": "  journal={IEEE Transactions on Geoscience and Remote Sensing}, "
+      },
+      {
+        "row": 5,
+        "rowsha": "MIIoyZf/PZvicuuoymiYpy5i59IsUNfmyuV5vEeDIJo=",
+        "originContent": "  title={Change-Agent: Toward Interactive Comprehensive Remote Sensing Change Interpretation and Analysis}, ",
+        "translatedContent": "  title={Change-Agent: Toward Interactive Comprehensive Remote Sensing Change Interpretation and Analysis}, "
+      },
+      {
+        "row": 6,
+        "rowsha": "b6kWALgvcgZ02ui/RHoHdWj3sqezHHiTYiMDSbnd+cs=",
+        "originContent": "  year={2024},",
+        "translatedContent": "  year={2024},"
+      },
+      {
+        "row": 7,
+        "rowsha": "yVBbzN6AjxoP81IiTHGjjUWVtdjfxxIyoX8JNnYgdQo=",
+        "originContent": "  volume={},",
+        "translatedContent": "  volume={},"
+      },
+      {
+        "row": 8,
+        "rowsha": "hk6bQon5aj351eSTGMXVzyO1jxhHIdqyYpNyRaRYx7Y=",
+        "originContent": "  number={},",
+        "translatedContent": "  number={},"
+      },
+      {
+        "row": 9,
+        "rowsha": "aDKIGAue9u2uxXWvpXlvd46nK2Nc1KIzkaBZF9U1PFg=",
+        "originContent": "  pages={1-1},",
+        "translatedContent": "  pages={1-1},"
+      },
+      {
+        "row": 10,
+        "rowsha": "RbESYNBBzwCPLb1NVTZ61f2xZQnQBfO/GUtNgW5oazE=",
+        "originContent": "  keywords={Remote sensing;Feature extraction;Semantics;Transformers;Roads;Earth;Task analysis;Interactive Change-Agent;change captioning;change detection;multi-task learning;large language model},",
+        "translatedContent": "  keywords={Remote sensing;Feature extraction;Semantics;Transformers;Roads;Earth;Task analysis;Interactive Change-Agent;change captioning;change detection;multi-task learning;large language model},"
+      },
+      {
+        "row": 11,
+        "rowsha": "5fIEd7MHxw2rP4mrlQLVxdG372xBps8CRglWC2TRZyg=",
+        "originContent": "  doi={10.1109/TGRS.2024.3425815}}",
+        "translatedContent": "  doi={10.1109/TGRS.2024.3425815}}"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 28,
+    "Content": "\n## Acknowledgement\nThanks to the following repository:\n\n[RSICCformer](https://github.com/Chen-Yang-Liu/RSICC); [Chg2Cap](https://github.com/ShizhenChang/Chg2Cap); [lagent](https://github.com/InternLM/lagent)\n\n## License\nThis repo is distributed under [MIT License](https://github.com/Chen-Yang-Liu/Change-Agent/blob/main/LICENSE.txt). The code can be used for academic purposes only.\n\n## Contact Us\nIf you have any other questions❓, please contact us in time 👬\n",
+    "ContentSha": "JmWzxiksEhQqt7iXR92idL92pr/O997AFrZetrM22rk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 致谢\n感谢以下仓库：\n\n[RSICCformer](https://github.com/Chen-Yang-Liu/RSICC); [Chg2Cap](https://github.com/ShizhenChang/Chg2Cap); [lagent](https://github.com/InternLM/lagent)\n\n## 许可协议\n本仓库遵循[MIT 许可证](https://github.com/Chen-Yang-Liu/Change-Agent/blob/main/LICENSE.txt)分发。代码仅限于学术用途。\n\n## 联系我们\n如果您有任何其他问题❓，请及时联系我们 👬\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+        "originContent": "## Acknowledgement",
+        "translatedContent": "## 致谢"
+      },
+      {
+        "row": 3,
+        "rowsha": "DLSOeXP21isXq9qc2ycb5dLjbpy/53dAO0g0B2GjHLE=",
+        "originContent": "Thanks to the following repository:",
+        "translatedContent": "感谢以下仓库："
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "m95AEgmyV54sDOP0l4Mh/1G99MKeAANookMpiQ20oIo=",
+        "originContent": "[RSICCformer](https://github.com/Chen-Yang-Liu/RSICC); [Chg2Cap](https://github.com/ShizhenChang/Chg2Cap); [lagent](https://github.com/InternLM/lagent)",
+        "translatedContent": "[RSICCformer](https://github.com/Chen-Yang-Liu/RSICC); [Chg2Cap](https://github.com/ShizhenChang/Chg2Cap); [lagent](https://github.com/InternLM/lagent)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可协议"
+      },
+      {
+        "row": 8,
+        "rowsha": "gl06ToIBgy1mWjB5UWxkHYAnVJfjzMxnLFl+ONSP4Nc=",
+        "originContent": "This repo is distributed under [MIT License](https://github.com/Chen-Yang-Liu/Change-Agent/blob/main/LICENSE.txt). The code can be used for academic purposes only.",
+        "translatedContent": "本仓库遵循[MIT 许可证](https://github.com/Chen-Yang-Liu/Change-Agent/blob/main/LICENSE.txt)分发。代码仅限于学术用途。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "oindJM2lLzTbEPW7B75c46Xp5ec2bXNOQYRi6ZkjWkM=",
+        "originContent": "## Contact Us",
+        "translatedContent": "## 联系我们"
+      },
+      {
+        "row": 11,
+        "rowsha": "lzCV0tyWdoQ+fLsGY17QzVeqUkaBbBWhjD9Gj9i4Uqw=",
+        "originContent": "If you have any other questions❓, please contact us in time 👬",
+        "translatedContent": "如果您有任何其他问题❓，请及时联系我们 👬"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,10 +1,10 @@
-# book
-书籍资料相关的，包括各种教程、小说、哲学巨著等上千种书籍，持续更新中
+# 도서
+도서 자료와 관련된 내용으로, 다양한 교재, 소설, 철학 명저 등 수천 종의 도서를 포함하며 지속적으로 업데이트되고 있습니다.
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=book&lang=id)
 
 ----------------
-# [202507](https://raw.githubusercontent.com/mswnlz/book/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/book/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/book/main/202506.md)
+# [202508](https://raw.githubusercontent.com/mswnlz/book/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/book/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/book/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/book/main/202506.md)
 
 
 ---------------
@@ -41,6 +41,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
 
 ---
