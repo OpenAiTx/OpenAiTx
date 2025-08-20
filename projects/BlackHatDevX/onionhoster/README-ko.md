@@ -1,6 +1,12 @@
-# 🌐 OnionHoster v2.2
+<details align="right">
+<summary>🌐 언어</summary>
 
-> **최고의 토르 히든 서비스 호스팅 도구** - 몇 분 만에 다크웹에 웹 프로젝트를 배포하세요!
+[English](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=th) | [Français](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=de) | [Español](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=it) | [Русский](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ru) | [Português](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=id) | [অসমীয়া](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=as)
+</details>
+
+# OnionHoster v2.2
+
+> **궁극의 토르 히든 서비스 호스팅 도구** - 몇 분 만에 다크 웹에 웹 프로젝트를 배포하세요!
 
 [![버전](https://img.shields.io/badge/version-2.2-brightgreen.svg)](https://github.com/BlackHatDevX/onionhoster)
 [![플랫폼](https://img.shields.io/badge/platform-Linux%20%7C%20macOS-blue.svg)](https://github.com/BlackHatDevX/onionhoster)
@@ -10,14 +16,14 @@
 
 ## 🚀 OnionHoster란?
 
-OnionHoster는 강력하고 크로스 플랫폼을 지원하는 bash 스크립트로, 단 한 번의 명령으로 어떤 웹 프로젝트든 토르 히든 서비스로 변환합니다. Next.js 앱, Flask 백엔드, 정적 웹사이트 등 모든 복잡한 토르 설정을 자동으로 처리합니다.
+OnionHoster는 강력하고 크로스 플랫폼을 지원하는 bash 스크립트로, 단 한 번의 명령어로 어떤 웹 프로젝트도 토르 히든 서비스로 변환합니다. Next.js 앱, Flask 백엔드 또는 정적 웹사이트를 호스팅하든, OnionHoster가 복잡한 토르 설정을 자동으로 처리합니다.
 
-### ✨ 왜 OnionHoster를 선택해야 할까요?
+### ✨ OnionHoster를 선택해야 하는 이유?
 
-- **🔧 설정 불필요** - 어떤 웹 프로젝트든 즉시 작동
-- **🌍 크로스 플랫폼 지원** - Linux, macOS 및 주요 배포판 지원
-- **⚡ 원클릭 설치** - 2분 이내에 히든 서비스 완성
-- **🔄 자동 업데이트** - 내장된 업데이트 검사기로 최신 상태 유지
+- **🔧 무설정** - 어떤 웹 프로젝트에서도 즉시 작동
+- **🌍 크로스 플랫폼** - Linux, macOS 및 주요 배포판 지원
+- **⚡ 원클릭 설정** - 2분 이내에 히든 서비스 완성
+- **🔄 자동 업데이트** - 내장된 업데이트 체커로 최신 상태 유지
 - **💾 백업 및 복원** - onion 주소를 절대 잃지 않음
 - **🎯 전문 UI** - 직관적인 메뉴와 아름다운 컬러 인터페이스
 
@@ -27,42 +33,43 @@ OnionHoster는 강력하고 크로스 플랫폼을 지원하는 bash 스크립�
 https://github.com/user-attachments/assets/b8fe44e8-2b1f-4fdc-bb52-7c4a5ee2c67e
 
 
-# ⚠️ 경고: OnionHoster는 마법 같은 익명성 도구가 아닙니다 — 최선의 보안 수칙을 준수하지 않으면 신원 노출 위험이 있습니다
+# ⚠️ 경고: OnionHoster는 마법 같은 익명성 도구가 아닙니다 — 최선의 보안 관행을 따르지 않으면 신원 노출 위험이 있습니다
 
 **시스템 강화**
 
-* 격리를 위해 VM 또는 컨테이너 안에서 서비스를 실행하세요.
+* 격리를 위해 VM 또는 컨테이너 내에서 서비스를 실행하세요.
 * OS 및 패키지를 최신 상태로 유지하세요.
-* 불필요한 서비스/포트를 비활성화하여 토르 트래픽만 출입하도록 하세요.
+* 불필요한 서비스/포트를 비활성화하여 토르 트래픽만 들어오고 나가도록 하세요.
 
-**보안 운영 관행**
 
-* 개인 계정이나 활동에 같은 기기를 사용하지 마세요.
-* 식별 가능한 메타데이터(파일명, 헤더, 오류 메시지) 노출을 피하십시오.
-* 로그에 유의하세요 — 어떤 내용을 기록하는지, 얼마나 오래 보관하는지, 정보가 유출되는지 여부를 신경 쓰세요.
+**운영 보안 관행**
+
+* 개인 계정이나 활동에 같은 기기를 사용하지 마십시오.
+* 식별 가능한 메타데이터(파일명, 헤더, 오류 메시지)를 노출하지 마십시오.
+* 로그에 주의하십시오 — 무엇을 기록하는지, 얼마나 오래 보관하는지, 정보가 유출되는지 여부.
 
 **네트워크 위생**
 
 * 숨겨진 서비스와 클리어넷 신원 또는 도메인을 연결하지 마십시오.
-* 방화벽을 사용하여 Tor 외부로의 우발적 유출을 방지하세요.
-* 추가 격리를 위해 리버스 프록시를 고려하세요.
+* 방화벽을 사용하여 Tor 외부로의 우발적 유출을 방지하십시오.
+* 추가 격리를 위해 역방향 프록시를 고려하십시오.
 
 **테스트 및 모니터링**
 
-* torsocks 또는 Tor 브라우저를 사용하여 서비스가 `.onion` 주소를 통해서만 접근 가능한지 확인하세요.
-* 정기적으로 유출 여부를 테스트하세요 (예: 앱이 클리어넷에서 데이터를 가져오려 하는지 여부).
+* torsocks 또는 Tor 브라우저를 사용하여 서비스가 `.onion` 주소를 통해서만 접근 가능한지 확인하십시오.
+* 정기적으로 유출 여부를 테스트하십시오(예: 앱이 클리어넷에서 데이터를 가져오려 하는지).
 
 **사용 사례 인식**
 
-* 취미/테스트/교육용: 위 내용이 보통 충분합니다.
-* 고위험, 실제 익명성(기자, 내부고발자, 활동가) 용도: 단 한 번의 실수로 신원이 노출될 수 있으므로 더 깊은 운영 보안 및 위협 모델링이 필요합니다.
+* 취미/테스트/교육용: 위의 내용이 보통 충분합니다.
+* 고위험, 실제 익명성(기자, 내부고발자, 활동가): 단 한 번의 실수로 신원이 노출될 수 있으므로 더 깊은 운영 보안과 위협 모델링이 필요합니다.
 
 
 ---
-## 🎯 적합 대상
+## 🎯 완벽한 대상
 
 - Tor에서 앱을 테스트하려는 **개발자**
-- 익명 서비스를 호스팅하는 **개인정보 보호 옹호자**
+- 익명 서비스를 호스팅하는 **개인정보 보호 운동가**
 - 다크웹 기술을 연구하는 **연구자**
 - 익명 호스팅 솔루션이 필요한 **기업**
 - Tor 네트워크를 탐험하는 **취미 사용자**
@@ -71,8 +78,8 @@ https://github.com/user-attachments/assets/b8fe44e8-2b1f-4fdc-bb52-7c4a5ee2c67e
 
 ## 🚀 빠른 시작
 
-### 사전 준비 사항
-- 루트/슈퍼유저 권한
+### 사전 요구 사항
+- 루트/슈도 권한
 - 인터넷 연결
 - 웹 프로젝트(HTML, Next.js, Flask 등)
 
@@ -276,6 +283,6 @@ sudo bash onionhoster.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-20
 
 ---

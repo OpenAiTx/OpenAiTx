@@ -1,6 +1,12 @@
-# 🌐 OnionHoster v2.2
+<details align="right">
+<summary>🌐 言語</summary>
 
-> **究極のTor隠しサービスホスティングツール** - あなたのウェブプロジェクトを数分でダークウェブにデプロイ！
+[English](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=th) | [Français](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=de) | [Español](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=it) | [Русский](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ru) | [Português](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=id) | [অসমীয়া](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=as)
+</details>
+
+# OnionHoster v2.2
+
+> **究極のTor隠しサービスホスティングツール** - 数分でダークウェブにウェブプロジェクトをデプロイ！
 
 [![Version](https://img.shields.io/badge/version-2.2-brightgreen.svg)](https://github.com/BlackHatDevX/onionhoster)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS-blue.svg)](https://github.com/BlackHatDevX/onionhoster)
@@ -10,16 +16,16 @@
 
 ## 🚀 OnionHosterとは？
 
-OnionHosterは、強力でクロスプラットフォーム対応のbashスクリプトで、ワンコマンドで任意のウェブプロジェクトをTor隠しサービスに変換します。Next.jsアプリ、Flaskバックエンド、静的ウェブサイトのいずれであっても、OnionHosterは複雑なTorの設定を自動で処理します。
+OnionHosterは強力なクロスプラットフォーム対応のbashスクリプトで、どんなウェブプロジェクトもワンコマンドでTor隠しサービスに変換します。Next.jsアプリ、Flaskバックエンド、静的ウェブサイトなど、複雑なTorの設定はすべて自動で処理します。
 
 ### ✨ OnionHosterを選ぶ理由
 
-- **🔧 設定不要** - どんなウェブプロジェクトでもすぐに使える
-- **🌍 クロスプラットフォーム** - Linux、macOS、主要なディストリビューションをサポート
-- **⚡ ワンクリックセットアップ** - 2分以内に隠しサービスを構築
+- **🔧 設定不要** - どんなウェブプロジェクトでもすぐに動作
+- **🌍 クロスプラットフォーム** - Linux、macOS、主要ディストリビューション対応
+- **⚡ ワンクリックセットアップ** - 2分以内で隠しサービスを構築
 - **🔄 自動アップデート** - 組み込みのアップデートチェッカーで常に最新
-- **💾 バックアップ＆復元** - オニオンアドレスを失わない
-- **🎯 プロフェッショナルUI** - 直感的なメニューと美しいカラフルなインターフェース
+- **💾 バックアップ＆復元** - オニオンアドレスを絶対に失わない
+- **🎯 プロ仕様UI** - 直感的なメニューと美しいカラーインターフェース
 
 ---
 ## プレビュー
@@ -27,54 +33,55 @@ OnionHosterは、強力でクロスプラットフォーム対応のbashスク�
 https://github.com/user-attachments/assets/b8fe44e8-2b1f-4fdc-bb52-7c4a5ee2c67e
 
 
-# ⚠️ 警告: OnionHosterは魔法の匿名化ツールではありません — ベストプラクティスを守らなければ匿名性が損なわれるリスクがあります
+# ⚠️ 警告: OnionHosterは魔法の匿名化ツールではありません — ベストプラクティスを守らないと匿名性が失われるリスクがあります
 
-**システム強化**
+**システムの強化**
 
-* サービスはVMまたはコンテナ内で実行し、隔離を行うこと。
-* OSとパッケージは常に最新に保つこと。
-* 不要なサービスやポートは無効にし、Torトラフィックのみを入出力させること。
+* サービスはVMやコンテナ内で実行し分離を行うこと。
+* OSおよびパッケージは常に最新に保つこと。
+* 不要なサービスやポートは無効化し、Torトラフィックのみが出入りするようにすること。
 
-**オペレーショナルセキュリティ（OpSec）対策**
 
-* 同じマシンで個人アカウントや活動を行わないこと。
-* 識別可能なメタデータ（ファイル名、ヘッダー、エラーメッセージ）を公開しないでください。
-* ログには注意を払い、何を記録するか、どのくらい保持するか、情報漏えいの有無を考慮してください。
+**OpSecの実践**
+
+* 個人アカウントや活動に同じマシンを使用しないこと。
+* 識別可能なメタデータ（ファイル名、ヘッダー、エラーメッセージ）を公開しないようにすること。
+* ログに注意すること — 何をログに記録するか、どのくらいの期間保持するか、情報が漏れないか。
 
 **ネットワーク衛生**
 
-* 隠しサービスとクリアネットのIDやドメインを結びつけないでください。
-* ファイアウォールを使用してTor外への偶発的な漏洩を防止してください。
-* 追加の隔離のためにリバースプロキシの利用を検討してください。
+* 隠しサービスをクリアネットのIDやドメインとブリッジしないこと。
+* Torの外部に誤って情報が漏れないようにファイアウォールを使用すること。
+* 追加の隔離のためにリバースプロキシを検討すること。
 
 **テストと監視**
 
-* torsocksやTorブラウザを使って、サービスが`.onion`アドレスのみでアクセス可能か確認してください。
-* 定期的に漏洩テストを行ってください（例：アプリがクリアネットからデータを取得しようとしていないか）。
+* torsocksまたはTorブラウザを使用して、サービスが`.onion`アドレス経由のみでアクセス可能か確認すること。
+* 漏洩がないか定期的にテストすること（例：アプリがクリアネットからの取得を試みていないか）。
 
 **ユースケースの認識**
 
-* 趣味・テスト・教育目的の場合：上記の対策で通常は十分です。
-* 高リスクで実際の匿名性が必要な場合（ジャーナリスト、内部告発者、活動家など）：より深い運用セキュリティと脅威モデルが必要で、単一のミスで匿名性が破られる可能性があります。
-
+* 趣味・テスト・教育目的の場合：上記で通常は十分。
+* 高リスクの実際の匿名性が必要な場合（ジャーナリスト、内部告発者、活動家）：単一のミスが匿名性を失わせるため、より深い運用セキュリティと脅威モデリングが必要。
 
 ---
-## 🎯 完璧に適した用途
+## 🎯 最適対象
 
-- **開発者**：Tor上でアプリをテストしたい方
-- **プライバシー擁護者**：匿名サービスをホスティングする方
-- **研究者**：ダークウェブ技術を研究する方
-- **企業**：匿名ホスティングソリューションを必要とする方
-- **趣味者**：Torネットワークを探求する方
+- **開発者** Tor上でアプリをテストしたい方
+- **プライバシー擁護者** 匿名サービスをホストする方
+- **研究者** ダークウェブ技術を研究する方
+- **企業** 匿名ホスティングソリューションを必要とする方
+- **ホビイスト** Torネットワークを探求する方
 
 ---
 
 ## 🚀 クイックスタート
 
 ### 前提条件
-- root/sudo権限
+- rootまたはsudoアクセス
 - インターネット接続
 - 任意のウェブプロジェクト（HTML、Next.js、Flaskなど）
+
 
 ### インストールと使用方法
 
@@ -276,6 +283,6 @@ sudo bash onionhoster.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-20
 
 ---

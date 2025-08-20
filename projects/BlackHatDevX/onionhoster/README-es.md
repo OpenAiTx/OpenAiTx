@@ -1,6 +1,13 @@
-# 🌐 OnionHoster v2.2
+<details align="right">
+<summary>🌐 Idioma</summary>
 
-> **La herramienta definitiva para alojar servicios ocultos Tor** - ¡Despliega tus proyectos web en la dark web en minutos!
+[English](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=th) | [Français](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=de) | [Español](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=it) | [Русский](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ru) | [Português](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=id) | [অসমীয়া](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=as)
+
+</details>
+
+# OnionHoster v2.2
+
+> **La herramienta definitiva para alojar servicios ocultos en Tor** - ¡Despliega tus proyectos web en la web oscura en minutos!
 
 [![Versión](https://img.shields.io/badge/version-2.2-brightgreen.svg)](https://github.com/BlackHatDevX/onionhoster)
 [![Plataforma](https://img.shields.io/badge/platform-Linux%20%7C%20macOS-blue.svg)](https://github.com/BlackHatDevX/onionhoster)
@@ -10,16 +17,16 @@
 
 ## 🚀 ¿Qué es OnionHoster?
 
-OnionHoster es un potente script bash multiplataforma que transforma cualquier proyecto web en un servicio oculto Tor con un solo comando. Ya sea que alojes una app Next.js, un backend Flask o un sitio estático, OnionHoster gestiona toda la compleja configuración de Tor automáticamente.
+OnionHoster es un potente script bash multiplataforma que transforma cualquier proyecto web en un servicio oculto de Tor con un solo comando. Ya sea que hospedes una app Next.js, backend Flask o sitio web estático, OnionHoster maneja toda la compleja configuración de Tor automáticamente.
 
 ### ✨ ¿Por qué elegir OnionHoster?
 
-- **🔧 Cero configuración** - Funciona al instante con cualquier proyecto web
+- **🔧 Cero configuración** - Funciona desde el primer momento con cualquier proyecto web
 - **🌍 Multiplataforma** - Soporta Linux, macOS y las principales distribuciones
 - **⚡ Configuración con un clic** - De cero a servicio oculto en menos de 2 minutos
-- **🔄 Actualizaciones automáticas** - Verificador de actualizaciones integrado para mantenerte al día
-- **💾 Copia de seguridad y restauración** - Nunca pierdas tus direcciones onion
-- **🎯 Interfaz profesional** - Interfaz coloreada y hermosa con menús intuitivos
+- **🔄 Actualizaciones automáticas** - Comprobador de actualizaciones integrado para mantenerte al día
+- **💾 Respaldo y restauración** - Nunca pierdas tus direcciones onion
+- **🎯 Interfaz profesional** - Interfaz colorida y hermosa con menús intuitivos
 
 ---
 ## Vista previa
@@ -33,39 +40,38 @@ https://github.com/user-attachments/assets/b8fe44e8-2b1f-4fdc-bb52-7c4a5ee2c67e
 
 * Ejecuta el servicio dentro de una VM o contenedor para aislamiento.
 * Mantén el sistema operativo y los paquetes actualizados.
-* Deshabilita servicios/puertos innecesarios para que solo el tráfico Tor entre/salga.
+* Deshabilita servicios/puertos innecesarios para que solo el tráfico de Tor entre/salga.
 
 **Prácticas de OpSec**
 
 * No uses la misma máquina para cuentas o actividades personales.
 * Evita exponer metadatos identificativos (nombres de archivos, encabezados, mensajes de error).
-* Ten cuidado con los registros — qué registras, cuánto tiempo los conservas y si filtran información.
+* Sé consciente de los registros — qué registras, cuánto tiempo los guardas y si filtran información.
 
 **Higiene de Red**
 
 * No vincules tu servicio oculto con tu identidad o dominio en la red clara.
 * Usa un firewall para asegurar que no haya fugas accidentales fuera de Tor.
-* Considera proxies inversos para un aislamiento adicional.
+* Considera proxies inversos para mayor aislamiento.
 
 **Pruebas y Monitoreo**
 
-* Usa torsocks o el Navegador Tor para verificar que tu servicio solo sea accesible vía su dirección `.onion`.
-* Realiza pruebas regulares para detectar fugas (por ejemplo, si tu app intenta obtener datos de la red clara).
+* Usa torsocks o el Navegador Tor para verificar que tu servicio solo sea accesible mediante su dirección `.onion`.
+* Realiza pruebas regulares para detectar fugas (p. ej., si tu aplicación intenta obtener datos de la red clara).
 
 **Conciencia del Caso de Uso**
 
-* Para uso hobby/pruebas/educativo: lo anterior suele ser suficiente.
-* Para anonimato real y de alto riesgo (periodistas, denunciantes, activistas): requiere una seguridad operacional más profunda y modelado de amenazas, ya que un solo error puede desanonimizarte.
-
+* Para uso recreativo/pruebas/educativo: lo anterior suele ser suficiente.
+* Para anonimato en situaciones de alto riesgo y mundo real (periodistas, denunciantes, activistas): se requiere una seguridad operacional más profunda y modelado de amenazas, ya que un solo error puede desanonimizarte.
 
 ---
 ## 🎯 Perfecto Para
 
-- **Desarrolladores** que quieran probar sus apps en Tor
+- **Desarrolladores** que quieren probar sus aplicaciones en Tor
 - **Defensores de la Privacidad** que alojan servicios anónimos
 - **Investigadores** que estudian tecnologías de la web oscura
 - **Empresas** que requieren soluciones de alojamiento anónimo
-- **Aficionados** que exploran la red Tor
+- **Aficionados** explorando la red Tor
 
 ---
 
@@ -75,6 +81,7 @@ https://github.com/user-attachments/assets/b8fe44e8-2b1f-4fdc-bb52-7c4a5ee2c67e
 - Acceso root/sudo
 - Conexión a Internet
 - Cualquier proyecto web (HTML, Next.js, Flask, etc.)
+
 
 ### Instalación y Uso
 
@@ -276,6 +283,6 @@ sudo bash onionhoster.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-20
 
 ---

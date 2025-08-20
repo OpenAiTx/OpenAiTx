@@ -1,25 +1,32 @@
-# 🌐 OnionHoster v2.2
+<details align="right">
+<summary>🌐 语言</summary>
 
-> **终极 Tor 隐藏服务托管工具** - 几分钟内将您的网页项目部署到暗网！
+[English](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=th) | [Français](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=de) | [Español](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=it) | [Русский](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ru) | [Português](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=id) | [অসমীয়া](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=as)
+
+</details>
+
+# OnionHoster v2.2
+
+> **终极 Tor 隐藏服务托管工具** - 在几分钟内将您的网页项目部署到暗网！
 
 [![版本](https://img.shields.io/badge/version-2.2-brightgreen.svg)](https://github.com/BlackHatDevX/onionhoster)
 [![平台](https://img.shields.io/badge/platform-Linux%20%7C%20macOS-blue.svg)](https://github.com/BlackHatDevX/onionhoster)
-[![许可](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/BlackHatDevX/onionhoster)
+[![许可证](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/BlackHatDevX/onionhoster)
 
 ---
 
 ## 🚀 什么是 OnionHoster？
 
-OnionHoster 是一个强大且跨平台的 bash 脚本，只需一条命令即可将任何网页项目转换为 Tor 隐藏服务。无论您托管的是 Next.js 应用、Flask 后端还是静态网站，OnionHoster 都能自动处理所有复杂的 Tor 配置。
+OnionHoster 是一个强大的跨平台 bash 脚本，只需一条命令即可将任何网页项目转换为 Tor 隐藏服务。无论您是托管 Next.js 应用、Flask 后端，还是静态网站，OnionHoster 都能自动处理所有复杂的 Tor 配置。
 
 ### ✨ 为什么选择 OnionHoster？
 
 - **🔧 零配置** - 适用于任何网页项目，开箱即用
 - **🌍 跨平台** - 支持 Linux、macOS 及主流发行版
-- **⚡ 一键安装** - 两分钟内快速搭建隐藏服务
-- **🔄 自动更新** - 内置更新检测，保持最新状态
-- **💾 备份与恢复** - 永远不会丢失您的 onion 地址
-- **🎯 专业界面** - 精美彩色界面，菜单直观易用
+- **⚡ 一键设置** - 2 分钟内完成隐藏服务部署
+- **🔄 自动更新** - 内置更新检查器，保持最新
+- **💾 备份与恢复** - 永不丢失您的洋葱地址
+- **🎯 专业界面** - 美观的彩色界面和直观菜单
 
 ---
 ## 预览
@@ -27,54 +34,54 @@ OnionHoster 是一个强大且跨平台的 bash 脚本，只需一条命令即�
 https://github.com/user-attachments/assets/b8fe44e8-2b1f-4fdc-bb52-7c4a5ee2c67e
 
 
-# ⚠️ 警告：OnionHoster 不是魔法匿名工具 — 请遵循最佳实践，否则可能被去匿名化
+# ⚠️ 警告：OnionHoster 不是魔法匿名工具 — 请遵循最佳实践，否则风险身份暴露
 
 **系统加固**
 
-* 在虚拟机或容器中运行服务以实现隔离。
+* 在虚拟机或容器内运行服务以实现隔离。
 * 保持操作系统和软件包更新。
-* 禁用不必要的服务/端口，仅允许 Tor 流量进出。
+* 禁用不必要的服务/端口，确保只有 Tor 流量进出。
 
-**操作安全实践**
+**操作安全（OpSec）实践**
 
 * 不要在同一台机器上使用个人账户或进行个人活动。
 * 避免暴露识别性元数据（文件名、头信息、错误消息）。
-* 注意日志——记录什么、保存多久，以及是否泄露信息。
+* 注意日志——记录什么、保存多久以及是否会泄露信息。
 
 **网络卫生**
 
-* 不要将你的隐藏服务与清网身份或域名桥接。
-* 使用防火墙确保不会意外泄露到 Tor 之外。
+* 不要将你的隐藏服务与清网身份或域名关联。
+* 使用防火墙确保不会意外泄漏到 Tor 以外。
 * 考虑使用反向代理以增加隔离。
 
 **测试与监控**
 
-* 使用 torsocks 或 Tor 浏览器验证你的服务仅通过其 `.onion` 地址访问。
-* 定期测试是否有泄露（例如，应用是否尝试从清网获取数据）。
+* 使用 torsocks 或 Tor 浏览器验证你的服务仅通过 `.onion` 地址可访问。
+* 定期测试是否有泄漏（例如，应用是否尝试从清网获取数据）。
 
-**用例意识**
+**使用场景意识**
 
-* 对于爱好/测试/教育用途：上述措施通常足够。
-* 对于高风险、真实世界的匿名需求（记者、举报者、活动家）：需要更深入的操作安全和威胁建模，因为一次失误可能导致身份暴露。
+* 对于爱好者/测试/教育用途：上述措施通常已足够。
+* 对于高风险、真实世界匿名（记者、举报者、活动家）：需要更深层的操作安全和威胁建模，因为一次失误可能导致身份暴露。
 
 
 ---
-## 🎯 适合对象
+## 🎯 适用对象
 
-- **开发者** 希望在 Tor 上测试他们的应用
-- **隐私倡导者** 托管匿名服务
-- **研究人员** 研究暗网技术
-- **企业** 需要匿名托管解决方案
-- **爱好者** 探索 Tor 网络
+- **开发者** 希望在 Tor 上测试应用的人员
+- **隐私倡导者** 托管匿名服务的人士
+- **研究人员** 研究暗网技术的专家
+- **企业** 需要匿名托管解决方案的公司
+- **爱好者** 探索 Tor 网络的用户
 
 ---
 
 ## 🚀 快速开始
 
 ### 前提条件
-- Root/sudo 权限
+- root/sudo 权限
 - 网络连接
-- 任何网页项目（HTML、Next.js、Flask 等）
+- 任何 Web 项目（HTML、Next.js、Flask 等）
 
 ### 安装与使用
 
@@ -276,6 +283,6 @@ sudo bash onionhoster.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-20
 
 ---
