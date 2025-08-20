@@ -1,11 +1,11 @@
-# healthy
-这个资料，聚焦于健身、锻炼、饮食、营养，健康，睡眠等，持续更新中
+# gezond
+Dit document richt zich op fitness, lichaamsbeweging, voeding, gezondheid, slaap, enzovoort, en wordt voortdurend bijgewerkt
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=healthy&lang=id)
 
 
 --------------
-# [202507](https://raw.githubusercontent.com/mswnlz/healthy/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/healthy/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/healthy/main/202506.md)
+# [202508](https://raw.githubusercontent.com/mswnlz/healthy/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/healthy/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/healthy/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/healthy/main/202506.md)
 
 ---------------
 ### 项目更多资源
@@ -41,6 +41,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-20
 
 ---
