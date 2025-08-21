@@ -1,39 +1,71 @@
-# Rosetta Stonks
+
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# 로제타 스톤크스
 
 - [소개](#introduction)
 - [설치](#install)
   - [크롬](#chrome-based-browsers)
-    - [시각 가이드](#chrome-based-browsers)
+    - [시각적 가이드](#chrome-based-browsers)
   - [파이어폭스](#firefox-based-browsers)
-- [사용법](#how-to-use)
+- [사용 방법](#how-to-use)
   - [시간 추가하기](#adding-time)
     - [기초 과정](#adding-time-in-foundations)
     - [유창성 빌더](#adding-time-in-fluency-builder)
-  - [수업 검증하기](#validating-lesson)
+  - [레슨 검증하기](#validating-lesson)
     - [기초 과정](#validating-lesson-in-foundations)
     - [유창성 빌더](#validating-lesson-in-fluency-builder)
 
 ## 소개
 
-RosettaStonks는 로제타 스톤 언어 학습 플랫폼에서 수업 시간 추가 및 검증을
-할 수 있는 브라우저 확장 프로그램입니다.
+RosettaStonks는 Rosetta Stone 언어 학습 플랫폼에서 시간을 추가하고 레슨을 검증할 수 있는 브라우저 확장 프로그램입니다.
 
-> RosettaStonks, 당신의 로제타 스톤이 스톤크가 됩니다.
+> RosettaStonks, 그리고 당신의 rosetta stone이 stonks가 됩니다.
 
 ## 설치
 
 ### 크롬 기반 브라우저
 
-➡️ **크롬 확장 프로그램을 수동으로 설치하는 게 처음인가요?** [단계별 시각 가이드](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)를 확인하세요 — 유용한 스크린샷 포함! 🖼️
+➡️ **크롬 확장 프로그램을 직접 설치하는 것이 처음이신가요?** [단계별 시각적 가이드](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)를 참고하세요 — 유용한 스크린샷이 포함되어 있습니다! 🖼️
 
 #### 1. GitHub 릴리즈 사용하기
 
-크롬 기반 브라우저에서 확장 프로그램을 사용하려면 다음을 해야 합니다:
+크롬 기반 브라우저에서 확장 프로그램을 사용하려면 다음을 수행해야 합니다:
 
-- 최신 릴리즈에서 `rosettastonks-chrome.tar.gz` 파일을 다운로드합니다.
-- 확장 프로그램을 저장할 `rosettastonks`라는 폴더를 컴퓨터 어딘가에 만듭니다.
+- 최신 릴리즈에서 `rosettastonks-chrome.tar.gz` 파일을
+  자신의 컴퓨터에 다운로드합니다.
+- 확장 프로그램을 저장할 `rosettastonks`라는 폴더를
+  컴퓨터 어딘가에 생성합니다.
 - `rosettastonks` 폴더에서 다음 명령어를 실행합니다.
-
 
 
 ```bash
@@ -167,6 +199,6 @@ $ make firefox
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
 
 ---

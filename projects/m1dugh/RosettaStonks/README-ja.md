@@ -1,38 +1,70 @@
-# Rosetta Stonks
 
-- [はじめに](#introduction)
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# ロゼッタストンクス
+
+- [紹介](#introduction)
 - [インストール](#install)
   - [Chrome](#chrome-based-browsers)
     - [ビジュアルガイド](#chrome-based-browsers)
   - [Firefox](#firefox-based-browsers)
 - [使い方](#how-to-use)
   - [時間の追加](#adding-time)
-    - [Foundations](#adding-time-in-foundations)
-    - [Fluency builder](#adding-time-in-fluency-builder)
+    - [基礎](#adding-time-in-foundations)
+    - [流暢性ビルダー](#adding-time-in-fluency-builder)
   - [レッスンの検証](#validating-lesson)
-    - [Foundations](#validating-lesson-in-foundations)
-    - [Fluency builder](#validating-lesson-in-fluency-builder)
+    - [基礎](#validating-lesson-in-foundations)
+    - [流暢性ビルダー](#validating-lesson-in-fluency-builder)
 
-## Introduction
+## はじめに
 
-RosettaStonksは、ロゼッタストーンの語学学習プラットフォームで時間を追加し、
-レッスンを検証することができるブラウザ拡張機能です。
+RosettaStonksは、ロゼッタストーン語学学習プラットフォームで時間の追加とレッスンの検証ができるブラウザー拡張機能です。
 
-> RosettaStonksで、あなたのロゼッタストーンがストンksになる。
+> RosettaStonksで、あなたのロゼッタストーンがストンクスになります。
 
-## Install
+## インストール
 
-### Chrome based browsers
+### Chrome系ブラウザー
 
-➡️ **Chrome拡張機能を手動でインストールするのは初めてですか？** [ステップバイステップのビジュアルガイド](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)をチェックしてください — 便利なスクリーンショット付き！ 🖼️
+➡️ **Chrome拡張機能を手動でインストールするのが初めてですか？** [ステップバイステップのビジュアルガイド](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)をご覧ください — 便利なスクリーンショット付き！🖼️
 
-#### 1. Using GitHub Release
+#### 1. GitHubリリースを利用する
 
-Chromeベースのブラウザで拡張機能を使用するには、以下の操作が必要です：
+Chrome系ブラウザーで拡張機能を利用するには、以下の手順を行います：
 
-- 最新リリースから `rosettastonks-chrome.tar.gz` ファイルをマシンにダウンロードする。
-- 拡張機能を保存するために、マシン上の任意の場所に `rosettastonks` という名前のフォルダを作成する。
-- `rosettastonks` フォルダ内で次のコマンドを実行する。
+- 最新リリースから `rosettastonks-chrome.tar.gz` ファイルをダウンロードして
+  あなたのパソコンに保存します。
+- 拡張機能を格納するために、パソコン上の任意の場所に `rosettastonks` というフォルダーを作成します
+- `rosettastonks` フォルダー内で以下のコマンドを実行します。
 
 
 
@@ -167,6 +199,6 @@ $ make firefox
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
 
 ---

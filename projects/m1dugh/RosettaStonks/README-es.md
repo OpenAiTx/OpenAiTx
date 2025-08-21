@@ -1,36 +1,68 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Rosetta Stonks
 
-- [Introducción](#introducción)
-- [Instalación](#instalación)
+- [Introducción](#introduccion)
+- [Instalar](#instalar)
   - [Chrome](#navegadores-basados-en-chrome)
-    - [Guía visual](#navegadores-basados-en-chrome)
+    - [Guía Visual](#navegadores-basados-en-chrome)
   - [Firefox](#navegadores-basados-en-firefox)
-- [Cómo usar](#cómo-usar)
-  - [Añadiendo tiempo](#añadiendo-tiempo)
-    - [Foundations](#añadiendo-tiempo-en-foundations)
-    - [Fluency builder](#añadiendo-tiempo-en-fluency-builder)
-  - [Validando lección](#validando-lección)
-    - [Foundations](#validando-lección-en-foundations)
-    - [Fluency builder](#validando-lección-en-fluency-builder)
+- [Cómo usar](#como-usar)
+  - [Agregar tiempo](#agregar-tiempo)
+    - [Fundamentos](#agregar-tiempo-en-fundamentos)
+    - [Constructor de fluidez](#agregar-tiempo-en-constructor-de-fluidez)
+  - [Validar lección](#validar-lección)
+    - [Fundamentos](#validar-lección-en-fundamentos)
+    - [Constructor de fluidez](#validar-lección-en-constructor-de-fluidez)
 
 ## Introducción
 
-RosettaStonks es una extensión de navegador que permite añadir tiempo y validar
+RosettaStonks es una extensión de navegador que permite agregar tiempo y validar
 lecciones en la plataforma de aprendizaje de idiomas Rosetta Stone.
 
-> RosettaStonks, y tu Rosetta Stone sube en stonks.
+> RosettaStonks, y tu rosetta stone se vuelve stonks.
 
 ## Instalación
 
 ### Navegadores basados en Chrome
 
-➡️ **¿Nuevo en la instalación manual de extensiones de Chrome?** Consulta la [Guía Visual Paso a Paso](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md) — ¡incluye capturas de pantalla útiles! 🖼️
+➡️ **¿Nuevo instalando extensiones de Chrome manualmente?** Consulta la [Guía Visual Paso a Paso](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md) — ¡incluye capturas de pantalla útiles! 🖼️
 
 #### 1. Usando GitHub Release
 
 Para usar la extensión en un navegador basado en Chrome, necesitas:
 
-- descargar el archivo `rosettastonks-chrome.tar.gz` desde la última versión en
+- descargar el archivo `rosettastonks-chrome.tar.gz` de la última versión en
   tu equipo.
 - crear una carpeta llamada `rosettastonks` en algún lugar de tu equipo para almacenar la
   extensión
@@ -167,6 +199,6 @@ cargar en Firefox.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
 
 ---

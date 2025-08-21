@@ -1,36 +1,68 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Rosetta Stonks
 
-- [介绍](#introduction)
+- [简介](#introduction)
 - [安装](#install)
-  - [基于 Chrome 的浏览器](#chrome-based-browsers)
-    - [视觉指南](#chrome-based-browsers)
+  - [Chrome](#chrome-based-browsers)
+    - [可视化指南](#chrome-based-browsers)
   - [Firefox](#firefox-based-browsers)
-- [使用方法](#how-to-use)
+- [如何使用](#how-to-use)
   - [添加时间](#adding-time)
-    - [基础课程](#adding-time-in-foundations)
-    - [流利度训练](#adding-time-in-fluency-builder)
+    - [基础](#adding-time-in-foundations)
+    - [流利度提升器](#adding-time-in-fluency-builder)
   - [验证课程](#validating-lesson)
-    - [基础课程](#validating-lesson-in-foundations)
-    - [流利度训练](#validating-lesson-in-fluency-builder)
+    - [基础](#validating-lesson-in-foundations)
+    - [流利度提升器](#validating-lesson-in-fluency-builder)
 
 ## 介绍
 
 RosettaStonks 是一个浏览器扩展，允许用户在 Rosetta Stone 语言学习平台上添加时间和验证课程。
 
-> RosettaStonks，让你的 Rosetta Stone 更加 stonks。
+> RosettaStonks，你的 Rosetta Stone 就变成 stonks。
 
 ## 安装
 
 ### 基于 Chrome 的浏览器
 
-➡️ **首次手动安装 Chrome 扩展？** 请查看[分步视觉指南](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md) — 包含有用的截图！🖼️
+➡️ **第一次手动安装 Chrome 扩展？** 请查看[分步视觉指南](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md) —— 包含实用截图！🖼️
 
-#### 1. 使用 GitHub 发布版本
+#### 1. 使用 GitHub 发布版
 
-要在基于 Chrome 的浏览器中使用此扩展，您需要：
+要在基于 Chrome 的浏览器中使用该扩展，你需要：
 
-- 从最新发布版本中下载文件 `rosettastonks-chrome.tar.gz` 到您的电脑。
-- 在电脑上某处创建一个名为 `rosettastonks` 的文件夹来存放该扩展。
+- 从最新发布版本下载文件 `rosettastonks-chrome.tar.gz` 到你的设备上。
+- 在你的设备上创建一个名为 `rosettastonks` 的文件夹，用于存放该扩展。
 - 在 `rosettastonks` 文件夹中运行以下命令。
 
 
@@ -167,6 +199,6 @@ $ make firefox
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
 
 ---

@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=m1dugh&project=RosettaStonks&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Rosetta Stonks
 
 - [Introduction](#introduction)
@@ -15,10 +47,10 @@
 
 ## Introduction
 
-RosettaStonks is a browser extension that allows one to add time and validate
-lessons on rosetta stone learning language platform.
+RosettaStonks is a browser extension that allows you to add time and validate
+lessons on the Rosetta Stone language learning platform.
 
-> RosettaStonks, and your rosetta stone goes stonks.
+> RosettaStonks, and your Rosetta Stone goes stonks.
 
 ## Install
 
@@ -28,11 +60,11 @@ lessons on rosetta stone learning language platform.
 
 #### 1. Using GitHub Release
 
-To use the extension in a chrome-based browser, you need to:
+To use the extension in a Chrome-based browser, you need to:
 
-- download the file `rosettastonks-chrome.tar.gz` from the latest release on
-  your machine.
-- create a folder named `rosettastonks` somewhere on your machine to store the
+- download the file `rosettastonks-chrome.tar.gz` from the latest release onto
+  your computer.
+- create a folder named `rosettastonks` somewhere on your computer to store the
   extension
 - run the following command in the `rosettastonks` folder.
 
@@ -167,6 +199,6 @@ loaded in Firefox.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
 
 ---
