@@ -1,0 +1,2069 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Elementary: HTML Templating in Pure Swift\n\n**A modern and efficient HTML rendering library - inspired by SwiftUI, built for the web.**\n\n[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsliemeobn%2Felementary%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/sliemeobn/elementary) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsliemeobn%2Felementary%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/sliemeobn/elementary)\n\n[Examples](#play-with-it) | [Motivation](#motivation-and-other-packages) | [Discussion](https://github.com/sliemeobn/elementary/discussions)\n",
+    "ContentSha": "Gyecr5iQgCDCDOl1mVO7q5LOP62VrnKE0tqbHlwykNI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Elementary: HTML Templating in Pure Swift\n\n**A modern and efficient HTML rendering library - inspired by SwiftUI, built for the web.**\n\n[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsliemeobn%2Felementary%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/sliemeobn/elementary) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsliemeobn%2Felementary%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/sliemeobn/elementary)\n\n[Examples](#play-with-it) | [Motivation](#motivation-and-other-packages) | [Discussion](https://github.com/sliemeobn/elementary/discussions)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "yflb3EwWborjR0HHkWrz1GzZ4Yp3Mzde/kwNttoMo1I=",
+        "originContent": "# Elementary: HTML Templating in Pure Swift",
+        "translatedContent": "# Elementary: HTML Templating in Pure Swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "vYnCaGvAq7k0dNJgAUCLqkdBnbVht7lY7eK/2lBzo48=",
+        "originContent": "**A modern and efficient HTML rendering library - inspired by SwiftUI, built for the web.**",
+        "translatedContent": "**A modern and efficient HTML rendering library - inspired by SwiftUI, built for the web.**"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "0Ohg/IjvKS8y4EhKq/ycA1Jgg7podDzyVoG8XmSxdv0=",
+        "originContent": "[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsliemeobn%2Felementary%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/sliemeobn/elementary) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsliemeobn%2Felementary%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/sliemeobn/elementary)",
+        "translatedContent": "[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsliemeobn%2Felementary%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/sliemeobn/elementary) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsliemeobn%2Felementary%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/sliemeobn/elementary)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "j3U8cGR/dNPX+rKgIBEHnSzzQ5c2+HR5cc2pPW0Kh4w=",
+        "originContent": "[Examples](#play-with-it) | [Motivation](#motivation-and-other-packages) | [Discussion](https://github.com/sliemeobn/elementary/discussions)",
+        "translatedContent": "[Examples](#play-with-it) | [Motivation](#motivation-and-other-packages) | [Discussion](https://github.com/sliemeobn/elementary/discussions)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```swift\nstruct MainPage: HTMLDocument {\n    var title = \"Elementary\"\n\n    var head: some HTML {\n        meta(.name(.description), .content(\"Typesafe HTML in modern Swift\"))\n    }\n\n    var body: some HTML {\n        main {\n            h1 { \"Features\" }\n\n            FeatureList(features: [\n                \"HTML in pure Swift\",\n                \"SwiftUI-inspired composition\",\n                \"Lightweight and fast\",\n                \"Framework agnostic and unopinionated\",\n            ])\n\n            a(.href(\"https://github.com/sliemeobn/elementary\"), .class(\"fancy-style\")) {\n                \"Learn more\"\n            }\n        }\n    }\n}\n\nstruct FeatureList: HTML {\n    var features: [String]\n\n    var content: some HTML {\n        ul {\n            for feature in features {\n                li { feature }\n            }\n        }\n    }\n}\n```",
+    "ContentSha": "ja13stpDPl833m8XcL5Bqv3V2ZL43iUSNg3Va3Zj/VM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\nstruct MainPage: HTMLDocument {\n    var title = \"Elementary\"\n\n    var head: some HTML {\n        meta(.name(.description), .content(\"Typesafe HTML in modern Swift\"))\n    }\n\n    var body: some HTML {\n        main {\n            h1 { \"Features\" }\n\n            FeatureList(features: [\n                \"HTML in pure Swift\",\n                \"SwiftUI-inspired composition\",\n                \"Lightweight and fast\",\n                \"Framework agnostic and unopinionated\",\n            ])\n\n            a(.href(\"https://github.com/sliemeobn/elementary\"), .class(\"fancy-style\")) {\n                \"Learn more\"\n            }\n        }\n    }\n}\n\nstruct FeatureList: HTML {\n    var features: [String]\n\n    var content: some HTML {\n        ul {\n            for feature in features {\n                li { feature }\n            }\n        }\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "txsdWiverVs+6cP6LvYZz8vr7LgTERA9uGxr/gEmHHc=",
+        "originContent": "struct MainPage: HTMLDocument {",
+        "translatedContent": "struct MainPage: HTMLDocument {"
+      },
+      {
+        "row": 3,
+        "rowsha": "Cu5po9s2IYb+LdmCfHWvKFWD37fPYf3d89nSG9aVBX4=",
+        "originContent": "    var title = \"Elementary\"",
+        "translatedContent": "    var title = \"Elementary\""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "UqRKPLAPGALzn+S6CF3JSli8ui398jK57dUsDUHkfZ8=",
+        "originContent": "    var head: some HTML {",
+        "translatedContent": "    var head: some HTML {"
+      },
+      {
+        "row": 6,
+        "rowsha": "tToLa0kGPFcqHOMIQJHzc2QUGeaC/vIAImjktNGlZBQ=",
+        "originContent": "        meta(.name(.description), .content(\"Typesafe HTML in modern Swift\"))",
+        "translatedContent": "        meta(.name(.description), .content(\"Typesafe HTML in modern Swift\"))"
+      },
+      {
+        "row": 7,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "oM7Vny0q/EUgqsDkrga+gxGmXYHF9loga/h4M1EdtFE=",
+        "originContent": "    var body: some HTML {",
+        "translatedContent": "    var body: some HTML {"
+      },
+      {
+        "row": 10,
+        "rowsha": "6A7o7cq4nvYU8z6y2lddAfJdqCf6D6fuGyKxtQASPGk=",
+        "originContent": "        main {",
+        "translatedContent": "        main {"
+      },
+      {
+        "row": 11,
+        "rowsha": "6DibPsk6eUwUfVqhyq3ZYr/iI3C+q0UG0lkppmwcZ9M=",
+        "originContent": "            h1 { \"Features\" }",
+        "translatedContent": "            h1 { \"Features\" }"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "x5QxirXVV85/arJezciBFPXVgRn/7fQ4ucvWAFGPgL0=",
+        "originContent": "            FeatureList(features: [",
+        "translatedContent": "            FeatureList(features: ["
+      },
+      {
+        "row": 14,
+        "rowsha": "gzUgLvpfB+eSgVt0UxmkTBl9AZrCMoRrVa2rHKxFh04=",
+        "originContent": "                \"HTML in pure Swift\",",
+        "translatedContent": "                \"HTML in pure Swift\","
+      },
+      {
+        "row": 15,
+        "rowsha": "ZtSrC/6QduHjnydkVYvHKwCeHlKfw4gNT9JajVK86bM=",
+        "originContent": "                \"SwiftUI-inspired composition\",",
+        "translatedContent": "                \"SwiftUI-inspired composition\","
+      },
+      {
+        "row": 16,
+        "rowsha": "H8Tl/6Hn63impBIkGNocneICg8DaRA3k6YQY9f0tDiY=",
+        "originContent": "                \"Lightweight and fast\",",
+        "translatedContent": "                \"Lightweight and fast\","
+      },
+      {
+        "row": 17,
+        "rowsha": "4V0FFkIUDv1FWWwrLAV9B30KBsTsJ6q4WwX8zRiBmb0=",
+        "originContent": "                \"Framework agnostic and unopinionated\",",
+        "translatedContent": "                \"Framework agnostic and unopinionated\","
+      },
+      {
+        "row": 18,
+        "rowsha": "TgZFoy8gmSSoX/dqdMQJZfVyS6TqH5v/nxleOiWSZxQ=",
+        "originContent": "            ])",
+        "translatedContent": "            ])"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "RYiSqo0j4yHhmoCjD6rpNZgHQeNVaoP6uI3d81VwmpA=",
+        "originContent": "            a(.href(\"https://github.com/sliemeobn/elementary\"), .class(\"fancy-style\")) {",
+        "translatedContent": "            a(.href(\"https://github.com/sliemeobn/elementary\"), .class(\"fancy-style\")) {"
+      },
+      {
+        "row": 21,
+        "rowsha": "7O7esgXFelCYmIP92xgDL43Ic4nMDTWAh+P8KGzklIU=",
+        "originContent": "                \"Learn more\"",
+        "translatedContent": "                \"Learn more\""
+      },
+      {
+        "row": 22,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 23,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 24,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 25,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "p283niGzZvkPtpfwAwoW9pAN2/cBqA8oIqs0LGqrRYw=",
+        "originContent": "struct FeatureList: HTML {",
+        "translatedContent": "struct FeatureList: HTML {"
+      },
+      {
+        "row": 28,
+        "rowsha": "331IWk3UEzZnwDgoL2AgXbzrshlHnIbtlgfFAI0gEFY=",
+        "originContent": "    var features: [String]",
+        "translatedContent": "    var features: [String]"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "gBPFR4gKPmAVXfiQqYHNI3cXdE00i6xZItpfE2410fU=",
+        "originContent": "    var content: some HTML {",
+        "translatedContent": "    var content: some HTML {"
+      },
+      {
+        "row": 31,
+        "rowsha": "1U8tiM3XhYxrsJyqXwQVg+IbBaJZBHa246pdCazmD+0=",
+        "originContent": "        ul {",
+        "translatedContent": "        ul {"
+      },
+      {
+        "row": 32,
+        "rowsha": "ngh5SbypAi5ASxM5I2ekQ40PmhsrymHU5rGQuTViHXg=",
+        "originContent": "            for feature in features {",
+        "translatedContent": "            for feature in features {"
+      },
+      {
+        "row": 33,
+        "rowsha": "JWdSdmqEDWdRIOyKJ1PzSM/KSFQE28pKjA3Hv/62txk=",
+        "originContent": "                li { feature }",
+        "translatedContent": "                li { feature }"
+      },
+      {
+        "row": 34,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 35,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 36,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 37,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 38,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Use it\n\nAdd the dependency to `Package.swift`",
+    "ContentSha": "wUXRVVtuZ317ygwAiNfIBnH83cjuUXKhP0AyTmWSsZI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Úsalo\n\nAgrega la dependencia a `Package.swift`",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "tnwtba8tIImlFqGu1EsFfj3EIGty6CJyj/X324ViRbk=",
+        "originContent": "## Use it",
+        "translatedContent": "## Úsalo"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "e31TVbGESUXb869hNRp0nP3q10S9jSqZg4J+b8fu9fM=",
+        "originContent": "Add the dependency to `Package.swift`",
+        "translatedContent": "Agrega la dependencia a `Package.swift`"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```swift\n.package(url: \"https://github.com/sliemeobn/elementary.git\", from: \"0.3.2\")\n.product(name: \"Elementary\", package: \"elementary\")\n```",
+    "ContentSha": "N0q/zyKBloVQKJQb1zCJzc/5VVxp+sm6KoaS0w6vMrk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\n.package(url: \"https://github.com/sliemeobn/elementary.git\", from: \"0.3.2\")\n.product(name: \"Elementary\", package: \"elementary\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "4pugW2e+kP2kUKf1Tkz3gkr/SKippR+S2BnZOE0m0ho=",
+        "originContent": ".package(url: \"https://github.com/sliemeobn/elementary.git\", from: \"0.3.2\")",
+        "translatedContent": ".package(url: \"https://github.com/sliemeobn/elementary.git\", from: \"0.3.2\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "iEAwxcunN+9f9qIowR//FE5HEUZtUd1SKaJkQrQk8T8=",
+        "originContent": ".product(name: \"Elementary\", package: \"elementary\")",
+        "translatedContent": ".product(name: \"Elementary\", package: \"elementary\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nIntegration with [Hummingbird](https://github.com/hummingbird-community/hummingbird-elementary)",
+    "ContentSha": "CaInDFUmLvmGYSe6B4HJpI3xBLxNpySmXR81Mo7YtH4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nIntegración con [Hummingbird](https://github.com/hummingbird-community/hummingbird-elementary)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "dYHLQWcN0i4fAgig4pUti4fEWaHNZxguYVSutnMaVTg=",
+        "originContent": "Integration with [Hummingbird](https://github.com/hummingbird-community/hummingbird-elementary)",
+        "translatedContent": "Integración con [Hummingbird](https://github.com/hummingbird-community/hummingbird-elementary)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```swift\n.package(url: \"https://github.com/hummingbird-community/hummingbird-elementary.git\", from: \"0.3.0\")\n.product(name: \"HummingbirdElementary\", package: \"hummingbird-elementary\")\n```",
+    "ContentSha": "iMjd9qPRrqAgGSvPzGPJxOr8bu+0V6DG++VALY1gkWQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\n.package(url: \"https://github.com/hummingbird-community/hummingbird-elementary.git\", from: \"0.3.0\")\n.product(name: \"HummingbirdElementary\", package: \"hummingbird-elementary\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "tShUe1Fp5XAvwGCnh9/Hf4QBTdxSywPScVqr3NjG/O0=",
+        "originContent": ".package(url: \"https://github.com/hummingbird-community/hummingbird-elementary.git\", from: \"0.3.0\")",
+        "translatedContent": ".package(url: \"https://github.com/hummingbird-community/hummingbird-elementary.git\", from: \"0.3.0\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "8dDpmt7kVHxm10LfpJedGOrYv/5SuEqM+HkrpgxRH9s=",
+        "originContent": ".product(name: \"HummingbirdElementary\", package: \"hummingbird-elementary\")",
+        "translatedContent": ".product(name: \"HummingbirdElementary\", package: \"hummingbird-elementary\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nIntegration with [Vapor](https://github.com/vapor-community/vapor-elementary)",
+    "ContentSha": "g5ZjyNgk//4Z313gQwwhVD44AnYxt9Dc/2V/VPbZXaw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nIntegración con [Vapor](https://github.com/vapor-community/vapor-elementary)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "e0U1q7SOtXPsZ9+4vigxSSkzjHmuUPc8M+ob3qbuWV8=",
+        "originContent": "Integration with [Vapor](https://github.com/vapor-community/vapor-elementary)",
+        "translatedContent": "Integración con [Vapor](https://github.com/vapor-community/vapor-elementary)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```swift\n.package(url: \"https://github.com/vapor-community/vapor-elementary.git\", from: \"0.1.0\")\n.product(name: \"VaporElementary\", package: \"vapor-elementary\")\n```",
+    "ContentSha": "ej/YygOgQQTTABcMHDxQ756+GqWS/OdYEpQa3oJHJAw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\n.package(url: \"https://github.com/vapor-community/vapor-elementary.git\", from: \"0.1.0\")\n.product(name: \"VaporElementary\", package: \"vapor-elementary\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "dso4EdyqC2w4NLoRANrn9I67KiqDrK873VNkZyTVBmM=",
+        "originContent": ".package(url: \"https://github.com/vapor-community/vapor-elementary.git\", from: \"0.1.0\")",
+        "translatedContent": ".package(url: \"https://github.com/vapor-community/vapor-elementary.git\", from: \"0.1.0\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "WUTNejrNyOA5lrIaRStUDvHeX7YJR0tMk6IxpPIwrUc=",
+        "originContent": ".product(name: \"VaporElementary\", package: \"vapor-elementary\")",
+        "translatedContent": ".product(name: \"VaporElementary\", package: \"vapor-elementary\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Play with it\n\nCheck out the [Hummingbird + Tailwind example app](https://github.com/sliemeobn/elementary/tree/main/Examples/HummingbirdDemo).\n\nFor a demo of [ElementaryHTMX](https://github.com/sliemeobn/elementary-htmx), see this [Hummingbird + HTMX Demo](https://github.com/sliemeobn/elementary-htmx/tree/main/Examples/HummingbirdDemo).\n\nFor a Vapor example, see the [Vapor + HTMX Demo](https://github.com/sliemeobn/elementary-htmx/tree/main/Examples/VaporDemo).\n\n## Lightweight and fast\n\nElementary renders straight to text, optimized for serving generated HTML from a [Hummingbird](https://github.com/hummingbird-project/hummingbird) or [Vapor](https://vapor.codes/) server app.\n\nAny type conforming to `HTML` can be rendered individually, ideal for testing or for sending fragments with [htmx](https://github.com/sliemeobn/elementary-htmx).\n\nThe default rendering mechanism produces chunks of HTML for efficient response streaming, so the browser can start loading a page while the server is still producing the rest of it. Swift concurrency is used to handle back pressure, so you your memory footprint stays low even for large pages.\n",
+    "ContentSha": "KlBvZzmfpCgvn2FSr09Rtgi2po0qsOKIfoCc6v/kGu8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Juega con ello\n\nConsulta la [aplicación de ejemplo Hummingbird + Tailwind](https://github.com/sliemeobn/elementary/tree/main/Examples/HummingbirdDemo).\n\nPara una demostración de [ElementaryHTMX](https://github.com/sliemeobn/elementary-htmx), mira esta [demostración Hummingbird + HTMX](https://github.com/sliemeobn/elementary-htmx/tree/main/Examples/HummingbirdDemo).\n\nPara un ejemplo con Vapor, consulta la [demostración Vapor + HTMX](https://github.com/sliemeobn/elementary-htmx/tree/main/Examples/VaporDemo).\n\n## Ligero y rápido\n\nElementary renderiza directamente a texto, optimizado para servir HTML generado desde una aplicación servidor [Hummingbird](https://github.com/hummingbird-project/hummingbird) o [Vapor](https://vapor.codes/).\n\nCualquier tipo que conforme a `HTML` puede renderizarse individualmente, ideal para pruebas o para enviar fragmentos con [htmx](https://github.com/sliemeobn/elementary-htmx).\n\nEl mecanismo de renderizado por defecto produce fragmentos de HTML para una transmisión eficiente de la respuesta, de modo que el navegador puede comenzar a cargar una página mientras el servidor sigue produciendo el resto. Se usa la concurrencia de Swift para manejar la presión de retorno, por lo que tu uso de memoria se mantiene bajo incluso para páginas grandes.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "4N1D1/gaUBOzgQ+BsPA4iA2cuP3PndjWfRoVJ0rItOQ=",
+        "originContent": "## Play with it",
+        "translatedContent": "## Juega con ello"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "cFQK7ClQguSe2QDBYUOPNvUavBB84X63q5cvwDXS8vw=",
+        "originContent": "Check out the [Hummingbird + Tailwind example app](https://github.com/sliemeobn/elementary/tree/main/Examples/HummingbirdDemo).",
+        "translatedContent": "Consulta la [aplicación de ejemplo Hummingbird + Tailwind](https://github.com/sliemeobn/elementary/tree/main/Examples/HummingbirdDemo)."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "WcemhooXzAdtDRynu9Mgfk8UBvQTH9RcCQ5eT4EHz6U=",
+        "originContent": "For a demo of [ElementaryHTMX](https://github.com/sliemeobn/elementary-htmx), see this [Hummingbird + HTMX Demo](https://github.com/sliemeobn/elementary-htmx/tree/main/Examples/HummingbirdDemo).",
+        "translatedContent": "Para una demostración de [ElementaryHTMX](https://github.com/sliemeobn/elementary-htmx), mira esta [demostración Hummingbird + HTMX](https://github.com/sliemeobn/elementary-htmx/tree/main/Examples/HummingbirdDemo)."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "DJrUNHLt4kEY1NqYTZvX3c9pQqrbM/lV+XyYYTEs6Cg=",
+        "originContent": "For a Vapor example, see the [Vapor + HTMX Demo](https://github.com/sliemeobn/elementary-htmx/tree/main/Examples/VaporDemo).",
+        "translatedContent": "Para un ejemplo con Vapor, consulta la [demostración Vapor + HTMX](https://github.com/sliemeobn/elementary-htmx/tree/main/Examples/VaporDemo)."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Huz2inMVuTPr9VCLXwK/uGALF8+SF3BFoH7EKudC36M=",
+        "originContent": "## Lightweight and fast",
+        "translatedContent": "## Ligero y rápido"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "7SujpC3caCkRwiYzGnhUlDenxrANLdgiW4jY8znrAJ8=",
+        "originContent": "Elementary renders straight to text, optimized for serving generated HTML from a [Hummingbird](https://github.com/hummingbird-project/hummingbird) or [Vapor](https://vapor.codes/) server app.",
+        "translatedContent": "Elementary renderiza directamente a texto, optimizado para servir HTML generado desde una aplicación servidor [Hummingbird](https://github.com/hummingbird-project/hummingbird) o [Vapor](https://vapor.codes/)."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "KpXbqmBHTk+UKeqJKXY850yAB1CHUTGRm1YVLnC0b+4=",
+        "originContent": "Any type conforming to `HTML` can be rendered individually, ideal for testing or for sending fragments with [htmx](https://github.com/sliemeobn/elementary-htmx).",
+        "translatedContent": "Cualquier tipo que conforme a `HTML` puede renderizarse individualmente, ideal para pruebas o para enviar fragmentos con [htmx](https://github.com/sliemeobn/elementary-htmx)."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "n/PKkJSAxpuNfMLiiUS0hYulTsjFkdkZT6Elswd414U=",
+        "originContent": "The default rendering mechanism produces chunks of HTML for efficient response streaming, so the browser can start loading a page while the server is still producing the rest of it. Swift concurrency is used to handle back pressure, so you your memory footprint stays low even for large pages.",
+        "translatedContent": "El mecanismo de renderizado por defecto produce fragmentos de HTML para una transmisión eficiente de la respuesta, de modo que el navegador puede comenzar a cargar una página mientras el servidor sigue produciendo el resto. Se usa la concurrencia de Swift para manejar la presión de retorno, por lo que tu uso de memoria se mantiene bajo incluso para páginas grandes."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```swift\n// Stream HTML, optimized for responsiveness and back pressure-aware\ntry await MainPage().render(into: responseStreamWriter)\n```",
+    "ContentSha": "gJnC0JKMxjMr09d3F+F1Ztw3TcohZ6gVN6t5aiHYVzI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\n// Stream HTML, optimized for responsiveness and back pressure-aware\ntry await MainPage().render(into: responseStreamWriter)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "n5kQ9i+2xRehEswdPmE2/2xtXbP8kW0rxxFsIpS7OaM=",
+        "originContent": "// Stream HTML, optimized for responsiveness and back pressure-aware",
+        "translatedContent": "// Stream HTML, optimized for responsiveness and back pressure-aware"
+      },
+      {
+        "row": 3,
+        "rowsha": "hCaWu25ZGVEsxqtyGZHlqc+D/UkIZa7Wz3ApofFJFe4=",
+        "originContent": "try await MainPage().render(into: responseStreamWriter)",
+        "translatedContent": "try await MainPage().render(into: responseStreamWriter)"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nAlternatively, you can simply collect the rendered HTML in a string.\n",
+    "ContentSha": "+CzIsuPITTt5cYSAYG+Y2fxJqHyrONWgqhQlCQPJQrg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nAlternativamente, puedes simplemente recoger el HTML renderizado en una cadena.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "wI8fI8bKnD6ydf+aFbiribM6XaRakc6WKupzfKqGbPc=",
+        "originContent": "Alternatively, you can simply collect the rendered HTML in a string.",
+        "translatedContent": "Alternativamente, puedes simplemente recoger el HTML renderizado en una cadena."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```swift\nlet html: String = div(.class(\"pretty\")) { \"Hello\" }.render()\n// <div class=\"pretty\">Hello</div>\n\nlet fragment: String = FeatureList(features: [\"Anything conforming to HTML can be rendered\"]).render()\n// <ul><li>Anything conforming to HTML can be rendered</li></ul>\n\n// For testing purposes, there is also a formatted version\nprint(\n    div {\n        p(.class(\"greeting\")) { \"Hi mom!\" }\n        p { \"Look how pretty.\" }\n    }.renderFormatted()\n)\n\n// <div>\n//   <p class=\"greeting\">Hi mom!</p>\n//   <p>Look how pretty.</p>\n// </div>\n```",
+    "ContentSha": "BsDg0AYzEjfR8SW1ZPdkkyet8yEPpkiXW7llL0avIMc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\nlet html: String = div(.class(\"pretty\")) { \"Hello\" }.render()\n// <div class=\"pretty\">Hello</div>\n\nlet fragment: String = FeatureList(features: [\"Anything conforming to HTML can be rendered\"]).render()\n// <ul><li>Anything conforming to HTML can be rendered</li></ul>\n\n// For testing purposes, there is also a formatted version\nprint(\n    div {\n        p(.class(\"greeting\")) { \"Hi mom!\" }\n        p { \"Look how pretty.\" }\n    }.renderFormatted()\n)\n\n// <div>\n//   <p class=\"greeting\">Hi mom!</p>\n//   <p>Look how pretty.</p>\n// </div>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "YnUvgHbxulvpT7ayjqa1Nc4DaKa26t85y6+8OIv61YI=",
+        "originContent": "let html: String = div(.class(\"pretty\")) { \"Hello\" }.render()",
+        "translatedContent": "let html: String = div(.class(\"pretty\")) { \"Hello\" }.render()"
+      },
+      {
+        "row": 3,
+        "rowsha": "MzgCQ6kiUPEyINaHX9gGsDxq9he1ckLP3z3epx58D5M=",
+        "originContent": "// <div class=\"pretty\">Hello</div>",
+        "translatedContent": "// <div class=\"pretty\">Hello</div>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Arp2tWZDFETxtm4AUdy5hFuM2zGZa8Sh/DTtrXdcLI4=",
+        "originContent": "let fragment: String = FeatureList(features: [\"Anything conforming to HTML can be rendered\"]).render()",
+        "translatedContent": "let fragment: String = FeatureList(features: [\"Anything conforming to HTML can be rendered\"]).render()"
+      },
+      {
+        "row": 6,
+        "rowsha": "Xz+dTMgkTLpsfpgdSlc2SjYRpTzroemPAv74X2lwJQg=",
+        "originContent": "// <ul><li>Anything conforming to HTML can be rendered</li></ul>",
+        "translatedContent": "// <ul><li>Anything conforming to HTML can be rendered</li></ul>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Cmeid2GhEyb92O3T4FRYyjHbQv4EaUeJXDuuz+xss+s=",
+        "originContent": "// For testing purposes, there is also a formatted version",
+        "translatedContent": "// For testing purposes, there is also a formatted version"
+      },
+      {
+        "row": 9,
+        "rowsha": "bZcz83a6jJRtWkWKV1X5WetRWLrHwg/Ur9ckTl18g8M=",
+        "originContent": "print(",
+        "translatedContent": "print("
+      },
+      {
+        "row": 10,
+        "rowsha": "ymkJKpDrNZJiRLBVnKxGRcA0v0hAVv1nL2oNOz/HKtU=",
+        "originContent": "    div {",
+        "translatedContent": "    div {"
+      },
+      {
+        "row": 11,
+        "rowsha": "63ArWcD6RIf89qk2AcqxsLuidYe0cwsqU5kWjpjNzrM=",
+        "originContent": "        p(.class(\"greeting\")) { \"Hi mom!\" }",
+        "translatedContent": "        p(.class(\"greeting\")) { \"Hi mom!\" }"
+      },
+      {
+        "row": 12,
+        "rowsha": "DptgCZ0h7ekXYPg4qSKZ+xL+Cj2PqEsEgy8ZdGfos2g=",
+        "originContent": "        p { \"Look how pretty.\" }",
+        "translatedContent": "        p { \"Look how pretty.\" }"
+      },
+      {
+        "row": 13,
+        "rowsha": "4RedBaD/bkYmoBsja/azlpWSv2L2g8dvvGdFj/dIFIE=",
+        "originContent": "    }.renderFormatted()",
+        "translatedContent": "    }.renderFormatted()"
+      },
+      {
+        "row": 14,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "KDXUMYicJ4vLyXHSOFKlqhdcrfEjsS3QmZ91eaEgpWY=",
+        "originContent": "// <div>",
+        "translatedContent": "// <div>"
+      },
+      {
+        "row": 17,
+        "rowsha": "hPjU/cXdt5YI4tzYuORDy68fhCCb2mjlDI2hy5pWFZQ=",
+        "originContent": "//   <p class=\"greeting\">Hi mom!</p>",
+        "translatedContent": "//   <p class=\"greeting\">Hi mom!</p>"
+      },
+      {
+        "row": 18,
+        "rowsha": "yUQbQ0OLPIJ1sVJhrgICZyxvXy0DZoarQHQSEZaZvSc=",
+        "originContent": "//   <p>Look how pretty.</p>",
+        "translatedContent": "//   <p>Look how pretty.</p>"
+      },
+      {
+        "row": 19,
+        "rowsha": "GanXF8HSs5V/QnB52+Sy3VXnnxwLfGEHXqxhVVt3Mmw=",
+        "originContent": "// </div>",
+        "translatedContent": "// </div>"
+      },
+      {
+        "row": 20,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nElementary has zero dependencies (not even Foundation) and does not use runtime reflection or existential containers (there is not a single `any` in the code base).\n\nBy design, it does not come with a layout engine, reactive state tracking, or built-in CSS styling: it just renders HTML.\n\n## Clean and composable\n\nStructure your HTML with a SwiftUI-inspired composition API.\n",
+    "ContentSha": "m9sTIPrSrQs2p22uxOynMnQ6ThwDQ/l/amfkty31Lpc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Elementary no tiene dependencias (ni siquiera Foundation) y no utiliza reflexión en tiempo de ejecución ni contenedores existenciales (no hay ni un solo `any` en la base de código).\n\nPor diseño, no incluye un motor de diseño, seguimiento reactivo del estado ni estilos CSS incorporados: simplemente renderiza HTML.\n\n## Limpio y componible\n\nEstructura tu HTML con una API de composición inspirada en SwiftUI.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Elementary no tiene dependencias (ni siquiera Foundation) y no utiliza reflexión en tiempo de ejecución ni contenedores existenciales (no hay ni un solo `any` en la base de código)."
+      },
+      {
+        "row": 2,
+        "rowsha": "5/ssyMWd/qhKZIUGzRj4r4dqZBFZ8E2sK7mo1RZUvtE=",
+        "originContent": "Elementary has zero dependencies (not even Foundation) and does not use runtime reflection or existential containers (there is not a single `any` in the code base).",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Por diseño, no incluye un motor de diseño, seguimiento reactivo del estado ni estilos CSS incorporados: simplemente renderiza HTML."
+      },
+      {
+        "row": 4,
+        "rowsha": "kxaiyFCtfw5uLsbtxnBEODERtHouhL2bEAqpWpprnss=",
+        "originContent": "By design, it does not come with a layout engine, reactive state tracking, or built-in CSS styling: it just renders HTML.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Limpio y componible"
+      },
+      {
+        "row": 6,
+        "rowsha": "RYY7dwasQAn5XfRbk2CPuXfFMKSIkqF6K7mQT2bhl6o=",
+        "originContent": "## Clean and composable",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Estructura tu HTML con una API de composición inspirada en SwiftUI."
+      },
+      {
+        "row": 8,
+        "rowsha": "ctsatHd8BZZ/H0QYLE7AevWi2iHhaQ4CNg4vi6TU87E=",
+        "originContent": "Structure your HTML with a SwiftUI-inspired composition API.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```swift\nstruct List: HTML {\n    var items: [String]\n    var importantIndex: Int\n\n    var content: some HTML {\n        // conditional rendering\n        if items.isEmpty {\n            p { \"No items\" }\n        } else {\n            ul {\n                // list rendering\n                for (index, item) in items.enumerated() {\n                    // seamless composition of elements\n                    ListItem(text: item, isImportant: index == importantIndex)\n                }\n            }\n        }\n    }\n}\n\nstruct ListItem: HTML {\n    var text: String\n    var isImportant: Bool = false\n\n    var content: some HTML {\n        // conditional attributes\n        li { text }\n            .attributes(.class(\"important\"), when: isImportant)\n    }\n}\n```",
+    "ContentSha": "AbLGs878gJSkx5zibEiZ4YhwloTlfjt+yOHfvB1M5CI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\nstruct List: HTML {\n    var items: [String]\n    var importantIndex: Int\n\n    var content: some HTML {\n        // conditional rendering\n        if items.isEmpty {\n            p { \"No items\" }\n        } else {\n            ul {\n                // list rendering\n                for (index, item) in items.enumerated() {\n                    // seamless composition of elements\n                    ListItem(text: item, isImportant: index == importantIndex)\n                }\n            }\n        }\n    }\n}\n\nstruct ListItem: HTML {\n    var text: String\n    var isImportant: Bool = false\n\n    var content: some HTML {\n        // conditional attributes\n        li { text }\n            .attributes(.class(\"important\"), when: isImportant)\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "VLn0AXxyimDw8uGmgpiVWKjfJtJmtxg5lDrWO6j1gA8=",
+        "originContent": "struct List: HTML {",
+        "translatedContent": "struct List: HTML {"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZcbLhWMp4m6awtV5VGgXJ2pPZdz0pBO9NT6l12Q3wcQ=",
+        "originContent": "    var items: [String]",
+        "translatedContent": "    var items: [String]"
+      },
+      {
+        "row": 4,
+        "rowsha": "Vz2FQl6iYkZWHpE0hzlVBZ3ayd5jPwTCfmwfNLuc710=",
+        "originContent": "    var importantIndex: Int",
+        "translatedContent": "    var importantIndex: Int"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "gBPFR4gKPmAVXfiQqYHNI3cXdE00i6xZItpfE2410fU=",
+        "originContent": "    var content: some HTML {",
+        "translatedContent": "    var content: some HTML {"
+      },
+      {
+        "row": 7,
+        "rowsha": "uAK3ZhULWAevvZ3QgdzorFVf+pNLefbYK29GuOPhaT4=",
+        "originContent": "        // conditional rendering",
+        "translatedContent": "        // conditional rendering"
+      },
+      {
+        "row": 8,
+        "rowsha": "HA2z7Yuh0zlAy7GQx1nkamIxKce+SQldKPUyUuLnRZg=",
+        "originContent": "        if items.isEmpty {",
+        "translatedContent": "        if items.isEmpty {"
+      },
+      {
+        "row": 9,
+        "rowsha": "pNspjr/Oymtv3LYqHZS8qyDdZUrTFF/WMN01s0EvleY=",
+        "originContent": "            p { \"No items\" }",
+        "translatedContent": "            p { \"No items\" }"
+      },
+      {
+        "row": 10,
+        "rowsha": "d4ha1c4noKxOkj1IlfIGSW+GX9yJf3XNpncsiYasxk0=",
+        "originContent": "        } else {",
+        "translatedContent": "        } else {"
+      },
+      {
+        "row": 11,
+        "rowsha": "m1Vdx5UT6d+tfF/rgX4jFrR37EsmDJjPlX9mU839Eo8=",
+        "originContent": "            ul {",
+        "translatedContent": "            ul {"
+      },
+      {
+        "row": 12,
+        "rowsha": "l1FQ3M117djOz6wvvCheCUNjdovR2ipyaGpYPYNAnEM=",
+        "originContent": "                // list rendering",
+        "translatedContent": "                // list rendering"
+      },
+      {
+        "row": 13,
+        "rowsha": "N01u7ixBo9NUrbv7gXArqocBoCBznEiIywB2pBRenws=",
+        "originContent": "                for (index, item) in items.enumerated() {",
+        "translatedContent": "                for (index, item) in items.enumerated() {"
+      },
+      {
+        "row": 14,
+        "rowsha": "dXLR1ZVDiqH0jZuvbE/oT+c1l/HKkdMTUSpGHL0Z2s8=",
+        "originContent": "                    // seamless composition of elements",
+        "translatedContent": "                    // seamless composition of elements"
+      },
+      {
+        "row": 15,
+        "rowsha": "5LrkLP1ttdDBj4bul59CBssyoea+HCvEcr7c+tEm3cM=",
+        "originContent": "                    ListItem(text: item, isImportant: index == importantIndex)",
+        "translatedContent": "                    ListItem(text: item, isImportant: index == importantIndex)"
+      },
+      {
+        "row": 16,
+        "rowsha": "C/CgiKZJwi3JsYSpUZ0e0FpDibwsPF8bbIyFfD+4S6E=",
+        "originContent": "                }",
+        "translatedContent": "                }"
+      },
+      {
+        "row": 17,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 18,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 19,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 20,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "33PgZdOkW+6+AHU4DPWvUcq7op+5kb/QsJLLo60GPkQ=",
+        "originContent": "struct ListItem: HTML {",
+        "translatedContent": "struct ListItem: HTML {"
+      },
+      {
+        "row": 23,
+        "rowsha": "3mZVklIKuFSbB+GRHs9KVFpJYrgVV7+2/+NFQDVBBrE=",
+        "originContent": "    var text: String",
+        "translatedContent": "    var text: String"
+      },
+      {
+        "row": 24,
+        "rowsha": "dcNanTTD4uYbigqGk8Znqukoku7Nq9OfkjoDDdlKmgI=",
+        "originContent": "    var isImportant: Bool = false",
+        "translatedContent": "    var isImportant: Bool = false"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "gBPFR4gKPmAVXfiQqYHNI3cXdE00i6xZItpfE2410fU=",
+        "originContent": "    var content: some HTML {",
+        "translatedContent": "    var content: some HTML {"
+      },
+      {
+        "row": 27,
+        "rowsha": "Q1QcCligT2Z8BXCDhRVe5T584oxsla6naVEWe+RP0k0=",
+        "originContent": "        // conditional attributes",
+        "translatedContent": "        // conditional attributes"
+      },
+      {
+        "row": 28,
+        "rowsha": "zaCWBe3p/vHxfGDpBbJ/qJ8qo+709g8gRDe8d8GaYDM=",
+        "originContent": "        li { text }",
+        "translatedContent": "        li { text }"
+      },
+      {
+        "row": 29,
+        "rowsha": "lAvs54rM/72hMNgMiLgpQU3ZmZzluoUjCb1vxfNX6Bg=",
+        "originContent": "            .attributes(.class(\"important\"), when: isImportant)",
+        "translatedContent": "            .attributes(.class(\"important\"), when: isImportant)"
+      },
+      {
+        "row": 30,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 31,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 32,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n## First class attribute handling\n\nElementary utilizes Swift's powerful generics to provide an attribute system that knows what goes where. Every element knows which Tag it is for.\n\nAs in HTML, attributes go right after the \"opening tag\".\n",
+    "ContentSha": "uTaIvgYADJdqneNMjMvgsdt14ss2twphyoyBnuu0OhA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Manejo de atributos de primera clase\n\nElementary utiliza los potentes genéricos de Swift para proporcionar un sistema de atributos que sabe qué va dónde. Cada elemento sabe para qué etiqueta es.\n\nComo en HTML, los atributos van justo después de la \"etiqueta de apertura\".\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "EJaljgU4T4bCnzVZKDHQz5z/S6cOtLQIiHWNmXUQ2lA=",
+        "originContent": "## First class attribute handling",
+        "translatedContent": "## Manejo de atributos de primera clase"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "rVcnBS3kGGdA60bH87qlYhoKlIEmkP/1QmAAjlM8ekA=",
+        "originContent": "Elementary utilizes Swift's powerful generics to provide an attribute system that knows what goes where. Every element knows which Tag it is for.",
+        "translatedContent": "Elementary utiliza los potentes genéricos de Swift para proporcionar un sistema de atributos que sabe qué va dónde. Cada elemento sabe para qué etiqueta es."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "IEEHxBP95MAJ4IL4+TR1npilhQ91oGmAqQhepK8waQ4=",
+        "originContent": "As in HTML, attributes go right after the \"opening tag\".",
+        "translatedContent": "Como en HTML, los atributos van justo después de la \"etiqueta de apertura\"."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```swift\n// staying close to HTML syntax really helps\ndiv(.data(\"hello\", value: \"there\")) {\n    a(.href(\"/swift\"), .target(.blank)) {\n        img(.src(\"/swift.png\"))\n        span(.class(\"fancy\")) { \"Click Me\" }\n    }\n}\n```",
+    "ContentSha": "S0R/SSPgQlX0xvdpuqSzRi0h6i2oKPXtLCDnlmdwDbs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\n// staying close to HTML syntax really helps\ndiv(.data(\"hello\", value: \"there\")) {\n    a(.href(\"/swift\"), .target(.blank)) {\n        img(.src(\"/swift.png\"))\n        span(.class(\"fancy\")) { \"Click Me\" }\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "t+Q+Nsbil/4xjkb3H2POdOKLVPTc9KTEtPqsGuiDQCI=",
+        "originContent": "// staying close to HTML syntax really helps",
+        "translatedContent": "// staying close to HTML syntax really helps"
+      },
+      {
+        "row": 3,
+        "rowsha": "EvxVcoWRwfIPuU9kOvnHIPPQjCyEJFwDg/jVQn7bvk8=",
+        "originContent": "div(.data(\"hello\", value: \"there\")) {",
+        "translatedContent": "div(.data(\"hello\", value: \"there\")) {"
+      },
+      {
+        "row": 4,
+        "rowsha": "0/bXNv1fqYq01zIRzXxl6PqCEwjXKs8H0/o6w2B4hmQ=",
+        "originContent": "    a(.href(\"/swift\"), .target(.blank)) {",
+        "translatedContent": "    a(.href(\"/swift\"), .target(.blank)) {"
+      },
+      {
+        "row": 5,
+        "rowsha": "9+iocjmdBBLoxVZKlQlcMo7kBDJqmiQ3HnFU2orSfgI=",
+        "originContent": "        img(.src(\"/swift.png\"))",
+        "translatedContent": "        img(.src(\"/swift.png\"))"
+      },
+      {
+        "row": 6,
+        "rowsha": "8GGf+Ebs7chYpk8DArVMGXOQZ5tYd5hPLMLvEgyFZOw=",
+        "originContent": "        span(.class(\"fancy\")) { \"Click Me\" }",
+        "translatedContent": "        span(.class(\"fancy\")) { \"Click Me\" }"
+      },
+      {
+        "row": 7,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nAttributes can also be altered by using the modifier syntax, this allows for easy handling of conditional attributes.\n",
+    "ContentSha": "q14QETayj06A9UE34x9hxpk45hlMZK7u9ftLZNnkSl4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Los atributos también pueden modificarse utilizando la sintaxis de modificador, lo que permite un manejo sencillo de atributos condicionales.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Los atributos también pueden modificarse utilizando la sintaxis de modificador, lo que permite un manejo sencillo de atributos condicionales."
+      },
+      {
+        "row": 2,
+        "rowsha": "Sqeu+LLqhE3xiAEHz/dbrjsYRGwemesi7nEp3A2Pokc=",
+        "originContent": "Attributes can also be altered by using the modifier syntax, this allows for easy handling of conditional attributes.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```swift\ndiv {\n    p { \"Hello\" }\n        .attributes(.id(\"maybe-fancy\"))\n        .attributes(.class(\"fancy\"), when: isFancy)\n}\n```",
+    "ContentSha": "GyBhM6oD6zz0skeWwn47YnE7+6FCWI+k40zqtduYjQ4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\ndiv {\n    p { \"Hello\" }\n        .attributes(.id(\"maybe-fancy\"))\n        .attributes(.class(\"fancy\"), when: isFancy)\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "zv7Z9Vb79EkO6f5RBMdZdZEwdph833Yrxjzs8TeH1yM=",
+        "originContent": "div {",
+        "translatedContent": "div {"
+      },
+      {
+        "row": 3,
+        "rowsha": "EEuR2gFOWODAzkCP+UOLDAUcuoqbM2ukxDV629nDy50=",
+        "originContent": "    p { \"Hello\" }",
+        "translatedContent": "    p { \"Hello\" }"
+      },
+      {
+        "row": 4,
+        "rowsha": "e+6lvB1NwUtFSTs5KaVgSeEG+d3Zw6VyRuCZeaTmLd8=",
+        "originContent": "        .attributes(.id(\"maybe-fancy\"))",
+        "translatedContent": "        .attributes(.id(\"maybe-fancy\"))"
+      },
+      {
+        "row": 5,
+        "rowsha": "dwY4DfMeBREdycxlA5fpcNZ3Jfc5xIiEp420+n2Pzfs=",
+        "originContent": "        .attributes(.class(\"fancy\"), when: isFancy)",
+        "translatedContent": "        .attributes(.class(\"fancy\"), when: isFancy)"
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\nBy exposing the tag type of `content`, attributes will fall through and be applied correctly.\n",
+    "ContentSha": "MgGIiodhOYF33IroZV5KldN0Q/Hz4OTMfcxnrj7VNaM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Al exponer el tipo de etiqueta de `content`, los atributos se filtrarán y aplicarán correctamente.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Al exponer el tipo de etiqueta de `content`, los atributos se filtrarán y aplicarán correctamente."
+      },
+      {
+        "row": 2,
+        "rowsha": "V/O70Ciba02yFxu7bFH89fDUoBmxWSkLA7+JHggR0l4=",
+        "originContent": "By exposing the tag type of `content`, attributes will fall through and be applied correctly.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```swift\nstruct Button: HTML {\n    var text: String\n\n    // by exposing the HTMLTag type information...\n    var content: some HTML<HTMLTag.input> {\n        input(.type(.button), .value(text))\n    }\n}\n\ndiv {\n    // ... Button will know it really is an <input> element ...\n    Button(text: \"Hello\")\n        .attributes(.autofocus) // ... and pass on any attributes\n}\n```",
+    "ContentSha": "zyTUD19U7F6Nh8e39Z/AHZCEj4rstUb2TGd6SxbfTcE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\nstruct Button: HTML {\n    var text: String\n\n    // by exposing the HTMLTag type information...\n    var content: some HTML<HTMLTag.input> {\n        input(.type(.button), .value(text))\n    }\n}\n\ndiv {\n    // ... Button will know it really is an <input> element ...\n    Button(text: \"Hello\")\n        .attributes(.autofocus) // ... and pass on any attributes\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "1InSyUbUjncHNvuVPe0nyc4FKGAx/rScQt6z2qtax1I=",
+        "originContent": "struct Button: HTML {",
+        "translatedContent": "struct Button: HTML {"
+      },
+      {
+        "row": 3,
+        "rowsha": "3mZVklIKuFSbB+GRHs9KVFpJYrgVV7+2/+NFQDVBBrE=",
+        "originContent": "    var text: String",
+        "translatedContent": "    var text: String"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "hX/hROUuuKVvYUCjulbvCRjKAyIlJcC5d+47gYE1n1w=",
+        "originContent": "    // by exposing the HTMLTag type information...",
+        "translatedContent": "    // by exposing the HTMLTag type information..."
+      },
+      {
+        "row": 6,
+        "rowsha": "1ojpKa28eV8BwfyQvKU77xn0I1z8+1pgjaid6Z6rRL4=",
+        "originContent": "    var content: some HTML<HTMLTag.input> {",
+        "translatedContent": "    var content: some HTML<HTMLTag.input> {"
+      },
+      {
+        "row": 7,
+        "rowsha": "Hqm6Altp/VJbsaiKbOrffhc7/QXhdBlU7JgLnHCp1MA=",
+        "originContent": "        input(.type(.button), .value(text))",
+        "translatedContent": "        input(.type(.button), .value(text))"
+      },
+      {
+        "row": 8,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "zv7Z9Vb79EkO6f5RBMdZdZEwdph833Yrxjzs8TeH1yM=",
+        "originContent": "div {",
+        "translatedContent": "div {"
+      },
+      {
+        "row": 12,
+        "rowsha": "o9XR4if4dfOY7y8hZwJxt+EARZdHOvULuXpNyMx503s=",
+        "originContent": "    // ... Button will know it really is an <input> element ...",
+        "translatedContent": "    // ... Button will know it really is an <input> element ..."
+      },
+      {
+        "row": 13,
+        "rowsha": "YbVOcMb6T7NBD4jVVdbPeTsugKkP87WlW52WOUchn+M=",
+        "originContent": "    Button(text: \"Hello\")",
+        "translatedContent": "    Button(text: \"Hello\")"
+      },
+      {
+        "row": 14,
+        "rowsha": "enUaLsMUfddwTB1ViqM3sojKC32zGqAtIYAPIPqqQZ0=",
+        "originContent": "        .attributes(.autofocus) // ... and pass on any attributes",
+        "translatedContent": "        .attributes(.autofocus) // ... and pass on any attributes"
+      },
+      {
+        "row": 15,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\nAs a sensible default, _class_ and _style_ attributes are merged (with a blank space or semicolon respectively). All other attributes are overwritten by default.\n\n## Seamless async support\n\nElementary supports Swift Concurrency in HTML content. Simply `await` something inside your HTML, while the first bytes are already flying towards the browser.\n",
+    "ContentSha": "15fvJXImwWegxjzX3FqVtxthWgNy0hJ8wIKzsGrXs5o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nComo valor predeterminado sensato, los atributos _class_ y _style_ se combinan (con un espacio en blanco o punto y coma respectivamente). Todos los demás atributos se sobrescriben por defecto.\n\n## Soporte asincrónico sin interrupciones\n\nElementary soporta Swift Concurrency en contenido HTML. Simplemente `await` algo dentro de tu HTML, mientras los primeros bytes ya están en camino hacia el navegador.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "U1o7Kco5RwJ0Y8o2YJiZORd/PGjr0gyLOBCoV1TZV2c=",
+        "originContent": "As a sensible default, _class_ and _style_ attributes are merged (with a blank space or semicolon respectively). All other attributes are overwritten by default.",
+        "translatedContent": "Como valor predeterminado sensato, los atributos _class_ y _style_ se combinan (con un espacio en blanco o punto y coma respectivamente). Todos los demás atributos se sobrescriben por defecto."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "73mWaGYsbUVH7eWifYCP19VY8yrQTaKaUVJOEpFEcd8=",
+        "originContent": "## Seamless async support",
+        "translatedContent": "## Soporte asincrónico sin interrupciones"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ldUrmIg1XlJM2Y1xCZ9Ax2gOxuBuPEg5PwHMdErPr4U=",
+        "originContent": "Elementary supports Swift Concurrency in HTML content. Simply `await` something inside your HTML, while the first bytes are already flying towards the browser.",
+        "translatedContent": "Elementary soporta Swift Concurrency en contenido HTML. Simplemente `await` algo dentro de tu HTML, mientras los primeros bytes ya están en camino hacia el navegador."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```swift\ndiv {\n    let text = await getMyData()\n    p { \"This totally works: \\(text)\" }\n    MyComponent()\n}\n\nstruct MyComponent: HTML {\n    var content: some HTML {\n        AsyncContent {\n            \"So does this: \\(await getMoreData())\"\n        }\n    }\n}\n```",
+    "ContentSha": "UqP6P3Bx/YN8Ao344EyIz3R2wArCsN9t54Bw2t53yyU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\ndiv {\n    let text = await getMyData()\n    p { \"This totally works: \\(text)\" }\n    MyComponent()\n}\n\nstruct MyComponent: HTML {\n    var content: some HTML {\n        AsyncContent {\n            \"So does this: \\(await getMoreData())\"\n        }\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "zv7Z9Vb79EkO6f5RBMdZdZEwdph833Yrxjzs8TeH1yM=",
+        "originContent": "div {",
+        "translatedContent": "div {"
+      },
+      {
+        "row": 3,
+        "rowsha": "A5or1pnlNZZVfDu9vuwnZxFT7DcBhaUuWEtR/16fWDM=",
+        "originContent": "    let text = await getMyData()",
+        "translatedContent": "    let text = await getMyData()"
+      },
+      {
+        "row": 4,
+        "rowsha": "jjMElUllmAv8N41uCbcrrvnjQSg80hbq4acRlzo6ZgQ=",
+        "originContent": "    p { \"This totally works: \\(text)\" }",
+        "translatedContent": "    p { \"This totally works: \\(text)\" }"
+      },
+      {
+        "row": 5,
+        "rowsha": "4DK6UR1yKGm5dFX50hDtvC7+Rk55M2g/IGxsFUTMYV8=",
+        "originContent": "    MyComponent()",
+        "translatedContent": "    MyComponent()"
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "X5o+/Z3/kib/gPnc28FZzaux3vVy2tXq3WH0UYTA1B0=",
+        "originContent": "struct MyComponent: HTML {",
+        "translatedContent": "struct MyComponent: HTML {"
+      },
+      {
+        "row": 9,
+        "rowsha": "gBPFR4gKPmAVXfiQqYHNI3cXdE00i6xZItpfE2410fU=",
+        "originContent": "    var content: some HTML {",
+        "translatedContent": "    var content: some HTML {"
+      },
+      {
+        "row": 10,
+        "rowsha": "3b1nFGrSOB1nDMxWbENPQJt3UkhQ4TcO3O5ZXk1CvKo=",
+        "originContent": "        AsyncContent {",
+        "translatedContent": "        AsyncContent {"
+      },
+      {
+        "row": 11,
+        "rowsha": "i90ly5x9AH8JUG115LYh7ihQ6xcKR1X9Fl3oAuhnRN0=",
+        "originContent": "            \"So does this: \\(await getMoreData())\"",
+        "translatedContent": "            \"So does this: \\(await getMoreData())\""
+      },
+      {
+        "row": 12,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 13,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 14,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\nBy using the `AsyncForEach` element, any `AsyncSequence` can be efficiently rendered straight to HTML.\n",
+    "ContentSha": "SkYeeRI0iqTpsBRRWxx2PZqcJ6FrPog7W93tsLAgD8E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nAl usar el elemento `AsyncForEach`, cualquier `AsyncSequence` puede renderizarse eficientemente directamente en HTML.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "XQ5SbE4N5EL9+NuS8b4PoNHS37YeZZOGtAMLCC3CnPg=",
+        "originContent": "By using the `AsyncForEach` element, any `AsyncSequence` can be efficiently rendered straight to HTML.",
+        "translatedContent": "Al usar el elemento `AsyncForEach`, cualquier `AsyncSequence` puede renderizarse eficientemente directamente en HTML."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```swift\nul {\n    // the full result never needs to be stored in memory...\n    let users = try await db.users.findAll()\n    // ...as each async sequence element...\n    AsyncForEach(users) { user in\n        // ...is immediately streamed out as HTML\n        li { \"\\(user.name) \\(user.favoriteProgrammingLanguage)\" }\n    }\n}\n```",
+    "ContentSha": "BNTOi/zFH1QJXlzLXP4DAj/UhExA3qly3eBLYfM8/A0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\nul {\n    // the full result never needs to be stored in memory...\n    let users = try await db.users.findAll()\n    // ...as each async sequence element...\n    AsyncForEach(users) { user in\n        // ...is immediately streamed out as HTML\n        li { \"\\(user.name) \\(user.favoriteProgrammingLanguage)\" }\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "24s4OAKAkk5nBuQgrR+QkJeXlgPy8aIUrmR3XmPoBuQ=",
+        "originContent": "ul {",
+        "translatedContent": "ul {"
+      },
+      {
+        "row": 3,
+        "rowsha": "wngfhiKQgQD2+mzzn0b2dJXewtLgh3KtMzWb2KozKZk=",
+        "originContent": "    // the full result never needs to be stored in memory...",
+        "translatedContent": "    // the full result never needs to be stored in memory..."
+      },
+      {
+        "row": 4,
+        "rowsha": "IdT9rdQrn1rs5Vz8SBYPB5vwXaHZck2QUU903Shs7iI=",
+        "originContent": "    let users = try await db.users.findAll()",
+        "translatedContent": "    let users = try await db.users.findAll()"
+      },
+      {
+        "row": 5,
+        "rowsha": "X9QTMEg6Atnr0JTOi4drFU9kBCJKQihH1Q5ELOYtwKw=",
+        "originContent": "    // ...as each async sequence element...",
+        "translatedContent": "    // ...as each async sequence element..."
+      },
+      {
+        "row": 6,
+        "rowsha": "cZL9VJX4tvLlln709UP4oF+28q6oNGVxC205SoLZWJE=",
+        "originContent": "    AsyncForEach(users) { user in",
+        "translatedContent": "    AsyncForEach(users) { user in"
+      },
+      {
+        "row": 7,
+        "rowsha": "hIAs5jY7B6IXn7MMMQ8cD/wRX/3++KM8amNhejX8Z98=",
+        "originContent": "        // ...is immediately streamed out as HTML",
+        "translatedContent": "        // ...is immediately streamed out as HTML"
+      },
+      {
+        "row": 8,
+        "rowsha": "K6WLzFeK0DPm8B+qiW3n6ZSUEZ+kRMbr+0A4FAa2OY0=",
+        "originContent": "        li { \"\\(user.name) \\(user.favoriteProgrammingLanguage)\" }",
+        "translatedContent": "        li { \"\\(user.name) \\(user.favoriteProgrammingLanguage)\" }"
+      },
+      {
+        "row": 9,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n## Enviroment values\n\nElementary utilizes `TaskLocal`s to provide a light-weight environment system.\n",
+    "ContentSha": "hKFZhrvX+D84ONqgMY5NbscbP1Ecuce526a1pIAYrbk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Valores de entorno\n\nElementary utiliza `TaskLocal`s para proporcionar un sistema de entorno liviano.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cmi7i/ii2Y9QT7X6ThXkv1pseJxyyp2bl5uMp5Dvz4U=",
+        "originContent": "## Enviroment values",
+        "translatedContent": "## Valores de entorno"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VPwhcFtxm231h3OvUDdFispi72+xVSCheLKFaqBMmNY=",
+        "originContent": "Elementary utilizes `TaskLocal`s to provide a light-weight environment system.",
+        "translatedContent": "Elementary utiliza `TaskLocal`s para proporcionar un sistema de entorno liviano."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```swift\nenum MyValues {\n    // task-locals act as keys, ...\n    @TaskLocal static var userName = \"Anonymous\"\n}\n\nstruct MyComponent: HTML {\n    // ... their values can be accessed ...\n    @Environment(MyValues.$userName) var userName\n\n    var content: some HTML {\n        p { \"Hello, \\(userName)!\" }\n    }\n}\n\ndiv {\n    // ... and provided in a familiar way\n    MyComponent()\n        .environment(Values.$userName, \"Drax the Destroyer\")\n}\n```",
+    "ContentSha": "zUMm03V1oF74GAe7SXytyAXfVPlsn654BYpXCYOQ4Rw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\nenum MyValues {\n    // task-locals act as keys, ...\n    @TaskLocal static var userName = \"Anonymous\"\n}\n\nstruct MyComponent: HTML {\n    // ... their values can be accessed ...\n    @Environment(MyValues.$userName) var userName\n\n    var content: some HTML {\n        p { \"Hello, \\(userName)!\" }\n    }\n}\n\ndiv {\n    // ... and provided in a familiar way\n    MyComponent()\n        .environment(Values.$userName, \"Drax the Destroyer\")\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "Rq0kmHP2qOtsnNyzEnnZcEy3+KySbW/3+aahZrfVXU0=",
+        "originContent": "enum MyValues {",
+        "translatedContent": "enum MyValues {"
+      },
+      {
+        "row": 3,
+        "rowsha": "EReXlU1e7Ph+MpEXmG5LGQv3Nuf8q/Dz+cy/CoV6DxM=",
+        "originContent": "    // task-locals act as keys, ...",
+        "translatedContent": "    // task-locals act as keys, ..."
+      },
+      {
+        "row": 4,
+        "rowsha": "GV16FiwJ854C8yZl8V0lMlHh5jWFqbHOzT6DeeTWvho=",
+        "originContent": "    @TaskLocal static var userName = \"Anonymous\"",
+        "translatedContent": "    @TaskLocal static var userName = \"Anonymous\""
+      },
+      {
+        "row": 5,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "X5o+/Z3/kib/gPnc28FZzaux3vVy2tXq3WH0UYTA1B0=",
+        "originContent": "struct MyComponent: HTML {",
+        "translatedContent": "struct MyComponent: HTML {"
+      },
+      {
+        "row": 8,
+        "rowsha": "tIxhpuuFvfx2Y9imuFcBZNVDV7uHpcf5US/7a802eAw=",
+        "originContent": "    // ... their values can be accessed ...",
+        "translatedContent": "    // ... their values can be accessed ..."
+      },
+      {
+        "row": 9,
+        "rowsha": "MPDDASvyTk3FMkYJbn/LbOyXcTVFMW9e2YRAYX4O5vs=",
+        "originContent": "    @Environment(MyValues.$userName) var userName",
+        "translatedContent": "    @Environment(MyValues.$userName) var userName"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "gBPFR4gKPmAVXfiQqYHNI3cXdE00i6xZItpfE2410fU=",
+        "originContent": "    var content: some HTML {",
+        "translatedContent": "    var content: some HTML {"
+      },
+      {
+        "row": 12,
+        "rowsha": "fDsmzQ1og7s+jNFyRTZ4bmdm6XFbfcpgBmHsMkn3FgE=",
+        "originContent": "        p { \"Hello, \\(userName)!\" }",
+        "translatedContent": "        p { \"Hello, \\(userName)!\" }"
+      },
+      {
+        "row": 13,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 14,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "zv7Z9Vb79EkO6f5RBMdZdZEwdph833Yrxjzs8TeH1yM=",
+        "originContent": "div {",
+        "translatedContent": "div {"
+      },
+      {
+        "row": 17,
+        "rowsha": "JEAcbqxC01WQgCJNP0Cmp61KNThI3ZmaHRyBdbom9SA=",
+        "originContent": "    // ... and provided in a familiar way",
+        "translatedContent": "    // ... and provided in a familiar way"
+      },
+      {
+        "row": 18,
+        "rowsha": "4DK6UR1yKGm5dFX50hDtvC7+Rk55M2g/IGxsFUTMYV8=",
+        "originContent": "    MyComponent()",
+        "translatedContent": "    MyComponent()"
+      },
+      {
+        "row": 19,
+        "rowsha": "vNarSzry3gQZG+0J++FTwjEH1lzqvjFHn17YK4V29p0=",
+        "originContent": "        .environment(Values.$userName, \"Drax the Destroyer\")",
+        "translatedContent": "        .environment(Values.$userName, \"Drax the Destroyer\")"
+      },
+      {
+        "row": 20,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n### 🚧 Work in progress 🚧\n\nThe list of built-in attributes is far from complete, but adding them is really simple (and can be done in external packages as well).\n\nFeel free to open a PR with additional attributes that are missing from the model.\n\n## Motivation and other packages\n\n[Plot](https://github.com/JohnSundell/Plot), [HTMLKit](https://github.com/vapor-community/HTMLKit), and [Swim](https://github.com/robb/Swim) are all excellent packages for doing a similar thing.\n\nMy main motivation for Elementary was to create an experience like these ([Swift Forums post](https://forums.swift.org/t/elementary-a-modern-and-efficient-html-rendering-library-inspired-by-swiftui-built-for-the-web/72647) for more context), but\n\n- stay true to HTML tag names and conventions (including the choice of lowercase types)\n- avoid allocating an intermedate structure and go straight to streaming HTML\n- using generics to stay away from allocating a ton of lists of existential `any`s\n- have a list of attributes go before the content block\n- provide _attribute fallthrough_ and merging\n- zero dependencies on other packages\n\n[Tokamak](https://github.com/TokamakUI/Tokamak) is an awesome project and very inspiring. It can produce HTML, but it's main focus is on a very different beast. Check it out!\n\n[swift-html](https://github.com/pointfreeco/swift-html) and [swift-dom](https://github.com/tayloraswift/swift-dom) will produce HTML nicely, but they use a different syntax for composing HTML elements.\n\n## Future directions\n\n- Experiment with embedded swift for wasm and bolt a lean state tracking/reconciler for reactive DOM manipulation on top\n",
+    "ContentSha": "Wy78zTITNlHf+fvcLLWFUgwPNkAaReG6zxBi5pBOLDU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 🚧 Trabajo en progreso 🚧\n\nLa lista de atributos incorporados está lejos de estar completa, pero agregarlos es realmente simple (y también se puede hacer en paquetes externos).\n\nSiéntete libre de abrir un PR con atributos adicionales que falten en el modelo.\n\n## Motivación y otros paquetes\n\n[Plot](https://github.com/JohnSundell/Plot), [HTMLKit](https://github.com/vapor-community/HTMLKit) y [Swim](https://github.com/robb/Swim) son todos paquetes excelentes para hacer algo similar.\n\nMi principal motivación para Elementary fue crear una experiencia como estas ([publicación en Swift Forums](https://forums.swift.org/t/elementary-a-modern-and-efficient-html-rendering-library-inspired-by-swiftui-built-for-the-web/72647) para más contexto), pero\n\n- mantenernos fieles a los nombres y convenciones de etiquetas HTML (incluida la elección de tipos en minúsculas)\n- evitar asignar una estructura intermedia e ir directamente a transmitir HTML\n- usar genéricos para evitar asignar muchas listas de `any`s existenciales\n- tener una lista de atributos antes del bloque de contenido\n- proporcionar _atributo paso a través_ y fusión\n- cero dependencias de otros paquetes\n\n[Tokamak](https://github.com/TokamakUI/Tokamak) es un proyecto impresionante y muy inspirador. Puede producir HTML, pero su enfoque principal es en una bestia muy diferente. ¡Échale un vistazo!\n\n[swift-html](https://github.com/pointfreeco/swift-html) y [swift-dom](https://github.com/tayloraswift/swift-dom) producen HTML muy bien, pero usan una sintaxis diferente para componer elementos HTML.\n\n## Direcciones futuras\n\n- Experimentar con swift embebido para wasm y construir un seguimiento de estado/reconciliador ligero para manipulación reactiva del DOM encima\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lhBvbT4pm5ioFHm/XBcymd5gKPuHQXEHnYHa1pcAEec=",
+        "originContent": "### 🚧 Work in progress 🚧",
+        "translatedContent": "### 🚧 Trabajo en progreso 🚧"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "gRQG9Rz7vX/c3MfIlHR62gT4Xb1g6zWvNtbb1nQ8bGU=",
+        "originContent": "The list of built-in attributes is far from complete, but adding them is really simple (and can be done in external packages as well).",
+        "translatedContent": "La lista de atributos incorporados está lejos de estar completa, pero agregarlos es realmente simple (y también se puede hacer en paquetes externos)."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "5233LF57tS10DFn8EY+lDXD1igFGxOOP8YifaWM5tZ8=",
+        "originContent": "Feel free to open a PR with additional attributes that are missing from the model.",
+        "translatedContent": "Siéntete libre de abrir un PR con atributos adicionales que falten en el modelo."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "AX+IE9u0Iq7gIv+o7mmatf18IbTu7YLBK1AXIYXkmk0=",
+        "originContent": "## Motivation and other packages",
+        "translatedContent": "## Motivación y otros paquetes"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "M3fWyvnAO1MsHjt0dcZ6JUDRmpvY4Fp+T+kwwnVbDGo=",
+        "originContent": "[Plot](https://github.com/JohnSundell/Plot), [HTMLKit](https://github.com/vapor-community/HTMLKit), and [Swim](https://github.com/robb/Swim) are all excellent packages for doing a similar thing.",
+        "translatedContent": "[Plot](https://github.com/JohnSundell/Plot), [HTMLKit](https://github.com/vapor-community/HTMLKit) y [Swim](https://github.com/robb/Swim) son todos paquetes excelentes para hacer algo similar."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "EAdpFDwIoS/tnHMKymAsmHa4r6G1f8RDe/HMFpwv6wc=",
+        "originContent": "My main motivation for Elementary was to create an experience like these ([Swift Forums post](https://forums.swift.org/t/elementary-a-modern-and-efficient-html-rendering-library-inspired-by-swiftui-built-for-the-web/72647) for more context), but",
+        "translatedContent": "Mi principal motivación para Elementary fue crear una experiencia como estas ([publicación en Swift Forums](https://forums.swift.org/t/elementary-a-modern-and-efficient-html-rendering-library-inspired-by-swiftui-built-for-the-web/72647) para más contexto), pero"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "RBtHMYDfzC7SAnyMQcjkvx4oidHd4fZStEaToczA/6Q=",
+        "originContent": "- stay true to HTML tag names and conventions (including the choice of lowercase types)",
+        "translatedContent": "- mantenernos fieles a los nombres y convenciones de etiquetas HTML (incluida la elección de tipos en minúsculas)"
+      },
+      {
+        "row": 15,
+        "rowsha": "7c4PQg7m3EA7IXBkeNQDhBx2HnexJGN7VjSUKBh3krM=",
+        "originContent": "- avoid allocating an intermedate structure and go straight to streaming HTML",
+        "translatedContent": "- evitar asignar una estructura intermedia e ir directamente a transmitir HTML"
+      },
+      {
+        "row": 16,
+        "rowsha": "PknYp9Zn48lzQZWhbbQawHeI5eU88jhJHpEsrLpQfS0=",
+        "originContent": "- using generics to stay away from allocating a ton of lists of existential `any`s",
+        "translatedContent": "- usar genéricos para evitar asignar muchas listas de `any`s existenciales"
+      },
+      {
+        "row": 17,
+        "rowsha": "lwgLo4KqWQWT+A5wYSCBMn8chlMQ5kuQfoHo7Ee88TE=",
+        "originContent": "- have a list of attributes go before the content block",
+        "translatedContent": "- tener una lista de atributos antes del bloque de contenido"
+      },
+      {
+        "row": 18,
+        "rowsha": "9VFES42nA3BTPb+JTszv4URIWDjstS/iDL6Yr+Y7J7k=",
+        "originContent": "- provide _attribute fallthrough_ and merging",
+        "translatedContent": "- proporcionar _atributo paso a través_ y fusión"
+      },
+      {
+        "row": 19,
+        "rowsha": "XXQSrJJOP5ScTSabZDzjFc3qbSsp6pwTp74ItgOTml0=",
+        "originContent": "- zero dependencies on other packages",
+        "translatedContent": "- cero dependencias de otros paquetes"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "us9JPuq2PvsEpyZfFcaq+X8zNNvsxdibphbwfighihg=",
+        "originContent": "[Tokamak](https://github.com/TokamakUI/Tokamak) is an awesome project and very inspiring. It can produce HTML, but it's main focus is on a very different beast. Check it out!",
+        "translatedContent": "[Tokamak](https://github.com/TokamakUI/Tokamak) es un proyecto impresionante y muy inspirador. Puede producir HTML, pero su enfoque principal es en una bestia muy diferente. ¡Échale un vistazo!"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "bTqqHr3XvPwwLDCMfqLMmxaU/S6g+AtFA1VIyO8bKD8=",
+        "originContent": "[swift-html](https://github.com/pointfreeco/swift-html) and [swift-dom](https://github.com/tayloraswift/swift-dom) will produce HTML nicely, but they use a different syntax for composing HTML elements.",
+        "translatedContent": "[swift-html](https://github.com/pointfreeco/swift-html) y [swift-dom](https://github.com/tayloraswift/swift-dom) producen HTML muy bien, pero usan una sintaxis diferente para componer elementos HTML."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "1hbXcPcePqav/pKlPjCSyfRj9LiCouupaqMvkIZwRqw=",
+        "originContent": "## Future directions",
+        "translatedContent": "## Direcciones futuras"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "kaH7YbFYCBicZOg9zCPJYLQZkQew+A0ISWi2qSMRiVE=",
+        "originContent": "- Experiment with embedded swift for wasm and bolt a lean state tracking/reconciler for reactive DOM manipulation on top",
+        "translatedContent": "- Experimentar con swift embebido para wasm y construir un seguimiento de estado/reconciliador ligero para manipulación reactiva del DOM encima"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

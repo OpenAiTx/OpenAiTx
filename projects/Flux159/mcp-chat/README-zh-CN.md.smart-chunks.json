@@ -1,0 +1,1507 @@
+[
+  {
+    "Id": 1,
+    "Content": "# mcp-chat\n\nOpen Source Generic MCP Client for testing & evaluating mcp servers and agents\n\n<p align=\"center\">\n  <img width=\"600\" src=\"https://raw.githubusercontent.com/Flux159/mcp-chat/refs/heads/main/mcpchat.svg\">\n</p>\n\n## Quickstart\n\nMake sure that you have `ANTHROPIC_API_KEY` exported in your environment or in a .env file in the root of the project. You can get an API key by signing up at the [Anthropic Console keys page](https://console.anthropic.com/settings/keys).\n\nSimple use case that spawns an interactive chat prompt with the filesystem MCP server from CLI:\n",
+    "ContentSha": "VmQndoqsKijmGhRomg9tMa1xZAfZK+zj7sh15T+bJ9w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# mcp-chat\n\n开源通用 MCP 客户端，用于测试和评估 MCP 服务器和代理\n\n<p align=\"center\">\n  <img width=\"600\" src=\"https://raw.githubusercontent.com/Flux159/mcp-chat/refs/heads/main/mcpchat.svg\">\n</p>\n\n## 快速开始\n\n确保你已在环境变量或项目根目录的 .env 文件中导出 `ANTHROPIC_API_KEY`。你可以通过注册[Anthropic 控制台密钥页面](https://console.anthropic.com/settings/keys)来获取 API 密钥。\n\n简单用例，从命令行启动一个与文件系统 MCP 服务器交互的聊天提示：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uT22Bh/nmIejty9LVSbHquljj87ynK+9XbbqXgXBQJs=",
+        "originContent": "# mcp-chat",
+        "translatedContent": "# mcp-chat"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "kZCZNgOeB+Udnk2vX1sXZaW9zm+JpfRZeGf1d8MdYC8=",
+        "originContent": "Open Source Generic MCP Client for testing & evaluating mcp servers and agents",
+        "translatedContent": "开源通用 MCP 客户端，用于测试和评估 MCP 服务器和代理"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "k+Sw/RUz6VmhWwi8JBFraLr7hAEI/lWi+nm2pUSoNuU=",
+        "originContent": "  <img width=\"600\" src=\"https://raw.githubusercontent.com/Flux159/mcp-chat/refs/heads/main/mcpchat.svg\">",
+        "translatedContent": "  <img width=\"600\" src=\"https://raw.githubusercontent.com/Flux159/mcp-chat/refs/heads/main/mcpchat.svg\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "669wyUjie7v+j/aS3COPBDwvFiQ8FK2vMv9hGy+oUHE=",
+        "originContent": "## Quickstart",
+        "translatedContent": "## 快速开始"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "/GHjnXUaWoE20EQfkr/Sq4H4HdTXgUIDu+6xBjZkKVU=",
+        "originContent": "Make sure that you have `ANTHROPIC_API_KEY` exported in your environment or in a .env file in the root of the project. You can get an API key by signing up at the [Anthropic Console keys page](https://console.anthropic.com/settings/keys).",
+        "translatedContent": "确保你已在环境变量或项目根目录的 .env 文件中导出 `ANTHROPIC_API_KEY`。你可以通过注册[Anthropic 控制台密钥页面](https://console.anthropic.com/settings/keys)来获取 API 密钥。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "c3qDwaG5rmNU8Jgrf/PyLT6jqF05pRbQddDb67J9oDc=",
+        "originContent": "Simple use case that spawns an interactive chat prompt with the filesystem MCP server from CLI:",
+        "translatedContent": "简单用例，从命令行启动一个与文件系统 MCP 服务器交互的聊天提示："
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```shell\nnpx mcp-chat --server \"npx -y @modelcontextprotocol/server-filesystem /Users/$USER/Desktop\"\n```",
+    "ContentSha": "3/B1Ha8XitzZibjiKYpBpc1SD585BMw3EG7KwI5vjAk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nnpx mcp-chat --server \"npx -y @modelcontextprotocol/server-filesystem /Users/$USER/Desktop\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "WGTFjgym4REE7Vw5LmnhCr9i4xqRPYClv08jWDpphqA=",
+        "originContent": "npx mcp-chat --server \"npx -y @modelcontextprotocol/server-filesystem /Users/$USER/Desktop\"",
+        "translatedContent": "npx mcp-chat --server \"npx -y @modelcontextprotocol/server-filesystem /Users/$USER/Desktop\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nThis will open up a chat prompt that you can use to interact with the servers and chat with an LLM.\n\n## Config\n\nYou can also just specify your claude_desktop_config.json (Mac):\n",
+    "ContentSha": "dPPe+DPPYYGCKxkxDVFqXgNNwAy0RB2Y7c/skwoLLx4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "这将打开一个聊天提示，您可以使用它与服务器交互并与大型语言模型聊天。\n\n## 配置\n\n您也可以直接指定您的 claude_desktop_config.json（Mac）：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "这将打开一个聊天提示，您可以使用它与服务器交互并与大型语言模型聊天。"
+      },
+      {
+        "row": 2,
+        "rowsha": "VHhXgajItepEQF/mUbJqpTOW2LPdLGPShZ8gFmTNQC8=",
+        "originContent": "This will open up a chat prompt that you can use to interact with the servers and chat with an LLM.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 配置"
+      },
+      {
+        "row": 4,
+        "rowsha": "YGxdO1f/0d1f/W8zg7RDnCPojIzbNHuVxqKVUORRPVw=",
+        "originContent": "## Config",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "您也可以直接指定您的 claude_desktop_config.json（Mac）："
+      },
+      {
+        "row": 6,
+        "rowsha": "EjJVDQF39bqTy1Bss4y3t9mP7M3WZwgPFDQ2Az9Wxhw=",
+        "originContent": "You can also just specify your claude_desktop_config.json (Mac):",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```shell\nnpx mcp-chat --config \"~/Library/Application Support/Claude/claude_desktop_config.json\"\n```",
+    "ContentSha": "YeTEKPzMbl1BdsO4rEOlK+XMhyf3kOI/S/GLBSe0kkU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nnpx mcp-chat --config \"~/Library/Application Support/Claude/claude_desktop_config.json\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "Q/I8KE2dgU0TUhhSbeZIP/Z+uxwM1hZ0rMYbqQ0dbFk=",
+        "originContent": "npx mcp-chat --config \"~/Library/Application Support/Claude/claude_desktop_config.json\"",
+        "translatedContent": "npx mcp-chat --config \"~/Library/Application Support/Claude/claude_desktop_config.json\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nOr (Windows):\n",
+    "ContentSha": "4cNgTOI50d1kjyGqBOXTEyu6mGVzf+fNWv2sEfFy8vs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "或（Windows）：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "或（Windows）："
+      },
+      {
+        "row": 2,
+        "rowsha": "+9IqCdcHWFYBXhi+ZHtdoIYLtmuHqX5B/ruB/AzsNQA=",
+        "originContent": "Or (Windows):",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```shell\nnpx mcp-chat --config \"%APPDATA%\\Claude\\claude_desktop_config.json\"\n```",
+    "ContentSha": "hhU17644rQ5w9KSS3DJHTgQCIv9gbS4izU8CQ6E9Toc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nnpx mcp-chat --config \"%APPDATA%\\Claude\\claude_desktop_config.json\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "mO4ro/ppmPBLXwLBJ/m+grRm1hTVZIaa2I/gh/W4fLY=",
+        "originContent": "npx mcp-chat --config \"%APPDATA%\\Claude\\claude_desktop_config.json\"",
+        "translatedContent": "npx mcp-chat --config \"%APPDATA%\\Claude\\claude_desktop_config.json\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## Web mode\n\nhttps://github.com/user-attachments/assets/b7e8a648-8084-4955-8cdf-fc6eb141572e\n\nYou can also run mcp-chat in web mode by specifying the `--web` flag (make sure to have `ANTHROPIC_API_KEY` exported in your environment):\n",
+    "ContentSha": "rGx1hE1dkcaYyXGP4hBF1Of6bnl/wJWr5aexvNBhXDg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Web mode\n\nhttps://github.com/user-attachments/assets/b7e8a648-8084-4955-8cdf-fc6eb141572e\n\nYou can also run mcp-chat in web mode by specifying the `--web` flag (make sure to have `ANTHROPIC_API_KEY` exported in your environment):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "UBMKxV8dlKTYkevAaDxnrwEymzO3GN1EfdFrf6Pkn78=",
+        "originContent": "## Web mode",
+        "translatedContent": "## Web mode"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "tjRGn67UHOrtSXbOb4GhFVg7EQq4gWtvIGE0j2Wx50I=",
+        "originContent": "https://github.com/user-attachments/assets/b7e8a648-8084-4955-8cdf-fc6eb141572e",
+        "translatedContent": "https://github.com/user-attachments/assets/b7e8a648-8084-4955-8cdf-fc6eb141572e"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "AjOzWWgsxRn9YF2emplg3YmpCG/NnvnXUBYqKs/eN6s=",
+        "originContent": "You can also run mcp-chat in web mode by specifying the `--web` flag (make sure to have `ANTHROPIC_API_KEY` exported in your environment):",
+        "translatedContent": "You can also run mcp-chat in web mode by specifying the `--web` flag (make sure to have `ANTHROPIC_API_KEY` exported in your environment):"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```shell\nnpx mcp-chat --web\n```",
+    "ContentSha": "KlFGT+uYXqHUFLc4r1diqgDFUifxqFtFjI2W65/DZeg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nnpx mcp-chat --web\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "CarymhJ+wByExDSinO+aycoCJjEtHO/shwO2ZKMXOe0=",
+        "originContent": "npx mcp-chat --web",
+        "translatedContent": "npx mcp-chat --web"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nIn web mode, you can start new chats, send messages to the model, and dynamically configure the mcp servers via the UI - no need to specify on the command line. In addition, chats created via the Web UI are saved to ~/.mcpchats/chats just like chats created via the CLI.\n\n## Features\n\n- [x] Run via CLI in interactive mode or directly pass prompts with `-p`\n- [x] Web mode to chat with models via a web interface `--web`\n- [x] Connect to any MCP server (JS, Python, Docker) in production or during development\n- [x] Choose between models with `-m`\n- [x] Customize system prompt with `--system`\n- [x] Saves chat history with settings in `~/.mcpchat/chats` including web chats\n- [x] Save and restore commands in `~/.mcpchat/history`\n- [x] View tool call output and arguments directly in chat to help debug mcp servers\n\n## CLI Usage\n\nRun prompts via CLI with the `-p` flag:\n",
+    "ContentSha": "jt7C0nRWl7/tNZiniTwiE3caC8j7i2uL33nec+kk7yc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "在网页模式下，您可以启动新的聊天，向模型发送消息，并通过界面动态配置 mcp 服务器——无需在命令行中指定。此外，通过网页界面创建的聊天会保存到 ~/.mcpchats/chats 中，就像通过命令行界面创建的聊天一样。\n\n## 功能\n\n- [x] 通过命令行界面以交互模式运行，或使用 `-p` 直接传递提示\n- [x] 网页模式，通过网页界面与模型聊天 `--web`\n- [x] 连接任何 MCP 服务器（JS、Python、Docker），适用于生产或开发环境\n- [x] 通过 `-m` 选择模型\n- [x] 使用 `--system` 自定义系统提示\n- [x] 保存聊天历史及设置到 `~/.mcpchat/chats`，包括网页聊天\n- [x] 在 `~/.mcpchat/history` 中保存和恢复命令\n- [x] 直接在聊天中查看工具调用的输出和参数，帮助调试 mcp 服务器\n\n## 命令行界面使用\n\n使用 `-p` 标志通过命令行运行提示：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "在网页模式下，您可以启动新的聊天，向模型发送消息，并通过界面动态配置 mcp 服务器——无需在命令行中指定。此外，通过网页界面创建的聊天会保存到 ~/.mcpchats/chats 中，就像通过命令行界面创建的聊天一样。"
+      },
+      {
+        "row": 2,
+        "rowsha": "O+8P5LVW2Z8yg6jeP+/o9zDNY9RIVPYfeo3RreHAhkg=",
+        "originContent": "In web mode, you can start new chats, send messages to the model, and dynamically configure the mcp servers via the UI - no need to specify on the command line. In addition, chats created via the Web UI are saved to ~/.mcpchats/chats just like chats created via the CLI.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 4,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [x] 通过命令行界面以交互模式运行，或使用 `-p` 直接传递提示"
+      },
+      {
+        "row": 6,
+        "rowsha": "H+F//FvNR2webYtxgPSkyV8l+EK8ql0ZTTfUqLh0KTo=",
+        "originContent": "- [x] Run via CLI in interactive mode or directly pass prompts with `-p`",
+        "translatedContent": "- [x] 网页模式，通过网页界面与模型聊天 `--web`"
+      },
+      {
+        "row": 7,
+        "rowsha": "mTZisz9lvTW+CG+uTqyVaJs4imuk0myWPbCpQcS2ITg=",
+        "originContent": "- [x] Web mode to chat with models via a web interface `--web`",
+        "translatedContent": "- [x] 连接任何 MCP 服务器（JS、Python、Docker），适用于生产或开发环境"
+      },
+      {
+        "row": 8,
+        "rowsha": "49e2HyY/IyFEfq2YDkGs5uiURP4YVDyDqV5GdTff9tU=",
+        "originContent": "- [x] Connect to any MCP server (JS, Python, Docker) in production or during development",
+        "translatedContent": "- [x] 通过 `-m` 选择模型"
+      },
+      {
+        "row": 9,
+        "rowsha": "fmQ3gcr++pfKw4Nlg0pZYTKy8N0vPxACi7BhDGGlURM=",
+        "originContent": "- [x] Choose between models with `-m`",
+        "translatedContent": "- [x] 使用 `--system` 自定义系统提示"
+      },
+      {
+        "row": 10,
+        "rowsha": "sJWp1gQkG8CfsQ1ZyPfTNK7cMZSVnfkZlYvkA8f1WPs=",
+        "originContent": "- [x] Customize system prompt with `--system`",
+        "translatedContent": "- [x] 保存聊天历史及设置到 `~/.mcpchat/chats`，包括网页聊天"
+      },
+      {
+        "row": 11,
+        "rowsha": "tI28BvYozu1mIVWOJTWkMlLzxUCHvbasgtVJySn/CiQ=",
+        "originContent": "- [x] Saves chat history with settings in `~/.mcpchat/chats` including web chats",
+        "translatedContent": "- [x] 在 `~/.mcpchat/history` 中保存和恢复命令"
+      },
+      {
+        "row": 12,
+        "rowsha": "wnxcmbZ+9v3Z5snRgsUEypRO8H+aeglP2uGnemSGvn4=",
+        "originContent": "- [x] Save and restore commands in `~/.mcpchat/history`",
+        "translatedContent": "- [x] 直接在聊天中查看工具调用的输出和参数，帮助调试 mcp 服务器"
+      },
+      {
+        "row": 13,
+        "rowsha": "t8t/cRnx7+ZAwx0wXP36bb8kGMzY4Yezy83kpAhAOzo=",
+        "originContent": "- [x] View tool call output and arguments directly in chat to help debug mcp servers",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 命令行界面使用"
+      },
+      {
+        "row": 15,
+        "rowsha": "DLSniBALTVyRyQUYfHh7y02Jm1dq06zfrJiiu7Uu+RE=",
+        "originContent": "## CLI Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "使用 `-p` 标志通过命令行运行提示："
+      },
+      {
+        "row": 17,
+        "rowsha": "jcduFqtqdns0sSx8oW+HwBbRMAHmj78m5/cChB4QPr4=",
+        "originContent": "Run prompts via CLI with the `-p` flag:",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```shell\nnpx mcp-chat --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"\n```",
+    "ContentSha": "WIzEmCUR9Z+AfsQnpNsj9sevglnV+z10hYDapptSrRI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nnpx mcp-chat --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "9wDN0vRz4VgYJgYcWkpzJWrvuuNXg/0H9IVPG/ksUwQ=",
+        "originContent": "npx mcp-chat --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"",
+        "translatedContent": "npx mcp-chat --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nThis runs the prompt with the kubenertes mcp-server & exits after the response is received on stdout.\n\nChoose a model to chat with via CLI with the `-m` flag:\n",
+    "ContentSha": "Ho39aUBKG3dtr0q1Sa09yeh9v/2Us8rZGpA2aozsEDI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n这会使用 Kubernetes mcp-server 运行提示，并在响应通过标准输出接收后退出。\n\n通过使用 `-m` 参数在命令行界面选择要聊天的模型：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "75e8hPOEJDquYAxuugsMHkKyykmMSsz5qAaUL0yPk+A=",
+        "originContent": "This runs the prompt with the kubenertes mcp-server & exits after the response is received on stdout.",
+        "translatedContent": "这会使用 Kubernetes mcp-server 运行提示，并在响应通过标准输出接收后退出。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "DOnz04ntyiLOGAyJzQmjrZUvOtXAUaLd+oVFWb3znJE=",
+        "originContent": "Choose a model to chat with via CLI with the `-m` flag:",
+        "translatedContent": "通过使用 `-m` 参数在命令行界面选择要聊天的模型："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```shell\nnpx mcp-chat --server \"npx mcp-server-kubernetes\" -m \"claude-3.5\"\n```",
+    "ContentSha": "Wbw52OIc+yl3rUtvbwqK1TkjzznmG/EA0HUw+0zzfyY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nnpx mcp-chat --server \"npx mcp-server-kubernetes\" -m \"claude-3.5\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "oqeAPCKNiH60uS8Tf3OfIp59cve6Io0hxaooFW1HPDc=",
+        "originContent": "npx mcp-chat --server \"npx mcp-server-kubernetes\" -m \"claude-3.5\"",
+        "translatedContent": "npx mcp-chat --server \"npx mcp-server-kubernetes\" -m \"claude-3.5\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nUses the model `claude-3.5` to chat with. Note that currently only Anthropic models are supported.\n\nCustom system prompt:\n\n`--system` flag can be used to specify a system prompt:\n",
+    "ContentSha": "TGbwOBoOAaQUUrDTPnjx/ollcxUPEX9G2dJNquavTZI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n使用模型 `claude-3.5` 进行聊天。请注意，目前仅支持Anthropic模型。\n\n自定义系统提示：\n\n`--system` 标志可用于指定系统提示：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mfLtZu+DL8CcPm3bEnriUq1xfwGJwsefiGuYJpgDpDQ=",
+        "originContent": "Uses the model `claude-3.5` to chat with. Note that currently only Anthropic models are supported.",
+        "translatedContent": "使用模型 `claude-3.5` 进行聊天。请注意，目前仅支持Anthropic模型。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "/EmlnSCpa1EOKjXoXamf2tL38doPYjrx5+/dnJ+Ohx8=",
+        "originContent": "Custom system prompt:",
+        "translatedContent": "自定义系统提示："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "kQgaJjuTegvlALWsAHhS5arr+HRIxAXo65ZGvYoCaEI=",
+        "originContent": "`--system` flag can be used to specify a system prompt:",
+        "translatedContent": "`--system` 标志可用于指定系统提示："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```shell\nnpx mcp-chat --system \"Explain the output to the user in pirate speak.\" --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"\n```",
+    "ContentSha": "slrya/ZoCMhGkbtrySSWmu9aaLE4R4x4UF8yeiJrjos=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nnpx mcp-chat --system \"Explain the output to the user in pirate speak.\" --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "gFapWYLrNEv5NNsSVa1CapJoasdWXSJEfSQz0LTP8/I=",
+        "originContent": "npx mcp-chat --system \"Explain the output to the user in pirate speak.\" --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"",
+        "translatedContent": "npx mcp-chat --system \"Explain the output to the user in pirate speak.\" --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n## ENV vars\n\nMcp-chat supports passing through env vars to mcp servers. This is not standardized in the mcp spec though and other clients may not do this with dynamic env var values - read more [here](https://github.com/Flux159/mcp-server-kubernetes/issues/148#issuecomment-2950181666) about standard stdio mcp clients.\n",
+    "ContentSha": "XrCvX/YgtiKEy9WOZ90jxuD2tvnZL+yy4alBcd89fcY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 环境变量\n\nMcp-chat 支持将环境变量传递给 mcp 服务器。虽然这在 mcp 规范中并未标准化，其他客户端可能不会使用动态环境变量值——更多信息请阅读[这里](https://github.com/Flux159/mcp-server-kubernetes/issues/148#issuecomment-2950181666)关于标准 stdio mcp 客户端。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "zj6li+gBCmq02g6lsaTLxXys/P3QAJ5BNkMPk2++6NM=",
+        "originContent": "## ENV vars",
+        "translatedContent": "## 环境变量"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "rSuZDNuCE25bFkJ/uB0P3gqDGIk78coJkLjsG8iARfw=",
+        "originContent": "Mcp-chat supports passing through env vars to mcp servers. This is not standardized in the mcp spec though and other clients may not do this with dynamic env var values - read more [here](https://github.com/Flux159/mcp-server-kubernetes/issues/148#issuecomment-2950181666) about standard stdio mcp clients.",
+        "translatedContent": "Mcp-chat 支持将环境变量传递给 mcp 服务器。虽然这在 mcp 规范中并未标准化，其他客户端可能不会使用动态环境变量值——更多信息请阅读[这里](https://github.com/Flux159/mcp-server-kubernetes/issues/148#issuecomment-2950181666)关于标准 stdio mcp 客户端。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```shell\nKUBECONFIG=\"~/.kube/config\" npx mcp-chat --server \"npx mcp-server-kubernetes\"\n```",
+    "ContentSha": "Io6cnp7SxYiv6Hk23ipMBiWiuhNuD4EQLEBMtETf1/I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nKUBECONFIG=\"~/.kube/config\" npx mcp-chat --server \"npx mcp-server-kubernetes\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "KCQcAdIiNyqX09EN1UlwwWrwVMHi6AivasnRI2AxROI=",
+        "originContent": "KUBECONFIG=\"~/.kube/config\" npx mcp-chat --server \"npx mcp-server-kubernetes\"",
+        "translatedContent": "KUBECONFIG=\"~/.kube/config\" npx mcp-chat --server \"npx mcp-server-kubernetes\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n## For developers of mcp-servers\n\nYou can pass in a local build of a python or node mcp-server to test it out with mcp-chat:\n\nNode JS:\n",
+    "ContentSha": "xvSSjuKXLCHa09zoNgVSIWts8s7ys773sHzVreuISJI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 针对 mcp-servers 开发者\n\n您可以传入本地构建的 python 或 node mcp-server，以便在 mcp-chat 中进行测试：\n\nNode JS:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "OOmt1RhNbJfr7edWcyDW7GpFU8fnCOMejF9zj0HwfNE=",
+        "originContent": "## For developers of mcp-servers",
+        "translatedContent": "## 针对 mcp-servers 开发者"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "z9i8gW2MFSuAQA8p1KQJIgZxC4QfeJu4QLQ+h2RPk7M=",
+        "originContent": "You can pass in a local build of a python or node mcp-server to test it out with mcp-chat:",
+        "translatedContent": "您可以传入本地构建的 python 或 node mcp-server，以便在 mcp-chat 中进行测试："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "yrK8iMzkAxEJc51gSuaBLC7fvUeHn4s97KlzXsr/0Wg=",
+        "originContent": "Node JS:",
+        "translatedContent": "Node JS:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```shell\n# Directly executing built script\nnpx mcp-chat --server \"/path/to/mcp-server-kubernetes/dist/index.js\"\n# Using node / bun\nnpx mcp-chat --server \"node /path/to/mcp-server-kubernetes/dist/index.js\"\n```",
+    "ContentSha": "6EeNiWOp33YbNbHpjVFBJnMtS5fq1TYFn+G4JwfpKJQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n# Directly executing built script\nnpx mcp-chat --server \"/path/to/mcp-server-kubernetes/dist/index.js\"\n# Using node / bun\nnpx mcp-chat --server \"node /path/to/mcp-server-kubernetes/dist/index.js\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "R809aFSNXve8cjPNnbPB7DoQ29IZfCVJjnR6LmIuAqA=",
+        "originContent": "# Directly executing built script",
+        "translatedContent": "# Directly executing built script"
+      },
+      {
+        "row": 3,
+        "rowsha": "k1oOa52s4r/o2SqTNxwCYx0QWcG/D+m/4oB3dbPNGwU=",
+        "originContent": "npx mcp-chat --server \"/path/to/mcp-server-kubernetes/dist/index.js\"",
+        "translatedContent": "npx mcp-chat --server \"/path/to/mcp-server-kubernetes/dist/index.js\""
+      },
+      {
+        "row": 4,
+        "rowsha": "GfnOBCZ7yJgswIFgPDwdotO9tECsSr3USk+WLf5W7JM=",
+        "originContent": "# Using node / bun",
+        "translatedContent": "# Using node / bun"
+      },
+      {
+        "row": 5,
+        "rowsha": "h9zBAGVZpmDnOwCPOmJj7z+1Ty+TOc3k7DntkOT5+oQ=",
+        "originContent": "npx mcp-chat --server \"node /path/to/mcp-server-kubernetes/dist/index.js\"",
+        "translatedContent": "npx mcp-chat --server \"node /path/to/mcp-server-kubernetes/dist/index.js\""
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\nPython:\n",
+    "ContentSha": "W4GCRpOYbkOdjEqC2Ls9gLs90PKCc9Pavh1Sq+uy+iI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nPython：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "p3KgPZW2VbE/pgN2478eaSC6Auuuy2/K4wViWTK5gs4=",
+        "originContent": "Python:",
+        "translatedContent": "Python："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```shell\n# Python: Using uv\nnpx mcp-chat --server \"uv --directory /path/to/mcp-server-weather/ run weather.py\"\n# Using python / python3 - make sure to run in venv or install deps globally\nnpx mcp-chat --server \"/path/to/mcp-server-weather/weather.py\"\n```",
+    "ContentSha": "DI4LTctnqZ/in1ksriTOWJQpr1a9DIMX80FSGr5ho88=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n# Python: Using uv\nnpx mcp-chat --server \"uv --directory /path/to/mcp-server-weather/ run weather.py\"\n# Using python / python3 - make sure to run in venv or install deps globally\nnpx mcp-chat --server \"/path/to/mcp-server-weather/weather.py\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "7/+jUUJesxQ+PXO0eupDs9F6Efw2qC26blxpsFHZvY4=",
+        "originContent": "# Python: Using uv",
+        "translatedContent": "# Python: Using uv"
+      },
+      {
+        "row": 3,
+        "rowsha": "GTeV1VzaGZ/riWkSde5DgZQKY9cdE4VnSXEvcOcCvZU=",
+        "originContent": "npx mcp-chat --server \"uv --directory /path/to/mcp-server-weather/ run weather.py\"",
+        "translatedContent": "npx mcp-chat --server \"uv --directory /path/to/mcp-server-weather/ run weather.py\""
+      },
+      {
+        "row": 4,
+        "rowsha": "SLaQhFh0cxXd0bRWuPqJkHzTqLB4MEcFRGKz6vjIsP4=",
+        "originContent": "# Using python / python3 - make sure to run in venv or install deps globally",
+        "translatedContent": "# Using python / python3 - make sure to run in venv or install deps globally"
+      },
+      {
+        "row": 5,
+        "rowsha": "gDddcEo5fCqUauXF66EYo8y7lHFm1UTsckP5shLOMGY=",
+        "originContent": "npx mcp-chat --server \"/path/to/mcp-server-weather/weather.py\"",
+        "translatedContent": "npx mcp-chat --server \"/path/to/mcp-server-weather/weather.py\""
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n## Development\n\nInstall dependencies & run the CLI:\n",
+    "ContentSha": "llwgcbaWRnH1bUq1pzYF7XGdtaGbSaO9J593c2zzTtg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 开发\n\n安装依赖并运行 CLI：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+        "originContent": "## Development",
+        "translatedContent": "## 开发"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "RlDiIHQt3UN8Zjl3Ex1ijeOOPUxGeLu0fBFBVFD45PE=",
+        "originContent": "Install dependencies & run the CLI:",
+        "translatedContent": "安装依赖并运行 CLI："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```shell\ngit clone https://github.com/Flux159/mcp-chat\nbun install\nbun run dev\n```",
+    "ContentSha": "H2PFZZpPqa/XypdD5KBsG4eM7JiIeVwVoBAKdfBT35Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\ngit clone https://github.com/Flux159/mcp-chat\nbun install\nbun run dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "oea2RSsUQZ77YiPhr8N0UOqDCZa+t8DisuLVDntxIM4=",
+        "originContent": "git clone https://github.com/Flux159/mcp-chat",
+        "translatedContent": "git clone https://github.com/Flux159/mcp-chat"
+      },
+      {
+        "row": 3,
+        "rowsha": "RAIvLI8HDhTbWMoQcMwOTTeOq6nSx+D26EYHLqg7XQw=",
+        "originContent": "bun install",
+        "translatedContent": "bun install"
+      },
+      {
+        "row": 4,
+        "rowsha": "8WwHkmbi82OCXdfiN4/7LLEtY5NOXvhPZrvhLOhJ7eU=",
+        "originContent": "bun run dev",
+        "translatedContent": "bun run dev"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\nTo develop mcp-chat while connecting to an mcp-server, make a build & run the CLI with the server flag:\n",
+    "ContentSha": "/Lum5mtMOgOjkp9mLQ/AuVx6OG/tO7CVZw403cczIOA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "要在连接到 mcp-server 的情况下开发 mcp-chat，请构建并使用服务器标志运行 CLI：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "要在连接到 mcp-server 的情况下开发 mcp-chat，请构建并使用服务器标志运行 CLI："
+      },
+      {
+        "row": 2,
+        "rowsha": "iytQpENseJYeImh1w77yF9EP34UQlTradPTum2DsFt8=",
+        "originContent": "To develop mcp-chat while connecting to an mcp-server, make a build & run the CLI with the server flag:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```shell\nnpm run build && node dist/index.js --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"\n```",
+    "ContentSha": "QwEfz8rM7rPxZLylJc2LC+aMFWd2BD8GLNseQ1jYqGQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nnpm run build && node dist/index.js --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "dKWiMmswNoL9gibcya51ftwstvQ9KClQr6zUDfXbewg=",
+        "originContent": "npm run build && node dist/index.js --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"",
+        "translatedContent": "npm run build && node dist/index.js --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\nTesting:\n",
+    "ContentSha": "PVxctOkG3rkGnVkaW0odH/boP8q5Yr8PfvmVpWeb4QQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "测试：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "测试："
+      },
+      {
+        "row": 2,
+        "rowsha": "V5NY9q5YMf8mrfc0CAkPrP0WvGGQKI6BL1U6Fn4Smic=",
+        "originContent": "Testing:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```shell\nbun run test\n```",
+    "ContentSha": "X0m77EEQDkIgiC+8wwCqPFVfH68Q8pB3bci+iYUxVBg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nbun run test\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "/Q4jbfv2BHz4m+/VlQR3NzWnT9k0wCNljQSLWO0aNgU=",
+        "originContent": "bun run test",
+        "translatedContent": "bun run test"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\nBuilding:\n",
+    "ContentSha": "2Vr5UO3xhsp9x08DLiSUUiYVnkj0H5p59jRiMFx4zXY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "建筑物：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "建筑物："
+      },
+      {
+        "row": 2,
+        "rowsha": "Noa71k63CXwK9z4tGiKBuy+IHKOfCBhNRTD2IjYZ9j4=",
+        "originContent": "Building:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```shell\nbun run build\n```",
+    "ContentSha": "yXMxHrPMSog+uL/k0zwkW8WTIzmM2GHWrSGDu6lKcjk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nbun run build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "2+ip4sZNhL0tjOHip6LJ9wZaNoc5s0vYjde7TiM7fpQ=",
+        "originContent": "bun run build",
+        "translatedContent": "bun run build"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\nPublishing:\n",
+    "ContentSha": "5tPoxHeHz1zfglQZ2Z92XLvwRG+OAD/nv+mEcsJfXtQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "发布：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "发布："
+      },
+      {
+        "row": 2,
+        "rowsha": "g4mZklJt+79XBt7mrwRW1vKlv062YhkEvKS2WCtyfG4=",
+        "originContent": "Publishing:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "```shell\nbun run publish\n```",
+    "ContentSha": "W8txnAOo1EVvoQjGMbr4bxB9kAYd6GfkdKrk8abJCN4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nbun run publish\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "g84ag3aN3Mov+GWqz2nIC4ILLtQ6kQDQPAeBJB4hG3o=",
+        "originContent": "bun run publish",
+        "translatedContent": "bun run publish"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "\nPublishing Docker:\n",
+    "ContentSha": "lEJJHvAECg4N7Aoa5N5y7uv/ar74WtvlAlGE4lxle/w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "发布 Docker：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "发布 Docker："
+      },
+      {
+        "row": 2,
+        "rowsha": "5KDxMsr4ivQCPgDhBznjcJRaBsCipWEX6QwyMnZJT0Q=",
+        "originContent": "Publishing Docker:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 32,
+    "Content": "```shell\nbun run dockerbuild\n```",
+    "ContentSha": "JKisw82kIxoSg5RxV6DYGFCMgy+s5WG6wL/6dHWXglI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nbun run dockerbuild\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "+odKS8HC/m4JWiz1ga0N5FzlxJYm3V7pS4TZlLYUoGQ=",
+        "originContent": "bun run dockerbuild",
+        "translatedContent": "bun run dockerbuild"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 33,
+    "Content": "\n### Project Structure\n",
+    "ContentSha": "ZQqk5Ygf2G2vrENVXJ9cJshWHBrDNTb33rByESQtJ1A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 项目结构\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "LhSV6uyxzWqT0ogFCmU00Wa6CfiB7nPMeRVYFMvBY0I=",
+        "originContent": "### Project Structure",
+        "translatedContent": "### 项目结构"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 34,
+    "Content": "```\n├── src/\n│   ├── index.ts            # Main client implementation & CLI params\n│   ├── constants.ts        # Default constants\n│   ├── interactive.ts      # Interactive chat prompt handling & logic\n├── test/                   # Test files\n│   ├── cli.test.ts         # Test CLI params\n│   ├── config.test.ts      # Test config file parsing\n```",
+    "ContentSha": "VIKS/wBqeYSasnEHQIT5U+HfV4O0s2XWR5TfgJdV/50=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n├── src/\n│   ├── index.ts            # Main client implementation & CLI params\n│   ├── constants.ts        # Default constants\n│   ├── interactive.ts      # Interactive chat prompt handling & logic\n├── test/                   # Test files\n│   ├── cli.test.ts         # Test CLI params\n│   ├── config.test.ts      # Test config file parsing\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "otIQYYEfDcoYCv3eF3h9HCMZ2o9BmVb6kajp/hCvhzU=",
+        "originContent": "├── src/",
+        "translatedContent": "├── src/"
+      },
+      {
+        "row": 3,
+        "rowsha": "pqqpPcE0zWACBUgzk29Fu+GrCBkMFGTtzNIf8l8Nwc0=",
+        "originContent": "│   ├── index.ts            # Main client implementation & CLI params",
+        "translatedContent": "│   ├── index.ts            # Main client implementation & CLI params"
+      },
+      {
+        "row": 4,
+        "rowsha": "jwNWv9FJXokSTYOyJ0qGVUmiAMpsAXhuuXDvErPwCIg=",
+        "originContent": "│   ├── constants.ts        # Default constants",
+        "translatedContent": "│   ├── constants.ts        # Default constants"
+      },
+      {
+        "row": 5,
+        "rowsha": "urjROEGPFRI7qqELxHGMfXF3lCKfBsgOlBH7vfoa1h4=",
+        "originContent": "│   ├── interactive.ts      # Interactive chat prompt handling & logic",
+        "translatedContent": "│   ├── interactive.ts      # Interactive chat prompt handling & logic"
+      },
+      {
+        "row": 6,
+        "rowsha": "ASGGQ8/BM4tKKe5OWdzqH7FoCJyQypFAEn2NAMpd7mI=",
+        "originContent": "├── test/                   # Test files",
+        "translatedContent": "├── test/                   # Test files"
+      },
+      {
+        "row": 7,
+        "rowsha": "PhRy7Ytmzfe3i2RY9GKyznlUvFIUmO3DOnAvq9v3cfM=",
+        "originContent": "│   ├── cli.test.ts         # Test CLI params",
+        "translatedContent": "│   ├── cli.test.ts         # Test CLI params"
+      },
+      {
+        "row": 8,
+        "rowsha": "nDbVLgb1/GuLoCsY5h6PuiwyH9IpMWwcfFaP7OIOeBQ=",
+        "originContent": "│   ├── config.test.ts      # Test config file parsing",
+        "translatedContent": "│   ├── config.test.ts      # Test config file parsing"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 35,
+    "Content": "\n## Publishing new release\n\nGo to the [releases](https://github.com/Flux159/mcp-chat/releases) page, click on \"Draft New Release\", click \"Choose a tag\" and create a new tag by typing out a new version number using \"v{major}.{minor}.{patch}\" semver format. Then, write a release title \"Release v{major}.{minor}.{patch}\" and description / changelog if necessary and click \"Publish Release\".\n\nThis will create a new tag which will trigger a new release build via the cd.yml workflow. Once successful, the new release will be published to npm. Note that there is no need to update the package.json version manually, as the workflow will automatically update the version number in the package.json file & push a commit to main.\n\n## License\n\n[MIT License](https://github.com/Flux159/mcp-chat/blob/main/LICENSE)\n",
+    "ContentSha": "3w7bg/xgki4CI6rpUBjIkE9PUjMwBulLnEr5Gbsjeow=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 发布新版本\n\n前往 [releases](https://github.com/Flux159/mcp-chat/releases) 页面，点击“Draft New Release”，点击“Choose a tag”，通过输入“v{major}.{minor}.{patch}”语义化版本格式的新版本号创建新标签。然后，填写发布标题“Release v{major}.{minor}.{patch}”和描述/更新日志（如有必要），点击“Publish Release”。\n\n这将创建一个新标签，触发 cd.yml 工作流进行新的发布构建。构建成功后，新版本将发布到 npm。注意，无需手动更新 package.json 中的版本号，工作流会自动更新 package.json 文件中的版本号并推送提交到 main 分支。\n\n## 许可证\n\n[MIT 许可证](https://github.com/Flux159/mcp-chat/blob/main/LICENSE)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "b8XW7l7ONxWtGURdodWSwIwOCgekHNqmxct+nCrhJdQ=",
+        "originContent": "## Publishing new release",
+        "translatedContent": "## 发布新版本"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ZFCWfsoui8B/KniV00LJ3JEkGFWoxwxMgJPut1YC9EU=",
+        "originContent": "Go to the [releases](https://github.com/Flux159/mcp-chat/releases) page, click on \"Draft New Release\", click \"Choose a tag\" and create a new tag by typing out a new version number using \"v{major}.{minor}.{patch}\" semver format. Then, write a release title \"Release v{major}.{minor}.{patch}\" and description / changelog if necessary and click \"Publish Release\".",
+        "translatedContent": "前往 [releases](https://github.com/Flux159/mcp-chat/releases) 页面，点击“Draft New Release”，点击“Choose a tag”，通过输入“v{major}.{minor}.{patch}”语义化版本格式的新版本号创建新标签。然后，填写发布标题“Release v{major}.{minor}.{patch}”和描述/更新日志（如有必要），点击“Publish Release”。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ZZi3n234dDEGdMsctWD2lnbxOo86duPd9jUsW8y82dk=",
+        "originContent": "This will create a new tag which will trigger a new release build via the cd.yml workflow. Once successful, the new release will be published to npm. Note that there is no need to update the package.json version manually, as the workflow will automatically update the version number in the package.json file & push a commit to main.",
+        "translatedContent": "这将创建一个新标签，触发 cd.yml 工作流进行新的发布构建。构建成功后，新版本将发布到 npm。注意，无需手动更新 package.json 中的版本号，工作流会自动更新 package.json 文件中的版本号并推送提交到 main 分支。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "s3p/NhzLKO9GtrqxF0XcvvaGO6Pjr/RyExHS9pMWsm0=",
+        "originContent": "[MIT License](https://github.com/Flux159/mcp-chat/blob/main/LICENSE)",
+        "translatedContent": "[MIT 许可证](https://github.com/Flux159/mcp-chat/blob/main/LICENSE)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

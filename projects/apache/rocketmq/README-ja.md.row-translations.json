@@ -1,0 +1,1508 @@
+[
+  {
+    "row": 1,
+    "rowsha": "g95D9X5uHktAX3oR1cyt5IcMjjIsi2xTC04n0PAp80A=",
+    "originContent": "## Apache RocketMQ",
+    "translatedContent": "## Apache RocketMQ"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "fJTR4j/+N28rcf7UK8+5S3qWBXUlrKgmxyZRm3fzyug=",
+    "originContent": "[![Build Status][maven-build-image]][maven-build-url]",
+    "translatedContent": "[![Build Status][maven-build-image]][maven-build-url]"
+  },
+  {
+    "row": 4,
+    "rowsha": "QisEMKZ+W9A74xiaJdRnjbyImch0dqR/+yeyVsXULXQ=",
+    "originContent": "[![CodeCov][codecov-image]][codecov-url]",
+    "translatedContent": "[![CodeCov][codecov-image]][codecov-url]"
+  },
+  {
+    "row": 5,
+    "rowsha": "dKQEbzT0ylo+6q7bBOaRwFuCwMmbGHScNMR6VvFRf/c=",
+    "originContent": "[![Maven Central][maven-central-image]][maven-central-url]",
+    "translatedContent": "[![Maven Central][maven-central-image]][maven-central-url]"
+  },
+  {
+    "row": 6,
+    "rowsha": "FYA4WAFi3pM5DiRgmjWzLE2SXVQa4UMRP1R8rRdqUN8=",
+    "originContent": "[![Release][release-image]][release-url]",
+    "translatedContent": "[![Release][release-image]][release-url]"
+  },
+  {
+    "row": 7,
+    "rowsha": "SYbawsYMQ7qNTzWxzUqXI+b/IJMDU/2gRb7NPDeGzAA=",
+    "originContent": "[![License][license-image]][license-url]",
+    "translatedContent": "[![License][license-image]][license-url]"
+  },
+  {
+    "row": 8,
+    "rowsha": "WsMo7hFjuNNAEjqR03TWGD3E/2Oi86VmGvpUW8QTqtw=",
+    "originContent": "[![Average Time to Resolve An Issue][percentage-of-issues-still-open-image]][percentage-of-issues-still-open-url]",
+    "translatedContent": "[![Average Time to Resolve An Issue][percentage-of-issues-still-open-image]][percentage-of-issues-still-open-url]"
+  },
+  {
+    "row": 9,
+    "rowsha": "XVfjnRPzZxIQYxBD/GJckB9PvLizvcBWD+V93HkQLq8=",
+    "originContent": "[![Percentage of Issues Still Open][average-time-to-resolve-an-issue-image]][average-time-to-resolve-an-issue-url]",
+    "translatedContent": "[![Percentage of Issues Still Open][average-time-to-resolve-an-issue-image]][average-time-to-resolve-an-issue-url]"
+  },
+  {
+    "row": 10,
+    "rowsha": "OBy2RJsUYCM1rxcTBTDgXavIJB/gq/x/6kxtIImJpoY=",
+    "originContent": "[![Twitter Follow][twitter-follow-image]][twitter-follow-url]",
+    "translatedContent": "[![Twitter Follow][twitter-follow-image]][twitter-follow-url]"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "GzsMknK7lucxicizW5S1w2I/EbEsA5NMfXZuUQQ79nw=",
+    "originContent": "**[Apache RocketMQ](https://rocketmq.apache.org) is a distributed messaging and streaming platform with low latency, high performance and reliability, trillion-level capacity and flexible scalability.**",
+    "translatedContent": "**[Apache RocketMQ](https://rocketmq.apache.org) は低遅延、高性能、高信頼性、兆単位の容量、柔軟なスケーラビリティを備えた分散メッセージングおよびストリーミングプラットフォームです。**"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "qPEX39TZkYxmsLNW09WNTqAjur2Oy4hkylk/6ClYQQY=",
+    "originContent": "It offers a variety of features:",
+    "translatedContent": "以下のような多様な機能を提供します："
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "Zn8o6FwoBcgVqpA8FiN607Y+pG76b9OibejMG7kLhEU=",
+    "originContent": "* Messaging patterns including publish/subscribe, request/reply and streaming",
+    "translatedContent": "* パブリッシュ/サブスクライブ、リクエスト/リプライ、ストリーミングなどのメッセージングパターン"
+  },
+  {
+    "row": 18,
+    "rowsha": "wcSVE7P9+P9H7EUTKO6OC47Td51Keu/IB8PDPshs48A=",
+    "originContent": "* Financial grade transactional message",
+    "translatedContent": "* 金融グレードのトランザクションメッセージ"
+  },
+  {
+    "row": 19,
+    "rowsha": "1RtYrrbfou6rJwlphmZpJ/jrUQqWnX0rnYU3op92+tk=",
+    "originContent": "* Built-in fault tolerance and high availability configuration options base on [DLedger Controller](https://raw.githubusercontent.com/apache/rocketmq/develop/docs/en/controller/quick_start.md)",
+    "translatedContent": "* [DLedger Controller](https://raw.githubusercontent.com/apache/rocketmq/develop/docs/en/controller/quick_start.md) に基づく組み込みのフォールトトレランスおよび高可用性構成オプション"
+  },
+  {
+    "row": 20,
+    "rowsha": "e7vU1er+mvUV7mPpj/F1TIM1/tV/xaDQMslS6ifKAcY=",
+    "originContent": "* Built-in message tracing capability, also support opentracing",
+    "translatedContent": "* 組み込みのメッセージトレーシング機能、opentracingもサポート"
+  },
+  {
+    "row": 21,
+    "rowsha": "62s8lfCU1W8MEkyBAABorSaBOPomjHxvOl1zikccTzo=",
+    "originContent": "* Versatile big-data and streaming ecosystem integration",
+    "translatedContent": "* 多様なビッグデータおよびストリーミングエコシステムとの統合"
+  },
+  {
+    "row": 22,
+    "rowsha": "COygx4bk7J/xFi9toYhN7xCozDbrlL/II5FZ7EWliTE=",
+    "originContent": "* Message retroactivity by time or offset",
+    "translatedContent": "* 時間またはオフセットによるメッセージの遡及性"
+  },
+  {
+    "row": 23,
+    "rowsha": "jiroiNJujR6qJE3kW1qjgWF63AnKQYjKTJfArHjQWF8=",
+    "originContent": "* Reliable FIFO and strict ordered messaging in the same queue",
+    "translatedContent": "* 同一キュー内での信頼性の高いFIFOおよび厳密な順序付けメッセージング"
+  },
+  {
+    "row": 24,
+    "rowsha": "wGe5B+VbHAPP6UsKWQjfHX8PSWC8LabS50sJ/Vybbg4=",
+    "originContent": "* Efficient pull and push consumption model",
+    "translatedContent": "* 効率的なプルおよびプッシュ消費モデル"
+  },
+  {
+    "row": 25,
+    "rowsha": "jySZ0V1yvXWmrXlkzF9ImyCqK7QU2A1RqK23jZU0FdM=",
+    "originContent": "* Million-level message accumulation capacity in a single queue",
+    "translatedContent": "* 単一キューでの百万単位のメッセージ蓄積能力"
+  },
+  {
+    "row": 26,
+    "rowsha": "nPHufBNKdhvrt0rHD+8W/wSyzZhqgcnMxv5pMakfAs8=",
+    "originContent": "* Multiple messaging protocols like gRPC, MQTT, JMS and OpenMessaging",
+    "translatedContent": "* gRPC、MQTT、JMS、OpenMessagingなどの複数のメッセージングプロトコル"
+  },
+  {
+    "row": 27,
+    "rowsha": "inLG7pCVHeVNsAXTH4eRhrDHWw8jOmIwc4GgfqHrxRk=",
+    "originContent": "* Flexible distributed scale-out deployment architecture",
+    "translatedContent": "* 柔軟な分散スケールアウト展開アーキテクチャ"
+  },
+  {
+    "row": 28,
+    "rowsha": "/LUjyfF8RDzO6+9/hcBzqo6/9y+GL22A9jKj1EnuqFI=",
+    "originContent": "* Lightning-fast batch message exchange system",
+    "translatedContent": "* 超高速バッチメッセージ交換システム"
+  },
+  {
+    "row": 29,
+    "rowsha": "sxWh4BkEMZgxkv1v5D4yJzlf7qFtbCear4OFIG+LjJ0=",
+    "originContent": "* Various message filter mechanics such as SQL and Tag",
+    "translatedContent": "* SQLやタグなどの多様なメッセージフィルター機構"
+  },
+  {
+    "row": 30,
+    "rowsha": "vm5xD5gRfihQ/PKzo1H1Kk7OWksXzfGG5OB3fER31AU=",
+    "originContent": "* Docker images for isolated testing and cloud isolated clusters",
+    "translatedContent": "* 分離テストおよびクラウド分離クラスター用のDockerイメージ"
+  },
+  {
+    "row": 31,
+    "rowsha": "TYymZiHF3pNwVPF+tZyg3QfMrMnOn/Ij8j0yhB4+StU=",
+    "originContent": "* Feature-rich administrative dashboard for configuration, metrics and monitoring",
+    "translatedContent": "* 構成、メトリクス、監視のための機能豊富な管理ダッシュボード"
+  },
+  {
+    "row": 32,
+    "rowsha": "6QZYtEDz+FGnJnRls3/PQQI8W6zsP7KkkXYTS6bs9Pw=",
+    "originContent": "* Authentication and authorization",
+    "translatedContent": "* 認証と認可"
+  },
+  {
+    "row": 33,
+    "rowsha": "rMWgeabtX8csxWPmU/bYDT2kQQusXhdPEV8vcU1N4gc=",
+    "originContent": "* Free open source connectors, for both sources and sinks",
+    "translatedContent": "* ソースおよびシンク向けの無料オープンソースコネクター"
+  },
+  {
+    "row": 34,
+    "rowsha": "Vd5OIQabdla4+9wo0s/mk7DQlVCQeg4as3DK2WL8ZmA=",
+    "originContent": "* Lightweight real-time computing",
+    "translatedContent": "* 軽量リアルタイムコンピューティング"
+  },
+  {
+    "row": 35,
+    "rowsha": "WQzLc8ik3inJZMK5lCJ26mkvaboYo4pT75ge25HpFt4=",
+    "originContent": "----------",
+    "translatedContent": "----------"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## クイックスタート"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "v6UZV/1VHN4SbZySExhzMju+0sYnxwxKRNpCowf3TN0=",
+    "originContent": "This paragraph guides you through steps of installing RocketMQ in different ways.",
+    "translatedContent": "この段落では、RocketMQをさまざまな方法でインストールする手順を案内します。"
+  },
+  {
+    "row": 41,
+    "rowsha": "Xp8pQZCJ1FTlHP1t7r4c1aXAUyG8xAMziMlpefyysK4=",
+    "originContent": "For local development and testing, only one instance will be created for each component.",
+    "translatedContent": "ローカル開発およびテストのために、各コンポーネントにつき1つのインスタンスのみが作成されます。"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "mPcl9mv/UIgZPxEr24u3c19OuMnKsprQux26cm8P7QU=",
+    "originContent": "### Run RocketMQ locally",
+    "translatedContent": "### RocketMQをローカルで実行する"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "q9T1BScpurWkPqjARjWSU8414vJYAyfRJQISy4Om9Z0=",
+    "originContent": "RocketMQ runs on all major operating systems and requires only a Java JDK version 8 or higher to be installed.",
+    "translatedContent": "RocketMQは主要なすべてのオペレーティングシステムで動作し、Java JDKバージョン8以上のインストールのみが必要です。"
+  },
+  {
+    "row": 46,
+    "rowsha": "Ux4O16+xRl3v9R1WAjmB3HUwUjYP2ByGqyJq9Rsp9NY=",
+    "originContent": "To check, run `java -version`:",
+    "translatedContent": "確認するには、`java -version`を実行してください："
+  },
+  {
+    "row": 47,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 48,
+    "rowsha": "dpyufSIhXpFbDhewhZfxpZRwPqblsHPDTMF0zx0Ir1k=",
+    "originContent": "$ java -version",
+    "translatedContent": "$ java -version"
+  },
+  {
+    "row": 49,
+    "rowsha": "wtXk7i2s4LQQke3343DRP/TRop0Pa7i86hYstEX8tew=",
+    "originContent": "java version \"1.8.0_121\"",
+    "translatedContent": "java version \"1.8.0_121\""
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Windowsユーザーは、[こちら](https://dist.apache.org/repos/dist/release/rocketmq/5.3.3/rocketmq-all-5.3.3-bin-release.zip)をクリックして5.3.3 RocketMQバイナリリリースをダウンロードし、  "
+  },
+  {
+    "row": 52,
+    "rowsha": "Pxu9KQlos7vmQBmurrxHVxRSXn0ItwUHn1X1pg+hJWo=",
+    "originContent": "For Windows users, click [here](https://dist.apache.org/repos/dist/release/rocketmq/5.3.3/rocketmq-all-5.3.3-bin-release.zip) to download the 5.3.3 RocketMQ binary release,",
+    "translatedContent": "ローカルディスク（例：`D:\\rocketmq`）に展開してください。  "
+  },
+  {
+    "row": 53,
+    "rowsha": "FhIW05H/y9uL9ap0iV/FbNAYeSN4f8sh0vlTis+1GFQ=",
+    "originContent": "unpack it to your local disk, such as `D:\\rocketmq`.",
+    "translatedContent": "macOSおよびLinuxユーザーは、以下のコマンドを実行してください：  "
+  },
+  {
+    "row": 54,
+    "rowsha": "kXiJyOx7NiIpWNZVWflc0IDH1OKGLUkWJLe5IvdtYFw=",
+    "originContent": "For macOS and Linux users, execute following commands:",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 57,
+    "rowsha": "1ZN03CQRWUEnYqcdHtS7THGxdBep7aH8IvWSBfxNFdE=",
+    "originContent": "# Download release from the Apache mirror",
+    "translatedContent": "# Download release from the Apache mirror"
+  },
+  {
+    "row": 58,
+    "rowsha": "7OBmbfWS1/lMKR1DnBkoP1J7NyeyzFsXXoZHY2CikCc=",
+    "originContent": "$ wget https://dist.apache.org/repos/dist/release/rocketmq/5.3.3/rocketmq-all-5.3.3-bin-release.zip",
+    "translatedContent": "$ wget https://dist.apache.org/repos/dist/release/rocketmq/5.3.3/rocketmq-all-5.3.3-bin-release.zip"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "e9TQ/0msiwL9GNnxkSVagozrr00MLrkp33JlkicyBdE=",
+    "originContent": "# Unpack the release",
+    "translatedContent": "# Unpack the release"
+  },
+  {
+    "row": 61,
+    "rowsha": "4s28uMnfzqo7YCY3Ufx4PlmAgBi9u4nsqHZF0omPFwY=",
+    "originContent": "$ unzip rocketmq-all-5.3.3-bin-release.zip",
+    "translatedContent": "$ unzip rocketmq-all-5.3.3-bin-release.zip"
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "z4m/3FVZJHMLJ048q0wotMEXv8A8sjp8nYPBUOsXVs8=",
+    "originContent": "Prepare a terminal and change to the extracted `bin` directory:",
+    "translatedContent": "ターミナルを準備し、解凍した `bin` ディレクトリに移動します:"
+  },
+  {
+    "row": 65,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 66,
+    "rowsha": "jjXhXOSZqfFkGKH9Jh1NjTui+FYWuC7hbFKYmO7eVas=",
+    "originContent": "$ cd rocketmq-all-5.3.3-bin-release/bin",
+    "translatedContent": "$ cd rocketmq-all-5.3.3-bin-release/bin"
+  },
+  {
+    "row": 67,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "wxIIwjvgiomU7JiB7ByLMGEU5SuOgWixKDf9FOUl3AE=",
+    "originContent": "**1) Start NameServer**",
+    "translatedContent": "**1) NameServerの起動**"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "wyssl5DJOnFH2ExKLOs0zm78QjRpAe+xa5FFoPqV2ss=",
+    "originContent": "NameServer will be listening at `0.0.0.0:9876`, make sure that the port is not used by others on the local machine, and then do as follows.",
+    "translatedContent": "NameServerは`0.0.0.0:9876`で待機します。ローカルマシンで他のプロセスがこのポートを使用していないことを確認し、以下の操作を行ってください。"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "mARZhH9+g/Yx16zPd7qmpJyB0uLSF5W01BvuyCa46RE=",
+    "originContent": "For macOS and Linux users:",
+    "translatedContent": "macOSおよびLinuxユーザーの場合："
+  },
+  {
+    "row": 74,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 75,
+    "rowsha": "hlCxk2HZiJiPHFVEGZVSkszBtqtPg2Opt1neGZ6xtdw=",
+    "originContent": "### start Name Server",
+    "translatedContent": "### start Name Server"
+  },
+  {
+    "row": 76,
+    "rowsha": "N5aHjCyA0gnyHJ00sbi4pZVQcS5EClYcfRo882hnfWc=",
+    "originContent": "$ nohup sh mqnamesrv &",
+    "translatedContent": "$ nohup sh mqnamesrv &"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "x6Dyj4XMhr0NSQDPP41cDYDmw/4aADVLpgtqj81MezM=",
+    "originContent": "### check whether Name Server is successfully started",
+    "translatedContent": "### check whether Name Server is successfully started"
+  },
+  {
+    "row": 79,
+    "rowsha": "JEmu9UIzUfGOblNxksHjmK7mVLUsPeZr9v/OTUOg0VU=",
+    "originContent": "$ tail -f ~/logs/rocketmqlogs/namesrv.log",
+    "translatedContent": "$ tail -f ~/logs/rocketmqlogs/namesrv.log"
+  },
+  {
+    "row": 80,
+    "rowsha": "JRjQStlLyzj6q8OOdHMfiXXgwnFtWiA8EATY8cbTUvo=",
+    "originContent": "The Name Server boot success...",
+    "translatedContent": "The Name Server boot success..."
+  },
+  {
+    "row": 81,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "rlSmZkcMb3ufAVMD/NW8ww33J7ksd2xC+WptnbkwZF4=",
+    "originContent": "For Windows users, you need set environment variables first:",
+    "translatedContent": "Windowsユーザーの場合、まず環境変数を設定する必要があります："
+  },
+  {
+    "row": 84,
+    "rowsha": "j+TCfC82u6Jj8POsYm+cwPeXITM0oV6WSdeuq+NxFlI=",
+    "originContent": "- From the desktop, right click the Computer icon.",
+    "translatedContent": "- デスクトップで、コンピューターアイコンを右クリックします。"
+  },
+  {
+    "row": 85,
+    "rowsha": "IqPv9ni4vmxb9nYqGyXCzGdZ28X5iE5zsBgrZPBCGww=",
+    "originContent": "- Choose Properties from the context menu.",
+    "translatedContent": "- コンテキストメニューから「プロパティ」を選択します。"
+  },
+  {
+    "row": 86,
+    "rowsha": "tLXxFTU3T1MhvCPkB1RBR/5EIwLhHy+XDpmaCoxLYTs=",
+    "originContent": "- Click the Advanced system settings link.",
+    "translatedContent": "- 「システムの詳細設定」リンクをクリックします。"
+  },
+  {
+    "row": 87,
+    "rowsha": "fv5/PCgcsz9j0zkjHZb4wlvxp+CwdQjc1HVRHaypvto=",
+    "originContent": "- Click Environment Variables.",
+    "translatedContent": "- 「環境変数」をクリックします。"
+  },
+  {
+    "row": 88,
+    "rowsha": "Up/A3/2IHKo3YpaBAPf7S3oJvWMc1nSQyCyOoCMdftc=",
+    "originContent": "- Add Environment `ROCKETMQ_HOME=\"D:\\rocketmq\"`. ",
+    "translatedContent": "- 環境変数 `ROCKETMQ_HOME=\"D:\\rocketmq\"` を追加します。"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "mzDIGzOVfyAk9MEYP2HQXA3ENs+vTBSSGM0IGJtyAWw=",
+    "originContent": "Then change directory to rocketmq, type and run:",
+    "translatedContent": "次に、rocketmqのディレクトリに移動し、タイプして実行します："
+  },
+  {
+    "row": 91,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 92,
+    "rowsha": "ZN39aBSOnSlWw1LBxSHUZ4Pq1rYRmMSV3TLv/nYZvPY=",
+    "originContent": "$ mqnamesrv.cmd",
+    "translatedContent": "$ mqnamesrv.cmd"
+  },
+  {
+    "row": 93,
+    "rowsha": "JRjQStlLyzj6q8OOdHMfiXXgwnFtWiA8EATY8cbTUvo=",
+    "originContent": "The Name Server boot success...",
+    "translatedContent": "The Name Server boot success..."
+  },
+  {
+    "row": 94,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "1IcXPcoyDIFkKE/i71jwqPTw2m5Uzrm6SC+UEy90+u0=",
+    "originContent": "**2) Start Broker**",
+    "translatedContent": "**2) ブローカーの起動**"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "mARZhH9+g/Yx16zPd7qmpJyB0uLSF5W01BvuyCa46RE=",
+    "originContent": "For macOS and Linux users:",
+    "translatedContent": "macOSおよびLinuxユーザー向け："
+  },
+  {
+    "row": 99,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 100,
+    "rowsha": "IteE7u4GsTq8mk2m3x46lirLtfA90NhIjduHi/1DsLo=",
+    "originContent": "### start Broker",
+    "translatedContent": "### start Broker"
+  },
+  {
+    "row": 101,
+    "rowsha": "CKTXvg0kFzY0Cq5qurzLThIKGlU1EU9m8Hb/qeveo3c=",
+    "originContent": "$ nohup sh bin/mqbroker -n localhost:9876 &",
+    "translatedContent": "$ nohup sh bin/mqbroker -n localhost:9876 &"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "WYLVj6exWEmUi4XUUQT0kpETwYc0zHRIduRevTKNrAE=",
+    "originContent": "### check whether Broker is successfully started, eg: Broker's IP is 192.168.1.2, Broker's name is broker-a",
+    "translatedContent": "### check whether Broker is successfully started, eg: Broker's IP is 192.168.1.2, Broker's name is broker-a"
+  },
+  {
+    "row": 104,
+    "rowsha": "ZZJwgC/TC99WqhCHGCht1Aw35lOWIz0aMDQJ2JwKSWo=",
+    "originContent": "$ tail -f ~/logs/rocketmqlogs/broker.log",
+    "translatedContent": "$ tail -f ~/logs/rocketmqlogs/broker.log"
+  },
+  {
+    "row": 105,
+    "rowsha": "q1eQTU9b48GNqMgQC5ciG6WOZXkAuy0o/L5Yc2+9OAc=",
+    "originContent": "The broker[broker-a, 192.169.1.2:10911] boot success...",
+    "translatedContent": "The broker[broker-a, 192.169.1.2:10911] boot success..."
+  },
+  {
+    "row": 106,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "66P5lQZGKy/lIwbzuOZWnWsehj7MG0QLjLnR+91XJsU=",
+    "originContent": "For Windows users:",
+    "translatedContent": "Windowsユーザー向け:"
+  },
+  {
+    "row": 109,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 110,
+    "rowsha": "wipbdRrb1zspCvlV2uUQ/tkH4Db2qr5EVPoPxQYbQ94=",
+    "originContent": "$ mqbroker.cmd -n localhost:9876",
+    "translatedContent": "$ mqbroker.cmd -n localhost:9876"
+  },
+  {
+    "row": 111,
+    "rowsha": "q1eQTU9b48GNqMgQC5ciG6WOZXkAuy0o/L5Yc2+9OAc=",
+    "originContent": "The broker[broker-a, 192.169.1.2:10911] boot success...",
+    "translatedContent": "The broker[broker-a, 192.169.1.2:10911] boot success..."
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "0FycbZViZWs22+k2pIxa4YhSd72Qwvgm5WyGCweY8f0=",
+    "originContent": "### Run RocketMQ in Docker",
+    "translatedContent": "### DockerでRocketMQを実行する"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "uZvt52RvzDa68d0vVGVxCT+pwDnuLCj7UFQOEoZ1sAg=",
+    "originContent": "You can run RocketMQ on your own machine within Docker containers,",
+    "translatedContent": "Dockerコンテナ内の自分のマシンでRocketMQを実行できます。  "
+  },
+  {
+    "row": 117,
+    "rowsha": "c79UjUhXNMhBj0L6iEyddgtvMaQ4K0pIIoHzUf7Ap+c=",
+    "originContent": "`host` network will be used to expose listening port in the container.",
+    "translatedContent": "`host` ネットワークを使用して、コンテナ内のリッスンポートを公開します。"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "wxIIwjvgiomU7JiB7ByLMGEU5SuOgWixKDf9FOUl3AE=",
+    "originContent": "**1) Start NameServer**",
+    "translatedContent": "**1) NameServerを起動する**"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 122,
+    "rowsha": "jGynFKP+A2ufesbt3EqHmZriICww4orRClODf40Y9eQ=",
+    "originContent": "$ docker run -it --net=host apache/rocketmq ./mqnamesrv",
+    "translatedContent": "$ docker run -it --net=host apache/rocketmq ./mqnamesrv"
+  },
+  {
+    "row": 123,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "1IcXPcoyDIFkKE/i71jwqPTw2m5Uzrm6SC+UEy90+u0=",
+    "originContent": "**2) Start Broker**",
+    "translatedContent": "**2) ブローカーの起動**"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 128,
+    "rowsha": "T3cGg4Vq46UHWw/AVL7GBl/c0UnHcMuI8OO4Eyzm1Xg=",
+    "originContent": "$ docker run -it --net=host --mount type=bind,source=/tmp/store,target=/home/rocketmq/store apache/rocketmq ./mqbroker -n localhost:9876",
+    "translatedContent": "$ docker run -it --net=host --mount type=bind,source=/tmp/store,target=/home/rocketmq/store apache/rocketmq ./mqbroker -n localhost:9876"
+  },
+  {
+    "row": 129,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "0baQsdOdfChs4BKNz+qJ109uEHqEBgxv3m3gUn2kfaY=",
+    "originContent": "### Run RocketMQ in Kubernetes",
+    "translatedContent": "### KubernetesでRocketMQを実行する"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "qR8DQldWtSzjIvVeQfs0053dPVBqw6J2c1p+haAvRgI=",
+    "originContent": "You can also run a RocketMQ cluster within a Kubernetes cluster using [RocketMQ Operator](https://github.com/apache/rocketmq-operator).",
+    "translatedContent": "[Kubernetes Operator](https://github.com/apache/rocketmq-operator)を使用して、Kubernetesクラスター内でRocketMQクラスターを実行することもできます。"
+  },
+  {
+    "row": 134,
+    "rowsha": "Fr9PfY9bQuzuKxKLo+N43jzLRJM6xHhCvAga5yWdLJ8=",
+    "originContent": "Before your operations, make sure that `kubectl` and related kubeconfig file installed on your machine.",
+    "translatedContent": "操作を開始する前に、マシンに`kubectl`および関連するkubeconfigファイルがインストールされていることを確認してください。"
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "YmemDTD+5LxwLnntzh0HxhY86tLtDWzBqMXtYLc2mKQ=",
+    "originContent": "**1) Install CRDs**",
+    "translatedContent": "**1) CRDのインストール**"
+  },
+  {
+    "row": 137,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 138,
+    "rowsha": "KtAEHuoBDpWRhMdIZrW43GVo/1v8kS2vFibN/5jncF4=",
+    "originContent": "### install CRDs",
+    "translatedContent": "### install CRDs"
+  },
+  {
+    "row": 139,
+    "rowsha": "6IGG9oCScwG+xnUXd3JT0XJowO/jtPsrhPrOj2BFSyw=",
+    "originContent": "$ git clone https://github.com/apache/rocketmq-operator",
+    "translatedContent": "$ git clone https://github.com/apache/rocketmq-operator"
+  },
+  {
+    "row": 140,
+    "rowsha": "hJYpiRIJnRCQBVkmO+BI0XQRNatiF6is3os9qClJz38=",
+    "originContent": "$ cd rocketmq-operator && make deploy",
+    "translatedContent": "$ cd rocketmq-operator && make deploy"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "nEeAXHbokad7uxWheTI8OIaXlu0+z9tXShGXQkaj3mA=",
+    "originContent": "### check whether CRDs is successfully installed",
+    "translatedContent": "### check whether CRDs is successfully installed"
+  },
+  {
+    "row": 143,
+    "rowsha": "kr7ZLiD5O5t15tKlPI4yeMKDJA7FMNLK/g+0oAzy5Z0=",
+    "originContent": "$ kubectl get crd | grep rocketmq.apache.org",
+    "translatedContent": "$ kubectl get crd | grep rocketmq.apache.org"
+  },
+  {
+    "row": 144,
+    "rowsha": "gR47A10fI3kRXPJye6FHFGTSzl7ZOS/nc0+f5BBcfvQ=",
+    "originContent": "brokers.rocketmq.apache.org                 2022-05-12T09:23:18Z",
+    "translatedContent": "brokers.rocketmq.apache.org                 2022-05-12T09:23:18Z"
+  },
+  {
+    "row": 145,
+    "rowsha": "/SqhpT/jy+SgD0biCF310b0oYMmtPbGz5prEIfd7EJA=",
+    "originContent": "consoles.rocketmq.apache.org                2022-05-12T09:23:19Z",
+    "translatedContent": "consoles.rocketmq.apache.org                2022-05-12T09:23:19Z"
+  },
+  {
+    "row": 146,
+    "rowsha": "GPBpwjoY+VxkrUfq5aDEKVuawBd9V1KZobjBWB12BCU=",
+    "originContent": "nameservices.rocketmq.apache.org            2022-05-12T09:23:18Z",
+    "translatedContent": "nameservices.rocketmq.apache.org            2022-05-12T09:23:18Z"
+  },
+  {
+    "row": 147,
+    "rowsha": "U6gCvzCKwaICv48zGFLew/q5Ncwu1rKd+FKalrNnHW4=",
+    "originContent": "topictransfers.rocketmq.apache.org          2022-05-12T09:23:19Z",
+    "translatedContent": "topictransfers.rocketmq.apache.org          2022-05-12T09:23:19Z"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "OYf7mp6HkLkycg/zX3zKxRwaRa4QuWyYgcBOc55vPEM=",
+    "originContent": "### check whether operator is running",
+    "translatedContent": "### check whether operator is running"
+  },
+  {
+    "row": 150,
+    "rowsha": "op70iBJokiWd4D6gtsnM+53FNTIr9F0Bc5csrYa0pAE=",
+    "originContent": "$ kubectl get pods | grep rocketmq-operator",
+    "translatedContent": "$ kubectl get pods | grep rocketmq-operator"
+  },
+  {
+    "row": 151,
+    "rowsha": "O9Ow4qe7ZE3hKGXsBwojV5+vao8T0TWSPE+jaLx9w7A=",
+    "originContent": "rocketmq-operator-6f65c77c49-8hwmj   1/1     Running   0          93s",
+    "translatedContent": "rocketmq-operator-6f65c77c49-8hwmj   1/1     Running   0          93s"
+  },
+  {
+    "row": 152,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "SwK7zMHflOs8rCra1ds1H6UCcK93kdHU0JusIuYrL2o=",
+    "originContent": "**2) Create Cluster Instance**",
+    "translatedContent": "**2) クラスターインスタンスの作成**"
+  },
+  {
+    "row": 155,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 156,
+    "rowsha": "kPHnPJN5GFsNiaMSg+7NWHWGMBLyrXp7r+zlDZFSHnA=",
+    "originContent": "### create RocketMQ cluster resource",
+    "translatedContent": "### create RocketMQ cluster resource"
+  },
+  {
+    "row": 157,
+    "rowsha": "MhUkfA48CEY/jZHSk8Yu7wiI/IFGjmDGA+7R5VaFEc4=",
+    "originContent": "$ cd example && kubectl create -f rocketmq_v1alpha1_rocketmq_cluster.yaml",
+    "translatedContent": "$ cd example && kubectl create -f rocketmq_v1alpha1_rocketmq_cluster.yaml"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "m7K/fQzhaEVUgNKTq5XU/H7d6UbEwFfRkklLRSoMu4E=",
+    "originContent": "### check whether cluster resources is running",
+    "translatedContent": "### check whether cluster resources is running"
+  },
+  {
+    "row": 160,
+    "rowsha": "nqIDktY0ZS89XuRI2Lqu2I1yxko6U25w27MS//X73MU=",
+    "originContent": "$ kubectl get sts",
+    "translatedContent": "$ kubectl get sts"
+  },
+  {
+    "row": 161,
+    "rowsha": "XNS1P6zTtvPfi+K4oXlQ/8o+IVh3ox/vPYdRGm9M4W4=",
+    "originContent": "NAME                 READY   AGE",
+    "translatedContent": "NAME                 READY   AGE"
+  },
+  {
+    "row": 162,
+    "rowsha": "rQyewRChxzPhjULntheJGEhukrKpSqNF5u0e4VaEPGE=",
+    "originContent": "broker-0-master      1/1     107m",
+    "translatedContent": "broker-0-master      1/1     107m"
+  },
+  {
+    "row": 163,
+    "rowsha": "C5WpUYkQJ6QS/V3U8rkdUY9gwzmzNefkQmhe0e9c3lE=",
+    "originContent": "broker-0-replica-1   1/1     107m",
+    "translatedContent": "broker-0-replica-1   1/1     107m"
+  },
+  {
+    "row": 164,
+    "rowsha": "TKB/wldoqWS70mugWs+o2boZld2lMRAO9vrl/lCxR88=",
+    "originContent": "name-service         1/1     107m",
+    "translatedContent": "name-service         1/1     107m"
+  },
+  {
+    "row": 165,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 168,
+    "rowsha": "m5jWhkQn8yalLxkO7kQOXwlcKlouaAlIMHeNBDb7C0I=",
+    "originContent": "## Apache RocketMQ Community",
+    "translatedContent": "## Apache RocketMQ コミュニティ"
+  },
+  {
+    "row": 169,
+    "rowsha": "ThT6AGeWQRjMfCbDIUwdk364zK3FtaE26gMeUNtbrQk=",
+    "originContent": "* [RocketMQ Streams](https://github.com/apache/rocketmq-streams): A lightweight stream computing engine based on Apache RocketMQ.",
+    "translatedContent": "* [RocketMQ Streams](https://github.com/apache/rocketmq-streams): Apache RocketMQ に基づく軽量ストリームコンピューティングエンジン。"
+  },
+  {
+    "row": 170,
+    "rowsha": "I3IVSXaJCJ4Q6WqExphjTeKhr20PDu4fV6E3tXnzxp8=",
+    "originContent": "* [RocketMQ Flink](https://github.com/apache/rocketmq-flink): The Apache RocketMQ connector of Apache Flink that supports source and sink connector in data stream and Table.",
+    "translatedContent": "* [RocketMQ Flink](https://github.com/apache/rocketmq-flink): データストリームとテーブルのソースおよびシンクコネクタをサポートする Apache Flink の Apache RocketMQ コネクタ。"
+  },
+  {
+    "row": 171,
+    "rowsha": "EnaF9hgXMHzxwT4spRAJBWhCi09dlAmLPv0VFXqeYbY=",
+    "originContent": "* [RocketMQ APIs](https://github.com/apache/rocketmq-apis): RocketMQ protobuf protocol.",
+    "translatedContent": "* [RocketMQ APIs](https://github.com/apache/rocketmq-apis): RocketMQ protobuf プロトコル。"
+  },
+  {
+    "row": 172,
+    "rowsha": "xhmoIl5xGvNQceM6mSl1ZJtN7gqNrCCZFekuMXDrzgs=",
+    "originContent": "* [RocketMQ Clients](https://github.com/apache/rocketmq-clients): gRPC/protobuf-based RocketMQ clients.",
+    "translatedContent": "* [RocketMQ Clients](https://github.com/apache/rocketmq-clients): gRPC/protobuf ベースの RocketMQ クライアント。"
+  },
+  {
+    "row": 173,
+    "rowsha": "73ZrQgYjTYQnjSObvhy3vY5mfuIHLgoR2vHdz3iM1xU=",
+    "originContent": "* RocketMQ Remoting-based Clients",
+    "translatedContent": "* RocketMQ Remoting ベースのクライアント"
+  },
+  {
+    "row": 174,
+    "rowsha": "dnp2IOTNJ6UIW98nJCZhqKC46JpHqZxpb9prZsC2bWs=",
+    "originContent": "\t - [RocketMQ Client CPP](https://github.com/apache/rocketmq-client-cpp)",
+    "translatedContent": "\t - [RocketMQ Client CPP](https://github.com/apache/rocketmq-client-cpp)"
+  },
+  {
+    "row": 175,
+    "rowsha": "tOQZx8cDQ+xptX/6Z91bg/Zbm5HN5w30iv3yj0SHbW8=",
+    "originContent": "\t - [RocketMQ Client Go](https://github.com/apache/rocketmq-client-go)",
+    "translatedContent": "\t - [RocketMQ Client Go](https://github.com/apache/rocketmq-client-go)"
+  },
+  {
+    "row": 176,
+    "rowsha": "DrnJ1fDks+XUppqtJAYD7GCYAh1vLH94Rmw7xS02OE0=",
+    "originContent": "\t - [RocketMQ Client Python](https://github.com/apache/rocketmq-client-python)",
+    "translatedContent": "\t - [RocketMQ Client Python](https://github.com/apache/rocketmq-client-python)"
+  },
+  {
+    "row": 177,
+    "rowsha": "4MLYRphEGfigtXkOlLNGtEKn393HZ5yokSShqNJUPQU=",
+    "originContent": "\t - [RocketMQ Client Nodejs](https://github.com/apache/rocketmq-client-nodejs)",
+    "translatedContent": "\t - [RocketMQ Client Nodejs](https://github.com/apache/rocketmq-client-nodejs)"
+  },
+  {
+    "row": 178,
+    "rowsha": "gl445/cvjctJ561hDdseKkxmBSAONXyHG+2GZiLgOVs=",
+    "originContent": "* [RocketMQ Spring](https://github.com/apache/rocketmq-spring): A project which helps developers quickly integrate Apache RocketMQ with Spring Boot.",
+    "translatedContent": "* [RocketMQ Spring](https://github.com/apache/rocketmq-spring): Apache RocketMQ を Spring Boot と迅速に統合するのを支援するプロジェクト。"
+  },
+  {
+    "row": 179,
+    "rowsha": "9gnMyZi40jMzPEhsHV3X+XLKciCfMBpxvU6vmoMQLcQ=",
+    "originContent": "* [RocketMQ Exporter](https://github.com/apache/rocketmq-exporter): An Apache RocketMQ exporter for Prometheus.",
+    "translatedContent": "* [RocketMQ Exporter](https://github.com/apache/rocketmq-exporter): Prometheus 用の Apache RocketMQ エクスポーター。"
+  },
+  {
+    "row": 180,
+    "rowsha": "SpD+rdRVaN9t7FCPW95z9OVHpiEz+CVkLMA4Fq5pXm8=",
+    "originContent": "* [RocketMQ Operator](https://github.com/apache/rocketmq-operator): Providing a way to run an Apache RocketMQ cluster on Kubernetes.",
+    "translatedContent": "* [RocketMQ Operator](https://github.com/apache/rocketmq-operator): Kubernetes 上で Apache RocketMQ クラスターを実行する方法を提供。"
+  },
+  {
+    "row": 181,
+    "rowsha": "WMREqFLozUzFpV1O2nCTe9lYE70sxlwBTNckMlWCOlE=",
+    "originContent": "* [RocketMQ Docker](https://github.com/apache/rocketmq-docker): The Git repo of the Docker Image for Apache RocketMQ.",
+    "translatedContent": "* [RocketMQ Docker](https://github.com/apache/rocketmq-docker): Apache RocketMQ の Docker イメージの Git リポジトリ。"
+  },
+  {
+    "row": 182,
+    "rowsha": "PVO9QJEcndEb2YhZlIK57m70anafgCEmeUjHH0i9tKU=",
+    "originContent": "* [RocketMQ Dashboard](https://github.com/apache/rocketmq-dashboard): Operation and maintenance console of Apache RocketMQ.",
+    "translatedContent": "* [RocketMQ Dashboard](https://github.com/apache/rocketmq-dashboard): Apache RocketMQ の運用および保守コンソール。"
+  },
+  {
+    "row": 183,
+    "rowsha": "p6cAKSxg7duo28oFRh5zJo+sCyF4j+TL3Hrfzfv4LZg=",
+    "originContent": "* [RocketMQ Connect](https://github.com/apache/rocketmq-connect): A tool for scalably and reliably streaming data between Apache RocketMQ and other systems.",
+    "translatedContent": "* [RocketMQ Connect](https://github.com/apache/rocketmq-connect): Apache RocketMQ と他システム間でスケーラブルかつ信頼性の高いデータストリーミングを実現するツール。"
+  },
+  {
+    "row": 184,
+    "rowsha": "S7/2K7/nCxUYCVuoBoiX01ilLmuNZJzZChhFyWghCuA=",
+    "originContent": "* [RocketMQ MQTT](https://github.com/apache/rocketmq-mqtt): A new MQTT protocol architecture model, based on which Apache RocketMQ can better support messages from terminals such as IoT devices and Mobile APP.",
+    "translatedContent": "* [RocketMQ MQTT](https://github.com/apache/rocketmq-mqtt): 新しい MQTT プロトコルアーキテクチャモデルで、これにより Apache RocketMQ は IoT デバイスやモバイルアプリなどの端末からのメッセージをより良くサポート可能。"
+  },
+  {
+    "row": 185,
+    "rowsha": "TsTdLinptu3EYIMlZjItGRv0TYe8CW78DVPoTH4xIRo=",
+    "originContent": "* [RocketMQ EventBridge](https://github.com/apache/rocketmq-eventbridge): EventBridge make it easier to build a event-driven application.",
+    "translatedContent": "* [RocketMQ EventBridge](https://github.com/apache/rocketmq-eventbridge): イベント駆動型アプリケーションの構築を容易にする EventBridge。"
+  },
+  {
+    "row": 186,
+    "rowsha": "V7nus0R4OCxuKdxtJlO4QeXjZ5qaSsyIBQ+Jz3VFmp4=",
+    "originContent": "* [RocketMQ Incubating Community Projects](https://github.com/apache/rocketmq-externals): Incubator community projects of Apache RocketMQ, including [logappender](https://github.com/apache/rocketmq-externals/tree/master/logappender), [rocketmq-ansible](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-ansible), [rocketmq-beats-integration](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-beats-integration), [rocketmq-cloudevents-binding](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-cloudevents-binding), etc.",
+    "translatedContent": "* [RocketMQ インキュベーティング コミュニティプロジェクト](https://github.com/apache/rocketmq-externals): Apache RocketMQ のインキュベータコミュニティプロジェクトで、[logappender](https://github.com/apache/rocketmq-externals/tree/master/logappender)、[rocketmq-ansible](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-ansible)、[rocketmq-beats-integration](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-beats-integration)、[rocketmq-cloudevents-binding](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-cloudevents-binding) などを含む。"
+  },
+  {
+    "row": 187,
+    "rowsha": "AOsLvS7g9WsA3ZdOZdZco9oYxVnMlGmTH3xvJISAjBo=",
+    "originContent": "* [RocketMQ Site](https://github.com/apache/rocketmq-site): The repository for Apache RocketMQ website.",
+    "translatedContent": "* [RocketMQ Site](https://github.com/apache/rocketmq-site): Apache RocketMQ ウェブサイトのリポジトリ。"
+  },
+  {
+    "row": 188,
+    "rowsha": "mTh2Ud/o4roPQ5F19ZQ0FO8HsAIVxZfhL0Ky/7VkXts=",
+    "originContent": "* [RocketMQ E2E](https://github.com/apache/rocketmq-e2e): A project for testing Apache RocketMQ, including end-to-end, performance, compatibility tests.",
+    "translatedContent": "* [RocketMQ E2E](https://github.com/apache/rocketmq-e2e): Apache RocketMQ のエンドツーエンド、パフォーマンス、互換性テストを含むテストプロジェクト。"
+  },
+  {
+    "row": 189,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "WQzLc8ik3inJZMK5lCJ26mkvaboYo4pT75ge25HpFt4=",
+    "originContent": "----------",
+    "translatedContent": "----------"
+  },
+  {
+    "row": 192,
+    "rowsha": "0aLf1xp0i0zgkvsIO8z3L1REgUdc+Jg1aDdFDsQyx3Q=",
+    "originContent": "## Learn it & Contact us",
+    "translatedContent": "## 学び方とお問い合わせ"
+  },
+  {
+    "row": 193,
+    "rowsha": "Y6WTdLiZPHLIT8waXUt7GzVJfb3Y/yZZdv6v6/jmBuE=",
+    "originContent": "* Mailing Lists: <https://rocketmq.apache.org/about/contact/>",
+    "translatedContent": "* メーリングリスト: <https://rocketmq.apache.org/about/contact/>"
+  },
+  {
+    "row": 194,
+    "rowsha": "UWlRgXqSmDLz77aNcp/oX0ArBSfdVuQUjbhcCI0Mhwo=",
+    "originContent": "* Home: <https://rocketmq.apache.org>",
+    "translatedContent": "* ホーム: <https://rocketmq.apache.org>"
+  },
+  {
+    "row": 195,
+    "rowsha": "xn6we9SLzHOjah25tWhYnMdtISsQyJ2Nhb2puzDWxtU=",
+    "originContent": "* Docs: <https://rocketmq.apache.org/docs/quick-start/>",
+    "translatedContent": "* ドキュメント: <https://rocketmq.apache.org/docs/quick-start/>"
+  },
+  {
+    "row": 196,
+    "rowsha": "1eb8wAqBdfZBUqfDyerutIlzV5G1LTaamLGxtiFpkKk=",
+    "originContent": "* Issues: <https://github.com/apache/rocketmq/issues>",
+    "translatedContent": "* イシュー: <https://github.com/apache/rocketmq/issues>"
+  },
+  {
+    "row": 197,
+    "rowsha": "XadfoxhKPtEFJHamnyo0Bt07r9EIWpYg84W/J2kATeM=",
+    "originContent": "* Rips: <https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal>",
+    "translatedContent": "* Rips: <https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal>"
+  },
+  {
+    "row": 198,
+    "rowsha": "Ky+Anz37Al/9RNRYiDZRhWlEQOhBb7U1mfAGpI6ydiY=",
+    "originContent": "* Ask: <https://stackoverflow.com/questions/tagged/rocketmq>",
+    "translatedContent": "* 質問: <https://stackoverflow.com/questions/tagged/rocketmq>"
+  },
+  {
+    "row": 199,
+    "rowsha": "9irdtpfbObNQHmlMpoSUI83H9gCHRtnDD46RZbmy4YQ=",
+    "originContent": "* Slack: <https://rocketmq-invite-automation.herokuapp.com/>",
+    "translatedContent": "* Slack: <https://rocketmq-invite-automation.herokuapp.com/>"
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "WQzLc8ik3inJZMK5lCJ26mkvaboYo4pT75ge25HpFt4=",
+    "originContent": "----------",
+    "translatedContent": "----------"
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## コントリビューティング"
+  },
+  {
+    "row": 207,
+    "rowsha": "meM8CaM8xIdI0lLfAEIWqAHvGOdlYlMnbVlJV9ZKf8M=",
+    "originContent": "We always welcome new contributions, whether for trivial cleanups, [big new features](https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal) or other material rewards, more details see [here](http://rocketmq.apache.org/docs/how-to-contribute/).",
+    "translatedContent": "些細な修正から[大きな新機能](https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal)やその他の報酬まで、新しい貢献を常に歓迎しています。詳細は[こちら](http://rocketmq.apache.org/docs/how-to-contribute/)をご覧ください。"
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "WQzLc8ik3inJZMK5lCJ26mkvaboYo4pT75ge25HpFt4=",
+    "originContent": "----------",
+    "translatedContent": "----------"
+  },
+  {
+    "row": 210,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 211,
+    "rowsha": "+az3IsT/WkVvZPMwYNBBDM8WQpiIfUJnGu7gfwf+V6g=",
+    "originContent": "[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) Copyright (C) Apache Software Foundation",
+    "translatedContent": "[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) 著作権 (C) Apache Software Foundation"
+  },
+  {
+    "row": 212,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 213,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 214,
+    "rowsha": "WQzLc8ik3inJZMK5lCJ26mkvaboYo4pT75ge25HpFt4=",
+    "originContent": "----------",
+    "translatedContent": "----------"
+  },
+  {
+    "row": 215,
+    "rowsha": "UsgLbow0n5g/7p9BbDJETOEYjWpjcyVIkNXQzyUfItU=",
+    "originContent": "## Export Control Notice",
+    "translatedContent": "## 輸出管理通知"
+  },
+  {
+    "row": 216,
+    "rowsha": "c0/dWLf9oVt8e6jDPX4mmHtZPJpMGTCrCt886Zuyiv4=",
+    "originContent": "This distribution includes cryptographic software. The country in which you currently reside may have",
+    "translatedContent": "この配布物には暗号化ソフトウェアが含まれています。現在居住している国によっては、"
+  },
+  {
+    "row": 217,
+    "rowsha": "T17EXLmkaxG6YkPJiYu/CitcHk/3Jflm3GjI5UYhlBo=",
+    "originContent": "restrictions on the import, possession, use, and/or re-export to another country, of encryption software.",
+    "translatedContent": "暗号化ソフトウェアの輸入、所持、使用、および/または他国への再輸出に制限がある場合があります。"
+  },
+  {
+    "row": 218,
+    "rowsha": "5cA3XrT9sAnWP5iw/zN6bVf7uVlhnnIBaV2/5onvoLo=",
+    "originContent": "BEFORE using any encryption software, please check your country's laws, regulations and policies concerning",
+    "translatedContent": "暗号化ソフトウェアを使用する前に、輸入、所持、使用、および再輸出が許可されているかどうかを確認するために、"
+  },
+  {
+    "row": 219,
+    "rowsha": "yfX7mP7+08lDCi1oGt2V/uUNCB/VPXzMJu7YWRNG1u4=",
+    "originContent": "the import, possession, or use, and re-export of encryption software, to see if this is permitted. See",
+    "translatedContent": "自国の法律、規制、および方針を必ず確認してください。詳細は"
+  },
+  {
+    "row": 220,
+    "rowsha": "7Mnk6lgbLMZLMSEBpj1dbu4DPODZCQpeLnPxlfkK0pY=",
+    "originContent": "<http://www.wassenaar.org/> for more information.",
+    "translatedContent": "<http://www.wassenaar.org/> を参照してください。"
+  },
+  {
+    "row": 221,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 222,
+    "rowsha": "Vy9pTeoKYS8EofHZliucukDBwM7bXvmwSj0sz5kIfGs=",
+    "originContent": "The U.S. Government Department of Commerce, Bureau of Industry and Security (BIS), has classified this",
+    "translatedContent": "米国商務省産業安全保障局（BIS）は、"
+  },
+  {
+    "row": 223,
+    "rowsha": "9h/OfJfJm3iEamoFrk09H2cU8sklc2LOuJ0GRENAuKo=",
+    "originContent": "software as Export Commodity Control Number (ECCN) 5D002.C.1, which includes information security software",
+    "translatedContent": "本ソフトウェアを輸出商品管理番号（ECCN）5D002.C.1に分類しています。"
+  },
+  {
+    "row": 224,
+    "rowsha": "HPE8UCYOT486JQUNzux0Qo7E4uPtu1Y/gqRyRimelFA=",
+    "originContent": "using or performing cryptographic functions with asymmetric algorithms. The form and manner of this Apache",
+    "translatedContent": "これは、非対称アルゴリズムを用いた暗号機能を使用または実行する情報セキュリティソフトウェアに該当します。"
+  },
+  {
+    "row": 225,
+    "rowsha": "/+pGTl7OFUnoYHu6LC6fIj/+Cb/0ZyM3+g0U9Tlrd38=",
+    "originContent": "Software Foundation distribution makes it eligible for export under the License Exception ENC Technology",
+    "translatedContent": "Apache Software Foundationのこの配布形態は、"
+  },
+  {
+    "row": 226,
+    "rowsha": "j1KI0y5AtNVk8nFgpjzlhPVC4Pkm9zW52/hZORJL0Xo=",
+    "originContent": "Software Unrestricted (TSU) exception (see the BIS Export Administration Regulations, Section 740.13) for",
+    "translatedContent": "オブジェクトコードおよびソースコードの両方に対して、"
+  },
+  {
+    "row": 227,
+    "rowsha": "8NZibuwcTFyKHbB8fRj62fevKjiOyoePn4kY7wPXL74=",
+    "originContent": "both object code and source code.",
+    "translatedContent": "ライセンス例外ENCテクノロジーソフトウェア無制限（TSU）例外（BIS輸出管理規則、第740.13節）に基づき"
+  },
+  {
+    "row": 228,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "輸出が認められています。"
+  },
+  {
+    "row": 229,
+    "rowsha": "K4RdC+bh0NkU2a17/2jn6hE6sDvOcXVQhv5kpixjEac=",
+    "originContent": "The following provides more details on the included cryptographic software:",
+    "translatedContent": ""
+  },
+  {
+    "row": 230,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "以下は、含まれる暗号化ソフトウェアの詳細です："
+  },
+  {
+    "row": 231,
+    "rowsha": "pQPACAgi4BAuZNnWMyNUh0iUUO7SKM0T/KJfw/14+Ls=",
+    "originContent": "This software uses Apache Commons Crypto (https://commons.apache.org/proper/commons-crypto/) to",
+    "translatedContent": ""
+  },
+  {
+    "row": 232,
+    "rowsha": "i1qiGK301UtrCJeXTAhhky7d5csXOk+mmkAX6WHQH7Y=",
+    "originContent": "support authentication, and encryption and decryption of data sent across the network between",
+    "translatedContent": "本ソフトウェアはApache Commons Crypto (https://commons.apache.org/proper/commons-crypto/) を使用して、"
+  },
+  {
+    "row": 233,
+    "rowsha": "rHqb2Id5RQGUqKcBc21K0jRCOzk+0QWpZVeP5HsklI4=",
+    "originContent": "services.",
+    "translatedContent": "認証およびサービス間でネットワークを介して送信されるデータの暗号化と復号をサポートしています。"
+  },
+  {
+    "row": 234,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 235,
+    "rowsha": "kKOTVKjOPJmheGZP9uADq364ulM8G9kwGobzuP3uNFo=",
+    "originContent": "[maven-build-image]: https://github.com/apache/rocketmq/actions/workflows/maven.yaml/badge.svg",
+    "translatedContent": "[maven-build-image]: https://github.com/apache/rocketmq/actions/workflows/maven.yaml/badge.svg"
+  },
+  {
+    "row": 236,
+    "rowsha": "bSSjI7VOBXUWhhTFzxu2ZlXLZ11vkaLMHhw8Qk4L/7c=",
+    "originContent": "[maven-build-url]: https://github.com/apache/rocketmq/actions/workflows/maven.yaml",
+    "translatedContent": "[maven-build-url]: https://github.com/apache/rocketmq/actions/workflows/maven.yaml"
+  },
+  {
+    "row": 237,
+    "rowsha": "QZQj316BZhlKWyQUfyYYHba+tQavhn+Yc9Jkq9GDBAo=",
+    "originContent": "[codecov-image]: https://codecov.io/gh/apache/rocketmq/branch/master/graph/badge.svg",
+    "translatedContent": "[codecov-image]: https://codecov.io/gh/apache/rocketmq/branch/master/graph/badge.svg"
+  },
+  {
+    "row": 238,
+    "rowsha": "Q1Y+MS8n04Nh/ffGk3ZWmYDMGtZ99o5qRb1T0+KLrnw=",
+    "originContent": "[codecov-url]: https://codecov.io/gh/apache/rocketmq",
+    "translatedContent": "[codecov-url]: https://codecov.io/gh/apache/rocketmq"
+  },
+  {
+    "row": 239,
+    "rowsha": "qU6EBcXM2w5GOd+E+mXjHg4wOQvL0cz19iTBKmwpDCw=",
+    "originContent": "[maven-central-image]: https://maven-badges.herokuapp.com/maven-central/org.apache.rocketmq/rocketmq-all/badge.svg",
+    "translatedContent": "[maven-central-image]: https://maven-badges.herokuapp.com/maven-central/org.apache.rocketmq/rocketmq-all/badge.svg"
+  },
+  {
+    "row": 240,
+    "rowsha": "385HRx0d8/yvH/QabyZUq/bDHBck2AH2o5kWpj0JiBQ=",
+    "originContent": "[maven-central-url]: http://search.maven.org/#search%7Cga%7C1%7Corg.apache.rocketmq",
+    "translatedContent": "[maven-central-url]: http://search.maven.org/#search%7Cga%7C1%7Corg.apache.rocketmq"
+  },
+  {
+    "row": 241,
+    "rowsha": "V93bi1jryd2yqMkfWH52erCN0IxtLz0QVT6YeJTL++8=",
+    "originContent": "[release-image]: https://img.shields.io/badge/release-download-orange.svg",
+    "translatedContent": "[release-image]: https://img.shields.io/badge/release-download-orange.svg"
+  },
+  {
+    "row": 242,
+    "rowsha": "Dk7P7kK/1mJULoJoXsnmp6xb3lDyA0YG/IK40ka6ejY=",
+    "originContent": "[release-url]: https://www.apache.org/licenses/LICENSE-2.0.html",
+    "translatedContent": "[release-url]: https://www.apache.org/licenses/LICENSE-2.0.html"
+  },
+  {
+    "row": 243,
+    "rowsha": "2axcDVm6UJhNK0axOLd/HMo5BQG3AVD+HFoQiaKHq1w=",
+    "originContent": "[license-image]: https://img.shields.io/badge/license-Apache%202-4EB1BA.svg",
+    "translatedContent": "[license-image]: https://img.shields.io/badge/license-Apache%202-4EB1BA.svg"
+  },
+  {
+    "row": 244,
+    "rowsha": "dzgyVeAEJyRyXYVcFBolAF2Phw33Qeh6RDjetB0bU0Q=",
+    "originContent": "[license-url]: https://www.apache.org/licenses/LICENSE-2.0.html",
+    "translatedContent": "[license-url]: https://www.apache.org/licenses/LICENSE-2.0.html"
+  },
+  {
+    "row": 245,
+    "rowsha": "pjdOLYilhtwcgVCOnWb5JTtrLlGQMS5zTEQfSlR/7kk=",
+    "originContent": "[average-time-to-resolve-an-issue-image]: http://isitmaintained.com/badge/resolution/apache/rocketmq.svg",
+    "translatedContent": "[average-time-to-resolve-an-issue-image]: http://isitmaintained.com/badge/resolution/apache/rocketmq.svg"
+  },
+  {
+    "row": 246,
+    "rowsha": "LVqM3jUup2V9q1Ak3+9lmp3wtfV/itmupKQHbtqxnTA=",
+    "originContent": "[average-time-to-resolve-an-issue-url]: http://isitmaintained.com/project/apache/rocketmq",
+    "translatedContent": "[average-time-to-resolve-an-issue-url]: http://isitmaintained.com/project/apache/rocketmq"
+  },
+  {
+    "row": 247,
+    "rowsha": "mFhxP76q5KBNq0IJLhjJZA7NYXfCXzxaDAWX51R97Cw=",
+    "originContent": "[percentage-of-issues-still-open-image]: http://isitmaintained.com/badge/open/apache/rocketmq.svg",
+    "translatedContent": "[percentage-of-issues-still-open-image]: http://isitmaintained.com/badge/open/apache/rocketmq.svg"
+  },
+  {
+    "row": 248,
+    "rowsha": "wbr+2aaGAvpPyDQLdIES/imZ2mccdtqtquFbwxp1ylc=",
+    "originContent": "[percentage-of-issues-still-open-url]: http://isitmaintained.com/project/apache/rocketmq",
+    "translatedContent": "[percentage-of-issues-still-open-url]: http://isitmaintained.com/project/apache/rocketmq"
+  },
+  {
+    "row": 249,
+    "rowsha": "rJ/GicZd/hjc/6M+ffjdIe3ew/It2y7wb7/OA/1rnqI=",
+    "originContent": "[twitter-follow-image]: https://img.shields.io/twitter/follow/ApacheRocketMQ?style=social",
+    "translatedContent": "[twitter-follow-image]: https://img.shields.io/twitter/follow/ApacheRocketMQ?style=social"
+  },
+  {
+    "row": 250,
+    "rowsha": "nGnvjIVF2BY9G222C4Xqputkuhnz9VQZ8Z4CMFzVqH8=",
+    "originContent": "[twitter-follow-url]: https://twitter.com/intent/follow?screen_name=ApacheRocketMQ",
+    "translatedContent": "[twitter-follow-url]: https://twitter.com/intent/follow?screen_name=ApacheRocketMQ"
+  },
+  {
+    "row": 251,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

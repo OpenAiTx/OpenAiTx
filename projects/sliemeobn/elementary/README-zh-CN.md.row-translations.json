@@ -1,0 +1,1718 @@
+[
+  {
+    "row": 1,
+    "rowsha": "yflb3EwWborjR0HHkWrz1GzZ4Yp3Mzde/kwNttoMo1I=",
+    "originContent": "# Elementary: HTML Templating in Pure Swift",
+    "translatedContent": "# Elementary: HTML Templating in Pure Swift"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "vYnCaGvAq7k0dNJgAUCLqkdBnbVht7lY7eK/2lBzo48=",
+    "originContent": "**A modern and efficient HTML rendering library - inspired by SwiftUI, built for the web.**",
+    "translatedContent": "**A modern and efficient HTML rendering library - inspired by SwiftUI, built for the web.**"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "0Ohg/IjvKS8y4EhKq/ycA1Jgg7podDzyVoG8XmSxdv0=",
+    "originContent": "[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsliemeobn%2Felementary%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/sliemeobn/elementary) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsliemeobn%2Felementary%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/sliemeobn/elementary)",
+    "translatedContent": "[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsliemeobn%2Felementary%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/sliemeobn/elementary) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsliemeobn%2Felementary%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/sliemeobn/elementary)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "j3U8cGR/dNPX+rKgIBEHnSzzQ5c2+HR5cc2pPW0Kh4w=",
+    "originContent": "[Examples](#play-with-it) | [Motivation](#motivation-and-other-packages) | [Discussion](https://github.com/sliemeobn/elementary/discussions)",
+    "translatedContent": "[Examples](#play-with-it) | [Motivation](#motivation-and-other-packages) | [Discussion](https://github.com/sliemeobn/elementary/discussions)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 10,
+    "rowsha": "txsdWiverVs+6cP6LvYZz8vr7LgTERA9uGxr/gEmHHc=",
+    "originContent": "struct MainPage: HTMLDocument {",
+    "translatedContent": "struct MainPage: HTMLDocument {"
+  },
+  {
+    "row": 11,
+    "rowsha": "Cu5po9s2IYb+LdmCfHWvKFWD37fPYf3d89nSG9aVBX4=",
+    "originContent": "    var title = \"Elementary\"",
+    "translatedContent": "    var title = \"Elementary\""
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "UqRKPLAPGALzn+S6CF3JSli8ui398jK57dUsDUHkfZ8=",
+    "originContent": "    var head: some HTML {",
+    "translatedContent": "    var head: some HTML {"
+  },
+  {
+    "row": 14,
+    "rowsha": "tToLa0kGPFcqHOMIQJHzc2QUGeaC/vIAImjktNGlZBQ=",
+    "originContent": "        meta(.name(.description), .content(\"Typesafe HTML in modern Swift\"))",
+    "translatedContent": "        meta(.name(.description), .content(\"Typesafe HTML in modern Swift\"))"
+  },
+  {
+    "row": 15,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "oM7Vny0q/EUgqsDkrga+gxGmXYHF9loga/h4M1EdtFE=",
+    "originContent": "    var body: some HTML {",
+    "translatedContent": "    var body: some HTML {"
+  },
+  {
+    "row": 18,
+    "rowsha": "6A7o7cq4nvYU8z6y2lddAfJdqCf6D6fuGyKxtQASPGk=",
+    "originContent": "        main {",
+    "translatedContent": "        main {"
+  },
+  {
+    "row": 19,
+    "rowsha": "6DibPsk6eUwUfVqhyq3ZYr/iI3C+q0UG0lkppmwcZ9M=",
+    "originContent": "            h1 { \"Features\" }",
+    "translatedContent": "            h1 { \"Features\" }"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "x5QxirXVV85/arJezciBFPXVgRn/7fQ4ucvWAFGPgL0=",
+    "originContent": "            FeatureList(features: [",
+    "translatedContent": "            FeatureList(features: ["
+  },
+  {
+    "row": 22,
+    "rowsha": "gzUgLvpfB+eSgVt0UxmkTBl9AZrCMoRrVa2rHKxFh04=",
+    "originContent": "                \"HTML in pure Swift\",",
+    "translatedContent": "                \"HTML in pure Swift\","
+  },
+  {
+    "row": 23,
+    "rowsha": "ZtSrC/6QduHjnydkVYvHKwCeHlKfw4gNT9JajVK86bM=",
+    "originContent": "                \"SwiftUI-inspired composition\",",
+    "translatedContent": "                \"SwiftUI-inspired composition\","
+  },
+  {
+    "row": 24,
+    "rowsha": "H8Tl/6Hn63impBIkGNocneICg8DaRA3k6YQY9f0tDiY=",
+    "originContent": "                \"Lightweight and fast\",",
+    "translatedContent": "                \"Lightweight and fast\","
+  },
+  {
+    "row": 25,
+    "rowsha": "4V0FFkIUDv1FWWwrLAV9B30KBsTsJ6q4WwX8zRiBmb0=",
+    "originContent": "                \"Framework agnostic and unopinionated\",",
+    "translatedContent": "                \"Framework agnostic and unopinionated\","
+  },
+  {
+    "row": 26,
+    "rowsha": "TgZFoy8gmSSoX/dqdMQJZfVyS6TqH5v/nxleOiWSZxQ=",
+    "originContent": "            ])",
+    "translatedContent": "            ])"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "RYiSqo0j4yHhmoCjD6rpNZgHQeNVaoP6uI3d81VwmpA=",
+    "originContent": "            a(.href(\"https://github.com/sliemeobn/elementary\"), .class(\"fancy-style\")) {",
+    "translatedContent": "            a(.href(\"https://github.com/sliemeobn/elementary\"), .class(\"fancy-style\")) {"
+  },
+  {
+    "row": 29,
+    "rowsha": "7O7esgXFelCYmIP92xgDL43Ic4nMDTWAh+P8KGzklIU=",
+    "originContent": "                \"Learn more\"",
+    "translatedContent": "                \"Learn more\""
+  },
+  {
+    "row": 30,
+    "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+    "originContent": "            }",
+    "translatedContent": "            }"
+  },
+  {
+    "row": 31,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 32,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 33,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "p283niGzZvkPtpfwAwoW9pAN2/cBqA8oIqs0LGqrRYw=",
+    "originContent": "struct FeatureList: HTML {",
+    "translatedContent": "struct FeatureList: HTML {"
+  },
+  {
+    "row": 36,
+    "rowsha": "331IWk3UEzZnwDgoL2AgXbzrshlHnIbtlgfFAI0gEFY=",
+    "originContent": "    var features: [String]",
+    "translatedContent": "    var features: [String]"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "gBPFR4gKPmAVXfiQqYHNI3cXdE00i6xZItpfE2410fU=",
+    "originContent": "    var content: some HTML {",
+    "translatedContent": "    var content: some HTML {"
+  },
+  {
+    "row": 39,
+    "rowsha": "1U8tiM3XhYxrsJyqXwQVg+IbBaJZBHa246pdCazmD+0=",
+    "originContent": "        ul {",
+    "translatedContent": "        ul {"
+  },
+  {
+    "row": 40,
+    "rowsha": "ngh5SbypAi5ASxM5I2ekQ40PmhsrymHU5rGQuTViHXg=",
+    "originContent": "            for feature in features {",
+    "translatedContent": "            for feature in features {"
+  },
+  {
+    "row": 41,
+    "rowsha": "JWdSdmqEDWdRIOyKJ1PzSM/KSFQE28pKjA3Hv/62txk=",
+    "originContent": "                li { feature }",
+    "translatedContent": "                li { feature }"
+  },
+  {
+    "row": 42,
+    "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+    "originContent": "            }",
+    "translatedContent": "            }"
+  },
+  {
+    "row": 43,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 44,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 45,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "tnwtba8tIImlFqGu1EsFfj3EIGty6CJyj/X324ViRbk=",
+    "originContent": "## Use it",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "e31TVbGESUXb869hNRp0nP3q10S9jSqZg4J+b8fu9fM=",
+    "originContent": "Add the dependency to `Package.swift`",
+    "translatedContent": "将依赖添加到 `Package.swift` 中"
+  },
+  {
+    "row": 51,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 52,
+    "rowsha": "4pugW2e+kP2kUKf1Tkz3gkr/SKippR+S2BnZOE0m0ho=",
+    "originContent": ".package(url: \"https://github.com/sliemeobn/elementary.git\", from: \"0.3.2\")",
+    "translatedContent": ".package(url: \"https://github.com/sliemeobn/elementary.git\", from: \"0.3.2\")"
+  },
+  {
+    "row": 53,
+    "rowsha": "iEAwxcunN+9f9qIowR//FE5HEUZtUd1SKaJkQrQk8T8=",
+    "originContent": ".product(name: \"Elementary\", package: \"elementary\")",
+    "translatedContent": ".product(name: \"Elementary\", package: \"elementary\")"
+  },
+  {
+    "row": 54,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "dYHLQWcN0i4fAgig4pUti4fEWaHNZxguYVSutnMaVTg=",
+    "originContent": "Integration with [Hummingbird](https://github.com/hummingbird-community/hummingbird-elementary)",
+    "translatedContent": "与 [Hummingbird](https://github.com/hummingbird-community/hummingbird-elementary) 的集成"
+  },
+  {
+    "row": 57,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 58,
+    "rowsha": "tShUe1Fp5XAvwGCnh9/Hf4QBTdxSywPScVqr3NjG/O0=",
+    "originContent": ".package(url: \"https://github.com/hummingbird-community/hummingbird-elementary.git\", from: \"0.3.0\")",
+    "translatedContent": ".package(url: \"https://github.com/hummingbird-community/hummingbird-elementary.git\", from: \"0.3.0\")"
+  },
+  {
+    "row": 59,
+    "rowsha": "8dDpmt7kVHxm10LfpJedGOrYv/5SuEqM+HkrpgxRH9s=",
+    "originContent": ".product(name: \"HummingbirdElementary\", package: \"hummingbird-elementary\")",
+    "translatedContent": ".product(name: \"HummingbirdElementary\", package: \"hummingbird-elementary\")"
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "e0U1q7SOtXPsZ9+4vigxSSkzjHmuUPc8M+ob3qbuWV8=",
+    "originContent": "Integration with [Vapor](https://github.com/vapor-community/vapor-elementary)",
+    "translatedContent": "与 [Vapor](https://github.com/vapor-community/vapor-elementary) 集成"
+  },
+  {
+    "row": 63,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 64,
+    "rowsha": "dso4EdyqC2w4NLoRANrn9I67KiqDrK873VNkZyTVBmM=",
+    "originContent": ".package(url: \"https://github.com/vapor-community/vapor-elementary.git\", from: \"0.1.0\")",
+    "translatedContent": ".package(url: \"https://github.com/vapor-community/vapor-elementary.git\", from: \"0.1.0\")"
+  },
+  {
+    "row": 65,
+    "rowsha": "WUTNejrNyOA5lrIaRStUDvHeX7YJR0tMk6IxpPIwrUc=",
+    "originContent": ".product(name: \"VaporElementary\", package: \"vapor-elementary\")",
+    "translatedContent": ".product(name: \"VaporElementary\", package: \"vapor-elementary\")"
+  },
+  {
+    "row": 66,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 试用一下"
+  },
+  {
+    "row": 68,
+    "rowsha": "4N1D1/gaUBOzgQ+BsPA4iA2cuP3PndjWfRoVJ0rItOQ=",
+    "originContent": "## Play with it",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "查看 [Hummingbird + Tailwind 示例应用](https://github.com/sliemeobn/elementary/tree/main/Examples/HummingbirdDemo)。"
+  },
+  {
+    "row": 70,
+    "rowsha": "cFQK7ClQguSe2QDBYUOPNvUavBB84X63q5cvwDXS8vw=",
+    "originContent": "Check out the [Hummingbird + Tailwind example app](https://github.com/sliemeobn/elementary/tree/main/Examples/HummingbirdDemo).",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "想看 [ElementaryHTMX](https://github.com/sliemeobn/elementary-htmx) 的演示，请参见此 [Hummingbird + HTMX 演示](https://github.com/sliemeobn/elementary-htmx/tree/main/Examples/HummingbirdDemo)。"
+  },
+  {
+    "row": 72,
+    "rowsha": "WcemhooXzAdtDRynu9Mgfk8UBvQTH9RcCQ5eT4EHz6U=",
+    "originContent": "For a demo of [ElementaryHTMX](https://github.com/sliemeobn/elementary-htmx), see this [Hummingbird + HTMX Demo](https://github.com/sliemeobn/elementary-htmx/tree/main/Examples/HummingbirdDemo).",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "想看 Vapor 示例，请查看 [Vapor + HTMX 演示](https://github.com/sliemeobn/elementary-htmx/tree/main/Examples/VaporDemo)。"
+  },
+  {
+    "row": 74,
+    "rowsha": "DJrUNHLt4kEY1NqYTZvX3c9pQqrbM/lV+XyYYTEs6Cg=",
+    "originContent": "For a Vapor example, see the [Vapor + HTMX Demo](https://github.com/sliemeobn/elementary-htmx/tree/main/Examples/VaporDemo).",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 轻量且快速"
+  },
+  {
+    "row": 76,
+    "rowsha": "Huz2inMVuTPr9VCLXwK/uGALF8+SF3BFoH7EKudC36M=",
+    "originContent": "## Lightweight and fast",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Elementary 直接渲染为文本，优化用于从 [Hummingbird](https://github.com/hummingbird-project/hummingbird) 或 [Vapor](https://vapor.codes/) 服务器应用提供生成的 HTML。"
+  },
+  {
+    "row": 78,
+    "rowsha": "7SujpC3caCkRwiYzGnhUlDenxrANLdgiW4jY8znrAJ8=",
+    "originContent": "Elementary renders straight to text, optimized for serving generated HTML from a [Hummingbird](https://github.com/hummingbird-project/hummingbird) or [Vapor](https://vapor.codes/) server app.",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "任何符合 `HTML` 协议的类型都可以单独渲染，适合测试或通过 [htmx](https://github.com/sliemeobn/elementary-htmx) 发送片段。"
+  },
+  {
+    "row": 80,
+    "rowsha": "KpXbqmBHTk+UKeqJKXY850yAB1CHUTGRm1YVLnC0b+4=",
+    "originContent": "Any type conforming to `HTML` can be rendered individually, ideal for testing or for sending fragments with [htmx](https://github.com/sliemeobn/elementary-htmx).",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "默认的渲染机制生成 HTML 块以实现高效的响应流式传输，因此浏览器可以在服务器仍在生成剩余内容时开始加载页面。Swift 并发用于处理背压，即使是大型页面也能保持较低的内存占用。"
+  },
+  {
+    "row": 82,
+    "rowsha": "n/PKkJSAxpuNfMLiiUS0hYulTsjFkdkZT6Elswd414U=",
+    "originContent": "The default rendering mechanism produces chunks of HTML for efficient response streaming, so the browser can start loading a page while the server is still producing the rest of it. Swift concurrency is used to handle back pressure, so you your memory footprint stays low even for large pages.",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 85,
+    "rowsha": "n5kQ9i+2xRehEswdPmE2/2xtXbP8kW0rxxFsIpS7OaM=",
+    "originContent": "// Stream HTML, optimized for responsiveness and back pressure-aware",
+    "translatedContent": "// Stream HTML, optimized for responsiveness and back pressure-aware"
+  },
+  {
+    "row": 86,
+    "rowsha": "hCaWu25ZGVEsxqtyGZHlqc+D/UkIZa7Wz3ApofFJFe4=",
+    "originContent": "try await MainPage().render(into: responseStreamWriter)",
+    "translatedContent": "try await MainPage().render(into: responseStreamWriter)"
+  },
+  {
+    "row": 87,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "或者，您也可以将渲染后的 HTML 简单地收集到一个字符串中。"
+  },
+  {
+    "row": 89,
+    "rowsha": "wI8fI8bKnD6ydf+aFbiribM6XaRakc6WKupzfKqGbPc=",
+    "originContent": "Alternatively, you can simply collect the rendered HTML in a string.",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 92,
+    "rowsha": "YnUvgHbxulvpT7ayjqa1Nc4DaKa26t85y6+8OIv61YI=",
+    "originContent": "let html: String = div(.class(\"pretty\")) { \"Hello\" }.render()",
+    "translatedContent": "let html: String = div(.class(\"pretty\")) { \"Hello\" }.render()"
+  },
+  {
+    "row": 93,
+    "rowsha": "MzgCQ6kiUPEyINaHX9gGsDxq9he1ckLP3z3epx58D5M=",
+    "originContent": "// <div class=\"pretty\">Hello</div>",
+    "translatedContent": "// <div class=\"pretty\">Hello</div>"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "Arp2tWZDFETxtm4AUdy5hFuM2zGZa8Sh/DTtrXdcLI4=",
+    "originContent": "let fragment: String = FeatureList(features: [\"Anything conforming to HTML can be rendered\"]).render()",
+    "translatedContent": "let fragment: String = FeatureList(features: [\"Anything conforming to HTML can be rendered\"]).render()"
+  },
+  {
+    "row": 96,
+    "rowsha": "Xz+dTMgkTLpsfpgdSlc2SjYRpTzroemPAv74X2lwJQg=",
+    "originContent": "// <ul><li>Anything conforming to HTML can be rendered</li></ul>",
+    "translatedContent": "// <ul><li>Anything conforming to HTML can be rendered</li></ul>"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "Cmeid2GhEyb92O3T4FRYyjHbQv4EaUeJXDuuz+xss+s=",
+    "originContent": "// For testing purposes, there is also a formatted version",
+    "translatedContent": "// For testing purposes, there is also a formatted version"
+  },
+  {
+    "row": 99,
+    "rowsha": "bZcz83a6jJRtWkWKV1X5WetRWLrHwg/Ur9ckTl18g8M=",
+    "originContent": "print(",
+    "translatedContent": "print("
+  },
+  {
+    "row": 100,
+    "rowsha": "ymkJKpDrNZJiRLBVnKxGRcA0v0hAVv1nL2oNOz/HKtU=",
+    "originContent": "    div {",
+    "translatedContent": "    div {"
+  },
+  {
+    "row": 101,
+    "rowsha": "63ArWcD6RIf89qk2AcqxsLuidYe0cwsqU5kWjpjNzrM=",
+    "originContent": "        p(.class(\"greeting\")) { \"Hi mom!\" }",
+    "translatedContent": "        p(.class(\"greeting\")) { \"Hi mom!\" }"
+  },
+  {
+    "row": 102,
+    "rowsha": "DptgCZ0h7ekXYPg4qSKZ+xL+Cj2PqEsEgy8ZdGfos2g=",
+    "originContent": "        p { \"Look how pretty.\" }",
+    "translatedContent": "        p { \"Look how pretty.\" }"
+  },
+  {
+    "row": 103,
+    "rowsha": "4RedBaD/bkYmoBsja/azlpWSv2L2g8dvvGdFj/dIFIE=",
+    "originContent": "    }.renderFormatted()",
+    "translatedContent": "    }.renderFormatted()"
+  },
+  {
+    "row": 104,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "KDXUMYicJ4vLyXHSOFKlqhdcrfEjsS3QmZ91eaEgpWY=",
+    "originContent": "// <div>",
+    "translatedContent": "// <div>"
+  },
+  {
+    "row": 107,
+    "rowsha": "hPjU/cXdt5YI4tzYuORDy68fhCCb2mjlDI2hy5pWFZQ=",
+    "originContent": "//   <p class=\"greeting\">Hi mom!</p>",
+    "translatedContent": "//   <p class=\"greeting\">Hi mom!</p>"
+  },
+  {
+    "row": 108,
+    "rowsha": "yUQbQ0OLPIJ1sVJhrgICZyxvXy0DZoarQHQSEZaZvSc=",
+    "originContent": "//   <p>Look how pretty.</p>",
+    "translatedContent": "//   <p>Look how pretty.</p>"
+  },
+  {
+    "row": 109,
+    "rowsha": "GanXF8HSs5V/QnB52+Sy3VXnnxwLfGEHXqxhVVt3Mmw=",
+    "originContent": "// </div>",
+    "translatedContent": "// </div>"
+  },
+  {
+    "row": 110,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "5/ssyMWd/qhKZIUGzRj4r4dqZBFZ8E2sK7mo1RZUvtE=",
+    "originContent": "Elementary has zero dependencies (not even Foundation) and does not use runtime reflection or existential containers (there is not a single `any` in the code base).",
+    "translatedContent": "Elementary 没有任何依赖（甚至不依赖 Foundation），也不使用运行时反射或存在性容器（代码库中没有一个 `any`）。"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "kxaiyFCtfw5uLsbtxnBEODERtHouhL2bEAqpWpprnss=",
+    "originContent": "By design, it does not come with a layout engine, reactive state tracking, or built-in CSS styling: it just renders HTML.",
+    "translatedContent": "设计上，它不包含布局引擎、响应式状态跟踪或内置的 CSS 样式：它仅渲染 HTML。"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "RYY7dwasQAn5XfRbk2CPuXfFMKSIkqF6K7mQT2bhl6o=",
+    "originContent": "## Clean and composable",
+    "translatedContent": "## 干净且可组合"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "ctsatHd8BZZ/H0QYLE7AevWi2iHhaQ4CNg4vi6TU87E=",
+    "originContent": "Structure your HTML with a SwiftUI-inspired composition API.",
+    "translatedContent": "使用受 SwiftUI 启发的组合 API 结构化你的 HTML。"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 121,
+    "rowsha": "VLn0AXxyimDw8uGmgpiVWKjfJtJmtxg5lDrWO6j1gA8=",
+    "originContent": "struct List: HTML {",
+    "translatedContent": "struct List: HTML {"
+  },
+  {
+    "row": 122,
+    "rowsha": "ZcbLhWMp4m6awtV5VGgXJ2pPZdz0pBO9NT6l12Q3wcQ=",
+    "originContent": "    var items: [String]",
+    "translatedContent": "    var items: [String]"
+  },
+  {
+    "row": 123,
+    "rowsha": "Vz2FQl6iYkZWHpE0hzlVBZ3ayd5jPwTCfmwfNLuc710=",
+    "originContent": "    var importantIndex: Int",
+    "translatedContent": "    var importantIndex: Int"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "gBPFR4gKPmAVXfiQqYHNI3cXdE00i6xZItpfE2410fU=",
+    "originContent": "    var content: some HTML {",
+    "translatedContent": "    var content: some HTML {"
+  },
+  {
+    "row": 126,
+    "rowsha": "uAK3ZhULWAevvZ3QgdzorFVf+pNLefbYK29GuOPhaT4=",
+    "originContent": "        // conditional rendering",
+    "translatedContent": "        // conditional rendering"
+  },
+  {
+    "row": 127,
+    "rowsha": "HA2z7Yuh0zlAy7GQx1nkamIxKce+SQldKPUyUuLnRZg=",
+    "originContent": "        if items.isEmpty {",
+    "translatedContent": "        if items.isEmpty {"
+  },
+  {
+    "row": 128,
+    "rowsha": "pNspjr/Oymtv3LYqHZS8qyDdZUrTFF/WMN01s0EvleY=",
+    "originContent": "            p { \"No items\" }",
+    "translatedContent": "            p { \"No items\" }"
+  },
+  {
+    "row": 129,
+    "rowsha": "d4ha1c4noKxOkj1IlfIGSW+GX9yJf3XNpncsiYasxk0=",
+    "originContent": "        } else {",
+    "translatedContent": "        } else {"
+  },
+  {
+    "row": 130,
+    "rowsha": "m1Vdx5UT6d+tfF/rgX4jFrR37EsmDJjPlX9mU839Eo8=",
+    "originContent": "            ul {",
+    "translatedContent": "            ul {"
+  },
+  {
+    "row": 131,
+    "rowsha": "l1FQ3M117djOz6wvvCheCUNjdovR2ipyaGpYPYNAnEM=",
+    "originContent": "                // list rendering",
+    "translatedContent": "                // list rendering"
+  },
+  {
+    "row": 132,
+    "rowsha": "N01u7ixBo9NUrbv7gXArqocBoCBznEiIywB2pBRenws=",
+    "originContent": "                for (index, item) in items.enumerated() {",
+    "translatedContent": "                for (index, item) in items.enumerated() {"
+  },
+  {
+    "row": 133,
+    "rowsha": "dXLR1ZVDiqH0jZuvbE/oT+c1l/HKkdMTUSpGHL0Z2s8=",
+    "originContent": "                    // seamless composition of elements",
+    "translatedContent": "                    // seamless composition of elements"
+  },
+  {
+    "row": 134,
+    "rowsha": "5LrkLP1ttdDBj4bul59CBssyoea+HCvEcr7c+tEm3cM=",
+    "originContent": "                    ListItem(text: item, isImportant: index == importantIndex)",
+    "translatedContent": "                    ListItem(text: item, isImportant: index == importantIndex)"
+  },
+  {
+    "row": 135,
+    "rowsha": "C/CgiKZJwi3JsYSpUZ0e0FpDibwsPF8bbIyFfD+4S6E=",
+    "originContent": "                }",
+    "translatedContent": "                }"
+  },
+  {
+    "row": 136,
+    "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+    "originContent": "            }",
+    "translatedContent": "            }"
+  },
+  {
+    "row": 137,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 138,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 139,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "33PgZdOkW+6+AHU4DPWvUcq7op+5kb/QsJLLo60GPkQ=",
+    "originContent": "struct ListItem: HTML {",
+    "translatedContent": "struct ListItem: HTML {"
+  },
+  {
+    "row": 142,
+    "rowsha": "3mZVklIKuFSbB+GRHs9KVFpJYrgVV7+2/+NFQDVBBrE=",
+    "originContent": "    var text: String",
+    "translatedContent": "    var text: String"
+  },
+  {
+    "row": 143,
+    "rowsha": "dcNanTTD4uYbigqGk8Znqukoku7Nq9OfkjoDDdlKmgI=",
+    "originContent": "    var isImportant: Bool = false",
+    "translatedContent": "    var isImportant: Bool = false"
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "gBPFR4gKPmAVXfiQqYHNI3cXdE00i6xZItpfE2410fU=",
+    "originContent": "    var content: some HTML {",
+    "translatedContent": "    var content: some HTML {"
+  },
+  {
+    "row": 146,
+    "rowsha": "Q1QcCligT2Z8BXCDhRVe5T584oxsla6naVEWe+RP0k0=",
+    "originContent": "        // conditional attributes",
+    "translatedContent": "        // conditional attributes"
+  },
+  {
+    "row": 147,
+    "rowsha": "zaCWBe3p/vHxfGDpBbJ/qJ8qo+709g8gRDe8d8GaYDM=",
+    "originContent": "        li { text }",
+    "translatedContent": "        li { text }"
+  },
+  {
+    "row": 148,
+    "rowsha": "lAvs54rM/72hMNgMiLgpQU3ZmZzluoUjCb1vxfNX6Bg=",
+    "originContent": "            .attributes(.class(\"important\"), when: isImportant)",
+    "translatedContent": "            .attributes(.class(\"important\"), when: isImportant)"
+  },
+  {
+    "row": 149,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 150,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 151,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "EJaljgU4T4bCnzVZKDHQz5z/S6cOtLQIiHWNmXUQ2lA=",
+    "originContent": "## First class attribute handling",
+    "translatedContent": "## 一等属性处理"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "rVcnBS3kGGdA60bH87qlYhoKlIEmkP/1QmAAjlM8ekA=",
+    "originContent": "Elementary utilizes Swift's powerful generics to provide an attribute system that knows what goes where. Every element knows which Tag it is for.",
+    "translatedContent": "Elementary 利用 Swift 强大的泛型功能提供了一个属性系统，能够明确知道属性应该放在哪里。每个元素都知道它对应的是哪个标签。"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "IEEHxBP95MAJ4IL4+TR1npilhQ91oGmAqQhepK8waQ4=",
+    "originContent": "As in HTML, attributes go right after the \"opening tag\".",
+    "translatedContent": "和 HTML 一样，属性紧跟在“开始标签”之后。"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 160,
+    "rowsha": "t+Q+Nsbil/4xjkb3H2POdOKLVPTc9KTEtPqsGuiDQCI=",
+    "originContent": "// staying close to HTML syntax really helps",
+    "translatedContent": "// staying close to HTML syntax really helps"
+  },
+  {
+    "row": 161,
+    "rowsha": "EvxVcoWRwfIPuU9kOvnHIPPQjCyEJFwDg/jVQn7bvk8=",
+    "originContent": "div(.data(\"hello\", value: \"there\")) {",
+    "translatedContent": "div(.data(\"hello\", value: \"there\")) {"
+  },
+  {
+    "row": 162,
+    "rowsha": "0/bXNv1fqYq01zIRzXxl6PqCEwjXKs8H0/o6w2B4hmQ=",
+    "originContent": "    a(.href(\"/swift\"), .target(.blank)) {",
+    "translatedContent": "    a(.href(\"/swift\"), .target(.blank)) {"
+  },
+  {
+    "row": 163,
+    "rowsha": "9+iocjmdBBLoxVZKlQlcMo7kBDJqmiQ3HnFU2orSfgI=",
+    "originContent": "        img(.src(\"/swift.png\"))",
+    "translatedContent": "        img(.src(\"/swift.png\"))"
+  },
+  {
+    "row": 164,
+    "rowsha": "8GGf+Ebs7chYpk8DArVMGXOQZ5tYd5hPLMLvEgyFZOw=",
+    "originContent": "        span(.class(\"fancy\")) { \"Click Me\" }",
+    "translatedContent": "        span(.class(\"fancy\")) { \"Click Me\" }"
+  },
+  {
+    "row": 165,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 166,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 167,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "Sqeu+LLqhE3xiAEHz/dbrjsYRGwemesi7nEp3A2Pokc=",
+    "originContent": "Attributes can also be altered by using the modifier syntax, this allows for easy handling of conditional attributes.",
+    "translatedContent": "属性也可以通过使用修饰符语法来更改，这允许轻松处理条件属性。"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 172,
+    "rowsha": "zv7Z9Vb79EkO6f5RBMdZdZEwdph833Yrxjzs8TeH1yM=",
+    "originContent": "div {",
+    "translatedContent": "div {"
+  },
+  {
+    "row": 173,
+    "rowsha": "EEuR2gFOWODAzkCP+UOLDAUcuoqbM2ukxDV629nDy50=",
+    "originContent": "    p { \"Hello\" }",
+    "translatedContent": "    p { \"Hello\" }"
+  },
+  {
+    "row": 174,
+    "rowsha": "e+6lvB1NwUtFSTs5KaVgSeEG+d3Zw6VyRuCZeaTmLd8=",
+    "originContent": "        .attributes(.id(\"maybe-fancy\"))",
+    "translatedContent": "        .attributes(.id(\"maybe-fancy\"))"
+  },
+  {
+    "row": 175,
+    "rowsha": "dwY4DfMeBREdycxlA5fpcNZ3Jfc5xIiEp420+n2Pzfs=",
+    "originContent": "        .attributes(.class(\"fancy\"), when: isFancy)",
+    "translatedContent": "        .attributes(.class(\"fancy\"), when: isFancy)"
+  },
+  {
+    "row": 176,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 177,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "通过公开 `content` 的标签类型，属性将正确传递并应用。"
+  },
+  {
+    "row": 179,
+    "rowsha": "V/O70Ciba02yFxu7bFH89fDUoBmxWSkLA7+JHggR0l4=",
+    "originContent": "By exposing the tag type of `content`, attributes will fall through and be applied correctly.",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 182,
+    "rowsha": "1InSyUbUjncHNvuVPe0nyc4FKGAx/rScQt6z2qtax1I=",
+    "originContent": "struct Button: HTML {",
+    "translatedContent": "struct Button: HTML {"
+  },
+  {
+    "row": 183,
+    "rowsha": "3mZVklIKuFSbB+GRHs9KVFpJYrgVV7+2/+NFQDVBBrE=",
+    "originContent": "    var text: String",
+    "translatedContent": "    var text: String"
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "hX/hROUuuKVvYUCjulbvCRjKAyIlJcC5d+47gYE1n1w=",
+    "originContent": "    // by exposing the HTMLTag type information...",
+    "translatedContent": "    // by exposing the HTMLTag type information..."
+  },
+  {
+    "row": 186,
+    "rowsha": "1ojpKa28eV8BwfyQvKU77xn0I1z8+1pgjaid6Z6rRL4=",
+    "originContent": "    var content: some HTML<HTMLTag.input> {",
+    "translatedContent": "    var content: some HTML<HTMLTag.input> {"
+  },
+  {
+    "row": 187,
+    "rowsha": "Hqm6Altp/VJbsaiKbOrffhc7/QXhdBlU7JgLnHCp1MA=",
+    "originContent": "        input(.type(.button), .value(text))",
+    "translatedContent": "        input(.type(.button), .value(text))"
+  },
+  {
+    "row": 188,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 189,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "zv7Z9Vb79EkO6f5RBMdZdZEwdph833Yrxjzs8TeH1yM=",
+    "originContent": "div {",
+    "translatedContent": "div {"
+  },
+  {
+    "row": 192,
+    "rowsha": "o9XR4if4dfOY7y8hZwJxt+EARZdHOvULuXpNyMx503s=",
+    "originContent": "    // ... Button will know it really is an <input> element ...",
+    "translatedContent": "    // ... Button will know it really is an <input> element ..."
+  },
+  {
+    "row": 193,
+    "rowsha": "YbVOcMb6T7NBD4jVVdbPeTsugKkP87WlW52WOUchn+M=",
+    "originContent": "    Button(text: \"Hello\")",
+    "translatedContent": "    Button(text: \"Hello\")"
+  },
+  {
+    "row": 194,
+    "rowsha": "enUaLsMUfddwTB1ViqM3sojKC32zGqAtIYAPIPqqQZ0=",
+    "originContent": "        .attributes(.autofocus) // ... and pass on any attributes",
+    "translatedContent": "        .attributes(.autofocus) // ... and pass on any attributes"
+  },
+  {
+    "row": 195,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 196,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "作为一个合理的默认设置，_class_ 和 _style_ 属性会被合并（分别用空格或分号分隔）。所有其他属性默认会被覆盖。"
+  },
+  {
+    "row": 198,
+    "rowsha": "U1o7Kco5RwJ0Y8o2YJiZORd/PGjr0gyLOBCoV1TZV2c=",
+    "originContent": "As a sensible default, _class_ and _style_ attributes are merged (with a blank space or semicolon respectively). All other attributes are overwritten by default.",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 无缝异步支持"
+  },
+  {
+    "row": 200,
+    "rowsha": "73mWaGYsbUVH7eWifYCP19VY8yrQTaKaUVJOEpFEcd8=",
+    "originContent": "## Seamless async support",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Elementary 支持 HTML 内容中的 Swift 并发。只需在你的 HTML 内部使用 `await`，同时首字节已经开始传输到浏览器。"
+  },
+  {
+    "row": 202,
+    "rowsha": "ldUrmIg1XlJM2Y1xCZ9Ax2gOxuBuPEg5PwHMdErPr4U=",
+    "originContent": "Elementary supports Swift Concurrency in HTML content. Simply `await` something inside your HTML, while the first bytes are already flying towards the browser.",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 205,
+    "rowsha": "zv7Z9Vb79EkO6f5RBMdZdZEwdph833Yrxjzs8TeH1yM=",
+    "originContent": "div {",
+    "translatedContent": "div {"
+  },
+  {
+    "row": 206,
+    "rowsha": "A5or1pnlNZZVfDu9vuwnZxFT7DcBhaUuWEtR/16fWDM=",
+    "originContent": "    let text = await getMyData()",
+    "translatedContent": "    let text = await getMyData()"
+  },
+  {
+    "row": 207,
+    "rowsha": "jjMElUllmAv8N41uCbcrrvnjQSg80hbq4acRlzo6ZgQ=",
+    "originContent": "    p { \"This totally works: \\(text)\" }",
+    "translatedContent": "    p { \"This totally works: \\(text)\" }"
+  },
+  {
+    "row": 208,
+    "rowsha": "4DK6UR1yKGm5dFX50hDtvC7+Rk55M2g/IGxsFUTMYV8=",
+    "originContent": "    MyComponent()",
+    "translatedContent": "    MyComponent()"
+  },
+  {
+    "row": 209,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 211,
+    "rowsha": "X5o+/Z3/kib/gPnc28FZzaux3vVy2tXq3WH0UYTA1B0=",
+    "originContent": "struct MyComponent: HTML {",
+    "translatedContent": "struct MyComponent: HTML {"
+  },
+  {
+    "row": 212,
+    "rowsha": "gBPFR4gKPmAVXfiQqYHNI3cXdE00i6xZItpfE2410fU=",
+    "originContent": "    var content: some HTML {",
+    "translatedContent": "    var content: some HTML {"
+  },
+  {
+    "row": 213,
+    "rowsha": "3b1nFGrSOB1nDMxWbENPQJt3UkhQ4TcO3O5ZXk1CvKo=",
+    "originContent": "        AsyncContent {",
+    "translatedContent": "        AsyncContent {"
+  },
+  {
+    "row": 214,
+    "rowsha": "i90ly5x9AH8JUG115LYh7ihQ6xcKR1X9Fl3oAuhnRN0=",
+    "originContent": "            \"So does this: \\(await getMoreData())\"",
+    "translatedContent": "            \"So does this: \\(await getMoreData())\""
+  },
+  {
+    "row": 215,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 216,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 217,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 218,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "通过使用 `AsyncForEach` 元素，任何 `AsyncSequence` 都可以高效地直接渲染为 HTML。"
+  },
+  {
+    "row": 220,
+    "rowsha": "XQ5SbE4N5EL9+NuS8b4PoNHS37YeZZOGtAMLCC3CnPg=",
+    "originContent": "By using the `AsyncForEach` element, any `AsyncSequence` can be efficiently rendered straight to HTML.",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 222,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 223,
+    "rowsha": "24s4OAKAkk5nBuQgrR+QkJeXlgPy8aIUrmR3XmPoBuQ=",
+    "originContent": "ul {",
+    "translatedContent": "ul {"
+  },
+  {
+    "row": 224,
+    "rowsha": "wngfhiKQgQD2+mzzn0b2dJXewtLgh3KtMzWb2KozKZk=",
+    "originContent": "    // the full result never needs to be stored in memory...",
+    "translatedContent": "    // the full result never needs to be stored in memory..."
+  },
+  {
+    "row": 225,
+    "rowsha": "IdT9rdQrn1rs5Vz8SBYPB5vwXaHZck2QUU903Shs7iI=",
+    "originContent": "    let users = try await db.users.findAll()",
+    "translatedContent": "    let users = try await db.users.findAll()"
+  },
+  {
+    "row": 226,
+    "rowsha": "X9QTMEg6Atnr0JTOi4drFU9kBCJKQihH1Q5ELOYtwKw=",
+    "originContent": "    // ...as each async sequence element...",
+    "translatedContent": "    // ...as each async sequence element..."
+  },
+  {
+    "row": 227,
+    "rowsha": "cZL9VJX4tvLlln709UP4oF+28q6oNGVxC205SoLZWJE=",
+    "originContent": "    AsyncForEach(users) { user in",
+    "translatedContent": "    AsyncForEach(users) { user in"
+  },
+  {
+    "row": 228,
+    "rowsha": "hIAs5jY7B6IXn7MMMQ8cD/wRX/3++KM8amNhejX8Z98=",
+    "originContent": "        // ...is immediately streamed out as HTML",
+    "translatedContent": "        // ...is immediately streamed out as HTML"
+  },
+  {
+    "row": 229,
+    "rowsha": "K6WLzFeK0DPm8B+qiW3n6ZSUEZ+kRMbr+0A4FAa2OY0=",
+    "originContent": "        li { \"\\(user.name) \\(user.favoriteProgrammingLanguage)\" }",
+    "translatedContent": "        li { \"\\(user.name) \\(user.favoriteProgrammingLanguage)\" }"
+  },
+  {
+    "row": 230,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 231,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 232,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 233,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 234,
+    "rowsha": "cmi7i/ii2Y9QT7X6ThXkv1pseJxyyp2bl5uMp5Dvz4U=",
+    "originContent": "## Enviroment values",
+    "translatedContent": "## 环境变量"
+  },
+  {
+    "row": 235,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 236,
+    "rowsha": "VPwhcFtxm231h3OvUDdFispi72+xVSCheLKFaqBMmNY=",
+    "originContent": "Elementary utilizes `TaskLocal`s to provide a light-weight environment system.",
+    "translatedContent": "Elementary 使用 `TaskLocal` 来提供轻量级的环境系统。"
+  },
+  {
+    "row": 237,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 238,
+    "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+    "originContent": "```swift",
+    "translatedContent": "```swift"
+  },
+  {
+    "row": 239,
+    "rowsha": "Rq0kmHP2qOtsnNyzEnnZcEy3+KySbW/3+aahZrfVXU0=",
+    "originContent": "enum MyValues {",
+    "translatedContent": "enum MyValues {"
+  },
+  {
+    "row": 240,
+    "rowsha": "EReXlU1e7Ph+MpEXmG5LGQv3Nuf8q/Dz+cy/CoV6DxM=",
+    "originContent": "    // task-locals act as keys, ...",
+    "translatedContent": "    // task-locals act as keys, ..."
+  },
+  {
+    "row": 241,
+    "rowsha": "GV16FiwJ854C8yZl8V0lMlHh5jWFqbHOzT6DeeTWvho=",
+    "originContent": "    @TaskLocal static var userName = \"Anonymous\"",
+    "translatedContent": "    @TaskLocal static var userName = \"Anonymous\""
+  },
+  {
+    "row": 242,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 243,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 244,
+    "rowsha": "X5o+/Z3/kib/gPnc28FZzaux3vVy2tXq3WH0UYTA1B0=",
+    "originContent": "struct MyComponent: HTML {",
+    "translatedContent": "struct MyComponent: HTML {"
+  },
+  {
+    "row": 245,
+    "rowsha": "tIxhpuuFvfx2Y9imuFcBZNVDV7uHpcf5US/7a802eAw=",
+    "originContent": "    // ... their values can be accessed ...",
+    "translatedContent": "    // ... their values can be accessed ..."
+  },
+  {
+    "row": 246,
+    "rowsha": "MPDDASvyTk3FMkYJbn/LbOyXcTVFMW9e2YRAYX4O5vs=",
+    "originContent": "    @Environment(MyValues.$userName) var userName",
+    "translatedContent": "    @Environment(MyValues.$userName) var userName"
+  },
+  {
+    "row": 247,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 248,
+    "rowsha": "gBPFR4gKPmAVXfiQqYHNI3cXdE00i6xZItpfE2410fU=",
+    "originContent": "    var content: some HTML {",
+    "translatedContent": "    var content: some HTML {"
+  },
+  {
+    "row": 249,
+    "rowsha": "fDsmzQ1og7s+jNFyRTZ4bmdm6XFbfcpgBmHsMkn3FgE=",
+    "originContent": "        p { \"Hello, \\(userName)!\" }",
+    "translatedContent": "        p { \"Hello, \\(userName)!\" }"
+  },
+  {
+    "row": 250,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 251,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 252,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 253,
+    "rowsha": "zv7Z9Vb79EkO6f5RBMdZdZEwdph833Yrxjzs8TeH1yM=",
+    "originContent": "div {",
+    "translatedContent": "div {"
+  },
+  {
+    "row": 254,
+    "rowsha": "JEAcbqxC01WQgCJNP0Cmp61KNThI3ZmaHRyBdbom9SA=",
+    "originContent": "    // ... and provided in a familiar way",
+    "translatedContent": "    // ... and provided in a familiar way"
+  },
+  {
+    "row": 255,
+    "rowsha": "4DK6UR1yKGm5dFX50hDtvC7+Rk55M2g/IGxsFUTMYV8=",
+    "originContent": "    MyComponent()",
+    "translatedContent": "    MyComponent()"
+  },
+  {
+    "row": 256,
+    "rowsha": "vNarSzry3gQZG+0J++FTwjEH1lzqvjFHn17YK4V29p0=",
+    "originContent": "        .environment(Values.$userName, \"Drax the Destroyer\")",
+    "translatedContent": "        .environment(Values.$userName, \"Drax the Destroyer\")"
+  },
+  {
+    "row": 257,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 258,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 259,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 260,
+    "rowsha": "lhBvbT4pm5ioFHm/XBcymd5gKPuHQXEHnYHa1pcAEec=",
+    "originContent": "### 🚧 Work in progress 🚧",
+    "translatedContent": "### 🚧 进行中 🚧"
+  },
+  {
+    "row": 261,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 262,
+    "rowsha": "gRQG9Rz7vX/c3MfIlHR62gT4Xb1g6zWvNtbb1nQ8bGU=",
+    "originContent": "The list of built-in attributes is far from complete, but adding them is really simple (and can be done in external packages as well).",
+    "translatedContent": "内置属性列表远未完整，但添加它们非常简单（也可以在外部包中完成）。"
+  },
+  {
+    "row": 263,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 264,
+    "rowsha": "5233LF57tS10DFn8EY+lDXD1igFGxOOP8YifaWM5tZ8=",
+    "originContent": "Feel free to open a PR with additional attributes that are missing from the model.",
+    "translatedContent": "欢迎提交包含模型中缺失的额外属性的PR。"
+  },
+  {
+    "row": 265,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 266,
+    "rowsha": "AX+IE9u0Iq7gIv+o7mmatf18IbTu7YLBK1AXIYXkmk0=",
+    "originContent": "## Motivation and other packages",
+    "translatedContent": "## 动机及其他包"
+  },
+  {
+    "row": 267,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 268,
+    "rowsha": "M3fWyvnAO1MsHjt0dcZ6JUDRmpvY4Fp+T+kwwnVbDGo=",
+    "originContent": "[Plot](https://github.com/JohnSundell/Plot), [HTMLKit](https://github.com/vapor-community/HTMLKit), and [Swim](https://github.com/robb/Swim) are all excellent packages for doing a similar thing.",
+    "translatedContent": "[Plot](https://github.com/JohnSundell/Plot)、[HTMLKit](https://github.com/vapor-community/HTMLKit) 和 [Swim](https://github.com/robb/Swim) 都是做类似事情的优秀包。"
+  },
+  {
+    "row": 269,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 270,
+    "rowsha": "EAdpFDwIoS/tnHMKymAsmHa4r6G1f8RDe/HMFpwv6wc=",
+    "originContent": "My main motivation for Elementary was to create an experience like these ([Swift Forums post](https://forums.swift.org/t/elementary-a-modern-and-efficient-html-rendering-library-inspired-by-swiftui-built-for-the-web/72647) for more context), but",
+    "translatedContent": "我创建 Elementary 的主要动机是打造类似体验（更多背景见 [Swift 论坛帖子](https://forums.swift.org/t/elementary-a-modern-and-efficient-html-rendering-library-inspired-by-swiftui-built-for-the-web/72647)），但"
+  },
+  {
+    "row": 271,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 272,
+    "rowsha": "RBtHMYDfzC7SAnyMQcjkvx4oidHd4fZStEaToczA/6Q=",
+    "originContent": "- stay true to HTML tag names and conventions (including the choice of lowercase types)",
+    "translatedContent": "- 保持 HTML 标签名和约定的真实性（包括选择小写类型）"
+  },
+  {
+    "row": 273,
+    "rowsha": "7c4PQg7m3EA7IXBkeNQDhBx2HnexJGN7VjSUKBh3krM=",
+    "originContent": "- avoid allocating an intermedate structure and go straight to streaming HTML",
+    "translatedContent": "- 避免分配中间结构，直接流式输出 HTML"
+  },
+  {
+    "row": 274,
+    "rowsha": "PknYp9Zn48lzQZWhbbQawHeI5eU88jhJHpEsrLpQfS0=",
+    "originContent": "- using generics to stay away from allocating a ton of lists of existential `any`s",
+    "translatedContent": "- 使用泛型避免分配大量存在性 `any` 列表"
+  },
+  {
+    "row": 275,
+    "rowsha": "lwgLo4KqWQWT+A5wYSCBMn8chlMQ5kuQfoHo7Ee88TE=",
+    "originContent": "- have a list of attributes go before the content block",
+    "translatedContent": "- 属性列表放在内容块之前"
+  },
+  {
+    "row": 276,
+    "rowsha": "9VFES42nA3BTPb+JTszv4URIWDjstS/iDL6Yr+Y7J7k=",
+    "originContent": "- provide _attribute fallthrough_ and merging",
+    "translatedContent": "- 提供 _属性透传_ 和合并"
+  },
+  {
+    "row": 277,
+    "rowsha": "XXQSrJJOP5ScTSabZDzjFc3qbSsp6pwTp74ItgOTml0=",
+    "originContent": "- zero dependencies on other packages",
+    "translatedContent": "- 零依赖其他包"
+  },
+  {
+    "row": 278,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 279,
+    "rowsha": "us9JPuq2PvsEpyZfFcaq+X8zNNvsxdibphbwfighihg=",
+    "originContent": "[Tokamak](https://github.com/TokamakUI/Tokamak) is an awesome project and very inspiring. It can produce HTML, but it's main focus is on a very different beast. Check it out!",
+    "translatedContent": "[Tokamak](https://github.com/TokamakUI/Tokamak) 是一个很棒且启发性的项目。它可以生成 HTML，但主要关注点非常不同。去看看吧！"
+  },
+  {
+    "row": 280,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 281,
+    "rowsha": "bTqqHr3XvPwwLDCMfqLMmxaU/S6g+AtFA1VIyO8bKD8=",
+    "originContent": "[swift-html](https://github.com/pointfreeco/swift-html) and [swift-dom](https://github.com/tayloraswift/swift-dom) will produce HTML nicely, but they use a different syntax for composing HTML elements.",
+    "translatedContent": "[swift-html](https://github.com/pointfreeco/swift-html) 和 [swift-dom](https://github.com/tayloraswift/swift-dom) 都能很好地生成 HTML，但它们使用不同的语法来组合 HTML 元素。"
+  },
+  {
+    "row": 282,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 283,
+    "rowsha": "1hbXcPcePqav/pKlPjCSyfRj9LiCouupaqMvkIZwRqw=",
+    "originContent": "## Future directions",
+    "translatedContent": "## 未来方向"
+  },
+  {
+    "row": 284,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 285,
+    "rowsha": "kaH7YbFYCBicZOg9zCPJYLQZkQew+A0ISWi2qSMRiVE=",
+    "originContent": "- Experiment with embedded swift for wasm and bolt a lean state tracking/reconciler for reactive DOM manipulation on top",
+    "translatedContent": "- 尝试为 wasm 嵌入 swift，并构建一个精简的状态跟踪/调和器，实现响应式 DOM 操作"
+  },
+  {
+    "row": 286,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

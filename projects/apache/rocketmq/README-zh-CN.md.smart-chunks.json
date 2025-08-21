@@ -1,0 +1,1846 @@
+[
+  {
+    "Id": 1,
+    "Content": "## Apache RocketMQ\n\n[![Build Status][maven-build-image]][maven-build-url]\n[![CodeCov][codecov-image]][codecov-url]\n[![Maven Central][maven-central-image]][maven-central-url]\n[![Release][release-image]][release-url]\n[![License][license-image]][license-url]\n[![Average Time to Resolve An Issue][percentage-of-issues-still-open-image]][percentage-of-issues-still-open-url]\n[![Percentage of Issues Still Open][average-time-to-resolve-an-issue-image]][average-time-to-resolve-an-issue-url]\n[![Twitter Follow][twitter-follow-image]][twitter-follow-url]\n\n**[Apache RocketMQ](https://rocketmq.apache.org) is a distributed messaging and streaming platform with low latency, high performance and reliability, trillion-level capacity and flexible scalability.**\n\n\nIt offers a variety of features:\n\n* Messaging patterns including publish/subscribe, request/reply and streaming\n* Financial grade transactional message\n* Built-in fault tolerance and high availability configuration options base on [DLedger Controller](https://raw.githubusercontent.com/apache/rocketmq/develop/docs/en/controller/quick_start.md)\n* Built-in message tracing capability, also support opentracing\n* Versatile big-data and streaming ecosystem integration\n* Message retroactivity by time or offset\n* Reliable FIFO and strict ordered messaging in the same queue\n* Efficient pull and push consumption model\n* Million-level message accumulation capacity in a single queue\n* Multiple messaging protocols like gRPC, MQTT, JMS and OpenMessaging\n* Flexible distributed scale-out deployment architecture\n* Lightning-fast batch message exchange system\n* Various message filter mechanics such as SQL and Tag\n* Docker images for isolated testing and cloud isolated clusters\n* Feature-rich administrative dashboard for configuration, metrics and monitoring\n* Authentication and authorization\n* Free open source connectors, for both sources and sinks\n* Lightweight real-time computing\n----------\n\n\n## Quick Start\n\nThis paragraph guides you through steps of installing RocketMQ in different ways.",
+    "ContentSha": "dLQtztxlCnVjqms4+yO1k6JV+ck7CWSWCLzC9GM8B08=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Apache RocketMQ\n\n[![Build Status][maven-build-image]][maven-build-url]\n[![CodeCov][codecov-image]][codecov-url]\n[![Maven Central][maven-central-image]][maven-central-url]\n[![Release][release-image]][release-url]\n[![License][license-image]][license-url]\n[![Average Time to Resolve An Issue][percentage-of-issues-still-open-image]][percentage-of-issues-still-open-url]\n[![Percentage of Issues Still Open][average-time-to-resolve-an-issue-image]][average-time-to-resolve-an-issue-url]\n[![Twitter Follow][twitter-follow-image]][twitter-follow-url]\n\n**[Apache RocketMQ](https://rocketmq.apache.org) 是一个分布式消息和流处理平台，具有低延迟、高性能和高可靠性，支持万亿级容量和灵活的可扩展性。**\n\n\n它提供多种功能：\n\n* 消息模式包括发布/订阅、请求/响应和流处理\n* 金融级事务消息\n* 基于 [DLedger Controller](https://raw.githubusercontent.com/apache/rocketmq/develop/docs/en/controller/quick_start.md) 的内置容错和高可用配置选项\n* 内置消息追踪能力，同时支持 opentracing\n* 多样化的大数据和流处理生态系统集成\n* 支持按时间或偏移量的消息回溯\n* 同一队列内可靠的 FIFO 和严格顺序消息\n* 高效的拉取和推送消费模型\n* 单队列百万级消息积累能力\n* 多种消息协议，如 gRPC、MQTT、JMS 和 OpenMessaging\n* 灵活的分布式横向扩展部署架构\n* 极速批量消息交换系统\n* 多种消息过滤机制，如 SQL 和标签\n* 用于隔离测试和云隔离集群的 Docker 镜像\n* 功能丰富的管理仪表盘，用于配置、指标和监控\n* 认证和授权\n* 免费开源的连接器，支持源和接收端\n* 轻量级实时计算\n----------\n\n\n## 快速开始\n\n本段引导您通过不同方式安装 RocketMQ 的步骤。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "g95D9X5uHktAX3oR1cyt5IcMjjIsi2xTC04n0PAp80A=",
+        "originContent": "## Apache RocketMQ",
+        "translatedContent": "## Apache RocketMQ"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "fJTR4j/+N28rcf7UK8+5S3qWBXUlrKgmxyZRm3fzyug=",
+        "originContent": "[![Build Status][maven-build-image]][maven-build-url]",
+        "translatedContent": "[![Build Status][maven-build-image]][maven-build-url]"
+      },
+      {
+        "row": 4,
+        "rowsha": "QisEMKZ+W9A74xiaJdRnjbyImch0dqR/+yeyVsXULXQ=",
+        "originContent": "[![CodeCov][codecov-image]][codecov-url]",
+        "translatedContent": "[![CodeCov][codecov-image]][codecov-url]"
+      },
+      {
+        "row": 5,
+        "rowsha": "dKQEbzT0ylo+6q7bBOaRwFuCwMmbGHScNMR6VvFRf/c=",
+        "originContent": "[![Maven Central][maven-central-image]][maven-central-url]",
+        "translatedContent": "[![Maven Central][maven-central-image]][maven-central-url]"
+      },
+      {
+        "row": 6,
+        "rowsha": "FYA4WAFi3pM5DiRgmjWzLE2SXVQa4UMRP1R8rRdqUN8=",
+        "originContent": "[![Release][release-image]][release-url]",
+        "translatedContent": "[![Release][release-image]][release-url]"
+      },
+      {
+        "row": 7,
+        "rowsha": "SYbawsYMQ7qNTzWxzUqXI+b/IJMDU/2gRb7NPDeGzAA=",
+        "originContent": "[![License][license-image]][license-url]",
+        "translatedContent": "[![License][license-image]][license-url]"
+      },
+      {
+        "row": 8,
+        "rowsha": "WsMo7hFjuNNAEjqR03TWGD3E/2Oi86VmGvpUW8QTqtw=",
+        "originContent": "[![Average Time to Resolve An Issue][percentage-of-issues-still-open-image]][percentage-of-issues-still-open-url]",
+        "translatedContent": "[![Average Time to Resolve An Issue][percentage-of-issues-still-open-image]][percentage-of-issues-still-open-url]"
+      },
+      {
+        "row": 9,
+        "rowsha": "XVfjnRPzZxIQYxBD/GJckB9PvLizvcBWD+V93HkQLq8=",
+        "originContent": "[![Percentage of Issues Still Open][average-time-to-resolve-an-issue-image]][average-time-to-resolve-an-issue-url]",
+        "translatedContent": "[![Percentage of Issues Still Open][average-time-to-resolve-an-issue-image]][average-time-to-resolve-an-issue-url]"
+      },
+      {
+        "row": 10,
+        "rowsha": "OBy2RJsUYCM1rxcTBTDgXavIJB/gq/x/6kxtIImJpoY=",
+        "originContent": "[![Twitter Follow][twitter-follow-image]][twitter-follow-url]",
+        "translatedContent": "[![Twitter Follow][twitter-follow-image]][twitter-follow-url]"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "GzsMknK7lucxicizW5S1w2I/EbEsA5NMfXZuUQQ79nw=",
+        "originContent": "**[Apache RocketMQ](https://rocketmq.apache.org) is a distributed messaging and streaming platform with low latency, high performance and reliability, trillion-level capacity and flexible scalability.**",
+        "translatedContent": "**[Apache RocketMQ](https://rocketmq.apache.org) 是一个分布式消息和流处理平台，具有低延迟、高性能和高可靠性，支持万亿级容量和灵活的可扩展性。**"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "qPEX39TZkYxmsLNW09WNTqAjur2Oy4hkylk/6ClYQQY=",
+        "originContent": "It offers a variety of features:",
+        "translatedContent": "它提供多种功能："
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Zn8o6FwoBcgVqpA8FiN607Y+pG76b9OibejMG7kLhEU=",
+        "originContent": "* Messaging patterns including publish/subscribe, request/reply and streaming",
+        "translatedContent": "* 消息模式包括发布/订阅、请求/响应和流处理"
+      },
+      {
+        "row": 18,
+        "rowsha": "wcSVE7P9+P9H7EUTKO6OC47Td51Keu/IB8PDPshs48A=",
+        "originContent": "* Financial grade transactional message",
+        "translatedContent": "* 金融级事务消息"
+      },
+      {
+        "row": 19,
+        "rowsha": "1RtYrrbfou6rJwlphmZpJ/jrUQqWnX0rnYU3op92+tk=",
+        "originContent": "* Built-in fault tolerance and high availability configuration options base on [DLedger Controller](https://raw.githubusercontent.com/apache/rocketmq/develop/docs/en/controller/quick_start.md)",
+        "translatedContent": "* 基于 [DLedger Controller](https://raw.githubusercontent.com/apache/rocketmq/develop/docs/en/controller/quick_start.md) 的内置容错和高可用配置选项"
+      },
+      {
+        "row": 20,
+        "rowsha": "e7vU1er+mvUV7mPpj/F1TIM1/tV/xaDQMslS6ifKAcY=",
+        "originContent": "* Built-in message tracing capability, also support opentracing",
+        "translatedContent": "* 内置消息追踪能力，同时支持 opentracing"
+      },
+      {
+        "row": 21,
+        "rowsha": "62s8lfCU1W8MEkyBAABorSaBOPomjHxvOl1zikccTzo=",
+        "originContent": "* Versatile big-data and streaming ecosystem integration",
+        "translatedContent": "* 多样化的大数据和流处理生态系统集成"
+      },
+      {
+        "row": 22,
+        "rowsha": "COygx4bk7J/xFi9toYhN7xCozDbrlL/II5FZ7EWliTE=",
+        "originContent": "* Message retroactivity by time or offset",
+        "translatedContent": "* 支持按时间或偏移量的消息回溯"
+      },
+      {
+        "row": 23,
+        "rowsha": "jiroiNJujR6qJE3kW1qjgWF63AnKQYjKTJfArHjQWF8=",
+        "originContent": "* Reliable FIFO and strict ordered messaging in the same queue",
+        "translatedContent": "* 同一队列内可靠的 FIFO 和严格顺序消息"
+      },
+      {
+        "row": 24,
+        "rowsha": "wGe5B+VbHAPP6UsKWQjfHX8PSWC8LabS50sJ/Vybbg4=",
+        "originContent": "* Efficient pull and push consumption model",
+        "translatedContent": "* 高效的拉取和推送消费模型"
+      },
+      {
+        "row": 25,
+        "rowsha": "jySZ0V1yvXWmrXlkzF9ImyCqK7QU2A1RqK23jZU0FdM=",
+        "originContent": "* Million-level message accumulation capacity in a single queue",
+        "translatedContent": "* 单队列百万级消息积累能力"
+      },
+      {
+        "row": 26,
+        "rowsha": "nPHufBNKdhvrt0rHD+8W/wSyzZhqgcnMxv5pMakfAs8=",
+        "originContent": "* Multiple messaging protocols like gRPC, MQTT, JMS and OpenMessaging",
+        "translatedContent": "* 多种消息协议，如 gRPC、MQTT、JMS 和 OpenMessaging"
+      },
+      {
+        "row": 27,
+        "rowsha": "inLG7pCVHeVNsAXTH4eRhrDHWw8jOmIwc4GgfqHrxRk=",
+        "originContent": "* Flexible distributed scale-out deployment architecture",
+        "translatedContent": "* 灵活的分布式横向扩展部署架构"
+      },
+      {
+        "row": 28,
+        "rowsha": "/LUjyfF8RDzO6+9/hcBzqo6/9y+GL22A9jKj1EnuqFI=",
+        "originContent": "* Lightning-fast batch message exchange system",
+        "translatedContent": "* 极速批量消息交换系统"
+      },
+      {
+        "row": 29,
+        "rowsha": "sxWh4BkEMZgxkv1v5D4yJzlf7qFtbCear4OFIG+LjJ0=",
+        "originContent": "* Various message filter mechanics such as SQL and Tag",
+        "translatedContent": "* 多种消息过滤机制，如 SQL 和标签"
+      },
+      {
+        "row": 30,
+        "rowsha": "vm5xD5gRfihQ/PKzo1H1Kk7OWksXzfGG5OB3fER31AU=",
+        "originContent": "* Docker images for isolated testing and cloud isolated clusters",
+        "translatedContent": "* 用于隔离测试和云隔离集群的 Docker 镜像"
+      },
+      {
+        "row": 31,
+        "rowsha": "TYymZiHF3pNwVPF+tZyg3QfMrMnOn/Ij8j0yhB4+StU=",
+        "originContent": "* Feature-rich administrative dashboard for configuration, metrics and monitoring",
+        "translatedContent": "* 功能丰富的管理仪表盘，用于配置、指标和监控"
+      },
+      {
+        "row": 32,
+        "rowsha": "6QZYtEDz+FGnJnRls3/PQQI8W6zsP7KkkXYTS6bs9Pw=",
+        "originContent": "* Authentication and authorization",
+        "translatedContent": "* 认证和授权"
+      },
+      {
+        "row": 33,
+        "rowsha": "rMWgeabtX8csxWPmU/bYDT2kQQusXhdPEV8vcU1N4gc=",
+        "originContent": "* Free open source connectors, for both sources and sinks",
+        "translatedContent": "* 免费开源的连接器，支持源和接收端"
+      },
+      {
+        "row": 34,
+        "rowsha": "Vd5OIQabdla4+9wo0s/mk7DQlVCQeg4as3DK2WL8ZmA=",
+        "originContent": "* Lightweight real-time computing",
+        "translatedContent": "* 轻量级实时计算"
+      },
+      {
+        "row": 35,
+        "rowsha": "WQzLc8ik3inJZMK5lCJ26mkvaboYo4pT75ge25HpFt4=",
+        "originContent": "----------",
+        "translatedContent": "----------"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## 快速开始"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "v6UZV/1VHN4SbZySExhzMju+0sYnxwxKRNpCowf3TN0=",
+        "originContent": "This paragraph guides you through steps of installing RocketMQ in different ways.",
+        "translatedContent": "本段引导您通过不同方式安装 RocketMQ 的步骤。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "For local development and testing, only one instance will be created for each component.\n\n### Run RocketMQ locally\n\nRocketMQ runs on all major operating systems and requires only a Java JDK version 8 or higher to be installed.\nTo check, run `java -version`:",
+    "ContentSha": "ZLaTS3nCXR0o3J9BuvgB+eLjBuPQNdlFKNFivnrZyIY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "对于本地开发和测试，每个组件只会创建一个实例。\n\n### 本地运行 RocketMQ\n\nRocketMQ 可在所有主要操作系统上运行，仅需安装 Java JDK 8 版本或更高版本。\n要检查，请运行 `java -version`：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Xp8pQZCJ1FTlHP1t7r4c1aXAUyG8xAMziMlpefyysK4=",
+        "originContent": "For local development and testing, only one instance will be created for each component.",
+        "translatedContent": "对于本地开发和测试，每个组件只会创建一个实例。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "mPcl9mv/UIgZPxEr24u3c19OuMnKsprQux26cm8P7QU=",
+        "originContent": "### Run RocketMQ locally",
+        "translatedContent": "### 本地运行 RocketMQ"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "q9T1BScpurWkPqjARjWSU8414vJYAyfRJQISy4Om9Z0=",
+        "originContent": "RocketMQ runs on all major operating systems and requires only a Java JDK version 8 or higher to be installed.",
+        "translatedContent": "RocketMQ 可在所有主要操作系统上运行，仅需安装 Java JDK 8 版本或更高版本。"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ux4O16+xRl3v9R1WAjmB3HUwUjYP2ByGqyJq9Rsp9NY=",
+        "originContent": "To check, run `java -version`:",
+        "translatedContent": "要检查，请运行 `java -version`："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```shell\n$ java -version\njava version \"1.8.0_121\"\n```",
+    "ContentSha": "7Cu4u/dbVeIBvAUaeoflRX94dLW33wkZlrTccMNq9Xs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n$ java -version\njava version \"1.8.0_121\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "dpyufSIhXpFbDhewhZfxpZRwPqblsHPDTMF0zx0Ir1k=",
+        "originContent": "$ java -version",
+        "translatedContent": "$ java -version"
+      },
+      {
+        "row": 3,
+        "rowsha": "wtXk7i2s4LQQke3343DRP/TRop0Pa7i86hYstEX8tew=",
+        "originContent": "java version \"1.8.0_121\"",
+        "translatedContent": "java version \"1.8.0_121\""
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nFor Windows users, click [here](https://dist.apache.org/repos/dist/release/rocketmq/5.3.3/rocketmq-all-5.3.3-bin-release.zip) to download the 5.3.3 RocketMQ binary release,\nunpack it to your local disk, such as `D:\\rocketmq`.\nFor macOS and Linux users, execute following commands:\n",
+    "ContentSha": "wMjer5oF62gcu+wkY+WR+Chp31DnJlW4P5rGmkkNHR8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "对于 Windows 用户，点击[此处](https://dist.apache.org/repos/dist/release/rocketmq/5.3.3/rocketmq-all-5.3.3-bin-release.zip)下载 5.3.3 版本的 RocketMQ 二进制发布包，  \n将其解压到本地磁盘，例如 `D:\\rocketmq`。  \n对于 macOS 和 Linux 用户，执行以下命令：  \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "对于 Windows 用户，点击[此处](https://dist.apache.org/repos/dist/release/rocketmq/5.3.3/rocketmq-all-5.3.3-bin-release.zip)下载 5.3.3 版本的 RocketMQ 二进制发布包，  "
+      },
+      {
+        "row": 2,
+        "rowsha": "Pxu9KQlos7vmQBmurrxHVxRSXn0ItwUHn1X1pg+hJWo=",
+        "originContent": "For Windows users, click [here](https://dist.apache.org/repos/dist/release/rocketmq/5.3.3/rocketmq-all-5.3.3-bin-release.zip) to download the 5.3.3 RocketMQ binary release,",
+        "translatedContent": "将其解压到本地磁盘，例如 `D:\\rocketmq`。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "FhIW05H/y9uL9ap0iV/FbNAYeSN4f8sh0vlTis+1GFQ=",
+        "originContent": "unpack it to your local disk, such as `D:\\rocketmq`.",
+        "translatedContent": "对于 macOS 和 Linux 用户，执行以下命令：  "
+      },
+      {
+        "row": 4,
+        "rowsha": "kXiJyOx7NiIpWNZVWflc0IDH1OKGLUkWJLe5IvdtYFw=",
+        "originContent": "For macOS and Linux users, execute following commands:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```shell\n# Download release from the Apache mirror\n$ wget https://dist.apache.org/repos/dist/release/rocketmq/5.3.3/rocketmq-all-5.3.3-bin-release.zip\n\n# Unpack the release\n$ unzip rocketmq-all-5.3.3-bin-release.zip\n```",
+    "ContentSha": "LV+aKJc8j2QYqwISaavpjPKHGnHbHYaPMfNxkCW32t8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n# Download release from the Apache mirror\n$ wget https://dist.apache.org/repos/dist/release/rocketmq/5.3.3/rocketmq-all-5.3.3-bin-release.zip\n\n# Unpack the release\n$ unzip rocketmq-all-5.3.3-bin-release.zip\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "1ZN03CQRWUEnYqcdHtS7THGxdBep7aH8IvWSBfxNFdE=",
+        "originContent": "# Download release from the Apache mirror",
+        "translatedContent": "# Download release from the Apache mirror"
+      },
+      {
+        "row": 3,
+        "rowsha": "7OBmbfWS1/lMKR1DnBkoP1J7NyeyzFsXXoZHY2CikCc=",
+        "originContent": "$ wget https://dist.apache.org/repos/dist/release/rocketmq/5.3.3/rocketmq-all-5.3.3-bin-release.zip",
+        "translatedContent": "$ wget https://dist.apache.org/repos/dist/release/rocketmq/5.3.3/rocketmq-all-5.3.3-bin-release.zip"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "e9TQ/0msiwL9GNnxkSVagozrr00MLrkp33JlkicyBdE=",
+        "originContent": "# Unpack the release",
+        "translatedContent": "# Unpack the release"
+      },
+      {
+        "row": 6,
+        "rowsha": "4s28uMnfzqo7YCY3Ufx4PlmAgBi9u4nsqHZF0omPFwY=",
+        "originContent": "$ unzip rocketmq-all-5.3.3-bin-release.zip",
+        "translatedContent": "$ unzip rocketmq-all-5.3.3-bin-release.zip"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\nPrepare a terminal and change to the extracted `bin` directory:",
+    "ContentSha": "NSyAv8O0JMxBdqOOQaiWejm2quUOlBll+pZVzCsY7vE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "准备一个终端并切换到解压后的 `bin` 目录：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "准备一个终端并切换到解压后的 `bin` 目录："
+      },
+      {
+        "row": 2,
+        "rowsha": "z4m/3FVZJHMLJ048q0wotMEXv8A8sjp8nYPBUOsXVs8=",
+        "originContent": "Prepare a terminal and change to the extracted `bin` directory:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```shell\n$ cd rocketmq-all-5.3.3-bin-release/bin\n```",
+    "ContentSha": "ClXVJh/9zfiJLPNxvifOv+e2j9dVViooxlTUP8AUzSU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n$ cd rocketmq-all-5.3.3-bin-release/bin\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "jjXhXOSZqfFkGKH9Jh1NjTui+FYWuC7hbFKYmO7eVas=",
+        "originContent": "$ cd rocketmq-all-5.3.3-bin-release/bin",
+        "translatedContent": "$ cd rocketmq-all-5.3.3-bin-release/bin"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n**1) Start NameServer**\n\nNameServer will be listening at `0.0.0.0:9876`, make sure that the port is not used by others on the local machine, and then do as follows.\n\nFor macOS and Linux users:",
+    "ContentSha": "9hR8q7mJogtD/qj77CV6Y8IUAVhiiu6kj4zfxF6z+eY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**1）启动NameServer**\n\nNameServer将监听`0.0.0.0:9876`，请确保本机该端口未被其他程序占用，然后按如下操作。\n\n对于macOS和Linux用户：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "wxIIwjvgiomU7JiB7ByLMGEU5SuOgWixKDf9FOUl3AE=",
+        "originContent": "**1) Start NameServer**",
+        "translatedContent": "**1）启动NameServer**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "wyssl5DJOnFH2ExKLOs0zm78QjRpAe+xa5FFoPqV2ss=",
+        "originContent": "NameServer will be listening at `0.0.0.0:9876`, make sure that the port is not used by others on the local machine, and then do as follows.",
+        "translatedContent": "NameServer将监听`0.0.0.0:9876`，请确保本机该端口未被其他程序占用，然后按如下操作。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "mARZhH9+g/Yx16zPd7qmpJyB0uLSF5W01BvuyCa46RE=",
+        "originContent": "For macOS and Linux users:",
+        "translatedContent": "对于macOS和Linux用户："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```shell\n### start Name Server\n$ nohup sh mqnamesrv &\n\n### check whether Name Server is successfully started\n$ tail -f ~/logs/rocketmqlogs/namesrv.log\nThe Name Server boot success...\n```",
+    "ContentSha": "v+o7h7F5DifcU2hFyHesXxpTqnIJkcha5HEfAZk5F58=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n### start Name Server\n$ nohup sh mqnamesrv &\n\n### check whether Name Server is successfully started\n$ tail -f ~/logs/rocketmqlogs/namesrv.log\nThe Name Server boot success...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "hlCxk2HZiJiPHFVEGZVSkszBtqtPg2Opt1neGZ6xtdw=",
+        "originContent": "### start Name Server",
+        "translatedContent": "### start Name Server"
+      },
+      {
+        "row": 3,
+        "rowsha": "N5aHjCyA0gnyHJ00sbi4pZVQcS5EClYcfRo882hnfWc=",
+        "originContent": "$ nohup sh mqnamesrv &",
+        "translatedContent": "$ nohup sh mqnamesrv &"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "x6Dyj4XMhr0NSQDPP41cDYDmw/4aADVLpgtqj81MezM=",
+        "originContent": "### check whether Name Server is successfully started",
+        "translatedContent": "### check whether Name Server is successfully started"
+      },
+      {
+        "row": 6,
+        "rowsha": "JEmu9UIzUfGOblNxksHjmK7mVLUsPeZr9v/OTUOg0VU=",
+        "originContent": "$ tail -f ~/logs/rocketmqlogs/namesrv.log",
+        "translatedContent": "$ tail -f ~/logs/rocketmqlogs/namesrv.log"
+      },
+      {
+        "row": 7,
+        "rowsha": "JRjQStlLyzj6q8OOdHMfiXXgwnFtWiA8EATY8cbTUvo=",
+        "originContent": "The Name Server boot success...",
+        "translatedContent": "The Name Server boot success..."
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\nFor Windows users, you need set environment variables first:\n- From the desktop, right click the Computer icon.\n- Choose Properties from the context menu.\n- Click the Advanced system settings link.\n- Click Environment Variables.\n- Add Environment `ROCKETMQ_HOME=\"D:\\rocketmq\"`. \n\nThen change directory to rocketmq, type and run:",
+    "ContentSha": "ZQ80ZFAxefI/4BYr16V6qlDpsHmN4FvUbZMnAYLqbHQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n对于Windows用户，您需要先设置环境变量：\n- 在桌面上，右键点击计算机图标。\n- 从上下文菜单中选择属性。\n- 点击高级系统设置链接。\n- 点击环境变量。\n- 添加环境变量 `ROCKETMQ_HOME=\"D:\\rocketmq\"`。\n\n然后切换到rocketmq目录，输入并运行：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "rlSmZkcMb3ufAVMD/NW8ww33J7ksd2xC+WptnbkwZF4=",
+        "originContent": "For Windows users, you need set environment variables first:",
+        "translatedContent": "对于Windows用户，您需要先设置环境变量："
+      },
+      {
+        "row": 3,
+        "rowsha": "j+TCfC82u6Jj8POsYm+cwPeXITM0oV6WSdeuq+NxFlI=",
+        "originContent": "- From the desktop, right click the Computer icon.",
+        "translatedContent": "- 在桌面上，右键点击计算机图标。"
+      },
+      {
+        "row": 4,
+        "rowsha": "IqPv9ni4vmxb9nYqGyXCzGdZ28X5iE5zsBgrZPBCGww=",
+        "originContent": "- Choose Properties from the context menu.",
+        "translatedContent": "- 从上下文菜单中选择属性。"
+      },
+      {
+        "row": 5,
+        "rowsha": "tLXxFTU3T1MhvCPkB1RBR/5EIwLhHy+XDpmaCoxLYTs=",
+        "originContent": "- Click the Advanced system settings link.",
+        "translatedContent": "- 点击高级系统设置链接。"
+      },
+      {
+        "row": 6,
+        "rowsha": "fv5/PCgcsz9j0zkjHZb4wlvxp+CwdQjc1HVRHaypvto=",
+        "originContent": "- Click Environment Variables.",
+        "translatedContent": "- 点击环境变量。"
+      },
+      {
+        "row": 7,
+        "rowsha": "Up/A3/2IHKo3YpaBAPf7S3oJvWMc1nSQyCyOoCMdftc=",
+        "originContent": "- Add Environment `ROCKETMQ_HOME=\"D:\\rocketmq\"`. ",
+        "translatedContent": "- 添加环境变量 `ROCKETMQ_HOME=\"D:\\rocketmq\"`。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "mzDIGzOVfyAk9MEYP2HQXA3ENs+vTBSSGM0IGJtyAWw=",
+        "originContent": "Then change directory to rocketmq, type and run:",
+        "translatedContent": "然后切换到rocketmq目录，输入并运行："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```shell\n$ mqnamesrv.cmd\nThe Name Server boot success...\n```",
+    "ContentSha": "pZlKcPnM3dMEweNfp9uBYg9J/xaQg8V8LJDEw2wDsys=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n$ mqnamesrv.cmd\nThe Name Server boot success...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZN39aBSOnSlWw1LBxSHUZ4Pq1rYRmMSV3TLv/nYZvPY=",
+        "originContent": "$ mqnamesrv.cmd",
+        "translatedContent": "$ mqnamesrv.cmd"
+      },
+      {
+        "row": 3,
+        "rowsha": "JRjQStlLyzj6q8OOdHMfiXXgwnFtWiA8EATY8cbTUvo=",
+        "originContent": "The Name Server boot success...",
+        "translatedContent": "The Name Server boot success..."
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n**2) Start Broker**\n\nFor macOS and Linux users:",
+    "ContentSha": "GEFjTyUI+5VMYyIU38hKO/6W3IGKVRVympZkusvjLTM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**2）启动代理**\n\n针对 macOS 和 Linux 用户：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1IcXPcoyDIFkKE/i71jwqPTw2m5Uzrm6SC+UEy90+u0=",
+        "originContent": "**2) Start Broker**",
+        "translatedContent": "**2）启动代理**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "mARZhH9+g/Yx16zPd7qmpJyB0uLSF5W01BvuyCa46RE=",
+        "originContent": "For macOS and Linux users:",
+        "translatedContent": "针对 macOS 和 Linux 用户："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```shell\n### start Broker\n$ nohup sh bin/mqbroker -n localhost:9876 &\n\n### check whether Broker is successfully started, eg: Broker's IP is 192.168.1.2, Broker's name is broker-a\n$ tail -f ~/logs/rocketmqlogs/broker.log\nThe broker[broker-a, 192.169.1.2:10911] boot success...\n```",
+    "ContentSha": "Bbgy457vjwgxNqndFBBiVdPNRUaq8qTGrU8CvQ+Wytk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n### start Broker\n$ nohup sh bin/mqbroker -n localhost:9876 &\n\n### check whether Broker is successfully started, eg: Broker's IP is 192.168.1.2, Broker's name is broker-a\n$ tail -f ~/logs/rocketmqlogs/broker.log\nThe broker[broker-a, 192.169.1.2:10911] boot success...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "IteE7u4GsTq8mk2m3x46lirLtfA90NhIjduHi/1DsLo=",
+        "originContent": "### start Broker",
+        "translatedContent": "### start Broker"
+      },
+      {
+        "row": 3,
+        "rowsha": "CKTXvg0kFzY0Cq5qurzLThIKGlU1EU9m8Hb/qeveo3c=",
+        "originContent": "$ nohup sh bin/mqbroker -n localhost:9876 &",
+        "translatedContent": "$ nohup sh bin/mqbroker -n localhost:9876 &"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "WYLVj6exWEmUi4XUUQT0kpETwYc0zHRIduRevTKNrAE=",
+        "originContent": "### check whether Broker is successfully started, eg: Broker's IP is 192.168.1.2, Broker's name is broker-a",
+        "translatedContent": "### check whether Broker is successfully started, eg: Broker's IP is 192.168.1.2, Broker's name is broker-a"
+      },
+      {
+        "row": 6,
+        "rowsha": "ZZJwgC/TC99WqhCHGCht1Aw35lOWIz0aMDQJ2JwKSWo=",
+        "originContent": "$ tail -f ~/logs/rocketmqlogs/broker.log",
+        "translatedContent": "$ tail -f ~/logs/rocketmqlogs/broker.log"
+      },
+      {
+        "row": 7,
+        "rowsha": "q1eQTU9b48GNqMgQC5ciG6WOZXkAuy0o/L5Yc2+9OAc=",
+        "originContent": "The broker[broker-a, 192.169.1.2:10911] boot success...",
+        "translatedContent": "The broker[broker-a, 192.169.1.2:10911] boot success..."
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\nFor Windows users:",
+    "ContentSha": "XIKfex0LeQbQbunLbhr//Dm0KRWiBiLkvb1ryVlH8D0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n对于 Windows 用户：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "66P5lQZGKy/lIwbzuOZWnWsehj7MG0QLjLnR+91XJsU=",
+        "originContent": "For Windows users:",
+        "translatedContent": "对于 Windows 用户："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```shell\n$ mqbroker.cmd -n localhost:9876\nThe broker[broker-a, 192.169.1.2:10911] boot success...\n```",
+    "ContentSha": "bKh+112EW1SPNqjJPd30OF9zYHVwVWQWJUsFFRnWQAk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n$ mqbroker.cmd -n localhost:9876\nThe broker[broker-a, 192.169.1.2:10911] boot success...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "wipbdRrb1zspCvlV2uUQ/tkH4Db2qr5EVPoPxQYbQ94=",
+        "originContent": "$ mqbroker.cmd -n localhost:9876",
+        "translatedContent": "$ mqbroker.cmd -n localhost:9876"
+      },
+      {
+        "row": 3,
+        "rowsha": "q1eQTU9b48GNqMgQC5ciG6WOZXkAuy0o/L5Yc2+9OAc=",
+        "originContent": "The broker[broker-a, 192.169.1.2:10911] boot success...",
+        "translatedContent": "The broker[broker-a, 192.169.1.2:10911] boot success..."
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n### Run RocketMQ in Docker\n\nYou can run RocketMQ on your own machine within Docker containers,\n`host` network will be used to expose listening port in the container.\n\n**1) Start NameServer**\n",
+    "ContentSha": "FaUXb195CWxWoF0zwjZrIpXDOGr1rvT0TyhLfJHOLJI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 在 Docker 中运行 RocketMQ\n\n您可以在自己的机器上通过 Docker 容器运行 RocketMQ，  \n容器中将使用 `host` 网络来暴露监听端口。\n\n**1) 启动 NameServer**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "0FycbZViZWs22+k2pIxa4YhSd72Qwvgm5WyGCweY8f0=",
+        "originContent": "### Run RocketMQ in Docker",
+        "translatedContent": "### 在 Docker 中运行 RocketMQ"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "uZvt52RvzDa68d0vVGVxCT+pwDnuLCj7UFQOEoZ1sAg=",
+        "originContent": "You can run RocketMQ on your own machine within Docker containers,",
+        "translatedContent": "您可以在自己的机器上通过 Docker 容器运行 RocketMQ，  "
+      },
+      {
+        "row": 5,
+        "rowsha": "c79UjUhXNMhBj0L6iEyddgtvMaQ4K0pIIoHzUf7Ap+c=",
+        "originContent": "`host` network will be used to expose listening port in the container.",
+        "translatedContent": "容器中将使用 `host` 网络来暴露监听端口。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "wxIIwjvgiomU7JiB7ByLMGEU5SuOgWixKDf9FOUl3AE=",
+        "originContent": "**1) Start NameServer**",
+        "translatedContent": "**1) 启动 NameServer**"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```shell\n$ docker run -it --net=host apache/rocketmq ./mqnamesrv\n```",
+    "ContentSha": "f0TxSYv9Y7EMsc9ZmWBipKyVfw+yhp5bazqEJWL/7qI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n$ docker run -it --net=host apache/rocketmq ./mqnamesrv\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "jGynFKP+A2ufesbt3EqHmZriICww4orRClODf40Y9eQ=",
+        "originContent": "$ docker run -it --net=host apache/rocketmq ./mqnamesrv",
+        "translatedContent": "$ docker run -it --net=host apache/rocketmq ./mqnamesrv"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n**2) Start Broker**\n",
+    "ContentSha": "Lu0/mT53IZgqMm8e9TbIekSvqsHsrqMxcI7kdzVeYTI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**2) 启动代理**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1IcXPcoyDIFkKE/i71jwqPTw2m5Uzrm6SC+UEy90+u0=",
+        "originContent": "**2) Start Broker**",
+        "translatedContent": "**2) 启动代理**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```shell\n$ docker run -it --net=host --mount type=bind,source=/tmp/store,target=/home/rocketmq/store apache/rocketmq ./mqbroker -n localhost:9876\n```",
+    "ContentSha": "6XyMRSiytLqO5EsXvQGIRKZO9odCYzwkeOcyN+FU6R8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n$ docker run -it --net=host --mount type=bind,source=/tmp/store,target=/home/rocketmq/store apache/rocketmq ./mqbroker -n localhost:9876\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "T3cGg4Vq46UHWw/AVL7GBl/c0UnHcMuI8OO4Eyzm1Xg=",
+        "originContent": "$ docker run -it --net=host --mount type=bind,source=/tmp/store,target=/home/rocketmq/store apache/rocketmq ./mqbroker -n localhost:9876",
+        "translatedContent": "$ docker run -it --net=host --mount type=bind,source=/tmp/store,target=/home/rocketmq/store apache/rocketmq ./mqbroker -n localhost:9876"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\n### Run RocketMQ in Kubernetes\n\nYou can also run a RocketMQ cluster within a Kubernetes cluster using [RocketMQ Operator](https://github.com/apache/rocketmq-operator).\nBefore your operations, make sure that `kubectl` and related kubeconfig file installed on your machine.\n\n**1) Install CRDs**",
+    "ContentSha": "/7ojLwaPX2as9VRoI9Pfak1mrvvio5IO/JDe8cyrRXA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 在 Kubernetes 中运行 RocketMQ\n\n您也可以使用 [RocketMQ Operator](https://github.com/apache/rocketmq-operator) 在 Kubernetes 集群中运行 RocketMQ 集群。\n在操作之前，请确保您的机器上已安装 `kubectl` 及相关的 kubeconfig 文件。\n\n**1) 安装 CRDs**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "0baQsdOdfChs4BKNz+qJ109uEHqEBgxv3m3gUn2kfaY=",
+        "originContent": "### Run RocketMQ in Kubernetes",
+        "translatedContent": "### 在 Kubernetes 中运行 RocketMQ"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "qR8DQldWtSzjIvVeQfs0053dPVBqw6J2c1p+haAvRgI=",
+        "originContent": "You can also run a RocketMQ cluster within a Kubernetes cluster using [RocketMQ Operator](https://github.com/apache/rocketmq-operator).",
+        "translatedContent": "您也可以使用 [RocketMQ Operator](https://github.com/apache/rocketmq-operator) 在 Kubernetes 集群中运行 RocketMQ 集群。"
+      },
+      {
+        "row": 5,
+        "rowsha": "Fr9PfY9bQuzuKxKLo+N43jzLRJM6xHhCvAga5yWdLJ8=",
+        "originContent": "Before your operations, make sure that `kubectl` and related kubeconfig file installed on your machine.",
+        "translatedContent": "在操作之前，请确保您的机器上已安装 `kubectl` 及相关的 kubeconfig 文件。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "YmemDTD+5LxwLnntzh0HxhY86tLtDWzBqMXtYLc2mKQ=",
+        "originContent": "**1) Install CRDs**",
+        "translatedContent": "**1) 安装 CRDs**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "```shell\n### install CRDs\n$ git clone https://github.com/apache/rocketmq-operator\n$ cd rocketmq-operator && make deploy\n\n### check whether CRDs is successfully installed\n$ kubectl get crd | grep rocketmq.apache.org\nbrokers.rocketmq.apache.org                 2022-05-12T09:23:18Z\nconsoles.rocketmq.apache.org                2022-05-12T09:23:19Z\nnameservices.rocketmq.apache.org            2022-05-12T09:23:18Z\ntopictransfers.rocketmq.apache.org          2022-05-12T09:23:19Z\n\n### check whether operator is running\n$ kubectl get pods | grep rocketmq-operator\nrocketmq-operator-6f65c77c49-8hwmj   1/1     Running   0          93s\n```",
+    "ContentSha": "MRJVrjnchsMiaq26ckAQFnw60JEPwcXYL4rWpAtfY3Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n### install CRDs\n$ git clone https://github.com/apache/rocketmq-operator\n$ cd rocketmq-operator && make deploy\n\n### check whether CRDs is successfully installed\n$ kubectl get crd | grep rocketmq.apache.org\nbrokers.rocketmq.apache.org                 2022-05-12T09:23:18Z\nconsoles.rocketmq.apache.org                2022-05-12T09:23:19Z\nnameservices.rocketmq.apache.org            2022-05-12T09:23:18Z\ntopictransfers.rocketmq.apache.org          2022-05-12T09:23:19Z\n\n### check whether operator is running\n$ kubectl get pods | grep rocketmq-operator\nrocketmq-operator-6f65c77c49-8hwmj   1/1     Running   0          93s\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "KtAEHuoBDpWRhMdIZrW43GVo/1v8kS2vFibN/5jncF4=",
+        "originContent": "### install CRDs",
+        "translatedContent": "### install CRDs"
+      },
+      {
+        "row": 3,
+        "rowsha": "6IGG9oCScwG+xnUXd3JT0XJowO/jtPsrhPrOj2BFSyw=",
+        "originContent": "$ git clone https://github.com/apache/rocketmq-operator",
+        "translatedContent": "$ git clone https://github.com/apache/rocketmq-operator"
+      },
+      {
+        "row": 4,
+        "rowsha": "hJYpiRIJnRCQBVkmO+BI0XQRNatiF6is3os9qClJz38=",
+        "originContent": "$ cd rocketmq-operator && make deploy",
+        "translatedContent": "$ cd rocketmq-operator && make deploy"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "nEeAXHbokad7uxWheTI8OIaXlu0+z9tXShGXQkaj3mA=",
+        "originContent": "### check whether CRDs is successfully installed",
+        "translatedContent": "### check whether CRDs is successfully installed"
+      },
+      {
+        "row": 7,
+        "rowsha": "kr7ZLiD5O5t15tKlPI4yeMKDJA7FMNLK/g+0oAzy5Z0=",
+        "originContent": "$ kubectl get crd | grep rocketmq.apache.org",
+        "translatedContent": "$ kubectl get crd | grep rocketmq.apache.org"
+      },
+      {
+        "row": 8,
+        "rowsha": "gR47A10fI3kRXPJye6FHFGTSzl7ZOS/nc0+f5BBcfvQ=",
+        "originContent": "brokers.rocketmq.apache.org                 2022-05-12T09:23:18Z",
+        "translatedContent": "brokers.rocketmq.apache.org                 2022-05-12T09:23:18Z"
+      },
+      {
+        "row": 9,
+        "rowsha": "/SqhpT/jy+SgD0biCF310b0oYMmtPbGz5prEIfd7EJA=",
+        "originContent": "consoles.rocketmq.apache.org                2022-05-12T09:23:19Z",
+        "translatedContent": "consoles.rocketmq.apache.org                2022-05-12T09:23:19Z"
+      },
+      {
+        "row": 10,
+        "rowsha": "GPBpwjoY+VxkrUfq5aDEKVuawBd9V1KZobjBWB12BCU=",
+        "originContent": "nameservices.rocketmq.apache.org            2022-05-12T09:23:18Z",
+        "translatedContent": "nameservices.rocketmq.apache.org            2022-05-12T09:23:18Z"
+      },
+      {
+        "row": 11,
+        "rowsha": "U6gCvzCKwaICv48zGFLew/q5Ncwu1rKd+FKalrNnHW4=",
+        "originContent": "topictransfers.rocketmq.apache.org          2022-05-12T09:23:19Z",
+        "translatedContent": "topictransfers.rocketmq.apache.org          2022-05-12T09:23:19Z"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "OYf7mp6HkLkycg/zX3zKxRwaRa4QuWyYgcBOc55vPEM=",
+        "originContent": "### check whether operator is running",
+        "translatedContent": "### check whether operator is running"
+      },
+      {
+        "row": 14,
+        "rowsha": "op70iBJokiWd4D6gtsnM+53FNTIr9F0Bc5csrYa0pAE=",
+        "originContent": "$ kubectl get pods | grep rocketmq-operator",
+        "translatedContent": "$ kubectl get pods | grep rocketmq-operator"
+      },
+      {
+        "row": 15,
+        "rowsha": "O9Ow4qe7ZE3hKGXsBwojV5+vao8T0TWSPE+jaLx9w7A=",
+        "originContent": "rocketmq-operator-6f65c77c49-8hwmj   1/1     Running   0          93s",
+        "translatedContent": "rocketmq-operator-6f65c77c49-8hwmj   1/1     Running   0          93s"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "\n**2) Create Cluster Instance**",
+    "ContentSha": "zBjABfymSUQ5hEPiGOZsi/ogPxfhhqN6JGocMfzUcJ8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**2) 创建集群实例**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "SwK7zMHflOs8rCra1ds1H6UCcK93kdHU0JusIuYrL2o=",
+        "originContent": "**2) Create Cluster Instance**",
+        "translatedContent": "**2) 创建集群实例**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "```shell\n### create RocketMQ cluster resource\n$ cd example && kubectl create -f rocketmq_v1alpha1_rocketmq_cluster.yaml\n\n### check whether cluster resources is running\n$ kubectl get sts\nNAME                 READY   AGE\nbroker-0-master      1/1     107m\nbroker-0-replica-1   1/1     107m\nname-service         1/1     107m\n```",
+    "ContentSha": "BKxg0Zw8068/2/MXEJTD4WBiSdnoFqkO9vOYiC/IK8E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n### create RocketMQ cluster resource\n$ cd example && kubectl create -f rocketmq_v1alpha1_rocketmq_cluster.yaml\n\n### check whether cluster resources is running\n$ kubectl get sts\nNAME                 READY   AGE\nbroker-0-master      1/1     107m\nbroker-0-replica-1   1/1     107m\nname-service         1/1     107m\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "kPHnPJN5GFsNiaMSg+7NWHWGMBLyrXp7r+zlDZFSHnA=",
+        "originContent": "### create RocketMQ cluster resource",
+        "translatedContent": "### create RocketMQ cluster resource"
+      },
+      {
+        "row": 3,
+        "rowsha": "MhUkfA48CEY/jZHSk8Yu7wiI/IFGjmDGA+7R5VaFEc4=",
+        "originContent": "$ cd example && kubectl create -f rocketmq_v1alpha1_rocketmq_cluster.yaml",
+        "translatedContent": "$ cd example && kubectl create -f rocketmq_v1alpha1_rocketmq_cluster.yaml"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "m7K/fQzhaEVUgNKTq5XU/H7d6UbEwFfRkklLRSoMu4E=",
+        "originContent": "### check whether cluster resources is running",
+        "translatedContent": "### check whether cluster resources is running"
+      },
+      {
+        "row": 6,
+        "rowsha": "nqIDktY0ZS89XuRI2Lqu2I1yxko6U25w27MS//X73MU=",
+        "originContent": "$ kubectl get sts",
+        "translatedContent": "$ kubectl get sts"
+      },
+      {
+        "row": 7,
+        "rowsha": "XNS1P6zTtvPfi+K4oXlQ/8o+IVh3ox/vPYdRGm9M4W4=",
+        "originContent": "NAME                 READY   AGE",
+        "translatedContent": "NAME                 READY   AGE"
+      },
+      {
+        "row": 8,
+        "rowsha": "rQyewRChxzPhjULntheJGEhukrKpSqNF5u0e4VaEPGE=",
+        "originContent": "broker-0-master      1/1     107m",
+        "translatedContent": "broker-0-master      1/1     107m"
+      },
+      {
+        "row": 9,
+        "rowsha": "C5WpUYkQJ6QS/V3U8rkdUY9gwzmzNefkQmhe0e9c3lE=",
+        "originContent": "broker-0-replica-1   1/1     107m",
+        "translatedContent": "broker-0-replica-1   1/1     107m"
+      },
+      {
+        "row": 10,
+        "rowsha": "TKB/wldoqWS70mugWs+o2boZld2lMRAO9vrl/lCxR88=",
+        "originContent": "name-service         1/1     107m",
+        "translatedContent": "name-service         1/1     107m"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 24,
+    "Content": "\n---\n## Apache RocketMQ Community\n* [RocketMQ Streams](https://github.com/apache/rocketmq-streams): A lightweight stream computing engine based on Apache RocketMQ.\n* [RocketMQ Flink](https://github.com/apache/rocketmq-flink): The Apache RocketMQ connector of Apache Flink that supports source and sink connector in data stream and Table.\n* [RocketMQ APIs](https://github.com/apache/rocketmq-apis): RocketMQ protobuf protocol.\n* [RocketMQ Clients](https://github.com/apache/rocketmq-clients): gRPC/protobuf-based RocketMQ clients.\n* RocketMQ Remoting-based Clients\n\t - [RocketMQ Client CPP](https://github.com/apache/rocketmq-client-cpp)\n\t - [RocketMQ Client Go](https://github.com/apache/rocketmq-client-go)\n\t - [RocketMQ Client Python](https://github.com/apache/rocketmq-client-python)\n\t - [RocketMQ Client Nodejs](https://github.com/apache/rocketmq-client-nodejs)\n* [RocketMQ Spring](https://github.com/apache/rocketmq-spring): A project which helps developers quickly integrate Apache RocketMQ with Spring Boot.\n* [RocketMQ Exporter](https://github.com/apache/rocketmq-exporter): An Apache RocketMQ exporter for Prometheus.\n* [RocketMQ Operator](https://github.com/apache/rocketmq-operator): Providing a way to run an Apache RocketMQ cluster on Kubernetes.\n* [RocketMQ Docker](https://github.com/apache/rocketmq-docker): The Git repo of the Docker Image for Apache RocketMQ.\n* [RocketMQ Dashboard](https://github.com/apache/rocketmq-dashboard): Operation and maintenance console of Apache RocketMQ.\n* [RocketMQ Connect](https://github.com/apache/rocketmq-connect): A tool for scalably and reliably streaming data between Apache RocketMQ and other systems.\n* [RocketMQ MQTT](https://github.com/apache/rocketmq-mqtt): A new MQTT protocol architecture model, based on which Apache RocketMQ can better support messages from terminals such as IoT devices and Mobile APP.\n* [RocketMQ EventBridge](https://github.com/apache/rocketmq-eventbridge): EventBridge make it easier to build a event-driven application.\n* [RocketMQ Incubating Community Projects](https://github.com/apache/rocketmq-externals): Incubator community projects of Apache RocketMQ, including [logappender](https://github.com/apache/rocketmq-externals/tree/master/logappender), [rocketmq-ansible](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-ansible), [rocketmq-beats-integration](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-beats-integration), [rocketmq-cloudevents-binding](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-cloudevents-binding), etc.\n* [RocketMQ Site](https://github.com/apache/rocketmq-site): The repository for Apache RocketMQ website.\n* [RocketMQ E2E](https://github.com/apache/rocketmq-e2e): A project for testing Apache RocketMQ, including end-to-end, performance, compatibility tests.\n\n\n----------\n## Learn it & Contact us\n* Mailing Lists: <https://rocketmq.apache.org/about/contact/>\n* Home: <https://rocketmq.apache.org>\n* Docs: <https://rocketmq.apache.org/docs/quick-start/>\n* Issues: <https://github.com/apache/rocketmq/issues>\n* Rips: <https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal>\n* Ask: <https://stackoverflow.com/questions/tagged/rocketmq>\n* Slack: <https://rocketmq-invite-automation.herokuapp.com/>\n\n\n----------\n\n\n",
+    "ContentSha": "I4sHBXbdAaASi6HQZUad/Hmfs0bi+8U2wBF8jkiMSys=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n## Apache RocketMQ 社区\n* [RocketMQ Streams](https://github.com/apache/rocketmq-streams)：基于 Apache RocketMQ 的轻量级流计算引擎。\n* [RocketMQ Flink](https://github.com/apache/rocketmq-flink)：支持数据流和表中的源和汇连接器的 Apache Flink 的 Apache RocketMQ 连接器。\n* [RocketMQ APIs](https://github.com/apache/rocketmq-apis)：RocketMQ protobuf 协议。\n* [RocketMQ Clients](https://github.com/apache/rocketmq-clients)：基于 gRPC/protobuf 的 RocketMQ 客户端。\n* 基于 RocketMQ Remoting 的客户端\n\t - [RocketMQ Client CPP](https://github.com/apache/rocketmq-client-cpp)\n\t - [RocketMQ Client Go](https://github.com/apache/rocketmq-client-go)\n\t - [RocketMQ Client Python](https://github.com/apache/rocketmq-client-python)\n\t - [RocketMQ Client Nodejs](https://github.com/apache/rocketmq-client-nodejs)\n* [RocketMQ Spring](https://github.com/apache/rocketmq-spring)：帮助开发者快速将 Apache RocketMQ 与 Spring Boot 集成的项目。\n* [RocketMQ Exporter](https://github.com/apache/rocketmq-exporter)：用于 Prometheus 的 Apache RocketMQ 导出器。\n* [RocketMQ Operator](https://github.com/apache/rocketmq-operator)：提供在 Kubernetes 上运行 Apache RocketMQ 集群的方式。\n* [RocketMQ Docker](https://github.com/apache/rocketmq-docker)：Apache RocketMQ Docker 镜像的 Git 仓库。\n* [RocketMQ Dashboard](https://github.com/apache/rocketmq-dashboard)：Apache RocketMQ 的运维控制台。\n* [RocketMQ Connect](https://github.com/apache/rocketmq-connect)：用于在 Apache RocketMQ 与其他系统之间可扩展且可靠地流式传输数据的工具。\n* [RocketMQ MQTT](https://github.com/apache/rocketmq-mqtt)：一种新的 MQTT 协议架构模型，基于此 Apache RocketMQ 能更好地支持来自物联网设备和移动应用等终端的消息。\n* [RocketMQ EventBridge](https://github.com/apache/rocketmq-eventbridge)：EventBridge 使构建事件驱动应用更容易。\n* [RocketMQ 孵化社区项目](https://github.com/apache/rocketmq-externals)：Apache RocketMQ 的孵化社区项目，包括 [logappender](https://github.com/apache/rocketmq-externals/tree/master/logappender)、[rocketmq-ansible](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-ansible)、[rocketmq-beats-integration](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-beats-integration)、[rocketmq-cloudevents-binding](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-cloudevents-binding) 等。\n* [RocketMQ Site](https://github.com/apache/rocketmq-site)：Apache RocketMQ 网站的仓库。\n* [RocketMQ E2E](https://github.com/apache/rocketmq-e2e)：用于测试 Apache RocketMQ 的项目，包括端到端、性能、兼容性测试。\n\n\n----------\n## 学习及联系我们\n* 邮件列表：<https://rocketmq.apache.org/about/contact/>\n* 主页：<https://rocketmq.apache.org>\n* 文档：<https://rocketmq.apache.org/docs/quick-start/>\n* 问题追踪：<https://github.com/apache/rocketmq/issues>\n* 改进提案：<https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal>\n* 提问：<https://stackoverflow.com/questions/tagged/rocketmq>\n* Slack：<https://rocketmq-invite-automation.herokuapp.com/>\n\n\n----------\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "## Apache RocketMQ 社区"
+      },
+      {
+        "row": 3,
+        "rowsha": "m5jWhkQn8yalLxkO7kQOXwlcKlouaAlIMHeNBDb7C0I=",
+        "originContent": "## Apache RocketMQ Community",
+        "translatedContent": "* [RocketMQ Streams](https://github.com/apache/rocketmq-streams)：基于 Apache RocketMQ 的轻量级流计算引擎。"
+      },
+      {
+        "row": 4,
+        "rowsha": "ThT6AGeWQRjMfCbDIUwdk364zK3FtaE26gMeUNtbrQk=",
+        "originContent": "* [RocketMQ Streams](https://github.com/apache/rocketmq-streams): A lightweight stream computing engine based on Apache RocketMQ.",
+        "translatedContent": "* [RocketMQ Flink](https://github.com/apache/rocketmq-flink)：支持数据流和表中的源和汇连接器的 Apache Flink 的 Apache RocketMQ 连接器。"
+      },
+      {
+        "row": 5,
+        "rowsha": "I3IVSXaJCJ4Q6WqExphjTeKhr20PDu4fV6E3tXnzxp8=",
+        "originContent": "* [RocketMQ Flink](https://github.com/apache/rocketmq-flink): The Apache RocketMQ connector of Apache Flink that supports source and sink connector in data stream and Table.",
+        "translatedContent": "* [RocketMQ APIs](https://github.com/apache/rocketmq-apis)：RocketMQ protobuf 协议。"
+      },
+      {
+        "row": 6,
+        "rowsha": "EnaF9hgXMHzxwT4spRAJBWhCi09dlAmLPv0VFXqeYbY=",
+        "originContent": "* [RocketMQ APIs](https://github.com/apache/rocketmq-apis): RocketMQ protobuf protocol.",
+        "translatedContent": "* [RocketMQ Clients](https://github.com/apache/rocketmq-clients)：基于 gRPC/protobuf 的 RocketMQ 客户端。"
+      },
+      {
+        "row": 7,
+        "rowsha": "xhmoIl5xGvNQceM6mSl1ZJtN7gqNrCCZFekuMXDrzgs=",
+        "originContent": "* [RocketMQ Clients](https://github.com/apache/rocketmq-clients): gRPC/protobuf-based RocketMQ clients.",
+        "translatedContent": "* 基于 RocketMQ Remoting 的客户端"
+      },
+      {
+        "row": 8,
+        "rowsha": "73ZrQgYjTYQnjSObvhy3vY5mfuIHLgoR2vHdz3iM1xU=",
+        "originContent": "* RocketMQ Remoting-based Clients",
+        "translatedContent": "\t - [RocketMQ Client CPP](https://github.com/apache/rocketmq-client-cpp)"
+      },
+      {
+        "row": 9,
+        "rowsha": "dnp2IOTNJ6UIW98nJCZhqKC46JpHqZxpb9prZsC2bWs=",
+        "originContent": "\t - [RocketMQ Client CPP](https://github.com/apache/rocketmq-client-cpp)",
+        "translatedContent": "\t - [RocketMQ Client Go](https://github.com/apache/rocketmq-client-go)"
+      },
+      {
+        "row": 10,
+        "rowsha": "tOQZx8cDQ+xptX/6Z91bg/Zbm5HN5w30iv3yj0SHbW8=",
+        "originContent": "\t - [RocketMQ Client Go](https://github.com/apache/rocketmq-client-go)",
+        "translatedContent": "\t - [RocketMQ Client Python](https://github.com/apache/rocketmq-client-python)"
+      },
+      {
+        "row": 11,
+        "rowsha": "DrnJ1fDks+XUppqtJAYD7GCYAh1vLH94Rmw7xS02OE0=",
+        "originContent": "\t - [RocketMQ Client Python](https://github.com/apache/rocketmq-client-python)",
+        "translatedContent": "\t - [RocketMQ Client Nodejs](https://github.com/apache/rocketmq-client-nodejs)"
+      },
+      {
+        "row": 12,
+        "rowsha": "4MLYRphEGfigtXkOlLNGtEKn393HZ5yokSShqNJUPQU=",
+        "originContent": "\t - [RocketMQ Client Nodejs](https://github.com/apache/rocketmq-client-nodejs)",
+        "translatedContent": "* [RocketMQ Spring](https://github.com/apache/rocketmq-spring)：帮助开发者快速将 Apache RocketMQ 与 Spring Boot 集成的项目。"
+      },
+      {
+        "row": 13,
+        "rowsha": "gl445/cvjctJ561hDdseKkxmBSAONXyHG+2GZiLgOVs=",
+        "originContent": "* [RocketMQ Spring](https://github.com/apache/rocketmq-spring): A project which helps developers quickly integrate Apache RocketMQ with Spring Boot.",
+        "translatedContent": "* [RocketMQ Exporter](https://github.com/apache/rocketmq-exporter)：用于 Prometheus 的 Apache RocketMQ 导出器。"
+      },
+      {
+        "row": 14,
+        "rowsha": "9gnMyZi40jMzPEhsHV3X+XLKciCfMBpxvU6vmoMQLcQ=",
+        "originContent": "* [RocketMQ Exporter](https://github.com/apache/rocketmq-exporter): An Apache RocketMQ exporter for Prometheus.",
+        "translatedContent": "* [RocketMQ Operator](https://github.com/apache/rocketmq-operator)：提供在 Kubernetes 上运行 Apache RocketMQ 集群的方式。"
+      },
+      {
+        "row": 15,
+        "rowsha": "SpD+rdRVaN9t7FCPW95z9OVHpiEz+CVkLMA4Fq5pXm8=",
+        "originContent": "* [RocketMQ Operator](https://github.com/apache/rocketmq-operator): Providing a way to run an Apache RocketMQ cluster on Kubernetes.",
+        "translatedContent": "* [RocketMQ Docker](https://github.com/apache/rocketmq-docker)：Apache RocketMQ Docker 镜像的 Git 仓库。"
+      },
+      {
+        "row": 16,
+        "rowsha": "WMREqFLozUzFpV1O2nCTe9lYE70sxlwBTNckMlWCOlE=",
+        "originContent": "* [RocketMQ Docker](https://github.com/apache/rocketmq-docker): The Git repo of the Docker Image for Apache RocketMQ.",
+        "translatedContent": "* [RocketMQ Dashboard](https://github.com/apache/rocketmq-dashboard)：Apache RocketMQ 的运维控制台。"
+      },
+      {
+        "row": 17,
+        "rowsha": "PVO9QJEcndEb2YhZlIK57m70anafgCEmeUjHH0i9tKU=",
+        "originContent": "* [RocketMQ Dashboard](https://github.com/apache/rocketmq-dashboard): Operation and maintenance console of Apache RocketMQ.",
+        "translatedContent": "* [RocketMQ Connect](https://github.com/apache/rocketmq-connect)：用于在 Apache RocketMQ 与其他系统之间可扩展且可靠地流式传输数据的工具。"
+      },
+      {
+        "row": 18,
+        "rowsha": "p6cAKSxg7duo28oFRh5zJo+sCyF4j+TL3Hrfzfv4LZg=",
+        "originContent": "* [RocketMQ Connect](https://github.com/apache/rocketmq-connect): A tool for scalably and reliably streaming data between Apache RocketMQ and other systems.",
+        "translatedContent": "* [RocketMQ MQTT](https://github.com/apache/rocketmq-mqtt)：一种新的 MQTT 协议架构模型，基于此 Apache RocketMQ 能更好地支持来自物联网设备和移动应用等终端的消息。"
+      },
+      {
+        "row": 19,
+        "rowsha": "S7/2K7/nCxUYCVuoBoiX01ilLmuNZJzZChhFyWghCuA=",
+        "originContent": "* [RocketMQ MQTT](https://github.com/apache/rocketmq-mqtt): A new MQTT protocol architecture model, based on which Apache RocketMQ can better support messages from terminals such as IoT devices and Mobile APP.",
+        "translatedContent": "* [RocketMQ EventBridge](https://github.com/apache/rocketmq-eventbridge)：EventBridge 使构建事件驱动应用更容易。"
+      },
+      {
+        "row": 20,
+        "rowsha": "TsTdLinptu3EYIMlZjItGRv0TYe8CW78DVPoTH4xIRo=",
+        "originContent": "* [RocketMQ EventBridge](https://github.com/apache/rocketmq-eventbridge): EventBridge make it easier to build a event-driven application.",
+        "translatedContent": "* [RocketMQ 孵化社区项目](https://github.com/apache/rocketmq-externals)：Apache RocketMQ 的孵化社区项目，包括 [logappender](https://github.com/apache/rocketmq-externals/tree/master/logappender)、[rocketmq-ansible](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-ansible)、[rocketmq-beats-integration](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-beats-integration)、[rocketmq-cloudevents-binding](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-cloudevents-binding) 等。"
+      },
+      {
+        "row": 21,
+        "rowsha": "V7nus0R4OCxuKdxtJlO4QeXjZ5qaSsyIBQ+Jz3VFmp4=",
+        "originContent": "* [RocketMQ Incubating Community Projects](https://github.com/apache/rocketmq-externals): Incubator community projects of Apache RocketMQ, including [logappender](https://github.com/apache/rocketmq-externals/tree/master/logappender), [rocketmq-ansible](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-ansible), [rocketmq-beats-integration](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-beats-integration), [rocketmq-cloudevents-binding](https://github.com/apache/rocketmq-externals/tree/master/rocketmq-cloudevents-binding), etc.",
+        "translatedContent": "* [RocketMQ Site](https://github.com/apache/rocketmq-site)：Apache RocketMQ 网站的仓库。"
+      },
+      {
+        "row": 22,
+        "rowsha": "AOsLvS7g9WsA3ZdOZdZco9oYxVnMlGmTH3xvJISAjBo=",
+        "originContent": "* [RocketMQ Site](https://github.com/apache/rocketmq-site): The repository for Apache RocketMQ website.",
+        "translatedContent": "* [RocketMQ E2E](https://github.com/apache/rocketmq-e2e)：用于测试 Apache RocketMQ 的项目，包括端到端、性能、兼容性测试。"
+      },
+      {
+        "row": 23,
+        "rowsha": "mTh2Ud/o4roPQ5F19ZQ0FO8HsAIVxZfhL0Ky/7VkXts=",
+        "originContent": "* [RocketMQ E2E](https://github.com/apache/rocketmq-e2e): A project for testing Apache RocketMQ, including end-to-end, performance, compatibility tests.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "----------"
+      },
+      {
+        "row": 26,
+        "rowsha": "WQzLc8ik3inJZMK5lCJ26mkvaboYo4pT75ge25HpFt4=",
+        "originContent": "----------",
+        "translatedContent": "## 学习及联系我们"
+      },
+      {
+        "row": 27,
+        "rowsha": "0aLf1xp0i0zgkvsIO8z3L1REgUdc+Jg1aDdFDsQyx3Q=",
+        "originContent": "## Learn it & Contact us",
+        "translatedContent": "* 邮件列表：<https://rocketmq.apache.org/about/contact/>"
+      },
+      {
+        "row": 28,
+        "rowsha": "Y6WTdLiZPHLIT8waXUt7GzVJfb3Y/yZZdv6v6/jmBuE=",
+        "originContent": "* Mailing Lists: <https://rocketmq.apache.org/about/contact/>",
+        "translatedContent": "* 主页：<https://rocketmq.apache.org>"
+      },
+      {
+        "row": 29,
+        "rowsha": "UWlRgXqSmDLz77aNcp/oX0ArBSfdVuQUjbhcCI0Mhwo=",
+        "originContent": "* Home: <https://rocketmq.apache.org>",
+        "translatedContent": "* 文档：<https://rocketmq.apache.org/docs/quick-start/>"
+      },
+      {
+        "row": 30,
+        "rowsha": "xn6we9SLzHOjah25tWhYnMdtISsQyJ2Nhb2puzDWxtU=",
+        "originContent": "* Docs: <https://rocketmq.apache.org/docs/quick-start/>",
+        "translatedContent": "* 问题追踪：<https://github.com/apache/rocketmq/issues>"
+      },
+      {
+        "row": 31,
+        "rowsha": "1eb8wAqBdfZBUqfDyerutIlzV5G1LTaamLGxtiFpkKk=",
+        "originContent": "* Issues: <https://github.com/apache/rocketmq/issues>",
+        "translatedContent": "* 改进提案：<https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal>"
+      },
+      {
+        "row": 32,
+        "rowsha": "XadfoxhKPtEFJHamnyo0Bt07r9EIWpYg84W/J2kATeM=",
+        "originContent": "* Rips: <https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal>",
+        "translatedContent": "* 提问：<https://stackoverflow.com/questions/tagged/rocketmq>"
+      },
+      {
+        "row": 33,
+        "rowsha": "Ky+Anz37Al/9RNRYiDZRhWlEQOhBb7U1mfAGpI6ydiY=",
+        "originContent": "* Ask: <https://stackoverflow.com/questions/tagged/rocketmq>",
+        "translatedContent": "* Slack：<https://rocketmq-invite-automation.herokuapp.com/>"
+      },
+      {
+        "row": 34,
+        "rowsha": "9irdtpfbObNQHmlMpoSUI83H9gCHRtnDD46RZbmy4YQ=",
+        "originContent": "* Slack: <https://rocketmq-invite-automation.herokuapp.com/>",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "----------"
+      },
+      {
+        "row": 37,
+        "rowsha": "WQzLc8ik3inJZMK5lCJ26mkvaboYo4pT75ge25HpFt4=",
+        "originContent": "----------",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 25,
+    "Content": "## Contributing\nWe always welcome new contributions, whether for trivial cleanups, [big new features](https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal) or other material rewards, more details see [here](http://rocketmq.apache.org/docs/how-to-contribute/).\n\n----------\n## License\n[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) Copyright (C) Apache Software Foundation\n\n\n----------\n## Export Control Notice\nThis distribution includes cryptographic software. The country in which you currently reside may have\nrestrictions on the import, possession, use, and/or re-export to another country, of encryption software.\nBEFORE using any encryption software, please check your country's laws, regulations and policies concerning\nthe import, possession, or use, and re-export of encryption software, to see if this is permitted. See\n<http://www.wassenaar.org/> for more information.\n\nThe U.S. Government Department of Commerce, Bureau of Industry and Security (BIS), has classified this\nsoftware as Export Commodity Control Number (ECCN) 5D002.C.1, which includes information security software\nusing or performing cryptographic functions with asymmetric algorithms. The form and manner of this Apache\nSoftware Foundation distribution makes it eligible for export under the License Exception ENC Technology\nSoftware Unrestricted (TSU) exception (see the BIS Export Administration Regulations, Section 740.13) for\nboth object code and source code.\n\nThe following provides more details on the included cryptographic software:\n\nThis software uses Apache Commons Crypto (https://commons.apache.org/proper/commons-crypto/) to\nsupport authentication, and encryption and decryption of data sent across the network between\nservices.\n\n[maven-build-image]: https://github.com/apache/rocketmq/actions/workflows/maven.yaml/badge.svg\n[maven-build-url]: https://github.com/apache/rocketmq/actions/workflows/maven.yaml\n[codecov-image]: https://codecov.io/gh/apache/rocketmq/branch/master/graph/badge.svg\n[codecov-url]: https://codecov.io/gh/apache/rocketmq\n[maven-central-image]: https://maven-badges.herokuapp.com/maven-central/org.apache.rocketmq/rocketmq-all/badge.svg\n[maven-central-url]: http://search.maven.org/#search%7Cga%7C1%7Corg.apache.rocketmq\n[release-image]: https://img.shields.io/badge/release-download-orange.svg\n[release-url]: https://www.apache.org/licenses/LICENSE-2.0.html\n[license-image]: https://img.shields.io/badge/license-Apache%202-4EB1BA.svg\n[license-url]: https://www.apache.org/licenses/LICENSE-2.0.html\n[average-time-to-resolve-an-issue-image]: http://isitmaintained.com/badge/resolution/apache/rocketmq.svg",
+    "ContentSha": "SHnKtucYdc2h+cSeBL30udjwlv12bEmBAPFtRdogKdA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 贡献\n我们始终欢迎新的贡献，无论是微不足道的清理，[重大新功能](https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal)还是其他物质奖励，更多详情请见[这里](http://rocketmq.apache.org/docs/how-to-contribute/)。\n\n----------\n## 许可证\n[Apache 许可证，版本 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) 版权所有 (C) Apache 软件基金会\n\n\n----------\n## 出口管制声明\n本发行版包含加密软件。您当前所在国家可能对加密软件的进口、持有、使用和/或向其他国家的再出口有限制。\n在使用任何加密软件之前，请检查您所在国家关于加密软件的进口、持有、使用和再出口的法律、法规和政策，以确定是否允许。详情见\n<http://www.wassenaar.org/>。\n\n美国商务部工业与安全局（BIS）已将本软件归类为出口商品控制编号（ECCN）5D002.C.1，该类别包括使用或执行非对称算法的加密功能的信息安全软件。\nApache 软件基金会以此形式和方式发布的软件符合出口许可例外 ENC 技术软件无限制（TSU）例外条件（参见 BIS 出口管理条例，第 740.13 条），\n适用于目标代码和源代码。\n\n以下提供有关所含加密软件的更多详细信息：\n\n本软件使用 Apache Commons Crypto (https://commons.apache.org/proper/commons-crypto/) 来支持认证，以及服务间通过网络传输数据的加密和解密。\n\n[maven-build-image]: https://github.com/apache/rocketmq/actions/workflows/maven.yaml/badge.svg\n[maven-build-url]: https://github.com/apache/rocketmq/actions/workflows/maven.yaml\n[codecov-image]: https://codecov.io/gh/apache/rocketmq/branch/master/graph/badge.svg\n[codecov-url]: https://codecov.io/gh/apache/rocketmq\n[maven-central-image]: https://maven-badges.herokuapp.com/maven-central/org.apache.rocketmq/rocketmq-all/badge.svg\n[maven-central-url]: http://search.maven.org/#search%7Cga%7C1%7Corg.apache.rocketmq\n[release-image]: https://img.shields.io/badge/release-download-orange.svg\n[release-url]: https://www.apache.org/licenses/LICENSE-2.0.html\n[license-image]: https://img.shields.io/badge/license-Apache%202-4EB1BA.svg\n[license-url]: https://www.apache.org/licenses/LICENSE-2.0.html\n[average-time-to-resolve-an-issue-image]: http://isitmaintained.com/badge/resolution/apache/rocketmq.svg\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 贡献"
+      },
+      {
+        "row": 2,
+        "rowsha": "meM8CaM8xIdI0lLfAEIWqAHvGOdlYlMnbVlJV9ZKf8M=",
+        "originContent": "We always welcome new contributions, whether for trivial cleanups, [big new features](https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal) or other material rewards, more details see [here](http://rocketmq.apache.org/docs/how-to-contribute/).",
+        "translatedContent": "我们始终欢迎新的贡献，无论是微不足道的清理，[重大新功能](https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal)还是其他物质奖励，更多详情请见[这里](http://rocketmq.apache.org/docs/how-to-contribute/)。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "WQzLc8ik3inJZMK5lCJ26mkvaboYo4pT75ge25HpFt4=",
+        "originContent": "----------",
+        "translatedContent": "----------"
+      },
+      {
+        "row": 5,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 6,
+        "rowsha": "+az3IsT/WkVvZPMwYNBBDM8WQpiIfUJnGu7gfwf+V6g=",
+        "originContent": "[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) Copyright (C) Apache Software Foundation",
+        "translatedContent": "[Apache 许可证，版本 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) 版权所有 (C) Apache 软件基金会"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "WQzLc8ik3inJZMK5lCJ26mkvaboYo4pT75ge25HpFt4=",
+        "originContent": "----------",
+        "translatedContent": "----------"
+      },
+      {
+        "row": 10,
+        "rowsha": "UsgLbow0n5g/7p9BbDJETOEYjWpjcyVIkNXQzyUfItU=",
+        "originContent": "## Export Control Notice",
+        "translatedContent": "## 出口管制声明"
+      },
+      {
+        "row": 11,
+        "rowsha": "c0/dWLf9oVt8e6jDPX4mmHtZPJpMGTCrCt886Zuyiv4=",
+        "originContent": "This distribution includes cryptographic software. The country in which you currently reside may have",
+        "translatedContent": "本发行版包含加密软件。您当前所在国家可能对加密软件的进口、持有、使用和/或向其他国家的再出口有限制。"
+      },
+      {
+        "row": 12,
+        "rowsha": "T17EXLmkaxG6YkPJiYu/CitcHk/3Jflm3GjI5UYhlBo=",
+        "originContent": "restrictions on the import, possession, use, and/or re-export to another country, of encryption software.",
+        "translatedContent": "在使用任何加密软件之前，请检查您所在国家关于加密软件的进口、持有、使用和再出口的法律、法规和政策，以确定是否允许。详情见"
+      },
+      {
+        "row": 13,
+        "rowsha": "5cA3XrT9sAnWP5iw/zN6bVf7uVlhnnIBaV2/5onvoLo=",
+        "originContent": "BEFORE using any encryption software, please check your country's laws, regulations and policies concerning",
+        "translatedContent": "<http://www.wassenaar.org/>。"
+      },
+      {
+        "row": 14,
+        "rowsha": "yfX7mP7+08lDCi1oGt2V/uUNCB/VPXzMJu7YWRNG1u4=",
+        "originContent": "the import, possession, or use, and re-export of encryption software, to see if this is permitted. See",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "7Mnk6lgbLMZLMSEBpj1dbu4DPODZCQpeLnPxlfkK0pY=",
+        "originContent": "<http://www.wassenaar.org/> for more information.",
+        "translatedContent": "美国商务部工业与安全局（BIS）已将本软件归类为出口商品控制编号（ECCN）5D002.C.1，该类别包括使用或执行非对称算法的加密功能的信息安全软件。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Apache 软件基金会以此形式和方式发布的软件符合出口许可例外 ENC 技术软件无限制（TSU）例外条件（参见 BIS 出口管理条例，第 740.13 条），"
+      },
+      {
+        "row": 17,
+        "rowsha": "Vy9pTeoKYS8EofHZliucukDBwM7bXvmwSj0sz5kIfGs=",
+        "originContent": "The U.S. Government Department of Commerce, Bureau of Industry and Security (BIS), has classified this",
+        "translatedContent": "适用于目标代码和源代码。"
+      },
+      {
+        "row": 18,
+        "rowsha": "9h/OfJfJm3iEamoFrk09H2cU8sklc2LOuJ0GRENAuKo=",
+        "originContent": "software as Export Commodity Control Number (ECCN) 5D002.C.1, which includes information security software",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "HPE8UCYOT486JQUNzux0Qo7E4uPtu1Y/gqRyRimelFA=",
+        "originContent": "using or performing cryptographic functions with asymmetric algorithms. The form and manner of this Apache",
+        "translatedContent": "以下提供有关所含加密软件的更多详细信息："
+      },
+      {
+        "row": 20,
+        "rowsha": "/+pGTl7OFUnoYHu6LC6fIj/+Cb/0ZyM3+g0U9Tlrd38=",
+        "originContent": "Software Foundation distribution makes it eligible for export under the License Exception ENC Technology",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "j1KI0y5AtNVk8nFgpjzlhPVC4Pkm9zW52/hZORJL0Xo=",
+        "originContent": "Software Unrestricted (TSU) exception (see the BIS Export Administration Regulations, Section 740.13) for",
+        "translatedContent": "本软件使用 Apache Commons Crypto (https://commons.apache.org/proper/commons-crypto/) 来支持认证，以及服务间通过网络传输数据的加密和解密。"
+      },
+      {
+        "row": 22,
+        "rowsha": "8NZibuwcTFyKHbB8fRj62fevKjiOyoePn4kY7wPXL74=",
+        "originContent": "both object code and source code.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[maven-build-image]: https://github.com/apache/rocketmq/actions/workflows/maven.yaml/badge.svg"
+      },
+      {
+        "row": 24,
+        "rowsha": "K4RdC+bh0NkU2a17/2jn6hE6sDvOcXVQhv5kpixjEac=",
+        "originContent": "The following provides more details on the included cryptographic software:",
+        "translatedContent": "[maven-build-url]: https://github.com/apache/rocketmq/actions/workflows/maven.yaml"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[codecov-image]: https://codecov.io/gh/apache/rocketmq/branch/master/graph/badge.svg"
+      },
+      {
+        "row": 26,
+        "rowsha": "pQPACAgi4BAuZNnWMyNUh0iUUO7SKM0T/KJfw/14+Ls=",
+        "originContent": "This software uses Apache Commons Crypto (https://commons.apache.org/proper/commons-crypto/) to",
+        "translatedContent": "[codecov-url]: https://codecov.io/gh/apache/rocketmq"
+      },
+      {
+        "row": 27,
+        "rowsha": "i1qiGK301UtrCJeXTAhhky7d5csXOk+mmkAX6WHQH7Y=",
+        "originContent": "support authentication, and encryption and decryption of data sent across the network between",
+        "translatedContent": "[maven-central-image]: https://maven-badges.herokuapp.com/maven-central/org.apache.rocketmq/rocketmq-all/badge.svg"
+      },
+      {
+        "row": 28,
+        "rowsha": "rHqb2Id5RQGUqKcBc21K0jRCOzk+0QWpZVeP5HsklI4=",
+        "originContent": "services.",
+        "translatedContent": "[maven-central-url]: http://search.maven.org/#search%7Cga%7C1%7Corg.apache.rocketmq"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[release-image]: https://img.shields.io/badge/release-download-orange.svg"
+      },
+      {
+        "row": 30,
+        "rowsha": "kKOTVKjOPJmheGZP9uADq364ulM8G9kwGobzuP3uNFo=",
+        "originContent": "[maven-build-image]: https://github.com/apache/rocketmq/actions/workflows/maven.yaml/badge.svg",
+        "translatedContent": "[release-url]: https://www.apache.org/licenses/LICENSE-2.0.html"
+      },
+      {
+        "row": 31,
+        "rowsha": "bSSjI7VOBXUWhhTFzxu2ZlXLZ11vkaLMHhw8Qk4L/7c=",
+        "originContent": "[maven-build-url]: https://github.com/apache/rocketmq/actions/workflows/maven.yaml",
+        "translatedContent": "[license-image]: https://img.shields.io/badge/license-Apache%202-4EB1BA.svg"
+      },
+      {
+        "row": 32,
+        "rowsha": "QZQj316BZhlKWyQUfyYYHba+tQavhn+Yc9Jkq9GDBAo=",
+        "originContent": "[codecov-image]: https://codecov.io/gh/apache/rocketmq/branch/master/graph/badge.svg",
+        "translatedContent": "[license-url]: https://www.apache.org/licenses/LICENSE-2.0.html"
+      },
+      {
+        "row": 33,
+        "rowsha": "Q1Y+MS8n04Nh/ffGk3ZWmYDMGtZ99o5qRb1T0+KLrnw=",
+        "originContent": "[codecov-url]: https://codecov.io/gh/apache/rocketmq",
+        "translatedContent": "[average-time-to-resolve-an-issue-image]: http://isitmaintained.com/badge/resolution/apache/rocketmq.svg"
+      },
+      {
+        "row": 34,
+        "rowsha": "qU6EBcXM2w5GOd+E+mXjHg4wOQvL0cz19iTBKmwpDCw=",
+        "originContent": "[maven-central-image]: https://maven-badges.herokuapp.com/maven-central/org.apache.rocketmq/rocketmq-all/badge.svg",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "385HRx0d8/yvH/QabyZUq/bDHBck2AH2o5kWpj0JiBQ=",
+        "originContent": "[maven-central-url]: http://search.maven.org/#search%7Cga%7C1%7Corg.apache.rocketmq",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "V93bi1jryd2yqMkfWH52erCN0IxtLz0QVT6YeJTL++8=",
+        "originContent": "[release-image]: https://img.shields.io/badge/release-download-orange.svg",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "Dk7P7kK/1mJULoJoXsnmp6xb3lDyA0YG/IK40ka6ejY=",
+        "originContent": "[release-url]: https://www.apache.org/licenses/LICENSE-2.0.html",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "2axcDVm6UJhNK0axOLd/HMo5BQG3AVD+HFoQiaKHq1w=",
+        "originContent": "[license-image]: https://img.shields.io/badge/license-Apache%202-4EB1BA.svg",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "dzgyVeAEJyRyXYVcFBolAF2Phw33Qeh6RDjetB0bU0Q=",
+        "originContent": "[license-url]: https://www.apache.org/licenses/LICENSE-2.0.html",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "pjdOLYilhtwcgVCOnWb5JTtrLlGQMS5zTEQfSlR/7kk=",
+        "originContent": "[average-time-to-resolve-an-issue-image]: http://isitmaintained.com/badge/resolution/apache/rocketmq.svg",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "[average-time-to-resolve-an-issue-url]: http://isitmaintained.com/project/apache/rocketmq\n[percentage-of-issues-still-open-image]: http://isitmaintained.com/badge/open/apache/rocketmq.svg\n[percentage-of-issues-still-open-url]: http://isitmaintained.com/project/apache/rocketmq\n[twitter-follow-image]: https://img.shields.io/twitter/follow/ApacheRocketMQ?style=social\n[twitter-follow-url]: https://twitter.com/intent/follow?screen_name=ApacheRocketMQ\n",
+    "ContentSha": "iJn5rLxfVdSXdvjMxWyaWmsmDKLU2hfnOxXOzggIan0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[average-time-to-resolve-an-issue-url]: http://isitmaintained.com/project/apache/rocketmq\n[percentage-of-issues-still-open-image]: http://isitmaintained.com/badge/open/apache/rocketmq.svg\n[percentage-of-issues-still-open-url]: http://isitmaintained.com/project/apache/rocketmq\n[twitter-follow-image]: https://img.shields.io/twitter/follow/ApacheRocketMQ?style=social\n[twitter-follow-url]: https://twitter.com/intent/follow?screen_name=ApacheRocketMQ\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LVqM3jUup2V9q1Ak3+9lmp3wtfV/itmupKQHbtqxnTA=",
+        "originContent": "[average-time-to-resolve-an-issue-url]: http://isitmaintained.com/project/apache/rocketmq",
+        "translatedContent": "[average-time-to-resolve-an-issue-url]: http://isitmaintained.com/project/apache/rocketmq"
+      },
+      {
+        "row": 2,
+        "rowsha": "mFhxP76q5KBNq0IJLhjJZA7NYXfCXzxaDAWX51R97Cw=",
+        "originContent": "[percentage-of-issues-still-open-image]: http://isitmaintained.com/badge/open/apache/rocketmq.svg",
+        "translatedContent": "[percentage-of-issues-still-open-image]: http://isitmaintained.com/badge/open/apache/rocketmq.svg"
+      },
+      {
+        "row": 3,
+        "rowsha": "wbr+2aaGAvpPyDQLdIES/imZ2mccdtqtquFbwxp1ylc=",
+        "originContent": "[percentage-of-issues-still-open-url]: http://isitmaintained.com/project/apache/rocketmq",
+        "translatedContent": "[percentage-of-issues-still-open-url]: http://isitmaintained.com/project/apache/rocketmq"
+      },
+      {
+        "row": 4,
+        "rowsha": "rJ/GicZd/hjc/6M+ffjdIe3ew/It2y7wb7/OA/1rnqI=",
+        "originContent": "[twitter-follow-image]: https://img.shields.io/twitter/follow/ApacheRocketMQ?style=social",
+        "translatedContent": "[twitter-follow-image]: https://img.shields.io/twitter/follow/ApacheRocketMQ?style=social"
+      },
+      {
+        "row": 5,
+        "rowsha": "nGnvjIVF2BY9G222C4Xqputkuhnz9VQZ8Z4CMFzVqH8=",
+        "originContent": "[twitter-follow-url]: https://twitter.com/intent/follow?screen_name=ApacheRocketMQ",
+        "translatedContent": "[twitter-follow-url]: https://twitter.com/intent/follow?screen_name=ApacheRocketMQ"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
