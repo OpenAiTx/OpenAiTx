@@ -4,26 +4,26 @@
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN">Simplified Chinese</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW">Traditional Chinese</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja">Japanese</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko">Korean</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi">Hindi</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th">Thai</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr">French</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de">German</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es">Spanish</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it">Italian</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru">Russian</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt">Portuguese</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl">Dutch</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl">Polish</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar">Arabic</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa">Persian</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr">Turkish</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi">Vietnamese</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id">Indonesian</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as">Assamese</
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as">অসমীয়া</
       </div>
     </div>
   </details>
@@ -35,7 +35,7 @@ A comprehensive collection of specialized AI subagents for [Claude Code](https:/
 
 ## Overview
 
-This repository contains 61 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
+This repository contains 75 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
 
 ## Available Subagents
 
@@ -79,48 +79,61 @@ This repository contains 61 specialized subagents that extend Claude Code's capa
 - **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Developer Experience specialist who improves tooling, setup, and workflows
 
 ### Quality & Security
-- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Expert code review with a strong focus on configuration security and production reliability
-- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Reviews code for vulnerabilities and ensures OWASP compliance
-- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Creates comprehensive test suites including unit, integration, and end-to-end tests
-- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profiles applications, optimizes bottlenecks, and implements caching strategies
-- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Debugging expert for errors, test failures, and unexpected behaviors
-- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Searches logs and codebases for error patterns, stack traces, and anomalies
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Expert code review with a deep focus on configuration security and production reliability
+- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Review code for vulnerabilities and ensure OWASP compliance
+- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Create comprehensive test suites including unit, integration, and end-to-end tests
+- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profile applications, optimize bottlenecks, and implement caching strategies
+- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Debugging specialist for errors, test failures, and unexpected behavior
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Search logs and codebases for error patterns, stack traces, and anomalies
 - **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Expert web researcher using advanced search techniques and synthesis
 
 ### Data & AI
 - **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Data analysis expert for SQL queries, BigQuery operations, and data insights
-- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Builds ETL pipelines, data warehouses, and streaming architectures
-- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Builds LLM applications, RAG systems, and prompt pipelines
-- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Implements ML pipelines, model serving, and feature engineering
-- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Builds ML pipelines, experiment tracking, and model registries
+- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Build ETL pipelines, data warehouses, and streaming architectures
+- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Build LLM applications, RAG systems, and prompt pipelines
+- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Implement ML pipelines, model serving, and feature engineering
+- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Build ML pipelines, experiment tracking, and model registries
 - **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - Optimizes prompts for LLMs and AI systems
 
 ### Specialized Domains
-- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Creates OpenAPI/Swagger specs and writes developer documentation
-- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integrates Stripe, PayPal, and other payment processors
-- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Builds financial models, backtests trading strategies, and analyzes market data
-- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Monitors portfolio risk, R-multiples, and position limits
-- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refactors legacy codebases and implements gradual modernization
+- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Create OpenAPI/Swagger specs and write developer documentation
+- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integrate Stripe, PayPal, and payment processors
+- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Build financial models, backtest trading strategies, and analyze market data
+- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Monitor portfolio risk, R-multiples, and position limits
+- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refactor legacy codebases and implement gradual modernization
 - **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Manages context across multiple agents and long-running tasks
 
 ### Documentation
 - **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Creates comprehensive technical documentation from existing codebases
-- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Creates Mermaid diagrams for flowcharts, sequences, ERDs, and architectures
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures
 - **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Creates exhaustive technical references and API documentation
 - **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Creates step-by-step tutorials and educational content from code
 
 ### Business & Marketing
-- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analyzes metrics, creates reports, and tracks KPIs
-- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Writes blog posts, social media content, and email newsletters
-- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Drafts cold emails, follow-ups, and proposal templates
-- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Handles support tickets, FAQ responses, and customer emails
-- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Drafts privacy policies, terms of service, disclaimers, and legal notices
+- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analyze metrics, create reports, and track KPIs
+- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Write blog posts, social media content, and email newsletters
+- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - Partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations.
+- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Draft cold emails, follow-ups, and proposal templates
+- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Handle support tickets, FAQ responses, and customer emails
+- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Draft privacy policies, terms of service, disclaimers, and legal notices
+
+### SEO & Content Optimization
+- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - Analyzes provided content for quality, E-E-A-T signals, and SEO best practices
+- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - Creates optimized meta titles, descriptions, and URL suggestions
+- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - Analyzes keyword usage, calculates density, suggests semantic variations
+- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - Optimizes content structure, header hierarchy, and schema markup
+- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - Formats content for featured snippets and SERP features
+- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - Identifies outdated elements and suggests content updates
+- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - Analyzes multiple pages for keyword overlap and conflicts
+- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - Analyzes content for E-E-A-T signals and trust indicators
+- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - Writes SEO-optimized content based on keywords and briefs
+- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - Creates content outlines, topic clusters, and calendars
 
 ## Model Assignments
 
-All 59 subagents are configured with specific Claude models based on task complexity:
+All 75 subagents are configured with specific Claude models based on task complexity:
 
-### 🚀 Haiku (Fast & Cost-Effective) - 9 agents
+### 🚀 Haiku (Fast & Cost-Effective) - 15 agents
 **Model:** `haiku`
 - `data-scientist` - SQL queries and data analysis
 - `api-documenter` - OpenAPI/Swagger documentation
@@ -131,8 +144,15 @@ All 59 subagents are configured with specific Claude models based on task comple
 - `sales-automator` - Cold emails and proposals
 - `search-specialist` - Web research and information gathering
 - `legal-advisor` - Privacy policies and compliance documents
+- `seo-meta-optimizer` - Meta title and description optimization
+- `seo-keyword-strategist` - Keyword density and semantic analysis
+- `seo-structure-architect` - Content structure and schema markup
+- `seo-snippet-hunter` - Featured snippet formatting
+- `seo-content-refresher` - Content freshness updates
+- `seo-cannibalization-detector` - Keyword overlap detection
+- `seo-content-planner` - Content calendars and outlines
 
-### ⚡ Sonnet (Balanced Performance) - 37 agents
+### ⚡ Sonnet (Balanced Performance) - 44 agents
 **Model:** `sonnet`
 
 **Development & Languages:**
@@ -180,8 +200,11 @@ All 59 subagents are configured with specific Claude models based on task comple
 - `payment-integration` - Payment processing
 - `mermaid-expert` - Mermaid diagrams and visual documentation
 - `flutter-expert` - Flutter development
+- `seo-content-auditor` - Content quality and E-E-A-T analysis
+- `seo-authority-builder` - Authority signal optimization
+- `seo-content-writer` - SEO-optimized content creation
 
-### 🧠 Opus (Maximum Capability) - 13 agents
+### 🧠 Opus (Maximum Capability) - 15 agents
 **Model:** `opus`
 - `ai-engineer` - LLM applications and RAG systems
 - `security-auditor` - Vulnerability analysis
@@ -199,7 +222,7 @@ All 59 subagents are configured with specific Claude models based on task comple
 
 ## Installation
 
-这些子代理在放置到 `~/.claude/agents/` 目录时会自动可用。
+These subagents are automatically available when placed in the `~/.claude/agents/` directory.
 
 ```bash
 cd ~/.claude
@@ -427,7 +450,7 @@ payment-integration → security-auditor → Validated implementation
 - **content-marketer**: SEO content, blog posts, social media, email campaigns
 - **sales-automator**: Cold emails, follow-ups, proposals, lead nurturing
 - **customer-support**: Support tickets, FAQs, help documentation, troubleshooting
-- **legal-advisor** - Draft privacy policies, terms of service, disclaimers, and legal notices 
+- **legal-advisor** - Draft privacy policies, terms of service, disclaimers, and legal notices
 
 ## Best Practices
 
@@ -500,6 +523,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-22
 
 ---

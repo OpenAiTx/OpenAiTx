@@ -1,0 +1,1747 @@
+[
+  {
+    "Id": 1,
+    "Content": "Serde YAML\n==========\n\n[<img alt=\"github\" src=\"https://img.shields.io/badge/github-acatton/serde--yaml--ng-8da0cb?style=for-the-badge&labelColor=555555&logo=github\" height=\"20\">](https://github.com/acatton/serde-yaml-ng)\n[<img alt=\"crates.io\" src=\"https://img.shields.io/crates/v/serde_yaml_ng.svg?style=for-the-badge&color=fc8d62&logo=rust\" height=\"20\">](https://crates.io/crates/serde_yaml_ng)\n[<img alt=\"docs.rs\" src=\"https://img.shields.io/badge/docs.rs-serde__yaml__ng-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs\" height=\"20\">](https://docs.rs/serde_yaml_ng)\n[<img alt=\"build status\" src=\"https://img.shields.io/github/actions/workflow/status/acatton/serde-yaml-ng/ci.yml?branch=master&style=for-the-badge\" height=\"20\">](https://github.com/acatton/serde-yaml-ng/actions?query=branch%3Amaster)\n\nRust library for using the [Serde] serialization framework with data in [YAML]\nfile format. This library only follows the [YAML specification 1.1.](https://yaml.org/spec/1.1/).\n\nThis library is a fork from the latest commit of [serde-yaml](https://github.com/dtolnay/serde-yaml),\nwhich was `200950`.\n<sup>\\[[original](https://github.com/dtolnay/serde-yaml/commit/2009506d33767dfc88e979d6bc0d53d09f941c94)\\]</sup>\n<sup>\\[[this project](https://github.com/acatton/serde-yaml-ng/commit/2009506d33767dfc88e979d6bc0d53d09f941c94)\\]</sup>\nMy goal is to be compatible as much as possible with [David Tolnay](https://github.com/dtolnay)'s original library.\n\n[Serde]: https://github.com/serde-rs/serde\n[YAML]: https://yaml.org/\n\n## Dependency\n",
+    "ContentSha": "AxdlGse1nMSmP17nqHGaUElc6lEML9gkfFXLOhXu9kw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Serde YAML\n==========\n\n[<img alt=\"github\" src=\"https://img.shields.io/badge/github-acatton/serde--yaml--ng-8da0cb?style=for-the-badge&labelColor=555555&logo=github\" height=\"20\">](https://github.com/acatton/serde-yaml-ng)\n[<img alt=\"crates.io\" src=\"https://img.shields.io/crates/v/serde_yaml_ng.svg?style=for-the-badge&color=fc8d62&logo=rust\" height=\"20\">](https://crates.io/crates/serde_yaml_ng)\n[<img alt=\"docs.rs\" src=\"https://img.shields.io/badge/docs.rs-serde__yaml__ng-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs\" height=\"20\">](https://docs.rs/serde_yaml_ng)\n[<img alt=\"build status\" src=\"https://img.shields.io/github/actions/workflow/status/acatton/serde-yaml-ng/ci.yml?branch=master&style=for-the-badge\" height=\"20\">](https://github.com/acatton/serde-yaml-ng/actions?query=branch%3Amaster)\n\nRust library for using the [Serde] serialization framework with data in [YAML]\nfile format. This library only follows the [YAML specification 1.1.](https://yaml.org/spec/1.1/).\n\nThis library is a fork from the latest commit of [serde-yaml](https://github.com/dtolnay/serde-yaml),\nwhich was `200950`.\n<sup>\\[[original](https://github.com/dtolnay/serde-yaml/commit/2009506d33767dfc88e979d6bc0d53d09f941c94)\\]</sup>\n<sup>\\[[this project](https://github.com/acatton/serde-yaml-ng/commit/2009506d33767dfc88e979d6bc0d53d09f941c94)\\]</sup>\nMy goal is to be compatible as much as possible with [David Tolnay](https://github.com/dtolnay)'s original library.\n\n[Serde]: https://github.com/serde-rs/serde\n[YAML]: https://yaml.org/\n\n## Dependency\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Qvv0G+JTM+ndG1ZM7nlwhSFOpqSosx4yeYTsHiJr0ak=",
+        "originContent": "Serde YAML",
+        "translatedContent": "Serde YAML"
+      },
+      {
+        "row": 2,
+        "rowsha": "NX9bkcad1nzUWI4CtR1/kdQwuPyagYfCc3c5IV95EU0=",
+        "originContent": "==========",
+        "translatedContent": "=========="
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "s9NLE95AUcTIxXLx4edsKiKRgJ6PCQDB8jNbh6/bBBI=",
+        "originContent": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-acatton/serde--yaml--ng-8da0cb?style=for-the-badge&labelColor=555555&logo=github\" height=\"20\">](https://github.com/acatton/serde-yaml-ng)",
+        "translatedContent": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-acatton/serde--yaml--ng-8da0cb?style=for-the-badge&labelColor=555555&logo=github\" height=\"20\">](https://github.com/acatton/serde-yaml-ng)"
+      },
+      {
+        "row": 5,
+        "rowsha": "brBNhb7ra/pbPx6gqmC3JCO6EcFL95B7y3Ee7KnjlDk=",
+        "originContent": "[<img alt=\"crates.io\" src=\"https://img.shields.io/crates/v/serde_yaml_ng.svg?style=for-the-badge&color=fc8d62&logo=rust\" height=\"20\">](https://crates.io/crates/serde_yaml_ng)",
+        "translatedContent": "[<img alt=\"crates.io\" src=\"https://img.shields.io/crates/v/serde_yaml_ng.svg?style=for-the-badge&color=fc8d62&logo=rust\" height=\"20\">](https://crates.io/crates/serde_yaml_ng)"
+      },
+      {
+        "row": 6,
+        "rowsha": "LcU/zLp/w1hvLAt2CCQ5NR0HPpd6a2Biwhx+xphLEd4=",
+        "originContent": "[<img alt=\"docs.rs\" src=\"https://img.shields.io/badge/docs.rs-serde__yaml__ng-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs\" height=\"20\">](https://docs.rs/serde_yaml_ng)",
+        "translatedContent": "[<img alt=\"docs.rs\" src=\"https://img.shields.io/badge/docs.rs-serde__yaml__ng-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs\" height=\"20\">](https://docs.rs/serde_yaml_ng)"
+      },
+      {
+        "row": 7,
+        "rowsha": "LcDPwWI4XBcFG5c69MUTE+2VLBZs+xAfCz7Ibu5oO34=",
+        "originContent": "[<img alt=\"build status\" src=\"https://img.shields.io/github/actions/workflow/status/acatton/serde-yaml-ng/ci.yml?branch=master&style=for-the-badge\" height=\"20\">](https://github.com/acatton/serde-yaml-ng/actions?query=branch%3Amaster)",
+        "translatedContent": "[<img alt=\"build status\" src=\"https://img.shields.io/github/actions/workflow/status/acatton/serde-yaml-ng/ci.yml?branch=master&style=for-the-badge\" height=\"20\">](https://github.com/acatton/serde-yaml-ng/actions?query=branch%3Amaster)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "VYFcurHR7uy9ZhtneLUkNxPgtQk+3b2GyWaFlr3QdaM=",
+        "originContent": "Rust library for using the [Serde] serialization framework with data in [YAML]",
+        "translatedContent": "Rust library for using the [Serde] serialization framework with data in [YAML]"
+      },
+      {
+        "row": 10,
+        "rowsha": "Acuio88XcA+2yb9bRA91x1lxRFsRVxVlNLXARiH3268=",
+        "originContent": "file format. This library only follows the [YAML specification 1.1.](https://yaml.org/spec/1.1/).",
+        "translatedContent": "file format. This library only follows the [YAML specification 1.1.](https://yaml.org/spec/1.1/)."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "lryHVo2YT00X++sT/vfCuVzUwAyB5uQfV3AkoYby+Dg=",
+        "originContent": "This library is a fork from the latest commit of [serde-yaml](https://github.com/dtolnay/serde-yaml),",
+        "translatedContent": "This library is a fork from the latest commit of [serde-yaml](https://github.com/dtolnay/serde-yaml),"
+      },
+      {
+        "row": 13,
+        "rowsha": "KQFjYIdHrsStwGjNCKy7aFsNaB2RL1zLpTVoA29wDDg=",
+        "originContent": "which was `200950`.",
+        "translatedContent": "which was `200950`."
+      },
+      {
+        "row": 14,
+        "rowsha": "9PxukrSsXrXMBOpvwn0SfQe88mt2eAkFH7h7mRJgX8k=",
+        "originContent": "<sup>\\[[original](https://github.com/dtolnay/serde-yaml/commit/2009506d33767dfc88e979d6bc0d53d09f941c94)\\]</sup>",
+        "translatedContent": "<sup>\\[[original](https://github.com/dtolnay/serde-yaml/commit/2009506d33767dfc88e979d6bc0d53d09f941c94)\\]</sup>"
+      },
+      {
+        "row": 15,
+        "rowsha": "UPP38YU+F9vqXDsS5IbSOqrjBcBcVzK0sE6ieCnCyzw=",
+        "originContent": "<sup>\\[[this project](https://github.com/acatton/serde-yaml-ng/commit/2009506d33767dfc88e979d6bc0d53d09f941c94)\\]</sup>",
+        "translatedContent": "<sup>\\[[this project](https://github.com/acatton/serde-yaml-ng/commit/2009506d33767dfc88e979d6bc0d53d09f941c94)\\]</sup>"
+      },
+      {
+        "row": 16,
+        "rowsha": "Ur1NnrGPVPRC9LTZXLaCUx8IY9eAIHxzVeNH4v+Gd2E=",
+        "originContent": "My goal is to be compatible as much as possible with [David Tolnay](https://github.com/dtolnay)'s original library.",
+        "translatedContent": "My goal is to be compatible as much as possible with [David Tolnay](https://github.com/dtolnay)'s original library."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "d0DBxzVYWHuDKtoihNkVbdYK2JD0Qo9A6tfboq63JJc=",
+        "originContent": "[Serde]: https://github.com/serde-rs/serde",
+        "translatedContent": "[Serde]: https://github.com/serde-rs/serde"
+      },
+      {
+        "row": 19,
+        "rowsha": "AFWzBXuF940b4p9T54dKzCcg4TyHWy36NBlKkLSEXAU=",
+        "originContent": "[YAML]: https://yaml.org/",
+        "translatedContent": "[YAML]: https://yaml.org/"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "BuNISjzGMFc1+Eo1uLkLXzvIOEtl5S7YdowlW8TCaQE=",
+        "originContent": "## Dependency",
+        "translatedContent": "## Dependency"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```toml\n[dependencies]\nserde = \"1.0\"\nserde_yaml_ng = \"0.10\"\n```",
+    "ContentSha": "DODAMQ2ONsOQj3WBS0SllmKsYegT7C07uq1LmkBd60o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\n[dependencies]\nserde = \"1.0\"\nserde_yaml_ng = \"0.10\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "v8Amm9lWkEiRx7LTLCNyiQWyvnBgtnoUMrJSqtpA+c8=",
+        "originContent": "[dependencies]",
+        "translatedContent": "[dependencies]"
+      },
+      {
+        "row": 3,
+        "rowsha": "DuULZM6aHVa7XwvPAnUp04P3RSV/QTSKPWUmVxREdvI=",
+        "originContent": "serde = \"1.0\"",
+        "translatedContent": "serde = \"1.0\""
+      },
+      {
+        "row": 4,
+        "rowsha": "hCalyxnS7bs3f4AHEX//9mpafcbZDcrwMoBu1+0WOW8=",
+        "originContent": "serde_yaml_ng = \"0.10\"",
+        "translatedContent": "serde_yaml_ng = \"0.10\""
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nRelease notes are available under [GitHub releases].\n\n[GitHub releases]: https://github.com/acatton/serde-yaml-ng/releases\n\n## Using Serde YAML\n\n[API documentation is available in rustdoc form][docs.rs] but the general idea\nis:\n\n[docs.rs]: https://docs.rs/serde_yaml_ng\n",
+    "ContentSha": "JCd8YqXx2QZOLnt5xizfww+9k9ADdljy/asqzkAnZYs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nRelease notes are available under [GitHub releases].\n\n[GitHub releases]: https://github.com/acatton/serde-yaml-ng/releases\n\n## Using Serde YAML\n\n[API documentation is available in rustdoc form][docs.rs] but the general idea\nis:\n\n[docs.rs]: https://docs.rs/serde_yaml_ng\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KjJEXqLDsrPVu/VI3OpboGHhaSUkRrk+UOhDAuECwS0=",
+        "originContent": "Release notes are available under [GitHub releases].",
+        "translatedContent": "Release notes are available under [GitHub releases]."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "9tjNsRPOOI5bHyq+erYQKKmQevUyw5GQHyxNfOoSRLU=",
+        "originContent": "[GitHub releases]: https://github.com/acatton/serde-yaml-ng/releases",
+        "translatedContent": "[GitHub releases]: https://github.com/acatton/serde-yaml-ng/releases"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "4AEopA35SpZmxACoxz3+xx69wYmNoSSxERUpYZZTlE4=",
+        "originContent": "## Using Serde YAML",
+        "translatedContent": "## Using Serde YAML"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "iCpv8kd1HNrpBZkNE5Lo2XRQur3vyVunyL6HfKcJnCg=",
+        "originContent": "[API documentation is available in rustdoc form][docs.rs] but the general idea",
+        "translatedContent": "[API documentation is available in rustdoc form][docs.rs] but the general idea"
+      },
+      {
+        "row": 9,
+        "rowsha": "w4OKTItcJgzqfaoIsbu+P9jDzxT2MoB1d4hqkz8Ll7Q=",
+        "originContent": "is:",
+        "translatedContent": "is:"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "CG/Xz4gH0wJ8ymUPZKccwzxRMKGEAicn54UTjtxDnuk=",
+        "originContent": "[docs.rs]: https://docs.rs/serde_yaml_ng",
+        "translatedContent": "[docs.rs]: https://docs.rs/serde_yaml_ng"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```rust\nuse std::collections::BTreeMap;\n\nfn main() -> Result<(), serde_yaml_ng::Error> {\n    // You have some type.\n    let mut map = BTreeMap::new();\n    map.insert(\"x\".to_string(), 1.0);\n    map.insert(\"y\".to_string(), 2.0);\n\n    // Serialize it to a YAML string.\n    let yaml = serde_yaml_ng::to_string(&map)?;\n    assert_eq!(yaml, \"x: 1.0\\ny: 2.0\\n\");\n\n    // Deserialize it back to a Rust type.\n    let deserialized_map: BTreeMap<String, f64> = serde_yaml_ng::from_str(&yaml)?;\n    assert_eq!(map, deserialized_map);\n    Ok(())\n}\n```",
+    "ContentSha": "9GsXdYJVHTu9Peg9JX3EOWNyNHbC3ZtZrHFOxkteP74=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nuse std::collections::BTreeMap;\n\nfn main() -> Result<(), serde_yaml_ng::Error> {\n    // You have some type.\n    let mut map = BTreeMap::new();\n    map.insert(\"x\".to_string(), 1.0);\n    map.insert(\"y\".to_string(), 2.0);\n\n    // Serialize it to a YAML string.\n    let yaml = serde_yaml_ng::to_string(&map)?;\n    assert_eq!(yaml, \"x: 1.0\\ny: 2.0\\n\");\n\n    // Deserialize it back to a Rust type.\n    let deserialized_map: BTreeMap<String, f64> = serde_yaml_ng::from_str(&yaml)?;\n    assert_eq!(map, deserialized_map);\n    Ok(())\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "GUW6+aCfL7uc/s3KXvQWiEp8w6OAaAL1XaK58Xu2QTo=",
+        "originContent": "use std::collections::BTreeMap;",
+        "translatedContent": "use std::collections::BTreeMap;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "fUrSFsyloV9ShzHqH3w8fgkIrszM4MsgNiRPxit6CF8=",
+        "originContent": "fn main() -> Result<(), serde_yaml_ng::Error> {",
+        "translatedContent": "fn main() -> Result<(), serde_yaml_ng::Error> {"
+      },
+      {
+        "row": 5,
+        "rowsha": "7uOuID9yw8SYqMMVbqIfWr4L8+tColHYAY8Kclj8R3I=",
+        "originContent": "    // You have some type.",
+        "translatedContent": "    // You have some type."
+      },
+      {
+        "row": 6,
+        "rowsha": "oKEL2kFniEq/BR+RFksEnHpAsblaZw1pvEk06JA77hQ=",
+        "originContent": "    let mut map = BTreeMap::new();",
+        "translatedContent": "    let mut map = BTreeMap::new();"
+      },
+      {
+        "row": 7,
+        "rowsha": "yz6vcLu2rih3hdVjx0drNMK8ajPOW1OHEkE7L99wiLY=",
+        "originContent": "    map.insert(\"x\".to_string(), 1.0);",
+        "translatedContent": "    map.insert(\"x\".to_string(), 1.0);"
+      },
+      {
+        "row": 8,
+        "rowsha": "1Yh/fRbtVsoEmkU88igagWdaEl9Hn0SmhU/C33thQz8=",
+        "originContent": "    map.insert(\"y\".to_string(), 2.0);",
+        "translatedContent": "    map.insert(\"y\".to_string(), 2.0);"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "LBwnIUrRBT81ACNp6tJsOu9RTTzl8w0c05NZG6He7AU=",
+        "originContent": "    // Serialize it to a YAML string.",
+        "translatedContent": "    // Serialize it to a YAML string."
+      },
+      {
+        "row": 11,
+        "rowsha": "+tOS2dtvJJz2o0A8GZye73rr00VblNzicgGKwcGPRBk=",
+        "originContent": "    let yaml = serde_yaml_ng::to_string(&map)?;",
+        "translatedContent": "    let yaml = serde_yaml_ng::to_string(&map)?;"
+      },
+      {
+        "row": 12,
+        "rowsha": "BgVDKtN71T0JU46SVm774sSz7bCaPFWqm/FqdbG8juM=",
+        "originContent": "    assert_eq!(yaml, \"x: 1.0\\ny: 2.0\\n\");",
+        "translatedContent": "    assert_eq!(yaml, \"x: 1.0\\ny: 2.0\\n\");"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "NlBmgmLakHV0zz/xIJQQU8kZPdpWMG956AlScOkxPUc=",
+        "originContent": "    // Deserialize it back to a Rust type.",
+        "translatedContent": "    // Deserialize it back to a Rust type."
+      },
+      {
+        "row": 15,
+        "rowsha": "hb/cZA6xylvFhKquGEODx2sRRCxX9rgTV3Uepu5/pWw=",
+        "originContent": "    let deserialized_map: BTreeMap<String, f64> = serde_yaml_ng::from_str(&yaml)?;",
+        "translatedContent": "    let deserialized_map: BTreeMap<String, f64> = serde_yaml_ng::from_str(&yaml)?;"
+      },
+      {
+        "row": 16,
+        "rowsha": "avWn75K0PawRCWKkxUdPGDJHjwqveOK2SAENQx5cEbk=",
+        "originContent": "    assert_eq!(map, deserialized_map);",
+        "translatedContent": "    assert_eq!(map, deserialized_map);"
+      },
+      {
+        "row": 17,
+        "rowsha": "rAUqQAP4UmkRuYe0p/DkOwHWByDOAofdjlGWpjFS8LY=",
+        "originContent": "    Ok(())",
+        "translatedContent": "    Ok(())"
+      },
+      {
+        "row": 18,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nIt can also be used with Serde's derive macros to handle structs and enums\ndefined in your program.\n",
+    "ContentSha": "xCSE2pgW214PqvxQ5dTWAc4i6dm1pTkMRcnCnQ2yQSk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "It can also be used with Serde's derive macros to handle structs and enums  \ndefined in your program.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "It can also be used with Serde's derive macros to handle structs and enums  "
+      },
+      {
+        "row": 2,
+        "rowsha": "kjUOl3uo7voyIhzpjvl5I/Hbv7UWqstsYCKm4zlHQzs=",
+        "originContent": "It can also be used with Serde's derive macros to handle structs and enums",
+        "translatedContent": "defined in your program."
+      },
+      {
+        "row": 3,
+        "rowsha": "see/3w9LVlbSS5esanCJZN6kQeq0bF8CQK4nI1I9/ZY=",
+        "originContent": "defined in your program.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```toml\n[dependencies]\nserde = { version = \"1.0\", features = [\"derive\"] }\nserde_yaml_ng = \"0.10\"\n```",
+    "ContentSha": "FOxCJzySJoicc0dnC2Za/fmtwIlbb0Yro7Ku+gn7dBY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\n[dependencies]\nserde = { version = \"1.0\", features = [\"derive\"] }\nserde_yaml_ng = \"0.10\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "v8Amm9lWkEiRx7LTLCNyiQWyvnBgtnoUMrJSqtpA+c8=",
+        "originContent": "[dependencies]",
+        "translatedContent": "[dependencies]"
+      },
+      {
+        "row": 3,
+        "rowsha": "lhmniArQ4AA7JDeYslYYDL4hmdrVtLLpzS2uKd/fFy8=",
+        "originContent": "serde = { version = \"1.0\", features = [\"derive\"] }",
+        "translatedContent": "serde = { version = \"1.0\", features = [\"derive\"] }"
+      },
+      {
+        "row": 4,
+        "rowsha": "hCalyxnS7bs3f4AHEX//9mpafcbZDcrwMoBu1+0WOW8=",
+        "originContent": "serde_yaml_ng = \"0.10\"",
+        "translatedContent": "serde_yaml_ng = \"0.10\""
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nStructs serialize in the obvious way:\n",
+    "ContentSha": "hWWxcSEuLhqtYA6VHvBtFk5rtiSSqLfFMzfN2fwtSF8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Structs serialize in the obvious way:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Structs serialize in the obvious way:"
+      },
+      {
+        "row": 2,
+        "rowsha": "trWLc7pTUVZoPhPmpDcRZghrBzdFpgtHBPXMfzJNFIU=",
+        "originContent": "Structs serialize in the obvious way:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```rust\nuse serde::{Serialize, Deserialize};\n\n#[derive(Debug, PartialEq, Serialize, Deserialize)]\nstruct Point {\n    x: f64,\n    y: f64,\n}\n\nfn main() -> Result<(), serde_yaml_ng::Error> {\n    let point = Point { x: 1.0, y: 2.0 };\n\n    let yaml = serde_yaml_ng::to_string(&point)?;\n    assert_eq!(yaml, \"x: 1.0\\ny: 2.0\\n\");\n\n    let deserialized_point: Point = serde_yaml_ng::from_str(&yaml)?;\n    assert_eq!(point, deserialized_point);\n    Ok(())\n}\n```",
+    "ContentSha": "UPETeDBbpWEcWsjipQqt55rPUwnQak29zUFuSHo9a7Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nuse serde::{Serialize, Deserialize};\n\n#[derive(Debug, PartialEq, Serialize, Deserialize)]\nstruct Point {\n    x: f64,\n    y: f64,\n}\n\nfn main() -> Result<(), serde_yaml_ng::Error> {\n    let point = Point { x: 1.0, y: 2.0 };\n\n    let yaml = serde_yaml_ng::to_string(&point)?;\n    assert_eq!(yaml, \"x: 1.0\\ny: 2.0\\n\");\n\n    let deserialized_point: Point = serde_yaml_ng::from_str(&yaml)?;\n    assert_eq!(point, deserialized_point);\n    Ok(())\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "TkcLdjAbu6FBlq5QbT0qwiX9cJMuspkZala1STf1Rm8=",
+        "originContent": "use serde::{Serialize, Deserialize};",
+        "translatedContent": "use serde::{Serialize, Deserialize};"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+zQnPtIyQfXpBy+Yyrj9eBsVy2tRF29LbX7g65AUI84=",
+        "originContent": "#[derive(Debug, PartialEq, Serialize, Deserialize)]",
+        "translatedContent": "#[derive(Debug, PartialEq, Serialize, Deserialize)]"
+      },
+      {
+        "row": 5,
+        "rowsha": "AmTUWkElYvCprOEHqf3SUcP6LeB7qcPqe1a7tmb1iWU=",
+        "originContent": "struct Point {",
+        "translatedContent": "struct Point {"
+      },
+      {
+        "row": 6,
+        "rowsha": "BdFVbsSIofrlqDgUu7OJRiAaAvO0uuBVJPb80in1Nxo=",
+        "originContent": "    x: f64,",
+        "translatedContent": "    x: f64,"
+      },
+      {
+        "row": 7,
+        "rowsha": "wxWpjscUaC8PITMFceMg6dRankrVAYTMG1YCMtAQl3I=",
+        "originContent": "    y: f64,",
+        "translatedContent": "    y: f64,"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "fUrSFsyloV9ShzHqH3w8fgkIrszM4MsgNiRPxit6CF8=",
+        "originContent": "fn main() -> Result<(), serde_yaml_ng::Error> {",
+        "translatedContent": "fn main() -> Result<(), serde_yaml_ng::Error> {"
+      },
+      {
+        "row": 11,
+        "rowsha": "sixC1fjSTN/AFGMII+w4nolBkqevVSUfiIb9edzL+bI=",
+        "originContent": "    let point = Point { x: 1.0, y: 2.0 };",
+        "translatedContent": "    let point = Point { x: 1.0, y: 2.0 };"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "6HNzqyQibgagzGgO/faKVxe3qdj0eVXq1ht3340Zv14=",
+        "originContent": "    let yaml = serde_yaml_ng::to_string(&point)?;",
+        "translatedContent": "    let yaml = serde_yaml_ng::to_string(&point)?;"
+      },
+      {
+        "row": 14,
+        "rowsha": "BgVDKtN71T0JU46SVm774sSz7bCaPFWqm/FqdbG8juM=",
+        "originContent": "    assert_eq!(yaml, \"x: 1.0\\ny: 2.0\\n\");",
+        "translatedContent": "    assert_eq!(yaml, \"x: 1.0\\ny: 2.0\\n\");"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "FeQuzRa2o++W3/AsEDWN9lJMyY0ZlydBmAMnjIsBVGI=",
+        "originContent": "    let deserialized_point: Point = serde_yaml_ng::from_str(&yaml)?;",
+        "translatedContent": "    let deserialized_point: Point = serde_yaml_ng::from_str(&yaml)?;"
+      },
+      {
+        "row": 17,
+        "rowsha": "pFoMoGBOh+iZCRPJZAeTQy0Qdi+PaYYeoZe42kRSEc8=",
+        "originContent": "    assert_eq!(point, deserialized_point);",
+        "translatedContent": "    assert_eq!(point, deserialized_point);"
+      },
+      {
+        "row": 18,
+        "rowsha": "rAUqQAP4UmkRuYe0p/DkOwHWByDOAofdjlGWpjFS8LY=",
+        "originContent": "    Ok(())",
+        "translatedContent": "    Ok(())"
+      },
+      {
+        "row": 19,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 20,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nEnums serialize using YAML's `!tag` syntax to identify the variant name.\n",
+    "ContentSha": "4tNAHH5wiAIeVru+OIdKCT1m67jE/rZapz6hsWf4U4g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEnums serialize using YAML's `!tag` syntax to identify the variant name.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "JFaGi1ketk2hmgJUT7h1wQxEG1VUKK6Bvb7+Zslt/D8=",
+        "originContent": "Enums serialize using YAML's `!tag` syntax to identify the variant name.",
+        "translatedContent": "Enums serialize using YAML's `!tag` syntax to identify the variant name."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```rust\nuse serde::{Serialize, Deserialize};\n\n#[derive(Serialize, Deserialize, PartialEq, Debug)]\nenum Enum {\n    Unit,\n    Newtype(usize),\n    Tuple(usize, usize, usize),\n    Struct { x: f64, y: f64 },\n}\n\nfn main() -> Result<(), serde_yaml_ng::Error> {\n    let yaml = \"\n        - !Newtype 1\n        - !Tuple [0, 0, 0]\n        - !Struct {x: 1.0, y: 2.0}\n    \";\n    let values: Vec<Enum> = serde_yaml_ng::from_str(yaml).unwrap();\n    assert_eq!(values[0], Enum::Newtype(1));\n    assert_eq!(values[1], Enum::Tuple(0, 0, 0));\n    assert_eq!(values[2], Enum::Struct { x: 1.0, y: 2.0 });\n\n    // The last two in YAML's block style instead:\n    let yaml = \"\n        - !Tuple\n          - 0\n          - 0\n          - 0\n        - !Struct\n          x: 1.0\n          y: 2.0\n    \";\n    let values: Vec<Enum> = serde_yaml_ng::from_str(yaml).unwrap();\n    assert_eq!(values[0], Enum::Tuple(0, 0, 0));\n    assert_eq!(values[1], Enum::Struct { x: 1.0, y: 2.0 });\n\n    // Variants with no data can be written using !Tag or just the string name.\n    let yaml = \"\n        - Unit  # serialization produces this one\n        - !Unit\n    \";\n    let values: Vec<Enum> = serde_yaml_ng::from_str(yaml).unwrap();\n    assert_eq!(values[0], Enum::Unit);\n    assert_eq!(values[1], Enum::Unit);\n\n    Ok(())\n}\n```",
+    "ContentSha": "U5FcvUaZLmBNdcaFlyIGzSmbLleKbdbiV6UHlZ0tQzU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nuse serde::{Serialize, Deserialize};\n\n#[derive(Serialize, Deserialize, PartialEq, Debug)]\nenum Enum {\n    Unit,\n    Newtype(usize),\n    Tuple(usize, usize, usize),\n    Struct { x: f64, y: f64 },\n}\n\nfn main() -> Result<(), serde_yaml_ng::Error> {\n    let yaml = \"\n        - !Newtype 1\n        - !Tuple [0, 0, 0]\n        - !Struct {x: 1.0, y: 2.0}\n    \";\n    let values: Vec<Enum> = serde_yaml_ng::from_str(yaml).unwrap();\n    assert_eq!(values[0], Enum::Newtype(1));\n    assert_eq!(values[1], Enum::Tuple(0, 0, 0));\n    assert_eq!(values[2], Enum::Struct { x: 1.0, y: 2.0 });\n\n    // The last two in YAML's block style instead:\n    let yaml = \"\n        - !Tuple\n          - 0\n          - 0\n          - 0\n        - !Struct\n          x: 1.0\n          y: 2.0\n    \";\n    let values: Vec<Enum> = serde_yaml_ng::from_str(yaml).unwrap();\n    assert_eq!(values[0], Enum::Tuple(0, 0, 0));\n    assert_eq!(values[1], Enum::Struct { x: 1.0, y: 2.0 });\n\n    // Variants with no data can be written using !Tag or just the string name.\n    let yaml = \"\n        - Unit  # serialization produces this one\n        - !Unit\n    \";\n    let values: Vec<Enum> = serde_yaml_ng::from_str(yaml).unwrap();\n    assert_eq!(values[0], Enum::Unit);\n    assert_eq!(values[1], Enum::Unit);\n\n    Ok(())\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "TkcLdjAbu6FBlq5QbT0qwiX9cJMuspkZala1STf1Rm8=",
+        "originContent": "use serde::{Serialize, Deserialize};",
+        "translatedContent": "use serde::{Serialize, Deserialize};"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "4O3njaeP3kktc+JYHWrZiZ9Z/eEN7GQwuOMSO310WhA=",
+        "originContent": "#[derive(Serialize, Deserialize, PartialEq, Debug)]",
+        "translatedContent": "#[derive(Serialize, Deserialize, PartialEq, Debug)]"
+      },
+      {
+        "row": 5,
+        "rowsha": "q5i6POY/NE7Yy0Qi3IImrMH4uqG1y0frAPXcfXh0mk4=",
+        "originContent": "enum Enum {",
+        "translatedContent": "enum Enum {"
+      },
+      {
+        "row": 6,
+        "rowsha": "zSsO/fVoVlzofiraZBOdDd55kJ1W/zrMnBBipLqvQcs=",
+        "originContent": "    Unit,",
+        "translatedContent": "    Unit,"
+      },
+      {
+        "row": 7,
+        "rowsha": "Lfg++qy/nCilXzDHzxg1GeMCu+ZdZKlYQB66zWWW2bE=",
+        "originContent": "    Newtype(usize),",
+        "translatedContent": "    Newtype(usize),"
+      },
+      {
+        "row": 8,
+        "rowsha": "AJLzK0kDNF4YppWUul+eKaoqXLOQ16kVjhg26FTG/F4=",
+        "originContent": "    Tuple(usize, usize, usize),",
+        "translatedContent": "    Tuple(usize, usize, usize),"
+      },
+      {
+        "row": 9,
+        "rowsha": "zNfyV5Mont01rXZtaOOw8BdTBl4/8ahzqb4Lp5W4Mug=",
+        "originContent": "    Struct { x: f64, y: f64 },",
+        "translatedContent": "    Struct { x: f64, y: f64 },"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "fUrSFsyloV9ShzHqH3w8fgkIrszM4MsgNiRPxit6CF8=",
+        "originContent": "fn main() -> Result<(), serde_yaml_ng::Error> {",
+        "translatedContent": "fn main() -> Result<(), serde_yaml_ng::Error> {"
+      },
+      {
+        "row": 13,
+        "rowsha": "PuEZQxo/z3rX17B20NLp9bwOw0OrvgedYKbqmghlAlM=",
+        "originContent": "    let yaml = \"",
+        "translatedContent": "    let yaml = \""
+      },
+      {
+        "row": 14,
+        "rowsha": "32DgpMDE1qWqKv9C8rAjgxhAltxpQRdBqMz5cxtXyGU=",
+        "originContent": "        - !Newtype 1",
+        "translatedContent": "        - !Newtype 1"
+      },
+      {
+        "row": 15,
+        "rowsha": "mbo3NCny0Sroc5eeKwVJHcgffa4cMCh7rxkHXK7gINs=",
+        "originContent": "        - !Tuple [0, 0, 0]",
+        "translatedContent": "        - !Tuple [0, 0, 0]"
+      },
+      {
+        "row": 16,
+        "rowsha": "ohmDQHPZ3Lx0iVCa5o3myNcTc9OUag6OmWvHVLxZ9hE=",
+        "originContent": "        - !Struct {x: 1.0, y: 2.0}",
+        "translatedContent": "        - !Struct {x: 1.0, y: 2.0}"
+      },
+      {
+        "row": 17,
+        "rowsha": "pMqt8nqlXVv482PxBhIKyM/oXD/8Y/Ad/7/u7qPIENE=",
+        "originContent": "    \";",
+        "translatedContent": "    \";"
+      },
+      {
+        "row": 18,
+        "rowsha": "bv8ofz0D2gRLNQlKhXMO7gZDQFbX5lfOgyArRLlDa98=",
+        "originContent": "    let values: Vec<Enum> = serde_yaml_ng::from_str(yaml).unwrap();",
+        "translatedContent": "    let values: Vec<Enum> = serde_yaml_ng::from_str(yaml).unwrap();"
+      },
+      {
+        "row": 19,
+        "rowsha": "4nCtMKf9dyI9WGeIGv+CC2LoiWxBYbeQp5lhjLwU3MM=",
+        "originContent": "    assert_eq!(values[0], Enum::Newtype(1));",
+        "translatedContent": "    assert_eq!(values[0], Enum::Newtype(1));"
+      },
+      {
+        "row": 20,
+        "rowsha": "xnMw4dixIAUhIw7/wghs/0HGttjlu75I6dWcf3S4D8c=",
+        "originContent": "    assert_eq!(values[1], Enum::Tuple(0, 0, 0));",
+        "translatedContent": "    assert_eq!(values[1], Enum::Tuple(0, 0, 0));"
+      },
+      {
+        "row": 21,
+        "rowsha": "7ouVcYj6jeJFaP7rpHjBj2iWX+RfjTAkoNfz7XrLXEg=",
+        "originContent": "    assert_eq!(values[2], Enum::Struct { x: 1.0, y: 2.0 });",
+        "translatedContent": "    assert_eq!(values[2], Enum::Struct { x: 1.0, y: 2.0 });"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "G25xPmzDzOPOc2Kd2TbLCoJdnAz+KOH9I1RqXpVaJ24=",
+        "originContent": "    // The last two in YAML's block style instead:",
+        "translatedContent": "    // The last two in YAML's block style instead:"
+      },
+      {
+        "row": 24,
+        "rowsha": "PuEZQxo/z3rX17B20NLp9bwOw0OrvgedYKbqmghlAlM=",
+        "originContent": "    let yaml = \"",
+        "translatedContent": "    let yaml = \""
+      },
+      {
+        "row": 25,
+        "rowsha": "9JzLIpMuzlXw6KLO79jjdiUrwIzngcRWggKi3i6vSf4=",
+        "originContent": "        - !Tuple",
+        "translatedContent": "        - !Tuple"
+      },
+      {
+        "row": 26,
+        "rowsha": "z3rVHs5YC4+ueHKMEc2saJNrjk38czTtyQatgJ7hKcM=",
+        "originContent": "          - 0",
+        "translatedContent": "          - 0"
+      },
+      {
+        "row": 27,
+        "rowsha": "z3rVHs5YC4+ueHKMEc2saJNrjk38czTtyQatgJ7hKcM=",
+        "originContent": "          - 0",
+        "translatedContent": "          - 0"
+      },
+      {
+        "row": 28,
+        "rowsha": "z3rVHs5YC4+ueHKMEc2saJNrjk38czTtyQatgJ7hKcM=",
+        "originContent": "          - 0",
+        "translatedContent": "          - 0"
+      },
+      {
+        "row": 29,
+        "rowsha": "r0lxChYGGqvlRIj9rm7jEjqD5JtoE7d2DCcMiRVl+kY=",
+        "originContent": "        - !Struct",
+        "translatedContent": "        - !Struct"
+      },
+      {
+        "row": 30,
+        "rowsha": "9VYOSaNACHNj0Ie7hhqWtp4CPW3ayGfaG03nD4PLehA=",
+        "originContent": "          x: 1.0",
+        "translatedContent": "          x: 1.0"
+      },
+      {
+        "row": 31,
+        "rowsha": "R8sYwtPRqUBrPWPqXJFa7eQhgyumH26UU9EgVTTrR6E=",
+        "originContent": "          y: 2.0",
+        "translatedContent": "          y: 2.0"
+      },
+      {
+        "row": 32,
+        "rowsha": "pMqt8nqlXVv482PxBhIKyM/oXD/8Y/Ad/7/u7qPIENE=",
+        "originContent": "    \";",
+        "translatedContent": "    \";"
+      },
+      {
+        "row": 33,
+        "rowsha": "bv8ofz0D2gRLNQlKhXMO7gZDQFbX5lfOgyArRLlDa98=",
+        "originContent": "    let values: Vec<Enum> = serde_yaml_ng::from_str(yaml).unwrap();",
+        "translatedContent": "    let values: Vec<Enum> = serde_yaml_ng::from_str(yaml).unwrap();"
+      },
+      {
+        "row": 34,
+        "rowsha": "fnJWfK8o1fjgHsaxwvkUFeR6icPcDhumAx2mfKCA2xQ=",
+        "originContent": "    assert_eq!(values[0], Enum::Tuple(0, 0, 0));",
+        "translatedContent": "    assert_eq!(values[0], Enum::Tuple(0, 0, 0));"
+      },
+      {
+        "row": 35,
+        "rowsha": "ozGsevpzzVApZ0jYvGLL/SC+P6NHoiPXkwmUnXEUMzY=",
+        "originContent": "    assert_eq!(values[1], Enum::Struct { x: 1.0, y: 2.0 });",
+        "translatedContent": "    assert_eq!(values[1], Enum::Struct { x: 1.0, y: 2.0 });"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "mcooW9Vo5rp9eZouQDF0PZZtfask51HTZtiDSpj2TGk=",
+        "originContent": "    // Variants with no data can be written using !Tag or just the string name.",
+        "translatedContent": "    // Variants with no data can be written using !Tag or just the string name."
+      },
+      {
+        "row": 38,
+        "rowsha": "PuEZQxo/z3rX17B20NLp9bwOw0OrvgedYKbqmghlAlM=",
+        "originContent": "    let yaml = \"",
+        "translatedContent": "    let yaml = \""
+      },
+      {
+        "row": 39,
+        "rowsha": "5aq/hFFEObedDRh8sIeU/Me30xxh8reYEfr2h+Ukkg8=",
+        "originContent": "        - Unit  # serialization produces this one",
+        "translatedContent": "        - Unit  # serialization produces this one"
+      },
+      {
+        "row": 40,
+        "rowsha": "0y/ANKY46DpE2L3jEGkMlxgMBFwm8/hANia4+SMxEEw=",
+        "originContent": "        - !Unit",
+        "translatedContent": "        - !Unit"
+      },
+      {
+        "row": 41,
+        "rowsha": "pMqt8nqlXVv482PxBhIKyM/oXD/8Y/Ad/7/u7qPIENE=",
+        "originContent": "    \";",
+        "translatedContent": "    \";"
+      },
+      {
+        "row": 42,
+        "rowsha": "bv8ofz0D2gRLNQlKhXMO7gZDQFbX5lfOgyArRLlDa98=",
+        "originContent": "    let values: Vec<Enum> = serde_yaml_ng::from_str(yaml).unwrap();",
+        "translatedContent": "    let values: Vec<Enum> = serde_yaml_ng::from_str(yaml).unwrap();"
+      },
+      {
+        "row": 43,
+        "rowsha": "oU1KvFyXFR4N9V2HDz1xAqNSZmmUwMJhw0PK5yHVodY=",
+        "originContent": "    assert_eq!(values[0], Enum::Unit);",
+        "translatedContent": "    assert_eq!(values[0], Enum::Unit);"
+      },
+      {
+        "row": 44,
+        "rowsha": "F6ev0mEh+LN81Kft+rjsXNNnhtzMmcA6YvdsseGyUXE=",
+        "originContent": "    assert_eq!(values[1], Enum::Unit);",
+        "translatedContent": "    assert_eq!(values[1], Enum::Unit);"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "rAUqQAP4UmkRuYe0p/DkOwHWByDOAofdjlGWpjFS8LY=",
+        "originContent": "    Ok(())",
+        "translatedContent": "    Ok(())"
+      },
+      {
+        "row": 47,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 48,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Why?\n\n### Original: May 2024\n\n*(This is out of date, provided for historical context, see the next update)*\n\nI haven't found any good fork as of the start of this project. The best candidate was\n[serde\\_yml](https://github.com/sebastienrousseau/serde_yml) which is based on\n[a giant \"Initial commit\" from the main maintainer](https://github.com/sebastienrousseau/serde_yml/commit/4312d4a56225b223410b5133af571fd13e62f18a).\nThis is the type of practices which leads to [security disasters](https://en.wikipedia.org/wiki/XZ_Utils_backdoor).\n\nI don't want to fight with people about their practices, that's why I'm\nmaintaining this library for myself, and for the rust ecosystem as a whole.\nAs we say in French: \"*You are never better served than by yourself*\". 😉\n\nUse it, don't use it, I don't care. I'll try to fix as many bugs as I can.\nI'll accept pull requests if they're reasonable or easy to work with.\n\n### Update: July 2025\n\nThere was a huge backlash against\n[serde\\_yml](https://github.com/sebastienrousseau/serde\\_yml) on [Twitter/X by\nDavid Tolnay, the original author of serde-yaml](https://xcancel.com/davidtolnay/status/1883906113428676938).\n\nA copy of their tweet is provided here in case\n[xcancel.com](https://xcancel.com/) gets shut down. (By the way, xcancel.com accepts donations)\n\n> David Tolnay (@davidtolnay) - Jan 27 2025\n>\n> Not long ago, I used to have a more optimistic impression of Rust users. I\n> would not have guessed that so many otherwise-judicious people would go for\n> blatantly AI-\"maintained\" Rust libraries.\n>\n> The `serde_yml` crate is a fork of a high-quality but unmaintained library.\n> In the fork, the AI has taken initiative to add a big heap of stuff that is\n> variously complete nonsense ([docs.rs/serde_yml/0.0.11/ser…](https://docs.rs/serde_yml/0.0.11/serde_yml/macro.macro_get_field.html),\n> [docs.rs/serde_yml/0.0.11/src…](https://docs.rs/serde_yml/0.0.11/src/serde_yml/macros/macro_get_field.rs.html#14-49))\n> or unsound ([docs.rs/serde_yml/0.0.11/ser…](https://docs.rs/serde_yml/0.0.11/serde_yml/ser/struct.Serializer.html#structfield.emitter)). On\n> top of this, the crate's documentation has been broken in docs.rs for the last",
+    "ContentSha": "lJjfIv/RfpcHRQlLFHYKWLUT8zpwh/nBaiYRwDIuDXw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Why?\n\n### Original: May 2024\n\n*(This is out of date, provided for historical context, see the next update)*\n\nI haven't found any good fork as of the start of this project. The best candidate was\n[serde\\_yml](https://github.com/sebastienrousseau/serde_yml) which is based on\n[a giant \"Initial commit\" from the main maintainer](https://github.com/sebastienrousseau/serde_yml/commit/4312d4a56225b223410b5133af571fd13e62f18a).\nThis is the type of practices which leads to [security disasters](https://en.wikipedia.org/wiki/XZ_Utils_backdoor).\n\nI don't want to fight with people about their practices, that's why I'm\nmaintaining this library for myself, and for the rust ecosystem as a whole.\nAs we say in French: \"*You are never better served than by yourself*\". 😉\n\nUse it, don't use it, I don't care. I'll try to fix as many bugs as I can.\nI'll accept pull requests if they're reasonable or easy to work with.\n\n### Update: July 2025\n\nThere was a huge backlash against\n[serde\\_yml](https://github.com/sebastienrousseau/serde\\_yml) on [Twitter/X by\nDavid Tolnay, the original author of serde-yaml](https://xcancel.com/davidtolnay/status/1883906113428676938).\n\nA copy of their tweet is provided here in case\n[xcancel.com](https://xcancel.com/) gets shut down. (By the way, xcancel.com accepts donations)\n\n> David Tolnay (@davidtolnay) - Jan 27 2025\n>\n> Not long ago, I used to have a more optimistic impression of Rust users. I\n> would not have guessed that so many otherwise-judicious people would go for\n> blatantly AI-\"maintained\" Rust libraries.\n>\n> The `serde_yml` crate is a fork of a high-quality but unmaintained library.\n> In the fork, the AI has taken initiative to add a big heap of stuff that is\n> variously complete nonsense ([docs.rs/serde_yml/0.0.11/ser…](https://docs.rs/serde_yml/0.0.11/serde_yml/macro.macro_get_field.html),\n> [docs.rs/serde_yml/0.0.11/src…](https://docs.rs/serde_yml/0.0.11/src/serde_yml/macros/macro_get_field.rs.html#14-49))\n> or unsound ([docs.rs/serde_yml/0.0.11/ser…](https://docs.rs/serde_yml/0.0.11/serde_yml/ser/struct.Serializer.html#structfield.emitter)). On\n> top of this, the crate's documentation has been broken in docs.rs for the last",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "VImQy92NQhLiczhrQfIHyWbYrn1cJlaIVIHNbgCrmG8=",
+        "originContent": "## Why?",
+        "translatedContent": "## Why?"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yzeGVMCsisP3K9z0N+Y8Q3D3+VMNCkfOscxUV1mvqCQ=",
+        "originContent": "### Original: May 2024",
+        "translatedContent": "### Original: May 2024"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "5lcmdkkWVMnsIsh/HmZg0Q2C0D3F/waaAtGdvclJeiI=",
+        "originContent": "*(This is out of date, provided for historical context, see the next update)*",
+        "translatedContent": "*(This is out of date, provided for historical context, see the next update)*"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "I5ZstwujjgPKtlO0nc4fV/jfOslF7dau+yr6xF3J7X0=",
+        "originContent": "I haven't found any good fork as of the start of this project. The best candidate was",
+        "translatedContent": "I haven't found any good fork as of the start of this project. The best candidate was"
+      },
+      {
+        "row": 9,
+        "rowsha": "7d/5j/4QRhOW/fkhcf8RGHrRuTRq2FMbSwYd92H5n5I=",
+        "originContent": "[serde\\_yml](https://github.com/sebastienrousseau/serde_yml) which is based on",
+        "translatedContent": "[serde\\_yml](https://github.com/sebastienrousseau/serde_yml) which is based on"
+      },
+      {
+        "row": 10,
+        "rowsha": "yQJtta3RsB644ZveY6KlQbtw9BGW3F6RKq4qLF7czlg=",
+        "originContent": "[a giant \"Initial commit\" from the main maintainer](https://github.com/sebastienrousseau/serde_yml/commit/4312d4a56225b223410b5133af571fd13e62f18a).",
+        "translatedContent": "[a giant \"Initial commit\" from the main maintainer](https://github.com/sebastienrousseau/serde_yml/commit/4312d4a56225b223410b5133af571fd13e62f18a)."
+      },
+      {
+        "row": 11,
+        "rowsha": "Mq6ZIdQWupw4t2NOpYv5HNWjRFleRWWXr0suhnWwlds=",
+        "originContent": "This is the type of practices which leads to [security disasters](https://en.wikipedia.org/wiki/XZ_Utils_backdoor).",
+        "translatedContent": "This is the type of practices which leads to [security disasters](https://en.wikipedia.org/wiki/XZ_Utils_backdoor)."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "63MaliO6AE6rqACwrJBpNQDkrwjqDRtemXk3QVcW5Ck=",
+        "originContent": "I don't want to fight with people about their practices, that's why I'm",
+        "translatedContent": "I don't want to fight with people about their practices, that's why I'm"
+      },
+      {
+        "row": 14,
+        "rowsha": "2MHnDd8rB1pqqrQvt29r+8BbVNEJN8srgwsY+NWsVG8=",
+        "originContent": "maintaining this library for myself, and for the rust ecosystem as a whole.",
+        "translatedContent": "maintaining this library for myself, and for the rust ecosystem as a whole."
+      },
+      {
+        "row": 15,
+        "rowsha": "039xoFa/GMy2l9ISQ7cc1DqyZlno+RnbZN/r3vXjTXg=",
+        "originContent": "As we say in French: \"*You are never better served than by yourself*\". 😉",
+        "translatedContent": "As we say in French: \"*You are never better served than by yourself*\". 😉"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "UOjpqUNhOwkDJmVCuwwlEM0TZ756i5wmHKAUueGJDbA=",
+        "originContent": "Use it, don't use it, I don't care. I'll try to fix as many bugs as I can.",
+        "translatedContent": "Use it, don't use it, I don't care. I'll try to fix as many bugs as I can."
+      },
+      {
+        "row": 18,
+        "rowsha": "CY6s3X5EAuLWLleEVBRPZWxbUwgVPCcQ5w4xr7nEQoA=",
+        "originContent": "I'll accept pull requests if they're reasonable or easy to work with.",
+        "translatedContent": "I'll accept pull requests if they're reasonable or easy to work with."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "5TYmkoc3RtXCRZGhsVSwzV+mD/WIG3DCBOX3Tx8VWeY=",
+        "originContent": "### Update: July 2025",
+        "translatedContent": "### Update: July 2025"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "AiIpO9GMv7aghVn2KClyOQoGjLrw9SKD+93lPUTRxgw=",
+        "originContent": "There was a huge backlash against",
+        "translatedContent": "There was a huge backlash against"
+      },
+      {
+        "row": 23,
+        "rowsha": "mfKjw2Rimkkwrz5h1tZJBIo1ybsDyiLyBnCo8Q0lCjw=",
+        "originContent": "[serde\\_yml](https://github.com/sebastienrousseau/serde\\_yml) on [Twitter/X by",
+        "translatedContent": "[serde\\_yml](https://github.com/sebastienrousseau/serde\\_yml) on [Twitter/X by"
+      },
+      {
+        "row": 24,
+        "rowsha": "smHNr/PwsQ/uRkJrW6F9Mqjo6gTfqIX5Yswdw6SG2p8=",
+        "originContent": "David Tolnay, the original author of serde-yaml](https://xcancel.com/davidtolnay/status/1883906113428676938).",
+        "translatedContent": "David Tolnay, the original author of serde-yaml](https://xcancel.com/davidtolnay/status/1883906113428676938)."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "dcpDbwONIV2kia4BY3z9xaVSBa4gxKun5do+B5q2nCU=",
+        "originContent": "A copy of their tweet is provided here in case",
+        "translatedContent": "A copy of their tweet is provided here in case"
+      },
+      {
+        "row": 27,
+        "rowsha": "f8uOXpwiTG82yVNbwZ8VZu1H+zJiNlCBuC4fiY/nraY=",
+        "originContent": "[xcancel.com](https://xcancel.com/) gets shut down. (By the way, xcancel.com accepts donations)",
+        "translatedContent": "[xcancel.com](https://xcancel.com/) gets shut down. (By the way, xcancel.com accepts donations)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "Eky4MDrdiThaMWNbO1N1+dTSDuCxNURJ9at+Jt7tlIY=",
+        "originContent": "> David Tolnay (@davidtolnay) - Jan 27 2025",
+        "translatedContent": "> David Tolnay (@davidtolnay) - Jan 27 2025"
+      },
+      {
+        "row": 30,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 31,
+        "rowsha": "C0zp70wnoaLgG21pXkkvsEb6hSZHyHKSgGdHRfkmqUQ=",
+        "originContent": "> Not long ago, I used to have a more optimistic impression of Rust users. I",
+        "translatedContent": "> Not long ago, I used to have a more optimistic impression of Rust users. I"
+      },
+      {
+        "row": 32,
+        "rowsha": "yy7hCXUYKps7Li56A0rujrtvASiu+MW9SGeaDmEfegk=",
+        "originContent": "> would not have guessed that so many otherwise-judicious people would go for",
+        "translatedContent": "> would not have guessed that so many otherwise-judicious people would go for"
+      },
+      {
+        "row": 33,
+        "rowsha": "ltaSUHex9PlkrawSx7fD59pnCKSUUcFxpHvh3Cbbngo=",
+        "originContent": "> blatantly AI-\"maintained\" Rust libraries.",
+        "translatedContent": "> blatantly AI-\"maintained\" Rust libraries."
+      },
+      {
+        "row": 34,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 35,
+        "rowsha": "1H34JOhhz6UHaMJZ2rBIUXZoEF1rUwDCdYrbLpPypbc=",
+        "originContent": "> The `serde_yml` crate is a fork of a high-quality but unmaintained library.",
+        "translatedContent": "> The `serde_yml` crate is a fork of a high-quality but unmaintained library."
+      },
+      {
+        "row": 36,
+        "rowsha": "DMAdVl9YTk8btkFItRQ5S4BXdRJA/ynK711Bz58TMd0=",
+        "originContent": "> In the fork, the AI has taken initiative to add a big heap of stuff that is",
+        "translatedContent": "> In the fork, the AI has taken initiative to add a big heap of stuff that is"
+      },
+      {
+        "row": 37,
+        "rowsha": "565P3nPLFitCX4+Bv4lS4FOUBcx6EBLIGL//1nnRNwk=",
+        "originContent": "> variously complete nonsense ([docs.rs/serde_yml/0.0.11/ser…](https://docs.rs/serde_yml/0.0.11/serde_yml/macro.macro_get_field.html),",
+        "translatedContent": "> variously complete nonsense ([docs.rs/serde_yml/0.0.11/ser…](https://docs.rs/serde_yml/0.0.11/serde_yml/macro.macro_get_field.html),"
+      },
+      {
+        "row": 38,
+        "rowsha": "WIfsaeKYLVwPJxQwvPtyVLT+FNyH2UHjr5O+12nDFYo=",
+        "originContent": "> [docs.rs/serde_yml/0.0.11/src…](https://docs.rs/serde_yml/0.0.11/src/serde_yml/macros/macro_get_field.rs.html#14-49))",
+        "translatedContent": "> [docs.rs/serde_yml/0.0.11/src…](https://docs.rs/serde_yml/0.0.11/src/serde_yml/macros/macro_get_field.rs.html#14-49))"
+      },
+      {
+        "row": 39,
+        "rowsha": "fXWt9+3KhzGnKEC+p7pqfU38WB/3cpWXW7pjb5Liol0=",
+        "originContent": "> or unsound ([docs.rs/serde_yml/0.0.11/ser…](https://docs.rs/serde_yml/0.0.11/serde_yml/ser/struct.Serializer.html#structfield.emitter)). On",
+        "translatedContent": "> or unsound ([docs.rs/serde_yml/0.0.11/ser…](https://docs.rs/serde_yml/0.0.11/serde_yml/ser/struct.Serializer.html#structfield.emitter)). On"
+      },
+      {
+        "row": 40,
+        "rowsha": "sAiPnMoFI/x/tYFcar5ZLQWt78JoA5rcAstm8gCBYxg=",
+        "originContent": "> top of this, the crate's documentation has been broken in docs.rs for the last",
+        "translatedContent": "> top of this, the crate's documentation has been broken in docs.rs for the last"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "> 5 months because AI hallucinated a nonexistent rustdoc flag into the crate's\n> configuration.\n>\n> And yet 134 other published packages have chosen to adopt this? Including\n> high-profile competently maintained projects like Jiff (for tests only),\n> axodotdev, Wasmer, MiniJinja, and Holochain. This does not bode well.\n>\n> The bar for someone to do better at a YAML library is so low.\n\nAttached to this tweet was the following code:\n",
+    "ContentSha": "45Z0lHJcmr4lV9outgapS2zcY2Aypr8NwL4RLf0XN9g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> 5 months because AI hallucinated a nonexistent rustdoc flag into the crate's\n> configuration.\n>\n> And yet 134 other published packages have chosen to adopt this? Including\n> high-profile competently maintained projects like Jiff (for tests only),\n> axodotdev, Wasmer, MiniJinja, and Holochain. This does not bode well.\n>\n> The bar for someone to do better at a YAML library is so low.\n\nAttached to this tweet was the following code:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "l0sdzwVE4xFlmJR+d9cYjEXKk5s/x1s/H2c8k8n6Ke0=",
+        "originContent": "> 5 months because AI hallucinated a nonexistent rustdoc flag into the crate's",
+        "translatedContent": "> 5 months because AI hallucinated a nonexistent rustdoc flag into the crate's"
+      },
+      {
+        "row": 2,
+        "rowsha": "kJYvUuL+1WZgrw4m2yAxW5kouOkxUKTa+b8zvCHuJLs=",
+        "originContent": "> configuration.",
+        "translatedContent": "> configuration."
+      },
+      {
+        "row": 3,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 4,
+        "rowsha": "IEKMv34lga+p3vnTD/WC2Ynr2rUjDt3j4UsDJmY6Jek=",
+        "originContent": "> And yet 134 other published packages have chosen to adopt this? Including",
+        "translatedContent": "> And yet 134 other published packages have chosen to adopt this? Including"
+      },
+      {
+        "row": 5,
+        "rowsha": "MLnhZTYmG/dvfA7t8TVc6gOjFOmlouAO0g4HKN9C9nk=",
+        "originContent": "> high-profile competently maintained projects like Jiff (for tests only),",
+        "translatedContent": "> high-profile competently maintained projects like Jiff (for tests only),"
+      },
+      {
+        "row": 6,
+        "rowsha": "9qxYihkJAgn7lppo2+vG8O8iEwRARIRHt064ZhfMWUQ=",
+        "originContent": "> axodotdev, Wasmer, MiniJinja, and Holochain. This does not bode well.",
+        "translatedContent": "> axodotdev, Wasmer, MiniJinja, and Holochain. This does not bode well."
+      },
+      {
+        "row": 7,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 8,
+        "rowsha": "Ygd57JwGCeEb7XqO9EHBbpxtd3GBD2Xn5MOfWZeenQ0=",
+        "originContent": "> The bar for someone to do better at a YAML library is so low.",
+        "translatedContent": "> The bar for someone to do better at a YAML library is so low."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "I1NmGWe0Op7ERB1QwOjA3EqBQKB8YfT14c2If5EeWlM=",
+        "originContent": "Attached to this tweet was the following code:",
+        "translatedContent": "Attached to this tweet was the following code:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```rust\nfn main() {\n\tlet a = \".\".repeat(100);\n\tlet emitter = {\n\t\tlet mut buf = [0u8; 100];\n\t\tserde_yml::Serializer::new(&mut buf.as_mut_slice()).emitter\n\t};\n\tlet s = \".\".repeat(100);\n\temitter.into_inner().write_all(&[1u8; 100]).unwrap();\n\tprintln!(\"{}\\n{}\", a, s);\n}\n```",
+    "ContentSha": "ROstEENiDEFocxFDc0mrZR/S2NyjIYUZDtEtLjv4wOI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nfn main() {\n\tlet a = \".\".repeat(100);\n\tlet emitter = {\n\t\tlet mut buf = [0u8; 100];\n\t\tserde_yml::Serializer::new(&mut buf.as_mut_slice()).emitter\n\t};\n\tlet s = \".\".repeat(100);\n\temitter.into_inner().write_all(&[1u8; 100]).unwrap();\n\tprintln!(\"{}\\n{}\", a, s);\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "coebvCNPjfi9lAlxF/m6fSZazkMAKTvaJDk8E8Zr3rk=",
+        "originContent": "fn main() {",
+        "translatedContent": "fn main() {"
+      },
+      {
+        "row": 3,
+        "rowsha": "KayW1csiY2tgrKyAf20r4SK8hgNull8hh0KTG8+I58o=",
+        "originContent": "\tlet a = \".\".repeat(100);",
+        "translatedContent": "\tlet a = \".\".repeat(100);"
+      },
+      {
+        "row": 4,
+        "rowsha": "YSKBiCMhqMaT5ulrYAEBBi9BGS3xnna6KKGo5PAI4cc=",
+        "originContent": "\tlet emitter = {",
+        "translatedContent": "\tlet emitter = {"
+      },
+      {
+        "row": 5,
+        "rowsha": "qf68BWlcCPs2CKiQrUguPhbUakJ0mcDrQbG5wSzGWuI=",
+        "originContent": "\t\tlet mut buf = [0u8; 100];",
+        "translatedContent": "\t\tlet mut buf = [0u8; 100];"
+      },
+      {
+        "row": 6,
+        "rowsha": "oMG+cOKCtxQkaTRoR382PkPsECNat3FGa7paf2Rp5m4=",
+        "originContent": "\t\tserde_yml::Serializer::new(&mut buf.as_mut_slice()).emitter",
+        "translatedContent": "\t\tserde_yml::Serializer::new(&mut buf.as_mut_slice()).emitter"
+      },
+      {
+        "row": 7,
+        "rowsha": "1RMP9gS1QhYJo2qDoAEPtGbaa87EgQ+zs/jT/+n89cA=",
+        "originContent": "\t};",
+        "translatedContent": "\t};"
+      },
+      {
+        "row": 8,
+        "rowsha": "D54qHd2vhTvqu9zlC7DOTKv6Ii3UMJIzovLWiMAtrik=",
+        "originContent": "\tlet s = \".\".repeat(100);",
+        "translatedContent": "\tlet s = \".\".repeat(100);"
+      },
+      {
+        "row": 9,
+        "rowsha": "dHNn9JkyjGFfjOq+UPfAQ2Jn368v0oosG6PBU0d2Wwg=",
+        "originContent": "\temitter.into_inner().write_all(&[1u8; 100]).unwrap();",
+        "translatedContent": "\temitter.into_inner().write_all(&[1u8; 100]).unwrap();"
+      },
+      {
+        "row": 10,
+        "rowsha": "3QHrRY9ckB9MsHXKo7F4yAlIRVE+rnskYrqOYrZlKa8=",
+        "originContent": "\tprintln!(\"{}\\n{}\", a, s);",
+        "translatedContent": "\tprintln!(\"{}\\n{}\", a, s);"
+      },
+      {
+        "row": 11,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\nAnd this console output:\n",
+    "ContentSha": "XYBU3Pa1oNgqzN68dKpgQkq61pQ7uzhx1oC0WAGek38=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nAnd this console output:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "LjSwdbB9MukclM95AvmOEzGp3Gjx4VRcs9GuGP2eoG4=",
+        "originContent": "And this console output:",
+        "translatedContent": "And this console output:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```\n$ cargo run --release\n    Finished `release` profile [optimized] target(s) in 0.01s\n     Running `target/release/repro`\nSegmentation fault (core dumped)\n```",
+    "ContentSha": "93XQq9XR5JwZCOZdpJa6Rdp0qf3mu0OHo9v3OlbMWjQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n$ cargo run --release\n    Finished `release` profile [optimized] target(s) in 0.01s\n     Running `target/release/repro`\nSegmentation fault (core dumped)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "zh/mL+niQYWa1oJea8QomUh6tDAku8MqbWCsJxGOBes=",
+        "originContent": "$ cargo run --release",
+        "translatedContent": "$ cargo run --release"
+      },
+      {
+        "row": 3,
+        "rowsha": "csXeFezYunI77cvHex3yXVXnTla5aKOVowI6S/BtTiY=",
+        "originContent": "    Finished `release` profile [optimized] target(s) in 0.01s",
+        "translatedContent": "    Finished `release` profile [optimized] target(s) in 0.01s"
+      },
+      {
+        "row": 4,
+        "rowsha": "KLQIoNjzDBGDaKdocw3QvCNHD+EtgHPi0oCiT/s4Uio=",
+        "originContent": "     Running `target/release/repro`",
+        "translatedContent": "     Running `target/release/repro`"
+      },
+      {
+        "row": 5,
+        "rowsha": "p3ppkW+6ZOAq2CZEkuh+rHxANsTSuO1s/pW06WMD95Y=",
+        "originContent": "Segmentation fault (core dumped)",
+        "translatedContent": "Segmentation fault (core dumped)"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\nSince the backlash, the `serde_yml` folks cleaned up their git history and\nbroke all my links ciritizing their way of doing git. They fixed the one\nthing I was criticizing them for. They rebased on the original serde_yaml\nhistory. However the [vibe coding](https://en.wikipedia.org/wiki/Vibe_coding)\npart doesn't inspire trust on my side, so I'm still maintaining this fork.\n\nAgain, I'm not criticing the `serde_yml` folks, I'm just saying that I,\npersonally, won't use their stuff because I, personally, don't trust them. You\ndo whatever you want.\n\nThis library has seen more and more users, and more and more issue reported as\nwell as pull request. I'm still working on [migrating away from unsafe-libyaml\nto libyaml-safer](https://github.com/acatton/serde-yaml-ng/issues/5). This will\nmake this library unrivaled AFAIK. This is a library for myself, don't expect\nprofessional support please.\n\nThere is another fork of the original `serde_yaml` now, called\n[`serde_norway`](https://docs.rs/serde_norway/latest/serde_norway/). I haven't\nevaluated it, the broken links still referencing the original `serde_yaml`\ndon't inspire trust. But the people behind it look much much much more\ntrustworthy, to me, personally, than the\nAI-[cryptobros](https://en.wiktionary.org/wiki/cryptobro) behind `serde_yml`.\n\n## Financial Support\n\nI'm a guy working out of his garage at night with a well-paid job during the day. I\ndo not need your money. **Please! Instead, give money to\n[David Tolnay](https://github.com/dtolnay).** This guy\n[carries half of the Rust ecosystem on his shoulders](https://crates.io/users/dtolnay),\nand wrote most of the code for this project before I forked it. I'm just a\nloser who jumped on the train, don't give me any money.\n\n## License\n\nLicensed <a href=\"LICENSE-MIT\">MIT license</a>.\n\nAny contribution must be accompanied with a signature of the\n[Developer Certificate of Origin](https://developercertificate.org/),\nby using the `--signoff` flag on `git commit`.",
+    "ContentSha": "NKyRsyZlbsO+1up+7ZT+yOoFPs+YmwupTvXFqReDTO8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Since the backlash, the `serde_yml` folks cleaned up their git history and  \nbroke all my links criticizing their way of doing git. They fixed the one  \nthing I was criticizing them for. They rebased on the original serde_yaml  \nhistory. However the [vibe coding](https://en.wikipedia.org/wiki/Vibe_coding)  \npart doesn't inspire trust on my side, so I'm still maintaining this fork.  \n\nAgain, I'm not criticizing the `serde_yml` folks, I'm just saying that I,  \npersonally, won't use their stuff because I, personally, don't trust them. You  \ndo whatever you want.  \n\nThis library has seen more and more users, and more and more issues reported as  \nwell as pull requests. I'm still working on [migrating away from unsafe-libyaml  \nto libyaml-safer](https://github.com/acatton/serde-yaml-ng/issues/5). This will  \nmake this library unrivaled AFAIK. This is a library for myself, don't expect  \nprofessional support please.  \n\nThere is another fork of the original `serde_yaml` now, called  \n[`serde_norway`](https://docs.rs/serde_norway/latest/serde_norway/). I haven't  \nevaluated it, the broken links still referencing the original `serde_yaml`  \ndon't inspire trust. But the people behind it look much much much more  \ntrustworthy, to me, personally, than the  \nAI-[cryptobros](https://en.wiktionary.org/wiki/cryptobro) behind `serde_yml`.  \n\n## Financial Support  \n\nI'm a guy working out of his garage at night with a well-paid job during the day. I  \ndo not need your money. **Please! Instead, give money to  \n[David Tolnay](https://github.com/dtolnay).** This guy  \n[carries half of the Rust ecosystem on his shoulders](https://crates.io/users/dtolnay),  \nand wrote most of the code for this project before I forked it. I'm just a  \nloser who jumped on the train, don't give me any money.  \n\n## License  \n\nLicensed <a href=\"LICENSE-MIT\">MIT license</a>.  \n\nAny contribution must be accompanied with a signature of the  \n[Developer Certificate of Origin](https://developercertificate.org/),  \nby using the `--signoff` flag on `git commit`.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Since the backlash, the `serde_yml` folks cleaned up their git history and  "
+      },
+      {
+        "row": 2,
+        "rowsha": "+G4/ztWrA354ia4VROzZ9d+dQdz8o4va/ql/rCK1sBI=",
+        "originContent": "Since the backlash, the `serde_yml` folks cleaned up their git history and",
+        "translatedContent": "broke all my links criticizing their way of doing git. They fixed the one  "
+      },
+      {
+        "row": 3,
+        "rowsha": "j2EIFS1dBshsnUbGuJs6YBZVP5XJYA8HL9GOldmAqBc=",
+        "originContent": "broke all my links ciritizing their way of doing git. They fixed the one",
+        "translatedContent": "thing I was criticizing them for. They rebased on the original serde_yaml  "
+      },
+      {
+        "row": 4,
+        "rowsha": "pppuAXDYy23sJOwh0zNwwG5p4JAsuEzacELg8XR/7p8=",
+        "originContent": "thing I was criticizing them for. They rebased on the original serde_yaml",
+        "translatedContent": "history. However the [vibe coding](https://en.wikipedia.org/wiki/Vibe_coding)  "
+      },
+      {
+        "row": 5,
+        "rowsha": "MO85k4goSzB0PS/6vGkZcTCcNffGFrItRT6bABTYaoM=",
+        "originContent": "history. However the [vibe coding](https://en.wikipedia.org/wiki/Vibe_coding)",
+        "translatedContent": "part doesn't inspire trust on my side, so I'm still maintaining this fork.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "iCUCXCIlhIY4cxR0KKN+VuDkViN35+wCIiiDoMILEg0=",
+        "originContent": "part doesn't inspire trust on my side, so I'm still maintaining this fork.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Again, I'm not criticizing the `serde_yml` folks, I'm just saying that I,  "
+      },
+      {
+        "row": 8,
+        "rowsha": "RAo6tPPi9XRq8+NhpRLQiKvytCWpn8wUZn43XsjsFMc=",
+        "originContent": "Again, I'm not criticing the `serde_yml` folks, I'm just saying that I,",
+        "translatedContent": "personally, won't use their stuff because I, personally, don't trust them. You  "
+      },
+      {
+        "row": 9,
+        "rowsha": "047PWVHhT00wHhJ1cfVkiyV5d+j9ymBa/r05t1pf2Po=",
+        "originContent": "personally, won't use their stuff because I, personally, don't trust them. You",
+        "translatedContent": "do whatever you want.  "
+      },
+      {
+        "row": 10,
+        "rowsha": "4wg+IOy2cnhqrVCAcLUqPhx73Z1M8JXeTjcOw+pae5g=",
+        "originContent": "do whatever you want.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "This library has seen more and more users, and more and more issues reported as  "
+      },
+      {
+        "row": 12,
+        "rowsha": "i3/5t4KQ3Rjw1VMJJ2K822PBk30iDJ67dTIuH1TXjdM=",
+        "originContent": "This library has seen more and more users, and more and more issue reported as",
+        "translatedContent": "well as pull requests. I'm still working on [migrating away from unsafe-libyaml  "
+      },
+      {
+        "row": 13,
+        "rowsha": "pTeqy2tu+eA3U12Dxz/NrNVRCysDEBuxKM0fRJNo1Gg=",
+        "originContent": "well as pull request. I'm still working on [migrating away from unsafe-libyaml",
+        "translatedContent": "to libyaml-safer](https://github.com/acatton/serde-yaml-ng/issues/5). This will  "
+      },
+      {
+        "row": 14,
+        "rowsha": "w5q/x2U05gqn1f9jDop/irfuQp6pTZlKpIsQRn4tRkQ=",
+        "originContent": "to libyaml-safer](https://github.com/acatton/serde-yaml-ng/issues/5). This will",
+        "translatedContent": "make this library unrivaled AFAIK. This is a library for myself, don't expect  "
+      },
+      {
+        "row": 15,
+        "rowsha": "ZLJcNzaPedp802fXQ3Sd7z3l94oVsvl51MZ9UK5rt3g=",
+        "originContent": "make this library unrivaled AFAIK. This is a library for myself, don't expect",
+        "translatedContent": "professional support please.  "
+      },
+      {
+        "row": 16,
+        "rowsha": "n3thMCVDO9T4frpoJb5N/+HzKo7i8el4qdHE4V80i20=",
+        "originContent": "professional support please.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "There is another fork of the original `serde_yaml` now, called  "
+      },
+      {
+        "row": 18,
+        "rowsha": "qhLKh1BUVXoWsPl2krPlA9b3of8m+dsElx8Avnyh8hM=",
+        "originContent": "There is another fork of the original `serde_yaml` now, called",
+        "translatedContent": "[`serde_norway`](https://docs.rs/serde_norway/latest/serde_norway/). I haven't  "
+      },
+      {
+        "row": 19,
+        "rowsha": "NVgoXUvDdGynId/pX4OAkhRsFhMa4o8sGun2Dks9yPY=",
+        "originContent": "[`serde_norway`](https://docs.rs/serde_norway/latest/serde_norway/). I haven't",
+        "translatedContent": "evaluated it, the broken links still referencing the original `serde_yaml`  "
+      },
+      {
+        "row": 20,
+        "rowsha": "WDO6zCiGNktcUxAphPiEICr7q6ewPuhlRD/dpSnUHao=",
+        "originContent": "evaluated it, the broken links still referencing the original `serde_yaml`",
+        "translatedContent": "don't inspire trust. But the people behind it look much much much more  "
+      },
+      {
+        "row": 21,
+        "rowsha": "nGXObP0Lws6go8xpUegrZYAI4M8V8GbHcXxHnE/3eMg=",
+        "originContent": "don't inspire trust. But the people behind it look much much much more",
+        "translatedContent": "trustworthy, to me, personally, than the  "
+      },
+      {
+        "row": 22,
+        "rowsha": "H6KK6IF+l/oqXSiErcsxA/mvHD4ZIMrYgRNlUFo2DS4=",
+        "originContent": "trustworthy, to me, personally, than the",
+        "translatedContent": "AI-[cryptobros](https://en.wiktionary.org/wiki/cryptobro) behind `serde_yml`.  "
+      },
+      {
+        "row": 23,
+        "rowsha": "JQIyJmPKIgt99Vl1Mn+r3MVeh2M4L6UC/RVtrbyxNR8=",
+        "originContent": "AI-[cryptobros](https://en.wiktionary.org/wiki/cryptobro) behind `serde_yml`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Financial Support  "
+      },
+      {
+        "row": 25,
+        "rowsha": "yG+oiERN1y4XEQF8N84XCEVhwoFjbdAsrUHv7mJfdTo=",
+        "originContent": "## Financial Support",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "I'm a guy working out of his garage at night with a well-paid job during the day. I  "
+      },
+      {
+        "row": 27,
+        "rowsha": "AH85Pze5SYbqegVyQtuNoRTPCP1Z13G/lQC42taX9RQ=",
+        "originContent": "I'm a guy working out of his garage at night with a well-paid job during the day. I",
+        "translatedContent": "do not need your money. **Please! Instead, give money to  "
+      },
+      {
+        "row": 28,
+        "rowsha": "03VLLuUF7tIk9D6J/CQ7DaoWQBBLgTJNdypHTL+zJgI=",
+        "originContent": "do not need your money. **Please! Instead, give money to",
+        "translatedContent": "[David Tolnay](https://github.com/dtolnay).** This guy  "
+      },
+      {
+        "row": 29,
+        "rowsha": "qfBpiaHbea7gahF2pNSkCYIK9mM1KoIRrUdwhFpW1Us=",
+        "originContent": "[David Tolnay](https://github.com/dtolnay).** This guy",
+        "translatedContent": "[carries half of the Rust ecosystem on his shoulders](https://crates.io/users/dtolnay),  "
+      },
+      {
+        "row": 30,
+        "rowsha": "6MCOgUT0ErUXYbRvI0z4skjAzAR0xhFpMXL1IuxV2hU=",
+        "originContent": "[carries half of the Rust ecosystem on his shoulders](https://crates.io/users/dtolnay),",
+        "translatedContent": "and wrote most of the code for this project before I forked it. I'm just a  "
+      },
+      {
+        "row": 31,
+        "rowsha": "3EKmmNx4rY311itT/GpQdQ6liSxjTtmcUWUv8TSKBFE=",
+        "originContent": "and wrote most of the code for this project before I forked it. I'm just a",
+        "translatedContent": "loser who jumped on the train, don't give me any money.  "
+      },
+      {
+        "row": 32,
+        "rowsha": "n1esn0TNf1vTj8wL0zW0Eua3OBk2wBfntx2kw7diqX4=",
+        "originContent": "loser who jumped on the train, don't give me any money.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## License  "
+      },
+      {
+        "row": 34,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Licensed <a href=\"LICENSE-MIT\">MIT license</a>.  "
+      },
+      {
+        "row": 36,
+        "rowsha": "pXP1kLZT4RjkkwXry9M20dZf25guvEyjtw3ZBmNUSrk=",
+        "originContent": "Licensed <a href=\"LICENSE-MIT\">MIT license</a>.",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Any contribution must be accompanied with a signature of the  "
+      },
+      {
+        "row": 38,
+        "rowsha": "TvX0bj4AmmAnEmwvB4kwIHPljfF/TrJNh3jBbyL8lIo=",
+        "originContent": "Any contribution must be accompanied with a signature of the",
+        "translatedContent": "[Developer Certificate of Origin](https://developercertificate.org/),  "
+      },
+      {
+        "row": 39,
+        "rowsha": "0clvIjMXDna9BcXjpNUZ5mG7uEnMwbVPLw+T9Y2cbNE=",
+        "originContent": "[Developer Certificate of Origin](https://developercertificate.org/),",
+        "translatedContent": "by using the `--signoff` flag on `git commit`."
+      },
+      {
+        "row": 40,
+        "rowsha": "ia8XEU/NAZLpxdxMn1/YoomLv1EXfzg2RijPDJ0Lub0=",
+        "originContent": "by using the `--signoff` flag on `git commit`.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

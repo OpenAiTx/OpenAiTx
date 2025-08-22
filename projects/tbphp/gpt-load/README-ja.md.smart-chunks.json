@@ -1,0 +1,3222 @@
+[
+  {
+    "Id": 1,
+    "Content": "# GPT-Load\n\n中文文档 | [English](https://raw.githubusercontent.com/tbphp/gpt-load/main/README_EN.md)\n\n[![Release](https://img.shields.io/github/v/release/tbphp/gpt-load)](https://github.com/tbphp/gpt-load/releases)\n![Go Version](https://img.shields.io/badge/Go-1.23+-blue.svg)\n![License](https://img.shields.io/badge/license-MIT-green.svg)\n\n一个高性能、企业级的 AI 接口透明代理服务，专门为需要集成多种 AI 服务的企业和开发者设计。采用 Go 语言开发，具备智能密钥管理、负载均衡和完善的监控功能，专为高并发生产环境而设计。\n\n详细请查看[官方文档](https://www.gpt-load.com/docs)\n\n<a href=\"https://hellogithub.com/repository/tbphp/gpt-load\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=554dc4c46eb14092b9b0c56f1eb9021c&claim_uid=Qlh8vzrWJ0HCneG\" alt=\"Featured｜HelloGitHub\" style=\"width: 250px; height: 54px;\" width=\"250\" height=\"54\" /></a>\n\n## 功能特性\n\n- **透明代理**: 完全保留原生 API 格式，支持 OpenAI、Google Gemini 和 Anthropic Claude 等多种格式\n- **智能密钥管理**: 高性能密钥池，支持分组管理、自动轮换和故障恢复\n- **负载均衡**: 支持多上游端点的加权负载均衡，提升服务可用性\n- **智能故障处理**: 自动密钥黑名单管理和恢复机制，确保服务连续性\n- **动态配置**: 系统设置和分组配置支持热重载，无需重启即可生效\n- **企业级架构**: 分布式主从部署，支持水平扩展和高可用\n- **现代化管理**: 基于 Vue 3 的 Web 管理界面，直观易用\n- **全面监控**: 实时统计、健康检查、详细请求日志\n- **高性能设计**: 零拷贝流式传输、连接池复用、原子操作\n- **生产就绪**: 优雅关闭、错误恢复、完善的安全机制\n- **双重认证体系**: 管理端与代理端认证分离，代理认证支持全局和分组级别密钥\n\n## 支持的 AI 服务\n\nGPT-Load 作为透明代理服务，完整保留各 AI 服务商的原生 API 格式：\n\n- **OpenAI 格式**: 官方 OpenAI API、Azure OpenAI、以及其他 OpenAI 兼容服务\n- **Google Gemini 格式**: Gemini Pro、Gemini Pro Vision 等模型的原生 API\n- **Anthropic Claude 格式**: Claude 系列模型，支持高质量的对话和文本生成\n\n## 快速开始\n\n### 环境要求\n",
+    "ContentSha": "kxoTECTCj7e1PidkGAM79UjA6IAoAShCgbHaqZfX35M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# GPT-Load\n\n中文文档 | [English](https://raw.githubusercontent.com/tbphp/gpt-load/main/README_EN.md)\n\n[![Release](https://img.shields.io/github/v/release/tbphp/gpt-load)](https://github.com/tbphp/gpt-load/releases)\n![Go Version](https://img.shields.io/badge/Go-1.23+-blue.svg)\n![License](https://img.shields.io/badge/license-MIT-green.svg)\n\n高性能かつエンタープライズ向けのAIインターフェース透明プロキシサービスであり、多様なAIサービスを統合する必要がある企業や開発者向けに設計されています。Go言語で開発されており、スマートなキー管理、負荷分散、充実した監視機能を備え、高い同時処理環境に最適化されています。\n\n詳細は[公式ドキュメント](https://www.gpt-load.com/docs)をご覧ください。\n\n<a href=\"https://hellogithub.com/repository/tbphp/gpt-load\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=554dc4c46eb14092b9b0c56f1eb9021c&claim_uid=Qlh8vzrWJ0HCneG\" alt=\"Featured｜HelloGitHub\" style=\"width: 250px; height: 54px;\" width=\"250\" height=\"54\" /></a>\n\n## 機能特徴\n\n- **透明プロキシ**: ネイティブAPIフォーマットを完全に保持し、OpenAI、Google Gemini、Anthropic Claudeなど複数のフォーマットをサポート\n- **スマートキー管理**: 高性能なキー・プール、グループ管理、自動ローテーションおよび障害復旧をサポート\n- **負荷分散**: 複数の上流エンドポイントに対する加重負荷分散をサポートし、サービスの可用性を向上\n- **スマート障害処理**: 自動キーのブラックリスト管理と回復機構によりサービスの継続性を保証\n- **動的設定**: システム設定およびグループ設定はホットリロード対応で、再起動不要で反映可能\n- **エンタープライズアーキテクチャ**: 分散マスター・スレーブ展開、水平スケールと高可用性をサポート\n- **モダン管理**: Vue 3ベースのWeb管理画面で直感的かつ使いやすい\n- **総合監視**: リアルタイム統計、ヘルスチェック、詳細なリクエストログ\n- **高性能設計**: ゼロコピーのストリーム伝送、コネクションプール再利用、アトミック操作\n- **本番対応**: 優雅なシャットダウン、エラーリカバリー、充実したセキュリティ機構\n- **二重認証体系**: 管理側とプロキシ側の認証分離、プロキシ認証はグローバルおよびグループレベルのキーをサポート\n\n## 対応AIサービス\n\nGPT-Loadは透明プロキシサービスとして、各AIベンダーのネイティブAPIフォーマットを完全に保持します：\n\n- **OpenAIフォーマット**: 公式OpenAI API、Azure OpenAI、およびその他のOpenAI互換サービス\n- **Google Geminiフォーマット**: Gemini Pro、Gemini Pro VisionなどのモデルのネイティブAPI\n- **Anthropic Claudeフォーマット**: Claudeシリーズモデル、高品質な対話およびテキスト生成をサポート\n\n## クイックスタート\n\n### 環境要件\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RjOLcLkO7+fvPkq4aQh5H7CPq0qnLheFyagljzXpynk=",
+        "originContent": "# GPT-Load",
+        "translatedContent": "# GPT-Load"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "JZjvyo0iHFNfqPpgF2rQ8RsoBgFtk7blgomQog0W1CQ=",
+        "originContent": "中文文档 | [English](https://raw.githubusercontent.com/tbphp/gpt-load/main/README_EN.md)",
+        "translatedContent": "中文文档 | [English](https://raw.githubusercontent.com/tbphp/gpt-load/main/README_EN.md)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "kEDsE/E6+va97Ob2qiNX4Xv49dR8YXxj7UWxdU/gIPE=",
+        "originContent": "[![Release](https://img.shields.io/github/v/release/tbphp/gpt-load)](https://github.com/tbphp/gpt-load/releases)",
+        "translatedContent": "[![Release](https://img.shields.io/github/v/release/tbphp/gpt-load)](https://github.com/tbphp/gpt-load/releases)"
+      },
+      {
+        "row": 6,
+        "rowsha": "/G4+FGJjboAveSkZm2cYlAI56Af35DHPZSIwfsSli2c=",
+        "originContent": "![Go Version](https://img.shields.io/badge/Go-1.23+-blue.svg)",
+        "translatedContent": "![Go Version](https://img.shields.io/badge/Go-1.23+-blue.svg)"
+      },
+      {
+        "row": 7,
+        "rowsha": "dPwh7/zmXLYQA/Vp3ajZE1tjWTO8euValiNDGZm300w=",
+        "originContent": "![License](https://img.shields.io/badge/license-MIT-green.svg)",
+        "translatedContent": "![License](https://img.shields.io/badge/license-MIT-green.svg)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "q/2IxfiY1Ce0ePtJi+z8ppKVs7PXC4lfRXigL81QsAs=",
+        "originContent": "一个高性能、企业级的 AI 接口透明代理服务，专门为需要集成多种 AI 服务的企业和开发者设计。采用 Go 语言开发，具备智能密钥管理、负载均衡和完善的监控功能，专为高并发生产环境而设计。",
+        "translatedContent": "高性能かつエンタープライズ向けのAIインターフェース透明プロキシサービスであり、多様なAIサービスを統合する必要がある企業や開発者向けに設計されています。Go言語で開発されており、スマートなキー管理、負荷分散、充実した監視機能を備え、高い同時処理環境に最適化されています。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "dU80+mZTSv59O6uG8vnZRqc4kAvgq9NvIJDX27+9F7A=",
+        "originContent": "详细请查看[官方文档](https://www.gpt-load.com/docs)",
+        "translatedContent": "詳細は[公式ドキュメント](https://www.gpt-load.com/docs)をご覧ください。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "BsTSLwOuCScZnHg1Kqgx03QdtuCP7fJ40mAbMAWHYnI=",
+        "originContent": "<a href=\"https://hellogithub.com/repository/tbphp/gpt-load\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=554dc4c46eb14092b9b0c56f1eb9021c&claim_uid=Qlh8vzrWJ0HCneG\" alt=\"Featured｜HelloGitHub\" style=\"width: 250px; height: 54px;\" width=\"250\" height=\"54\" /></a>",
+        "translatedContent": "<a href=\"https://hellogithub.com/repository/tbphp/gpt-load\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=554dc4c46eb14092b9b0c56f1eb9021c&claim_uid=Qlh8vzrWJ0HCneG\" alt=\"Featured｜HelloGitHub\" style=\"width: 250px; height: 54px;\" width=\"250\" height=\"54\" /></a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "hcZsKlpSPkTFpH/QegoKHGVWmJDSH48IDfZVw6T3YEk=",
+        "originContent": "## 功能特性",
+        "translatedContent": "## 機能特徴"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "hlIyiXlxX3nzLvO++OscbX2M4QJ4DBxKYI9hkbxydSU=",
+        "originContent": "- **透明代理**: 完全保留原生 API 格式，支持 OpenAI、Google Gemini 和 Anthropic Claude 等多种格式",
+        "translatedContent": "- **透明プロキシ**: ネイティブAPIフォーマットを完全に保持し、OpenAI、Google Gemini、Anthropic Claudeなど複数のフォーマットをサポート"
+      },
+      {
+        "row": 18,
+        "rowsha": "qU3WAqqfZ4+ixP6vHmosqSNmz+ZkeNeatruXs4kRiTQ=",
+        "originContent": "- **智能密钥管理**: 高性能密钥池，支持分组管理、自动轮换和故障恢复",
+        "translatedContent": "- **スマートキー管理**: 高性能なキー・プール、グループ管理、自動ローテーションおよび障害復旧をサポート"
+      },
+      {
+        "row": 19,
+        "rowsha": "tLln96le0SKjk+Ti9rAKuhQZcDvNX1TVFtz00beiEEs=",
+        "originContent": "- **负载均衡**: 支持多上游端点的加权负载均衡，提升服务可用性",
+        "translatedContent": "- **負荷分散**: 複数の上流エンドポイントに対する加重負荷分散をサポートし、サービスの可用性を向上"
+      },
+      {
+        "row": 20,
+        "rowsha": "ljjtSiMwIPmE6vY0FxYebDxqI0E4X7onX7wFX5WRDk4=",
+        "originContent": "- **智能故障处理**: 自动密钥黑名单管理和恢复机制，确保服务连续性",
+        "translatedContent": "- **スマート障害処理**: 自動キーのブラックリスト管理と回復機構によりサービスの継続性を保証"
+      },
+      {
+        "row": 21,
+        "rowsha": "dKTGO4cfnLMYbDUno3vIzcraMEAHdVDrIzJZyAf/E+8=",
+        "originContent": "- **动态配置**: 系统设置和分组配置支持热重载，无需重启即可生效",
+        "translatedContent": "- **動的設定**: システム設定およびグループ設定はホットリロード対応で、再起動不要で反映可能"
+      },
+      {
+        "row": 22,
+        "rowsha": "yk+wdG2EM3g7feF/ciPDZ/he+GtQoLsQ9D1gzu8mPtA=",
+        "originContent": "- **企业级架构**: 分布式主从部署，支持水平扩展和高可用",
+        "translatedContent": "- **エンタープライズアーキテクチャ**: 分散マスター・スレーブ展開、水平スケールと高可用性をサポート"
+      },
+      {
+        "row": 23,
+        "rowsha": "WrtkVpHwOfwk6UqpPDR5yQQpkjBQ8DEBWaqA8V01Ok8=",
+        "originContent": "- **现代化管理**: 基于 Vue 3 的 Web 管理界面，直观易用",
+        "translatedContent": "- **モダン管理**: Vue 3ベースのWeb管理画面で直感的かつ使いやすい"
+      },
+      {
+        "row": 24,
+        "rowsha": "D7W8xCcS3fxCpIUu5zOn8d/aAbgQ6z536Bg7XRCPTt0=",
+        "originContent": "- **全面监控**: 实时统计、健康检查、详细请求日志",
+        "translatedContent": "- **総合監視**: リアルタイム統計、ヘルスチェック、詳細なリクエストログ"
+      },
+      {
+        "row": 25,
+        "rowsha": "vPGXnb0TGK8G6PSR06q/4ERkSPcA5aCa4cvRYNRErMo=",
+        "originContent": "- **高性能设计**: 零拷贝流式传输、连接池复用、原子操作",
+        "translatedContent": "- **高性能設計**: ゼロコピーのストリーム伝送、コネクションプール再利用、アトミック操作"
+      },
+      {
+        "row": 26,
+        "rowsha": "Gk6l0VG0wUt6Ywx1dBSqsto4jNTDOiwKlVO4RAxlhdU=",
+        "originContent": "- **生产就绪**: 优雅关闭、错误恢复、完善的安全机制",
+        "translatedContent": "- **本番対応**: 優雅なシャットダウン、エラーリカバリー、充実したセキュリティ機構"
+      },
+      {
+        "row": 27,
+        "rowsha": "fgxR0lhBgA9Zku+gphDYWS90aM9Zj2cWQpdF6d17lUM=",
+        "originContent": "- **双重认证体系**: 管理端与代理端认证分离，代理认证支持全局和分组级别密钥",
+        "translatedContent": "- **二重認証体系**: 管理側とプロキシ側の認証分離、プロキシ認証はグローバルおよびグループレベルのキーをサポート"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "bs7palGENFJhYME3IIHhLMEwTgoZm6Puvpm/dYjmYB0=",
+        "originContent": "## 支持的 AI 服务",
+        "translatedContent": "## 対応AIサービス"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "h1BlEqCsHzw5/cdrgKShJxfxXW6Un1n3UYdRr5QhghE=",
+        "originContent": "GPT-Load 作为透明代理服务，完整保留各 AI 服务商的原生 API 格式：",
+        "translatedContent": "GPT-Loadは透明プロキシサービスとして、各AIベンダーのネイティブAPIフォーマットを完全に保持します："
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "j0tzSoUKe2UpgRE6P0TnxGaK0D9eTHXbj9MEqp79ajw=",
+        "originContent": "- **OpenAI 格式**: 官方 OpenAI API、Azure OpenAI、以及其他 OpenAI 兼容服务",
+        "translatedContent": "- **OpenAIフォーマット**: 公式OpenAI API、Azure OpenAI、およびその他のOpenAI互換サービス"
+      },
+      {
+        "row": 34,
+        "rowsha": "5oSdd1/kTerkcr9nk9LP/cqrYs2HCaZtiqoZkZYsM48=",
+        "originContent": "- **Google Gemini 格式**: Gemini Pro、Gemini Pro Vision 等模型的原生 API",
+        "translatedContent": "- **Google Geminiフォーマット**: Gemini Pro、Gemini Pro VisionなどのモデルのネイティブAPI"
+      },
+      {
+        "row": 35,
+        "rowsha": "sWmKdTCLP/iHkvNxzvDz/IThvBmHUQqPjxyWOQTKwe4=",
+        "originContent": "- **Anthropic Claude 格式**: Claude 系列模型，支持高质量的对话和文本生成",
+        "translatedContent": "- **Anthropic Claudeフォーマット**: Claudeシリーズモデル、高品質な対話およびテキスト生成をサポート"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "N2Zf5IM5tBDMC3F8L/jU1lr90aB/iqj31z3WwRXmQTU=",
+        "originContent": "## 快速开始",
+        "translatedContent": "## クイックスタート"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "+r2y2uXVS4A9gUZOoxSZy1nkMpyD7saUQ4rPpon3Ucw=",
+        "originContent": "### 环境要求",
+        "translatedContent": "### 環境要件"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- Go 1.23+ (源码构建)\n- Docker (容器化部署)\n- MySQL, PostgreSQL, 或 SQLite (数据库存储)\n- Redis (缓存和分布式协调，可选)\n\n### 方式一：Docker 快速开始\n",
+    "ContentSha": "EJR9A9OU+VfdNE267wV+ekVHVvzyYMLkzimdyhX0pnQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Go 1.23+（ソースコードビルド）\n- Docker（コンテナ化デプロイ）\n- MySQL、PostgreSQL、または SQLite（データベースストレージ）\n- Redis（キャッシュおよび分散調整、オプション）\n\n### 方法1：Dockerクイックスタート\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "y1cF8PkB6HlNQEEYysfO3j+LLZ/N982wt3mxSxDnwxs=",
+        "originContent": "- Go 1.23+ (源码构建)",
+        "translatedContent": "- Go 1.23+（ソースコードビルド）"
+      },
+      {
+        "row": 2,
+        "rowsha": "EolXRSY729gErJyibHRpGu+B98CAvn9RATZ3mkgwjcs=",
+        "originContent": "- Docker (容器化部署)",
+        "translatedContent": "- Docker（コンテナ化デプロイ）"
+      },
+      {
+        "row": 3,
+        "rowsha": "j3nwWeqiGX9dqiv0Bsms1CyZ9HYbmGVcqyIX7gXrcgY=",
+        "originContent": "- MySQL, PostgreSQL, 或 SQLite (数据库存储)",
+        "translatedContent": "- MySQL、PostgreSQL、または SQLite（データベースストレージ）"
+      },
+      {
+        "row": 4,
+        "rowsha": "zZ91gYp69jxdoB5I9XxWXFXcS34jFiJOD2aSGfKpiv8=",
+        "originContent": "- Redis (缓存和分布式协调，可选)",
+        "translatedContent": "- Redis（キャッシュおよび分散調整、オプション）"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Xj6I19PTIZvPwAwRJ2u5uRPPxO8HSo8lN3H8KTLstlI=",
+        "originContent": "### 方式一：Docker 快速开始",
+        "translatedContent": "### 方法1：Dockerクイックスタート"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\ndocker run -d --name gpt-load \\\n    -p 3001:3001 \\\n    -e AUTH_KEY=sk-123456 \\\n    -v \"$(pwd)/data\":/app/data \\\n    ghcr.io/tbphp/gpt-load:latest\n```",
+    "ContentSha": "ZY+bBDc7i6mOOvaTKKRHqQFRKD6R6Yft80T9zz4vEUc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ndocker run -d --name gpt-load \\\n    -p 3001:3001 \\\n    -e AUTH_KEY=sk-123456 \\\n    -v \"$(pwd)/data\":/app/data \\\n    ghcr.io/tbphp/gpt-load:latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Daap3XENd09BoDHhSwesfgu1UQTP7kSCSOwcUpxLSFk=",
+        "originContent": "docker run -d --name gpt-load \\",
+        "translatedContent": "docker run -d --name gpt-load \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "kpxgG+/+yQTJHLBwbuAJJU6WYitlp/ksLSzmneNA/Qg=",
+        "originContent": "    -p 3001:3001 \\",
+        "translatedContent": "    -p 3001:3001 \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "3d7nNPYESNv28E1UfQt0gmVoVgNahuhDmS8jWZUbyeo=",
+        "originContent": "    -e AUTH_KEY=sk-123456 \\",
+        "translatedContent": "    -e AUTH_KEY=sk-123456 \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "KPyuPQXgz+0EJvh8dfUzE9nflZX9icAPSc0T3oq3xWE=",
+        "originContent": "    -v \"$(pwd)/data\":/app/data \\",
+        "translatedContent": "    -v \"$(pwd)/data\":/app/data \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "BleTvokf8KPCChDWkECDfed9G1ByOlxC+7776DhqPRE=",
+        "originContent": "    ghcr.io/tbphp/gpt-load:latest",
+        "translatedContent": "    ghcr.io/tbphp/gpt-load:latest"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n> 使用 `sk-123456` 登录管理界面：<http://localhost:3001>\n\n### 方式二：使用 Docker Compose（推荐）\n\n**安装命令：**\n",
+    "ContentSha": "AAUcGNRTgiRUaLkwa5826ej7VHulmcLUfEboMr3ooa4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> 使用 `sk-123456` ログイン管理画面：<http://localhost:3001>\n\n### 方法2：Docker Composeを使用（推奨）\n\n**インストールコマンド：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "sbrpHhx5suq1vNAf3CEaDH1zJPGEYrgAYAIDqrivEFM=",
+        "originContent": "> 使用 `sk-123456` 登录管理界面：<http://localhost:3001>",
+        "translatedContent": "> 使用 `sk-123456` ログイン管理画面：<http://localhost:3001>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "g+MloDchNv1pVwADyHL3U3CNnoZhHWPe8ceZPcm7ge4=",
+        "originContent": "### 方式二：使用 Docker Compose（推荐）",
+        "translatedContent": "### 方法2：Docker Composeを使用（推奨）"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "6dyr4RQplt/G7IL1AroW7HN/TfH+66NaR9alKS4w6MU=",
+        "originContent": "**安装命令：**",
+        "translatedContent": "**インストールコマンド：**"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\n# 创建目录\nmkdir -p gpt-load && cd gpt-load\n\n# 下载配置文件\nwget https://raw.githubusercontent.com/tbphp/gpt-load/refs/heads/main/docker-compose.yml\nwget -O .env https://raw.githubusercontent.com/tbphp/gpt-load/refs/heads/main/.env.example\n\n# 启动服务\ndocker compose up -d\n```",
+    "ContentSha": "0YR2G5BLP9n1OKpf4Oc8LOH8AmEaWduJZLU4u7cNsPo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# 创建目录\nmkdir -p gpt-load && cd gpt-load\n\n# 下载配置文件\nwget https://raw.githubusercontent.com/tbphp/gpt-load/refs/heads/main/docker-compose.yml\nwget -O .env https://raw.githubusercontent.com/tbphp/gpt-load/refs/heads/main/.env.example\n\n# 启动服务\ndocker compose up -d\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "WQP1b3wVqy/rTM+IUJI3UspD6AkNmaKt9pYCIFiCosI=",
+        "originContent": "# 创建目录",
+        "translatedContent": "# 创建目录"
+      },
+      {
+        "row": 3,
+        "rowsha": "WLi6W/UjnwzHP9UoeCxGzaax4iZMMQWLlPF/0XIbxqo=",
+        "originContent": "mkdir -p gpt-load && cd gpt-load",
+        "translatedContent": "mkdir -p gpt-load && cd gpt-load"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "2peOCyD6pcFRgxQcOHdGVm0LKJK3DZcYIUWdoy2Rmes=",
+        "originContent": "# 下载配置文件",
+        "translatedContent": "# 下载配置文件"
+      },
+      {
+        "row": 6,
+        "rowsha": "pczT63yGJla9tSu9FSMhpM7+Jj146EdhR32uYP7ityM=",
+        "originContent": "wget https://raw.githubusercontent.com/tbphp/gpt-load/refs/heads/main/docker-compose.yml",
+        "translatedContent": "wget https://raw.githubusercontent.com/tbphp/gpt-load/refs/heads/main/docker-compose.yml"
+      },
+      {
+        "row": 7,
+        "rowsha": "BKV0cJZZSZgWAnNROhrelrTJpj6elMTW89z9+cK7ZdE=",
+        "originContent": "wget -O .env https://raw.githubusercontent.com/tbphp/gpt-load/refs/heads/main/.env.example",
+        "translatedContent": "wget -O .env https://raw.githubusercontent.com/tbphp/gpt-load/refs/heads/main/.env.example"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Hm40Mmhtc4qEy5WArx2AWjmNL9ILQhzyXl0t/t+ylZs=",
+        "originContent": "# 启动服务",
+        "translatedContent": "# 启动服务"
+      },
+      {
+        "row": 10,
+        "rowsha": "Mx5NzM1SvqjT2/8dFmacWsyf3foddC+jxQH2dABZqZk=",
+        "originContent": "docker compose up -d",
+        "translatedContent": "docker compose up -d"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n默认安装的是 SQLite 版本，适合轻量单机应用。\n\n如需安装 MySQL, PostgreSQL 及 Redis，请在 `docker-compose.yml` 文件中取消所需服务的注释，并配置好对应的环境配置重启即可。\n\n**其他命令：**\n",
+    "ContentSha": "+ZjGKnPJZld56XFV4FpVaTNFJaX6PCoT067JgxlPv6w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nデフォルトでインストールされているのは SQLite バージョンで、軽量な単一マシンアプリケーションに適しています。\n\nMySQL、PostgreSQL、Redis をインストールする場合は、`docker-compose.yml` ファイル内で必要なサービスのコメントを解除し、対応する環境設定を行ってから再起動してください。\n\n**その他のコマンド：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "m4v+n8I+WNVN9BBH1v/Whjup3/r+6FZsQ7fmE9z5m5E=",
+        "originContent": "默认安装的是 SQLite 版本，适合轻量单机应用。",
+        "translatedContent": "デフォルトでインストールされているのは SQLite バージョンで、軽量な単一マシンアプリケーションに適しています。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "2Ze7i+5MOkr6gafYP3g+/MGfq7Tib8NBp0vO4zmH1mw=",
+        "originContent": "如需安装 MySQL, PostgreSQL 及 Redis，请在 `docker-compose.yml` 文件中取消所需服务的注释，并配置好对应的环境配置重启即可。",
+        "translatedContent": "MySQL、PostgreSQL、Redis をインストールする場合は、`docker-compose.yml` ファイル内で必要なサービスのコメントを解除し、対応する環境設定を行ってから再起動してください。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "6dTpOcEUpAZO1DmUt67euKdGxuwtXnl7LqCzixEn46c=",
+        "originContent": "**其他命令：**",
+        "translatedContent": "**その他のコマンド：**"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\n# 查看服务状态\ndocker compose ps\n\n# 查看日志\ndocker compose logs -f\n\n# 重启服务\ndocker compose down && docker compose up -d\n\n# 更新到最新版本\ndocker compose pull && docker compose down && docker compose up -d\n```",
+    "ContentSha": "8yKn9VZ/63FqtwNwKIG0LtmOcjmcH5OL+xyqhGN5cJo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# 查看服务状态\ndocker compose ps\n\n# 查看日志\ndocker compose logs -f\n\n# 重启服务\ndocker compose down && docker compose up -d\n\n# 更新到最新版本\ndocker compose pull && docker compose down && docker compose up -d\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "yVBmGnAnYuaZT2DGQo0FoVKMpgurLhyziZy19M4WlbU=",
+        "originContent": "# 查看服务状态",
+        "translatedContent": "# 查看服务状态"
+      },
+      {
+        "row": 3,
+        "rowsha": "GemOW/IvTuLsOmrB718/3WRt2K4q3CNEmfbyFtAZlhg=",
+        "originContent": "docker compose ps",
+        "translatedContent": "docker compose ps"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "/LDIaJrKLoosLe3q/9Fllnc+lvaWKYcIQn3ukWeVcqU=",
+        "originContent": "# 查看日志",
+        "translatedContent": "# 查看日志"
+      },
+      {
+        "row": 6,
+        "rowsha": "aBu9qnlWKG/ydQGCAyT5CVKK/iKnaNmA6tRtfAUkQUA=",
+        "originContent": "docker compose logs -f",
+        "translatedContent": "docker compose logs -f"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "1UaepUwIKh0Ndc4k+jI1PHTu1CzrcKUKsOWI2eybzzU=",
+        "originContent": "# 重启服务",
+        "translatedContent": "# 重启服务"
+      },
+      {
+        "row": 9,
+        "rowsha": "Ijl3QTOoKJEqZI+MVfT9HXpEChYiPz0NBwzHni8Fqt8=",
+        "originContent": "docker compose down && docker compose up -d",
+        "translatedContent": "docker compose down && docker compose up -d"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "YR03UPYxHYfgtOVZLVViQs1R5sinfZLKjBIYS9fQNX8=",
+        "originContent": "# 更新到最新版本",
+        "translatedContent": "# 更新到最新版本"
+      },
+      {
+        "row": 12,
+        "rowsha": "relrJpYLgc0vfLYLVpm91jDp0ns/fLi/ykntNM+rP4Q=",
+        "originContent": "docker compose pull && docker compose down && docker compose up -d",
+        "translatedContent": "docker compose pull && docker compose down && docker compose up -d"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n部署完成后：\n\n- 访问 Web 管理界面：<http://localhost:3001>\n- API 代理地址：<http://localhost:3001/proxy>\n\n> 使用默认的认证 Key `sk-123456` 登录管理端，认证 Key 可以在 .env 中修改 AUTH_KEY。\n\n### 方式三：源码构建\n\n源码构建需要本地已安装数据库（SQLite、MySQL 或 PostgreSQL）和 Redis（可选）。\n",
+    "ContentSha": "Ku2xLUa2ONoKZEZUfmWlH6yjm02tLOOWs7Sfk6bOTMw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nデプロイ後：\n\n- Web管理インターフェースにアクセス：<http://localhost:3001>\n- APIプロキシアドレス：<http://localhost:3001/proxy>\n\n> デフォルトの認証キー `sk-123456` を使用して管理画面にログインします。認証キーは .env の AUTH_KEY で変更可能です。\n\n### 方法3：ソースコードからのビルド\n\nソースコードからのビルドには、ローカルにデータベース（SQLite、MySQL、または PostgreSQL）と Redis（オプション）がインストールされている必要があります。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iLv0AeciJW2DFuZkrrbQnL4L2MYA/IsmRRNMp1UYI+o=",
+        "originContent": "部署完成后：",
+        "translatedContent": "デプロイ後："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "uEPdFG5NbnR6FnK32cn631Zk3bKwKbqyQB1MLNMuS0o=",
+        "originContent": "- 访问 Web 管理界面：<http://localhost:3001>",
+        "translatedContent": "- Web管理インターフェースにアクセス：<http://localhost:3001>"
+      },
+      {
+        "row": 5,
+        "rowsha": "X+O0xHY8GtScohDxKQtvQguErTKxEbGqzhLE2yEfLBc=",
+        "originContent": "- API 代理地址：<http://localhost:3001/proxy>",
+        "translatedContent": "- APIプロキシアドレス：<http://localhost:3001/proxy>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "QtyE7h056O2b4uk5DxSKScvCwTrSIUHiBZPpNkPcvAE=",
+        "originContent": "> 使用默认的认证 Key `sk-123456` 登录管理端，认证 Key 可以在 .env 中修改 AUTH_KEY。",
+        "translatedContent": "> デフォルトの認証キー `sk-123456` を使用して管理画面にログインします。認証キーは .env の AUTH_KEY で変更可能です。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "AlMCHjfl5Z5CjDuqR/UiRtR7AfJNfOzS0cF2NHnKVlk=",
+        "originContent": "### 方式三：源码构建",
+        "translatedContent": "### 方法3：ソースコードからのビルド"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "xMFUcf0LBl89jWaxghaxLHziew+2eYi96SAJ0HvjkCA=",
+        "originContent": "源码构建需要本地已安装数据库（SQLite、MySQL 或 PostgreSQL）和 Redis（可选）。",
+        "translatedContent": "ソースコードからのビルドには、ローカルにデータベース（SQLite、MySQL、または PostgreSQL）と Redis（オプション）がインストールされている必要があります。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\n# 克隆并构建\ngit clone https://github.com/tbphp/gpt-load.git\ncd gpt-load\ngo mod tidy\n\n# 创建配置\ncp .env.example .env\n\n# 修改 .env 中 DATABASE_DSN 和 REDIS_DSN 配置\n# REDIS_DSN 为可选，如果不配置则启用内存存储\n\n# 运行\nmake run\n```",
+    "ContentSha": "msISggz6NolXgtIUw6fUgmhdt4C/mElpc/KuRvIpqLk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# 克隆并构建\ngit clone https://github.com/tbphp/gpt-load.git\ncd gpt-load\ngo mod tidy\n\n# 创建配置\ncp .env.example .env\n\n# 修改 .env 中 DATABASE_DSN 和 REDIS_DSN 配置\n# REDIS_DSN 为可选，如果不配置则启用内存存储\n\n# 运行\nmake run\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "NNPKP/LaJNfc14o8fbEFcZuTveq0RW+qB3gX9Ot6nws=",
+        "originContent": "# 克隆并构建",
+        "translatedContent": "# 克隆并构建"
+      },
+      {
+        "row": 3,
+        "rowsha": "HnninpgbstprVM9MTidiKdOI+3vBZcUw0jHN/3TEqvQ=",
+        "originContent": "git clone https://github.com/tbphp/gpt-load.git",
+        "translatedContent": "git clone https://github.com/tbphp/gpt-load.git"
+      },
+      {
+        "row": 4,
+        "rowsha": "1yVP1hDYCUIW+xfyMstUexZ8WqRYHILh6uU8MdeopmQ=",
+        "originContent": "cd gpt-load",
+        "translatedContent": "cd gpt-load"
+      },
+      {
+        "row": 5,
+        "rowsha": "WuvfdEbrypnxPKK0VYgNXVUjOi2DSYzwl5ItoCgosC8=",
+        "originContent": "go mod tidy",
+        "translatedContent": "go mod tidy"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "cm+3lbR8pU9pp3A+D8QHe8gF4G5hT45S8Hos23EXEMM=",
+        "originContent": "# 创建配置",
+        "translatedContent": "# 创建配置"
+      },
+      {
+        "row": 8,
+        "rowsha": "pFxdvPKVWlcbGNfSybU7jLc6h2jjaF/ey8hGKiBArIw=",
+        "originContent": "cp .env.example .env",
+        "translatedContent": "cp .env.example .env"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "4Su3gKSnalnrWlgT0sRCueANmpCTuROQzzGF8tZAO3Y=",
+        "originContent": "# 修改 .env 中 DATABASE_DSN 和 REDIS_DSN 配置",
+        "translatedContent": "# 修改 .env 中 DATABASE_DSN 和 REDIS_DSN 配置"
+      },
+      {
+        "row": 11,
+        "rowsha": "XF62pQM4yFc5gB4z41gdwxI9tT+cygXGRdyKT9a23sQ=",
+        "originContent": "# REDIS_DSN 为可选，如果不配置则启用内存存储",
+        "translatedContent": "# REDIS_DSN 为可选，如果不配置则启用内存存储"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "B5rgJXe+XnXDjM6BocLF4mo5LVWoIe4shGD8Hox2m7g=",
+        "originContent": "# 运行",
+        "translatedContent": "# 运行"
+      },
+      {
+        "row": 14,
+        "rowsha": "d7zrxt/5QhHZYNJLt0GBN6vSgW+YlyBSIBripzmxzcQ=",
+        "originContent": "make run",
+        "translatedContent": "make run"
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n部署完成后：\n\n- 访问 Web 管理界面：<http://localhost:3001>\n- API 代理地址：<http://localhost:3001/proxy>\n\n> 使用默认的认证 Key `sk-123456` 登录管理端，认证 Key 可以在 .env 中修改 AUTH_KEY。\n\n### 方式四：集群部署\n\n集群部署需要所有节点都连接同一个 MySQL（或者 PostgreSQL） 和 Redis，并且 Redis 是必须要求。建议使用统一的分布式 MySQL 和 Redis 集群。\n\n**部署要求：**\n\n- 所有节点必须配置相同的 `AUTH_KEY`、`DATABASE_DSN`、`REDIS_DSN`\n- 一主多从架构，从节点必须配置环境变量：`IS_SLAVE=true`\n\n详细请参考[集群部署文档](https://www.gpt-load.com/docs/cluster)\n\n## 配置系统\n\n### 配置架构概述\n\nGPT-Load 采用双层配置架构：\n\n#### 1. 静态配置（环境变量）\n\n- **特点**：应用启动时读取，运行期间不可修改，需重启应用生效\n- **用途**：基础设施配置，如数据库连接、服务器端口、认证密钥等\n- **管理方式**：通过 `.env` 文件或系统环境变量设置\n\n#### 2. 动态配置（热重载）\n\n- **系统设置**：存储在数据库中，为整个应用提供统一的行为基准\n- **分组配置**：为特定分组定制的行为参数，可覆盖系统设置\n- **配置优先级**：分组配置 > 系统设置 > 环境配置\n- **特点**：支持热重载，修改后立即生效，无需重启应用\n\n<details>\n<summary>静态配置（环境变量）</summary>",
+    "ContentSha": "gEwgnfBQH87XO+VzDIF540Pib95qsgSk6r8emjpzrM4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "部署完了後：\n\n- Web管理画面にアクセス：<http://localhost:3001>\n- APIプロキシアドレス：<http://localhost:3001/proxy>\n\n> デフォルトの認証キー `sk-123456` を使って管理画面にログインします。認証キーは .env の AUTH_KEY で変更可能です。\n\n### 方法4：クラスタ展開\n\nクラスタ展開では、全てのノードが同じ MySQL（または PostgreSQL）と Redis に接続する必要があり、Redisは必須です。統一された分散MySQLとRedisクラスタの利用を推奨します。\n\n**展開要件：**\n\n- すべてのノードで同一の `AUTH_KEY`、`DATABASE_DSN`、`REDIS_DSN` を設定すること\n- マスター・スレーブ構成の場合、スレーブノードは環境変数：`IS_SLAVE=true` を設定すること\n\n詳細は[クラスタ展開ドキュメント](https://www.gpt-load.com/docs/cluster)を参照してください。\n\n## システム設定\n\n### 設定アーキテクチャ概要\n\nGPT-Loadは二層構成の設定アーキテクチャを採用しています：\n\n#### 1. 静的設定（環境変数）\n\n- **特徴**：アプリ起動時に読み込み、稼働中は変更不可。再起動で反映\n- **用途**：基盤構成設定（データベース接続、サーバーポート、認証キーなど）\n- **管理方法**：`.env` ファイルまたはシステム環境変数で設定\n\n#### 2. 動的設定（ホットリロード）\n\n- **システム設定**：データベースに保存され、アプリ全体の動作基準を提供\n- **グループ設定**：特定グループ向けの動作パラメータで、システム設定を上書き可能\n- **設定優先度**：グループ設定 > システム設定 > 環境設定\n- **特徴**：ホットリロード対応。変更後すぐに反映し、再起動不要\n\n<details>\n<summary>静的設定（環境変数）</summary>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "部署完了後："
+      },
+      {
+        "row": 2,
+        "rowsha": "iLv0AeciJW2DFuZkrrbQnL4L2MYA/IsmRRNMp1UYI+o=",
+        "originContent": "部署完成后：",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Web管理画面にアクセス：<http://localhost:3001>"
+      },
+      {
+        "row": 4,
+        "rowsha": "uEPdFG5NbnR6FnK32cn631Zk3bKwKbqyQB1MLNMuS0o=",
+        "originContent": "- 访问 Web 管理界面：<http://localhost:3001>",
+        "translatedContent": "- APIプロキシアドレス：<http://localhost:3001/proxy>"
+      },
+      {
+        "row": 5,
+        "rowsha": "X+O0xHY8GtScohDxKQtvQguErTKxEbGqzhLE2yEfLBc=",
+        "originContent": "- API 代理地址：<http://localhost:3001/proxy>",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> デフォルトの認証キー `sk-123456` を使って管理画面にログインします。認証キーは .env の AUTH_KEY で変更可能です。"
+      },
+      {
+        "row": 7,
+        "rowsha": "QtyE7h056O2b4uk5DxSKScvCwTrSIUHiBZPpNkPcvAE=",
+        "originContent": "> 使用默认的认证 Key `sk-123456` 登录管理端，认证 Key 可以在 .env 中修改 AUTH_KEY。",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 方法4：クラスタ展開"
+      },
+      {
+        "row": 9,
+        "rowsha": "DdpaMvZVu6zZSgwx0rFH++6tRMaIAttxOLycSwHbpV4=",
+        "originContent": "### 方式四：集群部署",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "クラスタ展開では、全てのノードが同じ MySQL（または PostgreSQL）と Redis に接続する必要があり、Redisは必須です。統一された分散MySQLとRedisクラスタの利用を推奨します。"
+      },
+      {
+        "row": 11,
+        "rowsha": "8Q2F+b66WEl/4P/BYWymJtG5sW4yBgysbEK+fjHCh7A=",
+        "originContent": "集群部署需要所有节点都连接同一个 MySQL（或者 PostgreSQL） 和 Redis，并且 Redis 是必须要求。建议使用统一的分布式 MySQL 和 Redis 集群。",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**展開要件：**"
+      },
+      {
+        "row": 13,
+        "rowsha": "Rxuf5IBnlcPoMbfrQi0px48ng3Ihr0rXnx6c3y/BloU=",
+        "originContent": "**部署要求：**",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- すべてのノードで同一の `AUTH_KEY`、`DATABASE_DSN`、`REDIS_DSN` を設定すること"
+      },
+      {
+        "row": 15,
+        "rowsha": "CVlxxYiLMpNdAktTN7d3KM62WPA1EoaYJRMDOB2r398=",
+        "originContent": "- 所有节点必须配置相同的 `AUTH_KEY`、`DATABASE_DSN`、`REDIS_DSN`",
+        "translatedContent": "- マスター・スレーブ構成の場合、スレーブノードは環境変数：`IS_SLAVE=true` を設定すること"
+      },
+      {
+        "row": 16,
+        "rowsha": "KrYrwv3bpXlI7PSxW0u1n3TqQRBUt5Goevf4N8tkoCo=",
+        "originContent": "- 一主多从架构，从节点必须配置环境变量：`IS_SLAVE=true`",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "詳細は[クラスタ展開ドキュメント](https://www.gpt-load.com/docs/cluster)を参照してください。"
+      },
+      {
+        "row": 18,
+        "rowsha": "6oRQWrciipjkq9naPkAUjUAzTzJky1p9p4fXbkHB4Qo=",
+        "originContent": "详细请参考[集群部署文档](https://www.gpt-load.com/docs/cluster)",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## システム設定"
+      },
+      {
+        "row": 20,
+        "rowsha": "LPkn7Aomzqc9WV09vv2BJVoIO8RBo8ttmZaFfyyF0fs=",
+        "originContent": "## 配置系统",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 設定アーキテクチャ概要"
+      },
+      {
+        "row": 22,
+        "rowsha": "4CHMI2wdVixwD74VVj8/GIkSVcPmMRyiM1Ju4kUpg9w=",
+        "originContent": "### 配置架构概述",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "GPT-Loadは二層構成の設定アーキテクチャを採用しています："
+      },
+      {
+        "row": 24,
+        "rowsha": "cR4xivmOpyGX2XeTA9vBhTJ3nXS3ISWqUVlLyjTq8+E=",
+        "originContent": "GPT-Load 采用双层配置架构：",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 1. 静的設定（環境変数）"
+      },
+      {
+        "row": 26,
+        "rowsha": "Dih52theewX0tYNSBCQSdYbUqGcguTP9Nbyev6bFxFA=",
+        "originContent": "#### 1. 静态配置（环境变量）",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **特徴**：アプリ起動時に読み込み、稼働中は変更不可。再起動で反映"
+      },
+      {
+        "row": 28,
+        "rowsha": "MaDw7eQwBkZVG7rDe3U6LId4x87Uuf82PvXsakbiZaY=",
+        "originContent": "- **特点**：应用启动时读取，运行期间不可修改，需重启应用生效",
+        "translatedContent": "- **用途**：基盤構成設定（データベース接続、サーバーポート、認証キーなど）"
+      },
+      {
+        "row": 29,
+        "rowsha": "5QHBu7boqpQSXccUAjCiEQd2pKboYEssoqar2jr3G5E=",
+        "originContent": "- **用途**：基础设施配置，如数据库连接、服务器端口、认证密钥等",
+        "translatedContent": "- **管理方法**：`.env` ファイルまたはシステム環境変数で設定"
+      },
+      {
+        "row": 30,
+        "rowsha": "hHV4/MfIjslIEputnA6EC+OizSUWCKjuRhnAy96DnBc=",
+        "originContent": "- **管理方式**：通过 `.env` 文件或系统环境变量设置",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 2. 動的設定（ホットリロード）"
+      },
+      {
+        "row": 32,
+        "rowsha": "x9DwXrPIAe8bpjANMNPe0R71rqhvHuUWNdm/GSnK8yU=",
+        "originContent": "#### 2. 动态配置（热重载）",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **システム設定**：データベースに保存され、アプリ全体の動作基準を提供"
+      },
+      {
+        "row": 34,
+        "rowsha": "DSmXqP0JejdyU5m0Ya2d7YjNoMgJSp9EBZ3Q9GMIHV8=",
+        "originContent": "- **系统设置**：存储在数据库中，为整个应用提供统一的行为基准",
+        "translatedContent": "- **グループ設定**：特定グループ向けの動作パラメータで、システム設定を上書き可能"
+      },
+      {
+        "row": 35,
+        "rowsha": "BW9NU9kjGGDltd9zhdYUtUyH+gLpTn6zO2UPXiYQa4U=",
+        "originContent": "- **分组配置**：为特定分组定制的行为参数，可覆盖系统设置",
+        "translatedContent": "- **設定優先度**：グループ設定 > システム設定 > 環境設定"
+      },
+      {
+        "row": 36,
+        "rowsha": "DW9VZY/V9IKrddkdT2N9AnuoOEsXrOlzotzYuXaVUis=",
+        "originContent": "- **配置优先级**：分组配置 > 系统设置 > 环境配置",
+        "translatedContent": "- **特徴**：ホットリロード対応。変更後すぐに反映し、再起動不要"
+      },
+      {
+        "row": 37,
+        "rowsha": "wOSj+uxTMBcN6G8ygMrbe3KuqOqbpoYzGd1h2klvERQ=",
+        "originContent": "- **特点**：支持热重载，修改后立即生效，无需重启应用",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 39,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary>静的設定（環境変数）</summary>"
+      },
+      {
+        "row": 40,
+        "rowsha": "LmYf7T6mJvLUusAt4L39XxT3lzaXuhec6Ur7MPdhAaw=",
+        "originContent": "<summary>静态配置（环境变量）</summary>",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "\n**服务器配置：**\n\n| 配置项       | 环境变量                           | 默认值          | 说明                       |\n| ------------ | ---------------------------------- | --------------- | -------------------------- |\n| 服务端口     | `PORT`                             | 3001            | HTTP 服务器监听端口        |\n| 服务地址     | `HOST`                             | 0.0.0.0         | HTTP 服务器绑定地址        |\n| 读取超时     | `SERVER_READ_TIMEOUT`              | 60              | HTTP 服务器读取超时（秒）  |\n| 写入超时     | `SERVER_WRITE_TIMEOUT`             | 600             | HTTP 服务器写入超时（秒）  |\n| 空闲超时     | `SERVER_IDLE_TIMEOUT`              | 120             | HTTP 连接空闲超时（秒）    |\n| 优雅关闭超时 | `SERVER_GRACEFUL_SHUTDOWN_TIMEOUT` | 10              | 服务优雅关闭等待时间（秒） |\n| 从节点模式   | `IS_SLAVE`                         | false           | 集群部署时从节点标识       |\n| 时区         | `TZ`                               | `Asia/Shanghai` | 指定时区                   |\n\n**认证与数据库配置：**\n\n| 配置项     | 环境变量       | 默认值             | 说明                                 |\n| ---------- | -------------- | ------------------ | ------------------------------------ |\n| 管理密钥   | `AUTH_KEY`     | `sk-123456`        | **管理端**的访问认证密钥             |\n| 数据库连接 | `DATABASE_DSN` | ./data/gpt-load.db | 数据库连接字符串 (DSN) 或文件路径    |\n| Redis 连接 | `REDIS_DSN`    | -                  | Redis 连接字符串，为空时使用内存存储 |\n\n**性能与跨域配置：**\n\n| 配置项       | 环境变量                  | 默认值                        | 说明                     |\n| ------------ | ------------------------- | ----------------------------- | ------------------------ |\n| 最大并发请求 | `MAX_CONCURRENT_REQUESTS` | 100                           | 系统允许的最大并发请求数 |\n| 启用 CORS    | `ENABLE_CORS`             | true                          | 是否启用跨域资源共享     |\n| 允许的来源   | `ALLOWED_ORIGINS`         | `*`                           | 允许的来源，逗号分隔     |\n| 允许的方法   | `ALLOWED_METHODS`         | `GET,POST,PUT,DELETE,OPTIONS` | 允许的 HTTP 方法         |\n| 允许的头部   | `ALLOWED_HEADERS`         | `*`                           | 允许的请求头，逗号分隔   |\n| 允许凭据     | `ALLOW_CREDENTIALS`       | false                         | 是否允许发送凭据         |\n\n**日志配置：**\n\n| 配置项       | 环境变量          | 默认值                | 说明                               |\n| ------------ | ----------------- | --------------------- | ---------------------------------- |\n| 日志级别     | `LOG_LEVEL`       | `info`                | 日志级别：debug, info, warn, error |\n| 日志格式     | `LOG_FORMAT`      | `text`                | 日志格式：text, json               |\n| 启用文件日志 | `LOG_ENABLE_FILE` | false                 | 是否启用文件日志输出               |",
+    "ContentSha": "5B8oLJC7t0MdRzc3GdZzX4+xaz4jgKGzpuKqbeMiP3s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**サーバー構成：**\n\n| 設定項目     | 環境変数                          | デフォルト値     | 説明                          |\n| ------------ | --------------------------------- | --------------- | ----------------------------- |\n| サーバーポート | `PORT`                           | 3001            | HTTPサーバーのリッスンポート  |\n| サーバーアドレス | `HOST`                           | 0.0.0.0         | HTTPサーバーのバインドアドレス |\n| 読み取りタイムアウト | `SERVER_READ_TIMEOUT`            | 60              | HTTPサーバーの読み取りタイムアウト（秒） |\n| 書き込みタイムアウト | `SERVER_WRITE_TIMEOUT`           | 600             | HTTPサーバーの書き込みタイムアウト（秒） |\n| アイドルタイムアウト | `SERVER_IDLE_TIMEOUT`            | 120             | HTTP接続のアイドルタイムアウト（秒）     |\n| 優雅なシャットダウンタイムアウト | `SERVER_GRACEFUL_SHUTDOWN_TIMEOUT` | 10              | サービスの優雅なシャットダウン待機時間（秒） |\n| スレーブモード | `IS_SLAVE`                       | false           | クラスタ展開時のスレーブノード識別       |\n| タイムゾーン   | `TZ`                             | `Asia/Shanghai` | 指定タイムゾーン                |\n\n**認証とデータベース構成：**\n\n| 設定項目     | 環境変数       | デフォルト値          | 説明                                  |\n| ------------ | -------------- | --------------------- | ------------------------------------- |\n| 管理キー     | `AUTH_KEY`     | `sk-123456`           | **管理側**のアクセス認証キー          |\n| データベース接続 | `DATABASE_DSN` | ./data/gpt-load.db    | データベース接続文字列（DSN）またはファイルパス |\n| Redis接続   | `REDIS_DSN`    | -                     | Redis接続文字列。空の場合はメモリストレージを使用 |\n\n**パフォーマンスとクロスオリジン設定：**\n\n| 設定項目         | 環境変数                  | デフォルト値                         | 説明                        |\n| ---------------- | ------------------------- | ---------------------------------- | --------------------------- |\n| 最大同時リクエスト数 | `MAX_CONCURRENT_REQUESTS` | 100                                | システムが許容する最大同時リクエスト数 |\n| CORSを有効化     | `ENABLE_CORS`             | true                               | クロスオリジンリソース共有を有効にするか |\n| 許可するオリジン | `ALLOWED_ORIGINS`         | `*`                                | 許可するオリジン（カンマ区切り）    |\n| 許可するHTTPメソッド | `ALLOWED_METHODS`         | `GET,POST,PUT,DELETE,OPTIONS`      | 許可するHTTPメソッド             |\n| 許可するヘッダー  | `ALLOWED_HEADERS`         | `*`                                | 許可するリクエストヘッダー（カンマ区切り） |\n| 認証情報を許可   | `ALLOW_CREDENTIALS`       | false                              | 認証情報の送信を許可するか         |\n\n**ログ設定：**\n\n| 設定項目       | 環境変数          | デフォルト値           | 説明                                 |\n| -------------- | ----------------- | --------------------- | ------------------------------------ |\n| ログレベル     | `LOG_LEVEL`       | `info`                | ログレベル：debug, info, warn, error |\n| ログフォーマット | `LOG_FORMAT`      | `text`                | ログフォーマット：text, json         |\n| ファイルログ有効化 | `LOG_ENABLE_FILE` | false                 | ファイルログ出力を有効にするか       |\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**サーバー構成：**"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZjxJBbWkG4Z9c8MYrHwnN//WgPvw0f5C/LnRqvP3yqA=",
+        "originContent": "**服务器配置：**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 設定項目     | 環境変数                          | デフォルト値     | 説明                          |"
+      },
+      {
+        "row": 4,
+        "rowsha": "EQ6fYUxi/hAfnDbt5q5BPUwrMBQVPBZAewOVRHXjxBQ=",
+        "originContent": "| 配置项       | 环境变量                           | 默认值          | 说明                       |",
+        "translatedContent": "| ------------ | --------------------------------- | --------------- | ----------------------------- |"
+      },
+      {
+        "row": 5,
+        "rowsha": "2xbNcJpGTeuYlYpStwZ5GqpOHaKoUAnHhAaQoKwwAWI=",
+        "originContent": "| ------------ | ---------------------------------- | --------------- | -------------------------- |",
+        "translatedContent": "| サーバーポート | `PORT`                           | 3001            | HTTPサーバーのリッスンポート  |"
+      },
+      {
+        "row": 6,
+        "rowsha": "hh0M42HEXp66P/d1TlsFzYjl5W3WtLXx5bdQkcPTkF0=",
+        "originContent": "| 服务端口     | `PORT`                             | 3001            | HTTP 服务器监听端口        |",
+        "translatedContent": "| サーバーアドレス | `HOST`                           | 0.0.0.0         | HTTPサーバーのバインドアドレス |"
+      },
+      {
+        "row": 7,
+        "rowsha": "PQncLKFmwTVhr+UtIEmqldtqo8tpQQWfZAHgV33Z4vI=",
+        "originContent": "| 服务地址     | `HOST`                             | 0.0.0.0         | HTTP 服务器绑定地址        |",
+        "translatedContent": "| 読み取りタイムアウト | `SERVER_READ_TIMEOUT`            | 60              | HTTPサーバーの読み取りタイムアウト（秒） |"
+      },
+      {
+        "row": 8,
+        "rowsha": "/KjMHtKvcyqafXrboO+vhbwcW/P3TuN7QqlPpGp4fJI=",
+        "originContent": "| 读取超时     | `SERVER_READ_TIMEOUT`              | 60              | HTTP 服务器读取超时（秒）  |",
+        "translatedContent": "| 書き込みタイムアウト | `SERVER_WRITE_TIMEOUT`           | 600             | HTTPサーバーの書き込みタイムアウト（秒） |"
+      },
+      {
+        "row": 9,
+        "rowsha": "iiNlbnQRysji+b2dTSkmDQbxYZ05g/bNCSiM3dAzchI=",
+        "originContent": "| 写入超时     | `SERVER_WRITE_TIMEOUT`             | 600             | HTTP 服务器写入超时（秒）  |",
+        "translatedContent": "| アイドルタイムアウト | `SERVER_IDLE_TIMEOUT`            | 120             | HTTP接続のアイドルタイムアウト（秒）     |"
+      },
+      {
+        "row": 10,
+        "rowsha": "qJ3sC+XGycfD8McJBjsZ0WljXM4ZbGX+61Zw+7K94YU=",
+        "originContent": "| 空闲超时     | `SERVER_IDLE_TIMEOUT`              | 120             | HTTP 连接空闲超时（秒）    |",
+        "translatedContent": "| 優雅なシャットダウンタイムアウト | `SERVER_GRACEFUL_SHUTDOWN_TIMEOUT` | 10              | サービスの優雅なシャットダウン待機時間（秒） |"
+      },
+      {
+        "row": 11,
+        "rowsha": "uCl+2Q+oiCBP2B4iui0GGKRcDHcRkRMUV0l3Pg+pXBE=",
+        "originContent": "| 优雅关闭超时 | `SERVER_GRACEFUL_SHUTDOWN_TIMEOUT` | 10              | 服务优雅关闭等待时间（秒） |",
+        "translatedContent": "| スレーブモード | `IS_SLAVE`                       | false           | クラスタ展開時のスレーブノード識別       |"
+      },
+      {
+        "row": 12,
+        "rowsha": "ZYUZdlfVXwmi0LBeMRFkrwZH98K5CbgxJIheRNCZ9Xo=",
+        "originContent": "| 从节点模式   | `IS_SLAVE`                         | false           | 集群部署时从节点标识       |",
+        "translatedContent": "| タイムゾーン   | `TZ`                             | `Asia/Shanghai` | 指定タイムゾーン                |"
+      },
+      {
+        "row": 13,
+        "rowsha": "VzHeTY4qmrHiAfL82qe3bv97zd6tDGiXbWiwubfLyMw=",
+        "originContent": "| 时区         | `TZ`                               | `Asia/Shanghai` | 指定时区                   |",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**認証とデータベース構成：**"
+      },
+      {
+        "row": 15,
+        "rowsha": "pZnM1YOQtOqorxqd6KR/tFmQ9m2MqKF83D8w53UTZyc=",
+        "originContent": "**认证与数据库配置：**",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 設定項目     | 環境変数       | デフォルト値          | 説明                                  |"
+      },
+      {
+        "row": 17,
+        "rowsha": "YXVdTXumn4CZ9u/UZtPCTHa+mJqrijMXXNMQQwtOF3M=",
+        "originContent": "| 配置项     | 环境变量       | 默认值             | 说明                                 |",
+        "translatedContent": "| ------------ | -------------- | --------------------- | ------------------------------------- |"
+      },
+      {
+        "row": 18,
+        "rowsha": "zPqlo5HXuuIsXsgfIEUjykYrE1nvmniRmLdguZsLAYs=",
+        "originContent": "| ---------- | -------------- | ------------------ | ------------------------------------ |",
+        "translatedContent": "| 管理キー     | `AUTH_KEY`     | `sk-123456`           | **管理側**のアクセス認証キー          |"
+      },
+      {
+        "row": 19,
+        "rowsha": "CteStPlLGu3V2Vo+DmYZ+OAuQZM3O413BDs1fXNBZQw=",
+        "originContent": "| 管理密钥   | `AUTH_KEY`     | `sk-123456`        | **管理端**的访问认证密钥             |",
+        "translatedContent": "| データベース接続 | `DATABASE_DSN` | ./data/gpt-load.db    | データベース接続文字列（DSN）またはファイルパス |"
+      },
+      {
+        "row": 20,
+        "rowsha": "/nw3E75rwNPm8lb3BT+0onZRcYfpvNwNluFXNWtZEMU=",
+        "originContent": "| 数据库连接 | `DATABASE_DSN` | ./data/gpt-load.db | 数据库连接字符串 (DSN) 或文件路径    |",
+        "translatedContent": "| Redis接続   | `REDIS_DSN`    | -                     | Redis接続文字列。空の場合はメモリストレージを使用 |"
+      },
+      {
+        "row": 21,
+        "rowsha": "/zngcd4zT0i3nUp/zFsZZJwjMDmNKmf+Kw9YcbM4fAw=",
+        "originContent": "| Redis 连接 | `REDIS_DSN`    | -                  | Redis 连接字符串，为空时使用内存存储 |",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**パフォーマンスとクロスオリジン設定：**"
+      },
+      {
+        "row": 23,
+        "rowsha": "GZIVAGsjYaZ9xHFD56kuVW0+MZ0KEqATZJLFyBS0qnA=",
+        "originContent": "**性能与跨域配置：**",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 設定項目         | 環境変数                  | デフォルト値                         | 説明                        |"
+      },
+      {
+        "row": 25,
+        "rowsha": "j77/DHvYx9HbBUUSAmwcSNSuiboPB3CG2th5vIHc4Zk=",
+        "originContent": "| 配置项       | 环境变量                  | 默认值                        | 说明                     |",
+        "translatedContent": "| ---------------- | ------------------------- | ---------------------------------- | --------------------------- |"
+      },
+      {
+        "row": 26,
+        "rowsha": "ubQG1S/o0xfqWWq0gFVjVpV9QFflSBGQxlPSHVMz2Fg=",
+        "originContent": "| ------------ | ------------------------- | ----------------------------- | ------------------------ |",
+        "translatedContent": "| 最大同時リクエスト数 | `MAX_CONCURRENT_REQUESTS` | 100                                | システムが許容する最大同時リクエスト数 |"
+      },
+      {
+        "row": 27,
+        "rowsha": "iNXge5k3UoWQzJFaNoXj3vPJyHXcIJxLDn45ONopfjw=",
+        "originContent": "| 最大并发请求 | `MAX_CONCURRENT_REQUESTS` | 100                           | 系统允许的最大并发请求数 |",
+        "translatedContent": "| CORSを有効化     | `ENABLE_CORS`             | true                               | クロスオリジンリソース共有を有効にするか |"
+      },
+      {
+        "row": 28,
+        "rowsha": "gzoH+EC5JLqLvP/zwPNoXkRmarqAgpIae2mGF4lhBVY=",
+        "originContent": "| 启用 CORS    | `ENABLE_CORS`             | true                          | 是否启用跨域资源共享     |",
+        "translatedContent": "| 許可するオリジン | `ALLOWED_ORIGINS`         | `*`                                | 許可するオリジン（カンマ区切り）    |"
+      },
+      {
+        "row": 29,
+        "rowsha": "d6rcpWCEyA08nA3lUIcnNW9TL5/QLDDcnUGUWeIwGeI=",
+        "originContent": "| 允许的来源   | `ALLOWED_ORIGINS`         | `*`                           | 允许的来源，逗号分隔     |",
+        "translatedContent": "| 許可するHTTPメソッド | `ALLOWED_METHODS`         | `GET,POST,PUT,DELETE,OPTIONS`      | 許可するHTTPメソッド             |"
+      },
+      {
+        "row": 30,
+        "rowsha": "QJ9JX7WJpLRBmzK34HyK8l8hU6F5Zyk88Y/aQZ5qvak=",
+        "originContent": "| 允许的方法   | `ALLOWED_METHODS`         | `GET,POST,PUT,DELETE,OPTIONS` | 允许的 HTTP 方法         |",
+        "translatedContent": "| 許可するヘッダー  | `ALLOWED_HEADERS`         | `*`                                | 許可するリクエストヘッダー（カンマ区切り） |"
+      },
+      {
+        "row": 31,
+        "rowsha": "FT+Zff0j1OzjSOv8W7PsJANaPVT1H0OiScpEriBIJJk=",
+        "originContent": "| 允许的头部   | `ALLOWED_HEADERS`         | `*`                           | 允许的请求头，逗号分隔   |",
+        "translatedContent": "| 認証情報を許可   | `ALLOW_CREDENTIALS`       | false                              | 認証情報の送信を許可するか         |"
+      },
+      {
+        "row": 32,
+        "rowsha": "lo6VCrjig5L0pGXYAChPMdVpH7Ex9Mj/x56+Agohgn8=",
+        "originContent": "| 允许凭据     | `ALLOW_CREDENTIALS`       | false                         | 是否允许发送凭据         |",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**ログ設定：**"
+      },
+      {
+        "row": 34,
+        "rowsha": "b9d1Cnlrxg7r8OZyuwILxjmtlxCuVCBhYU9NvvarX08=",
+        "originContent": "**日志配置：**",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 設定項目       | 環境変数          | デフォルト値           | 説明                                 |"
+      },
+      {
+        "row": 36,
+        "rowsha": "8b/SHDDYvl61PVJOn9TzznV7DlRGCWfI1vXX4AiukGE=",
+        "originContent": "| 配置项       | 环境变量          | 默认值                | 说明                               |",
+        "translatedContent": "| -------------- | ----------------- | --------------------- | ------------------------------------ |"
+      },
+      {
+        "row": 37,
+        "rowsha": "tc18TNaJRE1GsK1w6W5zYEEQtXP6hpXQJObHLlwuBIs=",
+        "originContent": "| ------------ | ----------------- | --------------------- | ---------------------------------- |",
+        "translatedContent": "| ログレベル     | `LOG_LEVEL`       | `info`                | ログレベル：debug, info, warn, error |"
+      },
+      {
+        "row": 38,
+        "rowsha": "Gdxbd3bN6o9nScqScA2Y7tw7hsA3Q1ZvZ9eBfB2S1mQ=",
+        "originContent": "| 日志级别     | `LOG_LEVEL`       | `info`                | 日志级别：debug, info, warn, error |",
+        "translatedContent": "| ログフォーマット | `LOG_FORMAT`      | `text`                | ログフォーマット：text, json         |"
+      },
+      {
+        "row": 39,
+        "rowsha": "KgbQwDdFIsWoFhwRDEOIU/yIjB9oftg5DEipaKmpOzw=",
+        "originContent": "| 日志格式     | `LOG_FORMAT`      | `text`                | 日志格式：text, json               |",
+        "translatedContent": "| ファイルログ有効化 | `LOG_ENABLE_FILE` | false                 | ファイルログ出力を有効にするか       |"
+      },
+      {
+        "row": 40,
+        "rowsha": "3XklnMNuW+Ni/r7w3FolPiCPRkxE7ZTILSCPREHttkA=",
+        "originContent": "| 启用文件日志 | `LOG_ENABLE_FILE` | false                 | 是否启用文件日志输出               |",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "| 日志文件路径 | `LOG_FILE_PATH`   | `./data/logs/app.log` | 日志文件存储路径                   |\n\n**代理配置：**\n\nGPT-Load 会自动从环境变量中读取代理设置，用于向上游 AI 服务商发起请求。\n\n| 配置项     | 环境变量      | 默认值 | 说明                                     |\n| ---------- | ------------- | ------ | ---------------------------------------- |\n| HTTP 代理  | `HTTP_PROXY`  | -      | 用于 HTTP 请求的代理服务器地址           |\n| HTTPS 代理 | `HTTPS_PROXY` | -      | 用于 HTTPS 请求的代理服务器地址          |\n| 无代理     | `NO_PROXY`    | -      | 不需要通过代理访问的主机或域名，逗号分隔 |\n\n支持的代理协议格式：\n\n- **HTTP**: `http://user:pass@host:port`\n- **HTTPS**: `https://user:pass@host:port`\n- **SOCKS5**: `socks5://user:pass@host:port`\n</details>\n\n<details>\n<summary>动态配置（热重载）</summary>\n\n**基础设置：**\n\n| 配置项       | 字段名                               | 默认值                      | 分组可覆盖 | 说明                                   |\n| ------------ | ------------------------------------ | --------------------------- | ---------- | -------------------------------------- |\n| 项目地址     | `app_url`                            | `http://localhost:3001`     | ❌         | 项目基础 URL                           |\n| 日志保留天数 | `request_log_retention_days`         | 7                           | ❌         | 请求日志保留天数，0 为不清理           |\n| 日志写入间隔 | `request_log_write_interval_minutes` | 1                           | ❌         | 日志写入数据库周期（分钟）             |\n| 全局代理密钥 | `proxy_keys`                         | 初始值为环境配置的 AUTH_KEY | ❌         | 全局生效的代理认证密钥，多个用逗号分隔 |\n\n**请求设置：**\n\n| 配置项               | 字段名                    | 默认值 | 分组可覆盖 | 说明                           |\n| -------------------- | ------------------------- | ------ | ---------- | ------------------------------ |\n| 请求超时             | `request_timeout`         | 600    | ✅         | 转发请求完整生命周期超时（秒） |\n| 连接超时             | `connect_timeout`         | 15     | ✅         | 与上游服务建立连接超时（秒）   |\n| 空闲连接超时         | `idle_conn_timeout`       | 120    | ✅         | HTTP 客户端空闲连接超时（秒）  |\n| 响应头超时           | `response_header_timeout` | 600    | ✅         | 等待上游响应头超时（秒）       |\n| 最大空闲连接数       | `max_idle_conns`          | 100    | ✅         | 连接池最大空闲连接总数         |",
+    "ContentSha": "mnZsFfaZ1qkAVhhteiErl14dlxHmkcClKHgPSVWDKtY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| 日志文件路径 | `LOG_FILE_PATH`   | `./data/logs/app.log` | ログファイルの保存パス                   |\n\n**プロキシ設定：**\n\nGPT-Loadは環境変数からプロキシ設定を自動的に読み取り、上流のAIサービスプロバイダーへのリクエストに使用します。\n\n| 設定項目     | 環境変数       | デフォルト | 説明                                     |\n| ---------- | ------------- | ------ | ---------------------------------------- |\n| HTTPプロキシ  | `HTTP_PROXY`  | -      | HTTPリクエスト用のプロキシサーバーアドレス           |\n| HTTPSプロキシ | `HTTPS_PROXY` | -      | HTTPSリクエスト用のプロキシサーバーアドレス          |\n| プロキシ除外   | `NO_PROXY`    | -      | プロキシを経由しないホストまたはドメイン、カンマ区切り |\n\n対応するプロキシプロトコル形式：\n\n- **HTTP**: `http://user:pass@host:port`\n- **HTTPS**: `https://user:pass@host:port`\n- **SOCKS5**: `socks5://user:pass@host:port`\n</details>\n\n<details>\n<summary>動的設定（ホットリロード）</summary>\n\n**基本設定：**\n\n| 設定項目       | フィールド名                             | デフォルト値                 | グループ上書き可否 | 説明                                     |\n| ------------ | ------------------------------------ | --------------------------- | ---------- | -------------------------------------- |\n| プロジェクトURL | `app_url`                            | `http://localhost:3001`     | ❌         | プロジェクトの基本URL                   |\n| ログ保持日数   | `request_log_retention_days`         | 7                           | ❌         | リクエストログの保持日数、0はクリアしない |\n| ログ書き込み間隔 | `request_log_write_interval_minutes` | 1                           | ❌         | ログをデータベースに書き込む周期（分） |\n| グローバルプロキシキー | `proxy_keys`                         | 初期値は環境設定のAUTH_KEY     | ❌         | グローバルに有効なプロキシ認証キー、複数はカンマ区切り |\n\n**リクエスト設定：**\n\n| 設定項目               | フィールド名                    | デフォルト値 | グループ上書き可否 | 説明                             |\n| -------------------- | ------------------------- | -------- | ---------- | ------------------------------ |\n| リクエストタイムアウト   | `request_timeout`         | 600      | ✅         | 転送リクエストの全ライフサイクルのタイムアウト（秒） |\n| 接続タイムアウト       | `connect_timeout`         | 15       | ✅         | 上流サービスとの接続確立タイムアウト（秒）           |\n| アイドル接続タイムアウト | `idle_conn_timeout`       | 120      | ✅         | HTTPクライアントのアイドル接続タイムアウト（秒）     |\n| レスポンスヘッダタイムアウト | `response_header_timeout` | 600      | ✅         | 上流レスポンスヘッダ待機タイムアウト（秒）           |\n| 最大アイドル接続数     | `max_idle_conns`          | 100      | ✅         | コネクションプールの最大アイドル接続数               |",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ScliLpUHKM3S6yXyXJhvm1Dj5NtBGGeYXxHmmGHlHgk=",
+        "originContent": "| 日志文件路径 | `LOG_FILE_PATH`   | `./data/logs/app.log` | 日志文件存储路径                   |",
+        "translatedContent": "| 日志文件路径 | `LOG_FILE_PATH`   | `./data/logs/app.log` | ログファイルの保存パス                   |"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "L8X8paZ01ZFE4Mo76lomhZ7FLvKxgrSWOiZSR74j2p4=",
+        "originContent": "**代理配置：**",
+        "translatedContent": "**プロキシ設定：**"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "be0HPjsRZRMCSehkFkWkbLdWNnkxqrfDXTXcL8hiTRc=",
+        "originContent": "GPT-Load 会自动从环境变量中读取代理设置，用于向上游 AI 服务商发起请求。",
+        "translatedContent": "GPT-Loadは環境変数からプロキシ設定を自動的に読み取り、上流のAIサービスプロバイダーへのリクエストに使用します。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "LjJxBpLd7M9xq7c20BGuYubrgEMeqI/RnJ8JHUgcbXk=",
+        "originContent": "| 配置项     | 环境变量      | 默认值 | 说明                                     |",
+        "translatedContent": "| 設定項目     | 環境変数       | デフォルト | 説明                                     |"
+      },
+      {
+        "row": 8,
+        "rowsha": "wL6FOmyDuIOX9xiuFYokyBEO7Juf+6F4VTxpMmzSN08=",
+        "originContent": "| ---------- | ------------- | ------ | ---------------------------------------- |",
+        "translatedContent": "| ---------- | ------------- | ------ | ---------------------------------------- |"
+      },
+      {
+        "row": 9,
+        "rowsha": "/FIPjOyhiqVcW6QAuwPdyi7Uh37pA78NKHFTNqhHplQ=",
+        "originContent": "| HTTP 代理  | `HTTP_PROXY`  | -      | 用于 HTTP 请求的代理服务器地址           |",
+        "translatedContent": "| HTTPプロキシ  | `HTTP_PROXY`  | -      | HTTPリクエスト用のプロキシサーバーアドレス           |"
+      },
+      {
+        "row": 10,
+        "rowsha": "BFS56VUMrWZYyKblQ69rSdcRJpWujZ1Y8gfuWOQTRHA=",
+        "originContent": "| HTTPS 代理 | `HTTPS_PROXY` | -      | 用于 HTTPS 请求的代理服务器地址          |",
+        "translatedContent": "| HTTPSプロキシ | `HTTPS_PROXY` | -      | HTTPSリクエスト用のプロキシサーバーアドレス          |"
+      },
+      {
+        "row": 11,
+        "rowsha": "gKwu1laruOL/mmp0MPhIKe4gjB0EXdh+QGhF3j5bH+4=",
+        "originContent": "| 无代理     | `NO_PROXY`    | -      | 不需要通过代理访问的主机或域名，逗号分隔 |",
+        "translatedContent": "| プロキシ除外   | `NO_PROXY`    | -      | プロキシを経由しないホストまたはドメイン、カンマ区切り |"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "MmLam3K0escVWg710HeRYTkvDSvp9IOTk5NxrWUaeEU=",
+        "originContent": "支持的代理协议格式：",
+        "translatedContent": "対応するプロキシプロトコル形式："
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "tNXxQ2zaQ5vj0kiRrrif2JjWsTMbG2SxAKrgFmvGsqM=",
+        "originContent": "- **HTTP**: `http://user:pass@host:port`",
+        "translatedContent": "- **HTTP**: `http://user:pass@host:port`"
+      },
+      {
+        "row": 16,
+        "rowsha": "zJM951oLU7TmoejnXG2kxNeQzonyt2sx/c1M2RbzX4k=",
+        "originContent": "- **HTTPS**: `https://user:pass@host:port`",
+        "translatedContent": "- **HTTPS**: `https://user:pass@host:port`"
+      },
+      {
+        "row": 17,
+        "rowsha": "wtK6nhn0oN9QvNTcKw0XqPbDEpEozM2jbu6U9qqjErs=",
+        "originContent": "- **SOCKS5**: `socks5://user:pass@host:port`",
+        "translatedContent": "- **SOCKS5**: `socks5://user:pass@host:port`"
+      },
+      {
+        "row": 18,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 21,
+        "rowsha": "TBZiMgbugd3Gnts4Kx4baLZfudzjahVa7o91IY7IGXY=",
+        "originContent": "<summary>动态配置（热重载）</summary>",
+        "translatedContent": "<summary>動的設定（ホットリロード）</summary>"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "sZ89vLnGtSWJzAgg+52FQ3u/pVVO9yExu/ME+IiPDM8=",
+        "originContent": "**基础设置：**",
+        "translatedContent": "**基本設定：**"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "R6VvpAyzHSqQuWrE8lcbPz2cYK3VMU41mtUHxr/raTo=",
+        "originContent": "| 配置项       | 字段名                               | 默认值                      | 分组可覆盖 | 说明                                   |",
+        "translatedContent": "| 設定項目       | フィールド名                             | デフォルト値                 | グループ上書き可否 | 説明                                     |"
+      },
+      {
+        "row": 26,
+        "rowsha": "Et5m0daosH+OrdVmwtR25L9q4fT4Ag1L/jtCQSNSQ5k=",
+        "originContent": "| ------------ | ------------------------------------ | --------------------------- | ---------- | -------------------------------------- |",
+        "translatedContent": "| ------------ | ------------------------------------ | --------------------------- | ---------- | -------------------------------------- |"
+      },
+      {
+        "row": 27,
+        "rowsha": "4gXCduuKBdN7H9TCt8gjHrEBsKth6xbXh0bY537a5sI=",
+        "originContent": "| 项目地址     | `app_url`                            | `http://localhost:3001`     | ❌         | 项目基础 URL                           |",
+        "translatedContent": "| プロジェクトURL | `app_url`                            | `http://localhost:3001`     | ❌         | プロジェクトの基本URL                   |"
+      },
+      {
+        "row": 28,
+        "rowsha": "48Yc1PFgtIUHBWoCYrN7Cb3C/RcATWJAwuDZ2AA6a8c=",
+        "originContent": "| 日志保留天数 | `request_log_retention_days`         | 7                           | ❌         | 请求日志保留天数，0 为不清理           |",
+        "translatedContent": "| ログ保持日数   | `request_log_retention_days`         | 7                           | ❌         | リクエストログの保持日数、0はクリアしない |"
+      },
+      {
+        "row": 29,
+        "rowsha": "9JLrBoBQZ9d5uihYUMCt5O9E7WzOnkdM9jbrj7QTgu8=",
+        "originContent": "| 日志写入间隔 | `request_log_write_interval_minutes` | 1                           | ❌         | 日志写入数据库周期（分钟）             |",
+        "translatedContent": "| ログ書き込み間隔 | `request_log_write_interval_minutes` | 1                           | ❌         | ログをデータベースに書き込む周期（分） |"
+      },
+      {
+        "row": 30,
+        "rowsha": "XahFFv7tIW0x6ap0rLDstKjzhKhixYG0CLTlBsfWutM=",
+        "originContent": "| 全局代理密钥 | `proxy_keys`                         | 初始值为环境配置的 AUTH_KEY | ❌         | 全局生效的代理认证密钥，多个用逗号分隔 |",
+        "translatedContent": "| グローバルプロキシキー | `proxy_keys`                         | 初期値は環境設定のAUTH_KEY     | ❌         | グローバルに有効なプロキシ認証キー、複数はカンマ区切り |"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "2E8zc4CXTUvKQ/D+9sbe1p7XuAFK6jTQE0GkxSWZFwM=",
+        "originContent": "**请求设置：**",
+        "translatedContent": "**リクエスト設定：**"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "rZXDEE1l23pH1tNDiC7wcbFbeX6+nzsVhEA3m/Sfktk=",
+        "originContent": "| 配置项               | 字段名                    | 默认值 | 分组可覆盖 | 说明                           |",
+        "translatedContent": "| 設定項目               | フィールド名                    | デフォルト値 | グループ上書き可否 | 説明                             |"
+      },
+      {
+        "row": 35,
+        "rowsha": "faoNp7wwKWH6Yp3voQt8Z2imX3RIOOZDF9liRkxouSQ=",
+        "originContent": "| -------------------- | ------------------------- | ------ | ---------- | ------------------------------ |",
+        "translatedContent": "| -------------------- | ------------------------- | -------- | ---------- | ------------------------------ |"
+      },
+      {
+        "row": 36,
+        "rowsha": "HRXlEADijyJ1RGtAKVZwFXDhbt6/pWUn8rUsnMYvgD0=",
+        "originContent": "| 请求超时             | `request_timeout`         | 600    | ✅         | 转发请求完整生命周期超时（秒） |",
+        "translatedContent": "| リクエストタイムアウト   | `request_timeout`         | 600      | ✅         | 転送リクエストの全ライフサイクルのタイムアウト（秒） |"
+      },
+      {
+        "row": 37,
+        "rowsha": "bTHMdmCTV2+z7WRwaV1M7N1Vjj3DcapMTZuPlReQTFw=",
+        "originContent": "| 连接超时             | `connect_timeout`         | 15     | ✅         | 与上游服务建立连接超时（秒）   |",
+        "translatedContent": "| 接続タイムアウト       | `connect_timeout`         | 15       | ✅         | 上流サービスとの接続確立タイムアウト（秒）           |"
+      },
+      {
+        "row": 38,
+        "rowsha": "0nvg9TTb50V/T/1zOK/skz0zagXhilKzSN5HAJI27Zc=",
+        "originContent": "| 空闲连接超时         | `idle_conn_timeout`       | 120    | ✅         | HTTP 客户端空闲连接超时（秒）  |",
+        "translatedContent": "| アイドル接続タイムアウト | `idle_conn_timeout`       | 120      | ✅         | HTTPクライアントのアイドル接続タイムアウト（秒）     |"
+      },
+      {
+        "row": 39,
+        "rowsha": "/mLVp0/m/XmyDHRpwWsDz0WRMdw6u+urR888bx7h2VA=",
+        "originContent": "| 响应头超时           | `response_header_timeout` | 600    | ✅         | 等待上游响应头超时（秒）       |",
+        "translatedContent": "| レスポンスヘッダタイムアウト | `response_header_timeout` | 600      | ✅         | 上流レスポンスヘッダ待機タイムアウト（秒）           |"
+      },
+      {
+        "row": 40,
+        "rowsha": "/pGxPx6u2krteEA9HqPYD+15ZQZxr9wJhsuq0ewKv9c=",
+        "originContent": "| 最大空闲连接数       | `max_idle_conns`          | 100    | ✅         | 连接池最大空闲连接总数         |",
+        "translatedContent": "| 最大アイドル接続数     | `max_idle_conns`          | 100      | ✅         | コネクションプールの最大アイドル接続数               |"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "| 每主机最大空闲连接数 | `max_idle_conns_per_host` | 50     | ✅         | 每个上游主机最大空闲连接数     |\n| 代理服务器地址       | `proxy_url`               | -      | ✅         | 用于转发请求的 HTTP/HTTPS 代理，为空则使用环境配置 |\n\n**密钥配置：**\n\n| 配置项         | 字段名                            | 默认值 | 分组可覆盖 | 说明                                             |\n| -------------- | --------------------------------- | ------ | ---------- | ------------------------------------------------ |\n| 最大重试次数   | `max_retries`                     | 3      | ✅         | 单个请求使用不同密钥的最大重试次数               |\n| 黑名单阈值     | `blacklist_threshold`             | 3      | ✅         | 密钥连续失败多少次后进入黑名单                   |\n| 密钥验证间隔   | `key_validation_interval_minutes` | 60     | ✅         | 后台定时验证密钥周期（分钟）                     |\n| 密钥验证并发数 | `key_validation_concurrency`      | 10     | ✅         | 后台定时验证无效 Key 时的并发数                  |\n| 密钥验证超时   | `key_validation_timeout_seconds`  | 20     | ✅         | 后台定时验证单个 Key 时的 API 请求超时时间（秒） |\n\n</details>\n\n## Web 管理界面\n\n访问管理控制台：<http://localhost:3001>（默认地址）\n\n### 界面展示\n\n<img src=\"https://raw.githubusercontent.com/tbphp/gpt-load/main/screenshot/dashboard.png\" alt=\"仪表盘\" width=\"600\" />\n\n<br/>\n\n<img src=\"https://raw.githubusercontent.com/tbphp/gpt-load/main/screenshot/keys.png\" alt=\"密钥管理\" width=\"600\" />\n\n<br/>\n\nWeb 管理界面提供以下功能：\n\n- **仪表盘**: 实时统计信息和系统状态概览\n- **密钥管理**: 创建和配置 AI 服务商分组，添加、删除和监控 API 密钥\n- **请求日志**: 详细的请求历史记录和调试信息\n- **系统设置**: 全局配置管理和热重载\n\n## API 使用说明\n\n<details>\n<summary>代理接口调用方式</summary>",
+    "ContentSha": "JRfO3Kvc1CegldKAPii5n6/dr+HMdjP7QehHEzCrTZI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| ホストごとの最大アイドル接続数 | `max_idle_conns_per_host` | 50     | ✅         | 各アップストリームホストの最大アイドル接続数    |\n| プロキシサーバーアドレス         | `proxy_url`               | -      | ✅         | リクエスト転送に使用する HTTP/HTTPS プロキシ。空欄の場合は環境設定を使用 |\n\n**キー設定：**\n\n| 設定項目       | フィールド名                          | デフォルト値 | グループ上書き可 | 説明                                               |\n| -------------- | ----------------------------------- | ------------ | --------------- | -------------------------------------------------- |\n| 最大リトライ回数 | `max_retries`                       | 3            | ✅              | 単一リクエストで異なるキーを使用する最大リトライ回数 |\n| ブラックリスト閾値 | `blacklist_threshold`               | 3            | ✅              | キーが連続で失敗した回数の閾値を超えた後にブラックリストに登録 |\n| キー検証間隔（分）| `key_validation_interval_minutes`  | 60           | ✅              | バックグラウンドでキーを定期検証する周期（分）    |\n| キー検証同時実行数 | `key_validation_concurrency`        | 10           | ✅              | バックグラウンドで無効なキーを検証する際の同時実行数 |\n| キー検証タイムアウト（秒） | `key_validation_timeout_seconds` | 20           | ✅              | バックグラウンドで単一キーの API リクエストタイムアウト時間（秒） |\n\n</details>\n\n## Web 管理画面\n\n管理コンソールにアクセス：<http://localhost:3001>（デフォルトアドレス）\n\n### 画面表示\n\n<img src=\"https://raw.githubusercontent.com/tbphp/gpt-load/main/screenshot/dashboard.png\" alt=\"ダッシュボード\" width=\"600\" />\n\n<br/>\n\n<img src=\"https://raw.githubusercontent.com/tbphp/gpt-load/main/screenshot/keys.png\" alt=\"キー管理\" width=\"600\" />\n\n<br/>\n\nWeb 管理画面は以下の機能を提供します：\n\n- **ダッシュボード**: リアルタイムの統計情報とシステム状態の概要\n- **キー管理**: AI サービスプロバイダーグループの作成・設定、API キーの追加・削除・監視\n- **リクエストログ**: 詳細なリクエスト履歴およびデバッグ情報\n- **システム設定**: グローバル設定管理とホットリロード\n\n## API 使用説明\n\n<details>\n<summary>プロキシインターフェース呼び出し方法</summary>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jTuAX9oG/xqXdeKlm+sjgj2Ie4XbqLNoqff0JLjR1d4=",
+        "originContent": "| 每主机最大空闲连接数 | `max_idle_conns_per_host` | 50     | ✅         | 每个上游主机最大空闲连接数     |",
+        "translatedContent": "| ホストごとの最大アイドル接続数 | `max_idle_conns_per_host` | 50     | ✅         | 各アップストリームホストの最大アイドル接続数    |"
+      },
+      {
+        "row": 2,
+        "rowsha": "xJRkMPXwT4xViQvI+IFIoO6r+cCXm87S3Shl8efKGao=",
+        "originContent": "| 代理服务器地址       | `proxy_url`               | -      | ✅         | 用于转发请求的 HTTP/HTTPS 代理，为空则使用环境配置 |",
+        "translatedContent": "| プロキシサーバーアドレス         | `proxy_url`               | -      | ✅         | リクエスト転送に使用する HTTP/HTTPS プロキシ。空欄の場合は環境設定を使用 |"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Aqq1ERsoC8m2oEolWCf6TnPggd1HlBXZX4PDguVY/D4=",
+        "originContent": "**密钥配置：**",
+        "translatedContent": "**キー設定：**"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ZCzrDu7R1GZxtzuVCMfhW0I3hi6TtvnJh7qN4TBy0Po=",
+        "originContent": "| 配置项         | 字段名                            | 默认值 | 分组可覆盖 | 说明                                             |",
+        "translatedContent": "| 設定項目       | フィールド名                          | デフォルト値 | グループ上書き可 | 説明                                               |"
+      },
+      {
+        "row": 7,
+        "rowsha": "d9h6KjFjZEQ40s4aR4ZVj7EKAGrA6bTAj/0Lx9eNso8=",
+        "originContent": "| -------------- | --------------------------------- | ------ | ---------- | ------------------------------------------------ |",
+        "translatedContent": "| -------------- | ----------------------------------- | ------------ | --------------- | -------------------------------------------------- |"
+      },
+      {
+        "row": 8,
+        "rowsha": "WqgsWsFcHbZysLXZnA1Fv7KCHYPqnCytUN2z/HDXx5w=",
+        "originContent": "| 最大重试次数   | `max_retries`                     | 3      | ✅         | 单个请求使用不同密钥的最大重试次数               |",
+        "translatedContent": "| 最大リトライ回数 | `max_retries`                       | 3            | ✅              | 単一リクエストで異なるキーを使用する最大リトライ回数 |"
+      },
+      {
+        "row": 9,
+        "rowsha": "aejZ3WrlQSgAQrKUeb+FaCZXxDduYwxMuLAnS7gso9A=",
+        "originContent": "| 黑名单阈值     | `blacklist_threshold`             | 3      | ✅         | 密钥连续失败多少次后进入黑名单                   |",
+        "translatedContent": "| ブラックリスト閾値 | `blacklist_threshold`               | 3            | ✅              | キーが連続で失敗した回数の閾値を超えた後にブラックリストに登録 |"
+      },
+      {
+        "row": 10,
+        "rowsha": "ru5Ri6wRWom1El9gIHjsci/ZpUM1fuhwt1T78g/n20Y=",
+        "originContent": "| 密钥验证间隔   | `key_validation_interval_minutes` | 60     | ✅         | 后台定时验证密钥周期（分钟）                     |",
+        "translatedContent": "| キー検証間隔（分）| `key_validation_interval_minutes`  | 60           | ✅              | バックグラウンドでキーを定期検証する周期（分）    |"
+      },
+      {
+        "row": 11,
+        "rowsha": "Y5iai88UYQma9nQcPyYcp+fq2NJ+QibXGyBqRqMjGhc=",
+        "originContent": "| 密钥验证并发数 | `key_validation_concurrency`      | 10     | ✅         | 后台定时验证无效 Key 时的并发数                  |",
+        "translatedContent": "| キー検証同時実行数 | `key_validation_concurrency`        | 10           | ✅              | バックグラウンドで無効なキーを検証する際の同時実行数 |"
+      },
+      {
+        "row": 12,
+        "rowsha": "94SM8t4GP3kKbMCL/Cdpjh7wuVy77m+xlzpvPupYv+o=",
+        "originContent": "| 密钥验证超时   | `key_validation_timeout_seconds`  | 20     | ✅         | 后台定时验证单个 Key 时的 API 请求超时时间（秒） |",
+        "translatedContent": "| キー検証タイムアウト（秒） | `key_validation_timeout_seconds` | 20           | ✅              | バックグラウンドで単一キーの API リクエストタイムアウト時間（秒） |"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "gcauHcvYPqNy4l+PcZ9mq23YA1hXAwyFpK/VifOQvNo=",
+        "originContent": "## Web 管理界面",
+        "translatedContent": "## Web 管理画面"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "4saMZAEigPTRo1Oc/MWMzm6JyIsCcQRl+YyyPxRo5JQ=",
+        "originContent": "访问管理控制台：<http://localhost:3001>（默认地址）",
+        "translatedContent": "管理コンソールにアクセス：<http://localhost:3001>（デフォルトアドレス）"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "/BU+mH/kunCh9rnIGt2fbI99IztRGk58lUcbeMYzkzc=",
+        "originContent": "### 界面展示",
+        "translatedContent": "### 画面表示"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "gD2xnOiHKtMg/VC28882RlNCrlc3C1aGPhX9KLfhnkw=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/tbphp/gpt-load/main/screenshot/dashboard.png\" alt=\"仪表盘\" width=\"600\" />",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/tbphp/gpt-load/main/screenshot/dashboard.png\" alt=\"ダッシュボード\" width=\"600\" />"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "XE4ECaPrmb55/Mo+c65VDDe2F0/p4/6ZkBtpwnJKc1M=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/tbphp/gpt-load/main/screenshot/keys.png\" alt=\"密钥管理\" width=\"600\" />",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/tbphp/gpt-load/main/screenshot/keys.png\" alt=\"キー管理\" width=\"600\" />"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "VhcIfy1Z80vT/FpelloExsvVvpWk5E2guGd/FOC9yrQ=",
+        "originContent": "Web 管理界面提供以下功能：",
+        "translatedContent": "Web 管理画面は以下の機能を提供します："
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "WhPMo9Y2BGmdr36hAnSJA8+N5Qio5BzImvXJ7mBdYCc=",
+        "originContent": "- **仪表盘**: 实时统计信息和系统状态概览",
+        "translatedContent": "- **ダッシュボード**: リアルタイムの統計情報とシステム状態の概要"
+      },
+      {
+        "row": 33,
+        "rowsha": "uHqlfv69lETarKSUKV4MlBGmDo1jySZqI9+vjoapPu0=",
+        "originContent": "- **密钥管理**: 创建和配置 AI 服务商分组，添加、删除和监控 API 密钥",
+        "translatedContent": "- **キー管理**: AI サービスプロバイダーグループの作成・設定、API キーの追加・削除・監視"
+      },
+      {
+        "row": 34,
+        "rowsha": "lvjYTKnJ9xo8DEfRoii3AZPh/H+FaDt0X5znhoPOalE=",
+        "originContent": "- **请求日志**: 详细的请求历史记录和调试信息",
+        "translatedContent": "- **リクエストログ**: 詳細なリクエスト履歴およびデバッグ情報"
+      },
+      {
+        "row": 35,
+        "rowsha": "ISl/vuy8dxPfkMzatX1bJLojroYpQ92HmqifWIFbyPA=",
+        "originContent": "- **系统设置**: 全局配置管理和热重载",
+        "translatedContent": "- **システム設定**: グローバル設定管理とホットリロード"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "RaQl4W+GX+37NqFTb6Wc1Epc6193u5XDMnWjLfYvI3A=",
+        "originContent": "## API 使用说明",
+        "translatedContent": "## API 使用説明"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 40,
+        "rowsha": "hcCFwcWKQuCPTT7ak8F5ffsQs3Ndl3FznqwpAlBoucw=",
+        "originContent": "<summary>代理接口调用方式</summary>",
+        "translatedContent": "<summary>プロキシインターフェース呼び出し方法</summary>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "\nGPT-Load 通过分组名称路由请求到不同的 AI 服务。使用方式如下：\n\n#### 1. 代理端点格式\n",
+    "ContentSha": "4SleZ59aEkvobGyDB3hsqQno2FfqDc88sqF1ngpflIY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "GPT-Load はグループ名によってリクエストを異なる AI サービスにルーティングします。使用方法は以下の通りです：\n\n#### 1. プロキシエンドポイントの形式\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "GPT-Load はグループ名によってリクエストを異なる AI サービスにルーティングします。使用方法は以下の通りです："
+      },
+      {
+        "row": 2,
+        "rowsha": "aWmTmrMUYx1/gYF6ZharQNPnlPlfgSm9J3XlCdD6/w8=",
+        "originContent": "GPT-Load 通过分组名称路由请求到不同的 AI 服务。使用方式如下：",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 1. プロキシエンドポイントの形式"
+      },
+      {
+        "row": 4,
+        "rowsha": "NpWhKZcXisWmHROj5sqrVGXYxUtwvn5ozAcjUC4kF+c=",
+        "originContent": "#### 1. 代理端点格式",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```text\nhttp://localhost:3001/proxy/{group_name}/{原始API路径}\n```",
+    "ContentSha": "3mp8l5Ri9V3xjlTqYF7YqHCXB5Hbsx38SneV9SISyzc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```text\nhttp://localhost:3001/proxy/{group_name}/{原始API路径}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+        "originContent": "```text",
+        "translatedContent": "```text"
+      },
+      {
+        "row": 2,
+        "rowsha": "JGBG6FqX/iD202TpsJTpasce8l7T+v9dWOdZzW4Q/Zs=",
+        "originContent": "http://localhost:3001/proxy/{group_name}/{原始API路径}",
+        "translatedContent": "http://localhost:3001/proxy/{group_name}/{原始API路径}"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n- `{group_name}`: 在管理界面创建的分组名称\n- `{原始API路径}`: 保持与原始 AI 服务完全一致的路径\n\n#### 2. 认证方式\n\n在 Web 管理界面中配置**代理密钥** (`Proxy Keys`)，可设置系统级别和分组级别的代理密钥。\n\n- **认证方式**: 与原生 API 一致，但需将原始密钥替换为配置的代理密钥。\n- **密钥作用域**: 在系统设置配置的 **全局代理密钥** 可以在所有分组使用，在分组配置的 **分组代理密钥** 仅在当前分组有效。\n- **格式**: 多个密钥使用半角英文逗号分隔。\n\n#### 3. OpenAI 接口调用示例\n\n假设创建了名为 `openai` 的分组：\n\n**原始调用方式：**\n",
+    "ContentSha": "w4k+rfTca5TOSwsgzVjHm07pCXYPVdDmnn8Ll1V5TFE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- `{group_name}`: 管理画面で作成したグループ名\n- `{原始API路径}`: 元の AI サービスと完全に一致するパス\n\n#### 2. 認証方式\n\nWeb 管理画面で**プロキシキー**(`Proxy Keys`)を設定し、システムレベルおよびグループレベルのプロキシキーを設定可能。\n\n- **認証方式**: ネイティブ API と同じだが、元のキーを設定したプロキシキーに置き換える必要がある。\n- **キーのスコープ**: システム設定で設定した**グローバルプロキシキー**はすべてのグループで使用可能、グループ設定の**グループプロキシキー**は当該グループ内のみ有効。\n- **形式**: 複数のキーは半角カンマで区切る。\n\n#### 3. OpenAI インターフェース呼び出し例\n\n`openai` という名前のグループを作成したと仮定：\n\n**元の呼び出し方式：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "G/axrEjz/R1peJ4rSyBTlTe03jAvIvYe/3Wav0DqHbI=",
+        "originContent": "- `{group_name}`: 在管理界面创建的分组名称",
+        "translatedContent": "- `{group_name}`: 管理画面で作成したグループ名"
+      },
+      {
+        "row": 3,
+        "rowsha": "ju1wzMQH47v0evL295jFsRFA9ad4NDZEMl9IrnFfWOU=",
+        "originContent": "- `{原始API路径}`: 保持与原始 AI 服务完全一致的路径",
+        "translatedContent": "- `{原始API路径}`: 元の AI サービスと完全に一致するパス"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "VQ5z7iViURFdLhtWWG6YG4pNOkN/45BtFgOY3F5BC/c=",
+        "originContent": "#### 2. 认证方式",
+        "translatedContent": "#### 2. 認証方式"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "FgYR/dSyuO7XdhlPrF9Be/vMSOpdfjYq6rdOt7fZHZA=",
+        "originContent": "在 Web 管理界面中配置**代理密钥** (`Proxy Keys`)，可设置系统级别和分组级别的代理密钥。",
+        "translatedContent": "Web 管理画面で**プロキシキー**(`Proxy Keys`)を設定し、システムレベルおよびグループレベルのプロキシキーを設定可能。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "rDieD67XoQ6KZ9F9b9vbI89ILBfgEGkJmdaVGOeSq9I=",
+        "originContent": "- **认证方式**: 与原生 API 一致，但需将原始密钥替换为配置的代理密钥。",
+        "translatedContent": "- **認証方式**: ネイティブ API と同じだが、元のキーを設定したプロキシキーに置き換える必要がある。"
+      },
+      {
+        "row": 10,
+        "rowsha": "5n9dFhqzMZG0Th4+4U3xkN5zDms9ZY3F6nbp5OtGmGY=",
+        "originContent": "- **密钥作用域**: 在系统设置配置的 **全局代理密钥** 可以在所有分组使用，在分组配置的 **分组代理密钥** 仅在当前分组有效。",
+        "translatedContent": "- **キーのスコープ**: システム設定で設定した**グローバルプロキシキー**はすべてのグループで使用可能、グループ設定の**グループプロキシキー**は当該グループ内のみ有効。"
+      },
+      {
+        "row": 11,
+        "rowsha": "75zUBouyEfKHMdWH6L8Sv63nlwQUt9fcnIhKMG4EB34=",
+        "originContent": "- **格式**: 多个密钥使用半角英文逗号分隔。",
+        "translatedContent": "- **形式**: 複数のキーは半角カンマで区切る。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "uiHTuVoE94KmbH5aNv5bvKLVingSE9fhKT0D065a6mc=",
+        "originContent": "#### 3. OpenAI 接口调用示例",
+        "translatedContent": "#### 3. OpenAI インターフェース呼び出し例"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "TaSIw86B4d0F6NCx+3GzItQ3JGY73RfdKeYyKNkovQQ=",
+        "originContent": "假设创建了名为 `openai` 的分组：",
+        "translatedContent": "`openai` という名前のグループを作成したと仮定："
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "ra1x+fTH6imbJJEiaLt4L7eYylVUMcYaSZ7KPQE1cTE=",
+        "originContent": "**原始调用方式：**",
+        "translatedContent": "**元の呼び出し方式：**"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```bash\ncurl -X POST https://api.openai.com/v1/chat/completions \\\n  -H \"Authorization: Bearer sk-your-openai-key\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"model\": \"gpt-4.1-mini\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'\n```",
+    "ContentSha": "q31rihhXMzgvxzdybC9Hitc7wUC7N5jnqSPGysrrpPo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl -X POST https://api.openai.com/v1/chat/completions \\\n  -H \"Authorization: Bearer sk-your-openai-key\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"model\": \"gpt-4.1-mini\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "+q8be91QI+ExzU/wMNDIOEILzr+vx4Mlqby0rCMnGcE=",
+        "originContent": "curl -X POST https://api.openai.com/v1/chat/completions \\",
+        "translatedContent": "curl -X POST https://api.openai.com/v1/chat/completions \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "kjAE1dvB6H62AEnM+wQI2LyA3HsHAV55Arbi8yF9XZ4=",
+        "originContent": "  -H \"Authorization: Bearer sk-your-openai-key\" \\",
+        "translatedContent": "  -H \"Authorization: Bearer sk-your-openai-key\" \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "b/EnLoKnKw0IEllQXHamEafmzM3fWpNT+oSnVk0G9WA=",
+        "originContent": "  -H \"Content-Type: application/json\" \\",
+        "translatedContent": "  -H \"Content-Type: application/json\" \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "6EkoXYvkQ6VxMf97ZocNjX07YIM8s79tNPCMob+40mA=",
+        "originContent": "  -d '{\"model\": \"gpt-4.1-mini\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'",
+        "translatedContent": "  -d '{\"model\": \"gpt-4.1-mini\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n**代理调用方式：**\n",
+    "ContentSha": "QR4zHAc/OyjMzokRGCSgrUdb5RDWknggdlOh1e/p4bM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**代理呼び出し方式：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "hnzoyyfcla70ZLTwcZqk4krL+ma52dAR7863Sw3+F44=",
+        "originContent": "**代理调用方式：**",
+        "translatedContent": "**代理呼び出し方式：**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```bash\ncurl -X POST http://localhost:3001/proxy/openai/v1/chat/completions \\\n  -H \"Authorization: Bearer your-proxy-key\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"model\": \"gpt-4.1-mini\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'\n```",
+    "ContentSha": "PGy5XZoScocgUqD+IYnCzsddSQbGqY+kbegbrQVDXdA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl -X POST http://localhost:3001/proxy/openai/v1/chat/completions \\\n  -H \"Authorization: Bearer your-proxy-key\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"model\": \"gpt-4.1-mini\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "MCC8hjuzMQ/mgA1Z6P2XHgdI7TZKC0p3eYyJj3UMXiM=",
+        "originContent": "curl -X POST http://localhost:3001/proxy/openai/v1/chat/completions \\",
+        "translatedContent": "curl -X POST http://localhost:3001/proxy/openai/v1/chat/completions \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "KOq4fcH837AkH1ElEU4fVGawx/ll9Iiyq8dmK2rEKgA=",
+        "originContent": "  -H \"Authorization: Bearer your-proxy-key\" \\",
+        "translatedContent": "  -H \"Authorization: Bearer your-proxy-key\" \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "b/EnLoKnKw0IEllQXHamEafmzM3fWpNT+oSnVk0G9WA=",
+        "originContent": "  -H \"Content-Type: application/json\" \\",
+        "translatedContent": "  -H \"Content-Type: application/json\" \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "6EkoXYvkQ6VxMf97ZocNjX07YIM8s79tNPCMob+40mA=",
+        "originContent": "  -d '{\"model\": \"gpt-4.1-mini\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'",
+        "translatedContent": "  -d '{\"model\": \"gpt-4.1-mini\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\n**变更说明：**\n\n- 将 `https://api.openai.com` 替换为 `http://localhost:3001/proxy/openai`\n- 将原始 API Key 替换为**代理密钥**\n\n#### 4. Gemini 接口调用示例\n\n假设创建了名为 `gemini` 的分组：\n\n**原始调用方式：**\n",
+    "ContentSha": "c/Jr+DO4qPeinGRpB+Q/i3dosvyb420tD1iIBnpzbiA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**変更内容：**\n\n- `https://api.openai.com` を `http://localhost:3001/proxy/openai` に置き換え\n- 元の API キーを**代理キー**に置き換え\n\n#### 4. Gemini インターフェース呼び出し例\n\n`gemini` という名前のグループを作成したと仮定：\n\n**元の呼び出し方法：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "de5FRbG9oYf++F3L0yF4oFMXSBBIvvMwbxRj+40CD9s=",
+        "originContent": "**变更说明：**",
+        "translatedContent": "**変更内容：**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "escW7vx+y+XiNP5pRCwqFG+8P998fXk3ZZH2gypJLtc=",
+        "originContent": "- 将 `https://api.openai.com` 替换为 `http://localhost:3001/proxy/openai`",
+        "translatedContent": "- `https://api.openai.com` を `http://localhost:3001/proxy/openai` に置き換え"
+      },
+      {
+        "row": 5,
+        "rowsha": "ET9fcLl3KzO2pQOwMTcOdm2OPrQU28+NpoBGUjMfPmU=",
+        "originContent": "- 将原始 API Key 替换为**代理密钥**",
+        "translatedContent": "- 元の API キーを**代理キー**に置き換え"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "P21sC/bphp5oi/KO/IENlZw/jOct0PStR73OXX1k5DI=",
+        "originContent": "#### 4. Gemini 接口调用示例",
+        "translatedContent": "#### 4. Gemini インターフェース呼び出し例"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "OCun6XGGlfIpG/8zBTNqYuGpK+m9kUyr+a0on3URcJY=",
+        "originContent": "假设创建了名为 `gemini` 的分组：",
+        "translatedContent": "`gemini` という名前のグループを作成したと仮定："
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ra1x+fTH6imbJJEiaLt4L7eYylVUMcYaSZ7KPQE1cTE=",
+        "originContent": "**原始调用方式：**",
+        "translatedContent": "**元の呼び出し方法：**"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "```bash\ncurl -X POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=your-gemini-key \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"contents\": [{\"parts\": [{\"text\": \"Hello\"}]}]}'\n```",
+    "ContentSha": "bFlpJBFVGGWn2/BH/OUqGdbMycW4SagDww1vPlY5bOM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl -X POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=your-gemini-key \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"contents\": [{\"parts\": [{\"text\": \"Hello\"}]}]}'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "dhIjrrVPfygO1UTiWmPnHQVYazFrLg1svUoxl2g/cLI=",
+        "originContent": "curl -X POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=your-gemini-key \\",
+        "translatedContent": "curl -X POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=your-gemini-key \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "b/EnLoKnKw0IEllQXHamEafmzM3fWpNT+oSnVk0G9WA=",
+        "originContent": "  -H \"Content-Type: application/json\" \\",
+        "translatedContent": "  -H \"Content-Type: application/json\" \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "rU53x9ES0t2UaAL1ieiuVwmFrr+AZfx16ins8GcR9t4=",
+        "originContent": "  -d '{\"contents\": [{\"parts\": [{\"text\": \"Hello\"}]}]}'",
+        "translatedContent": "  -d '{\"contents\": [{\"parts\": [{\"text\": \"Hello\"}]}]}'"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "\n**代理调用方式：**\n",
+    "ContentSha": "QR4zHAc/OyjMzokRGCSgrUdb5RDWknggdlOh1e/p4bM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**代理呼び出し方法：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "hnzoyyfcla70ZLTwcZqk4krL+ma52dAR7863Sw3+F44=",
+        "originContent": "**代理调用方式：**",
+        "translatedContent": "**代理呼び出し方法：**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "```bash\ncurl -X POST http://localhost:3001/proxy/gemini/v1beta/models/gemini-2.5-pro:generateContent?key=your-proxy-key \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"contents\": [{\"parts\": [{\"text\": \"Hello\"}]}]}'\n```",
+    "ContentSha": "+s8C8u5BoSsC2zMl5r5W4OKkm1yGIJNBf3CtpsxH9rU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl -X POST http://localhost:3001/proxy/gemini/v1beta/models/gemini-2.5-pro:generateContent?key=your-proxy-key \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"contents\": [{\"parts\": [{\"text\": \"Hello\"}]}]}'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "tnWMniqSiGscMU3FGaS//qASNJVB+pRjufuy5AQ8KLM=",
+        "originContent": "curl -X POST http://localhost:3001/proxy/gemini/v1beta/models/gemini-2.5-pro:generateContent?key=your-proxy-key \\",
+        "translatedContent": "curl -X POST http://localhost:3001/proxy/gemini/v1beta/models/gemini-2.5-pro:generateContent?key=your-proxy-key \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "b/EnLoKnKw0IEllQXHamEafmzM3fWpNT+oSnVk0G9WA=",
+        "originContent": "  -H \"Content-Type: application/json\" \\",
+        "translatedContent": "  -H \"Content-Type: application/json\" \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "rU53x9ES0t2UaAL1ieiuVwmFrr+AZfx16ins8GcR9t4=",
+        "originContent": "  -d '{\"contents\": [{\"parts\": [{\"text\": \"Hello\"}]}]}'",
+        "translatedContent": "  -d '{\"contents\": [{\"parts\": [{\"text\": \"Hello\"}]}]}'"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 24,
+    "Content": "\n**变更说明：**\n\n- 将 `https://generativelanguage.googleapis.com` 替换为 `http://localhost:3001/proxy/gemini`\n- 将 URL 参数中的 `key=your-gemini-key` 替换为**代理密钥**\n\n#### 5. Anthropic 接口调用示例\n\n假设创建了名为 `anthropic` 的分组：\n\n**原始调用方式：**\n",
+    "ContentSha": "Hz66Kn6XC1UZLqSioL+iEsjFkVqvxnSZo0ds2T8Zhv8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**変更内容：**\n\n- `https://generativelanguage.googleapis.com` を `http://localhost:3001/proxy/gemini` に置換\n- URL パラメータの `key=your-gemini-key` を**プロキシキー**に置換\n\n#### 5. Anthropic インターフェース呼び出し例\n\n`anthropic` という名前のグループを作成したと仮定：\n\n**元の呼び出し方法：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "de5FRbG9oYf++F3L0yF4oFMXSBBIvvMwbxRj+40CD9s=",
+        "originContent": "**变更说明：**",
+        "translatedContent": "**変更内容：**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "QfY5L0ofWiKMft/y3VEHeyPIdlJ9NLT8Xx/gHTrrVv0=",
+        "originContent": "- 将 `https://generativelanguage.googleapis.com` 替换为 `http://localhost:3001/proxy/gemini`",
+        "translatedContent": "- `https://generativelanguage.googleapis.com` を `http://localhost:3001/proxy/gemini` に置換"
+      },
+      {
+        "row": 5,
+        "rowsha": "bBAKpTfq3hatun8s5nCqquBp2QdnoIG662kgD+mpyLY=",
+        "originContent": "- 将 URL 参数中的 `key=your-gemini-key` 替换为**代理密钥**",
+        "translatedContent": "- URL パラメータの `key=your-gemini-key` を**プロキシキー**に置換"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "MItiljblt8aK8e9DDGrUom0VjnBa4u2BksU+jnec7Gg=",
+        "originContent": "#### 5. Anthropic 接口调用示例",
+        "translatedContent": "#### 5. Anthropic インターフェース呼び出し例"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Icx7tc8THahulZMwv2CmzP/ayD3M3hh4Gr0YV78SjWQ=",
+        "originContent": "假设创建了名为 `anthropic` 的分组：",
+        "translatedContent": "`anthropic` という名前のグループを作成したと仮定："
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ra1x+fTH6imbJJEiaLt4L7eYylVUMcYaSZ7KPQE1cTE=",
+        "originContent": "**原始调用方式：**",
+        "translatedContent": "**元の呼び出し方法：**"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 25,
+    "Content": "```bash\ncurl -X POST https://api.anthropic.com/v1/messages \\\n  -H \"x-api-key: sk-ant-api03-your-anthropic-key\" \\\n  -H \"anthropic-version: 2023-06-01\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"model\": \"claude-sonnet-4-20250514\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'\n```",
+    "ContentSha": "BN+dp2UHjZkyC3KXyz4d743LE5NL2gu2kUIRMnJOPmA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl -X POST https://api.anthropic.com/v1/messages \\\n  -H \"x-api-key: sk-ant-api03-your-anthropic-key\" \\\n  -H \"anthropic-version: 2023-06-01\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"model\": \"claude-sonnet-4-20250514\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "O53MXfwxdNr/+xqfRgSqMC+Hs36XdlytTsAdJgb1IG8=",
+        "originContent": "curl -X POST https://api.anthropic.com/v1/messages \\",
+        "translatedContent": "curl -X POST https://api.anthropic.com/v1/messages \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "MtBR8XJkURmZ3T9ZaGjAa9QgvZjo0ATFrjGz8P/STIQ=",
+        "originContent": "  -H \"x-api-key: sk-ant-api03-your-anthropic-key\" \\",
+        "translatedContent": "  -H \"x-api-key: sk-ant-api03-your-anthropic-key\" \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "2/L4RGTBfsvGwPvIFSicBkWGEd7wCcJwJRD3kwa0aHg=",
+        "originContent": "  -H \"anthropic-version: 2023-06-01\" \\",
+        "translatedContent": "  -H \"anthropic-version: 2023-06-01\" \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "b/EnLoKnKw0IEllQXHamEafmzM3fWpNT+oSnVk0G9WA=",
+        "originContent": "  -H \"Content-Type: application/json\" \\",
+        "translatedContent": "  -H \"Content-Type: application/json\" \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "SbI5xJsKBsiOeK2Va0bDlLJfbsDQOrusFWmljBhJsTg=",
+        "originContent": "  -d '{\"model\": \"claude-sonnet-4-20250514\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'",
+        "translatedContent": "  -d '{\"model\": \"claude-sonnet-4-20250514\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 26,
+    "Content": "\n**代理调用方式：**\n",
+    "ContentSha": "QR4zHAc/OyjMzokRGCSgrUdb5RDWknggdlOh1e/p4bM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**代理呼び出し方法：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "hnzoyyfcla70ZLTwcZqk4krL+ma52dAR7863Sw3+F44=",
+        "originContent": "**代理调用方式：**",
+        "translatedContent": "**代理呼び出し方法：**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 27,
+    "Content": "```bash\ncurl -X POST http://localhost:3001/proxy/anthropic/v1/messages \\\n  -H \"x-api-key: your-proxy-key\" \\\n  -H \"anthropic-version: 2023-06-01\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"model\": \"claude-sonnet-4-20250514\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'\n```",
+    "ContentSha": "unUpFBnqLjUOIuK0GsiLsWiHXxd2Z74Kaj+BGbW2t2M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl -X POST http://localhost:3001/proxy/anthropic/v1/messages \\\n  -H \"x-api-key: your-proxy-key\" \\\n  -H \"anthropic-version: 2023-06-01\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"model\": \"claude-sonnet-4-20250514\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "hdjnNV2JVCsPmyRFbJeeASMRzbClEm0Tybi2LzPbXVA=",
+        "originContent": "curl -X POST http://localhost:3001/proxy/anthropic/v1/messages \\",
+        "translatedContent": "curl -X POST http://localhost:3001/proxy/anthropic/v1/messages \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZxJyPqwbTCTeZ1u7Vpu79WADXlsBhZEKHp2PcKq4FNY=",
+        "originContent": "  -H \"x-api-key: your-proxy-key\" \\",
+        "translatedContent": "  -H \"x-api-key: your-proxy-key\" \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "2/L4RGTBfsvGwPvIFSicBkWGEd7wCcJwJRD3kwa0aHg=",
+        "originContent": "  -H \"anthropic-version: 2023-06-01\" \\",
+        "translatedContent": "  -H \"anthropic-version: 2023-06-01\" \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "b/EnLoKnKw0IEllQXHamEafmzM3fWpNT+oSnVk0G9WA=",
+        "originContent": "  -H \"Content-Type: application/json\" \\",
+        "translatedContent": "  -H \"Content-Type: application/json\" \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "SbI5xJsKBsiOeK2Va0bDlLJfbsDQOrusFWmljBhJsTg=",
+        "originContent": "  -d '{\"model\": \"claude-sonnet-4-20250514\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'",
+        "translatedContent": "  -d '{\"model\": \"claude-sonnet-4-20250514\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 28,
+    "Content": "\n**变更说明：**\n\n- 将 `https://api.anthropic.com` 替换为 `http://localhost:3001/proxy/anthropic`\n- 将 `x-api-key` 头部中的原始 API Key 替换为**代理密钥**\n\n#### 6. 支持的接口\n\n**OpenAI 格式：**\n\n- `/v1/chat/completions` - 聊天对话\n- `/v1/completions` - 文本补全\n- `/v1/embeddings` - 文本嵌入\n- `/v1/models` - 模型列表\n- 以及其他所有 OpenAI 兼容接口\n\n**Gemini 格式：**\n\n- `/v1beta/models/*/generateContent` - 内容生成\n- `/v1beta/models` - 模型列表\n- 以及其他所有 Gemini 原生接口\n\n**Anthropic 格式：**\n\n- `/v1/messages` - 消息对话\n- `/v1/models` - 模型列表（如果可用）\n- 以及其他所有 Anthropic 原生接口\n\n#### 7. 客户端 SDK 配置\n\n**OpenAI Python SDK：**\n",
+    "ContentSha": "C7SqJKpI9ETIEYf6sR4yD+rCbBYgtM5KHH5Y6ohlxkY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**変更説明：**\n\n- `https://api.anthropic.com` を `http://localhost:3001/proxy/anthropic` に置き換え\n- `x-api-key` ヘッダー内の元の API キーを**プロキシキー**に置き換え\n\n#### 6. サポートされているインターフェース\n\n**OpenAI 形式：**\n\n- `/v1/chat/completions` - チャット対話\n- `/v1/completions` - テキスト補完\n- `/v1/embeddings` - テキスト埋め込み\n- `/v1/models` - モデル一覧\n- その他すべての OpenAI 互換インターフェース\n\n**Gemini 形式：**\n\n- `/v1beta/models/*/generateContent` - コンテンツ生成\n- `/v1beta/models` - モデル一覧\n- その他すべての Gemini ネイティブインターフェース\n\n**Anthropic 形式：**\n\n- `/v1/messages` - メッセージ対話\n- `/v1/models` - モデル一覧（利用可能な場合）\n- その他すべての Anthropic ネイティブインターフェース\n\n#### 7. クライアント SDK 設定\n\n**OpenAI Python SDK：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "de5FRbG9oYf++F3L0yF4oFMXSBBIvvMwbxRj+40CD9s=",
+        "originContent": "**变更说明：**",
+        "translatedContent": "**変更説明：**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "bFp4NiCiiOLo8zZJQbr4nOUQGA1EMe05z5AqIBXjNZU=",
+        "originContent": "- 将 `https://api.anthropic.com` 替换为 `http://localhost:3001/proxy/anthropic`",
+        "translatedContent": "- `https://api.anthropic.com` を `http://localhost:3001/proxy/anthropic` に置き換え"
+      },
+      {
+        "row": 5,
+        "rowsha": "s/+mn7IFaEMGlLNEQ2JGF8+rRY8dZomsYuSnTKvX1H4=",
+        "originContent": "- 将 `x-api-key` 头部中的原始 API Key 替换为**代理密钥**",
+        "translatedContent": "- `x-api-key` ヘッダー内の元の API キーを**プロキシキー**に置き換え"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "bBwBhP2nctiE/p8ZW1AW9Fo/RmhYMP0C6jiYJ8ZHYC8=",
+        "originContent": "#### 6. 支持的接口",
+        "translatedContent": "#### 6. サポートされているインターフェース"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ATeiBjmaRZlsRP3v8x1c63fynw/+9xovX4nmvNUDecA=",
+        "originContent": "**OpenAI 格式：**",
+        "translatedContent": "**OpenAI 形式：**"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "tQ9CWf8ohIh7GMyP2QizK+YZi1uoUA9OzkQWr/atQOQ=",
+        "originContent": "- `/v1/chat/completions` - 聊天对话",
+        "translatedContent": "- `/v1/chat/completions` - チャット対話"
+      },
+      {
+        "row": 12,
+        "rowsha": "i5aghAfFfxB3XQ9+3lg2N4mKqWCYZNf2EiKf72LyAkM=",
+        "originContent": "- `/v1/completions` - 文本补全",
+        "translatedContent": "- `/v1/completions` - テキスト補完"
+      },
+      {
+        "row": 13,
+        "rowsha": "rK14H7j6osJAq/CoigtnAbUalC0c1X00/yZzzYObhTM=",
+        "originContent": "- `/v1/embeddings` - 文本嵌入",
+        "translatedContent": "- `/v1/embeddings` - テキスト埋め込み"
+      },
+      {
+        "row": 14,
+        "rowsha": "SIrzkhfjRGMuryN63EfV3NKOCA8Q/nwYvTdp0jzmipw=",
+        "originContent": "- `/v1/models` - 模型列表",
+        "translatedContent": "- `/v1/models` - モデル一覧"
+      },
+      {
+        "row": 15,
+        "rowsha": "r9VeuOZAfjNAJClxhILc/AdlsK0RCsU62MunRs9AK4U=",
+        "originContent": "- 以及其他所有 OpenAI 兼容接口",
+        "translatedContent": "- その他すべての OpenAI 互換インターフェース"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Unk9ISXm2wQqkixo3NqEs4K3uBSV2moVxOo3tJmTymM=",
+        "originContent": "**Gemini 格式：**",
+        "translatedContent": "**Gemini 形式：**"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Tpu9saQL6h0hJHQnStGUREaJU/WF0UGi4UDzX+FIAwI=",
+        "originContent": "- `/v1beta/models/*/generateContent` - 内容生成",
+        "translatedContent": "- `/v1beta/models/*/generateContent` - コンテンツ生成"
+      },
+      {
+        "row": 20,
+        "rowsha": "iX+/I9OA9SjVKPEnAmHGGjmceAW8wdR89dEf5780rME=",
+        "originContent": "- `/v1beta/models` - 模型列表",
+        "translatedContent": "- `/v1beta/models` - モデル一覧"
+      },
+      {
+        "row": 21,
+        "rowsha": "Grz7t9Rz9ygECOvvHqd1uRCjW49KSR8mIGuW/K8h1bk=",
+        "originContent": "- 以及其他所有 Gemini 原生接口",
+        "translatedContent": "- その他すべての Gemini ネイティブインターフェース"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "3uSjL/8m0JaR4soYPJuVsL/fgzvzLkC9r0GmO/GwqA8=",
+        "originContent": "**Anthropic 格式：**",
+        "translatedContent": "**Anthropic 形式：**"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "lrGwPvNk/IaD7KawFlSH16CJfbGMh+1TwDzRyCnGdHg=",
+        "originContent": "- `/v1/messages` - 消息对话",
+        "translatedContent": "- `/v1/messages` - メッセージ対話"
+      },
+      {
+        "row": 26,
+        "rowsha": "gMGXuugwCsYJBztsCO+Q+zzAhCp6fbgIDma4+Pmwrqw=",
+        "originContent": "- `/v1/models` - 模型列表（如果可用）",
+        "translatedContent": "- `/v1/models` - モデル一覧（利用可能な場合）"
+      },
+      {
+        "row": 27,
+        "rowsha": "5LBDrcSrBYT+0uv0Hee79XAljH/hfQVIePy84urJWw0=",
+        "originContent": "- 以及其他所有 Anthropic 原生接口",
+        "translatedContent": "- その他すべての Anthropic ネイティブインターフェース"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "MPS5eN7IE3pClDTrAkwaMUt30k6mdZmyyJc70D5CHyc=",
+        "originContent": "#### 7. 客户端 SDK 配置",
+        "translatedContent": "#### 7. クライアント SDK 設定"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "34oSp0EoMRLnK3nEUX5VphhN9CD0V76p4/ariEkAUIU=",
+        "originContent": "**OpenAI Python SDK：**",
+        "translatedContent": "**OpenAI Python SDK：**"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 29,
+    "Content": "```python\nfrom openai import OpenAI\n\nclient = OpenAI(\n    api_key=\"your-proxy-key\",  # 使用密钥\n    base_url=\"http://localhost:3001/proxy/openai\"  # 使用代理端点\n)\n\nresponse = client.chat.completions.create(\n    model=\"gpt-4.1-mini\",\n    messages=[{\"role\": \"user\", \"content\": \"Hello\"}]\n)\n```",
+    "ContentSha": "EbFxc5jbVDNkHThSznqg1obWiGJvSx2teWEg5WuZ9uM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfrom openai import OpenAI\n\nclient = OpenAI(\n    api_key=\"your-proxy-key\",  # 使用密钥\n    base_url=\"http://localhost:3001/proxy/openai\"  # 使用代理端点\n)\n\nresponse = client.chat.completions.create(\n    model=\"gpt-4.1-mini\",\n    messages=[{\"role\": \"user\", \"content\": \"Hello\"}]\n)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "5ynWUamFcFcIL7QCBBEEkEw2rLs0lJ3Nac/uHVS2ykk=",
+        "originContent": "from openai import OpenAI",
+        "translatedContent": "from openai import OpenAI"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "2h+AjuzTJ+7HTW3XqQN8XNfGmjtAGPYvkpAHG8UXlFQ=",
+        "originContent": "client = OpenAI(",
+        "translatedContent": "client = OpenAI("
+      },
+      {
+        "row": 5,
+        "rowsha": "zn0e3S5E5nx8HWr3Xe7i9549Ji3AeUaiRUx+p7XE2uI=",
+        "originContent": "    api_key=\"your-proxy-key\",  # 使用密钥",
+        "translatedContent": "    api_key=\"your-proxy-key\",  # 使用密钥"
+      },
+      {
+        "row": 6,
+        "rowsha": "noL8p/JALZebwrknsR6mrYq8jyZlCALPOO2Gm7ZcT+E=",
+        "originContent": "    base_url=\"http://localhost:3001/proxy/openai\"  # 使用代理端点",
+        "translatedContent": "    base_url=\"http://localhost:3001/proxy/openai\"  # 使用代理端点"
+      },
+      {
+        "row": 7,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ceKlwK8258s/Oa+oBm5uArnUt8+y9ubdvMdU+PdJafE=",
+        "originContent": "response = client.chat.completions.create(",
+        "translatedContent": "response = client.chat.completions.create("
+      },
+      {
+        "row": 10,
+        "rowsha": "bvHWgyKN0bZ+F0RghwYWmRVDVyBRk/LwMTpH/pibxNg=",
+        "originContent": "    model=\"gpt-4.1-mini\",",
+        "translatedContent": "    model=\"gpt-4.1-mini\","
+      },
+      {
+        "row": 11,
+        "rowsha": "XHXmINQRVSf11HtG1ojGWQKMVuFzQckbqvZ/QUBdNnA=",
+        "originContent": "    messages=[{\"role\": \"user\", \"content\": \"Hello\"}]",
+        "translatedContent": "    messages=[{\"role\": \"user\", \"content\": \"Hello\"}]"
+      },
+      {
+        "row": 12,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 30,
+    "Content": "\n**Google Gemini SDK (Python)：**\n",
+    "ContentSha": "pPq54XMPjvZQS+Q3an6ZpXFifwhyo6oslOJlZHJ3T7w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Google Gemini SDK（Python）：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "wGUFi+y6D7dOzK6z07HO/nSWth9Z9CkjMFjOuqNG5i4=",
+        "originContent": "**Google Gemini SDK (Python)：**",
+        "translatedContent": "**Google Gemini SDK（Python）：**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 31,
+    "Content": "```python\nimport google.generativeai as genai\n\n# 配置 API 密钥和基础 URL\ngenai.configure(\n    api_key=\"your-proxy-key\",  # 使用代理密钥\n    client_options={\"api_endpoint\": \"http://localhost:3001/proxy/gemini\"}\n)\n\nmodel = genai.GenerativeModel('gemini-2.5-pro')\nresponse = model.generate_content(\"Hello\")\n```",
+    "ContentSha": "i3zBJmVVRbtDfhSG9UtzDT4tEfLlj0kp7zXvr/JZNR8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nimport google.generativeai as genai\n\n# 配置 API 密钥和基础 URL\ngenai.configure(\n    api_key=\"your-proxy-key\",  # 使用代理密钥\n    client_options={\"api_endpoint\": \"http://localhost:3001/proxy/gemini\"}\n)\n\nmodel = genai.GenerativeModel('gemini-2.5-pro')\nresponse = model.generate_content(\"Hello\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "x/HdM44ChC6dAUaW7VqAkAtZe0rLr/QQmXx6ahN/R3M=",
+        "originContent": "import google.generativeai as genai",
+        "translatedContent": "import google.generativeai as genai"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "JkCx//RmXJcBBpEGcv6xzDEyukJj/czQ0+7Gv7RbMkc=",
+        "originContent": "# 配置 API 密钥和基础 URL",
+        "translatedContent": "# 配置 API 密钥和基础 URL"
+      },
+      {
+        "row": 5,
+        "rowsha": "8e/X9jOX6W48nB2VhnO3XxYKj9Wz2uGmLSKmeWcq0zo=",
+        "originContent": "genai.configure(",
+        "translatedContent": "genai.configure("
+      },
+      {
+        "row": 6,
+        "rowsha": "Bbmu/GG3iSbY+KVNlN3Iap5kQsR0inUKD6m0V7JkMJU=",
+        "originContent": "    api_key=\"your-proxy-key\",  # 使用代理密钥",
+        "translatedContent": "    api_key=\"your-proxy-key\",  # 使用代理密钥"
+      },
+      {
+        "row": 7,
+        "rowsha": "Sc9XEFDsrFvRDEBlOBlLKysO98N6XBHshkZewlRV9Gg=",
+        "originContent": "    client_options={\"api_endpoint\": \"http://localhost:3001/proxy/gemini\"}",
+        "translatedContent": "    client_options={\"api_endpoint\": \"http://localhost:3001/proxy/gemini\"}"
+      },
+      {
+        "row": 8,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "NCcWsWF6uCpuG2LfIeULf8q2bjd4vrOowb6sfBGo2A4=",
+        "originContent": "model = genai.GenerativeModel('gemini-2.5-pro')",
+        "translatedContent": "model = genai.GenerativeModel('gemini-2.5-pro')"
+      },
+      {
+        "row": 11,
+        "rowsha": "qsc/5q3wXimzKsKZ6YxCEeF51zaFAKVtOou8TF1e+JQ=",
+        "originContent": "response = model.generate_content(\"Hello\")",
+        "translatedContent": "response = model.generate_content(\"Hello\")"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 32,
+    "Content": "\n**Anthropic SDK (Python)：**\n",
+    "ContentSha": "bgTe8fH24dKNze/rDl7icQ/RqrIQLEIbknMyqudc4iA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Anthropic SDK（Python）：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3BvhvmYmf209UMY43DSJUGL/Fu5oVBrS4ahke27gAmA=",
+        "originContent": "**Anthropic SDK (Python)：**",
+        "translatedContent": "**Anthropic SDK（Python）：**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 33,
+    "Content": "```python\nfrom anthropic import Anthropic\n\nclient = Anthropic(\n    api_key=\"your-proxy-key\",  # 使用代理密钥\n    base_url=\"http://localhost:3001/proxy/anthropic\"  # 使用代理端点\n)\n\nresponse = client.messages.create(\n    model=\"claude-sonnet-4-20250514\",\n    messages=[{\"role\": \"user\", \"content\": \"Hello\"}]\n)\n```",
+    "ContentSha": "7+5ZEgedUC/I+UGEWqS279MRMIC9iLkdIazznwu6d/8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfrom anthropic import Anthropic\n\nclient = Anthropic(\n    api_key=\"your-proxy-key\",  # 使用代理密钥\n    base_url=\"http://localhost:3001/proxy/anthropic\"  # 使用代理端点\n)\n\nresponse = client.messages.create(\n    model=\"claude-sonnet-4-20250514\",\n    messages=[{\"role\": \"user\", \"content\": \"Hello\"}]\n)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "nQd7EeK7es8eoEi/9r9vizNoJQzXpYQUddeaiPX2fxw=",
+        "originContent": "from anthropic import Anthropic",
+        "translatedContent": "from anthropic import Anthropic"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yVgCqydYiInzs10jpM6JnIRDPAm3cbHY9pllb++naPw=",
+        "originContent": "client = Anthropic(",
+        "translatedContent": "client = Anthropic("
+      },
+      {
+        "row": 5,
+        "rowsha": "Bbmu/GG3iSbY+KVNlN3Iap5kQsR0inUKD6m0V7JkMJU=",
+        "originContent": "    api_key=\"your-proxy-key\",  # 使用代理密钥",
+        "translatedContent": "    api_key=\"your-proxy-key\",  # 使用代理密钥"
+      },
+      {
+        "row": 6,
+        "rowsha": "eOjLALo0avYjbW76zAw99TxABopyJdzskQQm5QYB+Wo=",
+        "originContent": "    base_url=\"http://localhost:3001/proxy/anthropic\"  # 使用代理端点",
+        "translatedContent": "    base_url=\"http://localhost:3001/proxy/anthropic\"  # 使用代理端点"
+      },
+      {
+        "row": 7,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "DG0HMYAHbqlf1HCftXNJWjNTXbLOFIhw2dUdVA5++b4=",
+        "originContent": "response = client.messages.create(",
+        "translatedContent": "response = client.messages.create("
+      },
+      {
+        "row": 10,
+        "rowsha": "aGGqsCJPOAXsJ6D4uqmeNpeglJGLs5dJHV5dIeJO4FY=",
+        "originContent": "    model=\"claude-sonnet-4-20250514\",",
+        "translatedContent": "    model=\"claude-sonnet-4-20250514\","
+      },
+      {
+        "row": 11,
+        "rowsha": "XHXmINQRVSf11HtG1ojGWQKMVuFzQckbqvZ/QUBdNnA=",
+        "originContent": "    messages=[{\"role\": \"user\", \"content\": \"Hello\"}]",
+        "translatedContent": "    messages=[{\"role\": \"user\", \"content\": \"Hello\"}]"
+      },
+      {
+        "row": 12,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 34,
+    "Content": "\n> **重要提示**：作为透明代理服务，GPT-Load 完全保留各 AI 服务的原生 API 格式和认证方式，仅需要替换端点地址并使用在管理端配置的**代理密钥**即可无缝迁移。\n\n</details>\n\n## 许可证\n\nMIT 许可证 - 详情请参阅 [LICENSE](LICENSE) 文件。\n\n## Star History\n\n[![Stargazers over time](https://starchart.cc/tbphp/gpt-load.svg?variant=adaptive)](https://starchart.cc/tbphp/gpt-load)\n",
+    "ContentSha": "g0P+jSLBT/UqWBIp5GA1HjW6d4BsVqnaB/MCNxE2xCY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> **重要な注意**：透明なプロキシサービスとして、GPT-Loadは各AIサービスのネイティブAPI形式と認証方式を完全に保持し、エンドポイントアドレスを置き換え、管理画面で設定した**プロキシキー**を使用するだけでシームレスに移行できます。\n\n</details>\n\n## ライセンス\n\nMITライセンス - 詳細は [LICENSE](LICENSE) ファイルを参照してください。\n\n## スター履歴\n\n[![Stargazers over time](https://starchart.cc/tbphp/gpt-load.svg?variant=adaptive)](https://starchart.cc/tbphp/gpt-load)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "F8nFeIU8hnJZNxCErl/iD0vEyI4LcASMHn6BA+25s90=",
+        "originContent": "> **重要提示**：作为透明代理服务，GPT-Load 完全保留各 AI 服务的原生 API 格式和认证方式，仅需要替换端点地址并使用在管理端配置的**代理密钥**即可无缝迁移。",
+        "translatedContent": "> **重要な注意**：透明なプロキシサービスとして、GPT-Loadは各AIサービスのネイティブAPI形式と認証方式を完全に保持し、エンドポイントアドレスを置き換え、管理画面で設定した**プロキシキー**を使用するだけでシームレスに移行できます。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
+        "originContent": "## 许可证",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "WEgkh9eB+hPEu3D2pPa5YuWxdDTHFFJIYMW6bKoaj5g=",
+        "originContent": "MIT 许可证 - 详情请参阅 [LICENSE](LICENSE) 文件。",
+        "translatedContent": "MITライセンス - 詳細は [LICENSE](LICENSE) ファイルを参照してください。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+        "originContent": "## Star History",
+        "translatedContent": "## スター履歴"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "FIopI3/UMZErymBCFz972XQdPh+FMWdFOkcvIameInQ=",
+        "originContent": "[![Stargazers over time](https://starchart.cc/tbphp/gpt-load.svg?variant=adaptive)](https://starchart.cc/tbphp/gpt-load)",
+        "translatedContent": "[![Stargazers over time](https://starchart.cc/tbphp/gpt-load.svg?variant=adaptive)](https://starchart.cc/tbphp/gpt-load)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

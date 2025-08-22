@@ -1,0 +1,942 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🛡️ Detection Engineering Starter Pack\n\n![Discord](https://img.shields.io/discord/1332993005359202345?logo=discord)\n\n> **An opinionated list of essential resources for aspiring Detection Engineers.**\n\nThe goal of this starter pack is to provide a curated selection of resources to help you get started in detection engineering without feeling overwhelmed. This list is based on personal experience with various detection technologies. Hope it helps! 🚀\n\n---\n\n### 💬 **Join the Discord**\n\n[Connect with others to discuss all things threat detection and security engineering.](https://discord.gg/HAVyDtUunu)\n\n---\n\n## 📖 Contents <!-- omit in toc -->\n\n<!-- TOC -->\n\n- [🔍 Understanding Attacker Techniques](#-understanding-attacker-techniques)\n- [📜 Getting to Know Detection Rules](#-getting-to-know-detection-rules)\n- [🛠️ Trying It Out Yourself](#-trying-it-out-yourself)\n  - [🔒 Endpoint Detection](#-endpoint-detection)\n  - [🌐 Network Detection](#-network-detection)\n  - [📂 File Content Detection](#-file-content-detection)\n  - [📊 SIEM (Security Information and Event Management)](#-siem-security-information-and-event-management)\n  - [⚙️ SOAR (Security Orchestration Automation and Response)](#-soar-security-orchestration-automation-and-response)\n  - [🎭 Adversary Emulation](#-adversary-emulation)\n- [📚 Useful Concepts](#-useful-concepts)\n- [🧪 Labs & Training](#-labs--training)\n- [📖 Further Reading & Interesting Projects](#-further-reading--interesting-projects)\n- [🌟 Awesome Lists](#-awesome-lists)\n<!-- /TOC -->\n\n---\n\n## 🔍 Understanding Attacker Techniques\n\n> **See how attackers achieve their goals.**",
+    "ContentSha": "z6auuUJvo+1sa4yoxVLswyusnCcVnU6jTRXoGy+cwLU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🛡️ Detection Engineering Starter Pack\n\n![Discord](https://img.shields.io/discord/1332993005359202345?logo=discord)\n\n> **An opinionated list of essential resources for aspiring Detection Engineers.**\n\nThe goal of this starter pack is to provide a curated selection of resources to help you get started in detection engineering without feeling overwhelmed. This list is based on personal experience with various detection technologies. Hope it helps! 🚀\n\n---\n\n### 💬 **Join the Discord**\n\n[Connect with others to discuss all things threat detection and security engineering.](https://discord.gg/HAVyDtUunu)\n\n---\n\n## 📖 Contents <!-- omit in toc -->\n\n<!-- TOC -->\n\n- [🔍 Understanding Attacker Techniques](#-understanding-attacker-techniques)\n- [📜 Getting to Know Detection Rules](#-getting-to-know-detection-rules)\n- [🛠️ Trying It Out Yourself](#-trying-it-out-yourself)\n  - [🔒 Endpoint Detection](#-endpoint-detection)\n  - [🌐 Network Detection](#-network-detection)\n  - [📂 File Content Detection](#-file-content-detection)\n  - [📊 SIEM (Security Information and Event Management)](#-siem-security-information-and-event-management)\n  - [⚙️ SOAR (Security Orchestration Automation and Response)](#-soar-security-orchestration-automation-and-response)\n  - [🎭 Adversary Emulation](#-adversary-emulation)\n- [📚 Useful Concepts](#-useful-concepts)\n- [🧪 Labs & Training](#-labs--training)\n- [📖 Further Reading & Interesting Projects](#-further-reading--interesting-projects)\n- [🌟 Awesome Lists](#-awesome-lists)\n<!-- /TOC -->\n\n---\n\n## 🔍 Understanding Attacker Techniques\n\n> **See how attackers achieve their goals.**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jZZuU0OHa45FveyoeMdMdC87jlVLLNW+kZ1bpQZzu34=",
+        "originContent": "# 🛡️ Detection Engineering Starter Pack",
+        "translatedContent": "# 🛡️ Detection Engineering Starter Pack"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "SCK/tWnND+MWFmHHSe5uX+BxaJEa7EkmXdkQr6Eo0v8=",
+        "originContent": "![Discord](https://img.shields.io/discord/1332993005359202345?logo=discord)",
+        "translatedContent": "![Discord](https://img.shields.io/discord/1332993005359202345?logo=discord)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "CdgvD4ikzEnzX7h1Dd58NZTjDZPs+DOaIjY46T5PrPU=",
+        "originContent": "> **An opinionated list of essential resources for aspiring Detection Engineers.**",
+        "translatedContent": "> **An opinionated list of essential resources for aspiring Detection Engineers.**"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "2JKsMvv8n4ufznelGWdA3OYEM70wg/wkpvkEGjjNZN0=",
+        "originContent": "The goal of this starter pack is to provide a curated selection of resources to help you get started in detection engineering without feeling overwhelmed. This list is based on personal experience with various detection technologies. Hope it helps! 🚀",
+        "translatedContent": "The goal of this starter pack is to provide a curated selection of resources to help you get started in detection engineering without feeling overwhelmed. This list is based on personal experience with various detection technologies. Hope it helps! 🚀"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "kQ7a4S4caJ6RaseRw0k8My2jAkMT9FgNRWtNJaJJl9M=",
+        "originContent": "### 💬 **Join the Discord**",
+        "translatedContent": "### 💬 **Join the Discord**"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "1Dz39s7cUF8/Ki/3O8fD2sGjZoFkGDGJLAfpCgNWSng=",
+        "originContent": "[Connect with others to discuss all things threat detection and security engineering.](https://discord.gg/HAVyDtUunu)",
+        "translatedContent": "[Connect with others to discuss all things threat detection and security engineering.](https://discord.gg/HAVyDtUunu)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Qy7uvW0ENUmdf2If3ediG26hQgUlLb5jasU4ZT6xWa4=",
+        "originContent": "## 📖 Contents <!-- omit in toc -->",
+        "translatedContent": "## 📖 Contents <!-- omit in toc -->"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "OHAkUzzI49z6JogDoz1kL06u7H1zxggL7PqWs4NRwzc=",
+        "originContent": "<!-- TOC -->",
+        "translatedContent": "<!-- TOC -->"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "78CauIpGf5yUUUSfeEol+V4qNmmk5OnaxUChNXDRqjA=",
+        "originContent": "- [🔍 Understanding Attacker Techniques](#-understanding-attacker-techniques)",
+        "translatedContent": "- [🔍 Understanding Attacker Techniques](#-understanding-attacker-techniques)"
+      },
+      {
+        "row": 22,
+        "rowsha": "mn7awdz0X8d8xwq3hRcmSPsqSFFXFfh3A7lJpUiukdU=",
+        "originContent": "- [📜 Getting to Know Detection Rules](#-getting-to-know-detection-rules)",
+        "translatedContent": "- [📜 Getting to Know Detection Rules](#-getting-to-know-detection-rules)"
+      },
+      {
+        "row": 23,
+        "rowsha": "HFfTClpgXa3OL4QQhwvl2+avIl0okxblN6e9QXmG9k4=",
+        "originContent": "- [🛠️ Trying It Out Yourself](#-trying-it-out-yourself)",
+        "translatedContent": "- [🛠️ Trying It Out Yourself](#-trying-it-out-yourself)"
+      },
+      {
+        "row": 24,
+        "rowsha": "z/R6oxr/wU+5epSQ8R/AyUSl/82VnrR3198+4bVmU3I=",
+        "originContent": "  - [🔒 Endpoint Detection](#-endpoint-detection)",
+        "translatedContent": "  - [🔒 Endpoint Detection](#-endpoint-detection)"
+      },
+      {
+        "row": 25,
+        "rowsha": "xMcUJF8n+ERi+46bnq/eB2TSsx+5wc2PAfj6ayt3OFM=",
+        "originContent": "  - [🌐 Network Detection](#-network-detection)",
+        "translatedContent": "  - [🌐 Network Detection](#-network-detection)"
+      },
+      {
+        "row": 26,
+        "rowsha": "gPSZnB2+MHrgXbVhZ+YIgB/90JtYUU8RidRjrLNYlw4=",
+        "originContent": "  - [📂 File Content Detection](#-file-content-detection)",
+        "translatedContent": "  - [📂 File Content Detection](#-file-content-detection)"
+      },
+      {
+        "row": 27,
+        "rowsha": "8SUdsUs4vfjg0owPgCdm0a5u60X+sC4qfrksCn91Vis=",
+        "originContent": "  - [📊 SIEM (Security Information and Event Management)](#-siem-security-information-and-event-management)",
+        "translatedContent": "  - [📊 SIEM (Security Information and Event Management)](#-siem-security-information-and-event-management)"
+      },
+      {
+        "row": 28,
+        "rowsha": "5IWDa1tHtFMjL/HFse5puIII6mY14wdQE8M7FcUGdP4=",
+        "originContent": "  - [⚙️ SOAR (Security Orchestration Automation and Response)](#-soar-security-orchestration-automation-and-response)",
+        "translatedContent": "  - [⚙️ SOAR (Security Orchestration Automation and Response)](#-soar-security-orchestration-automation-and-response)"
+      },
+      {
+        "row": 29,
+        "rowsha": "zTDyiSrLvT5ty6yMS6ES9SVyhi93UV0Mitf3cyAtiyg=",
+        "originContent": "  - [🎭 Adversary Emulation](#-adversary-emulation)",
+        "translatedContent": "  - [🎭 Adversary Emulation](#-adversary-emulation)"
+      },
+      {
+        "row": 30,
+        "rowsha": "BGP4mqc94tRv+JJHRjAPZ9Klo9pSYejjwukNON/8Mxc=",
+        "originContent": "- [📚 Useful Concepts](#-useful-concepts)",
+        "translatedContent": "- [📚 Useful Concepts](#-useful-concepts)"
+      },
+      {
+        "row": 31,
+        "rowsha": "H2c640EnhsqU3tP7gtkSwSWWmv6VPYWYSBrOWc7wvU0=",
+        "originContent": "- [🧪 Labs & Training](#-labs--training)",
+        "translatedContent": "- [🧪 Labs & Training](#-labs--training)"
+      },
+      {
+        "row": 32,
+        "rowsha": "NDNlwi3kFgCxDcOluTX9hpi6wkvzM/a5l71ur7y6h3w=",
+        "originContent": "- [📖 Further Reading & Interesting Projects](#-further-reading--interesting-projects)",
+        "translatedContent": "- [📖 Further Reading & Interesting Projects](#-further-reading--interesting-projects)"
+      },
+      {
+        "row": 33,
+        "rowsha": "nf5xMD+0WlkgvFVgD1JLIB3G/RHJXcs+yjydZYYLU1c=",
+        "originContent": "- [🌟 Awesome Lists](#-awesome-lists)",
+        "translatedContent": "- [🌟 Awesome Lists](#-awesome-lists)"
+      },
+      {
+        "row": 34,
+        "rowsha": "+W0tVsozjbFp2dZaOhWKdhZgO/rWglTXcTUFPvKS41Q=",
+        "originContent": "<!-- /TOC -->",
+        "translatedContent": "<!-- /TOC -->"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "XfKQOSwuqG/I0cjThAIb1CJ1oCFmas2GI+ZYk7WVBfY=",
+        "originContent": "## 🔍 Understanding Attacker Techniques",
+        "translatedContent": "## 🔍 Understanding Attacker Techniques"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "8lmlK406le+0dPYFI6CVieD5g1juLwiS38yUnl4HxIg=",
+        "originContent": "> **See how attackers achieve their goals.**",
+        "translatedContent": "> **See how attackers achieve their goals.**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n- [MITRE ATT&CK](https://attack.mitre.org/) - The #1 knowledge base of adversary tactics and techniques.\n- [Top 10 ATT&CK Techniques](https://top-attack-techniques.mitre-engenuity.org/) - A customisable page to display the most common ATT&CK techniques.\n- [Hacking the Cloud](https://hackingthe.cloud/) - A collection of resources for understanding cloud-focused attack techniques.\n- [The DFIR Report](https://thedfirreport.com/) - Real-world incidents analysed and described with a defender's mindset. A personal favourite.\n\n---\n\n## 📜 Getting to Know Detection Rules\n\n> **Example repositories showcasing how detections are structured and applied.**\n\n- [Sigma](https://github.com/SigmaHQ/sigma) - The generic detection signature format.\n- [Splunk Detection Rules](https://research.splunk.com/detections/) - A collection of detection rules for Splunk.\n- [Elastic Detection Rules](https://github.com/elastic/detection-rules/tree/main/rules) - A collection of detection rules for Elastic.\n- [Detection Studio](https://detection.studio/) - Convert Sigma rules to other detection rule syntaxes.\n\n---\n\n## 🛠️ Trying It Out Yourself\n\n> **Tools to play with that are either open source or have a free-tier element.**\n\n#### 🔒 Endpoint Detection\n\n- [Aurora](https://www.nextron-systems.com/aurora/) - An agent that can run Sigma rules. Load up your Sigma rules, and create alerts from your event logs.\n- [Velociraptor](https://github.com/Velocidex/velociraptor) - A digital forensic and incident response tool that enhances your visibility into your endpoints.\n- [Falco](https://github.com/falcosecurity/falco) - A cloud-native runtime security tool to detect threats within containers.\n- [Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) - A simple Windows system monitor.\n- [Osquery](https://www.osquery.io/) - An operating system instrumentation framework.\n\n#### 🌐 Network Detection\n\n- [Suricata](https://suricata.io/) - Detection rules designed to interrogate network traffic for suspicious activity.\n\n#### 📂 File Content Detection\n\n- [YARA](https://github.com/virustotal/yara) - Detection rules for identifying and classifying malware samples.\n\n#### 📊 SIEM (Security Information and Event Management)",
+    "ContentSha": "18s3t4mRBQpUmyE/xeanWSqkrbgQvaaMzvqJRLpDQCo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- [MITRE ATT&CK](https://attack.mitre.org/) - The #1 knowledge base of adversary tactics and techniques.\n- [Top 10 ATT&CK Techniques](https://top-attack-techniques.mitre-engenuity.org/) - A customisable page to display the most common ATT&CK techniques.\n- [Hacking the Cloud](https://hackingthe.cloud/) - A collection of resources for understanding cloud-focused attack techniques.\n- [The DFIR Report](https://thedfirreport.com/) - Real-world incidents analysed and described with a defender's mindset. A personal favourite.\n\n---\n\n## 📜 Getting to Know Detection Rules\n\n> **Example repositories showcasing how detections are structured and applied.**\n\n- [Sigma](https://github.com/SigmaHQ/sigma) - The generic detection signature format.\n- [Splunk Detection Rules](https://research.splunk.com/detections/) - A collection of detection rules for Splunk.\n- [Elastic Detection Rules](https://github.com/elastic/detection-rules/tree/main/rules) - A collection of detection rules for Elastic.\n- [Detection Studio](https://detection.studio/) - Convert Sigma rules to other detection rule syntaxes.\n\n---\n\n## 🛠️ Trying It Out Yourself\n\n> **Tools to play with that are either open source or have a free-tier element.**\n\n#### 🔒 Endpoint Detection\n\n- [Aurora](https://www.nextron-systems.com/aurora/) - An agent that can run Sigma rules. Load up your Sigma rules, and create alerts from your event logs.\n- [Velociraptor](https://github.com/Velocidex/velociraptor) - A digital forensic and incident response tool that enhances your visibility into your endpoints.\n- [Falco](https://github.com/falcosecurity/falco) - A cloud-native runtime security tool to detect threats within containers.\n- [Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) - A simple Windows system monitor.\n- [Osquery](https://www.osquery.io/) - An operating system instrumentation framework.\n\n#### 🌐 Network Detection\n\n- [Suricata](https://suricata.io/) - Detection rules designed to interrogate network traffic for suspicious activity.\n\n#### 📂 File Content Detection\n\n- [YARA](https://github.com/virustotal/yara) - Detection rules for identifying and classifying malware samples.\n\n#### 📊 SIEM (Security Information and Event Management)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "6AB0qpp5uqQ2Or+T1uWEzslBTGe1aW6dx4VX2BnTWdE=",
+        "originContent": "- [MITRE ATT&CK](https://attack.mitre.org/) - The #1 knowledge base of adversary tactics and techniques.",
+        "translatedContent": "- [MITRE ATT&CK](https://attack.mitre.org/) - The #1 knowledge base of adversary tactics and techniques."
+      },
+      {
+        "row": 3,
+        "rowsha": "mVae+CUeUZ7RtjpfyxEZmDbKgUe0rJ7s66Ogu/APLeQ=",
+        "originContent": "- [Top 10 ATT&CK Techniques](https://top-attack-techniques.mitre-engenuity.org/) - A customisable page to display the most common ATT&CK techniques.",
+        "translatedContent": "- [Top 10 ATT&CK Techniques](https://top-attack-techniques.mitre-engenuity.org/) - A customisable page to display the most common ATT&CK techniques."
+      },
+      {
+        "row": 4,
+        "rowsha": "Gc6IzUISV/dTnoAg9v8fIVQK2mm53g8wJdZ8ElyLE7Q=",
+        "originContent": "- [Hacking the Cloud](https://hackingthe.cloud/) - A collection of resources for understanding cloud-focused attack techniques.",
+        "translatedContent": "- [Hacking the Cloud](https://hackingthe.cloud/) - A collection of resources for understanding cloud-focused attack techniques."
+      },
+      {
+        "row": 5,
+        "rowsha": "7ZVjPDipP665FgMoMDUK5chYbinUqxaKg+G0hP5xgSs=",
+        "originContent": "- [The DFIR Report](https://thedfirreport.com/) - Real-world incidents analysed and described with a defender's mindset. A personal favourite.",
+        "translatedContent": "- [The DFIR Report](https://thedfirreport.com/) - Real-world incidents analysed and described with a defender's mindset. A personal favourite."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "VE2hYxMrI8s6e30V0alik7kj5OXy2BNx/BjIw+FAupA=",
+        "originContent": "## 📜 Getting to Know Detection Rules",
+        "translatedContent": "## 📜 Getting to Know Detection Rules"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "HVZMnVQS4vyyqATYhnR2mxfDquAiNvh1GqwJfsFMlX0=",
+        "originContent": "> **Example repositories showcasing how detections are structured and applied.**",
+        "translatedContent": "> **Example repositories showcasing how detections are structured and applied.**"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "KCnDVr86D5lBL2T31rY+bDM5uazUuAuDerI91xTduB0=",
+        "originContent": "- [Sigma](https://github.com/SigmaHQ/sigma) - The generic detection signature format.",
+        "translatedContent": "- [Sigma](https://github.com/SigmaHQ/sigma) - The generic detection signature format."
+      },
+      {
+        "row": 14,
+        "rowsha": "IHmT/sJGBXfJB9Q78nErXFRUnC0qhAYUuQspH7bufog=",
+        "originContent": "- [Splunk Detection Rules](https://research.splunk.com/detections/) - A collection of detection rules for Splunk.",
+        "translatedContent": "- [Splunk Detection Rules](https://research.splunk.com/detections/) - A collection of detection rules for Splunk."
+      },
+      {
+        "row": 15,
+        "rowsha": "LacSkm1DoSiRFo+2vWINlkDPpR8Sg+oaVUxIESQIo7k=",
+        "originContent": "- [Elastic Detection Rules](https://github.com/elastic/detection-rules/tree/main/rules) - A collection of detection rules for Elastic.",
+        "translatedContent": "- [Elastic Detection Rules](https://github.com/elastic/detection-rules/tree/main/rules) - A collection of detection rules for Elastic."
+      },
+      {
+        "row": 16,
+        "rowsha": "ghwRdqIL0+zbtkpeNeoH/fJF6Z7hlYX3WIFAOeG+mTc=",
+        "originContent": "- [Detection Studio](https://detection.studio/) - Convert Sigma rules to other detection rule syntaxes.",
+        "translatedContent": "- [Detection Studio](https://detection.studio/) - Convert Sigma rules to other detection rule syntaxes."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "gQCzLW3VN5B42K86Sjm5DXhmbjOs2RnHrl+jFTNFUjs=",
+        "originContent": "## 🛠️ Trying It Out Yourself",
+        "translatedContent": "## 🛠️ Trying It Out Yourself"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "GlJBMLIym5OAK9AWA5ZRNEoa21juS0VESol9qa1rXi4=",
+        "originContent": "> **Tools to play with that are either open source or have a free-tier element.**",
+        "translatedContent": "> **Tools to play with that are either open source or have a free-tier element.**"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "XWPnuHnzcs0TgWvM35MxOjvYpf8dHWGGRzeEkHZXCoo=",
+        "originContent": "#### 🔒 Endpoint Detection",
+        "translatedContent": "#### 🔒 Endpoint Detection"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "+bQSKCPzarRozH7e+7ALu5hjcJm0Wb6wegejGGa8NOI=",
+        "originContent": "- [Aurora](https://www.nextron-systems.com/aurora/) - An agent that can run Sigma rules. Load up your Sigma rules, and create alerts from your event logs.",
+        "translatedContent": "- [Aurora](https://www.nextron-systems.com/aurora/) - An agent that can run Sigma rules. Load up your Sigma rules, and create alerts from your event logs."
+      },
+      {
+        "row": 27,
+        "rowsha": "DAxmD1c5mcKQeA1OvrJ4BomlMEyLxhSQ01pAW0rYBCE=",
+        "originContent": "- [Velociraptor](https://github.com/Velocidex/velociraptor) - A digital forensic and incident response tool that enhances your visibility into your endpoints.",
+        "translatedContent": "- [Velociraptor](https://github.com/Velocidex/velociraptor) - A digital forensic and incident response tool that enhances your visibility into your endpoints."
+      },
+      {
+        "row": 28,
+        "rowsha": "3zCtse5qaop/+x3kDB3hMk88dbDHm0SEcgOuwXEzzBw=",
+        "originContent": "- [Falco](https://github.com/falcosecurity/falco) - A cloud-native runtime security tool to detect threats within containers.",
+        "translatedContent": "- [Falco](https://github.com/falcosecurity/falco) - A cloud-native runtime security tool to detect threats within containers."
+      },
+      {
+        "row": 29,
+        "rowsha": "kDRAfid9qL9k1w3XJE+VB3gT6rX3w3rwoV5RJhrPW1k=",
+        "originContent": "- [Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) - A simple Windows system monitor.",
+        "translatedContent": "- [Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) - A simple Windows system monitor."
+      },
+      {
+        "row": 30,
+        "rowsha": "yZEUMxpG34hwGdpImww4mBx4Hp+AeN6YEvNEyMkMxSo=",
+        "originContent": "- [Osquery](https://www.osquery.io/) - An operating system instrumentation framework.",
+        "translatedContent": "- [Osquery](https://www.osquery.io/) - An operating system instrumentation framework."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "KA4Z8g7D90BiqFwbYY72zRUMBa94DMt22X3N6pclBP8=",
+        "originContent": "#### 🌐 Network Detection",
+        "translatedContent": "#### 🌐 Network Detection"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "gnxemcKmIfOyA7idOillmJDozuDC/cAFTwA2qLMInXk=",
+        "originContent": "- [Suricata](https://suricata.io/) - Detection rules designed to interrogate network traffic for suspicious activity.",
+        "translatedContent": "- [Suricata](https://suricata.io/) - Detection rules designed to interrogate network traffic for suspicious activity."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "/PbXa3/VBUU/NaMA4sPP+Q8E+YVbyXSAz9uOFLJ/2fk=",
+        "originContent": "#### 📂 File Content Detection",
+        "translatedContent": "#### 📂 File Content Detection"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "qet1HAbztFbCo7vwnotFjxHTJ9WVhyTzKbmXcLQevTY=",
+        "originContent": "- [YARA](https://github.com/virustotal/yara) - Detection rules for identifying and classifying malware samples.",
+        "translatedContent": "- [YARA](https://github.com/virustotal/yara) - Detection rules for identifying and classifying malware samples."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "393vwIN/+g4kJe1jC243j2qvTRqOOvO/fe+P4bHWgWs=",
+        "originContent": "#### 📊 SIEM (Security Information and Event Management)",
+        "translatedContent": "#### 📊 SIEM (Security Information and Event Management)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n- [Elastic Stack (ELK)](https://www.elastic.co/elastic-stack) - A suite of tools for search, logging, and analytics.\n- [Wazuh](https://wazuh.com/) - An open-source security monitoring platform.\n\n#### ⚙️ SOAR (Security Orchestration Automation and Response)\n\n- [Tines](https://www.tines.com/) - A no-code automation platform for security teams. Great for automating anything, quickly. Has a free tier.\n\n#### 🎭 Adversary Emulation\n\n- [Adversary Emulation Library](https://github.com/center-for-threat-informed-defense/adversary_emulation_library) - A library of adversary emulation plans.\n- [MITRE Caldera](https://github.com/mitre/caldera) - An automated adversary emulation platform.\n- [Stratus Red Team](https://github.com/DataDog/stratus-red-team) - A tool for adversary emulation in the cloud.\n- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - A library of simple adversary emulation tests.\n- [TTPForge](https://github.com/facebookincubator/TTPForge) - A tool for creating and managing TTPs.\n\n---\n\n## 📚 Useful Concepts\n\n- [Detection Engineering Behavior Maturity Model](https://www.elastic.co/security-labs/elastic-releases-debmm) - a structured approach for security teams to consistently mature their processes and behaviors from Elastic.\n- [Alerting Detection Strategy (ADS) Framework](https://github.com/palantir/alerting-detection-strategy-framework/blob/master/ADS-Framework.md) - A simple framework for building detection strategies from Palantir.\n- [Summiting the Pyramid](https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/?utm_source=ctidio&utm_medium=shortlink) - Building on the 'pyramid of pain', this work defines what it really means to have a robust detection.\n- [Capability Abstraction](https://posts.specterops.io/capability-abstraction-fbeaeeb26384) - One of my favourite articles - 'Capability Abstraction' from SpecterOps. Explores similar concepts to the above 'summiting the pyramid' project.\n\n---\n\n## 🧪 Labs & Training\n\n- [Blue Team Labs Online](https://blueteamlabs.online/) - A platform for hands-on blue team training.\n- [ACE Responder](https://www.aceresponder.com/) - A realistic and immersive platform for existing cyber defenders and newcomers alike.\n\n---\n\n## 📖 Further Reading & Interesting Projects\n\n> **A handpicked selection of materials that have inspired me.**\n\n- [Detections.ai](https://detections.ai/) - An AI-powered and community-driven platform to share & improve detection rules. Use invite code `StarterPack`.\n- [ACEResponder](https://x.com/ACEResponder) - An X account sharing attacker techniques visually.",
+    "ContentSha": "4MDscdMjxJP3Qk9pvIVE8hH/NOC79DJsr7rb6tu93Rg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- [Elastic Stack (ELK)](https://www.elastic.co/elastic-stack) - A suite of tools for search, logging, and analytics.  \n- [Wazuh](https://wazuh.com/) - An open-source security monitoring platform.  \n\n#### ⚙️ SOAR (Security Orchestration Automation and Response)  \n\n- [Tines](https://www.tines.com/) - A no-code automation platform for security teams. Great for automating anything, quickly. Has a free tier.  \n\n#### 🎭 Adversary Emulation  \n\n- [Adversary Emulation Library](https://github.com/center-for-threat-informed-defense/adversary_emulation_library) - A library of adversary emulation plans.  \n- [MITRE Caldera](https://github.com/mitre/caldera) - An automated adversary emulation platform.  \n- [Stratus Red Team](https://github.com/DataDog/stratus-red-team) - A tool for adversary emulation in the cloud.  \n- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - A library of simple adversary emulation tests.  \n- [TTPForge](https://github.com/facebookincubator/TTPForge) - A tool for creating and managing TTPs.  \n\n---  \n\n## 📚 Useful Concepts  \n\n- [Detection Engineering Behavior Maturity Model](https://www.elastic.co/security-labs/elastic-releases-debmm) - a structured approach for security teams to consistently mature their processes and behaviors from Elastic.  \n- [Alerting Detection Strategy (ADS) Framework](https://github.com/palantir/alerting-detection-strategy-framework/blob/master/ADS-Framework.md) - A simple framework for building detection strategies from Palantir.  \n- [Summiting the Pyramid](https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/?utm_source=ctidio&utm_medium=shortlink) - Building on the 'pyramid of pain', this work defines what it really means to have a robust detection.  \n- [Capability Abstraction](https://posts.specterops.io/capability-abstraction-fbeaeeb26384) - One of my favourite articles - 'Capability Abstraction' from SpecterOps. Explores similar concepts to the above 'summiting the pyramid' project.  \n\n---  \n\n## 🧪 Labs & Training  \n\n- [Blue Team Labs Online](https://blueteamlabs.online/) - A platform for hands-on blue team training.  \n- [ACE Responder](https://www.aceresponder.com/) - A realistic and immersive platform for existing cyber defenders and newcomers alike.  \n\n---  \n\n## 📖 Further Reading & Interesting Projects  \n\n> **A handpicked selection of materials that have inspired me.**  \n\n- [Detections.ai](https://detections.ai/) - An AI-powered and community-driven platform to share & improve detection rules. Use invite code `StarterPack`.  \n- [ACEResponder](https://x.com/ACEResponder) - An X account sharing attacker techniques visually.  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Elastic Stack (ELK)](https://www.elastic.co/elastic-stack) - A suite of tools for search, logging, and analytics.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "+sQj/K/CaX1+qYI+vv7YNqjj0UgDwGMcUcEfpNXQdx0=",
+        "originContent": "- [Elastic Stack (ELK)](https://www.elastic.co/elastic-stack) - A suite of tools for search, logging, and analytics.",
+        "translatedContent": "- [Wazuh](https://wazuh.com/) - An open-source security monitoring platform.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "x+cD160MHqvGKGRTVgwaK4ThxcFqyq7ccc/O3fx0ISU=",
+        "originContent": "- [Wazuh](https://wazuh.com/) - An open-source security monitoring platform.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### ⚙️ SOAR (Security Orchestration Automation and Response)  "
+      },
+      {
+        "row": 5,
+        "rowsha": "dv+MMKUogPOysOHGmQ6NGIOZeEj5o5XC872AW5W0Zu4=",
+        "originContent": "#### ⚙️ SOAR (Security Orchestration Automation and Response)",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Tines](https://www.tines.com/) - A no-code automation platform for security teams. Great for automating anything, quickly. Has a free tier.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "uSVPZd0ilrzTFPAmBihWYzxyik9BaV1jWnjuGYcQaQI=",
+        "originContent": "- [Tines](https://www.tines.com/) - A no-code automation platform for security teams. Great for automating anything, quickly. Has a free tier.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 🎭 Adversary Emulation  "
+      },
+      {
+        "row": 9,
+        "rowsha": "qykIMzPwwtiPJJHpQvVbgXzniDz0hg0skT7NdSNUTwk=",
+        "originContent": "#### 🎭 Adversary Emulation",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Adversary Emulation Library](https://github.com/center-for-threat-informed-defense/adversary_emulation_library) - A library of adversary emulation plans.  "
+      },
+      {
+        "row": 11,
+        "rowsha": "buHONlThSvlERFakgRXPABHOQKTzUT/Ux1E75dEOS/8=",
+        "originContent": "- [Adversary Emulation Library](https://github.com/center-for-threat-informed-defense/adversary_emulation_library) - A library of adversary emulation plans.",
+        "translatedContent": "- [MITRE Caldera](https://github.com/mitre/caldera) - An automated adversary emulation platform.  "
+      },
+      {
+        "row": 12,
+        "rowsha": "+RwrbyEJFRY4qtf57OcQKnlwDJvM/0n1hjiXADJgxcc=",
+        "originContent": "- [MITRE Caldera](https://github.com/mitre/caldera) - An automated adversary emulation platform.",
+        "translatedContent": "- [Stratus Red Team](https://github.com/DataDog/stratus-red-team) - A tool for adversary emulation in the cloud.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "aLpsgPOnQbxA9WI2qC8MnPBdbMAcUbcZpRPa0cIGNMM=",
+        "originContent": "- [Stratus Red Team](https://github.com/DataDog/stratus-red-team) - A tool for adversary emulation in the cloud.",
+        "translatedContent": "- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - A library of simple adversary emulation tests.  "
+      },
+      {
+        "row": 14,
+        "rowsha": "iM1JxGX2ZeBDmXzSVx2GqMDNcTn4RCj4S6MUcEGlNn4=",
+        "originContent": "- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - A library of simple adversary emulation tests.",
+        "translatedContent": "- [TTPForge](https://github.com/facebookincubator/TTPForge) - A tool for creating and managing TTPs.  "
+      },
+      {
+        "row": 15,
+        "rowsha": "9pl//rWjI7habnSAic6S2IK+WyWSSjSUr2IiZdVN3EI=",
+        "originContent": "- [TTPForge](https://github.com/facebookincubator/TTPForge) - A tool for creating and managing TTPs.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 17,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📚 Useful Concepts  "
+      },
+      {
+        "row": 19,
+        "rowsha": "AP+zdtSM21rto2f5wsG3GECa8wxK4BosyhJjEkdEIME=",
+        "originContent": "## 📚 Useful Concepts",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Detection Engineering Behavior Maturity Model](https://www.elastic.co/security-labs/elastic-releases-debmm) - a structured approach for security teams to consistently mature their processes and behaviors from Elastic.  "
+      },
+      {
+        "row": 21,
+        "rowsha": "/CgsEleX2Cf6Y8ebm/+3AGU8FR5XknNzrJeTmGlWdew=",
+        "originContent": "- [Detection Engineering Behavior Maturity Model](https://www.elastic.co/security-labs/elastic-releases-debmm) - a structured approach for security teams to consistently mature their processes and behaviors from Elastic.",
+        "translatedContent": "- [Alerting Detection Strategy (ADS) Framework](https://github.com/palantir/alerting-detection-strategy-framework/blob/master/ADS-Framework.md) - A simple framework for building detection strategies from Palantir.  "
+      },
+      {
+        "row": 22,
+        "rowsha": "XYJ8AEB71XBYyVLWdH1Q7bCQtB5CEAua7s2y4RcQxgo=",
+        "originContent": "- [Alerting Detection Strategy (ADS) Framework](https://github.com/palantir/alerting-detection-strategy-framework/blob/master/ADS-Framework.md) - A simple framework for building detection strategies from Palantir.",
+        "translatedContent": "- [Summiting the Pyramid](https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/?utm_source=ctidio&utm_medium=shortlink) - Building on the 'pyramid of pain', this work defines what it really means to have a robust detection.  "
+      },
+      {
+        "row": 23,
+        "rowsha": "gCKqa5Ck2PYSdM6fXllZ293RKFPNtg82hVW9jFKJPGo=",
+        "originContent": "- [Summiting the Pyramid](https://center-for-threat-informed-defense.github.io/summiting-the-pyramid/?utm_source=ctidio&utm_medium=shortlink) - Building on the 'pyramid of pain', this work defines what it really means to have a robust detection.",
+        "translatedContent": "- [Capability Abstraction](https://posts.specterops.io/capability-abstraction-fbeaeeb26384) - One of my favourite articles - 'Capability Abstraction' from SpecterOps. Explores similar concepts to the above 'summiting the pyramid' project.  "
+      },
+      {
+        "row": 24,
+        "rowsha": "alw24np97nTRUfozqD17ZOrITyPEUU5XEQWSpCQI05I=",
+        "originContent": "- [Capability Abstraction](https://posts.specterops.io/capability-abstraction-fbeaeeb26384) - One of my favourite articles - 'Capability Abstraction' from SpecterOps. Explores similar concepts to the above 'summiting the pyramid' project.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 26,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🧪 Labs & Training  "
+      },
+      {
+        "row": 28,
+        "rowsha": "8dmATUHJgAQ0HKAXKRjbp+OK4TkTe0e6bvaUSJ+9a90=",
+        "originContent": "## 🧪 Labs & Training",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Blue Team Labs Online](https://blueteamlabs.online/) - A platform for hands-on blue team training.  "
+      },
+      {
+        "row": 30,
+        "rowsha": "oyv9QO/CFxM69fcCcu6seFdKK/t2b5AszuQlIetM2Uc=",
+        "originContent": "- [Blue Team Labs Online](https://blueteamlabs.online/) - A platform for hands-on blue team training.",
+        "translatedContent": "- [ACE Responder](https://www.aceresponder.com/) - A realistic and immersive platform for existing cyber defenders and newcomers alike.  "
+      },
+      {
+        "row": 31,
+        "rowsha": "1ns9KQz8MGRSdbgog2Q0xJlSP8JCXJRn2uCQEp1XxUg=",
+        "originContent": "- [ACE Responder](https://www.aceresponder.com/) - A realistic and immersive platform for existing cyber defenders and newcomers alike.",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 33,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📖 Further Reading & Interesting Projects  "
+      },
+      {
+        "row": 35,
+        "rowsha": "pwPjnr8g2P6JKNYNACKvAt+IkEkEJkAmsZplYAhLcqk=",
+        "originContent": "## 📖 Further Reading & Interesting Projects",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> **A handpicked selection of materials that have inspired me.**  "
+      },
+      {
+        "row": 37,
+        "rowsha": "BD2p38qqbOL/RPBlSVpUkcTLkLSr9YX3AViuy8YTuiE=",
+        "originContent": "> **A handpicked selection of materials that have inspired me.**",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Detections.ai](https://detections.ai/) - An AI-powered and community-driven platform to share & improve detection rules. Use invite code `StarterPack`.  "
+      },
+      {
+        "row": 39,
+        "rowsha": "90zv6zX4uPprlLJSG46HZyKU4nngN0EK9JMDW+B/6Yc=",
+        "originContent": "- [Detections.ai](https://detections.ai/) - An AI-powered and community-driven platform to share & improve detection rules. Use invite code `StarterPack`.",
+        "translatedContent": "- [ACEResponder](https://x.com/ACEResponder) - An X account sharing attacker techniques visually.  "
+      },
+      {
+        "row": 40,
+        "rowsha": "6pFmFRkPcE8/vkETFC7NrJbS4NPLdueWojIrutxc8Gk=",
+        "originContent": "- [ACEResponder](https://x.com/ACEResponder) - An X account sharing attacker techniques visually.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "- [Detect FYI](https://detect.fyi/) - A Medium publication focused solely on detection engineering.\n- [Detection Engineering Weekly](https://www.detectionengineering.net/) - A weekly newsletter on Detection Engineering.\n- [EDR Telemetry](https://www.edr-telemetry.com/) - A resource that compares popular EDR tools with one another.\n- [MITRE ATLAS](https://atlas.mitre.org/matrices/ATLAS) - ATT&CK, but for AI.\n- [Prioritizing Detection Engineering](https://medium.com/starting-up-security/prioritizing-detection-engineering-b60b46d55051) - A well-written piece from Ryan McGeehan on how to think about prioritising your detection engineering efforts.\n- [How Google Does It](https://cloud.google.com/transform/how-google-does-it-modernizing-threat-detection) - How Google does threat detection at massive scale.\n- Notable security vendor blogs for defenders:\n  - [SpecterOps Blog](https://posts.specterops.io/)\n  - [Google Threat Analysis Group Blog](https://blog.google/threat-analysis-group/)\n  - [CrowdStrike Counter Adversary Operations Blog](https://www.crowdstrike.com/en-us/blog/category.counter-adversary-operations/)\n  - [Palo Alto Networks Unit 42 Blog](https://unit42.paloaltonetworks.com/unit-42-all-articles/)\n  - [Recorded Future Blog](https://www.recordedfuture.com/blog)\n  - [SEKOIA Threat Research Blog](https://blog.sekoia.io/category/threat-research/)\n  - [Wiz Research Blog](https://www.wiz.io/blog/tag/research)\n\n---\n\n## 🌟 Awesome Lists\n\n> **If you are hungry for more resources, check out these awesome lists.**\n\n- [Awesome Kubernetes Threat Detection](https://github.com/jatrost/awesome-kubernetes-threat-detection) - A list of Kubernetes threat detection resources.\n- [Awesome Threat Intel Blogs](https://github.com/signalscorps/awesome-threat-intel-blogs) - A curated list of threat intelligence blogs and publications.\n- [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering) - A curated list of detection engineering resources.\n- [Awesome Threat Detection](https://github.com/0x4D31/awesome-threat-detection) - A collection of threat detection resources.\n- [Awesome Detection Engineer](https://github.com/st0pp3r/awesome-detection-engineer) - A list of resources for detection engineers.\n- [Blue Team Tools](https://github.com/A-poc/BlueTeam-Tools) - A collection of tools for blue teamers.\n",
+    "ContentSha": "3dnrpzgomjZ6EkeaSGVjfOd2Fp05iD5KHVQUSUnG0So=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- [Detect FYI](https://detect.fyi/) - A Medium publication focused solely on detection engineering.\n- [Detection Engineering Weekly](https://www.detectionengineering.net/) - A weekly newsletter on Detection Engineering.\n- [EDR Telemetry](https://www.edr-telemetry.com/) - A resource that compares popular EDR tools with one another.\n- [MITRE ATLAS](https://atlas.mitre.org/matrices/ATLAS) - ATT&CK, but for AI.\n- [Prioritizing Detection Engineering](https://medium.com/starting-up-security/prioritizing-detection-engineering-b60b46d55051) - A well-written piece from Ryan McGeehan on how to think about prioritising your detection engineering efforts.\n- [How Google Does It](https://cloud.google.com/transform/how-google-does-it-modernizing-threat-detection) - How Google does threat detection at massive scale.\n- Notable security vendor blogs for defenders:\n  - [SpecterOps Blog](https://posts.specterops.io/)\n  - [Google Threat Analysis Group Blog](https://blog.google/threat-analysis-group/)\n  - [CrowdStrike Counter Adversary Operations Blog](https://www.crowdstrike.com/en-us/blog/category.counter-adversary-operations/)\n  - [Palo Alto Networks Unit 42 Blog](https://unit42.paloaltonetworks.com/unit-42-all-articles/)\n  - [Recorded Future Blog](https://www.recordedfuture.com/blog)\n  - [SEKOIA Threat Research Blog](https://blog.sekoia.io/category/threat-research/)\n  - [Wiz Research Blog](https://www.wiz.io/blog/tag/research)\n\n---\n\n## 🌟 Awesome Lists\n\n> **If you are hungry for more resources, check out these awesome lists.**\n\n- [Awesome Kubernetes Threat Detection](https://github.com/jatrost/awesome-kubernetes-threat-detection) - A list of Kubernetes threat detection resources.\n- [Awesome Threat Intel Blogs](https://github.com/signalscorps/awesome-threat-intel-blogs) - A curated list of threat intelligence blogs and publications.\n- [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering) - A curated list of detection engineering resources.\n- [Awesome Threat Detection](https://github.com/0x4D31/awesome-threat-detection) - A collection of threat detection resources.\n- [Awesome Detection Engineer](https://github.com/st0pp3r/awesome-detection-engineer) - A list of resources for detection engineers.\n- [Blue Team Tools](https://github.com/A-poc/BlueTeam-Tools) - A collection of tools for blue teamers.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fxBICwFlsXnagZL0GnQKAu/4pUAfaoDEJR9pzGCXeeY=",
+        "originContent": "- [Detect FYI](https://detect.fyi/) - A Medium publication focused solely on detection engineering.",
+        "translatedContent": "- [Detect FYI](https://detect.fyi/) - A Medium publication focused solely on detection engineering."
+      },
+      {
+        "row": 2,
+        "rowsha": "VV3jPVq3awiZxw64x1PbZxWzATC47kSdaKF1HD4IBbA=",
+        "originContent": "- [Detection Engineering Weekly](https://www.detectionengineering.net/) - A weekly newsletter on Detection Engineering.",
+        "translatedContent": "- [Detection Engineering Weekly](https://www.detectionengineering.net/) - A weekly newsletter on Detection Engineering."
+      },
+      {
+        "row": 3,
+        "rowsha": "ZMnWGeMnpmEkatuc1fUm9MuwOtdLZL+bYWdJzH21+f0=",
+        "originContent": "- [EDR Telemetry](https://www.edr-telemetry.com/) - A resource that compares popular EDR tools with one another.",
+        "translatedContent": "- [EDR Telemetry](https://www.edr-telemetry.com/) - A resource that compares popular EDR tools with one another."
+      },
+      {
+        "row": 4,
+        "rowsha": "TyC0rkCZwEn1WueHQKX5+hEr8T4kCqGzFM6mf3PdSXg=",
+        "originContent": "- [MITRE ATLAS](https://atlas.mitre.org/matrices/ATLAS) - ATT&CK, but for AI.",
+        "translatedContent": "- [MITRE ATLAS](https://atlas.mitre.org/matrices/ATLAS) - ATT&CK, but for AI."
+      },
+      {
+        "row": 5,
+        "rowsha": "1wcG2BiF+DHnqdbWtPjmAlNLzrK6nOUNYL1n2L+hFuE=",
+        "originContent": "- [Prioritizing Detection Engineering](https://medium.com/starting-up-security/prioritizing-detection-engineering-b60b46d55051) - A well-written piece from Ryan McGeehan on how to think about prioritising your detection engineering efforts.",
+        "translatedContent": "- [Prioritizing Detection Engineering](https://medium.com/starting-up-security/prioritizing-detection-engineering-b60b46d55051) - A well-written piece from Ryan McGeehan on how to think about prioritising your detection engineering efforts."
+      },
+      {
+        "row": 6,
+        "rowsha": "mQjecNcUToTc6EhOvtJwS4FM7uHKttVWhPOnZN6BuUg=",
+        "originContent": "- [How Google Does It](https://cloud.google.com/transform/how-google-does-it-modernizing-threat-detection) - How Google does threat detection at massive scale.",
+        "translatedContent": "- [How Google Does It](https://cloud.google.com/transform/how-google-does-it-modernizing-threat-detection) - How Google does threat detection at massive scale."
+      },
+      {
+        "row": 7,
+        "rowsha": "O62QWWcbt8ckZqYx6o1if6MVOfXbP0hrSMNodJYZKO0=",
+        "originContent": "- Notable security vendor blogs for defenders:",
+        "translatedContent": "- Notable security vendor blogs for defenders:"
+      },
+      {
+        "row": 8,
+        "rowsha": "f8biGeeEI0OYUvEyY/RfEJLmXxog7DpgGN6XWebIxxQ=",
+        "originContent": "  - [SpecterOps Blog](https://posts.specterops.io/)",
+        "translatedContent": "  - [SpecterOps Blog](https://posts.specterops.io/)"
+      },
+      {
+        "row": 9,
+        "rowsha": "Z039eZHXF5YmOMB80m9JIu0BuL6eiFkwLhbtmehlf28=",
+        "originContent": "  - [Google Threat Analysis Group Blog](https://blog.google/threat-analysis-group/)",
+        "translatedContent": "  - [Google Threat Analysis Group Blog](https://blog.google/threat-analysis-group/)"
+      },
+      {
+        "row": 10,
+        "rowsha": "sZNIffY8Pm5blsHEURwTpd9VDFH1e5NunfqFgEiDtCs=",
+        "originContent": "  - [CrowdStrike Counter Adversary Operations Blog](https://www.crowdstrike.com/en-us/blog/category.counter-adversary-operations/)",
+        "translatedContent": "  - [CrowdStrike Counter Adversary Operations Blog](https://www.crowdstrike.com/en-us/blog/category.counter-adversary-operations/)"
+      },
+      {
+        "row": 11,
+        "rowsha": "ki72oaKa3hnrHvFoOqR/j5XWr5uS79uJ9WloP4tVxMg=",
+        "originContent": "  - [Palo Alto Networks Unit 42 Blog](https://unit42.paloaltonetworks.com/unit-42-all-articles/)",
+        "translatedContent": "  - [Palo Alto Networks Unit 42 Blog](https://unit42.paloaltonetworks.com/unit-42-all-articles/)"
+      },
+      {
+        "row": 12,
+        "rowsha": "khYMHSyq4zVvDtzwcosvuWdzicnb75IPlgOmQUrLaSE=",
+        "originContent": "  - [Recorded Future Blog](https://www.recordedfuture.com/blog)",
+        "translatedContent": "  - [Recorded Future Blog](https://www.recordedfuture.com/blog)"
+      },
+      {
+        "row": 13,
+        "rowsha": "onbOvFU+r/NGWpT/SBV9rJP7uUH4AtVPzs8hccoF+xo=",
+        "originContent": "  - [SEKOIA Threat Research Blog](https://blog.sekoia.io/category/threat-research/)",
+        "translatedContent": "  - [SEKOIA Threat Research Blog](https://blog.sekoia.io/category/threat-research/)"
+      },
+      {
+        "row": 14,
+        "rowsha": "CF82+OF4DtPS14es8MeZ2DNM7GV7zsG56q/GLooyVeE=",
+        "originContent": "  - [Wiz Research Blog](https://www.wiz.io/blog/tag/research)",
+        "translatedContent": "  - [Wiz Research Blog](https://www.wiz.io/blog/tag/research)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "i7Zv2l6FlG5fLSsWjkM9cDDuUgIvTwAFQRrkJo/+xGE=",
+        "originContent": "## 🌟 Awesome Lists",
+        "translatedContent": "## 🌟 Awesome Lists"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "lqeh5p5zLAyH//+CwI69Wk97PKglYyJL5KrJNSZ7tds=",
+        "originContent": "> **If you are hungry for more resources, check out these awesome lists.**",
+        "translatedContent": "> **If you are hungry for more resources, check out these awesome lists.**"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "ekK+Mq1ZLMjxSIwxnV0qRa/QJl9PMNWXq4w7FXh8YoI=",
+        "originContent": "- [Awesome Kubernetes Threat Detection](https://github.com/jatrost/awesome-kubernetes-threat-detection) - A list of Kubernetes threat detection resources.",
+        "translatedContent": "- [Awesome Kubernetes Threat Detection](https://github.com/jatrost/awesome-kubernetes-threat-detection) - A list of Kubernetes threat detection resources."
+      },
+      {
+        "row": 23,
+        "rowsha": "aAoXAsmtdn1oa5jk3KDnT5Urws22MZQMlem+rSaPeeY=",
+        "originContent": "- [Awesome Threat Intel Blogs](https://github.com/signalscorps/awesome-threat-intel-blogs) - A curated list of threat intelligence blogs and publications.",
+        "translatedContent": "- [Awesome Threat Intel Blogs](https://github.com/signalscorps/awesome-threat-intel-blogs) - A curated list of threat intelligence blogs and publications."
+      },
+      {
+        "row": 24,
+        "rowsha": "YwBRkGgJsoqdq9AiTKhMIPeOAT8x6uBDxwk6eyse7jw=",
+        "originContent": "- [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering) - A curated list of detection engineering resources.",
+        "translatedContent": "- [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering) - A curated list of detection engineering resources."
+      },
+      {
+        "row": 25,
+        "rowsha": "9d2g5hBrHLr6jc13vkeUqoRbHGfN1Fo5pcCgsSgNk4o=",
+        "originContent": "- [Awesome Threat Detection](https://github.com/0x4D31/awesome-threat-detection) - A collection of threat detection resources.",
+        "translatedContent": "- [Awesome Threat Detection](https://github.com/0x4D31/awesome-threat-detection) - A collection of threat detection resources."
+      },
+      {
+        "row": 26,
+        "rowsha": "z/s6WI0uieVQi5dXa4xSwXaefSQjrWkUTFR1lIOFM10=",
+        "originContent": "- [Awesome Detection Engineer](https://github.com/st0pp3r/awesome-detection-engineer) - A list of resources for detection engineers.",
+        "translatedContent": "- [Awesome Detection Engineer](https://github.com/st0pp3r/awesome-detection-engineer) - A list of resources for detection engineers."
+      },
+      {
+        "row": 27,
+        "rowsha": "vwLVODlnLr8m2aFCtV2G7bvAmjsJYmvJ5rGc1g4eCQQ=",
+        "originContent": "- [Blue Team Tools](https://github.com/A-poc/BlueTeam-Tools) - A collection of tools for blue teamers.",
+        "translatedContent": "- [Blue Team Tools](https://github.com/A-poc/BlueTeam-Tools) - A collection of tools for blue teamers."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

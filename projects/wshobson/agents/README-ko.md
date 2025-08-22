@@ -29,13 +29,13 @@
   </details>
 </div>
 
-# Claude 코드 서브에이전트 모음
+# Claude 코드 서브에이전트 컬렉션
 
-[Claude Code](https://docs.anthropic.com/en/docs/claude-code)를 위한 전문화된 AI 서브에이전트의 종합 모음집으로, 도메인별 전문 지식으로 개발 워크플로우를 향상시킵니다.
+[Claude Code](https://docs.anthropic.com/en/docs/claude-code)의 개발 워크플로우를 도메인별 전문성으로 향상시키기 위해 설계된 전문 AI 서브에이전트의 종합 컬렉션입니다.
 
 ## 개요
 
-이 저장소에는 Claude Code의 기능을 확장하는 61개의 전문 서브에이전트가 포함되어 있습니다. 각 서브에이전트는 특정 도메인의 전문가로, 상황에 따라 자동으로 호출되거나 필요할 때 명시적으로 호출할 수 있습니다. 모든 에이전트는 작업 복잡성에 따라 최적의 성능과 비용 효율성을 위해 특정 Claude 모델로 구성되어 있습니다.
+이 저장소에는 Claude Code의 기능을 확장하는 75개의 전문 서브에이전트가 포함되어 있습니다. 각 서브에이전트는 특정 도메인에 전문화되어 있으며, 상황에 따라 자동으로 호출되거나 필요에 따라 명시적으로 호출됩니다. 모든 에이전트는 작업의 복잡도에 따라 최적의 성능과 비용 효율성을 위해 특정 Claude 모델로 구성되어 있습니다.
 
 ## 사용 가능한 서브에이전트
 
@@ -78,85 +78,105 @@
 - **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - 네트워크 연결 문제 디버깅, 로드밸런서 구성, 트래픽 패턴 분석
 - **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - 개발자 경험을 개선하는 도구, 설정, 워크플로우 최적화 전문가
 
-### 품질 & 보안
-- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - 구성 보안과 프로덕션 신뢰성을 중점으로 하는 전문가 코드 리뷰
+### 품질 및 보안
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - 구성 보안 및 프로덕션 신뢰성에 중점을 둔 전문가 코드 리뷰
 - **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - 취약점 검토 및 OWASP 준수 보장
-- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - 유닛, 통합, e2e 테스트를 포함한 종합 테스트 스위트 작성
-- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - 애플리케이션 프로파일링, 병목 최적화, 캐싱 전략 구현
-- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - 오류, 테스트 실패, 예기치 않은 동작을 위한 디버깅 전문가
-- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - 로그 및 코드베이스에서 오류 패턴, 스택 트레이스, 이상 현상 탐색
-- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - 고급 검색 기법과 통합을 활용한 웹 리서치 전문가
+- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - 단위, 통합, e2e 테스트를 포함한 종합 테스트 스위트 생성
+- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - 애플리케이션 프로파일링, 병목 현상 최적화, 캐싱 전략 구현
+- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - 오류, 테스트 실패 및 예기치 않은 동작에 대한 디버깅 전문가
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - 로그 및 코드베이스에서 오류 패턴, 스택 트레이스, 이상 탐색
+- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - 고급 검색 기술과 종합적 분석을 활용한 웹 리서치 전문가
 
 ### 데이터 & AI
-- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQL 쿼리, BigQuery 작업, 데이터 인사이트를 위한 데이터 분석 전문가
-- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - ETL 파이프라인, 데이터 웨어하우스, 스트리밍 아키텍처 구축
-- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - LLM 애플리케이션, RAG 시스템, 프롬프트 파이프라인 구축
-- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - ML 파이프라인, 모델 서빙, 특성 엔지니어링 구현
-- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - ML 파이프라인 구축, 실험 추적, 모델 레지스트리 관리
+- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQL 쿼리, BigQuery 작업 및 데이터 인사이트에 대한 데이터 분석 전문가
+- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - ETL 파이프라인, 데이터 웨어하우스 및 스트리밍 아키텍처 구축
+- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - LLM 애플리케이션, RAG 시스템 및 프롬프트 파이프라인 구축
+- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - ML 파이프라인, 모델 서빙 및 특성 엔지니어링 구현
+- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - ML 파이프라인 구축, 실험 추적 및 모델 레지스트리 관리
 - **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - LLM 및 AI 시스템을 위한 프롬프트 최적화
 
 ### 전문 분야
 - **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - OpenAPI/Swagger 명세 작성 및 개발자 문서 작성
-- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Stripe, PayPal 및 결제 프로세서 통합
-- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - 금융 모델 구축, 거래 전략 백테스트, 시장 데이터 분석
-- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - 포트폴리오 리스크, R-배수, 포지션 한도 모니터링
+- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Stripe, PayPal 등 결제 프로세서 통합
+- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - 금융 모델 구축, 트레이딩 전략 백테스트 및 시장 데이터 분석
+- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - 포트폴리오 위험, R-배수 및 포지션 한도 모니터링
 - **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - 레거시 코드베이스 리팩터링 및 점진적 현대화 구현
-- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - 여러 에이전트 및 장기 작업 간 컨텍스트 관리
+- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - 여러 에이전트 및 장기 실행 작업 간 컨텍스트 관리
 
 ### 문서화
-- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - 기존 코드베이스로부터 종합적인 기술 문서 작성
-- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - 플로우차트, 시퀀스, ERD, 아키텍처용 Mermaid 다이어그램 작성
-- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - 상세 기술 참고 자료 및 API 문서 작성
-- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - 코드 기반 단계별 튜토리얼 및 교육 콘텐츠 작성
+- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - 기존 코드베이스에서 종합 기술 문서 작성
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - 플로우차트, 시퀀스, ERD, 아키텍처를 위한 Mermaid 다이어그램 생성
+- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - 기술 참조 및 API 문서의 철저한 작성
+- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - 코드 기반의 단계별 튜토리얼 및 교육 콘텐츠 작성
 
 ### 비즈니스 & 마케팅
-- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - 지표 분석, 보고서 작성, KPI 추적
-- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - 블로그, 소셜 미디어 콘텐츠, 이메일 뉴스레터 작성
-- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - 영업 이메일 초안, 후속 이메일, 제안서 템플릿 작성
-- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - 지원 티켓 처리, FAQ 응답, 고객 이메일 대응
-- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - 개인정보 보호정책, 서비스 약관, 면책조항, 법적 고지 작성
+- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - 지표 분석, 보고서 작성 및 KPI 추적
+- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - 블로그 포스트, 소셜 미디어 콘텐츠, 이메일 뉴스레터 작성
+- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - 채용, 온보딩/오프보딩, 휴가 및 연차, 성과, 정책 준수, 직원 관계 지원 파트너
+- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - 콜드 이메일, 팔로업, 제안서 템플릿 작성
+- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - 지원 티켓, FAQ 응답 및 고객 이메일 처리
+- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - 개인정보 보호정책, 서비스 약관, 면책 조항, 법적 고지 작성
+
+### SEO 및 콘텐츠 최적화
+- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - 제공된 콘텐츠의 품질, E-E-A-T 신호, SEO 최적 관행 분석
+- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - 최적화된 메타 제목, 설명, URL 제안 생성
+- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - 키워드 사용 분석, 밀도 계산, 의미론적 변형 제안
+- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - 콘텐츠 구조, 헤더 계층, 스키마 마크업 최적화
+- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - 특화 스니펫 및 SERP 기능에 맞게 콘텐츠 형식화
+- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - 오래된 요소 식별 및 콘텐츠 업데이트 제안
+- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - 여러 페이지의 키워드 중복 및 충돌 분석
+- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - 콘텐츠의 E-E-A-T 신호 및 신뢰 지표 분석
+- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - 키워드와 브리프 기반 SEO 최적화 콘텐츠 작성
+- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - 콘텐츠 개요, 주제 클러스터, 일정 작성
 
 ## 모델 할당
 
-모든 59개의 서브에이전트는 작업 복잡도에 따라 특정 Claude 모델로 구성되어 있습니다:
+총 75개의 서브에이전트가 작업 복잡도에 따라 특정 Claude 모델로 설정되어 있습니다:
 
-### 🚀 Haiku (빠르고 비용 효율적) - 9개 에이전트
+### 🚀 Haiku (빠르고 비용 효율적) - 15 에이전트
 **모델:** `haiku`
 - `data-scientist` - SQL 쿼리 및 데이터 분석
 - `api-documenter` - OpenAPI/Swagger 문서화
-- `reference-builder` - 포괄적인 기술 레퍼런스 및 API 문서화
+- `reference-builder` - 상세 기술 레퍼런스 및 API 문서화
 - `business-analyst` - 지표 및 KPI 추적
-- `content-marketer` - 블로그 게시물 및 소셜 미디어
+- `content-marketer` - 블로그 포스트 및 소셜 미디어
 - `customer-support` - 지원 티켓 및 FAQ
 - `sales-automator` - 콜드 이메일 및 제안서
 - `search-specialist` - 웹 리서치 및 정보 수집
-- `legal-advisor` - 개인정보 처리방침 및 컴플라이언스 문서
+- `legal-advisor` - 개인정보 보호정책 및 컴플라이언스 문서
+- `seo-meta-optimizer` - 메타 제목 및 설명 최적화
+- `seo-keyword-strategist` - 키워드 밀도 및 의미 분석
+- `seo-structure-architect` - 콘텐츠 구조 및 스키마 마크업
+- `seo-snippet-hunter` - 특화 스니펫 형식화
+- `seo-content-refresher` - 콘텐츠 신선도 업데이트
+- `seo-cannibalization-detector` - 키워드 중복 감지
+- `seo-content-planner` - 콘텐츠 일정 및 개요
 
-### ⚡ Sonnet (균형 잡힌 성능) - 37개 에이전트
+### ⚡ Sonnet (균형 잡힌 성능) - 44 에이전트
 **모델:** `sonnet`
 
 **개발 및 언어:**
-- `python-pro` - 고급 기능의 파이썬 개발
-- `ruby-pro` - 메타프로그래밍, Rails 패턴, gem 개발이 가능한 Ruby 개발
-- `javascript-pro` - 최신 자바스크립트 및 Node.js
-- `typescript-pro` - 타입 시스템이 강화된 고급 TypeScript
-- `golang-pro` - Go의 동시성 및 관용적 패턴
-- `rust-pro` - Rust의 메모리 안전성과 시스템 프로그래밍
+- `python-pro` - 고급 기능을 활용한 파이썬 개발
+- `ruby-pro` - 메타프로그래밍, Rails 패턴, gem 개발을 포함한 루비 개발
+- `javascript-pro` - 모던 JavaScript 및 Node.js
+- `typescript-pro` - 타입 시스템을 활용한 고급 TypeScript
+- `golang-pro` - Go 동시성 및 관용적 패턴
+- `rust-pro` - Rust 메모리 안전 및 시스템 프로그래밍
 - `c-pro` - C 프로그래밍 및 임베디드 시스템
-- `cpp-pro` - STL과 템플릿을 활용한 최신 C++
-- `php-pro` - 고급 기능을 갖춘 최신 PHP
-- `java-pro` - 스트림 및 동시성 지원의 최신 Java
+- `cpp-pro` - STL과 템플릿을 활용한 모던 C++
+- `php-pro` - 고급 기능의 모던 PHP
+- `java-pro` - 스트림과 동시성을 활용한 모던 Java
 - `elixir-pro` - OTP 패턴과 Phoenix를 활용한 Elixir
-- `csharp-pro` - .NET 프레임워크 및 패턴을 활용한 최신 C#
-- `scala-pro` - Apache Pekko, Akka, Spark, ZIO/Cats Effect를 활용한 엔터프라이즈 Scala
-- `flutter-expert` - 상태 관리 및 애니메이션을 포함한 Flutter 개발
+- `csharp-pro` - .NET 프레임워크와 패턴의 모던 C#
+- `scala-pro` - Apache Pekko, Akka, Spark, ZIO/Cats Effect 기반 엔터프라이즈 Scala
+- `flutter-expert` - 상태 관리 및 애니메이션의 Flutter 개발
 - `unity-developer` - Unity 게임 개발 및 최적화
-- `minecraft-bukkit-pro` - Bukkit/Spigot/Paper를 활용한 마인크래프트 플러그인 개발
-- `ios-developer` - Swift/SwiftUI를 활용한 네이티브 iOS 개발
+- `minecraft-bukkit-pro` - Bukkit/Spigot/Paper 기반 마인크래프트 플러그인 개발
+- `ios-developer` - Swift/SwiftUI 기반 네이티브 iOS 개발
 - `frontend-developer` - React 컴포넌트 및 UI
 - `ui-ux-designer` - 인터페이스 디자인 및 와이어프레임
 - `backend-architect` - API 설계 및 마이크로서비스
-- `mobile-developer` - React Native/Flutter 앱
+- `mobile-developer` - React Native/Flutter 앱 개발
 - `sql-pro` - 복잡한 SQL 최적화
 - `graphql-architect` - GraphQL 스키마 및 리졸버
 
@@ -165,41 +185,44 @@
 - `deployment-engineer` - CI/CD 파이프라인
 - `database-optimizer` - 쿼리 최적화
 - `database-admin` - 데이터베이스 운영
-- `terraform-specialist` - 코드형 인프라
+- `terraform-specialist` - 코드로서의 인프라(IaC)
 - `network-engineer` - 네트워크 구성
-- `dx-optimizer` - 개발자 경험
+- `dx-optimizer` - 개발자 경험 최적화
 - `data-engineer` - ETL 파이프라인
 
 **품질 & 지원:**
-- `test-automator` - 테스트 스위트 작성
+- `test-automator` - 테스트 스위트 구축
 - `code-reviewer` - 코드 품질 분석
 - `debugger` - 오류 조사
 - `error-detective` - 로그 분석
-- `ml-engineer` - ML 모델 배포
+- `ml-engineer` - 머신러닝 모델 배포
 - `legacy-modernizer` - 프레임워크 마이그레이션
 - `payment-integration` - 결제 처리
 - `mermaid-expert` - Mermaid 다이어그램 및 시각적 문서화
 - `flutter-expert` - Flutter 개발
+- `seo-content-auditor` - 콘텐츠 품질 및 E-E-A-T 분석
+- `seo-authority-builder` - 권위 신호 최적화
+- `seo-content-writer` - SEO 최적화 콘텐츠 작성
 
-### 🧠 Opus (최대 역량) - 13개 에이전트
+### 🧠 Opus (최대 능력치) - 15 에이전트
 **모델:** `opus`
 - `ai-engineer` - LLM 애플리케이션 및 RAG 시스템
 - `security-auditor` - 취약점 분석
 - `performance-engineer` - 애플리케이션 최적화
 - `incident-responder` - 프로덕션 사고 대응
 - `mlops-engineer` - ML 인프라
-- `architect-reviewer` - 아키텍처 일관성
+- `architect-reviewer` - 아키텍처 일관성 검토
 - `cloud-architect` - 클라우드 인프라 설계
 - `prompt-engineer` - LLM 프롬프트 최적화
-- `context-manager` - 다중 에이전트 조정
+- `context-manager` - 멀티 에이전트 조정
 - `quant-analyst` - 금융 모델링
-- `risk-manager` - 포트폴리오 리스크 관리
+- `risk-manager` - 포트폴리오 위험 관리
 - `docs-architect` - 코드베이스 기반의 종합 기술 문서화
 - `tutorial-engineer` - 단계별 튜토리얼 및 교육 콘텐츠
 
 ## 설치
-이러한 하위 에이전트들은 `~/.claude/agents/` 디렉터리에 위치하면 자동으로 사용 가능합니다.
 
+이 서브에이전트들은 `~/.claude/agents/` 디렉토리에 배치하면 자동으로 사용할 수 있습니다.
 
 ```bash
 cd ~/.claude
@@ -410,41 +433,41 @@ payment-integration → security-auditor → Validated implementation
 
 ### 🧪 품질 보증
 - **code-reviewer**: 코드 품질, 구성 보안, 프로덕션 신뢰성
-- **test-automator**: 테스트 전략, 테스트 스위트 작성
+- **test-automator**: 테스트 전략, 테스트 스위트 생성
 - **debugger**: 버그 조사, 오류 해결
 - **error-detective**: 로그 분석, 오류 패턴 인식, 근본 원인 분석
 - **search-specialist**: 딥 웹 리서치, 경쟁 분석, 사실 확인
 
 ### 📚 문서화
-- **api-documenter**: OpenAPI/Swagger 명세, API 문서
+- **api-documenter**: OpenAPI/Swagger 명세, API 문서화
 - **docs-architect**: 종합 기술 문서, 아키텍처 가이드, 시스템 매뉴얼
-- **reference-builder**: 상세 API 레퍼런스, 구성 가이드, 파라미터 문서화
+- **reference-builder**: 철저한 API 참고자료, 구성 가이드, 파라미터 문서화
 - **tutorial-engineer**: 단계별 튜토리얼, 학습 경로, 교육 콘텐츠
 
-### 💼 비즈니스 & 전략
+### 💼 비즈니스 및 전략
 - **business-analyst**: KPI, 수익 모델, 성장 전망, 투자자 지표
-- **risk-manager**: 포트폴리오 리스크, 헤징 전략, R-배수, 포지션 사이징
+- **risk-manager**: 포트폴리오 위험, 헤징 전략, R-멀티플, 포지션 사이징
 - **content-marketer**: SEO 콘텐츠, 블로그 포스트, 소셜 미디어, 이메일 캠페인
 - **sales-automator**: 콜드 이메일, 팔로업, 제안서, 리드 육성
 - **customer-support**: 지원 티켓, FAQ, 도움말 문서, 문제 해결
-- **legal-advisor** - 개인정보 보호정책, 서비스 약관, 면책조항, 법적 고지 초안 작성
+- **legal-advisor** - 개인정보 보호정책, 서비스 약관, 면책 조항, 법적 고지 작성
 
 ## 모범 사례
 
 ### 🎯 작업 위임
-1. **Claude Code에게 자동 위임시키기** - 메인 에이전트가 맥락을 분석해 최적의 에이전트 선택
-2. **요구 사항을 구체적으로 명시하기** - 제약, 기술 스택, 품질 요구사항 포함
-3. **에이전트 전문성을 신뢰하기** - 각 에이전트는 자신의 도메인에 최적화됨
+1. **Claude Code가 자동으로 위임하게 하세요** - 메인 에이전트가 컨텍스트를 분석하고 최적의 에이전트 선택
+2. **요구사항을 구체적으로 작성하세요** - 제약, 기술 스택, 품질 요구사항 포함
+3. **에이전트의 전문성을 신뢰하세요** - 각 에이전트는 해당 도메인에 최적화됨
 
-### 🔄 다중 에이전트 워크플로우
-4. **상위 수준 요청부터 시작하기** - 에이전트들이 복잡한 다단계 작업을 조율하도록 함
-5. **에이전트 간 맥락 제공** - 필요한 배경 정보를 에이전트에게 제공
-6. **통합 포인트 검토** - 서로 다른 에이전트의 산출물이 잘 연동되는지 확인
+### 🔄 다중 에이전트 워크플로
+4. **상위 레벨 요청으로 시작하세요** - 에이전트들이 복잡한 다단계 작업을 조정하게 하세요
+5. **에이전트 간 컨텍스트 제공** - 에이전트가 필요한 배경 정보를 갖도록 보장
+6. **통합 지점 검토** - 서로 다른 에이전트의 결과물이 어떻게 함께 작동하는지 확인
 
 ### 🎛️ 명시적 제어
-7. **특정 필요에 명시적 호출 사용** - 특정 전문가의 관점을 원할 때 활용
-8. **여러 에이전트를 전략적으로 결합** - 다양한 전문가가 서로의 결과를 검증 가능
-9. **특정 리뷰 패턴 요청** - "security-auditor가 backend-architect의 API 설계를 검토하도록 요청"
+7. **특정 필요에 명시적 호출 사용** - 특정 전문가의 관점을 원할 때
+8. **여러 에이전트를 전략적으로 조합** - 다양한 전문가가 서로의 작업을 검증할 수 있음
+9. **특정 리뷰 패턴 요청** - "security-auditor가 backend-architect의 API 설계를 리뷰하게 하세요"
 
 ### 📈 최적화
 10. **에이전트 효율성 모니터링** - 어떤 에이전트가 귀하의 사용 사례에 가장 적합한지 확인
@@ -500,6 +523,6 @@ payment-integration → security-auditor → Validated implementation
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-22
 
 ---

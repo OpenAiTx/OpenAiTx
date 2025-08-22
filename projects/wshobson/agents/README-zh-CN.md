@@ -31,11 +31,11 @@
 
 # Claude Code 子代理集合
 
-一个为 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 设计的专业 AI 子代理综合集合，旨在通过领域专长提升开发工作流。
+这是一个为 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 提供的综合专用 AI 子代理集合，旨在通过领域专长提升开发工作流程。
 
 ## 概述
 
-本仓库包含 61 个专用子代理，扩展了 Claude Code 的能力。每个子代理都是某一领域的专家，可根据上下文自动调用，也可按需显式调用。所有代理均根据任务复杂度配置特定 Claude 模型，以实现最佳性能与成本效益。
+本仓库包含 75 个专用子代理，扩展了 Claude Code 的能力。每个子代理都是某一特定领域的专家，可根据上下文自动调用，或在需要时显式调用。所有代理均根据任务复杂度配置特定的 Claude 模型，以实现最佳性能和成本效益。
 
 ## 可用子代理
 
@@ -79,80 +79,100 @@
 - **[开发者体验优化师](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - 提升开发者体验，优化工具、环境配置与工作流
 
 ### 质量与安全
-- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - 专家级代码审查，深度关注配置安全与生产可靠性
-- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - 检查代码漏洞并确保符合 OWASP 标准
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - 专业代码审查，重点关注配置安全和生产可靠性
+- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - 审查代码漏洞并确保符合OWASP标准
 - **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - 创建全面的测试套件，包括单元、集成和端到端测试
-- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - 分析应用性能，优化瓶颈并实施缓存策略
-- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - 错误、测试失败与异常行为的调试专家
-- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - 在日志与代码库中查找错误模式、堆栈跟踪及异常
-- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - 使用高级搜索技术和综合分析的网络检索专家
+- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - 分析应用性能，优化瓶颈并实现缓存策略
+- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - 错误、测试失败及异常行为的调试专家
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - 搜索日志和代码库中的错误模式、堆栈跟踪和异常
+- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - 利用高级搜索技术和综合能力的专业网络研究员
 
 ### 数据与人工智能
-- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQL 查询、BigQuery 操作和数据洞察分析专家
-- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - 构建 ETL 流程、数据仓库与流式架构
-- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - 构建 LLM 应用、RAG 系统与提示管道
-- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - 实现机器学习流程、模型服务与特征工程
-- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - 构建 ML 流程、实验跟踪与模型注册
-- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - 优化 LLM 与 AI 系统的提示词
+- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - 数据分析专家，擅长SQL查询、BigQuery操作及数据洞察
+- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - 构建ETL流程、数据仓库及流式架构
+- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - 构建LLM应用、RAG系统及提示管道
+- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - 实现机器学习流程、模型部署及特征工程
+- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - 构建机器学习流程、实验追踪及模型注册库
+- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - 优化LLM和人工智能系统的提示词
 
 ### 专业领域
-- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - 创建 OpenAPI/Swagger 规范并编写开发者文档
-- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - 集成 Stripe、PayPal 及支付处理器
+- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - 创建OpenAPI/Swagger规范并编写开发者文档
+- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - 集成Stripe、PayPal及其他支付处理器
 - **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - 构建金融模型、回测交易策略并分析市场数据
-- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - 监控投资组合风险、R-倍数及持仓限额
-- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - 重构遗留代码库并逐步实现现代化
-- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - 管理多代理与长时间任务的上下文
+- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - 监控投资组合风险、R倍数及持仓限制
+- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - 重构遗留代码库并实施渐进式现代化
+- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - 管理多代理及长周期任务的上下文
 
 ### 文档
 - **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - 基于现有代码库创建全面技术文档
-- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - 创建流程图、时序图、ERD 和架构的 Mermaid 图表
-- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - 创建详尽的技术参考与 API 文档
-- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - 根据代码生成分步教程和教育内容
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - 绘制流程图、时序图、ERD和架构的Mermaid图
+- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - 创建详尽的技术参考和API文档
+- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - 从代码生成逐步教程及教育内容
 
-### 商业与市场
-- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - 分析指标、制作报告并跟踪关键绩效指标
-- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - 撰写博客文章、社交媒体内容与电子邮件简报
-- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - 起草冷邮件、跟进邮件及提案模板
-- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - 处理支持工单、常见问题及客户邮件
-- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - 草拟隐私政策、服务条款、免责声明及法律声明
+### 商业与市场营销
+- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - 分析指标、生成报告并跟踪KPI
+- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - 撰写博客、社交媒体内容和电子邮件通讯
+- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - 合作伙伴支持招聘、入职/离职、假期和休假、绩效、合规政策及员工关系。
+- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - 起草冷邮件、跟进邮件和提案模板
+- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - 处理工单、常见问题解答及客户邮件
+- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - 起草隐私政策、服务条款、免责声明和法律通知
+
+### SEO与内容优化
+- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - 分析所提供内容的质量、E-E-A-T 信号和 SEO 最佳实践
+- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - 创建优化的元标题、描述和 URL 建议
+- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - 分析关键词使用情况、计算密度、建议语义变体
+- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - 优化内容结构、标题层级和 schema 标记
+- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - 格式化内容以适应特色摘要和 SERP 功能
+- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - 识别过时元素并提出内容更新建议
+- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - 分析多页面的关键词重叠与冲突
+- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - 分析内容中的 E-E-A-T 信号和可信度指标
+- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - 根据关键词和简报撰写 SEO 优化内容
+- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - 创建内容大纲、主题集群和日历
 
 ## 模型分配
 
-所有 59 个子代理都根据任务复杂性配置了特定的 Claude 模型：
+所有 75 个子代理均根据任务复杂度配置了特定的 Claude 模型：
 
-### 🚀 Haiku（快速且高性价比）- 9 个代理
+### 🚀 Haiku（快速且具性价比）- 15 个代理
 **模型：** `haiku`
-- `data-scientist` - SQL 查询和数据分析
+- `data-scientist` - SQL 查询与数据分析
 - `api-documenter` - OpenAPI/Swagger 文档
 - `reference-builder` - 全面的技术参考和 API 文档
 - `business-analyst` - 指标和 KPI 跟踪
-- `content-marketer` - 博客文章和社交媒体内容
+- `content-marketer` - 博客文章和社交媒体
 - `customer-support` - 支持工单和常见问题
 - `sales-automator` - 冷邮件和提案
-- `search-specialist` - 网络调研与信息收集
-- `legal-advisor` - 隐私政策与合规文件
+- `search-specialist` - 网络研究和信息收集
+- `legal-advisor` - 隐私政策和合规文档
+- `seo-meta-optimizer` - 元标题和描述优化
+- `seo-keyword-strategist` - 关键词密度和语义分析
+- `seo-structure-architect` - 内容结构与 schema 标记
+- `seo-snippet-hunter` - 特色摘要格式化
+- `seo-content-refresher` - 内容更新建议
+- `seo-cannibalization-detector` - 关键词重叠检测
+- `seo-content-planner` - 内容日历和大纲
 
-### ⚡ Sonnet（均衡性能）- 37 个代理
+### ⚡ Sonnet（均衡性能）- 44 个代理
 **模型：** `sonnet`
 
 **开发与编程语言：**
 - `python-pro` - 具备高级特性的 Python 开发
-- `ruby-pro` - Ruby 元编程、Rails 模式与 gem 开发
+- `ruby-pro` - Ruby 开发，包括元编程、Rails 模式和 gem 开发
 - `javascript-pro` - 现代 JavaScript 与 Node.js
 - `typescript-pro` - 高级 TypeScript 类型系统
 - `golang-pro` - Go 并发与惯用模式
 - `rust-pro` - Rust 内存安全与系统编程
 - `c-pro` - C 编程与嵌入式系统
-- `cpp-pro` - 现代 C++，包括 STL 和模板
-- `php-pro` - 现代 PHP，高级功能
-- `java-pro` - 现代 Java，流与并发
+- `cpp-pro` - 现代 C++（STL 和模板）
+- `php-pro` - 现代 PHP 高级特性
+- `java-pro` - 现代 Java 流与并发
 - `elixir-pro` - Elixir OTP 模式与 Phoenix
-- `csharp-pro` - 现代 C#，.NET 框架与模式
-- `scala-pro` - 企业级 Scala，包含 Apache Pekko、Akka、Spark 和 ZIO/Cats Effect
+- `csharp-pro` - 现代 C# .NET 框架与模式
+- `scala-pro` - 企业级 Scala（Apache Pekko、Akka、Spark 和 ZIO/Cats Effect）
 - `flutter-expert` - Flutter 状态管理与动画开发
 - `unity-developer` - Unity 游戏开发与优化
-- `minecraft-bukkit-pro` - Bukkit/Spigot/Paper 的 Minecraft 插件开发
-- `ios-developer` - 使用 Swift/SwiftUI 的原生 iOS 开发
+- `minecraft-bukkit-pro` - Minecraft 插件开发（Bukkit/Spigot/Paper）
+- `ios-developer` - 原生 iOS Swift/SwiftUI 开发
 - `frontend-developer` - React 组件与界面开发
 - `ui-ux-designer` - 界面设计与线框图
 - `backend-architect` - API 设计与微服务架构
@@ -161,14 +181,14 @@
 - `graphql-architect` - GraphQL 架构与解析器
 
 **基础设施与运维：**
-- `devops-troubleshooter` - 生产环境故障排查
+- `devops-troubleshooter` - 生产环境调试
 - `deployment-engineer` - CI/CD 流水线
 - `database-optimizer` - 查询优化
 - `database-admin` - 数据库运维
 - `terraform-specialist` - 基础设施即代码
 - `network-engineer` - 网络配置
 - `dx-optimizer` - 开发者体验优化
-- `data-engineer` - ETL 流程
+- `data-engineer` - ETL 数据管道
 
 **质量与支持：**
 - `test-automator` - 测试套件创建
@@ -178,28 +198,31 @@
 - `ml-engineer` - 机器学习模型部署
 - `legacy-modernizer` - 框架迁移
 - `payment-integration` - 支付集成
-- `mermaid-expert` - Mermaid 图表与可视化文档
+- `mermaid-expert` - Mermaid 图表和可视化文档
 - `flutter-expert` - Flutter 开发
+- `seo-content-auditor` - 内容质量与 E-E-A-T 分析
+- `seo-authority-builder` - 权威信号优化
+- `seo-content-writer` - SEO 优化内容创作
 
-### 🧠 Opus（最大能力）- 13 个代理
+### 🧠 Opus（最大能力）- 15 个代理
 **模型：** `opus`
-- `ai-engineer` - 大语言模型应用与 RAG 系统
+- `ai-engineer` - LLM 应用与 RAG 系统
 - `security-auditor` - 漏洞分析
 - `performance-engineer` - 应用优化
-- `incident-responder` - 生产环境事件处理
+- `incident-responder` - 生产事故处理
 - `mlops-engineer` - 机器学习基础设施
-- `architect-reviewer` - 架构一致性审查
+- `architect-reviewer` - 架构一致性
 - `cloud-architect` - 云基础设施设计
 - `prompt-engineer` - LLM 提示词优化
 - `context-manager` - 多代理协调
 - `quant-analyst` - 金融建模
 - `risk-manager` - 投资组合风险管理
-- `docs-architect` - 从代码库生成全面技术文档
-- `tutorial-engineer` - 步骤式教程和教育内容
+- `docs-architect` - 基于代码库的全面技术文档
+- `tutorial-engineer` - 步骤教程和教育内容
 
 ## 安装
 
-当这些子代理被放置在 `~/.claude/agents/` 目录下时，会自动可用。
+当这些子代理被放置到 `~/.claude/agents/` 目录时会自动可用。
 
 ```bash
 cd ~/.claude
@@ -406,45 +429,45 @@ payment-integration → security-auditor → Validated implementation
 - **security-auditor**：漏洞扫描、合规检查
 - **data-scientist**：数据分析、洞察、报告
 
-- **mlops-engineer**：机器学习基础设施，实验追踪，模型注册，流水线自动化
+- **mlops-engineer**：机器学习基础设施、实验追踪、模型注册、流水线自动化
 
 ### 🧪 质量保证
-- **code-reviewer**：代码质量，配置安全，生产可靠性
-- **test-automator**：测试策略，测试套件创建
-- **debugger**：缺陷调查，错误修复
-- **error-detective**：日志分析，错误模式识别，根本原因分析
-- **search-specialist**：深度网络研究，竞争分析，事实核查
+- **code-reviewer**：代码质量、配置安全、生产可靠性
+- **test-automator**：测试策略、测试套件创建
+- **debugger**：错误调查、问题解决
+- **error-detective**：日志分析、错误模式识别、根本原因分析
+- **search-specialist**：深度网络研究、竞争分析、事实核查
 
 ### 📚 文档编写
-- **api-documenter**：OpenAPI/Swagger 规范，API 文档
-- **docs-architect**：全面的技术文档，架构指南，系统手册
-- **reference-builder**：详尽的 API 参考，配置指南，参数文档
-- **tutorial-engineer**：分步教程，学习路径，教育内容
+- **api-documenter**：OpenAPI/Swagger 规范、API 文档
+- **docs-architect**：全面的技术文档、架构指南、系统手册
+- **reference-builder**：详尽的 API 参考、配置指南、参数文档
+- **tutorial-engineer**：分步教程、学习路径、教育内容
 
 ### 💼 商业与战略
-- **business-analyst**：关键绩效指标，收入模型，增长预测，投资者指标
-- **risk-manager**：投资组合风险，对冲策略，R-倍数，持仓规模
-- **content-marketer**：SEO 内容，博客文章，社交媒体，邮件营销
-- **sales-automator**：冷邮件，跟进，提案，线索培育
-- **customer-support**：支持工单，常见问题，帮助文档，故障排查
-- **legal-advisor** - 起草隐私政策，服务条款，免责声明和法律声明
+- **business-analyst**：关键绩效指标、收入模型、增长预测、投资者指标
+- **risk-manager**：投资组合风险、对冲策略、R 倍数、头寸规模
+- **content-marketer**：SEO 内容、博客文章、社交媒体、邮件营销
+- **sales-automator**：冷邮件、跟进、提案、潜在客户培育
+- **customer-support**：支持工单、常见问题、帮助文档、故障排查
+- **legal-advisor** - 起草隐私政策、服务条款、免责声明及法律通知
 
 ## 最佳实践
 
 ### 🎯 任务分配
-1. **让 Claude Code 自动分配任务** - 主代理分析上下文并选择最佳代理
-2. **明确需求** - 包含约束、技术栈和质量要求
-3. **信任代理专长** - 每个代理都针对其领域进行了优化
+1. **让 Claude Code 自动分配任务**——主代理分析上下文并选择最优代理
+2. **明确需求**——包括约束、技术栈和质量要求
+3. **信任代理专业性**——每个代理都针对其领域进行优化
 
-### 🔄 多代理协作流程
-4. **从高层请求开始** - 让代理协调复杂的多步骤任务
-5. **在代理之间提供上下文** - 确保代理拥有必要的背景信息
-6. **检查集成点** - 检查不同代理的输出如何协同工作
+### 🔄 多代理工作流程
+4. **从高层请求开始**——让代理协调复杂的多步骤任务
+5. **在代理间提供上下文**——确保代理拥有必要的背景信息
+6. **检查集成点**——检查不同代理输出如何协同工作
 
 ### 🎛️ 明确控制
-7. **针对特定需求显式调用** - 当你需要特定专家的观点时
-8. **有策略地组合多个代理** - 不同专家可相互验证工作
-9. **请求特定审查模式** - “让 security-auditor 审查 backend-architect 的 API 设计”
+7. **为特定需求明确调用**——当你想要某位专家的观点时
+8. **战略性组合多个代理**——不同专家可以相互验证成果
+9. **请求特定审核模式**——“让安全审计员审核后端架构师的 API 设计”
 
 ### 📈 优化
 10. **监控代理效果** - 了解哪些代理最适合你的用例
@@ -500,6 +523,6 @@ payment-integration → security-auditor → Validated implementation
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-22
 
 ---

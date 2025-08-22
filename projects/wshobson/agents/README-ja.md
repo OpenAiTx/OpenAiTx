@@ -29,13 +29,13 @@
   </details>
 </div>
 
-# Claude Code サブエージェントコレクション
+# Claude Code サブエージェント コレクション
 
-[Claude Code](https://docs.anthropic.com/en/docs/claude-code)向けの専門AIサブエージェントを網羅的に収集し、領域特化の専門知識で開発ワークフローを強化します。
+[Claude Code](https://docs.anthropic.com/en/docs/claude-code) 向けに設計された、開発ワークフローを強化するための専門的なAIサブエージェントの包括的コレクションです。
 
 ## 概要
 
-このリポジトリには、Claude Codeの機能を拡張するための61個の専門サブエージェントが含まれています。各サブエージェントは特定分野のエキスパートであり、文脈に応じて自動的に呼び出されるか、必要に応じて明示的に呼び出すことができます。すべてのエージェントは、タスクの複雑さに応じて最適な性能とコスト効率を実現するために、特定のClaudeモデルで構成されています。
+このリポジトリには、Claude Code の機能を拡張する75の専門サブエージェントが含まれています。各サブエージェントは特定分野のエキスパートであり、コンテキストに応じて自動的に、または必要に応じて明示的に呼び出されます。すべてのエージェントは、最適なパフォーマンスとコスト効率のために、タスクの複雑さに応じて特定のClaudeモデルが設定されています。
 
 ## 利用可能なサブエージェント
 
@@ -78,128 +78,151 @@
 - **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - ネットワーク接続のデバッグ、ロードバランサの構成、トラフィックパターンの分析
 - **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - ツール、セットアップ、ワークフローの改善を行う開発者体験スペシャリスト
 
-### 品質とセキュリティ
-- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - 深い構成セキュリティと本番信頼性に重点を置いた専門的なコードレビュー
-- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - 脆弱性のためのコードレビューとOWASP準拠の確認
-- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - 単体・統合・e2eテストによる包括的なテストスイート作成
-- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - アプリケーションのプロファイリング、ボトルネック最適化、キャッシュ戦略の実装
-- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - エラー、テスト失敗、予期せぬ挙動のデバッグスペシャリスト
-- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - ログやコードベースからエラーパターン、スタックトレース、異常を検索
-- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - 高度な検索技術と統合でウェブリサーチの専門家
+### 品質 & セキュリティ
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - 構成セキュリティと本番信頼性に重点を置いた専門的なコードレビュー
+- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - 脆弱性のためのコードレビューとOWASP準拠の保証
+- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - 単体・統合・e2eテストを含む包括的なテストスイートの作成
+- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - アプリケーションのプロファイリング、ボトルネックの最適化、キャッシュ戦略の実装
+- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - エラー、テスト失敗、予期せぬ動作のデバッグ専門家
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - ログやコードベースからエラーパターン、スタックトレース、異常を探索
+- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - 高度な検索技法と統合を用いたウェブリサーチの専門家
 
 ### データ & AI
-- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQLクエリ、BigQuery操作、データインサイトの専門家
-- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - ETLパイプライン、データウェアハウス、ストリーミングアーキテクチャの構築
+- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQLクエリ、BigQuery操作、データインサイトの分析専門家
+- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - ETLパイプライン、データウェアハウス、ストリーミング構築
 - **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - LLMアプリ、RAGシステム、プロンプトパイプラインの構築
-- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - MLパイプライン、モデルサービング、特徴量エンジニアリングの実装
+- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - MLパイプライン、モデル提供、特徴量エンジニアリングの実装
 - **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - MLパイプライン、実験管理、モデルレジストリの構築
-- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - LLMやAIシステム用プロンプトの最適化
+- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - LLMやAIシステムのプロンプト最適化
 
-### 専門分野
-- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - OpenAPI/Swagger仕様の作成と開発者ドキュメントの執筆
-- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Stripe、PayPalなど決済プロセッサの統合
-- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - 金融モデルの構築、トレード戦略のバックテスト、市場データの分析
+### 専門領域
+- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - OpenAPI/Swagger仕様作成と開発者向けドキュメント執筆
+- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Stripe、PayPal、決済プロセッサの統合
+- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - 金融モデルの構築、取引戦略のバックテスト、市場データの分析
 - **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - ポートフォリオリスク、Rマルチプル、ポジション制限の監視
-- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - レガシーコードのリファクタリングと段階的なモダナイズ
+- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - レガシーコードベースのリファクタリングと段階的な近代化
 - **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - 複数エージェントや長時間タスク間のコンテキスト管理
 
 ### ドキュメンテーション
-- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - 既存コードベースから包括的な技術ドキュメントを作成
-- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - フローチャート、シーケンス、ERD、アーキテクチャ用のMermaid図作成
-- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - 網羅的な技術リファレンス・APIドキュメントの作成
-- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - コードからステップバイステップのチュートリアル・教育コンテンツ作成
+- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - 既存コードベースから包括的な技術文書を作成
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - フローチャート、シーケンス、ERD、アーキテクチャのMermaid図作成
+- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - 包括的な技術リファレンスとAPIドキュメントの作成
+- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - コードからステップバイステップのチュートリアルや教育コンテンツを作成
 
 ### ビジネス & マーケティング
 - **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - 指標の分析、レポート作成、KPIの追跡
-- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - ブログ記事、SNSコンテンツ、メールニュースレター執筆
-- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - コールドメール、フォローアップ、提案テンプレートの作成
-- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - サポートチケット、FAQ対応、顧客メールの処理
-- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - プライバシーポリシー、利用規約、免責事項、法的通知の作成
+- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - ブログ投稿、SNSコンテンツ、ニュースレターの執筆
+- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - 採用、オンボーディング/オフボーディング、PTO・休暇、評価、コンプライアンス、人事対応のパートナー
+- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - コールドメール、フォローアップ、提案書テンプレートの作成
+- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - サポートチケット、FAQ回答、カスタマー対応メールの処理
+- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - プライバシーポリシー、利用規約、免責事項、法的通知文の作成
+
+### SEO & コンテンツ最適化
+- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - 提供されたコンテンツの品質、E-E-A-Tシグナル、およびSEOのベストプラクティスを分析
+- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - 最適化されたメタタイトル、ディスクリプション、URLの提案を作成
+- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - キーワード使用状況を分析、密度を算出、セマンティックなバリエーションを提案
+- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - コンテンツ構造、ヘッダーヒエラルキー、スキーママークアップを最適化
+- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - フィーチャードスニペットやSERP機能のためにコンテンツをフォーマット
+- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - 古くなった要素を特定し、コンテンツ更新を提案
+- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - 複数ページのキーワード重複や競合を分析
+- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - コンテンツのE-E-A-Tシグナルと信頼性指標を分析
+- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - キーワードやブリーフに基づきSEO最適化コンテンツを執筆
+- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - コンテンツアウトライン、トピッククラスター、カレンダーを作成
 
 ## モデル割り当て
 
-全59のサブエージェントは、タスクの複雑さに応じて特定のClaudeモデルで構成されています。
+全75サブエージェントは、タスクの複雑さに基づいて特定のClaudeモデルに設定されています:
 
-### 🚀 Haiku（高速・コスト効率重視） - 9エージェント
+### 🚀 Haiku（高速・コスト効率） - 15エージェント
 **モデル:** `haiku`
-- `data-scientist` - SQLクエリとデータ分析
-- `api-documenter` - OpenAPI/Swaggerドキュメント
-- `reference-builder` - 詳細な技術リファレンスとAPIドキュメント
-- `business-analyst` - 指標とKPIの追跡
-- `content-marketer` - ブログ投稿とソーシャルメディア
-- `customer-support` - サポートチケットとFAQ
-- `sales-automator` - コールドメールと提案書
-- `search-specialist` - ウェブリサーチと情報収集
+- `data-scientist` - SQLクエリおよびデータ分析
+- `api-documenter` - OpenAPI/Swaggerドキュメント作成
+- `reference-builder` - 包括的な技術リファレンスおよびAPIドキュメント
+- `business-analyst` - 指標およびKPIの追跡
+- `content-marketer` - ブログ投稿およびソーシャルメディア
+- `customer-support` - サポートチケットおよびFAQ
+- `sales-automator` - コールドメールおよび提案書
+- `search-specialist` - ウェブリサーチおよび情報収集
 - `legal-advisor` - プライバシーポリシーおよびコンプライアンス文書
+- `seo-meta-optimizer` - メタタイトルおよびディスクリプションの最適化
+- `seo-keyword-strategist` - キーワード密度およびセマンティック分析
+- `seo-structure-architect` - コンテンツ構造とスキーママークアップ
+- `seo-snippet-hunter` - フィーチャードスニペットのフォーマット
+- `seo-content-refresher` - コンテンツの鮮度アップデート
+- `seo-cannibalization-detector` - キーワード重複検出
+- `seo-content-planner` - コンテンツカレンダーおよびアウトライン
 
-### ⚡ Sonnet（バランス型パフォーマンス） - 37エージェント
+### ⚡ Sonnet（バランス型パフォーマンス） - 44エージェント
 **モデル:** `sonnet`
 
 **開発＆言語:**
 - `python-pro` - 高度な機能を備えたPython開発
 - `ruby-pro` - メタプログラミング、Railsパターン、gem開発を含むRuby開発
-- `javascript-pro` - 最新のJavaScriptおよびNode.js
+- `javascript-pro` - モダンJavaScriptとNode.js
 - `typescript-pro` - 型システムを活用した高度なTypeScript
-- `golang-pro` - Goの並行処理およびイディオマティックパターン
+- `golang-pro` - Goの並行処理とイディオマティックなパターン
 - `rust-pro` - Rustのメモリ安全性とシステムプログラミング
-- `c-pro` - Cプログラミングと組み込みシステム
-- `cpp-pro` - STLやテンプレートを活用した最新C++
-- `php-pro` - 高度な機能を持つ最新PHP
-- `java-pro` - ストリームと並行処理を備えた最新Java
-- `elixir-pro` - OTPパターンやPhoenixを用いたElixir
-- `csharp-pro` - .NETフレームワークやパターンを活用した最新C#
-- `scala-pro` - Apache Pekko、Akka、Spark、ZIO/Cats Effectを備えたエンタープライズScala
-- `flutter-expert` - 状態管理やアニメーションを含むFlutter開発
+- `c-pro` - C言語プログラミングと組み込みシステム
+- `cpp-pro` - STLやテンプレートを活用したモダンC++
+- `php-pro` - 高度な機能を備えたモダンPHP
+- `java-pro` - ストリームと並行処理を活用したモダンJava
+- `elixir-pro` - OTPパターンとPhoenixを用いたElixir
+- `csharp-pro` - .NETフレームワークとパターンを活用したモダンC#
+- `scala-pro` - Apache Pekko、Akka、Spark、ZIO/Cats Effectを用いたエンタープライズScala
+- `flutter-expert` - 状態管理とアニメーションを駆使したFlutter開発
 - `unity-developer` - Unityゲーム開発と最適化
-- `minecraft-bukkit-pro` - Bukkit/Spigot/PaperによるMinecraftプラグイン開発
+- `minecraft-bukkit-pro` - Bukkit/Spigot/Paperを用いたMinecraftプラグイン開発
 - `ios-developer` - Swift/SwiftUIによるネイティブiOS開発
 - `frontend-developer` - ReactコンポーネントとUI
-- `ui-ux-designer` - インターフェース設計とワイヤーフレーム
+- `ui-ux-designer` - インターフェイスデザインとワイヤーフレーム
 - `backend-architect` - API設計とマイクロサービス
 - `mobile-developer` - React Native/Flutterアプリ
-- `sql-pro` - 複雑なSQL最適化
-- `graphql-architect` - GraphQL スキーマとリゾルバー
+- `sql-pro` - 複雑なSQLの最適化
+- `graphql-architect` - GraphQLスキーマとリゾルバ
 
-**インフラストラクチャ & 運用:**
-- `devops-troubleshooter` - 本番デバッグ
-- `deployment-engineer` - CI/CD パイプライン
+**インフラストラクチャ＆運用:**
+- `devops-troubleshooter` - 本番環境のデバッグ
+- `deployment-engineer` - CI/CDパイプライン
 - `database-optimizer` - クエリ最適化
 - `database-admin` - データベース運用
 - `terraform-specialist` - Infrastructure as Code
 - `network-engineer` - ネットワーク構成
-- `dx-optimizer` - 開発者体験
-- `data-engineer` - ETL パイプライン
+- `dx-optimizer` - 開発者体験の最適化
+- `data-engineer` - ETLパイプライン
 
-**品質 & サポート:**
+**品質＆サポート:**
 - `test-automator` - テストスイート作成
 - `code-reviewer` - コード品質分析
 - `debugger` - エラー調査
 - `error-detective` - ログ分析
-- `ml-engineer` - ML モデルデプロイ
+- `ml-engineer` - 機械学習モデルのデプロイ
 - `legacy-modernizer` - フレームワーク移行
 - `payment-integration` - 決済処理
 - `mermaid-expert` - Mermaid ダイアグラムとビジュアルドキュメント
 - `flutter-expert` - Flutter 開発
+- `seo-content-auditor` - コンテンツ品質および E-E-A-T 分析
+- `seo-authority-builder` - 権威性シグナル最適化
+- `seo-content-writer` - SEO 最適化コンテンツの作成
 
-### 🧠 Opus（最大能力） - 13 エージェント
+### 🧠 Opus（最大能力）- 15 エージェント
 **モデル:** `opus`
 - `ai-engineer` - LLM アプリケーションと RAG システム
 - `security-auditor` - 脆弱性分析
 - `performance-engineer` - アプリケーション最適化
 - `incident-responder` - 本番インシデント対応
-- `mlops-engineer` - ML インフラストラクチャ
-- `architect-reviewer` - アーキテクチャ一貫性
+- `mlops-engineer` - 機械学習インフラ
+- `architect-reviewer` - アーキテクチャの一貫性
 - `cloud-architect` - クラウドインフラ設計
 - `prompt-engineer` - LLM プロンプト最適化
-- `context-manager` - マルチエージェント協調
+- `context-manager` - マルチエージェント調整
 - `quant-analyst` - 金融モデリング
 - `risk-manager` - ポートフォリオリスク管理
 - `docs-architect` - コードベースからの包括的技術ドキュメント
 - `tutorial-engineer` - ステップバイステップのチュートリアルと教育コンテンツ
 
 ## インストール
-これらのサブエージェントは、`~/.claude/agents/` ディレクトリに配置すると自動的に利用可能になります。
 
+これらのサブエージェントは `~/.claude/agents/` ディレクトリに配置すると自動的に利用可能になります。
 
 ```bash
 cd ~/.claude
@@ -406,25 +429,25 @@ payment-integration → security-auditor → Validated implementation
 - **performance-engineer**: アプリケーションのボトルネック、最適化
 - **security-auditor**: 脆弱性スキャン、コンプライアンスチェック
 - **data-scientist**: データ分析、インサイト、レポーティング
-- **mlops-engineer**: MLインフラ、実験トラッキング、モデルレジストリ、パイプライン自動化
+- **mlops-engineer**: MLインフラストラクチャ、実験トラッキング、モデルレジストリ、パイプライン自動化
 
 ### 🧪 品質保証
 - **code-reviewer**: コード品質、構成のセキュリティ、運用信頼性
 - **test-automator**: テスト戦略、テストスイート作成
 - **debugger**: バグ調査、エラー解決
-- **error-detective**: ログ分析、エラーパターン認識、根本原因分析
-- **search-specialist**: ディープウェブリサーチ、競合分析、事実確認
+- **error-detective**: ログ解析、エラーパターン認識、根本原因分析
+- **search-specialist**: ディープウェブ調査、競合分析、ファクトチェック
 
 ### 📚 ドキュメント
 - **api-documenter**: OpenAPI/Swagger仕様、APIドキュメント
-- **docs-architect**: 包括的な技術文書、アーキテクチャガイド、システムマニュアル
-- **reference-builder**: 網羅的なAPIリファレンス、構成ガイド、パラメータ文書
-- **tutorial-engineer**: ステップバイステップのチュートリアル、学習パス、教育コンテンツ
+- **docs-architect**: 包括的な技術ドキュメント、アーキテクチャガイド、システムマニュアル
+- **reference-builder**: 網羅的なAPIリファレンス、設定ガイド、パラメータドキュメント
+- **tutorial-engineer**: ステップバイステップチュートリアル、学習パス、教育コンテンツ
 
 ### 💼 ビジネス＆戦略
-- **business-analyst**: KPI、収益モデル、成長予測、投資家向け指標
-- **risk-manager**: ポートフォリオリスク、ヘッジ戦略、Rマルチプル、ポジションサイジング
-- **content-marketer**: SEOコンテンツ、ブログ投稿、ソーシャルメディア、メールキャンペーン
+- **business-analyst**: KPI、収益モデル、成長予測、投資家指標
+- **risk-manager**: ポートフォリオリスク、ヘッジ戦略、Rマルチプル、ポジションサイズ管理
+- **content-marketer**: SEOコンテンツ、ブログ投稿、SNS、メールキャンペーン
 - **sales-automator**: コールドメール、フォローアップ、提案書、リード育成
 - **customer-support**: サポートチケット、FAQ、ヘルプドキュメント、トラブルシューティング
 - **legal-advisor** - プライバシーポリシー、利用規約、免責事項、法的通知の作成
@@ -432,19 +455,19 @@ payment-integration → security-auditor → Validated implementation
 ## ベストプラクティス
 
 ### 🎯 タスクの委任
-1. **Claude Codeに自動委任させる** - メインエージェントがコンテキストを分析し最適なエージェントを選択
+1. **Claude Codeに自動委任させる** - メインエージェントが文脈を分析し最適なエージェントを選択
 2. **要件を具体的に伝える** - 制約、技術スタック、品質要件を含める
-3. **エージェントの専門性を信頼する** - 各エージェントはその分野に最適化されている
+3. **エージェントの専門性を信頼する** - 各エージェントは自分の分野に最適化されている
 
 ### 🔄 マルチエージェントワークフロー
-4. **高レベルのリクエストから始める** - エージェントが複雑なマルチステップタスクを調整
-5. **エージェント間のコンテキストを提供** - 必要な背景情報を持たせる
-6. **統合ポイントをレビュー** - 異なるエージェントの成果物がどう連携するか確認
+4. **高レベルなリクエストから始める** - エージェントに複雑なマルチステップタスクを調整させる
+5. **エージェント間で文脈を提供する** - 必要な背景情報をエージェントに共有
+6. **統合ポイントをレビューする** - 異なるエージェントの成果物がどう連携するか確認
 
-### 🎛️ 明示的な制御
-7. **特定のニーズには明示的な呼び出しを使う** - 特定の専門家の視点が必要なとき
+### 🎛️ 明示的なコントロール
+7. **特定のニーズには明示的に呼び出す** - 特定の専門家の視点が欲しい場合
 8. **複数エージェントを戦略的に組み合わせる** - 異なる専門家が互いの成果を検証できる
-9. **特定のレビュー手順を要求する** - 「security-auditorにbackend-architectのAPI設計をレビューさせる」
+9. **特定のレビュー方法を依頼する** - 「security-auditorにbackend-architectのAPI設計をレビューしてもらう」
 
 ### 📈 最適化
 10. **エージェントの有効性を監視する** - ユースケースに最適なエージェントを学習する
@@ -500,6 +523,6 @@ payment-integration → security-auditor → Validated implementation
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-22
 
 ---

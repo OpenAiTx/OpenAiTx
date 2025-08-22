@@ -31,11 +31,11 @@
 
 # Koleksi Subagen Claude Code
 
-Kumpulan subagen AI khusus yang komprehensif untuk [Claude Code](https://docs.anthropic.com/en/docs/claude-code), dirancang untuk meningkatkan alur kerja pengembangan dengan keahlian spesifik domain.
+Koleksi lengkap subagen AI khusus untuk [Claude Code](https://docs.anthropic.com/en/docs/claude-code), dirancang untuk meningkatkan alur kerja pengembangan dengan keahlian domain yang spesifik.
 
 ## Ikhtisar
 
-Repositori ini berisi 61 subagen khusus yang memperluas kemampuan Claude Code. Setiap subagen adalah ahli dalam domain tertentu, dipanggil secara otomatis berdasarkan konteks atau secara eksplisit saat dibutuhkan. Semua agen dikonfigurasi dengan model Claude spesifik berdasarkan kompleksitas tugas untuk kinerja optimal dan efektivitas biaya.
+Repositori ini berisi 75 subagen khusus yang memperluas kapabilitas Claude Code. Setiap subagen merupakan ahli di bidang tertentu, dipanggil secara otomatis berdasarkan konteks atau secara eksplisit saat dibutuhkan. Semua agen dikonfigurasi dengan model Claude spesifik berdasarkan kompleksitas tugas untuk performa dan efisiensi biaya yang optimal.
 
 ## Subagen Tersedia
 
@@ -79,48 +79,61 @@ Repositori ini berisi 61 subagen khusus yang memperluas kemampuan Claude Code. S
 - **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Spesialis Developer Experience yang meningkatkan tooling, setup, dan alur kerja
 
 ### Kualitas & Keamanan
-- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Review kode ahli dengan fokus konfigurasi keamanan mendalam dan keandalan produksi
-- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Tinjau kode untuk kerentanan dan pastikan kepatuhan OWASP
-- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Membuat suite pengujian komprehensif dengan unit, integrasi, dan tes e2e
-- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profil aplikasi, optimalkan kemacetan, dan terapkan strategi caching
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Tinjauan kode ahli dengan fokus mendalam pada keamanan konfigurasi dan keandalan produksi
+- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Meninjau kode untuk kerentanan dan memastikan kepatuhan OWASP
+- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Membuat rangkaian pengujian komprehensif dengan unit, integrasi, dan pengujian e2e
+- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profil aplikasi, optimasi bottleneck, dan implementasi strategi caching
 - **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Spesialis debugging untuk kesalahan, kegagalan tes, dan perilaku tak terduga
-- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Mencari pola kesalahan, stack trace, dan anomali di log dan kode
-- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Peneliti web ahli menggunakan teknik pencarian lanjutan dan sintesis
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Mencari pola kesalahan, jejak stack, dan anomali di log dan basis kode
+- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Peneliti web ahli menggunakan teknik pencarian canggih dan sintesis
 
 ### Data & AI
 - **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Ahli analisis data untuk query SQL, operasi BigQuery, dan wawasan data
-- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Membangun pipeline ETL, data warehouse, dan arsitektur streaming
+- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Membangun pipeline ETL, gudang data, dan arsitektur streaming
 - **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Membangun aplikasi LLM, sistem RAG, dan pipeline prompt
-- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Mengimplementasikan pipeline ML, penyajian model, dan rekayasa fitur
+- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Menerapkan pipeline ML, penyajian model, dan rekayasa fitur
 - **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Membangun pipeline ML, pelacakan eksperimen, dan registri model
 - **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - Mengoptimalkan prompt untuk LLM dan sistem AI
 
 ### Domain Khusus
 - **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Membuat spesifikasi OpenAPI/Swagger dan menulis dokumentasi pengembang
-- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integrasi Stripe, PayPal, dan pemroses pembayaran
-- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Membangun model keuangan, uji coba strategi trading, dan analisis data pasar
+- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integrasi Stripe, PayPal, dan prosesor pembayaran
+- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Membangun model keuangan, backtest strategi trading, dan analisis data pasar
 - **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Memantau risiko portofolio, R-multiples, dan batas posisi
-- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refaktor basis kode lama dan menerapkan modernisasi bertahap
-- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Mengelola konteks di banyak agen dan tugas berjalan lama
+- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refaktor basis kode legacy dan implementasi modernisasi bertahap
+- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Mengelola konteks di berbagai agen dan tugas jangka panjang
 
 ### Dokumentasi
 - **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Membuat dokumentasi teknis komprehensif dari basis kode yang ada
-- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Membuat diagram Mermaid untuk flowchart, urutan, ERD, dan arsitektur
-- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Membuat referensi teknis lengkap dan dokumentasi API
-- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Membuat tutorial langkah demi langkah dan konten edukasi dari kode
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Membuat diagram Mermaid untuk flowchart, sequence, ERD, dan arsitektur
+- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Membuat referensi teknis menyeluruh dan dokumentasi API
+- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Membuat tutorial langkah-demi-langkah dan konten edukasi dari kode
 
 ### Bisnis & Pemasaran
 - **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analisis metrik, membuat laporan, dan melacak KPI
-- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Menulis posting blog, konten media sosial, dan newsletter email
-- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Menyusun email penawaran dingin, tindak lanjut, dan template proposal
+- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Menulis posting blog, konten media sosial, dan buletin email
+- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - Partner untuk rekrutmen, onboarding/offboarding, cuti, kinerja, kebijakan kepatuhan, dan hubungan karyawan.
+- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Membuat draf email dingin, tindak lanjut, dan template proposal
 - **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Menangani tiket dukungan, jawaban FAQ, dan email pelanggan
 - **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Menyusun kebijakan privasi, syarat layanan, disclaimer, dan pemberitahuan hukum
 
+### SEO & Optimasi Konten
+- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - Menganalisis konten yang diberikan untuk kualitas, sinyal E-E-A-T, dan praktik terbaik SEO
+- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - Membuat judul meta, deskripsi, dan saran URL yang dioptimalkan
+- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - Menganalisis penggunaan kata kunci, menghitung kepadatan, menyarankan variasi semantik
+- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - Mengoptimalkan struktur konten, hierarki header, dan markup skema
+- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - Memformat konten untuk featured snippet dan fitur SERP
+- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - Mengidentifikasi elemen usang dan menyarankan pembaruan konten
+- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - Menganalisis beberapa halaman untuk tumpang tindih kata kunci dan konflik
+- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - Menganalisis konten untuk sinyal E-E-A-T dan indikator kepercayaan
+- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - Menulis konten yang dioptimalkan SEO berdasarkan kata kunci dan brief
+- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - Membuat outline konten, kelompok topik, dan kalender
+
 ## Penugasan Model
 
-Semua 59 subagen dikonfigurasi dengan model Claude tertentu berdasarkan kompleksitas tugas:
+Seluruh 75 subagen dikonfigurasi dengan model Claude spesifik berdasarkan kompleksitas tugas:
 
-### 🚀 Haiku (Cepat & Hemat Biaya) - 9 agen
+### 🚀 Haiku (Cepat & Hemat Biaya) - 15 agen
 **Model:** `haiku`
 - `data-scientist` - Query SQL dan analisis data
 - `api-documenter` - Dokumentasi OpenAPI/Swagger
@@ -131,57 +144,67 @@ Semua 59 subagen dikonfigurasi dengan model Claude tertentu berdasarkan kompleks
 - `sales-automator` - Email dingin dan proposal
 - `search-specialist` - Riset web dan pengumpulan informasi
 - `legal-advisor` - Kebijakan privasi dan dokumen kepatuhan
+- `seo-meta-optimizer` - Optimasi judul dan deskripsi meta
+- `seo-keyword-strategist` - Analisis kepadatan dan semantik kata kunci
+- `seo-structure-architect` - Struktur konten dan markup skema
+- `seo-snippet-hunter` - Pemformatan featured snippet
+- `seo-content-refresher` - Pembaruan kesegaran konten
+- `seo-cannibalization-detector` - Deteksi tumpang tindih kata kunci
+- `seo-content-planner` - Kalender dan outline konten
 
-### ⚡ Sonnet (Performa Seimbang) - 37 agen
+### ⚡ Sonnet (Performa Seimbang) - 44 agen
 **Model:** `sonnet`
 
 **Pengembangan & Bahasa:**
 - `python-pro` - Pengembangan Python dengan fitur lanjutan
 - `ruby-pro` - Pengembangan Ruby dengan metaprogramming, pola Rails, dan pengembangan gem
 - `javascript-pro` - JavaScript modern dan Node.js
-- `typescript-pro` - TypeScript lanjutan dengan sistem tipe
+- `typescript-pro` - TypeScript tingkat lanjut dengan sistem tipe
 - `golang-pro` - Go concurrency dan pola idiomatik
 - `rust-pro` - Keamanan memori Rust dan pemrograman sistem
 - `c-pro` - Pemrograman C dan sistem embedded
 - `cpp-pro` - C++ modern dengan STL dan template
-- `php-pro` - PHP modern dengan fitur lanjutan
+- `php-pro` - PHP modern dengan fitur tingkat lanjut
 - `java-pro` - Java modern dengan streams dan concurrency
 - `elixir-pro` - Elixir dengan pola OTP dan Phoenix
 - `csharp-pro` - C# modern dengan framework dan pola .NET
 - `scala-pro` - Scala enterprise dengan Apache Pekko, Akka, Spark, dan ZIO/Cats Effect
 - `flutter-expert` - Pengembangan Flutter dengan manajemen state dan animasi
-- `unity-developer` - Pengembangan game Unity dan optimasi
+- `unity-developer` - Pengembangan dan optimasi game Unity
 - `minecraft-bukkit-pro` - Pengembangan plugin Minecraft dengan Bukkit/Spigot/Paper
 - `ios-developer` - Pengembangan iOS native dengan Swift/SwiftUI
 - `frontend-developer` - Komponen React dan UI
 - `ui-ux-designer` - Desain antarmuka dan wireframe
-- `backend-architect` - Desain API dan mikroservis
+- `backend-architect` - Desain API dan microservices
 - `mobile-developer` - Aplikasi React Native/Flutter
-- `sql-pro` - Optimasi SQL kompleks
+- `sql-pro` - Optimisasi SQL kompleks
 - `graphql-architect` - Skema dan resolver GraphQL
 
 **Infrastruktur & Operasi:**
 - `devops-troubleshooter` - Debugging produksi
 - `deployment-engineer` - Pipeline CI/CD
-- `database-optimizer` - Optimasi query
+- `database-optimizer` - Optimisasi query
 - `database-admin` - Operasi basis data
-- `terraform-specialist` - Infrastruktur sebagai kode
+- `terraform-specialist` - Infrastructure as Code
 - `network-engineer` - Konfigurasi jaringan
 - `dx-optimizer` - Pengalaman pengembang
 - `data-engineer` - Pipeline ETL
 
 **Kualitas & Dukungan:**
-- `test-automator` - Pembuatan suite pengujian
+- `test-automator` - Pembuatan test suite
 - `code-reviewer` - Analisis kualitas kode
-- `debugger` - Investigasi kesalahan
+- `debugger` - Investigasi error
 - `error-detective` - Analisis log
 - `ml-engineer` - Deployment model ML
-- `legacy-modernizer` - Migrasi kerangka kerja
-- `payment-integration` - Proses pembayaran
+- `legacy-modernizer` - Migrasi framework
+- `payment-integration` - Pemrosesan pembayaran
 - `mermaid-expert` - Diagram Mermaid dan dokumentasi visual
 - `flutter-expert` - Pengembangan Flutter
+- `seo-content-auditor` - Analisis kualitas konten dan E-E-A-T
+- `seo-authority-builder` - Optimasi sinyal otoritas
+- `seo-content-writer` - Pembuatan konten yang dioptimalkan SEO
 
-### 🧠 Opus (Kapasitas Maksimum) - 13 agen
+### 🧠 Opus (Kemampuan Maksimal) - 15 agen
 **Model:** `opus`
 - `ai-engineer` - Aplikasi LLM dan sistem RAG
 - `security-auditor` - Analisis kerentanan
@@ -194,12 +217,12 @@ Semua 59 subagen dikonfigurasi dengan model Claude tertentu berdasarkan kompleks
 - `context-manager` - Koordinasi multi-agen
 - `quant-analyst` - Pemodelan finansial
 - `risk-manager` - Manajemen risiko portofolio
-- `docs-architect` - Dokumentasi teknis komprehensif dari basis kode
+- `docs-architect` - Dokumentasi teknis komprehensif dari kode sumber
 - `tutorial-engineer` - Tutorial langkah demi langkah dan konten edukasi
 
 ## Instalasi
 
-Subagen ini tersedia secara otomatis ketika ditempatkan di direktori `~/.claude/agents/`.
+Subagen ini otomatis tersedia ketika ditempatkan di direktori `~/.claude/agents/`.
 
 ```bash
 cd ~/.claude
@@ -410,41 +433,41 @@ payment-integration → security-auditor → Validated implementation
 
 ### 🧪 Penjaminan Kualitas
 - **code-reviewer**: Kualitas kode, keamanan konfigurasi, keandalan produksi
-- **test-automator**: Strategi pengujian, pembuatan suite tes
-- **debugger**: Investigasi bug, penyelesaian kesalahan
+- **test-automator**: Strategi pengujian, pembuatan suite pengujian
+- **debugger**: Investigasi bug, resolusi kesalahan
 - **error-detective**: Analisis log, pengenalan pola kesalahan, analisis akar masalah
-- **search-specialist**: Riset web mendalam, analisis kompetitif, pemeriksaan fakta
+- **search-specialist**: Riset web mendalam, analisis kompetitif, pengecekan fakta
 
 ### 📚 Dokumentasi
 - **api-documenter**: Spesifikasi OpenAPI/Swagger, dokumentasi API
 - **docs-architect**: Dokumentasi teknis komprehensif, panduan arsitektur, manual sistem
 - **reference-builder**: Referensi API lengkap, panduan konfigurasi, dokumentasi parameter
-- **tutorial-engineer**: Tutorial langkah demi langkah, jalur pembelajaran, konten edukasi
+- **tutorial-engineer**: Tutorial langkah demi langkah, jalur pembelajaran, konten edukatif
 
 ### 💼 Bisnis & Strategi
 - **business-analyst**: KPI, model pendapatan, proyeksi pertumbuhan, metrik investor
-- **risk-manager**: Risiko portofolio, strategi lindung nilai, R-multiples, ukuran posisi
+- **risk-manager**: Risiko portofolio, strategi lindung nilai, R-multiples, penentuan posisi
 - **content-marketer**: Konten SEO, posting blog, media sosial, kampanye email
-- **sales-automator**: Email penawaran, tindak lanjut, proposal, nurturing prospek
+- **sales-automator**: Email dingin, tindak lanjut, proposal, pengasuhan prospek
 - **customer-support**: Tiket dukungan, FAQ, dokumentasi bantuan, pemecahan masalah
-- **legal-advisor** - Menyusun kebijakan privasi, syarat layanan, disclaimer, dan pemberitahuan hukum
+- **legal-advisor** - Menyusun kebijakan privasi, syarat layanan, penyangkalan, dan pemberitahuan hukum
 
 ## Praktik Terbaik
 
 ### 🎯 Delegasi Tugas
 1. **Biarkan Claude Code mendelegasikan secara otomatis** - Agen utama menganalisis konteks dan memilih agen yang optimal
-2. **Jelaskan persyaratan secara spesifik** - Sertakan batasan, teknologi yang digunakan, dan kebutuhan kualitas
-3. **Percayai keahlian agen** - Setiap agen dioptimalkan untuk domainnya
+2. **Jelaskan persyaratan secara spesifik** - Sertakan batasan, tumpukan teknologi, dan persyaratan kualitas
+3. **Percayai keahlian agen** - Setiap agen dioptimalkan untuk bidangnya masing-masing
 
 ### 🔄 Alur Kerja Multi-Agen
-4. **Mulai dengan permintaan tingkat tinggi** - Biarkan agen berkoordinasi pada tugas kompleks multi-langkah
-5. **Sediakan konteks antar agen** - Pastikan agen memiliki informasi latar belakang yang diperlukan
-6. **Tinjau titik integrasi** - Periksa bagaimana output agen yang berbeda saling bekerja sama
+4. **Mulai dengan permintaan tingkat tinggi** - Biarkan agen berkoordinasi untuk tugas multi-langkah yang kompleks
+5. **Berikan konteks antar agen** - Pastikan agen memiliki informasi latar belakang yang diperlukan
+6. **Tinjau titik integrasi** - Periksa bagaimana output dari berbagai agen bekerja bersama
 
 ### 🎛️ Kontrol Eksplisit
 7. **Gunakan pemanggilan eksplisit untuk kebutuhan khusus** - Saat Anda menginginkan perspektif pakar tertentu
-8. **Gabungkan beberapa agen secara strategis** - Spesialis berbeda dapat memvalidasi hasil satu sama lain
-9. **Minta pola review spesifik** - "Minta security-auditor untuk meninjau desain API backend-architect"
+8. **Gabungkan beberapa agen secara strategis** - Spesialis berbeda dapat memvalidasi pekerjaan satu sama lain
+9. **Minta pola peninjauan spesifik** - "Minta security-auditor meninjau desain API dari backend-architect"
 
 ### 📈 Optimisasi
 10. **Pantau efektivitas agen** - Pelajari agen mana yang paling cocok untuk kasus penggunaan Anda
@@ -500,6 +523,6 @@ Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) unt
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-22
 
 ---
