@@ -1,0 +1,644 @@
+[
+  {
+    "row": 1,
+    "rowsha": "bQ9qbcnBWOkH+5qvrZsXs93ycufqKrv4oIxKnGsTBbk=",
+    "originContent": "# telescope-tabs",
+    "translatedContent": "# telescope-tabs"
+  },
+  {
+    "row": 2,
+    "rowsha": "dFCZ6oRR2qQwanlXL3oPz9ZqCiBjuWVPy/VEC/6TmyM=",
+    "originContent": "Fly through your tabs in neovim ✈️",
+    "translatedContent": "네오빔에서 탭을 빠르게 탐색하세요 ✈️"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 5,
+    "rowsha": "HM6SL2rqR1+nNkMg/vYotLTybQYriotXF/TkrteF3DA=",
+    "originContent": "\t<img src=\"https://github.com/LukasPietzschmann/telescope-tabs/assets/49213919/e749d458-4ffd-4af2-aba9-86d0e3fb4862\" width=\"300px\" />",
+    "translatedContent": "\t<img src=\"https://github.com/LukasPietzschmann/telescope-tabs/assets/49213919/e749d458-4ffd-4af2-aba9-86d0e3fb4862\" width=\"300px\" />"
+  },
+  {
+    "row": 6,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "WiY/MixQXWYTaaMYgRfMUo4vtXhrOs34sz16hS3lycw=",
+    "originContent": "## Important Note",
+    "translatedContent": "## 중요한 참고사항"
+  },
+  {
+    "row": 9,
+    "rowsha": "x2q2S0UmE0dTt/0tGusrOSnvX5ezvmrsyOlfQpsnZe8=",
+    "originContent": "If you don't want to use telescope, there's also a version using `vim.ui.select` instead of telescope. Checkout the [`vim_ui_select`](https://github.com/LukasPietzschmann/telescope-tabs/tree/vim_ui_select) branch :)",
+    "translatedContent": "telescope를 사용하고 싶지 않다면, telescope 대신 `vim.ui.select`를 사용하는 버전도 있습니다. [`vim_ui_select`](https://github.com/LukasPietzschmann/telescope-tabs/tree/vim_ui_select) 브랜치를 확인해 보세요 :)"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 12,
+    "rowsha": "58Yz2Ndj4nJdyB0SNilMClPuq03tp4l4VsJkvCHpGHw=",
+    "originContent": "You can show the picker from neovim's cmd-line by executing",
+    "translatedContent": "네오빔의 명령줄에서 피커를 실행할 수 있습니다"
+  },
+  {
+    "row": 13,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 14,
+    "rowsha": "8Fbpz33AmZssMwF5xtnXg6hghR/iPHQqtNgU1vL+cCM=",
+    "originContent": ":Telescope telescope-tabs list_tabs",
+    "translatedContent": ":Telescope telescope-tabs list_tabs"
+  },
+  {
+    "row": 15,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "또는 lua를 사용하여 플러그인의 경로에서 직접 실행하기"
+  },
+  {
+    "row": 17,
+    "rowsha": "uLs0Ht0b0nbHJfVRVrB5tFmXbcnDXe6qsPfd5d77ABg=",
+    "originContent": "Or straight from the plugin's path with lua",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "eU/drjkoScgCNjqgU++N43B/M5zv74HkYZMZS/2xKJQ=",
+    "originContent": "```viml",
+    "translatedContent": "```viml"
+  },
+  {
+    "row": 19,
+    "rowsha": "uqRh7pMNEPFsY6tXwXRg1ZV5Bs9CrzX/MY4fKY/1UgI=",
+    "originContent": ":lua require('telescope-tabs').list_tabs()",
+    "translatedContent": ":lua require('telescope-tabs').list_tabs()"
+  },
+  {
+    "row": 20,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "CgQY6wJWdBQo9W7gbnv513mID/d7k5Iupdn6JACV5LA=",
+    "originContent": "You can press `C-d` (insert mode) or `D` (normal mode) on any Item in the picker to close the tab (respectively all windows in it). To change the keybinding, look at [configure](https://github.com/LukasPietzschmann/telescope-tabs#configure).",
+    "translatedContent": "피커 내의 어떤 항목에서든 `C-d` (삽입 모드) 또는 `D` (일반 모드)를 눌러 탭(또는 해당 탭 내 모든 창)을 닫을 수 있습니다. 키 바인딩을 변경하려면 [설정](https://github.com/LukasPietzschmann/telescope-tabs#configure)을 참조하세요."
+  },
+  {
+    "row": 23,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 24,
+    "rowsha": "EyjbQIsmdS/mY9lZDGsewWNNr19/ng+45vQ7Pw36zcM=",
+    "originContent": "\t<img src=\"https://user-images.githubusercontent.com/49213919/216813167-45ca1908-b15f-4904-a441-6420d82dcb16.png\" width=\"550\"  />",
+    "translatedContent": "\t<img src=\"https://user-images.githubusercontent.com/49213919/216813167-45ca1908-b15f-4904-a441-6420d82dcb16.png\" width=\"550\"  />"
+  },
+  {
+    "row": 25,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "+l5k0bfpmcmjagoLM84EGDUJibTveBqUdYJcw6xX61A=",
+    "originContent": "But `telescope-tabs` does not only provide a picker! You can also call",
+    "translatedContent": "하지만 `telescope-tabs`는 피커만 제공하지 않습니다! 또한 호출할 수 있습니다"
+  },
+  {
+    "row": 28,
+    "rowsha": "eU/drjkoScgCNjqgU++N43B/M5zv74HkYZMZS/2xKJQ=",
+    "originContent": "```viml",
+    "translatedContent": "```viml"
+  },
+  {
+    "row": 29,
+    "rowsha": "Yt7Gvj0X9st7NB2VYbWYsEl/oMIVKlP4UiSbrJYSbK8=",
+    "originContent": ":lua require('telescope-tabs').go_to_previous()",
+    "translatedContent": ":lua require('telescope-tabs').go_to_previous()"
+  },
+  {
+    "row": 30,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 31,
+    "rowsha": "Pj5y8XEM08BN92B5XF+2lj1fmZSvaCB/f8TpiTagBwA=",
+    "originContent": "to switch to the last opened tab immediately.",
+    "translatedContent": "마지막으로 열었던 탭으로 즉시 전환합니다.  "
+  },
+  {
+    "row": 32,
+    "rowsha": "/qTA1iIqr15OLOUr7QxTdUzFnv4bGzWs6d+vfWi+9Vk=",
+    "originContent": "This does not only work when switching tabs with this extension, but also when you use Neovims builtin tab movement methods.",
+    "translatedContent": "이 기능은 이 확장 프로그램을 사용하여 탭을 전환할 때뿐만 아니라 Neovim의 기본 탭 이동 방법을 사용할 때도 작동합니다.  "
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "jXpF7/nOW1yS5FB7oNSMvTG4StvirJJAAsudZj68w9c=",
+    "originContent": "This plugin improves upon the already present `g<Tab>` shortcut by keeping track of a \"last shown tab stack\". Consequently, if you close the most previously visited tab, `g<Tab>` will fail. However, telescope-tabs will happily show the second last tab.",
+    "translatedContent": "이 플러그인은 이미 존재하는 `g<Tab>` 단축키를 개선하여 \"마지막으로 표시된 탭 스택\"을 추적합니다. 따라서 가장 최근에 방문한 탭을 닫으면 `g<Tab>`는 실패하지만, telescope-tabs는 두 번째로 마지막 탭을 기쁘게 표시합니다.  "
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "Wq3r2wvEq2+FsZZpMTQIcCEZ3wR/H0/XlFo7L/NwQ28=",
+    "originContent": "I would recommend to bind this to a shortcut if you wanna use this regularly :^)",
+    "translatedContent": "이 기능을 정기적으로 사용하려면 단축키에 바인딩하는 것을 권장합니다 :^)  "
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 설치  "
+  },
+  {
+    "row": 40,
+    "rowsha": "Dh4lgvxx7u3zGAsjaRgp4gyQK8y485Bw7s7lZonN5nY=",
+    "originContent": "Install with your favorite Neovim package manager.",
+    "translatedContent": "선호하는 Neovim 패키지 관리자를 사용하여 설치하세요.  "
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "1BRPkzonza1FyhH4DDCUHbL05VCI7jCnJ50FGMFP9Vs=",
+    "originContent": "Example with lazy.nvim:",
+    "translatedContent": "lazy.nvim 예시:"
+  },
+  {
+    "row": 43,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 44,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 45,
+    "rowsha": "OVUHAn9R+JBlFsoDaB3aT0kElzd4RPkwmrTZXILEgZ8=",
+    "originContent": "\t'LukasPietzschmann/telescope-tabs',",
+    "translatedContent": "\t'LukasPietzschmann/telescope-tabs',"
+  },
+  {
+    "row": 46,
+    "rowsha": "Lh6Swd0wMmAvb0IpKcAoPdVOfDOw3QjmgjSEzqN7xJM=",
+    "originContent": "\tconfig = function()",
+    "translatedContent": "\tconfig = function()"
+  },
+  {
+    "row": 47,
+    "rowsha": "F29cOjtKPEoNJhMkFlUhKkbeaXwhtnrLeuxfeOhX1Fs=",
+    "originContent": "\t\trequire('telescope').load_extension 'telescope-tabs'",
+    "translatedContent": "\t\trequire('telescope').load_extension 'telescope-tabs'"
+  },
+  {
+    "row": 48,
+    "rowsha": "st3q+KiqBOy8MscOPTEfij+UgoxGx6n6abRKV+UUX9w=",
+    "originContent": "\t\trequire('telescope-tabs').setup {",
+    "translatedContent": "\t\trequire('telescope-tabs').setup {"
+  },
+  {
+    "row": 49,
+    "rowsha": "DLeK826RtwkxHnr6+wJV7OAS4hSW61hf1Z6M111Tags=",
+    "originContent": "\t\t\t-- Your custom config :^)",
+    "translatedContent": "\t\t\t-- Your custom config :^)"
+  },
+  {
+    "row": 50,
+    "rowsha": "NxO7/XbcqsGm2DFtxbjivMr0tH8sdn+VOvLtZTY+ySU=",
+    "originContent": "\t\t}",
+    "translatedContent": "\t\t}"
+  },
+  {
+    "row": 51,
+    "rowsha": "q9yo3Rg/kwwiP5yBTX6bFU8m33vqQh2JM2CCB4skfQ8=",
+    "originContent": "\tend,",
+    "translatedContent": "\tend,"
+  },
+  {
+    "row": 52,
+    "rowsha": "0T2gdvD+bbgxlRPyMgrs+TKwLXS37PmSAZ0KYZAvsoY=",
+    "originContent": "\tdependencies = { 'nvim-telescope/telescope.nvim' },",
+    "translatedContent": "\tdependencies = { 'nvim-telescope/telescope.nvim' },"
+  },
+  {
+    "row": 53,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 54,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "AAnTIPbI4l1Xndltq2hEgSUwrisoIf4R6MnuU4Ecg8Q=",
+    "originContent": "Example with packer.nvim:",
+    "translatedContent": "packer.nvim 예제:"
+  },
+  {
+    "row": 57,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 58,
+    "rowsha": "g45pRgG8zI5l9kHfxs5HAdMhePAiQ0zUqGG5Ove8CDM=",
+    "originContent": "use {",
+    "translatedContent": "use {"
+  },
+  {
+    "row": 59,
+    "rowsha": "OVUHAn9R+JBlFsoDaB3aT0kElzd4RPkwmrTZXILEgZ8=",
+    "originContent": "\t'LukasPietzschmann/telescope-tabs',",
+    "translatedContent": "\t'LukasPietzschmann/telescope-tabs',"
+  },
+  {
+    "row": 60,
+    "rowsha": "KxZ93GuJB4ot81ygMR9EbnhP9d7P+o3mRzAlsCCmz/o=",
+    "originContent": "\trequires = { 'nvim-telescope/telescope.nvim' },",
+    "translatedContent": "\trequires = { 'nvim-telescope/telescope.nvim' },"
+  },
+  {
+    "row": 61,
+    "rowsha": "Lh6Swd0wMmAvb0IpKcAoPdVOfDOw3QjmgjSEzqN7xJM=",
+    "originContent": "\tconfig = function()",
+    "translatedContent": "\tconfig = function()"
+  },
+  {
+    "row": 62,
+    "rowsha": "PvE5EAPnqPMs52PZSISsgXMsNBfGJsHaVVKX7zCOpR8=",
+    "originContent": "\t\trequire'telescope-tabs'.setup{",
+    "translatedContent": "\t\trequire'telescope-tabs'.setup{"
+  },
+  {
+    "row": 63,
+    "rowsha": "DLeK826RtwkxHnr6+wJV7OAS4hSW61hf1Z6M111Tags=",
+    "originContent": "\t\t\t-- Your custom config :^)",
+    "translatedContent": "\t\t\t-- Your custom config :^)"
+  },
+  {
+    "row": 64,
+    "rowsha": "NxO7/XbcqsGm2DFtxbjivMr0tH8sdn+VOvLtZTY+ySU=",
+    "originContent": "\t\t}",
+    "translatedContent": "\t\t}"
+  },
+  {
+    "row": 65,
+    "rowsha": "xQgOI/fyMGcbIC76ONM/n55WiUyTBXU1WkjzTt5KDhM=",
+    "originContent": "\tend",
+    "translatedContent": "\tend"
+  },
+  {
+    "row": 66,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 67,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 68,
+    "rowsha": "wez+C2X6AftR3XMkEfqckWAJsgt5ONQw6wqQhYPQypc=",
+    "originContent": "## Configure",
+    "translatedContent": "## 구성하기"
+  },
+  {
+    "row": 69,
+    "rowsha": "HjbMSl1DmShfbRx3OWY8u3uT702fj6g1wCVxK/6RDpA=",
+    "originContent": "Different configurations can be seen in the [configs wiki](https://github.com/LukasPietzschmann/telescope-tabs/wiki/Configs#configs). Feel free to add your own!",
+    "translatedContent": "다양한 구성은 [configs 위키](https://github.com/LukasPietzschmann/telescope-tabs/wiki/Configs#configs)에서 확인할 수 있습니다. 자유롭게 자신만의 구성을 추가하세요!"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "tLeDN/+4v9+8xaI6kmVdb/noCnmys8E1siA/8Swf7Po=",
+    "originContent": "If you want to come up with your own config, these are the settings you can tweak:",
+    "translatedContent": "자신만의 구성을 만들고 싶다면, 조정할 수 있는 설정은 다음과 같습니다:"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "OlrlZjYibq8vJeU6EHsmfNtuRuAWkSyt3dv1ne/yBCk=",
+    "originContent": "### entry_formatter",
+    "translatedContent": "### entry_formatter"
+  },
+  {
+    "row": 74,
+    "rowsha": "8joUwdWbyxZHolwjba8ifsCAU/qcZlqDgl6ugJSdcD4=",
+    "originContent": "This changes how a tab is represented in the picker. By default the following function is used:",
+    "translatedContent": "탭이 선택기에서 어떻게 표시되는지를 변경합니다. 기본적으로 다음 함수가 사용됩니다:"
+  },
+  {
+    "row": 75,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 76,
+    "rowsha": "kCNwGkVmS6BFIhC+Ydn+Qze8t/jPYVjMUkwIt/bGEUo=",
+    "originContent": "entry_formatter = function(tab_id, buffer_ids, file_names, file_paths, is_current)",
+    "translatedContent": "entry_formatter = function(tab_id, buffer_ids, file_names, file_paths, is_current)"
+  },
+  {
+    "row": 77,
+    "rowsha": "Zs/KFxZbs30pe05bQFDmY7lQ72piRsyYiuOVnZdQ/6A=",
+    "originContent": "\tlocal entry_string = table.concat(file_names, ', ')",
+    "translatedContent": "\tlocal entry_string = table.concat(file_names, ', ')"
+  },
+  {
+    "row": 78,
+    "rowsha": "XhAc1ydRCJP5KiM3A3/IRG2r6WcCgVO+eJkltVNkjcM=",
+    "originContent": "\treturn string.format('%d: %s%s', tab_id, entry_string, is_current and ' <' or '')",
+    "translatedContent": "\treturn string.format('%d: %s%s', tab_id, entry_string, is_current and ' <' or '')"
+  },
+  {
+    "row": 79,
+    "rowsha": "LKK/d0cNsNutmCCYQiJ+PDkxnWd6N4CuVUvMOVSk1SA=",
+    "originContent": "end,",
+    "translatedContent": "end,"
+  },
+  {
+    "row": 80,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 81,
+    "rowsha": "xa3zIIFYqJmFn1re+e0d2xRJCZtgJUNzgPwU1O9tmKU=",
+    "originContent": "To alter this behaviour, just assign your own function.",
+    "translatedContent": "이 동작을 변경하려면, 단지 자신의 함수를 할당하세요."
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "LxEU2D0w9OYTUBH1HcEeFBV/CDQbn0a32visDtYmTmA=",
+    "originContent": "### entry_ordinal",
+    "translatedContent": "### entry_ordinal"
+  },
+  {
+    "row": 84,
+    "rowsha": "oXGfy+c3QR9pM+4G9lcmE1foPJNh+SwLVPw8Q9yHC94=",
+    "originContent": "This changes what queries a tab matches. The following function is used by default:",
+    "translatedContent": "이것은 탭이 일치하는 쿼리를 변경합니다. 기본적으로 다음 함수가 사용됩니다:"
+  },
+  {
+    "row": 85,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 86,
+    "rowsha": "DQK8DBxpmAGdaNbeDMkuPDtnQTVkCrYrbn/AfY1O7TQ=",
+    "originContent": "entry_ordinal = function(tab_id, buffer_ids, file_names, file_paths, is_current)",
+    "translatedContent": "entry_ordinal = function(tab_id, buffer_ids, file_names, file_paths, is_current)"
+  },
+  {
+    "row": 87,
+    "rowsha": "XW4ZkHsWpCwgxJX/NMweja5N9iAyGbgpLzq9DYfFlWs=",
+    "originContent": "\treturn table.concat(file_names, ' ')",
+    "translatedContent": "\treturn table.concat(file_names, ' ')"
+  },
+  {
+    "row": 88,
+    "rowsha": "LKK/d0cNsNutmCCYQiJ+PDkxnWd6N4CuVUvMOVSk1SA=",
+    "originContent": "end,",
+    "translatedContent": "end,"
+  },
+  {
+    "row": 89,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "ZcmrCX1tSqZiM9XzJYA8MzOzjzKAR+aiplHOlaWIHCI=",
+    "originContent": "### show_preview",
+    "translatedContent": "### show_preview"
+  },
+  {
+    "row": 92,
+    "rowsha": "6LiknXXUeuNo/6oFw33zm9sYDKmYU9G7lh6ufp6cJfY=",
+    "originContent": "This controls whether a preview is shown or not. The default is `true`:",
+    "translatedContent": "이것은 미리보기가 표시되는지 여부를 제어합니다. 기본값은 `true`입니다:"
+  },
+  {
+    "row": 93,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 94,
+    "rowsha": "NwlJ7x8Mcm9KTMfeZb8j/g5PqdgxalFptqGkVDU4nrs=",
+    "originContent": "show_preview = true,",
+    "translatedContent": "show_preview = true,"
+  },
+  {
+    "row": 95,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "NnNZC4lu2InVuw6cakCM13rjNhTGbFYDIEvFbeBIfqE=",
+    "originContent": "### close_tab_shortcut",
+    "translatedContent": "### close_tab_shortcut"
+  },
+  {
+    "row": 98,
+    "rowsha": "eFOYNq3NmNFLI36G8WVXkcWi3wA9TpV8ZO8S5hkjm90=",
+    "originContent": "These shortcuts allow you to close a selected tabs right from the picker. The defaults are...",
+    "translatedContent": "이 단축키들은 선택한 탭을 피커에서 바로 닫을 수 있게 해줍니다. 기본값은..."
+  },
+  {
+    "row": 99,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 100,
+    "rowsha": "IONcLXH3gB5mc2cgnZpa53ieVOsuPJPImkszFsBXHlg=",
+    "originContent": "close_tab_shortcut_i = '<C-d>', -- if you're in insert mode",
+    "translatedContent": "close_tab_shortcut_i = '<C-d>', -- if you're in insert mode"
+  },
+  {
+    "row": 101,
+    "rowsha": "61M2J2z1MQ3AMWzKu5kyK+MDk5jYpUJpeug3LolE8wc=",
+    "originContent": "close_tab_shortcut_n = 'D',     -- if you're in normal mode",
+    "translatedContent": "close_tab_shortcut_n = 'D',     -- if you're in normal mode"
+  },
+  {
+    "row": 102,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 103,
+    "rowsha": "2qRYh0BSuYKdIFvedOp171PcdIRTH0sA7kj7Rwzoe3w=",
+    "originContent": "Note, that their value do not get parsed or checked, so they should follow the regular format for keybindings.",
+    "translatedContent": "참고로, 이 값들은 파싱되거나 검사되지 않으므로 키 바인딩의 일반 형식을 따라야 합니다."
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+    "originContent": "## Documentation",
+    "translatedContent": "## 문서"
+  },
+  {
+    "row": 106,
+    "rowsha": "+yI8RR22Esuq24SoZ+bXuqBjIPl0U7w2x2gubX7TmBs=",
+    "originContent": "See [telescope-tabs.txt](https://github.com/LukasPietzschmann/telescope-tabs/blob/master/doc/telescope-tabs.txt).",
+    "translatedContent": "자세한 내용은 [telescope-tabs.txt](https://github.com/LukasPietzschmann/telescope-tabs/blob/master/doc/telescope-tabs.txt)를 참조하세요."
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

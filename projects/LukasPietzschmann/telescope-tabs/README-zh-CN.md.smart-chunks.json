@@ -1,0 +1,891 @@
+[
+  {
+    "Id": 1,
+    "Content": "# telescope-tabs\nFly through your tabs in neovim ✈️\n\n<p align=\"center\">\n\t<img src=\"https://github.com/LukasPietzschmann/telescope-tabs/assets/49213919/e749d458-4ffd-4af2-aba9-86d0e3fb4862\" width=\"300px\" />\n</p>\n\n## Important Note\nIf you don't want to use telescope, there's also a version using `vim.ui.select` instead of telescope. Checkout the [`vim_ui_select`](https://github.com/LukasPietzschmann/telescope-tabs/tree/vim_ui_select) branch :)\n\n## Usage\nYou can show the picker from neovim's cmd-line by executing",
+    "ContentSha": "Ps5croYm+0r8P+R2PUa3ZqQlpBeMuM/5/ICj3fTWy8E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# telescope-tabs\n在 neovim 中飞速切换标签页 ✈️\n\n<p align=\"center\">\n\t<img src=\"https://github.com/LukasPietzschmann/telescope-tabs/assets/49213919/e749d458-4ffd-4af2-aba9-86d0e3fb4862\" width=\"300px\" />\n</p>\n\n## 重要提示\n如果你不想使用 telescope，也有一个版本使用 `vim.ui.select` 替代 telescope。请查看 [`vim_ui_select`](https://github.com/LukasPietzschmann/telescope-tabs/tree/vim_ui_select) 分支 :)\n\n## 使用方法\n你可以通过在 neovim 的命令行执行来显示选择器",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bQ9qbcnBWOkH+5qvrZsXs93ycufqKrv4oIxKnGsTBbk=",
+        "originContent": "# telescope-tabs",
+        "translatedContent": "# telescope-tabs"
+      },
+      {
+        "row": 2,
+        "rowsha": "dFCZ6oRR2qQwanlXL3oPz9ZqCiBjuWVPy/VEC/6TmyM=",
+        "originContent": "Fly through your tabs in neovim ✈️",
+        "translatedContent": "在 neovim 中飞速切换标签页 ✈️"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "HM6SL2rqR1+nNkMg/vYotLTybQYriotXF/TkrteF3DA=",
+        "originContent": "\t<img src=\"https://github.com/LukasPietzschmann/telescope-tabs/assets/49213919/e749d458-4ffd-4af2-aba9-86d0e3fb4862\" width=\"300px\" />",
+        "translatedContent": "\t<img src=\"https://github.com/LukasPietzschmann/telescope-tabs/assets/49213919/e749d458-4ffd-4af2-aba9-86d0e3fb4862\" width=\"300px\" />"
+      },
+      {
+        "row": 6,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "WiY/MixQXWYTaaMYgRfMUo4vtXhrOs34sz16hS3lycw=",
+        "originContent": "## Important Note",
+        "translatedContent": "## 重要提示"
+      },
+      {
+        "row": 9,
+        "rowsha": "x2q2S0UmE0dTt/0tGusrOSnvX5ezvmrsyOlfQpsnZe8=",
+        "originContent": "If you don't want to use telescope, there's also a version using `vim.ui.select` instead of telescope. Checkout the [`vim_ui_select`](https://github.com/LukasPietzschmann/telescope-tabs/tree/vim_ui_select) branch :)",
+        "translatedContent": "如果你不想使用 telescope，也有一个版本使用 `vim.ui.select` 替代 telescope。请查看 [`vim_ui_select`](https://github.com/LukasPietzschmann/telescope-tabs/tree/vim_ui_select) 分支 :)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 12,
+        "rowsha": "58Yz2Ndj4nJdyB0SNilMClPuq03tp4l4VsJkvCHpGHw=",
+        "originContent": "You can show the picker from neovim's cmd-line by executing",
+        "translatedContent": "你可以通过在 neovim 的命令行执行来显示选择器"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n:Telescope telescope-tabs list_tabs\n```",
+    "ContentSha": "GHse63GS08YXsortPdf+cenAVbK6jRbkyaMyHfobEW8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n:Telescope telescope-tabs list_tabs\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "8Fbpz33AmZssMwF5xtnXg6hghR/iPHQqtNgU1vL+cCM=",
+        "originContent": ":Telescope telescope-tabs list_tabs",
+        "translatedContent": ":Telescope telescope-tabs list_tabs"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nOr straight from the plugin's path with lua",
+    "ContentSha": "KW0LB1j7UjerOg2fcRiRQUTaiVrYNArc/ZwE8tOd8Vw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "或者直接从插件的路径用 lua\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "或者直接从插件的路径用 lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "uLs0Ht0b0nbHJfVRVrB5tFmXbcnDXe6qsPfd5d77ABg=",
+        "originContent": "Or straight from the plugin's path with lua",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```viml\n:lua require('telescope-tabs').list_tabs()\n```",
+    "ContentSha": "mSHTv+pmmX2QbmaMeLCZYsRQ5vv498+aXRHI6QiSpOo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```viml\n:lua require('telescope-tabs').list_tabs()\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "eU/drjkoScgCNjqgU++N43B/M5zv74HkYZMZS/2xKJQ=",
+        "originContent": "```viml",
+        "translatedContent": "```viml"
+      },
+      {
+        "row": 2,
+        "rowsha": "uqRh7pMNEPFsY6tXwXRg1ZV5Bs9CrzX/MY4fKY/1UgI=",
+        "originContent": ":lua require('telescope-tabs').list_tabs()",
+        "translatedContent": ":lua require('telescope-tabs').list_tabs()"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nYou can press `C-d` (insert mode) or `D` (normal mode) on any Item in the picker to close the tab (respectively all windows in it). To change the keybinding, look at [configure](https://github.com/LukasPietzschmann/telescope-tabs#configure).\n<p align=\"center\">\n\t<img src=\"https://user-images.githubusercontent.com/49213919/216813167-45ca1908-b15f-4904-a441-6420d82dcb16.png\" width=\"550\"  />\n</p>\n\nBut `telescope-tabs` does not only provide a picker! You can also call",
+    "ContentSha": "wKhpOIpjgUVHtZWkJEKG4qojE7dU6OW2+Ro8dt2ZgWQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "你可以在选择器中的任意条目上按 `C-d`（插入模式）或 `D`（普通模式）来关闭标签页（分别关闭其中的所有窗口）。要更改按键绑定，请查看 [configure](https://github.com/LukasPietzschmann/telescope-tabs#configure)。\n<p align=\"center\">\n\t<img src=\"https://user-images.githubusercontent.com/49213919/216813167-45ca1908-b15f-4904-a441-6420d82dcb16.png\" width=\"550\"  />\n</p>\n\n但 `telescope-tabs` 不仅仅提供选择器！你还可以调用\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "你可以在选择器中的任意条目上按 `C-d`（插入模式）或 `D`（普通模式）来关闭标签页（分别关闭其中的所有窗口）。要更改按键绑定，请查看 [configure](https://github.com/LukasPietzschmann/telescope-tabs#configure)。"
+      },
+      {
+        "row": 2,
+        "rowsha": "CgQY6wJWdBQo9W7gbnv513mID/d7k5Iupdn6JACV5LA=",
+        "originContent": "You can press `C-d` (insert mode) or `D` (normal mode) on any Item in the picker to close the tab (respectively all windows in it). To change the keybinding, look at [configure](https://github.com/LukasPietzschmann/telescope-tabs#configure).",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "\t<img src=\"https://user-images.githubusercontent.com/49213919/216813167-45ca1908-b15f-4904-a441-6420d82dcb16.png\" width=\"550\"  />"
+      },
+      {
+        "row": 4,
+        "rowsha": "EyjbQIsmdS/mY9lZDGsewWNNr19/ng+45vQ7Pw36zcM=",
+        "originContent": "\t<img src=\"https://user-images.githubusercontent.com/49213919/216813167-45ca1908-b15f-4904-a441-6420d82dcb16.png\" width=\"550\"  />",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 5,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "但 `telescope-tabs` 不仅仅提供选择器！你还可以调用"
+      },
+      {
+        "row": 7,
+        "rowsha": "+l5k0bfpmcmjagoLM84EGDUJibTveBqUdYJcw6xX61A=",
+        "originContent": "But `telescope-tabs` does not only provide a picker! You can also call",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```viml\n:lua require('telescope-tabs').go_to_previous()\n```",
+    "ContentSha": "nKUCan95r0naWWxFzegLxK0nuMEm7im1wnjSxNIBC3E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```viml\n:lua require('telescope-tabs').go_to_previous()\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "eU/drjkoScgCNjqgU++N43B/M5zv74HkYZMZS/2xKJQ=",
+        "originContent": "```viml",
+        "translatedContent": "```viml"
+      },
+      {
+        "row": 2,
+        "rowsha": "Yt7Gvj0X9st7NB2VYbWYsEl/oMIVKlP4UiSbrJYSbK8=",
+        "originContent": ":lua require('telescope-tabs').go_to_previous()",
+        "translatedContent": ":lua require('telescope-tabs').go_to_previous()"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "to switch to the last opened tab immediately.\nThis does not only work when switching tabs with this extension, but also when you use Neovims builtin tab movement methods.\n\nThis plugin improves upon the already present `g<Tab>` shortcut by keeping track of a \"last shown tab stack\". Consequently, if you close the most previously visited tab, `g<Tab>` will fail. However, telescope-tabs will happily show the second last tab.\n\nI would recommend to bind this to a shortcut if you wanna use this regularly :^)\n\n\n## Installation\nInstall with your favorite Neovim package manager.\n\nExample with lazy.nvim:",
+    "ContentSha": "LVf8xj1EkcdLA5J+Hz2vV3t4dcJlldZ8Hwz/qmko0fI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "立即切换到最后打开的标签页。  \n这不仅适用于使用此扩展切换标签页时，也适用于使用 Neovim 内置的标签页切换方法时。  \n\n此插件在已有的 `g<Tab>` 快捷键基础上进行了改进，通过维护一个“最近显示标签页栈”。因此，如果关闭了最近访问的标签页，`g<Tab>` 将失效。然而，telescope-tabs 会愉快地显示倒数第二个标签页。  \n\n如果你想经常使用此功能，建议绑定一个快捷键 :^)  \n\n\n## 安装  \n使用你喜欢的 Neovim 包管理器进行安装。  \n\n使用 lazy.nvim 的示例：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Pj5y8XEM08BN92B5XF+2lj1fmZSvaCB/f8TpiTagBwA=",
+        "originContent": "to switch to the last opened tab immediately.",
+        "translatedContent": "立即切换到最后打开的标签页。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "/qTA1iIqr15OLOUr7QxTdUzFnv4bGzWs6d+vfWi+9Vk=",
+        "originContent": "This does not only work when switching tabs with this extension, but also when you use Neovims builtin tab movement methods.",
+        "translatedContent": "这不仅适用于使用此扩展切换标签页时，也适用于使用 Neovim 内置的标签页切换方法时。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "jXpF7/nOW1yS5FB7oNSMvTG4StvirJJAAsudZj68w9c=",
+        "originContent": "This plugin improves upon the already present `g<Tab>` shortcut by keeping track of a \"last shown tab stack\". Consequently, if you close the most previously visited tab, `g<Tab>` will fail. However, telescope-tabs will happily show the second last tab.",
+        "translatedContent": "此插件在已有的 `g<Tab>` 快捷键基础上进行了改进，通过维护一个“最近显示标签页栈”。因此，如果关闭了最近访问的标签页，`g<Tab>` 将失效。然而，telescope-tabs 会愉快地显示倒数第二个标签页。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Wq3r2wvEq2+FsZZpMTQIcCEZ3wR/H0/XlFo7L/NwQ28=",
+        "originContent": "I would recommend to bind this to a shortcut if you wanna use this regularly :^)",
+        "translatedContent": "如果你想经常使用此功能，建议绑定一个快捷键 :^)  "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 安装  "
+      },
+      {
+        "row": 10,
+        "rowsha": "Dh4lgvxx7u3zGAsjaRgp4gyQK8y485Bw7s7lZonN5nY=",
+        "originContent": "Install with your favorite Neovim package manager.",
+        "translatedContent": "使用你喜欢的 Neovim 包管理器进行安装。  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "1BRPkzonza1FyhH4DDCUHbL05VCI7jCnJ50FGMFP9Vs=",
+        "originContent": "Example with lazy.nvim:",
+        "translatedContent": "使用 lazy.nvim 的示例："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```lua\n{\n\t'LukasPietzschmann/telescope-tabs',\n\tconfig = function()\n\t\trequire('telescope').load_extension 'telescope-tabs'\n\t\trequire('telescope-tabs').setup {\n\t\t\t-- Your custom config :^)\n\t\t}\n\tend,\n\tdependencies = { 'nvim-telescope/telescope.nvim' },\n}\n```",
+    "ContentSha": "oxmHVdLSzAy1rw+WLey9kcTp2azE8S8udcnq3DhYHYo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\n{\n\t'LukasPietzschmann/telescope-tabs',\n\tconfig = function()\n\t\trequire('telescope').load_extension 'telescope-tabs'\n\t\trequire('telescope-tabs').setup {\n\t\t\t-- Your custom config :^)\n\t\t}\n\tend,\n\tdependencies = { 'nvim-telescope/telescope.nvim' },\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "OVUHAn9R+JBlFsoDaB3aT0kElzd4RPkwmrTZXILEgZ8=",
+        "originContent": "\t'LukasPietzschmann/telescope-tabs',",
+        "translatedContent": "\t'LukasPietzschmann/telescope-tabs',"
+      },
+      {
+        "row": 4,
+        "rowsha": "Lh6Swd0wMmAvb0IpKcAoPdVOfDOw3QjmgjSEzqN7xJM=",
+        "originContent": "\tconfig = function()",
+        "translatedContent": "\tconfig = function()"
+      },
+      {
+        "row": 5,
+        "rowsha": "F29cOjtKPEoNJhMkFlUhKkbeaXwhtnrLeuxfeOhX1Fs=",
+        "originContent": "\t\trequire('telescope').load_extension 'telescope-tabs'",
+        "translatedContent": "\t\trequire('telescope').load_extension 'telescope-tabs'"
+      },
+      {
+        "row": 6,
+        "rowsha": "st3q+KiqBOy8MscOPTEfij+UgoxGx6n6abRKV+UUX9w=",
+        "originContent": "\t\trequire('telescope-tabs').setup {",
+        "translatedContent": "\t\trequire('telescope-tabs').setup {"
+      },
+      {
+        "row": 7,
+        "rowsha": "DLeK826RtwkxHnr6+wJV7OAS4hSW61hf1Z6M111Tags=",
+        "originContent": "\t\t\t-- Your custom config :^)",
+        "translatedContent": "\t\t\t-- Your custom config :^)"
+      },
+      {
+        "row": 8,
+        "rowsha": "NxO7/XbcqsGm2DFtxbjivMr0tH8sdn+VOvLtZTY+ySU=",
+        "originContent": "\t\t}",
+        "translatedContent": "\t\t}"
+      },
+      {
+        "row": 9,
+        "rowsha": "q9yo3Rg/kwwiP5yBTX6bFU8m33vqQh2JM2CCB4skfQ8=",
+        "originContent": "\tend,",
+        "translatedContent": "\tend,"
+      },
+      {
+        "row": 10,
+        "rowsha": "0T2gdvD+bbgxlRPyMgrs+TKwLXS37PmSAZ0KYZAvsoY=",
+        "originContent": "\tdependencies = { 'nvim-telescope/telescope.nvim' },",
+        "translatedContent": "\tdependencies = { 'nvim-telescope/telescope.nvim' },"
+      },
+      {
+        "row": 11,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nExample with packer.nvim:",
+    "ContentSha": "exb9vS5WHg+TZ2IcsmVY7s5B0s9BeQpYmwcCthu0zGk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\npacker.nvim 示例：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "AAnTIPbI4l1Xndltq2hEgSUwrisoIf4R6MnuU4Ecg8Q=",
+        "originContent": "Example with packer.nvim:",
+        "translatedContent": "packer.nvim 示例："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```lua\nuse {\n\t'LukasPietzschmann/telescope-tabs',\n\trequires = { 'nvim-telescope/telescope.nvim' },\n\tconfig = function()\n\t\trequire'telescope-tabs'.setup{\n\t\t\t-- Your custom config :^)\n\t\t}\n\tend\n}\n```",
+    "ContentSha": "ZhZVtw8BGyfJoi1kwZe52dT5giLGddfoFdnHRGDXGKo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nuse {\n\t'LukasPietzschmann/telescope-tabs',\n\trequires = { 'nvim-telescope/telescope.nvim' },\n\tconfig = function()\n\t\trequire'telescope-tabs'.setup{\n\t\t\t-- Your custom config :^)\n\t\t}\n\tend\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "g45pRgG8zI5l9kHfxs5HAdMhePAiQ0zUqGG5Ove8CDM=",
+        "originContent": "use {",
+        "translatedContent": "use {"
+      },
+      {
+        "row": 3,
+        "rowsha": "OVUHAn9R+JBlFsoDaB3aT0kElzd4RPkwmrTZXILEgZ8=",
+        "originContent": "\t'LukasPietzschmann/telescope-tabs',",
+        "translatedContent": "\t'LukasPietzschmann/telescope-tabs',"
+      },
+      {
+        "row": 4,
+        "rowsha": "KxZ93GuJB4ot81ygMR9EbnhP9d7P+o3mRzAlsCCmz/o=",
+        "originContent": "\trequires = { 'nvim-telescope/telescope.nvim' },",
+        "translatedContent": "\trequires = { 'nvim-telescope/telescope.nvim' },"
+      },
+      {
+        "row": 5,
+        "rowsha": "Lh6Swd0wMmAvb0IpKcAoPdVOfDOw3QjmgjSEzqN7xJM=",
+        "originContent": "\tconfig = function()",
+        "translatedContent": "\tconfig = function()"
+      },
+      {
+        "row": 6,
+        "rowsha": "PvE5EAPnqPMs52PZSISsgXMsNBfGJsHaVVKX7zCOpR8=",
+        "originContent": "\t\trequire'telescope-tabs'.setup{",
+        "translatedContent": "\t\trequire'telescope-tabs'.setup{"
+      },
+      {
+        "row": 7,
+        "rowsha": "DLeK826RtwkxHnr6+wJV7OAS4hSW61hf1Z6M111Tags=",
+        "originContent": "\t\t\t-- Your custom config :^)",
+        "translatedContent": "\t\t\t-- Your custom config :^)"
+      },
+      {
+        "row": 8,
+        "rowsha": "NxO7/XbcqsGm2DFtxbjivMr0tH8sdn+VOvLtZTY+ySU=",
+        "originContent": "\t\t}",
+        "translatedContent": "\t\t}"
+      },
+      {
+        "row": 9,
+        "rowsha": "xQgOI/fyMGcbIC76ONM/n55WiUyTBXU1WkjzTt5KDhM=",
+        "originContent": "\tend",
+        "translatedContent": "\tend"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "## Configure\nDifferent configurations can be seen in the [configs wiki](https://github.com/LukasPietzschmann/telescope-tabs/wiki/Configs#configs). Feel free to add your own!\n\nIf you want to come up with your own config, these are the settings you can tweak:\n\n### entry_formatter\nThis changes how a tab is represented in the picker. By default the following function is used:",
+    "ContentSha": "rZvQ29zSBH8SeCV/OtT8tV/svLU5cjfu6Ed/D7T0HZQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 配置\n不同的配置可以在 [configs wiki](https://github.com/LukasPietzschmann/telescope-tabs/wiki/Configs#configs) 中查看。欢迎添加你自己的配置！\n\n如果你想自定义配置，可以调整以下设置：\n\n### entry_formatter\n这会改变标签在选择器中的显示方式。默认使用以下函数：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wez+C2X6AftR3XMkEfqckWAJsgt5ONQw6wqQhYPQypc=",
+        "originContent": "## Configure",
+        "translatedContent": "## 配置"
+      },
+      {
+        "row": 2,
+        "rowsha": "HjbMSl1DmShfbRx3OWY8u3uT702fj6g1wCVxK/6RDpA=",
+        "originContent": "Different configurations can be seen in the [configs wiki](https://github.com/LukasPietzschmann/telescope-tabs/wiki/Configs#configs). Feel free to add your own!",
+        "translatedContent": "不同的配置可以在 [configs wiki](https://github.com/LukasPietzschmann/telescope-tabs/wiki/Configs#configs) 中查看。欢迎添加你自己的配置！"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "tLeDN/+4v9+8xaI6kmVdb/noCnmys8E1siA/8Swf7Po=",
+        "originContent": "If you want to come up with your own config, these are the settings you can tweak:",
+        "translatedContent": "如果你想自定义配置，可以调整以下设置："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "OlrlZjYibq8vJeU6EHsmfNtuRuAWkSyt3dv1ne/yBCk=",
+        "originContent": "### entry_formatter",
+        "translatedContent": "### entry_formatter"
+      },
+      {
+        "row": 7,
+        "rowsha": "8joUwdWbyxZHolwjba8ifsCAU/qcZlqDgl6ugJSdcD4=",
+        "originContent": "This changes how a tab is represented in the picker. By default the following function is used:",
+        "translatedContent": "这会改变标签在选择器中的显示方式。默认使用以下函数："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```lua\nentry_formatter = function(tab_id, buffer_ids, file_names, file_paths, is_current)\n\tlocal entry_string = table.concat(file_names, ', ')\n\treturn string.format('%d: %s%s', tab_id, entry_string, is_current and ' <' or '')\nend,\n```",
+    "ContentSha": "+i8ZvZ2UmereVzbZAd2gziYjoDN4oDYsu/I7MngpSbA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nentry_formatter = function(tab_id, buffer_ids, file_names, file_paths, is_current)\n\tlocal entry_string = table.concat(file_names, ', ')\n\treturn string.format('%d: %s%s', tab_id, entry_string, is_current and ' <' or '')\nend,\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "kCNwGkVmS6BFIhC+Ydn+Qze8t/jPYVjMUkwIt/bGEUo=",
+        "originContent": "entry_formatter = function(tab_id, buffer_ids, file_names, file_paths, is_current)",
+        "translatedContent": "entry_formatter = function(tab_id, buffer_ids, file_names, file_paths, is_current)"
+      },
+      {
+        "row": 3,
+        "rowsha": "Zs/KFxZbs30pe05bQFDmY7lQ72piRsyYiuOVnZdQ/6A=",
+        "originContent": "\tlocal entry_string = table.concat(file_names, ', ')",
+        "translatedContent": "\tlocal entry_string = table.concat(file_names, ', ')"
+      },
+      {
+        "row": 4,
+        "rowsha": "XhAc1ydRCJP5KiM3A3/IRG2r6WcCgVO+eJkltVNkjcM=",
+        "originContent": "\treturn string.format('%d: %s%s', tab_id, entry_string, is_current and ' <' or '')",
+        "translatedContent": "\treturn string.format('%d: %s%s', tab_id, entry_string, is_current and ' <' or '')"
+      },
+      {
+        "row": 5,
+        "rowsha": "LKK/d0cNsNutmCCYQiJ+PDkxnWd6N4CuVUvMOVSk1SA=",
+        "originContent": "end,",
+        "translatedContent": "end,"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "To alter this behaviour, just assign your own function.\n\n### entry_ordinal\nThis changes what queries a tab matches. The following function is used by default:",
+    "ContentSha": "EoD7DNR7MrLE+kgq21EGYOC2eAgrVz8Dd5iWAU5ny/g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "要更改此行为，只需分配您自己的函数。\n\n### entry_ordinal\n这会改变标签匹配的查询。默认使用以下函数：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "xa3zIIFYqJmFn1re+e0d2xRJCZtgJUNzgPwU1O9tmKU=",
+        "originContent": "To alter this behaviour, just assign your own function.",
+        "translatedContent": "要更改此行为，只需分配您自己的函数。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "LxEU2D0w9OYTUBH1HcEeFBV/CDQbn0a32visDtYmTmA=",
+        "originContent": "### entry_ordinal",
+        "translatedContent": "### entry_ordinal"
+      },
+      {
+        "row": 4,
+        "rowsha": "oXGfy+c3QR9pM+4G9lcmE1foPJNh+SwLVPw8Q9yHC94=",
+        "originContent": "This changes what queries a tab matches. The following function is used by default:",
+        "translatedContent": "这会改变标签匹配的查询。默认使用以下函数："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```lua\nentry_ordinal = function(tab_id, buffer_ids, file_names, file_paths, is_current)\n\treturn table.concat(file_names, ' ')\nend,\n```",
+    "ContentSha": "XXqX5VrJc8BWvQRmFl/QbKUSkcfgkMA/DCfjbB1SZ6c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nentry_ordinal = function(tab_id, buffer_ids, file_names, file_paths, is_current)\n\treturn table.concat(file_names, ' ')\nend,\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "DQK8DBxpmAGdaNbeDMkuPDtnQTVkCrYrbn/AfY1O7TQ=",
+        "originContent": "entry_ordinal = function(tab_id, buffer_ids, file_names, file_paths, is_current)",
+        "translatedContent": "entry_ordinal = function(tab_id, buffer_ids, file_names, file_paths, is_current)"
+      },
+      {
+        "row": 3,
+        "rowsha": "XW4ZkHsWpCwgxJX/NMweja5N9iAyGbgpLzq9DYfFlWs=",
+        "originContent": "\treturn table.concat(file_names, ' ')",
+        "translatedContent": "\treturn table.concat(file_names, ' ')"
+      },
+      {
+        "row": 4,
+        "rowsha": "LKK/d0cNsNutmCCYQiJ+PDkxnWd6N4CuVUvMOVSk1SA=",
+        "originContent": "end,",
+        "translatedContent": "end,"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n### show_preview\nThis controls whether a preview is shown or not. The default is `true`:",
+    "ContentSha": "gqoDsTcbEFwNNWtAmMZkM1vYwBCLWOUoTWRAs0NR8fI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### show_preview\n这控制是否显示预览。默认值为 `true`：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ZcmrCX1tSqZiM9XzJYA8MzOzjzKAR+aiplHOlaWIHCI=",
+        "originContent": "### show_preview",
+        "translatedContent": "### show_preview"
+      },
+      {
+        "row": 3,
+        "rowsha": "6LiknXXUeuNo/6oFw33zm9sYDKmYU9G7lh6ufp6cJfY=",
+        "originContent": "This controls whether a preview is shown or not. The default is `true`:",
+        "translatedContent": "这控制是否显示预览。默认值为 `true`："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```lua\nshow_preview = true,\n```",
+    "ContentSha": "9Hyl78edzj4/BsGre5pdJqCyfJcyKyhog2uIBcduW/Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nshow_preview = true,\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "NwlJ7x8Mcm9KTMfeZb8j/g5PqdgxalFptqGkVDU4nrs=",
+        "originContent": "show_preview = true,",
+        "translatedContent": "show_preview = true,"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### close_tab_shortcut\nThese shortcuts allow you to close a selected tabs right from the picker. The defaults are...",
+    "ContentSha": "a0fOo/miQH5vWjzpZ1QuzXTP/X5Yctm5pGADKFHK4Zo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### close_tab_shortcut\n这些快捷键允许您直接从选择器关闭选定的标签页。默认设置是...",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "NnNZC4lu2InVuw6cakCM13rjNhTGbFYDIEvFbeBIfqE=",
+        "originContent": "### close_tab_shortcut",
+        "translatedContent": "### close_tab_shortcut"
+      },
+      {
+        "row": 3,
+        "rowsha": "eFOYNq3NmNFLI36G8WVXkcWi3wA9TpV8ZO8S5hkjm90=",
+        "originContent": "These shortcuts allow you to close a selected tabs right from the picker. The defaults are...",
+        "translatedContent": "这些快捷键允许您直接从选择器关闭选定的标签页。默认设置是..."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```lua\nclose_tab_shortcut_i = '<C-d>', -- if you're in insert mode\nclose_tab_shortcut_n = 'D',     -- if you're in normal mode\n```",
+    "ContentSha": "Gc1G9AprKA0QApPWFU7GYyQFi0BcdDKDQXa1jcuZvHk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nclose_tab_shortcut_i = '<C-d>', -- if you're in insert mode\nclose_tab_shortcut_n = 'D',     -- if you're in normal mode\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "IONcLXH3gB5mc2cgnZpa53ieVOsuPJPImkszFsBXHlg=",
+        "originContent": "close_tab_shortcut_i = '<C-d>', -- if you're in insert mode",
+        "translatedContent": "close_tab_shortcut_i = '<C-d>', -- if you're in insert mode"
+      },
+      {
+        "row": 3,
+        "rowsha": "61M2J2z1MQ3AMWzKu5kyK+MDk5jYpUJpeug3LolE8wc=",
+        "originContent": "close_tab_shortcut_n = 'D',     -- if you're in normal mode",
+        "translatedContent": "close_tab_shortcut_n = 'D',     -- if you're in normal mode"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "Note, that their value do not get parsed or checked, so they should follow the regular format for keybindings.\n\n## Documentation\nSee [telescope-tabs.txt](https://github.com/LukasPietzschmann/telescope-tabs/blob/master/doc/telescope-tabs.txt).\n",
+    "ContentSha": "4Qo/VAyaPDVA5coDuV/J5qBHsq7k16t9283x4BOYHcQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "请注意，它们的值不会被解析或检查，因此它们应遵循键绑定的常规格式。\n\n## 文档\n请参阅 [telescope-tabs.txt](https://github.com/LukasPietzschmann/telescope-tabs/blob/master/doc/telescope-tabs.txt) 。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2qRYh0BSuYKdIFvedOp171PcdIRTH0sA7kj7Rwzoe3w=",
+        "originContent": "Note, that their value do not get parsed or checked, so they should follow the regular format for keybindings.",
+        "translatedContent": "请注意，它们的值不会被解析或检查，因此它们应遵循键绑定的常规格式。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": "## 文档"
+      },
+      {
+        "row": 4,
+        "rowsha": "+yI8RR22Esuq24SoZ+bXuqBjIPl0U7w2x2gubX7TmBs=",
+        "originContent": "See [telescope-tabs.txt](https://github.com/LukasPietzschmann/telescope-tabs/blob/master/doc/telescope-tabs.txt).",
+        "translatedContent": "请参阅 [telescope-tabs.txt](https://github.com/LukasPietzschmann/telescope-tabs/blob/master/doc/telescope-tabs.txt) 。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

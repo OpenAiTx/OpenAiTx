@@ -1,0 +1,1892 @@
+[
+  {
+    "row": 1,
+    "rowsha": "pDHRrI0KXv5NNa1ALaJhqDcMHvOF7ECDqOIHn5TQiUI=",
+    "originContent": "# SyncClipboard",
+    "translatedContent": "# SyncClipboard"
+  },
+  {
+    "row": 2,
+    "rowsha": "HeiZ965i3XNBERe6WQjsxAtq3xrzLPNll+H7+mG2BfY=",
+    "originContent": "[![build](https://github.com/Jeric-X/SyncClipboard/actions/workflows/build-entry.yml/badge.svg?branch=master)](https://github.com/Jeric-X/SyncClipboard/actions?query=branch%3Amaster)",
+    "translatedContent": "[![build](https://github.com/Jeric-X/SyncClipboard/actions/workflows/build-entry.yml/badge.svg?branch=master)](https://github.com/Jeric-X/SyncClipboard/actions?query=branch%3Amaster)"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "WsN8PH3+WMpxbcmwyqsMsRS9s69YtS5ejgB5QvIxLLo=",
+    "originContent": "中文 | [English](https://raw.githubusercontent.com/Jeric-X/SyncClipboard/master/docs/README_EN.md)  ",
+    "translatedContent": "中文 | [English](https://raw.githubusercontent.com/Jeric-X/SyncClipboard/master/docs/README_EN.md)  "
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 7,
+    "rowsha": "UoKIuhTGz9ry11bnCQUcnC9h8lpRQoIZuQYb3sW3Clw=",
+    "originContent": "<summary>目录</summary>",
+    "translatedContent": "<summary>Contenido</summary>"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "9P0mbhRrUE6+1p72Pg/fkMIuCvkrSVYXj9/lWLnFxew=",
+    "originContent": "- [SyncClipboard](#syncclipboard)",
+    "translatedContent": "- [SyncClipboard](#syncclipboard)"
+  },
+  {
+    "row": 10,
+    "rowsha": "flL0+68LUChkRTg59o6S8ssvpldSyxm58xsqD1cQDV4=",
+    "originContent": "  - [功能](#功能)",
+    "translatedContent": "  - [Funciones](#funciones)"
+  },
+  {
+    "row": 11,
+    "rowsha": "VKke5F2naw45dKbAESe91AK6wjt9RLk4kWuqeSrZzkA=",
+    "originContent": "  - [服务器](#服务器)",
+    "translatedContent": "  - [Servidor](#servidor)"
+  },
+  {
+    "row": 12,
+    "rowsha": "7hZCs2of7OtBklgKvFmNp5fBjAbydqD3quacqVg0G5M=",
+    "originContent": "    - [独立服务器](#独立服务器)",
+    "translatedContent": "    - [Servidor independiente](#servidor-independiente)"
+  },
+  {
+    "row": 13,
+    "rowsha": "QEoy1mPFkX35bYX/+qeaMpuNS1xt1dEs8HbgvS981Ho=",
+    "originContent": "      - [服务器配置](#服务器配置)",
+    "translatedContent": "      - [Configuración del servidor](#configuración-del-servidor)"
+  },
+  {
+    "row": 14,
+    "rowsha": "xpWvDQZvCXtLIziaf6yd5cokzqiF5ybK+Y3n/WBxZDY=",
+    "originContent": "      - [Docker](#docker)",
+    "translatedContent": "      - [Docker](#docker)"
+  },
+  {
+    "row": 15,
+    "rowsha": "mxBy62Uq9y2GyxyvH8cBBDsJdaph5zcVW4UrTPnSrhs=",
+    "originContent": "      - [Arch Linux](#arch-linux)",
+    "translatedContent": "      - [Arch Linux](#arch-linux)"
+  },
+  {
+    "row": 16,
+    "rowsha": "ax4WOW1QTpIBvcupI8eQ0qrZgOQ20ZsL02GAT82OsQE=",
+    "originContent": "    - [客户端内置服务器](#客户端内置服务器)",
+    "translatedContent": "    - [Servidor integrado en el cliente](#servidor-integrado-en-el-cliente)"
+  },
+  {
+    "row": 17,
+    "rowsha": "TI4Ee6puoWWK0wVFlOWpvdDoewmVEC4OFTWhh8Xfxzs=",
+    "originContent": "    - [WebDAV服务器](#webdav服务器)",
+    "translatedContent": "    - [Servidor WebDAV](#servidor-webdav)"
+  },
+  {
+    "row": 18,
+    "rowsha": "pvMsZa3OkUZoPznzkjWx1+ipaauWBF2wJNeYq07N3cE=",
+    "originContent": "  - [客户端](#客户端)",
+    "translatedContent": "  - [Cliente](#cliente)"
+  },
+  {
+    "row": 19,
+    "rowsha": "3DhAEoACTPc5rWhMQA1p7+vgLliJk1ZcTlWTR7tEi/s=",
+    "originContent": "    - [Windows](#windows)",
+    "translatedContent": "    - [Windows](#windows)"
+  },
+  {
+    "row": 20,
+    "rowsha": "LAniIh2quaYt2g6rHthB3Wk5XxaN0NK5ztb4he5rvAI=",
+    "originContent": "      - [免安装板](#免安装板)",
+    "translatedContent": "      - [Versión portátil](#versión-portátil)"
+  },
+  {
+    "row": 21,
+    "rowsha": "5UoWbV0t+XsJFVc8EMqysxDC1477CWyrOnFP/aTpTv0=",
+    "originContent": "      - [故常排除](#故常排除)",
+    "translatedContent": "      - [Exclusiones comunes](#exclusiones-comunes)"
+  },
+  {
+    "row": 22,
+    "rowsha": "shXyR/I1g/WGPeQcgGjbC4WabeVDMrDA3x4KFLjuG7g=",
+    "originContent": "    - [macOS](#macos)",
+    "translatedContent": "    - [macOS](#macos)"
+  },
+  {
+    "row": 23,
+    "rowsha": "FSuHE25AQ2M4z9yha8JoJWonaplnUTfJez5IHZGEND0=",
+    "originContent": "      - [手动安装](#手动安装)",
+    "translatedContent": "      - [Instalación manual](#instalación-manual)"
+  },
+  {
+    "row": 24,
+    "rowsha": "Jx8qBaaXuw56FimL8HtfkYugVsGEci+UvLGu13eyEug=",
+    "originContent": "      - [故常排除](#故常排除-1)",
+    "translatedContent": "      - [Exclusiones comunes](#exclusiones-comunes-1)"
+  },
+  {
+    "row": 25,
+    "rowsha": "L/La6anXSnz10oqQkyNKVNSNWw2UyiwzAaULUiYxCo8=",
+    "originContent": "    - [Linux](#linux)",
+    "translatedContent": "    - [Linux](#linux)"
+  },
+  {
+    "row": 26,
+    "rowsha": "I3zFyg5Cem8TJoe3ZC9BE68NmP7aUzbaF+HEJzPKUqs=",
+    "originContent": "      - [手动安装](#手动安装-1)",
+    "translatedContent": "      - [Instalación manual](#instalación-manual-1)"
+  },
+  {
+    "row": 27,
+    "rowsha": "EzOicFRJbuPvOmqSZi79nq4S3RGhZR1vGTj0IU8u28g=",
+    "originContent": "      - [Arch Linux](#arch-linux-1)",
+    "translatedContent": "      - [Arch Linux](#arch-linux-1)"
+  },
+  {
+    "row": 28,
+    "rowsha": "E9eq1yhF+ANm431KVWuJgzNAWkqKSWwuI1mCO2sTS7A=",
+    "originContent": "      - [故常排除](#故常排除-2)",
+    "translatedContent": "      - [Exclusiones comunes](#exclusiones-comunes-2)"
+  },
+  {
+    "row": 29,
+    "rowsha": "vR0i5NJ9Urq/jvF2+4RaxUiZAritbkV2tPZAop13hQE=",
+    "originContent": "    - [桌面客户端命令行参数](#桌面客户端命令行参数)",
+    "translatedContent": "    - [Parámetros de línea de comandos del cliente de escritorio](#parámetros-de-línea-de-comandos-del-cliente-de-escritorio)"
+  },
+  {
+    "row": 30,
+    "rowsha": "paS4DA5TobWzA/CfwVs2tjCA9w2wEQPeZEG5wzvs8jI=",
+    "originContent": "      - [--shutdown-previous](#--shutdown-previous)",
+    "translatedContent": "      - [--shutdown-previous](#--shutdown-previous)"
+  },
+  {
+    "row": 31,
+    "rowsha": "OJ6FzbsCO2+m95sN791TuFQ3zLHLenLMVhqCaDwO96E=",
+    "originContent": "      - [--command-{command-name}](#--command-command-name)",
+    "translatedContent": "      - [--command-{command-name}](#--command-command-name)"
+  },
+  {
+    "row": 32,
+    "rowsha": "HEqmtjV7owfXKdcDffOfgh675xpyqkPUDKTt65a8aHM=",
+    "originContent": "    - [IOS](#ios)",
+    "translatedContent": "    - [IOS](#ios)"
+  },
+  {
+    "row": 33,
+    "rowsha": "Il2S8oFcFZiqU6pt1LM/rhko9t8UR6DHpXV7BblA8pY=",
+    "originContent": "      - [使用快捷指令](#使用快捷指令)",
+    "translatedContent": "      - [Uso de atajos](#uso-de-atajos)"
+  },
+  {
+    "row": 34,
+    "rowsha": "Hm+XvZ3bP1v/Yx20PAW9ZAKTQE61TJ4uH5WBFgDYdBc=",
+    "originContent": "    - [Android](#android)",
+    "translatedContent": "    - [Android](#android)"
+  },
+  {
+    "row": 35,
+    "rowsha": "aB3FW/RqtCOK/qT1Wnj4BRNEUW/chYu4beXjL5c1U5o=",
+    "originContent": "      - [使用HTTP Request Shortcuts](#使用http-request-shortcuts)",
+    "translatedContent": "      - [Uso de HTTP Request Shortcuts](#uso-de-http-request-shortcuts)"
+  },
+  {
+    "row": 36,
+    "rowsha": "iw/l3vbpqwQCqoDiU4TTAWExBlIzq2T5nl1kT5mYIQk=",
+    "originContent": "      - [使用Autox.js](#使用autoxjs)",
+    "translatedContent": "      - [Uso de Autox.js](#uso-de-autoxjs)"
+  },
+  {
+    "row": 37,
+    "rowsha": "+1J4BtQZ2e9HOxWnF0vHcXIW8eyFfMjJiyXINoqdAw4=",
+    "originContent": "      - [使用SmsForwarder](#使用smsforwarder)",
+    "translatedContent": "      - [Uso de SmsForwarder](#uso-de-smsforwarder)"
+  },
+  {
+    "row": 38,
+    "rowsha": "fAY9pk01SWhuySo35ppgMwF+U/y5fRompT8FRjwmNzI=",
+    "originContent": "      - [使用Tasker](#使用tasker)",
+    "translatedContent": "      - [Uso de Tasker](#uso-de-tasker)"
+  },
+  {
+    "row": 39,
+    "rowsha": "08Si372fuJ/6cSiReqISE4hBorvRZR3A4eSaQrGNR1s=",
+    "originContent": "    - [客户端配置说明](#客户端配置说明)",
+    "translatedContent": "    - [Descripción de la configuración del cliente](#descripción-de-la-configuración-del-cliente)"
+  },
+  {
+    "row": 40,
+    "rowsha": "CdJBqRcbsiojiqiDaaQuUKmBlA4TLImdC6N4ogeukdw=",
+    "originContent": "  - [API](#api)",
+    "translatedContent": "  - [API](#api)"
+  },
+  {
+    "row": 41,
+    "rowsha": "es2gnhQDlvSBYwxWlZPRp7i0LriI9F0U65R7eGfjSOc=",
+    "originContent": "    - [获取/上传剪贴板（文字）](#获取上传剪贴板文字)",
+    "translatedContent": "    - [Obtener/Subir portapapeles (texto)](#获取上传剪贴板文字)"
+  },
+  {
+    "row": 42,
+    "rowsha": "kwaffpDH/gLjRrs74fgc66PIAcFYxqeV8kvzlxSrcvQ=",
+    "originContent": "    - [获取/上传剪贴板（图片/文件）](#获取上传剪贴板图片文件)",
+    "translatedContent": "    - [Obtener/Subir portapapeles (imagen/archivo)](#获取上传剪贴板图片文件)"
+  },
+  {
+    "row": 43,
+    "rowsha": "5pL+cKc37AofmodlWqgVBrzXoO3qCuxkPaIV1MNA5tA=",
+    "originContent": "    - [SyncClipboard.json](#syncclipboardjson)",
+    "translatedContent": "    - [SyncClipboard.json](#syncclipboardjson)"
+  },
+  {
+    "row": 44,
+    "rowsha": "yO62UhPHv8Ss45JvHNxbQ2J6zCkuG+/0AqPuEQtIiys=",
+    "originContent": "  - [项目依赖](#项目依赖)",
+    "translatedContent": "  - [Dependencias del proyecto](#项目依赖)"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "pFJti4ao0hEhZnpc6b0v4qTeJZWXRyhNPmlGpAk/4bA=",
+    "originContent": "## 功能",
+    "translatedContent": "## Funcionalidad"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "zoAswvzHlgQ339gwQHfkcLU0daCBoI8/kqJiNN44jvw=",
+    "originContent": "- 剪贴板同步，支持文字、图片和文件。服务器/客户端架构，可以使用客户端内置服务器、独立部署服务器，也可以使用支持WebDAV的网盘作为服务器  ",
+    "translatedContent": "- Sincronización del portapapeles, compatible con texto, imágenes y archivos. Arquitectura servidor/cliente, puede usar servidor integrado en el cliente, servidor desplegado independientemente o almacenamiento en la nube con soporte WebDAV como servidor  "
+  },
+  {
+    "row": 51,
+    "rowsha": "MuALcETyn1iFk6SzGznsD40FyJ5ayAzYQJpNXeweZbI=",
+    "originContent": "- 优化图片类型的剪贴板，功能有：",
+    "translatedContent": "- Optimización del portapapeles para tipos de imagen, con funciones como:"
+  },
+  {
+    "row": 52,
+    "rowsha": "U7GUIiShvO+6+rZe0A+G5T8IcdvVCRk8Ni4ZsNU/spg=",
+    "originContent": "  - 从任意位置复制图片时，可以直接向文件系统粘贴图片文件，反之亦然",
+    "translatedContent": "  - Al copiar una imagen desde cualquier ubicación, se puede pegar directamente como archivo en el sistema de archivos y viceversa"
+  },
+  {
+    "row": 53,
+    "rowsha": "1pEmfkPQ4l+TGmOBotn3P6O9mjl1cabt5NqWnIstQr0=",
+    "originContent": "  - 从浏览器复制图片后，后台下载原图到本地，解决无法从浏览器拷贝动态图的问题（大多网站有认证，适用范围有限，支持bilibili动态图片）",
+    "translatedContent": "  - Al copiar imágenes desde el navegador, descarga en segundo plano la imagen original localmente, solucionando problemas para copiar imágenes animadas desde el navegador (la mayoría de sitios requieren autenticación, uso limitado, compatible con imágenes animadas de bilibili)"
+  },
+  {
+    "row": 54,
+    "rowsha": "O8OiUuzb2PvOWSS8FT1YcCyctvLH4CPtr6hdQeZugWM=",
+    "originContent": "  - 从文件系统复制较新格式类型的图片文件时（webp/heic等），在剪贴板内储存gif或jpg格式，用于直接向支持图片的文本框粘贴图片",
+    "translatedContent": "  - Al copiar archivos de imagen en formatos recientes (webp/heic, etc.) desde el sistema de archivos, almacena en el portapapeles en formato gif o jpg para pegar directamente en cuadros de texto que soportan imágenes"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "5sDy7Gh971iC0MF5lvSscGZ40x60nEmp9lSEo7f0+e8=",
+    "originContent": "## 服务器",
+    "translatedContent": "## Servidor"
+  },
+  {
+    "row": 57,
+    "rowsha": "/BW/uVtnfN9+bBzoyhQvafkkqVBTcVwu1BhkWa3CGeg=",
+    "originContent": "### 独立服务器",
+    "translatedContent": "### Servidor independiente"
+  },
+  {
+    "row": 58,
+    "rowsha": "MVrR5t25etvXuoxD9z8tqopyU3LljmXIrlJ0gUb8h20=",
+    "originContent": "[SyncClipboard.Server](https://github.com/Jeric-X/SyncClipboard/releases/)支持跨平台运行，依赖[ASP.NET Core 8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0)，安装`ASP.NET Core 运行时`后，通过以下命令运行",
+    "translatedContent": "[SyncClipboard.Server](https://github.com/Jeric-X/SyncClipboard/releases/) soporta ejecución multiplataforma, depende de [ASP.NET Core 8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0), tras instalar el `runtime de ASP.NET Core`, ejecutar el siguiente comando"
+  },
+  {
+    "row": 59,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 60,
+    "rowsha": "HiJBudipZfobYWMMhmoXFuPT5vf4wIsIzCTqfKHoMm4=",
+    "originContent": "dotnet /path/to/SyncClipboard.Server.dll --contentRoot ./",
+    "translatedContent": "dotnet /path/to/SyncClipboard.Server.dll --contentRoot ./"
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "z8W79ebau+GINonLNWDa4YN9CPwYCWsB69/X+LIFV2c=",
+    "originContent": "工作目录与dll所在目录一致，需要写入权限。如需修改工作目录，拷贝一份`appsettings.json`到新工作目录并修改`--contentRoot`后的路径  ",
+    "translatedContent": "El directorio de trabajo debe ser el mismo que el directorio donde se encuentra el dll y debe tener permisos de escritura. Si necesita cambiar el directorio de trabajo, copie una copia de `appsettings.json` al nuevo directorio de trabajo y modifique la ruta después de `--contentRoot`  "
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "6ywfy0AzpbeGxbXas4Lk7QlxIqmMJde5kdCmUVthdoE=",
+    "originContent": "#### 服务器配置",
+    "translatedContent": "#### Configuración del servidor"
+  },
+  {
+    "row": 65,
+    "rowsha": "+jfqazJeLHxKxBVyoi8u4TGOKDljhEQVbUrrSfTKUoE=",
+    "originContent": "服务器通过`appsettings.json`文件配置，形式如下：",
+    "translatedContent": "El servidor se configura mediante el archivo `appsettings.json`, con el siguiente formato:"
+  },
+  {
+    "row": 66,
+    "rowsha": "W2ZPLLHtPfT3jMb92CzOuo0EQJVZI/gmQ35tdkjvouA=",
+    "originContent": "```jsonc",
+    "translatedContent": "```jsonc"
+  },
+  {
+    "row": 67,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 68,
+    "rowsha": "muKxWm1Aoq/jBzl/fH1zxNXiRehV2UWwmF9yhaA6aa0=",
+    "originContent": "  \"Logging\": {",
+    "translatedContent": "  \"Logging\": {"
+  },
+  {
+    "row": 69,
+    "rowsha": "7QjT/E794Vhw6GW/YLkhkaHF+6118hT2i5GDtK8Qxps=",
+    "originContent": "    \"LogLevel\": {",
+    "translatedContent": "    \"LogLevel\": {"
+  },
+  {
+    "row": 70,
+    "rowsha": "9XYNy9BHp9ER5Aotb/dQYpgM/N6G+wU6Xh9Xt8e3WRw=",
+    "originContent": "      \"Default\": \"Information\",",
+    "translatedContent": "      \"Default\": \"Information\","
+  },
+  {
+    "row": 71,
+    "rowsha": "mIicxsDFG9kwHA2qa+i+C9WoyKQYazdARTbJJh+7ZKI=",
+    "originContent": "      \"Microsoft.AspNetCore\": \"Warning\"",
+    "translatedContent": "      \"Microsoft.AspNetCore\": \"Warning\""
+  },
+  {
+    "row": 72,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 73,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 74,
+    "rowsha": "3pDiocPRyOiZM3BiV3Mbc6ql+XiWFCNuP+mwHiAwFxo=",
+    "originContent": "  \"AllowedHosts\": \"*\",",
+    "translatedContent": "  \"AllowedHosts\": \"*\","
+  },
+  {
+    "row": 75,
+    "rowsha": "Jdk3ilcp7+kF2dRAYwLeNVEiPBw/4BCh6Tb2ykxjAcI=",
+    "originContent": "  \"Kestrel\": {",
+    "translatedContent": "  \"Kestrel\": {"
+  },
+  {
+    "row": 76,
+    "rowsha": "4dSM2IdXQUjuhMgqbu/65uJKfjryljZvmpdn0hCDSAY=",
+    "originContent": "    \"Endpoints\": {",
+    "translatedContent": "    \"Endpoints\": {"
+  },
+  {
+    "row": 77,
+    "rowsha": "MClsA8WWld4JPdkFzPPYHOwBiFHkX91EzSKPIXwFzdg=",
+    "originContent": "      \"http\": {",
+    "translatedContent": "      \"http\": {"
+  },
+  {
+    "row": 78,
+    "rowsha": "8Imx+SguHKb0yf6KVghakmrW0+b3Ba8qY8eoBki/TAE=",
+    "originContent": "        \"Url\": \"http://*:5033\"",
+    "translatedContent": "        \"Url\": \"http://*:5033\""
+  },
+  {
+    "row": 79,
+    "rowsha": "euaO1Z8MLc/SOkuuMtKc6rM9oqkPDopPb+0KueTy3G4=",
+    "originContent": "      },",
+    "translatedContent": "      },"
+  },
+  {
+    "row": 80,
+    "rowsha": "MUB18EfGKHjvNoEmXRLpQaxjuf3+O2JC5LztNyPvo1g=",
+    "originContent": "      //\"https\": {",
+    "translatedContent": "      //\"https\": {"
+  },
+  {
+    "row": 81,
+    "rowsha": "xuiUV0zr92Gr9nwPxFmsYeqUBR8AmanrM8J865GGGt0=",
+    "originContent": "      //  \"Url\": \"https://*:5033\"",
+    "translatedContent": "      //  \"Url\": \"https://*:5033\""
+  },
+  {
+    "row": 82,
+    "rowsha": "42UZuH6VfN8h74yQA8jhrUF5YtY9xaxz3ZAeAiGWd+U=",
+    "originContent": "      //}",
+    "translatedContent": "      //}"
+  },
+  {
+    "row": 83,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 84,
+    "rowsha": "rjRzh/0h0dG8r9b1iOsJClOos6o2Bb6QXZa/ORrQUlc=",
+    "originContent": "    //\"Certificates\": {",
+    "translatedContent": "    //\"Certificates\": {"
+  },
+  {
+    "row": 85,
+    "rowsha": "1litxzg6ce4oYN69GW2y9eT6VRfpEXeVkvdtUbdesoU=",
+    "originContent": "    //  \"Default\": {",
+    "translatedContent": "    //  \"Default\": {"
+  },
+  {
+    "row": 86,
+    "rowsha": "Pjo8Uuf1/LaVfHKeadmqaixX/tfNgkTiZg5i8qGRGI0=",
+    "originContent": "    //    \"Path\": \"/path/to/pem\",",
+    "translatedContent": "    //    \"Path\": \"/path/to/pem\","
+  },
+  {
+    "row": 87,
+    "rowsha": "Eim6SrKcBtB0HItBSDgCozoVjeyv8BQ/BWkhyH8mB/s=",
+    "originContent": "    //    \"KeyPath\": \"/path/to/pem_key\"",
+    "translatedContent": "    //    \"KeyPath\": \"/path/to/pem_key\""
+  },
+  {
+    "row": 88,
+    "rowsha": "ft1GUwNsKLcyVdf9L8buDAjjd60k5a2FVkpw66nqecQ=",
+    "originContent": "    //  }",
+    "translatedContent": "    //  }"
+  },
+  {
+    "row": 89,
+    "rowsha": "4WT6edD3ANlhFCgZoq1EaZDVBHqxoXwhVXIiXdl+8jU=",
+    "originContent": "    //}",
+    "translatedContent": "    //}"
+  },
+  {
+    "row": 90,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 91,
+    "rowsha": "NLkJAkDQI/PCGIAs5YfYAtziZ4HbT1KmpnfDBmQQHho=",
+    "originContent": "  \"AppSettings\": {",
+    "translatedContent": "  \"AppSettings\": {"
+  },
+  {
+    "row": 92,
+    "rowsha": "JuoGS9dZbbHcMxCDZSSXkmfkJXZpE8i525QkvZM0olQ=",
+    "originContent": "    \"UserName\": \"your_username\",",
+    "translatedContent": "    \"UserName\": \"your_username\","
+  },
+  {
+    "row": 93,
+    "rowsha": "zb2T46KLRrHmrGldlGDJyT6k4I55FItJBC0LkadWTAM=",
+    "originContent": "    \"Password\": \"your_password\"",
+    "translatedContent": "    \"Password\": \"your_password\""
+  },
+  {
+    "row": 94,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 95,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 96,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 97,
+    "rowsha": "PtOm1aE7lSebslLtODocTsH+n83dDhoXCgB6MHHHB2Q=",
+    "originContent": "如需启用HTTPS，请取消`https`和`Certificates`部分的注释，并设定HTTPS证书路径。最后将`http`部分注释或删除以关闭不安全的连接。如需同时启用HTTP和HTTPS，请将二者`Url`设置为不同的端口号  ",
+    "translatedContent": "Para habilitar HTTPS, descomente las secciones `https` y `Certificates`, y configure la ruta del certificado HTTPS. Finalmente, comente o elimine la sección `http` para desactivar la conexión insegura. Para habilitar HTTP y HTTPS simultáneamente, configure las `Url` de ambos en diferentes números de puerto.  "
+  },
+  {
+    "row": 98,
+    "rowsha": "Xcb0dvDwxdC1C2n6Nlml9ado9cWat6hOf75CoouJu/c=",
+    "originContent": "不同类型证书的配置方法可以参考[微软官方文档](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/endpoints?view=aspnetcore-8.0#configure-https-in-appsettingsjson)",
+    "translatedContent": "Los métodos de configuración para diferentes tipos de certificados pueden consultarse en la [documentación oficial de Microsoft](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/endpoints?view=aspnetcore-8.0#configure-https-in-appsettingsjson)"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "r+cD3wjub7Nevz68hhbQuuF1lWvAxO4uEfq24bu6sUU=",
+    "originContent": "用户名和密码支持使用环境变量配置，当环境变量`SYNCCLIPBOARD_USERNAME`、`SYNCCLIPBOARD_PASSWORD`均不为空时，将优先使用这两个环境变量作为用户名和密码  ",
+    "translatedContent": "El nombre de usuario y la contraseña pueden configurarse mediante variables de entorno; cuando las variables `SYNCCLIPBOARD_USERNAME` y `SYNCCLIPBOARD_PASSWORD` no están vacías, se priorizan estas como usuario y contraseña.  "
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "NZqufq9q7T3ILvWlqNEavmEpPfhHQ8tZYljgQWTn34A=",
+    "originContent": "环境变量`ASPNETCORE_hostBuilder__reloadConfigOnChange`用于配置是否自动识别appsettings.json变动并重载配置，默认值为`false`，修改为任何非`false`值后会启用此功能",
+    "translatedContent": "La variable de entorno `ASPNETCORE_hostBuilder__reloadConfigOnChange` configura si se debe detectar automáticamente cambios en appsettings.json y recargar la configuración. El valor predeterminado es `false`; al cambiarlo a cualquier valor distinto de `false` se habilita esta función."
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "HCzHYBecdJTpYaMaw+p9/ycks2Jt/DmgNQCeydNnGY8=",
+    "originContent": "> [!WARNING]  ",
+    "translatedContent": "> [!WARNING]  "
+  },
+  {
+    "row": 105,
+    "rowsha": "+MKcHGwtEgC4O4NDCZBqbkkGZKYljVb4Rs5EMzTEkdI=",
+    "originContent": "> HTTP使用明文传输，在公共网络部署服务器请启用HTTPS或使用反向代理工具配置HTTPS。无法从证书颁发机构获取证书时，推荐使用开源工具[mkcert](https://github.com/FiloSottile/mkcert)或其他方式生成自签名证书",
+    "translatedContent": "> HTTP utiliza transmisión en texto claro; si el servidor se despliega en una red pública, habilite HTTPS o configure HTTPS mediante una herramienta de proxy inverso. Si no se puede obtener un certificado de una autoridad certificadora, se recomienda usar la herramienta de código abierto [mkcert](https://github.com/FiloSottile/mkcert) u otro método para generar certificados autofirmados."
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "WgjQLSFJn0PZ2pd1mN1s6iXZqYvCpmdLiXlAZp+TrXA=",
+    "originContent": "#### Docker",
+    "translatedContent": "#### Docker"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 110,
+    "rowsha": "gj6BDgDItgtXjJU5023bnrbwI+0eQKU0WfRMEcI9EBc=",
+    "originContent": "# docker",
+    "translatedContent": "# docker"
+  },
+  {
+    "row": 111,
+    "rowsha": "ojlfEE+n8E0w4ysUyon/1wLoS42tdKAfas3wyOTZTg8=",
+    "originContent": "docker run -d \\",
+    "translatedContent": "docker run -d \\"
+  },
+  {
+    "row": 112,
+    "rowsha": "nCVR9FtDExeGAfAzEyYiyHJ1NbaB7gZk3SFgoTVsb7w=",
+    "originContent": "  --name=syncclipboard-server \\",
+    "translatedContent": "  --name=syncclipboard-server \\"
+  },
+  {
+    "row": 113,
+    "rowsha": "pmMU/00kzaWyzXPH2r1xSoEjUNUYkJDvaWl0tWj3Apc=",
+    "originContent": "  -p 5033:5033 \\",
+    "translatedContent": "  -p 5033:5033 \\"
+  },
+  {
+    "row": 114,
+    "rowsha": "cIkWyXQjDX8V0vy+ZVIlnPHHVab2Q48JK8qnU1UComY=",
+    "originContent": "  -e SYNCCLIPBOARD_USERNAME=your_username \\",
+    "translatedContent": "  -e SYNCCLIPBOARD_USERNAME=your_username \\"
+  },
+  {
+    "row": 115,
+    "rowsha": "zvXAIK22uBzjVkS7iFR/140RR1+vMW8mcBr7k2V6zzw=",
+    "originContent": "  -e SYNCCLIPBOARD_PASSWORD=your_password \\",
+    "translatedContent": "  -e SYNCCLIPBOARD_PASSWORD=your_password \\"
+  },
+  {
+    "row": 116,
+    "rowsha": "B+kZQG8/ZzUx3vywbAFvQy6ir6pCyczIL/fNSXO9sdY=",
+    "originContent": "  --restart unless-stopped \\",
+    "translatedContent": "  --restart unless-stopped \\"
+  },
+  {
+    "row": 117,
+    "rowsha": "zJZ/9JcmPxqqJ53d0ZCrMhqASszkS63MCgkF0IR6ZW0=",
+    "originContent": "  jericx/syncclipboard-server:latest",
+    "translatedContent": "  jericx/syncclipboard-server:latest"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "NmFC8uiw02VEQ1ih+UpKdJs6lm9EOV0A3VGuCIR4IdA=",
+    "originContent": "# docker compose",
+    "translatedContent": "# docker compose"
+  },
+  {
+    "row": 120,
+    "rowsha": "iS2+WF0IrcX5ff9Lb2ORXuxBMgbM3HaEXau8BhoT55Y=",
+    "originContent": "curl -sL https://github.com/Jeric-X/SyncClipboard/raw/master/src/SyncClipboard.Server/docker-compose.yml",
+    "translatedContent": "curl -sL https://github.com/Jeric-X/SyncClipboard/raw/master/src/SyncClipboard.Server/docker-compose.yml"
+  },
+  {
+    "row": 121,
+    "rowsha": "Mx5NzM1SvqjT2/8dFmacWsyf3foddC+jxQH2dABZqZk=",
+    "originContent": "docker compose up -d",
+    "translatedContent": "docker compose up -d"
+  },
+  {
+    "row": 122,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 123,
+    "rowsha": "kumeyl5ZoAmi+XDuapAKA5lRKxZwqFi4W26n2j7l+aU=",
+    "originContent": "如需配置HTTPS，请自行映射`appsettings.json`和证书文件，`appsettings.json`的容器内路径为`/app/appsettings.json`",
+    "translatedContent": "Para configurar HTTPS, mapee usted mismo `appsettings.json` y el archivo del certificado, la ruta dentro del contenedor para `appsettings.json` es `/app/appsettings.json`"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "oyT1Ax7liW+6IxG5MW3KjSkskOq1lXXIUCVe2fgitWg=",
+    "originContent": "#### Arch Linux",
+    "translatedContent": "#### Arch Linux"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "7YMl8bQ7nuSYz+31lm50eISoUZSbt7JJraNckZkQUgk=",
+    "originContent": "可以直接从 [AUR](https://aur.archlinux.org/packages/syncclipboard-server) 安装（由 [@devome](https://github.com/devome) 维护）：",
+    "translatedContent": "Se puede instalar directamente desde [AUR](https://aur.archlinux.org/packages/syncclipboard-server) (mantenido por [@devome](https://github.com/devome)):"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 130,
+    "rowsha": "utDSKPyAuAAj432GXe5zij2uYHkAZkKYFoABijLDzBY=",
+    "originContent": "paru -Sy syncclipboard-server",
+    "translatedContent": "paru -Sy syncclipboard-server"
+  },
+  {
+    "row": 131,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "La ruta del archivo de configuración es `/etc/syncclipboard/appsettings.json`, después de modificar la configuración, utilice el comando `systemctl` para iniciar:"
+  },
+  {
+    "row": 133,
+    "rowsha": "ofH+E7PzRRIIQ4pdNsc/RU6VGXbeA9iNj4cIJ0jyAhU=",
+    "originContent": "配置文件路径为`/etc/syncclipboard/appsettings.json`，修改配置后使用`systemctl`命令启动即可：",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 136,
+    "rowsha": "RbMtYfWnI5rcHO9WC7XVSv/Byh14UcwTMWFNUa2pGAE=",
+    "originContent": "sudo systemctl enable --now syncclipboard.service",
+    "translatedContent": "sudo systemctl enable --now syncclipboard.service"
+  },
+  {
+    "row": 137,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "dPr9qNZSOdsSjRyv71yW7MDpxME0ZAtQX9e+F5MmuLY=",
+    "originContent": "### 客户端内置服务器",
+    "translatedContent": "### Servidor integrado en el cliente"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "NUqiYHKaVKG6WZaPWVzldeJ8BC+aFpBkAQPhca58yII=",
+    "originContent": "桌面客户端（Windows/Linux/macOS）内置了服务器功能，可以使用可视界面配置",
+    "translatedContent": "El cliente de escritorio (Windows/Linux/macOS) tiene una función de servidor integrada, que se puede configurar mediante una interfaz visual"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "Tk+vj1zvGHLCDL2HYSGOeRQgIwxaG7wWbE2UKuva8xw=",
+    "originContent": "### WebDAV服务器",
+    "translatedContent": "### Servidor WebDAV"
+  },
+  {
+    "row": 144,
+    "rowsha": "PhTKM4mXBiFkQY08J2WLTKKujOzaMKUBYUUGjvGIctc=",
+    "originContent": "可以使用支持WebDAV协议的网盘作为服务器  ",
+    "translatedContent": "Se puede usar un disco en la nube que soporte el protocolo WebDAV como servidor  "
+  },
+  {
+    "row": 145,
+    "rowsha": "xTtIzZczy3O8v9MEAAXK2Rk0SxkfsCfsDaM5Qgouzcs=",
+    "originContent": "测试过的服务器：   ",
+    "translatedContent": "Servidores probados:   "
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "U4P5NXv3A4uDheLggnsXc8ipL6havGdgA4hgffUSDUI=",
+    "originContent": "- [x] [Nextcloud](https://nextcloud.com/) ",
+    "translatedContent": "- [x] [Nextcloud](https://nextcloud.com/) "
+  },
+  {
+    "row": 148,
+    "rowsha": "KoKV6ZyUmD668Sj5gSiF4vi0s7O3UDKZPxDGU8s9loc=",
+    "originContent": "- [x] [AList](https://alist.nn.ci/)",
+    "translatedContent": "- [x] [AList](https://alist.nn.ci/)"
+  },
+  {
+    "row": 149,
+    "rowsha": "WO8UZuSFLxBct0401I1kQANC5Hb6Bu4MoiGBXXN2Zv8=",
+    "originContent": "- [x] [InfiniCLOUD](https://infini-cloud.net/en/)",
+    "translatedContent": "- [x] [InfiniCLOUD](https://infini-cloud.net/en/)"
+  },
+  {
+    "row": 150,
+    "rowsha": "afPuEUTeVs9PV3eZd6CaaBrtYg60NglRY23gqireI5A=",
+    "originContent": "- [x] [aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav)",
+    "translatedContent": "- [x] [aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav)"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "7M7A3J6hUF7tBSt8yBhFu3NM8QU7LaCJZQWHvcaMdus=",
+    "originContent": "## 客户端",
+    "translatedContent": "## Cliente"
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "JCDVzXMsaWjHg0C1wFHM45JMuP7lUymwAn4Cz8Ya1Ts=",
+    "originContent": "桌面客户端（Windows/Linux/macOS）运行在后台时将自动同步剪贴板",
+    "translatedContent": "El cliente de escritorio (Windows/Linux/macOS) sincroniza automáticamente el portapapeles cuando se ejecuta en segundo plano"
+  },
+  {
+    "row": 155,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 156,
+    "rowsha": "VvY+wK23e5+rEzxO9bo88whiA0kI4lcWkIZqQgSHeHg=",
+    "originContent": "<summary>展开/折叠截图</summary>",
+    "translatedContent": "<summary>Mostrar/Ocultar captura de pantalla</summary>"
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "g84ym3Vqd24Vr2WExsh9md6eCZkkSHgyNWHUVSA8VO8=",
+    "originContent": "![](https://raw.githubusercontent.com/Jeric-X/SyncClipboard/master/docs/image/WinUI.png)",
+    "translatedContent": "![](https://raw.githubusercontent.com/Jeric-X/SyncClipboard/master/docs/image/WinUI.png)"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+    "originContent": "### Windows",
+    "translatedContent": "### Windows"
+  },
+  {
+    "row": 163,
+    "rowsha": "Ohb9AOgboQTy/1phC9BxEcmbHMBtyCkrR8Gtf8rlL4k=",
+    "originContent": "#### 免安装板",
+    "translatedContent": "#### Versión portable"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "AwFHRS2hHFyzVuyMMWxMY9rOAKYjiTy2m5XQF4SjlvQ=",
+    "originContent": "在[Release](https://github.com/Jeric-X/SyncClipboard/releases/latest)页面下载名字以`SyncClipboard_win_`开头的zip文件，解压后运行`SyncClipboard.exe`",
+    "translatedContent": "Descargue el archivo zip cuyo nombre comienza con `SyncClipboard_win_` desde la página de [Release](https://github.com/Jeric-X/SyncClipboard/releases/latest), descomprímalo y ejecute `SyncClipboard.exe`"
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "28GKayRa7oWGhy36/+01zlGFQIKqfLgdH3DpFK5SE0s=",
+    "originContent": "#### 故常排除",
+    "translatedContent": "#### Problemas comunes"
+  },
+  {
+    "row": 168,
+    "rowsha": "t1tbGSQFyN5KjKIayo2iVqaMIWYHCU0DZcJMCBHv5D4=",
+    "originContent": "- 支持的最低系统版本为Windows10 2004",
+    "translatedContent": "- La versión mínima compatible del sistema es Windows 10 2004"
+  },
+  {
+    "row": 169,
+    "rowsha": "R2TJSdRlFNsG9uAMw3JA7qdRD0l/IixLy/eDheJHVIA=",
+    "originContent": "- 在Windows 10中运行SyncClipboard时界面图标大范围出错，请下载安装微软[Segoe Fluent Icons](https://aka.ms/SegoeFluentIcons)图标字体",
+    "translatedContent": "- Al ejecutar SyncClipboard en Windows 10, los íconos de la interfaz aparecen incorrectos en gran medida; por favor instale la fuente de íconos [Segoe Fluent Icons](https://aka.ms/SegoeFluentIcons) de Microsoft"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "IOz6D23yxKVaZDi62cZaiowUVIuAS1nmW/2UxanscU8=",
+    "originContent": "### macOS",
+    "translatedContent": "### macOS"
+  },
+  {
+    "row": 172,
+    "rowsha": "myCTS7eflwkxadYuzBDkTLFOS99bpokgcPUtYgYqBjU=",
+    "originContent": "#### 手动安装",
+    "translatedContent": "#### Instalación manual"
+  },
+  {
+    "row": 173,
+    "rowsha": "QBm6LY6Hl/VrG9IoRQbB7Qneeus2tstRQWdtC2CC5WE=",
+    "originContent": "在[Release](https://github.com/Jeric-X/SyncClipboard/releases/latest)页面下载名字以`SyncClipboard_macos_`开头的安装包，双击后拖动SyncClipboard图标到Applications文件夹",
+    "translatedContent": "Descargue el paquete de instalación cuyo nombre comienza con `SyncClipboard_macos_` desde la página de [Release](https://github.com/Jeric-X/SyncClipboard/releases/latest), haga doble clic y arrastre el ícono de SyncClipboard a la carpeta Aplicaciones"
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "28GKayRa7oWGhy36/+01zlGFQIKqfLgdH3DpFK5SE0s=",
+    "originContent": "#### 故常排除",
+    "translatedContent": "#### Problemas comunes"
+  },
+  {
+    "row": 176,
+    "rowsha": "pOGPpZ9qAiqJ4RaCoWrJq1HFhwqpdbuQoCsitaf54Qg=",
+    "originContent": "- 系统提示`由于开发者无法验证，“SyncClipboard”无法打开`： ",
+    "translatedContent": "- El sistema muestra el mensaje \"SyncClipboard no se puede abrir porque el desarrollador no se puede verificar\": "
+  },
+  {
+    "row": 177,
+    "rowsha": "4G2U/yTrvX6DewpW5LOJYk1bTQYON68MB9lOSFwKFiU=",
+    "originContent": "在macOS的`设置`->`隐私与安全性`页面，点击`仍要打开`",
+    "translatedContent": "En la configuración de macOS, en la sección `Privacidad y seguridad`, haga clic en `Abrir de todos modos`"
+  },
+  {
+    "row": 178,
+    "rowsha": "kj5gMK53UsyiPAg2QxNgaj1xH6iLt/9ILuKuywMmzpQ=",
+    "originContent": "- 系统提示`“SyncClipboard”已损坏，无法打开`：在终端中执行`sudo xattr -d com.apple.quarantine /Applications/SyncClipboard.app`",
+    "translatedContent": "- El sistema muestra el mensaje `“SyncClipboard” está dañado y no se puede abrir`: ejecute en la terminal `sudo xattr -d com.apple.quarantine /Applications/SyncClipboard.app`"
+  },
+  {
+    "row": 179,
+    "rowsha": "DbtuboBg8ZhDh/r3PDw213YBY0J71+GAyrh6w0Jaf1Y=",
+    "originContent": "- 快捷键依赖辅助功能权限，软件在需要时会弹窗提示授权",
+    "translatedContent": "- Los atajos de teclado dependen de los permisos de accesibilidad, el software mostrará una ventana emergente solicitando autorización cuando sea necesario"
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
+    "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+    "originContent": "### Linux",
+    "translatedContent": "### Linux"
+  },
+  {
+    "row": 182,
+    "rowsha": "myCTS7eflwkxadYuzBDkTLFOS99bpokgcPUtYgYqBjU=",
+    "originContent": "#### 手动安装",
+    "translatedContent": "#### Instalación manual"
+  },
+  {
+    "row": 183,
+    "rowsha": "UsWG8qHk1z12XD9+O2CKy7lnLjXv8zKBkYjSnVFMlCA=",
+    "originContent": "在[Release](https://github.com/Jeric-X/SyncClipboard/releases/latest)页面下载名字以`SyncClipboard_linux_`开头的安装包",
+    "translatedContent": "Descargue el paquete de instalación cuyo nombre comienza con `SyncClipboard_linux_` en la página [Release](https://github.com/Jeric-X/SyncClipboard/releases/latest)"
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "oyT1Ax7liW+6IxG5MW3KjSkskOq1lXXIUCVe2fgitWg=",
+    "originContent": "#### Arch Linux",
+    "translatedContent": "#### Arch Linux"
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "RjO9m5veeuyszPMLugS5tKTfYvvENIkiVfFV3//+OVo=",
+    "originContent": "Arch Linux 用户可以直接从[AUR](https://aur.archlinux.org/packages/syncclipboard-desktop)安装（由 [@devome](https://github.com/devome) 维护）：",
+    "translatedContent": "Los usuarios de Arch Linux pueden instalar directamente desde [AUR](https://aur.archlinux.org/packages/syncclipboard-desktop) (mantenido por [@devome](https://github.com/devome)):"
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 190,
+    "rowsha": "T0X8RwldvrepwkxHgtMQLpL9qAE8Xcs/R/WwpmVbgJU=",
+    "originContent": "paru -Sy syncclipboard-desktop",
+    "translatedContent": "paru -Sy syncclipboard-desktop"
+  },
+  {
+    "row": 191,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 193,
+    "rowsha": "8kLZGUEfUnsemgMskZWF9Q5uYUVIH7Z++QUUHAe1lOk=",
+    "originContent": "安装后从菜单中启动即可。如果在命令行中使用命令`syncclipboard-desktop`启动报错，请将环境变量`LANG`设置为`en_US.UTF-8`，以`LANG=en_US.UTF-8 syncclipboard-desktop`来启动。",
+    "translatedContent": "Después de la instalación, inícielo desde el menú. Si al iniciar con el comando `syncclipboard-desktop` en la línea de comandos aparece un error, establezca la variable de entorno `LANG` a `en_US.UTF-8` y ejecute con `LANG=en_US.UTF-8 syncclipboard-desktop`."
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "28GKayRa7oWGhy36/+01zlGFQIKqfLgdH3DpFK5SE0s=",
+    "originContent": "#### 故常排除",
+    "translatedContent": "#### Solución de problemas comunes"
+  },
+  {
+    "row": 196,
+    "rowsha": "NtAyvq/BvkxvuOpejfOQc8QS5jKFQQYrVOvTuTZ/VzQ=",
+    "originContent": "- 剪贴板同步不及时、无法同步、上传乱码：建议在系统内安装`xclip`（X11）或`wl-clipboard`（Wayland），SyncClipboard会使用这些工具辅助获取剪贴板以增强稳定性。使用`xclip -version`或`wl-paste -version`命令确认是否已安装",
+    "translatedContent": "- Sincronización del portapapeles no oportuna, incapacidad para sincronizar, carga con caracteres extraños: se recomienda instalar `xclip` (X11) o `wl-clipboard` (Wayland) en el sistema; SyncClipboard utilizará estas herramientas para ayudar a obtener el portapapeles y mejorar la estabilidad. Use `xclip -version` o `wl-paste -version` para confirmar si están instaladas."
+  },
+  {
+    "row": 197,
+    "rowsha": "rmmjFVW0u8PfAKFKg6Hl+pIgHRSm4LsVuTS7H5ODkEo=",
+    "originContent": "- 使用`deb`、`rpm`安装包时，升级安装失败时，请先删除旧版再安装新版",
+    "translatedContent": "- Al usar paquetes `deb` o `rpm`, si la actualización falla, elimine primero la versión antigua antes de instalar la nueva."
+  },
+  {
+    "row": 198,
+    "rowsha": "Tj6NZQCAF4R6jdGympKACca3mOlHQ01KKFF7j+umr1s=",
+    "originContent": "- 使用`AppImage`包时，请确认AppImage文件具有可执行权限",
+    "translatedContent": "- Al usar el paquete `AppImage`, asegúrese de que el archivo AppImage tenga permisos de ejecución."
+  },
+  {
+    "row": 199,
+    "rowsha": "myXpFnA0klaxZkt6oG1icj4TAISMkg7alRElUDXoRK8=",
+    "originContent": "- 快捷键在Wayland可能无法使用",
+    "translatedContent": "- Las teclas rápidas pueden no funcionar en Wayland."
+  },
+  {
+    "row": 200,
+    "rowsha": "XrRQWhwFZu7OYVqIafHlkbOYSNx/FqMqyNbn2dfIV68=",
+    "originContent": "- 无法自动识别语言，默认为英语，启动后可以在SyncClipboard的设置中修改",
+    "translatedContent": "- Si no se reconoce automáticamente el idioma, el predeterminado es inglés; después de iniciar, puede cambiarlo en la configuración de SyncClipboard."
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "v3fX4RjxFmnVGouLaQUO99pcF4wnQ7S2jn5cai1aM0I=",
+    "originContent": "> [!NOTE]  ",
+    "translatedContent": "> [!NOTE]  "
+  },
+  {
+    "row": 203,
+    "rowsha": "7WMx/hxaq8ZjJXuClmjnRWvm0PPDK0/MVrFKsBWJEzo=",
+    "originContent": "> 需要彻底删除SyncClipboard时请手动删除配置文件和临时文件目录：  ",
+    "translatedContent": "> Para eliminar completamente SyncClipboard, elimine manualmente los archivos de configuración y directorios temporales:  "
+  },
+  {
+    "row": 204,
+    "rowsha": "x3MSWPGNBVq8lqLR4eGtuUGVsqO4eJq4dUj/qaJtyfk=",
+    "originContent": "> `%AppData%\\SyncClipboard\\`(Windows)，`~/Library/Application Support/SyncClipboard/`(macOS)，`~/.config/SyncClipboard/`(Linux)",
+    "translatedContent": "> `%AppData%\\SyncClipboard\\` (Windows), `~/Library/Application Support/SyncClipboard/` (macOS), `~/.config/SyncClipboard/` (Linux)"
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "KX1wCyi1EMo2eWWPD0ezKTHAbwe433VLG8WZIQBZ9Bk=",
+    "originContent": "### 桌面客户端命令行参数",
+    "translatedContent": "### Parámetros de línea de comandos del cliente de escritorio"
+  },
+  {
+    "row": 207,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "dpw0Bm2JjtS1cb9WQDa+ZEn+YQEsfOH5XCu6/UqtDHc=",
+    "originContent": "#### --shutdown-previous",
+    "translatedContent": "#### --shutdown-previous"
+  },
+  {
+    "row": 209,
+    "rowsha": "ZMDiI+j5y7ZECvAkX31jjEzcC9SIFENJ56D7liHFKHk=",
+    "originContent": "关闭已经运行的SyncClipboard，运行新的实例",
+    "translatedContent": "Cierra SyncClipboard ya en ejecución y ejecuta una nueva instancia."
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 211,
+    "rowsha": "OJpxslEsD09WDSk96umsNM3qNALz2a+lNsBpjLxWfss=",
+    "originContent": "#### --command-{command-name}",
+    "translatedContent": "#### --command-{command-name}"
+  },
+  {
+    "row": 212,
+    "rowsha": "hIGwyrIt7pQGvm08FTTDXa53c3IMNQh3sjbYykz5C7w=",
+    "originContent": "运行指定命令，`{command-name}`为命令名称，设置快捷键后，在配置文件中可以查看对应的命令名称，即使清除快捷键配置，命令行参数仍然有效  ",
+    "translatedContent": "Ejecuta el comando especificado, donde `{command-name}` es el nombre del comando; después de configurar una tecla rápida, puede consultar el nombre correspondiente en el archivo de configuración. Incluso si se elimina la configuración de la tecla rápida, el parámetro de línea de comandos sigue siendo válido.  "
+  },
+  {
+    "row": 213,
+    "rowsha": "7/FsyMlK1WmzQM9fTmaJx3aiaRfXHPegLH7gRcU1p/A=",
+    "originContent": "当存在已经运行的SyncClipboard时，不会启动新的实例，而是调用已经运行的SyncClipboard执行命令。当不存在已经运行的SyncClipboard时，将在启动完成后立刻执行命令  ",
+    "translatedContent": "Si ya hay una instancia de SyncClipboard en ejecución, no se iniciará una nueva, sino que se llamará a la instancia existente para ejecutar el comando. Si no hay ninguna instancia en ejecución, el comando se ejecutará inmediatamente después de iniciar.  "
+  },
+  {
+    "row": 214,
+    "rowsha": "FVZza936trIoYULp2uu080bHB9Zc6Ah0R9XmJb1Y/dw=",
+    "originContent": "支持多个`--command-{command-name}`参数，多个命令同时执行  ",
+    "translatedContent": "Se admiten múltiples parámetros `--command-{command-name}`, que permiten ejecutar varios comandos simultáneamente."
+  },
+  {
+    "row": 215,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "v3fX4RjxFmnVGouLaQUO99pcF4wnQ7S2jn5cai1aM0I=",
+    "originContent": "> [!NOTE]  ",
+    "translatedContent": "> [!NOTE]  "
+  },
+  {
+    "row": 217,
+    "rowsha": "wtj2a1xFn8c68W+yGIgkWxJbrhysjWdzULZ76Z7/fKQ=",
+    "originContent": "> macOS使用命令行参数时，请使用可执行程序的完整路径`/Applications/SyncClipboard.app/Contents/MacOS/SyncClipboard.Desktop.MacOS`",
+    "translatedContent": "> En macOS, al usar parámetros de línea de comandos, use la ruta completa del ejecutable: `/Applications/SyncClipboard.app/Contents/MacOS/SyncClipboard.Desktop.MacOS`"
+  },
+  {
+    "row": 218,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 219,
+    "rowsha": "rmy8DOBb5GPvhoRpWox0hrMbo5T3OcGYJijGNngYREQ=",
+    "originContent": "### IOS ",
+    "translatedContent": "### IOS  "
+  },
+  {
+    "row": 220,
+    "rowsha": "A4uPXszawZ4NYtpZI7y79Yqct2VlrKPkTvTo09HS1p4=",
+    "originContent": "#### 使用[快捷指令](https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id1462947752)  ",
+    "translatedContent": "#### Uso de [Atajos](https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id1462947752)  "
+  },
+  {
+    "row": 221,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 222,
+    "rowsha": "tno8X8vLft1tmuZ+3h80dIR1FIdoqJarYQRpsxA5MGI=",
+    "originContent": "- 手动同步，导入这个[快捷指令](https://www.icloud.com/shortcuts/d1b9e49556e04c2ca290590294afbd99)，手动触发上传或下载",
+    "translatedContent": "- Sincronización manual: importe este [atajo](https://www.icloud.com/shortcuts/d1b9e49556e04c2ca290590294afbd99) y ejecútelo para subir o descargar manualmente."
+  },
+  {
+    "row": 223,
+    "rowsha": "+MjdnLsn48XMMLjNxH1rf9P20q+ppRlhsUFhAQ5Tfeg=",
+    "originContent": "- 自动同步，导入这个[快捷指令](https://www.icloud.com/shortcuts/1ced32f011bc4d3498dca9960dc2c0d5)，运行后设备会自动在后台同步剪贴板内容，此快捷指令将执行无限时长，需要手动关闭，你还可以手动修改同步后是否发送系统通知、查询的间隔秒数",
+    "translatedContent": "- Sincronización automática: importe este [atajo](https://www.icloud.com/shortcuts/1ced32f011bc4d3498dca9960dc2c0d5); al ejecutarlo, el dispositivo sincronizará automáticamente el portapapeles en segundo plano. Este atajo se ejecuta indefinidamente y debe cerrarse manualmente. También puede modificar manualmente si enviar notificaciones del sistema tras la sincronización y el intervalo en segundos para consultas."
+  },
+  {
+    "row": 224,
+    "rowsha": "5JGBjEZAALwNSoNuJV0/iVee3nJCiSo92N6kJ2kOn/Y=",
+    "originContent": "- 自动上传短信验证码，参考这个帖子中的视频教程 https://github.com/Jeric-X/SyncClipboard/discussions/60",
+    "translatedContent": "- Carga automática de códigos SMS, consulte el tutorial en video en esta publicación https://github.com/Jeric-X/SyncClipboard/discussions/60"
+  },
+  {
+    "row": 225,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 226,
+    "rowsha": "GFCGh67dhQasCGhWJcWMlz2UIl9S1Kvdj8YuWBxtplM=",
+    "originContent": "### Android",
+    "translatedContent": "### Android"
+  },
+  {
+    "row": 227,
+    "rowsha": "kXQUwNiQk9Qos2THne21b6X9PGCg0OiuBCTZx+A2Bmk=",
+    "originContent": "#### 使用[HTTP Request Shortcuts](https://github.com/Waboodoo/HTTP-Shortcuts)",
+    "translatedContent": "#### Uso de [HTTP Request Shortcuts](https://github.com/Waboodoo/HTTP-Shortcuts)"
+  },
+  {
+    "row": 228,
+    "rowsha": "5VSHKMPaKsI2HmTPn94wradvkATlWJjL7Gu8ASIHrnI=",
+    "originContent": "导入这个[配置文件](/script/shortcuts.zip)，修改`变量`中的`UserName`，`UserToken`，`url`， `url`不要以斜线分隔符`/`结尾。`HTTP Request Shortcuts`支持从下拉菜单、桌面组件、桌面图标、分享菜单中使用",
+    "translatedContent": "Importe este [archivo de configuración](/script/shortcuts.zip), modifique las `variables` `UserName`, `UserToken` y `url`. La `url` no debe terminar con el separador de barra `/`. `HTTP Request Shortcuts` admite uso desde el menú desplegable, widget de escritorio, icono en escritorio y menú de compartir."
+  },
+  {
+    "row": 229,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 230,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 231,
+    "rowsha": "vSoigkMNWkKVR5niOpdECj733aIuBdCnEAzWNH7iJbw=",
+    "originContent": "<summary>导入配置文件后修改配置图示</summary>",
+    "translatedContent": "<summary>Ilustración para modificar la configuración tras importar el archivo</summary>"
+  },
+  {
+    "row": 232,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 233,
+    "rowsha": "8hfe0q73hUe3gqdQ/X2rDplPXNneB2aryzC0/9fSet0=",
+    "originContent": "![](https://raw.githubusercontent.com/Jeric-X/SyncClipboard/master/docs/image/android1.jpg)",
+    "translatedContent": "![](https://raw.githubusercontent.com/Jeric-X/SyncClipboard/master/docs/image/android1.jpg)"
+  },
+  {
+    "row": 234,
+    "rowsha": "4hbKuHREPtrQ8hvBhVWVMWMkAe/xdnfmE1GE3GbdUsk=",
+    "originContent": "![](https://raw.githubusercontent.com/Jeric-X/SyncClipboard/master/docs/image/android2.jpg)",
+    "translatedContent": "![](https://raw.githubusercontent.com/Jeric-X/SyncClipboard/master/docs/image/android2.jpg)"
+  },
+  {
+    "row": 235,
+    "rowsha": "I9k5z4Nexr+9HArYf4FF3qgAHQtMW4K/bocjPqy83+s=",
+    "originContent": "![](https://raw.githubusercontent.com/Jeric-X/SyncClipboard/master/docs/image/android3.jpg)",
+    "translatedContent": "![](https://raw.githubusercontent.com/Jeric-X/SyncClipboard/master/docs/image/android3.jpg)"
+  },
+  {
+    "row": 236,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 237,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 238,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 239,
+    "rowsha": "JHjYFtu0p8q+gbejVadJq0iplfE4hMBEW17oHCcZK/k=",
+    "originContent": "#### 使用[Autox.js](https://github.com/kkevsekk1/AutoX)",
+    "translatedContent": "#### Uso de [Autox.js](https://github.com/kkevsekk1/AutoX)"
+  },
+  {
+    "row": 240,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 241,
+    "rowsha": "gOyIl2RVwgA4UZFPzcJ/zhAq0pWWOkHP4cPhn25BIXw=",
+    "originContent": "- 自动同步，使用这个[js文件](/script/SyncAutoxJs.js)。由于安卓系统限制，在安卓10及以上的系统应用无法在后台读取剪贴板，但可以使用基于Root权限的工具(Magisk/Xposed)解除应用后台读取剪贴版的权限，如[Riru-ClipboardWhitelist](https://github.com/Kr328/Riru-ClipboardWhitelist)、[Clipboard Whitelist](https://modules.lsposed.org/module/io.github.tehcneko.clipboardwhitelist)。由于在安卓13及以上的系统应用必须由用户手动授权才被允许访问系统日志（剪贴板），也可以使用Xposed自动为应用授权访问系统日志的权限，如[DisableLogRequest/禁用日志访问请求](https://github.com/QueallyTech/DisableLogRequest)",
+    "translatedContent": "- Sincronización automática, usando este [archivo js](/script/SyncAutoxJs.js). Debido a las restricciones del sistema Android, en Android 10 y versiones superiores las aplicaciones no pueden leer el portapapeles en segundo plano, pero se pueden usar herramientas basadas en permisos Root (Magisk/Xposed) para habilitar el acceso en segundo plano, como [Riru-ClipboardWhitelist](https://github.com/Kr328/Riru-ClipboardWhitelist), [Clipboard Whitelist](https://modules.lsposed.org/module/io.github.tehcneko.clipboardwhitelist). En Android 13 y versiones superiores, las aplicaciones deben obtener permiso manual del usuario para acceder a los registros del sistema (portapapeles), también se puede usar Xposed para conceder automáticamente el permiso para acceder a los registros del sistema, como [DisableLogRequest/Desactivar solicitud de acceso a logs](https://github.com/QueallyTech/DisableLogRequest)"
+  },
+  {
+    "row": 242,
+    "rowsha": "Wx7Lw3b0bHo30P5pyfsb649E7/7Z/8qrrrLxmjRa9Zs=",
+    "originContent": "- 自动上传验证码，使用这个[js文件](/script/UploadVerificationCode.js)，这个脚本运行在后台时将读取所有通知消息，在识别到验证码类信息时将证码上传到服务器",
+    "translatedContent": "- Subida automática de códigos de verificación, usando este [archivo js](/script/UploadVerificationCode.js), este script corre en segundo plano y lee todas las notificaciones, cuando identifica mensajes con códigos de verificación, sube el código al servidor"
+  },
+  {
+    "row": 243,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 244,
+    "rowsha": "03KwpCH3qQENIvV/OyVVnUjLbIsNI4WiC+nl6kmMIyA=",
+    "originContent": "导入js文件、修改每个文件头部的用户配置后，手动点击运行，或者为每个js文件设置触发方式，例如：开机时触发",
+    "translatedContent": "Importa los archivos js, modifica la configuración de usuario en la cabecera de cada archivo, luego ejecuta manualmente, o configura un disparador para cada archivo js, por ejemplo: ejecución al encender el dispositivo"
+  },
+  {
+    "row": 245,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 246,
+    "rowsha": "zqhHHcSqPKGIxYRLumGm3+c2l0N4/E78zhb9UeAfjLI=",
+    "originContent": "#### 使用[SmsForwarder](https://github.com/pppscn/SmsForwarder)",
+    "translatedContent": "#### Uso de [SmsForwarder](https://github.com/pppscn/SmsForwarder)"
+  },
+  {
+    "row": 247,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 248,
+    "rowsha": "BI/q2T/Dq2VCdDafRXC3KwNAYz78pE8lXEO4O01MHUg=",
+    "originContent": "- 自动上传验证码， https://github.com/Jeric-X/SyncClipboard/discussions/109",
+    "translatedContent": "- Subida automática de códigos de verificación, https://github.com/Jeric-X/SyncClipboard/discussions/109"
+  },
+  {
+    "row": 249,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 250,
+    "rowsha": "yJn0TosELo+XEx1xBZWJqWgwW8Bw0IIi46J5bfihaGA=",
+    "originContent": "#### 使用[Tasker](https://tasker.joaoapps.com/)",
+    "translatedContent": "#### Uso de [Tasker](https://tasker.joaoapps.com/)"
+  },
+  {
+    "row": 251,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 252,
+    "rowsha": "P67xCow9BpysS1CsZL0+Vm0S6gQeR/Dz4tbktF59kF8=",
+    "originContent": "- https://github.com/forrestgao/taskerforSyncClipboard ，作者：[forrestgao](https://github.com/forrestgao)",
+    "translatedContent": "- https://github.com/forrestgao/taskerforSyncClipboard , autor: [forrestgao](https://github.com/forrestgao)"
+  },
+  {
+    "row": 253,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 254,
+    "rowsha": "4uwcBks6mEhupRCO+j7DTJB9wXtnoWI0fYR0HYZ3dVM=",
+    "originContent": "Tasker是一款安卓系统上非常强大的自动化工具软件，你可以根据SyncClipboard的API创建适合自己的配置文件，如果你认为你的配置文件非常通用并希望分享出来，欢迎联系我置于此处",
+    "translatedContent": "Tasker es una poderosa herramienta de automatización para Android, puedes crear perfiles personalizados usando la API de SyncClipboard, si consideras que tu perfil es muy útil y deseas compartirlo, contáctame para incluirlo aquí"
+  },
+  {
+    "row": 255,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 256,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 257,
+    "rowsha": "y8J/n8fCVpc1Al5GM2mYyE4V+f7r//cz40HIbeQY6KE=",
+    "originContent": "### 客户端配置说明",
+    "translatedContent": "### Explicación de la configuración del cliente"
+  },
+  {
+    "row": 258,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 259,
+    "rowsha": "qSe5t4v2YUpv47QjU+xE6xeMXNjiP9NmJ5rAYs0wYUM=",
+    "originContent": "全平台依赖三条必要配置（配置的拼写可能会有所不同，含义相同）。",
+    "translatedContent": "Todas las plataformas requieren tres configuraciones necesarias (la ortografía puede variar, pero el significado es el mismo)."
+  },
+  {
+    "row": 260,
+    "rowsha": "HPIXzHt+/1v3Q9pwSd2iM2MHIyX4lq03IQQuoBxczlU=",
+    "originContent": "- user",
+    "translatedContent": "- user"
+  },
+  {
+    "row": 261,
+    "rowsha": "dG+7lgftNtIkrWH1t4iM7JaRFdIsnDEhGYhFEqyWAw0=",
+    "originContent": "- password",
+    "translatedContent": "- password"
+  },
+  {
+    "row": 262,
+    "rowsha": "klC1cfM2GspLb+jPuRSaQd5pbqAl/zVEh2Tg6ZQ3ftI=",
+    "originContent": "- url，格式为http(s)://ip(或者域名):port。使用WebDav服务器时，url需要具体到一个已存在的文件夹作为工作目录，例如`https://domain.com/dav/folder1/working%20folder`，特殊符号需要使用url转义字符代替，不要使用这个文件夹存储其他文件。不使用桌面客户端（Windows/Linux/macOS）时需在工作目录中再创建`file`文件夹以同步文件，桌面客户端会在设置服务器时自动创建`file`文件夹。url尽量不要以斜线分隔符`/`结尾，在部分客户端中会出现问题。",
+    "translatedContent": "- url, con formato http(s)://ip(o dominio):puerto. Al usar un servidor WebDav, la url debe apuntar a una carpeta existente como directorio de trabajo, por ejemplo `https://domain.com/dav/folder1/working%20folder`, los caracteres especiales deben usarse en formato de escape url, no uses esta carpeta para almacenar otros archivos. Si no usas cliente de escritorio (Windows/Linux/macOS), debes crear dentro del directorio de trabajo una carpeta llamada `file` para sincronizar archivos; el cliente de escritorio crea automáticamente la carpeta `file` al configurar el servidor. Se recomienda no terminar la url con barra `/` para evitar problemas en algunos clientes."
+  },
+  {
+    "row": 263,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 264,
+    "rowsha": "QMr2bE3lbka3JIXEet/0kWxLx+Vj7Nn3J46dyvktHK0=",
+    "originContent": "## API",
+    "translatedContent": "## API"
+  },
+  {
+    "row": 265,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 266,
+    "rowsha": "ibIBcbkeRiL/6dYN6p03BYz2t4u3fnS7qihxYXLKeIM=",
+    "originContent": "API基于WebDAV，在独立服务器运行环境下设定环境变量ASPNETCORE_ENVIRONMENT为Development后运行服务器，或桌面客户端打开服务器并打开设置里的诊断模式后，",
+    "translatedContent": "La API está basada en WebDAV, en un entorno de servidor independiente, configura la variable de entorno ASPNETCORE_ENVIRONMENT como Development y ejecuta el servidor, o abre el servidor desde el cliente de escritorio y activa el modo diagnóstico en configuración, luego"
+  },
+  {
+    "row": 267,
+    "rowsha": "HO1qZtjFdttNZ2LRqKkq/mg2ozlj7GT8rFigjD1mq8A=",
+    "originContent": "访问`http://ip:端口/swagger/index.html`可以打开API页面，以下是部分关键API",
+    "translatedContent": "accede a `http://ip:puerto/swagger/index.html` para abrir la página de la API, a continuación algunas APIs clave"
+  },
+  {
+    "row": 268,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 269,
+    "rowsha": "6/6FVCh6ARVhlr94VTdvFICzk902FcR5J+IS/RkSWew=",
+    "originContent": "### 获取/上传剪贴板（文字）",
+    "translatedContent": "### Obtener/Subir portapapeles (texto)"
+  },
+  {
+    "row": 270,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 271,
+    "rowsha": "jqWfRxYcKtorg6pSzC9UmazS7w6WDqcTeqELHhh57b0=",
+    "originContent": "GET /SyncClipboard.json",
+    "translatedContent": "GET /SyncClipboard.json"
+  },
+  {
+    "row": 272,
+    "rowsha": "8cL+vR+bu0ZcVb0M6KJ6YSrEvb0rXI/FDSJcH0+0Nw4=",
+    "originContent": "PUT /SyncClipboard.json",
+    "translatedContent": "PUT /SyncClipboard.json"
+  },
+  {
+    "row": 273,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 274,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 275,
+    "rowsha": "7L9A+fIv58NofYkJhjqXT37zyXf72hQuRZHOUgrMYH8=",
+    "originContent": "### 获取/上传剪贴板（图片/文件）",
+    "translatedContent": "### Obtener/Subir portapapeles (imagen/archivo)"
+  },
+  {
+    "row": 276,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 277,
+    "rowsha": "zNkC83fbX9UevXMM3fpmxwIg/5y/RT6QpvEgHyMbWcg=",
+    "originContent": "GET  /SyncClipboard.json",
+    "translatedContent": "GET  /SyncClipboard.json"
+  },
+  {
+    "row": 278,
+    "rowsha": "qUQEF6wwJ+DAmWoQgpi0r5WAlBKbRdK746Bzn+MLheg=",
+    "originContent": "HEAD /file/filename         // optional",
+    "translatedContent": "HEAD /file/filename         // optional"
+  },
+  {
+    "row": 279,
+    "rowsha": "DhWOfD7U9edxvjw55PAKDVb5YTZCYpj9bFWySefwOOU=",
+    "originContent": "GET  /file/filename",
+    "translatedContent": "GET  /file/filename"
+  },
+  {
+    "row": 280,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 281,
+    "rowsha": "AsvlJF2SyxAgoUYmt/dgaze4xtdQR4ZuPUsxpKIcM98=",
+    "originContent": "PUT /file/filename",
+    "translatedContent": "PUT /file/filename"
+  },
+  {
+    "row": 282,
+    "rowsha": "8cL+vR+bu0ZcVb0M6KJ6YSrEvb0rXI/FDSJcH0+0Nw4=",
+    "originContent": "PUT /SyncClipboard.json",
+    "translatedContent": "PUT /SyncClipboard.json"
+  },
+  {
+    "row": 283,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 284,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 285,
+    "rowsha": "mkGD7XGOwPXiR+gn8p3wWPC5wAlbBUYB+hSu+DuYZTY=",
+    "originContent": "### SyncClipboard.json",
+    "translatedContent": "### SyncClipboard.json"
+  },
+  {
+    "row": 286,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 287,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 288,
+    "rowsha": "bscXPq+ga+Ie2lP1D+ryL8J7SFXWWr+BuOg4HoqVaqI=",
+    "originContent": "    \"Type\" : \"Text\"",
+    "translatedContent": "    \"Type\" : \"Text\""
+  },
+  {
+    "row": 289,
+    "rowsha": "swlNEPd87nhpV+hhOnt2ynyF9QfUqYWXAoQHjCcvTb8=",
+    "originContent": "    \"Clipboard\" : \"Content\",",
+    "translatedContent": "    \"Clipboard\" : \"Content\","
+  },
+  {
+    "row": 290,
+    "rowsha": "q9/MzzppoMey4BXbPgBpvMt7MmH5YJM2mlGzvJVBDHg=",
+    "originContent": "    \"File\":\"\"",
+    "translatedContent": "    \"File\":\"\""
+  },
+  {
+    "row": 291,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 292,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 293,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 294,
+    "rowsha": "ipOzN1rcDNxk5R47+gPGIQagA9b/fGLR4OKQOPQVa/I=",
+    "originContent": "    \"Type\": \"Image\", // or \"File\", \"Group\"",
+    "translatedContent": "    \"Type\": \"Image\", // or \"File\", \"Group\""
+  },
+  {
+    "row": 295,
+    "rowsha": "yu5vOA1qf4f6jCs+1JCxoQsAymDmxtmtzmTmSO+ITV4=",
+    "originContent": "    \"Clipboard\": \"hash, optional\",",
+    "translatedContent": "    \"Clipboard\": \"hash, optional\","
+  },
+  {
+    "row": 296,
+    "rowsha": "HrKPHgbcnbnmJTXnbtsbYA5c8Zvn+nGE2otBAW7acPw=",
+    "originContent": "    \"File\": \"filename\"",
+    "translatedContent": "    \"File\": \"filename\""
+  },
+  {
+    "row": 297,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 298,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 299,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 300,
+    "rowsha": "xLcSam3wl/Fc0oLiiQtckw/BeWmnYd+Wx8POutTwulo=",
+    "originContent": "## 项目依赖",
+    "translatedContent": "## 项目依赖"
+  },
+  {
+    "row": 301,
+    "rowsha": "kCXuuZBC+9nYYf1aKvNRapp/6IYuuGb/T25O/vAnpbs=",
+    "originContent": "[NativeNotification](https://github.com/Jeric-X/NativeNotification)  ",
+    "translatedContent": "[NativeNotification](https://github.com/Jeric-X/NativeNotification)  "
+  },
+  {
+    "row": 302,
+    "rowsha": "XM/g9K3u40BMjkmXF3S72FIXn3UKgWecs/0QvGMJeQY=",
+    "originContent": "[Magick.NET](https://github.com/dlemstra/Magick.NET)  ",
+    "translatedContent": "[Magick.NET](https://github.com/dlemstra/Magick.NET)  "
+  },
+  {
+    "row": 303,
+    "rowsha": "R6bvzf6XKau6urHYTOjZC2Fw9BJjdG8kQYmyOgquc1A=",
+    "originContent": "[.NET Community Toolkit](https://github.com/CommunityToolkit/dotnet)  ",
+    "translatedContent": "[.NET Community Toolkit](https://github.com/CommunityToolkit/dotnet)  "
+  },
+  {
+    "row": 304,
+    "rowsha": "9XDcIhAPBeI6RXLunbRAdW8ZXn8Nl7xsHWSMJl0RXFc=",
+    "originContent": "[H.NotifyIcon](https://github.com/HavenDV/H.NotifyIcon)  ",
+    "translatedContent": "[H.NotifyIcon](https://github.com/HavenDV/H.NotifyIcon)  "
+  },
+  {
+    "row": 305,
+    "rowsha": "UJJus7VHtpUA9F5H2xv8f/QwHHnq4qPhCtPZrRt8lTQ=",
+    "originContent": "[WinUIEx](https://github.com/dotMorten/WinUIEx)  ",
+    "translatedContent": "[WinUIEx](https://github.com/dotMorten/WinUIEx)  "
+  },
+  {
+    "row": 306,
+    "rowsha": "2Houx9K5ofDxDVf6xfg4dAhuKt9rThFrGcZwOFaDIU0=",
+    "originContent": "[moq](https://github.com/moq/moq)  ",
+    "translatedContent": "[moq](https://github.com/moq/moq)  "
+  },
+  {
+    "row": 307,
+    "rowsha": "p2Jk/dnaqKU50tHHZmodF0/TkmKIV9spiswf0bO8kek=",
+    "originContent": "[Avalonia](https://avaloniaui.net/)  ",
+    "translatedContent": "[Avalonia](https://avaloniaui.net/)  "
+  },
+  {
+    "row": 308,
+    "rowsha": "FZmU7bZlqB87aylAmM+8pFe9WJBCbUxv1NyBfqh6yzI=",
+    "originContent": "[FluentAvalonia.BreadcrumbBar](https://github.com/indigo-san/FluentAvalonia.BreadcrumbBar)  ",
+    "translatedContent": "[FluentAvalonia.BreadcrumbBar](https://github.com/indigo-san/FluentAvalonia.BreadcrumbBar)  "
+  },
+  {
+    "row": 309,
+    "rowsha": "7hMYs69Z8mZZghmJfcRBhWR6VUU5vLerbOUOBcHTvQ0=",
+    "originContent": "[FluentAvalonia](https://github.com/amwx/FluentAvalonia)  ",
+    "translatedContent": "[FluentAvalonia](https://github.com/amwx/FluentAvalonia)  "
+  },
+  {
+    "row": 310,
+    "rowsha": "ZVObnNpBtHxU6r7OvmzL6F3Fdc2cr8mMKcKspd/NfIM=",
+    "originContent": "[Vanara](https://github.com/dahall/Vanara)  ",
+    "translatedContent": "[Vanara](https://github.com/dahall/Vanara)  "
+  },
+  {
+    "row": 311,
+    "rowsha": "veqUrmDBWXdZINFnfNtWcyw7lWY8HUkhQ4gO7oP2KXQ=",
+    "originContent": "[Tmds.DBus](https://github.com/tmds/Tmds.DBus)  ",
+    "translatedContent": "[Tmds.DBus](https://github.com/tmds/Tmds.DBus)  "
+  },
+  {
+    "row": 312,
+    "rowsha": "I7D5x1RfrZkUO9a4N5vuPJU12zPonwzucL3uFQVIIis=",
+    "originContent": "[SharpHook](https://github.com/TolikPylypchuk/SharpHook)  ",
+    "translatedContent": "[SharpHook](https://github.com/TolikPylypchuk/SharpHook)  "
+  },
+  {
+    "row": 313,
+    "rowsha": "AK41gdPBLZZO5nE1oelv7+le2REmhBMjZkoh/CakKbE=",
+    "originContent": "[DotNetZip.Semverd](https://github.com/haf/DotNetZip.Semverd)  ",
+    "translatedContent": "[DotNetZip.Semverd](https://github.com/haf/DotNetZip.Semverd)  "
+  },
+  {
+    "row": 314,
+    "rowsha": "ycteFhLJqbwhmmQXuPZ3jBGUOcJqMRLU+f2VGRm/l7U=",
+    "originContent": "[Quartz.NET](https://github.com/quartznet/quartznet)  ",
+    "translatedContent": "[Quartz.NET](https://github.com/quartznet/quartznet)  "
+  },
+  {
+    "row": 315,
+    "rowsha": "zNfyMzulVWZbErEktvF7piWw97ey+3yUjQz9Rls14WE=",
+    "originContent": "[MiSans](https://hyperos.mi.com/font)",
+    "translatedContent": "[MiSans](https://hyperos.mi.com/font)"
+  }
+]
