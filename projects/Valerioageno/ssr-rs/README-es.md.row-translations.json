@@ -1,0 +1,1046 @@
+[
+  {
+    "row": 1,
+    "rowsha": "BLLcJNMQfs5gnv09WOO1UGlgpXgMdhtG0icpe0hV3Ho=",
+    "originContent": "# 🚀 Rust server side rendering",
+    "translatedContent": "# 🚀 Renderizado del lado servidor en Rust"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "15L/j2JXJrSBsTo4nZtzdyYPKQr2cVoWsx0RUbvKaTI=",
+    "originContent": "[![API](https://docs.rs/ssr_rs/badge.svg)](https://docs.rs/ssr_rs)",
+    "translatedContent": "[![API](https://docs.rs/ssr_rs/badge.svg)](https://docs.rs/ssr_rs)"
+  },
+  {
+    "row": 4,
+    "rowsha": "MmUr9M2OjGteugEYvsxyvsS9KHxS/CgOjInUyxDrHRs=",
+    "originContent": "[![codecov](https://codecov.io/gh/Valerioageno/ssr-rs/branch/main/graph/badge.svg?token=O0CZIZAR7X)](https://codecov.io/gh/Valerioageno/ssr-rs)",
+    "translatedContent": "[![codecov](https://codecov.io/gh/Valerioageno/ssr-rs/branch/main/graph/badge.svg?token=O0CZIZAR7X)](https://codecov.io/gh/Valerioageno/ssr-rs)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "1gb/ATUoV/8968TXamUifZlVJJriQe+0PP3HMcA37wU=",
+    "originContent": "The crate aims to enable server side rendering on rust servers in the simplest and lightest way possible.",
+    "translatedContent": "El crate tiene como objetivo permitir el renderizado del lado servidor en servidores Rust de la manera más simple y ligera posible."
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "cSab9VQs/1sjlAOGfwYAts/amTwmG1/N8PNirMlcSiQ=",
+    "originContent": "It uses an embedded version of the [V8](https://v8.dev/) javascript engine (<a href=\"https://github.com/denoland/rusty_v8\" target=\"_blank\">rusty_v8</a>) to parse and evaluate a built bundle file and return a string with the rendered html.",
+    "translatedContent": "Utiliza una versión embebida del motor de javascript [V8](https://v8.dev/) (<a href=\"https://github.com/denoland/rusty_v8\" target=\"_blank\">rusty_v8</a>) para analizar y evaluar un archivo bundle construido y devolver una cadena con el html renderizado."
+  },
+  {
+    "row": 9,
+    "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+    "originContent": "> [!NOTE]",
+    "translatedContent": "> [!NOTE]"
+  },
+  {
+    "row": 10,
+    "rowsha": "FjQUu7hN0IEWhQvz0v9D+Vm60LLhfuieaEfK/JPQt04=",
+    "originContent": ">  This project is the backbone of [tuono](https://github.com/Valerioageno/tuono); a fullstack react framework with built in SSR.",
+    "translatedContent": ">  Este proyecto es la columna vertebral de [tuono](https://github.com/Valerioageno/tuono); un framework fullstack React con SSR incorporado."
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "H46EFe/Mq7rag27wpOvrjBx2SsvVolbqLLXtEEmWfWU=",
+    "originContent": "Currently it works with [Vite](https://vitejs.dev/), [Webpack](https://webpack.js.org/), [Rspack](https://www.rspack.dev/), [React 18](https://react.dev/) and [Svelte 5](https://svelte.dev/) - Check the `examples/` folder.",
+    "translatedContent": "Actualmente funciona con [Vite](https://vitejs.dev/), [Webpack](https://webpack.js.org/), [Rspack](https://www.rspack.dev/), [React 18](https://react.dev/) y [Svelte 5](https://svelte.dev/) - Revisa la carpeta `examples/`."
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "Mm3eakJ0GJFmOKJj8eqYMiUVS2VBDKsza9fv90YgTns=",
+    "originContent": "> Check <a href=\"https://github.com/Valerioageno/ssr-rs/blob/main/benches\">here</a> the benchmark results.",
+    "translatedContent": "> Consulta <a href=\"https://github.com/Valerioageno/ssr-rs/blob/main/benches\">aquí</a> los resultados de los benchmarks."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "eetlngBf9IRRYZknBdo+Zo5q71Wk5hbFmnHDAzfrtps=",
+    "originContent": "## Getting started",
+    "translatedContent": "## Comenzando"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "OYbyhUhwmXuItqnUbjlmzKkgDWqBzcmTfoPU2q9plM0=",
+    "originContent": "Add this to your `Cargo.toml`:",
+    "translatedContent": "Agrega esto a tu `Cargo.toml`:"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 21,
+    "rowsha": "m+Voifs+Xh1ewOwVHwvkHg8n799rEY7mWwImyMAIOoQ=",
+    "originContent": "cargo add ssr_rs",
+    "translatedContent": "cargo add ssr_rs"
+  },
+  {
+    "row": 22,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+    "originContent": "## Example",
+    "translatedContent": "## Ejemplo"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "mgqEOGqoxx0VS025+NecWmqntQw1GRllKEaJEd5pobM=",
+    "originContent": "To render to string a bundled react project the application should perform the following",
+    "translatedContent": "Para renderizar a cadena un proyecto de React agrupado, la aplicación debe realizar las siguientes"
+  },
+  {
+    "row": 27,
+    "rowsha": "TfWk20AMZcUZt1Pe4wNOOqvxzJdIFZQPQ0S2JR3HQBw=",
+    "originContent": "calls.",
+    "translatedContent": "llamadas."
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 30,
+    "rowsha": "nKPVyx9zapRjUa8pbk4ZTu8Wvqc+Cp4kAecmQ2aUeq0=",
+    "originContent": "use ssr_rs::Ssr;",
+    "translatedContent": "use ssr_rs::Ssr;"
+  },
+  {
+    "row": 31,
+    "rowsha": "/gQ/UJLJG8w6DWoJ/vo0m52DENpkHLlaQTTDGJDNpVg=",
+    "originContent": "use std::fs::read_to_string;",
+    "translatedContent": "use std::fs::read_to_string;"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "coebvCNPjfi9lAlxF/m6fSZazkMAKTvaJDk8E8Zr3rk=",
+    "originContent": "fn main() {",
+    "translatedContent": "fn main() {"
+  },
+  {
+    "row": 34,
+    "rowsha": "Zvt1yTBMS9Gyln2Vagt42K4714K3nvh9L8cwrzR6BPA=",
+    "originContent": "    Ssr::create_platform();",
+    "translatedContent": "    Ssr::create_platform();"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "bi4EgYpt5ZyOpxYeeLkEvvRffiparkeO4xUapF5wYPE=",
+    "originContent": "    let source = read_to_string(\"./path/to/build.js\").unwrap();",
+    "translatedContent": "    let source = read_to_string(\"./path/to/build.js\").unwrap();"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "ld/DPiu+e8k7Y/P5AVLSzGx2G6m1sonL9oPP8EXpyzg=",
+    "originContent": "    let mut js = Ssr::new(&source, \"entryPoint\").unwrap();",
+    "translatedContent": "    let mut js = Ssr::new(&source, \"entryPoint\").unwrap();"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "3hI9XLIkXiEkvTiFiy/hVZxFT/kmfBxmYXs3IoqNV1A=",
+    "originContent": "    let html = js.render_to_string(None).unwrap();",
+    "translatedContent": "    let html = js.render_to_string(None).unwrap();"
+  },
+  {
+    "row": 41,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 42,
+    "rowsha": "vsVs3f/r3GpklXXFl74MMtXi7EXJQU0lbt6ZXYRLyY8=",
+    "originContent": "    assert_eq!(html, \"<!doctype html><html>...</html>\".to_string());",
+    "translatedContent": "    assert_eq!(html, \"<!doctype html><html>...</html>\".to_string());"
+  },
+  {
+    "row": 43,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 44,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "ykRNqBhNdJqW6Xca/fag+37wRnAn58ymw7qhiG8TA8s=",
+    "originContent": "## What is the \"entryPoint\"?",
+    "translatedContent": "## ¿Qué es el \"entryPoint\"?"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "3EBHObD2oVc7+XO+Y+Pc6IS0EUloZ+wrwOl/UumAGFU=",
+    "originContent": "The `entryPoint` could be either:",
+    "translatedContent": "El `entryPoint` podría ser:"
+  },
+  {
+    "row": 49,
+    "rowsha": "Eg9+k6QNJ14RQumIng9ZjNji0XRuom1ddP2/DcgYf7U=",
+    "originContent": "- the function that returns an object with one or more properties that are functions that when called return the rendered result ",
+    "translatedContent": "- la función que devuelve un objeto con una o más propiedades que son funciones que al ser llamadas devuelven el resultado renderizado"
+  },
+  {
+    "row": 50,
+    "rowsha": "cA+1WixNAMw5w64rVRVxm9X+bb/9RkxrzqQkspMR4wg=",
+    "originContent": "- the object itself with one or more properties that are functions that when called return the rendered result",
+    "translatedContent": "- el objeto en sí mismo con una o más propiedades que son funciones que al ser llamadas devuelven el resultado renderizado"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "QHLoVRiIXGx4173/0krzQtaK2K0e6k50K7Qax11gxtw=",
+    "originContent": "In case the bundled JS is an IIFE or the plain object the `entryPoint` is an empty string.",
+    "translatedContent": "En caso de que el JS empaquetado sea un IIFE o el objeto plano, el `entryPoint` es una cadena vacía."
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+    "originContent": "```javascript",
+    "translatedContent": "```javascript"
+  },
+  {
+    "row": 55,
+    "rowsha": "3cB6u/u+4bnMCmWDGnXpOyZe+T8oS+YROOGRRt5yXXk=",
+    "originContent": "// IIFE example | bundle.js -> See vite-react example",
+    "translatedContent": "// IIFE example | bundle.js -> See vite-react example"
+  },
+  {
+    "row": 56,
+    "rowsha": "vlnVKH2Ep52CB+SYMNSRvk2oFpAIW60EpTdFZ5ZpSI0=",
+    "originContent": "(() => ({ renderToStringFn: (props) => \"<html></html>\" }))() // The entryPoint is an empty string",
+    "translatedContent": "(() => ({ renderToStringFn: (props) => \"<html></html>\" }))() // The entryPoint is an empty string"
+  },
+  {
+    "row": 57,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+    "originContent": "```javascript",
+    "translatedContent": "```javascript"
+  },
+  {
+    "row": 60,
+    "rowsha": "mmXCQhpXm4IPrtQTREk9twqrBgcdp8WqlmKpAFi9wmo=",
+    "originContent": "// Plain object example | bundle.js ",
+    "translatedContent": "// Plain object example | bundle.js "
+  },
+  {
+    "row": 61,
+    "rowsha": "O9SWVFiM6elPxEJujS9x4g9cdwzpajAaaJIXzF2Ip8o=",
+    "originContent": "({renderToStringFn: (props) => \"<html></html>\"}); // The entryPoint is an empty string",
+    "translatedContent": "({renderToStringFn: (props) => \"<html></html>\"}); // The entryPoint is an empty string"
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+    "originContent": "```javascript",
+    "translatedContent": "```javascript"
+  },
+  {
+    "row": 65,
+    "rowsha": "cbqmngaqnvWxWi8a8Sqv+bjScTjcSoZcUWMjtYgSZeI=",
+    "originContent": "// IIFE variable example | bundle.js -> See webpack-react example",
+    "translatedContent": "// IIFE variable example | bundle.js -> See webpack-react example"
+  },
+  {
+    "row": 66,
+    "rowsha": "CxMuLHnvr7I2iRFfUzkNWD/6jKggEAbHfL6zGutnq+U=",
+    "originContent": "var SSR = (() => ({renderToStringFn: (props) => \"<html></html>\"}))() // SSR is the entry point",
+    "translatedContent": "var SSR = (() => ({renderToStringFn: (props) => \"<html></html>\"}))() // SSR is the entry point"
+  },
+  {
+    "row": 67,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+    "originContent": "```javascript",
+    "translatedContent": "```javascript"
+  },
+  {
+    "row": 70,
+    "rowsha": "46uy/ieLnrs9V9u02sS1HFYbhFoeEp8pk63NMn8tEYs=",
+    "originContent": "// Variable example | bundle.js -> See webpack-react example",
+    "translatedContent": "// Variable example | bundle.js -> See webpack-react example"
+  },
+  {
+    "row": 71,
+    "rowsha": "JoPCBgc/Nmn3CwSCb5VO5ktX5/cqSb5M8EFWY1vNMlQ=",
+    "originContent": "var SSR = {renderToStringFn: (props) => \"<html></html>\"}; // SSR is the entry point",
+    "translatedContent": "var SSR = {renderToStringFn: (props) => \"<html></html>\"}; // SSR is the entry point"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "yorELbEw9R6NrTJUJ+NJp4kZJm277IuUMPtoU2gtBDQ=",
+    "originContent": "> The export results are managed by the bundler directly.",
+    "translatedContent": "> Los resultados de la exportación son gestionados directamente por el empaquetador."
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "aGNOi1n6wCCGBdD94MtPQudn9vjaOQ71XRZyxr4zDnQ=",
+    "originContent": "## Example with initial props",
+    "translatedContent": "## Ejemplo con propiedades iniciales"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 79,
+    "rowsha": "nKPVyx9zapRjUa8pbk4ZTu8Wvqc+Cp4kAecmQ2aUeq0=",
+    "originContent": "use ssr_rs::Ssr;",
+    "translatedContent": "use ssr_rs::Ssr;"
+  },
+  {
+    "row": 80,
+    "rowsha": "/gQ/UJLJG8w6DWoJ/vo0m52DENpkHLlaQTTDGJDNpVg=",
+    "originContent": "use std::fs::read_to_string;",
+    "translatedContent": "use std::fs::read_to_string;"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "coebvCNPjfi9lAlxF/m6fSZazkMAKTvaJDk8E8Zr3rk=",
+    "originContent": "fn main() {",
+    "translatedContent": "fn main() {"
+  },
+  {
+    "row": 83,
+    "rowsha": "Zvt1yTBMS9Gyln2Vagt42K4714K3nvh9L8cwrzR6BPA=",
+    "originContent": "    Ssr::create_platform();",
+    "translatedContent": "    Ssr::create_platform();"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "FidC2BaNefto/BhlEbAjpYnEgF9Y18vyCABl9asUCpI=",
+    "originContent": "    let props = r##\"{",
+    "translatedContent": "    let props = r##\"{"
+  },
+  {
+    "row": 86,
+    "rowsha": "MOxkvXb/Emkh8VdB2hXuuQPVpQl1yYxpt/9bGFP8NBs=",
+    "originContent": "        \"params\": [",
+    "translatedContent": "        \"params\": ["
+  },
+  {
+    "row": 87,
+    "rowsha": "PGaPIUxGrKB576fylyyNeer4cdNk9XvPx0p9ef74hfk=",
+    "originContent": "            \"hello\",",
+    "translatedContent": "            \"hello\","
+  },
+  {
+    "row": 88,
+    "rowsha": "5LsppJmz6D7FK9Wd1A25qjog7a8sW5bD66ovIrDlR18=",
+    "originContent": "            \"ciao\",",
+    "translatedContent": "            \"ciao\","
+  },
+  {
+    "row": 89,
+    "rowsha": "3vV1iynBSW8/mQL3UYfwjcpxJEy2szqMtLITQQHyCA8=",
+    "originContent": "            \"こんにちは\"",
+    "translatedContent": "            \"こんにちは\""
+  },
+  {
+    "row": 90,
+    "rowsha": "ygt4igTskIN0u4F3rZtYfYn6Gpy1l8PIjUuWrUd7hP0=",
+    "originContent": "        ]",
+    "translatedContent": "        ]"
+  },
+  {
+    "row": 91,
+    "rowsha": "+xS4R1VaRS6u6jsSSOjEmaWPNYpxJWkhw1qABvO09Kc=",
+    "originContent": "    }\"##;",
+    "translatedContent": "    }\"##;"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "bi4EgYpt5ZyOpxYeeLkEvvRffiparkeO4xUapF5wYPE=",
+    "originContent": "    let source = read_to_string(\"./path/to/build.js\").unwrap();",
+    "translatedContent": "    let source = read_to_string(\"./path/to/build.js\").unwrap();"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "ld/DPiu+e8k7Y/P5AVLSzGx2G6m1sonL9oPP8EXpyzg=",
+    "originContent": "    let mut js = Ssr::new(&source, \"entryPoint\").unwrap();",
+    "translatedContent": "    let mut js = Ssr::new(&source, \"entryPoint\").unwrap();"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "he1n/Ie4nJp+WwILb7X9doBJ6AwqFIMMOU4s7j7axxQ=",
+    "originContent": "    let html = js.render_to_string(Some(&props)).unwrap();",
+    "translatedContent": "    let html = js.render_to_string(Some(&props)).unwrap();"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "vsVs3f/r3GpklXXFl74MMtXi7EXJQU0lbt6ZXYRLyY8=",
+    "originContent": "    assert_eq!(html, \"<!doctype html><html>...</html>\".to_string());",
+    "translatedContent": "    assert_eq!(html, \"<!doctype html><html>...</html>\".to_string());"
+  },
+  {
+    "row": 100,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 101,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "udQjjztnVgU00wMyE6r9z28nWMxbT0/5Hs7/8n8UMY0=",
+    "originContent": "## Example with actix-web",
+    "translatedContent": "## Ejemplo con actix-web"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "Jn8XNADRMlVlZs5Rxo6K1dMV2vA6MyZxvuj1917+HSo=",
+    "originContent": "> Examples with different web frameworks are available in the <a href=\"https://github.com/Valerioageno/ssr-rs/blob/main/examples\" target=\"_blank\">examples</a> folder.",
+    "translatedContent": "> Ejemplos con diferentes frameworks web están disponibles en la carpeta <a href=\"https://github.com/Valerioageno/ssr-rs/blob/main/examples\" target=\"_blank\">examples</a>."
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "0JjDQKB5/6yBFpsN+weWmYKR8zOgcg+m9yvj/3E850Q=",
+    "originContent": "Even though the V8 engine allows accessing the same `isolate` from different threads that is forbidden by this crate for two reasons:",
+    "translatedContent": "Aunque el motor V8 permite acceder al mismo `isolate` desde diferentes hilos, esto está prohibido por este crate por dos razones:"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "RHJTqK8fWxyPeHtZfv8CPk5LmdAX0HenYbHQOwVv0D4=",
+    "originContent": "1. rusty_v8 library have not implemented yet the V8 Locker API. Accessing Ssr struct from a different thread will make the V8 engine to panic.",
+    "translatedContent": "1. La librería rusty_v8 aún no ha implementado la API V8 Locker. Acceder a la estructura Ssr desde un hilo diferente hará que el motor V8 genere un panic."
+  },
+  {
+    "row": 110,
+    "rowsha": "Nc/i3tpXyvaE7FTI2ZtnhfXhrMWCGU6t0UFdHtKIuCo=",
+    "originContent": "2. Rendering HTML does not need shared state across threads.",
+    "translatedContent": "2. Renderizar HTML no necesita estado compartido entre hilos."
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "3bWqhSnqCgkNFhmliXnZuEueHFiJRJjAUH4xBb8Stvk=",
+    "originContent": "For the reasons above parallel computation is a better choice. Following actix-web setup:",
+    "translatedContent": "Por las razones anteriores, el cálculo paralelo es una mejor opción. A continuación la configuración de actix-web:"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 115,
+    "rowsha": "RrXlazZVfjgXDiWMeWafpPYiJdkLCmvpcVsq7yAMYAQ=",
+    "originContent": "use actix_web::{get, http::StatusCode, App, HttpResponse, HttpServer};",
+    "translatedContent": "use actix_web::{get, http::StatusCode, App, HttpResponse, HttpServer};"
+  },
+  {
+    "row": 116,
+    "rowsha": "yRD5WSeom1PJVKXhT2BGTF48G4Zi+B1Zs8t8dtXcN4s=",
+    "originContent": "use std::cell::RefCell;",
+    "translatedContent": "use std::cell::RefCell;"
+  },
+  {
+    "row": 117,
+    "rowsha": "/gQ/UJLJG8w6DWoJ/vo0m52DENpkHLlaQTTDGJDNpVg=",
+    "originContent": "use std::fs::read_to_string;",
+    "translatedContent": "use std::fs::read_to_string;"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "nKPVyx9zapRjUa8pbk4ZTu8Wvqc+Cp4kAecmQ2aUeq0=",
+    "originContent": "use ssr_rs::Ssr;",
+    "translatedContent": "use ssr_rs::Ssr;"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "B4bxfc1tpHAJ+4YAnIxTMCI99CdrHJdIGoD3ue4hUSw=",
+    "originContent": "thread_local! {",
+    "translatedContent": "thread_local! {"
+  },
+  {
+    "row": 122,
+    "rowsha": "BR5N1v0+X+HGcrsIx5aKqGLZvBwu7Q1n7bhclsPw4sk=",
+    "originContent": "    static SSR: RefCell<Ssr<'static, 'static>> = RefCell::new(",
+    "translatedContent": "    static SSR: RefCell<Ssr<'static, 'static>> = RefCell::new("
+  },
+  {
+    "row": 123,
+    "rowsha": "bCeZwZPDK38J8JjtH/Ph5keRNfBomBqQqUDP5qfiqGI=",
+    "originContent": "            Ssr::from(",
+    "translatedContent": "            Ssr::from("
+  },
+  {
+    "row": 124,
+    "rowsha": "DQJvyxTDtSpGJSr6AliPxpi4DNu0jNyWBjMbiH7HvtU=",
+    "originContent": "                read_to_string(\"./client/dist/ssr/index.js\").unwrap(),",
+    "translatedContent": "                read_to_string(\"./client/dist/ssr/index.js\").unwrap(),"
+  },
+  {
+    "row": 125,
+    "rowsha": "njGf4+5ErH0wjpcXwDe2GphWm3jpUNXvH0Z7qrTOb/A=",
+    "originContent": "                \"SSR\"",
+    "translatedContent": "                \"SSR\""
+  },
+  {
+    "row": 126,
+    "rowsha": "XcnzFjr5FRmjgGO+w8YSlfjrWkXbfvxKiZku16m4eSs=",
+    "originContent": "                ).unwrap()",
+    "translatedContent": "                ).unwrap()"
+  },
+  {
+    "row": 127,
+    "rowsha": "jOhom+QiNwmL4CEFQXIhET9s+tla6/bQMr9KqE8jNuY=",
+    "originContent": "            )",
+    "translatedContent": "            )"
+  },
+  {
+    "row": 128,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "MXBRnyrjby+76D675OtOAceWRZ6bGduJ594U8cgll9Y=",
+    "originContent": "#[actix_web::main]",
+    "translatedContent": "#[actix_web::main]"
+  },
+  {
+    "row": 131,
+    "rowsha": "JRamBPJVkKqiKuz9QDLd1a5Sw+1ZYda7lh0kokPf9Mw=",
+    "originContent": "async fn main() -> std::io::Result<()> {",
+    "translatedContent": "async fn main() -> std::io::Result<()> {"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "Zvt1yTBMS9Gyln2Vagt42K4714K3nvh9L8cwrzR6BPA=",
+    "originContent": "    Ssr::create_platform();",
+    "translatedContent": "    Ssr::create_platform();"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "swSQDEgLADb/+JoGwwKEvCE5Tuxvn+SmWYIWg+A0Wcs=",
+    "originContent": "    HttpServer::new(|| {",
+    "translatedContent": "    HttpServer::new(|| {"
+  },
+  {
+    "row": 136,
+    "rowsha": "UNGo6W2yek5S05cbwJLahI+28fj3uh/HwGrGog/kNTY=",
+    "originContent": "        App::new()",
+    "translatedContent": "        App::new()"
+  },
+  {
+    "row": 137,
+    "rowsha": "W4QkWsTFWyZcTzsMerI2fXsJULfTfs5G++MzBsucVCw=",
+    "originContent": "            .service(index)",
+    "translatedContent": "            .service(index)"
+  },
+  {
+    "row": 138,
+    "rowsha": "odBdVYeaD6cbal1IjtFl4g+1UKhbjDBNurRPY9Ce3gA=",
+    "originContent": "    })",
+    "translatedContent": "    })"
+  },
+  {
+    "row": 139,
+    "rowsha": "GQ3LJgKGudHlMjj+V99KMGY8EMnaebrGtEpWzqGwcxY=",
+    "originContent": "    .bind(\"127.0.0.1:8080\")?",
+    "translatedContent": "    .bind(\"127.0.0.1:8080\")?"
+  },
+  {
+    "row": 140,
+    "rowsha": "pAWzUxAQx+YCrcZc6AiDHYmAwH4A12a9z4iJdBrQdEw=",
+    "originContent": "    .run()",
+    "translatedContent": "    .run()"
+  },
+  {
+    "row": 141,
+    "rowsha": "iEGUMde0v6HRwZGLXzWYMpgVIz6GOUFl/01K+YDW+mk=",
+    "originContent": "    .await",
+    "translatedContent": "    .await"
+  },
+  {
+    "row": 142,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "JHlO6mQDfOGTl4+ZvK8tnwswGUfTKim/z8wtf30Nk6w=",
+    "originContent": "#[get(\"/\")]",
+    "translatedContent": "#[get(\"/\")]"
+  },
+  {
+    "row": 145,
+    "rowsha": "iF/jpuCdU3JugamEG+OlZgpxGjsipvG8lHNrWLkPqxU=",
+    "originContent": "async fn index() -> HttpResponse {",
+    "translatedContent": "async fn index() -> HttpResponse {"
+  },
+  {
+    "row": 146,
+    "rowsha": "I5jC3RUem95wVKLzq7hvvq3bv3ZRbx5aBFsK40HiaZA=",
+    "originContent": "    let result = SSR.with(|ssr| ssr.borrow_mut().render_to_string(None).unwrap());",
+    "translatedContent": "    let result = SSR.with(|ssr| ssr.borrow_mut().render_to_string(None).unwrap());"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "59Dy4fns6dtuzAwwklUxWbh8i7vPAUWWOratCfWoPCg=",
+    "originContent": "    HttpResponse::build(StatusCode::OK)",
+    "translatedContent": "    HttpResponse::build(StatusCode::OK)"
+  },
+  {
+    "row": 149,
+    "rowsha": "i/VaqUKLMvqbWvhHgaQX0not3bTrLrEJDv6lgX7OefE=",
+    "originContent": "        .content_type(\"text/html; charset=utf-8\")",
+    "translatedContent": "        .content_type(\"text/html; charset=utf-8\")"
+  },
+  {
+    "row": 150,
+    "rowsha": "u4ewGagRJbgqRQGyggbb2xCIZZsUrRVZhtfDN9FKTHQ=",
+    "originContent": "        .body(result)",
+    "translatedContent": "        .body(result)"
+  },
+  {
+    "row": 151,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 152,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## Contribuyendo"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "21vy/vxxLVDy88ebqjuR3FzR1hFRtpJY6wZ1v+pxn3Q=",
+    "originContent": "Any helps or suggestions will be appreciated.",
+    "translatedContent": "Cualquier ayuda o sugerencia será apreciada."
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "mEAZ0PNoHfGVldsWD/P0yhIGVJgd0A9UebqqGPVA8GQ=",
+    "originContent": "Known TODOs: ",
+    "translatedContent": "TODOs conocidos: "
+  },
+  {
+    "row": 159,
+    "rowsha": "DsWbtFH4GLZL7QYkkxzr6GyOcl7jPPhaOqHabmpFnmk=",
+    "originContent": "- Add examples with other rust backend frameworks",
+    "translatedContent": "- Añadir ejemplos con otros frameworks backend de rust"
+  },
+  {
+    "row": 160,
+    "rowsha": "B9Uwr5/KAkfETHcwo4x7/SPxkFtT5g3i4AMITBBNq7U=",
+    "originContent": "- Add examples with other frontend frameworks (i.e. vue, quik, solid)",
+    "translatedContent": "- Añadir ejemplos con otros frameworks frontend (p.ej. vue, quik, solid)"
+  },
+  {
+    "row": 161,
+    "rowsha": "ohZLq1Jg9gJhJPXYqj16A1PqEXNmjxc4JDFOzlZNSK4=",
+    "originContent": "- Add benchmark setup to test against Deno and Bun",
+    "translatedContent": "- Añadir configuración de benchmark para comparar con Deno y Bun"
+  },
+  {
+    "row": 162,
+    "rowsha": "CUSYXog54ydZy/tTR9liqXEMy4YQs6bKI/La+2ynvgs=",
+    "originContent": "- Explore support for V8 snapshots",
+    "translatedContent": "- Explorar soporte para snapshots de V8"
+  },
+  {
+    "row": 163,
+    "rowsha": "a97qDqSbFTsRnYHr722w5LD1YzwRgRDklJS7+fYjkkU=",
+    "originContent": "- Explore js copilation to WASM (i.e. [javy](https://github.com/bytecodealliance/javy))",
+    "translatedContent": "- Explorar compilación js a WASM (p.ej. [javy](https://github.com/bytecodealliance/javy))"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## Licencia"
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "FkKg+uMVtOHFDPBtzgMwBp2TkM9aN6zILP2qrXGf+3k=",
+    "originContent": "This project is licensed under the MIT License - see the <a href=\"https://github.com/Valerioageno/ssr-rs/blob/main/LICENSE_MIT\">LICENSE_MIT</a> || <a href=\"https://github.com/Valerioageno/ssr-rs/blob/main/LICENSE_APACHE\">LICENSE_APACHE</a> file for more information.",
+    "translatedContent": "Este proyecto está licenciado bajo la Licencia MIT - ver el archivo <a href=\"https://github.com/Valerioageno/ssr-rs/blob/main/LICENSE_MIT\">LICENSE_MIT</a> || <a href=\"https://github.com/Valerioageno/ssr-rs/blob/main/LICENSE_APACHE\">LICENSE_APACHE</a> para más información."
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 172,
+    "rowsha": "83IwyB8BMxVonn0kO0eOGj/0o/cyXOXvxQqaAYpeQIU=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/Valerioageno/ssr-rs/main/logo.png\">",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Valerioageno/ssr-rs/main/logo.png\">"
+  },
+  {
+    "row": 173,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
