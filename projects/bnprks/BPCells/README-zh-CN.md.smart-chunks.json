@@ -1,0 +1,788 @@
+[
+  {
+    "Id": 1,
+    "Content": "# BPCells\n\nBPCells is a package for high performance single cell analysis of large RNA-seq and ATAC-seq datasets. \nIt can run normalization and PCA of a 1.3M cell dataset in 4 minutes with 2GB of RAM, or create scATAC-seq peak matrices from fragment coordinates with 50x less CPU time than ArchR or SnapATAC2. \nBPCells can even handle the full CELLxGENE census human dataset, running full precision PCA on a 44M cell x 60k gene matrix in 6 hours on a laptop or <1 hour on a server. See our [benchmarks page](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html) for details.\n\nBPCells provides:\n\n  - Efficient storage of single cell datasets via bitpacking compression\n  - Fast, disk-backed RNA-seq and ATAC-seq data processing powered by C++\n  - Downstream analysis such as marker genes, and clustering\n  - Interoperability with AnnData, 10x datasets, R sparse matrices, and GRanges\n  - Demonstrated scalability to 44M cells on a laptop\n\nAdditionally, BPCells exposes its optimized data processing infrastructure for use in scaling 3rd party single cell tools (e.g. Seurat)\n\n## [Learn more at our website](https://bnprks.github.io/BPCells/)\n\n- [BioRxiv preprint](https://www.biorxiv.org/content/10.1101/2025.03.27.645853v1)\n- [Python docs](https://bnprks.github.io/BPCells/python/index.html)\n- [Benchmarks](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html)\n- [Multiomic analysis example](https://bnprks.github.io/BPCells/articles/pbmc3k.html)\n- [How BPCells works](https://bnprks.github.io/BPCells/articles/web-only/how-it-works.html)\n- [Additional articles](https://bnprks.github.io/BPCells/articles/index.html)\n- [Function documentation](https://bnprks.github.io/BPCells/reference/index.html)\n- [News](https://bnprks.github.io/BPCells/news/index.html)\n\n## R Installation\nWe recommend installing BPCells directly from github:\n",
+    "ContentSha": "akUCvnySYuphQTuBK+JmU+14DhXzqeckPVC+jPHAd7E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# BPCells\n\nBPCells 是一个用于大规模 RNA-seq 和 ATAC-seq 数据集的高性能单细胞分析软件包。  \n它可以在 2GB 内存下用 4 分钟时间完成 130 万细胞数据集的归一化和 PCA，或从片段坐标创建 scATAC-seq 峰矩阵，CPU 时间比 ArchR 或 SnapATAC2 少 50 倍。  \nBPCells 甚至能够处理完整的 CELLxGENE 人类普查数据集，在笔记本电脑上对 4400 万细胞 x 6 万基因矩阵运行全精度 PCA 只需 6 小时，或在服务器上少于 1 小时。详情请见我们的[基准测试页面](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html)。\n\nBPCells 提供：\n\n  - 通过位打包压缩高效存储单细胞数据集  \n  - 由 C++ 支持的快速、磁盘支持的 RNA-seq 和 ATAC-seq 数据处理  \n  - 下游分析，如标记基因和聚类  \n  - 与 AnnData、10x 数据集、R 稀疏矩阵和 GRanges 的互操作性  \n  - 已展示可扩展至 4400 万细胞的能力，运行于笔记本电脑  \n\n此外，BPCells 还开放其优化的数据处理架构，用于扩展第三方单细胞工具（如 Seurat）\n\n## [在我们的网站了解更多](https://bnprks.github.io/BPCells/)\n\n- [BioRxiv 预印本](https://www.biorxiv.org/content/10.1101/2025.03.27.645853v1)  \n- [Python 文档](https://bnprks.github.io/BPCells/python/index.html)  \n- [基准测试](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html)  \n- [多组学分析示例](https://bnprks.github.io/BPCells/articles/pbmc3k.html)  \n- [BPCells 工作原理](https://bnprks.github.io/BPCells/articles/web-only/how-it-works.html)  \n- [更多文章](https://bnprks.github.io/BPCells/articles/index.html)  \n- [函数文档](https://bnprks.github.io/BPCells/reference/index.html)  \n- [新闻](https://bnprks.github.io/BPCells/news/index.html)  \n\n## R 安装  \n我们建议直接从 github 安装 BPCells：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "sZUA5ZgXHUdmbUnUMvFDKLl84URe4ArUnLEAf0u0Eqc=",
+        "originContent": "# BPCells",
+        "translatedContent": "# BPCells"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "kZ86uJCR90bz7Bf81jtnasr+40BYv446w171qeA/60g=",
+        "originContent": "BPCells is a package for high performance single cell analysis of large RNA-seq and ATAC-seq datasets. ",
+        "translatedContent": "BPCells 是一个用于大规模 RNA-seq 和 ATAC-seq 数据集的高性能单细胞分析软件包。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "nANNUm3audk+7P5OQaCBUFVgippovyzO0Cebcn6kXFU=",
+        "originContent": "It can run normalization and PCA of a 1.3M cell dataset in 4 minutes with 2GB of RAM, or create scATAC-seq peak matrices from fragment coordinates with 50x less CPU time than ArchR or SnapATAC2. ",
+        "translatedContent": "它可以在 2GB 内存下用 4 分钟时间完成 130 万细胞数据集的归一化和 PCA，或从片段坐标创建 scATAC-seq 峰矩阵，CPU 时间比 ArchR 或 SnapATAC2 少 50 倍。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "bgefqLUsgOhmrVyNIdevDJ2EInUA3wMA4ORZU2qVJE0=",
+        "originContent": "BPCells can even handle the full CELLxGENE census human dataset, running full precision PCA on a 44M cell x 60k gene matrix in 6 hours on a laptop or <1 hour on a server. See our [benchmarks page](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html) for details.",
+        "translatedContent": "BPCells 甚至能够处理完整的 CELLxGENE 人类普查数据集，在笔记本电脑上对 4400 万细胞 x 6 万基因矩阵运行全精度 PCA 只需 6 小时，或在服务器上少于 1 小时。详情请见我们的[基准测试页面](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html)。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "x8gI4DTkAsmtcUR5OhJpY8tIv5aSYhmRx5Ol0A7ZCrQ=",
+        "originContent": "BPCells provides:",
+        "translatedContent": "BPCells 提供："
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "3HtIXSbzFxCzugxgSEriUtsCwJOo3meUQ2m9TcZIsh0=",
+        "originContent": "  - Efficient storage of single cell datasets via bitpacking compression",
+        "translatedContent": "  - 通过位打包压缩高效存储单细胞数据集  "
+      },
+      {
+        "row": 10,
+        "rowsha": "iAudVe52TQ0nEzIAm4fbSzNZ6I8nRi+s5cfN+/KwI8A=",
+        "originContent": "  - Fast, disk-backed RNA-seq and ATAC-seq data processing powered by C++",
+        "translatedContent": "  - 由 C++ 支持的快速、磁盘支持的 RNA-seq 和 ATAC-seq 数据处理  "
+      },
+      {
+        "row": 11,
+        "rowsha": "am3E9KA5Fpt5yldrG4hN3cEF2BvvzjAwQA5ajWWdW0o=",
+        "originContent": "  - Downstream analysis such as marker genes, and clustering",
+        "translatedContent": "  - 下游分析，如标记基因和聚类  "
+      },
+      {
+        "row": 12,
+        "rowsha": "L6p9/Q6vVHJN0gBHNbxLeTbsPWIlFURsEOcKCL/AGO0=",
+        "originContent": "  - Interoperability with AnnData, 10x datasets, R sparse matrices, and GRanges",
+        "translatedContent": "  - 与 AnnData、10x 数据集、R 稀疏矩阵和 GRanges 的互操作性  "
+      },
+      {
+        "row": 13,
+        "rowsha": "CWLd76KDF/qrtkYOJFrPMm7MDbEJk8Q4FtfIJTxYqYQ=",
+        "originContent": "  - Demonstrated scalability to 44M cells on a laptop",
+        "translatedContent": "  - 已展示可扩展至 4400 万细胞的能力，运行于笔记本电脑  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "OxBpHRYiCTEHhDCa4JSWqPLxeZB0Ow4XgNW3LmlQ0ho=",
+        "originContent": "Additionally, BPCells exposes its optimized data processing infrastructure for use in scaling 3rd party single cell tools (e.g. Seurat)",
+        "translatedContent": "此外，BPCells 还开放其优化的数据处理架构，用于扩展第三方单细胞工具（如 Seurat）"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "NoP6P8pvK3OAsBvMpOru1e4ho7TnhAn2SYn8+5A1Yzg=",
+        "originContent": "## [Learn more at our website](https://bnprks.github.io/BPCells/)",
+        "translatedContent": "## [在我们的网站了解更多](https://bnprks.github.io/BPCells/)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "t9x5Qcgp6wAly0kMyRXEroG5lD1X/k2HLtFFrsQWlXY=",
+        "originContent": "- [BioRxiv preprint](https://www.biorxiv.org/content/10.1101/2025.03.27.645853v1)",
+        "translatedContent": "- [BioRxiv 预印本](https://www.biorxiv.org/content/10.1101/2025.03.27.645853v1)  "
+      },
+      {
+        "row": 20,
+        "rowsha": "Uiv6ZSv8Us4aCreF5NHWt8aAYoQA5Ixg+61JdN2kQZ8=",
+        "originContent": "- [Python docs](https://bnprks.github.io/BPCells/python/index.html)",
+        "translatedContent": "- [Python 文档](https://bnprks.github.io/BPCells/python/index.html)  "
+      },
+      {
+        "row": 21,
+        "rowsha": "MeVVuHGpULTXWiz5NbvChNXRt2DiaXXDHDQTqdMu7CY=",
+        "originContent": "- [Benchmarks](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html)",
+        "translatedContent": "- [基准测试](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html)  "
+      },
+      {
+        "row": 22,
+        "rowsha": "RHRKGHv6iV2EAWZpkZmoTZ4JkqffczVXYCbXPeWhgZg=",
+        "originContent": "- [Multiomic analysis example](https://bnprks.github.io/BPCells/articles/pbmc3k.html)",
+        "translatedContent": "- [多组学分析示例](https://bnprks.github.io/BPCells/articles/pbmc3k.html)  "
+      },
+      {
+        "row": 23,
+        "rowsha": "ZPLYtIuxS+P0Y37ImLa3XqwS+Yyfy9XQIArOLUjHCic=",
+        "originContent": "- [How BPCells works](https://bnprks.github.io/BPCells/articles/web-only/how-it-works.html)",
+        "translatedContent": "- [BPCells 工作原理](https://bnprks.github.io/BPCells/articles/web-only/how-it-works.html)  "
+      },
+      {
+        "row": 24,
+        "rowsha": "MOHkEYeSxjT5WgNju/NvBC296UAozZ/8YDQaHMFGCf4=",
+        "originContent": "- [Additional articles](https://bnprks.github.io/BPCells/articles/index.html)",
+        "translatedContent": "- [更多文章](https://bnprks.github.io/BPCells/articles/index.html)  "
+      },
+      {
+        "row": 25,
+        "rowsha": "ek+m0YmcRcwRWF2YshurX0Li6pnJ08QM1vWfl+lLNL4=",
+        "originContent": "- [Function documentation](https://bnprks.github.io/BPCells/reference/index.html)",
+        "translatedContent": "- [函数文档](https://bnprks.github.io/BPCells/reference/index.html)  "
+      },
+      {
+        "row": 26,
+        "rowsha": "I2bdv6weNmH8g1muSWHjWLXUT84mthTD/PlAJgoGml8=",
+        "originContent": "- [News](https://bnprks.github.io/BPCells/news/index.html)",
+        "translatedContent": "- [新闻](https://bnprks.github.io/BPCells/news/index.html)  "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "pHJGU6Ilsp2w23lkQTqvmfniP0e71Bltiwjw5IgnrgI=",
+        "originContent": "## R Installation",
+        "translatedContent": "## R 安装  "
+      },
+      {
+        "row": 29,
+        "rowsha": "y7bBrFzT0ajEx144eY3rtoUV5AEMHQwGrDhde2Gqz58=",
+        "originContent": "We recommend installing BPCells directly from github:",
+        "translatedContent": "我们建议直接从 github 安装 BPCells："
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```R\nremotes::install_github(\"bnprks/BPCells/r\")\n```",
+    "ContentSha": "OjR6z9pFWB6ASBDKHRAWs0mJU9BOjD+L3oMKnVeORrQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```R\nremotes::install_github(\"bnprks/BPCells/r\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "lnKoaw7R0HpUbokf+OEjr7V0NmQMKAosCjkENPjAIW4=",
+        "originContent": "```R",
+        "translatedContent": "```R"
+      },
+      {
+        "row": 2,
+        "rowsha": "nPrfHoWyoso+7v6gakBdkRJYLg/BZ4Np7hynuYH26NA=",
+        "originContent": "remotes::install_github(\"bnprks/BPCells/r\")",
+        "translatedContent": "remotes::install_github(\"bnprks/BPCells/r\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "Before installing, you must have the HDF5 library installed and accessible on your system.\nHDF5 can be installed from your choice of package manager. See operating system specific instructions below.\n\n\nFor Mac and Windows users having trouble installing from github, check our [R-universe](https://bnprks.r-universe.dev/BPCells)\npage for instructions to install pre-built binary packages. These binary packages automatically track the latest github main branch.\n\nBPCells is available via conda thanks to [@mfansler](https://github.com/mfansler) from the Conda Forge R team (see [issue #241](https://github.com/bnprks/BPCells/issues/241) for details).\nAny issues with the bioconda package should be reported at [bioconda-recipes](https://github.com/bioconda/bioconda-recipes/). Version updates are managed by the bioconda team.\n\n<details>\n<summary>Click here for operating system specific installation information for github-based installs</summary>\n<div>\n\n### Linux\nObtaining the HDF5 dependency is usually pretty straightforward on Linux\n\n- apt: `sudo apt-get install libhdf5-dev` \n- yum: `sudo yum install hdf5-devel`\n- conda: `conda install -c conda-forge hdf5` \n  - Note: Linux users should prefer their distro's package manager (e.g. `apt` or `yum`) when possible,\n    as it appears to give a slightly more reliable installation experience.\n\n### Windows\nCompiling R packages from source on Windows requires installing [R tools for Windows](https://cran.r-project.org/bin/windows/Rtools/). See [Issue #9](https://github.com/bnprks/BPCells/issues/9) for more discussion.\n\n### MacOS\nFor MacOS, installing HDF5 through homebrew seems to be most reliable: `brew install hdf5`.\n\n**Mac-specific troubleshooting**:\n\n- **Macs with ARM CPUs**: a common error is to have an ARM-based HDF5 install but an x86-based \n  R install. This will cause errors when BPCells tries to access HDF5 during installation. \n    - Check your R installation\n  by running `sessionInfo()`, and seeing if it lists ARM or x86 under \"Platform\". \n    - The easiest option is to use\n  ARM R because homebrew will default to an ARM hdf5 installation\n    - It is [possible](https://codetinkering.com/switch-homebrew-arm-x86/) (though tricky) to install an x86 copy of homebrew in order to access an x86 version of hdf5\n- **Older Macs (10.14 Mojave or older)**: The default compiler on old Macs does not support needed\n  C++17 filesystem features. See [issue #3](https://github.com/bnprks/BPCells/issues/3#issuecomment-1375238635) for",
+    "ContentSha": "wKCt2dWw4DGfkw6FSkhnR/FCWwSBrKu89yS9xGM61q4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "安装前，您必须已在系统上安装并可访问HDF5库。  \nHDF5可以通过您选择的软件包管理器安装。请参阅以下针对操作系统的具体说明。  \n\n对于在github安装时遇到问题的Mac和Windows用户，请查看我们的[R-universe](https://bnprks.r-universe.dev/BPCells)  \n页面，了解安装预编译二进制包的说明。这些二进制包会自动跟踪最新的github主分支。  \n\n感谢Conda Forge R团队的[@mfansler](https://github.com/mfansler)，BPCells可通过conda安装（详见[issue #241](https://github.com/bnprks/BPCells/issues/241)）。  \n任何关于bioconda包的问题应在[bioconda-recipes](https://github.com/bioconda/bioconda-recipes/)报告。版本更新由bioconda团队管理。  \n\n<details>  \n<summary>点击这里查看基于github安装的操作系统具体安装信息</summary>  \n<div>  \n\n### Linux  \n在Linux上获取HDF5依赖通常相当简单  \n\n- apt: `sudo apt-get install libhdf5-dev`  \n- yum: `sudo yum install hdf5-devel`  \n- conda: `conda install -c conda-forge hdf5`  \n  - 注意：Linux用户应尽可能优先使用其发行版的软件包管理器（如`apt`或`yum`），  \n    因为这通常能提供更稳定的安装体验。  \n\n### Windows  \n在Windows上从源代码编译R包需要安装[R tools for Windows](https://cran.r-project.org/bin/windows/Rtools/)。  \n详情请见[Issue #9](https://github.com/bnprks/BPCells/issues/9)。  \n\n### MacOS  \n对于MacOS，通过homebrew安装HDF5似乎最为可靠：`brew install hdf5`。  \n\n**Mac特定故障排除**：  \n\n- **ARM架构Mac**：常见错误是安装了ARM版HDF5，但R是x86版本。  \n  这会导致BPCells在安装时访问HDF5出错。  \n    - 通过运行`sessionInfo()`检查R安装，查看“Platform”下显示的是ARM还是x86。  \n    - 最简单的方案是使用ARM版R，因为homebrew默认安装ARM版hdf5。  \n    - 也[可以](https://codetinkering.com/switch-homebrew-arm-x86/)（虽然较复杂）安装x86版本的homebrew以访问x86版hdf5。  \n- **旧Mac（10.14 Mojave或更早版本）**：旧Mac默认编译器不支持所需的  \n  C++17文件系统特性。详见[issue #3](https://github.com/bnprks/BPCells/issues/3#issuecomment-1375238635)。  \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/YKLg4pTBJZO9A7/aKs2me0/rzFNQTd7r3s63QDvsTc=",
+        "originContent": "Before installing, you must have the HDF5 library installed and accessible on your system.",
+        "translatedContent": "安装前，您必须已在系统上安装并可访问HDF5库。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "CalB5SfwtZ1iU4z/nAa5zalTzPmCAHkigAqSBY2e6TM=",
+        "originContent": "HDF5 can be installed from your choice of package manager. See operating system specific instructions below.",
+        "translatedContent": "HDF5可以通过您选择的软件包管理器安装。请参阅以下针对操作系统的具体说明。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "对于在github安装时遇到问题的Mac和Windows用户，请查看我们的[R-universe](https://bnprks.r-universe.dev/BPCells)  "
+      },
+      {
+        "row": 5,
+        "rowsha": "fkbd6TpCZV11aUFZijE4e9hQl6dwZVkWPoc9veulPas=",
+        "originContent": "For Mac and Windows users having trouble installing from github, check our [R-universe](https://bnprks.r-universe.dev/BPCells)",
+        "translatedContent": "页面，了解安装预编译二进制包的说明。这些二进制包会自动跟踪最新的github主分支。  "
+      },
+      {
+        "row": 6,
+        "rowsha": "PBqj8y+Sn0uABvQlzd0kw+hC51MWN3VIYRvC/qX1cKQ=",
+        "originContent": "page for instructions to install pre-built binary packages. These binary packages automatically track the latest github main branch.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "感谢Conda Forge R团队的[@mfansler](https://github.com/mfansler)，BPCells可通过conda安装（详见[issue #241](https://github.com/bnprks/BPCells/issues/241)）。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "vMmJ7IT8/XLri/dwszlR7Ql/0CwF/YHPptPJ0PwLdno=",
+        "originContent": "BPCells is available via conda thanks to [@mfansler](https://github.com/mfansler) from the Conda Forge R team (see [issue #241](https://github.com/bnprks/BPCells/issues/241) for details).",
+        "translatedContent": "任何关于bioconda包的问题应在[bioconda-recipes](https://github.com/bioconda/bioconda-recipes/)报告。版本更新由bioconda团队管理。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "S/SycbBXNgZ063ut/g2OA1sWUHUMbvdDSnRM+LNElOc=",
+        "originContent": "Any issues with the bioconda package should be reported at [bioconda-recipes](https://github.com/bioconda/bioconda-recipes/). Version updates are managed by the bioconda team.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>  "
+      },
+      {
+        "row": 11,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary>点击这里查看基于github安装的操作系统具体安装信息</summary>  "
+      },
+      {
+        "row": 12,
+        "rowsha": "/B1FES8bgsPPLsw995W6f6qj/gHNnDEfFlX5VowL4ms=",
+        "originContent": "<summary>Click here for operating system specific installation information for github-based installs</summary>",
+        "translatedContent": "<div>  "
+      },
+      {
+        "row": 13,
+        "rowsha": "nkUn+xN/CzcfeDtOk14RpAo9+3G9PEheeFaPGaNcIe4=",
+        "originContent": "<div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Linux  "
+      },
+      {
+        "row": 15,
+        "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+        "originContent": "### Linux",
+        "translatedContent": "在Linux上获取HDF5依赖通常相当简单  "
+      },
+      {
+        "row": 16,
+        "rowsha": "qNuZ6bLFUNv+dLxEMxaBfFLqjT5y9V18JlO+zdJH1zU=",
+        "originContent": "Obtaining the HDF5 dependency is usually pretty straightforward on Linux",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- apt: `sudo apt-get install libhdf5-dev`  "
+      },
+      {
+        "row": 18,
+        "rowsha": "/jwSuYAkG19UDbh5TdxYFLHqM5ykU9W/gkpQXP2vkzw=",
+        "originContent": "- apt: `sudo apt-get install libhdf5-dev` ",
+        "translatedContent": "- yum: `sudo yum install hdf5-devel`  "
+      },
+      {
+        "row": 19,
+        "rowsha": "rlDCPTaoSt1k630yu64ZjPwMdijDLdR1O50dy+V0mhY=",
+        "originContent": "- yum: `sudo yum install hdf5-devel`",
+        "translatedContent": "- conda: `conda install -c conda-forge hdf5`  "
+      },
+      {
+        "row": 20,
+        "rowsha": "2SkkyXms+yqiFtejIXMnbv16dd4QBplNZnBF5uEBwOY=",
+        "originContent": "- conda: `conda install -c conda-forge hdf5` ",
+        "translatedContent": "  - 注意：Linux用户应尽可能优先使用其发行版的软件包管理器（如`apt`或`yum`），  "
+      },
+      {
+        "row": 21,
+        "rowsha": "5bhBfChbjGShvtTdOzQKUZ2gYcIX6C5W8ToO3gzl6S0=",
+        "originContent": "  - Note: Linux users should prefer their distro's package manager (e.g. `apt` or `yum`) when possible,",
+        "translatedContent": "    因为这通常能提供更稳定的安装体验。  "
+      },
+      {
+        "row": 22,
+        "rowsha": "VDWon7nMyzF9UmRgSCTs07He1OXQOTehAaRbXfW+qYc=",
+        "originContent": "    as it appears to give a slightly more reliable installation experience.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Windows  "
+      },
+      {
+        "row": 24,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": "在Windows上从源代码编译R包需要安装[R tools for Windows](https://cran.r-project.org/bin/windows/Rtools/)。  "
+      },
+      {
+        "row": 25,
+        "rowsha": "VZt5UEKuOE+G8oEOq8ewT/W9AORJwR0f85abQFXxCSc=",
+        "originContent": "Compiling R packages from source on Windows requires installing [R tools for Windows](https://cran.r-project.org/bin/windows/Rtools/). See [Issue #9](https://github.com/bnprks/BPCells/issues/9) for more discussion.",
+        "translatedContent": "详情请见[Issue #9](https://github.com/bnprks/BPCells/issues/9)。  "
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "nq8KEHkzOMJou3NH13rsOf/yk5aAJ3vdSNZYTT/rdk0=",
+        "originContent": "### MacOS",
+        "translatedContent": "### MacOS  "
+      },
+      {
+        "row": 28,
+        "rowsha": "IRjWnxPyZzawL/ztXkvcqUbyMHmmondWWsnxAK8LsZQ=",
+        "originContent": "For MacOS, installing HDF5 through homebrew seems to be most reliable: `brew install hdf5`.",
+        "translatedContent": "对于MacOS，通过homebrew安装HDF5似乎最为可靠：`brew install hdf5`。  "
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "PUiHN5jHVEwLsKSmu6jfK9MwMcZZnTEn+QHDGyDFHmw=",
+        "originContent": "**Mac-specific troubleshooting**:",
+        "translatedContent": "**Mac特定故障排除**：  "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "gz0UfiZbrRBMXyqRcAV53CvdSTVZji+Cq0epJ3hV24g=",
+        "originContent": "- **Macs with ARM CPUs**: a common error is to have an ARM-based HDF5 install but an x86-based ",
+        "translatedContent": "- **ARM架构Mac**：常见错误是安装了ARM版HDF5，但R是x86版本。  "
+      },
+      {
+        "row": 33,
+        "rowsha": "EOWdkSdue857ZgCmRwMFll8sUGYnm7qCdL6BwzeXaDo=",
+        "originContent": "  R install. This will cause errors when BPCells tries to access HDF5 during installation. ",
+        "translatedContent": "  这会导致BPCells在安装时访问HDF5出错。  "
+      },
+      {
+        "row": 34,
+        "rowsha": "WttELLRrBGDOuqK+f3OxH1+dCrV9C92FwIiI3+fB4IA=",
+        "originContent": "    - Check your R installation",
+        "translatedContent": "    - 通过运行`sessionInfo()`检查R安装，查看“Platform”下显示的是ARM还是x86。  "
+      },
+      {
+        "row": 35,
+        "rowsha": "kLlHkyI2q3Be+PL1Ut0bZbsBFYqZKLl/S31FeHAiuQw=",
+        "originContent": "  by running `sessionInfo()`, and seeing if it lists ARM or x86 under \"Platform\". ",
+        "translatedContent": "    - 最简单的方案是使用ARM版R，因为homebrew默认安装ARM版hdf5。  "
+      },
+      {
+        "row": 36,
+        "rowsha": "n7YI2XKYL0o4RFF0AeIwCM/lU3pQ1aZv0NIzke7CEMQ=",
+        "originContent": "    - The easiest option is to use",
+        "translatedContent": "    - 也[可以](https://codetinkering.com/switch-homebrew-arm-x86/)（虽然较复杂）安装x86版本的homebrew以访问x86版hdf5。  "
+      },
+      {
+        "row": 37,
+        "rowsha": "a6m96PJKPwP/z03NmHMo7YQfon3mCtP8oL+nyNbbyYk=",
+        "originContent": "  ARM R because homebrew will default to an ARM hdf5 installation",
+        "translatedContent": "- **旧Mac（10.14 Mojave或更早版本）**：旧Mac默认编译器不支持所需的  "
+      },
+      {
+        "row": 38,
+        "rowsha": "DAFYTkPjeaX9+ze48FMGr7Y3tcQBcbi+5EgnhvUK510=",
+        "originContent": "    - It is [possible](https://codetinkering.com/switch-homebrew-arm-x86/) (though tricky) to install an x86 copy of homebrew in order to access an x86 version of hdf5",
+        "translatedContent": "  C++17文件系统特性。详见[issue #3](https://github.com/bnprks/BPCells/issues/3#issuecomment-1375238635)。  "
+      },
+      {
+        "row": 39,
+        "rowsha": "zphPQ94xeUVEBnsL8AXWeb8t0pC/Tjo2Yk8rrTfj5W8=",
+        "originContent": "- **Older Macs (10.14 Mojave or older)**: The default compiler on old Macs does not support needed",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "9dRDxEi/nGNif5sckJvPtPWBqvTBWl7DUES9nstfp9I=",
+        "originContent": "  C++17 filesystem features. See [issue #3](https://github.com/bnprks/BPCells/issues/3#issuecomment-1375238635) for",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "  tips getting a newer compiler set up via homebrew.\n\n### Supported compilers\nIn most cases, you will already have an appropriate compiler. BPCells recommends\ngcc >=9.1, or clang >= 9.0. \nThis corresponds to versions from late-2018 and newer. \nOlder versions may work in some cases so long as they\nhave basic C++17 support, but they are not officially supported.\n\n</div>\n</details>\n<details>\n<summary>Click here for troubleshooting information for github-based installs</summary>\n\n### General Installation troubleshooting\nBPCells tries to print informative error messages during compilation to help diagnose the problem. For a more\nverbose set of information, run `Sys.setenv(BPCELLS_DEBUG_INSTALL=\"true\")` prior to `remotes::install_github(\"bnprks/BPCells/r\")`. If you still can't solve the issue with that additional information, feel free to file a Github issue, being\nsure to use a [collapsible section](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections) for the verbose installation log.\n\n</details>\n\n## Python Installation\n\nBPCells can be directly installed via pip:\n",
+    "ContentSha": "JO+zr9a7RhWDfOSbtPu5MRzfduKJIEtUkLcVfRNSsuQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  通过 homebrew 设置更新编译器的提示。\n\n### 支持的编译器\n在大多数情况下，您已经拥有合适的编译器。BPCells 推荐\ngcc >=9.1，或 clang >= 9.0。\n这对应于 2018 年末及以后的版本。\n旧版本在某些情况下可能可用，只要它们\n支持基本的 C++17，但官方不支持。\n\n</div>\n</details>\n<details>\n<summary>点击此处查看基于 Github 安装的故障排除信息</summary>\n\n### 一般安装故障排除\nBPCells 会在编译过程中尝试打印有用的错误信息以帮助诊断问题。若需更\n详细的信息，请在执行 `remotes::install_github(\"bnprks/BPCells/r\")` 之前运行 `Sys.setenv(BPCELLS_DEBUG_INSTALL=\"true\")`。如果在获得这些附加信息后仍无法解决问题，欢迎提交 Github 问题，并务必使用[可折叠章节](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections) 来附加详细的安装日志。\n\n</details>\n\n## Python 安装\n\nBPCells 可以直接通过 pip 安装：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Zp+fWYnpxYCfNEZAtTqOT5NP4ym2hNQ0vwSZ7mhvV/c=",
+        "originContent": "  tips getting a newer compiler set up via homebrew.",
+        "translatedContent": "  通过 homebrew 设置更新编译器的提示。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "YWqtBSnlH00Z4Y6vJqSJVpXO2BYWRbAQB8p49K4A7p4=",
+        "originContent": "### Supported compilers",
+        "translatedContent": "### 支持的编译器"
+      },
+      {
+        "row": 4,
+        "rowsha": "hpxSLFk1dOnAuaAHLH6gPvAgurzN4USTW5RIIrCKHYA=",
+        "originContent": "In most cases, you will already have an appropriate compiler. BPCells recommends",
+        "translatedContent": "在大多数情况下，您已经拥有合适的编译器。BPCells 推荐"
+      },
+      {
+        "row": 5,
+        "rowsha": "T4Vk2W44hpJZaET+/YWibazSjhjYZUo/G3bTyOenXY8=",
+        "originContent": "gcc >=9.1, or clang >= 9.0. ",
+        "translatedContent": "gcc >=9.1，或 clang >= 9.0。"
+      },
+      {
+        "row": 6,
+        "rowsha": "W7ENmzlDseLzGNVBNjG4V8badTKffTil42RqMW0M1O8=",
+        "originContent": "This corresponds to versions from late-2018 and newer. ",
+        "translatedContent": "这对应于 2018 年末及以后的版本。"
+      },
+      {
+        "row": 7,
+        "rowsha": "hP5dPgxh+ww3cz91clcaM9SPdhhBRtR1UzFvZqWiWKA=",
+        "originContent": "Older versions may work in some cases so long as they",
+        "translatedContent": "旧版本在某些情况下可能可用，只要它们"
+      },
+      {
+        "row": 8,
+        "rowsha": "LDT4UOs95BsdU0ji52s9rQtmAjnEiyTwtQR/02AF4Yk=",
+        "originContent": "have basic C++17 support, but they are not officially supported.",
+        "translatedContent": "支持基本的 C++17，但官方不支持。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 11,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 12,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 13,
+        "rowsha": "ihLEkhTu7EuQxCTvg2FyNZ71Hx5fx6i4OL5pOkoD5Wg=",
+        "originContent": "<summary>Click here for troubleshooting information for github-based installs</summary>",
+        "translatedContent": "<summary>点击此处查看基于 Github 安装的故障排除信息</summary>"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "iVbVtfoRTwuKpOweuGiEtO0WtTEME3GGuLq/j/XRVIg=",
+        "originContent": "### General Installation troubleshooting",
+        "translatedContent": "### 一般安装故障排除"
+      },
+      {
+        "row": 16,
+        "rowsha": "oQU3Br5jOaaR0nh0Hevfsq2cYta4jARijBFC6V2K4LA=",
+        "originContent": "BPCells tries to print informative error messages during compilation to help diagnose the problem. For a more",
+        "translatedContent": "BPCells 会在编译过程中尝试打印有用的错误信息以帮助诊断问题。若需更"
+      },
+      {
+        "row": 17,
+        "rowsha": "NSNdDGajILXh79TIvOqFPJUQQY4BmgaCakFfi8ywlHQ=",
+        "originContent": "verbose set of information, run `Sys.setenv(BPCELLS_DEBUG_INSTALL=\"true\")` prior to `remotes::install_github(\"bnprks/BPCells/r\")`. If you still can't solve the issue with that additional information, feel free to file a Github issue, being",
+        "translatedContent": "详细的信息，请在执行 `remotes::install_github(\"bnprks/BPCells/r\")` 之前运行 `Sys.setenv(BPCELLS_DEBUG_INSTALL=\"true\")`。如果在获得这些附加信息后仍无法解决问题，欢迎提交 Github 问题，并务必使用[可折叠章节](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections) 来附加详细的安装日志。"
+      },
+      {
+        "row": 18,
+        "rowsha": "/Qzdkcn2tnBNPRwm/5f303i8znh7NJqTbijxH0tB5uM=",
+        "originContent": "sure to use a [collapsible section](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections) for the verbose installation log.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 20,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Python 安装"
+      },
+      {
+        "row": 22,
+        "rowsha": "IOcnMge6wYFkLPp8rh16z9mGLoN51db3zKNgD346Y0c=",
+        "originContent": "## Python Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "BPCells 可以直接通过 pip 安装："
+      },
+      {
+        "row": 24,
+        "rowsha": "Uq0sKEuNWp+XSUxCEupCoISCB+Fd4rdnMtC+8dlvzCs=",
+        "originContent": "BPCells can be directly installed via pip:",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```shell\npython -m pip install bpcells\n```",
+    "ContentSha": "/N32P2gN+AfarvkYfniboL271zksu4hyrKtmBeBLFEs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\npython -m pip install bpcells\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "8yfBIhSPBskXM5Jn+6SsKvP6tvgRtRNGP4vfqCGlNeM=",
+        "originContent": "python -m pip install bpcells",
+        "translatedContent": "python -m pip install bpcells"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n## Contributing\nBPCells is an open source project, and we welcome quality contributions. If you\nare interested in contributing and have experience with C++, along with Python\nor R, feel free to reach out with ideas you would like to implement yourself.\nWe're happy to provide pointers for how to get started, time permitting.\n\nIf you are unfamiliar with C++ it will be difficult for you to contribute code,\nbut detailed bug reports with\n[reproducible examples](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html)\nare still a great way to help out. Github issues are the best forum for this.\n\nIf you maintain a single cell analysis package and want to use BPCells to\nimprove your scalability, we're happy to provide advice. We have had a couple of labs\ntry this so far, with promising success. Email is the best way to get in touch\nfor this (look in the `DESCRIPTION` file on github for contact info). Python\ndevelopers welcome, though the current python package is still in experimental status.",
+    "ContentSha": "iwjKO9uSr1XBbs1kjeucEZDJwDTbanRsXB1nucoSwPQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 贡献\nBPCells 是一个开源项目，我们欢迎高质量的贡献。如果您  \n有兴趣贡献，并且具备 C++ 以及 Python 或 R 的经验，欢迎  \n随时联系我们，分享您想要实现的想法。时间允许的话，我们  \n很乐意为您提供入门指导。  \n\n如果您不熟悉 C++，贡献代码可能比较困难，  \n但提供带有  \n[可复现示例](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html)  \n的详细错误报告仍然是很好的帮助方式。Github 问题区是  \n报告这类问题的最佳论坛。  \n\n如果您维护单细胞分析包，想利用 BPCells  \n提升可扩展性，我们乐意提供建议。到目前为止，已有  \n几个实验室尝试过，取得了可喜的成功。通过电子邮件是  \n联系的最佳方式（可在 github 的 `DESCRIPTION` 文件中找到联系方式）。  \n欢迎 Python 开发者，虽然当前的 Python 包仍处于实验阶段。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 贡献"
+      },
+      {
+        "row": 2,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "BPCells 是一个开源项目，我们欢迎高质量的贡献。如果您  "
+      },
+      {
+        "row": 3,
+        "rowsha": "FWp7gEUUmitHkCdAbwukx+yShpsdBTiYlcI0E+tPfVI=",
+        "originContent": "BPCells is an open source project, and we welcome quality contributions. If you",
+        "translatedContent": "有兴趣贡献，并且具备 C++ 以及 Python 或 R 的经验，欢迎  "
+      },
+      {
+        "row": 4,
+        "rowsha": "gGBOUickXRuM/2IVyhnlnnrXuVq5EcHVv2VFMhxmliA=",
+        "originContent": "are interested in contributing and have experience with C++, along with Python",
+        "translatedContent": "随时联系我们，分享您想要实现的想法。时间允许的话，我们  "
+      },
+      {
+        "row": 5,
+        "rowsha": "vZ4VozDL37tnQm8l4QkbBlQpADeauHHUxxpJjozJkLk=",
+        "originContent": "or R, feel free to reach out with ideas you would like to implement yourself.",
+        "translatedContent": "很乐意为您提供入门指导。  "
+      },
+      {
+        "row": 6,
+        "rowsha": "4DgRw6wprdeOW2PziOv588rol4lPyhwOvujljb3FW8I=",
+        "originContent": "We're happy to provide pointers for how to get started, time permitting.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果您不熟悉 C++，贡献代码可能比较困难，  "
+      },
+      {
+        "row": 8,
+        "rowsha": "APe/gmDU96avIDlLHSwfZPw46xVB/56DU2GXRoD0Evk=",
+        "originContent": "If you are unfamiliar with C++ it will be difficult for you to contribute code,",
+        "translatedContent": "但提供带有  "
+      },
+      {
+        "row": 9,
+        "rowsha": "9h5+hGTg7vIP4FuI2Um+hitSqlg8qd1tPHxL/V0hhKI=",
+        "originContent": "but detailed bug reports with",
+        "translatedContent": "[可复现示例](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html)  "
+      },
+      {
+        "row": 10,
+        "rowsha": "Zp3mh8g7D7KFVOm6pxwEUR+sRYi4MdMbcba/8Jeozmg=",
+        "originContent": "[reproducible examples](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html)",
+        "translatedContent": "的详细错误报告仍然是很好的帮助方式。Github 问题区是  "
+      },
+      {
+        "row": 11,
+        "rowsha": "tyvuas8dOkBoCJ4byC2zBBugkDWMwfK4kcQ8+3HvxMI=",
+        "originContent": "are still a great way to help out. Github issues are the best forum for this.",
+        "translatedContent": "报告这类问题的最佳论坛。  "
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "DKo8uxNlsERrgf03Ax3PTMj33oZulCs+HZlbORQ3mZY=",
+        "originContent": "If you maintain a single cell analysis package and want to use BPCells to",
+        "translatedContent": "如果您维护单细胞分析包，想利用 BPCells  "
+      },
+      {
+        "row": 14,
+        "rowsha": "mN6LawqO4kzC5WI2rXlg7mjuLpW25jKMS9UJVZYCz+E=",
+        "originContent": "improve your scalability, we're happy to provide advice. We have had a couple of labs",
+        "translatedContent": "提升可扩展性，我们乐意提供建议。到目前为止，已有  "
+      },
+      {
+        "row": 15,
+        "rowsha": "teIg4tZMw2rD9OA8+JV5Tloy8Er/4jAdCIIzICev9pc=",
+        "originContent": "try this so far, with promising success. Email is the best way to get in touch",
+        "translatedContent": "几个实验室尝试过，取得了可喜的成功。通过电子邮件是  "
+      },
+      {
+        "row": 16,
+        "rowsha": "ywC6+4buyT+BgBn4EMhzsdq7wGond8BaKr0A14sux8A=",
+        "originContent": "for this (look in the `DESCRIPTION` file on github for contact info). Python",
+        "translatedContent": "联系的最佳方式（可在 github 的 `DESCRIPTION` 文件中找到联系方式）。  "
+      },
+      {
+        "row": 17,
+        "rowsha": "8jd5064YBhz+lMQy1NHJjM1enrhwAWQ6TYQtxftBYBs=",
+        "originContent": "developers welcome, though the current python package is still in experimental status.",
+        "translatedContent": "欢迎 Python 开发者，虽然当前的 Python 包仍处于实验阶段。"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "row": 1,
+    "rowsha": "wBMH2B+IY93V20Xe0foNXDTzuwvLnBtaGJvgWe+01ag=",
+    "originContent": "# OpenTelemetry-Go gqlgen Instrumentation",
+    "translatedContent": "# OpenTelemetry-Go gqlgen インストルメンテーション"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "U6OZG4gfKHf1t6wdlZEqUtFgIGX/AdKfv/VJD0yEKig=",
+    "originContent": "[![ci](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml)",
+    "translatedContent": "[![ci](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml)"
+  },
+  {
+    "row": 4,
+    "rowsha": "AG1wpmdoL+1IG9Pz8EySmaq8RP9Wc5nycEuL7xY4g1c=",
+    "originContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/ravilushqa/otelgqlgen)](https://goreportcard.com/report/github.com/ravilushqa/otelgqlgen)",
+    "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/ravilushqa/otelgqlgen)](https://goreportcard.com/report/github.com/ravilushqa/otelgqlgen)"
+  },
+  {
+    "row": 5,
+    "rowsha": "yIXdC1c96+Rx4hh7ovYplY9j170RlZxQOsAGvL87uDk=",
+    "originContent": "[![codecov](https://codecov.io/gh/ravilushqa/otelgqlgen/branch/main/graph/badge.svg?token=4LXALH3K72)](https://codecov.io/gh/ravilushqa/otelgqlgen)",
+    "translatedContent": "[![codecov](https://codecov.io/gh/ravilushqa/otelgqlgen/branch/main/graph/badge.svg?token=4LXALH3K72)](https://codecov.io/gh/ravilushqa/otelgqlgen)"
+  },
+  {
+    "row": 6,
+    "rowsha": "+kacZLOc8l6WisWHI3hCeDr27JNKwElQddL3ojrKgfc=",
+    "originContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/ravilushqa/otelgqlgen.svg)](https://pkg.go.dev/github.com/ravilushqa/otelgqlgen)",
+    "translatedContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/ravilushqa/otelgqlgen.svg)](https://pkg.go.dev/github.com/ravilushqa/otelgqlgen)"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "ob+Aan942CKw3o9ylSmyf96X5qENNZpWinWQbSYMUo0=",
+    "originContent": "It is an OpenTelemetry instrumentation for Golang 99designs/gqlgen, a port from https://github.com/open-telemetry/opentelemetry-go-contrib/pull/761.",
+    "translatedContent": "これはGolang 99designs/gqlgen向けのOpenTelemetryインストルメンテーションであり、https://github.com/open-telemetry/opentelemetry-go-contrib/pull/761 からの移植版です。"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "CTNSwcy9AJbpTgLB4jl6lDWUYEZIFd1ua1i1e7BfmhI=",
+    "originContent": "It can only instrument traces for the present.",
+    "translatedContent": "現時点ではトレースのみをインストルメントできます。"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "hoa34o+4AySJVwAFEF7Mie0zaMkgaJ60tz5PGl51xYs=",
+    "originContent": "To install the otelgqlgen package, use the following command:",
+    "translatedContent": "otelgqlgenパッケージをインストールするには、以下のコマンドを使用してください:"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 17,
+    "rowsha": "J+tLSkILZPcmOsonM0OYYatnegGdxIiSsujwENwcPFI=",
+    "originContent": "go get github.com/ravilushqa/otelgqlgen",
+    "translatedContent": "go get github.com/ravilushqa/otelgqlgen"
+  },
+  {
+    "row": 18,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "lF4IJcl67Htj1qpDG3B7zyJL60xlMzTINxV7BcM/vM4=",
+    "originContent": "Below is a basic example of how to use otelgqlgen:",
+    "translatedContent": "以下はotelgqlgenの基本的な使用例です："
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+    "originContent": "```go",
+    "translatedContent": "```go"
+  },
+  {
+    "row": 25,
+    "rowsha": "UShDhV/MkqUcgQsbWOBzHAHqyaaiPBV7+gKq1x7f++c=",
+    "originContent": "package main",
+    "translatedContent": "package main"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "0NrstaoCAUE7YHmPS6R4dGEAwhf7+jXw9blKepsV2RQ=",
+    "originContent": "import (",
+    "translatedContent": "import ("
+  },
+  {
+    "row": 28,
+    "rowsha": "NqGoRsHaJ42vbGdaFLQ1yXz3d9EsE4l61WhGmacKhH0=",
+    "originContent": "    \"github.com/99designs/gqlgen/graphql/handler\"",
+    "translatedContent": "    \"github.com/99designs/gqlgen/graphql/handler\""
+  },
+  {
+    "row": 29,
+    "rowsha": "eDOG85Y8A5T0joKqiH0GhQVNiAJDhOEuef1AXU8hZu0=",
+    "originContent": "    \"github.com/ravilushqa/otelgqlgen\"",
+    "translatedContent": "    \"github.com/ravilushqa/otelgqlgen\""
+  },
+  {
+    "row": 30,
+    "rowsha": "l6MhlS3ysxRNgHQmADla2u+YYsouD2YrmveCl+iVDos=",
+    "originContent": "    \"github.com/myorg/mygqlgenapi/graph\"",
+    "translatedContent": "    \"github.com/myorg/mygqlgenapi/graph\""
+  },
+  {
+    "row": 31,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "477XskFGOI6HtL1vgLCndqbEY9HpnF/1YFeYnaoIPXA=",
+    "originContent": "func main() {",
+    "translatedContent": "func main() {"
+  },
+  {
+    "row": 34,
+    "rowsha": "/L7CsvjC4xta5Xm+DlmLi7RYHWk5/HNz3RwKyPvDLco=",
+    "originContent": "    srv := handler.NewDefaultServer(graph.NewExecutableSchema(graph.Config{Resolvers: &graph.Resolver{}}))",
+    "translatedContent": "    srv := handler.NewDefaultServer(graph.NewExecutableSchema(graph.Config{Resolvers: &graph.Resolver{}}))"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "+Kay/BmPkdR+Dzik1V/AdoIldOpiGVVHDCtlHXGZPCI=",
+    "originContent": "    // Add the otelgqlgen middleware to add OpenTelemetry tracing",
+    "translatedContent": "    // Add the otelgqlgen middleware to add OpenTelemetry tracing"
+  },
+  {
+    "row": 37,
+    "rowsha": "h+X9it6WG6Nmy9jtToaW6hnUdRomxIual0bt1J30LvE=",
+    "originContent": "    srv.Use(otelgqlgen.Middleware())",
+    "translatedContent": "    srv.Use(otelgqlgen.Middleware())"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "tLXWy7FT4udDg16qyODhQY6DWjg/Zq4vHcrk4uLpJYc=",
+    "originContent": "    // Your usual server setup code...",
+    "translatedContent": "    // Your usual server setup code..."
+  },
+  {
+    "row": 40,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 41,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 設定オプション"
+  },
+  {
+    "row": 43,
+    "rowsha": "hexaSrobu5kODfHM3LQ66ZseHR0qg6m9UWjwTgx7UGY=",
+    "originContent": "### Configuration Options",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "otelgqlgen はトレーシングの動作をカスタマイズするためにいくつかのオプションを提供します:"
+  },
+  {
+    "row": 45,
+    "rowsha": "FjvqVQ6zMEt0agbW7vevaEG7R2EhVNzzrl2tzclDM1s=",
+    "originContent": "otelgqlgen provides several options to customize the tracing behavior:",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `WithTracerProvider(provider)`: カスタムのトレーサープロバイダーを指定します。デフォルトではグローバルな OpenTelemetry トレーサープロバイダーが使用されます。"
+  },
+  {
+    "row": 47,
+    "rowsha": "ivwIJo79AIm0RmzWkOd/Zgt+b9iF7MB2XVVua81dpTA=",
+    "originContent": "- `WithTracerProvider(provider)`: Specifies a custom tracer provider. By default, the global OpenTelemetry tracer provider is used.",
+    "translatedContent": "- `WithComplexityExtensionName(name)`: 複雑度拡張機能の名前を指定します。デフォルトでは名前が自動生成されます。"
+  },
+  {
+    "row": 48,
+    "rowsha": "KdzbqS6bqLbhNwGqI/Pv4AH20PAzTzMu5zlVr17iCRY=",
+    "originContent": "- `WithComplexityExtensionName(name)`: Specifies a name for the complexity extension. By default, a name is automatically generated.",
+    "translatedContent": "- `WithRequestVariablesAttributesBuilder(builder)`: リクエスト変数の属性を構築するカスタム関数を指定します。"
+  },
+  {
+    "row": 49,
+    "rowsha": "sW0CeXO/hQC6W8jtv8bTOdmxOsY0OVCfvhsDHIpzKBw=",
+    "originContent": "- `WithRequestVariablesAttributesBuilder(builder)`: Specifies a custom function to build the attributes for the request variables.",
+    "translatedContent": "- `WithoutVariables()`: 変数の属性を無効にします。"
+  },
+  {
+    "row": 50,
+    "rowsha": "dcCnLR1QM+0OlyUA7Jbyk7KUqAIHrP34Fex7kXBh1sE=",
+    "originContent": "- `WithoutVariables()`: Disables the variables attributes.",
+    "translatedContent": "- `WithCreateSpanFromFields(predicate)`: GraphQL コンテキストフィールドに基づいてスパンを作成するかどうかを制御するカスタム関数を指定します。"
+  },
+  {
+    "row": 51,
+    "rowsha": "R0FgHoQLYXQcPCb5AwuNO0HYK+/Uf4LfZWY3IFJ37IY=",
+    "originContent": "- `WithCreateSpanFromFields(predicate)`: Specifies a custom function to control whether a span should be created based on the GraphQL context fields.",
+    "translatedContent": "- `WithInterceptResponseResultHandlerFunc(handler)`: GraphQL のレスポンス結果が返される前にそれを傍受し処理するカスタム関数を指定します。"
+  },
+  {
+    "row": 52,
+    "rowsha": "tcwAOf3rNjF+owvBQ/efueKK0O87GJJHefbQ11JrIBU=",
+    "originContent": "- `WithInterceptResponseResultHandlerFunc(handler)`: Specifies a custom function to intercept and handle GraphQL response results before they are returned.",
+    "translatedContent": "- `WithInterceptFieldsResultHandlerFunc(handler)`: 実行中の GraphQL フィールドレベルの結果やエラーを傍受し処理するカスタム関数を指定します。"
+  },
+  {
+    "row": 53,
+    "rowsha": "AW7OCqNwM0xWzlFPyRVLfEP8+uwxi4vC20AAD//LJEA=",
+    "originContent": "- `WithInterceptFieldsResultHandlerFunc(handler)`: Specifies a custom function to intercept and handle GraphQL field-level results and errors during execution.",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 例"
+  },
+  {
+    "row": 55,
+    "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+    "originContent": "## Example",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[./example](./example) を参照してください。"
+  },
+  {
+    "row": 57,
+    "rowsha": "DiuaITKm/Dfli+IUPdFsoRtG0rhPNDTz9ylVVNaAcqA=",
+    "originContent": "See [./example](./example).",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 互換性"
+  },
+  {
+    "row": 59,
+    "rowsha": "ToF55XSC5N+RkvpW3gy7KfKIb5yrXRpshO7tai3jNdg=",
+    "originContent": "## Compatibility",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このプロジェクトは以下のシステムでテストされています。"
+  },
+  {
+    "row": 61,
+    "rowsha": "iF+3tus02YNFf/GeZIIIGv2D4C9z/YX45nkvoEtCbi4=",
+    "originContent": "This project is tested on the following systems.",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| OS      | Go バージョン | アーキテクチャ |"
+  },
+  {
+    "row": 63,
+    "rowsha": "M/MBel13B72vGQyVl+e7vEXDhlFu50ogk3Grlx3C1ME=",
+    "originContent": "| OS      | Go Version | Architecture |",
+    "translatedContent": "| ------- |------------| ------------ |"
+  },
+  {
+    "row": 64,
+    "rowsha": "dJclsxblWRNBjYT4c6l7EvXBIbeAKJjM5S1CuGuUIcY=",
+    "originContent": "| ------- |------------| ------------ |",
+    "translatedContent": "| Ubuntu  | 1.23       | amd64        |"
+  },
+  {
+    "row": 65,
+    "rowsha": "znb6c9qzG2yCM4u2fPWIx0KEbDGeGAtb8o+dHREIVwE=",
+    "originContent": "| Ubuntu  | 1.23       | amd64        |",
+    "translatedContent": "| Ubuntu  | 1.24       | amd64        |"
+  },
+  {
+    "row": 66,
+    "rowsha": "KRT4/t7H4RMMEB2Py+2m74IKxSjFapFtxPKUKyjtAGQ=",
+    "originContent": "| Ubuntu  | 1.24       | amd64        |",
+    "translatedContent": "| Ubuntu  | 1.23       | 386          |"
+  },
+  {
+    "row": 67,
+    "rowsha": "OS0LBbiMC+0cm47O+y4Ml0joTcqB9iX2eHNkaHWVZnU=",
+    "originContent": "| Ubuntu  | 1.23       | 386          |",
+    "translatedContent": "| Ubuntu  | 1.24       | 386          |"
+  },
+  {
+    "row": 68,
+    "rowsha": "2GQCOnJ56TFLkmHoVieGqJscAr8QBx4bR24v4sSpamo=",
+    "originContent": "| Ubuntu  | 1.24       | 386          |",
+    "translatedContent": "| MacOS   | 1.23       | amd64        |"
+  },
+  {
+    "row": 69,
+    "rowsha": "GlGeGATsrfHFBwbK9CjdFmIwRaqOVX1G/Mi5qetrOBM=",
+    "originContent": "| MacOS   | 1.23       | amd64        |",
+    "translatedContent": "| MacOS   | 1.24       | amd64        |"
+  },
+  {
+    "row": 70,
+    "rowsha": "9BecfTT68tlSJXSQT+U2jr8tdGxUlrpRp3yjBsVYqJ4=",
+    "originContent": "| MacOS   | 1.24       | amd64        |",
+    "translatedContent": "| Windows | 1.23       | amd64        |"
+  },
+  {
+    "row": 71,
+    "rowsha": "0a6rLyvM8fd0LCp/zhvuS4d54Pp0XqBzpmdH3qhfG4I=",
+    "originContent": "| Windows | 1.23       | amd64        |",
+    "translatedContent": "| Windows | 1.24       | amd64        |"
+  },
+  {
+    "row": 72,
+    "rowsha": "Ni9Ni4Rzq5GiaNCNVYZPaF2BzagYsi5IqFuLL1E1XH8=",
+    "originContent": "| Windows | 1.24       | amd64        |",
+    "translatedContent": "| Windows | 1.23       | 386          |"
+  },
+  {
+    "row": 73,
+    "rowsha": "ZcBjmFXKW4qwcOuzBRv27q/ZbLue5/RvRGkIyODUd4A=",
+    "originContent": "| Windows | 1.23       | 386          |",
+    "translatedContent": "| Windows | 1.24       | 386          |"
+  },
+  {
+    "row": 74,
+    "rowsha": "PhIrkgh2Kx2VGBDsNz9qhxmQ6PHWFU+QogjpYwMEOxc=",
+    "originContent": "| Windows | 1.24       | 386          |",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このプロジェクトは他のシステムでも動作するはずですが、現時点ではそれらのシステムに対する互換性保証はありません。"
+  },
+  {
+    "row": 76,
+    "rowsha": "b/Fw236g0S8dlzwZ28OWk1UgE9b5YS6Ahg+/D5SwBEE=",
+    "originContent": "While this project should work for other systems, no compatibility guarantees",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "B4IbdTP8he20+M2u3/VwvC9ZGqERrxqiVG5dpSNEbYI=",
+    "originContent": "are made for those systems currently.",
+    "translatedContent": "本プロジェクトは主要な Go リリースをサポートするために [リリースポリシー](https://golang.org/doc/devel/release#policy) に従っています。"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "cD6u2OiZ7mym/50GVuFFd/K0bbV/lkmrMHJY4tk4+v8=",
+    "originContent": "The project follows the [Release Policy](https://golang.org/doc/devel/release#policy) to support major Go releases.",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
+    "originContent": "## References",
+    "translatedContent": "## 参考文献"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "Xn5cPbY+rFOXXCPHpvF2x6pOkaoCSdiVhJbNXxYfse4=",
+    "originContent": "- [GraphQL](https://graphql.org/)",
+    "translatedContent": "- [GraphQL](https://graphql.org/)"
+  },
+  {
+    "row": 85,
+    "rowsha": "xM2ltd0mYKvBrzjOHhsF231rypkzOr2m6vfn5YD1qro=",
+    "originContent": "- [gqlgen](https://gqlgen.com)",
+    "translatedContent": "- [gqlgen](https://gqlgen.com)"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "L+8PCE6WzIvJC447IHg1uGkyP5YYw+69SjXHGtIjGr4=",
+    "originContent": "This project is licensed under the Apache License, Version 2.0. See the LICENSE file for details.",
+    "translatedContent": "本プロジェクトはApache License, Version 2.0の下でライセンスされています。詳細はLICENSEファイルをご覧ください。"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

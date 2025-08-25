@@ -1,0 +1,788 @@
+[
+  {
+    "Id": 1,
+    "Content": "# BPCells\n\nBPCells is a package for high performance single cell analysis of large RNA-seq and ATAC-seq datasets. \nIt can run normalization and PCA of a 1.3M cell dataset in 4 minutes with 2GB of RAM, or create scATAC-seq peak matrices from fragment coordinates with 50x less CPU time than ArchR or SnapATAC2. \nBPCells can even handle the full CELLxGENE census human dataset, running full precision PCA on a 44M cell x 60k gene matrix in 6 hours on a laptop or <1 hour on a server. See our [benchmarks page](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html) for details.\n\nBPCells provides:\n\n  - Efficient storage of single cell datasets via bitpacking compression\n  - Fast, disk-backed RNA-seq and ATAC-seq data processing powered by C++\n  - Downstream analysis such as marker genes, and clustering\n  - Interoperability with AnnData, 10x datasets, R sparse matrices, and GRanges\n  - Demonstrated scalability to 44M cells on a laptop\n\nAdditionally, BPCells exposes its optimized data processing infrastructure for use in scaling 3rd party single cell tools (e.g. Seurat)\n\n## [Learn more at our website](https://bnprks.github.io/BPCells/)\n\n- [BioRxiv preprint](https://www.biorxiv.org/content/10.1101/2025.03.27.645853v1)\n- [Python docs](https://bnprks.github.io/BPCells/python/index.html)\n- [Benchmarks](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html)\n- [Multiomic analysis example](https://bnprks.github.io/BPCells/articles/pbmc3k.html)\n- [How BPCells works](https://bnprks.github.io/BPCells/articles/web-only/how-it-works.html)\n- [Additional articles](https://bnprks.github.io/BPCells/articles/index.html)\n- [Function documentation](https://bnprks.github.io/BPCells/reference/index.html)\n- [News](https://bnprks.github.io/BPCells/news/index.html)\n\n## R Installation\nWe recommend installing BPCells directly from github:\n",
+    "ContentSha": "akUCvnySYuphQTuBK+JmU+14DhXzqeckPVC+jPHAd7E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# BPCells\n\nBPCells는 대규모 RNA-seq 및 ATAC-seq 데이터셋의 고성능 단일 세포 분석을 위한 패키지입니다.  \n1.3M 세포 데이터셋의 정규화 및 PCA를 2GB RAM으로 4분 내에 실행할 수 있으며, ArchR 또는 SnapATAC2보다 50배 적은 CPU 시간으로 조각 좌표에서 scATAC-seq 피크 행렬을 생성할 수 있습니다.  \nBPCells는 전체 CELLxGENE 인구 조사 인간 데이터셋도 처리할 수 있으며, 44M 세포 x 60k 유전자 행렬에 대해 노트북에서 6시간, 서버에서는 1시간 미만으로 고정밀 PCA를 실행합니다. 자세한 내용은 [벤치마크 페이지](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html)를 참조하세요.\n\nBPCells가 제공하는 기능:\n\n  - 비트패킹 압축을 통한 단일 세포 데이터셋의 효율적 저장  \n  - C++ 기반의 빠르고 디스크 지원 RNA-seq 및 ATAC-seq 데이터 처리  \n  - 마커 유전자 및 클러스터링과 같은 후속 분석  \n  - AnnData, 10x 데이터셋, R 희소 행렬, GRanges와의 상호 운용성  \n  - 노트북에서 44M 세포까지 확장 가능성 입증  \n\n또한, BPCells는 최적화된 데이터 처리 인프라를 노출하여 3자 단일 세포 도구(예: Seurat)의 확장에 활용할 수 있습니다.\n\n## [웹사이트에서 자세히 알아보기](https://bnprks.github.io/BPCells/)\n\n- [BioRxiv 사전출판](https://www.biorxiv.org/content/10.1101/2025.03.27.645853v1)  \n- [Python 문서](https://bnprks.github.io/BPCells/python/index.html)  \n- [벤치마크](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html)  \n- [다중오믹스 분석 예제](https://bnprks.github.io/BPCells/articles/pbmc3k.html)  \n- [BPCells 작동 원리](https://bnprks.github.io/BPCells/articles/web-only/how-it-works.html)  \n- [추가 문서](https://bnprks.github.io/BPCells/articles/index.html)  \n- [함수 문서](https://bnprks.github.io/BPCells/reference/index.html)  \n- [뉴스](https://bnprks.github.io/BPCells/news/index.html)\n\n## R 설치  \nBPCells를 github에서 직접 설치하는 것을 권장합니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "sZUA5ZgXHUdmbUnUMvFDKLl84URe4ArUnLEAf0u0Eqc=",
+        "originContent": "# BPCells",
+        "translatedContent": "# BPCells"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "kZ86uJCR90bz7Bf81jtnasr+40BYv446w171qeA/60g=",
+        "originContent": "BPCells is a package for high performance single cell analysis of large RNA-seq and ATAC-seq datasets. ",
+        "translatedContent": "BPCells는 대규모 RNA-seq 및 ATAC-seq 데이터셋의 고성능 단일 세포 분석을 위한 패키지입니다.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "nANNUm3audk+7P5OQaCBUFVgippovyzO0Cebcn6kXFU=",
+        "originContent": "It can run normalization and PCA of a 1.3M cell dataset in 4 minutes with 2GB of RAM, or create scATAC-seq peak matrices from fragment coordinates with 50x less CPU time than ArchR or SnapATAC2. ",
+        "translatedContent": "1.3M 세포 데이터셋의 정규화 및 PCA를 2GB RAM으로 4분 내에 실행할 수 있으며, ArchR 또는 SnapATAC2보다 50배 적은 CPU 시간으로 조각 좌표에서 scATAC-seq 피크 행렬을 생성할 수 있습니다.  "
+      },
+      {
+        "row": 5,
+        "rowsha": "bgefqLUsgOhmrVyNIdevDJ2EInUA3wMA4ORZU2qVJE0=",
+        "originContent": "BPCells can even handle the full CELLxGENE census human dataset, running full precision PCA on a 44M cell x 60k gene matrix in 6 hours on a laptop or <1 hour on a server. See our [benchmarks page](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html) for details.",
+        "translatedContent": "BPCells는 전체 CELLxGENE 인구 조사 인간 데이터셋도 처리할 수 있으며, 44M 세포 x 60k 유전자 행렬에 대해 노트북에서 6시간, 서버에서는 1시간 미만으로 고정밀 PCA를 실행합니다. 자세한 내용은 [벤치마크 페이지](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html)를 참조하세요."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "x8gI4DTkAsmtcUR5OhJpY8tIv5aSYhmRx5Ol0A7ZCrQ=",
+        "originContent": "BPCells provides:",
+        "translatedContent": "BPCells가 제공하는 기능:"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "3HtIXSbzFxCzugxgSEriUtsCwJOo3meUQ2m9TcZIsh0=",
+        "originContent": "  - Efficient storage of single cell datasets via bitpacking compression",
+        "translatedContent": "  - 비트패킹 압축을 통한 단일 세포 데이터셋의 효율적 저장  "
+      },
+      {
+        "row": 10,
+        "rowsha": "iAudVe52TQ0nEzIAm4fbSzNZ6I8nRi+s5cfN+/KwI8A=",
+        "originContent": "  - Fast, disk-backed RNA-seq and ATAC-seq data processing powered by C++",
+        "translatedContent": "  - C++ 기반의 빠르고 디스크 지원 RNA-seq 및 ATAC-seq 데이터 처리  "
+      },
+      {
+        "row": 11,
+        "rowsha": "am3E9KA5Fpt5yldrG4hN3cEF2BvvzjAwQA5ajWWdW0o=",
+        "originContent": "  - Downstream analysis such as marker genes, and clustering",
+        "translatedContent": "  - 마커 유전자 및 클러스터링과 같은 후속 분석  "
+      },
+      {
+        "row": 12,
+        "rowsha": "L6p9/Q6vVHJN0gBHNbxLeTbsPWIlFURsEOcKCL/AGO0=",
+        "originContent": "  - Interoperability with AnnData, 10x datasets, R sparse matrices, and GRanges",
+        "translatedContent": "  - AnnData, 10x 데이터셋, R 희소 행렬, GRanges와의 상호 운용성  "
+      },
+      {
+        "row": 13,
+        "rowsha": "CWLd76KDF/qrtkYOJFrPMm7MDbEJk8Q4FtfIJTxYqYQ=",
+        "originContent": "  - Demonstrated scalability to 44M cells on a laptop",
+        "translatedContent": "  - 노트북에서 44M 세포까지 확장 가능성 입증  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "OxBpHRYiCTEHhDCa4JSWqPLxeZB0Ow4XgNW3LmlQ0ho=",
+        "originContent": "Additionally, BPCells exposes its optimized data processing infrastructure for use in scaling 3rd party single cell tools (e.g. Seurat)",
+        "translatedContent": "또한, BPCells는 최적화된 데이터 처리 인프라를 노출하여 3자 단일 세포 도구(예: Seurat)의 확장에 활용할 수 있습니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "NoP6P8pvK3OAsBvMpOru1e4ho7TnhAn2SYn8+5A1Yzg=",
+        "originContent": "## [Learn more at our website](https://bnprks.github.io/BPCells/)",
+        "translatedContent": "## [웹사이트에서 자세히 알아보기](https://bnprks.github.io/BPCells/)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "t9x5Qcgp6wAly0kMyRXEroG5lD1X/k2HLtFFrsQWlXY=",
+        "originContent": "- [BioRxiv preprint](https://www.biorxiv.org/content/10.1101/2025.03.27.645853v1)",
+        "translatedContent": "- [BioRxiv 사전출판](https://www.biorxiv.org/content/10.1101/2025.03.27.645853v1)  "
+      },
+      {
+        "row": 20,
+        "rowsha": "Uiv6ZSv8Us4aCreF5NHWt8aAYoQA5Ixg+61JdN2kQZ8=",
+        "originContent": "- [Python docs](https://bnprks.github.io/BPCells/python/index.html)",
+        "translatedContent": "- [Python 문서](https://bnprks.github.io/BPCells/python/index.html)  "
+      },
+      {
+        "row": 21,
+        "rowsha": "MeVVuHGpULTXWiz5NbvChNXRt2DiaXXDHDQTqdMu7CY=",
+        "originContent": "- [Benchmarks](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html)",
+        "translatedContent": "- [벤치마크](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html)  "
+      },
+      {
+        "row": 22,
+        "rowsha": "RHRKGHv6iV2EAWZpkZmoTZ4JkqffczVXYCbXPeWhgZg=",
+        "originContent": "- [Multiomic analysis example](https://bnprks.github.io/BPCells/articles/pbmc3k.html)",
+        "translatedContent": "- [다중오믹스 분석 예제](https://bnprks.github.io/BPCells/articles/pbmc3k.html)  "
+      },
+      {
+        "row": 23,
+        "rowsha": "ZPLYtIuxS+P0Y37ImLa3XqwS+Yyfy9XQIArOLUjHCic=",
+        "originContent": "- [How BPCells works](https://bnprks.github.io/BPCells/articles/web-only/how-it-works.html)",
+        "translatedContent": "- [BPCells 작동 원리](https://bnprks.github.io/BPCells/articles/web-only/how-it-works.html)  "
+      },
+      {
+        "row": 24,
+        "rowsha": "MOHkEYeSxjT5WgNju/NvBC296UAozZ/8YDQaHMFGCf4=",
+        "originContent": "- [Additional articles](https://bnprks.github.io/BPCells/articles/index.html)",
+        "translatedContent": "- [추가 문서](https://bnprks.github.io/BPCells/articles/index.html)  "
+      },
+      {
+        "row": 25,
+        "rowsha": "ek+m0YmcRcwRWF2YshurX0Li6pnJ08QM1vWfl+lLNL4=",
+        "originContent": "- [Function documentation](https://bnprks.github.io/BPCells/reference/index.html)",
+        "translatedContent": "- [함수 문서](https://bnprks.github.io/BPCells/reference/index.html)  "
+      },
+      {
+        "row": 26,
+        "rowsha": "I2bdv6weNmH8g1muSWHjWLXUT84mthTD/PlAJgoGml8=",
+        "originContent": "- [News](https://bnprks.github.io/BPCells/news/index.html)",
+        "translatedContent": "- [뉴스](https://bnprks.github.io/BPCells/news/index.html)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "pHJGU6Ilsp2w23lkQTqvmfniP0e71Bltiwjw5IgnrgI=",
+        "originContent": "## R Installation",
+        "translatedContent": "## R 설치  "
+      },
+      {
+        "row": 29,
+        "rowsha": "y7bBrFzT0ajEx144eY3rtoUV5AEMHQwGrDhde2Gqz58=",
+        "originContent": "We recommend installing BPCells directly from github:",
+        "translatedContent": "BPCells를 github에서 직접 설치하는 것을 권장합니다:"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```R\nremotes::install_github(\"bnprks/BPCells/r\")\n```",
+    "ContentSha": "OjR6z9pFWB6ASBDKHRAWs0mJU9BOjD+L3oMKnVeORrQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```R\nremotes::install_github(\"bnprks/BPCells/r\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "lnKoaw7R0HpUbokf+OEjr7V0NmQMKAosCjkENPjAIW4=",
+        "originContent": "```R",
+        "translatedContent": "```R"
+      },
+      {
+        "row": 2,
+        "rowsha": "nPrfHoWyoso+7v6gakBdkRJYLg/BZ4Np7hynuYH26NA=",
+        "originContent": "remotes::install_github(\"bnprks/BPCells/r\")",
+        "translatedContent": "remotes::install_github(\"bnprks/BPCells/r\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "Before installing, you must have the HDF5 library installed and accessible on your system.\nHDF5 can be installed from your choice of package manager. See operating system specific instructions below.\n\n\nFor Mac and Windows users having trouble installing from github, check our [R-universe](https://bnprks.r-universe.dev/BPCells)\npage for instructions to install pre-built binary packages. These binary packages automatically track the latest github main branch.\n\nBPCells is available via conda thanks to [@mfansler](https://github.com/mfansler) from the Conda Forge R team (see [issue #241](https://github.com/bnprks/BPCells/issues/241) for details).\nAny issues with the bioconda package should be reported at [bioconda-recipes](https://github.com/bioconda/bioconda-recipes/). Version updates are managed by the bioconda team.\n\n<details>\n<summary>Click here for operating system specific installation information for github-based installs</summary>\n<div>\n\n### Linux\nObtaining the HDF5 dependency is usually pretty straightforward on Linux\n\n- apt: `sudo apt-get install libhdf5-dev` \n- yum: `sudo yum install hdf5-devel`\n- conda: `conda install -c conda-forge hdf5` \n  - Note: Linux users should prefer their distro's package manager (e.g. `apt` or `yum`) when possible,\n    as it appears to give a slightly more reliable installation experience.\n\n### Windows\nCompiling R packages from source on Windows requires installing [R tools for Windows](https://cran.r-project.org/bin/windows/Rtools/). See [Issue #9](https://github.com/bnprks/BPCells/issues/9) for more discussion.\n\n### MacOS\nFor MacOS, installing HDF5 through homebrew seems to be most reliable: `brew install hdf5`.\n\n**Mac-specific troubleshooting**:\n\n- **Macs with ARM CPUs**: a common error is to have an ARM-based HDF5 install but an x86-based \n  R install. This will cause errors when BPCells tries to access HDF5 during installation. \n    - Check your R installation\n  by running `sessionInfo()`, and seeing if it lists ARM or x86 under \"Platform\". \n    - The easiest option is to use\n  ARM R because homebrew will default to an ARM hdf5 installation\n    - It is [possible](https://codetinkering.com/switch-homebrew-arm-x86/) (though tricky) to install an x86 copy of homebrew in order to access an x86 version of hdf5\n- **Older Macs (10.14 Mojave or older)**: The default compiler on old Macs does not support needed\n  C++17 filesystem features. See [issue #3](https://github.com/bnprks/BPCells/issues/3#issuecomment-1375238635) for",
+    "ContentSha": "wKCt2dWw4DGfkw6FSkhnR/FCWwSBrKu89yS9xGM61q4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "설치 전에, 시스템에 HDF5 라이브러리가 설치되어 있고 접근 가능해야 합니다.  \nHDF5는 선택한 패키지 관리자를 통해 설치할 수 있습니다. 아래 운영 체제별 지침을 참조하세요.  \n\nMac 및 Windows 사용자가 github에서 설치하는 데 문제가 있는 경우, 사전 빌드된 바이너리 패키지 설치 지침은 [R-universe](https://bnprks.r-universe.dev/BPCells) 페이지를 확인하세요. 이 바이너리 패키지는 자동으로 최신 github 메인 브랜치를 추적합니다.  \n\nBPCells는 Conda Forge R 팀의 [@mfansler](https://github.com/mfansler) 덕분에 conda를 통해 제공됩니다 (자세한 내용은 [이슈 #241](https://github.com/bnprks/BPCells/issues/241) 참조).  \nbioconda 패키지 관련 문제는 [bioconda-recipes](https://github.com/bioconda/bioconda-recipes/)에 보고해야 합니다. 버전 업데이트는 bioconda 팀에서 관리합니다.  \n\n<details>  \n<summary>github 기반 설치에 대한 운영 체제별 설치 정보 보기</summary>  \n<div>  \n\n### Linux  \nLinux에서 HDF5 의존성 확보는 보통 매우 간단합니다.  \n\n- apt: `sudo apt-get install libhdf5-dev`  \n- yum: `sudo yum install hdf5-devel`  \n- conda: `conda install -c conda-forge hdf5`  \n  - 참고: Linux 사용자는 가능하면 배포판의 패키지 관리자(e.g. `apt` 또는 `yum`)를 선호하는 것이 좋으며,  \n    이는 좀 더 안정적인 설치 경험을 제공하는 것으로 보입니다.  \n\n### Windows  \nWindows에서 소스에서 R 패키지를 컴파일하려면 [Windows용 R 도구](https://cran.r-project.org/bin/windows/Rtools/)를 설치해야 합니다. 자세한 논의는 [이슈 #9](https://github.com/bnprks/BPCells/issues/9) 참조.  \n\n### MacOS  \nMacOS의 경우 homebrew를 통한 HDF5 설치가 가장 신뢰할 만합니다: `brew install hdf5`.  \n\n**Mac 전용 문제 해결**:  \n\n- **ARM CPU를 탑재한 Mac**: 흔한 오류는 ARM 기반 HDF5 설치와 x86 기반  \n  R 설치가 혼합되는 것입니다. 이는 BPCells가 설치 중 HDF5에 접근할 때 오류를 일으킵니다.  \n    - `sessionInfo()`를 실행하여 R 설치가 ARM인지 x86인지 \"Platform\"에서 확인하세요.  \n    - 가장 쉬운 방법은 ARM R을 사용하는 것입니다. homebrew는 기본적으로 ARM hdf5 설치를 제공합니다.  \n    - x86 버전의 hdf5에 접근하려면 x86 homebrew를 설치하는 것이 [가능합니다](https://codetinkering.com/switch-homebrew-arm-x86/) (단, 다소 까다롭습니다).  \n- **구형 Mac(10.14 Mojave 또는 이전 버전)**: 구형 Mac의 기본 컴파일러는 필요한  \n  C++17 파일 시스템 기능을 지원하지 않습니다. 자세한 내용은 [이슈 #3](https://github.com/bnprks/BPCells/issues/3#issuecomment-1375238635) 참조.\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/YKLg4pTBJZO9A7/aKs2me0/rzFNQTd7r3s63QDvsTc=",
+        "originContent": "Before installing, you must have the HDF5 library installed and accessible on your system.",
+        "translatedContent": "설치 전에, 시스템에 HDF5 라이브러리가 설치되어 있고 접근 가능해야 합니다.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "CalB5SfwtZ1iU4z/nAa5zalTzPmCAHkigAqSBY2e6TM=",
+        "originContent": "HDF5 can be installed from your choice of package manager. See operating system specific instructions below.",
+        "translatedContent": "HDF5는 선택한 패키지 관리자를 통해 설치할 수 있습니다. 아래 운영 체제별 지침을 참조하세요.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Mac 및 Windows 사용자가 github에서 설치하는 데 문제가 있는 경우, 사전 빌드된 바이너리 패키지 설치 지침은 [R-universe](https://bnprks.r-universe.dev/BPCells) 페이지를 확인하세요. 이 바이너리 패키지는 자동으로 최신 github 메인 브랜치를 추적합니다.  "
+      },
+      {
+        "row": 5,
+        "rowsha": "fkbd6TpCZV11aUFZijE4e9hQl6dwZVkWPoc9veulPas=",
+        "originContent": "For Mac and Windows users having trouble installing from github, check our [R-universe](https://bnprks.r-universe.dev/BPCells)",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "PBqj8y+Sn0uABvQlzd0kw+hC51MWN3VIYRvC/qX1cKQ=",
+        "originContent": "page for instructions to install pre-built binary packages. These binary packages automatically track the latest github main branch.",
+        "translatedContent": "BPCells는 Conda Forge R 팀의 [@mfansler](https://github.com/mfansler) 덕분에 conda를 통해 제공됩니다 (자세한 내용은 [이슈 #241](https://github.com/bnprks/BPCells/issues/241) 참조).  "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "bioconda 패키지 관련 문제는 [bioconda-recipes](https://github.com/bioconda/bioconda-recipes/)에 보고해야 합니다. 버전 업데이트는 bioconda 팀에서 관리합니다.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "vMmJ7IT8/XLri/dwszlR7Ql/0CwF/YHPptPJ0PwLdno=",
+        "originContent": "BPCells is available via conda thanks to [@mfansler](https://github.com/mfansler) from the Conda Forge R team (see [issue #241](https://github.com/bnprks/BPCells/issues/241) for details).",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "S/SycbBXNgZ063ut/g2OA1sWUHUMbvdDSnRM+LNElOc=",
+        "originContent": "Any issues with the bioconda package should be reported at [bioconda-recipes](https://github.com/bioconda/bioconda-recipes/). Version updates are managed by the bioconda team.",
+        "translatedContent": "<details>  "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<summary>github 기반 설치에 대한 운영 체제별 설치 정보 보기</summary>  "
+      },
+      {
+        "row": 11,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<div>  "
+      },
+      {
+        "row": 12,
+        "rowsha": "/B1FES8bgsPPLsw995W6f6qj/gHNnDEfFlX5VowL4ms=",
+        "originContent": "<summary>Click here for operating system specific installation information for github-based installs</summary>",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "nkUn+xN/CzcfeDtOk14RpAo9+3G9PEheeFaPGaNcIe4=",
+        "originContent": "<div>",
+        "translatedContent": "### Linux  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Linux에서 HDF5 의존성 확보는 보통 매우 간단합니다.  "
+      },
+      {
+        "row": 15,
+        "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+        "originContent": "### Linux",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "qNuZ6bLFUNv+dLxEMxaBfFLqjT5y9V18JlO+zdJH1zU=",
+        "originContent": "Obtaining the HDF5 dependency is usually pretty straightforward on Linux",
+        "translatedContent": "- apt: `sudo apt-get install libhdf5-dev`  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- yum: `sudo yum install hdf5-devel`  "
+      },
+      {
+        "row": 18,
+        "rowsha": "/jwSuYAkG19UDbh5TdxYFLHqM5ykU9W/gkpQXP2vkzw=",
+        "originContent": "- apt: `sudo apt-get install libhdf5-dev` ",
+        "translatedContent": "- conda: `conda install -c conda-forge hdf5`  "
+      },
+      {
+        "row": 19,
+        "rowsha": "rlDCPTaoSt1k630yu64ZjPwMdijDLdR1O50dy+V0mhY=",
+        "originContent": "- yum: `sudo yum install hdf5-devel`",
+        "translatedContent": "  - 참고: Linux 사용자는 가능하면 배포판의 패키지 관리자(e.g. `apt` 또는 `yum`)를 선호하는 것이 좋으며,  "
+      },
+      {
+        "row": 20,
+        "rowsha": "2SkkyXms+yqiFtejIXMnbv16dd4QBplNZnBF5uEBwOY=",
+        "originContent": "- conda: `conda install -c conda-forge hdf5` ",
+        "translatedContent": "    이는 좀 더 안정적인 설치 경험을 제공하는 것으로 보입니다.  "
+      },
+      {
+        "row": 21,
+        "rowsha": "5bhBfChbjGShvtTdOzQKUZ2gYcIX6C5W8ToO3gzl6S0=",
+        "originContent": "  - Note: Linux users should prefer their distro's package manager (e.g. `apt` or `yum`) when possible,",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "VDWon7nMyzF9UmRgSCTs07He1OXQOTehAaRbXfW+qYc=",
+        "originContent": "    as it appears to give a slightly more reliable installation experience.",
+        "translatedContent": "### Windows  "
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Windows에서 소스에서 R 패키지를 컴파일하려면 [Windows용 R 도구](https://cran.r-project.org/bin/windows/Rtools/)를 설치해야 합니다. 자세한 논의는 [이슈 #9](https://github.com/bnprks/BPCells/issues/9) 참조.  "
+      },
+      {
+        "row": 24,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "VZt5UEKuOE+G8oEOq8ewT/W9AORJwR0f85abQFXxCSc=",
+        "originContent": "Compiling R packages from source on Windows requires installing [R tools for Windows](https://cran.r-project.org/bin/windows/Rtools/). See [Issue #9](https://github.com/bnprks/BPCells/issues/9) for more discussion.",
+        "translatedContent": "### MacOS  "
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MacOS의 경우 homebrew를 통한 HDF5 설치가 가장 신뢰할 만합니다: `brew install hdf5`.  "
+      },
+      {
+        "row": 27,
+        "rowsha": "nq8KEHkzOMJou3NH13rsOf/yk5aAJ3vdSNZYTT/rdk0=",
+        "originContent": "### MacOS",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "IRjWnxPyZzawL/ztXkvcqUbyMHmmondWWsnxAK8LsZQ=",
+        "originContent": "For MacOS, installing HDF5 through homebrew seems to be most reliable: `brew install hdf5`.",
+        "translatedContent": "**Mac 전용 문제 해결**:  "
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "PUiHN5jHVEwLsKSmu6jfK9MwMcZZnTEn+QHDGyDFHmw=",
+        "originContent": "**Mac-specific troubleshooting**:",
+        "translatedContent": "- **ARM CPU를 탑재한 Mac**: 흔한 오류는 ARM 기반 HDF5 설치와 x86 기반  "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  R 설치가 혼합되는 것입니다. 이는 BPCells가 설치 중 HDF5에 접근할 때 오류를 일으킵니다.  "
+      },
+      {
+        "row": 32,
+        "rowsha": "gz0UfiZbrRBMXyqRcAV53CvdSTVZji+Cq0epJ3hV24g=",
+        "originContent": "- **Macs with ARM CPUs**: a common error is to have an ARM-based HDF5 install but an x86-based ",
+        "translatedContent": "    - `sessionInfo()`를 실행하여 R 설치가 ARM인지 x86인지 \"Platform\"에서 확인하세요.  "
+      },
+      {
+        "row": 33,
+        "rowsha": "EOWdkSdue857ZgCmRwMFll8sUGYnm7qCdL6BwzeXaDo=",
+        "originContent": "  R install. This will cause errors when BPCells tries to access HDF5 during installation. ",
+        "translatedContent": "    - 가장 쉬운 방법은 ARM R을 사용하는 것입니다. homebrew는 기본적으로 ARM hdf5 설치를 제공합니다.  "
+      },
+      {
+        "row": 34,
+        "rowsha": "WttELLRrBGDOuqK+f3OxH1+dCrV9C92FwIiI3+fB4IA=",
+        "originContent": "    - Check your R installation",
+        "translatedContent": "    - x86 버전의 hdf5에 접근하려면 x86 homebrew를 설치하는 것이 [가능합니다](https://codetinkering.com/switch-homebrew-arm-x86/) (단, 다소 까다롭습니다).  "
+      },
+      {
+        "row": 35,
+        "rowsha": "kLlHkyI2q3Be+PL1Ut0bZbsBFYqZKLl/S31FeHAiuQw=",
+        "originContent": "  by running `sessionInfo()`, and seeing if it lists ARM or x86 under \"Platform\". ",
+        "translatedContent": "- **구형 Mac(10.14 Mojave 또는 이전 버전)**: 구형 Mac의 기본 컴파일러는 필요한  "
+      },
+      {
+        "row": 36,
+        "rowsha": "n7YI2XKYL0o4RFF0AeIwCM/lU3pQ1aZv0NIzke7CEMQ=",
+        "originContent": "    - The easiest option is to use",
+        "translatedContent": "  C++17 파일 시스템 기능을 지원하지 않습니다. 자세한 내용은 [이슈 #3](https://github.com/bnprks/BPCells/issues/3#issuecomment-1375238635) 참조."
+      },
+      {
+        "row": 37,
+        "rowsha": "a6m96PJKPwP/z03NmHMo7YQfon3mCtP8oL+nyNbbyYk=",
+        "originContent": "  ARM R because homebrew will default to an ARM hdf5 installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "DAFYTkPjeaX9+ze48FMGr7Y3tcQBcbi+5EgnhvUK510=",
+        "originContent": "    - It is [possible](https://codetinkering.com/switch-homebrew-arm-x86/) (though tricky) to install an x86 copy of homebrew in order to access an x86 version of hdf5",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "zphPQ94xeUVEBnsL8AXWeb8t0pC/Tjo2Yk8rrTfj5W8=",
+        "originContent": "- **Older Macs (10.14 Mojave or older)**: The default compiler on old Macs does not support needed",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "9dRDxEi/nGNif5sckJvPtPWBqvTBWl7DUES9nstfp9I=",
+        "originContent": "  C++17 filesystem features. See [issue #3](https://github.com/bnprks/BPCells/issues/3#issuecomment-1375238635) for",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "  tips getting a newer compiler set up via homebrew.\n\n### Supported compilers\nIn most cases, you will already have an appropriate compiler. BPCells recommends\ngcc >=9.1, or clang >= 9.0. \nThis corresponds to versions from late-2018 and newer. \nOlder versions may work in some cases so long as they\nhave basic C++17 support, but they are not officially supported.\n\n</div>\n</details>\n<details>\n<summary>Click here for troubleshooting information for github-based installs</summary>\n\n### General Installation troubleshooting\nBPCells tries to print informative error messages during compilation to help diagnose the problem. For a more\nverbose set of information, run `Sys.setenv(BPCELLS_DEBUG_INSTALL=\"true\")` prior to `remotes::install_github(\"bnprks/BPCells/r\")`. If you still can't solve the issue with that additional information, feel free to file a Github issue, being\nsure to use a [collapsible section](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections) for the verbose installation log.\n\n</details>\n\n## Python Installation\n\nBPCells can be directly installed via pip:\n",
+    "ContentSha": "JO+zr9a7RhWDfOSbtPu5MRzfduKJIEtUkLcVfRNSsuQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  홈브루를 통해 최신 컴파일러를 설정하는 팁.\n\n### 지원되는 컴파일러\n대부분의 경우, 이미 적절한 컴파일러가 설치되어 있을 것입니다. BPCells는\ngcc >=9.1 또는 clang >= 9.0을 권장합니다.\n이는 2018년 말 이후 버전에 해당합니다.\n기본적인 C++17 지원이 있다면 구버전도 일부 경우에 작동할 수 있지만,\n공식적으로 지원되지는 않습니다.\n\n</div>\n</details>\n<details>\n<summary>GitHub 기반 설치 문제 해결 정보는 여기를 클릭하세요</summary>\n\n### 일반 설치 문제 해결\nBPCells는 컴파일 중 문제 진단에 도움이 되는 유용한 오류 메시지를 출력하려고 합니다. 보다\n자세한 정보를 원한다면, `remotes::install_github(\"bnprks/BPCells/r\")` 실행 전에 `Sys.setenv(BPCELLS_DEBUG_INSTALL=\"true\")`를 실행하세요. 추가 정보로도 문제를 해결하지 못하면, 자세한 설치 로그를 [접을 수 있는 섹션](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections)으로 작성하여 Github 이슈를 등록해 주세요.\n\n</details>\n\n## 파이썬 설치\n\nBPCells는 pip를 통해 직접 설치할 수 있습니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Zp+fWYnpxYCfNEZAtTqOT5NP4ym2hNQ0vwSZ7mhvV/c=",
+        "originContent": "  tips getting a newer compiler set up via homebrew.",
+        "translatedContent": "  홈브루를 통해 최신 컴파일러를 설정하는 팁."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "YWqtBSnlH00Z4Y6vJqSJVpXO2BYWRbAQB8p49K4A7p4=",
+        "originContent": "### Supported compilers",
+        "translatedContent": "### 지원되는 컴파일러"
+      },
+      {
+        "row": 4,
+        "rowsha": "hpxSLFk1dOnAuaAHLH6gPvAgurzN4USTW5RIIrCKHYA=",
+        "originContent": "In most cases, you will already have an appropriate compiler. BPCells recommends",
+        "translatedContent": "대부분의 경우, 이미 적절한 컴파일러가 설치되어 있을 것입니다. BPCells는"
+      },
+      {
+        "row": 5,
+        "rowsha": "T4Vk2W44hpJZaET+/YWibazSjhjYZUo/G3bTyOenXY8=",
+        "originContent": "gcc >=9.1, or clang >= 9.0. ",
+        "translatedContent": "gcc >=9.1 또는 clang >= 9.0을 권장합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "W7ENmzlDseLzGNVBNjG4V8badTKffTil42RqMW0M1O8=",
+        "originContent": "This corresponds to versions from late-2018 and newer. ",
+        "translatedContent": "이는 2018년 말 이후 버전에 해당합니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "hP5dPgxh+ww3cz91clcaM9SPdhhBRtR1UzFvZqWiWKA=",
+        "originContent": "Older versions may work in some cases so long as they",
+        "translatedContent": "기본적인 C++17 지원이 있다면 구버전도 일부 경우에 작동할 수 있지만,"
+      },
+      {
+        "row": 8,
+        "rowsha": "LDT4UOs95BsdU0ji52s9rQtmAjnEiyTwtQR/02AF4Yk=",
+        "originContent": "have basic C++17 support, but they are not officially supported.",
+        "translatedContent": "공식적으로 지원되지는 않습니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 11,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 12,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 13,
+        "rowsha": "ihLEkhTu7EuQxCTvg2FyNZ71Hx5fx6i4OL5pOkoD5Wg=",
+        "originContent": "<summary>Click here for troubleshooting information for github-based installs</summary>",
+        "translatedContent": "<summary>GitHub 기반 설치 문제 해결 정보는 여기를 클릭하세요</summary>"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "iVbVtfoRTwuKpOweuGiEtO0WtTEME3GGuLq/j/XRVIg=",
+        "originContent": "### General Installation troubleshooting",
+        "translatedContent": "### 일반 설치 문제 해결"
+      },
+      {
+        "row": 16,
+        "rowsha": "oQU3Br5jOaaR0nh0Hevfsq2cYta4jARijBFC6V2K4LA=",
+        "originContent": "BPCells tries to print informative error messages during compilation to help diagnose the problem. For a more",
+        "translatedContent": "BPCells는 컴파일 중 문제 진단에 도움이 되는 유용한 오류 메시지를 출력하려고 합니다. 보다"
+      },
+      {
+        "row": 17,
+        "rowsha": "NSNdDGajILXh79TIvOqFPJUQQY4BmgaCakFfi8ywlHQ=",
+        "originContent": "verbose set of information, run `Sys.setenv(BPCELLS_DEBUG_INSTALL=\"true\")` prior to `remotes::install_github(\"bnprks/BPCells/r\")`. If you still can't solve the issue with that additional information, feel free to file a Github issue, being",
+        "translatedContent": "자세한 정보를 원한다면, `remotes::install_github(\"bnprks/BPCells/r\")` 실행 전에 `Sys.setenv(BPCELLS_DEBUG_INSTALL=\"true\")`를 실행하세요. 추가 정보로도 문제를 해결하지 못하면, 자세한 설치 로그를 [접을 수 있는 섹션](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections)으로 작성하여 Github 이슈를 등록해 주세요."
+      },
+      {
+        "row": 18,
+        "rowsha": "/Qzdkcn2tnBNPRwm/5f303i8znh7NJqTbijxH0tB5uM=",
+        "originContent": "sure to use a [collapsible section](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections) for the verbose installation log.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 20,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 파이썬 설치"
+      },
+      {
+        "row": 22,
+        "rowsha": "IOcnMge6wYFkLPp8rh16z9mGLoN51db3zKNgD346Y0c=",
+        "originContent": "## Python Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "BPCells는 pip를 통해 직접 설치할 수 있습니다:"
+      },
+      {
+        "row": 24,
+        "rowsha": "Uq0sKEuNWp+XSUxCEupCoISCB+Fd4rdnMtC+8dlvzCs=",
+        "originContent": "BPCells can be directly installed via pip:",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```shell\npython -m pip install bpcells\n```",
+    "ContentSha": "/N32P2gN+AfarvkYfniboL271zksu4hyrKtmBeBLFEs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\npython -m pip install bpcells\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "8yfBIhSPBskXM5Jn+6SsKvP6tvgRtRNGP4vfqCGlNeM=",
+        "originContent": "python -m pip install bpcells",
+        "translatedContent": "python -m pip install bpcells"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n## Contributing\nBPCells is an open source project, and we welcome quality contributions. If you\nare interested in contributing and have experience with C++, along with Python\nor R, feel free to reach out with ideas you would like to implement yourself.\nWe're happy to provide pointers for how to get started, time permitting.\n\nIf you are unfamiliar with C++ it will be difficult for you to contribute code,\nbut detailed bug reports with\n[reproducible examples](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html)\nare still a great way to help out. Github issues are the best forum for this.\n\nIf you maintain a single cell analysis package and want to use BPCells to\nimprove your scalability, we're happy to provide advice. We have had a couple of labs\ntry this so far, with promising success. Email is the best way to get in touch\nfor this (look in the `DESCRIPTION` file on github for contact info). Python\ndevelopers welcome, though the current python package is still in experimental status.",
+    "ContentSha": "iwjKO9uSr1XBbs1kjeucEZDJwDTbanRsXB1nucoSwPQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 기여하기\nBPCells는 오픈 소스 프로젝트이며, 품질 좋은 기여를 환영합니다. 만약\n기여에 관심이 있고 C++와 함께 Python 또는 R 경험이 있다면,\n직접 구현하고 싶은 아이디어가 있으면 언제든지 연락해 주세요.\n시간이 허락하는 한 시작하는 방법에 대한 조언을 기꺼이 제공해 드립니다.\n\nC++에 익숙하지 않다면 코드를 기여하는 것이 어려울 수 있지만,\n[재현 가능한 예제](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html)를\n포함한 자세한 버그 리포트는 여전히 큰 도움이 됩니다.\nGithub 이슈가 이를 위한 최적의 포럼입니다.\n\n단일 세포 분석 패키지를 유지 관리하며 BPCells를 사용해\n확장성을 향상시키고 싶다면 조언을 기꺼이 제공하겠습니다.\n지금까지 몇몇 연구실에서 시도해 보았으며, 유망한 성공을 거두고 있습니다.\n연락은 이메일이 가장 좋습니다(연락처 정보는 github의 `DESCRIPTION` 파일을 참조하세요).\nPython 개발자도 환영하며, 현재 Python 패키지는 아직 실험 단계입니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 기여하기"
+      },
+      {
+        "row": 2,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "BPCells는 오픈 소스 프로젝트이며, 품질 좋은 기여를 환영합니다. 만약"
+      },
+      {
+        "row": 3,
+        "rowsha": "FWp7gEUUmitHkCdAbwukx+yShpsdBTiYlcI0E+tPfVI=",
+        "originContent": "BPCells is an open source project, and we welcome quality contributions. If you",
+        "translatedContent": "기여에 관심이 있고 C++와 함께 Python 또는 R 경험이 있다면,"
+      },
+      {
+        "row": 4,
+        "rowsha": "gGBOUickXRuM/2IVyhnlnnrXuVq5EcHVv2VFMhxmliA=",
+        "originContent": "are interested in contributing and have experience with C++, along with Python",
+        "translatedContent": "직접 구현하고 싶은 아이디어가 있으면 언제든지 연락해 주세요."
+      },
+      {
+        "row": 5,
+        "rowsha": "vZ4VozDL37tnQm8l4QkbBlQpADeauHHUxxpJjozJkLk=",
+        "originContent": "or R, feel free to reach out with ideas you would like to implement yourself.",
+        "translatedContent": "시간이 허락하는 한 시작하는 방법에 대한 조언을 기꺼이 제공해 드립니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "4DgRw6wprdeOW2PziOv588rol4lPyhwOvujljb3FW8I=",
+        "originContent": "We're happy to provide pointers for how to get started, time permitting.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "C++에 익숙하지 않다면 코드를 기여하는 것이 어려울 수 있지만,"
+      },
+      {
+        "row": 8,
+        "rowsha": "APe/gmDU96avIDlLHSwfZPw46xVB/56DU2GXRoD0Evk=",
+        "originContent": "If you are unfamiliar with C++ it will be difficult for you to contribute code,",
+        "translatedContent": "[재현 가능한 예제](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html)를"
+      },
+      {
+        "row": 9,
+        "rowsha": "9h5+hGTg7vIP4FuI2Um+hitSqlg8qd1tPHxL/V0hhKI=",
+        "originContent": "but detailed bug reports with",
+        "translatedContent": "포함한 자세한 버그 리포트는 여전히 큰 도움이 됩니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "Zp3mh8g7D7KFVOm6pxwEUR+sRYi4MdMbcba/8Jeozmg=",
+        "originContent": "[reproducible examples](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html)",
+        "translatedContent": "Github 이슈가 이를 위한 최적의 포럼입니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "tyvuas8dOkBoCJ4byC2zBBugkDWMwfK4kcQ8+3HvxMI=",
+        "originContent": "are still a great way to help out. Github issues are the best forum for this.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "단일 세포 분석 패키지를 유지 관리하며 BPCells를 사용해"
+      },
+      {
+        "row": 13,
+        "rowsha": "DKo8uxNlsERrgf03Ax3PTMj33oZulCs+HZlbORQ3mZY=",
+        "originContent": "If you maintain a single cell analysis package and want to use BPCells to",
+        "translatedContent": "확장성을 향상시키고 싶다면 조언을 기꺼이 제공하겠습니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "mN6LawqO4kzC5WI2rXlg7mjuLpW25jKMS9UJVZYCz+E=",
+        "originContent": "improve your scalability, we're happy to provide advice. We have had a couple of labs",
+        "translatedContent": "지금까지 몇몇 연구실에서 시도해 보았으며, 유망한 성공을 거두고 있습니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "teIg4tZMw2rD9OA8+JV5Tloy8Er/4jAdCIIzICev9pc=",
+        "originContent": "try this so far, with promising success. Email is the best way to get in touch",
+        "translatedContent": "연락은 이메일이 가장 좋습니다(연락처 정보는 github의 `DESCRIPTION` 파일을 참조하세요)."
+      },
+      {
+        "row": 16,
+        "rowsha": "ywC6+4buyT+BgBn4EMhzsdq7wGond8BaKr0A14sux8A=",
+        "originContent": "for this (look in the `DESCRIPTION` file on github for contact info). Python",
+        "translatedContent": "Python 개발자도 환영하며, 현재 Python 패키지는 아직 실험 단계입니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "8jd5064YBhz+lMQy1NHJjM1enrhwAWQ6TYQtxftBYBs=",
+        "originContent": "developers welcome, though the current python package is still in experimental status.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

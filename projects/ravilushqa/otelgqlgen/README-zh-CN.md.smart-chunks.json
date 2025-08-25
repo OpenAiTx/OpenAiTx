@@ -1,0 +1,620 @@
+[
+  {
+    "Id": 1,
+    "Content": "# OpenTelemetry-Go gqlgen Instrumentation\n\n[![ci](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml)\n[![Go Report Card](https://goreportcard.com/badge/github.com/ravilushqa/otelgqlgen)](https://goreportcard.com/report/github.com/ravilushqa/otelgqlgen)\n[![codecov](https://codecov.io/gh/ravilushqa/otelgqlgen/branch/main/graph/badge.svg?token=4LXALH3K72)](https://codecov.io/gh/ravilushqa/otelgqlgen)\n[![Go Reference](https://pkg.go.dev/badge/github.com/ravilushqa/otelgqlgen.svg)](https://pkg.go.dev/github.com/ravilushqa/otelgqlgen)\n\nIt is an OpenTelemetry instrumentation for Golang 99designs/gqlgen, a port from https://github.com/open-telemetry/opentelemetry-go-contrib/pull/761.\n\nIt can only instrument traces for the present.\n\n## Installation\n\nTo install the otelgqlgen package, use the following command:\n",
+    "ContentSha": "24pNTG0vAAJHdsNVXhdnP5oLsl+CjdIOLBL8kg+H90E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# OpenTelemetry-Go gqlgen 仪器化\n\n[![ci](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml)\n[![Go Report Card](https://goreportcard.com/badge/github.com/ravilushqa/otelgqlgen)](https://goreportcard.com/report/github.com/ravilushqa/otelgqlgen)\n[![codecov](https://codecov.io/gh/ravilushqa/otelgqlgen/branch/main/graph/badge.svg?token=4LXALH3K72)](https://codecov.io/gh/ravilushqa/otelgqlgen)\n[![Go Reference](https://pkg.go.dev/badge/github.com/ravilushqa/otelgqlgen.svg)](https://pkg.go.dev/github.com/ravilushqa/otelgqlgen)\n\n这是针对 Golang 99designs/gqlgen 的 OpenTelemetry 仪器化，移植自 https://github.com/open-telemetry/opentelemetry-go-contrib/pull/761。\n\n目前只能对追踪进行仪器化。\n\n## 安装\n\n要安装 otelgqlgen 包，请使用以下命令：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBMH2B+IY93V20Xe0foNXDTzuwvLnBtaGJvgWe+01ag=",
+        "originContent": "# OpenTelemetry-Go gqlgen Instrumentation",
+        "translatedContent": "# OpenTelemetry-Go gqlgen 仪器化"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "U6OZG4gfKHf1t6wdlZEqUtFgIGX/AdKfv/VJD0yEKig=",
+        "originContent": "[![ci](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml)",
+        "translatedContent": "[![ci](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml)"
+      },
+      {
+        "row": 4,
+        "rowsha": "AG1wpmdoL+1IG9Pz8EySmaq8RP9Wc5nycEuL7xY4g1c=",
+        "originContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/ravilushqa/otelgqlgen)](https://goreportcard.com/report/github.com/ravilushqa/otelgqlgen)",
+        "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/ravilushqa/otelgqlgen)](https://goreportcard.com/report/github.com/ravilushqa/otelgqlgen)"
+      },
+      {
+        "row": 5,
+        "rowsha": "yIXdC1c96+Rx4hh7ovYplY9j170RlZxQOsAGvL87uDk=",
+        "originContent": "[![codecov](https://codecov.io/gh/ravilushqa/otelgqlgen/branch/main/graph/badge.svg?token=4LXALH3K72)](https://codecov.io/gh/ravilushqa/otelgqlgen)",
+        "translatedContent": "[![codecov](https://codecov.io/gh/ravilushqa/otelgqlgen/branch/main/graph/badge.svg?token=4LXALH3K72)](https://codecov.io/gh/ravilushqa/otelgqlgen)"
+      },
+      {
+        "row": 6,
+        "rowsha": "+kacZLOc8l6WisWHI3hCeDr27JNKwElQddL3ojrKgfc=",
+        "originContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/ravilushqa/otelgqlgen.svg)](https://pkg.go.dev/github.com/ravilushqa/otelgqlgen)",
+        "translatedContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/ravilushqa/otelgqlgen.svg)](https://pkg.go.dev/github.com/ravilushqa/otelgqlgen)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ob+Aan942CKw3o9ylSmyf96X5qENNZpWinWQbSYMUo0=",
+        "originContent": "It is an OpenTelemetry instrumentation for Golang 99designs/gqlgen, a port from https://github.com/open-telemetry/opentelemetry-go-contrib/pull/761.",
+        "translatedContent": "这是针对 Golang 99designs/gqlgen 的 OpenTelemetry 仪器化，移植自 https://github.com/open-telemetry/opentelemetry-go-contrib/pull/761。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "CTNSwcy9AJbpTgLB4jl6lDWUYEZIFd1ua1i1e7BfmhI=",
+        "originContent": "It can only instrument traces for the present.",
+        "translatedContent": "目前只能对追踪进行仪器化。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "hoa34o+4AySJVwAFEF7Mie0zaMkgaJ60tz5PGl51xYs=",
+        "originContent": "To install the otelgqlgen package, use the following command:",
+        "translatedContent": "要安装 otelgqlgen 包，请使用以下命令："
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngo get github.com/ravilushqa/otelgqlgen\n```",
+    "ContentSha": "UtlbcpHxtn/bxOFPZ+7rnhQNp9Z0upCKIqOvOy4V7xk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngo get github.com/ravilushqa/otelgqlgen\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "J+tLSkILZPcmOsonM0OYYatnegGdxIiSsujwENwcPFI=",
+        "originContent": "go get github.com/ravilushqa/otelgqlgen",
+        "translatedContent": "go get github.com/ravilushqa/otelgqlgen"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Usage\n\nBelow is a basic example of how to use otelgqlgen:\n",
+    "ContentSha": "Eyp8tJyPgojMAfr4GxQHbt7i0QX7dQd2EojbhLh1ZcU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 使用方法\n\n以下是如何使用 otelgqlgen 的基本示例：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "lF4IJcl67Htj1qpDG3B7zyJL60xlMzTINxV7BcM/vM4=",
+        "originContent": "Below is a basic example of how to use otelgqlgen:",
+        "translatedContent": "以下是如何使用 otelgqlgen 的基本示例："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```go\npackage main\n\nimport (\n    \"github.com/99designs/gqlgen/graphql/handler\"\n    \"github.com/ravilushqa/otelgqlgen\"\n    \"github.com/myorg/mygqlgenapi/graph\"\n)\n\nfunc main() {\n    srv := handler.NewDefaultServer(graph.NewExecutableSchema(graph.Config{Resolvers: &graph.Resolver{}}))\n\n    // Add the otelgqlgen middleware to add OpenTelemetry tracing\n    srv.Use(otelgqlgen.Middleware())\n\n    // Your usual server setup code...\n}\n```",
+    "ContentSha": "yCjbRwXz+n+SFGksy5X8+y56CNfQ+mI3gwAOu6QUDiA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\npackage main\n\nimport (\n    \"github.com/99designs/gqlgen/graphql/handler\"\n    \"github.com/ravilushqa/otelgqlgen\"\n    \"github.com/myorg/mygqlgenapi/graph\"\n)\n\nfunc main() {\n    srv := handler.NewDefaultServer(graph.NewExecutableSchema(graph.Config{Resolvers: &graph.Resolver{}}))\n\n    // Add the otelgqlgen middleware to add OpenTelemetry tracing\n    srv.Use(otelgqlgen.Middleware())\n\n    // Your usual server setup code...\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "UShDhV/MkqUcgQsbWOBzHAHqyaaiPBV7+gKq1x7f++c=",
+        "originContent": "package main",
+        "translatedContent": "package main"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0NrstaoCAUE7YHmPS6R4dGEAwhf7+jXw9blKepsV2RQ=",
+        "originContent": "import (",
+        "translatedContent": "import ("
+      },
+      {
+        "row": 5,
+        "rowsha": "NqGoRsHaJ42vbGdaFLQ1yXz3d9EsE4l61WhGmacKhH0=",
+        "originContent": "    \"github.com/99designs/gqlgen/graphql/handler\"",
+        "translatedContent": "    \"github.com/99designs/gqlgen/graphql/handler\""
+      },
+      {
+        "row": 6,
+        "rowsha": "eDOG85Y8A5T0joKqiH0GhQVNiAJDhOEuef1AXU8hZu0=",
+        "originContent": "    \"github.com/ravilushqa/otelgqlgen\"",
+        "translatedContent": "    \"github.com/ravilushqa/otelgqlgen\""
+      },
+      {
+        "row": 7,
+        "rowsha": "l6MhlS3ysxRNgHQmADla2u+YYsouD2YrmveCl+iVDos=",
+        "originContent": "    \"github.com/myorg/mygqlgenapi/graph\"",
+        "translatedContent": "    \"github.com/myorg/mygqlgenapi/graph\""
+      },
+      {
+        "row": 8,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "477XskFGOI6HtL1vgLCndqbEY9HpnF/1YFeYnaoIPXA=",
+        "originContent": "func main() {",
+        "translatedContent": "func main() {"
+      },
+      {
+        "row": 11,
+        "rowsha": "/L7CsvjC4xta5Xm+DlmLi7RYHWk5/HNz3RwKyPvDLco=",
+        "originContent": "    srv := handler.NewDefaultServer(graph.NewExecutableSchema(graph.Config{Resolvers: &graph.Resolver{}}))",
+        "translatedContent": "    srv := handler.NewDefaultServer(graph.NewExecutableSchema(graph.Config{Resolvers: &graph.Resolver{}}))"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "+Kay/BmPkdR+Dzik1V/AdoIldOpiGVVHDCtlHXGZPCI=",
+        "originContent": "    // Add the otelgqlgen middleware to add OpenTelemetry tracing",
+        "translatedContent": "    // Add the otelgqlgen middleware to add OpenTelemetry tracing"
+      },
+      {
+        "row": 14,
+        "rowsha": "h+X9it6WG6Nmy9jtToaW6hnUdRomxIual0bt1J30LvE=",
+        "originContent": "    srv.Use(otelgqlgen.Middleware())",
+        "translatedContent": "    srv.Use(otelgqlgen.Middleware())"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "tLXWy7FT4udDg16qyODhQY6DWjg/Zq4vHcrk4uLpJYc=",
+        "originContent": "    // Your usual server setup code...",
+        "translatedContent": "    // Your usual server setup code..."
+      },
+      {
+        "row": 17,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 18,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Configuration Options\n\notelgqlgen provides several options to customize the tracing behavior:\n\n- `WithTracerProvider(provider)`: Specifies a custom tracer provider. By default, the global OpenTelemetry tracer provider is used.\n- `WithComplexityExtensionName(name)`: Specifies a name for the complexity extension. By default, a name is automatically generated.\n- `WithRequestVariablesAttributesBuilder(builder)`: Specifies a custom function to build the attributes for the request variables.\n- `WithoutVariables()`: Disables the variables attributes.\n- `WithCreateSpanFromFields(predicate)`: Specifies a custom function to control whether a span should be created based on the GraphQL context fields.\n- `WithInterceptResponseResultHandlerFunc(handler)`: Specifies a custom function to intercept and handle GraphQL response results before they are returned.\n- `WithInterceptFieldsResultHandlerFunc(handler)`: Specifies a custom function to intercept and handle GraphQL field-level results and errors during execution.\n\n## Example\n\nSee [./example](./example).\n\n## Compatibility\n\nThis project is tested on the following systems.\n\n| OS      | Go Version | Architecture |\n| ------- |------------| ------------ |\n| Ubuntu  | 1.23       | amd64        |\n| Ubuntu  | 1.24       | amd64        |\n| Ubuntu  | 1.23       | 386          |\n| Ubuntu  | 1.24       | 386          |\n| MacOS   | 1.23       | amd64        |\n| MacOS   | 1.24       | amd64        |\n| Windows | 1.23       | amd64        |\n| Windows | 1.24       | amd64        |\n| Windows | 1.23       | 386          |\n| Windows | 1.24       | 386          |\n\nWhile this project should work for other systems, no compatibility guarantees\nare made for those systems currently.\n\nThe project follows the [Release Policy](https://golang.org/doc/devel/release#policy) to support major Go releases.\n\n",
+    "ContentSha": "vAQZxE1MqQaUiP6gH+ABearmaeUcDQz1GG1yu7+gh7w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 配置选项\n\notelgqlgen 提供了多种选项以自定义追踪行为：\n\n- `WithTracerProvider(provider)`：指定自定义的追踪提供者。默认使用全局的 OpenTelemetry 追踪提供者。\n- `WithComplexityExtensionName(name)`：指定复杂度扩展的名称。默认情况下，名称会自动生成。\n- `WithRequestVariablesAttributesBuilder(builder)`：指定自定义函数，用于构建请求变量的属性。\n- `WithoutVariables()`：禁用变量属性。\n- `WithCreateSpanFromFields(predicate)`：指定自定义函数，根据 GraphQL 上下文字段控制是否创建 Span。\n- `WithInterceptResponseResultHandlerFunc(handler)`：指定自定义函数，在返回之前拦截并处理 GraphQL 响应结果。\n- `WithInterceptFieldsResultHandlerFunc(handler)`：指定自定义函数，在执行过程中拦截并处理 GraphQL 字段级别的结果和错误。\n\n## 示例\n\n参见 [./example](./example)。\n\n## 兼容性\n\n本项目已在以下系统上进行测试。\n\n| 操作系统 | Go 版本   | 架构         |\n| -------- | --------- | ------------ |\n| Ubuntu   | 1.23      | amd64        |\n| Ubuntu   | 1.24      | amd64        |\n| Ubuntu   | 1.23      | 386          |\n| Ubuntu   | 1.24      | 386          |\n| MacOS    | 1.23      | amd64        |\n| MacOS    | 1.24      | amd64        |\n| Windows  | 1.23      | amd64        |\n| Windows  | 1.24      | amd64        |\n| Windows  | 1.23      | 386          |\n| Windows  | 1.24      | 386          |\n\n虽然本项目应适用于其他系统，但目前不对这些系统的兼容性做出保证。\n\n本项目遵循 [发布政策](https://golang.org/doc/devel/release#policy) 支持主要的 Go 版本。\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 配置选项"
+      },
+      {
+        "row": 2,
+        "rowsha": "hexaSrobu5kODfHM3LQ66ZseHR0qg6m9UWjwTgx7UGY=",
+        "originContent": "### Configuration Options",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "otelgqlgen 提供了多种选项以自定义追踪行为："
+      },
+      {
+        "row": 4,
+        "rowsha": "FjvqVQ6zMEt0agbW7vevaEG7R2EhVNzzrl2tzclDM1s=",
+        "originContent": "otelgqlgen provides several options to customize the tracing behavior:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `WithTracerProvider(provider)`：指定自定义的追踪提供者。默认使用全局的 OpenTelemetry 追踪提供者。"
+      },
+      {
+        "row": 6,
+        "rowsha": "ivwIJo79AIm0RmzWkOd/Zgt+b9iF7MB2XVVua81dpTA=",
+        "originContent": "- `WithTracerProvider(provider)`: Specifies a custom tracer provider. By default, the global OpenTelemetry tracer provider is used.",
+        "translatedContent": "- `WithComplexityExtensionName(name)`：指定复杂度扩展的名称。默认情况下，名称会自动生成。"
+      },
+      {
+        "row": 7,
+        "rowsha": "KdzbqS6bqLbhNwGqI/Pv4AH20PAzTzMu5zlVr17iCRY=",
+        "originContent": "- `WithComplexityExtensionName(name)`: Specifies a name for the complexity extension. By default, a name is automatically generated.",
+        "translatedContent": "- `WithRequestVariablesAttributesBuilder(builder)`：指定自定义函数，用于构建请求变量的属性。"
+      },
+      {
+        "row": 8,
+        "rowsha": "sW0CeXO/hQC6W8jtv8bTOdmxOsY0OVCfvhsDHIpzKBw=",
+        "originContent": "- `WithRequestVariablesAttributesBuilder(builder)`: Specifies a custom function to build the attributes for the request variables.",
+        "translatedContent": "- `WithoutVariables()`：禁用变量属性。"
+      },
+      {
+        "row": 9,
+        "rowsha": "dcCnLR1QM+0OlyUA7Jbyk7KUqAIHrP34Fex7kXBh1sE=",
+        "originContent": "- `WithoutVariables()`: Disables the variables attributes.",
+        "translatedContent": "- `WithCreateSpanFromFields(predicate)`：指定自定义函数，根据 GraphQL 上下文字段控制是否创建 Span。"
+      },
+      {
+        "row": 10,
+        "rowsha": "R0FgHoQLYXQcPCb5AwuNO0HYK+/Uf4LfZWY3IFJ37IY=",
+        "originContent": "- `WithCreateSpanFromFields(predicate)`: Specifies a custom function to control whether a span should be created based on the GraphQL context fields.",
+        "translatedContent": "- `WithInterceptResponseResultHandlerFunc(handler)`：指定自定义函数，在返回之前拦截并处理 GraphQL 响应结果。"
+      },
+      {
+        "row": 11,
+        "rowsha": "tcwAOf3rNjF+owvBQ/efueKK0O87GJJHefbQ11JrIBU=",
+        "originContent": "- `WithInterceptResponseResultHandlerFunc(handler)`: Specifies a custom function to intercept and handle GraphQL response results before they are returned.",
+        "translatedContent": "- `WithInterceptFieldsResultHandlerFunc(handler)`：指定自定义函数，在执行过程中拦截并处理 GraphQL 字段级别的结果和错误。"
+      },
+      {
+        "row": 12,
+        "rowsha": "AW7OCqNwM0xWzlFPyRVLfEP8+uwxi4vC20AAD//LJEA=",
+        "originContent": "- `WithInterceptFieldsResultHandlerFunc(handler)`: Specifies a custom function to intercept and handle GraphQL field-level results and errors during execution.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 示例"
+      },
+      {
+        "row": 14,
+        "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+        "originContent": "## Example",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "参见 [./example](./example)。"
+      },
+      {
+        "row": 16,
+        "rowsha": "DiuaITKm/Dfli+IUPdFsoRtG0rhPNDTz9ylVVNaAcqA=",
+        "originContent": "See [./example](./example).",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 兼容性"
+      },
+      {
+        "row": 18,
+        "rowsha": "ToF55XSC5N+RkvpW3gy7KfKIb5yrXRpshO7tai3jNdg=",
+        "originContent": "## Compatibility",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本项目已在以下系统上进行测试。"
+      },
+      {
+        "row": 20,
+        "rowsha": "iF+3tus02YNFf/GeZIIIGv2D4C9z/YX45nkvoEtCbi4=",
+        "originContent": "This project is tested on the following systems.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 操作系统 | Go 版本   | 架构         |"
+      },
+      {
+        "row": 22,
+        "rowsha": "M/MBel13B72vGQyVl+e7vEXDhlFu50ogk3Grlx3C1ME=",
+        "originContent": "| OS      | Go Version | Architecture |",
+        "translatedContent": "| -------- | --------- | ------------ |"
+      },
+      {
+        "row": 23,
+        "rowsha": "dJclsxblWRNBjYT4c6l7EvXBIbeAKJjM5S1CuGuUIcY=",
+        "originContent": "| ------- |------------| ------------ |",
+        "translatedContent": "| Ubuntu   | 1.23      | amd64        |"
+      },
+      {
+        "row": 24,
+        "rowsha": "znb6c9qzG2yCM4u2fPWIx0KEbDGeGAtb8o+dHREIVwE=",
+        "originContent": "| Ubuntu  | 1.23       | amd64        |",
+        "translatedContent": "| Ubuntu   | 1.24      | amd64        |"
+      },
+      {
+        "row": 25,
+        "rowsha": "KRT4/t7H4RMMEB2Py+2m74IKxSjFapFtxPKUKyjtAGQ=",
+        "originContent": "| Ubuntu  | 1.24       | amd64        |",
+        "translatedContent": "| Ubuntu   | 1.23      | 386          |"
+      },
+      {
+        "row": 26,
+        "rowsha": "OS0LBbiMC+0cm47O+y4Ml0joTcqB9iX2eHNkaHWVZnU=",
+        "originContent": "| Ubuntu  | 1.23       | 386          |",
+        "translatedContent": "| Ubuntu   | 1.24      | 386          |"
+      },
+      {
+        "row": 27,
+        "rowsha": "2GQCOnJ56TFLkmHoVieGqJscAr8QBx4bR24v4sSpamo=",
+        "originContent": "| Ubuntu  | 1.24       | 386          |",
+        "translatedContent": "| MacOS    | 1.23      | amd64        |"
+      },
+      {
+        "row": 28,
+        "rowsha": "GlGeGATsrfHFBwbK9CjdFmIwRaqOVX1G/Mi5qetrOBM=",
+        "originContent": "| MacOS   | 1.23       | amd64        |",
+        "translatedContent": "| MacOS    | 1.24      | amd64        |"
+      },
+      {
+        "row": 29,
+        "rowsha": "9BecfTT68tlSJXSQT+U2jr8tdGxUlrpRp3yjBsVYqJ4=",
+        "originContent": "| MacOS   | 1.24       | amd64        |",
+        "translatedContent": "| Windows  | 1.23      | amd64        |"
+      },
+      {
+        "row": 30,
+        "rowsha": "0a6rLyvM8fd0LCp/zhvuS4d54Pp0XqBzpmdH3qhfG4I=",
+        "originContent": "| Windows | 1.23       | amd64        |",
+        "translatedContent": "| Windows  | 1.24      | amd64        |"
+      },
+      {
+        "row": 31,
+        "rowsha": "Ni9Ni4Rzq5GiaNCNVYZPaF2BzagYsi5IqFuLL1E1XH8=",
+        "originContent": "| Windows | 1.24       | amd64        |",
+        "translatedContent": "| Windows  | 1.23      | 386          |"
+      },
+      {
+        "row": 32,
+        "rowsha": "ZcBjmFXKW4qwcOuzBRv27q/ZbLue5/RvRGkIyODUd4A=",
+        "originContent": "| Windows | 1.23       | 386          |",
+        "translatedContent": "| Windows  | 1.24      | 386          |"
+      },
+      {
+        "row": 33,
+        "rowsha": "PhIrkgh2Kx2VGBDsNz9qhxmQ6PHWFU+QogjpYwMEOxc=",
+        "originContent": "| Windows | 1.24       | 386          |",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "虽然本项目应适用于其他系统，但目前不对这些系统的兼容性做出保证。"
+      },
+      {
+        "row": 35,
+        "rowsha": "b/Fw236g0S8dlzwZ28OWk1UgE9b5YS6Ahg+/D5SwBEE=",
+        "originContent": "While this project should work for other systems, no compatibility guarantees",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "B4IbdTP8he20+M2u3/VwvC9ZGqERrxqiVG5dpSNEbYI=",
+        "originContent": "are made for those systems currently.",
+        "translatedContent": "本项目遵循 [发布政策](https://golang.org/doc/devel/release#policy) 支持主要的 Go 版本。"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "cD6u2OiZ7mym/50GVuFFd/K0bbV/lkmrMHJY4tk4+v8=",
+        "originContent": "The project follows the [Release Policy](https://golang.org/doc/devel/release#policy) to support major Go releases.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "## References\n\n- [GraphQL](https://graphql.org/)\n- [gqlgen](https://gqlgen.com)\n\n## License\n\nThis project is licensed under the Apache License, Version 2.0. See the LICENSE file for details.\n",
+    "ContentSha": "N6ck8blOOvKg0NYw9K8pu9NUy7VhOi3FoGdpKs9R3VA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 参考文献\n\n- [GraphQL](https://graphql.org/)\n- [gqlgen](https://gqlgen.com)\n\n## 许可证\n\n本项目采用 Apache 许可证 2.0 版本授权。详情请参阅 LICENSE 文件。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
+        "originContent": "## References",
+        "translatedContent": "## 参考文献"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Xn5cPbY+rFOXXCPHpvF2x6pOkaoCSdiVhJbNXxYfse4=",
+        "originContent": "- [GraphQL](https://graphql.org/)",
+        "translatedContent": "- [GraphQL](https://graphql.org/)"
+      },
+      {
+        "row": 4,
+        "rowsha": "xM2ltd0mYKvBrzjOHhsF231rypkzOr2m6vfn5YD1qro=",
+        "originContent": "- [gqlgen](https://gqlgen.com)",
+        "translatedContent": "- [gqlgen](https://gqlgen.com)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "L+8PCE6WzIvJC447IHg1uGkyP5YYw+69SjXHGtIjGr4=",
+        "originContent": "This project is licensed under the Apache License, Version 2.0. See the LICENSE file for details.",
+        "translatedContent": "本项目采用 Apache 许可证 2.0 版本授权。详情请参阅 LICENSE 文件。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

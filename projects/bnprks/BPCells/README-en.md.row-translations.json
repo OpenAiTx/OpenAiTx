@@ -1,0 +1,710 @@
+[
+  {
+    "row": 1,
+    "rowsha": "sZUA5ZgXHUdmbUnUMvFDKLl84URe4ArUnLEAf0u0Eqc=",
+    "originContent": "# BPCells",
+    "translatedContent": "# BPCells"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "kZ86uJCR90bz7Bf81jtnasr+40BYv446w171qeA/60g=",
+    "originContent": "BPCells is a package for high performance single cell analysis of large RNA-seq and ATAC-seq datasets. ",
+    "translatedContent": "BPCells is a package for high performance single cell analysis of large RNA-seq and ATAC-seq datasets.  "
+  },
+  {
+    "row": 4,
+    "rowsha": "nANNUm3audk+7P5OQaCBUFVgippovyzO0Cebcn6kXFU=",
+    "originContent": "It can run normalization and PCA of a 1.3M cell dataset in 4 minutes with 2GB of RAM, or create scATAC-seq peak matrices from fragment coordinates with 50x less CPU time than ArchR or SnapATAC2. ",
+    "translatedContent": "It can run normalization and PCA of a 1.3M cell dataset in 4 minutes with 2GB of RAM, or create scATAC-seq peak matrices from fragment coordinates with 50x less CPU time than ArchR or SnapATAC2.  "
+  },
+  {
+    "row": 5,
+    "rowsha": "bgefqLUsgOhmrVyNIdevDJ2EInUA3wMA4ORZU2qVJE0=",
+    "originContent": "BPCells can even handle the full CELLxGENE census human dataset, running full precision PCA on a 44M cell x 60k gene matrix in 6 hours on a laptop or <1 hour on a server. See our [benchmarks page](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html) for details.",
+    "translatedContent": "BPCells can even handle the full CELLxGENE census human dataset, running full precision PCA on a 44M cell x 60k gene matrix in 6 hours on a laptop or <1 hour on a server. See our [benchmarks page](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html) for details."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "x8gI4DTkAsmtcUR5OhJpY8tIv5aSYhmRx5Ol0A7ZCrQ=",
+    "originContent": "BPCells provides:",
+    "translatedContent": "BPCells provides:"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "3HtIXSbzFxCzugxgSEriUtsCwJOo3meUQ2m9TcZIsh0=",
+    "originContent": "  - Efficient storage of single cell datasets via bitpacking compression",
+    "translatedContent": "  - Efficient storage of single cell datasets via bitpacking compression  "
+  },
+  {
+    "row": 10,
+    "rowsha": "iAudVe52TQ0nEzIAm4fbSzNZ6I8nRi+s5cfN+/KwI8A=",
+    "originContent": "  - Fast, disk-backed RNA-seq and ATAC-seq data processing powered by C++",
+    "translatedContent": "  - Fast, disk-backed RNA-seq and ATAC-seq data processing powered by C++  "
+  },
+  {
+    "row": 11,
+    "rowsha": "am3E9KA5Fpt5yldrG4hN3cEF2BvvzjAwQA5ajWWdW0o=",
+    "originContent": "  - Downstream analysis such as marker genes, and clustering",
+    "translatedContent": "  - Downstream analysis such as marker genes, and clustering  "
+  },
+  {
+    "row": 12,
+    "rowsha": "L6p9/Q6vVHJN0gBHNbxLeTbsPWIlFURsEOcKCL/AGO0=",
+    "originContent": "  - Interoperability with AnnData, 10x datasets, R sparse matrices, and GRanges",
+    "translatedContent": "  - Interoperability with AnnData, 10x datasets, R sparse matrices, and GRanges  "
+  },
+  {
+    "row": 13,
+    "rowsha": "CWLd76KDF/qrtkYOJFrPMm7MDbEJk8Q4FtfIJTxYqYQ=",
+    "originContent": "  - Demonstrated scalability to 44M cells on a laptop",
+    "translatedContent": "  - Demonstrated scalability to 44M cells on a laptop"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "OxBpHRYiCTEHhDCa4JSWqPLxeZB0Ow4XgNW3LmlQ0ho=",
+    "originContent": "Additionally, BPCells exposes its optimized data processing infrastructure for use in scaling 3rd party single cell tools (e.g. Seurat)",
+    "translatedContent": "Additionally, BPCells exposes its optimized data processing infrastructure for use in scaling 3rd party single cell tools (e.g. Seurat)"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "NoP6P8pvK3OAsBvMpOru1e4ho7TnhAn2SYn8+5A1Yzg=",
+    "originContent": "## [Learn more at our website](https://bnprks.github.io/BPCells/)",
+    "translatedContent": "## [Learn more at our website](https://bnprks.github.io/BPCells/)"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "t9x5Qcgp6wAly0kMyRXEroG5lD1X/k2HLtFFrsQWlXY=",
+    "originContent": "- [BioRxiv preprint](https://www.biorxiv.org/content/10.1101/2025.03.27.645853v1)",
+    "translatedContent": "- [BioRxiv preprint](https://www.biorxiv.org/content/10.1101/2025.03.27.645853v1)  "
+  },
+  {
+    "row": 20,
+    "rowsha": "Uiv6ZSv8Us4aCreF5NHWt8aAYoQA5Ixg+61JdN2kQZ8=",
+    "originContent": "- [Python docs](https://bnprks.github.io/BPCells/python/index.html)",
+    "translatedContent": "- [Python docs](https://bnprks.github.io/BPCells/python/index.html)  "
+  },
+  {
+    "row": 21,
+    "rowsha": "MeVVuHGpULTXWiz5NbvChNXRt2DiaXXDHDQTqdMu7CY=",
+    "originContent": "- [Benchmarks](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html)",
+    "translatedContent": "- [Benchmarks](https://bnprks.github.io/BPCells/articles/web-only/benchmarks.html)  "
+  },
+  {
+    "row": 22,
+    "rowsha": "RHRKGHv6iV2EAWZpkZmoTZ4JkqffczVXYCbXPeWhgZg=",
+    "originContent": "- [Multiomic analysis example](https://bnprks.github.io/BPCells/articles/pbmc3k.html)",
+    "translatedContent": "- [Multiomic analysis example](https://bnprks.github.io/BPCells/articles/pbmc3k.html)  "
+  },
+  {
+    "row": 23,
+    "rowsha": "ZPLYtIuxS+P0Y37ImLa3XqwS+Yyfy9XQIArOLUjHCic=",
+    "originContent": "- [How BPCells works](https://bnprks.github.io/BPCells/articles/web-only/how-it-works.html)",
+    "translatedContent": "- [How BPCells works](https://bnprks.github.io/BPCells/articles/web-only/how-it-works.html)  "
+  },
+  {
+    "row": 24,
+    "rowsha": "MOHkEYeSxjT5WgNju/NvBC296UAozZ/8YDQaHMFGCf4=",
+    "originContent": "- [Additional articles](https://bnprks.github.io/BPCells/articles/index.html)",
+    "translatedContent": "- [Additional articles](https://bnprks.github.io/BPCells/articles/index.html)  "
+  },
+  {
+    "row": 25,
+    "rowsha": "ek+m0YmcRcwRWF2YshurX0Li6pnJ08QM1vWfl+lLNL4=",
+    "originContent": "- [Function documentation](https://bnprks.github.io/BPCells/reference/index.html)",
+    "translatedContent": "- [Function documentation](https://bnprks.github.io/BPCells/reference/index.html)  "
+  },
+  {
+    "row": 26,
+    "rowsha": "I2bdv6weNmH8g1muSWHjWLXUT84mthTD/PlAJgoGml8=",
+    "originContent": "- [News](https://bnprks.github.io/BPCells/news/index.html)",
+    "translatedContent": "- [News](https://bnprks.github.io/BPCells/news/index.html)"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "pHJGU6Ilsp2w23lkQTqvmfniP0e71Bltiwjw5IgnrgI=",
+    "originContent": "## R Installation",
+    "translatedContent": "## R Installation  "
+  },
+  {
+    "row": 29,
+    "rowsha": "y7bBrFzT0ajEx144eY3rtoUV5AEMHQwGrDhde2Gqz58=",
+    "originContent": "We recommend installing BPCells directly from github:",
+    "translatedContent": "We recommend installing BPCells directly from github:"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "lnKoaw7R0HpUbokf+OEjr7V0NmQMKAosCjkENPjAIW4=",
+    "originContent": "```R",
+    "translatedContent": "```R"
+  },
+  {
+    "row": 32,
+    "rowsha": "nPrfHoWyoso+7v6gakBdkRJYLg/BZ4Np7hynuYH26NA=",
+    "originContent": "remotes::install_github(\"bnprks/BPCells/r\")",
+    "translatedContent": "remotes::install_github(\"bnprks/BPCells/r\")"
+  },
+  {
+    "row": 33,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 34,
+    "rowsha": "/YKLg4pTBJZO9A7/aKs2me0/rzFNQTd7r3s63QDvsTc=",
+    "originContent": "Before installing, you must have the HDF5 library installed and accessible on your system.",
+    "translatedContent": "Before installing, you must have the HDF5 library installed and accessible on your system."
+  },
+  {
+    "row": 35,
+    "rowsha": "CalB5SfwtZ1iU4z/nAa5zalTzPmCAHkigAqSBY2e6TM=",
+    "originContent": "HDF5 can be installed from your choice of package manager. See operating system specific instructions below.",
+    "translatedContent": "HDF5 can be installed from your choice of package manager. See operating system specific instructions below."
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "fkbd6TpCZV11aUFZijE4e9hQl6dwZVkWPoc9veulPas=",
+    "originContent": "For Mac and Windows users having trouble installing from github, check our [R-universe](https://bnprks.r-universe.dev/BPCells)",
+    "translatedContent": "For Mac and Windows users having trouble installing from github, check our [R-universe](https://bnprks.r-universe.dev/BPCells)"
+  },
+  {
+    "row": 39,
+    "rowsha": "PBqj8y+Sn0uABvQlzd0kw+hC51MWN3VIYRvC/qX1cKQ=",
+    "originContent": "page for instructions to install pre-built binary packages. These binary packages automatically track the latest github main branch.",
+    "translatedContent": "page for instructions to install pre-built binary packages. These binary packages automatically track the latest github main branch."
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "vMmJ7IT8/XLri/dwszlR7Ql/0CwF/YHPptPJ0PwLdno=",
+    "originContent": "BPCells is available via conda thanks to [@mfansler](https://github.com/mfansler) from the Conda Forge R team (see [issue #241](https://github.com/bnprks/BPCells/issues/241) for details).",
+    "translatedContent": "BPCells is available via conda thanks to [@mfansler](https://github.com/mfansler) from the Conda Forge R team (see [issue #241](https://github.com/bnprks/BPCells/issues/241) for details)."
+  },
+  {
+    "row": 42,
+    "rowsha": "S/SycbBXNgZ063ut/g2OA1sWUHUMbvdDSnRM+LNElOc=",
+    "originContent": "Any issues with the bioconda package should be reported at [bioconda-recipes](https://github.com/bioconda/bioconda-recipes/). Version updates are managed by the bioconda team.",
+    "translatedContent": "Any issues with the bioconda package should be reported at [bioconda-recipes](https://github.com/bioconda/bioconda-recipes/). Version updates are managed by the bioconda team."
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 45,
+    "rowsha": "/B1FES8bgsPPLsw995W6f6qj/gHNnDEfFlX5VowL4ms=",
+    "originContent": "<summary>Click here for operating system specific installation information for github-based installs</summary>",
+    "translatedContent": "<summary>Click here for operating system specific installation information for github-based installs</summary>"
+  },
+  {
+    "row": 46,
+    "rowsha": "nkUn+xN/CzcfeDtOk14RpAo9+3G9PEheeFaPGaNcIe4=",
+    "originContent": "<div>",
+    "translatedContent": "<div>"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+    "originContent": "### Linux",
+    "translatedContent": "### Linux"
+  },
+  {
+    "row": 49,
+    "rowsha": "qNuZ6bLFUNv+dLxEMxaBfFLqjT5y9V18JlO+zdJH1zU=",
+    "originContent": "Obtaining the HDF5 dependency is usually pretty straightforward on Linux",
+    "translatedContent": "Obtaining the HDF5 dependency is usually pretty straightforward on Linux"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "/jwSuYAkG19UDbh5TdxYFLHqM5ykU9W/gkpQXP2vkzw=",
+    "originContent": "- apt: `sudo apt-get install libhdf5-dev` ",
+    "translatedContent": "- apt: `sudo apt-get install libhdf5-dev` "
+  },
+  {
+    "row": 52,
+    "rowsha": "rlDCPTaoSt1k630yu64ZjPwMdijDLdR1O50dy+V0mhY=",
+    "originContent": "- yum: `sudo yum install hdf5-devel`",
+    "translatedContent": "- yum: `sudo yum install hdf5-devel`"
+  },
+  {
+    "row": 53,
+    "rowsha": "2SkkyXms+yqiFtejIXMnbv16dd4QBplNZnBF5uEBwOY=",
+    "originContent": "- conda: `conda install -c conda-forge hdf5` ",
+    "translatedContent": "- conda: `conda install -c conda-forge hdf5` "
+  },
+  {
+    "row": 54,
+    "rowsha": "5bhBfChbjGShvtTdOzQKUZ2gYcIX6C5W8ToO3gzl6S0=",
+    "originContent": "  - Note: Linux users should prefer their distro's package manager (e.g. `apt` or `yum`) when possible,",
+    "translatedContent": "  - Note: Linux users should prefer their distro's package manager (e.g. `apt` or `yum`) when possible,"
+  },
+  {
+    "row": 55,
+    "rowsha": "VDWon7nMyzF9UmRgSCTs07He1OXQOTehAaRbXfW+qYc=",
+    "originContent": "    as it appears to give a slightly more reliable installation experience.",
+    "translatedContent": "    as it appears to give a slightly more reliable installation experience."
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+    "originContent": "### Windows",
+    "translatedContent": "### Windows"
+  },
+  {
+    "row": 58,
+    "rowsha": "VZt5UEKuOE+G8oEOq8ewT/W9AORJwR0f85abQFXxCSc=",
+    "originContent": "Compiling R packages from source on Windows requires installing [R tools for Windows](https://cran.r-project.org/bin/windows/Rtools/). See [Issue #9](https://github.com/bnprks/BPCells/issues/9) for more discussion.",
+    "translatedContent": "Compiling R packages from source on Windows requires installing [R tools for Windows](https://cran.r-project.org/bin/windows/Rtools/). See [Issue #9](https://github.com/bnprks/BPCells/issues/9) for more discussion."
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "nq8KEHkzOMJou3NH13rsOf/yk5aAJ3vdSNZYTT/rdk0=",
+    "originContent": "### MacOS",
+    "translatedContent": "### MacOS"
+  },
+  {
+    "row": 61,
+    "rowsha": "IRjWnxPyZzawL/ztXkvcqUbyMHmmondWWsnxAK8LsZQ=",
+    "originContent": "For MacOS, installing HDF5 through homebrew seems to be most reliable: `brew install hdf5`.",
+    "translatedContent": "For MacOS, installing HDF5 through homebrew seems to be most reliable: `brew install hdf5`."
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "PUiHN5jHVEwLsKSmu6jfK9MwMcZZnTEn+QHDGyDFHmw=",
+    "originContent": "**Mac-specific troubleshooting**:",
+    "translatedContent": "**Mac-specific troubleshooting**:"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "gz0UfiZbrRBMXyqRcAV53CvdSTVZji+Cq0epJ3hV24g=",
+    "originContent": "- **Macs with ARM CPUs**: a common error is to have an ARM-based HDF5 install but an x86-based ",
+    "translatedContent": "- **Macs with ARM CPUs**: a common error is to have an ARM-based HDF5 install but an x86-based "
+  },
+  {
+    "row": 66,
+    "rowsha": "EOWdkSdue857ZgCmRwMFll8sUGYnm7qCdL6BwzeXaDo=",
+    "originContent": "  R install. This will cause errors when BPCells tries to access HDF5 during installation. ",
+    "translatedContent": "  R install. This will cause errors when BPCells tries to access HDF5 during installation. "
+  },
+  {
+    "row": 67,
+    "rowsha": "WttELLRrBGDOuqK+f3OxH1+dCrV9C92FwIiI3+fB4IA=",
+    "originContent": "    - Check your R installation",
+    "translatedContent": "    - Check your R installation"
+  },
+  {
+    "row": 68,
+    "rowsha": "kLlHkyI2q3Be+PL1Ut0bZbsBFYqZKLl/S31FeHAiuQw=",
+    "originContent": "  by running `sessionInfo()`, and seeing if it lists ARM or x86 under \"Platform\". ",
+    "translatedContent": "  by running `sessionInfo()`, and seeing if it lists ARM or x86 under \"Platform\". "
+  },
+  {
+    "row": 69,
+    "rowsha": "n7YI2XKYL0o4RFF0AeIwCM/lU3pQ1aZv0NIzke7CEMQ=",
+    "originContent": "    - The easiest option is to use",
+    "translatedContent": "    - The easiest option is to use"
+  },
+  {
+    "row": 70,
+    "rowsha": "a6m96PJKPwP/z03NmHMo7YQfon3mCtP8oL+nyNbbyYk=",
+    "originContent": "  ARM R because homebrew will default to an ARM hdf5 installation",
+    "translatedContent": "  ARM R because homebrew will default to an ARM hdf5 installation"
+  },
+  {
+    "row": 71,
+    "rowsha": "DAFYTkPjeaX9+ze48FMGr7Y3tcQBcbi+5EgnhvUK510=",
+    "originContent": "    - It is [possible](https://codetinkering.com/switch-homebrew-arm-x86/) (though tricky) to install an x86 copy of homebrew in order to access an x86 version of hdf5",
+    "translatedContent": "    - It is [possible](https://codetinkering.com/switch-homebrew-arm-x86/) (though tricky) to install an x86 copy of homebrew in order to access an x86 version of hdf5"
+  },
+  {
+    "row": 72,
+    "rowsha": "zphPQ94xeUVEBnsL8AXWeb8t0pC/Tjo2Yk8rrTfj5W8=",
+    "originContent": "- **Older Macs (10.14 Mojave or older)**: The default compiler on old Macs does not support needed",
+    "translatedContent": "- **Older Macs (10.14 Mojave or older)**: The default compiler on old Macs does not support needed"
+  },
+  {
+    "row": 73,
+    "rowsha": "9dRDxEi/nGNif5sckJvPtPWBqvTBWl7DUES9nstfp9I=",
+    "originContent": "  C++17 filesystem features. See [issue #3](https://github.com/bnprks/BPCells/issues/3#issuecomment-1375238635) for",
+    "translatedContent": "  C++17 filesystem features. See [issue #3](https://github.com/bnprks/BPCells/issues/3#issuecomment-1375238635) for"
+  },
+  {
+    "row": 74,
+    "rowsha": "Zp+fWYnpxYCfNEZAtTqOT5NP4ym2hNQ0vwSZ7mhvV/c=",
+    "originContent": "  tips getting a newer compiler set up via homebrew.",
+    "translatedContent": "  tips getting a newer compiler set up via homebrew."
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "YWqtBSnlH00Z4Y6vJqSJVpXO2BYWRbAQB8p49K4A7p4=",
+    "originContent": "### Supported compilers",
+    "translatedContent": "### Supported compilers"
+  },
+  {
+    "row": 77,
+    "rowsha": "hpxSLFk1dOnAuaAHLH6gPvAgurzN4USTW5RIIrCKHYA=",
+    "originContent": "In most cases, you will already have an appropriate compiler. BPCells recommends",
+    "translatedContent": "In most cases, you will already have an appropriate compiler. BPCells recommends"
+  },
+  {
+    "row": 78,
+    "rowsha": "T4Vk2W44hpJZaET+/YWibazSjhjYZUo/G3bTyOenXY8=",
+    "originContent": "gcc >=9.1, or clang >= 9.0. ",
+    "translatedContent": "gcc >=9.1, or clang >= 9.0. "
+  },
+  {
+    "row": 79,
+    "rowsha": "W7ENmzlDseLzGNVBNjG4V8badTKffTil42RqMW0M1O8=",
+    "originContent": "This corresponds to versions from late-2018 and newer. ",
+    "translatedContent": "This corresponds to versions from late-2018 and newer. "
+  },
+  {
+    "row": 80,
+    "rowsha": "hP5dPgxh+ww3cz91clcaM9SPdhhBRtR1UzFvZqWiWKA=",
+    "originContent": "Older versions may work in some cases so long as they",
+    "translatedContent": "Older versions may work in some cases so long as they"
+  },
+  {
+    "row": 81,
+    "rowsha": "LDT4UOs95BsdU0ji52s9rQtmAjnEiyTwtQR/02AF4Yk=",
+    "originContent": "have basic C++17 support, but they are not officially supported.",
+    "translatedContent": "have basic C++17 support, but they are not officially supported."
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 84,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 85,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 86,
+    "rowsha": "ihLEkhTu7EuQxCTvg2FyNZ71Hx5fx6i4OL5pOkoD5Wg=",
+    "originContent": "<summary>Click here for troubleshooting information for github-based installs</summary>",
+    "translatedContent": "<summary>Click here for troubleshooting information for github-based installs</summary>"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "iVbVtfoRTwuKpOweuGiEtO0WtTEME3GGuLq/j/XRVIg=",
+    "originContent": "### General Installation troubleshooting",
+    "translatedContent": "### General Installation troubleshooting"
+  },
+  {
+    "row": 89,
+    "rowsha": "oQU3Br5jOaaR0nh0Hevfsq2cYta4jARijBFC6V2K4LA=",
+    "originContent": "BPCells tries to print informative error messages during compilation to help diagnose the problem. For a more",
+    "translatedContent": "BPCells tries to print informative error messages during compilation to help diagnose the problem. For a more"
+  },
+  {
+    "row": 90,
+    "rowsha": "NSNdDGajILXh79TIvOqFPJUQQY4BmgaCakFfi8ywlHQ=",
+    "originContent": "verbose set of information, run `Sys.setenv(BPCELLS_DEBUG_INSTALL=\"true\")` prior to `remotes::install_github(\"bnprks/BPCells/r\")`. If you still can't solve the issue with that additional information, feel free to file a Github issue, being",
+    "translatedContent": "verbose set of information, run `Sys.setenv(BPCELLS_DEBUG_INSTALL=\"true\")` prior to `remotes::install_github(\"bnprks/BPCells/r\")`. If you still can't solve the issue with that additional information, feel free to file a Github issue, being"
+  },
+  {
+    "row": 91,
+    "rowsha": "/Qzdkcn2tnBNPRwm/5f303i8znh7NJqTbijxH0tB5uM=",
+    "originContent": "sure to use a [collapsible section](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections) for the verbose installation log.",
+    "translatedContent": "sure to use a [collapsible section](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections) for the verbose installation log."
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "IOcnMge6wYFkLPp8rh16z9mGLoN51db3zKNgD346Y0c=",
+    "originContent": "## Python Installation",
+    "translatedContent": "## Python Installation"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "Uq0sKEuNWp+XSUxCEupCoISCB+Fd4rdnMtC+8dlvzCs=",
+    "originContent": "BPCells can be directly installed via pip:",
+    "translatedContent": "BPCells can be directly installed via pip:"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 100,
+    "rowsha": "8yfBIhSPBskXM5Jn+6SsKvP6tvgRtRNGP4vfqCGlNeM=",
+    "originContent": "python -m pip install bpcells",
+    "translatedContent": "python -m pip install bpcells"
+  },
+  {
+    "row": 101,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Contributing"
+  },
+  {
+    "row": 103,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "BPCells is an open source project, and we welcome quality contributions. If you"
+  },
+  {
+    "row": 104,
+    "rowsha": "FWp7gEUUmitHkCdAbwukx+yShpsdBTiYlcI0E+tPfVI=",
+    "originContent": "BPCells is an open source project, and we welcome quality contributions. If you",
+    "translatedContent": "are interested in contributing and have experience with C++, along with Python"
+  },
+  {
+    "row": 105,
+    "rowsha": "gGBOUickXRuM/2IVyhnlnnrXuVq5EcHVv2VFMhxmliA=",
+    "originContent": "are interested in contributing and have experience with C++, along with Python",
+    "translatedContent": "or R, feel free to reach out with ideas you would like to implement yourself."
+  },
+  {
+    "row": 106,
+    "rowsha": "vZ4VozDL37tnQm8l4QkbBlQpADeauHHUxxpJjozJkLk=",
+    "originContent": "or R, feel free to reach out with ideas you would like to implement yourself.",
+    "translatedContent": "We're happy to provide pointers for how to get started, time permitting."
+  },
+  {
+    "row": 107,
+    "rowsha": "4DgRw6wprdeOW2PziOv588rol4lPyhwOvujljb3FW8I=",
+    "originContent": "We're happy to provide pointers for how to get started, time permitting.",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "If you are unfamiliar with C++ it will be difficult for you to contribute code,"
+  },
+  {
+    "row": 109,
+    "rowsha": "APe/gmDU96avIDlLHSwfZPw46xVB/56DU2GXRoD0Evk=",
+    "originContent": "If you are unfamiliar with C++ it will be difficult for you to contribute code,",
+    "translatedContent": "but detailed bug reports with"
+  },
+  {
+    "row": 110,
+    "rowsha": "9h5+hGTg7vIP4FuI2Um+hitSqlg8qd1tPHxL/V0hhKI=",
+    "originContent": "but detailed bug reports with",
+    "translatedContent": "[reproducible examples](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html)"
+  },
+  {
+    "row": 111,
+    "rowsha": "Zp3mh8g7D7KFVOm6pxwEUR+sRYi4MdMbcba/8Jeozmg=",
+    "originContent": "[reproducible examples](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html)",
+    "translatedContent": "are still a great way to help out. Github issues are the best forum for this."
+  },
+  {
+    "row": 112,
+    "rowsha": "tyvuas8dOkBoCJ4byC2zBBugkDWMwfK4kcQ8+3HvxMI=",
+    "originContent": "are still a great way to help out. Github issues are the best forum for this.",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "If you maintain a single cell analysis package and want to use BPCells to"
+  },
+  {
+    "row": 114,
+    "rowsha": "DKo8uxNlsERrgf03Ax3PTMj33oZulCs+HZlbORQ3mZY=",
+    "originContent": "If you maintain a single cell analysis package and want to use BPCells to",
+    "translatedContent": "improve your scalability, we're happy to provide advice. We have had a couple of labs"
+  },
+  {
+    "row": 115,
+    "rowsha": "mN6LawqO4kzC5WI2rXlg7mjuLpW25jKMS9UJVZYCz+E=",
+    "originContent": "improve your scalability, we're happy to provide advice. We have had a couple of labs",
+    "translatedContent": "try this so far, with promising success. Email is the best way to get in touch"
+  },
+  {
+    "row": 116,
+    "rowsha": "teIg4tZMw2rD9OA8+JV5Tloy8Er/4jAdCIIzICev9pc=",
+    "originContent": "try this so far, with promising success. Email is the best way to get in touch",
+    "translatedContent": "for this (look in the `DESCRIPTION` file on github for contact info). Python"
+  },
+  {
+    "row": 117,
+    "rowsha": "ywC6+4buyT+BgBn4EMhzsdq7wGond8BaKr0A14sux8A=",
+    "originContent": "for this (look in the `DESCRIPTION` file on github for contact info). Python",
+    "translatedContent": "developers welcome, though the current python package is still in experimental status."
+  },
+  {
+    "row": 118,
+    "rowsha": "8jd5064YBhz+lMQy1NHJjM1enrhwAWQ6TYQtxftBYBs=",
+    "originContent": "developers welcome, though the current python package is still in experimental status.",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,620 @@
+[
+  {
+    "Id": 1,
+    "Content": "# OpenTelemetry-Go gqlgen Instrumentation\n\n[![ci](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml)\n[![Go Report Card](https://goreportcard.com/badge/github.com/ravilushqa/otelgqlgen)](https://goreportcard.com/report/github.com/ravilushqa/otelgqlgen)\n[![codecov](https://codecov.io/gh/ravilushqa/otelgqlgen/branch/main/graph/badge.svg?token=4LXALH3K72)](https://codecov.io/gh/ravilushqa/otelgqlgen)\n[![Go Reference](https://pkg.go.dev/badge/github.com/ravilushqa/otelgqlgen.svg)](https://pkg.go.dev/github.com/ravilushqa/otelgqlgen)\n\nIt is an OpenTelemetry instrumentation for Golang 99designs/gqlgen, a port from https://github.com/open-telemetry/opentelemetry-go-contrib/pull/761.\n\nIt can only instrument traces for the present.\n\n## Installation\n\nTo install the otelgqlgen package, use the following command:\n",
+    "ContentSha": "24pNTG0vAAJHdsNVXhdnP5oLsl+CjdIOLBL8kg+H90E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# OpenTelemetry-Go gqlgen 계측\n\n[![ci](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml)\n[![Go Report Card](https://goreportcard.com/badge/github.com/ravilushqa/otelgqlgen)](https://goreportcard.com/report/github.com/ravilushqa/otelgqlgen)\n[![codecov](https://codecov.io/gh/ravilushqa/otelgqlgen/branch/main/graph/badge.svg?token=4LXALH3K72)](https://codecov.io/gh/ravilushqa/otelgqlgen)\n[![Go Reference](https://pkg.go.dev/badge/github.com/ravilushqa/otelgqlgen.svg)](https://pkg.go.dev/github.com/ravilushqa/otelgqlgen)\n\n이것은 Golang 99designs/gqlgen용 OpenTelemetry 계측으로, https://github.com/open-telemetry/opentelemetry-go-contrib/pull/761에서 포팅한 것입니다.\n\n현재는 추적(trace)만 계측할 수 있습니다.\n\n## 설치\n\notelgqlgen 패키지를 설치하려면 다음 명령어를 사용하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBMH2B+IY93V20Xe0foNXDTzuwvLnBtaGJvgWe+01ag=",
+        "originContent": "# OpenTelemetry-Go gqlgen Instrumentation",
+        "translatedContent": "# OpenTelemetry-Go gqlgen 계측"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "U6OZG4gfKHf1t6wdlZEqUtFgIGX/AdKfv/VJD0yEKig=",
+        "originContent": "[![ci](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml)",
+        "translatedContent": "[![ci](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/ravilushqa/otelgqlgen/actions/workflows/ci.yaml)"
+      },
+      {
+        "row": 4,
+        "rowsha": "AG1wpmdoL+1IG9Pz8EySmaq8RP9Wc5nycEuL7xY4g1c=",
+        "originContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/ravilushqa/otelgqlgen)](https://goreportcard.com/report/github.com/ravilushqa/otelgqlgen)",
+        "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/ravilushqa/otelgqlgen)](https://goreportcard.com/report/github.com/ravilushqa/otelgqlgen)"
+      },
+      {
+        "row": 5,
+        "rowsha": "yIXdC1c96+Rx4hh7ovYplY9j170RlZxQOsAGvL87uDk=",
+        "originContent": "[![codecov](https://codecov.io/gh/ravilushqa/otelgqlgen/branch/main/graph/badge.svg?token=4LXALH3K72)](https://codecov.io/gh/ravilushqa/otelgqlgen)",
+        "translatedContent": "[![codecov](https://codecov.io/gh/ravilushqa/otelgqlgen/branch/main/graph/badge.svg?token=4LXALH3K72)](https://codecov.io/gh/ravilushqa/otelgqlgen)"
+      },
+      {
+        "row": 6,
+        "rowsha": "+kacZLOc8l6WisWHI3hCeDr27JNKwElQddL3ojrKgfc=",
+        "originContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/ravilushqa/otelgqlgen.svg)](https://pkg.go.dev/github.com/ravilushqa/otelgqlgen)",
+        "translatedContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/ravilushqa/otelgqlgen.svg)](https://pkg.go.dev/github.com/ravilushqa/otelgqlgen)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ob+Aan942CKw3o9ylSmyf96X5qENNZpWinWQbSYMUo0=",
+        "originContent": "It is an OpenTelemetry instrumentation for Golang 99designs/gqlgen, a port from https://github.com/open-telemetry/opentelemetry-go-contrib/pull/761.",
+        "translatedContent": "이것은 Golang 99designs/gqlgen용 OpenTelemetry 계측으로, https://github.com/open-telemetry/opentelemetry-go-contrib/pull/761에서 포팅한 것입니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "CTNSwcy9AJbpTgLB4jl6lDWUYEZIFd1ua1i1e7BfmhI=",
+        "originContent": "It can only instrument traces for the present.",
+        "translatedContent": "현재는 추적(trace)만 계측할 수 있습니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "hoa34o+4AySJVwAFEF7Mie0zaMkgaJ60tz5PGl51xYs=",
+        "originContent": "To install the otelgqlgen package, use the following command:",
+        "translatedContent": "otelgqlgen 패키지를 설치하려면 다음 명령어를 사용하세요:"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngo get github.com/ravilushqa/otelgqlgen\n```",
+    "ContentSha": "UtlbcpHxtn/bxOFPZ+7rnhQNp9Z0upCKIqOvOy4V7xk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngo get github.com/ravilushqa/otelgqlgen\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "J+tLSkILZPcmOsonM0OYYatnegGdxIiSsujwENwcPFI=",
+        "originContent": "go get github.com/ravilushqa/otelgqlgen",
+        "translatedContent": "go get github.com/ravilushqa/otelgqlgen"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Usage\n\nBelow is a basic example of how to use otelgqlgen:\n",
+    "ContentSha": "Eyp8tJyPgojMAfr4GxQHbt7i0QX7dQd2EojbhLh1ZcU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 사용법\n\n아래는 otelgqlgen을 사용하는 기본 예제입니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "lF4IJcl67Htj1qpDG3B7zyJL60xlMzTINxV7BcM/vM4=",
+        "originContent": "Below is a basic example of how to use otelgqlgen:",
+        "translatedContent": "아래는 otelgqlgen을 사용하는 기본 예제입니다:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```go\npackage main\n\nimport (\n    \"github.com/99designs/gqlgen/graphql/handler\"\n    \"github.com/ravilushqa/otelgqlgen\"\n    \"github.com/myorg/mygqlgenapi/graph\"\n)\n\nfunc main() {\n    srv := handler.NewDefaultServer(graph.NewExecutableSchema(graph.Config{Resolvers: &graph.Resolver{}}))\n\n    // Add the otelgqlgen middleware to add OpenTelemetry tracing\n    srv.Use(otelgqlgen.Middleware())\n\n    // Your usual server setup code...\n}\n```",
+    "ContentSha": "yCjbRwXz+n+SFGksy5X8+y56CNfQ+mI3gwAOu6QUDiA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\npackage main\n\nimport (\n    \"github.com/99designs/gqlgen/graphql/handler\"\n    \"github.com/ravilushqa/otelgqlgen\"\n    \"github.com/myorg/mygqlgenapi/graph\"\n)\n\nfunc main() {\n    srv := handler.NewDefaultServer(graph.NewExecutableSchema(graph.Config{Resolvers: &graph.Resolver{}}))\n\n    // Add the otelgqlgen middleware to add OpenTelemetry tracing\n    srv.Use(otelgqlgen.Middleware())\n\n    // Your usual server setup code...\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "UShDhV/MkqUcgQsbWOBzHAHqyaaiPBV7+gKq1x7f++c=",
+        "originContent": "package main",
+        "translatedContent": "package main"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0NrstaoCAUE7YHmPS6R4dGEAwhf7+jXw9blKepsV2RQ=",
+        "originContent": "import (",
+        "translatedContent": "import ("
+      },
+      {
+        "row": 5,
+        "rowsha": "NqGoRsHaJ42vbGdaFLQ1yXz3d9EsE4l61WhGmacKhH0=",
+        "originContent": "    \"github.com/99designs/gqlgen/graphql/handler\"",
+        "translatedContent": "    \"github.com/99designs/gqlgen/graphql/handler\""
+      },
+      {
+        "row": 6,
+        "rowsha": "eDOG85Y8A5T0joKqiH0GhQVNiAJDhOEuef1AXU8hZu0=",
+        "originContent": "    \"github.com/ravilushqa/otelgqlgen\"",
+        "translatedContent": "    \"github.com/ravilushqa/otelgqlgen\""
+      },
+      {
+        "row": 7,
+        "rowsha": "l6MhlS3ysxRNgHQmADla2u+YYsouD2YrmveCl+iVDos=",
+        "originContent": "    \"github.com/myorg/mygqlgenapi/graph\"",
+        "translatedContent": "    \"github.com/myorg/mygqlgenapi/graph\""
+      },
+      {
+        "row": 8,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "477XskFGOI6HtL1vgLCndqbEY9HpnF/1YFeYnaoIPXA=",
+        "originContent": "func main() {",
+        "translatedContent": "func main() {"
+      },
+      {
+        "row": 11,
+        "rowsha": "/L7CsvjC4xta5Xm+DlmLi7RYHWk5/HNz3RwKyPvDLco=",
+        "originContent": "    srv := handler.NewDefaultServer(graph.NewExecutableSchema(graph.Config{Resolvers: &graph.Resolver{}}))",
+        "translatedContent": "    srv := handler.NewDefaultServer(graph.NewExecutableSchema(graph.Config{Resolvers: &graph.Resolver{}}))"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "+Kay/BmPkdR+Dzik1V/AdoIldOpiGVVHDCtlHXGZPCI=",
+        "originContent": "    // Add the otelgqlgen middleware to add OpenTelemetry tracing",
+        "translatedContent": "    // Add the otelgqlgen middleware to add OpenTelemetry tracing"
+      },
+      {
+        "row": 14,
+        "rowsha": "h+X9it6WG6Nmy9jtToaW6hnUdRomxIual0bt1J30LvE=",
+        "originContent": "    srv.Use(otelgqlgen.Middleware())",
+        "translatedContent": "    srv.Use(otelgqlgen.Middleware())"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "tLXWy7FT4udDg16qyODhQY6DWjg/Zq4vHcrk4uLpJYc=",
+        "originContent": "    // Your usual server setup code...",
+        "translatedContent": "    // Your usual server setup code..."
+      },
+      {
+        "row": 17,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 18,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Configuration Options\n\notelgqlgen provides several options to customize the tracing behavior:\n\n- `WithTracerProvider(provider)`: Specifies a custom tracer provider. By default, the global OpenTelemetry tracer provider is used.\n- `WithComplexityExtensionName(name)`: Specifies a name for the complexity extension. By default, a name is automatically generated.\n- `WithRequestVariablesAttributesBuilder(builder)`: Specifies a custom function to build the attributes for the request variables.\n- `WithoutVariables()`: Disables the variables attributes.\n- `WithCreateSpanFromFields(predicate)`: Specifies a custom function to control whether a span should be created based on the GraphQL context fields.\n- `WithInterceptResponseResultHandlerFunc(handler)`: Specifies a custom function to intercept and handle GraphQL response results before they are returned.\n- `WithInterceptFieldsResultHandlerFunc(handler)`: Specifies a custom function to intercept and handle GraphQL field-level results and errors during execution.\n\n## Example\n\nSee [./example](./example).\n\n## Compatibility\n\nThis project is tested on the following systems.\n\n| OS      | Go Version | Architecture |\n| ------- |------------| ------------ |\n| Ubuntu  | 1.23       | amd64        |\n| Ubuntu  | 1.24       | amd64        |\n| Ubuntu  | 1.23       | 386          |\n| Ubuntu  | 1.24       | 386          |\n| MacOS   | 1.23       | amd64        |\n| MacOS   | 1.24       | amd64        |\n| Windows | 1.23       | amd64        |\n| Windows | 1.24       | amd64        |\n| Windows | 1.23       | 386          |\n| Windows | 1.24       | 386          |\n\nWhile this project should work for other systems, no compatibility guarantees\nare made for those systems currently.\n\nThe project follows the [Release Policy](https://golang.org/doc/devel/release#policy) to support major Go releases.\n\n",
+    "ContentSha": "vAQZxE1MqQaUiP6gH+ABearmaeUcDQz1GG1yu7+gh7w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 구성 옵션\n\notelgqlgen은 추적 동작을 사용자 정의할 수 있는 여러 옵션을 제공합니다:\n\n- `WithTracerProvider(provider)`: 사용자 정의 트레이서 프로바이더를 지정합니다. 기본적으로 전역 OpenTelemetry 트레이서 프로바이더가 사용됩니다.\n- `WithComplexityExtensionName(name)`: 복잡성 확장에 대한 이름을 지정합니다. 기본적으로 이름은 자동으로 생성됩니다.\n- `WithRequestVariablesAttributesBuilder(builder)`: 요청 변수의 속성을 빌드하는 사용자 정의 함수를 지정합니다.\n- `WithoutVariables()`: 변수 속성을 비활성화합니다.\n- `WithCreateSpanFromFields(predicate)`: GraphQL 컨텍스트 필드를 기반으로 스팬을 생성할지 여부를 제어하는 사용자 정의 함수를 지정합니다.\n- `WithInterceptResponseResultHandlerFunc(handler)`: GraphQL 응답 결과가 반환되기 전에 이를 가로채고 처리하는 사용자 정의 함수를 지정합니다.\n- `WithInterceptFieldsResultHandlerFunc(handler)`: 실행 중 GraphQL 필드 수준 결과 및 오류를 가로채고 처리하는 사용자 정의 함수를 지정합니다.\n\n## 예제\n\n[./example](./example)을 참조하세요.\n\n## 호환성\n\n이 프로젝트는 다음 시스템에서 테스트되었습니다.\n\n| 운영체제 | Go 버전    | 아키텍처    |\n| ------- |------------| ------------ |\n| Ubuntu  | 1.23       | amd64        |\n| Ubuntu  | 1.24       | amd64        |\n| Ubuntu  | 1.23       | 386          |\n| Ubuntu  | 1.24       | 386          |\n| MacOS   | 1.23       | amd64        |\n| MacOS   | 1.24       | amd64        |\n| Windows | 1.23       | amd64        |\n| Windows | 1.24       | amd64        |\n| Windows | 1.23       | 386          |\n| Windows | 1.24       | 386          |\n\n이 프로젝트는 다른 시스템에서도 작동할 수 있지만, 현재로서는 해당 시스템들에 대한 호환성 보장은 없습니다.\n\n이 프로젝트는 주요 Go 릴리스를 지원하기 위해 [릴리스 정책](https://golang.org/doc/devel/release#policy)을 따릅니다.\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 구성 옵션"
+      },
+      {
+        "row": 2,
+        "rowsha": "hexaSrobu5kODfHM3LQ66ZseHR0qg6m9UWjwTgx7UGY=",
+        "originContent": "### Configuration Options",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "otelgqlgen은 추적 동작을 사용자 정의할 수 있는 여러 옵션을 제공합니다:"
+      },
+      {
+        "row": 4,
+        "rowsha": "FjvqVQ6zMEt0agbW7vevaEG7R2EhVNzzrl2tzclDM1s=",
+        "originContent": "otelgqlgen provides several options to customize the tracing behavior:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `WithTracerProvider(provider)`: 사용자 정의 트레이서 프로바이더를 지정합니다. 기본적으로 전역 OpenTelemetry 트레이서 프로바이더가 사용됩니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "ivwIJo79AIm0RmzWkOd/Zgt+b9iF7MB2XVVua81dpTA=",
+        "originContent": "- `WithTracerProvider(provider)`: Specifies a custom tracer provider. By default, the global OpenTelemetry tracer provider is used.",
+        "translatedContent": "- `WithComplexityExtensionName(name)`: 복잡성 확장에 대한 이름을 지정합니다. 기본적으로 이름은 자동으로 생성됩니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "KdzbqS6bqLbhNwGqI/Pv4AH20PAzTzMu5zlVr17iCRY=",
+        "originContent": "- `WithComplexityExtensionName(name)`: Specifies a name for the complexity extension. By default, a name is automatically generated.",
+        "translatedContent": "- `WithRequestVariablesAttributesBuilder(builder)`: 요청 변수의 속성을 빌드하는 사용자 정의 함수를 지정합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "sW0CeXO/hQC6W8jtv8bTOdmxOsY0OVCfvhsDHIpzKBw=",
+        "originContent": "- `WithRequestVariablesAttributesBuilder(builder)`: Specifies a custom function to build the attributes for the request variables.",
+        "translatedContent": "- `WithoutVariables()`: 변수 속성을 비활성화합니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "dcCnLR1QM+0OlyUA7Jbyk7KUqAIHrP34Fex7kXBh1sE=",
+        "originContent": "- `WithoutVariables()`: Disables the variables attributes.",
+        "translatedContent": "- `WithCreateSpanFromFields(predicate)`: GraphQL 컨텍스트 필드를 기반으로 스팬을 생성할지 여부를 제어하는 사용자 정의 함수를 지정합니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "R0FgHoQLYXQcPCb5AwuNO0HYK+/Uf4LfZWY3IFJ37IY=",
+        "originContent": "- `WithCreateSpanFromFields(predicate)`: Specifies a custom function to control whether a span should be created based on the GraphQL context fields.",
+        "translatedContent": "- `WithInterceptResponseResultHandlerFunc(handler)`: GraphQL 응답 결과가 반환되기 전에 이를 가로채고 처리하는 사용자 정의 함수를 지정합니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "tcwAOf3rNjF+owvBQ/efueKK0O87GJJHefbQ11JrIBU=",
+        "originContent": "- `WithInterceptResponseResultHandlerFunc(handler)`: Specifies a custom function to intercept and handle GraphQL response results before they are returned.",
+        "translatedContent": "- `WithInterceptFieldsResultHandlerFunc(handler)`: 실행 중 GraphQL 필드 수준 결과 및 오류를 가로채고 처리하는 사용자 정의 함수를 지정합니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "AW7OCqNwM0xWzlFPyRVLfEP8+uwxi4vC20AAD//LJEA=",
+        "originContent": "- `WithInterceptFieldsResultHandlerFunc(handler)`: Specifies a custom function to intercept and handle GraphQL field-level results and errors during execution.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 예제"
+      },
+      {
+        "row": 14,
+        "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+        "originContent": "## Example",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[./example](./example)을 참조하세요."
+      },
+      {
+        "row": 16,
+        "rowsha": "DiuaITKm/Dfli+IUPdFsoRtG0rhPNDTz9ylVVNaAcqA=",
+        "originContent": "See [./example](./example).",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 호환성"
+      },
+      {
+        "row": 18,
+        "rowsha": "ToF55XSC5N+RkvpW3gy7KfKIb5yrXRpshO7tai3jNdg=",
+        "originContent": "## Compatibility",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 프로젝트는 다음 시스템에서 테스트되었습니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "iF+3tus02YNFf/GeZIIIGv2D4C9z/YX45nkvoEtCbi4=",
+        "originContent": "This project is tested on the following systems.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 운영체제 | Go 버전    | 아키텍처    |"
+      },
+      {
+        "row": 22,
+        "rowsha": "M/MBel13B72vGQyVl+e7vEXDhlFu50ogk3Grlx3C1ME=",
+        "originContent": "| OS      | Go Version | Architecture |",
+        "translatedContent": "| ------- |------------| ------------ |"
+      },
+      {
+        "row": 23,
+        "rowsha": "dJclsxblWRNBjYT4c6l7EvXBIbeAKJjM5S1CuGuUIcY=",
+        "originContent": "| ------- |------------| ------------ |",
+        "translatedContent": "| Ubuntu  | 1.23       | amd64        |"
+      },
+      {
+        "row": 24,
+        "rowsha": "znb6c9qzG2yCM4u2fPWIx0KEbDGeGAtb8o+dHREIVwE=",
+        "originContent": "| Ubuntu  | 1.23       | amd64        |",
+        "translatedContent": "| Ubuntu  | 1.24       | amd64        |"
+      },
+      {
+        "row": 25,
+        "rowsha": "KRT4/t7H4RMMEB2Py+2m74IKxSjFapFtxPKUKyjtAGQ=",
+        "originContent": "| Ubuntu  | 1.24       | amd64        |",
+        "translatedContent": "| Ubuntu  | 1.23       | 386          |"
+      },
+      {
+        "row": 26,
+        "rowsha": "OS0LBbiMC+0cm47O+y4Ml0joTcqB9iX2eHNkaHWVZnU=",
+        "originContent": "| Ubuntu  | 1.23       | 386          |",
+        "translatedContent": "| Ubuntu  | 1.24       | 386          |"
+      },
+      {
+        "row": 27,
+        "rowsha": "2GQCOnJ56TFLkmHoVieGqJscAr8QBx4bR24v4sSpamo=",
+        "originContent": "| Ubuntu  | 1.24       | 386          |",
+        "translatedContent": "| MacOS   | 1.23       | amd64        |"
+      },
+      {
+        "row": 28,
+        "rowsha": "GlGeGATsrfHFBwbK9CjdFmIwRaqOVX1G/Mi5qetrOBM=",
+        "originContent": "| MacOS   | 1.23       | amd64        |",
+        "translatedContent": "| MacOS   | 1.24       | amd64        |"
+      },
+      {
+        "row": 29,
+        "rowsha": "9BecfTT68tlSJXSQT+U2jr8tdGxUlrpRp3yjBsVYqJ4=",
+        "originContent": "| MacOS   | 1.24       | amd64        |",
+        "translatedContent": "| Windows | 1.23       | amd64        |"
+      },
+      {
+        "row": 30,
+        "rowsha": "0a6rLyvM8fd0LCp/zhvuS4d54Pp0XqBzpmdH3qhfG4I=",
+        "originContent": "| Windows | 1.23       | amd64        |",
+        "translatedContent": "| Windows | 1.24       | amd64        |"
+      },
+      {
+        "row": 31,
+        "rowsha": "Ni9Ni4Rzq5GiaNCNVYZPaF2BzagYsi5IqFuLL1E1XH8=",
+        "originContent": "| Windows | 1.24       | amd64        |",
+        "translatedContent": "| Windows | 1.23       | 386          |"
+      },
+      {
+        "row": 32,
+        "rowsha": "ZcBjmFXKW4qwcOuzBRv27q/ZbLue5/RvRGkIyODUd4A=",
+        "originContent": "| Windows | 1.23       | 386          |",
+        "translatedContent": "| Windows | 1.24       | 386          |"
+      },
+      {
+        "row": 33,
+        "rowsha": "PhIrkgh2Kx2VGBDsNz9qhxmQ6PHWFU+QogjpYwMEOxc=",
+        "originContent": "| Windows | 1.24       | 386          |",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 프로젝트는 다른 시스템에서도 작동할 수 있지만, 현재로서는 해당 시스템들에 대한 호환성 보장은 없습니다."
+      },
+      {
+        "row": 35,
+        "rowsha": "b/Fw236g0S8dlzwZ28OWk1UgE9b5YS6Ahg+/D5SwBEE=",
+        "originContent": "While this project should work for other systems, no compatibility guarantees",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "B4IbdTP8he20+M2u3/VwvC9ZGqERrxqiVG5dpSNEbYI=",
+        "originContent": "are made for those systems currently.",
+        "translatedContent": "이 프로젝트는 주요 Go 릴리스를 지원하기 위해 [릴리스 정책](https://golang.org/doc/devel/release#policy)을 따릅니다."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "cD6u2OiZ7mym/50GVuFFd/K0bbV/lkmrMHJY4tk4+v8=",
+        "originContent": "The project follows the [Release Policy](https://golang.org/doc/devel/release#policy) to support major Go releases.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "## References\n\n- [GraphQL](https://graphql.org/)\n- [gqlgen](https://gqlgen.com)\n\n## License\n\nThis project is licensed under the Apache License, Version 2.0. See the LICENSE file for details.\n",
+    "ContentSha": "N6ck8blOOvKg0NYw9K8pu9NUy7VhOi3FoGdpKs9R3VA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 참고문헌\n\n- [GraphQL](https://graphql.org/)\n- [gqlgen](https://gqlgen.com)\n\n## 라이선스\n\n이 프로젝트는 Apache License, Version 2.0에 따라 라이선스가 부여됩니다. 자세한 내용은 LICENSE 파일을 참조하십시오.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
+        "originContent": "## References",
+        "translatedContent": "## 참고문헌"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Xn5cPbY+rFOXXCPHpvF2x6pOkaoCSdiVhJbNXxYfse4=",
+        "originContent": "- [GraphQL](https://graphql.org/)",
+        "translatedContent": "- [GraphQL](https://graphql.org/)"
+      },
+      {
+        "row": 4,
+        "rowsha": "xM2ltd0mYKvBrzjOHhsF231rypkzOr2m6vfn5YD1qro=",
+        "originContent": "- [gqlgen](https://gqlgen.com)",
+        "translatedContent": "- [gqlgen](https://gqlgen.com)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "L+8PCE6WzIvJC447IHg1uGkyP5YYw+69SjXHGtIjGr4=",
+        "originContent": "This project is licensed under the Apache License, Version 2.0. See the LICENSE file for details.",
+        "translatedContent": "이 프로젝트는 Apache License, Version 2.0에 따라 라이선스가 부여됩니다. 자세한 내용은 LICENSE 파일을 참조하십시오."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
