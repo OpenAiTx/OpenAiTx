@@ -1,30 +1,62 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # OCI2Git
 
-Une application Rust qui convertit les images de conteneurs (Docker, etc.) en dépôts Git. Chaque couche de conteneur est représentée comme un commit Git, préservant l'historique et la structure de l'image originale.
+Une application Rust qui convertit les images de conteneur (Docker, etc.) en dépôts Git. Chaque couche du conteneur est représentée comme un commit Git, préservant l’historique et la structure de l’image originale.
 
-![Démonstration de OCI2Git convertissant l'image nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+![Démo d'OCI2Git convertissant l'image nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## Fonctionnalités
 
-- Analyse des images Docker et extraction des informations de couche
-- Création d’un dépôt Git où chaque couche d’image est représentée par un commit
-- Prise en charge des couches vides (ENV, WORKDIR, etc.) comme commits vides
+- Analysez les images Docker et extrayez les informations des couches
+- Créez un dépôt Git où chaque couche d'image est représentée comme un commit
+- Prise en charge des couches vides (ENV, WORKDIR, etc.) sous forme de commits vides
 - Extraction complète des métadonnées au format Markdown
 - Architecture extensible pour supporter différents moteurs de conteneurs
 
-## Cas d’utilisation
+## Cas d'utilisation
 
-### Différence entre couches
-Lors du dépannage de problèmes de conteneur, vous pouvez utiliser la puissante fonctionnalité de diff de Git pour identifier exactement ce qui a changé entre deux couches. En exécutant `git diff` entre les commits, les ingénieurs peuvent voir précisément quels fichiers ont été ajoutés, modifiés ou supprimés, ce qui facilite grandement la compréhension de l’impact de chaque instruction Dockerfile et la localisation des changements problématiques.
-![Exemple de différence entre couches](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### Comparaison des couches
+Lors du dépannage des problèmes de conteneur, vous pouvez utiliser les puissantes capacités de comparaison de Git pour identifier exactement ce qui a changé entre deux couches. En exécutant `git diff` entre des commits, les ingénieurs peuvent voir précisément quels fichiers ont été ajoutés, modifiés ou supprimés, ce qui facilite grandement la compréhension de l'impact de chaque instruction Dockerfile et la localisation des changements problématiques.
+![Exemple de comparaison de couches](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### Suivi de l’origine
-Avec `git blame`, les développeurs peuvent rapidement déterminer quelle couche a introduit un fichier ou une ligne de code spécifique. Ceci est particulièrement utile lors du diagnostic de problèmes avec des fichiers de configuration ou des dépendances. Plutôt que d’inspecter manuellement chaque couche, vous pouvez immédiatement retracer l’origine de n’importe quel fichier jusqu’à sa couche source et l’instruction Dockerfile correspondante.
+### Suivi de l'origine
+À l'aide de `git blame`, les développeurs peuvent rapidement déterminer quelle couche a introduit un fichier ou une ligne de code spécifique. Ceci est particulièrement utile lors du diagnostic de problèmes liés aux fichiers de configuration ou aux dépendances. Au lieu d'inspecter manuellement chaque couche, vous pouvez immédiatement retracer l'origine de tout fichier jusqu'à sa couche source et à l'instruction Dockerfile correspondante.
 
 ### Suivi du cycle de vie des fichiers
-OCI2Git vous permet de suivre le parcours d’un fichier spécifique tout au long de l’historique de l’image du conteneur. Vous pouvez observer quand un fichier a été créé initialement, comment il a été modifié à travers les couches, et s’il a été éventuellement supprimé. Cette vue complète aide à comprendre l’évolution d’un fichier sans avoir à suivre manuellement les changements à travers potentiellement des dizaines de couches.
+OCI2Git vous permet de suivre le parcours d'un fichier spécifique tout au long de l'historique de l'image du conteneur. Vous pouvez observer quand un fichier a été initialement créé, comment il a été modifié à travers les couches, et si/quand il a finalement été supprimé. Cette vue complète aide à comprendre l'évolution d'un fichier sans avoir à suivre manuellement les changements sur potentiellement des dizaines de couches.
 
-Pour suivre l’historique d’un fichier dans votre image de conteneur — y compris quand il est apparu, a été modifié ou supprimé — vous pouvez utiliser ces commandes Git après conversion :
+Pour suivre l'historique d'un fichier dans votre image de conteneur — y compris quand il est apparu pour la première fois, a été modifié ou supprimé — vous pouvez utiliser ces commandes Git après conversion :
 
 ```bash
 # Full history of a file (including renames)
@@ -174,6 +206,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
 
 ---

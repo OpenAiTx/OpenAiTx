@@ -1,6 +1,38 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 # OCI2Git
 
-A Rust application that converts container images (Docker, etc.) to Git repositories. Each container layer is represented as a Git commit, preserving the history and structure of the original image.
+A Rust application that converts container images (Docker, etc.) into Git repositories. Each container layer is mapped to a Git commit, retaining the history and structure of the original image.
 
 ![Demo of OCI2Git converting the nginx image](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
@@ -174,6 +206,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
 
 ---

@@ -1,0 +1,1244 @@
+[
+  {
+    "Id": 1,
+    "Content": "# RaySplats: Ray Tracing based Gaussian Splatting\nKrzysztof Byrski, Marcin Mazur, Jacek Tabor, Tadeusz Dziarmaga, Marcin Kądziołka, Dawid Baran, Przemysław Spurek <br>\n\n| arXiv |\n| :---- |\n| RaySplats: Ray Tracing based Gaussian Splatting [https://arxiv.org/pdf/2501.19196.pdf](http://arxiv.org/abs/2501.19196)|\n\n<img src=assets/gif1.gif height=\"300\" class=\"center\"> \n<br>\n\n<table align=\"center\" cellspacing=\"0\" cellpadding=\"0\">\n  <tr class=\"center\">\n    <td><img src=assets/screenshot1.png height=\"200\" width=\"300\" class=\"center\"></td>\n    <td><img src=assets/screenshot92.png height=\"200\" width=\"300\" class=\"center\"></td>\n    <td><img src=assets/screenshot10.png height=\"200\" width=\"300\" class=\"center\"> </td>\n  </tr>\n  </tr class=\"center\">\n  <tr class=\"center\">\n    <td><img src=assets/screenshot7.png height=\"200\" width=\"300\" ></td>\n    <td><img src=assets/screenshot82.png height=\"200\" width=\"300\" ></td>\n    <td><img src=assets/screenshot4.png height=\"200\" width=\"300\" class=\"center\"> </td>\n  </tr>\n</table>\n\n# Features\n- Spherical harmonics support up to the degree **4**.\n- Interactive Windows viewer / optimizer application allowing to preview the trained model state in the real time.\n- Support for the **PLY** trained model output format.\n- Highly efficient pure Gaussian renderer (no embedding primitive mesh approximation).\n- Highly configurable optimizer based on the convenient text configuration file.\n- Support for both the **Blender** and **COLMAP** data sets (after some preprocessing by the 3DGS).\n- Built-in evaluation of the model and visualization to the *.bmp file with the configurable frequency.\n\n# Controls in the interactive Windows viewer / optimizer application\n\n<img src=\"https://raw.githubusercontent.com/KByrski/RaySplatting/master/assets/app_main_window.png\">\n\n- **Double Left Click**: Toggle between the **static camera** and the **free roam** mode.\n- **Mouse Movement**: Rotate the camera in the **free roam** mode.\n- **W / S**: Move forward / backward.",
+    "ContentSha": "QcjcJIjc/DPTnDmaKt1u+u/szBJ9cRC8Fvviq+MifOQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# RaySplats: 광선 추적 기반 가우시안 스플래팅\nKrzysztof Byrski, Marcin Mazur, Jacek Tabor, Tadeusz Dziarmaga, Marcin Kądziołka, Dawid Baran, Przemysław Spurek <br>\n\n| arXiv |\n| :---- |\n| RaySplats: 광선 추적 기반 가우시안 스플래팅 [https://arxiv.org/pdf/2501.19196.pdf](http://arxiv.org/abs/2501.19196)|\n\n<img src=assets/gif1.gif height=\"300\" class=\"center\"> \n<br>\n\n<table align=\"center\" cellspacing=\"0\" cellpadding=\"0\">\n  <tr class=\"center\">\n    <td><img src=assets/screenshot1.png height=\"200\" width=\"300\" class=\"center\"></td>\n    <td><img src=assets/screenshot92.png height=\"200\" width=\"300\" class=\"center\"></td>\n    <td><img src=assets/screenshot10.png height=\"200\" width=\"300\" class=\"center\"> </td>\n  </tr>\n  </tr class=\"center\">\n  <tr class=\"center\">\n    <td><img src=assets/screenshot7.png height=\"200\" width=\"300\" ></td>\n    <td><img src=assets/screenshot82.png height=\"200\" width=\"300\" ></td>\n    <td><img src=assets/screenshot4.png height=\"200\" width=\"300\" class=\"center\"> </td>\n  </tr>\n</table>\n\n# 특징\n- 구면 조화 함수는 차수 **4**까지 지원합니다.\n- 학습된 모델 상태를 실시간으로 미리 볼 수 있는 대화형 Windows 뷰어 / 최적화기 애플리케이션.\n- **PLY** 형식의 학습된 모델 출력 지원.\n- 매우 효율적인 순수 가우시안 렌더러 (임베딩된 기본 메시 근사 없음).\n- 편리한 텍스트 구성 파일 기반의 고도로 구성 가능한 최적화기.\n- **Blender**와 **COLMAP** 데이터 세트 모두 지원 (3DGS를 통한 사전 처리 후).\n- 모델 평가 및 시각화를 구성 가능한 빈도로 *.bmp 파일로 내장 지원.\n\n# 대화형 Windows 뷰어 / 최적화기 애플리케이션의 컨트롤\n\n<img src=\"https://raw.githubusercontent.com/KByrski/RaySplatting/master/assets/app_main_window.png\">\n\n- **더블 왼쪽 클릭**: **고정 카메라**와 **자유 이동** 모드 간 전환.\n- **마우스 이동**: **자유 이동** 모드에서 카메라 회전.\n- **W / S**: 앞으로 / 뒤로 이동.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "eEfEsH9c3whY6ZUfjGThKy1xwQgvWIu7qGAsBzUB+hw=",
+        "originContent": "# RaySplats: Ray Tracing based Gaussian Splatting",
+        "translatedContent": "# RaySplats: 광선 추적 기반 가우시안 스플래팅"
+      },
+      {
+        "row": 2,
+        "rowsha": "rGxF2lmp5cb/bJoYeEEUJo1nck2JZBp/VSRQ2ybSafM=",
+        "originContent": "Krzysztof Byrski, Marcin Mazur, Jacek Tabor, Tadeusz Dziarmaga, Marcin Kądziołka, Dawid Baran, Przemysław Spurek <br>",
+        "translatedContent": "Krzysztof Byrski, Marcin Mazur, Jacek Tabor, Tadeusz Dziarmaga, Marcin Kądziołka, Dawid Baran, Przemysław Spurek <br>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Vu3uPZ5G8wKN48rJZNsBLyicDf0WEec4JC2U3H1aoL0=",
+        "originContent": "| arXiv |",
+        "translatedContent": "| arXiv |"
+      },
+      {
+        "row": 5,
+        "rowsha": "p0L6AKLxrJ7/RzWvbMJ7ktyYiEUSK+wd5m4XlCb72hw=",
+        "originContent": "| :---- |",
+        "translatedContent": "| :---- |"
+      },
+      {
+        "row": 6,
+        "rowsha": "nbJIQspr7Hb7dZD8hAx4NV1a4NYuHwD1sBxCU7034VA=",
+        "originContent": "| RaySplats: Ray Tracing based Gaussian Splatting [https://arxiv.org/pdf/2501.19196.pdf](http://arxiv.org/abs/2501.19196)|",
+        "translatedContent": "| RaySplats: 광선 추적 기반 가우시안 스플래팅 [https://arxiv.org/pdf/2501.19196.pdf](http://arxiv.org/abs/2501.19196)|"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "5DnE/Bsm7zenp2gOeGGRsrujLcNorooNc8X8iBXsLLg=",
+        "originContent": "<img src=assets/gif1.gif height=\"300\" class=\"center\"> ",
+        "translatedContent": "<img src=assets/gif1.gif height=\"300\" class=\"center\"> "
+      },
+      {
+        "row": 9,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "FX7HBmXK4s/lRqtpHaWyj6804TdKlBPdEG5uQjugCQ8=",
+        "originContent": "<table align=\"center\" cellspacing=\"0\" cellpadding=\"0\">",
+        "translatedContent": "<table align=\"center\" cellspacing=\"0\" cellpadding=\"0\">"
+      },
+      {
+        "row": 12,
+        "rowsha": "szJzthdL0uMCcnfov+OpCwWeZQQFAOrZdSrtfVkt3kI=",
+        "originContent": "  <tr class=\"center\">",
+        "translatedContent": "  <tr class=\"center\">"
+      },
+      {
+        "row": 13,
+        "rowsha": "uPYaHhijdsiHK7f14+WpQ2sNqAqJCVA7bWhcKo4hDZY=",
+        "originContent": "    <td><img src=assets/screenshot1.png height=\"200\" width=\"300\" class=\"center\"></td>",
+        "translatedContent": "    <td><img src=assets/screenshot1.png height=\"200\" width=\"300\" class=\"center\"></td>"
+      },
+      {
+        "row": 14,
+        "rowsha": "XEI9Yy8auaaeKoVwXMn6IG66bWUVbgUL9+D5VPTs7c0=",
+        "originContent": "    <td><img src=assets/screenshot92.png height=\"200\" width=\"300\" class=\"center\"></td>",
+        "translatedContent": "    <td><img src=assets/screenshot92.png height=\"200\" width=\"300\" class=\"center\"></td>"
+      },
+      {
+        "row": 15,
+        "rowsha": "NOU4scx3yWfdOBYU4oOjGKCs/GPhblvRJfnZdSIhlv0=",
+        "originContent": "    <td><img src=assets/screenshot10.png height=\"200\" width=\"300\" class=\"center\"> </td>",
+        "translatedContent": "    <td><img src=assets/screenshot10.png height=\"200\" width=\"300\" class=\"center\"> </td>"
+      },
+      {
+        "row": 16,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 17,
+        "rowsha": "NhTlH+EQWfNegrn30Ar4KNRTIU6RpuNB/DV8cID8OFw=",
+        "originContent": "  </tr class=\"center\">",
+        "translatedContent": "  </tr class=\"center\">"
+      },
+      {
+        "row": 18,
+        "rowsha": "szJzthdL0uMCcnfov+OpCwWeZQQFAOrZdSrtfVkt3kI=",
+        "originContent": "  <tr class=\"center\">",
+        "translatedContent": "  <tr class=\"center\">"
+      },
+      {
+        "row": 19,
+        "rowsha": "XSwgU4usFBDBwL4oCQZukwDkmo8zYLyzNn0ImfpLhOw=",
+        "originContent": "    <td><img src=assets/screenshot7.png height=\"200\" width=\"300\" ></td>",
+        "translatedContent": "    <td><img src=assets/screenshot7.png height=\"200\" width=\"300\" ></td>"
+      },
+      {
+        "row": 20,
+        "rowsha": "Zz8mRTTb8Lac/Qy/SbGmDaOC4fenxmpEtTt805v3fbw=",
+        "originContent": "    <td><img src=assets/screenshot82.png height=\"200\" width=\"300\" ></td>",
+        "translatedContent": "    <td><img src=assets/screenshot82.png height=\"200\" width=\"300\" ></td>"
+      },
+      {
+        "row": 21,
+        "rowsha": "ZsZPOJbQHUr8dXfwIl6AA1dOWxhcy0CVJtyjkp296do=",
+        "originContent": "    <td><img src=assets/screenshot4.png height=\"200\" width=\"300\" class=\"center\"> </td>",
+        "translatedContent": "    <td><img src=assets/screenshot4.png height=\"200\" width=\"300\" class=\"center\"> </td>"
+      },
+      {
+        "row": 22,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 23,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "Qxdp3Hj7dWmz+GAKg4NkEzKgHfg+ZfXXUNg0RDB9+KI=",
+        "originContent": "# Features",
+        "translatedContent": "# 특징"
+      },
+      {
+        "row": 26,
+        "rowsha": "Q+4dc7uE91urBaKAz1FikM3oUCMbTBawBOvlFyFMsyA=",
+        "originContent": "- Spherical harmonics support up to the degree **4**.",
+        "translatedContent": "- 구면 조화 함수는 차수 **4**까지 지원합니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "V5fc9fmj5PlfAFCOWYipmgBD1Eqo9BZGekzL6vMnHiY=",
+        "originContent": "- Interactive Windows viewer / optimizer application allowing to preview the trained model state in the real time.",
+        "translatedContent": "- 학습된 모델 상태를 실시간으로 미리 볼 수 있는 대화형 Windows 뷰어 / 최적화기 애플리케이션."
+      },
+      {
+        "row": 28,
+        "rowsha": "n/6Yqw6E/saFWuwN3JPqRp8gq1OcIiS8Wx9I90VuSs8=",
+        "originContent": "- Support for the **PLY** trained model output format.",
+        "translatedContent": "- **PLY** 형식의 학습된 모델 출력 지원."
+      },
+      {
+        "row": 29,
+        "rowsha": "ra5Mcuiee2Q/46A1bsFarU6GZ+MnJu6ZLvHXSrrMQA8=",
+        "originContent": "- Highly efficient pure Gaussian renderer (no embedding primitive mesh approximation).",
+        "translatedContent": "- 매우 효율적인 순수 가우시안 렌더러 (임베딩된 기본 메시 근사 없음)."
+      },
+      {
+        "row": 30,
+        "rowsha": "JlnlcbggrkTb/qEdWanl86fZoZCKKaEwWWO+1rGH07w=",
+        "originContent": "- Highly configurable optimizer based on the convenient text configuration file.",
+        "translatedContent": "- 편리한 텍스트 구성 파일 기반의 고도로 구성 가능한 최적화기."
+      },
+      {
+        "row": 31,
+        "rowsha": "dG60A4qIk2dHDwPoyM6Q2KHdy2gMGxmh9VJn+e9MtnQ=",
+        "originContent": "- Support for both the **Blender** and **COLMAP** data sets (after some preprocessing by the 3DGS).",
+        "translatedContent": "- **Blender**와 **COLMAP** 데이터 세트 모두 지원 (3DGS를 통한 사전 처리 후)."
+      },
+      {
+        "row": 32,
+        "rowsha": "toczq/56162NpEGlbLsJcFlEUFGT+0XtXsr9C1ZNFFE=",
+        "originContent": "- Built-in evaluation of the model and visualization to the *.bmp file with the configurable frequency.",
+        "translatedContent": "- 모델 평가 및 시각화를 구성 가능한 빈도로 *.bmp 파일로 내장 지원."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "q3/JPQrDcNw+tyK48wMyzfY6TvrlkoGuyyEfZZKq/W0=",
+        "originContent": "# Controls in the interactive Windows viewer / optimizer application",
+        "translatedContent": "# 대화형 Windows 뷰어 / 최적화기 애플리케이션의 컨트롤"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "mcjc20t6n9f/NV2M4niUJENoYvgu/QwRpXmEcppodFc=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/KByrski/RaySplatting/master/assets/app_main_window.png\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/KByrski/RaySplatting/master/assets/app_main_window.png\">"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "Mi2NIfyWmKLv4S/6gonNXqL66gMpEpgW7zY5rB+77eY=",
+        "originContent": "- **Double Left Click**: Toggle between the **static camera** and the **free roam** mode.",
+        "translatedContent": "- **더블 왼쪽 클릭**: **고정 카메라**와 **자유 이동** 모드 간 전환."
+      },
+      {
+        "row": 39,
+        "rowsha": "gO1HN94I5/XnX6ggQMJ+nKuh6P05bufEJqxjpOx4DVs=",
+        "originContent": "- **Mouse Movement**: Rotate the camera in the **free roam** mode.",
+        "translatedContent": "- **마우스 이동**: **자유 이동** 모드에서 카메라 회전."
+      },
+      {
+        "row": 40,
+        "rowsha": "WXxvt0a6VI8rW3AS+uKSz+hfNpKfWsDZh0URrebYoOc=",
+        "originContent": "- **W / S**: Move forward / backward.",
+        "translatedContent": "- **W / S**: 앞으로 / 뒤로 이동."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- **A / D**: Step left / right.\n- **Spacebar / C**: Move up / down.\n- **[ / ]**: Switch the camera to the previous / next training pose.\n- **Print Screen**: Make screenshot and save it to the 24-bit *.bmp file.\n\n# Prerequisites:\n\n- Visual Studio 2019 Enterprise;\n- CUDA Toolkit 12.4.1;\n- NVIDIA OptiX SDK 8.0.0;\n\n# Building the interactive Windows viewer / optimizer application\n\n- Create the new Windows Desktop Application project and name it \"RaySplats\";\n- Remove the newly generated RaySplats.cpp file containing the code template;\n- In **Build Dependencies** -> **Build Customizations...** select the checkbox matching your installed CUDA version. On our test system, we had to select the following checkbox:\n\n  **CUDA 12.4(.targets, .props)**\n  \n- Add all the files from the directory \"RaySplats\" to the project;\n- In the project's Properties set **Configuration** to **\"Release\"** and **Platform** to **\"x64\"**;\n- In **Properties** -> **Configuration Properties** -> **CUDA C/C++** -> **Common** -> **Generate Relocatable Device Code** select **Yes (-rdc=true)**;\n- For file \"shaders.cuh\" in **Properties** -> **Configuration Properties** -> **General** -> **Item Type** select **\"CUDA C/C++**;\n- For files: \"shaders.cuh\", \"shaders_SH0.cu\", \"shaders_SH1.cu\", \"shaders_SH2.cu\", \"shaders_SH3.cu\" and \"shaders_SH4.cu\" in **Properties** -> **Configuration Properties** -> **CUDA C/C++** -> **Common**:\n  - Change the suffix of **Compiler Output (obj/cubin)** from **\".obj\"** to **\".ptx\"**;\n  - In **Generate Relocatable Device Code** select **No**;\n  - In **NVCC Compilation Type** select **Generate device-only .ptx file (-ptx)\"**;\n- In **Properties** -> **Configuration Properties** -> **VC++ Directories** -> **Include Directories** add OptiX \"include\" directory path. On our test system, we had to add the following path:",
+    "ContentSha": "ACIZP0WwygOhX+o3iCoGjl2oJroYut56/Zz1H05uWfY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **A / D**: 왼쪽 / 오른쪽으로 이동합니다.  \n- **Spacebar / C**: 위 / 아래로 이동합니다.  \n- **[ / ]**: 카메라를 이전 / 다음 훈련 자세로 전환합니다.  \n- **Print Screen**: 스크린샷을 찍고 24비트 *.bmp 파일로 저장합니다.  \n\n# 필수 조건:  \n\n- Visual Studio 2019 Enterprise;  \n- CUDA Toolkit 12.4.1;  \n- NVIDIA OptiX SDK 8.0.0;  \n\n# 대화형 Windows 뷰어 / 최적화기 애플리케이션 빌드  \n\n- 새 Windows 데스크톱 애플리케이션 프로젝트를 생성하고 이름을 \"RaySplats\"로 지정합니다;  \n- 코드 템플릿이 포함된 새로 생성된 RaySplats.cpp 파일을 제거합니다;  \n- **Build Dependencies** -> **Build Customizations...**에서 설치된 CUDA 버전에 맞는 체크박스를 선택합니다. 테스트 시스템에서는 다음 체크박스를 선택해야 했습니다:  \n\n  **CUDA 12.4(.targets, .props)**  \n  \n- \"RaySplats\" 디렉터리의 모든 파일을 프로젝트에 추가합니다;  \n- 프로젝트 속성에서 **Configuration**을 **\"Release\"**로, **Platform**을 **\"x64\"**로 설정합니다;  \n- **Properties** -> **Configuration Properties** -> **CUDA C/C++** -> **Common** -> **Generate Relocatable Device Code**에서 **Yes (-rdc=true)**를 선택합니다;  \n- \"shaders.cuh\" 파일에 대해 **Properties** -> **Configuration Properties** -> **General** -> **Item Type**에서 **\"CUDA C/C++\"**를 선택합니다;  \n- 다음 파일들: \"shaders.cuh\", \"shaders_SH0.cu\", \"shaders_SH1.cu\", \"shaders_SH2.cu\", \"shaders_SH3.cu\" 및 \"shaders_SH4.cu\"에 대해 **Properties** -> **Configuration Properties** -> **CUDA C/C++** -> **Common**에서:  \n  - **Compiler Output (obj/cubin)**의 접미사를 **\".obj\"**에서 **\".ptx\"**로 변경합니다;  \n  - **Generate Relocatable Device Code**에서 **No**를 선택합니다;  \n  - **NVCC Compilation Type**에서 **Generate device-only .ptx file (-ptx)**를 선택합니다;  \n- **Properties** -> **Configuration Properties** -> **VC++ Directories** -> **Include Directories**에서 OptiX \"include\" 디렉터리 경로를 추가합니다. 테스트 시스템에서는 다음 경로를 추가해야 했습니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uFoMiRB5XVCCy/Br+tnAyy3TyG5M/h7ou0Ku+UDSWmQ=",
+        "originContent": "- **A / D**: Step left / right.",
+        "translatedContent": "- **A / D**: 왼쪽 / 오른쪽으로 이동합니다.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "gY/QCnWr9zR+78rG4kzPBCICgtOez+8lBB6Dk+HYpkE=",
+        "originContent": "- **Spacebar / C**: Move up / down.",
+        "translatedContent": "- **Spacebar / C**: 위 / 아래로 이동합니다.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "S9OwWoK8gvokfpWWY1dS4BdCshMalULxVvtYgDE2JNg=",
+        "originContent": "- **[ / ]**: Switch the camera to the previous / next training pose.",
+        "translatedContent": "- **[ / ]**: 카메라를 이전 / 다음 훈련 자세로 전환합니다.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "Ccm50r7XuoMnmTU0VtJdoO4rP3+I8ThBkhKk7IqNz70=",
+        "originContent": "- **Print Screen**: Make screenshot and save it to the 24-bit *.bmp file.",
+        "translatedContent": "- **Print Screen**: 스크린샷을 찍고 24비트 *.bmp 파일로 저장합니다.  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "b02vXLa6OfLRkyGwrQ4EmI7JUvqA1jr7zbdMAKl/MaI=",
+        "originContent": "# Prerequisites:",
+        "translatedContent": "# 필수 조건:  "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "0VezRWjfBvQcNJLrTaP5pAhLv7mnXikpZ9drKJ7xH1s=",
+        "originContent": "- Visual Studio 2019 Enterprise;",
+        "translatedContent": "- Visual Studio 2019 Enterprise;  "
+      },
+      {
+        "row": 9,
+        "rowsha": "1yYOt74t5JZJxar0ezC10n7ai5Kl7YYYXi9tOlXRNPc=",
+        "originContent": "- CUDA Toolkit 12.4.1;",
+        "translatedContent": "- CUDA Toolkit 12.4.1;  "
+      },
+      {
+        "row": 10,
+        "rowsha": "oeIK9fX1eLBOv/OMONKgnsiTIEZJW/GaGKvfW2DHsoY=",
+        "originContent": "- NVIDIA OptiX SDK 8.0.0;",
+        "translatedContent": "- NVIDIA OptiX SDK 8.0.0;  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "tqy39rmfH4+447AhjHnugOequxirz3vq+c5JP4RTuMM=",
+        "originContent": "# Building the interactive Windows viewer / optimizer application",
+        "translatedContent": "# 대화형 Windows 뷰어 / 최적화기 애플리케이션 빌드  "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "+A5FnFPFrbRq8Melv9ii2xqbRZgSJt9RJsK7QG2E+LU=",
+        "originContent": "- Create the new Windows Desktop Application project and name it \"RaySplats\";",
+        "translatedContent": "- 새 Windows 데스크톱 애플리케이션 프로젝트를 생성하고 이름을 \"RaySplats\"로 지정합니다;  "
+      },
+      {
+        "row": 15,
+        "rowsha": "37IPNzdO9QMbfL/W6jz9FhhsQPJaXzNJhMg+wY6Xdws=",
+        "originContent": "- Remove the newly generated RaySplats.cpp file containing the code template;",
+        "translatedContent": "- 코드 템플릿이 포함된 새로 생성된 RaySplats.cpp 파일을 제거합니다;  "
+      },
+      {
+        "row": 16,
+        "rowsha": "iKOY+tbHqGmFPxXcKK/2Oby4E8T7r7Qy6BfzAIREeqk=",
+        "originContent": "- In **Build Dependencies** -> **Build Customizations...** select the checkbox matching your installed CUDA version. On our test system, we had to select the following checkbox:",
+        "translatedContent": "- **Build Dependencies** -> **Build Customizations...**에서 설치된 CUDA 버전에 맞는 체크박스를 선택합니다. 테스트 시스템에서는 다음 체크박스를 선택해야 했습니다:  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "YUSQRRB5csV/U0niLmp9z0E3KUTowGXpNUnh57HczeA=",
+        "originContent": "  **CUDA 12.4(.targets, .props)**",
+        "translatedContent": "  **CUDA 12.4(.targets, .props)**  "
+      },
+      {
+        "row": 19,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 20,
+        "rowsha": "Tayogggm2unBS+0iv9vTG19rnwYTU1vKzWDdbcAeoIw=",
+        "originContent": "- Add all the files from the directory \"RaySplats\" to the project;",
+        "translatedContent": "- \"RaySplats\" 디렉터리의 모든 파일을 프로젝트에 추가합니다;  "
+      },
+      {
+        "row": 21,
+        "rowsha": "DVzWzJ6kn8iQ6hLL2IEBBjoq5iGNGyHDjFIy3cbXCeg=",
+        "originContent": "- In the project's Properties set **Configuration** to **\"Release\"** and **Platform** to **\"x64\"**;",
+        "translatedContent": "- 프로젝트 속성에서 **Configuration**을 **\"Release\"**로, **Platform**을 **\"x64\"**로 설정합니다;  "
+      },
+      {
+        "row": 22,
+        "rowsha": "a9GsCpnjwFY0E9BwUPEd1roimyEMgrfzS9yz5BtWcC8=",
+        "originContent": "- In **Properties** -> **Configuration Properties** -> **CUDA C/C++** -> **Common** -> **Generate Relocatable Device Code** select **Yes (-rdc=true)**;",
+        "translatedContent": "- **Properties** -> **Configuration Properties** -> **CUDA C/C++** -> **Common** -> **Generate Relocatable Device Code**에서 **Yes (-rdc=true)**를 선택합니다;  "
+      },
+      {
+        "row": 23,
+        "rowsha": "1OtEBi8K7lUeG/j2fJwTQOTMsu2Ybj6iJerVu5e2ZOw=",
+        "originContent": "- For file \"shaders.cuh\" in **Properties** -> **Configuration Properties** -> **General** -> **Item Type** select **\"CUDA C/C++**;",
+        "translatedContent": "- \"shaders.cuh\" 파일에 대해 **Properties** -> **Configuration Properties** -> **General** -> **Item Type**에서 **\"CUDA C/C++\"**를 선택합니다;  "
+      },
+      {
+        "row": 24,
+        "rowsha": "5LBUBORk6+r8PdxVy5/o7Atn/v8oxQ/mhmqZnH+75LI=",
+        "originContent": "- For files: \"shaders.cuh\", \"shaders_SH0.cu\", \"shaders_SH1.cu\", \"shaders_SH2.cu\", \"shaders_SH3.cu\" and \"shaders_SH4.cu\" in **Properties** -> **Configuration Properties** -> **CUDA C/C++** -> **Common**:",
+        "translatedContent": "- 다음 파일들: \"shaders.cuh\", \"shaders_SH0.cu\", \"shaders_SH1.cu\", \"shaders_SH2.cu\", \"shaders_SH3.cu\" 및 \"shaders_SH4.cu\"에 대해 **Properties** -> **Configuration Properties** -> **CUDA C/C++** -> **Common**에서:  "
+      },
+      {
+        "row": 25,
+        "rowsha": "u6YVYbInismCZggSHA74SFNq6He6BMp5xo6kqVla/X0=",
+        "originContent": "  - Change the suffix of **Compiler Output (obj/cubin)** from **\".obj\"** to **\".ptx\"**;",
+        "translatedContent": "  - **Compiler Output (obj/cubin)**의 접미사를 **\".obj\"**에서 **\".ptx\"**로 변경합니다;  "
+      },
+      {
+        "row": 26,
+        "rowsha": "8Nit0gHHrcpbgmTALCkK6M9dIJnsBjPygtLYNG5wrow=",
+        "originContent": "  - In **Generate Relocatable Device Code** select **No**;",
+        "translatedContent": "  - **Generate Relocatable Device Code**에서 **No**를 선택합니다;  "
+      },
+      {
+        "row": 27,
+        "rowsha": "5hGwC0eY84Pa1cveUUW6pMiZkOWENgL8JuJsEcqBZtI=",
+        "originContent": "  - In **NVCC Compilation Type** select **Generate device-only .ptx file (-ptx)\"**;",
+        "translatedContent": "  - **NVCC Compilation Type**에서 **Generate device-only .ptx file (-ptx)**를 선택합니다;  "
+      },
+      {
+        "row": 28,
+        "rowsha": "sHdL4US5pc0OIpr8jwYcyw5GSCyuMT3MaR4/wAZFCjM=",
+        "originContent": "- In **Properties** -> **Configuration Properties** -> **VC++ Directories** -> **Include Directories** add OptiX \"include\" directory path. On our test system, we had to add the following path:",
+        "translatedContent": "- **Properties** -> **Configuration Properties** -> **VC++ Directories** -> **Include Directories**에서 OptiX \"include\" 디렉터리 경로를 추가합니다. 테스트 시스템에서는 다음 경로를 추가해야 했습니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "  ```plaintext\n  \"C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\include\"\n  ```",
+    "ContentSha": "olPf1/W9r5hDioyWPobuADuF2xEs6B5HWUjdyiVN9VY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```plaintext\n  \"C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\include\"\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "orouHi5WCO4bb+Z0ATsNcnJuGutk0KcWQ6n46Zp5ZyQ=",
+        "originContent": "  ```plaintext",
+        "translatedContent": "  ```plaintext"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZPwXsdQ1Y2yN/YrPjnvIeIxjwztf/U5DG+eaj3EXJx4=",
+        "originContent": "  \"C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\include\"",
+        "translatedContent": "  \"C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\include\""
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "- In **Properties** -> **Configuration Properties** -> **CUDA C/C++** -> **Device** -> **Code Generation** type the compute capability and microarchitecture version of your GPU. On our test system with RTX 4070 GPU we typed:",
+    "ContentSha": "xyfH23VEOGvvFPYtbLQscVRXZd44wIm90fxmtnPFVyI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **속성** -> **구성 속성** -> **CUDA C/C++** -> **장치** -> **코드 생성**에서 GPU의 컴퓨팅 능력과 마이크로아키텍처 버전을 입력합니다. RTX 4070 GPU가 장착된 테스트 시스템에서는 다음과 같이 입력했습니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "xyfH23VEOGvvFPYtbLQscVRXZd44wIm90fxmtnPFVyI=",
+        "originContent": "- In **Properties** -> **Configuration Properties** -> **CUDA C/C++** -> **Device** -> **Code Generation** type the compute capability and microarchitecture version of your GPU. On our test system with RTX 4070 GPU we typed:",
+        "translatedContent": "- **속성** -> **구성 속성** -> **CUDA C/C++** -> **장치** -> **코드 생성**에서 GPU의 컴퓨팅 능력과 마이크로아키텍처 버전을 입력합니다. RTX 4070 GPU가 장착된 테스트 시스템에서는 다음과 같이 입력했습니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "  ```plaintext\n  \"compute_89,sm_89\"\n  ```",
+    "ContentSha": "y3n5eJMWuH0otEpJaN+P0NDp6hN6ktsRpZ28is2gzDs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```plaintext\n  \"compute_89,sm_89\"\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "orouHi5WCO4bb+Z0ATsNcnJuGutk0KcWQ6n46Zp5ZyQ=",
+        "originContent": "  ```plaintext",
+        "translatedContent": "  ```plaintext"
+      },
+      {
+        "row": 2,
+        "rowsha": "/PKzlwjAQbeamEoPGGZGWMVHihiJblYc6JtBoZzRWmQ=",
+        "originContent": "  \"compute_89,sm_89\"",
+        "translatedContent": "  \"compute_89,sm_89\""
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "- In **Properties** -> **Configuration Properties** -> **Linker** -> **Input** -> **Additional Dependencies** add three new lines containing:",
+    "ContentSha": "9U+HAC7kjbFfg2n6fUtbTQ3ITiQRAG/KfOs/KTsXtT0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **속성** -> **구성 속성** -> **링커** -> **입력** -> **추가 종속성**에 세 개의 새 줄을 다음과 같이 추가합니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9U+HAC7kjbFfg2n6fUtbTQ3ITiQRAG/KfOs/KTsXtT0=",
+        "originContent": "- In **Properties** -> **Configuration Properties** -> **Linker** -> **Input** -> **Additional Dependencies** add three new lines containing:",
+        "translatedContent": "- **속성** -> **구성 속성** -> **링커** -> **입력** -> **추가 종속성**에 세 개의 새 줄을 다음과 같이 추가합니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "  ```plaintext\n  \"cuda.lib\"\n  ```",
+    "ContentSha": "ze2NzHzkw54Mtz9AwffL4SH+/bumWdVLJwdBGF+fBs4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```plaintext\n  \"cuda.lib\"\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "orouHi5WCO4bb+Z0ATsNcnJuGutk0KcWQ6n46Zp5ZyQ=",
+        "originContent": "  ```plaintext",
+        "translatedContent": "  ```plaintext"
+      },
+      {
+        "row": 2,
+        "rowsha": "e7yAJxKTZJZBqT4LELOeo/pnfSkTyUZuTpKxguVooww=",
+        "originContent": "  \"cuda.lib\"",
+        "translatedContent": "  \"cuda.lib\""
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "  ```plaintext\n  \"cudart.lib\"\n  ```",
+    "ContentSha": "IshRyir4OAelkRlYd+g1J21uOfbACTPcxiJ7nKgCLyM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```plaintext\n  \"cudart.lib\"\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "orouHi5WCO4bb+Z0ATsNcnJuGutk0KcWQ6n46Zp5ZyQ=",
+        "originContent": "  ```plaintext",
+        "translatedContent": "  ```plaintext"
+      },
+      {
+        "row": 2,
+        "rowsha": "n9E5emr7R6Ijl9+zn1W8t2vpyHUgDKJh49vowHKJffk=",
+        "originContent": "  \"cudart.lib\"",
+        "translatedContent": "  \"cudart.lib\""
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "  ```plaintext\n  \"cufft.lib\"\n  ```",
+    "ContentSha": "vPyRK4Ai7gn0xwxiSX+rRE5juneLz9BFqQK0S43sN5M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```plaintext\n  \"cufft.lib\"\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "orouHi5WCO4bb+Z0ATsNcnJuGutk0KcWQ6n46Zp5ZyQ=",
+        "originContent": "  ```plaintext",
+        "translatedContent": "  ```plaintext"
+      },
+      {
+        "row": 2,
+        "rowsha": "5hlzZKRq2L+82I1jud4bt1ZXKVV7zzvqRq/Zj38+WRY=",
+        "originContent": "  \"cufft.lib\"",
+        "translatedContent": "  \"cufft.lib\""
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "- In each of two different blocks of code in file InitializeOptiXRenderer.cu:",
+    "ContentSha": "e2ceq58Rr2m48QhJ0+g9NXDpP1L4/V//HAwhYk9DbJ8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- InitializeOptiXRenderer.cu 파일의 서로 다른 두 코드 블록 각각에서:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "e2ceq58Rr2m48QhJ0+g9NXDpP1L4/V//HAwhYk9DbJ8=",
+        "originContent": "- In each of two different blocks of code in file InitializeOptiXRenderer.cu:",
+        "translatedContent": "- InitializeOptiXRenderer.cu 파일의 서로 다른 두 코드 블록 각각에서:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "  ```plaintext\n  if      constexpr (SH_degree == 0) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH0.cu.ptx\", \"rb\");\n  else if constexpr (SH_degree == 1) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH1.cu.ptx\", \"rb\");\n  else if constexpr (SH_degree == 2) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH2.cu.ptx\", \"rb\");\n  else if constexpr (SH_degree == 3) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH3.cu.ptx\", \"rb\");\n  else if constexpr (SH_degree == 4) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH4.cu.ptx\", \"rb\");\n  ```",
+    "ContentSha": "EKf56UCosHR7mxtZglUtl/Om1hNd7BDpYPRmu60HBQI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```plaintext\n  if      constexpr (SH_degree == 0) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH0.cu.ptx\", \"rb\");\n  else if constexpr (SH_degree == 1) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH1.cu.ptx\", \"rb\");\n  else if constexpr (SH_degree == 2) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH2.cu.ptx\", \"rb\");\n  else if constexpr (SH_degree == 3) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH3.cu.ptx\", \"rb\");\n  else if constexpr (SH_degree == 4) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH4.cu.ptx\", \"rb\");\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "orouHi5WCO4bb+Z0ATsNcnJuGutk0KcWQ6n46Zp5ZyQ=",
+        "originContent": "  ```plaintext",
+        "translatedContent": "  ```plaintext"
+      },
+      {
+        "row": 2,
+        "rowsha": "mPU1aznbP71rWQbBzno08+SoEoLybvLnOwHPcKc4HkM=",
+        "originContent": "  if      constexpr (SH_degree == 0) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH0.cu.ptx\", \"rb\");",
+        "translatedContent": "  if      constexpr (SH_degree == 0) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH0.cu.ptx\", \"rb\");"
+      },
+      {
+        "row": 3,
+        "rowsha": "vAf/axykpX7Ig48r952gkc3q5wui/Vg5Zb1UIyeZPfY=",
+        "originContent": "  else if constexpr (SH_degree == 1) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH1.cu.ptx\", \"rb\");",
+        "translatedContent": "  else if constexpr (SH_degree == 1) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH1.cu.ptx\", \"rb\");"
+      },
+      {
+        "row": 4,
+        "rowsha": "5U60HHFMfrypU7rHf8YxKjz/PGYflx7NXMLwtnjJ0cc=",
+        "originContent": "  else if constexpr (SH_degree == 2) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH2.cu.ptx\", \"rb\");",
+        "translatedContent": "  else if constexpr (SH_degree == 2) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH2.cu.ptx\", \"rb\");"
+      },
+      {
+        "row": 5,
+        "rowsha": "oao3iHDtwPk6nciVMfuYzf/JIL6Yfzd7SRDB1MqOroA=",
+        "originContent": "  else if constexpr (SH_degree == 3) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH3.cu.ptx\", \"rb\");",
+        "translatedContent": "  else if constexpr (SH_degree == 3) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH3.cu.ptx\", \"rb\");"
+      },
+      {
+        "row": 6,
+        "rowsha": "lx5K0/6Mlpi9B1EOWxyjkdJRjImwPZXe2Sa/FTOelqE=",
+        "originContent": "  else if constexpr (SH_degree == 4) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH4.cu.ptx\", \"rb\");",
+        "translatedContent": "  else if constexpr (SH_degree == 4) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH4.cu.ptx\", \"rb\");"
+      },
+      {
+        "row": 7,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "  and",
+    "ContentSha": "UK1xdH8kTTlep8JrD+vCoXK8yWZHBpYnFUd14C369L0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  and",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UK1xdH8kTTlep8JrD+vCoXK8yWZHBpYnFUd14C369L0=",
+        "originContent": "  and",
+        "translatedContent": "  and"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "  ```plaintext\n  if      constexpr (SH_degree == 0) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH0.cu.ptx\", \"rt\");\n  else if constexpr (SH_degree == 1) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH1.cu.ptx\", \"rt\");\n  else if constexpr (SH_degree == 2) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH2.cu.ptx\", \"rt\");\n  else if constexpr (SH_degree == 3) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH3.cu.ptx\", \"rt\");\n  else if constexpr (SH_degree == 4) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH4.cu.ptx\", \"rt\");\n  ```",
+    "ContentSha": "B/pcUerK6hTNRp51t9qovVqQvUqc5Ekjj8NHQ4R8q3g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```plaintext\n  if      constexpr (SH_degree == 0) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH0.cu.ptx\", \"rt\");\n  else if constexpr (SH_degree == 1) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH1.cu.ptx\", \"rt\");\n  else if constexpr (SH_degree == 2) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH2.cu.ptx\", \"rt\");\n  else if constexpr (SH_degree == 3) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH3.cu.ptx\", \"rt\");\n  else if constexpr (SH_degree == 4) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH4.cu.ptx\", \"rt\");\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "orouHi5WCO4bb+Z0ATsNcnJuGutk0KcWQ6n46Zp5ZyQ=",
+        "originContent": "  ```plaintext",
+        "translatedContent": "  ```plaintext"
+      },
+      {
+        "row": 2,
+        "rowsha": "gGxnBG+o8e5Y8vnTzT1NpLoIWQaMTtd3YnIUmMZ8mJM=",
+        "originContent": "  if      constexpr (SH_degree == 0) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH0.cu.ptx\", \"rt\");",
+        "translatedContent": "  if      constexpr (SH_degree == 0) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH0.cu.ptx\", \"rt\");"
+      },
+      {
+        "row": 3,
+        "rowsha": "AF2ToLEJAbATRt7XnpIt3FIQTUrIoGwzQg+Wn9iKl2U=",
+        "originContent": "  else if constexpr (SH_degree == 1) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH1.cu.ptx\", \"rt\");",
+        "translatedContent": "  else if constexpr (SH_degree == 1) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH1.cu.ptx\", \"rt\");"
+      },
+      {
+        "row": 4,
+        "rowsha": "jj+SiIIAl84izUg4VQgi4NnUzdLswUIVqjlCiA/P28o=",
+        "originContent": "  else if constexpr (SH_degree == 2) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH2.cu.ptx\", \"rt\");",
+        "translatedContent": "  else if constexpr (SH_degree == 2) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH2.cu.ptx\", \"rt\");"
+      },
+      {
+        "row": 5,
+        "rowsha": "+oeCSl0Lgv5ZJFU3uYHcwkuIRjb/QSBdAI5dnZ8pXqk=",
+        "originContent": "  else if constexpr (SH_degree == 3) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH3.cu.ptx\", \"rt\");",
+        "translatedContent": "  else if constexpr (SH_degree == 3) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH3.cu.ptx\", \"rt\");"
+      },
+      {
+        "row": 6,
+        "rowsha": "qW5SBUXV79tFe+1DR1sqa+b2pvfv0diKt3CidhiGqwI=",
+        "originContent": "  else if constexpr (SH_degree == 4) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH4.cu.ptx\", \"rt\");",
+        "translatedContent": "  else if constexpr (SH_degree == 4) f = fopen(\"C:/Users/pc/source/repos/RaySplats/RaySplats/x64/Release/shaders_SH4.cu.ptx\", \"rt\");"
+      },
+      {
+        "row": 7,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "  replace the provided path with the path to the *.ptx compiled shaders files on your hdd.\n\n# Training your first model (Blender dataset):\n\n- Train the model with 3DGS for some small number of iterations (for example 100) on some Blender dataset (for example: \"lego\" from \"NeRF synthetic\" set);\n- Convert all of the files in the subdirectories: \"train\" and \"test\" located in the dataset main directory to 24-bit *.bmp file format without changing their names;\n- Copy the configuration file \"config.txt\" to the project's main directory. On our test system we copied it to the following directory:",
+    "ContentSha": "AzjUm1ZHILfyBoJu76L4C2ZUkC8uGffxpJ2Hqn7CiyQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  제공된 경로를 하드디스크에 있는 *.ptx 컴파일된 셰이더 파일 경로로 교체하십시오.\n\n# 첫 번째 모델 훈련하기 (Blender 데이터셋):\n\n- 3DGS로 Blender 데이터셋(예: \"NeRF synthetic\" 세트의 \"lego\")에서 소량의 반복(예: 100회)으로 모델을 훈련합니다;\n- 데이터셋 메인 디렉터리에 있는 하위 디렉터리 \"train\"과 \"test\"에 있는 모든 파일을 이름을 변경하지 않고 24비트 *.bmp 파일 포맷으로 변환합니다;\n- 구성 파일 \"config.txt\"를 프로젝트 메인 디렉터리에 복사합니다. 테스트 시스템에서는 다음 디렉터리에 복사했습니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "liqTCwKi5QpAY0XsIkCfhxhWxdnDKXPrE8Pts+5T4R4=",
+        "originContent": "  replace the provided path with the path to the *.ptx compiled shaders files on your hdd.",
+        "translatedContent": "  제공된 경로를 하드디스크에 있는 *.ptx 컴파일된 셰이더 파일 경로로 교체하십시오."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "MeTAkHmCK5Gg78uQOO5THCsQq+XP5EGe+KCgF8pAPQc=",
+        "originContent": "# Training your first model (Blender dataset):",
+        "translatedContent": "# 첫 번째 모델 훈련하기 (Blender 데이터셋):"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "hH9i6Fm8H0uQFlCN/0BQYtragze4Tw8B8u+7qxxPcgA=",
+        "originContent": "- Train the model with 3DGS for some small number of iterations (for example 100) on some Blender dataset (for example: \"lego\" from \"NeRF synthetic\" set);",
+        "translatedContent": "- 3DGS로 Blender 데이터셋(예: \"NeRF synthetic\" 세트의 \"lego\")에서 소량의 반복(예: 100회)으로 모델을 훈련합니다;"
+      },
+      {
+        "row": 6,
+        "rowsha": "QbdlOcmXxUqQWZeTYgv1QXD3HpkiaPPJt/hgNzJXa9U=",
+        "originContent": "- Convert all of the files in the subdirectories: \"train\" and \"test\" located in the dataset main directory to 24-bit *.bmp file format without changing their names;",
+        "translatedContent": "- 데이터셋 메인 디렉터리에 있는 하위 디렉터리 \"train\"과 \"test\"에 있는 모든 파일을 이름을 변경하지 않고 24비트 *.bmp 파일 포맷으로 변환합니다;"
+      },
+      {
+        "row": 7,
+        "rowsha": "T7mfzU9vzveI/Euzi+JJALjMObAv24xEubpnGfFCCXY=",
+        "originContent": "- Copy the configuration file \"config.txt\" to the project's main directory. On our test system we copied it to the following directory:",
+        "translatedContent": "- 구성 파일 \"config.txt\"를 프로젝트 메인 디렉터리에 복사합니다. 테스트 시스템에서는 다음 디렉터리에 복사했습니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "  ```plaintext\n  \"C:\\Users\\<Windows username>\\source\\repos\\RaySplats\\RaySplats\"\n  ```",
+    "ContentSha": "ZjUU1NwR6D48QwRN72WKDre7ZHgCfkiYbO206452RGQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```plaintext\n  \"C:\\Users\\<Windows username>\\source\\repos\\RaySplats\\RaySplats\"\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "orouHi5WCO4bb+Z0ATsNcnJuGutk0KcWQ6n46Zp5ZyQ=",
+        "originContent": "  ```plaintext",
+        "translatedContent": "  ```plaintext"
+      },
+      {
+        "row": 2,
+        "rowsha": "Qjtu/ZQKOAMgQQ2JT1XgrIZmAIQwWJZzQFT6WPylaMs=",
+        "originContent": "  \"C:\\Users\\<Windows username>\\source\\repos\\RaySplats\\RaySplats\"",
+        "translatedContent": "  \"C:\\Users\\<Windows username>\\source\\repos\\RaySplats\\RaySplats\""
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "- In lines: 4 and 5 of the configuration file specify the location of the dataset main directory and the output 3DGS *.ply file obtained after short model pretraining (**Important!** The spherical harmonics degree used for pretraining and the target one specified in the line 7 of the config file don't have to match);\n- In lines: 13-15 of the configuration file specify the background color that matches the background color used for pretraining using the following formula:\n  \n  R' = (R + 0.5) / 256<br>\n  G' = (G + 0.5) / 256<br>\n  B' = (B + 0.5) / 256<br>\n\n  where R, G and B are the integer non-negative background color coordinates in the range 0-255.\n- Run the \"RaySplats\" project from the Visual Studio IDE;\n\n# RaySplatting Viewer\n![image](https://github.com/user-attachments/assets/9a9d61cb-f54a-4301-8a52-4c2d0ce2cc72)\n![](https://raw.githubusercontent.com/KByrski/RaySplatting/master/assets/tutorial.mp4)\n\nThis is a lightweight and user-friendly viewer for visualizing **RaySplatting** with additional user-loaded objects that support ray tracing. The viewer allows seamless integration of **OBJ** and **PLY (ASCII format)** files into the scene.  \n\nThe current material system is optimized for models designed to be **reflective** or **glass-like**, making it ideal for rendering high-quality visuals with realistic light interactions.  \n\n## System Requirements  \n\nTo use this viewer, ensure your system meets the following requirements:  \n\n- **Operating System**: Windows  \n- **GPU**: NVIDIA RTX 20xx series or higher (**RTX 30xx+ recommended**)  \n- **CUDA Version**: 12.4 or later  \n- **Required DLLs**: Place the following files in the directory:  ",
+    "ContentSha": "os82wYhZPXlz04howW7mO0ZQ7WUm0W8TLwh8K4Tg9ik=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 구성 파일의 4, 5번째 줄에 데이터셋 메인 디렉터리 위치와 짧은 모델 사전학습 후 얻은 출력 3DGS *.ply 파일 위치를 지정합니다 (**중요!** 사전학습에 사용된 구면 조화 차수와 구성 파일 7번째 줄에 지정된 목표 차수는 일치하지 않아도 됩니다);\n- 구성 파일의 13-15번째 줄에 다음 공식을 사용하여 사전학습에 사용된 배경색과 일치하는 배경색을 지정합니다:\n  \n  R' = (R + 0.5) / 256<br>\n  G' = (G + 0.5) / 256<br>\n  B' = (B + 0.5) / 256<br>\n\n  여기서 R, G, B는 0-255 범위의 정수 비음수 배경색 좌표입니다.\n- Visual Studio IDE에서 \"RaySplats\" 프로젝트를 실행합니다;\n\n# RaySplatting 뷰어\n![image](https://github.com/user-attachments/assets/9a9d61cb-f54a-4301-8a52-4c2d0ce2cc72)\n![](https://raw.githubusercontent.com/KByrski/RaySplatting/master/assets/tutorial.mp4)\n\n이 뷰어는 **RaySplatting**을 시각화하고 레이 트레이싱을 지원하는 추가 사용자 로드 객체를 보여주는 경량의 사용자 친화적 뷰어입니다. 이 뷰어는 **OBJ** 및 **PLY (ASCII 형식)** 파일을 장면에 원활하게 통합할 수 있습니다.  \n\n현재 재질 시스템은 **반사성** 또는 **유리와 같은** 모델에 최적화되어 있어 사실적인 빛 상호작용으로 고품질 시각화를 렌더링하는 데 이상적입니다.  \n\n## 시스템 요구 사항  \n\n이 뷰어를 사용하려면 시스템이 다음 요구 사항을 충족하는지 확인하세요:  \n\n- **운영 체제**: Windows  \n- **GPU**: NVIDIA RTX 20xx 시리즈 이상 (**RTX 30xx+ 권장**)  \n- **CUDA 버전**: 12.4 이상  \n- **필수 DLL**: 다음 파일을 디렉터리에 배치하세요:  ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0pNWykXybv81T8wwxGQ/QooWrAN2WaiWhcclLfxs1PA=",
+        "originContent": "- In lines: 4 and 5 of the configuration file specify the location of the dataset main directory and the output 3DGS *.ply file obtained after short model pretraining (**Important!** The spherical harmonics degree used for pretraining and the target one specified in the line 7 of the config file don't have to match);",
+        "translatedContent": "- 구성 파일의 4, 5번째 줄에 데이터셋 메인 디렉터리 위치와 짧은 모델 사전학습 후 얻은 출력 3DGS *.ply 파일 위치를 지정합니다 (**중요!** 사전학습에 사용된 구면 조화 차수와 구성 파일 7번째 줄에 지정된 목표 차수는 일치하지 않아도 됩니다);"
+      },
+      {
+        "row": 2,
+        "rowsha": "Zq+Raj+2iu+qFHFjboGL4Z9n3I5G4oc4cDEVzXrys8Q=",
+        "originContent": "- In lines: 13-15 of the configuration file specify the background color that matches the background color used for pretraining using the following formula:",
+        "translatedContent": "- 구성 파일의 13-15번째 줄에 다음 공식을 사용하여 사전학습에 사용된 배경색과 일치하는 배경색을 지정합니다:"
+      },
+      {
+        "row": 3,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 4,
+        "rowsha": "arM0Bj+tUKK4Jh38mrxU6fPn1ZYS+STyogsyPjkss/Q=",
+        "originContent": "  R' = (R + 0.5) / 256<br>",
+        "translatedContent": "  R' = (R + 0.5) / 256<br>"
+      },
+      {
+        "row": 5,
+        "rowsha": "gum3iUOuw6D7Kcz776RvXOuCVMmHiyo1RD97+ox1Mbo=",
+        "originContent": "  G' = (G + 0.5) / 256<br>",
+        "translatedContent": "  G' = (G + 0.5) / 256<br>"
+      },
+      {
+        "row": 6,
+        "rowsha": "F/Xm3hNGb59TssktnECO8CwGKf8Bm8o2OJYXlIG/ChI=",
+        "originContent": "  B' = (B + 0.5) / 256<br>",
+        "translatedContent": "  B' = (B + 0.5) / 256<br>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "CDlBGUQZp1NaqUR3vrGV+gJI7h+vES6xanqNF4ZQiok=",
+        "originContent": "  where R, G and B are the integer non-negative background color coordinates in the range 0-255.",
+        "translatedContent": "  여기서 R, G, B는 0-255 범위의 정수 비음수 배경색 좌표입니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "xGCa5VqNA2a7dERIBeugyaXsYbxRspk/EPo9ycdYfjU=",
+        "originContent": "- Run the \"RaySplats\" project from the Visual Studio IDE;",
+        "translatedContent": "- Visual Studio IDE에서 \"RaySplats\" 프로젝트를 실행합니다;"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "0qQIq6FJYyS4YVBCNoVeqq0E30vlVC0LaKqaKwTSWTQ=",
+        "originContent": "# RaySplatting Viewer",
+        "translatedContent": "# RaySplatting 뷰어"
+      },
+      {
+        "row": 12,
+        "rowsha": "QTP1qLhMVDAgu3mwzN58LZGluwgSGur22A73UjQCY2g=",
+        "originContent": "![image](https://github.com/user-attachments/assets/9a9d61cb-f54a-4301-8a52-4c2d0ce2cc72)",
+        "translatedContent": "![image](https://github.com/user-attachments/assets/9a9d61cb-f54a-4301-8a52-4c2d0ce2cc72)"
+      },
+      {
+        "row": 13,
+        "rowsha": "cps4nOESJ+MXxVnwYYXdlex/ByTlvsqwhfSqea/hT/c=",
+        "originContent": "![](https://raw.githubusercontent.com/KByrski/RaySplatting/master/assets/tutorial.mp4)",
+        "translatedContent": "![](https://raw.githubusercontent.com/KByrski/RaySplatting/master/assets/tutorial.mp4)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "0MRqpNG24L7Qx+7qeFMNPwsc0RyGsjFLv6c6VwhpALg=",
+        "originContent": "This is a lightweight and user-friendly viewer for visualizing **RaySplatting** with additional user-loaded objects that support ray tracing. The viewer allows seamless integration of **OBJ** and **PLY (ASCII format)** files into the scene.  ",
+        "translatedContent": "이 뷰어는 **RaySplatting**을 시각화하고 레이 트레이싱을 지원하는 추가 사용자 로드 객체를 보여주는 경량의 사용자 친화적 뷰어입니다. 이 뷰어는 **OBJ** 및 **PLY (ASCII 형식)** 파일을 장면에 원활하게 통합할 수 있습니다.  "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "bfx4SI10GLUZzheN5w9TU0y9RPe9Prk8XrNU3QTjCbA=",
+        "originContent": "The current material system is optimized for models designed to be **reflective** or **glass-like**, making it ideal for rendering high-quality visuals with realistic light interactions.  ",
+        "translatedContent": "현재 재질 시스템은 **반사성** 또는 **유리와 같은** 모델에 최적화되어 있어 사실적인 빛 상호작용으로 고품질 시각화를 렌더링하는 데 이상적입니다.  "
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "osmHHu4w/CZkmyBkcyHYLxX2YEwnZX3BiXs6PqmEWVo=",
+        "originContent": "## System Requirements  ",
+        "translatedContent": "## 시스템 요구 사항  "
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "ow5RDiBUipxXomHejf1FLQEjW2LHLd2EZhFV/wLDHPI=",
+        "originContent": "To use this viewer, ensure your system meets the following requirements:  ",
+        "translatedContent": "이 뷰어를 사용하려면 시스템이 다음 요구 사항을 충족하는지 확인하세요:  "
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "HRuNRTyMgcCKTSLAspu/FOJsjSCsbQtbaXJcBF1PLFU=",
+        "originContent": "- **Operating System**: Windows  ",
+        "translatedContent": "- **운영 체제**: Windows  "
+      },
+      {
+        "row": 24,
+        "rowsha": "W9E0j89uwnGy9y81kiZkMaPdVvASbGajDV8jhLJy5j4=",
+        "originContent": "- **GPU**: NVIDIA RTX 20xx series or higher (**RTX 30xx+ recommended**)  ",
+        "translatedContent": "- **GPU**: NVIDIA RTX 20xx 시리즈 이상 (**RTX 30xx+ 권장**)  "
+      },
+      {
+        "row": 25,
+        "rowsha": "HS3fFylIKc6NkcuuEPWAl+lcxl+44s83iEhKLRjhe3s=",
+        "originContent": "- **CUDA Version**: 12.4 or later  ",
+        "translatedContent": "- **CUDA 버전**: 12.4 이상  "
+      },
+      {
+        "row": 26,
+        "rowsha": "qLVYSI5EG5ynCT6vgS51OOhPOnfHCQ4KhGqNT7rRjIo=",
+        "originContent": "- **Required DLLs**: Place the following files in the directory:  ",
+        "translatedContent": "- **필수 DLL**: 다음 파일을 디렉터리에 배치하세요:  "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "  ```plaintext\n  C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.4\\bin\n  ```",
+    "ContentSha": "t4tS9h0eG43wZebdIT5lGp/BFilAfChpGY77NU3qZGc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```plaintext\n  C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.4\\bin\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "orouHi5WCO4bb+Z0ATsNcnJuGutk0KcWQ6n46Zp5ZyQ=",
+        "originContent": "  ```plaintext",
+        "translatedContent": "  ```plaintext"
+      },
+      {
+        "row": 2,
+        "rowsha": "1nAATkH+Sdep+4IqsdTofjrEtX43a3cG5gAWI1Oog/A=",
+        "originContent": "  C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.4\\bin",
+        "translatedContent": "  C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.4\\bin"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "  - `cudart64_12.dll`  \n  - `cufft64_11.dll`  \n\n## Installation & Usage  \n\n1. Download the provided **ZIP file**.  [Download ZIP](https://drive.google.com/file/d/1XPivZb6-dVtuwQ3T9UrxOF2gTTnerGhp/view?usp=sharing)\n2. Extract the contents.  \n3. Run the **exe file**—no additional setup required!  \n4. Modify mesh properties in **mesh_config.txt**.  \n5. Change the base scene by editing the **PLY file path** in `config.txt`.  \n\n## Controls  \n\n- Exactly the same as in the interactive Windows viewer / optimizer application.\n\n## Future Features  \n\nWe are actively developing new features, including:  \n- **Enhanced mesh transformations** (scaling, rotation, position editing beyond `mesh_config.txt`)  \n- **Screenshot capture** for rendered scenes  \n- **View presets** to allow seamless switching between different perspectives  \n- **And much more!**  \n\nStay tuned for updates and improvements!\n\n\n\n",
+    "ContentSha": "qisiAV3IvVs4xfpMTjpJQpTr2SE0f673Tgrb7stcXJU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - `cudart64_12.dll`  \n  - `cufft64_11.dll`  \n\n## 설치 및 사용법  \n\n1. 제공된 **ZIP 파일**을 다운로드하세요.  [ZIP 다운로드](https://drive.google.com/file/d/1XPivZb6-dVtuwQ3T9UrxOF2gTTnerGhp/view?usp=sharing)\n2. 압축을 풉니다.  \n3. **exe 파일**을 실행하세요—추가 설정이 필요 없습니다!  \n4. **mesh_config.txt**에서 메쉬 속성을 수정하세요.  \n5. `config.txt`에서 **PLY 파일 경로**를 편집하여 기본 씬을 변경하세요.  \n\n## 컨트롤  \n\n- 인터랙티브 Windows 뷰어 / 최적화 애플리케이션과 동일합니다.\n\n## 향후 기능  \n\n다음과 같은 새로운 기능을 적극 개발 중입니다:  \n- **향상된 메쉬 변환** (mesh_config.txt 외에 스케일, 회전, 위치 편집)  \n- 렌더링된 씬의 **스크린샷 캡처**  \n- 다양한 시점을 원활하게 전환할 수 있는 **뷰 프리셋**  \n- **그리고 더 많은 기능!**  \n\n업데이트와 개선 사항을 기대해 주세요!\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "PbwgydbdnGq1yjthuj4Kw3XU/C4y6/945ClQ9o6e5/g=",
+        "originContent": "  - `cudart64_12.dll`  ",
+        "translatedContent": "  - `cudart64_12.dll`  "
+      },
+      {
+        "row": 2,
+        "rowsha": "WOWknhQJx+4AYvScUUf1b+NLX5keQko2QG4lavkodJc=",
+        "originContent": "  - `cufft64_11.dll`  ",
+        "translatedContent": "  - `cufft64_11.dll`  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "kTE3YP41POL4QZKVahj+j3ow4djFWqkWSQu7YHjphgw=",
+        "originContent": "## Installation & Usage  ",
+        "translatedContent": "## 설치 및 사용법  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "q/a/9x1st1c0dtCWTOKd4kXXIhLmF4KNO54JI08Z+30=",
+        "originContent": "1. Download the provided **ZIP file**.  [Download ZIP](https://drive.google.com/file/d/1XPivZb6-dVtuwQ3T9UrxOF2gTTnerGhp/view?usp=sharing)",
+        "translatedContent": "1. 제공된 **ZIP 파일**을 다운로드하세요.  [ZIP 다운로드](https://drive.google.com/file/d/1XPivZb6-dVtuwQ3T9UrxOF2gTTnerGhp/view?usp=sharing)"
+      },
+      {
+        "row": 7,
+        "rowsha": "SHFHspeQ26EvuE2dXVvLhANVt2yUgNsBqfxpHXdCQEA=",
+        "originContent": "2. Extract the contents.  ",
+        "translatedContent": "2. 압축을 풉니다.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "i0soZbZKPHhDuIjlppgC8mwNAIkgZ2ZDtloGPzQ0mOU=",
+        "originContent": "3. Run the **exe file**—no additional setup required!  ",
+        "translatedContent": "3. **exe 파일**을 실행하세요—추가 설정이 필요 없습니다!  "
+      },
+      {
+        "row": 9,
+        "rowsha": "7DjrCMexT3n5u7WSS2Vr1WLxgZXG4kRUX51jjng8+K8=",
+        "originContent": "4. Modify mesh properties in **mesh_config.txt**.  ",
+        "translatedContent": "4. **mesh_config.txt**에서 메쉬 속성을 수정하세요.  "
+      },
+      {
+        "row": 10,
+        "rowsha": "JKdTzG0rSPozbvCA3WcVucI5qw3ppiKvI20cdwLnaWc=",
+        "originContent": "5. Change the base scene by editing the **PLY file path** in `config.txt`.  ",
+        "translatedContent": "5. `config.txt`에서 **PLY 파일 경로**를 편집하여 기본 씬을 변경하세요.  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "K0bFw+clrRJ3Z/PPK6nvkK3a66zDEQV5EVOtxP67w0c=",
+        "originContent": "## Controls  ",
+        "translatedContent": "## 컨트롤  "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "+QmS3W6Wfq7L8XsEzAAEW9duQdDldX2MRe8Y8Nz3qN0=",
+        "originContent": "- Exactly the same as in the interactive Windows viewer / optimizer application.",
+        "translatedContent": "- 인터랙티브 Windows 뷰어 / 최적화 애플리케이션과 동일합니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "wM1NbCR23ObFgPs5vY/gtqPfYaGNBweMSrfYCAk+Qb0=",
+        "originContent": "## Future Features  ",
+        "translatedContent": "## 향후 기능  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "NrcauZbK1jhAt1Sz6pPtwJDQNTI55WkewZAEQD6mYlg=",
+        "originContent": "We are actively developing new features, including:  ",
+        "translatedContent": "다음과 같은 새로운 기능을 적극 개발 중입니다:  "
+      },
+      {
+        "row": 19,
+        "rowsha": "5729IXgCHhDeKiJhWDWvnpWemCxIpor51Rys59yOtkU=",
+        "originContent": "- **Enhanced mesh transformations** (scaling, rotation, position editing beyond `mesh_config.txt`)  ",
+        "translatedContent": "- **향상된 메쉬 변환** (mesh_config.txt 외에 스케일, 회전, 위치 편집)  "
+      },
+      {
+        "row": 20,
+        "rowsha": "AE3jdUdaHCRDdsExNSvnxFFA0sCPWcjzWEAO2ySJl10=",
+        "originContent": "- **Screenshot capture** for rendered scenes  ",
+        "translatedContent": "- 렌더링된 씬의 **스크린샷 캡처**  "
+      },
+      {
+        "row": 21,
+        "rowsha": "czxpFelswO7CXhQmmd+NLrLiOYSGacVTLWAEourpjnA=",
+        "originContent": "- **View presets** to allow seamless switching between different perspectives  ",
+        "translatedContent": "- 다양한 시점을 원활하게 전환할 수 있는 **뷰 프리셋**  "
+      },
+      {
+        "row": 22,
+        "rowsha": "Zm2XBs9z24VFEX3qdmN3lKkYSgCpMNesbhvztMH6rmg=",
+        "originContent": "- **And much more!**  ",
+        "translatedContent": "- **그리고 더 많은 기능!**  "
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "8ODToofUmpMIwuYo7OhEm8Xy5kiLmhFuc0YLemWPD+I=",
+        "originContent": "Stay tuned for updates and improvements!",
+        "translatedContent": "업데이트와 개선 사항을 기대해 주세요!"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

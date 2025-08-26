@@ -1,12 +1,44 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # OCI2Git
 
-Una aplicación en Rust que convierte imágenes de contenedores (Docker, etc.) a repositorios Git. Cada capa del contenedor se representa como un commit de Git, preservando la historia y estructura de la imagen original.
+Una aplicación en Rust que convierte imágenes de contenedores (Docker, etc.) en repositorios Git. Cada capa del contenedor se representa como un commit de Git, preservando la historia y la estructura de la imagen original.
 
 ![Demostración de OCI2Git convirtiendo la imagen de nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## Características
 
-- Analiza imágenes Docker y extrae información de las capas
+- Analiza imágenes de Docker y extrae información de las capas
 - Crea un repositorio Git donde cada capa de la imagen se representa como un commit
 - Soporte para capas vacías (ENV, WORKDIR, etc.) como commits vacíos
 - Extracción completa de metadatos en formato Markdown
@@ -14,17 +46,17 @@ Una aplicación en Rust que convierte imágenes de contenedores (Docker, etc.) a
 
 ## Casos de Uso
 
-### Comparación de Capas
-Al solucionar problemas con contenedores, puedes usar las potentes capacidades de comparación de Git para identificar exactamente qué cambió entre dos capas. Al ejecutar `git diff` entre commits, los ingenieros pueden ver con precisión qué archivos fueron añadidos, modificados o eliminados, facilitando la comprensión del impacto de cada instrucción del Dockerfile y localizar cambios problemáticos.
-![Ejemplo de comparación de capas](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### Diferencias de Capas
+Al solucionar problemas de contenedores, puedes utilizar las potentes capacidades de comparación de Git para identificar exactamente qué cambió entre dos capas. Al ejecutar `git diff` entre commits, los ingenieros pueden ver con precisión qué archivos fueron agregados, modificados o eliminados, lo que facilita mucho entender el impacto de cada instrucción del Dockerfile y localizar cambios problemáticos.
+![Ejemplo de diferencia de capa](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### Seguimiento de Origen
-Usando `git blame`, los desarrolladores pueden determinar rápidamente qué capa introdujo un archivo o línea de código específica. Esto es especialmente valioso al diagnosticar problemas con archivos de configuración o dependencias. En lugar de inspeccionar manualmente cada capa, puedes rastrear inmediatamente el origen de cualquier archivo hasta su capa fuente y la instrucción correspondiente del Dockerfile.
+### Rastreo de Origen
+Utilizando `git blame`, los desarrolladores pueden determinar rápidamente qué capa introdujo un archivo o línea de código específico. Esto es especialmente valioso al diagnosticar problemas con archivos de configuración o dependencias. En lugar de inspeccionar manualmente cada capa, puedes rastrear inmediatamente el origen de cualquier archivo hasta su capa fuente y la instrucción correspondiente en el Dockerfile.
 
-### Seguimiento del Ciclo de Vida de Archivos
-OCI2Git te permite seguir el recorrido de un archivo específico a lo largo de la historia de la imagen del contenedor. Puedes observar cuándo se creó inicialmente un archivo, cómo fue modificado a través de las capas y si/cuándo fue finalmente eliminado. Esta vista completa ayuda a entender la evolución del archivo sin tener que rastrear manualmente los cambios a través de decenas de capas potenciales.
+### Rastreo del Ciclo de Vida del Archivo
+OCI2Git te permite seguir el recorrido de un archivo específico a lo largo de la historia de la imagen del contenedor. Puedes observar cuándo se creó inicialmente un archivo, cómo se modificó a través de las capas y si/cuándo fue finalmente eliminado. Esta vista integral ayuda a entender la evolución del archivo sin tener que rastrear manualmente los cambios a través de decenas de capas.
 
-Para rastrear la historia de un archivo en tu imagen de contenedor — incluyendo cuándo apareció por primera vez, fue modificado o eliminado — puedes usar estos comandos de Git después de la conversión:
+Para rastrear el historial de un archivo en tu imagen de contenedor — incluyendo cuándo apareció por primera vez, fue cambiado o eliminado — puedes usar estos comandos de Git después de la conversión:
 
 ```bash
 # Full history of a file (including renames)
@@ -174,6 +206,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
 
 ---

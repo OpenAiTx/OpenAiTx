@@ -1,178 +1,250 @@
 [
   {
     "Id": 1,
-    "Content": "# OCI2Git\n\nA Rust application that converts container images (Docker, etc.) to Git repositories. Each container layer is represented as a Git commit, preserving the history and structure of the original image.\n\n![Demo of OCI2Git converting the nginx image](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)\n\n## Features\n\n- Analyze Docker images and extract layer information\n- Create a Git repository where each image layer is represented as a commit\n- Support for empty layers (ENV, WORKDIR, etc.) as empty commits\n- Complete metadata extraction to Markdown format\n- Extensible architecture for supporting different container engines\n\n## Use Cases\n\n### Layer Diffing\nWhen troubleshooting container issues, you can use Git's powerful diffing capabilities to identify exactly what changed between any two layers. By running `git diff` between commits, engineers can see precisely which files were added, modified, or deleted, making it much easier to understand the impact of each Dockerfile instruction and locate problematic changes.\n![Example for layer diff](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)\n\n### Origin Tracking\nUsing `git blame`, developers can quickly determine which layer introduced a specific file or line of code. This is particularly valuable when diagnosing issues with configuration files or dependencies. Instead of manually inspecting each layer, you can immediately trace the origin of any file back to its source layer and corresponding Dockerfile instruction.\n\n### File Lifecycle Tracking\nOCI2Git enables you to follow a specific file's journey throughout the container image's history. You can observe when a file was initially created, how it was modified across layers, and if/when it was eventually removed. This comprehensive view helps understand file evolution without having to manually track changes across potentially dozens of layers.\n\nTo track the history of a file in your container image — including when it first appeared, was changed, or deleted — you can use these Git commands after conversion:\n",
-    "ContentSha": "YM3alsZTsgCmoxX89ueVuE79UgR2EgOWWXFNhyQuK4Y=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# OCI2Git\n\nA Rust application that converts container images (Docker, etc.) to Git repositories. Each container layer is represented as a Git commit, preserving the history and structure of the original image.\n\n![Demo of OCI2Git converting the nginx image](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)\n\n## Features\n",
+    "ContentSha": "wsUDBAghVA46mgjW/0PdhV0nKVhXa8pat1jRvRsNBcI=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# OCI2Git\n\n컨테이너 이미지(Docker 등)를 Git 저장소로 변환하는 Rust 애플리케이션입니다. 각 컨테이너 레이어는 Git 커밋으로 표현되어 원본 이미지의 히스토리와 구조를 보존합니다.\n\n![nginx 이미지를 변환하는 OCI2Git 데모](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)\n\n## 기능\n\n- Docker 이미지 분석 및 레이어 정보 추출\n- 각 이미지 레이어를 커밋으로 표현하는 Git 저장소 생성\n- 빈 레이어(ENV, WORKDIR 등)를 빈 커밋으로 지원\n- 메타데이터를 Markdown 형식으로 완전 추출\n- 다양한 컨테이너 엔진 지원을 위한 확장 가능한 아키텍처\n\n## 사용 사례\n\n### 레이어 차이 분석\n컨테이너 문제 해결 시 Git의 강력한 diff 기능을 사용하여 두 레이어 간에 정확히 무엇이 변경되었는지 확인할 수 있습니다. 커밋 간 `git diff`를 실행하면 엔지니어는 어떤 파일이 추가, 수정 또는 삭제되었는지 정확히 파악할 수 있어 Dockerfile 명령어의 영향과 문제 변경 사항을 쉽게 이해할 수 있습니다.\n![레이어 차이 예시](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)\n\n### 원본 추적\n`git blame`을 사용하면 개발자는 특정 파일이나 코드 라인을 어떤 레이어가 도입했는지 빠르게 확인할 수 있습니다. 이는 구성 파일이나 종속성 문제를 진단할 때 특히 유용합니다. 각 레이어를 수동으로 검사하는 대신, 파일의 출처 레이어와 해당 Dockerfile 명령어를 즉시 추적할 수 있습니다.\n\n### 파일 수명 주기 추적\nOCI2Git은 특정 파일이 컨테이너 이미지의 히스토리 전반에 걸쳐 어떻게 변해왔는지 추적할 수 있도록 합니다. 파일이 처음 생성된 시점, 레이어별 수정 내역, 그리고 삭제된 시점까지 관찰할 수 있습니다. 이 포괄적인 관점은 수십 개 레이어를 수동으로 추적하지 않고도 파일 변화를 이해하는 데 도움을 줍니다.\n\n컨테이너 이미지 내 파일의 생성, 변경, 삭제 이력을 추적하려면 변환 후 다음 Git 명령어를 사용할 수 있습니다:\n",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# OCI2Git\n\n컨테이너 이미지(Docker 등)를 Git 저장소로 변환하는 Rust 애플리케이션입니다. 각 컨테이너 레이어는 Git 커밋으로 표현되며, 원본 이미지의 히스토리와 구조를 보존합니다.\n\n![OCI2Git이 nginx 이미지를 변환하는 데모](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)\n\n## 주요 기능\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 언어</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "K5FORXhiyNomCxcGwIgUemCHIqZZ79R0b94zmyJ5+dI=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "PBn2fZFLPPOzkzXjVwasq75tw/3Aph5gK+FtJ799vCM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "5suJZ8r2OJDgmEPCoXbfBtPKucer3SePFFaEQ29rJGw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "YJ/wv7VoLAvGznqBTXVZGjIVbB08cdhRlAlIoOwChdo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "GdxjcBOXDRXe37BC7YKbwHqRjj8qQUa4AWVU3AlxdMw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "hEJUPz3f6GensimAXOy1isnCsIrjsqIitTkBfqFsMnA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "jlHJhaRCQfXsRUffG2FgAzkXDelSM+vIf5cRCRkYXjo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "ulMNqD6/ZYJxIKzj6ov+bOEEphjM3gnsITX5Cl6NMQ0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "GKKSDoeHn3t89DFSzrGbhv+XhyZqmusVNm5MvuBHCxk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "BsS+kkR0nE+Fc0O6wwVYGW6NjhhWEOEnB/FHySkMQY8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "aur2UTTJiIiierHGidc3OihUXQ7OuPA9ItoF/9UpFy0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "m5lzNZv/2I8t4b6By2iwEaD5+PFZn6YaMMkb54lAZdY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "bqNo/wlZlNq9lWjIFDllbgNm1+XI21AcIgFC/dDb7lA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "I1ExF30BVI6B8VfJ+MacEOHRRCy/XU633qbkqJLjGw8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "g/CsyFGLa9sxMWpFwkW2uiHdQW0OCENDWPE1Nr3PlOU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "joh9IFJCqD979ht5QZqA1TF0C8MIB3kcRRCfP41wtEE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "sc/eA+rzaDVu5SJneI2jQzqM3JUBogFttJBjVJPWECE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "SsEAfcoG4wBFWvLGmeNrCPVIyjMfB+MvkmB1QRizgX0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "2+/abRCqUIM5cQlEUJ21yD6g3zr7F07n/LH+YQjI87g=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "1f9VmvVxq0qOMeGubG3f/1tFYYKpwuVoK1Qs0QN4sw4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "grKDcH6pp8u8CJJlYrVGYPLIRBVt6NblofBWfB9NbQI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
         "rowsha": "RXxvvTH61GaA2lPt/wrkEM3eHNkXuPqsF5MwHHiRXP0=",
         "originContent": "# OCI2Git",
         "translatedContent": "# OCI2Git"
       },
       {
-        "row": 2,
+        "row": 34,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 3,
+        "row": 35,
         "rowsha": "Yt7buMMjActSOqvfCV85v0Rh1Tf/2dXj+DaIGZwA9RA=",
         "originContent": "A Rust application that converts container images (Docker, etc.) to Git repositories. Each container layer is represented as a Git commit, preserving the history and structure of the original image.",
-        "translatedContent": "컨테이너 이미지(Docker 등)를 Git 저장소로 변환하는 Rust 애플리케이션입니다. 각 컨테이너 레이어는 Git 커밋으로 표현되어 원본 이미지의 히스토리와 구조를 보존합니다."
+        "translatedContent": "컨테이너 이미지(Docker 등)를 Git 저장소로 변환하는 Rust 애플리케이션입니다. 각 컨테이너 레이어는 Git 커밋으로 표현되며, 원본 이미지의 히스토리와 구조를 보존합니다."
       },
       {
-        "row": 4,
+        "row": 36,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 5,
+        "row": 37,
         "rowsha": "//FYkPzWahj3gIMXsIh1taqlY2/2UrYXdlAZmRJvT+U=",
         "originContent": "![Demo of OCI2Git converting the nginx image](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)",
-        "translatedContent": "![nginx 이미지를 변환하는 OCI2Git 데모](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)"
+        "translatedContent": "![OCI2Git이 nginx 이미지를 변환하는 데모](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)"
       },
       {
-        "row": 6,
+        "row": 38,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 7,
+        "row": 39,
         "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
         "originContent": "## Features",
-        "translatedContent": "## 기능"
+        "translatedContent": "## 주요 기능"
       },
       {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "fi1muZ1SfkNwRATe0FyTwPtiBpXzDttmmQkrpmT5c14=",
-        "originContent": "- Analyze Docker images and extract layer information",
-        "translatedContent": "- Docker 이미지 분석 및 레이어 정보 추출"
-      },
-      {
-        "row": 10,
-        "rowsha": "TxXPmzDPxz/0RRZZZGt/NJCbHCtSGYEBc8ztOOE4rSI=",
-        "originContent": "- Create a Git repository where each image layer is represented as a commit",
-        "translatedContent": "- 각 이미지 레이어를 커밋으로 표현하는 Git 저장소 생성"
-      },
-      {
-        "row": 11,
-        "rowsha": "dqDneuJMUNFjBUZjZ5o0yVWsx1+CA1cQkulQ4mWkh7U=",
-        "originContent": "- Support for empty layers (ENV, WORKDIR, etc.) as empty commits",
-        "translatedContent": "- 빈 레이어(ENV, WORKDIR 등)를 빈 커밋으로 지원"
-      },
-      {
-        "row": 12,
-        "rowsha": "JbJcIVQyhw9GQGyK3J8ORqxjXbhGYb27Zt6bioFGlxY=",
-        "originContent": "- Complete metadata extraction to Markdown format",
-        "translatedContent": "- 메타데이터를 Markdown 형식으로 완전 추출"
-      },
-      {
-        "row": 13,
-        "rowsha": "WM41v1kLx5sRbXDs3mG8K5UtB9rj6VGAWT1oaxlLWh4=",
-        "originContent": "- Extensible architecture for supporting different container engines",
-        "translatedContent": "- 다양한 컨테이너 엔진 지원을 위한 확장 가능한 아키텍처"
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "4vWujHs5Ye7w1xO1jq955leyFikp9SiNLFJmgYQgCYI=",
-        "originContent": "## Use Cases",
-        "translatedContent": "## 사용 사례"
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "E2n7dPydQYzOmSYdIJYX2UpgFCHpPJ++RZpX+UyckS8=",
-        "originContent": "### Layer Diffing",
-        "translatedContent": "### 레이어 차이 분석"
-      },
-      {
-        "row": 18,
-        "rowsha": "zWiOMkvkQsg7Ro/wIs9arXxy5pz3SvWMD4RVFmqGY2Q=",
-        "originContent": "When troubleshooting container issues, you can use Git's powerful diffing capabilities to identify exactly what changed between any two layers. By running `git diff` between commits, engineers can see precisely which files were added, modified, or deleted, making it much easier to understand the impact of each Dockerfile instruction and locate problematic changes.",
-        "translatedContent": "컨테이너 문제 해결 시 Git의 강력한 diff 기능을 사용하여 두 레이어 간에 정확히 무엇이 변경되었는지 확인할 수 있습니다. 커밋 간 `git diff`를 실행하면 엔지니어는 어떤 파일이 추가, 수정 또는 삭제되었는지 정확히 파악할 수 있어 Dockerfile 명령어의 영향과 문제 변경 사항을 쉽게 이해할 수 있습니다."
-      },
-      {
-        "row": 19,
-        "rowsha": "CasDr/NfxbBl9ND+Q9c/7Qle4eGEAJW/lMJqrYGVKtY=",
-        "originContent": "![Example for layer diff](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)",
-        "translatedContent": "![레이어 차이 예시](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "E/blJ113pQ9M93xEk5CafWzLs7QhCQbHp1pPdtKgLpw=",
-        "originContent": "### Origin Tracking",
-        "translatedContent": "### 원본 추적"
-      },
-      {
-        "row": 22,
-        "rowsha": "6BJyqkc8ucX6zX6CQ5KR2G4e+XqwZeBjzU6vd8G128Y=",
-        "originContent": "Using `git blame`, developers can quickly determine which layer introduced a specific file or line of code. This is particularly valuable when diagnosing issues with configuration files or dependencies. Instead of manually inspecting each layer, you can immediately trace the origin of any file back to its source layer and corresponding Dockerfile instruction.",
-        "translatedContent": "`git blame`을 사용하면 개발자는 특정 파일이나 코드 라인을 어떤 레이어가 도입했는지 빠르게 확인할 수 있습니다. 이는 구성 파일이나 종속성 문제를 진단할 때 특히 유용합니다. 각 레이어를 수동으로 검사하는 대신, 파일의 출처 레이어와 해당 Dockerfile 명령어를 즉시 추적할 수 있습니다."
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "tjbbryF+A9tu7pgePp78TjDMWcBFPeqdNCHhWbK20/I=",
-        "originContent": "### File Lifecycle Tracking",
-        "translatedContent": "### 파일 수명 주기 추적"
-      },
-      {
-        "row": 25,
-        "rowsha": "X7Ul9KO1ZSdjb3AA/dyMaOUGjVoEq/TVN3ic4n8hwVU=",
-        "originContent": "OCI2Git enables you to follow a specific file's journey throughout the container image's history. You can observe when a file was initially created, how it was modified across layers, and if/when it was eventually removed. This comprehensive view helps understand file evolution without having to manually track changes across potentially dozens of layers.",
-        "translatedContent": "OCI2Git은 특정 파일이 컨테이너 이미지의 히스토리 전반에 걸쳐 어떻게 변해왔는지 추적할 수 있도록 합니다. 파일이 처음 생성된 시점, 레이어별 수정 내역, 그리고 삭제된 시점까지 관찰할 수 있습니다. 이 포괄적인 관점은 수십 개 레이어를 수동으로 추적하지 않고도 파일 변화를 이해하는 데 도움을 줍니다."
-      },
-      {
-        "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 27,
-        "rowsha": "CFZY3Krc9gFeR7X13SIQ0WBlPsXpXqk4COWVuQ+negw=",
-        "originContent": "To track the history of a file in your container image — including when it first appeared, was changed, or deleted — you can use these Git commands after conversion:",
-        "translatedContent": "컨테이너 이미지 내 파일의 생성, 변경, 삭제 이력을 추적하려면 변환 후 다음 Git 명령어를 사용할 수 있습니다:"
-      },
-      {
-        "row": 28,
+        "row": 40,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -182,6 +254,139 @@
   },
   {
     "Id": 2,
+    "Content": "- Analyze Docker images and extract layer information\n- Create a Git repository where each image layer is represented as a commit\n- Support for empty layers (ENV, WORKDIR, etc.) as empty commits\n- Complete metadata extraction to Markdown format\n- Extensible architecture for supporting different container engines\n\n## Use Cases\n\n### Layer Diffing\nWhen troubleshooting container issues, you can use Git's powerful diffing capabilities to identify exactly what changed between any two layers. By running `git diff` between commits, engineers can see precisely which files were added, modified, or deleted, making it much easier to understand the impact of each Dockerfile instruction and locate problematic changes.\n![Example for layer diff](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)\n\n### Origin Tracking\nUsing `git blame`, developers can quickly determine which layer introduced a specific file or line of code. This is particularly valuable when diagnosing issues with configuration files or dependencies. Instead of manually inspecting each layer, you can immediately trace the origin of any file back to its source layer and corresponding Dockerfile instruction.\n\n### File Lifecycle Tracking\nOCI2Git enables you to follow a specific file's journey throughout the container image's history. You can observe when a file was initially created, how it was modified across layers, and if/when it was eventually removed. This comprehensive view helps understand file evolution without having to manually track changes across potentially dozens of layers.\n\nTo track the history of a file in your container image — including when it first appeared, was changed, or deleted — you can use these Git commands after conversion:\n",
+    "ContentSha": "cpvo4uqnoKEuFJVcXqZGLfkSQORrIp1iTJIPvUE38N4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Docker 이미지를 분석하고 레이어 정보를 추출합니다\n- 각 이미지 레이어가 커밋으로 표현되는 Git 저장소를 생성합니다\n- 빈 레이어(ENV, WORKDIR 등)를 빈 커밋으로 지원합니다\n- 메타데이터를 Markdown 형식으로 완전하게 추출합니다\n- 다양한 컨테이너 엔진 지원을 위한 확장 가능한 아키텍처\n\n## 사용 사례\n\n### 레이어 차이 분석\n컨테이너 문제를 해결할 때, Git의 강력한 diff 기능을 사용하여 두 레이어 사이에 정확히 어떤 변경이 있었는지 식별할 수 있습니다. 커밋 간에 `git diff`를 실행하면 엔지니어가 어떤 파일이 추가, 수정 또는 삭제되었는지 정확하게 확인할 수 있어, 각 Dockerfile 명령의 영향과 문제를 유발한 변경 사항을 이해하기가 훨씬 쉬워집니다.\n![레이어 차이 예시](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)\n\n### 원본 추적\n`git blame`을 사용하면 개발자는 특정 파일이나 코드 라인이 어떤 레이어에서 도입되었는지 빠르게 확인할 수 있습니다. 이는 설정 파일이나 종속성 문제를 진단할 때 특히 유용합니다. 각 레이어를 수동으로 검사하지 않고도, 파일의 원본 레이어와 해당 Dockerfile 명령까지 즉시 추적할 수 있습니다.\n\n### 파일 라이프사이클 추적\nOCI2Git을 통해 컨테이너 이미지의 전체 히스토리에서 특정 파일의 이동 경로를 따라갈 수 있습니다. 파일이 처음 생성된 시점, 각 레이어에서 어떻게 수정되었는지, 그리고 최종적으로 삭제된 시점까지 관찰할 수 있습니다. 이 포괄적인 뷰를 통해 수십 개의 레이어에 걸친 변경 사항을 수동으로 추적하지 않고도 파일의 진화를 이해할 수 있습니다.\n\n컨테이너 이미지 내 특정 파일의 히스토리(처음 등장, 변경, 삭제 시점 등)를 추적하려면 변환 후 다음 Git 명령어를 사용할 수 있습니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fi1muZ1SfkNwRATe0FyTwPtiBpXzDttmmQkrpmT5c14=",
+        "originContent": "- Analyze Docker images and extract layer information",
+        "translatedContent": "- Docker 이미지를 분석하고 레이어 정보를 추출합니다"
+      },
+      {
+        "row": 2,
+        "rowsha": "TxXPmzDPxz/0RRZZZGt/NJCbHCtSGYEBc8ztOOE4rSI=",
+        "originContent": "- Create a Git repository where each image layer is represented as a commit",
+        "translatedContent": "- 각 이미지 레이어가 커밋으로 표현되는 Git 저장소를 생성합니다"
+      },
+      {
+        "row": 3,
+        "rowsha": "dqDneuJMUNFjBUZjZ5o0yVWsx1+CA1cQkulQ4mWkh7U=",
+        "originContent": "- Support for empty layers (ENV, WORKDIR, etc.) as empty commits",
+        "translatedContent": "- 빈 레이어(ENV, WORKDIR 등)를 빈 커밋으로 지원합니다"
+      },
+      {
+        "row": 4,
+        "rowsha": "JbJcIVQyhw9GQGyK3J8ORqxjXbhGYb27Zt6bioFGlxY=",
+        "originContent": "- Complete metadata extraction to Markdown format",
+        "translatedContent": "- 메타데이터를 Markdown 형식으로 완전하게 추출합니다"
+      },
+      {
+        "row": 5,
+        "rowsha": "WM41v1kLx5sRbXDs3mG8K5UtB9rj6VGAWT1oaxlLWh4=",
+        "originContent": "- Extensible architecture for supporting different container engines",
+        "translatedContent": "- 다양한 컨테이너 엔진 지원을 위한 확장 가능한 아키텍처"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "4vWujHs5Ye7w1xO1jq955leyFikp9SiNLFJmgYQgCYI=",
+        "originContent": "## Use Cases",
+        "translatedContent": "## 사용 사례"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "E2n7dPydQYzOmSYdIJYX2UpgFCHpPJ++RZpX+UyckS8=",
+        "originContent": "### Layer Diffing",
+        "translatedContent": "### 레이어 차이 분석"
+      },
+      {
+        "row": 10,
+        "rowsha": "zWiOMkvkQsg7Ro/wIs9arXxy5pz3SvWMD4RVFmqGY2Q=",
+        "originContent": "When troubleshooting container issues, you can use Git's powerful diffing capabilities to identify exactly what changed between any two layers. By running `git diff` between commits, engineers can see precisely which files were added, modified, or deleted, making it much easier to understand the impact of each Dockerfile instruction and locate problematic changes.",
+        "translatedContent": "컨테이너 문제를 해결할 때, Git의 강력한 diff 기능을 사용하여 두 레이어 사이에 정확히 어떤 변경이 있었는지 식별할 수 있습니다. 커밋 간에 `git diff`를 실행하면 엔지니어가 어떤 파일이 추가, 수정 또는 삭제되었는지 정확하게 확인할 수 있어, 각 Dockerfile 명령의 영향과 문제를 유발한 변경 사항을 이해하기가 훨씬 쉬워집니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "CasDr/NfxbBl9ND+Q9c/7Qle4eGEAJW/lMJqrYGVKtY=",
+        "originContent": "![Example for layer diff](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)",
+        "translatedContent": "![레이어 차이 예시](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "E/blJ113pQ9M93xEk5CafWzLs7QhCQbHp1pPdtKgLpw=",
+        "originContent": "### Origin Tracking",
+        "translatedContent": "### 원본 추적"
+      },
+      {
+        "row": 14,
+        "rowsha": "6BJyqkc8ucX6zX6CQ5KR2G4e+XqwZeBjzU6vd8G128Y=",
+        "originContent": "Using `git blame`, developers can quickly determine which layer introduced a specific file or line of code. This is particularly valuable when diagnosing issues with configuration files or dependencies. Instead of manually inspecting each layer, you can immediately trace the origin of any file back to its source layer and corresponding Dockerfile instruction.",
+        "translatedContent": "`git blame`을 사용하면 개발자는 특정 파일이나 코드 라인이 어떤 레이어에서 도입되었는지 빠르게 확인할 수 있습니다. 이는 설정 파일이나 종속성 문제를 진단할 때 특히 유용합니다. 각 레이어를 수동으로 검사하지 않고도, 파일의 원본 레이어와 해당 Dockerfile 명령까지 즉시 추적할 수 있습니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "tjbbryF+A9tu7pgePp78TjDMWcBFPeqdNCHhWbK20/I=",
+        "originContent": "### File Lifecycle Tracking",
+        "translatedContent": "### 파일 라이프사이클 추적"
+      },
+      {
+        "row": 17,
+        "rowsha": "X7Ul9KO1ZSdjb3AA/dyMaOUGjVoEq/TVN3ic4n8hwVU=",
+        "originContent": "OCI2Git enables you to follow a specific file's journey throughout the container image's history. You can observe when a file was initially created, how it was modified across layers, and if/when it was eventually removed. This comprehensive view helps understand file evolution without having to manually track changes across potentially dozens of layers.",
+        "translatedContent": "OCI2Git을 통해 컨테이너 이미지의 전체 히스토리에서 특정 파일의 이동 경로를 따라갈 수 있습니다. 파일이 처음 생성된 시점, 각 레이어에서 어떻게 수정되었는지, 그리고 최종적으로 삭제된 시점까지 관찰할 수 있습니다. 이 포괄적인 뷰를 통해 수십 개의 레이어에 걸친 변경 사항을 수동으로 추적하지 않고도 파일의 진화를 이해할 수 있습니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "CFZY3Krc9gFeR7X13SIQ0WBlPsXpXqk4COWVuQ+negw=",
+        "originContent": "To track the history of a file in your container image — including when it first appeared, was changed, or deleted — you can use these Git commands after conversion:",
+        "translatedContent": "컨테이너 이미지 내 특정 파일의 히스토리(처음 등장, 변경, 삭제 시점 등)를 추적하려면 변환 후 다음 Git 명령어를 사용할 수 있습니다:"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
     "Content": "```bash\n# Full history of a file (including renames)\ngit log --follow -- /rootfs/my/file/path\n\n# First appearance (i.e. creation) - see which layer introduced the file\ngit log --diff-filter=A -- /rootfs/my/file/path\n\n# All changes made to the file (with diffs)\ngit log -p --follow -- /rootfs/my/file/path\n\n# When the file was deleted\ngit log --diff-filter=D -- /rootfs/my/file/path\n\n# Show short commit info (concise layer history)\ngit log --follow --oneline -- /rootfs/my/file/path\n```",
     "ContentSha": "2Zu2rMbR+TQAbryNCahkpHND4kRAxNrlljaUOECIzcQ=",
     "SectionType": "",
@@ -189,108 +394,11 @@
     "EndLine": 0,
     "Translation": "```bash\n# Full history of a file (including renames)\ngit log --follow -- /rootfs/my/file/path\n\n# First appearance (i.e. creation) - see which layer introduced the file\ngit log --diff-filter=A -- /rootfs/my/file/path\n\n# All changes made to the file (with diffs)\ngit log -p --follow -- /rootfs/my/file/path\n\n# When the file was deleted\ngit log --diff-filter=D -- /rootfs/my/file/path\n\n# Show short commit info (concise layer history)\ngit log --follow --oneline -- /rootfs/my/file/path\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "HQJG+JPZtIzO2/N+XpAayqc5/W+JpoWndXPo/mwDtHM=",
-        "originContent": "# Full history of a file (including renames)",
-        "translatedContent": "# Full history of a file (including renames)"
-      },
-      {
-        "row": 3,
-        "rowsha": "CtkVUkixJrEqQQNw1x4/A/UjF662xT/SmaoxIeKgzx0=",
-        "originContent": "git log --follow -- /rootfs/my/file/path",
-        "translatedContent": "git log --follow -- /rootfs/my/file/path"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "+5HFk91zfi3xUwcySpt5aBg198utCjaXx/t+jNbycWo=",
-        "originContent": "# First appearance (i.e. creation) - see which layer introduced the file",
-        "translatedContent": "# First appearance (i.e. creation) - see which layer introduced the file"
-      },
-      {
-        "row": 6,
-        "rowsha": "6HnF5QDnEyn95lL3ni48aa1k4ax4Sgq1tqQG+ceSVok=",
-        "originContent": "git log --diff-filter=A -- /rootfs/my/file/path",
-        "translatedContent": "git log --diff-filter=A -- /rootfs/my/file/path"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "q74lJSPNP3o12/pIhSV3SEgSVBRUDrN9T0nftZbEVtg=",
-        "originContent": "# All changes made to the file (with diffs)",
-        "translatedContent": "# All changes made to the file (with diffs)"
-      },
-      {
-        "row": 9,
-        "rowsha": "F27msy3tqZ5fh10nzSsSmSCibSe6mETnpu45xI/tqAE=",
-        "originContent": "git log -p --follow -- /rootfs/my/file/path",
-        "translatedContent": "git log -p --follow -- /rootfs/my/file/path"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "JXRDWMdVwBL1G4D3+i84Mt7CPGlDY0O4R+NFb8iedTs=",
-        "originContent": "# When the file was deleted",
-        "translatedContent": "# When the file was deleted"
-      },
-      {
-        "row": 12,
-        "rowsha": "lIJRO1z/Aqo4htQWZpbuPDbQn08JFxCniaJULrKdzHs=",
-        "originContent": "git log --diff-filter=D -- /rootfs/my/file/path",
-        "translatedContent": "git log --diff-filter=D -- /rootfs/my/file/path"
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "gNOmeCWHta34jtrsOJ02Ji8DzKxjJEawkLau93d6SCI=",
-        "originContent": "# Show short commit info (concise layer history)",
-        "translatedContent": "# Show short commit info (concise layer history)"
-      },
-      {
-        "row": 15,
-        "rowsha": "iHuliTkKrH25h4zoknCHu2b83dvDxW9TyjgbgxLzW24=",
-        "originContent": "git log --follow --oneline -- /rootfs/my/file/path",
-        "translatedContent": "git log --follow --oneline -- /rootfs/my/file/path"
-      },
-      {
-        "row": 16,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 3,
+    "Id": 4,
     "Content": "\nThese commands make it simple to trace any file's complete history across container layers without the complexity of manually extracting and comparing layer tarballs.\n\n### Multi-Layer Analysis\nSometimes the most insightful comparisons come from examining changes across multiple non-consecutive layers. With OCI2Git, you can use Git's comparison tools to analyze how components evolved over multiple build stages, identifying patterns that might be invisible when looking only at adjacent layers.\n\n### Layer Exploration\nBy using `git checkout` to move to any specific commit, you can examine the container filesystem exactly as it existed at that layer. This allows developers to inspect the precise state of files and directories at any point in the image's creation process, providing invaluable context when debugging or examining container behavior.\n![Checkout to previous commit](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/checkout.png)\n\n### Multi-Image Analysis\n\nWhen working with multiple container images that share common ancestry, OCI2Git intelligently creates branches only when the images actually diverge. This allows you to analyze multiple related images in a single repository while preserving their common history.\n",
     "ContentSha": "CSCjy/bmQLKQGsh5PDhnbR810De11Xc4e3y2JTlQIvw=",
     "SectionType": "",
@@ -298,96 +406,11 @@
     "EndLine": 0,
     "Translation": "이 명령어들은 컨테이너 레이어를 수동으로 추출하고 레이어 tarball을 비교하는 복잡함 없이도 파일의 전체 이력을 쉽게 추적할 수 있게 해줍니다.\n\n### 다중 레이어 분석\n때로는 가장 통찰력 있는 비교가 여러 비연속 레이어의 변화를 조사할 때 나옵니다. OCI2Git을 사용하면 Git의 비교 도구를 통해 여러 빌드 단계에 걸쳐 구성 요소가 어떻게 진화했는지 분석할 수 있으며, 인접 레이어만 볼 때는 보이지 않는 패턴을 식별할 수 있습니다.\n\n### 레이어 탐색\n`git checkout`을 사용해 특정 커밋으로 이동하면 해당 레이어에 존재했던 컨테이너 파일시스템을 정확히 검사할 수 있습니다. 이를 통해 개발자는 이미지 생성 과정의 어느 시점에 파일과 디렉토리의 정확한 상태를 확인할 수 있어, 디버깅이나 컨테이너 동작 검토 시 매우 유용한 컨텍스트를 제공합니다.\n![이전 커밋으로 체크아웃](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/checkout.png)\n\n### 다중 이미지 분석\n\n공통 조상을 가진 여러 컨테이너 이미지를 작업할 때, OCI2Git은 이미지가 실제로 분기할 때만 지능적으로 브랜치를 생성합니다. 이를 통해 공통 이력을 보존하면서 단일 저장소에서 관련된 여러 이미지를 분석할 수 있습니다.\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "이 명령어들은 컨테이너 레이어를 수동으로 추출하고 레이어 tarball을 비교하는 복잡함 없이도 파일의 전체 이력을 쉽게 추적할 수 있게 해줍니다."
-      },
-      {
-        "row": 2,
-        "rowsha": "9fN+GKu+hL+eGAsr4x5QSBdDuJ7YVua7P6+/wylnPgI=",
-        "originContent": "These commands make it simple to trace any file's complete history across container layers without the complexity of manually extracting and comparing layer tarballs.",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 다중 레이어 분석"
-      },
-      {
-        "row": 4,
-        "rowsha": "LiMzICDoPJ5+qOaHfyJO4djRWTELaIJ08XP2NcOBIks=",
-        "originContent": "### Multi-Layer Analysis",
-        "translatedContent": "때로는 가장 통찰력 있는 비교가 여러 비연속 레이어의 변화를 조사할 때 나옵니다. OCI2Git을 사용하면 Git의 비교 도구를 통해 여러 빌드 단계에 걸쳐 구성 요소가 어떻게 진화했는지 분석할 수 있으며, 인접 레이어만 볼 때는 보이지 않는 패턴을 식별할 수 있습니다."
-      },
-      {
-        "row": 5,
-        "rowsha": "X9UHirDpVMu7uLvtmuYYeFbwupkrPEHBYYpKRa2jlNw=",
-        "originContent": "Sometimes the most insightful comparisons come from examining changes across multiple non-consecutive layers. With OCI2Git, you can use Git's comparison tools to analyze how components evolved over multiple build stages, identifying patterns that might be invisible when looking only at adjacent layers.",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 레이어 탐색"
-      },
-      {
-        "row": 7,
-        "rowsha": "j+ffQV2C7DT7/GxNYpAmcSdsWzgEelcoJTbROPm3EiQ=",
-        "originContent": "### Layer Exploration",
-        "translatedContent": "`git checkout`을 사용해 특정 커밋으로 이동하면 해당 레이어에 존재했던 컨테이너 파일시스템을 정확히 검사할 수 있습니다. 이를 통해 개발자는 이미지 생성 과정의 어느 시점에 파일과 디렉토리의 정확한 상태를 확인할 수 있어, 디버깅이나 컨테이너 동작 검토 시 매우 유용한 컨텍스트를 제공합니다."
-      },
-      {
-        "row": 8,
-        "rowsha": "FBo5CohOy9c+YZaTko1cbJ/2fAb7iKQ2oozCb8Z6rBw=",
-        "originContent": "By using `git checkout` to move to any specific commit, you can examine the container filesystem exactly as it existed at that layer. This allows developers to inspect the precise state of files and directories at any point in the image's creation process, providing invaluable context when debugging or examining container behavior.",
-        "translatedContent": "![이전 커밋으로 체크아웃](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/checkout.png)"
-      },
-      {
-        "row": 9,
-        "rowsha": "0PCWuFzpLEM5zEVE4k2FHFyIXyf1wGVJHJha31NNUGc=",
-        "originContent": "![Checkout to previous commit](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/checkout.png)",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 다중 이미지 분석"
-      },
-      {
-        "row": 11,
-        "rowsha": "IIpbeFQmbsUcYSI0Md1+mK0az/WdLCjeULLOY/COazw=",
-        "originContent": "### Multi-Image Analysis",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "공통 조상을 가진 여러 컨테이너 이미지를 작업할 때, OCI2Git은 이미지가 실제로 분기할 때만 지능적으로 브랜치를 생성합니다. 이를 통해 공통 이력을 보존하면서 단일 저장소에서 관련된 여러 이미지를 분석할 수 있습니다."
-      },
-      {
-        "row": 13,
-        "rowsha": "2uKOHRns0K5f4MhOE5ob7KEkTc0/cWfmmZPJcNf1so8=",
-        "originContent": "When working with multiple container images that share common ancestry, OCI2Git intelligently creates branches only when the images actually diverge. This allows you to analyze multiple related images in a single repository while preserving their common history.",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Content": "```bash\n# Convert first image to create the base repository\noci2git postgres:16.9-alpine3.21 -o alp\n\n# Convert second image to the same output folder\noci2git nginx:1.28.0-alpine-slim -o alp\n```",
     "ContentSha": "WlCXP1d4ON1FR85ANmvbbKd95Mp/yKj7sAG3bdqmFzM=",
     "SectionType": "",
@@ -395,54 +418,11 @@
     "EndLine": 0,
     "Translation": "```bash\n# Convert first image to create the base repository\noci2git postgres:16.9-alpine3.21 -o alp\n\n# Convert second image to the same output folder\noci2git nginx:1.28.0-alpine-slim -o alp\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "gJ3lk3zI05bODtNOn1/mcREN4YUrNNxLpmj4aTdGpc8=",
-        "originContent": "# Convert first image to create the base repository",
-        "translatedContent": "# Convert first image to create the base repository"
-      },
-      {
-        "row": 3,
-        "rowsha": "iURAR2kaX3xVJcVIoVo/i0UC3owmVxtlS/OlOpOH9R0=",
-        "originContent": "oci2git postgres:16.9-alpine3.21 -o alp",
-        "translatedContent": "oci2git postgres:16.9-alpine3.21 -o alp"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "CY0ID/KyFEol9kOocxnfF0BBHgc4aG/8X59RHCpb03A=",
-        "originContent": "# Convert second image to the same output folder",
-        "translatedContent": "# Convert second image to the same output folder"
-      },
-      {
-        "row": 6,
-        "rowsha": "9wfMofG913V7Y1BzIhftfQ8WIRTn2GAAQrHcqSTSkwE=",
-        "originContent": "oci2git nginx:1.28.0-alpine-slim -o alp",
-        "translatedContent": "oci2git nginx:1.28.0-alpine-slim -o alp"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Content": "\nOCI2Git automatically detects shared layers between images and creates a branching structure that reflects their common base. The Git history will show:\n- A common trunk containing all shared layers\n- Separate branches that diverge only when the images actually differ\n- Clear visualization of where images share common ancestry vs. where they become unique\n- Smart duplicate handling: if the exact same image is processed twice, the algorithm detects this before the final metadata commit and skips creating a duplicate branch\n\nThis approach is particularly valuable for:\n- **Image Family Analysis**: Understanding how different variants of an image (different versions, architectures, or configurations) relate to each other\n- **Base Image Impact**: Seeing exactly how changes to a base image affect multiple derived images\n- **Optimization Opportunities**: Identifying shared components that could be better leveraged across image variants\n\n![Multi-image repository structure showing shared base and diverging branches](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)\n\n### Additional Use Cases\n\n- **Security Auditing**: Identify exactly when vulnerable packages or configurations were introduced and trace them back to specific build instructions.\n- **Image Optimization**: Analyze layer structures to find redundant operations or large files that could be consolidated, helping to reduce image size.\n- **Dependency Management**: Monitor when dependencies were added, upgraded, or removed across the image history.\n- **Build Process Improvement**: Examine layer composition to optimize Dockerfile instructions for better caching and smaller image size.\n- **Cross-Image Comparison**: Convert multiple related images to Git repositories and use Git's comparison tools to analyze their differences and commonalities.\n\n## Installation\n\n### From Source\n",
     "ContentSha": "psdRWbKOEea0YRdo0Ert6iXwe4BB/X/Zuartd5NAvQ0=",
     "SectionType": "",
@@ -450,168 +430,11 @@
     "EndLine": 0,
     "Translation": "OCI2Git는 이미지 간에 공유되는 레이어를 자동으로 감지하고 공통 기반을 반영하는 분기 구조를 생성합니다. Git 기록은 다음을 보여줍니다:\n- 모든 공유 레이어를 포함하는 공통 줄기\n- 이미지가 실제로 다를 때만 분기되는 별도의 브랜치\n- 이미지가 공통 조상을 공유하는 부분과 고유해지는 부분을 명확하게 시각화\n- 스마트 중복 처리: 동일한 이미지가 두 번 처리되면 알고리즘이 최종 메타데이터 커밋 전에 이를 감지하고 중복 브랜치 생성을 건너뜀\n\n이 접근법은 다음에 특히 유용합니다:\n- **이미지 패밀리 분석**: 이미지의 다양한 변형(버전, 아키텍처 또는 구성) 간의 관계 이해\n- **기본 이미지 영향 분석**: 기본 이미지 변경이 여러 파생 이미지에 미치는 영향 정확히 파악\n- **최적화 기회 탐색**: 이미지 변형 간에 더 잘 활용할 수 있는 공유 구성 요소 식별\n\n![공유 기반과 갈라지는 브랜치를 보여주는 다중 이미지 저장소 구조](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)\n\n### 추가 사용 사례\n\n- **보안 감사**: 취약한 패키지나 구성이 도입된 시점을 정확히 파악하고 특정 빌드 명령으로 추적\n- **이미지 최적화**: 레이어 구조 분석을 통해 중복 작업이나 통합할 수 있는 큰 파일 발견, 이미지 크기 감소에 도움\n- **종속성 관리**: 이미지 기록 전반에 걸쳐 종속성이 추가, 업그레이드 또는 제거된 시점 모니터링\n- **빌드 프로세스 개선**: 레이어 구성을 검토하여 더 나은 캐싱 및 작은 이미지 크기를 위한 Dockerfile 명령 최적화\n- **이미지 간 비교**: 여러 관련 이미지를 Git 저장소로 변환하고 Git의 비교 도구를 사용해 차이점과 공통점을 분석\n\n## 설치\n\n### 소스에서 설치하기\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "OCI2Git는 이미지 간에 공유되는 레이어를 자동으로 감지하고 공통 기반을 반영하는 분기 구조를 생성합니다. Git 기록은 다음을 보여줍니다:"
-      },
-      {
-        "row": 2,
-        "rowsha": "6LTUD8+pcJMZgBPG/5v5lVPVQ9Hxe2XEKoMOmBTTGLI=",
-        "originContent": "OCI2Git automatically detects shared layers between images and creates a branching structure that reflects their common base. The Git history will show:",
-        "translatedContent": "- 모든 공유 레이어를 포함하는 공통 줄기"
-      },
-      {
-        "row": 3,
-        "rowsha": "uIJA8N3Yn8nJIShppfbe5/VqQwvEjS/vdXZMLV74Dqw=",
-        "originContent": "- A common trunk containing all shared layers",
-        "translatedContent": "- 이미지가 실제로 다를 때만 분기되는 별도의 브랜치"
-      },
-      {
-        "row": 4,
-        "rowsha": "IB8n3F4BtXDld8GlF6SeKKkZ+a+kXrWm27CNe0cgv1c=",
-        "originContent": "- Separate branches that diverge only when the images actually differ",
-        "translatedContent": "- 이미지가 공통 조상을 공유하는 부분과 고유해지는 부분을 명확하게 시각화"
-      },
-      {
-        "row": 5,
-        "rowsha": "UBel4LiGyWz4YAk730NGfcSjHY1kk3xu3gBC3H2hfxk=",
-        "originContent": "- Clear visualization of where images share common ancestry vs. where they become unique",
-        "translatedContent": "- 스마트 중복 처리: 동일한 이미지가 두 번 처리되면 알고리즘이 최종 메타데이터 커밋 전에 이를 감지하고 중복 브랜치 생성을 건너뜀"
-      },
-      {
-        "row": 6,
-        "rowsha": "Yq5IgSM+QgVoSd6smqIoif4IAvi+RdxFI+4nvv5uH28=",
-        "originContent": "- Smart duplicate handling: if the exact same image is processed twice, the algorithm detects this before the final metadata commit and skips creating a duplicate branch",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "이 접근법은 다음에 특히 유용합니다:"
-      },
-      {
-        "row": 8,
-        "rowsha": "PakMj8z4HRkjhYpL7PjDSNw57Y3OGyZeSLa/Z16wQf4=",
-        "originContent": "This approach is particularly valuable for:",
-        "translatedContent": "- **이미지 패밀리 분석**: 이미지의 다양한 변형(버전, 아키텍처 또는 구성) 간의 관계 이해"
-      },
-      {
-        "row": 9,
-        "rowsha": "uSDvHuhYhLUIzktSDixyAwvQpUrpMzLQRnssT0JsguQ=",
-        "originContent": "- **Image Family Analysis**: Understanding how different variants of an image (different versions, architectures, or configurations) relate to each other",
-        "translatedContent": "- **기본 이미지 영향 분석**: 기본 이미지 변경이 여러 파생 이미지에 미치는 영향 정확히 파악"
-      },
-      {
-        "row": 10,
-        "rowsha": "Yo0kOfD+YrkFq8V58X2u2Cb7DBS35yn5ifLYnG6+XB0=",
-        "originContent": "- **Base Image Impact**: Seeing exactly how changes to a base image affect multiple derived images",
-        "translatedContent": "- **최적화 기회 탐색**: 이미지 변형 간에 더 잘 활용할 수 있는 공유 구성 요소 식별"
-      },
-      {
-        "row": 11,
-        "rowsha": "ki3fH0UPzJ7A7KweKewJ0qO2e8h0iAP1uwwL64nh5VI=",
-        "originContent": "- **Optimization Opportunities**: Identifying shared components that could be better leveraged across image variants",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "![공유 기반과 갈라지는 브랜치를 보여주는 다중 이미지 저장소 구조](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)"
-      },
-      {
-        "row": 13,
-        "rowsha": "BbN5OLYB4s+kmmpRubPeS7o9xcI4EIqsB8NFc29QUQI=",
-        "originContent": "![Multi-image repository structure showing shared base and diverging branches](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 추가 사용 사례"
-      },
-      {
-        "row": 15,
-        "rowsha": "D4/0KP+uRgYhIhVFEBoyiqt95uyOgb7+oYn24/0QCdY=",
-        "originContent": "### Additional Use Cases",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- **보안 감사**: 취약한 패키지나 구성이 도입된 시점을 정확히 파악하고 특정 빌드 명령으로 추적"
-      },
-      {
-        "row": 17,
-        "rowsha": "XpiOHvscMgQVCt9dw8vIqza+SY8H4+PornFuTrVyvvg=",
-        "originContent": "- **Security Auditing**: Identify exactly when vulnerable packages or configurations were introduced and trace them back to specific build instructions.",
-        "translatedContent": "- **이미지 최적화**: 레이어 구조 분석을 통해 중복 작업이나 통합할 수 있는 큰 파일 발견, 이미지 크기 감소에 도움"
-      },
-      {
-        "row": 18,
-        "rowsha": "ht04W08EP7CJDOoh0DwD/Dozp/1fC8UYEIX5+R6ICwk=",
-        "originContent": "- **Image Optimization**: Analyze layer structures to find redundant operations or large files that could be consolidated, helping to reduce image size.",
-        "translatedContent": "- **종속성 관리**: 이미지 기록 전반에 걸쳐 종속성이 추가, 업그레이드 또는 제거된 시점 모니터링"
-      },
-      {
-        "row": 19,
-        "rowsha": "U4Wj74BqfCGU6N6MlI+ZwqdXxuJ9sFOjYpdn5xAp8Uw=",
-        "originContent": "- **Dependency Management**: Monitor when dependencies were added, upgraded, or removed across the image history.",
-        "translatedContent": "- **빌드 프로세스 개선**: 레이어 구성을 검토하여 더 나은 캐싱 및 작은 이미지 크기를 위한 Dockerfile 명령 최적화"
-      },
-      {
-        "row": 20,
-        "rowsha": "N42jLPvwR5fiEcM4X17ISprr2UjtkFiYkMmB4n8GuP4=",
-        "originContent": "- **Build Process Improvement**: Examine layer composition to optimize Dockerfile instructions for better caching and smaller image size.",
-        "translatedContent": "- **이미지 간 비교**: 여러 관련 이미지를 Git 저장소로 변환하고 Git의 비교 도구를 사용해 차이점과 공통점을 분석"
-      },
-      {
-        "row": 21,
-        "rowsha": "qLA3g0haMoRlswu5jqH5D9IkPYPNZxCHuo51hYpI4Po=",
-        "originContent": "- **Cross-Image Comparison**: Convert multiple related images to Git repositories and use Git's comparison tools to analyze their differences and commonalities.",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 설치"
-      },
-      {
-        "row": 23,
-        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
-        "originContent": "## Installation",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 소스에서 설치하기"
-      },
-      {
-        "row": 25,
-        "rowsha": "smCviOjFIAlOvuDZi5hcf9TF4fvruU1pMREpfc9h7z4=",
-        "originContent": "### From Source",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 6,
+    "Id": 7,
     "Content": "```bash\n# Clone the repository\ngit clone https://github.com/virviil/oci2git.git\ncd oci2git\n\n# Install locally\ncargo install --path .\n```",
     "ContentSha": "1uQDBBJ51j7XM43O6ynPX84MTtndSie65mUBfkL65RA=",
     "SectionType": "",
@@ -619,60 +442,11 @@
     "EndLine": 0,
     "Translation": "```bash\n# Clone the repository\ngit clone https://github.com/virviil/oci2git.git\ncd oci2git\n\n# Install locally\ncargo install --path .\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "EJ1kGcOyM89S1RwOEHSj/NB/bjY/T7n0DRgAblC5zSQ=",
-        "originContent": "# Clone the repository",
-        "translatedContent": "# Clone the repository"
-      },
-      {
-        "row": 3,
-        "rowsha": "GgDmsyotXIYA9lPAF8UqVbDmtab+bmOTjtIHmgptW58=",
-        "originContent": "git clone https://github.com/virviil/oci2git.git",
-        "translatedContent": "git clone https://github.com/virviil/oci2git.git"
-      },
-      {
-        "row": 4,
-        "rowsha": "Cg0UvvWHJIAgHoDR/ghkoy1Oa46TeGoV+FMOkIsVcwU=",
-        "originContent": "cd oci2git",
-        "translatedContent": "cd oci2git"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "H6+xT/LyFn0O/PQ/zBIXSd5Jl6SHlzOBquL67WbGC7M=",
-        "originContent": "# Install locally",
-        "translatedContent": "# Install locally"
-      },
-      {
-        "row": 7,
-        "rowsha": "UrfYV89HEr7Y2LOJNzJS2dfNsaKrBlUdCgPrc5ar/XM=",
-        "originContent": "cargo install --path .",
-        "translatedContent": "cargo install --path ."
-      },
-      {
-        "row": 8,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 7,
+    "Id": 8,
     "Content": "\n### From Crates.io\n",
     "ContentSha": "6vtqMgFgzMfcD8W+PzY+ygsgwI/+zJfAdTwoXzzffwU=",
     "SectionType": "",
@@ -680,30 +454,11 @@
     "EndLine": 0,
     "Translation": "### Crates.io에서 가져오기\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Crates.io에서 가져오기"
-      },
-      {
-        "row": 2,
-        "rowsha": "s0ICCxui+k3ysWndrW/JgMzRMUhamp4AwQ4C8sYtiQA=",
-        "originContent": "### From Crates.io",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 8,
+    "Id": 9,
     "Content": "```bash\ncargo install oci2git\n```",
     "ContentSha": "QOWE2eGOeDYFxtuEordZhmEy447ySIoPb9OZsI9wmoI=",
     "SectionType": "",
@@ -711,30 +466,11 @@
     "EndLine": 0,
     "Translation": "```bash\ncargo install oci2git\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "OQT+ZkNKWvK3aZcEdqXoFRvgjGUcASoUE9xU/xk+/L4=",
-        "originContent": "cargo install oci2git",
-        "translatedContent": "cargo install oci2git"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 9,
+    "Id": 10,
     "Content": "\n## Usage\n",
     "ContentSha": "d4QdQvtMh2QXOhSJXnbLIKLQwW7kakrJbYZVgSkHQiE=",
     "SectionType": "",
@@ -742,30 +478,11 @@
     "EndLine": 0,
     "Translation": "\n## 사용법\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
-        "originContent": "## Usage",
-        "translatedContent": "## 사용법"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 10,
+    "Id": 11,
     "Content": "```bash\noci2git [OPTIONS] <IMAGE>\n```",
     "ContentSha": "2YUi6TtK+3gibp5tR8iWzKGTN2gezwdTMc9OzkW3i7Y=",
     "SectionType": "",
@@ -773,30 +490,11 @@
     "EndLine": 0,
     "Translation": "```bash\noci2git [OPTIONS] <IMAGE>\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "2WRwWCw177jhmY5buD8ojF4vHlooOLdyRvwnmrgEYWo=",
-        "originContent": "oci2git [OPTIONS] <IMAGE>",
-        "translatedContent": "oci2git [OPTIONS] <IMAGE>"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 11,
+    "Id": 12,
     "Content": "\nArguments:\n  `<IMAGE>`  Image name to convert (e.g., 'ubuntu:latest') or path to tarball when using the tar engine\n\nOptions:\n  `-o, --output <o>`  Output directory for Git repository [default: ./container_repo]\n  `-e, --engine <ENGINE>`  Container engine to use (docker, nerdctl, tar) [default: docker]\n  `-h, --help`            Print help information\n  `-V, --version`         Print version information\n\nEnvironment Variables:\n  `TMPDIR`  Set this environment variable to change the default location used for intermediate data processing. This is platform-dependent (e.g., `TMPDIR` on Unix/macOS, `TEMP` or `TMP` on Windows).\n\n## Examples\n\nUsing Docker engine (default):",
     "ContentSha": "7FOaiJd6BeVMKoYWUfqNK6O5hoaFw9bS+WED0Etc32U=",
     "SectionType": "",
@@ -804,108 +502,11 @@
     "EndLine": 0,
     "Translation": "Arguments:\n  `<IMAGE>`  변환할 이미지 이름 (예: 'ubuntu:latest') 또는 tar 엔진 사용 시 tarball 경로\n\nOptions:\n  `-o, --output <o>`  Git 저장소의 출력 디렉토리 [기본값: ./container_repo]\n  `-e, --engine <ENGINE>`  사용할 컨테이너 엔진 (docker, nerdctl, tar) [기본값: docker]\n  `-h, --help`            도움말 정보 출력\n  `-V, --version`         버전 정보 출력\n\nEnvironment Variables:\n  `TMPDIR`  중간 데이터 처리를 위한 기본 위치를 변경하려면 이 환경 변수를 설정하세요. 플랫폼에 따라 다릅니다(예: Unix/macOS는 `TMPDIR`, Windows는 `TEMP` 또는 `TMP`).\n\n## Examples\n\nUsing Docker engine (default):\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Arguments:"
-      },
-      {
-        "row": 2,
-        "rowsha": "oSgcDB7IRyqQzvCaBTUTZjOSF0fLxHKz1ngn/NkHWig=",
-        "originContent": "Arguments:",
-        "translatedContent": "  `<IMAGE>`  변환할 이미지 이름 (예: 'ubuntu:latest') 또는 tar 엔진 사용 시 tarball 경로"
-      },
-      {
-        "row": 3,
-        "rowsha": "72lmQzDj4J9lGCyDB3LTUf9xx2x9vXL+Ltt98pd0hIk=",
-        "originContent": "  `<IMAGE>`  Image name to convert (e.g., 'ubuntu:latest') or path to tarball when using the tar engine",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Options:"
-      },
-      {
-        "row": 5,
-        "rowsha": "NnQx/WZLtobZ/9ITM5sTgv2OFQnCH83If6v2i9FvEzM=",
-        "originContent": "Options:",
-        "translatedContent": "  `-o, --output <o>`  Git 저장소의 출력 디렉토리 [기본값: ./container_repo]"
-      },
-      {
-        "row": 6,
-        "rowsha": "DVu2KWbsYSpZe0KWcYqDtTpSdS4mtD7GWWbWSGb70Oc=",
-        "originContent": "  `-o, --output <o>`  Output directory for Git repository [default: ./container_repo]",
-        "translatedContent": "  `-e, --engine <ENGINE>`  사용할 컨테이너 엔진 (docker, nerdctl, tar) [기본값: docker]"
-      },
-      {
-        "row": 7,
-        "rowsha": "a9fQWVyCS1P9nAlLPlXbfd+NJtje69DmQ3azfee4ix4=",
-        "originContent": "  `-e, --engine <ENGINE>`  Container engine to use (docker, nerdctl, tar) [default: docker]",
-        "translatedContent": "  `-h, --help`            도움말 정보 출력"
-      },
-      {
-        "row": 8,
-        "rowsha": "pfNaVuEMbOBYDo771cuen9Xm6tIA5QTaymnUytkWncg=",
-        "originContent": "  `-h, --help`            Print help information",
-        "translatedContent": "  `-V, --version`         버전 정보 출력"
-      },
-      {
-        "row": 9,
-        "rowsha": "3eBdsxBaF1NM21tvY2+/U1zZoXNXI+AYag5nMbKQuZE=",
-        "originContent": "  `-V, --version`         Print version information",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Environment Variables:"
-      },
-      {
-        "row": 11,
-        "rowsha": "YGL4UqTuaFB0ZGIuBIgF08qREavcDoYEpCh+1s8q9Hw=",
-        "originContent": "Environment Variables:",
-        "translatedContent": "  `TMPDIR`  중간 데이터 처리를 위한 기본 위치를 변경하려면 이 환경 변수를 설정하세요. 플랫폼에 따라 다릅니다(예: Unix/macOS는 `TMPDIR`, Windows는 `TEMP` 또는 `TMP`)."
-      },
-      {
-        "row": 12,
-        "rowsha": "L/o5NQhvt3s5wMDzH0UBcCbYTr+YSY+3NRMsKy0uOts=",
-        "originContent": "  `TMPDIR`  Set this environment variable to change the default location used for intermediate data processing. This is platform-dependent (e.g., `TMPDIR` on Unix/macOS, `TEMP` or `TMP` on Windows).",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Examples"
-      },
-      {
-        "row": 14,
-        "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
-        "originContent": "## Examples",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Using Docker engine (default):"
-      },
-      {
-        "row": 16,
-        "rowsha": "tOe+OVX+wmFfmqDbxSgitmk7kWcEwwrN773KBCziJHI=",
-        "originContent": "Using Docker engine (default):",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 12,
+    "Id": 13,
     "Content": "```bash\noci2git -o ./ubuntu-repo ubuntu:latest\n```",
     "ContentSha": "BtDnoSdLc2QmazoYm9HkbtDeVeGoUHvokfDZ25KJ7fc=",
     "SectionType": "",
@@ -913,30 +514,11 @@
     "EndLine": 0,
     "Translation": "```bash\noci2git -o ./ubuntu-repo ubuntu:latest\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "CwijH6mSrhzZB8aiSJpD0fbRWryeaub9zJijG6SDIic=",
-        "originContent": "oci2git -o ./ubuntu-repo ubuntu:latest",
-        "translatedContent": "oci2git -o ./ubuntu-repo ubuntu:latest"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 13,
+    "Id": 14,
     "Content": "\nUsing an already downloaded image tarball:",
     "ContentSha": "OeRvaZWgQLZETvvMyFzz4cWuklQ8Y5utFvd0CH5ZWx4=",
     "SectionType": "",
@@ -944,24 +526,11 @@
     "EndLine": 0,
     "Translation": "\n이미 다운로드된 이미지 tarball 사용:",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "lchakMbjmv1co1SLeMYNOKe+JMNJchmUzW4HrVyzifo=",
-        "originContent": "Using an already downloaded image tarball:",
-        "translatedContent": "이미 다운로드된 이미지 tarball 사용:"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 14,
+    "Id": 15,
     "Content": "```bash\noci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar\n```",
     "ContentSha": "mRopUOXltG+tci/OLLRHZ62/3BOzYI+nNIUEAf4e/tA=",
     "SectionType": "",
@@ -969,30 +538,11 @@
     "EndLine": 0,
     "Translation": "```bash\noci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "NSDqpfFBxy00SAPgyBe+P5tig3WY9lqE/l8SRgvZnK4=",
-        "originContent": "oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar",
-        "translatedContent": "oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 15,
+    "Id": 16,
     "Content": "\nThe tar engine expects a valid OCI format tarball, which is typically created with `docker save`:",
     "ContentSha": "BT4Lk3SyKhGJmYNYn34W6/DFREYgEKthgxA8vmecsHA=",
     "SectionType": "",
@@ -1000,24 +550,11 @@
     "EndLine": 0,
     "Translation": "tar 엔진은 일반적으로 `docker save`로 생성된 유효한 OCI 형식의 tarball을 예상합니다:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "tar 엔진은 일반적으로 `docker save`로 생성된 유효한 OCI 형식의 tarball을 예상합니다:"
-      },
-      {
-        "row": 2,
-        "rowsha": "JhyrPFQKgZ6fhAnxD3vIs/T43bxfz9m3OnBQ6JvohcA=",
-        "originContent": "The tar engine expects a valid OCI format tarball, which is typically created with `docker save`:",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 16,
+    "Id": 17,
     "Content": "```bash\n# Create a tarball from a local Docker image\ndocker save -o ubuntu-latest.tar ubuntu:latest\n\n# Convert the tarball to a Git repository\noci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar\n```",
     "ContentSha": "E+FCGwQ2bheue5kTCYWyAiWvL7RKGMFRDPDtDOG5lBU=",
     "SectionType": "",
@@ -1025,54 +562,11 @@
     "EndLine": 0,
     "Translation": "```bash\n# Create a tarball from a local Docker image\ndocker save -o ubuntu-latest.tar ubuntu:latest\n\n# Convert the tarball to a Git repository\noci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "swtiJp2yNOZ6Ht2Rb0LC9bkkw94oTuAnkm9LK8A2Blo=",
-        "originContent": "# Create a tarball from a local Docker image",
-        "translatedContent": "# Create a tarball from a local Docker image"
-      },
-      {
-        "row": 3,
-        "rowsha": "0dJQePuNnqBLk40Y93ZgPm8P3Swzsjd/UCAkmwLsRmw=",
-        "originContent": "docker save -o ubuntu-latest.tar ubuntu:latest",
-        "translatedContent": "docker save -o ubuntu-latest.tar ubuntu:latest"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "ezIq3aqK4rOW/G624kkj8OmBApTf0SM6DdJ3trUC8Sk=",
-        "originContent": "# Convert the tarball to a Git repository",
-        "translatedContent": "# Convert the tarball to a Git repository"
-      },
-      {
-        "row": 6,
-        "rowsha": "cGK8BEjM9KLqC11KAFA5FBzvWyaQeLcvI3rB2tWEgdE=",
-        "originContent": "oci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar",
-        "translatedContent": "oci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 17,
+    "Id": 18,
     "Content": "\nThis will create a Git repository in `./ubuntu-repo` containing:\n- `Image.md` - Complete metadata about the image in Markdown format\n- `rootfs/` - The filesystem content from the container\n\nThe Git history reflects the container's layer history:\n- The first commit contains only the `Image.md` file with full metadata\n- Each subsequent commit represents a layer from the original image\n- Commits include the Dockerfile command as the commit message\n\n## Repository Structure\n",
     "ContentSha": "l6RVjT4XYNG172JW4XkvweckPrxkr1lym1RdciEbXL0=",
     "SectionType": "",
@@ -1080,84 +574,11 @@
     "EndLine": 0,
     "Translation": "\n이 명령은 `./ubuntu-repo`에 Git 저장소를 생성하며 다음을 포함합니다:\n- `Image.md` - 이미지에 대한 완전한 메타데이터를 Markdown 형식으로 작성\n- `rootfs/` - 컨테이너에서 가져온 파일 시스템 내용\n\nGit 히스토리는 컨테이너의 레이어 히스토리를 반영합니다:\n- 첫 번째 커밋은 전체 메타데이터가 포함된 `Image.md` 파일만 포함\n- 이후 각 커밋은 원본 이미지의 한 레이어를 나타냄\n- 커밋 메시지에는 Dockerfile 명령어가 포함됨\n\n## 저장소 구조\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "OOWYf6W46cviTyPAAxNpPJfVj3Fz3L4yTa0jzxfElPw=",
-        "originContent": "This will create a Git repository in `./ubuntu-repo` containing:",
-        "translatedContent": "이 명령은 `./ubuntu-repo`에 Git 저장소를 생성하며 다음을 포함합니다:"
-      },
-      {
-        "row": 3,
-        "rowsha": "r5qWFXFkojxcgiNwLnGMlSadWVnCbfub6qM8e9q/8Nw=",
-        "originContent": "- `Image.md` - Complete metadata about the image in Markdown format",
-        "translatedContent": "- `Image.md` - 이미지에 대한 완전한 메타데이터를 Markdown 형식으로 작성"
-      },
-      {
-        "row": 4,
-        "rowsha": "maGh1e8JV7Pxg6B5BF5ccKdr3748ZRk9+1VXfyfkCCk=",
-        "originContent": "- `rootfs/` - The filesystem content from the container",
-        "translatedContent": "- `rootfs/` - 컨테이너에서 가져온 파일 시스템 내용"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "wCWXhTKQ6DvpyP8SADyuKHM/QiDACq4ZQnoi9qcq+n8=",
-        "originContent": "The Git history reflects the container's layer history:",
-        "translatedContent": "Git 히스토리는 컨테이너의 레이어 히스토리를 반영합니다:"
-      },
-      {
-        "row": 7,
-        "rowsha": "mKSS8K3EnUBF75usNbBpi8f03aCRxjCDSod1fw5UlPo=",
-        "originContent": "- The first commit contains only the `Image.md` file with full metadata",
-        "translatedContent": "- 첫 번째 커밋은 전체 메타데이터가 포함된 `Image.md` 파일만 포함"
-      },
-      {
-        "row": 8,
-        "rowsha": "DumNUFJcRb5coqibkEQ+d640i1Rp+R8PheJDIxOPrIs=",
-        "originContent": "- Each subsequent commit represents a layer from the original image",
-        "translatedContent": "- 이후 각 커밋은 원본 이미지의 한 레이어를 나타냄"
-      },
-      {
-        "row": 9,
-        "rowsha": "nAIJv9HcEeQMdJh37pgdGN/infZD9mMXC360e1LQkdY=",
-        "originContent": "- Commits include the Dockerfile command as the commit message",
-        "translatedContent": "- 커밋 메시지에는 Dockerfile 명령어가 포함됨"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "4YmSzpzFxS1sIl9f+qnViulCsiQaK92OjsAy48LamXw=",
-        "originContent": "## Repository Structure",
-        "translatedContent": "## 저장소 구조"
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 18,
+    "Id": 19,
     "Content": "```\nrepository/\n├── .git/\n├── Image.md     # Complete image metadata\n└── rootfs/      # Filesystem content from the container\n```",
     "ContentSha": "2m0JhqxmxhkJHFqbriGCtVRY2NXBGSX9opKyYJJg89M=",
     "SectionType": "",
@@ -1165,48 +586,11 @@
     "EndLine": 0,
     "Translation": "```\nrepository/\n├── .git/\n├── Image.md     # Complete image metadata\n└── rootfs/      # Filesystem content from the container\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "ymd463MLTfw5xIKiUKp3sacrkQKq/Rg5QrDuNbpDvcY=",
-        "originContent": "repository/",
-        "translatedContent": "repository/"
-      },
-      {
-        "row": 3,
-        "rowsha": "rGSVTlNtMKKBIW1FxCJWjanSdr8dlkP7O6zHyMZodq8=",
-        "originContent": "├── .git/",
-        "translatedContent": "├── .git/"
-      },
-      {
-        "row": 4,
-        "rowsha": "mNFu3LETomltwZN7TAyCPLhKNPjKB0qREbpCI/mLuWk=",
-        "originContent": "├── Image.md     # Complete image metadata",
-        "translatedContent": "├── Image.md     # Complete image metadata"
-      },
-      {
-        "row": 5,
-        "rowsha": "PoxusKysn7mnRdYEig5Hq6oqPxeAE2uQdy2gcbouJ4U=",
-        "originContent": "└── rootfs/      # Filesystem content from the container",
-        "translatedContent": "└── rootfs/      # Filesystem content from the container"
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 19,
+    "Id": 20,
     "Content": "\n\n## Requirements\n\n- Rust 2021 edition\n- Docker CLI (for Docker engine support)\n- Git\n\n## License\n\nMIT",
     "ContentSha": "hpcCBZBPjdyKJNk1o9Y+GIokmpMAJnEjgxZqFi3m1M8=",
     "SectionType": "",
@@ -1214,74 +598,7 @@
     "EndLine": 0,
     "Translation": "\n## 요구 사항\n\n- Rust 2021 에디션\n- Docker CLI (Docker 엔진 지원용)\n- Git\n\n## 라이선스\n\nMIT\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 요구 사항"
-      },
-      {
-        "row": 3,
-        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
-        "originContent": "## Requirements",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- Rust 2021 에디션"
-      },
-      {
-        "row": 5,
-        "rowsha": "Us8fEFZmHC5X2cJkY2OvtPWFQAio7vkyVb6AuvWar/8=",
-        "originContent": "- Rust 2021 edition",
-        "translatedContent": "- Docker CLI (Docker 엔진 지원용)"
-      },
-      {
-        "row": 6,
-        "rowsha": "y2x00WuBv+Za3+ZZ4PNU5MmCW6c1ChHUs7aZPMjrozg=",
-        "originContent": "- Docker CLI (for Docker engine support)",
-        "translatedContent": "- Git"
-      },
-      {
-        "row": 7,
-        "rowsha": "rCZ/3ibSx3AY5DZNLpABDQtGlwv/91+MA66GxZb8src=",
-        "originContent": "- Git",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 라이선스"
-      },
-      {
-        "row": 9,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "MIT"
-      },
-      {
-        "row": 11,
-        "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
-        "originContent": "MIT",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

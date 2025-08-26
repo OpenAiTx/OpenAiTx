@@ -1,0 +1,1408 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Enhanced PubChem MCP Server for AI Assistants\n\n🧪 An advanced, robust, and privacy-focused MCP server that enables AI assistants to intelligently search and access chemical compound information from PubChem.\n\nThis PubChem MCP Server acts as a powerful bridge between AI assistants (like those in AnythingLLM) and PubChem's vast chemical database. It leverages the Model Context Protocol (MCP) to allow AI models to perform smart, resilient searches for chemical compounds and retrieve their detailed properties programmatically.\n\n---\n\n## ✨ Core Features\n\nThis is not just another PubChem wrapper. This server has been rebuilt from the ground up to be highly robust and intelligent:\n\n-   **🧠 Smart Fallback Search**: If a search for a common name (like \"Vitamin D\") fails, the server automatically performs a deeper search in the PubChem Substance database to find the correct compound. This dramatically improves success rates for ambiguous queries.\n-   **🛡️ Robust Error Handling & Retries**: The server is designed to handle API errors gracefully. If it encounters a \"Server Busy\" error from PubChem, it will automatically wait and retry the request, ensuring your queries succeed even under heavy load.\n-   **🔒 Optional Tor Proxy Support**: You have full control over your privacy. A simple `config.ini` file allows you to route all requests through the Tor network (via SOCKS5 or HTTP proxy), preventing your IP address from being exposed. The server is secure by default and will **never** leak your IP if the proxy connection fails.\n-   **🔎 Single & Multiple Compound Search**: Seamlessly handles requests for one or multiple compounds in a single prompt.\n-   **🧪 Detailed Property Retrieval**: Access key chemical properties like IUPAC Name, Molecular Formula, Molecular Weight, and crucially, **Monoisotopic Mass**.\n\n---\n\n---\n\n### 🚀 No Installation Required: Try It Live on Smithery.ai\n\nFor those who are new to MCP servers or just want to test the capabilities of this tool without any local setup, a live, hosted version is available on Smithery.ai. This allows you to chat with the agent directly in your browser.\n\n[**<-- Explore the Live PubChem Agent on Smithery.ai -->**](https://smithery.ai/server/@Milor123/smithery-pubchem-deploy)\n\n**How to get started:**\n\n1.  Click the link above to go to the server page.\n2.  Sign in using your **GitHub** or **Google** account.\n3.  Click the **\"Explore capabilities\"** button to open a chat interface and start testing!\n\n> **✅ Recommended Models for Best Results**\n>\n> To get the highest accuracy, especially with long decimal numbers, we strongly recommend using powerful models. The following have been tested and work excellently with this tool:\n>\n> *   **Anthropic's Claude 3 Sonnet**\n> *   **OpenAI's GPT-4 Turbo** (or newer versions like GPT-4o)",
+    "ContentSha": "FeYv4cmEc9jLFRIGahyiKcTfW3WY2sBxxIzSKEqzGns=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Enhanced PubChem MCP Server for AI Assistants\n\n🧪 An advanced, robust, and privacy-focused MCP server that enables AI assistants to intelligently search and access chemical compound information from PubChem.\n\nThis PubChem MCP Server acts as a powerful bridge between AI assistants (like those in AnythingLLM) and PubChem's vast chemical database. It leverages the Model Context Protocol (MCP) to allow AI models to perform smart, resilient searches for chemical compounds and retrieve their detailed properties programmatically.\n\n---\n\n## ✨ Core Features\n\nThis is not just another PubChem wrapper. This server has been rebuilt from the ground up to be highly robust and intelligent:\n\n-   **🧠 Smart Fallback Search**: If a search for a common name (like \"Vitamin D\") fails, the server automatically performs a deeper search in the PubChem Substance database to find the correct compound. This dramatically improves success rates for ambiguous queries.\n-   **🛡️ Robust Error Handling & Retries**: The server is designed to handle API errors gracefully. If it encounters a \"Server Busy\" error from PubChem, it will automatically wait and retry the request, ensuring your queries succeed even under heavy load.\n-   **🔒 Optional Tor Proxy Support**: You have full control over your privacy. A simple `config.ini` file allows you to route all requests through the Tor network (via SOCKS5 or HTTP proxy), preventing your IP address from being exposed. The server is secure by default and will **never** leak your IP if the proxy connection fails.\n-   **🔎 Single & Multiple Compound Search**: Seamlessly handles requests for one or multiple compounds in a single prompt.\n-   **🧪 Detailed Property Retrieval**: Access key chemical properties like IUPAC Name, Molecular Formula, Molecular Weight, and crucially, **Monoisotopic Mass**.\n\n---\n\n---\n\n### 🚀 No Installation Required: Try It Live on Smithery.ai\n\nFor those who are new to MCP servers or just want to test the capabilities of this tool without any local setup, a live, hosted version is available on Smithery.ai. This allows you to chat with the agent directly in your browser.\n\n[**<-- Explore the Live PubChem Agent on Smithery.ai -->**](https://smithery.ai/server/@Milor123/smithery-pubchem-deploy)\n\n**How to get started:**\n\n1.  Click the link above to go to the server page.\n2.  Sign in using your **GitHub** or **Google** account.\n3.  Click the **\"Explore capabilities\"** button to open a chat interface and start testing!\n\n> **✅ Recommended Models for Best Results**\n>\n> To get the highest accuracy, especially with long decimal numbers, we strongly recommend using powerful models. The following have been tested and work excellently with this tool:\n>\n> *   **Anthropic's Claude 3 Sonnet**\n> *   **OpenAI's GPT-4 Turbo** (or newer versions like GPT-4o)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UlR6ZrOd6RKWKaBnmsWDb8IZpWYbqHk8stOEGSW9yb0=",
+        "originContent": "# Enhanced PubChem MCP Server for AI Assistants",
+        "translatedContent": "# Enhanced PubChem MCP Server for AI Assistants"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "oE6sLAf9p0Ap/orkToJISZ6yUGQFzgLnuRGN1rbuYSk=",
+        "originContent": "🧪 An advanced, robust, and privacy-focused MCP server that enables AI assistants to intelligently search and access chemical compound information from PubChem.",
+        "translatedContent": "🧪 An advanced, robust, and privacy-focused MCP server that enables AI assistants to intelligently search and access chemical compound information from PubChem."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "gjjoteZv0ObheMAPC/XlEa9+Q/yfalaCmYvlZVjYuq0=",
+        "originContent": "This PubChem MCP Server acts as a powerful bridge between AI assistants (like those in AnythingLLM) and PubChem's vast chemical database. It leverages the Model Context Protocol (MCP) to allow AI models to perform smart, resilient searches for chemical compounds and retrieve their detailed properties programmatically.",
+        "translatedContent": "This PubChem MCP Server acts as a powerful bridge between AI assistants (like those in AnythingLLM) and PubChem's vast chemical database. It leverages the Model Context Protocol (MCP) to allow AI models to perform smart, resilient searches for chemical compounds and retrieve their detailed properties programmatically."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "/yHzPASURI529/6NJu5XvlTwQkLa6+0GzCkGsOYtS+Q=",
+        "originContent": "## ✨ Core Features",
+        "translatedContent": "## ✨ Core Features"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "n14NcnRriY6rSzszQUc2afHSW3eMi8xWw3BEcaxwtrY=",
+        "originContent": "This is not just another PubChem wrapper. This server has been rebuilt from the ground up to be highly robust and intelligent:",
+        "translatedContent": "This is not just another PubChem wrapper. This server has been rebuilt from the ground up to be highly robust and intelligent:"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "OT8Y07948czTwYObNSHjnVoPkVPXB+9PIc4jwMUFhB0=",
+        "originContent": "-   **🧠 Smart Fallback Search**: If a search for a common name (like \"Vitamin D\") fails, the server automatically performs a deeper search in the PubChem Substance database to find the correct compound. This dramatically improves success rates for ambiguous queries.",
+        "translatedContent": "-   **🧠 Smart Fallback Search**: If a search for a common name (like \"Vitamin D\") fails, the server automatically performs a deeper search in the PubChem Substance database to find the correct compound. This dramatically improves success rates for ambiguous queries."
+      },
+      {
+        "row": 14,
+        "rowsha": "9lPq0k4zgeNJfri54YrOpV27hXbQij59639vFeukl58=",
+        "originContent": "-   **🛡️ Robust Error Handling & Retries**: The server is designed to handle API errors gracefully. If it encounters a \"Server Busy\" error from PubChem, it will automatically wait and retry the request, ensuring your queries succeed even under heavy load.",
+        "translatedContent": "-   **🛡️ Robust Error Handling & Retries**: The server is designed to handle API errors gracefully. If it encounters a \"Server Busy\" error from PubChem, it will automatically wait and retry the request, ensuring your queries succeed even under heavy load."
+      },
+      {
+        "row": 15,
+        "rowsha": "JjiD4+m3t2/Gl+2wHF6ce//RiSKBXvMmw6uUd4eWgIo=",
+        "originContent": "-   **🔒 Optional Tor Proxy Support**: You have full control over your privacy. A simple `config.ini` file allows you to route all requests through the Tor network (via SOCKS5 or HTTP proxy), preventing your IP address from being exposed. The server is secure by default and will **never** leak your IP if the proxy connection fails.",
+        "translatedContent": "-   **🔒 Optional Tor Proxy Support**: You have full control over your privacy. A simple `config.ini` file allows you to route all requests through the Tor network (via SOCKS5 or HTTP proxy), preventing your IP address from being exposed. The server is secure by default and will **never** leak your IP if the proxy connection fails."
+      },
+      {
+        "row": 16,
+        "rowsha": "0tUpZm2GBRR1T7CjaBgLL0n9cavkHnOQu8DUHlSDXzk=",
+        "originContent": "-   **🔎 Single & Multiple Compound Search**: Seamlessly handles requests for one or multiple compounds in a single prompt.",
+        "translatedContent": "-   **🔎 Single & Multiple Compound Search**: Seamlessly handles requests for one or multiple compounds in a single prompt."
+      },
+      {
+        "row": 17,
+        "rowsha": "UGnlGbw1sDfb2reqeZU4dGUZLP2p0b04/ZRaZH6zStg=",
+        "originContent": "-   **🧪 Detailed Property Retrieval**: Access key chemical properties like IUPAC Name, Molecular Formula, Molecular Weight, and crucially, **Monoisotopic Mass**.",
+        "translatedContent": "-   **🧪 Detailed Property Retrieval**: Access key chemical properties like IUPAC Name, Molecular Formula, Molecular Weight, and crucially, **Monoisotopic Mass**."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "8GZKmWJufTRF8IJQc1GpKnF9VB+b97uRineI9Qgm6M0=",
+        "originContent": "### 🚀 No Installation Required: Try It Live on Smithery.ai",
+        "translatedContent": "### 🚀 No Installation Required: Try It Live on Smithery.ai"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "eC7H0N1qS8VdqWQ9aed6k3RX01Q/yy3Jnh6QQcawFhg=",
+        "originContent": "For those who are new to MCP servers or just want to test the capabilities of this tool without any local setup, a live, hosted version is available on Smithery.ai. This allows you to chat with the agent directly in your browser.",
+        "translatedContent": "For those who are new to MCP servers or just want to test the capabilities of this tool without any local setup, a live, hosted version is available on Smithery.ai. This allows you to chat with the agent directly in your browser."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "+QMfGygCOJyHIOL7G+KgBZxG+0aiePMt/Zon5GDuR+c=",
+        "originContent": "[**<-- Explore the Live PubChem Agent on Smithery.ai -->**](https://smithery.ai/server/@Milor123/smithery-pubchem-deploy)",
+        "translatedContent": "[**<-- Explore the Live PubChem Agent on Smithery.ai -->**](https://smithery.ai/server/@Milor123/smithery-pubchem-deploy)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "k+/NLnYM6RUkMl5BfL/IB1FBb4UeOz2SZWmPV61AnD0=",
+        "originContent": "**How to get started:**",
+        "translatedContent": "**How to get started:**"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "bWFPCgcX0MIOWvd/dCyLJ1h5kgEjZSUvPDPemjeCy4c=",
+        "originContent": "1.  Click the link above to go to the server page.",
+        "translatedContent": "1.  Click the link above to go to the server page."
+      },
+      {
+        "row": 32,
+        "rowsha": "tcvk+MuMm3PN+93JYUta4Odt6JZblsDgYPxWJXxMCa0=",
+        "originContent": "2.  Sign in using your **GitHub** or **Google** account.",
+        "translatedContent": "2.  Sign in using your **GitHub** or **Google** account."
+      },
+      {
+        "row": 33,
+        "rowsha": "NsUpSeo1IGhdO3KLLy3P4iJmwcausgzGy1woR4kNZVI=",
+        "originContent": "3.  Click the **\"Explore capabilities\"** button to open a chat interface and start testing!",
+        "translatedContent": "3.  Click the **\"Explore capabilities\"** button to open a chat interface and start testing!"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "ZiwAV8IA6vXYlQv+tF/4ARLQ8QhiF96Oq5k48fbtqp0=",
+        "originContent": "> **✅ Recommended Models for Best Results**",
+        "translatedContent": "> **✅ Recommended Models for Best Results**"
+      },
+      {
+        "row": 36,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 37,
+        "rowsha": "O0I3CQy2T6zernJXbi8EhoN26nANI4nIDSRtw2jPrpI=",
+        "originContent": "> To get the highest accuracy, especially with long decimal numbers, we strongly recommend using powerful models. The following have been tested and work excellently with this tool:",
+        "translatedContent": "> To get the highest accuracy, especially with long decimal numbers, we strongly recommend using powerful models. The following have been tested and work excellently with this tool:"
+      },
+      {
+        "row": 38,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 39,
+        "rowsha": "GNy+2Wk0Q71wyYgENUREkc8bEPcKjc1I4piMyodWBuE=",
+        "originContent": "> *   **Anthropic's Claude 3 Sonnet**",
+        "translatedContent": "> *   **Anthropic's Claude 3 Sonnet**"
+      },
+      {
+        "row": 40,
+        "rowsha": "VJKbHaOKk+gkuyEwCRHrPq9gmywWLZuDW2ExlvI0CvI=",
+        "originContent": "> *   **OpenAI's GPT-4 Turbo** (or newer versions like GPT-4o)",
+        "translatedContent": "> *   **OpenAI's GPT-4 Turbo** (or newer versions like GPT-4o)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": ">\n> We confirmed that both models correctly processed the full precision of the decimal numbers returned by the tool without any rounding.\n\n---\n\n## 🚀 Quick Start & Installation\n\nThis server is designed to be run locally, either on your desktop or within the AnythingLLM Docker environment.\n\n### 1. Dependencies\n\nThis project relies on a few Python libraries. Make sure they are installed in your environment.\n\nCreate a `requirements.txt` file with the following content:",
+    "ContentSha": "S1Q75p7qKxAyf5o2CgBXZIJpgvdIaMz+7mLmqTsLzx8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": ">\n> We confirmed that both models correctly processed the full precision of the decimal numbers returned by the tool without any rounding.\n\n---\n\n## 🚀 Quick Start & Installation\n\nThis server is designed to be run locally, either on your desktop or within the AnythingLLM Docker environment.\n\n### 1. Dependencies\n\nThis project relies on a few Python libraries. Make sure they are installed in your environment.\n\nCreate a `requirements.txt` file with the following content:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 2,
+        "rowsha": "ibravjJO8LWzNmwYaxW24hRiTD1OQBNXHOMbMUqHKGc=",
+        "originContent": "> We confirmed that both models correctly processed the full precision of the decimal numbers returned by the tool without any rounding.",
+        "translatedContent": "> We confirmed that both models correctly processed the full precision of the decimal numbers returned by the tool without any rounding."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "6+icp5oALztwI6eJaUqBwA5zOqRmDNvHqE180jKZQco=",
+        "originContent": "## 🚀 Quick Start & Installation",
+        "translatedContent": "## 🚀 Quick Start & Installation"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "5aODV+gWNZ51u8iTe7LfHEIRMPbabbhzzWzpzusF19k=",
+        "originContent": "This server is designed to be run locally, either on your desktop or within the AnythingLLM Docker environment.",
+        "translatedContent": "This server is designed to be run locally, either on your desktop or within the AnythingLLM Docker environment."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "HzqB+fzj8tk+2LwHmR8OBT7wyFkF9Sj7eOgZtMaTOk4=",
+        "originContent": "### 1. Dependencies",
+        "translatedContent": "### 1. Dependencies"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "p+q8bUXjt0knh3P1UuYbvdWCBvHALmIqHuMCd409Ej0=",
+        "originContent": "This project relies on a few Python libraries. Make sure they are installed in your environment.",
+        "translatedContent": "This project relies on a few Python libraries. Make sure they are installed in your environment."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "hAV8i51ReOT34aaKb8EeIjBiRXnxJblx2HLn0y9GZR0=",
+        "originContent": "Create a `requirements.txt` file with the following content:",
+        "translatedContent": "Create a `requirements.txt` file with the following content:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```txt\nrequests\nbs4 \nmcp \npubchempy\npandas\nPySocks\n```",
+    "ContentSha": "hSykCV12mTBrV2xzPea9lzv3fV/BYIGox43ucP1OFjE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```txt\nrequests\nbs4 \nmcp \npubchempy\npandas\nPySocks\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qUYvmp9Aa73LZSIGY0gJ1j5I9EW9X2shlDDkpRp9+Zg=",
+        "originContent": "```txt",
+        "translatedContent": "```txt"
+      },
+      {
+        "row": 2,
+        "rowsha": "7HJCDfXfvc5BEfcVyWM43zt8t19Y5HjSRJyXIOVg3ow=",
+        "originContent": "requests",
+        "translatedContent": "requests"
+      },
+      {
+        "row": 3,
+        "rowsha": "j8ZWxou97uzaoJtCFKZ/k4886yoX7h5Me+lYJbQnpjs=",
+        "originContent": "bs4 ",
+        "translatedContent": "bs4 "
+      },
+      {
+        "row": 4,
+        "rowsha": "XvKOJGWwlaURFAkfjee3VGT7ltN1Temv+jVq8TxwWcw=",
+        "originContent": "mcp ",
+        "translatedContent": "mcp "
+      },
+      {
+        "row": 5,
+        "rowsha": "q7GpxH72MdVwV9HfHFvLjsO6nYccE4udcSp4xHXDMqA=",
+        "originContent": "pubchempy",
+        "translatedContent": "pubchempy"
+      },
+      {
+        "row": 6,
+        "rowsha": "rkhjva4CYxTVmUcwrSRzBDTyVsJ02EMcU+1Tc5OZK+Y=",
+        "originContent": "pandas",
+        "translatedContent": "pandas"
+      },
+      {
+        "row": 7,
+        "rowsha": "eaVg0likTEARMqQDShMHkUqYeCxoBsjm2k9OKJ0Bxos=",
+        "originContent": "PySocks",
+        "translatedContent": "PySocks"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nInstall them using `uv` or `pip`:",
+    "ContentSha": "cHDUqQCuOG7MnHsdEbwrdwn6p4ItjeaEuBsbmT4qyt0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nInstall them using `uv` or `pip`:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "f1rmBB6KxqSftbdgvt2ptTTcZ8HsGhWWepnwEE2fcx8=",
+        "originContent": "Install them using `uv` or `pip`:",
+        "translatedContent": "Install them using `uv` or `pip`:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\nuv venv\n.venv\\Scripts\\activate\nuv pip install -r requirements.txt\n```",
+    "ContentSha": "Z/tTOb7wl8iQSUaJc+7HqtFuwz/TOV6IK57B0xQc0HQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nuv venv\n.venv\\Scripts\\activate\nuv pip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "aDMWBZVHlNOD+RcqyziiLSsiXHLq8B20Ip9VC/yoGEw=",
+        "originContent": "uv venv",
+        "translatedContent": "uv venv"
+      },
+      {
+        "row": 3,
+        "rowsha": "SJaAc8eCCN6wNNoRtJ+zzDL+xEkZtvcqPDm6Kx/V24I=",
+        "originContent": ".venv\\Scripts\\activate",
+        "translatedContent": ".venv\\Scripts\\activate"
+      },
+      {
+        "row": 4,
+        "rowsha": "8MGsvthhq9AAjXH5hZI63az8axUF8OKzH/5SwOoaQHU=",
+        "originContent": "uv pip install -r requirements.txt",
+        "translatedContent": "uv pip install -r requirements.txt"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "*(Note: `PySocks` is only required if you plan to use the Tor SOCKS5 proxy feature.)*\n\n### 2. Configuration\n\nThe server is configured via a `config.ini` file that is **automatically created** the first time you run it. This file will appear in the same directory as the `pubchem_server.py` script.\n\n**Default `config.ini`:**",
+    "ContentSha": "huwbmbds2Kvtg9+2c/sPUGxijZsk1UCIvebbEyfNecA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "*(Note: `PySocks` is only required if you plan to use the Tor SOCKS5 proxy feature.)*\n\n### 2. Configuration\n\nThe server is configured via a `config.ini` file that is **automatically created** the first time you run it. This file will appear in the same directory as the `pubchem_server.py` script.\n\n**Default `config.ini`:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "zVpcb2v5Ukw/KGraispKGa0BwytfjH2fZnysH+knn0w=",
+        "originContent": "*(Note: `PySocks` is only required if you plan to use the Tor SOCKS5 proxy feature.)*",
+        "translatedContent": "*(Note: `PySocks` is only required if you plan to use the Tor SOCKS5 proxy feature.)*"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "TmxIC0kX7nwkOfmVIq3UYJgn3N5NgN/IhuJg3UzSZ/c=",
+        "originContent": "### 2. Configuration",
+        "translatedContent": "### 2. Configuration"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "he7AIYfUCJTnbr5eQaJpyfgatxprR4ZrfTvdUe98i1k=",
+        "originContent": "The server is configured via a `config.ini` file that is **automatically created** the first time you run it. This file will appear in the same directory as the `pubchem_server.py` script.",
+        "translatedContent": "The server is configured via a `config.ini` file that is **automatically created** the first time you run it. This file will appear in the same directory as the `pubchem_server.py` script."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "wguax19Fk9VVpqKmgwy9JO5AzVU2v+VKw7LpIMNZLbE=",
+        "originContent": "**Default `config.ini`:**",
+        "translatedContent": "**Default `config.ini`:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```ini\n[proxy]\n# Change 'use_proxy' to 'true' to route all requests through a proxy.\n# Essential for protecting your privacy if you use Tor.\nuse_proxy = false\n\n# Defines the proxy type. Options:\n#   socks5h  -> (Recommended for Tor) The native SOCKS proxy for Tor. More secure.\n#   http     -> An HTTP proxy. If using Tor, requires additional configuration.\nproxy_type = socks5h\n\n# The proxy address. THIS IS A CRITICAL SETTING!\n#   - If you run this script on your DESKTOP, use: 127.0.0.1\n#   - If you run this script inside DOCKER, use: host.docker.internal\nhost = 127.0.0.1\n\n# The proxy port.\n#   9050 -> Default port for Tor's SOCKS proxy.\n#   8118 -> Default port for Tor's HTTP proxy (if enabled).\nport = 9050\n```",
+    "ContentSha": "WhF6psV57uV3qXU8PLoztN14eDJsQJH9huQ0EsRUDCQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ini\n[proxy]\n# Change 'use_proxy' to 'true' to route all requests through a proxy.\n# Essential for protecting your privacy if you use Tor.\nuse_proxy = false\n\n# Defines the proxy type. Options:\n#   socks5h  -> (Recommended for Tor) The native SOCKS proxy for Tor. More secure.\n#   http     -> An HTTP proxy. If using Tor, requires additional configuration.\nproxy_type = socks5h\n\n# The proxy address. THIS IS A CRITICAL SETTING!\n#   - If you run this script on your DESKTOP, use: 127.0.0.1\n#   - If you run this script inside DOCKER, use: host.docker.internal\nhost = 127.0.0.1\n\n# The proxy port.\n#   9050 -> Default port for Tor's SOCKS proxy.\n#   8118 -> Default port for Tor's HTTP proxy (if enabled).\nport = 9050\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "NOtYEj4xvNWpEB/tns9NY65hnruGx4mqSUdrkrrtBlQ=",
+        "originContent": "```ini",
+        "translatedContent": "```ini"
+      },
+      {
+        "row": 2,
+        "rowsha": "pT/ILbx5bul0k8nPDWOsTnqViNCtkd5FqhChWTgSj78=",
+        "originContent": "[proxy]",
+        "translatedContent": "[proxy]"
+      },
+      {
+        "row": 3,
+        "rowsha": "1VqyNthosx1BqAcicYOaC1s9cVVwV82m2fdL5Z8tmzk=",
+        "originContent": "# Change 'use_proxy' to 'true' to route all requests through a proxy.",
+        "translatedContent": "# Change 'use_proxy' to 'true' to route all requests through a proxy."
+      },
+      {
+        "row": 4,
+        "rowsha": "3AKXT++IDvrj8nQrjLUW6LAWmOJg2fq8TKpBEV/I9ng=",
+        "originContent": "# Essential for protecting your privacy if you use Tor.",
+        "translatedContent": "# Essential for protecting your privacy if you use Tor."
+      },
+      {
+        "row": 5,
+        "rowsha": "XyanJEacZhSeJFVpiU9CiTY/wavsYMjMWP0DkOOSSY0=",
+        "originContent": "use_proxy = false",
+        "translatedContent": "use_proxy = false"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "OJ5nj8Q754YI4o4sUyDwkFqmHFxZopXG0r6Jc+ouJnE=",
+        "originContent": "# Defines the proxy type. Options:",
+        "translatedContent": "# Defines the proxy type. Options:"
+      },
+      {
+        "row": 8,
+        "rowsha": "eLRoaepeAOgkCGjIR2A61nsfmmfYO5cPALOEialNNQ0=",
+        "originContent": "#   socks5h  -> (Recommended for Tor) The native SOCKS proxy for Tor. More secure.",
+        "translatedContent": "#   socks5h  -> (Recommended for Tor) The native SOCKS proxy for Tor. More secure."
+      },
+      {
+        "row": 9,
+        "rowsha": "lh/QdFXGFkFU/aDLwNiTu43ghdSNWBPfMsVsGoPfXxQ=",
+        "originContent": "#   http     -> An HTTP proxy. If using Tor, requires additional configuration.",
+        "translatedContent": "#   http     -> An HTTP proxy. If using Tor, requires additional configuration."
+      },
+      {
+        "row": 10,
+        "rowsha": "5+4JhEZbdJ0PrS7flgrNjbUWcZku5Y8bMz7QLljU2Bs=",
+        "originContent": "proxy_type = socks5h",
+        "translatedContent": "proxy_type = socks5h"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "pe2ghwl0GDKTIyiQMVWWkdxkYGEhc2aLLp5SKBaMdfw=",
+        "originContent": "# The proxy address. THIS IS A CRITICAL SETTING!",
+        "translatedContent": "# The proxy address. THIS IS A CRITICAL SETTING!"
+      },
+      {
+        "row": 13,
+        "rowsha": "fhWDFczOKI9Fxn68ejUb1Lm3rwtbGPWK2krdAJLt1ls=",
+        "originContent": "#   - If you run this script on your DESKTOP, use: 127.0.0.1",
+        "translatedContent": "#   - If you run this script on your DESKTOP, use: 127.0.0.1"
+      },
+      {
+        "row": 14,
+        "rowsha": "ChAECgGwHE3KacKaOmx5F5lNJtm0uDmv8nYGh9/GGBQ=",
+        "originContent": "#   - If you run this script inside DOCKER, use: host.docker.internal",
+        "translatedContent": "#   - If you run this script inside DOCKER, use: host.docker.internal"
+      },
+      {
+        "row": 15,
+        "rowsha": "gO6EEyom14gfxQelJmCLsUUSqlhHnKB0XOouF0M5bMI=",
+        "originContent": "host = 127.0.0.1",
+        "translatedContent": "host = 127.0.0.1"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "QMHiLbxQDBknQPUx7yyTtnBpAt2tG/yedM36EZRbZ2Y=",
+        "originContent": "# The proxy port.",
+        "translatedContent": "# The proxy port."
+      },
+      {
+        "row": 18,
+        "rowsha": "AqEUsTPTnURp+9KJwRC0WEEezTonUVnO1aQmS1jbhR8=",
+        "originContent": "#   9050 -> Default port for Tor's SOCKS proxy.",
+        "translatedContent": "#   9050 -> Default port for Tor's SOCKS proxy."
+      },
+      {
+        "row": 19,
+        "rowsha": "aaWOAnYbweHWjhNEL3E2giazkVXWvmky637Fhozrc0U=",
+        "originContent": "#   8118 -> Default port for Tor's HTTP proxy (if enabled).",
+        "translatedContent": "#   8118 -> Default port for Tor's HTTP proxy (if enabled)."
+      },
+      {
+        "row": 20,
+        "rowsha": "8tFq9rQ/4hTrmSrUtgL6xMXb9HcyuRwf0EM4ugPMSJE=",
+        "originContent": "port = 9050",
+        "translatedContent": "port = 9050"
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n### 3. Integration with AnythingLLM\n\nFollow the official documentation to add this as a custom MCP server. The key is to point the `command` to your Python executable and the `pubchem_server.py` script.\n\n**Example for AnythingLLM Desktop (`plugins/anythingllm_mcp_servers.json`):**",
+    "ContentSha": "8HmK7Q1UgDBqwwkLaLFeLDZVEA/i+DPGa9mVhu8KLEM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 3. Integration with AnythingLLM\n\nFollow the official documentation to add this as a custom MCP server. The key is to point the `command` to your Python executable and the `pubchem_server.py` script.\n\n**Example for AnythingLLM Desktop (`plugins/anythingllm_mcp_servers.json`):**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "gutsLyS+igzyqWb62lqh2ksBBrLP4y2KH6RSVdJQ/+w=",
+        "originContent": "### 3. Integration with AnythingLLM",
+        "translatedContent": "### 3. Integration with AnythingLLM"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "AoTIyLpV+hMhfEiHqoETmXr10DpdePoYCpjTNcLKdB4=",
+        "originContent": "Follow the official documentation to add this as a custom MCP server. The key is to point the `command` to your Python executable and the `pubchem_server.py` script.",
+        "translatedContent": "Follow the official documentation to add this as a custom MCP server. The key is to point the `command` to your Python executable and the `pubchem_server.py` script."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "HjwsHMzxLRQmQ8UlcylhOwNBMfTAWARS2acwf5aoqJo=",
+        "originContent": "**Example for AnythingLLM Desktop (`plugins/anythingllm_mcp_servers.json`):**",
+        "translatedContent": "**Example for AnythingLLM Desktop (`plugins/anythingllm_mcp_servers.json`):**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```json\n{\n  \"mcpServers\": {\n    \"pubchem\": {\n      \"name\": \"PubChem Server (Enhanced)\",\n      \"transport\": \"stdio\",\n      \"command\": \"\\\"C:\\\\path\\\\to\\\\your\\\\.venv\\\\Scripts\\\\python.exe\\\" \\\"C:\\\\path\\\\to\\\\your\\\\project\\\\pubchem_server.py\\\"\",\n      \"cwd\": \"C:\\\\path\\\\to\\\\your\\\\project\"\n    }\n  }\n}\n```",
+    "ContentSha": "hS9RtCEjt6suUxVempfS86u2ZFPJgeCTdHsR0WrDOtI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"mcpServers\": {\n    \"pubchem\": {\n      \"name\": \"PubChem Server (Enhanced)\",\n      \"transport\": \"stdio\",\n      \"command\": \"\\\"C:\\\\path\\\\to\\\\your\\\\.venv\\\\Scripts\\\\python.exe\\\" \\\"C:\\\\path\\\\to\\\\your\\\\project\\\\pubchem_server.py\\\"\",\n      \"cwd\": \"C:\\\\path\\\\to\\\\your\\\\project\"\n    }\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZckkIpKixltZLtYSjGOhgJjNOCkOb0HBckGFnZZHIuw=",
+        "originContent": "  \"mcpServers\": {",
+        "translatedContent": "  \"mcpServers\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "MDlsrWdDOYWNIPqNNtWLSrFn+GeKrNEu6DmdiahENBw=",
+        "originContent": "    \"pubchem\": {",
+        "translatedContent": "    \"pubchem\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "BF8p27buiWR+/GS37DsZhcvAdMpvsqCq2uU6Oj7Ug8o=",
+        "originContent": "      \"name\": \"PubChem Server (Enhanced)\",",
+        "translatedContent": "      \"name\": \"PubChem Server (Enhanced)\","
+      },
+      {
+        "row": 6,
+        "rowsha": "sAWy9rXuZapgjfp40txLrwNfY70gjFVt8SM4h39Ly+0=",
+        "originContent": "      \"transport\": \"stdio\",",
+        "translatedContent": "      \"transport\": \"stdio\","
+      },
+      {
+        "row": 7,
+        "rowsha": "j3gmJhjJYWXl2cjASjtoGWKlorKk3zHtwvC/68C9QzE=",
+        "originContent": "      \"command\": \"\\\"C:\\\\path\\\\to\\\\your\\\\.venv\\\\Scripts\\\\python.exe\\\" \\\"C:\\\\path\\\\to\\\\your\\\\project\\\\pubchem_server.py\\\"\",",
+        "translatedContent": "      \"command\": \"\\\"C:\\\\path\\\\to\\\\your\\\\.venv\\\\Scripts\\\\python.exe\\\" \\\"C:\\\\path\\\\to\\\\your\\\\project\\\\pubchem_server.py\\\"\","
+      },
+      {
+        "row": 8,
+        "rowsha": "uu0WgsBuSME+CNkPbaiz78w+CFvYQfaD4xLqgjjo7Ho=",
+        "originContent": "      \"cwd\": \"C:\\\\path\\\\to\\\\your\\\\project\"",
+        "translatedContent": "      \"cwd\": \"C:\\\\path\\\\to\\\\your\\\\project\""
+      },
+      {
+        "row": 9,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 10,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 11,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n\n### 3.1 Implementation Examples with AnythingLLM\n\nHere are some examples of how to interact with the agent. These tests were conducted using AnythingLLM Desktop, connecting to various Large Language Models via OpenRouter.\n\nA crucial finding from our testing is the importance of the model you choose. We **strongly recommend against using small or local models** for this task. Smaller models often struggle to correctly parse the data returned by the tool, leading to errors such as hallucinated values, incorrect formatting, or, most critically, **rounding decimal numbers**, which defeats the purpose of this high-precision tool.\n\nTo ensure the integrity of your results, it's always a good practice to verify the raw data returned by the MCP. You can learn how to do this in the next section: [3.2 How to verify MCP outputs in the logs](#32-how-to-verify-mcp-outputs-in-the-logs).\n\n<img width=\"837\" height=\"1060\" alt=\"imagen\" src=\"https://github.com/user-attachments/assets/5a16c7a2-d65d-4d64-98dd-f3cb4cae9b22\" />\n\nOn the other hand, several models have demonstrated excellent performance. We achieved outstanding results with  **Google's `Gemini 2.5 Flash lite`**. showed remarkable precision in handling long decimal numbers and correctly formatting the final Markdown table.\n\nGoogle gemini 2.5 flash lite without prompt and with prompt keep perfect decimals (in the example use 0.6 of temperature)\n\n<img width=\"1089\" height=\"1061\" alt=\"imagen\" src=\"https://github.com/user-attachments/assets/4574efa5-d6d9-49e3-a665-a39a427f09a1\" />\n\nFor this specific task, my personal favorite is **`Gemini 2.5 Flash lite`** due to its consistent accuracy and reliability.\n\n### 3.2 How to Verify MCP Outputs in the Logs\n\nThe best way to confirm that the agent is receiving the correct data and that the LLM is not making mistakes is to check the debug log file generated by the MCP server.\n\nThis server is configured to automatically create a log file in a subfolder within your project directory. The location will be:\n",
+    "ContentSha": "tcTO9Pw1T9St8pDZJRii/ZZxjQO39yr/+kkChIRkhNs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\n### 3.1 Implementation Examples with AnythingLLM\n\nHere are some examples of how to interact with the agent. These tests were conducted using AnythingLLM Desktop, connecting to various Large Language Models via OpenRouter.\n\nA crucial finding from our testing is the importance of the model you choose. We **strongly recommend against using small or local models** for this task. Smaller models often struggle to correctly parse the data returned by the tool, leading to errors such as hallucinated values, incorrect formatting, or, most critically, **rounding decimal numbers**, which defeats the purpose of this high-precision tool.\n\nTo ensure the integrity of your results, it's always a good practice to verify the raw data returned by the MCP. You can learn how to do this in the next section: [3.2 How to verify MCP outputs in the logs](#32-how-to-verify-mcp-outputs-in-the-logs).\n\n<img width=\"837\" height=\"1060\" alt=\"imagen\" src=\"https://github.com/user-attachments/assets/5a16c7a2-d65d-4d64-98dd-f3cb4cae9b22\" />\n\nOn the other hand, several models have demonstrated excellent performance. We achieved outstanding results with  **Google's `Gemini 2.5 Flash lite`**. showed remarkable precision in handling long decimal numbers and correctly formatting the final Markdown table.\n\nGoogle gemini 2.5 flash lite without prompt and with prompt keep perfect decimals (in the example use 0.6 of temperature)\n\n<img width=\"1089\" height=\"1061\" alt=\"imagen\" src=\"https://github.com/user-attachments/assets/4574efa5-d6d9-49e3-a665-a39a427f09a1\" />\n\nFor this specific task, my personal favorite is **`Gemini 2.5 Flash lite`** due to its consistent accuracy and reliability.\n\n### 3.2 How to Verify MCP Outputs in the Logs\n\nThe best way to confirm that the agent is receiving the correct data and that the LLM is not making mistakes is to check the debug log file generated by the MCP server.\n\nThis server is configured to automatically create a log file in a subfolder within your project directory. The location will be:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "wPVqaXuy/d7OTAg1HvFUNxpFmb2KftjhZlrkkHOgJpc=",
+        "originContent": "### 3.1 Implementation Examples with AnythingLLM",
+        "translatedContent": "### 3.1 Implementation Examples with AnythingLLM"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "esYp9KfHOOdrbTm/2yUUYgCWTvxIfr1S01c/PidZzxU=",
+        "originContent": "Here are some examples of how to interact with the agent. These tests were conducted using AnythingLLM Desktop, connecting to various Large Language Models via OpenRouter.",
+        "translatedContent": "Here are some examples of how to interact with the agent. These tests were conducted using AnythingLLM Desktop, connecting to various Large Language Models via OpenRouter."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "N3STIS1gUY8JpP83uwRGkSB+8gejV/V6s4laEoy3oMs=",
+        "originContent": "A crucial finding from our testing is the importance of the model you choose. We **strongly recommend against using small or local models** for this task. Smaller models often struggle to correctly parse the data returned by the tool, leading to errors such as hallucinated values, incorrect formatting, or, most critically, **rounding decimal numbers**, which defeats the purpose of this high-precision tool.",
+        "translatedContent": "A crucial finding from our testing is the importance of the model you choose. We **strongly recommend against using small or local models** for this task. Smaller models often struggle to correctly parse the data returned by the tool, leading to errors such as hallucinated values, incorrect formatting, or, most critically, **rounding decimal numbers**, which defeats the purpose of this high-precision tool."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "KBHPsww5Ue6RYzFb5Z1VH1OTSzhQSRFwJhxNlcWb+l0=",
+        "originContent": "To ensure the integrity of your results, it's always a good practice to verify the raw data returned by the MCP. You can learn how to do this in the next section: [3.2 How to verify MCP outputs in the logs](#32-how-to-verify-mcp-outputs-in-the-logs).",
+        "translatedContent": "To ensure the integrity of your results, it's always a good practice to verify the raw data returned by the MCP. You can learn how to do this in the next section: [3.2 How to verify MCP outputs in the logs](#32-how-to-verify-mcp-outputs-in-the-logs)."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "6J/iTq03oMrcrcv9VlktHToC2JHGBysZQkJMllrXKtk=",
+        "originContent": "<img width=\"837\" height=\"1060\" alt=\"imagen\" src=\"https://github.com/user-attachments/assets/5a16c7a2-d65d-4d64-98dd-f3cb4cae9b22\" />",
+        "translatedContent": "<img width=\"837\" height=\"1060\" alt=\"imagen\" src=\"https://github.com/user-attachments/assets/5a16c7a2-d65d-4d64-98dd-f3cb4cae9b22\" />"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "2n9fDP9IWz/PGcMw15g0zMY4jVWK1rOpmwpUY2zsjaA=",
+        "originContent": "On the other hand, several models have demonstrated excellent performance. We achieved outstanding results with  **Google's `Gemini 2.5 Flash lite`**. showed remarkable precision in handling long decimal numbers and correctly formatting the final Markdown table.",
+        "translatedContent": "On the other hand, several models have demonstrated excellent performance. We achieved outstanding results with  **Google's `Gemini 2.5 Flash lite`**. showed remarkable precision in handling long decimal numbers and correctly formatting the final Markdown table."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "oet0AY8AVHSzG5uqpu7CDP15TyEA17AoVu4LFRRZ+Jw=",
+        "originContent": "Google gemini 2.5 flash lite without prompt and with prompt keep perfect decimals (in the example use 0.6 of temperature)",
+        "translatedContent": "Google gemini 2.5 flash lite without prompt and with prompt keep perfect decimals (in the example use 0.6 of temperature)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "fE4sH8Bf7meiYDRTTRwMNGwLGwegTRDQ1IGxQy4HYd0=",
+        "originContent": "<img width=\"1089\" height=\"1061\" alt=\"imagen\" src=\"https://github.com/user-attachments/assets/4574efa5-d6d9-49e3-a665-a39a427f09a1\" />",
+        "translatedContent": "<img width=\"1089\" height=\"1061\" alt=\"imagen\" src=\"https://github.com/user-attachments/assets/4574efa5-d6d9-49e3-a665-a39a427f09a1\" />"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "NzU4OOk1821x7jjMhJxAN6iqPAH28FZEOOGoAO89tcM=",
+        "originContent": "For this specific task, my personal favorite is **`Gemini 2.5 Flash lite`** due to its consistent accuracy and reliability.",
+        "translatedContent": "For this specific task, my personal favorite is **`Gemini 2.5 Flash lite`** due to its consistent accuracy and reliability."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "mRflmApgzp6wah/IfbvxpjSgRzesRgUj3lJeGf12FW8=",
+        "originContent": "### 3.2 How to Verify MCP Outputs in the Logs",
+        "translatedContent": "### 3.2 How to Verify MCP Outputs in the Logs"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "6IHgmnXqfHk3MlAiis9Wh6gRLkDap0ACZTbOp23IMP0=",
+        "originContent": "The best way to confirm that the agent is receiving the correct data and that the LLM is not making mistakes is to check the debug log file generated by the MCP server.",
+        "translatedContent": "The best way to confirm that the agent is receiving the correct data and that the LLM is not making mistakes is to check the debug log file generated by the MCP server."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "nq/5Oxuxe6m0uwu+8x8yGZBgFaG2r2jsTMEp6UdtVIs=",
+        "originContent": "This server is configured to automatically create a log file in a subfolder within your project directory. The location will be:",
+        "translatedContent": "This server is configured to automatically create a log file in a subfolder within your project directory. The location will be:"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```\nyour-project-folder/\n└── logs_mcp/\n    └── mcp_debug.log\n```",
+    "ContentSha": "uBuEiCbx1Nk91FezbrNrabs/r5uoWmDWiscZzX8I56Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nyour-project-folder/\n└── logs_mcp/\n    └── mcp_debug.log\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "AuzFmNOI8gWQ7v6cel+rQHWC0IOIcLRHB7puU1RyFzI=",
+        "originContent": "your-project-folder/",
+        "translatedContent": "your-project-folder/"
+      },
+      {
+        "row": 3,
+        "rowsha": "TMtxzSiF+MKy66/hgCFZ17ORRB9BVgbbRSxHIEZTMdA=",
+        "originContent": "└── logs_mcp/",
+        "translatedContent": "└── logs_mcp/"
+      },
+      {
+        "row": 4,
+        "rowsha": "TrLBDtkaUS8nn2MdAaulLtY9t2uCPKJ6HDHYrhgumD0=",
+        "originContent": "    └── mcp_debug.log",
+        "translatedContent": "    └── mcp_debug.log"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nInside `mcp_debug.log`, you will find the exact JSON data that the tool sends back to the LLM *before* the model processes it. You can manually inspect this JSON to verify any values, especially long decimal numbers from properties like `monoisotopic_mass`, ensuring that the LLM has not introduced any rounding errors or hallucinations in its final answer.\n\n---\n\n## 📊 Usage\n\nOnce integrated, your AI assistant will automatically use this tool when asked about chemical information. The primary tool exposed is `search_compounds_by_name`.\n\n### Example Prompt\n\nThis prompt demonstrates the tool's ability to handle a list of compounds with varying name types and retrieve multiple properties.\n",
+    "ContentSha": "uJvKINzfTPsa1VCuGWnTLuVLAD9BpePH9iJVry2dWgw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nInside `mcp_debug.log`, you will find the exact JSON data that the tool sends back to the LLM *before* the model processes it. You can manually inspect this JSON to verify any values, especially long decimal numbers from properties like `monoisotopic_mass`, ensuring that the LLM has not introduced any rounding errors or hallucinations in its final answer.\n\n---\n\n## 📊 Usage\n\nOnce integrated, your AI assistant will automatically use this tool when asked about chemical information. The primary tool exposed is `search_compounds_by_name`.\n\n### Example Prompt\n\nThis prompt demonstrates the tool's ability to handle a list of compounds with varying name types and retrieve multiple properties.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "QU7h5eRQDZynqrzMfEycn/zm7JKXOzjH58wgrUNQDrE=",
+        "originContent": "Inside `mcp_debug.log`, you will find the exact JSON data that the tool sends back to the LLM *before* the model processes it. You can manually inspect this JSON to verify any values, especially long decimal numbers from properties like `monoisotopic_mass`, ensuring that the LLM has not introduced any rounding errors or hallucinations in its final answer.",
+        "translatedContent": "Inside `mcp_debug.log`, you will find the exact JSON data that the tool sends back to the LLM *before* the model processes it. You can manually inspect this JSON to verify any values, especially long decimal numbers from properties like `monoisotopic_mass`, ensuring that the LLM has not introduced any rounding errors or hallucinations in its final answer."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "2j9TqBxgl+m9+RAq6KtbPEnGn7YT0r5wYX0U6Z8EVMs=",
+        "originContent": "## 📊 Usage",
+        "translatedContent": "## 📊 Usage"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "kwDC5d9gsu2KxFZoSIoMFRF7nfQ4e0JryJk6+kxtuPc=",
+        "originContent": "Once integrated, your AI assistant will automatically use this tool when asked about chemical information. The primary tool exposed is `search_compounds_by_name`.",
+        "translatedContent": "Once integrated, your AI assistant will automatically use this tool when asked about chemical information. The primary tool exposed is `search_compounds_by_name`."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "SmAUDdS9cYi0zs2Hru6hxAzxCBPmBMcl71MXsNSstJs=",
+        "originContent": "### Example Prompt",
+        "translatedContent": "### Example Prompt"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "jwslg67pg3QmCHHIAqvkd+ghXcwQFWoa/O20qgjMoh0=",
+        "originContent": "This prompt demonstrates the tool's ability to handle a list of compounds with varying name types and retrieve multiple properties.",
+        "translatedContent": "This prompt demonstrates the tool's ability to handle a list of compounds with varying name types and retrieve multiple properties."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```\n@agent\nPlease use your PubChem tool to find information on the following compounds:\n\n- Thiamine (Vitamin B1)\n- Riboflavin (Vitamin B2)\n- Folic Acid\n- Hydroxocobalamin\n\nFor each compound found, please retrieve the IUPAC Name, Molecular Formula, and Monoisotopic Mass.\n\nPresent all the results in a single Markdown table.\n```",
+    "ContentSha": "K/muR3UFHIWeEVViHNfVXIJ5S87i1+HBiGXLbzVmsFo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@agent\nPlease use your PubChem tool to find information on the following compounds:\n\n- Thiamine (Vitamin B1)\n- Riboflavin (Vitamin B2)\n- Folic Acid\n- Hydroxocobalamin\n\nFor each compound found, please retrieve the IUPAC Name, Molecular Formula, and Monoisotopic Mass.\n\nPresent all the results in a single Markdown table.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "hbxGsCx3cMQQuOtkWGeQobjiyCOrHkiMAEWb7JPTiGs=",
+        "originContent": "@agent",
+        "translatedContent": "@agent"
+      },
+      {
+        "row": 3,
+        "rowsha": "6ov9c0jx21LL/8ya3QIEQ7Yf2JTdfqBjHQ9bRkQpEDA=",
+        "originContent": "Please use your PubChem tool to find information on the following compounds:",
+        "translatedContent": "Please use your PubChem tool to find information on the following compounds:"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "DuYIqNvSJtra/gaf2aP6iqtEAhmq5Od2dXbEXjEIoOo=",
+        "originContent": "- Thiamine (Vitamin B1)",
+        "translatedContent": "- Thiamine (Vitamin B1)"
+      },
+      {
+        "row": 6,
+        "rowsha": "9MoLawoCg+HxyXKIVQxKMZ0IUcv+W5Qv9Q+6HK7PqxY=",
+        "originContent": "- Riboflavin (Vitamin B2)",
+        "translatedContent": "- Riboflavin (Vitamin B2)"
+      },
+      {
+        "row": 7,
+        "rowsha": "xgZZU7j4RVhzJ/gXx7kwMndcS4CG+6fyuYr9vgCkOQo=",
+        "originContent": "- Folic Acid",
+        "translatedContent": "- Folic Acid"
+      },
+      {
+        "row": 8,
+        "rowsha": "zRlDrJAN+pn2i5iTwVlp/9phJ312qq1OcTbvO2lSYDQ=",
+        "originContent": "- Hydroxocobalamin",
+        "translatedContent": "- Hydroxocobalamin"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "9nfL5Fesotvkl5bwEkZCrLuxeCvL3kjfRNF8CpXW7Zo=",
+        "originContent": "For each compound found, please retrieve the IUPAC Name, Molecular Formula, and Monoisotopic Mass.",
+        "translatedContent": "For each compound found, please retrieve the IUPAC Name, Molecular Formula, and Monoisotopic Mass."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "UYci1JQh02EWS6esxZ0WB1J2NJBrjd88TOplZj+TNdQ=",
+        "originContent": "Present all the results in a single Markdown table.",
+        "translatedContent": "Present all the results in a single Markdown table."
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\nThe agent will call the `search_compounds_by_name` tool, which will intelligently find each compound, retrieve its data, and return it to the LLM for formatting.\n\n---\n\n## 🛠 MCP Tool Exposed\n\n### `search_compounds_by_name`\n\nSearches for multiple compounds by name, one by one, using a smart fallback strategy with pauses and retries for maximum reliability.\n\n**Parameters:**\n-   `names` (List[str]): A list of compound names. Example: `[\"Aspirin\", \"Ibuprofen\"]`\n\n**Returns:** A list of dictionaries, where each dictionary contains either the found compound's information or an error message detailing why the search failed for that specific compound.\n\n---\n\n## 🙏 Acknowledgements\n\nThis project was heavily inspired by and built upon the foundation of the original [PubChem-MCP-Server](https://github.com/JackKuo666/PubChem-MCP-Server) created by **JackKuo666**.\n\nWhile this repository is not a direct fork, the original project was the crucial starting point. This version enhances the original concept with a focus on extreme robustness, intelligent search strategies, and user privacy through optional Tor integration 🧅.\n\nMany thanks to the original author for their fantastic work and for sharing it with the community.\n\n---\n\n## ⚠️ Disclaimer\n\nThis tool is intended for research and educational purposes. Please respect PubChem's terms of service and use this tool responsibly.\n",
+    "ContentSha": "qZHpaY21vlhYRR+a278qrzub4mX9Qay3fJT7eijqvjc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "The agent will call the `search_compounds_by_name` tool, which will intelligently find each compound, retrieve its data, and return it to the LLM for formatting.\n\n---\n\n## 🛠 MCP Tool Exposed\n\n### `search_compounds_by_name`\n\nSearches for multiple compounds by name, one by one, using a smart fallback strategy with pauses and retries for maximum reliability.\n\n**Parameters:**\n-   `names` (List[str]): A list of compound names. Example: `[\"Aspirin\", \"Ibuprofen\"]`\n\n**Returns:** A list of dictionaries, where each dictionary contains either the found compound's information or an error message detailing why the search failed for that specific compound.\n\n---\n\n## 🙏 Acknowledgements\n\nThis project was heavily inspired by and built upon the foundation of the original [PubChem-MCP-Server](https://github.com/JackKuo666/PubChem-MCP-Server) created by **JackKuo666**.\n\nWhile this repository is not a direct fork, the original project was the crucial starting point. This version enhances the original concept with a focus on extreme robustness, intelligent search strategies, and user privacy through optional Tor integration 🧅.\n\nMany thanks to the original author for their fantastic work and for sharing it with the community.\n\n---\n\n## ⚠️ Disclaimer\n\nThis tool is intended for research and educational purposes. Please respect PubChem's terms of service and use this tool responsibly.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The agent will call the `search_compounds_by_name` tool, which will intelligently find each compound, retrieve its data, and return it to the LLM for formatting."
+      },
+      {
+        "row": 2,
+        "rowsha": "GT+fZwCzhxjGC/umkGOLisjL2F3rbQUQnhTCmAEhZpY=",
+        "originContent": "The agent will call the `search_compounds_by_name` tool, which will intelligently find each compound, retrieve its data, and return it to the LLM for formatting.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🛠 MCP Tool Exposed"
+      },
+      {
+        "row": 6,
+        "rowsha": "1CACL/B551Dsyu6PtYVGkVXtcvPk+jClpdVWZiHPFm4=",
+        "originContent": "## 🛠 MCP Tool Exposed",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### `search_compounds_by_name`"
+      },
+      {
+        "row": 8,
+        "rowsha": "07po6ASf9xtixJY5On3ro0IzZihJSwaqFvSFLoBdysU=",
+        "originContent": "### `search_compounds_by_name`",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Searches for multiple compounds by name, one by one, using a smart fallback strategy with pauses and retries for maximum reliability."
+      },
+      {
+        "row": 10,
+        "rowsha": "XpkWUjbVPi3wyrTC4uWuy1NbItHpve5TJz3fDZ5j4C8=",
+        "originContent": "Searches for multiple compounds by name, one by one, using a smart fallback strategy with pauses and retries for maximum reliability.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Parameters:**"
+      },
+      {
+        "row": 12,
+        "rowsha": "TP+/wPP2TqZ4KfVIMKmfbB9B9h4l26dtMha6vZMjnSg=",
+        "originContent": "**Parameters:**",
+        "translatedContent": "-   `names` (List[str]): A list of compound names. Example: `[\"Aspirin\", \"Ibuprofen\"]`"
+      },
+      {
+        "row": 13,
+        "rowsha": "E5YS9n8w3lSk+aMvUtifeBA1WdYvxuHpiG1wllry9bE=",
+        "originContent": "-   `names` (List[str]): A list of compound names. Example: `[\"Aspirin\", \"Ibuprofen\"]`",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Returns:** A list of dictionaries, where each dictionary contains either the found compound's information or an error message detailing why the search failed for that specific compound."
+      },
+      {
+        "row": 15,
+        "rowsha": "K2g2fEa4/7o02Tvaq1Np36djRHyzsnmidlzQhY7KfFQ=",
+        "originContent": "**Returns:** A list of dictionaries, where each dictionary contains either the found compound's information or an error message detailing why the search failed for that specific compound.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 17,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🙏 Acknowledgements"
+      },
+      {
+        "row": 19,
+        "rowsha": "xu64CG5WWAk6HrV6oWvSAQFXHyBWkQmb01SHddeshOI=",
+        "originContent": "## 🙏 Acknowledgements",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "This project was heavily inspired by and built upon the foundation of the original [PubChem-MCP-Server](https://github.com/JackKuo666/PubChem-MCP-Server) created by **JackKuo666**."
+      },
+      {
+        "row": 21,
+        "rowsha": "HZT52XYdpkK+mnTvIzG7Ab0oQPENcGOVJa4j9Sgvgq0=",
+        "originContent": "This project was heavily inspired by and built upon the foundation of the original [PubChem-MCP-Server](https://github.com/JackKuo666/PubChem-MCP-Server) created by **JackKuo666**.",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "While this repository is not a direct fork, the original project was the crucial starting point. This version enhances the original concept with a focus on extreme robustness, intelligent search strategies, and user privacy through optional Tor integration 🧅."
+      },
+      {
+        "row": 23,
+        "rowsha": "OP30wkYc6lkKbN67Y+j22bSqdV4ydfxDB4ZiakBZ7Vo=",
+        "originContent": "While this repository is not a direct fork, the original project was the crucial starting point. This version enhances the original concept with a focus on extreme robustness, intelligent search strategies, and user privacy through optional Tor integration 🧅.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Many thanks to the original author for their fantastic work and for sharing it with the community."
+      },
+      {
+        "row": 25,
+        "rowsha": "30XE8CS6YvLkva1BkfJijKTBRnuiLVCY9A2v/NGhOO8=",
+        "originContent": "Many thanks to the original author for their fantastic work and for sharing it with the community.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 27,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ⚠️ Disclaimer"
+      },
+      {
+        "row": 29,
+        "rowsha": "oM2QnT3SZJ9D9VeT3rGJMNlJvr557rOLrryj1F/TFyQ=",
+        "originContent": "## ⚠️ Disclaimer",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "This tool is intended for research and educational purposes. Please respect PubChem's terms of service and use this tool responsibly."
+      },
+      {
+        "row": 31,
+        "rowsha": "Ynopd199KHEmrQCv64j6WoxeN/PDuslzz77hyYxMq7M=",
+        "originContent": "This tool is intended for research and educational purposes. Please respect PubChem's terms of service and use this tool responsibly.",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,30 +1,62 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # OCI2Git
 
-一个用 Rust 编写的应用程序，将容器镜像（Docker 等）转换为 Git 仓库。每个容器层都表示为一个 Git 提交，保留了原始镜像的历史和结构。
+一个将容器镜像（如 Docker 等）转换为 Git 仓库的 Rust 应用程序。每个容器层都被表示为一个 Git 提交，保留了原始镜像的历史和结构。
 
 ![OCI2Git 转换 nginx 镜像的演示](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## 功能
 
 - 分析 Docker 镜像并提取层信息
-- 创建一个 Git 仓库，每个镜像层表示为一个提交
-- 支持空层（ENV、WORKDIR 等）作为空提交
+- 创建一个 Git 仓库，将每个镜像层表示为一次提交
+- 支持空层（如 ENV、WORKDIR 等）作为空提交
 - 完整的元数据提取为 Markdown 格式
 - 可扩展架构以支持不同的容器引擎
 
 ## 使用场景
 
-### 层差异比较
-在排查容器问题时，可以利用 Git 强大的差异比较功能，准确识别任意两层之间的变化。通过在提交之间运行 `git diff`，工程师可以精准看到哪些文件被添加、修改或删除，更容易理解每条 Dockerfile 指令的影响并定位问题变更。
-![层差异比较示例](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### 层差异对比
+在排查容器问题时，你可以利用 Git 强大的差异比较功能，准确识别任意两层之间发生了哪些更改。通过在提交之间运行 `git diff`，工程师可以精确看到哪些文件被添加、修改或删除，从而更容易理解每条 Dockerfile 指令的影响并定位问题更改。
+![层差异示例](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### 来源追踪
-通过使用 `git blame`，开发者可以快速确定具体文件或代码行是由哪个层引入的。这在诊断配置文件或依赖问题时尤其有价值。无需手动检查每层，即可立即追溯任意文件的来源层及对应的 Dockerfile 指令。
+### 源头追踪
+通过使用 `git blame`，开发者可以快速确定是哪一层引入了某个特定文件或代码行。这在诊断配置文件或依赖项问题时尤为有价值。无需手动检查每一层，你可以立刻将任意文件追溯到其来源层及对应的 Dockerfile 指令。
 
-### 文件生命周期跟踪
-OCI2Git 使您能够跟踪特定文件在容器镜像历史中的演变。您可以观察文件最初何时创建，如何跨层被修改，以及是否/何时被最终删除。该全面视图有助于理解文件的演变过程，而无需手动追踪可能多达数十层的更改。
+### 文件生命周期追踪
+OCI2Git 让你可以跟踪特定文件在容器镜像历史中的变化历程。你可以观察文件最初何时创建、在各层如何被修改，以及是否/何时被最终删除。这个全面视图有助于理解文件的演变过程，无需手动跨越数十层追踪更改。
 
-要跟踪容器镜像中某个文件的历史——包括首次出现、修改或删除时间——转换后可以使用以下 Git 命令：
+要在容器镜像中跟踪某个文件的历史——包括首次出现、被更改或删除的时间——转换后可以使用以下 Git 命令：
 
 ```bash
 # Full history of a file (including renames)
@@ -174,6 +206,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
 
 ---

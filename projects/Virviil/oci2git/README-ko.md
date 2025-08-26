@@ -1,30 +1,62 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # OCI2Git
 
-컨테이너 이미지(Docker 등)를 Git 저장소로 변환하는 Rust 애플리케이션입니다. 각 컨테이너 레이어는 Git 커밋으로 표현되어 원본 이미지의 히스토리와 구조를 보존합니다.
+컨테이너 이미지(Docker 등)를 Git 저장소로 변환하는 Rust 애플리케이션입니다. 각 컨테이너 레이어는 Git 커밋으로 표현되며, 원본 이미지의 히스토리와 구조를 보존합니다.
 
-![nginx 이미지를 변환하는 OCI2Git 데모](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+![OCI2Git이 nginx 이미지를 변환하는 데모](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
-## 기능
+## 주요 기능
 
-- Docker 이미지 분석 및 레이어 정보 추출
-- 각 이미지 레이어를 커밋으로 표현하는 Git 저장소 생성
-- 빈 레이어(ENV, WORKDIR 등)를 빈 커밋으로 지원
-- 메타데이터를 Markdown 형식으로 완전 추출
+- Docker 이미지를 분석하고 레이어 정보를 추출합니다
+- 각 이미지 레이어가 커밋으로 표현되는 Git 저장소를 생성합니다
+- 빈 레이어(ENV, WORKDIR 등)를 빈 커밋으로 지원합니다
+- 메타데이터를 Markdown 형식으로 완전하게 추출합니다
 - 다양한 컨테이너 엔진 지원을 위한 확장 가능한 아키텍처
 
 ## 사용 사례
 
 ### 레이어 차이 분석
-컨테이너 문제 해결 시 Git의 강력한 diff 기능을 사용하여 두 레이어 간에 정확히 무엇이 변경되었는지 확인할 수 있습니다. 커밋 간 `git diff`를 실행하면 엔지니어는 어떤 파일이 추가, 수정 또는 삭제되었는지 정확히 파악할 수 있어 Dockerfile 명령어의 영향과 문제 변경 사항을 쉽게 이해할 수 있습니다.
+컨테이너 문제를 해결할 때, Git의 강력한 diff 기능을 사용하여 두 레이어 사이에 정확히 어떤 변경이 있었는지 식별할 수 있습니다. 커밋 간에 `git diff`를 실행하면 엔지니어가 어떤 파일이 추가, 수정 또는 삭제되었는지 정확하게 확인할 수 있어, 각 Dockerfile 명령의 영향과 문제를 유발한 변경 사항을 이해하기가 훨씬 쉬워집니다.
 ![레이어 차이 예시](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
 ### 원본 추적
-`git blame`을 사용하면 개발자는 특정 파일이나 코드 라인을 어떤 레이어가 도입했는지 빠르게 확인할 수 있습니다. 이는 구성 파일이나 종속성 문제를 진단할 때 특히 유용합니다. 각 레이어를 수동으로 검사하는 대신, 파일의 출처 레이어와 해당 Dockerfile 명령어를 즉시 추적할 수 있습니다.
+`git blame`을 사용하면 개발자는 특정 파일이나 코드 라인이 어떤 레이어에서 도입되었는지 빠르게 확인할 수 있습니다. 이는 설정 파일이나 종속성 문제를 진단할 때 특히 유용합니다. 각 레이어를 수동으로 검사하지 않고도, 파일의 원본 레이어와 해당 Dockerfile 명령까지 즉시 추적할 수 있습니다.
 
-### 파일 수명 주기 추적
-OCI2Git은 특정 파일이 컨테이너 이미지의 히스토리 전반에 걸쳐 어떻게 변해왔는지 추적할 수 있도록 합니다. 파일이 처음 생성된 시점, 레이어별 수정 내역, 그리고 삭제된 시점까지 관찰할 수 있습니다. 이 포괄적인 관점은 수십 개 레이어를 수동으로 추적하지 않고도 파일 변화를 이해하는 데 도움을 줍니다.
+### 파일 라이프사이클 추적
+OCI2Git을 통해 컨테이너 이미지의 전체 히스토리에서 특정 파일의 이동 경로를 따라갈 수 있습니다. 파일이 처음 생성된 시점, 각 레이어에서 어떻게 수정되었는지, 그리고 최종적으로 삭제된 시점까지 관찰할 수 있습니다. 이 포괄적인 뷰를 통해 수십 개의 레이어에 걸친 변경 사항을 수동으로 추적하지 않고도 파일의 진화를 이해할 수 있습니다.
 
-컨테이너 이미지 내 파일의 생성, 변경, 삭제 이력을 추적하려면 변환 후 다음 Git 명령어를 사용할 수 있습니다:
+컨테이너 이미지 내 특정 파일의 히스토리(처음 등장, 변경, 삭제 시점 등)를 추적하려면 변환 후 다음 Git 명령어를 사용할 수 있습니다:
 
 ```bash
 # Full history of a file (including renames)
@@ -174,6 +206,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
 
 ---

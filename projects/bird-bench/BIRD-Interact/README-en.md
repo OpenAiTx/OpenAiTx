@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=zh-CN">Simplified Chinese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=zh-TW">Traditional Chinese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=ja">Japanese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=ko">Korean</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=hi">Hindi</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=th">Thai</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=fr">French</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=de">German</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=es">Spanish</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=it">Italian</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=ru">Russian</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=pt">Portuguese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=nl">Dutch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=pl">Polish</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=ar">Arabic</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=fa">Persian</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=tr">Turkish</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=vi">Vietnamese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=bird-bench&project=BIRD-Interact&lang=id">Indonesian</a></p>
+      </div>
+    </div>
+  </details>
+
+</div>
+
 # BIRD-INTERACT 1.0 <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/hku-logo.jpg" alt="HKU Logo" width="50" style="vertical-align:middle;margin-left:10px;"> <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/google-cloud-logo.png" alt="Google Cloud Logo" width="50" style="vertical-align:middle;margin-left:10px;">
 
 <p align="center">
@@ -24,12 +56,15 @@
   </a>
 </div>
 
+## News
+- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug where, during phase-2 SQL evaluation, the stored phase-1 SQL could not be successfully executed, resulting in a lower Phase-2 success rate. This bug only affects tasks where phase1 SQL performs operations on the database, such as CREATE table, etc.
+
 ## 🧸 Overview
 
-BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.
-The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.
-It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.
-Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.
+BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via the lens of dynamic interactions**.
+The environment integrates a hierarchical knowledge base, database documentation, and a function-driven user simulator to recreate realistic enterprise environments covering full **CRUD** operations.
+It provides two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations, etc., each protected by executable test cases.
+Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, highlighting the benchmark's challenge.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png" 
@@ -38,15 +73,15 @@ Typical evaluations trigger 1,968-5,496 interaction turns between model and user
 
 ### ✅ Two Evaluation Modes
 
-BIRD-INTERACT supports two evaluation modes as mentioned above:
+BIRD-INTERACT supports two evaluation modes as described above:
 
-   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.
-   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.
+   - **c-Interact**: Conversational Interaction, which is a passive mode with a fixed workflow. The code and more details can be found in `bird_interact_conv`.
+   - **a-Interact**: Agentic Interaction, which is an embodied active mode where the workflow is dynamic and led by models. The code and more details can be found in `bird_interact_agent`.
 
 
 ### 🐣 Lite Version
 
-We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. 
+We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation.
 
 ### 🦜 Full Version
 
@@ -66,7 +101,7 @@ The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benc
 | 7    | DeepSeek-V3        | 15.85 | ⚪ Basic          |
 
 #### 2. **a-Interact** Performance
-| Rank | Model Name         | Budget Parameters* | Avg Turns/Task | Avg Cost (USD)/Task | Normalized Reward | Level            |
+| Rank | Model Name         | Budget Parameters* | Avg Steps/Task | Avg Cost (USD)/Task | Normalized Reward | Level            |
 |:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|
 | 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 Excellent Interaction |
 | 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 Good Interaction      |
@@ -91,20 +126,20 @@ Interaction-Time Scaling (ITS) refers to a model's ability to continuously incre
 
 ### Dataset Description
 
-- **Database:** The complete PostgreSQL database can be download from [the Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Check the [Quick Eval](#quick-eval) section for more details.
-- **data:** Each data instance contain the following main parts:
+- **Database:** The complete PostgreSQL database can be downloaded from [the Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Check the [Quick Eval](#quick-eval) section for more details.
+- **data:** Each data instance contains the following main parts:
    - `selected_database`: The name of the database.  
    - `query`: The unambiguous user query.  
    - `amb_user_query`: The user query with injected ambiguities.
    - `user_query_ambiguity`: The ambiguities injected into the user query.
    - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.
-- `knowledge_ambiguity`: The ambiguities created by masked external knowledge.
-- `sol_sql`: The ground truth SQL solution.  
-- `preprocess_sql`: SQL queries to run before executing the solution or prediction.  
-- `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  
-- `test_cases`: A set of test cases to validate the predicted corrected SQL.
-- `follow_up`: The labeled follow-up questions.
-- `external_knowledge`: The external knowledge related to the specific task.
+   - `knowledge_ambiguity`: The ambiguities created by masked external knowledge. 
+   - `sol_sql`: The ground truth SQL solution.  
+   - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  
+   - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  
+   - `test_cases`: A set of test cases to validate the predicted corrected SQL.
+   - `follow_up`: The labeled follow-up questions.
+   - `external_knowledge`: The external knowledge related to the specific task.
 
 - **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.
 - **Curated by:** BIRD Team & Google Cloud
@@ -113,8 +148,8 @@ Interaction-Time Scaling (ITS) refers to a model's ability to continuously incre
 
 ### Dataset Uses
 
-To avoid data leakage by auto-crawling, we do not include GT solution SQLs and test cases along with data.
-please email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) with the tag `[bird-interact-lite GT&Test Cases]` in title for full set, which will be sent automatically.
+To prevent data leakage by auto-crawling, we do not include GT solution SQLs and test cases along with the data.
+please email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) with the tag `[bird-interact-lite GT&Test Cases]` in the title for the full set, which will be sent automatically.
 
 
 <!-- ### Use the Dataset from HuggingFace
@@ -138,7 +173,7 @@ python pull_data.py \
   --schema_path path/to/full_schema.jsonl \
   --input_path path/to/input.jsonl \ # Path to the input JSONL file (may be empty if you want to download the dataset from HuggingFace)
   --output_folder path/to/output_dir # output folder of the split files
-``` -->
+```
 
 ## Folder Structure
 ```ultree
@@ -169,14 +204,15 @@ The details about running **a-interact** can be found in `./bird_interact_agent/
 - [x] Release lite version, bird-interact-lite (270).
 - [x] Release conversational version, bird-interact-conv.
 - [x] Release agent version, bird-interact-agent.
-- [ ] Release Full bird-interact-full (600).
-- [ ] SFT / RL an User Simulator
+- [x] Release Full bird-interact-full (600).
+- [ ] SFT / RL a User Simulator
 
 ## Created By:
 BIRD Team & Google Cloud
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
 
 ---
