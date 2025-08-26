@@ -8,596 +8,596 @@
     "EndLine": 0,
     "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Claude 코드 서브에이전트 컬렉션\n\n[Claude Code](https://docs.anthropic.com/en/docs/claude-code)의 개발 워크플로우를 도메인별 전문성으로 향상시키기 위해 설계된 전문 AI 서브에이전트의 종합 컬렉션입니다.\n\n## 개요\n\n이 저장소에는 Claude Code의 기능을 확장하는 75개의 전문 서브에이전트가 포함되어 있습니다. 각 서브에이전트는 특정 도메인에 전문화되어 있으며, 상황에 따라 자동으로 호출되거나 필요에 따라 명시적으로 호출됩니다. 모든 에이전트는 작업의 복잡도에 따라 최적의 성능과 비용 효율성을 위해 특정 Claude 모델로 구성되어 있습니다.\n\n## 사용 가능한 서브에이전트",
     "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n### Development & Architecture\n- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Design RESTful APIs, microservice boundaries, and database schemas\n- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Build React components, implement responsive layouts, and handle client-side state management\n- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Create interface designs, wireframes, and design systems\n- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - Develop React Native or Flutter apps with native integrations\n- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - Design GraphQL schemas, resolvers, and federation\n- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Reviews code changes for architectural consistency and patterns\n\n### Language Specialists\n- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - Write idiomatic Python code with advanced features and optimizations\n- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - Write idiomatic Ruby code with metaprogramming, Rails patterns, gem development, and testing frameworks\n- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Write idiomatic Go code with goroutines, channels, and interfaces\n- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Write idiomatic Rust with ownership patterns, lifetimes, and trait implementations\n- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Write efficient C code with proper memory management and system calls\n- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms\n- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Master modern JavaScript with ES6+, async patterns, and Node.js APIs\n- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Master TypeScript with advanced types, generics, and strict type safety\n- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Write idiomatic PHP code with modern features and performance optimizations\n- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Master modern Java with streams, concurrency, and JVM optimization\n- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Write idiomatic Elixir code with OTP patterns, functional programming, and Phoenix frameworks\n- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Write modern C# code with advanced features and .NET optimization\n- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing\n- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Master Flutter development with Dart, widgets, and platform integrations\n- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Build Unity games with optimized scripts and performance tuning\n- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs\n- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Develop native iOS applications with Swift/SwiftUI\n- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Write complex SQL queries, optimize execution plans, and design normalized schemas\n\n### Infrastructure & Operations\n- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Debug production issues, analyze logs, and fix deployment failures\n- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - Configure CI/CD pipelines, Docker containers, and cloud deployments\n- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - Design AWS/Azure/GCP infrastructure and optimize cloud costs\n- **[hybrid-cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/hybrid-cloud-architect.md)** - Design hybrid cloud infrastructure across AWS/Azure/GCP and OpenStack on-premises environments\n- **[kubernetes-architect](https://raw.githubusercontent.com/wshobson/agents/main/kubernetes-architect.md)** - Design cloud-native infrastructure with Kubernetes at its core and GitOps principles across AWS/Azure/GCP and hybrid environments.\n- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - Optimize SQL queries, design efficient indexes, and handle database migrations\n- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - Manage database operations, backups, replication, and monitoring\n- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Write advanced Terraform modules, manage state files, and implement IaC best practices\n- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Handles production incidents with urgency and precision\n- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Debug network connectivity, configure load balancers, and analyze traffic patterns",
+    "ContentSha": "LRrbMrSKzCJZxXTE4U9w5Y3p1CHdolxHH/xpqwAX6cE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 개발 및 아키텍처\n- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - RESTful API, 마이크로서비스 경계, 데이터베이스 스키마 설계\n- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - React 컴포넌트 구축, 반응형 레이아웃 구현, 클라이언트 상태 관리\n- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - 인터페이스 디자인, 와이어프레임, 디자인 시스템 제작\n- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - React Native 또는 Flutter 앱 개발 및 네이티브 통합\n- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - GraphQL 스키마, 리졸버, 연합 설계\n- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - 아키텍처 일관성과 패턴을 위해 코드 변경 사항 검토\n\n### 언어 전문가\n- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - 고급 기능과 최적화를 활용한 파이썬 코드 작성\n- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - 메타프로그래밍, Rails 패턴, gem 개발, 테스트 프레임워크를 활용한 루비 코드 작성\n- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - 고루틴, 채널, 인터페이스를 활용한 고언어 코드 작성\n- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - 소유권 패턴, 라이프타임, 트레이트 구현을 활용한 러스트 코드 작성\n- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - 메모리 관리 및 시스템 콜을 적절히 활용한 효율적인 C 코드 작성\n- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - 최신 기능, RAII, 스마트 포인터, STL 알고리즘을 활용한 C++ 코드 작성\n- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - ES6+, 비동기 패턴, Node.js API를 활용한 최신 자바스크립트 마스터\n- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - 고급 타입, 제네릭, 엄격한 타입 안전성을 갖춘 타입스크립트 마스터\n- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - 최신 기능과 성능 최적화를 활용한 PHP 코드 작성\n- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - 스트림, 동시성, JVM 최적화를 활용한 최신 자바 마스터\n- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - OTP 패턴, 함수형 프로그래밍, Phoenix 프레임워크를 활용한 엘릭서 코드 작성\n- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - 고급 기능과 .NET 최적화를 활용한 최신 C# 코드 작성\n- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - 함수형 프로그래밍, 분산 시스템, 빅데이터 처리 등 엔터프라이즈급 스칼라 개발 마스터\n- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Dart, 위젯, 플랫폼 통합을 활용한 플러터 개발 마스터\n- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - 최적화된 스크립트와 성능 튜닝을 통한 Unity 게임 제작\n- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Bukkit, Spigot, Paper API를 활용한 마인크래프트 서버 플러그인 개발 마스터\n- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Swift/SwiftUI로 네이티브 iOS 애플리케이션 개발\n- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - 복잡한 SQL 쿼리 작성, 실행 계획 최적화, 정규화된 스키마 설계\n\n### 인프라 및 운영\n- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - 프로덕션 이슈 디버깅, 로그 분석, 배포 실패 수정\n- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - CI/CD 파이프라인, 도커 컨테이너, 클라우드 배포 구성\n- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - AWS/Azure/GCP 인프라 설계 및 클라우드 비용 최적화\n- **[hybrid-cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/hybrid-cloud-architect.md)** - AWS/Azure/GCP와 온프레미스 OpenStack 환경을 아우르는 하이브리드 클라우드 인프라 설계\n- **[kubernetes-architect](https://raw.githubusercontent.com/wshobson/agents/main/kubernetes-architect.md)** - Kubernetes 중심의 클라우드 네이티브 인프라와 GitOps 원칙을 기반으로 AWS/Azure/GCP 및 하이브리드 환경 설계\n- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - SQL 쿼리 최적화, 효율적인 인덱스 설계, 데이터베이스 마이그레이션 처리\n- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - 데이터베이스 운영, 백업, 복제, 모니터링 관리\n- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - 고급 Terraform 모듈 작성, 상태 파일 관리, IaC 베스트 프랙티스 구현\n- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - 신속하고 정확하게 프로덕션 사고 대응\n- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - 네트워크 연결 문제 디버깅, 로드 밸런서 구성, 트래픽 패턴 분석",
+    "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
-        "originContent": "<div align=\"right\">",
-        "translatedContent": "<div align=\"right\">"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 2,
-        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
-        "originContent": "  <details>",
-        "translatedContent": "  <details>"
+        "rowsha": "e20g2eXsuQJ+i1BQXBrWY1fVhqcdWpQDz8nVvXvrcyg=",
+        "originContent": "### Development & Architecture",
+        "translatedContent": "### 개발 및 아키텍처"
       },
       {
         "row": 3,
-        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
-        "originContent": "    <summary >🌐 Language</summary>",
-        "translatedContent": "    <summary >🌐 언어</summary>"
+        "rowsha": "R1waTsxEgmUrvLD3prdOsETdrvfRoyGYuozPKmtOx+A=",
+        "originContent": "- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Design RESTful APIs, microservice boundaries, and database schemas",
+        "translatedContent": "- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - RESTful API, 마이크로서비스 경계, 데이터베이스 스키마 설계"
       },
       {
         "row": 4,
-        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
-        "originContent": "    <div>",
-        "translatedContent": "    <div>"
+        "rowsha": "YTbD4HowqHn8m4ZyxSkHPzd5HYCG7npnO45Pzq9qEVA=",
+        "originContent": "- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Build React components, implement responsive layouts, and handle client-side state management",
+        "translatedContent": "- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - React 컴포넌트 구축, 반응형 레이아웃 구현, 클라이언트 상태 관리"
       },
       {
         "row": 5,
-        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
-        "originContent": "      <div align=\"center\">",
-        "translatedContent": "      <div align=\"center\">"
+        "rowsha": "TffcVmvkSwwQONMyP6s1Qfg8ETVNzqBK21xNPczjSa8=",
+        "originContent": "- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Create interface designs, wireframes, and design systems",
+        "translatedContent": "- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - 인터페이스 디자인, 와이어프레임, 디자인 시스템 제작"
       },
       {
         "row": 6,
-        "rowsha": "QBxIsbFr7w8tKFgjM6ObPJt9HobsjlFgL+9mVmJu5E4=",
-        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=en\">English</a>",
-        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=en\">English</a>"
+        "rowsha": "nrROyocdQs+b7xjzyc0wBQxJHatIMdnV0n5Cmuc3oCE=",
+        "originContent": "- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - Develop React Native or Flutter apps with native integrations",
+        "translatedContent": "- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - React Native 또는 Flutter 앱 개발 및 네이티브 통합"
       },
       {
         "row": 7,
-        "rowsha": "3i9b3lTYso5fcBHxnKVLi5pmUsay6zlWKZX8bIf5lDA=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN\">简体中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN\">简体中文</a>"
+        "rowsha": "cpvLXKFZfwvxkLr8d/UdQDHTQ43BpVlvyAxaHelUXYc=",
+        "originContent": "- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - Design GraphQL schemas, resolvers, and federation",
+        "translatedContent": "- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - GraphQL 스키마, 리졸버, 연합 설계"
       },
       {
         "row": 8,
-        "rowsha": "hsw7SCpjLgSBf/zl/ljrdoXR3ZaRcGged4JJZXMng48=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW\">繁體中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW\">繁體中文</a>"
+        "rowsha": "TQlS2qsLlkwWWjiTPDhg7pLIgoIspJA+qG71gOHEpHs=",
+        "originContent": "- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Reviews code changes for architectural consistency and patterns",
+        "translatedContent": "- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - 아키텍처 일관성과 패턴을 위해 코드 변경 사항 검토"
       },
       {
         "row": 9,
-        "rowsha": "YnuFlwqItojVDMhXRpbA5DHapoCbToffYwrueF5PHo0=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja\">日本語</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja\">日本語</a>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 10,
-        "rowsha": "wHm8npmQ2mgNakmnsrGyB2LKwYWW+54UrodW0hSKn18=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko\">한국어</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko\">한국어</a>"
+        "rowsha": "sco6JHLTJuualuhwXfo8ST1o2qdilBdCZTz/PjeQxls=",
+        "originContent": "### Language Specialists",
+        "translatedContent": "### 언어 전문가"
       },
       {
         "row": 11,
-        "rowsha": "eiLOsEnbJE1qp2IjydAxLgUSNo7uh9qFZ08clFNuWik=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi\">हिन्दी</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi\">हिन्दी</a>"
+        "rowsha": "/V0GB1E9WN9RHsv2RTLenNgf3CTRcHuTkL7sAEw8vJg=",
+        "originContent": "- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - Write idiomatic Python code with advanced features and optimizations",
+        "translatedContent": "- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - 고급 기능과 최적화를 활용한 파이썬 코드 작성"
       },
       {
         "row": 12,
-        "rowsha": "JkClW4H83aYUthY8kMkBybShme7/xjlDdh/jQmAXVjU=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th\">ไทย</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th\">ไทย</a>"
+        "rowsha": "e/hum4PzdPoQTTKHKN+ZPtXQ+rIJSBSvbxCDkSuQjk4=",
+        "originContent": "- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - Write idiomatic Ruby code with metaprogramming, Rails patterns, gem development, and testing frameworks",
+        "translatedContent": "- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - 메타프로그래밍, Rails 패턴, gem 개발, 테스트 프레임워크를 활용한 루비 코드 작성"
       },
       {
         "row": 13,
-        "rowsha": "hqYbzxVX9dwqBfLFqllW5hcEItG4nDW6TdLLgtqVmVo=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr\">Français</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr\">Français</a>"
+        "rowsha": "PihsLjmS8dk73jHafOSy12GOmHP4aW2VUbCGvkV29hU=",
+        "originContent": "- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Write idiomatic Go code with goroutines, channels, and interfaces",
+        "translatedContent": "- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - 고루틴, 채널, 인터페이스를 활용한 고언어 코드 작성"
       },
       {
         "row": 14,
-        "rowsha": "LBeWruv0Yx5H5a4ImeaFBffGdctkTyHysV8456tGHfM=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de\">Deutsch</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de\">Deutsch</a>"
+        "rowsha": "6WGHc0vRY2qK5P+giIy4m9E10FjJggpLcbLI7szDLdg=",
+        "originContent": "- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Write idiomatic Rust with ownership patterns, lifetimes, and trait implementations",
+        "translatedContent": "- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - 소유권 패턴, 라이프타임, 트레이트 구현을 활용한 러스트 코드 작성"
       },
       {
         "row": 15,
-        "rowsha": "giMJOCMXukEemfPBy/M4B2uzTRzcYP/2rU+8W0wuk94=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es\">Español</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es\">Español</a>"
+        "rowsha": "93r0xk6dLRoXZugv5Cbdbh2/VEBDoWbNiRirq0LH8qc=",
+        "originContent": "- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Write efficient C code with proper memory management and system calls",
+        "translatedContent": "- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - 메모리 관리 및 시스템 콜을 적절히 활용한 효율적인 C 코드 작성"
       },
       {
         "row": 16,
-        "rowsha": "5fKOFX9O6sbSg8PP1p508iQgEH2Wn+Vh5EEY+RCcRfE=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it\">Italiano</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it\">Italiano</a>"
+        "rowsha": "2qTBJrmG7FTq5zm3EPPoPsaMVMGE1hc9OI+DmPIgpXg=",
+        "originContent": "- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms",
+        "translatedContent": "- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - 최신 기능, RAII, 스마트 포인터, STL 알고리즘을 활용한 C++ 코드 작성"
       },
       {
         "row": 17,
-        "rowsha": "1uS1F00MpDec0H6WeCHH5WZcbfT051aufBwei+2831s=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru\">Русский</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru\">Русский</a>"
+        "rowsha": "ybwd8YufzF/RsfKPshkVgLUz/FmvaEuaYhCpH+rH7F4=",
+        "originContent": "- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Master modern JavaScript with ES6+, async patterns, and Node.js APIs",
+        "translatedContent": "- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - ES6+, 비동기 패턴, Node.js API를 활용한 최신 자바스크립트 마스터"
       },
       {
         "row": 18,
-        "rowsha": "2A/OtCQYO6qT7D5a+ew4voH3woVcDsD0zk4Hk8xvChs=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt\">Português</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt\">Português</a>"
+        "rowsha": "r8gCeCs8a8Fya1rHt7OGE4fsdEMCs5dyQJ3JCKXOM2k=",
+        "originContent": "- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Master TypeScript with advanced types, generics, and strict type safety",
+        "translatedContent": "- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - 고급 타입, 제네릭, 엄격한 타입 안전성을 갖춘 타입스크립트 마스터"
       },
       {
         "row": 19,
-        "rowsha": "lZ0FRRb0IH4cViRORRMXB7cjpjp5VDCu0lh+Ut8GqNY=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl\">Nederlands</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl\">Nederlands</a>"
+        "rowsha": "50b4A2/NGa6S4ZW02EVsiebUun9tigM0EpyPuhKqIEE=",
+        "originContent": "- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Write idiomatic PHP code with modern features and performance optimizations",
+        "translatedContent": "- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - 최신 기능과 성능 최적화를 활용한 PHP 코드 작성"
       },
       {
         "row": 20,
-        "rowsha": "SPNmI/OeLHq2q2Gt7aZ64POQqYgfNRowLSDjp87KQvw=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl\">Polski</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl\">Polski</a>"
+        "rowsha": "0ICyafS8yCqL94P6Jov7l/vkmthiTM++34mjX5KMcgc=",
+        "originContent": "- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Master modern Java with streams, concurrency, and JVM optimization",
+        "translatedContent": "- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - 스트림, 동시성, JVM 최적화를 활용한 최신 자바 마스터"
       },
       {
         "row": 21,
-        "rowsha": "tUyHvJOi7QDsLEkHf4lZ9bHrZJCCeakXiidS0pjeXxI=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar\">العربية</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar\">العربية</a>"
+        "rowsha": "cKOhVomxa/xvirqyJca5QOLpXHvAy78cTTpgwRD+32k=",
+        "originContent": "- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Write idiomatic Elixir code with OTP patterns, functional programming, and Phoenix frameworks",
+        "translatedContent": "- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - OTP 패턴, 함수형 프로그래밍, Phoenix 프레임워크를 활용한 엘릭서 코드 작성"
       },
       {
         "row": 22,
-        "rowsha": "DOo+hePIQ3BVwpDy4wr5LnyMEvn8/jcfZcIhDx5REwU=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa\">فارسی</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa\">فارسی</a>"
+        "rowsha": "nrvAxinQhIfp6WJY0JrAsLcH9OBdLB4tcgOgYDQwXyc=",
+        "originContent": "- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Write modern C# code with advanced features and .NET optimization",
+        "translatedContent": "- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - 고급 기능과 .NET 최적화를 활용한 최신 C# 코드 작성"
       },
       {
         "row": 23,
-        "rowsha": "JZlX9sZPkITDmc4gJl6lvVaO6w3cjoIPOQC1mS2wCsM=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr\">Türkçe</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr\">Türkçe</a>"
+        "rowsha": "qRNhoKoFDY7uj7aYtcR0ZWieHiqSuJSocoLFxAi83lw=",
+        "originContent": "- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing",
+        "translatedContent": "- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - 함수형 프로그래밍, 분산 시스템, 빅데이터 처리 등 엔터프라이즈급 스칼라 개발 마스터"
       },
       {
         "row": 24,
-        "rowsha": "FdIccnnew/lRm6FhpcRRgJKoUgnvMfds8LIYT2sLRD4=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi\">Tiếng Việt</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi\">Tiếng Việt</a>"
+        "rowsha": "KICNW81CnsGkkRRC/3y9K57ZjlozafYZewf9aLBS+Pc=",
+        "originContent": "- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Master Flutter development with Dart, widgets, and platform integrations",
+        "translatedContent": "- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Dart, 위젯, 플랫폼 통합을 활용한 플러터 개발 마스터"
       },
       {
         "row": 25,
-        "rowsha": "q2a5p64mG5tlxyxieQk/3K3PQRv9D9OrGUAQOuRLxvk=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id\">Bahasa Indonesia</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id\">Bahasa Indonesia</a>"
+        "rowsha": "AOz4jyUqWP9Z7+tZWfs/EiGw8SBhr4nwt5pTzlyYu74=",
+        "originContent": "- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Build Unity games with optimized scripts and performance tuning",
+        "translatedContent": "- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - 최적화된 스크립트와 성능 튜닝을 통한 Unity 게임 제작"
       },
       {
         "row": 26,
-        "rowsha": "LcttbIAzvWVbC6FjfAXoleWgwDC9I77hC9QoC++Az34=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as\">অসমীয়া</",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as\">অসমীয়া</"
+        "rowsha": "2xmvrzDWBEVVZeJeUMVXFgcf8cqkEu+4zWGgsg7VX1A=",
+        "originContent": "- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs",
+        "translatedContent": "- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Bukkit, Spigot, Paper API를 활용한 마인크래프트 서버 플러그인 개발 마스터"
       },
       {
         "row": 27,
-        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
-        "originContent": "      </div>",
-        "translatedContent": "      </div>"
+        "rowsha": "/ZSfFlZrATSWJcUazwnCnqS3WN9E0ywDNLTqtkykeHg=",
+        "originContent": "- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Develop native iOS applications with Swift/SwiftUI",
+        "translatedContent": "- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Swift/SwiftUI로 네이티브 iOS 애플리케이션 개발"
       },
       {
         "row": 28,
-        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
-        "originContent": "    </div>",
-        "translatedContent": "    </div>"
+        "rowsha": "EN05Ywktu3jD9LrByHedAIBcqqMrr3nPCZ0ZR6b9IXI=",
+        "originContent": "- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Write complex SQL queries, optimize execution plans, and design normalized schemas",
+        "translatedContent": "- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - 복잡한 SQL 쿼리 작성, 실행 계획 최적화, 정규화된 스키마 설계"
       },
       {
         "row": 29,
-        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
-        "originContent": "  </details>",
-        "translatedContent": "  </details>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 30,
-        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-        "originContent": "</div>",
-        "translatedContent": "</div>"
+        "rowsha": "Pdqqvds7cPUbRQx+04EVAgc+/9gGtNYoaqgf+jSm1aU=",
+        "originContent": "### Infrastructure & Operations",
+        "translatedContent": "### 인프라 및 운영"
       },
       {
         "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "lLZYvYJsN+S/jiBKGGqXYDNkLGlmttBKmhyCC/NexHY=",
+        "originContent": "- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Debug production issues, analyze logs, and fix deployment failures",
+        "translatedContent": "- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - 프로덕션 이슈 디버깅, 로그 분석, 배포 실패 수정"
       },
       {
         "row": 32,
-        "rowsha": "fg2Ag/QHkW+OuI/Vy8vtd9d4hcvQAMiY1SJ49x366mY=",
-        "originContent": "# Claude Code Subagents Collection",
-        "translatedContent": "# Claude 코드 서브에이전트 컬렉션"
+        "rowsha": "jsZbLhlP6kXN97soiHbRfybpwvhSw7Kr6P9dDmPTwUk=",
+        "originContent": "- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - Configure CI/CD pipelines, Docker containers, and cloud deployments",
+        "translatedContent": "- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - CI/CD 파이프라인, 도커 컨테이너, 클라우드 배포 구성"
       },
       {
         "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "yvkrx4As5d6cvJJWFjS+Avz2XgZPqwhP0KHax8NEZ9M=",
+        "originContent": "- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - Design AWS/Azure/GCP infrastructure and optimize cloud costs",
+        "translatedContent": "- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - AWS/Azure/GCP 인프라 설계 및 클라우드 비용 최적화"
       },
       {
         "row": 34,
-        "rowsha": "yJzSyPZ3+RO+s6w1iSspA7z8muF8HWX9XiDtLy0vlFg=",
-        "originContent": "A comprehensive collection of specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), designed to enhance development workflows with domain-specific expertise.",
-        "translatedContent": "[Claude Code](https://docs.anthropic.com/en/docs/claude-code)의 개발 워크플로우를 도메인별 전문성으로 향상시키기 위해 설계된 전문 AI 서브에이전트의 종합 컬렉션입니다."
+        "rowsha": "YIHdmfquT1akCok28PFshbZ9S9ztFqvLa97nz2q0frw=",
+        "originContent": "- **[hybrid-cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/hybrid-cloud-architect.md)** - Design hybrid cloud infrastructure across AWS/Azure/GCP and OpenStack on-premises environments",
+        "translatedContent": "- **[hybrid-cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/hybrid-cloud-architect.md)** - AWS/Azure/GCP와 온프레미스 OpenStack 환경을 아우르는 하이브리드 클라우드 인프라 설계"
       },
       {
         "row": 35,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "Jp9D4Iia8wkZt3KqoQHpJGyUEB6T4o5lLcytIE1WdCs=",
+        "originContent": "- **[kubernetes-architect](https://raw.githubusercontent.com/wshobson/agents/main/kubernetes-architect.md)** - Design cloud-native infrastructure with Kubernetes at its core and GitOps principles across AWS/Azure/GCP and hybrid environments.",
+        "translatedContent": "- **[kubernetes-architect](https://raw.githubusercontent.com/wshobson/agents/main/kubernetes-architect.md)** - Kubernetes 중심의 클라우드 네이티브 인프라와 GitOps 원칙을 기반으로 AWS/Azure/GCP 및 하이브리드 환경 설계"
       },
       {
         "row": 36,
-        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
-        "originContent": "## Overview",
-        "translatedContent": "## 개요"
+        "rowsha": "UAvcFooT1FEvhhitmcnanrix76Ph8qwCbTTuu+GdIT4=",
+        "originContent": "- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - Optimize SQL queries, design efficient indexes, and handle database migrations",
+        "translatedContent": "- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - SQL 쿼리 최적화, 효율적인 인덱스 설계, 데이터베이스 마이그레이션 처리"
       },
       {
         "row": 37,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "9zBei5DIZd3yxaN3CbtR1UQd4vrM3+/btY7z1zGQCq4=",
+        "originContent": "- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - Manage database operations, backups, replication, and monitoring",
+        "translatedContent": "- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - 데이터베이스 운영, 백업, 복제, 모니터링 관리"
       },
       {
         "row": 38,
-        "rowsha": "o0nriKTik8GPpmfZU613Ebk8zjD8uyB3QlKt8MGKRNI=",
-        "originContent": "This repository contains 75 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.",
-        "translatedContent": "이 저장소에는 Claude Code의 기능을 확장하는 75개의 전문 서브에이전트가 포함되어 있습니다. 각 서브에이전트는 특정 도메인에 전문화되어 있으며, 상황에 따라 자동으로 호출되거나 필요에 따라 명시적으로 호출됩니다. 모든 에이전트는 작업의 복잡도에 따라 최적의 성능과 비용 효율성을 위해 특정 Claude 모델로 구성되어 있습니다."
+        "rowsha": "BgIFP6Y9xED4WjH/I4P3N8oVbRUkl0GxPAAvA+DsOf4=",
+        "originContent": "- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Write advanced Terraform modules, manage state files, and implement IaC best practices",
+        "translatedContent": "- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - 고급 Terraform 모듈 작성, 상태 파일 관리, IaC 베스트 프랙티스 구현"
       },
       {
         "row": 39,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "OX5xchyXWtN3B3KgPDjUW11cuywRpSurvnNX5BRRHX0=",
+        "originContent": "- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Handles production incidents with urgency and precision",
+        "translatedContent": "- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - 신속하고 정확하게 프로덕션 사고 대응"
       },
       {
         "row": 40,
-        "rowsha": "lI7EqjRSbUZ5SqwzUT3m651i+XazTQE6pdx/wgdanyo=",
-        "originContent": "## Available Subagents",
-        "translatedContent": "## 사용 가능한 서브에이전트"
+        "rowsha": "ww5iBSwGPrsXupfNP6CGeceZlu1EcVqu0WgZ1Pc07n8=",
+        "originContent": "- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Debug network connectivity, configure load balancers, and analyze traffic patterns",
+        "translatedContent": "- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - 네트워크 연결 문제 디버깅, 로드 밸런서 구성, 트래픽 패턴 분석"
       }
     ],
     "IsCodeBlock": false
   },
   {
-    "Id": 2,
-    "Content": "\n### Development & Architecture\n- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Design RESTful APIs, microservice boundaries, and database schemas\n- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Build React components, implement responsive layouts, and handle client-side state management\n- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Create interface designs, wireframes, and design systems\n- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - Develop React Native or Flutter apps with native integrations\n- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - Design GraphQL schemas, resolvers, and federation\n- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Reviews code changes for architectural consistency and patterns\n\n### Language Specialists\n- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - Write idiomatic Python code with advanced features and optimizations\n- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - Write idiomatic Ruby code with metaprogramming, Rails patterns, gem development, and testing frameworks\n- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Write idiomatic Go code with goroutines, channels, and interfaces\n- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Write idiomatic Rust with ownership patterns, lifetimes, and trait implementations\n- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Write efficient C code with proper memory management and system calls\n- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms\n- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Master modern JavaScript with ES6+, async patterns, and Node.js APIs\n- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Master TypeScript with advanced types, generics, and strict type safety\n- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Write idiomatic PHP code with modern features and performance optimizations\n- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Master modern Java with streams, concurrency, and JVM optimization\n- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Write idiomatic Elixir code with OTP patterns, functional programming, and Phoenix frameworks\n- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Write modern C# code with advanced features and .NET optimization\n- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing\n- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Master Flutter development with Dart, widgets, and platform integrations\n- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Build Unity games with optimized scripts and performance tuning\n- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs\n- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Develop native iOS applications with Swift/SwiftUI\n- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Write complex SQL queries, optimize execution plans, and design normalized schemas\n\n### Infrastructure & Operations\n- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Debug production issues, analyze logs, and fix deployment failures\n- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - Configure CI/CD pipelines, Docker containers, and cloud deployments\n- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - Design AWS/Azure/GCP infrastructure and optimize cloud costs\n- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - Optimize SQL queries, design efficient indexes, and handle database migrations\n- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - Manage database operations, backups, replication, and monitoring\n- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Write advanced Terraform modules, manage state files, and implement IaC best practices\n- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Handles production incidents with urgency and precision\n- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Debug network connectivity, configure load balancers, and analyze traffic patterns\n- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Developer Experience specialist that improves tooling, setup, and workflows\n",
-    "ContentSha": "1Cr01gDBZxuhTCfGXfGP5JURlOwrbFdFKBH3WnOVxSc=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "\n### 개발 및 아키텍처\n- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - RESTful API, 마이크로서비스 경계, 데이터베이스 스키마 설계\n- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - React 컴포넌트 구축, 반응형 레이아웃 구현, 클라이언트 상태 관리\n- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - 인터페이스 디자인, 와이어프레임, 디자인 시스템 제작\n- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - React Native 또는 Flutter 앱 개발 및 네이티브 연동\n- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - GraphQL 스키마, 리졸버, 페더레이션 설계\n- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - 아키텍처 일관성과 패턴을 위한 코드 변경 검토\n\n### 언어 전문가\n- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - 고급 기능과 최적화를 활용한 파이썬 관용 코드 작성\n- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - 메타프로그래밍, Rails 패턴, gem 개발 및 테스트 프레임워크를 활용한 루비 코드 작성\n- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - 고루틴, 채널, 인터페이스를 활용한 Go 관용 코드 작성\n- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - 소유권 패턴, 라이프타임, 트레잇 구현을 활용한 러스트 관용 코드 작성\n- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - 효율적인 C 코드 작성 및 메모리 관리, 시스템 콜 구현\n- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - 현대적 기능, RAII, 스마트 포인터, STL 알고리즘을 활용한 C++ 관용 코드 작성\n- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - ES6+, 비동기 패턴, Node.js API를 마스터한 현대적 자바스크립트 작성\n- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - 고급 타입, 제네릭, 엄격한 타입 안정성을 마스터한 타입스크립트 작성\n- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - 현대적 기능과 성능 최적화를 적용한 PHP 관용 코드 작성\n- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - 스트림, 동시성, JVM 최적화를 마스터한 현대 자바 작성\n- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - OTP 패턴, 함수형 프로그래밍, Phoenix 프레임워크를 활용한 엘릭서 관용 코드 작성\n- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - 고급 기능과 .NET 최적화를 활용한 현대 C# 코드 작성\n- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - 함수형 프로그래밍, 분산 시스템, 빅데이터 처리를 활용한 엔터프라이즈급 스칼라 개발 마스터\n- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Dart, 위젯, 플랫폼 연동을 활용한 Flutter 개발 마스터\n- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - 최적화된 스크립트와 성능 튜닝으로 Unity 게임 개발\n- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Bukkit, Spigot, Paper API를 활용한 마인크래프트 서버 플러그인 개발 마스터\n- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Swift/SwiftUI를 활용한 네이티브 iOS 앱 개발\n- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - 복잡한 SQL 쿼리 작성, 실행 계획 최적화, 정규화된 스키마 설계\n\n### 인프라 및 운영\n- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - 프로덕션 이슈 디버깅, 로그 분석, 배포 실패 수정\n- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - CI/CD 파이프라인, Docker 컨테이너, 클라우드 배포 구성\n- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - AWS/Azure/GCP 인프라 설계 및 클라우드 비용 최적화\n- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - SQL 쿼리 최적화, 효율적인 인덱스 설계, DB 마이그레이션 처리\n- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - 데이터베이스 운영, 백업, 복제, 모니터링 관리\n- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - 고급 Terraform 모듈 작성, 상태 파일 관리, IaC 베스트 프랙티스 구현\n- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - 프로덕션 인시던트를 신속하고 정확하게 처리\n- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - 네트워크 연결 문제 디버깅, 로드밸런서 구성, 트래픽 패턴 분석\n- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - 개발자 경험을 개선하는 도구, 설정, 워크플로우 최적화 전문가\n",
-    "Status": "ok",
-    "RowTranslations": [],
-    "IsCodeBlock": false
-  },
-  {
     "Id": 3,
-    "Content": "### Quality & Security\n- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Expert code review with deep configuration security focus and production reliability\n- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Review code for vulnerabilities and ensure OWASP compliance\n- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Create comprehensive test suites with unit, integration, and e2e tests\n- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profile applications, optimize bottlenecks, and implement caching strategies\n- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Debugging specialist for errors, test failures, and unexpected behavior\n- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Search logs and codebases for error patterns, stack traces, and anomalies\n- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Expert web researcher using advanced search techniques and synthesis\n\n### Data & AI\n- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Data analysis expert for SQL queries, BigQuery operations, and data insights\n- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Build ETL pipelines, data warehouses, and streaming architectures\n- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Build LLM applications, RAG systems, and prompt pipelines\n- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Implement ML pipelines, model serving, and feature engineering\n- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Build ML pipelines, experiment tracking, and model registries\n- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - Optimizes prompts for LLMs and AI systems\n\n### Specialized Domains\n- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Create OpenAPI/Swagger specs and write developer documentation\n- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integrate Stripe, PayPal, and payment processors\n- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Build financial models, backtest trading strategies, and analyze market data\n- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Monitor portfolio risk, R-multiples, and position limits\n- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refactor legacy codebases and implement gradual modernization\n- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Manages context across multiple agents and long-running tasks\n\n### Documentation\n- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Creates comprehensive technical documentation from existing codebases\n- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures\n- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Creates exhaustive technical references and API documentation\n- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Creates step-by-step tutorials and educational content from code\n\n### Business & Marketing\n- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analyze metrics, create reports, and track KPIs\n- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Write blog posts, social media content, and email newsletters\n- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - Partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations.\n- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Draft cold emails, follow-ups, and proposal templates\n- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Handle support tickets, FAQ responses, and customer emails\n- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Draft privacy policies, terms of service, disclaimers, and legal notices\n\n### SEO & Content Optimization",
-    "ContentSha": "tS1KKjfIcdHf6Pj2rqpelBF8fJhydBqM8LoEfpoXNAs=",
+    "Content": "- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Developer Experience specialist that improves tooling, setup, and workflows\n\n### Quality & Security\n- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Expert code review with deep configuration security focus and production reliability\n- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Review code for vulnerabilities and ensure OWASP compliance\n- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Create comprehensive test suites with unit, integration, and e2e tests\n- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profile applications, optimize bottlenecks, and implement caching strategies\n- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Debugging specialist for errors, test failures, and unexpected behavior\n- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Search logs and codebases for error patterns, stack traces, and anomalies\n- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Expert web researcher using advanced search techniques and synthesis\n\n### Data & AI\n- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Data analysis expert for SQL queries, BigQuery operations, and data insights\n- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Build ETL pipelines, data warehouses, and streaming architectures\n- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Build LLM applications, RAG systems, and prompt pipelines\n- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Implement ML pipelines, model serving, and feature engineering\n- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Build ML pipelines, experiment tracking, and model registries\n- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - Optimizes prompts for LLMs and AI systems\n\n### Specialized Domains\n- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Create OpenAPI/Swagger specs and write developer documentation\n- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integrate Stripe, PayPal, and payment processors\n- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Build financial models, backtest trading strategies, and analyze market data\n- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Monitor portfolio risk, R-multiples, and position limits\n- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refactor legacy codebases and implement gradual modernization\n- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Manages context across multiple agents and long-running tasks\n\n### Documentation\n- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Creates comprehensive technical documentation from existing codebases\n- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures\n- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Creates exhaustive technical references and API documentation\n- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Creates step-by-step tutorials and educational content from code\n\n### Business & Marketing\n- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analyze metrics, create reports, and track KPIs\n- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Write blog posts, social media content, and email newsletters\n- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - Partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations.\n- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Draft cold emails, follow-ups, and proposal templates\n- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Handle support tickets, FAQ responses, and customer emails\n- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Draft privacy policies, terms of service, disclaimers, and legal notices",
+    "ContentSha": "1pxjsIa5ZSO1CyGGi6bQTOMuGIUYtQxbGta7CCLLdRQ=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "### 품질 및 보안\n- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - 구성 보안 및 프로덕션 신뢰성에 중점을 둔 전문가 코드 리뷰\n- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - 취약점 검토 및 OWASP 준수 보장\n- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - 단위, 통합, e2e 테스트를 포함한 종합 테스트 스위트 생성\n- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - 애플리케이션 프로파일링, 병목 현상 최적화, 캐싱 전략 구현\n- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - 오류, 테스트 실패 및 예기치 않은 동작에 대한 디버깅 전문가\n- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - 로그 및 코드베이스에서 오류 패턴, 스택 트레이스, 이상 탐색\n- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - 고급 검색 기술과 종합적 분석을 활용한 웹 리서치 전문가\n\n### 데이터 & AI\n- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQL 쿼리, BigQuery 작업 및 데이터 인사이트에 대한 데이터 분석 전문가\n- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - ETL 파이프라인, 데이터 웨어하우스 및 스트리밍 아키텍처 구축\n- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - LLM 애플리케이션, RAG 시스템 및 프롬프트 파이프라인 구축\n- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - ML 파이프라인, 모델 서빙 및 특성 엔지니어링 구현\n- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - ML 파이프라인 구축, 실험 추적 및 모델 레지스트리 관리\n- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - LLM 및 AI 시스템을 위한 프롬프트 최적화\n\n### 전문 분야\n- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - OpenAPI/Swagger 명세 작성 및 개발자 문서 작성\n- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Stripe, PayPal 등 결제 프로세서 통합\n- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - 금융 모델 구축, 트레이딩 전략 백테스트 및 시장 데이터 분석\n- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - 포트폴리오 위험, R-배수 및 포지션 한도 모니터링\n- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - 레거시 코드베이스 리팩터링 및 점진적 현대화 구현\n- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - 여러 에이전트 및 장기 실행 작업 간 컨텍스트 관리\n\n### 문서화\n- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - 기존 코드베이스에서 종합 기술 문서 작성\n- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - 플로우차트, 시퀀스, ERD, 아키텍처를 위한 Mermaid 다이어그램 생성\n- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - 기술 참조 및 API 문서의 철저한 작성\n- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - 코드 기반의 단계별 튜토리얼 및 교육 콘텐츠 작성\n\n### 비즈니스 & 마케팅\n- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - 지표 분석, 보고서 작성 및 KPI 추적\n- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - 블로그 포스트, 소셜 미디어 콘텐츠, 이메일 뉴스레터 작성\n- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - 채용, 온보딩/오프보딩, 휴가 및 연차, 성과, 정책 준수, 직원 관계 지원 파트너\n- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - 콜드 이메일, 팔로업, 제안서 템플릿 작성\n- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - 지원 티켓, FAQ 응답 및 고객 이메일 처리\n- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - 개인정보 보호정책, 서비스 약관, 면책 조항, 법적 고지 작성\n\n### SEO 및 콘텐츠 최적화",
+    "Translation": "- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - 개발자 경험 전문가로서 도구, 설정 및 워크플로우를 개선합니다\n\n### 품질 및 보안\n- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - 구성 보안과 생산 신뢰성에 중점을 둔 전문 코드 리뷰\n- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - 취약점을 검토하고 OWASP 준수를 보장\n- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - 단위, 통합, e2e 테스트를 포함한 종합적인 테스트 스위트 생성\n- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - 애플리케이션 프로파일링, 병목 현상 최적화, 캐싱 전략 구현\n- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - 오류, 테스트 실패, 예기치 않은 동작에 대한 디버깅 전문가\n- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - 로그와 코드베이스에서 오류 패턴, 스택 트레이스, 이상 현상 탐색\n- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - 고급 검색 기술과 통합을 활용한 전문 웹 연구원\n\n### 데이터 및 AI\n- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQL 쿼리, BigQuery 작업, 데이터 인사이트를 위한 데이터 분석 전문가\n- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - ETL 파이프라인, 데이터 웨어하우스, 스트리밍 아키텍처 구축\n- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - LLM 애플리케이션, RAG 시스템, 프롬프트 파이프라인 구축\n- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - ML 파이프라인, 모델 서빙, 피처 엔지니어링 구현\n- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - ML 파이프라인, 실험 추적, 모델 레지스트리 구축\n- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - LLM 및 AI 시스템을 위한 프롬프트 최적화\n\n### 전문 분야\n- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - OpenAPI/Swagger 명세 작성 및 개발자 문서화\n- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Stripe, PayPal 및 결제 프로세서 통합\n- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - 금융 모델 구축, 거래 전략 백테스트, 시장 데이터 분석\n- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - 포트폴리오 위험, R-배수, 포지션 한도 모니터링\n- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - 레거시 코드베이스 리팩터링 및 점진적 현대화 구현\n- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - 여러 에이전트 및 장기 실행 작업 간의 컨텍스트 관리\n\n### 문서화\n- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - 기존 코드베이스에서 종합적인 기술 문서 작성\n- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - 플로우차트, 시퀀스, ERD, 아키텍처를 위한 Mermaid 다이어그램 작성\n- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - 포괄적인 기술 참조 및 API 문서 작성\n- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - 코드 기반 단계별 튜토리얼 및 교육 콘텐츠 제작\n\n### 비즈니스 및 마케팅\n- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - 지표 분석, 보고서 작성, KPI 추적\n- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - 블로그 게시물, 소셜 미디어 콘텐츠, 이메일 뉴스레터 작성\n- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - 채용, 온보딩/오프보딩, 휴가 및 근태, 성과, 정책 준수, 직원 관계 파트너\n- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - 콜드 이메일, 후속, 제안서 템플릿 작성\n- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - 지원 티켓, FAQ 응답, 고객 이메일 처리\n- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - 개인정보 보호정책, 서비스 이용약관, 면책사항 및 법적 고지 작성",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "2Q+vtWO9QPcavzZDjTj+XBOPu4tMmH2eZBYdwhgdzw8=",
+        "originContent": "- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Developer Experience specialist that improves tooling, setup, and workflows",
+        "translatedContent": "- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - 개발자 경험 전문가로서 도구, 설정 및 워크플로우를 개선합니다"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
         "rowsha": "fiQyxSU50TISFtlOfgkv+Q5bgDjVoszuLluwEJnZ9n8=",
         "originContent": "### Quality & Security",
         "translatedContent": "### 품질 및 보안"
       },
       {
-        "row": 2,
+        "row": 4,
         "rowsha": "EGOT/RFFOuw9S/ylSG97nrwn0ssIZZiQJpdTLavMwzA=",
         "originContent": "- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Expert code review with deep configuration security focus and production reliability",
-        "translatedContent": "- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - 구성 보안 및 프로덕션 신뢰성에 중점을 둔 전문가 코드 리뷰"
-      },
-      {
-        "row": 3,
-        "rowsha": "EVjniZInbT6v8nRa0A+HCx/v2OPZTkt/NwhioWyPHUk=",
-        "originContent": "- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Review code for vulnerabilities and ensure OWASP compliance",
-        "translatedContent": "- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - 취약점 검토 및 OWASP 준수 보장"
-      },
-      {
-        "row": 4,
-        "rowsha": "UvYmZc3vgtfA/RNkLc6D1FrJMDG4+EJaDgdqoxmp/ak=",
-        "originContent": "- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Create comprehensive test suites with unit, integration, and e2e tests",
-        "translatedContent": "- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - 단위, 통합, e2e 테스트를 포함한 종합 테스트 스위트 생성"
+        "translatedContent": "- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - 구성 보안과 생산 신뢰성에 중점을 둔 전문 코드 리뷰"
       },
       {
         "row": 5,
+        "rowsha": "EVjniZInbT6v8nRa0A+HCx/v2OPZTkt/NwhioWyPHUk=",
+        "originContent": "- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Review code for vulnerabilities and ensure OWASP compliance",
+        "translatedContent": "- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - 취약점을 검토하고 OWASP 준수를 보장"
+      },
+      {
+        "row": 6,
+        "rowsha": "UvYmZc3vgtfA/RNkLc6D1FrJMDG4+EJaDgdqoxmp/ak=",
+        "originContent": "- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Create comprehensive test suites with unit, integration, and e2e tests",
+        "translatedContent": "- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - 단위, 통합, e2e 테스트를 포함한 종합적인 테스트 스위트 생성"
+      },
+      {
+        "row": 7,
         "rowsha": "DIyXlRLcz94JInmtpn/jAJyTc/ljKMQPPvAhAj3CtkA=",
         "originContent": "- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profile applications, optimize bottlenecks, and implement caching strategies",
         "translatedContent": "- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - 애플리케이션 프로파일링, 병목 현상 최적화, 캐싱 전략 구현"
       },
       {
-        "row": 6,
+        "row": 8,
         "rowsha": "Wa1NAI5ZGLjw7HShSJpRcQJh11H6y5QYGBooa8h15lY=",
         "originContent": "- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Debugging specialist for errors, test failures, and unexpected behavior",
-        "translatedContent": "- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - 오류, 테스트 실패 및 예기치 않은 동작에 대한 디버깅 전문가"
-      },
-      {
-        "row": 7,
-        "rowsha": "WIR2yphIb1VNpF/rp99kPLglSxMZKihvnqH7lCuWTBg=",
-        "originContent": "- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Search logs and codebases for error patterns, stack traces, and anomalies",
-        "translatedContent": "- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - 로그 및 코드베이스에서 오류 패턴, 스택 트레이스, 이상 탐색"
-      },
-      {
-        "row": 8,
-        "rowsha": "xb64K/KXq3C/lpNnx/hq+uZ5BI2e1Ohr2Oeawrv6Ovw=",
-        "originContent": "- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Expert web researcher using advanced search techniques and synthesis",
-        "translatedContent": "- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - 고급 검색 기술과 종합적 분석을 활용한 웹 리서치 전문가"
+        "translatedContent": "- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - 오류, 테스트 실패, 예기치 않은 동작에 대한 디버깅 전문가"
       },
       {
         "row": 9,
+        "rowsha": "WIR2yphIb1VNpF/rp99kPLglSxMZKihvnqH7lCuWTBg=",
+        "originContent": "- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Search logs and codebases for error patterns, stack traces, and anomalies",
+        "translatedContent": "- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - 로그와 코드베이스에서 오류 패턴, 스택 트레이스, 이상 현상 탐색"
+      },
+      {
+        "row": 10,
+        "rowsha": "xb64K/KXq3C/lpNnx/hq+uZ5BI2e1Ohr2Oeawrv6Ovw=",
+        "originContent": "- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Expert web researcher using advanced search techniques and synthesis",
+        "translatedContent": "- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - 고급 검색 기술과 통합을 활용한 전문 웹 연구원"
+      },
+      {
+        "row": 11,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 10,
+        "row": 12,
         "rowsha": "euYINzvdfkMiyGfT17bK3oS3pzbMGQ6uMJnYCkpxLA8=",
         "originContent": "### Data & AI",
-        "translatedContent": "### 데이터 & AI"
-      },
-      {
-        "row": 11,
-        "rowsha": "eiGc4Sso1X31ctpoBJXPXFglYX8wbmoHaTx926aq9QI=",
-        "originContent": "- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Data analysis expert for SQL queries, BigQuery operations, and data insights",
-        "translatedContent": "- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQL 쿼리, BigQuery 작업 및 데이터 인사이트에 대한 데이터 분석 전문가"
-      },
-      {
-        "row": 12,
-        "rowsha": "IynYPFXwdLqsbXFrzkEk7n8ctHdMcNKSxrbsyl8Ki+I=",
-        "originContent": "- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Build ETL pipelines, data warehouses, and streaming architectures",
-        "translatedContent": "- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - ETL 파이프라인, 데이터 웨어하우스 및 스트리밍 아키텍처 구축"
+        "translatedContent": "### 데이터 및 AI"
       },
       {
         "row": 13,
-        "rowsha": "eXKjU77dxO0sG3ZU4iUhWDWC5xKbVO5TuA7MM5bmk6w=",
-        "originContent": "- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Build LLM applications, RAG systems, and prompt pipelines",
-        "translatedContent": "- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - LLM 애플리케이션, RAG 시스템 및 프롬프트 파이프라인 구축"
+        "rowsha": "eiGc4Sso1X31ctpoBJXPXFglYX8wbmoHaTx926aq9QI=",
+        "originContent": "- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Data analysis expert for SQL queries, BigQuery operations, and data insights",
+        "translatedContent": "- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQL 쿼리, BigQuery 작업, 데이터 인사이트를 위한 데이터 분석 전문가"
       },
       {
         "row": 14,
-        "rowsha": "KSCBPUfcTpsGndZBljwIUSGanYkGGOgYD86YmRKeptY=",
-        "originContent": "- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Implement ML pipelines, model serving, and feature engineering",
-        "translatedContent": "- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - ML 파이프라인, 모델 서빙 및 특성 엔지니어링 구현"
+        "rowsha": "IynYPFXwdLqsbXFrzkEk7n8ctHdMcNKSxrbsyl8Ki+I=",
+        "originContent": "- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Build ETL pipelines, data warehouses, and streaming architectures",
+        "translatedContent": "- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - ETL 파이프라인, 데이터 웨어하우스, 스트리밍 아키텍처 구축"
       },
       {
         "row": 15,
-        "rowsha": "uiLtVGxDSOA1HNr/RFhuqyyTg6fcRxvrunpChQSS8Jo=",
-        "originContent": "- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Build ML pipelines, experiment tracking, and model registries",
-        "translatedContent": "- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - ML 파이프라인 구축, 실험 추적 및 모델 레지스트리 관리"
+        "rowsha": "eXKjU77dxO0sG3ZU4iUhWDWC5xKbVO5TuA7MM5bmk6w=",
+        "originContent": "- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Build LLM applications, RAG systems, and prompt pipelines",
+        "translatedContent": "- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - LLM 애플리케이션, RAG 시스템, 프롬프트 파이프라인 구축"
       },
       {
         "row": 16,
+        "rowsha": "KSCBPUfcTpsGndZBljwIUSGanYkGGOgYD86YmRKeptY=",
+        "originContent": "- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Implement ML pipelines, model serving, and feature engineering",
+        "translatedContent": "- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - ML 파이프라인, 모델 서빙, 피처 엔지니어링 구현"
+      },
+      {
+        "row": 17,
+        "rowsha": "uiLtVGxDSOA1HNr/RFhuqyyTg6fcRxvrunpChQSS8Jo=",
+        "originContent": "- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Build ML pipelines, experiment tracking, and model registries",
+        "translatedContent": "- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - ML 파이프라인, 실험 추적, 모델 레지스트리 구축"
+      },
+      {
+        "row": 18,
         "rowsha": "Y5j/V+1x74iHKxP+GKV1qfcBpomOLVa2xcWWYLieHYo=",
         "originContent": "- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - Optimizes prompts for LLMs and AI systems",
         "translatedContent": "- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - LLM 및 AI 시스템을 위한 프롬프트 최적화"
       },
       {
-        "row": 17,
+        "row": 19,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 18,
+        "row": 20,
         "rowsha": "7rWVzhnbGuAUu5v8/ja1AQqqpPH0WSvOmSR5QYOOXlQ=",
         "originContent": "### Specialized Domains",
         "translatedContent": "### 전문 분야"
       },
       {
-        "row": 19,
+        "row": 21,
         "rowsha": "TTYf/44MyFFHWJX6AlKGfDJCXZOa2oXBLsmKoaWMrMI=",
         "originContent": "- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Create OpenAPI/Swagger specs and write developer documentation",
-        "translatedContent": "- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - OpenAPI/Swagger 명세 작성 및 개발자 문서 작성"
-      },
-      {
-        "row": 20,
-        "rowsha": "IooV9F4rFpjkJrNhXYImC5yfu+LRWFEPavKNfwpPlF8=",
-        "originContent": "- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integrate Stripe, PayPal, and payment processors",
-        "translatedContent": "- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Stripe, PayPal 등 결제 프로세서 통합"
-      },
-      {
-        "row": 21,
-        "rowsha": "QUfOCHSHthxFLCjJUNCmMP38kHZInzP+DjC2d/Dx5l8=",
-        "originContent": "- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Build financial models, backtest trading strategies, and analyze market data",
-        "translatedContent": "- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - 금융 모델 구축, 트레이딩 전략 백테스트 및 시장 데이터 분석"
+        "translatedContent": "- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - OpenAPI/Swagger 명세 작성 및 개발자 문서화"
       },
       {
         "row": 22,
-        "rowsha": "eIVpPqh/j0+XL7hjBKB7M45NNQCI16aHBTcWtTmIMjs=",
-        "originContent": "- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Monitor portfolio risk, R-multiples, and position limits",
-        "translatedContent": "- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - 포트폴리오 위험, R-배수 및 포지션 한도 모니터링"
+        "rowsha": "IooV9F4rFpjkJrNhXYImC5yfu+LRWFEPavKNfwpPlF8=",
+        "originContent": "- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integrate Stripe, PayPal, and payment processors",
+        "translatedContent": "- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Stripe, PayPal 및 결제 프로세서 통합"
       },
       {
         "row": 23,
+        "rowsha": "QUfOCHSHthxFLCjJUNCmMP38kHZInzP+DjC2d/Dx5l8=",
+        "originContent": "- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Build financial models, backtest trading strategies, and analyze market data",
+        "translatedContent": "- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - 금융 모델 구축, 거래 전략 백테스트, 시장 데이터 분석"
+      },
+      {
+        "row": 24,
+        "rowsha": "eIVpPqh/j0+XL7hjBKB7M45NNQCI16aHBTcWtTmIMjs=",
+        "originContent": "- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Monitor portfolio risk, R-multiples, and position limits",
+        "translatedContent": "- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - 포트폴리오 위험, R-배수, 포지션 한도 모니터링"
+      },
+      {
+        "row": 25,
         "rowsha": "1U/nnlAb06JvCiBMzJq6frQd4+ULIzHmDJpVYTz7DwE=",
         "originContent": "- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refactor legacy codebases and implement gradual modernization",
         "translatedContent": "- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - 레거시 코드베이스 리팩터링 및 점진적 현대화 구현"
       },
       {
-        "row": 24,
+        "row": 26,
         "rowsha": "pNxroTKe+UBhmprVuAsPhwjKbDD2pKEOEOxFQ6PBOvE=",
         "originContent": "- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Manages context across multiple agents and long-running tasks",
-        "translatedContent": "- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - 여러 에이전트 및 장기 실행 작업 간 컨텍스트 관리"
+        "translatedContent": "- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - 여러 에이전트 및 장기 실행 작업 간의 컨텍스트 관리"
       },
       {
-        "row": 25,
+        "row": 27,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 26,
+        "row": 28,
         "rowsha": "2mMUh/WBPxNHjUUe8ZJhHcWcT77DHoUsPD+naSd90X0=",
         "originContent": "### Documentation",
         "translatedContent": "### 문서화"
       },
       {
-        "row": 27,
+        "row": 29,
         "rowsha": "RCNy4EnXM3sbAwO2HV6GkkbvEOQHSz8tCVYhe7TyUYY=",
         "originContent": "- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Creates comprehensive technical documentation from existing codebases",
-        "translatedContent": "- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - 기존 코드베이스에서 종합 기술 문서 작성"
-      },
-      {
-        "row": 28,
-        "rowsha": "FPnzWy7rXJsS71rArbBrrXPSxKjW7oWxj7Me0nKXc70=",
-        "originContent": "- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures",
-        "translatedContent": "- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - 플로우차트, 시퀀스, ERD, 아키텍처를 위한 Mermaid 다이어그램 생성"
-      },
-      {
-        "row": 29,
-        "rowsha": "5/5b5ALZw6XGwavOmzuE9Za0tXUagZWsQBnCTPMMZa4=",
-        "originContent": "- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Creates exhaustive technical references and API documentation",
-        "translatedContent": "- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - 기술 참조 및 API 문서의 철저한 작성"
+        "translatedContent": "- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - 기존 코드베이스에서 종합적인 기술 문서 작성"
       },
       {
         "row": 30,
-        "rowsha": "Qxust4SIwhgROR0v055Ob0KfOBRnfXCRqn7KyNzndFQ=",
-        "originContent": "- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Creates step-by-step tutorials and educational content from code",
-        "translatedContent": "- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - 코드 기반의 단계별 튜토리얼 및 교육 콘텐츠 작성"
+        "rowsha": "FPnzWy7rXJsS71rArbBrrXPSxKjW7oWxj7Me0nKXc70=",
+        "originContent": "- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures",
+        "translatedContent": "- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - 플로우차트, 시퀀스, ERD, 아키텍처를 위한 Mermaid 다이어그램 작성"
       },
       {
         "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "5/5b5ALZw6XGwavOmzuE9Za0tXUagZWsQBnCTPMMZa4=",
+        "originContent": "- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Creates exhaustive technical references and API documentation",
+        "translatedContent": "- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - 포괄적인 기술 참조 및 API 문서 작성"
       },
       {
         "row": 32,
-        "rowsha": "Tr+/n6CobY0V0VIiOVnbDLM7BlLe3GYte0uCthkOJG0=",
-        "originContent": "### Business & Marketing",
-        "translatedContent": "### 비즈니스 & 마케팅"
+        "rowsha": "Qxust4SIwhgROR0v055Ob0KfOBRnfXCRqn7KyNzndFQ=",
+        "originContent": "- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Creates step-by-step tutorials and educational content from code",
+        "translatedContent": "- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - 코드 기반 단계별 튜토리얼 및 교육 콘텐츠 제작"
       },
       {
         "row": 33,
-        "rowsha": "Z94OelWNlW3gzrl+8Mrh52bDe1IGqWYthfOwE80C5bQ=",
-        "originContent": "- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analyze metrics, create reports, and track KPIs",
-        "translatedContent": "- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - 지표 분석, 보고서 작성 및 KPI 추적"
-      },
-      {
-        "row": 34,
-        "rowsha": "2QgQ9d/5aQulvQ36VCqObfq0GUH2D96qYarhod/okqI=",
-        "originContent": "- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Write blog posts, social media content, and email newsletters",
-        "translatedContent": "- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - 블로그 포스트, 소셜 미디어 콘텐츠, 이메일 뉴스레터 작성"
-      },
-      {
-        "row": 35,
-        "rowsha": "YgHCYuSiJw/fR1tYSWoRNyjAXtz467rCFQAniJk3jDc=",
-        "originContent": "- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - Partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations.",
-        "translatedContent": "- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - 채용, 온보딩/오프보딩, 휴가 및 연차, 성과, 정책 준수, 직원 관계 지원 파트너"
-      },
-      {
-        "row": 36,
-        "rowsha": "lfnt8yqonPGXrS06hsYR9UuJtHv0ke69ohKb10IVYfY=",
-        "originContent": "- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Draft cold emails, follow-ups, and proposal templates",
-        "translatedContent": "- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - 콜드 이메일, 팔로업, 제안서 템플릿 작성"
-      },
-      {
-        "row": 37,
-        "rowsha": "Q73SUMoDCzhjd7Aww57c3Cz2Ga56YyI31ROGbMX5kQw=",
-        "originContent": "- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Handle support tickets, FAQ responses, and customer emails",
-        "translatedContent": "- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - 지원 티켓, FAQ 응답 및 고객 이메일 처리"
-      },
-      {
-        "row": 38,
-        "rowsha": "AZ3ErYSXITvrHOve0uvWQlNeQrYEgdtLvB5GIeQUYp4=",
-        "originContent": "- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Draft privacy policies, terms of service, disclaimers, and legal notices",
-        "translatedContent": "- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - 개인정보 보호정책, 서비스 약관, 면책 조항, 법적 고지 작성"
-      },
-      {
-        "row": 39,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 34,
+        "rowsha": "Tr+/n6CobY0V0VIiOVnbDLM7BlLe3GYte0uCthkOJG0=",
+        "originContent": "### Business & Marketing",
+        "translatedContent": "### 비즈니스 및 마케팅"
+      },
+      {
+        "row": 35,
+        "rowsha": "Z94OelWNlW3gzrl+8Mrh52bDe1IGqWYthfOwE80C5bQ=",
+        "originContent": "- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analyze metrics, create reports, and track KPIs",
+        "translatedContent": "- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - 지표 분석, 보고서 작성, KPI 추적"
+      },
+      {
+        "row": 36,
+        "rowsha": "2QgQ9d/5aQulvQ36VCqObfq0GUH2D96qYarhod/okqI=",
+        "originContent": "- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Write blog posts, social media content, and email newsletters",
+        "translatedContent": "- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - 블로그 게시물, 소셜 미디어 콘텐츠, 이메일 뉴스레터 작성"
+      },
+      {
+        "row": 37,
+        "rowsha": "YgHCYuSiJw/fR1tYSWoRNyjAXtz467rCFQAniJk3jDc=",
+        "originContent": "- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - Partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations.",
+        "translatedContent": "- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - 채용, 온보딩/오프보딩, 휴가 및 근태, 성과, 정책 준수, 직원 관계 파트너"
+      },
+      {
+        "row": 38,
+        "rowsha": "lfnt8yqonPGXrS06hsYR9UuJtHv0ke69ohKb10IVYfY=",
+        "originContent": "- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Draft cold emails, follow-ups, and proposal templates",
+        "translatedContent": "- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - 콜드 이메일, 후속, 제안서 템플릿 작성"
+      },
+      {
+        "row": 39,
+        "rowsha": "Q73SUMoDCzhjd7Aww57c3Cz2Ga56YyI31ROGbMX5kQw=",
+        "originContent": "- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Handle support tickets, FAQ responses, and customer emails",
+        "translatedContent": "- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - 지원 티켓, FAQ 응답, 고객 이메일 처리"
+      },
+      {
         "row": 40,
-        "rowsha": "EXOMi8j8pO7leYxvcOk03JlFKeP0XoV1IEfpLTO/tKs=",
-        "originContent": "### SEO & Content Optimization",
-        "translatedContent": "### SEO 및 콘텐츠 최적화"
+        "rowsha": "AZ3ErYSXITvrHOve0uvWQlNeQrYEgdtLvB5GIeQUYp4=",
+        "originContent": "- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Draft privacy policies, terms of service, disclaimers, and legal notices",
+        "translatedContent": "- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - 개인정보 보호정책, 서비스 이용약관, 면책사항 및 법적 고지 작성"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 4,
-    "Content": "- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - Analyzes provided content for quality, E-E-A-T signals, and SEO best practices\n- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - Creates optimized meta titles, descriptions, and URL suggestions\n- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - Analyzes keyword usage, calculates density, suggests semantic variations\n- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - Optimizes content structure, header hierarchy, and schema markup\n- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - Formats content for featured snippets and SERP features\n- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - Identifies outdated elements and suggests content updates\n- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - Analyzes multiple pages for keyword overlap and conflicts\n- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - Analyzes content for E-E-A-T signals and trust indicators\n- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - Writes SEO-optimized content based on keywords and briefs\n- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - Creates content outlines, topic clusters, and calendars\n\n## Model Assignments\n\nAll 75 subagents are configured with specific Claude models based on task complexity:\n\n### 🚀 Haiku (Fast & Cost-Effective) - 15 agents\n**Model:** `haiku`\n- `data-scientist` - SQL queries and data analysis\n- `api-documenter` - OpenAPI/Swagger documentation\n- `reference-builder` - Exhaustive technical references and API documentation\n- `business-analyst` - Metrics and KPI tracking\n- `content-marketer` - Blog posts and social media\n- `customer-support` - Support tickets and FAQs\n- `sales-automator` - Cold emails and proposals\n- `search-specialist` - Web research and information gathering\n- `legal-advisor` - Privacy policies and compliance documents\n- `seo-meta-optimizer` - Meta title and description optimization\n- `seo-keyword-strategist` - Keyword density and semantic analysis\n- `seo-structure-architect` - Content structure and schema markup\n- `seo-snippet-hunter` - Featured snippet formatting\n- `seo-content-refresher` - Content freshness updates\n- `seo-cannibalization-detector` - Keyword overlap detection\n- `seo-content-planner` - Content calendars and outlines\n\n### ⚡ Sonnet (Balanced Performance) - 44 agents\n**Model:** `sonnet`\n\n**Development & Languages:**\n- `python-pro` - Python development with advanced features\n- `ruby-pro` - Ruby development with metaprogramming, Rails patterns, and gem development",
-    "ContentSha": "3eHCmzvKQzx9R3ejzRNtwfavUw9Zbt9+WJFrAqK4Yig=",
+    "Content": "\n### SEO & Content Optimization\n- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - Analyzes provided content for quality, E-E-A-T signals, and SEO best practices\n- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - Creates optimized meta titles, descriptions, and URL suggestions\n- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - Analyzes keyword usage, calculates density, suggests semantic variations\n- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - Optimizes content structure, header hierarchy, and schema markup\n- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - Formats content for featured snippets and SERP features\n- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - Identifies outdated elements and suggests content updates\n- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - Analyzes multiple pages for keyword overlap and conflicts\n- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - Analyzes content for E-E-A-T signals and trust indicators\n- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - Writes SEO-optimized content based on keywords and briefs\n- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - Creates content outlines, topic clusters, and calendars\n\n## Model Assignments\n\nAll 75 subagents are configured with specific Claude models based on task complexity:\n\n### 🚀 Haiku (Fast & Cost-Effective) - 15 agents\n**Model:** `haiku`\n- `data-scientist` - SQL queries and data analysis\n- `api-documenter` - OpenAPI/Swagger documentation\n- `reference-builder` - Exhaustive technical references and API documentation\n- `business-analyst` - Metrics and KPI tracking\n- `content-marketer` - Blog posts and social media\n- `customer-support` - Support tickets and FAQs\n- `sales-automator` - Cold emails and proposals\n- `search-specialist` - Web research and information gathering\n- `legal-advisor` - Privacy policies and compliance documents\n- `seo-meta-optimizer` - Meta title and description optimization\n- `seo-keyword-strategist` - Keyword density and semantic analysis\n- `seo-structure-architect` - Content structure and schema markup\n- `seo-snippet-hunter` - Featured snippet formatting\n- `seo-content-refresher` - Content freshness updates\n- `seo-cannibalization-detector` - Keyword overlap detection\n- `seo-content-planner` - Content calendars and outlines\n\n### ⚡ Sonnet (Balanced Performance) - 44 agents\n**Model:** `sonnet`\n\n**Development & Languages:**",
+    "ContentSha": "A2wWb2BT4dJ+0q9T+vpTeq+4T5+CkbfQOJK/RPjF31U=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - 제공된 콘텐츠의 품질, E-E-A-T 신호, SEO 최적 관행 분석\n- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - 최적화된 메타 제목, 설명, URL 제안 생성\n- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - 키워드 사용 분석, 밀도 계산, 의미론적 변형 제안\n- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - 콘텐츠 구조, 헤더 계층, 스키마 마크업 최적화\n- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - 특화 스니펫 및 SERP 기능에 맞게 콘텐츠 형식화\n- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - 오래된 요소 식별 및 콘텐츠 업데이트 제안\n- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - 여러 페이지의 키워드 중복 및 충돌 분석\n- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - 콘텐츠의 E-E-A-T 신호 및 신뢰 지표 분석\n- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - 키워드와 브리프 기반 SEO 최적화 콘텐츠 작성\n- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - 콘텐츠 개요, 주제 클러스터, 일정 작성\n\n## 모델 할당\n\n총 75개의 서브에이전트가 작업 복잡도에 따라 특정 Claude 모델로 설정되어 있습니다:\n\n### 🚀 Haiku (빠르고 비용 효율적) - 15 에이전트\n**모델:** `haiku`\n- `data-scientist` - SQL 쿼리 및 데이터 분석\n- `api-documenter` - OpenAPI/Swagger 문서화\n- `reference-builder` - 상세 기술 레퍼런스 및 API 문서화\n- `business-analyst` - 지표 및 KPI 추적\n- `content-marketer` - 블로그 포스트 및 소셜 미디어\n- `customer-support` - 지원 티켓 및 FAQ\n- `sales-automator` - 콜드 이메일 및 제안서\n- `search-specialist` - 웹 리서치 및 정보 수집\n- `legal-advisor` - 개인정보 보호정책 및 컴플라이언스 문서\n- `seo-meta-optimizer` - 메타 제목 및 설명 최적화\n- `seo-keyword-strategist` - 키워드 밀도 및 의미 분석\n- `seo-structure-architect` - 콘텐츠 구조 및 스키마 마크업\n- `seo-snippet-hunter` - 특화 스니펫 형식화\n- `seo-content-refresher` - 콘텐츠 신선도 업데이트\n- `seo-cannibalization-detector` - 키워드 중복 감지\n- `seo-content-planner` - 콘텐츠 일정 및 개요\n\n### ⚡ Sonnet (균형 잡힌 성능) - 44 에이전트\n**모델:** `sonnet`\n\n**개발 및 언어:**\n- `python-pro` - 고급 기능을 활용한 파이썬 개발\n- `ruby-pro` - 메타프로그래밍, Rails 패턴, gem 개발을 포함한 루비 개발",
+    "Translation": "\n### SEO 및 콘텐츠 최적화\n- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - 제공된 콘텐츠의 품질, E-E-A-T 신호, SEO 모범 사례 분석\n- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - 최적화된 메타 타이틀, 설명, URL 제안 생성\n- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - 키워드 사용 분석, 밀도 계산, 의미적 변형 제안\n- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - 콘텐츠 구조, 헤더 계층, 스키마 마크업 최적화\n- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - 콘텐츠를 주요 스니펫과 SERP 기능에 맞게 포맷\n- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - 오래된 요소를 식별하고 콘텐츠 업데이트 제안\n- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - 여러 페이지의 키워드 중복 및 충돌 분석\n- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - 콘텐츠의 E-E-A-T 신호 및 신뢰 지표 분석\n- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - 키워드와 브리프 기반의 SEO 최적화 콘텐츠 작성\n- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - 콘텐츠 개요, 토픽 클러스터, 캘린더 작성\n\n## 모델 할당\n\n모든 75개의 서브에이전트는 작업 복잡도에 따라 특정 Claude 모델로 구성되어 있습니다:\n\n### 🚀 Haiku (빠르고 비용 효율적) - 15개 에이전트\n**모델:** `haiku`\n- `data-scientist` - SQL 쿼리 및 데이터 분석\n- `api-documenter` - OpenAPI/Swagger 문서화\n- `reference-builder` - 방대한 기술 참조 및 API 문서\n- `business-analyst` - 지표 및 KPI 추적\n- `content-marketer` - 블로그 게시물 및 소셜 미디어\n- `customer-support` - 지원 티켓 및 FAQ\n- `sales-automator` - 콜드 이메일 및 제안서\n- `search-specialist` - 웹 리서치 및 정보 수집\n- `legal-advisor` - 개인정보 보호 정책 및 컴플라이언스 문서\n- `seo-meta-optimizer` - 메타 타이틀 및 설명 최적화\n- `seo-keyword-strategist` - 키워드 밀도 및 의미 분석\n- `seo-structure-architect` - 콘텐츠 구조 및 스키마 마크업\n- `seo-snippet-hunter` - 주요 스니펫 포맷팅\n- `seo-content-refresher` - 콘텐츠 최신성 업데이트\n- `seo-cannibalization-detector` - 키워드 중복 감지\n- `seo-content-planner` - 콘텐츠 캘린더 및 개요\n\n### ⚡ Sonnet (균형 잡힌 성능) - 44개 에이전트\n**모델:** `sonnet`\n\n**개발 및 언어:**",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "9ODqaVLZCVHdwokmbh9psSuMut77d7RKlfpdImH3PMw=",
-        "originContent": "- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - Analyzes provided content for quality, E-E-A-T signals, and SEO best practices",
-        "translatedContent": "- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - 제공된 콘텐츠의 품질, E-E-A-T 신호, SEO 최적 관행 분석"
-      },
-      {
-        "row": 2,
-        "rowsha": "dCxQihpU1wPMdhD1nWZZh3jW4cQZ2JH/Ju0BdYwqVgs=",
-        "originContent": "- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - Creates optimized meta titles, descriptions, and URL suggestions",
-        "translatedContent": "- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - 최적화된 메타 제목, 설명, URL 제안 생성"
-      },
-      {
-        "row": 3,
-        "rowsha": "GjMlxXS/M+/xdFaLxGhn9O7mlH28adQiqdn7HF5sgOg=",
-        "originContent": "- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - Analyzes keyword usage, calculates density, suggests semantic variations",
-        "translatedContent": "- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - 키워드 사용 분석, 밀도 계산, 의미론적 변형 제안"
-      },
-      {
-        "row": 4,
-        "rowsha": "evi25NxbpZp/ElfBLKalMDhDZknosShDCPjmN32ZtmA=",
-        "originContent": "- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - Optimizes content structure, header hierarchy, and schema markup",
-        "translatedContent": "- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - 콘텐츠 구조, 헤더 계층, 스키마 마크업 최적화"
-      },
-      {
-        "row": 5,
-        "rowsha": "jxAm6H0PRA2pNG0V71fulwsa23xTSq7abAOzFp3l2G0=",
-        "originContent": "- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - Formats content for featured snippets and SERP features",
-        "translatedContent": "- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - 특화 스니펫 및 SERP 기능에 맞게 콘텐츠 형식화"
-      },
-      {
-        "row": 6,
-        "rowsha": "uNNeosAKzyXH2Juc9GlbJeiGf+Y1EYM1uhLk7J6kRKU=",
-        "originContent": "- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - Identifies outdated elements and suggests content updates",
-        "translatedContent": "- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - 오래된 요소 식별 및 콘텐츠 업데이트 제안"
-      },
-      {
-        "row": 7,
-        "rowsha": "UyCO62n1ncQ0hXMLS1iVBJinQN3cm8Iqz9BCaqTIQUA=",
-        "originContent": "- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - Analyzes multiple pages for keyword overlap and conflicts",
-        "translatedContent": "- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - 여러 페이지의 키워드 중복 및 충돌 분석"
-      },
-      {
-        "row": 8,
-        "rowsha": "2snytVSThWEGIobFfLJtQYxSelBhI+TlAn1xPIQbjKE=",
-        "originContent": "- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - Analyzes content for E-E-A-T signals and trust indicators",
-        "translatedContent": "- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - 콘텐츠의 E-E-A-T 신호 및 신뢰 지표 분석"
-      },
-      {
-        "row": 9,
-        "rowsha": "edMKmMq6B/3T5kMw8s4TxLKzNNKbIfVf3DjzGFfftA4=",
-        "originContent": "- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - Writes SEO-optimized content based on keywords and briefs",
-        "translatedContent": "- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - 키워드와 브리프 기반 SEO 최적화 콘텐츠 작성"
-      },
-      {
-        "row": 10,
-        "rowsha": "08C6ZQahTJriZPb8tEzqi8fuynRS4ty3YT2jSibBh1Y=",
-        "originContent": "- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - Creates content outlines, topic clusters, and calendars",
-        "translatedContent": "- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - 콘텐츠 개요, 주제 클러스터, 일정 작성"
-      },
-      {
-        "row": 11,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 2,
+        "rowsha": "EXOMi8j8pO7leYxvcOk03JlFKeP0XoV1IEfpLTO/tKs=",
+        "originContent": "### SEO & Content Optimization",
+        "translatedContent": "### SEO 및 콘텐츠 최적화"
+      },
+      {
+        "row": 3,
+        "rowsha": "9ODqaVLZCVHdwokmbh9psSuMut77d7RKlfpdImH3PMw=",
+        "originContent": "- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - Analyzes provided content for quality, E-E-A-T signals, and SEO best practices",
+        "translatedContent": "- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - 제공된 콘텐츠의 품질, E-E-A-T 신호, SEO 모범 사례 분석"
+      },
+      {
+        "row": 4,
+        "rowsha": "dCxQihpU1wPMdhD1nWZZh3jW4cQZ2JH/Ju0BdYwqVgs=",
+        "originContent": "- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - Creates optimized meta titles, descriptions, and URL suggestions",
+        "translatedContent": "- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - 최적화된 메타 타이틀, 설명, URL 제안 생성"
+      },
+      {
+        "row": 5,
+        "rowsha": "GjMlxXS/M+/xdFaLxGhn9O7mlH28adQiqdn7HF5sgOg=",
+        "originContent": "- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - Analyzes keyword usage, calculates density, suggests semantic variations",
+        "translatedContent": "- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - 키워드 사용 분석, 밀도 계산, 의미적 변형 제안"
+      },
+      {
+        "row": 6,
+        "rowsha": "evi25NxbpZp/ElfBLKalMDhDZknosShDCPjmN32ZtmA=",
+        "originContent": "- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - Optimizes content structure, header hierarchy, and schema markup",
+        "translatedContent": "- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - 콘텐츠 구조, 헤더 계층, 스키마 마크업 최적화"
+      },
+      {
+        "row": 7,
+        "rowsha": "jxAm6H0PRA2pNG0V71fulwsa23xTSq7abAOzFp3l2G0=",
+        "originContent": "- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - Formats content for featured snippets and SERP features",
+        "translatedContent": "- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - 콘텐츠를 주요 스니펫과 SERP 기능에 맞게 포맷"
+      },
+      {
+        "row": 8,
+        "rowsha": "uNNeosAKzyXH2Juc9GlbJeiGf+Y1EYM1uhLk7J6kRKU=",
+        "originContent": "- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - Identifies outdated elements and suggests content updates",
+        "translatedContent": "- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - 오래된 요소를 식별하고 콘텐츠 업데이트 제안"
+      },
+      {
+        "row": 9,
+        "rowsha": "UyCO62n1ncQ0hXMLS1iVBJinQN3cm8Iqz9BCaqTIQUA=",
+        "originContent": "- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - Analyzes multiple pages for keyword overlap and conflicts",
+        "translatedContent": "- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - 여러 페이지의 키워드 중복 및 충돌 분석"
+      },
+      {
+        "row": 10,
+        "rowsha": "2snytVSThWEGIobFfLJtQYxSelBhI+TlAn1xPIQbjKE=",
+        "originContent": "- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - Analyzes content for E-E-A-T signals and trust indicators",
+        "translatedContent": "- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - 콘텐츠의 E-E-A-T 신호 및 신뢰 지표 분석"
+      },
+      {
+        "row": 11,
+        "rowsha": "edMKmMq6B/3T5kMw8s4TxLKzNNKbIfVf3DjzGFfftA4=",
+        "originContent": "- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - Writes SEO-optimized content based on keywords and briefs",
+        "translatedContent": "- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - 키워드와 브리프 기반의 SEO 최적화 콘텐츠 작성"
+      },
+      {
         "row": 12,
-        "rowsha": "Uxdem9ei2c9Bt1V7PCdIeY2VH2Yo6XKcHWiCxBMv8pU=",
-        "originContent": "## Model Assignments",
-        "translatedContent": "## 모델 할당"
+        "rowsha": "08C6ZQahTJriZPb8tEzqi8fuynRS4ty3YT2jSibBh1Y=",
+        "originContent": "- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - Creates content outlines, topic clusters, and calendars",
+        "translatedContent": "- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - 콘텐츠 개요, 토픽 클러스터, 캘린더 작성"
       },
       {
         "row": 13,
@@ -607,9 +607,9 @@
       },
       {
         "row": 14,
-        "rowsha": "cLMvZwifmkAG80TH9EzVbECig66+xqyclWAvSbrl1N8=",
-        "originContent": "All 75 subagents are configured with specific Claude models based on task complexity:",
-        "translatedContent": "총 75개의 서브에이전트가 작업 복잡도에 따라 특정 Claude 모델로 설정되어 있습니다:"
+        "rowsha": "Uxdem9ei2c9Bt1V7PCdIeY2VH2Yo6XKcHWiCxBMv8pU=",
+        "originContent": "## Model Assignments",
+        "translatedContent": "## 모델 할당"
       },
       {
         "row": 15,
@@ -619,557 +619,557 @@
       },
       {
         "row": 16,
-        "rowsha": "qJL0712R6f0EvEMbf6+XV6Qj8E2rBxXdwGouDmihYhI=",
-        "originContent": "### 🚀 Haiku (Fast & Cost-Effective) - 15 agents",
-        "translatedContent": "### 🚀 Haiku (빠르고 비용 효율적) - 15 에이전트"
+        "rowsha": "cLMvZwifmkAG80TH9EzVbECig66+xqyclWAvSbrl1N8=",
+        "originContent": "All 75 subagents are configured with specific Claude models based on task complexity:",
+        "translatedContent": "모든 75개의 서브에이전트는 작업 복잡도에 따라 특정 Claude 모델로 구성되어 있습니다:"
       },
       {
         "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "qJL0712R6f0EvEMbf6+XV6Qj8E2rBxXdwGouDmihYhI=",
+        "originContent": "### 🚀 Haiku (Fast & Cost-Effective) - 15 agents",
+        "translatedContent": "### 🚀 Haiku (빠르고 비용 효율적) - 15개 에이전트"
+      },
+      {
+        "row": 19,
         "rowsha": "KQYusdnPsoBs3XWFvrl0jc0cockZrOh2GzfWlBo/JVM=",
         "originContent": "**Model:** `haiku`",
         "translatedContent": "**모델:** `haiku`"
       },
       {
-        "row": 18,
+        "row": 20,
         "rowsha": "2blwJ4Hjo5d7QEQiCkCnX0gzkQ7mMYd74OG2ZpifaAE=",
         "originContent": "- `data-scientist` - SQL queries and data analysis",
         "translatedContent": "- `data-scientist` - SQL 쿼리 및 데이터 분석"
       },
       {
-        "row": 19,
+        "row": 21,
         "rowsha": "CX/mG+e/DoSz+cAVptxQ44xUigULOM3EC3pX/1nWqWU=",
         "originContent": "- `api-documenter` - OpenAPI/Swagger documentation",
         "translatedContent": "- `api-documenter` - OpenAPI/Swagger 문서화"
       },
       {
-        "row": 20,
+        "row": 22,
         "rowsha": "Kq3khkst9EyTaEOc5AYbwH19tf2IB/7bTYeE1l/nr0I=",
         "originContent": "- `reference-builder` - Exhaustive technical references and API documentation",
-        "translatedContent": "- `reference-builder` - 상세 기술 레퍼런스 및 API 문서화"
+        "translatedContent": "- `reference-builder` - 방대한 기술 참조 및 API 문서"
       },
       {
-        "row": 21,
+        "row": 23,
         "rowsha": "XjADI8N6GLzVOJ6OW3HLlVkhHhL4nM+p5GtJQMYzekw=",
         "originContent": "- `business-analyst` - Metrics and KPI tracking",
         "translatedContent": "- `business-analyst` - 지표 및 KPI 추적"
       },
       {
-        "row": 22,
+        "row": 24,
         "rowsha": "SaRrDQ5/Y4vJgs9gxn1UvcE5Q5cA4tx4ZDp3Ekf5bJ4=",
         "originContent": "- `content-marketer` - Blog posts and social media",
-        "translatedContent": "- `content-marketer` - 블로그 포스트 및 소셜 미디어"
+        "translatedContent": "- `content-marketer` - 블로그 게시물 및 소셜 미디어"
       },
       {
-        "row": 23,
+        "row": 25,
         "rowsha": "5+vzDxL6DSD7X1wX7WgDl2m7CJS98TVJ+bWSotvPokg=",
         "originContent": "- `customer-support` - Support tickets and FAQs",
         "translatedContent": "- `customer-support` - 지원 티켓 및 FAQ"
       },
       {
-        "row": 24,
+        "row": 26,
         "rowsha": "LL9rO1Ia9sNrgfKBtIj5OD8VCNTzc0OYYW3H6rs614w=",
         "originContent": "- `sales-automator` - Cold emails and proposals",
         "translatedContent": "- `sales-automator` - 콜드 이메일 및 제안서"
       },
       {
-        "row": 25,
+        "row": 27,
         "rowsha": "QpTkH+NXCmN0ZeUcgZVkDlJLaTu/wD8qEyHF09pb6R4=",
         "originContent": "- `search-specialist` - Web research and information gathering",
         "translatedContent": "- `search-specialist` - 웹 리서치 및 정보 수집"
       },
       {
-        "row": 26,
+        "row": 28,
         "rowsha": "W6eWU+TYxoG+plXjBRsdYxMA5NVS5Khbs9kEUOIDa/I=",
         "originContent": "- `legal-advisor` - Privacy policies and compliance documents",
-        "translatedContent": "- `legal-advisor` - 개인정보 보호정책 및 컴플라이언스 문서"
+        "translatedContent": "- `legal-advisor` - 개인정보 보호 정책 및 컴플라이언스 문서"
       },
       {
-        "row": 27,
+        "row": 29,
         "rowsha": "c721vNeHuGZ3ejuRqbOJanBvln1Vqg1hIjzy2qvU02w=",
         "originContent": "- `seo-meta-optimizer` - Meta title and description optimization",
-        "translatedContent": "- `seo-meta-optimizer` - 메타 제목 및 설명 최적화"
+        "translatedContent": "- `seo-meta-optimizer` - 메타 타이틀 및 설명 최적화"
       },
       {
-        "row": 28,
+        "row": 30,
         "rowsha": "5qh8GMLE2w1L2Msp3Ak3ABz2IOfJfckz+i0xqcdV+lg=",
         "originContent": "- `seo-keyword-strategist` - Keyword density and semantic analysis",
         "translatedContent": "- `seo-keyword-strategist` - 키워드 밀도 및 의미 분석"
       },
       {
-        "row": 29,
+        "row": 31,
         "rowsha": "cw7l41nwpJBMY9nRUK8eJyrVZ5sBOBLfR5uDKRcx4ZE=",
         "originContent": "- `seo-structure-architect` - Content structure and schema markup",
         "translatedContent": "- `seo-structure-architect` - 콘텐츠 구조 및 스키마 마크업"
       },
       {
-        "row": 30,
+        "row": 32,
         "rowsha": "GGyC2T0NgVp6OP44N48jmE2oACtwHI8COjBIOCzbEXg=",
         "originContent": "- `seo-snippet-hunter` - Featured snippet formatting",
-        "translatedContent": "- `seo-snippet-hunter` - 특화 스니펫 형식화"
+        "translatedContent": "- `seo-snippet-hunter` - 주요 스니펫 포맷팅"
       },
       {
-        "row": 31,
+        "row": 33,
         "rowsha": "1hwlK92IN3Yl7jJBiDnLJPey71l0onu7xcxe6AMz0YM=",
         "originContent": "- `seo-content-refresher` - Content freshness updates",
-        "translatedContent": "- `seo-content-refresher` - 콘텐츠 신선도 업데이트"
+        "translatedContent": "- `seo-content-refresher` - 콘텐츠 최신성 업데이트"
       },
       {
-        "row": 32,
+        "row": 34,
         "rowsha": "or6dLga3liIg64W9lQ9720P9UGfKRLoVxz9HeZDAJLw=",
         "originContent": "- `seo-cannibalization-detector` - Keyword overlap detection",
         "translatedContent": "- `seo-cannibalization-detector` - 키워드 중복 감지"
       },
       {
-        "row": 33,
+        "row": 35,
         "rowsha": "dREzfMIOvpnoDrcEe8IM59NXVFRcxQaSsXgn+UbBoUQ=",
         "originContent": "- `seo-content-planner` - Content calendars and outlines",
-        "translatedContent": "- `seo-content-planner` - 콘텐츠 일정 및 개요"
+        "translatedContent": "- `seo-content-planner` - 콘텐츠 캘린더 및 개요"
       },
       {
-        "row": 34,
+        "row": 36,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 35,
+        "row": 37,
         "rowsha": "6cuz2k5BOU7WtLoh+FZe69zEWBbKilXLSVj0IPkPHrM=",
         "originContent": "### ⚡ Sonnet (Balanced Performance) - 44 agents",
-        "translatedContent": "### ⚡ Sonnet (균형 잡힌 성능) - 44 에이전트"
+        "translatedContent": "### ⚡ Sonnet (균형 잡힌 성능) - 44개 에이전트"
       },
       {
-        "row": 36,
+        "row": 38,
         "rowsha": "TZp9L8cbxRXhsnLQYHhTDiaO327i/yFA7V4aHbjsyTE=",
         "originContent": "**Model:** `sonnet`",
         "translatedContent": "**모델:** `sonnet`"
       },
       {
-        "row": 37,
+        "row": 39,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 38,
+        "row": 40,
         "rowsha": "dq2UZdjXks73e2HyPxxlgjVplto1NDmUWBLWMJLJAOQ=",
         "originContent": "**Development & Languages:**",
         "translatedContent": "**개발 및 언어:**"
-      },
-      {
-        "row": 39,
-        "rowsha": "IcDocoH3v5gFelRY7FJESenCIuuxOOlwovsQntx4kK4=",
-        "originContent": "- `python-pro` - Python development with advanced features",
-        "translatedContent": "- `python-pro` - 고급 기능을 활용한 파이썬 개발"
-      },
-      {
-        "row": 40,
-        "rowsha": "xu+pDsPgZjsouWK/Y6WGptlNGPZUENwTSTPXs3VK4jM=",
-        "originContent": "- `ruby-pro` - Ruby development with metaprogramming, Rails patterns, and gem development",
-        "translatedContent": "- `ruby-pro` - 메타프로그래밍, Rails 패턴, gem 개발을 포함한 루비 개발"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 5,
-    "Content": "- `javascript-pro` - Modern JavaScript and Node.js\n- `typescript-pro` - Advanced TypeScript with type systems\n- `golang-pro` - Go concurrency and idiomatic patterns\n- `rust-pro` - Rust memory safety and systems programming\n- `c-pro` - C programming and embedded systems\n- `cpp-pro` - Modern C++ with STL and templates\n- `php-pro` - Modern PHP with advanced features\n- `java-pro` - Modern Java with streams and concurrency\n- `elixir-pro` - Elixir with OTP patterns and Phoenix\n- `csharp-pro` - Modern C# with .NET frameworks and patterns\n- `scala-pro` - Enterprise Scala with Apache Pekko, Akka, Spark, and ZIO/Cats Effect\n- `flutter-expert` - Flutter development with state management and animations\n- `unity-developer` - Unity game development and optimization\n- `minecraft-bukkit-pro` - Minecraft plugin development with Bukkit/Spigot/Paper\n- `ios-developer` - Native iOS development with Swift/SwiftUI\n- `frontend-developer` - React components and UI\n- `ui-ux-designer` - Interface design and wireframes\n- `backend-architect` - API design and microservices\n- `mobile-developer` - React Native/Flutter apps\n- `sql-pro` - Complex SQL optimization\n- `graphql-architect` - GraphQL schemas and resolvers\n\n**Infrastructure & Operations:**\n- `devops-troubleshooter` - Production debugging\n- `deployment-engineer` - CI/CD pipelines\n- `database-optimizer` - Query optimization\n- `database-admin` - Database operations\n- `terraform-specialist` - Infrastructure as Code\n- `network-engineer` - Network configuration\n- `dx-optimizer` - Developer experience\n- `data-engineer` - ETL pipelines\n\n**Quality & Support:**\n- `test-automator` - Test suite creation\n- `code-reviewer` - Code quality analysis\n- `debugger` - Error investigation\n- `error-detective` - Log analysis\n- `ml-engineer` - ML model deployment\n- `legacy-modernizer` - Framework migrations\n- `payment-integration` - Payment processing",
-    "ContentSha": "Ok521JNLl8Ey6CAKrdtvhbPRuq/na1U7x6GSoxKiXJw=",
+    "Content": "- `python-pro` - Python development with advanced features\n- `ruby-pro` - Ruby development with metaprogramming, Rails patterns, and gem development\n- `javascript-pro` - Modern JavaScript and Node.js\n- `typescript-pro` - Advanced TypeScript with type systems\n- `golang-pro` - Go concurrency and idiomatic patterns\n- `rust-pro` - Rust memory safety and systems programming\n- `c-pro` - C programming and embedded systems\n- `cpp-pro` - Modern C++ with STL and templates\n- `php-pro` - Modern PHP with advanced features\n- `java-pro` - Modern Java with streams and concurrency\n- `elixir-pro` - Elixir with OTP patterns and Phoenix\n- `csharp-pro` - Modern C# with .NET frameworks and patterns\n- `scala-pro` - Enterprise Scala with Apache Pekko, Akka, Spark, and ZIO/Cats Effect\n- `flutter-expert` - Flutter development with state management and animations\n- `unity-developer` - Unity game development and optimization\n- `minecraft-bukkit-pro` - Minecraft plugin development with Bukkit/Spigot/Paper\n- `ios-developer` - Native iOS development with Swift/SwiftUI\n- `frontend-developer` - React components and UI\n- `ui-ux-designer` - Interface design and wireframes\n- `backend-architect` - API design and microservices\n- `mobile-developer` - React Native/Flutter apps\n- `sql-pro` - Complex SQL optimization\n- `graphql-architect` - GraphQL schemas and resolvers\n\n**Infrastructure & Operations:**\n- `devops-troubleshooter` - Production debugging\n- `deployment-engineer` - CI/CD pipelines\n- `database-optimizer` - Query optimization\n- `database-admin` - Database operations\n- `terraform-specialist` - Infrastructure as Code\n- `network-engineer` - Network configuration\n- `dx-optimizer` - Developer experience\n- `data-engineer` - ETL pipelines\n\n**Quality & Support:**\n- `test-automator` - Test suite creation\n- `code-reviewer` - Code quality analysis\n- `debugger` - Error investigation\n- `error-detective` - Log analysis\n- `ml-engineer` - ML model deployment",
+    "ContentSha": "jwzz2vAglV247i40godv1IJBKvzH23VDoN3XVl/uShk=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- `javascript-pro` - 모던 JavaScript 및 Node.js\n- `typescript-pro` - 타입 시스템을 활용한 고급 TypeScript\n- `golang-pro` - Go 동시성 및 관용적 패턴\n- `rust-pro` - Rust 메모리 안전 및 시스템 프로그래밍\n- `c-pro` - C 프로그래밍 및 임베디드 시스템\n- `cpp-pro` - STL과 템플릿을 활용한 모던 C++\n- `php-pro` - 고급 기능의 모던 PHP\n- `java-pro` - 스트림과 동시성을 활용한 모던 Java\n- `elixir-pro` - OTP 패턴과 Phoenix를 활용한 Elixir\n- `csharp-pro` - .NET 프레임워크와 패턴의 모던 C#\n- `scala-pro` - Apache Pekko, Akka, Spark, ZIO/Cats Effect 기반 엔터프라이즈 Scala\n- `flutter-expert` - 상태 관리 및 애니메이션의 Flutter 개발\n- `unity-developer` - Unity 게임 개발 및 최적화\n- `minecraft-bukkit-pro` - Bukkit/Spigot/Paper 기반 마인크래프트 플러그인 개발\n- `ios-developer` - Swift/SwiftUI 기반 네이티브 iOS 개발\n- `frontend-developer` - React 컴포넌트 및 UI\n- `ui-ux-designer` - 인터페이스 디자인 및 와이어프레임\n- `backend-architect` - API 설계 및 마이크로서비스\n- `mobile-developer` - React Native/Flutter 앱 개발\n- `sql-pro` - 복잡한 SQL 최적화\n- `graphql-architect` - GraphQL 스키마 및 리졸버\n\n**인프라 & 운영:**\n- `devops-troubleshooter` - 프로덕션 디버깅\n- `deployment-engineer` - CI/CD 파이프라인\n- `database-optimizer` - 쿼리 최적화\n- `database-admin` - 데이터베이스 운영\n- `terraform-specialist` - 코드로서의 인프라(IaC)\n- `network-engineer` - 네트워크 구성\n- `dx-optimizer` - 개발자 경험 최적화\n- `data-engineer` - ETL 파이프라인\n\n**품질 & 지원:**\n- `test-automator` - 테스트 스위트 구축\n- `code-reviewer` - 코드 품질 분석\n- `debugger` - 오류 조사\n- `error-detective` - 로그 분석\n- `ml-engineer` - 머신러닝 모델 배포\n- `legacy-modernizer` - 프레임워크 마이그레이션\n- `payment-integration` - 결제 처리",
+    "Translation": "- `python-pro` - 고급 기능을 활용한 Python 개발\n- `ruby-pro` - 메타프로그래밍, Rails 패턴, 그리고 gem 개발을 포함한 Ruby 개발\n- `javascript-pro` - 최신 JavaScript 및 Node.js 개발\n- `typescript-pro` - 타입 시스템을 활용한 고급 TypeScript\n- `golang-pro` - Go의 동시성 및 관용적 패턴\n- `rust-pro` - Rust의 메모리 안전성과 시스템 프로그래밍\n- `c-pro` - C 프로그래밍 및 임베디드 시스템 개발\n- `cpp-pro` - STL과 템플릿을 활용한 최신 C++\n- `php-pro` - 고급 기능을 활용한 최신 PHP 개발\n- `java-pro` - 스트림과 동시성 기능을 활용한 최신 Java\n- `elixir-pro` - OTP 패턴과 Phoenix를 활용한 Elixir 개발\n- `csharp-pro` - .NET 프레임워크 및 패턴을 활용한 최신 C# 개발\n- `scala-pro` - Apache Pekko, Akka, Spark, ZIO/Cats Effect를 활용한 엔터프라이즈 Scala\n- `flutter-expert` - 상태 관리와 애니메이션을 포함한 Flutter 개발\n- `unity-developer` - Unity 게임 개발 및 최적화\n- `minecraft-bukkit-pro` - Bukkit/Spigot/Paper 기반 Minecraft 플러그인 개발\n- `ios-developer` - Swift/SwiftUI를 활용한 네이티브 iOS 개발\n- `frontend-developer` - React 컴포넌트 및 UI 개발\n- `ui-ux-designer` - 인터페이스 디자인 및 와이어프레임 설계\n- `backend-architect` - API 설계 및 마이크로서비스 아키텍처\n- `mobile-developer` - React Native/Flutter 앱 개발\n- `sql-pro` - 복잡한 SQL 최적화\n- `graphql-architect` - GraphQL 스키마 및 리졸버 설계\n\n**인프라 및 운영:**\n- `devops-troubleshooter` - 프로덕션 디버깅\n- `deployment-engineer` - CI/CD 파이프라인 구축\n- `database-optimizer` - 쿼리 최적화\n- `database-admin` - 데이터베이스 운영 및 관리\n- `terraform-specialist` - 코드로서의 인프라 구축\n- `network-engineer` - 네트워크 구성\n- `dx-optimizer` - 개발자 경험 최적화\n- `data-engineer` - ETL 파이프라인 구축\n\n**품질 및 지원:**\n- `test-automator` - 테스트 스위트 작성\n- `code-reviewer` - 코드 품질 분석\n- `debugger` - 오류 조사 및 분석\n- `error-detective` - 로그 분석 전문가\n- `ml-engineer` - 머신러닝 모델 배포",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "v8miVTTd0f9iew5kAVs/xWhBr9zc/7uVZZmsdSW/R1U=",
-        "originContent": "- `javascript-pro` - Modern JavaScript and Node.js",
-        "translatedContent": "- `javascript-pro` - 모던 JavaScript 및 Node.js"
+        "rowsha": "IcDocoH3v5gFelRY7FJESenCIuuxOOlwovsQntx4kK4=",
+        "originContent": "- `python-pro` - Python development with advanced features",
+        "translatedContent": "- `python-pro` - 고급 기능을 활용한 Python 개발"
       },
       {
         "row": 2,
+        "rowsha": "xu+pDsPgZjsouWK/Y6WGptlNGPZUENwTSTPXs3VK4jM=",
+        "originContent": "- `ruby-pro` - Ruby development with metaprogramming, Rails patterns, and gem development",
+        "translatedContent": "- `ruby-pro` - 메타프로그래밍, Rails 패턴, 그리고 gem 개발을 포함한 Ruby 개발"
+      },
+      {
+        "row": 3,
+        "rowsha": "v8miVTTd0f9iew5kAVs/xWhBr9zc/7uVZZmsdSW/R1U=",
+        "originContent": "- `javascript-pro` - Modern JavaScript and Node.js",
+        "translatedContent": "- `javascript-pro` - 최신 JavaScript 및 Node.js 개발"
+      },
+      {
+        "row": 4,
         "rowsha": "2XQwBfWsv8u3gOZnKWuEDuhP/ol+C+Hc9a5bf49842M=",
         "originContent": "- `typescript-pro` - Advanced TypeScript with type systems",
         "translatedContent": "- `typescript-pro` - 타입 시스템을 활용한 고급 TypeScript"
       },
       {
-        "row": 3,
+        "row": 5,
         "rowsha": "BX3tFBdLA/YCAWZb/kUg/yrJSXeH+HaqSg/co5XiGDs=",
         "originContent": "- `golang-pro` - Go concurrency and idiomatic patterns",
-        "translatedContent": "- `golang-pro` - Go 동시성 및 관용적 패턴"
-      },
-      {
-        "row": 4,
-        "rowsha": "n2b3+LEZyAlpBoaHqeqWKooZZc/TyvQ+uLtAcyH9m3M=",
-        "originContent": "- `rust-pro` - Rust memory safety and systems programming",
-        "translatedContent": "- `rust-pro` - Rust 메모리 안전 및 시스템 프로그래밍"
-      },
-      {
-        "row": 5,
-        "rowsha": "wfAPXW1c9iK3HQnnYASTzh4aBBr5wai2rGcbOTPbOpI=",
-        "originContent": "- `c-pro` - C programming and embedded systems",
-        "translatedContent": "- `c-pro` - C 프로그래밍 및 임베디드 시스템"
+        "translatedContent": "- `golang-pro` - Go의 동시성 및 관용적 패턴"
       },
       {
         "row": 6,
-        "rowsha": "835IybEs3VbKWgl9JvQ+MNVwdQ1QJ74FKlldcCVy/tI=",
-        "originContent": "- `cpp-pro` - Modern C++ with STL and templates",
-        "translatedContent": "- `cpp-pro` - STL과 템플릿을 활용한 모던 C++"
+        "rowsha": "n2b3+LEZyAlpBoaHqeqWKooZZc/TyvQ+uLtAcyH9m3M=",
+        "originContent": "- `rust-pro` - Rust memory safety and systems programming",
+        "translatedContent": "- `rust-pro` - Rust의 메모리 안전성과 시스템 프로그래밍"
       },
       {
         "row": 7,
-        "rowsha": "ay8rmQIqjNJiVgcDGjJ+ejrZl/FIbDxm5BtCt3oQ+ts=",
-        "originContent": "- `php-pro` - Modern PHP with advanced features",
-        "translatedContent": "- `php-pro` - 고급 기능의 모던 PHP"
+        "rowsha": "wfAPXW1c9iK3HQnnYASTzh4aBBr5wai2rGcbOTPbOpI=",
+        "originContent": "- `c-pro` - C programming and embedded systems",
+        "translatedContent": "- `c-pro` - C 프로그래밍 및 임베디드 시스템 개발"
       },
       {
         "row": 8,
-        "rowsha": "VpvkOsu4HxXRDfScdJsRmWr+9GGE8Jikgm8YHpQV2oI=",
-        "originContent": "- `java-pro` - Modern Java with streams and concurrency",
-        "translatedContent": "- `java-pro` - 스트림과 동시성을 활용한 모던 Java"
+        "rowsha": "835IybEs3VbKWgl9JvQ+MNVwdQ1QJ74FKlldcCVy/tI=",
+        "originContent": "- `cpp-pro` - Modern C++ with STL and templates",
+        "translatedContent": "- `cpp-pro` - STL과 템플릿을 활용한 최신 C++"
       },
       {
         "row": 9,
-        "rowsha": "HPEWqNGQJsRC3Vc65K+06N8yF6H6nn59hLa5LXjRWb0=",
-        "originContent": "- `elixir-pro` - Elixir with OTP patterns and Phoenix",
-        "translatedContent": "- `elixir-pro` - OTP 패턴과 Phoenix를 활용한 Elixir"
+        "rowsha": "ay8rmQIqjNJiVgcDGjJ+ejrZl/FIbDxm5BtCt3oQ+ts=",
+        "originContent": "- `php-pro` - Modern PHP with advanced features",
+        "translatedContent": "- `php-pro` - 고급 기능을 활용한 최신 PHP 개발"
       },
       {
         "row": 10,
-        "rowsha": "eneH9GhsNJaCSaZI7Y8uRz3qW6RKBCq8UPWclEdpV2Q=",
-        "originContent": "- `csharp-pro` - Modern C# with .NET frameworks and patterns",
-        "translatedContent": "- `csharp-pro` - .NET 프레임워크와 패턴의 모던 C#"
+        "rowsha": "VpvkOsu4HxXRDfScdJsRmWr+9GGE8Jikgm8YHpQV2oI=",
+        "originContent": "- `java-pro` - Modern Java with streams and concurrency",
+        "translatedContent": "- `java-pro` - 스트림과 동시성 기능을 활용한 최신 Java"
       },
       {
         "row": 11,
-        "rowsha": "PoXyS3s8dD22NBZe6Q37kJsR4n/mkNmdnM49ODBYHYg=",
-        "originContent": "- `scala-pro` - Enterprise Scala with Apache Pekko, Akka, Spark, and ZIO/Cats Effect",
-        "translatedContent": "- `scala-pro` - Apache Pekko, Akka, Spark, ZIO/Cats Effect 기반 엔터프라이즈 Scala"
+        "rowsha": "HPEWqNGQJsRC3Vc65K+06N8yF6H6nn59hLa5LXjRWb0=",
+        "originContent": "- `elixir-pro` - Elixir with OTP patterns and Phoenix",
+        "translatedContent": "- `elixir-pro` - OTP 패턴과 Phoenix를 활용한 Elixir 개발"
       },
       {
         "row": 12,
-        "rowsha": "pgEu5p3FuNMUnN3Qqo/N3tx330MRi6mV0osH/6GSjdM=",
-        "originContent": "- `flutter-expert` - Flutter development with state management and animations",
-        "translatedContent": "- `flutter-expert` - 상태 관리 및 애니메이션의 Flutter 개발"
+        "rowsha": "eneH9GhsNJaCSaZI7Y8uRz3qW6RKBCq8UPWclEdpV2Q=",
+        "originContent": "- `csharp-pro` - Modern C# with .NET frameworks and patterns",
+        "translatedContent": "- `csharp-pro` - .NET 프레임워크 및 패턴을 활용한 최신 C# 개발"
       },
       {
         "row": 13,
+        "rowsha": "PoXyS3s8dD22NBZe6Q37kJsR4n/mkNmdnM49ODBYHYg=",
+        "originContent": "- `scala-pro` - Enterprise Scala with Apache Pekko, Akka, Spark, and ZIO/Cats Effect",
+        "translatedContent": "- `scala-pro` - Apache Pekko, Akka, Spark, ZIO/Cats Effect를 활용한 엔터프라이즈 Scala"
+      },
+      {
+        "row": 14,
+        "rowsha": "pgEu5p3FuNMUnN3Qqo/N3tx330MRi6mV0osH/6GSjdM=",
+        "originContent": "- `flutter-expert` - Flutter development with state management and animations",
+        "translatedContent": "- `flutter-expert` - 상태 관리와 애니메이션을 포함한 Flutter 개발"
+      },
+      {
+        "row": 15,
         "rowsha": "sYB6Bhzvo97rgrp1PCcCvKPPwdaxx1WUwMo0ecIumNU=",
         "originContent": "- `unity-developer` - Unity game development and optimization",
         "translatedContent": "- `unity-developer` - Unity 게임 개발 및 최적화"
       },
       {
-        "row": 14,
+        "row": 16,
         "rowsha": "R4rjZ8RKvJ1OdnDmm87Y1esrPxi6aimPhF0WNkkDBHM=",
         "originContent": "- `minecraft-bukkit-pro` - Minecraft plugin development with Bukkit/Spigot/Paper",
-        "translatedContent": "- `minecraft-bukkit-pro` - Bukkit/Spigot/Paper 기반 마인크래프트 플러그인 개발"
-      },
-      {
-        "row": 15,
-        "rowsha": "e6MQ/3YTgkxl47do1GbdJ1Gon5PjSTvd9b6PsoGcBnc=",
-        "originContent": "- `ios-developer` - Native iOS development with Swift/SwiftUI",
-        "translatedContent": "- `ios-developer` - Swift/SwiftUI 기반 네이티브 iOS 개발"
-      },
-      {
-        "row": 16,
-        "rowsha": "XLE5Krp8wASddAPGSZNC5udwyg5D4+FpgOebLsyrXAQ=",
-        "originContent": "- `frontend-developer` - React components and UI",
-        "translatedContent": "- `frontend-developer` - React 컴포넌트 및 UI"
+        "translatedContent": "- `minecraft-bukkit-pro` - Bukkit/Spigot/Paper 기반 Minecraft 플러그인 개발"
       },
       {
         "row": 17,
-        "rowsha": "0b0VyEKd0Nw6MgJCT9GtYbcZzZ+tLNzfc/tWTZr60ss=",
-        "originContent": "- `ui-ux-designer` - Interface design and wireframes",
-        "translatedContent": "- `ui-ux-designer` - 인터페이스 디자인 및 와이어프레임"
+        "rowsha": "e6MQ/3YTgkxl47do1GbdJ1Gon5PjSTvd9b6PsoGcBnc=",
+        "originContent": "- `ios-developer` - Native iOS development with Swift/SwiftUI",
+        "translatedContent": "- `ios-developer` - Swift/SwiftUI를 활용한 네이티브 iOS 개발"
       },
       {
         "row": 18,
-        "rowsha": "/fFMaRVJ2vwYu9r22UxJ+tNicbJA6jTl51kJ5BJeKYI=",
-        "originContent": "- `backend-architect` - API design and microservices",
-        "translatedContent": "- `backend-architect` - API 설계 및 마이크로서비스"
+        "rowsha": "XLE5Krp8wASddAPGSZNC5udwyg5D4+FpgOebLsyrXAQ=",
+        "originContent": "- `frontend-developer` - React components and UI",
+        "translatedContent": "- `frontend-developer` - React 컴포넌트 및 UI 개발"
       },
       {
         "row": 19,
+        "rowsha": "0b0VyEKd0Nw6MgJCT9GtYbcZzZ+tLNzfc/tWTZr60ss=",
+        "originContent": "- `ui-ux-designer` - Interface design and wireframes",
+        "translatedContent": "- `ui-ux-designer` - 인터페이스 디자인 및 와이어프레임 설계"
+      },
+      {
+        "row": 20,
+        "rowsha": "/fFMaRVJ2vwYu9r22UxJ+tNicbJA6jTl51kJ5BJeKYI=",
+        "originContent": "- `backend-architect` - API design and microservices",
+        "translatedContent": "- `backend-architect` - API 설계 및 마이크로서비스 아키텍처"
+      },
+      {
+        "row": 21,
         "rowsha": "GJ1rwi1vQy7HJe6cTQTDRQIehBcnaWXxYVsA4tasioo=",
         "originContent": "- `mobile-developer` - React Native/Flutter apps",
         "translatedContent": "- `mobile-developer` - React Native/Flutter 앱 개발"
       },
       {
-        "row": 20,
+        "row": 22,
         "rowsha": "v3hUrIsufBWJZK4AjiHkNVAnibYj1WuKoiVPzo4DtcU=",
         "originContent": "- `sql-pro` - Complex SQL optimization",
         "translatedContent": "- `sql-pro` - 복잡한 SQL 최적화"
       },
       {
-        "row": 21,
+        "row": 23,
         "rowsha": "NtLzSkKAO/hgrTXXYo1CeuVGrdyqWzPjarAJa/6xwyU=",
         "originContent": "- `graphql-architect` - GraphQL schemas and resolvers",
-        "translatedContent": "- `graphql-architect` - GraphQL 스키마 및 리졸버"
+        "translatedContent": "- `graphql-architect` - GraphQL 스키마 및 리졸버 설계"
       },
       {
-        "row": 22,
+        "row": 24,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 23,
+        "row": 25,
         "rowsha": "+n6DxVqdcBHBH8p8iGWm7friJY4VwFEePWLFx/I1+qo=",
         "originContent": "**Infrastructure & Operations:**",
-        "translatedContent": "**인프라 & 운영:**"
+        "translatedContent": "**인프라 및 운영:**"
       },
       {
-        "row": 24,
+        "row": 26,
         "rowsha": "aq92msVMSKsEC8ngZdD1uF8V59DjumUMsJfLTTssYSo=",
         "originContent": "- `devops-troubleshooter` - Production debugging",
         "translatedContent": "- `devops-troubleshooter` - 프로덕션 디버깅"
       },
       {
-        "row": 25,
+        "row": 27,
         "rowsha": "q6K8qoyFZpu82hEABtPeKPj8hRP2u5IhuSXQ535+eGc=",
         "originContent": "- `deployment-engineer` - CI/CD pipelines",
-        "translatedContent": "- `deployment-engineer` - CI/CD 파이프라인"
+        "translatedContent": "- `deployment-engineer` - CI/CD 파이프라인 구축"
       },
       {
-        "row": 26,
+        "row": 28,
         "rowsha": "VzzTZ/+JGj9WPHLNfqJNVTTBI2PIaosWmO6FV5FKneU=",
         "originContent": "- `database-optimizer` - Query optimization",
         "translatedContent": "- `database-optimizer` - 쿼리 최적화"
       },
       {
-        "row": 27,
+        "row": 29,
         "rowsha": "AfRHizAwkgMM6momLy8geGbHs8FN9jJiL/g05uDe01A=",
         "originContent": "- `database-admin` - Database operations",
-        "translatedContent": "- `database-admin` - 데이터베이스 운영"
+        "translatedContent": "- `database-admin` - 데이터베이스 운영 및 관리"
       },
       {
-        "row": 28,
+        "row": 30,
         "rowsha": "xo5xszxRcqXq9PzR1lNMYJkT2QhM3UaXG6aDCELkaW0=",
         "originContent": "- `terraform-specialist` - Infrastructure as Code",
-        "translatedContent": "- `terraform-specialist` - 코드로서의 인프라(IaC)"
+        "translatedContent": "- `terraform-specialist` - 코드로서의 인프라 구축"
       },
       {
-        "row": 29,
+        "row": 31,
         "rowsha": "QiK28Fxui1DkIZ6fLLR/coABhFB1ADhZ/ealVoGkXWc=",
         "originContent": "- `network-engineer` - Network configuration",
         "translatedContent": "- `network-engineer` - 네트워크 구성"
       },
       {
-        "row": 30,
+        "row": 32,
         "rowsha": "AvPbfg4qNkJP9Wql6Eb4paFhUN4USoRKSOAzzLrjHao=",
         "originContent": "- `dx-optimizer` - Developer experience",
         "translatedContent": "- `dx-optimizer` - 개발자 경험 최적화"
       },
       {
-        "row": 31,
+        "row": 33,
         "rowsha": "t1skxvTnzCH9s8cQJxvWWMjYIrRsJzvgGny0w1/SQdg=",
         "originContent": "- `data-engineer` - ETL pipelines",
-        "translatedContent": "- `data-engineer` - ETL 파이프라인"
+        "translatedContent": "- `data-engineer` - ETL 파이프라인 구축"
       },
       {
-        "row": 32,
+        "row": 34,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 33,
+        "row": 35,
         "rowsha": "k9mRGpD/kRJAZ/oJ3wSLuMGTYZej+nmd7O2GvUM36E8=",
         "originContent": "**Quality & Support:**",
-        "translatedContent": "**품질 & 지원:**"
+        "translatedContent": "**품질 및 지원:**"
       },
       {
-        "row": 34,
+        "row": 36,
         "rowsha": "2F7scdGPB8XIPVScah73MvgUnwAXhmGBVc8BdnFKjoQ=",
         "originContent": "- `test-automator` - Test suite creation",
-        "translatedContent": "- `test-automator` - 테스트 스위트 구축"
+        "translatedContent": "- `test-automator` - 테스트 스위트 작성"
       },
       {
-        "row": 35,
+        "row": 37,
         "rowsha": "QOdOQ/H7fXORADBZN4EYE9nvnmkxVR2vyNQaT6oZw+g=",
         "originContent": "- `code-reviewer` - Code quality analysis",
         "translatedContent": "- `code-reviewer` - 코드 품질 분석"
       },
       {
-        "row": 36,
+        "row": 38,
         "rowsha": "CeefJX1Z4S6xco6gRB+oz9jTqsbrpK2lg4n9gbDgKT4=",
         "originContent": "- `debugger` - Error investigation",
-        "translatedContent": "- `debugger` - 오류 조사"
-      },
-      {
-        "row": 37,
-        "rowsha": "HUIIqhukwORD6Tsk3Q5nLX9lAYaZsxCROyE2ONfFW/g=",
-        "originContent": "- `error-detective` - Log analysis",
-        "translatedContent": "- `error-detective` - 로그 분석"
-      },
-      {
-        "row": 38,
-        "rowsha": "Lz6S8THECtA/IwmxtiPOajlxqMZ5eWiXTbKHO/pa3d0=",
-        "originContent": "- `ml-engineer` - ML model deployment",
-        "translatedContent": "- `ml-engineer` - 머신러닝 모델 배포"
+        "translatedContent": "- `debugger` - 오류 조사 및 분석"
       },
       {
         "row": 39,
-        "rowsha": "X+sB25hqD5ysHVonWzRxLsxvdYaA3+Hq6VrzI3bOpDo=",
-        "originContent": "- `legacy-modernizer` - Framework migrations",
-        "translatedContent": "- `legacy-modernizer` - 프레임워크 마이그레이션"
+        "rowsha": "HUIIqhukwORD6Tsk3Q5nLX9lAYaZsxCROyE2ONfFW/g=",
+        "originContent": "- `error-detective` - Log analysis",
+        "translatedContent": "- `error-detective` - 로그 분석 전문가"
       },
       {
         "row": 40,
-        "rowsha": "5i8Ig+Nq3koSyW3HYaQjZfsc2eTgZe84FhpS3C/0gtk=",
-        "originContent": "- `payment-integration` - Payment processing",
-        "translatedContent": "- `payment-integration` - 결제 처리"
+        "rowsha": "Lz6S8THECtA/IwmxtiPOajlxqMZ5eWiXTbKHO/pa3d0=",
+        "originContent": "- `ml-engineer` - ML model deployment",
+        "translatedContent": "- `ml-engineer` - 머신러닝 모델 배포"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 6,
-    "Content": "- `mermaid-expert` - Mermaid diagrams and visual documentation\n- `flutter-expert` - Flutter development\n- `seo-content-auditor` - Content quality and E-E-A-T analysis\n- `seo-authority-builder` - Authority signal optimization\n- `seo-content-writer` - SEO-optimized content creation\n\n### 🧠 Opus (Maximum Capability) - 15 agents\n**Model:** `opus`\n- `ai-engineer` - LLM applications and RAG systems\n- `security-auditor` - Vulnerability analysis\n- `performance-engineer` - Application optimization\n- `incident-responder` - Production incident handling\n- `mlops-engineer` - ML infrastructure\n- `architect-reviewer` - Architectural consistency\n- `cloud-architect` - Cloud infrastructure design\n- `prompt-engineer` - LLM prompt optimization\n- `context-manager` - Multi-agent coordination\n- `quant-analyst` - Financial modeling\n- `risk-manager` - Portfolio risk management\n- `docs-architect` - Comprehensive technical documentation from codebases\n- `tutorial-engineer` - Step-by-step tutorials and educational content\n\n## Installation\n\nThese subagents are automatically available when placed in `~/.claude/agents/` directory.\n",
-    "ContentSha": "0W/KQ1qZb0qqR0btSbAmxOq6UjWKJneh62x9TiU1UgM=",
+    "Content": "- `legacy-modernizer` - Framework migrations\n- `payment-integration` - Payment processing\n- `mermaid-expert` - Mermaid diagrams and visual documentation\n- `flutter-expert` - Flutter development\n- `seo-content-auditor` - Content quality and E-E-A-T analysis\n- `seo-authority-builder` - Authority signal optimization\n- `seo-content-writer` - SEO-optimized content creation\n\n### 🧠 Opus (Maximum Capability) - 15 agents\n**Model:** `opus`\n- `ai-engineer` - LLM applications and RAG systems\n- `security-auditor` - Vulnerability analysis\n- `performance-engineer` - Application optimization\n- `incident-responder` - Production incident handling\n- `mlops-engineer` - ML infrastructure\n- `architect-reviewer` - Architectural consistency\n- `cloud-architect` - Cloud infrastructure design\n- `prompt-engineer` - LLM prompt optimization\n- `context-manager` - Multi-agent coordination\n- `quant-analyst` - Financial modeling\n- `risk-manager` - Portfolio risk management\n- `docs-architect` - Comprehensive technical documentation from codebases\n- `tutorial-engineer` - Step-by-step tutorials and educational content\n\n## Installation\n\nThese subagents are automatically available when placed in `~/.claude/agents/` directory.\n",
+    "ContentSha": "tRRArIv6BKMdI2YUjLnJwpefD1YUAr2VbR4uB509iqI=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- `mermaid-expert` - Mermaid 다이어그램 및 시각적 문서화\n- `flutter-expert` - Flutter 개발\n- `seo-content-auditor` - 콘텐츠 품질 및 E-E-A-T 분석\n- `seo-authority-builder` - 권위 신호 최적화\n- `seo-content-writer` - SEO 최적화 콘텐츠 작성\n\n### 🧠 Opus (최대 능력치) - 15 에이전트\n**모델:** `opus`\n- `ai-engineer` - LLM 애플리케이션 및 RAG 시스템\n- `security-auditor` - 취약점 분석\n- `performance-engineer` - 애플리케이션 최적화\n- `incident-responder` - 프로덕션 사고 대응\n- `mlops-engineer` - ML 인프라\n- `architect-reviewer` - 아키텍처 일관성 검토\n- `cloud-architect` - 클라우드 인프라 설계\n- `prompt-engineer` - LLM 프롬프트 최적화\n- `context-manager` - 멀티 에이전트 조정\n- `quant-analyst` - 금융 모델링\n- `risk-manager` - 포트폴리오 위험 관리\n- `docs-architect` - 코드베이스 기반의 종합 기술 문서화\n- `tutorial-engineer` - 단계별 튜토리얼 및 교육 콘텐츠\n\n## 설치\n\n이 서브에이전트들은 `~/.claude/agents/` 디렉토리에 배치하면 자동으로 사용할 수 있습니다.\n",
+    "Translation": "- `legacy-modernizer` - 프레임워크 마이그레이션\n- `payment-integration` - 결제 처리\n- `mermaid-expert` - Mermaid 다이어그램 및 시각적 문서화\n- `flutter-expert` - Flutter 개발\n- `seo-content-auditor` - 콘텐츠 품질 및 E-E-A-T 분석\n- `seo-authority-builder` - 권위 신호 최적화\n- `seo-content-writer` - SEO 최적화 콘텐츠 제작\n\n### 🧠 Opus (최대 역량) - 15 에이전트\n**모델:** `opus`\n- `ai-engineer` - LLM 애플리케이션 및 RAG 시스템\n- `security-auditor` - 취약점 분석\n- `performance-engineer` - 애플리케이션 최적화\n- `incident-responder` - 프로덕션 사고 대응\n- `mlops-engineer` - ML 인프라스트럭처\n- `architect-reviewer` - 아키텍처 일관성\n- `cloud-architect` - 클라우드 인프라 설계\n- `prompt-engineer` - LLM 프롬프트 최적화\n- `context-manager` - 다중 에이전트 조정\n- `quant-analyst` - 금융 모델링\n- `risk-manager` - 포트폴리오 리스크 관리\n- `docs-architect` - 코드베이스 기반 종합 기술 문서화\n- `tutorial-engineer` - 단계별 튜토리얼 및 교육 콘텐츠\n\n## 설치\n\n이 서브에이전트들은 `~/.claude/agents/` 디렉터리에 위치할 경우 자동으로 사용할 수 있습니다.\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "X+sB25hqD5ysHVonWzRxLsxvdYaA3+Hq6VrzI3bOpDo=",
+        "originContent": "- `legacy-modernizer` - Framework migrations",
+        "translatedContent": "- `legacy-modernizer` - 프레임워크 마이그레이션"
+      },
+      {
+        "row": 2,
+        "rowsha": "5i8Ig+Nq3koSyW3HYaQjZfsc2eTgZe84FhpS3C/0gtk=",
+        "originContent": "- `payment-integration` - Payment processing",
+        "translatedContent": "- `payment-integration` - 결제 처리"
+      },
+      {
+        "row": 3,
         "rowsha": "Q8eXQ2prCr3rep+z0ZX65DoTo1e5I/HLNjcXhxdiSrk=",
         "originContent": "- `mermaid-expert` - Mermaid diagrams and visual documentation",
         "translatedContent": "- `mermaid-expert` - Mermaid 다이어그램 및 시각적 문서화"
       },
       {
-        "row": 2,
+        "row": 4,
         "rowsha": "Ker7wu9ZCJPHs4LprGoKME00aBmmJ99TpBgOn2icdXU=",
         "originContent": "- `flutter-expert` - Flutter development",
         "translatedContent": "- `flutter-expert` - Flutter 개발"
       },
       {
-        "row": 3,
+        "row": 5,
         "rowsha": "ei+pdmRn9Y6Jd7pF9VdEB43kgmae2XvrX/LUnkUipPQ=",
         "originContent": "- `seo-content-auditor` - Content quality and E-E-A-T analysis",
         "translatedContent": "- `seo-content-auditor` - 콘텐츠 품질 및 E-E-A-T 분석"
       },
       {
-        "row": 4,
+        "row": 6,
         "rowsha": "ZzDq8K0ffTGBjF7jGn1Emr7dxdSoguUCrZcJcwj3fvo=",
         "originContent": "- `seo-authority-builder` - Authority signal optimization",
         "translatedContent": "- `seo-authority-builder` - 권위 신호 최적화"
       },
       {
-        "row": 5,
+        "row": 7,
         "rowsha": "AMalGKC/L73qhyXaR2fgIQyiC7XO/6W27zOgBnRj7uc=",
         "originContent": "- `seo-content-writer` - SEO-optimized content creation",
-        "translatedContent": "- `seo-content-writer` - SEO 최적화 콘텐츠 작성"
+        "translatedContent": "- `seo-content-writer` - SEO 최적화 콘텐츠 제작"
       },
       {
-        "row": 6,
+        "row": 8,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 7,
+        "row": 9,
         "rowsha": "f8Gw4i+W4HS0ZiS+SXQQvxlukp0Xx4/drtAlvKeHfeU=",
         "originContent": "### 🧠 Opus (Maximum Capability) - 15 agents",
-        "translatedContent": "### 🧠 Opus (최대 능력치) - 15 에이전트"
+        "translatedContent": "### 🧠 Opus (최대 역량) - 15 에이전트"
       },
       {
-        "row": 8,
+        "row": 10,
         "rowsha": "X1Z9CrcTozxVAbsYw2LgjNT4i43aPaVLdOqFocRt2+g=",
         "originContent": "**Model:** `opus`",
         "translatedContent": "**모델:** `opus`"
       },
       {
-        "row": 9,
+        "row": 11,
         "rowsha": "DzER6GtvPH31oFyRsZL32gbA0Hw4ZAsem08fP8Pg8Tk=",
         "originContent": "- `ai-engineer` - LLM applications and RAG systems",
         "translatedContent": "- `ai-engineer` - LLM 애플리케이션 및 RAG 시스템"
       },
       {
-        "row": 10,
+        "row": 12,
         "rowsha": "EmQe2u3TNilulalvfkY5hftQtz+cB1YsJx/PAk8Rs3s=",
         "originContent": "- `security-auditor` - Vulnerability analysis",
         "translatedContent": "- `security-auditor` - 취약점 분석"
       },
       {
-        "row": 11,
+        "row": 13,
         "rowsha": "E6iYLXqqrtt9J8NEaYQoE9Nu0Nj4nYaSeMLHaXoNrCw=",
         "originContent": "- `performance-engineer` - Application optimization",
         "translatedContent": "- `performance-engineer` - 애플리케이션 최적화"
       },
       {
-        "row": 12,
+        "row": 14,
         "rowsha": "CnyaInxCRYJYT8haKGKHcWVxSezuSroxq5JaeDkbt5Y=",
         "originContent": "- `incident-responder` - Production incident handling",
         "translatedContent": "- `incident-responder` - 프로덕션 사고 대응"
       },
       {
-        "row": 13,
+        "row": 15,
         "rowsha": "ayvO2N1GbbJDM1KMWzbs7GbwpP7x3sEE3RyQwB6RAm4=",
         "originContent": "- `mlops-engineer` - ML infrastructure",
-        "translatedContent": "- `mlops-engineer` - ML 인프라"
+        "translatedContent": "- `mlops-engineer` - ML 인프라스트럭처"
       },
       {
-        "row": 14,
+        "row": 16,
         "rowsha": "t0rQfkkIyNokSFgBxM+G2h7TX0hap0cYbi+fGLk0qUs=",
         "originContent": "- `architect-reviewer` - Architectural consistency",
-        "translatedContent": "- `architect-reviewer` - 아키텍처 일관성 검토"
+        "translatedContent": "- `architect-reviewer` - 아키텍처 일관성"
       },
       {
-        "row": 15,
+        "row": 17,
         "rowsha": "BJDG+a8HAAb/n0rpXtgRTvfvwwPLgl3cyC+crCt9tFI=",
         "originContent": "- `cloud-architect` - Cloud infrastructure design",
         "translatedContent": "- `cloud-architect` - 클라우드 인프라 설계"
       },
       {
-        "row": 16,
+        "row": 18,
         "rowsha": "pIfYYhIRmrNEsdUBgE8qTBqrOs4E6cUZO+EczHCXKQo=",
         "originContent": "- `prompt-engineer` - LLM prompt optimization",
         "translatedContent": "- `prompt-engineer` - LLM 프롬프트 최적화"
       },
       {
-        "row": 17,
+        "row": 19,
         "rowsha": "+gWO3vGU5UmcXI5EcT1QhYoFFAhcA2n7hWK0C92zCOs=",
         "originContent": "- `context-manager` - Multi-agent coordination",
-        "translatedContent": "- `context-manager` - 멀티 에이전트 조정"
+        "translatedContent": "- `context-manager` - 다중 에이전트 조정"
       },
       {
-        "row": 18,
+        "row": 20,
         "rowsha": "CJmltCfdnysKnRDGwoD+6NkmMbFVSwKahV+lDU84m+I=",
         "originContent": "- `quant-analyst` - Financial modeling",
         "translatedContent": "- `quant-analyst` - 금융 모델링"
       },
       {
-        "row": 19,
+        "row": 21,
         "rowsha": "UqvuUtJi61sjvF8j8TUX3eexwQ3FDENChpwFCBExC0A=",
         "originContent": "- `risk-manager` - Portfolio risk management",
-        "translatedContent": "- `risk-manager` - 포트폴리오 위험 관리"
-      },
-      {
-        "row": 20,
-        "rowsha": "OZb/DJ284AVjVGaRIzbRzTKvh0wy+aGkK/ps/cHh7+Q=",
-        "originContent": "- `docs-architect` - Comprehensive technical documentation from codebases",
-        "translatedContent": "- `docs-architect` - 코드베이스 기반의 종합 기술 문서화"
-      },
-      {
-        "row": 21,
-        "rowsha": "sCY1eCO8cv3v7gXcYEIbMpgGsomn1IK4D/Ryhflz1H4=",
-        "originContent": "- `tutorial-engineer` - Step-by-step tutorials and educational content",
-        "translatedContent": "- `tutorial-engineer` - 단계별 튜토리얼 및 교육 콘텐츠"
+        "translatedContent": "- `risk-manager` - 포트폴리오 리스크 관리"
       },
       {
         "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "OZb/DJ284AVjVGaRIzbRzTKvh0wy+aGkK/ps/cHh7+Q=",
+        "originContent": "- `docs-architect` - Comprehensive technical documentation from codebases",
+        "translatedContent": "- `docs-architect` - 코드베이스 기반 종합 기술 문서화"
       },
       {
         "row": 23,
-        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
-        "originContent": "## Installation",
-        "translatedContent": "## 설치"
+        "rowsha": "sCY1eCO8cv3v7gXcYEIbMpgGsomn1IK4D/Ryhflz1H4=",
+        "originContent": "- `tutorial-engineer` - Step-by-step tutorials and educational content",
+        "translatedContent": "- `tutorial-engineer` - 단계별 튜토리얼 및 교육 콘텐츠"
       },
       {
         "row": 24,
@@ -1179,12 +1179,24 @@
       },
       {
         "row": 25,
-        "rowsha": "+kqvi/1PA0h03c1iJ0MDkMhYFpmwxPZSIqzXhIQDujI=",
-        "originContent": "These subagents are automatically available when placed in `~/.claude/agents/` directory.",
-        "translatedContent": "이 서브에이전트들은 `~/.claude/agents/` 디렉토리에 배치하면 자동으로 사용할 수 있습니다."
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 설치"
       },
       {
         "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "+kqvi/1PA0h03c1iJ0MDkMhYFpmwxPZSIqzXhIQDujI=",
+        "originContent": "These subagents are automatically available when placed in `~/.claude/agents/` directory.",
+        "translatedContent": "이 서브에이전트들은 `~/.claude/agents/` 디렉터리에 위치할 경우 자동으로 사용할 수 있습니다."
+      },
+      {
+        "row": 28,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -1441,248 +1453,7 @@
     "EndLine": 0,
     "Translation": "- **mlops-engineer**: ML 인프라, 실험 추적, 모델 레지스트리, 파이프라인 자동화\n\n### 🧪 품질 보증\n- **code-reviewer**: 코드 품질, 구성 보안, 프로덕션 신뢰성\n- **test-automator**: 테스트 전략, 테스트 스위트 생성\n- **debugger**: 버그 조사, 오류 해결\n- **error-detective**: 로그 분석, 오류 패턴 인식, 근본 원인 분석\n- **search-specialist**: 딥 웹 리서치, 경쟁 분석, 사실 확인\n\n### 📚 문서화\n- **api-documenter**: OpenAPI/Swagger 명세, API 문서화\n- **docs-architect**: 종합 기술 문서, 아키텍처 가이드, 시스템 매뉴얼\n- **reference-builder**: 철저한 API 참고자료, 구성 가이드, 파라미터 문서화\n- **tutorial-engineer**: 단계별 튜토리얼, 학습 경로, 교육 콘텐츠\n\n### 💼 비즈니스 및 전략\n- **business-analyst**: KPI, 수익 모델, 성장 전망, 투자자 지표\n- **risk-manager**: 포트폴리오 위험, 헤징 전략, R-멀티플, 포지션 사이징\n- **content-marketer**: SEO 콘텐츠, 블로그 포스트, 소셜 미디어, 이메일 캠페인\n- **sales-automator**: 콜드 이메일, 팔로업, 제안서, 리드 육성\n- **customer-support**: 지원 티켓, FAQ, 도움말 문서, 문제 해결\n- **legal-advisor** - 개인정보 보호정책, 서비스 약관, 면책 조항, 법적 고지 작성\n\n## 모범 사례\n\n### 🎯 작업 위임\n1. **Claude Code가 자동으로 위임하게 하세요** - 메인 에이전트가 컨텍스트를 분석하고 최적의 에이전트 선택\n2. **요구사항을 구체적으로 작성하세요** - 제약, 기술 스택, 품질 요구사항 포함\n3. **에이전트의 전문성을 신뢰하세요** - 각 에이전트는 해당 도메인에 최적화됨\n\n### 🔄 다중 에이전트 워크플로\n4. **상위 레벨 요청으로 시작하세요** - 에이전트들이 복잡한 다단계 작업을 조정하게 하세요\n5. **에이전트 간 컨텍스트 제공** - 에이전트가 필요한 배경 정보를 갖도록 보장\n6. **통합 지점 검토** - 서로 다른 에이전트의 결과물이 어떻게 함께 작동하는지 확인\n\n### 🎛️ 명시적 제어\n7. **특정 필요에 명시적 호출 사용** - 특정 전문가의 관점을 원할 때\n8. **여러 에이전트를 전략적으로 조합** - 다양한 전문가가 서로의 작업을 검증할 수 있음\n9. **특정 리뷰 패턴 요청** - \"security-auditor가 backend-architect의 API 설계를 리뷰하게 하세요\"\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "HQ3frhSMRev6V78hFeENSpY55fVywNWKvPl4Re9Jdgc=",
-        "originContent": "- **mlops-engineer**: ML infrastructure, experiment tracking, model registries, pipeline automation",
-        "translatedContent": "- **mlops-engineer**: ML 인프라, 실험 추적, 모델 레지스트리, 파이프라인 자동화"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "/97TzVdVSHowMxieKHSj3E3fDEVDc16TyK1F8H/GZv4=",
-        "originContent": "### 🧪 Quality Assurance",
-        "translatedContent": "### 🧪 품질 보증"
-      },
-      {
-        "row": 4,
-        "rowsha": "IBCK2gc25tUAHXnk8zT1Mt6GAPCtdsznLc4BhSYbDPk=",
-        "originContent": "- **code-reviewer**: Code quality, configuration security, production reliability",
-        "translatedContent": "- **code-reviewer**: 코드 품질, 구성 보안, 프로덕션 신뢰성"
-      },
-      {
-        "row": 5,
-        "rowsha": "07tE4CGri1CHSAKE1/PJzcv2v4mISMT3vplXCvTj8Ho=",
-        "originContent": "- **test-automator**: Test strategy, test suite creation",
-        "translatedContent": "- **test-automator**: 테스트 전략, 테스트 스위트 생성"
-      },
-      {
-        "row": 6,
-        "rowsha": "S+2TwYNCv3zrf/2knhyApIpi9EFH8pt0IYWGbkYbqKI=",
-        "originContent": "- **debugger**: Bug investigation, error resolution",
-        "translatedContent": "- **debugger**: 버그 조사, 오류 해결"
-      },
-      {
-        "row": 7,
-        "rowsha": "pE/z4unE8qAF2iRS0C7r7uROEava1HtV+GolPQ804Ow=",
-        "originContent": "- **error-detective**: Log analysis, error pattern recognition, root cause analysis",
-        "translatedContent": "- **error-detective**: 로그 분석, 오류 패턴 인식, 근본 원인 분석"
-      },
-      {
-        "row": 8,
-        "rowsha": "7Z4JJ4/75zjadkr1b8AGrQjPWu8E4UYIu/Kd7CYPxiU=",
-        "originContent": "- **search-specialist**: Deep web research, competitive analysis, fact-checking",
-        "translatedContent": "- **search-specialist**: 딥 웹 리서치, 경쟁 분석, 사실 확인"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "+hz57qoY0fgtGIZKxDRiMQq2kSD4SlMDkKV7RiP/Js0=",
-        "originContent": "### 📚 Documentation",
-        "translatedContent": "### 📚 문서화"
-      },
-      {
-        "row": 11,
-        "rowsha": "c2b6mM+T88cWU6/W7XzKvvrTQoY2VXl3rfzlzXDvj7U=",
-        "originContent": "- **api-documenter**: OpenAPI/Swagger specs, API documentation",
-        "translatedContent": "- **api-documenter**: OpenAPI/Swagger 명세, API 문서화"
-      },
-      {
-        "row": 12,
-        "rowsha": "yMRTkyb/U5kAGArGA8O0jb00I5/8Qh78N5kHlcVKy1g=",
-        "originContent": "- **docs-architect**: Comprehensive technical documentation, architecture guides, system manuals",
-        "translatedContent": "- **docs-architect**: 종합 기술 문서, 아키텍처 가이드, 시스템 매뉴얼"
-      },
-      {
-        "row": 13,
-        "rowsha": "C0HANbzMVq6VS9UZJgSZC10ey4OQXc7SfsEiLlaANLI=",
-        "originContent": "- **reference-builder**: Exhaustive API references, configuration guides, parameter documentation",
-        "translatedContent": "- **reference-builder**: 철저한 API 참고자료, 구성 가이드, 파라미터 문서화"
-      },
-      {
-        "row": 14,
-        "rowsha": "x92hRRi/KACWhfl1bMU/Ar69l2KEGqYDucUZdm8WUuQ=",
-        "originContent": "- **tutorial-engineer**: Step-by-step tutorials, learning paths, educational content",
-        "translatedContent": "- **tutorial-engineer**: 단계별 튜토리얼, 학습 경로, 교육 콘텐츠"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "n3qDJ/g7eOYZvzAoGlbFNPgAwF+gn3oO+lUkNHW30Ag=",
-        "originContent": "### 💼 Business & Strategy",
-        "translatedContent": "### 💼 비즈니스 및 전략"
-      },
-      {
-        "row": 17,
-        "rowsha": "xmCGznQIzimEwllGsOhisQ0d73cmMcnjLLQk1XqynaU=",
-        "originContent": "- **business-analyst**: KPIs, revenue models, growth projections, investor metrics",
-        "translatedContent": "- **business-analyst**: KPI, 수익 모델, 성장 전망, 투자자 지표"
-      },
-      {
-        "row": 18,
-        "rowsha": "ao/cEOjviV0+SlvPzcMIIvaEd0y1ICljIlIiVXkCXoA=",
-        "originContent": "- **risk-manager**: Portfolio risk, hedging strategies, R-multiples, position sizing",
-        "translatedContent": "- **risk-manager**: 포트폴리오 위험, 헤징 전략, R-멀티플, 포지션 사이징"
-      },
-      {
-        "row": 19,
-        "rowsha": "shVZiyce8/ZasBucipvCnfAhDvAGrz9Og04D7l2IhtI=",
-        "originContent": "- **content-marketer**: SEO content, blog posts, social media, email campaigns",
-        "translatedContent": "- **content-marketer**: SEO 콘텐츠, 블로그 포스트, 소셜 미디어, 이메일 캠페인"
-      },
-      {
-        "row": 20,
-        "rowsha": "p7UnUXIjhfB48fAAc+FC9AIq6zLJevKMSMEzbMBfmCI=",
-        "originContent": "- **sales-automator**: Cold emails, follow-ups, proposals, lead nurturing",
-        "translatedContent": "- **sales-automator**: 콜드 이메일, 팔로업, 제안서, 리드 육성"
-      },
-      {
-        "row": 21,
-        "rowsha": "PghqkctuxuweM1oomuZtKdlui13ho9unpZztAcef2c4=",
-        "originContent": "- **customer-support**: Support tickets, FAQs, help documentation, troubleshooting",
-        "translatedContent": "- **customer-support**: 지원 티켓, FAQ, 도움말 문서, 문제 해결"
-      },
-      {
-        "row": 22,
-        "rowsha": "HTd2BL4aOGm8aVcYwKkGl4WuZ+oeuYpGY4kvnim/2wE=",
-        "originContent": "- **legal-advisor** - Draft privacy policies, terms of service, disclaimers, and legal notices",
-        "translatedContent": "- **legal-advisor** - 개인정보 보호정책, 서비스 약관, 면책 조항, 법적 고지 작성"
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "D0Q/1tx0tI6c2GIh3eW5hOR5oD5PFrsuC21txCOwOpM=",
-        "originContent": "## Best Practices",
-        "translatedContent": "## 모범 사례"
-      },
-      {
-        "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "gY9vCIqw8etMhyHBoWcY4e5PuXLuRuQnEY1ps/4DIAc=",
-        "originContent": "### 🎯 Task Delegation",
-        "translatedContent": "### 🎯 작업 위임"
-      },
-      {
-        "row": 27,
-        "rowsha": "mzPQhwyA+64DTbcDxZ/OKcVgYfKQGGVlnubAbeZZ9vc=",
-        "originContent": "1. **Let Claude Code delegate automatically** - The main agent analyzes context and selects optimal agents",
-        "translatedContent": "1. **Claude Code가 자동으로 위임하게 하세요** - 메인 에이전트가 컨텍스트를 분석하고 최적의 에이전트 선택"
-      },
-      {
-        "row": 28,
-        "rowsha": "AOukqmSHShY+EL8ET0U3uX6b2tEzdqIH24CHEQoG6Jw=",
-        "originContent": "2. **Be specific about requirements** - Include constraints, tech stack, and quality requirements",
-        "translatedContent": "2. **요구사항을 구체적으로 작성하세요** - 제약, 기술 스택, 품질 요구사항 포함"
-      },
-      {
-        "row": 29,
-        "rowsha": "ea02fBpK58SU2TNxMgIe8kBro/OsHtWeXbhbmecIJxw=",
-        "originContent": "3. **Trust agent expertise** - Each agent is optimized for their domain",
-        "translatedContent": "3. **에이전트의 전문성을 신뢰하세요** - 각 에이전트는 해당 도메인에 최적화됨"
-      },
-      {
-        "row": 30,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 31,
-        "rowsha": "4o8S6Z39aLXTEMIdw4AJb5HFYNEFdQowzxXl/nvOAz0=",
-        "originContent": "### 🔄 Multi-Agent Workflows",
-        "translatedContent": "### 🔄 다중 에이전트 워크플로"
-      },
-      {
-        "row": 32,
-        "rowsha": "ZUrpjZJ0fVOZmqhVbsTvCFrjl0yPbtFr+H1d8blW+wI=",
-        "originContent": "4. **Start with high-level requests** - Let agents coordinate complex multi-step tasks",
-        "translatedContent": "4. **상위 레벨 요청으로 시작하세요** - 에이전트들이 복잡한 다단계 작업을 조정하게 하세요"
-      },
-      {
-        "row": 33,
-        "rowsha": "rPBL7dJ4QE+kaBrEzXJUDF4z/vyExkDPAxbuviZeadQ=",
-        "originContent": "5. **Provide context between agents** - Ensure agents have necessary background information",
-        "translatedContent": "5. **에이전트 간 컨텍스트 제공** - 에이전트가 필요한 배경 정보를 갖도록 보장"
-      },
-      {
-        "row": 34,
-        "rowsha": "KaCBWisW87XtjI45FCDATlKXN4uwSyUhlNoyKVZgnoo=",
-        "originContent": "6. **Review integration points** - Check how different agents' outputs work together",
-        "translatedContent": "6. **통합 지점 검토** - 서로 다른 에이전트의 결과물이 어떻게 함께 작동하는지 확인"
-      },
-      {
-        "row": 35,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 36,
-        "rowsha": "AIurfA5Xe113UyKyFtCPzL13V8dLz268YTJvv4gOqQI=",
-        "originContent": "### 🎛️ Explicit Control",
-        "translatedContent": "### 🎛️ 명시적 제어"
-      },
-      {
-        "row": 37,
-        "rowsha": "kqHXHONRqaHnGXLJGIXHSd4EL+bI24W0Yqox92DfFpk=",
-        "originContent": "7. **Use explicit invocation for specific needs** - When you want a particular expert's perspective",
-        "translatedContent": "7. **특정 필요에 명시적 호출 사용** - 특정 전문가의 관점을 원할 때"
-      },
-      {
-        "row": 38,
-        "rowsha": "53nzyUJWTmCUhjfw+YDuYFS/ITAxM1i0l06lRfflC/A=",
-        "originContent": "8. **Combine multiple agents strategically** - Different specialists can validate each other's work",
-        "translatedContent": "8. **여러 에이전트를 전략적으로 조합** - 다양한 전문가가 서로의 작업을 검증할 수 있음"
-      },
-      {
-        "row": 39,
-        "rowsha": "DzZYEQYUkYRnpmYQax/fWiK6cC8Kh32OSCYb0ev7d8M=",
-        "originContent": "9. **Request specific review patterns** - \"Have security-auditor review backend-architect's API design\"",
-        "translatedContent": "9. **특정 리뷰 패턴 요청** - \"security-auditor가 backend-architect의 API 설계를 리뷰하게 하세요\""
-      },
-      {
-        "row": 40,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {

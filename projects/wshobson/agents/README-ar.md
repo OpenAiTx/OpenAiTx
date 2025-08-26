@@ -40,189 +40,191 @@
 ## الوكلاء الفرعيون المتوفرون
 
 ### التطوير والهندسة المعمارية
-- **[مهندس خلفية](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - تصميم واجهات RESTful، حدود الخدمات المصغرة، ومخططات قواعد البيانات
-- **[مطور الواجهة الأمامية](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - بناء مكونات React، تنفيذ تصاميم متجاوبة، وإدارة حالة العميل
-- **[مصمم واجهة المستخدم وتجربة المستخدم](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - إنشاء تصاميم الواجهات، المخططات، وأنظمة التصميم
-- **[مطور تطبيقات الجوال](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - تطوير تطبيقات React Native أو Flutter مع التكاملات الأصلية
-- **[مهندس GraphQL](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - تصميم مخططات GraphQL، المحللات، والفيدرالية
-- **[مراجع الهندسة المعمارية](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - مراجعة تغييرات الكود لضمان الاتساق والأنماط المعمارية
+- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - تصميم واجهات RESTful، حدود الخدمات المصغرة، ومخططات قواعد البيانات
+- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - بناء مكونات React، تنفيذ تخطيطات متجاوبة، وإدارة حالة العميل
+- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - إنشاء تصاميم الواجهات، الرسوم التخطيطية، وأنظمة التصميم
+- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - تطوير تطبيقات React Native أو Flutter مع التكاملات الأصلية
+- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - تصميم مخططات GraphQL، المحولات، والتوزيع الاتحادي
+- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - مراجعة تغييرات الشيفرة لضمان الاتساق المعماري والأنماط
 
 ### متخصصو اللغات البرمجية
-- **[خبير بايثون](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - كتابة كود بايثون متقدم مع ميزات وتحسينات متطورة
-- **[خبير روبي](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - كتابة كود روبي متقدم باستخدام البرمجة الميتا، أنماط Rails، تطوير الموديولات، وأطر الاختبار
-- **[خبير جو](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - كتابة كود Go متقدم مع goroutines، القنوات، والواجهات
-- **[خبير راست](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - كتابة كود راست متقدم بأنماط الملكية، الأعمار، وتنفيذ السمات
-- **[خبير سي](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - كتابة كود سي فعال بإدارة الذاكرة المناسبة واستدعاءات النظام
-- **[خبير سي++](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - كتابة كود سي++ متقدم بميزات حديثة، RAII، المؤشرات الذكية، وخوارزميات STL
-- **[خبير جافاسكريبت](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - إتقان جافاسكريبت الحديثة مع ES6+، أنماط غير متزامنة، وواجهات Node.js
-- **[خبير تايب سكريبت](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - إتقان تايب سكريبت بأنواع متقدمة، عامات، وضمان أمان الأنواع الصارم
-- **[خبير PHP](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - كتابة كود PHP متقدم بميزات حديثة وتحسينات الأداء
-- **[خبير جافا](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - إتقان جافا الحديثة مع التدفقات، التزامن، وتحسين JVM
-- **[خبير إليكسير](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - كتابة كود إليكسير متقدم بأنماط OTP، البرمجة الوظيفية، وأطر Phoenix
-- **[خبير سي#](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - كتابة كود سي# حديث بميزات متقدمة وتحسين .NET
-- **[خبير سكالا](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - إتقان تطوير سكالا للمؤسسات مع البرمجة الوظيفية، الأنظمة الموزعة، ومعالجة البيانات الضخمة
-- **[خبير Flutter](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - إتقان تطوير Flutter مع Dart، الويدجتس، وتكامل المنصات
-- **[مطور Unity](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - بناء ألعاب Unity بسكريبتات محسنة وضبط الأداء
-- **[خبير Minecraft Bukkit](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - إتقان تطوير إضافات خادم Minecraft باستخدام Bukkit وSpigot وPaper APIs
-- **[مطور iOS](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - تطوير تطبيقات iOS أصلية باستخدام Swift/SwiftUI
-- **[خبير SQL](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - كتابة استعلامات SQL معقدة، تحسين خطط التنفيذ، وتصميم مخططات منطقية
+- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - كتابة شيفرة بايثون معيارية بميزات متقدمة وتحسينات
+- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - كتابة شيفرة روبي معيارية مع البرمجة الفوقية، أنماط Rails، تطوير الحزم، وأطر الاختبار
+- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - كتابة شيفرة Go معيارية باستخدام goroutines، القنوات، والواجهات
+- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - كتابة شيفرة Rust معيارية بأنماط الملكية، الأعمار، وتنفيذ السمات
+- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - كتابة شيفرة C فعالة بإدارة ذاكرة صحيحة واستدعاءات النظام
+- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - كتابة شيفرة ++C معيارية بميزات حديثة، RAII، المؤشرات الذكية، وخوارزميات STL
+- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - إتقان جافاسكريبت الحديثة مع ES6+، أنماط غير متزامنة، وواجهات برمجة تطبيقات Node.js
+- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - إتقان TypeScript بأنواع متقدمة، أنواع عامة، وأمان نوعي صارم
+- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - كتابة شيفرة PHP معيارية بميزات حديثة وتحسينات الأداء
+- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - إتقان جافا الحديثة مع التدفقات، التزامن، وتحسين JVM
+- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - كتابة شيفرة Elixir معيارية بأنماط OTP، البرمجة الوظيفية، وأطر Phoenix
+- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - كتابة شيفرة C# حديثة بميزات متقدمة وتحسين .NET
+- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - إتقان تطوير Scala على مستوى المؤسسات بالبرمجة الوظيفية، الأنظمة الموزعة، ومعالجة البيانات الضخمة
+- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - إتقان تطوير Flutter باستخدام Dart، الويدجتس، وتكامل المنصات
+- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - بناء ألعاب Unity بشيفرة محسنة وضبط الأداء
+- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - إتقان تطوير إضافات خادم Minecraft باستخدام واجهات Bukkit وSpigot وPaper
+- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - تطوير تطبيقات iOS أصلية باستخدام Swift/SwiftUI
+- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - كتابة استعلامات SQL معقدة، تحسين خطط التنفيذ، وتصميم مخططات منسقة
 
 ### البنية التحتية والعمليات
-- **[مستكشف مشاكل DevOps](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - تصحيح مشاكل الإنتاج، تحليل السجلات، وإصلاح أعطال النشر
-- **[مهندس النشر](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - إعداد خطوط CI/CD، حاويات Docker، وعمليات نشر السحابة
-- **[مهندس السحابة](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - تصميم بنية AWS/Azure/GCP وتحسين تكاليف السحابة
-- **[محسن قواعد البيانات](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - تحسين استعلامات SQL، تصميم الفهارس الفعالة، وإدارة ترحيل قواعد البيانات
-- **[مدير قواعد البيانات](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - إدارة عمليات قواعد البيانات، النسخ الاحتياطي، التكرار، والمراقبة
-- **[خبير Terraform](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - كتابة وحدات Terraform متقدمة، إدارة ملفات الحالة، وتطبيق أفضل ممارسات IaC
-- **[مستجيب الحوادث](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - التعامل مع الحوادث الإنتاجية بسرعة ودقة
-- **[مهندس الشبكات](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - تصحيح مشاكل الاتصال الشبكي، إعداد موازنات التحميل، وتحليل أنماط المرور
-- **[محسن تجربة المطورين](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - متخصص تحسين تجربة المطورين عبر الأدوات والإعدادات وسير العمل
+- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - تصحيح مشكلات الإنتاج، تحليل السجلات، وإصلاح إخفاقات النشر
+- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - تهيئة خطوط CI/CD، حاويات Docker، ونشر السحابة
+- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - تصميم بنية AWS/Azure/GCP وتحسين تكاليف السحابة
+- **[hybrid-cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/hybrid-cloud-architect.md)** - تصميم بنية سحابية هجينة عبر AWS/Azure/GCP وبيئات OpenStack المحلية
+- **[kubernetes-architect](https://raw.githubusercontent.com/wshobson/agents/main/kubernetes-architect.md)** - تصميم بنية تحتية سحابية أصلية مع Kubernetes كمحور ومبادئ GitOps عبر AWS/Azure/GCP والبيئات المختلطة.
+- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - تحسين استعلامات SQL، تصميم فهارس فعالة، والتعامل مع ترحيل قواعد البيانات
+- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - إدارة عمليات قواعد البيانات، النسخ الاحتياطي، التكرار، والمراقبة
+- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - كتابة وحدات Terraform متقدمة، إدارة ملفات الحالة، وتنفيذ أفضل ممارسات IaC
+- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - التعامل مع الحوادث الإنتاجية بسرعة ودقة
+- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - تصحيح مشاكل اتصال الشبكة، تهيئة موازنات التحميل، وتحليل أنماط حركة المرور
+- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - متخصص تجربة المطورين لتحسين الأدوات والإعدادات وسير العمل
 
 ### الجودة والأمان
-- **[مراجع الكود](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - مراجعة كود احترافية مع تركيز عميق على أمان التكوين وموثوقية الإنتاج
-- **[مدقق الأمان](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - مراجعة الكود للكشف عن الثغرات وضمان الامتثال لـ OWASP
-- **[مؤتمت الاختبار](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - إنشاء مجموعات اختبار شاملة من وحدات واختبارات تكامل واختبارات شاملة (e2e)
-- **[مهندس الأداء](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - تحليل أداء التطبيقات، وتحسين نقاط الاختناق، وتطبيق استراتيجيات التخزين المؤقت
-- **[المصحح](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - متخصص في تصحيح الأخطاء، وإخفاقات الاختبار، والسلوك غير المتوقع
-- **[محقق الأخطاء](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - البحث في السجلات وقواعد الكود عن أنماط الأخطاء، وتتبع المكدس، والشذوذ
-- **[خبير البحث](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - باحث ويب خبير باستخدام تقنيات البحث المتقدمة والتركيب
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - مراجعة كود احترافية مع تركيز عميق على أمان التكوين وموثوقية الإنتاج
+- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - مراجعة الكود بحثًا عن الثغرات وضمان الامتثال لمعايير OWASP
+- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - إنشاء مجموعات اختبار شاملة تتضمن اختبار وحدات وتكامل واختبار شامل للنظام
+- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - تحليل أداء التطبيقات وتحسين نقاط الاختناق وتنفيذ استراتيجيات التخزين المؤقت
+- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - متخصص في تصحيح الأخطاء، وفشل الاختبارات، والسلوك غير المتوقع
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - البحث في السجلات وقواعد الكود عن أنماط الأخطاء وتتبع الأكواد والشذوذات
+- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - باحث ويب خبير باستخدام تقنيات بحث متقدمة وتركيب النتائج
 
 ### البيانات والذكاء الاصطناعي
-- **[عالم البيانات](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - خبير تحليل البيانات في استعلامات SQL وعمليات BigQuery والرؤى البيانية
-- **[مهندس البيانات](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - بناء خطوط نقل البيانات (ETL)، ومستودعات البيانات، وهياكل البث
-- **[مهندس الذكاء الاصطناعي](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - بناء تطبيقات النماذج اللغوية الكبيرة (LLM)، وأنظمة RAG، وخطوط تحفيز النماذج
-- **[مهندس تعلم الآلة](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - تنفيذ خطوط تعلم الآلة، تقديم النماذج، وهندسة الميزات
-- **[مهندس عمليات تعلم الآلة](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - بناء خطوط تعلم الآلة، وتتبع التجارب، وسجلات النماذج
-- **[مهندس التحفيز](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - تحسين التحفيزات للنماذج اللغوية الكبيرة وأنظمة الذكاء الاصطناعي
+- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - خبير تحليل البيانات في استعلامات SQL وعمليات BigQuery واستخلاص الرؤى
+- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - بناء خطوط ETL ومستودعات البيانات وهياكل البث المباشر
+- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - بناء تطبيقات LLM وأنظمة RAG وخطوط تجهيز المطالبات
+- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - تنفيذ خطوط ML، وتقديم النماذج، وهندسة الميزات
+- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - بناء خطوط ML، وتتبع التجارب، وسجلات النماذج
+- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - تحسين المطالبات لأنظمة LLM والذكاء الاصطناعي
 
 ### المجالات المتخصصة
-- **[موثق الواجهات البرمجية](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - إنشاء مواصفات OpenAPI/Swagger وكتابة وثائق المطورين
-- **[تكامل الدفع](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - دمج خدمات Stripe، PayPal، ومعالجات الدفع
-- **[محلل الكم](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - بناء نماذج مالية، واختبار استراتيجيات التداول، وتحليل بيانات السوق
-- **[مدير المخاطر](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - مراقبة مخاطر المحافظ، ومتعددات R، وحدود المراكز
-- **[محدث الأنظمة القديمة](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - إعادة هيكلة قواعد الكود القديمة وتنفيذ التحديث التدريجي
-- **[مدير السياق](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - إدارة السياق عبر عدة وكلاء ومهام طويلة المدى
+- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - إنشاء مواصفات OpenAPI/Swagger وكتابة توثيق للمطورين
+- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - دمج Stripe وPayPal ومعالجات الدفع
+- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - بناء نماذج مالية، واختبار استراتيجيات التداول، وتحليل بيانات السوق
+- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - مراقبة مخاطر المحفظة، ونسب R، وحدود المراكز
+- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - إعادة هيكلة قواعد الكود القديمة وتنفيذ التحديث التدريجي
+- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - إدارة السياق عبر عدة وكلاء ومهام طويلة الأمد
 
 ### التوثيق
-- **[مهندس التوثيق](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - إنشاء توثيق تقني شامل من قواعد الكود الحالية
-- **[خبير ميرميد](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - إنشاء مخططات Mermaid للمخططات الانسيابية، والتسلسلات، وERD، والهياكل
-- **[منشئ المراجع](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - إنشاء مراجع تقنية شاملة وتوثيق واجهات البرمجة (API)
-- **[مهندس الدروس التعليمية](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - إنشاء دروس تعليمية خطوة بخطوة ومحتوى تعليمي من الكود
+- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - إنشاء توثيق تقني شامل من قواعد الكود الحالية
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - إنشاء مخططات Mermaid للمخططات الانسيابية والتسلسل وERD والهياكل
+- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - إنشاء مراجع تقنية شاملة وتوثيق API
+- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - إنشاء دروس تعليمية خطوة بخطوة ومحتوى تدريبي من الكود
 
 ### الأعمال والتسويق
-- **[محلل الأعمال](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - تحليل المقاييس، وإنشاء التقارير، وتتبع مؤشرات الأداء الرئيسية
-- **[مسوق المحتوى](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - كتابة منشورات المدونة، ومحتوى وسائل التواصل الاجتماعي، ونشرات البريد الإلكتروني
-- **[خبير الموارد البشرية](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - شريك في التوظيف، والإدماج/الخروج، والإجازات، والأداء، والسياسات المتوافقة، وعلاقات الموظفين.
-- **[مؤتمت المبيعات](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - صياغة رسائل البريد الإلكتروني الباردة، والمتابعات، ونماذج العروض
-- **[دعم العملاء](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - معالجة تذاكر الدعم، وردود الأسئلة الشائعة، ورسائل العملاء
-- **[المستشار القانوني](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - صياغة سياسات الخصوصية، وشروط الخدمة، والتنويهات، والإشعارات القانونية
+- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - تحليل المؤشرات، وإنشاء التقارير، وتتبع مؤشرات الأداء الرئيسية
+- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - كتابة منشورات المدونة ومحتوى وسائل التواصل الاجتماعي والنشرات البريدية
+- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - شريك للتوظيف، وإجراءات الانضمام/المغادرة، والإجازات، والأداء، والسياسات المتوافقة، والعلاقات الوظيفية.
+- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - صياغة رسائل بريد إلكتروني باردة، والمتابعات، وقوالب العروض
+- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - التعامل مع تذاكر الدعم، وردود الأسئلة الشائعة، ورسائل العملاء الإلكترونية
+- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - صياغة سياسات الخصوصية، وشروط الخدمة، والتنويهات، والإشعارات القانونية
 
 ### تحسين محركات البحث وتحسين المحتوى
-- **[مدقق محتوى السيو](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - يحلل المحتوى المقدم من حيث الجودة وإشارات E-E-A-T وأفضل ممارسات السيو
-- **[محسن ميتا السيو](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - ينشئ عناوين ميتا وأوصاف وعناوين URL محسنة
-- **[استراتيجي الكلمات المفتاحية للسيو](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - يحلل استخدام الكلمات المفتاحية، يحسب الكثافة، يقترح تنويعات دلالية
-- **[مهندس هيكلية السيو](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - يحسن هيكلية المحتوى، تسلسل العناوين، وترميز المخطط
-- **[صياد مقتطفات السيو](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - ينسق المحتوى للمقتطفات المميزة وميزات صفحات النتائج
-- **[منعش محتوى السيو](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - يحدد العناصر القديمة ويقترح تحديثات للمحتوى
-- **[كاشف التداخل في السيو](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - يحلل عدة صفحات لاكتشاف تداخل الكلمات المفتاحية وصراعاتها
-- **[باني سلطة السيو](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - يحلل المحتوى لإشارات E-E-A-T ومؤشرات الثقة
-- **[كاتب محتوى السيو](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - يكتب محتوى محسن للسيو بناءً على الكلمات المفتاحية والموجزات
-- **[مخطط محتوى السيو](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - ينشئ مخططات المحتوى، مجموعات المواضيع، والجداول الزمنية
+- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - يحلل المحتوى المقدم من حيث الجودة، وإشارات E-E-A-T، وأفضل ممارسات السيو
+- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - ينشئ عناوين وصفية، وأوصاف ميتا، واقتراحات الروابط بشكل محسن
+- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - يحلل استخدام الكلمات المفتاحية، يحسب الكثافة، ويقترح تنوعات دلالية
+- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - يحسن بنية المحتوى، وتسلسل العناوين، وتخطيط المخطط الهيكلي
+- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - ينسق المحتوى ليظهر في القصاصات المميزة وميزات نتائج البحث
+- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - يحدد العناصر القديمة ويقترح تحديثات للمحتوى
+- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - يحلل عدة صفحات لاكتشاف تداخل الكلمات المفتاحية والتعارضات
+- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - يحلل المحتوى لإشارات E-E-A-T ومؤشرات الثقة
+- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - يكتب محتوى محسن لمحركات البحث بناءً على الكلمات المفتاحية والموجزات
+- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - ينشئ مخططات محتوى، ومجموعات موضوعية، وجداول زمنية
 
 ## تعيينات النماذج
 
-جميع الوكلاء الفرعيين الـ 75 تم تهيئتهم بنماذج Claude محددة بناءً على تعقيد المهمة:
+جميع الوكلاء الفرعيين البالغ عددهم 75 تم إعدادهم بنماذج Claude محددة حسب تعقيد المهمة:
 
-### 🚀 هايكو (سريع وفعال من حيث التكلفة) - 15 وكيل
+### 🚀 Haiku (سريع وفعال من حيث التكلفة) - 15 وكيل
 **النموذج:** `haiku`
-- `عالِم البيانات` - استعلامات SQL وتحليل البيانات
-- `موثق واجهة برمجة التطبيقات` - توثيق OpenAPI/Swagger
-- `باني المراجع` - مراجع تقنية شاملة وتوثيق واجهات API
-- `محلل الأعمال` - تتبع المقاييس ومؤشرات الأداء الرئيسية
-- `مسوق المحتوى` - منشورات المدونة ووسائل التواصل الاجتماعي
-- `دعم العملاء` - تذاكر الدعم والأسئلة الشائعة
-- `مؤتمت المبيعات` - رسائل بريد بارد واقتراحات
-- `أخصائي البحث` - بحث ويب وجمع المعلومات
-- `المستشار القانوني` - سياسات الخصوصية ومستندات الامتثال
-- `محسن ميتا السيو` - تحسين عناوين وأوصاف الميتا
-- `استراتيجي الكلمات المفتاحية للسيو` - تحليل كثافة الكلمات المفتاحية والدلالات
-- `مهندس هيكلية السيو` - هيكلية المحتوى وترميز المخطط
-- `صياد مقتطفات السيو` - تنسيق المقتطفات المميزة
-- `منعش محتوى السيو` - تحديثات حداثة المحتوى
-- `كاشف التداخل في السيو` - اكتشاف تداخل الكلمات المفتاحية
-- `مخطط محتوى السيو` - جداول ومخططات المحتوى
+- `data-scientist` - استعلامات SQL وتحليل البيانات
+- `api-documenter` - توثيق OpenAPI/Swagger
+- `reference-builder` - مراجع تقنية شاملة وتوثيق API
+- `business-analyst` - تتبع المقاييس والمؤشرات الرئيسية للأداء
+- `content-marketer` - منشورات المدونة ووسائل التواصل الاجتماعي
+- `customer-support` - تذاكر الدعم والأسئلة الشائعة
+- `sales-automator` - رسائل بريد إلكتروني باردة ومقترحات
+- `search-specialist` - بحث ويب وجمع المعلومات
+- `legal-advisor` - سياسات الخصوصية ومستندات الامتثال
+- `seo-meta-optimizer` - تحسين عنوان ووصف الميتا
+- `seo-keyword-strategist` - تحليل كثافة الكلمات المفتاحية والدلالة
+- `seo-structure-architect` - بنية المحتوى وتخطيط المخطط الهيكلي
+- `seo-snippet-hunter` - تنسيق القصاصات المميزة
+- `seo-content-refresher` - تحديثات نضارة المحتوى
+- `seo-cannibalization-detector` - كشف تداخل الكلمات المفتاحية
+- `seo-content-planner` - جداول ومخططات المحتوى
 
-### ⚡ سونيت (أداء متوازن) - 44 وكيل
+### ⚡ Sonnet (أداء متوازن) - 44 وكيل
 **النموذج:** `sonnet`
 
 **التطوير واللغات:**
-- `محترف بايثون` - تطوير بايثون بميزات متقدمة
-- `محترف روبي` - تطوير روبي مع البرمجة الوصفية وأنماط Rails وتطوير الحزم
-- `javascript-pro` - جافاسكريبت ونود.جي إس الحديثة
-- `typescript-pro` - تايب سكريبت متقدم مع أنظمة الأنواع
-- `golang-pro` - التزامن في Go وأنماط البرمجة المثالية
+- `python-pro` - تطوير بايثون بميزات متقدمة
+- `ruby-pro` - تطوير روبي مع البرمجة الوصفية، أنماط Rails، وتطوير الحزم
+- `javascript-pro` - جافاسكريبت الحديثة وNode.js
+- `typescript-pro` - تايب سكريبت متقدمة مع أنظمة الأنواع
+- `golang-pro` - التزامن في Go والأنماط المثالية
 - `rust-pro` - أمان الذاكرة في Rust وبرمجة الأنظمة
 - `c-pro` - برمجة C والأنظمة المدمجة
-- `cpp-pro` - C++ الحديثة مع STL والقوالب
+- `cpp-pro` - ++C الحديثة مع STL والقوالب
 - `php-pro` - PHP الحديثة مع ميزات متقدمة
-- `java-pro` - جافا الحديثة مع الستريمات والتزامن
-- `elixir-pro` - إليكسير مع أنماط OTP وPhoenix
-- `csharp-pro` - سي شارب الحديثة مع أطر .NET والأنماط
-- `scala-pro` - سكالا للمؤسسات مع Apache Pekko وAkka وSpark وZIO/Cats Effect
+- `java-pro` - جافا الحديثة مع التدفقات والتزامن
+- `elixir-pro` - تطوير Elixir مع أنماط OTP وPhoenix
+- `csharp-pro` - #C الحديثة مع أطر .NET وأنماط البرمجة
+- `scala-pro` - سكالا للشركات مع Apache Pekko, Akka, Spark, وZIO/Cats Effect
 - `flutter-expert` - تطوير Flutter مع إدارة الحالة والرسوم المتحركة
-- `unity-developer` - تطوير الألعاب وتحسين الأداء في Unity
-- `minecraft-bukkit-pro` - تطوير إضافات ماينكرافت باستخدام Bukkit/Spigot/Paper
+- `unity-developer` - تطوير ألعاب Unity وتحسين الأداء
+- `minecraft-bukkit-pro` - تطوير إضافات Minecraft باستخدام Bukkit/Spigot/Paper
 - `ios-developer` - تطوير iOS أصلي باستخدام Swift/SwiftUI
-- `frontend-developer` - مكونات React وواجهة المستخدم
-- `ui-ux-designer` - تصميم الواجهات والنماذج الأولية
-- `backend-architect` - تصميم واجهات برمجة التطبيقات والميكروسيرفيسز
+- `frontend-developer` - مكونات React وتصميم الواجهات
+- `ui-ux-designer` - تصميم واجهات المستخدم والنماذج الأولية
+- `backend-architect` - تصميم واجهات API والأنظمة المصغرة
 - `mobile-developer` - تطبيقات React Native/Flutter
 - `sql-pro` - تحسين استعلامات SQL المعقدة
-- `graphql-architect` - مخططات وحلولات GraphQL
+- `graphql-architect` - تصميم مخططات GraphQL والمفسرات
 
 **البنية التحتية والعمليات:**
 - `devops-troubleshooter` - تصحيح أخطاء الإنتاج
-- `deployment-engineer` - خطوط CI/CD
+- `deployment-engineer` - خطوط أنابيب CI/CD
 - `database-optimizer` - تحسين الاستعلامات
-- `database-admin` - عمليات قواعد البيانات
-- `terraform-specialist` - البنية التحتية ككود
-- `network-engineer` - تكوين الشبكات
-- `dx-optimizer` - تحسين تجربة المطور
-- `data-engineer` - خطوط ETL
+- `database-admin` - عمليات إدارة قواعد البيانات
+- `terraform-specialist` - البنية التحتية كرمز
+- `network-engineer` - إعداد وتكوين الشبكات
+- `dx-optimizer` - تحسين تجربة المطورين
+- `data-engineer` - خطوط معالجة البيانات ETL
 
 **الجودة والدعم:**
 - `test-automator` - إنشاء مجموعات الاختبار
 - `code-reviewer` - تحليل جودة الكود
-- `debugger` - التحقيق في الأخطاء
+- `debugger` - تحقيق الأخطاء
 - `error-detective` - تحليل السجلات
 - `ml-engineer` - نشر نماذج تعلم الآلة
 - `legacy-modernizer` - ترحيل الأطر البرمجية
-- `payment-integration` - معالجة المدفوعات
-- `mermaid-expert` - مخططات Mermaid والتوثيق البصري
+- `payment-integration` - معالجة الدفع
+- `mermaid-expert` - مخططات Mermaid والتوثيق المرئي
 - `flutter-expert` - تطوير Flutter
-- `seo-content-auditor` - تحليل جودة المحتوى و E-E-A-T
+- `seo-content-auditor` - تدقيق جودة المحتوى وتحليل E-E-A-T
 - `seo-authority-builder` - تحسين إشارات السلطة
 - `seo-content-writer` - إنشاء محتوى محسن لمحركات البحث
 
 ### 🧠 Opus (أقصى قدرة) - 15 وكيل
 **النموذج:** `opus`
-- `ai-engineer` - تطبيقات LLM وأنظمة RAG
+- `ai-engineer` - تطبيقات النماذج اللغوية وأنظمة RAG
 - `security-auditor` - تحليل الثغرات الأمنية
 - `performance-engineer` - تحسين أداء التطبيقات
 - `incident-responder` - التعامل مع الحوادث الإنتاجية
 - `mlops-engineer` - بنية تحتية لتعلم الآلة
-- `architect-reviewer` - الاتساق المعماري
+- `architect-reviewer` - مراجعة الاتساق المعماري
 - `cloud-architect` - تصميم بنية تحتية سحابية
-- `prompt-engineer` - تحسين موجهات LLM
+- `prompt-engineer` - تحسين الطلبات للنماذج اللغوية
 - `context-manager` - تنسيق متعدد الوكلاء
 - `quant-analyst` - النمذجة المالية
-- `risk-manager` - إدارة مخاطر المحافظ المالية
-- `docs-architect` - توثيق تقني شامل من قواعد الأكواد
+- `risk-manager` - إدارة مخاطر المحافظ الاستثمارية
+- `docs-architect` - توثيق تقني شامل من قواعد الكود
 - `tutorial-engineer` - دروس تعليمية خطوة بخطوة ومحتوى تعليمي
 
 ## التثبيت
 
-هذه الوكلاء الفرعيون متوفرون تلقائيًا عند وضعهم في دليل `~/.claude/agents/`.
+تتوفر هذه الوكلاء الفرعيين تلقائيًا عند وضعها في دليل `~/.claude/agents/`.
 
 ```bash
 cd ~/.claude
@@ -523,6 +525,6 @@ payment-integration → security-auditor → Validated implementation
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
 
 ---

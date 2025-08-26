@@ -40,82 +40,84 @@ Repositori ini berisi 75 subagen khusus yang memperluas kapabilitas Claude Code.
 ## Subagen Tersedia
 
 ### Pengembangan & Arsitektur
-- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Merancang API RESTful, batasan mikroservis, dan skema basis data
-- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Membangun komponen React, menerapkan tata letak responsif, dan menangani manajemen status sisi klien
+- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Merancang API RESTful, batas layanan mikro, dan skema basis data
+- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Membangun komponen React, menerapkan tata letak responsif, dan menangani manajemen state di sisi klien
 - **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Membuat desain antarmuka, wireframe, dan sistem desain
 - **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - Mengembangkan aplikasi React Native atau Flutter dengan integrasi native
 - **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - Merancang skema GraphQL, resolver, dan federasi
 - **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Meninjau perubahan kode untuk konsistensi arsitektur dan pola
 
 ### Spesialis Bahasa Pemrograman
-- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - Menulis kode Python idiomatis dengan fitur lanjutan dan optimasi
-- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - Menulis kode Ruby idiomatis dengan metaprogramming, pola Rails, pengembangan gem, dan framework pengujian
-- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Menulis kode Go idiomatis dengan goroutine, channel, dan interface
-- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Menulis kode Rust idiomatis dengan pola kepemilikan, lifetime, dan implementasi trait
-- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Menulis kode C yang efisien dengan manajemen memori yang tepat dan pemanggilan sistem
-- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Menulis kode C++ idiomatis dengan fitur modern, RAII, smart pointer, dan algoritma STL
+- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - Menulis kode Python idiomatik dengan fitur lanjutan dan optimasi
+- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - Menulis kode Ruby idiomatik dengan metaprogramming, pola Rails, pengembangan gem, dan framework pengujian
+- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Menulis kode Go idiomatik dengan goroutine, channel, dan interface
+- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Menulis kode Rust idiomatik dengan pola kepemilikan, lifetime, dan implementasi trait
+- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Menulis kode C yang efisien dengan manajemen memori yang tepat dan panggilan sistem
+- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Menulis kode C++ idiomatik dengan fitur modern, RAII, smart pointer, dan algoritma STL
 - **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Menguasai JavaScript modern dengan ES6+, pola async, dan API Node.js
-- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Menguasai TypeScript dengan tipe lanjutan, generic, dan keamanan tipe yang ketat
-- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Menulis kode PHP idiomatis dengan fitur modern dan optimasi performa
+- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Menguasai TypeScript dengan tipe lanjutan, generik, dan keamanan tipe ketat
+- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Menulis kode PHP idiomatik dengan fitur modern dan optimasi performa
 - **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Menguasai Java modern dengan stream, concurrency, dan optimasi JVM
-- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Menulis kode Elixir idiomatis dengan pola OTP, pemrograman fungsional, dan framework Phoenix
+- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Menulis kode Elixir idiomatik dengan pola OTP, pemrograman fungsional, dan framework Phoenix
 - **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Menulis kode C# modern dengan fitur lanjutan dan optimasi .NET
-- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - Menguasai pengembangan Scala skala perusahaan dengan pemrograman fungsional, sistem terdistribusi, dan pemrosesan big data
+- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - Menguasai pengembangan Scala tingkat enterprise dengan pemrograman fungsional, sistem terdistribusi, dan pemrosesan big data
 - **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Menguasai pengembangan Flutter dengan Dart, widget, dan integrasi platform
-- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Membangun game Unity dengan skrip yang dioptimalkan dan penyetelan performa
+- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Membangun game Unity dengan skrip yang dioptimalkan dan tuning performa
 - **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Menguasai pengembangan plugin server Minecraft dengan API Bukkit, Spigot, dan Paper
 - **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Mengembangkan aplikasi iOS native dengan Swift/SwiftUI
-- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Menulis query SQL kompleks, mengoptimalkan rencana eksekusi, dan merancang skema ter-normalisasi
+- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Menulis query SQL kompleks, mengoptimalkan rencana eksekusi, dan merancang skema yang dinormalisasi
 
-### Infrastruktur & Operasional
-- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Debug masalah produksi, analisis log, dan perbaiki kegagalan deployment
-- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - Konfigurasi pipeline CI/CD, kontainer Docker, dan deployment cloud
+### Infrastruktur & Operasi
+- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Debug masalah produksi, menganalisis log, dan memperbaiki kegagalan deployment
+- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - Mengonfigurasi pipeline CI/CD, kontainer Docker, dan deployment cloud
 - **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - Merancang infrastruktur AWS/Azure/GCP dan mengoptimalkan biaya cloud
-- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - Optimalkan query SQL, rancang indeks efisien, dan tangani migrasi basis data
+- **[hybrid-cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/hybrid-cloud-architect.md)** - Merancang infrastruktur hybrid cloud di AWS/Azure/GCP dan lingkungan on-premises OpenStack
+- **[kubernetes-architect](https://raw.githubusercontent.com/wshobson/agents/main/kubernetes-architect.md)** - Merancang infrastruktur cloud-native dengan inti Kubernetes dan prinsip GitOps di lingkungan AWS/Azure/GCP dan hybrid.
+- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - Optimasi query SQL, desain indeks efisien, dan menangani migrasi basis data
 - **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - Mengelola operasi basis data, backup, replikasi, dan monitoring
-- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Menulis modul Terraform tingkat lanjut, mengelola file state, dan menerapkan praktik terbaik IaC
+- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Menulis modul Terraform lanjutan, mengelola file state, dan menerapkan praktik terbaik IaC
 - **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Menangani insiden produksi dengan urgensi dan presisi
 - **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Debug konektivitas jaringan, konfigurasi load balancer, dan analisis pola trafik
-- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Spesialis Developer Experience yang meningkatkan tooling, setup, dan alur kerja
+- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Spesialis Pengalaman Pengembang yang meningkatkan alat, pengaturan, dan alur kerja
 
 ### Kualitas & Keamanan
-- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Tinjauan kode ahli dengan fokus mendalam pada keamanan konfigurasi dan keandalan produksi
-- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Meninjau kode untuk kerentanan dan memastikan kepatuhan OWASP
-- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Membuat rangkaian pengujian komprehensif dengan unit, integrasi, dan pengujian e2e
-- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profil aplikasi, optimasi bottleneck, dan implementasi strategi caching
-- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Spesialis debugging untuk kesalahan, kegagalan tes, dan perilaku tak terduga
-- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Mencari pola kesalahan, jejak stack, dan anomali di log dan basis kode
-- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Peneliti web ahli menggunakan teknik pencarian canggih dan sintesis
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Review kode ahli dengan fokus mendalam pada keamanan konfigurasi dan keandalan produksi
+- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Mengulas kode untuk kerentanan dan memastikan kepatuhan OWASP
+- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Membuat rangkaian pengujian komprehensif dengan tes unit, integrasi, dan e2e
+- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profil aplikasi, optimalkan bottleneck, dan terapkan strategi caching
+- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Spesialis debugging untuk kesalahan, kegagalan pengujian, dan perilaku tidak terduga
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Mencari pola kesalahan, jejak stack, dan anomali di log serta codebase
+- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Peneliti web ahli dengan teknik pencarian canggih dan sintesis
 
 ### Data & AI
 - **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Ahli analisis data untuk query SQL, operasi BigQuery, dan wawasan data
 - **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Membangun pipeline ETL, gudang data, dan arsitektur streaming
 - **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Membangun aplikasi LLM, sistem RAG, dan pipeline prompt
-- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Menerapkan pipeline ML, penyajian model, dan rekayasa fitur
+- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Mengimplementasikan pipeline ML, penyajian model, dan rekayasa fitur
 - **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Membangun pipeline ML, pelacakan eksperimen, dan registri model
 - **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - Mengoptimalkan prompt untuk LLM dan sistem AI
 
 ### Domain Khusus
 - **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Membuat spesifikasi OpenAPI/Swagger dan menulis dokumentasi pengembang
-- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integrasi Stripe, PayPal, dan prosesor pembayaran
+- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Integrasi Stripe, PayPal, dan pemroses pembayaran
 - **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Membangun model keuangan, backtest strategi trading, dan analisis data pasar
 - **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Memantau risiko portofolio, R-multiples, dan batas posisi
-- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refaktor basis kode legacy dan implementasi modernisasi bertahap
-- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Mengelola konteks di berbagai agen dan tugas jangka panjang
+- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Refaktor codebase lama dan menerapkan modernisasi bertahap
+- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Mengelola konteks di antara banyak agen dan tugas yang berjalan lama
 
 ### Dokumentasi
-- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Membuat dokumentasi teknis komprehensif dari basis kode yang ada
-- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Membuat diagram Mermaid untuk flowchart, sequence, ERD, dan arsitektur
-- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Membuat referensi teknis menyeluruh dan dokumentasi API
-- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Membuat tutorial langkah-demi-langkah dan konten edukasi dari kode
+- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Membuat dokumentasi teknis komprehensif dari codebase yang ada
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Membuat diagram Mermaid untuk flowchart, urutan, ERD, dan arsitektur
+- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Membuat referensi teknis dan dokumentasi API yang lengkap
+- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Membuat tutorial langkah demi langkah dan konten edukasi dari kode
 
 ### Bisnis & Pemasaran
-- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Analisis metrik, membuat laporan, dan melacak KPI
+- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Menganalisis metrik, membuat laporan, dan melacak KPI
 - **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Menulis posting blog, konten media sosial, dan buletin email
-- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - Partner untuk rekrutmen, onboarding/offboarding, cuti, kinerja, kebijakan kepatuhan, dan hubungan karyawan.
-- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Membuat draf email dingin, tindak lanjut, dan template proposal
+- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - Mitra untuk rekrutmen, onboarding/offboarding, cuti, kinerja, kebijakan kepatuhan, dan hubungan karyawan.
+- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Membuat draft email dingin, tindak lanjut, dan template proposal
 - **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Menangani tiket dukungan, jawaban FAQ, dan email pelanggan
-- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Menyusun kebijakan privasi, syarat layanan, disclaimer, dan pemberitahuan hukum
+- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Membuat kebijakan privasi, syarat layanan, disclaimer, dan pemberitahuan hukum
 
 ### SEO & Optimasi Konten
 - **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - Menganalisis konten yang diberikan untuk kualitas, sinyal E-E-A-T, dan praktik terbaik SEO
@@ -124,14 +126,14 @@ Repositori ini berisi 75 subagen khusus yang memperluas kapabilitas Claude Code.
 - **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - Mengoptimalkan struktur konten, hierarki header, dan markup skema
 - **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - Memformat konten untuk featured snippet dan fitur SERP
 - **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - Mengidentifikasi elemen usang dan menyarankan pembaruan konten
-- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - Menganalisis beberapa halaman untuk tumpang tindih kata kunci dan konflik
+- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - Menganalisis beberapa halaman untuk tumpang tindih dan konflik kata kunci
 - **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - Menganalisis konten untuk sinyal E-E-A-T dan indikator kepercayaan
 - **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - Menulis konten yang dioptimalkan SEO berdasarkan kata kunci dan brief
-- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - Membuat outline konten, kelompok topik, dan kalender
+- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - Membuat garis besar konten, klaster topik, dan kalender
 
 ## Penugasan Model
 
-Seluruh 75 subagen dikonfigurasi dengan model Claude spesifik berdasarkan kompleksitas tugas:
+Semua 75 subagen dikonfigurasi dengan model Claude tertentu berdasarkan kompleksitas tugas:
 
 ### 🚀 Haiku (Cepat & Hemat Biaya) - 15 agen
 **Model:** `haiku`
@@ -139,18 +141,18 @@ Seluruh 75 subagen dikonfigurasi dengan model Claude spesifik berdasarkan komple
 - `api-documenter` - Dokumentasi OpenAPI/Swagger
 - `reference-builder` - Referensi teknis lengkap dan dokumentasi API
 - `business-analyst` - Pelacakan metrik dan KPI
-- `content-marketer` - Postingan blog dan media sosial
+- `content-marketer` - Posting blog dan media sosial
 - `customer-support` - Tiket dukungan dan FAQ
-- `sales-automator` - Email dingin dan proposal
+- `sales-automator` - Email penawaran dan proposal dingin
 - `search-specialist` - Riset web dan pengumpulan informasi
 - `legal-advisor` - Kebijakan privasi dan dokumen kepatuhan
 - `seo-meta-optimizer` - Optimasi judul dan deskripsi meta
-- `seo-keyword-strategist` - Analisis kepadatan dan semantik kata kunci
+- `seo-keyword-strategist` - Analisis kepadatan kata kunci dan semantik
 - `seo-structure-architect` - Struktur konten dan markup skema
 - `seo-snippet-hunter` - Pemformatan featured snippet
 - `seo-content-refresher` - Pembaruan kesegaran konten
 - `seo-cannibalization-detector` - Deteksi tumpang tindih kata kunci
-- `seo-content-planner` - Kalender dan outline konten
+- `seo-content-planner` - Kalender dan garis besar konten
 
 ### ⚡ Sonnet (Performa Seimbang) - 44 agen
 **Model:** `sonnet`
@@ -159,52 +161,52 @@ Seluruh 75 subagen dikonfigurasi dengan model Claude spesifik berdasarkan komple
 - `python-pro` - Pengembangan Python dengan fitur lanjutan
 - `ruby-pro` - Pengembangan Ruby dengan metaprogramming, pola Rails, dan pengembangan gem
 - `javascript-pro` - JavaScript modern dan Node.js
-- `typescript-pro` - TypeScript tingkat lanjut dengan sistem tipe
-- `golang-pro` - Go concurrency dan pola idiomatik
-- `rust-pro` - Keamanan memori Rust dan pemrograman sistem
+- `typescript-pro` - TypeScript lanjutan dengan sistem tipe
+- `golang-pro` - Go dengan konkurensi dan pola idiomatik
+- `rust-pro` - Rust dengan keamanan memori dan pemrograman sistem
 - `c-pro` - Pemrograman C dan sistem embedded
 - `cpp-pro` - C++ modern dengan STL dan template
-- `php-pro` - PHP modern dengan fitur tingkat lanjut
-- `java-pro` - Java modern dengan streams dan concurrency
+- `php-pro` - PHP modern dengan fitur lanjutan
+- `java-pro` - Java modern dengan stream dan konkurensi
 - `elixir-pro` - Elixir dengan pola OTP dan Phoenix
-- `csharp-pro` - C# modern dengan framework dan pola .NET
+- `csharp-pro` - C# modern dengan .NET framework dan pola
 - `scala-pro` - Scala enterprise dengan Apache Pekko, Akka, Spark, dan ZIO/Cats Effect
 - `flutter-expert` - Pengembangan Flutter dengan manajemen state dan animasi
 - `unity-developer` - Pengembangan dan optimasi game Unity
 - `minecraft-bukkit-pro` - Pengembangan plugin Minecraft dengan Bukkit/Spigot/Paper
-- `ios-developer` - Pengembangan iOS native dengan Swift/SwiftUI
+- `ios-developer` - Pengembangan native iOS dengan Swift/SwiftUI
 - `frontend-developer` - Komponen React dan UI
 - `ui-ux-designer` - Desain antarmuka dan wireframe
-- `backend-architect` - Desain API dan microservices
+- `backend-architect` - Desain API dan mikroservis
 - `mobile-developer` - Aplikasi React Native/Flutter
-- `sql-pro` - Optimisasi SQL kompleks
+- `sql-pro` - Optimasi SQL kompleks
 - `graphql-architect` - Skema dan resolver GraphQL
 
 **Infrastruktur & Operasi:**
 - `devops-troubleshooter` - Debugging produksi
 - `deployment-engineer` - Pipeline CI/CD
-- `database-optimizer` - Optimisasi query
+- `database-optimizer` - Optimasi query
 - `database-admin` - Operasi basis data
-- `terraform-specialist` - Infrastructure as Code
+- `terraform-specialist` - Infrastruktur sebagai kode
 - `network-engineer` - Konfigurasi jaringan
 - `dx-optimizer` - Pengalaman pengembang
 - `data-engineer` - Pipeline ETL
 
 **Kualitas & Dukungan:**
-- `test-automator` - Pembuatan test suite
+- `test-automator` - Pembuatan suite pengujian
 - `code-reviewer` - Analisis kualitas kode
-- `debugger` - Investigasi error
+- `debugger` - Investigasi kesalahan
 - `error-detective` - Analisis log
-- `ml-engineer` - Deployment model ML
-- `legacy-modernizer` - Migrasi framework
+- `ml-engineer` - Deploy model ML
+- `legacy-modernizer` - Migrasi kerangka kerja
 - `payment-integration` - Pemrosesan pembayaran
 - `mermaid-expert` - Diagram Mermaid dan dokumentasi visual
 - `flutter-expert` - Pengembangan Flutter
 - `seo-content-auditor` - Analisis kualitas konten dan E-E-A-T
 - `seo-authority-builder` - Optimasi sinyal otoritas
-- `seo-content-writer` - Pembuatan konten yang dioptimalkan SEO
+- `seo-content-writer` - Pembuatan konten yang dioptimalkan untuk SEO
 
-### 🧠 Opus (Kemampuan Maksimal) - 15 agen
+### 🧠 Opus (Kemampuan Maksimum) - 15 agen
 **Model:** `opus`
 - `ai-engineer` - Aplikasi LLM dan sistem RAG
 - `security-auditor` - Analisis kerentanan
@@ -215,14 +217,14 @@ Seluruh 75 subagen dikonfigurasi dengan model Claude spesifik berdasarkan komple
 - `cloud-architect` - Desain infrastruktur cloud
 - `prompt-engineer` - Optimasi prompt LLM
 - `context-manager` - Koordinasi multi-agen
-- `quant-analyst` - Pemodelan finansial
+- `quant-analyst` - Pemodelan keuangan
 - `risk-manager` - Manajemen risiko portofolio
-- `docs-architect` - Dokumentasi teknis komprehensif dari kode sumber
+- `docs-architect` - Dokumentasi teknis komprehensif dari basis kode
 - `tutorial-engineer` - Tutorial langkah demi langkah dan konten edukasi
 
 ## Instalasi
 
-Subagen ini otomatis tersedia ketika ditempatkan di direktori `~/.claude/agents/`.
+Subagen ini akan tersedia secara otomatis ketika ditempatkan di direktori `~/.claude/agents/`.
 
 ```bash
 cd ~/.claude
@@ -523,6 +525,6 @@ Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) unt
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
 
 ---

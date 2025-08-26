@@ -39,190 +39,192 @@
 
 ## ซับเอเจนต์ที่มีให้ใช้งาน
 
-### การพัฒนาและสถาปัตยกรรม
+### การพัฒนา & สถาปัตยกรรม
 - **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - ออกแบบ RESTful APIs, ขอบเขตไมโครเซอร์วิส และสคีมาฐานข้อมูล
-- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - สร้างคอมโพเนนต์ React, ออกแบบเลย์เอาต์ที่ตอบสนอง และจัดการสถานะฝั่งลูกค้า
-- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - สร้างดีไซน์อินเทอร์เฟซ, ไวร์เฟรม และระบบดีไซน์
-- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - พัฒนาแอป React Native หรือ Flutter พร้อมการผสานงานกับ native
+- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - สร้างคอมโพเนนต์ React, ทำเลย์เอาต์ที่ตอบสนอง และจัดการ state ฝั่งไคลเอนต์
+- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - สร้างดีไซน์อินเทอร์เฟซ, วาด wireframe และออกแบบระบบดีไซน์
+- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - พัฒนาแอป React Native หรือ Flutter พร้อมการเชื่อมต่อกับ native
 - **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - ออกแบบ GraphQL schema, resolver และ federation
-- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - ตรวจสอบการเปลี่ยนแปลงโค้ดเพื่อความสอดคล้องและรูปแบบทางสถาปัตยกรรม
+- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - ตรวจสอบการเปลี่ยนแปลงโค้ดเพื่อความสอดคล้องของสถาปัตยกรรมและรูปแบบ
 
-### ผู้เชี่ยวชาญด้านภาษา
-- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - เขียนโค้ด Python อย่างมีประสิทธิภาพด้วยฟีเจอร์ขั้นสูงและการปรับแต่ง
-- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - เขียนโค้ด Ruby อย่างมีประสิทธิภาพด้วย metaprogramming, รูปแบบ Rails, การพัฒนา gem และเฟรมเวิร์กทดสอบ
-- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - เขียนโค้ด Go อย่างมีประสิทธิภาพด้วย goroutine, channel และ interface
-- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - เขียนโค้ด Rust อย่างเหมาะสมด้วยรูปแบบ ownership, lifetime และการ implement trait
-- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - เขียนโค้ด C อย่างมีประสิทธิภาพด้วยการจัดการหน่วยความจำและ system call ที่ถูกต้อง
-- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - เขียนโค้ด C++ อย่างเหมาะสมด้วยฟีเจอร์สมัยใหม่, RAII, smart pointer และอัลกอริทึม STL
+### ผู้เชี่ยวชาญภาษาโปรแกรม
+- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - เขียนโค้ด Python อย่างมีสไตล์ด้วยฟีเจอร์ขั้นสูงและการปรับแต่งประสิทธิภาพ
+- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - เขียนโค้ด Ruby อย่างมีสไตล์ด้วย metaprogramming, รูปแบบ Rails, การพัฒนา gem และเฟรมเวิร์กทดสอบ
+- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - เขียนโค้ด Go อย่างมีสไตล์โดยใช้ goroutine, channel และ interface
+- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - เขียนโค้ด Rust อย่างมีสไตล์ด้วย pattern การถือครอง, lifetime และการใช้งาน trait
+- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - เขียนโค้ด C ที่มีประสิทธิภาพด้วยการจัดการหน่วยความจำและ system call ที่ถูกต้อง
+- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - เขียนโค้ด C++ อย่างมีสไตล์ด้วยฟีเจอร์สมัยใหม่, RAII, smart pointer และอัลกอริทึม STL
 - **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - เชี่ยวชาญ JavaScript สมัยใหม่ด้วย ES6+, รูปแบบ async และ Node.js API
-- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - เชี่ยวชาญ TypeScript ด้วย type ขั้นสูง, generic และความปลอดภัยของ type ที่เข้มงวด
-- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - เขียนโค้ด PHP อย่างเหมาะสมด้วยฟีเจอร์สมัยใหม่และการปรับปรุงประสิทธิภาพ
+- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - เชี่ยวชาญ TypeScript ด้วยประเภทขั้นสูง, generic และความปลอดภัยแบบ strict
+- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - เขียนโค้ด PHP อย่างมีสไตล์ด้วยฟีเจอร์สมัยใหม่และการปรับแต่งประสิทธิภาพ
 - **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - เชี่ยวชาญ Java สมัยใหม่ด้วย stream, concurrency และการปรับแต่ง JVM
-- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - เขียนโค้ด Elixir อย่างเหมาะสมด้วยรูปแบบ OTP, การเขียนโปรแกรมเชิงฟังก์ชัน และเฟรมเวิร์ก Phoenix
+- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - เขียนโค้ด Elixir อย่างมีสไตล์ด้วย pattern OTP, การเขียนโปรแกรมเชิงฟังก์ชัน และเฟรมเวิร์ก Phoenix
 - **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - เขียนโค้ด C# สมัยใหม่ด้วยฟีเจอร์ขั้นสูงและการปรับแต่ง .NET
 - **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - เชี่ยวชาญการพัฒนา Scala ระดับองค์กรด้วยการเขียนโปรแกรมเชิงฟังก์ชัน, ระบบกระจาย และการประมวลผลข้อมูลขนาดใหญ่
-- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - เชี่ยวชาญการพัฒนา Flutter ด้วย Dart, widget และการผสานงานกับแพลตฟอร์ม
-- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - สร้างเกม Unity ด้วยสคริปต์ที่ปรับแต่งและการปรับปรุงประสิทธิภาพ
+- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - เชี่ยวชาญการพัฒนา Flutter ด้วย Dart, widget และการเชื่อมต่อแพลตฟอร์ม
+- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - สร้างเกม Unity ด้วยสคริปต์ที่ปรับแต่งและการจูนประสิทธิภาพ
 - **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - เชี่ยวชาญการพัฒนา Minecraft server plugin ด้วย Bukkit, Spigot และ Paper API
 - **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - พัฒนาแอปพลิเคชัน iOS แบบ native ด้วย Swift/SwiftUI
-- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - เขียนคำสั่ง SQL ที่ซับซ้อน, ปรับแต่ง execution plan และออกแบบ schema ที่ normalized
+- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - เขียน query SQL ที่ซับซ้อน, ปรับแต่งแผนการทำงาน และออกแบบสคีมาแบบ normalized
 
-### โครงสร้างพื้นฐานและการดำเนินงาน
-- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - แก้ไขปัญหาใน production, วิเคราะห์ log และแก้ไขการ deploy ที่ล้มเหลว
-- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - กำหนดค่า CI/CD pipeline, คอนเทนเนอร์ Docker และการ deploy บนคลาวด์
-- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - ออกแบบโครงสร้าง AWS/Azure/GCP และปรับแต่งค่าใช้จ่ายคลาวด์
-- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - ปรับแต่งคำสั่ง SQL, ออกแบบ index ประสิทธิภาพสูง และจัดการ migration ฐานข้อมูล
-- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - จัดการงานฐานข้อมูล, การสำรองข้อมูล, การ replication และการมอนิเตอร์
-- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - เขียนโมดูล Terraform ขั้นสูง, จัดการ state file และใช้งานแนวทาง IaC ที่ดีที่สุด
-- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - รับมือกับเหตุการณ์ใน production อย่างรวดเร็วและแม่นยำ
-- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - แก้ไขปัญหาเครือข่าย, กำหนดค่า load balancer และวิเคราะห์รูปแบบการจราจร
-- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - ผู้เชี่ยวชาญด้านประสบการณ์นักพัฒนาที่ปรับปรุงเครื่องมือ, การตั้งค่า และเวิร์กโฟลว์
+### โครงสร้างพื้นฐาน & การดำเนินงาน
+- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - แก้ไขปัญหาในระบบ production, วิเคราะห์ log และแก้ไขข้อผิดพลาดในการ deploy
+- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - กำหนดค่า pipeline CI/CD, คอนเทนเนอร์ Docker และการ deploy บนคลาวด์
+- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - ออกแบบโครงสร้างพื้นฐาน AWS/Azure/GCP และปรับแต่งค่าใช้จ่ายคลาวด์
+- **[hybrid-cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/hybrid-cloud-architect.md)** - ออกแบบโครงสร้างพื้นฐาน hybrid cloud ระหว่าง AWS/Azure/GCP และ OpenStack ภายในองค์กร
+- **[kubernetes-architect](https://raw.githubusercontent.com/wshobson/agents/main/kubernetes-architect.md)** - ออกแบบโครงสร้างพื้นฐาน cloud-native โดยใช้ Kubernetes เป็นหลักและหลักการ GitOps ครอบคลุม AWS/Azure/GCP และ hybrid
+- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - ปรับแต่ง query SQL, ออกแบบ index ที่มีประสิทธิภาพ และจัดการ migration ฐานข้อมูล
+- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - ดูแลการดำเนินงานฐานข้อมูล, สำรองข้อมูล, replication และการมอนิเตอร์
+- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - เขียนโมดูล Terraform ขั้นสูง, จัดการ state file และนำ IaC best practice ไปใช้
+- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - รับมือเหตุการณ์ใน production ด้วยความเร่งด่วนและแม่นยำ
+- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - แก้ไขปัญหาการเชื่อมต่อเครือข่าย, กำหนดค่า load balancer และวิเคราะห์รูปแบบทราฟฟิก
+- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - ผู้เชี่ยวชาญด้านประสบการณ์นักพัฒนาที่ช่วยปรับปรุงเครื่องมือ การตั้งค่า และกระบวนการทำงาน
 
 ### คุณภาพ & ความปลอดภัย
-- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - ผู้เชี่ยวชาญรีวิวโค้ดโดยเน้นความปลอดภัยของการกำหนดค่าและความเสถียรของการใช้งานจริง
-- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - ตรวจสอบโค้ดเพื่อหาช่องโหว่และรับรองความสอดคล้องกับมาตรฐาน OWASP
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - ผู้เชี่ยวชาญการรีวิวโค้ดโดยเน้นความปลอดภัยในการตั้งค่าและความเสถียรในการผลิต
+- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - ตรวจสอบโค้ดเพื่อหาช่องโหว่และรับรองการปฏิบัติตามมาตรฐาน OWASP
 - **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - สร้างชุดทดสอบที่ครอบคลุมทั้ง unit, integration และ e2e
-- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - วิเคราะห์ประสิทธิภาพ, ปรับปรุงจุดติดขัด และวางกลยุทธ์การแคช
-- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - ผู้เชี่ยวชาญด้านการดีบักข้อผิดพลาด, การทดสอบล้มเหลว และพฤติกรรมที่ไม่คาดคิด
-- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - ค้นหา log และ codebase เพื่อหารูปแบบข้อผิดพลาด, stack trace และความผิดปกติ
-- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - ผู้เชี่ยวชาญด้านการค้นหาเว็บโดยใช้เทคนิคการค้นหาขั้นสูงและการสังเคราะห์ข้อมูล
+- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - วิเคราะห์ประสิทธิภาพ ปรับปรุงจุดติดขัด และวางกลยุทธ์การแคช
+- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - ผู้เชี่ยวชาญการดีบักข้อผิดพลาด การทดสอบล้มเหลว และพฤติกรรมไม่คาดคิด
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - ค้นหาล็อกและฐานโค้ดเพื่อหารูปแบบข้อผิดพลาด สแต็กเทรซ และสิ่งผิดปกติ
+- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - ผู้เชี่ยวชาญการค้นหาข้อมูลเว็บด้วยเทคนิคการค้นหาขั้นสูงและการสังเคราะห์ข้อมูล
 
 ### ข้อมูล & ปัญญาประดิษฐ์
-- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - ผู้เชี่ยวชาญวิเคราะห์ข้อมูลสำหรับคำสั่ง SQL, การใช้งาน BigQuery และการให้ข้อมูลเชิงลึก
-- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - สร้าง ETL pipeline, data warehouse และสถาปัตยกรรมการสตรีมข้อมูล
-- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - สร้างแอป LLM, ระบบ RAG และ pipeline คำสั่ง
-- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - พัฒนา ML pipeline, การให้บริการโมเดล และการจัดการคุณลักษณะ
-- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - สร้าง ML pipeline, ติดตามการทดลอง และจัดการทะเบียนโมเดล
-- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - เพิ่มประสิทธิภาพคำสั่งสำหรับ LLM และระบบ AI
+- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - ผู้เชี่ยวชาญการวิเคราะห์ข้อมูลสำหรับ SQL, BigQuery และการให้ข้อมูลเชิงลึก
+- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - สร้าง ETL pipeline, data warehouse และสถาปัตยกรรมสตรีมมิ่ง
+- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - สร้างแอปพลิเคชัน LLM, ระบบ RAG และ pipeline ของ prompt
+- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - สร้าง pipeline ML, บริการโมเดล และวิศวกรรมฟีเจอร์
+- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - สร้าง pipeline ML, การติดตามการทดลอง และทะเบียนโมเดล
+- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - ปรับแต่ง prompt สำหรับ LLM และระบบ AI
 
 ### สาขาเฉพาะทาง
-- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - สร้างข้อกำหนด OpenAPI/Swagger และเขียนเอกสารสำหรับนักพัฒนา
-- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - เชื่อมต่อ Stripe, PayPal และตัวประมวลผลการชำระเงิน
-- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - สร้างโมเดลทางการเงิน, ทดสอบกลยุทธ์การเทรด และวิเคราะห์ข้อมูลตลาด
-- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - ติดตามความเสี่ยงของพอร์ต, R-multiples และขีดจำกัดตำแหน่ง
-- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - ปรับปรุง codebase เก่าและดำเนินการปรับปรุงอย่างค่อยเป็นค่อยไป
-- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - จัดการ context ข้ามหลาย agent และงานที่ต้องใช้เวลานาน
+- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - สร้างสเปค OpenAPI/Swagger และเขียนเอกสารสำหรับนักพัฒนา
+- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - เชื่อมต่อ Stripe, PayPal และผู้ประมวลผลการชำระเงิน
+- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - สร้างโมเดลการเงิน ทดสอบกลยุทธ์การเทรด และวิเคราะห์ข้อมูลตลาด
+- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - ติดตามความเสี่ยงพอร์ต R-multiples และข้อจำกัดตำแหน่ง
+- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - ปรับปรุงฐานโค้ดเก่าและดำเนินการปรับปรุงแบบค่อยเป็นค่อยไป
+- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - จัดการ context ระหว่างหลาย agent และงานที่ใช้เวลานาน
 
 ### เอกสารประกอบ
-- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - สร้างเอกสารทางเทคนิคที่ครอบคลุมจาก codebase ที่มีอยู่
-- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - สร้างแผนภาพ Mermaid สำหรับ flowchart, ลำดับ, ERD และสถาปัตยกรรม
-- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - สร้างเอกสารอ้างอิงทางเทคนิคและเอกสาร API ที่ละเอียดครบถ้วน
-- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - สร้างบทเรียนทีละขั้นตอนและเนื้อหาการสอนจากโค้ด
+- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - สร้างเอกสารเทคนิคที่ครอบคลุมจากฐานโค้ดที่มีอยู่
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - สร้างไดอะแกรม Mermaid สำหรับ flowchart, sequence, ERD และสถาปัตยกรรม
+- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - สร้างข้อมูลอ้างอิงทางเทคนิคและเอกสาร API อย่างละเอียด
+- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - สร้างบทช่วยสอนทีละขั้นตอนและเนื้อหาการศึกษาจากโค้ด
 
 ### ธุรกิจ & การตลาด
-- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - วิเคราะห์ตัวชี้วัด, สร้างรายงาน และติดตาม KPI
-- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - เขียนบทความ, เนื้อหาสื่อสังคมออนไลน์ และจดหมายข่าวทางอีเมล
-- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - พันธมิตรในการสรรหา, onboarding/offboarding, วันลา, ประสิทธิภาพ, นโยบายตามกฎหมาย และความสัมพันธ์กับพนักงาน
-- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - ร่างอีเมลติดต่อ, ติดตามผล และเทมเพลตข้อเสนอ
-- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - จัดการตั๋วสนับสนุน, ตอบคำถามที่พบบ่อย และอีเมลลูกค้า
-- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - ร่างนโยบายความเป็นส่วนตัว, เงื่อนไขการให้บริการ, ข้อจำกัดความรับผิด และประกาศทางกฎหมาย
+- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - วิเคราะห์ตัวชี้วัด สร้างรายงาน และติดตาม KPI
+- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - เขียนบล็อก โพสต์โซเชียลมีเดีย และจดหมายข่าวอีเมล
+- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - พาร์ทเนอร์ด้านการจ้างงาน เข้า/ออกงาน วันหยุด/ลา ประเมินผล นโยบายที่ถูกต้อง และความสัมพันธ์พนักงาน
+- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - ร่างอีเมลเสนอขาย อีเมลติดตาม และเทมเพลตข้อเสนอ
+- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - จัดการตั๋วซัพพอร์ต ตอบคำถามที่พบบ่อย และอีเมลลูกค้า
+- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - ร่างนโยบายความเป็นส่วนตัว ข้อกำหนดการใช้บริการ ข้อจำกัดความรับผิดชอบ และประกาศทางกฎหมาย
 
-### SEO & การเพิ่มประสิทธิภาพเนื้อหา
-- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - วิเคราะห์เนื้อหาที่ให้มาเพื่อประเมินคุณภาพ สัญญาณ E-E-A-T และแนวปฏิบัติ SEO ที่ดีที่สุด
-- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - สร้างชื่อเมตา คำอธิบาย และข้อเสนอแนะ URL ที่ได้รับการปรับแต่ง
-- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - วิเคราะห์การใช้คีย์เวิร์ด คำนวณความหนาแน่น แนะนำคีย์เวิร์ดเชิงความหมาย
-- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - ปรับปรุงโครงสร้างเนื้อหา ลำดับหัวข้อ และ schema markup
-- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - จัดรูปแบบเนื้อหาสำหรับ featured snippets และฟีเจอร์ SERP
-- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - ตรวจหาส่วนที่ล้าสมัยและแนะนำการอัปเดตเนื้อหา
-- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - วิเคราะห์หลายเพจเพื่อหาการทับซ้อนและข้อขัดแย้งของคีย์เวิร์ด
-- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - วิเคราะห์เนื้อหาเพื่อหาสัญญาณ E-E-A-T และตัวชี้วัดความน่าเชื่อถือ
-- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - เขียนเนื้อหาที่ปรับแต่ง SEO จากคีย์เวิร์ดและบรีฟ
-- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - สร้างโครงร่างเนื้อหา คลัสเตอร์หัวข้อ และปฏิทินเนื้อหา
+### SEO & Content Optimization
+- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - วิเคราะห์เนื้อหาที่ให้มาเพื่อคุณภาพ, สัญญาณ E-E-A-T และแนวทางปฏิบัติ SEO ที่ดีที่สุด
+- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - สร้างชื่อเมตา คำอธิบาย และข้อเสนอแนะ URL ที่เหมาะสม
+- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - วิเคราะห์การใช้คีย์เวิร์ด, คำนวณความหนาแน่น, เสนอรูปแบบเชิงความหมาย
+- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - ปรับโครงสร้างเนื้อหา, ลำดับหัวข้อ, และ schema markup ให้เหมาะสม
+- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - จัดรูปแบบเนื้อหาเพื่อให้แสดงใน featured snippets และ SERP features
+- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - ระบุองค์ประกอบที่ล้าสมัยและเสนอการอัปเดตเนื้อหา
+- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - วิเคราะห์หลายหน้าเพื่อหาความซ้ำซ้อนและความขัดแย้งของคีย์เวิร์ด
+- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - วิเคราะห์เนื้อหาเพื่อสัญญาณ E-E-A-T และตัวชี้วัดความน่าเชื่อถือ
+- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - เขียนเนื้อหาที่เหมาะสมกับ SEO ตามคีย์เวิร์ดและสรุปงาน
+- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - สร้างโครงร่างเนื้อหา, กลุ่มหัวข้อ, และปฏิทินเนื้อหา
 
-## การมอบหมายโมเดล
+## การกำหนดโมเดล
 
-ซับเอเจนต์ทั้งหมด 75 ตัวได้รับการกำหนดค่าด้วยโมเดล Claude เฉพาะตามความซับซ้อนของงาน:
+ซับเอเจนต์ทั้ง 75 ตัวถูกกำหนดค่าโดยใช้โมเดล Claude เฉพาะตามความซับซ้อนของงาน:
 
 ### 🚀 Haiku (รวดเร็ว & คุ้มค่า) - 15 เอเจนต์
 **โมเดล:** `haiku`
-- `data-scientist` - คิวรี SQL และวิเคราะห์ข้อมูล
+- `data-scientist` - คำสั่ง SQL และการวิเคราะห์ข้อมูล
 - `api-documenter` - เอกสาร OpenAPI/Swagger
-- `reference-builder` - อ้างอิงทางเทคนิคและเอกสาร API อย่างละเอียด
+- `reference-builder` - เอกสารอ้างอิงทางเทคนิคและ API อย่างละเอียด
 - `business-analyst` - การติดตามตัวชี้วัดและ KPI
-- `content-marketer` - บทความบล็อกและโซเชียลมีเดีย
-- `customer-support` - ตั๋วซัพพอร์ตและคำถามที่พบบ่อย
-- `sales-automator` - อีเมลเย็นและข้อเสนอทางธุรกิจ
-- `search-specialist` - ค้นคว้าเว็บและรวบรวมข้อมูล
-- `legal-advisor` - นโยบายความเป็นส่วนตัวและเอกสารข้อกำหนด
-- `seo-meta-optimizer` - การปรับแต่งชื่อและคำอธิบายเมตา
-- `seo-keyword-strategist` - วิเคราะห์ความหนาแน่นและความหมายของคีย์เวิร์ด
+- `content-marketer` - โพสต์บล็อกและโซเชียลมีเดีย
+- `customer-support` - ตั๋วสนับสนุนและคำถามที่พบบ่อย
+- `sales-automator` - อีเมลขายและข้อเสนอ
+- `search-specialist` - การค้นคว้าเว็บและการรวบรวมข้อมูล
+- `legal-advisor` - นโยบายความเป็นส่วนตัวและเอกสารการปฏิบัติตามข้อกำหนด
+- `seo-meta-optimizer` - การปรับแต่งชื่อเมตาและคำอธิบาย
+- `seo-keyword-strategist` - การวิเคราะห์ความหนาแน่นคีย์เวิร์ดและความหมาย
 - `seo-structure-architect` - โครงสร้างเนื้อหาและ schema markup
-- `seo-snippet-hunter` - จัดรูปแบบสำหรับ featured snippet
-- `seo-content-refresher` - อัปเดตความสดใหม่ของเนื้อหา
-- `seo-cannibalization-detector` - ตรวจจับการทับซ้อนของคีย์เวิร์ด
+- `seo-snippet-hunter` - การจัดรูปแบบ featured snippet
+- `seo-content-refresher` - การอัปเดตความสดใหม่ของเนื้อหา
+- `seo-cannibalization-detector` - การตรวจจับความซ้ำซ้อนของคีย์เวิร์ด
 - `seo-content-planner` - ปฏิทินและโครงร่างเนื้อหา
 
 ### ⚡ Sonnet (สมดุลประสิทธิภาพ) - 44 เอเจนต์
 **โมเดล:** `sonnet`
 
 **การพัฒนา & ภาษา:**
-- `python-pro` - พัฒนา Python พร้อมฟีเจอร์ขั้นสูง
-- `ruby-pro` - พัฒนา Ruby ด้วย metaprogramming, รูปแบบ Rails และ gem
+- `python-pro` - การพัฒนา Python ด้วยฟีเจอร์ขั้นสูง
+- `ruby-pro` - การพัฒนา Ruby ด้วยเมตาโปรแกรมมิ่ง, รูปแบบ Rails และการพัฒนา gem
 - `javascript-pro` - JavaScript สมัยใหม่และ Node.js
-- `typescript-pro` - TypeScript ขั้นสูงกับระบบชนิดข้อมูล
-- `golang-pro` - Go concurrency และรูปแบบการเขียนที่เป็นมาตรฐาน
-- `rust-pro` - Rust ความปลอดภัยของหน่วยความจำและการเขียนโปรแกรมระบบ
-- `c-pro` - การเขียนโปรแกรมภาษา C และระบบฝังตัว
-- `cpp-pro` - C++ สมัยใหม่กับ STL และ templates
+- `typescript-pro` - TypeScript ขั้นสูงด้วยระบบชนิดข้อมูล
+- `golang-pro` - Go กับ concurrency และรูปแบบการเขียนที่เหมาะสม
+- `rust-pro` - Rust กับความปลอดภัยของหน่วยความจำและการเขียนโปรแกรมระบบ
+- `c-pro` - การเขียนโปรแกรม C และระบบฝังตัว
+- `cpp-pro` - C++ สมัยใหม่ด้วย STL และเทมเพลต
 - `php-pro` - PHP สมัยใหม่พร้อมฟีเจอร์ขั้นสูง
-- `java-pro` - Java สมัยใหม่กับ streams และ concurrency
+- `java-pro` - Java สมัยใหม่ด้วย streams และ concurrency
 - `elixir-pro` - Elixir กับรูปแบบ OTP และ Phoenix
-- `csharp-pro` - C# สมัยใหม่กับเฟรมเวิร์ก .NET และรูปแบบการเขียนโปรแกรม
-- `scala-pro` - Scala สำหรับองค์กรกับ Apache Pekko, Akka, Spark, และ ZIO/Cats Effect
-- `flutter-expert` - การพัฒนา Flutter กับการจัดการสถานะและแอนิเมชัน
-- `unity-developer` - การพัฒนาเกมด้วย Unity และการปรับประสิทธิภาพ
+- `csharp-pro` - C# สมัยใหม่ด้วยเฟรมเวิร์ก .NET และรูปแบบการเขียนโปรแกรม
+- `scala-pro` - Scala สำหรับองค์กรด้วย Apache Pekko, Akka, Spark และ ZIO/Cats Effect
+- `flutter-expert` - การพัฒนา Flutter ด้วยการจัดการสถานะและแอนิเมชัน
+- `unity-developer` - การพัฒนาเกม Unity และการปรับแต่งประสิทธิภาพ
 - `minecraft-bukkit-pro` - การพัฒนา Minecraft plugin ด้วย Bukkit/Spigot/Paper
 - `ios-developer` - การพัฒนา iOS แบบ native ด้วย Swift/SwiftUI
-- `frontend-developer` - React components และ UI
-- `ui-ux-designer` - การออกแบบอินเทอร์เฟซและ wireframes
+- `frontend-developer` - การสร้างคอมโพเนนต์ React และ UI
+- `ui-ux-designer` - การออกแบบอินเทอร์เฟซและ wireframe
 - `backend-architect` - การออกแบบ API และ microservices
-- `mobile-developer` - แอพ React Native/Flutter
-- `sql-pro` - การปรับประสิทธิภาพ SQL ขั้นสูง
-- `graphql-architect` - การออกแบบ GraphQL schemas และ resolvers
+- `mobile-developer` - แอป React Native/Flutter
+- `sql-pro` - การปรับแต่ง SQL ที่ซับซ้อน
+- `graphql-architect` - การออกแบบ schema และ resolver ของ GraphQL
 
-**โครงสร้างพื้นฐานและการปฏิบัติงาน:**
-- `devops-troubleshooter` - การดีบักระบบจริง
-- `deployment-engineer` - การตั้งค่า CI/CD pipelines
-- `database-optimizer` - การปรับประสิทธิภาพ query
-- `database-admin` - การจัดการฐานข้อมูล
-- `terraform-specialist` - Infrastructure as Code ด้วย Terraform
-- `network-engineer` - การตั้งค่าเครือข่าย
-- `dx-optimizer` - การปรับประสบการณ์นักพัฒนา
-- `data-engineer` - การสร้าง ETL pipelines
+**โครงสร้างพื้นฐานและการปฏิบัติการ:**
+- `devops-troubleshooter` - การดีบักในระบบ production
+- `deployment-engineer` - การจัดการ pipeline CI/CD
+- `database-optimizer` - การปรับแต่ง query
+- `database-admin` - การดำเนินงานฐานข้อมูล
+- `terraform-specialist` - Infrastructure as Code
+- `network-engineer` - การกำหนดค่าเครือข่าย
+- `dx-optimizer` - การปรับปรุงประสบการณ์นักพัฒนา
+- `data-engineer` - การจัดการ ETL pipeline
 
 **คุณภาพและการสนับสนุน:**
-- `test-automator` - การสร้างชุดทดสอบอัตโนมัติ
+- `test-automator` - การสร้าง test suite
 - `code-reviewer` - การวิเคราะห์คุณภาพโค้ด
 - `debugger` - การตรวจสอบข้อผิดพลาด
 - `error-detective` - การวิเคราะห์ log
-- `ml-engineer` - การนำแบบจำลอง ML ขึ้นใช้งานจริง
-- `legacy-modernizer` - การย้ายและอัปเกรดเฟรมเวิร์ก
+- `ml-engineer` - การ deploy โมเดล ML
+- `legacy-modernizer` - การย้ายเฟรมเวิร์ก
 - `payment-integration` - การประมวลผลการชำระเงิน
-- `mermaid-expert` - ผู้ออกแบบไดอะแกรม Mermaid และเอกสารภาพประกอบ
-- `flutter-expert` - ผู้เชี่ยวชาญการพัฒนา Flutter
+- `mermaid-expert` - ไดอะแกรม Mermaid และเอกสารภาพประกอบ
+- `flutter-expert` - การพัฒนา Flutter
 - `seo-content-auditor` - การวิเคราะห์คุณภาพเนื้อหาและ E-E-A-T
-- `seo-authority-builder` - การเพิ่มประสิทธิภาพสัญญาณ Authority
-- `seo-content-writer` - การสร้างเนื้อหาที่ปรับแต่งสำหรับ SEO
+- `seo-authority-builder` - การปรับแต่งสัญญาณอำนาจ
+- `seo-content-writer` - การสร้างเนื้อหาให้เหมาะสมกับ SEO
 
-### 🧠 Opus (ขีดความสามารถสูงสุด) - 15 ตัวแทน
+### 🧠 Opus (ประสิทธิภาพสูงสุด) - 15 เอเจนต์
 **โมเดล:** `opus`
-- `ai-engineer` - การประยุกต์ใช้ LLM และระบบ RAG
+- `ai-engineer` - แอปพลิเคชัน LLM และระบบ RAG
 - `security-auditor` - การวิเคราะห์ช่องโหว่
-- `performance-engineer` - การเพิ่มประสิทธิภาพแอปพลิเคชัน
-- `incident-responder` - การจัดการเหตุการณ์ในระบบผลิต
+- `performance-engineer` - การปรับแต่งประสิทธิภาพแอปพลิเคชัน
+- `incident-responder` - การจัดการเหตุการณ์ในระบบจริง
 - `mlops-engineer` - โครงสร้างพื้นฐาน ML
-- `architect-reviewer` - ความสม่ำเสมอทางสถาปัตยกรรม
+- `architect-reviewer` - ความสอดคล้องทางสถาปัตยกรรม
 - `cloud-architect` - การออกแบบโครงสร้างพื้นฐานคลาวด์
-- `prompt-engineer` - การปรับแต่ง Prompt สำหรับ LLM
-- `context-manager` - การประสานงานระหว่างหลายตัวแทน
+- `prompt-engineer` - การปรับแต่งพร็อมต์ LLM
+- `context-manager` - การประสานงานหลายเอเจนต์
 - `quant-analyst` - การสร้างแบบจำลองทางการเงิน
-- `risk-manager` - การจัดการความเสี่ยงของพอร์ตโฟลิโอ
-- `docs-architect` - สถาปนิกเอกสารเทคนิคจากฐานรหัสโดยสมบูรณ์
-- `tutorial-engineer` - เนื้อหาสอนแบบเป็นขั้นตอนและการศึกษา
+- `risk-manager` - การจัดการความเสี่ยงในพอร์ตโฟลิโอ
+- `docs-architect` - การจัดทำเอกสารทางเทคนิคอย่างครบถ้วนจากโค้ดเบส
+- `tutorial-engineer` - เนื้อหาคู่มือทีละขั้นตอนและการศึกษาสอน
 
 ## การติดตั้ง
 
-Subagent เหล่านี้จะพร้อมใช้งานโดยอัตโนมัติเมื่อวางไว้ในไดเรกทอรี `~/.claude/agents/`
+ซับเอเจนต์เหล่านี้จะสามารถใช้งานได้ทันทีเมื่อวางไว้ในไดเรกทอรี `~/.claude/agents/`
 
 ```bash
 cd ~/.claude
@@ -523,6 +525,6 @@ payment-integration → security-auditor → Validated implementation
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
 
 ---

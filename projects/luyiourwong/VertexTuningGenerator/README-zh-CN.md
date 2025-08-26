@@ -1,0 +1,97 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=coverage)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)
+
+# Vertex Tuning Generator / Editor
+
+A single page application for GCP VertexAI tuning dataset generator.
+
+## Reference Documentation
+
+[VertexAI Model tuning](https://console.cloud.google.com/vertex-ai/studio/tuning)
+
+[VertexAI Model tuning documentation](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune-models)
+
+[Fine tuning use cases](https://cloud.google.com/transform/top-five-gen-ai-tuning-use-cases-gemini-hundreds-of-orgs)
+
+## Sample dataset (from [tuning document](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune_gemini/text_tune#sample-datasets))
+
+[Gemini 2.0 training dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_train_data.jsonl)
+
+[Gemini 2.0 validation dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_validation_data.jsonl)
+
+## Use online
+
+[![pages-build-deployment](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment)
+
+[Online Application on Github pages](https://luyiourwong.github.io/VertexTuningGenerator/)
+
+## Development
+
+### Project Setup
+
+```sh
+npm install
+```
+
+### 编译和热重载开发
+
+```sh
+npm run dev
+```
+
+### 测试和覆盖率报告
+报告位于 `./coverage`，sonar 将使用 `./coverage/lcov.info` 上的 lcov。
+```sh
+npm run test:coverage
+```
+## 贡献
+
+欢迎贡献！
+
+代码必须通过质量标准才能进行部署。
+
+<details>
+<summary><strong>📋 代码质量标准</strong></summary>
+
+所有拉取请求在合并前必须通过 SonarQube 中的以下质量门：
+
+- 可靠性评级：A
+- 安全性评级：A
+- 可维护性评级：A
+- 最低覆盖率要求：80%
+- 最大允许重复代码：3%
+
+> 注意：您可以在 PR 检查和 [SonarCloud](https://sonarcloud.io/project/pull_requests_list?id=luyiourwong_VertexTuningGenerator) 上监控分析结果
+</details>
+
+## GitHub Actions
+
+本仓库配置了 GitHub Actions，以帮助维护代码质量和自动化部署：
+
+1. **针对 `main` 的拉取请求**：
+    - 自动触发 SonarQube 扫描、单元测试并生成代码覆盖率报告。
+    - Gemini Code Assist 机器人将根据扫描结果自动审查并评论拉取请求。
+
+2. **推送到 `main`**：
+    - 自动触发 SonarQube 扫描、单元测试并生成代码覆盖率报告。
+    - 如果质量门通过，网站将自动部署到 **GitHub Pages**。
+
+## 链接
+
+- [GitHub 仓库](https://github.com/luyiourwong/VertexTuningGenerator)
+- [问题跟踪](https://github.com/luyiourwong/VertexTuningGenerator/issues)
+- [CI/CD](https://github.com/luyiourwong/VertexTuningGenerator/actions)
+- [Sonarcloud](https://sonarcloud.io/project/overview?id=luyiourwong_VertexTuningGenerator)
+- [Github 页面](https://luyiourwong.github.io/VertexTuningGenerator/)
+
+
+## 许可证
+
+本项目采用[MIT 许可证](LICENSE)授权。
+
+
+---
+
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+
+---

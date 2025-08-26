@@ -40,155 +40,157 @@
 ## 可用子代理
 
 ### 開發與架構
-- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - 設計 RESTful API、微服務邊界及資料庫結構
-- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - 建構 React 元件、實作響應式版面並處理前端狀態管理
+- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - 設計 RESTful API、微服務界限及資料庫結構
+- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - 建構 React 元件、實作響應式版面配置並處理前端狀態管理
 - **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - 創建介面設計、線框圖及設計系統
-- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - 開發具原生整合的 React Native 或 Flutter 應用程式
-- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - 設計 GraphQL 結構、解析器及聯邦架構
-- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - 審查程式碼變更以確保架構一致性及設計模式
+- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - 開發帶有原生整合的 React Native 或 Flutter 應用程式
+- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - 設計 GraphQL 架構、解析器及聯邦
+- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - 審查程式碼變更以保持架構一致性及模式
 
-### 程式語言專家
-- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - 撰寫語意化 Python 程式，具備高階功能與最佳化
-- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - 撰寫語意化 Ruby 程式，包含元編程、Rails 模式、gem 開發及測試框架
-- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - 撰寫語意化 Go 程式，善用 goroutines、channels 及介面
-- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - 撰寫語意化 Rust，運用所有權模式、生命週期及 trait 實作
-- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - 撰寫高效 C 程式，具備正確記憶體管理與系統呼叫
-- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - 撰寫語意化 C++ 程式，利用現代語法、RAII、智能指標及 STL 演算法
-- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - 精通現代 JavaScript，包含 ES6+、非同步模式及 Node.js API
-- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - 精通 TypeScript，具備進階型別、泛型及嚴格型別安全性
-- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - 撰寫語意化 PHP 程式，具備現代語法及效能最佳化
-- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - 精通現代 Java，包含串流、並行及 JVM 最佳化
-- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - 撰寫語意化 Elixir 程式，善用 OTP 模式、函數式程式設計及 Phoenix 框架
-- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - 撰寫現代 C# 程式，具備高階語法及 .NET 最佳化
-- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - 精通企業級 Scala 開發，包含函數式編程、分散式系統及大數據處理
-- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - 精通 Flutter 開發，包含 Dart、元件及平台整合
-- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - 建構 Unity 遊戲，優化腳本及效能調校
-- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - 精通 Minecraft 伺服器插件開發，運用 Bukkit、Spigot 及 Paper API
-- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - 開發原生 iOS 應用程式，使用 Swift/SwiftUI
-- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - 撰寫複雜 SQL 查詢、最佳化執行計劃及設計正規化資料結構
+### 語言專家
+- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - 編寫具備進階功能與最佳化的 Python 慣用程式碼
+- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - 編寫慣用 Ruby 程式碼，含元編程、Rails 模式、套件開發及測試框架
+- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - 編寫 Go 慣用程式碼，運用 goroutine、channel 與介面
+- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - 編寫慣用 Rust，運用所有權模式、生命週期及 trait 實作
+- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - 編寫高效 C 程式碼，妥善管理記憶體並運用系統呼叫
+- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - 編寫現代化 C++ 程式碼，包含 RAII、智能指標及 STL 演算法
+- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - 精通現代 JavaScript，運用 ES6+、非同步模式及 Node.js API
+- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - 精通 TypeScript，運用進階型別、泛型及嚴格型別安全
+- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - 編寫具現代特性及效能優化的 PHP 慣用程式碼
+- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - 精通現代 Java，運用串流、並行處理及 JVM 最佳化
+- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - 編寫慣用 Elixir 程式碼，運用 OTP 模式、函數式程式設計及 Phoenix 框架
+- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - 編寫現代 C# 程式碼，具備進階功能及 .NET 最佳化
+- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - 精通企業級 Scala 開發，運用函數式程式設計、分散式系統及大數據處理
+- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - 精通 Flutter 開發，運用 Dart、元件及平台整合
+- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - 建構 Unity 遊戲，優化腳本及性能調校
+- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - 精通 Minecraft 伺服器外掛開發，運用 Bukkit、Spigot 及 Paper API
+- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - 開發原生 iOS 應用程式，採用 Swift/SwiftUI
+- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - 撰寫複雜 SQL 查詢、最佳化執行計畫及設計正規化結構
 
 ### 基礎設施與運維
-- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - 偵錯生產問題、分析日誌並修復部署失敗
-- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - 設定 CI/CD 流程、Docker 容器及雲端部署
-- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - 設計 AWS/Azure/GCP 基礎架構並最佳化雲端成本
-- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - 最佳化 SQL 查詢、設計高效索引並執行資料庫遷移
+- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - 偵錯生產環境問題、分析日誌並修復部署失敗
+- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - 配置 CI/CD 流程、Docker 容器及雲端部署
+- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - 設計 AWS/Azure/GCP 基礎設施並優化雲端成本
+- **[hybrid-cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/hybrid-cloud-architect.md)** - 設計 AWS/Azure/GCP 與 OpenStack 本地環境的混合雲基礎設施
+- **[kubernetes-architect](https://raw.githubusercontent.com/wshobson/agents/main/kubernetes-architect.md)** - 以 Kubernetes 為核心設計雲原生基礎設施，並在 AWS/Azure/GCP 及混合環境運用 GitOps 原則。
+- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - 優化 SQL 查詢、設計高效索引並處理資料庫遷移
 - **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - 管理資料庫運作、備份、複製及監控
-- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - 撰寫進階 Terraform 模組、管理狀態檔並實作 IaC 最佳實踐
-- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - 以緊急且精確方式處理生產事故
-- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - 偵錯網路連線、設定負載平衡器並分析流量模式
-- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - 開發者體驗優化專家，改善工具、設置及工作流程
+- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - 撰寫進階 Terraform 模組、管理狀態檔案並實作 IaC 最佳實踐
+- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - 以緊急與精確方式處理生產事故
+- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - 偵錯網路連線、配置負載平衡器並分析流量模式
+- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - 開發者體驗專家，提升工具、設置與工作流程
 
 ### 品質與安全
-- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - 專業程式碼審查，深度關注配置安全與生產可靠性
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - 專業程式碼審查，專注於配置安全性及生產可靠性
 - **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - 審查程式碼漏洞並確保符合 OWASP 標準
-- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - 建立完整的測試套件，包括單元、整合及端到端測試
-- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - 應用程式效能分析、瓶頸優化及快取策略實施
-- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - 專精錯誤、測試失敗及異常行為的除錯專家
-- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - 搜尋日誌和程式碼庫中的錯誤模式、堆疊追蹤及異常
-- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - 以進階搜尋技巧和綜合方法進行網路研究的專家
+- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - 建立完整測試套件，包含單元、整合及端到端測試
+- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - 分析應用效能、優化瓶頸並實施快取策略
+- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - 錯誤、測試失敗及異常行為的偵錯專家
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - 搜尋日誌與程式碼庫中的錯誤模式、堆疊追蹤及異常
+- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - 專業網路研究員，運用進階搜尋技術與綜合能力
 
 ### 資料與人工智慧
-- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - 專精 SQL 查詢、BigQuery 操作及資料洞察分析
-- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - 建置 ETL 流程、資料倉儲及串流架構
-- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - 建構 LLM 應用、RAG 系統及提示流程
-- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - 實作機器學習流程、模型服務及特徵工程
-- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - 構建 ML 流程、實驗追蹤及模型註冊管理
-- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - 優化 LLM 與 AI 系統的提示語
+- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - 資料分析專家，擅長 SQL 查詢、BigQuery 操作與數據洞察
+- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - 建構 ETL 流程、資料倉儲及串流架構
+- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - 建立 LLM 應用、RAG 系統與提示管線
+- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - 實作機器學習管線、模型服務與特徵工程
+- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - 建立 ML 管線、實驗追蹤及模型註冊管理
+- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - 優化 LLM 與人工智慧系統的提示設計
 
 ### 專業領域
-- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - 製作 OpenAPI/Swagger 規格並撰寫開發者文件
+- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - 撰寫 OpenAPI/Swagger 規範及開發者文件
 - **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - 整合 Stripe、PayPal 及各類支付處理器
-- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - 建立金融模型、回測交易策略及市場資料分析
-- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - 監控投資組合風險、R 倍數及部位限制
+- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - 建立財務模型、回測交易策略並分析市場數據
+- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - 監控投資組合風險、R 倍數及持倉限額
 - **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - 重構舊有程式碼庫並逐步現代化
-- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - 管理多代理與長期任務的情境資訊
+- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - 管理多代理及長時間任務的上下文
 
-### 文件撰寫
-- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - 從現有程式碼庫建立完整技術文件
-- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - 製作流程圖、序列圖、ERD 及架構的 Mermaid 圖表
-- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - 建立詳盡的技術參考與 API 文件
-- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - 依據程式碼製作逐步教學與教育內容
+### 文件管理
+- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - 根據現有程式碼庫撰寫完整技術文件
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - 製作 Mermaid 圖表，涵蓋流程圖、序列圖、ERD 及架構圖
+- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - 建立詳盡技術參考及 API 文件
+- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - 從程式碼產出分步教學及教育內容
 
 ### 商業與行銷
-- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - 分析指標、製作報告並追蹤 KPI
-- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - 撰寫部落格文章、社群內容及電子報
-- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - 協助招募、到職/離職、休假、績效、合規政策及員工關係
-- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - 草擬冷郵件、追蹤信及提案範本
-- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - 處理客服單、FAQ 回覆及客戶郵件
-- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - 草擬隱私政策、服務條款、免責聲明及法律通知
+- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - 分析指標、製作報表並追蹤 KPI
+- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - 撰寫部落格、社群內容與電子報
+- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - 合作夥伴，負責招聘、入職／離職、休假、績效、合規政策及員工關係。
+- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - 起草冷郵件、後續聯絡及提案範本
+- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - 處理客服工單、FAQ 回覆及客戶郵件
+- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - 撰寫隱私政策、服務條款、免責聲明及法律通知
 
 ### SEO 與內容優化
-- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - 分析提供的內容品質、E-E-A-T 信號及 SEO 最佳實踐
+- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - 分析所提供內容的品質、E-E-A-T 訊號及 SEO 最佳實踐
 - **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - 建立最佳化的 meta 標題、描述及 URL 建議
-- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - 分析關鍵字使用、計算密度、建議語意變化
-- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - 優化內容結構、標題階層及 schema 標記
-- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - 將內容格式化為精選摘要和 SERP 特徵
-- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - 識別過時元素並建議內容更新
-- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - 分析多個頁面關鍵字重疊與衝突
-- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - 分析內容的 E-E-A-T 信號及信任指標
+- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - 分析關鍵字使用、計算密度、建議語義變化
+- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - 最佳化內容結構、標題階層及 schema 標記
+- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - 格式化內容以符合精選摘要及 SERP 功能
+- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - 辨識過時元素並建議內容更新
+- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - 分析多個頁面間的關鍵字重疊與衝突
+- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - 分析內容的 E-E-A-T 訊號及可信度指標
 - **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - 根據關鍵字及簡報撰寫 SEO 最佳化內容
-- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - 建立內容大綱、主題叢集及行事曆
+- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - 建立內容大綱、主題群組及行事曆
 
 ## 模型分配
 
-全部 75 個子代理根據任務複雜度配置專屬 Claude 模型：
+全部 75 個子代理皆根據任務複雜度配置特定 Claude 模型：
 
-### 🚀 Haiku（快速且高性價比）- 15 個代理
+### 🚀 Haiku（快速且具成本效益）- 15 個代理
 **模型:** `haiku`
 - `data-scientist` - SQL 查詢與資料分析
 - `api-documenter` - OpenAPI/Swagger 文件編寫
-- `reference-builder` - 詳盡技術參考與 API 文件
+- `reference-builder` - 詳盡技術參考及 API 文件
 - `business-analyst` - 指標與 KPI 追蹤
-- `content-marketer` - 部落格文章與社群媒體內容
-- `customer-support` - 客戶支持工單與常見問答
-- `sales-automator` - 冷郵件與提案製作
-- `search-specialist` - 網路研究與資訊收集
-- `legal-advisor` - 隱私政策與合規文件
-- `seo-meta-optimizer` - meta 標題與描述最佳化
-- `seo-keyword-strategist` - 關鍵字密度與語意分析
+- `content-marketer` - 部落格文章與社群媒體
+- `customer-support` - 支援票證與常見問題
+- `sales-automator` - 冷郵件與提案書
+- `search-specialist` - 網路研究與資訊蒐集
+- `legal-advisor` - 隱私政策及合規文件
+- `seo-meta-optimizer` - meta 標題與描述優化
+- `seo-keyword-strategist` - 關鍵字密度與語義分析
 - `seo-structure-architect` - 內容結構與 schema 標記
 - `seo-snippet-hunter` - 精選摘要格式化
 - `seo-content-refresher` - 內容新鮮度更新
 - `seo-cannibalization-detector` - 關鍵字重疊偵測
-- `seo-content-planner` - 內容行事曆與大綱
+- `seo-content-planner` - 內容行事曆及大綱
 
-### ⚡ Sonnet（均衡效能）- 44 個代理
+### ⚡ Sonnet（效能均衡）- 44 個代理
 **模型:** `sonnet`
 
-**開發與程式語言：**
+**開發與語言：**
 - `python-pro` - 具備進階功能的 Python 開發
-- `ruby-pro` - Ruby 開發、元編程、Rails 模式及 gem 開發
-- `javascript-pro` - 現代 JavaScript 與 Node.js
-- `typescript-pro` - 進階 TypeScript 與型別系統
-- `golang-pro` - Go 並行處理與慣用設計模式
+- `ruby-pro` - Ruby 開發，包含元編程、Rails 模式及 gem 開發
+- `javascript-pro` - 現代 JavaScript 及 Node.js
+- `typescript-pro` - 進階 TypeScript 型別系統
+- `golang-pro` - Go 並行處理及慣用模式
 - `rust-pro` - Rust 記憶體安全與系統程式設計
-- `c-pro` - C 程式設計與嵌入式系統
-- `cpp-pro` - 現代 C++ 與 STL 及範本
-- `php-pro` - 現代 PHP 與進階功能
-- `java-pro` - 現代 Java 與串流及並行處理
-- `elixir-pro` - Elixir 與 OTP 設計模式及 Phoenix
-- `csharp-pro` - 現代 C# 與 .NET 架構及設計模式
-- `scala-pro` - 企業級 Scala 與 Apache Pekko、Akka、Spark 及 ZIO/Cats Effect
-- `flutter-expert` - Flutter 開發與狀態管理及動畫
+- `c-pro` - C 程式設計及嵌入式系統
+- `cpp-pro` - 現代 C++，涵蓋 STL 及模板
+- `php-pro` - 具有進階功能的現代 PHP
+- `java-pro` - 現代 Java，含串流與並行處理
+- `elixir-pro` - Elixir，OTP 模式及 Phoenix
+- `csharp-pro` - 現代 C#，.NET 框架與模式
+- `scala-pro` - 企業級 Scala，含 Apache Pekko、Akka、Spark 及 ZIO/Cats Effect
+- `flutter-expert` - Flutter 開發，狀態管理及動畫
 - `unity-developer` - Unity 遊戲開發與最佳化
-- `minecraft-bukkit-pro` - Minecraft 外掛開發（Bukkit/Spigot/Paper）
-- `ios-developer` - 原生 iOS 開發（Swift/SwiftUI）
-- `frontend-developer` - React 元件與使用者介面
-- `ui-ux-designer` - 介面設計與線框圖
+- `minecraft-bukkit-pro` - Minecraft 外掛開發，支援 Bukkit/Spigot/Paper
+- `ios-developer` - 原生 iOS 開發，使用 Swift/SwiftUI
+- `frontend-developer` - React 元件及使用者介面
+- `ui-ux-designer` - 介面設計及線框圖
 - `backend-architect` - API 設計與微服務架構
 - `mobile-developer` - React Native/Flutter 應用程式
-- `sql-pro` - 複雜 SQL 最佳化
-- `graphql-architect` - GraphQL 架構與解析器
+- `sql-pro` - 複雜 SQL 優化
+- `graphql-architect` - GraphQL 架構及解析器
 
 **基礎設施與運維：**
-- `devops-troubleshooter` - 產線除錯
-- `deployment-engineer` - CI/CD 流程
-- `database-optimizer` - 查詢最佳化
-- `database-admin` - 資料庫運維管理
+- `devops-troubleshooter` - 生產環境除錯
+- `deployment-engineer` - CI/CD 部署流程
+- `database-optimizer` - 查詢優化
+- `database-admin` - 資料庫管理與操作
 - `terraform-specialist` - 基礎設施即程式碼
-- `network-engineer` - 網路設定
+- `network-engineer` - 網路配置
 - `dx-optimizer` - 開發者體驗最佳化
-- `data-engineer` - ETL 流程設計
+- `data-engineer` - ETL 數據管道
 
 **品質與支援：**
 - `test-automator` - 測試套件建立
@@ -197,32 +199,32 @@
 - `error-detective` - 日誌分析
 - `ml-engineer` - 機器學習模型部署
 - `legacy-modernizer` - 框架遷移
-- `payment-integration` - 支付流程整合
+- `payment-integration` - 支付處理
 - `mermaid-expert` - Mermaid 圖表與視覺化文件
 - `flutter-expert` - Flutter 開發
 - `seo-content-auditor` - 內容品質與 E-E-A-T 分析
 - `seo-authority-builder` - 權威信號優化
-- `seo-content-writer` - SEO 優化內容創作
+- `seo-content-writer` - SEO 優化內容創建
 
-### 🧠 Opus（最大能力）- 15 位代理
-**模型：** `opus`
+### 🧠 Opus（最大能力）- 15 名代理
+**模型:** `opus`
 - `ai-engineer` - LLM 應用與 RAG 系統
 - `security-auditor` - 漏洞分析
 - `performance-engineer` - 應用優化
-- `incident-responder` - 線上事故處理
+- `incident-responder` - 線上事件處理
 - `mlops-engineer` - 機器學習基礎設施
 - `architect-reviewer` - 架構一致性
-- `cloud-architect` - 雲端基礎設計
+- `cloud-architect` - 雲端基礎設施設計
 - `prompt-engineer` - LLM 提示優化
-- `context-manager` - 多代理協同
+- `context-manager` - 多代理協作
 - `quant-analyst` - 財務建模
 - `risk-manager` - 投資組合風險管理
-- `docs-architect` - 從程式碼庫建立完整技術文件
+- `docs-architect` - 從程式碼庫生成全面技術文件
 - `tutorial-engineer` - 步驟教學與教育內容
 
 ## 安裝
 
-這些子代理只要放置在 `~/.claude/agents/` 目錄下即可自動啟用。
+當這些子代理被放置在 `~/.claude/agents/` 目錄時，會自動啟用。
 
 ```bash
 cd ~/.claude
@@ -523,6 +525,6 @@ payment-integration → security-auditor → Validated implementation
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
 
 ---

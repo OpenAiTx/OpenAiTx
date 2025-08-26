@@ -43,158 +43,160 @@
 - **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - RESTful API, 마이크로서비스 경계, 데이터베이스 스키마 설계
 - **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - React 컴포넌트 구축, 반응형 레이아웃 구현, 클라이언트 상태 관리
 - **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - 인터페이스 디자인, 와이어프레임, 디자인 시스템 제작
-- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - React Native 또는 Flutter 앱 개발 및 네이티브 연동
-- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - GraphQL 스키마, 리졸버, 페더레이션 설계
-- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - 아키텍처 일관성과 패턴을 위한 코드 변경 검토
+- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - React Native 또는 Flutter 앱 개발 및 네이티브 통합
+- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - GraphQL 스키마, 리졸버, 연합 설계
+- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - 아키텍처 일관성과 패턴을 위해 코드 변경 사항 검토
 
 ### 언어 전문가
-- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - 고급 기능과 최적화를 활용한 파이썬 관용 코드 작성
-- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - 메타프로그래밍, Rails 패턴, gem 개발 및 테스트 프레임워크를 활용한 루비 코드 작성
-- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - 고루틴, 채널, 인터페이스를 활용한 Go 관용 코드 작성
-- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - 소유권 패턴, 라이프타임, 트레잇 구현을 활용한 러스트 관용 코드 작성
-- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - 효율적인 C 코드 작성 및 메모리 관리, 시스템 콜 구현
-- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - 현대적 기능, RAII, 스마트 포인터, STL 알고리즘을 활용한 C++ 관용 코드 작성
-- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - ES6+, 비동기 패턴, Node.js API를 마스터한 현대적 자바스크립트 작성
-- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - 고급 타입, 제네릭, 엄격한 타입 안정성을 마스터한 타입스크립트 작성
-- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - 현대적 기능과 성능 최적화를 적용한 PHP 관용 코드 작성
-- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - 스트림, 동시성, JVM 최적화를 마스터한 현대 자바 작성
-- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - OTP 패턴, 함수형 프로그래밍, Phoenix 프레임워크를 활용한 엘릭서 관용 코드 작성
-- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - 고급 기능과 .NET 최적화를 활용한 현대 C# 코드 작성
-- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - 함수형 프로그래밍, 분산 시스템, 빅데이터 처리를 활용한 엔터프라이즈급 스칼라 개발 마스터
-- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Dart, 위젯, 플랫폼 연동을 활용한 Flutter 개발 마스터
-- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - 최적화된 스크립트와 성능 튜닝으로 Unity 게임 개발
+- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - 고급 기능과 최적화를 활용한 파이썬 코드 작성
+- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - 메타프로그래밍, Rails 패턴, gem 개발, 테스트 프레임워크를 활용한 루비 코드 작성
+- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - 고루틴, 채널, 인터페이스를 활용한 고언어 코드 작성
+- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - 소유권 패턴, 라이프타임, 트레이트 구현을 활용한 러스트 코드 작성
+- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - 메모리 관리 및 시스템 콜을 적절히 활용한 효율적인 C 코드 작성
+- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - 최신 기능, RAII, 스마트 포인터, STL 알고리즘을 활용한 C++ 코드 작성
+- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - ES6+, 비동기 패턴, Node.js API를 활용한 최신 자바스크립트 마스터
+- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - 고급 타입, 제네릭, 엄격한 타입 안전성을 갖춘 타입스크립트 마스터
+- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - 최신 기능과 성능 최적화를 활용한 PHP 코드 작성
+- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - 스트림, 동시성, JVM 최적화를 활용한 최신 자바 마스터
+- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - OTP 패턴, 함수형 프로그래밍, Phoenix 프레임워크를 활용한 엘릭서 코드 작성
+- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - 고급 기능과 .NET 최적화를 활용한 최신 C# 코드 작성
+- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - 함수형 프로그래밍, 분산 시스템, 빅데이터 처리 등 엔터프라이즈급 스칼라 개발 마스터
+- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Dart, 위젯, 플랫폼 통합을 활용한 플러터 개발 마스터
+- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - 최적화된 스크립트와 성능 튜닝을 통한 Unity 게임 제작
 - **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Bukkit, Spigot, Paper API를 활용한 마인크래프트 서버 플러그인 개발 마스터
-- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Swift/SwiftUI를 활용한 네이티브 iOS 앱 개발
+- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Swift/SwiftUI로 네이티브 iOS 애플리케이션 개발
 - **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - 복잡한 SQL 쿼리 작성, 실행 계획 최적화, 정규화된 스키마 설계
 
 ### 인프라 및 운영
 - **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - 프로덕션 이슈 디버깅, 로그 분석, 배포 실패 수정
-- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - CI/CD 파이프라인, Docker 컨테이너, 클라우드 배포 구성
+- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - CI/CD 파이프라인, 도커 컨테이너, 클라우드 배포 구성
 - **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - AWS/Azure/GCP 인프라 설계 및 클라우드 비용 최적화
-- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - SQL 쿼리 최적화, 효율적인 인덱스 설계, DB 마이그레이션 처리
+- **[hybrid-cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/hybrid-cloud-architect.md)** - AWS/Azure/GCP와 온프레미스 OpenStack 환경을 아우르는 하이브리드 클라우드 인프라 설계
+- **[kubernetes-architect](https://raw.githubusercontent.com/wshobson/agents/main/kubernetes-architect.md)** - Kubernetes 중심의 클라우드 네이티브 인프라와 GitOps 원칙을 기반으로 AWS/Azure/GCP 및 하이브리드 환경 설계
+- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - SQL 쿼리 최적화, 효율적인 인덱스 설계, 데이터베이스 마이그레이션 처리
 - **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - 데이터베이스 운영, 백업, 복제, 모니터링 관리
 - **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - 고급 Terraform 모듈 작성, 상태 파일 관리, IaC 베스트 프랙티스 구현
-- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - 프로덕션 인시던트를 신속하고 정확하게 처리
-- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - 네트워크 연결 문제 디버깅, 로드밸런서 구성, 트래픽 패턴 분석
-- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - 개발자 경험을 개선하는 도구, 설정, 워크플로우 최적화 전문가
+- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - 신속하고 정확하게 프로덕션 사고 대응
+- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - 네트워크 연결 문제 디버깅, 로드 밸런서 구성, 트래픽 패턴 분석
+- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - 개발자 경험 전문가로서 도구, 설정 및 워크플로우를 개선합니다
 
 ### 품질 및 보안
-- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - 구성 보안 및 프로덕션 신뢰성에 중점을 둔 전문가 코드 리뷰
-- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - 취약점 검토 및 OWASP 준수 보장
-- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - 단위, 통합, e2e 테스트를 포함한 종합 테스트 스위트 생성
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - 구성 보안과 생산 신뢰성에 중점을 둔 전문 코드 리뷰
+- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - 취약점을 검토하고 OWASP 준수를 보장
+- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - 단위, 통합, e2e 테스트를 포함한 종합적인 테스트 스위트 생성
 - **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - 애플리케이션 프로파일링, 병목 현상 최적화, 캐싱 전략 구현
-- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - 오류, 테스트 실패 및 예기치 않은 동작에 대한 디버깅 전문가
-- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - 로그 및 코드베이스에서 오류 패턴, 스택 트레이스, 이상 탐색
-- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - 고급 검색 기술과 종합적 분석을 활용한 웹 리서치 전문가
+- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - 오류, 테스트 실패, 예기치 않은 동작에 대한 디버깅 전문가
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - 로그와 코드베이스에서 오류 패턴, 스택 트레이스, 이상 현상 탐색
+- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - 고급 검색 기술과 통합을 활용한 전문 웹 연구원
 
-### 데이터 & AI
-- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQL 쿼리, BigQuery 작업 및 데이터 인사이트에 대한 데이터 분석 전문가
-- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - ETL 파이프라인, 데이터 웨어하우스 및 스트리밍 아키텍처 구축
-- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - LLM 애플리케이션, RAG 시스템 및 프롬프트 파이프라인 구축
-- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - ML 파이프라인, 모델 서빙 및 특성 엔지니어링 구현
-- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - ML 파이프라인 구축, 실험 추적 및 모델 레지스트리 관리
+### 데이터 및 AI
+- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQL 쿼리, BigQuery 작업, 데이터 인사이트를 위한 데이터 분석 전문가
+- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - ETL 파이프라인, 데이터 웨어하우스, 스트리밍 아키텍처 구축
+- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - LLM 애플리케이션, RAG 시스템, 프롬프트 파이프라인 구축
+- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - ML 파이프라인, 모델 서빙, 피처 엔지니어링 구현
+- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - ML 파이프라인, 실험 추적, 모델 레지스트리 구축
 - **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - LLM 및 AI 시스템을 위한 프롬프트 최적화
 
 ### 전문 분야
-- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - OpenAPI/Swagger 명세 작성 및 개발자 문서 작성
-- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Stripe, PayPal 등 결제 프로세서 통합
-- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - 금융 모델 구축, 트레이딩 전략 백테스트 및 시장 데이터 분석
-- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - 포트폴리오 위험, R-배수 및 포지션 한도 모니터링
+- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - OpenAPI/Swagger 명세 작성 및 개발자 문서화
+- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Stripe, PayPal 및 결제 프로세서 통합
+- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - 금융 모델 구축, 거래 전략 백테스트, 시장 데이터 분석
+- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - 포트폴리오 위험, R-배수, 포지션 한도 모니터링
 - **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - 레거시 코드베이스 리팩터링 및 점진적 현대화 구현
-- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - 여러 에이전트 및 장기 실행 작업 간 컨텍스트 관리
+- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - 여러 에이전트 및 장기 실행 작업 간의 컨텍스트 관리
 
 ### 문서화
-- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - 기존 코드베이스에서 종합 기술 문서 작성
-- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - 플로우차트, 시퀀스, ERD, 아키텍처를 위한 Mermaid 다이어그램 생성
-- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - 기술 참조 및 API 문서의 철저한 작성
-- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - 코드 기반의 단계별 튜토리얼 및 교육 콘텐츠 작성
+- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - 기존 코드베이스에서 종합적인 기술 문서 작성
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - 플로우차트, 시퀀스, ERD, 아키텍처를 위한 Mermaid 다이어그램 작성
+- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - 포괄적인 기술 참조 및 API 문서 작성
+- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - 코드 기반 단계별 튜토리얼 및 교육 콘텐츠 제작
 
-### 비즈니스 & 마케팅
-- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - 지표 분석, 보고서 작성 및 KPI 추적
-- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - 블로그 포스트, 소셜 미디어 콘텐츠, 이메일 뉴스레터 작성
-- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - 채용, 온보딩/오프보딩, 휴가 및 연차, 성과, 정책 준수, 직원 관계 지원 파트너
-- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - 콜드 이메일, 팔로업, 제안서 템플릿 작성
-- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - 지원 티켓, FAQ 응답 및 고객 이메일 처리
-- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - 개인정보 보호정책, 서비스 약관, 면책 조항, 법적 고지 작성
+### 비즈니스 및 마케팅
+- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - 지표 분석, 보고서 작성, KPI 추적
+- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - 블로그 게시물, 소셜 미디어 콘텐츠, 이메일 뉴스레터 작성
+- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - 채용, 온보딩/오프보딩, 휴가 및 근태, 성과, 정책 준수, 직원 관계 파트너
+- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - 콜드 이메일, 후속, 제안서 템플릿 작성
+- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - 지원 티켓, FAQ 응답, 고객 이메일 처리
+- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - 개인정보 보호정책, 서비스 이용약관, 면책사항 및 법적 고지 작성
 
 ### SEO 및 콘텐츠 최적화
-- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - 제공된 콘텐츠의 품질, E-E-A-T 신호, SEO 최적 관행 분석
-- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - 최적화된 메타 제목, 설명, URL 제안 생성
-- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - 키워드 사용 분석, 밀도 계산, 의미론적 변형 제안
+- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - 제공된 콘텐츠의 품질, E-E-A-T 신호, SEO 모범 사례 분석
+- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - 최적화된 메타 타이틀, 설명, URL 제안 생성
+- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - 키워드 사용 분석, 밀도 계산, 의미적 변형 제안
 - **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - 콘텐츠 구조, 헤더 계층, 스키마 마크업 최적화
-- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - 특화 스니펫 및 SERP 기능에 맞게 콘텐츠 형식화
-- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - 오래된 요소 식별 및 콘텐츠 업데이트 제안
+- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - 콘텐츠를 주요 스니펫과 SERP 기능에 맞게 포맷
+- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - 오래된 요소를 식별하고 콘텐츠 업데이트 제안
 - **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - 여러 페이지의 키워드 중복 및 충돌 분석
 - **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - 콘텐츠의 E-E-A-T 신호 및 신뢰 지표 분석
-- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - 키워드와 브리프 기반 SEO 최적화 콘텐츠 작성
-- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - 콘텐츠 개요, 주제 클러스터, 일정 작성
+- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - 키워드와 브리프 기반의 SEO 최적화 콘텐츠 작성
+- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - 콘텐츠 개요, 토픽 클러스터, 캘린더 작성
 
 ## 모델 할당
 
-총 75개의 서브에이전트가 작업 복잡도에 따라 특정 Claude 모델로 설정되어 있습니다:
+모든 75개의 서브에이전트는 작업 복잡도에 따라 특정 Claude 모델로 구성되어 있습니다:
 
-### 🚀 Haiku (빠르고 비용 효율적) - 15 에이전트
+### 🚀 Haiku (빠르고 비용 효율적) - 15개 에이전트
 **모델:** `haiku`
 - `data-scientist` - SQL 쿼리 및 데이터 분석
 - `api-documenter` - OpenAPI/Swagger 문서화
-- `reference-builder` - 상세 기술 레퍼런스 및 API 문서화
+- `reference-builder` - 방대한 기술 참조 및 API 문서
 - `business-analyst` - 지표 및 KPI 추적
-- `content-marketer` - 블로그 포스트 및 소셜 미디어
+- `content-marketer` - 블로그 게시물 및 소셜 미디어
 - `customer-support` - 지원 티켓 및 FAQ
 - `sales-automator` - 콜드 이메일 및 제안서
 - `search-specialist` - 웹 리서치 및 정보 수집
-- `legal-advisor` - 개인정보 보호정책 및 컴플라이언스 문서
-- `seo-meta-optimizer` - 메타 제목 및 설명 최적화
+- `legal-advisor` - 개인정보 보호 정책 및 컴플라이언스 문서
+- `seo-meta-optimizer` - 메타 타이틀 및 설명 최적화
 - `seo-keyword-strategist` - 키워드 밀도 및 의미 분석
 - `seo-structure-architect` - 콘텐츠 구조 및 스키마 마크업
-- `seo-snippet-hunter` - 특화 스니펫 형식화
-- `seo-content-refresher` - 콘텐츠 신선도 업데이트
+- `seo-snippet-hunter` - 주요 스니펫 포맷팅
+- `seo-content-refresher` - 콘텐츠 최신성 업데이트
 - `seo-cannibalization-detector` - 키워드 중복 감지
-- `seo-content-planner` - 콘텐츠 일정 및 개요
+- `seo-content-planner` - 콘텐츠 캘린더 및 개요
 
-### ⚡ Sonnet (균형 잡힌 성능) - 44 에이전트
+### ⚡ Sonnet (균형 잡힌 성능) - 44개 에이전트
 **모델:** `sonnet`
 
 **개발 및 언어:**
-- `python-pro` - 고급 기능을 활용한 파이썬 개발
-- `ruby-pro` - 메타프로그래밍, Rails 패턴, gem 개발을 포함한 루비 개발
-- `javascript-pro` - 모던 JavaScript 및 Node.js
+- `python-pro` - 고급 기능을 활용한 Python 개발
+- `ruby-pro` - 메타프로그래밍, Rails 패턴, 그리고 gem 개발을 포함한 Ruby 개발
+- `javascript-pro` - 최신 JavaScript 및 Node.js 개발
 - `typescript-pro` - 타입 시스템을 활용한 고급 TypeScript
-- `golang-pro` - Go 동시성 및 관용적 패턴
-- `rust-pro` - Rust 메모리 안전 및 시스템 프로그래밍
-- `c-pro` - C 프로그래밍 및 임베디드 시스템
-- `cpp-pro` - STL과 템플릿을 활용한 모던 C++
-- `php-pro` - 고급 기능의 모던 PHP
-- `java-pro` - 스트림과 동시성을 활용한 모던 Java
-- `elixir-pro` - OTP 패턴과 Phoenix를 활용한 Elixir
-- `csharp-pro` - .NET 프레임워크와 패턴의 모던 C#
-- `scala-pro` - Apache Pekko, Akka, Spark, ZIO/Cats Effect 기반 엔터프라이즈 Scala
-- `flutter-expert` - 상태 관리 및 애니메이션의 Flutter 개발
+- `golang-pro` - Go의 동시성 및 관용적 패턴
+- `rust-pro` - Rust의 메모리 안전성과 시스템 프로그래밍
+- `c-pro` - C 프로그래밍 및 임베디드 시스템 개발
+- `cpp-pro` - STL과 템플릿을 활용한 최신 C++
+- `php-pro` - 고급 기능을 활용한 최신 PHP 개발
+- `java-pro` - 스트림과 동시성 기능을 활용한 최신 Java
+- `elixir-pro` - OTP 패턴과 Phoenix를 활용한 Elixir 개발
+- `csharp-pro` - .NET 프레임워크 및 패턴을 활용한 최신 C# 개발
+- `scala-pro` - Apache Pekko, Akka, Spark, ZIO/Cats Effect를 활용한 엔터프라이즈 Scala
+- `flutter-expert` - 상태 관리와 애니메이션을 포함한 Flutter 개발
 - `unity-developer` - Unity 게임 개발 및 최적화
-- `minecraft-bukkit-pro` - Bukkit/Spigot/Paper 기반 마인크래프트 플러그인 개발
-- `ios-developer` - Swift/SwiftUI 기반 네이티브 iOS 개발
-- `frontend-developer` - React 컴포넌트 및 UI
-- `ui-ux-designer` - 인터페이스 디자인 및 와이어프레임
-- `backend-architect` - API 설계 및 마이크로서비스
+- `minecraft-bukkit-pro` - Bukkit/Spigot/Paper 기반 Minecraft 플러그인 개발
+- `ios-developer` - Swift/SwiftUI를 활용한 네이티브 iOS 개발
+- `frontend-developer` - React 컴포넌트 및 UI 개발
+- `ui-ux-designer` - 인터페이스 디자인 및 와이어프레임 설계
+- `backend-architect` - API 설계 및 마이크로서비스 아키텍처
 - `mobile-developer` - React Native/Flutter 앱 개발
 - `sql-pro` - 복잡한 SQL 최적화
-- `graphql-architect` - GraphQL 스키마 및 리졸버
+- `graphql-architect` - GraphQL 스키마 및 리졸버 설계
 
-**인프라 & 운영:**
+**인프라 및 운영:**
 - `devops-troubleshooter` - 프로덕션 디버깅
-- `deployment-engineer` - CI/CD 파이프라인
+- `deployment-engineer` - CI/CD 파이프라인 구축
 - `database-optimizer` - 쿼리 최적화
-- `database-admin` - 데이터베이스 운영
-- `terraform-specialist` - 코드로서의 인프라(IaC)
+- `database-admin` - 데이터베이스 운영 및 관리
+- `terraform-specialist` - 코드로서의 인프라 구축
 - `network-engineer` - 네트워크 구성
 - `dx-optimizer` - 개발자 경험 최적화
-- `data-engineer` - ETL 파이프라인
+- `data-engineer` - ETL 파이프라인 구축
 
-**품질 & 지원:**
-- `test-automator` - 테스트 스위트 구축
+**품질 및 지원:**
+- `test-automator` - 테스트 스위트 작성
 - `code-reviewer` - 코드 품질 분석
-- `debugger` - 오류 조사
-- `error-detective` - 로그 분석
+- `debugger` - 오류 조사 및 분석
+- `error-detective` - 로그 분석 전문가
 - `ml-engineer` - 머신러닝 모델 배포
 - `legacy-modernizer` - 프레임워크 마이그레이션
 - `payment-integration` - 결제 처리
@@ -202,27 +204,27 @@
 - `flutter-expert` - Flutter 개발
 - `seo-content-auditor` - 콘텐츠 품질 및 E-E-A-T 분석
 - `seo-authority-builder` - 권위 신호 최적화
-- `seo-content-writer` - SEO 최적화 콘텐츠 작성
+- `seo-content-writer` - SEO 최적화 콘텐츠 제작
 
-### 🧠 Opus (최대 능력치) - 15 에이전트
+### 🧠 Opus (최대 역량) - 15 에이전트
 **모델:** `opus`
 - `ai-engineer` - LLM 애플리케이션 및 RAG 시스템
 - `security-auditor` - 취약점 분석
 - `performance-engineer` - 애플리케이션 최적화
 - `incident-responder` - 프로덕션 사고 대응
-- `mlops-engineer` - ML 인프라
-- `architect-reviewer` - 아키텍처 일관성 검토
+- `mlops-engineer` - ML 인프라스트럭처
+- `architect-reviewer` - 아키텍처 일관성
 - `cloud-architect` - 클라우드 인프라 설계
 - `prompt-engineer` - LLM 프롬프트 최적화
-- `context-manager` - 멀티 에이전트 조정
+- `context-manager` - 다중 에이전트 조정
 - `quant-analyst` - 금융 모델링
-- `risk-manager` - 포트폴리오 위험 관리
-- `docs-architect` - 코드베이스 기반의 종합 기술 문서화
+- `risk-manager` - 포트폴리오 리스크 관리
+- `docs-architect` - 코드베이스 기반 종합 기술 문서화
 - `tutorial-engineer` - 단계별 튜토리얼 및 교육 콘텐츠
 
 ## 설치
 
-이 서브에이전트들은 `~/.claude/agents/` 디렉토리에 배치하면 자동으로 사용할 수 있습니다.
+이 서브에이전트들은 `~/.claude/agents/` 디렉터리에 위치할 경우 자동으로 사용할 수 있습니다.
 
 ```bash
 cd ~/.claude
@@ -523,6 +525,6 @@ payment-integration → security-auditor → Validated implementation
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
 
 ---
