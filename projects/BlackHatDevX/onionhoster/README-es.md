@@ -2,88 +2,91 @@
 <summary>🌐 Idioma</summary>
 
 [English](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=th) | [Français](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=de) | [Español](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=it) | [Русский](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ru) | [Português](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=id) | [অসমীয়া](https://openaitx.github.io/#/view?user=BlackHatDevX&project=onionhoster&lang=as)
-
 </details>
 
 # OnionHoster v2.2
 
-> **La herramienta definitiva para alojar servicios ocultos en Tor** - ¡Despliega tus proyectos web en la web oscura en minutos!
-
+> **La herramienta definitiva para alojar servicios ocultos en Tor** - ¡Despliega tus proyectos web en la dark web en minutos!
+> 
 [![Versión](https://img.shields.io/badge/version-2.2-brightgreen.svg)](https://github.com/BlackHatDevX/onionhoster)
 [![Plataforma](https://img.shields.io/badge/platform-Linux%20%7C%20macOS-blue.svg)](https://github.com/BlackHatDevX/onionhoster)
 [![Licencia](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/BlackHatDevX/onionhoster)
+
+<img width="1023" height="551" alt="ChatGPT Image Aug 27, 2025, 03_32_08 PM (1)-modified" src="https://github.com/user-attachments/assets/92b6e834-2d4f-4cc7-8f77-82b9bafba8a5" />
+
 
 ---
 
 ## 🚀 ¿Qué es OnionHoster?
 
-OnionHoster es un potente script bash multiplataforma que transforma cualquier proyecto web en un servicio oculto de Tor con un solo comando. Ya sea que hospedes una app Next.js, backend Flask o sitio web estático, OnionHoster maneja toda la compleja configuración de Tor automáticamente.
+OnionHoster es un potente script bash multiplataforma que transforma cualquier proyecto web en un servicio oculto de Tor con un solo comando. Ya sea que alojes una app Next.js, backend Flask o sitio estático, OnionHoster gestiona toda la compleja configuración de Tor automáticamente.
 
 ### ✨ ¿Por qué elegir OnionHoster?
 
-- **🔧 Cero configuración** - Funciona desde el primer momento con cualquier proyecto web
-- **🌍 Multiplataforma** - Soporta Linux, macOS y las principales distribuciones
-- **⚡ Configuración con un clic** - De cero a servicio oculto en menos de 2 minutos
-- **🔄 Actualizaciones automáticas** - Comprobador de actualizaciones integrado para mantenerte al día
-- **💾 Respaldo y restauración** - Nunca pierdas tus direcciones onion
-- **🎯 Interfaz profesional** - Interfaz colorida y hermosa con menús intuitivos
+- **🔧 Cero configuración** - Funciona de inmediato con cualquier proyecto web
+- **🌍 Multiplataforma** - Compatible con Linux, macOS y distribuciones principales
+- **⚡ Instalación en un clic** - De cero a servicio oculto en menos de 2 minutos
+- **🔄 Actualizaciones automáticas** - El verificador de actualizaciones integrado te mantiene al día
+- **💾 Copia de seguridad y restauración** - Nunca pierdas tus direcciones onion
+- **🎯 Interfaz profesional** - Hermosa interfaz a color con menús intuitivos
 
 ---
 ## Vista previa
 
-https://github.com/user-attachments/assets/b8fe44e8-2b1f-4fdc-bb52-7c4a5ee2c67e
+[![TEXTO ALT DE IMAGEN AQUÍ](https://github.com/user-attachments/assets/4b35dfb0-0059-4cc5-99c7-a5b9467a385d)](https://www.youtube.com/watch?v=oPvhA54Tp8w)
 
 
-# ⚠️ Advertencia: OnionHoster NO es una herramienta mágica de anonimato — sigue las mejores prácticas o arriesga la desanonimización
+# ⚠️ Advertencia: OnionHoster NO es una herramienta mágica de anonimato — sigue las mejores prácticas o arriesga tu desanonimización
 
-**Endurecimiento del sistema**
+**Fortalecimiento del sistema**
 
-* Ejecuta el servicio dentro de una VM o contenedor para aislamiento.
+* Ejecuta el servicio dentro de una VM o contenedor para mayor aislamiento.
+
 * Mantén el sistema operativo y los paquetes actualizados.
-* Deshabilita servicios/puertos innecesarios para que solo el tráfico de Tor entre/salga.
+* Desactiva servicios/puertos innecesarios para que solo el tráfico de Tor entre y salga.
 
 **Prácticas de OpSec**
 
 * No uses la misma máquina para cuentas o actividades personales.
 * Evita exponer metadatos identificativos (nombres de archivos, encabezados, mensajes de error).
-* Sé consciente de los registros — qué registras, cuánto tiempo los guardas y si filtran información.
+* Ten cuidado con los registros: qué registras, cuánto tiempo los guardas y si filtran información.
 
 **Higiene de Red**
 
-* No vincules tu servicio oculto con tu identidad o dominio en la red clara.
-* Usa un firewall para asegurar que no haya fugas accidentales fuera de Tor.
+* No relaciones tu servicio oculto con tu identidad o dominio clearnet.
+* Usa un firewall para asegurar que no haya filtraciones accidentales fuera de Tor.
 * Considera proxies inversos para mayor aislamiento.
 
 **Pruebas y Monitoreo**
 
 * Usa torsocks o el Navegador Tor para verificar que tu servicio solo sea accesible mediante su dirección `.onion`.
-* Realiza pruebas regulares para detectar fugas (p. ej., si tu aplicación intenta obtener datos de la red clara).
+* Prueba regularmente posibles filtraciones (por ejemplo, si tu app intenta conectarse a la clearnet).
 
-**Conciencia del Caso de Uso**
+**Conciencia de Uso**
 
 * Para uso recreativo/pruebas/educativo: lo anterior suele ser suficiente.
-* Para anonimato en situaciones de alto riesgo y mundo real (periodistas, denunciantes, activistas): se requiere una seguridad operacional más profunda y modelado de amenazas, ya que un solo error puede desanonimizarte.
+* Para anonimato real de alto riesgo (periodistas, denunciantes, activistas): requiere mayor seguridad operativa y análisis de amenazas, ya que un solo error puede desanonimizarte.
+
 
 ---
 ## 🎯 Perfecto Para
 
-- **Desarrolladores** que quieren probar sus aplicaciones en Tor
-- **Defensores de la Privacidad** que alojan servicios anónimos
-- **Investigadores** que estudian tecnologías de la web oscura
-- **Empresas** que requieren soluciones de alojamiento anónimo
-- **Aficionados** explorando la red Tor
+- **Desarrolladores** que quieren probar sus apps en Tor
+- **Defensores de la privacidad** que alojan servicios anónimos (
+- **Investigadores** que estudian tecnologías de la dark web
+- **Empresas** que requieren soluciones de hosting anónimo
+- **Entusiastas** explorando la red Tor
 
 ---
 
 ## 🚀 Inicio Rápido
 
-### Requisitos Previos
+### Prerrequisitos
 - Acceso root/sudo
 - Conexión a Internet
 - Cualquier proyecto web (HTML, Next.js, Flask, etc.)
 
-
-### Instalación y Uso
+### Instalación y uso
 
 ```bash
 # 1. Clone the repository
@@ -283,6 +286,6 @@ sudo bash onionhoster.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-28
 
 ---

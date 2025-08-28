@@ -1,0 +1,961 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Soulseek CLI\n\n[![Build Status](https://travis-ci.org/aeyoll/soulseek-cli.svg?branch=develop)](https://travis-ci.org/aeyoll/soulseek-cli)\n\nA Soulseek Cli client.\n\nRequirements\n---\n\nNodeJS >= 20\n\nInstallation\n---\n",
+    "ContentSha": "wyAuyxIO6jOI0/SAkU6FkMgJ0zHIBWlwJA9Vvd21ITk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Soulseek CLI\n\n[![Build Status](https://travis-ci.org/aeyoll/soulseek-cli.svg?branch=develop)](https://travis-ci.org/aeyoll/soulseek-cli)\n\nSoulseekのCLIクライアント。\n\nRequirements\n---\n\nNodeJS >= 20\n\nInstallation\n---\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EbzQAIva76NcbWnfoiyMiOpGd4D9PrslXikWNnIYg1k=",
+        "originContent": "# Soulseek CLI",
+        "translatedContent": "# Soulseek CLI"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "+sGP5hDUEVnmhRbaNvEDgSCXuJI36ZEoUv5LBDDs9oY=",
+        "originContent": "[![Build Status](https://travis-ci.org/aeyoll/soulseek-cli.svg?branch=develop)](https://travis-ci.org/aeyoll/soulseek-cli)",
+        "translatedContent": "[![Build Status](https://travis-ci.org/aeyoll/soulseek-cli.svg?branch=develop)](https://travis-ci.org/aeyoll/soulseek-cli)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "9qTC3iut5/hzkzM7nz2btNLoqA9o70vxGZTsPkMfkew=",
+        "originContent": "A Soulseek Cli client.",
+        "translatedContent": "SoulseekのCLIクライアント。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "4M3Qf2onC4JpIXUQgi2qSs5XMwkTQnj3X14W7VmjWDs=",
+        "originContent": "Requirements",
+        "translatedContent": "Requirements"
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "aWtBPLVCkyk6S0LTniDlHV/MrYgUtYQNjDAQU6bW7rk=",
+        "originContent": "NodeJS >= 20",
+        "translatedContent": "NodeJS >= 20"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "w/xUqlOQ3CwzPUu1lqM51VKteHM3wf2qw5V8paf6z1A=",
+        "originContent": "Installation",
+        "translatedContent": "Installation"
+      },
+      {
+        "row": 13,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\nnpm install -g soulseek-cli\n```",
+    "ContentSha": "ABFQI/xydHWENGdSpidd05ssVWoLzbhCauDQVwzn1/E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nnpm install -g soulseek-cli\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "9F6H5+BTh4m2BrM5svFGE/qFh+KhM98LFKGA50MD7Ec=",
+        "originContent": "npm install -g soulseek-cli",
+        "translatedContent": "npm install -g soulseek-cli"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### On Linux\n\nOne of soulseek-cli dependencies ([node-keytar](https://github.com/atom/node-keytar)) uses libsecret, so you need to install it before running `npm install`.\n\nDepending on your distribution, you will need to run the following command:\n\n- Debian/Ubuntu: `sudo apt-get install libsecret-1-dev`\n- Red Hat-based: `sudo yum install libsecret-devel`\n- Arch Linux: `sudo pacman -S libsecret`\n\n### On Headless Linux\n\nOn Linux, [node-keytar](https://github.com/atom/node-keytar) uses the Linux SecretService API. It is possible to use the SecretService backend on Linux systems without X11 server available (only D-Bus is required). In this case, you can do the following (exemple is on a Debian environment):\n\n#### Install dependencies\n",
+    "ContentSha": "FHbVT/mxLUFWWrA92NaPrQmCV+1pMWRWSFEqCZ4bSdM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Linuxの場合\n\nsoulseek-cliの依存関係の一つである([node-keytar](https://github.com/atom/node-keytar))はlibsecretを使用しているため、`npm install`を実行する前にインストールする必要があります。\n\nディストリビューションによって、以下のコマンドを実行してください:\n\n- Debian/Ubuntu: `sudo apt-get install libsecret-1-dev`\n- Red Hat系: `sudo yum install libsecret-devel`\n- Arch Linux: `sudo pacman -S libsecret`\n\n### ヘッドレスLinuxの場合\n\nLinux上で、[node-keytar](https://github.com/atom/node-keytar)はLinux SecretService APIを使用します。X11サーバーが利用できないLinuxシステムでもSecretServiceバックエンドを使用することが可能です（D-Busのみが必要です）。この場合、以下のようにします（例はDebian環境です）:\n\n#### 依存関係のインストール\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Linuxの場合"
+      },
+      {
+        "row": 2,
+        "rowsha": "gCsZYuOLzBE1u1oIt1l5MNqmXjHhKC5vXfaE1UqXEmo=",
+        "originContent": "### On Linux",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "soulseek-cliの依存関係の一つである([node-keytar](https://github.com/atom/node-keytar))はlibsecretを使用しているため、`npm install`を実行する前にインストールする必要があります。"
+      },
+      {
+        "row": 4,
+        "rowsha": "GGW8DzGCt++SKkU/TKiPcjjBbT/EtSe29Vpph97mFvA=",
+        "originContent": "One of soulseek-cli dependencies ([node-keytar](https://github.com/atom/node-keytar)) uses libsecret, so you need to install it before running `npm install`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ディストリビューションによって、以下のコマンドを実行してください:"
+      },
+      {
+        "row": 6,
+        "rowsha": "JPoBb6F16v+i/5jEBLEIk3i6hqOg9ktUjcU6H1sM3jI=",
+        "originContent": "Depending on your distribution, you will need to run the following command:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Debian/Ubuntu: `sudo apt-get install libsecret-1-dev`"
+      },
+      {
+        "row": 8,
+        "rowsha": "iHF1qC39m84DUxA9Hvkj56zqWL14W0PU+aoRRM4aaUU=",
+        "originContent": "- Debian/Ubuntu: `sudo apt-get install libsecret-1-dev`",
+        "translatedContent": "- Red Hat系: `sudo yum install libsecret-devel`"
+      },
+      {
+        "row": 9,
+        "rowsha": "TECK0ho4qtLgkIop7irNw0r3+iuAwUtdKM8Oovf8ZLQ=",
+        "originContent": "- Red Hat-based: `sudo yum install libsecret-devel`",
+        "translatedContent": "- Arch Linux: `sudo pacman -S libsecret`"
+      },
+      {
+        "row": 10,
+        "rowsha": "Ny7/F9UxkHnWWPlUupuS5LLrW/r5P8hKnfNPjYqg4i4=",
+        "originContent": "- Arch Linux: `sudo pacman -S libsecret`",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ヘッドレスLinuxの場合"
+      },
+      {
+        "row": 12,
+        "rowsha": "3GNcKLTxCM/Row/vZ0HMLsIwwV2Zajs6F55mJeSB4Qw=",
+        "originContent": "### On Headless Linux",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Linux上で、[node-keytar](https://github.com/atom/node-keytar)はLinux SecretService APIを使用します。X11サーバーが利用できないLinuxシステムでもSecretServiceバックエンドを使用することが可能です（D-Busのみが必要です）。この場合、以下のようにします（例はDebian環境です）:"
+      },
+      {
+        "row": 14,
+        "rowsha": "KU177UY8s4/UGV9hj8a6fW4H3x0YG5QJmhnlr+m5w4k=",
+        "originContent": "On Linux, [node-keytar](https://github.com/atom/node-keytar) uses the Linux SecretService API. It is possible to use the SecretService backend on Linux systems without X11 server available (only D-Bus is required). In this case, you can do the following (exemple is on a Debian environment):",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 依存関係のインストール"
+      },
+      {
+        "row": 16,
+        "rowsha": "PHZwjS0FjPAB9IZDjez4AHymK92gbadAfJ5qNUjzeLI=",
+        "originContent": "#### Install dependencies",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\napt install gnome-keyring --no-install-recommends # Install the GNOME Keyring daemon. \"no-install-recommends\" prevents X11 install\n```",
+    "ContentSha": "eTomvQ5wh4iOfZVBu9yKlmVVytopRmmSZC/iwkWrPY8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\napt install gnome-keyring --no-install-recommends # Install the GNOME Keyring daemon. \"no-install-recommends\" prevents X11 install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "HfxXRB7VY8haXOeB8mjh5mG2cDzkBxp9LXEaxz1Lms0=",
+        "originContent": "apt install gnome-keyring --no-install-recommends # Install the GNOME Keyring daemon. \"no-install-recommends\" prevents X11 install",
+        "translatedContent": "apt install gnome-keyring --no-install-recommends # Install the GNOME Keyring daemon. \"no-install-recommends\" prevents X11 install"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n#### Usage\n",
+    "ContentSha": "dMxFTzQWxXZb97XNn28tHVYVhn2fjudw1Yso0H9tM4k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### 使用法\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KHA8VpHNRUjBvZjz3hYB5w+/JcxnhqV7edpHuywh/G8=",
+        "originContent": "#### Usage",
+        "translatedContent": "#### 使用法"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```sh\ndbus-run-session -- $SHELL # Start a D-Bus session\necho 'root' | /usr/bin/gnome-keyring-daemon -r -d --unlock # Unlock GNOME Keyring\nsoulseek ... # Use soulseek-cli normally\n```",
+    "ContentSha": "pAWrnbIOEcurraDPNhbwDGoLTHZKHv+jlP/ygCOzsP8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ndbus-run-session -- $SHELL # Start a D-Bus session\necho 'root' | /usr/bin/gnome-keyring-daemon -r -d --unlock # Unlock GNOME Keyring\nsoulseek ... # Use soulseek-cli normally\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Xh9Lj+7ny2xv7rtXIE04tltvHX0soeO+097a4ucwa6c=",
+        "originContent": "dbus-run-session -- $SHELL # Start a D-Bus session",
+        "translatedContent": "dbus-run-session -- $SHELL # Start a D-Bus session"
+      },
+      {
+        "row": 3,
+        "rowsha": "JmAGWhdj335TMfEnbMYJMAbieu2h2C7uL7G4RRTiizM=",
+        "originContent": "echo 'root' | /usr/bin/gnome-keyring-daemon -r -d --unlock # Unlock GNOME Keyring",
+        "translatedContent": "echo 'root' | /usr/bin/gnome-keyring-daemon -r -d --unlock # Unlock GNOME Keyring"
+      },
+      {
+        "row": 4,
+        "rowsha": "jjkRuPzpYmPbApvGirXijDVd1JFKv111g8rPRMUX89I=",
+        "originContent": "soulseek ... # Use soulseek-cli normally",
+        "translatedContent": "soulseek ... # Use soulseek-cli normally"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nCommands\n---\n\n### Login\n\nBefore being able to search, you need to be logged in.\n\nUsage:",
+    "ContentSha": "zmbCdlodeoQQhB4wHLDHSnGE0yAjRDZP8M9g7ROzmSA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nコマンド\n---\n\n### ログイン\n\n検索を行う前に、ログインする必要があります。\n\n使用法:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "smncToGlKKTULp50EBkjUUpib1X43XaxRh4GkOctBBo=",
+        "originContent": "Commands",
+        "translatedContent": "コマンド"
+      },
+      {
+        "row": 3,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "i2h3JwFNhKh2ahGywGKNH87gJeziBTHIiGDuv5o2lZM=",
+        "originContent": "### Login",
+        "translatedContent": "### ログイン"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "2WghHsClhBabG0TXgn3YBCjZU1ncn6AM0CjzKRMoIbM=",
+        "originContent": "Before being able to search, you need to be logged in.",
+        "translatedContent": "検索を行う前に、ログインする必要があります。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "K60+6vM8r/47ybSCtJNO0Z607DYUwSNz4aXF+JSCF9o=",
+        "originContent": "Usage:",
+        "translatedContent": "使用法:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\nsoulseek login\n```",
+    "ContentSha": "vHBOz/uqWH4KfMRduTBU/KQNWLCXN5fvM5vZWaDB2yc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nsoulseek login\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "AKDgQ5UOFyANt/5uDQ7gDVD5zGXmhQdhGjahY65Q3kc=",
+        "originContent": "soulseek login",
+        "translatedContent": "soulseek login"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nYou will be prompted your Soulseek login and password. Credentials are stored and encrypted in your system keychain.\n\nAlternatively, you can also login by setting environment variables:\n",
+    "ContentSha": "KCDYKNzFlZBp+8ztctY4XZ7mnNOXTuYfBH2UC9XxOkU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nSoulseekのログインIDとパスワードの入力を求められます。認証情報はシステムのキーチェーンに保存され、暗号化されます。\n\nまたは、環境変数を設定してログインすることも可能です：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "hQoengRWgxg3/0IRIRg+AdD0CT1b3olxTYD/ew5sfV8=",
+        "originContent": "You will be prompted your Soulseek login and password. Credentials are stored and encrypted in your system keychain.",
+        "translatedContent": "SoulseekのログインIDとパスワードの入力を求められます。認証情報はシステムのキーチェーンに保存され、暗号化されます。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "wTLyWlf8QCNAW9/NGrGDVwOS+qzOl2uOxlpsZus2EhM=",
+        "originContent": "Alternatively, you can also login by setting environment variables:",
+        "translatedContent": "または、環境変数を設定してログインすることも可能です："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```sh\nexport SOULSEEK_ACCOUNT=youraccount\nexport SOULSEEK_PASSWORD=yourpassword\nsoulseek download \"...\"\n```",
+    "ContentSha": "cN7rI+O1Vg+D09OBM1f6MXDENCbr2SMjP9f14edyZ0c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nexport SOULSEEK_ACCOUNT=youraccount\nexport SOULSEEK_PASSWORD=yourpassword\nsoulseek download \"...\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "NioK6hkzjM7SZ/9j9NTlN2RzNRWOopPZAnBMiMZ8HCo=",
+        "originContent": "export SOULSEEK_ACCOUNT=youraccount",
+        "translatedContent": "export SOULSEEK_ACCOUNT=youraccount"
+      },
+      {
+        "row": 3,
+        "rowsha": "3h5HuNB7r+/2GTWc3ZWzEmLNkjmIo9KbancVfhS84rc=",
+        "originContent": "export SOULSEEK_PASSWORD=yourpassword",
+        "translatedContent": "export SOULSEEK_PASSWORD=yourpassword"
+      },
+      {
+        "row": 4,
+        "rowsha": "vpi1eCBTHddkJ9GuRJbslpRw+RU8EIqoMKcv+bLWKrA=",
+        "originContent": "soulseek download \"...\"",
+        "translatedContent": "soulseek download \"...\""
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### Download\n\nDownload with required query.\n\nUsage:",
+    "ContentSha": "fCMhHwGeiE+I8jnhYCN6lqXBt9ZRlDXasRqMIVe3g3Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### ダウンロード\n\n必要なクエリでダウンロードします。\n\n使用法：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "GTQ6Mgve7qUcevnXxBav6aAtZBvwwcZB8Tgypv+uwVE=",
+        "originContent": "### Download",
+        "translatedContent": "### ダウンロード"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "JkON8z8gc+uKVYZ5Vt/GnPTj4l/96bkwM3uHopguDLY=",
+        "originContent": "Download with required query.",
+        "translatedContent": "必要なクエリでダウンロードします。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "K60+6vM8r/47ybSCtJNO0Z607DYUwSNz4aXF+JSCF9o=",
+        "originContent": "Usage:",
+        "translatedContent": "使用法："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\nsoulseek download|d [options] [query...]\n```",
+    "ContentSha": "ufFh4OEcec+LUxHHxd4epW9TVCnamL0Ord9ym0VBfQ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nsoulseek download|d [options] [query...]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "jjDksCr2cDwJTlXw8EBsbVMri3Xu9ujXAI+tMHEH+Ww=",
+        "originContent": "soulseek download|d [options] [query...]",
+        "translatedContent": "soulseek download|d [options] [query...]"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n:warning: This command used to be called `search` in versions prior to 0.1.0.\n\nOptions:\n\n| Option                    | Description                                                                   |\n| ------------------------- | ----------------------------------------------------------------------------- |\n| -d --destination <folder> | downloads's destination                                                       |\n| -q --quality <quality>    | show only mp3 with a defined quality                                          |\n| -m --mode <mode>          | filter the kind of files you want (available: \"mp3\", \"flac\", default: \"mp3\")  |\n| -h --help                 | display help for command                                                      |\n\nExamples:\n",
+    "ContentSha": "pX8G+KZA512WjppyRVSxUNEhiatXwSnRvWSXt1KckBg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n:warning: このコマンドはバージョン0.1.0以前では `search` と呼ばれていました。\n\nオプション:\n\n| オプション                 | 説明                                                                        |\n| ------------------------- | ----------------------------------------------------------------------------- |\n| -d --destination <folder> | ダウンロード先のフォルダー                                                    |\n| -q --quality <quality>    | 指定した品質のmp3のみを表示                                                  |\n| -m --mode <mode>          | 取得するファイルの種類をフィルタリング（利用可能: \"mp3\", \"flac\", デフォルト: \"mp3\"） |\n| -h --help                 | コマンドのヘルプを表示                                                      |\n\n例:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "I6cW2EfEc4x2FtKXxTzRpYN7ps2t2CcI7meEDAhUj98=",
+        "originContent": ":warning: This command used to be called `search` in versions prior to 0.1.0.",
+        "translatedContent": ":warning: このコマンドはバージョン0.1.0以前では `search` と呼ばれていました。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "NnQx/WZLtobZ/9ITM5sTgv2OFQnCH83If6v2i9FvEzM=",
+        "originContent": "Options:",
+        "translatedContent": "オプション:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "V2Bz82w9n94hr9/INZ92rk79Ko4uxrUugI3Suke6kyY=",
+        "originContent": "| Option                    | Description                                                                   |",
+        "translatedContent": "| オプション                 | 説明                                                                        |"
+      },
+      {
+        "row": 7,
+        "rowsha": "F7U/+APkv7tAuYkg0P1EsPLwj/1/p03g7+7QxfUWc00=",
+        "originContent": "| ------------------------- | ----------------------------------------------------------------------------- |",
+        "translatedContent": "| ------------------------- | ----------------------------------------------------------------------------- |"
+      },
+      {
+        "row": 8,
+        "rowsha": "gL9zwQpMlMdLWWApn1ru7oFmHiMFnfWve8loGXnFjn0=",
+        "originContent": "| -d --destination <folder> | downloads's destination                                                       |",
+        "translatedContent": "| -d --destination <folder> | ダウンロード先のフォルダー                                                    |"
+      },
+      {
+        "row": 9,
+        "rowsha": "dbACwBYBoblyMcCMX1SgreAXuErZJfFNo/GrK8PeMck=",
+        "originContent": "| -q --quality <quality>    | show only mp3 with a defined quality                                          |",
+        "translatedContent": "| -q --quality <quality>    | 指定した品質のmp3のみを表示                                                  |"
+      },
+      {
+        "row": 10,
+        "rowsha": "PcU/Ll+ariCVObDWxD2ULPVUyFuTtH9Rr6fOAHQeLSU=",
+        "originContent": "| -m --mode <mode>          | filter the kind of files you want (available: \"mp3\", \"flac\", default: \"mp3\")  |",
+        "translatedContent": "| -m --mode <mode>          | 取得するファイルの種類をフィルタリング（利用可能: \"mp3\", \"flac\", デフォルト: \"mp3\"） |"
+      },
+      {
+        "row": 11,
+        "rowsha": "jigj2GkqDDFdAt0b1VOVZAaWFKel9324E6qtF2Ria/M=",
+        "originContent": "| -h --help                 | display help for command                                                      |",
+        "translatedContent": "| -h --help                 | コマンドのヘルプを表示                                                      |"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "GInwMzi3m7rYvc3JJe9egwaVacF+QzF075pJ9i59Xuc=",
+        "originContent": "Examples:",
+        "translatedContent": "例:"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```sh\nsoulseek download \"Your query\" # Download in the current folder\nsoulseek download \"Your query\" --destination=/path/to/directory # Download in a defined folder (relative or absolute)\nsoulseek download \"Your query\" --quality=320 # Filter by quality\nsoulseek download \"Your query\" --mode=flac # Filter by file type\n```",
+    "ContentSha": "+GYE8wdLUVp85eJaE1PR6wW3FF/jxyv/3hpC0U1YSWM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nsoulseek download \"Your query\" # Download in the current folder\nsoulseek download \"Your query\" --destination=/path/to/directory # Download in a defined folder (relative or absolute)\nsoulseek download \"Your query\" --quality=320 # Filter by quality\nsoulseek download \"Your query\" --mode=flac # Filter by file type\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "61i347OWLlnKKCtRRyct2GxXtqJOq7ARQxdO3v1f4Gk=",
+        "originContent": "soulseek download \"Your query\" # Download in the current folder",
+        "translatedContent": "soulseek download \"Your query\" # Download in the current folder"
+      },
+      {
+        "row": 3,
+        "rowsha": "4yeQiKx6shNwZ3ruf+qinckX2E0+5kzSfo3sQjVJ1fs=",
+        "originContent": "soulseek download \"Your query\" --destination=/path/to/directory # Download in a defined folder (relative or absolute)",
+        "translatedContent": "soulseek download \"Your query\" --destination=/path/to/directory # Download in a defined folder (relative or absolute)"
+      },
+      {
+        "row": 4,
+        "rowsha": "bg2gPmHVP3ONbDQ95FrqflzZDGWnKRHHHzBPqJ1X9K0=",
+        "originContent": "soulseek download \"Your query\" --quality=320 # Filter by quality",
+        "translatedContent": "soulseek download \"Your query\" --quality=320 # Filter by quality"
+      },
+      {
+        "row": 5,
+        "rowsha": "T2ItcQ7+O5csbFDkKkzVFUxUQH+5DPxFBpKRbmSX0UY=",
+        "originContent": "soulseek download \"Your query\" --mode=flac # Filter by file type",
+        "translatedContent": "soulseek download \"Your query\" --mode=flac # Filter by file type"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n### Query\n\nSearch with required query, but don't download anything. If a result is found, the return code will be 0. Otherwise,\nthe return code will be 1 (useful for scripting)\n\nUsage:\n",
+    "ContentSha": "dxs0X3rULPCrC/AEk1jCbHWSxFfX+PvhdMeXo5w7Pr8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### クエリ\n\n必要なクエリで検索しますが、何もダウンロードしません。結果が見つかった場合、戻り値は0になります。そうでなければ、\n戻り値は1になります（スクリプト作成に便利です）\n\n使用法：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "FKlV+4tYTsy04bq+Vxi+mJs44Md7pvMnotpqbDWlfbU=",
+        "originContent": "### Query",
+        "translatedContent": "### クエリ"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "R6FFMr4YxVZMCodE+jNKf3y9gxIU1okzHw0OXUboHpY=",
+        "originContent": "Search with required query, but don't download anything. If a result is found, the return code will be 0. Otherwise,",
+        "translatedContent": "必要なクエリで検索しますが、何もダウンロードしません。結果が見つかった場合、戻り値は0になります。そうでなければ、"
+      },
+      {
+        "row": 5,
+        "rowsha": "hmNkm+bRXK0yhIqvPj9xuyvoKpv6BGfK4n8t5DR9RIQ=",
+        "originContent": "the return code will be 1 (useful for scripting)",
+        "translatedContent": "戻り値は1になります（スクリプト作成に便利です）"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "K60+6vM8r/47ybSCtJNO0Z607DYUwSNz4aXF+JSCF9o=",
+        "originContent": "Usage:",
+        "translatedContent": "使用法："
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```\nsoulseek query|q [options] [query...]\n```",
+    "ContentSha": "6Z7RAuBAAIl3nNAOwBVe+w56u/8Vp3zQ6aD01f3qdUo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nsoulseek query|q [options] [query...]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3DB89Ld8Ra7SRl8pRgcBcHQ/E93H9ovevesGVo6mBDA=",
+        "originContent": "soulseek query|q [options] [query...]",
+        "translatedContent": "soulseek query|q [options] [query...]"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nOptions:\n\n| Option                 | Description                                                                  |\n| ---------------------- | ---------------------------------------------------------------------------- |\n| -q --quality <quality> | show only mp3 with a defined quality                                         |\n| -m --mode <mode>       | filter the kind of files you want (available: \"mp3\", \"flac\", default: \"mp3\") |\n| -h --help              | display help for command                                                     |\n\n\n\nContribution\n---\n\nSee [CONTRIBUTING.md](https://raw.githubusercontent.com/aeyoll/soulseek-cli/main/CONTRIBUTING.md).\n",
+    "ContentSha": "26IvgljvGE3p0b6CIQ0K3BFooA/XbOHykR+fCYXMX7w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nオプション:\n\n| オプション              | 説明                                                                        |\n| ---------------------- | ---------------------------------------------------------------------------- |\n| -q --quality <quality> | 指定した品質のmp3のみを表示                                                |\n| -m --mode <mode>       | 取得したいファイルの種類をフィルタリング（利用可能: \"mp3\", \"flac\", デフォルト: \"mp3\"） |\n| -h --help              | コマンドのヘルプを表示                                                     |\n\n\n\n貢献\n---\n\n[CONTRIBUTING.md](https://raw.githubusercontent.com/aeyoll/soulseek-cli/main/CONTRIBUTING.md) を参照してください。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "NnQx/WZLtobZ/9ITM5sTgv2OFQnCH83If6v2i9FvEzM=",
+        "originContent": "Options:",
+        "translatedContent": "オプション:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "DGNsFpYe8uA94vsTzlKzn34xllvEudxzT8yuUJa2aqQ=",
+        "originContent": "| Option                 | Description                                                                  |",
+        "translatedContent": "| オプション              | 説明                                                                        |"
+      },
+      {
+        "row": 5,
+        "rowsha": "01iJ6UH0/Ai0d+iMz29ifc68Pir5/O/a7I9ha8xBJ44=",
+        "originContent": "| ---------------------- | ---------------------------------------------------------------------------- |",
+        "translatedContent": "| ---------------------- | ---------------------------------------------------------------------------- |"
+      },
+      {
+        "row": 6,
+        "rowsha": "m+MMxxuEU4GlPmcsp9KOV539fyWekXeELghG3NI5vOk=",
+        "originContent": "| -q --quality <quality> | show only mp3 with a defined quality                                         |",
+        "translatedContent": "| -q --quality <quality> | 指定した品質のmp3のみを表示                                                |"
+      },
+      {
+        "row": 7,
+        "rowsha": "iCNDrHDPZbd/7sNz/E5EgwXGYQ/0LcnCTKiv0//OFaw=",
+        "originContent": "| -m --mode <mode>       | filter the kind of files you want (available: \"mp3\", \"flac\", default: \"mp3\") |",
+        "translatedContent": "| -m --mode <mode>       | 取得したいファイルの種類をフィルタリング（利用可能: \"mp3\", \"flac\", デフォルト: \"mp3\"） |"
+      },
+      {
+        "row": 8,
+        "rowsha": "9Fi0wlkFPeXgsy5QNVcvXsDjNGKOv8coZ+RgK4NoGNU=",
+        "originContent": "| -h --help              | display help for command                                                     |",
+        "translatedContent": "| -h --help              | コマンドのヘルプを表示                                                     |"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Em5VslesnIFtI6ExD4s7/o3eWQYirdoMuzRW4sWfKrk=",
+        "originContent": "Contribution",
+        "translatedContent": "貢献"
+      },
+      {
+        "row": 13,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "9wVCtLlo07mEpTPogBcpMYZN8bK5RBEWP+UDNvbUFnw=",
+        "originContent": "See [CONTRIBUTING.md](https://raw.githubusercontent.com/aeyoll/soulseek-cli/main/CONTRIBUTING.md).",
+        "translatedContent": "[CONTRIBUTING.md](https://raw.githubusercontent.com/aeyoll/soulseek-cli/main/CONTRIBUTING.md) を参照してください。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

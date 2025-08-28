@@ -198,21 +198,33 @@ python pull_data.py \
 ```
 Die Details zum Ausführen von **a-interact** finden Sie in `./bird_interact_agent/README.md`; und **c-interact** in `./bird_interact_conv/README.md`.
 
+## 📰 Neuigkeiten
 
-## 📋 Aufgabenlisten
+🚀 Wir freuen uns, die Veröffentlichung des **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** Sets bekanntzugeben!  
+Es ist eine harte Nuss — die besten LLMs erreichen lediglich eine **16,33%** Erfolgsrate, mit nur **10,0%** auf den `c-interact`- und `a-interact`-Abschnitten.  
+👉 Weitere Details finden Sie auf unserer [Projektwebsite](https://bird-interact.github.io/).
 
-- [x] Veröffentlichung der Lite-Version, bird-interact-lite (270).
-- [x] Veröffentlichung der Konversationsversion, bird-interact-conv.
-- [x] Veröffentlichung der Agentenversion, bird-interact-agent.
-- [x] Veröffentlichung der Vollversion, bird-interact-full (600).
-- [ ] SFT / RL eines Benutzersimulators
+📬 Wir werden diese Woche die **Ground Truth & Testfälle** an unsere Mailingliste versenden.  
+Wenn Sie frühzeitig Zugriff möchten, senden Sie bitte eine E-Mail wie auf der Website beschrieben für einen **automatischen Download**.  
+
+💾 Außerdem haben wir eine SQLite-Version von **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** veröffentlicht, um lokale Forschung zu erleichtern.  
+Die vollständigen Versionen **LiveSQLBench-Base** und **-Large** folgen in Kürze!
+
+## 📋 Aufgabenliste
+
+- [x] Lite-Version veröffentlichen, bird-interact-lite (270).
+- [x] Konversationelle Version veröffentlichen, bird-interact-conv.
+- [x] Agenten-Version veröffentlichen, bird-interact-agent.
+- [x] Vollständige Version veröffentlichen, bird-interact-full (600).
+- [ ] SFT / RL eines Benutzer-Simulators
 
 ## Erstellt von:
 BIRD Team & Google Cloud
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

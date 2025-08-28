@@ -1,57 +1,60 @@
-# AI 어시스턴트를 위한 향상된 PubChem MCP 서버
 
-🧪 AI 어시스턴트가 PubChem에서 화합물 정보를 지능적으로 검색하고 접근할 수 있게 해주는 고급, 견고하며 개인정보 보호 중심의 MCP 서버입니다.
+<div align="center"><p><a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=hi"><img src="https://img.shields.io/badge/हिन्दी-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=fa"><img src="https://img.shields.io/badge/فارسی-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=id"><img src="https://img.shields.io/badge/Bahasa Indonesia-white" alt="version"></a> </p></div>
+# AI 어시스턴트를 위한 고급 PubChem MCP 서버
 
-이 PubChem MCP 서버는 AI 어시스턴트(AnythingLLM 등)와 PubChem의 방대한 화학 데이터베이스 사이의 강력한 다리 역할을 합니다. Model Context Protocol (MCP)을 활용하여 AI 모델이 화학 화합물을 스마트하고 견고하게 검색하고 상세한 속성을 프로그래밍 방식으로 가져올 수 있도록 합니다.
+🧪 AI 어시스턴트가 PubChem에서 화학 화합물 정보를 지능적으로 검색하고 접근할 수 있게 해주는, 고급·강력·개인정보 보호 중심의 MCP 서버입니다.
+
+이 PubChem MCP 서버는 AI 어시스턴트(예: AnythingLLM 등)와 PubChem의 방대한 화학 데이터베이스를 연결하는 강력한 다리 역할을 합니다. 모델 컨텍스트 프로토콜(MCP)을 활용하여 AI 모델이 화학 화합물을 스마트하고 견고하게 검색하고, 상세한 속성을 프로그래밍 방식으로 가져올 수 있습니다.
 
 ---
 
 ## ✨ 핵심 기능
 
-단순한 PubChem 래퍼가 아닙니다. 이 서버는 매우 견고하고 지능적으로 다시 구축되었습니다:
+단순한 PubChem 래퍼가 아닙니다. 이 서버는 완전히 새롭게, 매우 견고하고 지능적으로 재설계되었습니다:
 
--   **🧠 스마트 폴백 검색**: 일반명("Vitamin D" 등) 검색이 실패할 경우, 서버는 자동으로 PubChem 물질 데이터베이스에서 더 깊은 검색을 수행하여 올바른 화합물을 찾습니다. 이는 모호한 쿼리에 대한 성공률을 크게 향상시킵니다.
--   **🛡️ 견고한 오류 처리 및 재시도**: 서버는 API 오류를 우아하게 처리하도록 설계되었습니다. PubChem에서 "서버 바쁨" 오류가 발생하면 자동으로 대기 후 요청을 재시도하여, 과부하 상태에서도 쿼리가 성공하도록 보장합니다.
--   **🔒 선택적 Tor 프록시 지원**: 개인정보 보호를 완전히 제어할 수 있습니다. 간단한 `config.ini` 파일로 모든 요청을 Tor 네트워크(SOCKS5 또는 HTTP 프록시 경유)를 통해 라우팅하여 IP 주소 노출을 방지합니다. 서버는 기본적으로 안전하며 프록시 연결 실패 시 절대 IP를 노출하지 않습니다.
--   **🔎 단일 및 다중 화합물 검색**: 하나 또는 여러 화합물에 대한 요청을 단일 프롬프트에서 원활하게 처리합니다.
--   **🧪 상세 속성 조회**: IUPAC 명칭, 분자식, 분자량, 그리고 특히 **단일 동위원소 질량(Monoisotopic Mass)** 등 주요 화학 속성에 접근할 수 있습니다.
-
----
+-   **🧠 스마트 폴백 검색**: "비타민 D"와 같은 일반명 검색이 실패할 경우, 서버가 자동으로 PubChem Substance 데이터베이스에서 더 깊은 검색을 수행하여 올바른 화합물을 찾아냅니다. 이는 모호한 쿼리의 성공률을 크게 높여줍니다.
+-   **🛡️ 견고한 오류 처리 및 재시도**: 서버는 API 오류를 우아하게 처리하도록 설계되었습니다. PubChem에서 "서버가 바쁨" 오류가 발생하면, 자동으로 대기 후 재시도를 하여, 높은 부하 상황에서도 쿼리가 성공하도록 합니다.
+-   **🔒 선택적 Tor 프록시 지원**: 개인정보를 완전히 제어할 수 있습니다. 간단한 `config.ini` 파일을 통해 모든 요청을 Tor 네트워크(SOCKS5 또는 HTTP 프록시)를 통해 라우팅할 수 있어, IP 주소 노출을 방지합니다. 서버는 기본적으로 안전하며, 프록시 연결 실패 시에도 절대 IP가 노출되지 않습니다.
+-   **🔎 단일 및 다중 화합물 검색**: 하나 또는 여러 화합물에 대한 요청을 한 번의 프롬프트로 매끄럽게 처리합니다.
+-   **🧪 상세 속성 조회**: IUPAC 이름, 분자식, 분자량, 그리고 특히 **모노이소토픽 질량**과 같은 주요 화학 속성에 접근할 수 있습니다.
 
 ---
 
-### 🚀 설치 불필요: Smithery.ai에서 라이브 체험 가능
+---
 
-MCP 서버가 처음이거나 로컬 설정 없이 이 도구의 기능을 테스트해보고 싶은 분들을 위해, Smithery.ai에서 라이브 호스팅 버전을 제공합니다. 브라우저에서 직접 에이전트와 채팅할 수 있습니다.
+### 🚀 설치 필요 없음: Smithery.ai에서 바로 사용해보세요
 
-[**<-- Smithery.ai에서 라이브 PubChem 에이전트 체험하기 -->**](https://smithery.ai/server/@Milor123/smithery-pubchem-deploy)
+MCP 서버가 처음이거나, 별도의 로컬 설치 없이 이 도구의 기능을 테스트하고 싶다면 Smithery.ai에서 라이브로 호스팅되는 버전을 사용할 수 있습니다. 브라우저에서 직접 에이전트와 채팅할 수 있습니다.
 
-**시작하는 방법:**
+[**<-- Smithery.ai에서 라이브 PubChem 에이전트 탐색하기 -->**](https://smithery.ai/server/@Milor123/smithery-pubchem-deploy)
 
-1.  위 링크를 클릭하여 서버 페이지로 이동합니다.
-2.  **GitHub** 또는 **Google** 계정으로 로그인합니다.
-3.  **"Explore capabilities"** 버튼을 클릭하여 채팅 인터페이스를 열고 테스트를 시작하세요!
+**시작 방법:**
 
-> **✅ 최상의 결과를 위한 추천 모델**
+1.  위 링크를 클릭해 서버 페이지로 이동하세요.
+2.  **GitHub** 또는 **Google** 계정으로 로그인하세요.
+3.  **"Explore capabilities"** 버튼을 클릭하여 채팅 인터페이스를 열고 바로 테스트를 시작하세요!
+
+> **✅ 최적의 결과를 위한 추천 모델**
 >
-> 높은 정확도가 필요한 경우, 특히 긴 소수점 숫자 처리에 강력한 모델 사용을 강력히 권장합니다. 다음 모델들이 테스트되어 이 도구와 매우 잘 작동합니다:
+> 특히 긴 소수점 숫자 등에서 최고의 정확도를 얻으려면 강력한 모델 사용을 적극 권장합니다. 다음 모델들은 테스트를 거쳐 이 도구와 매우 잘 작동합니다:
 >
 > *   **Anthropic의 Claude 3 Sonnet**
+
 > *   **OpenAI의 GPT-4 Turbo** (또는 GPT-4o와 같은 최신 버전)
 >
-> 우리는 두 모델 모두 도구가 반환한 소수점 숫자의 전체 정밀도를 반올림 없이 정확히 처리하는 것을 확인했습니다.
+> 두 모델 모두 도구에서 반환된 소수점 숫자의 전체 정밀도를 올바르게 처리하며, 반올림이 발생하지 않음을 확인했습니다.
 
 ---
 
 ## 🚀 빠른 시작 및 설치
 
-이 서버는 로컬에서 실행되도록 설계되었으며, 데스크탑이나 AnythingLLM Docker 환경 내에서 실행할 수 있습니다.
+이 서버는 로컬에서 실행되도록 설계되었으며, 데스크탑이나 AnythingLLM Docker 환경에서 사용할 수 있습니다.
 
-### 1. 의존성
+### 1. 필수 구성 요소
 
-이 프로젝트는 몇 가지 Python 라이브러리에 의존합니다. 환경에 설치되어 있는지 확인하세요.
+이 프로젝트는 몇 가지 Python 라이브러리에 의존합니다. 환경에 이들이 설치되어 있는지 확인하세요.
 
-다음 내용을 가진 `requirements.txt` 파일을 만드세요:
+다음 내용을 포함하는 `requirements.txt` 파일을 만드세요:
 ```txt
 requests
 bs4 
@@ -205,6 +208,6 @@ Present all the results in a single Markdown table.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

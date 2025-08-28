@@ -196,23 +196,35 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-I dettagli su come eseguire **a-interact** si trovano in `./bird_interact_agent/README.md`; quelli su **c-interact** si trovano in `./bird_interact_conv/README.md`.
+I dettagli su come eseguire **a-interact** si trovano in `./bird_interact_agent/README.md`; mentre quelli su **c-interact** sono in `./bird_interact_conv/README.md`.
 
+## 📰 Novità
 
-## 📋 Elenco delle cose da fare
+🚀 Siamo entusiasti di annunciare il rilascio del set **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
+È una sfida difficile — i migliori LLM raggiungono solo un **16,33%** di successo, con appena **10,0%** nelle sezioni `c-interact` e `a-interact`.  
+👉 Per maggiori dettagli, visita il nostro [sito del progetto](https://bird-interact.github.io/).
 
-- [x] Rilasciare la versione lite, bird-interact-lite (270).
-- [x] Rilasciare la versione conversazionale, bird-interact-conv.
-- [x] Rilasciare la versione agent, bird-interact-agent.
-- [x] Rilasciare la versione completa bird-interact-full (600).
+📬 Questa settimana invieremo la **Ground Truth & Test cases** alla nostra mailing list.  
+Se desideri l’accesso anticipato, invia una email come indicato sul sito per un **download automatico**.  
+
+💾 Inoltre, abbiamo rilasciato una versione SQLite di **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** per facilitare la ricerca locale.  
+Le versioni complete **LiveSQLBench-Base** e **-Large** arriveranno presto!
+
+## 📋 Liste delle cose da fare
+
+- [x] Rilascia versione lite, bird-interact-lite (270).
+- [x] Rilascia versione conversazionale, bird-interact-conv.
+- [x] Rilascia versione agent, bird-interact-agent.
+- [x] Rilascia Full bird-interact-full (600).
 - [ ] SFT / RL di un Simulatore Utente
 
 ## Creato da:
 BIRD Team & Google Cloud
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

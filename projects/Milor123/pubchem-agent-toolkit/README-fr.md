@@ -1,30 +1,33 @@
-# Serveur PubChem MCP Amélioré pour Assistants IA
 
-🧪 Un serveur MCP avancé, robuste et axé sur la confidentialité qui permet aux assistants IA de rechercher et d’accéder intelligemment aux informations sur les composés chimiques depuis PubChem.
+<div align="center"><p><a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=hi"><img src="https://img.shields.io/badge/हिन्दी-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=fa"><img src="https://img.shields.io/badge/فارسی-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=id"><img src="https://img.shields.io/badge/Bahasa Indonesia-white" alt="version"></a> </p></div>
 
-Ce serveur PubChem MCP agit comme un puissant pont entre les assistants IA (comme ceux d’AnythingLLM) et l’immense base de données chimiques de PubChem. Il exploite le Model Context Protocol (MCP) pour permettre aux modèles IA d’effectuer des recherches intelligentes et résilientes de composés chimiques et de récupérer leurs propriétés détaillées de manière programmatique.
+# Serveur MCP PubChem amélioré pour assistants IA
 
----
+🧪 Un serveur MCP avancé, robuste et axé sur la confidentialité, permettant aux assistants IA de rechercher et d’accéder intelligemment aux informations sur les composés chimiques depuis PubChem.
 
-## ✨ Fonctionnalités Clés
-
-Ce n’est pas un simple wrapper PubChem. Ce serveur a été reconstruit de zéro pour être très robuste et intelligent :
-
--   **🧠 Recherche de Secours Intelligente** : Si une recherche par nom commun (comme « Vitamine D ») échoue, le serveur effectue automatiquement une recherche approfondie dans la base de données Substance de PubChem pour trouver le composé correct. Cela améliore considérablement les taux de réussite pour les requêtes ambiguës.
--   **🛡️ Gestion Robuste des Erreurs & Reprises Automatiques** : Le serveur est conçu pour gérer élégamment les erreurs API. S’il rencontre une erreur « Serveur Occupé » de PubChem, il attendra automatiquement puis réessaiera la requête, garantissant le succès de vos requêtes même sous forte charge.
--   **🔒 Support Optionnel de Proxy Tor** : Vous avez un contrôle total sur votre confidentialité. Un simple fichier `config.ini` vous permet de router toutes les requêtes via le réseau Tor (via proxy SOCKS5 ou HTTP), empêchant l’exposition de votre adresse IP. Le serveur est sécurisé par défaut et ne **fuitera jamais** votre IP si la connexion proxy échoue.
--   **🔎 Recherche de Composé Unique & Multiple** : Gère sans difficulté les requêtes pour un ou plusieurs composés dans un seul prompt.
--   **🧪 Récupération Détailée des Propriétés** : Accès aux propriétés chimiques clés comme le nom IUPAC, la formule moléculaire, le poids moléculaire, et surtout, la **masse monoisotopique**.
+Ce serveur MCP PubChem agit comme un puissant pont entre les assistants IA (tels que ceux d’AnythingLLM) et la vaste base de données chimique de PubChem. Il exploite le Model Context Protocol (MCP) pour permettre aux modèles IA d’effectuer des recherches intelligentes et résilientes sur les composés chimiques et d’obtenir leurs propriétés détaillées de manière programmatique.
 
 ---
 
+## ✨ Fonctionnalités principales
+
+Ce n’est pas simplement un autre wrapper PubChem. Ce serveur a été entièrement reconstruit pour être extrêmement robuste et intelligent :
+
+-   **🧠 Recherche intelligente avec repli** : Si une recherche par nom commun (comme « Vitamine D ») échoue, le serveur effectue automatiquement une recherche approfondie dans la base de données Substances de PubChem pour trouver le bon composé. Cela améliore considérablement le taux de succès des requêtes ambiguës.
+-   **🛡️ Gestion robuste des erreurs et des tentatives** : Le serveur est conçu pour gérer les erreurs API avec élégance. En cas d’erreur « Serveur occupé » de PubChem, il attend et retente la requête automatiquement, assurant la réussite de vos requêtes même sous forte charge.
+-   **🔒 Prise en charge optionnelle du proxy Tor** : Vous gardez un contrôle total sur votre confidentialité. Un simple fichier `config.ini` permet de router toutes les requêtes via le réseau Tor (par proxy SOCKS5 ou HTTP), empêchant l’exposition de votre adresse IP. Le serveur est sécurisé par défaut et ne **divulguera jamais** votre IP si la connexion au proxy échoue.
+-   **🔎 Recherche de composé unique ou multiple** : Gère sans effort les requêtes pour un ou plusieurs composés dans une seule demande.
+-   **🧪 Récupération détaillée des propriétés** : Accédez aux propriétés chimiques clés telles que le nom IUPAC, la formule moléculaire, la masse moléculaire et, surtout, la **masse monoisotopique**.
+
 ---
 
-### 🚀 Aucune Installation Requise : Essayez-le en Direct sur Smithery.ai
+---
 
-Pour ceux qui découvrent les serveurs MCP ou qui souhaitent simplement tester les capacités de cet outil sans installation locale, une version hébergée en direct est disponible sur Smithery.ai. Cela vous permet de discuter avec l’agent directement depuis votre navigateur.
+### 🚀 Aucun besoin d’installation : Essayez-le en direct sur Smithery.ai
 
-[**<-- Explorez l’Agent PubChem en Direct sur Smithery.ai -->**](https://smithery.ai/server/@Milor123/smithery-pubchem-deploy)
+Pour ceux qui découvrent les serveurs MCP ou souhaitent simplement tester les capacités de cet outil sans configuration locale, une version hébergée en direct est disponible sur Smithery.ai. Cela vous permet de dialoguer avec l’agent directement dans votre navigateur.
+
+[**<-- Découvrez l’agent PubChem en direct sur Smithery.ai -->**](https://smithery.ai/server/@Milor123/smithery-pubchem-deploy)
 
 **Comment démarrer :**
 
@@ -32,24 +35,24 @@ Pour ceux qui découvrent les serveurs MCP ou qui souhaitent simplement tester l
 2.  Connectez-vous avec votre compte **GitHub** ou **Google**.
 3.  Cliquez sur le bouton **« Explorer les capacités »** pour ouvrir une interface de chat et commencer les tests !
 
-> **✅ Modèles Recommandés pour de Meilleurs Résultats**
+> **✅ Modèles recommandés pour des résultats optimaux**
 >
-> Pour obtenir la plus grande précision, notamment avec les nombres décimaux longs, nous recommandons fortement d’utiliser des modèles puissants. Les suivants ont été testés et fonctionnent parfaitement avec cet outil :
+> Pour obtenir la meilleure précision, en particulier avec les longs nombres décimaux, nous recommandons vivement d’utiliser des modèles puissants. Les suivants ont été testés et fonctionnent parfaitement avec cet outil :
 >
 > *   **Claude 3 Sonnet d’Anthropic**
-> *   **GPT-4 Turbo d’OpenAI** (ou versions plus récentes comme GPT-4o)
+> *   **GPT-4 Turbo d'OpenAI** (ou des versions plus récentes comme GPT-4o)
 >
-> Nous avons confirmé que les deux modèles ont correctement traité la pleine précision des nombres décimaux renvoyés par l'outil sans aucun arrondi.
+> Nous avons confirmé que les deux modèles traitaient correctement la pleine précision des nombres décimaux renvoyés par l'outil sans aucun arrondi.
 
 ---
 
 ## 🚀 Démarrage rapide & Installation
 
-Ce serveur est conçu pour être exécuté localement, soit sur votre bureau soit dans l'environnement Docker AnythingLLM.
+Ce serveur est conçu pour être exécuté localement, soit sur votre bureau, soit dans l'environnement Docker AnythingLLM.
 
 ### 1. Dépendances
 
-Ce projet repose sur quelques bibliothèques Python. Assurez-vous qu'elles sont installées dans votre environnement.
+Ce projet dépend de quelques bibliothèques Python. Assurez-vous qu'elles sont installées dans votre environnement.
 
 Créez un fichier `requirements.txt` avec le contenu suivant :
 ```txt
@@ -205,6 +208,6 @@ Cet outil est destiné à des fins de recherche et d'éducation. Veuillez respec
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

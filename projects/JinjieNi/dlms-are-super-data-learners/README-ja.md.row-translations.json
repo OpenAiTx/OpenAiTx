@@ -1,0 +1,218 @@
+[
+  {
+    "row": 1,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "yqrhiiULVYPt0o9P3o3i0CYqR+vRwS6/lvbCZ6tXurA=",
+    "originContent": "<!-- TITLE -->",
+    "translatedContent": "<!-- TITLE -->"
+  },
+  {
+    "row": 4,
+    "rowsha": "vFTSvkAxOvC/d+yaGJ7ukECfjYc4fxm6pNMHJIjh8eQ=",
+    "originContent": "# **Diffusion Language Models are Super Data Learners**",
+    "translatedContent": "# **拡散言語モデルは超データ学習者である**"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "GhY4rmY66z9d6GwRxHY1vOtYyOQlAHZWP2qYoOXqZOA=",
+    "originContent": "[![Static Badge](https://img.shields.io/badge/Blog-2025--08--09-darkcyan)](https://jinjieni.notion.site/Diffusion-Language-Models-are-Super-Data-Learners-239d8f03a866800ab196e49928c019ac)",
+    "translatedContent": "[![Static Badge](https://img.shields.io/badge/Blog-2025--08--09-darkcyan)](https://jinjieni.notion.site/Diffusion-Language-Models-are-Super-Data-Learners-239d8f03a866800ab196e49928c019ac)"
+  },
+  {
+    "row": 7,
+    "rowsha": "rUXTK000SkPSwFZfzvLyisXa61ReAt6EUVtLEbPoH0s=",
+    "originContent": "[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=tweet)](https://x.com/NiJinjie/status/1954177095435014533)",
+    "translatedContent": "[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=tweet)](https://x.com/NiJinjie/status/1954177095435014533)"
+  },
+  {
+    "row": 8,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "vtWsRi5B9ZEfVQ3Z4br5JbmAUbq8B3rp6oGV80sFMQ0=",
+    "originContent": "# Highlights",
+    "translatedContent": "# ハイライト"
+  },
+  {
+    "row": 11,
+    "rowsha": "c2N4w+eKTfn6KvoI/tcoaVRSdi5NndU8BhC4XV/gzJg=",
+    "originContent": "- We pre-trained DLMs and AR models from scratch for up to **8B parameters** and **480B tokens**. DLMs demonstrate > **3x** greater data potential compared to autoregressive (AR) models. Notably, a 1B-parameter masked diffusion model achieves > **56%** accuracy on HellaSwag and > **33%** on MMLU using only **1B** tokens, without any special tricks, just by repeating standard pre-training data. Note that more repetitions could further improve its performance, as **no signs of diminishing returns** were observed.",
+    "translatedContent": "- 私たちはDLMとARモデルをゼロから最大**8Bパラメータ**かつ**480Bトークン**まで事前学習しました。DLMは自己回帰（AR）モデルと比較して> **3倍**以上のデータ活用能力を示します。特に、1Bパラメータのマスク拡散モデルは、特別な工夫なしに標準的な事前学習データを繰り返すだけで、HellaSwagで> **56%**、MMLUで> **33%**の精度をわずか**1B**トークンで達成しました。繰り返し回数を増やせばさらに性能が向上する可能性があり、**収益逓減の兆候は見られません**でした。"
+  },
+  {
+    "row": 12,
+    "rowsha": "Wrn8teZUQ+P3l7wk0edkwbANAQwZLdCmuf6SQ6Al9Jg=",
+    "originContent": "- DLMs are super-dense models that consume more FLOPs than dense AR models. Training DLMs to fully leverage the data typically demands at least **two orders of magnitude** more FLOPs. During inference, generating sequences ranging from 16 to 4096 tokens incurs a **16× to 4700×** increase in FLOPs compared to AR baselines. In addition, the more expressive bidirectional attention enabled by the diffusion objective allows **bidirectional modeling of the language data**, which is not fully causal, to fully squeeze its value.",
+    "translatedContent": "- DLMは密なARモデルよりも多くのFLOPsを消費する超高密度モデルです。DLMをデータ活用で最大限に活かすには通常、少なくとも**2桁以上**多いFLOPsが必要です。推論時には、16から4096トークンの生成でARベースラインと比較して**16倍〜4700倍**のFLOPs増加が発生します。さらに、拡散目的によって実現されるより表現力豊かな双方向注意機構により、**完全に因果的でない言語データの双方向モデリング**が可能となり、その価値を最大限に引き出します。"
+  },
+  {
+    "row": 13,
+    "rowsha": "wuptl/I/AU8SrJOx9oJIzj5pJZeC1U20Uhe1W/eCL6s=",
+    "originContent": "- Our concurrent work, “Diffusion Beats Autoregressive in Data-Constrained Settings”, contains critical methodological issues potentially leading to problematic conclusions, including **problematic diffusion loss formulation, invalid metrics for comparison, unfair settings for AR models, and problematic scaling law formulation.** All of which might lead to questionable results and conclusions.",
+    "translatedContent": "- 私たちの並行研究「Diffusion Beats Autoregressive in Data-Constrained Settings」には、**問題のある拡散損失の定式化、比較に無効な指標、ARモデルに不公平な設定、問題のあるスケーリング則の定式化**など、問題となりうる方法論上の課題が含まれており、これらは疑わしい結果や結論を導く可能性があります。"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "c7OxBJKVlKctkr804O9z2fZEiJApr/XnU0pWdFQY3xg=",
+    "originContent": "# The Crossover",
+    "translatedContent": "# クロスオーバー"
+  },
+  {
+    "row": 18,
+    "rowsha": "xw0e+DkxEZlrdnSE9ePetYAONFa0gGij2ZqfpU4cetA=",
+    "originContent": "<p align=\"center\" width=\"100%\">",
+    "translatedContent": "<p align=\"center\" width=\"100%\">"
+  },
+  {
+    "row": 19,
+    "rowsha": "nU8JfcxW0W+z6VSyEvV7so/VX5Cr7BZBI58weSTDtKc=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/JinjieNi/dlms-are-super-data-learners/main/resources/imgs/1.jpg\"  width=\"80%\" height=\"100%\">",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/JinjieNi/dlms-are-super-data-learners/main/resources/imgs/1.jpg\"  width=\"80%\" height=\"100%\">"
+  },
+  {
+    "row": 20,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "Dd6SzeiB0npn2/n+VD0ojAyzWsTMo94OuzLqoDXRXjE=",
+    "originContent": "*Figure A of the blog: The performance comparison of autoregressive (AR) and masked diffusion models (Diffusion) when repeating on a limited portion of data. All models are trained on 96B total tokens (including repetition), varying the unique tokens from 0.5B to 96B. Diffusion models exploit the data better through more repetition on limited unique data. More unique tokens requires more repetition to see the crossover, where the high unique token runs postpone the crossover beyond our 96B token observation scope.*",
+    "translatedContent": "*ブログの図A：限られたデータの一部を繰り返し使用した際の自己回帰（AR）モデルとマスク拡散モデル（Diffusion）の性能比較。全モデルは計96Bトークン（繰り返しを含む）で訓練され、ユニークトークン数を0.5Bから96Bまで変化させています。拡散モデルは限られたユニークデータに対して繰り返しを増やすことでデータをより有効に活用します。ユニークトークン数が多い場合、クロスオーバーを見るにはより多くの繰り返しが必要であり、高いユニークトークン数の実験はクロスオーバーが96Bトークンの観察範囲を超えて遅延します。*"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "IYveXwQyASnTxk975argwU5ZV1Mu8XpPLdj2YZocajs=",
+    "originContent": "# Citation",
+    "translatedContent": "# 引用"
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "E2Z6E1KZsUDEDbabBAfSHKzcRjWG/AP2E6IzyeCPhco=",
+    "originContent": "@misc{ni2025difflm,",
+    "translatedContent": "@misc{ni2025difflm,"
+  },
+  {
+    "row": 29,
+    "rowsha": "RsGgPtoYg/mU0CwWXTp1FHJWZkUmjO9J2URb4mQPJlk=",
+    "originContent": "title={Diffusion Language Models are Super Data Learners},",
+    "translatedContent": "title={Diffusion Language Models are Super Data Learners},"
+  },
+  {
+    "row": 30,
+    "rowsha": "sK12vSNSAncCqdHmwVv1KV1yYWFJzK4xIMKHKSd/u+Q=",
+    "originContent": "author={Jinjie Ni and the team},",
+    "translatedContent": "author={Jinjie Ni and the team},"
+  },
+  {
+    "row": 31,
+    "rowsha": "ovfFG+BkK4tuLUmR03xZ3o2U3TWAR5hbgzw/VaRZbkA=",
+    "originContent": "year={2025},",
+    "translatedContent": "year={2025},"
+  },
+  {
+    "row": 32,
+    "rowsha": "4gflS9YBrEuCwdeUoslckOi0+lYITt8vHL93uDX0xHc=",
+    "originContent": "howpublished={\\url{https://jinjieni.notion.site/Diffusion-Language-Models-are-Super-Data-Learners-239d8f03a866800ab196e49928c019ac}},",
+    "translatedContent": "howpublished={\\url{https://jinjieni.notion.site/Diffusion-Language-Models-are-Super-Data-Learners-239d8f03a866800ab196e49928c019ac}},"
+  },
+  {
+    "row": 33,
+    "rowsha": "MKUVE8wZ4mMUiCklw16Upf5MiSWizWAhPoM04oqTO4E=",
+    "originContent": "note={Notion Blog},",
+    "translatedContent": "note={Notion Blog},"
+  },
+  {
+    "row": 34,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 35,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

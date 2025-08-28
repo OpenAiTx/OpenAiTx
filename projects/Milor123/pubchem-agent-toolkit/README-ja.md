@@ -1,20 +1,23 @@
-# AIアシスタント向け強化PubChem MCPサーバー
 
-🧪 高度で堅牢かつプライバシー重視のMCPサーバーで、AIアシスタントがPubChemから化合物情報を賢く検索・取得できます。
+<div align="center"><p><a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=hi"><img src="https://img.shields.io/badge/हिन्दी-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=fa"><img src="https://img.shields.io/badge/فارسی-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=id"><img src="https://img.shields.io/badge/Bahasa Indonesia-white" alt="version"></a> </p></div>
 
-このPubChem MCPサーバーは、AnythingLLMのようなAIアシスタントとPubChemの膨大な化学データベースをつなぐ強力な橋渡し役です。Model Context Protocol（MCP）を活用し、AIモデルが化合物をスマートかつ堅牢に検索し、詳細な特性をプログラム的に取得できるようにします。
+# AIアシスタント向け強化型PubChem MCPサーバー
+
+🧪 AIアシスタントがPubChemから化合物情報をインテリジェントに検索・取得できる、高度で堅牢、かつプライバシー重視のMCPサーバーです。
+
+このPubChem MCPサーバーは、AIアシスタント（AnythingLLMなど）とPubChemの膨大な化学データベースの間を強力に橋渡しします。Model Context Protocol（MCP）を活用し、AIモデルが化合物をスマートかつ堅牢に検索し、詳細な特性をプログラム的に取得できるようにします。
 
 ---
 
-## ✨ コア機能
+## ✨ 主な機能
 
-単なるPubChemラッパーではありません。このサーバーは根本から再構築され、高度な堅牢性と知能性を備えています：
+これは単なるPubChemラッパーではありません。サーバーはゼロから再設計され、非常に堅牢かつ知的です。
 
--   **🧠 スマートフォールバック検索**：一般名（例：「ビタミンD」）での検索が失敗した場合、自動的にPubChem Substanceデータベースでより深い検索を行い、正しい化合物を見つけます。これにより曖昧なクエリの成功率が飛躍的に向上します。
--   **🛡️ 堅牢なエラー処理とリトライ**：APIエラーに対しても優雅に対応できる設計です。PubChemから「サーバービジー」エラーが返ってきた場合、自動的に待機してリクエストを再試行し、負荷が高い状況でもクエリの成功を保証します。
--   **🔒 オプションのTorプロキシサポート**：プライバシーを完全にコントロール可能です。シンプルな`config.ini`ファイルで全リクエストをTorネットワーク（SOCKS5またはHTTPプロキシ経由）にルーティングでき、IPアドレスの露出を防ぎます。サーバーはデフォルトで安全設計されており、プロキシ接続に失敗してもIPを**絶対に**漏らしません。
--   **🔎 単一・複数化合物検索**：1件または複数の化合物を1つのプロンプトでシームレスに処理します。
--   **🧪 詳細な特性取得**：IUPAC名、分子式、分子量、そして特に**単一同位体質量**といった重要な化学特性にアクセス可能です。
+-   **🧠 スマートなフォールバック検索**: 一般名（例:「ビタミンD」）の検索に失敗した場合、サーバーはPubChem Substanceデータベースでより深い検索を自動実行し、正しい化合物を特定します。これにより曖昧なクエリの成功率が大幅に向上します。
+-   **🛡️ 堅牢なエラー処理とリトライ**: サーバーはAPIエラーを丁寧に処理します。PubChemから「サーバーが混雑しています」というエラーを受けた場合、自動的に待機してリクエストを再試行し、負荷が高い時でもクエリを成功させます。
+-   **🔒 オプションのTorプロキシ対応**: プライバシーを完全に制御できます。シンプルな`config.ini`ファイルで、全リクエストをTorネットワーク（SOCKS5またはHTTPプロキシ）経由で送信でき、IPアドレスの露出を防ぎます。サーバーはデフォルトで安全設計、プロキシ接続が失敗した場合でもIPが漏れることは**絶対にありません**。
+-   **🔎 単一・複数化合物検索**: 1つまたは複数の化合物リクエストを1回のプロンプトで柔軟に処理します。
+-   **🧪 詳細な特性取得**: IUPAC名、分子式、分子量、そして特に**単一同位体質量**など、主要な化学特性にアクセスできます。
 
 ---
 
@@ -22,30 +25,30 @@
 
 ### 🚀 インストール不要：Smithery.aiでライブ体験
 
-MCPサーバーが初めての方やローカル環境を用意せずにこのツールの機能を試したい方のために、Smithery.aiでホストされたライブ版をご用意しています。ブラウザ上で直接エージェントとチャット可能です。
+MCPサーバー初心者や、ローカルセットアップ無しでツールの機能を試したい方には、Smithery.aiでライブ・ホスト版を提供しています。ブラウザから直接エージェントとチャットできます。
 
-[**<-- Smithery.aiのライブPubChemエージェントを試す -->**](https://smithery.ai/server/@Milor123/smithery-pubchem-deploy)
+[**<-- Smithery.aiでライブPubChemエージェントを体験する -->**](https://smithery.ai/server/@Milor123/smithery-pubchem-deploy)
 
-**始め方：**
+**利用開始方法:**
 
-1.  上記リンクをクリックしてサーバーページにアクセス。
-2.  **GitHub**または**Google**アカウントでサインイン。
-3.  **「Explore capabilities」**ボタンをクリックし、チャットインターフェイスを開いてテスト開始！
+1.  上記リンクをクリックしてサーバーページへ移動します。
+2.  **GitHub**または**Google**アカウントでサインインします。
+3.  **「Explore capabilities」**ボタンを押してチャット画面を開き、テストを始めましょう！
 
-> **✅ 最良の結果を得るための推奨モデル**
+> **✅ 最良結果のための推奨モデル**
 >
-> 特に長い小数点数の精度を求める場合は、高性能モデルの使用を強く推奨します。以下のモデルはテスト済みで、このツールと非常に相性が良いです：
+> 特に長い小数点以下の数値で高精度を得るには、強力なモデルの利用を強く推奨します。以下のモデルは実際にテスト済みで、このツールと非常に相性が良好です。
 >
-> *   **AnthropicのClaude 3 Sonnet**
-> *   **OpenAIのGPT-4 Turbo**（またはGPT-4oなどの新バージョン）
+> *   **Anthropic Claude 3 Sonnet**
+> *   **OpenAIのGPT-4 Turbo**（またはGPT-4oなどの新しいバージョン）
 >
-> 両モデルとも、ツールから返された小数点以下の数値の完全な精度を正しく処理し、丸めを行わなかったことを確認しました。
+> 両方のモデルが、ツールから返される小数点数の全精度を丸めることなく正しく処理できることを確認しました。
 
 ---
 
-## 🚀 クイックスタートとインストール
+## 🚀 クイックスタート & インストール
 
-このサーバーは、ローカル環境（デスクトップまたはAnythingLLM Docker環境内）で実行することを想定しています。
+このサーバーはローカルで実行するために設計されており、デスクトップやAnythingLLM Docker環境内で利用できます。
 
 ### 1. 依存関係
 
@@ -205,6 +208,6 @@ Present all the results in a single Markdown table.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

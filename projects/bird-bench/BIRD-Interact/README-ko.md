@@ -196,8 +196,19 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-**a-interact** 실행에 대한 자세한 내용은 `./bird_interact_agent/README.md`에서 확인할 수 있으며, **c-interact**는 `./bird_interact_conv/README.md`에서 확인할 수 있습니다.
+**a-interact** 실행에 대한 자세한 내용은 `./bird_interact_agent/README.md`에서 확인할 수 있습니다; **c-interact**에 대한 내용은 `./bird_interact_conv/README.md`에서 확인할 수 있습니다.
 
+## 📰 뉴스
+
+🚀 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 세트의 출시를 발표하게 되어 매우 기쁩니다!  
+이번 세트는 매우 어려운 문제로, 최고의 LLM들도 **16.33%**의 성공률만 달성하고 있으며, `c-interact`와 `a-interact` 부분에서는 불과 **10.0%**에 그치고 있습니다.  
+👉 자세한 내용은 [프로젝트 웹사이트](https://bird-interact.github.io/)를 방문해 주세요.
+
+📬 이번 주에 **정답 및 테스트 케이스**를 메일링 리스트에 발송할 예정입니다.  
+조기 접근을 원하시면 사이트에 안내된 대로 이메일을 보내시면 **자동 다운로드**가 가능합니다.  
+
+💾 참고로, 로컬 연구를 더 쉽게 할 수 있도록 **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)**의 SQLite 버전도 출시했습니다.  
+전체 **LiveSQLBench-Base** 및 **-Large** 버전도 곧 출시될 예정입니다!
 
 ## 📋 할 일 목록
 
@@ -205,14 +216,15 @@ python pull_data.py \
 - [x] 대화형 버전 출시, bird-interact-conv.
 - [x] 에이전트 버전 출시, bird-interact-agent.
 - [x] 전체 버전 출시, bird-interact-full (600).
-- [ ] SFT / RL 사용자 시뮬레이터
+- [ ] 사용자 시뮬레이터 SFT / RL
 
-## 제작자:
+## 제작:
 BIRD 팀 & Google Cloud
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

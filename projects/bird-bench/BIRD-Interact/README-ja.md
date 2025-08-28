@@ -196,23 +196,35 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-**a-interact** の実行に関する詳細は `./bird_interact_agent/README.md` に記載されています；**c-interact** に関しては `./bird_interact_conv/README.md` に記載されています。
+**a-interact** の実行方法の詳細は `./bird_interact_agent/README.md` に、**c-interact** の実行方法は `./bird_interact_conv/README.md` に記載されています。
 
-## 📋 Todoリスト
+## 📰 ニュース
 
-- [x] ライト版（bird-interact-lite (270)）をリリース。
-- [x] 会話版（bird-interact-conv）をリリース。
-- [x] エージェント版（bird-interact-agent）をリリース。
-- [x] フル版（bird-interact-full (600)）をリリース。
-- [ ] SFT / RL ユーザーシミュレーター
+🚀 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** セットのリリースを発表できることを嬉しく思います！  
+これは難易度が高く、最高のLLMでも成功率はわずか **16.33%**、`c-interact` と `a-interact` 部分ではわずか **10.0%** です。  
+👉 詳細については [プロジェクトウェブサイト](https://bird-interact.github.io/) をご覧ください。
+
+📬 今週、**Ground Truth & Test cases** をメーリングリストに送信します。  
+早期アクセスをご希望の場合は、サイトの指示通りにメールを送信し、**自動ダウンロード**を行ってください。  
+
+💾 なお、ローカルでの研究を容易にするため、SQLite版の **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** もリリースしました。  
+完全版の **LiveSQLBench-Base** および **-Large** も近日公開予定です！
+
+## 📋 Todo リスト
+
+- [x] lite版、bird-interact-lite (270) をリリース。
+- [x] 会話版、bird-interact-conv をリリース。
+- [x] エージェント版、bird-interact-agent をリリース。
+- [x] 完全版、bird-interact-full (600) をリリース。
+- [ ] SFT / RL によるユーザーシミュレータ
 
 ## 作成者:
-BIRDチーム & Google Cloud
+BIRD Team & Google Cloud
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

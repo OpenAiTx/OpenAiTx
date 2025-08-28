@@ -198,21 +198,33 @@ python pull_data.py \
 ```
 De details over het uitvoeren van **a-interact** zijn te vinden in `./bird_interact_agent/README.md`; en **c-interact** zijn te vinden in `./bird_interact_conv/README.md`.
 
+## 📰 Nieuws
+
+🚀 We zijn verheugd de release aan te kondigen van de **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  
+Het is een uitdagende set — de beste LLMs behalen slechts een **16,33%** succesratio, met slechts **10,0%** op de `c-interact` en `a-interact` onderdelen.  
+👉 Voor meer details, bezoek onze [projectwebsite](https://bird-interact.github.io/).
+
+📬 Deze week sturen we de **Ground Truth & Testcases** naar onze mailinglijst.  
+Wil je vroegtijdige toegang? Stuur dan een e-mail zoals vermeld op de site voor een **automatische download**.  
+
+💾 Verder hebben we ook een SQLite-versie uitgebracht van **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** voor makkelijker lokaal onderzoek.  
+De volledige **LiveSQLBench-Base** en **-Large** versies komen binnenkort!
 
 ## 📋 Takenlijst
 
 - [x] Lite-versie uitbrengen, bird-interact-lite (270).
-- [x] Conversationele versie uitbrengen, bird-interact-conv.
-- [x] Agent-versie uitbrengen, bird-interact-agent.
+- [x] Conversatieversie uitbrengen, bird-interact-conv.
+- [x] Agentversie uitbrengen, bird-interact-agent.
 - [x] Volledige bird-interact-full (600) uitbrengen.
-- [ ] SFT / RL van een Gebruikerssimulator
+- [ ] SFT / RL voor een User Simulator
 
 ## Gemaakt door:
 BIRD Team & Google Cloud
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

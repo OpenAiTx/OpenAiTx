@@ -198,8 +198,19 @@ python pull_data.py \
 ```
 Szczegóły dotyczące uruchamiania **a-interact** można znaleźć w `./bird_interact_agent/README.md`; a **c-interact** w `./bird_interact_conv/README.md`.
 
+## 📰 Aktualności
 
-## 📋 Listy rzeczy do zrobienia
+🚀 Z radością ogłaszamy wydanie zestawu **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
+To trudny zestaw — najlepsze modele LLM osiągają jedynie **16,33%** skuteczności, a tylko **10,0%** w częściach `c-interact` oraz `a-interact`.  
+👉 Więcej informacji znajdziesz na naszej [stronie projektu](https://bird-interact.github.io/).
+
+📬 W tym tygodniu wysyłamy **Ground Truth & Test cases** do naszej listy mailingowej.  
+Jeśli chcesz uzyskać wcześniejszy dostęp, wyślij e-mail zgodnie z instrukcją na stronie, aby uzyskać **automatyczne pobranie**.  
+
+💾 Dodatkowo, udostępniliśmy wersję SQLite **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)**, aby ułatwić lokalne badania.  
+Pełne wersje **LiveSQLBench-Base** oraz **-Large** pojawią się wkrótce!
+
+## 📋 Lista zadań
 
 - [x] Wydanie wersji lite, bird-interact-lite (270).
 - [x] Wydanie wersji konwersacyjnej, bird-interact-conv.
@@ -211,8 +222,9 @@ Szczegóły dotyczące uruchamiania **a-interact** można znaleźć w `./bird_in
 Zespół BIRD & Google Cloud
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

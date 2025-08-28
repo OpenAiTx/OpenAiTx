@@ -196,23 +196,35 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-Los detalles sobre cómo ejecutar **a-interact** se pueden encontrar en `./bird_interact_agent/README.md`; y sobre **c-interact** en `./bird_interact_conv/README.md`.
+Los detalles sobre cómo ejecutar **a-interact** se pueden encontrar en `./bird_interact_agent/README.md`; y **c-interact** se pueden encontrar en `./bird_interact_conv/README.md`.
 
+## 📰 Noticias
+
+🚀 ¡Nos complace anunciar el lanzamiento del conjunto **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
+Es uno difícil — los mejores LLMs solo logran una tasa de éxito del **16.33%**, con apenas **10.0%** en las partes de `c-interact` y `a-interact`.  
+👉 Para más detalles, por favor visite nuestro [sitio web del proyecto](https://bird-interact.github.io/).
+
+📬 Esta semana enviaremos los **Ground Truth & Test cases** a nuestra lista de correo.  
+Si desea acceso anticipado, por favor envíe un correo según lo indicado en el sitio para una **descarga automática**.  
+
+💾 Por otra parte, también hemos lanzado una versión SQLite de **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** para facilitar la investigación local.  
+¡Las versiones completas **LiveSQLBench-Base** y **-Large** llegarán pronto!
 
 ## 📋 Listas de tareas
 
-- [x] Publicar versión ligera, bird-interact-lite (270).
-- [x] Publicar versión conversacional, bird-interact-conv.
-- [x] Publicar versión agente, bird-interact-agent.
-- [x] Publicar versión completa bird-interact-full (600).
-- [ ] SFT / RL en Simulador de Usuario
+- [x] Lanzar versión lite, bird-interact-lite (270).
+- [x] Lanzar versión conversacional, bird-interact-conv.
+- [x] Lanzar versión agente, bird-interact-agent.
+- [x] Lanzar versión completa bird-interact-full (600).
+- [ ] SFT / RL un Simulador de Usuario
 
 ## Creado por:
 Equipo BIRD & Google Cloud
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

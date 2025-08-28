@@ -8,10 +8,13 @@
 # OnionHoster v2.2
 
 > **The Ultimate Tor Hidden Service Hosting Tool** - Deploy your web projects to the dark web in minutes!
-
+> 
 [![Version](https://img.shields.io/badge/version-2.2-brightgreen.svg)](https://github.com/BlackHatDevX/onionhoster)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS-blue.svg)](https://github.com/BlackHatDevX/onionhoster)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/BlackHatDevX/onionhoster)
+
+<img width="1023" height="551" alt="ChatGPT Image Aug 27, 2025, 03_32_08 PM (1)-modified" src="https://github.com/user-attachments/assets/92b6e834-2d4f-4cc7-8f77-82b9bafba8a5" />
+
 
 ---
 
@@ -31,7 +34,7 @@ OnionHoster is a powerful, cross-platform bash script that transforms any web pr
 ---
 ## Preview
 
-https://github.com/user-attachments/assets/b8fe44e8-2b1f-4fdc-bb52-7c4a5ee2c67e
+[![IMAGE ALT TEXT HERE](https://github.com/user-attachments/assets/4b35dfb0-0059-4cc5-99c7-a5b9467a385d)](https://www.youtube.com/watch?v=oPvhA54Tp8w)
 
 
 # ⚠️ Warning: OnionHoster is NOT a magic anonymity tool — follow best practices or risk deanonymization

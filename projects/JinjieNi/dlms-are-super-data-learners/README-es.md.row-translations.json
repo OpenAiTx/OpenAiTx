@@ -1,0 +1,218 @@
+[
+  {
+    "row": 1,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "yqrhiiULVYPt0o9P3o3i0CYqR+vRwS6/lvbCZ6tXurA=",
+    "originContent": "<!-- TITLE -->",
+    "translatedContent": "<!-- TITLE -->"
+  },
+  {
+    "row": 4,
+    "rowsha": "vFTSvkAxOvC/d+yaGJ7ukECfjYc4fxm6pNMHJIjh8eQ=",
+    "originContent": "# **Diffusion Language Models are Super Data Learners**",
+    "translatedContent": "# **Los Modelos de Lenguaje por Difusión son Superaprendices de Datos**"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "GhY4rmY66z9d6GwRxHY1vOtYyOQlAHZWP2qYoOXqZOA=",
+    "originContent": "[![Static Badge](https://img.shields.io/badge/Blog-2025--08--09-darkcyan)](https://jinjieni.notion.site/Diffusion-Language-Models-are-Super-Data-Learners-239d8f03a866800ab196e49928c019ac)",
+    "translatedContent": "[![Static Badge](https://img.shields.io/badge/Blog-2025--08--09-darkcyan)](https://jinjieni.notion.site/Diffusion-Language-Models-are-Super-Data-Learners-239d8f03a866800ab196e49928c019ac)"
+  },
+  {
+    "row": 7,
+    "rowsha": "rUXTK000SkPSwFZfzvLyisXa61ReAt6EUVtLEbPoH0s=",
+    "originContent": "[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=tweet)](https://x.com/NiJinjie/status/1954177095435014533)",
+    "translatedContent": "[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=tweet)](https://x.com/NiJinjie/status/1954177095435014533)"
+  },
+  {
+    "row": 8,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "vtWsRi5B9ZEfVQ3Z4br5JbmAUbq8B3rp6oGV80sFMQ0=",
+    "originContent": "# Highlights",
+    "translatedContent": "# Destacados"
+  },
+  {
+    "row": 11,
+    "rowsha": "c2N4w+eKTfn6KvoI/tcoaVRSdi5NndU8BhC4XV/gzJg=",
+    "originContent": "- We pre-trained DLMs and AR models from scratch for up to **8B parameters** and **480B tokens**. DLMs demonstrate > **3x** greater data potential compared to autoregressive (AR) models. Notably, a 1B-parameter masked diffusion model achieves > **56%** accuracy on HellaSwag and > **33%** on MMLU using only **1B** tokens, without any special tricks, just by repeating standard pre-training data. Note that more repetitions could further improve its performance, as **no signs of diminishing returns** were observed.",
+    "translatedContent": "- Preentrenamos modelos DLM y AR desde cero con hasta **8 mil millones de parámetros** y **480 mil millones de tokens**. Los DLM demuestran un potencial de datos > **3x** mayor comparado con modelos autorregresivos (AR). Notablemente, un modelo de difusión enmascarada de 1B parámetros alcanza > **56%** de precisión en HellaSwag y > **33%** en MMLU usando solo **1B** tokens, sin trucos especiales, solo repitiendo datos estándar de preentrenamiento. Nótese que más repeticiones podrían mejorar aún más su rendimiento, ya que **no se observaron señales de rendimientos decrecientes**."
+  },
+  {
+    "row": 12,
+    "rowsha": "Wrn8teZUQ+P3l7wk0edkwbANAQwZLdCmuf6SQ6Al9Jg=",
+    "originContent": "- DLMs are super-dense models that consume more FLOPs than dense AR models. Training DLMs to fully leverage the data typically demands at least **two orders of magnitude** more FLOPs. During inference, generating sequences ranging from 16 to 4096 tokens incurs a **16× to 4700×** increase in FLOPs compared to AR baselines. In addition, the more expressive bidirectional attention enabled by the diffusion objective allows **bidirectional modeling of the language data**, which is not fully causal, to fully squeeze its value.",
+    "translatedContent": "- Los DLM son modelos superdensos que consumen más FLOPs que los modelos AR densos. Entrenar DLM para aprovechar completamente los datos típicamente demanda al menos **dos órdenes de magnitud** más FLOPs. Durante la inferencia, generar secuencias de entre 16 y 4096 tokens implica un aumento de FLOPs de **16× a 4700×** comparado con las bases AR. Además, la atención bidireccional más expresiva habilitada por el objetivo de difusión permite **modelado bidireccional de los datos del lenguaje**, que no es totalmente causal, para exprimir completamente su valor."
+  },
+  {
+    "row": 13,
+    "rowsha": "wuptl/I/AU8SrJOx9oJIzj5pJZeC1U20Uhe1W/eCL6s=",
+    "originContent": "- Our concurrent work, “Diffusion Beats Autoregressive in Data-Constrained Settings”, contains critical methodological issues potentially leading to problematic conclusions, including **problematic diffusion loss formulation, invalid metrics for comparison, unfair settings for AR models, and problematic scaling law formulation.** All of which might lead to questionable results and conclusions.",
+    "translatedContent": "- Nuestro trabajo concurrente, “Diffusion Beats Autoregressive in Data-Constrained Settings”, contiene problemas metodológicos críticos que podrían conducir a conclusiones problemáticas, incluyendo **formulación problemática de la pérdida de difusión, métricas inválidas para comparación, configuraciones injustas para modelos AR y formulación problemática de la ley de escalado.** Todo lo cual podría llevar a resultados y conclusiones cuestionables."
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "c7OxBJKVlKctkr804O9z2fZEiJApr/XnU0pWdFQY3xg=",
+    "originContent": "# The Crossover",
+    "translatedContent": "# El Cruce"
+  },
+  {
+    "row": 18,
+    "rowsha": "xw0e+DkxEZlrdnSE9ePetYAONFa0gGij2ZqfpU4cetA=",
+    "originContent": "<p align=\"center\" width=\"100%\">",
+    "translatedContent": "<p align=\"center\" width=\"100%\">"
+  },
+  {
+    "row": 19,
+    "rowsha": "nU8JfcxW0W+z6VSyEvV7so/VX5Cr7BZBI58weSTDtKc=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/JinjieNi/dlms-are-super-data-learners/main/resources/imgs/1.jpg\"  width=\"80%\" height=\"100%\">",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/JinjieNi/dlms-are-super-data-learners/main/resources/imgs/1.jpg\"  width=\"80%\" height=\"100%\">"
+  },
+  {
+    "row": 20,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "Dd6SzeiB0npn2/n+VD0ojAyzWsTMo94OuzLqoDXRXjE=",
+    "originContent": "*Figure A of the blog: The performance comparison of autoregressive (AR) and masked diffusion models (Diffusion) when repeating on a limited portion of data. All models are trained on 96B total tokens (including repetition), varying the unique tokens from 0.5B to 96B. Diffusion models exploit the data better through more repetition on limited unique data. More unique tokens requires more repetition to see the crossover, where the high unique token runs postpone the crossover beyond our 96B token observation scope.*",
+    "translatedContent": "*Figura A del blog: Comparación de rendimiento entre modelos autorregresivos (AR) y modelos de difusión enmascarada (Difusión) al repetir en una porción limitada de datos. Todos los modelos se entrenaron con 96B tokens totales (incluyendo repetición), variando los tokens únicos de 0.5B a 96B. Los modelos de difusión explotan mejor los datos mediante más repeticiones sobre datos únicos limitados. Más tokens únicos requieren más repetición para ver el cruce, donde las corridas con alta cantidad de tokens únicos posponen el cruce más allá de nuestro alcance de observación de 96B tokens.*"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "IYveXwQyASnTxk975argwU5ZV1Mu8XpPLdj2YZocajs=",
+    "originContent": "# Citation",
+    "translatedContent": "# Citación"
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "E2Z6E1KZsUDEDbabBAfSHKzcRjWG/AP2E6IzyeCPhco=",
+    "originContent": "@misc{ni2025difflm,",
+    "translatedContent": "@misc{ni2025difflm,"
+  },
+  {
+    "row": 29,
+    "rowsha": "RsGgPtoYg/mU0CwWXTp1FHJWZkUmjO9J2URb4mQPJlk=",
+    "originContent": "title={Diffusion Language Models are Super Data Learners},",
+    "translatedContent": "title={Diffusion Language Models are Super Data Learners},"
+  },
+  {
+    "row": 30,
+    "rowsha": "sK12vSNSAncCqdHmwVv1KV1yYWFJzK4xIMKHKSd/u+Q=",
+    "originContent": "author={Jinjie Ni and the team},",
+    "translatedContent": "author={Jinjie Ni and the team},"
+  },
+  {
+    "row": 31,
+    "rowsha": "ovfFG+BkK4tuLUmR03xZ3o2U3TWAR5hbgzw/VaRZbkA=",
+    "originContent": "year={2025},",
+    "translatedContent": "year={2025},"
+  },
+  {
+    "row": 32,
+    "rowsha": "4gflS9YBrEuCwdeUoslckOi0+lYITt8vHL93uDX0xHc=",
+    "originContent": "howpublished={\\url{https://jinjieni.notion.site/Diffusion-Language-Models-are-Super-Data-Learners-239d8f03a866800ab196e49928c019ac}},",
+    "translatedContent": "howpublished={\\url{https://jinjieni.notion.site/Diffusion-Language-Models-are-Super-Data-Learners-239d8f03a866800ab196e49928c019ac}},"
+  },
+  {
+    "row": 33,
+    "rowsha": "MKUVE8wZ4mMUiCklw16Upf5MiSWizWAhPoM04oqTO4E=",
+    "originContent": "note={Notion Blog},",
+    "translatedContent": "note={Notion Blog},"
+  },
+  {
+    "row": 34,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 35,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

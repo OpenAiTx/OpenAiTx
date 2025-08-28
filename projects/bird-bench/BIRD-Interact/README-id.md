@@ -198,21 +198,33 @@ python pull_data.py \
 ```
 Detail tentang menjalankan **a-interact** dapat ditemukan di `./bird_interact_agent/README.md`; dan **c-interact** dapat ditemukan di `./bird_interact_conv/README.md`.
 
+## 📰 Berita
 
-## 📋 Daftar Pekerjaan
+🚀 Kami dengan senang hati mengumumkan perilisan **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
+Ini adalah tantangan berat — LLM terbaik hanya mencapai tingkat keberhasilan **16.33%**, dengan hanya **10.0%** pada bagian `c-interact` dan `a-interact`.  
+👉 Untuk detail lebih lanjut, silakan kunjungi [situs proyek kami](https://bird-interact.github.io/).
 
-- [x] Rilis versi ringan, bird-interact-lite (270).
-- [x] Rilis versi percakapan, bird-interact-conv.
-- [x] Rilis versi agen, bird-interact-agent.
-- [x] Rilis bird-interact-full lengkap (600).
+📬 Kami akan mengirimkan **Ground Truth & Test cases** ke daftar email kami minggu ini.  
+Jika Anda ingin akses awal, silakan kirim email sesuai petunjuk di situs untuk **unduh otomatis**.  
+
+💾 Sebagai catatan lain, kami juga telah merilis versi SQLite dari **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** agar penelitian lokal lebih mudah.  
+Versi penuh **LiveSQLBench-Base** dan **-Large** akan segera hadir!
+
+## 📋 Daftar Todo
+
+- [x] Merilis versi lite, bird-interact-lite (270).
+- [x] Merilis versi percakapan, bird-interact-conv.
+- [x] Merilis versi agen, bird-interact-agent.
+- [x] Merilis Full bird-interact-full (600).
 - [ ] SFT / RL Simulator Pengguna
 
 ## Dibuat Oleh:
 Tim BIRD & Google Cloud
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

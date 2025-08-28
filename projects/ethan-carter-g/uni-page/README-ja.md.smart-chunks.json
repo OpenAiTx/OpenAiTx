@@ -1,0 +1,791 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Uni-Page 分页框架\n\nUni-Page 是一个基于 Java 的通用分页框架，它通过抽象化的设计，为不同数据源提供统一的分页查询接口。框架采用模块化架构，现目前集成 JDBC、Mybatis、MongoDB、Elasticsearch 等多种数据源，并提供了灵活的扩展机制。\n\n## 核心设计\n\n框架的核心设计围绕四个关键组件展开：\n",
+    "ContentSha": "Q4f0Yvw8h2Msbu4RcyZRq5YAzUwX2msnWZj1qHXPHEo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 言語</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Uni-Page ページネーションフレームワーク\n\nUni-Page は Java ベースの汎用ページネーションフレームワークであり、抽象化設計により、異なるデータソースに対して統一されたページングクエリインターフェースを提供します。フレームワークはモジュール化アーキテクチャを採用し、現在 JDBC、Mybatis、MongoDB、Elasticsearch など様々なデータソースを統合しており、柔軟な拡張メカニズムも備えています。\n\n## コア設計\n\nフレームワークのコア設計は、4 つの主要コンポーネントを中心に展開されます：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 言語</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "nVRadJsKHrxWt2ROsG0Duajec9wTnIZU78Jy0nwJNoI=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "0dEHJggkcSTun7r4YkgSO/3mP6po07sHIPRwg7kXVHw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "MPUCeo2AQEHRNXxZiIuTiKDri1QfElcSCqXkOiLnvKU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "wNUaKyZG/QgNKO6vbC8Gp7Lb2j+Snnp3WmHPxFvRJg8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "7zd8I0zeBlbaIhxYFsWHfNiCGFoTtsPQJfBoQyiZLtg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "D/FRtonPzG8l25PFAXqBNtkADP5sQhGJCWLfOeUQvfo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "5TnAfvfnJ5UNqodOXbYmRlKFLGtCb6C1JdiN8vj7JNY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "MV1xaeC4W/1rtkDJdtDWJMNYe5furrkduBlhsjurjA4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "tpzKAVFKaM8bS8JS7GKDVc613yIXWykZl6jLtt7YSYs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "T4t6TIA+IGAWBHijxcatZgsceKw0N+sFI1B6/5QuLXY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "iQH2gc7WEYdg+DuJ0Tfd8K8BQ5eU7c2eOOGivM1cuCc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "FxqWyC5O4iyutEGrghRuiDj6Spi9ekTDjYgb9tWPeAc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "vJnOCY94TyXEsbt7yALg02NWLCAn5f6yinxbNmNsARM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "YDDotiwns4/NWp+Wi9RsMLJ8s1X7ZcMc8QpSRKYZgt4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "y87xpIyDyUtzMr8V9DhmtHuKrTy0nhVtfg+6ioI3kL0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "AvUMwLYTSB4wMvtXQ7UJoKP6cJ1pB8ro2Pa4jNXO62o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "hlvLFg3eJ3hqeddZ1sV1Vh3jtZNVY2j0BozwtGWoawg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "H/mZezXnefeQbQtNXQqDS2gB9avFjKYxdV2U4ehtT+M=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "e9ohR0I9zfo9zauBoFiu/o0P/nxRMngwvyLVmQJajhE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "LhzpuETSaBgPnRQ449dCyRrQy5rw8r0P3A8+2I/sEjM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "BQ7BQg3kLZPtRzPAxdWEA4MxVSU8mITS6WkDTvOpYKk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ethan-carter-g&project=uni-page&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "S0HpvWwybCYzY9lRgBx+DKJBYI0sjX9alc9bOL8hGQk=",
+        "originContent": "# Uni-Page 分页框架",
+        "translatedContent": "# Uni-Page ページネーションフレームワーク"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "DDbCpmbTgZ6rCXyFYsnbu8XbSEn7tC+12xe8WXP4fbc=",
+        "originContent": "Uni-Page 是一个基于 Java 的通用分页框架，它通过抽象化的设计，为不同数据源提供统一的分页查询接口。框架采用模块化架构，现目前集成 JDBC、Mybatis、MongoDB、Elasticsearch 等多种数据源，并提供了灵活的扩展机制。",
+        "translatedContent": "Uni-Page は Java ベースの汎用ページネーションフレームワークであり、抽象化設計により、異なるデータソースに対して統一されたページングクエリインターフェースを提供します。フレームワークはモジュール化アーキテクチャを採用し、現在 JDBC、Mybatis、MongoDB、Elasticsearch など様々なデータソースを統合しており、柔軟な拡張メカニズムも備えています。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "XtuXW5YKp67G8IVe50Txvv6lRy8ZbhUsfShlXISTwds=",
+        "originContent": "## 核心设计",
+        "translatedContent": "## コア設計"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "WkiLwIei54Bii4pjpdQJW38Bc1D7RWsOjJOJKn0ByiI=",
+        "originContent": "框架的核心设计围绕四个关键组件展开：",
+        "translatedContent": "フレームワークのコア設計は、4 つの主要コンポーネントを中心に展開されます："
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "1. **分页语句（PaginationStatement）**\n    - 支持任意语言的分页查询语句定义\n    - 提供统一的分页参数接口\n    - 允许自定义分页逻辑\n\n2. **分页执行器（PaginationStatementExecutor）**\n    - 负责执行分页查询语句\n    - 提供分页信息查询功能\n    - 可扩展的执行器机制\n\n3. **分页结果集（PaginationResultSet）**\n    - 统一的结果集接口\n    - 支持按列名和索引访问数据\n    - 提供类型转换功能\n    - 类似 JDBC ResultSet 的设计\n\n4. **结果集处理器（PaginationResultSetHandler）**\n    - 支持自定义结果集转换\n    - 提供对象映射功能\n\n\n## 设计目标\n\n1. **统一性**\n    - 提供统一的分页查询接口\n    - 屏蔽不同数据源的实现差异\n    - 简化分页查询的使用方式\n\n2. **灵活性**\n    - 支持自定义分页语句\n    - 允许扩展执行器\n    - 提供丰富的结果集处理方式\n\n3. **可扩展性**\n    - 模块化设计\n    - 支持新数据源的快速接入\n    - 提供扩展点机制\n\n4. **易用性**\n    - 简单直观的 API",
+    "ContentSha": "blK6macUf6Sd8p9abJR1ph5rVS4DVuDz9HSKXGDJfbk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "1. **ページネーション文（PaginationStatement）**\n    - 任意の言語によるページネーションクエリ文定義をサポート\n    - 統一されたページネーションパラメータインターフェースを提供\n    - カスタムページネーションロジックの定義を許可\n\n2. **ページネーション実行器（PaginationStatementExecutor）**\n    - ページネーションクエリ文の実行を担当\n    - ページネーション情報の照会機能を提供\n    - 拡張可能な実行器メカニズム\n\n3. **ページネーション結果セット（PaginationResultSet）**\n    - 統一された結果セットインターフェース\n    - 列名やインデックスによるデータアクセスをサポート\n    - 型変換機能を提供\n    - JDBC ResultSet に似た設計\n\n4. **結果セットハンドラ（PaginationResultSetHandler）**\n    - カスタム結果セット変換をサポート\n    - オブジェクトマッピング機能を提供\n\n\n## 設計目標\n\n1. **統一性**\n    - 統一されたページネーションクエリインターフェースを提供\n    - 異なるデータソースの実装差異を隠蔽\n    - ページネーションクエリの利用方法を簡素化\n\n2. **柔軟性**\n    - カスタムページネーションクエリ文をサポート\n    - 実行器の拡張を許可\n    - 豊富な結果セット処理方式を提供\n\n3. **拡張性**\n    - モジュール化設計\n    - 新しいデータソースの迅速な導入をサポート\n    - 拡張ポイントメカニズムを提供\n\n4. **使いやすさ**\n    - シンプルで直感的な API",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pvy5tSFVAQ012aua6DfXypONt6pQpjISwbNJZ+0ByaM=",
+        "originContent": "1. **分页语句（PaginationStatement）**",
+        "translatedContent": "1. **ページネーション文（PaginationStatement）**"
+      },
+      {
+        "row": 2,
+        "rowsha": "eRGsxQbRDduE7i6Pv5imMDrWsEodFP8dMcpISdise68=",
+        "originContent": "    - 支持任意语言的分页查询语句定义",
+        "translatedContent": "    - 任意の言語によるページネーションクエリ文定義をサポート"
+      },
+      {
+        "row": 3,
+        "rowsha": "9Cyojgvq+Nn4hl/pok5EW7BhdJhu7HTeJw0x+gTdaNk=",
+        "originContent": "    - 提供统一的分页参数接口",
+        "translatedContent": "    - 統一されたページネーションパラメータインターフェースを提供"
+      },
+      {
+        "row": 4,
+        "rowsha": "Wd1nKMYGKyZgcN3nMmg8e6s5R0o6e3LQUYdLgQRwok8=",
+        "originContent": "    - 允许自定义分页逻辑",
+        "translatedContent": "    - カスタムページネーションロジックの定義を許可"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "L6SVe0h5q2jOHurz6AogSy7sXfhdWkc48tj4Fzz2NtA=",
+        "originContent": "2. **分页执行器（PaginationStatementExecutor）**",
+        "translatedContent": "2. **ページネーション実行器（PaginationStatementExecutor）**"
+      },
+      {
+        "row": 7,
+        "rowsha": "1TDe7IzGizKQdnHkKZqnzlBHw3nhb4ZOOrYl2/FnMgs=",
+        "originContent": "    - 负责执行分页查询语句",
+        "translatedContent": "    - ページネーションクエリ文の実行を担当"
+      },
+      {
+        "row": 8,
+        "rowsha": "8Wvq7TfJKClCotEdVUx+L7OubdjynrB88YTSj2MzbFw=",
+        "originContent": "    - 提供分页信息查询功能",
+        "translatedContent": "    - ページネーション情報の照会機能を提供"
+      },
+      {
+        "row": 9,
+        "rowsha": "DGSyDUHPqhQFShKyKXRKOP6/XNcPCoNnrsuMtd+OiY8=",
+        "originContent": "    - 可扩展的执行器机制",
+        "translatedContent": "    - 拡張可能な実行器メカニズム"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "hpwhtzwZWiLne0l2W3Upz9+dePE+24+1dPZaFmvxRt8=",
+        "originContent": "3. **分页结果集（PaginationResultSet）**",
+        "translatedContent": "3. **ページネーション結果セット（PaginationResultSet）**"
+      },
+      {
+        "row": 12,
+        "rowsha": "FeLTiDlPEx0CeCrWjRWMBW+yLxLQlUpSQ9zNJb6Iop4=",
+        "originContent": "    - 统一的结果集接口",
+        "translatedContent": "    - 統一された結果セットインターフェース"
+      },
+      {
+        "row": 13,
+        "rowsha": "Kfaovzvae4sNXl8/5rw8x275nu5zlqC6kkO0PiJzJbo=",
+        "originContent": "    - 支持按列名和索引访问数据",
+        "translatedContent": "    - 列名やインデックスによるデータアクセスをサポート"
+      },
+      {
+        "row": 14,
+        "rowsha": "nfh9bgNP/36xqI4oPeviiWJ4wf4AGxLJygjBzA8yu0E=",
+        "originContent": "    - 提供类型转换功能",
+        "translatedContent": "    - 型変換機能を提供"
+      },
+      {
+        "row": 15,
+        "rowsha": "3UZmaEkW7lKB1dxFTMy0kI+mL04BN6q63evF0MpYiiM=",
+        "originContent": "    - 类似 JDBC ResultSet 的设计",
+        "translatedContent": "    - JDBC ResultSet に似た設計"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "mwF6Lvz3u/gnNmr2pSyW7AZZEwo7QbXq0JafOTb+E6w=",
+        "originContent": "4. **结果集处理器（PaginationResultSetHandler）**",
+        "translatedContent": "4. **結果セットハンドラ（PaginationResultSetHandler）**"
+      },
+      {
+        "row": 18,
+        "rowsha": "Y4ZEjhjvdHBTS14xsWyav2X9IVFN5i00KFA8PeUOEYQ=",
+        "originContent": "    - 支持自定义结果集转换",
+        "translatedContent": "    - カスタム結果セット変換をサポート"
+      },
+      {
+        "row": 19,
+        "rowsha": "Aj5+pU6vuPQYvS0x3lW731kxA6csTrwVA0kQbWEvu9I=",
+        "originContent": "    - 提供对象映射功能",
+        "translatedContent": "    - オブジェクトマッピング機能を提供"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "YX9ccta0Dr/DjMhua1WK8pcWhN1bHOGJSy4FvT/cwqM=",
+        "originContent": "## 设计目标",
+        "translatedContent": "## 設計目標"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "9nmjKIywiuR5B4Kg1eUAtPht1+jegOkdHBNcbbHeT+w=",
+        "originContent": "1. **统一性**",
+        "translatedContent": "1. **統一性**"
+      },
+      {
+        "row": 25,
+        "rowsha": "yxPg06+b6g2EOF8P9SGxfk5V4O56tA6mUx0uUTDlzxw=",
+        "originContent": "    - 提供统一的分页查询接口",
+        "translatedContent": "    - 統一されたページネーションクエリインターフェースを提供"
+      },
+      {
+        "row": 26,
+        "rowsha": "zmZNG9RBIPlBL2D7sUAmRU9tIX4JRk6L8j0ls/Wgy4s=",
+        "originContent": "    - 屏蔽不同数据源的实现差异",
+        "translatedContent": "    - 異なるデータソースの実装差異を隠蔽"
+      },
+      {
+        "row": 27,
+        "rowsha": "svW8A5yS620Wuk9xpeWSn4UW1KPPQ0ZAiPWr081rtf8=",
+        "originContent": "    - 简化分页查询的使用方式",
+        "translatedContent": "    - ページネーションクエリの利用方法を簡素化"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "xgeE7ofRz9eN5JWUE2yNkOJFOpr9rCCDTnIFJQ3pTTA=",
+        "originContent": "2. **灵活性**",
+        "translatedContent": "2. **柔軟性**"
+      },
+      {
+        "row": 30,
+        "rowsha": "4bfyQUqvCYfHNGuVFcOVzd3r/2sJ/fGnrzA7nMet+jA=",
+        "originContent": "    - 支持自定义分页语句",
+        "translatedContent": "    - カスタムページネーションクエリ文をサポート"
+      },
+      {
+        "row": 31,
+        "rowsha": "RxUHrWtDt76Uen0PM7tr16eP0R7Hm29Qael1HNY0sVc=",
+        "originContent": "    - 允许扩展执行器",
+        "translatedContent": "    - 実行器の拡張を許可"
+      },
+      {
+        "row": 32,
+        "rowsha": "aFJ09CQNj+X6zSN/WoiZgqUIuqFsMHw0OkMPBfpgqR4=",
+        "originContent": "    - 提供丰富的结果集处理方式",
+        "translatedContent": "    - 豊富な結果セット処理方式を提供"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Mdek2ipPuQwkOlEFNEDZEALMjKxuj4EspZzk/tinHoA=",
+        "originContent": "3. **可扩展性**",
+        "translatedContent": "3. **拡張性**"
+      },
+      {
+        "row": 35,
+        "rowsha": "off1/UZ9Cbpr1ZzP2HTvL/xIo2uAQiVuEFKRYa3KfnY=",
+        "originContent": "    - 模块化设计",
+        "translatedContent": "    - モジュール化設計"
+      },
+      {
+        "row": 36,
+        "rowsha": "Hvj/qKGV6exKYIL8o93IQDPrkgem5DGUV9GHG5IeiGs=",
+        "originContent": "    - 支持新数据源的快速接入",
+        "translatedContent": "    - 新しいデータソースの迅速な導入をサポート"
+      },
+      {
+        "row": 37,
+        "rowsha": "2kH/E47eRdne7LlSRLL1bkJXqf3OxpFVO2g+cNcVLpg=",
+        "originContent": "    - 提供扩展点机制",
+        "translatedContent": "    - 拡張ポイントメカニズムを提供"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "tRRVvWZBRTLLbmT+/6n1LRUGnJl4yi04ldgESqV83T4=",
+        "originContent": "4. **易用性**",
+        "translatedContent": "4. **使いやすさ**"
+      },
+      {
+        "row": 40,
+        "rowsha": "Qp9p9ok6DGus4cdRZ5thNw8fp/o+tqJuZexHaZ9cM/c=",
+        "originContent": "    - 简单直观的 API",
+        "translatedContent": "    - シンプルで直感的な API"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "    - 完善的类型转换\n    - 丰富的工具类支持\n## 适用场景\n\n- 需要统一管理多个数据源分页查询的项目\n- 需要支持多种数据源分页的企业级应用\n\n## 核心模块\n\n### [uni-page](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page)\n核心分页库，提供基础的分页接口和抽象实现。\n\n### [uni-page-jdbc](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-jdbc)\nJDBC 数据源支持模块，提供基于 JDBC 的分页实现。\n\n### [uni-page-jdbc-mybatis](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-jdbc-mybatis)\nMyBatis 集成模块，提供与 MyBatis 框架的集成支持。\n    \n### [uni-page-mongodb](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-mongodb)\nMongoDB 数据源支持模块，提供基于 MongoDB 的分页实现。\n\n### [uni-page-elasticsearch](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-elasticsearch)\nElasticsearch 数据源支持模块，提供基于 ES 的分页实现。\n\n### [spring-boot-starter-web-uni-page](https://github.com/ethan-carter-g/uni-page/tree/main/spring-boot-starter-web-uni-page)\nSpring MVC 环境下的分页支持模块，提供与 Spring MVC 的集成支持，就像编写普通的控制器一样简单。\n- 分页参数自动绑定\n- 分页结果自动转换\n\n### [web-uni-page-test](https://github.com/ethan-carter-g/uni-page/tree/main/web-uni-page-test)\nSpring Boot Web 环境下的分页测试模块，提供分页功能的集成测试。\n\n\n## 快速开始, 以uni-page-jdbc为例\n\n### Maven 依赖\n",
+    "ContentSha": "KfbfBq7hhbbteixDLGb2qLr1AGU1YKSDxilDpwvAdqo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    - 完全な型変換機能\n    - 豊富なユーティリティクラスのサポート\n## 適用シーン\n\n- 複数のデータソースのページングクエリを一元管理する必要があるプロジェクト\n- 多様なデータソースのページングをサポートするエンタープライズ向けアプリケーション\n\n## コアモジュール\n\n### [uni-page](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page)\nコアページングライブラリであり、基本的なページングインターフェースと抽象実装を提供します。\n\n### [uni-page-jdbc](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-jdbc)\nJDBCデータソースサポートモジュールで、JDBCベースのページング実装を提供します。\n\n### [uni-page-jdbc-mybatis](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-jdbc-mybatis)\nMyBatis統合モジュールで、MyBatisフレームワークとの統合サポートを提供します。\n    \n### [uni-page-mongodb](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-mongodb)\nMongoDBデータソースサポートモジュールで、MongoDBベースのページング実装を提供します。\n\n### [uni-page-elasticsearch](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-elasticsearch)\nElasticsearchデータソースサポートモジュールで、ESベースのページング実装を提供します。\n\n### [spring-boot-starter-web-uni-page](https://github.com/ethan-carter-g/uni-page/tree/main/spring-boot-starter-web-uni-page)\nSpring MVC環境でのページングサポートモジュールで、Spring MVCとの統合サポートを提供し、通常のコントローラーのように簡単に記述できます。\n- ページングパラメータの自動バインディング\n- ページング結果の自動変換\n\n### [web-uni-page-test](https://github.com/ethan-carter-g/uni-page/tree/main/web-uni-page-test)\nSpring Boot Web環境でのページングテストモジュールで、ページング機能の統合テストを提供します。\n\n\n## クイックスタート：uni-page-jdbcを例に\n\n### Maven依存\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rGrhfFEr/TzU1W+LT4zm+CgTPR7NiQt39STJLlTDM74=",
+        "originContent": "    - 完善的类型转换",
+        "translatedContent": "    - 完全な型変換機能"
+      },
+      {
+        "row": 2,
+        "rowsha": "1ga8VZvH+0GTdUKry/sVTOsBOaGH5df1sBcBTUwblR4=",
+        "originContent": "    - 丰富的工具类支持",
+        "translatedContent": "    - 豊富なユーティリティクラスのサポート"
+      },
+      {
+        "row": 3,
+        "rowsha": "wL5RZPEgXn9dF7sF9oT4bkNeCvLza3lL2o+/IQHpcD4=",
+        "originContent": "## 适用场景",
+        "translatedContent": "## 適用シーン"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "QGtw4bT7xuMNjCEWAWAXw9PhouqW7k1rovqN1cgbKDc=",
+        "originContent": "- 需要统一管理多个数据源分页查询的项目",
+        "translatedContent": "- 複数のデータソースのページングクエリを一元管理する必要があるプロジェクト"
+      },
+      {
+        "row": 6,
+        "rowsha": "WK1jN7p5V1fqFgBAZuDYwDzMnVA4nWvX61GRAm1rGys=",
+        "originContent": "- 需要支持多种数据源分页的企业级应用",
+        "translatedContent": "- 多様なデータソースのページングをサポートするエンタープライズ向けアプリケーション"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "JUGksglLz8Tld4CMvlCwv+JlA4nUGKozoEmEkQhFWNo=",
+        "originContent": "## 核心模块",
+        "translatedContent": "## コアモジュール"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "mPi5KjliwB0XbopKZq54VfwKNS1kGPYFzmvVHAnOaLw=",
+        "originContent": "### [uni-page](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page)",
+        "translatedContent": "### [uni-page](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page)"
+      },
+      {
+        "row": 11,
+        "rowsha": "BGzs6mKcwl7fZ5XzFXWBeolwQ8WHhSLxy7mQpxQFM4A=",
+        "originContent": "核心分页库，提供基础的分页接口和抽象实现。",
+        "translatedContent": "コアページングライブラリであり、基本的なページングインターフェースと抽象実装を提供します。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "2p0Nc95TnqBujXIimaR1BcrCNB2D4YkntdOlBBfU8gg=",
+        "originContent": "### [uni-page-jdbc](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-jdbc)",
+        "translatedContent": "### [uni-page-jdbc](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-jdbc)"
+      },
+      {
+        "row": 14,
+        "rowsha": "yh2Fud6Ljcnr4iaAVkMO5bY8CM5+4S6OY0DpRYfsU/I=",
+        "originContent": "JDBC 数据源支持模块，提供基于 JDBC 的分页实现。",
+        "translatedContent": "JDBCデータソースサポートモジュールで、JDBCベースのページング実装を提供します。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "VmU35/Sgex9ysztlgeYeMZPju0V45qRDXNb9+cYf8iQ=",
+        "originContent": "### [uni-page-jdbc-mybatis](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-jdbc-mybatis)",
+        "translatedContent": "### [uni-page-jdbc-mybatis](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-jdbc-mybatis)"
+      },
+      {
+        "row": 17,
+        "rowsha": "BS/2O1qATcxGBvzFnaqUD/vMGh7o7MZBql7G6AfEaxQ=",
+        "originContent": "MyBatis 集成模块，提供与 MyBatis 框架的集成支持。",
+        "translatedContent": "MyBatis統合モジュールで、MyBatisフレームワークとの統合サポートを提供します。"
+      },
+      {
+        "row": 18,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 19,
+        "rowsha": "ZUPEy0d0t3JzV0QSp091hnQS9JEIYD6FYHVikKDKMU4=",
+        "originContent": "### [uni-page-mongodb](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-mongodb)",
+        "translatedContent": "### [uni-page-mongodb](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-mongodb)"
+      },
+      {
+        "row": 20,
+        "rowsha": "4MZm2ty84RBEyT4whxGfzBczzrew2ED5G/loi4aL7HM=",
+        "originContent": "MongoDB 数据源支持模块，提供基于 MongoDB 的分页实现。",
+        "translatedContent": "MongoDBデータソースサポートモジュールで、MongoDBベースのページング実装を提供します。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "cSkfgOo6CsaO65ETQw/+OjW4p/tfEmoH9PfNUcpgSLs=",
+        "originContent": "### [uni-page-elasticsearch](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-elasticsearch)",
+        "translatedContent": "### [uni-page-elasticsearch](https://github.com/ethan-carter-g/uni-page/tree/main/uni-page-elasticsearch)"
+      },
+      {
+        "row": 23,
+        "rowsha": "1MeE5/MA+/6opbPk6yggAiVIbEWDQQY+AmWtBVk6s8U=",
+        "originContent": "Elasticsearch 数据源支持模块，提供基于 ES 的分页实现。",
+        "translatedContent": "Elasticsearchデータソースサポートモジュールで、ESベースのページング実装を提供します。"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "5bCppyNj+ZWGgLEEZWq9keiBlKWTkoGyiq9iZptKb8Q=",
+        "originContent": "### [spring-boot-starter-web-uni-page](https://github.com/ethan-carter-g/uni-page/tree/main/spring-boot-starter-web-uni-page)",
+        "translatedContent": "### [spring-boot-starter-web-uni-page](https://github.com/ethan-carter-g/uni-page/tree/main/spring-boot-starter-web-uni-page)"
+      },
+      {
+        "row": 26,
+        "rowsha": "YnPKtncNRBzcP0AQMXMGh7eGfmkzT6SHiKnMploa4ak=",
+        "originContent": "Spring MVC 环境下的分页支持模块，提供与 Spring MVC 的集成支持，就像编写普通的控制器一样简单。",
+        "translatedContent": "Spring MVC環境でのページングサポートモジュールで、Spring MVCとの統合サポートを提供し、通常のコントローラーのように簡単に記述できます。"
+      },
+      {
+        "row": 27,
+        "rowsha": "sCzhfub8rEaP2duMrEDsJt4o8sqCsC61xqQz0+96cUA=",
+        "originContent": "- 分页参数自动绑定",
+        "translatedContent": "- ページングパラメータの自動バインディング"
+      },
+      {
+        "row": 28,
+        "rowsha": "21Yz+jmASGeRUxWCFXBAa12rk2oZVXLQ4sBmmfJAB3I=",
+        "originContent": "- 分页结果自动转换",
+        "translatedContent": "- ページング結果の自動変換"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "kuC6nHrv5T3VJ2JKVOOii/vuz8AyXMUFtWJczueFyE4=",
+        "originContent": "### [web-uni-page-test](https://github.com/ethan-carter-g/uni-page/tree/main/web-uni-page-test)",
+        "translatedContent": "### [web-uni-page-test](https://github.com/ethan-carter-g/uni-page/tree/main/web-uni-page-test)"
+      },
+      {
+        "row": 31,
+        "rowsha": "RsHqBV/8kbJDzIiA5AoAXdKVLQ0y/vqa8dtY0ViEGw4=",
+        "originContent": "Spring Boot Web 环境下的分页测试模块，提供分页功能的集成测试。",
+        "translatedContent": "Spring Boot Web環境でのページングテストモジュールで、ページング機能の統合テストを提供します。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "OkGb48LICxxi+C74qnGTkuuwOTzicKkmAz1JqZuJk/E=",
+        "originContent": "## 快速开始, 以uni-page-jdbc为例",
+        "translatedContent": "## クイックスタート：uni-page-jdbcを例に"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "5ET1gjd6AdNLA4PHVrUwddtqTSkBRP5AO/sCEqCaslI=",
+        "originContent": "### Maven 依赖",
+        "translatedContent": "### Maven依存"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```xml\n<dependency>\n    <groupId>com.github.ethancarter</groupId>\n    <artifactId>uni-page-jdbc</artifactId>\n    <version>1.9</version>\n</dependency>\n```",
+    "ContentSha": "3iCKxYFHn2nWbm7L9cqbP6secgCnNfTsN/nG6wHiAmE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```xml\n<dependency>\n    <groupId>com.github.ethancarter</groupId>\n    <artifactId>uni-page-jdbc</artifactId>\n    <version>1.9</version>\n</dependency>\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### 简单示例\n",
+    "ContentSha": "JI1uzGkItX38usFkGjpdoAksM+i4M7OBiH3S6OifzR4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 簡単な例\n\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```java\npublic class PaginationTest {\n   \n    public void page() {\n        PaginationStatementTemplate operations = new PaginationStatementTemplate();\n        operations.addStatementExecutor(new Sql2oPaginationNamedParameterStatementExecutor(dataSource));\n        \n        // 1. 创建分页语句\n        PaginationStatement statement = of(b -> b\n                .sql(\"SELECT * FROM user WHERE username LIKE :username\")\n                .paramMap(\"username\", \"%admin%\")\n                .pageable(0, 10)\n                .sort(\"id\", Sort.Direction.DESC));\n        \n        // 2. 执行查询\n        PageInformation information = operations.queryForInformation(statement);\n        Page<User> page = operations.queryForResultSet(statement, new JdbcBeanPropertyPaginationRowMapper<>(User.class));\n    }\n\n    // User实体类\n    class User {\n        private Long id;\n        private String username;\n        // getters and setters\n    }\n}\n```",
+    "ContentSha": "lthkbSbjbqdZwaeFK1yb0xHoWEQouaYbgEYh5sCdgJQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```java\npublic class PaginationTest {\n   \n    public void page() {\n        PaginationStatementTemplate operations = new PaginationStatementTemplate();\n        operations.addStatementExecutor(new Sql2oPaginationNamedParameterStatementExecutor(dataSource));\n        \n        // 1. 创建分页语句\n        PaginationStatement statement = of(b -> b\n                .sql(\"SELECT * FROM user WHERE username LIKE :username\")\n                .paramMap(\"username\", \"%admin%\")\n                .pageable(0, 10)\n                .sort(\"id\", Sort.Direction.DESC));\n        \n        // 2. 执行查询\n        PageInformation information = operations.queryForInformation(statement);\n        Page<User> page = operations.queryForResultSet(statement, new JdbcBeanPropertyPaginationRowMapper<>(User.class));\n    }\n\n    // User实体类\n    class User {\n        private Long id;\n        private String username;\n        // getters and setters\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n\n## 致谢\n\n在开发这个框架的过程中，我深受开源社区的影响和启发。感谢那些无私分享技术经验的大佬们，是你们的智慧和贡献让这个框架得以诞生。特别感谢那些优秀开源项目带来的设计灵感和实现思路，这些宝贵的经验让我能够站在巨人的肩膀上继续前行。\n\n感谢所有为开源社区做出贡献的技术大佬们！\n\n## 🌟 支持项目\n如果你觉得这个项目对你有帮助，欢迎点击右上角的 ⭐Star 支持我！\n",
+    "ContentSha": "IbrhzRMONSxfa6YHTejTmsEJGysB/qMl/lkvJbYUXac=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 致謝\n\nこのフレームワークの開発過程で、私はオープンソースコミュニティから多大な影響と啓発を受けました。技術経験を惜しみなく共有してくださった皆様に感謝します。皆様の知恵と貢献があってこそ、このフレームワークが誕生しました。特に優れたオープンソースプロジェクトがもたらした設計のインスピレーションと実装のアイデアに感謝します。これらの貴重な経験により、巨人の肩の上に立って前進し続けることができました。\n\nオープンソースコミュニティに貢献するすべての技術者の皆様に感謝します！\n\n## 🌟 プロジェクト支援\nこのプロジェクトが役に立ったと思われたら、右上の⭐Starをクリックして応援してください！\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  }
+]

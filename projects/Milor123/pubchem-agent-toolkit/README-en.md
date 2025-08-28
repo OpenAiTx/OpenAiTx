@@ -1,8 +1,11 @@
+
+<div align="center"><p><a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=hi"><img src="https://img.shields.io/badge/हिन्दी-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=fa"><img src="https://img.shields.io/badge/فارسی-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=id"><img src="https://img.shields.io/badge/Bahasa Indonesia-white" alt="version"></a> </p></div>
+
 # Enhanced PubChem MCP Server for AI Assistants
 
 🧪 An advanced, robust, and privacy-focused MCP server that enables AI assistants to intelligently search and access chemical compound information from PubChem.
 
-This PubChem MCP Server acts as a powerful bridge between AI assistants (like those in AnythingLLM) and PubChem's vast chemical database. It leverages the Model Context Protocol (MCP) to allow AI models to perform smart, resilient searches for chemical compounds and retrieve their detailed properties programmatically.
+This PubChem MCP Server serves as a powerful bridge between AI assistants (such as those in AnythingLLM) and PubChem's extensive chemical database. It utilizes the Model Context Protocol (MCP) to allow AI models to perform smart, resilient searches for chemical compounds and retrieve their detailed properties programmatically.
 
 ---
 
@@ -10,11 +13,11 @@ This PubChem MCP Server acts as a powerful bridge between AI assistants (like th
 
 This is not just another PubChem wrapper. This server has been rebuilt from the ground up to be highly robust and intelligent:
 
--   **🧠 Smart Fallback Search**: If a search for a common name (like "Vitamin D") fails, the server automatically performs a deeper search in the PubChem Substance database to find the correct compound. This dramatically improves success rates for ambiguous queries.
--   **🛡️ Robust Error Handling & Retries**: The server is designed to handle API errors gracefully. If it encounters a "Server Busy" error from PubChem, it will automatically wait and retry the request, ensuring your queries succeed even under heavy load.
+-   **🧠 Smart Fallback Search**: If a search for a common name (like "Vitamin D") fails, the server automatically performs a deeper search in the PubChem Substance database to locate the correct compound. This dramatically improves success rates for ambiguous queries.
+-   **🛡️ Robust Error Handling & Retries**: The server is designed to gracefully handle API errors. If it encounters a "Server Busy" error from PubChem, it will automatically wait and retry the request, ensuring your queries succeed even during heavy load.
 -   **🔒 Optional Tor Proxy Support**: You have full control over your privacy. A simple `config.ini` file allows you to route all requests through the Tor network (via SOCKS5 or HTTP proxy), preventing your IP address from being exposed. The server is secure by default and will **never** leak your IP if the proxy connection fails.
--   **🔎 Single & Multiple Compound Search**: Seamlessly handles requests for one or multiple compounds in a single prompt.
--   **🧪 Detailed Property Retrieval**: Access key chemical properties like IUPAC Name, Molecular Formula, Molecular Weight, and crucially, **Monoisotopic Mass**.
+-   **🔎 Single & Multiple Compound Search**: Seamlessly manages requests for one or multiple compounds in a single prompt.
+-   **🧪 Detailed Property Retrieval**: Access key chemical properties such as IUPAC Name, Molecular Formula, Molecular Weight, and most importantly, **Monoisotopic Mass**.
 
 ---
 
@@ -22,7 +25,7 @@ This is not just another PubChem wrapper. This server has been rebuilt from the 
 
 ### 🚀 No Installation Required: Try It Live on Smithery.ai
 
-For those who are new to MCP servers or just want to test the capabilities of this tool without any local setup, a live, hosted version is available on Smithery.ai. This allows you to chat with the agent directly in your browser.
+For those new to MCP servers or who just want to test this tool's capabilities without any local setup, a live, hosted version is available on Smithery.ai. This lets you chat directly with the agent in your browser.
 
 [**<-- Explore the Live PubChem Agent on Smithery.ai -->**](https://smithery.ai/server/@Milor123/smithery-pubchem-deploy)
 
@@ -34,7 +37,7 @@ For those who are new to MCP servers or just want to test the capabilities of th
 
 > **✅ Recommended Models for Best Results**
 >
-> To get the highest accuracy, especially with long decimal numbers, we strongly recommend using powerful models. The following have been tested and work excellently with this tool:
+> For highest accuracy, especially with long decimal numbers, we strongly recommend using powerful models. The following have been tested and work excellently with this tool:
 >
 > *   **Anthropic's Claude 3 Sonnet**
 > *   **OpenAI's GPT-4 Turbo** (or newer versions like GPT-4o)
@@ -205,6 +208,6 @@ This tool is intended for research and educational purposes. Please respect PubC
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

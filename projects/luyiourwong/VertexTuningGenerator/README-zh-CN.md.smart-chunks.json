@@ -1,25 +1,278 @@
 [
   {
     "Id": 1,
-    "Content": "[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)\n[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=coverage)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)\n\n# Vertex Tuning Generator / Editor\n\nA single page application for GCP VertexAI tuning dataset generator.\n\n## Reference Documentation\n\n[VertexAI Model tuning](https://console.cloud.google.com/vertex-ai/studio/tuning)\n\n[VertexAI Model tuning documentation](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune-models)\n\n[Fine tuning use cases](https://cloud.google.com/transform/top-five-gen-ai-tuning-use-cases-gemini-hundreds-of-orgs)\n\n## Sample dataset (from [tuning document](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune_gemini/text_tune#sample-datasets))\n\n[Gemini 2.0 training dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_train_data.jsonl)\n\n[Gemini 2.0 validation dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_validation_data.jsonl)\n\n## Use online\n\n[![pages-build-deployment](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment)\n\n[Online Application on Github pages](https://luyiourwong.github.io/VertexTuningGenerator/)\n\n## Development\n\n### Project Setup\n",
-    "ContentSha": "erGOoCfP32TAbkiFbWi6bPB0fouC9Phx73F4/JQYMKk=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)\n[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=coverage)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)\n\n# Vertex Tuning Generator / Editor\n\nA single page application for GCP VertexAI tuning dataset generator.\n\n## Reference Documentation",
+    "ContentSha": "mqbIf8S4EdR/XwhDnUgpO1BRhHqDtavae0SRPJyYqFs=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)\n[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=coverage)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)\n\n# Vertex Tuning Generator / Editor\n\nA single page application for GCP VertexAI tuning dataset generator.\n\n## Reference Documentation\n\n[VertexAI Model tuning](https://console.cloud.google.com/vertex-ai/studio/tuning)\n\n[VertexAI Model tuning documentation](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune-models)\n\n[Fine tuning use cases](https://cloud.google.com/transform/top-five-gen-ai-tuning-use-cases-gemini-hundreds-of-orgs)\n\n## Sample dataset (from [tuning document](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune_gemini/text_tune#sample-datasets))\n\n[Gemini 2.0 training dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_train_data.jsonl)\n\n[Gemini 2.0 validation dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_validation_data.jsonl)\n\n## Use online\n\n[![pages-build-deployment](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment)\n\n[Online Application on Github pages](https://luyiourwong.github.io/VertexTuningGenerator/)\n\n## Development\n\n### Project Setup\n",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 语言</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n[![质量门状态](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)\n[![覆盖率](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=coverage)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)\n\n# Vertex 调优生成器 / 编辑器\n\n用于 GCP VertexAI 调优数据集生成的单页应用程序。\n\n## 参考文档",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "3eVUzgXdjncb5ATQY3U/uxbFiZlobyTJetHrzJrgXow=",
-        "originContent": "[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)",
-        "translatedContent": "[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 语言</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "r4qk69sN6KDqTVpXl88ZVBA+t3wOGFaCZ5PLbm6G/bA=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "TsySPKThsUv/Dtu119Y5sRYonaIR+Oer0wPAlq2W+VE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "IKIgwtymyaiWVqC43/kwgcElf8vCTylfI/aOs6cwWSc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "401a3Pobmlx+9edHrWZYV86alsWUK3r9k6rUgF5AXmE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "gmgf/+CucIoOYgmpnFnRaXuLF9WIzvhu5tU5c0eBvTM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "SQcPjdZ/a2O5i69BRS8/yLebuPsyxF8rZkqeZco1LAk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "rUGmsRvI1j/BfgFEwzlp81PJpevA5ORqJlpgIxRzUHc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "Hw6mm/AlClWOfzzZPy7qTPNBvNaMxn7pjQwFGiP8N/s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "8mymoHRNUMDdQ69RR5wrkhnlpiZQFzrSu3Htn0l2Nag=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "SzJv4lrbbqU1+RmTumuJOn+XnyKTK3MWt+A4zjr3zNU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "u5JRi2OFhKbDTO2MGjmU/iZOyuNYLfNi7rsv2pCqNX4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "Nc3FMR1fWZ7tBRiYg4OVGSh1Ve2ILWmtrxKiXs74otk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "TwCEn4IzZ0JintSB+w3AMKef87mPhPEJm20OGoq0h9c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "tJosnim/B2MiU103YAAqfP6xSydgQzzvr0bhr7oJQjM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "ZoMwRIUMc99mnV0Q2bzOfh/7ithN95KSl0XQEEhd2yA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "oYWo8EPTQZeC2Mf3wDBS/KIetdDramvrW4K4MnLqTTI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "l9QTstp2H2pJ6BAq+u3RleMbhivTE+LSX9HjD9lpa9Q=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "bVZ9Z022pvNotfTcF7ISR77KnX5jjqMcajvglnI5HFM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "n6byKuRCJpc7TWHqKGFTP2OQHQj8S0d8fHRhO1D1VPc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "lsq4KXwInkl99dczWoz15JJL+FvQKPz1V7ZJzHQr2RY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "/CyACAzWRPXEW9TEpx9xs3v9dVhBKmf/D+tMv/CkvjA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=luyiourwong&project=VertexTuningGenerator&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "3eVUzgXdjncb5ATQY3U/uxbFiZlobyTJetHrzJrgXow=",
+        "originContent": "[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)",
+        "translatedContent": "[![质量门状态](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)"
+      },
+      {
+        "row": 34,
         "rowsha": "WYpaGi5vZbGUZZoEU4VwplkZxDxtvcbKIicyR0NxGTQ=",
         "originContent": "[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=coverage)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)",
-        "translatedContent": "[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=coverage)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)"
+        "translatedContent": "[![覆盖率](https://sonarcloud.io/api/project_badges/measure?project=luyiourwong_VertexTuningGenerator&metric=coverage)](https://sonarcloud.io/summary/new_code?id=luyiourwong_VertexTuningGenerator)"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "y6YRNNIcoCbz/L/riPx0LgLHtlxIHCvsCTO3Kf0okiU=",
+        "originContent": "# Vertex Tuning Generator / Editor",
+        "translatedContent": "# Vertex 调优生成器 / 编辑器"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "X33uQsMus+/otw6uZRKFselqdy9mnapePRcO95tlvoE=",
+        "originContent": "A single page application for GCP VertexAI tuning dataset generator.",
+        "translatedContent": "用于 GCP VertexAI 调优数据集生成的单页应用程序。"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "IccY//zSS/zjBiLUqeutZBZ60xJZ7TNe22+H4zBzLUo=",
+        "originContent": "## Reference Documentation",
+        "translatedContent": "## 参考文档"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n[VertexAI Model tuning](https://console.cloud.google.com/vertex-ai/studio/tuning)\n\n[VertexAI Model tuning documentation](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune-models)\n\n[Fine tuning use cases](https://cloud.google.com/transform/top-five-gen-ai-tuning-use-cases-gemini-hundreds-of-orgs)\n\n## Sample dataset (from [tuning document](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune_gemini/text_tune#sample-datasets))\n\n[Gemini 2.0 training dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_train_data.jsonl)\n\n[Gemini 2.0 validation dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_validation_data.jsonl)\n\n## Use online\n\n[![pages-build-deployment](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment)\n\n[Online Application on Github pages](https://luyiourwong.github.io/VertexTuningGenerator/)\n\n## Development\n\n### Project Setup\n",
+    "ContentSha": "uNG8O6Tjq0d0shQRqBdOg5aQKViRmmlkatSVuwX74RE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n[VertexAI Model tuning](https://console.cloud.google.com/vertex-ai/studio/tuning)\n\n[VertexAI Model tuning documentation](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune-models)\n\n[Fine tuning use cases](https://cloud.google.com/transform/top-five-gen-ai-tuning-use-cases-gemini-hundreds-of-orgs)\n\n## Sample dataset (from [tuning document](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune_gemini/text_tune#sample-datasets))\n\n[Gemini 2.0 training dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_train_data.jsonl)\n\n[Gemini 2.0 validation dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_validation_data.jsonl)\n\n## Use online\n\n[![pages-build-deployment](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment)\n\n[Online Application on Github pages](https://luyiourwong.github.io/VertexTuningGenerator/)\n\n## Development\n\n### Project Setup\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KWMX0ui8AjUi4ibSFGX3CljMkI80xUg4BOaSYZYqG8M=",
+        "originContent": "[VertexAI Model tuning](https://console.cloud.google.com/vertex-ai/studio/tuning)",
+        "translatedContent": "[VertexAI Model tuning](https://console.cloud.google.com/vertex-ai/studio/tuning)"
       },
       {
         "row": 3,
@@ -29,9 +282,9 @@
       },
       {
         "row": 4,
-        "rowsha": "y6YRNNIcoCbz/L/riPx0LgLHtlxIHCvsCTO3Kf0okiU=",
-        "originContent": "# Vertex Tuning Generator / Editor",
-        "translatedContent": "# Vertex Tuning Generator / Editor"
+        "rowsha": "jtgReF8dz1jRt8mFZHshHJgy5fKw/CE1PQybzchoNIU=",
+        "originContent": "[VertexAI Model tuning documentation](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune-models)",
+        "translatedContent": "[VertexAI Model tuning documentation](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune-models)"
       },
       {
         "row": 5,
@@ -41,9 +294,9 @@
       },
       {
         "row": 6,
-        "rowsha": "X33uQsMus+/otw6uZRKFselqdy9mnapePRcO95tlvoE=",
-        "originContent": "A single page application for GCP VertexAI tuning dataset generator.",
-        "translatedContent": "A single page application for GCP VertexAI tuning dataset generator."
+        "rowsha": "QZDGMoteS5pYMbVz8z2q/Q9/TyxMZGaRr9OUAZxjyQ4=",
+        "originContent": "[Fine tuning use cases](https://cloud.google.com/transform/top-five-gen-ai-tuning-use-cases-gemini-hundreds-of-orgs)",
+        "translatedContent": "[Fine tuning use cases](https://cloud.google.com/transform/top-five-gen-ai-tuning-use-cases-gemini-hundreds-of-orgs)"
       },
       {
         "row": 7,
@@ -53,9 +306,9 @@
       },
       {
         "row": 8,
-        "rowsha": "IccY//zSS/zjBiLUqeutZBZ60xJZ7TNe22+H4zBzLUo=",
-        "originContent": "## Reference Documentation",
-        "translatedContent": "## Reference Documentation"
+        "rowsha": "We4YAZAcuXztZ2jUFs6WoatUK9I0LsxKdX3dI1DPBQU=",
+        "originContent": "## Sample dataset (from [tuning document](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune_gemini/text_tune#sample-datasets))",
+        "translatedContent": "## Sample dataset (from [tuning document](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune_gemini/text_tune#sample-datasets))"
       },
       {
         "row": 9,
@@ -65,9 +318,9 @@
       },
       {
         "row": 10,
-        "rowsha": "KWMX0ui8AjUi4ibSFGX3CljMkI80xUg4BOaSYZYqG8M=",
-        "originContent": "[VertexAI Model tuning](https://console.cloud.google.com/vertex-ai/studio/tuning)",
-        "translatedContent": "[VertexAI Model tuning](https://console.cloud.google.com/vertex-ai/studio/tuning)"
+        "rowsha": "RE2J99q39qpwE7VWAGddL+5n4CKv5EadQ060wO+Um4o=",
+        "originContent": "[Gemini 2.0 training dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_train_data.jsonl)",
+        "translatedContent": "[Gemini 2.0 training dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_train_data.jsonl)"
       },
       {
         "row": 11,
@@ -77,9 +330,9 @@
       },
       {
         "row": 12,
-        "rowsha": "jtgReF8dz1jRt8mFZHshHJgy5fKw/CE1PQybzchoNIU=",
-        "originContent": "[VertexAI Model tuning documentation](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune-models)",
-        "translatedContent": "[VertexAI Model tuning documentation](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune-models)"
+        "rowsha": "kDsbE54I+6LQH1unpIUpcLctw2gT4C/xdMorywYToXk=",
+        "originContent": "[Gemini 2.0 validation dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_validation_data.jsonl)",
+        "translatedContent": "[Gemini 2.0 validation dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_validation_data.jsonl)"
       },
       {
         "row": 13,
@@ -89,9 +342,9 @@
       },
       {
         "row": 14,
-        "rowsha": "QZDGMoteS5pYMbVz8z2q/Q9/TyxMZGaRr9OUAZxjyQ4=",
-        "originContent": "[Fine tuning use cases](https://cloud.google.com/transform/top-five-gen-ai-tuning-use-cases-gemini-hundreds-of-orgs)",
-        "translatedContent": "[Fine tuning use cases](https://cloud.google.com/transform/top-five-gen-ai-tuning-use-cases-gemini-hundreds-of-orgs)"
+        "rowsha": "MDFehdpZ57KqT6LnRHVB00PmRhSDNxtlBEj6MWZvV7Q=",
+        "originContent": "## Use online",
+        "translatedContent": "## Use online"
       },
       {
         "row": 15,
@@ -101,9 +354,9 @@
       },
       {
         "row": 16,
-        "rowsha": "We4YAZAcuXztZ2jUFs6WoatUK9I0LsxKdX3dI1DPBQU=",
-        "originContent": "## Sample dataset (from [tuning document](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune_gemini/text_tune#sample-datasets))",
-        "translatedContent": "## Sample dataset (from [tuning document](https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune_gemini/text_tune#sample-datasets))"
+        "rowsha": "YWOktF+QGHw9yxaksaQMz5UcPZhYtl7DCIi4OId1INI=",
+        "originContent": "[![pages-build-deployment](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment)",
+        "translatedContent": "[![pages-build-deployment](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment)"
       },
       {
         "row": 17,
@@ -113,9 +366,9 @@
       },
       {
         "row": 18,
-        "rowsha": "RE2J99q39qpwE7VWAGddL+5n4CKv5EadQ060wO+Um4o=",
-        "originContent": "[Gemini 2.0 training dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_train_data.jsonl)",
-        "translatedContent": "[Gemini 2.0 training dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_train_data.jsonl)"
+        "rowsha": "wRhHxVvcrwX+ViO0JdTtlF1eHzCDeZu52cbVPARhxgk=",
+        "originContent": "[Online Application on Github pages](https://luyiourwong.github.io/VertexTuningGenerator/)",
+        "translatedContent": "[Online Application on Github pages](https://luyiourwong.github.io/VertexTuningGenerator/)"
       },
       {
         "row": 19,
@@ -125,9 +378,9 @@
       },
       {
         "row": 20,
-        "rowsha": "kDsbE54I+6LQH1unpIUpcLctw2gT4C/xdMorywYToXk=",
-        "originContent": "[Gemini 2.0 validation dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_validation_data.jsonl)",
-        "translatedContent": "[Gemini 2.0 validation dataset](https://storage.googleapis.com/cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_validation_data.jsonl)"
+        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+        "originContent": "## Development",
+        "translatedContent": "## Development"
       },
       {
         "row": 21,
@@ -137,60 +390,12 @@
       },
       {
         "row": 22,
-        "rowsha": "MDFehdpZ57KqT6LnRHVB00PmRhSDNxtlBEj6MWZvV7Q=",
-        "originContent": "## Use online",
-        "translatedContent": "## Use online"
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "YWOktF+QGHw9yxaksaQMz5UcPZhYtl7DCIi4OId1INI=",
-        "originContent": "[![pages-build-deployment](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment)",
-        "translatedContent": "[![pages-build-deployment](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/luyiourwong/VertexTuningGenerator/actions/workflows/pages/pages-build-deployment)"
-      },
-      {
-        "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "wRhHxVvcrwX+ViO0JdTtlF1eHzCDeZu52cbVPARhxgk=",
-        "originContent": "[Online Application on Github pages](https://luyiourwong.github.io/VertexTuningGenerator/)",
-        "translatedContent": "[Online Application on Github pages](https://luyiourwong.github.io/VertexTuningGenerator/)"
-      },
-      {
-        "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
-        "originContent": "## Development",
-        "translatedContent": "## Development"
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 30,
         "rowsha": "QB4BqxYJqY5oyPnT1xVwqnsKl2PK5ExBw9zwtAqSXiE=",
         "originContent": "### Project Setup",
         "translatedContent": "### Project Setup"
       },
       {
-        "row": 31,
+        "row": 23,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -199,7 +404,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 2,
+    "Id": 3,
     "Content": "```sh\nnpm install\n```",
     "ContentSha": "XQqYuWenf29YRSWB7Tpg9ngPSzI/pwlwnVntVwNxZMo=",
     "SectionType": "",
@@ -207,30 +412,11 @@
     "EndLine": 0,
     "Translation": "```sh\nnpm install\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
-        "originContent": "```sh",
-        "translatedContent": "```sh"
-      },
-      {
-        "row": 2,
-        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
-        "originContent": "npm install",
-        "translatedContent": "npm install"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 3,
+    "Id": 4,
     "Content": "\n### Compile and Hot-Reload for Development\n",
     "ContentSha": "HQ/6KEqWlP9Oqxl1+fcvgFWtU7ZOsnI8n48d2IH4CRE=",
     "SectionType": "",
@@ -238,30 +424,11 @@
     "EndLine": 0,
     "Translation": "\n### 编译和热重载开发\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "QRllxTyXX4d6bRndIoaEU+oOCPoruLdJcF85Udl3AsA=",
-        "originContent": "### Compile and Hot-Reload for Development",
-        "translatedContent": "### 编译和热重载开发"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Content": "```sh\nnpm run dev\n```",
     "ContentSha": "SYhAu6pqqK/Cv6WuG1ohE7aqLhCgCk9MsGhwMuPuMXs=",
     "SectionType": "",
@@ -269,30 +436,11 @@
     "EndLine": 0,
     "Translation": "```sh\nnpm run dev\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
-        "originContent": "```sh",
-        "translatedContent": "```sh"
-      },
-      {
-        "row": 2,
-        "rowsha": "IfFnfI9PhCQWiefGw310ACvgFob6wDpxDKh2mTUm//c=",
-        "originContent": "npm run dev",
-        "translatedContent": "npm run dev"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Content": "\n### Test and coverage report\nReport at `./coverage`, sonar will use the lcov on `./coverage/lcov.info`.",
     "ContentSha": "jXI0ma+isPexIiv1H4hP6f3d3C9jAKxII2HSSFLtKLE=",
     "SectionType": "",
@@ -300,30 +448,11 @@
     "EndLine": 0,
     "Translation": "\n### 测试和覆盖率报告\n报告位于 `./coverage`，sonar 将使用 `./coverage/lcov.info` 上的 lcov。",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "PuAHUuRlXAj5krzNj7B1LzcDilpKcTE7G4jp+zWQUV0=",
-        "originContent": "### Test and coverage report",
-        "translatedContent": "### 测试和覆盖率报告"
-      },
-      {
-        "row": 3,
-        "rowsha": "Fr/7sWB3lyMEKTHGPBohY5uWqLT1lThheBcAeCZJ8HA=",
-        "originContent": "Report at `./coverage`, sonar will use the lcov on `./coverage/lcov.info`.",
-        "translatedContent": "报告位于 `./coverage`，sonar 将使用 `./coverage/lcov.info` 上的 lcov。"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 6,
+    "Id": 7,
     "Content": "```sh\nnpm run test:coverage\n```",
     "ContentSha": "Tf+SrGuZbEx9d10SKvarOKohfmOx6ZDhHqM3p3Z0eL8=",
     "SectionType": "",
@@ -331,30 +460,11 @@
     "EndLine": 0,
     "Translation": "```sh\nnpm run test:coverage\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
-        "originContent": "```sh",
-        "translatedContent": "```sh"
-      },
-      {
-        "row": 2,
-        "rowsha": "hXsm+8IWEmlGGeNATOmQBgFG3yBkbaZwh/NRcX9nWFI=",
-        "originContent": "npm run test:coverage",
-        "translatedContent": "npm run test:coverage"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 7,
+    "Id": 8,
     "Content": "\n## Contributing\n\nContributions are welcome!\n\nCode must passed quality standards to process deploy.\n\n<details>\n<summary><strong>📋 Code Quality Standards</strong></summary>\n\nAll pull requests must pass the following quality gates in SonarQube before being merged:\n\n- Reliability Rating: A\n- Security Rating: A\n- Maintainability Rating: A\n- Minimum coverage requirement: 80%\n- Maximum allowed duplicated code: 3%\n\n> Note: You can monitor the analysis results in the PR checks and on [SonarCloud](https://sonarcloud.io/project/pull_requests_list?id=luyiourwong_VertexTuningGenerator)\n</details>\n\n## GitHub Actions\n\nThis repository has GitHub Actions configured to help maintain code quality and automate deployments:\n\n1. **Pull Requests to `main`**:\n    - Automatically trigger a SonarQube scan, unit test and generate a code coverage report.\n    - Gemini Code Assist bot will automatically review and comment on the pull request based on the scan results.\n\n2. **Pushes to `main`**:\n    - Automatically trigger a SonarQube scan, unit test and generate a code coverage report.\n    - If the quality gate passes, the site is automatically deployed to **GitHub Pages**.\n\n## Links\n\n- [GitHub Repository](https://github.com/luyiourwong/VertexTuningGenerator)\n- [Issue Tracker](https://github.com/luyiourwong/VertexTuningGenerator/issues)\n- [CI/CD](https://github.com/luyiourwong/VertexTuningGenerator/actions)\n- [Sonarcloud](https://sonarcloud.io/project/overview?id=luyiourwong_VertexTuningGenerator)\n- [Github pages](https://luyiourwong.github.io/VertexTuningGenerator/)",
     "ContentSha": "rOhMKlks8EyJyGP/KrxTzKpuYzTNptcXmk86OeDt4Bs=",
     "SectionType": "",
@@ -362,252 +472,11 @@
     "EndLine": 0,
     "Translation": "## 贡献\n\n欢迎贡献！\n\n代码必须通过质量标准才能进行部署。\n\n<details>\n<summary><strong>📋 代码质量标准</strong></summary>\n\n所有拉取请求在合并前必须通过 SonarQube 中的以下质量门：\n\n- 可靠性评级：A\n- 安全性评级：A\n- 可维护性评级：A\n- 最低覆盖率要求：80%\n- 最大允许重复代码：3%\n\n> 注意：您可以在 PR 检查和 [SonarCloud](https://sonarcloud.io/project/pull_requests_list?id=luyiourwong_VertexTuningGenerator) 上监控分析结果\n</details>\n\n## GitHub Actions\n\n本仓库配置了 GitHub Actions，以帮助维护代码质量和自动化部署：\n\n1. **针对 `main` 的拉取请求**：\n    - 自动触发 SonarQube 扫描、单元测试并生成代码覆盖率报告。\n    - Gemini Code Assist 机器人将根据扫描结果自动审查并评论拉取请求。\n\n2. **推送到 `main`**：\n    - 自动触发 SonarQube 扫描、单元测试并生成代码覆盖率报告。\n    - 如果质量门通过，网站将自动部署到 **GitHub Pages**。\n\n## 链接\n\n- [GitHub 仓库](https://github.com/luyiourwong/VertexTuningGenerator)\n- [问题跟踪](https://github.com/luyiourwong/VertexTuningGenerator/issues)\n- [CI/CD](https://github.com/luyiourwong/VertexTuningGenerator/actions)\n- [Sonarcloud](https://sonarcloud.io/project/overview?id=luyiourwong_VertexTuningGenerator)\n- [Github 页面](https://luyiourwong.github.io/VertexTuningGenerator/)\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 贡献"
-      },
-      {
-        "row": 2,
-        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
-        "originContent": "## Contributing",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "欢迎贡献！"
-      },
-      {
-        "row": 4,
-        "rowsha": "OQaVFD2/qmHd/T4z5n7rWNQQuZ1ynpDtT7DsaZDGdQE=",
-        "originContent": "Contributions are welcome!",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "代码必须通过质量标准才能进行部署。"
-      },
-      {
-        "row": 6,
-        "rowsha": "VBottC72Yf74flL+Cu+MLjIX6b3KlBIlzSKqGueTt8o=",
-        "originContent": "Code must passed quality standards to process deploy.",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "<details>"
-      },
-      {
-        "row": 8,
-        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
-        "originContent": "<details>",
-        "translatedContent": "<summary><strong>📋 代码质量标准</strong></summary>"
-      },
-      {
-        "row": 9,
-        "rowsha": "vXUzHpDuBVppSwiEiDn3DRbF0r8aRifaRBij/51d4W0=",
-        "originContent": "<summary><strong>📋 Code Quality Standards</strong></summary>",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "所有拉取请求在合并前必须通过 SonarQube 中的以下质量门："
-      },
-      {
-        "row": 11,
-        "rowsha": "pHPJ0zmlVoKhwo6ZNX/VQCvJHl05TCT224AHT7wQby4=",
-        "originContent": "All pull requests must pass the following quality gates in SonarQube before being merged:",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- 可靠性评级：A"
-      },
-      {
-        "row": 13,
-        "rowsha": "2lZfv7U2Ox/1PQn9V1zX3NT6Jz//MOEddVgQc49NTpk=",
-        "originContent": "- Reliability Rating: A",
-        "translatedContent": "- 安全性评级：A"
-      },
-      {
-        "row": 14,
-        "rowsha": "ffUPGodQXLPdgyXL8SKNaLOGZsviP2vff8Y6ZBAMIUk=",
-        "originContent": "- Security Rating: A",
-        "translatedContent": "- 可维护性评级：A"
-      },
-      {
-        "row": 15,
-        "rowsha": "U5PvI56SsbT8P68Of09wYWlkZiC0CKI7OOBGknaj8Ok=",
-        "originContent": "- Maintainability Rating: A",
-        "translatedContent": "- 最低覆盖率要求：80%"
-      },
-      {
-        "row": 16,
-        "rowsha": "BOl0KkcFGiiRpE5Jk6w9XPotkySCLwTNrhA+DM/G2kk=",
-        "originContent": "- Minimum coverage requirement: 80%",
-        "translatedContent": "- 最大允许重复代码：3%"
-      },
-      {
-        "row": 17,
-        "rowsha": "064yKroyEm34QOewbfnY6aoVwjOEZSB3X5Ecrs27XMY=",
-        "originContent": "- Maximum allowed duplicated code: 3%",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "> 注意：您可以在 PR 检查和 [SonarCloud](https://sonarcloud.io/project/pull_requests_list?id=luyiourwong_VertexTuningGenerator) 上监控分析结果"
-      },
-      {
-        "row": 19,
-        "rowsha": "soLpbhgRj62xSnoj/tsq0S0h550db0d4PiY0woHQgZE=",
-        "originContent": "> Note: You can monitor the analysis results in the PR checks and on [SonarCloud](https://sonarcloud.io/project/pull_requests_list?id=luyiourwong_VertexTuningGenerator)",
-        "translatedContent": "</details>"
-      },
-      {
-        "row": 20,
-        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
-        "originContent": "</details>",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## GitHub Actions"
-      },
-      {
-        "row": 22,
-        "rowsha": "wNTOJFeUoel91dyRTYsNmPa1ypI5tp2pwwReWZHH8Zw=",
-        "originContent": "## GitHub Actions",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "本仓库配置了 GitHub Actions，以帮助维护代码质量和自动化部署："
-      },
-      {
-        "row": 24,
-        "rowsha": "O5oiaeuj3b/U3ObSGYfhN/dceyyoE56M7QBTcRl82OQ=",
-        "originContent": "This repository has GitHub Actions configured to help maintain code quality and automate deployments:",
-        "translatedContent": ""
-      },
-      {
-        "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. **针对 `main` 的拉取请求**："
-      },
-      {
-        "row": 26,
-        "rowsha": "03BOvOrgMBOX42fGaHPMP1Jp0oG7iuaHVjfGxUarldE=",
-        "originContent": "1. **Pull Requests to `main`**:",
-        "translatedContent": "    - 自动触发 SonarQube 扫描、单元测试并生成代码覆盖率报告。"
-      },
-      {
-        "row": 27,
-        "rowsha": "t9hyevb1TcVJCRHCcXbG11zTtf6Ca3tvReVsokE5ADU=",
-        "originContent": "    - Automatically trigger a SonarQube scan, unit test and generate a code coverage report.",
-        "translatedContent": "    - Gemini Code Assist 机器人将根据扫描结果自动审查并评论拉取请求。"
-      },
-      {
-        "row": 28,
-        "rowsha": "IH4Js8JCqr5J/Cy9VGcZyNa8zKPp2VT0bpK/kSN2Pt0=",
-        "originContent": "    - Gemini Code Assist bot will automatically review and comment on the pull request based on the scan results.",
-        "translatedContent": ""
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "2. **推送到 `main`**："
-      },
-      {
-        "row": 30,
-        "rowsha": "dZQGm0bbIU2ETZVM6+77JDQq9toW8OfN2ktpU9lcVNw=",
-        "originContent": "2. **Pushes to `main`**:",
-        "translatedContent": "    - 自动触发 SonarQube 扫描、单元测试并生成代码覆盖率报告。"
-      },
-      {
-        "row": 31,
-        "rowsha": "t9hyevb1TcVJCRHCcXbG11zTtf6Ca3tvReVsokE5ADU=",
-        "originContent": "    - Automatically trigger a SonarQube scan, unit test and generate a code coverage report.",
-        "translatedContent": "    - 如果质量门通过，网站将自动部署到 **GitHub Pages**。"
-      },
-      {
-        "row": 32,
-        "rowsha": "9SzCx2TD1qWM09Ecws22ijD6/sICQyWxJvdLXKsgIQ0=",
-        "originContent": "    - If the quality gate passes, the site is automatically deployed to **GitHub Pages**.",
-        "translatedContent": ""
-      },
-      {
-        "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 链接"
-      },
-      {
-        "row": 34,
-        "rowsha": "diHpFstuV7UK+A46mhFkbkPIHzxRakTriwoPTCVX3QI=",
-        "originContent": "## Links",
-        "translatedContent": ""
-      },
-      {
-        "row": 35,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- [GitHub 仓库](https://github.com/luyiourwong/VertexTuningGenerator)"
-      },
-      {
-        "row": 36,
-        "rowsha": "BGn9YiEYNl1SI+erywDl6pWSCDDMd04+dbuk2idEP4Q=",
-        "originContent": "- [GitHub Repository](https://github.com/luyiourwong/VertexTuningGenerator)",
-        "translatedContent": "- [问题跟踪](https://github.com/luyiourwong/VertexTuningGenerator/issues)"
-      },
-      {
-        "row": 37,
-        "rowsha": "kVvGCss+ABdXJyVef/aEYw/sjdV1WRajoK9u4Pcixe0=",
-        "originContent": "- [Issue Tracker](https://github.com/luyiourwong/VertexTuningGenerator/issues)",
-        "translatedContent": "- [CI/CD](https://github.com/luyiourwong/VertexTuningGenerator/actions)"
-      },
-      {
-        "row": 38,
-        "rowsha": "PruU+xh1PgaGk4+IHD3RK1FuXgerzqYVPdm9jam06qM=",
-        "originContent": "- [CI/CD](https://github.com/luyiourwong/VertexTuningGenerator/actions)",
-        "translatedContent": "- [Sonarcloud](https://sonarcloud.io/project/overview?id=luyiourwong_VertexTuningGenerator)"
-      },
-      {
-        "row": 39,
-        "rowsha": "8IRopiXeaQXpVKIZ0WNC+QRDdwzwOKULC2lD5bvxRi4=",
-        "originContent": "- [Sonarcloud](https://sonarcloud.io/project/overview?id=luyiourwong_VertexTuningGenerator)",
-        "translatedContent": "- [Github 页面](https://luyiourwong.github.io/VertexTuningGenerator/)"
-      },
-      {
-        "row": 40,
-        "rowsha": "Nvy9gv2yrsk+ogHeKURUl17x/Mk62qkqzvJeYwdh9bQ=",
-        "originContent": "- [Github pages](https://luyiourwong.github.io/VertexTuningGenerator/)",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 8,
+    "Id": 9,
     "Content": "\n## License\n\nThis project is licensed under the [MIT License](LICENSE).\n",
     "ContentSha": "NFosyx4EB6jTdRnUnreQy3vBN0o3JSNYmniqB4VCzpA=",
     "SectionType": "",
@@ -615,38 +484,7 @@
     "EndLine": 0,
     "Translation": "\n## 许可证\n\n本项目采用[MIT 许可证](LICENSE)授权。\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": "## 许可证"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "MswBhfOOWTsjEByUXyqqJntjLaIy1mJ9TacCLm3qM3A=",
-        "originContent": "This project is licensed under the [MIT License](LICENSE).",
-        "translatedContent": "本项目采用[MIT 许可证](LICENSE)授权。"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

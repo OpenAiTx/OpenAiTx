@@ -1,57 +1,60 @@
-# 面向AI助手的增强型PubChem MCP服务器
 
-🧪 一款先进、强大且注重隐私的MCP服务器，使AI助手能够智能搜索并访问PubChem中的化合物信息。
+<div align="center"><p><a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=en"><img src="https://img.shields.io/badge/EN-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=zh-CN"><img src="https://img.shields.io/badge/简中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=zh-TW"><img src="https://img.shields.io/badge/繁中-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ja"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ko"><img src="https://img.shields.io/badge/한국어-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=hi"><img src="https://img.shields.io/badge/हिन्दी-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=th"><img src="https://img.shields.io/badge/ไทย-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=fr"><img src="https://img.shields.io/badge/Français-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=de"><img src="https://img.shields.io/badge/Deutsch-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=es"><img src="https://img.shields.io/badge/Español-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=it"><img src="https://img.shields.io/badge/Italiano-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ru"><img src="https://img.shields.io/badge/Русский-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=pt"><img src="https://img.shields.io/badge/Português-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=nl"><img src="https://img.shields.io/badge/Nederlands-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=pl"><img src="https://img.shields.io/badge/Polski-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=ar"><img src="https://img.shields.io/badge/العربية-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=fa"><img src="https://img.shields.io/badge/فارسی-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=tr"><img src="https://img.shields.io/badge/Türkçe-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=vi"><img src="https://img.shields.io/badge/Tiếng Việt-white" alt="version"></a> <a href="https://openaitx.github.io/view.html?user=Milor123&project=pubchem-agent-toolkit&lang=id"><img src="https://img.shields.io/badge/Bahasa Indonesia-white" alt="version"></a> </p></div>
+# 增强版 PubChem MCP 服务器，助力 AI 助手
 
-此PubChem MCP服务器作为AI助手（如AnythingLLM中的助手）与PubChem庞大化学数据库之间的强大桥梁。它利用模型上下文协议（MCP），允许AI模型智能、稳健地搜索化学化合物，并以编程方式检索其详细属性。
+🧪 一款先进、强大且注重隐私的 MCP 服务器，使 AI 助手能够智能检索并访问 PubChem 的化合物信息。
+
+此 PubChem MCP 服务器是 AI 助手（如 AnythingLLM 中的助手）与 PubChem 海量化学数据库之间的强大桥梁。它利用模型上下文协议（MCP），让 AI 模型能够智能、强韧地搜索化合物并以编程方式获取详细属性。
 
 ---
 
 ## ✨ 核心功能
 
-这不仅仅是另一个PubChem封装器。该服务器从头重建，具备高度的鲁棒性和智能性：
+这不仅仅是另一个 PubChem 封装器。该服务器从零开始重构，拥有极高的智能和鲁棒性：
 
--   **🧠 智能回退搜索**：如果搜索常用名称（如“维生素D”）失败，服务器会自动在PubChem物质数据库中进行更深入的搜索，以找到正确的化合物。这大大提高了模糊查询的成功率。
--   **🛡️ 稳健的错误处理与重试**：服务器设计用以优雅地处理API错误。如果遇到PubChem的“服务器繁忙”错误，它会自动等待并重试请求，确保您的查询即使在高负载下也能成功。
--   **🔒 可选Tor代理支持**：您完全控制您的隐私。通过一个简单的`config.ini`文件，您可以将所有请求通过Tor网络（通过SOCKS5或HTTP代理）路由，防止IP地址泄露。服务器默认安全，代理连接失败时**绝不会**泄露您的IP。
--   **🔎 单个及多个化合物搜索**：无缝处理单个或多个化合物的请求。
--   **🧪 详细属性检索**：访问关键化学属性，如IUPAC名称、分子式、分子量，尤其是**单同位素质量**。
-
----
+-   **🧠 智能回退搜索**：如果对通用名称（如“维生素 D”）的搜索失败，服务器会自动在 PubChem Substance 数据库中进行更深入检索，找到正确化合物。此举显著提高了对模糊查询的成功率。
+-   **🛡️ 强健的错误处理与重试机制**：服务器设计能优雅地处理 API 错误。如果遇到来自 PubChem 的“服务器繁忙”错误，会自动等待并重试请求，确保在高负载下也能成功查询。
+-   **🔒 可选 Tor 代理支持**：您可以完全掌控隐私。简单的 `config.ini` 文件即可将所有请求通过 Tor 网络（SOCKS5 或 HTTP 代理）路由，防止您的 IP 地址被暴露。服务器默认安全，若代理连接失败，您的 IP **绝不会**被泄露。
+-   **🔎 单/多化合物检索**：可在一次请求中无缝处理一个或多个化合物的查询。
+-   **🧪 详细属性获取**：可访问关键化学属性，如 IUPAC 名称、分子式、分子量，尤其是**单同位素质量**。
 
 ---
 
-### 🚀 无需安装：在Smithery.ai上在线体验
+---
 
-对于MCP服务器新手或仅想测试此工具功能而无需本地设置的用户，Smithery.ai提供了一个在线托管版本。您可以直接在浏览器中与代理聊天。
+### 🚀 无需安装：可在 Smithery.ai 在线体验
 
-[**<-- 在Smithery.ai上探索实时PubChem代理 -->**](https://smithery.ai/server/@Milor123/smithery-pubchem-deploy)
+对于新接触 MCP 服务器或希望无需本地部署快速测试工具功能的用户，Smithery.ai 提供了在线托管版。您可直接在浏览器中与代理对话。
 
-**如何开始：**
+[**<-- 在 Smithery.ai 上体验 PubChem 在线代理 -->**](https://smithery.ai/server/@Milor123/smithery-pubchem-deploy)
+
+**快速开始指南：**
 
 1.  点击上方链接进入服务器页面。
-2.  使用您的**GitHub**或**Google**账号登录。
-3.  点击**“探索功能”**按钮，打开聊天界面开始测试！
+2.  使用您的 **GitHub** 或 **Google** 账号登录。
+3.  点击 **“探索能力”** 按钮，打开聊天界面，即刻体验！
 
-> **✅ 推荐使用模型以获得最佳效果**
+> **✅ 推荐模型，效果更佳**
 >
-> 为了获得最高准确度，尤其是处理长小数数字时，我们强烈推荐使用强大的模型。以下模型已测试，表现优异：
+> 为获得最高精度（尤其是长小数位的数值），强烈建议使用强大的模型。以下模型已测试并与该工具完美兼容：
 >
-> *   **Anthropic的Claude 3 Sonnet**
-> *   **OpenAI的GPT-4 Turbo**（或更新版本如GPT-4o）
+> *   **Anthropic 的 Claude 3 Sonnet**
+
+> *   **OpenAI 的 GPT-4 Turbo**（或更高版本，如 GPT-4o）
 >
-> 我们确认两个模型都能正确处理工具返回的十进制数字的全精度，且没有任何舍入。
+> 我们确认这两个模型都能正确处理工具返回的十进制数字的完整精度，无任何四舍五入。
 
 ---
 
 ## 🚀 快速开始与安装
 
-此服务器设计为本地运行，可以在您的桌面或 AnythingLLM Docker 环境中运行。
+本服务器设计为本地运行，可以在您的桌面或 AnythingLLM 的 Docker 环境中运行。
 
 ### 1. 依赖项
 
 该项目依赖于一些 Python 库。请确保它们已安装在您的环境中。
 
-创建一个 `requirements.txt` 文件，内容如下：
+创建一个 `requirements.txt` 文件，并填入以下内容：
 ```txt
 requests
 bs4 
@@ -205,6 +208,6 @@ Present all the results in a single Markdown table.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

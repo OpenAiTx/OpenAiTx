@@ -196,23 +196,35 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-有关运行 **a-interact** 的详细信息，请参见 `./bird_interact_agent/README.md`；而 **c-interact** 的相关信息请参见 `./bird_interact_conv/README.md`。
+关于如何运行 **a-interact** 的详细信息，请参阅 `./bird_interact_agent/README.md`；**c-interact** 的信息请参阅 `./bird_interact_conv/README.md`。
 
-## 📋 待办事项列表
+## 📰 新闻
 
-- [x] 发布精简版，bird-interact-lite (270)。
+🚀 我们很高兴地宣布，**[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 数据集已经发布！  
+这是一个非常有挑战性的数据集 —— 最强的大模型目前仅取得了 **16.33%** 的成功率，在 `c-interact` 和 `a-interact` 部分仅为 **10.0%**。  
+👉 更多详情请访问我们的 [项目网站](https://bird-interact.github.io/)。
+
+📬 本周我们将通过邮件列表发送 **标准答案及测试用例**。  
+如果您希望提前获取，请按网站上的说明发送邮件以获得 **自动下载**。  
+
+💾 另外，我们还发布了 SQLite 版本的 **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)**，便于本地研究。  
+完整版的 **LiveSQLBench-Base** 和 **-Large** 即将推出！
+
+## 📋 待办列表
+
+- [x] 发布轻量版，bird-interact-lite (270)。
 - [x] 发布对话版，bird-interact-conv。
-- [x] 发布代理版，bird-interact-agent。
-- [x] 发布完整版，bird-interact-full (600)。
+- [x] 发布智能体版，bird-interact-agent。
+- [x] 发布完整版 bird-interact-full (600)。
 - [ ] SFT / RL 用户模拟器
 
-## 创建者：
+## 创建团队：
 BIRD 团队 & Google Cloud
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

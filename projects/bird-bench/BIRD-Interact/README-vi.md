@@ -196,23 +196,35 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-Chi tiết về cách chạy **a-interact** có thể được tìm thấy trong `./bird_interact_agent/README.md`; và **c-interact** có thể được tìm thấy trong `./bird_interact_conv/README.md`.
+Chi tiết về cách chạy **a-interact** có thể được tìm thấy tại `./bird_interact_agent/README.md`; và **c-interact** có thể được tìm thấy tại `./bird_interact_conv/README.md`.
 
+## 📰 Tin tức
 
-## 📋 Danh Sách Việc Cần Làm
+🚀 Chúng tôi rất vui mừng thông báo phát hành bộ **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
+Đây là một bộ khó — các LLM tốt nhất chỉ đạt tỷ lệ thành công **16.33%**, chỉ **10.0%** trên phần `c-interact` và `a-interact`.  
+👉 Để biết thêm chi tiết, vui lòng truy cập [trang web dự án](https://bird-interact.github.io/).
 
-- [x] Phát hành phiên bản rút gọn, bird-interact-lite (270).
+📬 Chúng tôi sẽ gửi **Ground Truth & Test cases** đến danh sách email trong tuần này.  
+Nếu bạn muốn truy cập sớm, hãy gửi email theo hướng dẫn trên trang để **tải tự động**.  
+
+💾 Ngoài ra, chúng tôi cũng đã phát hành phiên bản SQLite của **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** để thuận tiện cho nghiên cứu cục bộ.  
+Phiên bản đầy đủ **LiveSQLBench-Base** và **-Large** sẽ sớm ra mắt!
+
+## 📋 Danh sách việc cần làm
+
+- [x] Phát hành phiên bản lite, bird-interact-lite (270).
 - [x] Phát hành phiên bản hội thoại, bird-interact-conv.
 - [x] Phát hành phiên bản agent, bird-interact-agent.
-- [x] Phát hành phiên bản đầy đủ bird-interact-full (600).
-- [ ] SFT / RL một Bộ Giả Lập Người Dùng
+- [x] Phát hành đầy đủ bird-interact-full (600).
+- [ ] SFT / RL trình mô phỏng người dùng
 
-## Được Tạo Bởi:
+## Được tạo bởi:
 Nhóm BIRD & Google Cloud
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

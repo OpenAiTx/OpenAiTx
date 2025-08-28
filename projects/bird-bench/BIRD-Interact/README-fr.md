@@ -196,23 +196,35 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-Les détails concernant l'exécution de **a-interact** se trouvent dans `./bird_interact_agent/README.md` ; et **c-interact** dans `./bird_interact_conv/README.md`.
+Les détails concernant l’exécution de **a-interact** sont disponibles dans `./bird_interact_agent/README.md`; et ceux de **c-interact** dans `./bird_interact_conv/README.md`.
 
+## 📰 Actualités
+
+🚀 Nous sommes ravis d’annoncer la sortie du **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** !  
+C’est un défi — les meilleurs LLMs n’atteignent qu’un taux de réussite de **16,33%**, avec seulement **10,0%** sur les parties `c-interact` et `a-interact`.  
+👉 Pour plus de détails, consultez notre [site du projet](https://bird-interact.github.io/).
+
+📬 Nous enverrons les **cas de vérité terrain & de test** à notre liste de diffusion cette semaine.  
+Pour un accès anticipé, envoyez un email comme indiqué sur le site pour un **téléchargement automatique**.  
+
+💾 Par ailleurs, nous avons publié une version SQLite de **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** pour faciliter la recherche locale.  
+Les versions complètes **LiveSQLBench-Base** et **-Large** arrivent bientôt !
 
 ## 📋 Listes de tâches
 
-- [x] Publication de la version allégée, bird-interact-lite (270).
+- [x] Publication de la version lite, bird-interact-lite (270).
 - [x] Publication de la version conversationnelle, bird-interact-conv.
 - [x] Publication de la version agent, bird-interact-agent.
 - [x] Publication de la version complète bird-interact-full (600).
-- [ ] SFT / RL d'un simulateur d'utilisateur
+- [ ] SFT / RL d’un simulateur d’utilisateur
 
 ## Créé par :
 Équipe BIRD & Google Cloud
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---

@@ -196,23 +196,35 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-Os detalhes sobre como executar o **a-interact** podem ser encontrados em `./bird_interact_agent/README.md`; e sobre o **c-interact** em `./bird_interact_conv/README.md`.
+Os detalhes sobre como executar **a-interact** podem ser encontrados em `./bird_interact_agent/README.md`; e **c-interact** podem ser encontrados em `./bird_interact_conv/README.md`.
 
+## 📰 Novidades
+
+🚀 Estamos animados em anunciar o lançamento do conjunto **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
+Este é desafiador — os melhores LLMs estão alcançando apenas **16,33%** de taxa de sucesso, com apenas **10,0%** nas partes `c-interact` e `a-interact`.  
+👉 Para mais detalhes, visite nosso [site do projeto](https://bird-interact.github.io/).
+
+📬 Vamos enviar os **Casos de Teste & Ground Truth** para nossa lista de e-mails esta semana.  
+Se você deseja acesso antecipado, envie um e-mail conforme instruído no site para um **download automático**.  
+
+💾 Em outra nota, também lançamos uma versão SQLite do **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** para facilitar pesquisas locais.  
+As versões completas **LiveSQLBench-Base** e **-Large** estão chegando em breve!
 
 ## 📋 Listas de Tarefas
 
 - [x] Lançar versão lite, bird-interact-lite (270).
 - [x] Lançar versão conversacional, bird-interact-conv.
 - [x] Lançar versão agente, bird-interact-agent.
-- [x] Lançar versão completa bird-interact-full (600).
-- [ ] SFT / RL em Simulador de Usuário
+- [x] Lançar versão Full bird-interact-full (600).
+- [ ] SFT / RL de um Simulador de Usuário
 
 ## Criado por:
 Equipe BIRD & Google Cloud
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
 
 ---
