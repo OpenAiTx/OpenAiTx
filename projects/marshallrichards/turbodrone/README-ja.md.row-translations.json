@@ -1,0 +1,704 @@
+[
+  {
+    "row": 1,
+    "rowsha": "7fbEXSz/MioeTiZmd0XDjvNUNHd1OXJupunFLn6GE0I=",
+    "originContent": "# Turbodrone",
+    "translatedContent": "# Turbodrone"
+  },
+  {
+    "row": 2,
+    "rowsha": "DjMvOJ+0ZCVe4HBj/VC0dof4RqzGf2XXk98uNd+l2Fc=",
+    "originContent": "Reverse-engineered API and client for controlling some of the best-selling ~$50 \"toy\" drones on Amazon from a computer replacing the closed-source mobile apps they come with.",
+    "translatedContent": "一部のベストセラー約50ドルの「おもちゃ」ドローンをコンピュータから制御するためのリバースエンジニアリングされたAPIとクライアント。これにより、付属のクローズドソースのモバイルアプリを置き換えられます。"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "O5kD8aIMKnKFvh+Azsurqh/LN3dCq05wMER6+0hMMPE=",
+    "originContent": "![S20 Drone Short Clip](https://raw.githubusercontent.com/marshallrichards/turbodrone/master/docs/images/s20-drone-short-clip-small.gif)",
+    "translatedContent": "![S20 Drone Short Clip](https://raw.githubusercontent.com/marshallrichards/turbodrone/master/docs/images/s20-drone-short-clip-small.gif)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+    "originContent": "## Introduction",
+    "translatedContent": "## はじめに"
+  },
+  {
+    "row": 7,
+    "rowsha": "T9Tesd3ok5d+P2KVFQZH98nwmd7q+Icd/0vslSHrdb0=",
+    "originContent": "Nowadays, there are incredibly cheap \"toy\" drones available on Amazon that are basically pared-down clones of the early DJI mavic. Only ~$50 to have a 1080p camera for FPV and recording, tiny downward-facing optical flow sensor for position and altitude hold, and a well-tuned flight profile out-of-the-box. The only problem with drones like this is that they run closed-source firmware and are locked to only being controlled by a custom mobile app. I thought it would be cool to free some of these drones from their \"jail\" and write an API and client for accessing the video feed and sending control commands down to the drone by reverse-engineering how the mobile apps work. That way you can turn a highly capable $50 \"toy\" drone into something that can be programmatically controlled and used for all sorts of applications and experiments.",
+    "translatedContent": "現在、Amazonでは非常に安価な「おもちゃ」ドローンが販売されており、基本的には初期のDJI Mavicの簡易版クローンです。1080pカメラによるFPVと録画、位置および高度保持のための小型の下向き光学フローセンサー、そして調整の行き届いたフライトプロファイルが標準で約50ドルで手に入ります。こうしたドローンの唯一の問題は、クローズドソースのファームウェアで動作し、カスタムのモバイルアプリでのみ制御可能なことです。これらのドローンを「檻」から解放し、モバイルアプリの動作をリバースエンジニアリングして動画フィードへのアクセスや制御コマンドの送信を可能にするAPIとクライアントを作るのは面白いと思いました。こうして、高性能な50ドルの「おもちゃ」ドローンをプログラムで制御できるようにし、さまざまな用途や実験に使えるようになります。"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "yhvK0dfVs4g26pyRaEAJslT47b5/wABWoK7s+rn1zuE=",
+    "originContent": "## Hardware",
+    "translatedContent": "## ハードウェア"
+  },
+  {
+    "row": 10,
+    "rowsha": "aL574/pwIhEq+VQvLhGFC5WWPoxznBwi92tS0MV4qRo=",
+    "originContent": "* WiFi Camera Drone (ranked in order of recommendation):",
+    "translatedContent": "* WiFiカメラドローン（推奨順）："
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "CupNGwQf6cekBNswih1DaybcnSsJszV0F7RID6ZJHt0=",
+    "originContent": "    | Brand      | Model Number(s)    | Compatibility | Purchase Link                                               | Notes |",
+    "translatedContent": "    | ブランド      | モデル番号         | 互換性       | 購入リンク                                                  | 備考  |"
+  },
+  {
+    "row": 13,
+    "rowsha": "iflB8y16/gBZBtYJLqAp5iUi0C+7xK/xUnSx8H0IlXE=",
+    "originContent": "    |------------|-----------------|---------------|-------------------------------------------------------------|-------|",
+    "translatedContent": "    |------------|-----------------|---------------|-------------------------------------------------------------|-------|"
+  },
+  {
+    "row": 14,
+    "rowsha": "Owb7HcVupAS34l4wYtTXYc/SHiUZ5DKoBq6bvyf7GE8=",
+    "originContent": "    | Karuisrc | K417 | Tested | [Amazon](https://www.amazon.com/Electric-Adjustable-AIdrones-Quadcopter-Beginners/dp/B0CYPSJ34H/) | My favorite right now. Only one on the list with brushless motors! Build quality is fantastic. |",
+    "translatedContent": "    | Karuisrc | K417 | テスト済み | [Amazon](https://www.amazon.com/Electric-Adjustable-AIdrones-Quadcopter-Beginners/dp/B0CYPSJ34H/) | 現在の一番のお気に入り。リストで唯一のブラシレスモーター搭載！ビルド品質が素晴らしい。 |"
+  },
+  {
+    "row": 15,
+    "rowsha": "VcCB363Iu/UGU9zJgRZergFfJT1yO34Yy9E8AbZA080=",
+    "originContent": "    | Loiley     | S29             | Tested    | [Amazon](https://www.amazon.com/Beginners-Altitude-Gestures-Adjustable-Batteries/dp/B0CFDVKJKC)                  | Best build quality, has servo for tilting camera(_not implemented in API yet_)|",
+    "translatedContent": "    | Loiley     | S29             | テスト済み    | [Amazon](https://www.amazon.com/Beginners-Altitude-Gestures-Adjustable-Batteries/dp/B0CFDVKJKC)                  | 最高のビルド品質。カメラ傾斜用のサーボあり（APIにはまだ実装されていません）|"
+  },
+  {
+    "row": 16,
+    "rowsha": "H27u4a/rtzEJhbNDoCbbynUwGrQP1rJT3PgcB1jpN8U=",
+    "originContent": "    | Hiturbo    | S20             | Tested    | [Amazon](https://www.amazon.com/dp/B0BBVZ849G), [Alternate Amazon Listing](https://www.amazon.com/Beginners-Foldable-Quadcopter-Gestures-Batteries/dp/B0D8LK1KJ3)                  | Original test platform, great build quality|",
+    "translatedContent": "    | Hiturbo    | S20             | テスト済み    | [Amazon](https://www.amazon.com/dp/B0BBVZ849G), [別のAmazonリスト](https://www.amazon.com/Beginners-Foldable-Quadcopter-Gestures-Batteries/dp/B0D8LK1KJ3)                  | 元のテストプラットフォーム、優れたビルド品質|"
+  },
+  {
+    "row": 17,
+    "rowsha": "k2GP0S+h9qEhmbzuI+NYzgijBhxQlJHhtwK3L5MFwGs=",
+    "originContent": "    | FlyVista | V88 | Tested | [Amazon](https://www.amazon.com/dp/B0D5CXY6X8) | |",
+    "translatedContent": "    | FlyVista | V88 | テスト済み | [Amazon](https://www.amazon.com/dp/B0D5CXY6X8) | |"
+  },
+  {
+    "row": 18,
+    "rowsha": "q311cNewFiMYcYkXdLeRZk8Gaz5q3YhEcvw0Sc/94w0=",
+    "originContent": "    | ? | D16/GT3/V66 | Tested | cheapest on [Aliexpress](https://www.aliexpress.us/item/3256808590663347.html), [Amazon](https://www.amazon.com/THOAML-Batteries-Altitude-Headless-360%C2%B0Flip/dp/B0F1D6F62J/) | 20% smaller DJI Neo clone. Only really good for indoor flight. ",
+    "translatedContent": "    | ? | D16/GT3/V66 | テスト済み | 最安値は[Aliexpress](https://www.aliexpress.us/item/3256808590663347.html)、[Amazon](https://www.amazon.com/THOAML-Batteries-Altitude-Headless-360%C2%B0Flip/dp/B0F1D6F62J/) | DJI Neoクローンの20％小型。主に屋内飛行向け。 "
+  },
+  {
+    "row": 19,
+    "rowsha": "g4XoHQnIglRNGrpwbKyQUuttckl1E2tsubJq7pHcxE4=",
+    "originContent": "    | Several Brands | E58 | Tested | [Amazon](https://www.amazon.com/Foldable-Quadcopter-Beginners-Batteries-Waypoints/dp/B09KV8L7WN/) |  |",
+    "translatedContent": "    | 複数ブランド | E58 | テスト済み | [Amazon](https://www.amazon.com/Foldable-Quadcopter-Beginners-Batteries-Waypoints/dp/B09KV8L7WN/) |  |"
+  },
+  {
+    "row": 20,
+    "rowsha": "dxxWXAcwS2h5NALqLyJMsWwQ3r/xPahdAAOSs6JMalU=",
+    "originContent": "    | Several Brands | E88/E88 Pro | Suspected | [Amazon](https://www.amazon.com/Foldable-Camera-Quadcopter-Altitude-Beginner/dp/B0DZCLFQXN) | |",
+    "translatedContent": "    | 複数ブランド | E88/E88 Pro | 推定       | [Amazon](https://www.amazon.com/Foldable-Camera-Quadcopter-Altitude-Beginner/dp/B0DZCLFQXN) | |"
+  },
+  {
+    "row": 21,
+    "rowsha": "cnDfWyawYesX/GUMMr44esn+Bs160zGF+RTF6PqnOfo=",
+    "originContent": "    | Several Brands | E99/E99 Pro | Suspected | [Amazon](https://www.amazon.com/LJN53-Foldable-Drone-Dual-Cameras/dp/B0DRH9C6RF) | |",
+    "translatedContent": "    | 複数ブランド | E99/E99 Pro | 推定       | [Amazon](https://www.amazon.com/LJN53-Foldable-Drone-Dual-Cameras/dp/B0DRH9C6RF) | |"
+  },
+  {
+    "row": 22,
+    "rowsha": "xqYJ8LXNo+KKbL4uz77O0zw2Es43JiFKv5CJ/ZYbyZ4=",
+    "originContent": "    | Swifsen | A35 | Suspected | [Amazon](https://a.co/d/bqKvloz) | Very small \"toy\" drone|",
+    "translatedContent": "    | Swifsen | A35 | 推定       | [Amazon](https://a.co/d/bqKvloz) | とても小さい「おもちゃ」ドローン|"
+  },
+  {
+    "row": 23,
+    "rowsha": "OkJy197L4pNIXW9DXb5NzDJjQVFvy/FTEqMn3S035KY=",
+    "originContent": "    | Unknown | LSRC-S1S | Suspected | | mentioned in another reverse-engineering effort for the WiFi UAV app|",
+    "translatedContent": "    | 不明 | LSRC-S1S | 推定       | | WiFi UAVアプリの別のリバースエンジニアリングで言及あり|"
+  },
+  {
+    "row": 24,
+    "rowsha": "UT+CHkr7eZwu6+S6BT4fsA08L1rpu+1ZwnPyWjEH2r8=",
+    "originContent": "    | Velcase    | S101            | TODO | [Amazon](https://www.amazon.com/Foldable-Beginners-Quadcopter-Carrying-Positioning/dp/B0CH341G5F/)  | lower quality build, smaller battery and props than S29 & S20|",
+    "translatedContent": "    | Velcase    | S101            | 未対応      | [Amazon](https://www.amazon.com/Foldable-Beginners-Quadcopter-Carrying-Positioning/dp/B0CH341G5F/)  | S29やS20よりビルド品質が低く、バッテリーとプロペラも小さい|"
+  },
+  {
+    "row": 25,
+    "rowsha": "O9S6vH5HEaNKD6Y32zC9Q+6dYjtRswkMZT8+CtT/33g=",
+    "originContent": "    | Redrie | X29 | TODO | [Amazon](https://www.amazon.com/Adults-1080P-Foldable-Altitude-Auto-Follow-Batteries/dp/B0CZQKNYL5) | Working on this one now|",
+    "translatedContent": "    | Redrie | X29 | 未対応      | [Amazon](https://www.amazon.com/Adults-1080P-Foldable-Altitude-Auto-Follow-Batteries/dp/B0CZQKNYL5) | 現在対応中|"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "ksDtM1wvxLhXr+Asmkkj7OIYSc357V4cOOu+uhwGTGA=",
+    "originContent": "    _**Tested** means the drone has been physically run with turbodrone to ensure its compatibility._",
+    "translatedContent": "    _**テスト済み**は、実際にturbodroneで動作確認済みのドローンを示します。_"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "HDh8w3vBSHRATu2AlinORr8sjMHV8NOPETHI3uwOo1o=",
+    "originContent": "  _**Suspected** means the APK for the drone appears to use the exact same packages and libraries as one of the tested drones._",
+    "translatedContent": "  _**推定**は、ドローンのAPKがテスト済みドローンと同じパッケージとライブラリを使用していると思われる場合を示します。_"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "tspQMFI8GN1uPHSa7AKyLJrXqk01NBL6IiQAGWrPt+U=",
+    "originContent": "  _**TODO** means the APK operates with different byte packets and protocols and will have to be added as a new implementation in the API._",
+    "translatedContent": "  _**未対応**は、APKが異なるバイトパケットやプロトコルを使用しており、APIに新たな実装として追加する必要があることを示します。_"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "/2OP/8LIv8sx5KbmaU7gLn+34BElauZwEnoXvnshs8g=",
+    "originContent": "* WiFi Dongle ([recommend ALFA Network AWUS036ACM](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) or similar) ",
+    "translatedContent": "* WiFiドングル（[ALFA Network AWUS036ACM](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD)などの推奨品） "
+  },
+  {
+    "row": 34,
+    "rowsha": "CQadqlB71amlq7lVm0/1iHGcJXNWU61R/931g7iuzxY=",
+    "originContent": "  * Drone broadcasts its own WiFi network so your computer will have to connect to it.",
+    "translatedContent": "  * ドローンは自身のWiFiネットワークをブロードキャストするため、コンピュータはそれに接続する必要があります。"
+  },
+  {
+    "row": 35,
+    "rowsha": "Hid5eSNJL6PVou4/EsyzCw+TNCeMr22jRt01/sZ61pc=",
+    "originContent": "  * Not strictly necessary because you can use your computer's built-in WiFi radio to connect to the drone's network, but nice to have that way you can stay connected to the internet while flying the drone.",
+    "translatedContent": "  * コンピュータ内蔵のWiFiでも接続可能ですが、その場合はドローン飛行中にインターネット接続が切れる可能性があるため、ドングルを使うとインターネット接続を維持しやすく便利です。"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+    "originContent": "## Setup",
+    "translatedContent": "## セットアップ"
+  },
+  {
+    "row": 39,
+    "rowsha": "35FllnICSfG5tWjp7CESKN8JB3VeXvfVwTXO3vzwqcw=",
+    "originContent": "Move to the `backend` directory",
+    "translatedContent": "`backend`ディレクトリに移動してください"
+  },
+  {
+    "row": 40,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 41,
+    "rowsha": "y+4rtW77Uy7LZ/NrRH86OaVxAVQQlH4wQbZKqf5npn4=",
+    "originContent": "cd backend",
+    "translatedContent": "cd backend"
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "venvを追加"
+  },
+  {
+    "row": 44,
+    "rowsha": "BeUBc1BTBJXRx5tpUjcCdJH44/FCpR81hNc9tSLwEh8=",
+    "originContent": "Add venv",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 46,
+    "rowsha": "rdTNJQmAe860vGFdQOn9/1fQ33cyFdRlndRgEfCzi+Y=",
+    "originContent": "python -m venv venv",
+    "translatedContent": "python -m venv venv"
+  },
+  {
+    "row": 47,
+    "rowsha": "Grul2uxnILzdPgH94tJsdPQfFgWQ441J3GlyUGVDvs4=",
+    "originContent": "source venv/bin/activate",
+    "translatedContent": "source venv/bin/activate"
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "依存関係をインストールする"
+  },
+  {
+    "row": 50,
+    "rowsha": "WoBfqEFOZNeXo0eMKmi5xzwquWSSDnrh97H0gMOVpLA=",
+    "originContent": "Install the dependencies",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+    "originContent": "pip install -r requirements.txt",
+    "translatedContent": "pip install -r requirements.txt"
+  },
+  {
+    "row": 53,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "_もし_ あなたがWindowsを使用している場合は、`curses`ライブラリを手動でインストールする必要があります。"
+  },
+  {
+    "row": 55,
+    "rowsha": "7AmXpgkJTcrV6RhJywY/twGAx067IlgT250Usp/Dojo=",
+    "originContent": "_If_ you are on Windows, you will need to manually install the `curses` library.",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 57,
+    "rowsha": "w0k7uk+xAeBSCrtxFIgKVOUi1WO4Wu4mOKabsJUgoRs=",
+    "originContent": "pip install windows-curses",
+    "translatedContent": "pip install windows-curses"
+  },
+  {
+    "row": 58,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "新しいターミナルウィンドウを開き、フロントエンドの依存関係をインストールします。  "
+  },
+  {
+    "row": 60,
+    "rowsha": "Q7C7yXR1J3iTZur7M0pSq3zkEzfrCn2IF8HDngpYrF4=",
+    "originContent": "Open a new terminal window and install the dependencies for the frontend.",
+    "translatedContent": "_Node.js 20以上がインストールされていることを確認してください。_"
+  },
+  {
+    "row": 61,
+    "rowsha": "b2xl/nfFe03229dYMB4xjZbbwTRWQoVSWpuEnUADIjM=",
+    "originContent": "_Make sure you have Node.js 20+ installed._",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "mBQkeVSRciUI+61SI++H1xbSAp3vL2nFmMMIIwDhQYA=",
+    "originContent": "cd frontend",
+    "translatedContent": "cd frontend"
+  },
+  {
+    "row": 64,
+    "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+    "originContent": "npm install",
+    "translatedContent": "npm install"
+  },
+  {
+    "row": 65,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "yOzPmCRY3K8NzM2kMw9DEU4Ze9WZa6uIPUAnm1IQwE0=",
+    "originContent": "Make sure WiFi Dongle is plugged in, drone is turned on, connect to the \"BRAND-MODEL-XXXXXX\" network before proceeding.",
+    "translatedContent": "WiFiドングルが接続されていること、ドローンの電源が入っていること、そして「BRAND-MODEL-XXXXXX」ネットワークに接続されていることを確認してください。"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "xc/eYSkEPXKRfaQyNwPlBlz2xrscK1NCa9YNhfdSg8g=",
+    "originContent": "Create a `.env` file in the `backend` directory. Add a DRONE_TYPE based on which drone you have:",
+    "translatedContent": "`backend` ディレクトリに `.env` ファイルを作成します。お持ちのドローンに基づいて DRONE_TYPE を追加してください："
+  },
+  {
+    "row": 70,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 71,
+    "rowsha": "fW1IRfB1xFmcd7PtYv5NMYAowlJ7R0dSJY419488B0s=",
+    "originContent": "# For \"com.vison.macrochip\" (s2x) based drones like S20 and S29:",
+    "translatedContent": "# For \"com.vison.macrochip\" (s2x) based drones like S20 and S29:"
+  },
+  {
+    "row": 72,
+    "rowsha": "1UobIKfJI9xxot8Obez1fN9wOFamapZ6doHlvdZnUN8=",
+    "originContent": "DRONE_TYPE=s2x",
+    "translatedContent": "DRONE_TYPE=s2x"
+  },
+  {
+    "row": 73,
+    "rowsha": "bYxPJSfSjha07kHO051oHfse9kCWL59379o/AxtA+54=",
+    "originContent": "# For WiFi UAV-based drones like V88 and D16:",
+    "translatedContent": "# For WiFi UAV-based drones like V88 and D16:"
+  },
+  {
+    "row": 74,
+    "rowsha": "NAS/HtBXzRp5VCZOs9fD4r9oUFirKCWeiKqhGaQ7gAE=",
+    "originContent": "# DRONE_TYPE=wifi_uav ",
+    "translatedContent": "# DRONE_TYPE=wifi_uav "
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "8+iZWNmuF0fSxtYPHBdBYi5ypE110zISShmbvl1Gy3I=",
+    "originContent": "Launch the backend: ",
+    "translatedContent": "バックエンドを起動する: "
+  },
+  {
+    "row": 78,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 79,
+    "rowsha": "NB2FG2SxtFwHLaS+5h/cKnT9XsHkW3b0Q/Tl8TLYLA0=",
+    "originContent": "uvicorn web_server:app",
+    "translatedContent": "uvicorn web_server:app"
+  },
+  {
+    "row": 80,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "別のターミナルで、フロントエンドのウェブクライアントを起動します:"
+  },
+  {
+    "row": 82,
+    "rowsha": "N3b4ljF/QRTZBBEuVDU5DIfF36g9p7mCNSgS4bXT1hQ=",
+    "originContent": "In a separate terminal, launch the frontend web client:",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "IfFnfI9PhCQWiefGw310ACvgFob6wDpxDKh2mTUm//c=",
+    "originContent": "npm run dev",
+    "translatedContent": "npm run dev"
+  },
+  {
+    "row": 85,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`http://localhost:5173` にあるウェブクライアントを開くと、ドローンのビデオフィードが表示され、操作が可能です。"
+  },
+  {
+    "row": 87,
+    "rowsha": "PmnGEJqi5rI3kk32oOgXKxtCVDMFrYzgf7kFk9u6gkY=",
+    "originContent": "Open the web client which will be at `http://localhost:5173` and you should see the drone video feed and be able to control it.",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ゲームコントローラーで操作するには、コントローラーを接続してスティックを動かし検出させ、その後トグルボタンを押してキーボードとコントローラーの操作を切り替えます。"
+  },
+  {
+    "row": 89,
+    "rowsha": "ymWksJRYsmAGHYfgMxUixZIY1SdDJRcJy+6pJkHsZ7U=",
+    "originContent": "To control via a gaming controller, plug it in and move the sticks around for it to be detected and then push the toggle button to switch between keyboard and controller control.",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "安全な場所で飛行してください。できれば風の少ない屋外が望ましいです。また、「着陸」ボタンは _現在_ モーターを即座に停止する緊急停止ボタンの役割を持っています。"
+  },
+  {
+    "row": 91,
+    "rowsha": "pi1269BFRQriGvuz8kHC/HdCG0LLuCrME31Gxv+Yoh8=",
+    "originContent": "Make sure to fly in a safe area, preferably outdoors with little wind. And note that the \"Land\" button _currently_ is more of an E-stop button that will stop the drone motors immediately.",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ステータス"
+  },
+  {
+    "row": 94,
+    "rowsha": "ixUB7+z1qquI8JQNWATJQRG1wieie8X9mj6WzKZ0QjY=",
+    "originContent": "## Status",
+    "translatedContent": "再接続のロジックは最近解決されました。"
+  },
+  {
+    "row": 95,
+    "rowsha": "SXZJA1hR9Wc41/Snq0McR/z/KHyTtCnN4jgboOhmHCM=",
+    "originContent": "Reconnection logic was solved recently.",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ビデオフィード：安定しています。"
+  },
+  {
+    "row": 97,
+    "rowsha": "CHWEB6HukTCk33KHfTRrG0jUKSdXaXBNzSKVY0G0M6U=",
+    "originContent": "Video feed: solid.",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "操作：ウェブクライアント経由で大幅に改善されました。WiFi UAVベースのドローンに関しては、微調整が必要です。"
+  },
+  {
+    "row": 99,
+    "rowsha": "R1eEm4nBBxGssbIaWl8qlTZ/hmeI+ZG91IDUhhlhW8s=",
+    "originContent": "Controls: improved greatly via the web client. The implementation for WiFi UAV-based drones could use some fine-tuning.",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ウェブクライアント：キーボード、ゲームパッドコントローラー、ThinkPad TrackPointマウス（笑）など様々な入力に対応しています。"
+  },
+  {
+    "row": 101,
+    "rowsha": "cdur+4/aYsHfWF7FZeDd8FxFbsCwVb8aqivOwpFutkM=",
+    "originContent": "Web Client: support for various inputs like keyboard, gamepad controllers, and ThinkPad TrackPoint mouse(lol).",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[Amazonのベストセラードローンリスト](https://www.amazon.com/best-selling-drones/s?k=best+selling+drones)から、より多くのドローンのサポート追加に取り組んでいます。"
+  },
+  {
+    "row": 103,
+    "rowsha": "INeFvLKNiIRPkft+vhipnqJN1h4sYoVC0UYvvuhuLmE=",
+    "originContent": "Working on adding support for more drones from [Amazon's best-selling drone list](https://www.amazon.com/best-selling-drones/s?k=best+selling+drones).",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 貢献について"
+  },
+  {
+    "row": 106,
+    "rowsha": "fMu080v6eh/hFkmstsVs1QR9bj14O7X3mMQkwTJevBw=",
+    "originContent": "## Contribute",
+    "translatedContent": "新しい「おもちゃ」ドローンのサポートを追加するには、そのドローンが使用するAPKをミラーサイトからダウンロードし、[jadx](https://github.com/skylot/jadx)でJavaファイルにデコンパイルしてリバースエンジニアリングを開始します。"
+  },
+  {
+    "row": 107,
+    "rowsha": "tIdGP5/RD3Tq2L0ft/8UlhpXrrNUPcEiH5lyS7I5pLM=",
+    "originContent": "To contribute support for a new \"toy\" drone, download the APK the drone uses on a mirror site and start reverse engineering it by decompiling to Java files with [jadx](https://github.com/skylot/jadx).",
+    "translatedContent": "そこから、`AndroidManifest.xml`を確認し、アプリのエントリーポイントとなるクラスを探します。TCPやUDPなど明示的に使用されているポートやプロトコルを探してください。多くのアプリは、APK内に埋め込まれたネイティブのC++ライブラリで実際の通信やビデオフィード処理を行っています。Ghidraなどのツールを使ってネイティブライブラリをデコンパイルし、有用な情報を見つけられるか調べてください。ビデオフィード処理に関しては、JPEG、YUVなどの使用フォーマット、圧縮の有無、およびパケットから画像フレームを再構成する際のバイト構造を把握することが重要です。"
+  },
+  {
+    "row": 108,
+    "rowsha": "e017Nkj2oraCSnl0PnWr4M/bF6xheldzmSz9a6ate8M=",
+    "originContent": "From there, look at the `AndroidManifest.xml` and see if you can find the classes that are entry points for the app. Look for port usage or protocol usage explicitly mentioned like TCP or UDP. Most of these apps will do the actual communication and video feed processing in native C++ libraries that will be embedded inside the APK. You can use a tool like Ghidra to decompile the native libraries and see if you can discover anything useful. For video feed processing you want to figure out what format it uses e.g. JPEG, YUV, etc. and also if it uses compression and what the byte structure looks like when its reforming an image frame from packets.",
+    "translatedContent": "さらに、Wiresharkはアプリが送受信する生データパケットの理解に役立ちます。[こちらの動画](https://x.com/marshallrichrds/status/1923165437698670818)はHiturbo S20ドローンのサポート追加に用いたリバースエンジニアリングの概要を示しています。"
+  },
+  {
+    "row": 109,
+    "rowsha": "CjJ3QcG/cqGTPcEkPkiKhBYG81wRcfzYhoaatkPoZPM=",
+    "originContent": "Additionally, Wireshark is your friend for understanding the raw data packets being sent and received by the app. Watch this [video](https://x.com/marshallrichrds/status/1923165437698670818) for an overview into the reverse engineering process used for adding support for the Hiturbo S20 drone.",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "RCとビデオのプロトコルと処理が分かったら、小さなテストプログラムを作成し、他の人が試せるように `experimental` ディレクトリに追加してください。"
+  },
+  {
+    "row": 111,
+    "rowsha": "Sl/j+lIPp4NFWV/ZabqeH4AUaotRPF7JZw/WBRivdbw=",
+    "originContent": "Once you have the protocols and processing for RC and video figured out, make a small test program and add it to the `experimental` directory at that point if you'd like others to be able to try it out.",
+    "translatedContent": "その後、既存のバックエンドアーキテクチャに対応した実装に取り組むことができます。例としては、リバースエンジニアリングされた `s2x` や `wifi_uav` の実装があります。"
+  },
+  {
+    "row": 112,
+    "rowsha": "DMnuVhGEE2F5bdbqS3K00YNiot+95R8cKk1QkInXTUE=",
+    "originContent": "After that, you can work on an implementation that is compatible with the existing back-end architecture; examples of this are the `s2x` and `wifi_uav` reverse-engineered implementations.",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 実験的サポート"
+  },
+  {
+    "row": 115,
+    "rowsha": "ulInkUzdcKhCwhTvURE01Cj13JthyL8kfWn+o6wg7xQ=",
+    "originContent": "## Experimental Support",
+    "translatedContent": "完全にTurbodroneに統合されていない限定的なサポートのドローンやアプリは、`experimental` ディレクトリをご覧ください。"
+  },
+  {
+    "row": 116,
+    "rowsha": "9yn1ERXzZU+3DlNMEu8dG59vUEdEV4DRDsovv5wBTps=",
+    "originContent": "For drones and apps with limited support which are not yet fully integrated into Turbodrone, see the `experimental` directory.",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

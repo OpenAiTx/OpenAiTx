@@ -1,0 +1,1322 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Fwx8tQhbwqH9TLJTQIrt6WokD0xF+ahtlUIZ3xJBwkY=",
+    "originContent": "## DESCRIPTION",
+    "translatedContent": "## DESCRIPCIÓN"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "QDJCWmu87oP494c/YHF3WOKSJx08TAsBGQSKO8+Yp5Y=",
+    "originContent": "CLI utility managing CloudFlare services - highly focused on DNS - ",
+    "translatedContent": "Utilidad CLI para gestionar servicios de CloudFlare - altamente enfocada en DNS -  "
+  },
+  {
+    "row": 4,
+    "rowsha": "xlqQVbijq7tOOVcKb6/lw4Np5JcuGC6QkmPHbJDkwl4=",
+    "originContent": "using CloudFlare API",
+    "translatedContent": "utilizando la API de CloudFlare"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "VrVm6935kU/vYPjdUbtMc9rI3jAWiFxvEo8JAVFKL0Y=",
+    "originContent": "## SYNOPSIS",
+    "translatedContent": "## SINOPSIS"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 10,
+    "rowsha": "RFCE+DO4SCc3bDscdxvc17oWOIlrmHN+apeuqYFg+c8=",
+    "originContent": "Usage: cloudflare [Options] <command> <parameters>",
+    "translatedContent": "Usage: cloudflare [Options] <command> <parameters>"
+  },
+  {
+    "row": 11,
+    "rowsha": "NnQx/WZLtobZ/9ITM5sTgv2OFQnCH83If6v2i9FvEzM=",
+    "originContent": "Options:",
+    "translatedContent": "Options:"
+  },
+  {
+    "row": 12,
+    "rowsha": "Xx/Ts2CkpjdlNONYuYVTp4Nz7Mh+o3YsvV1TmIjBAi4=",
+    "originContent": " --details, -d    Display detailed info where possible",
+    "translatedContent": " --details, -d    Display detailed info where possible"
+  },
+  {
+    "row": 13,
+    "rowsha": "cDKgVGbK7L3rDV7sIjbkxmSy4QnAhMqjwPY+Cmc0eTA=",
+    "originContent": " --debug, -D      Display API debugging info",
+    "translatedContent": " --debug, -D      Display API debugging info"
+  },
+  {
+    "row": 14,
+    "rowsha": "wEsx038z8xN6P/w1ESEf3iJDXnKKEBgd7uuj5Dc+cgY=",
+    "originContent": " --quiet, -q      Less verbose",
+    "translatedContent": " --quiet, -q      Less verbose"
+  },
+  {
+    "row": 15,
+    "rowsha": "B7F1YbPYCx1YDxDs/kjf/oQx08fKlajFja8WukUBMog=",
+    "originContent": " -E <email>",
+    "translatedContent": " -E <email>"
+  },
+  {
+    "row": 16,
+    "rowsha": "xTl1Wvi0/bWC/xC6J8qAv+XkEju6akLzaqL36kedfEc=",
+    "originContent": " -T <api_token>",
+    "translatedContent": " -T <api_token>"
+  },
+  {
+    "row": 17,
+    "rowsha": "6cBDSah+d2yh8kqfQ2VZNDOFzQkk1ONlmGZiqkxd4fc=",
+    "originContent": "Environment variables:",
+    "translatedContent": "Environment variables:"
+  },
+  {
+    "row": 18,
+    "rowsha": "Dl42PhkOVrayaWMP1wkxamwz1StraKl//YpYI80n91I=",
+    "originContent": " CF_ACCOUNT  -  email address (as -E option)",
+    "translatedContent": " CF_ACCOUNT  -  email address (as -E option)"
+  },
+  {
+    "row": 19,
+    "rowsha": "Fr6LUphheor9EedEisgZDm6bKjb+vjQKA43eHE34Agg=",
+    "originContent": " CF_TOKEN    -  API token (as -T option)",
+    "translatedContent": " CF_TOKEN    -  API token (as -T option)"
+  },
+  {
+    "row": 20,
+    "rowsha": "gZ2i0TXTwf6PQOfensqnfBLQLIcwKILUiYcgrRRXH44=",
+    "originContent": "Enter \"cloudflare help\" to list available commands.",
+    "translatedContent": "Enter \"cloudflare help\" to list available commands."
+  },
+  {
+    "row": 21,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "cX3kQjHsWHbq5d8bM2tuHAEG6kIYjkyHoSzV3zO4J+Q=",
+    "originContent": "## COMMAND REFERENCE",
+    "translatedContent": "## COMMAND REFERENCE"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 27,
+    "rowsha": "CAfej3r9zqN/Eb4AfpaFO+EV9/EtMWCkPBwYTMbUBMk=",
+    "originContent": "$ cloudflare help",
+    "translatedContent": "$ cloudflare help"
+  },
+  {
+    "row": 28,
+    "rowsha": "wSuVFT24+OLMYMAFmWZbuW0h8mYB2NXNp90LVtfol58=",
+    "originContent": "Commands:",
+    "translatedContent": "Commands:"
+  },
+  {
+    "row": 29,
+    "rowsha": "hO6qcx3eWMxDBo3lOBMMv++Fc7aLtvtA50K9P1Y8pNU=",
+    "originContent": "   show, add, delete, change, clear, invalidate, check",
+    "translatedContent": "   show, add, delete, change, clear, invalidate, check"
+  },
+  {
+    "row": 30,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 33,
+    "rowsha": "ZwELoJRThfAO/HfbgVHLOqRmQK1kDMc1nj4NRvRS+yE=",
+    "originContent": "$ cloudflare show",
+    "translatedContent": "$ cloudflare show"
+  },
+  {
+    "row": 34,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "Parameters:"
+  },
+  {
+    "row": 35,
+    "rowsha": "t97nXuY7IdtC6PHt/Ua8atnsYHg9xMoDYnInWwls9NU=",
+    "originContent": "   zones, settings, records, listing",
+    "translatedContent": "   zones, settings, records, listing"
+  },
+  {
+    "row": 36,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "JvEhT3Wk/mjB4baq4MMGK9zIm0UVubNwI4IJwG4gGuo=",
+    "originContent": "$ cloudflare show zones",
+    "translatedContent": "$ cloudflare show zones"
+  },
+  {
+    "row": 40,
+    "rowsha": "U1we3iQfwoynEtieWAZymhx2khHxfzzQCqpUiL3JNlQ=",
+    "originContent": "example.net active  #IDSTRING   OLD-NS1,OLD-NS2  NEW-NS1,NEW-NS2",
+    "translatedContent": "example.net active  #IDSTRING   OLD-NS1,OLD-NS2  NEW-NS1,NEW-NS2"
+  },
+  {
+    "row": 41,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "RexVkPddqJ4lDfGojJC9nOC0hhKDZdfna3T+704uWOI=",
+    "originContent": "$ cloudflare show settings",
+    "translatedContent": "$ cloudflare show settings"
+  },
+  {
+    "row": 45,
+    "rowsha": "5K0qAOzkhovIZWn0oI7CCIS4vX7NB7YHw0qy9h5WE4I=",
+    "originContent": "Usage: cloudflare show settings <zone>",
+    "translatedContent": "Usage: cloudflare show settings <zone>"
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "Rw4qoLWWW2lysObKM4xXBLVvXuo//+mg/muMIj3RaAY=",
+    "originContent": "$ cloudflare show settings example.net",
+    "translatedContent": "$ cloudflare show settings example.net"
+  },
+  {
+    "row": 50,
+    "rowsha": "S/porCur2SWZQ66dFh7EED5qPbXG46YpCzXpjjiPi14=",
+    "originContent": "advanced_ddos                  off",
+    "translatedContent": "advanced_ddos                  off"
+  },
+  {
+    "row": 51,
+    "rowsha": "W8pSCsr2mGHSEhEpG9xrxipUGhw/cNMbe1fkGIVv5SA=",
+    "originContent": "always_online                  on",
+    "translatedContent": "always_online                  on"
+  },
+  {
+    "row": 52,
+    "rowsha": "V4oMEsuWFDg+FwzicqiWQ0KX58FrfPdCUu88dHp+j40=",
+    "originContent": "automatic_https_rewrites       off",
+    "translatedContent": "automatic_https_rewrites       off"
+  },
+  {
+    "row": 53,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 54,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 57,
+    "rowsha": "dO+B3epXG5+122js/i7Cn7+Blp1cpu2jd37+9xaMJQU=",
+    "originContent": "$ cloudflare show records",
+    "translatedContent": "$ cloudflare show records"
+  },
+  {
+    "row": 58,
+    "rowsha": "4JQdCqsG8nS9oTuxIFkR3oGraudXFfdcZA+eOAnqVwM=",
+    "originContent": "Usage: cloudflare show records <zone>",
+    "translatedContent": "Usage: cloudflare show records <zone>"
+  },
+  {
+    "row": 59,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "5N1jwXSXEGc2jIjpXj08TrQuzfcUWpaRR6H1f7pC6NU=",
+    "originContent": "$ cloudflare show records example.net",
+    "translatedContent": "$ cloudflare show records example.net"
+  },
+  {
+    "row": 63,
+    "rowsha": "xchlxra+sR7wDbp0PbNRRb8VuslNz38j1Jh27KquKAY=",
+    "originContent": "www     auto CNAME     example.net.       ; proxiable,proxied #IDSTRING",
+    "translatedContent": "www     auto CNAME     example.net.       ; proxiable,proxied #IDSTRING"
+  },
+  {
+    "row": 64,
+    "rowsha": "P4UbP3UgJDEG03Xb/w4nxGUpgYt9XTpXwnf6eHjah7s=",
+    "originContent": "@       auto A         198.51.100.1       ; proxiable,proxied #IDSTRING",
+    "translatedContent": "@       auto A         198.51.100.1       ; proxiable,proxied #IDSTRING"
+  },
+  {
+    "row": 65,
+    "rowsha": "4GIu+Axokm42R/1u05UpKSgqVncJ1fwvY12/m4HucBk=",
+    "originContent": "*       3600 A         198.51.100.2       ;  #IDSTRING",
+    "translatedContent": "*       3600 A         198.51.100.2       ;  #IDSTRING"
+  },
+  {
+    "row": 66,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 67,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "hEYwamkhcXLGansBs3shDcIDcqM6IScAiKcIPPZEb4A=",
+    "originContent": "$ cloudflare show listings",
+    "translatedContent": "$ cloudflare show listings"
+  },
+  {
+    "row": 71,
+    "rowsha": "pTYaRbw6gIbogjwnjT/L5DJ5aSTjP4jajqSez8eXyzM=",
+    "originContent": "198.51.100.0/24 whitelist       2014-10-30T05:31:30.099176Z     # NOTES",
+    "translatedContent": "198.51.100.0/24 whitelist       2014-10-30T05:31:30.099176Z     # NOTES"
+  },
+  {
+    "row": 72,
+    "rowsha": "+ZJobgCUIX67r+yYGM8Gc64b1f/ivg8wqG9MchlfFXM=",
+    "originContent": "198.51.100.4    block           2014-10-30T05:31:30.099176Z     # NOTES",
+    "translatedContent": "198.51.100.4    block           2014-10-30T05:31:30.099176Z     # NOTES"
+  },
+  {
+    "row": 73,
+    "rowsha": "dH0aM0GPSskuyIR/CQ6r9ZLhrY1JQx8TqkbwSZ11DJ0=",
+    "originContent": "CN              challenge       2014-10-30T05:31:30.099176Z     # NOTES",
+    "translatedContent": "CN              challenge       2014-10-30T05:31:30.099176Z     # NOTES"
+  },
+  {
+    "row": 74,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 78,
+    "rowsha": "q7WyukIh2NJ9yGuSzgEIQNBoiNgagyjS0lkmADQpJz4=",
+    "originContent": "$ cloudflare add",
+    "translatedContent": "$ cloudflare add"
+  },
+  {
+    "row": 79,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "Parameters:"
+  },
+  {
+    "row": 80,
+    "rowsha": "iNw4y8iwoFOWXLMP4hltErimzvGiM+x77jx4niVQsIs=",
+    "originContent": "   zone, record, whitelist, blacklist, challenge",
+    "translatedContent": "   zone, record, whitelist, blacklist, challenge"
+  },
+  {
+    "row": 81,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "VcCwseOlN0/ik/K89K/6IMNFkQ2iU/vv45o+2gDHVt0=",
+    "originContent": "$ cloudflare add zone",
+    "translatedContent": "$ cloudflare add zone"
+  },
+  {
+    "row": 85,
+    "rowsha": "gN8Fo+859geK6W1+CHhYityWb82h1RijIFXUfh4GVow=",
+    "originContent": "Usage: cloudflare add zone <name>",
+    "translatedContent": "Usage: cloudflare add zone <name>"
+  },
+  {
+    "row": 86,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 89,
+    "rowsha": "3H+0+ScbiUESRDWBaKPySrURKUpP54o81BYhg7O+SUA=",
+    "originContent": "$ cloudflare add record",
+    "translatedContent": "$ cloudflare add record"
+  },
+  {
+    "row": 90,
+    "rowsha": "sn7hd6PERmQ8PTNn5Oec5/jVPY9qc/9Q8jjyVBvaFVQ=",
+    "originContent": "Usage: cloudflare add record <zone> <type> <name> <content> [ttl] [prio] [service] [protocol] [weight] [port]",
+    "translatedContent": "Usage: cloudflare add record <zone> <type> <name> <content> [ttl] [prio] [service] [protocol] [weight] [port]"
+  },
+  {
+    "row": 91,
+    "rowsha": "Ge3KkV5IF4qx25pCXbkHPvDlY5atRT2SHjtQgFfyvrs=",
+    "originContent": "   <zone>      domain zone to register the record in, see 'show zones' command",
+    "translatedContent": "   <zone>      domain zone to register the record in, see 'show zones' command"
+  },
+  {
+    "row": 92,
+    "rowsha": "8h3MfvbtkMmVeKPJUTMD/FGptG0tUL1vspyHWpBHqb0=",
+    "originContent": "   <type>      one of: A, AAAA, CNAME, MX, NS, SRV, TXT, SPF, LOC",
+    "translatedContent": "   <type>      one of: A, AAAA, CNAME, MX, NS, SRV, TXT, SPF, LOC"
+  },
+  {
+    "row": 93,
+    "rowsha": "m7TJ89nG9LiPrCNW1gkpJwlRnjDKBbtRUdKqZAKcXTw=",
+    "originContent": "   <name>      subdomain name, or \"@\" to refer to the domain's root",
+    "translatedContent": "   <name>      subdomain name, or \"@\" to refer to the domain's root"
+  },
+  {
+    "row": 94,
+    "rowsha": "bKv1bv4k/JW92qpRiIRC8CCbVmOVCIHm9Ssc5FzPeDU=",
+    "originContent": "   <content>   IP address for A, AAAA",
+    "translatedContent": "   <content>   IP address for A, AAAA"
+  },
+  {
+    "row": 95,
+    "rowsha": "Zy1ELt9V1wHHKO5n2i06ml28ImQncFehoKTUcEwaWMc=",
+    "originContent": "               FQDN for CNAME, MX, NS, SRV",
+    "translatedContent": "               FQDN for CNAME, MX, NS, SRV"
+  },
+  {
+    "row": 96,
+    "rowsha": "5pLDgxmrW8HU23Cx3+UMmwrJRhX4990EQgMIXPtl+e4=",
+    "originContent": "               any text for TXT, spf definition text for SPF",
+    "translatedContent": "               any text for TXT, spf definition text for SPF"
+  },
+  {
+    "row": 97,
+    "rowsha": "iEFSoGcAqvYxhrfmxrMmRZBkUMy0Sgxj9/WHWY3/su4=",
+    "originContent": "               coordinates for LOC (see RFC 1876 section 3)",
+    "translatedContent": "               coordinates for LOC (see RFC 1876 section 3)"
+  },
+  {
+    "row": 98,
+    "rowsha": "F/tpJ3hXH895BKppQS9hzRRQxPFPe5Lz+GkNCZIkO40=",
+    "originContent": "   [ttl]       Time To Live, 1 = auto",
+    "translatedContent": "   [ttl]       Time To Live, 1 = auto"
+  },
+  {
+    "row": 99,
+    "rowsha": "0XNZNJjmGRuzQV/6KXsx8CF8hz+eZflnx0eUUw64Wys=",
+    "originContent": "   [prio]      required only by MX and SRV records, enter \"10\" if unsure",
+    "translatedContent": "   [prio]      required only by MX and SRV records, enter \"10\" if unsure"
+  },
+  {
+    "row": 100,
+    "rowsha": "emIjmJ3412I2xQUYAYZEqdLMPFh0zfobPm7RVAoldzM=",
+    "originContent": "   These ones are only for SRV records:",
+    "translatedContent": "   These ones are only for SRV records:"
+  },
+  {
+    "row": 101,
+    "rowsha": "fhxuwMSBx5stIBnPiioS5EtsULOtBRiQT3H6O9ypsBc=",
+    "originContent": "   [service]   service name, eg. \"sip\"",
+    "translatedContent": "   [service]   service name, eg. \"sip\""
+  },
+  {
+    "row": 102,
+    "rowsha": "ti52A4O8UUJEnEuM+iESexPpLtiWm5FLjnekAjfuuBg=",
+    "originContent": "   [protocol]  tcp, udp, tls",
+    "translatedContent": "   [protocol]  tcp, udp, tls"
+  },
+  {
+    "row": 103,
+    "rowsha": "lBx0c+KpgtY1sYygaufb95ycG+4HEGywcrdr7mpKxkE=",
+    "originContent": "   [weight]    relative weight for records with the same priority",
+    "translatedContent": "   [weight]    relative weight for records with the same priority"
+  },
+  {
+    "row": 104,
+    "rowsha": "5GPD/qSY5mp4QR8P1iPXURV96fe/tm9TNO5ornA75wA=",
+    "originContent": "   [port]      layer-4 port number",
+    "translatedContent": "   [port]      layer-4 port number"
+  },
+  {
+    "row": 105,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 108,
+    "rowsha": "nl0amOiwPIFygvCko+gLAjG07rxsti5GQytbl/So1TI=",
+    "originContent": "$ cloudflare add whitelist",
+    "translatedContent": "$ cloudflare add whitelist"
+  },
+  {
+    "row": 109,
+    "rowsha": "op6NGOg+1IWcF2EIzfxD0cBqNqs27ALnsEq4AowLAc8=",
+    "originContent": "Usage: cloudflare add [<whitelist | blacklist | challenge>] [<IP | IP/mask | country_code>] [note]",
+    "translatedContent": "Usage: cloudflare add [<whitelist | blacklist | challenge>] [<IP | IP/mask | country_code>] [note]"
+  },
+  {
+    "row": 110,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "6d4KGUPTy8Eilpinr96865nTTPrfHzi1PlphHfDQtiw=",
+    "originContent": "$ cloudflare delete",
+    "translatedContent": "$ cloudflare delete"
+  },
+  {
+    "row": 114,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "Parameters:"
+  },
+  {
+    "row": 115,
+    "rowsha": "qfBz9B3TlIS/LzOO7oKpGtxvP1eUHNMEv1zOe4/tf2w=",
+    "originContent": "   zone, record, listing",
+    "translatedContent": "   zone, record, listing"
+  },
+  {
+    "row": 116,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 119,
+    "rowsha": "K2yWe4jygmJ0pAi8OSjJsFO46SIOQ/qSFCP4KkVHWLI=",
+    "originContent": "$ cloudflare delete zone",
+    "translatedContent": "$ cloudflare delete zone"
+  },
+  {
+    "row": 120,
+    "rowsha": "MveNeaa/J1Ycxq+o+YqDHarkhfaBa702783Lm+87PHA=",
+    "originContent": "Usage: cloudflare delete zone <name>",
+    "translatedContent": "Usage: cloudflare delete zone <name>"
+  },
+  {
+    "row": 121,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 124,
+    "rowsha": "d4Nu7nqBrt4h35E01gt57Hq/wp4YIjkaLdaLGbaJ+H8=",
+    "originContent": "$ cloudflare delete record",
+    "translatedContent": "$ cloudflare delete record"
+  },
+  {
+    "row": 125,
+    "rowsha": "vySXQKtwRrNOfXkatxqWvgnAQuEf3xooKIovRc9OZ30=",
+    "originContent": "Usage: cloudflare delete record [<record-name> [<record-type> | first] | [<zone-name>|<zone-id>] <record-id>]",
+    "translatedContent": "Usage: cloudflare delete record [<record-name> [<record-type> | first] | [<zone-name>|<zone-id>] <record-id>]"
+  },
+  {
+    "row": 126,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 129,
+    "rowsha": "+SMwXVlx2O9M977WKxq3Ag6VdMNLODd8fBw/EAPQJV4=",
+    "originContent": "$ cloudflare delete record ftp.example.net",
+    "translatedContent": "$ cloudflare delete record ftp.example.net"
+  },
+  {
+    "row": 130,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 133,
+    "rowsha": "whEIg1rAnoMNPti/f8cG/Ujh0b0fV+payRIAPjcn3NQ=",
+    "originContent": "$ cloudflare delete record example.net 1234567890abcdef1234567890abcdef",
+    "translatedContent": "$ cloudflare delete record example.net 1234567890abcdef1234567890abcdef"
+  },
+  {
+    "row": 134,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 137,
+    "rowsha": "TxvakGi1LZXoQ0UljpJSRSZHWinF+7eRy9j28Iu8HDo=",
+    "originContent": "$ cloudflare delete listing",
+    "translatedContent": "$ cloudflare delete listing"
+  },
+  {
+    "row": 138,
+    "rowsha": "qyMQ2CXIqyVcw/0CPNCXE8DmGvE9oDJT4OCMqoSW9DM=",
+    "originContent": "Usage: cloudflare delete listing [<IP | IP range | country_code | ID | note_fragment>] [first]",
+    "translatedContent": "Usage: cloudflare delete listing [<IP | IP range | country_code | ID | note_fragment>] [first]"
+  },
+  {
+    "row": 139,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 142,
+    "rowsha": "SQl5gnmJqyK+zfzFJYbAlBc4mQTxe0vT9T4W+UJMV7k=",
+    "originContent": "$ cloudflare change",
+    "translatedContent": "$ cloudflare change"
+  },
+  {
+    "row": 143,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "Parameters:"
+  },
+  {
+    "row": 144,
+    "rowsha": "7J3X5JNTnS662B6QhaBlkN+ONWW6q33lEzsIx1EHfYg=",
+    "originContent": "   zone, record",
+    "translatedContent": "   zone, record"
+  },
+  {
+    "row": 145,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 148,
+    "rowsha": "RgBSDXxdxnJR+DruqThRig+am6VN8RJFwOxoXjBR15w=",
+    "originContent": "$ cloudflare change zone",
+    "translatedContent": "$ cloudflare change zone"
+  },
+  {
+    "row": 149,
+    "rowsha": "Ql4vLcnwvTG/VLS/8VJebJk3OWX4avwp4/WU18lHaYc=",
+    "originContent": "Usage: cloudflare change zone <zone> <setting> <value> [<setting> <value> [ ... ]]",
+    "translatedContent": "Usage: cloudflare change zone <zone> <setting> <value> [<setting> <value> [ ... ]]"
+  },
+  {
+    "row": 150,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 153,
+    "rowsha": "D6b3f/M2Fr64pafxavvFwUldlOXCownW0Ssrzjd8mrw=",
+    "originContent": "$ cloudflare change zone example.net",
+    "translatedContent": "$ cloudflare change zone example.net"
+  },
+  {
+    "row": 154,
+    "rowsha": "qiih95cuTJz5mx70/BkZLjTezojlWcOHzRDoUAqGZPI=",
+    "originContent": "Settings:",
+    "translatedContent": "Settings:"
+  },
+  {
+    "row": 155,
+    "rowsha": "7NqtHlqeNBMhp2/I7SbVumKlZd1qovNUt1FpmX4dk10=",
+    "originContent": "   security_level [under_attack | high | medium | low | essentially_off]",
+    "translatedContent": "   security_level [under_attack | high | medium | low | essentially_off]"
+  },
+  {
+    "row": 156,
+    "rowsha": "qzBACkhLxxSnI1p0oUdD35zke3PK91X/hj8DrtSzHWk=",
+    "originContent": "   cache_level [aggressive | basic | simplified]",
+    "translatedContent": "   cache_level [aggressive | basic | simplified]"
+  },
+  {
+    "row": 157,
+    "rowsha": "W4WzihSYRFmqf4+ViaiEGAP74tl8lOBpMB0sXJZBM8s=",
+    "originContent": "   rocket_loader [on | off | manual]",
+    "translatedContent": "   rocket_loader [on | off | manual]"
+  },
+  {
+    "row": 158,
+    "rowsha": "0fkYXJYk4PTLEgTDzaZqa5Rg3xLvYxqYADUOl/3eZt0=",
+    "originContent": "   minify <any variation of css, html, js delimited by comma>",
+    "translatedContent": "   minify <any variation of css, html, js delimited by comma>"
+  },
+  {
+    "row": 159,
+    "rowsha": "trcX91OryDSjdfxNEinXcVWmwg7Pf4iO30KgMl3DDYk=",
+    "originContent": "   development_mode [on | off]",
+    "translatedContent": "   development_mode [on | off]"
+  },
+  {
+    "row": 160,
+    "rowsha": "4/G174e636ttkAhbzIlAGxn203xUY0sgyCT++D9h8pA=",
+    "originContent": "   mirage [on | off]",
+    "translatedContent": "   mirage [on | off]"
+  },
+  {
+    "row": 161,
+    "rowsha": "OUpMDVSEyqalx6WcFckO7JuhsBhrHimKQ4o1s/RZgMg=",
+    "originContent": "   ipv6 [on | off]",
+    "translatedContent": "   ipv6 [on | off]"
+  },
+  {
+    "row": 162,
+    "rowsha": "ZB6siPQUURijR4XLqniphM7F8WFS3oV8HNJEqqwEfo4=",
+    "originContent": "Other: see output of 'show zone' command",
+    "translatedContent": "Other: see output of 'show zone' command"
+  },
+  {
+    "row": 163,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 166,
+    "rowsha": "taNl2EGAIsZvZHSg6uEiLrJdMx21y/b87ovNgS0uKgo=",
+    "originContent": "$ cloudflare change record",
+    "translatedContent": "$ cloudflare change record"
+  },
+  {
+    "row": 167,
+    "rowsha": "fuuIS3NdTcn7/QIR//JMtpBem+acwEJcpzNy2uLGjIM=",
+    "originContent": "Usage: cloudflare set record <name> [type <type> | first | oldcontent <content>] <setting> <value> [<setting> <value> [ ... ]]",
+    "translatedContent": "Usage: cloudflare set record <name> [type <type> | first | oldcontent <content>] <setting> <value> [<setting> <value> [ ... ]]"
+  },
+  {
+    "row": 168,
+    "rowsha": "P3rOLsSh3XsrzxGxDkBMo2xc0F3HUzZyu6HbsUQUqRc=",
+    "originContent": "You must enter \"type\" and the record type (A, MX, ...) when the record name is ambiguous,",
+    "translatedContent": "You must enter \"type\" and the record type (A, MX, ...) when the record name is ambiguous,"
+  },
+  {
+    "row": 169,
+    "rowsha": "3DKLMrhHbgXxQYOPFpu8tOEbRawNXm4vh2QnPMoVpOA=",
+    "originContent": "or enter \"first\" to modify the first matching record in the zone,",
+    "translatedContent": "or enter \"first\" to modify the first matching record in the zone,"
+  },
+  {
+    "row": 170,
+    "rowsha": "ZKPsedT2YJmqopG7EQqTmagsOFzx3QV45DKANQRcoHw=",
+    "originContent": "or enter \"oldcontent\" and the exact content of the record you want to modify if there are more records with the same name and type.",
+    "translatedContent": "or enter \"oldcontent\" and the exact content of the record you want to modify if there are more records with the same name and type."
+  },
+  {
+    "row": 171,
+    "rowsha": "qiih95cuTJz5mx70/BkZLjTezojlWcOHzRDoUAqGZPI=",
+    "originContent": "Settings:",
+    "translatedContent": "Settings:"
+  },
+  {
+    "row": 172,
+    "rowsha": "tFm0HTUWnKB7whLHjdOHpH8X7+Sp5VSakfZxTCQwGdY=",
+    "originContent": "  newname        Rename the record",
+    "translatedContent": "  newname        Rename the record"
+  },
+  {
+    "row": 173,
+    "rowsha": "ojvCnlpounX4th3oRH95TEZHnnTnRKwxfk5XDy6S8xQ=",
+    "originContent": "  newtype        Change type",
+    "translatedContent": "  newtype        Change type"
+  },
+  {
+    "row": 174,
+    "rowsha": "PZU2I7rwW3Ew1Ad49XsoxTkL7Mghk3jQLIWkdDjSF5o=",
+    "originContent": "  content        See description in 'add record' command",
+    "translatedContent": "  content        See description in 'add record' command"
+  },
+  {
+    "row": 175,
+    "rowsha": "ll5XSpPHObVejyM/k5RNy3tXdk+wQKJc7wsMiNXrc/E=",
+    "originContent": "  ttl            See description in 'add record' command",
+    "translatedContent": "  ttl            See description in 'add record' command"
+  },
+  {
+    "row": 176,
+    "rowsha": "WgdwIY3yGlF+d6cHd663EZiIfQw1S/AIREFio3Q0a0I=",
+    "originContent": "  proxied        Turn CF proxying on/off",
+    "translatedContent": "  proxied        Turn CF proxying on/off"
+  },
+  {
+    "row": 177,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 180,
+    "rowsha": "TjFd4FcZFW4booHJRh+X2FAuVCuCVZVZTH5flvLzQ9Y=",
+    "originContent": "$ cloudflare clear",
+    "translatedContent": "$ cloudflare clear"
+  },
+  {
+    "row": 181,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "Parameters:"
+  },
+  {
+    "row": 182,
+    "rowsha": "xU4+kLN6ZTLSoeATqhdtiuq+paQhccBpMQeb14CpK2g=",
+    "originContent": "   cache",
+    "translatedContent": "   cache"
+  },
+  {
+    "row": 183,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 186,
+    "rowsha": "BuMVYyUeiDkq/hnCLUYg/D0abpzhJtZ1IhsVQY9TDVQ=",
+    "originContent": "$ cloudflare clear cache",
+    "translatedContent": "$ cloudflare clear cache"
+  },
+  {
+    "row": 187,
+    "rowsha": "F4xfb5Is+MOpbiQvJ9ZkxNTnjWtoPL6txVE76WouKpY=",
+    "originContent": "Usage: cloudflare clear cache <zone>",
+    "translatedContent": "Usage: cloudflare clear cache <zone>"
+  },
+  {
+    "row": 188,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 189,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 191,
+    "rowsha": "rku8rpjxGdanBnkEUUzb08SxdwhhZCT5yzWUtJXiFk8=",
+    "originContent": "$ cloudflare invalidate",
+    "translatedContent": "$ cloudflare invalidate"
+  },
+  {
+    "row": 192,
+    "rowsha": "bgwZvL+td4eaGC6Ai2mStr6jxq//sO6pLf9Kjnh4vZ4=",
+    "originContent": "Usage: cloudflare invalidate <url-1> [url-2 [url-3 [...]]]",
+    "translatedContent": "Usage: cloudflare invalidate <url-1> [url-2 [url-3 [...]]]"
+  },
+  {
+    "row": 193,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 196,
+    "rowsha": "G56vqSNraFVujUQ4cUC+tZfA+XeOlruhmUn6SDFAubs=",
+    "originContent": "$ cloudflare check",
+    "translatedContent": "$ cloudflare check"
+  },
+  {
+    "row": 197,
+    "rowsha": "A6yveNyIjAfWiFLPdPFwy6wcJxo8P2E2eFh/8wTx5II=",
+    "originContent": "Parameters:",
+    "translatedContent": "Parameters:"
+  },
+  {
+    "row": 198,
+    "rowsha": "2UyLeh6c7c2mLP7FEBeu9w5b8R4ciHR94FX/CovqaNQ=",
+    "originContent": "   zone",
+    "translatedContent": "   zone"
+  },
+  {
+    "row": 199,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 202,
+    "rowsha": "9Fna71e7CSIlTY3m/HH27+F4MAGDYDGm3cfzojCnS/w=",
+    "originContent": "$ cloudflare check zone",
+    "translatedContent": "$ cloudflare check zone"
+  },
+  {
+    "row": 203,
+    "rowsha": "qu2KnfOmTVL+biQqjhifMWR6B3xPuZ2ExmecTtgzVt4=",
+    "originContent": "Usage: cloudflare check zone <zone>",
+    "translatedContent": "Usage: cloudflare check zone <zone>"
+  },
+  {
+    "row": 204,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## REQUISITOS"
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 207,
+    "rowsha": "/Iaisb2VmpGK033ksBOwncnSkWjE+Dsu44kf+1m5aNU=",
+    "originContent": "## REQUIREMENTS",
+    "translatedContent": "- bash 4.x"
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- curl"
+  },
+  {
+    "row": 209,
+    "rowsha": "uq86e0l4ftEYUUtoCUUaYebRy/NyLRddi5+AmpE29ZM=",
+    "originContent": "- bash 4.x",
+    "translatedContent": "- php (php-cli) 5.x"
+  },
+  {
+    "row": 210,
+    "rowsha": "f/BL0kMRqKJTNaREwRM59+G/L64d8mnuN+Yiv5jDirs=",
+    "originContent": "- curl",
+    "translatedContent": ""
+  },
+  {
+    "row": 211,
+    "rowsha": "TDEXP5G3eD18ohiMyw3Ke8SawgcKfAFqUp/JnFgovCU=",
+    "originContent": "- php (php-cli) 5.x",
+    "translatedContent": ""
+  },
+  {
+    "row": 212,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## DONAR"
+  },
+  {
+    "row": 213,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 214,
+    "rowsha": "qpjU6WjO+4Mtz6eiRNGaGxBt7O4aUBDmEQg/oSdjdYU=",
+    "originContent": "## DONATE",
+    "translatedContent": "Apóyame para mejorar cloudflare-cli"
+  },
+  {
+    "row": 215,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "HzKsXNCZDCO7tqW27/9kcy/myydu3ISqnd4xlcdLOgc=",
+    "originContent": "Support me to improve cloudflare-cli",
+    "translatedContent": "<a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KAXRPGK8YBRVG\"><img src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\" /></a>"
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 218,
+    "rowsha": "tKVBn3tijxdkpa2AN6KOWza+1Tvb7aLw9GidQV3ghAs=",
+    "originContent": "<a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KAXRPGK8YBRVG\"><img src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\" /></a>",
+    "translatedContent": ""
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

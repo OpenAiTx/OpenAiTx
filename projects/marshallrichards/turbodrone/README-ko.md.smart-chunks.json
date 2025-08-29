@@ -1,0 +1,925 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Turbodrone\nReverse-engineered API and client for controlling some of the best-selling ~$50 \"toy\" drones on Amazon from a computer replacing the closed-source mobile apps they come with.\n\n![S20 Drone Short Clip](https://raw.githubusercontent.com/marshallrichards/turbodrone/master/docs/images/s20-drone-short-clip-small.gif)\n\n## Introduction\nNowadays, there are incredibly cheap \"toy\" drones available on Amazon that are basically pared-down clones of the early DJI mavic. Only ~$50 to have a 1080p camera for FPV and recording, tiny downward-facing optical flow sensor for position and altitude hold, and a well-tuned flight profile out-of-the-box. The only problem with drones like this is that they run closed-source firmware and are locked to only being controlled by a custom mobile app. I thought it would be cool to free some of these drones from their \"jail\" and write an API and client for accessing the video feed and sending control commands down to the drone by reverse-engineering how the mobile apps work. That way you can turn a highly capable $50 \"toy\" drone into something that can be programmatically controlled and used for all sorts of applications and experiments.\n\n## Hardware\n* WiFi Camera Drone (ranked in order of recommendation):\n\n    | Brand      | Model Number(s)    | Compatibility | Purchase Link                                               | Notes |\n    |------------|-----------------|---------------|-------------------------------------------------------------|-------|\n    | Karuisrc | K417 | Tested | [Amazon](https://www.amazon.com/Electric-Adjustable-AIdrones-Quadcopter-Beginners/dp/B0CYPSJ34H/) | My favorite right now. Only one on the list with brushless motors! Build quality is fantastic. |\n    | Loiley     | S29             | Tested    | [Amazon](https://www.amazon.com/Beginners-Altitude-Gestures-Adjustable-Batteries/dp/B0CFDVKJKC)                  | Best build quality, has servo for tilting camera(_not implemented in API yet_)|\n    | Hiturbo    | S20             | Tested    | [Amazon](https://www.amazon.com/dp/B0BBVZ849G), [Alternate Amazon Listing](https://www.amazon.com/Beginners-Foldable-Quadcopter-Gestures-Batteries/dp/B0D8LK1KJ3)                  | Original test platform, great build quality|\n    | FlyVista | V88 | Tested | [Amazon](https://www.amazon.com/dp/B0D5CXY6X8) | |\n    | ? | D16/GT3/V66 | Tested | cheapest on [Aliexpress](https://www.aliexpress.us/item/3256808590663347.html), [Amazon](https://www.amazon.com/THOAML-Batteries-Altitude-Headless-360%C2%B0Flip/dp/B0F1D6F62J/) | 20% smaller DJI Neo clone. Only really good for indoor flight. \n    | Several Brands | E58 | Tested | [Amazon](https://www.amazon.com/Foldable-Quadcopter-Beginners-Batteries-Waypoints/dp/B09KV8L7WN/) |  |\n    | Several Brands | E88/E88 Pro | Suspected | [Amazon](https://www.amazon.com/Foldable-Camera-Quadcopter-Altitude-Beginner/dp/B0DZCLFQXN) | |\n    | Several Brands | E99/E99 Pro | Suspected | [Amazon](https://www.amazon.com/LJN53-Foldable-Drone-Dual-Cameras/dp/B0DRH9C6RF) | |\n    | Swifsen | A35 | Suspected | [Amazon](https://a.co/d/bqKvloz) | Very small \"toy\" drone|\n    | Unknown | LSRC-S1S | Suspected | | mentioned in another reverse-engineering effort for the WiFi UAV app|\n    | Velcase    | S101            | TODO | [Amazon](https://www.amazon.com/Foldable-Beginners-Quadcopter-Carrying-Positioning/dp/B0CH341G5F/)  | lower quality build, smaller battery and props than S29 & S20|\n    | Redrie | X29 | TODO | [Amazon](https://www.amazon.com/Adults-1080P-Foldable-Altitude-Auto-Follow-Batteries/dp/B0CZQKNYL5) | Working on this one now|\n\n    _**Tested** means the drone has been physically run with turbodrone to ensure its compatibility._\n\n  _**Suspected** means the APK for the drone appears to use the exact same packages and libraries as one of the tested drones._\n\n  _**TODO** means the APK operates with different byte packets and protocols and will have to be added as a new implementation in the API._\n\n* WiFi Dongle ([recommend ALFA Network AWUS036ACM](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) or similar) \n  * Drone broadcasts its own WiFi network so your computer will have to connect to it.\n  * Not strictly necessary because you can use your computer's built-in WiFi radio to connect to the drone's network, but nice to have that way you can stay connected to the internet while flying the drone.\n\n\n## Setup\nMove to the `backend` directory",
+    "ContentSha": "SB8wFnOIFLNPw5IG6COtPlYHoBwbP0ApXMi+tSRZGmw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Turbodrone\nAmazon에서 판매되는 약 $50짜리 인기 \"장난감\" 드론들을 닫힌 소스의 모바일 앱 대신 컴퓨터에서 제어할 수 있도록 리버스 엔지니어링한 API 및 클라이언트입니다.\n\n![S20 Drone Short Clip](https://raw.githubusercontent.com/marshallrichards/turbodrone/master/docs/images/s20-drone-short-clip-small.gif)\n\n## 소개\n요즘 Amazon에서는 기본적으로 초기 DJI 매빅을 축소한 형태의 믿을 수 없을 만큼 저렴한 \"장난감\" 드론들이 있습니다. 단지 약 $50에 FPV 및 녹화를 위한 1080p 카메라, 위치 및 고도 유지를 위한 작은 하향 광학 흐름 센서, 그리고 기본적으로 잘 조율된 비행 프로필을 제공합니다. 이런 드론들의 유일한 문제는 폐쇄형 펌웨어를 사용하며 맞춤형 모바일 앱으로만 제어가 가능하다는 점입니다. 저는 이런 드론들을 \"감옥\"에서 해방시키고, 모바일 앱이 작동하는 방식을 리버스 엔지니어링하여 비디오 피드에 접근하고 드론에 제어 명령을 전달할 수 있는 API와 클라이언트를 작성하는 것이 멋질 것 같다고 생각했습니다. 이렇게 하면 매우 강력한 $50짜리 \"장난감\" 드론을 프로그래밍 방식으로 제어할 수 있어 다양한 응용 및 실험에 사용할 수 있습니다.\n\n## 하드웨어\n* WiFi 카메라 드론 (추천 순서대로):\n\n    | 브랜드      | 모델 번호       | 호환성       | 구매 링크                                                  | 비고 |\n    |------------|-----------------|-------------|------------------------------------------------------------|-------|\n    | Karuisrc   | K417            | 테스트 완료 | [Amazon](https://www.amazon.com/Electric-Adjustable-AIdrones-Quadcopter-Beginners/dp/B0CYPSJ34H/) | 현재 가장 좋아하는 모델. 이 목록에서 유일하게 브러시리스 모터 탑재! 빌드 품질이 환상적입니다. |\n    | Loiley     | S29             | 테스트 완료 | [Amazon](https://www.amazon.com/Beginners-Altitude-Gestures-Adjustable-Batteries/dp/B0CFDVKJKC)        | 최고 빌드 품질, 카메라 틸트를 위한 서보 있음(_API에는 아직 구현 안 됨_) |\n    | Hiturbo    | S20             | 테스트 완료 | [Amazon](https://www.amazon.com/dp/B0BBVZ849G), [대체 Amazon 링크](https://www.amazon.com/Beginners-Foldable-Quadcopter-Gestures-Batteries/dp/B0D8LK1KJ3) | 원래 테스트 플랫폼, 훌륭한 빌드 품질 |\n    | FlyVista   | V88             | 테스트 완료 | [Amazon](https://www.amazon.com/dp/B0D5CXY6X8)                                         |       |\n    | ?          | D16/GT3/V66     | 테스트 완료 | 가장 저렴한 제품 [Aliexpress](https://www.aliexpress.us/item/3256808590663347.html), [Amazon](https://www.amazon.com/THOAML-Batteries-Altitude-Headless-360%C2%B0Flip/dp/B0F1D6F62J/) | DJI Neo 클론의 20% 크기. 실내 비행에만 적합. |\n    | 여러 브랜드 | E58             | 테스트 완료 | [Amazon](https://www.amazon.com/Foldable-Quadcopter-Beginners-Batteries-Waypoints/dp/B09KV8L7WN/)     |       |\n    | 여러 브랜드 | E88/E88 Pro     | 추정       | [Amazon](https://www.amazon.com/Foldable-Camera-Quadcopter-Altitude-Beginner/dp/B0DZCLFQXN)            |       |\n    | 여러 브랜드 | E99/E99 Pro     | 추정       | [Amazon](https://www.amazon.com/LJN53-Foldable-Drone-Dual-Cameras/dp/B0DRH9C6RF)                      |       |\n    | Swifsen    | A35             | 추정       | [Amazon](https://a.co/d/bqKvloz)                                                        | 매우 작은 \"장난감\" 드론 |\n    | 알 수 없음 | LSRC-S1S        | 추정       |                                                            | WiFi UAV 앱 리버스 엔지니어링 작업에서 언급됨 |\n    | Velcase   | S101            | TODO       | [Amazon](https://www.amazon.com/Foldable-Beginners-Quadcopter-Carrying-Positioning/dp/B0CH341G5F/)    | S29 및 S20보다 낮은 품질의 빌드, 배터리 및 프로펠러가 더 작음 |\n    | Redrie    | X29             | TODO       | [Amazon](https://www.amazon.com/Adults-1080P-Foldable-Altitude-Auto-Follow-Batteries/dp/B0CZQKNYL5)    | 현재 작업 중 |\n\n    _**테스트 완료**란 드론이 실제로 turbodrone으로 실행되어 호환성이 확인된 것을 의미합니다._\n\n    _**추정**은 드론 APK가 테스트된 드론과 동일한 패키지 및 라이브러리를 사용하는 것으로 보이는 경우입니다._\n\n    _**TODO**는 APK가 다른 바이트 패킷 및 프로토콜을 사용하여 API에 새로운 구현으로 추가해야 함을 의미합니다._\n\n* WiFi 동글 ([ALFA Network AWUS036ACM 추천](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) 또는 유사 제품) \n  * 드론이 자체 WiFi 네트워크를 방송하므로 컴퓨터가 해당 네트워크에 연결해야 합니다.\n  * 컴퓨터 내장 WiFi 라디오를 사용해도 되나, 이렇게 하면 드론을 조종하면서 인터넷 연결을 유지할 수 있어 편리합니다.\n\n## 설치\n`backend` 디렉터리로 이동하세요\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7fbEXSz/MioeTiZmd0XDjvNUNHd1OXJupunFLn6GE0I=",
+        "originContent": "# Turbodrone",
+        "translatedContent": "# Turbodrone"
+      },
+      {
+        "row": 2,
+        "rowsha": "DjMvOJ+0ZCVe4HBj/VC0dof4RqzGf2XXk98uNd+l2Fc=",
+        "originContent": "Reverse-engineered API and client for controlling some of the best-selling ~$50 \"toy\" drones on Amazon from a computer replacing the closed-source mobile apps they come with.",
+        "translatedContent": "Amazon에서 판매되는 약 $50짜리 인기 \"장난감\" 드론들을 닫힌 소스의 모바일 앱 대신 컴퓨터에서 제어할 수 있도록 리버스 엔지니어링한 API 및 클라이언트입니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "O5kD8aIMKnKFvh+Azsurqh/LN3dCq05wMER6+0hMMPE=",
+        "originContent": "![S20 Drone Short Clip](https://raw.githubusercontent.com/marshallrichards/turbodrone/master/docs/images/s20-drone-short-clip-small.gif)",
+        "translatedContent": "![S20 Drone Short Clip](https://raw.githubusercontent.com/marshallrichards/turbodrone/master/docs/images/s20-drone-short-clip-small.gif)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+        "originContent": "## Introduction",
+        "translatedContent": "## 소개"
+      },
+      {
+        "row": 7,
+        "rowsha": "T9Tesd3ok5d+P2KVFQZH98nwmd7q+Icd/0vslSHrdb0=",
+        "originContent": "Nowadays, there are incredibly cheap \"toy\" drones available on Amazon that are basically pared-down clones of the early DJI mavic. Only ~$50 to have a 1080p camera for FPV and recording, tiny downward-facing optical flow sensor for position and altitude hold, and a well-tuned flight profile out-of-the-box. The only problem with drones like this is that they run closed-source firmware and are locked to only being controlled by a custom mobile app. I thought it would be cool to free some of these drones from their \"jail\" and write an API and client for accessing the video feed and sending control commands down to the drone by reverse-engineering how the mobile apps work. That way you can turn a highly capable $50 \"toy\" drone into something that can be programmatically controlled and used for all sorts of applications and experiments.",
+        "translatedContent": "요즘 Amazon에서는 기본적으로 초기 DJI 매빅을 축소한 형태의 믿을 수 없을 만큼 저렴한 \"장난감\" 드론들이 있습니다. 단지 약 $50에 FPV 및 녹화를 위한 1080p 카메라, 위치 및 고도 유지를 위한 작은 하향 광학 흐름 센서, 그리고 기본적으로 잘 조율된 비행 프로필을 제공합니다. 이런 드론들의 유일한 문제는 폐쇄형 펌웨어를 사용하며 맞춤형 모바일 앱으로만 제어가 가능하다는 점입니다. 저는 이런 드론들을 \"감옥\"에서 해방시키고, 모바일 앱이 작동하는 방식을 리버스 엔지니어링하여 비디오 피드에 접근하고 드론에 제어 명령을 전달할 수 있는 API와 클라이언트를 작성하는 것이 멋질 것 같다고 생각했습니다. 이렇게 하면 매우 강력한 $50짜리 \"장난감\" 드론을 프로그래밍 방식으로 제어할 수 있어 다양한 응용 및 실험에 사용할 수 있습니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yhvK0dfVs4g26pyRaEAJslT47b5/wABWoK7s+rn1zuE=",
+        "originContent": "## Hardware",
+        "translatedContent": "## 하드웨어"
+      },
+      {
+        "row": 10,
+        "rowsha": "aL574/pwIhEq+VQvLhGFC5WWPoxznBwi92tS0MV4qRo=",
+        "originContent": "* WiFi Camera Drone (ranked in order of recommendation):",
+        "translatedContent": "* WiFi 카메라 드론 (추천 순서대로):"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "CupNGwQf6cekBNswih1DaybcnSsJszV0F7RID6ZJHt0=",
+        "originContent": "    | Brand      | Model Number(s)    | Compatibility | Purchase Link                                               | Notes |",
+        "translatedContent": "    | 브랜드      | 모델 번호       | 호환성       | 구매 링크                                                  | 비고 |"
+      },
+      {
+        "row": 13,
+        "rowsha": "iflB8y16/gBZBtYJLqAp5iUi0C+7xK/xUnSx8H0IlXE=",
+        "originContent": "    |------------|-----------------|---------------|-------------------------------------------------------------|-------|",
+        "translatedContent": "    |------------|-----------------|-------------|------------------------------------------------------------|-------|"
+      },
+      {
+        "row": 14,
+        "rowsha": "Owb7HcVupAS34l4wYtTXYc/SHiUZ5DKoBq6bvyf7GE8=",
+        "originContent": "    | Karuisrc | K417 | Tested | [Amazon](https://www.amazon.com/Electric-Adjustable-AIdrones-Quadcopter-Beginners/dp/B0CYPSJ34H/) | My favorite right now. Only one on the list with brushless motors! Build quality is fantastic. |",
+        "translatedContent": "    | Karuisrc   | K417            | 테스트 완료 | [Amazon](https://www.amazon.com/Electric-Adjustable-AIdrones-Quadcopter-Beginners/dp/B0CYPSJ34H/) | 현재 가장 좋아하는 모델. 이 목록에서 유일하게 브러시리스 모터 탑재! 빌드 품질이 환상적입니다. |"
+      },
+      {
+        "row": 15,
+        "rowsha": "VcCB363Iu/UGU9zJgRZergFfJT1yO34Yy9E8AbZA080=",
+        "originContent": "    | Loiley     | S29             | Tested    | [Amazon](https://www.amazon.com/Beginners-Altitude-Gestures-Adjustable-Batteries/dp/B0CFDVKJKC)                  | Best build quality, has servo for tilting camera(_not implemented in API yet_)|",
+        "translatedContent": "    | Loiley     | S29             | 테스트 완료 | [Amazon](https://www.amazon.com/Beginners-Altitude-Gestures-Adjustable-Batteries/dp/B0CFDVKJKC)        | 최고 빌드 품질, 카메라 틸트를 위한 서보 있음(_API에는 아직 구현 안 됨_) |"
+      },
+      {
+        "row": 16,
+        "rowsha": "H27u4a/rtzEJhbNDoCbbynUwGrQP1rJT3PgcB1jpN8U=",
+        "originContent": "    | Hiturbo    | S20             | Tested    | [Amazon](https://www.amazon.com/dp/B0BBVZ849G), [Alternate Amazon Listing](https://www.amazon.com/Beginners-Foldable-Quadcopter-Gestures-Batteries/dp/B0D8LK1KJ3)                  | Original test platform, great build quality|",
+        "translatedContent": "    | Hiturbo    | S20             | 테스트 완료 | [Amazon](https://www.amazon.com/dp/B0BBVZ849G), [대체 Amazon 링크](https://www.amazon.com/Beginners-Foldable-Quadcopter-Gestures-Batteries/dp/B0D8LK1KJ3) | 원래 테스트 플랫폼, 훌륭한 빌드 품질 |"
+      },
+      {
+        "row": 17,
+        "rowsha": "k2GP0S+h9qEhmbzuI+NYzgijBhxQlJHhtwK3L5MFwGs=",
+        "originContent": "    | FlyVista | V88 | Tested | [Amazon](https://www.amazon.com/dp/B0D5CXY6X8) | |",
+        "translatedContent": "    | FlyVista   | V88             | 테스트 완료 | [Amazon](https://www.amazon.com/dp/B0D5CXY6X8)                                         |       |"
+      },
+      {
+        "row": 18,
+        "rowsha": "q311cNewFiMYcYkXdLeRZk8Gaz5q3YhEcvw0Sc/94w0=",
+        "originContent": "    | ? | D16/GT3/V66 | Tested | cheapest on [Aliexpress](https://www.aliexpress.us/item/3256808590663347.html), [Amazon](https://www.amazon.com/THOAML-Batteries-Altitude-Headless-360%C2%B0Flip/dp/B0F1D6F62J/) | 20% smaller DJI Neo clone. Only really good for indoor flight. ",
+        "translatedContent": "    | ?          | D16/GT3/V66     | 테스트 완료 | 가장 저렴한 제품 [Aliexpress](https://www.aliexpress.us/item/3256808590663347.html), [Amazon](https://www.amazon.com/THOAML-Batteries-Altitude-Headless-360%C2%B0Flip/dp/B0F1D6F62J/) | DJI Neo 클론의 20% 크기. 실내 비행에만 적합. |"
+      },
+      {
+        "row": 19,
+        "rowsha": "g4XoHQnIglRNGrpwbKyQUuttckl1E2tsubJq7pHcxE4=",
+        "originContent": "    | Several Brands | E58 | Tested | [Amazon](https://www.amazon.com/Foldable-Quadcopter-Beginners-Batteries-Waypoints/dp/B09KV8L7WN/) |  |",
+        "translatedContent": "    | 여러 브랜드 | E58             | 테스트 완료 | [Amazon](https://www.amazon.com/Foldable-Quadcopter-Beginners-Batteries-Waypoints/dp/B09KV8L7WN/)     |       |"
+      },
+      {
+        "row": 20,
+        "rowsha": "dxxWXAcwS2h5NALqLyJMsWwQ3r/xPahdAAOSs6JMalU=",
+        "originContent": "    | Several Brands | E88/E88 Pro | Suspected | [Amazon](https://www.amazon.com/Foldable-Camera-Quadcopter-Altitude-Beginner/dp/B0DZCLFQXN) | |",
+        "translatedContent": "    | 여러 브랜드 | E88/E88 Pro     | 추정       | [Amazon](https://www.amazon.com/Foldable-Camera-Quadcopter-Altitude-Beginner/dp/B0DZCLFQXN)            |       |"
+      },
+      {
+        "row": 21,
+        "rowsha": "cnDfWyawYesX/GUMMr44esn+Bs160zGF+RTF6PqnOfo=",
+        "originContent": "    | Several Brands | E99/E99 Pro | Suspected | [Amazon](https://www.amazon.com/LJN53-Foldable-Drone-Dual-Cameras/dp/B0DRH9C6RF) | |",
+        "translatedContent": "    | 여러 브랜드 | E99/E99 Pro     | 추정       | [Amazon](https://www.amazon.com/LJN53-Foldable-Drone-Dual-Cameras/dp/B0DRH9C6RF)                      |       |"
+      },
+      {
+        "row": 22,
+        "rowsha": "xqYJ8LXNo+KKbL4uz77O0zw2Es43JiFKv5CJ/ZYbyZ4=",
+        "originContent": "    | Swifsen | A35 | Suspected | [Amazon](https://a.co/d/bqKvloz) | Very small \"toy\" drone|",
+        "translatedContent": "    | Swifsen    | A35             | 추정       | [Amazon](https://a.co/d/bqKvloz)                                                        | 매우 작은 \"장난감\" 드론 |"
+      },
+      {
+        "row": 23,
+        "rowsha": "OkJy197L4pNIXW9DXb5NzDJjQVFvy/FTEqMn3S035KY=",
+        "originContent": "    | Unknown | LSRC-S1S | Suspected | | mentioned in another reverse-engineering effort for the WiFi UAV app|",
+        "translatedContent": "    | 알 수 없음 | LSRC-S1S        | 추정       |                                                            | WiFi UAV 앱 리버스 엔지니어링 작업에서 언급됨 |"
+      },
+      {
+        "row": 24,
+        "rowsha": "UT+CHkr7eZwu6+S6BT4fsA08L1rpu+1ZwnPyWjEH2r8=",
+        "originContent": "    | Velcase    | S101            | TODO | [Amazon](https://www.amazon.com/Foldable-Beginners-Quadcopter-Carrying-Positioning/dp/B0CH341G5F/)  | lower quality build, smaller battery and props than S29 & S20|",
+        "translatedContent": "    | Velcase   | S101            | TODO       | [Amazon](https://www.amazon.com/Foldable-Beginners-Quadcopter-Carrying-Positioning/dp/B0CH341G5F/)    | S29 및 S20보다 낮은 품질의 빌드, 배터리 및 프로펠러가 더 작음 |"
+      },
+      {
+        "row": 25,
+        "rowsha": "O9S6vH5HEaNKD6Y32zC9Q+6dYjtRswkMZT8+CtT/33g=",
+        "originContent": "    | Redrie | X29 | TODO | [Amazon](https://www.amazon.com/Adults-1080P-Foldable-Altitude-Auto-Follow-Batteries/dp/B0CZQKNYL5) | Working on this one now|",
+        "translatedContent": "    | Redrie    | X29             | TODO       | [Amazon](https://www.amazon.com/Adults-1080P-Foldable-Altitude-Auto-Follow-Batteries/dp/B0CZQKNYL5)    | 현재 작업 중 |"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "ksDtM1wvxLhXr+Asmkkj7OIYSc357V4cOOu+uhwGTGA=",
+        "originContent": "    _**Tested** means the drone has been physically run with turbodrone to ensure its compatibility._",
+        "translatedContent": "    _**테스트 완료**란 드론이 실제로 turbodrone으로 실행되어 호환성이 확인된 것을 의미합니다._"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "HDh8w3vBSHRATu2AlinORr8sjMHV8NOPETHI3uwOo1o=",
+        "originContent": "  _**Suspected** means the APK for the drone appears to use the exact same packages and libraries as one of the tested drones._",
+        "translatedContent": "    _**추정**은 드론 APK가 테스트된 드론과 동일한 패키지 및 라이브러리를 사용하는 것으로 보이는 경우입니다._"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "tspQMFI8GN1uPHSa7AKyLJrXqk01NBL6IiQAGWrPt+U=",
+        "originContent": "  _**TODO** means the APK operates with different byte packets and protocols and will have to be added as a new implementation in the API._",
+        "translatedContent": "    _**TODO**는 APK가 다른 바이트 패킷 및 프로토콜을 사용하여 API에 새로운 구현으로 추가해야 함을 의미합니다._"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "/2OP/8LIv8sx5KbmaU7gLn+34BElauZwEnoXvnshs8g=",
+        "originContent": "* WiFi Dongle ([recommend ALFA Network AWUS036ACM](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) or similar) ",
+        "translatedContent": "* WiFi 동글 ([ALFA Network AWUS036ACM 추천](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) 또는 유사 제품) "
+      },
+      {
+        "row": 34,
+        "rowsha": "CQadqlB71amlq7lVm0/1iHGcJXNWU61R/931g7iuzxY=",
+        "originContent": "  * Drone broadcasts its own WiFi network so your computer will have to connect to it.",
+        "translatedContent": "  * 드론이 자체 WiFi 네트워크를 방송하므로 컴퓨터가 해당 네트워크에 연결해야 합니다."
+      },
+      {
+        "row": 35,
+        "rowsha": "Hid5eSNJL6PVou4/EsyzCw+TNCeMr22jRt01/sZ61pc=",
+        "originContent": "  * Not strictly necessary because you can use your computer's built-in WiFi radio to connect to the drone's network, but nice to have that way you can stay connected to the internet while flying the drone.",
+        "translatedContent": "  * 컴퓨터 내장 WiFi 라디오를 사용해도 되나, 이렇게 하면 드론을 조종하면서 인터넷 연결을 유지할 수 있어 편리합니다."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 38,
+        "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+        "originContent": "## Setup",
+        "translatedContent": "`backend` 디렉터리로 이동하세요"
+      },
+      {
+        "row": 39,
+        "rowsha": "35FllnICSfG5tWjp7CESKN8JB3VeXvfVwTXO3vzwqcw=",
+        "originContent": "Move to the `backend` directory",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\ncd backend\n```",
+    "ContentSha": "8v2C8uh/LsWUhQTW3HdG/hdLT9Q/eMAsrkXAS8lmUhI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncd backend\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "y+4rtW77Uy7LZ/NrRH86OaVxAVQQlH4wQbZKqf5npn4=",
+        "originContent": "cd backend",
+        "translatedContent": "cd backend"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nAdd venv",
+    "ContentSha": "r3/q3P5YotcnD5ybUKtNW8UOtxEuUwFL0xoZVpAZe5M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "venv 추가\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "venv 추가"
+      },
+      {
+        "row": 2,
+        "rowsha": "BeUBc1BTBJXRx5tpUjcCdJH44/FCpR81hNc9tSLwEh8=",
+        "originContent": "Add venv",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\npython -m venv venv\nsource venv/bin/activate\n```",
+    "ContentSha": "IHdSDCrV/LdAeDMw5u93iZVUCEykUAtLzjIzdwqb8lQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython -m venv venv\nsource venv/bin/activate\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "rdTNJQmAe860vGFdQOn9/1fQ33cyFdRlndRgEfCzi+Y=",
+        "originContent": "python -m venv venv",
+        "translatedContent": "python -m venv venv"
+      },
+      {
+        "row": 3,
+        "rowsha": "Grul2uxnILzdPgH94tJsdPQfFgWQ441J3GlyUGVDvs4=",
+        "originContent": "source venv/bin/activate",
+        "translatedContent": "source venv/bin/activate"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nInstall the dependencies",
+    "ContentSha": "nLpTPBreUFXSXRYj6GYuGKcRNLsXlG/W33M6iYUnV1g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n종속 항목 설치",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "WoBfqEFOZNeXo0eMKmi5xzwquWSSDnrh97H0gMOVpLA=",
+        "originContent": "Install the dependencies",
+        "translatedContent": "종속 항목 설치"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\npip install -r requirements.txt\n```",
+    "ContentSha": "wZZiYUMP3e6ugTZtqQY/zQM1z2SfSyvUapcPMP025W0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n_If_ you are on Windows, you will need to manually install the `curses` library.",
+    "ContentSha": "gzE94WhZFki7Ar5kwc3hPsyYs33EcBth3Zl+qtE8/Sg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "_만약_ 윈도우를 사용 중이라면, `curses` 라이브러리를 수동으로 설치해야 합니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "_만약_ 윈도우를 사용 중이라면, `curses` 라이브러리를 수동으로 설치해야 합니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "7AmXpgkJTcrV6RhJywY/twGAx067IlgT250Usp/Dojo=",
+        "originContent": "_If_ you are on Windows, you will need to manually install the `curses` library.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\npip install windows-curses\n```",
+    "ContentSha": "YKhtwDQD1j58DGLIDVtvPAfU1z1aZUG2Aa0o7w0fGIA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npip install windows-curses\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "w0k7uk+xAeBSCrtxFIgKVOUi1WO4Wu4mOKabsJUgoRs=",
+        "originContent": "pip install windows-curses",
+        "translatedContent": "pip install windows-curses"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nOpen a new terminal window and install the dependencies for the frontend.\n_Make sure you have Node.js 20+ installed._",
+    "ContentSha": "hYpWFECKX3EKyGbGw/21hBMyXVqaE0qYkc+RG9IIBik=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "새 터미널 창을 열고 프런트엔드에 필요한 종속성을 설치합니다.  \n_Node.js 20 이상이 설치되어 있는지 확인하세요._\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "새 터미널 창을 열고 프런트엔드에 필요한 종속성을 설치합니다.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "Q7C7yXR1J3iTZur7M0pSq3zkEzfrCn2IF8HDngpYrF4=",
+        "originContent": "Open a new terminal window and install the dependencies for the frontend.",
+        "translatedContent": "_Node.js 20 이상이 설치되어 있는지 확인하세요._"
+      },
+      {
+        "row": 3,
+        "rowsha": "b2xl/nfFe03229dYMB4xjZbbwTRWQoVSWpuEnUADIjM=",
+        "originContent": "_Make sure you have Node.js 20+ installed._",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\ncd frontend\nnpm install\n```",
+    "ContentSha": "BOCmufvdUGb4wlQg9t8D2fxqMYh0vjhzbN74mYWNtcM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncd frontend\nnpm install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "mBQkeVSRciUI+61SI++H1xbSAp3vL2nFmMMIIwDhQYA=",
+        "originContent": "cd frontend",
+        "translatedContent": "cd frontend"
+      },
+      {
+        "row": 3,
+        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+        "originContent": "npm install",
+        "translatedContent": "npm install"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nMake sure WiFi Dongle is plugged in, drone is turned on, connect to the \"BRAND-MODEL-XXXXXX\" network before proceeding.\n\nCreate a `.env` file in the `backend` directory. Add a DRONE_TYPE based on which drone you have:",
+    "ContentSha": "YeiblFiWyQxrSPAWEaOVyVXYboRwYCR8++uPqJRQ2RQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "WiFi 동글이 꽂혀 있고, 드론이 켜져 있으며, 진행하기 전에 \"BRAND-MODEL-XXXXXX\" 네트워크에 연결되어 있는지 확인하세요.\n\n`backend` 디렉토리에 `.env` 파일을 만드세요. 가지고 있는 드론에 따라 DRONE_TYPE을 추가하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "WiFi 동글이 꽂혀 있고, 드론이 켜져 있으며, 진행하기 전에 \"BRAND-MODEL-XXXXXX\" 네트워크에 연결되어 있는지 확인하세요."
+      },
+      {
+        "row": 2,
+        "rowsha": "yOzPmCRY3K8NzM2kMw9DEU4Ze9WZa6uIPUAnm1IQwE0=",
+        "originContent": "Make sure WiFi Dongle is plugged in, drone is turned on, connect to the \"BRAND-MODEL-XXXXXX\" network before proceeding.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`backend` 디렉토리에 `.env` 파일을 만드세요. 가지고 있는 드론에 따라 DRONE_TYPE을 추가하세요:"
+      },
+      {
+        "row": 4,
+        "rowsha": "xc/eYSkEPXKRfaQyNwPlBlz2xrscK1NCa9YNhfdSg8g=",
+        "originContent": "Create a `.env` file in the `backend` directory. Add a DRONE_TYPE based on which drone you have:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\n# For \"com.vison.macrochip\" (s2x) based drones like S20 and S29:\nDRONE_TYPE=s2x\n# For WiFi UAV-based drones like V88 and D16:\n# DRONE_TYPE=wifi_uav \n```",
+    "ContentSha": "uV5BX2xNTZ5AF0u4nN/ukE4Oj3oGaoiQPckP8t+Hjl8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n# For \"com.vison.macrochip\" (s2x) based drones like S20 and S29:\nDRONE_TYPE=s2x\n# For WiFi UAV-based drones like V88 and D16:\n# DRONE_TYPE=wifi_uav \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "fW1IRfB1xFmcd7PtYv5NMYAowlJ7R0dSJY419488B0s=",
+        "originContent": "# For \"com.vison.macrochip\" (s2x) based drones like S20 and S29:",
+        "translatedContent": "# For \"com.vison.macrochip\" (s2x) based drones like S20 and S29:"
+      },
+      {
+        "row": 3,
+        "rowsha": "1UobIKfJI9xxot8Obez1fN9wOFamapZ6doHlvdZnUN8=",
+        "originContent": "DRONE_TYPE=s2x",
+        "translatedContent": "DRONE_TYPE=s2x"
+      },
+      {
+        "row": 4,
+        "rowsha": "bYxPJSfSjha07kHO051oHfse9kCWL59379o/AxtA+54=",
+        "originContent": "# For WiFi UAV-based drones like V88 and D16:",
+        "translatedContent": "# For WiFi UAV-based drones like V88 and D16:"
+      },
+      {
+        "row": 5,
+        "rowsha": "NAS/HtBXzRp5VCZOs9fD4r9oUFirKCWeiKqhGaQ7gAE=",
+        "originContent": "# DRONE_TYPE=wifi_uav ",
+        "translatedContent": "# DRONE_TYPE=wifi_uav "
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nLaunch the backend: ",
+    "ContentSha": "OcbhlosjQHWTaabebp0jW180RdfStneL2h/Yy6uUSwc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n백엔드 실행: ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "8+iZWNmuF0fSxtYPHBdBYi5ypE110zISShmbvl1Gy3I=",
+        "originContent": "Launch the backend: ",
+        "translatedContent": "백엔드 실행: "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\nuvicorn web_server:app\n```",
+    "ContentSha": "eESqmdVbnrXdcFDhg0/yLuVWBjKDpysvHvHKq9OBhYI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nuvicorn web_server:app\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "NB2FG2SxtFwHLaS+5h/cKnT9XsHkW3b0Q/Tl8TLYLA0=",
+        "originContent": "uvicorn web_server:app",
+        "translatedContent": "uvicorn web_server:app"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nIn a separate terminal, launch the frontend web client:",
+    "ContentSha": "kcPxDin8XSOWfi6yVpDJgHTxeAalSvSAr3R+XImnFtc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "별도의 터미널에서 프론트엔드 웹 클라이언트를 실행합니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "별도의 터미널에서 프론트엔드 웹 클라이언트를 실행합니다:"
+      },
+      {
+        "row": 2,
+        "rowsha": "N3b4ljF/QRTZBBEuVDU5DIfF36g9p7mCNSgS4bXT1hQ=",
+        "originContent": "In a separate terminal, launch the frontend web client:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```\nnpm run dev\n```",
+    "ContentSha": "oeX5rCZbXvAWk5CwlXbpGjG2X7J4FHoOr3JuzJxK5DU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nnpm run dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "IfFnfI9PhCQWiefGw310ACvgFob6wDpxDKh2mTUm//c=",
+        "originContent": "npm run dev",
+        "translatedContent": "npm run dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nOpen the web client which will be at `http://localhost:5173` and you should see the drone video feed and be able to control it.\n\nTo control via a gaming controller, plug it in and move the sticks around for it to be detected and then push the toggle button to switch between keyboard and controller control.\n\nMake sure to fly in a safe area, preferably outdoors with little wind. And note that the \"Land\" button _currently_ is more of an E-stop button that will stop the drone motors immediately.\n\n\n## Status\nReconnection logic was solved recently.\n\nVideo feed: solid.\n\nControls: improved greatly via the web client. The implementation for WiFi UAV-based drones could use some fine-tuning.\n\nWeb Client: support for various inputs like keyboard, gamepad controllers, and ThinkPad TrackPoint mouse(lol).\n\nWorking on adding support for more drones from [Amazon's best-selling drone list](https://www.amazon.com/best-selling-drones/s?k=best+selling+drones).\n\n\n## Contribute\nTo contribute support for a new \"toy\" drone, download the APK the drone uses on a mirror site and start reverse engineering it by decompiling to Java files with [jadx](https://github.com/skylot/jadx).\nFrom there, look at the `AndroidManifest.xml` and see if you can find the classes that are entry points for the app. Look for port usage or protocol usage explicitly mentioned like TCP or UDP. Most of these apps will do the actual communication and video feed processing in native C++ libraries that will be embedded inside the APK. You can use a tool like Ghidra to decompile the native libraries and see if you can discover anything useful. For video feed processing you want to figure out what format it uses e.g. JPEG, YUV, etc. and also if it uses compression and what the byte structure looks like when its reforming an image frame from packets.\nAdditionally, Wireshark is your friend for understanding the raw data packets being sent and received by the app. Watch this [video](https://x.com/marshallrichrds/status/1923165437698670818) for an overview into the reverse engineering process used for adding support for the Hiturbo S20 drone.\n\nOnce you have the protocols and processing for RC and video figured out, make a small test program and add it to the `experimental` directory at that point if you'd like others to be able to try it out.\nAfter that, you can work on an implementation that is compatible with the existing back-end architecture; examples of this are the `s2x` and `wifi_uav` reverse-engineered implementations.\n\n\n## Experimental Support\nFor drones and apps with limited support which are not yet fully integrated into Turbodrone, see the `experimental` directory.\n",
+    "ContentSha": "XqZsvYICzjqGZV+e5wCIsrf9zjVFilddPg9Oku1/4lc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "웹 클라이언트를 열면 `http://localhost:5173`에서 드론 비디오 피드를 볼 수 있으며 제어할 수 있습니다.\n\n게임 컨트롤러로 제어하려면 연결 후 스틱을 움직여 인식시키고 토글 버튼을 눌러 키보드와 컨트롤러 제어를 전환하세요.\n\n안전한 장소에서 비행하세요. 바람이 적은 야외가 좋습니다. \"착륙\" 버튼은 _현재_ 드론 모터를 즉시 멈추는 비상 정지 버튼입니다.\n\n\n## 상태\n재접속 로직이 최근 해결되었습니다.\n\n비디오 피드: 안정적입니다.\n\n제어: 웹 클라이언트를 통해 크게 개선되었습니다. WiFi UAV 기반 드론 구현은 다소 조정이 필요합니다.\n\n웹 클라이언트: 키보드, 게임패드 컨트롤러, ThinkPad 트랙포인트 마우스(ㅋㅋ) 등 다양한 입력을 지원합니다.\n\n[아마존 베스트셀러 드론 목록](https://www.amazon.com/best-selling-drones/s?k=best+selling+drones)에서 더 많은 드론 지원을 추가 중입니다.\n\n\n## 기여하기\n새로운 \"장난감\" 드론 지원을 기여하려면, 드론이 사용하는 APK를 미러 사이트에서 다운로드하고 [jadx](https://github.com/skylot/jadx)로 자바 파일로 디컴파일해 역공학을 시작하세요.\n그 후 `AndroidManifest.xml`을 살펴보고 앱의 진입점인 클래스를 찾으세요. TCP 또는 UDP 같은 포트 사용이나 프로토콜 사용이 명시되어 있는지 확인하세요. 대부분의 앱은 실제 통신과 비디오 피드 처리를 APK 내부에 포함된 네이티브 C++ 라이브러리에서 수행합니다. Ghidra 같은 도구로 네이티브 라이브러리를 디컴파일하여 유용한 정보를 찾을 수 있습니다. 비디오 피드 처리에서는 JPEG, YUV 등의 포맷과 압축 사용 여부, 패킷에서 이미지 프레임 재구성 시 바이트 구조를 파악하세요.\n또한 Wireshark는 앱이 송수신하는 원시 데이터 패킷을 이해하는 데 매우 유용합니다. Hiturbo S20 드론 지원 추가를 위한 역공학 과정을 보여주는 [영상](https://x.com/marshallrichrds/status/1923165437698670818)을 참고하세요.\n\nRC와 비디오 프로토콜 및 처리를 파악한 후에는 작은 테스트 프로그램을 만들어 `experimental` 디렉터리에 추가하여 다른 사람들이 시도할 수 있게 하세요.\n그 후 기존 백엔드 아키텍처와 호환되는 구현 작업을 진행할 수 있습니다. 예로 `s2x`와 `wifi_uav` 역공학 구현이 있습니다.\n\n\n## 실험적 지원\n제한된 지원을 받는 드론과 앱으로 Turbodrone에 완전히 통합되지 않은 경우 `experimental` 디렉터리를 참고하세요.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "웹 클라이언트를 열면 `http://localhost:5173`에서 드론 비디오 피드를 볼 수 있으며 제어할 수 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "PmnGEJqi5rI3kk32oOgXKxtCVDMFrYzgf7kFk9u6gkY=",
+        "originContent": "Open the web client which will be at `http://localhost:5173` and you should see the drone video feed and be able to control it.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "게임 컨트롤러로 제어하려면 연결 후 스틱을 움직여 인식시키고 토글 버튼을 눌러 키보드와 컨트롤러 제어를 전환하세요."
+      },
+      {
+        "row": 4,
+        "rowsha": "ymWksJRYsmAGHYfgMxUixZIY1SdDJRcJy+6pJkHsZ7U=",
+        "originContent": "To control via a gaming controller, plug it in and move the sticks around for it to be detected and then push the toggle button to switch between keyboard and controller control.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "안전한 장소에서 비행하세요. 바람이 적은 야외가 좋습니다. \"착륙\" 버튼은 _현재_ 드론 모터를 즉시 멈추는 비상 정지 버튼입니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "pi1269BFRQriGvuz8kHC/HdCG0LLuCrME31Gxv+Yoh8=",
+        "originContent": "Make sure to fly in a safe area, preferably outdoors with little wind. And note that the \"Land\" button _currently_ is more of an E-stop button that will stop the drone motors immediately.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 상태"
+      },
+      {
+        "row": 9,
+        "rowsha": "ixUB7+z1qquI8JQNWATJQRG1wieie8X9mj6WzKZ0QjY=",
+        "originContent": "## Status",
+        "translatedContent": "재접속 로직이 최근 해결되었습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "SXZJA1hR9Wc41/Snq0McR/z/KHyTtCnN4jgboOhmHCM=",
+        "originContent": "Reconnection logic was solved recently.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "비디오 피드: 안정적입니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "CHWEB6HukTCk33KHfTRrG0jUKSdXaXBNzSKVY0G0M6U=",
+        "originContent": "Video feed: solid.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "제어: 웹 클라이언트를 통해 크게 개선되었습니다. WiFi UAV 기반 드론 구현은 다소 조정이 필요합니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "R1eEm4nBBxGssbIaWl8qlTZ/hmeI+ZG91IDUhhlhW8s=",
+        "originContent": "Controls: improved greatly via the web client. The implementation for WiFi UAV-based drones could use some fine-tuning.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "웹 클라이언트: 키보드, 게임패드 컨트롤러, ThinkPad 트랙포인트 마우스(ㅋㅋ) 등 다양한 입력을 지원합니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "cdur+4/aYsHfWF7FZeDd8FxFbsCwVb8aqivOwpFutkM=",
+        "originContent": "Web Client: support for various inputs like keyboard, gamepad controllers, and ThinkPad TrackPoint mouse(lol).",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[아마존 베스트셀러 드론 목록](https://www.amazon.com/best-selling-drones/s?k=best+selling+drones)에서 더 많은 드론 지원을 추가 중입니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "INeFvLKNiIRPkft+vhipnqJN1h4sYoVC0UYvvuhuLmE=",
+        "originContent": "Working on adding support for more drones from [Amazon's best-selling drone list](https://www.amazon.com/best-selling-drones/s?k=best+selling+drones).",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 기여하기"
+      },
+      {
+        "row": 21,
+        "rowsha": "fMu080v6eh/hFkmstsVs1QR9bj14O7X3mMQkwTJevBw=",
+        "originContent": "## Contribute",
+        "translatedContent": "새로운 \"장난감\" 드론 지원을 기여하려면, 드론이 사용하는 APK를 미러 사이트에서 다운로드하고 [jadx](https://github.com/skylot/jadx)로 자바 파일로 디컴파일해 역공학을 시작하세요."
+      },
+      {
+        "row": 22,
+        "rowsha": "tIdGP5/RD3Tq2L0ft/8UlhpXrrNUPcEiH5lyS7I5pLM=",
+        "originContent": "To contribute support for a new \"toy\" drone, download the APK the drone uses on a mirror site and start reverse engineering it by decompiling to Java files with [jadx](https://github.com/skylot/jadx).",
+        "translatedContent": "그 후 `AndroidManifest.xml`을 살펴보고 앱의 진입점인 클래스를 찾으세요. TCP 또는 UDP 같은 포트 사용이나 프로토콜 사용이 명시되어 있는지 확인하세요. 대부분의 앱은 실제 통신과 비디오 피드 처리를 APK 내부에 포함된 네이티브 C++ 라이브러리에서 수행합니다. Ghidra 같은 도구로 네이티브 라이브러리를 디컴파일하여 유용한 정보를 찾을 수 있습니다. 비디오 피드 처리에서는 JPEG, YUV 등의 포맷과 압축 사용 여부, 패킷에서 이미지 프레임 재구성 시 바이트 구조를 파악하세요."
+      },
+      {
+        "row": 23,
+        "rowsha": "e017Nkj2oraCSnl0PnWr4M/bF6xheldzmSz9a6ate8M=",
+        "originContent": "From there, look at the `AndroidManifest.xml` and see if you can find the classes that are entry points for the app. Look for port usage or protocol usage explicitly mentioned like TCP or UDP. Most of these apps will do the actual communication and video feed processing in native C++ libraries that will be embedded inside the APK. You can use a tool like Ghidra to decompile the native libraries and see if you can discover anything useful. For video feed processing you want to figure out what format it uses e.g. JPEG, YUV, etc. and also if it uses compression and what the byte structure looks like when its reforming an image frame from packets.",
+        "translatedContent": "또한 Wireshark는 앱이 송수신하는 원시 데이터 패킷을 이해하는 데 매우 유용합니다. Hiturbo S20 드론 지원 추가를 위한 역공학 과정을 보여주는 [영상](https://x.com/marshallrichrds/status/1923165437698670818)을 참고하세요."
+      },
+      {
+        "row": 24,
+        "rowsha": "CjJ3QcG/cqGTPcEkPkiKhBYG81wRcfzYhoaatkPoZPM=",
+        "originContent": "Additionally, Wireshark is your friend for understanding the raw data packets being sent and received by the app. Watch this [video](https://x.com/marshallrichrds/status/1923165437698670818) for an overview into the reverse engineering process used for adding support for the Hiturbo S20 drone.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "RC와 비디오 프로토콜 및 처리를 파악한 후에는 작은 테스트 프로그램을 만들어 `experimental` 디렉터리에 추가하여 다른 사람들이 시도할 수 있게 하세요."
+      },
+      {
+        "row": 26,
+        "rowsha": "Sl/j+lIPp4NFWV/ZabqeH4AUaotRPF7JZw/WBRivdbw=",
+        "originContent": "Once you have the protocols and processing for RC and video figured out, make a small test program and add it to the `experimental` directory at that point if you'd like others to be able to try it out.",
+        "translatedContent": "그 후 기존 백엔드 아키텍처와 호환되는 구현 작업을 진행할 수 있습니다. 예로 `s2x`와 `wifi_uav` 역공학 구현이 있습니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "DMnuVhGEE2F5bdbqS3K00YNiot+95R8cKk1QkInXTUE=",
+        "originContent": "After that, you can work on an implementation that is compatible with the existing back-end architecture; examples of this are the `s2x` and `wifi_uav` reverse-engineered implementations.",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 실험적 지원"
+      },
+      {
+        "row": 30,
+        "rowsha": "ulInkUzdcKhCwhTvURE01Cj13JthyL8kfWn+o6wg7xQ=",
+        "originContent": "## Experimental Support",
+        "translatedContent": "제한된 지원을 받는 드론과 앱으로 Turbodrone에 완전히 통합되지 않은 경우 `experimental` 디렉터리를 참고하세요."
+      },
+      {
+        "row": 31,
+        "rowsha": "9yn1ERXzZU+3DlNMEu8dG59vUEdEV4DRDsovv5wBTps=",
+        "originContent": "For drones and apps with limited support which are not yet fully integrated into Turbodrone, see the `experimental` directory.",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

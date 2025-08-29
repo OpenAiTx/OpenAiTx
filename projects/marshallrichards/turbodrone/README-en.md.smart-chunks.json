@@ -1,0 +1,925 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Turbodrone\nReverse-engineered API and client for controlling some of the best-selling ~$50 \"toy\" drones on Amazon from a computer replacing the closed-source mobile apps they come with.\n\n![S20 Drone Short Clip](https://raw.githubusercontent.com/marshallrichards/turbodrone/master/docs/images/s20-drone-short-clip-small.gif)\n\n## Introduction\nNowadays, there are incredibly cheap \"toy\" drones available on Amazon that are basically pared-down clones of the early DJI mavic. Only ~$50 to have a 1080p camera for FPV and recording, tiny downward-facing optical flow sensor for position and altitude hold, and a well-tuned flight profile out-of-the-box. The only problem with drones like this is that they run closed-source firmware and are locked to only being controlled by a custom mobile app. I thought it would be cool to free some of these drones from their \"jail\" and write an API and client for accessing the video feed and sending control commands down to the drone by reverse-engineering how the mobile apps work. That way you can turn a highly capable $50 \"toy\" drone into something that can be programmatically controlled and used for all sorts of applications and experiments.\n\n## Hardware\n* WiFi Camera Drone (ranked in order of recommendation):\n\n    | Brand      | Model Number(s)    | Compatibility | Purchase Link                                               | Notes |\n    |------------|-----------------|---------------|-------------------------------------------------------------|-------|\n    | Karuisrc | K417 | Tested | [Amazon](https://www.amazon.com/Electric-Adjustable-AIdrones-Quadcopter-Beginners/dp/B0CYPSJ34H/) | My favorite right now. Only one on the list with brushless motors! Build quality is fantastic. |\n    | Loiley     | S29             | Tested    | [Amazon](https://www.amazon.com/Beginners-Altitude-Gestures-Adjustable-Batteries/dp/B0CFDVKJKC)                  | Best build quality, has servo for tilting camera(_not implemented in API yet_)|\n    | Hiturbo    | S20             | Tested    | [Amazon](https://www.amazon.com/dp/B0BBVZ849G), [Alternate Amazon Listing](https://www.amazon.com/Beginners-Foldable-Quadcopter-Gestures-Batteries/dp/B0D8LK1KJ3)                  | Original test platform, great build quality|\n    | FlyVista | V88 | Tested | [Amazon](https://www.amazon.com/dp/B0D5CXY6X8) | |\n    | ? | D16/GT3/V66 | Tested | cheapest on [Aliexpress](https://www.aliexpress.us/item/3256808590663347.html), [Amazon](https://www.amazon.com/THOAML-Batteries-Altitude-Headless-360%C2%B0Flip/dp/B0F1D6F62J/) | 20% smaller DJI Neo clone. Only really good for indoor flight. \n    | Several Brands | E58 | Tested | [Amazon](https://www.amazon.com/Foldable-Quadcopter-Beginners-Batteries-Waypoints/dp/B09KV8L7WN/) |  |\n    | Several Brands | E88/E88 Pro | Suspected | [Amazon](https://www.amazon.com/Foldable-Camera-Quadcopter-Altitude-Beginner/dp/B0DZCLFQXN) | |\n    | Several Brands | E99/E99 Pro | Suspected | [Amazon](https://www.amazon.com/LJN53-Foldable-Drone-Dual-Cameras/dp/B0DRH9C6RF) | |\n    | Swifsen | A35 | Suspected | [Amazon](https://a.co/d/bqKvloz) | Very small \"toy\" drone|\n    | Unknown | LSRC-S1S | Suspected | | mentioned in another reverse-engineering effort for the WiFi UAV app|\n    | Velcase    | S101            | TODO | [Amazon](https://www.amazon.com/Foldable-Beginners-Quadcopter-Carrying-Positioning/dp/B0CH341G5F/)  | lower quality build, smaller battery and props than S29 & S20|\n    | Redrie | X29 | TODO | [Amazon](https://www.amazon.com/Adults-1080P-Foldable-Altitude-Auto-Follow-Batteries/dp/B0CZQKNYL5) | Working on this one now|\n\n    _**Tested** means the drone has been physically run with turbodrone to ensure its compatibility._\n\n  _**Suspected** means the APK for the drone appears to use the exact same packages and libraries as one of the tested drones._\n\n  _**TODO** means the APK operates with different byte packets and protocols and will have to be added as a new implementation in the API._\n\n* WiFi Dongle ([recommend ALFA Network AWUS036ACM](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) or similar) \n  * Drone broadcasts its own WiFi network so your computer will have to connect to it.\n  * Not strictly necessary because you can use your computer's built-in WiFi radio to connect to the drone's network, but nice to have that way you can stay connected to the internet while flying the drone.\n\n\n## Setup\nMove to the `backend` directory",
+    "ContentSha": "SB8wFnOIFLNPw5IG6COtPlYHoBwbP0ApXMi+tSRZGmw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Turbodrone\nReverse-engineered API and client for controlling some of the best-selling ~$50 \"toy\" drones on Amazon from a computer replacing the closed-source mobile apps they come with.\n\n![S20 Drone Short Clip](https://raw.githubusercontent.com/marshallrichards/turbodrone/master/docs/images/s20-drone-short-clip-small.gif)\n\n## Introduction\nNowadays, there are incredibly cheap \"toy\" drones available on Amazon that are basically pared-down clones of the early DJI mavic. Only ~$50 to have a 1080p camera for FPV and recording, tiny downward-facing optical flow sensor for position and altitude hold, and a well-tuned flight profile out-of-the-box. The only problem with drones like this is that they run closed-source firmware and are locked to only being controlled by a custom mobile app. I thought it would be cool to free some of these drones from their \"jail\" and write an API and client for accessing the video feed and sending control commands down to the drone by reverse-engineering how the mobile apps work. That way you can turn a highly capable $50 \"toy\" drone into something that can be programmatically controlled and used for all sorts of applications and experiments.\n\n## Hardware\n* WiFi Camera Drone (ranked in order of recommendation):\n\n    | Brand      | Model Number(s)    | Compatibility | Purchase Link                                               | Notes |\n    |------------|-----------------|---------------|-------------------------------------------------------------|-------|\n    | Karuisrc | K417 | Tested | [Amazon](https://www.amazon.com/Electric-Adjustable-AIdrones-Quadcopter-Beginners/dp/B0CYPSJ34H/) | My favorite right now. Only one on the list with brushless motors! Build quality is fantastic. |\n    | Loiley     | S29             | Tested    | [Amazon](https://www.amazon.com/Beginners-Altitude-Gestures-Adjustable-Batteries/dp/B0CFDVKJKC)                  | Best build quality, has servo for tilting camera(_not implemented in API yet_)|\n    | Hiturbo    | S20             | Tested    | [Amazon](https://www.amazon.com/dp/B0BBVZ849G), [Alternate Amazon Listing](https://www.amazon.com/Beginners-Foldable-Quadcopter-Gestures-Batteries/dp/B0D8LK1KJ3)                  | Original test platform, great build quality|\n    | FlyVista | V88 | Tested | [Amazon](https://www.amazon.com/dp/B0D5CXY6X8) | |\n    | ? | D16/GT3/V66 | Tested | cheapest on [Aliexpress](https://www.aliexpress.us/item/3256808590663347.html), [Amazon](https://www.amazon.com/THOAML-Batteries-Altitude-Headless-360%C2%B0Flip/dp/B0F1D6F62J/) | 20% smaller DJI Neo clone. Only really good for indoor flight. \n    | Several Brands | E58 | Tested | [Amazon](https://www.amazon.com/Foldable-Quadcopter-Beginners-Batteries-Waypoints/dp/B09KV8L7WN/) |  |\n    | Several Brands | E88/E88 Pro | Suspected | [Amazon](https://www.amazon.com/Foldable-Camera-Quadcopter-Altitude-Beginner/dp/B0DZCLFQXN) | |\n    | Several Brands | E99/E99 Pro | Suspected | [Amazon](https://www.amazon.com/LJN53-Foldable-Drone-Dual-Cameras/dp/B0DRH9C6RF) | |\n    | Swifsen | A35 | Suspected | [Amazon](https://a.co/d/bqKvloz) | Very small \"toy\" drone|\n    | Unknown | LSRC-S1S | Suspected | | mentioned in another reverse-engineering effort for the WiFi UAV app|\n    | Velcase    | S101            | TODO | [Amazon](https://www.amazon.com/Foldable-Beginners-Quadcopter-Carrying-Positioning/dp/B0CH341G5F/)  | lower quality build, smaller battery and props than S29 & S20|\n    | Redrie | X29 | TODO | [Amazon](https://www.amazon.com/Adults-1080P-Foldable-Altitude-Auto-Follow-Batteries/dp/B0CZQKNYL5) | Working on this one now|\n\n    _**Tested** means the drone has been physically run with turbodrone to ensure its compatibility._\n\n  _**Suspected** means the APK for the drone appears to use the exact same packages and libraries as one of the tested drones._\n\n  _**TODO** means the APK operates with different byte packets and protocols and will have to be added as a new implementation in the API._\n\n* WiFi Dongle ([recommend ALFA Network AWUS036ACM](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) or similar) \n  * Drone broadcasts its own WiFi network so your computer will have to connect to it.\n  * Not strictly necessary because you can use your computer's built-in WiFi radio to connect to the drone's network, but nice to have that way you can stay connected to the internet while flying the drone.\n\n\n## Setup\nMove to the `backend` directory",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7fbEXSz/MioeTiZmd0XDjvNUNHd1OXJupunFLn6GE0I=",
+        "originContent": "# Turbodrone",
+        "translatedContent": "# Turbodrone"
+      },
+      {
+        "row": 2,
+        "rowsha": "DjMvOJ+0ZCVe4HBj/VC0dof4RqzGf2XXk98uNd+l2Fc=",
+        "originContent": "Reverse-engineered API and client for controlling some of the best-selling ~$50 \"toy\" drones on Amazon from a computer replacing the closed-source mobile apps they come with.",
+        "translatedContent": "Reverse-engineered API and client for controlling some of the best-selling ~$50 \"toy\" drones on Amazon from a computer replacing the closed-source mobile apps they come with."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "O5kD8aIMKnKFvh+Azsurqh/LN3dCq05wMER6+0hMMPE=",
+        "originContent": "![S20 Drone Short Clip](https://raw.githubusercontent.com/marshallrichards/turbodrone/master/docs/images/s20-drone-short-clip-small.gif)",
+        "translatedContent": "![S20 Drone Short Clip](https://raw.githubusercontent.com/marshallrichards/turbodrone/master/docs/images/s20-drone-short-clip-small.gif)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+        "originContent": "## Introduction",
+        "translatedContent": "## Introduction"
+      },
+      {
+        "row": 7,
+        "rowsha": "T9Tesd3ok5d+P2KVFQZH98nwmd7q+Icd/0vslSHrdb0=",
+        "originContent": "Nowadays, there are incredibly cheap \"toy\" drones available on Amazon that are basically pared-down clones of the early DJI mavic. Only ~$50 to have a 1080p camera for FPV and recording, tiny downward-facing optical flow sensor for position and altitude hold, and a well-tuned flight profile out-of-the-box. The only problem with drones like this is that they run closed-source firmware and are locked to only being controlled by a custom mobile app. I thought it would be cool to free some of these drones from their \"jail\" and write an API and client for accessing the video feed and sending control commands down to the drone by reverse-engineering how the mobile apps work. That way you can turn a highly capable $50 \"toy\" drone into something that can be programmatically controlled and used for all sorts of applications and experiments.",
+        "translatedContent": "Nowadays, there are incredibly cheap \"toy\" drones available on Amazon that are basically pared-down clones of the early DJI mavic. Only ~$50 to have a 1080p camera for FPV and recording, tiny downward-facing optical flow sensor for position and altitude hold, and a well-tuned flight profile out-of-the-box. The only problem with drones like this is that they run closed-source firmware and are locked to only being controlled by a custom mobile app. I thought it would be cool to free some of these drones from their \"jail\" and write an API and client for accessing the video feed and sending control commands down to the drone by reverse-engineering how the mobile apps work. That way you can turn a highly capable $50 \"toy\" drone into something that can be programmatically controlled and used for all sorts of applications and experiments."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yhvK0dfVs4g26pyRaEAJslT47b5/wABWoK7s+rn1zuE=",
+        "originContent": "## Hardware",
+        "translatedContent": "## Hardware"
+      },
+      {
+        "row": 10,
+        "rowsha": "aL574/pwIhEq+VQvLhGFC5WWPoxznBwi92tS0MV4qRo=",
+        "originContent": "* WiFi Camera Drone (ranked in order of recommendation):",
+        "translatedContent": "* WiFi Camera Drone (ranked in order of recommendation):"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "CupNGwQf6cekBNswih1DaybcnSsJszV0F7RID6ZJHt0=",
+        "originContent": "    | Brand      | Model Number(s)    | Compatibility | Purchase Link                                               | Notes |",
+        "translatedContent": "    | Brand      | Model Number(s)    | Compatibility | Purchase Link                                               | Notes |"
+      },
+      {
+        "row": 13,
+        "rowsha": "iflB8y16/gBZBtYJLqAp5iUi0C+7xK/xUnSx8H0IlXE=",
+        "originContent": "    |------------|-----------------|---------------|-------------------------------------------------------------|-------|",
+        "translatedContent": "    |------------|-----------------|---------------|-------------------------------------------------------------|-------|"
+      },
+      {
+        "row": 14,
+        "rowsha": "Owb7HcVupAS34l4wYtTXYc/SHiUZ5DKoBq6bvyf7GE8=",
+        "originContent": "    | Karuisrc | K417 | Tested | [Amazon](https://www.amazon.com/Electric-Adjustable-AIdrones-Quadcopter-Beginners/dp/B0CYPSJ34H/) | My favorite right now. Only one on the list with brushless motors! Build quality is fantastic. |",
+        "translatedContent": "    | Karuisrc | K417 | Tested | [Amazon](https://www.amazon.com/Electric-Adjustable-AIdrones-Quadcopter-Beginners/dp/B0CYPSJ34H/) | My favorite right now. Only one on the list with brushless motors! Build quality is fantastic. |"
+      },
+      {
+        "row": 15,
+        "rowsha": "VcCB363Iu/UGU9zJgRZergFfJT1yO34Yy9E8AbZA080=",
+        "originContent": "    | Loiley     | S29             | Tested    | [Amazon](https://www.amazon.com/Beginners-Altitude-Gestures-Adjustable-Batteries/dp/B0CFDVKJKC)                  | Best build quality, has servo for tilting camera(_not implemented in API yet_)|",
+        "translatedContent": "    | Loiley     | S29             | Tested    | [Amazon](https://www.amazon.com/Beginners-Altitude-Gestures-Adjustable-Batteries/dp/B0CFDVKJKC)                  | Best build quality, has servo for tilting camera(_not implemented in API yet_)|"
+      },
+      {
+        "row": 16,
+        "rowsha": "H27u4a/rtzEJhbNDoCbbynUwGrQP1rJT3PgcB1jpN8U=",
+        "originContent": "    | Hiturbo    | S20             | Tested    | [Amazon](https://www.amazon.com/dp/B0BBVZ849G), [Alternate Amazon Listing](https://www.amazon.com/Beginners-Foldable-Quadcopter-Gestures-Batteries/dp/B0D8LK1KJ3)                  | Original test platform, great build quality|",
+        "translatedContent": "    | Hiturbo    | S20             | Tested    | [Amazon](https://www.amazon.com/dp/B0BBVZ849G), [Alternate Amazon Listing](https://www.amazon.com/Beginners-Foldable-Quadcopter-Gestures-Batteries/dp/B0D8LK1KJ3)                  | Original test platform, great build quality|"
+      },
+      {
+        "row": 17,
+        "rowsha": "k2GP0S+h9qEhmbzuI+NYzgijBhxQlJHhtwK3L5MFwGs=",
+        "originContent": "    | FlyVista | V88 | Tested | [Amazon](https://www.amazon.com/dp/B0D5CXY6X8) | |",
+        "translatedContent": "    | FlyVista | V88 | Tested | [Amazon](https://www.amazon.com/dp/B0D5CXY6X8) | |"
+      },
+      {
+        "row": 18,
+        "rowsha": "q311cNewFiMYcYkXdLeRZk8Gaz5q3YhEcvw0Sc/94w0=",
+        "originContent": "    | ? | D16/GT3/V66 | Tested | cheapest on [Aliexpress](https://www.aliexpress.us/item/3256808590663347.html), [Amazon](https://www.amazon.com/THOAML-Batteries-Altitude-Headless-360%C2%B0Flip/dp/B0F1D6F62J/) | 20% smaller DJI Neo clone. Only really good for indoor flight. ",
+        "translatedContent": "    | ? | D16/GT3/V66 | Tested | cheapest on [Aliexpress](https://www.aliexpress.us/item/3256808590663347.html), [Amazon](https://www.amazon.com/THOAML-Batteries-Altitude-Headless-360%C2%B0Flip/dp/B0F1D6F62J/) | 20% smaller DJI Neo clone. Only really good for indoor flight. "
+      },
+      {
+        "row": 19,
+        "rowsha": "g4XoHQnIglRNGrpwbKyQUuttckl1E2tsubJq7pHcxE4=",
+        "originContent": "    | Several Brands | E58 | Tested | [Amazon](https://www.amazon.com/Foldable-Quadcopter-Beginners-Batteries-Waypoints/dp/B09KV8L7WN/) |  |",
+        "translatedContent": "    | Several Brands | E58 | Tested | [Amazon](https://www.amazon.com/Foldable-Quadcopter-Beginners-Batteries-Waypoints/dp/B09KV8L7WN/) |  |"
+      },
+      {
+        "row": 20,
+        "rowsha": "dxxWXAcwS2h5NALqLyJMsWwQ3r/xPahdAAOSs6JMalU=",
+        "originContent": "    | Several Brands | E88/E88 Pro | Suspected | [Amazon](https://www.amazon.com/Foldable-Camera-Quadcopter-Altitude-Beginner/dp/B0DZCLFQXN) | |",
+        "translatedContent": "    | Several Brands | E88/E88 Pro | Suspected | [Amazon](https://www.amazon.com/Foldable-Camera-Quadcopter-Altitude-Beginner/dp/B0DZCLFQXN) | |"
+      },
+      {
+        "row": 21,
+        "rowsha": "cnDfWyawYesX/GUMMr44esn+Bs160zGF+RTF6PqnOfo=",
+        "originContent": "    | Several Brands | E99/E99 Pro | Suspected | [Amazon](https://www.amazon.com/LJN53-Foldable-Drone-Dual-Cameras/dp/B0DRH9C6RF) | |",
+        "translatedContent": "    | Several Brands | E99/E99 Pro | Suspected | [Amazon](https://www.amazon.com/LJN53-Foldable-Drone-Dual-Cameras/dp/B0DRH9C6RF) | |"
+      },
+      {
+        "row": 22,
+        "rowsha": "xqYJ8LXNo+KKbL4uz77O0zw2Es43JiFKv5CJ/ZYbyZ4=",
+        "originContent": "    | Swifsen | A35 | Suspected | [Amazon](https://a.co/d/bqKvloz) | Very small \"toy\" drone|",
+        "translatedContent": "    | Swifsen | A35 | Suspected | [Amazon](https://a.co/d/bqKvloz) | Very small \"toy\" drone|"
+      },
+      {
+        "row": 23,
+        "rowsha": "OkJy197L4pNIXW9DXb5NzDJjQVFvy/FTEqMn3S035KY=",
+        "originContent": "    | Unknown | LSRC-S1S | Suspected | | mentioned in another reverse-engineering effort for the WiFi UAV app|",
+        "translatedContent": "    | Unknown | LSRC-S1S | Suspected | | mentioned in another reverse-engineering effort for the WiFi UAV app|"
+      },
+      {
+        "row": 24,
+        "rowsha": "UT+CHkr7eZwu6+S6BT4fsA08L1rpu+1ZwnPyWjEH2r8=",
+        "originContent": "    | Velcase    | S101            | TODO | [Amazon](https://www.amazon.com/Foldable-Beginners-Quadcopter-Carrying-Positioning/dp/B0CH341G5F/)  | lower quality build, smaller battery and props than S29 & S20|",
+        "translatedContent": "    | Velcase    | S101            | TODO | [Amazon](https://www.amazon.com/Foldable-Beginners-Quadcopter-Carrying-Positioning/dp/B0CH341G5F/)  | lower quality build, smaller battery and props than S29 & S20|"
+      },
+      {
+        "row": 25,
+        "rowsha": "O9S6vH5HEaNKD6Y32zC9Q+6dYjtRswkMZT8+CtT/33g=",
+        "originContent": "    | Redrie | X29 | TODO | [Amazon](https://www.amazon.com/Adults-1080P-Foldable-Altitude-Auto-Follow-Batteries/dp/B0CZQKNYL5) | Working on this one now|",
+        "translatedContent": "    | Redrie | X29 | TODO | [Amazon](https://www.amazon.com/Adults-1080P-Foldable-Altitude-Auto-Follow-Batteries/dp/B0CZQKNYL5) | Working on this one now|"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "ksDtM1wvxLhXr+Asmkkj7OIYSc357V4cOOu+uhwGTGA=",
+        "originContent": "    _**Tested** means the drone has been physically run with turbodrone to ensure its compatibility._",
+        "translatedContent": "    _**Tested** means the drone has been physically run with turbodrone to ensure its compatibility._"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "HDh8w3vBSHRATu2AlinORr8sjMHV8NOPETHI3uwOo1o=",
+        "originContent": "  _**Suspected** means the APK for the drone appears to use the exact same packages and libraries as one of the tested drones._",
+        "translatedContent": "  _**Suspected** means the APK for the drone appears to use the exact same packages and libraries as one of the tested drones._"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "tspQMFI8GN1uPHSa7AKyLJrXqk01NBL6IiQAGWrPt+U=",
+        "originContent": "  _**TODO** means the APK operates with different byte packets and protocols and will have to be added as a new implementation in the API._",
+        "translatedContent": "  _**TODO** means the APK operates with different byte packets and protocols and will have to be added as a new implementation in the API._"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "/2OP/8LIv8sx5KbmaU7gLn+34BElauZwEnoXvnshs8g=",
+        "originContent": "* WiFi Dongle ([recommend ALFA Network AWUS036ACM](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) or similar) ",
+        "translatedContent": "* WiFi Dongle ([recommend ALFA Network AWUS036ACM](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) or similar) "
+      },
+      {
+        "row": 34,
+        "rowsha": "CQadqlB71amlq7lVm0/1iHGcJXNWU61R/931g7iuzxY=",
+        "originContent": "  * Drone broadcasts its own WiFi network so your computer will have to connect to it.",
+        "translatedContent": "  * Drone broadcasts its own WiFi network so your computer will have to connect to it."
+      },
+      {
+        "row": 35,
+        "rowsha": "Hid5eSNJL6PVou4/EsyzCw+TNCeMr22jRt01/sZ61pc=",
+        "originContent": "  * Not strictly necessary because you can use your computer's built-in WiFi radio to connect to the drone's network, but nice to have that way you can stay connected to the internet while flying the drone.",
+        "translatedContent": "  * Not strictly necessary because you can use your computer's built-in WiFi radio to connect to the drone's network, but nice to have that way you can stay connected to the internet while flying the drone."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+        "originContent": "## Setup",
+        "translatedContent": "## Setup"
+      },
+      {
+        "row": 39,
+        "rowsha": "35FllnICSfG5tWjp7CESKN8JB3VeXvfVwTXO3vzwqcw=",
+        "originContent": "Move to the `backend` directory",
+        "translatedContent": "Move to the `backend` directory"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\ncd backend\n```",
+    "ContentSha": "8v2C8uh/LsWUhQTW3HdG/hdLT9Q/eMAsrkXAS8lmUhI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncd backend\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "y+4rtW77Uy7LZ/NrRH86OaVxAVQQlH4wQbZKqf5npn4=",
+        "originContent": "cd backend",
+        "translatedContent": "cd backend"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nAdd venv",
+    "ContentSha": "r3/q3P5YotcnD5ybUKtNW8UOtxEuUwFL0xoZVpAZe5M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Add venv\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Add venv"
+      },
+      {
+        "row": 2,
+        "rowsha": "BeUBc1BTBJXRx5tpUjcCdJH44/FCpR81hNc9tSLwEh8=",
+        "originContent": "Add venv",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\npython -m venv venv\nsource venv/bin/activate\n```",
+    "ContentSha": "IHdSDCrV/LdAeDMw5u93iZVUCEykUAtLzjIzdwqb8lQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython -m venv venv\nsource venv/bin/activate\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "rdTNJQmAe860vGFdQOn9/1fQ33cyFdRlndRgEfCzi+Y=",
+        "originContent": "python -m venv venv",
+        "translatedContent": "python -m venv venv"
+      },
+      {
+        "row": 3,
+        "rowsha": "Grul2uxnILzdPgH94tJsdPQfFgWQ441J3GlyUGVDvs4=",
+        "originContent": "source venv/bin/activate",
+        "translatedContent": "source venv/bin/activate"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nInstall the dependencies",
+    "ContentSha": "nLpTPBreUFXSXRYj6GYuGKcRNLsXlG/W33M6iYUnV1g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Install the dependencies\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Install the dependencies"
+      },
+      {
+        "row": 2,
+        "rowsha": "WoBfqEFOZNeXo0eMKmi5xzwquWSSDnrh97H0gMOVpLA=",
+        "originContent": "Install the dependencies",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\npip install -r requirements.txt\n```",
+    "ContentSha": "wZZiYUMP3e6ugTZtqQY/zQM1z2SfSyvUapcPMP025W0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n_If_ you are on Windows, you will need to manually install the `curses` library.",
+    "ContentSha": "gzE94WhZFki7Ar5kwc3hPsyYs33EcBth3Zl+qtE8/Sg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n_If_ you are on Windows, you will need to manually install the `curses` library.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "7AmXpgkJTcrV6RhJywY/twGAx067IlgT250Usp/Dojo=",
+        "originContent": "_If_ you are on Windows, you will need to manually install the `curses` library.",
+        "translatedContent": "_If_ you are on Windows, you will need to manually install the `curses` library."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\npip install windows-curses\n```",
+    "ContentSha": "YKhtwDQD1j58DGLIDVtvPAfU1z1aZUG2Aa0o7w0fGIA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npip install windows-curses\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "w0k7uk+xAeBSCrtxFIgKVOUi1WO4Wu4mOKabsJUgoRs=",
+        "originContent": "pip install windows-curses",
+        "translatedContent": "pip install windows-curses"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nOpen a new terminal window and install the dependencies for the frontend.\n_Make sure you have Node.js 20+ installed._",
+    "ContentSha": "hYpWFECKX3EKyGbGw/21hBMyXVqaE0qYkc+RG9IIBik=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nOpen a new terminal window and install the dependencies for the frontend.\n_Make sure you have Node.js 20+ installed._",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Q7C7yXR1J3iTZur7M0pSq3zkEzfrCn2IF8HDngpYrF4=",
+        "originContent": "Open a new terminal window and install the dependencies for the frontend.",
+        "translatedContent": "Open a new terminal window and install the dependencies for the frontend."
+      },
+      {
+        "row": 3,
+        "rowsha": "b2xl/nfFe03229dYMB4xjZbbwTRWQoVSWpuEnUADIjM=",
+        "originContent": "_Make sure you have Node.js 20+ installed._",
+        "translatedContent": "_Make sure you have Node.js 20+ installed._"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\ncd frontend\nnpm install\n```",
+    "ContentSha": "BOCmufvdUGb4wlQg9t8D2fxqMYh0vjhzbN74mYWNtcM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncd frontend\nnpm install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "mBQkeVSRciUI+61SI++H1xbSAp3vL2nFmMMIIwDhQYA=",
+        "originContent": "cd frontend",
+        "translatedContent": "cd frontend"
+      },
+      {
+        "row": 3,
+        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+        "originContent": "npm install",
+        "translatedContent": "npm install"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nMake sure WiFi Dongle is plugged in, drone is turned on, connect to the \"BRAND-MODEL-XXXXXX\" network before proceeding.\n\nCreate a `.env` file in the `backend` directory. Add a DRONE_TYPE based on which drone you have:",
+    "ContentSha": "YeiblFiWyQxrSPAWEaOVyVXYboRwYCR8++uPqJRQ2RQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nMake sure WiFi Dongle is plugged in, drone is turned on, connect to the \"BRAND-MODEL-XXXXXX\" network before proceeding.\n\nCreate a `.env` file in the `backend` directory. Add a DRONE_TYPE based on which drone you have:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yOzPmCRY3K8NzM2kMw9DEU4Ze9WZa6uIPUAnm1IQwE0=",
+        "originContent": "Make sure WiFi Dongle is plugged in, drone is turned on, connect to the \"BRAND-MODEL-XXXXXX\" network before proceeding.",
+        "translatedContent": "Make sure WiFi Dongle is plugged in, drone is turned on, connect to the \"BRAND-MODEL-XXXXXX\" network before proceeding."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "xc/eYSkEPXKRfaQyNwPlBlz2xrscK1NCa9YNhfdSg8g=",
+        "originContent": "Create a `.env` file in the `backend` directory. Add a DRONE_TYPE based on which drone you have:",
+        "translatedContent": "Create a `.env` file in the `backend` directory. Add a DRONE_TYPE based on which drone you have:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\n# For \"com.vison.macrochip\" (s2x) based drones like S20 and S29:\nDRONE_TYPE=s2x\n# For WiFi UAV-based drones like V88 and D16:\n# DRONE_TYPE=wifi_uav \n```",
+    "ContentSha": "uV5BX2xNTZ5AF0u4nN/ukE4Oj3oGaoiQPckP8t+Hjl8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n# For \"com.vison.macrochip\" (s2x) based drones like S20 and S29:\nDRONE_TYPE=s2x\n# For WiFi UAV-based drones like V88 and D16:\n# DRONE_TYPE=wifi_uav \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "fW1IRfB1xFmcd7PtYv5NMYAowlJ7R0dSJY419488B0s=",
+        "originContent": "# For \"com.vison.macrochip\" (s2x) based drones like S20 and S29:",
+        "translatedContent": "# For \"com.vison.macrochip\" (s2x) based drones like S20 and S29:"
+      },
+      {
+        "row": 3,
+        "rowsha": "1UobIKfJI9xxot8Obez1fN9wOFamapZ6doHlvdZnUN8=",
+        "originContent": "DRONE_TYPE=s2x",
+        "translatedContent": "DRONE_TYPE=s2x"
+      },
+      {
+        "row": 4,
+        "rowsha": "bYxPJSfSjha07kHO051oHfse9kCWL59379o/AxtA+54=",
+        "originContent": "# For WiFi UAV-based drones like V88 and D16:",
+        "translatedContent": "# For WiFi UAV-based drones like V88 and D16:"
+      },
+      {
+        "row": 5,
+        "rowsha": "NAS/HtBXzRp5VCZOs9fD4r9oUFirKCWeiKqhGaQ7gAE=",
+        "originContent": "# DRONE_TYPE=wifi_uav ",
+        "translatedContent": "# DRONE_TYPE=wifi_uav "
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nLaunch the backend: ",
+    "ContentSha": "OcbhlosjQHWTaabebp0jW180RdfStneL2h/Yy6uUSwc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n启动后端：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "8+iZWNmuF0fSxtYPHBdBYi5ypE110zISShmbvl1Gy3I=",
+        "originContent": "Launch the backend: ",
+        "translatedContent": "启动后端："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\nuvicorn web_server:app\n```",
+    "ContentSha": "eESqmdVbnrXdcFDhg0/yLuVWBjKDpysvHvHKq9OBhYI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nuvicorn web_server:app\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "NB2FG2SxtFwHLaS+5h/cKnT9XsHkW3b0Q/Tl8TLYLA0=",
+        "originContent": "uvicorn web_server:app",
+        "translatedContent": "uvicorn web_server:app"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nIn a separate terminal, launch the frontend web client:",
+    "ContentSha": "kcPxDin8XSOWfi6yVpDJgHTxeAalSvSAr3R+XImnFtc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "In a separate terminal, launch the frontend web client:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "In a separate terminal, launch the frontend web client:"
+      },
+      {
+        "row": 2,
+        "rowsha": "N3b4ljF/QRTZBBEuVDU5DIfF36g9p7mCNSgS4bXT1hQ=",
+        "originContent": "In a separate terminal, launch the frontend web client:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```\nnpm run dev\n```",
+    "ContentSha": "oeX5rCZbXvAWk5CwlXbpGjG2X7J4FHoOr3JuzJxK5DU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nnpm run dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "IfFnfI9PhCQWiefGw310ACvgFob6wDpxDKh2mTUm//c=",
+        "originContent": "npm run dev",
+        "translatedContent": "npm run dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nOpen the web client which will be at `http://localhost:5173` and you should see the drone video feed and be able to control it.\n\nTo control via a gaming controller, plug it in and move the sticks around for it to be detected and then push the toggle button to switch between keyboard and controller control.\n\nMake sure to fly in a safe area, preferably outdoors with little wind. And note that the \"Land\" button _currently_ is more of an E-stop button that will stop the drone motors immediately.\n\n\n## Status\nReconnection logic was solved recently.\n\nVideo feed: solid.\n\nControls: improved greatly via the web client. The implementation for WiFi UAV-based drones could use some fine-tuning.\n\nWeb Client: support for various inputs like keyboard, gamepad controllers, and ThinkPad TrackPoint mouse(lol).\n\nWorking on adding support for more drones from [Amazon's best-selling drone list](https://www.amazon.com/best-selling-drones/s?k=best+selling+drones).\n\n\n## Contribute\nTo contribute support for a new \"toy\" drone, download the APK the drone uses on a mirror site and start reverse engineering it by decompiling to Java files with [jadx](https://github.com/skylot/jadx).\nFrom there, look at the `AndroidManifest.xml` and see if you can find the classes that are entry points for the app. Look for port usage or protocol usage explicitly mentioned like TCP or UDP. Most of these apps will do the actual communication and video feed processing in native C++ libraries that will be embedded inside the APK. You can use a tool like Ghidra to decompile the native libraries and see if you can discover anything useful. For video feed processing you want to figure out what format it uses e.g. JPEG, YUV, etc. and also if it uses compression and what the byte structure looks like when its reforming an image frame from packets.\nAdditionally, Wireshark is your friend for understanding the raw data packets being sent and received by the app. Watch this [video](https://x.com/marshallrichrds/status/1923165437698670818) for an overview into the reverse engineering process used for adding support for the Hiturbo S20 drone.\n\nOnce you have the protocols and processing for RC and video figured out, make a small test program and add it to the `experimental` directory at that point if you'd like others to be able to try it out.\nAfter that, you can work on an implementation that is compatible with the existing back-end architecture; examples of this are the `s2x` and `wifi_uav` reverse-engineered implementations.\n\n\n## Experimental Support\nFor drones and apps with limited support which are not yet fully integrated into Turbodrone, see the `experimental` directory.\n",
+    "ContentSha": "XqZsvYICzjqGZV+e5wCIsrf9zjVFilddPg9Oku1/4lc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Open the web client which will be at `http://localhost:5173` and you should see the drone video feed and be able to control it.\n\nTo control via a gaming controller, plug it in and move the sticks around for it to be detected and then push the toggle button to switch between keyboard and controller control.\n\nMake sure to fly in a safe area, preferably outdoors with little wind. And note that the \"Land\" button _currently_ is more of an E-stop button that will stop the drone motors immediately.\n\n\n## Status\nReconnection logic was solved recently.\n\nVideo feed: solid.\n\nControls: improved greatly via the web client. The implementation for WiFi UAV-based drones could use some fine-tuning.\n\nWeb Client: support for various inputs like keyboard, gamepad controllers, and ThinkPad TrackPoint mouse(lol).\n\nWorking on adding support for more drones from [Amazon's best-selling drone list](https://www.amazon.com/best-selling-drones/s?k=best+selling+drones).\n\n\n## Contribute\nTo contribute support for a new \"toy\" drone, download the APK the drone uses on a mirror site and start reverse engineering it by decompiling to Java files with [jadx](https://github.com/skylot/jadx).\nFrom there, look at the `AndroidManifest.xml` and see if you can find the classes that are entry points for the app. Look for port usage or protocol usage explicitly mentioned like TCP or UDP. Most of these apps will do the actual communication and video feed processing in native C++ libraries that will be embedded inside the APK. You can use a tool like Ghidra to decompile the native libraries and see if you can discover anything useful. For video feed processing you want to figure out what format it uses e.g. JPEG, YUV, etc. and also if it uses compression and what the byte structure looks like when its reforming an image frame from packets.\nAdditionally, Wireshark is your friend for understanding the raw data packets being sent and received by the app. Watch this [video](https://x.com/marshallrichrds/status/1923165437698670818) for an overview into the reverse engineering process used for adding support for the Hiturbo S20 drone.\n\nOnce you have the protocols and processing for RC and video figured out, make a small test program and add it to the `experimental` directory at that point if you'd like others to be able to try it out.\nAfter that, you can work on an implementation that is compatible with the existing back-end architecture; examples of this are the `s2x` and `wifi_uav` reverse-engineered implementations.\n\n\n## Experimental Support\nFor drones and apps with limited support which are not yet fully integrated into Turbodrone, see the `experimental` directory.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Open the web client which will be at `http://localhost:5173` and you should see the drone video feed and be able to control it."
+      },
+      {
+        "row": 2,
+        "rowsha": "PmnGEJqi5rI3kk32oOgXKxtCVDMFrYzgf7kFk9u6gkY=",
+        "originContent": "Open the web client which will be at `http://localhost:5173` and you should see the drone video feed and be able to control it.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "To control via a gaming controller, plug it in and move the sticks around for it to be detected and then push the toggle button to switch between keyboard and controller control."
+      },
+      {
+        "row": 4,
+        "rowsha": "ymWksJRYsmAGHYfgMxUixZIY1SdDJRcJy+6pJkHsZ7U=",
+        "originContent": "To control via a gaming controller, plug it in and move the sticks around for it to be detected and then push the toggle button to switch between keyboard and controller control.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Make sure to fly in a safe area, preferably outdoors with little wind. And note that the \"Land\" button _currently_ is more of an E-stop button that will stop the drone motors immediately."
+      },
+      {
+        "row": 6,
+        "rowsha": "pi1269BFRQriGvuz8kHC/HdCG0LLuCrME31Gxv+Yoh8=",
+        "originContent": "Make sure to fly in a safe area, preferably outdoors with little wind. And note that the \"Land\" button _currently_ is more of an E-stop button that will stop the drone motors immediately.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Status"
+      },
+      {
+        "row": 9,
+        "rowsha": "ixUB7+z1qquI8JQNWATJQRG1wieie8X9mj6WzKZ0QjY=",
+        "originContent": "## Status",
+        "translatedContent": "Reconnection logic was solved recently."
+      },
+      {
+        "row": 10,
+        "rowsha": "SXZJA1hR9Wc41/Snq0McR/z/KHyTtCnN4jgboOhmHCM=",
+        "originContent": "Reconnection logic was solved recently.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Video feed: solid."
+      },
+      {
+        "row": 12,
+        "rowsha": "CHWEB6HukTCk33KHfTRrG0jUKSdXaXBNzSKVY0G0M6U=",
+        "originContent": "Video feed: solid.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Controls: improved greatly via the web client. The implementation for WiFi UAV-based drones could use some fine-tuning."
+      },
+      {
+        "row": 14,
+        "rowsha": "R1eEm4nBBxGssbIaWl8qlTZ/hmeI+ZG91IDUhhlhW8s=",
+        "originContent": "Controls: improved greatly via the web client. The implementation for WiFi UAV-based drones could use some fine-tuning.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Web Client: support for various inputs like keyboard, gamepad controllers, and ThinkPad TrackPoint mouse(lol)."
+      },
+      {
+        "row": 16,
+        "rowsha": "cdur+4/aYsHfWF7FZeDd8FxFbsCwVb8aqivOwpFutkM=",
+        "originContent": "Web Client: support for various inputs like keyboard, gamepad controllers, and ThinkPad TrackPoint mouse(lol).",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Working on adding support for more drones from [Amazon's best-selling drone list](https://www.amazon.com/best-selling-drones/s?k=best+selling+drones)."
+      },
+      {
+        "row": 18,
+        "rowsha": "INeFvLKNiIRPkft+vhipnqJN1h4sYoVC0UYvvuhuLmE=",
+        "originContent": "Working on adding support for more drones from [Amazon's best-selling drone list](https://www.amazon.com/best-selling-drones/s?k=best+selling+drones).",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Contribute"
+      },
+      {
+        "row": 21,
+        "rowsha": "fMu080v6eh/hFkmstsVs1QR9bj14O7X3mMQkwTJevBw=",
+        "originContent": "## Contribute",
+        "translatedContent": "To contribute support for a new \"toy\" drone, download the APK the drone uses on a mirror site and start reverse engineering it by decompiling to Java files with [jadx](https://github.com/skylot/jadx)."
+      },
+      {
+        "row": 22,
+        "rowsha": "tIdGP5/RD3Tq2L0ft/8UlhpXrrNUPcEiH5lyS7I5pLM=",
+        "originContent": "To contribute support for a new \"toy\" drone, download the APK the drone uses on a mirror site and start reverse engineering it by decompiling to Java files with [jadx](https://github.com/skylot/jadx).",
+        "translatedContent": "From there, look at the `AndroidManifest.xml` and see if you can find the classes that are entry points for the app. Look for port usage or protocol usage explicitly mentioned like TCP or UDP. Most of these apps will do the actual communication and video feed processing in native C++ libraries that will be embedded inside the APK. You can use a tool like Ghidra to decompile the native libraries and see if you can discover anything useful. For video feed processing you want to figure out what format it uses e.g. JPEG, YUV, etc. and also if it uses compression and what the byte structure looks like when its reforming an image frame from packets."
+      },
+      {
+        "row": 23,
+        "rowsha": "e017Nkj2oraCSnl0PnWr4M/bF6xheldzmSz9a6ate8M=",
+        "originContent": "From there, look at the `AndroidManifest.xml` and see if you can find the classes that are entry points for the app. Look for port usage or protocol usage explicitly mentioned like TCP or UDP. Most of these apps will do the actual communication and video feed processing in native C++ libraries that will be embedded inside the APK. You can use a tool like Ghidra to decompile the native libraries and see if you can discover anything useful. For video feed processing you want to figure out what format it uses e.g. JPEG, YUV, etc. and also if it uses compression and what the byte structure looks like when its reforming an image frame from packets.",
+        "translatedContent": "Additionally, Wireshark is your friend for understanding the raw data packets being sent and received by the app. Watch this [video](https://x.com/marshallrichrds/status/1923165437698670818) for an overview into the reverse engineering process used for adding support for the Hiturbo S20 drone."
+      },
+      {
+        "row": 24,
+        "rowsha": "CjJ3QcG/cqGTPcEkPkiKhBYG81wRcfzYhoaatkPoZPM=",
+        "originContent": "Additionally, Wireshark is your friend for understanding the raw data packets being sent and received by the app. Watch this [video](https://x.com/marshallrichrds/status/1923165437698670818) for an overview into the reverse engineering process used for adding support for the Hiturbo S20 drone.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Once you have the protocols and processing for RC and video figured out, make a small test program and add it to the `experimental` directory at that point if you'd like others to be able to try it out."
+      },
+      {
+        "row": 26,
+        "rowsha": "Sl/j+lIPp4NFWV/ZabqeH4AUaotRPF7JZw/WBRivdbw=",
+        "originContent": "Once you have the protocols and processing for RC and video figured out, make a small test program and add it to the `experimental` directory at that point if you'd like others to be able to try it out.",
+        "translatedContent": "After that, you can work on an implementation that is compatible with the existing back-end architecture; examples of this are the `s2x` and `wifi_uav` reverse-engineered implementations."
+      },
+      {
+        "row": 27,
+        "rowsha": "DMnuVhGEE2F5bdbqS3K00YNiot+95R8cKk1QkInXTUE=",
+        "originContent": "After that, you can work on an implementation that is compatible with the existing back-end architecture; examples of this are the `s2x` and `wifi_uav` reverse-engineered implementations.",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Experimental Support"
+      },
+      {
+        "row": 30,
+        "rowsha": "ulInkUzdcKhCwhTvURE01Cj13JthyL8kfWn+o6wg7xQ=",
+        "originContent": "## Experimental Support",
+        "translatedContent": "For drones and apps with limited support which are not yet fully integrated into Turbodrone, see the `experimental` directory."
+      },
+      {
+        "row": 31,
+        "rowsha": "9yn1ERXzZU+3DlNMEu8dG59vUEdEV4DRDsovv5wBTps=",
+        "originContent": "For drones and apps with limited support which are not yet fully integrated into Turbodrone, see the `experimental` directory.",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

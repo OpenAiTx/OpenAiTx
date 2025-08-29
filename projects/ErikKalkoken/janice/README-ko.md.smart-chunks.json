@@ -1,0 +1,781 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Janice\n\nA desktop app for viewing large JSON files.\n\n[![GitHub Release](https://img.shields.io/github/v/release/ErikKalkoken/janice)](https://github.com/ErikKalkoken/janice)\n[![Fyne](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2FErikKalkoken%2Fjanice%2Fblob%2Fmain%2Fgo.mod&search=fyne%5C.io%5C%2Ffyne%5C%2Fv2%20(v%5Cd*%5C.%5Cd*%5C.%5Cd*)&replace=%241&label=Fyne&cacheSeconds=https%3A%2F%2Fgithub.com%2Ffyne-io%2Ffyne)](https://github.com/fyne-io/fyne)\n[![build status](https://github.com/ErikKalkoken/janice/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/ErikKalkoken/janice/actions/workflows/ci-cd.yml)\n[![codecov](https://codecov.io/gh/ErikKalkoken/janice/graph/badge.svg?token=nei6PLRXrD)](https://codecov.io/gh/ErikKalkoken/janice)\n[![GitHub License](https://img.shields.io/github/license/ErikKalkoken/janice)](https://github.com/ErikKalkoken/janice)\n[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/ErikKalkoken/janice/total)](https://github.com/ErikKalkoken/janice/releases)\n\n[![download](https://github.com/user-attachments/assets/c8de336f-8c42-4501-86bb-dbc9c66db1f0)](https://github.com/ErikKalkoken/janice/releases/latest)\n\n## Contents\n\n- [Description](#description)\n- [Screenshots](#screenshots)\n- [How to run](#how-to-run)\n- [FAQ](#faq)\n- [Attributions](#attributions)\n\n## Description\n\nJanice is a desktop app for viewing large JSON files. It's key features are:\n\n- Browse through a JSON document in classic tree structure\n- JSON files can be opened via file dialog, from clipboard, dropped on the window or given as command line argument\n- Supports viewing very large JSON files (>100MB, >10M elements)\n- Search for keys and values in the document. Supports wildcards.\n- Export parts of a JSON file into a new file or to clipboard\n- Copy values to clipboard\n- Single executable file, no installation required\n- Desktop app that runs on Windows, Linux and macOS\n- Automatic dark and light theme\n\n## Screenshots\n\n### Light theme\n\n![light](https://cdn.imgpile.com/f/0IrYBjJ_xl.png)",
+    "ContentSha": "1Ll3tqzVB99OV1QcKdCazaokiCEeBpK9NDOBJpmoIgY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Janice\n\n대용량 JSON 파일을 보기 위한 데스크탑 앱입니다.\n\n[![GitHub Release](https://img.shields.io/github/v/release/ErikKalkoken/janice)](https://github.com/ErikKalkoken/janice)\n[![Fyne](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2FErikKalkoken%2Fjanice%2Fblob%2Fmain%2Fgo.mod&search=fyne%5C.io%5C%2Ffyne%5C%2Fv2%20(v%5Cd*%5C.%5Cd*%5C.%5Cd*)&replace=%241&label=Fyne&cacheSeconds=https%3A%2F%2Fgithub.com%2Ffyne-io%2Ffyne)](https://github.com/fyne-io/fyne)\n[![build status](https://github.com/ErikKalkoken/janice/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/ErikKalkoken/janice/actions/workflows/ci-cd.yml)\n[![codecov](https://codecov.io/gh/ErikKalkoken/janice/graph/badge.svg?token=nei6PLRXrD)](https://codecov.io/gh/ErikKalkoken/janice)\n[![GitHub License](https://img.shields.io/github/license/ErikKalkoken/janice)](https://github.com/ErikKalkoken/janice)\n[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/ErikKalkoken/janice/total)](https://github.com/ErikKalkoken/janice/releases)\n\n[![download](https://github.com/user-attachments/assets/c8de336f-8c42-4501-86bb-dbc9c66db1f0)](https://github.com/ErikKalkoken/janice/releases/latest)\n\n## 목차\n\n- [설명](#description)\n- [스크린샷](#screenshots)\n- [실행 방법](#how-to-run)\n- [자주 묻는 질문](#faq)\n- [기여자](#attributions)\n\n## 설명\n\nJanice는 대용량 JSON 파일을 보기 위한 데스크탑 앱입니다. 주요 기능은 다음과 같습니다:\n\n- 고전적인 트리 구조로 JSON 문서를 탐색\n- JSON 파일을 파일 대화상자, 클립보드, 창에 드래그 앤 드롭 또는 명령줄 인수로 열기 가능\n- 매우 큰 JSON 파일(>100MB, >10M 요소)도 지원\n- 문서 내 키와 값을 검색. 와일드카드 지원\n- JSON 파일의 일부를 새 파일이나 클립보드로 내보내기\n- 값을 클립보드에 복사\n- 단일 실행 파일, 설치 불필요\n- Windows, Linux, macOS에서 실행되는 데스크탑 앱\n- 자동 다크 및 라이트 테마 지원\n\n## 스크린샷\n\n### 라이트 테마\n\n![light](https://cdn.imgpile.com/f/0IrYBjJ_xl.png)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "sYBYL9o2i8u44sIKla0jZ9Q/fpmDvm/0Hn32E8EejOY=",
+        "originContent": "# Janice",
+        "translatedContent": "# Janice"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "nTrag1Qeu27rI0BchpaiLJi168H6GGFv9QfhmcCOlj0=",
+        "originContent": "A desktop app for viewing large JSON files.",
+        "translatedContent": "대용량 JSON 파일을 보기 위한 데스크탑 앱입니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "oYN4Kj6rZEYUGWuIXsFeskjWXpz4tnfzHxTgl7K9GP0=",
+        "originContent": "[![GitHub Release](https://img.shields.io/github/v/release/ErikKalkoken/janice)](https://github.com/ErikKalkoken/janice)",
+        "translatedContent": "[![GitHub Release](https://img.shields.io/github/v/release/ErikKalkoken/janice)](https://github.com/ErikKalkoken/janice)"
+      },
+      {
+        "row": 6,
+        "rowsha": "tfXD5QIf7iVmMPJk+DLeY5MEtFMxkXhnTyBPL6qbif8=",
+        "originContent": "[![Fyne](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2FErikKalkoken%2Fjanice%2Fblob%2Fmain%2Fgo.mod&search=fyne%5C.io%5C%2Ffyne%5C%2Fv2%20(v%5Cd*%5C.%5Cd*%5C.%5Cd*)&replace=%241&label=Fyne&cacheSeconds=https%3A%2F%2Fgithub.com%2Ffyne-io%2Ffyne)](https://github.com/fyne-io/fyne)",
+        "translatedContent": "[![Fyne](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2FErikKalkoken%2Fjanice%2Fblob%2Fmain%2Fgo.mod&search=fyne%5C.io%5C%2Ffyne%5C%2Fv2%20(v%5Cd*%5C.%5Cd*%5C.%5Cd*)&replace=%241&label=Fyne&cacheSeconds=https%3A%2F%2Fgithub.com%2Ffyne-io%2Ffyne)](https://github.com/fyne-io/fyne)"
+      },
+      {
+        "row": 7,
+        "rowsha": "CWmatumNwVRrnJRA0lgV+imFXGdzFT6eASK7EGxn8p4=",
+        "originContent": "[![build status](https://github.com/ErikKalkoken/janice/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/ErikKalkoken/janice/actions/workflows/ci-cd.yml)",
+        "translatedContent": "[![build status](https://github.com/ErikKalkoken/janice/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/ErikKalkoken/janice/actions/workflows/ci-cd.yml)"
+      },
+      {
+        "row": 8,
+        "rowsha": "00e1+dDLtM+j7Ows91Zrqqey3hy6n8yBK3WrEzs3rWw=",
+        "originContent": "[![codecov](https://codecov.io/gh/ErikKalkoken/janice/graph/badge.svg?token=nei6PLRXrD)](https://codecov.io/gh/ErikKalkoken/janice)",
+        "translatedContent": "[![codecov](https://codecov.io/gh/ErikKalkoken/janice/graph/badge.svg?token=nei6PLRXrD)](https://codecov.io/gh/ErikKalkoken/janice)"
+      },
+      {
+        "row": 9,
+        "rowsha": "C+X0+Uo8XhawuY4aRrp1mFo8kA8HlXSAmpSTZYOR6f8=",
+        "originContent": "[![GitHub License](https://img.shields.io/github/license/ErikKalkoken/janice)](https://github.com/ErikKalkoken/janice)",
+        "translatedContent": "[![GitHub License](https://img.shields.io/github/license/ErikKalkoken/janice)](https://github.com/ErikKalkoken/janice)"
+      },
+      {
+        "row": 10,
+        "rowsha": "0DzdqU0MKxDjlZptu2pfB3JWXTvUvqvVYk2VcqbiBXk=",
+        "originContent": "[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/ErikKalkoken/janice/total)](https://github.com/ErikKalkoken/janice/releases)",
+        "translatedContent": "[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/ErikKalkoken/janice/total)](https://github.com/ErikKalkoken/janice/releases)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "ZUYuEoxJk6hitE39RfGfGAjHZjQjINknWfNrzj5aOKo=",
+        "originContent": "[![download](https://github.com/user-attachments/assets/c8de336f-8c42-4501-86bb-dbc9c66db1f0)](https://github.com/ErikKalkoken/janice/releases/latest)",
+        "translatedContent": "[![download](https://github.com/user-attachments/assets/c8de336f-8c42-4501-86bb-dbc9c66db1f0)](https://github.com/ErikKalkoken/janice/releases/latest)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "Yk5cZ3S6lnsBfRjsT/4ud8HP+iWBYqbxG0YlzTcI+ew=",
+        "originContent": "## Contents",
+        "translatedContent": "## 목차"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "ZlA014QnYl33B3OeYEIBwNxn+CqwZU5KjmbABLDHUh8=",
+        "originContent": "- [Description](#description)",
+        "translatedContent": "- [설명](#description)"
+      },
+      {
+        "row": 17,
+        "rowsha": "0+KUDrloA3bDnIILx8rLgTLgt/tgBRLMz30GHbgGncA=",
+        "originContent": "- [Screenshots](#screenshots)",
+        "translatedContent": "- [스크린샷](#screenshots)"
+      },
+      {
+        "row": 18,
+        "rowsha": "UEKUeJ0dhH2Tiv+24s0Y1pI9GJCFP3yxHR5kaXTZ0VA=",
+        "originContent": "- [How to run](#how-to-run)",
+        "translatedContent": "- [실행 방법](#how-to-run)"
+      },
+      {
+        "row": 19,
+        "rowsha": "6zAWPMHaCSpN7yFKXXIIvcgEAS7gjppttuxNZloam7E=",
+        "originContent": "- [FAQ](#faq)",
+        "translatedContent": "- [자주 묻는 질문](#faq)"
+      },
+      {
+        "row": 20,
+        "rowsha": "FvRJsYnxnY6nblKf6HnYxzHer4nTg0/QBSbzLRq3AGU=",
+        "originContent": "- [Attributions](#attributions)",
+        "translatedContent": "- [기여자](#attributions)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "K0XdQb6cPR2XYn4/Xr3GLliF7Co62hbZTlUnZJsZ2Bk=",
+        "originContent": "## Description",
+        "translatedContent": "## 설명"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "ApcuGyIFz2sL96BE6h9o9e373wPruxvIq6J4qMgXEiY=",
+        "originContent": "Janice is a desktop app for viewing large JSON files. It's key features are:",
+        "translatedContent": "Janice는 대용량 JSON 파일을 보기 위한 데스크탑 앱입니다. 주요 기능은 다음과 같습니다:"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "JAEw22xY8S5EqsKXYqF0i62jkZnxe5n0xqgTeBqedDU=",
+        "originContent": "- Browse through a JSON document in classic tree structure",
+        "translatedContent": "- 고전적인 트리 구조로 JSON 문서를 탐색"
+      },
+      {
+        "row": 27,
+        "rowsha": "PsNHkVH8G5J9m04buuwkiZYyC4Brw0XbmNtePLUnSyQ=",
+        "originContent": "- JSON files can be opened via file dialog, from clipboard, dropped on the window or given as command line argument",
+        "translatedContent": "- JSON 파일을 파일 대화상자, 클립보드, 창에 드래그 앤 드롭 또는 명령줄 인수로 열기 가능"
+      },
+      {
+        "row": 28,
+        "rowsha": "0NODf+KAj5cqEfwIar/aruCgsIcyazyLR4ChlswnjfQ=",
+        "originContent": "- Supports viewing very large JSON files (>100MB, >10M elements)",
+        "translatedContent": "- 매우 큰 JSON 파일(>100MB, >10M 요소)도 지원"
+      },
+      {
+        "row": 29,
+        "rowsha": "oB+tXtk5+oespd06r5b+MjQiYQ3dmwO8CGHeuUgRp+A=",
+        "originContent": "- Search for keys and values in the document. Supports wildcards.",
+        "translatedContent": "- 문서 내 키와 값을 검색. 와일드카드 지원"
+      },
+      {
+        "row": 30,
+        "rowsha": "pbTCKo8m7z5xBy9pardFsLSsTehpEMAylDFR6FS0t0A=",
+        "originContent": "- Export parts of a JSON file into a new file or to clipboard",
+        "translatedContent": "- JSON 파일의 일부를 새 파일이나 클립보드로 내보내기"
+      },
+      {
+        "row": 31,
+        "rowsha": "L70+c+GfPlYZiAkl+YdoZzWex70sRVf9ypcKR1xOLco=",
+        "originContent": "- Copy values to clipboard",
+        "translatedContent": "- 값을 클립보드에 복사"
+      },
+      {
+        "row": 32,
+        "rowsha": "krIgfAKknqtV/lQtjaBRrLqseqll8wEnDQIgFBekL3c=",
+        "originContent": "- Single executable file, no installation required",
+        "translatedContent": "- 단일 실행 파일, 설치 불필요"
+      },
+      {
+        "row": 33,
+        "rowsha": "zDasAabEZCTwg84S372zc5rFYa/j6xQ5NIPF4P99w/c=",
+        "originContent": "- Desktop app that runs on Windows, Linux and macOS",
+        "translatedContent": "- Windows, Linux, macOS에서 실행되는 데스크탑 앱"
+      },
+      {
+        "row": 34,
+        "rowsha": "fqHGlA8vwvintXiMV0yPA+pOgpXUthSUUoEYMndhKTc=",
+        "originContent": "- Automatic dark and light theme",
+        "translatedContent": "- 자동 다크 및 라이트 테마 지원"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
+        "originContent": "## Screenshots",
+        "translatedContent": "## 스크린샷"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "snMe+McZFKU/R0vKvBjlNGHDcYTsXtRM1++Mg3k1KQI=",
+        "originContent": "### Light theme",
+        "translatedContent": "### 라이트 테마"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "LGqsMXjVoTj7JOu8QnAUuvw4e9ACzISiu3D9SZVOjD8=",
+        "originContent": "![light](https://cdn.imgpile.com/f/0IrYBjJ_xl.png)",
+        "translatedContent": "![light](https://cdn.imgpile.com/f/0IrYBjJ_xl.png)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n### Dark theme\n\n![dark](https://cdn.imgpile.com/f/bdQBc3q_xl.png)\n\n## How to run\n\nTo run Janice just download and unzip the latest release to your computer. Janice ships as a single executable file that can be run directly. You find the latest packages for download on the [releases page](https://github.com/ErikKalkoken/janice/releases).\n\n### Linux\n\nWe are providing two variants for installing on Linux desktop:\n\n- AppImage: The AppImage variant allows you to run the app directly from the executable without requiring installation or root access\n- Tarball: The tar file requires installation, but also allows you to integrate the app into your desktop environment. The tarball also has wider compatibility among different Linux versions.\n\n#### AppImage\n\n> [!NOTE]\n> The app is shipped in the [AppImage](https://appimage.org/) format, so it can be used without requiring installation and run on many different Linux distributions.\n\n1. Download the latest AppImage file from the releases page and make it executable.\n1. Execute it to start the app.\n\n> [!TIP]\n> Should you get the following error: `AppImages require FUSE to run.`, you need to first install FUSE on your system. Thi s is a library required by all AppImages to function. Please see [this page](https://docs.appimage.org/user-guide/troubleshooting/fuse.html#the-appimage-tells-me-it-needs-fuse-to-run) for details.\n\n#### Tarball\n\n1. Download the latest tar file from the releases page\n1. Decompress the tar file, for example with: `tar xf janice-0.12.3-linux-amd64.tar.xz`\n1. Run `make user-install` to install the app for the current user or run `sudo make install` to install the app on the system\n\nYou should now have a shortcut in your desktop environment's launcher for starting the app.\n\nTo uninstall the app again run either: `make user-uninstall` or `sudo make uninstall` depending on how you installed it.\n\n### Windows\n\n1. Download the windows zip file from the latest release on Github.",
+    "ContentSha": "mzu3rPvPof73JQy9WAAqk3CNWrZodED7ezcG8ULmMDk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 다크 테마\n\n![dark](https://cdn.imgpile.com/f/bdQBc3q_xl.png)\n\n## 실행 방법\n\nJanice를 실행하려면 최신 릴리스를 다운로드하고 컴퓨터에 압축을 푸시면 됩니다. Janice는 단일 실행 파일로 제공되어 바로 실행할 수 있습니다. 최신 패키지는 [릴리스 페이지](https://github.com/ErikKalkoken/janice/releases)에서 다운로드할 수 있습니다.\n\n### 리눅스\n\n리눅스 데스크탑용으로 두 가지 설치 방법을 제공합니다:\n\n- AppImage: AppImage 버전은 설치나 루트 권한 없이 실행 파일에서 바로 앱을 실행할 수 있습니다.\n- Tarball: tar 파일은 설치가 필요하지만 데스크탑 환경에 앱을 통합할 수 있습니다. 또한 tarball은 다양한 리눅스 버전에서 더 넓은 호환성을 제공합니다.\n\n#### AppImage\n\n> [!NOTE]\n> 이 앱은 [AppImage](https://appimage.org/) 형식으로 제공되어 설치 없이 다양한 리눅스 배포판에서 실행할 수 있습니다.\n\n1. 릴리스 페이지에서 최신 AppImage 파일을 다운로드하고 실행 권한을 부여하세요.\n1. 실행하여 앱을 시작하세요.\n\n> [!TIP]\n> 다음 오류가 발생하면: `AppImages require FUSE to run.`, 시스템에 먼저 FUSE를 설치해야 합니다. 이것은 모든 AppImage가 작동하는 데 필요한 라이브러리입니다. 자세한 내용은 [이 페이지](https://docs.appimage.org/user-guide/troubleshooting/fuse.html#the-appimage-tells-me-it-needs-fuse-to-run)를 참조하세요.\n\n#### Tarball\n\n1. 릴리스 페이지에서 최신 tar 파일을 다운로드하세요.\n1. tar 파일을 압축 해제합니다. 예: `tar xf janice-0.12.3-linux-amd64.tar.xz`\n1. 현재 사용자용으로 설치하려면 `make user-install`을 실행하거나 시스템에 설치하려면 `sudo make install`을 실행하세요.\n\n이제 데스크탑 환경의 실행기에서 앱을 시작할 수 있는 바로 가기가 있어야 합니다.\n\n앱을 제거하려면 설치 방법에 따라 `make user-uninstall` 또는 `sudo make uninstall`을 실행하세요.\n\n### 윈도우\n\n1. Github 최신 릴리스에서 윈도우용 zip 파일을 다운로드하세요.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 다크 테마"
+      },
+      {
+        "row": 2,
+        "rowsha": "RapRxS+9n2tMgrtfcNyM2pNVg+5fNJj0WdbPjkBWNyU=",
+        "originContent": "### Dark theme",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![dark](https://cdn.imgpile.com/f/bdQBc3q_xl.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZOnYavl1L37lbBl8a119WsIHdH9R1Hi7cGC3lRqwWIQ=",
+        "originContent": "![dark](https://cdn.imgpile.com/f/bdQBc3q_xl.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 실행 방법"
+      },
+      {
+        "row": 6,
+        "rowsha": "qrEA82xCUwlWP/sd2kpvA6VXw/8350KZqQZByKcCkXY=",
+        "originContent": "## How to run",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Janice를 실행하려면 최신 릴리스를 다운로드하고 컴퓨터에 압축을 푸시면 됩니다. Janice는 단일 실행 파일로 제공되어 바로 실행할 수 있습니다. 최신 패키지는 [릴리스 페이지](https://github.com/ErikKalkoken/janice/releases)에서 다운로드할 수 있습니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "0rvSsnB7wsh5QTCb2/AlImLO2pojG3q4mA8VnHh9lsY=",
+        "originContent": "To run Janice just download and unzip the latest release to your computer. Janice ships as a single executable file that can be run directly. You find the latest packages for download on the [releases page](https://github.com/ErikKalkoken/janice/releases).",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 리눅스"
+      },
+      {
+        "row": 10,
+        "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+        "originContent": "### Linux",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "리눅스 데스크탑용으로 두 가지 설치 방법을 제공합니다:"
+      },
+      {
+        "row": 12,
+        "rowsha": "pe5oKewFKVAH2y4AuNCylGoPaz61bgXggGQOHqJs/54=",
+        "originContent": "We are providing two variants for installing on Linux desktop:",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- AppImage: AppImage 버전은 설치나 루트 권한 없이 실행 파일에서 바로 앱을 실행할 수 있습니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "e8HoJiBojMW/MDxPdruw7JZQOvT/lC5bML57DQjjmAc=",
+        "originContent": "- AppImage: The AppImage variant allows you to run the app directly from the executable without requiring installation or root access",
+        "translatedContent": "- Tarball: tar 파일은 설치가 필요하지만 데스크탑 환경에 앱을 통합할 수 있습니다. 또한 tarball은 다양한 리눅스 버전에서 더 넓은 호환성을 제공합니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "fRcac+lHYarwMTnaGPsi+HJRhfSkH9/IxVk/WqD59M8=",
+        "originContent": "- Tarball: The tar file requires installation, but also allows you to integrate the app into your desktop environment. The tarball also has wider compatibility among different Linux versions.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### AppImage"
+      },
+      {
+        "row": 17,
+        "rowsha": "mrsWgOxeeLfTl3nXlLv1SjrO6xDOhgT/2Epl4yGISXM=",
+        "originContent": "#### AppImage",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> [!NOTE]"
+      },
+      {
+        "row": 19,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> 이 앱은 [AppImage](https://appimage.org/) 형식으로 제공되어 설치 없이 다양한 리눅스 배포판에서 실행할 수 있습니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "0dP0NLxU0cJK0WTOjMGE7AxcS90wFGsEfmbUSzJ30/A=",
+        "originContent": "> The app is shipped in the [AppImage](https://appimage.org/) format, so it can be used without requiring installation and run on many different Linux distributions.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 릴리스 페이지에서 최신 AppImage 파일을 다운로드하고 실행 권한을 부여하세요."
+      },
+      {
+        "row": 22,
+        "rowsha": "qkrThi8FpDXeghJKZgoB1TXodJdzpcy/4insEe9vvtc=",
+        "originContent": "1. Download the latest AppImage file from the releases page and make it executable.",
+        "translatedContent": "1. 실행하여 앱을 시작하세요."
+      },
+      {
+        "row": 23,
+        "rowsha": "zq8WQiYNWp4XYkgqf66JUSzJ2jclAwTAPX67wMlQgwA=",
+        "originContent": "1. Execute it to start the app.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> [!TIP]"
+      },
+      {
+        "row": 25,
+        "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+        "originContent": "> [!TIP]",
+        "translatedContent": "> 다음 오류가 발생하면: `AppImages require FUSE to run.`, 시스템에 먼저 FUSE를 설치해야 합니다. 이것은 모든 AppImage가 작동하는 데 필요한 라이브러리입니다. 자세한 내용은 [이 페이지](https://docs.appimage.org/user-guide/troubleshooting/fuse.html#the-appimage-tells-me-it-needs-fuse-to-run)를 참조하세요."
+      },
+      {
+        "row": 26,
+        "rowsha": "ciTTIo172GBoNv9lrFpg7NqIZVritVqZLV0sHvbkPQg=",
+        "originContent": "> Should you get the following error: `AppImages require FUSE to run.`, you need to first install FUSE on your system. Thi s is a library required by all AppImages to function. Please see [this page](https://docs.appimage.org/user-guide/troubleshooting/fuse.html#the-appimage-tells-me-it-needs-fuse-to-run) for details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Tarball"
+      },
+      {
+        "row": 28,
+        "rowsha": "hwf1Ob87p9/Y7mh/Wjv+TEAScmk59Ar/YztEkA9fpMY=",
+        "originContent": "#### Tarball",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 릴리스 페이지에서 최신 tar 파일을 다운로드하세요."
+      },
+      {
+        "row": 30,
+        "rowsha": "laOvlfSVUs6gaXonnzXqDeVjZkPzoxHP4F7HqUHGZls=",
+        "originContent": "1. Download the latest tar file from the releases page",
+        "translatedContent": "1. tar 파일을 압축 해제합니다. 예: `tar xf janice-0.12.3-linux-amd64.tar.xz`"
+      },
+      {
+        "row": 31,
+        "rowsha": "eF7TGLko3vIRDR7MqyAqOfv9/Ri0dE0r7zSkRswTCas=",
+        "originContent": "1. Decompress the tar file, for example with: `tar xf janice-0.12.3-linux-amd64.tar.xz`",
+        "translatedContent": "1. 현재 사용자용으로 설치하려면 `make user-install`을 실행하거나 시스템에 설치하려면 `sudo make install`을 실행하세요."
+      },
+      {
+        "row": 32,
+        "rowsha": "bUlYVY7cJOkdq23AE1jher2nGIEA0G2w+4R3Xy950tg=",
+        "originContent": "1. Run `make user-install` to install the app for the current user or run `sudo make install` to install the app on the system",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이제 데스크탑 환경의 실행기에서 앱을 시작할 수 있는 바로 가기가 있어야 합니다."
+      },
+      {
+        "row": 34,
+        "rowsha": "IPmHEY0sNj+DP01k6dq8M0Ooxv6/EolC/C7P3s4hfX8=",
+        "originContent": "You should now have a shortcut in your desktop environment's launcher for starting the app.",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "앱을 제거하려면 설치 방법에 따라 `make user-uninstall` 또는 `sudo make uninstall`을 실행하세요."
+      },
+      {
+        "row": 36,
+        "rowsha": "Q2mZlT4x60V0ZemHfdqSsmRrFoOKPpzfkW/05be3m5k=",
+        "originContent": "To uninstall the app again run either: `make user-uninstall` or `sudo make uninstall` depending on how you installed it.",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 윈도우"
+      },
+      {
+        "row": 38,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Github 최신 릴리스에서 윈도우용 zip 파일을 다운로드하세요."
+      },
+      {
+        "row": 40,
+        "rowsha": "JS/oP51yvpV+SKSzEm7gEiZDNdV6dVxywrB4Y8lDnQM=",
+        "originContent": "1. Download the windows zip file from the latest release on Github.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "1. Unzip the file into a directory of your choice and run the .exe file to start the app.\n\n### Mac OS\n\n1. Download the darwin zip file from the latest release on Github for your respective platform (arm or intel).\n1. Unzip the file into a directory of your choice\n1. Run the .app file to start the app.\n\n> [!TIP]\n> MacOS may report this app incorrectly as \"damaged\", because it is not signed with an Apple certificate. You can remove this error by opening a terminal and running the following command. For more information please see [Fyne Troubleshooting](https://docs.fyne.io/faq/troubleshoot#distribution):\n>\n> ```sudo xattr -r -d com.apple.quarantine Janice.app```\n\n### Build and run from repository\n\nIf your system is configured to build [Fyne](https://fyne.io/) apps, you can build and run this app directly from the repository with the following command:\n",
+    "ContentSha": "vjihDZ/b2idf8uY7vt8IUkD/DUcr2XTJgfFYffj6Bss=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "1. 파일을 원하는 디렉토리에 압축 해제한 후 .exe 파일을 실행하여 앱을 시작합니다.\n\n### Mac OS\n\n1. Github의 최신 릴리스에서 해당 플랫폼(arm 또는 intel)에 맞는 darwin zip 파일을 다운로드합니다.\n1. 파일을 원하는 디렉토리에 압축 해제합니다.\n1. .app 파일을 실행하여 앱을 시작합니다.\n\n> [!TIP]\n> MacOS는 이 앱이 Apple 인증서로 서명되지 않아 잘못 \"손상됨\"으로 보고할 수 있습니다. 터미널을 열고 다음 명령어를 실행하면 이 오류를 제거할 수 있습니다. 자세한 내용은 [Fyne 문제 해결](https://docs.fyne.io/faq/troubleshoot#distribution)을 참조하세요:\n>\n> ```sudo xattr -r -d com.apple.quarantine Janice.app```\n\n### 저장소에서 빌드 및 실행\n\n시스템이 [Fyne](https://fyne.io/) 앱 빌드에 구성되어 있다면, 다음 명령어로 저장소에서 직접 이 앱을 빌드하고 실행할 수 있습니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0kHx3V83pXjIIo8QoNK/H3Z2CKQVLDtdqemYPtViXWc=",
+        "originContent": "1. Unzip the file into a directory of your choice and run the .exe file to start the app.",
+        "translatedContent": "1. 파일을 원하는 디렉토리에 압축 해제한 후 .exe 파일을 실행하여 앱을 시작합니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "30Lolrcmo1B/UDcT68vEYpesPtgcQ2sqIMkPBUgfeh4=",
+        "originContent": "### Mac OS",
+        "translatedContent": "### Mac OS"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Oszspj4yiOC1eSS/C7G7YawtkqfZNLzGPQPXmOq3J4s=",
+        "originContent": "1. Download the darwin zip file from the latest release on Github for your respective platform (arm or intel).",
+        "translatedContent": "1. Github의 최신 릴리스에서 해당 플랫폼(arm 또는 intel)에 맞는 darwin zip 파일을 다운로드합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "3N4nMnjPlrYM6/0rNrfC4XI6PkPZrE58xLy4DoOHQ3s=",
+        "originContent": "1. Unzip the file into a directory of your choice",
+        "translatedContent": "1. 파일을 원하는 디렉토리에 압축 해제합니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "6Rv78KxjEJyEBoLJICxnLu4MWqlsZlsEdwwzlZ3NXNI=",
+        "originContent": "1. Run the .app file to start the app.",
+        "translatedContent": "1. .app 파일을 실행하여 앱을 시작합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+        "originContent": "> [!TIP]",
+        "translatedContent": "> [!TIP]"
+      },
+      {
+        "row": 10,
+        "rowsha": "ADQbaP+R1uhT6aYf43KPbFYaGglVQeVvZN/OqtLyi0E=",
+        "originContent": "> MacOS may report this app incorrectly as \"damaged\", because it is not signed with an Apple certificate. You can remove this error by opening a terminal and running the following command. For more information please see [Fyne Troubleshooting](https://docs.fyne.io/faq/troubleshoot#distribution):",
+        "translatedContent": "> MacOS는 이 앱이 Apple 인증서로 서명되지 않아 잘못 \"손상됨\"으로 보고할 수 있습니다. 터미널을 열고 다음 명령어를 실행하면 이 오류를 제거할 수 있습니다. 자세한 내용은 [Fyne 문제 해결](https://docs.fyne.io/faq/troubleshoot#distribution)을 참조하세요:"
+      },
+      {
+        "row": 11,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 12,
+        "rowsha": "ZzaUGgrxCR4Nxjolnv5TBYG8Wyoqjyus8XBSA+cBQ1Q=",
+        "originContent": "> ```sudo xattr -r -d com.apple.quarantine Janice.app```",
+        "translatedContent": "> ```sudo xattr -r -d com.apple.quarantine Janice.app```"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "JuyML1SSjfCyRikNlTI3xtVK8qEr+1U62lRz3fsdbk4=",
+        "originContent": "### Build and run from repository",
+        "translatedContent": "### 저장소에서 빌드 및 실행"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "uXzlIRag5LULWAzHT1tPh/GTSHjdGthvfRQY8U9KQdw=",
+        "originContent": "If your system is configured to build [Fyne](https://fyne.io/) apps, you can build and run this app directly from the repository with the following command:",
+        "translatedContent": "시스템이 [Fyne](https://fyne.io/) 앱 빌드에 구성되어 있다면, 다음 명령어로 저장소에서 직접 이 앱을 빌드하고 실행할 수 있습니다:"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\ngo run github.com/ErikKalkoken/janice@latest\n```",
+    "ContentSha": "XGqPIS/TPj5A6CxS9Xiama0+IhDzCC88cgl8nWVGJV4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ngo run github.com/ErikKalkoken/janice@latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "LvVdLwqgYtVWRc9sMfjsM51nrozM+oXgl62QXBzBFRs=",
+        "originContent": "go run github.com/ErikKalkoken/janice@latest",
+        "translatedContent": "go run github.com/ErikKalkoken/janice@latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nFor more information on how to configure your system for Fyne please see: [Getting Started](https://docs.fyne.io/started/).\n\n## FAQ\n\n### What is the largest JSON file that I can load?\n\nThe largest JSON file you can load on your computer depends mainly on how much RAM you have and on the particular JSON file. The main driver for memory consumption is the number of elements in a JSON document.\n\nFor comparison we did a load test on one of our developer notebooks. It has 8 GB RAM and runs Ubuntu 22.04 LTS. We were able to load a JSON files successfully with up to 45 million elements. The size of our test file was about 2.5 GB.\n\n### Are JSON files formatted?\n\nYes. The JSON document is rendered as tree and keys are shown in alphabetical order.\n\n## Attributions\n\n- [Json icons created by LAB Design Studio - Flaticon](https://www.flaticon.com/free-icons/json)\n",
+    "ContentSha": "cmHqHCqAnWYxRKuN+/hGR+FM3e5ldvVjDoZ+MN6Dwmg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Fyne 시스템 구성에 대한 자세한 내용은 다음을 참조하십시오: [시작하기](https://docs.fyne.io/started/).\n\n## FAQ\n\n### 내가 로드할 수 있는 가장 큰 JSON 파일 크기는 얼마인가요?\n\n컴퓨터에서 로드할 수 있는 가장 큰 JSON 파일은 주로 RAM 용량과 특정 JSON 파일에 따라 다릅니다. 메모리 사용량의 주요 요인은 JSON 문서 내 요소의 수입니다.\n\n비교를 위해 개발자 노트북에서 로드 테스트를 수행했습니다. 이 노트북은 8GB RAM과 Ubuntu 22.04 LTS를 실행합니다. 최대 4500만 개 요소가 포함된 JSON 파일을 성공적으로 로드할 수 있었습니다. 테스트 파일 크기는 약 2.5GB였습니다.\n\n### JSON 파일은 포맷되어 있나요?\n\n예. JSON 문서는 트리 구조로 렌더링되며 키는 알파벳 순으로 표시됩니다.\n\n## 출처\n\n- [Json 아이콘 - LAB Design Studio 제작 - Flaticon](https://www.flaticon.com/free-icons/json)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Fyne 시스템 구성에 대한 자세한 내용은 다음을 참조하십시오: [시작하기](https://docs.fyne.io/started/)."
+      },
+      {
+        "row": 2,
+        "rowsha": "v0/Nj7AOF7fcT2aIqB0mA5gpf/B8eQY9NANQRcjNhFU=",
+        "originContent": "For more information on how to configure your system for Fyne please see: [Getting Started](https://docs.fyne.io/started/).",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## FAQ"
+      },
+      {
+        "row": 4,
+        "rowsha": "sH7VUgPw2I6+13pp6nUDM/T2LsOBk7Micqophzdve4Y=",
+        "originContent": "## FAQ",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 내가 로드할 수 있는 가장 큰 JSON 파일 크기는 얼마인가요?"
+      },
+      {
+        "row": 6,
+        "rowsha": "tG5mjrhA/Ycj5Qj6j5uZwzXFDQ5iEVsbcEK0MChaaeE=",
+        "originContent": "### What is the largest JSON file that I can load?",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "컴퓨터에서 로드할 수 있는 가장 큰 JSON 파일은 주로 RAM 용량과 특정 JSON 파일에 따라 다릅니다. 메모리 사용량의 주요 요인은 JSON 문서 내 요소의 수입니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "8ynIRtt3eMOWNcj35TFFFDHzj9N+lIeBoTFv+of/vFo=",
+        "originContent": "The largest JSON file you can load on your computer depends mainly on how much RAM you have and on the particular JSON file. The main driver for memory consumption is the number of elements in a JSON document.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "비교를 위해 개발자 노트북에서 로드 테스트를 수행했습니다. 이 노트북은 8GB RAM과 Ubuntu 22.04 LTS를 실행합니다. 최대 4500만 개 요소가 포함된 JSON 파일을 성공적으로 로드할 수 있었습니다. 테스트 파일 크기는 약 2.5GB였습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "sjheet9fVnlwJf28/MOAHHBLJaRtF6kAZc+OppmmiAY=",
+        "originContent": "For comparison we did a load test on one of our developer notebooks. It has 8 GB RAM and runs Ubuntu 22.04 LTS. We were able to load a JSON files successfully with up to 45 million elements. The size of our test file was about 2.5 GB.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### JSON 파일은 포맷되어 있나요?"
+      },
+      {
+        "row": 12,
+        "rowsha": "n/m+6pBFOXlySPQkOLHuhSPjxKJrfkOn8qMG+5T0H4s=",
+        "originContent": "### Are JSON files formatted?",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "예. JSON 문서는 트리 구조로 렌더링되며 키는 알파벳 순으로 표시됩니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "vGUsg5txqL/Xy1KIEekpRSZ37H5h3KcS4/ra7pX+S+E=",
+        "originContent": "Yes. The JSON document is rendered as tree and keys are shown in alphabetical order.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 출처"
+      },
+      {
+        "row": 16,
+        "rowsha": "MeiVTnkg24AYJxU9tt8YzXYjUd6Gxmqc8CpXhazyzik=",
+        "originContent": "## Attributions",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Json 아이콘 - LAB Design Studio 제작 - Flaticon](https://www.flaticon.com/free-icons/json)"
+      },
+      {
+        "row": 18,
+        "rowsha": "UwX/1aNtYXkDdMtEkwZpNV7bKCXztSN0sRDZClTtbTA=",
+        "originContent": "- [Json icons created by LAB Design Studio - Flaticon](https://www.flaticon.com/free-icons/json)",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
