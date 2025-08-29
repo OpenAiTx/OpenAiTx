@@ -1,0 +1,328 @@
+[
+  {
+    "Id": 1,
+    "Content": "# MangaJaNai\n\n[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)\n\n<a href=\"./mangajanaiv1demo.webp?raw=1\"><img src=\"https://raw.githubusercontent.com/the-database/MangaJaNai/main/mangajanaiv1demo.webp\"/></a>\n<p align=\"center\"><sup>(click image to enlarge)</sup></p>\n\n## Overview\n\nMangaJaNai is a collection of upscaling models for manga. The models are mainly optimized to upscale digital manga images of Japanese or English text with height ranging from around 1200px to 2048px.\n\nJoin the [**JaNai Discord server**](https://discord.gg/EeFfZUBvxj) to get the latest news, download pre-release and experimental models, get support and ask questions, share your upscales, or share your feedback. 日本語も大丈夫です。\n\n## Usage Instructions\n\n### Upscaling with MangaJaNaiConverterGui\n\nFor a simple out of the box experience, use [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) to upscale your manga with the MangaJaNai models.\n\n## MangaJaNai Models\nWhile manga is produced at very high resolution (10000px+) and printed at excellent quality on physical book releases, official digital manga are often low resolution and riddled with JPEG and moiré artifacts. The aim of the MangaJaNai models is to upscale low quality black and white digital manga to produce results which clean up JPEG and moiré artifacts, delivering results that appear closer to the printed book versions. \n\nMost manga are produced with halftone dots, but some digital releases are so degraded that the halftone dots are no longer visible. The MangaJaNai models may appear to create dots that weren't in the original image, but in most cases the models correctly restore dots that were no longer visible in the low quality source image. In order to ensure that halftones are generated at the correct size and frequency, several MangaJaNai models were trained, each optimized to be used on images with one of seven different image heights, corresponding to the most common image sizes of digitally released manga in Japan: 1200p, 1300p, 1400p, 1500p, 1600p, 1920p, and 2048p. [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) automatically selects the best model to used depending on the resolution of the input image. \n\n## IllustrationJaNai Models\nSince the MangaJaNai models are only suitable for black and white manga pages, supplementary IllustrationJaNai models were trained to be used for color images from manga, such as covers and color pages. These models were trained to remove common image artifacts, like JPEG artifacts and low resolution printed halftone dots, and also work well as general purpose upscaling models for digital art. [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) automatically selects the IllustrationJaNai model for color images. \n\n## Related Projects\n\n- [mpv-upscale-2x_animejanai](https://github.com/the-database/mpv-upscale-2x_animejanai): Real-time anime upscaling to 4k in mpv with Real-ESRGAN compact models\n- [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui): Windows GUI for manga upscaling with MangaJaNai models\n- [traiNNer-redux](https://github.com/the-database/traiNNer-redux): Software for training upscaling models\n\n## Acknowledgements\n- [422415](https://github.com/422415) for significant assistance in dataset preparation and continuous feedback during development of V1 models\n- Members of the JaNai Discord server for assistance with manga resources:\n    - Alexandros\n    - umzi\n    - M7MedOo\n    - Gnathonic",
+    "ContentSha": "r5YDs7ojFoxdZKAJT5sQCNENgLQ55IX1DU3AHXWma1g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# MangaJaNai\n\n[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)\n\n<a href=\"./mangajanaiv1demo.webp?raw=1\"><img src=\"https://raw.githubusercontent.com/the-database/MangaJaNai/main/mangajanaiv1demo.webp\"/></a>\n<p align=\"center\"><sup>(click image to enlarge)</sup></p>\n\n## Overview\n\nMangaJaNai is a collection of upscaling models for manga. The models are mainly optimized to upscale digital manga images of Japanese or English text with height ranging from around 1200px to 2048px.\n\nJoin the [**JaNai Discord server**](https://discord.gg/EeFfZUBvxj) to get the latest news, download pre-release and experimental models, get support and ask questions, share your upscales, or share your feedback. 日本語も大丈夫です。\n\n## Usage Instructions\n\n### Upscaling with MangaJaNaiConverterGui\n\nFor a simple out of the box experience, use [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) to upscale your manga with the MangaJaNai models.\n\n## MangaJaNai Models\nWhile manga is produced at very high resolution (10000px+) and printed at excellent quality on physical book releases, official digital manga are often low resolution and riddled with JPEG and moiré artifacts. The aim of the MangaJaNai models is to upscale low quality black and white digital manga to produce results which clean up JPEG and moiré artifacts, delivering results that appear closer to the printed book versions. \n\nMost manga are produced with halftone dots, but some digital releases are so degraded that the halftone dots are no longer visible. The MangaJaNai models may appear to create dots that weren't in the original image, but in most cases the models correctly restore dots that were no longer visible in the low quality source image. In order to ensure that halftones are generated at the correct size and frequency, several MangaJaNai models were trained, each optimized to be used on images with one of seven different image heights, corresponding to the most common image sizes of digitally released manga in Japan: 1200p, 1300p, 1400p, 1500p, 1600p, 1920p, and 2048p. [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) automatically selects the best model to used depending on the resolution of the input image. \n\n## IllustrationJaNai Models\nSince the MangaJaNai models are only suitable for black and white manga pages, supplementary IllustrationJaNai models were trained to be used for color images from manga, such as covers and color pages. These models were trained to remove common image artifacts, like JPEG artifacts and low resolution printed halftone dots, and also work well as general purpose upscaling models for digital art. [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) automatically selects the IllustrationJaNai model for color images. \n\n## Related Projects\n\n- [mpv-upscale-2x_animejanai](https://github.com/the-database/mpv-upscale-2x_animejanai): Real-time anime upscaling to 4k in mpv with Real-ESRGAN compact models\n- [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui): Windows GUI for manga upscaling with MangaJaNai models\n- [traiNNer-redux](https://github.com/the-database/traiNNer-redux): Software for training upscaling models\n\n## Acknowledgements\n- [422415](https://github.com/422415) for significant assistance in dataset preparation and continuous feedback during development of V1 models\n- Members of the JaNai Discord server for assistance with manga resources:\n    - Alexandros\n    - umzi\n    - M7MedOo\n    - Gnathonic",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "c82tm/+y0hWHVIYjolDAVNqFekVT5BAauaogjlom/t4=",
+        "originContent": "# MangaJaNai",
+        "translatedContent": "# MangaJaNai"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "V/PjD17AGUrYSP+vMfs1nVAChK52ad8Oaa885FhDb8w=",
+        "originContent": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)",
+        "translatedContent": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "YAJQTh4hJVsqOrhV8l4mdc8TWtnPr+2r6booRMAoMV4=",
+        "originContent": "<a href=\"./mangajanaiv1demo.webp?raw=1\"><img src=\"https://raw.githubusercontent.com/the-database/MangaJaNai/main/mangajanaiv1demo.webp\"/></a>",
+        "translatedContent": "<a href=\"./mangajanaiv1demo.webp?raw=1\"><img src=\"https://raw.githubusercontent.com/the-database/MangaJaNai/main/mangajanaiv1demo.webp\"/></a>"
+      },
+      {
+        "row": 6,
+        "rowsha": "7Rf8hSfFv7dJ0qn6uZL8gam/NBFETv7N+J+9MLKSbH8=",
+        "originContent": "<p align=\"center\"><sup>(click image to enlarge)</sup></p>",
+        "translatedContent": "<p align=\"center\"><sup>(click image to enlarge)</sup></p>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "## Overview"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "gSKyr9Vr+9HZfSkQmAmIObhoF4ap4sLK6bfI/WtMuNU=",
+        "originContent": "MangaJaNai is a collection of upscaling models for manga. The models are mainly optimized to upscale digital manga images of Japanese or English text with height ranging from around 1200px to 2048px.",
+        "translatedContent": "MangaJaNai is a collection of upscaling models for manga. The models are mainly optimized to upscale digital manga images of Japanese or English text with height ranging from around 1200px to 2048px."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "z3uxc2a4/z9W8IF+/cDx5Mw4pg07CNh34JGm+yTiTps=",
+        "originContent": "Join the [**JaNai Discord server**](https://discord.gg/EeFfZUBvxj) to get the latest news, download pre-release and experimental models, get support and ask questions, share your upscales, or share your feedback. 日本語も大丈夫です。",
+        "translatedContent": "Join the [**JaNai Discord server**](https://discord.gg/EeFfZUBvxj) to get the latest news, download pre-release and experimental models, get support and ask questions, share your upscales, or share your feedback. 日本語も大丈夫です。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "m82H4n93x5FczfQ6jsVkkFfeRnxJV+8+XDVLm0LDkNw=",
+        "originContent": "## Usage Instructions",
+        "translatedContent": "## Usage Instructions"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "FGGhi8hYg7bwVEZL2zkqtou7EwHHhZXbEX6sO2AlNIY=",
+        "originContent": "### Upscaling with MangaJaNaiConverterGui",
+        "translatedContent": "### Upscaling with MangaJaNaiConverterGui"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "BP88QLQyXBWm+EVvFaI+szlWSo4HjvZmSZSjcj4eHbE=",
+        "originContent": "For a simple out of the box experience, use [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) to upscale your manga with the MangaJaNai models.",
+        "translatedContent": "For a simple out of the box experience, use [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) to upscale your manga with the MangaJaNai models."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "pSPTGn8wRWAlb5HiYw7BuZyEM7e0Ww/aAKiDYr1cRLs=",
+        "originContent": "## MangaJaNai Models",
+        "translatedContent": "## MangaJaNai Models"
+      },
+      {
+        "row": 21,
+        "rowsha": "8NVdR11MjI2XrONYOrJv/epK0UHQiMaKGNSdlfRpLZ0=",
+        "originContent": "While manga is produced at very high resolution (10000px+) and printed at excellent quality on physical book releases, official digital manga are often low resolution and riddled with JPEG and moiré artifacts. The aim of the MangaJaNai models is to upscale low quality black and white digital manga to produce results which clean up JPEG and moiré artifacts, delivering results that appear closer to the printed book versions. ",
+        "translatedContent": "While manga is produced at very high resolution (10000px+) and printed at excellent quality on physical book releases, official digital manga are often low resolution and riddled with JPEG and moiré artifacts. The aim of the MangaJaNai models is to upscale low quality black and white digital manga to produce results which clean up JPEG and moiré artifacts, delivering results that appear closer to the printed book versions. "
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "ONLlLvTQvLm+YgSjIcebe2zFBgYZQDQ0cGBVrTuwhIU=",
+        "originContent": "Most manga are produced with halftone dots, but some digital releases are so degraded that the halftone dots are no longer visible. The MangaJaNai models may appear to create dots that weren't in the original image, but in most cases the models correctly restore dots that were no longer visible in the low quality source image. In order to ensure that halftones are generated at the correct size and frequency, several MangaJaNai models were trained, each optimized to be used on images with one of seven different image heights, corresponding to the most common image sizes of digitally released manga in Japan: 1200p, 1300p, 1400p, 1500p, 1600p, 1920p, and 2048p. [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) automatically selects the best model to used depending on the resolution of the input image. ",
+        "translatedContent": "Most manga are produced with halftone dots, but some digital releases are so degraded that the halftone dots are no longer visible. The MangaJaNai models may appear to create dots that weren't in the original image, but in most cases the models correctly restore dots that were no longer visible in the low quality source image. In order to ensure that halftones are generated at the correct size and frequency, several MangaJaNai models were trained, each optimized to be used on images with one of seven different image heights, corresponding to the most common image sizes of digitally released manga in Japan: 1200p, 1300p, 1400p, 1500p, 1600p, 1920p, and 2048p. [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) automatically selects the best model to used depending on the resolution of the input image. "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "j68QoRIn8htpIXLetIpqwMZHhUTRvlXTD3jsUEeM57o=",
+        "originContent": "## IllustrationJaNai Models",
+        "translatedContent": "## IllustrationJaNai Models"
+      },
+      {
+        "row": 26,
+        "rowsha": "I2AQRYUclOyX0Uod1R3dY9vzZkdJemm5EnWkfyI5MTQ=",
+        "originContent": "Since the MangaJaNai models are only suitable for black and white manga pages, supplementary IllustrationJaNai models were trained to be used for color images from manga, such as covers and color pages. These models were trained to remove common image artifacts, like JPEG artifacts and low resolution printed halftone dots, and also work well as general purpose upscaling models for digital art. [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) automatically selects the IllustrationJaNai model for color images. ",
+        "translatedContent": "Since the MangaJaNai models are only suitable for black and white manga pages, supplementary IllustrationJaNai models were trained to be used for color images from manga, such as covers and color pages. These models were trained to remove common image artifacts, like JPEG artifacts and low resolution printed halftone dots, and also work well as general purpose upscaling models for digital art. [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) automatically selects the IllustrationJaNai model for color images. "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "029pqroXXjHSLawpWTocF2CPk5dLz29+pGq/paa0amA=",
+        "originContent": "## Related Projects",
+        "translatedContent": "## Related Projects"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "9oeig1Lx9nfQuL7Y7n1jzP3Dk12NJkricGlRREIhL9w=",
+        "originContent": "- [mpv-upscale-2x_animejanai](https://github.com/the-database/mpv-upscale-2x_animejanai): Real-time anime upscaling to 4k in mpv with Real-ESRGAN compact models",
+        "translatedContent": "- [mpv-upscale-2x_animejanai](https://github.com/the-database/mpv-upscale-2x_animejanai): Real-time anime upscaling to 4k in mpv with Real-ESRGAN compact models"
+      },
+      {
+        "row": 31,
+        "rowsha": "mn//Na8uAkeXmQPw7PPSxwMfihlp5+i+4ydjJUfxa9o=",
+        "originContent": "- [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui): Windows GUI for manga upscaling with MangaJaNai models",
+        "translatedContent": "- [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui): Windows GUI for manga upscaling with MangaJaNai models"
+      },
+      {
+        "row": 32,
+        "rowsha": "smZDfSV2/7oc3fCmrMozltFK88kBVt/ciLOVozMjl2U=",
+        "originContent": "- [traiNNer-redux](https://github.com/the-database/traiNNer-redux): Software for training upscaling models",
+        "translatedContent": "- [traiNNer-redux](https://github.com/the-database/traiNNer-redux): Software for training upscaling models"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+        "originContent": "## Acknowledgements",
+        "translatedContent": "## Acknowledgements"
+      },
+      {
+        "row": 35,
+        "rowsha": "pne2HGZRgHLAFR5rayQrtgTxByZHrxJHbsbAb9K3z98=",
+        "originContent": "- [422415](https://github.com/422415) for significant assistance in dataset preparation and continuous feedback during development of V1 models",
+        "translatedContent": "- [422415](https://github.com/422415) for significant assistance in dataset preparation and continuous feedback during development of V1 models"
+      },
+      {
+        "row": 36,
+        "rowsha": "a4lMBgsG7VO+KGQ0gBloivTfAEaEjOVi0IX0R5oNOeQ=",
+        "originContent": "- Members of the JaNai Discord server for assistance with manga resources:",
+        "translatedContent": "- Members of the JaNai Discord server for assistance with manga resources:"
+      },
+      {
+        "row": 37,
+        "rowsha": "p3t45QLjtQIhEZId2ploiitPgtDfkknXr7p1SnTo39I=",
+        "originContent": "    - Alexandros",
+        "translatedContent": "    - Alexandros"
+      },
+      {
+        "row": 38,
+        "rowsha": "4x5rhKkFjzzhhwYY6R2JH7Bnpitp/2lBuuSjYvhKyH0=",
+        "originContent": "    - umzi",
+        "translatedContent": "    - umzi"
+      },
+      {
+        "row": 39,
+        "rowsha": "SKqC9R+4lEr6LwkWdokRBurLsHhvE0AjfHnSVNGPSD8=",
+        "originContent": "    - M7MedOo",
+        "translatedContent": "    - M7MedOo"
+      },
+      {
+        "row": 40,
+        "rowsha": "WyG7y4rSBwA5XFu2w7WVoZFD9YVKK4r45kLyeg6qrc8=",
+        "originContent": "    - Gnathonic",
+        "translatedContent": "    - Gnathonic"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- Members of the JaNai Discord server for continuous feedback on beta models:\n    - junmittens\n    - SOUNDSPHERE BEST GAME\n    - marv\n    - Big_herooooo\n    - avc1657\n    - risho\n- [traiNNer-redux](https://github.com/joeyballentine/traiNNer-redux)\n- [Dataset Destroyer](https://github.com/Kim2091/helpful-scripts/tree/main/Dataset%20Destroyer)\n",
+    "ContentSha": "kWDm2IzF+jXNbs6NbloXTRy3ExYlkslBXglDsLLgYw4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Members of the JaNai Discord server for continuous feedback on beta models:\n    - junmittens\n    - SOUNDSPHERE BEST GAME\n    - marv\n    - Big_herooooo\n    - avc1657\n    - risho\n- [traiNNer-redux](https://github.com/joeyballentine/traiNNer-redux)\n- [Dataset Destroyer](https://github.com/Kim2091/helpful-scripts/tree/main/Dataset%20Destroyer)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "q5YZn4PCG4u7bhEwb9Q5nRpjkj3dPlM/a3jCX1+/8A8=",
+        "originContent": "- Members of the JaNai Discord server for continuous feedback on beta models:",
+        "translatedContent": "- Members of the JaNai Discord server for continuous feedback on beta models:"
+      },
+      {
+        "row": 2,
+        "rowsha": "mjt9oQtw70w+10eg69/LQCR5cmA7x5Utmn+qR2mLbfE=",
+        "originContent": "    - junmittens",
+        "translatedContent": "    - junmittens"
+      },
+      {
+        "row": 3,
+        "rowsha": "tmazSaqUQ4nx3tY2Sg7ZPKC+F40oeVzwHws1zSUTJjc=",
+        "originContent": "    - SOUNDSPHERE BEST GAME",
+        "translatedContent": "    - SOUNDSPHERE BEST GAME"
+      },
+      {
+        "row": 4,
+        "rowsha": "XzREqdJUUffgjVEZJ60a6t1XG8NcahYlOIqefaVPJT8=",
+        "originContent": "    - marv",
+        "translatedContent": "    - marv"
+      },
+      {
+        "row": 5,
+        "rowsha": "+rtAqV34OPD0zVd5AOQiwnUehpv2GRFZrVd5YoyUHLY=",
+        "originContent": "    - Big_herooooo",
+        "translatedContent": "    - Big_herooooo"
+      },
+      {
+        "row": 6,
+        "rowsha": "+1STR6Juc9QXUHp4X2MCPRA7XygJBvX5NrXdn3hOrQI=",
+        "originContent": "    - avc1657",
+        "translatedContent": "    - avc1657"
+      },
+      {
+        "row": 7,
+        "rowsha": "xvZbjZtaqrRX0FQKNSwAyTQLAfbhUPmgvJ4YyV+TwKs=",
+        "originContent": "    - risho",
+        "translatedContent": "    - risho"
+      },
+      {
+        "row": 8,
+        "rowsha": "X6XxzqgAQJlXVSpZhrBMdqFRBRKeMoA7dJMsk372otA=",
+        "originContent": "- [traiNNer-redux](https://github.com/joeyballentine/traiNNer-redux)",
+        "translatedContent": "- [traiNNer-redux](https://github.com/joeyballentine/traiNNer-redux)"
+      },
+      {
+        "row": 9,
+        "rowsha": "NIzEb+SmJXqWGoy63ur35lQCQc+uaTTYUSlpBpSP29w=",
+        "originContent": "- [Dataset Destroyer](https://github.com/Kim2091/helpful-scripts/tree/main/Dataset%20Destroyer)",
+        "translatedContent": "- [Dataset Destroyer](https://github.com/Kim2091/helpful-scripts/tree/main/Dataset%20Destroyer)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

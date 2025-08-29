@@ -1,0 +1,362 @@
+[
+  {
+    "row": 1,
+    "rowsha": "sYWw3esS2xNZL3CFPH/04mgeWGuWMZgoUdsywDsfHb8=",
+    "originContent": "# Flatito: Grep for YAML and JSON files",
+    "translatedContent": "# Flatito：用于 YAML 和 JSON 文件的 grep 工具"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "XmcDqIu3fIj+r7XMVpiL9NarwMGPcUK1C+60omTSPQ4=",
+    "originContent": "A kind of grep for YAML and JSON files. It allows you to search for a key and get the value and the line number where it is located.",
+    "translatedContent": "一种用于 YAML 和 JSON 文件的 grep 工具。它允许你搜索一个键，并获取其对应的值及所在的行号。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "5XefmZmXYZGqMnedTHylYYLmp8/bEWoN3xTIb45HvI0=",
+    "originContent": "![Example](https://raw.githubusercontent.com/ceritium/flatito/master/docs/screenshot.png)",
+    "translatedContent": "![示例](https://raw.githubusercontent.com/ceritium/flatito/master/docs/screenshot.png)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "ylgG/1fEx9tDEhPKF/L6lB4i9nl/PC52GqTNLw/pd3A=",
+    "originContent": "## Meaning",
+    "translatedContent": "## 含义"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "0Ulxvi3L3ehUgFo7FWOPLyzA1D3Pctpqpg7xERZ/1v0=",
+    "originContent": "[Esperanto](https://en.wiktionary.org/wiki/flatito): singular past nominal passive participle of flati ('to flatter').",
+    "translatedContent": "[世界语](https://en.wiktionary.org/wiki/flatito)：flati（“奉承”）的单数过去名词被动分词。"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "wukkrlNY4VYN+Vy5Fy9nl4CjvNleQveEIs0MPwSPOUQ=",
+    "originContent": "Install the gem and add to the application's Gemfile by executing:",
+    "translatedContent": "安装该 gem 并通过执行以下命令将其添加到应用程序的 Gemfile 中："
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "UaxwqfrlLwcEpzD0Xc/p64kJyYc/XFZWTPJJSxsxGV0=",
+    "originContent": "    $ bundle add flatito",
+    "translatedContent": "    $ bundle add flatito"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "5098A/NqbXtEEuCst6bofJqanDcmf15DP6z8+MHOIJE=",
+    "originContent": "If bundler is not being used to manage dependencies, install the gem by executing:",
+    "translatedContent": "如果不使用 bundler 管理依赖项，则通过执行以下命令安装该 gem："
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "50cATmHfLVCTePXLX70xEkmIGRv2y0Cf1ITkg85WXtQ=",
+    "originContent": "    $ gem install flatito",
+    "translatedContent": "    $ gem install flatito"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "MJ6c8D+VYFIsnN1fi/vFf3FHuF6vCAze1z1yhLJikO4=",
+    "originContent": "### Nixpkgs package",
+    "translatedContent": "### Nixpkgs 包"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "6Fd5deAPc9lsdyDeDufvT6SNvuJG8eoyx/pgPj6cAbw=",
+    "originContent": "It is also available as [nixpkgs](https://search.nixos.org/packages?channel=unstable&show=flatito) thanks to [@Rucadi](https://github.com/Rucadi)",
+    "translatedContent": "由于 [@Rucadi](https://github.com/Rucadi) 的贡献，也可以通过 [nixpkgs](https://search.nixos.org/packages?channel=unstable&show=flatito) 获得"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "RN9Z2rWmYiYDqGHm3DkFSWYbSsisXQJ9E1aNuxWssgY=",
+    "originContent": "    $ nix run nixpkgs#flatito",
+    "translatedContent": "    $ nix run nixpkgs#flatito"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 31,
+    "rowsha": "DPp6s44yelnOGAaY5i9MCDmRreA/zCjtOpCoXYCmdKY=",
+    "originContent": "Usage:    flatito PATH [options]",
+    "translatedContent": "Usage:    flatito PATH [options]"
+  },
+  {
+    "row": 32,
+    "rowsha": "SdAVbLfcMJlAxzZhoGwz8q++X8pjHAjwQgJTNhe++OA=",
+    "originContent": "Example:  flatito . -k \"search string\" -e \"json,yaml\"",
+    "translatedContent": "Example:  flatito . -k \"search string\" -e \"json,yaml\""
+  },
+  {
+    "row": 33,
+    "rowsha": "CBVO5Et5LYMBNYvu68A2LeBlofH2xBzIXCAR//9gLpw=",
+    "originContent": "Example:  cat file.yaml | flatito -k \"search string\"",
+    "translatedContent": "Example:  cat file.yaml | flatito -k \"search string\""
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "XzYHZ0SPN40Zd1PzkwIu6IJykuxin2WY9fVIaVBGCPc=",
+    "originContent": "    -h, --help                       Prints this help",
+    "translatedContent": "    -h, --help                       Prints this help"
+  },
+  {
+    "row": 36,
+    "rowsha": "HQGLk5LxHWaLkM31RL0ehwkq5AAztb3Wi/k9lDkoWQ0=",
+    "originContent": "    -V, --version                    Show version",
+    "translatedContent": "    -V, --version                    Show version"
+  },
+  {
+    "row": 37,
+    "rowsha": "Rc+BjfHEnrfzZSkDoU+iF6E5eBtUsGjANMjrxGDb82A=",
+    "originContent": "    -k, --search-key=SEARCH          Search string",
+    "translatedContent": "    -k, --search-key=SEARCH          Search string"
+  },
+  {
+    "row": 38,
+    "rowsha": "3FN9dpcQ3j1boukMr3VZZpl7BBRL3KMmqwaIur3ZOyA=",
+    "originContent": "        --no-color                   Disable color output",
+    "translatedContent": "        --no-color                   Disable color output"
+  },
+  {
+    "row": 39,
+    "rowsha": "w91lcAYr+04kc2aXhmryVfH+rIZkwmkc5N6PrMNa5SU=",
+    "originContent": "    -e, --extensions=EXTENSIONS      File extensions to search, separated by comma, default: (json,yaml,yaml)",
+    "translatedContent": "    -e, --extensions=EXTENSIONS      File extensions to search, separated by comma, default: (json,yaml,yaml)"
+  },
+  {
+    "row": 40,
+    "rowsha": "tqtjjHU40WCo3czCz3VRCt7mwBP9F+3xB9sx+Du12C0=",
+    "originContent": "        --no-skipping                Do not skip hidden files",
+    "translatedContent": "        --no-skipping                Do not skip hidden files"
+  },
+  {
+    "row": 41,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 开发"
+  },
+  {
+    "row": 43,
+    "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+    "originContent": "## Development",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "检出代码库后，运行 `bin/setup` 来安装依赖。然后，运行 `rake test` 来执行测试。你也可以运行 `bin/console` 进入交互式命令行，方便你进行实验。"
+  },
+  {
+    "row": 45,
+    "rowsha": "/Ph7AqBXgp9ZgGrXA5ybMgjqv8lR0coDJTIaqwoQ2Yk=",
+    "originContent": "After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "要将此 gem 安装到本地机器上，运行 `bundle exec rake install`。要发布新版本，更新 `version.rb` 中的版本号，然后运行 `bundle exec rake release`，该命令将为版本创建 git 标签，推送 git 提交和创建的标签，并将 `.gem` 文件推送到 [rubygems.org](https://rubygems.org)。"
+  },
+  {
+    "row": 47,
+    "rowsha": "MUA/+yQ/hzgnEfIzp8bYqQG5fvdt21fSH/udKF2QP64=",
+    "originContent": "To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 贡献"
+  },
+  {
+    "row": 49,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "欢迎在 GitHub https://github.com/ceritium/flatito 上报告漏洞和提交拉取请求。此项目旨在成为一个安全、友好的协作空间，贡献者应遵守 [行为准则](https://github.com/ceritium/flatito/blob/master/CODE_OF_CONDUCT.md)。"
+  },
+  {
+    "row": 51,
+    "rowsha": "D5hcv4hZQ8HXoh5aMNtxAHyf87ywttkCc3ay2u6MJhk=",
+    "originContent": "Bug reports and pull requests are welcome on GitHub at https://github.com/ceritium/flatito. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/ceritium/flatito/blob/master/CODE_OF_CONDUCT.md).",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 许可证"
+  },
+  {
+    "row": 53,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "该 gem 作为开源软件，根据 [MIT 许可证](https://opensource.org/licenses/MIT) 条款提供。"
+  },
+  {
+    "row": 55,
+    "rowsha": "XAehVsKk2bNFEHLgcUIa10t2JjIrMEEFCr8gk8FvIhc=",
+    "originContent": "The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 行为准则"
+  },
+  {
+    "row": 57,
+    "rowsha": "a2NKwVCedKLDuP9rtxwV5qmQmdm5DK2nFoQfOTn/ZT0=",
+    "originContent": "## Code of Conduct",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "所有参与 Flatito 项目代码库、问题追踪、聊天室和邮件列表的人员，均应遵守 [行为准则](https://github.com/ceritium/flatito/blob/master/CODE_OF_CONDUCT.md)。"
+  },
+  {
+    "row": 59,
+    "rowsha": "KYizeF3NNP4q6s/S3964nKh6/8Cj7yVi3t3HPVvKs14=",
+    "originContent": "Everyone interacting in the Flatito project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/ceritium/flatito/blob/master/CODE_OF_CONDUCT.md).",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
