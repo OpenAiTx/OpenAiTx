@@ -1,0 +1,1268 @@
+[
+  {
+    "row": 1,
+    "rowsha": "vV0ULeAdhKgYgXqmhiR4fVacrGgQnl8I+IGqgcNQ6ZI=",
+    "originContent": "# Sord",
+    "translatedContent": "# Sord"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+    "originContent": "## Overview",
+    "translatedContent": "## 概要"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "otGEbFc7TQDTJ+okt1Gz84Wdb9WaeyzKBYPCoUjNoJY=",
+    "originContent": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)",
+    "translatedContent": "Sordは[**So**rbet](https://sorbet.org)と[YA**RD**](https://yardoc.org/)"
+  },
+  {
+    "row": 6,
+    "rowsha": "4Z4GlQL5XRt15nmdmZVpBkHIqv5XWR5qxi13si+lZqY=",
+    "originContent": "crossover. It can **automatically generate RBI and RBS type signature files** by",
+    "translatedContent": "のクロスオーバーです。**YARDドキュメントのコメントに指定された型情報**を参照して、"
+  },
+  {
+    "row": 7,
+    "rowsha": "ylGlRBU1fJtPcGBRNbgOGGfsDoFJC0LfRZJnhUKJCSQ=",
+    "originContent": "looking at the **types specified in YARD documentation** comments.",
+    "translatedContent": "**RBIおよびRBS型のシグネチャファイルを自動生成**できます。"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "SHI7rynJJvQihsObss17aB0yy6We8pf7jxz8jVjNHss=",
+    "originContent": "If your project is already YARD documented, then this can generate most of the",
+    "translatedContent": "もしあなたのプロジェクトがすでにYARDでドキュメント化されているなら、"
+  },
+  {
+    "row": 10,
+    "rowsha": "TgW7mKlWgX1KftP+kFwm7+28jBH/dtNqcpwg5YGLJTg=",
+    "originContent": "type signatures you need!",
+    "translatedContent": "ほとんどの型シグネチャをこのツールで生成できます！"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "yVqBM99zi5wIxH+4ICrZ/Tr3EamtE82ttVoeBTBlm9w=",
+    "originContent": "Sord is the perfect way to jump-start the adoption of types in your project,",
+    "translatedContent": "Sordは、SorbetのRBI形式やRuby 3/SteepのRBS形式のいずれを使うにしても、"
+  },
+  {
+    "row": 13,
+    "rowsha": "pHe/pjv8IwX+JtEzW0TX3Tn6vc9PFpK0rZimPxcZqVQ=",
+    "originContent": "whether you plan to use Sorbet's RBI format or Ruby 3/Steep's RBS format.",
+    "translatedContent": "プロジェクトで型導入を始めるのに最適な方法です。"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "LOmE+3PG5do/8waRPCs4MeAe7jyjXRDV6Rjdm9Ev8qc=",
+    "originContent": "**Try Sord online at: [sord.aaronc.cc](https://sord.aaronc.cc)**",
+    "translatedContent": "**Sordをオンラインで試す: [sord.aaronc.cc](https://sord.aaronc.cc)**"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "qgn1qoJVTbZGjDpa6aju/5r6r3u84BQSWzJ7ZXhHT70=",
+    "originContent": "Sord has the following features:",
+    "translatedContent": "Sordの特徴は以下の通りです:"
+  },
+  {
+    "row": 18,
+    "rowsha": "wBmiji3LUhAQx0mccoVV1/O9TOjy06h6tKUNVhW2zkU=",
+    "originContent": "  - Automatically generates signatures for modules, classes and methods",
+    "translatedContent": "  - モジュール、クラス、メソッドのシグネチャを自動生成"
+  },
+  {
+    "row": 19,
+    "rowsha": "fxvfIivlOpxXlzHYbK1ZfQNhg8bdmaeW1SWwqSD6+6w=",
+    "originContent": "  - Support for multiple parameter or return types (`T.any`/`|`)",
+    "translatedContent": "  - 複数のパラメータ型や戻り値型のサポート（`T.any`/`|`）"
+  },
+  {
+    "row": 20,
+    "rowsha": "IJK2g7AsLoyATCG2uVtF3l1xLnr9Wm26PfuefIJyD5w=",
+    "originContent": "  - Gracefully handles missing YARD types (`T.untyped`/`untyped`)",
+    "translatedContent": "  - YARD型情報が欠落している場合も適切に処理（`T.untyped`/`untyped`）"
+  },
+  {
+    "row": 21,
+    "rowsha": "4+HCWcVoIO11qjM3KjeUWw9qpeKBrtvDwI0ZD5B9rzs=",
+    "originContent": "  - Can infer setter parameter type from the corresponding getter's return type",
+    "translatedContent": "  - セッターのパラメータ型を対応するゲッターの戻り値型から推論可能"
+  },
+  {
+    "row": 22,
+    "rowsha": "vmU09CQez7P9hmI23oWBdXaK2TloYOqnRtnW4CZTPF0=",
+    "originContent": "  - Recognises mixins (`include` and `extend`)",
+    "translatedContent": "  - ミキシン（`include`と`extend`）を認識"
+  },
+  {
+    "row": 23,
+    "rowsha": "vyDytTG+UbT8/T7MA0PeBGN92pzl08qMBJ+7F2jhF38=",
+    "originContent": "  - Support for generic types such as `Array<T>` and `Hash<K, V>`",
+    "translatedContent": "  - `Array<T>`や`Hash<K, V>`のようなジェネリック型をサポート"
+  },
+  {
+    "row": 24,
+    "rowsha": "zuaRUA5hujmCSYQTdtXicykap03jYgtERfsjwVJr95o=",
+    "originContent": "  - Can infer namespaced classes (`[Bar]` can become `GemName::Foo::Bar`)",
+    "translatedContent": "  - 名前空間付きクラスの推論可能（`[Bar]`が`GemName::Foo::Bar`になる）"
+  },
+  {
+    "row": 25,
+    "rowsha": "3EsD501X7AGPPGbVSZQaN9cwL+6aqCqwpem2/I1IcEw=",
+    "originContent": "  - Handles return types which can be `nil` (`T.nilable`/`untyped`)",
+    "translatedContent": "  - `nil`を許容する戻り値型を処理（`T.nilable`/`untyped`）"
+  },
+  {
+    "row": 26,
+    "rowsha": "yRlKAT1mxots48VYl0ybmFrPUADwYea5X1q5uMhgJmE=",
+    "originContent": "  - Handles duck types (`T.untyped`/`untyped`)",
+    "translatedContent": "  - ダックタイピング型を処理（`T.untyped`/`untyped`）"
+  },
+  {
+    "row": 27,
+    "rowsha": "g2PgrIFIGTrOegC3peNZmpvttCi/2xSFYWJzo8VXMTE=",
+    "originContent": "  - Support for ordered list types (`[Array(Integer, Symbol)]` becomes `[Integer, Symbol]`)",
+    "translatedContent": "  - 順序付きリスト型をサポート（`[Array(Integer, Symbol)]`が`[Integer, Symbol]`になる）"
+  },
+  {
+    "row": 28,
+    "rowsha": "kNbZGGH28GzkuC3nRyfAAqpiuJjpMbvDo360mwWfWRk=",
+    "originContent": "  - Support for boolean types (`[true, false]` becomes `T::Boolean`/`bool`)",
+    "translatedContent": "  - ブール型をサポート（`[true, false]`が`T::Boolean`/`bool`になる）"
+  },
+  {
+    "row": 29,
+    "rowsha": "0/dVNwTprEu2p6NI/ksVfRs6YDbByLjcoaml9Hml5sI=",
+    "originContent": "  - Support for `&block` parameters documented with `@yieldparam` and `@yieldreturn`",
+    "translatedContent": "  - `&block`パラメータを`@yieldparam`および`@yieldreturn`でドキュメント化可能"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使い方"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "4EhwMuKS+5cJLeJk7J9q6mkj1sQOSCn3FwNMIC7Gl8Y=",
+    "originContent": "Install Sord with `gem install sord`.",
+    "translatedContent": "`gem install sord`でSordをインストールします。"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "Lq4GX3u3IbMWcgunguhP1afEVtKKZ6IvEVGb8qRxeH0=",
+    "originContent": "Sord is a command line tool. To use it, open a terminal in the root directory",
+    "translatedContent": "Sordはコマンドラインツールです。プロジェクトのルートディレクトリでターミナルを開き、"
+  },
+  {
+    "row": 36,
+    "rowsha": "lX1eBLtJXL8doEkN9tI+gc1qaC24BpgGYLFE9gfBN8c=",
+    "originContent": "of your project and invoke `sord`, passing a path where you'd like to save your",
+    "translatedContent": "`-sord`コマンドを実行し、出力先のパスを渡してください（既存のファイルは上書きされます）:"
+  },
+  {
+    "row": 37,
+    "rowsha": "+bh+McAjzaUOuGhz5cJndmWrKo1X5Ruf2iMbspuXZm8=",
+    "originContent": "file (this file will be overwritten):",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 40,
+    "rowsha": "Rzy4vIYfC+oxrnOOkTWtf1C/Qms8DrRSL4p5WiUEUgo=",
+    "originContent": "sord defs.rbi",
+    "translatedContent": "sord defs.rbi"
+  },
+  {
+    "row": 41,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "SordはYARDドキュメントを生成し、実行中に推論した情報を出力します。  "
+  },
+  {
+    "row": 43,
+    "rowsha": "GSmwHjblgB0ANHcfRYTkmgeiE6CUbPPKbfE/kbi30DI=",
+    "originContent": "Sord will generate YARD docs and then print information about what it's inferred",
+    "translatedContent": "YARDドキュメントの問題は修正することを推奨します。生成されたファイルに加えた編集は、Sordを再実行すると置き換えられます。  "
+  },
+  {
+    "row": 44,
+    "rowsha": "+g7ZPgT57H5oslVHhSxOEk5LVvyez8JRrrDlhP/r+qE=",
+    "originContent": "as it runs. It is best to fix any issues in the YARD documentation, as any edits",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "imSHijqEoKWtHqEgFkQlbkeM7yCJLw65x8Tn0KW1YRM=",
+    "originContent": "made to the resulting file will be replaced if you re-run Sord.",
+    "translatedContent": "出力タイプは使用するファイル拡張子から推論されますが、`--rbi`や`--rbs`で明示的に指定することも可能です。  "
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "MasU3tzSvUIN1n+KaHITTb7EM+CSCsGZBva+uHHpFeQ=",
+    "originContent": "The output type is inferred by the file extension you use, but you can also",
+    "translatedContent": "## RBIタイプの配布  "
+  },
+  {
+    "row": 48,
+    "rowsha": "Li58R+c9w/rQBtX8Mmc7fWZzQ2LKd1EL4GxS1RtZyPA=",
+    "originContent": "specify it explicitly with `--rbi` or `--rbs`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Sordで生成されたRBIファイルは主に二つの方法で利用されます：  "
+  },
+  {
+    "row": 50,
+    "rowsha": "KgeeYFhTEQgs6kqnt7buVblvRqujdiUKCx0I6Bhf7pk=",
+    "originContent": "## Shipping RBI Types",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [gem自体に同梱する](https://sorbet.org/docs/rbi#rbis-within-gems)。  "
+  },
+  {
+    "row": 52,
+    "rowsha": "YgvMBZH4o4ERIIDSeEDNfVM0hV7qTdkNmA9EL4F67TY=",
+    "originContent": "RBI files generated by Sord can be used in two main ways:",
+    "translatedContent": "- [sorbet-typed](https://github.com/sorbet/sorbet-typed)に貢献する。  "
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "TZ9kVRw96fM/RMoIUCDqBbMTliT22ojn4/yY5rZE6eU=",
+    "originContent": "- [Shipped in the gem itself](https://sorbet.org/docs/rbi#rbis-within-gems).",
+    "translatedContent": "一般的には、可能であればgemに型シグネチャを同梱すべきです。  "
+  },
+  {
+    "row": 55,
+    "rowsha": "Sw/mSIoDr7aBRzSVRt8cgnAdKGW+1dm2jdYsWPndd+w=",
+    "originContent": "- Contributed to [sorbet-typed](https://github.com/sorbet/sorbet-typed).",
+    "translatedContent": "sorbet-typedは、更新が停止されたgemや、メンテナが型シグネチャをgemに同梱したくない場合のための場所です。  "
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "URih2+zxu5WnMPhQPpg33hySA1zMZzNKOeXpNtLwqjY=",
+    "originContent": "Generally, you should ship the type signatures with your gem if possible.",
+    "translatedContent": "### フラグ  "
+  },
+  {
+    "row": 58,
+    "rowsha": "eEPa9wib6L7SbDzahRuMdyane135mFqnRpTMcO2Da44=",
+    "originContent": "sorbet-typed is meant to be a place for gems that are no longer updated or",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "z+rbc364ZFOgQ8td5oHEsCepnP/0amoSemKzMcjuaDc=",
+    "originContent": "where the maintainer is unwilling to ship type signatures with the gem itself.",
+    "translatedContent": "Sordは生成されるファイルを変更するためのいくつかのフラグを受け取ります：  "
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "LPEupsbznSW+3iLlBHcHjrsNcyIcJru6qLxNNG302rw=",
+    "originContent": "### Flags",
+    "translatedContent": "  - `--rbi`/`--rbs`：ファイル拡張子から推論される出力形式を上書きします。  "
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  - `--no-sord-comments`：警告・推論・エラーに関するSordのコメントなしでファイルを生成します。（元のファイルのコメントは引き続き含まれます。）  "
+  },
+  {
+    "row": 63,
+    "rowsha": "HksxjcN2sV5hSFaQF1ciSsRVFmheGqd304wId4iPbwY=",
+    "originContent": "Sord also takes some flags to alter the generated file:",
+    "translatedContent": "  - `--no-regenerate`：デフォルトではSordはリポジトリのYARDドキュメントを再生成しますが、このオプションで再生成をスキップします。  "
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  - `--break-params`：シグネチャが単一行から複数行ブロックに変わるパラメータの数を決定します。（デフォルト: 4）  "
+  },
+  {
+    "row": 65,
+    "rowsha": "rrAC6mPks3EOvP2js9mEkEmeEiHnPGN0MhdEASnlLOk=",
+    "originContent": "  - `--rbi`/`--rbs`: Override the output format inferred from the file",
+    "translatedContent": "  - `--replace-errors-with-untyped`：`SORD_ERROR_*`定数の代わりに`T.untyped`を使います。  "
+  },
+  {
+    "row": 66,
+    "rowsha": "9g420qVxnsRohZVD5UsmlT6u0SnEpQr7VuyTimBSzX8=",
+    "originContent": "    extension.",
+    "translatedContent": "  - `--replace-unresolved-with-untyped`：Sordが定数を解決できない場合に`T.untyped`を使います。  "
+  },
+  {
+    "row": 67,
+    "rowsha": "CiJyRgXOuCr0L+rVAY0aTydSTeI12Z3XnFicBOH34C4=",
+    "originContent": "  - `--no-sord-comments`: Generates the file without any Sord comments about",
+    "translatedContent": "  - `--include-messages`および`--exclude-messages`：Sordのログメッセージをフィルターするために使います。`--include-messages`はホワイトリストとして機能し、指定したログ種別のメッセージのみを出力し、`--exclude-messages`は"
+  },
+  {
+    "row": 68,
+    "rowsha": "k2LVckL1Ax1xDgtvXEXv3O0FgCoUb7EZIWJv50UZJtk=",
+    "originContent": "    warnings/inferences/errors. (The original file's comments will still be",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "9/nKSray1GdzZtPtWGZoqDdB0KL5z1hW6rmso7flZbk=",
+    "originContent": "    included.)",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "oJ6a1AHOHWn5Dfih0uJn3r8PlIsbOsH0KayzVr2xBQQ=",
+    "originContent": "  - `--no-regenerate`: By default, Sord will regenerate a repository's YARD",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "LL2nzrrl5mtdy3YE4OYvNrzDR9NKgrgSQfZrHrDT8iM=",
+    "originContent": "    docs for you. This option skips regenerating the YARD docs.",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "k7mXMBkc3DJ2pa3Ppt7O7SxwjuXD8pkbNcYjq/qXUdQ=",
+    "originContent": "  - `--break-params`: Determines how many parameters are necessary before",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "YF6Qo2x5kDzAmGgCwGI2/4s3XAqsw99dm4Sb57h8KSQ=",
+    "originContent": "    the signature is changed from a single-line to a multi-line block.",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "07If0NCLte4nSxuDhIr3KI3wMNYzq5w6mx2AEFtWm64=",
+    "originContent": "    (Default: 4)",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "5qp6jR1m6c4GtICsAsLu7yp1RgLe8zoImMe95kx8hso=",
+    "originContent": "  - `--replace-errors-with-untyped`: Uses `T.untyped` instead of `SORD_ERROR_*`",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "zUAhCzOpO3HDIkqXpJxbp9ia6RNb4nBAPEQmHiekJNY=",
+    "originContent": "    constants.",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "57H54oyh4hGU2BBQTU3D4LYfQs/e+A+7gWrL4p8N04U=",
+    "originContent": "  - `--replace-unresolved-with-untyped`: Uses `T.untyped` when Sord is unable to",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "wVtLkFnJxXm0JZ8raNq3ZEODstqYHbnXdLl50JDNQVo=",
+    "originContent": "    resolve a constant.",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "TRFo2kfcmV1xQkFFm7H1CFybcpQ/VeybEEx6POw+ngA=",
+    "originContent": "  - `--include-messages` and `--exclude-messages`: Used to filter the logging",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "kheElsPHpVYgZEFD/xB4RICWjE0qoZP4ANfaXSvjX3M=",
+    "originContent": "    messages given by Sord. `--include-messages` acts as a whitelist, printing",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "ST/miKilgxPKKP2121Nwj9CBI4qqdp/w7AysFDq7rac=",
+    "originContent": "    only messages of the specified logging kinds, whereas `--exclude-messages`",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "/eI6LW9yt8oYZYAJ3iKIHXGqEVAWKcv8jrWa2JoQtOc=",
+    "originContent": "    acts as a blacklist and suppresses the specified logging kinds. Both flags",
+    "translatedContent": "    指定されたログ種類をブラックリストとして扱い、抑制します。両方のフラグはカンマ区切りのログ種類リストを取ります。例：`omit,infer`。"
+  },
+  {
+    "row": 83,
+    "rowsha": "dDIZcvgBlts88ezTJfA2tfgYCybA8Nd0BcJU8jiWiBU=",
+    "originContent": "    take a comma-separated list of logging kinds, for example `omit,infer`.",
+    "translatedContent": "    `--include-messages`を使用すると、`done`種類はデフォルトで含まれます。"
+  },
+  {
+    "row": 84,
+    "rowsha": "1SaYTcjWd3rGocrJQFdxdFPzKqJdkxfomSoVu/QklZ0=",
+    "originContent": "    When using `--include-messages`, the `done` kind is included by default.",
+    "translatedContent": "    （`--include-messages`と`--exclude-messages`を同時に指定することはできません。）"
+  },
+  {
+    "row": 85,
+    "rowsha": "2t3qW/0tpUpvNIVg/oPfhf2rrMKYru8hSrqvAy5a1ws=",
+    "originContent": "    (You cannot specify both `--include-messages` and `--exclude-messages`.)",
+    "translatedContent": "  - `--exclude-untyped`: 戻り値が型指定されていないメソッドと属性を除外します。"
+  },
+  {
+    "row": 86,
+    "rowsha": "SI9L82l3P56bibXMto/Rb5Np3P1NtQ+HRLJvfOrZ4SE=",
+    "originContent": "  - `--exclude-untyped`: Exclude methods and attributes with untyped return",
+    "translatedContent": "  - `--tags TAGS`: `yard`コマンドで理解されるカンマ区切りタグのリストを提供します。例：`--tags 'mytag:My Description,mytag2:My New Description'`"
+  },
+  {
+    "row": 87,
+    "rowsha": "oejrLWwf4509EGv8H2RDj5kbV4ic2S0PUrTU1prDFng=",
+    "originContent": "    values.",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "vdquEwMHwlvEySputZ/CJLhb2AFdBRSDFS6LtcweKI4=",
+    "originContent": "  - `--tags TAGS`: Provide a list of comma-separated tags as understood by the",
+    "translatedContent": "## 例"
+  },
+  {
+    "row": 89,
+    "rowsha": "GqW34V8jEZ3oxg2QcD2B55P1Cpgozx+eeqBXAd3aO0w=",
+    "originContent": "    `yard` command. E.g. `--tags 'mytag:My Description,mytag2:My New Description'",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "次のファイルがあるとします。名前は`test.rb`です："
+  },
+  {
+    "row": 91,
+    "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+    "originContent": "## Example",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "G5it7el6IhI0yZ8mrf4v72EeCSTWrixQZCHY45YcdD4=",
+    "originContent": "Say we have this file, called `test.rb`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "/ak/5P5X1yYFQIWcydcj8nX7wGjkDDeQY41Yfh1fIdA=",
+    "originContent": "```ruby",
+    "translatedContent": "```ruby"
+  },
+  {
+    "row": 96,
+    "rowsha": "6SDMEa8Ux7HruvFLNikdy/lhszC7yhAGkNoEiv+ZXGU=",
+    "originContent": "module Example",
+    "translatedContent": "module Example"
+  },
+  {
+    "row": 97,
+    "rowsha": "bnsv0EasPSFpdTdPgiV9uQDs50lGfxOETHUnP7DLRzU=",
+    "originContent": "  class Person",
+    "translatedContent": "  class Person"
+  },
+  {
+    "row": 98,
+    "rowsha": "V1x5Jr6KP0Gx/sQc8MfEy09HMxL/kMCPnaeDiIlS+k0=",
+    "originContent": "    # @param name [String] The name of the Person to create.",
+    "translatedContent": "    # @param name [String] The name of the Person to create."
+  },
+  {
+    "row": 99,
+    "rowsha": "hM3jmEDD7jPMjLoriTbNPaFT1cwJbcK+U5qwtT9mjz4=",
+    "originContent": "    # @param age [Integer] The age of the Person to create.",
+    "translatedContent": "    # @param age [Integer] The age of the Person to create."
+  },
+  {
+    "row": 100,
+    "rowsha": "GLViXXxmCCEFfTx3IMYgejROA3UIAzs+/jDQBC4BtYk=",
+    "originContent": "    # @return [Example::Person]",
+    "translatedContent": "    # @return [Example::Person]"
+  },
+  {
+    "row": 101,
+    "rowsha": "oWrvxbsq1AOxoDZLImybhxtPP3lVKwKVcy41yW5yGzs=",
+    "originContent": "    def initialize(name, age)",
+    "translatedContent": "    def initialize(name, age)"
+  },
+  {
+    "row": 102,
+    "rowsha": "n665Jw7Qgph7cF/vtBrMI+pMxChFbHbnLg8oR/bz1cQ=",
+    "originContent": "      @name = name",
+    "translatedContent": "      @name = name"
+  },
+  {
+    "row": 103,
+    "rowsha": "LPTnTo2FzVZ+U/3cRrA/2GdQ+yG09SrtQ5V6AsBbiEs=",
+    "originContent": "      @age = age",
+    "translatedContent": "      @age = age"
+  },
+  {
+    "row": 104,
+    "rowsha": "gvoVxHL5c5ZCFTBleU4mILUDJKIFcP+s+BQjx5nYXiw=",
+    "originContent": "    end",
+    "translatedContent": "    end"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "gi70iUwKHP/6Mp+BV4Yde8SrQNipCO/0v+j73hDFwAc=",
+    "originContent": "    # @return [String]",
+    "translatedContent": "    # @return [String]"
+  },
+  {
+    "row": 107,
+    "rowsha": "fzjjOyCOrD+qQ/vtDHLeVSGMWif4P/RKqPXvJ/FdQO8=",
+    "originContent": "    attr_accessor :name",
+    "translatedContent": "    attr_accessor :name"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "bvyM0LqisNqMIWon1FPosJVWEPTW28FnWIlFnizNq1I=",
+    "originContent": "    # @return [Integer]",
+    "translatedContent": "    # @return [Integer]"
+  },
+  {
+    "row": 110,
+    "rowsha": "YL/mQyqkcTrp8zGMblYbmAJQN2JabTkzN9i01G5bA/k=",
+    "originContent": "    attr_accessor :age",
+    "translatedContent": "    attr_accessor :age"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "zHc9Yk4xN+CcUZXsl5d+1FlQ59STN889Z6i9TEmEa1k=",
+    "originContent": "    # @param possible_names [Array<String>] An array of potential names to choose from.",
+    "translatedContent": "    # @param possible_names [Array<String>] An array of potential names to choose from."
+  },
+  {
+    "row": 113,
+    "rowsha": "axRm6I4+NCXxmIOkmb/QnEO+NwIGsKnVFPYPQP+xZ0Q=",
+    "originContent": "    # @param possible_ages [Array<Integer>] An array of potential ages to choose from.",
+    "translatedContent": "    # @param possible_ages [Array<Integer>] An array of potential ages to choose from."
+  },
+  {
+    "row": 114,
+    "rowsha": "GLViXXxmCCEFfTx3IMYgejROA3UIAzs+/jDQBC4BtYk=",
+    "originContent": "    # @return [Example::Person]",
+    "translatedContent": "    # @return [Example::Person]"
+  },
+  {
+    "row": 115,
+    "rowsha": "krRSGCDEmn1X0z5QsR6AWOG2Ok15xmCtJwLkW056wS8=",
+    "originContent": "    def self.construct_randomly(possible_names, possible_ages)",
+    "translatedContent": "    def self.construct_randomly(possible_names, possible_ages)"
+  },
+  {
+    "row": 116,
+    "rowsha": "olIoO4R3j2E3kF6N6vMOSCT5fZ7P8IbZ0erBEIg/2aw=",
+    "originContent": "      Person.new(possible_names.sample, possible_ages.sample)",
+    "translatedContent": "      Person.new(possible_names.sample, possible_ages.sample)"
+  },
+  {
+    "row": 117,
+    "rowsha": "gvoVxHL5c5ZCFTBleU4mILUDJKIFcP+s+BQjx5nYXiw=",
+    "originContent": "    end",
+    "translatedContent": "    end"
+  },
+  {
+    "row": 118,
+    "rowsha": "SNNEvL0VmogGoy/zRyjZEOiUaGkA2VqmSA26jTm2p+o=",
+    "originContent": "  end",
+    "translatedContent": "  end"
+  },
+  {
+    "row": 119,
+    "rowsha": "Nh5I0DCPIOMtul+1Yyi68Y1y7wzLQ7hPXCYtKmofxsg=",
+    "originContent": "end",
+    "translatedContent": "end"
+  },
+  {
+    "row": 120,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "まず、`yardoc test.rb`を実行してYARDレジストリを生成します。次に、`sord test.rbi`を実行してRBIファイルを生成できます。（コードファイルを上書きしないよう注意してください！拡張子は`.rbi`です。）これを行うと、Sordは次のように表示します："
+  },
+  {
+    "row": 122,
+    "rowsha": "K/syAAFrb42TYL1aUw8heZhV0nZdP10dQuTqjK2lVoM=",
+    "originContent": "First, generate a YARD registry by running `yardoc test.rb`. Then, we can run",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "4cv6TZxmck/cLsFNNrodFtCWLPHVmu06h0wEJkxJepI=",
+    "originContent": "`sord test.rbi` to generate the RBI file. (Careful not to overwrite your code",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "3bQxzAzZh8EQf68+5N6JEGn6ims8+6zjkdltZoZ/qDg=",
+    "originContent": "files! Note the `.rbi` file extension.) In doing this, Sord prints:",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 127,
+    "rowsha": "qHeYrvpJxQgIuyQG9dTpBvsrIaXDLbpvmWCllSWdHmc=",
+    "originContent": "[INFER] Assuming from filename you wish to generate in RBI format",
+    "translatedContent": "[INFER] Assuming from filename you wish to generate in RBI format"
+  },
+  {
+    "row": 128,
+    "rowsha": "yo9tApqn+GmATWihiQLqgEGFqAY77AHhmmCH2/TsA9s=",
+    "originContent": "[DONE ] Processed 8 objects (2 namespaces and 6 methods)",
+    "translatedContent": "[DONE ] Processed 8 objects (2 namespaces and 6 methods)"
+  },
+  {
+    "row": 129,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`test.rbi` ファイルには、`test.rb` の完全な RBI ファイルが含まれています:"
+  },
+  {
+    "row": 131,
+    "rowsha": "FnkHSKpv9TWaQ6rPizoFri/iHHnLNwI+V8nZDxmRR4U=",
+    "originContent": "The `test.rbi` file then contains a complete RBI file for `test.rb`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "/ak/5P5X1yYFQIWcydcj8nX7wGjkDDeQY41Yfh1fIdA=",
+    "originContent": "```ruby",
+    "translatedContent": "```ruby"
+  },
+  {
+    "row": 134,
+    "rowsha": "BsnwHLq1NirueiYYqLyXo7CUX1m5aTaow9dYX/E1ZnQ=",
+    "originContent": "# typed: strong",
+    "translatedContent": "# typed: strong"
+  },
+  {
+    "row": 135,
+    "rowsha": "6SDMEa8Ux7HruvFLNikdy/lhszC7yhAGkNoEiv+ZXGU=",
+    "originContent": "module Example",
+    "translatedContent": "module Example"
+  },
+  {
+    "row": 136,
+    "rowsha": "bnsv0EasPSFpdTdPgiV9uQDs50lGfxOETHUnP7DLRzU=",
+    "originContent": "  class Person",
+    "translatedContent": "  class Person"
+  },
+  {
+    "row": 137,
+    "rowsha": "BmwkLdszyZdmiq50yZImNgpnfhnQdFYh4qruMYPInkM=",
+    "originContent": "    # _@param_ `name` — The name of the Person to create.",
+    "translatedContent": "    # _@param_ `name` — The name of the Person to create."
+  },
+  {
+    "row": 138,
+    "rowsha": "VpK639xh/ICE3r9xZmMph71JO08lDWBi2bvNofg+NkQ=",
+    "originContent": "    # ",
+    "translatedContent": "    # "
+  },
+  {
+    "row": 139,
+    "rowsha": "/p1/SuLLeiOdUSb8tmoML++eXr8VoBLcsvn34moAQK4=",
+    "originContent": "    # _@param_ `age` — The age of the Person to create.",
+    "translatedContent": "    # _@param_ `age` — The age of the Person to create."
+  },
+  {
+    "row": 140,
+    "rowsha": "55XpjLcLZrlCyN4aom1PFtfEPQo6vZnB+nCUTb+cw3g=",
+    "originContent": "    sig { params(name: String, age: Integer).void }",
+    "translatedContent": "    sig { params(name: String, age: Integer).void }"
+  },
+  {
+    "row": 141,
+    "rowsha": "K/+SysMsdAs2YmBrZ5GXlYbRWkVFpiHWq2c8ZijZPyg=",
+    "originContent": "    def initialize(name, age); end",
+    "translatedContent": "    def initialize(name, age); end"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "9vrmEOrBLY3M9Q+AkYpigpJVZArQiDywkSwCgA10sNM=",
+    "originContent": "    # _@param_ `possible_names` — An array of potential names to choose from.",
+    "translatedContent": "    # _@param_ `possible_names` — An array of potential names to choose from."
+  },
+  {
+    "row": 144,
+    "rowsha": "VpK639xh/ICE3r9xZmMph71JO08lDWBi2bvNofg+NkQ=",
+    "originContent": "    # ",
+    "translatedContent": "    # "
+  },
+  {
+    "row": 145,
+    "rowsha": "D/X4qTEoSDOKBJWQtF7vO6RXeLWQZS8+22CnWhZUETI=",
+    "originContent": "    # _@param_ `possible_ages` — An array of potential ages to choose from.",
+    "translatedContent": "    # _@param_ `possible_ages` — An array of potential ages to choose from."
+  },
+  {
+    "row": 146,
+    "rowsha": "Mf1ZD76xColTm6Ek1d3V3bH280/LeTX8GW+OYWcOUq4=",
+    "originContent": "    sig { params(possible_names: T::Array[String], possible_ages: T::Array[Integer]).returns(Example::Person) }",
+    "translatedContent": "    sig { params(possible_names: T::Array[String], possible_ages: T::Array[Integer]).returns(Example::Person) }"
+  },
+  {
+    "row": 147,
+    "rowsha": "n1fWxh0Qv08MVZBN9KP+m0XRHg9hHJHVU2L3KJNyNYA=",
+    "originContent": "    def self.construct_randomly(possible_names, possible_ages); end",
+    "translatedContent": "    def self.construct_randomly(possible_names, possible_ages); end"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "hQ3j79fuCR68jvuGiywvoYPeXNObNx03RHlc8gfXABQ=",
+    "originContent": "    sig { returns(String) }",
+    "translatedContent": "    sig { returns(String) }"
+  },
+  {
+    "row": 150,
+    "rowsha": "fzjjOyCOrD+qQ/vtDHLeVSGMWif4P/RKqPXvJ/FdQO8=",
+    "originContent": "    attr_accessor :name",
+    "translatedContent": "    attr_accessor :name"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "9rLD99qipJDukA5VepvGdwFUe1nI6/t8owvijo1rRzo=",
+    "originContent": "    sig { returns(Integer) }",
+    "translatedContent": "    sig { returns(Integer) }"
+  },
+  {
+    "row": 153,
+    "rowsha": "YL/mQyqkcTrp8zGMblYbmAJQN2JabTkzN9i01G5bA/k=",
+    "originContent": "    attr_accessor :age",
+    "translatedContent": "    attr_accessor :age"
+  },
+  {
+    "row": 154,
+    "rowsha": "SNNEvL0VmogGoy/zRyjZEOiUaGkA2VqmSA26jTm2p+o=",
+    "originContent": "  end",
+    "translatedContent": "  end"
+  },
+  {
+    "row": 155,
+    "rowsha": "Nh5I0DCPIOMtul+1Yyi68Y1y7wzLQ7hPXCYtKmofxsg=",
+    "originContent": "end",
+    "translatedContent": "end"
+  },
+  {
+    "row": 156,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "もし代わりに `test.rbs` を生成していた場合、RBS形式のこのファイルが得られます:"
+  },
+  {
+    "row": 158,
+    "rowsha": "gB600NPuorvNUMHwMjpaJG+iTw/5+9CvY0ZkTc1hshY=",
+    "originContent": "If we had instead generated `test.rbs`, we would get this file in RBS format:",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "/ak/5P5X1yYFQIWcydcj8nX7wGjkDDeQY41Yfh1fIdA=",
+    "originContent": "```ruby",
+    "translatedContent": "```ruby"
+  },
+  {
+    "row": 161,
+    "rowsha": "6SDMEa8Ux7HruvFLNikdy/lhszC7yhAGkNoEiv+ZXGU=",
+    "originContent": "module Example",
+    "translatedContent": "module Example"
+  },
+  {
+    "row": 162,
+    "rowsha": "bnsv0EasPSFpdTdPgiV9uQDs50lGfxOETHUnP7DLRzU=",
+    "originContent": "  class Person",
+    "translatedContent": "  class Person"
+  },
+  {
+    "row": 163,
+    "rowsha": "BmwkLdszyZdmiq50yZImNgpnfhnQdFYh4qruMYPInkM=",
+    "originContent": "    # _@param_ `name` — The name of the Person to create.",
+    "translatedContent": "    # _@param_ `name` — The name of the Person to create."
+  },
+  {
+    "row": 164,
+    "rowsha": "VpK639xh/ICE3r9xZmMph71JO08lDWBi2bvNofg+NkQ=",
+    "originContent": "    # ",
+    "translatedContent": "    # "
+  },
+  {
+    "row": 165,
+    "rowsha": "/p1/SuLLeiOdUSb8tmoML++eXr8VoBLcsvn34moAQK4=",
+    "originContent": "    # _@param_ `age` — The age of the Person to create.",
+    "translatedContent": "    # _@param_ `age` — The age of the Person to create."
+  },
+  {
+    "row": 166,
+    "rowsha": "0OGmsg9Sd9V7YSN+kfjHwB4HDs774fyBMsAojhm68jg=",
+    "originContent": "    def initialize: (String name, Integer age) -> void",
+    "translatedContent": "    def initialize: (String name, Integer age) -> void"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "9vrmEOrBLY3M9Q+AkYpigpJVZArQiDywkSwCgA10sNM=",
+    "originContent": "    # _@param_ `possible_names` — An array of potential names to choose from.",
+    "translatedContent": "    # _@param_ `possible_names` — An array of potential names to choose from."
+  },
+  {
+    "row": 169,
+    "rowsha": "VpK639xh/ICE3r9xZmMph71JO08lDWBi2bvNofg+NkQ=",
+    "originContent": "    # ",
+    "translatedContent": "    # "
+  },
+  {
+    "row": 170,
+    "rowsha": "D/X4qTEoSDOKBJWQtF7vO6RXeLWQZS8+22CnWhZUETI=",
+    "originContent": "    # _@param_ `possible_ages` — An array of potential ages to choose from.",
+    "translatedContent": "    # _@param_ `possible_ages` — An array of potential ages to choose from."
+  },
+  {
+    "row": 171,
+    "rowsha": "oCGJsgzBw3XSI2DNS4dE39HSq/RbRcPv8ATGrNKpb8M=",
+    "originContent": "    def self.construct_randomly: (Array[String] possible_names, Array[Integer] possible_ages) -> Example::Person",
+    "translatedContent": "    def self.construct_randomly: (Array[String] possible_names, Array[Integer] possible_ages) -> Example::Person"
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "PpBMBfMXFzvasV7qu0E8HcCTL999vXG/qsfGjGu1bxw=",
+    "originContent": "    attr_accessor name: String",
+    "translatedContent": "    attr_accessor name: String"
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "rvXCyot5lk5xK9DtkrpWpFwo3gX0UulF99QKyNxaiBM=",
+    "originContent": "    attr_accessor age: Integer",
+    "translatedContent": "    attr_accessor age: Integer"
+  },
+  {
+    "row": 176,
+    "rowsha": "SNNEvL0VmogGoy/zRyjZEOiUaGkA2VqmSA26jTm2p+o=",
+    "originContent": "  end",
+    "translatedContent": "  end"
+  },
+  {
+    "row": 177,
+    "rowsha": "Nh5I0DCPIOMtul+1Yyi68Y1y7wzLQ7hPXCYtKmofxsg=",
+    "originContent": "end",
+    "translatedContent": "end"
+  },
+  {
+    "row": 178,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "4VcLDTbvmEwfjXzw+HmIL44Em4UR4KXmcuc1UO5MHvU=",
+    "originContent": "## Things to be aware of",
+    "translatedContent": "## 注意点"
+  },
+  {
+    "row": 181,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "QkWD6/3OkYF30JsDhyhOmTYZt8aTfqP95c3TPUxYX3c=",
+    "originContent": "The general rule of thumb for type conversions is:",
+    "translatedContent": "型変換の一般的なルールは以下の通りです："
+  },
+  {
+    "row": 183,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 184,
+    "rowsha": "YjVzWw2E5zh+xXYSYmXfIaPnOJfDfJPMGGqZcsrPw+c=",
+    "originContent": "  - If Sord understands the YARD type, then it is converted into the RBI or RBS",
+    "translatedContent": "  - SordがYARDの型を理解できる場合、それはRBIまたはRBSの型に変換されます。"
+  },
+  {
+    "row": 185,
+    "rowsha": "vK2+551dO9zOFPPhIEtCdCgUjyx0Fk3yHh/qfaUdUhg=",
+    "originContent": "    type.",
+    "translatedContent": "  - YARDの型が存在しない場合、Sordは`T.untyped`を補います。"
+  },
+  {
+    "row": 186,
+    "rowsha": "37m8TVjZOtQrVDkuJNRKGQ8rKVMH2Qd+pGhSXrYnf1g=",
+    "originContent": "  - If the YARD type is missing, Sord fills in `T.untyped`.",
+    "translatedContent": "  - YARDの型が理解できない場合、Sordは未知のYARD型に似た名前の未定義Ruby定数を作成します。例えば、明らかに無効なYARD型`A%B`は`SORD_ERROR_AB`という定数になります。生成されたファイル内で`SORD_ERROR`を検索し、修正してください。"
+  },
+  {
+    "row": 187,
+    "rowsha": "OdLfCfnHcFjZVwRiShJjacQ+m/7mXM3jY/8SearV7DE=",
+    "originContent": "  - If the YARD type can't be understood, Sord creates an undefined Ruby constant",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "YoWUUNGTwb7hdyUlfEujP0gdSz+QHaUlfnPlkVnTpF4=",
+    "originContent": "    with a similar name to the unknown YARD type. For example, the obviously",
+    "translatedContent": "## 貢献について"
+  },
+  {
+    "row": 189,
+    "rowsha": "Nwsu2NwnYeK9gvzbciIYcLsGq3eUkI3KeedJ8HYgS5M=",
+    "originContent": "    invalid YARD type `A%B` will become a constant called `SORD_ERROR_AB`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "gN1gmHYVhWvOHifWhw0slHsVRgZ2PrVjdFGggQPhW/E=",
+    "originContent": "    You should search through your resulting file to find and fix and ",
+    "translatedContent": "バグ報告やプルリクエストはGitHubの https://github.com/AaronC81/sord で歓迎します。このプロジェクトは安全で歓迎的な共同作業の場を目指しており、貢献者は[Contributor Covenant](http://contributor-covenant.org)の行動規範を遵守することが期待されています。"
+  },
+  {
+    "row": 191,
+    "rowsha": "q9PJXItHZzFTBeoqymomyIe1Rx2CTBvg9UE1rYzdfrc=",
+    "originContent": "    `SORD_ERROR`s.",
+    "translatedContent": ""
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "貢献中にSordの変更結果を確認したい場合は、`examples:seed` Rakeタスクを使用できます。このタスクはSordを使って、Bundler、Haml、Rouge、RSpecなどの複数のオープンソースRuby gemの型を生成します。`rake examples:seed`（ファイルを再生成するには`rake examples:reseed`）は、これらのgemのリポジトリを`sord_examples/`にクローンし、同じディレクトリにファイルを生成します。"
+  },
+  {
+    "row": 193,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 195,
+    "rowsha": "FBajwnqHajo/Y6rU65ESJBdRC7g0cbBneBFZEGzuuKA=",
+    "originContent": "Bug reports and pull requests are welcome on GitHub at https://github.com/AaronC81/sord. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このgemは[MITライセンス](https://opensource.org/licenses/MIT)の条件のもとオープンソースとして提供されています。"
+  },
+  {
+    "row": 197,
+    "rowsha": "PykfBKIiHHdpAGZ2CzJPQGgcYZeoLXVtWAId4OlKbVc=",
+    "originContent": "While contributing, if you want to see the results of your changes to Sord you",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "rZz8BIud1j0z4AoVlWyatQrD1sibBZRBboX7uV9b2kw=",
+    "originContent": "can use the `examples:seed` Rake task. The task uses Sord to generate types for",
+    "translatedContent": "## 行動規範"
+  },
+  {
+    "row": 199,
+    "rowsha": "E9iioGKOI7WrX9g59xUWZkuKVFC8AkRppg/rr79KZpM=",
+    "originContent": "a number of open source Ruby gems, including Bundler, Haml, Rouge, and RSpec.",
+    "translatedContent": ""
+  },
+  {
+    "row": 200,
+    "rowsha": "0W4JlzC2E4IGgXOIGn0vC8IXkQIcIVY+JxOwfWnpA6s=",
+    "originContent": "`rake examples:seed` (and `rake examples:reseed` to regenerate the files) will",
+    "translatedContent": "Sordプロジェクトのコードベース、イシュートラッカー、チャットルーム、メーリングリストに関わるすべての人は、[行動規範](https://github.com/AaronC81/sord/blob/master/CODE_OF_CONDUCT.md)を遵守することが期待されています。"
+  },
+  {
+    "row": 201,
+    "rowsha": "2FCuWW0eSXbJFKK+xMaLgyk+EmwRAKsnovb0NcN2Aso=",
+    "originContent": "clone the repositories of these gems into `sord_examples/` and then generate the",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "zolnCSdW4OjAc5ns5COMwPWFQFKFmbUvNHIOPuqEGSQ=",
+    "originContent": "files into the same directory.",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "XAehVsKk2bNFEHLgcUIa10t2JjIrMEEFCr8gk8FvIhc=",
+    "originContent": "The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).",
+    "translatedContent": ""
+  },
+  {
+    "row": 207,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "a2NKwVCedKLDuP9rtxwV5qmQmdm5DK2nFoQfOTn/ZT0=",
+    "originContent": "## Code of Conduct",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 210,
+    "rowsha": "1ivGHI9EC1TjMDh+W5XHaNjsf3yqlzYsUhmuQ6nyN/4=",
+    "originContent": "Everyone interacting in the Sord project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/AaronC81/sord/blob/master/CODE_OF_CONDUCT.md).",
+    "translatedContent": ""
+  },
+  {
+    "row": 211,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

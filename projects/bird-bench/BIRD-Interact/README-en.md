@@ -56,15 +56,26 @@
   </a>
 </div>
 
-## News
-- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug where, during phase-2 SQL evaluation, the stored phase-1 SQL could not be successfully executed, resulting in a lower Phase-2 success rate. This bug only affects tasks where phase1 SQL performs operations on the database, such as CREATE table, etc.
+## 📰 News
+
+- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  
+It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  
+👉 For more details, please visit our [project website](https://bird-interact.github.io/).
+
+- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  
+If you want early access, please send an email as instructed on the site for an **automatic download**.  
+
+- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  
+The full **LiveSQLBench-Base** and **-Large** versions are coming soon!
+
+- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.
 
 ## 🧸 Overview
 
-BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via the lens of dynamic interactions**.
-The environment integrates a hierarchical knowledge base, database documentation, and a function-driven user simulator to recreate realistic enterprise environments covering full **CRUD** operations.
-It provides two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations, etc., each protected by executable test cases.
-Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, highlighting the benchmark's challenge.
+BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.
+The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.
+It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.
+Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png" 
@@ -73,15 +84,15 @@ Typical evaluations trigger 1,968-5,496 interaction turns between model and user
 
 ### ✅ Two Evaluation Modes
 
-BIRD-INTERACT supports two evaluation modes as described above:
+BIRD-INTERACT supports two evaluation modes as mentioned above:
 
-   - **c-Interact**: Conversational Interaction, which is a passive mode with a fixed workflow. The code and more details can be found in `bird_interact_conv`.
-   - **a-Interact**: Agentic Interaction, which is an embodied active mode where the workflow is dynamic and led by models. The code and more details can be found in `bird_interact_agent`.
+   - **c-Interact**: Conversational Interaction, which is a passive mode with a fixed workflow. The code and detailed information can be found in `bird_interact_conv`.
+   - **a-Interact**: Agentic Interaction, which is an embodied active mode where the workflow is dynamic and model-driven. The code and detailed information can be found in `bird_interact_agent`.
 
 
 ### 🐣 Lite Version
 
-We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation.
+We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. 
 
 ### 🦜 Full Version
 
@@ -126,30 +137,30 @@ Interaction-Time Scaling (ITS) refers to a model's ability to continuously incre
 
 ### Dataset Description
 
-- **Database:** The complete PostgreSQL database can be downloaded from [the Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Check the [Quick Eval](#quick-eval) section for more details.
-- **data:** Each data instance contains the following main parts:
+- **Database:** The complete PostgreSQL database can be download from [the Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Check the [Quick Eval](#quick-eval) section for more details.
+- **data:** Each data instance contain the following main parts:
    - `selected_database`: The name of the database.  
    - `query`: The unambiguous user query.  
    - `amb_user_query`: The user query with injected ambiguities.
    - `user_query_ambiguity`: The ambiguities injected into the user query.
    - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.
-   - `knowledge_ambiguity`: The ambiguities created by masked external knowledge. 
+   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. 
    - `sol_sql`: The ground truth SQL solution.  
    - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  
    - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  
    - `test_cases`: A set of test cases to validate the predicted corrected SQL.
-   - `follow_up`: The labeled follow-up questions.
+   - `follow_up`: The labeled follow up questions.
    - `external_knowledge`: The external knowledge related to the specific task.
 
 - **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.
 - **Curated by:** BIRD Team & Google Cloud
-- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa-4.0/)
 - **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)
 
 ### Dataset Uses
 
-To prevent data leakage by auto-crawling, we do not include GT solution SQLs and test cases along with the data.
-please email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) with the tag `[bird-interact-lite GT&Test Cases]` in the title for the full set, which will be sent automatically.
+To avoid data leakage by auto-crawling, we do not include GT solution SQLs and test cases along with the data.
+Please email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) with the tag `[bird-interact-lite GT&Test Cases]` in the title for the full set, which will be sent automatically.
 
 
 <!-- ### Use the Dataset from HuggingFace
@@ -198,33 +209,23 @@ python pull_data.py \
 ```
 The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; and **c-interact** can be found in `./bird_interact_conv/README.md`.
 
-## 📰 News
-
-🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  
-It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  
-👉 For more details, please visit our [project website](https://bird-interact.github.io/).
-
-📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  
-If you want early access, please send an email as instructed on the site for an **automatic download**.  
-
-💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  
-The full **LiveSQLBench-Base** and **-Large** versions are coming soon!
-
 ## 📋 Todo Lists
 
 - [x] Release lite version, bird-interact-lite (270).
 - [x] Release conversational version, bird-interact-conv.
 - [x] Release agent version, bird-interact-agent.
 - [x] Release Full bird-interact-full (600).
-- [ ] SFT / RL an User Simulator
+- [ ] SFT / RL a User Simulator
 
 ## Created By:
 BIRD Team & Google Cloud
 
 
 
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-30
 
 ---

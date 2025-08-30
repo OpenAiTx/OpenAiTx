@@ -1,0 +1,376 @@
+[
+  {
+    "Id": 1,
+    "Content": "# RISC-V Vector benchmark\n\nA collection of RISC-V Vector (RVV) benchmarks to help developers write portably performant RVV code.\n\nBenchmark results can be found at: https://camel-cdr.github.io/rvv-bench-results\n\n## Benchmarks ([./bench/](./bench/))\n\nContains a bunch of benchmark of different implementations of certain algorithms.\n\n## Instruction cycle count ([./instructions/](./instructions/))\n\nMeasures the cycle count of RVV instructions by unrolling and looping over the given instruction repeatedly.\n\n## Getting started\n\nStart by configuring [./config.mk](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./config.mk), such that `make` works and optionally [./run.sh](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./run.sh), which allows you to compile and run using `make run`.\n\nThe default configuration should work with all recent clang builds and doesn't require a full cross compilation toolchain, because it builds in freestanding mode.\nThis means it will only work on linux, or linux syscall compatible OS.\n\nOn recent linux versions, the performance counters aren't exposed by default, you may have to execute `echo 2 >/proc/sys/kernel/perf_user_access` and append `-DUSE_PERF_EVENT` to the `CFLAGS=...` line in [./config.mk](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./config.mk) (if that doesn't work, try `-DUSE_PERF_EVENT_SLOW` instead).\n\nYou can configure [./config.mk](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./config.mk) to build a hosted build or configure it with your custom toolchain, add the `-DCUSTOM_HOST` define, and implement the unimplemented functions under `#ifdef CUSTOM_HOST` in [./nolibc.h](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./nolibc.h).\n\nXTheadVector isn't supported anymore.\n\n### Running benchmarks ([./bench/](./bench/))\n\nTo run the benchmarks, first look through ([./bench/config.h](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./bench/config.h)) and adjust it to your processor (e.g. set `HAS_E64`). If it takes too long to execute, try lowering `MAX_MEM`, which is used to scale the benchmark, and play around with the other constants until it executes in a reasonable amount of time and gives a relatively smooth graph.\n\nNow you can just run the benchmarks using `make run` in the ([./bench/](./bench/)) directory, or `make` to just build the executables.\n\n### Measuring cycle count ([./instructions/](./instructions/))\n\nTo run the cycle count measurement, first configure [instructions/rvv/config.h](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/instructions/rvv/config.h) to your processor.\n\nNow you can run the measurement using `make run` in the ([./instructions/rvv/](./instructions/rvv/)) directory, or `make` to just build the executables.\n\nFor XTheadVector use the ([./instructions/xtheadvector/](./instructions/xtheadvector/)) directory instead. (this isn't maintained anymore)",
+    "ContentSha": "Nn3cvjgTp7tMYRR85kLRjeFSVm+jUplVlEuOiOBmEV8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Benchmark de vectores RISC-V\n\nUna colección de benchmarks de vectores RISC-V (RVV) para ayudar a los desarrolladores a escribir código RVV portátil y eficiente.\n\nLos resultados de los benchmarks pueden encontrarse en: https://camel-cdr.github.io/rvv-bench-results\n\n## Benchmarks ([./bench/](./bench/))\n\nContiene varios benchmarks de diferentes implementaciones de ciertos algoritmos.\n\n## Conteo de ciclos por instrucción ([./instructions/](./instructions/))\n\nMide el conteo de ciclos de las instrucciones RVV desenrollando y ejecutando en bucle la instrucción dada repetidamente.\n\n## Primeros pasos\n\nComienza configurando [./config.mk](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./config.mk), de modo que `make` funcione y opcionalmente [./run.sh](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./run.sh), que te permite compilar y ejecutar usando `make run`.\n\nLa configuración por defecto debería funcionar con todas las compilaciones recientes de clang y no requiere una cadena de herramientas de compilación cruzada completa, porque se compila en modo freestanding.\nEsto significa que solo funcionará en Linux, o en sistemas operativos compatibles con las llamadas al sistema de Linux.\n\nEn versiones recientes de Linux, los contadores de rendimiento no están expuestos por defecto, puede que tengas que ejecutar `echo 2 >/proc/sys/kernel/perf_user_access` y añadir `-DUSE_PERF_EVENT` a la línea `CFLAGS=...` en [./config.mk](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./config.mk) (si eso no funciona, prueba con `-DUSE_PERF_EVENT_SLOW` en su lugar).\n\nPuedes configurar [./config.mk](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./config.mk) para construir una compilación alojada o configurarlo con tu cadena de herramientas personalizada, añade la definición `-DCUSTOM_HOST` e implementa las funciones no implementadas bajo `#ifdef CUSTOM_HOST` en [./nolibc.h](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./nolibc.h).\n\nXTheadVector ya no está soportado.\n\n### Ejecutando benchmarks ([./bench/](./bench/))\n\nPara ejecutar los benchmarks, primero revisa ([./bench/config.h](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./bench/config.h)) y ajústalo a tu procesador (p. ej. configura `HAS_E64`). Si tarda demasiado en ejecutarse, intenta bajar `MAX_MEM`, que se usa para escalar el benchmark, y prueba con las otras constantes hasta que se ejecute en un tiempo razonable y proporcione un gráfico relativamente suave.\n\nAhora puedes simplemente ejecutar los benchmarks usando `make run` en el directorio ([./bench/](./bench/)), o `make` para solo compilar los ejecutables.\n\n### Midiendo el conteo de ciclos ([./instructions/](./instructions/))\n\nPara ejecutar la medición de conteo de ciclos, primero configura [instructions/rvv/config.h](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/instructions/rvv/config.h) para tu procesador.\n\nAhora puedes ejecutar la medición usando `make run` en el directorio ([./instructions/rvv/](./instructions/rvv/)), o `make` para solo compilar los ejecutables.\n\nPara XTheadVector usa el directorio ([./instructions/xtheadvector/](./instructions/xtheadvector/)) en su lugar. (esto ya no se mantiene)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ORHkZy1aZEOTqS4/AqneAQ8W2kXn7ZXQinKydUXb/Yw=",
+        "originContent": "# RISC-V Vector benchmark",
+        "translatedContent": "# Benchmark de vectores RISC-V"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "FSmW3ivRY3MYq56AmMpjtwQdkSsBIjG1lqQmf9TmcUE=",
+        "originContent": "A collection of RISC-V Vector (RVV) benchmarks to help developers write portably performant RVV code.",
+        "translatedContent": "Una colección de benchmarks de vectores RISC-V (RVV) para ayudar a los desarrolladores a escribir código RVV portátil y eficiente."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "0vhtGt+ZlgXOgITSo1iF9LMqLelNoJY5HzfAdM6RRK4=",
+        "originContent": "Benchmark results can be found at: https://camel-cdr.github.io/rvv-bench-results",
+        "translatedContent": "Los resultados de los benchmarks pueden encontrarse en: https://camel-cdr.github.io/rvv-bench-results"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "atAsnd+Imf0Koh1YsWCDB/sFMv4GpkEVu02FPmK1uUo=",
+        "originContent": "## Benchmarks ([./bench/](./bench/))",
+        "translatedContent": "## Benchmarks ([./bench/](./bench/))"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "PK4CnG++cvbZvYpzuLgBC3ZxlkREiGexDmwmjfeSTpk=",
+        "originContent": "Contains a bunch of benchmark of different implementations of certain algorithms.",
+        "translatedContent": "Contiene varios benchmarks de diferentes implementaciones de ciertos algoritmos."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "3YmBfYhdK+HTo06a7dQjEUfuVFNie/N7lyWzciDDsQc=",
+        "originContent": "## Instruction cycle count ([./instructions/](./instructions/))",
+        "translatedContent": "## Conteo de ciclos por instrucción ([./instructions/](./instructions/))"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "AMmALKgqh75UryFWjmXdWs+tY4aYNF5eSdQj3c7aihU=",
+        "originContent": "Measures the cycle count of RVV instructions by unrolling and looping over the given instruction repeatedly.",
+        "translatedContent": "Mide el conteo de ciclos de las instrucciones RVV desenrollando y ejecutando en bucle la instrucción dada repetidamente."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "eetlngBf9IRRYZknBdo+Zo5q71Wk5hbFmnHDAzfrtps=",
+        "originContent": "## Getting started",
+        "translatedContent": "## Primeros pasos"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "RATqtRwnHlBfbneNgql/2Fludl4qUf7zGgLPqvLpT+k=",
+        "originContent": "Start by configuring [./config.mk](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./config.mk), such that `make` works and optionally [./run.sh](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./run.sh), which allows you to compile and run using `make run`.",
+        "translatedContent": "Comienza configurando [./config.mk](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./config.mk), de modo que `make` funcione y opcionalmente [./run.sh](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./run.sh), que te permite compilar y ejecutar usando `make run`."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "MhZZ7phZTBX2DGWuxewP3StXIx2hJgYfylpZkhLVVL0=",
+        "originContent": "The default configuration should work with all recent clang builds and doesn't require a full cross compilation toolchain, because it builds in freestanding mode.",
+        "translatedContent": "La configuración por defecto debería funcionar con todas las compilaciones recientes de clang y no requiere una cadena de herramientas de compilación cruzada completa, porque se compila en modo freestanding."
+      },
+      {
+        "row": 20,
+        "rowsha": "FJ+maq7xiFb21vAVXU0ficI4xVZC/fXbijKeMvZ/7zg=",
+        "originContent": "This means it will only work on linux, or linux syscall compatible OS.",
+        "translatedContent": "Esto significa que solo funcionará en Linux, o en sistemas operativos compatibles con las llamadas al sistema de Linux."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "OuTaq2UdZvS6857Cil8hZ+glV8F4w7yOnWmUYSZaRqw=",
+        "originContent": "On recent linux versions, the performance counters aren't exposed by default, you may have to execute `echo 2 >/proc/sys/kernel/perf_user_access` and append `-DUSE_PERF_EVENT` to the `CFLAGS=...` line in [./config.mk](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./config.mk) (if that doesn't work, try `-DUSE_PERF_EVENT_SLOW` instead).",
+        "translatedContent": "En versiones recientes de Linux, los contadores de rendimiento no están expuestos por defecto, puede que tengas que ejecutar `echo 2 >/proc/sys/kernel/perf_user_access` y añadir `-DUSE_PERF_EVENT` a la línea `CFLAGS=...` en [./config.mk](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./config.mk) (si eso no funciona, prueba con `-DUSE_PERF_EVENT_SLOW` en su lugar)."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "wUQRkKYbx9qCypZK4u3lwuJyLpsdvBV9bdz/QgdHrmM=",
+        "originContent": "You can configure [./config.mk](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./config.mk) to build a hosted build or configure it with your custom toolchain, add the `-DCUSTOM_HOST` define, and implement the unimplemented functions under `#ifdef CUSTOM_HOST` in [./nolibc.h](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./nolibc.h).",
+        "translatedContent": "Puedes configurar [./config.mk](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./config.mk) para construir una compilación alojada o configurarlo con tu cadena de herramientas personalizada, añade la definición `-DCUSTOM_HOST` e implementa las funciones no implementadas bajo `#ifdef CUSTOM_HOST` en [./nolibc.h](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./nolibc.h)."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "QRFDvlLEfnqVJ7RdOPfbJ9BdOg2Q3B8Y00dVWWStkx4=",
+        "originContent": "XTheadVector isn't supported anymore.",
+        "translatedContent": "XTheadVector ya no está soportado."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "pq/plj5gqTE4Q0XCTVhuV7298OqC731xEj7r6fR+2AA=",
+        "originContent": "### Running benchmarks ([./bench/](./bench/))",
+        "translatedContent": "### Ejecutando benchmarks ([./bench/](./bench/))"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "1k6Axz94UWWc0Bsegctd7ts37gcdhTKiyvQz8YS8+cM=",
+        "originContent": "To run the benchmarks, first look through ([./bench/config.h](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./bench/config.h)) and adjust it to your processor (e.g. set `HAS_E64`). If it takes too long to execute, try lowering `MAX_MEM`, which is used to scale the benchmark, and play around with the other constants until it executes in a reasonable amount of time and gives a relatively smooth graph.",
+        "translatedContent": "Para ejecutar los benchmarks, primero revisa ([./bench/config.h](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/./bench/config.h)) y ajústalo a tu procesador (p. ej. configura `HAS_E64`). Si tarda demasiado en ejecutarse, intenta bajar `MAX_MEM`, que se usa para escalar el benchmark, y prueba con las otras constantes hasta que se ejecute en un tiempo razonable y proporcione un gráfico relativamente suave."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "uOlVPPF/VE+7OKIaFzxzy/DF4alRHNigKLxiGwlBJEo=",
+        "originContent": "Now you can just run the benchmarks using `make run` in the ([./bench/](./bench/)) directory, or `make` to just build the executables.",
+        "translatedContent": "Ahora puedes simplemente ejecutar los benchmarks usando `make run` en el directorio ([./bench/](./bench/)), o `make` para solo compilar los ejecutables."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "3P6meKSCPE5J4W3ClsBBwKPoV14SH3bmeDNEJJs3d+k=",
+        "originContent": "### Measuring cycle count ([./instructions/](./instructions/))",
+        "translatedContent": "### Midiendo el conteo de ciclos ([./instructions/](./instructions/))"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "okN6ed2j+2Y8j5TB2iibQQOnTeJelgsF3a7jGOVVEhQ=",
+        "originContent": "To run the cycle count measurement, first configure [instructions/rvv/config.h](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/instructions/rvv/config.h) to your processor.",
+        "translatedContent": "Para ejecutar la medición de conteo de ciclos, primero configura [instructions/rvv/config.h](https://raw.githubusercontent.com/camel-cdr/rvv-bench/main/instructions/rvv/config.h) para tu procesador."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "MHva9rFWPs7Y64Pjrls/VBT5wsSQwOmCqcUucjCGWBQ=",
+        "originContent": "Now you can run the measurement using `make run` in the ([./instructions/rvv/](./instructions/rvv/)) directory, or `make` to just build the executables.",
+        "translatedContent": "Ahora puedes ejecutar la medición usando `make run` en el directorio ([./instructions/rvv/](./instructions/rvv/)), o `make` para solo compilar los ejecutables."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "dq8cZCLUwsRTjkkYqYw2+RWdxFEo11yoUoZqau9HvyA=",
+        "originContent": "For XTheadVector use the ([./instructions/xtheadvector/](./instructions/xtheadvector/)) directory instead. (this isn't maintained anymore)",
+        "translatedContent": "Para XTheadVector usa el directorio ([./instructions/xtheadvector/](./instructions/xtheadvector/)) en su lugar. (esto ya no se mantiene)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n## Contributing\n\nHere are some suggestions of things that still need to be done.\n\n* contribute a measurement of a new CPU to: https://github.com/camel-cdr/rvv-bench-results \\\n  You can just create an issue with a single json file, which contains all concatenated [./bench/](./bench/) results. (after proper setup, `make run > out.json` should do the trick). \\\n* implement non memory bound benchmarks\n* implement more benchmarks\n* better cycle count measurements: throughput vs latency (also: can we figure out the execution port configuration?)\n* cycle count for load/stores\n* cycle count for vsetvl\n\n## License\n\nThis repository is licensed under the MIT [LICENSE](LICENSE).\n\n",
+    "ContentSha": "O6MHXXQB5RqhuHrx9R6kVjC2WwrnmUl6du+t6zCtow4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Contribuyendo\n\nAquí hay algunas sugerencias de cosas que aún deben hacerse.\n\n* contribuir con una medición de una nueva CPU en: https://github.com/camel-cdr/rvv-bench-results \\\n  Puedes simplemente crear un issue con un solo archivo json, que contenga todos los resultados concatenados de [./bench/](./bench/). (después de la configuración adecuada, `make run > out.json` debería funcionar). \\\n* implementar benchmarks no limitados por memoria\n* implementar más benchmarks\n* mejores mediciones del conteo de ciclos: rendimiento vs latencia (también: ¿podemos determinar la configuración del puerto de ejecución?)\n* conteo de ciclos para cargas/almacenamientos\n* conteo de ciclos para vsetvl\n\n## Licencia\n\nEste repositorio está licenciado bajo la MIT [LICENSE](LICENSE).\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Contribuyendo"
+      },
+      {
+        "row": 2,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Aquí hay algunas sugerencias de cosas que aún deben hacerse."
+      },
+      {
+        "row": 4,
+        "rowsha": "qY/ETJS2ixFUyg30/IJDyi8g8WvYoZDhUk09CR/No3k=",
+        "originContent": "Here are some suggestions of things that still need to be done.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* contribuir con una medición de una nueva CPU en: https://github.com/camel-cdr/rvv-bench-results \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "xE/r3EAKCIliSuFWjm0sUAfnXhhwCRu2HsbJqS9RdCE=",
+        "originContent": "* contribute a measurement of a new CPU to: https://github.com/camel-cdr/rvv-bench-results \\",
+        "translatedContent": "  Puedes simplemente crear un issue con un solo archivo json, que contenga todos los resultados concatenados de [./bench/](./bench/). (después de la configuración adecuada, `make run > out.json` debería funcionar). \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "xoSG9N0qa4hiqyPdJJeyJoXd7g/sqJVYxTo6tUZsFtE=",
+        "originContent": "  You can just create an issue with a single json file, which contains all concatenated [./bench/](./bench/) results. (after proper setup, `make run > out.json` should do the trick). \\",
+        "translatedContent": "* implementar benchmarks no limitados por memoria"
+      },
+      {
+        "row": 8,
+        "rowsha": "yT6iwcWiQsSpos2Q+/4m6nTcwthVciNSQmozzlk4aI4=",
+        "originContent": "* implement non memory bound benchmarks",
+        "translatedContent": "* implementar más benchmarks"
+      },
+      {
+        "row": 9,
+        "rowsha": "QFwgp1N3p+8fohBHFjhKAlSBOJ8GOH88jodQwVpUHsk=",
+        "originContent": "* implement more benchmarks",
+        "translatedContent": "* mejores mediciones del conteo de ciclos: rendimiento vs latencia (también: ¿podemos determinar la configuración del puerto de ejecución?)"
+      },
+      {
+        "row": 10,
+        "rowsha": "MlzK0xJ4PogmG/VcU7h8DKcqEXnZ8UKzoXGs3FAytxM=",
+        "originContent": "* better cycle count measurements: throughput vs latency (also: can we figure out the execution port configuration?)",
+        "translatedContent": "* conteo de ciclos para cargas/almacenamientos"
+      },
+      {
+        "row": 11,
+        "rowsha": "6KnPE9TQgqJNz+Ieg6+CBYw3XipmrFINEpvAEoulWuk=",
+        "originContent": "* cycle count for load/stores",
+        "translatedContent": "* conteo de ciclos para vsetvl"
+      },
+      {
+        "row": 12,
+        "rowsha": "9Iv85q1v+dIdR5osJ30VNVRHh8a/ZgUlbQ1t1WbvSU4=",
+        "originContent": "* cycle count for vsetvl",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Licencia"
+      },
+      {
+        "row": 14,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Este repositorio está licenciado bajo la MIT [LICENSE](LICENSE)."
+      },
+      {
+        "row": 16,
+        "rowsha": "ICc4Vy1/+XdoO5LcZNVtAYO6qdFgMziQHTgyb6OU4IE=",
+        "originContent": "This repository is licensed under the MIT [LICENSE](LICENSE).",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

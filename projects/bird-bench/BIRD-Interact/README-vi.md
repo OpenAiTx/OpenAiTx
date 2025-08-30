@@ -56,66 +56,77 @@
   </a>
 </div>
 
-## Tin tức
-- [2025-08-22] **Sửa lỗi**: Trong mã Bird-Interact-Agent, chúng tôi đã sửa một lỗi khi đánh giá SQL giai đoạn 2, SQL giai đoạn 1 được lưu trữ không thể thực thi thành công, dẫn đến tỷ lệ thành công của Giai đoạn 2 thấp hơn. Lỗi này chỉ ảnh hưởng đến các tác vụ mà sql giai đoạn 1 thực hiện một số thao tác trên cơ sở dữ liệu, ví dụ: CREATE table, v.v.
+## 📰 Tin tức
+
+- [2025-08-26] 🚀 Chúng tôi rất vui mừng thông báo ra mắt bộ **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
+Đây là một bộ rất khó — các mô hình LLM tốt nhất chỉ đạt tỷ lệ thành công **16.33%**, với chỉ **10.0%** ở phần `c-interact` và `a-interact`.  
+👉 Để biết thêm chi tiết, hãy truy cập [trang web dự án](https://bird-interact.github.io/).
+
+- [2025-08-26] 📬 Chúng tôi sẽ gửi **Ground Truth & Test cases** đến danh sách email của mình trong tuần này.  
+Nếu bạn muốn truy cập sớm, vui lòng gửi email theo hướng dẫn trên trang để nhận **tải về tự động**.  
+
+- [2025-08-26] 💾 Ngoài ra, chúng tôi cũng đã phát hành phiên bản SQLite của **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** để thuận tiện nghiên cứu cục bộ.  
+Các phiên bản đầy đủ **LiveSQLBench-Base** và **-Large** sẽ ra mắt sớm!
+
+- [2025-08-22] **Sửa lỗi**: Trong mã Bird-Interact-Agent, chúng tôi đã sửa lỗi khi đánh giá SQL giai đoạn 2, SQL giai đoạn 1 được lưu trữ không thực thi thành công, dẫn đến tỷ lệ thành công thấp hơn ở Giai đoạn 2. Lỗi này chỉ ảnh hưởng đến các tác vụ mà sql giai đoạn 1 thực hiện thao tác trên cơ sở dữ liệu, ví dụ: CREATE table, v.v.
 
 ## 🧸 Tổng quan
 
-BIRD-INTERACT là một bộ đánh giá text-to-SQL tương tác, **tái hiện việc đánh giá Text-to-SQL thông qua góc nhìn của các tương tác động**.
-Môi trường kết hợp một cơ sở tri thức phân cấp, tài liệu cơ sở dữ liệu và mô phỏng người dùng dựa trên chức năng để tái tạo môi trường doanh nghiệp thực tế với đầy đủ thao tác **CRUD**.
-Nó cung cấp hai chế độ kiểm tra nghiêm ngặt: (1) **Tương tác hội thoại** thụ động và (2) **Tương tác đại lý** chủ động, bao gồm 600 tác vụ được chú thích như Phân tích kinh doanh (BI), thao tác CRUD, v.v., mỗi tác vụ đều có các trường hợp kiểm thử thực thi được bảo vệ.
-Đánh giá thông thường kích hoạt 1.968-5.496 lượt tương tác giữa mô hình và mô phỏng người dùng, trong khi các mô hình lý luận tiên tiến hiện nay chỉ giải được **≈24%** và **≈18%** tác vụ, cho thấy thử thách của bộ đánh giá này.
+BIRD-INTERACT, một bộ tiêu chuẩn đánh giá text-to-SQL tương tác, **tái định nghĩa việc đánh giá Text-to-SQL qua lăng kính tương tác động**.
+Môi trường kết hợp cơ sở tri thức phân cấp, tài liệu cơ sở dữ liệu và trình mô phỏng người dùng theo chức năng để tái tạo môi trường doanh nghiệp thực tế trên toàn bộ thao tác **CRUD**.
+Nó cung cấp hai chế độ kiểm tra nghiêm ngặt: (1) **Tương tác Hội thoại** thụ động và (2) **Tương tác Tác nhân** chủ động, bao gồm 600 tác vụ được chú thích như BI, thao tác CRUD và các loại khác, mỗi tác vụ đều được bảo vệ bởi các trường hợp kiểm thử thực thi.
+Đánh giá điển hình kích hoạt 1.968-5.496 lượt tương tác giữa mô hình và trình mô phỏng người dùng, trong khi các mô hình lý luận tiên tiến hiện chỉ giải được **≈24%** và **≈18%** tác vụ, nhấn mạnh độ khó của bộ tiêu chuẩn này.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png" 
        style="width: 100%; min-width: 100px; display: block; margin: auto; ">
 </p>
 
-### ✅ Hai chế độ đánh giá
+### ✅ Hai Chế Độ Đánh Giá
 
 BIRD-INTERACT hỗ trợ hai chế độ đánh giá như đã đề cập ở trên:
 
-   - **c-Interact**: Tương tác hội thoại là chế độ thụ động và quy trình làm việc cố định. Mã nguồn và thông tin chi tiết có thể tìm thấy trong `bird_interact_conv`.
-   - **a-Interact**: Tương tác đại lý là chế độ chủ động nhập vai, quy trình làm việc động và do mô hình dẫn dắt. Mã nguồn và thông tin chi tiết có thể tìm thấy trong `bird_interact_agent`.
+   - **c-Interact**: Tương tác hội thoại là chế độ thụ động và quy trình làm việc cố định. Mã nguồn và thông tin chi tiết có thể tìm thấy ở `bird_interact_conv`.
+   - **a-Interact**: Tương tác đại lý là chế độ chủ động, quy trình làm việc động và do các mô hình dẫn dắt. Mã nguồn và thông tin chi tiết có thể tìm thấy ở `bird_interact_agent`.
 
 
-### 🐣 Phiên bản Lite
+### 🐣 Phiên Bản Rút Gọn
 
-Chúng tôi phát hành phiên bản nhẹ của BIRD-INTERACT, `bird-interact-lite-exp`, bao gồm 270 tác vụ thực tế chất lượng cao dành riêng cho PostgreSQL. Đây là điểm khởi đầu tốt để thử nghiệm nhanh.
+Chúng tôi phát hành phiên bản rút gọn của BIRD-INTERACT, `bird-interact-lite-exp`, gồm 270 nhiệm vụ thực tế chất lượng cao dành riêng cho PostgreSQL. Đây là lựa chọn tốt để thử nghiệm nhanh chóng.
 
-### 🦜 Phiên bản Đầy Đủ
+### 🦜 Phiên Bản Đầy Đủ
 
-Phiên bản đầy đủ của BIRD-INTERACT, `bird-interact-full`, là bộ kiểm thử toàn diện gồm 600 tác vụ cho PostgreSQL. Nó bao phủ nhiều loại thao tác SQL và truy vấn người dùng. Phiên bản đầy đủ sẽ sớm ra mắt.
+Phiên bản đầy đủ của BIRD-INTERACT, `bird-interact-full`, là bộ đánh giá toàn diện gồm 600 nhiệm vụ cho PostgreSQL. Nó bao phủ đa dạng các thao tác SQL và truy vấn người dùng. Phiên bản đầy đủ sẽ ra mắt sớm.
 
-### Kết quả Hiệu năng Mô hình trên BIRD-INTERACT Lite
+### Kết Quả Hiệu Năng Mô Hình Trên BIRD-INTERACT Lite
 
-#### 1. Hiệu năng **c-Interact**
-| Xếp hạng | Tên Mô hình       | Điểm Thưởng Chuẩn hóa | Cấp độ          |
+#### 1. Hiệu Năng **c-Interact**
+| Xếp hạng | Tên mô hình      | Điểm thưởng chuẩn hóa | Mức độ            |
 |:------:|--------------------|:-------:|:--------------:|
-| 1    | o3-mini            | 33.04 | 🏆 Chat Xuất sắc |
-| 2    | GPT-4o             | 30.33 | 💎 Chat Tốt      |
-| 3    | Gemini-2.0-flash   | 27.41 | 💎 Chat Tốt      |
-| 4    | Claude-3.7-sonnet  | 26.60 | ✨ Chuẩn         |
-| 5    | DeepSeek-R1        | 21.74 | ✨ Chuẩn         |
-| 6    | Qwen3              | 20.33 | ⚪ Cơ bản         |
-| 7    | DeepSeek-V3        | 15.85 | ⚪ Cơ bản         |
+| 1    | o3-mini            | 33.04 | 🏆 Hội thoại xuất sắc |
+| 2    | GPT-4o             | 30.33 | 💎 Hội thoại tốt      |
+| 3    | Gemini-2.0-flash   | 27.41 | 💎 Hội thoại tốt      |
+| 4    | Claude-3.7-sonnet  | 26.60 | ✨ Tiêu chuẩn         |
+| 5    | DeepSeek-R1        | 21.74 | ✨ Tiêu chuẩn         |
+| 6    | Qwen3              | 20.33 | ⚪ Cơ bản             |
+| 7    | DeepSeek-V3        | 15.85 | ⚪ Cơ bản             |
 
-#### 2. Hiệu năng **a-Interact**
-| Xếp hạng | Tên Mô hình        | Thông số Ngân sách* | Bước TB/tác vụ | Chi phí TB (USD)/tác vụ | Điểm Thưởng Chuẩn hóa | Cấp độ                 |
+#### 2. Hiệu Năng **a-Interact**
+| Xếp hạng | Tên mô hình      | Thông số ngân sách*  | Bước TB/nhiệm vụ | Chi phí TB (USD)/nhiệm vụ | Điểm thưởng chuẩn hóa | Mức độ                  |
 |:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|
-| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 Tương tác Xuất sắc     |
-| 2    | o3-mini            | 6/6 | 7.8  | $0.0754 | 21.07 | 💎 Tương tác Tốt          |
-| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 Tương tác Tốt          |
-| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ Chuẩn                  |
-| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ Chuẩn                  |
-| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ Cơ bản                 |
-| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ Cơ bản                 |
+| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 Tương tác xuất sắc      |
+| 2    | o3-mini            | 6/6 | 7.8  | $0.0754 | 21.07 | 💎 Tương tác tốt           |
+| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 Tương tác tốt           |
+| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ Tiêu chuẩn              |
+| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ Tiêu chuẩn            |
+| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ Cơ bản                |
+| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ Cơ bản                |
 
-> * Thông số Ngân sách: Ngân sách Khởi động/Ngân sách Kiên nhẫn Người dùng, được đo bằng tiền ảo *bird-coin*s <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">. Xem [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) để biết thêm chi tiết.
+> \* Thông số Ngân sách: Ngân sách Khởi động/Ngân sách Kiên nhẫn Người dùng, được đo bằng đơn vị tiền ảo *bird-coin*s <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">. Tham khảo [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) để biết thêm chi tiết.
 
-### Tăng tỷ lệ Thời gian Tương tác (ITS)
+### Tỷ Lệ Thời Gian Tương Tác (ITS)
 
-Tăng tỷ lệ Thời gian Tương tác (ITS) là khả năng của mô hình liên tục tăng hiệu suất cuối cùng thông qua các lượt tương tác nhiều vòng. Khi hiệu năng tương tác này vượt qua hiệu năng lý tưởng hóa của mô hình trên một tác vụ được chỉ định đầy đủ, rõ ràng, ta nói mô hình thỏa mãn **luật ITS**. Khi sự kiên nhẫn của người dùng tăng và số lượt tương tác tích lũy, hiệu năng tiếp tục cải thiện, cho thấy mô hình có thể duy trì giao tiếp hiệu quả qua đối thoại kéo dài. Hiện tại, chúng tôi chỉ thấy claude-3-7-sonnet đáp ứng luật ITS.
+Tỷ Lệ Thời Gian Tương Tác (ITS) đề cập đến khả năng của mô hình trong việc liên tục cải thiện hiệu suất cuối cùng thông qua tương tác nhiều lượt. Khi hiệu suất tương tác này vượt qua hiệu suất lý tưởng hóa một lượt của mô hình trên một nhiệm vụ đã được xác định đầy đủ, không mơ hồ, ta nói rằng nó thỏa mãn **định luật ITS**. Khi sự kiên nhẫn của người dùng tăng lên và số lượt tương tác tích lũy, hiệu suất tiếp tục cải thiện, cho thấy mô hình có thể duy trì giao tiếp hiệu quả qua đối thoại kéo dài. Hiện tại, chỉ có claude-3-7-sonnet là thỏa mãn định luật ITS.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png" 
@@ -126,30 +137,30 @@ Tăng tỷ lệ Thời gian Tương tác (ITS) là khả năng của mô hình l
 
 ### Mô tả Bộ Dữ Liệu
 
-- **Cơ sở dữ liệu:** Toàn bộ cơ sở dữ liệu PostgreSQL có thể tải về từ [Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Xem phần [Quick Eval](#quick-eval) để biết thêm chi tiết.
-- **data:** Mỗi trường dữ liệu bao gồm các phần chính sau:
-   - `selected_database`: Tên của cơ sở dữ liệu.  
-   - `query`: Truy vấn người dùng không mơ hồ.  
-   - `amb_user_query`: Truy vấn người dùng có chèn các điểm mơ hồ.
-   - `user_query_ambiguity`: Các điểm mơ hồ được chèn vào truy vấn người dùng.
-   - `non_critical_ambiguity`: Các điểm mơ hồ không quan trọng như thứ tự, giới hạn, v.v.
-   - `knowledge_ambiguity`: Các điểm mơ hồ tạo ra do che giấu kiến thức bên ngoài. 
-   - `sol_sql`: Câu lệnh SQL đáp án đúng.  
-   - `preprocess_sql`: Các truy vấn SQL cần chạy trước khi thực thi đáp án hoặc dự đoán.  
-   - `clean_up_sql`: Các truy vấn SQL cần chạy sau khi kiểm thử để hoàn nguyên các thay đổi với cơ sở dữ liệu.  
-   - `test_cases`: Bộ kiểm thử để xác thực câu SQL đã được sửa dự đoán.
-   - `follow_up`: Các câu hỏi tiếp theo đã được gán nhãn.
-   - `external_knowledge`: Kiến thức bên ngoài liên quan đến tác vụ cụ thể.
+- **Cơ sở dữ liệu:** Toàn bộ cơ sở dữ liệu PostgreSQL có thể tải về từ [Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Xem mục [Quick Eval](#quick-eval) để biết thêm chi tiết.
+- **data:** Mỗi mẫu dữ liệu bao gồm các phần chính sau:
+   - `selected_database`: Tên cơ sở dữ liệu.
+   - `query`: Truy vấn người dùng không mơ hồ.
+   - `amb_user_query`: Truy vấn người dùng đã được chèn sự mơ hồ.
+   - `user_query_ambiguity`: Những sự mơ hồ được chèn vào truy vấn người dùng.
+   - `non_critical_ambiguity`: Các sự mơ hồ không quan trọng như thứ tự, giới hạn, v.v.
+   - `knowledge_ambiguity`: Sự mơ hồ tạo ra do che giấu kiến thức bên ngoài.
+   - `sol_sql`: Giải pháp SQL chuẩn xác.
+   - `preprocess_sql`: Truy vấn SQL cần chạy trước khi thực hiện giải pháp hoặc dự đoán.
+   - `clean_up_sql`: Truy vấn SQL chạy sau các ca kiểm thử để hoàn nguyên mọi thay đổi trong cơ sở dữ liệu.
+   - `test_cases`: Bộ ca kiểm thử để xác thực SQL đã dự đoán và chỉnh sửa.
+   - `follow_up`: Các câu hỏi tiếp theo đã được gắn nhãn.
+   - `external_knowledge`: Kiến thức bên ngoài liên quan đến nhiệm vụ cụ thể.
 
-- **evaluation:** Mã đánh giá có sẵn tại thư mục [`./evaluation`](./evaluation).
-- **Tổ chức bởi:** Nhóm BIRD & Google Cloud
+- **evaluation:** Mã đánh giá có sẵn trong thư mục [`./evaluation`](./evaluation).
+- **Được tuyển chọn bởi:** Nhóm BIRD & Google Cloud
 - **Giấy phép:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-- **Thẻ Dataset trên HuggingFace:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)
+- **Thẻ Dữ Liệu HuggingFace:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)
 
 ### Ứng dụng Bộ Dữ Liệu
 
-Để tránh rò rỉ dữ liệu do tự động thu thập, chúng tôi không bao gồm các đáp án GT sql và bộ kiểm thử cùng với dữ liệu.
-vui lòng gửi email đến [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) với tiêu đề `[bird-interact-lite GT&Test Cases]` để nhận bộ đầy đủ, sẽ được gửi tự động.
+Để tránh rò rỉ dữ liệu do tự động thu thập, chúng tôi không bao gồm các file sql giải pháp GT và các trường hợp kiểm thử cùng với dữ liệu.
+vui lòng gửi email tới [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) với thẻ `[bird-interact-lite GT&Test Cases]` trong tiêu đề để nhận bộ đầy đủ, sẽ được gửi tự động.
 
 
 <!-- ### Sử dụng Bộ Dữ Liệu từ HuggingFace
@@ -196,35 +207,25 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-Chi tiết về cách chạy **a-interact** có thể được tìm thấy tại `./bird_interact_agent/README.md`; và **c-interact** có thể được tìm thấy tại `./bird_interact_conv/README.md`.
-
-## 📰 Tin tức
-
-🚀 Chúng tôi rất vui mừng thông báo phát hành bộ **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
-Đây là một bộ khó — các LLM tốt nhất chỉ đạt tỷ lệ thành công **16.33%**, chỉ **10.0%** trên phần `c-interact` và `a-interact`.  
-👉 Để biết thêm chi tiết, vui lòng truy cập [trang web dự án](https://bird-interact.github.io/).
-
-📬 Chúng tôi sẽ gửi **Ground Truth & Test cases** đến danh sách email trong tuần này.  
-Nếu bạn muốn truy cập sớm, hãy gửi email theo hướng dẫn trên trang để **tải tự động**.  
-
-💾 Ngoài ra, chúng tôi cũng đã phát hành phiên bản SQLite của **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** để thuận tiện cho nghiên cứu cục bộ.  
-Phiên bản đầy đủ **LiveSQLBench-Base** và **-Large** sẽ sớm ra mắt!
+Chi tiết về cách chạy **a-interact** có thể được tìm thấy trong `./bird_interact_agent/README.md`; và **c-interact** có thể được tìm thấy trong `./bird_interact_conv/README.md`.
 
 ## 📋 Danh sách việc cần làm
 
-- [x] Phát hành phiên bản lite, bird-interact-lite (270).
+- [x] Phát hành phiên bản rút gọn, bird-interact-lite (270).
 - [x] Phát hành phiên bản hội thoại, bird-interact-conv.
 - [x] Phát hành phiên bản agent, bird-interact-agent.
 - [x] Phát hành đầy đủ bird-interact-full (600).
-- [ ] SFT / RL trình mô phỏng người dùng
+- [ ] SFT / RL một Trình mô phỏng Người dùng
 
 ## Được tạo bởi:
 Nhóm BIRD & Google Cloud
 
 
 
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-30
 
 ---

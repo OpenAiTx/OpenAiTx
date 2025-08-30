@@ -1,0 +1,998 @@
+[
+  {
+    "row": 1,
+    "rowsha": "wZa1GHRABvSjbFqk946ylLZ9r/kyFqjm6LRSDe2/T8U=",
+    "originContent": "# Safe Units",
+    "translatedContent": "# Safe Units"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "yEXeuqyHdxTDpPQssaEW8L3lBkneAlGwhNiSGAK8cKw=",
+    "originContent": "[![NPM Version](https://img.shields.io/npm/v/safe-units.svg)](https://www.npmjs.com/package/safe-units) [![MIT License](https://img.shields.io/npm/l/safe-units.svg)](https://github.com/jscheiny/safe-units/blob/master/LICENSE)",
+    "translatedContent": "[![NPM Version](https://img.shields.io/npm/v/safe-units.svg)](https://www.npmjs.com/package/safe-units) [![MIT License](https://img.shields.io/npm/l/safe-units.svg)](https://github.com/jscheiny/safe-units/blob/master/LICENSE)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "vioI+yqs8vukzSqART6bOGTyU/9X3E3heZi98/A+Lks=",
+    "originContent": "Safe Units is a type safe library for using units of measurement in TypeScript.  Safe Units provides an implementation of an SI based unit system but is flexible enough to allow users to create their own unit systems which can be independent or can interoperate with the built-in units. Users can also make unit systems for any numeric type they'd like not just the JavaScript `number` type. This library requires TypeScript 3.2 or higher.",
+    "translatedContent": "Safe Units est une bibliothèque typée sûre pour l’utilisation des unités de mesure en TypeScript. Safe Units fournit une implémentation d’un système d’unités basé sur le SI mais est suffisamment flexible pour permettre aux utilisateurs de créer leurs propres systèmes d’unités qui peuvent être indépendants ou interopérer avec les unités intégrées. Les utilisateurs peuvent également créer des systèmes d’unités pour n’importe quel type numérique de leur choix, pas seulement pour le type `number` de JavaScript. Cette bibliothèque nécessite TypeScript 3.2 ou supérieur."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 8,
+    "rowsha": "SQaJfRZSXKdfdt5fCWopCFw7uYsCmOMyBmawxGN1vqY=",
+    "originContent": "import { Length, Measure, meters, seconds, Time, Velocity } from \"safe-units\";",
+    "translatedContent": "import { Length, Measure, meters, seconds, Time, Velocity } from \"safe-units\";"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "2YHv0QWwk7bbUVkyJZpYHyQ2p0WnHv1uCyPClwPU8Tc=",
+    "originContent": "const length: Length = Measure.of(30, meters);",
+    "translatedContent": "const length: Length = Measure.of(30, meters);"
+  },
+  {
+    "row": 11,
+    "rowsha": "fI66jAZbt3+6Qmy0/kjtUzh4ZOnXJBpBZFsqz35G3X4=",
+    "originContent": "const time: Time = Measure.of(15, seconds);",
+    "translatedContent": "const time: Time = Measure.of(15, seconds);"
+  },
+  {
+    "row": 12,
+    "rowsha": "Gacev+TR2E/5NKyXah8iMNV2Tb7bWhNcrINaI27cAo4=",
+    "originContent": "const velocity: Velocity = length.over(time);",
+    "translatedContent": "const velocity: Velocity = length.over(time);"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "RiRCxPcOwM2gefhnrTTXbNaDsZqqbh56i1ToRUwG7aE=",
+    "originContent": "console.log(length.toString()); // 30 m",
+    "translatedContent": "console.log(length.toString()); // 30 m"
+  },
+  {
+    "row": 15,
+    "rowsha": "f6uV9rQJIZhyGoVc6UC7R2zFKavl6CdTgiVALDJMLMk=",
+    "originContent": "console.log(time.toString()); // 15 s",
+    "translatedContent": "console.log(time.toString()); // 15 s"
+  },
+  {
+    "row": 16,
+    "rowsha": "y3/q62D4+LzB+brK8JYw+xvRuxmms2HeJmttxJCo/T0=",
+    "originContent": "console.log(velocity.toString()); // 2 m * s^-1",
+    "translatedContent": "console.log(velocity.toString()); // 2 m * s^-1"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "u5Vt8OAtxa1eRTQ9/Y2ArN6lUoBSewJ7O1rbmRAXZ+Q=",
+    "originContent": "// @ts-expect-error ERROR: A measure of m*s isn't assignable to a measure of m/s.",
+    "translatedContent": "// @ts-expect-error ERROR: A measure of m*s isn't assignable to a measure of m/s."
+  },
+  {
+    "row": 19,
+    "rowsha": "rJ5ykaK3ytrqYjXSgj0FmftKr6JlOmb3nnyEJXWOn70=",
+    "originContent": "const error: Velocity = length.times(time);",
+    "translatedContent": "const error: Velocity = length.times(time);"
+  },
+  {
+    "row": 20,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Fonctionnalités"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "1P1+RtnEerRTys4XBNmbKPI5jJxUfDzVM0Or1CzrinQ=",
+    "originContent": "⭐&nbsp; Compile-time unit arithmetic for typesafe dimensional analysis (with exponents between -5 and +5)!",
+    "translatedContent": "⭐&nbsp; Arithmétique des unités à la compilation pour une analyse dimensionnelle typée en toute sécurité (avec des exposants entre -5 et +5) !"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "A+rWj6F2nh5gzjUh0Wbhk1zOgFkVnP9R59WqQL0eoxY=",
+    "originContent": "⭐&nbsp; Large library of predefined units including SI (with prefixes), Imperial, and US customary units!",
+    "translatedContent": "⭐&nbsp; Grande bibliothèque d'unités prédéfinies incluant le SI (avec préfixes), l'Impérial et les unités coutumières américaines !"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "gVdg+HDxuGpCTXh5zvvSvpbv7c6u/L6G6chdhAgYzeU=",
+    "originContent": "⭐&nbsp; Ability to add your own unit system that can work with built-in units!",
+    "translatedContent": "⭐&nbsp; Possibilité d'ajouter votre propre système d'unités pouvant fonctionner avec les unités intégrées !"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "7axLA0Vq+uve+WNFoTohylCybmx/nvt2xyGJjiy5wOo=",
+    "originContent": "⭐&nbsp; Long build times & cryptic error messages!",
+    "translatedContent": "⭐&nbsp; Longs temps de compilation & messages d'erreur cryptiques !"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+    "originContent": "## Prerequisites",
+    "translatedContent": "## Prérequis"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "zMYUv+NI0hln7ahs2HT0ENW4SYC4ODMNXnbFzKcBg+E=",
+    "originContent": "Safe units is written in TypeScript and should be consumed by TypeScript users to take full advantage of what it provides. In addition you will need the following:",
+    "translatedContent": "Safe units est écrit en TypeScript et doit être utilisé par des utilisateurs TypeScript pour profiter pleinement de ses fonctionnalités. De plus, vous aurez besoin de ce qui suit :"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "Gns4zKm1pAmY0f7kKQizhkKbyIivU5CqDgJpqhZrYuI=",
+    "originContent": "- [TypeScript](http://www.typescriptlang.org/) 3.2 or later",
+    "translatedContent": "- [TypeScript](http://www.typescriptlang.org/) 3.2 ou ultérieur"
+  },
+  {
+    "row": 37,
+    "rowsha": "qsF/ixrFH5WRSMSI5RIfmd4ElHBsqvAHVx4rTLdZjM8=",
+    "originContent": "- [Strict null checks](https://www.typescriptlang.org/docs/handbook/compiler-options.html) enabled for your project",
+    "translatedContent": "- [Vérifications strictes des nulls](https://www.typescriptlang.org/docs/handbook/compiler-options.html) activées pour votre projet"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 42,
+    "rowsha": "ns98dqgqiqR2u2F4N7cbJCT9pDRY5WeKfW1KptM5HmM=",
+    "originContent": "npm install safe-units",
+    "translatedContent": "npm install safe-units"
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "8dEJDWTRfIIynqsywcuYmX/EtZKSl9M8iZGXOt6bOnU=",
+    "originContent": "or ",
+    "translatedContent": "or "
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 48,
+    "rowsha": "jJ0rFbvuA+vXjl2+xIv+iMtSECEoUiokGejGvM+cMig=",
+    "originContent": "yarn add safe-units",
+    "translatedContent": "yarn add safe-units"
+  },
+  {
+    "row": 49,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+    "originContent": "## Examples",
+    "translatedContent": "## Exemples"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "u0RiDJY99IcQpgtZrqvOZ6MGdp75dM3QCnFNbvLWcS0=",
+    "originContent": "### Unit Arithmetic",
+    "translatedContent": "### Arithmétique Unitaire"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 56,
+    "rowsha": "+kpmg911XcQcztDX+vk9U7IZeAQ2R53l5zt0aqODCbI=",
+    "originContent": "import { bars, kilograms, Measure, meters, milli, seconds } from \"safe-units\";",
+    "translatedContent": "import { bars, kilograms, Measure, meters, milli, seconds } from \"safe-units\";"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "IdbFg6HXu7rN61lEih+1WPo4A1xAsA0HChPQqgKCivc=",
+    "originContent": "const width = Measure.of(3, meters);",
+    "translatedContent": "const width = Measure.of(3, meters);"
+  },
+  {
+    "row": 59,
+    "rowsha": "FyKqoSJjaAXg/UTL23fMX9yFbOk/DOomeOc9BI0/E2Y=",
+    "originContent": "const height = Measure.of(4, meters);",
+    "translatedContent": "const height = Measure.of(4, meters);"
+  },
+  {
+    "row": 60,
+    "rowsha": "BDphCGp7x0xMD7Og7rccZbDyjwgLqEIFwBkHq7XMCg4=",
+    "originContent": "const area = width.times(height).scale(0.5);",
+    "translatedContent": "const area = width.times(height).scale(0.5);"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "4BikPO6TQCrWl5tQXeUJ6LtmcAwVzSmLGVRfAoxEvhg=",
+    "originContent": "const mass = Measure.of(30, kilograms);",
+    "translatedContent": "const mass = Measure.of(30, kilograms);"
+  },
+  {
+    "row": 63,
+    "rowsha": "iwtt5eeJKRIhrtm3wvUN1f8OKa4f9yeDzfuu77Lib/M=",
+    "originContent": "const mps2 = meters.per(seconds.squared());",
+    "translatedContent": "const mps2 = meters.per(seconds.squared());"
+  },
+  {
+    "row": 64,
+    "rowsha": "FC6iG5sqoGL+KN1KaE+1QElHEnQ2l7eRuv7zR/6YzW8=",
+    "originContent": "const acceleration = Measure.of(9.8, mps2);",
+    "translatedContent": "const acceleration = Measure.of(9.8, mps2);"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "zfHXd3TmjT/p9jJKO6HI2KqqkuPrL61C1m3QNVfcI+U=",
+    "originContent": "const force = mass.times(acceleration); // 294 N",
+    "translatedContent": "const force = mass.times(acceleration); // 294 N"
+  },
+  {
+    "row": 67,
+    "rowsha": "pxVh/HdnXZ3q5Uy4nBcaiLp3ljVe3lg8R3cMGkgbnAw=",
+    "originContent": "const pressure = force.over(area); // 49 Pa",
+    "translatedContent": "const pressure = force.over(area); // 49 Pa"
+  },
+  {
+    "row": 68,
+    "rowsha": "tTjTyFXfwQ5EcIAvy2mncopP95VdzsoOEs63UiNkVMk=",
+    "originContent": "const maxPressure = Measure.of(0.5, milli(bars)); // 0.5 mbar",
+    "translatedContent": "const maxPressure = Measure.of(0.5, milli(bars)); // 0.5 mbar"
+  },
+  {
+    "row": 69,
+    "rowsha": "f30WYYYsQbYRTexaG5BkKJybWdI5+00CFc8s+b6cYT0=",
+    "originContent": "pressure.lt(maxPressure); // true",
+    "translatedContent": "pressure.lt(maxPressure); // true"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "bvqIwNb0t5Cb/21jATUGN07JCiy4kYHs4eJdpLNKQKY=",
+    "originContent": "### Type Errors",
+    "translatedContent": "### Erreurs de type"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 76,
+    "rowsha": "sEmFZ/VM6gnkq/ugZNUlDf9RxAkBuwONM1ng5/2W9ew=",
+    "originContent": "import { Force, hours, Length, Measure, meters, seconds, Time } from \"safe-units\";",
+    "translatedContent": "import { Force, hours, Length, Measure, meters, seconds, Time } from \"safe-units\";"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "/w/LVqnxf9NCio6SWQJQ99tW67a5NOMoapUD7IcMk2U=",
+    "originContent": "const length: Length = Measure.of(10, meters);",
+    "translatedContent": "const length: Length = Measure.of(10, meters);"
+  },
+  {
+    "row": 79,
+    "rowsha": "1vRTUs+UfLvkK5YgsHfmVlXd8TaIgBOYmCImXq37LpI=",
+    "originContent": "const time: Time = Measure.of(10, seconds);",
+    "translatedContent": "const time: Time = Measure.of(10, seconds);"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "0yvDIofihZe0QeXpTSyhpEy6kHzsWamkpUbDL1JFf9M=",
+    "originContent": "// @ts-expect-error - Measures of different units cannot be added",
+    "translatedContent": "// @ts-expect-error - Measures of different units cannot be added"
+  },
+  {
+    "row": 82,
+    "rowsha": "VYX+Kl0808mce2oz6dnjfKLq9xuj1o8ggG3d2OWzWQ0=",
+    "originContent": "length.plus(time);",
+    "translatedContent": "length.plus(time);"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "U7+dne+OPrV5/ymoe1cWdDK6936Lfoe+2wPg09iWIYU=",
+    "originContent": "// @ts-expect-error - Measures of different units cannot be compared",
+    "translatedContent": "// @ts-expect-error - Measures of different units cannot be compared"
+  },
+  {
+    "row": 85,
+    "rowsha": "e1axUHvOaIvyTOkFoWk/kGWzQcbHIOUSMDv5DgsUAec=",
+    "originContent": "length.eq(time);",
+    "translatedContent": "length.eq(time);"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "+vAGqwhAEDaAVrsE7IvW0TSgWvBfB5f7GflREitfejY=",
+    "originContent": "// @ts-expect-error - Measure of m/s is not assigneable to measure of kg*m/s^2",
+    "translatedContent": "// @ts-expect-error - Measure of m/s is not assigneable to measure of kg*m/s^2"
+  },
+  {
+    "row": 88,
+    "rowsha": "CWZyjtpxOLS/jAzvT8g/apGiY+ewfRwoimg4NT84OR4=",
+    "originContent": "const force: Force = length.over(time);",
+    "translatedContent": "const force: Force = length.over(time);"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "OkmxpBRd1BA4duScqK+BJMgOGyGh2PnBhQyrV4um3ew=",
+    "originContent": "// @ts-expect-error - Cannot convert length measure to time measure",
+    "translatedContent": "// @ts-expect-error - Cannot convert length measure to time measure"
+  },
+  {
+    "row": 91,
+    "rowsha": "WMkZR0VDJ75dyWglguG/TyTkBuX2bACdYjmFuyTHhpg=",
+    "originContent": "length.in(hours);",
+    "translatedContent": "length.in(hours);"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "4o3eY9jBml3bPQJ8MWTE9qmzAgXzrnR6ZIZuMThR+eM=",
+    "originContent": "### Naming Units",
+    "translatedContent": "### Nommage des unités"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 98,
+    "rowsha": "yJ5yV2GAMdMz+TPNuPDc/OxXPYOkpLWy8qRvls5WXNw=",
+    "originContent": "import { days, Measure, mega, micro, miles, speedOfLight, yards } from \"safe-units\";",
+    "translatedContent": "import { days, Measure, mega, micro, miles, speedOfLight, yards } from \"safe-units\";"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "FG+56/nMLuE2nL3YsQacwer3KEkG/gscV5LThQcVw4Q=",
+    "originContent": "const furlongs = Measure.of(220, yards, \"fur\");",
+    "translatedContent": "const furlongs = Measure.of(220, yards, \"fur\");"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "eoj5xiH63HLKFZTHKC8Ry+axJ+xhWb2lU5Shx8eQHkY=",
+    "originContent": "Measure.of(8, furlongs).in(miles); // \"1 mi\"",
+    "translatedContent": "Measure.of(8, furlongs).in(miles); // \"1 mi\""
+  },
+  {
+    "row": 103,
+    "rowsha": "8Vbfd0fsI1APsj+4cFUXFKiGmgxIthy881jnZHjPKXU=",
+    "originContent": "Measure.of(1, miles).in(furlongs); // \"8 fur\"",
+    "translatedContent": "Measure.of(1, miles).in(furlongs); // \"8 fur\""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "2dfrxz6PoZ6XVir2XAOOSSAyf0ESSrT2sAI9YHZVTt0=",
+    "originContent": "const fortnights = Measure.of(14, days, \"ftn\");",
+    "translatedContent": "const fortnights = Measure.of(14, days, \"ftn\");"
+  },
+  {
+    "row": 106,
+    "rowsha": "AkhOEmUiUWJ2+BiWtkP3avt6l/KF2S38m6Q9DzYQGoI=",
+    "originContent": "const megafurlong = mega(furlongs);",
+    "translatedContent": "const megafurlong = mega(furlongs);"
+  },
+  {
+    "row": 107,
+    "rowsha": "FQjoGEaT98VIxw6cgQOfLwb1k36uJIot2v2d6yacyAo=",
+    "originContent": "const microfortnight = micro(fortnights);",
+    "translatedContent": "const microfortnight = micro(fortnights);"
+  },
+  {
+    "row": 108,
+    "rowsha": "DsMzLE9BoAdq9dYMzEvNWYkBbQcpp4NTpY9mAn9Xg14=",
+    "originContent": "const mfPerUFtn = megafurlong.per(microfortnight).withSymbol(\"Mfur/µftn\");",
+    "translatedContent": "const mfPerUFtn = megafurlong.per(microfortnight).withSymbol(\"Mfur/µftn\");"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "2vMdf9KQfCaazPMXqYiJLpw2l/Y1xw6SFzgFXZLfXN8=",
+    "originContent": "speedOfLight.in(mfPerUFtn); // \"1.8026174997852542 Mfur/µftn\"",
+    "translatedContent": "speedOfLight.in(mfPerUFtn); // \"1.8026174997852542 Mfur/µftn\""
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "WTbo8IhQB+OUu1rWL8VhXJtazOVEvF7o4zDVoE6Qs48=",
+    "originContent": "### Deriving Quantities",
+    "translatedContent": "### Dérivation des quantités"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 117,
+    "rowsha": "MgX+V/GJPeKMKMoIbEArHBsbOf/oCF1DuNdQpDYZDaU=",
+    "originContent": "import { kilograms, liters, Mass, Measure, Volume } from \"safe-units\";",
+    "translatedContent": "import { kilograms, liters, Mass, Measure, Volume } from \"safe-units\";"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "ywUPVGt3S7S703FQPJJpuWZhaFiOU/J59F5qmzxS5D8=",
+    "originContent": "const VolumeDensity = Mass.over(Volume);",
+    "translatedContent": "const VolumeDensity = Mass.over(Volume);"
+  },
+  {
+    "row": 120,
+    "rowsha": "kmerQR/KHLdzSvYB4kyz9ZMlLRxMRsqEUXZVEd7JNEw=",
+    "originContent": "type VolumeDensity = typeof VolumeDensity;",
+    "translatedContent": "type VolumeDensity = typeof VolumeDensity;"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "4BikPO6TQCrWl5tQXeUJ6LtmcAwVzSmLGVRfAoxEvhg=",
+    "originContent": "const mass = Measure.of(30, kilograms);",
+    "translatedContent": "const mass = Measure.of(30, kilograms);"
+  },
+  {
+    "row": 123,
+    "rowsha": "X6c09wHBETw9h+AY0Y7B2ic6YMcX4DxfsPKlCyxXN2w=",
+    "originContent": "const volume = Measure.of(3, liters);",
+    "translatedContent": "const volume = Measure.of(3, liters);"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "X0cePw/kwEJRzWn4M0S8iCIjt5Sh7snnYsSp2Jhb3Xg=",
+    "originContent": "const density: VolumeDensity = mass.over(volume);",
+    "translatedContent": "const density: VolumeDensity = mass.over(volume);"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "hHrZV8hKDUTkOtWlLhu6NR09+BvLs9dWLXakT0Y8cr4=",
+    "originContent": "console.log(density.toString()); // 10 kg * m^-3",
+    "translatedContent": "console.log(density.toString()); // 10 kg * m^-3"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "e112aPPAItgECSBwq+36ci3qoTIsvOER4fqOJgcJGqM=",
+    "originContent": "### Defining Unit Systems",
+    "translatedContent": "### Définition des systèmes d'unités"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+    "originContent": "```ts",
+    "translatedContent": "```ts"
+  },
+  {
+    "row": 134,
+    "rowsha": "nl/ToOgsvJnN1tIgFnqTPZu4ArUTeZkn2Qo0ejnVuTQ=",
+    "originContent": "import { Measure, UnitSystem } from \"safe-units\";",
+    "translatedContent": "import { Measure, UnitSystem } from \"safe-units\";"
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "EVmE+fA+Fw4p1aEpIwjy+IjCK0y/PIPq7AcnuXKmIcc=",
+    "originContent": "const GameUnitSystem = UnitSystem.from({",
+    "translatedContent": "const GameUnitSystem = UnitSystem.from({"
+  },
+  {
+    "row": 137,
+    "rowsha": "D+5sRKtC22SdxcrpDwckZ0BNAWSUUv0wXxI9ktzf8oc=",
+    "originContent": "    frames: \"fr\",",
+    "translatedContent": "    frames: \"fr\","
+  },
+  {
+    "row": 138,
+    "rowsha": "bmjO99JkpJS+04m+10LWbAJjsxkGNorGQ6af1D9XxUw=",
+    "originContent": "    time: \"s\",",
+    "translatedContent": "    time: \"s\","
+  },
+  {
+    "row": 139,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "xjwhuWHWDDfjBMs3Rv2NXZ5uh3lcR3DrmWZdVRDc5LE=",
+    "originContent": "const frames = Measure.dimension(GameUnitSystem, \"frames\");",
+    "translatedContent": "const frames = Measure.dimension(GameUnitSystem, \"frames\");"
+  },
+  {
+    "row": 142,
+    "rowsha": "+SoAEYw2lIP+icGdCkkk657PT0ajseUvLEhq3af2064=",
+    "originContent": "const seconds = Measure.dimension(GameUnitSystem, \"time\");",
+    "translatedContent": "const seconds = Measure.dimension(GameUnitSystem, \"time\");"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "q5S4K0A3JxsKgysVAl+wdZGDoVv5p23bbaTlHQ20tLg=",
+    "originContent": "const Frames = frames;",
+    "translatedContent": "const Frames = frames;"
+  },
+  {
+    "row": 145,
+    "rowsha": "qLigHpFF3/eT6sT868ecttZjl7LaB275tNHdQRFG1ZM=",
+    "originContent": "type Frames = typeof frames;",
+    "translatedContent": "type Frames = typeof frames;"
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "d7qlJRcAbq23vnRSzVIzquwS0KcTX65L8wgA4mu/Xuk=",
+    "originContent": "const Time = seconds;",
+    "translatedContent": "const Time = seconds;"
+  },
+  {
+    "row": 148,
+    "rowsha": "4z+IB3yPt/5e9aTV75f2UMoab0lMbgfNLeOy9MgEW2o=",
+    "originContent": "type Time = typeof seconds;",
+    "translatedContent": "type Time = typeof seconds;"
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "ECkgnwiCsjefOmkY4sXFNR+fcdm4jq3LerlBKr+B33A=",
+    "originContent": "const FrameRate = Frames.over(Time);",
+    "translatedContent": "const FrameRate = Frames.over(Time);"
+  },
+  {
+    "row": 151,
+    "rowsha": "p276wMRApTpCndPcWrYvhI13j2GI4s50l13CR1tCsfM=",
+    "originContent": "type FrameRate = typeof FrameRate;",
+    "translatedContent": "type FrameRate = typeof FrameRate;"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "UTxCWeuiWpeGZReTMxlutlaYjB/Nm0lErfcE0RkoII0=",
+    "originContent": "const fps: FrameRate = frames.per(seconds).withSymbol(\"fps\");",
+    "translatedContent": "const fps: FrameRate = frames.per(seconds).withSymbol(\"fps\");"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "9rRWMlgqizNuLncrUkHePpnMRJ25GSocupYEr1JHFTw=",
+    "originContent": "const minFrameRate = Measure.of(60, fps);",
+    "translatedContent": "const minFrameRate = Measure.of(60, fps);"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "n3Jv2/JEqhi+krL5YzNvBbTcQKviP0rW+r5pUWiTD1U=",
+    "originContent": "const measuredFrames = Measure.of(8000, frames);",
+    "translatedContent": "const measuredFrames = Measure.of(8000, frames);"
+  },
+  {
+    "row": 158,
+    "rowsha": "EKe8LBfwhRwcChvCzPVXvm8m6VOTwIFgJOC/Gscgxaw=",
+    "originContent": "const elapsedTime = Measure.of(120, seconds);",
+    "translatedContent": "const elapsedTime = Measure.of(120, seconds);"
+  },
+  {
+    "row": 159,
+    "rowsha": "Kqsf2EFhy+/3pOyaw7QYGnA9nroi/r0Ee33nUlfvGco=",
+    "originContent": "const measuredFps: FrameRate = measuredFrames.over(elapsedTime);",
+    "translatedContent": "const measuredFps: FrameRate = measuredFrames.over(elapsedTime);"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "oajOdg5o82RiSRWbYtNEXLmmAb8C6oMYqk/Mx2z4jcw=",
+    "originContent": "if (measuredFps.lt(minFrameRate)) {",
+    "translatedContent": "if (measuredFps.lt(minFrameRate)) {"
+  },
+  {
+    "row": 162,
+    "rowsha": "aDKGAtUqQSR1DcXW8L8ddxk4j9oVeaOR6zmfIiIsrH8=",
+    "originContent": "    // Optimize",
+    "translatedContent": "    // Optimize"
+  },
+  {
+    "row": 163,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
