@@ -1,272 +1,272 @@
 [
   {
     "Id": 1,
-    "Content": "![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/v/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/users/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/rating/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/stars/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/rating-count/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)<br>\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/badge/dynamic/json?label=microsoft%20edge%20add-on&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)\n[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)\n[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=rating&query=%24.averageRating&suffix=%2F5&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)\n[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=ratings&query=%24.ratingCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)\n\n<!--The ratings badges are currently broken due to [this](https://github.com/badges/shields/issues/5475) and [this](https://github.com/pandawing/node-chrome-web-store-item-property/issues/275#issuecomment-687801815).-->\n\n#### See https://github.com/june07/nimv3 for updates as the project was upgraded to Manifest Version 3 due to Google's change.\n\n[![https://nim.june07.com](https://june07.github.io/image/smallPromoTile.png)](https://nim.june07.com) [![https://nim.june07.com](https://github.com/june07/nimv3/assets/11353590/e6f30f3f-4ae5-4831-bafa-392eaeff66fd)](https://nim.june07.com)\n\n# NiM (Node.js --inspector Manager)\n###### Streamlines your development process\n\n* [Google Chrome Web Store]([http://bit.ly/2W8hQG9](https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj?utm_source=github&utm_medium=readme&utm_campaign=nim&utm_content=1)) (works with any Chromium browsers: [Google's Chrome](https://www.google.com/chrome/), [Microsoft's Edge](https://www.microsoftedgeinsider.com/en-us/, ), [Opera](https://www.opera.com/), [Vivaldi](https://vivaldi.com/), [Brave](https://brave.com/), [Epic](https://www.epicbrowser.com/), and more...  )\n* [Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme) (Works with the Microsoft's Edge browser https://www.microsoftedgeinsider.com/en-us/) \n\n    ***PLEASE NOTE***: Installing this does require the sharing of your email address with me (and only me).  You are given other notice of this, but it's become and remains such an issue that I feel the need to make it OVER-abundantly clear.  If you take issue with sharing your email address with me (mine is 667@june07.com by the way) please, I implore you to clone/fork a copy yourself and change what you don't like about the code and/or use alternate solutions (none of which are as good as NiM, but call me biased).  Further feel free to contact me directly and have a chat.  Unlike the behemoths like Facebook, Google, Amazon that you probably (and without hesitation) share your email address with, I actually care about the concerns of the actual people who choose to use the code I wrote (~99%) and am responsible for.  Here is the privacy policy that goes along with NiM https://june07.com/privacypolicy.  Thank you so much.\n\n## Blog Posts/Updates:\n* Why I wrote NiM https://blog.june07.com/inspect-broke-my-workflow/\n* Custom DevTools feature: https://blog.june07.com/nim-custom-devtools-url/\n## Easier than `about::inspect (chrome://inspect/#devices)`\n\nNiM manages the Chrome DevTools window/tab lifecycle leaving you with more ability to focus on what matters... debugging your code.  You no longer need to copy/paste DevTools URL's or continue opening/closing tabs/windows.\n\nNiM automatically detects the URL that is generated when running node (locally or remotely) with --inspect option. NiM provides you with the option of automatically opening and closing Chrome DevTools in a tab or window. Just toggle the Manual/Auto setting and then start a debugging session.  DevTools will open either on clicking the \"Open DevTools\" button or after the specified timeout period.  If set to auto close, once you end your debugging session, The DevTools tab/window will close automatically.\n \n * Manage and monitor local and remote debugging sessions\n * Manual or automatic control of DevTools interface\n * Open DevTools in a new tab or window\n * Make DevTools focused or inactive on start\n * Customize duration between v8 Inspector probes\n * Autosave settings\n * Debug node processes launched by [VSCode](https://imgur.com/download/PRMn9md)",
-    "ContentSha": "cPolwvIx9tf7EtCZR1MEGKErvGD5a9fHnPhIqHZctuc=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/v/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/users/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/rating/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/stars/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/rating-count/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)<br>\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/badge/dynamic/json?label=microsoft%20edge%20add-on&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)\n[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)\n[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=rating&query=%24.averageRating&suffix=%2F5&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)",
+    "ContentSha": "UtUj3Lm65DBk2w0b3wnv7Rha1miyDetSa9YjZGfNC2c=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/v/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/users/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/rating/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/stars/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/rating-count/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)<br>\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/badge/dynamic/json?label=microsoft%20edge%20add-on&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)\n[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)\n[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=rating&query=%24.averageRating&suffix=%2F5&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)\n[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=ratings&query=%24.ratingCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)\n\n<!--평점 배지는 현재 [이 이슈](https://github.com/badges/shields/issues/5475)와 [이 이슈](https://github.com/pandawing/node-chrome-web-store-item-property/issues/275#issuecomment-687801815)로 인해 작동하지 않습니다.-->\n\n#### 구글의 변경으로 인해 프로젝트가 Manifest Version 3로 업그레이드 되었으니 업데이트는 https://github.com/june07/nimv3 를 참고하세요.\n\n[![https://nim.june07.com](https://june07.github.io/image/smallPromoTile.png)](https://nim.june07.com) [![https://nim.june07.com](https://github.com/june07/nimv3/assets/11353590/e6f30f3f-4ae5-4831-bafa-392eaeff66fd)](https://nim.june07.com)\n\n# NiM (Node.js --inspector 관리자)\n###### 개발 과정을 간소화합니다\n\n* [구글 크롬 웹 스토어]([http://bit.ly/2W8hQG9](https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj?utm_source=github&utm_medium=readme&utm_campaign=nim&utm_content=1)) (모든 Chromium 브라우저에서 작동: [구글 크롬](https://www.google.com/chrome/), [마이크로소프트 엣지](https://www.microsoftedgeinsider.com/en-us/), [오페라](https://www.opera.com/), [비발디](https://vivaldi.com/), [브레이브](https://brave.com/), [에픽](https://www.epicbrowser.com/) 등...)\n* [마이크로소프트 엣지 애드온](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme) (마이크로소프트 엣지 브라우저에서 작동 https://www.microsoftedgeinsider.com/en-us/) \n\n    ***주의***: 설치 시 사용자 이메일 주소를 저(개발자)와 공유해야 합니다(저와만 공유). 이 점은 별도로 공지되지만, 여전히 매우 중요한 문제라 과도하게 명확히 알립니다. 이메일 공유가 꺼려지면(참고로 제 이메일은 667@june07.com 입니다) 직접 복제(fork)하여 코드를 수정하거나 대체 솔루션을 사용하시기 바랍니다(대체 솔루션은 NiM만큼 좋지 않습니다만 편견일지도 모릅니다). 언제든지 직접 연락 주셔서 대화할 수도 있습니다. 페이스북, 구글, 아마존 같은 대기업과는 달리, 저는 제 코드를 사용하는 실제 사용자들(~99%)의 우려를 진심으로 신경 씁니다. NiM 관련 개인정보처리방침은 https://june07.com/privacypolicy 에서 확인하세요. 감사합니다.\n\n## 블로그 게시물/업데이트:\n* NiM을 만든 이유 https://blog.june07.com/inspect-broke-my-workflow/\n* 커스텀 DevTools 기능: https://blog.june07.com/nim-custom-devtools-url/\n## `about::inspect (chrome://inspect/#devices)` 보다 쉽습니다\n\nNiM은 Chrome DevTools 창/탭의 수명주기를 관리하여, 당신이 코드 디버깅에 더 집중할 수 있도록 합니다. 더 이상 DevTools URL을 복사/붙여넣거나 탭/창을 계속 열고 닫을 필요가 없습니다.\n\nNiM은 --inspect 옵션으로 node를 실행할 때 생성되는 URL을 자동으로 감지합니다(로컬 또는 원격). NiM은 Chrome DevTools를 탭이나 창에서 자동으로 열고 닫는 옵션을 제공합니다. 수동/자동 설정을 전환한 뒤 디버깅 세션을 시작하세요. \"Open DevTools\" 버튼 클릭 시 또는 지정한 시간 후에 DevTools가 열립니다. 자동 닫기 설정 시 디버깅 세션 종료 후 DevTools 탭/창이 자동으로 닫힙니다.\n \n * 로컬 및 원격 디버깅 세션 관리 및 모니터링\n * DevTools 인터페이스 수동 또는 자동 제어\n * 새 탭 또는 창에서 DevTools 열기\n * 시작 시 DevTools 포커스 활성화 또는 비활성화 설정\n * v8 Inspector 프로브 간격 사용자 지정\n * 설정 자동 저장\n * [VSCode](https://imgur.com/download/PRMn9md)에서 실행된 노드 프로세스 디버깅",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/v/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/users/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/rating/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/stars/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/rating-count/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)<br>\n![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/badge/dynamic/json?label=microsoft%20edge%20add-on&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)\n[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)\n[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=rating&query=%24.averageRating&suffix=%2F5&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 언어</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "U0hrnaW/MfA3MedCVG/jjn8MVg7CC6qJ8n9khWdTdRA=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "3xczaMKPKSeFEIsLJnZio3B6d1rql5QEQjbin6iMXPk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "FJuaaEK1CP/GhcCRzTumR1lnNsrjGmQuOiBm0MH+ps8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "VmV3wYR7NGt8NPKgfu9phe3E+DjFX9cu4SS5JbHLON4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "wDx3yKjE3ecJcObUUKSDun5fP+sTDTCRNEFADGkx86w=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "rEIDh3kLIEDF/6KJcJwrxAObwmZI+HfIrAuyP5Kdo+s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "Dw8+AfRhP9p/hGe+41FkYDnGiAeN1hq/1CU9dW/iS9k=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "7CM5r2khCsqdFJnHOrJYVTOwI68flECggqakCfYo26U=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "5vopG4wgrfxrIaWNw7Uu+Iyntk9+HEqEOl4Cp092qBA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "v8L2cFFXf4sBzQQf3GHIbtEy3SqToQTOxGyYQqmYM2g=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "DvECAbpsztLhwjWC/G/wYqTMsWvseveAbx9S6zjTg5E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "6CG9i3KQgjnqdRFu5XfEJXf0EQQafvwsK1NIpoYw5SM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "xv8Dq9RDL8Vobgs97nWXhM/BOkXQYp0AYIfPf1L5tlw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "V5Yg1C8VRCsC9gytslHBNs4F0jUY2wzQVJc3E7A645o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "/oMHb9lDzZqyQ4oDJY69gbS+16VCLR1YTOok00pRsgw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "D5wuEW5JWOKhjB1/P4rzpK9Tga7j6d1WF2ZHOPzGc9o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "7nycltQdkCB57LFQJlXBxD4KVVXw8v00hQSxWGc8aEs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "lVvoal2i8uDD4KmKb1Ggf9HXy+5975nE/VIFYd2cPuk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "lnNmFhmjIueqPSJSEP7zgxW0LUzlzKvEVfpQFTQDSTM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "N8mrs9TR28D1Jvm3HLIK8JmIzjHbyYYlJWIguLTn0tE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "eb5G4l2aUs34KtrpK2saINTDKKxNo3KvcFKntjtiknk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=june07&project=NiM&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
         "rowsha": "lndio7Ftbw4C/GJrXWiBJboEJ9T+3cAKJoTUSyMOc9k=",
         "originContent": "![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/v/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)",
         "translatedContent": "![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/v/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)"
       },
       {
-        "row": 2,
+        "row": 34,
         "rowsha": "zOwE4mwrmTfeXOGJkz/j1krSe2r4g+/9rj3MAsg+Zu4=",
         "originContent": "![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/users/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)",
         "translatedContent": "![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/users/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)"
       },
       {
-        "row": 3,
+        "row": 35,
         "rowsha": "7gNpuseYd9dOUkJYwHhLERcEXW4M/aEOFz35oTtMSq4=",
         "originContent": "![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/rating/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)",
         "translatedContent": "![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/rating/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)"
       },
       {
-        "row": 4,
+        "row": 36,
         "rowsha": "GMyo2iTZJvWLYIHm/wXJSq35Ougnrt0DdfmciWXrRvQ=",
         "originContent": "![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/stars/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)",
         "translatedContent": "![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/stars/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)"
       },
       {
-        "row": 5,
+        "row": 37,
         "rowsha": "iNYUh/anzdYeUckEfaTosTfSaPkDlZlqU8SlSBigTIY=",
         "originContent": "![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/rating-count/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)<br>",
         "translatedContent": "![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/chrome-web-store/rating-count/gnhhdgbaldcilmgcpfddgdbkhjohddkj.svg)<br>"
       },
       {
-        "row": 6,
+        "row": 38,
         "rowsha": "UxkMv0a3xH0h700Oume0SDasLZucC2if4ysf1C32Xi4=",
         "originContent": "![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/badge/dynamic/json?label=microsoft%20edge%20add-on&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)",
         "translatedContent": "![https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj](https://img.shields.io/badge/dynamic/json?label=microsoft%20edge%20add-on&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)"
       },
       {
-        "row": 7,
+        "row": 39,
         "rowsha": "qwR5ojuGtcwIvoqoqkb5celcnzVgOmIoMQ68q75WFgY=",
         "originContent": "[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)",
         "translatedContent": "[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)"
       },
       {
-        "row": 8,
+        "row": 40,
         "rowsha": "k7iQ1H+5vIdp/IKrHzZD9A4kcqw2+SYediEzHjRn/Lo=",
         "originContent": "[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=rating&query=%24.averageRating&suffix=%2F5&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)",
         "translatedContent": "[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=rating&query=%24.averageRating&suffix=%2F5&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)"
-      },
-      {
-        "row": 9,
-        "rowsha": "IyIlIlCcLwfXW5AhOccilh4HexeOZnbHOsQX13oRHXc=",
-        "originContent": "[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=ratings&query=%24.ratingCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)",
-        "translatedContent": "[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=ratings&query=%24.ratingCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "NDvHktKhTD1ausB7r37nc0jKj/+bD8unIynFaFMFQvk=",
-        "originContent": "<!--The ratings badges are currently broken due to [this](https://github.com/badges/shields/issues/5475) and [this](https://github.com/pandawing/node-chrome-web-store-item-property/issues/275#issuecomment-687801815).-->",
-        "translatedContent": "<!--평점 배지는 현재 [이 이슈](https://github.com/badges/shields/issues/5475)와 [이 이슈](https://github.com/pandawing/node-chrome-web-store-item-property/issues/275#issuecomment-687801815)로 인해 작동하지 않습니다.-->"
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "MKpCxF/T1UPjemBLrxx8Cg6w++TGWRFIVxWP2ttAWDQ=",
-        "originContent": "#### See https://github.com/june07/nimv3 for updates as the project was upgraded to Manifest Version 3 due to Google's change.",
-        "translatedContent": "#### 구글의 변경으로 인해 프로젝트가 Manifest Version 3로 업그레이드 되었으니 업데이트는 https://github.com/june07/nimv3 를 참고하세요."
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "O5P0xzkX/KLFCVDAG6uWeRJFYqgKMC+/f/fHiEUsncg=",
-        "originContent": "[![https://nim.june07.com](https://june07.github.io/image/smallPromoTile.png)](https://nim.june07.com) [![https://nim.june07.com](https://github.com/june07/nimv3/assets/11353590/e6f30f3f-4ae5-4831-bafa-392eaeff66fd)](https://nim.june07.com)",
-        "translatedContent": "[![https://nim.june07.com](https://june07.github.io/image/smallPromoTile.png)](https://nim.june07.com) [![https://nim.june07.com](https://github.com/june07/nimv3/assets/11353590/e6f30f3f-4ae5-4831-bafa-392eaeff66fd)](https://nim.june07.com)"
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "6Ks72wVs0bIUg9dskvcPG4eA2mibhAic8QPsUkdVTdM=",
-        "originContent": "# NiM (Node.js --inspector Manager)",
-        "translatedContent": "# NiM (Node.js --inspector 관리자)"
-      },
-      {
-        "row": 18,
-        "rowsha": "27dlFh22PHph4FsUvbI0FTJi2Ix8jmQFKOeGiJte9xo=",
-        "originContent": "###### Streamlines your development process",
-        "translatedContent": "###### 개발 과정을 간소화합니다"
-      },
-      {
-        "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 20,
-        "rowsha": "wdtCuW7LkaM9e3V6+hUjL/K/sW4NyzwIKw564IZ/SVY=",
-        "originContent": "* [Google Chrome Web Store]([http://bit.ly/2W8hQG9](https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj?utm_source=github&utm_medium=readme&utm_campaign=nim&utm_content=1)) (works with any Chromium browsers: [Google's Chrome](https://www.google.com/chrome/), [Microsoft's Edge](https://www.microsoftedgeinsider.com/en-us/, ), [Opera](https://www.opera.com/), [Vivaldi](https://vivaldi.com/), [Brave](https://brave.com/), [Epic](https://www.epicbrowser.com/), and more...  )",
-        "translatedContent": "* [구글 크롬 웹 스토어]([http://bit.ly/2W8hQG9](https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj?utm_source=github&utm_medium=readme&utm_campaign=nim&utm_content=1)) (모든 Chromium 브라우저에서 작동: [구글 크롬](https://www.google.com/chrome/), [마이크로소프트 엣지](https://www.microsoftedgeinsider.com/en-us/), [오페라](https://www.opera.com/), [비발디](https://vivaldi.com/), [브레이브](https://brave.com/), [에픽](https://www.epicbrowser.com/) 등...)"
-      },
-      {
-        "row": 21,
-        "rowsha": "mAlqBuo/CnRPEDCozON29msZYp3kl8CaD+/dGvY4PnE=",
-        "originContent": "* [Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme) (Works with the Microsoft's Edge browser https://www.microsoftedgeinsider.com/en-us/) ",
-        "translatedContent": "* [마이크로소프트 엣지 애드온](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme) (마이크로소프트 엣지 브라우저에서 작동 https://www.microsoftedgeinsider.com/en-us/) "
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "SMXQj6TMYRMDYWvuVLYfM9h3WjjF5txzUZg9WwWcgkg=",
-        "originContent": "    ***PLEASE NOTE***: Installing this does require the sharing of your email address with me (and only me).  You are given other notice of this, but it's become and remains such an issue that I feel the need to make it OVER-abundantly clear.  If you take issue with sharing your email address with me (mine is 667@june07.com by the way) please, I implore you to clone/fork a copy yourself and change what you don't like about the code and/or use alternate solutions (none of which are as good as NiM, but call me biased).  Further feel free to contact me directly and have a chat.  Unlike the behemoths like Facebook, Google, Amazon that you probably (and without hesitation) share your email address with, I actually care about the concerns of the actual people who choose to use the code I wrote (~99%) and am responsible for.  Here is the privacy policy that goes along with NiM https://june07.com/privacypolicy.  Thank you so much.",
-        "translatedContent": "    ***주의***: 설치 시 사용자 이메일 주소를 저(개발자)와 공유해야 합니다(저와만 공유). 이 점은 별도로 공지되지만, 여전히 매우 중요한 문제라 과도하게 명확히 알립니다. 이메일 공유가 꺼려지면(참고로 제 이메일은 667@june07.com 입니다) 직접 복제(fork)하여 코드를 수정하거나 대체 솔루션을 사용하시기 바랍니다(대체 솔루션은 NiM만큼 좋지 않습니다만 편견일지도 모릅니다). 언제든지 직접 연락 주셔서 대화할 수도 있습니다. 페이스북, 구글, 아마존 같은 대기업과는 달리, 저는 제 코드를 사용하는 실제 사용자들(~99%)의 우려를 진심으로 신경 씁니다. NiM 관련 개인정보처리방침은 https://june07.com/privacypolicy 에서 확인하세요. 감사합니다."
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 25,
-        "rowsha": "Xwfh8rQOsW7L9hIyaxEbBGI8MEc0O+pSO+/dDlCipsg=",
-        "originContent": "## Blog Posts/Updates:",
-        "translatedContent": "## 블로그 게시물/업데이트:"
-      },
-      {
-        "row": 26,
-        "rowsha": "mV617/EDJApKgpw3hSakE+ouA4yi7GkEynSS9+J31SE=",
-        "originContent": "* Why I wrote NiM https://blog.june07.com/inspect-broke-my-workflow/",
-        "translatedContent": "* NiM을 만든 이유 https://blog.june07.com/inspect-broke-my-workflow/"
-      },
-      {
-        "row": 27,
-        "rowsha": "yFdlE+Oj78TgjMnWs0HFtB2+DVlzvzmaYfMeRXODpow=",
-        "originContent": "* Custom DevTools feature: https://blog.june07.com/nim-custom-devtools-url/",
-        "translatedContent": "* 커스텀 DevTools 기능: https://blog.june07.com/nim-custom-devtools-url/"
-      },
-      {
-        "row": 28,
-        "rowsha": "meb/bqo6eNRRi/FEZo0CkuDqy+ClcGVWodmEP1c/Kxc=",
-        "originContent": "## Easier than `about::inspect (chrome://inspect/#devices)`",
-        "translatedContent": "## `about::inspect (chrome://inspect/#devices)` 보다 쉽습니다"
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 30,
-        "rowsha": "uk7DAJvzJ1jdICz4UuXbodiuRyDhX8JHHBz9qpVj2GU=",
-        "originContent": "NiM manages the Chrome DevTools window/tab lifecycle leaving you with more ability to focus on what matters... debugging your code.  You no longer need to copy/paste DevTools URL's or continue opening/closing tabs/windows.",
-        "translatedContent": "NiM은 Chrome DevTools 창/탭의 수명주기를 관리하여, 당신이 코드 디버깅에 더 집중할 수 있도록 합니다. 더 이상 DevTools URL을 복사/붙여넣거나 탭/창을 계속 열고 닫을 필요가 없습니다."
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 32,
-        "rowsha": "M5UoaQBhbQqxJhVKC6BTRKJfNxAkXJZ8QCK6Ja/+ku0=",
-        "originContent": "NiM automatically detects the URL that is generated when running node (locally or remotely) with --inspect option. NiM provides you with the option of automatically opening and closing Chrome DevTools in a tab or window. Just toggle the Manual/Auto setting and then start a debugging session.  DevTools will open either on clicking the \"Open DevTools\" button or after the specified timeout period.  If set to auto close, once you end your debugging session, The DevTools tab/window will close automatically.",
-        "translatedContent": "NiM은 --inspect 옵션으로 node를 실행할 때 생성되는 URL을 자동으로 감지합니다(로컬 또는 원격). NiM은 Chrome DevTools를 탭이나 창에서 자동으로 열고 닫는 옵션을 제공합니다. 수동/자동 설정을 전환한 뒤 디버깅 세션을 시작하세요. \"Open DevTools\" 버튼 클릭 시 또는 지정한 시간 후에 DevTools가 열립니다. 자동 닫기 설정 시 디버깅 세션 종료 후 DevTools 탭/창이 자동으로 닫힙니다."
-      },
-      {
-        "row": 33,
-        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
-        "originContent": " ",
-        "translatedContent": " "
-      },
-      {
-        "row": 34,
-        "rowsha": "nGvS9qzsLwPFxF13qxpznazD7zQgH6fhHLDwbCODTYY=",
-        "originContent": " * Manage and monitor local and remote debugging sessions",
-        "translatedContent": " * 로컬 및 원격 디버깅 세션 관리 및 모니터링"
-      },
-      {
-        "row": 35,
-        "rowsha": "xDswDDY6W45XWnUshphsALqF2HtivN1VhY3lNGBnFA4=",
-        "originContent": " * Manual or automatic control of DevTools interface",
-        "translatedContent": " * DevTools 인터페이스 수동 또는 자동 제어"
-      },
-      {
-        "row": 36,
-        "rowsha": "QSq8O/ZNgArEeg9Aqg4VvytWR3eyXa2Dd1YCl9QEfDo=",
-        "originContent": " * Open DevTools in a new tab or window",
-        "translatedContent": " * 새 탭 또는 창에서 DevTools 열기"
-      },
-      {
-        "row": 37,
-        "rowsha": "x9oy+EEEHO03AvgKi2H2u4iTKFMwd5+uMmlW6u8cMls=",
-        "originContent": " * Make DevTools focused or inactive on start",
-        "translatedContent": " * 시작 시 DevTools 포커스 활성화 또는 비활성화 설정"
-      },
-      {
-        "row": 38,
-        "rowsha": "sALk/oumq9vVvVGCV1zP2olhbKc/luiXyKIjq+ZTos0=",
-        "originContent": " * Customize duration between v8 Inspector probes",
-        "translatedContent": " * v8 Inspector 프로브 간격 사용자 지정"
-      },
-      {
-        "row": 39,
-        "rowsha": "o/dX/H6E/7mfJcxXv24aS1XeAWXJjyn+zz73Q2sAMhs=",
-        "originContent": " * Autosave settings",
-        "translatedContent": " * 설정 자동 저장"
-      },
-      {
-        "row": 40,
-        "rowsha": "2kazHp5l6Nd1Wa9G1qKyu0cYwt0GmjTR/nLq5OZ8nNI=",
-        "originContent": " * Debug node processes launched by [VSCode](https://imgur.com/download/PRMn9md)",
-        "translatedContent": " * [VSCode](https://imgur.com/download/PRMn9md)에서 실행된 노드 프로세스 디버깅"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "\n\n## Setup / Usage / How To\n\nSimple and basic... just install the Chrome Extension in any of the following ways:\n\n1. Install via Chrome Web Store:\n    https://bit.ly/2W8hQG9 (https://chrome.google.com/webstore/detail/gnhhdgbaldcilmgcpfddgdbkhjohddkj)\n2. Or, download .crx file directly from releases as shown here:\n\n![https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif](https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif)\n\n\n\n# Need Additional Information?\n* NiM post install page provides some help [https://blog.june07.com/nim-install](https://blog.june07.com/nim-install/)\n* Debugging NiM itself [https://blog.june07.com/debugging-nim/](https://blog.june07.com/debugging-nim/)\n\n*Note: At the time of writing, the v8 --inspect option is fairly new. See https://nodejs.org/api/debugger.html#debugger_v8_inspector_integration_for_node_js for additional details on the option.*\n#### If you enjoy using NIM please [give us a 5 star rating and/or a G+1.](https://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviewshttps://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviews)\n\nAny and all feedback is encouraged and welcome.  [Send us an email!](https://raw.githubusercontent.com/june07/NiM/master/mailto:667@june07.com)\n\n<!--\n[![IPv4 Lease](https://june07.github.io/image/EVERYTHING.jpg)](https://june07.com/blog/ipv4/?utm_source=NiM&utm_medium=options%20page&utm_campaign=ipv4&utm_content=2)\n-->\n\n<div style=\"display:flex; justify-content:center;\">\n  <a href=\"https://m.do.co/c/fe4184318b19\" target=\"_blank\" rel=\"noopener\"><IMG border=\"0\" alt=\"Digitalocean $100 Credit\" src=\"https://june07.github.io/image/digitalocean-credit.png\"></a>\n</div>\n",
-    "ContentSha": "iAYiicDZlTrzxGfua/vJjlIYkBapUlNn8pkNM1Dj+as=",
+    "Content": "[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=ratings&query=%24.ratingCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)\n\n<!--The ratings badges are currently broken due to [this](https://github.com/badges/shields/issues/5475) and [this](https://github.com/pandawing/node-chrome-web-store-item-property/issues/275#issuecomment-687801815).-->\n\n#### See https://github.com/june07/nimv3 for updates as the project was upgraded to Manifest Version 3 due to Google's change.\n\n[![https://nim.june07.com](https://june07.github.io/image/smallPromoTile.png)](https://nim.june07.com) [![https://nim.june07.com](https://github.com/june07/nimv3/assets/11353590/e6f30f3f-4ae5-4831-bafa-392eaeff66fd)](https://nim.june07.com)\n\n# NiM (Node.js --inspector Manager)\n###### Streamlines your development process\n\n* [Google Chrome Web Store]([http://bit.ly/2W8hQG9](https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj?utm_source=github&utm_medium=readme&utm_campaign=nim&utm_content=1)) (works with any Chromium browsers: [Google's Chrome](https://www.google.com/chrome/), [Microsoft's Edge](https://www.microsoftedgeinsider.com/en-us/, ), [Opera](https://www.opera.com/), [Vivaldi](https://vivaldi.com/), [Brave](https://brave.com/), [Epic](https://www.epicbrowser.com/), and more...  )\n* [Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme) (Works with the Microsoft's Edge browser https://www.microsoftedgeinsider.com/en-us/) \n\n    ***PLEASE NOTE***: Installing this does require the sharing of your email address with me (and only me).  You are given other notice of this, but it's become and remains such an issue that I feel the need to make it OVER-abundantly clear.  If you take issue with sharing your email address with me (mine is 667@june07.com by the way) please, I implore you to clone/fork a copy yourself and change what you don't like about the code and/or use alternate solutions (none of which are as good as NiM, but call me biased).  Further feel free to contact me directly and have a chat.  Unlike the behemoths like Facebook, Google, Amazon that you probably (and without hesitation) share your email address with, I actually care about the concerns of the actual people who choose to use the code I wrote (~99%) and am responsible for.  Here is the privacy policy that goes along with NiM https://june07.com/privacypolicy.  Thank you so much.\n\n## Blog Posts/Updates:\n* Why I wrote NiM https://blog.june07.com/inspect-broke-my-workflow/\n* Custom DevTools feature: https://blog.june07.com/nim-custom-devtools-url/\n## Easier than `about::inspect (chrome://inspect/#devices)`\n\nNiM manages the Chrome DevTools window/tab lifecycle leaving you with more ability to focus on what matters... debugging your code.  You no longer need to copy/paste DevTools URL's or continue opening/closing tabs/windows.\n\nNiM automatically detects the URL that is generated when running node (locally or remotely) with --inspect option. NiM provides you with the option of automatically opening and closing Chrome DevTools in a tab or window. Just toggle the Manual/Auto setting and then start a debugging session.  DevTools will open either on clicking the \"Open DevTools\" button or after the specified timeout period.  If set to auto close, once you end your debugging session, The DevTools tab/window will close automatically.\n \n * Manage and monitor local and remote debugging sessions\n * Manual or automatic control of DevTools interface\n * Open DevTools in a new tab or window\n * Make DevTools focused or inactive on start\n * Customize duration between v8 Inspector probes\n * Autosave settings\n * Debug node processes launched by [VSCode](https://imgur.com/download/PRMn9md)\n\n\n## Setup / Usage / How To\n\nSimple and basic... just install the Chrome Extension in any of the following ways:\n\n1. Install via Chrome Web Store:\n    https://bit.ly/2W8hQG9 (https://chrome.google.com/webstore/detail/gnhhdgbaldcilmgcpfddgdbkhjohddkj)",
+    "ContentSha": "WbtqvS+QCK4ILCd9uB6m8wMOpRZWnmAc+tvAQg1Wxbo=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "## 설치 / 사용법 / 방법\n\n간단하고 기본적입니다... 다음 방법 중 하나로 Chrome 확장 프로그램을 설치하세요:\n\n1. Chrome 웹 스토어에서 설치:\n    https://bit.ly/2W8hQG9 (https://chrome.google.com/webstore/detail/gnhhdgbaldcilmgcpfddgdbkhjohddkj)\n2. 또는, 릴리즈에서 .crx 파일을 직접 다운로드하세요:\n\n![https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif](https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif)\n\n\n\n# 추가 정보가 필요하신가요?\n* NiM 설치 후 페이지에서 도움을 제공합니다 [https://blog.june07.com/nim-install](https://blog.june07.com/nim-install/)\n* NiM 자체 디버깅 방법 [https://blog.june07.com/debugging-nim/](https://blog.june07.com/debugging-nim/)\n\n*참고: 작성 시점에 v8 --inspect 옵션은 비교적 새롭습니다. 옵션에 대한 추가 정보는 https://nodejs.org/api/debugger.html#debugger_v8_inspector_integration_for_node_js 를 참조하세요.*\n#### NIM 사용이 즐거우셨다면 [5성 평가 및/또는 G+1을 부탁드립니다.](https://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviewshttps://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviews)\n\n모든 피드백은 환영하며 권장합니다.  [이메일을 보내주세요!](https://raw.githubusercontent.com/june07/NiM/master/mailto:667@june07.com)\n\n<!--\n[![IPv4 Lease](https://june07.github.io/image/EVERYTHING.jpg)](https://june07.com/blog/ipv4/?utm_source=NiM&utm_medium=options%20page&utm_campaign=ipv4&utm_content=2)\n-->\n\n<div style=\"display:flex; justify-content:center;\">\n  <a href=\"https://m.do.co/c/fe4184318b19\" target=\"_blank\" rel=\"noopener\"><IMG border=\"0\" alt=\"Digitalocean $100 Credit\" src=\"https://june07.github.io/image/digitalocean-credit.png\"></a>\n</div>\n\n\n",
+    "Translation": "[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=ratings&query=%24.ratingCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)\n\n<!--평가 배지는 현재 [이 문제](https://github.com/badges/shields/issues/5475)와 [이 문제](https://github.com/pandawing/node-chrome-web-store-item-property/issues/275#issuecomment-687801815)로 인해 작동하지 않습니다.-->\n\n#### 구글의 변경으로 프로젝트가 Manifest Version 3으로 업그레이드 되었으므로, 최신 정보는 https://github.com/june07/nimv3 를 참고하세요.\n\n[![https://nim.june07.com](https://june07.github.io/image/smallPromoTile.png)](https://nim.june07.com) [![https://nim.june07.com](https://github.com/june07/nimv3/assets/11353590/e6f30f3f-4ae5-4831-bafa-392eaeff66fd)](https://nim.june07.com)\n\n# NiM (Node.js --inspector Manager)\n###### 개발 프로세스를 간소화합니다\n\n* [Google Chrome 웹 스토어]([http://bit.ly/2W8hQG9](https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj?utm_source=github&utm_medium=readme&utm_campaign=nim&utm_content=1)) (모든 Chromium 브라우저에서 작동: [Google의 Chrome](https://www.google.com/chrome/), [Microsoft의 Edge](https://www.microsoftedgeinsider.com/en-us/, ), [Opera](https://www.opera.com/), [Vivaldi](https://vivaldi.com/), [Brave](https://brave.com/), [Epic](https://www.epicbrowser.com/) 등에서 사용 가능)\n* [Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme) (Microsoft의 Edge 브라우저에서 작동 https://www.microsoftedgeinsider.com/en-us/) \n\n    ***꼭 알아두세요***: 설치 시 반드시 이메일 주소를 저(오직 저에게만)와 공유해야 합니다. 이 점에 대해 여러 번 안내하지만, 문제가 계속되어 너무나 명확하게 말씀드립니다. 저와 이메일 주소 공유에 불만이 있다면(제 이메일은 667@june07.com입니다), 복제/포크하여 직접 코드를 수정하거나 다른 대안을 사용하시길 권장합니다(아무리 NiM만큼 좋지 않더라도, 편견일 수 있습니다). 또한 언제든 직접 연락하셔서 대화하셔도 됩니다. 페이스북, 구글, 아마존처럼 이메일을 아무렇지 않게 공유하는 대형 기업들과 달리, 저는 실제로 제 코드를 사용하는 (~99%) 분들의 우려에 신경 씁니다. NiM의 개인정보 보호정책은 https://june07.com/privacypolicy 에서 확인 가능합니다. 감사합니다.\n\n## 블로그 글/업데이트:\n* NiM을 개발한 이유 https://blog.june07.com/inspect-broke-my-workflow/\n* 커스텀 DevTools 기능: https://blog.june07.com/nim-custom-devtools-url/\n## `about::inspect (chrome://inspect/#devices)`보다 더 쉽습니다\n\nNiM은 Chrome DevTools 창/탭의 라이프사이클을 관리하여, 코드 디버깅에 더 집중할 수 있게 해줍니다. 이제 DevTools URL을 복사/붙여넣기 하거나 탭/창을 반복해서 열고 닫을 필요가 없습니다.\n\nNiM은 node를 --inspect 옵션으로 실행할 때 생성되는 URL을 자동으로 감지합니다(로컬 또는 원격). NiM은 Chrome DevTools를 탭 또는 창으로 자동 또는 수동으로 열고 닫을 수 있는 옵션을 제공합니다. Manual/Auto 설정을 전환한 후 디버깅 세션을 시작하세요. \"Open DevTools\" 버튼을 클릭하거나 지정된 대기 시간 후에 DevTools가 열립니다. 자동 닫기 설정 시, 디버깅 세션이 끝나면 DevTools 탭/창도 자동으로 닫힙니다.\n \n * 로컬 및 원격 디버깅 세션 관리 및 모니터링\n * DevTools 인터페이스 수동 또는 자동 제어\n * 새 탭 또는 창에서 DevTools 열기\n * DevTools를 시작 시 활성화 또는 비활성화 설정\n * v8 Inspector 프로브 간의 간격 커스터마이즈\n * 자동 설정 저장\n * [VSCode](https://imgur.com/download/PRMn9md)로 실행된 노드 프로세스 디버깅\n\n\n## 설정 / 사용법 / 방법\n\n아주 간단합니다... 다음 방법 중 하나로 Chrome 확장 프로그램을 설치하세요:\n\n1. Chrome 웹 스토어에서 설치:\n    https://bit.ly/2W8hQG9 (https://chrome.google.com/webstore/detail/gnhhdgbaldcilmgcpfddgdbkhjohddkj)",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 설치 / 사용법 / 방법"
+        "rowsha": "IyIlIlCcLwfXW5AhOccilh4HexeOZnbHOsQX13oRHXc=",
+        "originContent": "[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=ratings&query=%24.ratingCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)",
+        "translatedContent": "[![https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme](https://img.shields.io/badge/dynamic/json?label=ratings&query=%24.ratingCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Finjfmegnapmoakbmnmnecjabigpdjeme)](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme)"
       },
       {
         "row": 2,
@@ -276,9 +276,9 @@
       },
       {
         "row": 3,
-        "rowsha": "MCeBZYlk61Y9Vfs4iVZxf/hPsbVfaG8BCIL/AvBFoYM=",
-        "originContent": "## Setup / Usage / How To",
-        "translatedContent": "간단하고 기본적입니다... 다음 방법 중 하나로 Chrome 확장 프로그램을 설치하세요:"
+        "rowsha": "NDvHktKhTD1ausB7r37nc0jKj/+bD8unIynFaFMFQvk=",
+        "originContent": "<!--The ratings badges are currently broken due to [this](https://github.com/badges/shields/issues/5475) and [this](https://github.com/pandawing/node-chrome-web-store-item-property/issues/275#issuecomment-687801815).-->",
+        "translatedContent": "<!--평가 배지는 현재 [이 문제](https://github.com/badges/shields/issues/5475)와 [이 문제](https://github.com/pandawing/node-chrome-web-store-item-property/issues/275#issuecomment-687801815)로 인해 작동하지 않습니다.-->"
       },
       {
         "row": 4,
@@ -288,99 +288,99 @@
       },
       {
         "row": 5,
-        "rowsha": "gaHdJtyWpySrs4NcPvH0bvzGU6tt6VbgImqsRGJIGDg=",
-        "originContent": "Simple and basic... just install the Chrome Extension in any of the following ways:",
-        "translatedContent": "1. Chrome 웹 스토어에서 설치:"
+        "rowsha": "MKpCxF/T1UPjemBLrxx8Cg6w++TGWRFIVxWP2ttAWDQ=",
+        "originContent": "#### See https://github.com/june07/nimv3 for updates as the project was upgraded to Manifest Version 3 due to Google's change.",
+        "translatedContent": "#### 구글의 변경으로 프로젝트가 Manifest Version 3으로 업그레이드 되었으므로, 최신 정보는 https://github.com/june07/nimv3 를 참고하세요."
       },
       {
         "row": 6,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "    https://bit.ly/2W8hQG9 (https://chrome.google.com/webstore/detail/gnhhdgbaldcilmgcpfddgdbkhjohddkj)"
+        "translatedContent": ""
       },
       {
         "row": 7,
-        "rowsha": "Qm332dHvqrk6AtLe+T1Jr+HwVO9tvvxP29FyMCaQ6bY=",
-        "originContent": "1. Install via Chrome Web Store:",
-        "translatedContent": "2. 또는, 릴리즈에서 .crx 파일을 직접 다운로드하세요:"
+        "rowsha": "O5P0xzkX/KLFCVDAG6uWeRJFYqgKMC+/f/fHiEUsncg=",
+        "originContent": "[![https://nim.june07.com](https://june07.github.io/image/smallPromoTile.png)](https://nim.june07.com) [![https://nim.june07.com](https://github.com/june07/nimv3/assets/11353590/e6f30f3f-4ae5-4831-bafa-392eaeff66fd)](https://nim.june07.com)",
+        "translatedContent": "[![https://nim.june07.com](https://june07.github.io/image/smallPromoTile.png)](https://nim.june07.com) [![https://nim.june07.com](https://github.com/june07/nimv3/assets/11353590/e6f30f3f-4ae5-4831-bafa-392eaeff66fd)](https://nim.june07.com)"
       },
       {
         "row": 8,
-        "rowsha": "80KYJ3Kw3X5fvMIurImBTFvN3z6kuktz1ghIXBJ2RLo=",
-        "originContent": "    https://bit.ly/2W8hQG9 (https://chrome.google.com/webstore/detail/gnhhdgbaldcilmgcpfddgdbkhjohddkj)",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 9,
-        "rowsha": "7ionDZvP5lV2f5SlxRJfJbS0w2/oR4AnrwguUtybDUg=",
-        "originContent": "2. Or, download .crx file directly from releases as shown here:",
-        "translatedContent": "![https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif](https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif)"
+        "rowsha": "6Ks72wVs0bIUg9dskvcPG4eA2mibhAic8QPsUkdVTdM=",
+        "originContent": "# NiM (Node.js --inspector Manager)",
+        "translatedContent": "# NiM (Node.js --inspector Manager)"
       },
       {
         "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "27dlFh22PHph4FsUvbI0FTJi2Ix8jmQFKOeGiJte9xo=",
+        "originContent": "###### Streamlines your development process",
+        "translatedContent": "###### 개발 프로세스를 간소화합니다"
       },
       {
         "row": 11,
-        "rowsha": "HrXGi3KnoAxdaOz17s5YH0QiDR0zdauwC72EV5qe0pU=",
-        "originContent": "![https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif](https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif)",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "wdtCuW7LkaM9e3V6+hUjL/K/sW4NyzwIKw564IZ/SVY=",
+        "originContent": "* [Google Chrome Web Store]([http://bit.ly/2W8hQG9](https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj?utm_source=github&utm_medium=readme&utm_campaign=nim&utm_content=1)) (works with any Chromium browsers: [Google's Chrome](https://www.google.com/chrome/), [Microsoft's Edge](https://www.microsoftedgeinsider.com/en-us/, ), [Opera](https://www.opera.com/), [Vivaldi](https://vivaldi.com/), [Brave](https://brave.com/), [Epic](https://www.epicbrowser.com/), and more...  )",
+        "translatedContent": "* [Google Chrome 웹 스토어]([http://bit.ly/2W8hQG9](https://chromewebstore.google.com/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj?utm_source=github&utm_medium=readme&utm_campaign=nim&utm_content=1)) (모든 Chromium 브라우저에서 작동: [Google의 Chrome](https://www.google.com/chrome/), [Microsoft의 Edge](https://www.microsoftedgeinsider.com/en-us/, ), [Opera](https://www.opera.com/), [Vivaldi](https://vivaldi.com/), [Brave](https://brave.com/), [Epic](https://www.epicbrowser.com/) 등에서 사용 가능)"
       },
       {
         "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "# 추가 정보가 필요하신가요?"
+        "rowsha": "mAlqBuo/CnRPEDCozON29msZYp3kl8CaD+/dGvY4PnE=",
+        "originContent": "* [Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme) (Works with the Microsoft's Edge browser https://www.microsoftedgeinsider.com/en-us/) ",
+        "translatedContent": "* [Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/injfmegnapmoakbmnmnecjabigpdjeme) (Microsoft의 Edge 브라우저에서 작동 https://www.microsoftedgeinsider.com/en-us/) "
       },
       {
         "row": 14,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "* NiM 설치 후 페이지에서 도움을 제공합니다 [https://blog.june07.com/nim-install](https://blog.june07.com/nim-install/)"
+        "translatedContent": ""
       },
       {
         "row": 15,
-        "rowsha": "ya1wnuVgicD+fJ+GULK0FRPlhFINyFpPGulqNHgLXFc=",
-        "originContent": "# Need Additional Information?",
-        "translatedContent": "* NiM 자체 디버깅 방법 [https://blog.june07.com/debugging-nim/](https://blog.june07.com/debugging-nim/)"
+        "rowsha": "SMXQj6TMYRMDYWvuVLYfM9h3WjjF5txzUZg9WwWcgkg=",
+        "originContent": "    ***PLEASE NOTE***: Installing this does require the sharing of your email address with me (and only me).  You are given other notice of this, but it's become and remains such an issue that I feel the need to make it OVER-abundantly clear.  If you take issue with sharing your email address with me (mine is 667@june07.com by the way) please, I implore you to clone/fork a copy yourself and change what you don't like about the code and/or use alternate solutions (none of which are as good as NiM, but call me biased).  Further feel free to contact me directly and have a chat.  Unlike the behemoths like Facebook, Google, Amazon that you probably (and without hesitation) share your email address with, I actually care about the concerns of the actual people who choose to use the code I wrote (~99%) and am responsible for.  Here is the privacy policy that goes along with NiM https://june07.com/privacypolicy.  Thank you so much.",
+        "translatedContent": "    ***꼭 알아두세요***: 설치 시 반드시 이메일 주소를 저(오직 저에게만)와 공유해야 합니다. 이 점에 대해 여러 번 안내하지만, 문제가 계속되어 너무나 명확하게 말씀드립니다. 저와 이메일 주소 공유에 불만이 있다면(제 이메일은 667@june07.com입니다), 복제/포크하여 직접 코드를 수정하거나 다른 대안을 사용하시길 권장합니다(아무리 NiM만큼 좋지 않더라도, 편견일 수 있습니다). 또한 언제든 직접 연락하셔서 대화하셔도 됩니다. 페이스북, 구글, 아마존처럼 이메일을 아무렇지 않게 공유하는 대형 기업들과 달리, 저는 실제로 제 코드를 사용하는 (~99%) 분들의 우려에 신경 씁니다. NiM의 개인정보 보호정책은 https://june07.com/privacypolicy 에서 확인 가능합니다. 감사합니다."
       },
       {
         "row": 16,
-        "rowsha": "v9NZA4ESJG8Lxn/ysAU89Q3492qnn1f9ebwtVu3aGjo=",
-        "originContent": "* NiM post install page provides some help [https://blog.june07.com/nim-install](https://blog.june07.com/nim-install/)",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 17,
-        "rowsha": "cPcNDEHZY2IxrR3bCRaaWQzTVlgY/5rjfaluZG8VLzU=",
-        "originContent": "* Debugging NiM itself [https://blog.june07.com/debugging-nim/](https://blog.june07.com/debugging-nim/)",
-        "translatedContent": "*참고: 작성 시점에 v8 --inspect 옵션은 비교적 새롭습니다. 옵션에 대한 추가 정보는 https://nodejs.org/api/debugger.html#debugger_v8_inspector_integration_for_node_js 를 참조하세요.*"
+        "rowsha": "Xwfh8rQOsW7L9hIyaxEbBGI8MEc0O+pSO+/dDlCipsg=",
+        "originContent": "## Blog Posts/Updates:",
+        "translatedContent": "## 블로그 글/업데이트:"
       },
       {
         "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "#### NIM 사용이 즐거우셨다면 [5성 평가 및/또는 G+1을 부탁드립니다.](https://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviewshttps://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviews)"
+        "rowsha": "mV617/EDJApKgpw3hSakE+ouA4yi7GkEynSS9+J31SE=",
+        "originContent": "* Why I wrote NiM https://blog.june07.com/inspect-broke-my-workflow/",
+        "translatedContent": "* NiM을 개발한 이유 https://blog.june07.com/inspect-broke-my-workflow/"
       },
       {
         "row": 19,
-        "rowsha": "CB7YVYjYFvvGNlk8RmEOVlGHKzmqpLVLzhvPZaVkzGs=",
-        "originContent": "*Note: At the time of writing, the v8 --inspect option is fairly new. See https://nodejs.org/api/debugger.html#debugger_v8_inspector_integration_for_node_js for additional details on the option.*",
-        "translatedContent": ""
+        "rowsha": "yFdlE+Oj78TgjMnWs0HFtB2+DVlzvzmaYfMeRXODpow=",
+        "originContent": "* Custom DevTools feature: https://blog.june07.com/nim-custom-devtools-url/",
+        "translatedContent": "* 커스텀 DevTools 기능: https://blog.june07.com/nim-custom-devtools-url/"
       },
       {
         "row": 20,
-        "rowsha": "66Ed7/6JYBFHXpMR7amKAK1uMExTca0AYepwiwlTbcM=",
-        "originContent": "#### If you enjoy using NIM please [give us a 5 star rating and/or a G+1.](https://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviewshttps://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviews)",
-        "translatedContent": "모든 피드백은 환영하며 권장합니다.  [이메일을 보내주세요!](https://raw.githubusercontent.com/june07/NiM/master/mailto:667@june07.com)"
+        "rowsha": "meb/bqo6eNRRi/FEZo0CkuDqy+ClcGVWodmEP1c/Kxc=",
+        "originContent": "## Easier than `about::inspect (chrome://inspect/#devices)`",
+        "translatedContent": "## `about::inspect (chrome://inspect/#devices)`보다 더 쉽습니다"
       },
       {
         "row": 21,
@@ -390,60 +390,265 @@
       },
       {
         "row": 22,
-        "rowsha": "M2QQrt18ead3ugWxrIwRljfJV2uNL+L7U1FMG2uye6Y=",
-        "originContent": "Any and all feedback is encouraged and welcome.  [Send us an email!](https://raw.githubusercontent.com/june07/NiM/master/mailto:667@june07.com)",
-        "translatedContent": "<!--"
+        "rowsha": "uk7DAJvzJ1jdICz4UuXbodiuRyDhX8JHHBz9qpVj2GU=",
+        "originContent": "NiM manages the Chrome DevTools window/tab lifecycle leaving you with more ability to focus on what matters... debugging your code.  You no longer need to copy/paste DevTools URL's or continue opening/closing tabs/windows.",
+        "translatedContent": "NiM은 Chrome DevTools 창/탭의 라이프사이클을 관리하여, 코드 디버깅에 더 집중할 수 있게 해줍니다. 이제 DevTools URL을 복사/붙여넣기 하거나 탭/창을 반복해서 열고 닫을 필요가 없습니다."
       },
       {
         "row": 23,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "[![IPv4 Lease](https://june07.github.io/image/EVERYTHING.jpg)](https://june07.com/blog/ipv4/?utm_source=NiM&utm_medium=options%20page&utm_campaign=ipv4&utm_content=2)"
+        "translatedContent": ""
       },
       {
         "row": 24,
-        "rowsha": "06wl3ce6l3nAVW1UPkmU0Vjhalo1k0ehMh3SNvGvC2c=",
-        "originContent": "<!--",
-        "translatedContent": "-->"
+        "rowsha": "M5UoaQBhbQqxJhVKC6BTRKJfNxAkXJZ8QCK6Ja/+ku0=",
+        "originContent": "NiM automatically detects the URL that is generated when running node (locally or remotely) with --inspect option. NiM provides you with the option of automatically opening and closing Chrome DevTools in a tab or window. Just toggle the Manual/Auto setting and then start a debugging session.  DevTools will open either on clicking the \"Open DevTools\" button or after the specified timeout period.  If set to auto close, once you end your debugging session, The DevTools tab/window will close automatically.",
+        "translatedContent": "NiM은 node를 --inspect 옵션으로 실행할 때 생성되는 URL을 자동으로 감지합니다(로컬 또는 원격). NiM은 Chrome DevTools를 탭 또는 창으로 자동 또는 수동으로 열고 닫을 수 있는 옵션을 제공합니다. Manual/Auto 설정을 전환한 후 디버깅 세션을 시작하세요. \"Open DevTools\" 버튼을 클릭하거나 지정된 대기 시간 후에 DevTools가 열립니다. 자동 닫기 설정 시, 디버깅 세션이 끝나면 DevTools 탭/창도 자동으로 닫힙니다."
       },
       {
         "row": 25,
-        "rowsha": "l9uDJSx6O/ObGfSMAR4yniQkQ8Qki30DUmva3ItKx6E=",
-        "originContent": "[![IPv4 Lease](https://june07.github.io/image/EVERYTHING.jpg)](https://june07.com/blog/ipv4/?utm_source=NiM&utm_medium=options%20page&utm_campaign=ipv4&utm_content=2)",
-        "translatedContent": ""
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
       },
       {
         "row": 26,
-        "rowsha": "XVud5tm5Xz4MlQr+dCpbs5yyX25uiGwQYDMQt788ujU=",
-        "originContent": "-->",
-        "translatedContent": "<div style=\"display:flex; justify-content:center;\">"
+        "rowsha": "nGvS9qzsLwPFxF13qxpznazD7zQgH6fhHLDwbCODTYY=",
+        "originContent": " * Manage and monitor local and remote debugging sessions",
+        "translatedContent": " * 로컬 및 원격 디버깅 세션 관리 및 모니터링"
       },
       {
         "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "  <a href=\"https://m.do.co/c/fe4184318b19\" target=\"_blank\" rel=\"noopener\"><IMG border=\"0\" alt=\"Digitalocean $100 Credit\" src=\"https://june07.github.io/image/digitalocean-credit.png\"></a>"
+        "rowsha": "xDswDDY6W45XWnUshphsALqF2HtivN1VhY3lNGBnFA4=",
+        "originContent": " * Manual or automatic control of DevTools interface",
+        "translatedContent": " * DevTools 인터페이스 수동 또는 자동 제어"
       },
       {
         "row": 28,
-        "rowsha": "amC+cxJbyzn7LaMhzhpGNhRK0PNovarMUFU3jAQbasQ=",
-        "originContent": "<div style=\"display:flex; justify-content:center;\">",
-        "translatedContent": "</div>"
+        "rowsha": "QSq8O/ZNgArEeg9Aqg4VvytWR3eyXa2Dd1YCl9QEfDo=",
+        "originContent": " * Open DevTools in a new tab or window",
+        "translatedContent": " * 새 탭 또는 창에서 DevTools 열기"
       },
       {
         "row": 29,
-        "rowsha": "QAj75JlzHEP5kdjeiIKzJHz6mU5Gr6EuE08qZNluvcQ=",
-        "originContent": "  <a href=\"https://m.do.co/c/fe4184318b19\" target=\"_blank\" rel=\"noopener\"><IMG border=\"0\" alt=\"Digitalocean $100 Credit\" src=\"https://june07.github.io/image/digitalocean-credit.png\"></a>",
-        "translatedContent": ""
+        "rowsha": "x9oy+EEEHO03AvgKi2H2u4iTKFMwd5+uMmlW6u8cMls=",
+        "originContent": " * Make DevTools focused or inactive on start",
+        "translatedContent": " * DevTools를 시작 시 활성화 또는 비활성화 설정"
       },
       {
         "row": 30,
-        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-        "originContent": "</div>",
-        "translatedContent": ""
+        "rowsha": "sALk/oumq9vVvVGCV1zP2olhbKc/luiXyKIjq+ZTos0=",
+        "originContent": " * Customize duration between v8 Inspector probes",
+        "translatedContent": " * v8 Inspector 프로브 간의 간격 커스터마이즈"
       },
       {
         "row": 31,
+        "rowsha": "o/dX/H6E/7mfJcxXv24aS1XeAWXJjyn+zz73Q2sAMhs=",
+        "originContent": " * Autosave settings",
+        "translatedContent": " * 자동 설정 저장"
+      },
+      {
+        "row": 32,
+        "rowsha": "2kazHp5l6Nd1Wa9G1qKyu0cYwt0GmjTR/nLq5OZ8nNI=",
+        "originContent": " * Debug node processes launched by [VSCode](https://imgur.com/download/PRMn9md)",
+        "translatedContent": " * [VSCode](https://imgur.com/download/PRMn9md)로 실행된 노드 프로세스 디버깅"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "MCeBZYlk61Y9Vfs4iVZxf/hPsbVfaG8BCIL/AvBFoYM=",
+        "originContent": "## Setup / Usage / How To",
+        "translatedContent": "## 설정 / 사용법 / 방법"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "gaHdJtyWpySrs4NcPvH0bvzGU6tt6VbgImqsRGJIGDg=",
+        "originContent": "Simple and basic... just install the Chrome Extension in any of the following ways:",
+        "translatedContent": "아주 간단합니다... 다음 방법 중 하나로 Chrome 확장 프로그램을 설치하세요:"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "Qm332dHvqrk6AtLe+T1Jr+HwVO9tvvxP29FyMCaQ6bY=",
+        "originContent": "1. Install via Chrome Web Store:",
+        "translatedContent": "1. Chrome 웹 스토어에서 설치:"
+      },
+      {
+        "row": 40,
+        "rowsha": "80KYJ3Kw3X5fvMIurImBTFvN3z6kuktz1ghIXBJ2RLo=",
+        "originContent": "    https://bit.ly/2W8hQG9 (https://chrome.google.com/webstore/detail/gnhhdgbaldcilmgcpfddgdbkhjohddkj)",
+        "translatedContent": "    https://bit.ly/2W8hQG9 (https://chrome.google.com/webstore/detail/gnhhdgbaldcilmgcpfddgdbkhjohddkj)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "2. Or, download .crx file directly from releases as shown here:\n\n![https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif](https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif)\n\n\n\n# Need Additional Information?\n* NiM post install page provides some help [https://blog.june07.com/nim-install](https://blog.june07.com/nim-install/)\n* Debugging NiM itself [https://blog.june07.com/debugging-nim/](https://blog.june07.com/debugging-nim/)\n\n*Note: At the time of writing, the v8 --inspect option is fairly new. See https://nodejs.org/api/debugger.html#debugger_v8_inspector_integration_for_node_js for additional details on the option.*\n#### If you enjoy using NIM please [give us a 5 star rating and/or a G+1.](https://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviewshttps://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviews)\n\nAny and all feedback is encouraged and welcome.  [Send us an email!](https://raw.githubusercontent.com/june07/NiM/master/mailto:667@june07.com)\n\n<!--\n[![IPv4 Lease](https://june07.github.io/image/EVERYTHING.jpg)](https://june07.com/blog/ipv4/?utm_source=NiM&utm_medium=options%20page&utm_campaign=ipv4&utm_content=2)\n-->\n\n<div style=\"display:flex; justify-content:center;\">\n  <a href=\"https://m.do.co/c/fe4184318b19\" target=\"_blank\" rel=\"noopener\"><IMG border=\"0\" alt=\"Digitalocean $100 Credit\" src=\"https://june07.github.io/image/digitalocean-credit.png\"></a>\n</div>\n",
+    "ContentSha": "VqRtHLy5DjlXXvZM8jCjqpc+xA+4E8qUm0McB7UfBSs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. 또는, 여기에서 보여지는 것처럼 릴리즈에서 .crx 파일을 직접 다운로드하세요:\n\n![https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif](https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif)\n\n\n\n# 추가 정보가 필요하신가요?\n* NiM 설치 후 페이지에서 도움말을 제공합니다 [https://blog.june07.com/nim-install](https://blog.june07.com/nim-install/)\n* NiM 자체 디버깅 [https://blog.june07.com/debugging-nim/](https://blog.june07.com/debugging-nim/)\n\n*참고: 작성 시점에서 v8 --inspect 옵션은 비교적 새로운 기능입니다. 옵션에 대한 추가 정보는 https://nodejs.org/api/debugger.html#debugger_v8_inspector_integration_for_node_js 를 참고하세요.*\n#### NIM을 사용하며 만족하신다면 [5성 평가 및/또는 G+1을 남겨주세요.](https://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviewshttps://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviews)\n\n어떠한 피드백도 환영합니다.  [이메일을 보내주세요!](https://raw.githubusercontent.com/june07/NiM/master/mailto:667@june07.com)\n\n<!--\n[![IPv4 임대](https://june07.github.io/image/EVERYTHING.jpg)](https://june07.com/blog/ipv4/?utm_source=NiM&utm_medium=options%20page&utm_campaign=ipv4&utm_content=2)\n-->\n\n<div style=\"display:flex; justify-content:center;\">\n  <a href=\"https://m.do.co/c/fe4184318b19\" target=\"_blank\" rel=\"noopener\"><IMG border=\"0\" alt=\"Digitalocean $100 크레딧\" src=\"https://june07.github.io/image/digitalocean-credit.png\"></a>\n</div>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7ionDZvP5lV2f5SlxRJfJbS0w2/oR4AnrwguUtybDUg=",
+        "originContent": "2. Or, download .crx file directly from releases as shown here:",
+        "translatedContent": "2. 또는, 여기에서 보여지는 것처럼 릴리즈에서 .crx 파일을 직접 다운로드하세요:"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "HrXGi3KnoAxdaOz17s5YH0QiDR0zdauwC72EV5qe0pU=",
+        "originContent": "![https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif](https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif)",
+        "translatedContent": "![https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif](https://media.giphy.com/media/xT0xenBpYPF2F0j2fe/giphy.gif)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ya1wnuVgicD+fJ+GULK0FRPlhFINyFpPGulqNHgLXFc=",
+        "originContent": "# Need Additional Information?",
+        "translatedContent": "# 추가 정보가 필요하신가요?"
+      },
+      {
+        "row": 8,
+        "rowsha": "v9NZA4ESJG8Lxn/ysAU89Q3492qnn1f9ebwtVu3aGjo=",
+        "originContent": "* NiM post install page provides some help [https://blog.june07.com/nim-install](https://blog.june07.com/nim-install/)",
+        "translatedContent": "* NiM 설치 후 페이지에서 도움말을 제공합니다 [https://blog.june07.com/nim-install](https://blog.june07.com/nim-install/)"
+      },
+      {
+        "row": 9,
+        "rowsha": "cPcNDEHZY2IxrR3bCRaaWQzTVlgY/5rjfaluZG8VLzU=",
+        "originContent": "* Debugging NiM itself [https://blog.june07.com/debugging-nim/](https://blog.june07.com/debugging-nim/)",
+        "translatedContent": "* NiM 자체 디버깅 [https://blog.june07.com/debugging-nim/](https://blog.june07.com/debugging-nim/)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "CB7YVYjYFvvGNlk8RmEOVlGHKzmqpLVLzhvPZaVkzGs=",
+        "originContent": "*Note: At the time of writing, the v8 --inspect option is fairly new. See https://nodejs.org/api/debugger.html#debugger_v8_inspector_integration_for_node_js for additional details on the option.*",
+        "translatedContent": "*참고: 작성 시점에서 v8 --inspect 옵션은 비교적 새로운 기능입니다. 옵션에 대한 추가 정보는 https://nodejs.org/api/debugger.html#debugger_v8_inspector_integration_for_node_js 를 참고하세요.*"
+      },
+      {
+        "row": 12,
+        "rowsha": "66Ed7/6JYBFHXpMR7amKAK1uMExTca0AYepwiwlTbcM=",
+        "originContent": "#### If you enjoy using NIM please [give us a 5 star rating and/or a G+1.](https://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviewshttps://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviews)",
+        "translatedContent": "#### NIM을 사용하며 만족하신다면 [5성 평가 및/또는 G+1을 남겨주세요.](https://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviewshttps://chrome.google.com/webstore/detail/nim-node-inspector-manage/gnhhdgbaldcilmgcpfddgdbkhjohddkj/reviews)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "M2QQrt18ead3ugWxrIwRljfJV2uNL+L7U1FMG2uye6Y=",
+        "originContent": "Any and all feedback is encouraged and welcome.  [Send us an email!](https://raw.githubusercontent.com/june07/NiM/master/mailto:667@june07.com)",
+        "translatedContent": "어떠한 피드백도 환영합니다.  [이메일을 보내주세요!](https://raw.githubusercontent.com/june07/NiM/master/mailto:667@june07.com)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "06wl3ce6l3nAVW1UPkmU0Vjhalo1k0ehMh3SNvGvC2c=",
+        "originContent": "<!--",
+        "translatedContent": "<!--"
+      },
+      {
+        "row": 17,
+        "rowsha": "l9uDJSx6O/ObGfSMAR4yniQkQ8Qki30DUmva3ItKx6E=",
+        "originContent": "[![IPv4 Lease](https://june07.github.io/image/EVERYTHING.jpg)](https://june07.com/blog/ipv4/?utm_source=NiM&utm_medium=options%20page&utm_campaign=ipv4&utm_content=2)",
+        "translatedContent": "[![IPv4 임대](https://june07.github.io/image/EVERYTHING.jpg)](https://june07.com/blog/ipv4/?utm_source=NiM&utm_medium=options%20page&utm_campaign=ipv4&utm_content=2)"
+      },
+      {
+        "row": 18,
+        "rowsha": "XVud5tm5Xz4MlQr+dCpbs5yyX25uiGwQYDMQt788ujU=",
+        "originContent": "-->",
+        "translatedContent": "-->"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "amC+cxJbyzn7LaMhzhpGNhRK0PNovarMUFU3jAQbasQ=",
+        "originContent": "<div style=\"display:flex; justify-content:center;\">",
+        "translatedContent": "<div style=\"display:flex; justify-content:center;\">"
+      },
+      {
+        "row": 21,
+        "rowsha": "QAj75JlzHEP5kdjeiIKzJHz6mU5Gr6EuE08qZNluvcQ=",
+        "originContent": "  <a href=\"https://m.do.co/c/fe4184318b19\" target=\"_blank\" rel=\"noopener\"><IMG border=\"0\" alt=\"Digitalocean $100 Credit\" src=\"https://june07.github.io/image/digitalocean-credit.png\"></a>",
+        "translatedContent": "  <a href=\"https://m.do.co/c/fe4184318b19\" target=\"_blank\" rel=\"noopener\"><IMG border=\"0\" alt=\"Digitalocean $100 크레딧\" src=\"https://june07.github.io/image/digitalocean-credit.png\"></a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 23,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
