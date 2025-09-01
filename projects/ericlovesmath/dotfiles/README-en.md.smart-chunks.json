@@ -1,0 +1,233 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Eric Lee's Dotfiles\n\n![Neovim Configuration](https://raw.githubusercontent.com/ericlovesmath/dotfiles/master/./imgs/desktop.png)\n\n- Dual configuration for MacOS and Fedora\n- Personal [Neovim](https://github.com/neovim/neovim) configuration\n- [Alacritty](https://github.com/alacritty/alacritty) with `zsh`\n\n## Installation (MacOS)\n\n- Overview: [yabai](https://github.com/koekeishiya/yabai) + [skhd](https://github.com/koekeishiya/skhd) + [karabiner-elements](https://karabiner-elements.pqrs.org/)\n\n    - Dotfiles symlinked & applications installed with [nix-darwin](github.com/LnL7/nix-darwin) and home-manager\n    - Yabai: Tiling WM uses Capslock as a `meh/hyper` global prefix, mimicking vim keybindings\n    - Neovim: `Lazy` to install packages, `Mason` to install LSPs\n    - Alacritty: Keybindings set such that intuitive `cmd + _` key combinations works with `tmux`\n\n- [Nix](https://github.com/DeterminateSystems/nix-installer): Mostly just used as a declarative package manager and symlink tool\n\n    - If Nix is not an option, see contents of `home-darwin.nix` and `brew.nix` to see symlinks\n- Install [Nix]\n",
+    "ContentSha": "yIXLEMo1n++SBqJY55dejTEimWCD4HBsZn8e9j6EncM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Eric Lee's Dotfiles\n\n![Neovim Configuration](https://raw.githubusercontent.com/ericlovesmath/dotfiles/master/./imgs/desktop.png)\n\n- Dual configuration for MacOS and Fedora\n- Personal [Neovim](https://github.com/neovim/neovim) configuration\n- [Alacritty](https://github.com/alacritty/alacritty) with `zsh`\n\n## Installation (MacOS)\n\n- Overview: [yabai](https://github.com/koekeishiya/yabai) + [skhd](https://github.com/koekeishiya/skhd) + [karabiner-elements](https://karabiner-elements.pqrs.org/)\n\n    - Dotfiles symlinked & applications installed with [nix-darwin](github.com/LnL7/nix-darwin) and home-manager\n    - Yabai: Tiling WM uses Capslock as a `meh/hyper` global prefix, mimicking vim keybindings\n    - Neovim: `Lazy` to install packages, `Mason` to install LSPs\n    - Alacritty: Keybindings set such that intuitive `cmd + _` key combinations works with `tmux`\n\n- [Nix](https://github.com/DeterminateSystems/nix-installer): Mostly just used as a declarative package manager and symlink tool\n\n    - If Nix is not an option, see contents of `home-darwin.nix` and `brew.nix` to see symlinks\n- Install [Nix]\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ILHebyB6I3XjkBk9vlG5IX8Y/OXlWacrx16svXFxle8=",
+        "originContent": "# Eric Lee's Dotfiles",
+        "translatedContent": "# Eric Lee's Dotfiles"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "VflFrvrb8uRDl8iWqiPLyFYqsA/ZlcIzosbWJmG3GgM=",
+        "originContent": "![Neovim Configuration](https://raw.githubusercontent.com/ericlovesmath/dotfiles/master/./imgs/desktop.png)",
+        "translatedContent": "![Neovim Configuration](https://raw.githubusercontent.com/ericlovesmath/dotfiles/master/./imgs/desktop.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ctGaJNgXbDMxsQbFiehyhfW6lwE2q4+erxzwlhiBDW8=",
+        "originContent": "- Dual configuration for MacOS and Fedora",
+        "translatedContent": "- Dual configuration for MacOS and Fedora"
+      },
+      {
+        "row": 6,
+        "rowsha": "KeTuVzFE1aNnk0LUqNZJYJW8cS+CBhPWoVylUbLNIPY=",
+        "originContent": "- Personal [Neovim](https://github.com/neovim/neovim) configuration",
+        "translatedContent": "- Personal [Neovim](https://github.com/neovim/neovim) configuration"
+      },
+      {
+        "row": 7,
+        "rowsha": "glKa/5czrbTtT43gIqbKJK9h4AiM/be3sgkzUc7RSBk=",
+        "originContent": "- [Alacritty](https://github.com/alacritty/alacritty) with `zsh`",
+        "translatedContent": "- [Alacritty](https://github.com/alacritty/alacritty) with `zsh`"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "gPCEfv2xNdhTdNP0LxZRiDoQwx8RPyp6Y/ZvdSAzPCA=",
+        "originContent": "## Installation (MacOS)",
+        "translatedContent": "## Installation (MacOS)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "vj/KQQB4z2i+LukzgTzdSMc5TDYk+fwvyX1BYLvOPIo=",
+        "originContent": "- Overview: [yabai](https://github.com/koekeishiya/yabai) + [skhd](https://github.com/koekeishiya/skhd) + [karabiner-elements](https://karabiner-elements.pqrs.org/)",
+        "translatedContent": "- Overview: [yabai](https://github.com/koekeishiya/yabai) + [skhd](https://github.com/koekeishiya/skhd) + [karabiner-elements](https://karabiner-elements.pqrs.org/)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "5BXl6QjsFpNl4U3nYerwfwlktBYVBBALrgVJz8uFid0=",
+        "originContent": "    - Dotfiles symlinked & applications installed with [nix-darwin](github.com/LnL7/nix-darwin) and home-manager",
+        "translatedContent": "    - Dotfiles symlinked & applications installed with [nix-darwin](github.com/LnL7/nix-darwin) and home-manager"
+      },
+      {
+        "row": 14,
+        "rowsha": "NTHu4pCsn19FTPxgc7SqVLi0+8pk9hL4PPGf4uBRfiQ=",
+        "originContent": "    - Yabai: Tiling WM uses Capslock as a `meh/hyper` global prefix, mimicking vim keybindings",
+        "translatedContent": "    - Yabai: Tiling WM uses Capslock as a `meh/hyper` global prefix, mimicking vim keybindings"
+      },
+      {
+        "row": 15,
+        "rowsha": "hTwN6m1UwT4XuUFQ8iyAaA6PSoUsLnR3KW5/Sd56gOI=",
+        "originContent": "    - Neovim: `Lazy` to install packages, `Mason` to install LSPs",
+        "translatedContent": "    - Neovim: `Lazy` to install packages, `Mason` to install LSPs"
+      },
+      {
+        "row": 16,
+        "rowsha": "YgqBx8mbJVCMuyCnnNSC+BQ7pRDT11pvvsuCNaF+Jmg=",
+        "originContent": "    - Alacritty: Keybindings set such that intuitive `cmd + _` key combinations works with `tmux`",
+        "translatedContent": "    - Alacritty: Keybindings set such that intuitive `cmd + _` key combinations works with `tmux`"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "YLcQBPBxu6oHh2r4icHfH0IUYl+89Pn0T4XliAHHy+4=",
+        "originContent": "- [Nix](https://github.com/DeterminateSystems/nix-installer): Mostly just used as a declarative package manager and symlink tool",
+        "translatedContent": "- [Nix](https://github.com/DeterminateSystems/nix-installer): Mostly just used as a declarative package manager and symlink tool"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "aqU36RDt/5n64yyn2Ii0DizHmHJOkaFWXC6niWBrMVI=",
+        "originContent": "    - If Nix is not an option, see contents of `home-darwin.nix` and `brew.nix` to see symlinks",
+        "translatedContent": "    - If Nix is not an option, see contents of `home-darwin.nix` and `brew.nix` to see symlinks"
+      },
+      {
+        "row": 21,
+        "rowsha": "MeV7BZQ+eAGCDubx9huOqFv7gBMKWE7qkqF6j/qVDS8=",
+        "originContent": "- Install [Nix]",
+        "translatedContent": "- Install [Nix]"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nmkdir ~/dotfiles & cd ~/dotfiles\ngit clone https://github.com/ericlovesmath/dotfiles.git ~/dotfiles\nnix run nix-darwin -- switch --flake \"$HOME/dotfiles\\#macos\"\n```",
+    "ContentSha": "NFjER/pM97uofUOvt3S/AYQdoKUsKwZOf+su00vXs9E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nmkdir ~/dotfiles & cd ~/dotfiles\ngit clone https://github.com/ericlovesmath/dotfiles.git ~/dotfiles\nnix run nix-darwin -- switch --flake \"$HOME/dotfiles\\#macos\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "RvcW667bv/mt/7E7JwVJSyx7ASzp/KNoazsrZOj7BJ4=",
+        "originContent": "mkdir ~/dotfiles & cd ~/dotfiles",
+        "translatedContent": "mkdir ~/dotfiles & cd ~/dotfiles"
+      },
+      {
+        "row": 3,
+        "rowsha": "8M6u5KeeosIMANMa+AONIWfFvOYIt9AUBdyPD814DV4=",
+        "originContent": "git clone https://github.com/ericlovesmath/dotfiles.git ~/dotfiles",
+        "translatedContent": "git clone https://github.com/ericlovesmath/dotfiles.git ~/dotfiles"
+      },
+      {
+        "row": 4,
+        "rowsha": "0dex31+zQ7v+70WLZfJ1lGXd1/rLUdmg41Rlv7rL2OU=",
+        "originContent": "nix run nix-darwin -- switch --flake \"$HOME/dotfiles\\#macos\"",
+        "translatedContent": "nix run nix-darwin -- switch --flake \"$HOME/dotfiles\\#macos\""
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Installation (Fedora, Sway and Hyprland)\n\nSee `INSTALLATION_GUIDE.md`, tested on the AMD Framework 13 Laptop\n",
+    "ContentSha": "erYuCUgyy2rJyZoDleMX6NtoVm2ghybzu5TxOPOtOmA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Installation (Fedora, Sway and Hyprland)\n\nSee `INSTALLATION_GUIDE.md`, tested on the AMD Framework 13 Laptop\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "QsMRy878d+0AoTDSRqgXv6wAK/K7He14Tyvh9iQkyQQ=",
+        "originContent": "## Installation (Fedora, Sway and Hyprland)",
+        "translatedContent": "## Installation (Fedora, Sway and Hyprland)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ZmGpR80eN5x7+VE0PAzot+btX44a0+PMMO/AI/PL4pA=",
+        "originContent": "See `INSTALLATION_GUIDE.md`, tested on the AMD Framework 13 Laptop",
+        "translatedContent": "See `INSTALLATION_GUIDE.md`, tested on the AMD Framework 13 Laptop"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

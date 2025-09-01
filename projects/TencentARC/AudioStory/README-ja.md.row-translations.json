@@ -1,0 +1,1016 @@
+[
+  {
+    "row": 1,
+    "rowsha": "FSlWJLuo6Mj/8UOqAMnfG0FeLewjwHFxahfOi9F7aXs=",
+    "originContent": "# AudioStory: Generating Long-Form Narrative Audio with Large Language Models",
+    "translatedContent": "# AudioStory: 大規模言語モデルを用いた長編ナラティブ音声生成"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "7pj5MxCr6a6JgMDyv96FwXC+eTQMNiHkELvRBSfLdCc=",
+    "originContent": "**[Yuxin Guo<sup>1,2</sup>](https://scholar.google.com/citations?user=x_0spxgAAAAJ&hl=en), ",
+    "translatedContent": "**[郭昱鑫<sup>1,2</sup>](https://scholar.google.com/citations?user=x_0spxgAAAAJ&hl=en),  "
+  },
+  {
+    "row": 4,
+    "rowsha": "I8/1UUE5gpzu9Xb3Q5CB33oVLk+LUWuyHO5K3kNeDqQ=",
+    "originContent": "[Teng Wang<sup>2,&#9993;</sup>](http://ttengwang.com/), ",
+    "translatedContent": "[王腾<sup>2,&#9993;</sup>](http://ttengwang.com/),  "
+  },
+  {
+    "row": 5,
+    "rowsha": "LLQhB41AUK9J3r1VCRpBRcEia2fI/o7MDG/fVzObYkc=",
+    "originContent": "[Yuying Ge<sup>2</sup>](https://geyuying.github.io/), ",
+    "translatedContent": "[葛雨颖<sup>2</sup>](https://geyuying.github.io/),  "
+  },
+  {
+    "row": 6,
+    "rowsha": "wtaTd0Ja9Uv/7/T6mpuKkSdm/A3+fh81hpB8nQObPD8=",
+    "originContent": "[Shijie Ma<sup>1,2</sup>](https://mashijie1028.github.io/), ",
+    "translatedContent": "[马世杰<sup>1,2</sup>](https://mashijie1028.github.io/),  "
+  },
+  {
+    "row": 7,
+    "rowsha": "wWudxOacsyCruyB5ku8i8KaYdwV5du8s5qJ+K0qfMpc=",
+    "originContent": "[Yixiao Ge<sup>2</sup>](https://geyixiao.com/), ",
+    "translatedContent": "[葛逸潇<sup>2</sup>](https://geyixiao.com/),  "
+  },
+  {
+    "row": 8,
+    "rowsha": "FPZEFhOdadaxGtx5yM4lffPGGkx7gAxM+9sAn5ARaWM=",
+    "originContent": "[Wei Zou<sup>1</sup>](https://people.ucas.ac.cn/~zouwei),",
+    "translatedContent": "[邹威<sup>1</sup>](https://people.ucas.ac.cn/~zouwei),  "
+  },
+  {
+    "row": 9,
+    "rowsha": "/XwtaWm1xbCxCliGLcLK3zuGeMMuF+5XP1t/r0xFkoo=",
+    "originContent": "[Ying Shan<sup>2</sup>](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en)**",
+    "translatedContent": "[单颖<sup>2</sup>](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en)**  "
+  },
+  {
+    "row": 10,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>  "
+  },
+  {
+    "row": 11,
+    "rowsha": "nQpF63Jn9FCPUpA8HVx2mbqsqMxzTv8xAxeS1jMrgu4=",
+    "originContent": "<sup>1</sup>Institute of Automation, CAS",
+    "translatedContent": "<sup>1</sup>中国科学院自动化研究所  "
+  },
+  {
+    "row": 12,
+    "rowsha": "N/ZhVTwOyG0vyNutSAHfKXyvVJklXWMgttqLXCizzGE=",
+    "originContent": "<sup>2</sup>ARC Lab, Tencent PCG",
+    "translatedContent": "<sup>2</sup>腾讯PCG ARC实验室  "
+  },
+  {
+    "row": 13,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>  "
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📖 リリース"
+  },
+  {
+    "row": 17,
+    "rowsha": "VAliztezgn/ssMixKQZIXx0YRgi9SKETFrH/ywehwmM=",
+    "originContent": "## 📖 Release",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[2025/8/28] 🔥🔥 推論コードを公開しました！"
+  },
+  {
+    "row": 19,
+    "rowsha": "AVq/FCM66s4bjizL3qgI01Qe8E6u8UbzxY0aDpZTzWc=",
+    "originContent": "[2025/8/28] 🔥🔥 We release the inference code!",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[2025/8/28] 🔥🔥 デモ動画を公開しました！"
+  },
+  {
+    "row": 21,
+    "rowsha": "iRSsrbzu7Kg7wogXrPePZYadG7GnGEgRsT7KdmyG+W0=",
+    "originContent": "[2025/8/28] 🔥🔥 We release our demo videos!",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🔎 はじめに"
+  },
+  {
+    "row": 25,
+    "rowsha": "9bwc96MXV71svorL6Wnrty1lSDppDxKmeyGe4Wj5fn8=",
+    "originContent": "## 🔎 Introduction",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![audiostory](https://raw.githubusercontent.com/TencentARC/AudioStory/main/audiostory.png)"
+  },
+  {
+    "row": 27,
+    "rowsha": "PcywANjK1M4GDEjOoHORQ/c5jRpQZKP5F6P6TiSpF9E=",
+    "originContent": "![audiostory](https://raw.githubusercontent.com/TencentARC/AudioStory/main/audiostory.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "✨ **TL; DR: 私たちは、映像の吹き替え、音声の継続、長編ナラティブ音声合成に対応可能な、統一された理解–生成フレームワークに基づく長編ナラティブ音声生成モデルを提案します。**"
+  },
+  {
+    "row": 29,
+    "rowsha": "q00ZP1xd2vElr43vj7gKmpvpsWsJBuCJNMCyAMyMPrc=",
+    "originContent": "✨ **TL; DR: We propose a model for long-form narrative audio generation built upon a unified understanding–generation framework, capable of handling video dubbing, audio continuation, and long-form narrative audio synthesis.**",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "近年のテキストから音声への生成（TTA）は短い音声クリップの合成に優れている一方で、時間的整合性や構成的推論を要する長編ナラティブ音声の生成には課題があります。これに対処するため、我々は大規模言語モデル（LLM）とTTAシステムを統合し、構造化された長編音声ナラティブを生成する統一フレームワークAudioStoryを提案します。AudioStoryは高い指示理解・推論生成能力を有し、LLMを用いて複雑なナラティブクエリを時系列順のサブタスクに分解し、文脈的手がかりを付与することで、一貫したシーン遷移と感情トーンの整合性を実現します。AudioStoryの特徴は以下の二点です："
+  },
+  {
+    "row": 31,
+    "rowsha": "s+AOmNtiFdwIChjGJAHn8zgEw+jeBT8PKsiT83fXzDQ=",
+    "originContent": "Recent advances in text-to-audio (TTA) generation excel at synthesizing short audio clips but struggle with long-form narrative audio, which requires temporal coherence and compositional reasoning. To address this gap, we propose AudioStory, a unified framework that integrates large language models (LLMs) with TTA systems to generate structured, long-form audio narratives. AudioStory possesses strong instruction-following reasoning generation capabilities. It employs LLMs to decompose complex narrative queries into temporally ordered sub-tasks with contextual cues, enabling coherent scene transitions and emotional tone consistency. AudioStory has two appealing features: ",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1) 分離型ブリッジ機構：AudioStoryはLLMとディフューザーの協調を二つの専門的コンポーネントに分解し、イベント内意味整合のためのブリッジクエリと、イベント間の一貫性維持のための整合性クエリを設けています。  "
+  },
+  {
+    "row": 33,
+    "rowsha": "XZUHI5mmiyNBevVzm/OkDO8EkkoJyWVA7rBQVhqnsto=",
+    "originContent": "1) Decoupled bridging mechanism: AudioStory disentangles LLM-diffuser collaboration into two specialized components—a bridging query for intra-event semantic alignment and a consistency query for cross-event coherence preservation.",
+    "translatedContent": "2) エンドツーエンド学習：指示理解と音声生成を単一のエンドツーエンドフレームワークで統合することで、モジュール型の学習パイプラインを不要とし、コンポーネント間の相乗効果を高めています。  "
+  },
+  {
+    "row": 34,
+    "rowsha": "LR7DR8cVmI/lcvgNhEyRIkxgrBu8Wf1evvjFOEDTK/M=",
+    "originContent": "2) End-to-end training: By unifying instruction comprehension and audio generation within a single end-to-end framework, AudioStory eliminates the need for modular training pipelines while enhancing synergy between components. ",
+    "translatedContent": "　さらに、多様なドメイン（アニメ風サウンドスケープや自然音ナラティブ等）を含むベンチマークAudioStory-10Kを構築しました。"
+  },
+  {
+    "row": 35,
+    "rowsha": "CiD/Ews3JkyHETo7ElTT6cc6NoxBUUOZ5UVkesYTWt8=",
+    "originContent": "    Furthermore, we establish a benchmark AudioStory-10K, encompassing diverse domains such as animated soundscapes and natural sound narratives.",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "豊富な実験により、AudioStoryは単一音声生成およびナラティブ音声生成の両面で優れており、従来のTTAベースラインを指示遵守能力と音質の両面で上回ることを示しています。"
+  },
+  {
+    "row": 37,
+    "rowsha": "hLpBif+fzMIMVGvpyrRBQWNm7pP0Jlud9b+uGbB0nBA=",
+    "originContent": "Extensive experiments show the superiority of AudioStory on both single-audio generation and narrative audio generation, surpassing prior TTA baselines in both instruction-following ability and audio fidelity.",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "F2o4YxK5/okZTc8xAnW0ki0KPjAob5+4+EOhbNq8W4Y=",
+    "originContent": "## ⭐ Demos",
+    "translatedContent": "## ⭐ デモ"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "d1aRTIXZKc38vEEa0aTxU1AK2CuZu0MPPd8ANvLBksY=",
+    "originContent": "### 1. Video Dubbing (Tom & Jerry style)",
+    "translatedContent": "### 1. ビデオ吹き替え（トムとジェリー風）"
+  },
+  {
+    "row": 44,
+    "rowsha": "xsuruvjWyp4/2tQLFG0owyXKXwcXVZRcDmPey5E3z+w=",
+    "originContent": "> Dubbing is achieved using AudioStory (trained on Tom & Jerry) with visual captions extracted from videos.",
+    "translatedContent": "> 吹き替えは、ビデオから抽出した視覚的なキャプションを用いて、トムとジェリーで訓練されたAudioStoryを使用して実現されています。"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "7FG0iwt8PZSz598R2HJFKtpFGDfFezhtVCdnqadcLCQ=",
+    "originContent": "<table class=\"center\">",
+    "translatedContent": "<table class=\"center\">"
+  },
+  {
+    "row": 47,
+    "rowsha": "Be1u8gQovOwpLxd4PoQZgOSz0nWWDBPJ/j3FrcTMmos=",
+    "originContent": "  <td><video src=\"https://github.com/user-attachments/assets/f06b5999-6649-44d3-af38-63fdcecd833c\"></video></td>",
+    "translatedContent": "  <td><video src=\"https://github.com/user-attachments/assets/f06b5999-6649-44d3-af38-63fdcecd833c\"></video></td>"
+  },
+  {
+    "row": 48,
+    "rowsha": "UQ1j0QNf3cuxPGkERqHp/8a1bn3v/sG6lzui/xPdnFE=",
+    "originContent": "  <td><video src=\"https://github.com/user-attachments/assets/17727c2a-bfea-4252-9aa8-48fc9ac33500\"></video></td>",
+    "translatedContent": "  <td><video src=\"https://github.com/user-attachments/assets/17727c2a-bfea-4252-9aa8-48fc9ac33500\"></video></td>"
+  },
+  {
+    "row": 49,
+    "rowsha": "bY1aa91+o6Lj8GiuHFVga5VyhYxYNu5seIoXPIQgfDQ=",
+    "originContent": "  <td><video src=\"https://github.com/user-attachments/assets/09589d82-62c9-47a6-838a-5a62319f35e2\"></video></td>",
+    "translatedContent": "  <td><video src=\"https://github.com/user-attachments/assets/09589d82-62c9-47a6-838a-5a62319f35e2\"></video></td>"
+  },
+  {
+    "row": 50,
+    "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+    "originContent": "  <tr>",
+    "translatedContent": "  <tr>"
+  },
+  {
+    "row": 51,
+    "rowsha": "+hgoFVIJCNdOMAGtb2zTTnLrSdPnvT/pIoTy2M2EOaI=",
+    "originContent": "</table >",
+    "translatedContent": "</table >"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "XiXvIW8MSuKVMG/Ubq2sxIrsI04P8LAAWR1F9+rcL8w=",
+    "originContent": "### 2. Cross-domain Video Dubbing (Tom & Jerry style)",
+    "translatedContent": "### 2. クロスドメインビデオ吹き替え（トムとジェリー風）"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "7FG0iwt8PZSz598R2HJFKtpFGDfFezhtVCdnqadcLCQ=",
+    "originContent": "<table class=\"center\">",
+    "translatedContent": "<table class=\"center\">"
+  },
+  {
+    "row": 57,
+    "rowsha": "rC3Gg9ZB9dkeQADRH8X0y7BJ9NRFWRPUKfXUq4jK5A8=",
+    "originContent": "    <td><video src=\"https://github.com/user-attachments/assets/e62d0c09-cdf0-4e51-b550-0a2c23f8d68d\"></video></td>",
+    "translatedContent": "    <td><video src=\"https://github.com/user-attachments/assets/e62d0c09-cdf0-4e51-b550-0a2c23f8d68d\"></video></td>"
+  },
+  {
+    "row": 58,
+    "rowsha": "q7k6xpgdTW2XaA00mXwPguhjbz62JBzFx2mgQi3MF58=",
+    "originContent": "    <td><video src=\"https://github.com/user-attachments/assets/736d22ca-6636-4ef0-99f3-768e4dfb112a\"></video></td>",
+    "translatedContent": "    <td><video src=\"https://github.com/user-attachments/assets/736d22ca-6636-4ef0-99f3-768e4dfb112a\"></video></td>"
+  },
+  {
+    "row": 59,
+    "rowsha": "f/NV8lJG3/wKBuvpWIe44S3uqSsyCu6QnhQNdP+m+x4=",
+    "originContent": "    <td><video src=\"https://github.com/user-attachments/assets/f2f7c94c-7f72-4cc0-8edc-290910980b04\"></video></td>",
+    "translatedContent": "    <td><video src=\"https://github.com/user-attachments/assets/f2f7c94c-7f72-4cc0-8edc-290910980b04\"></video></td>"
+  },
+  {
+    "row": 60,
+    "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+    "originContent": "  <tr>",
+    "translatedContent": "  <tr>"
+  },
+  {
+    "row": 61,
+    "rowsha": "4gr1GgVFlU3L3QjwTtUsfD17IHjNN34F/9NKaoIf0hY=",
+    "originContent": "  <td><video src=\"https://github.com/user-attachments/assets/d3e58dd4-31ae-4e32-aef1-03f1e649cb0c\"></video></td>",
+    "translatedContent": "  <td><video src=\"https://github.com/user-attachments/assets/d3e58dd4-31ae-4e32-aef1-03f1e649cb0c\"></video></td>"
+  },
+  {
+    "row": 62,
+    "rowsha": "40t9Y3yyaNH5W/E377F5s1ZeMWoyl8tA14tFCJgnNwc=",
+    "originContent": "  <td><video src=\"https://github.com/user-attachments/assets/4f68199f-e48a-4be7-b6dc-1acb8d377a6e\"></video></td>",
+    "translatedContent": "  <td><video src=\"https://github.com/user-attachments/assets/4f68199f-e48a-4be7-b6dc-1acb8d377a6e\"></video></td>"
+  },
+  {
+    "row": 63,
+    "rowsha": "E65VGlVfX8z4s1OMSSsebyozZw1yRIhcXnI2xq/cle4=",
+    "originContent": "  <td><video src=\"https://github.com/user-attachments/assets/062236c3-1d26-4622-b843-cc0cd0c58053\"></video></td>",
+    "translatedContent": "  <td><video src=\"https://github.com/user-attachments/assets/062236c3-1d26-4622-b843-cc0cd0c58053\"></video></td>"
+  },
+  {
+    "row": 64,
+    "rowsha": "OiNQYEf9lQ4VY4ev1P8fYEqhldXvPCT4oCAzyfkyWEs=",
+    "originContent": "\t<tr>",
+    "translatedContent": "\t<tr>"
+  },
+  {
+    "row": 65,
+    "rowsha": "qAjHrxg1MaGiBckyj/fm3Bg0IJFroNsOGgqNgjWD1rw=",
+    "originContent": "  <td><video src=\"https://github.com/user-attachments/assets/8931f428-dd4d-430f-9927-068f2912dd36\"></video></td>",
+    "translatedContent": "  <td><video src=\"https://github.com/user-attachments/assets/8931f428-dd4d-430f-9927-068f2912dd36\"></video></td>"
+  },
+  {
+    "row": 66,
+    "rowsha": "EDqm9uTGhUaiwbJOXO504J5Q7fhCeBn3W/+HloAmKZs=",
+    "originContent": "  <td><video src=\"https://github.com/user-attachments/assets/ab7e46d5-f42c-472e-b66e-df786b658210\"></video></td>      ",
+    "translatedContent": "  <td><video src=\"https://github.com/user-attachments/assets/ab7e46d5-f42c-472e-b66e-df786b658210\"></video></td>      "
+  },
+  {
+    "row": 67,
+    "rowsha": "xf9Jp12r2D1odgr6MJ+40q5xuyv277conuiNnh6Fpt0=",
+    "originContent": "  <td><video src=\"https://github.com/user-attachments/assets/9a0998ad-b5a4-42ac-bdaf-ceaf796fc586\"></video></td>",
+    "translatedContent": "  <td><video src=\"https://github.com/user-attachments/assets/9a0998ad-b5a4-42ac-bdaf-ceaf796fc586\"></video></td>"
+  },
+  {
+    "row": 68,
+    "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+    "originContent": "  <tr>",
+    "translatedContent": "  <tr>"
+  },
+  {
+    "row": 69,
+    "rowsha": "+hgoFVIJCNdOMAGtb2zTTnLrSdPnvT/pIoTy2M2EOaI=",
+    "originContent": "</table >",
+    "translatedContent": "</table >"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "bqRMr9Ypst45FZhaZtIL960+4R8vcRhCw4XVLHj851M=",
+    "originContent": "### 3. Text-to-Long Audio (Natural sound)",
+    "translatedContent": "### 3. テキストから長い音声へ（自然な音）"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "7FG0iwt8PZSz598R2HJFKtpFGDfFezhtVCdnqadcLCQ=",
+    "originContent": "<table class=\"center\">",
+    "translatedContent": "<table class=\"center\">"
+  },
+  {
+    "row": 76,
+    "rowsha": "kMl1wJJ0HS3Ld38pT9ZOCTUq1CtHLTO6iKBL9jjBh00=",
+    "originContent": "  <td style=\"text-align:center;\" width=\"480\">Instruction: \"Develop a comprehensive audio that fully represents jake shimabukuro performs a complex ukulele piece in a studio, receives applause, and discusses his career in an interview. The total duration is 49.9 seconds.\"</td>",
+    "translatedContent": "  <td style=\"text-align:center;\" width=\"480\">指示:「ジェイク・シマブクロがスタジオで複雑なウクレレ曲を演奏し、拍手を受け、そのキャリアについてインタビューで語る様子を完全に表現した包括的な音声を作成してください。合計時間は49.9秒です。」</td>"
+  },
+  {
+    "row": 77,
+    "rowsha": "bVjjQDN5t3tZPc6WndJCodkwijyURdfLT+irZpx6NMQ=",
+    "originContent": "  <td><video src=\"https://github.com/user-attachments/assets/461e8a34-4217-454e-87b3-e4285f36ec43\"></video></td>",
+    "translatedContent": "  <td><video src=\"https://github.com/user-attachments/assets/461e8a34-4217-454e-87b3-e4285f36ec43\"></video></td>"
+  },
+  {
+    "row": 78,
+    "rowsha": "OiNQYEf9lQ4VY4ev1P8fYEqhldXvPCT4oCAzyfkyWEs=",
+    "originContent": "\t<tr>",
+    "translatedContent": "\t<tr>"
+  },
+  {
+    "row": 79,
+    "rowsha": "WbDkggqFZprYFRmHly74ThpjAst9amNC4V84yMr1nd0=",
+    "originContent": "  <td style=\"text-align:center;\" width=\"480\">Instruction: \"Develop a comprehensive audio that fully represents a fire truck leaves the station with sirens blaring, signaling an emergency response, and drives away. The total duration is 35.1 seconds.\"</td>",
+    "translatedContent": "  <td style=\"text-align:center;\" width=\"480\">指示:「消防車がサイレンを鳴らしながら消防署を出発し、緊急出動を知らせて走り去る様子を完全に表現した包括的な音声を作成してください。合計時間は35.1秒です。」</td>"
+  },
+  {
+    "row": 80,
+    "rowsha": "9lkZnoSiQ/+N8CvPzh6Ssopa76N50YfMqCRiFMNU26U=",
+    "originContent": "  <td><video src=\"https://github.com/user-attachments/assets/aac0243f-5d12-480e-9850-a7f6720e4f9c\"></video></td>",
+    "translatedContent": "  <td><video src=\"https://github.com/user-attachments/assets/aac0243f-5d12-480e-9850-a7f6720e4f9c\"></video></td>"
+  },
+  {
+    "row": 81,
+    "rowsha": "OiNQYEf9lQ4VY4ev1P8fYEqhldXvPCT4oCAzyfkyWEs=",
+    "originContent": "\t<tr>",
+    "translatedContent": "\t<tr>"
+  },
+  {
+    "row": 82,
+    "rowsha": "Ubj/ESZSw8PuG2wDYpXEupbQmCK4+A6G3TJPe8f9dj0=",
+    "originContent": "     <td style=\"text-align:center;\" width=\"480\">Instruction: \"Understand the input audio, infer the subsequent events, and generate the continued audio of the coach giving basketball lessons to the players. The total duration is 36.6 seconds.\"</td>    ",
+    "translatedContent": "     <td style=\"text-align:center;\" width=\"480\">指示：「入力された音声を理解し、その後の出来事を推測して、コーチが選手にバスケットボールのレッスンを行う続きの音声を生成してください。合計の長さは36.6秒です。」</td>    "
+  },
+  {
+    "row": 83,
+    "rowsha": "kSoQNgOfaTU7IxCn8zhbXySiTHuy7pubDSaVGFNhc0U=",
+    "originContent": "    <td><video src=\"https://github.com/user-attachments/assets/c4ed306a-651e-43d6-aeea-ee159542418a\"></video></td>",
+    "translatedContent": "    <td><video src=\"https://github.com/user-attachments/assets/c4ed306a-651e-43d6-aeea-ee159542418a\"></video></td>"
+  },
+  {
+    "row": 84,
+    "rowsha": "OiNQYEf9lQ4VY4ev1P8fYEqhldXvPCT4oCAzyfkyWEs=",
+    "originContent": "\t<tr>",
+    "translatedContent": "\t<tr>"
+  },
+  {
+    "row": 85,
+    "rowsha": "+hgoFVIJCNdOMAGtb2zTTnLrSdPnvT/pIoTy2M2EOaI=",
+    "originContent": "</table >",
+    "translatedContent": "</table >"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "DSR9DEZFtYlp7rFmJdaJn543CfSMiyJtVeJd41Shuqk=",
+    "originContent": "## 🔎 Methods",
+    "translatedContent": "## 🔎 方法"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "9BH0xGdcfBS+VhBWoWwKAVZ3mgHTm/j1BgvwybER7o8=",
+    "originContent": "![audiostory_framework](https://raw.githubusercontent.com/TencentARC/AudioStory/main/audiostory_framework.png)",
+    "translatedContent": "![audiostory_framework](https://raw.githubusercontent.com/TencentARC/AudioStory/main/audiostory_framework.png)"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "GPV5B4bE7PBjL8Nf8gfo6IGZc0RTyX/CfLJH6fpFaAs=",
+    "originContent": "To achieve effective instruction-following audio generation, the ability to understand the input instruction or audio stream and reason about relevant audio sub-events is essential. To this end,  AudioStory adopts a unified understanding-generation framework (Fig.). Specifically, given textual instruction or audio input, the LLM analyzes and decomposes it into structured audio sub-events with context. Based on the inferred sub-events, the LLM performs **interleaved reasoning generation**, sequentially producing captions, semantic tokens, and residual tokens for each audio clip. These two types of tokens are fused and passed to the DiT, effectively bridging the LLM with the audio generator. Through progressive training, AudioStory ultimately achieves both strong instruction comprehension and high-quality audio generation.",
+    "translatedContent": "効果的な指示追従型音声生成を実現するためには、入力された指示や音声ストリームを理解し、関連する音声のサブイベントを推論する能力が不可欠です。この目的のために、AudioStoryは統一された理解-生成フレームワーク（図）を採用しています。具体的には、テキスト指示や音声入力を与えられると、LLMはそれを解析し、文脈付きの構造化された音声サブイベントに分解します。推論されたサブイベントに基づいて、LLMは**交互推論生成**を行い、各音声クリップに対して順次キャプション、セマンティックトークン、残差トークンを生成します。これら二種類のトークンは融合され、DiTに渡され、LLMと音声ジェネレーターを効果的に橋渡しします。段階的な訓練を通じて、AudioStoryは強力な指示理解力と高品質な音声生成の両方を最終的に達成します。"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "K5BKhOEr4dNsKz5aQYjGDFsb5cAXzh2rRww3aq1fToY=",
+    "originContent": "## 🔩 Installation",
+    "translatedContent": "## 🔩 インストール"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "cA9I4m4MLDGazdniXFF/VJ7jgnkzPSvBbISFVX7s/5s=",
+    "originContent": "### Dependencies",
+    "translatedContent": "### 依存関係"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "ybFy651pkGBiUaSzaUrVuJTCbVsItiZJqXTekxenDOs=",
+    "originContent": "* Python >= 3.10 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))",
+    "translatedContent": "* Python >= 3.10（[Anaconda](https://www.anaconda.com/download/#linux)の使用を推奨）"
+  },
+  {
+    "row": 103,
+    "rowsha": "2clsJHIWgOmQ5F5S50Xg0VdGp29U34jP7Md27T2D6hQ=",
+    "originContent": "* [PyTorch >=2.1.0](https://pytorch.org/)",
+    "translatedContent": "* [PyTorch >=2.1.0](https://pytorch.org/)"
+  },
+  {
+    "row": 104,
+    "rowsha": "jayRuOQfJklvG5CCRlsnsLExVb7ZiAnQNvgN4dziUNE=",
+    "originContent": "* NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)",
+    "translatedContent": "* NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+    "originContent": "### Installation",
+    "translatedContent": "### インストール"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 109,
+    "rowsha": "EPmucZkseZe9CkGYkev1GLT10FBhL1aNrGP/yj11YCk=",
+    "originContent": "git clone https://github.com/TencentARC/AudioStory.git",
+    "translatedContent": "git clone https://github.com/TencentARC/AudioStory.git"
+  },
+  {
+    "row": 110,
+    "rowsha": "0NZ9wSgVtafsjHQpQHI6UrYESexC7Zt6QfFMDCs6no4=",
+    "originContent": "cd AudioStory",
+    "translatedContent": "cd AudioStory"
+  },
+  {
+    "row": 111,
+    "rowsha": "b6InjqOMdN4MWLHgzMqBe0kIp8aZoXOify/79OYxSoQ=",
+    "originContent": "conda create -n audiostory python=3.10 -y",
+    "translatedContent": "conda create -n audiostory python=3.10 -y"
+  },
+  {
+    "row": 112,
+    "rowsha": "6EvnIjWjc45YgSD65Q5ld8GdStTLPBPMF2Y7UsLJrxg=",
+    "originContent": "conda activate audiostory",
+    "translatedContent": "conda activate audiostory"
+  },
+  {
+    "row": 113,
+    "rowsha": "lz0yrVadp6kN4Y0yuBpmqXWQj5H72CMu8CZollmEaKA=",
+    "originContent": "bash install_audiostory.sh",
+    "translatedContent": "bash install_audiostory.sh"
+  },
+  {
+    "row": 114,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "RV/lkFyd4r4TQLY1qeDzx60mM+znUBMQr8fvaK78ARc=",
+    "originContent": "## 📊 Evaluation",
+    "translatedContent": "## 📊 Evaluation"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "nPTFwGS68FhDKEEpm6ZdfcFiiCl0YPFcoEoP4JW/kgc=",
+    "originContent": "### inference",
+    "translatedContent": "### inference"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 123,
+    "rowsha": "ZnsFCbLX8ufyjJRVjZqrJuJpwkDqjg17DUZ4Jls4H38=",
+    "originContent": "python evaluate/inference.py --model_path /path/to/ckpt --guidance 4.0 --save_folder_name audiostory --total_duration 50",
+    "translatedContent": "python evaluate/inference.py --model_path /path/to/ckpt --guidance 4.0 --save_folder_name audiostory --total_duration 50"
+  },
+  {
+    "row": 124,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🔋 謝辞"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "連続デノイザーのコードベースを構築する際に、[SEED-X](https://github.com/AILab-CVC/SEED-X) と [TangoFlux](https://github.com/declare-lab/TangoFlux) を参照しました。素晴らしいプロジェクトに感謝します。"
+  },
+  {
+    "row": 128,
+    "rowsha": "2wITwUlzAo4l/8qItt2XUr+0BnCsPysASmH5gx69T7w=",
+    "originContent": "## 🔋 Acknowledgement",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "8lTT7v2VuQ0QtdsydJaX8vAjYN5nizcwZ/fhChW28pA=",
+    "originContent": "When building the codebase of continuous denosiers, we refer to [SEED-X](https://github.com/AILab-CVC/SEED-X) and [TangoFlux](https://github.com/declare-lab/TangoFlux). Thanks for their wonderful projects.",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📆 TO DO"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [ ] Gradioデモのリリース。"
+  },
+  {
+    "row": 134,
+    "rowsha": "GC23nj3oE9/vfv7oaTalUvYrK5FOFDTk7jfTM6fZ59w=",
+    "originContent": "## 📆 TO DO",
+    "translatedContent": "- [ ] AudioStoryのチェックポイントのリリース。"
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [ ] 3段階すべてのトレーニングコードのリリース。"
+  },
+  {
+    "row": 136,
+    "rowsha": "Ev8F7RO049LbUw2wYkPRhR9N/P+kHtNfq+/JqoYCKTQ=",
+    "originContent": "- [ ] Release our gradio demo.",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "NdhvCxdI7tcZ2BADUj+Lf1faPs4omgHrlmDe9OLatKw=",
+    "originContent": "- [ ] Release checkpoints of AudioStory.",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "cU6Kqe85RhIzRzZZSmmW6go4ItSFAE13SJGOKdBAlk8=",
+    "originContent": "- [ ] Release training codes of all three stages.",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📜 ライセンス"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "本リポジトリは [Apache 2 ライセンス](https://github.com/mashijie1028/Gen4Rep/blob/main/LICENSE) の下で提供されています。"
+  },
+  {
+    "row": 142,
+    "rowsha": "Xg7z9THMMv8mm3IS7LJHSaXGCrZhD8D4NGbb/+/ra/Y=",
+    "originContent": "## 📜 License",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "EZFCjf6XUzozZCx6zuDMh0DwwcxgS9mIiOHr2h1fT2k=",
+    "originContent": "This repository is under the [Apache 2 License](https://github.com/mashijie1028/Gen4Rep/blob/main/LICENSE).",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📚 BibTeX"
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "Ol70b6U8dEWdUG46wK7jYP1taws7iJl4nBgER5ckRWk=",
+    "originContent": "## 📚 BibTeX",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 151,
+    "rowsha": "zG+SHLM1YaUdKpVrhSHgd+F3ENF1Tu0sdECnTtfj2T0=",
+    "originContent": "@misc{guo2025audiostory,",
+    "translatedContent": "@misc{guo2025audiostory,"
+  },
+  {
+    "row": 152,
+    "rowsha": "wRos7vm1oMESsZP/y3oCTU8pDdBwTNkutSMbCenULPQ=",
+    "originContent": "      title={AudioStory: Generating Long-Form Narrative Audio with Large Language Models}, ",
+    "translatedContent": "      title={AudioStory: Generating Long-Form Narrative Audio with Large Language Models}, "
+  },
+  {
+    "row": 153,
+    "rowsha": "J3AFWUtKeIdEng2gdsNNS/aaTvmB5y4qXjaM19l1ros=",
+    "originContent": "      author={Yuxin Guo and Teng Wang and Yuying Ge and Shijie Ma and Yixiao Ge and Wei Zou and Ying Shan},",
+    "translatedContent": "      author={Yuxin Guo and Teng Wang and Yuying Ge and Shijie Ma and Yixiao Ge and Wei Zou and Ying Shan},"
+  },
+  {
+    "row": 154,
+    "rowsha": "1cuvfM9h03loQfZOlvsx9juVCvU41kevaYb2CnD9Gak=",
+    "originContent": "      year={2025},",
+    "translatedContent": "      year={2025},"
+  },
+  {
+    "row": 155,
+    "rowsha": "aVyrdaXiDdq72O2IEEra144lvU5mp8vtcvui+Yc67Y8=",
+    "originContent": "      eprint={2508.20088},",
+    "translatedContent": "      eprint={2508.20088},"
+  },
+  {
+    "row": 156,
+    "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+    "originContent": "      archivePrefix={arXiv},",
+    "translatedContent": "      archivePrefix={arXiv},"
+  },
+  {
+    "row": 157,
+    "rowsha": "RPNBhgHdrY2A+XYLnuhpAr/aqag2LU2pAjasgtM0tg4=",
+    "originContent": "      primaryClass={cs.CV},",
+    "translatedContent": "      primaryClass={cs.CV},"
+  },
+  {
+    "row": 158,
+    "rowsha": "hP+VcwdqOvUO3cyxMORLXst2UhI7aWcsza6RkNrQcLU=",
+    "originContent": "      url={https://arxiv.org/abs/2508.20088}, ",
+    "translatedContent": "      url={https://arxiv.org/abs/2508.20088}, "
+  },
+  {
+    "row": 159,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 160,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📧 お問い合わせ"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ご質問がございましたら、お気軽にご連絡ください: guoyuxin2021@ia.ac.cn"
+  },
+  {
+    "row": 164,
+    "rowsha": "9XM9zLdHzI7rLQpxWwSAIpta/O8ZZ3JUA/iWlKatt1U=",
+    "originContent": "## 📧 Contact",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ご意見交換や共同研究のご提案も歓迎いたします。"
+  },
+  {
+    "row": 166,
+    "rowsha": "CVhFCz7Qsh+ZlaXPyiCOrHyQDF3GIS9j8RaIjP6cP44=",
+    "originContent": "If you have further questions, feel free to contact me: guoyuxin2021@ia.ac.cn",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "G3RStoG3klhI6y7b7G1lU2zdGS23bL1DBPh+G2x4V2I=",
+    "originContent": "Discussions and potential collaborations are also welcome.",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
