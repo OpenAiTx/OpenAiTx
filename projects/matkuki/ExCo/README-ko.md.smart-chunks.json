@@ -1,299 +1,491 @@
 [
   {
     "Id": 1,
-    "Content": "# Ex&#46;Co&#46; <img src=\"https://github.com/matkuki/Ex-Co/blob/master/resources/exco-icon.png\" align=\"top\" width=\"48\" height=\"48\">\n### Descripton: ###\nEx&#46;Co&#46; (Extensible Coder) is a GUI text editor written in Python that uses PyQt/QScintilla libraries with some lexers available in Cython for more efficient text highlighting.\nI developed it with simplicity of use and extensibility in mind.<br>\nFor precompiled bundles for Windows see the releases page (https://github.com/matkuki/ExCo/releases/latest).\n<br><br>\n### Website: ###\nhttp://matkuki.github.io/ExCo/\n<br>\n### Quick features video: ###\nhttps://www.youtube.com/watch?v=v-7fqJGv7Ts&feature\n\n### License: ###\n__GNU General Public License v3.0__\n\nCopyright (c) 2013-2025 Matic Kukovec. All rights reserved.\n  \n#### Additional licenses: ####\nAll additional licenses are specified at the beginning of every source code file and in text file format in the ```additional_licenses``` directory. If I made any mistakes, please open an issue.\n<br><br>\n\n### Some features: ###\n- **New multi-window layout system**\n- All standard text editor functionality (copy, cut, paste, ...)\n- 'Function wheel' for quick access to most of Ex&#46;Co&#46;'s functionality\n- Integrated Python single/multi-line REPL (Read-Eval-Print Loop) for direct access/manipulation of each editor window text and all other functionality\n- Text diffing (also between editor windows)\n- Execute Terminal/Shell commands directly from the REPL (Windows or Linux)\n- Ability to add your custom Python functions\n- Language syntax highlighting: AVS, Ada, Bash, Batch, CMake, CPP, CSS, CSharp, CoffeeScript, Cython, D, Diff, Fortran, Fortran77, HTML, IDL, Java, JavaScript, Lua, Makefile, Matlab, Nim, Oberon, Octave, PO, POV, Pascal, Perl, PostScript, Properties, Python, RouterOS (MikroTik), Ruby, SQL, Spice, TCL, TeX, Text, VHDL, Verilog, XML and YAML\n- Code tree displaying for: \n    - Python 3\n    - Nim\n    - C\n    - Many more to come ...\n<br><br>\n\n### Supported platforms: ###\n- __Windows__ ([precompiled binaries available](https://github.com/matkuki/ExCo/releases))\n- __Linux__ (tested on Ubuntu, Lubuntu, Mint, Fedora, Raspbian (Raspberry pi, pi2, pi3 and pi4))",
-    "ContentSha": "RYZN6Fa5rBbLHBRU1Dg6+NChHPAyAjTGwdnw21JJY6c=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Ex&#46;Co&#46; <img src=\"https://github.com/matkuki/Ex-Co/blob/master/resources/exco-icon.png\" align=\"top\" width=\"48\" height=\"48\">\n### Descripton: ###\nEx&#46;Co&#46; (Extensible Coder) is a GUI text editor written in Python that uses PyQt/QScintilla libraries with some lexers available in Cython for more efficient text highlighting.\nI developed it with simplicity of use and extensibility in mind.<br>\nFor precompiled bundles for Windows see the releases page (https://github.com/matkuki/ExCo/releases/latest).\n<br><br>\n### Website: ###\nhttp://matkuki.github.io/ExCo/",
+    "ContentSha": "HDH74KVQ9XyN3Q9eY/1Nxa0o/Gtmg+ACtIhegkLbjjg=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# Ex.Co. <img src=\"https://github.com/matkuki/Ex-Co/blob/master/resources/exco-icon.png\" align=\"top\" width=\"48\" height=\"48\">\n### 설명: ###\nEx.Co. (Extensible Coder)는 PyQt/QScintilla 라이브러리를 사용하고 일부 렉서를 Cython으로 구현하여 더 효율적인 텍스트 하이라이팅을 제공하는 Python 기반 GUI 텍스트 편집기입니다.\n사용의 단순성과 확장성을 염두에 두고 개발되었습니다.<br>\nWindows용 사전 컴파일된 번들은 릴리스 페이지(https://github.com/matkuki/ExCo/releases/latest)를 참조하세요.\n<br><br>\n### 웹사이트: ###\nhttp://matkuki.github.io/ExCo/\n<br>\n### 빠른 기능 동영상: ###\nhttps://www.youtube.com/watch?v=v-7fqJGv7Ts&feature\n\n### 라이선스: ###\n__GNU 일반 공중 사용 허가서 v3.0__\n\n저작권 (c) 2013-2025 Matic Kukovec. 모든 권리 보유.\n  \n#### 추가 라이선스: ####\n모든 추가 라이선스는 각 소스 코드 파일의 시작 부분과 ```additional_licenses``` 디렉터리 내 텍스트 파일 형식으로 명시되어 있습니다. 오류가 있으면 이슈를 열어 주세요.\n<br><br>\n\n### 주요 기능: ###\n- **새로운 다중 창 레이아웃 시스템**\n- 모든 표준 텍스트 편집기 기능(복사, 잘라내기, 붙여넣기 등)\n- Ex.Co.의 대부분 기능에 빠르게 접근할 수 있는 '기능 휠'\n- 각 편집기 창 텍스트 및 기타 모든 기능에 직접 접근/조작할 수 있는 통합 Python 단일/다중 라인 REPL(읽기-평가-출력 루프)\n- 텍스트 비교(편집기 창 간 비교 포함)\n- REPL에서 터미널/쉘 명령 직접 실행(Windows 또는 Linux)\n- 사용자 정의 Python 함수 추가 기능\n- 언어 구문 하이라이팅 지원: AVS, Ada, Bash, Batch, CMake, CPP, CSS, CSharp, CoffeeScript, Cython, D, Diff, Fortran, Fortran77, HTML, IDL, Java, JavaScript, Lua, Makefile, Matlab, Nim, Oberon, Octave, PO, POV, Pascal, Perl, PostScript, Properties, Python, RouterOS (MikroTik), Ruby, SQL, Spice, TCL, TeX, Text, VHDL, Verilog, XML 및 YAML\n- 코드 트리 표시 지원:\n    - Python 3\n    - Nim\n    - C\n    - 앞으로 더 많은 언어 지원 예정 ...\n<br><br>\n\n### 지원 플랫폼: ###\n- __Windows__ ([사전 컴파일된 바이너리 제공](https://github.com/matkuki/ExCo/releases))\n- __Linux__ (Ubuntu, Lubuntu, Mint, Fedora, Raspbian (Raspberry pi, pi2, pi3 및 pi4)에서 테스트됨)",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Ex&#46;Co&#46; <img src=\"https://github.com/matkuki/Ex-Co/blob/master/resources/exco-icon.png\" align=\"top\" width=\"48\" height=\"48\">\n### 설명: ###\nEx&#46;Co&#46; (Extensible Coder)는 파이썬으로 작성된 GUI 텍스트 에디터로, PyQt/QScintilla 라이브러리를 사용하며 일부 렉서는 더 효율적인 텍스트 하이라이팅을 위해 Cython으로 제공됩니다.\n저는 사용의 간편함과 확장성을 염두에 두고 개발했습니다.<br>\nWindows용 미리 컴파일된 번들은 릴리즈 페이지(https://github.com/matkuki/ExCo/releases/latest)에서 확인할 수 있습니다.\n<br><br>\n### 웹사이트: ###\nhttp://matkuki.github.io/ExCo/",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "A8po/cyMkLg1yFvW8jbkHvY7H2/xgsizdur6KZaOv7Q=",
-        "originContent": "# Ex&#46;Co&#46; <img src=\"https://github.com/matkuki/Ex-Co/blob/master/resources/exco-icon.png\" align=\"top\" width=\"48\" height=\"48\">",
-        "translatedContent": "# Ex.Co. <img src=\"https://github.com/matkuki/Ex-Co/blob/master/resources/exco-icon.png\" align=\"top\" width=\"48\" height=\"48\">"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 언어</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "ELCsxT4DkNpLvczNqVEQaQ7wUe7Kylh8zk5G5xYFwVc=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "3awwOuumDpepqTWoDrqUVNI4JBN6Fjmnoleiete7cT0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "9Mz781AoyHlMuoTOiGWfTRCtbVjeUilASUrkUqg89uw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "TxPe+uDX2z8NQO9pwJzKgg/BQpMW29tC1cUd15kAnwU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "r9JFweWes2qp12LAuWdeeLN/42ZJYft1PtGv3eG/9l4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "PmzwJAJwJJ+Zqo0AQdexmMGzLN0v+DuOf1oTFuUf1KM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "eKE7mBcb2iPxuaKrfaYvtHWx/NqPWM9CPjTVXvh7od8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "m+bFiISw0dDTaiuNmiKFm/jKO1CidTvRw+CUhP6mXBg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "IBlIhFGyaSdrM4DB0VUnNQoZV3JFqR9KMB9T+SXPkPU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "4XlcJ1pbgXhU72zEGciP/7WMe/qkX3F8v7Ckof8IXTI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "ZVhmyM/jhKK/WBFmTHCgZsmxOcDcvsA86sNRjCmX0N8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "4qCKrajGhbC0fB1LUxh5flnm5h+BSwtS8O9xtdeW0W4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "fB2plK8EdJoi/fAT+ozQ/r0L8a8mKn1v2irCbmaOJro=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "vs+rTaBwLUhhtVjvUodmpKViXcYgb0yo/+gdqmj4duc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "q3s6mI0LNJPV+vS4rmsIGFwBh1YJR50gquxprR37QKs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "IVRBxSjP2Y4MQ9Op4NNS2/KR9l9K8cXcfxOGtRGKszI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "1r4xI+J2XGIk3KxXx0zYForl/t01935OF1etsdHw+FA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "bokU54EiWVi+95CL2xAQ2CJ9ocABC2OyAsviPfKFHEs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "o2S6Won7D/EMatgNKrVx8C8iBMRDiq69AWAtY/DgC20=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "wrLO190dslrHA5XjMj/FO+at0dQUhtgo2QJj6nXCIE0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "dXQNIjMqeFY/mkMs04A3Stj2fRDYWnTWjBpDaVLL9P4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "A8po/cyMkLg1yFvW8jbkHvY7H2/xgsizdur6KZaOv7Q=",
+        "originContent": "# Ex&#46;Co&#46; <img src=\"https://github.com/matkuki/Ex-Co/blob/master/resources/exco-icon.png\" align=\"top\" width=\"48\" height=\"48\">",
+        "translatedContent": "# Ex&#46;Co&#46; <img src=\"https://github.com/matkuki/Ex-Co/blob/master/resources/exco-icon.png\" align=\"top\" width=\"48\" height=\"48\">"
+      },
+      {
+        "row": 34,
         "rowsha": "oGGtU8Nyng1QZRlDRSpBsIG9ALYCglRf2/7G4xxFbV8=",
         "originContent": "### Descripton: ###",
         "translatedContent": "### 설명: ###"
       },
       {
-        "row": 3,
+        "row": 35,
         "rowsha": "5lj1X6O8g1TN7RRIq+Fe1fA4ZQiIB1QRc2kSwYbF2o8=",
         "originContent": "Ex&#46;Co&#46; (Extensible Coder) is a GUI text editor written in Python that uses PyQt/QScintilla libraries with some lexers available in Cython for more efficient text highlighting.",
-        "translatedContent": "Ex.Co. (Extensible Coder)는 PyQt/QScintilla 라이브러리를 사용하고 일부 렉서를 Cython으로 구현하여 더 효율적인 텍스트 하이라이팅을 제공하는 Python 기반 GUI 텍스트 편집기입니다."
+        "translatedContent": "Ex&#46;Co&#46; (Extensible Coder)는 파이썬으로 작성된 GUI 텍스트 에디터로, PyQt/QScintilla 라이브러리를 사용하며 일부 렉서는 더 효율적인 텍스트 하이라이팅을 위해 Cython으로 제공됩니다."
       },
       {
-        "row": 4,
+        "row": 36,
         "rowsha": "dNwLa5+hvdfqigpiHIPbldm+LLgtjCpXMIaBEsIlJ/U=",
         "originContent": "I developed it with simplicity of use and extensibility in mind.<br>",
-        "translatedContent": "사용의 단순성과 확장성을 염두에 두고 개발되었습니다.<br>"
+        "translatedContent": "저는 사용의 간편함과 확장성을 염두에 두고 개발했습니다.<br>"
       },
       {
-        "row": 5,
+        "row": 37,
         "rowsha": "fOvQ9Z+DKwojOZQCaT4NQlEng3EvGNKQ5xuGol987ow=",
         "originContent": "For precompiled bundles for Windows see the releases page (https://github.com/matkuki/ExCo/releases/latest).",
-        "translatedContent": "Windows용 사전 컴파일된 번들은 릴리스 페이지(https://github.com/matkuki/ExCo/releases/latest)를 참조하세요."
+        "translatedContent": "Windows용 미리 컴파일된 번들은 릴리즈 페이지(https://github.com/matkuki/ExCo/releases/latest)에서 확인할 수 있습니다."
       },
       {
-        "row": 6,
+        "row": 38,
         "rowsha": "px87SzJmny2j5XSZk5l8GRkuvG0a9uyL0M/Z8rcCB3s=",
         "originContent": "<br><br>",
         "translatedContent": "<br><br>"
       },
       {
-        "row": 7,
+        "row": 39,
         "rowsha": "ud+55pTYHFTM4tckKfyQzhfxfcP0gbxq0kQz2cTCjiQ=",
         "originContent": "### Website: ###",
         "translatedContent": "### 웹사이트: ###"
       },
       {
-        "row": 8,
+        "row": 40,
         "rowsha": "MuYb1l2c9+3wwo9kw7OmZLZ5qXrwkaNtd4GZPzd854o=",
         "originContent": "http://matkuki.github.io/ExCo/",
         "translatedContent": "http://matkuki.github.io/ExCo/"
-      },
-      {
-        "row": 9,
-        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
-        "originContent": "<br>",
-        "translatedContent": "<br>"
-      },
-      {
-        "row": 10,
-        "rowsha": "OJ5964suan72v5/P4nynBTcmWiQ52kwcnDfNDnzbgAs=",
-        "originContent": "### Quick features video: ###",
-        "translatedContent": "### 빠른 기능 동영상: ###"
-      },
-      {
-        "row": 11,
-        "rowsha": "o1j5Xm5n0IVz9GVtCzxGCAdO/s8IsHg7M78M4tbgorg=",
-        "originContent": "https://www.youtube.com/watch?v=v-7fqJGv7Ts&feature",
-        "translatedContent": "https://www.youtube.com/watch?v=v-7fqJGv7Ts&feature"
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "mDgxdxmds4C8m53oSSMR/YX0dMkcSp+UIYTta2CZo5Q=",
-        "originContent": "### License: ###",
-        "translatedContent": "### 라이선스: ###"
-      },
-      {
-        "row": 14,
-        "rowsha": "91/UIQT0SRTOKzB+3bQ6xtp2Ts8iXSZ+1zeclIXtm/k=",
-        "originContent": "__GNU General Public License v3.0__",
-        "translatedContent": "__GNU 일반 공중 사용 허가서 v3.0__"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "Xva6kDMqh+evSVXricpMNNkhVjIvFdv7UrGwuKPlnDA=",
-        "originContent": "Copyright (c) 2013-2025 Matic Kukovec. All rights reserved.",
-        "translatedContent": "저작권 (c) 2013-2025 Matic Kukovec. 모든 권리 보유."
-      },
-      {
-        "row": 17,
-        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
-        "originContent": "  ",
-        "translatedContent": "  "
-      },
-      {
-        "row": 18,
-        "rowsha": "n3mZxtyDQIwn8RhkdxFPkZXfEfOWavJK6ZexlZWhXjo=",
-        "originContent": "#### Additional licenses: ####",
-        "translatedContent": "#### 추가 라이선스: ####"
-      },
-      {
-        "row": 19,
-        "rowsha": "DF/FtjK4DXqiczFcZrwbuVQGFDZjI+HnXC0JZCHZlWw=",
-        "originContent": "All additional licenses are specified at the beginning of every source code file and in text file format in the ```additional_licenses``` directory. If I made any mistakes, please open an issue.",
-        "translatedContent": "모든 추가 라이선스는 각 소스 코드 파일의 시작 부분과 ```additional_licenses``` 디렉터리 내 텍스트 파일 형식으로 명시되어 있습니다. 오류가 있으면 이슈를 열어 주세요."
-      },
-      {
-        "row": 20,
-        "rowsha": "px87SzJmny2j5XSZk5l8GRkuvG0a9uyL0M/Z8rcCB3s=",
-        "originContent": "<br><br>",
-        "translatedContent": "<br><br>"
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "C32s79Q3aXZsrcMNcxt6xOswQHemvTa9wG9fCFNWUiY=",
-        "originContent": "### Some features: ###",
-        "translatedContent": "### 주요 기능: ###"
-      },
-      {
-        "row": 23,
-        "rowsha": "/vwaR8CoGCQYqEW7CIIfT1tI63SSxkmjtECEJJOQ0IM=",
-        "originContent": "- **New multi-window layout system**",
-        "translatedContent": "- **새로운 다중 창 레이아웃 시스템**"
-      },
-      {
-        "row": 24,
-        "rowsha": "cMSMH/yBbPY6eUWwvCz88BzAAVVovLBsD+M8ZWzHmxU=",
-        "originContent": "- All standard text editor functionality (copy, cut, paste, ...)",
-        "translatedContent": "- 모든 표준 텍스트 편집기 기능(복사, 잘라내기, 붙여넣기 등)"
-      },
-      {
-        "row": 25,
-        "rowsha": "xbFhCloGkE+8AM0m8ze43h+H6vwzikAuDdG6/9nVJMY=",
-        "originContent": "- 'Function wheel' for quick access to most of Ex&#46;Co&#46;'s functionality",
-        "translatedContent": "- Ex.Co.의 대부분 기능에 빠르게 접근할 수 있는 '기능 휠'"
-      },
-      {
-        "row": 26,
-        "rowsha": "F+yx7rnyQtN0NuHFuGOn1BIemH8Y8U2OM0nLkN5EelM=",
-        "originContent": "- Integrated Python single/multi-line REPL (Read-Eval-Print Loop) for direct access/manipulation of each editor window text and all other functionality",
-        "translatedContent": "- 각 편집기 창 텍스트 및 기타 모든 기능에 직접 접근/조작할 수 있는 통합 Python 단일/다중 라인 REPL(읽기-평가-출력 루프)"
-      },
-      {
-        "row": 27,
-        "rowsha": "ReShIk6AIU9aq+iRbHrWv17gcER8KEgVuvd2gV37Jow=",
-        "originContent": "- Text diffing (also between editor windows)",
-        "translatedContent": "- 텍스트 비교(편집기 창 간 비교 포함)"
-      },
-      {
-        "row": 28,
-        "rowsha": "8VT9MpbD1m7Fv6mWh4pLjRAP+8R84umM1T4k0+LG0dM=",
-        "originContent": "- Execute Terminal/Shell commands directly from the REPL (Windows or Linux)",
-        "translatedContent": "- REPL에서 터미널/쉘 명령 직접 실행(Windows 또는 Linux)"
-      },
-      {
-        "row": 29,
-        "rowsha": "BEeZ4ngRl5Inx9kW6TZqhs1uN6r7oJhCz3Yky8Js9Zo=",
-        "originContent": "- Ability to add your custom Python functions",
-        "translatedContent": "- 사용자 정의 Python 함수 추가 기능"
-      },
-      {
-        "row": 30,
-        "rowsha": "j4bHp59qCads4at8/2HR1Xi5DBbyPfCfQc8OtXRvxcE=",
-        "originContent": "- Language syntax highlighting: AVS, Ada, Bash, Batch, CMake, CPP, CSS, CSharp, CoffeeScript, Cython, D, Diff, Fortran, Fortran77, HTML, IDL, Java, JavaScript, Lua, Makefile, Matlab, Nim, Oberon, Octave, PO, POV, Pascal, Perl, PostScript, Properties, Python, RouterOS (MikroTik), Ruby, SQL, Spice, TCL, TeX, Text, VHDL, Verilog, XML and YAML",
-        "translatedContent": "- 언어 구문 하이라이팅 지원: AVS, Ada, Bash, Batch, CMake, CPP, CSS, CSharp, CoffeeScript, Cython, D, Diff, Fortran, Fortran77, HTML, IDL, Java, JavaScript, Lua, Makefile, Matlab, Nim, Oberon, Octave, PO, POV, Pascal, Perl, PostScript, Properties, Python, RouterOS (MikroTik), Ruby, SQL, Spice, TCL, TeX, Text, VHDL, Verilog, XML 및 YAML"
-      },
-      {
-        "row": 31,
-        "rowsha": "UkDKs2Aqk6ROGu+E5DaZxaM8CbkRj9XDaaM+3B16gBM=",
-        "originContent": "- Code tree displaying for: ",
-        "translatedContent": "- 코드 트리 표시 지원:"
-      },
-      {
-        "row": 32,
-        "rowsha": "pnNPcz/8MtyhONGKAApSR8aosNfrJtQvypDrQfvyR+g=",
-        "originContent": "    - Python 3",
-        "translatedContent": "    - Python 3"
-      },
-      {
-        "row": 33,
-        "rowsha": "QhZVX5MSqkAg/4FThqY6ADi3POGA+suHM5eS1zZdFSs=",
-        "originContent": "    - Nim",
-        "translatedContent": "    - Nim"
-      },
-      {
-        "row": 34,
-        "rowsha": "RjP9X+k5T6o2vOfpypYA3ILO6iHW30dHqcIjtbg1CPw=",
-        "originContent": "    - C",
-        "translatedContent": "    - C"
-      },
-      {
-        "row": 35,
-        "rowsha": "mGkM82QcWAEkgrQCP6Qp/61QYDdaDzATPPM8gqJcRxE=",
-        "originContent": "    - Many more to come ...",
-        "translatedContent": "    - 앞으로 더 많은 언어 지원 예정 ..."
-      },
-      {
-        "row": 36,
-        "rowsha": "px87SzJmny2j5XSZk5l8GRkuvG0a9uyL0M/Z8rcCB3s=",
-        "originContent": "<br><br>",
-        "translatedContent": "<br><br>"
-      },
-      {
-        "row": 37,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 38,
-        "rowsha": "XMoyEbCYdHRhyJFKBpxaHef46hrC1+298ty3tr5sT7s=",
-        "originContent": "### Supported platforms: ###",
-        "translatedContent": "### 지원 플랫폼: ###"
-      },
-      {
-        "row": 39,
-        "rowsha": "/8e7gDEEjSsii+oxdrjdiVwhIhpzXYczUyVDZuFzLR8=",
-        "originContent": "- __Windows__ ([precompiled binaries available](https://github.com/matkuki/ExCo/releases))",
-        "translatedContent": "- __Windows__ ([사전 컴파일된 바이너리 제공](https://github.com/matkuki/ExCo/releases))"
-      },
-      {
-        "row": 40,
-        "rowsha": "pYHWnm3BV2qhzK9ClADtiqWD3eyas5YGaRW4x3NrA+g=",
-        "originContent": "- __Linux__ (tested on Ubuntu, Lubuntu, Mint, Fedora, Raspbian (Raspberry pi, pi2, pi3 and pi4))",
-        "translatedContent": "- __Linux__ (Ubuntu, Lubuntu, Mint, Fedora, Raspbian (Raspberry pi, pi2, pi3 및 pi4)에서 테스트됨)"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "- __Mac OS__ (Many thanks to __zenlc2000__ for testing this on Mac OS 10.11)\n\n### Requirements: ###\n- __Python__ 3.6 or higher\n- __Packages__ install them with: `pip install -r requirements.txt` (check the file for more details)\n",
-    "ContentSha": "O2yXbdxYXe058ryccGFlupWJen8IAbPjT1kW65xAK0E=",
+    "Content": "<br>\n### Quick features video: ###\nhttps://www.youtube.com/watch?v=v-7fqJGv7Ts&feature\n\n### License: ###\n__GNU General Public License v3.0__\n\nCopyright (c) 2013-2025 Matic Kukovec. All rights reserved.\n  \n#### Additional licenses: ####\nAll additional licenses are specified at the beginning of every source code file and in text file format in the ```additional_licenses``` directory. If I made any mistakes, please open an issue.\n<br><br>\n\n### Some features: ###\n- **New multi-window layout system**\n- All standard text editor functionality (copy, cut, paste, ...)\n- 'Function wheel' for quick access to most of Ex&#46;Co&#46;'s functionality\n- Integrated Python single/multi-line REPL (Read-Eval-Print Loop) for direct access/manipulation of each editor window text and all other functionality\n- Text diffing (also between editor windows)\n- Execute Terminal/Shell commands directly from the REPL (Windows or Linux)\n- Ability to add your custom Python functions\n- Language syntax highlighting: AVS, Ada, Bash, Batch, CMake, CPP, CSS, CSharp, CoffeeScript, Cython, D, Diff, Fortran, Fortran77, HTML, IDL, Java, JavaScript, Lua, Makefile, Matlab, Nim, Oberon, Octave, PO, POV, Pascal, Perl, PostScript, Properties, Python, RouterOS (MikroTik), Ruby, SQL, Spice, TCL, TeX, Text, VHDL, Verilog, XML and YAML\n- Code tree displaying for: \n    - Python 3\n    - Nim\n    - C\n    - Many more to come ...\n<br><br>\n\n### Supported platforms: ###\n- __Windows__ ([precompiled binaries available](https://github.com/matkuki/ExCo/releases))\n- __Linux__ (tested on Ubuntu, Lubuntu, Mint, Fedora, Raspbian (Raspberry pi, pi2, pi3 and pi4))\n- __Mac OS__ (Many thanks to __zenlc2000__ for testing this on Mac OS 10.11)\n\n### Requirements: ###\n- __Python__ 3.6 or higher\n- __Packages__ install them with: `pip install -r requirements.txt` (check the file for more details)\n",
+    "ContentSha": "/yY3fv3bCzJpyw4Gf6k3GdybK6YJr/kDrkWrZb5BR0c=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- __Mac OS__ (__zenlc2000__님께서 Mac OS 10.11에서 테스트해주셨습니다, 진심으로 감사드립니다)\n\n### 요구 사항: ###\n- __Python__ 3.6 이상\n- __패키지__ 다음 명령어로 설치하세요: `pip install -r requirements.txt` (자세한 내용은 파일을 확인하세요)\n",
+    "Translation": "<br>\n### 빠른 기능 소개 영상: ###\nhttps://www.youtube.com/watch?v=v-7fqJGv7Ts&feature\n\n### 라이선스: ###\n__GNU 일반 공중 라이선스 v3.0__\n\nCopyright (c) 2013-2025 Matic Kukovec. 모든 권리 보유.\n  \n#### 추가 라이선스: ####\n모든 추가 라이선스는 각 소스 코드 파일의 시작 부분과 ```additional_licenses``` 디렉터리의 텍스트 파일 형식으로 명시되어 있습니다. 만약 실수가 있다면, 이슈를 열어주세요.\n<br><br>\n\n### 일부 기능: ###\n- **새로운 다중 창 레이아웃 시스템**\n- 모든 표준 텍스트 편집기 기능(복사, 자르기, 붙여넣기 등)\n- 대부분의 Ex&#46;Co&#46; 기능에 빠르게 접근할 수 있는 '기능 휠'\n- 각 에디터 창의 텍스트와 모든 기능에 직접 접근/조작할 수 있는 통합 파이썬 단일/다중 라인 REPL(Read-Eval-Print Loop)\n- 텍스트 차이 비교(에디터 창 간에도 가능)\n- REPL에서 직접 터미널/셸 명령 실행(윈도우 또는 리눅스)\n- 사용자 지정 파이썬 함수 추가 기능\n- 언어 구문 하이라이팅: AVS, Ada, Bash, Batch, CMake, CPP, CSS, CSharp, CoffeeScript, Cython, D, Diff, Fortran, Fortran77, HTML, IDL, Java, JavaScript, Lua, Makefile, Matlab, Nim, Oberon, Octave, PO, POV, Pascal, Perl, PostScript, Properties, Python, RouterOS (MikroTik), Ruby, SQL, Spice, TCL, TeX, Text, VHDL, Verilog, XML 및 YAML\n- 코드 트리 표시 지원: \n    - Python 3\n    - Nim\n    - C\n    - 앞으로 더 많은 언어 지원 예정 ...\n<br><br>\n\n### 지원 플랫폼: ###\n- __Windows__ ([미리 컴파일된 바이너리 제공](https://github.com/matkuki/ExCo/releases))\n- __Linux__ (Ubuntu, Lubuntu, Mint, Fedora, Raspbian (Raspberry pi, pi2, pi3, pi4)에서 테스트됨)\n- __Mac OS__ (__zenlc2000__에게 Mac OS 10.11에서 테스트해주신 것에 감사드립니다)\n\n### 요구 사항: ###\n- __Python__ 3.6 이상\n- __패키지__ `pip install -r requirements.txt` 명령으로 설치(자세한 내용은 파일을 확인하세요)\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "VcL1aTLehl8t5ut0pPU0mVKfvTavpPb9tTtRH1v8rvA=",
-        "originContent": "- __Mac OS__ (Many thanks to __zenlc2000__ for testing this on Mac OS 10.11)",
-        "translatedContent": "- __Mac OS__ (__zenlc2000__님께서 Mac OS 10.11에서 테스트해주셨습니다, 진심으로 감사드립니다)"
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
       },
       {
         "row": 2,
+        "rowsha": "OJ5964suan72v5/P4nynBTcmWiQ52kwcnDfNDnzbgAs=",
+        "originContent": "### Quick features video: ###",
+        "translatedContent": "### 빠른 기능 소개 영상: ###"
+      },
+      {
+        "row": 3,
+        "rowsha": "o1j5Xm5n0IVz9GVtCzxGCAdO/s8IsHg7M78M4tbgorg=",
+        "originContent": "https://www.youtube.com/watch?v=v-7fqJGv7Ts&feature",
+        "translatedContent": "https://www.youtube.com/watch?v=v-7fqJGv7Ts&feature"
+      },
+      {
+        "row": 4,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 3,
+        "row": 5,
+        "rowsha": "mDgxdxmds4C8m53oSSMR/YX0dMkcSp+UIYTta2CZo5Q=",
+        "originContent": "### License: ###",
+        "translatedContent": "### 라이선스: ###"
+      },
+      {
+        "row": 6,
+        "rowsha": "91/UIQT0SRTOKzB+3bQ6xtp2Ts8iXSZ+1zeclIXtm/k=",
+        "originContent": "__GNU General Public License v3.0__",
+        "translatedContent": "__GNU 일반 공중 라이선스 v3.0__"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Xva6kDMqh+evSVXricpMNNkhVjIvFdv7UrGwuKPlnDA=",
+        "originContent": "Copyright (c) 2013-2025 Matic Kukovec. All rights reserved.",
+        "translatedContent": "Copyright (c) 2013-2025 Matic Kukovec. 모든 권리 보유."
+      },
+      {
+        "row": 9,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 10,
+        "rowsha": "n3mZxtyDQIwn8RhkdxFPkZXfEfOWavJK6ZexlZWhXjo=",
+        "originContent": "#### Additional licenses: ####",
+        "translatedContent": "#### 추가 라이선스: ####"
+      },
+      {
+        "row": 11,
+        "rowsha": "DF/FtjK4DXqiczFcZrwbuVQGFDZjI+HnXC0JZCHZlWw=",
+        "originContent": "All additional licenses are specified at the beginning of every source code file and in text file format in the ```additional_licenses``` directory. If I made any mistakes, please open an issue.",
+        "translatedContent": "모든 추가 라이선스는 각 소스 코드 파일의 시작 부분과 ```additional_licenses``` 디렉터리의 텍스트 파일 형식으로 명시되어 있습니다. 만약 실수가 있다면, 이슈를 열어주세요."
+      },
+      {
+        "row": 12,
+        "rowsha": "px87SzJmny2j5XSZk5l8GRkuvG0a9uyL0M/Z8rcCB3s=",
+        "originContent": "<br><br>",
+        "translatedContent": "<br><br>"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "C32s79Q3aXZsrcMNcxt6xOswQHemvTa9wG9fCFNWUiY=",
+        "originContent": "### Some features: ###",
+        "translatedContent": "### 일부 기능: ###"
+      },
+      {
+        "row": 15,
+        "rowsha": "/vwaR8CoGCQYqEW7CIIfT1tI63SSxkmjtECEJJOQ0IM=",
+        "originContent": "- **New multi-window layout system**",
+        "translatedContent": "- **새로운 다중 창 레이아웃 시스템**"
+      },
+      {
+        "row": 16,
+        "rowsha": "cMSMH/yBbPY6eUWwvCz88BzAAVVovLBsD+M8ZWzHmxU=",
+        "originContent": "- All standard text editor functionality (copy, cut, paste, ...)",
+        "translatedContent": "- 모든 표준 텍스트 편집기 기능(복사, 자르기, 붙여넣기 등)"
+      },
+      {
+        "row": 17,
+        "rowsha": "xbFhCloGkE+8AM0m8ze43h+H6vwzikAuDdG6/9nVJMY=",
+        "originContent": "- 'Function wheel' for quick access to most of Ex&#46;Co&#46;'s functionality",
+        "translatedContent": "- 대부분의 Ex&#46;Co&#46; 기능에 빠르게 접근할 수 있는 '기능 휠'"
+      },
+      {
+        "row": 18,
+        "rowsha": "F+yx7rnyQtN0NuHFuGOn1BIemH8Y8U2OM0nLkN5EelM=",
+        "originContent": "- Integrated Python single/multi-line REPL (Read-Eval-Print Loop) for direct access/manipulation of each editor window text and all other functionality",
+        "translatedContent": "- 각 에디터 창의 텍스트와 모든 기능에 직접 접근/조작할 수 있는 통합 파이썬 단일/다중 라인 REPL(Read-Eval-Print Loop)"
+      },
+      {
+        "row": 19,
+        "rowsha": "ReShIk6AIU9aq+iRbHrWv17gcER8KEgVuvd2gV37Jow=",
+        "originContent": "- Text diffing (also between editor windows)",
+        "translatedContent": "- 텍스트 차이 비교(에디터 창 간에도 가능)"
+      },
+      {
+        "row": 20,
+        "rowsha": "8VT9MpbD1m7Fv6mWh4pLjRAP+8R84umM1T4k0+LG0dM=",
+        "originContent": "- Execute Terminal/Shell commands directly from the REPL (Windows or Linux)",
+        "translatedContent": "- REPL에서 직접 터미널/셸 명령 실행(윈도우 또는 리눅스)"
+      },
+      {
+        "row": 21,
+        "rowsha": "BEeZ4ngRl5Inx9kW6TZqhs1uN6r7oJhCz3Yky8Js9Zo=",
+        "originContent": "- Ability to add your custom Python functions",
+        "translatedContent": "- 사용자 지정 파이썬 함수 추가 기능"
+      },
+      {
+        "row": 22,
+        "rowsha": "j4bHp59qCads4at8/2HR1Xi5DBbyPfCfQc8OtXRvxcE=",
+        "originContent": "- Language syntax highlighting: AVS, Ada, Bash, Batch, CMake, CPP, CSS, CSharp, CoffeeScript, Cython, D, Diff, Fortran, Fortran77, HTML, IDL, Java, JavaScript, Lua, Makefile, Matlab, Nim, Oberon, Octave, PO, POV, Pascal, Perl, PostScript, Properties, Python, RouterOS (MikroTik), Ruby, SQL, Spice, TCL, TeX, Text, VHDL, Verilog, XML and YAML",
+        "translatedContent": "- 언어 구문 하이라이팅: AVS, Ada, Bash, Batch, CMake, CPP, CSS, CSharp, CoffeeScript, Cython, D, Diff, Fortran, Fortran77, HTML, IDL, Java, JavaScript, Lua, Makefile, Matlab, Nim, Oberon, Octave, PO, POV, Pascal, Perl, PostScript, Properties, Python, RouterOS (MikroTik), Ruby, SQL, Spice, TCL, TeX, Text, VHDL, Verilog, XML 및 YAML"
+      },
+      {
+        "row": 23,
+        "rowsha": "UkDKs2Aqk6ROGu+E5DaZxaM8CbkRj9XDaaM+3B16gBM=",
+        "originContent": "- Code tree displaying for: ",
+        "translatedContent": "- 코드 트리 표시 지원: "
+      },
+      {
+        "row": 24,
+        "rowsha": "pnNPcz/8MtyhONGKAApSR8aosNfrJtQvypDrQfvyR+g=",
+        "originContent": "    - Python 3",
+        "translatedContent": "    - Python 3"
+      },
+      {
+        "row": 25,
+        "rowsha": "QhZVX5MSqkAg/4FThqY6ADi3POGA+suHM5eS1zZdFSs=",
+        "originContent": "    - Nim",
+        "translatedContent": "    - Nim"
+      },
+      {
+        "row": 26,
+        "rowsha": "RjP9X+k5T6o2vOfpypYA3ILO6iHW30dHqcIjtbg1CPw=",
+        "originContent": "    - C",
+        "translatedContent": "    - C"
+      },
+      {
+        "row": 27,
+        "rowsha": "mGkM82QcWAEkgrQCP6Qp/61QYDdaDzATPPM8gqJcRxE=",
+        "originContent": "    - Many more to come ...",
+        "translatedContent": "    - 앞으로 더 많은 언어 지원 예정 ..."
+      },
+      {
+        "row": 28,
+        "rowsha": "px87SzJmny2j5XSZk5l8GRkuvG0a9uyL0M/Z8rcCB3s=",
+        "originContent": "<br><br>",
+        "translatedContent": "<br><br>"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "XMoyEbCYdHRhyJFKBpxaHef46hrC1+298ty3tr5sT7s=",
+        "originContent": "### Supported platforms: ###",
+        "translatedContent": "### 지원 플랫폼: ###"
+      },
+      {
+        "row": 31,
+        "rowsha": "/8e7gDEEjSsii+oxdrjdiVwhIhpzXYczUyVDZuFzLR8=",
+        "originContent": "- __Windows__ ([precompiled binaries available](https://github.com/matkuki/ExCo/releases))",
+        "translatedContent": "- __Windows__ ([미리 컴파일된 바이너리 제공](https://github.com/matkuki/ExCo/releases))"
+      },
+      {
+        "row": 32,
+        "rowsha": "pYHWnm3BV2qhzK9ClADtiqWD3eyas5YGaRW4x3NrA+g=",
+        "originContent": "- __Linux__ (tested on Ubuntu, Lubuntu, Mint, Fedora, Raspbian (Raspberry pi, pi2, pi3 and pi4))",
+        "translatedContent": "- __Linux__ (Ubuntu, Lubuntu, Mint, Fedora, Raspbian (Raspberry pi, pi2, pi3, pi4)에서 테스트됨)"
+      },
+      {
+        "row": 33,
+        "rowsha": "VcL1aTLehl8t5ut0pPU0mVKfvTavpPb9tTtRH1v8rvA=",
+        "originContent": "- __Mac OS__ (Many thanks to __zenlc2000__ for testing this on Mac OS 10.11)",
+        "translatedContent": "- __Mac OS__ (__zenlc2000__에게 Mac OS 10.11에서 테스트해주신 것에 감사드립니다)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
         "rowsha": "RC3y3AQqmD1g9anJG8IW6OhLVBn/IrwycBjYv19pQpI=",
         "originContent": "### Requirements: ###",
         "translatedContent": "### 요구 사항: ###"
       },
       {
-        "row": 4,
+        "row": 36,
         "rowsha": "y8A9kpHa5WxIw258+HE5mS5k6CzTP2UuYAeLMN4mKv8=",
         "originContent": "- __Python__ 3.6 or higher",
         "translatedContent": "- __Python__ 3.6 이상"
       },
       {
-        "row": 5,
+        "row": 37,
         "rowsha": "y15BocmUgSxXTO6m5bnhbaHxnlzuXvhCHoNOAc74Wv4=",
         "originContent": "- __Packages__ install them with: `pip install -r requirements.txt` (check the file for more details)",
-        "translatedContent": "- __패키지__ 다음 명령어로 설치하세요: `pip install -r requirements.txt` (자세한 내용은 파일을 확인하세요)"
+        "translatedContent": "- __패키지__ `pip install -r requirements.txt` 명령으로 설치(자세한 내용은 파일을 확인하세요)"
       },
       {
-        "row": 6,
+        "row": 38,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

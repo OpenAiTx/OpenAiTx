@@ -1,0 +1,387 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/BarkyTheDog/catclock/master/catclock.gif\">\n</p>\n\ncatclock\n========\n\nThis is a version of the X Window System xclock program, which has been enhanced with a \"cat mode\". Originally an X10 program by Tony Della Fera (MIT-Athena, DEC), Dave Mankins (MIT-Athena, BBN) and Ed Moy (UC Berkeley), Deanna Hohn and I (at Digital Equipment Corporation) crafted this for our own entertainment in the late 1980's. The graphics were inspired by the famous, indeed iconic, Kit-Cat (R) clock, one of which still hangs in my kitchen. I've put this up on github in honor of this year being the 30th anniversary of the introduction of X10, and because it's a fun desktop toy.\n\nSince the time of our enhancements, the code has been changed very little, primarily to conform to now-more-strict compilers. Currently, it compiles and runs on various Linux distros, Cygwin, and OS X (XQuartz), with changes to the Makefile necessitated only by Macport's default installation of X-related files into /opt/local. The Imakefile is rather dated, and I've not yet attempted to try to make it work -- it's only included now for \"historical\" reasons. The original readme file, now named readme_original, is also included for historical reasons.\n\nIn addition to the cat mode, this version of xclock includes an alarm feature and an hourly chime (see the man page for details). Various X defaults and command-line switches can be used to control the colors for the cat. You may have to modify the Makefile's header and library paths for your machine's X configuration. The only \"nonstandard\" dependency is on Motif, which is easily obtainable from your favorite package manager.\n\n## Tempo Tracking\n\nThis version is able to track the music tempo and move cat eyes and tail in sync with music.\nTo build it with tempo tracking enabled you will need an additional library which powers the tempo tracking:\n",
+    "ContentSha": "CIj4LZJzj0BDUVrYHID+0WFnGkZzWH9ojk3D7nClh+M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/BarkyTheDog/catclock/master/catclock.gif\">\n</p>\n\ncatclock\n========\n\nCeci est une version du programme xclock du système X Window, qui a été améliorée avec un « mode chat ». À l'origine un programme X10 par Tony Della Fera (MIT-Athena, DEC), Dave Mankins (MIT-Athena, BBN) et Ed Moy (UC Berkeley), Deanna Hohn et moi-même (chez Digital Equipment Corporation) l'avons conçu pour notre propre divertissement à la fin des années 1980. Les graphismes ont été inspirés par la célèbre, en effet emblématique, horloge Kit-Cat (R), dont une pendule est toujours accrochée dans ma cuisine. J'ai mis cela sur GitHub en l'honneur de la 30e anniversaire de l'introduction de X10 cette année, et parce que c'est un jouet de bureau amusant.\n\nDepuis le temps de nos améliorations, le code a très peu changé, principalement pour se conformer à des compilateurs désormais plus stricts. Actuellement, il compile et fonctionne sur diverses distributions Linux, Cygwin et OS X (XQuartz), avec des modifications du Makefile seulement nécessaires à cause de l'installation par défaut de Macport des fichiers liés à X dans /opt/local. L'Imakefile est assez ancien, et je n'ai pas encore tenté de le faire fonctionner – il est seulement inclus pour des raisons « historiques ». Le fichier readme original, maintenant nommé readme_original, est également inclus pour des raisons historiques.\n\nEn plus du mode chat, cette version de xclock inclut une fonction d'alarme et une sonnerie horaire (voir la page de manuel pour les détails). Divers paramètres X par défaut et options en ligne de commande peuvent être utilisés pour contrôler les couleurs du chat. Il se peut que vous deviez modifier les chemins d'en-tête et de bibliothèque dans le Makefile pour la configuration X de votre machine. La seule dépendance « non standard » est Motif, qui est facilement obtenable via votre gestionnaire de paquets préféré.\n\n## Suivi du Tempo\n\nCette version est capable de suivre le tempo musical et de synchroniser les mouvements des yeux et de la queue du chat avec la musique.  \nPour le compiler avec le suivi du tempo activé, vous aurez besoin d'une bibliothèque supplémentaire qui alimente le suivi du tempo :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "O00dzl7bKqQm0cOXO8dntzQWKPpCcFkN+qtD136dWHo=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/BarkyTheDog/catclock/master/catclock.gif\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/BarkyTheDog/catclock/master/catclock.gif\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "VfzpcSWWDUAbOsA1PWI9KAIwM0jlyCIPYKw6B3+alEY=",
+        "originContent": "catclock",
+        "translatedContent": "catclock"
+      },
+      {
+        "row": 6,
+        "rowsha": "tAqUywBpJukMwzs/EenunE3HsSatQc6R5nws29KgLok=",
+        "originContent": "========",
+        "translatedContent": "========"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "wKIetDyf4kmjHjbxuxDOH/buojktBAmBGwtVr2FzNvE=",
+        "originContent": "This is a version of the X Window System xclock program, which has been enhanced with a \"cat mode\". Originally an X10 program by Tony Della Fera (MIT-Athena, DEC), Dave Mankins (MIT-Athena, BBN) and Ed Moy (UC Berkeley), Deanna Hohn and I (at Digital Equipment Corporation) crafted this for our own entertainment in the late 1980's. The graphics were inspired by the famous, indeed iconic, Kit-Cat (R) clock, one of which still hangs in my kitchen. I've put this up on github in honor of this year being the 30th anniversary of the introduction of X10, and because it's a fun desktop toy.",
+        "translatedContent": "Ceci est une version du programme xclock du système X Window, qui a été améliorée avec un « mode chat ». À l'origine un programme X10 par Tony Della Fera (MIT-Athena, DEC), Dave Mankins (MIT-Athena, BBN) et Ed Moy (UC Berkeley), Deanna Hohn et moi-même (chez Digital Equipment Corporation) l'avons conçu pour notre propre divertissement à la fin des années 1980. Les graphismes ont été inspirés par la célèbre, en effet emblématique, horloge Kit-Cat (R), dont une pendule est toujours accrochée dans ma cuisine. J'ai mis cela sur GitHub en l'honneur de la 30e anniversaire de l'introduction de X10 cette année, et parce que c'est un jouet de bureau amusant."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "GIsmk6Hv1WKby+o82xfDyq1hYP7cQzpYLW2/iPHLVmI=",
+        "originContent": "Since the time of our enhancements, the code has been changed very little, primarily to conform to now-more-strict compilers. Currently, it compiles and runs on various Linux distros, Cygwin, and OS X (XQuartz), with changes to the Makefile necessitated only by Macport's default installation of X-related files into /opt/local. The Imakefile is rather dated, and I've not yet attempted to try to make it work -- it's only included now for \"historical\" reasons. The original readme file, now named readme_original, is also included for historical reasons.",
+        "translatedContent": "Depuis le temps de nos améliorations, le code a très peu changé, principalement pour se conformer à des compilateurs désormais plus stricts. Actuellement, il compile et fonctionne sur diverses distributions Linux, Cygwin et OS X (XQuartz), avec des modifications du Makefile seulement nécessaires à cause de l'installation par défaut de Macport des fichiers liés à X dans /opt/local. L'Imakefile est assez ancien, et je n'ai pas encore tenté de le faire fonctionner – il est seulement inclus pour des raisons « historiques ». Le fichier readme original, maintenant nommé readme_original, est également inclus pour des raisons historiques."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "mqrh5AudgQrxVwmE8LZN++Id7B1F0Iv/VaNFv3bUg1Y=",
+        "originContent": "In addition to the cat mode, this version of xclock includes an alarm feature and an hourly chime (see the man page for details). Various X defaults and command-line switches can be used to control the colors for the cat. You may have to modify the Makefile's header and library paths for your machine's X configuration. The only \"nonstandard\" dependency is on Motif, which is easily obtainable from your favorite package manager.",
+        "translatedContent": "En plus du mode chat, cette version de xclock inclut une fonction d'alarme et une sonnerie horaire (voir la page de manuel pour les détails). Divers paramètres X par défaut et options en ligne de commande peuvent être utilisés pour contrôler les couleurs du chat. Il se peut que vous deviez modifier les chemins d'en-tête et de bibliothèque dans le Makefile pour la configuration X de votre machine. La seule dépendance « non standard » est Motif, qui est facilement obtenable via votre gestionnaire de paquets préféré."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "Bof1bQm8OLwyyErOuK7XN4mJePDm7oo20czqEjw1gbU=",
+        "originContent": "## Tempo Tracking",
+        "translatedContent": "## Suivi du Tempo"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "yI6N1pDi1gyiIGJZ/20/H7RYBBFjoz7HJPyHT6ASNN0=",
+        "originContent": "This version is able to track the music tempo and move cat eyes and tail in sync with music.",
+        "translatedContent": "Cette version est capable de suivre le tempo musical et de synchroniser les mouvements des yeux et de la queue du chat avec la musique.  "
+      },
+      {
+        "row": 17,
+        "rowsha": "iG8Ifa4GxyNWfx8oY1Pql8fAB0rQuo0MD8BRltZMISQ=",
+        "originContent": "To build it with tempo tracking enabled you will need an additional library which powers the tempo tracking:",
+        "translatedContent": "Pour le compiler avec le suivi du tempo activé, vous aurez besoin d'une bibliothèque supplémentaire qui alimente le suivi du tempo :"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nsudo apt install libaubio5 libaubio-dev\n```",
+    "ContentSha": "VB/vin2bfm6b6FcFsS5XOwbPgxi4oaP1hUVKYzSBzzo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nsudo apt install libaubio5 libaubio-dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "5lUHbc2jjr7SxbAZxQegtiE9m/pqVvTYQLpZeUkMUtw=",
+        "originContent": "sudo apt install libaubio5 libaubio-dev",
+        "translatedContent": "sudo apt install libaubio5 libaubio-dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nUse the `WITH_TEMPO_TRACKER=1` option to compile with tempo tracker enabled:\n",
+    "ContentSha": "nhnMDNGU27F3xFUeZmL3SIkcwKJcA65k/IfoZCKcYE8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nUtilisez l'option `WITH_TEMPO_TRACKER=1` pour compiler avec le suivi du tempo activé :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lrVinitkCAMOM6h48/IKhBI8SfOidS2mJo4ZSi7ZmDw=",
+        "originContent": "Use the `WITH_TEMPO_TRACKER=1` option to compile with tempo tracker enabled:",
+        "translatedContent": "Utilisez l'option `WITH_TEMPO_TRACKER=1` pour compiler avec le suivi du tempo activé :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nmake WITH_TEMPO_TRACKER=1\n```",
+    "ContentSha": "TiqBKEigCIuf32As/00fh7HmEFVxaetHOeZtXUj9lvQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nmake WITH_TEMPO_TRACKER=1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "w+p2os3Y8FRVKFPw9d2SsbOl8WqA5QxARjMAb22Mt+g=",
+        "originContent": "make WITH_TEMPO_TRACKER=1",
+        "translatedContent": "make WITH_TEMPO_TRACKER=1"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nAfter running clock in \"cat\" mode run some PulseAudio mixer (for example - `pavucontrol`) and select desired audio source for analysis on the \"Recording\" tab.\n\n## Usage\n",
+    "ContentSha": "GoWGD7F18XeDfTGVywsMa+lLAKG+9/sqawC8MHjKILw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Après avoir lancé clock en mode \"cat\", lancez un mélangeur PulseAudio (par exemple - `pavucontrol`) et sélectionnez la source audio souhaitée pour l'analyse dans l'onglet \"Enregistrement\".\n\n## Usage\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Après avoir lancé clock en mode \"cat\", lancez un mélangeur PulseAudio (par exemple - `pavucontrol`) et sélectionnez la source audio souhaitée pour l'analyse dans l'onglet \"Enregistrement\"."
+      },
+      {
+        "row": 2,
+        "rowsha": "GN2p01MfmvJlwx9vLaYuvFs5raj3Wyh6KKSyBrBEwbI=",
+        "originContent": "After running clock in \"cat\" mode run some PulseAudio mixer (for example - `pavucontrol`) and select desired audio source for analysis on the \"Recording\" tab.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Usage"
+      },
+      {
+        "row": 4,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nxclock [toolkitoptions]\n       [-mode <analog, digital, cat>]\n       [-alarm]  [-bell]  [-chime]\n       [-file <alarm file>]  [-period <seconds>]\n       [-hl <color>]  [-hd <color>]\n       [-catcolor <color>]\n       [-detailcolor <color>]\n       [-tiecolor <color>]\n       [-padding <pixels>]\n       [-update <seconds>]\n       [-ntails <number>]\n       [-help]\n```",
+    "ContentSha": "pysWev7Ldjrw4rQwSbySCbsIIs+a9MWUmyWptHufnig=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nxclock [toolkitoptions]\n       [-mode <analog, digital, cat>]\n       [-alarm]  [-bell]  [-chime]\n       [-file <alarm file>]  [-period <seconds>]\n       [-hl <color>]  [-hd <color>]\n       [-catcolor <color>]\n       [-detailcolor <color>]\n       [-tiecolor <color>]\n       [-padding <pixels>]\n       [-update <seconds>]\n       [-ntails <number>]\n       [-help]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "cihDOeWX4vndVsVQKFcbFX0b026VDcvAUUYT92k9XNk=",
+        "originContent": "xclock [toolkitoptions]",
+        "translatedContent": "xclock [toolkitoptions]"
+      },
+      {
+        "row": 3,
+        "rowsha": "m5Jc1tIfUzes7jNrTjYmorpfxP5KQEPTYCvzNcbPsiE=",
+        "originContent": "       [-mode <analog, digital, cat>]",
+        "translatedContent": "       [-mode <analog, digital, cat>]"
+      },
+      {
+        "row": 4,
+        "rowsha": "q6hED8+wqS5GsWvfs9xUw92XvUB3Mq1Tsz2c/K251Bs=",
+        "originContent": "       [-alarm]  [-bell]  [-chime]",
+        "translatedContent": "       [-alarm]  [-bell]  [-chime]"
+      },
+      {
+        "row": 5,
+        "rowsha": "pW/j9yzPwSZEdRYEFs96tbxi3vxL4YIpxl7aJzIGGxE=",
+        "originContent": "       [-file <alarm file>]  [-period <seconds>]",
+        "translatedContent": "       [-file <alarm file>]  [-period <seconds>]"
+      },
+      {
+        "row": 6,
+        "rowsha": "LmH+88bXY5t3pHekDW9NMTSeirdctWo2OCkAr0guAk8=",
+        "originContent": "       [-hl <color>]  [-hd <color>]",
+        "translatedContent": "       [-hl <color>]  [-hd <color>]"
+      },
+      {
+        "row": 7,
+        "rowsha": "NjXJgmX12fL5MYPxi0sgfzcPpsK0ww9fzllULAU/DaU=",
+        "originContent": "       [-catcolor <color>]",
+        "translatedContent": "       [-catcolor <color>]"
+      },
+      {
+        "row": 8,
+        "rowsha": "39SwmY1545rJnf6SbgoU99xEeE62dJiYzlTwFMDzIh0=",
+        "originContent": "       [-detailcolor <color>]",
+        "translatedContent": "       [-detailcolor <color>]"
+      },
+      {
+        "row": 9,
+        "rowsha": "rsKkyHgMnUfCyI9rMQXUmn5LnVk45KW8XAHQHgrYQzs=",
+        "originContent": "       [-tiecolor <color>]",
+        "translatedContent": "       [-tiecolor <color>]"
+      },
+      {
+        "row": 10,
+        "rowsha": "kXch1aG+CIAkMGzLX+40HVMiaXsQF2QBnCkTgqVlYQo=",
+        "originContent": "       [-padding <pixels>]",
+        "translatedContent": "       [-padding <pixels>]"
+      },
+      {
+        "row": 11,
+        "rowsha": "oyLBd1xwKb20TVKiXR6coKGRLw8a2Rwv0Gu4lQh79Us=",
+        "originContent": "       [-update <seconds>]",
+        "translatedContent": "       [-update <seconds>]"
+      },
+      {
+        "row": 12,
+        "rowsha": "EE3EF1yxWShCAn2rVNcq5h1f9RRPg3/kIs3W31xPbdE=",
+        "originContent": "       [-ntails <number>]",
+        "translatedContent": "       [-ntails <number>]"
+      },
+      {
+        "row": 13,
+        "rowsha": "pgOIAiVgvnCutpHTjYkM3xVqXOms5+Yn1uUGKwbwyws=",
+        "originContent": "       [-help]",
+        "translatedContent": "       [-help]"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nEnjoy!\n",
+    "ContentSha": "DKqKUlWfvQt3AWbVUc2ImsK9ULgSJQlSpQGA5e5ZL1I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nProfitez-en !\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "uPKRSHoMgus6Jmx2BD0hnSqBQcmTE5W1SUZ3uEEtQSc=",
+        "originContent": "Enjoy!",
+        "translatedContent": "Profitez-en !"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

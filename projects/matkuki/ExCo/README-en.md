@@ -1,8 +1,40 @@
-# Ex.Co. <img src="https://github.com/matkuki/Ex-Co/blob/master/resources/exco-icon.png" align="top" width="48" height="48">
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=matkuki&project=ExCo&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
+# Ex&#46;Co&#46; <img src="https://github.com/matkuki/Ex-Co/blob/master/resources/exco-icon.png" align="top" width="48" height="48">
 ### Description: ###
-Ex.Co. (Extensible Coder) is a GUI text editor written in Python that uses PyQt/QScintilla libraries with some lexers available in Cython for more efficient text highlighting.
-I developed it with simplicity of use and extensibility in mind.<br>
-For precompiled bundles for Windows see the releases page (https://github.com/matkuki/ExCo/releases/latest).
+Ex&#46;Co&#46; (Extensible Coder) is a GUI text editor written in Python that uses the PyQt/QScintilla libraries, with several lexers implemented in Cython for more efficient text highlighting.
+I developed it with simplicity and extensibility in mind.<br>
+For precompiled Windows bundles, see the releases page (https://github.com/matkuki/ExCo/releases/latest).
 <br><br>
 ### Website: ###
 http://matkuki.github.io/ExCo/
@@ -22,7 +54,7 @@ All additional licenses are specified at the beginning of every source code file
 ### Some features: ###
 - **New multi-window layout system**
 - All standard text editor functionality (copy, cut, paste, ...)
-- 'Function wheel' for quick access to most of Ex.Co.'s functionality
+- 'Function wheel' for quick access to most of Ex&#46;Co&#46;'s functionality
 - Integrated Python single/multi-line REPL (Read-Eval-Print Loop) for direct access/manipulation of each editor window text and all other functionality
 - Text diffing (also between editor windows)
 - Execute Terminal/Shell commands directly from the REPL (Windows or Linux)
@@ -47,6 +79,6 @@ All additional licenses are specified at the beginning of every source code file
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-02
 
 ---

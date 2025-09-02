@@ -1,0 +1,296 @@
+[
+  {
+    "row": 1,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 2,
+    "rowsha": "O00dzl7bKqQm0cOXO8dntzQWKPpCcFkN+qtD136dWHo=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/BarkyTheDog/catclock/master/catclock.gif\">",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/BarkyTheDog/catclock/master/catclock.gif\">"
+  },
+  {
+    "row": 3,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "VfzpcSWWDUAbOsA1PWI9KAIwM0jlyCIPYKw6B3+alEY=",
+    "originContent": "catclock",
+    "translatedContent": "catclock"
+  },
+  {
+    "row": 6,
+    "rowsha": "tAqUywBpJukMwzs/EenunE3HsSatQc6R5nws29KgLok=",
+    "originContent": "========",
+    "translatedContent": "========"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "wKIetDyf4kmjHjbxuxDOH/buojktBAmBGwtVr2FzNvE=",
+    "originContent": "This is a version of the X Window System xclock program, which has been enhanced with a \"cat mode\". Originally an X10 program by Tony Della Fera (MIT-Athena, DEC), Dave Mankins (MIT-Athena, BBN) and Ed Moy (UC Berkeley), Deanna Hohn and I (at Digital Equipment Corporation) crafted this for our own entertainment in the late 1980's. The graphics were inspired by the famous, indeed iconic, Kit-Cat (R) clock, one of which still hangs in my kitchen. I've put this up on github in honor of this year being the 30th anniversary of the introduction of X10, and because it's a fun desktop toy.",
+    "translatedContent": "이 프로그램은 X 윈도우 시스템의 xclock 프로그램을 \"고양이 모드\"로 향상시킨 버전입니다. 원래는 Tony Della Fera (MIT-Athena, DEC), Dave Mankins (MIT-Athena, BBN), Ed Moy (UC Berkeley)가 만든 X10 프로그램이었으며, 1980년대 후반에 Deanna Hohn과 제가 (Digital Equipment Corporation에서) 재미로 제작했습니다. 그래픽은 유명하고 상징적인 Kit-Cat (R) 시계에서 영감을 받았으며, 제 부엌에도 하나가 걸려 있습니다. 올해가 X10 도입 30주년을 맞아 이를 기념하고 재미있는 데스크탑 장난감으로서 github에 올렸습니다."
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "GIsmk6Hv1WKby+o82xfDyq1hYP7cQzpYLW2/iPHLVmI=",
+    "originContent": "Since the time of our enhancements, the code has been changed very little, primarily to conform to now-more-strict compilers. Currently, it compiles and runs on various Linux distros, Cygwin, and OS X (XQuartz), with changes to the Makefile necessitated only by Macport's default installation of X-related files into /opt/local. The Imakefile is rather dated, and I've not yet attempted to try to make it work -- it's only included now for \"historical\" reasons. The original readme file, now named readme_original, is also included for historical reasons.",
+    "translatedContent": "개선 이후로 코드 변경은 거의 없었으며, 주로 현재 더 엄격해진 컴파일러에 맞추기 위한 변경만 있었습니다. 현재는 다양한 리눅스 배포판, Cygwin, OS X (XQuartz)에서 컴파일 및 실행이 가능하며, Macport가 X 관련 파일을 /opt/local에 기본 설치하는 것에 맞게 Makefile만 수정되었습니다. Imakefile은 다소 오래되었고 아직 작동시켜 보지 않았으며, 현재는 \"역사적\" 이유로만 포함되어 있습니다. 원본 readme 파일은 readme_original로 이름이 변경되어 역시 역사적 이유로 포함되어 있습니다."
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "mqrh5AudgQrxVwmE8LZN++Id7B1F0Iv/VaNFv3bUg1Y=",
+    "originContent": "In addition to the cat mode, this version of xclock includes an alarm feature and an hourly chime (see the man page for details). Various X defaults and command-line switches can be used to control the colors for the cat. You may have to modify the Makefile's header and library paths for your machine's X configuration. The only \"nonstandard\" dependency is on Motif, which is easily obtainable from your favorite package manager.",
+    "translatedContent": "고양이 모드 외에도 이 버전의 xclock에는 알람 기능과 매시간 타종 기능이 포함되어 있습니다(자세한 내용은 매뉴얼 페이지 참조). 다양한 X 기본값 및 명령행 스위치를 사용하여 고양이의 색상을 제어할 수 있습니다. 자신의 기기 X 구성에 맞게 Makefile의 헤더 및 라이브러리 경로를 수정해야 할 수도 있습니다. 유일한 \"비표준\" 의존성은 Motif이며, 선호하는 패키지 관리자에서 쉽게 구할 수 있습니다."
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "Bof1bQm8OLwyyErOuK7XN4mJePDm7oo20czqEjw1gbU=",
+    "originContent": "## Tempo Tracking",
+    "translatedContent": "## 템포 추적"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "yI6N1pDi1gyiIGJZ/20/H7RYBBFjoz7HJPyHT6ASNN0=",
+    "originContent": "This version is able to track the music tempo and move cat eyes and tail in sync with music.",
+    "translatedContent": "이 버전은 음악 템포를 추적하여 고양이의 눈과 꼬리를 음악과 동기화하여 움직이게 할 수 있습니다.  "
+  },
+  {
+    "row": 17,
+    "rowsha": "iG8Ifa4GxyNWfx8oY1Pql8fAB0rQuo0MD8BRltZMISQ=",
+    "originContent": "To build it with tempo tracking enabled you will need an additional library which powers the tempo tracking:",
+    "translatedContent": "템포 추적 기능을 활성화하여 빌드하려면 템포 추적을 지원하는 추가 라이브러리가 필요합니다:"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 20,
+    "rowsha": "5lUHbc2jjr7SxbAZxQegtiE9m/pqVvTYQLpZeUkMUtw=",
+    "originContent": "sudo apt install libaubio5 libaubio-dev",
+    "translatedContent": "sudo apt install libaubio5 libaubio-dev"
+  },
+  {
+    "row": 21,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`WITH_TEMPO_TRACKER=1` 옵션을 사용하여 템포 트래커가 활성화된 상태로 컴파일하세요:"
+  },
+  {
+    "row": 23,
+    "rowsha": "lrVinitkCAMOM6h48/IKhBI8SfOidS2mJo4ZSi7ZmDw=",
+    "originContent": "Use the `WITH_TEMPO_TRACKER=1` option to compile with tempo tracker enabled:",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 26,
+    "rowsha": "w+p2os3Y8FRVKFPw9d2SsbOl8WqA5QxARjMAb22Mt+g=",
+    "originContent": "make WITH_TEMPO_TRACKER=1",
+    "translatedContent": "make WITH_TEMPO_TRACKER=1"
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "GN2p01MfmvJlwx9vLaYuvFs5raj3Wyh6KKSyBrBEwbI=",
+    "originContent": "After running clock in \"cat\" mode run some PulseAudio mixer (for example - `pavucontrol`) and select desired audio source for analysis on the \"Recording\" tab.",
+    "translatedContent": "\"cat\" 모드에서 클럭을 실행한 후 PulseAudio 믹서(예: `pavucontrol`)를 실행하고 \"녹음\" 탭에서 분석할 원하는 오디오 소스를 선택하세요."
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 34,
+    "rowsha": "cihDOeWX4vndVsVQKFcbFX0b026VDcvAUUYT92k9XNk=",
+    "originContent": "xclock [toolkitoptions]",
+    "translatedContent": "xclock [toolkitoptions]"
+  },
+  {
+    "row": 35,
+    "rowsha": "m5Jc1tIfUzes7jNrTjYmorpfxP5KQEPTYCvzNcbPsiE=",
+    "originContent": "       [-mode <analog, digital, cat>]",
+    "translatedContent": "       [-mode <analog, digital, cat>]"
+  },
+  {
+    "row": 36,
+    "rowsha": "q6hED8+wqS5GsWvfs9xUw92XvUB3Mq1Tsz2c/K251Bs=",
+    "originContent": "       [-alarm]  [-bell]  [-chime]",
+    "translatedContent": "       [-alarm]  [-bell]  [-chime]"
+  },
+  {
+    "row": 37,
+    "rowsha": "pW/j9yzPwSZEdRYEFs96tbxi3vxL4YIpxl7aJzIGGxE=",
+    "originContent": "       [-file <alarm file>]  [-period <seconds>]",
+    "translatedContent": "       [-file <alarm file>]  [-period <seconds>]"
+  },
+  {
+    "row": 38,
+    "rowsha": "LmH+88bXY5t3pHekDW9NMTSeirdctWo2OCkAr0guAk8=",
+    "originContent": "       [-hl <color>]  [-hd <color>]",
+    "translatedContent": "       [-hl <color>]  [-hd <color>]"
+  },
+  {
+    "row": 39,
+    "rowsha": "NjXJgmX12fL5MYPxi0sgfzcPpsK0ww9fzllULAU/DaU=",
+    "originContent": "       [-catcolor <color>]",
+    "translatedContent": "       [-catcolor <color>]"
+  },
+  {
+    "row": 40,
+    "rowsha": "39SwmY1545rJnf6SbgoU99xEeE62dJiYzlTwFMDzIh0=",
+    "originContent": "       [-detailcolor <color>]",
+    "translatedContent": "       [-detailcolor <color>]"
+  },
+  {
+    "row": 41,
+    "rowsha": "rsKkyHgMnUfCyI9rMQXUmn5LnVk45KW8XAHQHgrYQzs=",
+    "originContent": "       [-tiecolor <color>]",
+    "translatedContent": "       [-tiecolor <color>]"
+  },
+  {
+    "row": 42,
+    "rowsha": "kXch1aG+CIAkMGzLX+40HVMiaXsQF2QBnCkTgqVlYQo=",
+    "originContent": "       [-padding <pixels>]",
+    "translatedContent": "       [-padding <pixels>]"
+  },
+  {
+    "row": 43,
+    "rowsha": "oyLBd1xwKb20TVKiXR6coKGRLw8a2Rwv0Gu4lQh79Us=",
+    "originContent": "       [-update <seconds>]",
+    "translatedContent": "       [-update <seconds>]"
+  },
+  {
+    "row": 44,
+    "rowsha": "EE3EF1yxWShCAn2rVNcq5h1f9RRPg3/kIs3W31xPbdE=",
+    "originContent": "       [-ntails <number>]",
+    "translatedContent": "       [-ntails <number>]"
+  },
+  {
+    "row": 45,
+    "rowsha": "pgOIAiVgvnCutpHTjYkM3xVqXOms5+Yn1uUGKwbwyws=",
+    "originContent": "       [-help]",
+    "translatedContent": "       [-help]"
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "즐기세요!"
+  },
+  {
+    "row": 48,
+    "rowsha": "uPKRSHoMgus6Jmx2BD0hnSqBQcmTE5W1SUZ3uEEtQSc=",
+    "originContent": "Enjoy!",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
