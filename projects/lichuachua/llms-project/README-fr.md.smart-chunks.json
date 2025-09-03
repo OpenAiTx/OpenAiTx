@@ -1,0 +1,599 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 大模型应用开发学习路线（速通版）\n\n本仓库为本人学习🔥大模型应用开发🔥时候整理和学习的一些资料，都是干货，没有额外的扩展，💰上岸搞钱为第一要务💰。欢迎阅读，如果对你有用，麻烦点一下 🌟 star，谢谢！\n\n# ✅ 导读\n\n本项目为大模型应用开发 RAG 和 Agent 简单 Demo 展示，均使用LangChain框架，包含最基础的扫盲课程，主要是协助大家🧐快速入门🧐。\n目录结构为三部分：\n- **LangChain_RAG 文件夹**：RAG相关的项目Demo和学习资料；\n- **LangChain_Agent 文件夹**：Agent相关的Demo和学习资料；\n- **Interview**：大模型RAG和Agent的面试八股。\n\n# ✅ LangChain_RAG\n\n本部分一共**四个部分**：\n- llms-1和llms-2为B站上的🕶️**扫盲课**🕶️，两位Up主讲的清楚且简洁，主要是入门了解的，快速过一下即可；\n- llms-3为Langchain官方出的RAG教程，视频部分这里展示了原版和国内翻译版，主要讲解了RAG过程中的主要流程及其优化点，**🔥建议重点看这个，面试会问很多优化点🔥**；\n- llms-4为langchain是官方给出的**💡RAG项目💡**例子，这里会包含最基础的RAG项目的流程，保证你立马就能run起来，并且代码结构很简单。\n\n## llms-1\n### 视频地址（看整个系列）：\n- https://www.bilibili.com/video/BV1qC4y1F7Dy\n### 代码：\n- 🌹代码地址（可运行版）：https://github.com/lichuachua/llms-project/tree/main/LangChain_RAG/llms-1/\n  - note（✅建议下载运行这个✅）：本人运行代码，部分包的更新（原作者代码部分包过期）\n  - original：原作者代码（同代码原址，不建议，可能需要更新包）\n- 代码原址：https://github.com/blackinkkkxi/RAG_langchain/tree/main   \n- 运行平台：除了langchain_hf，都可以在Colab运行；Kaggle都可以运行，Kaggle入门参考：[白嫖免费算力，量小但管够——Kaggle](https://mp.weixin.qq.com/s/SK5VXzx2zijzjc8OYJICKA)；\n## llms-2\n### 视频地址（看单篇既可）：\n- https://www.bilibili.com/video/BV1Cp421R7Y7\n### 代码：\n- 🌹代码地址（可运行版）：https://github.com/lichuachua/llms-project/tree/main/LangChain_RAG/llms-2/\n  - note（✅建议下载运行这个✅）：本人运行代码，部分包的更新（原作者代码部分包过期）\n  - original：原作者代码（同代码原址，不建议，可能需要更新包）\n- 代码原址：https://github.com/owenliang/rag-retrieval/tree/main  \n- 运行平台：Kaggle运行，Kaggle入门参考：[白嫖免费算力，量小但管够——Kaggle](https://mp.weixin.qq.com/s/SK5VXzx2zijzjc8OYJICKA)；\n## llms-3\n### 视频地址（看整个系列）：\n- 外网原视频（英文）：https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x",
+    "ContentSha": "ip4PYhxtZnIV/0JCLOJj3htjkCZONmyXnVSD/UeRfB8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Feuille de route d'apprentissage pour le développement d'applications de grands modèles (version express)\n\nCe dépôt contient des matériaux que j'ai organisés et étudiés lors de mon apprentissage du 🔥 développement d'applications de grands modèles 🔥, tous sont du contenu essentiel, sans extensions supplémentaires, 💰 gagner de l'argent est la priorité absolue 💰. Bienvenue à la lecture, si cela vous est utile, merci de cliquer sur 🌟 star !\n\n# ✅ Guide de lecture\n\nCe projet présente une démonstration simple de RAG et Agent pour le développement d'applications de grands modèles, utilisant tous le cadre LangChain, incluant un cours d'initiation de base, principalement pour aider tout le monde à 🧐 démarrer rapidement 🧐.  \nLa structure du répertoire est divisée en trois parties :  \n- **Dossier LangChain_RAG** : projets Demo et matériaux d'apprentissage liés à RAG ;  \n- **Dossier LangChain_Agent** : Demo et matériaux d'apprentissage liés à Agent ;  \n- **Interview** : questions types d'entretien pour RAG et Agent de grands modèles.\n\n# ✅ LangChain_RAG\n\nCette partie comprend **quatre sections** :  \n- llms-1 et llms-2 sont des 🕶️ **cours d'initiation** 🕶️ sur Bilibili, présentés clairement et simplement par deux créateurs, principalement pour une compréhension de base, à parcourir rapidement ;  \n- llms-3 est un tutoriel RAG officiel de Langchain, avec la vidéo originale et une version traduite nationale présentées ici, expliquant les principaux processus du RAG et ses points d’optimisation, **🔥 il est fortement conseillé de se concentrer sur celui-ci, car beaucoup de questions d’entretien portent sur les optimisations 🔥** ;  \n- llms-4 est un **💡 projet RAG 💡** officiel de Langchain, incluant le flux de base du projet RAG, garantissant que vous puissiez le faire tourner immédiatement, avec une structure de code très simple.\n\n## llms-1\n### Adresse vidéo (regarder toute la série) :  \n- https://www.bilibili.com/video/BV1qC4y1F7Dy  \n### Code :  \n- 🌹Adresse du code (version exécutable) : https://github.com/lichuachua/llms-project/tree/main/LangChain_RAG/llms-1/  \n  - note (✅ conseillé de télécharger et d’exécuter celui-ci ✅) : code testé par moi, mise à jour de certains paquets (certains paquets du code original sont périmés)  \n  - original : code original de l’auteur (même emplacement, non conseillé, peut nécessiter mise à jour des paquets)  \n- Emplacement original du code : https://github.com/blackinkkkxi/RAG_langchain/tree/main  \n- Plateforme d’exécution : sauf langchain_hf, tous peuvent tourner sur Colab ; fonctionnent aussi sur Kaggle, introduction à Kaggle ici : [Calcul gratuit, petite quantité mais suffisante — Kaggle](https://mp.weixin.qq.com/s/SK5VXzx2zijzjc8OYJICKA) ;  \n## llms-2\n### Adresse vidéo (regarder un seul épisode suffit) :  \n- https://www.bilibili.com/video/BV1Cp421R7Y7  \n### Code :  \n- 🌹Adresse du code (version exécutable) : https://github.com/lichuachua/llms-project/tree/main/LangChain_RAG/llms-2/  \n  - note (✅ conseillé de télécharger et d’exécuter celui-ci ✅) : code testé par moi, mise à jour de certains paquets (certains paquets du code original sont périmés)  \n  - original : code original de l’auteur (même emplacement, non conseillé, peut nécessiter mise à jour des paquets)  \n- Emplacement original du code : https://github.com/owenliang/rag-retrieval/tree/main  \n- Plateforme d’exécution : fonctionne sur Kaggle, introduction à Kaggle ici : [Calcul gratuit, petite quantité mais suffisante — Kaggle](https://mp.weixin.qq.com/s/SK5VXzx2zijzjc8OYJICKA) ;  \n## llms-3\n### Adresse vidéo (regarder toute la série) :  \n- Vidéo originale à l’étranger (en anglais) : https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+u3vQHXsRT1MZj+dvJno/cP7reZQrW78kOQ3nv56zz4=",
+        "originContent": "# 大模型应用开发学习路线（速通版）",
+        "translatedContent": "# Feuille de route d'apprentissage pour le développement d'applications de grands modèles (version express)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "SYwAjdAtk6KQrdH3DviwBOlbjKWYDWaP84CbBOxJye4=",
+        "originContent": "本仓库为本人学习🔥大模型应用开发🔥时候整理和学习的一些资料，都是干货，没有额外的扩展，💰上岸搞钱为第一要务💰。欢迎阅读，如果对你有用，麻烦点一下 🌟 star，谢谢！",
+        "translatedContent": "Ce dépôt contient des matériaux que j'ai organisés et étudiés lors de mon apprentissage du 🔥 développement d'applications de grands modèles 🔥, tous sont du contenu essentiel, sans extensions supplémentaires, 💰 gagner de l'argent est la priorité absolue 💰. Bienvenue à la lecture, si cela vous est utile, merci de cliquer sur 🌟 star !"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "mZes+CuwWGEziro/wTbluYbEkJ1SKc+992mV5HPDLDY=",
+        "originContent": "# ✅ 导读",
+        "translatedContent": "# ✅ Guide de lecture"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "5IewYbLmD99JcosmH4pWtVqmSXXkyFZaYMpbl0vyJ+E=",
+        "originContent": "本项目为大模型应用开发 RAG 和 Agent 简单 Demo 展示，均使用LangChain框架，包含最基础的扫盲课程，主要是协助大家🧐快速入门🧐。",
+        "translatedContent": "Ce projet présente une démonstration simple de RAG et Agent pour le développement d'applications de grands modèles, utilisant tous le cadre LangChain, incluant un cours d'initiation de base, principalement pour aider tout le monde à 🧐 démarrer rapidement 🧐.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "WkOAcok/BkZnNQdWdWN/v0bahQKiGs+C8jeITiVFKP8=",
+        "originContent": "目录结构为三部分：",
+        "translatedContent": "La structure du répertoire est divisée en trois parties :  "
+      },
+      {
+        "row": 9,
+        "rowsha": "VK+ToqMCLaDMn/eYqliBvbOKbndES+t1f/2wWasAz50=",
+        "originContent": "- **LangChain_RAG 文件夹**：RAG相关的项目Demo和学习资料；",
+        "translatedContent": "- **Dossier LangChain_RAG** : projets Demo et matériaux d'apprentissage liés à RAG ;  "
+      },
+      {
+        "row": 10,
+        "rowsha": "u+l7iFCqycwgroCFNOTZm7Bkegr3sNknI+ugjPKRXG0=",
+        "originContent": "- **LangChain_Agent 文件夹**：Agent相关的Demo和学习资料；",
+        "translatedContent": "- **Dossier LangChain_Agent** : Demo et matériaux d'apprentissage liés à Agent ;  "
+      },
+      {
+        "row": 11,
+        "rowsha": "wZCS5rSVGHC/u2NyretIPvOUk6ASjfosUbviMCpXx2E=",
+        "originContent": "- **Interview**：大模型RAG和Agent的面试八股。",
+        "translatedContent": "- **Interview** : questions types d'entretien pour RAG et Agent de grands modèles."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "nz3XyfJv3UivNPnouvt8mCwyGtuWEIda7W+GmI8d0cY=",
+        "originContent": "# ✅ LangChain_RAG",
+        "translatedContent": "# ✅ LangChain_RAG"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "Z2mP47tRe3Zv61l4LxywF3LCpKdyZRVrVS9Exiib1S4=",
+        "originContent": "本部分一共**四个部分**：",
+        "translatedContent": "Cette partie comprend **quatre sections** :  "
+      },
+      {
+        "row": 16,
+        "rowsha": "Hdy/NIbUfJvPH8lfX0ovl1YF71r5yxbFb6lMxIfj1Ik=",
+        "originContent": "- llms-1和llms-2为B站上的🕶️**扫盲课**🕶️，两位Up主讲的清楚且简洁，主要是入门了解的，快速过一下即可；",
+        "translatedContent": "- llms-1 et llms-2 sont des 🕶️ **cours d'initiation** 🕶️ sur Bilibili, présentés clairement et simplement par deux créateurs, principalement pour une compréhension de base, à parcourir rapidement ;  "
+      },
+      {
+        "row": 17,
+        "rowsha": "3STuXDEeMEvWXB7x/6wxBRlrDAuYYjAXoTjjLj+12DY=",
+        "originContent": "- llms-3为Langchain官方出的RAG教程，视频部分这里展示了原版和国内翻译版，主要讲解了RAG过程中的主要流程及其优化点，**🔥建议重点看这个，面试会问很多优化点🔥**；",
+        "translatedContent": "- llms-3 est un tutoriel RAG officiel de Langchain, avec la vidéo originale et une version traduite nationale présentées ici, expliquant les principaux processus du RAG et ses points d’optimisation, **🔥 il est fortement conseillé de se concentrer sur celui-ci, car beaucoup de questions d’entretien portent sur les optimisations 🔥** ;  "
+      },
+      {
+        "row": 18,
+        "rowsha": "vfQUADz1zxHcHH9OpIgWjqs4f25ANrfZCnSwlt825Fg=",
+        "originContent": "- llms-4为langchain是官方给出的**💡RAG项目💡**例子，这里会包含最基础的RAG项目的流程，保证你立马就能run起来，并且代码结构很简单。",
+        "translatedContent": "- llms-4 est un **💡 projet RAG 💡** officiel de Langchain, incluant le flux de base du projet RAG, garantissant que vous puissiez le faire tourner immédiatement, avec une structure de code très simple."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "miMwhj89dsjR8TS6J45aiI1LbslJ7YcAXfpQKSIBpjM=",
+        "originContent": "## llms-1",
+        "translatedContent": "## llms-1"
+      },
+      {
+        "row": 21,
+        "rowsha": "F/M6SYE0EkFq+N4LutjXbzb2aLc5GYVL4LrdNftqNO4=",
+        "originContent": "### 视频地址（看整个系列）：",
+        "translatedContent": "### Adresse vidéo (regarder toute la série) :  "
+      },
+      {
+        "row": 22,
+        "rowsha": "zWrwcCKhxJ0Itr9Ykr3VgfRJUdCJF3of1DS1wLdMHb8=",
+        "originContent": "- https://www.bilibili.com/video/BV1qC4y1F7Dy",
+        "translatedContent": "- https://www.bilibili.com/video/BV1qC4y1F7Dy  "
+      },
+      {
+        "row": 23,
+        "rowsha": "DAwu4xy4Ze+EF9qBjHsgWIT/cPxlutQ3xj1q6GABzkI=",
+        "originContent": "### 代码：",
+        "translatedContent": "### Code :  "
+      },
+      {
+        "row": 24,
+        "rowsha": "9fgRa5505rGV/5vA/sfKRGYvdk7AtCs1vKj6RMVkL4s=",
+        "originContent": "- 🌹代码地址（可运行版）：https://github.com/lichuachua/llms-project/tree/main/LangChain_RAG/llms-1/",
+        "translatedContent": "- 🌹Adresse du code (version exécutable) : https://github.com/lichuachua/llms-project/tree/main/LangChain_RAG/llms-1/  "
+      },
+      {
+        "row": 25,
+        "rowsha": "0KkB6ZTcdBHwqdM9PlsLO+znEH1ukqpozQSwr6DyMy0=",
+        "originContent": "  - note（✅建议下载运行这个✅）：本人运行代码，部分包的更新（原作者代码部分包过期）",
+        "translatedContent": "  - note (✅ conseillé de télécharger et d’exécuter celui-ci ✅) : code testé par moi, mise à jour de certains paquets (certains paquets du code original sont périmés)  "
+      },
+      {
+        "row": 26,
+        "rowsha": "p5E/6YxFrpY2ow3ti8lP8QEwXxb1axUOGBqUVJ641zM=",
+        "originContent": "  - original：原作者代码（同代码原址，不建议，可能需要更新包）",
+        "translatedContent": "  - original : code original de l’auteur (même emplacement, non conseillé, peut nécessiter mise à jour des paquets)  "
+      },
+      {
+        "row": 27,
+        "rowsha": "Y7xCEfD7OtpNDzOqu3f8VvUR+AqX3dRhSunwKholQkw=",
+        "originContent": "- 代码原址：https://github.com/blackinkkkxi/RAG_langchain/tree/main   ",
+        "translatedContent": "- Emplacement original du code : https://github.com/blackinkkkxi/RAG_langchain/tree/main  "
+      },
+      {
+        "row": 28,
+        "rowsha": "shuP7SNxeuRowxq0XhkK1eTla/PQAkhwmDvTZAXGOzw=",
+        "originContent": "- 运行平台：除了langchain_hf，都可以在Colab运行；Kaggle都可以运行，Kaggle入门参考：[白嫖免费算力，量小但管够——Kaggle](https://mp.weixin.qq.com/s/SK5VXzx2zijzjc8OYJICKA)；",
+        "translatedContent": "- Plateforme d’exécution : sauf langchain_hf, tous peuvent tourner sur Colab ; fonctionnent aussi sur Kaggle, introduction à Kaggle ici : [Calcul gratuit, petite quantité mais suffisante — Kaggle](https://mp.weixin.qq.com/s/SK5VXzx2zijzjc8OYJICKA) ;  "
+      },
+      {
+        "row": 29,
+        "rowsha": "JF07+iAIo2WEnf/3qDiY+EBlMrvpiGXPHPJT7e5uyfQ=",
+        "originContent": "## llms-2",
+        "translatedContent": "## llms-2"
+      },
+      {
+        "row": 30,
+        "rowsha": "pSv+vWnA5ybVbe6H2DrxTDdGLO3nZFPvo7BhUobEazQ=",
+        "originContent": "### 视频地址（看单篇既可）：",
+        "translatedContent": "### Adresse vidéo (regarder un seul épisode suffit) :  "
+      },
+      {
+        "row": 31,
+        "rowsha": "y46z6ijGy0+hnFZEJuNhzWuOLCwKUspnqW6qB5KSQ+g=",
+        "originContent": "- https://www.bilibili.com/video/BV1Cp421R7Y7",
+        "translatedContent": "- https://www.bilibili.com/video/BV1Cp421R7Y7  "
+      },
+      {
+        "row": 32,
+        "rowsha": "DAwu4xy4Ze+EF9qBjHsgWIT/cPxlutQ3xj1q6GABzkI=",
+        "originContent": "### 代码：",
+        "translatedContent": "### Code :  "
+      },
+      {
+        "row": 33,
+        "rowsha": "96D1SDCi7YWfTdvv2YFQ6ENykYJIzj98CWcHgGSA9Qw=",
+        "originContent": "- 🌹代码地址（可运行版）：https://github.com/lichuachua/llms-project/tree/main/LangChain_RAG/llms-2/",
+        "translatedContent": "- 🌹Adresse du code (version exécutable) : https://github.com/lichuachua/llms-project/tree/main/LangChain_RAG/llms-2/  "
+      },
+      {
+        "row": 34,
+        "rowsha": "0KkB6ZTcdBHwqdM9PlsLO+znEH1ukqpozQSwr6DyMy0=",
+        "originContent": "  - note（✅建议下载运行这个✅）：本人运行代码，部分包的更新（原作者代码部分包过期）",
+        "translatedContent": "  - note (✅ conseillé de télécharger et d’exécuter celui-ci ✅) : code testé par moi, mise à jour de certains paquets (certains paquets du code original sont périmés)  "
+      },
+      {
+        "row": 35,
+        "rowsha": "p5E/6YxFrpY2ow3ti8lP8QEwXxb1axUOGBqUVJ641zM=",
+        "originContent": "  - original：原作者代码（同代码原址，不建议，可能需要更新包）",
+        "translatedContent": "  - original : code original de l’auteur (même emplacement, non conseillé, peut nécessiter mise à jour des paquets)  "
+      },
+      {
+        "row": 36,
+        "rowsha": "5YO9iy9lBlwtzGnmagtcSQKJihCBgA0ZcvLQ+yI4kPU=",
+        "originContent": "- 代码原址：https://github.com/owenliang/rag-retrieval/tree/main  ",
+        "translatedContent": "- Emplacement original du code : https://github.com/owenliang/rag-retrieval/tree/main  "
+      },
+      {
+        "row": 37,
+        "rowsha": "v2GTmMGDxejeBawn02uD9U++usu1D9D8Y3+9N7hEIvQ=",
+        "originContent": "- 运行平台：Kaggle运行，Kaggle入门参考：[白嫖免费算力，量小但管够——Kaggle](https://mp.weixin.qq.com/s/SK5VXzx2zijzjc8OYJICKA)；",
+        "translatedContent": "- Plateforme d’exécution : fonctionne sur Kaggle, introduction à Kaggle ici : [Calcul gratuit, petite quantité mais suffisante — Kaggle](https://mp.weixin.qq.com/s/SK5VXzx2zijzjc8OYJICKA) ;  "
+      },
+      {
+        "row": 38,
+        "rowsha": "YWGC/x6M1gfjXYGuzLwCOdGoNxqMglTYVkGkLIkjuME=",
+        "originContent": "## llms-3",
+        "translatedContent": "## llms-3"
+      },
+      {
+        "row": 39,
+        "rowsha": "F/M6SYE0EkFq+N4LutjXbzb2aLc5GYVL4LrdNftqNO4=",
+        "originContent": "### 视频地址（看整个系列）：",
+        "translatedContent": "### Adresse vidéo (regarder toute la série) :  "
+      },
+      {
+        "row": 40,
+        "rowsha": "8Yz4s47vMF4XWk9j+xUWiLVFOXx8db53+Ah2aaSzrAk=",
+        "originContent": "- 外网原视频（英文）：https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x",
+        "translatedContent": "- Vidéo originale à l’étranger (en anglais) : https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- 国内中文版：https://www.bilibili.com/video/BV1dm41127jc/\n### 代码：\n- 🌹代码地址（可运行版）：https://github.com/lichuachua/llms-project/tree/main/LangChain_RAG/llms-3/\n  - note（✅建议下载运行这个✅）：本人运行代码，部分包的更新（原作者代码部分包过期）\n  - original：原作者代码（同代码原址，不建议，可能需要更新包）\n  - PPT：官方视频对应的PPT\n- 代码原址：https://github.com/langchain-ai/rag-from-scratch/tree/main  \n- 运行平台：Kaggle运行，Kaggle入门参考：[白嫖免费算力，量小但管够——Kaggle](https://mp.weixin.qq.com/s/SK5VXzx2zijzjc8OYJICKA)；\n## llms-4\n### 代码：\n- 🌹代码地址（✅本人更改过后的代码，可以直接运行✅）：https://github.com/lichuachua/chat-langchain-study/\n- 代码原址（运行有问题，需要自己更改）：https://github.com/langchain-ai/chat-langchain\n### 说明：\n- langchain-chat是官方给出的RAG项目例子，也是我推荐给各位的入门级项目，应网友要求，录制了手把手运行视频，保证你能运行起来。\n### 参考资料：\n- https://www.bilibili.com/video/BV1eB4y1Z752/\n- https://github.com/webup/agi-talks/blob/master/301-langchain-chatdoc/src/slides.md\n- https://blog.langchain.dev/building-chat-langchain-2/\n            \n\n# ✅ LangChain_Agent\n\n本部分一共**两个部分**，是B站两个简单的 Agent Demo，比较通俗易懂。\n- AI_Agent 基于 OPENAI_API\n- QW_Agent 基于 QWen_API\n\n\n## AI_Agent\n### 视频地址：\n- https://www.bilibili.com/video/BV1JV411F7Yj/\n### 代码：\n- 🌹代码地址（✅本人更改过后的代码，可以直接运行✅）：https://github.com/lichuachua/llms-project/tree/main/LangChain_Agents/AI_Agent/\n- 代码原址：https://github.com/parallel75/AI_Agent  \n- 运行平台：本地\n\n## QW_Agent\n### 视频地址：\n- https://www.bilibili.com/video/BV1QF4m177Rx/\n### 说明：\n- 这个项目运行起来需要申请【千问相关key和api】，有坑，建议下载本人更改过后的代码，可以直接运行，千问更新版本需要代码更新，我已更改。",
+    "ContentSha": "vFzs1SG/gdSOiHWO1ze27UNDqpk0U/qNfPPKlTVLVvA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Version chinoise nationale : https://www.bilibili.com/video/BV1dm41127jc/\n### Code :\n- 🌹Adresse du code (version exécutable) : https://github.com/lichuachua/llms-project/tree/main/LangChain_RAG/llms-3/\n  - note (✅ recommandé de télécharger et d’exécuter celui-ci ✅) : J’ai exécuté le code, certaines mises à jour des packages (le code original utilise des packages périmés)\n  - original : code de l’auteur original (même source, non recommandé, pourrait nécessiter une mise à jour des packages)\n  - PPT : PPT correspondant à la vidéo officielle\n- Source du code : https://github.com/langchain-ai/rag-from-scratch/tree/main  \n- Plateforme d’exécution : Exécution sur Kaggle, pour débuter sur Kaggle voir : [Utiliser la puissance de calcul gratuite, petite quantité mais suffisante — Kaggle](https://mp.weixin.qq.com/s/SK5VXzx2zijzjc8OYJICKA) ;\n## llms-4\n### Code :\n- 🌹Adresse du code (✅ code modifié par moi, directement exécutable ✅) : https://github.com/lichuachua/chat-langchain-study/\n- Source du code (problèmes d’exécution, nécessite modifications) : https://github.com/langchain-ai/chat-langchain\n### Explications :\n- langchain-chat est un exemple officiel de projet RAG, que je recommande comme projet d’introduction ; à la demande des internautes, j’ai enregistré une vidéo tutorielle pour garantir que vous puissiez l’exécuter.\n### Ressources de référence :\n- https://www.bilibili.com/video/BV1eB4y1Z752/\n- https://github.com/webup/agi-talks/blob/master/301-langchain-chatdoc/src/slides.md\n- https://blog.langchain.dev/building-chat-langchain-2/\n            \n\n# ✅ LangChain_Agent\n\nCette section comporte **deux parties**, ce sont deux démonstrations simples d’Agent sur Bilibili, faciles à comprendre.\n- AI_Agent basé sur OPENAI_API\n- QW_Agent basé sur QWen_API\n\n\n## AI_Agent\n### Adresse vidéo :\n- https://www.bilibili.com/video/BV1JV411F7Yj/\n### Code :\n- 🌹Adresse du code (✅ code modifié par moi, directement exécutable ✅) : https://github.com/lichuachua/llms-project/tree/main/LangChain_Agents/AI_Agent/\n- Source du code : https://github.com/parallel75/AI_Agent  \n- Plateforme d’exécution : locale\n\n## QW_Agent\n### Adresse vidéo :\n- https://www.bilibili.com/video/BV1QF4m177Rx/\n### Explications :\n- Ce projet nécessite une demande de clé et API liées à Qianwen, il y a des difficultés ; je recommande de télécharger le code modifié par moi, directement exécutable, la nouvelle version de Qianwen nécessite une mise à jour du code que j’ai effectuée.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "NF3Ry5YRIJelg309XKbXpZP2yqx+yXRPuRwzPCSV+eE=",
+        "originContent": "- 国内中文版：https://www.bilibili.com/video/BV1dm41127jc/",
+        "translatedContent": "- Version chinoise nationale : https://www.bilibili.com/video/BV1dm41127jc/"
+      },
+      {
+        "row": 2,
+        "rowsha": "DAwu4xy4Ze+EF9qBjHsgWIT/cPxlutQ3xj1q6GABzkI=",
+        "originContent": "### 代码：",
+        "translatedContent": "### Code :"
+      },
+      {
+        "row": 3,
+        "rowsha": "2OXklYRvNx/DbsXu8POA9EFFSnVT07E7+VDJSDRgycE=",
+        "originContent": "- 🌹代码地址（可运行版）：https://github.com/lichuachua/llms-project/tree/main/LangChain_RAG/llms-3/",
+        "translatedContent": "- 🌹Adresse du code (version exécutable) : https://github.com/lichuachua/llms-project/tree/main/LangChain_RAG/llms-3/"
+      },
+      {
+        "row": 4,
+        "rowsha": "0KkB6ZTcdBHwqdM9PlsLO+znEH1ukqpozQSwr6DyMy0=",
+        "originContent": "  - note（✅建议下载运行这个✅）：本人运行代码，部分包的更新（原作者代码部分包过期）",
+        "translatedContent": "  - note (✅ recommandé de télécharger et d’exécuter celui-ci ✅) : J’ai exécuté le code, certaines mises à jour des packages (le code original utilise des packages périmés)"
+      },
+      {
+        "row": 5,
+        "rowsha": "p5E/6YxFrpY2ow3ti8lP8QEwXxb1axUOGBqUVJ641zM=",
+        "originContent": "  - original：原作者代码（同代码原址，不建议，可能需要更新包）",
+        "translatedContent": "  - original : code de l’auteur original (même source, non recommandé, pourrait nécessiter une mise à jour des packages)"
+      },
+      {
+        "row": 6,
+        "rowsha": "t/Nxcfk9mD0kLUh4SM5Qgo3fgM+rQSS1ds6U9WfAFS0=",
+        "originContent": "  - PPT：官方视频对应的PPT",
+        "translatedContent": "  - PPT : PPT correspondant à la vidéo officielle"
+      },
+      {
+        "row": 7,
+        "rowsha": "DIb0tpyr9q8Pddl/X2DW3f6XpqH655KvRED8PUWEZWA=",
+        "originContent": "- 代码原址：https://github.com/langchain-ai/rag-from-scratch/tree/main  ",
+        "translatedContent": "- Source du code : https://github.com/langchain-ai/rag-from-scratch/tree/main  "
+      },
+      {
+        "row": 8,
+        "rowsha": "v2GTmMGDxejeBawn02uD9U++usu1D9D8Y3+9N7hEIvQ=",
+        "originContent": "- 运行平台：Kaggle运行，Kaggle入门参考：[白嫖免费算力，量小但管够——Kaggle](https://mp.weixin.qq.com/s/SK5VXzx2zijzjc8OYJICKA)；",
+        "translatedContent": "- Plateforme d’exécution : Exécution sur Kaggle, pour débuter sur Kaggle voir : [Utiliser la puissance de calcul gratuite, petite quantité mais suffisante — Kaggle](https://mp.weixin.qq.com/s/SK5VXzx2zijzjc8OYJICKA) ;"
+      },
+      {
+        "row": 9,
+        "rowsha": "ayLrpHYmHysqRKutys+cMvY56x9tAn4cWQi0qo9DvPY=",
+        "originContent": "## llms-4",
+        "translatedContent": "## llms-4"
+      },
+      {
+        "row": 10,
+        "rowsha": "DAwu4xy4Ze+EF9qBjHsgWIT/cPxlutQ3xj1q6GABzkI=",
+        "originContent": "### 代码：",
+        "translatedContent": "### Code :"
+      },
+      {
+        "row": 11,
+        "rowsha": "fOM1KhiJG4QjXXsiqVJxNASOUC1IVy9/RF01jzL9zh4=",
+        "originContent": "- 🌹代码地址（✅本人更改过后的代码，可以直接运行✅）：https://github.com/lichuachua/chat-langchain-study/",
+        "translatedContent": "- 🌹Adresse du code (✅ code modifié par moi, directement exécutable ✅) : https://github.com/lichuachua/chat-langchain-study/"
+      },
+      {
+        "row": 12,
+        "rowsha": "qwimv/XwK6idbA4QdhySFMC8awU3636gkoo3gW0P07k=",
+        "originContent": "- 代码原址（运行有问题，需要自己更改）：https://github.com/langchain-ai/chat-langchain",
+        "translatedContent": "- Source du code (problèmes d’exécution, nécessite modifications) : https://github.com/langchain-ai/chat-langchain"
+      },
+      {
+        "row": 13,
+        "rowsha": "X9x6A49L+5kFDJv+h6py6jWOhIr+e931NONExO8gkaw=",
+        "originContent": "### 说明：",
+        "translatedContent": "### Explications :"
+      },
+      {
+        "row": 14,
+        "rowsha": "mByuVsViD90ElXTP1d7rQTEswREtdPscpQFR6QG1kZI=",
+        "originContent": "- langchain-chat是官方给出的RAG项目例子，也是我推荐给各位的入门级项目，应网友要求，录制了手把手运行视频，保证你能运行起来。",
+        "translatedContent": "- langchain-chat est un exemple officiel de projet RAG, que je recommande comme projet d’introduction ; à la demande des internautes, j’ai enregistré une vidéo tutorielle pour garantir que vous puissiez l’exécuter."
+      },
+      {
+        "row": 15,
+        "rowsha": "RNu9AOvK2zpCq0/RFNC3/UfkmWkuvMW+EbadEkDAK8M=",
+        "originContent": "### 参考资料：",
+        "translatedContent": "### Ressources de référence :"
+      },
+      {
+        "row": 16,
+        "rowsha": "t/03P68qqOrYSXQOdt3+YOetqJL8qVBn+0emlsqGk3s=",
+        "originContent": "- https://www.bilibili.com/video/BV1eB4y1Z752/",
+        "translatedContent": "- https://www.bilibili.com/video/BV1eB4y1Z752/"
+      },
+      {
+        "row": 17,
+        "rowsha": "SBCdddDBc1mzb/gmHTmlUhfNQnr+JrUD1o0f7hkKWMU=",
+        "originContent": "- https://github.com/webup/agi-talks/blob/master/301-langchain-chatdoc/src/slides.md",
+        "translatedContent": "- https://github.com/webup/agi-talks/blob/master/301-langchain-chatdoc/src/slides.md"
+      },
+      {
+        "row": 18,
+        "rowsha": "X3fwRpu23aLoH7kn59LaH2FBTCWpr5XzcfU6ExAc1o8=",
+        "originContent": "- https://blog.langchain.dev/building-chat-langchain-2/",
+        "translatedContent": "- https://blog.langchain.dev/building-chat-langchain-2/"
+      },
+      {
+        "row": 19,
+        "rowsha": "BahHX+67/qaF7OBgRb5jci7cYbsq3oBgqfA67W1J9FQ=",
+        "originContent": "            ",
+        "translatedContent": "            "
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "yqhpqopUxg/fiJXKnVyBddmEWhVtA3rvCzvL8JwOgyc=",
+        "originContent": "# ✅ LangChain_Agent",
+        "translatedContent": "# ✅ LangChain_Agent"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "D5id8luReupVMxL1fTfsXEFFT1cv39XOhcDjcdaiH5Y=",
+        "originContent": "本部分一共**两个部分**，是B站两个简单的 Agent Demo，比较通俗易懂。",
+        "translatedContent": "Cette section comporte **deux parties**, ce sont deux démonstrations simples d’Agent sur Bilibili, faciles à comprendre."
+      },
+      {
+        "row": 24,
+        "rowsha": "pbQ58/t+yZZM/jaxvOZzzhtNhxEo+PeW2yFuWMTJcAk=",
+        "originContent": "- AI_Agent 基于 OPENAI_API",
+        "translatedContent": "- AI_Agent basé sur OPENAI_API"
+      },
+      {
+        "row": 25,
+        "rowsha": "J8hAYzYP1NNn1K1C8TDGLp6vjsVmCoC3JDCfHFs46Qo=",
+        "originContent": "- QW_Agent 基于 QWen_API",
+        "translatedContent": "- QW_Agent basé sur QWen_API"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "OMHBbCYyKMIMYYTZyrF1oaJimMLbwg+DBXadwJmXBP8=",
+        "originContent": "## AI_Agent",
+        "translatedContent": "## AI_Agent"
+      },
+      {
+        "row": 29,
+        "rowsha": "Y54uJ+woLdCH8xJYfX1WbdyOc/lu1v8BQazN65unb1s=",
+        "originContent": "### 视频地址：",
+        "translatedContent": "### Adresse vidéo :"
+      },
+      {
+        "row": 30,
+        "rowsha": "AIUB4bw9ufLU6ZOVbirHFks85FgkJ9nnCatjGgDYqP8=",
+        "originContent": "- https://www.bilibili.com/video/BV1JV411F7Yj/",
+        "translatedContent": "- https://www.bilibili.com/video/BV1JV411F7Yj/"
+      },
+      {
+        "row": 31,
+        "rowsha": "DAwu4xy4Ze+EF9qBjHsgWIT/cPxlutQ3xj1q6GABzkI=",
+        "originContent": "### 代码：",
+        "translatedContent": "### Code :"
+      },
+      {
+        "row": 32,
+        "rowsha": "JI+mW+gy5CmQZozbTWQ4xnEMnUUb5aB65AJWOJlOmf4=",
+        "originContent": "- 🌹代码地址（✅本人更改过后的代码，可以直接运行✅）：https://github.com/lichuachua/llms-project/tree/main/LangChain_Agents/AI_Agent/",
+        "translatedContent": "- 🌹Adresse du code (✅ code modifié par moi, directement exécutable ✅) : https://github.com/lichuachua/llms-project/tree/main/LangChain_Agents/AI_Agent/"
+      },
+      {
+        "row": 33,
+        "rowsha": "+HBej6wQrfhbiklZmOEpPSHhqBngjoAKXLjqRiCtob8=",
+        "originContent": "- 代码原址：https://github.com/parallel75/AI_Agent  ",
+        "translatedContent": "- Source du code : https://github.com/parallel75/AI_Agent  "
+      },
+      {
+        "row": 34,
+        "rowsha": "mDdu+BxId3fPFjVaH3oKKxekZtGcwJzTzWQcYEnRCVE=",
+        "originContent": "- 运行平台：本地",
+        "translatedContent": "- Plateforme d’exécution : locale"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "O4bOJV6o9gsuqq0klN/SnH68+UCRJM3B/ljQPH/2RHE=",
+        "originContent": "## QW_Agent",
+        "translatedContent": "## QW_Agent"
+      },
+      {
+        "row": 37,
+        "rowsha": "Y54uJ+woLdCH8xJYfX1WbdyOc/lu1v8BQazN65unb1s=",
+        "originContent": "### 视频地址：",
+        "translatedContent": "### Adresse vidéo :"
+      },
+      {
+        "row": 38,
+        "rowsha": "5+iILMUr/rDeeyVH8TyxTrZYKqOh94ZKkBwUYS7S9uY=",
+        "originContent": "- https://www.bilibili.com/video/BV1QF4m177Rx/",
+        "translatedContent": "- https://www.bilibili.com/video/BV1QF4m177Rx/"
+      },
+      {
+        "row": 39,
+        "rowsha": "X9x6A49L+5kFDJv+h6py6jWOhIr+e931NONExO8gkaw=",
+        "originContent": "### 说明：",
+        "translatedContent": "### Explications :"
+      },
+      {
+        "row": 40,
+        "rowsha": "h0YAqZCTl5E7uNhTmjNs1KcN0aeLF4406+Ppnj0YbuU=",
+        "originContent": "- 这个项目运行起来需要申请【千问相关key和api】，有坑，建议下载本人更改过后的代码，可以直接运行，千问更新版本需要代码更新，我已更改。",
+        "translatedContent": "- Ce projet nécessite une demande de clé et API liées à Qianwen, il y a des difficultés ; je recommande de télécharger le code modifié par moi, directement exécutable, la nouvelle version de Qianwen nécessite une mise à jour du code que j’ai effectuée."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "### 代码：\n- 🌹代码地址（✅本人更改过后的代码，可以直接运行✅）：https://github.com/lichuachua/llms-project/blob/main/LangChain_Agents/QW_Agent/\n- 代码原址（运行有问题，需要自己更改）：https://github.com/owenliang/agent\n- 运行平台：本地\n\n# ✅ Interview\n本部分包含两部分面试八股，是本人在找工作期间收集和整理的大模型应用开发八股文，本人实测，可以通过这些找到了一些大厂**高级AI研发工程师**相关岗位。\n- [大模型应用开发八股](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk1NzgzMjY3OQ==&action=getalbum&album_id=3987723560113356813&scene=126&uin=&key=&devicetype=iMac+MacBookPro18%2C3+OSX+OSX+15.4.1+build(24E263)&version=13080a10&lang=zh_CN&nettype=WIFI&ascene=78&fontScale=100)\n## RAG\n- 详细介绍大模型（LLMs）RAG检索增强生成学习/面试过程中可能遇到的知识点，全文4w+字，按照处理流程整理：[大模型RAG知识笔记](https://mp.weixin.qq.com/s/zmUTGAMoljXSmnoo_cBQig)\n## Agent\n- 详细介绍大模型（LLMs）智能体Agent学习/面试过程中可能遇到的知识点，全文1w+字，按照模块整理：[大模型Agent知识笔记](https://mp.weixin.qq.com/s/TSioLS_RhrX57YEnY3mkag)\n",
+    "ContentSha": "pBkYw6/Oe2aaPJY9OzU0aQcd8y1aOWKXNzQqR2IHdWU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Code :  \n- 🌹Adresse du code (✅code modifié par moi-même, peut être exécuté directement✅) : https://github.com/lichuachua/llms-project/blob/main/LangChain_Agents/QW_Agent/  \n- Adresse originale du code (problèmes d’exécution, nécessite des modifications personnelles) : https://github.com/owenliang/agent  \n- Plateforme d’exécution : locale  \n\n# ✅ Entretien  \nCette partie contient deux sections d’entretiens classiques, il s’agit de documents d’application pour grands modèles collectés et organisés par moi-même durant ma recherche d’emploi, testés par moi-même, grâce auxquels j’ai pu trouver plusieurs postes de **ingénieur senior en IA** dans de grandes entreprises.  \n- [Document classique sur le développement d’applications grands modèles](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk1NzgzMjY3OQ==&action=getalbum&album_id=3987723560113356813&scene=126&uin=&key=&devicetype=iMac+MacBookPro18%2C3+OSX+OSX+15.4.1+build(24E263)&version=13080a10&lang=zh_CN&nettype=WIFI&ascene=78&fontScale=100)  \n## RAG  \n- Présentation détaillée du RAG (Retrieval-Augmented Generation) avec grands modèles (LLMs) / points de connaissance possibles en entretien, texte complet de plus de 40 000 mots, organisé selon le processus : [Notes de connaissances RAG grands modèles](https://mp.weixin.qq.com/s/zmUTGAMoljXSmnoo_cBQig)  \n## Agent  \n- Présentation détaillée des Agents intelligents avec grands modèles (LLMs) / points de connaissance possibles en entretien, texte complet de plus de 10 000 mots, organisé par modules : [Notes de connaissances Agent grands modèles](https://mp.weixin.qq.com/s/TSioLS_RhrX57YEnY3mkag)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DAwu4xy4Ze+EF9qBjHsgWIT/cPxlutQ3xj1q6GABzkI=",
+        "originContent": "### 代码：",
+        "translatedContent": "### Code :  "
+      },
+      {
+        "row": 2,
+        "rowsha": "FNj1E/bX1gLcPY6PB3+ca7/KSOw9vb3ZlMiDmV26cRU=",
+        "originContent": "- 🌹代码地址（✅本人更改过后的代码，可以直接运行✅）：https://github.com/lichuachua/llms-project/blob/main/LangChain_Agents/QW_Agent/",
+        "translatedContent": "- 🌹Adresse du code (✅code modifié par moi-même, peut être exécuté directement✅) : https://github.com/lichuachua/llms-project/blob/main/LangChain_Agents/QW_Agent/  "
+      },
+      {
+        "row": 3,
+        "rowsha": "Hoi9AAg4iqo1Z6oZwYzX/b7hIqlWXLUMSAfUVlcJXj4=",
+        "originContent": "- 代码原址（运行有问题，需要自己更改）：https://github.com/owenliang/agent",
+        "translatedContent": "- Adresse originale du code (problèmes d’exécution, nécessite des modifications personnelles) : https://github.com/owenliang/agent  "
+      },
+      {
+        "row": 4,
+        "rowsha": "mDdu+BxId3fPFjVaH3oKKxekZtGcwJzTzWQcYEnRCVE=",
+        "originContent": "- 运行平台：本地",
+        "translatedContent": "- Plateforme d’exécution : locale  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "GCnQ8AjsuBYkaIi25zpwT908S8PWPhNXqmMBqmAwWtw=",
+        "originContent": "# ✅ Interview",
+        "translatedContent": "# ✅ Entretien  "
+      },
+      {
+        "row": 7,
+        "rowsha": "x4mRFc0mePDPBe7530gZj8fCWnBSEbJJn2pGhH0Z4JE=",
+        "originContent": "本部分包含两部分面试八股，是本人在找工作期间收集和整理的大模型应用开发八股文，本人实测，可以通过这些找到了一些大厂**高级AI研发工程师**相关岗位。",
+        "translatedContent": "Cette partie contient deux sections d’entretiens classiques, il s’agit de documents d’application pour grands modèles collectés et organisés par moi-même durant ma recherche d’emploi, testés par moi-même, grâce auxquels j’ai pu trouver plusieurs postes de **ingénieur senior en IA** dans de grandes entreprises.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "2MFZHbn/TFmrG7/RBhFImw+NoS1d6J9R1VKzPTkxB7Q=",
+        "originContent": "- [大模型应用开发八股](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk1NzgzMjY3OQ==&action=getalbum&album_id=3987723560113356813&scene=126&uin=&key=&devicetype=iMac+MacBookPro18%2C3+OSX+OSX+15.4.1+build(24E263)&version=13080a10&lang=zh_CN&nettype=WIFI&ascene=78&fontScale=100)",
+        "translatedContent": "- [Document classique sur le développement d’applications grands modèles](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk1NzgzMjY3OQ==&action=getalbum&album_id=3987723560113356813&scene=126&uin=&key=&devicetype=iMac+MacBookPro18%2C3+OSX+OSX+15.4.1+build(24E263)&version=13080a10&lang=zh_CN&nettype=WIFI&ascene=78&fontScale=100)  "
+      },
+      {
+        "row": 9,
+        "rowsha": "gh9gGrJlS0b2DpLQkVCCqJ6GgubxUo0Uea9Q54jA2xc=",
+        "originContent": "## RAG",
+        "translatedContent": "## RAG  "
+      },
+      {
+        "row": 10,
+        "rowsha": "9mtAD3bNQekY5pYtUE9d4FIQwvFt4Y0q67LblMG8a78=",
+        "originContent": "- 详细介绍大模型（LLMs）RAG检索增强生成学习/面试过程中可能遇到的知识点，全文4w+字，按照处理流程整理：[大模型RAG知识笔记](https://mp.weixin.qq.com/s/zmUTGAMoljXSmnoo_cBQig)",
+        "translatedContent": "- Présentation détaillée du RAG (Retrieval-Augmented Generation) avec grands modèles (LLMs) / points de connaissance possibles en entretien, texte complet de plus de 40 000 mots, organisé selon le processus : [Notes de connaissances RAG grands modèles](https://mp.weixin.qq.com/s/zmUTGAMoljXSmnoo_cBQig)  "
+      },
+      {
+        "row": 11,
+        "rowsha": "3Qs8TCfZckC1ytt9tiEtliYwoOOJE4bXOuTzs1sCrwE=",
+        "originContent": "## Agent",
+        "translatedContent": "## Agent  "
+      },
+      {
+        "row": 12,
+        "rowsha": "Tovo6136h2j6ycADoDcFmbg8/fRw4sT019lyvVthDXg=",
+        "originContent": "- 详细介绍大模型（LLMs）智能体Agent学习/面试过程中可能遇到的知识点，全文1w+字，按照模块整理：[大模型Agent知识笔记](https://mp.weixin.qq.com/s/TSioLS_RhrX57YEnY3mkag)",
+        "translatedContent": "- Présentation détaillée des Agents intelligents avec grands modèles (LLMs) / points de connaissance possibles en entretien, texte complet de plus de 10 000 mots, organisé par modules : [Notes de connaissances Agent grands modèles](https://mp.weixin.qq.com/s/TSioLS_RhrX57YEnY3mkag)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

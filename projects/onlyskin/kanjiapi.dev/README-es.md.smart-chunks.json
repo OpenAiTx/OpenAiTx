@@ -1,0 +1,2214 @@
+[
+  {
+    "Id": 1,
+    "Content": "# kanjiapi.dev: a modern JSON API for Kanji\n\nOver 13,000 kanji served at [https://kanjiapi.dev](https://kanjiapi.dev)\n\n## Links\n- API documentation: https://kanjiapi.dev/#!/documentation\n- Help understanding why which kanji exist in which list: https://onlyskin.dev/official-kanji-list-diffs/\n\n## Buy me a coffee\n\nhttps://buymeacoffee.com/onlyskin\n\n## Examples\n\n### Kanji `/v1/kanji/{character}`",
+    "ContentSha": "jGZpov3bfpsNZIJbiVce62jzlhsdFhSui4qv6m4yTik=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# kanjiapi.dev: una API JSON moderna para Kanji\n\nMás de 13,000 kanji disponibles en [https://kanjiapi.dev](https://kanjiapi.dev)\n\n## Enlaces\n- Documentación de la API: https://kanjiapi.dev/#!/documentation\n- Ayuda para entender por qué ciertos kanji existen en ciertas listas: https://onlyskin.dev/official-kanji-list-diffs/\n\n## Invítame a un café\n\nhttps://buymeacoffee.com/onlyskin\n\n## Ejemplos\n\n### Kanji `/v1/kanji/{character}`",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qWCMpvJ+653JTp+reTCEw/EBcQeZNSV6fe8na7gkEso=",
+        "originContent": "# kanjiapi.dev: a modern JSON API for Kanji",
+        "translatedContent": "# kanjiapi.dev: una API JSON moderna para Kanji"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Hp9YspPgLsAs/aH7e0D27xUKBZGFywceo6fUNKPwcKI=",
+        "originContent": "Over 13,000 kanji served at [https://kanjiapi.dev](https://kanjiapi.dev)",
+        "translatedContent": "Más de 13,000 kanji disponibles en [https://kanjiapi.dev](https://kanjiapi.dev)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "diHpFstuV7UK+A46mhFkbkPIHzxRakTriwoPTCVX3QI=",
+        "originContent": "## Links",
+        "translatedContent": "## Enlaces"
+      },
+      {
+        "row": 6,
+        "rowsha": "7F6Qlj2TtV0+4Ol1h8GBT6XxlKtQCkWXMeG0+Geox1M=",
+        "originContent": "- API documentation: https://kanjiapi.dev/#!/documentation",
+        "translatedContent": "- Documentación de la API: https://kanjiapi.dev/#!/documentation"
+      },
+      {
+        "row": 7,
+        "rowsha": "2L29S4fGGToQ9QrsO0hYxpUppPBpQWs3pzrz+3lIxvw=",
+        "originContent": "- Help understanding why which kanji exist in which list: https://onlyskin.dev/official-kanji-list-diffs/",
+        "translatedContent": "- Ayuda para entender por qué ciertos kanji existen en ciertas listas: https://onlyskin.dev/official-kanji-list-diffs/"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "f7F373+6vCoKLjoSOIJ+8S8g0qwKEb5syHDZNHfmXKo=",
+        "originContent": "## Buy me a coffee",
+        "translatedContent": "## Invítame a un café"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "r+b2FqJicTATgtWMSZTfYEwZ2NyqGIJ75ARW5saFFPA=",
+        "originContent": "https://buymeacoffee.com/onlyskin",
+        "translatedContent": "https://buymeacoffee.com/onlyskin"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+        "originContent": "## Examples",
+        "translatedContent": "## Ejemplos"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "lmKY+z3piNgLRXVIL1+fqIBtHx8QJ98uDR6gD74UJZs=",
+        "originContent": "### Kanji `/v1/kanji/{character}`",
+        "translatedContent": "### Kanji `/v1/kanji/{character}`"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n$ curl https://kanjiapi.dev/v1/kanji/猫\n{\n  \"kanji\": \"猫\",\n  \"grade\": 8,\n  \"stroke_count\": 11,\n  \"meanings\": [\n    \"cat\"\n  ],\n  \"kun_readings\": [\n    \"ねこ\"\n  ],\n  \"on_readings\": [\n    \"ビョウ\"\n  ],\n  \"name_readings\": [],\n  \"jlpt\": 2,\n  \"unicode\": \"732b\"\n}\n```",
+    "ContentSha": "cy4fHIsO/oGrH+R8obXE3nwx96mem3WhQtrRpFZWo94=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n$ curl https://kanjiapi.dev/v1/kanji/猫\n{\n  \"kanji\": \"猫\",\n  \"grade\": 8,\n  \"stroke_count\": 11,\n  \"meanings\": [\n    \"cat\"\n  ],\n  \"kun_readings\": [\n    \"ねこ\"\n  ],\n  \"on_readings\": [\n    \"ビョウ\"\n  ],\n  \"name_readings\": [],\n  \"jlpt\": 2,\n  \"unicode\": \"732b\"\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "WEiidJ7u4Y65CsoqE1K4jWIEJw7IP28VMvif1KMqjxs=",
+        "originContent": "$ curl https://kanjiapi.dev/v1/kanji/猫",
+        "translatedContent": "$ curl https://kanjiapi.dev/v1/kanji/猫"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 4,
+        "rowsha": "jhWRQC731UpjrFPitSr4N/S71L+800X3ZkTQxmyXHJM=",
+        "originContent": "  \"kanji\": \"猫\",",
+        "translatedContent": "  \"kanji\": \"猫\","
+      },
+      {
+        "row": 5,
+        "rowsha": "thhVvg0XicVtssVbR3ZDHdlnuxbL6E3KfoZpAnJEYG4=",
+        "originContent": "  \"grade\": 8,",
+        "translatedContent": "  \"grade\": 8,"
+      },
+      {
+        "row": 6,
+        "rowsha": "Qf5BkoQhS1ItT82dEoYb/E/C0AL5Xfpi/k7+hRyDWz4=",
+        "originContent": "  \"stroke_count\": 11,",
+        "translatedContent": "  \"stroke_count\": 11,"
+      },
+      {
+        "row": 7,
+        "rowsha": "JTI5MRt7NM6VubV425Zk/yzOu3HZ8c254JtrqEN4SzM=",
+        "originContent": "  \"meanings\": [",
+        "translatedContent": "  \"meanings\": ["
+      },
+      {
+        "row": 8,
+        "rowsha": "cXtu+i2ggZGUVH91XUJ1TESA7+lg09/Yo87yfRR3WMI=",
+        "originContent": "    \"cat\"",
+        "translatedContent": "    \"cat\""
+      },
+      {
+        "row": 9,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 10,
+        "rowsha": "gR1OUnNezECXKNV0S03IykXGp0VRzvWL4/cQXBqvytY=",
+        "originContent": "  \"kun_readings\": [",
+        "translatedContent": "  \"kun_readings\": ["
+      },
+      {
+        "row": 11,
+        "rowsha": "/kSSwSHcTDw5NG8vQEru7cq2BilydQsdYYdD6bhSD5c=",
+        "originContent": "    \"ねこ\"",
+        "translatedContent": "    \"ねこ\""
+      },
+      {
+        "row": 12,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 13,
+        "rowsha": "NfXN0VUpjrYtPFskPp8ugLK6rUmfOO3BDjr/tMtSXk4=",
+        "originContent": "  \"on_readings\": [",
+        "translatedContent": "  \"on_readings\": ["
+      },
+      {
+        "row": 14,
+        "rowsha": "wl/2berJvc6Wl5dVahPGIBOIrfe+jcd5RJDcoTeZHqI=",
+        "originContent": "    \"ビョウ\"",
+        "translatedContent": "    \"ビョウ\""
+      },
+      {
+        "row": 15,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 16,
+        "rowsha": "F2IFfEByM+7Vr7OKbz7acmpObWFmbZQGUBZoZADbLKg=",
+        "originContent": "  \"name_readings\": [],",
+        "translatedContent": "  \"name_readings\": [],"
+      },
+      {
+        "row": 17,
+        "rowsha": "zGBmruPZT0dFj0XZESyXvrpYZHrAYTRzlq8ryoY+dPU=",
+        "originContent": "  \"jlpt\": 2,",
+        "translatedContent": "  \"jlpt\": 2,"
+      },
+      {
+        "row": 18,
+        "rowsha": "7vu5gR7CK7VVBHQCO2eaVkyMvf9ddkGOJ24M4Nf7IwM=",
+        "originContent": "  \"unicode\": \"732b\"",
+        "translatedContent": "  \"unicode\": \"732b\""
+      },
+      {
+        "row": 19,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 20,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```javascript\n> fetch('https://kanjiapi.dev/v1/kanji/猫').then(r => r.json()).then(console.log);\n{\n  \"kanji\": \"猫\",\n  \"grade\": 8,\n  \"stroke_count\": 11,\n  \"meanings\": [\n    \"cat\"\n  ],\n  \"kun_readings\": [\n    \"ねこ\"\n  ],\n  \"on_readings\": [\n    \"ビョウ\"\n  ],\n  \"name_readings\": [],\n  \"jlpt\": 2,\n  \"unicode\": \"732b\"\n}\n```",
+    "ContentSha": "1FLKYu7dOd7wIRtO7KccdCpU0l8Vly4U1vjjk+3xu5g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```javascript\n> fetch('https://kanjiapi.dev/v1/kanji/猫').then(r => r.json()).then(console.log);\n{\n  \"kanji\": \"猫\",\n  \"grade\": 8,\n  \"stroke_count\": 11,\n  \"meanings\": [\n    \"cat\"\n  ],\n  \"kun_readings\": [\n    \"ねこ\"\n  ],\n  \"on_readings\": [\n    \"ビョウ\"\n  ],\n  \"name_readings\": [],\n  \"jlpt\": 2,\n  \"unicode\": \"732b\"\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+        "originContent": "```javascript",
+        "translatedContent": "```javascript"
+      },
+      {
+        "row": 2,
+        "rowsha": "M7/+yDIvRbex1d1zM09fyEZYUxsvJwgKxTZmNkfyDpw=",
+        "originContent": "> fetch('https://kanjiapi.dev/v1/kanji/猫').then(r => r.json()).then(console.log);",
+        "translatedContent": "> fetch('https://kanjiapi.dev/v1/kanji/猫').then(r => r.json()).then(console.log);"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 4,
+        "rowsha": "jhWRQC731UpjrFPitSr4N/S71L+800X3ZkTQxmyXHJM=",
+        "originContent": "  \"kanji\": \"猫\",",
+        "translatedContent": "  \"kanji\": \"猫\","
+      },
+      {
+        "row": 5,
+        "rowsha": "thhVvg0XicVtssVbR3ZDHdlnuxbL6E3KfoZpAnJEYG4=",
+        "originContent": "  \"grade\": 8,",
+        "translatedContent": "  \"grade\": 8,"
+      },
+      {
+        "row": 6,
+        "rowsha": "Qf5BkoQhS1ItT82dEoYb/E/C0AL5Xfpi/k7+hRyDWz4=",
+        "originContent": "  \"stroke_count\": 11,",
+        "translatedContent": "  \"stroke_count\": 11,"
+      },
+      {
+        "row": 7,
+        "rowsha": "JTI5MRt7NM6VubV425Zk/yzOu3HZ8c254JtrqEN4SzM=",
+        "originContent": "  \"meanings\": [",
+        "translatedContent": "  \"meanings\": ["
+      },
+      {
+        "row": 8,
+        "rowsha": "cXtu+i2ggZGUVH91XUJ1TESA7+lg09/Yo87yfRR3WMI=",
+        "originContent": "    \"cat\"",
+        "translatedContent": "    \"cat\""
+      },
+      {
+        "row": 9,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 10,
+        "rowsha": "gR1OUnNezECXKNV0S03IykXGp0VRzvWL4/cQXBqvytY=",
+        "originContent": "  \"kun_readings\": [",
+        "translatedContent": "  \"kun_readings\": ["
+      },
+      {
+        "row": 11,
+        "rowsha": "/kSSwSHcTDw5NG8vQEru7cq2BilydQsdYYdD6bhSD5c=",
+        "originContent": "    \"ねこ\"",
+        "translatedContent": "    \"ねこ\""
+      },
+      {
+        "row": 12,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 13,
+        "rowsha": "NfXN0VUpjrYtPFskPp8ugLK6rUmfOO3BDjr/tMtSXk4=",
+        "originContent": "  \"on_readings\": [",
+        "translatedContent": "  \"on_readings\": ["
+      },
+      {
+        "row": 14,
+        "rowsha": "wl/2berJvc6Wl5dVahPGIBOIrfe+jcd5RJDcoTeZHqI=",
+        "originContent": "    \"ビョウ\"",
+        "translatedContent": "    \"ビョウ\""
+      },
+      {
+        "row": 15,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 16,
+        "rowsha": "F2IFfEByM+7Vr7OKbz7acmpObWFmbZQGUBZoZADbLKg=",
+        "originContent": "  \"name_readings\": [],",
+        "translatedContent": "  \"name_readings\": [],"
+      },
+      {
+        "row": 17,
+        "rowsha": "zGBmruPZT0dFj0XZESyXvrpYZHrAYTRzlq8ryoY+dPU=",
+        "originContent": "  \"jlpt\": 2,",
+        "translatedContent": "  \"jlpt\": 2,"
+      },
+      {
+        "row": 18,
+        "rowsha": "7vu5gR7CK7VVBHQCO2eaVkyMvf9ddkGOJ24M4Nf7IwM=",
+        "originContent": "  \"unicode\": \"732b\"",
+        "translatedContent": "  \"unicode\": \"732b\""
+      },
+      {
+        "row": 19,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 20,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n#### List of all supported kanji\n\n`$ curl https://kanjiapi.dev/v1/kanji/all`\n\n#### List of joyo kanji\n\n`$ curl https://kanjiapi.dev/v1/kanji/joyo` (also `/jouyou`)\n\nJOYO kanji are general use kanji outlined by the Japanese government. The\nUnihan Database labels four additional kanji as Joyo kanji, bringing the total\nto 2140 codepoints. This is because four of the Joyo kanji are missing in the\nJIS X 0208 encoding, so a different kanji which *is* present in JIS X 0208 was\nhistorically used. Therefore, in the Unihan Database, both the four official\nkanji and the four JIS X 0208-compatible kanji are marked as Joyo kanji. This\nis mirrored in the `/joyo` list provided by kanjiapi.dev.\n\nThe affected characters are:\n| official Joyo | historical JIS X 0208 compatible |\n| --- | --- |\n|𠮟 U+20B9F |叱 U+53F1|\n|塡 U+5861  |填 U+586B|\n|剝 U+525D  |剥 U+5265|\n|頰 U+9830  |頬 U+982C|\n\n#### List of jinmeiyo kanji\n\n`$ curl https://kanjiapi.dev/v1/kanji/jinmeiyo` (also `/jinmeiyou`)\n\nNote, 82 kanji in the Jinmeiyo list have codepoints in the Unicode CJK\ncompatibility code block. Therefore, they will sometimes be treated as \"the\nsame kanji\" as another character. This is specified by Unicode in the Unihan\nDatabase.\n\n`kanjiapi.dev` provides `/kanji/{character}` endpoints for these CJK\ncompatibility codepoints, but adds a special field to them for ease of\naccessing the unified version of the character. In addition, these\ncompatibility characters mostly have no words listed in their equivalent\n`/words/{character}` endpoint file, and much more limited information in the\n`/kanji/{character}` endpoint fields. This reflects the data which is present",
+    "ContentSha": "WSI8II+theQmtFyBgr66Rqqig0E3wJIMQijdJW2qwwY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### Lista de todos los kanji soportados\n\n`$ curl https://kanjiapi.dev/v1/kanji/all`\n\n#### Lista de kanji joyo\n\n`$ curl https://kanjiapi.dev/v1/kanji/joyo` (también `/jouyou`)\n\nLos kanji JOYO son kanji de uso general definidos por el gobierno japonés. La\nBase de Datos Unihan etiqueta cuatro kanji adicionales como kanji Joyo, llevando\nel total a 2140 puntos de código. Esto se debe a que cuatro de los kanji Joyo\nfaltan en la codificación JIS X 0208, por lo que históricamente se usó un kanji\ndiferente que *sí* está presente en JIS X 0208. Por lo tanto, en la Base de Datos\nUnihan, tanto los cuatro kanji oficiales como los cuatro kanji compatibles con\nJIS X 0208 están marcados como kanji Joyo. Esto se refleja en la lista `/joyo`\nproporcionada por kanjiapi.dev.\n\nLos caracteres afectados son:\n| kanji oficial Joyo | compatible histórico JIS X 0208 |\n| --- | --- |\n|𠮟 U+20B9F |叱 U+53F1|\n|塡 U+5861  |填 U+586B|\n|剝 U+525D  |剥 U+5265|\n|頰 U+9830  |頬 U+982C|\n\n#### Lista de kanji jinmeiyo\n\n`$ curl https://kanjiapi.dev/v1/kanji/jinmeiyo` (también `/jinmeiyou`)\n\nNota, 82 kanji en la lista Jinmeiyo tienen puntos de código en el bloque de\ncompatibilidad CJK de Unicode. Por lo tanto, a veces serán tratados como\n\"el mismo kanji\" que otro carácter. Esto está especificado por Unicode en la\nBase de Datos Unihan.\n\n`kanjiapi.dev` proporciona endpoints `/kanji/{character}` para estos puntos\nde código de compatibilidad CJK, pero añade un campo especial para facilitar\nel acceso a la versión unificada del carácter. Además, estos caracteres de\ncompatibilidad en su mayoría no tienen palabras listadas en su archivo\nequivalente `/words/{character}`, y tienen información mucho más limitada en\nlos campos del endpoint `/kanji/{character}`. Esto refleja los datos que están presentes",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Lista de todos los kanji soportados"
+      },
+      {
+        "row": 2,
+        "rowsha": "wETXOkXBmviU78KAElojmM4W4ax0nI6N/LY7qbqv9R0=",
+        "originContent": "#### List of all supported kanji",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`$ curl https://kanjiapi.dev/v1/kanji/all`"
+      },
+      {
+        "row": 4,
+        "rowsha": "QPZSRm5liNl6UTslEW6012lMCA4WXS3Bn9i9aZHnHnc=",
+        "originContent": "`$ curl https://kanjiapi.dev/v1/kanji/all`",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Lista de kanji joyo"
+      },
+      {
+        "row": 6,
+        "rowsha": "wBGWUEfZXutHmqFIZ2FBSjfe77SDLTxvUoxuYo7+8fM=",
+        "originContent": "#### List of joyo kanji",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`$ curl https://kanjiapi.dev/v1/kanji/joyo` (también `/jouyou`)"
+      },
+      {
+        "row": 8,
+        "rowsha": "OvFuBx3NYYb9EabStEzBeuakKlERa9SZfY39o87jRCg=",
+        "originContent": "`$ curl https://kanjiapi.dev/v1/kanji/joyo` (also `/jouyou`)",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Los kanji JOYO son kanji de uso general definidos por el gobierno japonés. La"
+      },
+      {
+        "row": 10,
+        "rowsha": "2bwEio2jIn2ijS38ZfPPw3YHJQicESvD3BJspbt8Yq0=",
+        "originContent": "JOYO kanji are general use kanji outlined by the Japanese government. The",
+        "translatedContent": "Base de Datos Unihan etiqueta cuatro kanji adicionales como kanji Joyo, llevando"
+      },
+      {
+        "row": 11,
+        "rowsha": "lf/yKQb6dZhOH6GMCXqtRL9GwtbYMcIAhBJr+2QJizs=",
+        "originContent": "Unihan Database labels four additional kanji as Joyo kanji, bringing the total",
+        "translatedContent": "el total a 2140 puntos de código. Esto se debe a que cuatro de los kanji Joyo"
+      },
+      {
+        "row": 12,
+        "rowsha": "rEEzcLGkVNNK5PQJXY5iPwp+/8dqG14b5nLmKJVJGqg=",
+        "originContent": "to 2140 codepoints. This is because four of the Joyo kanji are missing in the",
+        "translatedContent": "faltan en la codificación JIS X 0208, por lo que históricamente se usó un kanji"
+      },
+      {
+        "row": 13,
+        "rowsha": "mKX/bz8pZe9r9+yST75IAImC8NygDYq27rJoDoMclFk=",
+        "originContent": "JIS X 0208 encoding, so a different kanji which *is* present in JIS X 0208 was",
+        "translatedContent": "diferente que *sí* está presente en JIS X 0208. Por lo tanto, en la Base de Datos"
+      },
+      {
+        "row": 14,
+        "rowsha": "DDwWRsu87jqWTXmsnt0jKAugD+I8QKelR3zDk3c3wKQ=",
+        "originContent": "historically used. Therefore, in the Unihan Database, both the four official",
+        "translatedContent": "Unihan, tanto los cuatro kanji oficiales como los cuatro kanji compatibles con"
+      },
+      {
+        "row": 15,
+        "rowsha": "RFeupvY4AHV7ef4KXbtXNCIIQ1vdJMkAN09KSGaf3nA=",
+        "originContent": "kanji and the four JIS X 0208-compatible kanji are marked as Joyo kanji. This",
+        "translatedContent": "JIS X 0208 están marcados como kanji Joyo. Esto se refleja en la lista `/joyo`"
+      },
+      {
+        "row": 16,
+        "rowsha": "EXH6h3IoLTg88e7puEhb/7VJqmvWIiJxy9EcUz1N/u8=",
+        "originContent": "is mirrored in the `/joyo` list provided by kanjiapi.dev.",
+        "translatedContent": "proporcionada por kanjiapi.dev."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "LhITldL6PjyA4LEliOJRiMjTixpF+9+r0JYrWxL6Tpo=",
+        "originContent": "The affected characters are:",
+        "translatedContent": "Los caracteres afectados son:"
+      },
+      {
+        "row": 19,
+        "rowsha": "EXbDqg+GPNOA1b2yStTxp9LddLfN5UisPNe5QwbAaOE=",
+        "originContent": "| official Joyo | historical JIS X 0208 compatible |",
+        "translatedContent": "| kanji oficial Joyo | compatible histórico JIS X 0208 |"
+      },
+      {
+        "row": 20,
+        "rowsha": "gx8R59cCa8JALkZK5nFKkyGPYiMhgFv7UznUi9VQ394=",
+        "originContent": "| --- | --- |",
+        "translatedContent": "| --- | --- |"
+      },
+      {
+        "row": 21,
+        "rowsha": "GgjhVuNogbNEpSypprJ5qBKjspp4W3+5kUmco32Fol4=",
+        "originContent": "|𠮟 U+20B9F |叱 U+53F1|",
+        "translatedContent": "|𠮟 U+20B9F |叱 U+53F1|"
+      },
+      {
+        "row": 22,
+        "rowsha": "EDdk0sRlkhDMUQ/kIcWqHXmEM28KGwLuv716uTsYixI=",
+        "originContent": "|塡 U+5861  |填 U+586B|",
+        "translatedContent": "|塡 U+5861  |填 U+586B|"
+      },
+      {
+        "row": 23,
+        "rowsha": "8DSD68BUbh27VwzA6XzL5h+3rGbEWRIDuPKQ/MtZKbg=",
+        "originContent": "|剝 U+525D  |剥 U+5265|",
+        "translatedContent": "|剝 U+525D  |剥 U+5265|"
+      },
+      {
+        "row": 24,
+        "rowsha": "z2p7Kvy2n8mY5iXYbiQye8+CrygDcbVb9HONP5krdDk=",
+        "originContent": "|頰 U+9830  |頬 U+982C|",
+        "translatedContent": "|頰 U+9830  |頬 U+982C|"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "yQzUW9RnEXZFfU99paFWaLS8FMt15shvqGbS9Yo+s88=",
+        "originContent": "#### List of jinmeiyo kanji",
+        "translatedContent": "#### Lista de kanji jinmeiyo"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "nux1ljfhbEgJaJhPpZs9rKAPpv0pNkjqyiaKwWt80/E=",
+        "originContent": "`$ curl https://kanjiapi.dev/v1/kanji/jinmeiyo` (also `/jinmeiyou`)",
+        "translatedContent": "`$ curl https://kanjiapi.dev/v1/kanji/jinmeiyo` (también `/jinmeiyou`)"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "wBO8gqzn+TRA7cbPf/8K9gGj74cTm/yNsgo087kzVvA=",
+        "originContent": "Note, 82 kanji in the Jinmeiyo list have codepoints in the Unicode CJK",
+        "translatedContent": "Nota, 82 kanji en la lista Jinmeiyo tienen puntos de código en el bloque de"
+      },
+      {
+        "row": 31,
+        "rowsha": "GfDpaGetXWtBA06Jj6crkBKQRCLLGiND35QEGR3KGuI=",
+        "originContent": "compatibility code block. Therefore, they will sometimes be treated as \"the",
+        "translatedContent": "compatibilidad CJK de Unicode. Por lo tanto, a veces serán tratados como"
+      },
+      {
+        "row": 32,
+        "rowsha": "fEZDxEuF5PnF1HfW+fmwGn1lCbWSWI8IafWr/KvUluY=",
+        "originContent": "same kanji\" as another character. This is specified by Unicode in the Unihan",
+        "translatedContent": "\"el mismo kanji\" que otro carácter. Esto está especificado por Unicode en la"
+      },
+      {
+        "row": 33,
+        "rowsha": "eHaZjh5UEyGokTf/rUKMB/wf6ObNxFvqyRrlhXIMpDc=",
+        "originContent": "Database.",
+        "translatedContent": "Base de Datos Unihan."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "vLQy/s041yNO/9MVeTqcIEr/rrphndmDrfD+oatvMc4=",
+        "originContent": "`kanjiapi.dev` provides `/kanji/{character}` endpoints for these CJK",
+        "translatedContent": "`kanjiapi.dev` proporciona endpoints `/kanji/{character}` para estos puntos"
+      },
+      {
+        "row": 36,
+        "rowsha": "8iPszdT9Ht+j7zaaDmZyuXWhi8Aaer7Aqr91TQti1q4=",
+        "originContent": "compatibility codepoints, but adds a special field to them for ease of",
+        "translatedContent": "de código de compatibilidad CJK, pero añade un campo especial para facilitar"
+      },
+      {
+        "row": 37,
+        "rowsha": "9ufC1fePOFe7lnM7xP8F8gE1A6MCUwEM+TTN2PsE/IY=",
+        "originContent": "accessing the unified version of the character. In addition, these",
+        "translatedContent": "el acceso a la versión unificada del carácter. Además, estos caracteres de"
+      },
+      {
+        "row": 38,
+        "rowsha": "VhauTKUKj9g6ajD1Rs63fD6Oq6KY1mc2BwFy+wKodNw=",
+        "originContent": "compatibility characters mostly have no words listed in their equivalent",
+        "translatedContent": "compatibilidad en su mayoría no tienen palabras listadas en su archivo"
+      },
+      {
+        "row": 39,
+        "rowsha": "eSJ6ofVzmHCAlvNXcdyoxLG/mcoE8S52BwfVxsYZvLE=",
+        "originContent": "`/words/{character}` endpoint file, and much more limited information in the",
+        "translatedContent": "equivalente `/words/{character}`, y tienen información mucho más limitada en"
+      },
+      {
+        "row": 40,
+        "rowsha": "2AveNL0Sq9Kt+QxnywFAQfDGGoW89WCuiKfQoBQIajE=",
+        "originContent": "`/kanji/{character}` endpoint fields. This reflects the data which is present",
+        "translatedContent": "los campos del endpoint `/kanji/{character}`. Esto refleja los datos que están presentes"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "in the `KANJIDIC` file.\n\nFor example, the Jinmeiyo character 海 (U+FA45) is considered by Unicode to be\nthe same as the Joyo character 海 (U+6d77). The Jinmeiyo version is therefore\npresent in the CJK compatibility block.\n\nThis is an issue because any layer of software (e.g. browser caching, url\nencoding) may perform unicode normalisation, which would convert the Jinmeiyo\ncharacter to a different character. If you expect to see a Jinmeiyo character,\nbut you see a Joyo character, this is probably the reason.\n\nIf necessary, the css property `font-variant-east-asian: traditional;` can be\nused to tell the browser to display the unified equivalent character in the\ntraditional way, which should mean that a Joyo character codepoint displaysa s\nits Jinmeiyo equivalent.\n\n#### List of heisig kanji\n\n`$ curl https://kanjiapi.dev/v1/kanji/heisig`\n\nList of characters which have a Heisig keyword assigned. Note, there are four\nextra kanji in the heisig list labeled with '[alt]' after the normal keyword.\nThese are the four official joyo variants of the missing JIS X 0208 kanji (the\nHeisig book series assigned these keywords to the JIS compatible characters,\nbut a person looking for them could come from either the JIS compatible version\nor the official version). See the `List of joyo kanji` section above.\n\n#### List of kanji of a certain grade\n\n`$ curl https://kanjiapi.dev/v1/kanji/grade-1` (school grades 1-6, with grade 8 signalling remaining highschool grade)\n\n### Reading `/v1/reading/{reading}`",
+    "ContentSha": "owRT0LV14Qd5evuAI+zw1IdrGPrs/iNpNrBjJdoo2sg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "en el archivo `KANJIDIC`.\n\nPor ejemplo, el carácter Jinmeiyo 海 (U+FA45) es considerado por Unicode como\nel mismo que el carácter Joyo 海 (U+6d77). Por lo tanto, la versión Jinmeiyo está\npresente en el bloque de compatibilidad CJK.\n\nEsto es un problema porque cualquier capa de software (por ejemplo, la caché\ndel navegador, la codificación de URL) puede realizar una normalización Unicode,\nque convertiría el carácter Jinmeiyo en un carácter diferente. Si esperas ver un\ncarácter Jinmeiyo, pero ves un carácter Joyo, probablemente esta sea la razón.\n\nSi es necesario, la propiedad css `font-variant-east-asian: traditional;` puede\nusarse para indicar al navegador que muestre el carácter equivalente unificado\nde la manera tradicional, lo que debería significar que un código de carácter Joyo\nse muestre como su equivalente Jinmeiyo.\n\n#### Lista de kanji Heisig\n\n`$ curl https://kanjiapi.dev/v1/kanji/heisig`\n\nLista de caracteres que tienen una palabra clave Heisig asignada. Nota, hay cuatro\nkanji adicionales en la lista heisig etiquetados con '[alt]' después de la palabra\nclave normal. Estos son los cuatro variantes oficiales joyo de los kanji faltantes\nde JIS X 0208 (la serie de libros Heisig asignó estas palabras clave a los caracteres\ncompatibles con JIS, pero una persona buscándolos podría venir de la versión compatible\ncon JIS o la versión oficial). Ver la sección `Lista de kanji joyo` arriba.\n\n#### Lista de kanji de un cierto grado\n\n`$ curl https://kanjiapi.dev/v1/kanji/grade-1` (grados escolares 1-6, con el grado 8 señalando\nel resto del grado de secundaria)\n\n### Lectura `/v1/reading/{reading}`",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "53ZqXLFfOwnD1inZZ+/D1v66yoK4WwDaG3CZf1aFIsE=",
+        "originContent": "in the `KANJIDIC` file.",
+        "translatedContent": "en el archivo `KANJIDIC`."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "IswbidD0XWUrGxLktOViZFgfAwbc1mynStR5jclvt+4=",
+        "originContent": "For example, the Jinmeiyo character 海 (U+FA45) is considered by Unicode to be",
+        "translatedContent": "Por ejemplo, el carácter Jinmeiyo 海 (U+FA45) es considerado por Unicode como"
+      },
+      {
+        "row": 4,
+        "rowsha": "rS7tefVbngpoFW7rewjeARkn+1FpKU9ynYiTAviq9XU=",
+        "originContent": "the same as the Joyo character 海 (U+6d77). The Jinmeiyo version is therefore",
+        "translatedContent": "el mismo que el carácter Joyo 海 (U+6d77). Por lo tanto, la versión Jinmeiyo está"
+      },
+      {
+        "row": 5,
+        "rowsha": "bkB31TEUhgLpv9gE70cbPJMgjtumZ1Mu+6uxsuwdm6w=",
+        "originContent": "present in the CJK compatibility block.",
+        "translatedContent": "presente en el bloque de compatibilidad CJK."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "DIdpipISrme+jLMUgF1Kk5CofDr1ZGOO/oYVfI+AkZ8=",
+        "originContent": "This is an issue because any layer of software (e.g. browser caching, url",
+        "translatedContent": "Esto es un problema porque cualquier capa de software (por ejemplo, la caché"
+      },
+      {
+        "row": 8,
+        "rowsha": "0WBHdSW4gA2YMbwhhJRK0PzQKl/eyEf4UWbFNLxiUQk=",
+        "originContent": "encoding) may perform unicode normalisation, which would convert the Jinmeiyo",
+        "translatedContent": "del navegador, la codificación de URL) puede realizar una normalización Unicode,"
+      },
+      {
+        "row": 9,
+        "rowsha": "T7zsw914DN3D5FMJl6EgwW+OVWZqzTFD2Z9kkB/yHvI=",
+        "originContent": "character to a different character. If you expect to see a Jinmeiyo character,",
+        "translatedContent": "que convertiría el carácter Jinmeiyo en un carácter diferente. Si esperas ver un"
+      },
+      {
+        "row": 10,
+        "rowsha": "1kH/RfBOC1aQ99NtRteCxyarbLWCXiiZbp1DoDWRrt8=",
+        "originContent": "but you see a Joyo character, this is probably the reason.",
+        "translatedContent": "carácter Jinmeiyo, pero ves un carácter Joyo, probablemente esta sea la razón."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "IOhyjgrdJCToASKOpSNhwv4KN3rT7gPT4EojLi3HnBs=",
+        "originContent": "If necessary, the css property `font-variant-east-asian: traditional;` can be",
+        "translatedContent": "Si es necesario, la propiedad css `font-variant-east-asian: traditional;` puede"
+      },
+      {
+        "row": 13,
+        "rowsha": "i33/xfIkXxCNJgkDk7FOKpyC7T2kaFYR6jOir5jvBQw=",
+        "originContent": "used to tell the browser to display the unified equivalent character in the",
+        "translatedContent": "usarse para indicar al navegador que muestre el carácter equivalente unificado"
+      },
+      {
+        "row": 14,
+        "rowsha": "TsgLU35fTxWzV7q8B+HbcjbZA32pe8AOpqPFHCGahb4=",
+        "originContent": "traditional way, which should mean that a Joyo character codepoint displaysa s",
+        "translatedContent": "de la manera tradicional, lo que debería significar que un código de carácter Joyo"
+      },
+      {
+        "row": 15,
+        "rowsha": "cIZQ/5p1LGJmTCRIwSFGWjuFog8MdKM/uz+KmweTBNU=",
+        "originContent": "its Jinmeiyo equivalent.",
+        "translatedContent": "se muestre como su equivalente Jinmeiyo."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "C9sCGC/8EY9yEFVJgxWs3vvkR+iMxFew975TZMdt5r0=",
+        "originContent": "#### List of heisig kanji",
+        "translatedContent": "#### Lista de kanji Heisig"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "7TU0jn7F3p8LoiGk5i7+vcS/EbT1noeshHD/+LMzIsk=",
+        "originContent": "`$ curl https://kanjiapi.dev/v1/kanji/heisig`",
+        "translatedContent": "`$ curl https://kanjiapi.dev/v1/kanji/heisig`"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "MEFpgM0RFEPqT60HrpQ/0FfpZL2hI5qD7ljICbaT6sY=",
+        "originContent": "List of characters which have a Heisig keyword assigned. Note, there are four",
+        "translatedContent": "Lista de caracteres que tienen una palabra clave Heisig asignada. Nota, hay cuatro"
+      },
+      {
+        "row": 22,
+        "rowsha": "jPwd0RUIiIzXdyqF+sIA7di7GP+5g9aLOxuuBflUjSs=",
+        "originContent": "extra kanji in the heisig list labeled with '[alt]' after the normal keyword.",
+        "translatedContent": "kanji adicionales en la lista heisig etiquetados con '[alt]' después de la palabra"
+      },
+      {
+        "row": 23,
+        "rowsha": "F+wuUVjiMyA2p0jARJVp+j57igTj9mI5I8ayKMI/uLM=",
+        "originContent": "These are the four official joyo variants of the missing JIS X 0208 kanji (the",
+        "translatedContent": "clave normal. Estos son los cuatro variantes oficiales joyo de los kanji faltantes"
+      },
+      {
+        "row": 24,
+        "rowsha": "bg1zfH6W9mu3tD5uRAObUpK8w2ibVKNDy8r8XvD6kDI=",
+        "originContent": "Heisig book series assigned these keywords to the JIS compatible characters,",
+        "translatedContent": "de JIS X 0208 (la serie de libros Heisig asignó estas palabras clave a los caracteres"
+      },
+      {
+        "row": 25,
+        "rowsha": "EF00MkCS6N35aJeM2BRzUO0AaP+2fBLZcl/QR+5AeLA=",
+        "originContent": "but a person looking for them could come from either the JIS compatible version",
+        "translatedContent": "compatibles con JIS, pero una persona buscándolos podría venir de la versión compatible"
+      },
+      {
+        "row": 26,
+        "rowsha": "4aGhmvWOyjJKkN6d9/PtcCJOoDoz/aMRU6kFbJe2UhE=",
+        "originContent": "or the official version). See the `List of joyo kanji` section above.",
+        "translatedContent": "con JIS o la versión oficial). Ver la sección `Lista de kanji joyo` arriba."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "lNipqDSMqb73I0ftdniW9bDVI6wvXwEQUay7N2ApfT8=",
+        "originContent": "#### List of kanji of a certain grade",
+        "translatedContent": "#### Lista de kanji de un cierto grado"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "zPY1VXUrWCuzauvtgWeqyfHprlyNdoXA10S216eRwYc=",
+        "originContent": "`$ curl https://kanjiapi.dev/v1/kanji/grade-1` (school grades 1-6, with grade 8 signalling remaining highschool grade)",
+        "translatedContent": "`$ curl https://kanjiapi.dev/v1/kanji/grade-1` (grados escolares 1-6, con el grado 8 señalando"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "el resto del grado de secundaria)"
+      },
+      {
+        "row": 32,
+        "rowsha": "1gNEXZICAb+amz2PBf16dszBNKCzmqi8PmiZ/oWGFCk=",
+        "originContent": "### Reading `/v1/reading/{reading}`",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```\n$ curl https://kanjiapi.dev/v1/reading/クウ\n{\n  \"reading\": \"クウ\",\n  \"main_kanji\": [\n    \"宮\",\n    \"供\",\n    \"空\",\n    \"咼\",\n    \"啌\",\n    \"喎\",\n    \"垙\",\n    \"瘸\",\n    \"盉\",\n    \"舙\"\n  ],\n  \"name_kanji\": []\n}\n```",
+    "ContentSha": "j0HfBrcqgdCo52ksagxRuU5j2rA4aAguWVyD0nE0QYc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n$ curl https://kanjiapi.dev/v1/reading/クウ\n{\n  \"reading\": \"クウ\",\n  \"main_kanji\": [\n    \"宮\",\n    \"供\",\n    \"空\",\n    \"咼\",\n    \"啌\",\n    \"喎\",\n    \"垙\",\n    \"瘸\",\n    \"盉\",\n    \"舙\"\n  ],\n  \"name_kanji\": []\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "OL/X405HqjwZ2LjdwnHXSTuC9IiK+h/At0Nj1ERP4/E=",
+        "originContent": "$ curl https://kanjiapi.dev/v1/reading/クウ",
+        "translatedContent": "$ curl https://kanjiapi.dev/v1/reading/クウ"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 4,
+        "rowsha": "ASnf5TOreXVupv74hGTXUK7zZTNbIwIRJJBuNxHmP8g=",
+        "originContent": "  \"reading\": \"クウ\",",
+        "translatedContent": "  \"reading\": \"クウ\","
+      },
+      {
+        "row": 5,
+        "rowsha": "mKim5ZQeXjFpJbgUEp5uKxJ8QFY7xlodZAnr2okW1C0=",
+        "originContent": "  \"main_kanji\": [",
+        "translatedContent": "  \"main_kanji\": ["
+      },
+      {
+        "row": 6,
+        "rowsha": "g2rZKSases9svToV0FeKs3BE4gyY6S8SkNSr1c5gINY=",
+        "originContent": "    \"宮\",",
+        "translatedContent": "    \"宮\","
+      },
+      {
+        "row": 7,
+        "rowsha": "oolVygG1mV2x0X0oFEHq6JTpkQMn+nNcmGZOZaN0dC8=",
+        "originContent": "    \"供\",",
+        "translatedContent": "    \"供\","
+      },
+      {
+        "row": 8,
+        "rowsha": "TEvubYiCryrCGaBA5eoFUuWtlT0w3LDL+FPBTGBg5Jk=",
+        "originContent": "    \"空\",",
+        "translatedContent": "    \"空\","
+      },
+      {
+        "row": 9,
+        "rowsha": "O74uiDdZEu6XbbXs8rp5ALof9unK1mR+j7OrLT77TI4=",
+        "originContent": "    \"咼\",",
+        "translatedContent": "    \"咼\","
+      },
+      {
+        "row": 10,
+        "rowsha": "5nE3eFjFPnGb3TLDx0Fc4fMjKVGc501nWqNlrC4A/Ro=",
+        "originContent": "    \"啌\",",
+        "translatedContent": "    \"啌\","
+      },
+      {
+        "row": 11,
+        "rowsha": "gww2LVPyCuHnbpmd6D+EZNe0g4afB4VNM3rd97dD0Lw=",
+        "originContent": "    \"喎\",",
+        "translatedContent": "    \"喎\","
+      },
+      {
+        "row": 12,
+        "rowsha": "4KJDEiRCzN9uH4L8sMzb/jX4fO9m1dFIhgsq9up1vks=",
+        "originContent": "    \"垙\",",
+        "translatedContent": "    \"垙\","
+      },
+      {
+        "row": 13,
+        "rowsha": "dZBnamcIcAjwKDOIXoPzauHnBxH4Lv7j2GHuAtDmbP4=",
+        "originContent": "    \"瘸\",",
+        "translatedContent": "    \"瘸\","
+      },
+      {
+        "row": 14,
+        "rowsha": "ec5GyE627yY7ign2vywO90zbqmrI5acnJ5RHhkMx+E0=",
+        "originContent": "    \"盉\",",
+        "translatedContent": "    \"盉\","
+      },
+      {
+        "row": 15,
+        "rowsha": "prxSh1rs3sPwwCWxFXUBxZSODkYck8JuZwIxW0g7bhY=",
+        "originContent": "    \"舙\"",
+        "translatedContent": "    \"舙\""
+      },
+      {
+        "row": 16,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 17,
+        "rowsha": "olboYNTfsS1uVcykDsWFAPAdUnktsuHnFx1jo4NDrRQ=",
+        "originContent": "  \"name_kanji\": []",
+        "translatedContent": "  \"name_kanji\": []"
+      },
+      {
+        "row": 18,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```javascript\n> fetch('https://kanjiapi.dev/v1/reading/クウ').then(r => r.json()).then(console.log);\n{\n  \"reading\": \"クウ\",\n  \"main_kanji\": [\n    \"宮\",\n    \"供\",\n    \"空\",\n    \"咼\",\n    \"啌\",\n    \"喎\",\n    \"垙\",\n    \"瘸\",\n    \"盉\",\n    \"舙\"\n  ],\n  \"name_kanji\": []\n}\n```",
+    "ContentSha": "0S8jPTpMOTtLMFpsezKheqyqC5lEZwwn3O6v/rOMT38=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```javascript\n> fetch('https://kanjiapi.dev/v1/reading/クウ').then(r => r.json()).then(console.log);\n{\n  \"reading\": \"クウ\",\n  \"main_kanji\": [\n    \"宮\",\n    \"供\",\n    \"空\",\n    \"咼\",\n    \"啌\",\n    \"喎\",\n    \"垙\",\n    \"瘸\",\n    \"盉\",\n    \"舙\"\n  ],\n  \"name_kanji\": []\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+        "originContent": "```javascript",
+        "translatedContent": "```javascript"
+      },
+      {
+        "row": 2,
+        "rowsha": "K3HTbqMoWxf4k+HNdJMfk5IiLyEXSeWSedeMpMKu4yY=",
+        "originContent": "> fetch('https://kanjiapi.dev/v1/reading/クウ').then(r => r.json()).then(console.log);",
+        "translatedContent": "> fetch('https://kanjiapi.dev/v1/reading/クウ').then(r => r.json()).then(console.log);"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 4,
+        "rowsha": "ASnf5TOreXVupv74hGTXUK7zZTNbIwIRJJBuNxHmP8g=",
+        "originContent": "  \"reading\": \"クウ\",",
+        "translatedContent": "  \"reading\": \"クウ\","
+      },
+      {
+        "row": 5,
+        "rowsha": "mKim5ZQeXjFpJbgUEp5uKxJ8QFY7xlodZAnr2okW1C0=",
+        "originContent": "  \"main_kanji\": [",
+        "translatedContent": "  \"main_kanji\": ["
+      },
+      {
+        "row": 6,
+        "rowsha": "g2rZKSases9svToV0FeKs3BE4gyY6S8SkNSr1c5gINY=",
+        "originContent": "    \"宮\",",
+        "translatedContent": "    \"宮\","
+      },
+      {
+        "row": 7,
+        "rowsha": "oolVygG1mV2x0X0oFEHq6JTpkQMn+nNcmGZOZaN0dC8=",
+        "originContent": "    \"供\",",
+        "translatedContent": "    \"供\","
+      },
+      {
+        "row": 8,
+        "rowsha": "TEvubYiCryrCGaBA5eoFUuWtlT0w3LDL+FPBTGBg5Jk=",
+        "originContent": "    \"空\",",
+        "translatedContent": "    \"空\","
+      },
+      {
+        "row": 9,
+        "rowsha": "O74uiDdZEu6XbbXs8rp5ALof9unK1mR+j7OrLT77TI4=",
+        "originContent": "    \"咼\",",
+        "translatedContent": "    \"咼\","
+      },
+      {
+        "row": 10,
+        "rowsha": "5nE3eFjFPnGb3TLDx0Fc4fMjKVGc501nWqNlrC4A/Ro=",
+        "originContent": "    \"啌\",",
+        "translatedContent": "    \"啌\","
+      },
+      {
+        "row": 11,
+        "rowsha": "gww2LVPyCuHnbpmd6D+EZNe0g4afB4VNM3rd97dD0Lw=",
+        "originContent": "    \"喎\",",
+        "translatedContent": "    \"喎\","
+      },
+      {
+        "row": 12,
+        "rowsha": "4KJDEiRCzN9uH4L8sMzb/jX4fO9m1dFIhgsq9up1vks=",
+        "originContent": "    \"垙\",",
+        "translatedContent": "    \"垙\","
+      },
+      {
+        "row": 13,
+        "rowsha": "dZBnamcIcAjwKDOIXoPzauHnBxH4Lv7j2GHuAtDmbP4=",
+        "originContent": "    \"瘸\",",
+        "translatedContent": "    \"瘸\","
+      },
+      {
+        "row": 14,
+        "rowsha": "ec5GyE627yY7ign2vywO90zbqmrI5acnJ5RHhkMx+E0=",
+        "originContent": "    \"盉\",",
+        "translatedContent": "    \"盉\","
+      },
+      {
+        "row": 15,
+        "rowsha": "prxSh1rs3sPwwCWxFXUBxZSODkYck8JuZwIxW0g7bhY=",
+        "originContent": "    \"舙\"",
+        "translatedContent": "    \"舙\""
+      },
+      {
+        "row": 16,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 17,
+        "rowsha": "olboYNTfsS1uVcykDsWFAPAdUnktsuHnFx1jo4NDrRQ=",
+        "originContent": "  \"name_kanji\": []",
+        "translatedContent": "  \"name_kanji\": []"
+      },
+      {
+        "row": 18,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n### Words `/v1/words/{character}`",
+    "ContentSha": "AOVZNxnn7h0j4GzedlKGyUEmT9oDDyl0httU0Yxj3C4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Palabras `/v1/words/{character}`",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xvsL6goc0DZP5pr1UdTQSkxEA+msCbA03YhD8yIhq3o=",
+        "originContent": "### Words `/v1/words/{character}`",
+        "translatedContent": "### Palabras `/v1/words/{character}`"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```\n$ curl https://kanjiapi.dev/v1/words/猫\n[\n  {\n    \"variants\": [\n      {\n        \"written\": \"どら猫\",\n        \"pronounced\": \"どらねこ\",\n        \"priorities\": []\n      }\n    ],\n    \"meanings\": [\n      {\n        \"glosses\": [\n          \"stray cat\"\n        ]\n      }\n    ]\n  },\n  {\n    \"variants\": [\n      {\n        \"written\": \"アンゴラ猫\",\n        \"pronounced\": \"アンゴラねこ\",\n        \"priorities\": []\n      }\n    ],\n    \"meanings\": [\n      {\n        \"glosses\": [\n          \"Angora cat\"\n        ]\n      }\n    ]\n  },\n  ...\n]\n```",
+    "ContentSha": "vh0H3+JeO+eyOIXE3SQ2Vb/jsml6FjyW4FMpb/6N3Vw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n$ curl https://kanjiapi.dev/v1/words/猫\n[\n  {\n    \"variants\": [\n      {\n        \"written\": \"どら猫\",\n        \"pronounced\": \"どらねこ\",\n        \"priorities\": []\n      }\n    ],\n    \"meanings\": [\n      {\n        \"glosses\": [\n          \"stray cat\"\n        ]\n      }\n    ]\n  },\n  {\n    \"variants\": [\n      {\n        \"written\": \"アンゴラ猫\",\n        \"pronounced\": \"アンゴラねこ\",\n        \"priorities\": []\n      }\n    ],\n    \"meanings\": [\n      {\n        \"glosses\": [\n          \"Angora cat\"\n        ]\n      }\n    ]\n  },\n  ...\n]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "mXErmL70IHdjfhuwAxScvAYxHEDajA3Q0d3uiJQir3w=",
+        "originContent": "$ curl https://kanjiapi.dev/v1/words/猫",
+        "translatedContent": "$ curl https://kanjiapi.dev/v1/words/猫"
+      },
+      {
+        "row": 3,
+        "rowsha": "JFhDq++ecufvrDATiplL9jAefh19cEKjPULoY9JjiBE=",
+        "originContent": "[",
+        "translatedContent": "["
+      },
+      {
+        "row": 4,
+        "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+        "originContent": "  {",
+        "translatedContent": "  {"
+      },
+      {
+        "row": 5,
+        "rowsha": "0sJYade+vVzvk8NNjC0oktQajb4k4UZavjxS9Va7p+M=",
+        "originContent": "    \"variants\": [",
+        "translatedContent": "    \"variants\": ["
+      },
+      {
+        "row": 6,
+        "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+        "originContent": "      {",
+        "translatedContent": "      {"
+      },
+      {
+        "row": 7,
+        "rowsha": "T1a+eCwJ9nL7FPl8Tu85veITG7zCBzOO33T6oTuIYTI=",
+        "originContent": "        \"written\": \"どら猫\",",
+        "translatedContent": "        \"written\": \"どら猫\","
+      },
+      {
+        "row": 8,
+        "rowsha": "tzIMutzfax5o336MKugcIHG8XOK+BXO62af9xilQa88=",
+        "originContent": "        \"pronounced\": \"どらねこ\",",
+        "translatedContent": "        \"pronounced\": \"どらねこ\","
+      },
+      {
+        "row": 9,
+        "rowsha": "06oBhfj626admGV7dl6FFKSmb4v7gfw+TfKnclmQrVk=",
+        "originContent": "        \"priorities\": []",
+        "translatedContent": "        \"priorities\": []"
+      },
+      {
+        "row": 10,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 11,
+        "rowsha": "/4y2mDluE/6gPlOuW99X51DJh7tetngAemmeBkzB+FY=",
+        "originContent": "    ],",
+        "translatedContent": "    ],"
+      },
+      {
+        "row": 12,
+        "rowsha": "LbD6tMwlbz8nIsBsCdGCUMPRu6Je/299rB8sf4wJt1k=",
+        "originContent": "    \"meanings\": [",
+        "translatedContent": "    \"meanings\": ["
+      },
+      {
+        "row": 13,
+        "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+        "originContent": "      {",
+        "translatedContent": "      {"
+      },
+      {
+        "row": 14,
+        "rowsha": "NYF8IOPFdMOtzBnd7rKsbw+wQLYyNB4l/VZQfODuCeU=",
+        "originContent": "        \"glosses\": [",
+        "translatedContent": "        \"glosses\": ["
+      },
+      {
+        "row": 15,
+        "rowsha": "H97bm4fNk6Zp04KMCt1WWIuuyDMOLKCeAZEYbX1AliM=",
+        "originContent": "          \"stray cat\"",
+        "translatedContent": "          \"stray cat\""
+      },
+      {
+        "row": 16,
+        "rowsha": "ygt4igTskIN0u4F3rZtYfYn6Gpy1l8PIjUuWrUd7hP0=",
+        "originContent": "        ]",
+        "translatedContent": "        ]"
+      },
+      {
+        "row": 17,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 18,
+        "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+        "originContent": "    ]",
+        "translatedContent": "    ]"
+      },
+      {
+        "row": 19,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 20,
+        "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+        "originContent": "  {",
+        "translatedContent": "  {"
+      },
+      {
+        "row": 21,
+        "rowsha": "0sJYade+vVzvk8NNjC0oktQajb4k4UZavjxS9Va7p+M=",
+        "originContent": "    \"variants\": [",
+        "translatedContent": "    \"variants\": ["
+      },
+      {
+        "row": 22,
+        "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+        "originContent": "      {",
+        "translatedContent": "      {"
+      },
+      {
+        "row": 23,
+        "rowsha": "bDJFSKGI7iD5qjNZ+R1JBFhPC7u6kZOaUq0vMvRkwcE=",
+        "originContent": "        \"written\": \"アンゴラ猫\",",
+        "translatedContent": "        \"written\": \"アンゴラ猫\","
+      },
+      {
+        "row": 24,
+        "rowsha": "US7MNYNuGY/30acD7kYUgzTO51XU/y/CVfhzyEeCknQ=",
+        "originContent": "        \"pronounced\": \"アンゴラねこ\",",
+        "translatedContent": "        \"pronounced\": \"アンゴラねこ\","
+      },
+      {
+        "row": 25,
+        "rowsha": "06oBhfj626admGV7dl6FFKSmb4v7gfw+TfKnclmQrVk=",
+        "originContent": "        \"priorities\": []",
+        "translatedContent": "        \"priorities\": []"
+      },
+      {
+        "row": 26,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 27,
+        "rowsha": "/4y2mDluE/6gPlOuW99X51DJh7tetngAemmeBkzB+FY=",
+        "originContent": "    ],",
+        "translatedContent": "    ],"
+      },
+      {
+        "row": 28,
+        "rowsha": "LbD6tMwlbz8nIsBsCdGCUMPRu6Je/299rB8sf4wJt1k=",
+        "originContent": "    \"meanings\": [",
+        "translatedContent": "    \"meanings\": ["
+      },
+      {
+        "row": 29,
+        "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+        "originContent": "      {",
+        "translatedContent": "      {"
+      },
+      {
+        "row": 30,
+        "rowsha": "NYF8IOPFdMOtzBnd7rKsbw+wQLYyNB4l/VZQfODuCeU=",
+        "originContent": "        \"glosses\": [",
+        "translatedContent": "        \"glosses\": ["
+      },
+      {
+        "row": 31,
+        "rowsha": "Yj4fUQOdvmerSaaHrkpwBN9RbImNVyCh8saqG4wMk7Q=",
+        "originContent": "          \"Angora cat\"",
+        "translatedContent": "          \"Angora cat\""
+      },
+      {
+        "row": 32,
+        "rowsha": "ygt4igTskIN0u4F3rZtYfYn6Gpy1l8PIjUuWrUd7hP0=",
+        "originContent": "        ]",
+        "translatedContent": "        ]"
+      },
+      {
+        "row": 33,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 34,
+        "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+        "originContent": "    ]",
+        "translatedContent": "    ]"
+      },
+      {
+        "row": 35,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 36,
+        "rowsha": "BJo/S9HKlcIDfq/vrzW+cjFZ0AjqDtYk7AJKk9LzUdg=",
+        "originContent": "  ...",
+        "translatedContent": "  ..."
+      },
+      {
+        "row": 37,
+        "rowsha": "z64NQkj3FC97F/gmzXpRkoDjEld2kOlXgw0j3PNaP/8=",
+        "originContent": "]",
+        "translatedContent": "]"
+      },
+      {
+        "row": 38,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```javascript\n> fetch('https://kanjiapi.dev/v1/reading/クウ').then(r => r.json()).then(console.log);\n[\n  {\n    \"variants\": [\n      {\n        \"written\": \"どら猫\",\n        \"pronounced\": \"どらねこ\",\n        \"priorities\": []\n      }\n    ],\n    \"meanings\": [\n      {\n        \"glosses\": [\n          \"stray cat\"\n        ]\n      }\n    ]\n  },\n  {\n    \"variants\": [\n      {\n        \"written\": \"アンゴラ猫\",\n        \"pronounced\": \"アンゴラねこ\",\n        \"priorities\": []\n      }\n    ],\n    \"meanings\": [\n      {\n        \"glosses\": [\n          \"Angora cat\"\n        ]\n      }\n    ]\n  },\n  ...\n]\n```",
+    "ContentSha": "Nl4CamWhDH+9gByjmX1JYjlEnuCpZOZdsMwWhIRXjKo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```javascript\n> fetch('https://kanjiapi.dev/v1/reading/クウ').then(r => r.json()).then(console.log);\n[\n  {\n    \"variants\": [\n      {\n        \"written\": \"どら猫\",\n        \"pronounced\": \"どらねこ\",\n        \"priorities\": []\n      }\n    ],\n    \"meanings\": [\n      {\n        \"glosses\": [\n          \"stray cat\"\n        ]\n      }\n    ]\n  },\n  {\n    \"variants\": [\n      {\n        \"written\": \"アンゴラ猫\",\n        \"pronounced\": \"アンゴラねこ\",\n        \"priorities\": []\n      }\n    ],\n    \"meanings\": [\n      {\n        \"glosses\": [\n          \"Angora cat\"\n        ]\n      }\n    ]\n  },\n  ...\n]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+        "originContent": "```javascript",
+        "translatedContent": "```javascript"
+      },
+      {
+        "row": 2,
+        "rowsha": "K3HTbqMoWxf4k+HNdJMfk5IiLyEXSeWSedeMpMKu4yY=",
+        "originContent": "> fetch('https://kanjiapi.dev/v1/reading/クウ').then(r => r.json()).then(console.log);",
+        "translatedContent": "> fetch('https://kanjiapi.dev/v1/reading/クウ').then(r => r.json()).then(console.log);"
+      },
+      {
+        "row": 3,
+        "rowsha": "JFhDq++ecufvrDATiplL9jAefh19cEKjPULoY9JjiBE=",
+        "originContent": "[",
+        "translatedContent": "["
+      },
+      {
+        "row": 4,
+        "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+        "originContent": "  {",
+        "translatedContent": "  {"
+      },
+      {
+        "row": 5,
+        "rowsha": "0sJYade+vVzvk8NNjC0oktQajb4k4UZavjxS9Va7p+M=",
+        "originContent": "    \"variants\": [",
+        "translatedContent": "    \"variants\": ["
+      },
+      {
+        "row": 6,
+        "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+        "originContent": "      {",
+        "translatedContent": "      {"
+      },
+      {
+        "row": 7,
+        "rowsha": "T1a+eCwJ9nL7FPl8Tu85veITG7zCBzOO33T6oTuIYTI=",
+        "originContent": "        \"written\": \"どら猫\",",
+        "translatedContent": "        \"written\": \"どら猫\","
+      },
+      {
+        "row": 8,
+        "rowsha": "tzIMutzfax5o336MKugcIHG8XOK+BXO62af9xilQa88=",
+        "originContent": "        \"pronounced\": \"どらねこ\",",
+        "translatedContent": "        \"pronounced\": \"どらねこ\","
+      },
+      {
+        "row": 9,
+        "rowsha": "06oBhfj626admGV7dl6FFKSmb4v7gfw+TfKnclmQrVk=",
+        "originContent": "        \"priorities\": []",
+        "translatedContent": "        \"priorities\": []"
+      },
+      {
+        "row": 10,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 11,
+        "rowsha": "/4y2mDluE/6gPlOuW99X51DJh7tetngAemmeBkzB+FY=",
+        "originContent": "    ],",
+        "translatedContent": "    ],"
+      },
+      {
+        "row": 12,
+        "rowsha": "LbD6tMwlbz8nIsBsCdGCUMPRu6Je/299rB8sf4wJt1k=",
+        "originContent": "    \"meanings\": [",
+        "translatedContent": "    \"meanings\": ["
+      },
+      {
+        "row": 13,
+        "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+        "originContent": "      {",
+        "translatedContent": "      {"
+      },
+      {
+        "row": 14,
+        "rowsha": "NYF8IOPFdMOtzBnd7rKsbw+wQLYyNB4l/VZQfODuCeU=",
+        "originContent": "        \"glosses\": [",
+        "translatedContent": "        \"glosses\": ["
+      },
+      {
+        "row": 15,
+        "rowsha": "H97bm4fNk6Zp04KMCt1WWIuuyDMOLKCeAZEYbX1AliM=",
+        "originContent": "          \"stray cat\"",
+        "translatedContent": "          \"stray cat\""
+      },
+      {
+        "row": 16,
+        "rowsha": "ygt4igTskIN0u4F3rZtYfYn6Gpy1l8PIjUuWrUd7hP0=",
+        "originContent": "        ]",
+        "translatedContent": "        ]"
+      },
+      {
+        "row": 17,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 18,
+        "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+        "originContent": "    ]",
+        "translatedContent": "    ]"
+      },
+      {
+        "row": 19,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 20,
+        "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+        "originContent": "  {",
+        "translatedContent": "  {"
+      },
+      {
+        "row": 21,
+        "rowsha": "0sJYade+vVzvk8NNjC0oktQajb4k4UZavjxS9Va7p+M=",
+        "originContent": "    \"variants\": [",
+        "translatedContent": "    \"variants\": ["
+      },
+      {
+        "row": 22,
+        "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+        "originContent": "      {",
+        "translatedContent": "      {"
+      },
+      {
+        "row": 23,
+        "rowsha": "bDJFSKGI7iD5qjNZ+R1JBFhPC7u6kZOaUq0vMvRkwcE=",
+        "originContent": "        \"written\": \"アンゴラ猫\",",
+        "translatedContent": "        \"written\": \"アンゴラ猫\","
+      },
+      {
+        "row": 24,
+        "rowsha": "US7MNYNuGY/30acD7kYUgzTO51XU/y/CVfhzyEeCknQ=",
+        "originContent": "        \"pronounced\": \"アンゴラねこ\",",
+        "translatedContent": "        \"pronounced\": \"アンゴラねこ\","
+      },
+      {
+        "row": 25,
+        "rowsha": "06oBhfj626admGV7dl6FFKSmb4v7gfw+TfKnclmQrVk=",
+        "originContent": "        \"priorities\": []",
+        "translatedContent": "        \"priorities\": []"
+      },
+      {
+        "row": 26,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 27,
+        "rowsha": "/4y2mDluE/6gPlOuW99X51DJh7tetngAemmeBkzB+FY=",
+        "originContent": "    ],",
+        "translatedContent": "    ],"
+      },
+      {
+        "row": 28,
+        "rowsha": "LbD6tMwlbz8nIsBsCdGCUMPRu6Je/299rB8sf4wJt1k=",
+        "originContent": "    \"meanings\": [",
+        "translatedContent": "    \"meanings\": ["
+      },
+      {
+        "row": 29,
+        "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+        "originContent": "      {",
+        "translatedContent": "      {"
+      },
+      {
+        "row": 30,
+        "rowsha": "NYF8IOPFdMOtzBnd7rKsbw+wQLYyNB4l/VZQfODuCeU=",
+        "originContent": "        \"glosses\": [",
+        "translatedContent": "        \"glosses\": ["
+      },
+      {
+        "row": 31,
+        "rowsha": "Yj4fUQOdvmerSaaHrkpwBN9RbImNVyCh8saqG4wMk7Q=",
+        "originContent": "          \"Angora cat\"",
+        "translatedContent": "          \"Angora cat\""
+      },
+      {
+        "row": 32,
+        "rowsha": "ygt4igTskIN0u4F3rZtYfYn6Gpy1l8PIjUuWrUd7hP0=",
+        "originContent": "        ]",
+        "translatedContent": "        ]"
+      },
+      {
+        "row": 33,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 34,
+        "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+        "originContent": "    ]",
+        "translatedContent": "    ]"
+      },
+      {
+        "row": 35,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 36,
+        "rowsha": "BJo/S9HKlcIDfq/vrzW+cjFZ0AjqDtYk7AJKk9LzUdg=",
+        "originContent": "  ...",
+        "translatedContent": "  ..."
+      },
+      {
+        "row": 37,
+        "rowsha": "z64NQkj3FC97F/gmzXpRkoDjEld2kOlXgw0j3PNaP/8=",
+        "originContent": "]",
+        "translatedContent": "]"
+      },
+      {
+        "row": 38,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n## Development:\n\n### Requirements:\n\nAssumes `python 3`, `make` and `node` are available.\n\n### Setup:\n\nInstall python libraries using requirements.txt\n\nInstall node dependencies using `yarn` or `npm install`.\n\nSave and extract the kanji dictionary file `kanjidic2.xml` from [EDRDG](http://www.edrdg.org/wiki/index.php/KANJIDIC_Project) to the root of the project.\n\nSave and extract the jmdict dictionary file `JMdict` from [EDRDG](http://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project) to the root of the project.\n\nSave and extract the file Unihan_OtherMappings.txt from Unihan.zip from [Unicode](https://www.unicode.org/versions/components-15.0.0.html) to the root of the project.\n\nSave and extract the file Unihan_IRGSources.txt from Unihan.zip from [Unicode](https://www.unicode.org/versions/components-15.0.0.html) to the root of the project.\n\nEnsure system has `System/Library/Fonts/ヒラギノ丸ゴ\\ ProN\\ W4.ttc` font\navailable (for favicon generation).\n\n### Building:\n\nRun `make` to build the site and API endpoints as static assets.\n\nRun `python -m pytest tests` to run the tests.\n\nNote: in order to fetch data from the local build of the API from the local\nbuild of the site, you can set the root of your fileserver to out/site (e.g.\nwith `serveit`: `serveit -s out/site make`). There is a symlink to `out/v1`\ninside `out/site` to enable this.\n\nNote: endpoint files for characters in the Unicode CJK Compatibility block are\nwritten out to a separate directory as some filesystems normalise them with the\nnon-compatibility equivalents. This means that a few of the\n`/kanji/{character}` and `/words/{character}` endpoints don't show up under the\nnormal path in the API during local development.",
+    "ContentSha": "3X3IXPIEXedA6W2k+mg3J6zHRj7+ftKa3vkDu7Sk8iY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Desarrollo:\n\n### Requisitos:\n\nSe asume que `python 3`, `make` y `node` están disponibles.\n\n### Configuración:\n\nInstalar las librerías de python usando requirements.txt\n\nInstalar las dependencias de node usando `yarn` o `npm install`.\n\nGuardar y extraer el archivo del diccionario kanji `kanjidic2.xml` desde [EDRDG](http://www.edrdg.org/wiki/index.php/KANJIDIC_Project) en la raíz del proyecto.\n\nGuardar y extraer el archivo del diccionario jmdict `JMdict` desde [EDRDG](http://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project) en la raíz del proyecto.\n\nGuardar y extraer el archivo Unihan_OtherMappings.txt desde Unihan.zip de [Unicode](https://www.unicode.org/versions/components-15.0.0.html) en la raíz del proyecto.\n\nGuardar y extraer el archivo Unihan_IRGSources.txt desde Unihan.zip de [Unicode](https://www.unicode.org/versions/components-15.0.0.html) en la raíz del proyecto.\n\nAsegurarse de que el sistema tenga la fuente `System/Library/Fonts/ヒラギノ丸ゴ\\ ProN\\ W4.ttc`\ndisponible (para la generación del favicon).\n\n### Construcción:\n\nEjecutar `make` para construir el sitio y los endpoints API como activos estáticos.\n\nEjecutar `python -m pytest tests` para correr las pruebas.\n\nNota: para obtener datos de la construcción local de la API desde la construcción local del sitio, puedes configurar la raíz de tu servidor de archivos a out/site (por ejemplo con `serveit`: `serveit -s out/site make`). Hay un enlace simbólico a `out/v1` dentro de `out/site` para habilitar esto.\n\nNota: los archivos de endpoints para caracteres en el bloque de Compatibilidad CJK de Unicode\nse escriben en un directorio separado ya que algunos sistemas de archivos los normalizan con los equivalentes no compatibles. Esto significa que algunos endpoints\n`/kanji/{character}` y `/words/{character}` no aparecen bajo la ruta normal en la API durante el desarrollo local.\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "q6EXup9CYnoSJvdL1MM/xyqFZym0/humrYjvJAhw6s8=",
+        "originContent": "## Development:",
+        "translatedContent": "## Desarrollo:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "KlTbL7hRFpwTMO65vrR2ZNFX01ditZPZdmJVxRKW/a0=",
+        "originContent": "### Requirements:",
+        "translatedContent": "### Requisitos:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "PNAH+8bC1boCOKct1U/gvyw1a/D/K/GkArRrvsLUgRo=",
+        "originContent": "Assumes `python 3`, `make` and `node` are available.",
+        "translatedContent": "Se asume que `python 3`, `make` y `node` están disponibles."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "RZKDBTYBR3E7GO8HNz4Bqa+O3ZmrLMJjBhGWqoHV4ag=",
+        "originContent": "### Setup:",
+        "translatedContent": "### Configuración:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "P4cGQ7iWNCbaorPoTy0Bne45PbCz6//3Es0/F8hL7LI=",
+        "originContent": "Install python libraries using requirements.txt",
+        "translatedContent": "Instalar las librerías de python usando requirements.txt"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "1tkcDDdlnilzU+2YccV8udXcdBP/OgREwqHw9/nsWj4=",
+        "originContent": "Install node dependencies using `yarn` or `npm install`.",
+        "translatedContent": "Instalar las dependencias de node usando `yarn` o `npm install`."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "rDTdGwL+PHxrJZVZ24kXi/I/aHJJIkwVFtqfizRhXr0=",
+        "originContent": "Save and extract the kanji dictionary file `kanjidic2.xml` from [EDRDG](http://www.edrdg.org/wiki/index.php/KANJIDIC_Project) to the root of the project.",
+        "translatedContent": "Guardar y extraer el archivo del diccionario kanji `kanjidic2.xml` desde [EDRDG](http://www.edrdg.org/wiki/index.php/KANJIDIC_Project) en la raíz del proyecto."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Ckd1PcqsbdlJL6g85vsgDXh7xN14SYX0VV5zkR5kdlE=",
+        "originContent": "Save and extract the jmdict dictionary file `JMdict` from [EDRDG](http://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project) to the root of the project.",
+        "translatedContent": "Guardar y extraer el archivo del diccionario jmdict `JMdict` desde [EDRDG](http://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project) en la raíz del proyecto."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "iHx/vs69eUVJuF/EWV+IpMWCVdVpi6fAqco/hvxSv7E=",
+        "originContent": "Save and extract the file Unihan_OtherMappings.txt from Unihan.zip from [Unicode](https://www.unicode.org/versions/components-15.0.0.html) to the root of the project.",
+        "translatedContent": "Guardar y extraer el archivo Unihan_OtherMappings.txt desde Unihan.zip de [Unicode](https://www.unicode.org/versions/components-15.0.0.html) en la raíz del proyecto."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Gtv2C97D2wOez1nfV8DpEhnMeLRwcIvPFXRsaSLckbo=",
+        "originContent": "Save and extract the file Unihan_IRGSources.txt from Unihan.zip from [Unicode](https://www.unicode.org/versions/components-15.0.0.html) to the root of the project.",
+        "translatedContent": "Guardar y extraer el archivo Unihan_IRGSources.txt desde Unihan.zip de [Unicode](https://www.unicode.org/versions/components-15.0.0.html) en la raíz del proyecto."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "EPSdkFiYJp02yeW50NJfwUIvwKjFOOVUjpLANLhItwE=",
+        "originContent": "Ensure system has `System/Library/Fonts/ヒラギノ丸ゴ\\ ProN\\ W4.ttc` font",
+        "translatedContent": "Asegurarse de que el sistema tenga la fuente `System/Library/Fonts/ヒラギノ丸ゴ\\ ProN\\ W4.ttc`"
+      },
+      {
+        "row": 23,
+        "rowsha": "xh2hxxZTMw6Jh5Em8im6y1SqeSEIiVdGXmcW+A2eptw=",
+        "originContent": "available (for favicon generation).",
+        "translatedContent": "disponible (para la generación del favicon)."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "w1ZMJY3n1zHgXbBe6d+hm8rgpMx/Vo5nvnTeVNLHvPI=",
+        "originContent": "### Building:",
+        "translatedContent": "### Construcción:"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "++AGfchXOpicOn8j8iRtpPaWu1bADK+fwMHrU2CbfMk=",
+        "originContent": "Run `make` to build the site and API endpoints as static assets.",
+        "translatedContent": "Ejecutar `make` para construir el sitio y los endpoints API como activos estáticos."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "p84PdOWdhDoBCVlOo0ADKEVXoK7ZxU2LbyLpfUC6Kjg=",
+        "originContent": "Run `python -m pytest tests` to run the tests.",
+        "translatedContent": "Ejecutar `python -m pytest tests` para correr las pruebas."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "tQZbdV/dFQ32Xm/nRnjeb1crRJynOWmvuoKq/vY2I8s=",
+        "originContent": "Note: in order to fetch data from the local build of the API from the local",
+        "translatedContent": "Nota: para obtener datos de la construcción local de la API desde la construcción local del sitio, puedes configurar la raíz de tu servidor de archivos a out/site (por ejemplo con `serveit`: `serveit -s out/site make`). Hay un enlace simbólico a `out/v1` dentro de `out/site` para habilitar esto."
+      },
+      {
+        "row": 32,
+        "rowsha": "41V56p2O4KWXn+V9y3hgwqQXv7dPaDwfvQ73sCbPwt4=",
+        "originContent": "build of the site, you can set the root of your fileserver to out/site (e.g.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "LaPOBb9MaOJ6CM6p4A5cWshOyQVBf4OqEwv3l08VVp4=",
+        "originContent": "with `serveit`: `serveit -s out/site make`). There is a symlink to `out/v1`",
+        "translatedContent": "Nota: los archivos de endpoints para caracteres en el bloque de Compatibilidad CJK de Unicode"
+      },
+      {
+        "row": 34,
+        "rowsha": "qug2vF2EuRjoLYU9Jx3B5khYKi2hZkuziT8SKyGQUbs=",
+        "originContent": "inside `out/site` to enable this.",
+        "translatedContent": "se escriben en un directorio separado ya que algunos sistemas de archivos los normalizan con los equivalentes no compatibles. Esto significa que algunos endpoints"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`/kanji/{character}` y `/words/{character}` no aparecen bajo la ruta normal en la API durante el desarrollo local."
+      },
+      {
+        "row": 36,
+        "rowsha": "1kELjpP7pJeHmQsRCgb654t/GBz/Q9N3TUnyVQV2YH4=",
+        "originContent": "Note: endpoint files for characters in the Unicode CJK Compatibility block are",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "GXZwhIRrDI4Aztb9zcVK0eItfEUdTuLWOqDzukpH3A4=",
+        "originContent": "written out to a separate directory as some filesystems normalise them with the",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "v2yZ2PhlLbmnbeSRzotQrlr/HrbvLaYNz1kI8cFjTlw=",
+        "originContent": "non-compatibility equivalents. This means that a few of the",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "XrCBfC9OaEXqjlXp/m/UIDi7jz8SCclVCQffVEfvHw0=",
+        "originContent": "`/kanji/{character}` and `/words/{character}` endpoints don't show up under the",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "4Q/BAl5coIdpUQhFyFjrCjgb6A+FFGDrw4GdP7uE4bA=",
+        "originContent": "normal path in the API during local development.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "\n### Deployment (Requires google cloud account credentials):\n\n#### Versioning\n\nThe API version for deployment is hardcoded in `api_data.py` and the `makefile`.\n\n\n#### Uploading to bucket\n\nAfter building, to sync the built assets to the website bucket run:\n\nNB: it's a good idea to run all of these commands with `rsync -n` for a dry-run first\n\nTo sync the built site dir (`out/site`) up with the root of the bucket, but non-recursively:\n`gsutil -m rsync -c -d -x \".*\\.map$\" out/site gs://kanjiapi.dev`\n\nTo sync the built api dir folders (`out/{version}`) up with the dir `/{version}` in the bucket recursively based on file hashes:\n`gsutil -m -h \"Content-Type:application/json\" rsync -r -c -d out/v1/kanji gs://kanjiapi.dev/v1/kanji/`\n`gsutil -m -h \"Content-Type:application/json\" rsync -r -c out/v1/kanji_cjk gs://kanjiapi.dev/v1/kanji/`\n`gsutil -m -h \"Content-Type:application/json\" rsync -r -c -d out/v1/words gs://kanjiapi.dev/v1/words/`\n`gsutil -m -h \"Content-Type:application/json\" rsync -r -c out/v1/words_cjk gs://kanjiapi.dev/v1/words/`\n`gsutil -m -h \"Content-Type:application/json\" rsync -r -c -d out/v1/reading gs://kanjiapi.dev/v1/reading/`\n\n#### Setting CORS policy:\n\nThe CORS policy is stored in `cors.json`, it can be updated by editing this file and running `gsutil cors set cors.json gs://kanjiapi.dev`\n\n### Logging:\n\nLogfiles are generated by the cloud storage bucket for the API, there is a\ncloud function which is triggered whenever a usage logfile is written. The\ncloud function reads the logfiles to aggregate some useful information which is\ndisplayed on the [logs page](https://kanjiapi.dev/#!/logs)\n\nThe cloud function is found in the `popularity-contest` directory.\n\nTo deploy it, run `gcloud functions deploy popularity-contest --gen2\n--region=us-west1 --runtime=python310 --source popularity-contest --entry-point\nhandle --trigger-bucket=kanjiapi-dev-logging --trigger-location=us` from the",
+    "ContentSha": "X5+w2fOXef+cvpTadmtMKexsKnuCT1vty4tfTMzFhWY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Despliegue (Requiere credenciales de cuenta de Google Cloud):\n\n#### Versionado\n\nLa versión de la API para el despliegue está codificada en `api_data.py` y en el `makefile`.\n\n\n#### Subida al bucket\n\nDespués de construir, para sincronizar los recursos construidos con el bucket del sitio web, ejecute:\n\nNB: es una buena idea ejecutar todos estos comandos con `rsync -n` para una prueba en seco primero\n\nPara sincronizar el directorio del sitio construido (`out/site`) con la raíz del bucket, pero no recursivamente:\n`gsutil -m rsync -c -d -x \".*\\.map$\" out/site gs://kanjiapi.dev`\n\nPara sincronizar las carpetas del directorio de la API construida (`out/{version}`) con el directorio `/{version}` en el bucket recursivamente basándose en los hashes de los archivos:\n`gsutil -m -h \"Content-Type:application/json\" rsync -r -c -d out/v1/kanji gs://kanjiapi.dev/v1/kanji/`\n`gsutil -m -h \"Content-Type:application/json\" rsync -r -c out/v1/kanji_cjk gs://kanjiapi.dev/v1/kanji/`\n`gsutil -m -h \"Content-Type:application/json\" rsync -r -c -d out/v1/words gs://kanjiapi.dev/v1/words/`\n`gsutil -m -h \"Content-Type:application/json\" rsync -r -c out/v1/words_cjk gs://kanjiapi.dev/v1/words/`\n`gsutil -m -h \"Content-Type:application/json\" rsync -r -c -d out/v1/reading gs://kanjiapi.dev/v1/reading/`\n\n#### Configuración de la política CORS:\n\nLa política CORS se almacena en `cors.json`, puede actualizarse editando este archivo y ejecutando `gsutil cors set cors.json gs://kanjiapi.dev`\n\n### Registro:\n\nLos archivos de registro son generados por el bucket de almacenamiento en la nube para la API, hay una\nfunción en la nube que se activa cada vez que se escribe un archivo de registro de uso. La\nfunción en la nube lee los archivos de registro para agregar información útil que se\nmuestra en la [página de registros](https://kanjiapi.dev/#!/logs)\n\nLa función en la nube se encuentra en el directorio `popularity-contest`.\n\nPara desplegarla, ejecute `gcloud functions deploy popularity-contest --gen2\n--region=us-west1 --runtime=python310 --source popularity-contest --entry-point\nhandle --trigger-bucket=kanjiapi-dev-logging --trigger-location=us` desde la",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ASm/W7myQqjVXEDvtM2CXVV1A8vh9SNHy0jWbw+CdXE=",
+        "originContent": "### Deployment (Requires google cloud account credentials):",
+        "translatedContent": "### Despliegue (Requiere credenciales de cuenta de Google Cloud):"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ERmUrRKWLgm/wllSTalP7l7bGZkx3RfCUBQb3mF7OQM=",
+        "originContent": "#### Versioning",
+        "translatedContent": "#### Versionado"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "NXd84BfGFBYGB7DpS6uEQH8tg7JzC3LxRCd/7QUA4vs=",
+        "originContent": "The API version for deployment is hardcoded in `api_data.py` and the `makefile`.",
+        "translatedContent": "La versión de la API para el despliegue está codificada en `api_data.py` y en el `makefile`."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "XFYzBx7JfD7EV52ZMgGzGg8wUMFZzP/gV4h27MF0UuE=",
+        "originContent": "#### Uploading to bucket",
+        "translatedContent": "#### Subida al bucket"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "P4bgocpIJ+43LUT3p2Xfhrt9k7eZIhvMvt3sJn12vco=",
+        "originContent": "After building, to sync the built assets to the website bucket run:",
+        "translatedContent": "Después de construir, para sincronizar los recursos construidos con el bucket del sitio web, ejecute:"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "z2Gpgb6XvfPYeBGS7QgpExZkQRWJeeaB1mEFhBDpLfw=",
+        "originContent": "NB: it's a good idea to run all of these commands with `rsync -n` for a dry-run first",
+        "translatedContent": "NB: es una buena idea ejecutar todos estos comandos con `rsync -n` para una prueba en seco primero"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "xDxsuZfE/BNo2A1iyl3nBZvy9/f+r9kYYmR3+vVavnU=",
+        "originContent": "To sync the built site dir (`out/site`) up with the root of the bucket, but non-recursively:",
+        "translatedContent": "Para sincronizar el directorio del sitio construido (`out/site`) con la raíz del bucket, pero no recursivamente:"
+      },
+      {
+        "row": 16,
+        "rowsha": "4lv+0jy3o0xGjA1tdSBo/Ro6jjhfsdmy7S5sYpRRKWE=",
+        "originContent": "`gsutil -m rsync -c -d -x \".*\\.map$\" out/site gs://kanjiapi.dev`",
+        "translatedContent": "`gsutil -m rsync -c -d -x \".*\\.map$\" out/site gs://kanjiapi.dev`"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "5lLkQ6UoAvxzyiBLEN+YvmEw6J2XHaBJSNuyQm6J/hg=",
+        "originContent": "To sync the built api dir folders (`out/{version}`) up with the dir `/{version}` in the bucket recursively based on file hashes:",
+        "translatedContent": "Para sincronizar las carpetas del directorio de la API construida (`out/{version}`) con el directorio `/{version}` en el bucket recursivamente basándose en los hashes de los archivos:"
+      },
+      {
+        "row": 19,
+        "rowsha": "x4JlMuOsNKLlax27HZHHZJpMFZAqZy6xwBKWb0d7fII=",
+        "originContent": "`gsutil -m -h \"Content-Type:application/json\" rsync -r -c -d out/v1/kanji gs://kanjiapi.dev/v1/kanji/`",
+        "translatedContent": "`gsutil -m -h \"Content-Type:application/json\" rsync -r -c -d out/v1/kanji gs://kanjiapi.dev/v1/kanji/`"
+      },
+      {
+        "row": 20,
+        "rowsha": "2jDEwIV/CCHfiGBfzeM8iLMBAypJy3XTLzXcdVOxJtg=",
+        "originContent": "`gsutil -m -h \"Content-Type:application/json\" rsync -r -c out/v1/kanji_cjk gs://kanjiapi.dev/v1/kanji/`",
+        "translatedContent": "`gsutil -m -h \"Content-Type:application/json\" rsync -r -c out/v1/kanji_cjk gs://kanjiapi.dev/v1/kanji/`"
+      },
+      {
+        "row": 21,
+        "rowsha": "RBegKSdVPY1geutL0/ZnUcZuiDxSazglvq/xIiB7kZ4=",
+        "originContent": "`gsutil -m -h \"Content-Type:application/json\" rsync -r -c -d out/v1/words gs://kanjiapi.dev/v1/words/`",
+        "translatedContent": "`gsutil -m -h \"Content-Type:application/json\" rsync -r -c -d out/v1/words gs://kanjiapi.dev/v1/words/`"
+      },
+      {
+        "row": 22,
+        "rowsha": "PErzxBGAAnANdKkR4JSArloV9TA/qGCQreJwMpfiBwM=",
+        "originContent": "`gsutil -m -h \"Content-Type:application/json\" rsync -r -c out/v1/words_cjk gs://kanjiapi.dev/v1/words/`",
+        "translatedContent": "`gsutil -m -h \"Content-Type:application/json\" rsync -r -c out/v1/words_cjk gs://kanjiapi.dev/v1/words/`"
+      },
+      {
+        "row": 23,
+        "rowsha": "qsgR+vylCvjkPgCSUCgh3V1veTlP5kZ0hYkahnib8MM=",
+        "originContent": "`gsutil -m -h \"Content-Type:application/json\" rsync -r -c -d out/v1/reading gs://kanjiapi.dev/v1/reading/`",
+        "translatedContent": "`gsutil -m -h \"Content-Type:application/json\" rsync -r -c -d out/v1/reading gs://kanjiapi.dev/v1/reading/`"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "L1ayNoG/bSzMObUnf8RqMx9QXEs4mQU5kVYydg6bkHg=",
+        "originContent": "#### Setting CORS policy:",
+        "translatedContent": "#### Configuración de la política CORS:"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "dRfg3avwn2m6pGqLZnGzxAiiqHoKBuLLOdrDAKG0NtA=",
+        "originContent": "The CORS policy is stored in `cors.json`, it can be updated by editing this file and running `gsutil cors set cors.json gs://kanjiapi.dev`",
+        "translatedContent": "La política CORS se almacena en `cors.json`, puede actualizarse editando este archivo y ejecutando `gsutil cors set cors.json gs://kanjiapi.dev`"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "2JMZEgLScyVXns3wHYDCUii82TcBcaJnXp4dFTpbgN4=",
+        "originContent": "### Logging:",
+        "translatedContent": "### Registro:"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "f7qa0XXl1Wr+0AZfLr0Vi8f1Qc665cIEC5Vkm21dwZ0=",
+        "originContent": "Logfiles are generated by the cloud storage bucket for the API, there is a",
+        "translatedContent": "Los archivos de registro son generados por el bucket de almacenamiento en la nube para la API, hay una"
+      },
+      {
+        "row": 32,
+        "rowsha": "C8U3Z8eVFdsf2MCDFp0ZJDgSpWBSDeZM4dPU9Rrpr0A=",
+        "originContent": "cloud function which is triggered whenever a usage logfile is written. The",
+        "translatedContent": "función en la nube que se activa cada vez que se escribe un archivo de registro de uso. La"
+      },
+      {
+        "row": 33,
+        "rowsha": "rUVSk+KDcbg0kPrZZ1MDgxkd3EnBVBJNUgzpzIu1m7o=",
+        "originContent": "cloud function reads the logfiles to aggregate some useful information which is",
+        "translatedContent": "función en la nube lee los archivos de registro para agregar información útil que se"
+      },
+      {
+        "row": 34,
+        "rowsha": "bxpdKN7ghGskyoQmzRFrvFW7fszWFKo9dGZq7WPEFrI=",
+        "originContent": "displayed on the [logs page](https://kanjiapi.dev/#!/logs)",
+        "translatedContent": "muestra en la [página de registros](https://kanjiapi.dev/#!/logs)"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "7uBWjuBNWdMAGnqnpc0s9lasWBGPMy4wWkx9ff5tIeI=",
+        "originContent": "The cloud function is found in the `popularity-contest` directory.",
+        "translatedContent": "La función en la nube se encuentra en el directorio `popularity-contest`."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "p8pmRt2iC2/dEDJqPWy3wVcnRLlrSvzkOeEZZ/f8ipg=",
+        "originContent": "To deploy it, run `gcloud functions deploy popularity-contest --gen2",
+        "translatedContent": "Para desplegarla, ejecute `gcloud functions deploy popularity-contest --gen2"
+      },
+      {
+        "row": 39,
+        "rowsha": "eI1TiK02hXJCnhihan9+sLfeqFLaSgoiUP6lu+mFV5k=",
+        "originContent": "--region=us-west1 --runtime=python310 --source popularity-contest --entry-point",
+        "translatedContent": "--region=us-west1 --runtime=python310 --source popularity-contest --entry-point"
+      },
+      {
+        "row": 40,
+        "rowsha": "k1/oPQqeW4IhXXiIT60Kyu0nGMknH8oB2FjZlclk8wg=",
+        "originContent": "handle --trigger-bucket=kanjiapi-dev-logging --trigger-location=us` from the",
+        "translatedContent": "handle --trigger-bucket=kanjiapi-dev-logging --trigger-location=us` desde la"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "root of the project. (needs credentials)\n\nTo run the cloud function locally, cd into the `popularity-contest` directory,\ncreate and/or activate a virtual environment based on the `requirements.txt`\nfile in that subdirectory, then run `python main.py`. This is useful to\nmanually (re)process some log files without deploying or triggering the cloud\nfunction. (needs credentials)\n",
+    "ContentSha": "txucBGiZFuM9+1y+7F4YjijxQdX1R/eglQcH47Wpc9Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "raíz del proyecto. (se necesitan credenciales)\n\nPara ejecutar la función en la nube localmente, ingrese al directorio `popularity-contest`,\ncree y/o active un entorno virtual basado en el archivo `requirements.txt`\nen ese subdirectorio, luego ejecute `python main.py`. Esto es útil para\nprocesar manualmente (re) algunos archivos de registro sin desplegar o activar la función en la nube.\n(se necesitan credenciales)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "05s2eOWcID+ixdw3zqjfrw9C4O5O9FJFd8iFAKbLuOU=",
+        "originContent": "root of the project. (needs credentials)",
+        "translatedContent": "raíz del proyecto. (se necesitan credenciales)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "SHo6jjGnmfy1fWqA4/ODF0QhbCbDT9N4XWZC+0QJ/RU=",
+        "originContent": "To run the cloud function locally, cd into the `popularity-contest` directory,",
+        "translatedContent": "Para ejecutar la función en la nube localmente, ingrese al directorio `popularity-contest`,"
+      },
+      {
+        "row": 4,
+        "rowsha": "RhXrm0hZcGGPGRoJU77f5aPJfwIyZ6sY/oL0qpt2IAg=",
+        "originContent": "create and/or activate a virtual environment based on the `requirements.txt`",
+        "translatedContent": "cree y/o active un entorno virtual basado en el archivo `requirements.txt`"
+      },
+      {
+        "row": 5,
+        "rowsha": "qNsrOmDrAeV1vEDkotAIglfoRrHBFzeDzoNA978ZTqc=",
+        "originContent": "file in that subdirectory, then run `python main.py`. This is useful to",
+        "translatedContent": "en ese subdirectorio, luego ejecute `python main.py`. Esto es útil para"
+      },
+      {
+        "row": 6,
+        "rowsha": "E6Rke1uj/Q20tdQRYQq+tfvCszcX76Ufuucmb6QjyUk=",
+        "originContent": "manually (re)process some log files without deploying or triggering the cloud",
+        "translatedContent": "procesar manualmente (re) algunos archivos de registro sin desplegar o activar la función en la nube."
+      },
+      {
+        "row": 7,
+        "rowsha": "CCv2QMpiMR3q3LbSiA+BvVp25bCMWOg2e/NVueeo6gw=",
+        "originContent": "function. (needs credentials)",
+        "translatedContent": "(se necesitan credenciales)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

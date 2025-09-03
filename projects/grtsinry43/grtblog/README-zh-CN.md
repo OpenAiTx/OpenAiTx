@@ -1,30 +1,62 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # grtblog
 
-[![GitHub license](https://img.shields.io/github/license/grtsinry43/grtblog)](http://www.apache.org/licenses/LICENSE-2.0.html)
-[![GitHub release](https://img.shields.io/github/v/release/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/releases)
-[![Last commit](https://img.shields.io/github/last-commit/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/commits/main)
-[![GitHub issues](https://img.shields.io/github/issues/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/pulls)
-[![Languages](https://img.shields.io/github/languages/top/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog)
-[![Author](https://img.shields.io/badge/author-grtsinry43-blue)](https://github.com/grtsinry43)
-[![Development Status](https://img.shields.io/badge/status-in%20development-yellow)](https://github.com/grtsinry43/grtblog)
+[![GitHub 许可证](https://img.shields.io/github/license/grtsinry43/grtblog)](http://www.apache.org/licenses/LICENSE-2.0.html)
+[![GitHub 发布版](https://img.shields.io/github/v/release/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/releases)
+[![最后提交](https://img.shields.io/github/last-commit/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/commits/main)
+[![GitHub 问题](https://img.shields.io/github/issues/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/issues)
+[![GitHub 拉取请求](https://img.shields.io/github/issues-pr/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/pulls)
+[![语言](https://img.shields.io/github/languages/top/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog)
+[![作者](https://img.shields.io/badge/author-grtsinry43-blue)](https://github.com/grtsinry43)
+[![开发状态](https://img.shields.io/badge/status-in%20development-yellow)](https://github.com/grtsinry43/grtblog)
 
-🚧🚧🚧 **该项目正在开发中。/ 施工中，请稍候再来看** 🚧🚧🚧
+🚧🚧🚧 **本项目正在开发中。/ 施工中，请稍候再来看** 🚧🚧🚧
 
 ⏳⏳⏳ **当前进度：**
 
-- [x] 基于 Markdown 的文章渲染 / Article rendering based on Markdown
-- [x] 文章 / 标签 / 分类管理 / Article/Tag/Category management
-- [x] 部分重载 / Partial reload
-- [x] 内置页面样式 / Built-in page styles
-- [x] 评论系统 / Comment system
-- [ ] 多主题支持 / Multi-theme support
-- [x] 搜索功能 / Search functionality
-- [ ] 管理员仪表盘 / Admin dashboard
-- [ ] 自定义选项 / Customization options
-- [ ] 主题切换 / Theme switching
+- [x] 基于 Markdown 的文章渲染
+- [x] 文章 / 标签 / 分类管理
+- [x] 部分重载
+- [x] 内置页面样式
+- [x] 评论系统
+- [ ] 多主题支持
+- [x] 搜索功能
+- [ ] 管理员仪表盘
+- [ ] 自定义选项
+- [ ] 主题切换
 
-## 概述 / Overview
+## 概述
 
 grtblog 是一个基于 React.js 和 Spring Boot 的综合博客系统（内容管理系统）。它具有前后端分离的架构，支持服务端和静态生成混合模式，提供丰富的自定义选项，支持部分重载和主题切换。
 
@@ -32,16 +64,16 @@ grtblog is a comprehensive blog system (content management system) based on Reac
 decoupled front-end and back-end, supports hybrid server-side and static generation modes, offers rich customization
 options, partial reload support, and theme switching.
 
-## 特性 / Features
+## 特性
 
-- **前后端分离架构 / Decoupled Architecture**: 前后端分离，提升可扩展性和可维护性。 Front-end and back-end separation for better scalability and
+- **前后端分离架构**: 前后端分离，提升可扩展性和可维护性。Front-end and back-end separation for better scalability and
   maintainability.
-- **混合生成 / Hybrid Generation**: 支持服务端和静态生成。 Supports both server-side and static generation.
-- **自定义 / Customization**: 提供丰富的主题和组件自定义选项。 Rich customization options for themes and components.
-- **Partial Reload / 部分重载**: Efficient partial reload support. 高效的部分重载支持。
-- **Theme Switching / 主题切换**: Easy theme switching for a personalized experience. 简单的主题切换，提供个性化体验。
+- **混合生成**: 支持服务端和静态生成。Supports both server-side and static generation.
+- **自定义**: 提供丰富的主题和组件自定义选项。Rich customization options for themes and components.
+- **部分重载**: 高效的部分重载支持。Efficient partial reload support.
+- **主题切换**: 简单的主题切换，提供个性化体验。Easy theme switching for a personalized experience.
 
-## Screenshots / 截图
+## 截图
 
 ![image](https://github.com/user-attachments/assets/40cac1c2-767a-4e0e-b72c-664384e93dfd)
 ![image](https://github.com/user-attachments/assets/0f8819c4-5be2-47bf-b526-2db097141bd9)
@@ -49,19 +81,19 @@ options, partial reload support, and theme switching.
 ![image](https://github.com/user-attachments/assets/72116ff9-eb07-4e0c-921a-c3db32cbd59c)
 ![image](https://github.com/user-attachments/assets/6e790aab-94f4-4ada-8fc7-fc1bef0af5c8)
 
+## 快速开始
 
-## Getting Started / 快速开始
-
-### Prerequisites / 前提条件
+### 前提条件
 
 - Node.js
 - npm
 - Java
 - Maven
 
-### Installation / 安装
+### 安装
 
-1. Clone the repository / 克隆仓库:
+1. 克隆仓库：
+
     ```bash
     git clone https://github.com/grtsinry43/grtblog.git
     cd grtblog
@@ -120,6 +152,6 @@ For any inquiries, please contact [grtsinry43](https://github.com/grtsinry43).
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-03
 
 ---

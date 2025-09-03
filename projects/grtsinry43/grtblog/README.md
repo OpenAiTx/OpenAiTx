@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # grtblog
 
 [![GitHub license](https://img.shields.io/github/license/grtsinry43/grtblog)](http://www.apache.org/licenses/LICENSE-2.0.html)

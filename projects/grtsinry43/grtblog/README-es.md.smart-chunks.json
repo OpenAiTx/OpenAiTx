@@ -1,199 +1,199 @@
 [
   {
     "Id": 1,
-    "Content": "# grtblog\n\n[![GitHub license](https://img.shields.io/github/license/grtsinry43/grtblog)](http://www.apache.org/licenses/LICENSE-2.0.html)\n[![GitHub release](https://img.shields.io/github/v/release/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/releases)\n[![Last commit](https://img.shields.io/github/last-commit/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/commits/main)\n[![GitHub issues](https://img.shields.io/github/issues/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/issues)\n[![GitHub pull requests](https://img.shields.io/github/issues-pr/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/pulls)\n[![Languages](https://img.shields.io/github/languages/top/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog)\n[![Author](https://img.shields.io/badge/author-grtsinry43-blue)](https://github.com/grtsinry43)\n[![Development Status](https://img.shields.io/badge/status-in%20development-yellow)](https://github.com/grtsinry43/grtblog)\n\n🚧🚧🚧 **This project is currently under development. / 施工中，请稍候再来看** 🚧🚧🚧\n\n⏳⏳⏳ **Current progress: / 当前进度：**\n\n- [x] Article rendering based on Markdown / 基于 Markdown 的文章渲染\n- [x] Article/Tag/Category management / 文章 / 标签 / 分类管理\n- [x] Partial reload / 部分重载\n- [x] Built-in page styles / 内置页面样式\n- [x] Comment system / 评论系统\n- [ ] Multi-theme support / 多主题支持\n- [x] Search functionality / 搜索功能\n- [ ] Admin dashboard / 管理员仪表盘\n- [ ] Customization options / 自定义选项\n- [ ] Theme switching / 主题切换\n\n## Overview / 概述\n\ngrtblog is a comprehensive blog system (content management system) based on React.js and Spring Boot. It features a\ndecoupled front-end and back-end, supports hybrid server-side and static generation modes, offers rich customization\noptions, partial reload support, and theme switching.\n\ngrtblog 是一个基于 React.js 和 Spring Boot 的综合博客系统（内容管理系统）。它具有前后端分离的架构，支持服务端和静态生成混合模式，提供丰富的自定义选项，支持部分重载和主题切换。\n\n## Features / 特性\n\n- **Decoupled Architecture / 前后端分离架构**: Front-end and back-end separation for better scalability and\n  maintainability. 前后端分离，提升可扩展性和可维护性。\n- **Hybrid Generation / 混合生成**: Supports both server-side and static generation. 支持服务端和静态生成。\n- **Customization / 自定义**: Rich customization options for themes and components. 提供丰富的主题和组件自定义选项。",
-    "ContentSha": "NcCgmNgHjT+7bTFPydqALNyaB2Iw8ywOCCJjfbNIUb0=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# grtblog\n\n[![GitHub license](https://img.shields.io/github/license/grtsinry43/grtblog)](http://www.apache.org/licenses/LICENSE-2.0.html)\n[![GitHub release](https://img.shields.io/github/v/release/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/releases)\n[![Last commit](https://img.shields.io/github/last-commit/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/commits/main)\n[![GitHub issues](https://img.shields.io/github/issues/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/issues)\n[![GitHub pull requests](https://img.shields.io/github/issues-pr/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/pulls)\n[![Languages](https://img.shields.io/github/languages/top/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog)",
+    "ContentSha": "UKHIUoYBj0nakRyTnXKETa8sOca0tQ9G8h4EpTb6duo=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# grtblog\n\n[![GitHub license](https://img.shields.io/github/license/grtsinry43/grtblog)](http://www.apache.org/licenses/LICENSE-2.0.html)\n[![GitHub release](https://img.shields.io/github/v/release/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/releases)\n[![Last commit](https://img.shields.io/github/last-commit/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/commits/main)\n[![GitHub issues](https://img.shields.io/github/issues/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/issues)\n[![GitHub pull requests](https://img.shields.io/github/issues-pr/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/pulls)\n[![Languages](https://img.shields.io/github/languages/top/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog)\n[![Author](https://img.shields.io/badge/author-grtsinry43-blue)](https://github.com/grtsinry43)\n[![Development Status](https://img.shields.io/badge/status-in%20development-yellow)](https://github.com/grtsinry43/grtblog)\n\n🚧🚧🚧 **Este proyecto está actualmente en desarrollo. / 施工中，请稍候再来看** 🚧🚧🚧\n\n⏳⏳⏳ **Progreso actual: / 当前进度：**\n\n- [x] Renderizado de artículos basado en Markdown / 基于 Markdown 的文章渲染\n- [x] Gestión de Artículos/Etiquetas/Categorías / 文章 / 标签 / 分类管理\n- [x] Recarga parcial / 部分重载\n- [x] Estilos de página incorporados / 内置页面样式\n- [x] Sistema de comentarios / 评论系统\n- [ ] Soporte multi-tema / 多主题支持\n- [x] Funcionalidad de búsqueda / 搜索功能\n- [ ] Panel de administración / 管理员仪表盘\n- [ ] Opciones de personalización / 自定义选项\n- [ ] Cambio de tema / 主题切换\n\n## Resumen / 概述\n\ngrtblog es un sistema de blog integral (sistema de gestión de contenido) basado en React.js y Spring Boot. Cuenta con una\narquitectura desacoplada de front-end y back-end, soporta modos híbridos de generación del lado servidor y estática, ofrece amplias opciones de personalización,\nsoporte para recarga parcial y cambio de tema.\n\ngrtblog 是一个基于 React.js 和 Spring Boot 的综合博客系统（内容管理系统）。它具有前后端分离的架构，支持服务端和静态生成混合模式，提供丰富的自定义选项，支持部分重载和主题切换。\n\n## Características / 特性\n\n- **Arquitectura desacoplada / 前后端分离架构**: Separación del front-end y back-end para mejor escalabilidad y\n  mantenibilidad. 前后端分离，提升可扩展性和可维护性。\n- **Generación híbrida / 混合生成**: Soporta generación tanto del lado servidor como estática. 支持服务端和静态生成。\n- **Personalización / 自定义**: Amplias opciones de personalización para temas y componentes. 提供丰富的主题和组件自定义选项。",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Idioma</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# grtblog\n\n[![Licencia GitHub](https://img.shields.io/github/license/grtsinry43/grtblog)](http://www.apache.org/licenses/LICENSE-2.0.html)\n[![Lanzamiento GitHub](https://img.shields.io/github/v/release/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/releases)\n[![Último commit](https://img.shields.io/github/last-commit/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/commits/main)\n[![Incidencias GitHub](https://img.shields.io/github/issues/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/issues)\n[![Solicitudes de extracción GitHub](https://img.shields.io/github/issues-pr/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/pulls)\n[![Lenguajes](https://img.shields.io/github/languages/top/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog)",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "EAcSuQ5BB4EL9diWL68ajTe95sWUOWzT7HeWjOLdB5w=",
-        "originContent": "# grtblog",
-        "translatedContent": "# grtblog"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 3,
-        "rowsha": "KDmpvSQ7co2XyF6Eg0lVSYjPzTCpblNXkyCnT5V+QJM=",
-        "originContent": "[![GitHub license](https://img.shields.io/github/license/grtsinry43/grtblog)](http://www.apache.org/licenses/LICENSE-2.0.html)",
-        "translatedContent": "[![GitHub license](https://img.shields.io/github/license/grtsinry43/grtblog)](http://www.apache.org/licenses/LICENSE-2.0.html)"
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
       },
       {
         "row": 4,
-        "rowsha": "n6ETKIaIjoOgy0otmZ5wQ7KX2j4LLdijHbssKkdgrgk=",
-        "originContent": "[![GitHub release](https://img.shields.io/github/v/release/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/releases)",
-        "translatedContent": "[![GitHub release](https://img.shields.io/github/v/release/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/releases)"
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Idioma</summary>"
       },
       {
         "row": 5,
-        "rowsha": "b64+vj3em2JGxSDdNLnBij+i6EuTlNitySdgSL0pDJY=",
-        "originContent": "[![Last commit](https://img.shields.io/github/last-commit/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/commits/main)",
-        "translatedContent": "[![Last commit](https://img.shields.io/github/last-commit/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/commits/main)"
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
       },
       {
         "row": 6,
-        "rowsha": "AOfqXj5VWa1am8NrDIa213nAKkqhvC+KDpTOG/St3q8=",
-        "originContent": "[![GitHub issues](https://img.shields.io/github/issues/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/issues)",
-        "translatedContent": "[![GitHub issues](https://img.shields.io/github/issues/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/issues)"
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 7,
-        "rowsha": "L+92eFe5nMO5cCpczeSflQJxpdDsoxgGszS9cVhPBMg=",
-        "originContent": "[![GitHub pull requests](https://img.shields.io/github/issues-pr/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/pulls)",
-        "translatedContent": "[![GitHub pull requests](https://img.shields.io/github/issues-pr/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/pulls)"
+        "rowsha": "p1qkQdZbUJemW4bgRnYTpfZ8Qj3qHgx8Dm1f4t1QsXM=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=en\">English</a>"
       },
       {
         "row": 8,
-        "rowsha": "Ha3u7OU6N6i/V/V7GprSEL6nU6Cq5SAkkiafOLNR5+8=",
-        "originContent": "[![Languages](https://img.shields.io/github/languages/top/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog)",
-        "translatedContent": "[![Languages](https://img.shields.io/github/languages/top/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog)"
+        "rowsha": "ml8OEqn9BBdP1iIwYIW89CsHdAdDQ0fdTVazIBAsfYY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 9,
-        "rowsha": "0n7XJWq2a9mBOlt1HkA795DmhNzJ9BODuDHKGaFXqno=",
-        "originContent": "[![Author](https://img.shields.io/badge/author-grtsinry43-blue)](https://github.com/grtsinry43)",
-        "translatedContent": "[![Author](https://img.shields.io/badge/author-grtsinry43-blue)](https://github.com/grtsinry43)"
+        "rowsha": "9KSziAHVT5UrsTztcr/TuJG18R126e3VuBmafanDoy4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 10,
-        "rowsha": "NrpYxJzWHJ2k7tthBKGe0GxWJPlgWXMb00RL4g/12Yk=",
-        "originContent": "[![Development Status](https://img.shields.io/badge/status-in%20development-yellow)](https://github.com/grtsinry43/grtblog)",
-        "translatedContent": "[![Development Status](https://img.shields.io/badge/status-in%20development-yellow)](https://github.com/grtsinry43/grtblog)"
+        "rowsha": "UFRmFm5ax4oh8hPQUqufZI3yo3KvUkX/Gv18IbyeLio=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ja\">日本語</a>"
       },
       {
         "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "x7OM88my0swSa5qTNFDELbS0a2iFneTd5VYGO7gV7qs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ko\">한국어</a>"
       },
       {
         "row": 12,
-        "rowsha": "TOXulKl//C0JUu1NldAfsV6Oa4z6l2M20925xrJPbWI=",
-        "originContent": "🚧🚧🚧 **This project is currently under development. / 施工中，请稍候再来看** 🚧🚧🚧",
-        "translatedContent": "🚧🚧🚧 **Este proyecto está actualmente en desarrollo. / 施工中，请稍候再来看** 🚧🚧🚧"
+        "rowsha": "KrQNtqnHKMfXerOUr0VwgLKp0XqYfcOheCdmL82DmyE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=hi\">हिन्दी</a>"
       },
       {
         "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "+g1EkKNgO5CDTISdWyyRkHUYB14XFNtA5kTrO5GE8C4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=th\">ไทย</a>"
       },
       {
         "row": 14,
-        "rowsha": "Gylj+gC5RdZlWwCuDwSK4TyqRaByGilAuxWzIyUQRHA=",
-        "originContent": "⏳⏳⏳ **Current progress: / 当前进度：**",
-        "translatedContent": "⏳⏳⏳ **Progreso actual: / 当前进度：**"
+        "rowsha": "GYz89zuqxOjbquo6DeWmoh7QKx0a5qIl8DEHehjB8pA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=fr\">Français</a>"
       },
       {
         "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "sMY2raEVl3KW4/hGjgFfvllOHHXL3/zpEcpJg9lW/nM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=de\">Deutsch</a>"
       },
       {
         "row": 16,
-        "rowsha": "7GKWxrwi9YioQtXPfyIvsIxvWwDL2bmShvNKgZGAnzM=",
-        "originContent": "- [x] Article rendering based on Markdown / 基于 Markdown 的文章渲染",
-        "translatedContent": "- [x] Renderizado de artículos basado en Markdown / 基于 Markdown 的文章渲染"
+        "rowsha": "brHVpHWLF7AFTe6G+gr/rV0YD24uqLrTVib9+sIhMTo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=es\">Español</a>"
       },
       {
         "row": 17,
-        "rowsha": "NysoBd6d2HcaM+CNGO3FDcxYc0ah5WpMgfGCkdsnGMo=",
-        "originContent": "- [x] Article/Tag/Category management / 文章 / 标签 / 分类管理",
-        "translatedContent": "- [x] Gestión de Artículos/Etiquetas/Categorías / 文章 / 标签 / 分类管理"
+        "rowsha": "80axrQ6BFZBBsY/fhLHjML49N9mpU5veMSYuShIZS2U=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=it\">Italiano</a>"
       },
       {
         "row": 18,
-        "rowsha": "SjQ5mWgFIJzYBHO+gy5nOhe2CLganjCEfa4ml4wRJ4Y=",
-        "originContent": "- [x] Partial reload / 部分重载",
-        "translatedContent": "- [x] Recarga parcial / 部分重载"
+        "rowsha": "lMGRVjDiCWDJsjXAUaQrnS7NftQDIgHlED1CAg34DQc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ru\">Русский</a>"
       },
       {
         "row": 19,
-        "rowsha": "tFmMtSDczb2lPIlFiK9E1y4bCAAQGgWjXcVOgTbMg4I=",
-        "originContent": "- [x] Built-in page styles / 内置页面样式",
-        "translatedContent": "- [x] Estilos de página incorporados / 内置页面样式"
+        "rowsha": "x5XXAp8ZmIVT5ENJm6AeMrPHiV7mYg0foMElBQv0VaM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=pt\">Português</a>"
       },
       {
         "row": 20,
-        "rowsha": "LuH3PNquLQlF6Wh7PeXjeBQ5MyzPcdy7iWG2ypGRf2Y=",
-        "originContent": "- [x] Comment system / 评论系统",
-        "translatedContent": "- [x] Sistema de comentarios / 评论系统"
+        "rowsha": "fbh6oJq8nI0VTknGElHzBZK5kvjNq4PAk2CQqcsrd/I=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=nl\">Nederlands</a>"
       },
       {
         "row": 21,
-        "rowsha": "0xoZUMXWnlSodZ0sqPrS/nuYP428NrcOfATgfnMwGuw=",
-        "originContent": "- [ ] Multi-theme support / 多主题支持",
-        "translatedContent": "- [ ] Soporte multi-tema / 多主题支持"
+        "rowsha": "UkWxbISC+aqjziJB7untW+Ioi5kJeouuSYCs8snzrVU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=pl\">Polski</a>"
       },
       {
         "row": 22,
-        "rowsha": "rFM/ZEs4cbKCZPSRA8TPLQvOsAhpvBKPyjMpOyJFeqA=",
-        "originContent": "- [x] Search functionality / 搜索功能",
-        "translatedContent": "- [x] Funcionalidad de búsqueda / 搜索功能"
+        "rowsha": "rGFI+bUx3pUyQUfbe/sKtnMCVLlOItcz+BYsfa+fTLw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=ar\">العربية</a>"
       },
       {
         "row": 23,
-        "rowsha": "INgg/pAa7JLjvQ4wsUS9MOE/GslOZfS+m7dtWvDO4TE=",
-        "originContent": "- [ ] Admin dashboard / 管理员仪表盘",
-        "translatedContent": "- [ ] Panel de administración / 管理员仪表盘"
+        "rowsha": "3ROdlt/OIw9mdvDnTzKG5VFrWpxxF2tbGenX7HWJpDM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=fa\">فارسی</a>"
       },
       {
         "row": 24,
-        "rowsha": "E9E/gQKXq7jIkFD+oO0SskZ9YVSoRK+GiQOyWoMJA38=",
-        "originContent": "- [ ] Customization options / 自定义选项",
-        "translatedContent": "- [ ] Opciones de personalización / 自定义选项"
+        "rowsha": "becFpIVWBUybbWgDmEHMwxZbC1BXqJNtY0IWq7cRP/U=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=tr\">Türkçe</a>"
       },
       {
         "row": 25,
-        "rowsha": "p+nqNDs7mWCz+U6svnxkPm8v9UmNc5gXEY1q6J/rk/M=",
-        "originContent": "- [ ] Theme switching / 主题切换",
-        "translatedContent": "- [ ] Cambio de tema / 主题切换"
+        "rowsha": "Zn0uSNzqqDSnx/7s5AWiDGcv+AYC2eStT93zAivGIWA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=vi\">Tiếng Việt</a>"
       },
       {
         "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "l++R5gBNjfK2/lCA3HaJMCN9pcQ4ze3zUaOmR6qdWrw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=id\">Bahasa Indonesia</a>"
       },
       {
         "row": 27,
-        "rowsha": "F44/m+pllKTOJLjILjuM+wkkIqyuYL/WzYuOitcUMmg=",
-        "originContent": "## Overview / 概述",
-        "translatedContent": "## Resumen / 概述"
+        "rowsha": "JCKZC8wdLYGafK0arRMr/4GPn5niG6MdRDASyASjc3U=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=grtsinry43&project=grtblog&lang=as\">অসমীয়া</"
       },
       {
         "row": 28,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
       },
       {
         "row": 29,
-        "rowsha": "GQk6f7TBn2qou5iTvBrA5WZJ2pFt/xpPRfJU31p29yw=",
-        "originContent": "grtblog is a comprehensive blog system (content management system) based on React.js and Spring Boot. It features a",
-        "translatedContent": "grtblog es un sistema de blog integral (sistema de gestión de contenido) basado en React.js y Spring Boot. Cuenta con una"
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
       },
       {
         "row": 30,
-        "rowsha": "CbCFPKQKCzBETO3mk9xBTiYmO7BkUBbBHy/ZdzGY6ZU=",
-        "originContent": "decoupled front-end and back-end, supports hybrid server-side and static generation modes, offers rich customization",
-        "translatedContent": "arquitectura desacoplada de front-end y back-end, soporta modos híbridos de generación del lado servidor y estática, ofrece amplias opciones de personalización,"
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
       },
       {
         "row": 31,
-        "rowsha": "NOyTVJ340F0ahGWJUDlZFpBIkWas2BEtb9bRwA9O7CY=",
-        "originContent": "options, partial reload support, and theme switching.",
-        "translatedContent": "soporte para recarga parcial y cambio de tema."
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
       },
       {
         "row": 32,
@@ -203,9 +203,9 @@
       },
       {
         "row": 33,
-        "rowsha": "Xle37+qwZmpMuKo3lzpuOwFx0Ao9w/f8S97hIvc5UH0=",
-        "originContent": "grtblog 是一个基于 React.js 和 Spring Boot 的综合博客系统（内容管理系统）。它具有前后端分离的架构，支持服务端和静态生成混合模式，提供丰富的自定义选项，支持部分重载和主题切换。",
-        "translatedContent": "grtblog 是一个基于 React.js 和 Spring Boot 的综合博客系统（内容管理系统）。它具有前后端分离的架构，支持服务端和静态生成混合模式，提供丰富的自定义选项，支持部分重载和主题切换。"
+        "rowsha": "EAcSuQ5BB4EL9diWL68ajTe95sWUOWzT7HeWjOLdB5w=",
+        "originContent": "# grtblog",
+        "translatedContent": "# grtblog"
       },
       {
         "row": 34,
@@ -215,64 +215,64 @@
       },
       {
         "row": 35,
-        "rowsha": "tyfJKTGToWmGDgu/ZC49BZ8VklckWYvvLO0imKn4t2I=",
-        "originContent": "## Features / 特性",
-        "translatedContent": "## Características / 特性"
+        "rowsha": "KDmpvSQ7co2XyF6Eg0lVSYjPzTCpblNXkyCnT5V+QJM=",
+        "originContent": "[![GitHub license](https://img.shields.io/github/license/grtsinry43/grtblog)](http://www.apache.org/licenses/LICENSE-2.0.html)",
+        "translatedContent": "[![Licencia GitHub](https://img.shields.io/github/license/grtsinry43/grtblog)](http://www.apache.org/licenses/LICENSE-2.0.html)"
       },
       {
         "row": 36,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "n6ETKIaIjoOgy0otmZ5wQ7KX2j4LLdijHbssKkdgrgk=",
+        "originContent": "[![GitHub release](https://img.shields.io/github/v/release/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/releases)",
+        "translatedContent": "[![Lanzamiento GitHub](https://img.shields.io/github/v/release/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/releases)"
       },
       {
         "row": 37,
-        "rowsha": "+8KDeS9CjKEKpIrru6ds5KPRoXfOGRP8TMOIz0yYS68=",
-        "originContent": "- **Decoupled Architecture / 前后端分离架构**: Front-end and back-end separation for better scalability and",
-        "translatedContent": "- **Arquitectura desacoplada / 前后端分离架构**: Separación del front-end y back-end para mejor escalabilidad y"
+        "rowsha": "b64+vj3em2JGxSDdNLnBij+i6EuTlNitySdgSL0pDJY=",
+        "originContent": "[![Last commit](https://img.shields.io/github/last-commit/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/commits/main)",
+        "translatedContent": "[![Último commit](https://img.shields.io/github/last-commit/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/commits/main)"
       },
       {
         "row": 38,
-        "rowsha": "h+EN8mmD1jsZSj4R4+SqeJwsFMmQJvtwdg39dA46wxA=",
-        "originContent": "  maintainability. 前后端分离，提升可扩展性和可维护性。",
-        "translatedContent": "  mantenibilidad. 前后端分离，提升可扩展性和可维护性。"
+        "rowsha": "AOfqXj5VWa1am8NrDIa213nAKkqhvC+KDpTOG/St3q8=",
+        "originContent": "[![GitHub issues](https://img.shields.io/github/issues/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/issues)",
+        "translatedContent": "[![Incidencias GitHub](https://img.shields.io/github/issues/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/issues)"
       },
       {
         "row": 39,
-        "rowsha": "Kwlscb1G3hNywbrELV/+sDrIIPquiV/qlAtX+FjCaIQ=",
-        "originContent": "- **Hybrid Generation / 混合生成**: Supports both server-side and static generation. 支持服务端和静态生成。",
-        "translatedContent": "- **Generación híbrida / 混合生成**: Soporta generación tanto del lado servidor como estática. 支持服务端和静态生成。"
+        "rowsha": "L+92eFe5nMO5cCpczeSflQJxpdDsoxgGszS9cVhPBMg=",
+        "originContent": "[![GitHub pull requests](https://img.shields.io/github/issues-pr/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/pulls)",
+        "translatedContent": "[![Solicitudes de extracción GitHub](https://img.shields.io/github/issues-pr/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog/pulls)"
       },
       {
         "row": 40,
-        "rowsha": "i63YxNnQKEJtFBMPQRfZRazjpv6aADVcJiaZpycPz3E=",
-        "originContent": "- **Customization / 自定义**: Rich customization options for themes and components. 提供丰富的主题和组件自定义选项。",
-        "translatedContent": "- **Personalización / 自定义**: Amplias opciones de personalización para temas y componentes. 提供丰富的主题和组件自定义选项。"
+        "rowsha": "Ha3u7OU6N6i/V/V7GprSEL6nU6Cq5SAkkiafOLNR5+8=",
+        "originContent": "[![Languages](https://img.shields.io/github/languages/top/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog)",
+        "translatedContent": "[![Lenguajes](https://img.shields.io/github/languages/top/grtsinry43/grtblog)](https://github.com/grtsinry43/grtblog)"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "- **Partial Reload / 部分重载**: Efficient partial reload support. 高效的部分重载支持。\n- **Theme Switching / 主题切换**: Easy theme switching for a personalized experience. 简单的主题切换，提供个性化体验。\n\n## Screenshots / 截图\n\n![image](https://github.com/user-attachments/assets/40cac1c2-767a-4e0e-b72c-664384e93dfd)\n![image](https://github.com/user-attachments/assets/0f8819c4-5be2-47bf-b526-2db097141bd9)\n![image](https://github.com/user-attachments/assets/acbb9f7b-4ffc-45ff-835e-e09ee0a16979)\n![image](https://github.com/user-attachments/assets/72116ff9-eb07-4e0c-921a-c3db32cbd59c)\n![image](https://github.com/user-attachments/assets/6e790aab-94f4-4ada-8fc7-fc1bef0af5c8)\n\n\n## Getting Started / 快速开始\n\n### Prerequisites / 前提条件\n\n- Node.js\n- npm\n- Java\n- Maven\n\n### Installation / 安装\n\n1. Clone the repository / 克隆仓库:",
-    "ContentSha": "e6mA7a5ZCuasEgyCY39j39pBsbDYccsvzRZsBoQyQQU=",
+    "Content": "[![Author](https://img.shields.io/badge/author-grtsinry43-blue)](https://github.com/grtsinry43)\n[![Development Status](https://img.shields.io/badge/status-in%20development-yellow)](https://github.com/grtsinry43/grtblog)\n\n🚧🚧🚧 **This project is currently under development. / 施工中，请稍候再来看** 🚧🚧🚧\n\n⏳⏳⏳ **Current progress: / 当前进度：**\n\n- [x] Article rendering based on Markdown / 基于 Markdown 的文章渲染\n- [x] Article/Tag/Category management / 文章 / 标签 / 分类管理\n- [x] Partial reload / 部分重载\n- [x] Built-in page styles / 内置页面样式\n- [x] Comment system / 评论系统\n- [ ] Multi-theme support / 多主题支持\n- [x] Search functionality / 搜索功能\n- [ ] Admin dashboard / 管理员仪表盘\n- [ ] Customization options / 自定义选项\n- [ ] Theme switching / 主题切换\n\n## Overview / 概述\n\ngrtblog is a comprehensive blog system (content management system) based on React.js and Spring Boot. It features a\ndecoupled front-end and back-end, supports hybrid server-side and static generation modes, offers rich customization\noptions, partial reload support, and theme switching.\n\ngrtblog 是一个基于 React.js 和 Spring Boot 的综合博客系统（内容管理系统）。它具有前后端分离的架构，支持服务端和静态生成混合模式，提供丰富的自定义选项，支持部分重载和主题切换。\n\n## Features / 特性\n\n- **Decoupled Architecture / 前后端分离架构**: Front-end and back-end separation for better scalability and\n  maintainability. 前后端分离，提升可扩展性和可维护性。\n- **Hybrid Generation / 混合生成**: Supports both server-side and static generation. 支持服务端和静态生成。\n- **Customization / 自定义**: Rich customization options for themes and components. 提供丰富的主题和组件自定义选项。\n- **Partial Reload / 部分重载**: Efficient partial reload support. 高效的部分重载支持。\n- **Theme Switching / 主题切换**: Easy theme switching for a personalized experience. 简单的主题切换，提供个性化体验。\n\n## Screenshots / 截图\n\n![image](https://github.com/user-attachments/assets/40cac1c2-767a-4e0e-b72c-664384e93dfd)\n![image](https://github.com/user-attachments/assets/0f8819c4-5be2-47bf-b526-2db097141bd9)\n![image](https://github.com/user-attachments/assets/acbb9f7b-4ffc-45ff-835e-e09ee0a16979)",
+    "ContentSha": "pSxbO+VhiFafwPErUSkHa+4bj+xPRTFldcE9eYfGd2A=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- **Recarga Parcial / 部分重载**: Soporte eficiente para recarga parcial. 高效的部分重载支持。\n- **Cambio de Tema / 主题切换**: Cambio de tema fácil para una experiencia personalizada. 简单的主题切换，提供个性化体验。\n\n## Capturas de Pantalla / 截图\n\n![image](https://github.com/user-attachments/assets/40cac1c2-767a-4e0e-b72c-664384e93dfd)\n![image](https://github.com/user-attachments/assets/0f8819c4-5be2-47bf-b526-2db097141bd9)\n![image](https://github.com/user-attachments/assets/acbb9f7b-4ffc-45ff-835e-e09ee0a16979)\n![image](https://github.com/user-attachments/assets/72116ff9-eb07-4e0c-921a-c3db32cbd59c)\n![image](https://github.com/user-attachments/assets/6e790aab-94f4-4ada-8fc7-fc1bef0af5c8)\n\n\n## Comenzando / 快速开始\n\n### Requisitos Previos / 前提条件\n\n- Node.js\n- npm\n- Java\n- Maven\n\n### Instalación / 安装\n\n1. Clona el repositorio / 克隆仓库:",
+    "Translation": "[![Autor](https://img.shields.io/badge/author-grtsinry43-blue)](https://github.com/grtsinry43)\n[![Estado de desarrollo](https://img.shields.io/badge/status-in%20development-yellow)](https://github.com/grtsinry43/grtblog)\n\n🚧🚧🚧 **Este proyecto está actualmente en desarrollo. / 施工中，请稍候再来看** 🚧🚧🚧\n\n⏳⏳⏳ **Progreso actual: / 当前进度：**\n\n- [x] Renderizado de artículos basado en Markdown / 基于 Markdown 的文章渲染\n- [x] Gestión de Artículos/Etiquetas/Categorías / 文章 / 标签 / 分类管理\n- [x] Recarga parcial / 部分重载\n- [x] Estilos de página integrados / 内置页面样式\n- [x] Sistema de comentarios / 评论系统\n- [ ] Soporte para múltiples temas / 多主题支持\n- [x] Funcionalidad de búsqueda / 搜索功能\n- [ ] Panel de administración / 管理员仪表盘\n- [ ] Opciones de personalización / 自定义选项\n- [ ] Cambio de tema / 主题切换\n\n## Visión general / 概述\n\ngrtblog es un sistema de blog integral (sistema de gestión de contenidos) basado en React.js y Spring Boot. Presenta una arquitectura desacoplada de frontend y backend, soporta modos híbridos de generación del lado del servidor y estática, ofrece opciones de personalización abundantes, soporte para recarga parcial y cambio de tema.\n\ngrtblog 是一个基于 React.js 和 Spring Boot 的综合博客系统（内容管理系统）。它具有前后端分离的架构，支持服务端和静态生成混合模式，提供丰富的自定义选项，支持部分重载和主题切换。\n\n## Características / 特性\n\n- **Arquitectura desacoplada / 前后端分离架构**: Separación de frontend y backend para mejor escalabilidad y\n  mantenibilidad. 前后端分离，提升可扩展性和可维护性。\n- **Generación híbrida / 混合生成**: Soporta tanto generación del lado del servidor como estática. 支持服务端和静态生成。\n- **Personalización / 自定义**: Opciones de personalización ricas para temas y componentes. 提供丰富的主题和组件自定义选项。\n- **Recarga parcial / 部分重载**: Soporte eficiente para recarga parcial. 高效的部分重载支持。\n- **Cambio de tema / 主题切换**: Cambio de tema sencillo para una experiencia personalizada. 简单的主题切换，提供个性化体验。\n\n## Capturas de pantalla / 截图\n\n![imagen](https://github.com/user-attachments/assets/40cac1c2-767a-4e0e-b72c-664384e93dfd)\n![imagen](https://github.com/user-attachments/assets/0f8819c4-5be2-47bf-b526-2db097141bd9)\n![imagen](https://github.com/user-attachments/assets/acbb9f7b-4ffc-45ff-835e-e09ee0a16979)\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "Bwf8FOaZOH7VPLzjI3dqF4Qq94wvEXLSQp/qOLVWk1Y=",
-        "originContent": "- **Partial Reload / 部分重载**: Efficient partial reload support. 高效的部分重载支持。",
-        "translatedContent": "- **Recarga Parcial / 部分重载**: Soporte eficiente para recarga parcial. 高效的部分重载支持。"
+        "rowsha": "0n7XJWq2a9mBOlt1HkA795DmhNzJ9BODuDHKGaFXqno=",
+        "originContent": "[![Author](https://img.shields.io/badge/author-grtsinry43-blue)](https://github.com/grtsinry43)",
+        "translatedContent": "[![Autor](https://img.shields.io/badge/author-grtsinry43-blue)](https://github.com/grtsinry43)"
       },
       {
         "row": 2,
-        "rowsha": "DanpSIzq/2+JS+SjQ5hgrUzI1WqTME5Q+3+2B1hOM7k=",
-        "originContent": "- **Theme Switching / 主题切换**: Easy theme switching for a personalized experience. 简单的主题切换，提供个性化体验。",
-        "translatedContent": "- **Cambio de Tema / 主题切换**: Cambio de tema fácil para una experiencia personalizada. 简单的主题切换，提供个性化体验。"
+        "rowsha": "NrpYxJzWHJ2k7tthBKGe0GxWJPlgWXMb00RL4g/12Yk=",
+        "originContent": "[![Development Status](https://img.shields.io/badge/status-in%20development-yellow)](https://github.com/grtsinry43/grtblog)",
+        "translatedContent": "[![Estado de desarrollo](https://img.shields.io/badge/status-in%20development-yellow)](https://github.com/grtsinry43/grtblog)"
       },
       {
         "row": 3,
@@ -282,9 +282,9 @@
       },
       {
         "row": 4,
-        "rowsha": "xEnB++1uhnYpy+uCUWFisHZKczS4jL/tNwXlQ6nASyo=",
-        "originContent": "## Screenshots / 截图",
-        "translatedContent": "## Capturas de Pantalla / 截图"
+        "rowsha": "TOXulKl//C0JUu1NldAfsV6Oa4z6l2M20925xrJPbWI=",
+        "originContent": "🚧🚧🚧 **This project is currently under development. / 施工中，请稍候再来看** 🚧🚧🚧",
+        "translatedContent": "🚧🚧🚧 **Este proyecto está actualmente en desarrollo. / 施工中，请稍候再来看** 🚧🚧🚧"
       },
       {
         "row": 5,
@@ -294,114 +294,319 @@
       },
       {
         "row": 6,
-        "rowsha": "2fataVPtWqIB1EsFHXkOWgrWWL58PYamQ977650hCrk=",
-        "originContent": "![image](https://github.com/user-attachments/assets/40cac1c2-767a-4e0e-b72c-664384e93dfd)",
-        "translatedContent": "![image](https://github.com/user-attachments/assets/40cac1c2-767a-4e0e-b72c-664384e93dfd)"
+        "rowsha": "Gylj+gC5RdZlWwCuDwSK4TyqRaByGilAuxWzIyUQRHA=",
+        "originContent": "⏳⏳⏳ **Current progress: / 当前进度：**",
+        "translatedContent": "⏳⏳⏳ **Progreso actual: / 当前进度：**"
       },
       {
         "row": 7,
-        "rowsha": "IcyBQAKDW5515MLfR+6+//OWETqUymIVPP1tbg6Ths4=",
-        "originContent": "![image](https://github.com/user-attachments/assets/0f8819c4-5be2-47bf-b526-2db097141bd9)",
-        "translatedContent": "![image](https://github.com/user-attachments/assets/0f8819c4-5be2-47bf-b526-2db097141bd9)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 8,
-        "rowsha": "io8d9pvNobBWUhOrBNmZDbE9EMtlywMvHX/Ycn/hXBU=",
-        "originContent": "![image](https://github.com/user-attachments/assets/acbb9f7b-4ffc-45ff-835e-e09ee0a16979)",
-        "translatedContent": "![image](https://github.com/user-attachments/assets/acbb9f7b-4ffc-45ff-835e-e09ee0a16979)"
+        "rowsha": "7GKWxrwi9YioQtXPfyIvsIxvWwDL2bmShvNKgZGAnzM=",
+        "originContent": "- [x] Article rendering based on Markdown / 基于 Markdown 的文章渲染",
+        "translatedContent": "- [x] Renderizado de artículos basado en Markdown / 基于 Markdown 的文章渲染"
       },
       {
         "row": 9,
-        "rowsha": "a7mCpvENTBJnIda2iHJYZp77u0xcX0ewpm5YIpZHOlg=",
-        "originContent": "![image](https://github.com/user-attachments/assets/72116ff9-eb07-4e0c-921a-c3db32cbd59c)",
-        "translatedContent": "![image](https://github.com/user-attachments/assets/72116ff9-eb07-4e0c-921a-c3db32cbd59c)"
+        "rowsha": "NysoBd6d2HcaM+CNGO3FDcxYc0ah5WpMgfGCkdsnGMo=",
+        "originContent": "- [x] Article/Tag/Category management / 文章 / 标签 / 分类管理",
+        "translatedContent": "- [x] Gestión de Artículos/Etiquetas/Categorías / 文章 / 标签 / 分类管理"
       },
       {
         "row": 10,
-        "rowsha": "2o3rU3vNY8qej8ZNkeAlbGP8eyRD5A982cr1KcaJPQI=",
-        "originContent": "![image](https://github.com/user-attachments/assets/6e790aab-94f4-4ada-8fc7-fc1bef0af5c8)",
-        "translatedContent": "![image](https://github.com/user-attachments/assets/6e790aab-94f4-4ada-8fc7-fc1bef0af5c8)"
+        "rowsha": "SjQ5mWgFIJzYBHO+gy5nOhe2CLganjCEfa4ml4wRJ4Y=",
+        "originContent": "- [x] Partial reload / 部分重载",
+        "translatedContent": "- [x] Recarga parcial / 部分重载"
       },
       {
         "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "tFmMtSDczb2lPIlFiK9E1y4bCAAQGgWjXcVOgTbMg4I=",
+        "originContent": "- [x] Built-in page styles / 内置页面样式",
+        "translatedContent": "- [x] Estilos de página integrados / 内置页面样式"
       },
       {
         "row": 12,
+        "rowsha": "LuH3PNquLQlF6Wh7PeXjeBQ5MyzPcdy7iWG2ypGRf2Y=",
+        "originContent": "- [x] Comment system / 评论系统",
+        "translatedContent": "- [x] Sistema de comentarios / 评论系统"
+      },
+      {
+        "row": 13,
+        "rowsha": "0xoZUMXWnlSodZ0sqPrS/nuYP428NrcOfATgfnMwGuw=",
+        "originContent": "- [ ] Multi-theme support / 多主题支持",
+        "translatedContent": "- [ ] Soporte para múltiples temas / 多主题支持"
+      },
+      {
+        "row": 14,
+        "rowsha": "rFM/ZEs4cbKCZPSRA8TPLQvOsAhpvBKPyjMpOyJFeqA=",
+        "originContent": "- [x] Search functionality / 搜索功能",
+        "translatedContent": "- [x] Funcionalidad de búsqueda / 搜索功能"
+      },
+      {
+        "row": 15,
+        "rowsha": "INgg/pAa7JLjvQ4wsUS9MOE/GslOZfS+m7dtWvDO4TE=",
+        "originContent": "- [ ] Admin dashboard / 管理员仪表盘",
+        "translatedContent": "- [ ] Panel de administración / 管理员仪表盘"
+      },
+      {
+        "row": 16,
+        "rowsha": "E9E/gQKXq7jIkFD+oO0SskZ9YVSoRK+GiQOyWoMJA38=",
+        "originContent": "- [ ] Customization options / 自定义选项",
+        "translatedContent": "- [ ] Opciones de personalización / 自定义选项"
+      },
+      {
+        "row": 17,
+        "rowsha": "p+nqNDs7mWCz+U6svnxkPm8v9UmNc5gXEY1q6J/rk/M=",
+        "originContent": "- [ ] Theme switching / 主题切换",
+        "translatedContent": "- [ ] Cambio de tema / 主题切换"
+      },
+      {
+        "row": 18,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 13,
+        "row": 19,
+        "rowsha": "F44/m+pllKTOJLjILjuM+wkkIqyuYL/WzYuOitcUMmg=",
+        "originContent": "## Overview / 概述",
+        "translatedContent": "## Visión general / 概述"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "GQk6f7TBn2qou5iTvBrA5WZJ2pFt/xpPRfJU31p29yw=",
+        "originContent": "grtblog is a comprehensive blog system (content management system) based on React.js and Spring Boot. It features a",
+        "translatedContent": "grtblog es un sistema de blog integral (sistema de gestión de contenidos) basado en React.js y Spring Boot. Presenta una arquitectura desacoplada de frontend y backend, soporta modos híbridos de generación del lado del servidor y estática, ofrece opciones de personalización abundantes, soporte para recarga parcial y cambio de tema."
+      },
+      {
+        "row": 22,
+        "rowsha": "CbCFPKQKCzBETO3mk9xBTiYmO7BkUBbBHy/ZdzGY6ZU=",
+        "originContent": "decoupled front-end and back-end, supports hybrid server-side and static generation modes, offers rich customization",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "NOyTVJ340F0ahGWJUDlZFpBIkWas2BEtb9bRwA9O7CY=",
+        "originContent": "options, partial reload support, and theme switching.",
+        "translatedContent": "grtblog 是一个基于 React.js 和 Spring Boot 的综合博客系统（内容管理系统）。它具有前后端分离的架构，支持服务端和静态生成混合模式，提供丰富的自定义选项，支持部分重载和主题切换。"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "Xle37+qwZmpMuKo3lzpuOwFx0Ao9w/f8S97hIvc5UH0=",
+        "originContent": "grtblog 是一个基于 React.js 和 Spring Boot 的综合博客系统（内容管理系统）。它具有前后端分离的架构，支持服务端和静态生成混合模式，提供丰富的自定义选项，支持部分重载和主题切换。",
+        "translatedContent": "## Características / 特性"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "tyfJKTGToWmGDgu/ZC49BZ8VklckWYvvLO0imKn4t2I=",
+        "originContent": "## Features / 特性",
+        "translatedContent": "- **Arquitectura desacoplada / 前后端分离架构**: Separación de frontend y backend para mejor escalabilidad y"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  mantenibilidad. 前后端分离，提升可扩展性和可维护性。"
+      },
+      {
+        "row": 29,
+        "rowsha": "+8KDeS9CjKEKpIrru6ds5KPRoXfOGRP8TMOIz0yYS68=",
+        "originContent": "- **Decoupled Architecture / 前后端分离架构**: Front-end and back-end separation for better scalability and",
+        "translatedContent": "- **Generación híbrida / 混合生成**: Soporta tanto generación del lado del servidor como estática. 支持服务端和静态生成。"
+      },
+      {
+        "row": 30,
+        "rowsha": "h+EN8mmD1jsZSj4R4+SqeJwsFMmQJvtwdg39dA46wxA=",
+        "originContent": "  maintainability. 前后端分离，提升可扩展性和可维护性。",
+        "translatedContent": "- **Personalización / 自定义**: Opciones de personalización ricas para temas y componentes. 提供丰富的主题和组件自定义选项。"
+      },
+      {
+        "row": 31,
+        "rowsha": "Kwlscb1G3hNywbrELV/+sDrIIPquiV/qlAtX+FjCaIQ=",
+        "originContent": "- **Hybrid Generation / 混合生成**: Supports both server-side and static generation. 支持服务端和静态生成。",
+        "translatedContent": "- **Recarga parcial / 部分重载**: Soporte eficiente para recarga parcial. 高效的部分重载支持。"
+      },
+      {
+        "row": 32,
+        "rowsha": "i63YxNnQKEJtFBMPQRfZRazjpv6aADVcJiaZpycPz3E=",
+        "originContent": "- **Customization / 自定义**: Rich customization options for themes and components. 提供丰富的主题和组件自定义选项。",
+        "translatedContent": "- **Cambio de tema / 主题切换**: Cambio de tema sencillo para una experiencia personalizada. 简单的主题切换，提供个性化体验。"
+      },
+      {
+        "row": 33,
+        "rowsha": "Bwf8FOaZOH7VPLzjI3dqF4Qq94wvEXLSQp/qOLVWk1Y=",
+        "originContent": "- **Partial Reload / 部分重载**: Efficient partial reload support. 高效的部分重载支持。",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "DanpSIzq/2+JS+SjQ5hgrUzI1WqTME5Q+3+2B1hOM7k=",
+        "originContent": "- **Theme Switching / 主题切换**: Easy theme switching for a personalized experience. 简单的主题切换，提供个性化体验。",
+        "translatedContent": "## Capturas de pantalla / 截图"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "xEnB++1uhnYpy+uCUWFisHZKczS4jL/tNwXlQ6nASyo=",
+        "originContent": "## Screenshots / 截图",
+        "translatedContent": "![imagen](https://github.com/user-attachments/assets/40cac1c2-767a-4e0e-b72c-664384e93dfd)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![imagen](https://github.com/user-attachments/assets/0f8819c4-5be2-47bf-b526-2db097141bd9)"
+      },
+      {
+        "row": 38,
+        "rowsha": "2fataVPtWqIB1EsFHXkOWgrWWL58PYamQ977650hCrk=",
+        "originContent": "![image](https://github.com/user-attachments/assets/40cac1c2-767a-4e0e-b72c-664384e93dfd)",
+        "translatedContent": "![imagen](https://github.com/user-attachments/assets/acbb9f7b-4ffc-45ff-835e-e09ee0a16979)"
+      },
+      {
+        "row": 39,
+        "rowsha": "IcyBQAKDW5515MLfR+6+//OWETqUymIVPP1tbg6Ths4=",
+        "originContent": "![image](https://github.com/user-attachments/assets/0f8819c4-5be2-47bf-b526-2db097141bd9)",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "io8d9pvNobBWUhOrBNmZDbE9EMtlywMvHX/Ycn/hXBU=",
+        "originContent": "![image](https://github.com/user-attachments/assets/acbb9f7b-4ffc-45ff-835e-e09ee0a16979)",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "![image](https://github.com/user-attachments/assets/72116ff9-eb07-4e0c-921a-c3db32cbd59c)\n![image](https://github.com/user-attachments/assets/6e790aab-94f4-4ada-8fc7-fc1bef0af5c8)\n\n\n## Getting Started / 快速开始\n\n### Prerequisites / 前提条件\n\n- Node.js\n- npm\n- Java\n- Maven\n\n### Installation / 安装\n\n1. Clone the repository / 克隆仓库:",
+    "ContentSha": "gr8DyvFZ5GXOm6oC3OZLthwMDh96wZvngh7Er12x3Ok=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![imagen](https://github.com/user-attachments/assets/72116ff9-eb07-4e0c-921a-c3db32cbd59c)\n![imagen](https://github.com/user-attachments/assets/6e790aab-94f4-4ada-8fc7-fc1bef0af5c8)\n\n\n## Comenzando / 快速开始\n\n### Prerrequisitos / 前提条件\n\n- Node.js\n- npm\n- Java\n- Maven\n\n### Instalación / 安装\n\n1. Clona el repositorio / 克隆仓库:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "a7mCpvENTBJnIda2iHJYZp77u0xcX0ewpm5YIpZHOlg=",
+        "originContent": "![image](https://github.com/user-attachments/assets/72116ff9-eb07-4e0c-921a-c3db32cbd59c)",
+        "translatedContent": "![imagen](https://github.com/user-attachments/assets/72116ff9-eb07-4e0c-921a-c3db32cbd59c)"
+      },
+      {
+        "row": 2,
+        "rowsha": "2o3rU3vNY8qej8ZNkeAlbGP8eyRD5A982cr1KcaJPQI=",
+        "originContent": "![image](https://github.com/user-attachments/assets/6e790aab-94f4-4ada-8fc7-fc1bef0af5c8)",
+        "translatedContent": "![imagen](https://github.com/user-attachments/assets/6e790aab-94f4-4ada-8fc7-fc1bef0af5c8)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
         "rowsha": "Sh5vL1SGksOKGxPUjurdf+YbFPfpUVEX+aCm1xQfRUk=",
         "originContent": "## Getting Started / 快速开始",
         "translatedContent": "## Comenzando / 快速开始"
       },
       {
-        "row": 14,
+        "row": 6,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 15,
+        "row": 7,
         "rowsha": "tCzNN3dq+Np+RT2G+ja//v+WC87nnjPpWOEd6U4T+7c=",
         "originContent": "### Prerequisites / 前提条件",
-        "translatedContent": "### Requisitos Previos / 前提条件"
+        "translatedContent": "### Prerrequisitos / 前提条件"
       },
       {
-        "row": 16,
+        "row": 8,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 17,
+        "row": 9,
         "rowsha": "Be4vkEUqyRjvEb5V63Vhy09n2S6s7iYUTlOd7LI5U+E=",
         "originContent": "- Node.js",
         "translatedContent": "- Node.js"
       },
       {
-        "row": 18,
+        "row": 10,
         "rowsha": "3SZoFA32/o1Zv0vCD7vM/8PZU0dIdEu2JqYNYnGdTIA=",
         "originContent": "- npm",
         "translatedContent": "- npm"
       },
       {
-        "row": 19,
+        "row": 11,
         "rowsha": "EgN/C3Mv5LfKcX7kHlVBkfjsOAtOekvD9ppjHrfcnSg=",
         "originContent": "- Java",
         "translatedContent": "- Java"
       },
       {
-        "row": 20,
+        "row": 12,
         "rowsha": "SQo/YbIF8yw3l580pTMgkyu1yo5Ug3RmNNBm4nIQXRA=",
         "originContent": "- Maven",
         "translatedContent": "- Maven"
       },
       {
-        "row": 21,
+        "row": 13,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 22,
+        "row": 14,
         "rowsha": "wWxhwn+S1Pr8M4/N75Z7s38HdBndv9X4D4WJiIoL1o0=",
         "originContent": "### Installation / 安装",
         "translatedContent": "### Instalación / 安装"
       },
       {
-        "row": 23,
+        "row": 15,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 24,
+        "row": 16,
         "rowsha": "Tif9nUhKxT6wP21NiBXSxe6tU5gB8C4Jpe3Fe1+yMHk=",
         "originContent": "1. Clone the repository / 克隆仓库:",
         "translatedContent": "1. Clona el repositorio / 克隆仓库:"
@@ -410,7 +615,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 3,
+    "Id": 4,
     "Content": "    ```bash\n    git clone https://github.com/grtsinry43/grtblog.git\n    cd grtblog\n    ```",
     "ContentSha": "+wEhmA2e8aH8DgWxfP0Y7vm9P6GHeC2+q1hyUe2BMMs=",
     "SectionType": "",
@@ -418,36 +623,11 @@
     "EndLine": 0,
     "Translation": "    ```bash\n    git clone https://github.com/grtsinry43/grtblog.git\n    cd grtblog\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
-        "originContent": "    ```bash",
-        "translatedContent": "    ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "BRELmv247XW4vRhwkPHkPYlfXbv2Q6MdsGUefED42kM=",
-        "originContent": "    git clone https://github.com/grtsinry43/grtblog.git",
-        "translatedContent": "    git clone https://github.com/grtsinry43/grtblog.git"
-      },
-      {
-        "row": 3,
-        "rowsha": "FM96AgytvCYS87PF+YtcIK4wIJWKZI+LcDmWwyrZQOY=",
-        "originContent": "    cd grtblog",
-        "translatedContent": "    cd grtblog"
-      },
-      {
-        "row": 4,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Content": "\n2. Install front-end dependencies / 安装前端依赖:",
     "ContentSha": "5bMc7ohZFCxorhhACA0YX5Gh1DaefrVX0rykA3oLlU4=",
     "SectionType": "",
@@ -455,24 +635,11 @@
     "EndLine": 0,
     "Translation": "2. Instalar dependencias del front-end / 安装前端依赖:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "2. Instalar dependencias del front-end / 安装前端依赖:"
-      },
-      {
-        "row": 2,
-        "rowsha": "jMF82EQEhwTXO3tZfKfgM7eMANyVuFHnvkM+ndvodWw=",
-        "originContent": "2. Install front-end dependencies / 安装前端依赖:",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Content": "    ```bash\n    cd frontend\n    npm install\n    ```",
     "ContentSha": "PD9xq7CXy+D5+Cg3j6VMgEAJs8uQeTSPwjK+06yZQog=",
     "SectionType": "",
@@ -480,36 +647,11 @@
     "EndLine": 0,
     "Translation": "    ```bash\n    cd frontend\n    npm install\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
-        "originContent": "    ```bash",
-        "translatedContent": "    ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "BsJRP2DTauTP3Hi4OJaisgCzvub2G7hoYlx32IOf3hY=",
-        "originContent": "    cd frontend",
-        "translatedContent": "    cd frontend"
-      },
-      {
-        "row": 3,
-        "rowsha": "LQuXRoGEzEf1aDIlK1w6dDU8ImlcuICioiTPNw4QLCQ=",
-        "originContent": "    npm install",
-        "translatedContent": "    npm install"
-      },
-      {
-        "row": 4,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 6,
+    "Id": 7,
     "Content": "\n3. Install back-end dependencies / 安装后端依赖:",
     "ContentSha": "PqHxSARqLCh8n+V0wEsW9i2z2PZaIRWnr8gshudSR2I=",
     "SectionType": "",
@@ -517,24 +659,11 @@
     "EndLine": 0,
     "Translation": "3. Instalar dependencias del back-end / 安装后端依赖:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "3. Instalar dependencias del back-end / 安装后端依赖:"
-      },
-      {
-        "row": 2,
-        "rowsha": "rt+9jhTjXwXtg5XoWgDwgDWsKjhvxdTH3oK48rzeBXc=",
-        "originContent": "3. Install back-end dependencies / 安装后端依赖:",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 7,
+    "Id": 8,
     "Content": "    ```bash\n    cd ../backend\n    mvn install\n    ```",
     "ContentSha": "qBtZHygdih7K7p+OWchFvq1v6sbeAozeDTycW5Xx+Pw=",
     "SectionType": "",
@@ -542,36 +671,11 @@
     "EndLine": 0,
     "Translation": "    ```bash\n    cd ../backend\n    mvn install\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
-        "originContent": "    ```bash",
-        "translatedContent": "    ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "Hn5tn3bCSxOKSuzcti7JvNxoZxAnXWhQ7ptgh4bwBw8=",
-        "originContent": "    cd ../backend",
-        "translatedContent": "    cd ../backend"
-      },
-      {
-        "row": 3,
-        "rowsha": "6ibH/yoN7VpD4AAg50DJsDq4rdhQJlIybYwCrhTr8zg=",
-        "originContent": "    mvn install",
-        "translatedContent": "    mvn install"
-      },
-      {
-        "row": 4,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 8,
+    "Id": 9,
     "Content": "\n### Running the Application / 运行应用\n\n1. Start the back-end server / 启动后端服务器:",
     "ContentSha": "WK6zPgrAFmaAM6SHDp/13O6LRc6RpZzuGCDAEnmoqSo=",
     "SectionType": "",
@@ -579,36 +683,11 @@
     "EndLine": 0,
     "Translation": "\n### Ejecutar la Aplicación / 运行应用\n\n1. Inicie el servidor back-end / 启动后端服务器:",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "1JxY37VWIIf2jn2R4QbFOh6/JAvPhgCPJpAv/T20lxM=",
-        "originContent": "### Running the Application / 运行应用",
-        "translatedContent": "### Ejecutar la Aplicación / 运行应用"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "nzfYG0rPp/c+in2D3ZeoRdsFnidOUzeCnP8rhenVb/I=",
-        "originContent": "1. Start the back-end server / 启动后端服务器:",
-        "translatedContent": "1. Inicie el servidor back-end / 启动后端服务器:"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 9,
+    "Id": 10,
     "Content": "    ```bash\n    cd backend\n    mvn spring-boot:run\n    ```",
     "ContentSha": "BEVzEMeJwcn68opRZIw0nWwDEWg9XL7/ELp+KnwAyLY=",
     "SectionType": "",
@@ -616,36 +695,11 @@
     "EndLine": 0,
     "Translation": "    ```bash\n    cd backend\n    mvn spring-boot:run\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
-        "originContent": "    ```bash",
-        "translatedContent": "    ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "fiSQ6L6FMFfv3JduVJYlHitm9sMbCPkntwi+uCKnR7Y=",
-        "originContent": "    cd backend",
-        "translatedContent": "    cd backend"
-      },
-      {
-        "row": 3,
-        "rowsha": "bwr2gWCPnrVmbELoeRqJxItEcMKtUFrZjTHQlzBI0Xs=",
-        "originContent": "    mvn spring-boot:run",
-        "translatedContent": "    mvn spring-boot:run"
-      },
-      {
-        "row": 4,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 10,
+    "Id": 11,
     "Content": "\n2. Start the front-end development server / 启动前端开发服务器:",
     "ContentSha": "gWwSZJm2xa1d4Iu0vgxBzkR9Y8W9uq7UIZuNq786DiI=",
     "SectionType": "",
@@ -653,24 +707,11 @@
     "EndLine": 0,
     "Translation": "2. Iniciar el servidor de desarrollo front-end / 启动前端开发服务器:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "2. Iniciar el servidor de desarrollo front-end / 启动前端开发服务器:"
-      },
-      {
-        "row": 2,
-        "rowsha": "9VMGsPhh+oQ23sRfyy18h5d1cfT66bTd9q9WymdvTuY=",
-        "originContent": "2. Start the front-end development server / 启动前端开发服务器:",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 11,
+    "Id": 12,
     "Content": "    ```bash\n    cd ../frontend\n    npm start\n    ```",
     "ContentSha": "mMrjgf4iLtE551OFIYpsFrs4dh7pZy6Vx40V5ya/uSQ=",
     "SectionType": "",
@@ -678,36 +719,11 @@
     "EndLine": 0,
     "Translation": "    ```bash\n    cd ../frontend\n    npm start\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
-        "originContent": "    ```bash",
-        "translatedContent": "    ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "OcuKQLZ66GbJeaUvTHZGKtMRQmIB1Ug7ttX9ANkNQCo=",
-        "originContent": "    cd ../frontend",
-        "translatedContent": "    cd ../frontend"
-      },
-      {
-        "row": 3,
-        "rowsha": "0GiKoMT62FwOwsCKlB7YRAI+zBCiqVqVTaSioYM/5Ak=",
-        "originContent": "    npm start",
-        "translatedContent": "    npm start"
-      },
-      {
-        "row": 4,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 12,
+    "Id": 13,
     "Content": "\n## Contributing / 贡献\n\n[//]: # (Contributions are welcome! Please read the [contributing guidelines]&#40;CONTRIBUTING.md&#41; for more information.)\n\n[//]: # ()\n[//]: # (欢迎贡献！请阅读 [贡献指南]&#40;CONTRIBUTING.md&#41; 了解更多信息。)\n\n## License / 许可证\n\nThis project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.\n\n本项目使用 MIT 许可证。详细信息请参阅 [LICENSE](LICENSE) 文件。\n\n## Acknowledgements / 致谢\n\n- [React.js](https://reactjs.org/)\n- [Spring Boot](https://spring.io/projects/spring-boot)\n\n## Contact / 联系\n\nFor any inquiries, please contact [grtsinry43](https://github.com/grtsinry43).\n\n如有任何疑问，请联系 [grtsinry43](https://github.com/grtsinry43)。\n",
     "ContentSha": "nIe4xJg8OrGojn2qJ39Q8Mjy+z+JgGofenzA8ybMmhE=",
     "SectionType": "",
@@ -715,158 +731,7 @@
     "EndLine": 0,
     "Translation": "\n## Contribuyendo / 贡献\n\n[//]: # (¡Las contribuciones son bienvenidas! Por favor, lee las [directrices para contribuir]&#40;CONTRIBUTING.md&#41; para más información.)\n\n[//]: # ()\n[//]: # (欢迎贡献！请阅读 [贡献指南]&#40;CONTRIBUTING.md&#41; 了解更多信息。)\n\n## Licencia / 许可证\n\nEste proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.\n\n本项目使用 MIT 许可证。详细信息请参阅 [LICENSE](LICENSE) 文件。\n\n## Agradecimientos / 致谢\n\n- [React.js](https://reactjs.org/)\n- [Spring Boot](https://spring.io/projects/spring-boot)\n\n## Contacto / 联系\n\nPara cualquier consulta, por favor contacta a [grtsinry43](https://github.com/grtsinry43).\n\n如有任何疑问，请联系 [grtsinry43](https://github.com/grtsinry43)。\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "npusFIxyxQ/3fAwZU74RtetUtI3Pv9CmduD5S/eu3ig=",
-        "originContent": "## Contributing / 贡献",
-        "translatedContent": "## Contribuyendo / 贡献"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "UsNL2wVX85fv+m6zVs8R54K75OECwVgycrRcRdqZ9q4=",
-        "originContent": "[//]: # (Contributions are welcome! Please read the [contributing guidelines]&#40;CONTRIBUTING.md&#41; for more information.)",
-        "translatedContent": "[//]: # (¡Las contribuciones son bienvenidas! Por favor, lee las [directrices para contribuir]&#40;CONTRIBUTING.md&#41; para más información.)"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "GYD1BCSK3oONN0H/vxdV7KdprpYHizlus1qJow/XOEE=",
-        "originContent": "[//]: # ()",
-        "translatedContent": "[//]: # ()"
-      },
-      {
-        "row": 7,
-        "rowsha": "n65m3zpM5E71hPcP96TBhdnvttEqsMnbQ61DZKnD12k=",
-        "originContent": "[//]: # (欢迎贡献！请阅读 [贡献指南]&#40;CONTRIBUTING.md&#41; 了解更多信息。)",
-        "translatedContent": "[//]: # (欢迎贡献！请阅读 [贡献指南]&#40;CONTRIBUTING.md&#41; 了解更多信息。)"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "WfRes2TcnefSLm5Xs9ZOgHbzUxOecZGba1LW+/z/WXs=",
-        "originContent": "## License / 许可证",
-        "translatedContent": "## Licencia / 许可证"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "JH3sz3mjuQaCd/DzIihh3gXY1C+5cMHFSIlbm3SBuvg=",
-        "originContent": "This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.",
-        "translatedContent": "Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles."
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "ciAC4IGOGbrOLBcrX1V6Dzfk1+ajH5goNsoBE+4z2uY=",
-        "originContent": "本项目使用 MIT 许可证。详细信息请参阅 [LICENSE](LICENSE) 文件。",
-        "translatedContent": "本项目使用 MIT 许可证。详细信息请参阅 [LICENSE](LICENSE) 文件。"
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "CvlN5hMUrG3mMcNwLGekFwHZh0TKPJnJGwyGKm92aCg=",
-        "originContent": "## Acknowledgements / 致谢",
-        "translatedContent": "## Agradecimientos / 致谢"
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "fwwl7jir5EVXQvLeilTtSYVlLAxNA2JFFkxSvTcdqn0=",
-        "originContent": "- [React.js](https://reactjs.org/)",
-        "translatedContent": "- [React.js](https://reactjs.org/)"
-      },
-      {
-        "row": 18,
-        "rowsha": "lOI5u8ohIBUWYk0A2glkbhzxFnWGkgVX7tvgxIfMoZw=",
-        "originContent": "- [Spring Boot](https://spring.io/projects/spring-boot)",
-        "translatedContent": "- [Spring Boot](https://spring.io/projects/spring-boot)"
-      },
-      {
-        "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 20,
-        "rowsha": "2aH5I5CCoKFURTWjS0N/mdTSS7WNTnpPx8mRY+HQN1c=",
-        "originContent": "## Contact / 联系",
-        "translatedContent": "## Contacto / 联系"
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "0Cg+Nil25jUfKFWxa8joDNGYzIKJCX9Xy7cH0RwZrjg=",
-        "originContent": "For any inquiries, please contact [grtsinry43](https://github.com/grtsinry43).",
-        "translatedContent": "Para cualquier consulta, por favor contacta a [grtsinry43](https://github.com/grtsinry43)."
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "s7rn91YvKeJLqzTymg4NFm0upSenyXUubysa2VkfFWE=",
-        "originContent": "如有任何疑问，请联系 [grtsinry43](https://github.com/grtsinry43)。",
-        "translatedContent": "如有任何疑问，请联系 [grtsinry43](https://github.com/grtsinry43)。"
-      },
-      {
-        "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]
