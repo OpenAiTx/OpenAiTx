@@ -1,0 +1,382 @@
+[
+  {
+    "Id": 1,
+    "Content": "# hcl-rs\n\n[![Build Status](https://github.com/martinohmann/hcl-rs/workflows/ci/badge.svg)](https://github.com/martinohmann/hcl-rs/actions?query=workflow%3Aci)\n[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\nThis repository contains the following rust crates around the Hashicorp\nConfiguration Language (HCL):\n\n- [`hcl-rs`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl-rs):\n  HCL library with `serde` and expression evaluation support.\n- [`hcl-edit`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl-edit):\n  Parse and modify HCL documents while preserving whitespace and comments.\n- [`hcl-primitives`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl-primitives):\n  Primitives used by the HCL sub-languages.\n- [`hcl2json`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl2json):\n  CLI program for converting HCL to JSON.\n\n## Feature parity with the go-hcl implementation\n\nThe crates in this repository try to closely follow these specifications that\nare part of the Hashicorp's [HCL Go\nimplementation](https://github.com/hashicorp/hcl):\n\n- [HCL Syntax-Agnostic Information Model](https://github.com/hashicorp/hcl/blob/main/spec.md)\n- [HCL Native Syntax Specification](https://github.com/hashicorp/hcl/blob/main/hclsyntax/spec.md)\n- [HCL JSON Syntax Specification](https://github.com/hashicorp/hcl/blob/main/json/spec.md)\n\nAt the parser level it should support all features that go-hcl does today.\nHowever, the implementations for formatting and expression evaluation in `hcl-rs`\nare relatively basic at the moment. There are plans to move formatting and\nexpression evaluation capabilities into `hcl-edit` (which is used by `hcl-rs` under\nthe hood and also contains the parser implementation) and to make them more\npowerful.\n\nAnother thing that is not included (yet), is the support for HCL schemas in\norder to validate that a parsed HCL document only contains an allowed set of\nblocks with expected attributes (e.g. to enable validation that a given\nterraform configuration only contains well-formed `resource` and `data` blocks\netc.).",
+    "ContentSha": "lu/wNrkL5rz7yeHgVD0Srzof+P5w+eJvawS3fxxBK0c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# hcl-rs\n\n[![Build Status](https://github.com/martinohmann/hcl-rs/workflows/ci/badge.svg)](https://github.com/martinohmann/hcl-rs/actions?query=workflow%3Aci)\n[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\nCe dépôt contient les crates Rust suivantes autour du Hashicorp\nConfiguration Language (HCL) :\n\n- [`hcl-rs`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl-rs) :\n  Bibliothèque HCL avec support de `serde` et de l’évaluation d’expressions.\n- [`hcl-edit`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl-edit) :\n  Analyse et modification de documents HCL tout en préservant les espaces et commentaires.\n- [`hcl-primitives`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl-primitives) :\n  Primitives utilisées par les sous-langages HCL.\n- [`hcl2json`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl2json) :\n  Programme CLI pour convertir HCL en JSON.\n\n## Parité fonctionnelle avec l’implémentation go-hcl\n\nLes crates de ce dépôt essaient de suivre de près ces spécifications qui\nfont partie de l’implémentation [HCL Go](https://github.com/hashicorp/hcl) de Hashicorp :\n\n- [Modèle d’information syntaxe-agnostique HCL](https://github.com/hashicorp/hcl/blob/main/spec.md)\n- [Spécification syntaxe native HCL](https://github.com/hashicorp/hcl/blob/main/hclsyntax/spec.md)\n- [Spécification syntaxe JSON HCL](https://github.com/hashicorp/hcl/blob/main/json/spec.md)\n\nAu niveau du parseur, il devrait supporter toutes les fonctionnalités présentes dans go-hcl aujourd’hui.\nCependant, les implémentations pour le formatage et l’évaluation d’expressions dans `hcl-rs`\nsont pour l’instant relativement basiques. Il est prévu de déplacer les capacités de formatage et\nd’évaluation d’expressions dans `hcl-edit` (utilisé par `hcl-rs` en interne et contenant aussi l’implémentation du parseur)\net de les rendre plus puissantes.\n\nAutre point non inclus (encore), le support des schémas HCL\npour valider qu’un document HCL analysé ne contient qu’un ensemble autorisé\nde blocs avec des attributs attendus (par exemple pour permettre la validation qu’une configuration\nterraform donnée ne contient que des blocs `resource` et `data` bien formés, etc.).\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6jbtKzQBbfM+PPACYEaRiGu+mXOeKJtPkirtNtXpzr4=",
+        "originContent": "# hcl-rs",
+        "translatedContent": "# hcl-rs"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "7ulY22t2O8G5VfK7wXOTdmHNL2gxJqGrHBtt+HwK9mw=",
+        "originContent": "[![Build Status](https://github.com/martinohmann/hcl-rs/workflows/ci/badge.svg)](https://github.com/martinohmann/hcl-rs/actions?query=workflow%3Aci)",
+        "translatedContent": "[![Build Status](https://github.com/martinohmann/hcl-rs/workflows/ci/badge.svg)](https://github.com/martinohmann/hcl-rs/actions?query=workflow%3Aci)"
+      },
+      {
+        "row": 4,
+        "rowsha": "GsxqvnWWGS0WZ2BYA9Y7kKfvXsT/+UB08FGRnn0Cx4Q=",
+        "originContent": "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+        "translatedContent": "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+      },
+      {
+        "row": 5,
+        "rowsha": "5l9EBMX+xpg3IKegexFP4++mEhzb3dzUumoGkJ5nThc=",
+        "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+        "translatedContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "+u4+KsraWtJh83dG9idf5B91Bj8ysGYSujB/2rx2/iA=",
+        "originContent": "This repository contains the following rust crates around the Hashicorp",
+        "translatedContent": "Ce dépôt contient les crates Rust suivantes autour du Hashicorp"
+      },
+      {
+        "row": 8,
+        "rowsha": "L54VILZiK0W8hibMDXE3WbVVHf7KSfDAGw1srf7dWoU=",
+        "originContent": "Configuration Language (HCL):",
+        "translatedContent": "Configuration Language (HCL) :"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "9yBSbdxKv/ewO6LATlmqydHN4A04zOk6AbUeXi9sDis=",
+        "originContent": "- [`hcl-rs`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl-rs):",
+        "translatedContent": "- [`hcl-rs`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl-rs) :"
+      },
+      {
+        "row": 11,
+        "rowsha": "m7x4FMSSvru2uERZwmJpCKLMA/jjrFIW/x6yFfYPMzk=",
+        "originContent": "  HCL library with `serde` and expression evaluation support.",
+        "translatedContent": "  Bibliothèque HCL avec support de `serde` et de l’évaluation d’expressions."
+      },
+      {
+        "row": 12,
+        "rowsha": "41CnHUNsxoQgxa5/u8DMq1M32mcBxodRy3EQIjpsE1o=",
+        "originContent": "- [`hcl-edit`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl-edit):",
+        "translatedContent": "- [`hcl-edit`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl-edit) :"
+      },
+      {
+        "row": 13,
+        "rowsha": "CkCyy7aR2/5elTwJSBMCIEUkBVLhvYjaCQzX8YG39Fc=",
+        "originContent": "  Parse and modify HCL documents while preserving whitespace and comments.",
+        "translatedContent": "  Analyse et modification de documents HCL tout en préservant les espaces et commentaires."
+      },
+      {
+        "row": 14,
+        "rowsha": "49S+RX6gFI4D3injiAKtVc+9WiiuH1iUBYXP8yXl2fw=",
+        "originContent": "- [`hcl-primitives`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl-primitives):",
+        "translatedContent": "- [`hcl-primitives`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl-primitives) :"
+      },
+      {
+        "row": 15,
+        "rowsha": "9n+kzWdhje4nreXQGPuazYIAPmrwp7GY7fCIuMNb9qw=",
+        "originContent": "  Primitives used by the HCL sub-languages.",
+        "translatedContent": "  Primitives utilisées par les sous-langages HCL."
+      },
+      {
+        "row": 16,
+        "rowsha": "7ZjhOEpuX0jO6svj3Jev51PvGObeOvz+T//J24pn2Gw=",
+        "originContent": "- [`hcl2json`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl2json):",
+        "translatedContent": "- [`hcl2json`](https://github.com/martinohmann/hcl-rs/blob/main/crates/hcl2json) :"
+      },
+      {
+        "row": 17,
+        "rowsha": "vwh3rV8E8flqKlO5bpSyySlLemq6GWPMw9FaIdLCbr4=",
+        "originContent": "  CLI program for converting HCL to JSON.",
+        "translatedContent": "  Programme CLI pour convertir HCL en JSON."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "ae91tHFSRg+PIZxu9T9/5hKTAD2wSAEYx9Ldyz/drw8=",
+        "originContent": "## Feature parity with the go-hcl implementation",
+        "translatedContent": "## Parité fonctionnelle avec l’implémentation go-hcl"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "GmvWkU0/gSykkTJ6iukxNcfhDXsEKxJOw0bnWn3fVQE=",
+        "originContent": "The crates in this repository try to closely follow these specifications that",
+        "translatedContent": "Les crates de ce dépôt essaient de suivre de près ces spécifications qui"
+      },
+      {
+        "row": 22,
+        "rowsha": "CKNZ1jsZiWYheb7yy6QUeH1uyY1wdREueUBUouOxSzY=",
+        "originContent": "are part of the Hashicorp's [HCL Go",
+        "translatedContent": "font partie de l’implémentation [HCL Go](https://github.com/hashicorp/hcl) de Hashicorp :"
+      },
+      {
+        "row": 23,
+        "rowsha": "bX4npjB1/TfnrXydbB8TAVOwokuVwd3tvAU8fagm+HY=",
+        "originContent": "implementation](https://github.com/hashicorp/hcl):",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Modèle d’information syntaxe-agnostique HCL](https://github.com/hashicorp/hcl/blob/main/spec.md)"
+      },
+      {
+        "row": 25,
+        "rowsha": "6Q08zaQsDbTRuDg2vRhoXwtCyM4v4TKQbPLr7+zLQfg=",
+        "originContent": "- [HCL Syntax-Agnostic Information Model](https://github.com/hashicorp/hcl/blob/main/spec.md)",
+        "translatedContent": "- [Spécification syntaxe native HCL](https://github.com/hashicorp/hcl/blob/main/hclsyntax/spec.md)"
+      },
+      {
+        "row": 26,
+        "rowsha": "j+yZqbjHZY0rXQa2e/PHkK0AlyCxPcJcnhseGUXiT7M=",
+        "originContent": "- [HCL Native Syntax Specification](https://github.com/hashicorp/hcl/blob/main/hclsyntax/spec.md)",
+        "translatedContent": "- [Spécification syntaxe JSON HCL](https://github.com/hashicorp/hcl/blob/main/json/spec.md)"
+      },
+      {
+        "row": 27,
+        "rowsha": "Qg7Gt6EZ0Q3f3b9bDdONDwGAQVQCW3vLVyrL9C1Q5Lo=",
+        "originContent": "- [HCL JSON Syntax Specification](https://github.com/hashicorp/hcl/blob/main/json/spec.md)",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Au niveau du parseur, il devrait supporter toutes les fonctionnalités présentes dans go-hcl aujourd’hui."
+      },
+      {
+        "row": 29,
+        "rowsha": "Q/XNQOj0t7HiVB0SlJzxVucSB4Y/2sS9T+s7HxOI1fM=",
+        "originContent": "At the parser level it should support all features that go-hcl does today.",
+        "translatedContent": "Cependant, les implémentations pour le formatage et l’évaluation d’expressions dans `hcl-rs`"
+      },
+      {
+        "row": 30,
+        "rowsha": "8QdiJHBUiUSbHI3O4eSp5oR+Y8tLWDFAVLbMBhD8ouI=",
+        "originContent": "However, the implementations for formatting and expression evaluation in `hcl-rs`",
+        "translatedContent": "sont pour l’instant relativement basiques. Il est prévu de déplacer les capacités de formatage et"
+      },
+      {
+        "row": 31,
+        "rowsha": "PmxcqqKOhZOeN7ooQEGmYPUFq3TQo2OWznZG9kC75Gs=",
+        "originContent": "are relatively basic at the moment. There are plans to move formatting and",
+        "translatedContent": "d’évaluation d’expressions dans `hcl-edit` (utilisé par `hcl-rs` en interne et contenant aussi l’implémentation du parseur)"
+      },
+      {
+        "row": 32,
+        "rowsha": "HDu+mNG1Le8phoTSeLhb7sNjqi315B4oPyWvv0Y154Y=",
+        "originContent": "expression evaluation capabilities into `hcl-edit` (which is used by `hcl-rs` under",
+        "translatedContent": "et de les rendre plus puissantes."
+      },
+      {
+        "row": 33,
+        "rowsha": "vG1O/4t1T5zX24hWwdvvJh2+NPOXLxePt2r60TUuYmk=",
+        "originContent": "the hood and also contains the parser implementation) and to make them more",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "cU6srVjOD72PWQ79djxa3YWB0DNrNzySb2+wjWx4T5I=",
+        "originContent": "powerful.",
+        "translatedContent": "Autre point non inclus (encore), le support des schémas HCL"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "pour valider qu’un document HCL analysé ne contient qu’un ensemble autorisé"
+      },
+      {
+        "row": 36,
+        "rowsha": "K+L2ru02s8GjoAayFwlfuyLHaNd0eW+r2gVYgslrmrM=",
+        "originContent": "Another thing that is not included (yet), is the support for HCL schemas in",
+        "translatedContent": "de blocs avec des attributs attendus (par exemple pour permettre la validation qu’une configuration"
+      },
+      {
+        "row": 37,
+        "rowsha": "M7FWn8zJz37duybB16Kvpz0VYUMwFDA28P9LLzq/hCM=",
+        "originContent": "order to validate that a parsed HCL document only contains an allowed set of",
+        "translatedContent": "terraform donnée ne contient que des blocs `resource` et `data` bien formés, etc.)."
+      },
+      {
+        "row": 38,
+        "rowsha": "WZrNb3SEtm1Sirgx/BFKUO+KAstjzjLH79qYOOS6E+c=",
+        "originContent": "blocks with expected attributes (e.g. to enable validation that a given",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "DKhQbqjPBIzUnX91nz2ra+yBoT7lVCOyxl5AayyrINs=",
+        "originContent": "terraform configuration only contains well-formed `resource` and `data` blocks",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "vyZiBNwZmKYpR35Y1uhJ7u1FbRGzhe2knPOlxJIZbT0=",
+        "originContent": "etc.).",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\nAdditionally, schema support can help to make it easier to encode more complex\nconfigurations using custom types. These configurations are currently\ncumbersome to assemble because of limitations of the `serde` model.\n\n## Contributing\n\nContributions are welcome! Please read\n[`CONTRIBUTING.md`](https://github.com/martinohmann/hcl-rs/blob/main/CONTRIBUTING.md)\nbefore creating a PR.\n\n## License\n\nIf not stated otherwise, the source code inside this repository is licensed\nunder either of [Apache License, Version\n2.0](https://github.com/martinohmann/hcl-rs/blob/main/LICENSE-APACHE) or [MIT\nlicense](https://github.com/martinohmann/hcl-rs/blob/main/LICENSE-MIT) at your\noption.\n",
+    "ContentSha": "emvYijvQa2FHxUMX+DwnTAgOlASZ3TnfoDUwvqq3gFk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nDe plus, la prise en charge des schémas peut faciliter l’encodage de configurations plus complexes\nen utilisant des types personnalisés. Ces configurations sont actuellement\ndifficiles à assembler en raison des limitations du modèle `serde`.\n\n## Contribution\n\nLes contributions sont les bienvenues ! Veuillez lire\n[`CONTRIBUTING.md`](https://github.com/martinohmann/hcl-rs/blob/main/CONTRIBUTING.md)\navant de créer une PR.\n\n## Licence\n\nSauf indication contraire, le code source contenu dans ce dépôt est licencié\nsous l’une des licences [Apache License, Version\n2.0](https://github.com/martinohmann/hcl-rs/blob/main/LICENSE-APACHE) ou [licence\nMIT](https://github.com/martinohmann/hcl-rs/blob/main/LICENSE-MIT) selon votre\nchoix.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Yo/QycWtEdWJhU5GaBqFq5zfsB2CqQw+mvfywynGaBQ=",
+        "originContent": "Additionally, schema support can help to make it easier to encode more complex",
+        "translatedContent": "De plus, la prise en charge des schémas peut faciliter l’encodage de configurations plus complexes"
+      },
+      {
+        "row": 3,
+        "rowsha": "Bomf+cya4o5RPRI41MSj/O2UmEJGvPYaHEppd/AOyjw=",
+        "originContent": "configurations using custom types. These configurations are currently",
+        "translatedContent": "en utilisant des types personnalisés. Ces configurations sont actuellement"
+      },
+      {
+        "row": 4,
+        "rowsha": "wKYDFHyFf2Ej6BZCUvqYZ8YoY9gSMVOv+4artoQHkRE=",
+        "originContent": "cumbersome to assemble because of limitations of the `serde` model.",
+        "translatedContent": "difficiles à assembler en raison des limitations du modèle `serde`."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Contribution"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "VfaQhPJ+lE7gHUwX0RPf0JPBTwucMcSZQf0YNbL3GhM=",
+        "originContent": "Contributions are welcome! Please read",
+        "translatedContent": "Les contributions sont les bienvenues ! Veuillez lire"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Fp3pr/uJc9SWNVgwODetZVUodFI5DmM40tz9o8I7Pg=",
+        "originContent": "[`CONTRIBUTING.md`](https://github.com/martinohmann/hcl-rs/blob/main/CONTRIBUTING.md)",
+        "translatedContent": "[`CONTRIBUTING.md`](https://github.com/martinohmann/hcl-rs/blob/main/CONTRIBUTING.md)"
+      },
+      {
+        "row": 10,
+        "rowsha": "1OG5qELVChySppgUSdCTwgcCwLLoW03Bn6eRbIYlavM=",
+        "originContent": "before creating a PR.",
+        "translatedContent": "avant de créer une PR."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licence"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "ppcsvNNLy6PpowYj/6Rj4UkdFPrkjfym6vcnugwl/W0=",
+        "originContent": "If not stated otherwise, the source code inside this repository is licensed",
+        "translatedContent": "Sauf indication contraire, le code source contenu dans ce dépôt est licencié"
+      },
+      {
+        "row": 15,
+        "rowsha": "Ekb3+FXAbwF4OJm341s9cLq7gznb4/BLCI4kkmR1G0I=",
+        "originContent": "under either of [Apache License, Version",
+        "translatedContent": "sous l’une des licences [Apache License, Version"
+      },
+      {
+        "row": 16,
+        "rowsha": "fLXv6SjFdh2I4TEA92mQWoBI7JmLphlkA4EM0YWXt7w=",
+        "originContent": "2.0](https://github.com/martinohmann/hcl-rs/blob/main/LICENSE-APACHE) or [MIT",
+        "translatedContent": "2.0](https://github.com/martinohmann/hcl-rs/blob/main/LICENSE-APACHE) ou [licence"
+      },
+      {
+        "row": 17,
+        "rowsha": "/XIUxYECsqu2Kprri/aAOcppvK6qcE3grn7EbceGgiM=",
+        "originContent": "license](https://github.com/martinohmann/hcl-rs/blob/main/LICENSE-MIT) at your",
+        "translatedContent": "MIT](https://github.com/martinohmann/hcl-rs/blob/main/LICENSE-MIT) selon votre"
+      },
+      {
+        "row": 18,
+        "rowsha": "UPbygce6yFPeRGbo8BYNz3h8ilvF6AxLKw1CzRmEKuk=",
+        "originContent": "option.",
+        "translatedContent": "choix."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

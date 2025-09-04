@@ -29,73 +29,74 @@
   </details>
 </div>
 
-# Bộ Sưu Tập Các Tác Tử Phụ Claude Code
+# Bộ Sưu Tập Subagent Claude Code
 
-Một bộ sưu tập toàn diện các tác tử phụ AI chuyên biệt cho [Claude Code](https://docs.anthropic.com/en/docs/claude-code), được thiết kế để nâng cao quy trình phát triển với kiến thức chuyên môn theo từng lĩnh vực.
+Một bộ sưu tập toàn diện các subagent AI chuyên biệt cho [Claude Code](https://docs.anthropic.com/en/docs/claude-code), được thiết kế để nâng cao quy trình phát triển với kiến thức chuyên sâu theo từng lĩnh vực.
 
 ## Tổng quan
 
-Kho lưu trữ này chứa 75 tác tử phụ chuyên biệt mở rộng khả năng của Claude Code. Mỗi tác tử phụ là một chuyên gia trong một lĩnh vực cụ thể, được kích hoạt tự động dựa trên ngữ cảnh hoặc gọi trực tiếp khi cần. Tất cả các tác tử đều được cấu hình với các mô hình Claude phù hợp với độ phức tạp của tác vụ nhằm tối ưu hiệu suất và chi phí.
+Kho lưu trữ này chứa 76 subagent chuyên biệt mở rộng năng lực của Claude Code. Mỗi subagent là chuyên gia trong một lĩnh vực cụ thể, được tự động kích hoạt dựa trên ngữ cảnh hoặc gọi thủ công khi cần thiết. Tất cả các agent đều được cấu hình với các mô hình Claude phù hợp theo độ phức tạp của tác vụ để tối ưu hiệu suất và chi phí.
 
-## Các Tác Tử Phụ Hiện Có
+## Các Subagent Có Sẵn
 
 ### Phát triển & Kiến trúc
-- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Thiết kế API RESTful, ranh giới vi dịch vụ, và sơ đồ cơ sở dữ liệu
-- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Xây dựng các thành phần React, triển khai bố cục đáp ứng và quản lý trạng thái phía khách hàng
+- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Thiết kế API RESTful, ranh giới vi dịch vụ và lược đồ cơ sở dữ liệu
+- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Xây dựng các thành phần React, triển khai bố cục đáp ứng và quản lý trạng thái phía máy khách
 - **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Tạo thiết kế giao diện, wireframe và hệ thống thiết kế
+- **[ui-visual-validator](https://raw.githubusercontent.com/wshobson/agents/main/ui-visual-validator.md)** - Xác minh xem các thay đổi UI có đạt được mục tiêu dự kiến hay chưa thông qua phân tích ảnh chụp màn hình nghiêm ngặt
 - **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - Phát triển ứng dụng React Native hoặc Flutter với tích hợp native
-- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - Thiết kế sơ đồ GraphQL, resolvers và federation
-- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Xem xét các thay đổi mã để đảm bảo nhất quán kiến trúc và mẫu thiết kế
+- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - Thiết kế lược đồ GraphQL, trình phân giải và liên kết
+- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Xem xét thay đổi mã để đảm bảo tính nhất quán và mẫu kiến trúc
 
 ### Chuyên gia ngôn ngữ
 - **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - Viết mã Python chuẩn với các tính năng nâng cao và tối ưu hóa
-- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - Viết mã Ruby chuẩn với metaprogramming, mẫu Rails, phát triển gem và khung kiểm thử
+- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - Viết mã Ruby chuẩn với metaprogramming, mẫu Rails, phát triển gem và bộ kiểm thử
 - **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - Viết mã Go chuẩn với goroutine, channel và interface
 - **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - Viết mã Rust chuẩn với mẫu sở hữu, lifetime và triển khai trait
-- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Viết mã C hiệu quả với quản lý bộ nhớ đúng cách và gọi hệ thống
+- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - Viết mã C hiệu quả với quản lý bộ nhớ và gọi hệ thống thích hợp
 - **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - Viết mã C++ chuẩn với các tính năng hiện đại, RAII, smart pointer và thuật toán STL
 - **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - Thành thạo JavaScript hiện đại với ES6+, mẫu async và API Node.js
-- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Thành thạo TypeScript với kiểu nâng cao, generic và an toàn kiểu nghiêm ngặt
+- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - Thành thạo TypeScript với kiểu nâng cao, generic và kiểm tra kiểu chặt chẽ
 - **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - Viết mã PHP chuẩn với các tính năng hiện đại và tối ưu hóa hiệu suất
 - **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - Thành thạo Java hiện đại với stream, lập trình đồng thời và tối ưu hóa JVM
-- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Viết mã Elixir chuẩn với mẫu OTP, lập trình hàm và khung Phoenix
-- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Viết mã C# hiện đại với tính năng nâng cao và tối ưu hóa .NET
-- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - Thành thạo phát triển Scala doanh nghiệp với lập trình hàm, hệ thống phân tán và xử lý dữ liệu lớn
+- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - Viết mã Elixir chuẩn với mẫu OTP, lập trình hàm và framework Phoenix
+- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - Viết mã C# hiện đại với các tính năng nâng cao và tối ưu hóa .NET
+- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - Thành thạo phát triển Scala doanh nghiệp với lập trình hàm, hệ phân tán và xử lý dữ liệu lớn
 - **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Thành thạo phát triển Flutter với Dart, widget và tích hợp nền tảng
 - **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Xây dựng game Unity với script tối ưu và tinh chỉnh hiệu suất
-- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Thành thạo phát triển plugin máy chủ Minecraft với API Bukkit, Spigot và Paper
+- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Thành thạo phát triển plugin máy chủ Minecraft với Bukkit, Spigot và API Paper
 - **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Phát triển ứng dụng iOS native với Swift/SwiftUI
-- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Viết truy vấn SQL phức tạp, tối ưu hóa kế hoạch thực thi và thiết kế sơ đồ chuẩn hóa
+- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - Viết truy vấn SQL phức tạp, tối ưu hóa kế hoạch thực thi và thiết kế lược đồ chuẩn hóa
 
 ### Hạ tầng & Vận hành
-- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Gỡ lỗi sự cố sản xuất, phân tích log và khắc phục lỗi triển khai
+- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - Gỡ lỗi sự cố sản xuất, phân tích log và sửa lỗi triển khai
 - **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - Cấu hình pipeline CI/CD, container Docker và triển khai đám mây
 - **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - Thiết kế hạ tầng AWS/Azure/GCP và tối ưu hóa chi phí đám mây
-- **[hybrid-cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/hybrid-cloud-architect.md)** - Thiết kế hạ tầng đám mây lai trên AWS/Azure/GCP và môi trường on-premises OpenStack
-- **[kubernetes-architect](https://raw.githubusercontent.com/wshobson/agents/main/kubernetes-architect.md)** - Thiết kế hạ tầng cloud-native với Kubernetes làm lõi và nguyên lý GitOps trên AWS/Azure/GCP và môi trường lai.
+- **[hybrid-cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/hybrid-cloud-architect.md)** - Thiết kế hạ tầng đám mây lai trên AWS/Azure/GCP và môi trường OpenStack tại chỗ
+- **[kubernetes-architect](https://raw.githubusercontent.com/wshobson/agents/main/kubernetes-architect.md)** - Thiết kế hạ tầng cloud-native với Kubernetes làm lõi và nguyên tắc GitOps trên AWS/Azure/GCP cũng như môi trường lai.
 - **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - Tối ưu hóa truy vấn SQL, thiết kế chỉ mục hiệu quả và xử lý di chuyển cơ sở dữ liệu
 - **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - Quản lý vận hành cơ sở dữ liệu, sao lưu, nhân bản và giám sát
-- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Viết module Terraform nâng cao, quản lý file trạng thái và triển khai thực tiễn IaC tốt nhất
-- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Xử lý sự cố sản xuất với sự khẩn cấp và chính xác
-- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Gỡ lỗi kết nối mạng, cấu hình cân bằng tải và phân tích mẫu lưu lượng
-- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Chuyên gia Trải nghiệm Nhà phát triển cải thiện công cụ, thiết lập và quy trình làm việc
+- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Viết module Terraform nâng cao, quản lý file trạng thái và triển khai thực hành IaC tốt nhất
+- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Xử lý sự cố sản xuất với tính cấp bách và độ chính xác
+- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Gỡ lỗi kết nối mạng, cấu hình bộ cân bằng tải và phân tích mẫu lưu lượng
+- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Chuyên gia Trải nghiệm Nhà phát triển, cải thiện công cụ, thiết lập và quy trình làm việc
 
-### Chất lượng & An ninh
-- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Chuyên gia đánh giá mã với trọng tâm bảo mật cấu hình và độ tin cậy sản xuất
-- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Kiểm tra mã nguồn để phát hiện lỗ hổng và đảm bảo tuân thủ OWASP
+### Chất lượng & Bảo mật
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Chuyên gia kiểm tra mã với trọng tâm bảo mật cấu hình và độ tin cậy sản xuất
+- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Kiểm tra mã tìm lỗ hổng và đảm bảo tuân thủ OWASP
 - **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Tạo bộ kiểm thử toàn diện gồm kiểm thử đơn vị, tích hợp và end-to-end
-- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Phân tích hiệu năng ứng dụng, tối ưu nút thắt và thực hiện chiến lược bộ nhớ đệm
-- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Chuyên gia gỡ lỗi cho lỗi, kiểm thử thất bại và hành vi bất thường
-- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Tìm kiếm log và mã nguồn để phát hiện mẫu lỗi, trace và bất thường
+- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Phân tích hiệu suất ứng dụng, tối ưu điểm nghẽn, và triển khai chiến lược lưu trữ
+- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Chuyên gia gỡ lỗi cho lỗi, thất bại kiểm thử và hành vi bất thường
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Tìm kiếm nhật ký và mã nguồn để phát hiện lỗi, dấu vết stack, và bất thường
 - **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Chuyên gia nghiên cứu web sử dụng kỹ thuật tìm kiếm nâng cao và tổng hợp
 
 ### Dữ liệu & AI
-- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Chuyên gia phân tích dữ liệu cho truy vấn SQL, thao tác BigQuery và khai phá dữ liệu
-- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Xây dựng pipeline ETL, kho dữ liệu và kiến trúc streaming
+- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - Chuyên gia phân tích dữ liệu cho truy vấn SQL, vận hành BigQuery, và khám phá dữ liệu
+- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - Xây dựng pipeline ETL, kho dữ liệu và kiến trúc dữ liệu streaming
 - **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - Xây dựng ứng dụng LLM, hệ thống RAG và pipeline prompt
-- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Triển khai pipeline ML, phục vụ mô hình và kỹ thuật đặc trưng
-- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Xây dựng pipeline ML, theo dõi thử nghiệm và registry mô hình
-- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - Tối ưu prompt cho LLM và hệ thống AI
+- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - Triển khai pipeline ML, phục vụ mô hình và xây dựng đặc trưng dữ liệu
+- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - Xây dựng pipeline ML, theo dõi thử nghiệm và quản lý mô hình
+- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - Tối ưu hóa prompt cho các LLM và hệ thống AI
 
 ### Lĩnh vực chuyên biệt
 - **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - Tạo đặc tả OpenAPI/Swagger và viết tài liệu cho nhà phát triển
@@ -103,128 +104,129 @@ Kho lưu trữ này chứa 75 tác tử phụ chuyên biệt mở rộng khả n
 - **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - Xây dựng mô hình tài chính, kiểm thử chiến lược giao dịch và phân tích dữ liệu thị trường
 - **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - Giám sát rủi ro danh mục, R-multiples và giới hạn vị thế
 - **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - Tái cấu trúc mã nguồn cũ và triển khai hiện đại hóa từng bước
-- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Quản lý ngữ cảnh giữa nhiều agent và nhiệm vụ kéo dài
+- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - Quản lý ngữ cảnh giữa nhiều agent và các tác vụ dài hạn
 
 ### Tài liệu
-- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Tạo tài liệu kỹ thuật toàn diện từ mã nguồn hiện có
-- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Tạo sơ đồ Mermaid cho flowchart, sequence, ERD và kiến trúc hệ thống
-- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Tạo tài liệu tham khảo kỹ thuật đầy đủ và tài liệu API
+- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - Tạo tài liệu kỹ thuật toàn diện từ mã nguồn sẵn có
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Tạo sơ đồ Mermaid cho lưu đồ, chuỗi sự kiện, ERD và kiến trúc
+- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - Tạo tài liệu kỹ thuật và tài liệu API toàn diện
 - **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - Tạo hướng dẫn từng bước và nội dung giáo dục từ mã nguồn
 
-### Kinh doanh & Tiếp thị
-- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Phân tích chỉ số, lập báo cáo và theo dõi KPI
+### Kinh doanh & Marketing
+- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - Phân tích chỉ số, tạo báo cáo và theo dõi KPI
 - **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - Viết bài blog, nội dung mạng xã hội và bản tin email
-- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - Đối tác trong tuyển dụng, onboarding/offboarding, nghỉ phép, đánh giá hiệu suất, chính sách tuân thủ và quan hệ nhân viên.
-- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Soạn email chào mời, theo dõi và mẫu đề xuất
-- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Xử lý yêu cầu hỗ trợ, phản hồi FAQ và email khách hàng
-- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Soạn chính sách bảo mật, điều khoản dịch vụ, tuyên bố miễn trừ và thông báo pháp lý
+- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - Đối tác tuyển dụng, onboarding/offboarding, nghỉ phép, hiệu suất, chính sách tuân thủ và quan hệ nhân viên.
+- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - Soạn email lạnh, email theo dõi và mẫu đề xuất
+- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Xử lý phiếu hỗ trợ, trả lời FAQ và email khách hàng
+- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - Soạn thảo chính sách quyền riêng tư, điều khoản dịch vụ, tuyên bố từ chối trách nhiệm và thông báo pháp lý
 
-### Tối ưu hóa SEO & Nội dung
-- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - Phân tích nội dung cung cấp về chất lượng, tín hiệu E-E-A-T và các thực hành SEO tốt nhất
-- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - Tạo tiêu đề meta, mô tả và đề xuất URL tối ưu hóa
+### SEO & Tối ưu hóa nội dung
+- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - Phân tích chất lượng nội dung, tín hiệu E-E-A-T và các thực hành SEO tốt nhất
+- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - Tạo tiêu đề meta, mô tả và đề xuất URL tối ưu
 - **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - Phân tích sử dụng từ khóa, tính mật độ, đề xuất biến thể ngữ nghĩa
-- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - Tối ưu hóa cấu trúc nội dung, thứ bậc tiêu đề, và đánh dấu schema
-- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - Định dạng nội dung cho đoạn trích nổi bật và tính năng SERP
-- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - Xác định các yếu tố lỗi thời và đề xuất cập nhật nội dung
-- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - Phân tích nhiều trang để tìm trùng lặp và xung đột từ khóa
-- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - Phân tích nội dung về tín hiệu E-E-A-T và chỉ số độ tin cậy
-- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - Viết nội dung chuẩn SEO dựa trên từ khóa và bản mô tả
-- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - Tạo đề cương nội dung, cụm chủ đề và lịch xuất bản
+- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - Tối ưu hóa cấu trúc nội dung, thứ bậc tiêu đề và đánh dấu schema
+- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - Định dạng nội dung cho đoạn trích nổi bật và các tính năng SERP
+- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - Xác định yếu tố lỗi thời và đề xuất cập nhật nội dung
+- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - Phân tích nhiều trang để phát hiện trùng lặp và xung đột từ khóa
+- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - Phân tích tín hiệu E-E-A-T và chỉ số uy tín trong nội dung
+- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - Viết nội dung tối ưu SEO dựa trên từ khóa và bản tóm tắt
+- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - Lập đề cương nội dung, nhóm chủ đề và lịch đăng bài
 
-## Phân công Mô hình
+## Phân công mô hình
 
-Tất cả 75 subagent đều được cấu hình với các mô hình Claude cụ thể dựa trên độ phức tạp của nhiệm vụ:
+Tất cả 76 tác vụ phụ đều được cấu hình với các mô hình Claude cụ thể dựa trên độ phức tạp nhiệm vụ:
 
-### 🚀 Haiku (Nhanh & tiết kiệm chi phí) - 15 agent
+### 🚀 Haiku (Nhanh & Tiết kiệm chi phí) - 15 tác vụ
 **Mô hình:** `haiku`
 - `data-scientist` - Truy vấn SQL và phân tích dữ liệu
 - `api-documenter` - Tài liệu OpenAPI/Swagger
 - `reference-builder` - Tham khảo kỹ thuật toàn diện và tài liệu API
-- `business-analyst` - Theo dõi chỉ số và KPI
+- `business-analyst` - Theo dõi số liệu và KPI
 - `content-marketer` - Bài đăng blog và mạng xã hội
-- `customer-support` - Phiếu hỗ trợ và câu hỏi thường gặp
-- `sales-automator` - Email chào hàng và đề xuất
+- `customer-support` - Vé hỗ trợ và câu hỏi thường gặp
+- `sales-automator` - Email tiếp cận và đề xuất
 - `search-specialist` - Nghiên cứu web và thu thập thông tin
-- `legal-advisor` - Chính sách bảo mật và tài liệu tuân thủ
+- `legal-advisor` - Chính sách quyền riêng tư và tài liệu tuân thủ
 - `seo-meta-optimizer` - Tối ưu hóa tiêu đề meta và mô tả
 - `seo-keyword-strategist` - Phân tích mật độ từ khóa và ngữ nghĩa
 - `seo-structure-architect` - Cấu trúc nội dung và đánh dấu schema
 - `seo-snippet-hunter` - Định dạng đoạn trích nổi bật
-- `seo-content-refresher` - Cập nhật độ mới cho nội dung
+- `seo-content-refresher` - Cập nhật độ mới nội dung
 - `seo-cannibalization-detector` - Phát hiện trùng lặp từ khóa
-- `seo-content-planner` - Lịch xuất bản và đề cương nội dung
+- `seo-content-planner` - Lập lịch và đề cương nội dung
 
-### ⚡ Sonnet (Hiệu năng cân bằng) - 44 agent
+### ⚡ Sonnet (Hiệu năng cân bằng) - 45 tác vụ
 **Mô hình:** `sonnet`
 
 **Phát triển & Ngôn ngữ:**
 - `python-pro` - Phát triển Python với các tính năng nâng cao
-- `ruby-pro` - Phát triển Ruby với metaprogramming, mô hình Rails và phát triển gem
+- `ruby-pro` - Phát triển Ruby với metaprogramming, mẫu Rails và phát triển gem
 - `javascript-pro` - JavaScript hiện đại và Node.js
 - `typescript-pro` - TypeScript nâng cao với hệ thống kiểu dữ liệu
-- `golang-pro` - Lập trình Go với concurrency và các mẫu idiomatic
+- `golang-pro` - Go với xử lý đồng thời và mẫu idiomatic
 - `rust-pro` - Rust đảm bảo an toàn bộ nhớ và lập trình hệ thống
 - `c-pro` - Lập trình C và hệ thống nhúng
 - `cpp-pro` - C++ hiện đại với STL và template
 - `php-pro` - PHP hiện đại với các tính năng nâng cao
-- `java-pro` - Java hiện đại với streams và concurrency
-- `elixir-pro` - Elixir với các mẫu OTP và Phoenix
+- `java-pro` - Java hiện đại với streams và xử lý đồng thời
+- `elixir-pro` - Elixir với mẫu OTP và Phoenix
 - `csharp-pro` - C# hiện đại với các framework .NET và mẫu thiết kế
 - `scala-pro` - Scala doanh nghiệp với Apache Pekko, Akka, Spark, và ZIO/Cats Effect
 - `flutter-expert` - Phát triển Flutter với quản lý trạng thái và hoạt ảnh
-- `unity-developer` - Phát triển và tối ưu hóa game Unity
+- `unity-developer` - Phát triển game Unity và tối ưu hóa
 - `minecraft-bukkit-pro` - Phát triển plugin Minecraft với Bukkit/Spigot/Paper
 - `ios-developer` - Phát triển iOS native với Swift/SwiftUI
-- `frontend-developer` - Thành phần React và giao diện người dùng
-- `ui-ux-designer` - Thiết kế giao diện và wireframes
+- `frontend-developer` - React component và giao diện người dùng
+- `ui-ux-designer` - Thiết kế giao diện và wireframe
+- `ui-visual-validator` - Kiểm tra UI nghiêm ngặt qua phân tích ảnh chụp màn hình
 - `backend-architect` - Thiết kế API và microservices
 - `mobile-developer` - Ứng dụng React Native/Flutter
 - `sql-pro` - Tối ưu hóa SQL phức tạp
-- `graphql-architect` - Thiết kế schema và resolver cho GraphQL
+- `graphql-architect` - Thiết kế schema và resolver của GraphQL
 
 **Hạ tầng & Vận hành:**
-- `devops-troubleshooter` - Gỡ lỗi trong môi trường sản xuất
-- `deployment-engineer` - Thiết lập pipeline CI/CD
+- `devops-troubleshooter` - Gỡ lỗi hệ thống sản xuất
+- `deployment-engineer` - Quy trình CI/CD
 - `database-optimizer` - Tối ưu hóa truy vấn
-- `database-admin` - Quản lý vận hành cơ sở dữ liệu
-- `terraform-specialist` - Hạ tầng dưới dạng mã (IaC)
+- `database-admin` - Vận hành cơ sở dữ liệu
+- `terraform-specialist` - Hạ tầng dưới dạng mã nguồn
 - `network-engineer` - Cấu hình mạng
 - `dx-optimizer` - Tối ưu hóa trải nghiệm lập trình viên
-- `data-engineer` - Thiết kế pipeline ETL
+- `data-engineer` - Quy trình ETL
 
 **Chất lượng & Hỗ trợ:**
 - `test-automator` - Tạo bộ kiểm thử tự động
 - `code-reviewer` - Phân tích chất lượng mã nguồn
-- `debugger` - Điều tra lỗi chương trình
-- `error-detective` - Phân tích log sự cố
-- `ml-engineer` - Triển khai mô hình học máy
+- `debugger` - Điều tra lỗi
+- `error-detective` - Phân tích nhật ký lỗi
+- `ml-engineer` - Triển khai mô hình ML
 - `legacy-modernizer` - Di chuyển framework cũ sang mới
 - `payment-integration` - Xử lý thanh toán
 - `mermaid-expert` - Sơ đồ Mermaid và tài liệu trực quan
 - `flutter-expert` - Phát triển Flutter
-- `seo-content-auditor` - Kiểm tra chất lượng nội dung và phân tích E-E-A-T
+- `seo-content-auditor` - Kiểm toán chất lượng nội dung và phân tích E-E-A-T
 - `seo-authority-builder` - Tối ưu hóa tín hiệu thẩm quyền
-- `seo-content-writer` - Sáng tạo nội dung tối ưu SEO
+- `seo-content-writer` - Sáng tạo nội dung tối ưu hóa SEO
 
-### 🧠 Opus (Năng lực tối đa) - 15 tác nhân
-**Model:** `opus`
+### 🧠 Opus (Khả năng tối đa) - 15 tác nhân
+**Mô hình:** `opus`
 - `ai-engineer` - Ứng dụng LLM và hệ thống RAG
 - `security-auditor` - Phân tích lỗ hổng bảo mật
-- `performance-engineer` - Tối ưu hóa ứng dụng
+- `performance-engineer` - Tối ưu hóa hiệu năng ứng dụng
 - `incident-responder` - Xử lý sự cố sản xuất
-- `mlops-engineer` - Hạ tầng học máy
-- `architect-reviewer` - Đánh giá kiến trúc nhất quán
+- `mlops-engineer` - Hạ tầng ML
+- `architect-reviewer` - Đánh giá tính nhất quán kiến trúc
 - `cloud-architect` - Thiết kế hạ tầng đám mây
-- `prompt-engineer` - Tối ưu hóa prompt LLM
-- `context-manager` - Điều phối đa tác nhân
-- `quant-analyst` - Mô hình tài chính
+- `prompt-engineer` - Tối ưu hóa prompt cho LLM
+- `context-manager` - Phối hợp đa tác nhân
+- `quant-analyst` - Mô hình hóa tài chính
 - `risk-manager` - Quản lý rủi ro danh mục đầu tư
-- `docs-architect` - Kiến trúc tài liệu kỹ thuật toàn diện từ mã nguồn
+- `docs-architect` - Tài liệu kỹ thuật toàn diện từ mã nguồn
 - `tutorial-engineer` - Nội dung hướng dẫn từng bước và giáo dục
 
 ## Cài đặt
 
-Các subagent này sẽ tự động khả dụng khi được đặt trong thư mục `~/.claude/agents/`.
+Các tác nhân phụ này sẽ tự động khả dụng khi được đặt trong thư mục `~/.claude/agents/`.
 
 ```bash
 cd ~/.claude
@@ -525,6 +527,6 @@ Dự án này được cấp phép theo Giấy phép MIT - xem tệp [LICENSE](L
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-04
 
 ---

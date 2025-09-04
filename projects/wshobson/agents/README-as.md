@@ -29,202 +29,204 @@
   </details>
 </div>
 
-# ক্লড ক'ড চাবএজেন্টছ সংগ্ৰহ
+# Claude Code Subagents Collection
 
-[Claude Code](https://docs.anthropic.com/en/docs/claude-code) ৰ বাবে বিশেষভাৱে সাজি উঠোৱা বিস্তৃত কৃত্ৰিম বুদ্ধিমত্তা চাবএজেন্টৰ সংগ্ৰহ, যি বিকাশকৰ কামৰ প্ৰৱাহক ক্ষেত্ৰ-নির্দিষ্ট দক্ষতাৰে উন্নত কৰে।
+[Claude Code](https://docs.anthropic.com/en/docs/claude-code)ৰ বাবে বিশেষভাৱে নিৰ্মিত কৃত্ৰিম বুদ্ধিমত্তাৰ উপ-এজেন্টৰ এক বিস্তৃত সংহতি, যি উন্নয়ন কার্যপদ্ধতি উন্নত কৰিবলৈ ক্ষেত্ৰ-নির্দিষ্ট দক্ষতা আগবঢ়ায়।
 
 ## পৰ্যালোচনা
 
-এই ৰিপ'জিটৰিটোত আছে ৭৫টা বিশেষ চাবএজেন্ট, যি ক্লড ক'ডৰ সক্ষমতা বৃদ্ধি কৰে। প্ৰতিটো চাবএজেন্ট নিজ নিজ ক্ষেত্ৰৰ বিশেষজ্ঞ, প্ৰসঙ্গৰ আধাৰত স্বয়ংক্ৰিয়ভাৱে আহ্বান কৰা হয় বা প্ৰয়োজন অনুসৰি স্পষ্টকৈ কল কৰা হয়। সকলো এজেন্ট নির্দিষ্ট কামৰ জটিলতাৰ ওপৰত আধাৰিত বিশেষ Claude মডেলৰ সৈতে সংৰূপিত, যাতে সৰ্বোত্তম কার্যক্ষমতা আৰু ব্যয়-দক্ষতা নিশ্চিত হয়।
+এই ৰেপ'জিট'ৰীত Claude Code'ৰ সক্ষমতা বৃদ্ধি কৰা ৭৬ টা বিশেষ উপ-এজেন্ট আছে। প্ৰতিটো উপ-এজেন্ট কোনো এখন নিৰ্দিষ্ট ক্ষেত্ৰত বিশেষজ্ঞ, পৰিপ্ৰেক্ষিতৰ ভিত্তিত স্বয়ংক্ৰিয়ভাৱে আহ্বান কৰা হয় বা প্ৰয়োজন অনুসৰি স্পষ্টভাৱে আহ্বান কৰিব পাৰি। সকলো এজেন্ট নিৰ্দিষ্ট Claude মডেলৰ সৈতে সংৰূপিত, কাৰ্যৰ জটিলতাৰ ভিত্তিত সৰ্বাধিক কার্যক্ষমতা আৰু খৰচ-দক্ষতাৰ বাবে।
 
-## উপলব্ধ চাবএজেন্টসমূহ
+## উপলব্ধ উপ-এজেন্টসমূহ
 
 ### উন্নয়ন আৰু স্থাপত্য
-- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - RESTful API, মাইক্ৰ’চাৰ্ভিছৰ সীমা, আৰু ডেটাবেইজ স্কিমা ডিজাইন কৰক
-- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - React কম্প’নেন্ট বনাওক, ৰেস্পনচিভ লেআউট প্ৰয়োগ কৰক, আৰু ক্লায়েন্ট-ছাইড ষ্টেট মেনেজমেণ্ট ব্যৱস্থা কৰক
-- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - ইণ্টাৰফেচ ডিজাইন, ৱায়াৰফ্ৰেম, আৰু ডিজাইন চিষ্টেম সৃষ্টি কৰক
-- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - React Native বা Flutter এপ্‌ছ উন্নয়ন কৰক, নেটিভ ইন্টেগ্ৰেচনসহ
-- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - GraphQL স্কিমা, ৰিজলভাৰ, আৰু ফেডাৰেচন ডিজাইন কৰক
-- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - স্থাপত্যগত একৰূপতা আৰু পেটাৰ্নৰ বাবে কোড পৰিৱর্তন পৰ্যালোচনা কৰে
+- **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - RESTful API, মাইক্র’চাৰ্ভিচ সীমা, আৰু ডাটাবেছ স্কিমা ডিজাইন কৰক
+- **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - React কম্প’নেন্ট নিৰ্মাণ কৰক, প্ৰতিত্তিক লেআউট বাস্তৱায়ন কৰক, আৰু ক্লায়েন্ট-পক্ষৰ ষ্টেট পৰিচালনা কৰক
+- **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - ইণ্টাৰফেছ ডিজাইন, ৱায়াৰফ্ৰেইম, আৰু ডিজাইন ছিষ্টেম সৃষ্টি কৰক
+- **[ui-visual-validator](https://raw.githubusercontent.com/wshobson/agents/main/ui-visual-validator.md)** - UI পৰিবর্তনসমূহে উদ্দেশ্য সফল হৈছে নে নাই, কঠোৰ স্ক্ৰিনশ্বট বিশ্লেষণৰ মাধ্যমে নিশ্চিত কৰক
+- **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - React Native বা Flutter এপ্লিকেশ্যন দেশীয় ইন্টিগ্ৰেশ্যন সহ উন্নয়ন কৰক
+- **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - GraphQL স্কিমা, ৰিজল্ভাৰ, আৰু ফেডাৰেশ্যন ডিজাইন কৰক
+- **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - স্থাপত্যগত একৰূপতা আৰু ধাৰণা পৰীক্ষা কৰি ক’ড পৰিবৰ্তনসমূহ ৰিভিউ কৰে
 
 ### ভাষা বিশেষজ্ঞ
-- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - উচ্চ সুবিধা আৰু অপ্টিমাইজেশ্যনৰ সৈতে আদৰ্শ Python কোড লিখক
-- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - মেটাপ্ৰগ্ৰামিং, Rails পেটাৰ্ন, gem ডেভেলপমেন্ট, আৰু টেষ্টিং ফ্ৰেমৱৰ্কৰ সৈতে আদৰ্শ Ruby কোড লিখক
-- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - goroutines, channel, আৰু interface সহ আদৰ্শ Go কোড লিখক
-- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - ownership pattern, lifetime, আৰু trait implementation সহ আদৰ্শ Rust কোড লিখক
-- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - যথাযথ মেমৰি মেনেজমেণ্ট আৰু system calls সহ প্ৰভাৱশালী C কোড লিখক
-- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - আধুনিক সুবিধা, RAII, smart pointer, আৰু STL algorithm সহ আদৰ্শ C++ কোড লিখক
-- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - আধুনিক JavaScript (ES6+), asynchronous পেটাৰ্ন, আৰু Node.js API ৰ দক্ষতা লাভ কৰক
-- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - উন্নত type, generic, আৰু কঠোৰ type safety সহ TypeScript ৰ দক্ষতা লাভ কৰক
-- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - আধুনিক সুবিধা আৰু কার্যক্ষম অপ্টিমাইজেশ্যনৰ সৈতে আদৰ্শ PHP কোড লিখক
-- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - stream, concurrency, আৰু JVM অপ্টিমাইজেশ্যন সহ আধুনিক Java ৰ দক্ষতা লাভ কৰক
-- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - OTP পেটাৰ্ন, ফাংকশ্যনেল প্ৰগ্ৰামিং, আৰু Phoenix ফ্ৰেমৱৰ্কৰ সৈতে আদৰ্শ Elixir কোড লিখক
-- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - উন্নত সুবিধা আৰু .NET অপ্টিমাইজেশ্যনৰ সৈতে আধুনিক C# কোড লিখক
-- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - ফাংকশ্যনেল প্ৰগ্ৰামিং, বিতৰণ ব্যৱস্থা, আৰু বিগ ডেটা প্ৰসেছিং সহ এণ্টাৰপ্ৰাইজ গ্রেড Scala ডেভেলপমেন্টত দক্ষতা লাভ কৰক
-- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Dart, widget, আৰু প্লেটফর্ম ইন্টেগ্ৰেচন সহ Flutter ডেভেলপমেন্টত দক্ষতা লাভ কৰক
-- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - অপ্টিমাইজ স্ক্ৰিপ্ট আৰু কার্যক্ষম টিউনিং সহ Unity গেম বনাওক
-- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Bukkit, Spigot, আৰু Paper API সহ Minecraft server plugin ডেভেলপমেন্টত দক্ষতা লাভ কৰক
-- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Swift/SwiftUI সহ নেটিভ iOS এপ্‌ উন্নয়ন কৰক
-- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - জটিল SQL কুৱেৰী লিখক, এক্সিকিউশ্যন প্ল্যান অপ্টিমাইজ কৰক, আৰু স্বাভাবিক স্কিমা ডিজাইন কৰক
+- **[python-pro](https://raw.githubusercontent.com/wshobson/agents/main/python-pro.md)** - উন্নত বৈশিষ্ট্য আৰু অপ্টিমাইজেচনৰ সৈতে আদর্শ Python ক’ড লিখক
+- **[ruby-pro](https://raw.githubusercontent.com/wshobson/agents/main/ruby-pro.md)** - মেটাপ্ৰগ্ৰামিং, Rails ধাৰণা, gem উন্নয়ন, আৰু টেস্টিং ফ্ৰেমৱৰ্কৰ সৈতে আদর্শ Ruby ক’ড লিখক
+- **[golang-pro](https://raw.githubusercontent.com/wshobson/agents/main/golang-pro.md)** - goroutine, channel, আৰু interface সহ আদর্শ Go ক’ড লিখক
+- **[rust-pro](https://raw.githubusercontent.com/wshobson/agents/main/rust-pro.md)** - ownership pattern, lifetime, আৰু trait বাস্তৱায়নৰ সৈতে আদর্শ Rust লিখক
+- **[c-pro](https://raw.githubusercontent.com/wshobson/agents/main/c-pro.md)** - উপযুক্ত মেমৰি পৰিচালনা আৰু system call সহ দক্ষ C ক’ড লিখক
+- **[cpp-pro](https://raw.githubusercontent.com/wshobson/agents/main/cpp-pro.md)** - আধুনিক বৈশিষ্ট্য, RAII, স্মাৰ্ট pointer, আৰু STL এলগৰিদম সহ আদর্শ C++ ক’ড লিখক
+- **[javascript-pro](https://raw.githubusercontent.com/wshobson/agents/main/javascript-pro.md)** - আধুনিক JavaScript, ES6+, async pattern, আৰু Node.js APIত দক্ষতা অর্জন কৰক
+- **[typescript-pro](https://raw.githubusercontent.com/wshobson/agents/main/typescript-pro.md)** - উন্নত টাইপ, generic, আৰু কঠোৰ টাইপ নিৰাপত্তাৰ সৈতে TypeScriptত দক্ষতা অর্জন কৰক
+- **[php-pro](https://raw.githubusercontent.com/wshobson/agents/main/php-pro.md)** - আধুনিক বৈশিষ্ট্য আৰু কাৰ্যক্ষমতা অপ্টিমাইজেচন সহ আদর্শ PHP ক’ড লিখক
+- **[java-pro](https://raw.githubusercontent.com/wshobson/agents/main/java-pro.md)** - stream, concurrency, আৰু JVM অপ্টিমাইজেচন সহ আধুনিক Javaত দক্ষতা অর্জন কৰক
+- **[elixir-pro](https://raw.githubusercontent.com/wshobson/agents/main/elixir-pro.md)** - OTP pattern, functional programming, আৰু Phoenix framework সহ আদর্শ Elixir ক’ড লিখক
+- **[csharp-pro](https://raw.githubusercontent.com/wshobson/agents/main/csharp-pro.md)** - উন্নত বৈশিষ্ট্য আৰু .NET অপ্টিমাইজেচন সহ আধুনিক C# ক’ড লিখক
+- **[scala-pro](https://raw.githubusercontent.com/wshobson/agents/main/scala-pro.md)** - functional programming, distributed system, আৰু big data processing সহ উদ্যোগিক Scala উন্নয়নত দক্ষতা
+- **[flutter-expert](https://raw.githubusercontent.com/wshobson/agents/main/flutter-expert.md)** - Dart, widget, আৰু platform integration সহ Flutter উন্নয়নত দক্ষতা
+- **[unity-developer](https://raw.githubusercontent.com/wshobson/agents/main/unity-developer.md)** - Unity গেম উন্নয়ন কৰক অপ্টিমাইজড স্ক্ৰিপ্ট আৰু কাৰ্যক্ষমতা টিউনিং সহ
+- **[minecraft-bukkit-pro](https://raw.githubusercontent.com/wshobson/agents/main/minecraft-bukkit-pro.md)** - Bukkit, Spigot, আৰু Paper API সহ Minecraft ছাৰ্ভাৰ প্লাগইন উন্নয়নত দক্ষতা
+- **[ios-developer](https://raw.githubusercontent.com/wshobson/agents/main/ios-developer.md)** - Swift/SwiftUIৰ সহায়ত দেশীয় iOS এপ্লিকেশ্যন উন্নয়ন কৰক
+- **[sql-pro](https://raw.githubusercontent.com/wshobson/agents/main/sql-pro.md)** - জটিল SQL কোয়েরি লিখক, execution plan অপ্টিমাইজ কৰক, আৰু normalised schema ডিজাইন কৰক
 
-### অবকাঠামো আৰু অপাৰেশ্যন
-- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - প্ৰডাকশ্যন সমস্যা ডিবাগ, লগ বিশ্লেষণ, আৰু ডিপ্লয়মেন্টৰ বিফলতা সমাধান
-- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - CI/CD pipeline, Docker container, আৰু cloud deployment কনফিগাৰ কৰক
-- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - AWS/Azure/GCP অবকাঠামো ডিজাইন আৰু cloud cost অপ্টিমাইজ কৰক
-- **[hybrid-cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/hybrid-cloud-architect.md)** - AWS/Azure/GCP আৰু OpenStack on-premises environment ৰ মাজত hybrid cloud infrastructure ডিজাইন কৰক
-- **[kubernetes-architect](https://raw.githubusercontent.com/wshobson/agents/main/kubernetes-architect.md)** - Kubernetes কেন্দ্ৰিক cloud-native infrastructure আৰু GitOps মূলনীতিৰে AWS/Azure/GCP আৰু hybrid environment ডিজাইন কৰক।
-- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - SQL কুৱেৰী অপ্টিমাইজ কৰক, দক্ষ index ডিজাইন কৰক, আৰু ডেটাবেইজ মাইগ্ৰেশ্যন পরিচালনা কৰক
-- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - ডেটাবেইজ অপাৰেশ্যন, বেকআপ, replication, আৰু মনিটৰিং পৰিচালনা কৰক
-- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - উন্নত Terraform module লিখক, state file পৰিচালনা কৰক, আৰু IaC ৰ শ্ৰেষ্ঠ প্ৰয়োগ কৰক
-- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - উৎপাদন সংক্রান্ত ঘটনা তৎপরতা আৰু নিখুঁতভাৱে পৰিচালনা কৰে
-- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - নেটৱৰ্ক সংযোগ ডিবাগ, লোড বেলেন্সাৰ কনফিগাৰ, আৰু ট্ৰাফিক পেটাৰ্ন বিশ্লেষণ
-- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - ডেভেলপাৰ এক্সপিৰিয়েন্স বিশেষজ্ঞ, যি টুলিং, ছেটআপ, আৰু ৱৰ্কফ্ল' উন্নত কৰে
+### অৱকাঠামো আৰু অপাৰেশ্যন
+- **[devops-troubleshooter](https://raw.githubusercontent.com/wshobson/agents/main/devops-troubleshooter.md)** - উৎপাদন সমস্যাৰ সমাধান, লগ বিশ্লেষণ, আৰু ডিপ্লয়মেন্ট বিফলতা সমাধান
+- **[deployment-engineer](https://raw.githubusercontent.com/wshobson/agents/main/deployment-engineer.md)** - CI/CD pipeline, Docker container, আৰু cloud ডিপ্লয়মেন্ট কনফিগাৰ কৰক
+- **[cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/cloud-architect.md)** - AWS/Azure/GCP অৱকাঠামো ডিজাইন কৰক আৰু cloud খৰচ অপ্টিমাইজ কৰক
+- **[hybrid-cloud-architect](https://raw.githubusercontent.com/wshobson/agents/main/hybrid-cloud-architect.md)** - AWS/Azure/GCP আৰু OpenStack অন-প্ৰিমিছত hybrid cloud অৱকাঠামো ডিজাইন কৰক
+- **[kubernetes-architect](https://raw.githubusercontent.com/wshobson/agents/main/kubernetes-architect.md)** - Kubernetes মূলভূত cloud-native অৱকাঠামো আৰু GitOps নীতিৰে AWS/Azure/GCP আৰু hybrid environmentত ডিজাইন কৰক।
+- **[database-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/database-optimizer.md)** - SQL কোয়েরি অপ্টিমাইজ কৰক, দক্ষ index ডিজাইন কৰক, আৰু ডাটাবেছ মাইগ্ৰেশ্যন হেণ্ডল কৰক
+- **[database-admin](https://raw.githubusercontent.com/wshobson/agents/main/database-admin.md)** - ডাটাবেছ অপাৰেশ্যন, বেকআপ, ৰেপ্লিকেশ্যন, আৰু মনিটৰিং পৰিচালনা কৰক
+- **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - উন্নত Terraform মডিউল লিখক, state file পৰিচালনা কৰক, আৰু IaC উৎকৃষ্ট অনুশীলন বাস্তৱায়ন কৰক
+- **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - উৎপাদন ঘটনা তৎকাল আৰু নিখুঁতভাৱে পৰিচালনা কৰে
+- **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - নেটৱৰ্ক সংযোগৰ সমস্যা সমাধান, ল'ড বেলেন্সাৰ কনফিগাৰ কৰা, আৰু ট্ৰাফিক পেটাৰ্ন বিশ্লেষণ কৰা
+- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - ডেভেলপাৰ এক্সপিৰিয়েন্স বিশেষজ্ঞ যি টুলিং, ছেটআপ, আৰু ৱাৰ্কফ্ল' উন্নত কৰে
 
-### গুণগত মান & সুৰক্ষা
-- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - গভীৰ কনফিগাৰেচন সুৰক্ষা আৰু প্ৰডাকশ্যন বিশ্বাসযোগ্যতাসহ বিশেষজ্ঞ ক'ড ৰিভিউ
-- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - ক'ডত দূৰ্বলতা ৰিভিউ কৰে আৰু OWASP অনুসৰি নিশ্চিত কৰে
-- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - ইউনিট, ইন্টেগ্ৰেচন, আৰু e2e টেষ্টৰে বিস্তৃত টেষ্ট ছুইট সৃষ্টি কৰে
-- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - এপ্লিকেশ্যন প্ৰ'ফাইল কৰে, বটলনেক অপ্টিমাইজ কৰে, আৰু কেশিং কৌশল বাস্তৱায়ন কৰে
-- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - ভুল, টেষ্ট বিফলতা, আৰু অপ্রত্যাশিত আচৰণৰ বাবে ডিবাগিং বিশেষজ্ঞ
-- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - লগ আৰু ক'ডবেছত ভুলৰ পেটাৰ্ণ, ষ্টেক ট্রেছ, আৰু অস্বাভাৱিকতা সন্ধান কৰে
-- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - উন্নত সন্ধান প্ৰযুক্তি আৰু সংশ্লেষণ ব্যৱহাৰ কৰি ৱেব ৰিসাৰ্চৰ বিশেষজ্ঞ
+### গুণমান আৰু সুৰক্ষা
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - গভীৰ কনফিগাৰেশ্যন সুৰক্ষা আৰু প্ৰডাকশ্যন বিশ্বাসযোগ্যতা সহ ক'ড পৰ্যালোচনা বিশেষজ্ঞ
+- **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - কোডত দুর্বলতা পৰীক্ষা আৰু OWASP অনুগততা নিশ্চিত কৰা
+- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - ইউনিট, ইন্টেগ্ৰেশ্যন, আৰু e2e টেষ্ট সহ ব্যাপক টেষ্ট ছুইট সৃষ্টি কৰা
+- **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - এপ্লিকেশ্যন প্ৰ'ফাইল কৰা, বটলনেক অনুকূল কৰা, আৰু কেচিং কৌশল ব্যৱহাৰ কৰা
+- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - ত্ৰুটি, টেষ্ট বিফলতা, আৰু অপ্রত্যাশিত ব্যৱহাৰৰ বাবে ডিবাগিং বিশেষজ্ঞ
+- **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - ত্ৰুটি পেটাৰ্ন, ষ্টেক ট্রেইচ, আৰু অস্বাভাবিকতা বিচাৰি লগ আৰু কোডবেছ অনুসন্ধান কৰা
+- **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - উন্নত অনুসন্ধান কৌশল আৰু সংশ্লেষণ ব্যৱহাৰ কৰি ৱেব অনুসন্ধান বিশেষজ্ঞ
 
-### ডাটা & AI
-- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQL কুৱেৰী, BigQuery অপাৰেচন, আৰু ডাটা ইনচাইটছৰ বাবে ডাটা বিশ্লেষণ বিশেষজ্ঞ
-- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - ETL পাইপলাইন, ডাটা ৱেয়াৰহাউছ, আৰু ষ্ট্ৰিমিং আর্কিটেকচাৰ নিৰ্মাণ কৰে
-- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - LLM এপ্লিকেশ্যন, RAG ছিষ্টেম, আৰু প্ৰম্পট পাইপলাইন নিৰ্মাণ কৰে
-- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - ML পাইপলাইন, মডেল ছাৰ্ভিং, আৰু ফিচাৰ ইঞ্জিনিয়াৰিং বাস্তৱায়ন কৰে
-- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - ML পাইপলাইন, এক্সপাৰিমেণ্ট ট্রেকিং, আৰু মডেল ৰেজিষ্ট্ৰি নিৰ্মাণ কৰে
-- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - LLM আৰু AI ছিষ্টেমৰ বাবে প্ৰম্পট অপ্টিমাইজ কৰে
+### ডাটা আৰু AI
+- **[data-scientist](https://raw.githubusercontent.com/wshobson/agents/main/data-scientist.md)** - SQL কুৱেৰী, BigQuery কাৰ্যকলাপ, আৰু ডাটা অন্তর্দৃষ্টি বিশ্লেষণৰ বাবে বিশেষজ্ঞ
+- **[data-engineer](https://raw.githubusercontent.com/wshobson/agents/main/data-engineer.md)** - ETL পাইপলাইন, ডাটা ৱাৰহাউচ, আৰু ষ্ট্ৰিমিং আর্কিটেকচাৰ নিৰ্মাণ কৰা
+- **[ai-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ai-engineer.md)** - LLM এপ্লিকেশ্যন, RAG ছিষ্টেম, আৰু প্ৰম্পট পাইপলাইন নিৰ্মাণ কৰা
+- **[ml-engineer](https://raw.githubusercontent.com/wshobson/agents/main/ml-engineer.md)** - ML পাইপলাইন, মডেল ছাৰ্ভিং, আৰু ফিচাৰ ইঞ্জিনিয়াৰিং বাস্তবায়ন কৰা
+- **[mlops-engineer](https://raw.githubusercontent.com/wshobson/agents/main/mlops-engineer.md)** - ML পাইপলাইন, এক্সপেৰিমেন্ট ট্ৰেকিং, আৰু মডেল ৰেজিষ্ট্ৰী নিৰ্মাণ কৰা
+- **[prompt-engineer](https://raw.githubusercontent.com/wshobson/agents/main/prompt-engineer.md)** - LLM আৰু AI ছিষ্টেমৰ বাবে প্ৰম্পট অনুকূল কৰে
 
-### বিশেষ ক্ষেত্ৰসমূহ
-- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - OpenAPI/Swagger স্পেক সৃষ্টি কৰে আৰু ডেভেলপাৰ ডকুমেণ্টেচন লিখে
-- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Stripe, PayPal, আৰু পেমেণ্ট প্ৰ'চেছৰ ইন্টেগ্ৰেট কৰে
-- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - বিত্তীয় মডেল নিৰ্মাণ, ট্রেডিং কৌশল ব্যাকটেষ্ট, আৰু বজাৰ ডাটা বিশ্লেষণ কৰে
-- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - পোর্টফোলিঅ'ৰ ৰিস্ক, R-মাল্টিপল, আৰু পজিশ্বন সীমা মনিটৰ কৰে
-- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - লেগেছি ক'ডবেছ পুনৰ গঠন কৰে আৰু ধীৰে ধীৰে আধুনিকীকৰণ কৰে
-- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - বহু এজেণ্ট আৰু দীঘলীয়া টাস্কত Context পৰিচালনা কৰে
+### বিশেষ ক্ষেত্ৰ
+- **[api-documenter](https://raw.githubusercontent.com/wshobson/agents/main/api-documenter.md)** - OpenAPI/Swagger স্পেছ সৃষ্টি আৰু ডেভেলপাৰ ডকুমেন্টেচন লিখা
+- **[payment-integration](https://raw.githubusercontent.com/wshobson/agents/main/payment-integration.md)** - Stripe, PayPal, আৰু পেমেন্ট প্ৰচেসৰ একত্ৰিকৰণ
+- **[quant-analyst](https://raw.githubusercontent.com/wshobson/agents/main/quant-analyst.md)** - অৰ্থিক মডেল নিৰ্মাণ, ট্রেডিং কৌশল ব্যাকটেষ্ট, আৰু বজাৰ ডাটা বিশ্লেষণ
+- **[risk-manager](https://raw.githubusercontent.com/wshobson/agents/main/risk-manager.md)** - পোর্টফোলিও ৰিস্ক, R-মাল্টিপল, আৰু পজিশন সীমা মনিটৰ কৰা
+- **[legacy-modernizer](https://raw.githubusercontent.com/wshobson/agents/main/legacy-modernizer.md)** - লেগেচি কোডবেছ পুনৰগঠন আৰু ধীৰে আধুনিকীকৰণ বাস্তবায়ন
+- **[context-manager](https://raw.githubusercontent.com/wshobson/agents/main/context-manager.md)** - বহু এজেন্ট আৰু দীঘলীয়া টাস্কত কণ্টেক্স্ট পৰিচালনা কৰে
 
-### ডকুমেণ্টেচন
-- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - বিদ্যমান ক'ডবেছৰ পৰা বিস্তৃত প্ৰযুক্তিগত ডকুমেণ্টেচন সৃষ্টি কৰে
-- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Flowchart, Sequence, ERD, আৰু Architecture-ৰ বাবে Mermaid ডায়াগ্ৰাম সৃষ্টি কৰে
-- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - বিস্তৃত প্ৰযুক্তিগত Reference আৰু API ডকুমেণ্টেচন সৃষ্টি কৰে
-- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - ক'ডৰ পৰা Step-by-step টিউটোৰিয়েল আৰু শিক্ষামূলক সমল সৃষ্টি কৰে
+### ডকুমেন্টেচন
+- **[docs-architect](https://raw.githubusercontent.com/wshobson/agents/main/docs-architect.md)** - বিদ্যমান কোডবেছৰ পৰা ব্যাপক প্ৰযুক্তিগত ডকুমেন্টেচন সৃষ্টি কৰে
+- **[mermaid-expert](https://raw.githubusercontent.com/wshobson/agents/main/mermaid-expert.md)** - Flowchart, sequence, ERD, আৰু architecture ৰ বাবে Mermaid ডায়াগ্ৰাম সৃষ্টি কৰা
+- **[reference-builder](https://raw.githubusercontent.com/wshobson/agents/main/reference-builder.md)** - বিস্তৃত প্ৰযুক্তিগত ৰেফাৰেন্স আৰু API ডকুমেন্টেচন সৃষ্টি কৰা
+- **[tutorial-engineer](https://raw.githubusercontent.com/wshobson/agents/main/tutorial-engineer.md)** - কোডৰ পৰা ধাপে ধাপে টিউটোৰিয়েল আৰু শিক্ষামূলক বিষয়বস্তু সৃষ্টি কৰা
 
-### ব্যৱসায় & বিপণন
-- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - মেট্ৰিক বিশ্লেষণ, প্ৰতিবেদন সৃষ্টি, আৰু KPI ট্রেক কৰে
-- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - ব্লগ পোষ্ট, সামাজিক মাধ্যম সমল, আৰু ইমেইল নিউজলেটাৰ লিখে
-- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - নিযুক্তি, অনবোর্ডিং/অফবোর্ডিং, PTO আৰু ছুটি, পৰিসৰ, নীতি, আৰু কৰ্মচাৰী সম্পৰ্কৰ অংশীদাৰ।
-- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - ঠাণ্ডা ইমেইল, ফলো-আপ, আৰু প্ৰস্তাৱ টেমপ্লেট খচৰা কৰে
-- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - Support টিকেট, FAQ উত্তৰ, আৰু গ্ৰাহক ইমেইল পৰিচালনা কৰে
-- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - গোপনীয়তা নীতি, সেৱাৰ শর্ত, ডিসক্লেমাৰ, আৰু আইনী নোটিশ খচৰা কৰে
+### ব্যৱসায় আৰু বিপণন
+- **[business-analyst](https://raw.githubusercontent.com/wshobson/agents/main/business-analyst.md)** - মেট্ৰিক বিশ্লেষণ, ৰিপৰ্ট সৃষ্টি, আৰু KPI ট্ৰেক কৰা
+- **[content-marketer](https://raw.githubusercontent.com/wshobson/agents/main/content-marketer.md)** - ব্লগ প'ষ্ট, ছোসিয়েল মিডিয়া বিষয়বস্তু, আৰু ইমেইল নিউজলেটাৰ লিখা
+- **[hp-pro](https://raw.githubusercontent.com/wshobson/agents/main/hp-pro.md)** - নিযুক্তি, অনবোর্ডিং/অফবোর্ডিং, PTO আৰু ছুটি, কাৰ্যক্ষমতা, নীতিমালা, আৰু কৰ্মচাৰী সম্পৰ্কৰ বাবে অংশীদাৰ।
+- **[sales-automator](https://raw.githubusercontent.com/wshobson/agents/main/sales-automator.md)** - ঠাণ্ডা ইমেইল, ফল'আপ, আৰু প্ৰস্তাৱ টেম্পলেট খচৰা কৰা
+- **[customer-support](https://raw.githubusercontent.com/wshobson/agents/main/customer-support.md)** - সহায় সম্বন্ধীয় টিকেট, FAQ উত্তৰ, আৰু গ্ৰাহক ইমেইল হেণ্ডেল কৰা
+- **[legal-advisor](https://raw.githubusercontent.com/wshobson/agents/main/legal-advisor.md)** - গোপনীয়তা নীতি, সেৱাৰ শর্ত, অস্বীকাৰীকৰণ আৰু আইনী বিজ্ঞপ্তি খচৰা কৰে
 
-### SEO & Content Optimization
-- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - প্ৰদান কৰা বিষয়বস্তুৰ গুণ, E-E-A-T সংকেত আৰু SEO শ্ৰেষ্ঠ অনুশীলনসমূহ পৰ্যালোচনা কৰে
-- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - অপ্টিমাইজ কৰা মেটা টাইটেল, বিৱৰণ আৰু URL পৰামৰ্শ তৈয়াৰ কৰে
-- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - শব্দৰ ব্যৱহাৰ পৰ্যালোচনা, ঘনত্ব গণনা, আৰু অৰ্থবোধক পৰিৱর্তন পৰামৰ্শ কৰে
-- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - বিষয়বস্তুৰ গঠন, হেডাৰ শৃংখলা আৰু স্কিমা মাৰ্কআপ অপ্টিমাইজ কৰে
-- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - ফিচাৰ্ড স্নিপেট আৰু SERP বৈশিষ্ট্যৰ বাবে বিষয়বস্তু ফৰ্মেট কৰে
-- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - পুৰণি উপাদান চিনাক্ত কৰে আৰু বিষয়বস্তু আপডেটৰ পৰামৰ্শ দিয়ে
-- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - শব্দৰ ওভাৰলেপ আৰু দ্বন্দ্বৰ বাবে একাধিক পৃষ্ঠা পৰ্যালোচনা কৰে
-- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - বিষয়বস্তুত E-E-A-T সংকেত আৰু বিশ্বাস সূচক পৰ্যালোচনা কৰে
-- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - শব্দ আৰু সংক্ষিপ্তৰ আধাৰত SEO-অপ্টিমাইজ কৰা বিষয়বস্তু লিখে
-- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - বিষয়বস্তুৰ ধাৰনা, টপিক ক্লাষ্টাৰ আৰু কেলেণ্ডাৰ তৈয়াৰ কৰে
+### SEO আৰু বিষয়বস্তু অপ্টিমাইজেচন
+- **[seo-content-auditor](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-auditor.md)** - প্ৰদান কৰা বিষয়বস্তুৰ গুণ, E-E-A-T সংকেত, আৰু SEOৰ উৎকৃষ্ট অনুশীলনসমূহ বিশ্লেষণ কৰে
+- **[seo-meta-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/seo-meta-optimizer.md)** - অপ্টিমাইজ কৰা মেটা শিৰোনাম, বিৱৰণ, আৰু URLৰ পৰামৰ্শ তৈয়াৰ কৰে
+- **[seo-keyword-strategist](https://raw.githubusercontent.com/wshobson/agents/main/seo-keyword-strategist.md)** - কিওৱৰ্ড ব্যৱহাৰ বিশ্লেষণ, ঘনত্ব গণনা, অৰ্থসম্পন্ন ভিন্নতা পৰামৰ্শ
+- **[seo-structure-architect](https://raw.githubusercontent.com/wshobson/agents/main/seo-structure-architect.md)** - বিষয়বস্তুৰ গঠন, হেডাৰ শ্রেণীবিভাগ, আৰু স্কিমা মাৰ্কআপ অপ্টিমাইজ কৰে
+- **[seo-snippet-hunter](https://raw.githubusercontent.com/wshobson/agents/main/seo-snippet-hunter.md)** - বিষয়বস্তুৰ ফিচাৰ্ড স্নিপেট আৰু SERP বৈশিষ্ট্যৰ বাবে ফৰ্মেট কৰে
+- **[seo-content-refresher](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-refresher.md)** - পুরণি উপাদান চিনাক্ত কৰে আৰু বিষয়বস্তু আপডেটৰ পৰামৰ্শ দিয়ে
+- **[seo-cannibalization-detector](https://raw.githubusercontent.com/wshobson/agents/main/seo-cannibalization-detector.md)** - একাধিক পৃষ্ঠাৰ কিওৱৰ্ডৰ ওভাৰলেপ আৰু দ্বন্দ্ব বিশ্লেষণ কৰে
+- **[seo-authority-builder](https://raw.githubusercontent.com/wshobson/agents/main/seo-authority-builder.md)** - বিষয়বস্তুৰ E-E-A-T সংকেত আৰু বিশ্বাস সূচক বিশ্লেষণ কৰে
+- **[seo-content-writer](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-writer.md)** - কিওৱৰ্ড আৰু সংক্ষিপ্ত ভিত্তিত SEO-অপ্টিমাইজ কৰা বিষয়বস্তু লিখে
+- **[seo-content-planner](https://raw.githubusercontent.com/wshobson/agents/main/seo-content-planner.md)** - বিষয়বস্তুৰ আউটলাইন, বিষয় ক্লাষ্টাৰ, আৰু কেলেণ্ডাৰ তৈয়াৰ কৰে
 
-## Model Assignments
+## মডেল নিয়োগ
 
-সকলো ৭৫টা উপ-এজেন্ট নিৰ্দিষ্ট Claude মডেলৰ সৈতে টাস্কৰ জটিলতাৰ ভিত্তিত সংৰূপিত কৰা হৈছে:
+সমূহ ৭৬টা উপ-এজেন্ট নিদিষ্ট Claude মডেলৰ সৈতে কাৰ্য জটিলতাৰ ভিত্তিত সংৰূপিত কৰা হৈছে:
 
-### 🚀 Haiku (দ্ৰুত & খৰচ-কৰ্তৃত্ব) - ১৫টা এজেন্ট
+### 🚀 Haiku (দ্ৰুত আৰু খৰচ-দক্ষ) - ১৫টা এজেন্ট
 **Model:** `haiku`
-- `data-scientist` - SQL কুৱেৰী আৰু ডাটা বিশ্লেষণ
-- `api-documenter` - OpenAPI/Swagger ডকুমেণ্টেচন
-- `reference-builder` - বিস্তৃত প্ৰযুক্তিগত ৰেফাৰেন্স আৰু API ডকুমেণ্টেচন
-- `business-analyst` - মেট্ৰিক্স আৰু KPI ট্ৰেকিং
-- `content-marketer` - ব্লগ পোস্ট আৰু ছ'চিয়েল মিডিয়া
-- `customer-support` - সহায়ৰ টিকেট আৰু FAQ
-- `sales-automator` - ঠাণ্ডা ইমেইল আৰু প্ৰস্তাৱনা
+- `data-scientist` - SQL প্ৰশ্ন আৰু তথ্য বিশ্লেষণ
+- `api-documenter` - OpenAPI/Swagger ডকুমেন্টেশনৰ খচৰা
+- `reference-builder` - বিস্তৃত প্ৰযুক্তিগত ৰেফাৰেন্স আৰু API ডকুমেন্টেশনৰ খচৰা
+- `business-analyst` - মেট্ৰিক্স আৰু KPI অনুসৰণ
+- `content-marketer` - ব্লগ পোষ্ট আৰু ছ'চিয়েল মিডিয়া
+- `customer-support` - সহায় টিকিট আৰু FAQs
+- `sales-automator` - ঠাণ্ডা ইমেইল আৰু প্ৰস্তাৱ
 - `search-specialist` - ৱেব গৱেষণা আৰু তথ্য সংগ্ৰহ
-- `legal-advisor` - প্ৰাইভেছী নীতি আৰু অনুগত ডকুমেণ্ট
-- `seo-meta-optimizer` - মেটা টাইটেল আৰু বিৱৰণ অপ্টিমাইজ
-- `seo-keyword-strategist` - শব্দ ঘনত্ব আৰু অৰ্থ বিশ্লেষণ
-- `seo-structure-architect` - বিষয়বস্তুৰ গঠন আৰু স্কিমা মাৰ্কআপ
+- `legal-advisor` - গোপনীয়তা নীতি আৰু অনুগত নথি
+- `seo-meta-optimizer` - মেটা শিৰোনাম আৰু বিৱৰণ অপ্টিমাইজ
+- `seo-keyword-strategist` - কিওৱৰ্ড ঘনত্ব আৰু অৰ্থ বিশ্লেষণ
+- `seo-structure-architect` - বিষয়বস্তুৰ গঠন আৰু স্কিমা মাৰ্কআপ
 - `seo-snippet-hunter` - ফিচাৰ্ড স্নিপেট ফৰ্মেটিং
-- `seo-content-refresher` - বিষয়বস্তুৰ সতেজতা আপডেট
-- `seo-cannibalization-detector` - শব্দৰ ওভাৰলেপ চিনাক্তকৰণ
-- `seo-content-planner` - বিষয়বস্তু কেলেণ্ডাৰ আৰু ধাৰনা
+- `seo-content-refresher` - বিষয়বস্তুৰ নতুনত্ব আপডেট
+- `seo-cannibalization-detector` - কিওৱৰ্ড ওভাৰলেপ চিনাক্তকৰণ
+- `seo-content-planner` - বিষয়বস্তু কেলেণ্ডাৰ আৰু আউটলাইন
 
-### ⚡ Sonnet (সামঞ্জস্যপূৰ্ণ কাৰ্যক্ষমতা) - ৪৪টা এজেন্ট
+### ⚡ Sonnet (সমতুল্য কার্যক্ষমতা) - ৪৫টা এজেন্ট
 **Model:** `sonnet`
 
-**Development & Languages:**
-- `python-pro` - উন্নত বৈশিষ্ট্যৰ সৈতে Python উন্নয়ন
-- `ruby-pro` - Metaprogramming, Rails পেটাৰ্ন আৰু gem উন্নয়নৰ সৈতে Ruby উন্নয়ন
+**উন্নয়ন আৰু ভাষাসমূহ:**
+- `python-pro` - উন্নত বৈশিষ্ট্যৰে Python উন্নয়ন
+- `ruby-pro` - Metaprogramming, Rails পেটাৰ্ন আৰু gem উন্নয়নসহ Ruby উন্নয়ন
 - `javascript-pro` - আধুনিক JavaScript আৰু Node.js
-- `typescript-pro` - টাইপ চিস্টেমৰ সৈতে উন্নত TypeScript
-- `golang-pro` - Go concurrency আৰু আদর্শ পেটাৰ্ন
-- `rust-pro` - Rust স্মৃতি সুৰক্ষা আৰু চিষ্টেম প্ৰগ্ৰামিং
-- `c-pro` - C প্ৰগ্ৰামিং আৰু এম্বেডেড চিষ্টেম
-- `cpp-pro` - আধুনিক C++ STL আৰু টেমপ্লেটৰ সৈতে
-- `php-pro` - আধুনিক PHP উন্নত বৈশিষ্ট্যৰ সৈতে
-- `java-pro` - আধুনিক Java streams আৰু concurrency
-- `elixir-pro` - OTP পেটাৰ্ন আৰু Phoenixৰ সৈতে Elixir
-- `csharp-pro` - .NET ফ্ৰেমৱৰ্ক আৰু পেটাৰ্নৰ সৈতে আধুনিক C#
-- `scala-pro` - Apache Pekko, Akka, Spark, আৰু ZIO/Cats Effectৰ সৈতে এণ্টাৰপ্ৰাইজ Scala
-- `flutter-expert` - Flutter উন্নয়ন, state management আৰু animations
-- `unity-developer` - Unity গেম উন্নয়ন আৰু অপ্টিমাইজেশন
-- `minecraft-bukkit-pro` - Bukkit/Spigot/Paperৰ সৈতে Minecraft প্লাগইন উন্নয়ন
-- `ios-developer` - Swift/SwiftUIৰ সৈতে নেটিভ iOS উন্নয়ন
-- `frontend-developer` - React কম্পোনেন্ট আৰু UI
-- `ui-ux-designer` - ইন্টাৰফেচ ডিজাইন আৰু ৱায়াৰফ্ৰেম
-- `backend-architect` - API ডিজাইন আৰু মাইক্ৰ'চিষ্টেম
-- `mobile-developer` - React Native/Flutter এপছ
-- `sql-pro` - জটিল SQL অপ্টিমাইজেশন
-- `graphql-architect` - GraphQL স্কিমা আৰু ৰিজলভাৰ
+- `typescript-pro` - টাইপ ছিস্টেমসহ উন্নত TypeScript
+- `golang-pro` - Go concurrency আৰু শুদ্ধ পেটাৰ্ন
+- `rust-pro` - Rust memory safety আৰু systems programming
+- `c-pro` - C প্ৰগ্ৰামিং আৰু এম্বেডেড ছিস্টেম
+- `cpp-pro` - আধুনিক C++ STL আৰু template সহ
+- `php-pro` - আধুনিক PHP উন্নত বৈশিষ্ট্যৰে
+- `java-pro` - আধুনিক Java stream আৰু concurrency সহ
+- `elixir-pro` - Elixir OTP পেটাৰ্ন আৰু Phoenix সহ
+- `csharp-pro` - আধুনিক C# .NET framework আৰু পেটাৰ্ন সহ
+- `scala-pro` - Enterprise Scala Apache Pekko, Akka, Spark, আৰু ZIO/Cats Effect সহ
+- `flutter-expert` - Flutter উন্নয়ন, state management আৰু animation সহ
+- `unity-developer` - Unity গেম উন্নয়ন আৰু optimization
+- `minecraft-bukkit-pro` - Bukkit/Spigot/Paper সহ Minecraft plugin উন্নয়ন
+- `ios-developer` - Swift/SwiftUI সহ নেটিভ iOS উন্নয়ন
+- `frontend-developer` - React component আৰু UI
+- `ui-ux-designer` - Interface design আৰু wireframe
+- `ui-visual-validator` - Screenshot বিশ্লেষণ দ্বাৰা কঠোৰ UI validation
+- `backend-architect` - API design আৰু microservices
+- `mobile-developer` - React Native/Flutter এপ
+- `sql-pro` - জটিল SQL optimization
+- `graphql-architect` - GraphQL schema আৰু resolver
 
-**ইনফ্ৰাষ্ট্ৰাকচাৰ & অপাৰেশ্বন:**
-- `devops-troubleshooter` - প্ৰডাকচন ডিবাগিং
-- `deployment-engineer` - CI/CD পাইপলাইন
-- `database-optimizer` - কুৱাৰী অপ্টিমাইজেশন
-- `database-admin` - ডেটাবেস অপাৰেশ্বন
+**ইনফ্ৰাস্ট্ৰাকচাৰ আৰু অপাৰেশ্যন:**
+- `devops-troubleshooter` - প্ৰডাকশ্বন debugging
+- `deployment-engineer` - CI/CD pipeline
+- `database-optimizer` - Query optimization
+- `database-admin` - Database অপাৰেশ্যন
 - `terraform-specialist` - Infrastructure as Code
-- `network-engineer` - নেটৱৰ্ক কনফিগাৰেচন
-- `dx-optimizer` - ডেভেলপাৰ অভিজ্ঞতা
-- `data-engineer` - ETL পাইপলাইন
+- `network-engineer` - Network configuration
+- `dx-optimizer` - Developer experience
+- `data-engineer` - ETL pipeline
 
-**গুণগত মান & সমৰ্থন:**
-- `test-automator` - টেষ্ট ছুইট নিৰ্মাণ
-- `code-reviewer` - ক'ড গুণগত মান বিশ্লেষণ
+**গুণমান আৰু সহায়:**
+- `test-automator` - Test suite নিৰ্মাণ
+- `code-reviewer` - Code quality বিশ্লেষণ
 - `debugger` - ত্ৰুটি অনুসন্ধান
 - `error-detective` - লগ বিশ্লেষণ
-- `ml-engineer` - ML মডেল ডেপ্লয়মেন্ট
-- `legacy-modernizer` - ফ্ৰেমৱৰ্ক মাইগ্ৰেচনসমূহ
+- `ml-engineer` - এমএল মডেল ডিপ্লয়মেন্ট
+- `legacy-modernizer` - ফ্ৰেমৱৰ্ক মাইগ্ৰেচন
 - `payment-integration` - পেমেন্ট প্ৰসেছিং
-- `mermaid-expert` - মাৰ্মেইড ডায়াগ্ৰাম আৰু ভিজুৱেল ডকুমেণ্টেশ্যন
-- `flutter-expert` - ফ্লাটাৰ ডেভেলপমেণ্ট
-- `seo-content-auditor` - সামগ্ৰীৰ গুণগত মান আৰু E-E-A-T বিশ্লেষণ
-- `seo-authority-builder` - অথৰিটি চিহ্ন অপ্টিমাইজেচন
-- `seo-content-writer` - SEO-অপ্টিমাইজড সামগ্ৰী সৃষ্টি
+- `mermaid-expert` - মাৰ্মেইড ডায়াগ্ৰাম আৰু ভিজ্যুয়েল ডকুমেণ্টেচন
+- `flutter-expert` - ফ্লাটাৰ ডেভেলপমেন্ট
+- `seo-content-auditor` - বিষয়বস্তুৰ গুণমান আৰু E-E-A-T বিশ্লেষণ
+- `seo-authority-builder` - অথৰিটি সংকেত অপ্টিমাইজেচন
+- `seo-content-writer` - এছ.ই.অ' অপ্টিমাইজড বিষয়বস্তু সৃষ্টি
 
-### 🧠 Opus (সৰ্বাধিক সক্ষমতা) - ১৫টা এজেন্ট
+### 🧠 Opus (সৰ্বাধিক সক্ষমতা) - ১৫ গৰাকী এজেন্ট
 **মডেল:** `opus`
-- `ai-engineer` - LLM এপ্লিকেশ্যন আৰু RAG প্ৰণালীসমূহ
-- `security-auditor` - দুর্বলতা বিশ্লেষণ
+- `ai-engineer` - এলএলএম এপ্লিকেশ্যন আৰু RAG চিস্টেম
+- `security-auditor` - দূৰ্বলতা বিশ্লেষণ
 - `performance-engineer` - এপ্লিকেশ্যন অপ্টিমাইজেচন
-- `incident-responder` - প্ৰডাকশ্যন ইনচিডেন্ট হেণ্ডলিং
-- `mlops-engineer` - ML ইনফ্ৰাস্ট্ৰাকচাৰ
-- `architect-reviewer` - স্থাপত্যগত সঙ্গতি
+- `incident-responder` - প্ৰডাকচন ইনচিডেন্ট হেণ্ডলিং
+- `mlops-engineer` - এমএল ইনফ্ৰাস্ট্ৰাকচাৰ
+- `architect-reviewer` - স্থাপত্যগত একৰূপতা
 - `cloud-architect` - ক্লাউড ইনফ্ৰাস্ট্ৰাকচাৰ ডিজাইন
-- `prompt-engineer` - LLM প্ৰম্পট অপ্টিমাইজেচন
+- `prompt-engineer` - এলএলএম প্ৰম্পট অপ্টিমাইজেচন
 - `context-manager` - বহু-এজেন্ট সমন্বয়
-- `quant-analyst` - আৰ্থিক মডেলিং
-- `risk-manager` - পোৰ্টফোলিঅ' ৰিস্ক মেনেজমেণ্ট
-- `docs-architect` - ক'ডবেইচ পৰা বিস্তৃত টেকনিকেল ডকুমেণ্টেশ্যন
-- `tutorial-engineer` - ধাপ-ধাপে টিউটোৰিয়েল আৰু শিক্ষামূলক সামগ্ৰী
+- `quant-analyst` - বিত্তীয় মডেলিং
+- `risk-manager` - পোর্টফোলিঅ' ৰিস্ক পৰিচালনা
+- `docs-architect` - ক'ডবেইচৰ পৰা বিস্তৃত প্ৰযুক্তিগত ডকুমেণ্টেচন
+- `tutorial-engineer` - ধাপে-ধাপে টিউটোৰিয়েল আৰু শিক্ষামূলক বিষয়বস্তু
 
-## ইনষ্টলেশ্যন
+## স্থাপন
 
-এই চাবএজেন্টবোৰ `~/.claude/agents/` ডাইৰেক্টৰীত ৰাখিলে স্বয়ংক্ৰিয়ভাৱে উপলব্ধ হয়।
+এই উপ-এজেন্টসমূহ `~/.claude/agents/` ডাইৰেক্টৰীত থৈ দিলে স্বয়ংক্ৰিয়ভাৱে উপলব্ধ হয়।
 
 ```bash
 cd ~/.claude
@@ -525,6 +527,6 @@ payment-integration → security-auditor → Validated implementation
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-04
 
 ---

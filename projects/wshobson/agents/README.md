@@ -35,7 +35,7 @@ A comprehensive collection of specialized AI subagents for [Claude Code](https:/
 
 ## Overview
 
-This repository contains 75 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
+This repository contains 76 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
 
 ## Available Subagents
 
@@ -43,6 +43,7 @@ This repository contains 75 specialized subagents that extend Claude Code's capa
 - **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Design RESTful APIs, microservice boundaries, and database schemas
 - **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Build React components, implement responsive layouts, and handle client-side state management
 - **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Create interface designs, wireframes, and design systems
+- **[ui-visual-validator](https://raw.githubusercontent.com/wshobson/agents/main/ui-visual-validator.md)** - Verify whether UI modifications have achieved their intended goals through rigorous screenshot analysis
 - **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - Develop React Native or Flutter apps with native integrations
 - **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - Design GraphQL schemas, resolvers, and federation
 - **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Reviews code changes for architectural consistency and patterns
@@ -133,7 +134,7 @@ This repository contains 75 specialized subagents that extend Claude Code's capa
 
 ## Model Assignments
 
-All 75 subagents are configured with specific Claude models based on task complexity:
+All 76 subagents are configured with specific Claude models based on task complexity:
 
 ### 🚀 Haiku (Fast & Cost-Effective) - 15 agents
 **Model:** `haiku`
@@ -154,7 +155,7 @@ All 75 subagents are configured with specific Claude models based on task comple
 - `seo-cannibalization-detector` - Keyword overlap detection
 - `seo-content-planner` - Content calendars and outlines
 
-### ⚡ Sonnet (Balanced Performance) - 44 agents
+### ⚡ Sonnet (Balanced Performance) - 45 agents
 **Model:** `sonnet`
 
 **Development & Languages:**
@@ -177,6 +178,7 @@ All 75 subagents are configured with specific Claude models based on task comple
 - `ios-developer` - Native iOS development with Swift/SwiftUI
 - `frontend-developer` - React components and UI
 - `ui-ux-designer` - Interface design and wireframes
+- `ui-visual-validator` - Rigorous UI validation through screenshot analysis
 - `backend-architect` - API design and microservices
 - `mobile-developer` - React Native/Flutter apps
 - `sql-pro` - Complex SQL optimization

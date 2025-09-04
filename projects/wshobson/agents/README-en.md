@@ -4,26 +4,26 @@
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=fa">Farsi</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=wshobson&project=agents&lang=as">Assamese</
       </div>
     </div>
   </details>
@@ -35,7 +35,7 @@ A comprehensive collection of specialized AI subagents for [Claude Code](https:/
 
 ## Overview
 
-This repository contains 75 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
+This repository contains 76 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
 
 ## Available Subagents
 
@@ -43,6 +43,7 @@ This repository contains 75 specialized subagents that extend Claude Code's capa
 - **[backend-architect](https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md)** - Design RESTful APIs, microservice boundaries, and database schemas
 - **[frontend-developer](https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md)** - Build React components, implement responsive layouts, and handle client-side state management
 - **[ui-ux-designer](https://raw.githubusercontent.com/wshobson/agents/main/ui-ux-designer.md)** - Create interface designs, wireframes, and design systems
+- **[ui-visual-validator](https://raw.githubusercontent.com/wshobson/agents/main/ui-visual-validator.md)** - Verify whether UI modifications have achieved their intended goals through rigorous screenshot analysis
 - **[mobile-developer](https://raw.githubusercontent.com/wshobson/agents/main/mobile-developer.md)** - Develop React Native or Flutter apps with native integrations
 - **[graphql-architect](https://raw.githubusercontent.com/wshobson/agents/main/graphql-architect.md)** - Design GraphQL schemas, resolvers, and federation
 - **[architect-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/architect-review.md)** - Reviews code changes for architectural consistency and patterns
@@ -78,14 +79,14 @@ This repository contains 75 specialized subagents that extend Claude Code's capa
 - **[terraform-specialist](https://raw.githubusercontent.com/wshobson/agents/main/terraform-specialist.md)** - Write advanced Terraform modules, manage state files, and implement IaC best practices
 - **[incident-responder](https://raw.githubusercontent.com/wshobson/agents/main/incident-responder.md)** - Handles production incidents with urgency and precision
 - **[network-engineer](https://raw.githubusercontent.com/wshobson/agents/main/network-engineer.md)** - Debug network connectivity, configure load balancers, and analyze traffic patterns
-- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Developer Experience specialist who improves tooling, setup, and workflows
+- **[dx-optimizer](https://raw.githubusercontent.com/wshobson/agents/main/dx-optimizer.md)** - Developer Experience specialist that improves tooling, setup, and workflows
 
 ### Quality & Security
-- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Expert code review with deep focus on configuration security and production reliability
+- **[code-reviewer](https://raw.githubusercontent.com/wshobson/agents/main/code-reviewer.md)** - Expert code review with deep configuration security focus and production reliability
 - **[security-auditor](https://raw.githubusercontent.com/wshobson/agents/main/security-auditor.md)** - Review code for vulnerabilities and ensure OWASP compliance
-- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Create comprehensive test suites including unit, integration, and e2e tests
+- **[test-automator](https://raw.githubusercontent.com/wshobson/agents/main/test-automator.md)** - Create comprehensive test suites with unit, integration, and e2e tests
 - **[performance-engineer](https://raw.githubusercontent.com/wshobson/agents/main/performance-engineer.md)** - Profile applications, optimize bottlenecks, and implement caching strategies
-- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Debugging specialist for errors, test failures, and unexpected behaviors
+- **[debugger](https://raw.githubusercontent.com/wshobson/agents/main/debugger.md)** - Debugging specialist for errors, test failures, and unexpected behavior
 - **[error-detective](https://raw.githubusercontent.com/wshobson/agents/main/error-detective.md)** - Search logs and codebases for error patterns, stack traces, and anomalies
 - **[search-specialist](https://raw.githubusercontent.com/wshobson/agents/main/search-specialist.md)** - Expert web researcher using advanced search techniques and synthesis
 
@@ -133,7 +134,7 @@ This repository contains 75 specialized subagents that extend Claude Code's capa
 
 ## Model Assignments
 
-All 75 subagents are configured with specific Claude models based on task complexity:
+All 76 subagents are configured with specific Claude models based on task complexity:
 
 ### 🚀 Haiku (Fast & Cost-Effective) - 15 agents
 **Model:** `haiku`
@@ -154,7 +155,7 @@ All 75 subagents are configured with specific Claude models based on task comple
 - `seo-cannibalization-detector` - Keyword overlap detection
 - `seo-content-planner` - Content calendars and outlines
 
-### ⚡ Sonnet (Balanced Performance) - 44 agents
+### ⚡ Sonnet (Balanced Performance) - 45 agents
 **Model:** `sonnet`
 
 **Development & Languages:**
@@ -177,6 +178,7 @@ All 75 subagents are configured with specific Claude models based on task comple
 - `ios-developer` - Native iOS development with Swift/SwiftUI
 - `frontend-developer` - React components and UI
 - `ui-ux-designer` - Interface design and wireframes
+- `ui-visual-validator` - Rigorous UI validation through screenshot analysis
 - `backend-architect` - API design and microservices
 - `mobile-developer` - React Native/Flutter apps
 - `sql-pro` - Complex SQL optimization
@@ -525,6 +527,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-04
 
 ---
