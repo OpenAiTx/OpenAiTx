@@ -1,0 +1,1238 @@
+[
+  {
+    "row": 1,
+    "rowsha": "BaRGk5zH/BDFsxo2l7gUThNdPJ5eWrkCQL0YAN4/v+Q=",
+    "originContent": "# uPlot wrappers",
+    "translatedContent": "# uPlot ラッパー"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "k5fwKdmteMwgQgYiJCTkveu9N77MC3KdefCE7YVit7A=",
+    "originContent": "A collection of [uPlot](https://github.com/leeoniya/uPlot 'uPlot') wrappers that allow you to work with charts declaratively inside your favorite framework.",
+    "translatedContent": "お気に入りのフレームワーク内で宣言的にチャートを操作できる、[uPlot](https://github.com/leeoniya/uPlot 'uPlot') ラッパーのコレクションです。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "TBct99L7BPuuHDxIwv3pSyyJl2Rwy39D62yjXBP92oU=",
+    "originContent": "**Table of Contents**",
+    "translatedContent": "**目次**"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "NKY289msngV/w175hGqK1ZfNi8m0c6MlSRcdPUnAPrc=",
+    "originContent": "-   [Motivation](#motivation)",
+    "translatedContent": "-   [動機](#motivation)"
+  },
+  {
+    "row": 8,
+    "rowsha": "A4OWpBovV/5NyHejaqBlRtWe7fG8qQa5gNHY+VVjz3s=",
+    "originContent": "-   [Getting started](#getting-started)",
+    "translatedContent": "-   [はじめに](#getting-started)"
+  },
+  {
+    "row": 9,
+    "rowsha": "vXMiKLwV2Gx26FuOljbuRDQLk66lzetO9HlcHvGVGTc=",
+    "originContent": "-   [React](#react)",
+    "translatedContent": "-   [React](#react)"
+  },
+  {
+    "row": 10,
+    "rowsha": "gRKIAqrb3u8y6Cf8uE9E9v17Neme/Lr+XVn8kBALMTU=",
+    "originContent": "    -   [Installation](#installation)",
+    "translatedContent": "    -   [インストール](#installation)"
+  },
+  {
+    "row": 11,
+    "rowsha": "2hPD+h6wY8BXGUnFK6v7COV7ERY37fYZAIwiZUGIC74=",
+    "originContent": "    -   [How to use](#how-to-use)",
+    "translatedContent": "    -   [使い方](#how-to-use)"
+  },
+  {
+    "row": 12,
+    "rowsha": "IYzCzge+QZlSI5AfifNoG8vaf8qMBsPqs0XQdQ9YGH0=",
+    "originContent": "    -   [Demo](#demo)",
+    "translatedContent": "    -   [デモ](#demo)"
+  },
+  {
+    "row": 13,
+    "rowsha": "jd4+gKTZ0Vmcyj1m5IE/3zDNTKHpaZpwoNabv8r5THw=",
+    "originContent": "-   [Vue.js](#vuejs)",
+    "translatedContent": "-   [Vue.js](#vuejs)"
+  },
+  {
+    "row": 14,
+    "rowsha": "hB8ca3BNd8ej2hJ5gFnjunT+Bmc2OO1nRaeOJIx1LQI=",
+    "originContent": "    -   [Installation](#installation-1)",
+    "translatedContent": "    -   [インストール](#installation-1)"
+  },
+  {
+    "row": 15,
+    "rowsha": "x2XingDPin4m7wrw3AdOQrOnhLPWxfwOKlNc4P0NcgA=",
+    "originContent": "    -   [How to use](#how-to-use-1)",
+    "translatedContent": "    -   [使い方](#how-to-use-1)"
+  },
+  {
+    "row": 16,
+    "rowsha": "plZSdBnHdN0IgWLTonFYNtLMGUEleAV3xe+/Cpqv6nc=",
+    "originContent": "    -   [Demo](#demo-1)",
+    "translatedContent": "    -   [デモ](#demo-1)"
+  },
+  {
+    "row": 17,
+    "rowsha": "WuxNgsEND7erv5m4uRLfAsQyy92TYceJWOOevwAc2S4=",
+    "originContent": "-   [Svelte](#svelte)",
+    "translatedContent": "-   [Svelte](#svelte)"
+  },
+  {
+    "row": 18,
+    "rowsha": "f7cUrqPWV0A5DALXMbEO032/UPp6Pa59U7PBCtzqHc0=",
+    "originContent": "    -   [Installation](#installation-2)",
+    "translatedContent": "    -   [インストール](#installation-2)"
+  },
+  {
+    "row": 19,
+    "rowsha": "gBicL+rZTFLL1xnLsmkYv6B7L95NqdCoc47tz6Gv0U8=",
+    "originContent": "    -   [How to use](#how-to-use-2)",
+    "translatedContent": "    -   [使い方](#how-to-use-2)"
+  },
+  {
+    "row": 20,
+    "rowsha": "q57gzTv7RBzP0SKZHHCJXSavCyh+tLepzGJggJtUNE4=",
+    "originContent": "    -   [Demo](#demo-2)",
+    "translatedContent": "    -   [デモ](#demo-2)"
+  },
+  {
+    "row": 21,
+    "rowsha": "WOGGMksxi/NDjUd8YYp2+5GGdYjCS8wHWgwW5w7C5uE=",
+    "originContent": "-   [Documentation](#documentation)",
+    "translatedContent": "-   [ドキュメント](#documentation)"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "lpzjncFavt2VNIjJjV0DeYa0DbsvW3NZ4Qcm2gjxki4=",
+    "originContent": "# Motivation",
+    "translatedContent": "# 動機"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "iwOfhuToXnUK5sYqabgTibP1RragCDROp3/33h5OrY4=",
+    "originContent": "While several other uPlot wrappers already exist, all of them have one of the following limitations:",
+    "translatedContent": "既にいくつかの uPlot ラッパーは存在しますが、それらは以下のいずれかの制限があります："
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "XICPXLouIDW5THr5ZqYRyFNYCEFQYTq2CtKNct1fXyk=",
+    "originContent": "1. They create uPlot instance once, during component mount phase, and expect you to handle all the update logic yourself.",
+    "translatedContent": "1. コンポーネントのマウントフェーズで一度だけ uPlot インスタンスを作成し、更新ロジックはすべて自分で処理する必要がある。"
+  },
+  {
+    "row": 28,
+    "rowsha": "QoXDVS9LY/84BIKDc7hif3wZU2OAZoK9NiOzRFZaaKI=",
+    "originContent": "2. They recreate uPlot instance anew whenever the props change, even if the instance can be updated to reflect the changes.",
+    "translatedContent": "2. プロパティが変わるたびに新しく uPlot インスタンスを再作成するが、インスタンスの更新で変更を反映できる場合でもそうしている。"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "slHwTgx1NK8ELItsdS9Y1YA9ihE7stIx2N25oJLnp78=",
+    "originContent": "In comparison this library tries it's best not to recreate the uPlot instance once the props change. Instead of recreation it tries to use uPlot public API to keep it up to date with the props.",
+    "translatedContent": "これに対し、このライブラリはプロパティが変わっても uPlot インスタンスを再作成しないよう最善を尽くしています。再作成の代わりに、uPlot の公開 API を使ってプロパティに合わせて最新の状態を保つことを試みます。"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "e4LTO7quMIBXOuT+2oRe6yKs+221yRN2DDarYfY0Xbc=",
+    "originContent": "# Getting started",
+    "translatedContent": "# はじめに"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "Lzukf/PDAKv+PJ9fI8NMl/7hW8rnRKDbqcObiJM8N2Q=",
+    "originContent": "See [React](#react), [Vue.js](#vuejs) or [Svelte](#svelte) sections below depending on what framework you're using.",
+    "translatedContent": "使用しているフレームワークに応じて、以下の [React](#react)、[Vue.js](#vuejs)、または [Svelte](#svelte) セクションを参照してください。  "
+  },
+  {
+    "row": 35,
+    "rowsha": "Ao73xJYrLDDFxDDIKApesbgShR+K+BJzzSBDzJ+y29w=",
+    "originContent": "Also see API [documentation](#documentation) common to all frameworks.",
+    "translatedContent": "また、すべてのフレームワーク共通の API [ドキュメント](#documentation) もご覧ください。"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "JUgPiPp9MmW9/nmQg4RQvUV1aGbLGF6BgZtkz3MFFx0=",
+    "originContent": "# React",
+    "translatedContent": "# React"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "hLHXL5O/xFOrXEtBY2KDocA1k2WRG6CGjFkDYZp6bjo=",
+    "originContent": "Install uplot-react package with uplot dependency:",
+    "translatedContent": "uplot-react パッケージを uplot 依存関係と共にインストールします："
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "k5m2HtLrkRv8s0mUzKav2luOJRFhoxftRYNP4NvWNmM=",
+    "originContent": "-   Using npm: `$ npm install uplot-react uplot`",
+    "translatedContent": "-   npm を使用する場合：`$ npm install uplot-react uplot`"
+  },
+  {
+    "row": 44,
+    "rowsha": "aUzeCRk3nVpsZiMmb2Hna4ETvRBDsG3OFdS1Q3sQFgo=",
+    "originContent": "-   Using yarn: `$ yarn add uplot-react uplot`",
+    "translatedContent": "-   yarn を使用する場合：`$ yarn add uplot-react uplot`"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "hJTDZYvf4cwMflrM+XAVQ6eTelo0jV4i82sSaQ0oj8U=",
+    "originContent": "You also need React 16.8 or above to be installed inside your project tree.",
+    "translatedContent": "プロジェクトツリー内に React 16.8 以上がインストールされている必要があります。"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "B0rZUVAuvA0woeHASaoNWRIBbA+LJfRLl9zTeDoLks0=",
+    "originContent": "## How to use",
+    "translatedContent": "## 使い方"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+    "originContent": "```javascript",
+    "translatedContent": "```javascript"
+  },
+  {
+    "row": 51,
+    "rowsha": "6RlrcBZiZAIcdrxqoqTt8P0bi6f6jkEsQNLQc+YhKWc=",
+    "originContent": "import React from 'react';",
+    "translatedContent": "import React from 'react';"
+  },
+  {
+    "row": 52,
+    "rowsha": "+sP1f7f13kdBhbDJfUNRlb/A6CJz7nSX4GOBGl0HhA8=",
+    "originContent": "import uPlot from 'uplot';",
+    "translatedContent": "import uPlot from 'uplot';"
+  },
+  {
+    "row": 53,
+    "rowsha": "0Hp6FMuJCsfnEj4atT540maBwdmXHVfQBQwSEalLW5Q=",
+    "originContent": "import UplotReact from 'uplot-react';",
+    "translatedContent": "import UplotReact from 'uplot-react';"
+  },
+  {
+    "row": 54,
+    "rowsha": "xvLclaNK35yw/wTfKxAiphMF3tSnbvXZHA5jQLUrnA0=",
+    "originContent": "import 'uplot/dist/uPlot.min.css';",
+    "translatedContent": "import 'uplot/dist/uPlot.min.css';"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "YMJywhXiqtZEfVNDecSFQwTjLKNFoGHx7/QsNtAePtA=",
+    "originContent": "const Chart = () => (",
+    "translatedContent": "const Chart = () => ("
+  },
+  {
+    "row": 57,
+    "rowsha": "kkEhRhgpPoZon+nLvxyFIuXDeXWrk8BgqoeQ1tWEWJ4=",
+    "originContent": "    <UplotReact options={options} data={data} target={target} onCreate={(chart) => {}} onDelete={(chart) => {}} />",
+    "translatedContent": "    <UplotReact options={options} data={data} target={target} onCreate={(chart) => {}} onDelete={(chart) => {}} />"
+  },
+  {
+    "row": 58,
+    "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+    "originContent": ");",
+    "translatedContent": ");"
+  },
+  {
+    "row": 59,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## デモ"
+  },
+  {
+    "row": 61,
+    "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+    "originContent": "## Demo",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[ライブデモ](https://codesandbox.io/s/uplot-react-6ykeb?file=/react/uplot-react-example.tsx 'live demo')をご覧ください"
+  },
+  {
+    "row": 63,
+    "rowsha": "CjWucRCoL0y/MaBpttxSCfX6sXXLQSS+Lp0Wb4zN3dU=",
+    "originContent": "See the [live demo](https://codesandbox.io/s/uplot-react-6ykeb?file=/react/uplot-react-example.tsx 'live demo')",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "デモアプリをローカルで実行することもできます："
+  },
+  {
+    "row": 65,
+    "rowsha": "VHm9naFV45ZDZjHkV0Xui6alVzZvV5kX8qyNJZJXmso=",
+    "originContent": "You can also run the demo app locally:",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`$ git clone https://github.com/skalinichev/uplot-wrappers.git`"
+  },
+  {
+    "row": 67,
+    "rowsha": "q/XvgirYe+PHK+viyrWxVJiABjiWIdVQMy6DTxsbEX4=",
+    "originContent": "`$ git clone https://github.com/skalinichev/uplot-wrappers.git`",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`$ cd uplot-wrappers && yarn install && yarn run serveReact`"
+  },
+  {
+    "row": 69,
+    "rowsha": "JhEBlIA+vxWQw0hi4WPQAHmenQWN8ncLFmrTY0W/An8=",
+    "originContent": "`$ cd uplot-wrappers && yarn install && yarn run serveReact`",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ReactJS デモ"
+  },
+  {
+    "row": 71,
+    "rowsha": "WzBLOlYZF3sgtDr0+X+19dMelZ23Lq5SegGh2gcM2VA=",
+    "originContent": "### ReactJS Demo",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "すぐに始められるシンプルな例です。"
+  },
+  {
+    "row": 73,
+    "rowsha": "9gf2UpEjQzbDVCqYMjg6sIfb8Ie1KYG958UxSx2M/Ss=",
+    "originContent": "simple example for getting started quickly.",
+    "translatedContent": "[ReactJS デモ](https://github.com/skalinichev/uplot-wrappers/blob/master/react/uplot-react-simple.js 'ReactJS Demo')"
+  },
+  {
+    "row": 74,
+    "rowsha": "Sg2vL7SdHrkkqW8OI+Itw1o5M58NPMi2PXw22f98/Kg=",
+    "originContent": "[ReactJS Demo](https://github.com/skalinichev/uplot-wrappers/blob/master/react/uplot-react-simple.js 'ReactJS Demo')",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![image](https://user-images.githubusercontent.com/62290677/233559830-5dea130c-11a3-434e-9cce-d4f00dc9bea8.png)"
+  },
+  {
+    "row": 76,
+    "rowsha": "JY0pC//ihCn+JnBuWXUI3FKASmKNqHliCBvAaSeGzvg=",
+    "originContent": "![image](https://user-images.githubusercontent.com/62290677/233559830-5dea130c-11a3-434e-9cce-d4f00dc9bea8.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# Vue.js"
+  },
+  {
+    "row": 78,
+    "rowsha": "tQTEH6cWl9rMa3/aVjbUf2IX02wZkB2Wm/iKVi0Ez7E=",
+    "originContent": "# Vue.js",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 80,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "uplot依存のuplot-vueパッケージをインストールします："
+  },
+  {
+    "row": 82,
+    "rowsha": "ExDslqD6UsoVHeIxqXZoC7w6Oj/bNTSU2l4TptMZ2Zk=",
+    "originContent": "Install uplot-vue package with uplot dependency:",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "-   npmを使用：`$ npm install uplot-vue uplot`"
+  },
+  {
+    "row": 84,
+    "rowsha": "fYOf+O5g5latm/GzNHYmvUX7pPUHhqSdiJcfbaRjx+o=",
+    "originContent": "-   Using npm: `$ npm install uplot-vue uplot`",
+    "translatedContent": "-   yarnを使用：`$ yarn add uplot-vue uplot`"
+  },
+  {
+    "row": 85,
+    "rowsha": "Q6rp50cjJFn0opLVjOPCbONGGNDi9XUVCJUhWNeNhhM=",
+    "originContent": "-   Using yarn: `$ yarn add uplot-vue uplot`",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "プロジェクトツリー内にVue.jsがインストールされている必要があります（2.6および3.xの両バージョンがサポートされています）。"
+  },
+  {
+    "row": 87,
+    "rowsha": "3X9vjmimfTSrQ+vQAX+ZzVp+pkxMHUpIktmfM8DBGng=",
+    "originContent": "You also need Vue.js to be installed inside your project tree (both 2.6 and 3.x versions are supported).",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 使い方"
+  },
+  {
+    "row": 89,
+    "rowsha": "B0rZUVAuvA0woeHASaoNWRIBbA+LJfRLl9zTeDoLks0=",
+    "originContent": "## How to use",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "テンプレートを使用して"
+  },
+  {
+    "row": 91,
+    "rowsha": "W9cYg+8zrZxAbQro8BrjEcqXMnh+z3G2DsFPsaQ4uwo=",
+    "originContent": "Using template",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 94,
+    "rowsha": "Kq1EcNTskSPLsM+ILi5e1GbYmH1jGiqsZF6DsOcdgoc=",
+    "originContent": "<template>",
+    "translatedContent": "<template>"
+  },
+  {
+    "row": 95,
+    "rowsha": "5Kc/wAhySY3O4MKcycEOGwfWQF2zzfE2BQ0EsAHo2Cs=",
+    "originContent": "    <UplotVue :data=\"data\" :options=\"options\" :target=\"target\" @create=\"onCreate\" @delete=\"onDelete\" />",
+    "translatedContent": "    <UplotVue :data=\"data\" :options=\"options\" :target=\"target\" @create=\"onCreate\" @delete=\"onDelete\" />"
+  },
+  {
+    "row": 96,
+    "rowsha": "gADIfArf+0AI9UvMusq6n+ATIvVjKRPKaMwvB5xz17c=",
+    "originContent": "</template>",
+    "translatedContent": "</template>"
+  },
+  {
+    "row": 97,
+    "rowsha": "W2Plsgl/xpBmAeheOB2Zin25caynPJIT3CsQfMq3NNQ=",
+    "originContent": "<script>",
+    "translatedContent": "<script>"
+  },
+  {
+    "row": 98,
+    "rowsha": "fuHGwnaXr8yW2lXtnGe5uC1Iw0Wlvn6od9RCttsbNbE=",
+    "originContent": "    // Vue.js 2",
+    "translatedContent": "    // Vue.js 2"
+  },
+  {
+    "row": 99,
+    "rowsha": "XgSJeluNQ2xY6unVp838obL9NNa+lFJO7Rg9aM4v928=",
+    "originContent": "    import Vue from 'vue';",
+    "translatedContent": "    import Vue from 'vue';"
+  },
+  {
+    "row": 100,
+    "rowsha": "Rpjqc8h6ZPFoPsTgQxDOGMsVhDm7lAyySbBejp783bw=",
+    "originContent": "    // Vue.js 3",
+    "translatedContent": "    // Vue.js 3"
+  },
+  {
+    "row": 101,
+    "rowsha": "zzHNiLHSnEco9+v+C0fLJvre+BHBsbuJb0OdJTAtJP8=",
+    "originContent": "    import { createApp } from 'vue';",
+    "translatedContent": "    import { createApp } from 'vue';"
+  },
+  {
+    "row": 102,
+    "rowsha": "2+BeCqSA8ho6qm3klHI6N+PtsQSg4+Y/WzW3++ePM90=",
+    "originContent": "    import uPlot from 'uplot';",
+    "translatedContent": "    import uPlot from 'uplot';"
+  },
+  {
+    "row": 103,
+    "rowsha": "B3b+dBxy4+wzJdhltsJzSlQrSiiTMPwzcCNQFV9relQ=",
+    "originContent": "    import UplotVue from 'uplot-vue';",
+    "translatedContent": "    import UplotVue from 'uplot-vue';"
+  },
+  {
+    "row": 104,
+    "rowsha": "rCEGULtDGVIc/knVXMMzOcxleuW7nvgGyfAgO5YVMLc=",
+    "originContent": "    import 'uplot/dist/uPlot.min.css';",
+    "translatedContent": "    import 'uplot/dist/uPlot.min.css';"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "fuHGwnaXr8yW2lXtnGe5uC1Iw0Wlvn6od9RCttsbNbE=",
+    "originContent": "    // Vue.js 2",
+    "translatedContent": "    // Vue.js 2"
+  },
+  {
+    "row": 107,
+    "rowsha": "ynhJuR3IMs6z5q0aOXauML1zMKggeLy3dMWXA36BUPU=",
+    "originContent": "    const Chart = Vue.extend({ components: { uplotvue: UplotVue } });",
+    "translatedContent": "    const Chart = Vue.extend({ components: { uplotvue: UplotVue } });"
+  },
+  {
+    "row": 108,
+    "rowsha": "Rpjqc8h6ZPFoPsTgQxDOGMsVhDm7lAyySbBejp783bw=",
+    "originContent": "    // Vue.js 3",
+    "translatedContent": "    // Vue.js 3"
+  },
+  {
+    "row": 109,
+    "rowsha": "qb4FlarvczJVtrhmvgbZjxMRgx1kVhbSYz6SqBu6TVk=",
+    "originContent": "    const Chart = createApp({ components: { uplotvue: UplotVue } });",
+    "translatedContent": "    const Chart = createApp({ components: { uplotvue: UplotVue } });"
+  },
+  {
+    "row": 110,
+    "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+    "originContent": "</script>",
+    "translatedContent": "</script>"
+  },
+  {
+    "row": 111,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "/4BhRQGbK1Ev/HSyO2I2lFFOVF8WdcyO9D/gQJCkUzM=",
+    "originContent": "Using JSX",
+    "translatedContent": "JSXの使用方法"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+    "originContent": "```javascript",
+    "translatedContent": "```javascript"
+  },
+  {
+    "row": 116,
+    "rowsha": "f9uycB3JuCqrkxRvrY/HQcUGQ8pCDl+juHnMSa3Cwmk=",
+    "originContent": "// Vue.js 2",
+    "translatedContent": "// Vue.js 2"
+  },
+  {
+    "row": 117,
+    "rowsha": "GpI48rbVJB/Y8DhUDNJpAtWjnDu2qilolfbMr8KN/y4=",
+    "originContent": "import Vue from 'vue';",
+    "translatedContent": "import Vue from 'vue';"
+  },
+  {
+    "row": 118,
+    "rowsha": "OhA5uK7EHewV5USg/ne1JSwK7ni6qDRVYrTDLOt7TmE=",
+    "originContent": "// Vue.js 3",
+    "translatedContent": "// Vue.js 3"
+  },
+  {
+    "row": 119,
+    "rowsha": "JJ6Y5wc/m8hBp1hQF1xHzzJrA+gP04AfTMA24Z0/cUE=",
+    "originContent": "import { createApp } from 'vue';",
+    "translatedContent": "import { createApp } from 'vue';"
+  },
+  {
+    "row": 120,
+    "rowsha": "+sP1f7f13kdBhbDJfUNRlb/A6CJz7nSX4GOBGl0HhA8=",
+    "originContent": "import uPlot from 'uplot';",
+    "translatedContent": "import uPlot from 'uplot';"
+  },
+  {
+    "row": 121,
+    "rowsha": "Sc76pURFNGDZlkVuxUW4X9/GeoBZM7JO1JfmAGO27l8=",
+    "originContent": "import UplotVue from 'uplot-vue';",
+    "translatedContent": "import UplotVue from 'uplot-vue';"
+  },
+  {
+    "row": 122,
+    "rowsha": "xvLclaNK35yw/wTfKxAiphMF3tSnbvXZHA5jQLUrnA0=",
+    "originContent": "import 'uplot/dist/uPlot.min.css';",
+    "translatedContent": "import 'uplot/dist/uPlot.min.css';"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 125,
+    "rowsha": "aGurAJuV5O2GH7RjXkaMHQMO7QNa4cb6f+e1bLfi5Zc=",
+    "originContent": "    ...,",
+    "translatedContent": "    ...,"
+  },
+  {
+    "row": 126,
+    "rowsha": "tAS9uEOxjGX4ts2B0HuM6khC+8fjtr+KaPnwe4heiZU=",
+    "originContent": "    render() {",
+    "translatedContent": "    render() {"
+  },
+  {
+    "row": 127,
+    "rowsha": "wCYYqvm1lSSBRR3dptyu8hEp526ZzaL/C3U4WAQ7rtE=",
+    "originContent": "        return (",
+    "translatedContent": "        return ("
+  },
+  {
+    "row": 128,
+    "rowsha": "kVzYR/svCNcqYFv9v3tIElQDRmO6hjx1QwujQ0A0bkE=",
+    "originContent": "            <UplotVue",
+    "translatedContent": "            <UplotVue"
+  },
+  {
+    "row": 129,
+    "rowsha": "3wuRPULsno/WtrMpidGSMChHZuzbHeyVUrZ423nUeHU=",
+    "originContent": "                options={options}",
+    "translatedContent": "                options={options}"
+  },
+  {
+    "row": 130,
+    "rowsha": "vmvgV7NYMupMIbuCcUhqtNdHh25eGw9uRp00CXfBgco=",
+    "originContent": "                data={data}",
+    "translatedContent": "                data={data}"
+  },
+  {
+    "row": 131,
+    "rowsha": "JpwKGNFzbrsOYBx7pcO9iDE9w1VSg1h13/DgOmSj+Ys=",
+    "originContent": "                target={target}",
+    "translatedContent": "                target={target}"
+  },
+  {
+    "row": 132,
+    "rowsha": "oi/ekgD7eR8/7NSoguGuYE+8Rr9YIlul3YVY6LiRg1g=",
+    "originContent": "                onDelete={(chart) => {}}",
+    "translatedContent": "                onDelete={(chart) => {}}"
+  },
+  {
+    "row": 133,
+    "rowsha": "Zu7H0cwloZYHGH4FNvXDHGHW706Kkyl4ODVMwEcjqmo=",
+    "originContent": "                onCreate={(chart) => {}}",
+    "translatedContent": "                onCreate={(chart) => {}}"
+  },
+  {
+    "row": 134,
+    "rowsha": "UFeYC4q/S5am95FcZ6eGNHKbqfAOFI5bgPkLrsqj9/s=",
+    "originContent": "            />",
+    "translatedContent": "            />"
+  },
+  {
+    "row": 135,
+    "rowsha": "bq/4eiC48vFtXXAuFRwkmntL9c8Jdj21yA8p0PHvrPk=",
+    "originContent": "        );",
+    "translatedContent": "        );"
+  },
+  {
+    "row": 136,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 137,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 138,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> 注意: プロパティの変更は [Vueの制限](https://github.com/vuejs/vue/issues/2164) によりミューテーションによる変更はサポートされていません。プロパティのコピーを作成し、つまり置き換える必要があります。一般的なアイデアについては、[例](https://github.com/skalinichev/uplot-wrappers/blob/master/vue/uplot-vue-example.tsx#L52)を参照してください。"
+  },
+  {
+    "row": 140,
+    "rowsha": "GOTcleWkg8oFqZGfrVPiAg6jnSem/EV6EgZKDro54ow=",
+    "originContent": "> Note: Property changes by mutation are not supported due to [Vue limitation](https://github.com/vuejs/vue/issues/2164) You have to create a copy of the property, i.e. replace it instead, see an [example](https://github.com/skalinichev/uplot-wrappers/blob/master/vue/uplot-vue-example.tsx#L52) for the general idea.",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## デモ"
+  },
+  {
+    "row": 142,
+    "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+    "originContent": "## Demo",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[Vue.js 2 ライブデモ](https://codesandbox.io/s/uplot-vue-khi4m?file=/vue/uplot-vue-example.tsx 'Vue.js 2 live demo')をご覧ください。"
+  },
+  {
+    "row": 144,
+    "rowsha": "cpmP8JV7MEqwiDC5jQafuf7x5hymcsvmhSnRv/Mg0pA=",
+    "originContent": "See the [Vue.js 2 live demo](https://codesandbox.io/s/uplot-vue-khi4m?file=/vue/uplot-vue-example.tsx 'Vue.js 2 live demo')",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "デモアプリはローカルでも実行できます:"
+  },
+  {
+    "row": 146,
+    "rowsha": "VHm9naFV45ZDZjHkV0Xui6alVzZvV5kX8qyNJZJXmso=",
+    "originContent": "You can also run the demo app locally:",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`$ git clone https://github.com/skalinichev/uplot-wrappers.git`"
+  },
+  {
+    "row": 148,
+    "rowsha": "q/XvgirYe+PHK+viyrWxVJiABjiWIdVQMy6DTxsbEX4=",
+    "originContent": "`$ git clone https://github.com/skalinichev/uplot-wrappers.git`",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`$ cd uplot-wrappers && yarn install`"
+  },
+  {
+    "row": 150,
+    "rowsha": "DCOJNdh5m+Zh7SwxJd756AtHs+BP9zY3gq3hsNveARU=",
+    "originContent": "`$ cd uplot-wrappers && yarn install`",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Vue.js 2:"
+  },
+  {
+    "row": 152,
+    "rowsha": "IIItxFUKC6O7vLkVcGTYi9Pw3fIAC1mNop1dEXEVxlE=",
+    "originContent": "Vue.js 2:",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`$ yarn run serveVue`"
+  },
+  {
+    "row": 154,
+    "rowsha": "rpfdN325Owx1CDlxjg4OaFnQ/j/39aVE2MrTz1t9bec=",
+    "originContent": "`$ yarn run serveVue`",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Vue.js 3:"
+  },
+  {
+    "row": 156,
+    "rowsha": "uaC5nLa3LzaWoTAChR75K9JqU1UBfw/pIAovw55kxLQ=",
+    "originContent": "Vue.js 3:",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`$ yarn run serveVue3`"
+  },
+  {
+    "row": 158,
+    "rowsha": "1aajotRzM3x5KjeuCfIX4M6C0/cYoRO2ZUebXE77Ii0=",
+    "originContent": "`$ yarn run serveVue3`",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# Svelte"
+  },
+  {
+    "row": 160,
+    "rowsha": "aIDmZUTeIADiEaiCu9/OPFxefZKRylwD3Vwz6r2a2yo=",
+    "originContent": "# Svelte",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 162,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "uplot依存のuplot-svelteパッケージをインストールします:"
+  },
+  {
+    "row": 164,
+    "rowsha": "kTyd5rUjZ/TW0hb6N8Qdl7u555vpzTUzVQ1mqGcwY0c=",
+    "originContent": "Install uplot-svelte package with uplot dependency:",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "-   npmを使用する場合: `$ npm install uplot-svelte uplot`"
+  },
+  {
+    "row": 166,
+    "rowsha": "O7rTw5bR5ccAWIjeAYdv79OnsZBXRKk6TrpA0MNlbiU=",
+    "originContent": "-   Using npm: `$ npm install uplot-svelte uplot`",
+    "translatedContent": "-   yarnを使用する場合: `$ yarn add uplot-svelte uplot`"
+  },
+  {
+    "row": 167,
+    "rowsha": "/AkgzOKONadxO5FxnsGKCfRpI0UfCKcsN0IOR5oq2Nc=",
+    "originContent": "-   Using yarn: `$ yarn add uplot-svelte uplot`",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "プロジェクトツリー内にSvelteがインストールされている必要があります。UplotSvelteコンポーネントはSvelteおよびSvelteKitプロジェクトに対応しています。"
+  },
+  {
+    "row": 169,
+    "rowsha": "vw/miLnwh6hZ8HG9p/NTt8uhwPbwLvoNK9RcDSE4TfM=",
+    "originContent": "You also need Svelte to be installed inside your project tree. UplotSvelte component is compatible with Svelte and SvelteKit projects.",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 使い方"
+  },
+  {
+    "row": 171,
+    "rowsha": "B0rZUVAuvA0woeHASaoNWRIBbA+LJfRLl9zTeDoLks0=",
+    "originContent": "## How to use",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "8Gp1IK6MIMFCBcjwfnCutGFGstRFraE4KO7LVZVihvs=",
+    "originContent": "```sveltehtml",
+    "translatedContent": "```sveltehtml"
+  },
+  {
+    "row": 174,
+    "rowsha": "gM+uig8dB6GLsov/eANgRy1mimBAnBwa24SwlEHFPgs=",
+    "originContent": "<script lang=\"ts\">",
+    "translatedContent": "<script lang=\"ts\">"
+  },
+  {
+    "row": 175,
+    "rowsha": "Fu15psVjeVHt0jd6z0cn8FVPLf2YGKmXNiWNlzVNk9c=",
+    "originContent": "    import UplotSvelte from 'uplot-svelte';",
+    "translatedContent": "    import UplotSvelte from 'uplot-svelte';"
+  },
+  {
+    "row": 176,
+    "rowsha": "2+BeCqSA8ho6qm3klHI6N+PtsQSg4+Y/WzW3++ePM90=",
+    "originContent": "    import uPlot from 'uplot';",
+    "translatedContent": "    import uPlot from 'uplot';"
+  },
+  {
+    "row": 177,
+    "rowsha": "rCEGULtDGVIc/knVXMMzOcxleuW7nvgGyfAgO5YVMLc=",
+    "originContent": "    import 'uplot/dist/uPlot.min.css';",
+    "translatedContent": "    import 'uplot/dist/uPlot.min.css';"
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+    "originContent": "    ...",
+    "translatedContent": "    ..."
+  },
+  {
+    "row": 180,
+    "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+    "originContent": "</script>",
+    "translatedContent": "</script>"
+  },
+  {
+    "row": 181,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "9Kol1uhO2PiJvaOWpJuRWTKFxHghV/zEHOcU++DD+EU=",
+    "originContent": "<UplotSvelte {options} {data} onCreate={onCreate} onDelete={onDelete} />",
+    "translatedContent": "<UplotSvelte {options} {data} onCreate={onCreate} onDelete={onDelete} />"
+  },
+  {
+    "row": 183,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## デモ"
+  },
+  {
+    "row": 185,
+    "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+    "originContent": "## Demo",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "例は [Svelte example](https://github.com/skalinichev/uplot-wrappers/blob/master/svelte/svelte-example.svelte 'Svelte example') を参照してください。"
+  },
+  {
+    "row": 187,
+    "rowsha": "6wvLhePw3wTJi+zqAmSj3zciHnoxZB0qK2zHsLkqpcQ=",
+    "originContent": "See the example [Svelte example](https://github.com/skalinichev/uplot-wrappers/blob/master/svelte/svelte-example.svelte 'Svelte example')",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "デモアプリをローカルで実行することもできます："
+  },
+  {
+    "row": 189,
+    "rowsha": "VHm9naFV45ZDZjHkV0Xui6alVzZvV5kX8qyNJZJXmso=",
+    "originContent": "You can also run the demo app locally:",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`$ git clone https://github.com/skalinichev/uplot-wrappers.git`"
+  },
+  {
+    "row": 191,
+    "rowsha": "q/XvgirYe+PHK+viyrWxVJiABjiWIdVQMy6DTxsbEX4=",
+    "originContent": "`$ git clone https://github.com/skalinichev/uplot-wrappers.git`",
+    "translatedContent": ""
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`$ cd uplot-wrappers && yarn install && yarn run serveSvelte`"
+  },
+  {
+    "row": 193,
+    "rowsha": "6LHm9kIQWc4fhU0RaQ2FGNQOBJEs6thJlLi4LZaJKJ0=",
+    "originContent": "`$ cd uplot-wrappers && yarn install && yarn run serveSvelte`",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# ドキュメント"
+  },
+  {
+    "row": 195,
+    "rowsha": "4BSHWD7tzXIyr/Ccbla1RNYTdBtLtVN8mXm+xSFvLpw=",
+    "originContent": "# Documentation",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "|    パラメーター    | 必須かどうか | 説明                                                                                                                                                                                                     |"
+  },
+  {
+    "row": 197,
+    "rowsha": "3fUjzlkPLoAF+ev0uGKUsZ9+dIYM3WMlk5j+SnxYYu0=",
+    "originContent": "|    Parameter    | Requirement | Description                                                                                                                                                                                                |",
+    "translatedContent": "| :----------------: | :----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |"
+  },
+  {
+    "row": 198,
+    "rowsha": "WfAXTcLBxG4ZLr3QW33IUFyXJigiwN7rkO3K3arUIHU=",
+    "originContent": "| :-------------: | :---------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |",
+    "translatedContent": "|     options        |  必須       | uPlot のオプション。uPlot コンストラクタの第一引数として渡されます：`new uPlot(options)`                                                                                                              |"
+  },
+  {
+    "row": 199,
+    "rowsha": "ZV7sOaPX16kVIIRLg3VScj7jzW8cHqIbxnNyie2kE0g=",
+    "originContent": "|     options     |  required   | Options for uPlot. Passed as the first argument to uPlot constructor: `new uPlot(options)`                                                                                                                 |",
+    "translatedContent": "|      data          |  必須       | uPlot のデータ。uPlot コンストラクタの第二引数として渡されます：`new uPlot(options, data)`                                                                                                            |"
+  },
+  {
+    "row": 200,
+    "rowsha": "xgAsrDS4ngV4JxQCO7Pu+pxa+YtXFLlUOFhx8fR9N2s=",
+    "originContent": "|      data       |  required   | Data for uPlot. Passed as the second argument to uPlot constructor: `new uPlot(options, data)`                                                                                                             |",
+    "translatedContent": "|     target         |  任意       | uPlot のターゲットとなる HTML 要素。uPlot コンストラクタの第三引数として渡されます：`new uPlot(options, data, target)` props で渡されない場合は新しい div 要素が自動で作成されます                      |"
+  },
+  {
+    "row": 201,
+    "rowsha": "1RSguklqG5aDb3hdNIg6U4+Wz6h9vHLm8qHavdOc7JU=",
+    "originContent": "|     target      |  optional   | Target html element for uPlot. Passed as the third argument to uPlot constructor: `new uPlot(options, data, target)` A new div target element will be created automatically if none is passed in the props |",
+    "translatedContent": "|    onCreate        |  任意       | uPlot インスタンス作成または再作成時に呼び出されるコールバック関数                                                                                                                                    |"
+  },
+  {
+    "row": 202,
+    "rowsha": "s+bEcbEENtxI5OpORbXgw9Kw4Cq3wc2a4JmfVGYz3tY=",
+    "originContent": "|    onCreate     |  optional   | Callback function, invoked upon uPlot instance creation or recreation                                                                                                                                      |",
+    "translatedContent": "|    onDelete        |  任意       | uPlot インスタンスが破棄される前に呼び出されるコールバック関数。props が大幅に変更されチャートの更新が不可能な場合やコンポーネントのアンマウント直前に呼ばれます                                    |"
+  },
+  {
+    "row": 203,
+    "rowsha": "lx9qHcFXNXgRbWTSJNA23HAO6i1NrjKiZXZ/fexd0FQ=",
+    "originContent": "|    onDelete     |  optional   | Callback function, invoked before uPlot instance gets destroyed, either because the props has changed so much it's impossible to update the chart or because the component is about to be unmounted        |",
+    "translatedContent": "| className/class    |  任意       | 自動作成されるターゲット div 要素に渡されるクラス名。'target' prop が使用されている場合はクラス名は無視されます                                                                                      |"
+  },
+  {
+    "row": 204,
+    "rowsha": "0t4Ek/Xj+Ta9gUQIUCh+qsi97j1Hlx59QgoPi4Lxh6U=",
+    "originContent": "| className/class |  optional   | A class name passed over to the automatically created target div element. Class name is ignored when the 'target' prop is used.                                                                            |",
+    "translatedContent": "|   resetScales      |  任意       | データ変更時にスケールをリセットするかを制御するフラグ。デフォルトは true です。                                                                                                                       |"
+  },
+  {
+    "row": 205,
+    "rowsha": "jYODN+lApNyUvdXSY3CS5QCdtEFrJ3HnlvQzlS5UUcQ=",
+    "originContent": "|   resetScales   |  optional   | Flag controlling whether to reset the scales on data change. Defaults to true.                                                                                                                             |",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -29,11 +29,11 @@
   </details>
 </div>
 <div align="center">
-<img src="https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/assets/images/logo.png" alt='AnymeX Icon' style="border-radius: 50px; height: 150px; width: 150px;">
+<img src="https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/assets/images/logo.png" alt='Ícone AnymeX' style="border-radius: 50px; height: 150px; width: 150px;">
   
 <p align="center">
    <img src="https://img.shields.io/badge/platforms-android_ios_windows_linux_macos-06599d?color=white&labelColor=black&style=for-the-badge"/>
-  <a href="https://github.com/RyanYuuki/AnymeX/releases"><img src="https://img.shields.io/github/downloads/RyanYuuki/AnymeX/total?color=white&labelColor=black&label=Downloads&style=for-the-badge" alt="GitHub Downloads"></a>
+  <a href="https://github.com/RyanYuuki/AnymeX/releases"><img src="https://img.shields.io/github/downloads/RyanYuuki/AnymeX/total?color=white&labelColor=black&label=Downloads&style=for-the-badge" alt="Downloads no GitHub"></a>
 </p>
 <p align="center">
 <a href="https://www.codefactor.io/repository/github/RyanYuuki/AnymeX"><img src="https://img.shields.io/codefactor/grade/github/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge&label=Codefactor" alt="CodeFactor"/></a>
@@ -52,17 +52,21 @@
 **AnymeX** é um cliente de rastreamento multisserviço projetado exclusivamente para gerenciar e acompanhar o progresso de anime e mangá através do [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) e [**Simkl**](https://simkl.com/).
 
 > [!IMPORTANTE]  
-> **AnymeX é apenas uma ferramenta de rastreamento.** Ele **não** hospeda, fornece, distribui ou endossa qualquer conteúdo de streaming, mídia ou extensões de terceiros.  
-> O aplicativo integra-se exclusivamente com as APIs oficiais dos serviços suportados (AniList, MyAnimeList, Simkl) para fins de rastreamento.  
-> Os usuários são os únicos responsáveis pelo uso do aplicativo e por quaisquer serviços ou extensões de terceiros que decidam utilizar. O desenvolvedor do AnymeX isenta-se explicitamente de toda responsabilidade por qualquer uso indevido, questões legais ou violações decorrentes das ações dos usuários. Quaisquer preocupações legais devem ser direcionadas aos respectivos serviços de terceiros, não ao AnymeX.  
+> **AnymeX é apenas uma ferramenta de rastreamento.** Não hospeda, fornece, distribui ou endossa nenhum conteúdo de streaming, mídia ou extensões de terceiros.  
 >  
-> **Ao utilizar este aplicativo, você concorda em cumprir nossos [Termos de Serviço](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md).**
+> **Responsabilidade do Usuário:** Os usuários são exclusivamente responsáveis por como utilizam o aplicativo e quaisquer serviços ou extensões de terceiros que escolherem interagir. Os usuários devem cumprir todas as leis aplicáveis, direitos autorais e de propriedade intelectual.  
+>  
+> **Sem Responsabilidade:** Os desenvolvedores do AnymeX isentam-se de toda responsabilidade por uso indevido, problemas legais ou violações decorrentes de ações dos usuários. Questões legais devem ser direcionadas aos serviços de terceiros respectivos, não ao AnymeX. O aplicativo é fornecido "como está", sem garantias.  
+>  
+> **Serviços:** O AnymeX integra apenas com as APIs oficiais dos serviços suportados (AniList, MyAnimeList, Simkl). Extensões de terceiros são de responsabilidade de seus criadores, não dos desenvolvedores do AnymeX.  
+>  
+> **Ao usar este aplicativo, você concorda em cumprir nossos [Termos de Serviço](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md).**
 
 ## Downloads
 
 <div align="center">
   <p>
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Última Versão Estável"/></a>
   </p>
   
 ### Windows
@@ -76,20 +80,20 @@
   
 ### Fontes para Sideloading no iOS
   <p>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="AltStore Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Feather Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="SideStore Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white"></a>
-    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Direct Source URL" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Fonte AltStore" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Fonte Feather" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Fonte SideStore" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white"></a>
+    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="URL Direta da Fonte" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
   </p>
 </div>
 
-<!--## Screenshots
+<!--## Capturas de tela
 
-| Home                                                                                                                                           | Search                                                                                                                                          | Details                                                                                                                      | Library                                                                                                              |
+| Início                                                                                                                                           | Pesquisa                                                                                                                                          | Detalhes                                                                                                                      | Biblioteca                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-|![The home page containing multiple sections of stuff, you've read or watched.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![The search page showing multiple search results for JoJo’s Bizarre Adventure.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![The details page of Re:Zero Kara Hajimeru Isekai Seikatsu.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![The library page showing the user’s watching list.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
+|![A página inicial contendo várias seções de itens que você já leu ou assistiu.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![A página de pesquisa mostrando vários resultados para JoJo’s Bizarre Adventure.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![A página de detalhes de Re:Zero Kara Hajimeru Isekai Seikatsu.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![A página de biblioteca mostrando a lista de assistidos do usuário.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
 
-<!-- Once I make the screenshots I'll add this back
+<!-- Quando eu fizer as capturas de tela, vou adicionar isso novamente
 ### 💻 Desktop
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <img src="https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_1.png" width="100%" style="margin: 0;" />
@@ -98,10 +102,10 @@
 
 ## Apoie-nos
 
-<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Compre-me um Café no ko-fi.com' /></a>
+<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Compre um Café para mim no ko-fi.com' /></a>
 
 > [!TIP]
-> ⭐ **Adicione uma estrela a este repositório para apoiar o desenvolvedor e incentivar o desenvolvimento do app!**
+> ⭐ **Dê uma estrela a este repositório para apoiar o desenvolvedor e incentivar o desenvolvimento do aplicativo!**
 
 <details>
   <summary>Histórico de Estrelas</summary>
@@ -121,9 +125,9 @@ Junte-se às nossas comunidades para se manter atualizado e contribuir para a di
 ## Contribua
 
 Agradecemos contribuições, desde traduções até novos recursos.  
-Nosso guia de configuração do ambiente de desenvolvimento está disponível [aqui](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
-Para dúvidas, entre em nosso [servidor do Discord](https://discord.gg/5gAHhMvTcx) ou [grupo no Telegram](https://t.me/AnymeX_Discussion).  
-Pull requests são bem-vindos; confira as [issues abertas](https://github.com/RyanYuuki/AnymeX/issues) para orientação sobre mudanças importantes.
+O nosso guia de configuração do ambiente de desenvolvimento está disponível [aqui](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
+Para dúvidas, junte-se ao nosso [servidor no Discord](https://discord.gg/5gAHhMvTcx) ou [grupo no Telegram](https://t.me/AnymeX_Discussion).  
+Pull requests são bem-vindos; confira as [issues abertas](https://github.com/RyanYuuki/AnymeX/issues) para orientações sobre grandes mudanças.
 
 <!--<details>
 <summary>Gráfico de Tradução Weblate</summary>
@@ -136,8 +140,8 @@ Pull requests são bem-vindos; confira as [issues abertas](https://github.com/Ry
 
 ## Agradecimentos
 
-Um sincero agradecimento a todos que contribuíram para o desenvolvimento do AnymeX.
-Seus esforços são inestimáveis.
+Um agradecimento especial a todos que contribuíram para o desenvolvimento do AnymeX.
+Seu esforço é inestimável.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
   <img alt="Contribuidores do GitHub" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contribuidores%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
@@ -154,6 +158,6 @@ AnymeX está licenciado sob a Licença MIT. Mais informações podem ser encontr
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

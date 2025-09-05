@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Language</summary>
@@ -28,10 +27,14 @@
     </div>
   </details>
 </div>
-
 # 🧠 无需代理的LLM网络搜索引擎
 
-一个无需代理的多搜索引擎 LLM 网络检索工具，支持 URL 内容解析和网页爬取，结合 LangGraph 实现模块化智能体链路。专为大语言模型的外部知识调用场景而设计，支持 **Playwright + Crawl4AI** 网页获取与解析，支持异步并发、内容切片与重排过滤。
+一个无需代理的多搜索引擎 LLM 网络检索工具，支持 URL 内容解析和网页爬取，结合 **LangGraph**与**LangGraph-MCP** 实现模块化智能体链路。专为大语言模型的外部知识调用场景而设计，支持 **Playwright + Crawl4AI** 网页获取与解析，支持异步并发、内容切片与重排过滤。
+
+## 🚀 更新日志
+
+- 🔥 2025-09-05：支持**langgraph-mcp**
+- 🔥 2025-09-03：新增 Docker 部署、内置智能重排器、支持自定义文本切分器与重排器
 
 ## ✨ 特性一览
 
@@ -49,13 +52,14 @@
 
   - 🚫 **内容过滤**：自动剔除无关或重复内容。
 - 🌐 **多端支持**：
+  - 🐳 **支持 Docker 部署**：一键启动，快速构建后端服务。
 
   - 🖥️ 提供 FastAPI 后端接口，可集成到任意系统中。
 
   - 🌍 提供 Gradio Web UI，可快速部署成可视化应用。
-  
+
   - 🧩[ **浏览器插件支持**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension)：支持 Edge ，提供智能 URL 解析插件，直接在浏览器中发起网页解析与内容提取请求。
-  
+
 
 ![workflow](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/workflow.png)
 
@@ -63,77 +67,68 @@
 
 ## ⚡ 快速开始
 
-### 1. 克隆仓库
+### 克隆仓库
 
 ```bash
 git clone https://github.com/itshyao/proxyless-llm-websearch.git
 cd proxyless-llm-websearch
 ```
 
-### 2. 安装依赖
+### 安装依赖
 
 ```
 pip install -r requirements.txt
 python -m playwright install
 ```
 
-### 3. 快速开始
-
-#### 环境变量配置
+### 环境变量配置
 
 ```
-OPENAI_API_KEY=xxx
-OPENAI_BASE_URL=https://ark.cn-beijing.volces.com/api/v3
-MODEL_NAME=deepseek-v3-250324
+# 百炼llm
+OPENAI_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+OPENAI_API_KEY=sk-xxx
+MODEL_NAME=qwen-plus-latest
 
-EMBEDDING_MODEL_NAME=doubao-embedding-large-text-240915
-EMBEDDING_API_KEY=xxx
-EMBEDDING_BASE_URL=https://ark.cn-beijing.volces.com/api/v3
+# 百炼embedding
+EMBEDDING_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+EMBEDDING_API_KEY=sk-xxx
+EMBEDDING_MODEL_NAME=text-embedding-v4
+
+# 百炼reranker
+RERANK_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+RERANK_API_KEY=sk-xxx
+RERANK_MODEL=gte-rerank-v2
 ```
 
-#### demo
+### Langgraph-Agent
+
+#### DEMO
+
+```shell
+python agent/demo.py
+```
+
+#### API SERVE
+
+```shell
+python agent/api_serve.py
+```
 
 ```python
-'''
-python demo.py
-'''
-
-from pools import BrowserPool, CrawlerPool
-from agent import ToolsGraph
-import asyncio
-
-async def main():
-    browser_pool = BrowserPool(pool_size=1)
-    crawler_pool = CrawlerPool(pool_size=1)
-    
-    graph = ToolsGraph(browser_pool, crawler_pool, engine="bing")
-
-    await browser_pool._create_browser_instance(headless=True)
-    await crawler_pool._get_instance()
-
-    result = await graph.run("广州今日天气")
-
-    await browser_pool.cleanup()
-    await crawler_pool.cleanup()
-
-    print(result)
-
-if __name__ == "__main__":
-    asyncio.run(main())
-```
-
-#### 后端api
-
-```python
-'''
-python api_serve.py
-'''
 import requests
 
-url = "http://localhost:8000/search"
+url = "http://localhost:8800/search"
 
 data = {
-    "question": "广州今日天气"
+  "question": "广州今日天气",
+  "engine": "bing",
+  "split": {
+    "chunk_size": 512,
+    "chunk_overlap": 128
+  },
+  "rerank": {
+    "top_k": 5
+  }
 }
 
 try:
@@ -153,15 +148,108 @@ except requests.exceptions.RequestException as e:
     print(f"⚠️ 请求异常：{str(e)}")
 ```
 
-#### gradio_demo
+#### Gradio
 
 ```
-python gradio_demo.py
+python agent/gradio_demo.py
 ```
 
 ![gradio](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/gradio1.png)
 
 ![gradio](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/gradio2.png)
+
+#### docker
+
+```
+docker-compose -f docker-compose-ag.yml up -d --build
+```
+
+### Langgrph-MCP
+
+#### 启动MCP服务
+
+```
+python mcp/websearch.py
+```
+
+#### DEMO
+
+```
+python mcp/demo.py
+```
+
+#### API SERVE
+
+```
+python mcp/api_serve.py
+```
+
+```
+import requests
+
+url = "http://localhost:8800/search"
+
+data = {
+  "question": "广州今日天气"
+}
+
+try:
+    response = requests.post(
+        url,
+        json=data
+    )
+
+    if response.status_code == 200:
+        print("✅ 请求成功！")
+        print("响应内容：", response.json())
+    else:
+        print(f"❌ 请求失败，状态码：{response.status_code}")
+        print("错误信息：", response.text)
+
+except requests.exceptions.RequestException as e:
+    print(f"⚠️ 请求异常：{str(e)}")
+```
+
+#### docker
+
+```
+docker-compose -f docker-compose-mcp.yml up -d --build
+```
+
+### 自定义模块
+
+#### 自定义分块
+
+```
+from typing import Optional, List
+
+class YourSplitter:
+    def __init__(self, text: str, chunk_size: int = 512, chunk_overlap: int = 128):
+        self.text = text
+        self.chunk_size = chunk_size
+        self.chunk_overlap = chunk_overlap
+
+    def split_text(self, text: Optional[str] = None) -> List:
+        # TODO: implement splitting logic
+        return ["your chunk"]
+```
+
+#### 自定义重排
+
+```
+from typing import List, Union, Tuple
+
+class YourReranker:
+    async def get_reranked_documents(
+        self,
+        query: Union[str, List[str]],
+        documents: List[str],
+    ) -> Union[
+        Tuple[List[str]],
+        Tuple[List[int]],
+    ]:
+        return ["your chunk"], ["chunk index"]
+```
 
 ## 🔍 与线上网络检索测试对比
 
@@ -179,10 +267,11 @@ python gradio_demo.py
 | **火山方舟**   | 5.00%     | 72.21%      | 22.79%              |
 | **百炼**       | 9.85%     | 62.79%      | 27.35%              |
 | **Our** | 19.85%    | 47.94%      | 32.06%              |
-
 ## 🙏 致谢
 
 本项目部分功能得益于以下开源项目的支持与启发，特此致谢：
 
-- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph)：用于构建模块化智能体链路框架。
-- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai)：强大的网页内容解析工具。
+- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph)：用于构建模块化智能体链路框架，帮助快速搭建复杂的智能体系统。
+- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai)：强大的网页内容解析工具，助力高效网页抓取与数据提取。
+- 🌐 [Playwright](https://github.com/microsoft/playwright)：现代浏览器自动化工具，支持跨浏览器的网页抓取和测试自动化。
+- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters)：用于多链处理MCP的构建。

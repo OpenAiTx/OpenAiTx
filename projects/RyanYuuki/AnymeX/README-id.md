@@ -47,22 +47,26 @@
 <a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX: Klien Pelacak Multi-Layanan
+# AnymeX: Klien Pelacak Multilayanan
 
-**AnymeX** adalah klien pelacak multi-layanan yang dirancang khusus untuk mengelola dan melacak progres anime dan manga di [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), dan [**Simkl**](https://simkl.com/).
+**AnymeX** adalah klien pelacak multilayanan yang dirancang khusus untuk mengelola dan melacak progres anime dan manga di [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), dan [**Simkl**](https://simkl.com/).
 
 > [!PENTING]  
-> **AnymeX hanyalah alat pelacak.** Aplikasi ini **tidak** meng-host, menyediakan, mendistribusikan, atau mendukung konten streaming, media, atau ekstensi pihak ketiga apa pun.  
-> Aplikasi ini hanya terintegrasi dengan API resmi dari layanan yang didukung (AniList, MyAnimeList, Simkl) untuk tujuan pelacakan saja.  
-> Pengguna sepenuhnya bertanggung jawab atas penggunaan aplikasi ini dan layanan pihak ketiga atau ekstensi apa pun yang mereka pilih untuk berinteraksi. Pengembang AnymeX secara tegas menolak segala tanggung jawab atas penyalahgunaan, masalah hukum, atau pelanggaran yang timbul dari tindakan pengguna. Segala permasalahan hukum harus diarahkan ke layanan pihak ketiga terkait, bukan ke AnymeX.  
+> **AnymeX hanyalah alat pelacak.** Aplikasi ini tidak meng-host, menyediakan, mendistribusikan, atau mendukung konten streaming, media, atau ekstensi pihak ketiga apa pun.  
+>  
+> **Tanggung Jawab Pengguna:** Pengguna bertanggung jawab penuh atas penggunaan aplikasi dan layanan atau ekstensi pihak ketiga yang mereka pilih untuk digunakan. Pengguna harus mematuhi semua hukum, hak cipta, dan hak kekayaan intelektual yang berlaku.  
+>  
+> **Tidak Ada Tanggung Jawab:** Pengembang AnymeX menolak semua tanggung jawab atas penyalahgunaan, masalah hukum, atau pelanggaran yang timbul dari tindakan pengguna. Masalah hukum harus diarahkan ke layanan pihak ketiga yang bersangkutan, bukan ke AnymeX. Aplikasi diberikan "apa adanya" tanpa jaminan.  
+>  
+> **Layanan:** AnymeX hanya terintegrasi dengan API resmi dari layanan yang didukung (AniList, MyAnimeList, Simkl). Ekstensi pihak ketiga sepenuhnya menjadi tanggung jawab pembuatnya, bukan pengembang AnymeX.  
 >  
 > **Dengan menggunakan aplikasi ini, Anda setuju untuk mematuhi [Ketentuan Layanan](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) kami.**
 
-## Unduh
+## Unduhan
 
 <div align="center">
   <p>
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Rilis Stabil Terbaru"/></a>
   </p>
   
 ### Windows
@@ -76,20 +80,20 @@
   
 ### Sumber Sideloading iOS
   <p>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="AltStore Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Feather Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="SideStore Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white"></a>
-    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Direct Source URL" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Sumber AltStore" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Sumber Feather" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Sumber SideStore" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white"></a>
+    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="URL Sumber Langsung" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
   </p>
 </div>
 
 <!--## Tangkapan Layar
 
-| Beranda                                                                                                                                           | Pencarian                                                                                                                                          | Detail                                                                                                                      | Perpustakaan                                                                                                              |
+| Beranda                                                                                                                                        | Pencarian                                                                                                                                       | Detail                                                                                                                      | Perpustakaan                                                                                                         |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-|![Halaman beranda yang berisi beberapa bagian dari daftar yang telah kamu baca atau tonton.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![Halaman pencarian yang menampilkan banyak hasil pencarian untuk JoJo’s Bizarre Adventure.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![Halaman detail dari Re:Zero Kara Hajimeru Isekai Seikatsu.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![Halaman perpustakaan yang menampilkan daftar tontonan pengguna.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
+|![Halaman beranda berisi beberapa bagian dari koleksi yang telah Anda baca atau tonton.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![Halaman pencarian menampilkan beberapa hasil pencarian untuk JoJo’s Bizarre Adventure.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![Halaman detail untuk Re:Zero Kara Hajimeru Isekai Seikatsu.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![Halaman perpustakaan menampilkan daftar tontonan pengguna.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
 
-<!-- Setelah saya membuat tangkapan layar, bagian ini akan ditambahkan kembali
+<!-- Setelah saya membuat tangkapan layar, saya akan menambahkannya kembali
 ### 💻 Desktop
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <img src="https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_1.png" width="100%" style="margin: 0;" />
@@ -98,7 +102,7 @@
 
 ## Dukung Kami
 
-<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Beli Saya Kopi di ko-fi.com' /></a>
+<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Beli Kopi untuk Saya di ko-fi.com' /></a>
 
 > [!TIP]
 > ⭐ **Beri bintang pada repository ini untuk mendukung pengembang & mendorong pengembangan aplikasi!**
@@ -112,7 +116,7 @@
 
 ## Komunitas Resmi
 
-Bergabunglah dengan komunitas kami untuk tetap mendapatkan informasi terbaru dan berkontribusi dalam diskusi:
+Bergabunglah dengan komunitas kami untuk tetap mendapatkan pembaruan dan berkontribusi dalam diskusi:
 
 <a href="https://discord.gg/5gAHhMvTcx" style="margin-right: 10px; display: inline-block;"><img src="https://files.catbox.moe/tb0004.png" alt="Discord" height="40" style="vertical-align: middle;"></a>
 <a href="https://t.me/AnymeX_Discussion" style="display: inline-block;"><img src="https://files.catbox.moe/z66xwr.png" alt="Telegram" height="40" style="vertical-align: middle;"></a>
@@ -120,24 +124,24 @@ Bergabunglah dengan komunitas kami untuk tetap mendapatkan informasi terbaru dan
 
 ## Kontribusi
 
-Kami menyambut kontribusi, mulai dari terjemahan hingga fitur baru.  
-Panduan penyiapan lingkungan pengembangan kami tersedia [di sini](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
-Untuk pertanyaan, bergabunglah dengan [server Discord](https://discord.gg/5gAHhMvTcx) atau [grup Telegram](https://t.me/AnymeX_Discussion) kami.  
-Pull request sangat diterima; periksa [isu terbuka](https://github.com/RyanYuuki/AnymeX/issues) untuk panduan terkait perubahan besar.
+Kami menerima kontribusi, mulai dari terjemahan hingga fitur baru.  
+Panduan pengaturan lingkungan pengembangan tersedia [di sini](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
+Untuk pertanyaan, bergabunglah dengan [server Discord](https://discord.gg/5gAHhMvTcx) atau [grup Telegram](https://t.me/AnymeX_Discussion).  
+Pull request sangat diterima; lihat [isu terbuka](https://github.com/RyanYuuki/AnymeX/issues) untuk panduan perubahan besar.
 
 <!--<details>
 <summary>Grafik Terjemahan Weblate</summary>
-<a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Status terjemahan" /></a>
+<a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Status Terjemahan" /></a>
 </details>-->
 
 ## Pengunjung
 
 <img src="https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
 
-## Penghargaan
+## Ucapan Terima Kasih
 
-Terima kasih sebesar-besarnya kepada semua orang yang telah berkontribusi dalam pengembangan AnymeX.
-Usaha Anda sangat berharga.
+Terima kasih yang tulus kepada semua yang telah berkontribusi dalam pengembangan AnymeX.
+Upaya kalian sangat berharga.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
   <img alt="Kontributor GitHub" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Kontributor%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
@@ -149,11 +153,11 @@ Usaha Anda sangat berharga.
 
 ## Lisensi
 
-AnymeX dilisensikan di bawah Lisensi MIT. Info lebih lanjut dapat ditemukan [di sini](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
+AnymeX dilisensikan di bawah Lisensi MIT. Informasi lebih lanjut dapat ditemukan [di sini](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Ngôn ngữ</summary>
@@ -28,34 +27,39 @@
     </div>
   </details>
 </div>
+# 🧠 Công cụ Tìm kiếm Mạng LLM Không Cần Proxy
 
-# 🧠 Công cụ tìm kiếm LLM không cần proxy
+Một công cụ truy xuất mạng LLM đa công cụ tìm kiếm không cần proxy, hỗ trợ phân tích nội dung URL và thu thập dữ liệu web, kết hợp **LangGraph** và **LangGraph-MCP** để xây dựng chuỗi tác tử thông minh dạng module hóa. Được thiết kế chuyên biệt cho các tình huống gọi kiến thức bên ngoài của mô hình ngôn ngữ lớn, hỗ trợ **Playwright + Crawl4AI** để lấy và phân tích trang web, đồng thời hỗ trợ xử lý bất đồng bộ, phân mảnh nội dung và lọc sắp xếp lại.
 
-Một công cụ truy xuất thông tin mạng LLM đa công cụ tìm kiếm không cần proxy, hỗ trợ phân tích nội dung URL và thu thập dữ liệu web, kết hợp với LangGraph để xây dựng chuỗi agent mô-đun. Thiết kế đặc biệt cho kịch bản LLM gọi kiến thức ngoài, hỗ trợ **Playwright + Crawl4AI** để lấy và phân tích trang web, hỗ trợ xử lý đồng thời bất đồng bộ, cắt nhỏ và lọc sắp xếp lại nội dung.
+## 🚀 Nhật ký cập nhật
 
-## ✨ Tính năng nổi bật
+- 🔥 2025-09-05: Hỗ trợ **langgraph-mcp**
+- 🔥 2025-09-03: Thêm triển khai Docker, bộ sắp xếp lại thông minh tích hợp, hỗ trợ bộ tách và sắp xếp văn bản tùy chỉnh
 
-- 🌐 **Không cần proxy**: Thông qua cấu hình Playwright hỗ trợ trình duyệt nội địa, không cần proxy vẫn có thể tìm kiếm trên mạng.
+## ✨ Danh sách tính năng
+
+- 🌐 **Không cần proxy**: Hỗ trợ trình duyệt trong nước qua cấu hình Playwright, có thể tìm kiếm trên mạng mà không cần proxy.
 - 🔍 **Hỗ trợ nhiều công cụ tìm kiếm**: Hỗ trợ Bing, Quark, Baidu, Sogou và các công cụ tìm kiếm phổ biến khác, tăng tính đa dạng nguồn thông tin.
-- 🤖 **Nhận diện ý định**: Hệ thống có thể tự động xác định dựa trên nội dung đầu vào của người dùng là thực hiện tìm kiếm hay phân tích URL.
-- 🔄 **Phân tách truy vấn**: Theo ý định tìm kiếm của người dùng, tự động tách truy vấn thành nhiều tác vụ nhỏ và thực hiện tuần tự, nâng cao độ liên quan và hiệu quả tìm kiếm.
-- ⚙️ **Kiến trúc agent**: Đóng gói dựa trên **LangGraph** với **「web_search」** và **「link_parser」**.
-- 🏃‍♂️ **Xử lý tác vụ đồng thời bất đồng bộ**: Hỗ trợ xử lý tác vụ đồng thời bất đồng bộ, xử lý hiệu quả nhiều nhiệm vụ tìm kiếm.
-- 📝 **Tối ưu xử lý nội dung**:
+- 🤖 **Nhận diện ý định**: Hệ thống tự động xác định dựa trên nội dung nhập vào của người dùng là tìm kiếm trên mạng hay phân tích URL.
+- 🔄 **Phân tách truy vấn**: Tự động chia truy vấn thành nhiều nhiệm vụ nhỏ dựa trên ý định tìm kiếm của người dùng và thực hiện tuần tự, nâng cao sự liên quan và hiệu suất tìm kiếm.
+- ⚙️ **Kiến trúc tác tử thông minh**: Đóng gói **「web_search」** và **「link_parser」** dựa trên **LangGraph**.
+- 🏃‍♂️ **Xử lý tác vụ bất đồng bộ song song**: Hỗ trợ xử lý tác vụ bất đồng bộ song song, hiệu quả khi xử lý nhiều nhiệm vụ tìm kiếm cùng lúc.
+- 📝 **Tối ưu hóa xử lý nội dung**:
 
-  - ✂️ **Cắt nhỏ nội dung**: Cắt nội dung trang web dài thành từng đoạn.
+  - ✂️ **Cắt nhỏ nội dung**: Chia nhỏ nội dung dài của trang web theo đoạn.
 
-  - 🔄 **Sắp xếp lại nội dung**: Sắp xếp thông minh để tăng độ liên quan thông tin.
+  - 🔄 **Sắp xếp lại nội dung**: Sắp xếp thông minh, nâng cao sự liên quan thông tin.
 
   - 🚫 **Lọc nội dung**: Tự động loại bỏ nội dung không liên quan hoặc trùng lặp.
 - 🌐 **Hỗ trợ đa nền tảng**:
+  - 🐳 **Hỗ trợ triển khai Docker**: Khởi động chỉ với một lệnh, xây dựng dịch vụ backend nhanh chóng.
 
-  - 🖥️ Cung cấp API backend FastAPI, có thể tích hợp vào bất kỳ hệ thống nào.
+  - 🖥️ Cung cấp giao diện backend FastAPI, có thể tích hợp vào bất kỳ hệ thống nào.
 
-  - 🌍 Có giao diện web Gradio, dễ dàng triển khai thành ứng dụng trực quan.
-  
-  - 🧩[ **Hỗ trợ tiện ích trình duyệt**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Hỗ trợ Edge, cung cấp plugin phân tích URL thông minh, gửi yêu cầu phân tích và trích xuất nội dung trực tiếp trên trình duyệt.
-  
+  - 🌍 Cung cấp Gradio Web UI, dễ dàng triển khai thành ứng dụng trực quan.
+
+  - 🧩[ **Hỗ trợ plugin trình duyệt**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Hỗ trợ Edge, cung cấp plugin phân tích URL thông minh, gửi yêu cầu phân tích trang web và trích xuất nội dung trực tiếp trên trình duyệt.
+
 
 ![workflow](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/workflow.png)
 
@@ -63,77 +67,68 @@ Một công cụ truy xuất thông tin mạng LLM đa công cụ tìm kiếm kh
 
 ## ⚡ Bắt đầu nhanh
 
-### 1. Sao chép kho mã
+### Clone kho mã
 
 ```bash
 git clone https://github.com/itshyao/proxyless-llm-websearch.git
 cd proxyless-llm-websearch
 ```
 
-### 2. Cài đặt các phụ thuộc
+### Cài đặt các phụ thuộc
 
 ```
 pip install -r requirements.txt
 python -m playwright install
 ```
 
-### 3. Bắt đầu nhanh
-
-#### Cấu hình biến môi trường
+### Cấu hình biến môi trường
 
 ```
-OPENAI_API_KEY=xxx
-OPENAI_BASE_URL=https://ark.cn-beijing.volces.com/api/v3
-MODEL_NAME=deepseek-v3-250324
+# 百炼llm
+OPENAI_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+OPENAI_API_KEY=sk-xxx
+MODEL_NAME=qwen-plus-latest
 
-EMBEDDING_MODEL_NAME=doubao-embedding-large-text-240915
-EMBEDDING_API_KEY=xxx
-EMBEDDING_BASE_URL=https://ark.cn-beijing.volces.com/api/v3
+# 百炼embedding
+EMBEDDING_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+EMBEDDING_API_KEY=sk-xxx
+EMBEDDING_MODEL_NAME=text-embedding-v4
+
+# 百炼reranker
+RERANK_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+RERANK_API_KEY=sk-xxx
+RERANK_MODEL=gte-rerank-v2
 ```
 
-#### trình diễn
+### Langgraph-Agent
+
+#### TRÌNH DIỄN
+
+```shell
+python agent/demo.py
+```
+
+#### API PHỤC VỤ
+
+```shell
+python agent/api_serve.py
+```
 
 ```python
-'''
-python demo.py
-'''
-
-from pools import BrowserPool, CrawlerPool
-from agent import ToolsGraph
-import asyncio
-
-async def main():
-    browser_pool = BrowserPool(pool_size=1)
-    crawler_pool = CrawlerPool(pool_size=1)
-    
-    graph = ToolsGraph(browser_pool, crawler_pool, engine="bing")
-
-    await browser_pool._create_browser_instance(headless=True)
-    await crawler_pool._get_instance()
-
-    result = await graph.run("广州今日天气")
-
-    await browser_pool.cleanup()
-    await crawler_pool.cleanup()
-
-    print(result)
-
-if __name__ == "__main__":
-    asyncio.run(main())
-```
-
-#### API phía sau
-
-```python
-'''
-python api_serve.py
-'''
 import requests
 
-url = "http://localhost:8000/search"
+url = "http://localhost:8800/search"
 
 data = {
-    "question": "广州今日天气"
+  "question": "广州今日天气",
+  "engine": "bing",
+  "split": {
+    "chunk_size": 512,
+    "chunk_overlap": 128
+  },
+  "rerank": {
+    "top_k": 5
+  }
 }
 
 try:
@@ -153,42 +148,137 @@ except requests.exceptions.RequestException as e:
     print(f"⚠️ 请求异常：{str(e)}")
 ```
 
-#### gradio_demo
+#### Gradio
 
 ```
-python gradio_demo.py
+python agent/gradio_demo.py
 ```
 
 ![gradio](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/gradio1.png)
 
 ![gradio](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/gradio2.png)
 
-## 🔍 So sánh với kiểm tra tìm kiếm trên Internet trực tuyến
+#### docker
 
-Chúng tôi đã so sánh dự án với một số API trực tuyến phổ biến, đánh giá hiệu suất của chúng trong các câu hỏi phức tạp.
+```
+docker-compose -f docker-compose-ag.yml up -d --build
+```
+
+### Langgrph-MCP
+
+#### Khởi động dịch vụ MCP
+
+```
+python mcp/websearch.py
+```
+
+#### TRÌNH DIỄN
+
+```
+python mcp/demo.py
+```
+
+#### API PHỤC VỤ
+
+```
+python mcp/api_serve.py
+```
+
+```
+import requests
+
+url = "http://localhost:8800/search"
+
+data = {
+  "question": "广州今日天气"
+}
+
+try:
+    response = requests.post(
+        url,
+        json=data
+    )
+
+    if response.status_code == 200:
+        print("✅ 请求成功！")
+        print("响应内容：", response.json())
+    else:
+        print(f"❌ 请求失败，状态码：{response.status_code}")
+        print("错误信息：", response.text)
+
+except requests.exceptions.RequestException as e:
+    print(f"⚠️ 请求异常：{str(e)}")
+```
+
+#### docker
+
+```
+docker-compose -f docker-compose-mcp.yml up -d --build
+```
+
+### Mô-đun tùy chỉnh
+
+#### Phân khối tùy chỉnh
+
+```
+from typing import Optional, List
+
+class YourSplitter:
+    def __init__(self, text: str, chunk_size: int = 512, chunk_overlap: int = 128):
+        self.text = text
+        self.chunk_size = chunk_size
+        self.chunk_overlap = chunk_overlap
+
+    def split_text(self, text: Optional[str] = None) -> List:
+        # TODO: implement splitting logic
+        return ["your chunk"]
+```
+
+#### Tùy chỉnh sắp xếp lại
+
+```
+from typing import List, Union, Tuple
+
+class YourReranker:
+    async def get_reranked_documents(
+        self,
+        query: Union[str, List[str]],
+        documents: List[str],
+    ) -> Union[
+        Tuple[List[str]],
+        Tuple[List[int]],
+    ]:
+        return ["your chunk"], ["chunk index"]
+```
+
+## 🔍 So sánh với kiểm thử truy vấn mạng trực tuyến
+
+Chúng tôi đã so sánh dự án với một số API trực tuyến phổ biến, đánh giá hiệu suất của chúng với các vấn đề phức tạp.
 
 ### 🔥 Bộ dữ liệu
 
-- Bộ dữ liệu lấy từ [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA) do Alibaba phát hành, bao gồm 680 câu hỏi khó, bao phủ nhiều lĩnh vực như giáo dục, hội nghị học thuật, trò chơi,...
+- Bộ dữ liệu được lấy từ [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA) do Alibaba phát hành, bao gồm 680 câu hỏi khó, bao phủ các lĩnh vực như giáo dục, hội nghị học thuật, trò chơi, v.v.
 - Bộ dữ liệu bao gồm câu hỏi bằng tiếng Trung và tiếng Anh.
 
 ### 🧑‍🏫 Kết quả so sánh
 
 | Công cụ tìm kiếm/hệ thống | ✅ Đúng | ❌ Sai | ⚠️ Đúng một phần |
-| ---------------------- | ------- | ------ | --------------- |
-| **火山方舟**           | 5.00%   | 72.21% | 22.79%          |
-| **百炼**               | 9.85%   | 62.79% | 27.35%          |
-| **Our**                | 19.85%  | 47.94% | 32.06%          |
-
+| ------------------------ | ------- | ------ | --------------- |
+| **Volcano Ark**          | 5.00%   | 72.21% | 22.79%          |
+| **Bailian**              | 9.85%   | 62.79% | 27.35%          |
+| **Our**                  | 19.85%  | 47.94% | 32.06%          |
 ## 🙏 Lời cảm ơn
 
-Một số chức năng của dự án này được hỗ trợ và truyền cảm hứng bởi các dự án mã nguồn mở sau, xin trân trọng cảm ơn:
+Một số chức năng của dự án này được hưởng lợi từ sự hỗ trợ và truyền cảm hứng của các dự án mã nguồn mở sau đây, xin gửi lời cảm ơn đặc biệt:
 
-- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph)：dùng để xây dựng khung chuỗi tác tử mô-đun.
-- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai)：công cụ phân tích nội dung web mạnh mẽ.
+- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph): Dùng để xây dựng khung liên kết tác tử mô-đun, giúp nhanh chóng thiết lập hệ thống tác tử phức tạp.
+- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): Công cụ phân tích nội dung web mạnh mẽ, hỗ trợ thu thập và trích xuất dữ liệu hiệu quả từ web.
+- 🌐 [Playwright](https://github.com/microsoft/playwright): Công cụ tự động hóa trình duyệt hiện đại, hỗ trợ thu thập dữ liệu và kiểm thử tự động đa trình duyệt.
+- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters): Dùng để xây dựng xử lý đa chuỗi MCP.
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

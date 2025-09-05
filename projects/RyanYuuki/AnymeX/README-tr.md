@@ -52,13 +52,17 @@
 **AnymeX**, [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) ve [**Simkl**](https://simkl.com/) üzerinden anime ve manga ilerlemenizi yönetmek ve takip etmek için özel olarak tasarlanmış çoklu servis takip istemcisidir.
 
 > [!ÖNEMLİ]  
-> **AnymeX yalnızca bir takip aracıdır.** Herhangi bir yayın içeriği, medya veya üçüncü parti uzantı barındırmaz, sağlamaz, dağıtmaz veya onaylamaz.  
-> Uygulama, sadece izleme amaçlı olarak desteklenen servislerin (AniList, MyAnimeList, Simkl) resmi API’leri ile entegre olur.  
-> Kullanıcılar, uygulamanın ve etkileşimde bulundukları herhangi bir üçüncü parti servis veya uzantının kullanımından tamamen kendileri sorumludur. AnymeX geliştiricisi, kullanıcı eylemlerinden kaynaklanan herhangi bir kötüye kullanım, yasal sorunlar veya ihlaller için tüm sorumluluğu açıkça reddeder. Herhangi bir yasal endişe, ilgili üçüncü parti servislere yönlendirilmelidir; AnymeX’e değil.  
+> **AnymeX sadece bir takip aracıdır.** Herhangi bir yayın içeriği, medya veya üçüncü taraf uzantı barındırmaz, sağlamaz, dağıtmaz ya da desteklemez.  
+>  
+> **Kullanıcı Sorumluluğu:** Kullanıcılar uygulamayı ve etkileşimde bulundukları üçüncü taraf hizmetleri veya uzantıları nasıl kullandıklarından tamamen kendileri sorumludur. Kullanıcılar yürürlükteki tüm yasalara, telif haklarına ve fikri mülkiyet haklarına uymalıdır.  
+>  
+> **Sorumluluk Reddi:** AnymeX geliştiricileri, kullanıcı eylemlerinden kaynaklanan kötüye kullanım, hukuki sorunlar veya ihlaller için tüm sorumluluğu reddeder. Hukuki endişeler ilgili üçüncü taraf hizmetlere yöneltilmelidir, AnymeX'e değil. Uygulama “olduğu gibi” herhangi bir garanti olmadan sunulmaktadır.  
+>  
+> **Servisler:** AnymeX yalnızca desteklenen servislerin (AniList, MyAnimeList, Simkl) resmi API’leri ile entegre olur. Üçüncü taraf uzantılar kendi geliştiricilerinin sorumluluğundadır, AnymeX geliştiricilerinin değil.  
 >  
 > **Bu uygulamayı kullanarak [Hizmet Şartlarımızı](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) kabul etmiş olursunuz.**
 
-## İndirmeler
+## İndir
 
 <div align="center">
   <p>
@@ -79,17 +83,17 @@
     <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="AltStore Kaynağı" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
     <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Feather Kaynağı" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
     <a href="https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="SideStore Kaynağı" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white"></a>
-    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Doğrudan Kaynak URL’si" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
+    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Doğrudan Kaynak URL'si" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
   </p>
 </div>
 
 <!--## Ekran Görüntüleri
 
-| Ana Sayfa                                                                                                                                           | Arama                                                                                                                                          | Detaylar                                                                                                                      | Kütüphane                                                                                                              |
+| Ana Sayfa                                                                                                                                       | Arama                                                                                                                                          | Detaylar                                                                                                                     | Kütüphane                                                                                                             |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-|![Okuduğunuz veya izlediğiniz şeylerin birden fazla bölümünü içeren ana sayfa.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![JoJo’s Bizarre Adventure için birden fazla arama sonucunu gösteren arama sayfası.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![Re:Zero Kara Hajimeru Isekai Seikatsu detay sayfası.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![Kullanıcının izleme listesini gösteren kütüphane sayfası.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
+|![Okuduğunuz veya izlediğiniz birden fazla bölüm içeren ana sayfa.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![JoJo’s Bizarre Adventure için birden fazla arama sonucu gösteren arama sayfası.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![Re:Zero Kara Hajimeru Isekai Seikatsu'nun detaylar sayfası.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![Kullanıcının izleme listesini gösteren kütüphane sayfası.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
 
-<!-- Ekran görüntülerini hazırladığımda tekrar ekleyeceğim
+<!-- Ekran görüntülerini oluşturduğumda bunu tekrar ekleyeceğim
 ### 💻 Masaüstü
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <img src="https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_1.png" width="100%" style="margin: 0;" />
@@ -98,10 +102,10 @@
 
 ## Bize Destek Olun
 
-<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Bana Bir Kahve Al - ko-fi.com' /></a>
+<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='ko-fi.com üzerinden bana bir kahve ısmarlayın' /></a>
 
 > [!TIP]
-> ⭐ **Geliştiriciyi desteklemek ve uygulamanın geliştirilmesini teşvik etmek için bu depoyu yıldızlayın!**
+> ⭐ **Geliştiriciyi desteklemek ve uygulamanın gelişimini teşvik etmek için bu depoya yıldız verin!**
 
 <details>
   <summary>Yıldız Geçmişi</summary>
@@ -112,7 +116,7 @@
 
 ## Resmi Topluluklar
 
-Güncel kalmak ve tartışmalara katılmak için topluluklarımıza katılın:
+Güncel kalmak ve tartışmaya katkıda bulunmak için topluluklarımıza katılın:
 
 <a href="https://discord.gg/5gAHhMvTcx" style="margin-right: 10px; display: inline-block;"><img src="https://files.catbox.moe/tb0004.png" alt="Discord" height="40" style="vertical-align: middle;"></a>
 <a href="https://t.me/AnymeX_Discussion" style="display: inline-block;"><img src="https://files.catbox.moe/z66xwr.png" alt="Telegram" height="40" style="vertical-align: middle;"></a>
@@ -123,7 +127,7 @@ Güncel kalmak ve tartışmalara katılmak için topluluklarımıza katılın:
 Çevirilerden yeni özelliklere kadar her türlü katkıyı memnuniyetle karşılıyoruz.  
 Geliştirme ortamı kurulum rehberimize [buradan](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md) ulaşabilirsiniz.  
 Sorularınız için [Discord sunucumuza](https://discord.gg/5gAHhMvTcx) veya [Telegram grubumuza](https://t.me/AnymeX_Discussion) katılabilirsiniz.  
-Pull request gönderebilirsiniz; büyük değişiklikler için [açık sorunlara](https://github.com/RyanYuuki/AnymeX/issues) göz atın.
+Pull request'ler memnuniyetle karşılanır; büyük değişiklikler için [açık sorunlara](https://github.com/RyanYuuki/AnymeX/issues) göz atabilirsiniz.
 
 <!--<details>
 <summary>Weblate Çeviri Grafiği</summary>
@@ -136,7 +140,7 @@ Pull request gönderebilirsiniz; büyük değişiklikler için [açık sorunlara
 
 ## Teşekkürler
 
-AnymeX’in geliştirilmesine katkıda bulunan herkese gönülden teşekkür ederiz.
+AnymeX'in geliştirilmesine katkıda bulunan herkese gönülden teşekkürler.
 Çabalarınız çok değerli.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
@@ -149,11 +153,11 @@ AnymeX’in geliştirilmesine katkıda bulunan herkese gönülden teşekkür ede
 
 ## Lisans
 
-AnymeX, MIT Lisansı ile lisanslanmıştır. Daha fazla bilgiye [buradan](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md) ulaşabilirsiniz.
+AnymeX MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [buraya](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md) bakabilirsiniz.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

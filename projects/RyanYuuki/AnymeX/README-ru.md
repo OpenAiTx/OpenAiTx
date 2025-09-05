@@ -47,14 +47,18 @@
 <a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX: Мультисервисный клиент для трекинга
+# AnymeX: Мультисервисный клиент для отслеживания
 
-**AnymeX** — это мультисервисный клиент для отслеживания, предназначенный исключительно для управления и отслеживания прогресса просмотра аниме и чтения манги на платформах [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) и [**Simkl**](https://simkl.com/).
+**AnymeX** — это мультисервисный клиент для отслеживания, предназначенный исключительно для управления и отслеживания прогресса просмотра аниме и манги на [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) и [**Simkl**](https://simkl.com/).
 
 > [!ВАЖНО]  
-> **AnymeX — это только инструмент для трекинга.** Он **не** размещает, не предоставляет, не распространяет и не поддерживает какой-либо потоковый контент, медиа или сторонние расширения.  
-> Приложение интегрируется только с официальными API поддерживаемых сервисов (AniList, MyAnimeList, Simkl) исключительно для целей трекинга.  
-> Пользователи несут полную ответственность за использование приложения и любые сторонние сервисы или расширения, с которыми они взаимодействуют. Разработчик AnymeX явно отказывается от какой-либо ответственности за неправильное использование, юридические проблемы или нарушения, возникшие в результате действий пользователя. Все юридические вопросы должны адресоваться соответствующим сторонним сервисам, а не AnymeX.  
+> **AnymeX — только инструмент для отслеживания.** Он не размещает, не предоставляет, не распространяет и не поддерживает какой-либо стриминговый контент, медиа или сторонние расширения.  
+>  
+> **Ответственность пользователя:** Пользователи несут полную ответственность за то, как они используют приложение и какие сторонние сервисы или расширения выбирают. Пользователи должны соблюдать все применимые законы, авторские права и права интеллектуальной собственности.  
+>  
+> **Отсутствие ответственности:** Разработчики AnymeX снимают с себя всю ответственность за неправильное использование, юридические вопросы или нарушения, возникающие в результате действий пользователей. Юридические вопросы следует адресовать соответствующим сторонним сервисам, а не AnymeX. Приложение предоставляется "как есть" без гарантий.  
+>  
+> **Сервисы:** AnymeX интегрируется только с официальными API поддерживаемых сервисов (AniList, MyAnimeList, Simkl). Сторонние расширения — ответственность их создателей, а не разработчиков AnymeX.  
 >  
 > **Используя это приложение, вы соглашаетесь соблюдать наши [Условия обслуживания](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md).**
 
@@ -74,22 +78,22 @@
 
 <div align="center">
   
-### iOS: Источники для сайдлоада
+### Источники для Sideloading на iOS
   <p>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="AltStore Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Feather Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="SideStore Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white"></a>
-    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Direct Source URL" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Источник AltStore" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Источник Feather" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Источник SideStore" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white"></a>
+    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Прямая ссылка на источник" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
   </p>
 </div>
 
 <!--## Скриншоты
 
-| Главная                                                                                                                                           | Поиск                                                                                                                                          | Детали                                                                                                                      | Библиотека                                                                                                              |
+| Главная                                                                                                                                         | Поиск                                                                                                                                           | Детали                                                                                                                      | Библиотека                                                                                                         |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-|![Главная страница, содержащая несколько секций вашего просмотренного или прочитанного.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![Страница поиска с результатами по JoJo’s Bizarre Adventure.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![Страница с деталями по Re:Zero Kara Hajimeru Isekai Seikatsu.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![Страница библиотеки с вашим списком просматриваемого.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
+|![Главная страница с несколькими разделами того, что вы читали или смотрели.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![Страница поиска с результатами поиска по JoJo’s Bizarre Adventure.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![Страница деталей Re:Zero Kara Hajimeru Isekai Seikatsu.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![Страница библиотеки с вашим списком просмотра.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
 
-<!-- Как только я добавлю скриншоты, это вернётся обратно
+<!-- Как только я создам скриншоты, я добавлю это обратно
 ### 💻 Десктоп
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <img src="https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_1.png" width="100%" style="margin: 0;" />
@@ -100,7 +104,7 @@
 
 <a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Купите мне кофе на ko-fi.com' /></a>
 
-> [!TIP]
+> [!ПОДСКАЗКА]
 > ⭐ **Поставьте звезду этому репозиторию, чтобы поддержать разработчика и стимулировать развитие приложения!**
 
 <details>
@@ -112,7 +116,7 @@
 
 ## Официальные сообщества
 
-Присоединяйтесь к нашим сообществам, чтобы быть в курсе новостей и участвовать в обсуждениях:
+Присоединяйтесь к нашим сообществам, чтобы быть в курсе новостей и участвовать в обсуждении:
 
 <a href="https://discord.gg/5gAHhMvTcx" style="margin-right: 10px; display: inline-block;"><img src="https://files.catbox.moe/tb0004.png" alt="Discord" height="40" style="vertical-align: middle;"></a>
 <a href="https://t.me/AnymeX_Discussion" style="display: inline-block;"><img src="https://files.catbox.moe/z66xwr.png" alt="Telegram" height="40" style="vertical-align: middle;"></a>
@@ -120,13 +124,13 @@
 
 ## Вклад
 
-Мы приветствуем любые вклады: от переводов до новых функций.  
+Мы приветствуем вклад в проект, начиная от переводов и заканчивая новыми функциями.  
 Руководство по настройке среды разработки доступно [здесь](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
-По вопросам присоединяйтесь к нашему [Discord-серверу](https://discord.gg/5gAHhMvTcx) или [группе в Telegram](https://t.me/AnymeX_Discussion).  
-Pull request'ы приветствуются; ознакомьтесь с [открытыми задачами](https://github.com/RyanYuuki/AnymeX/issues) для информации о крупных изменениях.
+По вопросам присоединяйтесь к нашему [серверу Discord](https://discord.gg/5gAHhMvTcx) или [группе Telegram](https://t.me/AnymeX_Discussion).  
+Мы принимаем pull-запросы; ознакомьтесь с [открытыми задачами](https://github.com/RyanYuuki/AnymeX/issues) для рекомендаций по крупным изменениям.
 
 <!--<details>
-<summary>График перевода Weblate</summary>
+<summary>Weblate Translation Graph</summary>
 <a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Translation status" /></a>
 </details>-->
 
@@ -136,24 +140,24 @@ Pull request'ы приветствуются; ознакомьтесь с [от�
 
 ## Благодарности
 
-Искренняя благодарность всем, кто внес вклад в разработку AnymeX.
-Ваши усилия неоценимы.
+Сердечно благодарим всех, кто внес свой вклад в разработку AnymeX.
+Ваши усилия бесценны.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
 </a>
 <br>
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Участники">
+  <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
 
 ## Лицензия
 
-AnymeX распространяется под лицензией MIT. Подробнее читайте [здесь](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
+AnymeX распространяется по лицензии MIT. Подробнее можно узнать [здесь](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

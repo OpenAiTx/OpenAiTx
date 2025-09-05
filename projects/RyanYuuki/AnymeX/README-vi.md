@@ -49,16 +49,20 @@
 
 # AnymeX: Ứng Dụng Theo Dõi Đa Dịch Vụ
 
-**AnymeX** là một ứng dụng khách theo dõi đa dịch vụ được thiết kế dành riêng cho việc quản lý và theo dõi tiến trình anime và manga trên [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), và [**Simkl**](https://simkl.com/).
+**AnymeX** là một ứng dụng theo dõi đa dịch vụ được thiết kế riêng để quản lý và theo dõi tiến độ anime và manga trên [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), và [**Simkl**](https://simkl.com/).
 
-> [!IMPORTANT]  
-> **AnymeX chỉ là một công cụ theo dõi.** Ứng dụng **không** lưu trữ, cung cấp, phân phối hay xác nhận bất kỳ nội dung phát trực tuyến, phương tiện truyền thông, hoặc tiện ích mở rộng bên thứ ba nào.  
-> Ứng dụng chỉ tích hợp với các API chính thức của các dịch vụ được hỗ trợ (AniList, MyAnimeList, Simkl) nhằm mục đích theo dõi.  
-> Người dùng hoàn toàn chịu trách nhiệm về việc sử dụng ứng dụng và bất kỳ dịch vụ hoặc tiện ích mở rộng bên thứ ba nào mà họ lựa chọn tương tác. Nhà phát triển AnymeX từ chối mọi trách nhiệm liên quan đến việc sử dụng sai mục đích, các vấn đề pháp lý, hoặc vi phạm phát sinh từ hành động của người dùng. Mọi vấn đề pháp lý vui lòng liên hệ với các dịch vụ bên thứ ba liên quan, không phải AnymeX.  
+> [!QUAN TRỌNG]  
+> **AnymeX chỉ là công cụ theo dõi.** Ứng dụng không lưu trữ, cung cấp, phân phối hay xác nhận bất kỳ nội dung phát trực tuyến, phương tiện hoặc tiện ích bên thứ ba nào.  
 >  
-> **Bằng việc sử dụng ứng dụng này, bạn đồng ý tuân thủ [Điều khoản Dịch vụ](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) của chúng tôi.**
+> **Trách nhiệm người dùng:** Người dùng hoàn toàn chịu trách nhiệm về cách sử dụng ứng dụng và bất kỳ dịch vụ hoặc tiện ích bên thứ ba nào mà họ lựa chọn tương tác. Người dùng phải tuân thủ mọi luật pháp, quyền tác giả và quyền sở hữu trí tuệ liên quan.  
+>  
+> **Miễn trừ trách nhiệm:** Các nhà phát triển AnymeX từ chối mọi trách nhiệm đối với việc sử dụng sai mục đích, các vấn đề pháp lý hoặc vi phạm phát sinh từ hành động của người dùng. Các vấn đề pháp lý nên được gửi tới các dịch vụ bên thứ ba liên quan, không phải AnymeX. Ứng dụng được cung cấp "nguyên trạng" mà không có bất kỳ đảm bảo nào.  
+>  
+> **Dịch vụ:** AnymeX chỉ tích hợp với API chính thức của các dịch vụ được hỗ trợ (AniList, MyAnimeList, Simkl). Các tiện ích bên thứ ba là trách nhiệm của người tạo ra chúng, không phải của nhà phát triển AnymeX.  
+>  
+> **Bằng việc sử dụng ứng dụng này, bạn đồng ý tuân thủ [Điều Khoản Dịch Vụ](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) của chúng tôi.**
 
-## Tải Về
+## Tải Xuống
 
 <div align="center">
   <p>
@@ -74,45 +78,45 @@
 
 <div align="center">
   
-### Nguồn Tải Sideload cho iOS
+### Nguồn Sideloading cho iOS
   <p>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="AltStore Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Feather Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="SideStore Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white"></a>
-    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Direct Source URL" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Nguồn AltStore" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Nguồn Feather" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Nguồn SideStore" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white"></a>
+    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="URL nguồn trực tiếp" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
   </p>
 </div>
 
-<!--## Ảnh Chụp Màn Hình
+<!--## Ảnh chụp màn hình
 
-| Trang Chủ                                                                                                                                        | Tìm Kiếm                                                                                                                                        | Chi Tiết                                                                                                                     | Thư Viện                                                                                                             |
+| Trang chủ                                                                                                                                           | Tìm kiếm                                                                                                                                          | Chi tiết                                                                                                                      | Thư viện                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-|![Trang chủ chứa nhiều mục về những gì bạn đã đọc hoặc xem.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![Trang tìm kiếm hiển thị nhiều kết quả tìm kiếm cho JoJo’s Bizarre Adventure.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![Trang chi tiết của Re:Zero Kara Hajimeru Isekai Seikatsu.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![Trang thư viện hiển thị danh sách đang xem của người dùng.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
+|![Trang chủ hiển thị nhiều mục mà bạn đã đọc hoặc xem.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![Trang tìm kiếm hiển thị nhiều kết quả cho JoJo’s Bizarre Adventure.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![Trang chi tiết của Re:Zero Kara Hajimeru Isekai Seikatsu.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![Trang thư viện hiển thị danh sách đang xem của người dùng.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
 
-<!-- Khi có ảnh chụp màn hình, tôi sẽ thêm lại phần này
-### 💻 Máy Tính
+<!-- Khi tôi làm xong ảnh chụp màn hình sẽ thêm lại
+### 💻 Máy tính để bàn
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <img src="https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_1.png" width="100%" style="margin: 0;" />
     <img src="https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_2.png" width="100%" style="margin: 0;" />
 </div>-->
 
-## Ủng Hộ Chúng Tôi
+## Ủng hộ chúng tôi
 
 <a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Mua cho tôi một ly cà phê tại ko-fi.com' /></a>
 
 > [!TIP]
-> ⭐ **Hãy gắn sao cho kho lưu trữ này để ủng hộ nhà phát triển & khuyến khích phát triển ứng dụng!**
+> ⭐ **Hãy đánh dấu sao repository này để ủng hộ lập trình viên & khuyến khích phát triển ứng dụng!**
 
 <details>
-  <summary>Lịch sử gắn sao</summary>
+  <summary>Lịch sử đánh dấu sao</summary>
   <a href="https://github.com/RyanYuuki/AnymeX/stargazers">
-      <img alt="Biểu đồ lịch sử gắn sao" src="https://starchart.cc/RyanYuuki/AnymeX.svg?variant=adaptive" width="370" height="235" />
+      <img alt="Biểu đồ lịch sử đánh dấu sao" src="https://starchart.cc/RyanYuuki/AnymeX.svg?variant=adaptive" width="370" height="235" />
   </a>
 </details>
 
 ## Cộng đồng chính thức
 
-Tham gia các cộng đồng của chúng tôi để luôn được cập nhật và đóng góp thảo luận:
+Tham gia cộng đồng của chúng tôi để cập nhật thông tin mới và đóng góp thảo luận:
 
 <a href="https://discord.gg/5gAHhMvTcx" style="margin-right: 10px; display: inline-block;"><img src="https://files.catbox.moe/tb0004.png" alt="Discord" height="40" style="vertical-align: middle;"></a>
 <a href="https://t.me/AnymeX_Discussion" style="display: inline-block;"><img src="https://files.catbox.moe/z66xwr.png" alt="Telegram" height="40" style="vertical-align: middle;"></a>
@@ -120,13 +124,13 @@ Tham gia các cộng đồng của chúng tôi để luôn được cập nhật
 
 ## Đóng góp
 
-Chúng tôi hoan nghênh mọi đóng góp, từ dịch thuật đến các tính năng mới.  
+Chúng tôi hoan nghênh mọi đóng góp, từ bản dịch đến các tính năng mới.  
 Hướng dẫn thiết lập môi trường phát triển của chúng tôi có tại [đây](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
-Nếu có thắc mắc, hãy tham gia [máy chủ Discord](https://discord.gg/5gAHhMvTcx) hoặc [nhóm Telegram](https://t.me/AnymeX_Discussion) của chúng tôi.  
-Các yêu cầu kéo (pull request) luôn được chào đón; hãy xem [các vấn đề mở](https://github.com/RyanYuuki/AnymeX/issues) để được hướng dẫn về những thay đổi lớn.
+Mọi thắc mắc, hãy tham gia [máy chủ Discord](https://discord.gg/5gAHhMvTcx) hoặc [nhóm Telegram](https://t.me/AnymeX_Discussion).  
+Chúng tôi hoan nghênh pull request; hãy xem [các vấn đề đang mở](https://github.com/RyanYuuki/AnymeX/issues) để được hướng dẫn về các thay đổi lớn.
 
 <!--<details>
-<summary>Biểu đồ dịch Weblate</summary>
+<summary>Đồ thị Dịch thuật Weblate</summary>
 <a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Trạng thái dịch thuật" /></a>
 </details>-->
 
@@ -136,24 +140,24 @@ Các yêu cầu kéo (pull request) luôn được chào đón; hãy xem [các v
 
 ## Lời cảm ơn
 
-Xin gửi lời cảm ơn chân thành tới tất cả mọi người đã đóng góp vào sự phát triển của AnymeX.
-Những nỗ lực của bạn là vô giá.
+Chân thành cảm ơn tất cả mọi người đã đóng góp vào quá trình phát triển AnymeX.
+Nỗ lực của các bạn là vô giá.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
-  <img alt="Các cộng tác viên trên GitHub" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
 </a>
 <br>
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Các cộng tác viên">
+  <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
 
 ## Giấy phép
 
-AnymeX được cấp phép theo Giấy phép MIT. Thông tin chi tiết xem [tại đây](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
+AnymeX được cấp phép theo giấy phép MIT. Xem thêm thông tin tại [đây](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

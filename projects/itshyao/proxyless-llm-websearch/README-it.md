@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Lingua</summary>
@@ -28,112 +27,108 @@
     </div>
   </details>
 </div>
+# 🧠 Motore di ricerca LLM senza proxy
 
-# 🧠 Motore di Ricerca LLM Senza Proxy
+Uno strumento di recupero web LLM multi-motore che non richiede proxy, supporta l'analisi del contenuto degli URL e lo scraping delle pagine web, realizzato tramite **LangGraph** e **LangGraph-MCP** per una catena modulare di agenti intelligenti. Progettato per scenari di chiamata a conoscenze esterne per i grandi modelli linguistici, supporta il recupero e l'analisi delle pagine con **Playwright + Crawl4AI**, nonché la concorrenza asincrona, il slicing dei contenuti e il filtraggio/reordering.
 
-Uno strumento di recupero web per LLM multi-motore di ricerca senza proxy, supporta l'analisi dei contenuti degli URL e il crawling delle pagine web, combinato con LangGraph per realizzare catene di agenti modulari. Progettato per scenari in cui i grandi modelli linguistici richiedono conoscenze esterne, supporta acquisizione e parsing web tramite **Playwright + Crawl4AI**, oltre a supportare elaborazione asincrona, suddivisione e riordino dei contenuti.
+## 🚀 Registro degli aggiornamenti
 
-## ✨ Panoramica delle Caratteristiche
+- 🔥 2025-09-05: Supporto a **langgraph-mcp**
+- 🔥 2025-09-03: Nuovo deploy Docker, riordinatore intelligente integrato, supporto per splitter di testo e riordinatore personalizzati
 
-- 🌐 **Senza Proxy**: tramite la configurazione di Playwright con browser supportati in Cina, si può effettuare la ricerca web senza proxy.
-- 🔍 **Supporto Multi-motore di Ricerca**: supporta Bing, Quark, Baidu, Sogou e altri motori di ricerca principali, aumentando la varietà delle fonti informative.
-- 🤖 **Riconoscimento dell’Intento**: il sistema può determinare automaticamente, in base all’input dell’utente, se effettuare una ricerca web o analizzare un URL.
-- 🔄 **Decomposizione delle Query**: in base all’intento di ricerca dell’utente, suddivide automaticamente la query in più sotto-compiti da eseguire in sequenza, migliorando pertinenza ed efficienza della ricerca.
-- ⚙️ **Architettura ad Agenti**: basata su **LangGraph**, include **«web_search»** e **«link_parser»**.
-- 🏃‍♂️ **Gestione Asincrona e Concorrente dei Task**: supporta la gestione asincrona e concorrente, consentendo l’elaborazione efficiente di più ricerche.
-- 📝 **Ottimizzazione del Trattamento dei Contenuti**:
+## ✨ Panoramica delle funzionalità
 
-  - ✂️ **Suddivisione dei Contenuti**: suddivide i contenuti web lunghi in sezioni.
+- 🌐 **Nessun bisogno di proxy**: Tramite la configurazione di Playwright, supporto ai browser nazionali senza necessità di proxy per effettuare ricerche online.
+- 🔍 **Supporto a motori di ricerca multipli**: Supporta Bing, Quark, Baidu, Sogou e altri motori di ricerca principali, aumentando la varietà delle fonti di informazione.
+- 🤖 **Riconoscimento dell’intento**: Il sistema può determinare automaticamente se effettuare una ricerca web o analizzare un URL in base all’input dell’utente.
+- 🔄 **Scomposizione delle query**: In base all’intento di ricerca dell’utente, suddivide automaticamente la query in più sotto-task ed esegue ciascuno in sequenza, migliorando pertinenza ed efficienza della ricerca.
+- ⚙️ **Architettura degli agenti**: Basata su **LangGraph** con **«web_search»** e **«link_parser»** integrati.
+- 🏃‍♂️ **Gestione di task asincroni e concorrenti**: Supporta l’elaborazione asincrona e concorrente dei task, consentendo una gestione efficiente di più ricerche.
+- 📝 **Ottimizzazione del trattamento dei contenuti**:
 
-  - 🔄 **Riordino dei Contenuti**: riordino intelligente per aumentare la rilevanza delle informazioni.
+  - ✂️ **Suddivisione dei contenuti**: I contenuti lunghi delle pagine web vengono suddivisi in sezioni.
 
-  - 🚫 **Filtraggio dei Contenuti**: rimozione automatica di contenuti irrilevanti o duplicati.
-- 🌐 **Supporto Multi-piattaforma**:
+  - 🔄 **Riordinamento dei contenuti**: Riordino intelligente per aumentare la pertinenza delle informazioni.
 
-  - 🖥️ Fornisce API backend FastAPI, integrabile in qualsiasi sistema.
+  - 🚫 **Filtraggio dei contenuti**: Rimozione automatica dei contenuti irrilevanti o duplicati.
+- 🌐 **Supporto multi-piattaforma**:
+  - 🐳 **Supporto per il deployment Docker**: Avvio con un click, costruzione rapida del servizio backend.
 
-  - 🌍 Offre una Web UI Gradio, per un rapido deployment come applicazione visuale.
-  
-  - 🧩[ **Supporto Plugin Browser**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): supporta Edge e offre un plugin intelligente per l’analisi degli URL, consentendo parsing e estrazione contenuti direttamente dal browser.
-  
+  - 🖥️ Backend FastAPI disponibile, integrabile in qualsiasi sistema.
+
+  - 🌍 Interfaccia Web Gradio disponibile, per una rapida conversione in applicazione visuale.
+
+  - 🧩[ **Supporto plugin browser**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Supporta Edge, offre plugin di analisi URL intelligente, per richiedere parsing e estrazione contenuti direttamente dal browser.
+
 
 ![workflow](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/workflow.png)
 
 ![framework](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/framework.png)
 
-## ⚡ Avvio Rapido
+## ⚡ Avvio rapido
 
-### 1. Clona il repository
+### Clona il repository
 
 ```bash
 git clone https://github.com/itshyao/proxyless-llm-websearch.git
 cd proxyless-llm-websearch
 ```
 
-### 2. Installazione delle dipendenze
+### Installazione delle dipendenze
 
 ```
 pip install -r requirements.txt
 python -m playwright install
 ```
 
-### 3. Avvio rapido
-
-#### Configurazione delle variabili d'ambiente
+### Configurazione delle variabili d'ambiente
 
 ```
-OPENAI_API_KEY=xxx
-OPENAI_BASE_URL=https://ark.cn-beijing.volces.com/api/v3
-MODEL_NAME=deepseek-v3-250324
+# 百炼llm
+OPENAI_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+OPENAI_API_KEY=sk-xxx
+MODEL_NAME=qwen-plus-latest
 
-EMBEDDING_MODEL_NAME=doubao-embedding-large-text-240915
-EMBEDDING_API_KEY=xxx
-EMBEDDING_BASE_URL=https://ark.cn-beijing.volces.com/api/v3
+# 百炼embedding
+EMBEDDING_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+EMBEDDING_API_KEY=sk-xxx
+EMBEDDING_MODEL_NAME=text-embedding-v4
+
+# 百炼reranker
+RERANK_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+RERANK_API_KEY=sk-xxx
+RERANK_MODEL=gte-rerank-v2
 ```
 
-#### demo
+### Langgraph-Agent
+
+#### DEMO
+
+```shell
+python agent/demo.py
+```
+
+#### API SERVE
+
+```shell
+python agent/api_serve.py
+```
 
 ```python
-'''
-python demo.py
-'''
-
-from pools import BrowserPool, CrawlerPool
-from agent import ToolsGraph
-import asyncio
-
-async def main():
-    browser_pool = BrowserPool(pool_size=1)
-    crawler_pool = CrawlerPool(pool_size=1)
-    
-    graph = ToolsGraph(browser_pool, crawler_pool, engine="bing")
-
-    await browser_pool._create_browser_instance(headless=True)
-    await crawler_pool._get_instance()
-
-    result = await graph.run("广州今日天气")
-
-    await browser_pool.cleanup()
-    await crawler_pool.cleanup()
-
-    print(result)
-
-if __name__ == "__main__":
-    asyncio.run(main())
-```
-
-#### API backend
-
-```python
-'''
-python api_serve.py
-'''
 import requests
 
-url = "http://localhost:8000/search"
+url = "http://localhost:8800/search"
 
 data = {
-    "question": "广州今日天气"
+  "question": "广州今日天气",
+  "engine": "bing",
+  "split": {
+    "chunk_size": 512,
+    "chunk_overlap": 128
+  },
+  "rerank": {
+    "top_k": 5
+  }
 }
 
 try:
@@ -153,42 +148,137 @@ except requests.exceptions.RequestException as e:
     print(f"⚠️ 请求异常：{str(e)}")
 ```
 
-#### gradio_demo
+#### Gradio
 
 ```
-python gradio_demo.py
+python agent/gradio_demo.py
 ```
 
 ![gradio](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/gradio1.png)
 
 ![gradio](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/gradio2.png)
 
+#### docker
+
+```
+docker-compose -f docker-compose-ag.yml up -d --build
+```
+
+### Langgrph-MCP
+
+#### Avvio del servizio MCP
+
+```
+python mcp/websearch.py
+```
+
+#### DEMO
+
+```
+python mcp/demo.py
+```
+
+#### API SERVE
+
+```
+python mcp/api_serve.py
+```
+
+```
+import requests
+
+url = "http://localhost:8800/search"
+
+data = {
+  "question": "广州今日天气"
+}
+
+try:
+    response = requests.post(
+        url,
+        json=data
+    )
+
+    if response.status_code == 200:
+        print("✅ 请求成功！")
+        print("响应内容：", response.json())
+    else:
+        print(f"❌ 请求失败，状态码：{response.status_code}")
+        print("错误信息：", response.text)
+
+except requests.exceptions.RequestException as e:
+    print(f"⚠️ 请求异常：{str(e)}")
+```
+
+#### docker
+
+```
+docker-compose -f docker-compose-mcp.yml up -d --build
+```
+
+### Moduli personalizzati
+
+#### Suddivisione personalizzata
+
+```
+from typing import Optional, List
+
+class YourSplitter:
+    def __init__(self, text: str, chunk_size: int = 512, chunk_overlap: int = 128):
+        self.text = text
+        self.chunk_size = chunk_size
+        self.chunk_overlap = chunk_overlap
+
+    def split_text(self, text: Optional[str] = None) -> List:
+        # TODO: implement splitting logic
+        return ["your chunk"]
+```
+
+#### Riordinamento personalizzato
+
+```
+from typing import List, Union, Tuple
+
+class YourReranker:
+    async def get_reranked_documents(
+        self,
+        query: Union[str, List[str]],
+        documents: List[str],
+    ) -> Union[
+        Tuple[List[str]],
+        Tuple[List[int]],
+    ]:
+        return ["your chunk"], ["chunk index"]
+```
+
 ## 🔍 Confronto con i test di ricerca online
 
-Abbiamo confrontato il progetto con alcune API online mainstream, valutando le sue prestazioni su domande complesse.
+Abbiamo confrontato il progetto con alcune delle principali API online, valutando le loro prestazioni su domande complesse.
 
 ### 🔥 Dataset
 
-- Il dataset proviene dal [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA) rilasciato da Alibaba e contiene 680 domande ad alta difficoltà, coprendo campi come istruzione, conferenze accademiche, giochi e altro ancora.
+- Il dataset proviene da [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA) pubblicato da Alibaba, e contiene 680 domande ad alta difficoltà che coprono vari settori come istruzione, conferenze accademiche, giochi e altro.
 - Il dataset include domande sia in cinese che in inglese.
 
 ### 🧑‍🏫 Risultati del confronto
 
-| Motore di ricerca/sistema  | ✅ Corretto | ❌ Errato | ⚠️ Parzialmente corretto |
-| --------------------------| ---------- | -------- | ----------------------- |
-| **Volcano Ark**           | 5,00%      | 72,21%   | 22,79%                  |
-| **Bailian**               | 9,85%      | 62,79%   | 27,35%                  |
-| **Our**                   | 19,85%     | 47,94%   | 32,06%                  |
-
+| Motore di ricerca/Sistema | ✅ Corretto | ❌ Errato | ⚠️ Parzialmente corretto |
+| ------------------------ | ---------- | -------- | ----------------------- |
+| **Volcano Ark**          | 5,00%      | 72,21%   | 22,79%                  |
+| **Bailian**              | 9,85%      | 62,79%   | 27,35%                  |
+| **Our**                  | 19,85%     | 47,94%   | 32,06%                  |
 ## 🙏 Ringraziamenti
 
-Alcune funzionalità di questo progetto sono state rese possibili e ispirate dai seguenti progetti open source, che ringraziamo:
+Alcune funzionalità di questo progetto sono state rese possibili grazie al supporto e all’ispirazione dei seguenti progetti open source, che desideriamo ringraziare:
 
-- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph): utilizzato per costruire framework modulari di agenti intelligenti.
-- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): potente strumento per l'analisi dei contenuti web.
+- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph): utilizzato per costruire un framework modulare di collegamento tra agenti, facilitando la rapida creazione di sistemi di agenti complessi.
+- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): potente strumento di parsing dei contenuti web, aiuta nell’estrazione efficiente di dati e scraping di pagine web.
+- 🌐 [Playwright](https://github.com/microsoft/playwright): moderno strumento di automazione browser, supporta lo scraping web e i test automatizzati cross-browser.
+- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters): utilizzato per la costruzione di MCP multi-chain.
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

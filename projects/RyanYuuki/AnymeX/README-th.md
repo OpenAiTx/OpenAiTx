@@ -47,16 +47,20 @@
 <a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX: ไคลเอนต์ติดตามแบบหลายบริการ
+# AnymeX: โปรแกรมติดตามหลายบริการ
 
-**AnymeX** คือไคลเอนต์ติดตามแบบหลายบริการที่ออกแบบมาโดยเฉพาะสำหรับจัดการและติดตามความคืบหน้าอะนิเมะและมังงะบน [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) และ [**Simkl**](https://simkl.com/)
+**AnymeX** คือโปรแกรมติดตามหลายบริการที่ออกแบบมาเพื่อจัดการและติดตามความคืบหน้าการดูอนิเมะและมังงะใน [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) และ [**Simkl**](https://simkl.com/)
 
 > [!IMPORTANT]  
-> **AnymeX เป็นเครื่องมือสำหรับติดตามเท่านั้น** โดยจะ**ไม่**โฮสต์ ให้บริการ แจกจ่าย หรือรับรองเนื้อหาสตรีมหรือสื่อใดๆ รวมถึงส่วนขยายของบุคคลที่สาม  
-> แอปนี้ทำงานร่วมกับ API อย่างเป็นทางการของบริการที่รองรับ (AniList, MyAnimeList, Simkl) เท่านั้นเพื่อวัตถุประสงค์ในการติดตาม  
-> ผู้ใช้ต้องรับผิดชอบต่อการใช้งานแอปและบริการหรือส่วนขยายของบุคคลที่สามที่เลือกใช้งานเอง ผู้พัฒนา AnymeX ขอปฏิเสธความรับผิดใดๆ ต่อการใช้งานที่ผิดกฎหมายหรือปัญหาทางกฎหมายที่เกิดจากการกระทำของผู้ใช้ หากมีข้อกังวลทางกฎหมายใดๆ กรุณาติดต่อบริการบุคคลที่สามโดยตรงไม่ใช่ AnymeX  
+> **AnymeX เป็นเพียงเครื่องมือสำหรับติดตามเท่านั้น** โปรแกรมนี้ไม่ได้โฮสต์, ให้บริการ, แจกจ่าย หรือสนับสนุนเนื้อหาสตรีมมิ่ง, สื่อ หรือส่วนขยายของบุคคลที่สาม  
 >  
-> **การใช้แอปนี้แสดงว่าคุณยอมรับ [ข้อกำหนดการให้บริการ](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) ของเรา**
+> **ความรับผิดชอบของผู้ใช้:** ผู้ใช้เป็นผู้รับผิดชอบแต่เพียงผู้เดียวต่อการใช้งานแอปและบริการหรือส่วนขยายของบุคคลที่สามที่เลือกใช้งาน ผู้ใช้ต้องปฏิบัติตามกฎหมายลิขสิทธิ์และสิทธิ์ทรัพย์สินทางปัญญาที่เกี่ยวข้องทั้งหมด  
+>  
+> **ไม่มีความรับผิดชอบ:** ทีมพัฒนา AnymeX ปฏิเสธความรับผิดชอบต่อการใช้งานผิดกฎหมายหรือปัญหาทางกฎหมายที่เกิดจากการกระทำของผู้ใช้ หากมีข้อกังวลทางกฎหมาย ให้ติดต่อบริการของบุคคลที่สามโดยตรง ไม่ใช่กับ AnymeX โปรแกรมนี้ให้บริการในรูปแบบ "ตามสภาพ" โดยไม่มีการรับประกันใด ๆ  
+>  
+> **บริการ:** AnymeX เชื่อมต่อเฉพาะกับ API อย่างเป็นทางการของบริการที่รองรับ (AniList, MyAnimeList, Simkl) ส่วนขยายของบุคคลที่สามเป็นความรับผิดชอบของผู้พัฒนา ไม่ใช่ทีม AnymeX  
+>  
+> **การใช้แอปนี้ถือว่าคุณยอมรับ [ข้อกำหนดการให้บริการ](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) ของเรา**
 
 ## ดาวน์โหลด
 
@@ -74,22 +78,22 @@
 
 <div align="center">
   
-### แหล่งติดตั้ง iOS Sideloading
+### แหล่งดาวน์โหลด iOS Sideloading
   <p>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="AltStore Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Feather Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="SideStore Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white"></a>
-    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Direct Source URL" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="แหล่ง AltStore" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="แหล่ง Feather" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="แหล่ง SideStore" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white"></a>
+    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="URL แหล่งโดยตรง" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
   </p>
 </div>
 
 <!--## ภาพหน้าจอ
 
-| หน้าหลัก                                                                                                                                           | ค้นหา                                                                                                                                          | รายละเอียด                                                                                                                      | ไลบรารี                                                                                                              |
+| หน้าแรก                                                                                                                                           | ค้นหา                                                                                                                                          | รายละเอียด                                                                                                                      | ห้องสมุด                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-|![The home page containing multiple sections of stuff, you've read or watched.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![The search page showing multiple search results for JoJo’s Bizarre Adventure.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![The details page of Re:Zero Kara Hajimeru Isekai Seikatsu.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![The library page showing the user’s watching list.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
+|![หน้าหลักที่มีหลายส่วนของสิ่งที่คุณได้อ่านหรือดูแล้ว](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![หน้าค้นหาที่แสดงผลการค้นหาหลายรายการสำหรับ JoJo’s Bizarre Adventure.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![หน้ารายละเอียดของ Re:Zero Kara Hajimeru Isekai Seikatsu.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![หน้าห้องสมุดแสดงรายการที่ผู้ใช้กำลังดูอยู่](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
 
-<!-- เมื่อฉันทำภาพหน้าจอเสร็จแล้วจะนำส่วนนี้กลับมา
+<!-- เมื่อฉันมีภาพหน้าจอแล้วจะนำสิ่งนี้กลับมา
 ### 💻 เดสก์ท็อป
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <img src="https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_1.png" width="100%" style="margin: 0;" />
@@ -101,18 +105,18 @@
 <a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 > [!TIP]
-> ⭐ **กด Star ที่ repository นี้เพื่อสนับสนุนนักพัฒนา & กระตุ้นการพัฒนาแอป!**
+> ⭐ **กด Star ให้กับ repository นี้เพื่อสนับสนุนนักพัฒนาและส่งเสริมการพัฒนาแอป!**
 
 <details>
-  <summary>ประวัติการกด Star</summary>
+  <summary>ประวัติการให้ดาว</summary>
   <a href="https://github.com/RyanYuuki/AnymeX/stargazers">
-      <img alt="Star History Chart" src="https://starchart.cc/RyanYuuki/AnymeX.svg?variant=adaptive" width="370" height="235" />
+      <img alt="กราฟประวัติการให้ดาว" src="https://starchart.cc/RyanYuuki/AnymeX.svg?variant=adaptive" width="370" height="235" />
   </a>
 </details>
 
 ## ชุมชนอย่างเป็นทางการ
 
-เข้าร่วมชุมชนของเราเพื่อติดตามข่าวสารและร่วมพูดคุย:
+เข้าร่วมชุมชนของเราเพื่อรับข่าวสารล่าสุดและร่วมสนทนา:
 
 <a href="https://discord.gg/5gAHhMvTcx" style="margin-right: 10px; display: inline-block;"><img src="https://files.catbox.moe/tb0004.png" alt="Discord" height="40" style="vertical-align: middle;"></a>
 <a href="https://t.me/AnymeX_Discussion" style="display: inline-block;"><img src="https://files.catbox.moe/z66xwr.png" alt="Telegram" height="40" style="vertical-align: middle;"></a>
@@ -120,10 +124,10 @@
 
 ## มีส่วนร่วม
 
-เรายินดีรับการมีส่วนร่วม ตั้งแต่การแปลภาษาไปจนถึงฟีเจอร์ใหม่ ๆ  
-คู่มือการตั้งค่าสภาพแวดล้อมการพัฒนาของเราดูได้ [ที่นี่](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)  
-หากมีคำถาม เข้าร่วม [Discord server](https://discord.gg/5gAHhMvTcx) หรือ [กลุ่ม Telegram](https://t.me/AnymeX_Discussion)  
-ยินดีรับ Pull requests; ดู [open issues](https://github.com/RyanYuuki/AnymeX/issues) เพื่อแนวทางในการเปลี่ยนแปลงสำคัญ
+เรายินดีต้อนรับการมีส่วนร่วม ตั้งแต่การแปลภาษาไปจนถึงฟีเจอร์ใหม่ ๆ  
+คู่มือการติดตั้งสภาพแวดล้อมการพัฒนาของเรามีให้ [ที่นี่](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)  
+หากมีข้อสงสัย เข้าร่วม [เซิร์ฟเวอร์ Discord](https://discord.gg/5gAHhMvTcx) หรือ [กลุ่ม Telegram](https://t.me/AnymeX_Discussion) ของเรา  
+เรายินดีรับ Pull request โปรดตรวจสอบ [ปัญหาที่เปิดอยู่](https://github.com/RyanYuuki/AnymeX/issues) เพื่อดูแนวทางการเปลี่ยนแปลงสำคัญ
 
 <!--<details>
 <summary>Weblate Translation Graph</summary>
@@ -134,9 +138,9 @@
 
 <img src="https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
 
-## ขอขอบคุณ
+## การขอบคุณ
 
-ขอขอบคุณจากใจจริงสำหรับทุกคนที่มีส่วนร่วมในการพัฒนา AnymeX  
+ขอขอบคุณอย่างสุดซึ้งสำหรับทุกคนที่มีส่วนร่วมในการพัฒนา AnymeX  
 ความพยายามของคุณมีคุณค่าอย่างยิ่ง
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
@@ -147,13 +151,13 @@
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
 
-## ใบอนุญาต
+## สัญญาอนุญาต
 
 AnymeX ได้รับอนุญาตภายใต้สัญญาอนุญาต MIT สามารถดูข้อมูลเพิ่มเติมได้ [ที่นี่](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

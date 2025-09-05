@@ -11,19 +11,19 @@
         | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=es">Español</a>
         | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=fa">فارسی</a>
         | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=hi">হিন্দী</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=it">ইটালিয়ান</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ja">জাপানী</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ko">কোৰিয়ান</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=nl">নেদাৰলেণ্ডছ</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=pl">পোলিশ</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=pt">পৰ্তুগীজ</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=ru">ৰাছিয়ান</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=th">থাই</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=tr">তুৰ্কী</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=vi">ভিয়েটনামী</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=zh-TW">পৰম্পৰাগত চীন</a>
+        | <a href="https://openaitx.github.io/#/view?user=RyanYuuki&project=AnymeX&lang=zh-CN">সৰলীকৃত চীন</a>
       </div>
     </div>
   </details>
@@ -47,16 +47,20 @@
 <a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX: বহু-চাৰ্ভিচ ট্ৰেকিং ক্লায়েন্ট
+# AnymeX: বহু-সেৱা অনুসৰণ ক্লায়েন্ট
 
-**AnymeX** হৈছে এটা বহু-চাৰ্ভিচ ট্ৰেকিং ক্লায়েন্ট, যি বিশেষকৈ [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), আৰু [**Simkl**](https://simkl.com/) ত আপোনাৰ এনিমে আৰু মাংগা অগ্ৰগতি পৰিচালনা আৰু ট্ৰেক কৰাৰ বাবে ডিজাইন কৰা হৈছে।
+**AnymeX** হৈছে এটা বহু-সেৱা অনুসৰণ ক্লায়েন্ট, যি বিশেষভাৱে [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), আৰু [**Simkl**](https://simkl.com/) ত এনিমে আৰু মাংগাৰ অগ্ৰগতি পৰিচালনা আৰু অনুসৰণ কৰিবলৈ ডিজাইন কৰা হৈছে।
 
 > [!IMPORTANT]  
-> **AnymeX কেৱল এটা ট্ৰেকিং টুল।** ই **কোনো ধৰণৰ** ষ্ট্ৰীমিং কণ্টেন্ট, মিডিয়া, বা তৃতীয়-পক্ষ এক্সটেনছন হোষ্ট, প্ৰদান, বিতৰণ, বা সমৰ্থন নকৰে।  
-> এই এপ্পে কেৱল সমৰ্থিত চাৰ্ভিচসমূহৰ (AniList, MyAnimeList, Simkl) অফিচিয়েল API ৰ সৈতে সংযোগ কৰি ট্ৰেকিং উদ্দেশ্যত ব্যৱহাৰ কৰে।  
-> ব্যৱহাৰকাৰীসকলে এপ্প আৰু যিকোনো তৃতীয়-পক্ষ চাৰ্ভিচ বা এক্সটেনছনৰ ব্যৱহাৰৰ বাবে সম্পূৰ্ণৰূপে দায়ী। AnymeX ৰ ডেভেলপাৰে ব্যৱহাৰকাৰীৰ কাৰ্য্যৰ পৰা উৎপন্ন হোৱা যিকোনো অপব্যৱহাৰ, আইনী সমস্যা, বা উলংঘনৰ বাবে স্পষ্টভাৱে সকলো দায় নাকৰে। আইনী সমস্যা থাকিলে অনুগ্ৰহ কৰি সংশ্লিষ্ট তৃতীয়-পক্ষ চাৰ্ভিচত যোগাযোগ কৰক, AnymeX ত নহয়।  
+> **AnymeX কেৱল এটা অনুসৰণৰ সঁজুলি।** এইয়ে কোনো ষ্ট্ৰিমিং সংহতি, মাধ্যম, অথবা তৃতীয় পক্ষৰ এক্সটেনচন সংৰক্ষণ, যোগান, বিতৰণ, বা সমৰ্থন নকৰে।  
 >  
-> **এই এপ্প ব্যৱহাৰ কৰি, আপুনি আমাৰ [Terms of Service](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) মানি চলিবলৈ সন্মত হৈছোঁ।**
+> **ব্যৱহাৰকাৰীৰ দায়িত্ব:** ব্যৱহাৰকাৰীয়ে নিজে নিজে এই এপটো কেনেকৈ ব্যৱহাৰ কৰে আৰু যিকোনো তৃতীয় পক্ষৰ সেৱা বা এক্সটেনচনৰ সৈতে কেনেকৈ যোগাযোগ কৰে তাৰ বাবে সম্পূর্ণ দায়িত্ববদ্ধ। ব্যৱহাৰকাৰীয়ে সকলো প্ৰযোজ্য আইন, কপিৰাইট, আৰু বৌদ্ধিক সম্পত্তিৰ অধিকাৰৰ সৈতে পালন কৰিব লাগিব।  
+>  
+> **কোনো দায়িত্ব নহয়:** AnymeX ৰ বিকাশকাৰীসকল ব্যৱহাৰকাৰীৰ কার্যকলাপৰ পৰা হোৱা অপ-ব্যৱহাৰ, আইনী সমস্যা, বা উলংঘনৰ বাবে সকলো দায়িত্ব অস্বীকাৰ কৰে। আইনী সমস্যাবোৰ প্ৰাসংগিক তৃতীয় পক্ষৰ সেৱাবোৰলৈ নিৰ্দেশ কৰিব, AnymeX লৈ নহয়। এই এপটো "যি-যি অৱস্থাত আছে" সেই অৱস্থাত, কোনো গেৰান্টি নোহোৱাকৈ প্ৰদান কৰা হৈছে।  
+>  
+> **সেৱাসমূহ:** AnymeX কেৱল সমৰ্থিত সেৱাসমূহৰ (AniList, MyAnimeList, Simkl) অফিচিয়েল API ৰ সৈতে সংহত হয়। তৃতীয় পক্ষৰ এক্সটেনচনসমূহ তেওঁলোকৰ নিৰ্মাতাসকলৰ দায়িত্ব, AnymeX ৰ বিকাশকাৰীসকলৰ নহয়।  
+>  
+> **এই এপটো ব্যৱহাৰ কৰি, আপুনি আমাৰ [Terms of Service](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) মানি চলিবলৈ একমত হৈছে।**
 
 ## ডাউনলোডসমূহ
 
@@ -74,45 +78,45 @@
 
 <div align="center">
   
-### iOS ছাইডল’ডিং উৎসসমূহ
+### iOS ছাইডলোডিং উৎসসমূহ
   <p>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="AltStore Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Feather Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
-    <a href="https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="SideStore Source" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white"></a>
-    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Direct Source URL" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="AltStore উৎস" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=AltStore&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="Feather উৎস" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=Feather&labelColor=black&color=white"></a>
+    <a href="https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="SideStore উৎস" src="https://img.shields.io/badge/open_in_app-_?style=for-the-badge&label=SideStore&labelColor=black&color=white"></a>
+    <a href="https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"><img alt="প্ৰত্যক্ষ উৎস URL" src="https://img.shields.io/badge/copy_%2F_paste-_?style=for-the-badge&label=Direct%20Source%20URL&labelColor=black&color=white"></a>
   </p>
 </div>
 
-<!--## Screenshots
+<!--## স্ক্ৰীনশ্বটসমূহ
 
-| Home                                                                                                                                           | Search                                                                                                                                          | Details                                                                                                                      | Library                                                                                                              |
+| মুখ্য পৃষ্ঠা                                                                                                                                        | সন্ধান                                                                                                                                        | বিৱৰণ                                                                                                                      | লাইব্ৰেৰী                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-|![The home page containing multiple sections of stuff, you've read or watched.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![The search page showing multiple search results for JoJo’s Bizarre Adventure.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![The details page of Re:Zero Kara Hajimeru Isekai Seikatsu.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![The library page showing the user’s watching list.](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
+|![মুখ্য পৃষ্ঠাত বহু শিতান থকা, আপুনি পঢ়া বা চোৱা বস্তুসমূহ।](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Home-portrait.png) | ![JoJo’s Bizarre Adventure ৰ সন্ধান ফলাফল দেখুৱোৱা সন্ধান পৃষ্ঠা।](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Search-portrait.png) | ![Re:Zero Kara Hajimeru Isekai Seikatsu ৰ বিৱৰণ পৃষ্ঠা।](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Details-portrait.png) | ![ব্যৱহাৰকাৰীৰ চাই থকা তালিকা দেখুৱোৱা লাইব্ৰেৰী পৃষ্ঠা।](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/github_assets/android/Library-portrait.png) |
 
-<!-- Once I make the screenshots I'll add this back
-### 💻 Desktop
+<!-- স্ক্ৰীনশ্বট তৈয়াৰ হ'লে পুনৰ যোগ কৰিম
+### 💻 ডেস্কটপ
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <img src="https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_1.png" width="100%" style="margin: 0;" />
     <img src="https://github.com/RyanYuuki/AnymeX/blob/main/github_assets/desktop/preview_2.png" width="100%" style="margin: 0;" />
 </div>-->
 
-## আমাৰ সহায় কৰক
+## আমাক সমৰ্থন কৰক
 
-<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href='https://ko-fi.com/ryanyuuki7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='ক্ৰয় কৰক মোৰ বাবে কফি ko-fi.com ত' /></a>
 
 > [!TIP]
-> ⭐ **এই ৰিপ'জিট'ৰিটোত ষ্টাৰ দিয়ক যাতে ডেভেলপাৰক সমৰ্থন আৰু এপটোৰ উন্নয়ন আগবঢ়াবলৈ উৎসাহিত হয়!**
+> ⭐ **এই ৰিপ'জিট'ৰিটোত ষ্টাৰ দিয়ক ডেভেল'পাৰক সমৰ্থন কৰিবলৈ আৰু এপৰ উন্নয়ন উৎসাহিত কৰিবলৈ!**
 
 <details>
   <summary>ষ্টাৰ ইতিহাস</summary>
   <a href="https://github.com/RyanYuuki/AnymeX/stargazers">
-      <img alt="Star History Chart" src="https://starchart.cc/RyanYuuki/AnymeX.svg?variant=adaptive" width="370" height="235" />
+      <img alt="ষ্টাৰ ইতিহাস চার্ট" src="https://starchart.cc/RyanYuuki/AnymeX.svg?variant=adaptive" width="370" height="235" />
   </a>
 </details>
 
-## চৰকাৰী কমিউনিটি সমূহ
+## চৰকাৰী কমিউনিটিসমূহ
 
-আমাৰ কমিউনিটি সমূহত যোগদান কৰক যাতে আপুনি সদায় সদ্যতম তথ্য পাই থাকে আৰু আলোচনা কৰা যায়:
+আমাৰ কমিউনিটিত যোগদান কৰক, আপডেট থাকিবলৈ আৰু আলোচনা যোগদান কৰিবলৈ:
 
 <a href="https://discord.gg/5gAHhMvTcx" style="margin-right: 10px; display: inline-block;"><img src="https://files.catbox.moe/tb0004.png" alt="Discord" height="40" style="vertical-align: middle;"></a>
 <a href="https://t.me/AnymeX_Discussion" style="display: inline-block;"><img src="https://files.catbox.moe/z66xwr.png" alt="Telegram" height="40" style="vertical-align: middle;"></a>
@@ -120,10 +124,10 @@
 
 ## অৱদান কৰক
 
-আমরা সকলো ধৰণৰ অৱদান আদৰি লওঁ, অনুবাদৰ পৰা নতুন বৈশিষ্ট্য যোগ কৰা পর্যন্ত।  
-আমাৰ ডেভেলপমেন্ট পৰিবেশ স্থাপনৰ গাইড [ইয়াত](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md) উপলব্ধ।  
-প্ৰশ্ন থাকিলে, আমাৰ [Discord server](https://discord.gg/5gAHhMvTcx) বা [Telegram group](https://t.me/AnymeX_Discussion)-ত যোগদান কৰক।  
-Pull request স্বাগতম; মুখ্য পৰিৱৰ্তনৰ বাবে [open issues](https://github.com/RyanYuuki/AnymeX/issues) চাওক।
+অনুবাদৰ পৰা নতুন বৈশিষ্ট্যলৈকে আমি আপোনাৰ অৱদানক স্বাগত জনাইছোঁ।  
+আমাৰ বিকাশ পৰিৱেশ স্থাপন গাইড [ইয়াত](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md) উপলব্ধ।  
+জিজ্ঞাসাৰ বাবে, আমাৰ [Discord চাৰ্ভাৰ](https://discord.gg/5gAHhMvTcx) বা [Telegram গোট](https://t.me/AnymeX_Discussion)ত যোগদান কৰক।  
+পুল অনুৰোধ স্বাগতম; মুখ্য পৰিৱর্তনৰ বাবে দিশনিদৰ্শন চাবলৈ [মুক্ত সমস্যাবোৰ](https://github.com/RyanYuuki/AnymeX/issues) চাওক।
 
 <!--<details>
 <summary>Weblate Translation Graph</summary>
@@ -134,10 +138,10 @@ Pull request স্বাগতম; মুখ্য পৰিৱৰ্তনৰ 
 
 <img src="https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
 
-## কৃতজ্ঞতা
+## স্বীকৃতি
 
-AnymeX উন্নয়নলৈ সহায় কৰা সকলোকে অন্তৰংগ ধন্যবাদ।
-আপোনালোকৰ প্ৰয়াস অমূল্য।
+AnymeX উন্নয়নত অৱদান দিয়া সকলোলৈ হৃদয়ৰ পৰা ধন্যবাদ।
+আপোনাৰ প্ৰচেষ্টা অমূল্য।
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
@@ -147,13 +151,13 @@ AnymeX উন্নয়নলৈ সহায় কৰা সকলোকে অন
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
 
-## লাইচেঞ্চ
+## অনুমতি-পত্র
 
-AnymeX MIT License-ৰ অধীনত লাইচেঞ্চ কৰা হৈছে। অধিক তথ্য [ইয়াত](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md) পোৱা যায়।
+AnymeX MIT অনুমতি-পত্ৰৰ অধীনত লাইসেন্স কৰা হৈছে। অধিক তথ্য [ইয়াত](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md) পাব।
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

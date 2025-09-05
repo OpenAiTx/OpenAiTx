@@ -1,0 +1,1466 @@
+[
+  {
+    "row": 1,
+    "rowsha": "lG9FIkBvn7KjtwiTN/7NysVOGbWeOjtKMM/GP0/PowU=",
+    "originContent": "# Fjira - Fuzzy finder and TUI application for Jira.",
+    "translatedContent": "# Fjira - Jira를 위한 퍼지 파인더 및 TUI 애플리케이션."
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "YcsV+mswC5ilI1khrE7r67RGyAfKF5sQGzVMPlOaC+I=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/mk-5/fjira/master/fjira.png\" alt=\"drawing\" width=\"256\"/>",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/mk-5/fjira/master/fjira.png\" alt=\"drawing\" width=\"256\"/>"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "nREDpFpFA/O5IMdoivlX5eJOp5QXE+ir/rLgAArtLyI=",
+    "originContent": "[![Mentioned in Awesome Go](https://awesome.re/badge-flat.svg)](https://github.com/avelino/awesome-go)",
+    "translatedContent": "[![Mentioned in Awesome Go](https://awesome.re/badge-flat.svg)](https://github.com/avelino/awesome-go)"
+  },
+  {
+    "row": 6,
+    "rowsha": "vEsBO53Ya81e8W+qtFP2mSvGeCnUADYC+6FF+doTW3c=",
+    "originContent": "![Test](https://github.com/mk-5/fjira/actions/workflows/tests.yml/badge.svg)",
+    "translatedContent": "![Test](https://github.com/mk-5/fjira/actions/workflows/tests.yml/badge.svg)"
+  },
+  {
+    "row": 7,
+    "rowsha": "jbXzQoQ/DZWbKcbAu2kWdwqdZrnBkfP40BTjZ8M2Pj4=",
+    "originContent": "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://github.com/mk-5/fjira/blob/master/LICENSE)",
+    "translatedContent": "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://github.com/mk-5/fjira/blob/master/LICENSE)"
+  },
+  {
+    "row": 8,
+    "rowsha": "NLKf5pP2eOKizKF7dd9ZAXTn9vhkkfdvfHUU56Zdg4w=",
+    "originContent": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/mk-5/fjira)",
+    "translatedContent": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/mk-5/fjira)"
+  },
+  {
+    "row": 9,
+    "rowsha": "qY/cmrOn6kjm7vCx1lsHzKrxPqOmsV/pdGQ+kUvA5G0=",
+    "originContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/mk-5/fjira)](https://goreportcard.com/report/github.com/mk-5/fjira)",
+    "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/mk-5/fjira)](https://goreportcard.com/report/github.com/mk-5/fjira)"
+  },
+  {
+    "row": 10,
+    "rowsha": "BRRd8r8LxoUXFhw4ht28rknsFxg+vtbmzqoBeaavbC8=",
+    "originContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/mk-5/fjira.svg)](https://pkg.go.dev/github.com/mk-5/fjira)",
+    "translatedContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/mk-5/fjira.svg)](https://pkg.go.dev/github.com/mk-5/fjira)"
+  },
+  {
+    "row": 11,
+    "rowsha": "HAjRN1Zgc9z9Zx5nBKUFqZkrJqZFhBLsdnp3Gr1wvtc=",
+    "originContent": "[![codecov](https://codecov.io/gh/mk-5/fjira/branch/master/graph/badge.svg?token=MJBTMYGQQW)](https://codecov.io/gh/mk-5/fjira)",
+    "translatedContent": "[![codecov](https://codecov.io/gh/mk-5/fjira/branch/master/graph/badge.svg?token=MJBTMYGQQW)](https://codecov.io/gh/mk-5/fjira)"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+    "originContent": "## Introduction",
+    "translatedContent": "## 소개"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "7QA5Pz8PU3rvtegJlGmpIMFnakXpIUWVwJAKonXdZXI=",
+    "originContent": "Fjira is a powerful command-line tool designed to simplify your interactions with Jira. Whether you're a developer,",
+    "translatedContent": "Fjira는 Jira와의 상호작용을 간소화하기 위해 설계된 강력한 명령줄 도구입니다. 개발자이든,"
+  },
+  {
+    "row": 16,
+    "rowsha": "J+pISkp/0imzZ5LZk1ATjirea1c574KN/spyO1Qm0g0=",
+    "originContent": "project manager, or just a Jira enthusiast, Fjira streamlines your workflow, making Jira tasks more efficient than ever",
+    "translatedContent": "프로젝트 관리자이든, 혹은 단순한 Jira 애호가이든, Fjira는 워크플로우를 간소화하여 Jira 작업을"
+  },
+  {
+    "row": 17,
+    "rowsha": "3pf8tjVBb1ruslRuViQTa3Cm127hJp20ejsB2MaxZEk=",
+    "originContent": "before.",
+    "translatedContent": "그 어느 때보다 효율적으로 만들어줍니다."
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "e0wQt8fKHr6zii+2yHLNWHhFMFIM+jHW59jy1nS7Te8=",
+    "originContent": "![Fjira Demo](https://raw.githubusercontent.com/mk-5/fjira/master/demo.gif)",
+    "translatedContent": "![Fjira Demo](https://raw.githubusercontent.com/mk-5/fjira/master/demo.gif)"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "khTPM/+Q4D8FMdf3qgrMDcjDejggkuMl1+JmWZMODFI=",
+    "originContent": "## Key Features",
+    "translatedContent": "## 주요 기능"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "eo6cCI/hDxjan2zXPr9cnlDOWbzU9cIwLpoqlxWfvMQ=",
+    "originContent": "- **Fuzzy-find like interface:** Search for Jira projects and issues with ease.",
+    "translatedContent": "- **퍼지 파인드 인터페이스:** Jira 프로젝트와 이슈를 손쉽게 검색합니다."
+  },
+  {
+    "row": 24,
+    "rowsha": "jufuoi5mqvpZLZRHW4PqwNkY30525/+PqLZuYdfrJX0=",
+    "originContent": "- **Assignee Control:** Quickly change issue assignees without navigating the Jira interface.",
+    "translatedContent": "- **담당자 제어:** Jira 인터페이스를 탐색하지 않고도 이슈 담당자를 빠르게 변경할 수 있습니다."
+  },
+  {
+    "row": 25,
+    "rowsha": "D8poeFTbVxBy8SgKq+Dv5TqjMHn0aOnBJVKxggTzcN8=",
+    "originContent": "- **Status Updates:** Update Jira issue statuses directly from your terminal.",
+    "translatedContent": "- **상태 업데이트:** 터미널에서 직접 Jira 이슈 상태를 업데이트합니다."
+  },
+  {
+    "row": 26,
+    "rowsha": "CpSOZiuwMpK60ClbXVWiflQ2uGARanXLyRcfj6EyOSk=",
+    "originContent": "- **Efficient Comments:** Easily append comments to Jira issues.",
+    "translatedContent": "- **효율적인 댓글 작성:** Jira 이슈에 댓글을 쉽게 추가할 수 있습니다."
+  },
+  {
+    "row": 27,
+    "rowsha": "tpODNxaDUFrpvcJLs8xZGW4ODTPQqIa6pt1dAnxYRHQ=",
+    "originContent": "- **Multi-Workspace Support:** Manage multiple Jira workspaces effortlessly.",
+    "translatedContent": "- **다중 작업공간 지원:** 여러 Jira 작업공간을 손쉽게 관리합니다."
+  },
+  {
+    "row": 28,
+    "rowsha": "WiKMoUQFbTmXMurl5S8GXstl1piThE8lEekSqyeI8d8=",
+    "originContent": "- **Custom Searches:** Use Jira Query Language (JQL) for tailored searches.",
+    "translatedContent": "- **맞춤 검색:** Jira 쿼리 언어(JQL)를 사용하여 맞춤 검색이 가능합니다."
+  },
+  {
+    "row": 29,
+    "rowsha": "XNToj+iKs7/CqOwBEKV/sWpO6087cYWhCqV0clhID5I=",
+    "originContent": "- **Direct CLI Access:** Access Jira issues directly from the command line.",
+    "translatedContent": "- **직접 CLI 접근:** 명령줄에서 직접 Jira 이슈에 접근할 수 있습니다."
+  },
+  {
+    "row": 30,
+    "rowsha": "zPhT+H16ChWRpjIKdjF13HQ6k7yQQM4s/LmOsprLOGg=",
+    "originContent": "- **Cross-Platform Compatibility:** Works seamlessly on macOS, Linux, and Windows.",
+    "translatedContent": "- **크로스 플랫폼 호환성:** macOS, Linux, Windows에서 원활하게 작동합니다."
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "IOz6D23yxKVaZDi62cZaiowUVIuAS1nmW/2UxanscU8=",
+    "originContent": "### macOS",
+    "translatedContent": "### macOS"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 37,
+    "rowsha": "roAzp09d+0EkiPxY/K5SSz3eJfSa7u/MxsgZwmBeDnU=",
+    "originContent": "brew tap mk-5/mk-5",
+    "translatedContent": "brew tap mk-5/mk-5"
+  },
+  {
+    "row": 38,
+    "rowsha": "k7wJjsWP4jqA3Vy9gG9cUacoOfo5BClUDqWbXTZ55u0=",
+    "originContent": "brew install fjira",
+    "translatedContent": "brew install fjira"
+  },
+  {
+    "row": 39,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 리눅스"
+  },
+  {
+    "row": 41,
+    "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+    "originContent": "### Linux",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 우분투/스냅"
+  },
+  {
+    "row": 43,
+    "rowsha": "j8Vctn9jE+MEjNc6+yk7In3FoExPYsSJasDjWIt4oK0=",
+    "originContent": "#### Ubuntu/Snap",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 46,
+    "rowsha": "I+4e7h1x+1T5YnnXx23nQ6ykMwJy20rQ/bevCsEYyD0=",
+    "originContent": "snap install fjira",
+    "translatedContent": "snap install fjira"
+  },
+  {
+    "row": 47,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### Deb"
+  },
+  {
+    "row": 49,
+    "rowsha": "viWNznHdqngxDjDalLGrGJkrlOhEp6dl3FwmKJBKCaA=",
+    "originContent": "#### Deb",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[https://github.com/mk-5/fjira/releases/latest](https://github.com/mk-5/fjira/releases/latest)을 방문하여,"
+  },
+  {
+    "row": 51,
+    "rowsha": "CKbliX+rGNhw6viQavpoUpvkQAUhDElJbh+C1CfdoCk=",
+    "originContent": "Visit [https://github.com/mk-5/fjira/releases/latest](https://github.com/mk-5/fjira/releases/latest), and grab the",
+    "translatedContent": "최신 릴리스 버전을 다운로드하세요."
+  },
+  {
+    "row": 52,
+    "rowsha": "luBgGq/PHMyrGq9DeXn4EAWGlBbLTHDf6o19kgG0zVw=",
+    "originContent": "latest release version.",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 55,
+    "rowsha": "l08RgmOvV8AUjfmDZg/8cdP/9DiGnuj/gssewJitWN4=",
+    "originContent": "sudo dpkg -i fjira_0.4.0_linux_amd64.deb",
+    "translatedContent": "sudo dpkg -i fjira_0.4.0_linux_amd64.deb"
+  },
+  {
+    "row": 56,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "btehVspZvipuH75J6UNihmBFiVYd0LlMLBkjB2YyQ0s=",
+    "originContent": "#### AUR",
+    "translatedContent": "#### AUR"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 61,
+    "rowsha": "VJ5+0fMOE6bGLvczit0b8IeHpK2t6LuDlX4bTFXKr9o=",
+    "originContent": "yay -S fjira",
+    "translatedContent": "yay -S fjira"
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "S4COB8/kapMkPc7MX3BslMvI8sQLugea+/tsF9cPECA=",
+    "originContent": "#### Binary",
+    "translatedContent": "#### 바이너리"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 67,
+    "rowsha": "7rcSWc7blJWJQYcmPv5v/HfDsrHhRMaG7rS7SWWqaF8=",
+    "originContent": "tar -xvzf fjira_0.4.0_Linux_x86_64.tar.gz",
+    "translatedContent": "tar -xvzf fjira_0.4.0_Linux_x86_64.tar.gz"
+  },
+  {
+    "row": 68,
+    "rowsha": "/H/z6emMmnBiiV7++7j7Jr0Pg7Ab4mIXI8XIs6yWkHM=",
+    "originContent": "cp fjira /usr/local/bin/fjira",
+    "translatedContent": "cp fjira /usr/local/bin/fjira"
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+    "originContent": "### Windows",
+    "translatedContent": "### 윈도우즈"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 74,
+    "rowsha": "as1h3ZyRigA/XQEwUVk3tlEX1sqVDz3Url7PGONYSw8=",
+    "originContent": "choco install fjira",
+    "translatedContent": "choco install fjira"
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "LSuBixAZSuLdWcJAYYtZ3DMYerT6X3/I7vZCQwOuBD0=",
+    "originContent": "### Build from sources",
+    "translatedContent": "### 소스에서 빌드하기"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 80,
+    "rowsha": "0FqioV+zxA7+6wO+xEU5PwAHRITPAcj7LakMpmlaVTE=",
+    "originContent": "make",
+    "translatedContent": "make"
+  },
+  {
+    "row": 81,
+    "rowsha": "RHgyywRk8KvEUWb06S9cbszEe4L/NojHl3C1/s59BA4=",
+    "originContent": "./out/bin/fjira",
+    "translatedContent": "./out/bin/fjira"
+  },
+  {
+    "row": 82,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+    "originContent": "```text",
+    "translatedContent": "```text"
+  },
+  {
+    "row": 87,
+    "rowsha": "K60+6vM8r/47ybSCtJNO0Z607DYUwSNz4aXF+JSCF9o=",
+    "originContent": "Usage:",
+    "translatedContent": "Usage:"
+  },
+  {
+    "row": 88,
+    "rowsha": "2IcjGVH1yzcoqAKUwp29gi02GXjBIHa9dKqlpU2MnUI=",
+    "originContent": "  fjira [flags]",
+    "translatedContent": "  fjira [flags]"
+  },
+  {
+    "row": 89,
+    "rowsha": "4pKgARV+ihjDxl0oJbLz0d0pre9N5xVC57vTD5jS7UI=",
+    "originContent": "  fjira [command]",
+    "translatedContent": "  fjira [command]"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "uo2yDTb98WF/AMe5VleaffXo4i2x+9FusSpKIAKeOkY=",
+    "originContent": "Available Commands:",
+    "translatedContent": "Available Commands:"
+  },
+  {
+    "row": 92,
+    "rowsha": "z3b2q3BnTBxmmeb1eknm2kaJVUDz921Ief/GFC0U884=",
+    "originContent": "  [issueKey]  Open a Jira issue directly from the CLI",
+    "translatedContent": "  [issueKey]  Open a Jira issue directly from the CLI"
+  },
+  {
+    "row": 93,
+    "rowsha": "nyXdbvFBw2Hf1cKQuKWg8QGjCkiMBrLQB6XrpjlmEqY=",
+    "originContent": "  completion  Generate the autocompletion script for the specified shell",
+    "translatedContent": "  completion  Generate the autocompletion script for the specified shell"
+  },
+  {
+    "row": 94,
+    "rowsha": "hynjn7sMz+RbN42p6lxW42d9IiQ6HSTiGVaWEQ2lRs4=",
+    "originContent": "  filters     Search using Jira filters",
+    "translatedContent": "  filters     Search using Jira filters"
+  },
+  {
+    "row": 95,
+    "rowsha": "DXdeqtNLnLuBEevaiUW9tDJHxZ+dTShWiEWkkr82ZDM=",
+    "originContent": "  help        Help about any command",
+    "translatedContent": "  help        Help about any command"
+  },
+  {
+    "row": 96,
+    "rowsha": "Mtuml3Eml3yXQvIj4qURAcycRMO70i77Xw5Rt2dKyB0=",
+    "originContent": "  jql         Search using custom JQL queries",
+    "translatedContent": "  jql         Search using custom JQL queries"
+  },
+  {
+    "row": 97,
+    "rowsha": "Gi48eeBg/xaJVyQoVFw7IcNCFbnX9Q/GWhcXVMcRlBc=",
+    "originContent": "  version     Print the version number of fjira",
+    "translatedContent": "  version     Print the version number of fjira"
+  },
+  {
+    "row": 98,
+    "rowsha": "mJiMV6v41HAjAIidXV//Cr3PDssFgzNKgi69Ryc6niA=",
+    "originContent": "  workspace   Switch to a different workspace",
+    "translatedContent": "  workspace   Switch to a different workspace"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "LfiJOcz+4NKAFFkEjqlNWoSld/IcV3Tm18w6K8I5CC8=",
+    "originContent": "Flags:",
+    "translatedContent": "Flags:"
+  },
+  {
+    "row": 101,
+    "rowsha": "HZyUeHulpoIQCHy71dkzp2YhijwZt0UDAwwvfskZLlM=",
+    "originContent": "  -h, --help             help for fjira",
+    "translatedContent": "  -h, --help             help for fjira"
+  },
+  {
+    "row": 102,
+    "rowsha": "Dj9ayhUkpQBcbTYhpuxvPa1kgjUdZfRwZeGMWY4faIM=",
+    "originContent": "  -p, --project string   Open a project directly from CLI",
+    "translatedContent": "  -p, --project string   Open a project directly from CLI"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "pL5CHsrniFMoebtGe2FJIQhpbO4CUHxJpQLLaBLXBhA=",
+    "originContent": "Additional help topics:",
+    "translatedContent": "Additional help topics:"
+  },
+  {
+    "row": 105,
+    "rowsha": "tyeAy/IHbCKQj5Ch3fEXVt4uapn81p6wX4TWG/a7eo4=",
+    "originContent": "  fjira            Open a fuzzy finder for projects as a default action",
+    "translatedContent": "  fjira            Open a fuzzy finder for projects as a default action"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "zejHyTcjz1IwEE721i7msFtDmlIs3iKVYkT3pRGoiLk=",
+    "originContent": "Use \"fjira [command] --help\" for more information about a command.",
+    "translatedContent": "Use \"fjira [command] --help\" for more information about a command."
+  },
+  {
+    "row": 108,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+    "originContent": "## Getting Started",
+    "translatedContent": "## 시작하기"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "DHy6JxEXa7GALWJSd6otc3v2oMM326RtMKf08B5g4Fg=",
+    "originContent": "Using the Fjira CLI is straightforward. Simply run fjira in your terminal.",
+    "translatedContent": "Fjira CLI 사용은 간단합니다. 터미널에서 fjira를 실행하기만 하면 됩니다."
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 115,
+    "rowsha": "+0A0HmG1CvEfNeqU/9lyGlznLDH5IH91J/RG8j9uHwc=",
+    "originContent": "fjira",
+    "translatedContent": "fjira"
+  },
+  {
+    "row": 116,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "JMoaSHqYUQQrS689EXh1EfmzE/KfhMOAFornLRolZfE=",
+    "originContent": "## Workspaces",
+    "translatedContent": "## 작업 공간"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "mbc1pHXfCNXgvP1qV0fcqWhoCPZuor++ToqqTzxVnTE=",
+    "originContent": "The first time you run Fjira, it will prompt you for your Jira API URL and token.",
+    "translatedContent": "Fjira를 처음 실행하면 Jira API URL과 토큰을 입력하라는 메시지가 표시됩니다."
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "+KVZu3Kmbl852JJwG53OeWDRzkvKilzA9k5Dp667stE=",
+    "originContent": "![Fjira First Run](https://raw.githubusercontent.com/mk-5/fjira/master/demo_first_run.gif)",
+    "translatedContent": "![Fjira 첫 실행](https://raw.githubusercontent.com/mk-5/fjira/master/demo_first_run.gif)"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "ZqNoQX1cDCZ2w8hvAM3jz+FAtbulNMF6U3JlBvqOqSA=",
+    "originContent": "Fjira workspaces store Jira configuration data in a simple YAML file located at `~/.fjira`. You can switch between",
+    "translatedContent": "Fjira 작업 공간은 `~/.fjira`에 위치한 간단한 YAML 파일에 Jira 구성 데이터를 저장합니다. `fjira workspace` 명령을 사용하여"
+  },
+  {
+    "row": 125,
+    "rowsha": "91t8LtRhn9Dl1dBZw0Xo1BXhTsAn2uiHRV3tCsgiapk=",
+    "originContent": "multiple workspaces using the `fjira workspace` command.",
+    "translatedContent": "여러 작업 공간 간에 전환할 수 있습니다."
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 128,
+    "rowsha": "DuGbdtYqwTQTODKYCRiM1baSSGbqysL2OSUbgjzfjME=",
+    "originContent": "fjira workspace",
+    "translatedContent": "fjira workspace"
+  },
+  {
+    "row": 129,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "EbMoKCobcOEfj8nJF0Xi5tpzTJ+KfWG/iyL8LckXcJQ=",
+    "originContent": "To create a new workspace, use the following command:",
+    "translatedContent": "새 작업 공간을 만들려면 다음 명령어를 사용하세요:"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 134,
+    "rowsha": "eYqMhIoo7fRdMToLH2df3SRNE9G2zDhZc2rXErleY5w=",
+    "originContent": "fjira workspace --new abc",
+    "translatedContent": "fjira workspace --new abc"
+  },
+  {
+    "row": 135,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "0prf1QRolkwJXwgJwztqtfcsfYTOPKzji4SqO7pPCZE=",
+    "originContent": "You can edit an existing workspace using the `--edit` flag:",
+    "translatedContent": "`--edit` 플래그를 사용하여 기존 작업 공간을 편집할 수 있습니다:"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 140,
+    "rowsha": "Z5soZfB+RbocHob0/QFuaP4CIFMLtJHzbr9PWh+jpYE=",
+    "originContent": "fjira workspace --edit abc",
+    "translatedContent": "fjira workspace --edit abc"
+  },
+  {
+    "row": 141,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "CrBx7Grj21NQxHAiN6/Gdw7EANk8TnaIL1Otk3ncUPw=",
+    "originContent": "### Jira Token Type",
+    "translatedContent": "### 지라 토큰 유형"
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "83Uy4NnFDzZuZ7QPkglM1Q3QORAYgVNkI9x0/A7I/VE=",
+    "originContent": "Fjira supports both Jira Server and Jira Cloud, which use different token types for authorization. The tool will prompt",
+    "translatedContent": "Fjira는 Jira 서버와 Jira 클라우드를 모두 지원하며, 이들은 권한 부여를 위해 서로 다른 토큰 유형을 사용합니다. 도구는 작업 공간 구성 중에 적절한 토큰 유형을 선택하도록 안내합니다."
+  },
+  {
+    "row": 146,
+    "rowsha": "KJSWo8BZrq8iLrXL8CjIc5xO3rLZPT/fPkqBkTVoqsM=",
+    "originContent": "you to select the appropriate token type during workspace configuration.",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 149,
+    "rowsha": "UW2cjIKAi8G6LOmY/m8WDRG3qqzKzV+depWS6uM6tOU=",
+    "originContent": "? Jira Token Type:",
+    "translatedContent": "? Jira Token Type:"
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "QMmdM963YVY1X0WpfE2Vc/fj15v2J5GIatFiwXyWiNU=",
+    "originContent": "1. api token",
+    "translatedContent": "1. api token"
+  },
+  {
+    "row": 152,
+    "rowsha": "4o2Zym9VuIQVek6SLH1cee9JqI76xK2kmHLTFKQPk3k=",
+    "originContent": "2. personal token",
+    "translatedContent": "2. personal token"
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "jrugVWWa5PvJ7cV+Bzdgf8QB8Ao8X4zugtQaKh+mCqw=",
+    "originContent": "Enter a number (Default is 1):",
+    "translatedContent": "Enter a number (Default is 1):"
+  },
+  {
+    "row": 155,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "pHUw53e2R4cZLaOsyNB9gbVdOCv6PAHHIUqNe6TkXN8=",
+    "originContent": "### YAML configuration",
+    "translatedContent": "### YAML 구성"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "y/pF3m8/rrY3GUo33KeKPxVGIvx6i+1U4U7x1J8T3eY=",
+    "originContent": "If you prefer a manual approach, you have the option to add workspace configurations by creating a `fjira.yaml` file in the `~/.fjira/` directory. ",
+    "translatedContent": "수동 방식을 선호하는 경우 `~/.fjira/` 디렉토리에 `fjira.yaml` 파일을 생성하여 작업 공간 구성을 추가할 수 있습니다.  "
+  },
+  {
+    "row": 160,
+    "rowsha": "+xMOSZroSrV5n5IgKSefpDKLUlEAgG1yA3kdEQvBbek=",
+    "originContent": "For your convenience, an example configuration file is here: [fjira.yml](https://raw.githubusercontent.com/mk-5/fjira/master/assets/fjira.yaml)",
+    "translatedContent": "편의를 위해 예제 구성 파일은 여기에서 확인할 수 있습니다: [fjira.yml](https://raw.githubusercontent.com/mk-5/fjira/master/assets/fjira.yaml)"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "HcVQuANRp6PeZruUEe4qjNAmO1JC3K8B4/F+/UCRgH4=",
+    "originContent": "## Projects search",
+    "translatedContent": "## 프로젝트 검색"
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "gUeC5QVR58EvYW2ZGRlWaeYZMbuFewZvocGLCAK9xQY=",
+    "originContent": "The default view when you run `fjira` is the project search screen.",
+    "translatedContent": "`fjira`를 실행할 때 기본 화면은 프로젝트 검색 화면입니다."
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 167,
+    "rowsha": "+0A0HmG1CvEfNeqU/9lyGlznLDH5IH91J/RG8j9uHwc=",
+    "originContent": "fjira",
+    "translatedContent": "fjira"
+  },
+  {
+    "row": 168,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "8Jtad7L5OhamAevV9T2FcVin0fmTHkR2n9CxUvdlB8Y=",
+    "originContent": "## Opening a Specific Project",
+    "translatedContent": "## 특정 프로젝트 열기"
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "qWyf7/V+cU3QWLhniREewxOyGFrt1UszP5t7D/zWha4=",
+    "originContent": "You can open a project directly from the CLI:",
+    "translatedContent": "CLI에서 직접 프로젝트를 열 수 있습니다:"
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 175,
+    "rowsha": "/svKdnJwjogdLR0tLpz0ZSe4//B0M3VoQ8VkOI/GUHM=",
+    "originContent": "fjira --project=PROJ",
+    "translatedContent": "fjira --project=PROJ"
+  },
+  {
+    "row": 176,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이렇게 하면 프로젝트 검색 화면을 건너뛰고 바로 이슈 검색 화면으로 이동합니다."
+  },
+  {
+    "row": 178,
+    "rowsha": "Tixtj1xO30nxidDh+nlQ+rcjmbrlYi+FiT8MDOIkdXQ=",
+    "originContent": "This will skip the project search screen and take you directly to the issues search screen.",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 이슈를 직접 열기"
+  },
+  {
+    "row": 180,
+    "rowsha": "+GdSW0BR2cXkKyYpCNpG+xXcGLAB3fswXBIiFnQBfMs=",
+    "originContent": "## Opening an Issue Directly",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "CLI에서 직접 이슈를 열려면:"
+  },
+  {
+    "row": 182,
+    "rowsha": "hqTTrOQqJOm+67n7OV8DXAs56MKTeDIdRkyLSS0Svc0=",
+    "originContent": "To open an issue directly from the CLI:",
+    "translatedContent": ""
+  },
+  {
+    "row": 183,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 184,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 185,
+    "rowsha": "8E1IQ7GifCtuQBzkoYPXMj/ZhV7Vb4H0BC41uaYMrhU=",
+    "originContent": "fjira PROJ-123",
+    "translatedContent": "fjira PROJ-123"
+  },
+  {
+    "row": 186,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 187,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Fjira는 모든 중간 화면을 건너뛰고 바로 이슈 뷰로 이동합니다."
+  },
+  {
+    "row": 188,
+    "rowsha": "v/LeV19xE8GTEhKFBujd9XYv3BWMSALgY+60lIH+KPk=",
+    "originContent": "Fjira will skip all intermediate screens and take you directly to the issue view.",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![Fjira Issue View](https://raw.githubusercontent.com/mk-5/fjira/master/demo_issue.png)"
+  },
+  {
+    "row": 190,
+    "rowsha": "wScQd1sASeNfRE4uvBTY2fF+e/u0sCHfpv9SSZpHTBw=",
+    "originContent": "![Fjira Issue View](https://raw.githubusercontent.com/mk-5/fjira/master/demo_issue.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 보드 뷰"
+  },
+  {
+    "row": 192,
+    "rowsha": "izDvFiZjdiu/2zNTLa/NEtA26oHefscnxSWs6eg49ZY=",
+    "originContent": "## Boards View",
+    "translatedContent": ""
+  },
+  {
+    "row": 193,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Fjira는 보드와 같은 뷰도 제공합니다. 프로젝트를 연 후 F4를 눌러 이 뷰에 접근할 수 있습니다."
+  },
+  {
+    "row": 194,
+    "rowsha": "q+GKJ/HqhoKhtf0mx3ZEumWOceL2PMO2YT8omKf5o3g=",
+    "originContent": "Fjira also offers a board-like view. After opening a project, press F4 to access this view.",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![Fjira Board View](https://raw.githubusercontent.com/mk-5/fjira/master/demo_board_view.png)"
+  },
+  {
+    "row": 196,
+    "rowsha": "z/ZkLs8GLtBPfPnMTsEc1eSTlIgl/w/W4ZnJLMmV0PE=",
+    "originContent": "![Fjira Board View](https://raw.githubusercontent.com/mk-5/fjira/master/demo_board_view.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 맞춤 JQL 쿼리"
+  },
+  {
+    "row": 198,
+    "rowsha": "iqtRPNxHUWwGRahYT0YWe79YLMK2af+RvKLJ/+APZxU=",
+    "originContent": "## Custom JQL Queries",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Fjira를 사용하여 맞춤 JQL 쿼리를 생성하고 실행할 수 있습니다:"
+  },
+  {
+    "row": 200,
+    "rowsha": "IATsMpKh5ClDoh4eL2560QsJaeg+zz6bd/Cz3E0p/yI=",
+    "originContent": "You can create and execute custom JQL queries with Fjira:",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 203,
+    "rowsha": "RCGpThM8XMszrbU38gVXYkcNdp9TXf1BY1Z2T+S/l5E=",
+    "originContent": "fjira jql",
+    "translatedContent": "fjira jql"
+  },
+  {
+    "row": 204,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "P4a82jbWrqO7i7iAsHJZFAs6OOhVJEH4uVqcXepJxI0=",
+    "originContent": "![Fjira Custom JQL](https://raw.githubusercontent.com/mk-5/fjira/master/demo_custom_jql.png)",
+    "translatedContent": "![Fjira Custom JQL](https://raw.githubusercontent.com/mk-5/fjira/master/demo_custom_jql.png)"
+  },
+  {
+    "row": 207,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "f+k1qDHVlQppL6u/5WywdfNfEQJ0c3OMB99hc0zC1cI=",
+    "originContent": "## My Jira Filters",
+    "translatedContent": "## My Jira Filters"
+  },
+  {
+    "row": 209,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 210,
+    "rowsha": "qsqYT1FG1y69T3eTqCxO89ZFmuxVKgpT4bwibXbhdYA=",
+    "originContent": "You can search using your stored (favourites) Jira Filters:",
+    "translatedContent": "You can search using your stored (favourites) Jira Filters:"
+  },
+  {
+    "row": 211,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 212,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 213,
+    "rowsha": "lHHTA189a2oik6AE3jhj+oSuS+wxdsy0NVqXwvVyKWI=",
+    "originContent": "fjira filters",
+    "translatedContent": "fjira filters"
+  },
+  {
+    "row": 214,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 215,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "MuQu9HZ+0Bv+yq49r8+2osCgs4s6OD+4iy4IVeueOSk=",
+    "originContent": "![Fjira Filters](https://raw.githubusercontent.com/mk-5/fjira/master/demo_filters.png)",
+    "translatedContent": "![Fjira Filters](https://raw.githubusercontent.com/mk-5/fjira/master/demo_filters.png)"
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 218,
+    "rowsha": "5wBFxt2Olnay+7JDZOohx5XZ0zeN+V1mko0UDBIhplc=",
+    "originContent": "## Custom Color Scheme",
+    "translatedContent": "## 사용자 정의 색상 스킴"
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "mv6tsVzXkavk6rZx998n23n/qcUKk/WvJEa6Gm3Pn+I=",
+    "originContent": "Tailor the fjira color scheme to match your preferences by creating a custom `~/.fjira/colors.yml` file. This file",
+    "translatedContent": "`~/.fjira/colors.yml` 파일을 생성하여 fjira 색상 스킴을 사용자의 취향에 맞게 조정하세요. 이 파일은"
+  },
+  {
+    "row": 221,
+    "rowsha": "MVVf+V1DU2GOy0yO8lp47fzViYHHuGQjXl8CvV4IoMs=",
+    "originContent": "allows you to personalize the colors according to your unique style.",
+    "translatedContent": "개인적인 스타일에 맞게 색상을 맞춤 설정할 수 있습니다."
+  },
+  {
+    "row": 222,
+    "rowsha": "42lkIeznk5fo9KjiDklfqv0wmW7DfRTQSOIRPDzCF+w=",
+    "originContent": "Refer to the example file, located here: [colors.yml](https://raw.githubusercontent.com/mk-5/fjira/master/assets/colors.yml)",
+    "translatedContent": "예제 파일은 여기에서 참조하세요: [colors.yml](https://raw.githubusercontent.com/mk-5/fjira/master/assets/colors.yml)"
+  },
+  {
+    "row": 223,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 224,
+    "rowsha": "dK89LczNwFeZmARTcQyU7jZsGMwrI6hsywG2qXKo/ak=",
+    "originContent": "## Roadmap (TODO)",
+    "translatedContent": "## 로드맵 (TODO)"
+  },
+  {
+    "row": 225,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 226,
+    "rowsha": "9zp7vhVWzG7PZQXUaD+XdX5j8mwnX7FSecQyveZSBP8=",
+    "originContent": "- Expand Documentation",
+    "translatedContent": "- 문서 확장"
+  },
+  {
+    "row": 227,
+    "rowsha": "I8CopQY17rXem63VJocSfXZhp52Y9dxG7qfbFyVTTFw=",
+    "originContent": "- Create&Delete Jira Filters",
+    "translatedContent": "- Jira 필터 생성 및 삭제"
+  },
+  {
+    "row": 228,
+    "rowsha": "ZRDL4JNInZ+upj22KHnE9I4Y/PPljKLajZoBbTxibmQ=",
+    "originContent": "- Support Additional Linux Package Managers (Apt, AUR, YUM)",
+    "translatedContent": "- 추가 Linux 패키지 관리자 지원 (Apt, AUR, YUM)"
+  },
+  {
+    "row": 229,
+    "rowsha": "x+YsoruMVculSmLoSJ0+0qisxnAGJMSpUuZDx+j1E7A=",
+    "originContent": "- Introduce More Jira Features",
+    "translatedContent": "- 더 많은 Jira 기능 도입"
+  },
+  {
+    "row": 230,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 231,
+    "rowsha": "XkjmO8GZw+NPlqtsKIz94hXoCCSSximfmFKrLHYsZ2I=",
+    "originContent": "## Motivation",
+    "translatedContent": "## 동기"
+  },
+  {
+    "row": 232,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 233,
+    "rowsha": "Xiem37w/ARTe5pexZANLcC4870TcLhvDFVCQB9XVtv0=",
+    "originContent": "Fjira was designed for personal convenience, born out of a desire for efficiency and a love for terminal tools.",
+    "translatedContent": "Fjira는 개인의 편의를 위해 설계되었으며, 효율성에 대한 열망과 터미널 도구에 대한 사랑에서 태어났습니다."
+  },
+  {
+    "row": 234,
+    "rowsha": "ZsYAss48bCH4yv7u2C60ChexT2aaQUVNSD4MHOxFzbw=",
+    "originContent": "Often, we find ourselves in \"I just need to transition issue 123 to the next status.\" While opening Jira, locating the",
+    "translatedContent": "종종 우리는 \"단지 이슈 123을 다음 상태로 전환해야 해.\"라는 상황에 처합니다. Jira를 열고,"
+  },
+  {
+    "row": 235,
+    "rowsha": "d56DJOYAJbQOx9AEgizDun9QYXT4GIfHyy6cm6kWRtk=",
+    "originContent": "ticket on the board, and navigating the Jira issue modal are all perfectly fine, they do consume a fair amount of time.",
+    "translatedContent": "보드에서 티켓을 찾고, Jira 이슈 모달을 탐색하는 것이 전혀 문제는 없지만, 꽤 많은 시간이 소요됩니다."
+  },
+  {
+    "row": 236,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 237,
+    "rowsha": "EWurFTDAqYOc9JY0ivmm7rNwnWsbIEkKkezhnzzhy/c=",
+    "originContent": "Fjira empowers you to execute such tasks directly from the terminal, where you're likely already working! 😄",
+    "translatedContent": "Fjira는 이미 작업 중인 터미널에서 직접 이러한 작업을 수행할 수 있도록 힘을 실어줍니다! 😄"
+  },
+  {
+    "row": 238,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 239,
+    "rowsha": "I59SwVqbhzkYjRULSZPrJpObGUhinCaEA81PzvNhl7U=",
+    "originContent": "If Fjira enhances your Jira experience as it did mine, please consider giving it a star on GitHub. 🌟 It will power-up me",
+    "translatedContent": "Fjira가 저처럼 당신의 Jira 경험을 향상시켰다면, GitHub에서 별점을 남겨주세요. 🌟 이것은 앞으로의 작업에"
+  },
+  {
+    "row": 240,
+    "rowsha": "KBEdGYKVSOiXuhAoDAkk48XS27fEUvoRvGrjZhUzSH4=",
+    "originContent": "for a future work.",
+    "translatedContent": "큰 힘이 됩니다."
+  },
+  {
+    "row": 241,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 242,
+    "rowsha": "rBalCgqadYD9EoAv3fvelgLLELG3jAZNAt9aXalDj4c=",
+    "originContent": "Feel free to contribute to this project and help shape its future! Your feedback and contributions are highly",
+    "translatedContent": "이 프로젝트에 기여하고 미래를 함께 만들어가세요! 여러분의 피드백과 기여는 매우"
+  },
+  {
+    "row": 243,
+    "rowsha": "ShIlt/Hji2RmlV7xqrb7nsdpPecdgvzvUW5xuS8hB8Q=",
+    "originContent": "appreciated.",
+    "translatedContent": "감사하게 받아들여집니다."
+  },
+  {
+    "row": 244,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

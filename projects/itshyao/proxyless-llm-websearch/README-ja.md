@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 言語</summary>
@@ -28,34 +27,39 @@
     </div>
   </details>
 </div>
-
 # 🧠 プロキシ不要のLLMウェブ検索エンジン
 
-プロキシを必要としないマルチ検索エンジン対応のLLMウェブ検索ツールです。URLコンテンツの解析やウェブクロールをサポートし、LangGraphと組み合わせてモジュール型エージェントチェーンを実現します。大規模言語モデルによる外部知識利用シナリオ向けに設計され、**Playwright + Crawl4AI** によるウェブ取得・解析、非同期並列処理、コンテンツ分割・再構成・フィルタリングに対応しています。
+プロキシ不要のマルチ検索エンジン型LLMウェブ検索ツールです。URLコンテンツ解析とウェブクローリングをサポートし、**LangGraph**と**LangGraph-MCP**を組み合わせたモジュール型エージェントチェーンを実現します。大規模言語モデルによる外部知識参照のために設計され、**Playwright + Crawl4AI**によるウェブ取得と解析、非同期並列処理、コンテンツ分割・再構成・フィルタリングをサポートします。
 
-## ✨ 主な特徴
+## 🚀 更新履歴
 
-- 🌐 **プロキシ不要**：Playwrightで国内ブラウザの設定が可能。プロキシ不要でウェブ検索ができます。
-- 🔍 **マルチ検索エンジン対応**：Bing、Quark、Baidu、Sogouなどの主要検索エンジンをサポートし、情報源の多様性を強化。
-- 🤖 **インテント認識**：ユーザー入力に応じて、自動的にウェブ検索かURL解析かを判別します。
-- 🔄 **クエリ分解**：検索意図に基づきクエリを複数サブタスクに自動分割し、順次実行して関連性と効率を向上。
-- ⚙️ **エージェントアーキテクチャ**：**LangGraph** ベースの**「web_search」**および**「link_parser」**を搭載。
-- 🏃‍♂️ **非同期並列タスク処理**：非同期並列タスク処理対応で、複数の検索タスクを効率的に処理可能。
-- 📝 **コンテンツ処理最適化**：
+- 🔥 2025-09-05：**langgraph-mcp**対応
+- 🔥 2025-09-03：Docker展開追加、組み込み型リランカー、自作テキスト分割器・リランカー対応
 
-  - ✂️ **コンテンツ分割**：長いウェブページ内容をセグメントで分割。
+## ✨ 特徴一覧
 
-  - 🔄 **コンテンツ再構成**：インテリジェントな並べ替えで情報の関連性を向上。
+- 🌐 **プロキシ不要**：Playwright で国内ブラウザを設定することで、プロキシなしでもウェブ検索が可能です。
+- 🔍 **複数検索エンジン対応**：Bing、夸克、百度、搜狗など主要な検索エンジンに対応し、情報ソースの多様性を強化します。
+- 🤖 **インテント認識**：システムがユーザーの入力内容に基づき、ウェブ検索かURL解析かを自動判別します。
+- 🔄 **クエリ分解**：ユーザーの検索意図に応じてクエリを自動的に複数のサブタスクに分解し、順次実行することで検索の関連性と効率を向上させます。
+- ⚙️ **エージェントアーキテクチャ**：**LangGraph** ベースでラップされた**「web_search」**と**「link_parser」**。
+- 🏃‍♂️ **非同期並列タスク処理**：非同期並列タスク処理に対応し、複数の検索タスクを効率的に処理できます。
+- 📝 **コンテンツ処理の最適化**：
 
-  - 🚫 **コンテンツフィルタ**：不要・重複コンテンツを自動除去。
+  - ✂️ **コンテンツ分割**：ウェブページの長文を段落ごとに分割します。
+
+  - 🔄 **コンテンツ再配置**：インテリジェントな並べ替えで情報の関連性を向上。
+
+  - 🚫 **コンテンツフィルタリング**：無関係または重複する内容を自動的に除外します。
 - 🌐 **マルチプラットフォーム対応**：
+  - 🐳 **Docker デプロイ対応**：ワンクリックで起動、バックエンドサービスを迅速に構築。
 
-  - 🖥️ FastAPIバックエンドAPIを提供し、あらゆるシステムに統合可能。
+  - 🖥️ FastAPI バックエンドAPIを提供し、任意のシステムに統合可能。
 
-  - 🌍 Gradio Web UIを用意し、可視化アプリとして迅速に展開可能。
-  
-  - 🧩[ **ブラウザ拡張機能対応**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension)：Edge対応。インテリジェントURL解析プラグインを提供し、ブラウザから直接ウェブページ解析・内容抽出リクエストが可能。
-  
+  - 🌍 Gradio Web UI を提供し、すぐに可視化アプリとしてデプロイ可能。
+
+  - 🧩[ **ブラウザ拡張機能対応**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension)：Edge対応、インテリジェントなURL解析拡張機能を提供し、ブラウザ上で直接ウェブ解析・コンテンツ抽出リクエストが可能。
+
 
 ![workflow](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/workflow.png)
 
@@ -63,77 +67,68 @@
 
 ## ⚡ クイックスタート
 
-### 1. リポジトリをクローン
+### リポジトリのクローン
 
 ```bash
 git clone https://github.com/itshyao/proxyless-llm-websearch.git
 cd proxyless-llm-websearch
 ```
-### 2. 依存関係のインストール
 
+### 依存関係のインストール
 
 ```
 pip install -r requirements.txt
 python -m playwright install
 ```
-### 3. クイックスタート
 
-#### 環境変数の設定
-
+### 環境変数の設定
 
 ```
-OPENAI_API_KEY=xxx
-OPENAI_BASE_URL=https://ark.cn-beijing.volces.com/api/v3
-MODEL_NAME=deepseek-v3-250324
+# 百炼llm
+OPENAI_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+OPENAI_API_KEY=sk-xxx
+MODEL_NAME=qwen-plus-latest
 
-EMBEDDING_MODEL_NAME=doubao-embedding-large-text-240915
-EMBEDDING_API_KEY=xxx
-EMBEDDING_BASE_URL=https://ark.cn-beijing.volces.com/api/v3
+# 百炼embedding
+EMBEDDING_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+EMBEDDING_API_KEY=sk-xxx
+EMBEDDING_MODEL_NAME=text-embedding-v4
+
+# 百炼reranker
+RERANK_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+RERANK_API_KEY=sk-xxx
+RERANK_MODEL=gte-rerank-v2
 ```
+
+### Langgraph-Agent
+
 #### デモ
 
-
-```python
-'''
-python demo.py
-'''
-
-from pools import BrowserPool, CrawlerPool
-from agent import ToolsGraph
-import asyncio
-
-async def main():
-    browser_pool = BrowserPool(pool_size=1)
-    crawler_pool = CrawlerPool(pool_size=1)
-    
-    graph = ToolsGraph(browser_pool, crawler_pool, engine="bing")
-
-    await browser_pool._create_browser_instance(headless=True)
-    await crawler_pool._get_instance()
-
-    result = await graph.run("广州今日天气")
-
-    await browser_pool.cleanup()
-    await crawler_pool.cleanup()
-
-    print(result)
-
-if __name__ == "__main__":
-    asyncio.run(main())
+```shell
+python agent/demo.py
 ```
-#### バックエンドAPI
 
+#### API提供
+
+```shell
+python agent/api_serve.py
+```
 
 ```python
-'''
-python api_serve.py
-'''
 import requests
 
-url = "http://localhost:8000/search"
+url = "http://localhost:8800/search"
 
 data = {
-    "question": "广州今日天气"
+  "question": "广州今日天气",
+  "engine": "bing",
+  "split": {
+    "chunk_size": 512,
+    "chunk_overlap": 128
+  },
+  "rerank": {
+    "top_k": 5
+  }
 }
 
 try:
@@ -152,43 +147,138 @@ try:
 except requests.exceptions.RequestException as e:
     print(f"⚠️ 请求异常：{str(e)}")
 ```
-#### gradio_demo
 
+#### Gradio（グラディオ）
 
 ```
-python gradio_demo.py
+python agent/gradio_demo.py
 ```
+
 ![gradio](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/gradio1.png)
 
 ![gradio](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/gradio2.png)
 
-## 🔍 オンラインウェブ検索テストとの比較
+#### docker
+
+```
+docker-compose -f docker-compose-ag.yml up -d --build
+```
+
+### Langgrph-MCP
+
+#### MCPサービスの起動
+
+```
+python mcp/websearch.py
+```
+
+#### デモ
+
+```
+python mcp/demo.py
+```
+
+#### API サーブ
+
+```
+python mcp/api_serve.py
+```
+
+```
+import requests
+
+url = "http://localhost:8800/search"
+
+data = {
+  "question": "广州今日天气"
+}
+
+try:
+    response = requests.post(
+        url,
+        json=data
+    )
+
+    if response.status_code == 200:
+        print("✅ 请求成功！")
+        print("响应内容：", response.json())
+    else:
+        print(f"❌ 请求失败，状态码：{response.status_code}")
+        print("错误信息：", response.text)
+
+except requests.exceptions.RequestException as e:
+    print(f"⚠️ 请求异常：{str(e)}")
+```
+
+#### docker
+
+```
+docker-compose -f docker-compose-mcp.yml up -d --build
+```
+
+### カスタムモジュール
+
+#### カスタムチャンク
+
+```
+from typing import Optional, List
+
+class YourSplitter:
+    def __init__(self, text: str, chunk_size: int = 512, chunk_overlap: int = 128):
+        self.text = text
+        self.chunk_size = chunk_size
+        self.chunk_overlap = chunk_overlap
+
+    def split_text(self, text: Optional[str] = None) -> List:
+        # TODO: implement splitting logic
+        return ["your chunk"]
+```
+
+#### カスタムリオーダー
+
+```
+from typing import List, Union, Tuple
+
+class YourReranker:
+    async def get_reranked_documents(
+        self,
+        query: Union[str, List[str]],
+        documents: List[str],
+    ) -> Union[
+        Tuple[List[str]],
+        Tuple[List[int]],
+    ]:
+        return ["your chunk"], ["chunk index"]
+```
+
+## 🔍 オンラインネットワーク検索テストとの比較
 
 本プロジェクトをいくつかの主流オンラインAPIと比較し、複雑な問題に対するパフォーマンスを評価しました。
 
 ### 🔥 データセット
 
-- データセットはアリババが公開した[WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA)から取得し、教育、学会、ゲームなど複数分野の680の難問を含みます。
-- データセットには中英両言語の質問が含まれています。
+- データセットはアリババが公開した [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA) から取得され、教育、学会、ゲームなど多分野にわたる680件の高難易度な問題を含みます。
+- データセットは中国語と英語の問題を含みます。
 
 ### 🧑‍🏫 比較結果
 
-| 検索エンジン/システム | ✅ 正解 | ❌ 不正解 | ⚠️ 部分的に正解 |
-| --------------------- | ------- | -------- | --------------- |
-| **火山方舟**          | 5.00%   | 72.21%   | 22.79%          |
-| **百炼**              | 9.85%   | 62.79%   | 27.35%          |
-| **Our**               | 19.85%  | 47.94%   | 32.06%          |
-
+| 検索エンジン/システム  | ✅ 正解 | ❌ 不正解 | ⚠️ 部分的正解 |
+| ---------------------- | ------- | -------- | ------------- |
+| **火山方舟**           | 5.00%   | 72.21%   | 22.79%        |
+| **百炼**               | 9.85%   | 62.79%   | 27.35%        |
+| **Our**                | 19.85%  | 47.94%   | 32.06%        |
 ## 🙏 謝辞
 
-本プロジェクトの一部機能は、以下のオープンソースプロジェクトの支援と着想により実現しました。心より感謝申し上げます：
+本プロジェクトの一部機能は、以下のオープンソースプロジェクトの支援とインスピレーションによるものです。ここに感謝の意を表します。
 
-- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph)：モジュール式インテリジェントエージェントチェーンフレームワークの構築に使用。
-- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai)：強力なウェブコンテンツ解析ツール。
+- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph)：モジュール式エージェントリンク構築フレームワーク。複雑なエージェントシステムの迅速な構築を支援。
+- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai)：強力なウェブコンテンツ解析ツール。効率的なウェブクローリングとデータ抽出を実現。
+- 🌐 [Playwright](https://github.com/microsoft/playwright)：最新のブラウザ自動化ツール。クロスブラウザ対応のウェブクロール・テスト自動化に対応。
+- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters)：マルチチェーン処理MCPの構築用。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---
