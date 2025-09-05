@@ -30,53 +30,56 @@
   </details>
 </div>
 
-# PPTAgent : Génération et évaluation de présentations au-delà du texte vers les diapositives
+# PPTAgent : Génération et Évaluation de Présentations au-delà du Texte vers les Diapositives
 <p align="center">
   📄 <a href="https://arxiv.org/abs/2501.03936" target="_blank">Article</a> &nbsp; | &nbsp;
-  🤗 <a href="https://huggingface.co/datasets/Forceless/Zenodo10K" target="_blank">Jeu de données</a> &nbsp; | &nbsp;
+  🤗 <a href="#open-source-" target="_blank">OpenSource</a> &nbsp; | &nbsp;
   📝 <a href="./DOC.md" target="_blank">Documentation</a> &nbsp; | &nbsp;
   🙏 <a href="#citation-" target="_blank">Citation</a> &nbsp; | &nbsp;
   <a href="https://deepwiki.com/icip-cas/PPTAgent" target="_blank"><img src="https://deepwiki.com/icon.png" alt="Ask DeepWiki"> DeepWiki</a>
 </p>
 
-Nous présentons PPTAgent, un système innovant qui génère automatiquement des présentations à partir de documents. S’inspirant des méthodes humaines de création de présentations, notre système utilise un processus en deux étapes pour garantir une qualité globale optimale. De plus, nous introduisons **PPTEval**, un cadre d’évaluation complet qui analyse les présentations selon plusieurs dimensions.
+Nous présentons PPTAgent, un système innovant qui génère automatiquement des présentations à partir de documents. S’inspirant des méthodes humaines de création de présentations, notre système utilise un processus en deux étapes pour garantir une excellente qualité globale. De plus, nous introduisons **PPTEval**, un cadre d’évaluation complet qui évalue les présentations selon plusieurs dimensions.
 
-> [!TIP]
-> 🚀 Démarrez rapidement avec notre image Docker pré-construite - [Voir les instructions Docker](DOC.md/#docker-)
+> [!ASTUCE]
+> 🚀 Lancez-vous rapidement grâce à notre image Docker préconfigurée - [Voir les instructions Docker](DOC.md/#docker-)
 
-## Vidéo de démonstration 🎥
+## Open Source 🤗
+Nous avons publié le **modèle de code PPTAgent** ainsi que les jeux de données : [PPTAgent-Coder](https://huggingface.co/Forceless/PPTAgent-coder-3B), [Zenodo10k](https://huggingface.co/datasets/Forceless/Zenodo10K), et [pptagent-code26k](https://huggingface.co/datasets/Forceless/pptagent-code26k).
+
+## Vidéo Démo 🎥
 
 https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
-## Fonctionnalités distinctives ✨
+## Caractéristiques Distinctives ✨
 
-- **Génération dynamique de contenu** : Crée des diapositives avec du texte et des images intégrés de façon transparente
-- **Apprentissage intelligent par référence** : Exploite des présentations existantes sans nécessiter d’annotation manuelle
-- **Évaluation complète de la qualité** : Analyse les présentations selon de multiples indicateurs de qualité
+- **Génération dynamique de contenu** : Crée des diapositives avec texte et images intégrés de manière fluide
+- **Apprentissage intelligent par référence** : Utilise les présentations existantes sans nécessiter d’annotation manuelle
+- **Évaluation complète de la qualité** : Jauge la qualité des présentations selon plusieurs métriques
 
-## Étude de cas 💡
+## Étude de Cas 💡
 
 - #### [Iphone 16 Pro](https://www.apple.com/iphone-16-pro/)
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0001.jpg" alt="图片1" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0001.jpg" alt="Image1" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0002.jpg" alt="图片2" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0002.jpg" alt="Image2" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0003.jpg" alt="图片3" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0003.jpg" alt="Image3" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0004.jpg" alt="图片4" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0004.jpg" alt="Image4" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0005.jpg" alt="图片5" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0005.jpg" alt="Image5" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0006.jpg" alt="图片6" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0006.jpg" alt="Image6" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0007.jpg" alt="图片7" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0007.jpg" alt="Image7" width="200"/>
 
 </div>
 
-- #### [Construire des agents efficaces](https://www.anthropic.com/research/building-effective-agents)
+- #### [Build Effective Agents](https://www.anthropic.com/research/building-effective-agents)
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
@@ -104,11 +107,11 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 ## PPTAgent 🤖
 
-PPTAgent adopte une approche en deux phases :
-1. **Phase d'analyse** : Extrait et apprend des motifs dans des présentations de référence
-2. **Phase de génération** : Développe des plans structurés et produit des diapositives visuellement cohérentes
+PPTAgent follows a two-phase approach:
+1. **Analysis Phase**: Extracts and learns from patterns in reference presentations
+2. **Generation Phase**: Develops structured outlines and produces visually cohesive slides
 
-Le flux de travail de notre système est illustré ci-dessous :
+Our system's workflow is illustrated below:
 
 
 ![PPTAgent Workflow](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)
@@ -117,18 +120,18 @@ Le flux de travail de notre système est illustré ci-dessous :
 
 PPTEval évalue les présentations selon trois dimensions :
 - **Contenu** : Vérifie l’exactitude et la pertinence des diapositives.
-- **Conception** : Évalue l’attrait visuel et la cohérence.
-- **Cohérence** : Garantit la logique dans la progression des idées.
+- **Design** : Évalue l’attrait visuel et la cohérence.
+- **Cohérence** : Garantit la logique du déroulement des idées.
 
-Le flux de travail de PPTEval est montré ci-dessous :
+Le flux de travail de PPTEval est illustré ci-dessous :
 <p align="center">
-<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg" alt="PPTEval Workflow" style="width:70%;"/>
+<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg" alt="Flux de travail PPTEval" style="width:70%;"/>
 </p>
 
 
 ## Citation 🙏
 
-Si ce projet vous est utile, veuillez utiliser la citation suivante :
+Si ce projet vous est utile, veuillez utiliser la référence suivante pour le citer :
 ```bibtex
 @article{zheng2025pptagent,
   title={PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides},
@@ -143,6 +146,6 @@ Si ce projet vous est utile, veuillez utiliser la citation suivante :
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

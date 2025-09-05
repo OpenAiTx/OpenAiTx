@@ -33,16 +33,19 @@
 # PPTAgent: Metinden Slaytlara Ötesinde Sunumlar Oluşturma ve Değerlendirme
 <p align="center">
   📄 <a href="https://arxiv.org/abs/2501.03936" target="_blank">Makale</a> &nbsp; | &nbsp;
-  🤗 <a href="https://huggingface.co/datasets/Forceless/Zenodo10K" target="_blank">Veriseti</a> &nbsp; | &nbsp;
+  🤗 <a href="#open-source-" target="_blank">Açık Kaynak</a> &nbsp; | &nbsp;
   📝 <a href="./DOC.md" target="_blank">Dokümantasyon</a> &nbsp; | &nbsp;
   🙏 <a href="#citation-" target="_blank">Atıf</a> &nbsp; | &nbsp;
-  <a href="https://deepwiki.com/icip-cas/PPTAgent" target="_blank"><img src="https://deepwiki.com/icon.png" alt="Ask DeepWiki"> DeepWiki</a>
+  <a href="https://deepwiki.com/icip-cas/PPTAgent" target="_blank"><img src="https://deepwiki.com/icon.png" alt="DeepWiki'ye Sor"> DeepWiki</a>
 </p>
 
-PPTAgent’i sunuyoruz: Belgelerden otomatik olarak sunum oluşturan yenilikçi bir sistem. İnsanların sunum hazırlama yöntemlerinden ilham alan sistemimiz, genel kalitenin mükemmelliğini sağlamak için iki aşamalı bir süreç uygular. Ayrıca, sunumları çoklu boyutlarda değerlendiren kapsamlı bir değerlendirme çerçevesi olan **PPTEval**’i tanıtıyoruz.
+PPTAgent'i sunuyoruz; belgelerden otomatik olarak sunumlar oluşturan yenilikçi bir sistemdir. İnsan sunum hazırlama yöntemlerinden ilham alan sistemimiz, genel kalite mükemmelliğini sağlamak için iki aşamalı bir süreç kullanır. Ayrıca, sunumları birden fazla boyutta değerlendiren kapsamlı bir değerlendirme çerçevesi olan **PPTEval**'i tanıtıyoruz.
 
-> [!İPUCU]
-> 🚀 Hazır Docker imajımızla hızlıca başlayın - [Docker talimatlarına bakınız](DOC.md/#docker-)
+> [!TIP]
+> 🚀 Önceden hazırlanmış Docker imajımız ile hızlıca başlayın - [Docker talimatlarını inceleyin](DOC.md/#docker-)
+
+## Açık Kaynak 🤗
+**PPTAgent kod modelini** ve veri setlerini yayınladık: [PPTAgent-Coder](https://huggingface.co/Forceless/PPTAgent-coder-3B), [Zenodo10k](https://huggingface.co/datasets/Forceless/Zenodo10K) ve [pptagent-code26k](https://huggingface.co/datasets/Forceless/pptagent-code26k).
 
 ## Demo Video 🎥
 
@@ -50,9 +53,9 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 ## Ayırt Edici Özellikler ✨
 
-- **Dinamik İçerik Üretimi**: Metin ve görsellerin kusursuz bir şekilde entegre edildiği slaytlar oluşturur
-- **Akıllı Referans Öğrenimi**: Manuel açıklama gerektirmeden mevcut sunumlardan yararlanır
-- **Kapsamlı Kalite Değerlendirmesi**: Sunumları çoklu kalite metrikleriyle değerlendirir
+- **Dinamik İçerik Üretimi**: Metin ve görsellerin kusursuzca entegre edildiği slaytlar oluşturur
+- **Akıllı Referans Öğrenme**: Mevcut sunumları manuel etiketleme gerektirmeden kullanır
+- **Kapsamlı Kalite Değerlendirmesi**: Sunumları birden fazla kalite metriğiyle değerlendirir
 
 ## Vaka Çalışması 💡
 
@@ -76,27 +79,27 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 </div>
 
-- #### [Etkili Agentlar Oluşturun](https://www.anthropic.com/research/building-effective-agents)
+- #### [Build Effective Agents](https://www.anthropic.com/research/building-effective-agents)
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg" alt="Resim1" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg" alt="图片1" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg" alt="Resim2" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg" alt="图片2" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg" alt="Resim3" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg" alt="图片3" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg" alt="Resim4" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg" alt="图片4" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg" alt="Resim5" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg" alt="图片5" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg" alt="Resim6" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg" alt="图片6" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg" alt="Resim7" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg" alt="图片7" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg" alt="Resim8" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg" alt="图片8" width="200"/>
 
-<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg" alt="Resim9" width="200"/>
+<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg" alt="图片9" width="200"/>
 
 <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0010.jpg" alt="图片10" width="200"/>
 
@@ -104,11 +107,11 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 ## PPTAgent 🤖
 
-PPTAgent iki aşamalı bir yaklaşım izler:
-1. **Analiz Aşaması**: Referans sunumlardaki desenleri çıkarır ve bunlardan öğrenir
-2. **Üretim Aşaması**: Yapılandırılmış taslaklar geliştirir ve görsel olarak uyumlu slaytlar üretir
+PPTAgent follows a two-phase approach:
+1. **Analysis Phase**: Extracts and learns from patterns in reference presentations
+2. **Generation Phase**: Develops structured outlines and produces visually cohesive slides
 
-Sistemimizin iş akışı aşağıda gösterilmiştir:
+Our system's workflow is illustrated below:
 
 
 ![PPTAgent Workflow](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)
@@ -116,9 +119,9 @@ Sistemimizin iş akışı aşağıda gösterilmiştir:
 ## PPTEval ⚖️
 
 PPTEval sunumları üç boyutta değerlendirir:
-- **İçerik**: Slaytların doğruluğunu ve alaka düzeyini kontrol eder.
-- **Tasarım**: Görsel çekiciliği ve tutarlılığı değerlendirir.
-- **Tutarlılık**: Fikirlerin mantıksal akışını sağlar.
+- **İçerik**: Slaytların doğruluğu ve ilgililiği kontrol edilir.
+- **Tasarım**: Görsel çekicilik ve tutarlılık değerlendirilir.
+- **Tutarlılık**: Fikirlerin mantıksal akışı sağlanır.
 
 PPTEval'in iş akışı aşağıda gösterilmiştir:
 <p align="center">
@@ -128,7 +131,7 @@ PPTEval'in iş akışı aşağıda gösterilmiştir:
 
 ## Atıf 🙏
 
-Bu projeyi faydalı bulduysanız, lütfen aşağıdakini kullanarak atıfta bulunun:
+Bu projeyi faydalı bulursanız, lütfen aşağıdakini kullanarak atıfta bulunun:
 ```bibtex
 @article{zheng2025pptagent,
   title={PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides},
@@ -143,6 +146,6 @@ Bu projeyi faydalı bulduysanız, lütfen aşağıdakini kullanarak atıfta bulu
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

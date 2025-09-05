@@ -33,7 +33,7 @@
 # PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides
 <p align="center">
   📄 <a href="https://arxiv.org/abs/2501.03936" target="_blank">Paper</a> &nbsp; | &nbsp;
-  🤗 <a href="https://huggingface.co/datasets/Forceless/Zenodo10K" target="_blank">Dataset</a> &nbsp; | &nbsp;
+  🤗 <a href="#open-source-" target="_blank">OpenSource</a> &nbsp; | &nbsp;
   📝 <a href="./DOC.md" target="_blank">Documentation</a> &nbsp; | &nbsp;
   🙏 <a href="#citation-" target="_blank">Citation</a> &nbsp; | &nbsp;
   <a href="https://deepwiki.com/icip-cas/PPTAgent" target="_blank"><img src="https://deepwiki.com/icon.png" alt="Ask DeepWiki"> DeepWiki</a>
@@ -43,6 +43,9 @@ We present PPTAgent, an innovative system that automatically generates presentat
 
 > [!TIP]
 > 🚀 Get started quickly with our pre-built Docker image - [See Docker instructions](DOC.md/#docker-)
+
+## Open Source 🤗
+We have released the **PPTAgent code model** along with the datasets: [PPTAgent-Coder](https://huggingface.co/Forceless/PPTAgent-coder-3B), [Zenodo10k](https://huggingface.co/datasets/Forceless/Zenodo10K), and [pptagent-code26k](https://huggingface.co/datasets/Forceless/pptagent-code26k).
 
 ## Demo Video 🎥
 

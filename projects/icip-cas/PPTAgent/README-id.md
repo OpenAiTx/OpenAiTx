@@ -30,19 +30,22 @@
   </details>
 </div>
 
-# PPTAgent: Menghasilkan dan Mengevaluasi Presentasi Melampaui Text-to-Slides
+# PPTAgent: Membuat dan Mengevaluasi Presentasi Melampaui Teks-ke-Slide
 <p align="center">
   📄 <a href="https://arxiv.org/abs/2501.03936" target="_blank">Makalah</a> &nbsp; | &nbsp;
-  🤗 <a href="https://huggingface.co/datasets/Forceless/Zenodo10K" target="_blank">Dataset</a> &nbsp; | &nbsp;
+  🤗 <a href="#open-source-" target="_blank">Sumber Terbuka</a> &nbsp; | &nbsp;
   📝 <a href="./DOC.md" target="_blank">Dokumentasi</a> &nbsp; | &nbsp;
   🙏 <a href="#citation-" target="_blank">Sitasi</a> &nbsp; | &nbsp;
   <a href="https://deepwiki.com/icip-cas/PPTAgent" target="_blank"><img src="https://deepwiki.com/icon.png" alt="Tanya DeepWiki"> DeepWiki</a>
 </p>
 
-Kami mempersembahkan PPTAgent, sebuah sistem inovatif yang secara otomatis menghasilkan presentasi dari dokumen. Terinspirasi dari metode pembuatan presentasi manusia, sistem kami menggunakan proses dua langkah untuk memastikan kualitas keseluruhan yang unggul. Selain itu, kami memperkenalkan **PPTEval**, sebuah kerangka evaluasi komprehensif yang menilai presentasi dari berbagai dimensi.
+Kami mempersembahkan PPTAgent, sebuah sistem inovatif yang secara otomatis menghasilkan presentasi dari dokumen. Terinspirasi oleh metode pembuatan presentasi manusia, sistem kami menggunakan proses dua langkah untuk memastikan keunggulan dalam kualitas keseluruhan. Selain itu, kami memperkenalkan **PPTEval**, sebuah kerangka evaluasi komprehensif yang menilai presentasi dalam berbagai dimensi.
 
 > [!TIP]
-> 🚀 Mulai cepat dengan image Docker yang sudah dibuat - [Lihat instruksi Docker](DOC.md/#docker-)
+> 🚀 Mulai dengan cepat menggunakan Docker image yang telah kami sediakan - [Lihat instruksi Docker](DOC.md/#docker-)
+
+## Open Source 🤗
+Kami telah merilis **model kode PPTAgent** beserta dataset: [PPTAgent-Coder](https://huggingface.co/Forceless/PPTAgent-coder-3B), [Zenodo10k](https://huggingface.co/datasets/Forceless/Zenodo10K), dan [pptagent-code26k](https://huggingface.co/datasets/Forceless/pptagent-code26k).
 
 ## Video Demo 🎥
 
@@ -50,8 +53,8 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 ## Fitur Unggulan ✨
 
-- **Pembuatan Konten Dinamis**: Membuat slide dengan integrasi teks dan gambar yang mulus
-- **Pembelajaran Referensi Cerdas**: Memanfaatkan presentasi yang sudah ada tanpa perlu anotasi manual
+- **Pembuatan Konten Dinamis**: Membuat slide dengan teks dan gambar yang terintegrasi secara mulus
+- **Pembelajaran Referensi Pintar**: Memanfaatkan presentasi yang sudah ada tanpa memerlukan anotasi manual
 - **Penilaian Kualitas Komprehensif**: Mengevaluasi presentasi melalui berbagai metrik kualitas
 
 ## Studi Kasus 💡
@@ -76,27 +79,27 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 </div>
 
-- #### [Bangun Agen Efektif](https://www.anthropic.com/research/building-effective-agents)
+- #### [Build Effective Agents](https://www.anthropic.com/research/building-effective-agents)
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg" alt="Gambar1" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg" alt="图片1" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg" alt="Gambar2" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg" alt="图片2" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg" alt="Gambar3" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg" alt="图片3" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg" alt="Gambar4" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg" alt="图片4" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg" alt="Gambar5" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg" alt="图片5" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg" alt="Gambar6" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg" alt="图片6" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg" alt="Gambar7" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg" alt="图片7" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg" alt="Gambar8" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg" alt="图片8" width="200"/>
 
-<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg" alt="Gambar9" width="200"/>
+<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg" alt="图片9" width="200"/>
 
 <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0010.jpg" alt="图片10" width="200"/>
 
@@ -104,11 +107,11 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 ## PPTAgent 🤖
 
-PPTAgent mengikuti pendekatan dua fase:
-1. **Fase Analisis**: Mengekstrak dan mempelajari pola dari presentasi referensi
-2. **Fase Generasi**: Mengembangkan kerangka terstruktur dan menghasilkan slide yang secara visual kohesif
+PPTAgent follows a two-phase approach:
+1. **Analysis Phase**: Extracts and learns from patterns in reference presentations
+2. **Generation Phase**: Develops structured outlines and produces visually cohesive slides
 
-Alur kerja sistem kami diilustrasikan di bawah ini:
+Our system's workflow is illustrated below:
 
 
 ![PPTAgent Workflow](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)
@@ -116,19 +119,19 @@ Alur kerja sistem kami diilustrasikan di bawah ini:
 ## PPTEval ⚖️
 
 PPTEval mengevaluasi presentasi berdasarkan tiga dimensi:
-- **Konten**: Memeriksa akurasi dan relevansi slide.
+- **Konten**: Memeriksa keakuratan dan relevansi slide.
 - **Desain**: Menilai daya tarik visual dan konsistensi.
-- **Koherensi**: Memastikan alur logis dari ide-ide.
+- **Koherensi**: Memastikan alur logis ide-ide.
 
 Alur kerja PPTEval ditunjukkan di bawah ini:
 <p align="center">
-<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg" alt="PPTEval Workflow" style="width:70%;"/>
+<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg" alt="Alur Kerja PPTEval" style="width:70%;"/>
 </p>
 
 
 ## Sitasi 🙏
 
-Jika Anda merasa proyek ini bermanfaat, silakan gunakan yang berikut ini untuk mensitasinya:
+Jika Anda merasa proyek ini bermanfaat, silakan gunakan sitasi berikut:
 ```bibtex
 @article{zheng2025pptagent,
   title={PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides},
@@ -143,6 +146,6 @@ Jika Anda merasa proyek ini bermanfaat, silakan gunakan yang berikut ini untuk m
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

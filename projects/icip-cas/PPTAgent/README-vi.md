@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Ngôn ngữ</summary>
@@ -30,73 +29,77 @@
   </details>
 </div>
 
-# PPTAgent: Tạo và Đánh Giá Bài Thuyết Trình Vượt Ra Ngoài Chuyển Văn Bản Thành Slide
+# PPTAgent: Tạo và Đánh Giá Bản Trình Bày Vượt Ra Ngoài Văn Bản Đến Slide
 <p align="center">
   📄 <a href="https://arxiv.org/abs/2501.03936" target="_blank">Bài báo</a> &nbsp; | &nbsp;
-  🤗 <a href="https://huggingface.co/datasets/Forceless/Zenodo10K" target="_blank">Bộ dữ liệu</a> &nbsp; | &nbsp;
+  🤗 <a href="#open-source-" target="_blank">Mã nguồn mở</a> &nbsp; | &nbsp;
   📝 <a href="./DOC.md" target="_blank">Tài liệu hướng dẫn</a> &nbsp; | &nbsp;
   🙏 <a href="#citation-" target="_blank">Trích dẫn</a> &nbsp; | &nbsp;
-  <a href="https://deepwiki.com/icip-cas/PPTAgent" target="_blank"><img src="https://deepwiki.com/icon.png" alt="Ask DeepWiki"> DeepWiki</a>
+  <a href="https://deepwiki.com/icip-cas/PPTAgent" target="_blank"><img src="https://deepwiki.com/icon.png" alt="Hỏi DeepWiki"> DeepWiki</a>
 </p>
 
-Chúng tôi giới thiệu PPTAgent, một hệ thống sáng tạo tự động tạo ra các bài thuyết trình từ tài liệu. Lấy cảm hứng từ phương pháp tạo bài thuyết trình của con người, hệ thống của chúng tôi sử dụng quy trình hai bước để đảm bảo chất lượng tổng thể vượt trội. Ngoài ra, chúng tôi còn giới thiệu **PPTEval**, một khung đánh giá toàn diện cho bài thuyết trình qua nhiều khía cạnh.
+
+Chúng tôi giới thiệu PPTAgent, một hệ thống sáng tạo tự động tạo bài thuyết trình từ tài liệu. Lấy cảm hứng từ phương pháp tạo bài thuyết trình của con người, hệ thống của chúng tôi sử dụng quy trình hai bước nhằm đảm bảo chất lượng tổng thể xuất sắc. Ngoài ra, chúng tôi ra mắt **PPTEval**, một khung đánh giá toàn diện cho phép đánh giá bài thuyết trình ở nhiều khía cạnh khác nhau.
 
 > [!TIP]
-> 🚀 Bắt đầu nhanh với image Docker dựng sẵn của chúng tôi - [Xem hướng dẫn Docker](DOC.md/#docker-)
+> 🚀 Bắt đầu nhanh chóng với image Docker dựng sẵn của chúng tôi - [Xem hướng dẫn Docker](DOC.md/#docker-)
 
-## Video Demo 🎥
+## Mã nguồn mở 🤗
+Chúng tôi đã phát hành **mô hình mã PPTAgent** cùng với các bộ dữ liệu: [PPTAgent-Coder](https://huggingface.co/Forceless/PPTAgent-coder-3B), [Zenodo10k](https://huggingface.co/datasets/Forceless/Zenodo10K), và [pptagent-code26k](https://huggingface.co/datasets/Forceless/pptagent-code26k).
+
+## Video demo 🎥
 
 https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
-## Tính Năng Nổi Bật ✨
+## Tính năng nổi bật ✨
 
-- **Tạo Nội Dung Động**: Tạo slide với văn bản và hình ảnh tích hợp liền mạch
-- **Học Tập Tham Chiếu Thông Minh**: Tận dụng các bài thuyết trình có sẵn mà không cần gán nhãn thủ công
-- **Đánh Giá Chất Lượng Toàn Diện**: Đánh giá bài thuyết trình qua nhiều tiêu chí chất lượng
+- **Tạo nội dung động**: Tạo slide với văn bản và hình ảnh tích hợp liền mạch
+- **Học hỏi tham chiếu thông minh**: Tận dụng bài thuyết trình có sẵn mà không cần gán nhãn thủ công
+- **Đánh giá chất lượng toàn diện**: Đánh giá bài thuyết trình qua nhiều chỉ số chất lượng
 
-## Nghiên Cứu Tình Huống 💡
+## Nghiên cứu tình huống 💡
 
 - #### [Iphone 16 Pro](https://www.apple.com/iphone-16-pro/)
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0001.jpg" alt="Ảnh 1" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0001.jpg" alt="Hình ảnh 1" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0002.jpg" alt="Ảnh 2" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0002.jpg" alt="Hình ảnh 2" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0003.jpg" alt="Ảnh 3" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0003.jpg" alt="Hình ảnh 3" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0004.jpg" alt="Ảnh 4" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0004.jpg" alt="Hình ảnh 4" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0005.jpg" alt="Ảnh 5" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0005.jpg" alt="Hình ảnh 5" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0006.jpg" alt="Ảnh 6" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0006.jpg" alt="Hình ảnh 6" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0007.jpg" alt="Ảnh 7" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0007.jpg" alt="Hình ảnh 7" width="200"/>
 
 </div>
 
-- #### [Xây dựng Agent Hiệu Quả](https://www.anthropic.com/research/building-effective-agents)
+- #### [Build Effective Agents](https://www.anthropic.com/research/building-effective-agents)
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg" alt="Ảnh 1" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg" alt="图片1" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg" alt="Ảnh 2" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg" alt="图片2" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg" alt="Ảnh 3" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg" alt="图片3" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg" alt="Ảnh 4" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg" alt="图片4" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg" alt="Ảnh 5" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg" alt="图片5" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg" alt="Ảnh 6" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg" alt="图片6" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg" alt="Ảnh 7" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg" alt="图片7" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg" alt="Ảnh 8" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg" alt="图片8" width="200"/>
 
-<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg" alt="Ảnh 9" width="200"/>
+<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg" alt="图片9" width="200"/>
 
 <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0010.jpg" alt="图片10" width="200"/>
 
@@ -104,23 +107,23 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 ## PPTAgent 🤖
 
-PPTAgent tuân theo phương pháp hai giai đoạn:
-1. **Giai đoạn Phân tích**: Trích xuất và học từ các mẫu trình chiếu tham khảo
-2. **Giai đoạn Sinh**: Phát triển dàn ý có cấu trúc và tạo ra các slide đồng bộ về mặt hình ảnh
+PPTAgent follows a two-phase approach:
+1. **Analysis Phase**: Extracts and learns from patterns in reference presentations
+2. **Generation Phase**: Develops structured outlines and produces visually cohesive slides
 
-Quy trình làm việc của hệ thống của chúng tôi được minh họa bên dưới:
+Our system's workflow is illustrated below:
 
 
-![Quy trình PPTAgent](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)
+![PPTAgent Workflow](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)
 
 ## PPTEval ⚖️
 
-PPTEval đánh giá các bài thuyết trình qua ba khía cạnh:
-- **Nội dung**: Kiểm tra độ chính xác và liên quan của các slide.
-- **Thiết kế**: Đánh giá sự hấp dẫn thị giác và tính nhất quán.
-- **Mạch lạc**: Đảm bảo dòng ý tưởng logic.
+PPTEval đánh giá các bài thuyết trình dựa trên ba tiêu chí:
+- **Nội dung**: Kiểm tra độ chính xác và sự phù hợp của các slide.
+- **Thiết kế**: Đánh giá sự hấp dẫn về mặt trực quan và tính nhất quán.
+- **Tính mạch lạc**: Đảm bảo dòng chảy logic của các ý tưởng.
 
-Quy trình làm việc của PPTEval được trình bày dưới đây:
+Quy trình làm việc của PPTEval được minh họa bên dưới:
 <p align="center">
 <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg" alt="PPTEval Workflow" style="width:70%;"/>
 </p>
@@ -128,7 +131,7 @@ Quy trình làm việc của PPTEval được trình bày dưới đây:
 
 ## Trích dẫn 🙏
 
-Nếu bạn thấy dự án này hữu ích, vui lòng trích dẫn như sau:
+Nếu bạn thấy dự án này hữu ích, vui lòng sử dụng thông tin sau để trích dẫn:
 ```bibtex
 @article{zheng2025pptagent,
   title={PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides},
@@ -143,6 +146,6 @@ Nếu bạn thấy dự án này hữu ích, vui lòng trích dẫn như sau:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

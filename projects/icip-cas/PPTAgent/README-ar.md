@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 اللغة</summary>
@@ -30,29 +29,33 @@
   </details>
 </div>
 
-# PPTAgent: توليد وتقييم العروض التقديمية بما يتجاوز تحويل النصوص إلى شرائح
+# PPTAgent: توليد وتقييم العروض التقديمية بما يتجاوز تحويل النص إلى شرائح
 <p align="center">
   📄 <a href="https://arxiv.org/abs/2501.03936" target="_blank">ورقة بحثية</a> &nbsp; | &nbsp;
-  🤗 <a href="https://huggingface.co/datasets/Forceless/Zenodo10K" target="_blank">مجموعة البيانات</a> &nbsp; | &nbsp;
+  🤗 <a href="#open-source-" target="_blank">مصدر مفتوح</a> &nbsp; | &nbsp;
   📝 <a href="./DOC.md" target="_blank">التوثيق</a> &nbsp; | &nbsp;
-  🙏 <a href="#citation-" target="_blank">الاستشهاد</a> &nbsp; | &nbsp;
-  <a href="https://deepwiki.com/icip-cas/PPTAgent" target="_blank"><img src="https://deepwiki.com/icon.png" alt="Ask DeepWiki"> ديب ويكي</a>
+  🙏 <a href="#citation-" target="_blank">الاقتباس</a> &nbsp; | &nbsp;
+  <a href="https://deepwiki.com/icip-cas/PPTAgent" target="_blank"><img src="https://deepwiki.com/icon.png" alt="اسأل DeepWiki"> DeepWiki</a>
 </p>
 
-نقدم PPTAgent، وهو نظام مبتكر يقوم تلقائيًا بإنشاء عروض تقديمية من الوثائق. مستوحى من طرق إعداد العروض التقديمية البشرية، يوظف نظامنا عملية من خطوتين لضمان التميز في الجودة الشاملة. بالإضافة إلى ذلك، نقدم **PPTEval**، وهو إطار تقييم شامل يقوم بتقييم العروض التقديمية عبر أبعاد متعددة.
+
+نقدم لكم PPTAgent، وهو نظام مبتكر يقوم تلقائيًا بإنشاء العروض التقديمية من المستندات. مستلهماً من طرق إعداد العروض البشرية، يستخدم نظامنا عملية من خطوتين لضمان التميز في الجودة الشاملة. بالإضافة إلى ذلك، نقدم **PPTEval**، وهو إطار تقييم شامل يقيم العروض عبر أبعاد متعددة.
 
 > [!TIP]
-> 🚀 ابدأ بسرعة مع صورة Docker الجاهزة لدينا - [راجع تعليمات Docker](DOC.md/#docker-)
+> 🚀 ابدأ بسرعة باستخدام صورة Docker الجاهزة لدينا - [راجع تعليمات Docker](DOC.md/#docker-)
 
-## فيديو العرض التوضيحي 🎥
+## مفتوح المصدر 🤗
+لقد قمنا بإصدار **نموذج كود PPTAgent** مع مجموعات البيانات: [PPTAgent-Coder](https://huggingface.co/Forceless/PPTAgent-coder-3B)، [Zenodo10k](https://huggingface.co/datasets/Forceless/Zenodo10K)، و [pptagent-code26k](https://huggingface.co/datasets/Forceless/pptagent-code26k).
+
+## فيديو تجريبي 🎥
 
 https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
-## الميزات المميزة ✨
+## ميزات فريدة ✨
 
-- **توليد محتوى ديناميكي**: ينشئ شرائح تحتوي على نصوص وصور متكاملة بسلاسة
-- **تعلم ذكي من المراجع**: يستفيد من العروض التقديمية الموجودة دون الحاجة إلى وسوم يدوية
-- **تقييم شامل للجودة**: يقيم العروض التقديمية عبر عدة مؤشرات جودة
+- **توليد محتوى ديناميكي**: ينشئ شرائح بدمج سلس للنصوص والصور
+- **تعلم مرجعي ذكي**: يستفيد من العروض التقديمية الموجودة دون الحاجة إلى توصيف يدوي
+- **تقييم جودة شامل**: يقيم العروض التقديمية عبر عدة معايير جودة
 
 ## دراسة حالة 💡
 
@@ -60,43 +63,43 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0001.jpg" alt="صورة1" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0001.jpg" alt="صورة 1" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0002.jpg" alt="صورة2" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0002.jpg" alt="صورة 2" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0003.jpg" alt="صورة3" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0003.jpg" alt="صورة 3" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0004.jpg" alt="صورة4" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0004.jpg" alt="صورة 4" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0005.jpg" alt="صورة5" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0005.jpg" alt="صورة 5" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0006.jpg" alt="صورة6" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0006.jpg" alt="صورة 6" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0007.jpg" alt="صورة7" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0007.jpg" alt="صورة 7" width="200"/>
 
 </div>
 
-- #### [بناء وكلاء فعالين](https://www.anthropic.com/research/building-effective-agents)
+- #### [Build Effective Agents](https://www.anthropic.com/research/building-effective-agents)
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg" alt="صورة1" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg" alt="图片1" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg" alt="صورة2" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg" alt="图片2" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg" alt="صورة3" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg" alt="图片3" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg" alt="صورة4" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg" alt="图片4" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg" alt="صورة5" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg" alt="图片5" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg" alt="صورة6" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg" alt="图片6" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg" alt="صورة7" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg" alt="图片7" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg" alt="صورة8" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg" alt="图片8" width="200"/>
 
-<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg" alt="صورة9" width="200"/>
+<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg" alt="图片9" width="200"/>
 
 <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0010.jpg" alt="图片10" width="200"/>
 
@@ -104,31 +107,31 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 ## PPTAgent 🤖
 
-يتبع PPTAgent نهجًا من مرحلتين:
-1. **مرحلة التحليل**: استخراج وتعلم الأنماط من العروض التقديمية المرجعية
-2. **مرحلة التوليد**: تطوير مخططات منظمة وإنتاج شرائح متماسكة بصريًا
+PPTAgent follows a two-phase approach:
+1. **Analysis Phase**: Extracts and learns from patterns in reference presentations
+2. **Generation Phase**: Develops structured outlines and produces visually cohesive slides
 
-يوضح سير عمل نظامنا أدناه:
+Our system's workflow is illustrated below:
 
 
-![سير عمل PPTAgent](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)
+![PPTAgent Workflow](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)
 
 ## PPTEval ⚖️
 
-يقيم PPTEval العروض التقديمية عبر ثلاثة أبعاد:
+يقوم PPTEval بتقييم العروض التقديمية عبر ثلاثة أبعاد:
 - **المحتوى**: التحقق من دقة وملاءمة الشرائح.
 - **التصميم**: تقييم الجاذبية البصرية والاتساق.
-- **التناسق**: ضمان التسلسل المنطقي للأفكار.
+- **التماسك**: ضمان التسلسل المنطقي للأفكار.
 
-يعرض سير عمل PPTEval أدناه:
+يظهر سير عمل PPTEval أدناه:
 <p align="center">
 <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg" alt="سير عمل PPTEval" style="width:70%;"/>
 </p>
 
 
-## الاقتباس 🙏
+## الاستشهاد 🙏
 
-إذا وجدت هذا المشروع مفيدًا، يرجى استخدام ما يلي للاقتباس منه:
+إذا وجدت هذا المشروع مفيدًا، يرجى استخدام ما يلي للاستشهاد به:
 ```bibtex
 @article{zheng2025pptagent,
   title={PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides},
@@ -143,6 +146,6 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

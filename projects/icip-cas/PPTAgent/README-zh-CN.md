@@ -33,26 +33,28 @@
 # PPTAgent：超越文本到幻灯片的演示文稿生成与评估
 <p align="center">
   📄 <a href="https://arxiv.org/abs/2501.03936" target="_blank">论文</a> &nbsp; | &nbsp;
-  🤗 <a href="https://huggingface.co/datasets/Forceless/Zenodo10K" target="_blank">数据集</a> &nbsp; | &nbsp;
+  🤗 <a href="#open-source-" target="_blank">开源</a> &nbsp; | &nbsp;
   📝 <a href="./DOC.md" target="_blank">文档</a> &nbsp; | &nbsp;
   🙏 <a href="#citation-" target="_blank">引用</a> &nbsp; | &nbsp;
-  <a href="https://deepwiki.com/icip-cas/PPTAgent" target="_blank"><img src="https://deepwiki.com/icon.png" alt="Ask DeepWiki"> DeepWiki</a>
+  <a href="https://deepwiki.com/icip-cas/PPTAgent" target="_blank"><img src="https://deepwiki.com/icon.png" alt="咨询 DeepWiki"> DeepWiki</a>
 </p>
-
-我们提出了PPTAgent，一个能够自动从文档生成演示文稿的创新系统。该系统从人类创建演示文稿的方法中汲取灵感，采用两步式流程以确保整体质量的卓越表现。此外，我们还引入了**PPTEval**，一个多维度综合评估演示文稿的评价框架。
+我们推出了 PPTAgent，这是一套能够自动从文档生成演示文稿的创新系统。系统借鉴了人类制作演示文稿的方法，采用两步流程，确保整体质量的卓越表现。此外，我们还推出了 **PPTEval**，这是一套全面的评估框架，可以从多个维度对演示文稿进行评价。
 
 > [!TIP]
-> 🚀 通过我们预构建的Docker镜像快速上手 - [查看Docker说明](DOC.md/#docker-)
+> 🚀 通过我们预构建的 Docker 镜像快速开始使用 - [查看 Docker 使用说明](DOC.md/#docker-)
+
+## 开源 🤗
+我们已开放发布了 **PPTAgent 代码模型**及相关数据集：[PPTAgent-Coder](https://huggingface.co/Forceless/PPTAgent-coder-3B)，[Zenodo10k](https://huggingface.co/datasets/Forceless/Zenodo10K)，以及 [pptagent-code26k](https://huggingface.co/datasets/Forceless/pptagent-code26k)。
 
 ## 演示视频 🎥
 
 https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
-## 主要特色 ✨
+## 特色功能 ✨
 
-- **动态内容生成**：无缝集成文本与图片生成幻灯片
-- **智能参考学习**：利用现有演示文稿，无需人工标注
-- **全面质量评估**：通过多项质量指标评判演示文稿
+- **动态内容生成**：自动创建文本与图片无缝融合的幻灯片
+- **智能参考学习**：无需人工标注，直接利用现有演示文稿学习
+- **全面质量评估**：通过多种质量指标评估演示文稿
 
 ## 案例分析 💡
 
@@ -76,7 +78,8 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 </div>
 
-- #### [构建高效智能体](https://www.anthropic.com/research/building-effective-agents)
+
+- #### [Build Effective Agents](https://www.anthropic.com/research/building-effective-agents)
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
@@ -104,31 +107,31 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 ## PPTAgent 🤖
 
-PPTAgent 采用两阶段方法：
-1. **分析阶段**：从参考演示文稿中提取并学习模式
-2. **生成阶段**：开发结构化大纲并生成视觉统一的幻灯片
+PPTAgent follows a two-phase approach:
+1. **Analysis Phase**: Extracts and learns from patterns in reference presentations
+2. **Generation Phase**: Develops structured outlines and produces visually cohesive slides
 
-我们系统的工作流程如下所示：
+Our system's workflow is illustrated below:
 
 
-![PPTAgent 工作流程](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)
+![PPTAgent Workflow](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)
 
 ## PPTEval ⚖️
 
-PPTEval 从三个维度评估演示文稿：
+PPTEval从三个维度评估演示文稿：
 - **内容**：检查幻灯片的准确性和相关性。
 - **设计**：评估视觉吸引力和一致性。
 - **连贯性**：确保思想的逻辑流畅。
 
-PPTEval 的工作流程如下所示：
+PPTEval的工作流程如下所示：
 <p align="center">
-<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg" alt="PPTEval 工作流程" style="width:70%;"/>
+<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg" alt="PPTEval Workflow" style="width:70%;"/>
 </p>
 
 
 ## 引用 🙏
 
-如果您觉得本项目对您有帮助，请引用以下内容：
+如果您觉得这个项目有帮助，请使用以下方式引用：
 ```bibtex
 @article{zheng2025pptagent,
   title={PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides},
@@ -143,6 +146,6 @@ PPTEval 的工作流程如下所示：
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---

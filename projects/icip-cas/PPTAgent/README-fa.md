@@ -19,7 +19,7 @@
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt">پرتغالی</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=nl">هلندی</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl">لهستانی</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar">عربی</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar">العربية</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa">فارسی</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr">ترکی</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi">ویتنامی</a>
@@ -33,26 +33,28 @@
 # PPTAgent: تولید و ارزیابی ارائه‌ها فراتر از تبدیل متن به اسلاید
 <p align="center">
   📄 <a href="https://arxiv.org/abs/2501.03936" target="_blank">مقاله</a> &nbsp; | &nbsp;
-  🤗 <a href="https://huggingface.co/datasets/Forceless/Zenodo10K" target="_blank">داده‌مجموعه</a> &nbsp; | &nbsp;
+  🤗 <a href="#open-source-" target="_blank">متن‌باز</a> &nbsp; | &nbsp;
   📝 <a href="./DOC.md" target="_blank">مستندات</a> &nbsp; | &nbsp;
   🙏 <a href="#citation-" target="_blank">ارجاع</a> &nbsp; | &nbsp;
   <a href="https://deepwiki.com/icip-cas/PPTAgent" target="_blank"><img src="https://deepwiki.com/icon.png" alt="Ask DeepWiki"> DeepWiki</a>
 </p>
-
-ما PPTAgent را معرفی می‌کنیم؛ سیستمی نوآورانه که به طور خودکار از روی اسناد، ارائه تولید می‌کند. این سامانه با الهام از روش‌های انسان‌محور در تولید ارائه، از یک فرآیند دو مرحله‌ای برای تضمین کیفیت کلی بهره می‌برد. همچنین، **PPTEval** را معرفی می‌کنیم؛ چارچوب ارزیابی جامعی که ارائه‌ها را در ابعاد مختلف می‌سنجد.
+ما PPTAgent را ارائه می‌دهیم؛ سیستمی نوآورانه که به طور خودکار از اسناد ارائه تولید می‌کند. با الهام از روش‌های انسان‌محور ساخت ارائه، سیستم ما از یک فرایند دو مرحله‌ای برای تضمین کیفیت کلی عالی بهره می‌برد. علاوه بر این، ما **PPTEval** را معرفی می‌کنیم؛ چارچوب ارزیابی جامعی که ارائه‌ها را در ابعاد مختلف مورد سنجش قرار می‌دهد.
 
 > [!TIP]
-> 🚀 به سرعت با ایمیج داکر آماده ما شروع کنید - [دستورالعمل‌های Docker را ببینید](DOC.md/#docker-)
+> 🚀 به سرعت با ایمیج آماده Docker ما شروع کنید - [دستورالعمل‌های Docker را ببینید](DOC.md/#docker-)
 
-## ویدیوی دمو 🎥
+## متن‌باز 🤗
+ما مدل کد **PPTAgent** را همراه با داده‌های مجموعه زیر منتشر کرده‌ایم: [PPTAgent-Coder](https://huggingface.co/Forceless/PPTAgent-coder-3B)، [Zenodo10k](https://huggingface.co/datasets/Forceless/Zenodo10K)، و [pptagent-code26k](https://huggingface.co/datasets/Forceless/pptagent-code26k).
+
+## ویدئو دمو 🎥
 
 https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 ## ویژگی‌های متمایز ✨
 
-- **تولید محتوای پویا**: اسلایدهایی با متن و تصویر یکپارچه تولید می‌کند
-- **یادگیری مرجع هوشمند**: از ارائه‌های موجود بدون نیاز به حاشیه‌نویسی دستی بهره می‌برد
-- **ارزیابی جامع کیفیت**: ارائه‌ها را با معیارهای مختلف کیفیت ارزیابی می‌کند
+- **تولید محتوای پویا**: ساخت اسلاید با تلفیق بی‌نقص متن و تصویر
+- **یادگیری مرجع هوشمند**: بهره‌گیری از ارائه‌های موجود بدون نیاز به حاشیه‌نویسی دستی
+- **ارزیابی جامع کیفیت**: سنجش ارائه‌ها با معیارهای متعدد کیفیت
 
 ## مطالعه موردی 💡
 
@@ -60,43 +62,44 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0001.jpg" alt="تصویر۱" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0001.jpg" alt="تصویر1" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0002.jpg" alt="تصویر۲" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0002.jpg" alt="تصویر2" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0003.jpg" alt="تصویر۳" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0003.jpg" alt="تصویر3" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0004.jpg" alt="تصویر۴" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0004.jpg" alt="تصویر4" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0005.jpg" alt="تصویر۵" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0005.jpg" alt="تصویر5" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0006.jpg" alt="تصویر۶" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0006.jpg" alt="تصویر6" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0007.jpg" alt="تصویر۷" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0007.jpg" alt="تصویر7" width="200"/>
 
 </div>
 
-- #### [ساخت ایجنت‌های مؤثر](https://www.anthropic.com/research/building-effective-agents)
+
+- #### [Build Effective Agents](https://www.anthropic.com/research/building-effective-agents)
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg" alt="تصویر۱" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg" alt="图片1" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg" alt="تصویر۲" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg" alt="图片2" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg" alt="تصویر۳" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg" alt="图片3" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg" alt="تصویر۴" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg" alt="图片4" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg" alt="تصویر۵" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg" alt="图片5" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg" alt="تصویر۶" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg" alt="图片6" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg" alt="تصویر۷" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg" alt="图片7" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg" alt="تصویر۸" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg" alt="图片8" width="200"/>
 
-<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg" alt="تصویر۹" width="200"/>
+<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg" alt="图片9" width="200"/>
 
 <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0010.jpg" alt="图片10" width="200"/>
 
@@ -104,31 +107,31 @@ https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
 
 ## PPTAgent 🤖
 
-PPTAgent از یک رویکرد دو مرحله‌ای پیروی می‌کند:
-1. **مرحله تحلیل**: استخراج و یادگیری از الگوهای ارائه‌های مرجع
-2. **مرحله تولید**: توسعه ساختارهای سازمان‌یافته و تولید اسلایدهای بصری منسجم
+PPTAgent follows a two-phase approach:
+1. **Analysis Phase**: Extracts and learns from patterns in reference presentations
+2. **Generation Phase**: Develops structured outlines and produces visually cohesive slides
 
-جریان کاری سیستم ما در زیر نشان داده شده است:
+Our system's workflow is illustrated below:
 
 
-![جریان کاری PPTAgent](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)
+![PPTAgent Workflow](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)
 
 ## PPTEval ⚖️
 
-PPTEval ارائه‌ها را در سه بعد ارزیابی می‌کند:
-- **محتوا**: بررسی دقت و ارتباط اسلایدها.
-- **طراحی**: ارزیابی جذابیت بصری و یکنواختی.
-- **انسجام**: اطمینان از جریان منطقی ایده‌ها.
+PPTEval ارائه‌ها را در سه بُعد ارزیابی می‌کند:
+- **محتوا**: دقت و مرتبط بودن اسلایدها را بررسی می‌کند.
+- **طراحی**: جذابیت بصری و یکنواختی را ارزیابی می‌کند.
+- **انسجام**: از جریان منطقی ایده‌ها اطمینان حاصل می‌کند.
 
-جریان کاری PPTEval در زیر نشان داده شده است:
+گردش‌کار PPTEval در زیر نمایش داده شده است:
 <p align="center">
-<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg" alt="جریان کاری PPTEval" style="width:70%;"/>
+<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg" alt="گردش‌کار PPTEval" style="width:70%;"/>
 </p>
 
 
-## استناد 🙏
+## ارجاع 🙏
 
-اگر این پروژه برای شما مفید بود، لطفاً از متن زیر برای استناد استفاده کنید:
+اگر این پروژه برای شما مفید بود، لطفاً برای استناد از موارد زیر استفاده کنید:
 ```bibtex
 @article{zheng2025pptagent,
   title={PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides},
@@ -143,6 +146,6 @@ PPTEval ارائه‌ها را در سه بعد ارزیابی می‌کند:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-01
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
 
 ---
