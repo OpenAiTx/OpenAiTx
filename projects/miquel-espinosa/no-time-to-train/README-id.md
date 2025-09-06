@@ -37,8 +37,7 @@
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
-**State-of-the-art (Papers with Code)**
-
+**State-of-the-art (Makalah dengan Kode)**
 [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
@@ -55,46 +54,47 @@
 
 ---
 
-> 🚨 **Update (22 Juli 2025):** Instruksi untuk dataset kustom telah ditambahkan!
+> 🚨 **Pembaruan (22 Juli 2025):** Instruksi untuk dataset kustom telah ditambahkan!
 > 
-> 🔔 **Update (16 Juli 2025):** Kode telah diperbarui beserta instruksinya!
+> 🔔 **Pembaruan (16 Juli 2025):** Kode telah diperbarui dengan instruksi!
 
 ---
 
 ## 📋 Daftar Isi
 
-- [🎯 Sorotan](#-sorotan)
-- [📜 Abstrak](#-abstrak)
-- [🧠 Arsitektur](#-arsitektur)
-- [🛠️ Instruksi Instalasi](#️-instruksi-instalasi)
-  - [1. Clone repositori](#1-clone-repositori)
-  - [2. Buat environment conda](#2-buat-environment-conda)
-  - [3. Instal SAM2 dan DinoV2](#3-instal-sam2-dan-dinov2)
-  - [4. Unduh dataset](#4-unduh-dataset)
-  - [5. Unduh checkpoint SAM2 dan DinoV2](#5-unduh-checkpoint-sam2-dan-dinov2)
-- [📊 Kode inferensi: Reproduksi hasil SOTA 30-shot pada Few-shot COCO](#-kode-inferensi)
-  - [0. Buat set referensi](#0-buat-set-referensi)
-  - [1. Isi memori dengan referensi](#1-isi-memori-dengan-referensi)
-  - [2. Pascaproses memory bank](#2-pascaproses-memory-bank)
-  - [3. Inferensi pada gambar target](#3-inferensi-pada-gambar-target)
-  - [Hasil](#hasil)
+- [🎯 Sorotan](#-highlights)
+- [📜 Abstrak](#-abstract)
+- [🧠 Arsitektur](#-architecture)
+- [🛠️ Instruksi Instalasi](#️-installation-instructions)
+  - [1. Kloning repository](#1-clone-the-repository)
+  - [2. Buat lingkungan conda](#2-create-conda-environment)
+  - [3. Instal SAM2 dan DinoV2](#3-install-sam2-and-dinov2)
+  - [4. Unduh dataset](#4-download-datasets)
+  - [5. Unduh checkpoint SAM2 dan DinoV2](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 Kode inferensi: Reproduksi hasil SOTA 30-shot pada Few-shot COCO](#-inference-code)
+  - [0. Buat reference set](#0-create-reference-set)
+  - [1. Isi memori dengan referensi](#1-fill-memory-with-references)
+  - [2. Proses lanjutan memory bank](#2-post-process-memory-bank)
+  - [3. Inferensi pada gambar target](#3-inference-on-target-images)
+  - [Hasil](#results)
+
 - [🔍 Dataset kustom](#-dataset-kustom)
   - [0. Siapkan dataset kustom ⛵🐦](#0-siapkan-dataset-kustom)
-  - [0.1 Jika hanya tersedia anotasi bbox](#01-jika-hanya-tersedia-anotasi-bbox)
+  - [0.1 Jika hanya anotasi bbox yang tersedia](#01-jika-hanya-anotasi-bbox-yang-tersedia)
   - [0.2 Konversi anotasi coco ke file pickle](#02-konversi-anotasi-coco-ke-file-pickle)
   - [1. Isi memori dengan referensi](#1-isi-memori-dengan-referensi)
-  - [2. Pascaproses memory bank](#2-pascaproses-memory-bank)
+  - [2. Pasca-proses memory bank](#2-pasca-proses-memory-bank)
 - [📚 Sitasi](#-sitasi)
 
 
 ## 🎯 Sorotan
-- 💡 **Tanpa Pelatihan**: Tanpa fine-tuning, tanpa rekayasa prompt—hanya butuh gambar referensi.  
-- 🖼️ **Berbasis Referensi**: Segmentasikan objek baru hanya dengan beberapa contoh.  
-- 🔥 **Performa SOTA**: Mengungguli pendekatan tanpa pelatihan sebelumnya pada COCO, PASCAL VOC, dan Cross-Domain FSOD.
+- 💡 **Tanpa Pelatihan**: Tanpa fine-tuning, tanpa rekayasa prompt—cukup gambar referensi saja.  
+- 🖼️ **Berbasis Referensi**: Segmentasi objek baru hanya dengan beberapa contoh.  
+- 🔥 **Performa SOTA**: Mengungguli pendekatan tanpa pelatihan sebelumnya di COCO, PASCAL VOC, dan Cross-Domain FSOD.
 
 **Tautan:**
 - 🧾 [**Makalah arXiv**](https://arxiv.org/abs/2507.02798)  
-- 🌐 [**Website Proyek**](https://miquel-espinosa.github.io/no-time-to-train/)  
+- 🌐 [**Situs Proyek**](https://miquel-espinosa.github.io/no-time-to-train/)  
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
 ## 📜 Abstrak
@@ -222,16 +222,22 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-Jika Anda ingin melihat hasil inferensi secara online (saat sedang dihitung), hapus komentar pada baris 1746-1749 di `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` [di sini](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746).
-Sesuaikan parameter ambang skor `score_thr` sesuai kebutuhan untuk melihat lebih banyak atau lebih sedikit instance yang disegmentasi.
-Gambar sekarang akan disimpan di `results_analysis/few_shot_classes/`. Gambar di sebelah kiri menunjukkan ground truth, gambar di sebelah kanan menunjukkan instance yang disegmentasi yang ditemukan oleh metode tanpa pelatihan kami.
+Jika Anda ingin melihat hasil inferensi secara online (saat sedang dihitung), tambahkan argumen:
 
-Perhatikan bahwa pada contoh ini kita menggunakan split `few_shot_classes`, sehingga, kita hanya mengharapkan melihat instance yang disegmentasi dari kelas-kelas dalam split ini (bukan semua kelas di COCO).
+```bash
+    --model.init_args.model_cfg.test.online_vis True
+```
+Untuk menyesuaikan parameter ambang skor `score_thr`, tambahkan argumen (misalnya, memvisualisasikan semua instance dengan skor lebih tinggi dari `0.4`):
+```bash
+    --model.init_args.model_cfg.test.vis_thr 0.4
+```
+Gambar sekarang akan disimpan di `results_analysis/few_shot_classes/`. Gambar di sebelah kiri menunjukkan ground truth, gambar di sebelah kanan menunjukkan instance tersegmentasi yang ditemukan oleh metode tanpa pelatihan kami.
+
+Perhatikan bahwa dalam contoh ini kami menggunakan split `few_shot_classes`, sehingga, kita hanya akan melihat instance tersegmentasi dari kelas-kelas dalam split ini (bukan semua kelas di COCO).
 
 #### Hasil
 
 Setelah menjalankan semua gambar dalam set validasi, Anda seharusnya mendapatkan:
-
 
 ```
 BBOX RESULTS:
@@ -256,6 +262,7 @@ Bayangkan kita ingin mendeteksi **perahu**⛵ dan **burung**🐦 dalam dataset k
 
 Kami telah menyiapkan skrip sederhana untuk membuat dataset kustom dengan gambar coco, untuk skenario **1-shot**.
 ```bash
+mkdir -p data/my_custom_dataset
 python scripts/make_custom_dataset.py
 ```
 Ini akan membuat dataset khusus dengan struktur folder sebagai berikut:
@@ -426,6 +433,6 @@ Jika Anda menggunakan karya ini, mohon kutip kami:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

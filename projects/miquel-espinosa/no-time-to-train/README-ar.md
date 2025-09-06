@@ -30,31 +30,31 @@
 
 <div align="center">
 
-# 🚀 لا وقت للتدريب!
-### تقسيم الكائنات بناءً على المرجع بدون تدريب
+# 🚀 لا وقت للتدريب!  
+### التقسيم المثيل المرجعي بدون تدريب  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
 **أحدث ما توصلت إليه التقنية (Papers with Code)**
 
-[**_الأفضل في لقطة واحدة (1-shot)_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+[**_أفضل النتائج 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
-[**_الأفضل في عشر لقطات (10-shot)_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+[**_أفضل النتائج 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_الأفضل في ثلاثين لقطة (30-shot)_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+[**_أفضل النتائج 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
 
-<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+<!-- [**_أفضل النتائج 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
-[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+[**_أفضل النتائج 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->
+[**_أفضل النتائج 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->
 
 </div>
 
 ---
 
-> 🚨 **تحديث (22 يوليو 2025):** تمت إضافة تعليمات لمجموعات البيانات المخصصة!
+> 🚨 **تحديث (22 يوليو 2025):** تمت إضافة تعليمات للبيانات المخصصة!
 > 
 > 🔔 **تحديث (16 يوليو 2025):** تم تحديث الكود مع التعليمات!
 
@@ -62,34 +62,35 @@
 
 ## 📋 جدول المحتويات
 
-- [🎯 النقاط البارزة](#-highlights)
+- [🎯 أبرز النقاط](#-highlights)
 - [📜 الملخص](#-abstract)
-- [🧠 الهيكلية](#-architecture)
+- [🧠 البنية المعمارية](#-architecture)
 - [🛠️ تعليمات التثبيت](#️-installation-instructions)
   - [1. استنساخ المستودع](#1-clone-the-repository)
   - [2. إنشاء بيئة conda](#2-create-conda-environment)
   - [3. تثبيت SAM2 و DinoV2](#3-install-sam2-and-dinov2)
   - [4. تحميل مجموعات البيانات](#4-download-datasets)
   - [5. تحميل نقاط تحقق SAM2 و DinoV2](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 كود الاستدلال: إعادة إنتاج نتائج SOTA في 30 لقطة على Few-shot COCO](#-inference-code)
+- [📊 كود الاستدلال: إعادة إنتاج نتائج SOTA لـ 30-shot في Few-shot COCO](#-inference-code)
   - [0. إنشاء مجموعة مرجعية](#0-create-reference-set)
-  - [1. تعبئة الذاكرة بالمراجع](#1-fill-memory-with-references)
+  - [1. ملء الذاكرة بالمراجع](#1-fill-memory-with-references)
   - [2. معالجة بنك الذاكرة](#2-post-process-memory-bank)
-  - [3. الاستدلال على الصور الهدف](#3-inference-on-target-images)
+  - [3. الاستدلال على الصور المستهدفة](#3-inference-on-target-images)
   - [النتائج](#results)
+
 - [🔍 مجموعة بيانات مخصصة](#-custom-dataset)
-  - [0. تحضير مجموعة بيانات مخصصة ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 إذا كانت التعليقات التوضيحية للإطارات فقط متوفرة](#01-if-only-bbox-annotations-are-available)
+  - [0. إعداد مجموعة بيانات مخصصة ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 إذا كانت التعليقات المتوفرة هي مربعات الاحتواء فقط](#01-if-only-bbox-annotations-are-available)
   - [0.2 تحويل تعليقات coco إلى ملف pickle](#02-convert-coco-annotations-to-pickle-file)
-  - [1. تعبئة الذاكرة بالمراجع](#1-fill-memory-with-references)
-  - [2. معالجة بنك الذاكرة](#2-post-process-memory-bank)
-- [📚 الاقتباس](#-citation)
+  - [1. ملء الذاكرة بالمراجع](#1-fill-memory-with-references)
+  - [2. معالجة بنك الذاكرة بعدياً](#2-post-process-memory-bank)
+- [📚 الاستشهاد](#-citation)
 
 
-## 🎯 النقاط البارزة
-- 💡 **بدون تدريب**: لا حاجة لضبط دقيق ولا هندسة موجهات—فقط صورة مرجعية.
-- 🖼️ **استنادًا إلى المرجع**: قسّم الكائنات الجديدة باستخدام أمثلة قليلة فقط.
-- 🔥 **أداء متقدم (SOTA)**: يتفوق على الأساليب السابقة بدون تدريب على مجموعات COCO و PASCAL VOC و Cross-Domain FSOD.
+## 🎯 أبرز النقاط
+- 💡 **بدون تدريب**: لا حاجة لإعادة التدريب أو هندسة التعليمات—فقط صورة مرجعية.  
+- 🖼️ **معتمد على المرجع**: تقسيم كائنات جديدة باستخدام أمثلة قليلة فقط.  
+- 🔥 **أداء رائد**: يتفوق على الأساليب السابقة الخالية من التدريب على COCO وPASCAL VOC وCross-Domain FSOD.
 
 **روابط:**
 - 🧾 [**ورقة arXiv**](https://arxiv.org/abs/2507.02798)  
@@ -97,7 +98,6 @@
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
 ## 📜 الملخص
-
 
 > The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).
 
@@ -222,16 +222,22 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-إذا كنت ترغب في مشاهدة نتائج الاستدلال مباشرة عبر الإنترنت (أثناء حسابها)، قم بإلغاء تعليق الأسطر 1746-1749 في الملف `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` [هنا](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746).
-قم بضبط معلمة حد الدرجة `score_thr` حسب الحاجة لرؤية المزيد أو القليل من الكائنات المُجزأة.
-سيتم الآن حفظ الصور في المجلد `results_analysis/few_shot_classes/`. الصورة على اليسار تعرض الحقيقة الأرضية، والصورة على اليمين تعرض الكائنات المُجزأة التي تم العثور عليها بواسطة طريقتنا الخالية من التدريب.
+إذا كنت ترغب في رؤية نتائج الاستدلال عبر الإنترنت (أثناء حسابها)، أضف الوسيط:
 
-لاحظ أنه في هذا المثال نستخدم تقسيمة `few_shot_classes`، لذا يجب أن نتوقع فقط رؤية كائنات مُجزأة من الفئات الموجودة في هذه التقسيمة (وليس جميع الفئات في COCO).
+```bash
+    --model.init_args.model_cfg.test.online_vis True
+```
+لتعديل معلمة عتبة الدرجة `score_thr`، أضف الوسيط (على سبيل المثال، لعرض جميع الحالات التي تزيد درجتها عن `0.4`):
+```bash
+    --model.init_args.model_cfg.test.vis_thr 0.4
+```
+سيتم الآن حفظ الصور في `results_analysis/few_shot_classes/`. تعرض الصورة على اليسار الحقيقة الأرضية، بينما تعرض الصورة على اليمين الكائنات المجزأة التي تم العثور عليها بواسطة طريقتنا الخالية من التدريب.
+
+يرجى ملاحظة أنه في هذا المثال نستخدم تقسيم `few_shot_classes`، وبالتالي يجب أن نتوقع فقط رؤية الكائنات المجزأة للفئات الموجودة في هذا التقسيم (وليس جميع الفئات في COCO).
 
 #### النتائج
 
 بعد تشغيل جميع الصور في مجموعة التحقق، يجب أن تحصل على:
-
 
 ```
 BBOX RESULTS:
@@ -256,6 +262,7 @@ SEGM RESULTS:
 
 لقد أعددنا برنامجًا مبسطًا لإنشاء مجموعة بيانات مخصصة باستخدام صور coco، لإعداد **لقطة واحدة**.
 ```bash
+mkdir -p data/my_custom_dataset
 python scripts/make_custom_dataset.py
 ```
 سيؤدي هذا إلى إنشاء مجموعة بيانات مخصصة بالهيكلية التالية للمجلدات:
@@ -426,6 +433,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

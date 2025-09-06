@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 语言</summary>
@@ -30,14 +31,13 @@
 
 <div align="center">
 
-# 🚀 没时间训练！
-### 无需训练的基于参考的实例分割
+# 🚀 没时间训练！  
+### 无需训练的基于参考的实例分割  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
 **最新技术（Papers with Code）**
-
 [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
@@ -62,42 +62,42 @@
 
 ## 📋 目录
 
-- [🎯 亮点](#-亮点)
-- [📜 摘要](#-摘要)
-- [🧠 架构](#-架构)
-- [🛠️ 安装说明](#️-安装说明)
-  - [1. 克隆仓库](#1-克隆仓库)
-  - [2. 创建conda环境](#2-创建conda环境)
-  - [3. 安装SAM2和DinoV2](#3-安装sam2和dinov2)
-  - [4. 下载数据集](#4-下载数据集)
-  - [5. 下载SAM2和DinoV2检查点](#5-下载sam2和dinov2检查点)
-- [📊 推理代码：在Few-shot COCO上复现30-shot SOTA结果](#-推理代码)
-  - [0. 创建参考集](#0-创建参考集)
-  - [1. 用参考填充内存](#1-用参考填充内存)
-  - [2. 后处理内存库](#2-后处理内存库)
-  - [3. 目标图像推理](#3-目标图像推理)
-  - [结果](#结果)
-- [🔍 自定义数据集](#-自定义数据集)
-  - [0. 准备自定义数据集 ⛵🐦](#0-准备自定义数据集)
-  - [0.1 仅有bbox标注时](#01-仅有bbox标注时)
-  - [0.2 将coco标注转为pickle文件](#02-将coco标注转为pickle文件)
-  - [1. 用参考填充内存](#1-用参考填充内存)
-  - [2. 后处理内存库](#2-后处理内存库)
-- [📚 引用](#-引用)
+- [🎯 亮点](#-highlights)
+- [📜 摘要](#-abstract)
+- [🧠 架构](#-architecture)
+- [🛠️ 安装说明](#️-installation-instructions)
+  - [1. 克隆仓库](#1-clone-the-repository)
+  - [2. 创建conda环境](#2-create-conda-environment)
+  - [3. 安装SAM2和DinoV2](#3-install-sam2-and-dinov2)
+  - [4. 下载数据集](#4-download-datasets)
+  - [5. 下载SAM2和DinoV2权重](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 推理代码：复现COCO小样本30-shot SOTA结果](#-inference-code)
+  - [0. 创建参考集](#0-create-reference-set)
+  - [1. 用参考图像填充内存](#1-fill-memory-with-references)
+  - [2. 内存库后处理](#2-post-process-memory-bank)
+  - [3. 针对目标图像推理](#3-inference-on-target-images)
+  - [结果](#results)
+
+- [🔍 自定义数据集](#-custom-dataset)
+  - [0. 准备自定义数据集 ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 如果只有边界框标注](#01-if-only-bbox-annotations-are-available)
+  - [0.2 将 COCO 标注转换为 pickle 文件](#02-convert-coco-annotations-to-pickle-file)
+  - [1. 用参考填充内存](#1-fill-memory-with-references)
+  - [2. 内存库后处理](#2-post-process-memory-bank)
+- [📚 引用](#-citation)
 
 
 ## 🎯 亮点
-- 💡 **无需训练**：无需微调，无需提示工程——只需一张参考图片。
-- 🖼️ **基于参考**：只需少量样例即可分割新目标。
-- 🔥 **SOTA表现**：在COCO、PASCAL VOC和跨域FSOD上优于以往的无训练方法。
+- 💡 **免训练**：无需微调，无需提示工程——只需一张参考图片。  
+- 🖼️ **基于参考**：仅用少量示例即可分割新目标。  
+- 🔥 **SOTA 性能**：在 COCO、PASCAL VOC 和跨域 FSOD 上超越以往免训练方法。
 
 **链接：**
-- 🧾 [**arXiv论文**](https://arxiv.org/abs/2507.02798)
-- 🌐 [**项目网站**](https://miquel-espinosa.github.io/no-time-to-train/)
+- 🧾 [**arXiv 论文**](https://arxiv.org/abs/2507.02798)  
+- 🌐 [**项目网站**](https://miquel-espinosa.github.io/no-time-to-train/)  
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
 ## 📜 摘要
-
 
 > The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).
 
@@ -224,16 +224,22 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-如果您希望在线查看推理结果（在计算时显示），请取消注释 `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` 文件中第 1746-1749 行 [链接](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746)。
-根据需要调整分数阈值参数 `score_thr`，以查看更多或更少的分割实例。
-图片现在将被保存在 `results_analysis/few_shot_classes/` 目录中。左侧图片显示真实标签，右侧图片显示我们无训练方法找到的分割实例。
+如果您希望在线查看推理结果（即结果在计算时显示），请添加参数：
 
-请注意，在本例中我们使用的是 `few_shot_classes` 划分，因此，我们只应期望看到该划分中的类别被分割出来的实例（而不是 COCO 中的所有类别）。
+```bash
+    --model.init_args.model_cfg.test.online_vis True
+```
+要调整分数阈值 `score_thr` 参数，请添加参数（例如，显示所有分数高于 `0.4` 的实例）：
+```bash
+    --model.init_args.model_cfg.test.vis_thr 0.4
+```
+图像现在将保存在 `results_analysis/few_shot_classes/` 目录下。左侧的图像显示的是真实标签，右侧的图像展示的是我们无训练方法分割出的实例。
+
+请注意，在此示例中我们使用的是 `few_shot_classes` 划分，因此我们只应看到此划分中类别的分割实例（而不是 COCO 中的所有类别）。
 
 #### 结果
 
-在运行完验证集中的所有图片后，您应该会得到：
-
+在对验证集中的所有图像运行后，你应该获得：
 
 ```
 BBOX RESULTS:
@@ -258,6 +264,7 @@ SEGM RESULTS:
 
 我们已经准备了一个玩具脚本，利用 coco 图片创建一个**1-shot**设置的自定义数据集。
 ```bash
+mkdir -p data/my_custom_dataset
 python scripts/make_custom_dataset.py
 ```
 这将创建一个具有以下文件夹结构的自定义数据集：
@@ -428,6 +435,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

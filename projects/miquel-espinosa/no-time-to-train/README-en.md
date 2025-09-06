@@ -224,8 +224,15 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-If you'd like to see inference results online (as they are computed), uncomment lines 1746-1749 in `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` [here](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746).
-Adjust the score threshold `score_thr` parameter as needed to see more or less segmented instances.
+
+If you'd like to see inference results online (as they are computed), add the argument:
+```bash
+    --model.init_args.model_cfg.test.online_vis True
+```
+To adjust the score threshold `score_thr` parameter, add the argument (for example, visualizing all instances with score higher than `0.4`):
+```bash
+    --model.init_args.model_cfg.test.vis_thr 0.4
+```
 Images will now be saved in `results_analysis/few_shot_classes/`. The image on the left shows the ground truth, the image on the right shows the segmented instances found by our training-free method.
 
 Note that in this example we are using the `few_shot_classes` split, thus, we should only expect to see segmented instances of the classes in this split (not all classes in COCO).
@@ -233,7 +240,6 @@ Note that in this example we are using the `few_shot_classes` split, thus, we sh
 #### Results
 
 After running all images in the validation set, you should obtain:
-
 
 ```
 BBOX RESULTS:
@@ -258,6 +264,7 @@ Let's imagine we want to detect **boats**⛵ and **birds**🐦 in a custom datas
 
 We have prepared a toy script to create a custom dataset with coco images, for a **1-shot** setting.
 ```bash
+mkdir -p data/my_custom_dataset
 python scripts/make_custom_dataset.py
 ```
 This will create a custom dataset with the following folder structure:
@@ -428,6 +435,6 @@ If you use this work, please cite us:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

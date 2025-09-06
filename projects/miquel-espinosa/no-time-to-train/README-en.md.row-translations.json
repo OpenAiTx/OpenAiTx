@@ -688,5 +688,131 @@
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "q1WwQ7H3GQPxKawiFMnkb1cjQUXXvqfFmm5oXAhbyU8=",
+    "originContent": "If you'd like to see inference results online (as they are computed), add the argument:",
+    "translatedContent": "If you'd like to see inference results online (as they are computed), add the argument:"
+  },
+  {
+    "row": 118,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 119,
+    "rowsha": "c9alpTwcURWmU1gZuLnVR/OM0PfmLg3qTFht7/sBSww=",
+    "originContent": "    --model.init_args.model_cfg.test.online_vis True",
+    "translatedContent": "    --model.init_args.model_cfg.test.online_vis True"
+  },
+  {
+    "row": 120,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 121,
+    "rowsha": "qweycVV6vcVlQTeQ2dS1zGx5GmbYXYcZs6oNjQhUwNI=",
+    "originContent": "To adjust the score threshold `score_thr` parameter, add the argument (for example, visualising all instances with score higher than `0.4`):",
+    "translatedContent": "To adjust the score threshold `score_thr` parameter, add the argument (for example, visualizing all instances with score higher than `0.4`):"
+  },
+  {
+    "row": 122,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 123,
+    "rowsha": "ykQ5v3h8sYF6owua8EYSDmY5P6ieD960w6lzZW3rsaE=",
+    "originContent": "    --model.init_args.model_cfg.test.vis_thr 0.4",
+    "translatedContent": "    --model.init_args.model_cfg.test.vis_thr 0.4"
+  },
+  {
+    "row": 124,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 125,
+    "rowsha": "GEvthXpgTrUG4klt5odBBg+yPrDSUgG4O0X6qagvPPc=",
+    "originContent": "Images will now be saved in `results_analysis/few_shot_classes/`. The image on the left shows the ground truth, the image on the right shows the segmented instances found by our training-free method.",
+    "translatedContent": "Images will now be saved in `results_analysis/few_shot_classes/`. The image on the left shows the ground truth, the image on the right shows the segmented instances found by our training-free method."
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "SovnZ9uxfKqQS4l5TvalD8KlZ1z6kB/LqxYQlkfqvfg=",
+    "originContent": "Note that in this example we are using the `few_shot_classes` split, thus, we should only expect to see segmented instances of the classes in this split (not all classes in COCO).",
+    "translatedContent": "Note that in this example we are using the `few_shot_classes` split, thus, we should only expect to see segmented instances of the classes in this split (not all classes in COCO)."
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "GViaw3FgQP0CiY45/FzC3sUybwvUQorojma5tDwKi+Q=",
+    "originContent": "#### Results",
+    "translatedContent": "#### Results"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "zNb3sJjc7R1s7fDW8EZQdgmvGwmPYQrwHy8JzOlUtW0=",
+    "originContent": "After running all images in the validation set, you should obtain:",
+    "translatedContent": "After running all images in the validation set, you should obtain:"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 134,
+    "rowsha": "G4GWUMouk851VaXGy/N+6q8qNJtEWjSrhRSN8Xpt6GQ=",
+    "originContent": "mkdir -p data/my_custom_dataset",
+    "translatedContent": "mkdir -p data/my_custom_dataset"
+  },
+  {
+    "row": 135,
+    "rowsha": "8GdjT2hnHAzciaB7nwu8iA9eU/D2sXiZNmtzGv2pdLc=",
+    "originContent": "python scripts/make_custom_dataset.py",
+    "translatedContent": "python scripts/make_custom_dataset.py"
+  },
+  {
+    "row": 136,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
   }
 ]

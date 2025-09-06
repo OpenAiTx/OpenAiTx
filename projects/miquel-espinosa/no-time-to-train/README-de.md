@@ -32,13 +32,12 @@
 <div align="center">
 
 # 🚀 Keine Zeit zum Trainieren!  
-### Trainingsfreie, referenzbasierte Instanzsegmentierung  
-[![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
-[![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
+### Trainingsfreie Referenzbasierte Instanzsegmentierung  
+[![GitHub](https://img.shields.io/badge/%E2%80%8B-Keine%20Zeit%20Zum%20Trainieren-schwarz?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
+[![Website](https://img.shields.io/badge/🌐-Projektseite-grau)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
 **Stand der Technik (Papers with Code)**
-
 [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
@@ -55,9 +54,9 @@
 
 ---
 
-> 🚨 **Update (22. Juli 2025):** Anleitungen für eigene Datensätze wurden hinzugefügt!
+> 🚨 **Update (22. Juli 2025):** Anweisungen für benutzerdefinierte Datensätze wurden hinzugefügt!
 > 
-> 🔔 **Update (16. Juli 2025):** Der Code wurde mit Anleitungen aktualisiert!
+> 🔔 **Update (16. Juli 2025):** Der Code wurde mit Anweisungen aktualisiert!
 
 ---
 
@@ -71,30 +70,31 @@
   - [2. Conda-Umgebung erstellen](#2-create-conda-environment)
   - [3. SAM2 und DinoV2 installieren](#3-install-sam2-and-dinov2)
   - [4. Datensätze herunterladen](#4-download-datasets)
-  - [5. SAM2- und DinoV2-Checkpoints herunterladen](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 Inferenzcode: 30-shot SOTA-Ergebnisse auf Few-shot COCO reproduzieren](#-inference-code)
-  - [0. Referenz-Set erstellen](#0-create-reference-set)
+  - [5. SAM2 und DinoV2 Checkpoints herunterladen](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 Inferenz-Code: Reproduzieren Sie die 30-shot SOTA-Ergebnisse auf Few-shot COCO](#-inference-code)
+  - [0. Referenzsatz erstellen](#0-create-reference-set)
   - [1. Speicher mit Referenzen füllen](#1-fill-memory-with-references)
   - [2. Speicherbank nachbearbeiten](#2-post-process-memory-bank)
   - [3. Inferenz auf Zielbildern](#3-inference-on-target-images)
   - [Ergebnisse](#results)
-- [🔍 Eigenes Datenset](#-custom-dataset)
-  - [0. Eigenes Datenset vorbereiten ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 Wenn nur Bbox-Anmerkungen vorhanden sind](#01-if-only-bbox-annotations-are-available)
-  - [0.2 COCO-Anmerkungen in Pickle-Datei umwandeln](#02-convert-coco-annotations-to-pickle-file)
-  - [1. Speicher mit Referenzen füllen](#1-fill-memory-with-references)
-  - [2. Speicherbank nachbearbeiten](#2-post-process-memory-bank)
-- [📚 Zitation](#-citation)
+
+- [🔍 Benutzerdefinierter Datensatz](#-benutzerdefinierter-datensatz)
+  - [0. Benutzerdefinierten Datensatz vorbereiten ⛵🐦](#0-benutzerdefinierten-datensatz-vorbereiten)
+  - [0.1 Wenn nur Bbox-Anmerkungen verfügbar sind](#01-wenn-nur-bbox-anmerkungen-verfügbar-sind)
+  - [0.2 COCO-Anmerkungen in Pickle-Datei konvertieren](#02-coco-anmerkungen-in-pickle-datei-konvertieren)
+  - [1. Speicher mit Referenzen füllen](#1-speicher-mit-referenzen-füllen)
+  - [2. Memory-Bank nachbearbeiten](#2-memory-bank-nachbearbeiten)
+- [📚 Zitation](#-zitation)
 
 
 ## 🎯 Highlights
-- 💡 **Trainingsfrei**: Kein Fine-Tuning, kein Prompt Engineering—nur ein Referenzbild.  
-- 🖼️ **Referenzbasiert**: Segmentiert neue Objekte mit nur wenigen Beispielen.  
+- 💡 **Training-frei**: Kein Fine-Tuning, kein Prompt Engineering—nur ein Referenzbild.  
+- 🖼️ **Referenzbasiert**: Segmentiere neue Objekte mit nur wenigen Beispielen.  
 - 🔥 **SOTA-Leistung**: Übertrifft bisherige trainingsfreie Ansätze auf COCO, PASCAL VOC und Cross-Domain FSOD.
 
 **Links:**
 - 🧾 [**arXiv Paper**](https://arxiv.org/abs/2507.02798)  
-- 🌐 [**Projekt-Website**](https://miquel-espinosa.github.io/no-time-to-train/)  
+- 🌐 [**Projekt-Webseite**](https://miquel-espinosa.github.io/no-time-to-train/)  
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
 ## 📜 Zusammenfassung
@@ -222,16 +222,22 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-Wenn Sie die Inferenz-Ergebnisse online sehen möchten (während sie berechnet werden), heben Sie die Auskommentierung der Zeilen 1746-1749 in `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` [hier](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746) auf.
-Passen Sie den Schwellenwertparameter `score_thr` nach Bedarf an, um mehr oder weniger segmentierte Instanzen zu sehen.
-Bilder werden jetzt in `results_analysis/few_shot_classes/` gespeichert. Das Bild links zeigt die Ground Truth, das Bild rechts die segmentierten Instanzen, die von unserer trainingsfreien Methode gefunden wurden.
+Wenn Sie die Inferenz-Ergebnisse online sehen möchten (während sie berechnet werden), fügen Sie das Argument hinzu:
 
-Beachten Sie, dass wir in diesem Beispiel den Split `few_shot_classes` verwenden. Daher sollten wir nur segmentierte Instanzen der Klassen aus diesem Split erwarten (nicht alle Klassen in COCO).
+```bash
+    --model.init_args.model_cfg.test.online_vis True
+```
+Um den Schwellenwertparameter `score_thr` anzupassen, fügen Sie das Argument hinzu (zum Beispiel, um alle Instanzen mit einem Score höher als `0.4` zu visualisieren):
+```bash
+    --model.init_args.model_cfg.test.vis_thr 0.4
+```
+Bilder werden nun im Verzeichnis `results_analysis/few_shot_classes/` gespeichert. Das Bild links zeigt die Ground Truth, das Bild rechts zeigt die segmentierten Instanzen, die durch unsere trainingsfreie Methode gefunden wurden.
+
+Beachten Sie, dass in diesem Beispiel der `few_shot_classes`-Split verwendet wird. Daher sollten nur segmentierte Instanzen der Klassen in diesem Split erwartet werden (nicht alle Klassen in COCO).
 
 #### Ergebnisse
 
-Nachdem alle Bilder im Validierungsdatensatz verarbeitet wurden, sollten Sie Folgendes erhalten:
-
+Nach der Auswertung aller Bilder im Validierungsdatensatz sollten Sie folgendes erhalten:
 
 ```
 BBOX RESULTS:
@@ -256,6 +262,7 @@ Angenommen, wir möchten **Boote**⛵ und **Vögel**🐦 in einem benutzerdefini
 
 Wir haben ein Beispielskript vorbereitet, um mit COCO-Bildern ein benutzerdefiniertes Datenset für ein **1-Shot**-Setting zu erstellen.
 ```bash
+mkdir -p data/my_custom_dataset
 python scripts/make_custom_dataset.py
 ```
 Dadurch wird ein benutzerdefiniertes Dataset mit der folgenden Ordnerstruktur erstellt:
@@ -426,6 +433,6 @@ Wenn Sie diese Arbeit verwenden, zitieren Sie uns bitte:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

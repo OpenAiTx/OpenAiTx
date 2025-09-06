@@ -31,14 +31,13 @@
 
 <div align="center">
 
-# 🚀 Pas le temps d’entraîner !  
-### Segmentation d’instance basée sur la référence sans entraînement  
-[![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
-[![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
+# 🚀 Pas le temps de s'entraîner !  
+### Segmentation d'instance basée sur la référence, sans entraînement  
+[![GitHub](https://img.shields.io/badge/%E2%80%8B-Pas%20le%20temps%20de%20s%27entraîner-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
+[![Site Web](https://img.shields.io/badge/🌐-Page%20du%20projet-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
-**État de l’art (Papers with Code)**
-
+**État de l'art (Papers with Code)**
 [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
@@ -55,9 +54,9 @@
 
 ---
 
-> 🚨 **Mise à jour (22 juillet 2025) :** Instructions pour les jeux de données personnalisés ajoutées !
+> 🚨 **Mise à jour (22 juillet 2025):** Les instructions pour les ensembles de données personnalisés ont été ajoutées !
 > 
-> 🔔 **Mise à jour (16 juillet 2025) :** Le code a été mis à jour avec les instructions !
+> 🔔 **Mise à jour (16 juillet 2025):** Le code a été mis à jour avec les instructions !
 
 ---
 
@@ -66,31 +65,32 @@
 - [🎯 Points forts](#-highlights)
 - [📜 Résumé](#-abstract)
 - [🧠 Architecture](#-architecture)
-- [🛠️ Instructions d’installation](#️-installation-instructions)
+- [🛠️ Instructions d'installation](#️-installation-instructions)
   - [1. Cloner le dépôt](#1-clone-the-repository)
-  - [2. Créer l’environnement conda](#2-create-conda-environment)
+  - [2. Créer l'environnement conda](#2-create-conda-environment)
   - [3. Installer SAM2 et DinoV2](#3-install-sam2-and-dinov2)
-  - [4. Télécharger les jeux de données](#4-download-datasets)
+  - [4. Télécharger les ensembles de données](#4-download-datasets)
   - [5. Télécharger les checkpoints SAM2 et DinoV2](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 Code d’inférence : Reproduire les résultats SOTA 30-shot sur Few-shot COCO](#-inference-code)
+- [📊 Code d'inférence : Reproduire les résultats SOTA 30-shot sur Few-shot COCO](#-inference-code)
   - [0. Créer un ensemble de références](#0-create-reference-set)
-  - [1. Remplir la mémoire avec des références](#1-fill-memory-with-references)
+  - [1. Remplir la mémoire avec les références](#1-fill-memory-with-references)
   - [2. Post-traiter la banque de mémoire](#2-post-process-memory-bank)
   - [3. Inférence sur les images cibles](#3-inference-on-target-images)
   - [Résultats](#results)
-- [🔍 Jeu de données personnalisé](#-custom-dataset)
-  - [0. Préparer un jeu de données personnalisé ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 Si seules des annotations bbox sont disponibles](#01-if-only-bbox-annotations-are-available)
-  - [0.2 Convertir les annotations coco en fichier pickle](#02-convert-coco-annotations-to-pickle-file)
-  - [1. Remplir la mémoire avec des références](#1-fill-memory-with-references)
-  - [2. Post-traiter la banque de mémoire](#2-post-process-memory-bank)
+
+- [🔍 Jeu de données personnalisé](#-jeu-de-données-personnalisé)
+  - [0. Préparer un jeu de données personnalisé ⛵🐦](#0-préparer-un-jeu-de-données-personnalisé)
+  - [0.1 Si seules des annotations bbox sont disponibles](#01-si-seules-des-annotations-bbox-sont-disponibles)
+  - [0.2 Convertir les annotations COCO en fichier pickle](#02-convertir-les-annotations-coco-en-fichier-pickle)
+  - [1. Remplir la mémoire avec des références](#1-remplir-la-mémoire-avec-des-références)
+  - [2. Post-traiter la banque de mémoire](#2-post-traiter-la-banque-de-mémoire)
 - [📚 Citation](#-citation)
 
 
 ## 🎯 Points forts
-- 💡 **Sans entraînement** : Aucun fine-tuning, aucune ingénierie de prompt — juste une image de référence.  
-- 🖼️ **Basé sur la référence** : Segmentez de nouveaux objets avec seulement quelques exemples.  
-- 🔥 **Performance SOTA** : Surpasse les approches sans entraînement précédentes sur COCO, PASCAL VOC et Cross-Domain FSOD.
+- 💡 **Sans entraînement** : Pas de fine-tuning, pas d’ingénierie de prompt—juste une image de référence.  
+- 🖼️ **Basé sur la référence** : Segmenter de nouveaux objets avec seulement quelques exemples.  
+- 🔥 **Performance SOTA** : Surpasse les approches précédentes sans entraînement sur COCO, PASCAL VOC et Cross-Domain FSOD.
 
 **Liens :**
 - 🧾 [**Article arXiv**](https://arxiv.org/abs/2507.02798)  
@@ -222,16 +222,22 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-Si vous souhaitez voir les résultats d'inférence en ligne (au fur et à mesure qu'ils sont calculés), décommentez les lignes 1746-1749 dans `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` [ici](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746).
-Ajustez le paramètre du seuil de score `score_thr` selon vos besoins pour voir plus ou moins d'instances segmentées.
-Les images seront désormais enregistrées dans `results_analysis/few_shot_classes/`. L'image de gauche montre la vérité terrain, celle de droite montre les instances segmentées trouvées par notre méthode sans entraînement.
+Si vous souhaitez voir les résultats d'inférence en ligne (au fur et à mesure qu'ils sont calculés), ajoutez l'argument :
 
-Notez que dans cet exemple, nous utilisons la division `few_shot_classes`, nous ne devons donc nous attendre qu'à voir des instances segmentées des classes de cette division (et non pas toutes les classes de COCO).
+```bash
+    --model.init_args.model_cfg.test.online_vis True
+```
+Pour ajuster le paramètre de seuil de score `score_thr`, ajoutez l'argument (par exemple, pour visualiser toutes les instances avec un score supérieur à `0.4`) :
+```bash
+    --model.init_args.model_cfg.test.vis_thr 0.4
+```
+Les images seront maintenant enregistrées dans `results_analysis/few_shot_classes/`. L’image de gauche montre la vérité terrain, l’image de droite montre les instances segmentées trouvées par notre méthode sans apprentissage.
+
+Notez que dans cet exemple nous utilisons la division `few_shot_classes`, donc, nous devons seulement nous attendre à voir des instances segmentées des classes de cette division (et non toutes les classes de COCO).
 
 #### Résultats
 
-Après avoir traité toutes les images du jeu de validation, vous devriez obtenir :
-
+Après avoir traité toutes les images de l’ensemble de validation, vous devriez obtenir :
 
 ```
 BBOX RESULTS:
@@ -256,6 +262,7 @@ Imaginons que nous voulons détecter des **bateaux**⛵ et des **oiseaux**🐦 d
 
 Nous avons préparé un script d'exemple pour créer un jeu de données personnalisé avec des images coco, pour un scénario **1-shot**.
 ```bash
+mkdir -p data/my_custom_dataset
 python scripts/make_custom_dataset.py
 ```
 Cela créera un jeu de données personnalisé avec la structure de dossiers suivante :
@@ -426,6 +433,6 @@ Si vous utilisez ce travail, veuillez nous citer :
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

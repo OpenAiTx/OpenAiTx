@@ -1,29 +1,28 @@
-
 <div align="right">
   <details>
     <summary >🌐 ভাষা</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id">Bahasa Indonesia</a>
+        <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en">ইংৰাজী</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-CN">সহজ চীন</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-TW">পৰম্পৰাগত চীন</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ja">জাপানী</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ko">কোৰিয়ান</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi">হিন্দী</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th">থাই</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr">ফৰাছী</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de">জাৰ্মান</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es">স্পেনিছ</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it">ইটালিয়ান</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru">ৰাছিয়ান</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt">পৰ্তুগীজ</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl">ডাচ</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl">পোলিচ</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ar">আৰবী</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fa">ফাৰ্ছী</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr">তুৰ্কী</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi">ভিয়েটনামী</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id">ইণ্ডোনেছিয়ান</a>
       </div>
     </div>
   </details>
@@ -32,12 +31,12 @@
 <div align="center">
 
 # 🚀 প্ৰশিক্ষণৰ সময় নাই!  
-### প্ৰশিক্ষণ-বিহীন References-ভিত্তিক ইনষ্টেন্স ছেগমেণ্টেশ্বন  
+### প্ৰশিক্ষণ-মুক্ত ৰেফাৰেঞ্চ-ভিত্তিক ইনষ্টেন্স ছেগমেণ্টেচন  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
-**State-of-the-art (Papers with Code)**
+**অত্যাধুনিক (Papers with Code)**
 
 [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
@@ -55,49 +54,50 @@
 
 ---
 
-> 🚨 **আপডেট (২২ জুলাই ২০২৫):** কাষ্টম ডেটাছেটৰ নিৰ্দেশনা যোগ কৰা হৈছে!
+> 🚨 **আপডেট (২২ জুলাই ২০২৫):** কাষ্টম ডেটাসেটৰ নিৰ্দেশনা যোগ কৰা হৈছে!
 > 
-> 🔔 **আপডেট (১৬ জুলাই ২০২৫):** ক'ড আপডেট আৰু নিৰ্দেশনাসমূহ সংযোজন কৰা হৈছে!
+> 🔔 **আপডেট (১৬ জুলাই ২০২৫):** কোডটো নিৰ্দেশনাসহ আপডেট কৰা হৈছে!
 
 ---
 
-## 📋 সামগ্ৰিক সূচী
+## 📋 সূচীপত্ৰ
 
-- [🎯 মুখ্য বৈশিষ্ট্য](#-highlights)
-- [📜 চুটিকথা](#-abstract)
+- [🎯 মূল বৈশিষ্ট্য](#-highlights)
+- [📜 সংক্ষেপ](#-abstract)
 - [🧠 স্থাপত্য](#-architecture)
-- [🛠️ স্থাপন নিৰ্দেশনা](#️-installation-instructions)
-  - [1. ৰেপ' ক্লোন কৰক](#1-clone-the-repository)
-  - [2. ক'ন্ডা পৰিবেশ সৃষ্টি কৰক](#2-create-conda-environment)
+- [🛠️ ইনষ্টলেশ্যন নিৰ্দেশনা](#️-installation-instructions)
+  - [1. ৰিপ'জিট'ৰী ক্লোন কৰক](#1-clone-the-repository)
+  - [2. কণ্ডা পৰিৱেশ সৃষ্টি কৰক](#2-create-conda-environment)
   - [3. SAM2 আৰু DinoV2 ইনষ্টল কৰক](#3-install-sam2-and-dinov2)
-  - [4. ডেটাছেট ডাউনলোড কৰক](#4-download-datasets)
+  - [4. ডেটাসেটসমূহ ডাউনলোড কৰক](#4-download-datasets)
   - [5. SAM2 আৰু DinoV2 চেকপইণ্ট ডাউনলোড কৰক](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 ইনফাৰেঞ্চ ক'ড: Few-shot COCO-ত ৩০-shot SOTA ফলাফল পুনৰুৎপাদন কৰক](#-inference-code)
-  - [0. Reference set সৃষ্টি কৰক](#0-create-reference-set)
-  - [1. Reference-ৰে মেম'ৰী পূৰণ কৰক](#1-fill-memory-with-references)
-  - [2. মেম'ৰী বেংক পোস্ট-প্ৰসেছ কৰক](#2-post-process-memory-bank)
-  - [3. লক্ষ্য ইমেজত ইনফাৰেঞ্চ কৰক](#3-inference-on-target-images)
+- [📊 ইনফাৰেন্স কোড: Few-shot COCO-ত ৩০-shot SOTA ফলাফল পুনৰুৎপাদন কৰক](#-inference-code)
+  - [0. ৰেফাৰেন্স ছেট সৃষ্টি কৰক](#0-create-reference-set)
+  - [1. ৰেফাৰেন্সেৰে মেম'ৰি পূৰ্ণ কৰক](#1-fill-memory-with-references)
+  - [2. মেম'ৰি বেংক প'ষ্ট-প্ৰচেছ কৰক](#2-post-process-memory-bank)
+  - [3. লক্ষ্য চিত্ৰসমূহত ইনফাৰেন্স কৰক](#3-inference-on-target-images)
   - [ফলাফল](#results)
-- [🔍 কাষ্টম ডেটাছেট](#-custom-dataset)
-  - [0. কাষ্টম ডেটাছেট প্ৰস্তুত কৰক ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 কেৱল bbox এনোটেশ্যন থাকিলে](#01-if-only-bbox-annotations-are-available)
-  - [0.2 COCO এনোটেশ্যন pickle ফাইললৈ ৰূপান্তৰ কৰক](#02-convert-coco-annotations-to-pickle-file)
-  - [1. Reference-ৰে মেম'ৰী পূৰণ কৰক](#1-fill-memory-with-references)
-  - [2. মেম'ৰী বেংক পোস্ট-প্ৰসেছ কৰক](#2-post-process-memory-bank)
+
+- [🔍 কাষ্টম ডেটাসেট](#-custom-dataset)
+  - [0. কাষ্টম ডেটাসেট প্ৰস্তুত কৰক ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 কেৱল bbox এনোটেশ্বন উপলব্ধ থাকিলে](#01-if-only-bbox-annotations-are-available)
+  - [0.2 coco এনোটেশ্বন pickle ফাইললৈ ৰূপান্তৰ কৰক](#02-convert-coco-annotations-to-pickle-file)
+  - [1. মেম'ৰীত references ভৰ্তি কৰক](#1-fill-memory-with-references)
+  - [2. মেম'ৰি বেংক post-process কৰক](#2-post-process-memory-bank)
 - [📚 উদ্ধৃতি](#-citation)
 
 
-## 🎯 মুখ্য বৈশিষ্ট্য
-- 💡 **প্ৰশিক্ষণ-বিহীন**: কোনো ফাইন-টিউনিং নাই, কোনো প্ৰম্পট ইঞ্জিনিয়াৰিং নাই—কেৱল এটা reference ইমেজ।  
-- 🖼️ **Reference-ভিত্তিক**: কেৱল কেইটামান উদাহৰণ ব্যৱহাৰ কৰি নতুন অবজেক্ট চেগমেণ্ট কৰক।  
-- 🔥 **SOTA কাৰ্যক্ষমতা**: COCO, PASCAL VOC, আৰু Cross-Domain FSOD-ত আগৰ প্ৰশিক্ষণ-বিহীন পদ্ধতি সমূহক অতিক্ৰম কৰে।
+## 🎯 মূল বিষয়বস্তু
+- 💡 **প্ৰশিক্ষণ-ৰহিত**: পুনঃ-প্ৰশিক্ষণ নাই, prompt engineering নাই—কেৱল এটা reference image।  
+- 🖼️ **Reference-Based**: কেইটামান উদাহৰণ ব্যৱহাৰ কৰি নতুন বস্তু চেগমেণ্ট কৰক।  
+- 🔥 **SOTA Performance**: Training-free পদ্ধতি সমূহতকৈ COCO, PASCAL VOC, আৰু Cross-Domain FSOD-ত উৎকৃষ্ট ফলাফল।
 
 **লিংকসমূহ:**
-- 🧾 [**arXiv কাগজ**](https://arxiv.org/abs/2507.02798)  
-- 🌐 [**প্ৰকল্প ৱেবছাইট**](https://miquel-espinosa.github.io/no-time-to-train/)  
+- 🧾 [**arXiv পেপাৰ**](https://arxiv.org/abs/2507.02798)  
+- 🌐 [**Project Website**](https://miquel-espinosa.github.io/no-time-to-train/)  
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
-## 📜 চুটিকথা
+## 📜 প্ৰবন্ধৰ সংক্ষিপ্তসাৰ
 
 > The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).
 
@@ -222,16 +222,22 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-যদি আপুনি অনলাইনতে অনুমান ফলাফলসমূহ (গণনা হোৱাৰ লগে লগে) চাব বিচাৰে, তেন্তে `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` ফাইলত ১৭৪৬-১৭৪৯ নম্বৰ শাৰীসমূহ uncomment কৰক [ইয়াত](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746)।
-অধিক বা কম ছেগমেণ্ট কৰা ইনষ্টেন্স চাবলৈ score threshold `score_thr` পৰামিতি যথোপযুক্তভাৱে সমন্বয় কৰক।
-ছবিসমূহ এতিয়া `results_analysis/few_shot_classes/` ত সংৰক্ষণ হ'ব। বাওঁফালে থকা ছবিখনে ground truth দেখুৱায়, সোঁফালে থকা ছবিখনে আমাৰ training-free পদ্ধতিয়ে বিচাৰি উলিওৱা segmented instances দেখুৱায়।
+যদি আপুনি অনলাইনত অনুমান ফলাফলসমূহ (তেওঁলোক গণনা হোৱা সময়ত) চাব বিচাৰে, তেন্তে যুক্তি যোগ কৰক:
 
-দ্ৰষ্টব্য যে, এই উদাহৰণত আমি `few_shot_classes` split ব্যৱহাৰ কৰি আছোঁ, সেইবাবে কেৱল এই split-ৰ ক্লাছসমূহৰ segmented instances দেখি পাব লাগে (COCO-ৰ সকলো ক্লাছ নহয়)।
+```bash
+    --model.init_args.model_cfg.test.online_vis True
+```
+স্ক'ৰ থ্ৰেশহ'ল্ড `score_thr` পৰামিতি সমন্বয় কৰিবলৈ, যুক্তি যোগ কৰক (উদাহৰণস্বৰূপে, সকলো ইনষ্টেন্সৰ ভিজুৱেলাইজেশ্যন যাৰ স্ক'ৰ `0.4`তকৈ বেছি):
+```bash
+    --model.init_args.model_cfg.test.vis_thr 0.4
+```
+এতিয়া ছবিসমূহ `results_analysis/few_shot_classes/`-ত সংৰক্ষণ কৰা হ'ব। বাওঁফালে থকা ছবিখনে গ্ৰাউণ্ড ট্ৰুথ দেখুৱায়, সোঁফালে থকা ছবিখনে আমাৰ প্ৰশিক্ষণ-মুক্ত পদ্ধতিয়ে বিচ্ছিন্ন কৰা ইনষ্টেন্সসমূহ দেখুৱায়।
 
-#### ফলাফল
+মনত ৰাখিব যে, এই উদাহৰণত আমি `few_shot_classes` বিভাজন ব্যৱহাৰ কৰি আছোঁ, সেইবাবে, আমি কেৱল এই বিভাজনৰ শ্ৰেণীসমূহৰ বিচ্ছিন্ন ইনষ্টেন্সসমূহহে আশা কৰিব লাগিব (COCO-ৰ সকলো শ্ৰেণী নহয়)।
 
-validation set-ৰ সকলো ছবি চলোৱাৰ পাছত, আপুনি পোৱা উচিত:
+#### ফলাফলসমূহ
 
+ভেলিডেশ্যন ছেটৰ সকলো ছবি চলোৱাৰ পাছত, আপোনাৰ লাভ হ'ব:
 
 ```
 BBOX RESULTS:
@@ -256,6 +262,7 @@ SEGM RESULTS:
 
 আমি coco images ব্যৱহাৰ কৰি কাষ্টম ডেটাচেট তৈয়াৰ কৰিবলৈ এটা সাধাৰণ স্ক্ৰিপ্ট প্ৰস্তুত কৰিছো, **1-shot** ছেটিংৰ বাবে।
 ```bash
+mkdir -p data/my_custom_dataset
 python scripts/make_custom_dataset.py
 ```
 এইটো তলত দিয়া ফোল্ডাৰ গঠনটোসহ এটা কাষ্টম ডেটাচেট সৃষ্টি কৰিব:
@@ -426,6 +433,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

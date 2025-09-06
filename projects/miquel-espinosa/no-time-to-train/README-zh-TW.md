@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 語言</summary>
@@ -30,14 +31,13 @@
 
 <div align="center">
 
-# 🚀 沒有時間訓練！
-### 無需訓練的參考式實例分割
+# 🚀 沒有時間訓練！  
+### 無需訓練的參考式實例分割  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
 **最先進技術（Papers with Code）**
-
 [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
@@ -54,15 +54,15 @@
 
 ---
 
-> 🚨 **更新（2025年7月22日）：** 已新增自定義資料集的使用說明！
+> 🚨 **更新（2025年7月22日）：** 已新增自訂資料集的操作說明！
 > 
-> 🔔 **更新（2025年7月16日）：** 程式碼已更新並附上說明！
+> 🔔 **更新（2025年7月16日）：** 程式碼已更新並附上操作指引！
 
 ---
 
 ## 📋 目錄
 
-- [🎯 亮點](#-highlights)
+- [🎯 重點](#-highlights)
 - [📜 摘要](#-abstract)
 - [🧠 架構](#-architecture)
 - [🛠️ 安裝說明](#️-installation-instructions)
@@ -70,26 +70,27 @@
   - [2. 建立 conda 環境](#2-create-conda-environment)
   - [3. 安裝 SAM2 與 DinoV2](#3-install-sam2-and-dinov2)
   - [4. 下載資料集](#4-download-datasets)
-  - [5. 下載 SAM2 與 DinoV2 權重檔](#5-download-sam2-and-dinov2-checkpoints)
+  - [5. 下載 SAM2 與 DinoV2 檢查點](#5-download-sam2-and-dinov2-checkpoints)
 - [📊 推論程式：重現 Few-shot COCO 30-shot SOTA 結果](#-inference-code)
   - [0. 建立參考集](#0-create-reference-set)
   - [1. 以參考資料填充記憶體](#1-fill-memory-with-references)
   - [2. 後處理記憶體庫](#2-post-process-memory-bank)
-  - [3. 目標影像推論](#3-inference-on-target-images)
+  - [3. 在目標影像上進行推論](#3-inference-on-target-images)
   - [結果](#results)
-- [🔍 自定義資料集](#-custom-dataset)
-  - [0. 準備自定義資料集 ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 僅有 bbox 標註時](#01-if-only-bbox-annotations-are-available)
-  - [0.2 將 coco 標註轉為 pickle 檔案](#02-convert-coco-annotations-to-pickle-file)
+
+- [🔍 自訂資料集](#-custom-dataset)
+  - [0. 準備自訂資料集 ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 僅有邊界框註釋時](#01-if-only-bbox-annotations-are-available)
+  - [0.2 將 COCO 註釋轉換為 pickle 檔案](#02-convert-coco-annotations-to-pickle-file)
   - [1. 以參考資料填充記憶體](#1-fill-memory-with-references)
-  - [2. 後處理記憶體庫](#2-post-process-memory-bank)
-- [📚 參考文獻](#-citation)
+  - [2. 記憶庫後處理](#2-post-process-memory-bank)
+- [📚 引用](#-citation)
 
 
 ## 🎯 亮點
-- 💡 **無需訓練**：無需微調，無需提示工程—只需一張參考圖片。
-- 🖼️ **參考式方法**：僅用幾個範例即可分割新對象。
-- 🔥 **最先進表現**：於 COCO、PASCAL VOC 及跨領域 FSOD 上超越既有無訓練方法。
+- 💡 **免訓練**：無需微調、無需提示工程—只需一張參考影像。  
+- 🖼️ **參考式**：僅用少量範例即可分割新物件。  
+- 🔥 **SOTA 效能**：在 COCO、PASCAL VOC 及跨領域 FSOD 上超越既有免訓練方法。
 
 **連結：**
 - 🧾 [**arXiv 論文**](https://arxiv.org/abs/2507.02798)  
@@ -97,7 +98,6 @@
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
 ## 📜 摘要
-
 
 > The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).
 
@@ -222,16 +222,22 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-如果您希望即時查看推論結果（在計算時），請取消註解 `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` 中第 1746-1749 行 [這裡](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746)。
-根據需要調整分數門檻參數 `score_thr`，以顯示更多或更少的分割實例。
-影像將會儲存在 `results_analysis/few_shot_classes/`。左側的影像顯示真實標註，右側的影像顯示我們無需訓練方法所找到的分割實例。
+如果您希望在線查看推論結果（在計算時即時顯示），請添加以下參數：
 
-請注意，在本範例中我們使用的是 `few_shot_classes` 分割，因此，我們僅應期望看到屬於此分割中的類別的分割實例（而非 COCO 的所有類別）。
+```bash
+    --model.init_args.model_cfg.test.online_vis True
+```
+要調整分數閾值 `score_thr` 參數，請添加該參數（例如，僅顯示分數高於 `0.4` 的所有實例）：
+```bash
+    --model.init_args.model_cfg.test.vis_thr 0.4
+```
+圖像現在將被儲存在 `results_analysis/few_shot_classes/`。左側的圖像顯示了真實標註，右側的圖像則顯示了我們無需訓練方法找到的分割實例。
+
+請注意，在這個例子中我們使用的是 `few_shot_classes` 分割，因此，我們應該只會看到這個分割中的類別分割實例（而不是 COCO 中的所有類別）。
 
 #### 結果
 
-在對驗證集中的所有影像執行後，您應該會得到：
-
+在運行完驗證集中的所有圖像後，你應該會得到：
 
 ```
 BBOX RESULTS:
@@ -256,6 +262,7 @@ SEGM RESULTS:
 
 我們已準備了一個簡易腳本，能夠以 coco 圖片創建自訂資料集，適用於**1-shot**設置。
 ```bash
+mkdir -p data/my_custom_dataset
 python scripts/make_custom_dataset.py
 ```
 這將會建立一個具有以下資料夾結構的自訂資料集：
@@ -426,6 +433,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

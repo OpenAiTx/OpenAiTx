@@ -31,14 +31,13 @@
 
 <div align="center">
 
-# 🚀 학습할 시간이 없다!  
-### 학습 없이 참조 기반 인스턴스 분할  
+# 🚀 훈련할 시간이 없다!  
+### 훈련 없이 참조 기반 인스턴스 분할  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
-**최첨단 성능 (Papers with Code)**
-
+**최신 연구 (Papers with Code)**
 [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
@@ -55,42 +54,43 @@
 
 ---
 
-> 🚨 **업데이트 (2025년 7월 22일):** 커스텀 데이터셋에 대한 안내가 추가되었습니다!
+> 🚨 **업데이트 (2025년 7월 22일):** 사용자 지정 데이터셋에 대한 지침이 추가되었습니다!
 > 
-> 🔔 **업데이트 (2025년 7월 16일):** 코드와 사용법이 업데이트되었습니다!
+> 🔔 **업데이트 (2025년 7월 16일):** 코드가 설명과 함께 업데이트되었습니다!
 
 ---
 
 ## 📋 목차
 
-- [🎯 하이라이트](#-하이라이트)
-- [📜 초록](#-초록)
-- [🧠 아키텍처](#-아키텍처)
-- [🛠️ 설치 방법](#️-설치-방법)
-  - [1. 저장소 복제](#1-저장소-복제)
-  - [2. conda 환경 생성](#2-conda-환경-생성)
-  - [3. SAM2 및 DinoV2 설치](#3-sam2-및-dinov2-설치)
-  - [4. 데이터셋 다운로드](#4-데이터셋-다운로드)
-  - [5. SAM2 및 DinoV2 체크포인트 다운로드](#5-sam2-및-dinov2-체크포인트-다운로드)
-- [📊 추론 코드: Few-shot COCO에서 30-shot SOTA 결과 재현](#-추론-코드)
-  - [0. 참조 세트 생성](#0-참조-세트-생성)
-  - [1. 참조로 메모리 채우기](#1-참조로-메모리-채우기)
-  - [2. 메모리 뱅크 후처리](#2-메모리-뱅크-후처리)
-  - [3. 대상 이미지에서 추론](#3-대상-이미지에서-추론)
-  - [결과](#결과)
-- [🔍 커스텀 데이터셋](#-커스텀-데이터셋)
-  - [0. 커스텀 데이터셋 준비 ⛵🐦](#0-커스텀-데이터셋-준비)
-  - [0.1 바운딩 박스 주석만 있을 때](#01-바운딩-박스-주석만-있을-때)
-  - [0.2 coco 주석을 pickle 파일로 변환](#02-coco-주석을-pickle-파일로-변환)
-  - [1. 참조로 메모리 채우기](#1-참조로-메모리-채우기)
-  - [2. 메모리 뱅크 후처리](#2-메모리-뱅크-후처리)
-- [📚 인용](#-인용)
+- [🎯 하이라이트](#-highlights)
+- [📜 초록](#-abstract)
+- [🧠 아키텍처](#-architecture)
+- [🛠️ 설치 방법](#️-installation-instructions)
+  - [1. 저장소 클론](#1-clone-the-repository)
+  - [2. conda 환경 생성](#2-create-conda-environment)
+  - [3. SAM2 및 DinoV2 설치](#3-install-sam2-and-dinov2)
+  - [4. 데이터셋 다운로드](#4-download-datasets)
+  - [5. SAM2 및 DinoV2 체크포인트 다운로드](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 추론 코드: Few-shot COCO에서 30-shot SOTA 결과 재현](#-inference-code)
+  - [0. 참조 세트 생성](#0-create-reference-set)
+  - [1. 참조로 메모리 채우기](#1-fill-memory-with-references)
+  - [2. 메모리 뱅크 후처리](#2-post-process-memory-bank)
+  - [3. 대상 이미지에서 추론](#3-inference-on-target-images)
+  - [결과](#results)
+
+- [🔍 커스텀 데이터셋](#-custom-dataset)
+  - [0. 커스텀 데이터셋 준비 ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 바운딩 박스 어노테이션만 있을 경우](#01-if-only-bbox-annotations-are-available)
+  - [0.2 coco 어노테이션을 pickle 파일로 변환](#02-convert-coco-annotations-to-pickle-file)
+  - [1. 참조로 메모리 채우기](#1-fill-memory-with-references)
+  - [2. 메모리 뱅크 후처리](#2-post-process-memory-bank)
+- [📚 인용](#-citation)
 
 
 ## 🎯 하이라이트
-- 💡 **학습 불필요**: 파인튜닝, 프롬프트 엔지니어링 없이 참조 이미지만 있으면 됩니다.  
-- 🖼️ **참조 기반**: 몇 개의 예시만으로 새로운 객체를 분할합니다.  
-- 🔥 **최첨단 성능**: 기존 학습 불필요 방식 대비 COCO, PASCAL VOC, Cross-Domain FSOD에서 우수한 성능.
+- 💡 **학습 불필요**: 파인튜닝도, 프롬프트 엔지니어링도 없음—참조 이미지만 사용합니다.  
+- 🖼️ **참조 기반**: 소수의 예시만으로 새로운 객체를 분할합니다.  
+- 🔥 **최첨단 성능**: COCO, PASCAL VOC, Cross-Domain FSOD에서 기존 학습 불필요 방법보다 뛰어난 성능을 보입니다.
 
 **링크:**
 - 🧾 [**arXiv 논문**](https://arxiv.org/abs/2507.02798)  
@@ -224,16 +224,22 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-온라인에서 추론 결과를 바로 보고 싶다면, `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`의 1746-1749번째 줄의 주석을 해제하세요 [여기](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746)에서 확인할 수 있습니다.
-분할 인스턴스를 더 많이 혹은 적게 보고 싶다면, `score_thr` 파라미터의 점수 임계값을 필요에 따라 조정하세요.
-이미지는 이제 `results_analysis/few_shot_classes/`에 저장됩니다. 왼쪽 이미지는 정답(ground truth)을, 오른쪽 이미지는 훈련 없이 분할된 인스턴스를 보여줍니다.
+온라인에서 추론 결과를 실시간으로 확인하고 싶다면 다음 인자를 추가하세요:
 
-이 예제에서는 `few_shot_classes` 분할을 사용하므로, 이 분할에 포함된 클래스의 분할 인스턴스만 볼 수 있습니다 (COCO의 모든 클래스가 아님에 주의하세요).
+```bash
+    --model.init_args.model_cfg.test.online_vis True
+```
+`score_thr` 매개변수의 점수 임계값을 조정하려면 인자를 추가하세요 (예를 들어, 점수가 `0.4`보다 높은 모든 인스턴스를 시각화하려면):
+```bash
+    --model.init_args.model_cfg.test.vis_thr 0.4
+```
+이미지는 이제 `results_analysis/few_shot_classes/`에 저장됩니다. 왼쪽 이미지는 실제 정답(ground truth)을, 오른쪽 이미지는 학습 없이 우리 방법으로 찾아낸 분할 인스턴스를 보여줍니다.
+
+이 예제에서는 `few_shot_classes` 분할을 사용하므로, 해당 분할에 포함된 클래스의 분할된 인스턴스만 볼 수 있습니다(COCO의 모든 클래스가 아님).
 
 #### 결과
 
-검증 세트의 모든 이미지를 실행한 후, 다음과 같은 결과를 얻을 수 있습니다:
-
+검증 세트의 모든 이미지를 실행한 후, 다음과 같은 결과를 얻게 됩니다:
 
 ```
 BBOX RESULTS:
@@ -258,6 +264,7 @@ SEGM RESULTS:
 
 우리는 coco 이미지를 사용하여 **1-shot** 설정에 맞는 커스텀 데이터셋을 만드는 토이 스크립트를 준비했습니다.
 ```bash
+mkdir -p data/my_custom_dataset
 python scripts/make_custom_dataset.py
 ```
 이렇게 하면 다음과 같은 폴더 구조를 가진 사용자 지정 데이터셋이 생성됩니다:
@@ -428,6 +435,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

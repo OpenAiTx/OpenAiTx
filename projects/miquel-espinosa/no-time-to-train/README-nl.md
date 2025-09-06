@@ -4,25 +4,25 @@
     <summary >🌐 Taal</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en">English</a>
+        <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en">Engels</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ko">한국어</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi">हिन्दी</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr">Frans</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de">Duits</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es">Spaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it">Italiaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru">Russisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt">Portugees</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl">Pools</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ar">العربية</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr">Turks</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi">Vietnamees</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id">Bahasa Indonesia</a>
       </div>
     </div>
@@ -32,13 +32,12 @@
 <div align="center">
 
 # 🚀 Geen Tijd om te Trainen!  
-### Trainingsvrije Referentie-gebaseerde Instance Segmentatie  
+### Training-vrije Referentie-gebaseerde Instance Segmentatie  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
 **State-of-the-art (Papers with Code)**
-
 [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
@@ -55,7 +54,7 @@
 
 ---
 
-> 🚨 **Update (22 juli 2025):** Instructies voor eigen datasets zijn toegevoegd!
+> 🚨 **Update (22 juli 2025):** Instructies voor aangepaste datasets zijn toegevoegd!
 > 
 > 🔔 **Update (16 juli 2025):** Code is bijgewerkt met instructies!
 
@@ -66,31 +65,32 @@
 - [🎯 Hoogtepunten](#-hoogtepunten)
 - [📜 Samenvatting](#-samenvatting)
 - [🧠 Architectuur](#-architectuur)
-- [🛠️ Installatie instructies](#️-installatie-instructies)
-  - [1. Clone de repository](#1-clone-de-repository)
-  - [2. Maak conda-omgeving aan](#2-maak-conda-omgeving-aan)
+- [🛠️ Installatie-instructies](#️-installatie-instructies)
+  - [1. Repository klonen](#1-repository-klonen)
+  - [2. Conda-omgeving aanmaken](#2-conda-omgeving-aanmaken)
   - [3. Installeer SAM2 en DinoV2](#3-installeer-sam2-en-dinov2)
   - [4. Download datasets](#4-download-datasets)
   - [5. Download SAM2 en DinoV2 checkpoints](#5-download-sam2-en-dinov2-checkpoints)
-- [📊 Inferentiecode: Reproduceer 30-shot SOTA resultaten in Few-shot COCO](#-inferentiecode)
-  - [0. Maak referentieset aan](#0-maak-referentieset-aan)
-  - [1. Vul geheugen met referenties](#1-vul-geheugen-met-referenties)
-  - [2. Post-processing van geheugenbank](#2-post-processing-van-geheugenbank)
-  - [3. Inferentie op doelafbeeldingen](#3-inferentie-op-doelafbeeldingen)
+- [📊 Inference code: Reproduceer 30-shot SOTA resultaten in Few-shot COCO](#-inference-code)
+  - [0. Referentieset aanmaken](#0-referentieset-aanmaken)
+  - [1. Vul het geheugen met referenties](#1-vul-het-geheugen-met-referenties)
+  - [2. Post-processing van memory bank](#2-post-processing-van-memory-bank)
+  - [3. Inference op doelafbeeldingen](#3-inference-op-doelafbeeldingen)
   - [Resultaten](#resultaten)
-- [🔍 Eigen dataset](#-eigen-dataset)
-  - [0. Bereid een eigen dataset voor ⛵🐦](#0-bereid-een-eigen-dataset-voor)
-  - [0.1 Indien alleen bbox-annotaties beschikbaar zijn](#01-indien-alleen-bbox-annotaties-beschikbaar-zijn)
-  - [0.2 Zet coco-annotaties om naar pickle-bestand](#02-zet-coco-annotaties-om-naar-pickle-bestand)
-  - [1. Vul geheugen met referenties](#1-vul-geheugen-met-referenties)
-  - [2. Post-processing van geheugenbank](#2-post-processing-van-geheugenbank)
-- [📚 Citaat](#-citaat)
+
+- [🔍 Aangepaste dataset](#-custom-dataset)
+  - [0. Bereid een aangepaste dataset voor ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 Als alleen bbox annotaties beschikbaar zijn](#01-if-only-bbox-annotations-are-available)
+  - [0.2 Zet coco annotaties om naar een pickle-bestand](#02-convert-coco-annotations-to-pickle-file)
+  - [1. Vul het geheugen met referenties](#1-fill-memory-with-references)
+  - [2. Post-process geheugenbank](#2-post-process-memory-bank)
+- [📚 Citation](#-citation)
 
 
 ## 🎯 Hoogtepunten
-- 💡 **Trainingsvrij**: Geen fine-tuning, geen prompt engineering—alleen een referentieafbeelding.  
-- 🖼️ **Referentie-gebaseerd**: Segmenteer nieuwe objecten met slechts enkele voorbeelden.  
-- 🔥 **SOTA-prestaties**: Overtreft eerdere trainingsvrije benaderingen op COCO, PASCAL VOC en Cross-Domain FSOD.
+- 💡 **Training-vrij**: Geen fine-tuning, geen prompt engineering—alleen een referentieafbeelding.  
+- 🖼️ **Referentie-gebaseerd**: Segmenteer nieuwe objecten met slechts een paar voorbeelden.  
+- 🔥 **SOTA prestaties**: Overtreft eerdere training-vrije benaderingen op COCO, PASCAL VOC en Cross-Domain FSOD.
 
 **Links:**
 - 🧾 [**arXiv Paper**](https://arxiv.org/abs/2507.02798)  
@@ -222,16 +222,22 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-Als je de inferentieresultaten online wilt zien (terwijl ze worden berekend), haal dan het commentaar weg bij regels 1746-1749 in `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` [hier](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746).
-Pas de score drempelparameter `score_thr` aan indien nodig om meer of minder gesegmenteerde instanties te zien.
-Afbeeldingen worden nu opgeslagen in `results_analysis/few_shot_classes/`. De afbeelding links toont de ground truth, de afbeelding rechts toont de gesegmenteerde instanties die door onze training-vrije methode zijn gevonden.
+Als u de inferentieresultaten online wilt zien (terwijl ze worden berekend), voeg dan het argument toe:
 
-Let op dat we in dit voorbeeld de `few_shot_classes` split gebruiken, daarom mogen we alleen gesegmenteerde instanties verwachten van de klassen in deze split (niet alle klassen in COCO).
+```bash
+    --model.init_args.model_cfg.test.online_vis True
+```
+Om de score-drempelparameter `score_thr` aan te passen, voegt u het argument toe (bijvoorbeeld om alle instanties met een score hoger dan `0.4` te visualiseren):
+```bash
+    --model.init_args.model_cfg.test.vis_thr 0.4
+```
+Afbeeldingen worden nu opgeslagen in `results_analysis/few_shot_classes/`. De afbeelding links toont de grondwaarheid, de afbeelding rechts toont de gesegmenteerde instanties gevonden door onze training-vrije methode.
+
+Let op dat we in dit voorbeeld de `few_shot_classes` splitsing gebruiken, dus we zouden alleen gesegmenteerde instanties moeten zien van de klassen in deze splitsing (niet alle klassen in COCO).
 
 #### Resultaten
 
 Na het verwerken van alle afbeeldingen in de validatieset, zou je het volgende moeten verkrijgen:
-
 
 ```
 BBOX RESULTS:
@@ -256,6 +262,7 @@ Stel dat we **boten**⛵ en **vogels**🐦 willen detecteren in een aangepaste d
 
 We hebben een voorbeeldscript voorbereid om een aangepaste dataset te maken met coco-afbeeldingen, voor een **1-shot** setting.
 ```bash
+mkdir -p data/my_custom_dataset
 python scripts/make_custom_dataset.py
 ```
 Dit zal een aangepaste dataset aanmaken met de volgende mappenstructuur:
@@ -426,6 +433,6 @@ Als u dit werk gebruikt, citeer ons dan alsjeblieft:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

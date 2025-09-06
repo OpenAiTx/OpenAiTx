@@ -31,14 +31,13 @@
 
 <div align="center">
 
-# 🚀 トレーニング不要！  
-### トレーニング不要・リファレンスベースのインスタンスセグメンテーション  
+# 🚀 トレーニングする時間がない！  
+### トレーニング不要なリファレンスベースインスタンスセグメンテーション  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
-**最先端技術 (Papers with Code)**
-
+**最先端（Papers with Code）**
 [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
@@ -55,9 +54,9 @@
 
 ---
 
-> 🚨 **アップデート（2025年7月22日）：** カスタムデータセット用の手順を追加しました！
+> 🚨 **更新 (2025年7月22日):** カスタムデータセットの手順が追加されました！
 > 
-> 🔔 **アップデート（2025年7月16日）：** コードと手順を更新しました！
+> 🔔 **更新 (2025年7月16日):** コードが手順付きで更新されました！
 
 ---
 
@@ -72,28 +71,29 @@
   - [3. SAM2とDinoV2のインストール](#3-install-sam2-and-dinov2)
   - [4. データセットのダウンロード](#4-download-datasets)
   - [5. SAM2とDinoV2のチェックポイントのダウンロード](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 推論コード: Few-shot COCOで30-shot SOTA結果の再現](#-inference-code)
-  - [0. リファレンスセットの作成](#0-create-reference-set)
-  - [1. リファレンスでメモリを埋める](#1-fill-memory-with-references)
+- [📊 推論コード：Few-shot COCOで30-shot SOTA結果の再現](#-inference-code)
+  - [0. 参照セットの作成](#0-create-reference-set)
+  - [1. メモリに参照を格納](#1-fill-memory-with-references)
   - [2. メモリバンクの後処理](#2-post-process-memory-bank)
-  - [3. ターゲット画像での推論](#3-inference-on-target-images)
+  - [3. ターゲット画像で推論](#3-inference-on-target-images)
   - [結果](#results)
+
 - [🔍 カスタムデータセット](#-custom-dataset)
   - [0. カスタムデータセットの準備 ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 バウンディングボックスアノテーションのみの場合](#01-if-only-bbox-annotations-are-available)
-  - [0.2 cocoアノテーションをpickleファイルへ変換](#02-convert-coco-annotations-to-pickle-file)
-  - [1. リファレンスでメモリを埋める](#1-fill-memory-with-references)
+  - [0.1 バウンディングボックスアノテーションのみ利用可能な場合](#01-if-only-bbox-annotations-are-available)
+  - [0.2 COCOアノテーションをpickleファイルに変換](#02-convert-coco-annotations-to-pickle-file)
+  - [1. メモリに参照を格納](#1-fill-memory-with-references)
   - [2. メモリバンクの後処理](#2-post-process-memory-bank)
 - [📚 引用](#-citation)
 
 
 ## 🎯 ハイライト
-- 💡 **トレーニング不要**：ファインチューニングやプロンプトエンジニアリングは不要 ― リファレンス画像だけでOK。  
-- 🖼️ **リファレンスベース**：数枚の例だけで新しい物体をセグメンテーション可能。  
-- 🔥 **SOTA性能**：COCO、PASCAL VOC、Cross-Domain FSODにおける従来のトレーニング不要手法を凌駕。
+- 💡 **学習不要**: ファインチューニングもプロンプト設計も不要――参照画像のみ。  
+- 🖼️ **参照ベース**: 少数の例だけで新規物体をセグメンテーション。  
+- 🔥 **SOTA性能**: COCO、PASCAL VOC、Cross-Domain FSODにて従来の学習不要手法を上回る。
 
 **リンク:**
-- 🧾 [**arXiv 論文**](https://arxiv.org/abs/2507.02798)  
+- 🧾 [**arXiv論文**](https://arxiv.org/abs/2507.02798)  
 - 🌐 [**プロジェクトWebサイト**](https://miquel-espinosa.github.io/no-time-to-train/)  
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
@@ -224,16 +224,22 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-オンラインで推論結果（計算中のもの）を見たい場合は、`no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` の 1746-1749 行をコメント解除してください。[こちら](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746)です。
-より多くまたは少ないセグメント化インスタンスを表示するには、スコア閾値 `score_thr` パラメータを必要に応じて調整してください。
-画像は `results_analysis/few_shot_classes/` に保存されます。左側の画像はグラウンドトゥルース、右側の画像はトレーニング不要な手法によって検出されたセグメント化インスタンスを示しています。
+推論結果をオンラインで（計算されると同時に）表示したい場合は、次の引数を追加してください:
 
-この例では `few_shot_classes` 分割を使用していることに注意してください。そのため、この分割に含まれるクラスのセグメント化インスタンスのみが表示されることが期待されます（COCOのすべてのクラスではありません）。
+```bash
+    --model.init_args.model_cfg.test.online_vis True
+```
+スコア閾値 `score_thr` パラメータを調整するには、引数を追加します（例：スコアが `0.4` より高いすべてのインスタンスを可視化する場合）。
+```bash
+    --model.init_args.model_cfg.test.vis_thr 0.4
+```
+画像は `results_analysis/few_shot_classes/` に保存されます。左側の画像は正解アノテーション、右側の画像は我々のトレーニング不要の手法で検出されたセグメント化インスタンスを示しています。
+
+この例では `few_shot_classes` 分割を使用しているため、この分割に含まれるクラスのインスタンスのみがセグメント化されることが期待されます（COCOのすべてのクラスではありません）。
 
 #### 結果
 
-検証セット内のすべての画像を処理した後、以下の結果が得られるはずです：
-
+バリデーションセット内のすべての画像を処理した後、以下のものが得られるはずです：
 
 ```
 BBOX RESULTS:
@@ -258,6 +264,7 @@ SEGM RESULTS:
 
 COCO画像を用いてカスタムデータセットを作成するトイスクリプトを用意しており、**1-shot**設定に対応しています。
 ```bash
+mkdir -p data/my_custom_dataset
 python scripts/make_custom_dataset.py
 ```
 これにより、以下のフォルダ構造を持つカスタムデータセットが作成されます。
@@ -428,6 +435,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

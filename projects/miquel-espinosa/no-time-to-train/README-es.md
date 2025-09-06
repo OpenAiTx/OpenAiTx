@@ -31,8 +31,8 @@
 
 <div align="center">
 
-# 🚀 ¡No hay tiempo para entrenar!  
-### Segmentación de instancias basada en referencias sin entrenamiento  
+# 🚀 ¡Sin Tiempo para Entrenar!  
+### Segmentación de Instancias Basada en Referencia Sin Entrenamiento  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
@@ -63,34 +63,34 @@
 
 ## 📋 Tabla de Contenidos
 
-- [🎯 Puntos destacados](#-puntos-destacados)
-- [📜 Resumen](#-resumen)
-- [🧠 Arquitectura](#-arquitectura)
-- [🛠️ Instrucciones de instalación](#️-instrucciones-de-instalación)
-  - [1. Clonar el repositorio](#1-clonar-el-repositorio)
-  - [2. Crear entorno conda](#2-crear-entorno-conda)
-  - [3. Instalar SAM2 y DinoV2](#3-instalar-sam2-y-dinov2)
-  - [4. Descargar conjuntos de datos](#4-descargar-conjuntos-de-datos)
-  - [5. Descargar los checkpoints de SAM2 y DinoV2](#5-descargar-los-checkpoints-de-sam2-y-dinov2)
-- [📊 Código de inferencia: Reproducir resultados SOTA 30-shot en Few-shot COCO](#-código-de-inferencia)
-  - [0. Crear el conjunto de referencia](#0-crear-el-conjunto-de-referencia)
-  - [1. Llenar la memoria con referencias](#1-llenar-la-memoria-con-referencias)
-  - [2. Postprocesar banco de memoria](#2-postprocesar-banco-de-memoria)
-  - [3. Inferencia en imágenes objetivo](#3-inferencia-en-imágenes-objetivo)
-  - [Resultados](#resultados)
-- [🔍 Conjunto de datos personalizado](#-conjunto-de-datos-personalizado)
-  - [0. Preparar un conjunto de datos personalizado ⛵🐦](#0-preparar-un-conjunto-de-datos-personalizado)
-  - [0.1 Si solo se dispone de anotaciones bbox](#01-si-solo-se-dispone-de-anotaciones-bbox)
-  - [0.2 Convertir anotaciones coco a archivo pickle](#02-convertir-anotaciones-coco-a-archivo-pickle)
-  - [1. Llenar la memoria con referencias](#1-llenar-la-memoria-con-referencias)
-  - [2. Postprocesar banco de memoria](#2-postprocesar-banco-de-memoria)
-- [📚 Cita](#-cita)
+- [🎯 Puntos destacados](#-highlights)
+- [📜 Resumen](#-abstract)
+- [🧠 Arquitectura](#-architecture)
+- [🛠️ Instrucciones de instalación](#️-installation-instructions)
+  - [1. Clonar el repositorio](#1-clone-the-repository)
+  - [2. Crear entorno conda](#2-create-conda-environment)
+  - [3. Instalar SAM2 y DinoV2](#3-install-sam2-and-dinov2)
+  - [4. Descargar conjuntos de datos](#4-download-datasets)
+  - [5. Descargar puntos de control de SAM2 y DinoV2](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 Código de inferencia: Reproducir resultados SOTA de 30-shot en Few-shot COCO](#-inference-code)
+  - [0. Crear conjunto de referencia](#0-create-reference-set)
+  - [1. Llenar la memoria con referencias](#1-fill-memory-with-references)
+  - [2. Post-procesar el banco de memoria](#2-post-process-memory-bank)
+  - [3. Inferencia en imágenes objetivo](#3-inference-on-target-images)
+  - [Resultados](#results)
+- [🔍 Conjunto de datos personalizado](#-custom-dataset)
+  - [0. Preparar un conjunto de datos personalizado ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 Si solo se dispone de anotaciones de bbox](#01-if-only-bbox-annotations-are-available)
+  - [0.2 Convertir anotaciones coco a archivo pickle](#02-convert-coco-annotations-to-pickle-file)
+  - [1. Llenar la memoria con referencias](#1-fill-memory-with-references)
+  - [2. Postprocesar el banco de memoria](#2-post-process-memory-bank)
+- [📚 Cita](#-citation)
 
 
-## 🎯 Puntos destacados
+## 🎯 Destacados
 - 💡 **Sin entrenamiento**: Sin fine-tuning, sin ingeniería de prompts—solo una imagen de referencia.  
 - 🖼️ **Basado en referencias**: Segmenta nuevos objetos usando solo unos pocos ejemplos.  
-- 🔥 **Rendimiento SOTA**: Supera los enfoques previos sin entrenamiento en COCO, PASCAL VOC y Cross-Domain FSOD.
+- 🔥 **Rendimiento SOTA**: Supera los enfoques previos sin entrenamiento en COCO, PASCAL VOC y FSOD de dominio cruzado.
 
 **Enlaces:**
 - 🧾 [**Artículo en arXiv**](https://arxiv.org/abs/2507.02798)  
@@ -222,16 +222,22 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-Si desea ver los resultados de inferencia en línea (a medida que se calculan), descomente las líneas 1746-1749 en `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` [aquí](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746).
-Ajuste el parámetro del umbral de puntuación `score_thr` según sea necesario para ver más o menos instancias segmentadas.
+Si deseas ver los resultados de inferencia en línea (a medida que se calculan), añade el argumento:
+
+```bash
+    --model.init_args.model_cfg.test.online_vis True
+```
+Para ajustar el parámetro de umbral de puntuación `score_thr`, agregue el argumento (por ejemplo, para visualizar todas las instancias con una puntuación mayor que `0.4`):
+```bash
+    --model.init_args.model_cfg.test.vis_thr 0.4
+```
 Las imágenes ahora se guardarán en `results_analysis/few_shot_classes/`. La imagen de la izquierda muestra la verdad de terreno, la imagen de la derecha muestra las instancias segmentadas encontradas por nuestro método sin entrenamiento.
 
-Tenga en cuenta que en este ejemplo estamos usando la partición `few_shot_classes`, por lo tanto, solo deberíamos esperar ver instancias segmentadas de las clases en esta partición (no todas las clases en COCO).
+Tenga en cuenta que en este ejemplo estamos usando la división `few_shot_classes`, por lo tanto, solo deberíamos esperar ver instancias segmentadas de las clases en esta división (no todas las clases en COCO).
 
 #### Resultados
 
-Después de ejecutar todas las imágenes en el conjunto de validación, debería obtener:
-
+Después de procesar todas las imágenes en el conjunto de validación, deberías obtener:
 
 ```
 BBOX RESULTS:
@@ -256,6 +262,7 @@ Imaginemos que queremos detectar **barcos**⛵ y **aves**🐦 en un conjunto de 
 
 Hemos preparado un script de ejemplo para crear un conjunto de datos personalizado con imágenes COCO, para un escenario de **1-shot**.
 ```bash
+mkdir -p data/my_custom_dataset
 python scripts/make_custom_dataset.py
 ```
 Esto creará un conjunto de datos personalizado con la siguiente estructura de carpetas:
@@ -426,6 +433,6 @@ Si utiliza este trabajo, por favor cítanos:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

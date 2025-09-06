@@ -1,29 +1,28 @@
-
 <div align="right">
   <details>
     <summary >🌐 زبان</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en">English</a>
+        <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=en">انگلیسی</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ja">ژاپنی</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ko">کره‌ای</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=hi">هندی</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=th">تایلندی</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fr">فرانسوی</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=de">آلمانی</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=es">اسپانیایی</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=it">ایتالیایی</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ru">روسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pt">پرتغالی</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=nl">هلندی</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=pl">لهستانی</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=ar">العربية</a>
         | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=tr">ترکی</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=vi">ویتنامی</a>
+        | <a href="https://openaitx.github.io/view.html?user=miquel-espinosa&project=no-time-to-train&lang=id">اندونزیایی</a>
       </div>
     </div>
   </details>
@@ -31,33 +30,33 @@
 
 <div align="center">
 
-# 🚀 وقتی برای آموزش نیست!  
-### تفکیک نمونه مبتنی بر مرجع بدون نیاز به آموزش  
+# 🚀 زمان آموزش ندارم!  
+### تقسیم‌بندی نمونه مبتنی بر مرجع بدون نیاز به آموزش  
 [![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
 [![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
-**به‌روزترین وضعیت (Papers with Code)**
+**پیشرفته‌ترین روش‌ها (مقالات با کد)**
 
-[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+[**_بهترین عملکرد 1 نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
-[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+[**_بهترین عملکرد 10 نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+[**_بهترین عملکرد 30 نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
 
-<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+<!-- [**_بهترین عملکرد 1 نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
-[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+[**_بهترین عملکرد 10 نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->
+[**_بهترین عملکرد 30 نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->
 
 </div>
 
 ---
 
-> 🚨 **بروزرسانی (۲۲ ژوئیه ۲۰۲۵):** دستورالعمل‌های مربوط به دیتاست‌های سفارشی اضافه شد!
+> 🚨 **به‌روزرسانی (۲۲ تیر ۱۴۰۴):** دستورالعمل‌ها برای مجموعه داده‌های سفارشی افزوده شدند!
 > 
-> 🔔 **بروزرسانی (۱۶ ژوئیه ۲۰۲۵):** کد با دستورالعمل‌ها بروزرسانی شد!
+> 🔔 **به‌روزرسانی (۱۶ تیر ۱۴۰۴):** کد با دستورالعمل‌ها به‌روزرسانی شد!
 
 ---
 
@@ -68,33 +67,34 @@
 - [🧠 معماری](#-architecture)
 - [🛠️ دستورالعمل نصب](#️-installation-instructions)
   - [1. کلون کردن مخزن](#1-clone-the-repository)
-  - [2. ساخت محیط conda](#2-create-conda-environment)
+  - [2. ساخت محیط کاندا](#2-create-conda-environment)
   - [3. نصب SAM2 و DinoV2](#3-install-sam2-and-dinov2)
-  - [4. دانلود دیتاست‌ها](#4-download-datasets)
-  - [5. دانلود چک‌پوینت‌های SAM2 و DinoV2](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 کد استنتاج: بازتولید نتایج SOTA 30-shot در Few-shot COCO](#-inference-code)
+  - [4. دانلود مجموعه داده‌ها](#4-download-datasets)
+  - [5. دانلود مدل‌های از پیش آموزش‌دیده SAM2 و DinoV2](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 کد استنتاج: بازتولید نتایج SOTA 30 نمونه‌ای در Few-shot COCO](#-inference-code)
   - [0. ساخت مجموعه مرجع](#0-create-reference-set)
-  - [1. پر کردن حافظه با نمونه‌های مرجع](#1-fill-memory-with-references)
+  - [1. پر کردن حافظه با مرجع‌ها](#1-fill-memory-with-references)
   - [2. پس‌پردازش بانک حافظه](#2-post-process-memory-bank)
   - [3. استنتاج روی تصاویر هدف](#3-inference-on-target-images)
   - [نتایج](#results)
+
 - [🔍 دیتاست سفارشی](#-custom-dataset)
   - [0. آماده‌سازی دیتاست سفارشی ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 اگر فقط نشانه‌گذاری bbox وجود دارد](#01-if-only-bbox-annotations-are-available)
+  - [0.1 اگر فقط نشانه‌گذاری‌های bbox موجود است](#01-if-only-bbox-annotations-are-available)
   - [0.2 تبدیل نشانه‌گذاری‌های coco به فایل pickle](#02-convert-coco-annotations-to-pickle-file)
-  - [1. پر کردن حافظه با نمونه‌های مرجع](#1-fill-memory-with-references)
-  - [2. پس‌پردازش بانک حافظه](#2-post-process-memory-bank)
+  - [1. پر کردن حافظه با مراجع](#1-fill-memory-with-references)
+  - [2. پردازش پسین بانک حافظه](#2-post-process-memory-bank)
 - [📚 استناد](#-citation)
 
 
 ## 🎯 نکات برجسته
-- 💡 **بدون نیاز به آموزش:** بدون فاین‌تیون، بدون مهندسی prompt — تنها یک تصویر مرجع.  
-- 🖼️ **مبتنی بر مرجع:** تفکیک اشیای جدید تنها با چند نمونه.  
-- 🔥 **عملکرد SOTA:** عملکرد بهتر از سایر روش‌های بدون آموزش روی COCO، PASCAL VOC و Cross-Domain FSOD.
+- 💡 **بدون آموزش**: بدون تنظیم دقیق، بدون مهندسی پرامپت—تنها با یک تصویر مرجع.  
+- 🖼️ **مبتنی بر مرجع**: تقسیم‌بندی اشیای جدید تنها با چند نمونه.  
+- 🔥 **عملکرد SOTA**: عملکرد بهتر نسبت به رویکردهای بدون آموزش قبلی در COCO، PASCAL VOC و FSOD بین دامنه‌ای.
 
 **لینک‌ها:**
 - 🧾 [**مقاله arXiv**](https://arxiv.org/abs/2507.02798)  
-- 🌐 [**وب‌سایت پروژه**](https://miquel-espinosa.github.io/no-time-to-train/)  
+- 🌐 [**وبسایت پروژه**](https://miquel-espinosa.github.io/no-time-to-train/)  
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
 ## 📜 چکیده
@@ -222,16 +222,22 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-اگر می‌خواهید نتایج استنتاج را به صورت آنلاین (در همان زمان که محاسبه می‌شوند) مشاهده کنید، خطوط 1746-1749 در فایل `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` را [در اینجا](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746) از حالت کامنت خارج کنید.
-پارامتر آستانه امتیاز `score_thr` را بسته به نیاز تنظیم کنید تا نمونه‌های بخش‌بندی شده بیشتری یا کمتری را مشاهده کنید.
-اکنون تصاویر در مسیر `results_analysis/few_shot_classes/` ذخیره خواهند شد. تصویر سمت چپ حقیقت زمینه را نشان می‌دهد و تصویر سمت راست نمونه‌های بخش‌بندی شده‌ای را که توسط روش بدون آموزش ما پیدا شده‌اند، نمایش می‌دهد.
+اگر مایلید نتایج استنتاج را به صورت آنلاین (همزمان با محاسبه) مشاهده کنید، این آرگومان را اضافه کنید:
 
-توجه داشته باشید که در این مثال ما از تقسیم‌بندی `few_shot_classes` استفاده می‌کنیم؛ بنابراین باید فقط انتظار دیدن نمونه‌های بخش‌بندی شده از کلاس‌های این تقسیم را داشته باشیم (نه همه کلاس‌های COCO).
+```bash
+    --model.init_args.model_cfg.test.online_vis True
+```
+برای تنظیم پارامتر آستانه امتیاز `score_thr`، آرگومان را اضافه کنید (برای مثال، مشاهده همه نمونه‌هایی با امتیاز بالاتر از `0.4`):
+```bash
+    --model.init_args.model_cfg.test.vis_thr 0.4
+```
+تصاویر اکنون در مسیر `results_analysis/few_shot_classes/` ذخیره خواهند شد. تصویر سمت چپ حقیقت زمینی را نشان می‌دهد، تصویر سمت راست نمونه‌های بخش‌بندی‌شده را که توسط روش بدون آموزش ما یافت شده‌اند نشان می‌دهد.
+
+توجه داشته باشید که در این مثال ما از تقسیم‌بندی `few_shot_classes` استفاده می‌کنیم، بنابراین باید انتظار داشته باشیم فقط نمونه‌های بخش‌بندی‌شده کلاس‌های موجود در این تقسیم‌بندی را ببینیم (نه همه کلاس‌ها در COCO).
 
 #### نتایج
 
-پس از اجرای تمام تصاویر در مجموعه اعتبارسنجی، باید به این نتیجه برسید:
-
+پس از اجرای همه تصاویر مجموعه اعتبارسنجی، باید به موارد زیر دست یابید:
 
 ```
 BBOX RESULTS:
@@ -256,6 +262,7 @@ SEGM RESULTS:
 
 ما یک اسکریپت نمونه برای ایجاد یک دیتاست سفارشی با تصاویر coco برای تنظیمات **۱-شات** آماده کرده‌ایم.
 ```bash
+mkdir -p data/my_custom_dataset
 python scripts/make_custom_dataset.py
 ```
 این کار یک مجموعه داده سفارشی با ساختار پوشه زیر ایجاد خواهد کرد:
@@ -426,6 +433,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

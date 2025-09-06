@@ -31,14 +31,13 @@
 
 <div align="center">
 
-# 🚀 Không Cần Huấn Luyện!  
-### Phân Đoạn Đối Tượng Dựa Trên Tham Chiếu Không Cần Huấn Luyện  
-[![GitHub](https://img.shields.io/badge/%E2%80%8B-No%20Time%20To%20Train-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
-[![Website](https://img.shields.io/badge/🌐-Project%20Page-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
+# 🚀 Không Thời Gian Để Huấn Luyện!  
+### Phân Đoạn Tham Chiếu Theo Đối Tượng Không Cần Huấn Luyện  
+[![GitHub](https://img.shields.io/badge/%E2%80%8B-Không%20Thời%20Gian%20Để%20Huấn%20Luyện-black?logo=github)](https://github.com/miquel-espinosa/no-time-to-train)
+[![Website](https://img.shields.io/badge/🌐-Trang%20Dự%20Án-grey)](https://miquel-espinosa.github.io/no-time-to-train/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
-**Công nghệ tiên tiến nhất (Papers with Code)**
-
+**Trạng thái tiên tiến nhất (Papers with Code)**
 [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
@@ -55,7 +54,7 @@
 
 ---
 
-> 🚨 **Cập nhật (22 tháng 7 năm 2025):** Đã bổ sung hướng dẫn cho bộ dữ liệu tuỳ chỉnh!
+> 🚨 **Cập nhật (22 tháng 7 năm 2025):** Đã thêm hướng dẫn cho bộ dữ liệu tùy chỉnh!
 > 
 > 🔔 **Cập nhật (16 tháng 7 năm 2025):** Mã nguồn đã được cập nhật kèm hướng dẫn!
 
@@ -67,30 +66,31 @@
 - [📜 Tóm tắt](#-abstract)
 - [🧠 Kiến trúc](#-architecture)
 - [🛠️ Hướng dẫn cài đặt](#️-installation-instructions)
-  - [1. Nhân bản kho lưu trữ](#1-clone-the-repository)
+  - [1. Sao chép kho lưu trữ](#1-clone-the-repository)
   - [2. Tạo môi trường conda](#2-create-conda-environment)
   - [3. Cài đặt SAM2 và DinoV2](#3-install-sam2-and-dinov2)
   - [4. Tải bộ dữ liệu](#4-download-datasets)
-  - [5. Tải checkpoints SAM2 và DinoV2](#5-download-sam2-and-dinov2-checkpoints)
+  - [5. Tải các checkpoint SAM2 và DinoV2](#5-download-sam2-and-dinov2-checkpoints)
 - [📊 Mã suy luận: Tái tạo kết quả SOTA 30-shot trên Few-shot COCO](#-inference-code)
   - [0. Tạo bộ tham chiếu](#0-create-reference-set)
-  - [1. Đổ dữ liệu tham chiếu vào bộ nhớ](#1-fill-memory-with-references)
+  - [1. Nạp bộ nhớ với các tham chiếu](#1-fill-memory-with-references)
   - [2. Xử lý hậu kỳ bộ nhớ](#2-post-process-memory-bank)
   - [3. Suy luận trên ảnh mục tiêu](#3-inference-on-target-images)
   - [Kết quả](#results)
-- [🔍 Bộ dữ liệu tuỳ chỉnh](#-custom-dataset)
-  - [0. Chuẩn bị bộ dữ liệu tuỳ chỉnh ⛵🐦](#0-prepare-a-custom-dataset)
+
+- [🔍 Bộ dữ liệu tùy chỉnh](#-custom-dataset)
+  - [0. Chuẩn bị bộ dữ liệu tùy chỉnh ⛵🐦](#0-prepare-a-custom-dataset)
   - [0.1 Nếu chỉ có chú thích bbox](#01-if-only-bbox-annotations-are-available)
-  - [0.2 Chuyển chú thích coco sang tệp pickle](#02-convert-coco-annotations-to-pickle-file)
-  - [1. Đổ dữ liệu tham chiếu vào bộ nhớ](#1-fill-memory-with-references)
-  - [2. Xử lý hậu kỳ bộ nhớ](#2-post-process-memory-bank)
+  - [0.2 Chuyển đổi chú thích coco sang file pickle](#02-convert-coco-annotations-to-pickle-file)
+  - [1. Nạp bộ nhớ với các tham chiếu](#1-fill-memory-with-references)
+  - [2. Xử lý hậu kỳ ngân hàng bộ nhớ](#2-post-process-memory-bank)
 - [📚 Trích dẫn](#-citation)
 
 
 ## 🎯 Điểm nổi bật
-- 💡 **Không cần huấn luyện**: Không cần fine-tune, không cần prompt, chỉ cần ảnh tham chiếu.  
-- 🖼️ **Dựa trên tham chiếu**: Phân đoạn đối tượng mới chỉ với vài ví dụ.  
-- 🔥 **Hiệu suất SOTA**: Vượt trội các phương pháp không cần huấn luyện trước đó trên COCO, PASCAL VOC và Cross-Domain FSOD.
+- 💡 **Không cần huấn luyện**: Không tinh chỉnh, không thiết kế prompt—chỉ cần một ảnh tham chiếu.  
+- 🖼️ **Dựa trên tham chiếu**: Phân đoạn đối tượng mới chỉ với một vài ví dụ.  
+- 🔥 **Hiệu năng SOTA**: Vượt trội các phương pháp không huấn luyện trước đó trên COCO, PASCAL VOC, và Cross-Domain FSOD.
 
 **Liên kết:**
 - 🧾 [**Bài báo arXiv**](https://arxiv.org/abs/2507.02798)  
@@ -222,16 +222,22 @@ python run_lightening.py test --config $CONFIG  \
                               --trainer.logger.save_dir ${RESULTS_DIR}/ \
                               --trainer.devices $GPUS
 ```
-Nếu bạn muốn xem kết quả suy luận trực tuyến (khi chúng được tính toán), hãy bỏ chú thích các dòng 1746-1749 trong `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` [tại đây](https://github.com/miquel-espinosa/no-time-to-train/blob/main/no_time_to_train/models/Sam2MatchingBaseline_noAMG.py#L1746).
-Điều chỉnh tham số ngưỡng điểm số `score_thr` nếu cần để xem nhiều hoặc ít các vùng phân đoạn hơn.
-Các hình ảnh bây giờ sẽ được lưu trong `results_analysis/few_shot_classes/`. Hình bên trái là dữ liệu thực tế, hình bên phải là các vùng phân đoạn được tìm thấy bởi phương pháp không cần huấn luyện của chúng tôi.
+Nếu bạn muốn xem kết quả suy luận trực tuyến (ngay khi chúng được tính toán), hãy thêm đối số:
 
-Lưu ý rằng trong ví dụ này chúng ta đang sử dụng tập chia `few_shot_classes`, do đó, chỉ nên mong đợi thấy các vùng phân đoạn của những lớp trong tập này (không phải tất cả các lớp trong COCO).
+```bash
+    --model.init_args.model_cfg.test.online_vis True
+```
+Để điều chỉnh tham số ngưỡng điểm số `score_thr`, hãy thêm đối số (ví dụ, trực quan hóa tất cả các trường hợp có điểm số cao hơn `0.4`):
+```bash
+    --model.init_args.model_cfg.test.vis_thr 0.4
+```
+Các hình ảnh bây giờ sẽ được lưu trong `results_analysis/few_shot_classes/`. Hình ảnh bên trái hiển thị dữ liệu thực tế, hình ảnh bên phải hiển thị các vùng phân đoạn do phương pháp không cần huấn luyện của chúng tôi tìm được.
+
+Lưu ý rằng trong ví dụ này chúng tôi đang sử dụng bộ chia `few_shot_classes`, do đó, chúng ta chỉ nên mong đợi thấy các vùng phân đoạn của các lớp trong bộ chia này (không phải tất cả các lớp trong COCO).
 
 #### Kết quả
 
 Sau khi chạy tất cả các hình ảnh trong tập kiểm định, bạn sẽ thu được:
-
 
 ```
 BBOX RESULTS:
@@ -256,6 +262,7 @@ Hãy tưởng tượng chúng ta muốn phát hiện **thuyền**⛵ và **chim*
 
 Chúng tôi đã chuẩn bị một script ví dụ để tạo bộ dữ liệu tùy chỉnh với ảnh coco, cho trường hợp **1-shot**.
 ```bash
+mkdir -p data/my_custom_dataset
 python scripts/make_custom_dataset.py
 ```
 Điều này sẽ tạo ra một bộ dữ liệu tùy chỉnh với cấu trúc thư mục như sau:
@@ -426,6 +433,6 @@ Nếu bạn sử dụng công trình này, vui lòng trích dẫn chúng tôi:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---
