@@ -1,4 +1,35 @@
-CDN-Beschleunigung und Sicherheits­schutz für dieses Projekt werden von Tencent EdgeOne gesponsert.
+
+<div align="right">
+  <details>
+    <summary >🌐 Sprache</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=en">Englisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=zh-CN">Vereinfachtes Chinesisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=zh-TW">Traditionelles Chinesisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ja">Japanisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ko">Koreanisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=hi">Hindi</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=th">Thai</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=fr">Französisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=es">Spanisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=it">Italienisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ru">Russisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=pt">Portugiesisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=nl">Niederländisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=pl">Polnisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ar">Arabisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=fa">Persisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=tr">Türkisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=vi">Vietnamesisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=id">Indonesisch</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
+Das CDN-Beschleunigungs- und Sicherheitsangebot für dieses Projekt wird von Tencent EdgeOne gesponsert.
 
 [![image](https://github.com/user-attachments/assets/059fed87-d415-41b0-a575-2423bf2d77e2)](https://edgeone.ai/?from=github)
 
@@ -6,300 +37,303 @@ Der Autor dieses Projekts ist colin1114.
 
 # 🚀 Clash Abonnement-Konverter
 
-Ein ansprechendes und leistungsstarkes Online-Tool, das verschiedene Proxy-Abonnement-Links in das Clash-Konfigurationsformat umwandelt. Unterstützt die automatische Bereitstellung über Cloudflare Workers & Pages und bietet einen schnellen, zuverlässigen Abonnement-Konvertierungsdienst.
+Ein optisch ansprechendes und leistungsstarkes Online-Tool, das verschiedene Proxy-Abonnement-Links in das Clash-Konfigurationsformat umwandelt. Unterstützt automatische Bereitstellung über Cloudflare Workers & Pages und bietet schnellen, zuverlässigen Abonnement-Konvertierungsservice.
 
-## ✨ Funktionsmerkmale
+## ✨ Funktionen und Merkmale
 
-- 🎨 **Modernes und ansprechendes Design** – Mit Farbverlauf-Hintergrund und Kartenlayout
-- 🔄 **Mehrprotokoll-Unterstützung** – Unterstützt gängige Protokolle wie V2Ray, VLESS, Shadowsocks, Trojan usw.
-- ☁️ **Cloud-Deployment** – Globale CDN-Beschleunigung durch Cloudflare Workers
-- 📱 **Responsives Design** – Perfekte Anpassung an Desktop- und Mobilgeräte
-- ⚡ **Schnelle Konvertierung** – Echtzeit-Umwandlung von Abonnement-Links in Clash-Konfigurationen
-- 📋 **Intelligentes Kopieren** – Unterstützung für das Kopieren der generierten YAML-Konfiguration mit einem Klick, kompatibel mit allen Browsern
-- 📡 **Abonnement-Link-Generierung** – Automatische Generierung von Abonnement-Links, die direkt in Clash importiert werden können
-- 🌐 **Online-YAML-Zugriff** – Verschiedene Möglichkeiten zum Zugriff auf YAML-Dateien:
-  - 📡 Abonnement-Link: Unterstützung für automatische Updates im Clash-Client
-  - 🔗 Online-Anzeige: Direktes Anzeigen der Konfiguration im Browser
-  - 💾 Datei-Download: Download der .yaml-Datei auf den lokalen Rechner
-  - ⚡ Schneller Zugriff: Vereinfachte Download-Links
-- 🔧 **UTF-8-Unterstützung** – Perfekte Unterstützung für chinesische Knotennamen und Konfigurationen
-- 🆓 **Vollständig kostenlos** – Basierend auf den kostenlosen Diensten von Cloudflare, keine Nutzungseinschränkungen
+- 🎨 **Modernes und ansprechendes Interface** – Mit Farbverlauf-Hintergrund und Kartendesign
+- 🔄 **Mehrprotokoll-Unterstützung** – Unterstützt V2Ray, VLESS, Shadowsocks, Trojan und andere gängige Protokolle
+- ☁️ **Cloud Deployment** – Globale CDN-Beschleunigung über Cloudflare Workers
+- 📱 **Responsives Design** – Perfekte Anpassung an Desktop und Mobilgeräte
+- ⚡ **Schnelle Konvertierung** – Wandelt Abonnement-Links in Echtzeit in Clash-Konfigurationen um
+- 📋 **Intelligentes Kopieren** – Ein-Klick-Kopieren der generierten YAML-Konfiguration, kompatibel mit allen Browsern
+- 📡 **Abonnement-Link-Generierung** – Automatische Erstellung von Abonnement-Links für direkten Clash-Import
+- 🌐 **Online-YAML-Zugriff** – Mehrere Zugriffsmöglichkeiten auf YAML-Dateien:
+  - 📡 Abonnement-Link: Automatische Aktualisierung im Clash-Client unterstützt
+  - 🔗 Online-Anzeige: Konfigurationsinhalt direkt im Browser ansehen
+  - 💾 Dateidownload: .yaml-Datei lokal herunterladen
+  - ⚡ Schneller Zugriff: Vereinfachter Download-Link
+- 🔧 **UTF-8-Unterstützung** – Vollständige Unterstützung für chinesische Knotennamen und Konfigurationen
+- 🆓 **Komplett kostenlos** – Basierend auf dem kostenlosen Cloudflare-Dienst, ohne Nutzungsbeschränkungen
 
 ## 📁 Projektstruktur
 
 ```
 clash/
-├── index.html              # Frontend-Seite
-├── worker.js               # Cloudflare Worker Backend-Code
-├── wrangler.jsonc          # Wrangler Konfigurationsdatei
-├── _headers                # Cloudflare Pages HTTP-Header-Konfiguration
+├── index.html              # 前端页面
+├── worker.js               # Cloudflare Worker 后端代码
+├── wrangler.jsonc          # Wrangler 配置文件
+├── _headers                # Cloudflare Pages HTTP头配置
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml      # GitHub Actions Deployment-Konfiguration
-├── README.md              # Projektbeschreibung
-└── package.json           # Projektkonfigurationsdatei
+│       └── deploy.yml      # GitHub Actions 部署配置
+├── README.md              # 项目说明文档
+└── package.json           # 项目配置文件
 ```
 
 ## 🚀 Schnellstart
 
-### Methode 1: Lokal ausführen
+### Methode 1: Lokale Ausführung
 
 1. **Projekt klonen**
    ```bash
    git clone <repository-url>
    cd clash
    ```
-
 2. **Lokalen Server starten**
+
    ```bash
-   # Mit Python
+   # 使用 Python
    python -m http.server 8000
    
-   # Oder mit Node.js
+   # 或使用 Node.js
    npx serve .
    ```
 
 3. **Anwendung aufrufen**
-   - Im Browser `http://localhost:8000` öffnen
-   - In der lokalen Umgebung wird eine Beispielkonfiguration angezeigt
+   - Öffnen Sie den Browser und rufen Sie `http://localhost:8000` auf
+   - In der lokalen Umgebung wird die Beispielkonfiguration angezeigt
 
-### Methode 2: Deployment über Cloudflare Workers
+### Methode 2: Cloudflare Workers Bereitstellung
 
 #### Schritt 1: Worker erstellen
 
-1. Besuche [Cloudflare Workers](https://workers.cloudflare.com/)
-2. Registriere dich/melde dich bei Cloudflare an
-3. Klicke auf "Create a Worker"
-4. Kopiere den gesamten Code aus `worker.js` in den Editor
-5. Klicke auf "Save and Deploy"
+1. Besuchen Sie [Cloudflare Workers](https://workers.cloudflare.com/)
+2. Registrieren/Anmelden bei einem Cloudflare-Konto
+3. Klicken Sie auf "Create a Worker"
+4. Kopieren Sie den gesamten Code aus `worker.js` in den Editor
+5. Klicken Sie auf "Save and Deploy"
 
-#### Schritt 2: Deployment mit Wrangler CLI
+#### Schritt 2: Mit Wrangler CLI bereitstellen
 
 ```bash
-# Wrangler CLI installieren
+# 安装 Wrangler CLI
 npm install -g wrangler
 
-# Bei Cloudflare anmelden
+# 登录到 Cloudflare
 wrangler login
 
-# Worker bereitstellen
+# 部署 Worker
 npm run deploy:worker
 ```
 
 #### Schritt 3: Domain konfigurieren (optional)
 
-1. Füge in den Worker-Einstellungen eine eigene Domain hinzu
-2. Oder verwende die von Cloudflare bereitgestellte Standarddomain
+1. Füge eine benutzerdefinierte Domain in den Worker-Einstellungen hinzu
+2. Oder verwende die von Cloudflare bereitgestellte Standard-Domain
 
-### Methode 3: Deployment über Cloudflare Pages
+### Methode 3: Deployment mit Cloudflare Pages
 
 #### Option A: GitHub-Integration (empfohlen)
 
 1. **Repository vorbereiten**
-   - Code ins GitHub-Repository pushen
-   - Sicherstellen, dass alle notwendigen Dateien enthalten sind
+   - Code in ein GitHub-Repository pushen
+   - Stelle sicher, dass alle notwendigen Dateien enthalten sind
+
 2. **Pages-Projekt erstellen**
    - Besuche [Cloudflare Pages](https://pages.cloudflare.com/)
    - Verbinde dein GitHub-Repository
    - Wähle das Projekt-Repository aus
 
 3. **Build-Einstellungen**
-   - Build-Befehl: Leer lassen oder `echo "No build required"`
-   - Build-Ausgabeverzeichnis: `/` (Root-Verzeichnis)
-   - Umgebungsvariablen: Keine Einstellung erforderlich
+   - Build-Befehl: leer lassen oder `echo "No build required"`
+   - Build-Ausgabeverzeichnis: `/` (Stammverzeichnis)
+   - Umgebungsvariablen: keine Einstellungen erforderlich
 
 #### Option B: Direktes Hochladen
 
 ```bash
-# Deployment mit Wrangler Pages
+# 使用 Wrangler Pages 部署
 npm run deploy:pages
 ```
 
 ## 🛠️ Technische Architektur
 
 ### Frontend-Technologie-Stack
-- **HTML5** – Moderne Auszeichnungssprache
-- **CSS3** – Responsives Design und Animationseffekte
-- **Vanilla JavaScript** – Leichtgewichtige Frontend-Interaktionen
+- **HTML5** - Moderne Auszeichnungssprache
+- **CSS3** - Responsives Design und Animationseffekte
+- **Vanilla JavaScript** - Leichtgewichtige Frontend-Interaktionen
 
 ### Backend-Technologie-Stack
-- **Cloudflare Workers** – Edge-Computing-Plattform
-- **Web APIs** – Standard-Fetch-API und Response-Handling
+- **Cloudflare Workers** - Edge-Computing-Plattform
+- **Web APIs** - Standard-Fetch API und Antwortverarbeitung
 
 ### Unterstützte Protokollformate
-- **VMess** – V2Ray Standardprotokoll
-- **VLESS** – V2Ray Leichtgewichtsprotokoll (unterstützt Reality)
-- **Shadowsocks** – Klassisches Proxy-Protokoll
-- **Trojan** – Modernes Proxy-Protokoll
+- **VMess** - V2Ray Standardprotokoll
+- **VLESS** - V2Ray Leichtprotokoll (unterstützt Reality)
+- **Shadowsocks** - Klassisches Proxy-Protokoll
+- **Trojan** - Modernes Proxy-Protokoll
 
 ### API-Endpunkte
-- `GET /` – Hauptseite
-- `POST /convert` – API zur Abonnement-Konvertierung
-- `GET /clash/{config-id}` – Abrufen der YAML-Konfigurationsdatei (Abo-Link)
-- `GET /yaml/{config-id}` – YAML-Konfigurationsdatei herunterladen
-- `OPTIONS /*` – CORS-Preflight-Anfrage
+- `GET /` - Hauptseite
+- `POST /convert` - Abonnement-Konvertierungs-API
+- `GET /clash/{config-id}` - YAML-Konfigurationsdatei abrufen (Abonnement-Link)
+- `GET /yaml/{config-id}` - YAML-Konfigurationsdatei herunterladen
+- `OPTIONS /*` - CORS-Vorabprüfungsanfrage
 
 ## 📖 Benutzerhandbuch
 
-### Grundlegende Nutzung
+### Grundlegende Verwendung
 
 1. **Abonnement-Link eingeben**
    - Füge deinen Proxy-Abonnement-Link in das Eingabefeld ein
    - Unterstützt Base64-codierte Abonnement-Links
 
 2. **Konfigurationsnamen festlegen**
-   - Optional kann ein individueller Name für die Konfigurationsdatei vergeben werden
+   - Optional kann ein benutzerdefinierter Name für die Konfigurationsdatei vergeben werden
    - Standardmäßig "My Clash Config"
 
 3. **Konfiguration konvertieren**
    - Klicke auf die Schaltfläche "Abonnement konvertieren"
-   - Warte, bis die Konvertierung abgeschlossen ist
+   - Warte bis die Konvertierung abgeschlossen ist
 
 4. **Konfiguration verwenden**
-   - Kopiere die generierte YAML-Konfiguration
-   - Importiere sie in den Clash-Client
+   - Kopieren Sie die generierte YAML-Konfiguration
+   - Importieren Sie sie in den Clash-Client zur Nutzung
 
-5. **Abonnement-Link verwenden (empfohlen)**
-   - Kopiere den generierten Abonnement-Link
-   - Füge den Link im Clash-Client als Abonnement hinzu
+5. **Verwendung des Abonnement-Links (empfohlen)**
+   - Kopieren Sie den generierten Abonnement-Link
+   - Abonnement im Clash-Client hinzufügen
    - Die Konfiguration wird automatisch synchronisiert, kein manuelles Update nötig
 
 ### Erweiterte Konfiguration
 
-Die generierte Clash-Konfiguration enthält folgende Eigenschaften:
+Die generierte Clash-Konfiguration enthält folgende Merkmale:
 
 - **Proxy-Gruppenstrategie**
   - 🚀 Node-Auswahl – Manuelle Proxy-Auswahl
-  - ♻️ Automatische Auswahl – Latenztest und automatische Auswahl
-  - 🎯 Global Direct – Direkte Verbindung
+  - ♻️ Automatische Auswahl – Auswahl nach Latenztest
+  - 🎯 Globaler Direktzugriff – Direkte Verbindung
 
 - **DNS-Konfiguration**
-  - DNS-Auflösung aktiviert
-  - Unterstützt Fake-IP-Modus
-  - Aufteilung von DNS inländisch/ausländisch
+  - DNS-Auflösung aktivieren
+  - Unterstützung für Fake-IP-Modus
+  - DNS-Split für Inland und Ausland
 
 - **Routing-Regeln**
   - Lokale Adressen direkt verbinden
   - Inländische IPs direkt verbinden
-  - Anderer Traffic über Proxy
+  - Sonstiger Traffic über Proxy
 
-## 🔧 Fehlerbehebung beim Deployment
+## 🔧 Fehlerbehebung bei der Bereitstellung
 
 ### Häufige Probleme
 
 #### 1. Wrangler findet keinen Einstiegspunkt
 **Fehlermeldung**: `Missing entry-point to Worker script`
 
+**Lösung**: 
+- Stellen Sie sicher, dass im Projektstammverzeichnis eine `wrangler.jsonc`-Datei vorhanden ist
+- Prüfen Sie, ob das `main`-Feld in `wrangler.jsonc` auf `worker.js` verweist
+
+#### 2. GitHub Actions Deployment fehlgeschlagen
 **Lösung**:
-- Stelle sicher, dass sich im Projekt-Root ein `wrangler.jsonc` befindet
-- Prüfe, ob das Feld `main` in `wrangler.jsonc` auf `worker.js` verweist
+- Fügen Sie in den Einstellungen des GitHub-Repositorys folgende Secrets hinzu:
+  - `CLOUDFLARE_API_TOKEN`: Cloudflare API-Token
+  - `CLOUDFLARE_ACCOUNT_ID`: Cloudflare Konten-ID
 
-#### 2. GitHub Actions Deployment schlägt fehl
+#### 3. Pages Build fehlgeschlagen
 **Lösung**:
-- Füge in den Einstellungen des GitHub-Repositories folgende Secrets hinzu:
-- `CLOUDFLARE_API_TOKEN`: Cloudflare API-Token
-- `CLOUDFLARE_ACCOUNT_ID`: Cloudflare Konto-ID
+- Setzen Sie den Build-Befehl auf leer oder `echo "No build required"`
+- Stellen Sie sicher, dass das Build-Ausgabeverzeichnis auf `/` gesetzt ist
 
-#### 3. Pages-Build fehlgeschlagen
-**Lösung**:
-- Setze den Build-Befehl auf leer oder `echo "No build required"`
-- Stelle sicher, dass das Build-Ausgabeverzeichnis auf `/` gesetzt ist
+### Erläuterung der Deploy-Konfigurationsdateien
 
-### Erläuterung der Deployment-Konfigurationsdateien
-
-- **`wrangler.jsonc`**: Wrangler CLI Konfiguration für Worker-Deployments
+- **`wrangler.jsonc`**: Wrangler CLI-Konfiguration für Worker-Deployment
 - **`_headers`**: Cloudflare Pages HTTP-Header-Konfiguration
-- **`.github/workflows/deploy.yml`**: GitHub Actions Konfiguration für automatisches Deployment
+- **`.github/workflows/deploy.yml`**: GitHub Actions Auto-Deployment-Konfiguration
 
 ## 🔧 Benutzerdefinierte Konfiguration
 
-### Proxy-Gruppen anpassen
+### Proxy-Gruppen bearbeiten
 
-Du kannst die Funktion `convertToClash` in `worker.js` bearbeiten, um Proxy-Gruppen individuell anzupassen:
+Sie können die Funktion `convertToClash` in `worker.js` bearbeiten, um Proxy-Gruppen anzupassen:
 
 ```javascript
 'proxy-groups': [
   {
-    name: '🚀 节odenauswahl',
+    name: '🚀 节点选择',
     type: 'select',
-    proxies: ['♻️ Automatische Auswahl', '🎯 Global Direkt', ...proxyNames]
+    proxies: ['♻️ 自动选择', '🎯 全球直连', ...proxyNames]
   },
-  // Füge weitere Proxy-Gruppen hinzu ...
+  // 添加更多代理组...
 ]
 ```
 
 ### Benutzerdefinierte Routing-Regeln
 
-Bearbeite das Array `rules`, um eigene Routing-Regeln hinzuzufügen:
+Bearbeiten Sie das Array `rules`, um benutzerdefinierte Routing-Regeln hinzuzufügen:
 
 ```javascript
 rules: [
-  'DOMAIN-SUFFIX,youtube.com,🚀 节odenauswahl',
+  'DOMAIN-SUFFIX,youtube.com,🚀 节点选择',
   'DOMAIN-SUFFIX,local,DIRECT',
-  // Füge weitere Regeln hinzu ...
+  // 添加更多规则...
 ]
 ```
 
-## 📊 Performance-Features
+## 📊 Leistungseigenschaften
 
-- **Globales CDN** – Cloudflare deckt Edge-Standorte weltweit ab
-- **Schnelle Reaktion** – Durchschnittliche Antwortzeit < 100ms
-- **Hohe Verfügbarkeit** – 99,9% Serviceverfügbarkeit
-- **Freies Kontingent** – 100.000 Anfragen pro Tag
+- **Globales CDN** - Cloudflare mit Edge-Knoten weltweit
+- **Schnelle Reaktion** - Durchschnittliche Antwortzeit < 100ms
+- **Hohe Verfügbarkeit** - 99,9% Dienstverfügbarkeit
+- **Kostenloses Kontingent** - 100.000 Anfragen pro Tag
 
 ## 🔒 Sicherheitshinweise
 
-- **Datenschutz** – Abonnierten Daten werden nur während der Konvertierung verwendet und nicht gespeichert
-- **HTTPS-Verschlüsselung** – Sämtliche Kommunikation ist per HTTPS verschlüsselt
-- **Open Source & Transparenz** – Vollständiger Quellcode ist öffentlich und kann überprüft werden
+- **Datenschutz** - Abonnementdaten werden nur während der Konvertierung verwendet und nicht gespeichert
+- **HTTPS-Verschlüsselung** - Alle Kommunikation erfolgt über HTTPS verschlüsselt
+- **Transparente Open-Source** - Vollständiger Quellcode ist öffentlich einsehbar und kann überprüft werden
 
-## 🤝 Beitragshinweise
+## 🤝 Beitragsrichtlinien
 
-Beiträge in Form von Issues und Pull Requests sind willkommen!
+Issues und Pull Requests sind willkommen!
 
-1. Forke dieses Repository
-2. Erstelle einen Feature-Branch (`git checkout -b feature/AmazingFeature`)
-3. Übertrage deine Änderungen (`git commit -m 'Add some AmazingFeature'`)
-4. Push in den Branch (`git push origin feature/AmazingFeature`)
-5. Erstelle einen Pull Request
+1. Forken Sie dieses Repository
+2. Erstellen Sie einen Feature-Branch (`git checkout -b feature/AmazingFeature`)
+3. Änderungen committen (`git commit -m 'Add some AmazingFeature'`)
+4. Pushen Sie auf den Branch (`git push origin feature/AmazingFeature`)
+5. Öffnen Sie einen Pull Request
 
-## 📝 Changelog
+## 📝 Änderungsprotokoll
 
 ### v1.1.0
 - ✅ Unterstützung für VLESS-Protokoll hinzugefügt (inklusive Reality-Sicherheitstransport)
 - ✅ Verbesserte Protokollkompatibilität
 
 ### v1.0.0
-- ✅ Basis-Abonnement-Konvertierungsfunktion
+- ✅ Grundfunktion für Abonnement-Konvertierung
 - ✅ Ansprechende Benutzeroberfläche
-- ✅ Unterstützung für Cloudflare Workers
-- ✅ Multiprotokoll-Unterstützung (VMess, Shadowsocks, Trojan)
+- ✅ Cloudflare Workers Unterstützung
+- ✅ Unterstützung mehrerer Protokolle (VMess, Shadowsocks, Trojan)
 - ✅ Responsives Design
 - ✅ One-Click-Kopierfunktion
 
-## 📞 Support & Feedback
+## 📞 Support und Feedback
 
-Wenn du während der Nutzung Probleme oder Vorschläge hast:
+Wenn du während der Nutzung auf Probleme stößt oder Vorschläge hast, dann:
 
-1. Lies bitte dieses README
+1. Sieh dir dieses README-Dokument an
 2. Reiche ein [Issue](../../issues) ein
 3. Starte eine [Discussion](../../discussions)
 
 ## 📄 Lizenz
 
-Dieses Projekt steht unter der MIT-Lizenz – siehe [LICENSE](LICENSE) Datei
+Dieses Projekt verwendet die MIT-Lizenz – siehe die [LICENSE](LICENSE) Datei für Details
 
 ## 🙏 Danksagung
 
-- [Cloudflare Workers](https://workers.cloudflare.com/) – Bereitstellung der Edge-Computing-Plattform
-- [Clash](https://github.com/Dreamacro/clash) – Ausgezeichneter Proxy-Client
-- Allen Mitwirkenden und Nutzern für ihre Unterstützung
+- [Cloudflare Workers](https://workers.cloudflare.com/) – stellt die Edge-Computing-Plattform bereit
+- [Clash](https://github.com/Dreamacro/clash) – hervorragender Proxy-Client
+- Unterstützung aller Mitwirkenden und Nutzer
 
 ---
-⭐ Wenn dieses Projekt für dich hilfreich ist, gib ihm bitte einen Stern!
+
+⭐ Wenn dir dieses Projekt geholfen hat, gib ihm bitte einen Star! 
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

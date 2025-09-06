@@ -1,0 +1,1064 @@
+[
+  {
+    "row": 1,
+    "rowsha": "iQFzvuvM4PNvyaGE0TMe1UswHLxDOcOgOWQSwBy3TGY=",
+    "originContent": "# Davinci Resolve Project Server",
+    "translatedContent": "# Serveur de Projet Davinci Resolve"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "rRJkR2g93robTtAn4DBca/pzXbZn6Rz7TLTAqO4Owmw=",
+    "originContent": "![Lint](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/lint.yml/badge.svg)",
+    "translatedContent": "![Lint](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/lint.yml/badge.svg)"
+  },
+  {
+    "row": 4,
+    "rowsha": "TO3Xv2/qTlwDvPzq5n/Y9+tcpqdR2b5lHoxMaTUzSww=",
+    "originContent": "![Healthcheck](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/stack-healthcheck.yml/badge.svg)",
+    "translatedContent": "![Healthcheck](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/stack-healthcheck.yml/badge.svg)"
+  },
+  {
+    "row": 5,
+    "rowsha": "+R37PIjZvQZB1ZGEyKZcBr18jNR/A+cZCc5Y5wPFKp0=",
+    "originContent": "![Docker Build](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/docker.yml/badge.svg)",
+    "translatedContent": "![Docker Build](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/docker.yml/badge.svg)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "vM0QJM8wIANMBD5gnIUqWCtwSSUXmmoY1UPayoE0x5k=",
+    "originContent": "Simple Resolve project server with automatic backups",
+    "translatedContent": "Serveur de projet Resolve simple avec sauvegardes automatiques"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+    "originContent": "## Table of Contents",
+    "translatedContent": "## Table des Matières"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "L3B8vaT0irLw9iyFmhbCncS9kC659CGueOPmdDaCuFY=",
+    "originContent": "- [Davinci Resolve Project Server](#davinci-resolve-project-server)",
+    "translatedContent": "- [Serveur de Projet Davinci Resolve](#serveur-de-projet-davinci-resolve)"
+  },
+  {
+    "row": 12,
+    "rowsha": "rbf5P9OxCt4F1ggKqu9dCs3W4wnIQt4H87gCRUu9i3E=",
+    "originContent": "  - [Table of Contents](#table-of-contents)",
+    "translatedContent": "  - [Table des Matières](#table-des-matières)"
+  },
+  {
+    "row": 13,
+    "rowsha": "AV6rlnKXKlVoyOh4sfHqXEBuPYfJXMYplV2Z0tscdko=",
+    "originContent": "  - [Introduction](#introduction)",
+    "translatedContent": "  - [Introduction](#introduction)"
+  },
+  {
+    "row": 14,
+    "rowsha": "7Rgn9Zq7VlirhEoT3v1UzWw9lSEL3L2ovyj3aI+VY6g=",
+    "originContent": "    - [Features](#features)",
+    "translatedContent": "    - [Fonctionnalités](#fonctionnalités)"
+  },
+  {
+    "row": 15,
+    "rowsha": "wxkJlj3t0pQM9qlDaQE0Cv9SLmM3VYVAPirO9Bv1OP0=",
+    "originContent": "  - [Configuration](#configuration)",
+    "translatedContent": "  - [Configuration](#configuration)"
+  },
+  {
+    "row": 16,
+    "rowsha": "7uVihZ72qKFGV9+KcCEt9GuxKOxxNkyTKFTrVnuVw1w=",
+    "originContent": "    - [Database](#database)",
+    "translatedContent": "    - [Base de Données](#base-de-données)"
+  },
+  {
+    "row": 17,
+    "rowsha": "8ay+BInRqOGIU9M9gClr960LemH/SafYsPIWcicNf84=",
+    "originContent": "    - [Backups](#backups)",
+    "translatedContent": "    - [Sauvegardes](#sauvegardes)"
+  },
+  {
+    "row": 18,
+    "rowsha": "7MVqv+yo/OGJmOVLZ6sqcE9Sy1I8g+2MdDDWdVG0wDs=",
+    "originContent": "    - [PGAdmin](#pgadmin)",
+    "translatedContent": "    - [PGAdmin](#pgadmin)"
+  },
+  {
+    "row": 19,
+    "rowsha": "3/GXfwiIYbLIlKqGmPuFhk3TlZOo8ZpeDpfSt3Fp4OY=",
+    "originContent": "    - [Volume Locations](#volume-locations)",
+    "translatedContent": "    - [Emplacements des Volumes](#emplacements-des-volumes)"
+  },
+  {
+    "row": 20,
+    "rowsha": "oapd4x/k4MmgQH79peLmRYrMcMwn6ZeLuzEqQYF2TeM=",
+    "originContent": "  - [Installation](#installation)",
+    "translatedContent": "  - [Installation](#installation)"
+  },
+  {
+    "row": 21,
+    "rowsha": "GPXoBZY7kv1W/ZbZmlIiP6FB2tLlPWutDy2yUdD2pMo=",
+    "originContent": "    - [QNAP Installation](#qnap-installation)",
+    "translatedContent": "    - [Installation QNAP](#installation-qnap)"
+  },
+  {
+    "row": 22,
+    "rowsha": "0oSxToVzSvZIYy+t0tKZKaQpRUZ7oW98ggpZHpSBloA=",
+    "originContent": "    - [Synology](#synology)",
+    "translatedContent": "    - [Synology](#synology)"
+  },
+  {
+    "row": 23,
+    "rowsha": "L/La6anXSnz10oqQkyNKVNSNWw2UyiwzAaULUiYxCo8=",
+    "originContent": "    - [Linux](#linux)",
+    "translatedContent": "    - [Linux](#linux)"
+  },
+  {
+    "row": 24,
+    "rowsha": "VYKTqZreHsaSi9zKXp/vSAKLf9GJ9XwUaOSkQpxRKCw=",
+    "originContent": "  - [Different PostgreSQL versions](#different-postgresql-versions)",
+    "translatedContent": "  - [Différentes versions de PostgreSQL](#différentes-versions-de-postgresql)"
+  },
+  {
+    "row": 25,
+    "rowsha": "z8Uh7jNayntyOMVLePX75+v+ycoGCaDlR26j9T3g+so=",
+    "originContent": "    - [Setting up a PostgreSQL 9.5 or 11 Project Server](#setting-up-a-postgresql-95-or-11-project-server)",
+    "translatedContent": "    - [Configurer un Serveur de Projet PostgreSQL 9.5 ou 11](#configurer-un-serveur-de-projet-postgresql-95-ou-11)"
+  },
+  {
+    "row": 26,
+    "rowsha": "mCoGVwUMcZ0RYoK/gvKX6pORSpmpElqHwA1qQAjLVcE=",
+    "originContent": "  - [Thanks](#thanks)",
+    "translatedContent": "  - [Remerciements](#remerciements)"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+    "originContent": "## Introduction",
+    "translatedContent": "## Introduction"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "ql7QyIYnFV7SQhRVJkYHs97CtDbULdzJwDVvwL66o0I=",
+    "originContent": "There are a lot of ways to host a Resolve project server, but each of them has their own set of issues. The official project server requires manual backups, and other options can be complicated for those that don't have access to an IT team. Hopefully this is a more reliable and simpler solution for smaller teams!",
+    "translatedContent": "Il existe de nombreuses façons d’héberger un serveur de projet Resolve, mais chacune présente ses propres problèmes. Le serveur de projet officiel nécessite des sauvegardes manuelles, et d’autres options peuvent être compliquées pour ceux qui n’ont pas accès à une équipe informatique. Espérons que ce soit une solution plus fiable et plus simple pour les petites équipes !"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "Va7ER4dHPfmt1CvLSeep2AEpy33nUzxb+6qMZz++7BQ=",
+    "originContent": "### Features",
+    "translatedContent": "### Fonctionnalités"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "Opu8YSgma2wnFSkTRDBX/VlRZaKHpAzyobXvQ/84WOo=",
+    "originContent": "- **Lightweight** - Docker based, so doesn't require a full macOS or Windows machine or VM.",
+    "translatedContent": "- **Léger** - Basé sur Docker, ne nécessite donc pas une machine ou VM complète macOS ou Windows."
+  },
+  {
+    "row": 35,
+    "rowsha": "sf1WN/0Eiq7837Gqv6Fwy4PNLPntZ05oTjRT6Nwtcps=",
+    "originContent": "- **Platform Independent** - can be installed on Windows, Mac, Linux, QNAP, Synology, RPi, really anything that can run Docker.",
+    "translatedContent": "- **Indépendant de la plateforme** - peut être installé sur Windows, Mac, Linux, QNAP, Synology, RPi, vraiment tout ce qui peut exécuter Docker."
+  },
+  {
+    "row": 36,
+    "rowsha": "cye9MrDH22aVxFR0BQf4olSKnrIIzqwjiMOzDRhg0XI=",
+    "originContent": "- **Compatible with Resolve's existing backup/restore functions** - All backup files use the standard Resolve \\*.backup file syntax, and can be restored from the Resolve UI",
+    "translatedContent": "- **Compatible avec les fonctions de sauvegarde/restauration existantes de Resolve** - Tous les fichiers de sauvegarde utilisent la syntaxe standard de fichier \\*.backup de Resolve, et peuvent être restaurés depuis l’interface de Resolve"
+  },
+  {
+    "row": 37,
+    "rowsha": "L217MlmnW9rCkI9E/FFZoi+xOFgF/Xu1Jl6h2IIe8RY=",
+    "originContent": "- **Built-in PGAdmin Server** - PGAdmin is a tool for administering a PostgreSQL Server, and is helpful for diagnosing problems and migrating/updating entire servers",
+    "translatedContent": "- **Serveur PGAdmin intégré** - PGAdmin est un outil pour administrer un serveur PostgreSQL, utile pour diagnostiquer des problèmes et migrer/mettre à jour des serveurs entiers"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": "## Configuration"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "cT9kYg2M867dvM3yYvoRYlkrMMhrVSrsg4zR1HYVNSg=",
+    "originContent": "There are a few things we'll need to edit at the top of the docker-compose.yml file to configure our installation:",
+    "translatedContent": "Il y a quelques éléments que nous devrons modifier en haut du fichier docker-compose.yml pour configurer notre installation :"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 44,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 45,
+    "rowsha": "sOSZl/TStAc2vQd27VVZ3ruSu/ugTKjTwhftrmMjkiI=",
+    "originContent": "version: \"3.8\"",
+    "translatedContent": "version: \"3.8\""
+  },
+  {
+    "row": 46,
+    "rowsha": "pqYT98eU3rUDvydGZzdeM2T7Qzt6fhXiTdYPcQdidsw=",
+    "originContent": "x-common:",
+    "translatedContent": "x-common:"
+  },
+  {
+    "row": 47,
+    "rowsha": "2nqQzAP+LjTyc8EIaABe+OX+H1eYjT6ieMhfpI8MJGw=",
+    "originContent": "  database: &db-environment",
+    "translatedContent": "  database: &db-environment"
+  },
+  {
+    "row": 48,
+    "rowsha": "a5qu28En2uwJiYonOI3uXYbwpdFzuLCdK0bHYE3ORKA=",
+    "originContent": "    POSTGRES_DB: database",
+    "translatedContent": "    POSTGRES_DB: database"
+  },
+  {
+    "row": 49,
+    "rowsha": "px+d0Z+KH8uHr6ZTExUg0DyE7I4DQ+CA3KLN5gfQIg8=",
+    "originContent": "    POSTGRES_USER: &pg-user postgres",
+    "translatedContent": "    POSTGRES_USER: &pg-user postgres"
+  },
+  {
+    "row": 50,
+    "rowsha": "pW3PMzdaEyF2LIAKpa7oQktIta0Z2az99uP+6lYr21c=",
+    "originContent": "    POSTGRES_PASSWORD: DaVinci",
+    "translatedContent": "    POSTGRES_PASSWORD: DaVinci"
+  },
+  {
+    "row": 51,
+    "rowsha": "9r6oJ3Ih1/tPpRcWryZ1TtxxfMyL41eXMwOJDDM6D5Q=",
+    "originContent": "    TZ: America/Chicago",
+    "translatedContent": "    TZ: America/Chicago"
+  },
+  {
+    "row": 52,
+    "rowsha": "CaVqQVa0tHEW8eHSddjssucL+wqJwuX8YddvXoZyF48=",
+    "originContent": "    POSTGRES_LOCATION: &db-location \"???:/var/lib/postgresql/data\"",
+    "translatedContent": "    POSTGRES_LOCATION: &db-location \"???:/var/lib/postgresql/data\""
+  },
+  {
+    "row": 53,
+    "rowsha": "qe1Y+Gu8WyzuHVpwPtWvwYIjxRCjkNnUneQ16S1xvBc=",
+    "originContent": "  backup: &backup-environment",
+    "translatedContent": "  backup: &backup-environment"
+  },
+  {
+    "row": 54,
+    "rowsha": "Ijy87QvG9GEblgA1aTHjvyjEvKLa/RNwwmeJ/DFXErM=",
+    "originContent": "    SCHEDULE: \"@daily\"",
+    "translatedContent": "    SCHEDULE: \"@daily\""
+  },
+  {
+    "row": 55,
+    "rowsha": "aklkLJyQ4am7IZrOhjFaJMr+udEUjjJSnWgjMTTx6HI=",
+    "originContent": "    BACKUP_KEEP_DAYS: 7",
+    "translatedContent": "    BACKUP_KEEP_DAYS: 7"
+  },
+  {
+    "row": 56,
+    "rowsha": "8VCXSg+qVcvTnjBuxKL8UCiH+UOFSkpD4fQ6eYjyMLY=",
+    "originContent": "    BACKUP_KEEP_WEEKS: 4",
+    "translatedContent": "    BACKUP_KEEP_WEEKS: 4"
+  },
+  {
+    "row": 57,
+    "rowsha": "gESVAqgPMxCN97ufC2uXIUf14Z0he9dPoTbojX4KVQQ=",
+    "originContent": "    BACKUP_KEEP_MONTHS: 6",
+    "translatedContent": "    BACKUP_KEEP_MONTHS: 6"
+  },
+  {
+    "row": 58,
+    "rowsha": "R8br9RGH5YbK5WO2tbh5PITpQ01WKzZ3dgVMJZxr7vo=",
+    "originContent": "    BACKUP_LOCATION: &bk-location \"???:/backups\"",
+    "translatedContent": "    BACKUP_LOCATION: &bk-location \"???:/backups\""
+  },
+  {
+    "row": 59,
+    "rowsha": "lxX3PE+5/PWOlDeXkxhTo1FDMPjqL1bfCVeYkob1/og=",
+    "originContent": "  admin: &admin-environment",
+    "translatedContent": "  admin: &admin-environment"
+  },
+  {
+    "row": 60,
+    "rowsha": "T1sqwt3l/gbrlnESOrZFLCnp7zMJYJzcw4ozLrfhGA8=",
+    "originContent": "    PGADMIN_DEFAULT_EMAIL: admin@admin.com",
+    "translatedContent": "    PGADMIN_DEFAULT_EMAIL: admin@admin.com"
+  },
+  {
+    "row": 61,
+    "rowsha": "dJMw0Y2VsL7w7FCIHsN7pWq3WJMEawnAMpXlJqkWmmo=",
+    "originContent": "    PGADMIN_DEFAULT_PASSWORD: root",
+    "translatedContent": "    PGADMIN_DEFAULT_PASSWORD: root"
+  },
+  {
+    "row": 62,
+    "rowsha": "kvfBg4esPHQvy8Uvo6iGRR8tv11dJHSeCDFxhNrnubs=",
+    "originContent": "    PGADMIN_PORT: &pgadmin-port \"3001:80\"",
+    "translatedContent": "    PGADMIN_PORT: &pgadmin-port \"3001:80\""
+  },
+  {
+    "row": 63,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "ru9VG4NjJUnopP9zhBezhJbOKqsbuT0oBDHnOc4KqFw=",
+    "originContent": "### Database",
+    "translatedContent": "### Base de données"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "yiaPVO31M4pJbKIkwNcaj6O+x69imBilaoZqAaTxHBk=",
+    "originContent": "To configure the server itself, we'll want to configure the environment variables below:",
+    "translatedContent": "Pour configurer le serveur lui-même, nous devons configurer les variables d'environnement ci-dessous :"
+  },
+  {
+    "row": 68,
+    "rowsha": "lcYKEassOLsN0XiqInpV1I5fjhBm69jDiCUSu196XRc=",
+    "originContent": "| Environment Variable |Meaning|",
+    "translatedContent": "| Variable d'environnement |Signification|"
+  },
+  {
+    "row": 69,
+    "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+    "originContent": "|---|---|",
+    "translatedContent": "|---|---|"
+  },
+  {
+    "row": 70,
+    "rowsha": "wzkPBkXzytfrnHe/GoHsa1FpzRldu0jU6tBMZJ+trlg=",
+    "originContent": "| POSTGRES_DB | Name of your database. Name it whatever you like. |",
+    "translatedContent": "| POSTGRES_DB | Nom de votre base de données. Nommez-la comme vous le souhaitez. |"
+  },
+  {
+    "row": 71,
+    "rowsha": "zkqKe9sz0cfjrBA6Ee8IjERryDAl/VAHp5GsA5/6FO8=",
+    "originContent": "| POSTGRES_USER | Username you will use to connect to your database. The Resolve default is \"postgres\" |",
+    "translatedContent": "| POSTGRES_USER | Nom d'utilisateur que vous utiliserez pour vous connecter à votre base de données. La valeur par défaut de Resolve est \"postgres\" |"
+  },
+  {
+    "row": 72,
+    "rowsha": "OwqZa9UjECoZnq7oxCKxKiu0Q7Owdjw0lnEJdE7fNEo=",
+    "originContent": "| POSTGRES_PASSWORD | Password you will use to connect to your database. The Resolve default is \"DaVinci\" |",
+    "translatedContent": "| POSTGRES_PASSWORD | Mot de passe que vous utiliserez pour vous connecter à votre base de données. La valeur par défaut de Resolve est \"DaVinci\" |"
+  },
+  {
+    "row": 73,
+    "rowsha": "8rp77VEbnsAkBKY0fPM9Yg4en2NaHG5mboXhkODUVyc=",
+    "originContent": "| TZ | Your timezone, here is [a list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)|",
+    "translatedContent": "| TZ | Votre fuseau horaire, voici [une liste](https://fr.wikipedia.org/wiki/Liste_des_fuseaux_horaires)|"
+  },
+  {
+    "row": 74,
+    "rowsha": "F/uJ145vUX0y63s+IEVWxKrV1KA97DViWsZP77IwOr0=",
+    "originContent": "| POSTGRES_LOCATION | Location your database will be stored. See [Volume Locations](#volume-locations) |",
+    "translatedContent": "| POSTGRES_LOCATION | Emplacement où votre base de données sera stockée. Voir [Emplacements des volumes](#volume-locations) |"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "OaxJcQYjDUGHOwjWffW51x8frs9oz83xTMekcUePyDE=",
+    "originContent": "### Backups",
+    "translatedContent": "### Sauvegardes"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "el9C4bilCft9e0BwgNPu/NgPTUXfV6BLGjYoB2tTRF0=",
+    "originContent": "To configure the backups, we'll want to configure the variables below:",
+    "translatedContent": "Pour configurer les sauvegardes, nous devons configurer les variables ci-dessous :"
+  },
+  {
+    "row": 79,
+    "rowsha": "lcYKEassOLsN0XiqInpV1I5fjhBm69jDiCUSu196XRc=",
+    "originContent": "| Environment Variable |Meaning|",
+    "translatedContent": "| Variable d'environnement |Signification|"
+  },
+  {
+    "row": 80,
+    "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+    "originContent": "|---|---|",
+    "translatedContent": "|---|---|"
+  },
+  {
+    "row": 81,
+    "rowsha": "BoauaXqHuiF5FtncKsZYc/rfC1ZCHgCM0LpnK7akgHI=",
+    "originContent": "| SCHEDULE | This is a [cron string](https://www.freeformatter.com/cron-expression-generator-quartz.html) for how often backups are created. can be \"@daily\", \"@every 1h\", etc |",
+    "translatedContent": "| SCHEDULE | Ceci est une [chaîne cron](https://www.freeformatter.com/cron-expression-generator-quartz.html) indiquant la fréquence de création des sauvegardes. Peut être \"@daily\", \"@every 1h\", etc |"
+  },
+  {
+    "row": 82,
+    "rowsha": "QEeVBfpQvDgYx9nMsdhQFDglHtOpa1v8/QkbxqP9BgM=",
+    "originContent": "| BACKUP_KEEP_DAYS | Number of daily backups to keep before removal. |",
+    "translatedContent": "| BACKUP_KEEP_DAYS | Nombre de sauvegardes journalières à conserver avant suppression. |"
+  },
+  {
+    "row": 83,
+    "rowsha": "66PLLKVCKbjOJZIrsgxGaKWqT28bFSph2nK6aFgUDaI=",
+    "originContent": "| BACKUP_KEEP_WEEKS | Number of weekly backups to keep before removal. |",
+    "translatedContent": "| BACKUP_KEEP_WEEKS | Nombre de sauvegardes hebdomadaires à conserver avant suppression. |"
+  },
+  {
+    "row": 84,
+    "rowsha": "tj/5+n9niIEf3JPySgtgEZiZXugaXqOgy2ilLIypRtI=",
+    "originContent": "| BACKUP_KEEP_MONTHS | Number of monthly backups to keep before removal. |",
+    "translatedContent": "| BACKUP_KEEP_MONTHS | Nombre de sauvegardes mensuelles à conserver avant suppression. |"
+  },
+  {
+    "row": 85,
+    "rowsha": "ZPeUhMUFwq+wGKqdNqlx7f9t2okiAuxGie+ltDQ2vB8=",
+    "originContent": "| BACKUP_LOCATION | Location your backups will be stored. See [Volume Locations](#volume-locations) |",
+    "translatedContent": "| BACKUP_LOCATION | Emplacement où vos sauvegardes seront stockées. Voir [Emplacements des volumes](#volume-locations) |"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "77MlAuCySUhvaZJ0I51C9exFBga95BTgmwsIfy3iCCs=",
+    "originContent": "### PGAdmin",
+    "translatedContent": "### PGAdmin"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "6G21e8w92uvtUi5VNcZ7203GtTt8ntENK4vdIieUSzI=",
+    "originContent": "To configure PGAdmin, we'll want to configure the variables below:",
+    "translatedContent": "Pour configurer PGAdmin, nous devons configurer les variables ci-dessous :"
+  },
+  {
+    "row": 90,
+    "rowsha": "lcYKEassOLsN0XiqInpV1I5fjhBm69jDiCUSu196XRc=",
+    "originContent": "| Environment Variable |Meaning|",
+    "translatedContent": "| Variable d'environnement |Signification|"
+  },
+  {
+    "row": 91,
+    "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+    "originContent": "|---|---|",
+    "translatedContent": "|---|---|"
+  },
+  {
+    "row": 92,
+    "rowsha": "EQT0akAy8TiqAwwdF9CjZJHKXvh0rA1Bfc0dJggfnQ4=",
+    "originContent": "| PGADMIN_DEFAULT_EMAIL | Email used for PGAdmin login. Default is \"admin@admin.com\" |",
+    "translatedContent": "| PGADMIN_DEFAULT_EMAIL | Email utilisé pour la connexion PGAdmin. Par défaut \"admin@admin.com\" |"
+  },
+  {
+    "row": 93,
+    "rowsha": "GdRK6vJ1ZrQk24sfwOgsPAFSvB4Wk7jrNu1BdUl1W2Q=",
+    "originContent": "| PGADMIN_DEFAULT_PASSWORD | Password used for PGAdmin login. Default is \"root\" |",
+    "translatedContent": "| PGADMIN_DEFAULT_PASSWORD | Mot de passe utilisé pour la connexion PGAdmin. Par défaut \"root\" |"
+  },
+  {
+    "row": 94,
+    "rowsha": "r0A6iGYpMCXbhk+X9FsySO0MwUytWxCtlhna8dE4vek=",
+    "originContent": "| PGADMIN_PORT | String configuring port to expose PGAdmin on. Syntax is \"YOUR_PORT:80\" |",
+    "translatedContent": "| PGADMIN_PORT | Chaîne configurant le port d'exposition de PGAdmin. La syntaxe est \"VOTRE_PORT:80\" |"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "+ucnxwI5twPRKFmPNVbySus+5m1dJAgi/x8ljfTTb6g=",
+    "originContent": "### Volume Locations",
+    "translatedContent": "### Emplacements des volumes"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "RdDRJogtoiltgtAw/EfiAhcS0qo6j9ikwimLHHs4LLA=",
+    "originContent": "The location of your database and backups depend on what platform you are installing on. You will need the full path to the folder you want them stored in. On a QNAP NAS for example, if I wanted to use a folder called \"Backups\" inside a shared folder named \"Videos\" for my backups location, the path would be `/shares/Videos/Backups/`, and my `BACKUP_LOCATION` value would look like this:",
+    "translatedContent": "L'emplacement de votre base de données et de vos sauvegardes dépend de la plateforme sur laquelle vous installez. Vous aurez besoin du chemin complet vers le dossier où vous souhaitez les stocker. Sur un NAS QNAP par exemple, si je voulais utiliser un dossier appelé \"Backups\" dans un dossier partagé nommé \"Videos\" pour mon emplacement de sauvegarde, le chemin serait `/shares/Videos/Backups/`, et ma valeur `BACKUP_LOCATION` serait la suivante :"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 101,
+    "rowsha": "KiK5QzS94P7QpvdEFSO85CDVV8Wl4Yo7QIAyDuw1Axo=",
+    "originContent": "BACKUP_LOCATION: &bk-location \"/shares/Videos/Backups/:/backups\"",
+    "translatedContent": "BACKUP_LOCATION: &bk-location \"/shares/Videos/Backups/:/backups\""
+  },
+  {
+    "row": 102,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "K7I3H//ZL2C41++ZWweZLT8gvppSTHEg/KYNR0uTLbg=",
+    "originContent": "On Ubuntu, if I wanted to use a folder named \"database\" in the home directory of the user named \"johndoe\" for my database location, the path would be `/home/johndoe/database/`, and my `POSTGRES_LOCATION` value would look like this:",
+    "translatedContent": "Sur Ubuntu, si je voulais utiliser un dossier nommé \"database\" dans le répertoire personnel de l'utilisateur nommé \"johndoe\" pour l'emplacement de ma base de données, le chemin serait `/home/johndoe/database/`, et la valeur de mon `POSTGRES_LOCATION` ressemblerait à ceci :"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 107,
+    "rowsha": "Yy7hsnbL0JGeq3HY4ezGUM7855ZAdv+VAKf00/fhjdA=",
+    "originContent": "POSTGRES_LOCATION: &db-location \"johndoe/database/:/var/lib/postgresql/data\"",
+    "translatedContent": "POSTGRES_LOCATION: &db-location \"johndoe/database/:/var/lib/postgresql/data\""
+  },
+  {
+    "row": 108,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Je recommande de mettre votre base de données sur un SSD, votre vitesse d'accès sera nettement plus lente sur un disque dur classique."
+  },
+  {
+    "row": 110,
+    "rowsha": "hnTHm5ej+DSObNTgPGAYoIFLLrj0T98eZbDd8XzkZBU=",
+    "originContent": "I recommend putting your database on an SSD, your access speed will be noticeably slower on a spinning drive.",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Une fois que vous avez configuré ces paramètres, enregistrez votre fichier docker-compose.yml modifié et passez à l'installation !"
+  },
+  {
+    "row": 112,
+    "rowsha": "7rll7q0lGfBOZOfP8OQ2BA1Jhq11MnW24QM+wtoblmk=",
+    "originContent": "Once you have configured these settings, save your modified docker-compose.yml file and move on to installation!",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 114,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Installation QNAP"
+  },
+  {
+    "row": 116,
+    "rowsha": "eCRkyHOje/lUUJTrjomh/DmfPrtONsy8RsGJQA85GtY=",
+    "originContent": "### QNAP Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Installer sur un NAS QNAP est relativement simple. Une remarque, veuillez mettre les fichiers de la base de données sur un SSD. Vous m'en remercierez plus tard."
+  },
+  {
+    "row": 118,
+    "rowsha": "s7xQRdqhv61iABZ8wrbtGtAL+nFgKjOL7AR5wKMLcn4=",
+    "originContent": "Installing on a QNAP NAS is relatively simple. One note, please put the database files on an SSD. You will thank me later",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. Si vous ne l'avez pas déjà, installez Container Station depuis le magasin d'applications QNAP."
+  },
+  {
+    "row": 120,
+    "rowsha": "NBZPtGau5qqpIt023zgY9oBhPzd61sZySgLwq3iUPUs=",
+    "originContent": "1. If you don't already have it, install Container Station from the QNAP app store.",
+    "translatedContent": "2. Dans Container Station, cliquez sur \"Créer\", puis cliquez sur \"Créer une application\""
+  },
+  {
+    "row": 121,
+    "rowsha": "dgpdo/YQ5/Vm47qSdDgiN1tYW2WB38SkjGaSPE21CJ0=",
+    "originContent": "2. In Container Station, click \"Create\", then click \"Create Application\"",
+    "translatedContent": "3. Nommez votre application comme vous le souhaitez (par ex. ResolveServer)"
+  },
+  {
+    "row": 122,
+    "rowsha": "FFanYZXBMQ9QDsGY3qX7UDen2zKyxoTY70ZExz9+hU4=",
+    "originContent": "3. Name your application whatever you like (eg. ResolveServer)",
+    "translatedContent": "4. Copiez/collez votre fichier docker-compose.yml modifié, cliquez sur \"Valider YAML\" pour le tester, et s'il passe, cliquez sur \"Créer\""
+  },
+  {
+    "row": 123,
+    "rowsha": "GoxEud09zsefUjmJ9yfJmq2Qy9kVLUOSRoRYRT9RdBM=",
+    "originContent": "4. Copy/Paste your modified docker-compose.yml file, hit \"Validate YAML\" to test it, and if it passes, click \"Create\"",
+    "translatedContent": "5. Container Station téléchargera les fichiers nécessaires et démarrera l'application. Une fois terminé, vous devriez pouvoir connecter Resolve à l'adresse IP de votre QNAP en utilisant le nom de la base de données et les identifiants"
+  },
+  {
+    "row": 124,
+    "rowsha": "KP0Xa3+3v9bdHmRatCyeyjqpOTSHp0igABbfMjw5cvc=",
+    "originContent": "5. Container Station will download the files it needs and start the app. Once it's done, you should be able to connect Resolve to the IP address of your QNAP using the database name and credentials",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Synology"
+  },
+  {
+    "row": 126,
+    "rowsha": "Gz2+IbPCoH2miGQmYgY96nQ4fVeiSqLInzIDMpu/yp8=",
+    "originContent": "### Synology",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Voir [cette discussion](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/discussions/15#discussioncomment-4615278)"
+  },
+  {
+    "row": 128,
+    "rowsha": "OgKdtpZeF/UAHYj3cc+Y2PO121yE4c3tEXXz6VrakPk=",
+    "originContent": "See [this discussion](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/discussions/15#discussioncomment-4615278)",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Linux"
+  },
+  {
+    "row": 130,
+    "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+    "originContent": "### Linux",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. Suivez les [instructions d'installation de Docker pour votre distribution Linux](https://docs.docker.com/engine/install/)"
+  },
+  {
+    "row": 132,
+    "rowsha": "JlJ+2SHtT2EjBakEX5FErLvfY56XTP3bTjNRKri0ULM=",
+    "originContent": "1. Follow the [Docker installation instructions for your Linux distribution](https://docs.docker.com/engine/install/)",
+    "translatedContent": "2. Installez [Docker Compose](https://docs.docker.com/compose/install/)"
+  },
+  {
+    "row": 133,
+    "rowsha": "F9gEgjhDTnDhz24IGcqtcvMQSD2NycupZYYMRvINe8M=",
+    "originContent": "2. Install [Docker Compose](https://docs.docker.com/compose/install/)",
+    "translatedContent": "3. Déplacez votre fichier docker-compose.yml modifié dans un dossier sur votre machine Linux, puis naviguez vers ce dossier dans le terminal."
+  },
+  {
+    "row": 134,
+    "rowsha": "okM8YqfpmnTQr0G9yL1gBZ6nBy4kR7qyqLxjk2d+EKY=",
+    "originContent": "3. Move your modified docker-compose.yml file to a folder on your Linux machine, then navigate to that folder in the terminal.",
+    "translatedContent": "4. Exécutez :"
+  },
+  {
+    "row": 135,
+    "rowsha": "0S3oo4vbhJ+P0Puac+MgzHHMEhcwbQFe+NwUbGacG40=",
+    "originContent": "4. Run:",
+    "translatedContent": "   `docker-compose up -d`"
+  },
+  {
+    "row": 136,
+    "rowsha": "84iUKOlgwA4LT8R7GkeP4Ay5cQ8BKPVzJ6u9D4WNu2w=",
+    "originContent": "   `docker-compose up -d`",
+    "translatedContent": "5. Docker-compose téléchargera les fichiers nécessaires et démarrera l'application. Une fois terminé, vous devriez pouvoir connecter Resolve à l'adresse IP de votre instance Linux Server en utilisant le nom de la base de données et les identifiants"
+  },
+  {
+    "row": 137,
+    "rowsha": "0GWOhxpZ69V6HcG8iih9yLemJbFw1aOxsMDzx4fDuww=",
+    "originContent": "5. Docker-compose will download the files it needs and start the app. Once it's done, you should be able to connect Resolve to the IP address of your Linux Server instance using the database name and credentials",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Différentes versions de PostgreSQL"
+  },
+  {
+    "row": 139,
+    "rowsha": "/qj6XUTsWPzCpd+iohaFH2KDbumyiaYNoB1FmLpX38A=",
+    "originContent": "## Different PostgreSQL versions",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "En général, Resolve n'est pas très tolérant aux versions de PostgreSQL incompatibles. Resolve 18 utilise PostgreSQL 13, qui est la version par défaut de ce dépôt désormais. Resolve 17 et les versions antérieures utilisent PostgreSQL 9.5. Malheureusement, la version majeure 9.5 est en fin de vie, et la version 9.5.4 en particulier comporte de nombreuses vulnérabilités qui la rendent peu sécurisée."
+  },
+  {
+    "row": 141,
+    "rowsha": "WFGonlfHAUrXLLz1p0XG//FCy4Pey4GETUEL2qgC8CE=",
+    "originContent": "Generally, Resolve is not very tolerant of mismatched PostgreSQL versions. Resolve 18 uses PostgreSQL 13, which is what this repository now defaults to. Resolve 17 and below use PostgreSQL 9.5. Unfortunately the major release 9.5 is EOL, and 9.5.4 in particular has a lot of vulnerabilities that make it insecure.",
+    "translatedContent": "Comme la plupart des utilisateurs utilisent encore les identifiants par défaut de Resolve pour leur serveur, la sécurité n'est généralement pas la plus grande préoccupation, mais si vous essayez de sécuriser votre serveur de projet avec une ancienne version de Resolve, vous voudrez passer à une version supportée de PostgreSQL."
+  },
+  {
+    "row": 142,
+    "rowsha": "xUITEvyNtN00NKdfR/9hQvSgK3KBE2L6Y5mSbNEimoE=",
+    "originContent": "Since most people are still using the default Resolve credentials for their server, security generally isn't the biggest concern, but if you are trying to secure your project server with an older version of Resolve, you will want to move to a supported version of PostgreSQL.",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Resolve 17 et les versions antérieures utilisent encore une fonctionnalité héritée qui a été supprimée dans PostgreSQL 12, donc la dernière version majeure utilisable est la 11, qui sera maintenue jusqu'au 9 novembre 2023."
+  },
+  {
+    "row": 144,
+    "rowsha": "chbPgJC+3XDvMfMW/4X4RYoyj53fp1pWoj93GANDsWk=",
+    "originContent": "Resolve 17 and below still use a legacy feature that has been removed in PostgreSQL 12, so the latest major version that is useable is 11, which will be maintained until November 9, 2023.",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Configuration d'un serveur PostgreSQL 9.5 ou 11"
+  },
+  {
+    "row": 146,
+    "rowsha": "gH/uvBFi9nA2E2dt1m28j4t9N32y/EShYTTQVHxDYoM=",
+    "originContent": "### Setting up a PostgreSQL 9.5 or 11 Project Server",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Pour configurer un serveur PostgreSQL 9.5 ou 11 au lieu de 13, il faut modifier 2 lignes dans docker_compose.yml :"
+  },
+  {
+    "row": 148,
+    "rowsha": "+Kx5RiO8rVg3N3rUAttnEr3Q1+k2JF4guKR6SDzoWg4=",
+    "originContent": "To setup a PostgreSQL 9.5 or 11 server instead of 13, there are 2 lines that need to be changed in docker_compose.yml:",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 151,
+    "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
+    "originContent": "services:",
+    "translatedContent": "services:"
+  },
+  {
+    "row": 152,
+    "rowsha": "RxM1+ca5BYuwdcEIyY9wu5MAsGqLbTY2UD2e4sYR1SY=",
+    "originContent": "  postgres:",
+    "translatedContent": "  postgres:"
+  },
+  {
+    "row": 153,
+    "rowsha": "sk+P7URiTsnBYCZ8vixBP3g2APycudwz+2ZflJOe1xI=",
+    "originContent": "    image: postgres:13",
+    "translatedContent": "    image: postgres:13"
+  },
+  {
+    "row": 154,
+    "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+    "originContent": "    ...",
+    "translatedContent": "    ..."
+  },
+  {
+    "row": 155,
+    "rowsha": "c4L2mhEwSfrFiPTci+iwtT/eyEnmt/pg4V79pu+d7rk=",
+    "originContent": "  pgbackups:",
+    "translatedContent": "  pgbackups:"
+  },
+  {
+    "row": 156,
+    "rowsha": "7MvmkHl79EVZgFisCOkcSvloSrabzJRzKAXhKh0M5lM=",
+    "originContent": "    image: prodrigestivill/postgres-backup-local:13",
+    "translatedContent": "    image: prodrigestivill/postgres-backup-local:13"
+  },
+  {
+    "row": 157,
+    "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+    "originContent": "    ...",
+    "translatedContent": "    ..."
+  },
+  {
+    "row": 158,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 159,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "au suivant :"
+  },
+  {
+    "row": 161,
+    "rowsha": "FeVrfDSZASJb4ibw6KYCSStxm6whc9SyvtclOXf3deM=",
+    "originContent": "to the following:",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 164,
+    "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
+    "originContent": "services:",
+    "translatedContent": "services:"
+  },
+  {
+    "row": 165,
+    "rowsha": "RxM1+ca5BYuwdcEIyY9wu5MAsGqLbTY2UD2e4sYR1SY=",
+    "originContent": "  postgres:",
+    "translatedContent": "  postgres:"
+  },
+  {
+    "row": 166,
+    "rowsha": "rwg5tfWETV8vaeDxZQvGH5EoDlB8wUolZy1KNZY8DbQ=",
+    "originContent": "    image: postgres:9.5",
+    "translatedContent": "    image: postgres:9.5"
+  },
+  {
+    "row": 167,
+    "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+    "originContent": "    ...",
+    "translatedContent": "    ..."
+  },
+  {
+    "row": 168,
+    "rowsha": "c4L2mhEwSfrFiPTci+iwtT/eyEnmt/pg4V79pu+d7rk=",
+    "originContent": "  pgbackups:",
+    "translatedContent": "  pgbackups:"
+  },
+  {
+    "row": 169,
+    "rowsha": "da+dSqyE9U36VWUdTd+jZf3AyHRSuAZJjja8N7WKoLA=",
+    "originContent": "    image: prodrigestivill/postgres-backup-local:9.5",
+    "translatedContent": "    image: prodrigestivill/postgres-backup-local:9.5"
+  },
+  {
+    "row": 170,
+    "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+    "originContent": "    ...",
+    "translatedContent": "    ..."
+  },
+  {
+    "row": 171,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 172,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "Hlc2b08rg0LOEYZFWHgWTiwJnUG0U95FbBqSFSDg31k=",
+    "originContent": "## Thanks",
+    "translatedContent": "## Merci"
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "hgNHdHfwmC4lu51ifjLJUUP+0OTeKDzZ0zYIo0XS08s=",
+    "originContent": "-[prodrigestivill](https://github.com/prodrigestivill/) for his [PostgreSQL Backup docker image](https://github.com/prodrigestivill/docker-postgres-backup-local)",
+    "translatedContent": "-[prodrigestivill](https://github.com/prodrigestivill/) pour son [image docker de sauvegarde PostgreSQL](https://github.com/prodrigestivill/docker-postgres-backup-local)"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

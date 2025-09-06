@@ -1,3 +1,34 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Taal</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=en">Engels</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ja">Japans</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ko">Koreaans</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=hi">Hindi</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=th">Thais</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=fr">Frans</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=de">Duits</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=es">Spaans</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=it">Italiaans</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ru">Russisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=pt">Portugees</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=pl">Pools</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ar">Arabisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=fa">Perzisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=tr">Turks</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=vi">Vietnamees</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=id">Indonesisch</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
 CDN-versnelling en beveiligingsbescherming voor dit project worden gesponsord door Tencent EdgeOne.
 
 [![image](https://github.com/user-attachments/assets/059fed87-d415-41b0-a575-2423bf2d77e2)](https://edgeone.ai/?from=github)
@@ -6,41 +37,41 @@ De auteur van dit project is colin1114.
 
 # 🚀 Clash Abonnement Converter
 
-Een fraai vormgegeven en krachtige online tool voor het omzetten van verschillende proxy-abonnementslinks naar het Clash-configuratieformaat. Ondersteunt automatische implementatie via Cloudflare Workers & Pages en biedt snelle, betrouwbare abonnementsconversie.
+Een mooi en krachtig online hulpmiddel om verschillende proxy-abonnementslinks om te zetten naar het Clash-configuratieformaat. Ondersteunt automatische implementatie via Cloudflare Workers & Pages en biedt snelle, betrouwbare abonnementsconversiediensten.
 
-## ✨ Functies en Kenmerken
+## ✨ Functiekenmerken
 
-- 🎨 **Moderne en aantrekkelijke interface** - Met een verloop-achtergrond en kaartontwerp
-- 🔄 **Ondersteuning voor meerdere protocollen** - Ondersteunt de belangrijkste protocollen zoals V2Ray, VLESS, Shadowsocks, Trojan, enz.
-- ☁️ **Cloudimplementatie** - Wereldwijde CDN-versnelling via Cloudflare Workers
-- 📱 **Responsief ontwerp** - Perfect geschikt voor zowel desktop als mobiel
-- ⚡ **Snelle conversie** - Zet abonnementslinks realtime om naar Clash-configuratie
-- 📋 **Slim kopiëren** - Ondersteunt een-klik kopiëren van de gegenereerde YAML-configuratie, compatibel met verschillende browsers
-- 📡 **Abonnementslink generator** - Genereert automatisch een link die direct in Clash geïmporteerd kan worden
+- 🎨 **Aantrekkelijke moderne interface** - Gebruik van een verloopachtergrond en kaartontwerp
+- 🔄 **Ondersteuning voor meerdere protocollen** - Ondersteunt V2Ray, VLESS, Shadowsocks, Trojan en andere populaire protocollen
+- ☁️ **Cloud-implementatie** - Wereldwijde CDN-versnelling via Cloudflare Workers
+- 📱 **Responsief ontwerp** - Perfect geschikt voor desktop en mobiel
+- ⚡ **Snelle conversie** - Zet abonnementslinks direct om naar Clash-configuratie
+- 📋 **Slim kopiëren** - Ondersteunt één-klik kopiëren van de gegenereerde YAML-configuratie, compatibel met alle browsers
+- 📡 **Abonnementslink-generatie** - Genereert automatisch een direct importeerbare Clash-abonnementslink
 - 🌐 **Online YAML-toegang** - Biedt meerdere manieren om YAML-bestanden te benaderen:
   - 📡 Abonnementslink: ondersteunt automatische updates in de Clash-client
-  - 🔗 Online bekijken: bekijk de configuratie direct in de browser
-  - 💾 Bestand downloaden: download het .yaml-bestand naar je lokale apparaat
+  - 🔗 Online bekijken: bekijk configuratie direct in de browser
+  - 💾 Bestandsdownload: download het .yaml-bestand naar je apparaat
   - ⚡ Snelle toegang: vereenvoudigde downloadlink
-- 🔧 **UTF-8 ondersteuning** - Volledige ondersteuning voor Chinese node-namen en configuraties
-- 🆓 **Volledig gratis** - Gebaseerd op de gratis dienst van Cloudflare, zonder gebruiksbeperkingen
+- 🔧 **UTF-8-ondersteuning** - Volledige ondersteuning voor Chinese node-namen en configuraties
+- 🆓 **Volledig gratis** - Gebaseerd op gratis Cloudflare-diensten, zonder gebruiksbeperkingen
 
 ## 📁 Projectstructuur
 
 ```
 clash/
-├── index.html              # Frontend pagina
-├── worker.js               # Cloudflare Worker backend code
-├── wrangler.jsonc          # Wrangler configuratiebestand
-├── _headers                # Cloudflare Pages HTTP-headerconfiguratie
+├── index.html              # 前端页面
+├── worker.js               # Cloudflare Worker 后端代码
+├── wrangler.jsonc          # Wrangler 配置文件
+├── _headers                # Cloudflare Pages HTTP头配置
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml      # GitHub Actions implementatieconfiguratie
-├── README.md              # Projectdocumentatie
-└── package.json           # Projectconfiguratiebestand
+│       └── deploy.yml      # GitHub Actions 部署配置
+├── README.md              # 项目说明文档
+└── package.json           # 项目配置文件
 ```
 
-## 🚀 Snel aan de slag
+## 🚀 Snel starten
 
 ### Methode 1: Lokaal uitvoeren
 
@@ -49,23 +80,23 @@ clash/
    git clone <repository-url>
    cd clash
    ```
+2. **Start de lokale server**
 
-2. **Start lokale server**
    ```bash
-   # Met Python
+   # 使用 Python
    python -m http.server 8000
-
-   # Of met Node.js
+   
+   # 或使用 Node.js
    npx serve .
    ```
 
-3. **Open de applicatie**
+3. **Toegang tot de applicatie**
    - Open de browser en ga naar `http://localhost:8000`
-   - In de lokale omgeving wordt een voorbeeldconfiguratie getoond
+   - In de lokale omgeving wordt de voorbeeldconfiguratie weergegeven
 
 ### Methode 2: Cloudflare Workers implementatie
 
-#### Stap 1: Maak een Worker aan
+#### Stap 1: Worker aanmaken
 
 1. Ga naar [Cloudflare Workers](https://workers.cloudflare.com/)
 2. Registreer/log in op je Cloudflare-account
@@ -73,32 +104,33 @@ clash/
 4. Kopieer de volledige code uit `worker.js` naar de editor
 5. Klik op "Save and Deploy"
 
-#### Stap 2: Deploy met Wrangler CLI
+#### Stap 2: Deployen met Wrangler CLI
 
 ```bash
-# Installeer Wrangler CLI
+# 安装 Wrangler CLI
 npm install -g wrangler
 
-# Log in bij Cloudflare
+# 登录到 Cloudflare
 wrangler login
 
-# Deploy Worker
+# 部署 Worker
 npm run deploy:worker
 ```
 
-#### Stap 3: Domein instellen (optioneel)
+#### Stap 3: Domeinnaam configureren (optioneel)
 
-1. Voeg een aangepast domein toe in de Worker-instellingen
-2. Of gebruik het standaarddomein van Cloudflare
+1. Voeg een aangepaste domeinnaam toe in de Worker-instellingen
+2. Of gebruik de standaarddomeinnaam die door Cloudflare wordt geleverd
 
-### Methode 3: Cloudflare Pages implementatie
+### Methode drie: Cloudflare Pages implementatie
 
-#### Optie A: GitHub integratie (aanbevolen)
+#### Optie A: GitHub-integratie (aanbevolen)
 
-1. **Bereid de repository voor**
+1. **Repository voorbereiden**
    - Push de code naar een GitHub-repository
-   - Zorg ervoor dat alle benodigde bestanden aanwezig zijn
-2. **Een Pages-project aanmaken**
+   - Zorg dat alle benodigde bestanden zijn inbegrepen
+
+2. **Pages-project aanmaken**
    - Bezoek [Cloudflare Pages](https://pages.cloudflare.com/)
    - Verbind je GitHub-repository
    - Selecteer de projectrepository
@@ -106,200 +138,202 @@ npm run deploy:worker
 3. **Build-instellingen**
    - Build-commando: leeg laten of `echo "No build required"`
    - Build-uitvoermap: `/` (rootmap)
-   - Omgevingsvariabelen: niet nodig
+   - Omgevingsvariabelen: geen instellingen nodig
 
 #### Optie B: Direct uploaden
 
 ```bash
-# Deployen met Wrangler Pages
+# 使用 Wrangler Pages 部署
 npm run deploy:pages
 ```
 
-## 🛠️ Technische architectuur
+## 🛠️ Technische Architectuur
 
-### Frontend-technologiestack
-- **HTML5** - Moderne opmaaktalen
-- **CSS3** - Responsief ontwerp en animatie
+### Frontend Technologie Stack
+- **HTML5** - Moderne markup-taal
+- **CSS3** - Responsief ontwerp en animatie-effecten
 - **Vanilla JavaScript** - Lichtgewicht frontend-interactie
 
-### Backend-technologiestack
+### Backend Technologie Stack
 - **Cloudflare Workers** - Edge computing platform
-- **Web API's** - Standaard Fetch API en response-afhandeling
+- **Web APIs** - Standaard Fetch API en response-afhandeling
 
 ### Ondersteunde protocolformaten
-- **VMess** - V2Ray-standaardprotocol
-- **VLESS** - V2Ray-lichtgewichtprotocol (ondersteunt Reality)
+- **VMess** - V2Ray standaardprotocol
+- **VLESS** - V2Ray lichtgewicht protocol (ondersteunt Reality)
 - **Shadowsocks** - Klassiek proxyprotocol
-- **Trojan** - Modern proxyprotocol
+- **Trojan** - Opkomend proxyprotocol
 
-### API-eindpunten
+### API Endpoints
 - `GET /` - Hoofdpagina
-- `POST /convert` - Subscription conversie-API
-- `GET /clash/{config-id}` - Haal YAML-configuratiebestand op (abonnementslink)
+- `POST /convert` - Subscriptie-conversie API
+- `GET /clash/{config-id}` - Haal YAML-configuratiebestand op (subscriptielink)
 - `GET /yaml/{config-id}` - Download YAML-configuratiebestand
-- `OPTIONS /*` - CORS preflight-verzoek
+- `OPTIONS /*` - CORS preflight-verzoeken
 
 ## 📖 Gebruiksaanwijzing
 
 ### Basisgebruik
 
-1. **Voer de abonnementslink in**
-   - Plak je proxy-abonnementslink in het invoerveld
-   - Ondersteunt Base64-gecodeerde abonnementslinks
+1. **Voer subscriptielink in**
+   - Plak je proxy-subscriptielink in het invoerveld
+   - Ondersteunt Base64-gecodeerde subscriptielinks
 
-2. **Configuratienaam instellen**
-   - Optioneel een aangepaste naam voor het configuratiebestand instellen
-   - Standaard is "My Clash Config"
+2. **Stel configuratienaam in**
+   - Optioneel een aangepaste naam geven aan het configuratiebestand
+   - Standaard is "Mijn Clash Config"
 
-3. **Configuratie converteren**
-   - Klik op de knop "Converteren"
+3. **Converteer configuratie**
+   - Klik op de knop "Subscriptie converteren"
    - Wacht tot de conversie voltooid is
 
 4. **Configuratie gebruiken**
    - Kopieer de gegenereerde YAML-configuratie
-   - Importeer deze in de Clash-client
+   - Importeer deze in de Clash-client om te gebruiken
 
-5. **Gebruik de abonnementslink (aanbevolen)**
+5. **Gebruik van abonnementslink (aanbevolen)**
    - Kopieer de gegenereerde abonnementslink
-   - Voeg deze toe in de Clash-client
-   - Configuratie wordt automatisch gesynchroniseerd, geen handmatige updates nodig
+   - Voeg het abonnement toe in de Clash-client
+   - Configuratie wordt automatisch gesynchroniseerd, handmatig updaten is niet nodig
 
 ### Geavanceerde configuratie
 
 De gegenereerde Clash-configuratie bevat de volgende kenmerken:
 
 - **Proxygroepbeleid**
-  - 🚀 Node Selectie - Handmatig proxy kiezen
-  - ♻️ Automatische selectie - Automatisch kiezen op basis van latency-tests
-  - 🎯 Global Direct - Directe verbinding
+  - 🚀 Node-selectie - Handmatig proxy kiezen
+  - ♻️ Automatische selectie - Automatische keuze op basis van vertragingstest
+  - 🎯 Wereldwijd directe verbinding - Direct verbinden
 
-- **DNS-instellingen**
-  - DNS-resolutie ingeschakeld
-  - Ondersteunt fake-ip-modus
-  - DNS-splitting binnen/buitenland
+- **DNS-configuratie**
+  - DNS-resolutie inschakelen
+  - Ondersteuning voor fake-ip modus
+  - DNS-splitsing voor binnen- en buitenland
 
-- **Routeregels**
+- **Routeringsregels**
   - Lokale adressen direct verbinden
-  - Chinese IP's direct verbinden
-  - Overig verkeer via proxy
+  - Binnenlandse IP’s direct verbinden
+  - Overig verkeer via proxy laten lopen
 
-## 🔧 Foutopsporing bij deployment
+## 🔧 Problemen met implementatie oplossen
 
 ### Veelvoorkomende problemen
 
-#### 1. Wrangler kan het entry-point niet vinden
+#### 1. Wrangler kan het entrypoint niet vinden
 **Foutmelding**: `Missing entry-point to Worker script`
 
 **Oplossing**: 
-- Zorg dat er een `wrangler.jsonc` bestand in de rootmap van het project staat
+- Zorg ervoor dat er een `wrangler.jsonc` bestand is in de hoofdmap van het project
 - Controleer of het `main` veld in `wrangler.jsonc` verwijst naar `worker.js`
 
-#### 2. GitHub Actions deployment mislukt
+#### 2. GitHub Actions Deploy Mislukt
 **Oplossing**:
-- Voeg de volgende Secrets toe in de instellingen van je GitHub-repository:
+- Voeg de volgende Secrets toe in de GitHub repository-instellingen:
   - `CLOUDFLARE_API_TOKEN`: Cloudflare API-token
   - `CLOUDFLARE_ACCOUNT_ID`: Cloudflare account-ID
 
-#### 3. Pages build mislukt
+#### 3. Pages Build Mislukt
 **Oplossing**:
 - Stel het build-commando in op leeg of `echo "No build required"`
-- Zorg ervoor dat de build-uitvoermap is ingesteld op `/`
+- Zorg ervoor dat de build-outputdirectory is ingesteld op `/`
 
-### Uitleg van de deployconfiguratiebestanden
+### Uitleg van Deploy Configuratiebestanden
 
-- **`wrangler.jsonc`**: Wrangler CLI-configuratie voor Worker-deploy
+- **`wrangler.jsonc`**: Wrangler CLI-configuratie voor Worker-deployment
 - **`_headers`**: Cloudflare Pages HTTP-headerconfiguratie
-- **`.github/workflows/deploy.yml`**: GitHub Actions automatische deployconfiguratie
+- **`.github/workflows/deploy.yml`**: GitHub Actions automatische deploy-configuratie
 
-## 🔧 Aangepaste configuratie
+## 🔧 Aangepaste Configuratie
 
-### Proxygroepen wijzigen
+### Proxygroep Wijzigen
 
 Je kunt de functie `convertToClash` in `worker.js` bewerken om proxygroepen aan te passen:
 
 ```javascript
 'proxy-groups': [
   {
-    name: '🚀 Nodekeuze',
+    name: '🚀 节点选择',
     type: 'select',
-    proxies: ['♻️ Automatische selectie', '🎯 Wereldwijde directe verbinding', ...proxyNames]
+    proxies: ['♻️ 自动选择', '🎯 全球直连', ...proxyNames]
   },
-  // Meer proxygroepen toevoegen...
+  // 添加更多代理组...
 ]
 ```
 
-### Aangepaste routeregels
+### Aangepaste routeringsregels
 
-Wijzig de array `rules` om aangepaste routeregels toe te voegen:
+Wijzig de `rules` array om aangepaste routeringsregels toe te voegen:
 
 ```javascript
 rules: [
-  'DOMAIN-SUFFIX,youtube.com,🚀 Nodekeuze',
+  'DOMAIN-SUFFIX,youtube.com,🚀 节点选择',
   'DOMAIN-SUFFIX,local,DIRECT',
-  // Meer regels toevoegen...
+  // 添加更多规则...
 ]
 ```
 
 ## 📊 Prestatiekenmerken
 
-- **Wereldwijde CDN** - Cloudflare heeft een wereldwijde edge node-dekking
+- **Globale CDN** - Cloudflare met wereldwijde edge nodes
 - **Snelle respons** - Gemiddelde responstijd < 100ms
-- **Hoge beschikbaarheid** - 99,9% servicebeschikbaarheid
+- **Hoge beschikbaarheid** - 99,9% service beschikbaarheid
 - **Gratis limiet** - 100.000 verzoeken per dag
 
 ## 🔒 Veiligheidsverklaring
 
-- **Gegevensprivacy** - Abonnementsgegevens worden alleen gebruikt tijdens conversie en niet opgeslagen
-- **HTTPS-versleuteling** - Alle communicatie is versleuteld via HTTPS
-- **Open source transparantie** - Volledige broncode is openbaar en kan zelf worden gecontroleerd
+- **Gegevensprivacy** - Abonnementsgegevens worden alleen gebruikt tijdens conversie, niet opgeslagen
+- **HTTPS-encryptie** - Alle communicatie is versleuteld via HTTPS
+- **Open source transparantie** - Volledige broncode openbaar, zelf te auditen
 
-## 🤝 Richtlijnen voor bijdragen
+## 🤝 Bijdragegids
 
-Issues en Pull Requests zijn van harte welkom!
+Issues en Pull Requests zijn welkom!
 
 1. Fork deze repository
-2. Maak een feature branch (`git checkout -b feature/AmazingFeature`)
+2. Maak een feature branch aan (`git checkout -b feature/AmazingFeature`)
 3. Commit je wijzigingen (`git commit -m 'Add some AmazingFeature'`)
 4. Push naar de branch (`git push origin feature/AmazingFeature`)
-5. Maak een Pull Request aan
+5. Start een Pull Request
 
-## 📝 Changelog
+## 📝 Wijzigingslog
 
 ### v1.1.0
-- ✅ Ondersteuning voor VLESS-protocol toegevoegd (inclusief Reality-beveiligde overdracht)
+- ✅ VLESS-protocol ondersteuning toegevoegd (inclusief Reality beveiligde overdracht)
 - ✅ Verbeterde protocolcompatibiliteit
 
 ### v1.0.0
-- ✅ Basis abonnementconversie
-- ✅ Mooie gebruikersinterface
-- ✅ Cloudflare Workers-ondersteuning
-- ✅ Multi-protocolondersteuning (VMess, Shadowsocks, Trojan)
-- ✅ Responsief design
+- ✅ Basisfunctie voor abonnementsconversie
+- ✅ Fraaie gebruikersinterface
+- ✅ Cloudflare Workers ondersteuning
+- ✅ Ondersteuning voor meerdere protocollen (VMess, Shadowsocks, Trojan)
+- ✅ Responsief ontwerp
 - ✅ One-click kopieerfunctie
 
 ## 📞 Support en feedback
 
-Als je problemen ondervindt tijdens het gebruik of suggesties hebt, graag:
+Als je tijdens het gebruik problemen ondervindt of suggesties hebt, doe dan het volgende:
 
-1. Bekijk deze README-documentatie
+1. Bekijk dit README-document
 2. Dien een [Issue](../../issues) in
 3. Start een [Discussion](../../discussions)
 
 ## 📄 Licentie
 
-Dit project is gelicentieerd onder de MIT-licentie – zie het [LICENSE](LICENSE) bestand voor details
+Dit project gebruikt de MIT-licentie – zie het [LICENSE](LICENSE) bestand voor meer informatie
 
-## 🙏 Dankwoord
+## 🙏 Dankbetuigingen
 
-- [Cloudflare Workers](https://workers.cloudflare.com/) – Edge computing platform
-- [Clash](https://github.com/Dreamacro/clash) – Uitstekende proxyclient
+- [Cloudflare Workers](https://workers.cloudflare.com/) – biedt edge computing platform
+- [Clash](https://github.com/Dreamacro/clash) – uitstekende proxy-client
 - Alle bijdragers en gebruikers voor hun steun
 
 ---
-⭐ Als dit project je heeft geholpen, geef het dan een ster!
+
+⭐ Als dit project je heeft geholpen, geef het dan een Star! 
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

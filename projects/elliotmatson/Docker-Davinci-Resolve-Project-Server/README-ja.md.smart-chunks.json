@@ -1,0 +1,1233 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Davinci Resolve Project Server\n\n![Lint](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/lint.yml/badge.svg)\n![Healthcheck](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/stack-healthcheck.yml/badge.svg)\n![Docker Build](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/docker.yml/badge.svg)\n\nSimple Resolve project server with automatic backups\n\n## Table of Contents\n\n- [Davinci Resolve Project Server](#davinci-resolve-project-server)\n  - [Table of Contents](#table-of-contents)\n  - [Introduction](#introduction)\n    - [Features](#features)\n  - [Configuration](#configuration)\n    - [Database](#database)\n    - [Backups](#backups)\n    - [PGAdmin](#pgadmin)\n    - [Volume Locations](#volume-locations)\n  - [Installation](#installation)\n    - [QNAP Installation](#qnap-installation)\n    - [Synology](#synology)\n    - [Linux](#linux)\n  - [Different PostgreSQL versions](#different-postgresql-versions)\n    - [Setting up a PostgreSQL 9.5 or 11 Project Server](#setting-up-a-postgresql-95-or-11-project-server)\n  - [Thanks](#thanks)\n\n## Introduction\n\nThere are a lot of ways to host a Resolve project server, but each of them has their own set of issues. The official project server requires manual backups, and other options can be complicated for those that don't have access to an IT team. Hopefully this is a more reliable and simpler solution for smaller teams!\n\n### Features\n\n- **Lightweight** - Docker based, so doesn't require a full macOS or Windows machine or VM.\n- **Platform Independent** - can be installed on Windows, Mac, Linux, QNAP, Synology, RPi, really anything that can run Docker.\n- **Compatible with Resolve's existing backup/restore functions** - All backup files use the standard Resolve \\*.backup file syntax, and can be restored from the Resolve UI\n- **Built-in PGAdmin Server** - PGAdmin is a tool for administering a PostgreSQL Server, and is helpful for diagnosing problems and migrating/updating entire servers\n\n## Configuration\n",
+    "ContentSha": "eqOIsONmkC2gZRx2EzVcgT9ngLLs2IYERLOXPevG/3Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Davinci Resolve プロジェクトサーバー\n\n![Lint](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/lint.yml/badge.svg)\n![Healthcheck](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/stack-healthcheck.yml/badge.svg)\n![Docker Build](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/docker.yml/badge.svg)\n\n自動バックアップ機能付きのシンプルなResolveプロジェクトサーバー\n\n## 目次\n\n- [Davinci Resolve プロジェクトサーバー](#davinci-resolve-project-server)\n  - [目次](#table-of-contents)\n  - [紹介](#introduction)\n    - [特徴](#features)\n  - [設定](#configuration)\n    - [データベース](#database)\n    - [バックアップ](#backups)\n    - [PGAdmin](#pgadmin)\n    - [ボリュームの場所](#volume-locations)\n  - [インストール](#installation)\n    - [QNAP インストール](#qnap-installation)\n    - [Synology](#synology)\n    - [Linux](#linux)\n  - [異なるPostgreSQLバージョン](#different-postgresql-versions)\n    - [PostgreSQL 9.5または11のプロジェクトサーバー設定](#setting-up-a-postgresql-95-or-11-project-server)\n  - [感謝](#thanks)\n\n## 紹介\n\nResolveプロジェクトサーバーをホストする方法は多くありますが、それぞれに独自の問題点があります。公式のプロジェクトサーバーは手動バックアップが必要であり、他のオプションはITチームにアクセスできない人には複雑な場合があります。これが小規模チームにとってより信頼性が高くシンプルなソリューションになることを願っています！\n\n### 特徴\n\n- **軽量** - Dockerベースなので、完全なmacOSやWindowsマシンやVMを必要としません。\n- **プラットフォーム独立** - Windows、Mac、Linux、QNAP、Synology、RPi、Dockerが動作するほぼすべての環境にインストール可能。\n- **Resolveの既存のバックアップ/復元機能と互換性あり** - すべてのバックアップファイルは標準のResolve \\*.backupファイル構文を使用し、ResolveのUIから復元可能。\n- **組み込みPGAdminサーバー** - PGAdminはPostgreSQLサーバーの管理ツールであり、問題の診断やサーバー全体の移行/更新に役立ちます。\n\n## 設定\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "iQFzvuvM4PNvyaGE0TMe1UswHLxDOcOgOWQSwBy3TGY=",
+        "originContent": "# Davinci Resolve Project Server",
+        "translatedContent": "# Davinci Resolve プロジェクトサーバー"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "rRJkR2g93robTtAn4DBca/pzXbZn6Rz7TLTAqO4Owmw=",
+        "originContent": "![Lint](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/lint.yml/badge.svg)",
+        "translatedContent": "![Lint](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/lint.yml/badge.svg)"
+      },
+      {
+        "row": 4,
+        "rowsha": "TO3Xv2/qTlwDvPzq5n/Y9+tcpqdR2b5lHoxMaTUzSww=",
+        "originContent": "![Healthcheck](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/stack-healthcheck.yml/badge.svg)",
+        "translatedContent": "![Healthcheck](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/stack-healthcheck.yml/badge.svg)"
+      },
+      {
+        "row": 5,
+        "rowsha": "+R37PIjZvQZB1ZGEyKZcBr18jNR/A+cZCc5Y5wPFKp0=",
+        "originContent": "![Docker Build](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/docker.yml/badge.svg)",
+        "translatedContent": "![Docker Build](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/actions/workflows/docker.yml/badge.svg)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "vM0QJM8wIANMBD5gnIUqWCtwSSUXmmoY1UPayoE0x5k=",
+        "originContent": "Simple Resolve project server with automatic backups",
+        "translatedContent": "自動バックアップ機能付きのシンプルなResolveプロジェクトサーバー"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## 目次"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "L3B8vaT0irLw9iyFmhbCncS9kC659CGueOPmdDaCuFY=",
+        "originContent": "- [Davinci Resolve Project Server](#davinci-resolve-project-server)",
+        "translatedContent": "- [Davinci Resolve プロジェクトサーバー](#davinci-resolve-project-server)"
+      },
+      {
+        "row": 12,
+        "rowsha": "rbf5P9OxCt4F1ggKqu9dCs3W4wnIQt4H87gCRUu9i3E=",
+        "originContent": "  - [Table of Contents](#table-of-contents)",
+        "translatedContent": "  - [目次](#table-of-contents)"
+      },
+      {
+        "row": 13,
+        "rowsha": "AV6rlnKXKlVoyOh4sfHqXEBuPYfJXMYplV2Z0tscdko=",
+        "originContent": "  - [Introduction](#introduction)",
+        "translatedContent": "  - [紹介](#introduction)"
+      },
+      {
+        "row": 14,
+        "rowsha": "7Rgn9Zq7VlirhEoT3v1UzWw9lSEL3L2ovyj3aI+VY6g=",
+        "originContent": "    - [Features](#features)",
+        "translatedContent": "    - [特徴](#features)"
+      },
+      {
+        "row": 15,
+        "rowsha": "wxkJlj3t0pQM9qlDaQE0Cv9SLmM3VYVAPirO9Bv1OP0=",
+        "originContent": "  - [Configuration](#configuration)",
+        "translatedContent": "  - [設定](#configuration)"
+      },
+      {
+        "row": 16,
+        "rowsha": "7uVihZ72qKFGV9+KcCEt9GuxKOxxNkyTKFTrVnuVw1w=",
+        "originContent": "    - [Database](#database)",
+        "translatedContent": "    - [データベース](#database)"
+      },
+      {
+        "row": 17,
+        "rowsha": "8ay+BInRqOGIU9M9gClr960LemH/SafYsPIWcicNf84=",
+        "originContent": "    - [Backups](#backups)",
+        "translatedContent": "    - [バックアップ](#backups)"
+      },
+      {
+        "row": 18,
+        "rowsha": "7MVqv+yo/OGJmOVLZ6sqcE9Sy1I8g+2MdDDWdVG0wDs=",
+        "originContent": "    - [PGAdmin](#pgadmin)",
+        "translatedContent": "    - [PGAdmin](#pgadmin)"
+      },
+      {
+        "row": 19,
+        "rowsha": "3/GXfwiIYbLIlKqGmPuFhk3TlZOo8ZpeDpfSt3Fp4OY=",
+        "originContent": "    - [Volume Locations](#volume-locations)",
+        "translatedContent": "    - [ボリュームの場所](#volume-locations)"
+      },
+      {
+        "row": 20,
+        "rowsha": "oapd4x/k4MmgQH79peLmRYrMcMwn6ZeLuzEqQYF2TeM=",
+        "originContent": "  - [Installation](#installation)",
+        "translatedContent": "  - [インストール](#installation)"
+      },
+      {
+        "row": 21,
+        "rowsha": "GPXoBZY7kv1W/ZbZmlIiP6FB2tLlPWutDy2yUdD2pMo=",
+        "originContent": "    - [QNAP Installation](#qnap-installation)",
+        "translatedContent": "    - [QNAP インストール](#qnap-installation)"
+      },
+      {
+        "row": 22,
+        "rowsha": "0oSxToVzSvZIYy+t0tKZKaQpRUZ7oW98ggpZHpSBloA=",
+        "originContent": "    - [Synology](#synology)",
+        "translatedContent": "    - [Synology](#synology)"
+      },
+      {
+        "row": 23,
+        "rowsha": "L/La6anXSnz10oqQkyNKVNSNWw2UyiwzAaULUiYxCo8=",
+        "originContent": "    - [Linux](#linux)",
+        "translatedContent": "    - [Linux](#linux)"
+      },
+      {
+        "row": 24,
+        "rowsha": "VYKTqZreHsaSi9zKXp/vSAKLf9GJ9XwUaOSkQpxRKCw=",
+        "originContent": "  - [Different PostgreSQL versions](#different-postgresql-versions)",
+        "translatedContent": "  - [異なるPostgreSQLバージョン](#different-postgresql-versions)"
+      },
+      {
+        "row": 25,
+        "rowsha": "z8Uh7jNayntyOMVLePX75+v+ycoGCaDlR26j9T3g+so=",
+        "originContent": "    - [Setting up a PostgreSQL 9.5 or 11 Project Server](#setting-up-a-postgresql-95-or-11-project-server)",
+        "translatedContent": "    - [PostgreSQL 9.5または11のプロジェクトサーバー設定](#setting-up-a-postgresql-95-or-11-project-server)"
+      },
+      {
+        "row": 26,
+        "rowsha": "mCoGVwUMcZ0RYoK/gvKX6pORSpmpElqHwA1qQAjLVcE=",
+        "originContent": "  - [Thanks](#thanks)",
+        "translatedContent": "  - [感謝](#thanks)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+        "originContent": "## Introduction",
+        "translatedContent": "## 紹介"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "ql7QyIYnFV7SQhRVJkYHs97CtDbULdzJwDVvwL66o0I=",
+        "originContent": "There are a lot of ways to host a Resolve project server, but each of them has their own set of issues. The official project server requires manual backups, and other options can be complicated for those that don't have access to an IT team. Hopefully this is a more reliable and simpler solution for smaller teams!",
+        "translatedContent": "Resolveプロジェクトサーバーをホストする方法は多くありますが、それぞれに独自の問題点があります。公式のプロジェクトサーバーは手動バックアップが必要であり、他のオプションはITチームにアクセスできない人には複雑な場合があります。これが小規模チームにとってより信頼性が高くシンプルなソリューションになることを願っています！"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "Va7ER4dHPfmt1CvLSeep2AEpy33nUzxb+6qMZz++7BQ=",
+        "originContent": "### Features",
+        "translatedContent": "### 特徴"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Opu8YSgma2wnFSkTRDBX/VlRZaKHpAzyobXvQ/84WOo=",
+        "originContent": "- **Lightweight** - Docker based, so doesn't require a full macOS or Windows machine or VM.",
+        "translatedContent": "- **軽量** - Dockerベースなので、完全なmacOSやWindowsマシンやVMを必要としません。"
+      },
+      {
+        "row": 35,
+        "rowsha": "sf1WN/0Eiq7837Gqv6Fwy4PNLPntZ05oTjRT6Nwtcps=",
+        "originContent": "- **Platform Independent** - can be installed on Windows, Mac, Linux, QNAP, Synology, RPi, really anything that can run Docker.",
+        "translatedContent": "- **プラットフォーム独立** - Windows、Mac、Linux、QNAP、Synology、RPi、Dockerが動作するほぼすべての環境にインストール可能。"
+      },
+      {
+        "row": 36,
+        "rowsha": "cye9MrDH22aVxFR0BQf4olSKnrIIzqwjiMOzDRhg0XI=",
+        "originContent": "- **Compatible with Resolve's existing backup/restore functions** - All backup files use the standard Resolve \\*.backup file syntax, and can be restored from the Resolve UI",
+        "translatedContent": "- **Resolveの既存のバックアップ/復元機能と互換性あり** - すべてのバックアップファイルは標準のResolve \\*.backupファイル構文を使用し、ResolveのUIから復元可能。"
+      },
+      {
+        "row": 37,
+        "rowsha": "L217MlmnW9rCkI9E/FFZoi+xOFgF/Xu1Jl6h2IIe8RY=",
+        "originContent": "- **Built-in PGAdmin Server** - PGAdmin is a tool for administering a PostgreSQL Server, and is helpful for diagnosing problems and migrating/updating entire servers",
+        "translatedContent": "- **組み込みPGAdminサーバー** - PGAdminはPostgreSQLサーバーの管理ツールであり、問題の診断やサーバー全体の移行/更新に役立ちます。"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": "## 設定"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "There are a few things we'll need to edit at the top of the docker-compose.yml file to configure our installation:\n",
+    "ContentSha": "dhF3ZU3aM52OhqjHvGbEhC3yFvtCg+nWEb/SvpoAKrg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "docker-compose.ymlファイルの先頭で、インストールを構成するために編集が必要な項目がいくつかあります：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cT9kYg2M867dvM3yYvoRYlkrMMhrVSrsg4zR1HYVNSg=",
+        "originContent": "There are a few things we'll need to edit at the top of the docker-compose.yml file to configure our installation:",
+        "translatedContent": "docker-compose.ymlファイルの先頭で、インストールを構成するために編集が必要な項目がいくつかあります："
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```yaml\n---\nversion: \"3.8\"\nx-common:\n  database: &db-environment\n    POSTGRES_DB: database\n    POSTGRES_USER: &pg-user postgres\n    POSTGRES_PASSWORD: DaVinci\n    TZ: America/Chicago\n    POSTGRES_LOCATION: &db-location \"???:/var/lib/postgresql/data\"\n  backup: &backup-environment\n    SCHEDULE: \"@daily\"\n    BACKUP_KEEP_DAYS: 7\n    BACKUP_KEEP_WEEKS: 4\n    BACKUP_KEEP_MONTHS: 6\n    BACKUP_LOCATION: &bk-location \"???:/backups\"\n  admin: &admin-environment\n    PGADMIN_DEFAULT_EMAIL: admin@admin.com\n    PGADMIN_DEFAULT_PASSWORD: root\n    PGADMIN_PORT: &pgadmin-port \"3001:80\"\n```",
+    "ContentSha": "K5W57NIp3oVg2AQo2MxIMkTq0MQWNjL6coO49IwjbQg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\n---\nversion: \"3.8\"\nx-common:\n  database: &db-environment\n    POSTGRES_DB: database\n    POSTGRES_USER: &pg-user postgres\n    POSTGRES_PASSWORD: DaVinci\n    TZ: America/Chicago\n    POSTGRES_LOCATION: &db-location \"???:/var/lib/postgresql/data\"\n  backup: &backup-environment\n    SCHEDULE: \"@daily\"\n    BACKUP_KEEP_DAYS: 7\n    BACKUP_KEEP_WEEKS: 4\n    BACKUP_KEEP_MONTHS: 6\n    BACKUP_LOCATION: &bk-location \"???:/backups\"\n  admin: &admin-environment\n    PGADMIN_DEFAULT_EMAIL: admin@admin.com\n    PGADMIN_DEFAULT_PASSWORD: root\n    PGADMIN_PORT: &pgadmin-port \"3001:80\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "sOSZl/TStAc2vQd27VVZ3ruSu/ugTKjTwhftrmMjkiI=",
+        "originContent": "version: \"3.8\"",
+        "translatedContent": "version: \"3.8\""
+      },
+      {
+        "row": 4,
+        "rowsha": "pqYT98eU3rUDvydGZzdeM2T7Qzt6fhXiTdYPcQdidsw=",
+        "originContent": "x-common:",
+        "translatedContent": "x-common:"
+      },
+      {
+        "row": 5,
+        "rowsha": "2nqQzAP+LjTyc8EIaABe+OX+H1eYjT6ieMhfpI8MJGw=",
+        "originContent": "  database: &db-environment",
+        "translatedContent": "  database: &db-environment"
+      },
+      {
+        "row": 6,
+        "rowsha": "a5qu28En2uwJiYonOI3uXYbwpdFzuLCdK0bHYE3ORKA=",
+        "originContent": "    POSTGRES_DB: database",
+        "translatedContent": "    POSTGRES_DB: database"
+      },
+      {
+        "row": 7,
+        "rowsha": "px+d0Z+KH8uHr6ZTExUg0DyE7I4DQ+CA3KLN5gfQIg8=",
+        "originContent": "    POSTGRES_USER: &pg-user postgres",
+        "translatedContent": "    POSTGRES_USER: &pg-user postgres"
+      },
+      {
+        "row": 8,
+        "rowsha": "pW3PMzdaEyF2LIAKpa7oQktIta0Z2az99uP+6lYr21c=",
+        "originContent": "    POSTGRES_PASSWORD: DaVinci",
+        "translatedContent": "    POSTGRES_PASSWORD: DaVinci"
+      },
+      {
+        "row": 9,
+        "rowsha": "9r6oJ3Ih1/tPpRcWryZ1TtxxfMyL41eXMwOJDDM6D5Q=",
+        "originContent": "    TZ: America/Chicago",
+        "translatedContent": "    TZ: America/Chicago"
+      },
+      {
+        "row": 10,
+        "rowsha": "CaVqQVa0tHEW8eHSddjssucL+wqJwuX8YddvXoZyF48=",
+        "originContent": "    POSTGRES_LOCATION: &db-location \"???:/var/lib/postgresql/data\"",
+        "translatedContent": "    POSTGRES_LOCATION: &db-location \"???:/var/lib/postgresql/data\""
+      },
+      {
+        "row": 11,
+        "rowsha": "qe1Y+Gu8WyzuHVpwPtWvwYIjxRCjkNnUneQ16S1xvBc=",
+        "originContent": "  backup: &backup-environment",
+        "translatedContent": "  backup: &backup-environment"
+      },
+      {
+        "row": 12,
+        "rowsha": "Ijy87QvG9GEblgA1aTHjvyjEvKLa/RNwwmeJ/DFXErM=",
+        "originContent": "    SCHEDULE: \"@daily\"",
+        "translatedContent": "    SCHEDULE: \"@daily\""
+      },
+      {
+        "row": 13,
+        "rowsha": "aklkLJyQ4am7IZrOhjFaJMr+udEUjjJSnWgjMTTx6HI=",
+        "originContent": "    BACKUP_KEEP_DAYS: 7",
+        "translatedContent": "    BACKUP_KEEP_DAYS: 7"
+      },
+      {
+        "row": 14,
+        "rowsha": "8VCXSg+qVcvTnjBuxKL8UCiH+UOFSkpD4fQ6eYjyMLY=",
+        "originContent": "    BACKUP_KEEP_WEEKS: 4",
+        "translatedContent": "    BACKUP_KEEP_WEEKS: 4"
+      },
+      {
+        "row": 15,
+        "rowsha": "gESVAqgPMxCN97ufC2uXIUf14Z0he9dPoTbojX4KVQQ=",
+        "originContent": "    BACKUP_KEEP_MONTHS: 6",
+        "translatedContent": "    BACKUP_KEEP_MONTHS: 6"
+      },
+      {
+        "row": 16,
+        "rowsha": "R8br9RGH5YbK5WO2tbh5PITpQ01WKzZ3dgVMJZxr7vo=",
+        "originContent": "    BACKUP_LOCATION: &bk-location \"???:/backups\"",
+        "translatedContent": "    BACKUP_LOCATION: &bk-location \"???:/backups\""
+      },
+      {
+        "row": 17,
+        "rowsha": "lxX3PE+5/PWOlDeXkxhTo1FDMPjqL1bfCVeYkob1/og=",
+        "originContent": "  admin: &admin-environment",
+        "translatedContent": "  admin: &admin-environment"
+      },
+      {
+        "row": 18,
+        "rowsha": "T1sqwt3l/gbrlnESOrZFLCnp7zMJYJzcw4ozLrfhGA8=",
+        "originContent": "    PGADMIN_DEFAULT_EMAIL: admin@admin.com",
+        "translatedContent": "    PGADMIN_DEFAULT_EMAIL: admin@admin.com"
+      },
+      {
+        "row": 19,
+        "rowsha": "dJMw0Y2VsL7w7FCIHsN7pWq3WJMEawnAMpXlJqkWmmo=",
+        "originContent": "    PGADMIN_DEFAULT_PASSWORD: root",
+        "translatedContent": "    PGADMIN_DEFAULT_PASSWORD: root"
+      },
+      {
+        "row": 20,
+        "rowsha": "kvfBg4esPHQvy8Uvo6iGRR8tv11dJHSeCDFxhNrnubs=",
+        "originContent": "    PGADMIN_PORT: &pgadmin-port \"3001:80\"",
+        "translatedContent": "    PGADMIN_PORT: &pgadmin-port \"3001:80\""
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n### Database\n\nTo configure the server itself, we'll want to configure the environment variables below:\n| Environment Variable |Meaning|\n|---|---|\n| POSTGRES_DB | Name of your database. Name it whatever you like. |\n| POSTGRES_USER | Username you will use to connect to your database. The Resolve default is \"postgres\" |\n| POSTGRES_PASSWORD | Password you will use to connect to your database. The Resolve default is \"DaVinci\" |\n| TZ | Your timezone, here is [a list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)|\n| POSTGRES_LOCATION | Location your database will be stored. See [Volume Locations](#volume-locations) |\n\n### Backups\n\nTo configure the backups, we'll want to configure the variables below:\n| Environment Variable |Meaning|\n|---|---|\n| SCHEDULE | This is a [cron string](https://www.freeformatter.com/cron-expression-generator-quartz.html) for how often backups are created. can be \"@daily\", \"@every 1h\", etc |\n| BACKUP_KEEP_DAYS | Number of daily backups to keep before removal. |\n| BACKUP_KEEP_WEEKS | Number of weekly backups to keep before removal. |\n| BACKUP_KEEP_MONTHS | Number of monthly backups to keep before removal. |\n| BACKUP_LOCATION | Location your backups will be stored. See [Volume Locations](#volume-locations) |\n\n### PGAdmin\n\nTo configure PGAdmin, we'll want to configure the variables below:\n| Environment Variable |Meaning|\n|---|---|\n| PGADMIN_DEFAULT_EMAIL | Email used for PGAdmin login. Default is \"admin@admin.com\" |\n| PGADMIN_DEFAULT_PASSWORD | Password used for PGAdmin login. Default is \"root\" |\n| PGADMIN_PORT | String configuring port to expose PGAdmin on. Syntax is \"YOUR_PORT:80\" |\n\n### Volume Locations\n\nThe location of your database and backups depend on what platform you are installing on. You will need the full path to the folder you want them stored in. On a QNAP NAS for example, if I wanted to use a folder called \"Backups\" inside a shared folder named \"Videos\" for my backups location, the path would be `/shares/Videos/Backups/`, and my `BACKUP_LOCATION` value would look like this:\n",
+    "ContentSha": "3nb/NXAJ7es7vH2BbzopmsRdNkrGCeCo7vcnna5mEpA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### データベース\n\nサーバー自体を設定するには、以下の環境変数を設定します：\n| 環境変数 | 意味 |\n|---|---|\n| POSTGRES_DB | データベース名。好きな名前を付けてください。 |\n| POSTGRES_USER | データベースに接続するためのユーザー名。Resolveのデフォルトは「postgres」です。 |\n| POSTGRES_PASSWORD | データベースに接続するためのパスワード。Resolveのデフォルトは「DaVinci」です。 |\n| TZ | タイムゾーン。こちらは[リスト](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)です。 |\n| POSTGRES_LOCATION | データベースが保存される場所。[ボリュームの場所](#volume-locations)を参照してください。 |\n\n### バックアップ\n\nバックアップを設定するには、以下の変数を設定します：\n| 環境変数 | 意味 |\n|---|---|\n| SCHEDULE | バックアップ作成の頻度を示す[cron文字列](https://www.freeformatter.com/cron-expression-generator-quartz.html)。例：「@daily」、「@every 1h」など。 |\n| BACKUP_KEEP_DAYS | 削除前に保持する日次バックアップの数。 |\n| BACKUP_KEEP_WEEKS | 削除前に保持する週次バックアップの数。 |\n| BACKUP_KEEP_MONTHS | 削除前に保持する月次バックアップの数。 |\n| BACKUP_LOCATION | バックアップが保存される場所。[ボリュームの場所](#volume-locations)を参照してください。 |\n\n### PGAdmin\n\nPGAdminを設定するには、以下の変数を設定します：\n| 環境変数 | 意味 |\n|---|---|\n| PGADMIN_DEFAULT_EMAIL | PGAdminログインに使用するメールアドレス。デフォルトは「admin@admin.com」です。 |\n| PGADMIN_DEFAULT_PASSWORD | PGAdminログインに使用するパスワード。デフォルトは「root」です。 |\n| PGADMIN_PORT | PGAdminを公開するポートを設定する文字列。書式は「YOUR_PORT:80」です。 |\n\n### ボリュームの場所\n\nデータベースおよびバックアップの保存場所は、インストールするプラットフォームによって異なります。保存したいフォルダのフルパスが必要です。例えばQNAP NASの場合、バックアップの場所として「Videos」という共有フォルダ内の「Backups」というフォルダを使いたい場合、パスは`/shares/Videos/Backups/`となり、`BACKUP_LOCATION`の値は次のようになります：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### データベース"
+      },
+      {
+        "row": 2,
+        "rowsha": "ru9VG4NjJUnopP9zhBezhJbOKqsbuT0oBDHnOc4KqFw=",
+        "originContent": "### Database",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "サーバー自体を設定するには、以下の環境変数を設定します："
+      },
+      {
+        "row": 4,
+        "rowsha": "yiaPVO31M4pJbKIkwNcaj6O+x69imBilaoZqAaTxHBk=",
+        "originContent": "To configure the server itself, we'll want to configure the environment variables below:",
+        "translatedContent": "| 環境変数 | 意味 |"
+      },
+      {
+        "row": 5,
+        "rowsha": "lcYKEassOLsN0XiqInpV1I5fjhBm69jDiCUSu196XRc=",
+        "originContent": "| Environment Variable |Meaning|",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 6,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "| POSTGRES_DB | データベース名。好きな名前を付けてください。 |"
+      },
+      {
+        "row": 7,
+        "rowsha": "wzkPBkXzytfrnHe/GoHsa1FpzRldu0jU6tBMZJ+trlg=",
+        "originContent": "| POSTGRES_DB | Name of your database. Name it whatever you like. |",
+        "translatedContent": "| POSTGRES_USER | データベースに接続するためのユーザー名。Resolveのデフォルトは「postgres」です。 |"
+      },
+      {
+        "row": 8,
+        "rowsha": "zkqKe9sz0cfjrBA6Ee8IjERryDAl/VAHp5GsA5/6FO8=",
+        "originContent": "| POSTGRES_USER | Username you will use to connect to your database. The Resolve default is \"postgres\" |",
+        "translatedContent": "| POSTGRES_PASSWORD | データベースに接続するためのパスワード。Resolveのデフォルトは「DaVinci」です。 |"
+      },
+      {
+        "row": 9,
+        "rowsha": "OwqZa9UjECoZnq7oxCKxKiu0Q7Owdjw0lnEJdE7fNEo=",
+        "originContent": "| POSTGRES_PASSWORD | Password you will use to connect to your database. The Resolve default is \"DaVinci\" |",
+        "translatedContent": "| TZ | タイムゾーン。こちらは[リスト](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)です。 |"
+      },
+      {
+        "row": 10,
+        "rowsha": "8rp77VEbnsAkBKY0fPM9Yg4en2NaHG5mboXhkODUVyc=",
+        "originContent": "| TZ | Your timezone, here is [a list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)|",
+        "translatedContent": "| POSTGRES_LOCATION | データベースが保存される場所。[ボリュームの場所](#volume-locations)を参照してください。 |"
+      },
+      {
+        "row": 11,
+        "rowsha": "F/uJ145vUX0y63s+IEVWxKrV1KA97DViWsZP77IwOr0=",
+        "originContent": "| POSTGRES_LOCATION | Location your database will be stored. See [Volume Locations](#volume-locations) |",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### バックアップ"
+      },
+      {
+        "row": 13,
+        "rowsha": "OaxJcQYjDUGHOwjWffW51x8frs9oz83xTMekcUePyDE=",
+        "originContent": "### Backups",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "バックアップを設定するには、以下の変数を設定します："
+      },
+      {
+        "row": 15,
+        "rowsha": "el9C4bilCft9e0BwgNPu/NgPTUXfV6BLGjYoB2tTRF0=",
+        "originContent": "To configure the backups, we'll want to configure the variables below:",
+        "translatedContent": "| 環境変数 | 意味 |"
+      },
+      {
+        "row": 16,
+        "rowsha": "lcYKEassOLsN0XiqInpV1I5fjhBm69jDiCUSu196XRc=",
+        "originContent": "| Environment Variable |Meaning|",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 17,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "| SCHEDULE | バックアップ作成の頻度を示す[cron文字列](https://www.freeformatter.com/cron-expression-generator-quartz.html)。例：「@daily」、「@every 1h」など。 |"
+      },
+      {
+        "row": 18,
+        "rowsha": "BoauaXqHuiF5FtncKsZYc/rfC1ZCHgCM0LpnK7akgHI=",
+        "originContent": "| SCHEDULE | This is a [cron string](https://www.freeformatter.com/cron-expression-generator-quartz.html) for how often backups are created. can be \"@daily\", \"@every 1h\", etc |",
+        "translatedContent": "| BACKUP_KEEP_DAYS | 削除前に保持する日次バックアップの数。 |"
+      },
+      {
+        "row": 19,
+        "rowsha": "QEeVBfpQvDgYx9nMsdhQFDglHtOpa1v8/QkbxqP9BgM=",
+        "originContent": "| BACKUP_KEEP_DAYS | Number of daily backups to keep before removal. |",
+        "translatedContent": "| BACKUP_KEEP_WEEKS | 削除前に保持する週次バックアップの数。 |"
+      },
+      {
+        "row": 20,
+        "rowsha": "66PLLKVCKbjOJZIrsgxGaKWqT28bFSph2nK6aFgUDaI=",
+        "originContent": "| BACKUP_KEEP_WEEKS | Number of weekly backups to keep before removal. |",
+        "translatedContent": "| BACKUP_KEEP_MONTHS | 削除前に保持する月次バックアップの数。 |"
+      },
+      {
+        "row": 21,
+        "rowsha": "tj/5+n9niIEf3JPySgtgEZiZXugaXqOgy2ilLIypRtI=",
+        "originContent": "| BACKUP_KEEP_MONTHS | Number of monthly backups to keep before removal. |",
+        "translatedContent": "| BACKUP_LOCATION | バックアップが保存される場所。[ボリュームの場所](#volume-locations)を参照してください。 |"
+      },
+      {
+        "row": 22,
+        "rowsha": "ZPeUhMUFwq+wGKqdNqlx7f9t2okiAuxGie+ltDQ2vB8=",
+        "originContent": "| BACKUP_LOCATION | Location your backups will be stored. See [Volume Locations](#volume-locations) |",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### PGAdmin"
+      },
+      {
+        "row": 24,
+        "rowsha": "77MlAuCySUhvaZJ0I51C9exFBga95BTgmwsIfy3iCCs=",
+        "originContent": "### PGAdmin",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "PGAdminを設定するには、以下の変数を設定します："
+      },
+      {
+        "row": 26,
+        "rowsha": "6G21e8w92uvtUi5VNcZ7203GtTt8ntENK4vdIieUSzI=",
+        "originContent": "To configure PGAdmin, we'll want to configure the variables below:",
+        "translatedContent": "| 環境変数 | 意味 |"
+      },
+      {
+        "row": 27,
+        "rowsha": "lcYKEassOLsN0XiqInpV1I5fjhBm69jDiCUSu196XRc=",
+        "originContent": "| Environment Variable |Meaning|",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 28,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "| PGADMIN_DEFAULT_EMAIL | PGAdminログインに使用するメールアドレス。デフォルトは「admin@admin.com」です。 |"
+      },
+      {
+        "row": 29,
+        "rowsha": "EQT0akAy8TiqAwwdF9CjZJHKXvh0rA1Bfc0dJggfnQ4=",
+        "originContent": "| PGADMIN_DEFAULT_EMAIL | Email used for PGAdmin login. Default is \"admin@admin.com\" |",
+        "translatedContent": "| PGADMIN_DEFAULT_PASSWORD | PGAdminログインに使用するパスワード。デフォルトは「root」です。 |"
+      },
+      {
+        "row": 30,
+        "rowsha": "GdRK6vJ1ZrQk24sfwOgsPAFSvB4Wk7jrNu1BdUl1W2Q=",
+        "originContent": "| PGADMIN_DEFAULT_PASSWORD | Password used for PGAdmin login. Default is \"root\" |",
+        "translatedContent": "| PGADMIN_PORT | PGAdminを公開するポートを設定する文字列。書式は「YOUR_PORT:80」です。 |"
+      },
+      {
+        "row": 31,
+        "rowsha": "r0A6iGYpMCXbhk+X9FsySO0MwUytWxCtlhna8dE4vek=",
+        "originContent": "| PGADMIN_PORT | String configuring port to expose PGAdmin on. Syntax is \"YOUR_PORT:80\" |",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ボリュームの場所"
+      },
+      {
+        "row": 33,
+        "rowsha": "+ucnxwI5twPRKFmPNVbySus+5m1dJAgi/x8ljfTTb6g=",
+        "originContent": "### Volume Locations",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "データベースおよびバックアップの保存場所は、インストールするプラットフォームによって異なります。保存したいフォルダのフルパスが必要です。例えばQNAP NASの場合、バックアップの場所として「Videos」という共有フォルダ内の「Backups」というフォルダを使いたい場合、パスは`/shares/Videos/Backups/`となり、`BACKUP_LOCATION`の値は次のようになります："
+      },
+      {
+        "row": 35,
+        "rowsha": "RdDRJogtoiltgtAw/EfiAhcS0qo6j9ikwimLHHs4LLA=",
+        "originContent": "The location of your database and backups depend on what platform you are installing on. You will need the full path to the folder you want them stored in. On a QNAP NAS for example, if I wanted to use a folder called \"Backups\" inside a shared folder named \"Videos\" for my backups location, the path would be `/shares/Videos/Backups/`, and my `BACKUP_LOCATION` value would look like this:",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```yaml\nBACKUP_LOCATION: &bk-location \"/shares/Videos/Backups/:/backups\"\n```",
+    "ContentSha": "Z6QUOH61exARfX5/7jQKucMSDRLnaXnbao4clRyfUvk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nBACKUP_LOCATION: &bk-location \"/shares/Videos/Backups/:/backups\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "KiK5QzS94P7QpvdEFSO85CDVV8Wl4Yo7QIAyDuw1Axo=",
+        "originContent": "BACKUP_LOCATION: &bk-location \"/shares/Videos/Backups/:/backups\"",
+        "translatedContent": "BACKUP_LOCATION: &bk-location \"/shares/Videos/Backups/:/backups\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\nOn Ubuntu, if I wanted to use a folder named \"database\" in the home directory of the user named \"johndoe\" for my database location, the path would be `/home/johndoe/database/`, and my `POSTGRES_LOCATION` value would look like this:\n",
+    "ContentSha": "JBFV6u1WF+He9ulZ5OH0eML3Rpp1/ATrphQq550Oxwk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nUbuntuでは、ユーザー名が「johndoe」のホームディレクトリにある「database」という名前のフォルダをデータベースの場所として使用したい場合、パスは`/home/johndoe/database/`となり、`POSTGRES_LOCATION`の値は次のようになります。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "K7I3H//ZL2C41++ZWweZLT8gvppSTHEg/KYNR0uTLbg=",
+        "originContent": "On Ubuntu, if I wanted to use a folder named \"database\" in the home directory of the user named \"johndoe\" for my database location, the path would be `/home/johndoe/database/`, and my `POSTGRES_LOCATION` value would look like this:",
+        "translatedContent": "Ubuntuでは、ユーザー名が「johndoe」のホームディレクトリにある「database」という名前のフォルダをデータベースの場所として使用したい場合、パスは`/home/johndoe/database/`となり、`POSTGRES_LOCATION`の値は次のようになります。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```yaml\nPOSTGRES_LOCATION: &db-location \"johndoe/database/:/var/lib/postgresql/data\"\n```",
+    "ContentSha": "qvDnWRwF+lYWZMn413ZOhOEWWWwchZq+m0XgUZvNWoo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nPOSTGRES_LOCATION: &db-location \"johndoe/database/:/var/lib/postgresql/data\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "Yy7hsnbL0JGeq3HY4ezGUM7855ZAdv+VAKf00/fhjdA=",
+        "originContent": "POSTGRES_LOCATION: &db-location \"johndoe/database/:/var/lib/postgresql/data\"",
+        "translatedContent": "POSTGRES_LOCATION: &db-location \"johndoe/database/:/var/lib/postgresql/data\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\nI recommend putting your database on an SSD, your access speed will be noticeably slower on a spinning drive.\n\nOnce you have configured these settings, save your modified docker-compose.yml file and move on to installation!\n\n## Installation\n\n### QNAP Installation\n\nInstalling on a QNAP NAS is relatively simple. One note, please put the database files on an SSD. You will thank me later\n\n1. If you don't already have it, install Container Station from the QNAP app store.\n2. In Container Station, click \"Create\", then click \"Create Application\"\n3. Name your application whatever you like (eg. ResolveServer)\n4. Copy/Paste your modified docker-compose.yml file, hit \"Validate YAML\" to test it, and if it passes, click \"Create\"\n5. Container Station will download the files it needs and start the app. Once it's done, you should be able to connect Resolve to the IP address of your QNAP using the database name and credentials\n\n### Synology\n\nSee [this discussion](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/discussions/15#discussioncomment-4615278)\n\n### Linux\n\n1. Follow the [Docker installation instructions for your Linux distribution](https://docs.docker.com/engine/install/)\n2. Install [Docker Compose](https://docs.docker.com/compose/install/)\n3. Move your modified docker-compose.yml file to a folder on your Linux machine, then navigate to that folder in the terminal.\n4. Run:\n   `docker-compose up -d`\n5. Docker-compose will download the files it needs and start the app. Once it's done, you should be able to connect Resolve to the IP address of your Linux Server instance using the database name and credentials\n\n## Different PostgreSQL versions\n\nGenerally, Resolve is not very tolerant of mismatched PostgreSQL versions. Resolve 18 uses PostgreSQL 13, which is what this repository now defaults to. Resolve 17 and below use PostgreSQL 9.5. Unfortunately the major release 9.5 is EOL, and 9.5.4 in particular has a lot of vulnerabilities that make it insecure.\nSince most people are still using the default Resolve credentials for their server, security generally isn't the biggest concern, but if you are trying to secure your project server with an older version of Resolve, you will want to move to a supported version of PostgreSQL.\n\nResolve 17 and below still use a legacy feature that has been removed in PostgreSQL 12, so the latest major version that is useable is 11, which will be maintained until November 9, 2023.\n\n### Setting up a PostgreSQL 9.5 or 11 Project Server\n\nTo setup a PostgreSQL 9.5 or 11 server instead of 13, there are 2 lines that need to be changed in docker_compose.yml:",
+    "ContentSha": "+1KXgjQQHhoHg+Kdb1bKVKorwcCVwoSW3I+iAFYPQ8g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "データベースはSSDに配置することをお勧めします。回転式ドライブではアクセス速度が明らかに遅くなります。\n\nこれらの設定を構成したら、変更したdocker-compose.ymlファイルを保存して、インストールに進みましょう！\n\n## インストール\n\n### QNAP インストール\n\nQNAP NASへのインストールは比較的簡単です。ひとつ注意点として、データベースファイルはSSDに置いてください。後で感謝されるはずです。\n\n1. まだインストールしていなければ、QNAPアプリストアからContainer Stationをインストールします。\n2. Container Stationで「作成」をクリックし、「アプリケーションの作成」をクリックします。\n3. アプリケーション名は好きな名前を付けてください（例：ResolveServer）。\n4. 変更したdocker-compose.ymlファイルをコピー＆ペーストし、「YAMLを検証」をクリックしてテストし、問題なければ「作成」をクリックします。\n5. Container Stationが必要なファイルをダウンロードし、アプリを起動します。完了したら、データベース名と認証情報を使ってQNAPのIPアドレスにResolveから接続できるはずです。\n\n### Synology\n\n[こちらのディスカッション](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/discussions/15#discussioncomment-4615278)を参照してください。\n\n### Linux\n\n1. [Linuxディストリビューション向けDockerインストール手順](https://docs.docker.com/engine/install/)に従ってください。\n2. [Docker Composeをインストール](https://docs.docker.com/compose/install/)します。\n3. 変更したdocker-compose.ymlファイルをLinuxマシンのフォルダに移動し、ターミナルでそのフォルダに移動します。\n4. 以下を実行します：\n   `docker-compose up -d`\n5. Docker-composeが必要なファイルをダウンロードし、アプリを起動します。完了したら、データベース名と認証情報を使ってLinuxサーバーのIPアドレスにResolveから接続できるはずです。\n\n## 異なるPostgreSQLバージョンについて\n\n一般的に、ResolveはPostgreSQLのバージョン不一致に非常に寛容ではありません。Resolve 18はPostgreSQL 13を使用しており、このリポジトリは現在これをデフォルトとしています。Resolve 17以下はPostgreSQL 9.5を使用しています。残念ながら、メジャーリリース9.5はEOLであり、特に9.5.4には多くの脆弱性があり安全ではありません。\nほとんどのユーザーはサーバーにデフォルトのResolve認証情報を使っているため、セキュリティは大きな問題ではありませんが、古いバージョンのResolveでプロジェクトサーバーを保護しようとしている場合は、サポートされているPostgreSQLのバージョンに移行することをお勧めします。\n\nResolve 17以下はPostgreSQL 12で削除されたレガシー機能をまだ使用しているため、使用可能な最新のメジャーバージョンは11であり、2023年11月9日までメンテナンスされます。\n\n### PostgreSQL 9.5または11のプロジェクトサーバーのセットアップ\n\nPostgreSQL 13ではなく9.5または11のサーバーをセットアップするには、docker_compose.yml内の2行を変更する必要があります：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "データベースはSSDに配置することをお勧めします。回転式ドライブではアクセス速度が明らかに遅くなります。"
+      },
+      {
+        "row": 2,
+        "rowsha": "hnTHm5ej+DSObNTgPGAYoIFLLrj0T98eZbDd8XzkZBU=",
+        "originContent": "I recommend putting your database on an SSD, your access speed will be noticeably slower on a spinning drive.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "これらの設定を構成したら、変更したdocker-compose.ymlファイルを保存して、インストールに進みましょう！"
+      },
+      {
+        "row": 4,
+        "rowsha": "7rll7q0lGfBOZOfP8OQ2BA1Jhq11MnW24QM+wtoblmk=",
+        "originContent": "Once you have configured these settings, save your modified docker-compose.yml file and move on to installation!",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 6,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### QNAP インストール"
+      },
+      {
+        "row": 8,
+        "rowsha": "eCRkyHOje/lUUJTrjomh/DmfPrtONsy8RsGJQA85GtY=",
+        "originContent": "### QNAP Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "QNAP NASへのインストールは比較的簡単です。ひとつ注意点として、データベースファイルはSSDに置いてください。後で感謝されるはずです。"
+      },
+      {
+        "row": 10,
+        "rowsha": "s7xQRdqhv61iABZ8wrbtGtAL+nFgKjOL7AR5wKMLcn4=",
+        "originContent": "Installing on a QNAP NAS is relatively simple. One note, please put the database files on an SSD. You will thank me later",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. まだインストールしていなければ、QNAPアプリストアからContainer Stationをインストールします。"
+      },
+      {
+        "row": 12,
+        "rowsha": "NBZPtGau5qqpIt023zgY9oBhPzd61sZySgLwq3iUPUs=",
+        "originContent": "1. If you don't already have it, install Container Station from the QNAP app store.",
+        "translatedContent": "2. Container Stationで「作成」をクリックし、「アプリケーションの作成」をクリックします。"
+      },
+      {
+        "row": 13,
+        "rowsha": "dgpdo/YQ5/Vm47qSdDgiN1tYW2WB38SkjGaSPE21CJ0=",
+        "originContent": "2. In Container Station, click \"Create\", then click \"Create Application\"",
+        "translatedContent": "3. アプリケーション名は好きな名前を付けてください（例：ResolveServer）。"
+      },
+      {
+        "row": 14,
+        "rowsha": "FFanYZXBMQ9QDsGY3qX7UDen2zKyxoTY70ZExz9+hU4=",
+        "originContent": "3. Name your application whatever you like (eg. ResolveServer)",
+        "translatedContent": "4. 変更したdocker-compose.ymlファイルをコピー＆ペーストし、「YAMLを検証」をクリックしてテストし、問題なければ「作成」をクリックします。"
+      },
+      {
+        "row": 15,
+        "rowsha": "GoxEud09zsefUjmJ9yfJmq2Qy9kVLUOSRoRYRT9RdBM=",
+        "originContent": "4. Copy/Paste your modified docker-compose.yml file, hit \"Validate YAML\" to test it, and if it passes, click \"Create\"",
+        "translatedContent": "5. Container Stationが必要なファイルをダウンロードし、アプリを起動します。完了したら、データベース名と認証情報を使ってQNAPのIPアドレスにResolveから接続できるはずです。"
+      },
+      {
+        "row": 16,
+        "rowsha": "KP0Xa3+3v9bdHmRatCyeyjqpOTSHp0igABbfMjw5cvc=",
+        "originContent": "5. Container Station will download the files it needs and start the app. Once it's done, you should be able to connect Resolve to the IP address of your QNAP using the database name and credentials",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Synology"
+      },
+      {
+        "row": 18,
+        "rowsha": "Gz2+IbPCoH2miGQmYgY96nQ4fVeiSqLInzIDMpu/yp8=",
+        "originContent": "### Synology",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[こちらのディスカッション](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/discussions/15#discussioncomment-4615278)を参照してください。"
+      },
+      {
+        "row": 20,
+        "rowsha": "OgKdtpZeF/UAHYj3cc+Y2PO121yE4c3tEXXz6VrakPk=",
+        "originContent": "See [this discussion](https://github.com/elliotmatson/Docker-Davinci-Resolve-Project-Server/discussions/15#discussioncomment-4615278)",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Linux"
+      },
+      {
+        "row": 22,
+        "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+        "originContent": "### Linux",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. [Linuxディストリビューション向けDockerインストール手順](https://docs.docker.com/engine/install/)に従ってください。"
+      },
+      {
+        "row": 24,
+        "rowsha": "JlJ+2SHtT2EjBakEX5FErLvfY56XTP3bTjNRKri0ULM=",
+        "originContent": "1. Follow the [Docker installation instructions for your Linux distribution](https://docs.docker.com/engine/install/)",
+        "translatedContent": "2. [Docker Composeをインストール](https://docs.docker.com/compose/install/)します。"
+      },
+      {
+        "row": 25,
+        "rowsha": "F9gEgjhDTnDhz24IGcqtcvMQSD2NycupZYYMRvINe8M=",
+        "originContent": "2. Install [Docker Compose](https://docs.docker.com/compose/install/)",
+        "translatedContent": "3. 変更したdocker-compose.ymlファイルをLinuxマシンのフォルダに移動し、ターミナルでそのフォルダに移動します。"
+      },
+      {
+        "row": 26,
+        "rowsha": "okM8YqfpmnTQr0G9yL1gBZ6nBy4kR7qyqLxjk2d+EKY=",
+        "originContent": "3. Move your modified docker-compose.yml file to a folder on your Linux machine, then navigate to that folder in the terminal.",
+        "translatedContent": "4. 以下を実行します："
+      },
+      {
+        "row": 27,
+        "rowsha": "0S3oo4vbhJ+P0Puac+MgzHHMEhcwbQFe+NwUbGacG40=",
+        "originContent": "4. Run:",
+        "translatedContent": "   `docker-compose up -d`"
+      },
+      {
+        "row": 28,
+        "rowsha": "84iUKOlgwA4LT8R7GkeP4Ay5cQ8BKPVzJ6u9D4WNu2w=",
+        "originContent": "   `docker-compose up -d`",
+        "translatedContent": "5. Docker-composeが必要なファイルをダウンロードし、アプリを起動します。完了したら、データベース名と認証情報を使ってLinuxサーバーのIPアドレスにResolveから接続できるはずです。"
+      },
+      {
+        "row": 29,
+        "rowsha": "0GWOhxpZ69V6HcG8iih9yLemJbFw1aOxsMDzx4fDuww=",
+        "originContent": "5. Docker-compose will download the files it needs and start the app. Once it's done, you should be able to connect Resolve to the IP address of your Linux Server instance using the database name and credentials",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 異なるPostgreSQLバージョンについて"
+      },
+      {
+        "row": 31,
+        "rowsha": "/qj6XUTsWPzCpd+iohaFH2KDbumyiaYNoB1FmLpX38A=",
+        "originContent": "## Different PostgreSQL versions",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "一般的に、ResolveはPostgreSQLのバージョン不一致に非常に寛容ではありません。Resolve 18はPostgreSQL 13を使用しており、このリポジトリは現在これをデフォルトとしています。Resolve 17以下はPostgreSQL 9.5を使用しています。残念ながら、メジャーリリース9.5はEOLであり、特に9.5.4には多くの脆弱性があり安全ではありません。"
+      },
+      {
+        "row": 33,
+        "rowsha": "WFGonlfHAUrXLLz1p0XG//FCy4Pey4GETUEL2qgC8CE=",
+        "originContent": "Generally, Resolve is not very tolerant of mismatched PostgreSQL versions. Resolve 18 uses PostgreSQL 13, which is what this repository now defaults to. Resolve 17 and below use PostgreSQL 9.5. Unfortunately the major release 9.5 is EOL, and 9.5.4 in particular has a lot of vulnerabilities that make it insecure.",
+        "translatedContent": "ほとんどのユーザーはサーバーにデフォルトのResolve認証情報を使っているため、セキュリティは大きな問題ではありませんが、古いバージョンのResolveでプロジェクトサーバーを保護しようとしている場合は、サポートされているPostgreSQLのバージョンに移行することをお勧めします。"
+      },
+      {
+        "row": 34,
+        "rowsha": "xUITEvyNtN00NKdfR/9hQvSgK3KBE2L6Y5mSbNEimoE=",
+        "originContent": "Since most people are still using the default Resolve credentials for their server, security generally isn't the biggest concern, but if you are trying to secure your project server with an older version of Resolve, you will want to move to a supported version of PostgreSQL.",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Resolve 17以下はPostgreSQL 12で削除されたレガシー機能をまだ使用しているため、使用可能な最新のメジャーバージョンは11であり、2023年11月9日までメンテナンスされます。"
+      },
+      {
+        "row": 36,
+        "rowsha": "chbPgJC+3XDvMfMW/4X4RYoyj53fp1pWoj93GANDsWk=",
+        "originContent": "Resolve 17 and below still use a legacy feature that has been removed in PostgreSQL 12, so the latest major version that is useable is 11, which will be maintained until November 9, 2023.",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### PostgreSQL 9.5または11のプロジェクトサーバーのセットアップ"
+      },
+      {
+        "row": 38,
+        "rowsha": "gH/uvBFi9nA2E2dt1m28j4t9N32y/EShYTTQVHxDYoM=",
+        "originContent": "### Setting up a PostgreSQL 9.5 or 11 Project Server",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "PostgreSQL 13ではなく9.5または11のサーバーをセットアップするには、docker_compose.yml内の2行を変更する必要があります："
+      },
+      {
+        "row": 40,
+        "rowsha": "+Kx5RiO8rVg3N3rUAttnEr3Q1+k2JF4guKR6SDzoWg4=",
+        "originContent": "To setup a PostgreSQL 9.5 or 11 server instead of 13, there are 2 lines that need to be changed in docker_compose.yml:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```yaml\nservices:\n  postgres:\n    image: postgres:13\n    ...\n  pgbackups:\n    image: prodrigestivill/postgres-backup-local:13\n    ...\n...\n```",
+    "ContentSha": "48JbAEGdG2C5+i+qmKxYQpsX4dMsoU7JK0c8DUHrWfs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nservices:\n  postgres:\n    image: postgres:13\n    ...\n  pgbackups:\n    image: prodrigestivill/postgres-backup-local:13\n    ...\n...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
+        "originContent": "services:",
+        "translatedContent": "services:"
+      },
+      {
+        "row": 3,
+        "rowsha": "RxM1+ca5BYuwdcEIyY9wu5MAsGqLbTY2UD2e4sYR1SY=",
+        "originContent": "  postgres:",
+        "translatedContent": "  postgres:"
+      },
+      {
+        "row": 4,
+        "rowsha": "sk+P7URiTsnBYCZ8vixBP3g2APycudwz+2ZflJOe1xI=",
+        "originContent": "    image: postgres:13",
+        "translatedContent": "    image: postgres:13"
+      },
+      {
+        "row": 5,
+        "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+        "originContent": "    ...",
+        "translatedContent": "    ..."
+      },
+      {
+        "row": 6,
+        "rowsha": "c4L2mhEwSfrFiPTci+iwtT/eyEnmt/pg4V79pu+d7rk=",
+        "originContent": "  pgbackups:",
+        "translatedContent": "  pgbackups:"
+      },
+      {
+        "row": 7,
+        "rowsha": "7MvmkHl79EVZgFisCOkcSvloSrabzJRzKAXhKh0M5lM=",
+        "originContent": "    image: prodrigestivill/postgres-backup-local:13",
+        "translatedContent": "    image: prodrigestivill/postgres-backup-local:13"
+      },
+      {
+        "row": 8,
+        "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+        "originContent": "    ...",
+        "translatedContent": "    ..."
+      },
+      {
+        "row": 9,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nto the following:\n",
+    "ContentSha": "VRC6dQPR7dh1fI/J0P++aYoYTdJKHSXHSEiwj2eXCYw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "次のように：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "次のように："
+      },
+      {
+        "row": 2,
+        "rowsha": "FeVrfDSZASJb4ibw6KYCSStxm6whc9SyvtclOXf3deM=",
+        "originContent": "to the following:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```yaml\nservices:\n  postgres:\n    image: postgres:9.5\n    ...\n  pgbackups:\n    image: prodrigestivill/postgres-backup-local:9.5\n    ...\n...\n```",
+    "ContentSha": "OWboit0NlG5x9HOMRXbq+FWE7Efd8O+H/ckzdAy0SmI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nservices:\n  postgres:\n    image: postgres:9.5\n    ...\n  pgbackups:\n    image: prodrigestivill/postgres-backup-local:9.5\n    ...\n...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
+        "originContent": "services:",
+        "translatedContent": "services:"
+      },
+      {
+        "row": 3,
+        "rowsha": "RxM1+ca5BYuwdcEIyY9wu5MAsGqLbTY2UD2e4sYR1SY=",
+        "originContent": "  postgres:",
+        "translatedContent": "  postgres:"
+      },
+      {
+        "row": 4,
+        "rowsha": "rwg5tfWETV8vaeDxZQvGH5EoDlB8wUolZy1KNZY8DbQ=",
+        "originContent": "    image: postgres:9.5",
+        "translatedContent": "    image: postgres:9.5"
+      },
+      {
+        "row": 5,
+        "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+        "originContent": "    ...",
+        "translatedContent": "    ..."
+      },
+      {
+        "row": 6,
+        "rowsha": "c4L2mhEwSfrFiPTci+iwtT/eyEnmt/pg4V79pu+d7rk=",
+        "originContent": "  pgbackups:",
+        "translatedContent": "  pgbackups:"
+      },
+      {
+        "row": 7,
+        "rowsha": "da+dSqyE9U36VWUdTd+jZf3AyHRSuAZJjja8N7WKoLA=",
+        "originContent": "    image: prodrigestivill/postgres-backup-local:9.5",
+        "translatedContent": "    image: prodrigestivill/postgres-backup-local:9.5"
+      },
+      {
+        "row": 8,
+        "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+        "originContent": "    ...",
+        "translatedContent": "    ..."
+      },
+      {
+        "row": 9,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## Thanks\n\n-[prodrigestivill](https://github.com/prodrigestivill/) for his [PostgreSQL Backup docker image](https://github.com/prodrigestivill/docker-postgres-backup-local)\n",
+    "ContentSha": "Dz1+oEixrxuiUdYNfAOf9azln7PHUTrlsXShynef6Qo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## ありがとう\n\n-[prodrigestivill](https://github.com/prodrigestivill/) 彼の [PostgreSQL バックアップ docker イメージ](https://github.com/prodrigestivill/docker-postgres-backup-local) に感謝します\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Hlc2b08rg0LOEYZFWHgWTiwJnUG0U95FbBqSFSDg31k=",
+        "originContent": "## Thanks",
+        "translatedContent": "## ありがとう"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "hgNHdHfwmC4lu51ifjLJUUP+0OTeKDzZ0zYIo0XS08s=",
+        "originContent": "-[prodrigestivill](https://github.com/prodrigestivill/) for his [PostgreSQL Backup docker image](https://github.com/prodrigestivill/docker-postgres-backup-local)",
+        "translatedContent": "-[prodrigestivill](https://github.com/prodrigestivill/) 彼の [PostgreSQL バックアップ docker イメージ](https://github.com/prodrigestivill/docker-postgres-backup-local) に感謝します"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

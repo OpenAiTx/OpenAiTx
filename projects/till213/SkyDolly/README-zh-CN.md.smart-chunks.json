@@ -1,0 +1,677 @@
+[
+  {
+    "Id": 1,
+    "Content": "[![Pre-Release](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)\n![License: MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)\n![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)\n![Supported Compilers](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)\n\n![Unit Tests](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)\n\n# Sky Dolly\nSky Dolly - The Black Sheep for Your Flight Recordings.\n\n## About\nSky Dolly connects to a running Flight Simulator 2020 instance and records various simulation variables, for replay.\n\n![Sky Dolly v0.11.0](https://raw.githubusercontent.com/till213/SkyDolly/main/./img/SkyDolly-v0.11.0.png)\n\nThe connection is made via SimConnect, a standard API introduced with Flight Simulator X to connect with the flight simulator.\n\nAso refer to the [ABOUT.md](https://raw.githubusercontent.com/till213/SkyDolly/main/ABOUT.MD).\n\n## Features\n- Record / Pause / Play\n- Formation flights (multiple aircraft, replay during recording, \"fly with formation\", time offset)\n- Settable recording sample rate: fixed or variable (\"auto\")\n- Adjustable replay speed (\"slow motion\", \"timelapse\"), replay loop\n- Position, velocity and basic flight control simulation variables (ailerons, rudder, flaps, gears, ...) are recorded\n- Plugin architecture with various import/export plugins (CSV, GPX, IGC, KML)\n- Location module with over 100 default locations and import/export functionality\n- Database (SQLite) based persistence (\"logbook\")\n\nWatch the (preview) release trailer on [YouTube](https://www.youtube.com/watch?v=_n4qRtm78_I):\n\n[![Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (Cinematic Teaser Trailer)](https://img.youtube.com/vi/_n4qRtm78_I/0.jpg)](https://www.youtube.com/watch?v=_n4qRtm78_I \"Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (Cinematic Teaser Trailer)\")\n\nFor more videos created with Sky Dolly also refer to [SHOWCASE](https://raw.githubusercontent.com/till213/SkyDolly/main/SHOWCASE.md). New and upcoming features are found in the [CHANGELOG](https://raw.githubusercontent.com/till213/SkyDolly/main/CHANGELOG.md).\n\n## Basic Usage\n\n- Start a flight\n- Click on \"Record\" (key R)\n- You may pause recording (key P)",
+    "ContentSha": "k3UxzAfJzKrhNEkLVnydCGO6kopsef3e1WmnM1VNUCQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[![预发布](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)\n![许可证: MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)\n![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)\n![支持的编译器](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)\n\n![单元测试](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)\n\n# Sky Dolly\nSky Dolly - 您飞行录制的“黑羊”。\n\n## 关于\nSky Dolly 连接到正在运行的 Flight Simulator 2020 实例并记录各种模拟变量，以便重放。\n\n![Sky Dolly v0.11.0](https://raw.githubusercontent.com/till213/SkyDolly/main/./img/SkyDolly-v0.11.0.png)\n\n连接通过 SimConnect 实现，这是 Flight Simulator X 引入的标准 API，用于连接飞行模拟器。\n\n另请参阅 [ABOUT.md](https://raw.githubusercontent.com/till213/SkyDolly/main/ABOUT.MD)。\n\n## 特性\n- 录制 / 暂停 / 播放\n- 编队飞行（多架飞机，录制时重放，“编队飞行”，时间偏移）\n- 可设定录制采样率：固定或可变（“自动”）\n- 可调节回放速度（“慢动作”，“快进”），回放循环\n- 记录位置、速度和基本飞行控制模拟变量（副翼、方向舵、副翼、襟翼、起落架等）\n- 插件架构，支持多种导入/导出插件（CSV、GPX、IGC、KML）\n- 位置模块，包含100多个默认位置及导入/导出功能\n- 基于数据库（SQLite）的持久化（“飞行日志”）\n\n观看 [YouTube](https://www.youtube.com/watch?v=_n4qRtm78_I) 上的（预览）发布预告片：\n\n[![Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (电影预告片)](https://img.youtube.com/vi/_n4qRtm78_I/0.jpg)](https://www.youtube.com/watch?v=_n4qRtm78_I \"Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (电影预告片)\")\n\n更多使用 Sky Dolly 制作的视频请参见 [SHOWCASE](https://raw.githubusercontent.com/till213/SkyDolly/main/SHOWCASE.md)。新功能和即将推出的功能见 [CHANGELOG](https://raw.githubusercontent.com/till213/SkyDolly/main/CHANGELOG.md)。\n\n## 基本使用\n\n- 开始飞行\n- 点击“录制”（快捷键 R）\n- 您可以暂停录制（快捷键 P）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "obc53L3k/ROeH3TIBq+E+hdfCrq9wfmVI7GPRYfSipY=",
+        "originContent": "[![Pre-Release](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)",
+        "translatedContent": "[![预发布](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)"
+      },
+      {
+        "row": 2,
+        "rowsha": "8RbBoN4EMdA85KMhb5qTXn98744sWZ3lRjRlhMVRrV4=",
+        "originContent": "![License: MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)",
+        "translatedContent": "![许可证: MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)"
+      },
+      {
+        "row": 3,
+        "rowsha": "7vHlJi8MQXNIQAPNc4BKhvNYTBjw3DfAoHVlzWyEApM=",
+        "originContent": "![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)",
+        "translatedContent": "![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)"
+      },
+      {
+        "row": 4,
+        "rowsha": "3m49JTziqtpZmTdnEqGaAe5UiLRveM6tanJOdF/Hvzk=",
+        "originContent": "![Supported Compilers](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)",
+        "translatedContent": "![支持的编译器](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "fXROMy2+RBd07BjRRdfdFzT/162qOlMf3L/ud15eSLE=",
+        "originContent": "![Unit Tests](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)",
+        "translatedContent": "![单元测试](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "0RlExJ+WBClj8KHEXJXMKXjUjmXSBJFi+04of1S0XxM=",
+        "originContent": "# Sky Dolly",
+        "translatedContent": "# Sky Dolly"
+      },
+      {
+        "row": 9,
+        "rowsha": "9W0Z0eNBraf0TUc50UePSWRa7z7zLWLNFOFpR9lgIHU=",
+        "originContent": "Sky Dolly - The Black Sheep for Your Flight Recordings.",
+        "translatedContent": "Sky Dolly - 您飞行录制的“黑羊”。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "m0QcAE3J+iZV4kJHdUlgPCLMoR1y3kRhWGgxHkrRxqE=",
+        "originContent": "## About",
+        "translatedContent": "## 关于"
+      },
+      {
+        "row": 12,
+        "rowsha": "CZoTVQQtzsNPLYcWCZh7M80c+LoEaiJV6M7taCYRTng=",
+        "originContent": "Sky Dolly connects to a running Flight Simulator 2020 instance and records various simulation variables, for replay.",
+        "translatedContent": "Sky Dolly 连接到正在运行的 Flight Simulator 2020 实例并记录各种模拟变量，以便重放。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "8wkO1sDg3qgvm+oqVBf2J2r89PIvy6k9skHlH3zSIK8=",
+        "originContent": "![Sky Dolly v0.11.0](https://raw.githubusercontent.com/till213/SkyDolly/main/./img/SkyDolly-v0.11.0.png)",
+        "translatedContent": "![Sky Dolly v0.11.0](https://raw.githubusercontent.com/till213/SkyDolly/main/./img/SkyDolly-v0.11.0.png)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "kgj4pfwrAf/ZSaJNPj6Xhgvc9B4KhdN9a5bsZSLustY=",
+        "originContent": "The connection is made via SimConnect, a standard API introduced with Flight Simulator X to connect with the flight simulator.",
+        "translatedContent": "连接通过 SimConnect 实现，这是 Flight Simulator X 引入的标准 API，用于连接飞行模拟器。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "l20KRwot1qf9HgdxtvbgoFfICYlYxRQ4ChtQpfJLtKw=",
+        "originContent": "Aso refer to the [ABOUT.md](https://raw.githubusercontent.com/till213/SkyDolly/main/ABOUT.MD).",
+        "translatedContent": "另请参阅 [ABOUT.md](https://raw.githubusercontent.com/till213/SkyDolly/main/ABOUT.MD)。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 特性"
+      },
+      {
+        "row": 21,
+        "rowsha": "SSSEy4NVIhZES7MSm2dS9zs8+UiDBqR1NyyXLQ+D8+o=",
+        "originContent": "- Record / Pause / Play",
+        "translatedContent": "- 录制 / 暂停 / 播放"
+      },
+      {
+        "row": 22,
+        "rowsha": "1JoA13jiEmom84/hRieoNnpFM985dZMDOuTuPWN+yhU=",
+        "originContent": "- Formation flights (multiple aircraft, replay during recording, \"fly with formation\", time offset)",
+        "translatedContent": "- 编队飞行（多架飞机，录制时重放，“编队飞行”，时间偏移）"
+      },
+      {
+        "row": 23,
+        "rowsha": "Bnw8XV+wquL7rJOc3MjBnO+CcDSY8wcIyqEZ97d5nKA=",
+        "originContent": "- Settable recording sample rate: fixed or variable (\"auto\")",
+        "translatedContent": "- 可设定录制采样率：固定或可变（“自动”）"
+      },
+      {
+        "row": 24,
+        "rowsha": "UZ6lT3Nhw4DLsztx/YoRUi2W/5CkGT2EO5ehbNThpSo=",
+        "originContent": "- Adjustable replay speed (\"slow motion\", \"timelapse\"), replay loop",
+        "translatedContent": "- 可调节回放速度（“慢动作”，“快进”），回放循环"
+      },
+      {
+        "row": 25,
+        "rowsha": "ECBM5iJBBrXL2qRPIsLjjRrQM3jMQEKpdWUN1k+xLPQ=",
+        "originContent": "- Position, velocity and basic flight control simulation variables (ailerons, rudder, flaps, gears, ...) are recorded",
+        "translatedContent": "- 记录位置、速度和基本飞行控制模拟变量（副翼、方向舵、副翼、襟翼、起落架等）"
+      },
+      {
+        "row": 26,
+        "rowsha": "04dgZDHPAR/Rs0M2LC6UY5NM6wCjebWM92jynw5zMD0=",
+        "originContent": "- Plugin architecture with various import/export plugins (CSV, GPX, IGC, KML)",
+        "translatedContent": "- 插件架构，支持多种导入/导出插件（CSV、GPX、IGC、KML）"
+      },
+      {
+        "row": 27,
+        "rowsha": "JMbe4cg2yflHnnIHlc4oPSvh7UDHLkrz/cJUqC/Iykw=",
+        "originContent": "- Location module with over 100 default locations and import/export functionality",
+        "translatedContent": "- 位置模块，包含100多个默认位置及导入/导出功能"
+      },
+      {
+        "row": 28,
+        "rowsha": "5ptbGKmCpGuFYFj1pwajqYN7H04qthCjsHACZMvWmd4=",
+        "originContent": "- Database (SQLite) based persistence (\"logbook\")",
+        "translatedContent": "- 基于数据库（SQLite）的持久化（“飞行日志”）"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "k26IWsL3hrrTAWyRlf/WPo5+VBc2zcicA72A00QR0CA=",
+        "originContent": "Watch the (preview) release trailer on [YouTube](https://www.youtube.com/watch?v=_n4qRtm78_I):",
+        "translatedContent": "观看 [YouTube](https://www.youtube.com/watch?v=_n4qRtm78_I) 上的（预览）发布预告片："
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "wtXmiAt56NA/etp8nnk/5vlJRTD6DpbNPTP3Ty/pKzo=",
+        "originContent": "[![Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (Cinematic Teaser Trailer)](https://img.youtube.com/vi/_n4qRtm78_I/0.jpg)](https://www.youtube.com/watch?v=_n4qRtm78_I \"Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (Cinematic Teaser Trailer)\")",
+        "translatedContent": "[![Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (电影预告片)](https://img.youtube.com/vi/_n4qRtm78_I/0.jpg)](https://www.youtube.com/watch?v=_n4qRtm78_I \"Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (电影预告片)\")"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Q09twmPibmi8yf6GTKQx1lnFsw0OeDTePAKyCV0Nqso=",
+        "originContent": "For more videos created with Sky Dolly also refer to [SHOWCASE](https://raw.githubusercontent.com/till213/SkyDolly/main/SHOWCASE.md). New and upcoming features are found in the [CHANGELOG](https://raw.githubusercontent.com/till213/SkyDolly/main/CHANGELOG.md).",
+        "translatedContent": "更多使用 Sky Dolly 制作的视频请参见 [SHOWCASE](https://raw.githubusercontent.com/till213/SkyDolly/main/SHOWCASE.md)。新功能和即将推出的功能见 [CHANGELOG](https://raw.githubusercontent.com/till213/SkyDolly/main/CHANGELOG.md)。"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "Lh+CO4+XL4trbaDGaAT86mzGQ5FCSAp1i4b5+mSZVOk=",
+        "originContent": "## Basic Usage",
+        "translatedContent": "## 基本使用"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "UH0zwOnPtR63oeWtQM0ugWLsuyEdBlVoX7lgaJ8jloM=",
+        "originContent": "- Start a flight",
+        "translatedContent": "- 开始飞行"
+      },
+      {
+        "row": 39,
+        "rowsha": "/oX5/1m84+lTGwUqa+R9m9Kzf3scCmXtZOhgR3xwCIc=",
+        "originContent": "- Click on \"Record\" (key R)",
+        "translatedContent": "- 点击“录制”（快捷键 R）"
+      },
+      {
+        "row": 40,
+        "rowsha": "hXFXY7ABvcpNhkbMbwOkY519LAy8clLq3nbM+T/VMj4=",
+        "originContent": "- You may pause recording (key P)",
+        "translatedContent": "- 您可以暂停录制（快捷键 P）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- Stop recording (key R) and click on \"Play\" (spacebar)\n- Adjust the replay speed and seek the play position, also during replay\n- Recorded flights are automatically persisted in the \"logbook\"\n- Select a flight in the logbook and press \"Load\" (or double-click the row) to load the persisted flight\n\n### Formation Recording & Replay\n\n#### Recording\n\n- Switch to the \"Formation\" module (key F2)\n- Click on \"Record\" (key R)\n- Each recorded aircraft is added to the current flight\n- While existing aircraft are replayed during the recording with \"auto\" sample rate you may still change the recording sample rate \n\n#### Position\n\n- The last recorded aircraft becomes the \"user aircraft\" (being followed by the camera in the flight simulator)\n- Select a position relative to the current \"user aircraft\" before recording\n\n#### Replay\n\n- Simply click on \"Play\", \"Pause\" and seek in the timeline, just like with a single aircraft flight\n- Change the \"user aircraft\" (also during replay) to \"jump from cockpit to cockpit\"\n- Take control of the \"user aircraft\" by selecting either \"Take control\" or \"Fly with Formation\" option\n\n#### Managing Formations\n\n- You may delete single aircraft from a flight (\"formation\")\n- There must be at least one aircraft per flight, so the last aircraft cannot be deleted\n- Add a time offset to the selected aircraft (\"multiplayer formation flight synchronisation\")\n- To start a new, single-aircraft flight change back to the \"Logbook\" module (key F1) and click on \"Record\" (key R)\n\nWhy don't you try it with one of the guided [\"Tell Tours\"](https://github.com/till213/Tell-Tours)? :)\n\n## Download\n\nGo to [Releases](https://github.com/till213/SkyDolly/releases) and download the latest release.\n\nLatest (pre-)release: **Sky Dolly 0.19.2**\n",
+    "ContentSha": "teJPCQvhbNhzV6VbZifxsQRniN+JKsY8BP4JbVFsg30=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 停止录制（按 R 键）并点击“播放”（空格键）  \n- 调整重放速度并在重放期间寻址播放位置  \n- 录制的飞行自动保存在“飞行日志”中  \n- 在飞行日志中选择一条飞行记录，按“加载”（或双击该行）以载入保存的飞行  \n\n### 编队录制与重放  \n\n#### 录制  \n\n- 切换到“编队”模块（按 F2 键）  \n- 点击“录制”（按 R 键）  \n- 每架录制的飞机都会被添加到当前飞行中  \n- 在录制时，已存在的飞机以“自动”采样率重放，您仍可更改录制采样率  \n\n#### 位置  \n\n- 最后录制的飞机成为“用户飞机”（飞行模拟器中摄像机跟随的对象）  \n- 在录制前选择相对于当前“用户飞机”的位置  \n\n#### 重放  \n\n- 只需点击“播放”、“暂停”并在时间线上寻址，就像单架飞机飞行一样  \n- 更改“用户飞机”（即使在重放期间）以实现“从驾驶舱跳转到驾驶舱”  \n- 通过选择“接管控制”或“与编队飞行”选项来控制“用户飞机”  \n\n#### 管理编队  \n\n- 可以从飞行（“编队”）中删除单架飞机  \n- 每个飞行至少必须保留一架飞机，因此最后一架飞机无法删除  \n- 为选中的飞机添加时间偏移（“多人编队飞行同步”）  \n- 若要开始新的单机飞行，请切换回“飞行日志”模块（按 F1 键）并点击“录制”（按 R 键）  \n\n为什么不试试其中一个引导的[\"Tell Tours\"](https://github.com/till213/Tell-Tours)呢？ :)  \n\n## 下载  \n\n前往 [Releases](https://github.com/till213/SkyDolly/releases) 下载最新版本。  \n\n最新（预）版本：**Sky Dolly 0.19.2**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "JKMYmQyybyb2yBo1mMqmZutGbLcrJ5X1/ti9SOjh34Y=",
+        "originContent": "- Stop recording (key R) and click on \"Play\" (spacebar)",
+        "translatedContent": "- 停止录制（按 R 键）并点击“播放”（空格键）  "
+      },
+      {
+        "row": 2,
+        "rowsha": "UGNyQaSNYdMbh8wWZbq/nDkDbx1xtOKlOlalNEFWhXQ=",
+        "originContent": "- Adjust the replay speed and seek the play position, also during replay",
+        "translatedContent": "- 调整重放速度并在重放期间寻址播放位置  "
+      },
+      {
+        "row": 3,
+        "rowsha": "0uopa7Pug5I6bHaOrNiWbezI7u0caHHY37FTPS6pzQs=",
+        "originContent": "- Recorded flights are automatically persisted in the \"logbook\"",
+        "translatedContent": "- 录制的飞行自动保存在“飞行日志”中  "
+      },
+      {
+        "row": 4,
+        "rowsha": "4TI+Ydz4Y5ccp1L+rl+5ZTqiTAts0xxGFYrZWETgJgI=",
+        "originContent": "- Select a flight in the logbook and press \"Load\" (or double-click the row) to load the persisted flight",
+        "translatedContent": "- 在飞行日志中选择一条飞行记录，按“加载”（或双击该行）以载入保存的飞行  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "BGkA5UbW5cEqzUZcOyeGSH0Va/MA0R/Qke5q7GL315o=",
+        "originContent": "### Formation Recording & Replay",
+        "translatedContent": "### 编队录制与重放  "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "/OQ1b33LlrNwWi31blNrUqb93GvlTOwNolsXGuVf2zE=",
+        "originContent": "#### Recording",
+        "translatedContent": "#### 录制  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "IJw5LzupBUE57a6n8I5hXKS79DFG3iSdYhc+gjOgjZc=",
+        "originContent": "- Switch to the \"Formation\" module (key F2)",
+        "translatedContent": "- 切换到“编队”模块（按 F2 键）  "
+      },
+      {
+        "row": 11,
+        "rowsha": "/oX5/1m84+lTGwUqa+R9m9Kzf3scCmXtZOhgR3xwCIc=",
+        "originContent": "- Click on \"Record\" (key R)",
+        "translatedContent": "- 点击“录制”（按 R 键）  "
+      },
+      {
+        "row": 12,
+        "rowsha": "RgoEXURvwFm2PQeW1cJh1cfV7yVIWrELm5s+ua2tCDs=",
+        "originContent": "- Each recorded aircraft is added to the current flight",
+        "translatedContent": "- 每架录制的飞机都会被添加到当前飞行中  "
+      },
+      {
+        "row": 13,
+        "rowsha": "eWC0E/Lm6pxloiOg1mdToQrvx6dsPrjhfNqRJhZyT9s=",
+        "originContent": "- While existing aircraft are replayed during the recording with \"auto\" sample rate you may still change the recording sample rate ",
+        "translatedContent": "- 在录制时，已存在的飞机以“自动”采样率重放，您仍可更改录制采样率  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "3B5diioFHcJxUjrnVF5pfqKEqIpjJL1KqMLa3BZ+GdQ=",
+        "originContent": "#### Position",
+        "translatedContent": "#### 位置  "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "0a9RsKj0RrKoLz+Q8Bq8iJLy8fbFqrI0srokLmvI2G8=",
+        "originContent": "- The last recorded aircraft becomes the \"user aircraft\" (being followed by the camera in the flight simulator)",
+        "translatedContent": "- 最后录制的飞机成为“用户飞机”（飞行模拟器中摄像机跟随的对象）  "
+      },
+      {
+        "row": 18,
+        "rowsha": "dzAA992G7pukbFjTnT2C2L07vGkP4vjZZzDPBnSNDss=",
+        "originContent": "- Select a position relative to the current \"user aircraft\" before recording",
+        "translatedContent": "- 在录制前选择相对于当前“用户飞机”的位置  "
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "NmLx3sM/I5OzhBU9qkVrkoohTxnzguaWUVMulaIGeWY=",
+        "originContent": "#### Replay",
+        "translatedContent": "#### 重放  "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "gymSKY2HyYyy770zk9IIbbK3c+dCR2ocx2x1urh9YyU=",
+        "originContent": "- Simply click on \"Play\", \"Pause\" and seek in the timeline, just like with a single aircraft flight",
+        "translatedContent": "- 只需点击“播放”、“暂停”并在时间线上寻址，就像单架飞机飞行一样  "
+      },
+      {
+        "row": 23,
+        "rowsha": "HWo8hy6ec6OnJMidMbEz9NTa55I9h482I37ApSEsgTQ=",
+        "originContent": "- Change the \"user aircraft\" (also during replay) to \"jump from cockpit to cockpit\"",
+        "translatedContent": "- 更改“用户飞机”（即使在重放期间）以实现“从驾驶舱跳转到驾驶舱”  "
+      },
+      {
+        "row": 24,
+        "rowsha": "sWyPUw1wpxRE/McKoRyDQUqTeg8ydOanT6qBqgIzwvk=",
+        "originContent": "- Take control of the \"user aircraft\" by selecting either \"Take control\" or \"Fly with Formation\" option",
+        "translatedContent": "- 通过选择“接管控制”或“与编队飞行”选项来控制“用户飞机”  "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "QiuYyAm+5MXjzUkyaroKrtBKUjOHnOq6QdZ1kBt8p9o=",
+        "originContent": "#### Managing Formations",
+        "translatedContent": "#### 管理编队  "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "OA3GwHFg+WQTzfbuY7az3pGaumS9qQzV0mwWb6pla0I=",
+        "originContent": "- You may delete single aircraft from a flight (\"formation\")",
+        "translatedContent": "- 可以从飞行（“编队”）中删除单架飞机  "
+      },
+      {
+        "row": 29,
+        "rowsha": "gnv25TrJb702mZpUdpF4Z7HaqRryLLTmSUYYCLANsdI=",
+        "originContent": "- There must be at least one aircraft per flight, so the last aircraft cannot be deleted",
+        "translatedContent": "- 每个飞行至少必须保留一架飞机，因此最后一架飞机无法删除  "
+      },
+      {
+        "row": 30,
+        "rowsha": "GDDEknbNC37bU4P6H3QAvFXX6sNKGNu1guu5EYq9mp0=",
+        "originContent": "- Add a time offset to the selected aircraft (\"multiplayer formation flight synchronisation\")",
+        "translatedContent": "- 为选中的飞机添加时间偏移（“多人编队飞行同步”）  "
+      },
+      {
+        "row": 31,
+        "rowsha": "fBei5ipchdEq8gwSNoe1nrlc6K9XkN1DNb58npudbkE=",
+        "originContent": "- To start a new, single-aircraft flight change back to the \"Logbook\" module (key F1) and click on \"Record\" (key R)",
+        "translatedContent": "- 若要开始新的单机飞行，请切换回“飞行日志”模块（按 F1 键）并点击“录制”（按 R 键）  "
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "o2f+nDmErTNBObYN2s8W+XAIYcYMVXFGjYvgHeTaMKI=",
+        "originContent": "Why don't you try it with one of the guided [\"Tell Tours\"](https://github.com/till213/Tell-Tours)? :)",
+        "translatedContent": "为什么不试试其中一个引导的[\"Tell Tours\"](https://github.com/till213/Tell-Tours)呢？ :)  "
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "QthUtrLFJhAm9mK+lb9STCileImPtOmEdm/neA89axg=",
+        "originContent": "## Download",
+        "translatedContent": "## 下载  "
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "bdb9svpPoVUeVA9FdBR01sgiT83WJDvS3pyEJz8yMMs=",
+        "originContent": "Go to [Releases](https://github.com/till213/SkyDolly/releases) and download the latest release.",
+        "translatedContent": "前往 [Releases](https://github.com/till213/SkyDolly/releases) 下载最新版本。  "
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "+vYNb4NmUF8W/zosgZl1Mz0eV1DYD+It9Sf8u1oDAyM=",
+        "originContent": "Latest (pre-)release: **Sky Dolly 0.19.2**",
+        "translatedContent": "最新（预）版本：**Sky Dolly 0.19.2**"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "Compute and compare your checksum against the [published SHA-256 checksums](https://raw.githubusercontent.com/till213/SkyDolly/main/SHASUM256.md), to verify the integrity of your downloaded copy.\n\n## Build\n\nRefer to the [BUILD](https://raw.githubusercontent.com/till213/SkyDolly/main/BUILD.md) documentation.\n\n## Related Projects\n\n- https://github.com/nguyenquyhy/Flight-Recorder - A .Net based flight recording & replay application\n- https://github.com/saltysimulations/saltyreplay/ - A recording & replay with a web user interface\n- https://github.com/SAHorowitz/MSFS2020-PilotPathRecorder - Records the flight and generates Google Earth (KML format) \"replays\"\n- https://github.com/Elephant42/FS_Tool - A simple tool that allows to set the aircraft location and simulation rate\n- https://github.com/pyviator/msfs-geoshot - Takes screenshots and automatically \"geotags\" them\n- https://github.com/ijl20/msfs_logger_replay - IGC logger and replay (for FSX)\n- https://joinfs.net/ - Allows to synchronise multiplayer flights across different flight simulators (MSFS, Prepar3D/FSX, XPlane). Also provides a flight recorder with formation flight recording (\"overdub\").\n- https://github.com/paulalexandrow/a32nx-webremote - WebRemote for FlyByWire's A32NX: control cockpit functionality of the FBW A320, using FSUIPC7\n- https://flightloganalyzer.com/ - FlightLog Analyer analyses the MSFS logbook and has a CSV export readable by Sky Dolly\n- https://github.com/BojoteX/FSAutoSave/ - FSAutoSave automatically (or upon request) stores flight plans\n- https://github.com/mracko/MSFS-Landing-Inspector - Analyses your landing performance\n- [Points of Interest (Google Maps)](https://www.google.com/maps/d/viewer?mid=1KUg5jwyT_9k2A9n5IZ99UChlhfVUfO5S&ll=-3.81666561775622e-14%2C-23.028915134521867&z=1) - Points of Interest, Airports and 3D cities in Microsoft Flight Simulator.\n\n## Other Useful Resources\n\n- https://obsproject.com/ - Screen capture / broadcast application\n- https://sqlitebrowser.org/ - Browse the Sky Dolly logbook (*.sdlog) database files, execute your own SQL queries\n",
+    "ContentSha": "4CVXDua/me2nVlE+uiBW8MyHyL9gExYdhgrkHWzYYAY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "计算并将您的校验和与[已发布的 SHA-256 校验和](https://raw.githubusercontent.com/till213/SkyDolly/main/SHASUM256.md)进行比较，以验证您下载副本的完整性。\n\n## 构建\n\n请参阅[BUILD](https://raw.githubusercontent.com/till213/SkyDolly/main/BUILD.md)文档。\n\n## 相关项目\n\n- https://github.com/nguyenquyhy/Flight-Recorder - 基于 .Net 的飞行录制与回放应用\n- https://github.com/saltysimulations/saltyreplay/ - 带有网页用户界面的录制与回放\n- https://github.com/SAHorowitz/MSFS2020-PilotPathRecorder - 记录飞行并生成 Google Earth (KML 格式)“回放”\n- https://github.com/Elephant42/FS_Tool - 一个简单工具，允许设置飞机位置和仿真速率\n- https://github.com/pyviator/msfs-geoshot - 截图并自动对其进行“地理标记”\n- https://github.com/ijl20/msfs_logger_replay - IGC 记录器与回放（针对 FSX）\n- https://joinfs.net/ - 允许跨不同飞行模拟器（MSFS、Prepar3D/FSX、XPlane）同步多人飞行。还提供带有编队飞行录制（“叠加”）的飞行记录器。\n- https://github.com/paulalexandrow/a32nx-webremote - FlyByWire 的 A32NX WebRemote：使用 FSUIPC7 控制 FBW A320 的驾驶舱功能\n- https://flightloganalyzer.com/ - FlightLog Analyer 分析 MSFS 日志，并支持导出 Sky Dolly 可读的 CSV\n- https://github.com/BojoteX/FSAutoSave/ - FSAutoSave 自动（或按需）保存飞行计划\n- https://github.com/mracko/MSFS-Landing-Inspector - 分析您的着陆表现\n- [兴趣点（Google 地图）](https://www.google.com/maps/d/viewer?mid=1KUg5jwyT_9k2A9n5IZ99UChlhfVUfO5S&ll=-3.81666561775622e-14%2C-23.028915134521867&z=1) - Microsoft Flight Simulator 中的兴趣点、机场和 3D 城市。\n\n## 其他有用资源\n\n- https://obsproject.com/ - 屏幕捕获 / 直播应用\n- https://sqlitebrowser.org/ - 浏览 Sky Dolly 日志 (*.sdlog) 数据库文件，执行自定义 SQL 查询\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "a3KuaUN2wG8xldBeAZsl4+UXWi87VnO8cNZ5zl6fdyQ=",
+        "originContent": "Compute and compare your checksum against the [published SHA-256 checksums](https://raw.githubusercontent.com/till213/SkyDolly/main/SHASUM256.md), to verify the integrity of your downloaded copy.",
+        "translatedContent": "计算并将您的校验和与[已发布的 SHA-256 校验和](https://raw.githubusercontent.com/till213/SkyDolly/main/SHASUM256.md)进行比较，以验证您下载副本的完整性。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "sJ/yPrjOl4CqqmNX52jV/O9t1ocQUKu6R6aB9zUAdQM=",
+        "originContent": "## Build",
+        "translatedContent": "## 构建"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "iQYBMpg6Sapu6GBd36l0iyBt9iMovJvjk24NEuqsaNo=",
+        "originContent": "Refer to the [BUILD](https://raw.githubusercontent.com/till213/SkyDolly/main/BUILD.md) documentation.",
+        "translatedContent": "请参阅[BUILD](https://raw.githubusercontent.com/till213/SkyDolly/main/BUILD.md)文档。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "029pqroXXjHSLawpWTocF2CPk5dLz29+pGq/paa0amA=",
+        "originContent": "## Related Projects",
+        "translatedContent": "## 相关项目"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "w2iCoNeGJ/Z2Qf3SwSsYU8xyQVSE7b4/r7bgLcWxb2U=",
+        "originContent": "- https://github.com/nguyenquyhy/Flight-Recorder - A .Net based flight recording & replay application",
+        "translatedContent": "- https://github.com/nguyenquyhy/Flight-Recorder - 基于 .Net 的飞行录制与回放应用"
+      },
+      {
+        "row": 10,
+        "rowsha": "M6A6e0SWRnSylfVhmuTerCWrZu55r6uWwCq+G39NG2M=",
+        "originContent": "- https://github.com/saltysimulations/saltyreplay/ - A recording & replay with a web user interface",
+        "translatedContent": "- https://github.com/saltysimulations/saltyreplay/ - 带有网页用户界面的录制与回放"
+      },
+      {
+        "row": 11,
+        "rowsha": "Bz+U61xW5qmTu6id7xsTyLmU2/Ba1wDhLAT0xQMw2aE=",
+        "originContent": "- https://github.com/SAHorowitz/MSFS2020-PilotPathRecorder - Records the flight and generates Google Earth (KML format) \"replays\"",
+        "translatedContent": "- https://github.com/SAHorowitz/MSFS2020-PilotPathRecorder - 记录飞行并生成 Google Earth (KML 格式)“回放”"
+      },
+      {
+        "row": 12,
+        "rowsha": "L1CpMZO1vpQAV+PGKyCcDSKfJ9EkK3SoRLbfvXf+7Pk=",
+        "originContent": "- https://github.com/Elephant42/FS_Tool - A simple tool that allows to set the aircraft location and simulation rate",
+        "translatedContent": "- https://github.com/Elephant42/FS_Tool - 一个简单工具，允许设置飞机位置和仿真速率"
+      },
+      {
+        "row": 13,
+        "rowsha": "xwo8WXFL1OhX34dTqf2MdzVqXBOryON2tjQa+uFKUxI=",
+        "originContent": "- https://github.com/pyviator/msfs-geoshot - Takes screenshots and automatically \"geotags\" them",
+        "translatedContent": "- https://github.com/pyviator/msfs-geoshot - 截图并自动对其进行“地理标记”"
+      },
+      {
+        "row": 14,
+        "rowsha": "gxTVVETceQMf+OBsvYxZQhTt8BHVMR1AMvAXZ6Bi7qI=",
+        "originContent": "- https://github.com/ijl20/msfs_logger_replay - IGC logger and replay (for FSX)",
+        "translatedContent": "- https://github.com/ijl20/msfs_logger_replay - IGC 记录器与回放（针对 FSX）"
+      },
+      {
+        "row": 15,
+        "rowsha": "mDxXk9TseMvwyHWDxeyxmRZT/mZs8oLGjw0RzRoGvJ8=",
+        "originContent": "- https://joinfs.net/ - Allows to synchronise multiplayer flights across different flight simulators (MSFS, Prepar3D/FSX, XPlane). Also provides a flight recorder with formation flight recording (\"overdub\").",
+        "translatedContent": "- https://joinfs.net/ - 允许跨不同飞行模拟器（MSFS、Prepar3D/FSX、XPlane）同步多人飞行。还提供带有编队飞行录制（“叠加”）的飞行记录器。"
+      },
+      {
+        "row": 16,
+        "rowsha": "WpfROaGReY9gJIIDkrXPYGPY15fEKb4kkS/3uDmqhtk=",
+        "originContent": "- https://github.com/paulalexandrow/a32nx-webremote - WebRemote for FlyByWire's A32NX: control cockpit functionality of the FBW A320, using FSUIPC7",
+        "translatedContent": "- https://github.com/paulalexandrow/a32nx-webremote - FlyByWire 的 A32NX WebRemote：使用 FSUIPC7 控制 FBW A320 的驾驶舱功能"
+      },
+      {
+        "row": 17,
+        "rowsha": "+DCyr/VAOhFAsKTeksf6uqN2fzQVMEhGC/wStLZdCvA=",
+        "originContent": "- https://flightloganalyzer.com/ - FlightLog Analyer analyses the MSFS logbook and has a CSV export readable by Sky Dolly",
+        "translatedContent": "- https://flightloganalyzer.com/ - FlightLog Analyer 分析 MSFS 日志，并支持导出 Sky Dolly 可读的 CSV"
+      },
+      {
+        "row": 18,
+        "rowsha": "OP3PVAw0lBGOrOpGPWXrrwoW0D6cw8w+dMSu2Hl5Sg4=",
+        "originContent": "- https://github.com/BojoteX/FSAutoSave/ - FSAutoSave automatically (or upon request) stores flight plans",
+        "translatedContent": "- https://github.com/BojoteX/FSAutoSave/ - FSAutoSave 自动（或按需）保存飞行计划"
+      },
+      {
+        "row": 19,
+        "rowsha": "aI/KQ5/XCHaYXTnqjRliRwsUIVbotg2WNLGCLmhBE9k=",
+        "originContent": "- https://github.com/mracko/MSFS-Landing-Inspector - Analyses your landing performance",
+        "translatedContent": "- https://github.com/mracko/MSFS-Landing-Inspector - 分析您的着陆表现"
+      },
+      {
+        "row": 20,
+        "rowsha": "MNy1E9igqdMAAieJ0H9PuQjLQy5vQ0qui3s4EMNjrwQ=",
+        "originContent": "- [Points of Interest (Google Maps)](https://www.google.com/maps/d/viewer?mid=1KUg5jwyT_9k2A9n5IZ99UChlhfVUfO5S&ll=-3.81666561775622e-14%2C-23.028915134521867&z=1) - Points of Interest, Airports and 3D cities in Microsoft Flight Simulator.",
+        "translatedContent": "- [兴趣点（Google 地图）](https://www.google.com/maps/d/viewer?mid=1KUg5jwyT_9k2A9n5IZ99UChlhfVUfO5S&ll=-3.81666561775622e-14%2C-23.028915134521867&z=1) - Microsoft Flight Simulator 中的兴趣点、机场和 3D 城市。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "yT+HtGm7Yn/XIJOEcLIgWBJSq7iADuyzMcYWbmjJaKQ=",
+        "originContent": "## Other Useful Resources",
+        "translatedContent": "## 其他有用资源"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "bn5MfzLKK2EwA1c+7lJsMwLIxTu9Kzgc/TCiba0HG4M=",
+        "originContent": "- https://obsproject.com/ - Screen capture / broadcast application",
+        "translatedContent": "- https://obsproject.com/ - 屏幕捕获 / 直播应用"
+      },
+      {
+        "row": 25,
+        "rowsha": "0vIt1Pl1ZSIvMGvgofyklDKlaZFAm2vc4Kv7jPpqzp8=",
+        "originContent": "- https://sqlitebrowser.org/ - Browse the Sky Dolly logbook (*.sdlog) database files, execute your own SQL queries",
+        "translatedContent": "- https://sqlitebrowser.org/ - 浏览 Sky Dolly 日志 (*.sdlog) 数据库文件，执行自定义 SQL 查询"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

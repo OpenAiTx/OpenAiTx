@@ -1,3 +1,34 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=zh-CN">Simplified Chinese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=zh-TW">Traditional Chinese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ja">Japanese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ko">Korean</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=hi">Hindi</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=th">Thai</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=fr">French</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=de">German</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=es">Spanish</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=it">Italian</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ru">Russian</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=pt">Portuguese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=nl">Dutch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=pl">Polish</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ar">Arabic</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=fa">Persian</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=tr">Turkish</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=vi">Vietnamese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=id">Indonesian</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
 CDN acceleration and security protection for this project are sponsored by Tencent EdgeOne.
 
 [![image](https://github.com/user-attachments/assets/059fed87-d415-41b0-a575-2423bf2d77e2)](https://edgeone.ai/?from=github)
@@ -6,38 +37,38 @@ The author of this project is colin1114.
 
 # 🚀 Clash Subscription Converter
 
-A visually appealing and powerful online tool for converting various proxy subscription links into Clash configuration format. Supports automatic deployment via Cloudflare Workers & Pages, providing fast and reliable subscription conversion services.
+A beautiful and powerful online tool for converting various proxy subscription links to Clash configuration format. Supports automatic deployment via Cloudflare Workers & Pages, providing fast and reliable subscription conversion services.
 
 ## ✨ Features
 
-- 🎨 **Beautiful Modern Interface** - Utilizes gradient backgrounds and card-style design
-- 🔄 **Multi-Protocol Support** - Supports mainstream protocols such as V2Ray, VLESS, Shadowsocks, Trojan, etc.
+- 🎨 **Modern and Attractive Interface** - Utilizes gradient backgrounds and card-style design
+- 🔄 **Multi-Protocol Support** - Supports mainstream protocols such as V2Ray, VLESS, Shadowsocks, Trojan
 - ☁️ **Cloud Deployment** - Global CDN acceleration via Cloudflare Workers
 - 📱 **Responsive Design** - Perfectly adapts to both desktop and mobile devices
-- ⚡ **Fast Conversion** - Instantly converts subscription links to Clash configuration
-- 📋 **Smart Copy** - One-click copy of generated YAML configuration, compatible with various browsers
-- 📡 **Subscription Link Generation** - Automatically generates subscription links that can be directly imported into Clash
+- ⚡ **Fast Conversion** - Instantly converts subscription links into Clash configuration
+- 📋 **Smart Copy** - One-click copying of generated YAML configuration, compatible with various browsers
+- 📡 **Subscription Link Generation** - Automatically generates subscription links importable to Clash
 - 🌐 **Online YAML Access** - Provides multiple ways to access YAML files:
-  - 📡 Subscription Link: Supports automatic updates in Clash clients
-  - 🔗 Online View: View configuration content directly in your browser
+  - 📡 Subscription Link: Supports automatic updates in Clash client
+  - 🔗 Online Viewing: View configuration directly in browser
   - 💾 File Download: Download .yaml file locally
-  - ⚡ Quick Access: Simplified download links
-- 🔧 **UTF-8 Support** - Perfectly supports Chinese node names and configurations
-- 🆓 **Completely Free** - Based on Cloudflare free services, no usage restrictions
+  - ⚡ Quick Access: Simplified download link
+- 🔧 **UTF-8 Support** - Fully supports Chinese node names and configurations
+- 🆓 **Completely Free** - Based on Cloudflare's free service, no usage restrictions
 
 ## 📁 Project Structure
 
 ```
 clash/
-├── index.html              # Frontend page
-├── worker.js               # Cloudflare Worker backend code
-├── wrangler.jsonc          # Wrangler configuration file
-├── _headers                # Cloudflare Pages HTTP header configuration
+├── index.html              # 前端页面
+├── worker.js               # Cloudflare Worker 后端代码
+├── wrangler.jsonc          # Wrangler 配置文件
+├── _headers                # Cloudflare Pages HTTP头配置
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml      # GitHub Actions deployment configuration
-├── README.md              # Project documentation
-└── package.json           # Project configuration file
+│       └── deploy.yml      # GitHub Actions 部署配置
+├── README.md              # 项目说明文档
+└── package.json           # 项目配置文件
 ```
 
 ## 🚀 Quick Start
@@ -50,20 +81,20 @@ clash/
    cd clash
    ```
 
-2. **Start local server**
+2. **Start the local server**
    ```bash
-   # Using Python
+   # 使用 Python
    python -m http.server 8000
-
-   # Or using Node.js
+   
+   # 或使用 Node.js
    npx serve .
    ```
 
-3. **Access the application**
+3. **Access the Application**
    - Open your browser and visit `http://localhost:8000`
-   - Sample configuration will be displayed in the local environment
+   - The sample configuration will be displayed in the local environment
 
-### Method 2: Deploy on Cloudflare Workers
+### Method 2: Deploy with Cloudflare Workers
 
 #### Step 1: Create a Worker
 
@@ -76,42 +107,43 @@ clash/
 #### Step 2: Deploy using Wrangler CLI
 
 ```bash
-# Install Wrangler CLI
+# 安装 Wrangler CLI
 npm install -g wrangler
 
-# Log in to Cloudflare
+# 登录到 Cloudflare
 wrangler login
 
-# Deploy Worker
+# 部署 Worker
 npm run deploy:worker
 ```
 
-#### Step 3: Configure Domain (Optional)
+#### Step 3: Configure Domain Name (Optional)
 
-1. Add a custom domain in the Worker settings
+1. Add a custom domain name in Worker settings
 2. Or use the default domain provided by Cloudflare
 
-### Method 3: Deploy on Cloudflare Pages
+### Method 3: Deploy with Cloudflare Pages
 
 #### Option A: GitHub Integration (Recommended)
 
 1. **Prepare Repository**
-   - Push the code to a GitHub repository
-   - Make sure all necessary files are included
-2. **Create a Pages Project**
+   - Push the code to your GitHub repository
+   - Ensure all necessary files are included
+
+2. **Create Pages Project**
    - Visit [Cloudflare Pages](https://pages.cloudflare.com/)
    - Connect your GitHub repository
    - Select the project repository
 
 3. **Build Settings**
-   - Build command: leave blank or use `echo "No build required"`
+   - Build command: leave blank or `echo "No build required"`
    - Build output directory: `/` (root directory)
    - Environment variables: no need to set
 
 #### Option B: Direct Upload
 
 ```bash
-# Deploy using Wrangler Pages
+# 使用 Wrangler Pages 部署
 npm run deploy:pages
 ```
 
@@ -120,13 +152,13 @@ npm run deploy:pages
 ### Frontend Tech Stack
 - **HTML5** - Modern markup language
 - **CSS3** - Responsive design and animation effects
-- **Vanilla JavaScript** - Lightweight frontend interaction
+- **Vanilla JavaScript** - Lightweight frontend interactions
 
 ### Backend Tech Stack
 - **Cloudflare Workers** - Edge computing platform
 - **Web APIs** - Standard Fetch API and response handling
 
-### Supported Protocols
+### Supported Protocol Formats
 - **VMess** - V2Ray standard protocol
 - **VLESS** - V2Ray lightweight protocol (supports Reality)
 - **Shadowsocks** - Classic proxy protocol
@@ -135,9 +167,9 @@ npm run deploy:pages
 ### API Endpoints
 - `GET /` - Main page
 - `POST /convert` - Subscription conversion API
-- `GET /clash/{config-id}` - Get YAML config file (subscription link)
-- `GET /yaml/{config-id}` - Download YAML config file
-- `OPTIONS /*` - CORS preflight requests
+- `GET /clash/{config-id}` - Retrieve YAML configuration file (subscription link)
+- `GET /yaml/{config-id}` - Download YAML configuration file
+- `OPTIONS /*` - CORS preflight request
 
 ## 📖 User Guide
 
@@ -148,40 +180,40 @@ npm run deploy:pages
    - Supports Base64-encoded subscription links
 
 2. **Set Configuration Name**
-   - Optionally set a custom name for the config file
+   - Optionally set a custom name for your configuration file
    - Defaults to "My Clash Config"
 
 3. **Convert Configuration**
    - Click the "Convert Subscription" button
    - Wait for the conversion to complete
 
-4. **Use Configuration**
-   - Copy the generated YAML config
+4. **Using Configuration**
+   - Copy the generated YAML configuration
    - Import it into the Clash client for use
 
-5. **Use Subscription Link (Recommended)**
+5. **Using Subscription Link (Recommended)**
    - Copy the generated subscription link
    - Add the subscription in the Clash client
-   - Config will auto-sync, no manual update needed
+   - The configuration will automatically sync, no manual update needed
 
 ### Advanced Configuration
 
-The generated Clash config includes the following features:
+The generated Clash configuration includes the following features:
 
 - **Proxy Group Policies**
   - 🚀 Node Selection - Manually select proxy
-  - ♻️ Auto Selection - Automatically select by latency test
+  - ♻️ Auto Selection - Delay test auto selection
   - 🎯 Global Direct - Direct connection
 
 - **DNS Configuration**
-  - DNS resolution enabled
+  - Enable DNS resolution
   - Supports fake-ip mode
-  - Domestic and foreign DNS split
+  - Domestic and overseas DNS split
 
 - **Routing Rules**
-  - Local addresses direct connect
-  - Domestic IPs direct connect
-  - Other traffic goes through proxy
+  - Local addresses direct connection
+  - Domestic IP direct connection
+  - Other traffic via proxy
 
 ## 🔧 Deployment Troubleshooting
 
@@ -191,25 +223,25 @@ The generated Clash config includes the following features:
 **Error Message**: `Missing entry-point to Worker script`
 
 **Solution**: 
-- Ensure the project root directory contains a `wrangler.jsonc` file
+- Make sure there is a `wrangler.jsonc` file in the project root directory
 - Check that the `main` field in `wrangler.jsonc` points to `worker.js`
 
-#### 2. GitHub Actions Deployment Fails
+#### 2. GitHub Actions Deployment Failed
 **Solution**:
 - Add the following Secrets in your GitHub repository settings:
-- `CLOUDFLARE_API_TOKEN`: Cloudflare API token  
-- `CLOUDFLARE_ACCOUNT_ID`: Cloudflare account ID
+  - `CLOUDFLARE_API_TOKEN`: Cloudflare API token
+  - `CLOUDFLARE_ACCOUNT_ID`: Cloudflare account ID
 
-#### 3. Pages Build Failure
+#### 3. Pages Build Failed
 **Solution**:
 - Set the build command to empty or `echo "No build required"`
 - Make sure the build output directory is set to `/`
 
 ### Deployment Configuration File Description
 
-- **`wrangler.jsonc`**: Wrangler CLI configuration, used for Worker deployment
+- **`wrangler.jsonc`**: Wrangler CLI configuration for Worker deployment
 - **`_headers`**: Cloudflare Pages HTTP header configuration
-- **`.github/workflows/deploy.yml`**: GitHub Actions auto-deployment configuration
+- **`.github/workflows/deploy.yml`**: GitHub Actions automatic deployment configuration
 
 ## 🔧 Custom Configuration
 
@@ -220,11 +252,11 @@ You can edit the `convertToClash` function in `worker.js` to customize proxy gro
 ```javascript
 'proxy-groups': [
   {
-    name: '🚀 Node Selection',
+    name: '🚀 节点选择',
     type: 'select',
-    proxies: ['♻️ Auto Select', '🎯 Global Direct', ...proxyNames]
+    proxies: ['♻️ 自动选择', '🎯 全球直连', ...proxyNames]
   },
-  // Add more proxy groups...
+  // 添加更多代理组...
 ]
 ```
 
@@ -234,28 +266,28 @@ Modify the `rules` array to add custom routing rules:
 
 ```javascript
 rules: [
-  'DOMAIN-SUFFIX,youtube.com,🚀 Node Selection',
+  'DOMAIN-SUFFIX,youtube.com,🚀 节点选择',
   'DOMAIN-SUFFIX,local,DIRECT',
-  // Add more rules...
+  // 添加更多规则...
 ]
 ```
 
 ## 📊 Performance Features
 
-- **Global CDN** - Cloudflare's worldwide edge nodes
+- **Global CDN** - Cloudflare covers global edge nodes
 - **Fast Response** - Average response time < 100ms
 - **High Availability** - 99.9% service uptime
 - **Free Quota** - 100,000 requests per day
 
-## 🔒 Security Notes
+## 🔒 Security Instructions
 
 - **Data Privacy** - Subscription data is only used during conversion and is not stored
 - **HTTPS Encryption** - All communication is encrypted via HTTPS
-- **Open Source Transparency** - Full source code is public and can be audited
+- **Open Source Transparency** - Full source code is public and can be independently audited
 
 ## 🤝 Contribution Guide
 
-Contributions via Issue and Pull Request are welcome!
+Issues and Pull Requests are welcome!
 
 1. Fork this repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -266,40 +298,42 @@ Contributions via Issue and Pull Request are welcome!
 ## 📝 Changelog
 
 ### v1.1.0
-- ✅ Added VLESS protocol support (including Reality secure transport)
+- ✅ Added support for VLESS protocol (including Reality secure transport)
 - ✅ Improved protocol compatibility
 
 ### v1.0.0
-- ✅ Basic subscription conversion function
-- ✅ Beautiful user interface
+- ✅ Basic subscription conversion functionality
+- ✅ Elegant user interface
 - ✅ Cloudflare Workers support
 - ✅ Multi-protocol support (VMess, Shadowsocks, Trojan)
 - ✅ Responsive design
-- ✅ One-click copy function
+- ✅ One-click copy feature
 
-## 📞 Support & Feedback
+## 📞 Support and Feedback
 
-If you encounter issues or have suggestions during use, please:
+If you encounter any problems or have suggestions during use, please:
 
-1. Review this README document
+1. Check this README document
 2. Submit an [Issue](../../issues)
 3. Start a [Discussion](../../discussions)
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project uses the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## 🙏 Acknowledgements
 
-- [Cloudflare Workers](https://workers.cloudflare.com/) - Provides the edge computing platform
+- [Cloudflare Workers](https://workers.cloudflare.com/) - Provides edge computing platform
 - [Clash](https://github.com/Dreamacro/clash) - Excellent proxy client
-- All contributors and users for their support
+- Support from all contributors and users
 
 ---
-⭐ If this project has been helpful to you, please give it a Star!
+
+⭐ If this project is helpful to you, please give it a Star! 
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---

@@ -1,3 +1,34 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=colin1114&project=clash&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
 本项目的 CDN 加速与安全防护由腾讯 EdgeOne 提供赞助。
 
 [![image](https://github.com/user-attachments/assets/059fed87-d415-41b0-a575-2423bf2d77e2)](https://edgeone.ai/?from=github)
@@ -10,20 +41,20 @@
 
 ## ✨ 功能特性
 
-- 🎨 **美观的现代化界面** - 采用渐变背景和卡片式设计
-- 🔄 **多协议支持** - 支持 V2Ray、VLESS、Shadowsocks、Trojan 等主流协议
+- 🎨 **美观现代界面** - 使用渐变背景和卡片式设计
+- 🔄 **多协议兼容** - 支持 V2Ray、VLESS、Shadowsocks、Trojan 等主流协议
 - ☁️ **云端部署** - 通过 Cloudflare Workers 实现全球 CDN 加速
-- 📱 **响应式设计** - 完美适配桌面端和移动端
-- ⚡ **快速转换** - 实时将订阅链接转换为 Clash 配置
+- 📱 **响应式设计** - 完美适配桌面和移动设备
+- ⚡ **极速转换** - 实时将订阅链接转换为 Clash 配置
 - 📋 **智能复制** - 支持一键复制生成的 YAML 配置，兼容各种浏览器
 - 📡 **订阅链接生成** - 自动生成可直接导入 Clash 的订阅链接
 - 🌐 **在线 YAML 访问** - 提供多种 YAML 文件访问方式：
   - 📡 订阅链接：支持 Clash 客户端自动更新
-  - 🔗 在线查看：浏览器中直接查看配置内容
+  - 🔗 在线查看：在浏览器中直接查看配置内容
   - 💾 文件下载：下载 .yaml 文件到本地
   - ⚡ 快速访问：简化的下载链接
-- 🔧 **UTF-8 支持** - 完美支持中文节点名称和配置
-- 🆓 **完全免费** - 基于 Cloudflare 免费服务，无使用限制
+- 🔧 **UTF-8 支持** - 完美兼容中文节点名称和配置
+- 🆓 **完全免费** - 基于 Cloudflare 免费服务，无任何使用限制
 
 ## 📁 项目结构
 
@@ -32,7 +63,7 @@ clash/
 ├── index.html              # 前端页面
 ├── worker.js               # Cloudflare Worker 后端代码
 ├── wrangler.jsonc          # Wrangler 配置文件
-├── _headers                # Cloudflare Pages HTTP 头配置
+├── _headers                # Cloudflare Pages HTTP头配置
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml      # GitHub Actions 部署配置
@@ -50,7 +81,7 @@ clash/
    cd clash
    ```
 
-2. **启动本地服务器**
+2. **Start the local server**
    ```bash
    # 使用 Python
    python -m http.server 8000
@@ -71,7 +102,7 @@ clash/
 2. 注册/登录 Cloudflare 账户
 3. 点击 "Create a Worker"
 4. 将 `worker.js` 中的代码完整复制到编辑器中
-5. 点击 "Save and Deploy"
+5. 点击 "保存并部署"
 
 #### 步骤2：使用 Wrangler CLI 部署
 
@@ -98,6 +129,7 @@ npm run deploy:worker
 1. **准备仓库**
    - 将代码推送到 GitHub 仓库
    - 确保包含所有必要文件
+
 2. **创建 Pages 项目**
    - 访问 [Cloudflare Pages](https://pages.cloudflare.com/)
    - 连接你的 GitHub 仓库
@@ -119,18 +151,18 @@ npm run deploy:pages
 
 ### 前端技术栈
 - **HTML5** - 现代化标记语言
-- **CSS3** - 响应式设计和动画效果
+- **CSS3** - 响应式设计与动画效果
 - **Vanilla JavaScript** - 轻量级前端交互
 
 ### 后端技术栈
 - **Cloudflare Workers** - 边缘计算平台
-- **Web APIs** - 标准的 Fetch API 和响应处理
+- **Web APIs** - 标准 Fetch API 与响应处理
 
 ### 支持的协议格式
 - **VMess** - V2Ray 标准协议
 - **VLESS** - V2Ray 轻量协议（支持Reality）
 - **Shadowsocks** - 经典代理协议
-- **Trojan** - 新兴的代理协议
+- **Trojan** - 新兴代理协议
 
 ### API 端点
 - `GET /` - 主页面
@@ -144,15 +176,15 @@ npm run deploy:pages
 ### 基本使用
 
 1. **输入订阅链接**
-   - 将你的代理订阅链接粘贴到输入框中
+   - 将您的代理订阅链接粘贴到输入框
    - 支持 Base64 编码的订阅链接
 
 2. **设置配置名称**
-   - 可选择性地为配置文件设置自定义名称
+   - 可选为配置文件设置自定义名称
    - 默认为 "My Clash Config"
 
 3. **转换配置**
-   - 点击 "转换订阅" 按钮
+   - 点击“转换订阅”按钮
    - 等待转换完成
 
 4. **使用配置**
@@ -196,13 +228,13 @@ npm run deploy:pages
 
 #### 2. GitHub Actions 部署失败
 **解决方案**:
-- 在 GitHub 仓库设置中添加以下 Secrets:
+- 在 GitHub 仓库设置中添加以下 Secrets：
   - `CLOUDFLARE_API_TOKEN`：Cloudflare API 令牌
   - `CLOUDFLARE_ACCOUNT_ID`：Cloudflare 账户 ID
 
 #### 3. Pages 构建失败
-**解决方案**：
-- 将构建命令设置为空或 `echo "No build required"`
+**解决方案**:
+- 设置构建命令为空或 `echo "No build required"`
 - 确保构建输出目录设置为 `/`
 
 ### 部署配置文件说明
@@ -230,7 +262,7 @@ npm run deploy:pages
 
 ### 自定义路由规则
 
-修改 `rules` 数组来添加自定义路由规则：
+修改 `rules` 数组以添加自定义路由规则：
 
 ```javascript
 rules: [
@@ -258,15 +290,15 @@ rules: [
 欢迎提交 Issue 和 Pull Request！
 
 1. Fork 本仓库
-2. 创建特性分支（`git checkout -b feature/AmazingFeature`）
-3. 提交更改（`git commit -m 'Add some AmazingFeature'`）
-4. 推送到分支（`git push origin feature/AmazingFeature`）
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 开启 Pull Request
 
 ## 📝 更新日志
 
 ### v1.1.0
-- ✅ 新增 VLESS 协议支持（包括 Reality 安全传输）
+- ✅ 新增VLESS协议支持（包括Reality安全传输）
 - ✅ 改进协议兼容性
 
 ### v1.0.0
@@ -296,10 +328,12 @@ rules: [
 - 所有贡献者和用户的支持
 
 ---
-⭐ 如果这个项目对你有帮助，请给它一个 Star！
+
+⭐ 如果这个项目对你有帮助，请给它一个 Star！ 
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
 
 ---
