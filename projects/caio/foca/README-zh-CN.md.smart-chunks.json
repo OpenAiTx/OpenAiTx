@@ -1,0 +1,936 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Foca: Cluster membership discovery on your terms\n\nFoca is a building block for your gossip-based cluster discovery. It's\na small `no_std` + `alloc` crate that implements the SWIM protocol along\nwith its useful extensions (`SWIM+Inf.+Susp.`).\n\nProject:\n\n* Git Repository: https://caio.co/de/foca/\n* Issue tracker: https://github.com/caio/foca/issues\n* CI: https://github.com/caio/foca/actions/workflows/ci.yml\n* Packages: https://crates.io/crates/foca\n* Documentation: https://docs.rs/foca\n\n\n# Introduction\n\nThe most notable thing about Foca is the fact that it does almost\nnothing. Out of the box, all it gives is a reliable and efficient\nimplementation of the [SWIM protocol][1] that's transport and\nidentity agnostic.\n\nKnowledge of how SWIM works is helpful but not necessary to make use\nof this library. Reading the documentation for the `Message` enum\nshould give you an idea of how the protocol works, but the paper is\na very accessible read.\n\nFoca is designed to fit into any sort of transport: If your network\nallows peers to talk to each other you can deploy Foca on it.\nNot only the general bandwidth requirements are low, but you also\nhave full control of how members identify each other (see\n`./examples/identity_golf.rs`) and how messages are encoded.\n\n\n# Usage\n\nPlease take a look at `./examples/foca_insecure_udp_agent.rs`. It\nshowcases how a simple tokio-based agent could look like and lets\nyou actually run and see Foca swimming.\n",
+    "ContentSha": "xoBzQol77Elkse8xPTXclKm0117ZYo/tNsC/8QLvO90=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Foca：按您的方式发现集群成员\n\nFoca 是构建基于 Gossip 的集群发现的基础模块。它是一个小型的 `no_std` + `alloc` 包，实现了 SWIM 协议及其有用的扩展（`SWIM+Inf.+Susp.`）。\n\n项目：\n\n* Git 仓库：https://caio.co/de/foca/\n* 问题跟踪：https://github.com/caio/foca/issues\n* CI：https://github.com/caio/foca/actions/workflows/ci.yml\n* 包管理：https://crates.io/crates/foca\n* 文档：https://docs.rs/foca\n\n\n# 介绍\n\nFoca 最显著的特点是它几乎不做任何事情。开箱即用，它仅提供一个可靠且高效的\n[SWIM 协议][1] 实现，且对传输和身份无依赖。\n\n了解 SWIM 的工作原理有帮助，但不是使用本库的必备条件。阅读 `Message` 枚举的文档\n应能让您了解协议的工作方式，但论文本身也非常易读。\n\nFoca 设计为适应任何类型的传输：如果您的网络允许节点间相互通信，您就可以在其上部署 Foca。\n不仅总体带宽需求低，而且您还可以完全控制成员如何相互识别（参见\n`./examples/identity_golf.rs`）以及消息的编码方式。\n\n\n# 使用\n\n请查看 `./examples/foca_insecure_udp_agent.rs`。它展示了一个简单的基于 tokio 的代理\n可能的样子，并让您实际运行并观察 Foca 的游动。\n\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "XNE8OtE4sG33bCwRuUwTSFY7JbnVqGSqNy4OsCfD3o4=",
+        "originContent": "# Foca: Cluster membership discovery on your terms",
+        "translatedContent": "# Foca：按您的方式发现集群成员"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "3m1N2n6qErIUoORnML5tbZumqvfZtfo7wX4UwePmeP4=",
+        "originContent": "Foca is a building block for your gossip-based cluster discovery. It's",
+        "translatedContent": "Foca 是构建基于 Gossip 的集群发现的基础模块。它是一个小型的 `no_std` + `alloc` 包，实现了 SWIM 协议及其有用的扩展（`SWIM+Inf.+Susp.`）。"
+      },
+      {
+        "row": 4,
+        "rowsha": "rJA4ytZ/C2JRmMXcHJkbH49Yyy5Z9tGM1+rVEfW/Gvs=",
+        "originContent": "a small `no_std` + `alloc` crate that implements the SWIM protocol along",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "8p2OTN3ywhgE/eHvA6z84FvFHC/js2KmG7VnlgAk+hU=",
+        "originContent": "with its useful extensions (`SWIM+Inf.+Susp.`).",
+        "translatedContent": "项目："
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "WRfzIxH9TKMWoaeSK/xCrfi6zufzbz0TU1VEiLQFPGc=",
+        "originContent": "Project:",
+        "translatedContent": "* Git 仓库：https://caio.co/de/foca/"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 问题跟踪：https://github.com/caio/foca/issues"
+      },
+      {
+        "row": 9,
+        "rowsha": "tekdkAZfUjLL2AYbmflu3h68TZmJOWqr1hmZVhv9IcU=",
+        "originContent": "* Git Repository: https://caio.co/de/foca/",
+        "translatedContent": "* CI：https://github.com/caio/foca/actions/workflows/ci.yml"
+      },
+      {
+        "row": 10,
+        "rowsha": "9mYCXjbmkd3RXtep5vLWKoCYmaaJNUfVDKB78mSQgeM=",
+        "originContent": "* Issue tracker: https://github.com/caio/foca/issues",
+        "translatedContent": "* 包管理：https://crates.io/crates/foca"
+      },
+      {
+        "row": 11,
+        "rowsha": "SMVQjtJ2RYbqDzjGoD6JFtOopR/9/Wmdk+mpWeVnVh0=",
+        "originContent": "* CI: https://github.com/caio/foca/actions/workflows/ci.yml",
+        "translatedContent": "* 文档：https://docs.rs/foca"
+      },
+      {
+        "row": 12,
+        "rowsha": "J1pJzov864nTriMhQvO3arSALy0Sv6ZH7Z8OGscK0+g=",
+        "originContent": "* Packages: https://crates.io/crates/foca",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "ne1nCyb20QxVz8GrycJatkvQDgwf9wgOVg9z2dFc7RE=",
+        "originContent": "* Documentation: https://docs.rs/foca",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 介绍"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "HPq7n79kJyIQ9GDdoug4SfyHFTzXjyqYNQf8jDMuGf0=",
+        "originContent": "# Introduction",
+        "translatedContent": "Foca 最显著的特点是它几乎不做任何事情。开箱即用，它仅提供一个可靠且高效的"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[SWIM 协议][1] 实现，且对传输和身份无依赖。"
+      },
+      {
+        "row": 18,
+        "rowsha": "EyjCQ4wwMf9GTyHwvSEZKeCJJ+YLknEKdN3rvJISOGg=",
+        "originContent": "The most notable thing about Foca is the fact that it does almost",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "uoCNFIebJCH7UdBV5eIG2MuY6Pnhy3g9i9pOYURt5VM=",
+        "originContent": "nothing. Out of the box, all it gives is a reliable and efficient",
+        "translatedContent": "了解 SWIM 的工作原理有帮助，但不是使用本库的必备条件。阅读 `Message` 枚举的文档"
+      },
+      {
+        "row": 20,
+        "rowsha": "IJB+ofWtQHEpAaY6nNavTZVUWLqxhdwD9wHPk8uurMA=",
+        "originContent": "implementation of the [SWIM protocol][1] that's transport and",
+        "translatedContent": "应能让您了解协议的工作方式，但论文本身也非常易读。"
+      },
+      {
+        "row": 21,
+        "rowsha": "UQboJYVOg0cfzlKrWsQMhoPf0NhX97ay4FEjea7rxe8=",
+        "originContent": "identity agnostic.",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Foca 设计为适应任何类型的传输：如果您的网络允许节点间相互通信，您就可以在其上部署 Foca。"
+      },
+      {
+        "row": 23,
+        "rowsha": "vcd1fFlppyPhCeEKllHCmLbvf7kUfeNvwMqt7hK/YD0=",
+        "originContent": "Knowledge of how SWIM works is helpful but not necessary to make use",
+        "translatedContent": "不仅总体带宽需求低，而且您还可以完全控制成员如何相互识别（参见"
+      },
+      {
+        "row": 24,
+        "rowsha": "AAUXI7T+PisGnjNJIBEizCwn5wcy9cMSdFxqtFbdVr4=",
+        "originContent": "of this library. Reading the documentation for the `Message` enum",
+        "translatedContent": "`./examples/identity_golf.rs`）以及消息的编码方式。"
+      },
+      {
+        "row": 25,
+        "rowsha": "ms71iaTlFm0SYIcq3QsThfT26K1FqP4m56ZaeWcr5YQ=",
+        "originContent": "should give you an idea of how the protocol works, but the paper is",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "d1TxOgrbJKyEmH4Xmrg+5gKQoslOsD9vfOBsnso1qAU=",
+        "originContent": "a very accessible read.",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 使用"
+      },
+      {
+        "row": 28,
+        "rowsha": "xZNvsNx+GhmAYVYeBTW0i86RAqelj6qdNxQFxjfn6NM=",
+        "originContent": "Foca is designed to fit into any sort of transport: If your network",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "VHKU7SD629bLSGMmuR2lLOk9QzyestjvqGnOWZApWww=",
+        "originContent": "allows peers to talk to each other you can deploy Foca on it.",
+        "translatedContent": "请查看 `./examples/foca_insecure_udp_agent.rs`。它展示了一个简单的基于 tokio 的代理"
+      },
+      {
+        "row": 30,
+        "rowsha": "+ykeZ7124PMN9my18Sts/4lReNz8nHB6NYM1NfuwNnQ=",
+        "originContent": "Not only the general bandwidth requirements are low, but you also",
+        "translatedContent": "可能的样子，并让您实际运行并观察 Foca 的游动。"
+      },
+      {
+        "row": 31,
+        "rowsha": "vltWH3NKw3rYVAoZjS2icwPxj+IpDoLBb4qRankWCA8=",
+        "originContent": "have full control of how members identify each other (see",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "FLZIMTENG1dPhm3tXd1EeYmx9sBM98qSbp2BCazd54M=",
+        "originContent": "`./examples/identity_golf.rs`) and how messages are encoded.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+        "originContent": "# Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "aKpuzJxVMsAIDeLtSucfElr+vbnjZwvd1FvTa4JyovQ=",
+        "originContent": "Please take a look at `./examples/foca_insecure_udp_agent.rs`. It",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "XntCY5lxQCfZYGunhDcXRi7YE0OxVmtI4+EKOJpC7Jw=",
+        "originContent": "showcases how a simple tokio-based agent could look like and lets",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "MCKjDhRsUlgqlx3pcprkpA+PctRTyodZEoVTBr1q0L8=",
+        "originContent": "you actually run and see Foca swimming.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "~~~\n$ cargo run --features std,tracing,bincode-codec --example foca_insecure_udp_agent -- --help\nfoca_insecure_udp_agent \n\nUSAGE:\n    foca_insecure_udp_agent [OPTIONS] <BIND_ADDR>\n\nFLAGS:\n    -h, --help       Prints help information\n    -V, --version    Prints version information\n\nOPTIONS:\n    -a, --announce <announce>    Address to another Foca instance to join with\n    -f, --filename <filename>    Name of the file that will contain all active members\n    -i, --identity <identity>    The address cluster members will use to talk to you.\n                                 Defaults to BIND_ADDR\n\nARGS:\n    <BIND_ADDR>    Socket address to bind to. Example: 127.0.0.1:8080\n~~~\n\nSo you can start the agent in one terminal with\n`./foca_insecure_udp_agent 127.0.0.1:8000` and join it with as many others\nas you want with using a different `BIND_ADDR` and `--announce` to a\nrunning instance. Example:\n`./foca_insecure_udp_agent 127.0.0.1:8001 -a 127.0.0.1:8000`.\n\nThe agent outputs some information to the console via [tracing][]'s\nsubscriber. It defaults to the `INFO` log level and can be customized\nvia the `RUST_LOG` environment variable using [tracing_subscriber's\nEnvFilter directives][dir].\n\n\n## Cargo Features\n\nEvery feature is optional. The `default` set will always be empty.\n\n* `std`: Implements `foca::Identity` for `std::net::SocketAddr*` and\n  exposes `Config::new_lan` and `Config::new_wan`\n* `tracing`: Instruments Foca using the [tracing][] crate. High-level",
+    "ContentSha": "zeE0gvWN5issJ/O4HpoRH9t/4jo/RoOhcq/lr9XaQHM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "~~~\n$ cargo run --features std,tracing,bincode-codec --example foca_insecure_udp_agent -- --help\nfoca_insecure_udp_agent \n\nUSAGE:\n    foca_insecure_udp_agent [OPTIONS] <BIND_ADDR>\n\nFLAGS:\n    -h, --help       打印帮助信息\n    -V, --version    打印版本信息\n\nOPTIONS:\n    -a, --announce <announce>    要加入的另一个 Foca 实例的地址\n    -f, --filename <filename>    包含所有活动成员的文件名\n    -i, --identity <identity>    集群成员用于与你通信的地址。\n                                 默认是 BIND_ADDR\n\nARGS:\n    <BIND_ADDR>    绑定的套接字地址。例如：127.0.0.1:8080\n~~~\n\n所以你可以在一个终端启动代理：\n`./foca_insecure_udp_agent 127.0.0.1:8000`，并通过不同的 `BIND_ADDR` 和 `--announce` 加入任意多个其他实例。\n例如：\n`./foca_insecure_udp_agent 127.0.0.1:8001 -a 127.0.0.1:8000`。\n\n代理通过 [tracing][] 的订阅者向控制台输出一些信息。\n默认日志级别为 `INFO`，可以通过设置环境变量 `RUST_LOG` 并使用 [tracing_subscriber 的 EnvFilter 指令][dir] 进行自定义。\n\n\n## Cargo 功能特性\n\n每个功能都是可选的。`default` 集合始终为空。\n\n* `std`：为 `std::net::SocketAddr*` 实现 `foca::Identity` 并暴露 `Config::new_lan` 和 `Config::new_wan`\n* `tracing`：使用 [tracing][] crate 对 Foca 进行监控。高级-level\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+        "originContent": "~~~",
+        "translatedContent": "~~~"
+      },
+      {
+        "row": 2,
+        "rowsha": "JVBrsfkl31v1HeTHHbtp6c8Wi9y2wH6wR/6bBzZHJrM=",
+        "originContent": "$ cargo run --features std,tracing,bincode-codec --example foca_insecure_udp_agent -- --help",
+        "translatedContent": "$ cargo run --features std,tracing,bincode-codec --example foca_insecure_udp_agent -- --help"
+      },
+      {
+        "row": 3,
+        "rowsha": "Bi8eEXyq3E8xCYbUZNrgpCpexrc9yMF+As0wnppS9hg=",
+        "originContent": "foca_insecure_udp_agent ",
+        "translatedContent": "foca_insecure_udp_agent "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "FX2rt7e3sZQpnamO13ps+P824YRrLBfv0Ayi1CP3Dy8=",
+        "originContent": "USAGE:",
+        "translatedContent": "USAGE:"
+      },
+      {
+        "row": 6,
+        "rowsha": "r4rle0Uky4JvUReVylEmUsldULbCnOtRpkHYoTUYqws=",
+        "originContent": "    foca_insecure_udp_agent [OPTIONS] <BIND_ADDR>",
+        "translatedContent": "    foca_insecure_udp_agent [OPTIONS] <BIND_ADDR>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "mVv3soZIYaUjHQ6EDmG86TQyBs8PU0CsvNVVzzxyjdc=",
+        "originContent": "FLAGS:",
+        "translatedContent": "FLAGS:"
+      },
+      {
+        "row": 9,
+        "rowsha": "dceqhBzskPT1oJTCtWf5qkyTepzwH2DQ8KA1MJklJik=",
+        "originContent": "    -h, --help       Prints help information",
+        "translatedContent": "    -h, --help       打印帮助信息"
+      },
+      {
+        "row": 10,
+        "rowsha": "r0N34OXHSlHLDumEYLDl7oGC5pRbpxDEDWdowD6sTvQ=",
+        "originContent": "    -V, --version    Prints version information",
+        "translatedContent": "    -V, --version    打印版本信息"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "ZToZw7VpqEoNLo+3aftdLvI3s7QaAF2tIZD0MKv3qNg=",
+        "originContent": "OPTIONS:",
+        "translatedContent": "OPTIONS:"
+      },
+      {
+        "row": 13,
+        "rowsha": "r0Yp2Z5d9LvQXw7P/WksSyAC/pkkInFx35LHRcZGQJ8=",
+        "originContent": "    -a, --announce <announce>    Address to another Foca instance to join with",
+        "translatedContent": "    -a, --announce <announce>    要加入的另一个 Foca 实例的地址"
+      },
+      {
+        "row": 14,
+        "rowsha": "W5a4DG5YnBuLQK4urBvBSZGsTYhPWfenLGtnRw0827A=",
+        "originContent": "    -f, --filename <filename>    Name of the file that will contain all active members",
+        "translatedContent": "    -f, --filename <filename>    包含所有活动成员的文件名"
+      },
+      {
+        "row": 15,
+        "rowsha": "EHUNy9IcA1CgPR6sBSfZRMDtp+pDLUWpgDy6rBpmAuM=",
+        "originContent": "    -i, --identity <identity>    The address cluster members will use to talk to you.",
+        "translatedContent": "    -i, --identity <identity>    集群成员用于与你通信的地址。"
+      },
+      {
+        "row": 16,
+        "rowsha": "JrJvY7QzFBg66ws48F/rD1PIyEIVDnt05ViOFghDf/0=",
+        "originContent": "                                 Defaults to BIND_ADDR",
+        "translatedContent": "                                 默认是 BIND_ADDR"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "AgaMjux0EhChPR+12DCKyZgdquEk7e1tAPG6BxaNIp8=",
+        "originContent": "ARGS:",
+        "translatedContent": "ARGS:"
+      },
+      {
+        "row": 19,
+        "rowsha": "jeDVDwLiCqVYJlxaqP80rJdxTDqro39ZXyi2lyH+bdw=",
+        "originContent": "    <BIND_ADDR>    Socket address to bind to. Example: 127.0.0.1:8080",
+        "translatedContent": "    <BIND_ADDR>    绑定的套接字地址。例如：127.0.0.1:8080"
+      },
+      {
+        "row": 20,
+        "rowsha": "oD8v1jE3AzSVLF20h86BDmr3R95yDtegVUOkwSBNOZg=",
+        "originContent": "~~~",
+        "translatedContent": "~~~"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "/1ZqLdWKV+gBh5BYI5WZnci6qLuAlOEmhtwRps61DRI=",
+        "originContent": "So you can start the agent in one terminal with",
+        "translatedContent": "所以你可以在一个终端启动代理："
+      },
+      {
+        "row": 23,
+        "rowsha": "dFHrRjTu9myXXY+cNa2KtQGSc4TTxAJuNDxeRGFIR2I=",
+        "originContent": "`./foca_insecure_udp_agent 127.0.0.1:8000` and join it with as many others",
+        "translatedContent": "`./foca_insecure_udp_agent 127.0.0.1:8000`，并通过不同的 `BIND_ADDR` 和 `--announce` 加入任意多个其他实例。"
+      },
+      {
+        "row": 24,
+        "rowsha": "nuNgdvLjLRS8rDkTpLyjcGvyexuR4PWJIipPZEiVq1M=",
+        "originContent": "as you want with using a different `BIND_ADDR` and `--announce` to a",
+        "translatedContent": "例如："
+      },
+      {
+        "row": 25,
+        "rowsha": "aXeYQFKeyrjmdiOhF5LGeP5e3ggGhR5ClFA5JSbdh9E=",
+        "originContent": "running instance. Example:",
+        "translatedContent": "`./foca_insecure_udp_agent 127.0.0.1:8001 -a 127.0.0.1:8000`。"
+      },
+      {
+        "row": 26,
+        "rowsha": "rLl9RqVMacntuHUiArwnA1FzjtjbJ6blb870SlgcvDw=",
+        "originContent": "`./foca_insecure_udp_agent 127.0.0.1:8001 -a 127.0.0.1:8000`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "代理通过 [tracing][] 的订阅者向控制台输出一些信息。"
+      },
+      {
+        "row": 28,
+        "rowsha": "tNqWJqYXpHyfvG63dlWQAdBlV5HpN7ds5ox7+vL5utg=",
+        "originContent": "The agent outputs some information to the console via [tracing][]'s",
+        "translatedContent": "默认日志级别为 `INFO`，可以通过设置环境变量 `RUST_LOG` 并使用 [tracing_subscriber 的 EnvFilter 指令][dir] 进行自定义。"
+      },
+      {
+        "row": 29,
+        "rowsha": "uoekutztVSLxitzh2g2IlgxEIYN/EsSCWZuQzpcjd4M=",
+        "originContent": "subscriber. It defaults to the `INFO` log level and can be customized",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "UQLH6PtcjYpfx41cHKXdrHCx7Tu2qmDQzsmiEf8UDSg=",
+        "originContent": "via the `RUST_LOG` environment variable using [tracing_subscriber's",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "ydJOTglSuQgadcoDItJacntNQSJ9A13ErE8G9FRsWVU=",
+        "originContent": "EnvFilter directives][dir].",
+        "translatedContent": "## Cargo 功能特性"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "每个功能都是可选的。`default` 集合始终为空。"
+      },
+      {
+        "row": 34,
+        "rowsha": "4lqD2XLm8Di63FCwmjJIRQo+BW+b4MWRU7fkV+p9j8Y=",
+        "originContent": "## Cargo Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* `std`：为 `std::net::SocketAddr*` 实现 `foca::Identity` 并暴露 `Config::new_lan` 和 `Config::new_wan`"
+      },
+      {
+        "row": 36,
+        "rowsha": "cqs0fzCJBdaAeo8mfkpZTFEF3eVIRauue/rLDikTfv8=",
+        "originContent": "Every feature is optional. The `default` set will always be empty.",
+        "translatedContent": "* `tracing`：使用 [tracing][] crate 对 Foca 进行监控。高级-level"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "trkXNJz12FKCvnxKpnq7cUNRHiMN+ImnR+My8PiPGIY=",
+        "originContent": "* `std`: Implements `foca::Identity` for `std::net::SocketAddr*` and",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "Eq+keWMKEz88xEh5UBiGBqSx6I0MLjjn93LOITZ9rj8=",
+        "originContent": "  exposes `Config::new_lan` and `Config::new_wan`",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "ilkMi/VXVjrfc6OyjX6VefcsLXQAhD13SaMPzd51tRU=",
+        "originContent": "* `tracing`: Instruments Foca using the [tracing][] crate. High-level",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "  protocol interactions are emited as `DEBUG` traces, more details can\n  be exposed with the `TRACE` level. No other levels are emitted.\n* `serde`: Derives `Serialize` and `Deserialize` for Foca's public\n  types.\n* `bincode-codec`: Provides `BincodeCodec`, a serde-based codec type\n  that uses [bincode][] under the hood.\n* `postcard-codec`: Provides `PostcardCodec` a serde-based, `no_std`\n  friendly codec that uses [postcard][] under the hood.\n* `unstable-notifications`: Provides new notifications that allow\n  inspecting messages being sent and received\n\n\n# Notes\n\nWhen writing this library, the main goal was having a simple and small\ncore that's easy to test, simulate and reason about; It was mostly\nabout getting a better understanding of the protocol after reading\nthe paper.\n\nSticking to these goals naturally led to an implementation that doesn't\nrely on many operating system features like a hardware clock, atomics\nand threads, so becoming a `no_std` crate (albeit still requiring heap\nallocations) was kind of a nice accidental feature that I decided to\ncommit to.\n\n\n## Comparison to memberlist\n\nI avoided looking at [memberlist][2] until I was satisfied with my\nown implementation. Since then I did take a non-thorough look at it:\n\n* memberlist supports custom broadcasts, which is a very cool feature\n  for complex service discovery scenarios, so now Foca has support\n  for disseminating user data too (see `BroadcastHandler`\n  documentation) :-)\n\n* It has a stream-based synchronization mechanism (push-pull) that's\n  used for joining and periodic merging state between members: It's\n  way beyond Foca's responsibilities, but it's a very interesting idea,\n  so I've exposed the `Foca::apply_many` method which enables code",
+    "ContentSha": "peSWUyqWuqZIydIycerC/HLhPmeT05nZu2tZWoRoCy0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  协议交互以 `DEBUG` 跟踪的形式发出，更详细的信息可以通过 `TRACE` 级别暴露。不发出其他级别。\n* `serde`：为 Foca 的公共类型派生 `Serialize` 和 `Deserialize`。\n* `bincode-codec`：提供 `BincodeCodec`，一种基于 serde 的编解码器类型，底层使用 [bincode][]。\n* `postcard-codec`：提供 `PostcardCodec`，一种基于 serde 的、`no_std` 友好的编解码器，底层使用 [postcard][]。\n* `unstable-notifications`：提供新的通知，允许检查发送和接收的消息。\n\n\n# 说明\n\n编写此库时，主要目标是拥有一个简单且小巧的核心，便于测试、模拟和推理；主要是为了在阅读论文后更好地理解协议。\n\n坚持这些目标自然导致实现不依赖许多操作系统功能，如硬件时钟、原子操作和线程，因此成为一个 `no_std` crate（尽管仍然需要堆分配）算是一个意外但很好的特性，我决定坚持下去。\n\n\n## 与 memberlist 的比较\n\n我避免在对自己的实现满意之前查看 [memberlist][2]。之后我做了不彻底的了解：\n\n* memberlist 支持自定义广播，这是复杂服务发现场景中的一个非常酷的功能，所以现在 Foca 也支持传播用户数据（见 `BroadcastHandler` 文档） :-)\n\n* 它有一个基于流的同步机制（推拉），用于成员之间的加入和周期性合并状态：这远远超出了 Foca 的职责范围，但这是一个非常有趣的想法，因此我公开了 `Foca::apply_many` 方法，允许代码\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "507sSnsTijLIbcDW+kMLQYiIRL1XPB7gwXRHHRYzZk4=",
+        "originContent": "  protocol interactions are emited as `DEBUG` traces, more details can",
+        "translatedContent": "  协议交互以 `DEBUG` 跟踪的形式发出，更详细的信息可以通过 `TRACE` 级别暴露。不发出其他级别。"
+      },
+      {
+        "row": 2,
+        "rowsha": "3X6Qizi2RGPT91S+Tem85g6nVBxaKMkag6O8eLfnIrs=",
+        "originContent": "  be exposed with the `TRACE` level. No other levels are emitted.",
+        "translatedContent": "* `serde`：为 Foca 的公共类型派生 `Serialize` 和 `Deserialize`。"
+      },
+      {
+        "row": 3,
+        "rowsha": "YLb7NlDOtp5ddSHlUZ932GklooCNH6sMLajbI3toaDU=",
+        "originContent": "* `serde`: Derives `Serialize` and `Deserialize` for Foca's public",
+        "translatedContent": "* `bincode-codec`：提供 `BincodeCodec`，一种基于 serde 的编解码器类型，底层使用 [bincode][]。"
+      },
+      {
+        "row": 4,
+        "rowsha": "tVxYfVabdmW33xgex0VaZ2ww4sAZJ2CQbX657BKWV70=",
+        "originContent": "  types.",
+        "translatedContent": "* `postcard-codec`：提供 `PostcardCodec`，一种基于 serde 的、`no_std` 友好的编解码器，底层使用 [postcard][]。"
+      },
+      {
+        "row": 5,
+        "rowsha": "LuhoXqt1TgwEBSVK6gmG/kCn9F6HWBiy7/Frhh6KLx0=",
+        "originContent": "* `bincode-codec`: Provides `BincodeCodec`, a serde-based codec type",
+        "translatedContent": "* `unstable-notifications`：提供新的通知，允许检查发送和接收的消息。"
+      },
+      {
+        "row": 6,
+        "rowsha": "Koc4EdQxEW42In3FpTT+H+2sn6yv0Sbsz17Mc9VCMbw=",
+        "originContent": "  that uses [bincode][] under the hood.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "MZ6w1OwyKXPYCdbOE2+ukEFraBBnjDc9IQsbec3Ip3c=",
+        "originContent": "* `postcard-codec`: Provides `PostcardCodec` a serde-based, `no_std`",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "IuO7NM36N1Djv2WRQCVPiqr/sH0UOwPg0mcHL9ORSfM=",
+        "originContent": "  friendly codec that uses [postcard][] under the hood.",
+        "translatedContent": "# 说明"
+      },
+      {
+        "row": 9,
+        "rowsha": "gob2TjDkfgsu8PQmo4vjazVhyOD9RgYWHFCcARS4/G0=",
+        "originContent": "* `unstable-notifications`: Provides new notifications that allow",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "SSy3tRyMliafzrlhv5ADIax2kZIqWggrzcbQC5y0TS8=",
+        "originContent": "  inspecting messages being sent and received",
+        "translatedContent": "编写此库时，主要目标是拥有一个简单且小巧的核心，便于测试、模拟和推理；主要是为了在阅读论文后更好地理解协议。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "坚持这些目标自然导致实现不依赖许多操作系统功能，如硬件时钟、原子操作和线程，因此成为一个 `no_std` crate（尽管仍然需要堆分配）算是一个意外但很好的特性，我决定坚持下去。"
+      },
+      {
+        "row": 13,
+        "rowsha": "Ngql6/oY79GfYOskMsEdU+IVhv86OSyiRpgJcN4V8MQ=",
+        "originContent": "# Notes",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "pxpbsSOprPyHBQjSkHoKJIrCurNCs8sQZn5eoKCH+18=",
+        "originContent": "When writing this library, the main goal was having a simple and small",
+        "translatedContent": "## 与 memberlist 的比较"
+      },
+      {
+        "row": 16,
+        "rowsha": "G1t39NFts11HRM9RHAFKZYoPEX9dYfSg/BVpNgni2r8=",
+        "originContent": "core that's easy to test, simulate and reason about; It was mostly",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "gZbRoT0lxunLlXabuKoFoCVKaoxAIA76jzjg4vzVIa0=",
+        "originContent": "about getting a better understanding of the protocol after reading",
+        "translatedContent": "我避免在对自己的实现满意之前查看 [memberlist][2]。之后我做了不彻底的了解："
+      },
+      {
+        "row": 18,
+        "rowsha": "XnzEvyd3hsM8U0tr3cxUs8MgkaEUpxvKn3tU2lV6TI8=",
+        "originContent": "the paper.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* memberlist 支持自定义广播，这是复杂服务发现场景中的一个非常酷的功能，所以现在 Foca 也支持传播用户数据（见 `BroadcastHandler` 文档） :-)"
+      },
+      {
+        "row": 20,
+        "rowsha": "3HKQDXrlTSsCKKaic1G1iil7HdHbh5PYL7TOjPxWXa8=",
+        "originContent": "Sticking to these goals naturally led to an implementation that doesn't",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "sLLhtSXZgIp99yX3jiXdHsLQz/Cq3iMXSZ4vfGifLcM=",
+        "originContent": "rely on many operating system features like a hardware clock, atomics",
+        "translatedContent": "* 它有一个基于流的同步机制（推拉），用于成员之间的加入和周期性合并状态：这远远超出了 Foca 的职责范围，但这是一个非常有趣的想法，因此我公开了 `Foca::apply_many` 方法，允许代码"
+      },
+      {
+        "row": 22,
+        "rowsha": "dvOk+ieV9CE5ZH1NJBgnjoXUTbEt6VrVp2lnoz86z9k=",
+        "originContent": "and threads, so becoming a `no_std` crate (albeit still requiring heap",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "N4i+rFHnK78OaSoyiHl1tpMgZFo/hpHzxHNXotvJX8g=",
+        "originContent": "allocations) was kind of a nice accidental feature that I decided to",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "QBZK7SADPiZWgjTjoPhKyJVnB0e5BtkYQK+8O9/zuBU=",
+        "originContent": "commit to.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "VR4JmSIWLAb80FOzH2z2Ah51c6CIzMIeZgYDSf3D3Ac=",
+        "originContent": "## Comparison to memberlist",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "78N0PiPI+0ZHldxr0R8qtTCnggrXRP3KuDx9xIqtDWI=",
+        "originContent": "I avoided looking at [memberlist][2] until I was satisfied with my",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "CV9VtqDDzw/JBmjyrFFlAb1bDexDr5txGPNeQHg4G1I=",
+        "originContent": "own implementation. Since then I did take a non-thorough look at it:",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "beWX7fds04bV85qlEfo5i2Xx2fvk9lNLqRT0jcLWrfY=",
+        "originContent": "* memberlist supports custom broadcasts, which is a very cool feature",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "K4oxntH9XReX20y0NiJ0NatSy5nLJ7lzQxKCzeauEsY=",
+        "originContent": "  for complex service discovery scenarios, so now Foca has support",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "DnrQO3BjXQo8MGEXJA145/fnu0jINq8PTadxtSm7zUk=",
+        "originContent": "  for disseminating user data too (see `BroadcastHandler`",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "vvzXZ6iXGy32PI/aMIIvYIySEfZ1c0PmVn+WzBCm6zI=",
+        "originContent": "  documentation) :-)",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "J8Ljr5AlnvkWUq3Y82ZkT/ZayiLx9hmn725z750XpZs=",
+        "originContent": "* It has a stream-based synchronization mechanism (push-pull) that's",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "ajx0UlHYHqABwXv3IFcHDl/8LWD9Ob60rcWqDZ+J49I=",
+        "originContent": "  used for joining and periodic merging state between members: It's",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "6GPCTamrH28um8IIAeEpLVexJnbFXlNL1SD6ztDcLTE=",
+        "originContent": "  way beyond Foca's responsibilities, but it's a very interesting idea,",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "hQ0yjHkwsPFSgugedSytUJun2BciUSCJSo5bfMPmL70=",
+        "originContent": "  so I've exposed the `Foca::apply_many` method which enables code",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "  using Foca to do a similar thing if desired.\n\n* Its configuration parameters change based on (current) cluster\n  size. Users can make use of `Config::new_{lan,wan}` along with\n  `Foca::set_config` to achieve the same\n\n# References\n\n* The paper [SWIM: Scalable Weakly-consistent Infection-style Process Group Membership\nProtocol][1]\n* HashiCorp's [memberlist][2]\n\n[1]: https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SWIM.pdf\n[2]: https://github.com/hashicorp/memberlist\n[bincode]: https://github.com/bincode-org/bincode\n[postcard]: https://github.com/jamesmunns/postcard\n[tracing]: https://docs.rs/tracing/latest/tracing/\n[dir]: https://docs.rs/tracing-subscriber/0.3.17/tracing_subscriber/filter/struct.EnvFilter.html#directives\n\n# License\n\nUnless explicitly stated otherwise, all work is subject to the terms\nof the Mozilla Public License, version 2.0.\n\nFiles inside the `examples/` directory are dedicated to the Public\nDomain.\n",
+    "ContentSha": "jbPGLkBbsJGG8sWkECGarMk3rFA3pX+u+hXXBgnRUyM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  使用 Foca 来实现类似的功能（如果需要）。\n\n* 其配置参数根据（当前）集群大小变化。用户可以利用 `Config::new_{lan,wan}` 以及\n  `Foca::set_config` 来实现相同的效果。\n\n# 参考文献\n\n* 论文 [SWIM: Scalable Weakly-consistent Infection-style Process Group Membership\nProtocol][1]\n* HashiCorp 的 [memberlist][2]\n\n[1]: https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SWIM.pdf\n[2]: https://github.com/hashicorp/memberlist\n[bincode]: https://github.com/bincode-org/bincode\n[postcard]: https://github.com/jamesmunns/postcard\n[tracing]: https://docs.rs/tracing/latest/tracing/\n[dir]: https://docs.rs/tracing-subscriber/0.3.17/tracing_subscriber/filter/struct.EnvFilter.html#directives\n\n# 许可\n\n除非另有明确说明，所有工作均遵循 Mozilla 公共许可证 2.0 版本的条款。\n\n`examples/` 目录下的文件属于公有领域。\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "B3KOuRNKIi/CPLgX/y4cawe47/vw6GSqlKrZ+DjjLx0=",
+        "originContent": "  using Foca to do a similar thing if desired.",
+        "translatedContent": "  使用 Foca 来实现类似的功能（如果需要）。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "PzeC52Z2KY1VVHPiqO0LR/eK+y9MeYxpGR+qReRqy4o=",
+        "originContent": "* Its configuration parameters change based on (current) cluster",
+        "translatedContent": "* 其配置参数根据（当前）集群大小变化。用户可以利用 `Config::new_{lan,wan}` 以及"
+      },
+      {
+        "row": 4,
+        "rowsha": "gkO5NMT6Sxhj61Qkq0mxJPr7IoxQOT+mXMK9e88yPt8=",
+        "originContent": "  size. Users can make use of `Config::new_{lan,wan}` along with",
+        "translatedContent": "  `Foca::set_config` 来实现相同的效果。"
+      },
+      {
+        "row": 5,
+        "rowsha": "lDpH4K7Hs7jGH5viqk1TVBTjD+IoPVM+N0paev+3Ihg=",
+        "originContent": "  `Foca::set_config` to achieve the same",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 参考文献"
+      },
+      {
+        "row": 7,
+        "rowsha": "qqeNqFl8bX8V8FRsr3DWoSY6UcRkyD/D0ebbNa6tY8Y=",
+        "originContent": "# References",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 论文 [SWIM: Scalable Weakly-consistent Infection-style Process Group Membership"
+      },
+      {
+        "row": 9,
+        "rowsha": "Z7RljqDHh9awLkaSwUc9oeGHZ6mHo5wAv7IQ49ye7/Y=",
+        "originContent": "* The paper [SWIM: Scalable Weakly-consistent Infection-style Process Group Membership",
+        "translatedContent": "Protocol][1]"
+      },
+      {
+        "row": 10,
+        "rowsha": "HCRw0EaSco+2dCuk/Q1+4uFnAshthBx+biLAV7C0urE=",
+        "originContent": "Protocol][1]",
+        "translatedContent": "* HashiCorp 的 [memberlist][2]"
+      },
+      {
+        "row": 11,
+        "rowsha": "9kAenZG62hOmPswrGLzzFdHAdMx+oAdAjySOetxdhKQ=",
+        "originContent": "* HashiCorp's [memberlist][2]",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[1]: https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SWIM.pdf"
+      },
+      {
+        "row": 13,
+        "rowsha": "rmivwoNTOZ8zqLDcnG9rteFjDBSAf02hXOLuvmejVow=",
+        "originContent": "[1]: https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SWIM.pdf",
+        "translatedContent": "[2]: https://github.com/hashicorp/memberlist"
+      },
+      {
+        "row": 14,
+        "rowsha": "q+NehWAPK+tZE06FxwbHvKN1lyX3UOF0Ufz3dlXIWXE=",
+        "originContent": "[2]: https://github.com/hashicorp/memberlist",
+        "translatedContent": "[bincode]: https://github.com/bincode-org/bincode"
+      },
+      {
+        "row": 15,
+        "rowsha": "ITauWklbBt1N938pZR2ruYN7454nlmnim4dDSsJRcds=",
+        "originContent": "[bincode]: https://github.com/bincode-org/bincode",
+        "translatedContent": "[postcard]: https://github.com/jamesmunns/postcard"
+      },
+      {
+        "row": 16,
+        "rowsha": "uPHBknymkzy2U0NAmu9L58n20ZdUlv29OdjgkvAJFyA=",
+        "originContent": "[postcard]: https://github.com/jamesmunns/postcard",
+        "translatedContent": "[tracing]: https://docs.rs/tracing/latest/tracing/"
+      },
+      {
+        "row": 17,
+        "rowsha": "0tTx6+edUs6N/rMkQBBW5/S5CPuj7ZD/l0hpUIH3Ayw=",
+        "originContent": "[tracing]: https://docs.rs/tracing/latest/tracing/",
+        "translatedContent": "[dir]: https://docs.rs/tracing-subscriber/0.3.17/tracing_subscriber/filter/struct.EnvFilter.html#directives"
+      },
+      {
+        "row": 18,
+        "rowsha": "g/qGZNzbz2myhQU9gsA5YH3Qk8sadOhF1YpoIolLZpA=",
+        "originContent": "[dir]: https://docs.rs/tracing-subscriber/0.3.17/tracing_subscriber/filter/struct.EnvFilter.html#directives",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 许可"
+      },
+      {
+        "row": 20,
+        "rowsha": "7Qo8+NblMV+ve9U8YJCAOSzx5hR1PsQgmN0TGjFj2ls=",
+        "originContent": "# License",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "除非另有明确说明，所有工作均遵循 Mozilla 公共许可证 2.0 版本的条款。"
+      },
+      {
+        "row": 22,
+        "rowsha": "zkNUWT2Y5dsDDHpYI15xTvx43WTOj8jsMT1164sVUbE=",
+        "originContent": "Unless explicitly stated otherwise, all work is subject to the terms",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "vugU72V3OZyrYrcAAfYwrVf2sgkpLkd/99nvK48GPlg=",
+        "originContent": "of the Mozilla Public License, version 2.0.",
+        "translatedContent": "`examples/` 目录下的文件属于公有领域。"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "1nyMsunQ7Isfqi1aDH5udhEX2tvuS2KlV2h5vI/X3jQ=",
+        "originContent": "Files inside the `examples/` directory are dedicated to the Public",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "yB1EHfzwty8OsqolPI0yIQ/USNXy6E7U9PbUSzeLc8Q=",
+        "originContent": "Domain.",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
