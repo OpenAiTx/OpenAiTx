@@ -27,45 +27,46 @@
     </div>
   </details>
 </div>
-# 🧠 Proxyloze LLM-webzoekmachine
 
-Een proxyloze multi-zoekmachine LLM web retrieval tool, ondersteunt URL-inhoudsanalyse en webscraping, combineert **LangGraph** en **LangGraph-MCP** voor modulaire agent-ketens. Speciaal ontworpen voor externe kennisopvraagscenario’s met grote taalmodellen, ondersteunt **Playwright + Crawl4AI** voor webverzameling en analyse, ondersteunt asynchrone concurrentie, inhoudssegmentatie en herordening/filtering.
+# 🧠 Proxyloze LLM Webzoekmachine
+
+Een proxyloze multi-zoekmachine LLM-web retrieval tool, ondersteunt URL-inhoudsanalyse en webpagina crawling, combineert **LangGraph** en **LangGraph-MCP** voor modulaire agent-chaining. Speciaal ontworpen voor externe kennisoproep door grote taalmodellen, ondersteunt **Playwright + Crawl4AI** voor webpagina-ophaling en -analyse, ondersteunt asynchrone parallelle verwerking, inhoudssnijden en herordening/filtering.
 
 ## 🚀 Changelog
 
 - 🔥 2025-09-05: Ondersteuning voor **langgraph-mcp**
-- 🔥 2025-09-03: Nieuw: Docker-deployment, ingebouwde slimme herordener, ondersteuning voor aangepaste tekstsegmentatie en herordening
+- 🔥 2025-09-03: Nieuwe Docker-implementatie, ingebouwde slimme herordener, ondersteuning voor aangepaste tekstsplitters en herordenaars
 
 ## ✨ Overzicht van functies
 
-- 🌐 **Geen proxy nodig**: Via Playwright-configuratie wordt ondersteuning voor binnenlandse browsers geboden, zodat zoeken op het internet mogelijk is zonder proxy.
-- 🔍 **Ondersteuning voor meerdere zoekmachines**: Ondersteunt Bing, Quark, Baidu, Sogou en andere grote zoekmachines, waardoor de diversiteit van informatiebronnen wordt vergroot.
-- 🤖 **Intentieherkenning**: Het systeem kan op basis van de invoer van de gebruiker automatisch bepalen of er een webzoekopdracht moet worden uitgevoerd of een URL moet worden geanalyseerd.
-- 🔄 **Query-opdeling**: Op basis van de zoekintentie van de gebruiker wordt de query automatisch opgedeeld in meerdere subtaken die achtereenvolgens worden uitgevoerd, waardoor relevantie en efficiëntie van de zoekopdracht worden verbeterd.
-- ⚙️ **Agentarchitectuur**: Op basis van **LangGraph** verpakte **"web_search"** en **"link_parser"**.
-- 🏃‍♂️ **Asynchrone en gelijktijdige taakverwerking**: Ondersteunt asynchrone en gelijktijdige taakverwerking, waardoor meerdere zoekopdrachten efficiënt kunnen worden verwerkt.
-- 📝 **Geoptimaliseerde inhoudsverwerking**:
+- 🌐 **Geen proxy nodig**: Via Playwright-configuratie wordt ondersteuning voor Chinese browsers geboden, waardoor zoeken op het web mogelijk is zonder proxy.
+- 🔍 **Ondersteuning voor meerdere zoekmachines**: Ondersteunt Bing, Quark, Baidu, Sogou en andere populaire zoekmachines, wat de diversiteit van informatiebronnen vergroot.
+- 🤖 **Intentieherkenning**: Het systeem kan op basis van de invoer van de gebruiker automatisch bepalen of het een webzoekopdracht of een URL-analyse betreft.
+- 🔄 **Query-ontleding**: Op basis van de zoekintentie van de gebruiker wordt de zoekopdracht automatisch opgesplitst in meerdere subtaken, die vervolgens worden uitgevoerd om de relevantie en efficiëntie van de zoekopdracht te verbeteren.
+- ⚙️ **Agentarchitectuur**: Gebaseerd op **LangGraph** en omvat **"web_search"** en **"link_parser"**.
+- 🏃‍♂️ **Asynchrone en gelijktijdige taakverwerking**: Ondersteunt asynchrone gelijktijdige taakverwerking en kan efficiënt meerdere zoekopdrachten afhandelen.
+- 📝 **Optimalisatie van inhoudsverwerking**:
 
-  - ✂️ **Inhoudsnederzetting**: Lange webpagina-inhoud wordt per segment gesplitst.
+  - ✂️ **Inhoudsnedes**: Lange webpagina-inhoud wordt per sectie gesplitst.
 
-  - 🔄 **Herordening van inhoud**: Slimme herschikking om de relevantie van informatie te verhogen.
+  - 🔄 **Herindeling van inhoud**: Intelligente herschikking om informatie-relevantie te verbeteren.
 
-  - 🚫 **Inhoudsfiltering**: Automatische verwijdering van irrelevante of dubbele inhoud.
-- 🌐 **Ondersteuning voor meerdere platforms**:
-  - 🐳 **Ondersteunt Docker-deployment**: Met één klik te starten, snelle backend-serviceopbouw.
+  - 🚫 **Inhoudsfiltering**: Automatisch verwijderen van irrelevante of dubbele inhoud.
+- 🌐 **Multiplatform ondersteuning**:
+  - 🐳 **Ondersteunt Docker-deployment**: Eén-klik-opstart, snelle opbouw van backend-diensten.
 
-  - 🖥️ FastAPI backend-interfaces beschikbaar, te integreren in elk systeem.
+  - 🖥️ FastAPI-backendinterface beschikbaar, integreerbaar in elk systeem.
 
-  - 🌍 Gradio Web UI beschikbaar, eenvoudig te implementeren als visuele applicatie.
+  - 🌍 Gradio Web UI beschikbaar, snel te deployen als visuele applicatie.
 
-  - 🧩[ **Ondersteuning voor browserextensies**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Ondersteunt Edge, biedt een slimme URL-analyse-extensie, waarmee direct in de browser webpagina-analyse en inhoudsextractie kan worden uitgevoerd.
+  - 🧩[ **Ondersteuning voor browserextensies**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Ondersteunt Edge, biedt een slimme URL-analyse-extensie waarmee direct vanuit de browser webanalyse en inhoudsextractieverzoeken kunnen worden verzonden.
 
 
 ![workflow](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/workflow.png)
 
 ![framework](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/framework.png)
 
-## ⚡ Snel starten
+## ⚡ Snel aan de slag
 
 ### Repository klonen
 
@@ -251,34 +252,35 @@ class YourReranker:
         return ["your chunk"], ["chunk index"]
 ```
 
-## 🔍 Vergelijking met online netwerkinformatie-zoektesten
+## 🔍 Vergelijking met online netwerkzoektests
 
-We hebben het project vergeleken met enkele toonaangevende online API's en hun prestaties bij complexe vraagstukken geëvalueerd.
+We vergelijken het project met enkele toonaangevende online API's en beoordelen hun prestaties bij complexe vraagstukken.
 
 ### 🔥 Dataset
 
-- De dataset is afkomstig van Alibaba's [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA), bevat 680 moeilijke vragen en bestrijkt verschillende domeinen zoals onderwijs, academische conferenties en games.
+- De dataset is afkomstig van Alibaba's [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA), bevat 680 moeilijke vragen en bestrijkt diverse domeinen zoals onderwijs, academische conferenties en games.
 - De dataset bevat zowel Chinese als Engelse vragen.
 
 ### 🧑‍🏫 Vergelijkingsresultaten
 
 | Zoekmachine/Systeem | ✅ Correct | ❌ Incorrect | ⚠️ Gedeeltelijk correct |
-| ------------------- | --------- | ----------- | ---------------------- |
-| **Volcano Ark**     | 5,00%     | 72,21%      | 22,79%                 |
-| **Bailian**         | 9,85%     | 62,79%      | 27,35%                 |
-| **Onze**            | 19,85%    | 47,94%      | 32,06%                 |
-## 🙏 Dankbetuiging
+| ------------------- | ---------- | ------------ | ----------------------- |
+| **Volcano Ark**     | 5,00%      | 72,21%       | 22,79%                  |
+| **Bailian**         | 9,85%      | 62,79%       | 27,35%                  |
+| **Onze**            | 19,85%     | 47,94%       | 32,06%                  |
+## 🙏 Dankwoord
 
-Een deel van de functionaliteit van dit project is te danken aan de ondersteuning en inspiratie van de volgende open source projecten. Onze dank daarvoor:
+Enkele functies van dit project zijn mogelijk gemaakt en geïnspireerd door de volgende open source projecten. Onze oprechte dank:
 
-- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph): Gebruikt voor het bouwen van een modulaire agent-link framework, waarmee snel complexe agent-systemen kunnen worden opgebouwd.
-- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): Krachtige tool voor het analyseren van webinhoud, ondersteunt efficiënt webscrapen en data-extractie.
-- 🌐 [Playwright](https://github.com/microsoft/playwright): Moderne browserautomatiseringstool, ondersteunt webscrapen en testautomatisering over meerdere browsers.
-- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters): Gebruikt voor het bouwen van MCP-verwerking over meerdere chains.
+- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph): Voor het opzetten van een modulair agent-framework, dat helpt bij het snel bouwen van complexe agent-systemen.
+- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): Een krachtige tool voor webinhoudsanalyse, die efficiënt webscrapen en data-extractie ondersteunt.
+- 🌐 [Playwright](https://github.com/microsoft/playwright): Moderne browserautomatiseringstool die cross-browser webscraping en testautomatisering ondersteunt.
+- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters): Voor de bouw van multi-chain verwerking MCP.
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

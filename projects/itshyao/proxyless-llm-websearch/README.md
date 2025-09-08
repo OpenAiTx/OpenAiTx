@@ -27,6 +27,7 @@
     </div>
   </details>
 </div>
+
 # 🧠 无需代理的LLM网络搜索引擎
 
 一个无需代理的多搜索引擎 LLM 网络检索工具，支持 URL 内容解析和网页爬取，结合 **LangGraph**与**LangGraph-MCP** 实现模块化智能体链路。专为大语言模型的外部知识调用场景而设计，支持 **Playwright + Crawl4AI** 网页获取与解析，支持异步并发、内容切片与重排过滤。
@@ -275,3 +276,4 @@ class YourReranker:
 - 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai)：强大的网页内容解析工具，助力高效网页抓取与数据提取。
 - 🌐 [Playwright](https://github.com/microsoft/playwright)：现代浏览器自动化工具，支持跨浏览器的网页抓取和测试自动化。
 - 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters)：用于多链处理MCP的构建。
+

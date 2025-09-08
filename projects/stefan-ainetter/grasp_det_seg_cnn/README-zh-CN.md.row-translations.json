@@ -1,0 +1,830 @@
+[
+  {
+    "row": 1,
+    "rowsha": "G6tLOUXN60voRKh47li5k1OEAr+74v2qWuhXZWybQZI=",
+    "originContent": "# End-to-end Trainable Deep Neural Network for Robotic Grasp Detection and Semantic Segmentation from RGB",
+    "translatedContent": "# 用于机器人抓取检测和RGB语义分割的端到端可训练深度神经网络"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 4,
+    "rowsha": "pH8/wwzCP8rsHxoNAtQrJs1lkMEtd3A2b74TTe8WkTo=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/stefan-ainetter/grasp_det_seg_cnn/main/Network.png\" width=\"100%\"/>",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/stefan-ainetter/grasp_det_seg_cnn/main/Network.png\" width=\"100%\"/>"
+  },
+  {
+    "row": 5,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 6,
+    "rowsha": "CuvelhwGQWtDXJ9HTNReH1G5PZyqmjLHKUITZDpgiZU=",
+    "originContent": "<a href=\"https://arxiv.org/abs/2107.05287\">arXiv</a>",
+    "translatedContent": "<a href=\"https://arxiv.org/abs/2107.05287\">arXiv</a>"
+  },
+  {
+    "row": 7,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "fH/zrrkjtyY/2KffanHlIHCcfsouwE7HIkj3vPDPats=",
+    "originContent": "This repository contains the code for the ICRA21 paper \"End-to-end Trainable Deep Neural Network for Robotic Grasp Detection",
+    "translatedContent": "本仓库包含ICRA21论文“用于机器人抓取检测和RGB语义分割的端到端可训练深度神经网络”的代码。  "
+  },
+  {
+    "row": 10,
+    "rowsha": "WbwkDIQ4KPQmQsaiPSaKkBRQww4Z6PbuOWqDNn+o8as=",
+    "originContent": "and Semantic Segmentation from RGB\". ",
+    "translatedContent": "它包含了结合OCID_grasp数据集的我们提出方法的训练和测试代码。  "
+  },
+  {
+    "row": 11,
+    "rowsha": "wtLPiCjN/XO+eAeYXDG8Tcga1RGaW7GJ0sa43OfzB0c=",
+    "originContent": "It contains the code for training and testing our proposed method in combination with the OCID_grasp dataset. ",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如果您在研究中使用了我们的方法或数据集扩展，请引用："
+  },
+  {
+    "row": 13,
+    "rowsha": "vFCeUREzbEaoLwryxEXs1Myw7Fntzv8Yeu1IgOC6yTU=",
+    "originContent": "If you use our method or dataset extension for your research, please cite:",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+    "originContent": "```bibtex",
+    "translatedContent": "```bibtex"
+  },
+  {
+    "row": 15,
+    "rowsha": "h1kd4vKaSqjXa1Rhc7YGHRAdCDKI4AH6jjYEo9VdWQ0=",
+    "originContent": "@InProceedings{ainetter2021end,",
+    "translatedContent": "@InProceedings{ainetter2021end,"
+  },
+  {
+    "row": 16,
+    "rowsha": "JyhfHtsN2W5tsN9lYVOubkqpu/qhfSZTsDq3V1tNeYE=",
+    "originContent": "  title={End-to-end Trainable Deep Neural Network for Robotic Grasp Detection and Semantic Segmentation from RGB},",
+    "translatedContent": "  title={End-to-end Trainable Deep Neural Network for Robotic Grasp Detection and Semantic Segmentation from RGB},"
+  },
+  {
+    "row": 17,
+    "rowsha": "f9m2jImP5cv/fNjXVcxgzdWvt95drcIUc8RXzO8gA4I=",
+    "originContent": "  author={Ainetter, Stefan and Fraundorfer, Friedrich},",
+    "translatedContent": "  author={Ainetter, Stefan and Fraundorfer, Friedrich},"
+  },
+  {
+    "row": 18,
+    "rowsha": "ltjqa7zSoDG1Va/fAKC/BpOkmu96NjI1oNDOatNcXXI=",
+    "originContent": "  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},",
+    "translatedContent": "  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},"
+  },
+  {
+    "row": 19,
+    "rowsha": "MtbIAPrXLQzWAamxiTweFAsnQU1+aukDxXgHNCMMeP4=",
+    "originContent": "  pages={13452--13458}",
+    "translatedContent": "  pages={13452--13458}"
+  },
+  {
+    "row": 20,
+    "rowsha": "QRDXTY8rj/7Ra4fyR1kolwdti02Ai8YiXxcKkmvqL6A=",
+    "originContent": "  year={2021}",
+    "translatedContent": "  year={2021}"
+  },
+  {
+    "row": 21,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 22,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "1tGc+hUZn8nYqXxFVag9q+5fBxbE/pkH8+yiV3VL5rY=",
+    "originContent": "## Requirements and setup",
+    "translatedContent": "## 要求和设置"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "7r2ACHoGnPV8CntIHsGfA8OBYmpX4Nx+uiaU0z0iwwk=",
+    "originContent": "Main system requirements:",
+    "translatedContent": "主要系统要求："
+  },
+  {
+    "row": 27,
+    "rowsha": "TZPw9SBiMuZiCyyd322q6bhrgV2zOJjUihpQGOzKE1w=",
+    "originContent": "* CUDA 10.1",
+    "translatedContent": "* CUDA 10.1"
+  },
+  {
+    "row": 28,
+    "rowsha": "fRGf0OTtlu/bPQRO743G7LDErwd4IdLVpc97C2DeoNg=",
+    "originContent": "* Linux with GCC 7 or 8",
+    "translatedContent": "* 运行 GCC 7 或 8 的 Linux"
+  },
+  {
+    "row": 29,
+    "rowsha": "HCjVgy9x+EgdYwuUlxmnizotny5QVOtTyGEedMCK11w=",
+    "originContent": "* PyTorch v1.1.0",
+    "translatedContent": "* PyTorch v1.1.0"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "uycUK8znZrBag4mNqBCLgGvqfbw5e9V23wBsfNp2tyM=",
+    "originContent": "**IMPORTANT NOTE**: These requirements are not necessarily stringent, e.g. it might be possible to compile with older",
+    "translatedContent": "**重要说明**：这些要求并非绝对严格，例如可能可以使用较旧版本的 CUDA 编译，或者在 Windows 下运行。"
+  },
+  {
+    "row": 32,
+    "rowsha": "WwbbY+qo+iTmWP879j87O9aLNFuUXyCIKeYd12o1FDU=",
+    "originContent": "versions of CUDA, or under Windows. However, we have only tested the code under the above settings and cannot provide support for other setups.",
+    "translatedContent": "但是，我们仅在上述环境下测试过代码，无法为其他环境提供支持。"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "2Eq/W2HxRllVzFi6pbPbn1BUKOHemqLKT9mjEf7nO5s=",
+    "originContent": "To install PyTorch, please refer to https://github.com/pytorch/pytorch#installation.",
+    "translatedContent": "安装 PyTorch，请参考 https://github.com/pytorch/pytorch#installation。"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "l+i0lLCSEcqojMGwhreVo9q3Ad1wtnjQfsDlawqDvfc=",
+    "originContent": "To install all other dependencies using pip:",
+    "translatedContent": "使用 pip 安装所有其他依赖项："
+  },
+  {
+    "row": 37,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 38,
+    "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+    "originContent": "pip install -r requirements.txt",
+    "translatedContent": "pip install -r requirements.txt"
+  },
+  {
+    "row": 39,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "iJa409tTUC9P1gTULbIw6Kod+KAUdLl5kgZl7whoChE=",
+    "originContent": "### Setup",
+    "translatedContent": "### 设置"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "l+Y9N09haW9XicaL32+pdyUSAZo2Pgqz1ockT35q8M4=",
+    "originContent": "Our code is split into two main components: a library containing implementations for the various network modules,",
+    "translatedContent": "我们的代码分为两个主要部分：包含各种网络模块、算法和工具实现的库，"
+  },
+  {
+    "row": 44,
+    "rowsha": "7GRjc31hbX29IdxC23tIlk5Z/B1qlX+1gcXzAAlSNsI=",
+    "originContent": "algorithms and utilities, and a set of scripts to train / test the networks.",
+    "translatedContent": "以及一组用于训练/测试网络的脚本。"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "/IuZZ8KRVzkty19LeVwo1LCv9/UO6cuF8GzGVwuNBnw=",
+    "originContent": "The library, called `grasp_det_seg`, can be installed with:",
+    "translatedContent": "该库名为 `grasp_det_seg`，可以通过以下方式安装："
+  },
+  {
+    "row": 47,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 48,
+    "rowsha": "2u6RRIHpvUX2y6/Uw/S92huMpcWyZqT2h1wwqktSjKU=",
+    "originContent": "git clone https://github.com/stefan-ainetter/grasp_det_seg_cnn.git",
+    "translatedContent": "git clone https://github.com/stefan-ainetter/grasp_det_seg_cnn.git"
+  },
+  {
+    "row": 49,
+    "rowsha": "tN9rJige5VjRAS/pNa+BKxlGZEm4j6cLqcnG9FYNvKk=",
+    "originContent": "cd grasp_det_seg_cnn",
+    "translatedContent": "cd grasp_det_seg_cnn"
+  },
+  {
+    "row": 50,
+    "rowsha": "ZTt6UdZddAnjGeKdUdXuKvZdYhrZ72IUjn6s+Z4omHk=",
+    "originContent": "python setup.py install",
+    "translatedContent": "python setup.py install"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "Gs54AtwofEk9CwPO7KHNzntI0Od7uMv4wOR82+zDc2c=",
+    "originContent": "## Trained models",
+    "translatedContent": "## 训练模型"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "0feZmXrFMgl0/yeAtYaoKgOnVFNoCosrkr/szAMAEHY=",
+    "originContent": "The model files provided are made available under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.",
+    "translatedContent": "提供的模型文件根据 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议发布。"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "UPmrEFiHa9kCLhmjsulrUFLiS10PnptZC4ExYAXabvE=",
+    "originContent": "A trained model for the OCID_grasp dataset can be downloaded [here](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?dir=/Grasp_det_seg_cnn/OCID_pretrained). ",
+    "translatedContent": "OCID_grasp 数据集的训练模型可以从[这里](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?dir=/Grasp_det_seg_cnn/OCID_pretrained)下载。  "
+  },
+  {
+    "row": 58,
+    "rowsha": "txKsBTjA5jCUWxL7pKby+9HNPLSDwGdSRkpru3FsVuc=",
+    "originContent": "Download and copy the downloaded weights into the `ckpt_files_OCID/pretrained` folder.",
+    "translatedContent": "下载后将权重文件复制到 `ckpt_files_OCID/pretrained` 文件夹中。"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "72kq0hyVh6nY/FQCr3kQzFkQEUD/0xlIJlxYVy0SyJk=",
+    "originContent": "For re-training the network on OCID_grasp, you need to download weights pretrained on ImageNet ",
+    "translatedContent": "要在 OCID_grasp 上重新训练网络，您需要下载基于 ImageNet 预训练的权重  "
+  },
+  {
+    "row": 61,
+    "rowsha": "wZcoZ52PxtS1qHWwqDrpMRr4FJO+OSvr9VuYezjMPww=",
+    "originContent": "[here](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?dir=/Grasp_det_seg_cnn/ImageNet_weights) and copy them ",
+    "translatedContent": "[这里](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?dir=/Grasp_det_seg_cnn/ImageNet_weights)，并将它们复制到 `weights_pretrained` 文件夹中。"
+  },
+  {
+    "row": 62,
+    "rowsha": "9+SzBNdXOWg35LZ/WogXSVv18gnAI4SyOylfBUZHhTA=",
+    "originContent": "into the `weights_pretrained` folder.",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 训练"
+  },
+  {
+    "row": 64,
+    "rowsha": "cNKS2XI0q3UNj4+rlFmjA0lefbWomrdh7j5BPCDMKNw=",
+    "originContent": "### Training",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "训练包含三个主要步骤：准备数据集、创建配置文件以及运行训练脚本。"
+  },
+  {
+    "row": 66,
+    "rowsha": "eQCAQ6FcBRihX0kFBysSKKnUmSUlgrm5+sqlkkVs1Vc=",
+    "originContent": "Training involves three main steps: Preparing the dataset, creating a configuration file and running the training",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "HpkQECi3IwVSLmb3kLtCyOav8kaiFi57Bdg7xS6ONqQ=",
+    "originContent": "script.",
+    "translatedContent": "准备数据集步骤：  "
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1) 从[这里](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?dir=/Grasp_det_seg_cnn/OCID_grasp)下载 OCID_grasp 数据集。  "
+  },
+  {
+    "row": 69,
+    "rowsha": "tpVK+Jl785dtv9eRwIdSmlHVOAnppxQp7PdncX7qBic=",
+    "originContent": "To prepare the dataset:",
+    "translatedContent": "将下载的 `OCID_grasp.zip` 文件解压到 `DATA` 文件夹中。  "
+  },
+  {
+    "row": 70,
+    "rowsha": "u4KQCuZojCvF1PzYEeSJImsRUcCx/xZ6fP7BkUlkJQ0=",
+    "originContent": "1) Download the OCID_grasp dataset [here](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?dir=/Grasp_det_seg_cnn/OCID_grasp).",
+    "translatedContent": "2) 配置文件是一个简单的 `ini` 格式文本文件。  "
+  },
+  {
+    "row": 71,
+    "rowsha": "ADwSTE0uOm0YiRN9G7wn4LGZJaKg9TpV0bI7v+0xWe8=",
+    "originContent": "Unpack the downloaded `OCID_grasp.zip` file into the `DATA` folder.",
+    "translatedContent": "每个配置参数的默认值以及其简要说明可在  "
+  },
+  {
+    "row": 72,
+    "rowsha": "9khvzqP/nuqCIHxURD4M5/RMdgd6fGTbiRytAv/Vu4k=",
+    "originContent": "2) The configuration file is a simple text file in `ini` format.",
+    "translatedContent": "[grasp_det_seg/config/defaults](grasp_det_seg/config/defaults) 中查看。  "
+  },
+  {
+    "row": 73,
+    "rowsha": "zVg4u89O16LTTAWaWzcPeiciH7t/6b5iYPSINnJBr3A=",
+    "originContent": "The default value of each configuration parameter, as well as a short description of what it does, is available in",
+    "translatedContent": "**注意**，这些仅作为每个参数“合理”值的指示，并非用来复现我们论文中的任何结果。"
+  },
+  {
+    "row": 74,
+    "rowsha": "++SaMnKd9NSnQbJPlemRnnlive33/vKwuVQkRZzsYK8=",
+    "originContent": "[grasp_det_seg/config/defaults](grasp_det_seg/config/defaults).",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "Y+Wsp7KYCUTP2c8BxrSpJCxfZUctQwLvbQmA/G3CaKs=",
+    "originContent": "**Note** that these are just an indication of what a \"reasonable\" value for each parameter could be, and are not",
+    "translatedContent": "3) 启动训练："
+  },
+  {
+    "row": 76,
+    "rowsha": "bYp7c0oCKqoi3PSHm3X3KzVSkpXRLEvtnf0AYsEpobo=",
+    "originContent": "meant as a way to reproduce any of the results from our paper.",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "Xd6eLHO6BJNziG5Vqan0sNlH5nHLKqxfm1C8YsPg3bs=",
+    "originContent": "3) To launch the training:",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 80,
+    "rowsha": "osdQT8ZHo/O5eva3VI/7Opomtqcc3lffSxdAmcGTCF8=",
+    "originContent": "cd scripts",
+    "translatedContent": "cd scripts"
+  },
+  {
+    "row": 81,
+    "rowsha": "tEgUyhabRdKjjns4U427ynszGjjzBTQtIvQKDgT9h7s=",
+    "originContent": "python3 -m torch.distributed.launch --nproc_per_node=1 train_det_seg_OCID.py ",
+    "translatedContent": "python3 -m torch.distributed.launch --nproc_per_node=1 train_det_seg_OCID.py "
+  },
+  {
+    "row": 82,
+    "rowsha": "q4FS2Y0P/c08fKkLNy8SBnnjSEselS41NuDn9USn/DA=",
+    "originContent": "--log_dir=LOGDIR CONFIG DATA_DIR",
+    "translatedContent": "--log_dir=LOGDIR CONFIG DATA_DIR"
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "yy+xTAi6zMVy+2qRYEUPROQlK8ocDLRAkogfA6UcJjc=",
+    "originContent": "Training logs, both in text and Tensorboard formats as well as the trained network parameters, will be written ",
+    "translatedContent": "训练日志，包括文本格式和Tensorboard格式，以及训练好的网络参数，将被写入`LOG_DIR`（例如`ckpt_files_OCID`）。  "
+  },
+  {
+    "row": 85,
+    "rowsha": "BEx7AI+OB7Jj8OcICE3KLIXz3aKNkh1NsZmctqx2p/8=",
+    "originContent": "in `LOG_DIR` (e.g. `ckpt_files_OCID`).",
+    "translatedContent": "文件`CONFIG`包含网络配置，例如`grasp_det_seg/config/defaults/det_seg_OCID.ini`，  "
+  },
+  {
+    "row": 86,
+    "rowsha": "Bu7ySMKBqd150OhO7PFMh9uTYcj2accejh0G1a/++i4=",
+    "originContent": "The file `CONFIG` contains the network configuration e.g. `grasp_det_seg/config/defaults/det_seg_OCID.ini`, ",
+    "translatedContent": "而`DATA_DIR`指向之前下载的OCID_grasp数据划分，例如`DATA/OCID_grasp/data_split`。  "
+  },
+  {
+    "row": 87,
+    "rowsha": "bBY1sqoGZi709tajOP28z7yiqnjbo8HzF1YtKFzA0Ao=",
+    "originContent": "and `DATA_DIR` points to the previously downloaded OCID_grasp splits, e.g. `DATA/OCID_grasp/data_split`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "请注意，目前我们的代码**必须**使用PyTorch的`torch.distributed.launch`工具以“分布式”模式启动。  "
+  },
+  {
+    "row": 89,
+    "rowsha": "Jw/o3WswNmPBknyZfhLaopDNoPgILYdVgdRaWOh35ag=",
+    "originContent": "Note that, for now, our code **must** be launched in \"distributed\" mode using PyTorch's `torch.distributed.launch`",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "lKseaZ5op3JHQbfrM0Q6rX6I4fxKK16JL5kMEY6cpCc=",
+    "originContent": "utility.",
+    "translatedContent": "### 运行推理  "
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "YHsJXu+tqYYP3JoETNjFeyieKrZ1zh5YeHPj3BxSra8=",
+    "originContent": "### Running inference",
+    "translatedContent": "给定一个训练好的网络，可以使用  "
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[scripts/test_det_seg_OCID.py](https://raw.githubusercontent.com/stefan-ainetter/grasp_det_seg_cnn/main/scripts/test_det_seg_OCID.py)  "
+  },
+  {
+    "row": 94,
+    "rowsha": "rhC37uBssuCbgoaCmctv8tg/4FTOS0lX8uKlqG5acJs=",
+    "originContent": "Given a trained network, inference can be run on any set of images using",
+    "translatedContent": "对任意图像集运行推理："
+  },
+  {
+    "row": 95,
+    "rowsha": "L0xtXB/FtI3LuT57l5g7k7p3m80i/bNsHt6AwqEUO/I=",
+    "originContent": "[scripts/test_det_seg_OCID.py](https://raw.githubusercontent.com/stefan-ainetter/grasp_det_seg_cnn/main/scripts/test_det_seg_OCID.py):",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 97,
+    "rowsha": "osdQT8ZHo/O5eva3VI/7Opomtqcc3lffSxdAmcGTCF8=",
+    "originContent": "cd scripts",
+    "translatedContent": "cd scripts"
+  },
+  {
+    "row": 98,
+    "rowsha": "yGo/xltjzI9kCDic5lsbvmwZ103W6IopdoA++1FbXS0=",
+    "originContent": "python3 -m torch.distributed.launch --nproc_per_node=1 test_det_seg_OCID.py ",
+    "translatedContent": "python3 -m torch.distributed.launch --nproc_per_node=1 test_det_seg_OCID.py "
+  },
+  {
+    "row": 99,
+    "rowsha": "UlLXky6k0jdCYpJUQdMjSDyNW9NWFhRikAqvRBZ1Sq4=",
+    "originContent": "--log_dir=LOG_DIR CONFIG MODEL_PARAMS DATA_DIR OUTPUT_DIR",
+    "translatedContent": "--log_dir=LOG_DIR CONFIG MODEL_PARAMS DATA_DIR OUTPUT_DIR"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 102,
+    "rowsha": "LGfuta0BJtREwunwa0cA444cqws6wg2/1Zr9ase6uuE=",
+    "originContent": "Predictions will be written to `OUTPUT_DIR` e.g. the `output` folder. `MODEL_PARAMS` are pre-trained weights e.g. `ckpt_files_OCID/pretrained/model_last.pth.tar`, ",
+    "translatedContent": "预测结果将写入 `OUTPUT_DIR`，例如 `output` 文件夹。`MODEL_PARAMS` 是预训练权重，例如 `ckpt_files_OCID/pretrained/model_last.pth.tar`，  "
+  },
+  {
+    "row": 103,
+    "rowsha": "mg/tvYR/kVEYh6aDAm3zEGBiwMfFuhYCywAX+Bg4RiU=",
+    "originContent": "`DATA_DIR` points to the used dateset splits e.g. `DATA/OCID_grasp/data_split`.",
+    "translatedContent": "`DATA_DIR` 指向所用的数据集划分，例如 `DATA/OCID_grasp/data_split`。  "
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "qFhWQWGReCAAodXBX54hbnJArb6K84zlkpenVBoWvzM=",
+    "originContent": "## OCID_grasp dataset",
+    "translatedContent": "## OCID_grasp 数据集  "
+  },
+  {
+    "row": 106,
+    "rowsha": "omrqOod/6P5EpDL+v1RdkiqkgG8yUeCY5TABr3iIunI=",
+    "originContent": "The OCID_grasp dataset can be downloaded [here](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?dir=/Grasp_det_seg_cnn/OCID_grasp).",
+    "translatedContent": "OCID_grasp 数据集可从[此处](https://cloud.tugraz.at/index.php/s/NA7icqiJ5SeNSA6?dir=/Grasp_det_seg_cnn/OCID_grasp)下载。  "
+  },
+  {
+    "row": 107,
+    "rowsha": "dZds0w4Cjy/fLl4MXyAUKeztcwpYlkHktDB8Qr/SNZQ=",
+    "originContent": "OCID_grasp consists of 1763 selected RGB-D images of the OCID dataset, with over 11.4k segmented object masks and more than 75k hand-annotated ",
+    "translatedContent": "OCID_grasp 包含 OCID 数据集中选取的 1763 张 RGB-D 图像，拥有超过 11.4k 个分割的物体掩码和超过 75k 个手工标注的  "
+  },
+  {
+    "row": 108,
+    "rowsha": "AtDjEF79S/csjw819FF1t1GRPg8orHiKdWGQ0NVoZgc=",
+    "originContent": "grasp candidates. Additionally, each object is classified into one of 31 object classes.",
+    "translatedContent": "抓取候选。此外，每个物体被分类为 31 个物体类别之一。  "
+  },
+  {
+    "row": 109,
+    "rowsha": "gQgmB+mDPNzuAGWV+6k2andOSH0JX602DNs4sjSZtf0=",
+    "originContent": "## Related Work",
+    "translatedContent": "## 相关工作  "
+  },
+  {
+    "row": 110,
+    "rowsha": "IHIyhhl867B0xc05sUp+hppl2/MHh3NkI822d7LxUtU=",
+    "originContent": "OCID_grasp is a dataset extension of the [OCID dataset](https://www.acin.tuwien.ac.at/en/vision-for-robotics/software-tools/object-clutter-indoor-dataset/).",
+    "translatedContent": "OCID_grasp 是 [OCID 数据集](https://www.acin.tuwien.ac.at/en/vision-for-robotics/software-tools/object-clutter-indoor-dataset/)的扩展数据集。  "
+  },
+  {
+    "row": 111,
+    "rowsha": "m1vrFeWhPsndAQdN0iAZHyy+76xelV342JvJJFk6ti0=",
+    "originContent": "If you decide to use OCID_grasp for your research, please also cite the OCID paper:",
+    "translatedContent": "如果您决定使用 OCID_grasp 进行研究，请同时引用 OCID 论文："
+  },
+  {
+    "row": 112,
+    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+    "originContent": "```bibtex",
+    "translatedContent": "```bibtex"
+  },
+  {
+    "row": 113,
+    "rowsha": "am+7fzPMogX57+2No7Zx6g+m/KO6Kpe1VoZRwopV4Kg=",
+    "originContent": "@inproceedings{suchi2019easylabel,",
+    "translatedContent": "@inproceedings{suchi2019easylabel,"
+  },
+  {
+    "row": 114,
+    "rowsha": "3EiZpAxiykBZX3FWPLD330m67Bv96NRgDWCxZ4vuU/4=",
+    "originContent": "  title={EasyLabel: a semi-automatic pixel-wise object annotation tool for creating robotic RGB-D datasets},",
+    "translatedContent": "  title={EasyLabel: a semi-automatic pixel-wise object annotation tool for creating robotic RGB-D datasets},"
+  },
+  {
+    "row": 115,
+    "rowsha": "IxumqeikoFIe6Hndls9+IAJi13XUKKk9bmC7xaFxXm0=",
+    "originContent": "  author={Suchi, Markus and Patten, Timothy and Fischinger, David and Vincze, Markus},",
+    "translatedContent": "  author={Suchi, Markus and Patten, Timothy and Fischinger, David and Vincze, Markus},"
+  },
+  {
+    "row": 116,
+    "rowsha": "IInWFJKqnyVR2m4m2aHt68UI1DxIt9IREQltzcuUIpo=",
+    "originContent": "  booktitle={2019 International Conference on Robotics and Automation (ICRA)},",
+    "translatedContent": "  booktitle={2019 International Conference on Robotics and Automation (ICRA)},"
+  },
+  {
+    "row": 117,
+    "rowsha": "tlaHsVykO12Fo3/PGqoVi3f9pXdsUwtjsrTAFcryMU4=",
+    "originContent": "  pages={6678--6684},",
+    "translatedContent": "  pages={6678--6684},"
+  },
+  {
+    "row": 118,
+    "rowsha": "ocEOTULJTOsDZV6KHGnRSOuaoV0qhbBNO4DJ3ntJ94Q=",
+    "originContent": "  year={2019},",
+    "translatedContent": "  year={2019},"
+  },
+  {
+    "row": 119,
+    "rowsha": "9Hfv4nT468GMOcLLDRYiC872ATBuopr8BNVdeXRMKKo=",
+    "originContent": "  organization={IEEE}",
+    "translatedContent": "  organization={IEEE}"
+  },
+  {
+    "row": 120,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 121,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 122,
+    "rowsha": "teEAAZH35j5EeglHUPss2l/VI0NSW5CguZHzPiIagvw=",
+    "originContent": "Our framework is based on the architecture from [Seamless Scene Segmentation](https://github.com/mapillary/seamseg):",
+    "translatedContent": "我们的框架基于[Seamless Scene Segmentation](https://github.com/mapillary/seamseg)的架构："
+  },
+  {
+    "row": 123,
+    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+    "originContent": "```bibtex",
+    "translatedContent": "```bibtex"
+  },
+  {
+    "row": 124,
+    "rowsha": "qXDOjNU0Ch+XRTRZ0ydjkWKK/3MJexKAClYsDFO56b0=",
+    "originContent": "@InProceedings{Porzi_2019_CVPR,",
+    "translatedContent": "@InProceedings{Porzi_2019_CVPR,"
+  },
+  {
+    "row": 125,
+    "rowsha": "FfFKa/UbaCH8vG4kEYTyqdUQYPgB8+MveMXV9ea9oN8=",
+    "originContent": "  author = {Porzi, Lorenzo and Rota Bul\\`o, Samuel and Colovic, Aleksander and Kontschieder, Peter},",
+    "translatedContent": "  author = {Porzi, Lorenzo and Rota Bul\\`o, Samuel and Colovic, Aleksander and Kontschieder, Peter},"
+  },
+  {
+    "row": 126,
+    "rowsha": "uGIEzIbt62asefZrx+otnREvHQmBHrAbyQ+caaPx6z8=",
+    "originContent": "  title = {Seamless Scene Segmentation},",
+    "translatedContent": "  title = {Seamless Scene Segmentation},"
+  },
+  {
+    "row": 127,
+    "rowsha": "OzLWvmPmU0HySxSvHnCvlw84cXG0JRG32Y2hANlllNc=",
+    "originContent": "  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},",
+    "translatedContent": "  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},"
+  },
+  {
+    "row": 128,
+    "rowsha": "U1Izw4geK+wX4RkAbLnK9NT0MBNGq5VLS9uL46bPZVs=",
+    "originContent": "  month = {June},",
+    "translatedContent": "  month = {June},"
+  },
+  {
+    "row": 129,
+    "rowsha": "NcyTFqu73UT68Hhp/KhgRz8xkWN2xeRhiy2hedxuQjc=",
+    "originContent": "  year = {2019}",
+    "translatedContent": "  year = {2019}"
+  },
+  {
+    "row": 130,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 131,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 132,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 133,
+    "rowsha": "kJZYblkECg2EIWGuT746GoZHpfK3HuKzWt/k5GEQrbc=",
+    "originContent": "## About our latest Research",
+    "translatedContent": "## 关于我们最新的研究"
+  },
+  {
+    "row": 134,
+    "rowsha": "96M3ewdojOSKPqTVkgan54N+NTpS/EW41y7Ac4TIDdY=",
+    "originContent": "### Our paper 'Depth-aware Object Segmentation and Grasp Detection for Robotic Picking Tasks' got accepted at BMVC21",
+    "translatedContent": "### 我们的论文《面向机器人抓取任务的深度感知物体分割与抓取检测》被BMVC21录用"
+  },
+  {
+    "row": 135,
+    "rowsha": "p30lQqbpYb7jbznlL9TlbAztV2qbRHGsS9Teeat5SB8=",
+    "originContent": "In our latest work, we implemented a method for joint grasp detection and class-agnostic object instance segmentation,",
+    "translatedContent": "在我们最新的工作中，我们实现了一种联合抓取检测和类别无关物体实例分割的方法，"
+  },
+  {
+    "row": 136,
+    "rowsha": "EDlMAC1EObuIzJFQydpJqPXK/0vDMpZHE+tLrO4RXBc=",
+    "originContent": "which was published at BMVC21. ",
+    "translatedContent": "该方法已发表于BMVC21。"
+  },
+  {
+    "row": 137,
+    "rowsha": "U97RtC1JlDrhwc0yd1F9F/THZbwTgS0QCDUrMANUgC4=",
+    "originContent": "More information can be found [here](https://arxiv.org/pdf/2111.11114).",
+    "translatedContent": "更多信息请见[这里](https://arxiv.org/pdf/2111.11114)。"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

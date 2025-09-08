@@ -49,24 +49,24 @@
 
 # AnymeX: Multiservice Tracking Client
 
-**AnymeX** ist ein Multiservice-Tracking-Client, der exklusiv für das Verwalten und Verfolgen von Anime- und Manga-Fortschritten über [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) und [**Simkl**](https://simkl.com/) entwickelt wurde.
+**AnymeX** ist ein Multi-Service-Tracking-Client, der exklusiv für die Verwaltung und das Tracking des Anime- und Manga-Fortschritts über [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) und [**Simkl**](https://simkl.com/) entwickelt wurde.
 
 > [!WICHTIG]  
-> **AnymeX ist ausschließlich ein Tracking-Tool.** Es hostet, stellt bereit, vertreibt oder unterstützt keinerlei Streaming-Inhalte, Medien oder Drittanbieter-Erweiterungen.  
+> **AnymeX ist ausschließlich ein Tracking-Tool.** Es hostet, bietet, verteilt oder befürwortet keine Streaming-Inhalte, Medien oder Erweiterungen von Drittanbietern.  
 >  
-> **Verantwortung der Nutzer:** Nutzer sind allein verantwortlich für die Nutzung der App und für alle Drittanbieterdienste oder Erweiterungen, mit denen sie interagieren. Nutzer müssen alle geltenden Gesetze, Urheberrechte und geistigen Eigentumsrechte einhalten.  
+> **Verantwortung der Nutzer:** Die Nutzer sind allein verantwortlich für die Verwendung der App und jeglicher Drittanbieterdienste oder Erweiterungen, mit denen sie interagieren. Die Nutzer müssen sämtliche geltenden Gesetze, Urheberrechte und geistige Eigentumsrechte beachten.  
 >  
-> **Keine Haftung:** Die Entwickler von AnymeX lehnen jegliche Haftung für Missbrauch, rechtliche Probleme oder Verstöße ab, die sich aus Nutzerhandlungen ergeben. Rechtliche Anliegen sind an die jeweiligen Drittanbieterdienste zu richten, nicht an AnymeX. Die App wird „wie sie ist“ und ohne Gewährleistungen bereitgestellt.  
+> **Keine Haftung:** Die Entwickler von AnymeX lehnen jegliche Haftung für Missbrauch, rechtliche Probleme oder Verstöße ab, die sich aus Nutzeraktionen ergeben. Rechtliche Anliegen, einschließlich DMCA-Beschwerden, sind direkt an die jeweiligen Drittanbieterdienste zu richten, nicht an AnymeX. Die App wird „wie sie ist“ ohne Gewährleistung bereitgestellt.  
 >  
-> **Dienste:** AnymeX integriert ausschließlich die offiziellen APIs der unterstützten Dienste (AniList, MyAnimeList, Simkl). Drittanbieter-Erweiterungen liegen in der Verantwortung ihrer Entwickler, nicht der AnymeX-Entwickler.  
+> **Dienste:** AnymeX integriert ausschließlich die offiziellen APIs der unterstützten Dienste (AniList, MyAnimeList, Simkl). Erweiterungen von Drittanbietern liegen in der Verantwortung ihrer Ersteller, nicht der Entwickler von AnymeX.  
 >  
-> **Mit der Nutzung dieser App stimmen Sie unseren [Nutzungsbedingungen](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) zu.**
+> **Mit der Nutzung von AnymeX stimmen Sie unseren [Nutzungsbedingungen](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) zu. Bitte lesen Sie die Bedingungen, um unsere DMCA-konforme Tracking-Funktion und unsere Nichtbeteiligung an Inhalten oder Diensten außerhalb von AniList, MyAnimeList und Simkl zu verstehen.**
 
 ## Downloads
 
 <div align="center">
   <p>
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Neueste stabile Version"/></a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Letzte stabile Version"/></a>
   </p>
   
 ### Windows
@@ -158,6 +158,6 @@ AnymeX steht unter der MIT-Lizenz. Weitere Informationen findest du [hier](https
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

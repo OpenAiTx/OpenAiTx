@@ -47,20 +47,20 @@
 <a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX: Wielousługowy klient do śledzenia
+# AnymeX: Klient do śledzenia z wielu serwisów
 
-**AnymeX** to klient do śledzenia postępów, zaprojektowany wyłącznie do zarządzania i monitorowania postępów w anime i mandze na [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) i [**Simkl**](https://simkl.com/).
+**AnymeX** to klient do śledzenia z wielu serwisów, zaprojektowany wyłącznie do zarządzania i śledzenia postępów w anime i mandze na platformach [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) oraz [**Simkl**](https://simkl.com/).
 
 > [!WAŻNE]  
-> **AnymeX jest wyłącznie narzędziem do śledzenia.** Nie hostuje, nie dostarcza, nie rozpowszechnia ani nie popiera żadnych treści streamingowych, mediów ani rozszerzeń stron trzecich.  
+> **AnymeX jest wyłącznie narzędziem do śledzenia.** Nie hostuje, nie udostępnia, nie rozpowszechnia ani nie promuje żadnych treści streamingowych, mediów ani rozszerzeń firm trzecich.  
 >  
-> **Odpowiedzialność użytkownika:** Użytkownicy ponoszą pełną odpowiedzialność za sposób korzystania z aplikacji oraz za wszelkie usługi lub rozszerzenia stron trzecich, z których zdecydują się korzystać. Użytkownicy muszą przestrzegać wszystkich obowiązujących przepisów, praw autorskich i praw własności intelektualnej.  
+> **Odpowiedzialność użytkownika:** Użytkownicy są wyłącznie odpowiedzialni za sposób korzystania z aplikacji oraz wszelkich zewnętrznych usług czy rozszerzeń, z którymi zdecydują się współdziałać. Użytkownicy muszą przestrzegać wszelkich obowiązujących przepisów prawa, praw autorskich oraz praw własności intelektualnej.  
 >  
-> **Brak odpowiedzialności:** Twórcy AnymeX zrzekają się wszelkiej odpowiedzialności za niewłaściwe użycie, problemy prawne lub naruszenia wynikające z działań użytkownika. Wszelkie kwestie prawne należy kierować do odpowiednich usług stron trzecich, a nie do AnymeX. Aplikacja jest udostępniana "w stanie takim, w jakim jest" bez gwarancji.  
+> **Brak odpowiedzialności:** Twórcy AnymeX zrzekają się wszelkiej odpowiedzialności za niewłaściwe użytkowanie, kwestie prawne lub naruszenia wynikające z działań użytkownika. Wszelkie kwestie prawne, w tym zgłoszenia DMCA, należy kierować do odpowiednich zewnętrznych serwisów, a nie do AnymeX. Aplikacja jest udostępniana „tak jak jest”, bez gwarancji.  
 >  
-> **Usługi:** AnymeX integruje się wyłącznie z oficjalnymi API obsługiwanych serwisów (AniList, MyAnimeList, Simkl). Rozszerzenia stron trzecich są odpowiedzialnością ich twórców, nie twórców AnymeX.  
+> **Serwisy:** AnymeX integruje się wyłącznie z oficjalnymi API obsługiwanych serwisów (AniList, MyAnimeList, Simkl). Rozszerzenia firm trzecich są odpowiedzialnością ich twórców, a nie deweloperów AnymeX.  
 >  
-> **Korzystając z tej aplikacji, akceptujesz nasze [Warunki korzystania](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md).**
+> **Korzystając z AnymeX, wyrażasz zgodę na przestrzeganie naszego [Regulaminu](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md). Prosimy o zapoznanie się z regulaminem, aby zrozumieć naszą zgodność z DMCA, funkcjonalność śledzenia oraz brak zaangażowania w treści lub usługi poza AniList, MyAnimeList i Simkl.**
 
 ## Pobieranie
 
@@ -158,6 +158,6 @@ AnymeX jest dostępny na licencji MIT. Więcej informacji znajdziesz [tutaj](htt
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

@@ -27,45 +27,46 @@
     </div>
   </details>
 </div>
+
 # 🧠 Motor de búsqueda web LLM sin proxy
 
-Una herramienta de recuperación web LLM multi-motor sin necesidad de proxy, compatible con análisis de contenido de URL y rastreo de páginas web, que integra **LangGraph** y **LangGraph-MCP** para lograr una cadena de agentes modular. Diseñada para escenarios de consulta de conocimientos externos por modelos de lenguaje grande, soporta adquisición y análisis de páginas web con **Playwright + Crawl4AI**, así como concurrencia asíncrona, segmentación y reordenamiento de contenidos.
+Una herramienta de recuperación web LLM multibuscador sin necesidad de proxy, compatible con el análisis de contenido de URL y rastreo web, combinando **LangGraph** y **LangGraph-MCP** para lograr una cadena de agentes modular. Diseñada para escenarios de acceso a conocimiento externo por modelos de lenguaje grande, soporta obtención y análisis de páginas web con **Playwright + Crawl4AI**, así como concurrencia asíncrona, segmentación de contenido y reordenamiento filtrado.
 
 ## 🚀 Registro de actualizaciones
 
 - 🔥 2025-09-05: Soporte para **langgraph-mcp**
-- 🔥 2025-09-03: Despliegue en Docker añadido, reordenador inteligente incorporado, soporte para segmentador y reordenador de texto personalizados
+- 🔥 2025-09-03: Nuevo despliegue con Docker, reordenador inteligente integrado, soporte para segmentadores y reordenadores de texto personalizados
 
-## ✨ Resumen de características
+## ✨ Vista rápida de características
 
-- 🌐 **Sin necesidad de proxy**: Mediante la configuración de Playwright para soportar navegadores nacionales, permite realizar búsquedas en la web sin requerir proxy.
-- 🔍 **Soporte para múltiples motores de búsqueda**: Compatible con Bing, Quark, Baidu, Sogou y otros motores de búsqueda principales, mejorando la diversidad de fuentes de información.
+- 🌐 **Sin necesidad de proxy**: Configuración de navegador nacional mediante Playwright, permite realizar búsquedas en la web sin requerir proxy.
+- 🔍 **Soporte para múltiples motores de búsqueda**: Compatible con Bing, Quark, Baidu, Sogou y otros motores principales, aumentando la diversidad de fuentes de información.
 - 🤖 **Reconocimiento de intención**: El sistema puede determinar automáticamente si debe realizar una búsqueda web o analizar una URL según el contenido ingresado por el usuario.
-- 🔄 **Descomposición de consultas**: Según la intención de búsqueda del usuario, descompone automáticamente la consulta en varias subtareas y las ejecuta secuencialmente para mejorar la relevancia y eficiencia de la búsqueda.
-- ⚙️ **Arquitectura inteligente**: Basado en **LangGraph**, encapsula **「web_search」** y **「link_parser」**.
-- 🏃‍♂️ **Procesamiento de tareas asíncronas y concurrentes**: Soporta el manejo asíncrono y concurrente de tareas, permitiendo procesar eficientemente múltiples búsquedas.
+- 🔄 **Descomposición de consultas**: Según la intención de búsqueda del usuario, divide automáticamente la consulta en varias subtareas y las ejecuta secuencialmente, mejorando la relevancia y eficiencia de la búsqueda.
+- ⚙️ **Arquitectura de agentes inteligentes**: Basada en **LangGraph**, encapsula **「web_search」** y **「link_parser」**.
+- 🏃‍♂️ **Procesamiento de tareas concurrentes asíncronas**: Admite procesamiento asíncrono y concurrente de tareas, permitiendo manejar eficientemente múltiples búsquedas.
 - 📝 **Optimización del procesamiento de contenido**:
 
-  - ✂️ **Fragmentación de contenido**: Divide el contenido extenso de la web en segmentos.
+  - ✂️ **Segmentación de contenido**: Divide el contenido extenso de las páginas web en secciones.
 
-  - 🔄 **Reordenamiento de contenido**: Reorganización inteligente para mejorar la relevancia informativa.
+  - 🔄 **Reordenamiento de contenido**: Reordena inteligentemente para aumentar la relevancia de la información.
 
   - 🚫 **Filtrado de contenido**: Elimina automáticamente contenido irrelevante o duplicado.
 - 🌐 **Soporte multiplataforma**:
-  - 🐳 **Compatible con despliegue en Docker**: Inicio con un solo clic, construcción rápida de servicios backend.
+  - 🐳 **Soporta despliegue en Docker**: Inicio con un solo clic, construcción rápida de servicios backend.
 
-  - 🖥️ Proporciona interfaz backend FastAPI, integrable en cualquier sistema.
+  - 🖥️ Proporciona interfaz backend con FastAPI, integrable en cualquier sistema.
 
-  - 🌍 Ofrece Gradio Web UI, permitiendo un despliegue rápido como aplicación visual.
+  - 🌍 Ofrece Gradio Web UI, permitiendo rápida implementación como aplicación visual.
 
-  - 🧩[ **Soporte para extensión de navegador**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Compatible con Edge, ofrece extensión para análisis inteligente de URL, permitiendo iniciar solicitudes de análisis y extracción de contenido directamente en el navegador.
+  - 🧩[ **Soporte para extensiones de navegador**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Compatible con Edge, proporciona extensión inteligente para análisis de URL, permite iniciar solicitudes de análisis y extracción de contenido directamente desde el navegador.
 
 
 ![workflow](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/workflow.png)
 
 ![framework](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/framework.png)
 
-## ⚡ Comenzar rápidamente
+## ⚡ Comienzo rápido
 
 ### Clonar el repositorio
 
@@ -253,11 +254,11 @@ class YourReranker:
 
 ## 🔍 Comparación con pruebas de búsqueda en línea
 
-Comparamos el proyecto con algunas API en línea principales, evaluando su desempeño en problemas complejos.
+Comparamos el proyecto con algunas API en línea populares y evaluamos su desempeño en problemas complejos.
 
 ### 🔥 Conjunto de datos
 
-- El conjunto de datos proviene de [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA) publicado por Alibaba, contiene 680 preguntas de alta dificultad que abarcan educación, conferencias académicas, juegos y otros campos.
+- El conjunto de datos proviene de [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA) publicado por Alibaba, contiene 680 preguntas de alta dificultad y abarca educación, conferencias académicas, juegos y otros campos.
 - El conjunto de datos incluye preguntas en chino e inglés.
 
 ### 🧑‍🏫 Resultados comparativos
@@ -269,16 +270,17 @@ Comparamos el proyecto con algunas API en línea principales, evaluando su desem
 | **Nuestro**              | 19.85%     | 47.94%       | 32.06%                  |
 ## 🙏 Agradecimientos
 
-Algunas funciones de este proyecto se benefician del apoyo e inspiración de los siguientes proyectos de código abierto. Agradecemos especialmente:
+Algunas funciones de este proyecto se benefician del apoyo e inspiración de los siguientes proyectos de código abierto, por lo que expresamos nuestro agradecimiento:
 
-- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph): Utilizado para construir el marco de cadenas de agentes modulares, ayuda a crear rápidamente sistemas de agentes complejos.
-- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): Potente herramienta de análisis de contenido web, facilita la extracción eficiente de datos y el rastreo de páginas.
-- 🌐 [Playwright](https://github.com/microsoft/playwright): Herramienta moderna de automatización de navegadores, compatible con el rastreo web y la automatización de pruebas en múltiples navegadores.
+- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph): Utilizado para construir el marco de agentes modulares, facilita el desarrollo rápido de sistemas de agentes complejos.
+- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): Potente herramienta de análisis de contenido web, ayuda en la extracción eficiente de datos y el scraping de páginas.
+- 🌐 [Playwright](https://github.com/microsoft/playwright): Herramienta moderna de automatización de navegadores, soporta scraping y pruebas automatizadas en varios navegadores.
 - 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters): Utilizado para la construcción de MCP de procesamiento multichain.
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

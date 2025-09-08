@@ -47,20 +47,20 @@
 <a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX: বহু-সেৱা অনুসৰণ ক্লায়েন্ট
+# AnymeX: বহু-চাৰ্ভিচৰ ট্ৰেকিং ক্লায়েন্ট
 
-**AnymeX** হৈছে এটা বহু-সেৱা অনুসৰণ ক্লায়েন্ট, যি বিশেষভাৱে [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), আৰু [**Simkl**](https://simkl.com/) ত এনিমে আৰু মাংগাৰ অগ্ৰগতি পৰিচালনা আৰু অনুসৰণ কৰিবলৈ ডিজাইন কৰা হৈছে।
+**AnymeX** হৈছে এটা বহু-চাৰ্ভিচৰ ট্ৰেকিং ক্লায়েন্ট, যি বিশেষকৈ [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), আৰু [**Simkl**](https://simkl.com/) ৰ মাজত এনিমে আৰু মাংগা অগ্ৰগতি পৰিচালনা আৰু ট্ৰেক কৰাৰ বাবে ডিজাইন কৰা হৈছে।
 
 > [!IMPORTANT]  
-> **AnymeX কেৱল এটা অনুসৰণৰ সঁজুলি।** এইয়ে কোনো ষ্ট্ৰিমিং সংহতি, মাধ্যম, অথবা তৃতীয় পক্ষৰ এক্সটেনচন সংৰক্ষণ, যোগান, বিতৰণ, বা সমৰ্থন নকৰে।  
+> **AnymeX কেৱল এটা ট্ৰেকিং টুল।** এইয়ে কোনো ষ্ট্ৰিমিং কণ্টেণ্ট, মিডিয়া, বা তৃতীয় পক্ষৰ এক্সটেনশ্যন হোষ্ট, প্ৰদান, বিতৰণ, বা সমৰ্থন নকৰে।  
 >  
-> **ব্যৱহাৰকাৰীৰ দায়িত্ব:** ব্যৱহাৰকাৰীয়ে নিজে নিজে এই এপটো কেনেকৈ ব্যৱহাৰ কৰে আৰু যিকোনো তৃতীয় পক্ষৰ সেৱা বা এক্সটেনচনৰ সৈতে কেনেকৈ যোগাযোগ কৰে তাৰ বাবে সম্পূর্ণ দায়িত্ববদ্ধ। ব্যৱহাৰকাৰীয়ে সকলো প্ৰযোজ্য আইন, কপিৰাইট, আৰু বৌদ্ধিক সম্পত্তিৰ অধিকাৰৰ সৈতে পালন কৰিব লাগিব।  
+> **ব্যৱহাৰকাৰীৰ দায়িত্ব:** ব্যৱহাৰকাৰীসকলে এই এপ্প আৰু যিকোনো তৃতীয় পক্ষৰ সেৱা বা এক্সটেনশ্যন ব্যৱহাৰৰ বাবে সম্পূৰ্ণৰূপে দায়ী। ব্যৱহাৰকাৰীসকলে সকলো প্ৰযোজ্য আইন, কপিৰাইট, আৰু বৌদ্ধিক সম্পত্তি অধিকাৰৰ পালন কৰিব লাগিব।  
 >  
-> **কোনো দায়িত্ব নহয়:** AnymeX ৰ বিকাশকাৰীসকল ব্যৱহাৰকাৰীৰ কার্যকলাপৰ পৰা হোৱা অপ-ব্যৱহাৰ, আইনী সমস্যা, বা উলংঘনৰ বাবে সকলো দায়িত্ব অস্বীকাৰ কৰে। আইনী সমস্যাবোৰ প্ৰাসংগিক তৃতীয় পক্ষৰ সেৱাবোৰলৈ নিৰ্দেশ কৰিব, AnymeX লৈ নহয়। এই এপটো "যি-যি অৱস্থাত আছে" সেই অৱস্থাত, কোনো গেৰান্টি নোহোৱাকৈ প্ৰদান কৰা হৈছে।  
+> **কোনো দায়িত্ব নাই:** AnymeX ৰ ডেভেলপাৰসকলে ব্যৱহাৰকাৰীৰ কাৰ্যৰ পৰা সৃষ্টি হোৱা ভুল ব্যৱহাৰ, আইনী সমস্যা, বা উলংঘনৰ বাবে সকলো দায়িত্ব অস্বীকাৰ কৰে। আইনী চিন্তা-চেতনা, DMCA দাবীসহ, সম্পৰ্কিত তৃতীয় পক্ষৰ সেৱাত প্ৰেৰণ কৰিব লাগে, AnymeX ত নহয়। এই এপ্প “as-is” (যি অৱস্থাত আছে) হিচাপে গেৰান্টি নোহোৱাকৈ প্ৰদান কৰা হৈছে।  
 >  
-> **সেৱাসমূহ:** AnymeX কেৱল সমৰ্থিত সেৱাসমূহৰ (AniList, MyAnimeList, Simkl) অফিচিয়েল API ৰ সৈতে সংহত হয়। তৃতীয় পক্ষৰ এক্সটেনচনসমূহ তেওঁলোকৰ নিৰ্মাতাসকলৰ দায়িত্ব, AnymeX ৰ বিকাশকাৰীসকলৰ নহয়।  
+> **চাৰ্ভিচসমূহ:** AnymeX কেৱল সমৰ্থিত চাৰ্ভিচসমূহ (AniList, MyAnimeList, Simkl) ৰ অফিচিয়েল API ৰ লগত সংযোগ কৰে। তৃতীয় পক্ষৰ এক্সটেনশ্যন সম্পূৰ্ণৰূপে তাৰ নিৰ্মাতাৰ দায়িত্ব, AnymeX ডেভেলপাৰসকলৰ নহয়।  
 >  
-> **এই এপটো ব্যৱহাৰ কৰি, আপুনি আমাৰ [Terms of Service](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) মানি চলিবলৈ একমত হৈছে।**
+> **AnymeX ব্যৱহাৰ কৰি, আপুনি আমাৰ [Terms of Service](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) মানিবলৈ সম্মত। অনুগ্ৰহ কৰি ToS পঢ়ক যাতে আমাৰ DMCA-সম্মত, ট্ৰেকিং ফাংকশ্যনালিটী, আৰু AniList, MyAnimeList, Simkl ৰ বাহিৰে যিকোনো কণ্টেণ্ট বা সেৱাত আমাৰ অব্যক্ত সংযোগ বুজিবলৈ পাৰে।**
 
 ## ডাউনলোডসমূহ
 
@@ -69,7 +69,7 @@
     <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a>
   </p>
   
-### উইন্ড’জ
+### Windows
   <p>
     <a href="/INSTALLATION.md"><img src="https://img.shields.io/badge/Scoop-AnymeX-white?style=for-the-badge&labelColor=black" alt="Scoop"/></a>
     <a href="/INSTALLATION.md"><img src="https://img.shields.io/badge/Chocolatey-com.ryan.anymex-white?style=for-the-badge&labelColor=black" alt="Chocolatey"/></a>
@@ -158,6 +158,6 @@ AnymeX MIT অনুমতি-পত্ৰৰ অধীনত লাইসেন
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

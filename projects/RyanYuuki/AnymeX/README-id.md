@@ -52,15 +52,15 @@
 **AnymeX** adalah klien pelacak multilayanan yang dirancang khusus untuk mengelola dan melacak progres anime dan manga di [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), dan [**Simkl**](https://simkl.com/).
 
 > [!PENTING]  
-> **AnymeX hanyalah alat pelacak.** Aplikasi ini tidak meng-host, menyediakan, mendistribusikan, atau mendukung konten streaming, media, atau ekstensi pihak ketiga apa pun.  
+> **AnymeX hanya alat pelacak.** Aplikasi ini tidak meng-host, menyediakan, mendistribusikan, atau mendukung konten streaming, media, atau ekstensi pihak ketiga apa pun.  
 >  
-> **Tanggung Jawab Pengguna:** Pengguna bertanggung jawab penuh atas penggunaan aplikasi dan layanan atau ekstensi pihak ketiga yang mereka pilih untuk digunakan. Pengguna harus mematuhi semua hukum, hak cipta, dan hak kekayaan intelektual yang berlaku.  
+> **Tanggung Jawab Pengguna:** Pengguna sepenuhnya bertanggung jawab atas penggunaan aplikasi dan layanan atau ekstensi pihak ketiga yang mereka pilih untuk digunakan. Pengguna harus mematuhi semua hukum yang berlaku, hak cipta, dan hak kekayaan intelektual.  
 >  
-> **Tidak Ada Tanggung Jawab:** Pengembang AnymeX menolak semua tanggung jawab atas penyalahgunaan, masalah hukum, atau pelanggaran yang timbul dari tindakan pengguna. Masalah hukum harus diarahkan ke layanan pihak ketiga yang bersangkutan, bukan ke AnymeX. Aplikasi diberikan "apa adanya" tanpa jaminan.  
+> **Tidak Ada Tanggung Jawab:** Pengembang AnymeX menolak segala tanggung jawab atas penyalahgunaan, masalah hukum, atau pelanggaran yang timbul dari tindakan pengguna. Masalah hukum, termasuk klaim DMCA, harus diarahkan ke layanan pihak ketiga terkait, bukan AnymeX. Aplikasi disediakan "apa adanya" tanpa jaminan apa pun.  
 >  
-> **Layanan:** AnymeX hanya terintegrasi dengan API resmi dari layanan yang didukung (AniList, MyAnimeList, Simkl). Ekstensi pihak ketiga sepenuhnya menjadi tanggung jawab pembuatnya, bukan pengembang AnymeX.  
+> **Layanan:** AnymeX hanya terintegrasi dengan API resmi dari layanan yang didukung (AniList, MyAnimeList, Simkl). Ekstensi pihak ketiga adalah tanggung jawab pembuatnya, bukan pengembang AnymeX.  
 >  
-> **Dengan menggunakan aplikasi ini, Anda setuju untuk mematuhi [Ketentuan Layanan](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) kami.**
+> **Dengan menggunakan AnymeX, Anda setuju untuk mematuhi [Ketentuan Layanan](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) kami. Silakan tinjau ToS untuk memahami kepatuhan DMCA, fungsi pelacakan, dan ketidakikutsertaan kami terhadap konten atau layanan di luar AniList, MyAnimeList, dan Simkl.**
 
 ## Unduhan
 
@@ -158,6 +158,6 @@ AnymeX dilisensikan di bawah Lisensi MIT. Informasi lebih lanjut dapat ditemukan
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

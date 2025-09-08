@@ -39,7 +39,7 @@
 <a href="https://www.codefactor.io/repository/github/RyanYuuki/AnymeX"><img src="https://img.shields.io/codefactor/grade/github/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge&label=Codefactor" alt="CodeFactor"/></a>
   <!--<a href="https://hosted.weblate.org/engage/echo"><img alt="Weblate project translated" src="https://img.shields.io/weblate/progress/echo?color=white&labelColor=black&label=Translated&style=flat-square"></a>-->
 <!-- <a href="https://github.com/RyanYuuki/AnymeX/commits/main">
-    <img src="https://img.shields.io/github/last-commit/RyanYuuki/AnymeX?color=white&labelColor=black&label=Latest Commit&style=for-the-badge" alt="GitHub Last Commit">
+    <img src="https://img.shields.io/github/last-commit/RyanYuuki/AnymeX?color=white&labelColor=black&label=Laatste Commit&style=for-the-badge" alt="GitHub Laatste Commit">
 </a> -->
 <a href="https://github.com/RyanYuuki/AnymeX/stargazers">
       <img src="https://img.shields.io/github/stars/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge" alt="Sterren" /></a>
@@ -49,18 +49,18 @@
 
 # AnymeX: Multiservice Tracking Client
 
-**AnymeX** is een multiservice tracking client ontworpen exclusief voor het beheren en volgen van anime- en manga-voortgang via [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) en [**Simkl**](https://simkl.com/).
+**AnymeX** is een multiservice trackingclient die exclusief ontworpen is voor het beheren en bijhouden van anime- en mangavoortgang via [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) en [**Simkl**](https://simkl.com/).
 
 > [!BELANGRIJK]  
-> **AnymeX is alleen een tracking tool.** Het host, levert, distribueert of ondersteunt geen streaming content, media of externe extensies.  
+> **AnymeX is alleen een trackingtool.** Het host, levert, distribueert of onderschrijft geen streamingcontent, media of externe extensies.  
 >  
-> **Verantwoordelijkheid gebruiker:** Gebruikers zijn volledig verantwoordelijk voor hoe zij de app en eventuele externe diensten of extensies gebruiken. Gebruikers moeten voldoen aan alle toepasselijke wetten, auteursrechten en intellectuele eigendomsrechten.  
+> **Verantwoordelijkheid gebruiker:** Gebruikers zijn zelf volledig verantwoordelijk voor hun gebruik van de app en eventuele externe diensten of extensies waarmee zij kiezen te interageren. Gebruikers moeten voldoen aan alle toepasselijke wetten, auteursrechten en intellectuele eigendomsrechten.  
 >  
-> **Geen aansprakelijkheid:** De ontwikkelaars van AnymeX wijzen alle aansprakelijkheid af voor misbruik, juridische problemen of overtredingen die voortvloeien uit gebruikersacties. Juridische kwesties moeten worden gericht aan de betreffende externe diensten, niet aan AnymeX. De app wordt geleverd "zoals hij is" zonder garanties.  
+> **Geen aansprakelijkheid:** De ontwikkelaars van AnymeX wijzen alle aansprakelijkheid af voor misbruik, juridische kwesties of overtredingen die voortvloeien uit handelingen van gebruikers. Juridische kwesties, waaronder DMCA-claims, moeten worden gericht aan de betreffende externe diensten, niet aan AnymeX. De app wordt geleverd "zoals het is", zonder garanties.  
 >  
 > **Diensten:** AnymeX integreert alleen met de officiële API's van ondersteunde diensten (AniList, MyAnimeList, Simkl). Externe extensies zijn de verantwoordelijkheid van hun makers, niet van de ontwikkelaars van AnymeX.  
 >  
-> **Door deze app te gebruiken, ga je akkoord met onze [Servicevoorwaarden](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md).**
+> **Door AnymeX te gebruiken, stemt u ermee in onze [Servicevoorwaarden](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) na te leven. Lees de ToS om onze DMCA-conforme trackingfunctionaliteit en onze niet-betrokkenheid bij enige content of diensten buiten AniList, MyAnimeList en Simkl te begrijpen.**
 
 ## Downloads
 
@@ -158,6 +158,6 @@ AnymeX is gelicentieerd onder de MIT-licentie. Meer informatie vind je [hier](ht
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

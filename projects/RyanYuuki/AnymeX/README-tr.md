@@ -49,18 +49,18 @@
 
 # AnymeX: Çoklu Servis Takip İstemcisi
 
-**AnymeX**, [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) ve [**Simkl**](https://simkl.com/) üzerinden anime ve manga ilerlemenizi yönetmek ve takip etmek için özel olarak tasarlanmış çoklu servis takip istemcisidir.
+**AnymeX**, [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) ve [**Simkl**](https://simkl.com/) üzerinden anime ve manga ilerlemesini yönetmek ve takip etmek için özel olarak tasarlanmış çoklu servis takip istemcisidir.
 
 > [!ÖNEMLİ]  
-> **AnymeX sadece bir takip aracıdır.** Herhangi bir yayın içeriği, medya veya üçüncü taraf uzantı barındırmaz, sağlamaz, dağıtmaz ya da desteklemez.  
+> **AnymeX sadece bir takip aracıdır.** Herhangi bir akış içeriğini, medyayı veya üçüncü taraf uzantıları barındırmaz, sağlamaz, dağıtmaz ya da desteklemez.  
 >  
-> **Kullanıcı Sorumluluğu:** Kullanıcılar uygulamayı ve etkileşimde bulundukları üçüncü taraf hizmetleri veya uzantıları nasıl kullandıklarından tamamen kendileri sorumludur. Kullanıcılar yürürlükteki tüm yasalara, telif haklarına ve fikri mülkiyet haklarına uymalıdır.  
+> **Kullanıcı Sorumluluğu:** Kullanıcılar uygulamayı ve etkileşimde bulundukları üçüncü taraf hizmetleri veya uzantıları nasıl kullandıklarından yalnızca kendileri sorumludur. Kullanıcılar tüm geçerli yasalara, telif hakkına ve fikri mülkiyet haklarına uymak zorundadır.  
 >  
-> **Sorumluluk Reddi:** AnymeX geliştiricileri, kullanıcı eylemlerinden kaynaklanan kötüye kullanım, hukuki sorunlar veya ihlaller için tüm sorumluluğu reddeder. Hukuki endişeler ilgili üçüncü taraf hizmetlere yöneltilmelidir, AnymeX'e değil. Uygulama “olduğu gibi” herhangi bir garanti olmadan sunulmaktadır.  
+> **Sorumluluk Reddi:** AnymeX geliştiricileri, yanlış kullanım, yasal sorunlar veya kullanıcı eylemlerinden doğabilecek ihlaller için tüm sorumluluğu reddeder. Hukuki sorunlar, DMCA talepleri dahil olmak üzere, ilgili üçüncü taraf hizmetlere yönlendirilmelidir, AnymeX'e değil. Uygulama "olduğu gibi" ve herhangi bir garanti olmaksızın sunulmaktadır.  
 >  
-> **Servisler:** AnymeX yalnızca desteklenen servislerin (AniList, MyAnimeList, Simkl) resmi API’leri ile entegre olur. Üçüncü taraf uzantılar kendi geliştiricilerinin sorumluluğundadır, AnymeX geliştiricilerinin değil.  
+> **Hizmetler:** AnymeX yalnızca desteklenen hizmetlerin (AniList, MyAnimeList, Simkl) resmi API'leri ile entegre olur. Üçüncü taraf uzantılar kendi geliştiricilerinin sorumluluğundadır, AnymeX geliştiricilerinin değil.  
 >  
-> **Bu uygulamayı kullanarak [Hizmet Şartlarımızı](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) kabul etmiş olursunuz.**
+> **AnymeX'i kullanarak [Hizmet Şartlarımızı](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) kabul etmiş olursunuz. DMCA uyumlu takip işlevselliğimizi ve AniList, MyAnimeList, Simkl dışındaki içerik veya hizmetlerle ilgilenmediğimizi anlamak için Hizmet Şartlarını inceleyin.**
 
 ## İndir
 
@@ -158,6 +158,6 @@ AnymeX MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [buraya]
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

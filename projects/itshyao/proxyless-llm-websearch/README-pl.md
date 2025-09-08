@@ -27,38 +27,39 @@
     </div>
   </details>
 </div>
-# 🧠 Proxyless LLM Web Search Engine
 
-Narzędzie do wyszukiwania LLM w wielu wyszukiwarkach bez potrzeby użycia proxy, obsługujące analizę zawartości URL i skanowanie stron internetowych, wykorzystujące **LangGraph** oraz **LangGraph-MCP** do realizacji modułowych łańcuchów agentów. Zaprojektowane do pozyskiwania zewnętrznej wiedzy przez duże modele językowe, obsługuje pobieranie i analizę stron za pomocą **Playwright + Crawl4AI**, wspiera asynchroniczność, dzielenie treści i filtrowanie z przestawianiem kolejności.
+# 🧠 Bezproxyowy silnik wyszukiwania internetowego LLM
+
+Wielosilnikowe narzędzie LLM do wyszukiwania w Internecie bez potrzeby korzystania z proxy, obsługujące analizę zawartości URL i pobieranie stron internetowych, łączące **LangGraph** oraz **LangGraph-MCP** w celu realizacji modularnych łańcuchów agentów. Zaprojektowane specjalnie do wykorzystania zewnętrznej wiedzy przez duże modele językowe, obsługuje pobieranie i analizę stron przez **Playwright + Crawl4AI**, wspiera asynchroniczność, równoległość, dzielenie treści i filtrowanie oraz re-ranking.
 
 ## 🚀 Dziennik zmian
 
-- 🔥 2025-09-05: Obsługa **langgraph-mcp**
-- 🔥 2025-09-03: Dodano wdrożenie Docker, wbudowany inteligentny przestawiacz, obsługa niestandardowego dzielnika tekstu i przestawiacza
+- 🔥 2025-09-05: Wsparcie dla **langgraph-mcp**
+- 🔥 2025-09-03: Nowe wdrożenie Docker, wbudowany inteligentny re-ranker, wsparcie dla niestandardowych segmentatorów i re-rankerów tekstu
 
 ## ✨ Przegląd funkcji
 
-- 🌐 **Brak konieczności użycia proxy**: Dzięki konfiguracji Playwright dla przeglądarek krajowych, możliwe jest wyszukiwanie w sieci bez potrzeby stosowania proxy.
-- 🔍 **Wsparcie dla wielu wyszukiwarek**: Obsługuje główne wyszukiwarki, takie jak Bing, Quark, Baidu, Sogou, zwiększając różnorodność źródeł informacji.
-- 🤖 **Rozpoznawanie intencji**: System automatycznie określa, czy użytkownik chce wykonać wyszukiwanie w sieci, czy też analizować adres URL na podstawie wprowadzonej treści.
-- 🔄 **Rozbijanie zapytań**: Na podstawie intencji wyszukiwania użytkownika, zapytanie jest automatycznie dzielone na kilka podzadań, które są wykonywane kolejno, co zwiększa trafność i efektywność wyszukiwania.
-- ⚙️ **Architektura agentów**: Bazuje na **LangGraph**, integrując **„web_search”** oraz **„link_parser”**.
-- 🏃‍♂️ **Asynchroniczne i równoległe przetwarzanie zadań**: Obsługuje asynchroniczne przetwarzanie wielu zadań jednocześnie, umożliwiając efektywną realizację wielu wyszukiwań.
+- 🌐 **Brak potrzeby proxy**: Dzięki konfiguracji Playwright dla przeglądarek krajowych, możliwe jest wyszukiwanie w sieci bez użycia proxy.
+- 🔍 **Wsparcie wielu wyszukiwarek**: Obsługuje główne wyszukiwarki, takie jak Bing, Quark, Baidu, Sogou, zwiększając różnorodność źródeł informacji.
+- 🤖 **Rozpoznawanie intencji**: System automatycznie rozpoznaje, czy użytkownik chce wyszukać w internecie, czy przeanalizować URL, na podstawie treści wejściowej.
+- 🔄 **Rozbijanie zapytań**: Na podstawie intencji użytkownika, zapytania są automatycznie dzielone na podzadania i wykonywane kolejno, zwiększając trafność i efektywność wyszukiwania.
+- ⚙️ **Architektura agentowa**: Bazuje na **LangGraph**, obejmuje **"web_search"** oraz **"link_parser"**.
+- 🏃‍♂️ **Asynchroniczna i równoległa obsługa zadań**: Obsługuje asynchroniczne i równoległe przetwarzanie zadań, umożliwiając wydajną obsługę wielu wyszukiwań.
 - 📝 **Optymalizacja przetwarzania treści**:
 
-  - ✂️ **Dzielenie treści**: Długie treści stron dzielone są na fragmenty.
+  - ✂️ **Dzielenie treści**: Długie treści na stronach internetowych dzielone są na fragmenty.
 
-  - 🔄 **Przestawianie treści**: Inteligentne przeorganizowanie, podnosi trafność informacji.
+  - 🔄 **Przestawianie treści**: Inteligentna reorganizacja, zwiększająca trafność informacji.
 
-  - 🚫 **Filtrowanie treści**: Automatyczne usuwanie nieistotnych lub powtarzających się fragmentów.
+  - 🚫 **Filtrowanie treści**: Automatyczne usuwanie nieistotnych lub powtarzających się informacji.
 - 🌐 **Wsparcie dla wielu platform**:
-  - 🐳 **Wsparcie dla wdrożenia w Dockerze**: Jedno kliknięcie, szybkie uruchomienie serwisu backendowego.
+  - 🐳 **Wsparcie dla wdrożenia w Dockerze**: Uruchomienie jednym kliknięciem, szybkie budowanie usług backendowych.
 
-  - 🖥️ Dostarcza backendowy interfejs FastAPI, możliwy do integracji z dowolnym systemem.
+  - 🖥️ Dostępne API FastAPI dla backendu, możliwa integracja z dowolnym systemem.
 
-  - 🌍 Dostarcza Gradio Web UI, umożliwiający szybkie wdrożenie jako aplikacja wizualna.
+  - 🌍 Dostępny Gradio Web UI, umożliwiający szybkie wdrożenie aplikacji wizualnej.
 
-  - 🧩[ **Wsparcie dla rozszerzeń przeglądarki**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Obsługuje Edge, oferuje inteligentną wtyczkę do analizy URL, umożliwiającą bezpośrednie żądania analizy stron i ekstrakcji treści w przeglądarce.
+  - 🧩[ **Wsparcie dla wtyczek przeglądarkowych**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Wsparcie dla Edge, inteligentny plugin do analizy URL, pozwalający na bezpośrednie wysyłanie zapytań o analizę i ekstrakcję treści w przeglądarce.
 
 
 ![workflow](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/workflow.png)
@@ -251,34 +252,35 @@ class YourReranker:
         return ["your chunk"], ["chunk index"]
 ```
 
-## 🔍 Porównanie z testami wyszukiwania online
+## 🔍 Porównanie z testem wyszukiwania online
 
-Porównaliśmy projekt z kilkoma głównymi API online, oceniając ich wydajność w przypadku złożonych pytań.
+Porównaliśmy nasz projekt z kilkoma popularnymi API online, aby ocenić jego wydajność przy złożonych problemach.
 
 ### 🔥 Zbiór danych
 
-- Zbiór danych pochodzi z wydanego przez Alibaba [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA), zawiera 680 trudnych pytań obejmujących edukację, konferencje naukowe, gry i inne dziedziny.
-- Zbiór danych obejmuje pytania w języku chińskim i angielskim.
+- Zbiór danych pochodzi z publikacji Ali [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA), zawiera 680 trudnych pytań, obejmujących edukację, konferencje naukowe, gry i inne dziedziny.
+- Zbiór danych zawiera pytania w języku chińskim i angielskim.
 
 ### 🧑‍🏫 Wyniki porównania
 
-| Wyszukiwarka/system | ✅ Poprawne | ❌ Niepoprawne | ⚠️ Częściowo poprawne |
-| ------------------- | ---------- | ------------- | -------------------- |
-| **Volcano Ark**     | 5,00%      | 72,21%        | 22,79%               |
-| **Bailian**         | 9,85%      | 62,79%        | 27,35%               |
-| **Our**             | 19,85%     | 47,94%        | 32,06%               |
+| Wyszukiwarka/System | ✅ Poprawne | ❌ Niepoprawne | ⚠️ Częściowo poprawne |
+| ------------------- | ---------- | ------------- | --------------------- |
+| **Volcano Ark**     | 5,00%      | 72,21%        | 22,79%                |
+| **Bailian**         | 9,85%      | 62,79%        | 27,35%                |
+| **Our**             | 19,85%     | 47,94%        | 32,06%                |
 ## 🙏 Podziękowania
 
-Część funkcji projektu została opracowana dzięki wsparciu i inspiracji następujących projektów open-source, za co serdecznie dziękujemy:
+Część funkcji tego projektu została zainspirowana i wsparta przez następujące projekty open-source, za co serdecznie dziękujemy:
 
-- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph): używany do budowy modularnych ram agentów, umożliwia szybkie tworzenie złożonych systemów agentowych.
-- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): potężne narzędzie do analizy zawartości stron, wspiera wydajne pobieranie stron i ekstrakcję danych.
-- 🌐 [Playwright](https://github.com/microsoft/playwright): nowoczesne narzędzie do automatyzacji przeglądarek, wspiera wieloprzeglądarkowe pobieranie stron i automatyzację testów.
-- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters): służy do budowy MCP dla obsługi wielu łańcuchów.
+- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph): służy do budowy modułowych frameworków agentów, umożliwiając szybkie tworzenie złożonych systemów agentowych.
+- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): zaawansowane narzędzie do analizy treści stron internetowych, wspierające efektywne pobieranie i ekstrakcję danych.
+- 🌐 [Playwright](https://github.com/microsoft/playwright): nowoczesne narzędzie do automatyzacji przeglądarek, umożliwiające cross-browser web scraping i automatyzację testów.
+- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters): służy do budowania obsługi MCP dla wielu łańcuchów.
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

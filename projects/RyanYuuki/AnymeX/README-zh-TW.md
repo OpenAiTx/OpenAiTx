@@ -49,18 +49,18 @@
 
 # AnymeX：多服務追蹤客戶端
 
-**AnymeX** 是一款專為管理與追蹤動畫及漫畫進度而設計的多服務追蹤客戶端，支援 [**AniList**](https://anilist.co/)、[**MyAnimeList**](https://myanimelist.net/) 和 [**Simkl**](https://simkl.com/)。
+**AnymeX** 是一款專為管理和追蹤動畫及漫畫進度而設計的多服務追蹤客戶端，支援 [**AniList**](https://anilist.co/)、[**MyAnimeList**](https://myanimelist.net/) 及 [**Simkl**](https://simkl.com/)。
 
-> [!重要]  
-> **AnymeX 僅為追蹤工具。** 本應用程式不提供、託管、分發或支持任何串流內容、媒體或第三方擴充套件。  
+> [!IMPORTANT]  
+> **AnymeX 僅為追蹤工具。** 本軟體不會託管、提供、分發或支持任何串流內容、媒體或第三方擴充套件。  
 >  
-> **使用者責任：** 用戶需自行負責如何使用本應用及其選擇互動的任何第三方服務或擴充套件。用戶必須遵守所有適用法律、版權及智慧財產權。  
+> **使用者責任：** 使用者需自行負責如何使用本應用程式，以及他們選擇與之互動的任何第三方服務或擴充套件。使用者必須遵守所有適用法律、版權及智慧財產權。  
 >  
-> **免責聲明：** AnymeX 開發者對任何誤用、法律問題或違規行為不承擔責任。如有法律疑慮，請聯繫相關第三方服務而非 AnymeX。本應用以「現狀」提供，無任何保證。  
+> **免責聲明：** AnymeX 開發者對於任何誤用、法律問題或因使用者行為而產生的違規行為概不負責。法律相關問題（包括 DMCA 申訴）應直接聯繫相應的第三方服務，而非 AnymeX。此應用程式以「現狀」提供，並不附帶任何保證。  
 >  
-> **服務說明：** AnymeX 僅整合受支援服務（AniList、MyAnimeList、Simkl）之官方 API。第三方擴充套件由其創作者負責，與 AnymeX 開發者無關。  
+> **服務：** AnymeX 僅與支援服務（AniList、MyAnimeList、Simkl）之官方 API 整合。第三方擴充套件由其創作者負責，與 AnymeX 開發者無關。  
 >  
-> **使用本應用即表示您同意遵守我們的[服務條款](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md)。**
+> **使用 AnymeX 即表示您同意遵守我們的 [服務條款](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md)。請查閱服務條款，以了解我們符合法律規範、僅限追蹤功能，以及我們對 AniList、MyAnimeList、Simkl 以外內容或服務的不涉入。**
 
 ## 下載
 
@@ -158,6 +158,6 @@ AnymeX 採用 MIT 授權條款。更多資訊請參閱[這裡](https://raw.githu
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

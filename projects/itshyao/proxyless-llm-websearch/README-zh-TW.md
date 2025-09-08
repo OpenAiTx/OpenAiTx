@@ -27,14 +27,15 @@
     </div>
   </details>
 </div>
+
 # 🧠 無需代理的LLM網路搜尋引擎
 
-一個無需代理的多搜尋引擎LLM網路檢索工具，支援URL內容解析及網頁爬取，結合 **LangGraph** 與 **LangGraph-MCP** 實現模組化智能體鏈路。專為大型語言模型外部知識調用場景設計，支援 **Playwright + Crawl4AI** 網頁獲取與解析，支援非同步並發、內容切片及重排過濾。
+一個無需代理的多搜尋引擎 LLM 網路檢索工具，支援 URL 內容解析與網頁爬取，結合 **LangGraph**與**LangGraph-MCP** 實現模組化智能代理鏈路。專為大型語言模型外部知識調用場景而設計，支援 **Playwright + Crawl4AI** 網頁獲取與解析，支援非同步並發、內容切片與重排過濾。
 
 ## 🚀 更新日誌
 
-- 🔥 2025-09-05：支援 **langgraph-mcp**
-- 🔥 2025-09-03：新增 Docker 部署、內建智能重排器、支援自訂文本切分器與重排器
+- 🔥 2025-09-05：支援**langgraph-mcp**
+- 🔥 2025-09-03：新增 Docker 部署、內建智能重排器、支援自訂文字分割器與重排器
 
 ## ✨ 特性一覽
 
@@ -46,19 +47,19 @@
 - 🏃‍♂️ **非同步並發任務處理**：支援非同步並發任務處理，可高效處理多個搜尋任務。
 - 📝 **內容處理優化**：
 
-  - ✂️ **內容切片**：將網頁長內容依段切分。
+  - ✂️ **內容切片**：將網頁長內容按段切分。
 
-  - 🔄 **內容重排**：智能重排序，提高資訊相關性。
+  - 🔄 **內容重排**：智能重新排序，提高資訊相關性。
 
   - 🚫 **內容過濾**：自動剔除無關或重複內容。
 - 🌐 **多端支援**：
-  - 🐳 **支援 Docker 部署**：一鍵啟動，快速建置後端服務。
+  - 🐳 **支援 Docker 部署**：一鍵啟動，快速建構後端服務。
 
-  - 🖥️ 提供 FastAPI 後端介面，可整合至任意系統中。
+  - 🖥️ 提供 FastAPI 後端介面，可整合到任意系統中。
 
-  - 🌍 提供 Gradio Web UI，可快速部署成視覺化應用。
+  - 🌍 提供 Gradio Web UI，可快速部署成可視化應用。
 
-  - 🧩[ **瀏覽器插件支援**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension)：支援 Edge，提供智能 URL 解析插件，直接於瀏覽器中發起網頁解析與內容擷取請求。
+  - 🧩[ **瀏覽器插件支援**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension)：支援 Edge，提供智能 URL 解析插件，直接在瀏覽器中發起網頁解析與內容提取請求。
 
 
 ![workflow](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/workflow.png)
@@ -250,9 +251,10 @@ class YourReranker:
     ]:
         return ["your chunk"], ["chunk index"]
 ```
+
 ## 🔍 與線上網路檢索測試對比
 
-我們將項目與一些主流的線上 API 進行對比，評估其在複雜問題下的表現。
+我們將本項目與一些主流的線上 API 進行對比，評估其在複雜問題下的表現。
 
 ### 🔥 數據集
 
@@ -261,24 +263,24 @@ class YourReranker:
 
 ### 🧑‍🏫 對比結果
 
-| 搜尋引擎/系統  | ✅ 正確 | ❌ 錯誤 | ⚠️ 部分正確 |
-| -------------- | --------- | ----------- | ------------------- |
-| **火山方舟**   | 5.00%     | 72.21%      | 22.79%              |
-| **百鍊**       | 9.85%     | 62.79%      | 27.35%              |
-| **Our** | 19.85%    | 47.94%      | 32.06%              |
+| 搜尋引擎/系統  | ✅ 正確    | ❌ 錯誤      | ⚠️ 部分正確           |
+| -------------- | ----------| ------------| ---------------------|
+| **火山方舟**   | 5.00%     | 72.21%      | 22.79%               |
+| **百煉**       | 9.85%     | 62.79%      | 27.35%               |
+| **Our**        | 19.85%    | 47.94%      | 32.06%               |
 ## 🙏 致謝
 
 本項目部分功能得益於以下開源項目的支持與啟發，特此致謝：
 
-- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph)：用於構建模組化智能體鏈路框架，幫助快速搭建複雜的智能體系統。
+- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph)：用於構建模組化智能體鏈路框架，協助快速搭建複雜的智能體系統。
 - 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai)：強大的網頁內容解析工具，助力高效網頁抓取與數據提取。
-- 🌐 [Playwright](https://github.com/microsoft/playwright)：現代瀏覽器自動化工具，支持跨瀏覽器的網頁抓取和測試自動化。
-- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters)：用於多鏈處理 MCP 的構建。
+- 🌐 [Playwright](https://github.com/microsoft/playwright)：現代瀏覽器自動化工具，支援跨瀏覽器的網頁抓取和測試自動化。
+- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters)：用於多鏈處理MCP的構建。
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

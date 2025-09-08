@@ -27,38 +27,39 @@
     </div>
   </details>
 </div>
-# 🧠 Proxy Gerektirmeyen LLM Web Arama Motoru
 
-Proxy gerektirmeyen çoklu arama motoru destekli bir LLM ağ bilgi alma aracı; URL içeriği çözümleme ve web sayfası tarama desteğiyle, **LangGraph** ve **LangGraph-MCP** sayesinde modüler akıllı ajan zinciri oluşturur. Büyük dil modellerinin harici bilgi çağırma senaryoları için özel olarak tasarlanmıştır, **Playwright + Crawl4AI** ile web sayfası alma ve çözümleme, eşzamanlı asenkron çalışma, içerik dilimleme ve yeniden sıralama filtreleme destekler.
+# 🧠 Proxy Olmadan LLM Web Arama Motoru
+
+Proxy gerektirmeyen çoklu arama motoru destekli bir LLM web bilgi erişim aracı; URL içerik analizi ve web sayfası taraması ile birlikte **LangGraph** ve **LangGraph-MCP** entegrasyonu sayesinde modüler akıllı ajan zinciri oluşturur. Büyük dil modellerinin harici bilgiye erişim senaryoları için özel olarak tasarlanmıştır; **Playwright + Crawl4AI** ile web alma ve analiz, asenkron eşzamanlılık, içerik dilimleme ve yeniden sıralama filtreleme desteği sunar.
 
 ## 🚀 Güncelleme Günlüğü
 
 - 🔥 2025-09-05: **langgraph-mcp** desteği eklendi
-- 🔥 2025-09-03: Docker ile dağıtım, yerleşik akıllı yeniden sıralayıcı, özelleştirilebilir metin bölücü ve yeniden sıralayıcı desteği eklendi
+- 🔥 2025-09-03: Docker ile dağıtım, dahili akıllı yeniden sıralama aracı, özel metin bölme ve sıralama desteği eklendi
 
 ## ✨ Özellikler Genel Bakış
 
-- 🌐 **Proxy gerektirmez**: Playwright ile yurtiçi tarayıcı desteği sayesinde, proxy olmadan da internet araması yapılabilir.
-- 🔍 **Çoklu arama motoru desteği**: Bing, Quark, Baidu, Sogou gibi başlıca arama motorlarını destekler, bilgi kaynaklarının çeşitliliğini artırır.
-- 🤖 **Niyet tanıma**: Sistem, kullanıcının girdiği içeriğe göre otomatik olarak web araması mı yoksa URL çözümleme mi yapılacağını belirler.
-- 🔄 **Sorgu ayrıştırma**: Kullanıcının arama niyetine göre sorguyu otomatik olarak birden fazla alt göreve böler ve sırasıyla uygular, böylece aramanın alaka düzeyi ve verimliliği artar.
-- ⚙️ **Akıllı mimari**: **LangGraph** tabanlı **"web_search"** ve **"link_parser"** ile kapsüllenen mimari.
-- 🏃‍♂️ **Asenkron ve eşzamanlı görev işleme**: Asenkron ve eşzamanlı görev işleme desteği ile birden fazla arama görevi verimli şekilde yönetilir.
-- 📝 **İçerik işleme optimizasyonu**:
+- 🌐 **Proxy Gerektirmez**: Playwright ile yapılandırılmış yerli tarayıcı desteği sayesinde, proxy olmadan da web araması yapılabilir.
+- 🔍 **Çoklu Arama Motoru Desteği**: Bing, Quark, Baidu, Sogou gibi popüler arama motorlarını destekleyerek bilgi kaynaklarının çeşitliliğini artırır.
+- 🤖 **Niyet Tanıma**: Sistem, kullanıcının girdiği içeriğe göre otomatik olarak web araması mı yoksa URL çözümlemesi mi yapılacağını belirler.
+- 🔄 **Sorgu Parçalama**: Kullanıcının arama niyetine göre sorguyu otomatik olarak birden fazla alt göreve böler ve sırayla uygular; böylece arama alaka düzeyi ve verimliliği artar.
+- ⚙️ **Akıllı Sistem Mimari**: **LangGraph** tabanlı **"web_search"** ve **"link_parser"** ile paketlenmiştir.
+- 🏃‍♂️ **Asenkron Eşzamanlı Görev İşleme**: Asenkron ve eşzamanlı görev işleme desteğiyle birden fazla arama görevi verimli şekilde yürütülür.
+- 📝 **İçerik İşleme Optimizasyonu**:
 
-  - ✂️ **İçerik dilimleme**: Web sayfasındaki uzun içerikler parçalara bölünür.
+  - ✂️ **İçerik Dilimleme**: Web sayfasındaki uzun içerikler parçalara ayrılır.
 
-  - 🔄 **İçerik yeniden sıralama**: Akıllı sıralama ile bilgi alaka düzeyi artırılır.
+  - 🔄 **İçerik Yeniden Sıralama**: Akıllı şekilde yeniden sıralayarak bilgi alaka düzeyini artırır.
 
-  - 🚫 **İçerik filtreleme**: Alakasız veya yinelenen içerik otomatik olarak çıkarılır.
-- 🌐 **Çoklu platform desteği**:
-  - 🐳 **Docker ile dağıtım desteği**: Tek tuşla başlatma, hızlı arka uç servis kurulumu.
+  - 🚫 **İçerik Filtreleme**: Alakasız veya yinelenen içerikler otomatik olarak çıkarılır.
+- 🌐 **Çoklu Platform Desteği**:
+  - 🐳 **Docker Desteği**: Tek tıkla başlatma, hızlı arka uç servis kurulumu.
 
-  - 🖥️ FastAPI arka uç arayüzü ile herhangi bir sisteme entegre edilebilir.
+  - 🖥️ FastAPI arka uç arayüzü sunar, herhangi bir sisteme entegre edilebilir.
 
-  - 🌍 Gradio Web UI desteğiyle hızlıca görsel uygulama haline getirilebilir.
+  - 🌍 Gradio Web UI ile hızlıca görsel uygulama olarak konuşlandırılabilir.
 
-  - 🧩[ **Tarayıcı eklentisi desteği**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Edge desteği ile akıllı URL çözümleme eklentisi, doğrudan tarayıcıda web sayfası çözümleme ve içerik çıkarımı isteği başlatılır.
+  - 🧩[ **Tarayıcı Eklentisi Desteği**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Edge desteği, akıllı URL çözümleme eklentisiyle tarayıcıda doğrudan web sayfası çözümleme ve içerik çekme isteği gönderebilme.
 
 
 ![workflow](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/workflow.png)
@@ -67,7 +68,7 @@ Proxy gerektirmeyen çoklu arama motoru destekli bir LLM ağ bilgi alma aracı; 
 
 ## ⚡ Hızlı Başlangıç
 
-### Depoyu Klonlayın
+### Depoyu Klonlama
 
 ```bash
 git clone https://github.com/itshyao/proxyless-llm-websearch.git
@@ -178,7 +179,7 @@ python mcp/websearch.py
 python mcp/demo.py
 ```
 
-#### API SUNUCU
+#### API SUNUCUSU
 
 ```
 python mcp/api_serve.py
@@ -253,32 +254,33 @@ class YourReranker:
 
 ## 🔍 Çevrimiçi Ağ Arama Testi ile Karşılaştırma
 
-Projeyi bazı popüler çevrimiçi API'lerle karşılaştırarak, karmaşık sorunlar karşısındaki performansını değerlendirdik.
+Projeyi bazı popüler çevrimiçi API'lerle karşılaştırarak, karmaşık sorulardaki performansını değerlendirdik.
 
 ### 🔥 Veri Seti
 
-- Veri seti, Ali tarafından yayımlanan [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA) kaynağından alınmıştır; eğitim, akademik konferanslar, oyun gibi birçok alanı kapsayan 680 zorlu sorudan oluşmaktadır.
-- Veri seti hem Çince hem de İngilizce soruları içermektedir.
+- Veri seti, Alibaba'nın yayınladığı [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA) kaynaklıdır; eğitim, akademik konferanslar, oyun gibi birçok alanı kapsayan 680 zorlu soru içerir.
+- Veri seti hem Çince hem de İngilizce soruları içerir.
 
 ### 🧑‍🏫 Karşılaştırma Sonuçları
 
 | Arama Motoru/Sistem | ✅ Doğru   | ❌ Yanlış   | ⚠️ Kısmen Doğru        |
-| ------------------- | ----------| -----------| ---------------------- |
-| **Volcano Ark**     | %5.00     | %72.21     | %22.79                 |
-| **Bailian**         | %9.85     | %62.79     | %27.35                 |
-| **Bizim**           | %19.85    | %47.94     | %32.06                 |
-## 🙏 Teşekkür
+| ------------------- | --------- | ---------- | ---------------------- |
+| **Volcano Ark**     | 5.00%     | 72.21%     | 22.79%                 |
+| **Bailian**         | 9.85%     | 62.79%     | 27.35%                 |
+| **Bizim**           | 19.85%    | 47.94%     | 32.06%                 |
+## 🙏 Teşekkürler
 
-Projenin bazı işlevleri aşağıdaki açık kaynak projelerinin desteği ve ilhamı sayesinde geliştirilmiştir, teşekkürlerimizi sunarız:
+Bu projenin bazı işlevleri aşağıdaki açık kaynak projelerin desteği ve ilhamı sayesinde mümkün olmuştur, teşekkür ederiz:
 
-- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph): Modüler akıllı ajan zinciri çerçevesi oluşturmak için kullanılır; karmaşık ajan sistemlerinin hızlı kurulmasına yardımcı olur.
-- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): Güçlü web içerik analiz aracı, verimli web kazıma ve veri çıkarımına olanak sağlar.
-- 🌐 [Playwright](https://github.com/microsoft/playwright): Modern tarayıcı otomasyon aracı; tarayıcılar arası web kazıma ve otomatik test desteği sunar.
-- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters): Çoklu zincir işlem MCP yapısı için kullanılır.
+- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph): Modüler akıllı ajan zinciri çerçevesi oluşturmak için kullanılır, karmaşık ajan sistemlerinin hızlı kurulmasına yardımcı olur.
+- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): Güçlü web içerik analiz aracı, verimli web kazıma ve veri çıkarımı sağlar.
+- 🌐 [Playwright](https://github.com/microsoft/playwright): Modern tarayıcı otomasyon aracı, tarayıcılar arası web kazıma ve test otomasyonunu destekler.
+- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters): Çoklu zincir MCP işlemlerinin oluşturulmasında kullanılır.
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

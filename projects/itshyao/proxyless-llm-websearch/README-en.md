@@ -27,38 +27,39 @@
     </div>
   </details>
 </div>
+
 # 🧠 Proxyless LLM Web Search Engine
 
-A multi-search engine LLM network retrieval tool that requires no proxy, supports URL content parsing and web crawling, and implements modular agent chaining via **LangGraph** and **LangGraph-MCP**. Designed for external knowledge retrieval scenarios for large language models, it supports **Playwright + Crawl4AI** for web content acquisition and parsing, featuring asynchronous concurrency, content chunking, and reordering/filtering.
+A proxyless multi-search-engine LLM web retrieval tool supporting URL content parsing and web crawling, integrating **LangGraph** and **LangGraph-MCP** for modular agent chaining. Specifically designed for external knowledge invocation scenarios for large language models, supporting **Playwright + Crawl4AI** for web fetching and parsing, as well as asynchronous concurrency, content chunking and re-ranking/filtering.
 
-## 🚀 Change Log
+## 🚀 Changelog
 
-- 🔥 2025-09-05: Added support for **langgraph-mcp**
+- 🔥 2025-09-05: Support for **langgraph-mcp**
 - 🔥 2025-09-03: Added Docker deployment, built-in intelligent re-ranker, support for custom text chunkers and re-rankers
 
 ## ✨ Feature Overview
 
-- 🌐 **No Proxy Required**: Supports domestic browsers via Playwright configuration, allowing web searches without the need for a proxy.
+- 🌐 **No Proxy Needed**: Configure domestic browser support via Playwright, allowing web searches without a proxy.
 - 🔍 **Multi-Search Engine Support**: Supports mainstream search engines such as Bing, Quark, Baidu, Sogou, enhancing diversity of information sources.
-- 🤖 **Intent Recognition**: The system can automatically determine whether to perform a web search or parse a URL based on user input.
-- 🔄 **Query Decomposition**: Automatically decomposes queries into multiple subtasks according to the user's search intent and executes them sequentially, improving relevance and efficiency.
-- ⚙️ **Agent Architecture**: Encapsulated **"web_search"** and **"link_parser"** based on **LangGraph**.
-- 🏃‍♂️ **Asynchronous Concurrent Task Processing**: Supports asynchronous concurrent task processing, efficiently handling multiple search tasks.
+- 🤖 **Intent Recognition**: The system automatically determines whether to perform a web search or parse a URL based on user input.
+- 🔄 **Query Decomposition**: Automatically breaks down queries into multiple subtasks according to search intent and executes them sequentially, improving relevance and efficiency.
+- ⚙️ **Agent Architecture**: Encapsulates **"web_search"** and **"link_parser"** based on **LangGraph**.
+- 🏃‍♂️ **Asynchronous Concurrent Task Processing**: Supports asynchronous concurrent task handling for efficient processing of multiple search tasks.
 - 📝 **Content Processing Optimization**:
 
-  - ✂️ **Content Slicing**: Splits lengthy webpage content into segments.
+  - ✂️ **Content Slicing**: Splits long webpage content into segments.
 
-  - 🔄 **Content Reordering**: Intelligently reorders content to improve information relevance.
+  - 🔄 **Content Reordering**: Intelligently reorders to enhance information relevance.
 
   - 🚫 **Content Filtering**: Automatically removes irrelevant or duplicate content.
 - 🌐 **Multi-platform Support**:
-  - 🐳 **Supports Docker Deployment**: One-click start, quickly builds backend services.
+  - 🐳 **Docker Deployment Support**: One-click startup for fast backend service construction.
 
-  - 🖥️ Provides FastAPI backend interface, integrable into any system.
+  - 🖥️ Provides FastAPI backend interface, which can be integrated into any system.
 
-  - 🌍 Provides Gradio Web UI, allowing rapid deployment as a visual application.
+  - 🌍 Offers Gradio Web UI for rapid deployment as a visual application.
 
-  - 🧩[ **Browser Extension Support**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Supports Edge, offering intelligent URL parsing plugin, enabling webpage parsing and content extraction requests directly in the browser.
+  - 🧩[ **Browser Extension Support**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Supports Edge, providing an intelligent URL parsing extension for initiating webpage parsing and content extraction requests directly in the browser.
 
 
 ![workflow](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/workflow.png)
@@ -67,7 +68,7 @@ A multi-search engine LLM network retrieval tool that requires no proxy, support
 
 ## ⚡ Quick Start
 
-### Clone the Repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/itshyao/proxyless-llm-websearch.git
@@ -253,32 +254,33 @@ class YourReranker:
 
 ## 🔍 Comparison with Online Web Search Tests
 
-We compared the project with several mainstream online APIs to evaluate their performance on complex questions.
+We compared the project with several mainstream online APIs to evaluate their performance on complex problems.
 
 ### 🔥 Dataset
 
-- The dataset comes from Alibaba's [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA), containing 680 high-difficulty questions covering fields such as education, academic conferences, games, and more.
+- The dataset comes from Ali's [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA), containing 680 high-difficulty questions covering education, academic conferences, games, and various other fields.
 - The dataset includes both Chinese and English questions.
 
 ### 🧑‍🏫 Comparison Results
 
 | Search Engine/System | ✅ Correct | ❌ Incorrect | ⚠️ Partially Correct |
-| ------------------- | ----------| ------------| --------------------|
-| **Volcano Ark**     | 5.00%     | 72.21%      | 22.79%              |
-| **Bailian**         | 9.85%     | 62.79%      | 27.35%              |
-| **Our**             | 19.85%    | 47.94%      | 32.06%              |
+| -------------------- | --------- | ----------- | ------------------- |
+| **Volcano Ark**      | 5.00%     | 72.21%      | 22.79%              |
+| **Bailian**          | 9.85%     | 62.79%      | 27.35%              |
+| **Our**              | 19.85%    | 47.94%      | 32.06%              |
 ## 🙏 Acknowledgements
 
-Some features of this project are supported and inspired by the following open-source projects, to which we express our gratitude:
+Some features of this project benefited from the support and inspiration of the following open-source projects. Special thanks to:
 
 - 🧠 [LangGraph](https://github.com/langchain-ai/langgraph): Used for building modular agent link frameworks, helping to quickly set up complex agent systems.
-- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): Powerful web content parsing tool, enabling efficient web scraping and data extraction.
-- 🌐 [Playwright](https://github.com/microsoft/playwright): Modern browser automation tool, supporting cross-browser web scraping and automated testing.
-- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters): Used for multi-chain MCP processing construction.
+- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): Powerful web content parsing tool for efficient web scraping and data extraction.
+- 🌐 [Playwright](https://github.com/microsoft/playwright): Modern browser automation tool supporting cross-browser web scraping and test automation.
+- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters): Used for building multi-chain MCP processing.
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

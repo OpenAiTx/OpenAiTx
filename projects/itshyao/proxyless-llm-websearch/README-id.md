@@ -27,38 +27,39 @@
     </div>
   </details>
 </div>
+
 # 🧠 Mesin Pencari Web LLM Tanpa Proxy
 
-Sebuah alat pencarian web LLM multi-mesin pencari tanpa proxy, mendukung analisis konten URL dan crawling halaman web, menggabungkan **LangGraph** dan **LangGraph-MCP** untuk membentuk rantai agen modular. Dirancang khusus untuk skenario pemanggilan pengetahuan eksternal pada model bahasa besar, mendukung pengambilan dan analisis web dengan **Playwright + Crawl4AI**, mendukung asinkron, pemrosesan paralel, pemotongan konten, serta filter dan penyusunan ulang.
+Sebuah alat pencarian web LLM multi-mesin pencari tanpa proxy, mendukung parsing konten URL dan perayapan web, menggabungkan **LangGraph** dan **LangGraph-MCP** untuk membangun rantai agen modular. Dirancang khusus untuk skenario penggunaan penarikan pengetahuan eksternal oleh model bahasa besar, mendukung pengambilan dan parsing web dengan **Playwright + Crawl4AI**, mendukung asinkron, pemrosesan paralel, pemotongan konten, dan filtrasi serta penyusunan ulang.
 
 ## 🚀 Log Pembaruan
 
 - 🔥 2025-09-05: Mendukung **langgraph-mcp**
-- 🔥 2025-09-03: Penambahan deployment Docker, penyusun ulang cerdas bawaan, mendukung pemotong teks dan penyusun ulang khusus
+- 🔥 2025-09-03: Penambahan deploy Docker, re-ranker cerdas bawaan, mendukung pemisah teks dan re-ranker kustom
 
-## ✨ Fitur Utama
+## ✨ Daftar Fitur
 
-- 🌐 **Tanpa Proxy**: Melalui konfigurasi Playwright yang mendukung browser domestik, pencarian web dapat dilakukan tanpa proxy.
-- 🔍 **Dukungan Multi Mesin Pencari**: Mendukung Bing, Quark, Baidu, Sogou dan mesin pencari utama lainnya, meningkatkan keragaman sumber informasi.
-- 🤖 **Pengenalan Intent**: Sistem dapat secara otomatis menentukan apakah ingin melakukan pencarian web atau memparsing URL berdasarkan input pengguna.
+- 🌐 **Tanpa Proxy**: Dengan konfigurasi Playwright yang mendukung browser dalam negeri, pencarian internet dapat dilakukan tanpa perlu proxy.
+- 🔍 **Dukungan Multi Mesin Pencari**: Mendukung Bing, Quark, Baidu, Sogou, dan mesin pencari utama lainnya, meningkatkan keragaman sumber informasi.
+- 🤖 **Pengenalan Intent**: Sistem dapat secara otomatis menentukan apakah ingin melakukan pencarian web atau mem-parsing URL berdasarkan input pengguna.
 - 🔄 **Pemecahan Query**: Berdasarkan intent pencarian pengguna, query secara otomatis dipecah menjadi beberapa sub-tugas dan dieksekusi secara berurutan untuk meningkatkan relevansi dan efisiensi pencarian.
-- ⚙️ **Arsitektur Agen Pintar**: Berdasarkan **LangGraph** yang membungkus **"web_search"** dan **"link_parser"**.
-- 🏃‍♂️ **Penanganan Tugas Asinkron dan Paralel**: Mendukung penanganan tugas asinkron dan paralel, dapat mengelola banyak tugas pencarian secara efisien.
-- 📝 **Optimasi Pengolahan Konten**:
+- ⚙️ **Arsitektur Agen Cerdas**: Berdasarkan **LangGraph** yang membungkus **"web_search"** dan **"link_parser"**.
+- 🏃‍♂️ **Pemrosesan Tugas Asinkron dan Paralel**: Mendukung pemrosesan tugas secara asinkron dan paralel untuk menangani banyak pencarian dengan efisien.
+- 📝 **Optimasi Pemrosesan Konten**:
 
-  - ✂️ **Pemotongan Konten**: Memotong konten halaman web panjang menjadi beberapa bagian.
+  - ✂️ **Pemotongan Konten**: Konten panjang halaman web dipotong per bagian.
 
-  - 🔄 **Penyusunan Ulang Konten**: Menyusun ulang secara pintar untuk meningkatkan relevansi informasi.
+  - 🔄 **Penyusunan Ulang Konten**: Penyusunan ulang secara cerdas untuk meningkatkan relevansi informasi.
 
   - 🚫 **Penyaringan Konten**: Secara otomatis menghapus konten yang tidak relevan atau duplikat.
 - 🌐 **Dukungan Multi Platform**:
   - 🐳 **Dukungan Deploy Docker**: Satu klik untuk memulai, membangun layanan backend dengan cepat.
 
-  - 🖥️ Menyediakan API backend FastAPI, dapat diintegrasikan ke sistem manapun.
+  - 🖥️ Menyediakan API backend FastAPI, dapat diintegrasikan ke sistem apa pun.
 
-  - 🌍 Menyediakan Gradio Web UI, dapat dengan cepat dideploy menjadi aplikasi visual.
+  - 🌍 Menyediakan Gradio Web UI, dapat dengan cepat di-deploy sebagai aplikasi visual.
 
-  - 🧩[ **Dukungan Plugin Browser**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Mendukung Edge, menyediakan plugin parsing URL pintar, langsung melakukan parsing halaman dan ekstraksi konten di browser.
+  - 🧩[ **Dukungan Plugin Browser**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension): Mendukung Edge, menyediakan plugin parsing URL cerdas, langsung melakukan parsing halaman web dan permintaan ekstraksi konten di browser.
 
 
 ![workflow](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/workflow.png)
@@ -67,7 +68,7 @@ Sebuah alat pencarian web LLM multi-mesin pencari tanpa proxy, mendukung analisi
 
 ## ⚡ Mulai Cepat
 
-### Clone Repository
+### Kloning Repository
 
 ```bash
 git clone https://github.com/itshyao/proxyless-llm-websearch.git
@@ -251,34 +252,35 @@ class YourReranker:
         return ["your chunk"], ["chunk index"]
 ```
 
-## 🔍 Perbandingan dengan Pengujian Pencarian Online
+## 🔍 Perbandingan dengan Pengujian Pencarian Jaringan Online
 
-Kami membandingkan proyek ini dengan beberapa API daring utama, untuk mengevaluasi kinerjanya dalam menjawab pertanyaan kompleks.
+Kami membandingkan proyek ini dengan beberapa API daring utama untuk mengevaluasi performanya dalam menjawab pertanyaan kompleks.
 
 ### 🔥 Dataset
 
-- Dataset berasal dari [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA) yang dirilis oleh Alibaba, berisi 680 pertanyaan tingkat kesulitan tinggi, mencakup bidang pendidikan, konferensi akademik, gim, dan lainnya.
+- Dataset berasal dari [WebWalkerQA](https://huggingface.co/datasets/callanwu/WebWalkerQA) yang dirilis oleh Alibaba, berisi 680 pertanyaan tingkat kesulitan tinggi yang mencakup berbagai bidang seperti pendidikan, konferensi akademik, dan game.
 - Dataset mencakup pertanyaan dalam bahasa Mandarin dan Inggris.
 
 ### 🧑‍🏫 Hasil Perbandingan
 
 | Mesin Pencari/Sistem | ✅ Benar | ❌ Salah | ⚠️ Sebagian Benar |
-| -------------------- | ------- | ------- | ---------------- |
-| **Volcano Ark**      | 5,00%   | 72,21%  | 22,79%           |
-| **Bailian**          | 9,85%   | 62,79%  | 27,35%           |
-| **Our**              | 19,85%  | 47,94%  | 32,06%           |
+| -------------------- | -------- | -------- | ---------------- |
+| **Volcano Ark**      | 5.00%    | 72.21%   | 22.79%           |
+| **Bailian**          | 9.85%    | 62.79%   | 27.35%           |
+| **Our**              | 19.85%   | 47.94%   | 32.06%           |
 ## 🙏 Ucapan Terima Kasih
 
-Beberapa fitur pada proyek ini berkat dukungan dan inspirasi dari proyek open source berikut, dengan ini kami sampaikan terima kasih:
+Sebagian fungsi dari proyek ini didukung dan terinspirasi oleh proyek open source berikut, dengan ini kami mengucapkan terima kasih:
 
-- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph): Untuk membangun kerangka modular rantai agen cerdas, memudahkan pembuatan sistem agen kompleks dengan cepat.
-- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): Alat parsing konten web yang kuat, membantu pengambilan web dan ekstraksi data secara efisien.
-- 🌐 [Playwright](https://github.com/microsoft/playwright): Alat otomasi browser modern, mendukung pengambilan web lintas browser dan otomasi pengujian.
-- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters): Untuk membangun pemrosesan MCP multirantai.
+- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph): Digunakan untuk membangun kerangka kerja rantai agen modular, membantu membangun sistem agen kompleks secara cepat.
+- 🕷 [Crawl4AI](https://github.com/unclecode/crawl4ai): Alat parsing konten web yang kuat, mendukung pengambilan dan ekstraksi data web secara efisien.
+- 🌐 [Playwright](https://github.com/microsoft/playwright): Alat otomatisasi browser modern, mendukung pengambilan web dan otomatisasi pengujian lintas browser.
+- 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters): Digunakan untuk membangun penanganan MCP multi-chain.
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

@@ -27,6 +27,7 @@
     </div>
   </details>
 </div>
+
 # 🧠 无需代理的LLM网络搜索引擎
 
 一个无需代理的多搜索引擎 LLM 网络检索工具，支持 URL 内容解析和网页爬取，结合 **LangGraph**与**LangGraph-MCP** 实现模块化智能体链路。专为大语言模型的外部知识调用场景而设计，支持 **Playwright + Crawl4AI** 网页获取与解析，支持异步并发、内容切片与重排过滤。
@@ -39,10 +40,10 @@
 ## ✨ 特性一览
 
 - 🌐 **无需代理**：通过 Playwright 配置国内浏览器支持，无需代理即可进行网络搜索。
-- 🔍 **多搜索引擎支持**：支持 Bing、夸克、百度、搜狗等主流搜索引擎，增强信息来源多样性。
-- 🤖 **意图识别**：系统能够根据用户的输入内容，自动判断是进行网络搜索还是解析 URL。
-- 🔄 **查询分解**：根据用户的搜索意图，自动将查询分解为多个子任务，并依次执行，从而提升搜索的相关性与效率。
-- ⚙️ **智能体架构**：基于 **LangGraph** 封装的**「web_search」**与**「link_parser」**。
+- 🔍 **多搜索引擎支持**：支持 Bing、夸克、百度、搜狗等主流搜索引擎，增强信息来源的多样性。
+- 🤖 **意图识别**：系统能够根据用户输入内容，自动判断是进行网络搜索还是解析 URL。
+- 🔄 **查询分解**：根据用户搜索意图，自动将查询分解为多个子任务并依次执行，从而提升搜索相关性与效率。
+- ⚙️ **智能体架构**：基于 **LangGraph** 封装的**「web_search」**和**「link_parser」**。
 - 🏃‍♂️ **异步并发任务处理**：支持异步并发任务处理，可高效处理多个搜索任务。
 - 📝 **内容处理优化**：
 
@@ -56,9 +57,9 @@
 
   - 🖥️ 提供 FastAPI 后端接口，可集成到任意系统中。
 
-  - 🌍 提供 Gradio Web UI，可快速部署成可视化应用。
+  - 🌍 提供 Gradio Web UI，可快速部署为可视化应用。
 
-  - 🧩[ **浏览器插件支持**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension)：支持 Edge，提供智能 URL 解析插件，直接在浏览器中发起网页解析与内容提取请求。
+  - 🧩[ **浏览器插件支持**](https://github.com/itshyao/proxyless-llm-websearch/tree/main/extension)：支持 Edge，提供智能 URL 解析插件，可在浏览器中直接发起网页解析与内容提取请求。
 
 
 ![workflow](https://raw.githubusercontent.com/itshyao/proxyless-llm-websearch/main/img/workflow.png)
@@ -178,7 +179,7 @@ python mcp/websearch.py
 python mcp/demo.py
 ```
 
-#### API 服务
+#### API服务
 
 ```
 python mcp/api_serve.py
@@ -263,10 +264,10 @@ class YourReranker:
 ### 🧑‍🏫 对比结果
 
 | 搜索引擎/系统  | ✅ 正确 | ❌ 错误 | ⚠️ 部分正确 |
-| -------------- | ------- | ------- | ----------- |
-| **火山方舟**   | 5.00%   | 72.21%  | 22.79%      |
-| **百炼**       | 9.85%   | 62.79%  | 27.35%      |
-| **Our** | 19.85%  | 47.94%  | 32.06%      |
+| -------------- | --------- | ----------- | ------------------- |
+| **火山方舟**   | 5.00%     | 72.21%      | 22.79%              |
+| **百炼**       | 9.85%     | 62.79%      | 27.35%              |
+| **我们的** | 19.85%    | 47.94%      | 32.06%              |
 ## 🙏 致谢
 
 本项目部分功能得益于以下开源项目的支持与启发，特此致谢：
@@ -277,8 +278,9 @@ class YourReranker:
 - 🔌 [Langchain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters)：用于多链处理MCP的构建。
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

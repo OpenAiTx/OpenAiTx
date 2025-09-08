@@ -52,15 +52,15 @@
 **AnymeX** è un client di tracciamento multiservizio progettato esclusivamente per gestire e monitorare i progressi di anime e manga su [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) e [**Simkl**](https://simkl.com/).
 
 > [!IMPORTANTE]  
-> **AnymeX è solo uno strumento di tracciamento.** Non ospita, fornisce, distribuisce o approva alcun contenuto in streaming, media o estensioni di terze parti.  
+> **AnymeX è solo uno strumento di tracciamento.** Non ospita, fornisce, distribuisce né sostiene alcun contenuto in streaming, media o estensioni di terze parti.  
 >  
-> **Responsabilità dell'Utente:** Gli utenti sono unicamente responsabili dell'uso dell'app e dei servizi o estensioni di terze parti con cui scelgono di interagire. Gli utenti devono rispettare tutte le leggi applicabili, diritti d'autore e diritti di proprietà intellettuale.  
+> **Responsabilità dell’Utente:** Gli utenti sono esclusivamente responsabili dell’uso dell’app e di eventuali servizi o estensioni di terze parti con cui scelgono di interagire. Gli utenti devono rispettare tutte le leggi, i diritti d’autore e di proprietà intellettuale applicabili.  
 >  
-> **Nessuna Responsabilità:** Gli sviluppatori di AnymeX declinano ogni responsabilità per uso improprio, questioni legali o violazioni derivanti dalle azioni degli utenti. Eventuali questioni legali devono essere indirizzate ai rispettivi servizi di terze parti, non ad AnymeX. L'app è fornita "così com'è" senza garanzie.  
+> **Nessuna Responsabilità:** Gli sviluppatori di AnymeX declinano ogni responsabilità per uso improprio, questioni legali o violazioni derivanti dalle azioni degli utenti. Le questioni legali, incluse richieste DMCA, devono essere rivolte ai rispettivi servizi di terze parti, non ad AnymeX. L’app è fornita "così com’è" senza garanzie.  
 >  
-> **Servizi:** AnymeX si integra solo con le API ufficiali dei servizi supportati (AniList, MyAnimeList, Simkl). Le estensioni di terze parti sono responsabilità dei rispettivi creatori, non degli sviluppatori di AnymeX.  
+> **Servizi:** AnymeX integra solo le API ufficiali dei servizi supportati (AniList, MyAnimeList, Simkl). Le estensioni di terze parti sono responsabilità dei loro creatori, non degli sviluppatori di AnymeX.  
 >  
-> **Utilizzando questa app, accetti di rispettare i nostri [Termini di Servizio](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md).**
+> **Utilizzando AnymeX, accetti di rispettare i nostri [Termini di Servizio](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md). Consulta i ToS per comprendere la nostra conformità DMCA, la funzionalità di tracciamento e la nostra non responsabilità riguardo contenuti o servizi oltre AniList, MyAnimeList e Simkl.**
 
 ## Download
 
@@ -158,6 +158,6 @@ AnymeX è distribuito con licenza MIT. Maggiori informazioni sono disponibili [q
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---
