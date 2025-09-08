@@ -57,10 +57,18 @@ git clone https://github.com/wshobson/agents.git  # Required for subagent orches
 
 ## Usage
 
+Commands are organized in `tools/` and `workflows/` directories. Use them with the directory prefix:
+
 ```bash
-/api-scaffold user management with authentication
-/security-scan check for vulnerabilities
-/feature-development implement chat functionality
+/tools:api-scaffold user management with authentication
+/tools:security-scan check for vulnerabilities
+/workflows:feature-development implement chat functionality
+```
+
+**Note:** If you prefer to use commands without prefixes, you can flatten the directories:
+```bash
+cp tools/*.md .
+cp workflows/*.md .
 ```
 
 Claude Code automatically suggests relevant commands based on context.
@@ -194,74 +202,74 @@ Multi-subagent orchestration for complex tasks:
 
 ```bash
 # Implement a complete feature
-/feature-development Add user authentication with OAuth2
+/workflows:feature-development Add user authentication with OAuth2
 
 # Comprehensive code review
-/full-review Review the authentication module
+/workflows:full-review Review the authentication module
 
 # Smart issue resolution
-/smart-fix Fix performance degradation in API response times
+/workflows:smart-fix Fix performance degradation in API response times
 
 # Modernize legacy system
-/legacy-modernize Migrate monolithic Java app to microservices
+/workflows:legacy-modernize Migrate monolithic Java app to microservices
 
 # Build comprehensive multi-platform feature
-/full-stack-feature User authentication with social login across web and mobile
+/workflows:full-stack-feature User authentication with social login across web and mobile
 
 # Implement security-first architecture
-/security-hardening Harden API endpoints and implement zero-trust security model
+/workflows:security-hardening Harden API endpoints and implement zero-trust security model
 
 # Create data-driven ML feature
-/data-driven-feature Build recommendation engine with real-time personalization
+/workflows:data-driven-feature Build recommendation engine with real-time personalization
 
 # Optimize entire application stack
-/performance-optimization Improve response times and reduce infrastructure costs
+/workflows:performance-optimization Improve response times and reduce infrastructure costs
 
 # Respond to production incident
-/incident-response High CPU usage causing service degradation in production
+/workflows:incident-response High CPU usage causing service degradation in production
 ```
 
 ### 🔧 Tool Examples (Single-Purpose Commands)
 
 ```bash
 # Create a user management API
-/api-scaffold user CRUD operations with JWT auth and role-based access
+/tools:api-scaffold user CRUD operations with JWT auth and role-based access
 
 # Review microservices architecture
-/multi-agent-review analyze our microservices for coupling and scalability issues
+/tools:multi-agent-review analyze our microservices for coupling and scalability issues
 
 # Optimize LLM chat application
-/prompt-optimize reduce latency for customer support chatbot while maintaining accuracy
+/tools:prompt-optimize reduce latency for customer support chatbot while maintaining accuracy
 
 # Create fraud detection pipeline
-/data-pipeline real-time fraud detection with feature store and monitoring
+/tools:data-pipeline real-time fraud detection with feature store and monitoring
 
 # Debug production issue
-/error-trace analyze high memory usage in production pods
+/tools:error-trace analyze high memory usage in production pods
 
 # Secure container images
-/security-scan scan and fix vulnerabilities in Docker images
+/tools:security-scan scan and fix vulnerabilities in Docker images
 
 # Generate API documentation
-/doc-generate create OpenAPI docs with examples for REST endpoints
+/tools:doc-generate create OpenAPI docs with examples for REST endpoints
 
 # Onboard new developer
-/onboard Setup development environment for React/Node.js project
+/tools:onboard Setup development environment for React/Node.js project
 
 # Multi-perspective code review
-/multi-agent-review Review authentication module
+/tools:multi-agent-review Review authentication module
 
 # Deep debugging
-/smart-debug Investigate memory leak in production workers
+/tools:smart-debug Investigate memory leak in production workers
 
 # Full-stack optimization
-/multi-agent-optimize Optimize checkout flow for better conversion
+/tools:multi-agent-optimize Optimize checkout flow for better conversion
 
 # Save project context
-/context-save Save current project state and architectural decisions
+/tools:context-save Save current project state and architectural decisions
 
 # Restore project context
-/context-restore Load context from last week's sprint
+/tools:context-restore Load context from last week's sprint
 ```
 
 ## Enhanced Commands
@@ -318,31 +326,31 @@ The real power comes from combining workflows and tools for complete development
 
 ```bash
 # 1. Use a workflow to implement the feature with multiple subagents
-/feature-development Add real-time chat feature with WebSocket support
+/workflows:feature-development Add real-time chat feature with WebSocket support
 
 # 2. Use tools for specific enhancements
-/test-harness Add integration tests for WebSocket connections
-/security-scan Check for WebSocket vulnerabilities
-/docker-optimize Optimize container for WebSocket connections
+/tools:test-harness Add integration tests for WebSocket connections
+/tools:security-scan Check for WebSocket vulnerabilities
+/tools:docker-optimize Optimize container for WebSocket connections
 
 # 3. Use a workflow for comprehensive review
-/full-review Review the entire chat feature implementation
+/workflows:full-review Review the entire chat feature implementation
 ```
 
 ### Example: Modernizing Legacy Code
 
 ```bash
 # 1. Start with the modernization workflow
-/legacy-modernize Migrate Express.js v4 app to modern architecture
+/workflows:legacy-modernize Migrate Express.js v4 app to modern architecture
 
 # 2. Use specific tools for cleanup
-/deps-upgrade Update all dependencies to latest versions
-/refactor-clean Remove deprecated patterns and dead code
-/test-harness Ensure 100% test coverage
+/tools:deps-upgrade Update all dependencies to latest versions
+/tools:refactor-clean Remove deprecated patterns and dead code
+/tools:test-harness Ensure 100% test coverage
 
 # 3. Optimize and deploy
-/docker-optimize Create multi-stage production build
-/k8s-manifest Deploy with zero-downtime strategy
+/tools:docker-optimize Create multi-stage production build
+/tools:k8s-manifest Deploy with zero-downtime strategy
 ```
 
 ## Command Orchestration Patterns
@@ -352,37 +360,37 @@ Commands can be used individually or combined in powerful patterns:
 ### Sequential Execution
 ```bash
 # Build → Test → Secure → Deploy pipeline
-/api-scaffold user management API
-/test-harness comprehensive test suite for user API  
-/security-scan check user API for vulnerabilities
-/k8s-manifest deploy user API to production
+/tools:api-scaffold user management API
+/tools:test-harness comprehensive test suite for user API  
+/tools:security-scan check user API for vulnerabilities
+/tools:k8s-manifest deploy user API to production
 ```
 
 ### Parallel Analysis
 ```bash
 # Multiple perspectives on the same codebase
-/multi-agent-review comprehensive architecture and code review
-/security-scan audit security posture  
-/performance-optimization identify and fix bottlenecks
+/tools:multi-agent-review comprehensive architecture and code review
+/tools:security-scan audit security posture  
+/workflows:performance-optimization identify and fix bottlenecks
 # Then consolidate findings
 ```
 
 ### Iterative Refinement
 ```bash
 # Start broad, then narrow focus
-/feature-development implement payment processing
-/security-scan focus on payment security
-/compliance-check ensure PCI compliance
-/test-harness add payment-specific tests
+/workflows:feature-development implement payment processing
+/tools:security-scan focus on payment security
+/tools:compliance-check ensure PCI compliance
+/tools:test-harness add payment-specific tests
 ```
 
 ### Cross-Domain Integration
 ```bash
 # Frontend + Backend + Infrastructure
-/api-scaffold backend payment API
-/multi-agent-optimize optimize payment flow performance
-/docker-optimize containerize payment service
-/monitor-setup payment metrics and alerts
+/tools:api-scaffold backend payment API
+/tools:multi-agent-optimize optimize payment flow performance
+/tools:docker-optimize containerize payment service
+/tools:monitor-setup payment metrics and alerts
 ```
 
 ## When to Use Workflows vs Tools
@@ -400,9 +408,9 @@ Commands can be used individually or combined in powerful patterns:
 - **Domain tasks**: Highly specialized operations
 
 **Examples:**
-- "Implement user authentication system" → `/feature-development`
-- "Fix performance issues across the stack" → `/smart-fix`
-- "Modernize legacy monolith" → `/legacy-modernize`
+- "Implement user authentication system" → `/workflows:feature-development`
+- "Fix performance issues across the stack" → `/workflows:smart-fix`
+- "Modernize legacy monolith" → `/workflows:legacy-modernize`
 
 ### 🔧 Use Tools When:
 - **Specific expertise needed** - Clear, focused task in one domain
@@ -412,14 +420,14 @@ Commands can be used individually or combined in powerful patterns:
 - **Building on existing work** - Enhancing or refining previous outputs
 
 **Examples:**
-- "Create Kubernetes manifests" → `/k8s-manifest`
-- "Scan for security vulnerabilities" → `/security-scan`
-- "Generate API documentation" → `/doc-generate`
+- "Create Kubernetes manifests" → `/tools:k8s-manifest`
+- "Scan for security vulnerabilities" → `/tools:security-scan`
+- "Generate API documentation" → `/tools:doc-generate`
 
 ## Command Format
 
 Slash commands are simple markdown files where:
-- The filename becomes the command name (e.g., `api-scaffold.md` → `/api-scaffold`)
+- The filename becomes the command name (e.g., `tools/api-scaffold.md` → `/tools:api-scaffold`)
 - The file content is the prompt/instructions executed when invoked
 - Use `$ARGUMENTS` placeholder for user input
 
@@ -443,7 +451,10 @@ Slash commands are simple markdown files where:
 
 ## Troubleshooting
 
-**Command not found**: Check files are in `~/.claude/commands/`
+**Command not found**: 
+- Check files are in `~/.claude/commands/tools/` or `~/.claude/commands/workflows/`
+- Use the correct prefix: `/tools:command-name` or `/workflows:command-name`
+- Or flatten directories if you prefer no prefixes: `cp tools/*.md . && cp workflows/*.md .`
 
 **Workflows slow**: Normal - they coordinate multiple subagents
 

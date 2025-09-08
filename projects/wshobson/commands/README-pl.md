@@ -30,17 +30,17 @@
   </details>
 </div>
 
-# Polecenia Slash Claude Code
+# Polecenia ukośne Claude Code
 
-Gotowe do produkcji polecenia slash dla [Claude Code](https://docs.anthropic.com/en/docs/claude-code), które przyspieszają rozwój dzięki inteligentnej automatyzacji.
+Gotowe do produkcji polecenia ukośne dla [Claude Code](https://docs.anthropic.com/en/docs/claude-code), które przyspieszają rozwój poprzez inteligentną automatyzację.
 
 **52 polecenia** zorganizowane jako:
-- **🤖 Przepływy pracy**: Orkiestracja wieloagentowa dla złożonych zadań
-- **🔧 Narzędzia**: Narzędzia jednorazowe do konkretnych operacji
+- **🤖 Przepływy pracy**: Orkiestracja wielu subagentów dla złożonych zadań
+- **🔧 Narzędzia**: Jednofunkcyjne narzędzia do konkretnych operacji
 
-### 🤝 Wymagane subagenty Claude Code
+### 🤝 Wymaga Claude Code Subagentów
 
-Te polecenia działają z [subagentami Claude Code](https://github.com/wshobson/agents) zapewniając możliwości orkiestracji.
+Te polecenia działają z [Claude Code Subagentami](https://github.com/wshobson/agents) dla możliwości orkiestracji.
 
 ## Instalacja
 
@@ -52,141 +52,149 @@ git clone https://github.com/wshobson/agents.git  # Required for subagent orches
 
 ## Dostępne polecenia
 
-- **🤖 Przepływy pracy** - Orkiestracja wielu subagentów do złożonych zadań
+- **🤖 Przepływy pracy** - Organizuj wiele subagentów do złożonych zadań
 - **🔧 Narzędzia** - Polecenia jednofunkcyjne do konkretnych operacji
 
 ## Użytkowanie
 
+Polecenia są zorganizowane w katalogach `tools/` i `workflows/`. Używaj ich z prefiksem katalogu:
+
 ```bash
-/api-scaffold user management with authentication
-/security-scan check for vulnerabilities
-/feature-development implement chat functionality
+/tools:api-scaffold user management with authentication
+/tools:security-scan check for vulnerabilities
+/workflows:feature-development implement chat functionality
+```
+
+**Uwaga:** Jeśli wolisz używać poleceń bez prefiksów, możesz spłaszczyć katalogi:
+```bash
+cp tools/*.md .
+cp workflows/*.md .
 ```
 Claude Code automatycznie sugeruje odpowiednie polecenia na podstawie kontekstu.
 
 ## 🤖 Przepływy pracy
 
-Orkiestracja wielu subagentów dla złożonych zadań:
+Orkiestracja wielu subagentów do złożonych zadań:
 
-### Rozwój funkcjonalności
-- **[feature-development](https://raw.githubusercontent.com/wshobson/commands/main/workflows/feature-development.md)** - Subagenci backendu, frontendu, testów i wdrożenia budują kompletne funkcjonalności
+### Tworzenie funkcji
+- **[feature-development](https://raw.githubusercontent.com/wshobson/commands/main/workflows/feature-development.md)** - Backend, frontend, testowanie i wdrażanie przez subagentów buduje kompletne funkcje
 - **[full-review](https://raw.githubusercontent.com/wshobson/commands/main/workflows/full-review.md)** - Wielu subagentów recenzujących zapewnia kompleksową analizę kodu
 - **[smart-fix](https://raw.githubusercontent.com/wshobson/commands/main/workflows/smart-fix.md)** - Analizuje problemy i deleguje do odpowiednich subagentów specjalistycznych
 
 ### Procesy deweloperskie
-- **[git-workflow](https://raw.githubusercontent.com/wshobson/commands/main/workflows/git-workflow.md)** - Wdraża skuteczne przepływy Git z rozgałęzieniami i szablonami PR
-- **[improve-agent](https://raw.githubusercontent.com/wshobson/commands/main/workflows/improve-agent.md)** - Poprawia wydajność subagentów przez optymalizację promptów
-- **[legacy-modernize](https://raw.githubusercontent.com/wshobson/commands/main/workflows/legacy-modernize.md)** - Unowocześnia starsze bazy kodu za pomocą wyspecjalizowanych subagentów
-- **[ml-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/workflows/ml-pipeline.md)** - Tworzy pipeline’y ML z subagentami inżynierii danych i ML
-- **[multi-platform](https://raw.githubusercontent.com/wshobson/commands/main/workflows/multi-platform.md)** - Buduje aplikacje wieloplatformowe z koordynacją subagentów
-- **[workflow-automate](https://raw.githubusercontent.com/wshobson/commands/main/workflows/workflow-automate.md)** - Automatyzuje CI/CD, monitoring i wdrożenia
+- **[git-workflow](https://raw.githubusercontent.com/wshobson/commands/main/workflows/git-workflow.md)** - Wdraża skuteczne przepływy Git z strategiami branchowania i szablonami PR
+- **[improve-agent](https://raw.githubusercontent.com/wshobson/commands/main/workflows/improve-agent.md)** - Zwiększa wydajność subagentów poprzez optymalizację promptów
+- **[legacy-modernize](https://raw.githubusercontent.com/wshobson/commands/main/workflows/legacy-modernize.md)** - Modernizuje starsze bazy kodu za pomocą wyspecjalizowanych subagentów
+- **[ml-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/workflows/ml-pipeline.md)** - Tworzy pipeline'y ML z subagentami inżynierii danych i ML
+- **[multi-platform](https://raw.githubusercontent.com/wshobson/commands/main/workflows/multi-platform.md)** - Buduje aplikacje wieloplatformowe z koordynowanymi subagentami
+- **[workflow-automate](https://raw.githubusercontent.com/wshobson/commands/main/workflows/workflow-automate.md)** - Automatyzuje CI/CD, monitoring i wdrażanie przepływów pracy
 
-### Przepływy pracy z orkiestracją subagentów
-- **[full-stack-feature](https://raw.githubusercontent.com/wshobson/commands/main/workflows/full-stack-feature.md)** - Funkcjonalności wieloplatformowe z backendem, frontendem i mobile subagentami
-- **[security-hardening](https://raw.githubusercontent.com/wshobson/commands/main/workflows/security-hardening.md)** - Wdrażanie z naciskiem na bezpieczeństwo dzięki wyspecjalizowanym subagentom
-- **[data-driven-feature](https://raw.githubusercontent.com/wshobson/commands/main/workflows/data-driven-feature.md)** - Funkcje napędzane ML z subagentami data science
+### Przepływy pracy orkiestracji subagentów
+- **[full-stack-feature](https://raw.githubusercontent.com/wshobson/commands/main/workflows/full-stack-feature.md)** - Funkcje wieloplatformowe z backendem, frontendem i mobilnymi subagentami
+- **[security-hardening](https://raw.githubusercontent.com/wshobson/commands/main/workflows/security-hardening.md)** - Implementacja z naciskiem na bezpieczeństwo z wyspecjalizowanymi subagentami
+- **[data-driven-feature](https://raw.githubusercontent.com/wshobson/commands/main/workflows/data-driven-feature.md)** - Funkcje oparte na ML z subagentami data science
 - **[performance-optimization](https://raw.githubusercontent.com/wshobson/commands/main/workflows/performance-optimization.md)** - Optymalizacja end-to-end z subagentami wydajności
 - **[incident-response](https://raw.githubusercontent.com/wshobson/commands/main/workflows/incident-response.md)** - Rozwiązywanie incydentów produkcyjnych z subagentami ops
 
-## 🔧 Narzędzia (Polecenia jednozadaniowe)
+## 🔧 Narzędzia (Polecenia jednorazowe)
 
-### AI i uczenie maszynowe
-- **[ai-assistant](https://raw.githubusercontent.com/wshobson/commands/main/tools/ai-assistant.md)** - Buduj gotowych do produkcji asystentów AI i chatboty
-- **[ai-review](https://raw.githubusercontent.com/wshobson/commands/main/tools/ai-review.md)** - Specjalistyczna recenzja kodu AI/ML
-- **[langchain-agent](https://raw.githubusercontent.com/wshobson/commands/main/tools/langchain-agent.md)** - Twórz agentów LangChain/LangGraph z nowoczesnymi wzorcami
-- **[ml-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/tools/ml-pipeline.md)** - Twórz kompletne pipeline’y ML z MLOps
-- **[prompt-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/prompt-optimize.md)** - Optymalizuj prompty AI pod kątem wydajności i jakości
+### AI & Uczenie maszynowe
+- **[ai-assistant](https://raw.githubusercontent.com/wshobson/commands/main/tools/ai-assistant.md)** - Buduj gotowe do produkcji asystenty AI i chatboty
+- **[ai-review](https://raw.githubusercontent.com/wshobson/commands/main/tools/ai-review.md)** - Specjalistyczna recenzja baz kodu AI/ML
+- **[langchain-agent](https://raw.githubusercontent.com/wshobson/commands/main/tools/langchain-agent.md)** - Tworzenie agentów LangChain/LangGraph według nowoczesnych wzorców
+- **[ml-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/tools/ml-pipeline.md)** - Tworzenie kompleksowych pipeline'ów ML z MLOps
+- **[prompt-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/prompt-optimize.md)** - Optymalizacja promptów AI pod kątem wydajności i jakości
 
-### Architektura i jakość kodu
-- **[code-explain](https://raw.githubusercontent.com/wshobson/commands/main/tools/code-explain.md)** - Generuj szczegółowe wyjaśnienia złożonego kodu
-- **[code-migrate](https://raw.githubusercontent.com/wshobson/commands/main/tools/code-migrate.md)** - Migruj kod między językami, frameworkami lub wersjami
-- **[refactor-clean](https://raw.githubusercontent.com/wshobson/commands/main/tools/refactor-clean.md)** - Refaktoryzuj kod dla lepszej konserwowalności i wydajności
+### Architektura & Jakość kodu
+- **[code-explain](https://raw.githubusercontent.com/wshobson/commands/main/tools/code-explain.md)** - Generowanie szczegółowych wyjaśnień złożonego kodu
+- **[code-migrate](https://raw.githubusercontent.com/wshobson/commands/main/tools/code-migrate.md)** - Migracja kodu pomiędzy językami, frameworkami lub wersjami
+- **[refactor-clean](https://raw.githubusercontent.com/wshobson/commands/main/tools/refactor-clean.md)** - Refaktoryzacja kodu dla lepszej utrzymania i wydajności
+
 - **[tech-debt](https://raw.githubusercontent.com/wshobson/commands/main/tools/tech-debt.md)** - Analizuj i priorytetyzuj dług techniczny
 
-### Dane i bazy danych
-- **[data-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/tools/data-pipeline.md)** - Projektuj skalowalne architektury pipeline’ów danych
+### Dane i Baza Danych
+- **[data-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/tools/data-pipeline.md)** - Projektuj skalowalne architektury potoków danych
 - **[data-validation](https://raw.githubusercontent.com/wshobson/commands/main/tools/data-validation.md)** - Wdrażaj kompleksowe systemy walidacji danych
 - **[db-migrate](https://raw.githubusercontent.com/wshobson/commands/main/tools/db-migrate.md)** - Zaawansowane strategie migracji baz danych
 
-### DevOps i infrastruktura
-- **[deploy-checklist](https://raw.githubusercontent.com/wshobson/commands/main/tools/deploy-checklist.md)** - Generuj konfiguracje i listy kontrolne wdrożeń
+### DevOps i Infrastruktura
+- **[deploy-checklist](https://raw.githubusercontent.com/wshobson/commands/main/tools/deploy-checklist.md)** - Generuj konfiguracje wdrożeniowe i listy kontrolne
 - **[docker-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/docker-optimize.md)** - Zaawansowane strategie optymalizacji kontenerów
 - **[k8s-manifest](https://raw.githubusercontent.com/wshobson/commands/main/tools/k8s-manifest.md)** - Wdrożenia Kubernetes klasy produkcyjnej
-- **[monitor-setup](https://raw.githubusercontent.com/wshobson/commands/main/tools/monitor-setup.md)** - Konfiguruj kompleksowy monitoring i obserwowalność
+- **[monitor-setup](https://raw.githubusercontent.com/wshobson/commands/main/tools/monitor-setup.md)** - Konfiguruj kompleksowe monitorowanie i obserwowalność
 - **[slo-implement](https://raw.githubusercontent.com/wshobson/commands/main/tools/slo-implement.md)** - Wdrażaj cele poziomu usług (SLO)
-- **[workflow-automate](https://raw.githubusercontent.com/wshobson/commands/main/tools/workflow-automate.md)** - Automatyzuj procesy rozwoju i operacji
+- **[workflow-automate](https://raw.githubusercontent.com/wshobson/commands/main/tools/workflow-automate.md)** - Automatyzuj przepływy pracy rozwojowe i operacyjne
 
-### Rozwój i testowanie
+### Rozwój i Testowanie
 - **[api-mock](https://raw.githubusercontent.com/wshobson/commands/main/tools/api-mock.md)** - Twórz realistyczne mocki API do rozwoju i testowania
-- **[api-scaffold](https://raw.githubusercontent.com/wshobson/commands/main/tools/api-scaffold.md)** - Generuj gotowe do produkcji endpointy API z pełnym stosem implementacyjnym
-- **[test-harness](https://raw.githubusercontent.com/wshobson/commands/main/tools/test-harness.md)** - Twórz kompletne zestawy testów z detekcją frameworków
+- **[api-scaffold](https://raw.githubusercontent.com/wshobson/commands/main/tools/api-scaffold.md)** - Generuj gotowe do produkcji końcówki API z pełnym stosikiem implementacji
+- **[test-harness](https://raw.githubusercontent.com/wshobson/commands/main/tools/test-harness.md)** - Twórz kompleksowe zestawy testów z wykrywaniem frameworków
 
-### Bezpieczeństwo i zgodność
-- **[accessibility-audit](https://raw.githubusercontent.com/wshobson/commands/main/tools/accessibility-audit.md)** - Kompleksowe testy dostępności i poprawki
-- **[compliance-check](https://raw.githubusercontent.com/wshobson/commands/main/tools/compliance-check.md)** - Zapewnij zgodność z regulacjami (GDPR, HIPAA, SOC2)
-- **[security-scan](https://raw.githubusercontent.com/wshobson/commands/main/tools/security-scan.md)** - Kompleksowy skan bezpieczeństwa z automatycznym naprawianiem
+### Bezpieczeństwo i Zgodność
+- **[accessibility-audit](https://raw.githubusercontent.com/wshobson/commands/main/tools/accessibility-audit.md)** - Kompleksowe testowanie dostępności i poprawki
+- **[compliance-check](https://raw.githubusercontent.com/wshobson/commands/main/tools/compliance-check.md)** - Zapewnij zgodność z przepisami (GDPR, HIPAA, SOC2)
+- **[security-scan](https://raw.githubusercontent.com/wshobson/commands/main/tools/security-scan.md)** - Kompleksowe skanowanie bezpieczeństwa z automatycznym zarządzaniem lukami
 
-### Debugowanie i analiza
+### Debugowanie i Analiza
 - **[debug-trace](https://raw.githubusercontent.com/wshobson/commands/main/tools/debug-trace.md)** - Zaawansowane strategie debugowania i śledzenia
-- **[error-analysis](https://raw.githubusercontent.com/wshobson/commands/main/tools/error-analysis.md)** - Głęboka analiza wzorców błędów i strategie naprawy
+- **[error-analysis](https://raw.githubusercontent.com/wshobson/commands/main/tools/error-analysis.md)** - Dogłębna analiza wzorców błędów i strategie rozwiązywania
 - **[error-trace](https://raw.githubusercontent.com/wshobson/commands/main/tools/error-trace.md)** - Śledź i diagnozuj błędy produkcyjne
-- **[issue](https://raw.githubusercontent.com/wshobson/commands/main/tools/issue.md)** - Twórz poprawnie ustrukturyzowane zgłoszenia GitHub/GitLab
+- **[issue](https://raw.githubusercontent.com/wshobson/commands/main/tools/issue.md)** - Twórz dobrze ustrukturyzowane zgłoszenia GitHub/GitLab
 
-### Zależności i konfiguracja
+### Zależności i Konfiguracja
 - **[config-validate](https://raw.githubusercontent.com/wshobson/commands/main/tools/config-validate.md)** - Waliduj i zarządzaj konfiguracją aplikacji
 - **[deps-audit](https://raw.githubusercontent.com/wshobson/commands/main/tools/deps-audit.md)** - Audytuj zależności pod kątem bezpieczeństwa i licencji
-- **[deps-upgrade](https://raw.githubusercontent.com/wshobson/commands/main/tools/deps-upgrade.md)** - Bezpieczna aktualizacja zależności projektu
+- **[deps-upgrade](https://raw.githubusercontent.com/wshobson/commands/main/tools/deps-upgrade.md)** - Bezpiecznie aktualizuj zależności projektu
 
-### Dokumentacja i współpraca
+### Dokumentacja i Współpraca
 - **[doc-generate](https://raw.githubusercontent.com/wshobson/commands/main/tools/doc-generate.md)** - Generuj kompleksową dokumentację
 - **[git-workflow](https://raw.githubusercontent.com/wshobson/commands/main/tools/git-workflow.md)** - Wdrażaj skuteczne przepływy pracy Git
-- **[pr-enhance](https://raw.githubusercontent.com/wshobson/commands/main/tools/pr-enhance.md)** - Ulepszaj pull requesty dzięki kontrolom jakości
+- **[pr-enhance](https://raw.githubusercontent.com/wshobson/commands/main/tools/pr-enhance.md)** - Ulepszaj pull requesty poprzez kontrolę jakości
 
 ### Optymalizacja kosztów
 - **[cost-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/cost-optimize.md)** - Optymalizuj koszty chmury i infrastruktury
 
-### Onboarding i konfiguracja
+### Wprowadzenie i konfiguracja
 - **[onboard](https://raw.githubusercontent.com/wshobson/commands/main/tools/onboard.md)** - Konfiguruj środowiska deweloperskie dla nowych członków zespołu
 
 ### Narzędzia subagentów
-- **[multi-agent-review](https://raw.githubusercontent.com/wshobson/commands/main/tools/multi-agent-review.md)** - Recenzja kodu z wielu perspektyw przez wyspecjalizowanych subagentów
+- **[multi-agent-review](https://raw.githubusercontent.com/wshobson/commands/main/tools/multi-agent-review.md)** - Wieloaspektowa recenzja kodu z wyspecjalizowanymi subagentami
 - **[smart-debug](https://raw.githubusercontent.com/wshobson/commands/main/tools/smart-debug.md)** - Głębokie debugowanie z subagentami debuggera i wydajności
 - **[multi-agent-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/multi-agent-optimize.md)** - Optymalizacja full-stack z wieloma subagentami
 - **[context-save](https://raw.githubusercontent.com/wshobson/commands/main/tools/context-save.md)** - Zapisz kontekst projektu za pomocą subagenta context-manager
-- **[context-restore](https://raw.githubusercontent.com/wshobson/commands/main/tools/context-restore.md)** - Przywróć zapisany kontekst dla zachowania ciągłości
+- **[context-restore](https://raw.githubusercontent.com/wshobson/commands/main/tools/context-restore.md)** - Przywróć zapisany kontekst dla ciągłości pracy
 
 ## Funkcje
 
-- Implementacje gotowe do produkcji
+- Gotowe do produkcji implementacje
 - Automatyczne wykrywanie frameworków
 - Najlepsze praktyki bezpieczeństwa
 - Wbudowany monitoring i testowanie
+- Komendy współpracują ze sobą płynnie
 
-- Polecenia współpracują ze sobą bezproblemowo
+## Liczba komend
 
-## Liczba Poleceń
+**Łącznie: 52 gotowe do produkcji komendy slash** zorganizowane w:
 
-**Łącznie: 52 gotowe do produkcji polecenia slash** zorganizowane w:
+### 🤖 Workflows (14 komend)
 
-### 🤖 Przepływy pracy (14 poleceń)
+- Rozwój funkcjonalności i recenzje (3 komendy)
+- Automatyzacja procesu deweloperskiego (6 komend)
+- Przepływy pracy z orkiestracją subagentów (5 komend)
 
-- Rozwój funkcji i przegląd (3 polecenia)
-- Automatyzacja procesu deweloperskiego (6 poleceń)
-- Przepływy pracy orkiestracji przez subagentów (5 poleceń)
+### 🔧 Narzędzia (38 komend)
 
-### 🔧 Narzędzia (38 poleceń)
-
-- AI i uczenie maszynowe (5 poleceń)
-- Architektura i jakość kodu (4 polecenia)
-- Dane i baza danych (3 polecenia)
-- DevOps i infrastruktura (6 poleceń)
-- Programowanie i testowanie (3 polecenia)
-- Bezpieczeństwo i zgodność (3 polecenia)
+- AI i uczenie maszynowe (5 komend)
+- Architektura i jakość kodu (4 komendy)
+- Dane i bazy danych (3 komendy)
+- DevOps i infrastruktura (6 komend)
+- Programowanie i testowanie (3 komendy)
+- Bezpieczeństwo i zgodność (3 komendy)
 - Debugowanie i analiza (4 polecenia)
 - Zależności i konfiguracja (3 polecenia)
 - Dokumentacja i współpraca (1 polecenie)
-- Wprowadzenie i konfiguracja (1 polecenie)
-- Narzędzia specyficzne dla subagentów (5 poleceń)
+- Wdrożenie i konfiguracja (1 polecenie)
+- Narzędzia specyficzne dla subagenta (5 poleceń)
 
 ## Przykłady użycia
 
@@ -194,77 +202,77 @@ Orkiestracja wielu subagentów dla złożonych zadań:
 
 ```bash
 # Implement a complete feature
-/feature-development Add user authentication with OAuth2
+/workflows:feature-development Add user authentication with OAuth2
 
 # Comprehensive code review
-/full-review Review the authentication module
+/workflows:full-review Review the authentication module
 
 # Smart issue resolution
-/smart-fix Fix performance degradation in API response times
+/workflows:smart-fix Fix performance degradation in API response times
 
 # Modernize legacy system
-/legacy-modernize Migrate monolithic Java app to microservices
+/workflows:legacy-modernize Migrate monolithic Java app to microservices
 
 # Build comprehensive multi-platform feature
-/full-stack-feature User authentication with social login across web and mobile
+/workflows:full-stack-feature User authentication with social login across web and mobile
 
 # Implement security-first architecture
-/security-hardening Harden API endpoints and implement zero-trust security model
+/workflows:security-hardening Harden API endpoints and implement zero-trust security model
 
 # Create data-driven ML feature
-/data-driven-feature Build recommendation engine with real-time personalization
+/workflows:data-driven-feature Build recommendation engine with real-time personalization
 
 # Optimize entire application stack
-/performance-optimization Improve response times and reduce infrastructure costs
+/workflows:performance-optimization Improve response times and reduce infrastructure costs
 
 # Respond to production incident
-/incident-response High CPU usage causing service degradation in production
+/workflows:incident-response High CPU usage causing service degradation in production
 ```
 
 ### 🔧 Przykłady narzędzi (polecenia jednofunkcyjne)
 
 ```bash
 # Create a user management API
-/api-scaffold user CRUD operations with JWT auth and role-based access
+/tools:api-scaffold user CRUD operations with JWT auth and role-based access
 
 # Review microservices architecture
-/multi-agent-review analyze our microservices for coupling and scalability issues
+/tools:multi-agent-review analyze our microservices for coupling and scalability issues
 
 # Optimize LLM chat application
-/prompt-optimize reduce latency for customer support chatbot while maintaining accuracy
+/tools:prompt-optimize reduce latency for customer support chatbot while maintaining accuracy
 
 # Create fraud detection pipeline
-/data-pipeline real-time fraud detection with feature store and monitoring
+/tools:data-pipeline real-time fraud detection with feature store and monitoring
 
 # Debug production issue
-/error-trace analyze high memory usage in production pods
+/tools:error-trace analyze high memory usage in production pods
 
 # Secure container images
-/security-scan scan and fix vulnerabilities in Docker images
+/tools:security-scan scan and fix vulnerabilities in Docker images
 
 # Generate API documentation
-/doc-generate create OpenAPI docs with examples for REST endpoints
+/tools:doc-generate create OpenAPI docs with examples for REST endpoints
 
 # Onboard new developer
-/onboard Setup development environment for React/Node.js project
+/tools:onboard Setup development environment for React/Node.js project
 
 # Multi-perspective code review
-/multi-agent-review Review authentication module
+/tools:multi-agent-review Review authentication module
 
 # Deep debugging
-/smart-debug Investigate memory leak in production workers
+/tools:smart-debug Investigate memory leak in production workers
 
 # Full-stack optimization
-/multi-agent-optimize Optimize checkout flow for better conversion
+/tools:multi-agent-optimize Optimize checkout flow for better conversion
 
 # Save project context
-/context-save Save current project state and architectural decisions
+/tools:context-save Save current project state and architectural decisions
 
 # Restore project context
-/context-restore Load context from last week's sprint
+/tools:context-restore Load context from last week's sprint
 ```
 
-## Rozszerzone Polecenia
+## Rozszerzone polecenia
 
 ### Bezpieczeństwo i DevOps
 
@@ -272,77 +280,77 @@ Orkiestracja wielu subagentów dla złożonych zadań:
 
 Kompleksowe skanowanie bezpieczeństwa z automatyczną naprawą.
 
-- **Wielonarzędziowe Skanowanie**: Bandit, Safety, Trivy, Semgrep, ESLint Security, Snyk
-- **Automatyczne Naprawy**: Powszechne podatności usuwane automatycznie
-- **Integracja CI/CD**: Bramki bezpieczeństwa dla GitHub Actions/GitLab CI
-- **Skanowanie Kontenerów**: Analiza podatności obrazów
-- **Wykrywanie Sekretów**: Integracja GitLeaks i TruffleHog
+- **Skanowanie wielonarzędziowe**: Bandit, Safety, Trivy, Semgrep, ESLint Security, Snyk
+- **Automatyczne naprawy**: Automatyczna naprawa typowych podatności
+- **Integracja z CI/CD**: Bramki bezpieczeństwa dla GitHub Actions/GitLab CI
+- **Skanowanie kontenerów**: Analiza podatności obrazów
+- **Wykrywanie sekretów**: Integracja z GitLeaks i TruffleHog
 
 #### [`/docker-optimize`](https://raw.githubusercontent.com/wshobson/commands/main/tools/docker-optimize.md)
 
 Zaawansowane strategie optymalizacji kontenerów.
 
-- **Inteligentna Optymalizacja**: Analizuje i sugeruje ulepszenia
-- **Wielostopniowe Buildy**: Optymalizowane Dockerfile dla wybranych frameworków
-- **Nowoczesne Narzędzia**: BuildKit, Bun, UV dla szybszych buildów
-- **Wzmocnienie Bezpieczeństwa**: Obrazy distroless, użytkownicy bez uprawnień root
-- **Integracja z Innymi Poleceniami**: Współpracuje z wynikami /api-scaffold
+- **Inteligentna optymalizacja**: Analiza i sugestie ulepszeń
+- **Wielostopniowe budowanie**: Dockerfile zoptymalizowane dla konkretnych frameworków
+- **Nowoczesne narzędzia**: BuildKit, Bun, UV dla szybszego budowania
+- **Wzmacnianie bezpieczeństwa**: Obrazy distroless, użytkownicy bez uprawnień root
+- **Integracja między poleceniami**: Współpraca z wynikami /api-scaffold
 
 #### [`/k8s-manifest`](https://raw.githubusercontent.com/wshobson/commands/main/tools/k8s-manifest.md)
 
 Wdrożenia Kubernetes klasy produkcyjnej.
 
-- **Zaawansowane Wzorce**: Standardy bezpieczeństwa Pod, Polityki Sieciowe, OPA
-- **Gotowość GitOps**: Konfiguracje FluxCD i ArgoCD
+- **Zaawansowane wzorce**: Standardy bezpieczeństwa Podów, polityki sieciowe, OPA
+- **Gotowe do GitOps**: Konfiguracje FluxCD i ArgoCD
 - **Obserwowalność**: Prometheus ServiceMonitors, OpenTelemetry
-- **Automatyczne Skalowanie**: Konfiguracje HPA, VPA, i autoskalera klastra
+- **Automatyczne skalowanie**: Konfiguracje HPA, VPA i autoskalera klastra
 - **Service Mesh**: Integracja z Istio/Linkerd
 
-### Frontend i Dane
+### Frontend i dane
 
 #### [`/db-migrate`](https://raw.githubusercontent.com/wshobson/commands/main/tools/db-migrate.md)
 
 Zaawansowane strategie migracji baz danych.
 
-- **Wiele Baz Danych**: PostgreSQL, MySQL, MongoDB, DynamoDB
-- **Brak Przestojów**: Blue-green deployments, migracje z przetaczaniem
-- **Event Sourcing**: Integracja z Kafka/Kinesis do CDC
-- **Wieloplatformowość**: Obsługa poliglotycznej persystencji
-- **Monitorowanie**: Kontrola stanu migracji i możliwość rollbacku
+- **Wiele baz danych**: PostgreSQL, MySQL, MongoDB, DynamoDB
+- **Brak przestojów**: wdrożenia blue-green, migracje etapowe
+- **Event Sourcing**: integracja z Kafka/Kinesis dla CDC
+- **Wieloplatformowość**: obsługuje poliglotyczną trwałość danych
+- **Monitorowanie**: kontrole stanu migracji i możliwość wycofania
 
-## Łączenie Przepływów Pracy i Narzędzi
+## Łączenie procesów i narzędzi
 
-Prawdziwa siła tkwi w łączeniu przepływów pracy i narzędzi w pełne cykle rozwoju:
+Prawdziwa siła tkwi w łączeniu procesów i narzędzi dla pełnych cykli rozwojowych:
 
-### Przykład: Budowanie Nowej Funkcjonalności
+### Przykład: Tworzenie nowej funkcji
 
 ```bash
 # 1. Use a workflow to implement the feature with multiple subagents
-/feature-development Add real-time chat feature with WebSocket support
+/workflows:feature-development Add real-time chat feature with WebSocket support
 
 # 2. Use tools for specific enhancements
-/test-harness Add integration tests for WebSocket connections
-/security-scan Check for WebSocket vulnerabilities
-/docker-optimize Optimize container for WebSocket connections
+/tools:test-harness Add integration tests for WebSocket connections
+/tools:security-scan Check for WebSocket vulnerabilities
+/tools:docker-optimize Optimize container for WebSocket connections
 
 # 3. Use a workflow for comprehensive review
-/full-review Review the entire chat feature implementation
+/workflows:full-review Review the entire chat feature implementation
 ```
 
 ### Przykład: Unowocześnianie kodu dziedziczonego
 
 ```bash
 # 1. Start with the modernization workflow
-/legacy-modernize Migrate Express.js v4 app to modern architecture
+/workflows:legacy-modernize Migrate Express.js v4 app to modern architecture
 
 # 2. Use specific tools for cleanup
-/deps-upgrade Update all dependencies to latest versions
-/refactor-clean Remove deprecated patterns and dead code
-/test-harness Ensure 100% test coverage
+/tools:deps-upgrade Update all dependencies to latest versions
+/tools:refactor-clean Remove deprecated patterns and dead code
+/tools:test-harness Ensure 100% test coverage
 
 # 3. Optimize and deploy
-/docker-optimize Create multi-stage production build
-/k8s-manifest Deploy with zero-downtime strategy
+/tools:docker-optimize Create multi-stage production build
+/tools:k8s-manifest Deploy with zero-downtime strategy
 ```
 
 ## Wzorce Orkiestracji Poleceń
@@ -352,139 +360,142 @@ Polecenia mogą być używane indywidualnie lub łączone w potężne wzorce:
 ### Wykonanie Sekwencyjne
 ```bash
 # Build → Test → Secure → Deploy pipeline
-/api-scaffold user management API
-/test-harness comprehensive test suite for user API  
-/security-scan check user API for vulnerabilities
-/k8s-manifest deploy user API to production
+/tools:api-scaffold user management API
+/tools:test-harness comprehensive test suite for user API  
+/tools:security-scan check user API for vulnerabilities
+/tools:k8s-manifest deploy user API to production
 ```
 
 ### Analiza równoległa
 ```bash
 # Multiple perspectives on the same codebase
-/multi-agent-review comprehensive architecture and code review
-/security-scan audit security posture  
-/performance-optimization identify and fix bottlenecks
+/tools:multi-agent-review comprehensive architecture and code review
+/tools:security-scan audit security posture  
+/workflows:performance-optimization identify and fix bottlenecks
 # Then consolidate findings
 ```
 
 ### Iteracyjne udoskonalanie
 ```bash
 # Start broad, then narrow focus
-/feature-development implement payment processing
-/security-scan focus on payment security
-/compliance-check ensure PCI compliance
-/test-harness add payment-specific tests
+/workflows:feature-development implement payment processing
+/tools:security-scan focus on payment security
+/tools:compliance-check ensure PCI compliance
+/tools:test-harness add payment-specific tests
 ```
 
 ### Integracja międzydomenowa
 ```bash
 # Frontend + Backend + Infrastructure
-/api-scaffold backend payment API
-/multi-agent-optimize optimize payment flow performance
-/docker-optimize containerize payment service
-/monitor-setup payment metrics and alerts
+/tools:api-scaffold backend payment API
+/tools:multi-agent-optimize optimize payment flow performance
+/tools:docker-optimize containerize payment service
+/tools:monitor-setup payment metrics and alerts
 ```
 
-## Kiedy używać Workflowów vs Narzędzi
+## Kiedy używać workflowów vs narzędzi
 
-### 🔀 Workflows & Narzędzia Subagentów
-- **Rozwiązywanie problemów**: Analizuj i naprawiaj problemy adaptacyjnie
-- **Wiele perspektyw**: Koordynuj subagentów specjalistycznych
-- **Złożone zadania**: Procesy wieloetapowe w różnych dziedzinach
+### 🔀 Workflowy i narzędzia subagentów
+- **Rozwiązywanie problemów**: Analiza i adaptacyjne rozwiązywanie problemów
+- **Wiele perspektyw**: Koordynacja subagentów-specjalistów
+- **Złożone zadania**: Procesy wieloetapowe obejmujące różne dziedziny
 - **Nieznane rozwiązania**: Pozwól subagentom określić podejście
 
 ### 🛠️ Narzędzia specjalistyczne
 - **Konfiguracja infrastruktury**: Ustawianie środowisk
 - **Generowanie kodu**: Tworzenie konkretnych implementacji
-- **Analiza**: Generowanie raportów bez poprawek
+- **Analiza**: Generowanie raportów bez naprawy błędów
 - **Zadania domenowe**: Wysoce specjalistyczne operacje
 
 **Przykłady:**
-- "Zaimplementuj system uwierzytelniania użytkowników" → `/feature-development`
-- "Napraw problemy wydajnościowe w całym stacku" → `/smart-fix`
-- "Unowocześnij monolit legacy" → `/legacy-modernize`
+- "Zaimplementuj system uwierzytelniania użytkowników" → `/workflows:feature-development`
+- "Napraw problemy z wydajnością w całym stacku" → `/workflows:smart-fix`
+- "Unowocześnij monolit legacy" → `/workflows:legacy-modernize`
 
 ### 🔧 Używaj narzędzi, gdy:
-- **Potrzebna specjalistyczna wiedza** – Jasne, skoncentrowane zadanie w jednej domenie
-- **Pożądana precyzyjna kontrola** – Chcesz określić szczegóły implementacji
-- **Część ręcznego workflowu** – Integracja z istniejącymi procesami
-- **Wymagana głęboka specjalizacja** – Potrzebujesz eksperckiej implementacji
-- **Budowanie na istniejącej pracy** – Udoskonalanie lub poprawa poprzednich rezultatów
+- **Potrzebna konkretna wiedza** - Jasne, skoncentrowane zadanie w jednej dziedzinie
+- **Pożądana precyzyjna kontrola** - Chęć dokładnego określenia szczegółów implementacji
+- **Część ręcznego workflowu** - Integracja z istniejącymi procesami
+- **Wymagana głęboka specjalizacja** - Potrzeba eksperckiej implementacji
+- **Budowanie na istniejącej pracy** - Ulepszanie lub dopracowywanie wcześniejszych wyników
 
 **Przykłady:**
-- "Stwórz manifesty Kubernetes" → `/k8s-manifest`
-- "Przeskanuj pod kątem luk bezpieczeństwa" → `/security-scan`
-- "Wygeneruj dokumentację API" → `/doc-generate`
+- "Utwórz manifesty Kubernetes" → `/tools:k8s-manifest`
+- "Skanuj podatności bezpieczeństwa" → `/tools:security-scan`
+- "Generuj dokumentację API" → `/tools:doc-generate`
 
 ## Format poleceń
 
-Polecenia slash to proste pliki markdown, gdzie:
-- Nazwa pliku staje się nazwą polecenia (np. `api-scaffold.md` → `/api-scaffold`)
-- Zawartość pliku to prompt/instrukcje wykonywane po wywołaniu
-- Użyj placeholdera `$ARGUMENTS` dla danych wejściowych użytkownika
+Polecenia typu slash to proste pliki markdown, gdzie:
+- Nazwa pliku staje się nazwą polecenia (np. `tools/api-scaffold.md` → `/tools:api-scaffold`)
+- Zawartość pliku to polecenie/instrukcja wykonywana przy wywołaniu
+- Użyj zastępnika `$ARGUMENTS` dla danych wejściowych użytkownika
 
 ## Najlepsze praktyki
 
 ### Wybór poleceń
-- **Pozwól Claude Code sugerować automatycznie** – Analizuje kontekst i wybiera optymalne polecenia
-- **Używaj workflowów do złożonych zadań** – Subagenci koordynują wdrożenia w wielu domenach
-- **Narzędzia do zadań skupionych** – Stosuj konkretne polecenia do ukierunkowanych usprawnień
+- **Pozwól Claude Code sugerować automatycznie** - Analizuje kontekst i wybiera optymalne polecenia
+- **Używaj workflowów do złożonych zadań** - Subagenci koordynują wdrożenia wielodomenowe
+- **Używaj narzędzi do ukierunkowanych zadań** - Stosuj konkretne polecenia dla celowanych usprawnień
 
 ### Skuteczne użycie
-- **Podaj pełny kontekst** – Uwzględnij stack technologiczny, ograniczenia i wymagania
-- **Łącz polecenia strategicznie** – Workflows → Narzędzia → Poprawki
-- **Buduj na poprzednich rezultatach** – Polecenia są zaprojektowane do współpracy
+- **Zapewnij pełny kontekst** - Uwzględnij stos technologiczny, ograniczenia i wymagania
+- **Łącz polecenia strategicznie** - Workflows → Narzędzia → Udoskonalenia
+- **Buduj na poprzednich wynikach** - Polecenia są zaprojektowane do współpracy
 
-## Wkład własny
+## Wkład
 
 1. Utwórz plik `.md` w `workflows/` lub `tools/`
-2. Używaj nazw z małych liter i myślników
-3. Uwzględnij `$ARGUMENTS` dla danych wejściowych użytkownika
+2. Używaj nazw z małymi literami i myślnikami
+3. Dodaj `$ARGUMENTS` dla danych wejściowych użytkownika
 
 ## Rozwiązywanie problemów
 
-**Nie znaleziono polecenia**: Sprawdź, czy pliki są w `~/.claude/commands/`
+**Polecenie nie znalezione**: 
+- Sprawdź, czy pliki są w `~/.claude/commands/tools/` lub `~/.claude/commands/workflows/`
+- Użyj właściwego prefiksu: `/tools:nazwa-polecenia` lub `/workflows:nazwa-polecenia`
+- Lub spłaszcz katalogi jeśli wolisz bez prefiksów: `cp tools/*.md . && cp workflows/*.md .`
 
-**Wolne workflowy**: Normalne – koordynują wielu subagentów
+**Wolne workflowy**: Normalne - koordynują wiele subagentów
 
-**Ogólny wynik**: Dodaj bardziej szczegółowy kontekst dotyczący stacku technologicznego
+**Ogólny wynik**: Dodaj bardziej szczegółowy kontekst dotyczący swojego stosu technologicznego
 
-**Problemy z integracją**: Zweryfikuj ścieżki plików i kolejność poleceń
+**Problemy z integracją**: Zweryfikuj ścieżki plików i sekwencję poleceń
 
 ## Wskazówki dotyczące wydajności
 
 **Wybór polecenia:**
 - **Workflows**: Koordynacja wielu subagentów dla złożonych funkcji
-- **Narzędzia**: Operacje jednofunkcyjne dla konkretnych zadań
+- **Narzędzia**: Operacje jednego celu dla konkretnych zadań
 - **Proste edycje**: Pozostań przy głównym agencie
 
 **Optymalizacja:**
 - Zacznij od narzędzi dla znanych problemów
-- Podaj szczegółowe wymagania na początku
-- Buduj na poprzednich wynikach poleceń
-- Pozwól workflowom zakończyć się przed modyfikacjami
+- Podaj szczegółowe wymagania od samego początku
+- Buduj na podstawie wcześniejszych wyników poleceń
+- Pozwól, aby przepływy pracy zakończyły się przed wprowadzeniem modyfikacji
 
-### Dodawanie nowego workflowu:
-- Skup się na orkiestracji i logice delegowania subagentów
-- Określ, których subagentów specjalistycznych użyć i w jakiej kolejności
+### Dodawanie nowego przepływu pracy:
+- Skup się na orkiestracji subagentów i logice delegowania
+- Określ, których wyspecjalizowanych subagentów użyć i w jakiej kolejności
 - Zdefiniuj wzorce koordynacji między subagentami
 
 ### Dodawanie nowego narzędzia:
-- Zawiera kompletne, gotowe do produkcji implementacje
-- Strukturyzuj zawartość w jasne sekcje i praktyczne rezultaty
-- Dodaj przykłady, dobre praktyki i punkty integracji
+- Uwzględnij kompletne, gotowe do produkcji implementacje
+- Strukturyzuj treść z wyraźnymi sekcjami i praktycznymi wynikami
+- Dodaj przykłady, najlepsze praktyki i punkty integracji
 
 ## Dowiedz się więcej
 
-- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
-- [Slash Commands Documentation](https://docs.anthropic.com/en/docs/claude-code/slash-commands)
-- [Subagents Documentation](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
+- [Dokumentacja Claude Code](https://docs.anthropic.com/en/docs/claude-code)
+- [Dokumentacja Slash Commands](https://docs.anthropic.com/en/docs/claude-code/slash-commands)
+- [Dokumentacja Subagentów](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
 - [Claude Code GitHub](https://github.com/anthropics/claude-code)
-- [Claude Code Subagents Collection](https://github.com/wshobson/agents) - Kolekcja specjalistycznych subagentów używanych przez te polecenia
+- [Claude Code Subagents Collection](https://github.com/wshobson/agents) - Wyspecjalizowani subagenci używani przez te polecenia
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---

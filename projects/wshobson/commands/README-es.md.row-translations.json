@@ -225,7 +225,7 @@
     "row": 38,
     "rowsha": "T3xSmnkWiiyuVFvxXs2+ek0U+7dPFPZh8RhkX/k/+zw=",
     "originContent": "- **🤖 Workflows**: Multi-subagent orchestration for complex tasks",
-    "translatedContent": "- **🤖 Flujos de trabajo**: Orquestación multi-subagente para tareas complejas"
+    "translatedContent": "- **🤖 Flujos de trabajo**: Orquestación de múltiples subagentes para tareas complejas"
   },
   {
     "row": 39,
@@ -243,7 +243,7 @@
     "row": 41,
     "rowsha": "gewY4SIjhKx/iA/3cv7ttyiq5augYUPMELVb9gcEl/I=",
     "originContent": "### 🤝 Requires Claude Code Subagents",
-    "translatedContent": "### 🤝 Requiere Subagentes de Claude Code"
+    "translatedContent": "### 🤝 Requiere Subagentes de Código Claude"
   },
   {
     "row": 42,
@@ -255,7 +255,7 @@
     "row": 43,
     "rowsha": "FagHO4nYkxJVMrpJMGQErq+89hZhKkEAqPOwSuHewbA=",
     "originContent": "These commands work with the [Claude Code Subagents](https://github.com/wshobson/agents) for orchestration capabilities.",
-    "translatedContent": "Estos comandos funcionan con los [Subagentes de Claude Code](https://github.com/wshobson/agents) para capacidades de orquestación."
+    "translatedContent": "Estos comandos funcionan con los [Subagentes de Código Claude](https://github.com/wshobson/agents) para capacidades de orquestación."
   },
   {
     "row": 44,
@@ -271,6 +271,2562 @@
   },
   {
     "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "C/vXT/QiAcXKjzGjp1Q5ZMHs6lvyF8KP2vO3FscmMyk=",
+    "originContent": "## Available Commands",
+    "translatedContent": "## Comandos Disponibles"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "a6ndAx2yqvH2iQC6sw6+iRAGASpkMBMVFwVf9jVr4uY=",
+    "originContent": "- **🤖 Workflows** - Orchestrate multiple subagents for complex tasks",
+    "translatedContent": "- **🤖 Flujos de trabajo** - Orquestar múltiples subagentes para tareas complejas"
+  },
+  {
+    "row": 51,
+    "rowsha": "8oDsNjpEWeiXIJT75SZiRpjcamaYIxvolNdpYc5ldSQ=",
+    "originContent": "- **🔧 Tools** - Single-purpose commands for specific operations",
+    "translatedContent": "- **🔧 Herramientas** - Comandos de propósito único para operaciones específicas"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Uso"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "o/sJxME/u07tdP2qJfppVTQLXRPhNleH03SlyffIzZY=",
+    "originContent": "Commands are organized in `tools/` and `workflows/` directories. Use them with the directory prefix:",
+    "translatedContent": "Los comandos están organizados en los directorios `tools/` y `workflows/`. Úsalos con el prefijo del directorio:"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 58,
+    "rowsha": "WZhFDPHNwNqPSAntcr0/TPg7I/tvdDoPYwFle7x0f5U=",
+    "originContent": "/tools:api-scaffold user management with authentication",
+    "translatedContent": "/tools:api-scaffold user management with authentication"
+  },
+  {
+    "row": 59,
+    "rowsha": "J45jBnLULjEw8SYuEyj4alHWyduQqvs4sgSriUNw/qs=",
+    "originContent": "/tools:security-scan check for vulnerabilities",
+    "translatedContent": "/tools:security-scan check for vulnerabilities"
+  },
+  {
+    "row": 60,
+    "rowsha": "95Za7wyU5EnIPce0Sicclo56qjHQT5Z1aMRJSd5+Uwk=",
+    "originContent": "/workflows:feature-development implement chat functionality",
+    "translatedContent": "/workflows:feature-development implement chat functionality"
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "uPvZ8lbfKqIux3OGEl3D8oJUr2LT731WmkK0lq7JRXc=",
+    "originContent": "**Note:** If you prefer to use commands without prefixes, you can flatten the directories:",
+    "translatedContent": "**Nota:** Si prefiere usar comandos sin prefijos, puede aplanar los directorios:"
+  },
+  {
+    "row": 64,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 65,
+    "rowsha": "lTXTokS5kb1BYoHP0HOA+JLxVm/gywj5RiL9K4FAv/c=",
+    "originContent": "cp tools/*.md .",
+    "translatedContent": "cp tools/*.md ."
+  },
+  {
+    "row": 66,
+    "rowsha": "U3dPPzMQKWoau8dxHsiTORStemET4mul5Acg+PjdKNo=",
+    "originContent": "cp workflows/*.md .",
+    "translatedContent": "cp workflows/*.md ."
+  },
+  {
+    "row": 67,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Claude Code sugiere automáticamente comandos relevantes según el contexto."
+  },
+  {
+    "row": 69,
+    "rowsha": "gR8g/3MxRLECYQn25dX0ys0ly4IYMTN3zgGXimBbwHA=",
+    "originContent": "Claude Code automatically suggests relevant commands based on context.",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🤖 Flujos de trabajo"
+  },
+  {
+    "row": 71,
+    "rowsha": "1ayT+YatSPrMasCDj0RmhpHUf8p5GNthDEDPgjOztp8=",
+    "originContent": "## 🤖 Workflows",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Orquestación multi-subagente para tareas complejas:"
+  },
+  {
+    "row": 73,
+    "rowsha": "10bcusD3ssVRY/ZGD/mWHzT0FcqmR2JmuSqVfVX+cc0=",
+    "originContent": "Multi-subagent orchestration for complex tasks:",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Desarrollo de Funcionalidades"
+  },
+  {
+    "row": 75,
+    "rowsha": "Tf5kKKzEVUxSYjYnQp/nTEZGlMxSouxiUYVx9c5ltaA=",
+    "originContent": "### Feature Development",
+    "translatedContent": "- **[feature-development](https://raw.githubusercontent.com/wshobson/commands/main/workflows/feature-development.md)** - Subagentes de backend, frontend, pruebas y despliegue construyen características completas"
+  },
+  {
+    "row": 76,
+    "rowsha": "vHWUzk54ijv1mA0LDkGp0QZoxRBWlhuu0LX7IuMuPd4=",
+    "originContent": "- **[feature-development](https://raw.githubusercontent.com/wshobson/commands/main/workflows/feature-development.md)** - Backend, frontend, testing, and deployment subagents build complete features",
+    "translatedContent": "- **[full-review](https://raw.githubusercontent.com/wshobson/commands/main/workflows/full-review.md)** - Múltiples subagentes de revisión ofrecen análisis exhaustivo de código"
+  },
+  {
+    "row": 77,
+    "rowsha": "r1mSlCe4pKmrX20eiagdvDoBYGKf3lnQRYW+cfmA5eI=",
+    "originContent": "- **[full-review](https://raw.githubusercontent.com/wshobson/commands/main/workflows/full-review.md)** - Multiple review subagents provide comprehensive code analysis",
+    "translatedContent": "- **[smart-fix](https://raw.githubusercontent.com/wshobson/commands/main/workflows/smart-fix.md)** - Analiza problemas y delega a subagentes especialistas adecuados"
+  },
+  {
+    "row": 78,
+    "rowsha": "NBkP2AQALaCsqlTmTfmIbay7vlGQ/OGtrHTLBp0FjEs=",
+    "originContent": "- **[smart-fix](https://raw.githubusercontent.com/wshobson/commands/main/workflows/smart-fix.md)** - Analyzes issues and delegates to appropriate specialist subagents",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Procesos de Desarrollo"
+  },
+  {
+    "row": 80,
+    "rowsha": "6aIodqUrChu6edu5bxqQKrMSxT8ciS8oPWQ/jV2LGUA=",
+    "originContent": "### Development Processes",
+    "translatedContent": "- **[git-workflow](https://raw.githubusercontent.com/wshobson/commands/main/workflows/git-workflow.md)** - Implementa flujos efectivos de Git con estrategias de ramas y plantillas de PR"
+  },
+  {
+    "row": 81,
+    "rowsha": "LKUMUU+qZ8FC4yqhEZu9UwikynSakNbOlXkeV080+ik=",
+    "originContent": "- **[git-workflow](https://raw.githubusercontent.com/wshobson/commands/main/workflows/git-workflow.md)** - Implements effective Git workflows with branching strategies and PR templates",
+    "translatedContent": "- **[improve-agent](https://raw.githubusercontent.com/wshobson/commands/main/workflows/improve-agent.md)** - Mejora el desempeño de subagentes mediante optimización de prompts"
+  },
+  {
+    "row": 82,
+    "rowsha": "BhFwMIqqdcX6RJ4DM8x/IuNnZaLACzW/gl86RZyyiVQ=",
+    "originContent": "- **[improve-agent](https://raw.githubusercontent.com/wshobson/commands/main/workflows/improve-agent.md)** - Enhances subagent performance through prompt optimization",
+    "translatedContent": "- **[legacy-modernize](https://raw.githubusercontent.com/wshobson/commands/main/workflows/legacy-modernize.md)** - Moderniza bases de código heredadas con subagentes especializados"
+  },
+  {
+    "row": 83,
+    "rowsha": "BByjQYhmUG3aw4VamVCdWGSa0tMZnsEtgw/+yMZJAQ8=",
+    "originContent": "- **[legacy-modernize](https://raw.githubusercontent.com/wshobson/commands/main/workflows/legacy-modernize.md)** - Modernizes legacy codebases using specialized subagents",
+    "translatedContent": "- **[ml-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/workflows/ml-pipeline.md)** - Crea pipelines de ML con subagentes de datos e ingeniería de ML"
+  },
+  {
+    "row": 84,
+    "rowsha": "cGx+9RBo2DVC721h2TvKuNiuISmxTudrLSD5L6/BAKs=",
+    "originContent": "- **[ml-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/workflows/ml-pipeline.md)** - Creates ML pipelines with data and ML engineering subagents",
+    "translatedContent": "- **[multi-platform](https://raw.githubusercontent.com/wshobson/commands/main/workflows/multi-platform.md)** - Construye aplicaciones multiplataforma con subagentes coordinados"
+  },
+  {
+    "row": 85,
+    "rowsha": "O/1IVXit/+1zuXGSQ3GOGcAH71gLWQDMjX+GpPg3Hbk=",
+    "originContent": "- **[multi-platform](https://raw.githubusercontent.com/wshobson/commands/main/workflows/multi-platform.md)** - Builds cross-platform apps with coordinated subagents",
+    "translatedContent": "- **[workflow-automate](https://raw.githubusercontent.com/wshobson/commands/main/workflows/workflow-automate.md)** - Automatiza flujos de CI/CD, monitoreo y despliegue"
+  },
+  {
+    "row": 86,
+    "rowsha": "YXTqYoGY4V/KNfn/MSmrxBBy+dfib5fwTFzLeDM9ylQ=",
+    "originContent": "- **[workflow-automate](https://raw.githubusercontent.com/wshobson/commands/main/workflows/workflow-automate.md)** - Automates CI/CD, monitoring, and deployment workflows",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Flujos Orquestados por Subagentes"
+  },
+  {
+    "row": 88,
+    "rowsha": "0I4sBqAT3374m7n3S83L0FYAzGLcNDrIFFfJy/aDah0=",
+    "originContent": "### Subagent-Orchestrated Workflows",
+    "translatedContent": "- **[full-stack-feature](https://raw.githubusercontent.com/wshobson/commands/main/workflows/full-stack-feature.md)** - Funcionalidades multiplataforma con subagentes de backend, frontend y móvil"
+  },
+  {
+    "row": 89,
+    "rowsha": "agqHbgFtKkmYjevPiHDmw/vAFx7CxL3qjgiFWfhjGAc=",
+    "originContent": "- **[full-stack-feature](https://raw.githubusercontent.com/wshobson/commands/main/workflows/full-stack-feature.md)** - Multi-platform features with backend, frontend, and mobile subagents",
+    "translatedContent": "- **[security-hardening](https://raw.githubusercontent.com/wshobson/commands/main/workflows/security-hardening.md)** - Implementación con enfoque en seguridad mediante subagentes especializados"
+  },
+  {
+    "row": 90,
+    "rowsha": "npEleC1hvlocdtjydO4pKa6/j9Gu2xWHdnwOhsSonWI=",
+    "originContent": "- **[security-hardening](https://raw.githubusercontent.com/wshobson/commands/main/workflows/security-hardening.md)** - Security-first implementation with specialized subagents",
+    "translatedContent": "- **[data-driven-feature](https://raw.githubusercontent.com/wshobson/commands/main/workflows/data-driven-feature.md)** - Funcionalidades potenciadas por ML con subagentes de ciencia de datos"
+  },
+  {
+    "row": 91,
+    "rowsha": "ske8YkSS2Snv5icaE2Si0xSYu7AbXQvlQVecuSg1ATM=",
+    "originContent": "- **[data-driven-feature](https://raw.githubusercontent.com/wshobson/commands/main/workflows/data-driven-feature.md)** - ML-powered features with data science subagents",
+    "translatedContent": "- **[performance-optimization](https://raw.githubusercontent.com/wshobson/commands/main/workflows/performance-optimization.md)** - Optimización integral con subagentes de rendimiento"
+  },
+  {
+    "row": 92,
+    "rowsha": "FExZ6proJcFpQgV34weeGdAzru7nMidSadrt5EyKkzM=",
+    "originContent": "- **[performance-optimization](https://raw.githubusercontent.com/wshobson/commands/main/workflows/performance-optimization.md)** - End-to-end optimization with performance subagents",
+    "translatedContent": "- **[incident-response](https://raw.githubusercontent.com/wshobson/commands/main/workflows/incident-response.md)** - Resolución de incidentes en producción con subagentes de operaciones"
+  },
+  {
+    "row": 93,
+    "rowsha": "QAF9YwhLXp5/a6g8cvgFnWyVmGDeeRSfyKjFxRxcwFs=",
+    "originContent": "- **[incident-response](https://raw.githubusercontent.com/wshobson/commands/main/workflows/incident-response.md)** - Production incident resolution with ops subagents",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🔧 Herramientas (Comandos de Propósito Único)"
+  },
+  {
+    "row": 95,
+    "rowsha": "ajQZ+v88Vfp9/1AyBCNbHuiCDpCGCOzrocfqPKHapOc=",
+    "originContent": "## 🔧 Tools (Single-Purpose Commands)",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### IA y Aprendizaje Automático"
+  },
+  {
+    "row": 97,
+    "rowsha": "E/d03XzaswdCD13g16wByshdVp+qViRtSIOaSWFV4Dc=",
+    "originContent": "### AI & Machine Learning",
+    "translatedContent": "- **[ai-assistant](https://raw.githubusercontent.com/wshobson/commands/main/tools/ai-assistant.md)** - Construye asistentes de IA y chatbots listos para producción"
+  },
+  {
+    "row": 98,
+    "rowsha": "L8kw409ZMM3P7l/C7V9KbctY8fErkOyCWxDmrYzA2gM=",
+    "originContent": "- **[ai-assistant](https://raw.githubusercontent.com/wshobson/commands/main/tools/ai-assistant.md)** - Build production-ready AI assistants and chatbots",
+    "translatedContent": "- **[ai-review](https://raw.githubusercontent.com/wshobson/commands/main/tools/ai-review.md)** - Revisión especializada para bases de código de IA/ML"
+  },
+  {
+    "row": 99,
+    "rowsha": "xNibkixepNcsMLIaV9G7oay7Rz16CQZ0nfqmKk5FNog=",
+    "originContent": "- **[ai-review](https://raw.githubusercontent.com/wshobson/commands/main/tools/ai-review.md)** - Specialized review for AI/ML codebases",
+    "translatedContent": "- **[langchain-agent](https://raw.githubusercontent.com/wshobson/commands/main/tools/langchain-agent.md)** - Crea agentes LangChain/LangGraph con patrones modernos"
+  },
+  {
+    "row": 100,
+    "rowsha": "fzIidSxFYKH7XYhmjHBGIxfeWoyZhGL4Mutp1nm7Z4I=",
+    "originContent": "- **[langchain-agent](https://raw.githubusercontent.com/wshobson/commands/main/tools/langchain-agent.md)** - Create LangChain/LangGraph agents with modern patterns",
+    "translatedContent": "- **[ml-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/tools/ml-pipeline.md)** - Crea pipelines de ML de extremo a extremo con MLOps"
+  },
+  {
+    "row": 101,
+    "rowsha": "Emalw6v0+EZDLPT2E2wLGVofRppRzK4Nqaz7+p9MkUc=",
+    "originContent": "- **[ml-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/tools/ml-pipeline.md)** - Create end-to-end ML pipelines with MLOps",
+    "translatedContent": "- **[prompt-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/prompt-optimize.md)** - Optimiza prompts de IA para desempeño y calidad"
+  },
+  {
+    "row": 102,
+    "rowsha": "C6AFcqurzruUlAxWzEg3k71xWNRgKNElVSKDpbCZ7E0=",
+    "originContent": "- **[prompt-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/prompt-optimize.md)** - Optimize AI prompts for performance and quality",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Arquitectura y Calidad de Código"
+  },
+  {
+    "row": 104,
+    "rowsha": "09avAoC5j+9/PwP8MKmNageeZzNVBTnvLLOq6ssOsag=",
+    "originContent": "### Architecture & Code Quality",
+    "translatedContent": "- **[code-explain](https://raw.githubusercontent.com/wshobson/commands/main/tools/code-explain.md)** - Genera explicaciones detalladas de código complejo"
+  },
+  {
+    "row": 105,
+    "rowsha": "POXfwBwiVZYhQ/Ny63DcUF4Y3/1HAVNNnpUNCZQAX+o=",
+    "originContent": "- **[code-explain](https://raw.githubusercontent.com/wshobson/commands/main/tools/code-explain.md)** - Generate detailed explanations of complex code",
+    "translatedContent": "- **[code-migrate](https://raw.githubusercontent.com/wshobson/commands/main/tools/code-migrate.md)** - Migra código entre lenguajes, frameworks o versiones"
+  },
+  {
+    "row": 106,
+    "rowsha": "J9VDGI9BCoDWJMP4ONnQS3lYdjMxvM5Jznxg99QhroQ=",
+    "originContent": "- **[code-migrate](https://raw.githubusercontent.com/wshobson/commands/main/tools/code-migrate.md)** - Migrate code between languages, frameworks, or versions",
+    "translatedContent": "- **[refactor-clean](https://raw.githubusercontent.com/wshobson/commands/main/tools/refactor-clean.md)** - Refactoriza código para mantenibilidad y desempeño"
+  },
+  {
+    "row": 107,
+    "rowsha": "DYSs9gcFxYUioCsLsCPl4qP8NPB9V1DcDSC7Mo6JCKU=",
+    "originContent": "- **[refactor-clean](https://raw.githubusercontent.com/wshobson/commands/main/tools/refactor-clean.md)** - Refactor code for maintainability and performance",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "RLIwLDYvaERvSDKFLfBcrcrlfdA/LjoCsYjZqMBId/w=",
+    "originContent": "- **[tech-debt](https://raw.githubusercontent.com/wshobson/commands/main/tools/tech-debt.md)** - Analyze and prioritize technical debt",
+    "translatedContent": "- **[tech-debt](https://raw.githubusercontent.com/wshobson/commands/main/tools/tech-debt.md)** - Analiza y prioriza la deuda técnica"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "YJDprxANpyOjJ7EceaYfGB2qlVCeTLiB+e9dHsFoaLQ=",
+    "originContent": "### Data & Database",
+    "translatedContent": "### Datos y Base de Datos"
+  },
+  {
+    "row": 111,
+    "rowsha": "i6esan3Y2IFqG72JHiVzKVmW2AIWd8rnfDlQGkj3Tbw=",
+    "originContent": "- **[data-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/tools/data-pipeline.md)** - Design scalable data pipeline architectures",
+    "translatedContent": "- **[data-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/tools/data-pipeline.md)** - Diseña arquitecturas escalables de canalización de datos"
+  },
+  {
+    "row": 112,
+    "rowsha": "qBscCe13/uXoFgwR2tZLgfbZxdt1rmsirI+3wLTz1j4=",
+    "originContent": "- **[data-validation](https://raw.githubusercontent.com/wshobson/commands/main/tools/data-validation.md)** - Implement comprehensive data validation systems",
+    "translatedContent": "- **[data-validation](https://raw.githubusercontent.com/wshobson/commands/main/tools/data-validation.md)** - Implementa sistemas de validación de datos integrales"
+  },
+  {
+    "row": 113,
+    "rowsha": "ODSdd3jPEgaANsQ87qjhigS11Aioa/zYZkFInZh9jpg=",
+    "originContent": "- **[db-migrate](https://raw.githubusercontent.com/wshobson/commands/main/tools/db-migrate.md)** - Advanced database migration strategies",
+    "translatedContent": "- **[db-migrate](https://raw.githubusercontent.com/wshobson/commands/main/tools/db-migrate.md)** - Estrategias avanzadas de migración de bases de datos"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "XCCFEVZZF8+3GmVYc1VSK9Mm0IYtmdoe7uMTOKMnhj0=",
+    "originContent": "### DevOps & Infrastructure",
+    "translatedContent": "### DevOps e Infraestructura"
+  },
+  {
+    "row": 116,
+    "rowsha": "qkzRHDkp+QgmpzvqWnLTOf+NnaHDy+HzPxRteRYPOQI=",
+    "originContent": "- **[deploy-checklist](https://raw.githubusercontent.com/wshobson/commands/main/tools/deploy-checklist.md)** - Generate deployment configurations and checklists",
+    "translatedContent": "- **[deploy-checklist](https://raw.githubusercontent.com/wshobson/commands/main/tools/deploy-checklist.md)** - Genera configuraciones y listas de verificación de despliegue"
+  },
+  {
+    "row": 117,
+    "rowsha": "7gRMU7RlI9/geqx9TPTZ0gwJUAuto0oA8UqXT/vycWc=",
+    "originContent": "- **[docker-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/docker-optimize.md)** - Advanced container optimization strategies",
+    "translatedContent": "- **[docker-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/docker-optimize.md)** - Estrategias avanzadas de optimización de contenedores"
+  },
+  {
+    "row": 118,
+    "rowsha": "ndzIny/xmSq6h7ot7n00M47a47iZSIPaniq1bk3YyXo=",
+    "originContent": "- **[k8s-manifest](https://raw.githubusercontent.com/wshobson/commands/main/tools/k8s-manifest.md)** - Production-grade Kubernetes deployments",
+    "translatedContent": "- **[k8s-manifest](https://raw.githubusercontent.com/wshobson/commands/main/tools/k8s-manifest.md)** - Despliegues de Kubernetes de nivel de producción"
+  },
+  {
+    "row": 119,
+    "rowsha": "wm8S0UJB1JobigPu+B8Jj01btabODsAJZmlcmzpmWMo=",
+    "originContent": "- **[monitor-setup](https://raw.githubusercontent.com/wshobson/commands/main/tools/monitor-setup.md)** - Set up comprehensive monitoring and observability",
+    "translatedContent": "- **[monitor-setup](https://raw.githubusercontent.com/wshobson/commands/main/tools/monitor-setup.md)** - Configura monitoreo y observabilidad integral"
+  },
+  {
+    "row": 120,
+    "rowsha": "JDfbv16Itn6WH1D4o7FVxPErFDxDIg15gMOPqjpb3P8=",
+    "originContent": "- **[slo-implement](https://raw.githubusercontent.com/wshobson/commands/main/tools/slo-implement.md)** - Implement Service Level Objectives (SLOs)",
+    "translatedContent": "- **[slo-implement](https://raw.githubusercontent.com/wshobson/commands/main/tools/slo-implement.md)** - Implementa Objetivos de Nivel de Servicio (SLOs)"
+  },
+  {
+    "row": 121,
+    "rowsha": "/tk0KROtENwHZn/Oj1j4jiGCW8P22rHrZBLkgn/hu+M=",
+    "originContent": "- **[workflow-automate](https://raw.githubusercontent.com/wshobson/commands/main/tools/workflow-automate.md)** - Automate development and operational workflows",
+    "translatedContent": "- **[workflow-automate](https://raw.githubusercontent.com/wshobson/commands/main/tools/workflow-automate.md)** - Automatiza flujos de trabajo de desarrollo y operaciones"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "2FEQShDPS3Vor+FlmdbNud63TY2FFg2xD/uJxVixXto=",
+    "originContent": "### Development & Testing",
+    "translatedContent": "### Desarrollo y Pruebas"
+  },
+  {
+    "row": 124,
+    "rowsha": "8Zv/ohKOIKJ3vLYlpl5tfsjKEH+CevbFXghcPOVVQ+4=",
+    "originContent": "- **[api-mock](https://raw.githubusercontent.com/wshobson/commands/main/tools/api-mock.md)** - Create realistic API mocks for development and testing",
+    "translatedContent": "- **[api-mock](https://raw.githubusercontent.com/wshobson/commands/main/tools/api-mock.md)** - Crea simulaciones realistas de API para desarrollo y pruebas"
+  },
+  {
+    "row": 125,
+    "rowsha": "jC4m4DpizpU7LhMGFDIgPHe2Oj/HA/OQbIDpptTGdW4=",
+    "originContent": "- **[api-scaffold](https://raw.githubusercontent.com/wshobson/commands/main/tools/api-scaffold.md)** - Generate production-ready API endpoints with complete implementation stack",
+    "translatedContent": "- **[api-scaffold](https://raw.githubusercontent.com/wshobson/commands/main/tools/api-scaffold.md)** - Genera endpoints de API listos para producción con pila de implementación completa"
+  },
+  {
+    "row": 126,
+    "rowsha": "khsAgRXP87G1QTe98ioGsLGKR7CKsYMjevS3ZkLq2P8=",
+    "originContent": "- **[test-harness](https://raw.githubusercontent.com/wshobson/commands/main/tools/test-harness.md)** - Create comprehensive test suites with framework detection",
+    "translatedContent": "- **[test-harness](https://raw.githubusercontent.com/wshobson/commands/main/tools/test-harness.md)** - Crea suites de pruebas integrales con detección de frameworks"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "W+hA2H8YZ6AzT1mHSExc7LFZrnK/YgedCH5mNe7ts+s=",
+    "originContent": "### Security & Compliance",
+    "translatedContent": "### Seguridad y Cumplimiento"
+  },
+  {
+    "row": 129,
+    "rowsha": "yOJNEONOl0GH/osxDzMaK6nfNtDcV6g4zrSg+fvqS5Q=",
+    "originContent": "- **[accessibility-audit](https://raw.githubusercontent.com/wshobson/commands/main/tools/accessibility-audit.md)** - Comprehensive accessibility testing and fixes",
+    "translatedContent": "- **[accessibility-audit](https://raw.githubusercontent.com/wshobson/commands/main/tools/accessibility-audit.md)** - Pruebas integrales de accesibilidad y correcciones"
+  },
+  {
+    "row": 130,
+    "rowsha": "/ozTGRHK+3pvKzacY/wvD2uV8tgx4ZmwwhvAC39i9+I=",
+    "originContent": "- **[compliance-check](https://raw.githubusercontent.com/wshobson/commands/main/tools/compliance-check.md)** - Ensure regulatory compliance (GDPR, HIPAA, SOC2)",
+    "translatedContent": "- **[compliance-check](https://raw.githubusercontent.com/wshobson/commands/main/tools/compliance-check.md)** - Garantiza el cumplimiento normativo (GDPR, HIPAA, SOC2)"
+  },
+  {
+    "row": 131,
+    "rowsha": "hUj+1yvCoDjbxHzXT4kEHCyAt6yya3P6ft6Aeii5v9s=",
+    "originContent": "- **[security-scan](https://raw.githubusercontent.com/wshobson/commands/main/tools/security-scan.md)** - Comprehensive security scanning with automated remediation",
+    "translatedContent": "- **[security-scan](https://raw.githubusercontent.com/wshobson/commands/main/tools/security-scan.md)** - Escaneo de seguridad integral con remediación automatizada"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "VKQtUTn8QqiEANqIknEoS0WMzOCPkrX+ESaNpcxu0Vc=",
+    "originContent": "### Debugging & Analysis",
+    "translatedContent": "### Depuración y Análisis"
+  },
+  {
+    "row": 134,
+    "rowsha": "N4Ywo/wNoEjJG7b1zYynTzPq4TgLhs39khuHHtnIIvU=",
+    "originContent": "- **[debug-trace](https://raw.githubusercontent.com/wshobson/commands/main/tools/debug-trace.md)** - Advanced debugging and tracing strategies",
+    "translatedContent": "- **[debug-trace](https://raw.githubusercontent.com/wshobson/commands/main/tools/debug-trace.md)** - Estrategias avanzadas de depuración y trazado"
+  },
+  {
+    "row": 135,
+    "rowsha": "Xe5CImdh7JPi6VCkesWA0Jt62QAejtHB0bfbUXn3p3Y=",
+    "originContent": "- **[error-analysis](https://raw.githubusercontent.com/wshobson/commands/main/tools/error-analysis.md)** - Deep error pattern analysis and resolution strategies",
+    "translatedContent": "- **[error-analysis](https://raw.githubusercontent.com/wshobson/commands/main/tools/error-analysis.md)** - Análisis profundo de patrones de errores y estrategias de resolución"
+  },
+  {
+    "row": 136,
+    "rowsha": "0sOs1gNZayNnoNN0RPx5zz7iQwPVbTSvZmHieUyS0jE=",
+    "originContent": "- **[error-trace](https://raw.githubusercontent.com/wshobson/commands/main/tools/error-trace.md)** - Trace and diagnose production errors",
+    "translatedContent": "- **[error-trace](https://raw.githubusercontent.com/wshobson/commands/main/tools/error-trace.md)** - Rastrea y diagnostica errores en producción"
+  },
+  {
+    "row": 137,
+    "rowsha": "pHzCgrQwL7uBMJfJO1VPqkt1G0+8pIowm/uLOJUlBaw=",
+    "originContent": "- **[issue](https://raw.githubusercontent.com/wshobson/commands/main/tools/issue.md)** - Create well-structured GitHub/GitLab issues",
+    "translatedContent": "- **[issue](https://raw.githubusercontent.com/wshobson/commands/main/tools/issue.md)** - Crea incidencias bien estructuradas en GitHub/GitLab"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "ANBIXJ95zCM/z2QteA5lpBOGVGVVhWa0UsA7Rp5HPq0=",
+    "originContent": "### Dependencies & Configuration",
+    "translatedContent": "### Dependencias y Configuración"
+  },
+  {
+    "row": 140,
+    "rowsha": "AO0Ph2g8Yb31dXBLOcN14qooGiRslF40bvZ56EK3+5s=",
+    "originContent": "- **[config-validate](https://raw.githubusercontent.com/wshobson/commands/main/tools/config-validate.md)** - Validate and manage application configuration",
+    "translatedContent": "- **[config-validate](https://raw.githubusercontent.com/wshobson/commands/main/tools/config-validate.md)** - Valida y gestiona la configuración de la aplicación"
+  },
+  {
+    "row": 141,
+    "rowsha": "wjvLU2MQn827vw3cINVchFpaTJM80Y+dOj3IO1EQtAc=",
+    "originContent": "- **[deps-audit](https://raw.githubusercontent.com/wshobson/commands/main/tools/deps-audit.md)** - Audit dependencies for security and licensing",
+    "translatedContent": "- **[deps-audit](https://raw.githubusercontent.com/wshobson/commands/main/tools/deps-audit.md)** - Audita dependencias por seguridad y licencias"
+  },
+  {
+    "row": 142,
+    "rowsha": "gbnN3rAcJwUHKqrT/cVj7X3+6rjNwlHSh9mIa+cMUUs=",
+    "originContent": "- **[deps-upgrade](https://raw.githubusercontent.com/wshobson/commands/main/tools/deps-upgrade.md)** - Safely upgrade project dependencies",
+    "translatedContent": "- **[deps-upgrade](https://raw.githubusercontent.com/wshobson/commands/main/tools/deps-upgrade.md)** - Actualiza dependencias del proyecto de forma segura"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "r3FFux7zx1sbYOlaCxl1Rm8hEKpqES8zInsQaS8gycQ=",
+    "originContent": "### Documentation & Collaboration",
+    "translatedContent": "### Documentación y Colaboración"
+  },
+  {
+    "row": 145,
+    "rowsha": "ghsGwEUnn095tMSZHbZsvfqDLeTxvFe15rTHpjrF2VM=",
+    "originContent": "- **[doc-generate](https://raw.githubusercontent.com/wshobson/commands/main/tools/doc-generate.md)** - Generate comprehensive documentation",
+    "translatedContent": "- **[doc-generate](https://raw.githubusercontent.com/wshobson/commands/main/tools/doc-generate.md)** - Genera documentación integral"
+  },
+  {
+    "row": 146,
+    "rowsha": "xPJ9z6Zg+3FLdNzLfcITeDPE5AS9p1MvbrtpX/rbcmw=",
+    "originContent": "- **[git-workflow](https://raw.githubusercontent.com/wshobson/commands/main/tools/git-workflow.md)** - Implement effective Git workflows",
+    "translatedContent": "- **[git-workflow](https://raw.githubusercontent.com/wshobson/commands/main/tools/git-workflow.md)** - Implementa flujos de trabajo efectivos con Git"
+  },
+  {
+    "row": 147,
+    "rowsha": "UdQIUCdI4aiqpy5nnryFnvso5UQIWePYZy3gUnGIGsA=",
+    "originContent": "- **[pr-enhance](https://raw.githubusercontent.com/wshobson/commands/main/tools/pr-enhance.md)** - Enhance pull requests with quality checks",
+    "translatedContent": "- **[pr-enhance](https://raw.githubusercontent.com/wshobson/commands/main/tools/pr-enhance.md)** - Mejora las solicitudes de extracción con verificaciones de calidad"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "r/WJmaPh7yODlPoImMgas49JNpIcFkazuyxYvHh9FuI=",
+    "originContent": "### Cost Optimization",
+    "translatedContent": "### Optimización de Costos"
+  },
+  {
+    "row": 150,
+    "rowsha": "NU/19gNS29Ho1Yt39PNzh7zH+iyMS0LAXkcwgZJh41o=",
+    "originContent": "- **[cost-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/cost-optimize.md)** - Optimize cloud and infrastructure costs",
+    "translatedContent": "- **[cost-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/cost-optimize.md)** - Optimiza los costos de la nube e infraestructura"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "9tV1t8U1hYN4hZ6QrpRWpxQla1tqTcs22VPMTtB1VAs=",
+    "originContent": "### Onboarding & Setup",
+    "translatedContent": "### Incorporación y Configuración"
+  },
+  {
+    "row": 153,
+    "rowsha": "A8v0PbCzY6eoa8HPsWeEAxIjbktinmpZnA9SBXmLtio=",
+    "originContent": "- **[onboard](https://raw.githubusercontent.com/wshobson/commands/main/tools/onboard.md)** - Set up development environments for new team members",
+    "translatedContent": "- **[onboard](https://raw.githubusercontent.com/wshobson/commands/main/tools/onboard.md)** - Configura entornos de desarrollo para nuevos miembros del equipo"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "PPpXauJrP+S+RZEIEznnWmuczA2O75Frb8fwmi5j6gQ=",
+    "originContent": "### Subagent Tools",
+    "translatedContent": "### Herramientas de Subagentes"
+  },
+  {
+    "row": 156,
+    "rowsha": "GTIv1FsRsZ66VQPdLzkri87dQAcTqFOb0KwgZQ5HucM=",
+    "originContent": "- **[multi-agent-review](https://raw.githubusercontent.com/wshobson/commands/main/tools/multi-agent-review.md)** - Multi-perspective code review with specialized subagents",
+    "translatedContent": "- **[multi-agent-review](https://raw.githubusercontent.com/wshobson/commands/main/tools/multi-agent-review.md)** - Revisión de código desde múltiples perspectivas con subagentes especializados"
+  },
+  {
+    "row": 157,
+    "rowsha": "qAQYgq2R5DglMqrlAzPRCfSwFFxb18aMeQYtCNQqOnc=",
+    "originContent": "- **[smart-debug](https://raw.githubusercontent.com/wshobson/commands/main/tools/smart-debug.md)** - Deep debugging with debugger and performance subagents",
+    "translatedContent": "- **[smart-debug](https://raw.githubusercontent.com/wshobson/commands/main/tools/smart-debug.md)** - Depuración profunda con subagentes de depuración y rendimiento"
+  },
+  {
+    "row": 158,
+    "rowsha": "C42eidIysmF74R/OjEze3CyiMBg5dbZXaE16DgYbv/k=",
+    "originContent": "- **[multi-agent-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/multi-agent-optimize.md)** - Full-stack optimization with multiple subagents",
+    "translatedContent": "- **[multi-agent-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/multi-agent-optimize.md)** - Optimización de stack completo con múltiples subagentes"
+  },
+  {
+    "row": 159,
+    "rowsha": "BDKY/nxEqoLcjWJsEihlnorJalx0OuIcWKZfKo2P20k=",
+    "originContent": "- **[context-save](https://raw.githubusercontent.com/wshobson/commands/main/tools/context-save.md)** - Save project context using context-manager subagent",
+    "translatedContent": "- **[context-save](https://raw.githubusercontent.com/wshobson/commands/main/tools/context-save.md)** - Guarda el contexto del proyecto usando el subagente gestor de contexto"
+  },
+  {
+    "row": 160,
+    "rowsha": "PRwKzLXn5hrRWiw5ApofhoSkNtqTY2T+jPSF0yX4CWw=",
+    "originContent": "- **[context-restore](https://raw.githubusercontent.com/wshobson/commands/main/tools/context-restore.md)** - Restore saved context for continuity",
+    "translatedContent": "- **[context-restore](https://raw.githubusercontent.com/wshobson/commands/main/tools/context-restore.md)** - Restaura el contexto guardado para continuidad"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Características"
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "yC6dnGrSnkcfvY72NyDHUvCE0PeOXSf0sxnsrNGv2+w=",
+    "originContent": "- Production-ready implementations",
+    "translatedContent": "- Implementaciones listas para producción"
+  },
+  {
+    "row": 165,
+    "rowsha": "Rng5UeNJ6TgmjU3K23i3zh7I/lh629gIGWHH0MblYcQ=",
+    "originContent": "- Framework auto-detection",
+    "translatedContent": "- Detección automática de frameworks"
+  },
+  {
+    "row": 166,
+    "rowsha": "LJW8hI/AZC+wZ4YFONNVc/s7fCJe15qq7sb8g7+aZlY=",
+    "originContent": "- Security best practices",
+    "translatedContent": "- Mejores prácticas de seguridad"
+  },
+  {
+    "row": 167,
+    "rowsha": "Cffwgmmg+fV7eFj9dDa5wBuQppksnmdtcXT0liWkpo0=",
+    "originContent": "- Built-in monitoring and testing",
+    "translatedContent": "- Monitoreo y pruebas integrados"
+  },
+  {
+    "row": 168,
+    "rowsha": "tswkY5SkRwzXsK1jY3tF+e2/hAfF8DB/wp/LU7cis4s=",
+    "originContent": "- Commands work together seamlessly",
+    "translatedContent": "- Los comandos funcionan juntos sin problemas"
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "JSdgF/+nLSCgzNZTWut42vEZ3h05NSgTiPGS9d77170=",
+    "originContent": "## Command Count",
+    "translatedContent": "## Conteo de Comandos"
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "I6ooXzx/o1meIhqtdqtSmFZnLBO4xrKrwqMTioryCUo=",
+    "originContent": "**Total: 52 production-ready slash commands** organized into:",
+    "translatedContent": "**Total: 52 comandos listos para producción** organizados en:"
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "7VmIHnGuxP/LEwdwJ6epGq2VIb5lQ7JII5T53jA+SVI=",
+    "originContent": "### 🤖 Workflows (14 commands)",
+    "translatedContent": "### 🤖 Flujos de Trabajo (14 comandos)"
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "kaWlnP1qkuqCnu1F+fBfQlFYQ9Hv5DQBTQDgsT/01eY=",
+    "originContent": "- Feature Development & Review (3 commands) ",
+    "translatedContent": "- Desarrollo de funcionalidades y revisión (3 comandos)"
+  },
+  {
+    "row": 177,
+    "rowsha": "uYBsfFuQrlIpg+B/lxg/rsUVsr13Y0f2yeMNNx4PaMA=",
+    "originContent": "- Development Process Automation (6 commands)",
+    "translatedContent": "- Automatización del proceso de desarrollo (6 comandos)"
+  },
+  {
+    "row": 178,
+    "rowsha": "jWg2eudVl9Ra6/yAtL1KpGFxJpURVFBaV7bXFI3Q+sA=",
+    "originContent": "- Subagent-Orchestrated Workflows (5 commands)",
+    "translatedContent": "- Flujos de trabajo orquestados por subagentes (5 comandos)"
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "6sE6vGx+nRqd19IjeObcl8YY0qqrFe0GANeJAelsn7Y=",
+    "originContent": "### 🔧 Tools (38 commands)",
+    "translatedContent": "### 🔧 Herramientas (38 comandos)"
+  },
+  {
+    "row": 181,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "xcnJYFFywpXJ66i6ATemC1PEovam0ehc8zyOuskOyLQ=",
+    "originContent": "- AI & Machine Learning (5 commands)",
+    "translatedContent": "- IA y Aprendizaje Automático (5 comandos)"
+  },
+  {
+    "row": 183,
+    "rowsha": "EDZ25qFpiz8Zq+n08FiWkxnYt+Flj7KQu3rxPbfsNHo=",
+    "originContent": "- Architecture & Code Quality (4 commands)",
+    "translatedContent": "- Arquitectura y Calidad de Código (4 comandos)"
+  },
+  {
+    "row": 184,
+    "rowsha": "59+MuCBj7zEmwl14aSTVN1pXUEAYOLlM+yjmTyYKYyk=",
+    "originContent": "- Data & Database (3 commands)",
+    "translatedContent": "- Datos y Base de Datos (3 comandos)"
+  },
+  {
+    "row": 185,
+    "rowsha": "bVNKy2ZSxTZAgn/HzP83xqSH71xUntBbi4dQYuyI7tU=",
+    "originContent": "- DevOps & Infrastructure (6 commands)",
+    "translatedContent": "- DevOps e Infraestructura (6 comandos)"
+  },
+  {
+    "row": 186,
+    "rowsha": "qEIPWx6IYZckaYh9DxEgvQwqykDtUVEOQJtGknA1EVo=",
+    "originContent": "- Development & Testing (3 commands)",
+    "translatedContent": "- Desarrollo y Pruebas (3 comandos)"
+  },
+  {
+    "row": 187,
+    "rowsha": "jWASmmklG4nfxf08ytpYKN2cfOHXaqj0jFwxM1gLDPI=",
+    "originContent": "- Security & Compliance (3 commands)",
+    "translatedContent": "- Seguridad y Cumplimiento (3 comandos)"
+  },
+  {
+    "row": 188,
+    "rowsha": "U7p4xuGdje4NEsBQ+AnNuHZvRiCHGBRd0ZnRBzs/DSk=",
+    "originContent": "- Debugging & Analysis (4 commands)",
+    "translatedContent": "- Depuración y análisis (4 comandos)"
+  },
+  {
+    "row": 189,
+    "rowsha": "mOnN+Zk3zLt5LwP6lDsE+era5xpA8EcLbYIsmsuUORY=",
+    "originContent": "- Dependencies & Configuration (3 commands)",
+    "translatedContent": "- Dependencias y configuración (3 comandos)"
+  },
+  {
+    "row": 190,
+    "rowsha": "mB8GgCKIMSpbzdJFQ7EnuYC4K3ojK44OZE8KQIYQA6c=",
+    "originContent": "- Documentation & Collaboration (1 command)",
+    "translatedContent": "- Documentación y colaboración (1 comando)"
+  },
+  {
+    "row": 191,
+    "rowsha": "XtTcyMMqatSNud2J71KESoDjWeKAY4cN6cejMxKNQVc=",
+    "originContent": "- Onboarding & Setup (1 command)",
+    "translatedContent": "- Incorporación y configuración (1 comando)"
+  },
+  {
+    "row": 192,
+    "rowsha": "0dShNnwJJ1lrhBEXnMFMnelgUt1ADvciNcohpBA1qnQ=",
+    "originContent": "- Subagent-Specific Tools (5 commands)",
+    "translatedContent": "- Herramientas específicas de subagente (5 comandos)"
+  },
+  {
+    "row": 193,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "S26wdEyXDtbwhsw5/RfwoNc6EYkI3moIDhrEDjveQB0=",
+    "originContent": "## Usage Examples",
+    "translatedContent": "## Ejemplos de uso"
+  },
+  {
+    "row": 195,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "OZ0Otn1MgnIKJef6oPZitsv7FP9EsaZAOn95VzQIc8I=",
+    "originContent": "### 🤖 Workflow Examples",
+    "translatedContent": "### 🤖 Ejemplos de flujo de trabajo"
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 199,
+    "rowsha": "UalxJG1Ez7v6MXsE9eXqNufPI5NB+w0kXxxgfnyyWwU=",
+    "originContent": "# Implement a complete feature",
+    "translatedContent": "# Implement a complete feature"
+  },
+  {
+    "row": 200,
+    "rowsha": "pc+QtKdaD9Kdx+/Pu+0tuWtVP19jZSjFZmJzgMMKg9Q=",
+    "originContent": "/workflows:feature-development Add user authentication with OAuth2",
+    "translatedContent": "/workflows:feature-development Add user authentication with OAuth2"
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "SaqwMufTewA0TwtmxSDn6QkZtqs0RiGSlYYpxmm/2uc=",
+    "originContent": "# Comprehensive code review",
+    "translatedContent": "# Comprehensive code review"
+  },
+  {
+    "row": 203,
+    "rowsha": "NLxkCXQiayo9I7GIlxefZWxaZtkkhYzwKlZed05Na74=",
+    "originContent": "/workflows:full-review Review the authentication module",
+    "translatedContent": "/workflows:full-review Review the authentication module"
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 205,
+    "rowsha": "M5M6F3lG5DAd65p3ZuC/1bMXtuSXkirSJr33AqM/Nj0=",
+    "originContent": "# Smart issue resolution",
+    "translatedContent": "# Smart issue resolution"
+  },
+  {
+    "row": 206,
+    "rowsha": "MdVFCPI9uBo/mTa+/bPdHBmm37d+SbywTrVZc/8tUf8=",
+    "originContent": "/workflows:smart-fix Fix performance degradation in API response times",
+    "translatedContent": "/workflows:smart-fix Fix performance degradation in API response times"
+  },
+  {
+    "row": 207,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "+QWQEeGUiztC1vmgmmmUcXerw4Nk6BnCcnDQ9qpL17o=",
+    "originContent": "# Modernize legacy system",
+    "translatedContent": "# Modernize legacy system"
+  },
+  {
+    "row": 209,
+    "rowsha": "HYj5n9xW6KwOHprhqkyKOX/t9Q/6GQvLI4Gs5/x4YAg=",
+    "originContent": "/workflows:legacy-modernize Migrate monolithic Java app to microservices",
+    "translatedContent": "/workflows:legacy-modernize Migrate monolithic Java app to microservices"
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 211,
+    "rowsha": "Wkv4w0pgYRUDd35PSvda1B73Gnjp68O4R4IjxGnWexc=",
+    "originContent": "# Build comprehensive multi-platform feature",
+    "translatedContent": "# Build comprehensive multi-platform feature"
+  },
+  {
+    "row": 212,
+    "rowsha": "RX7nDnhpaAxgO/3/YPTWPnFHRZ2DCV8Zz4VGqtcmP80=",
+    "originContent": "/workflows:full-stack-feature User authentication with social login across web and mobile",
+    "translatedContent": "/workflows:full-stack-feature User authentication with social login across web and mobile"
+  },
+  {
+    "row": 213,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 214,
+    "rowsha": "ucOmZBWZEfSEwH33kVG5Hu2s+vuhZvQDWpt3s2OFmQk=",
+    "originContent": "# Implement security-first architecture",
+    "translatedContent": "# Implement security-first architecture"
+  },
+  {
+    "row": 215,
+    "rowsha": "35wMdPReVomdjc1w7TaZ/ydW9FTO10WSjS7mHJdPRg4=",
+    "originContent": "/workflows:security-hardening Harden API endpoints and implement zero-trust security model",
+    "translatedContent": "/workflows:security-hardening Harden API endpoints and implement zero-trust security model"
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "ViO2qFi6n92khCMJg8h4sJmQ6iOu963yrslV8a4Gt6I=",
+    "originContent": "# Create data-driven ML feature",
+    "translatedContent": "# Create data-driven ML feature"
+  },
+  {
+    "row": 218,
+    "rowsha": "UBJF41KVpjWImE9qJkfdRV4bZ6fl3ts7JTL5ZChCBzE=",
+    "originContent": "/workflows:data-driven-feature Build recommendation engine with real-time personalization",
+    "translatedContent": "/workflows:data-driven-feature Build recommendation engine with real-time personalization"
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "WVrWbtm6jgU6/RDLANeLq91W9wgzCn7PHmFwXE1pjQY=",
+    "originContent": "# Optimize entire application stack",
+    "translatedContent": "# Optimize entire application stack"
+  },
+  {
+    "row": 221,
+    "rowsha": "+UDUoIVPwiwbgzQFX39GsJApLI4EAFGXvJYRDIpHpyI=",
+    "originContent": "/workflows:performance-optimization Improve response times and reduce infrastructure costs",
+    "translatedContent": "/workflows:performance-optimization Improve response times and reduce infrastructure costs"
+  },
+  {
+    "row": 222,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 223,
+    "rowsha": "lEskyKrzHx4wMJPvh9FmB7mLQBEMPpDGfXxTh+IW/1E=",
+    "originContent": "# Respond to production incident",
+    "translatedContent": "# Respond to production incident"
+  },
+  {
+    "row": 224,
+    "rowsha": "N7Oyz6+LJOt94HVIi5CBBaTpqTjflT/zcBlarZQh6CU=",
+    "originContent": "/workflows:incident-response High CPU usage causing service degradation in production",
+    "translatedContent": "/workflows:incident-response High CPU usage causing service degradation in production"
+  },
+  {
+    "row": 225,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 226,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 227,
+    "rowsha": "OR3518Nl4bH3rC/fplVcQA9LL28eV7RZd9ls+v2K0a0=",
+    "originContent": "# Create a user management API",
+    "translatedContent": "# Create a user management API"
+  },
+  {
+    "row": 228,
+    "rowsha": "+ltdoPQDBQ9smd3H76BZYBUD8hTZmfMzPiQTQ82I0fo=",
+    "originContent": "/tools:api-scaffold user CRUD operations with JWT auth and role-based access",
+    "translatedContent": "/tools:api-scaffold user CRUD operations with JWT auth and role-based access"
+  },
+  {
+    "row": 229,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 230,
+    "rowsha": "cZIyfo500oMlsmPJYWyikIGTLCKovS3ropUGl3hEAl8=",
+    "originContent": "# Review microservices architecture",
+    "translatedContent": "# Review microservices architecture"
+  },
+  {
+    "row": 231,
+    "rowsha": "x+9/qgiVEFRv7MrX0qqgT0Z5CKKCRYUIB59eWzfa29Y=",
+    "originContent": "/tools:multi-agent-review analyze our microservices for coupling and scalability issues",
+    "translatedContent": "/tools:multi-agent-review analyze our microservices for coupling and scalability issues"
+  },
+  {
+    "row": 232,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 233,
+    "rowsha": "1N+0UlV6sfeH8vZukXydxJ0UZv/J08vNtsFHfSOwTVc=",
+    "originContent": "# Optimize LLM chat application",
+    "translatedContent": "# Optimize LLM chat application"
+  },
+  {
+    "row": 234,
+    "rowsha": "xG/M0pp0m+n1T1YTF8f3Tvbv2TboElMhbK6i64cnad4=",
+    "originContent": "/tools:prompt-optimize reduce latency for customer support chatbot while maintaining accuracy",
+    "translatedContent": "/tools:prompt-optimize reduce latency for customer support chatbot while maintaining accuracy"
+  },
+  {
+    "row": 235,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 236,
+    "rowsha": "/bwsMSW9+qK7G0PJdbyz7w+91SGIudtAcCeKbroI+ug=",
+    "originContent": "# Create fraud detection pipeline",
+    "translatedContent": "# Create fraud detection pipeline"
+  },
+  {
+    "row": 237,
+    "rowsha": "wc0x1rvEhLlblzmcO08d6HJhoNug5anlXgyddB7Vzbc=",
+    "originContent": "/tools:data-pipeline real-time fraud detection with feature store and monitoring",
+    "translatedContent": "/tools:data-pipeline real-time fraud detection with feature store and monitoring"
+  },
+  {
+    "row": 238,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 239,
+    "rowsha": "T12sbxTzfGC9kSs6SqiK8Fxz7RZY+4n8cE94FUtepG0=",
+    "originContent": "# Debug production issue",
+    "translatedContent": "# Debug production issue"
+  },
+  {
+    "row": 240,
+    "rowsha": "yxCl8c8JZcPY3UC5d/h9+27oeiSg1u66RTLZwHtCAXc=",
+    "originContent": "/tools:error-trace analyze high memory usage in production pods",
+    "translatedContent": "/tools:error-trace analyze high memory usage in production pods"
+  },
+  {
+    "row": 241,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 242,
+    "rowsha": "J3MtcXHsq/1YNrjTob1QgNPxDEzb2q1/72OqDVhREM4=",
+    "originContent": "# Secure container images",
+    "translatedContent": "# Secure container images"
+  },
+  {
+    "row": 243,
+    "rowsha": "PaAVuoXuFgOB1CoH9ML+gQDMQQvEmzhqFz5n8WyRklI=",
+    "originContent": "/tools:security-scan scan and fix vulnerabilities in Docker images",
+    "translatedContent": "/tools:security-scan scan and fix vulnerabilities in Docker images"
+  },
+  {
+    "row": 244,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 245,
+    "rowsha": "myU0fhpO5qAuEK35dco7og5mX0b9U56xvfKS4KIGRL8=",
+    "originContent": "# Generate API documentation",
+    "translatedContent": "# Generate API documentation"
+  },
+  {
+    "row": 246,
+    "rowsha": "gU13lrBemXAtrrHINNqASdvz46PXvVrumgyp1/ndIdo=",
+    "originContent": "/tools:doc-generate create OpenAPI docs with examples for REST endpoints",
+    "translatedContent": "/tools:doc-generate create OpenAPI docs with examples for REST endpoints"
+  },
+  {
+    "row": 247,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 248,
+    "rowsha": "wJARcDCF7joFwxcfwXEZBu+I/nzKctKVHPcGk7emCAI=",
+    "originContent": "# Onboard new developer",
+    "translatedContent": "# Onboard new developer"
+  },
+  {
+    "row": 249,
+    "rowsha": "LQwFpDe8Ga88d6zfo3oV19KMskcWyBreMW01rPXTmwI=",
+    "originContent": "/tools:onboard Setup development environment for React/Node.js project",
+    "translatedContent": "/tools:onboard Setup development environment for React/Node.js project"
+  },
+  {
+    "row": 250,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 251,
+    "rowsha": "ln36ndQpBSeDWGzx2piuYHmFfodDgYO85lk8JpeHaR8=",
+    "originContent": "# Multi-perspective code review",
+    "translatedContent": "# Multi-perspective code review"
+  },
+  {
+    "row": 252,
+    "rowsha": "Kc5Sc4PokhTFgXhVlsDnJRkZTyDN7xpZRaU6pkjJRSg=",
+    "originContent": "/tools:multi-agent-review Review authentication module",
+    "translatedContent": "/tools:multi-agent-review Review authentication module"
+  },
+  {
+    "row": 253,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 254,
+    "rowsha": "gYxyExWXjgiXhxrBgCVnOVQLsmj8gsJDW4LCoj1kz5A=",
+    "originContent": "# Deep debugging",
+    "translatedContent": "# Deep debugging"
+  },
+  {
+    "row": 255,
+    "rowsha": "EvprV9otLnhIuiXIqaYiPYerDvuhdd6paskyMfQ51kY=",
+    "originContent": "/tools:smart-debug Investigate memory leak in production workers",
+    "translatedContent": "/tools:smart-debug Investigate memory leak in production workers"
+  },
+  {
+    "row": 256,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 257,
+    "rowsha": "aZx7llTm8VMMnxiwji6mqzy4Tujm3EW0Oj0WWQcp5pU=",
+    "originContent": "# Full-stack optimization",
+    "translatedContent": "# Full-stack optimization"
+  },
+  {
+    "row": 258,
+    "rowsha": "pdmVDhPT8k44Fi6xbj7P4EFtBLuv8k8v1t/UyT69Aqk=",
+    "originContent": "/tools:multi-agent-optimize Optimize checkout flow for better conversion",
+    "translatedContent": "/tools:multi-agent-optimize Optimize checkout flow for better conversion"
+  },
+  {
+    "row": 259,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 260,
+    "rowsha": "SLXjxPUyI8n67oWWXLyoPaV9GgWeliDpGRFZsGtm9Ow=",
+    "originContent": "# Save project context",
+    "translatedContent": "# Save project context"
+  },
+  {
+    "row": 261,
+    "rowsha": "HnHwZKyLK9oUPysZjwfDJuTureRy9D2Jp1pE9k6tjT0=",
+    "originContent": "/tools:context-save Save current project state and architectural decisions",
+    "translatedContent": "/tools:context-save Save current project state and architectural decisions"
+  },
+  {
+    "row": 262,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 263,
+    "rowsha": "EdW7QPb122SOe4pheJlJMYSj9GpXUWzTO5cSfH29f+k=",
+    "originContent": "# Restore project context",
+    "translatedContent": "# Restore project context"
+  },
+  {
+    "row": 264,
+    "rowsha": "RESI9qjnYXc8OjyTF1FNKLRtQZBBvHmX5CSQ2ps1bLc=",
+    "originContent": "/tools:context-restore Load context from last week's sprint",
+    "translatedContent": "/tools:context-restore Load context from last week's sprint"
+  },
+  {
+    "row": 265,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 266,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 267,
+    "rowsha": "ymbKXFXEtzSz2ptKqf55JRfWQE9XNBwJ6UlNnEclZrQ=",
+    "originContent": "## Enhanced Commands",
+    "translatedContent": "## Comandos Mejorados"
+  },
+  {
+    "row": 268,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 269,
+    "rowsha": "FwP1/lY1xY05np83EKyrLDrsEQp2tMpPHtrqz5cNYkQ=",
+    "originContent": "### Security & DevOps",
+    "translatedContent": "### Seguridad y DevOps"
+  },
+  {
+    "row": 270,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 271,
+    "rowsha": "P+Inp20bVF6+lWukdKVrETmdqjXJ5Jvjrlql5j2cmgE=",
+    "originContent": "#### [`/security-scan`](https://raw.githubusercontent.com/wshobson/commands/main/tools/security-scan.md)",
+    "translatedContent": "#### [`/security-scan`](https://raw.githubusercontent.com/wshobson/commands/main/tools/security-scan.md)"
+  },
+  {
+    "row": 272,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 273,
+    "rowsha": "iPiejLmfAZ+hc5pdn+kFL3XPIGagVzR0xtoEHV2R894=",
+    "originContent": "Comprehensive security scanning with automated remediation.",
+    "translatedContent": "Escaneo de seguridad integral con remediación automatizada."
+  },
+  {
+    "row": 274,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 275,
+    "rowsha": "aplunSKYeGm8JswFtkWV2iMTpK7sYQwJyUzyyXElE6M=",
+    "originContent": "- **Multi-Tool Scanning**: Bandit, Safety, Trivy, Semgrep, ESLint Security, Snyk",
+    "translatedContent": "- **Escaneo Multiherramienta**: Bandit, Safety, Trivy, Semgrep, ESLint Security, Snyk"
+  },
+  {
+    "row": 276,
+    "rowsha": "KR3bD8k/c7ZWvryapI/ynNvva8PlHseqtZZNMjPm/bs=",
+    "originContent": "- **Automated Fixes**: Common vulnerabilities auto-remediated",
+    "translatedContent": "- **Correcciones Automáticas**: Vulnerabilidades comunes remediadas automáticamente"
+  },
+  {
+    "row": 277,
+    "rowsha": "n+Yu53MAbLNGqvA9kVQFVQBhOJu7zoFzjNYBpqDCxZQ=",
+    "originContent": "- **CI/CD Integration**: Security gates for GitHub Actions/GitLab CI",
+    "translatedContent": "- **Integración CI/CD**: Puertas de seguridad para GitHub Actions/GitLab CI"
+  },
+  {
+    "row": 278,
+    "rowsha": "LKMKi/J0m0+KovmA4UFUqq1hLLxDrgofQ1l/UuS0yQ4=",
+    "originContent": "- **Container Scanning**: Image vulnerability analysis",
+    "translatedContent": "- **Escaneo de Contenedores**: Análisis de vulnerabilidades de imágenes"
+  },
+  {
+    "row": 279,
+    "rowsha": "wcCCW+HVGQgC1IqchEySLNTdnoWa3Py0aMmEpwfOwzs=",
+    "originContent": "- **Secret Detection**: GitLeaks and TruffleHog integration",
+    "translatedContent": "- **Detección de Secretos**: Integración con GitLeaks y TruffleHog"
+  },
+  {
+    "row": 280,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 281,
+    "rowsha": "uzcJYIl+I8TvZTIh3//D/2UQyT2LjFiw8oqbGzxoFYo=",
+    "originContent": "#### [`/docker-optimize`](https://raw.githubusercontent.com/wshobson/commands/main/tools/docker-optimize.md)",
+    "translatedContent": "#### [`/docker-optimize`](https://raw.githubusercontent.com/wshobson/commands/main/tools/docker-optimize.md)"
+  },
+  {
+    "row": 282,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 283,
+    "rowsha": "PGbNTZuZLTBeDkEZD2geeZJ/JEmX4AeEBkuXkEpDkyM=",
+    "originContent": "Advanced container optimization strategies.",
+    "translatedContent": "Estrategias avanzadas de optimización de contenedores."
+  },
+  {
+    "row": 284,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 285,
+    "rowsha": "LqruDu9GBgTUq3b/hgAUDV/abuk6kVMiGLhLYtwUZBs=",
+    "originContent": "- **Smart Optimization**: Analyzes and suggests improvements",
+    "translatedContent": "- **Optimización Inteligente**: Analiza y sugiere mejoras"
+  },
+  {
+    "row": 286,
+    "rowsha": "elKYQqce2TO3mbsbHQTVhSEsuWgZKzYulpKA9lXNm+0=",
+    "originContent": "- **Multi-Stage Builds**: Framework-specific optimized Dockerfiles",
+    "translatedContent": "- **Construcción Multietapa**: Dockerfiles optimizados específicos para frameworks"
+  },
+  {
+    "row": 287,
+    "rowsha": "QbpttYHFCLdaMsHGML8OHkt8Jm7VZBuFeebQB7N/L5A=",
+    "originContent": "- **Modern Tools**: BuildKit, Bun, UV for faster builds",
+    "translatedContent": "- **Herramientas Modernas**: BuildKit, Bun, UV para compilaciones más rápidas"
+  },
+  {
+    "row": 288,
+    "rowsha": "Gia5uvYSNn7qDjNk1cfysFaerdkNmKluxXoAdZhxVs8=",
+    "originContent": "- **Security Hardening**: Distroless images, non-root users",
+    "translatedContent": "- **Refuerzo de Seguridad**: Imágenes distroless, usuarios sin privilegios"
+  },
+  {
+    "row": 289,
+    "rowsha": "0r8sbOMArWR87lGqd8lpUx3F2Yw8QyQdcA3mtzXoyro=",
+    "originContent": "- **Cross-Command Integration**: Works with /api-scaffold outputs",
+    "translatedContent": "- **Integración entre Comandos**: Funciona con salidas de /api-scaffold"
+  },
+  {
+    "row": 290,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 291,
+    "rowsha": "h+MznbB6StRJx4OrR7+m4vl6lYKqNkMlKXYKlBTAVog=",
+    "originContent": "#### [`/k8s-manifest`](https://raw.githubusercontent.com/wshobson/commands/main/tools/k8s-manifest.md)",
+    "translatedContent": "#### [`/k8s-manifest`](https://raw.githubusercontent.com/wshobson/commands/main/tools/k8s-manifest.md)"
+  },
+  {
+    "row": 292,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 293,
+    "rowsha": "du/mGcLb0VrNEcij9uHI07hXz1fYZQBDkVlCXgH2SDU=",
+    "originContent": "Production-grade Kubernetes deployments.",
+    "translatedContent": "Despliegues de Kubernetes a nivel de producción."
+  },
+  {
+    "row": 294,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 295,
+    "rowsha": "wWDWZY2aCDUOWoeGyD9k/4wzQZkPdUiD2Uh31h36aGg=",
+    "originContent": "- **Advanced Patterns**: Pod Security Standards, Network Policies, OPA",
+    "translatedContent": "- **Patrones Avanzados**: Estándares de seguridad de pods, políticas de red, OPA"
+  },
+  {
+    "row": 296,
+    "rowsha": "DPAkC9Ft5gKUCMwgV8w9c/5/EhfHhealnGka0fQMaiQ=",
+    "originContent": "- **GitOps Ready**: FluxCD and ArgoCD configurations",
+    "translatedContent": "- **Preparado para GitOps**: Configuraciones de FluxCD y ArgoCD"
+  },
+  {
+    "row": 297,
+    "rowsha": "9wcVA7kIu4v5rv+EHOtnzPBkzBlrTb1lP6Etgy2ohj0=",
+    "originContent": "- **Observability**: Prometheus ServiceMonitors, OpenTelemetry",
+    "translatedContent": "- **Observabilidad**: ServiceMonitors de Prometheus, OpenTelemetry"
+  },
+  {
+    "row": 298,
+    "rowsha": "KCpBUC76stkqzoSR2yZVxVfKMaWoou5Cmc/PsWG2bcI=",
+    "originContent": "- **Auto-Scaling**: HPA, VPA, and cluster autoscaler configs",
+    "translatedContent": "- **Autoescalado**: Configuraciones de HPA, VPA y autoscaler de clúster"
+  },
+  {
+    "row": 299,
+    "rowsha": "caKHx2I7qDAWOM3Xn5ljg2ryRWo0ur2ODiv/4H9Ceyo=",
+    "originContent": "- **Service Mesh**: Istio/Linkerd integration",
+    "translatedContent": "- **Malla de Servicios**: Integración con Istio/Linkerd"
+  },
+  {
+    "row": 300,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 301,
+    "rowsha": "eDR9c34DgyDAd8Ki4xagey/ZyUb2N9FkhAekl8CLHZw=",
+    "originContent": "### Frontend & Data",
+    "translatedContent": "### Frontend y Datos"
+  },
+  {
+    "row": 302,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 303,
+    "rowsha": "rb1uc9cZOEnt0cUDoXU6Nxbs8hC2Su56DOf7mMq5OEk=",
+    "originContent": "#### [`/db-migrate`](https://raw.githubusercontent.com/wshobson/commands/main/tools/db-migrate.md)",
+    "translatedContent": "#### [`/db-migrate`](https://raw.githubusercontent.com/wshobson/commands/main/tools/db-migrate.md)"
+  },
+  {
+    "row": 304,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 305,
+    "rowsha": "k45xIc1xi4YmOitmAcKcZ8B28XHr6IfvYHD//Vr8YRA=",
+    "originContent": "Advanced database migration strategies.",
+    "translatedContent": "Estrategias avanzadas de migración de bases de datos."
+  },
+  {
+    "row": 306,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 307,
+    "rowsha": "S56Crg9bOYuaRm5d4gGvCyigZc4wC1baJ4QmVg38DJQ=",
+    "originContent": "- **Multi-Database**: PostgreSQL, MySQL, MongoDB, DynamoDB",
+    "translatedContent": "- **Multi-Database**: PostgreSQL, MySQL, MongoDB, DynamoDB"
+  },
+  {
+    "row": 308,
+    "rowsha": "YtsZGRJQSgI0bXzslPp5emSCH1Lg4/iIscvtpoM5uBA=",
+    "originContent": "- **Zero-Downtime**: Blue-green deployments, rolling migrations",
+    "translatedContent": "- **Sin Tiempo de Inactividad**: Despliegues blue-green, migraciones rodantes"
+  },
+  {
+    "row": 309,
+    "rowsha": "8npL/1pQRlmda+3VhnmyJ7Tlud1QCTJrnr127TqrcE4=",
+    "originContent": "- **Event Sourcing**: Kafka/Kinesis integration for CDC",
+    "translatedContent": "- **Event Sourcing**: Integración con Kafka/Kinesis para CDC"
+  },
+  {
+    "row": 310,
+    "rowsha": "5/bfvalVr4FihauQl9NJ5v4y08wODMFCo/HAIzE/oa8=",
+    "originContent": "- **Cross-Platform**: Handles polyglot persistence",
+    "translatedContent": "- **Multiplataforma**: Maneja persistencia poliglota"
+  },
+  {
+    "row": 311,
+    "rowsha": "DlEr0N5qI0dOzu+mr+PR4FyvEuRXb/9qZF/9FqQCCnc=",
+    "originContent": "- **Monitoring**: Migration health checks and rollback",
+    "translatedContent": "- **Monitoreo**: Verificaciones de salud de migraciones y reversión"
+  },
+  {
+    "row": 312,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 313,
+    "rowsha": "vq5YUt8Mih/BY6fTW3CoEDJQN3o8cVqhyQc6oFQhZpY=",
+    "originContent": "## Combining Workflows and Tools",
+    "translatedContent": "## Combinando Flujos de Trabajo y Herramientas"
+  },
+  {
+    "row": 314,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 315,
+    "rowsha": "eoZAgsMnnC1tQiXbrx1R7MQANPImKz9dok6QTTrYNKw=",
+    "originContent": "The real power comes from combining workflows and tools for complete development cycles:",
+    "translatedContent": "El verdadero poder proviene de combinar flujos de trabajo y herramientas para ciclos completos de desarrollo:"
+  },
+  {
+    "row": 316,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 317,
+    "rowsha": "sQ0q2izzx5UxgKlno0OSUC7ucl93+BqAcZ6Us4wuTcs=",
+    "originContent": "### Example: Building a New Feature",
+    "translatedContent": "### Ejemplo: Creando una Nueva Funcionalidad"
+  },
+  {
+    "row": 318,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 319,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 320,
+    "rowsha": "oVN/skuHv10578mmOiSWvjbjDMLe1WZF7gsS7/mix7Q=",
+    "originContent": "# 1. Use a workflow to implement the feature with multiple subagents",
+    "translatedContent": "# 1. Use a workflow to implement the feature with multiple subagents"
+  },
+  {
+    "row": 321,
+    "rowsha": "OEteWMLFy+ShGHO1PN5o2c3jzSQOli+wOi5uQk0PV0s=",
+    "originContent": "/workflows:feature-development Add real-time chat feature with WebSocket support",
+    "translatedContent": "/workflows:feature-development Add real-time chat feature with WebSocket support"
+  },
+  {
+    "row": 322,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 323,
+    "rowsha": "PGP/9S5zNp3zte4ojV4cSPR+EkqkJc1Cy7E69bLanQ8=",
+    "originContent": "# 2. Use tools for specific enhancements",
+    "translatedContent": "# 2. Use tools for specific enhancements"
+  },
+  {
+    "row": 324,
+    "rowsha": "g9G7hjuYIVbD4eMbtX0k3fHO1RLpRt3V5VUpqVDF5S8=",
+    "originContent": "/tools:test-harness Add integration tests for WebSocket connections",
+    "translatedContent": "/tools:test-harness Add integration tests for WebSocket connections"
+  },
+  {
+    "row": 325,
+    "rowsha": "ogwMdJQOG0x9ytEmsF/fF8CxIm8VbOtV/RFSFwFLL0c=",
+    "originContent": "/tools:security-scan Check for WebSocket vulnerabilities",
+    "translatedContent": "/tools:security-scan Check for WebSocket vulnerabilities"
+  },
+  {
+    "row": 326,
+    "rowsha": "IVQCULFgrzEjoBQvlSimA6lkoAcSTd5NAoShtQ78Eow=",
+    "originContent": "/tools:docker-optimize Optimize container for WebSocket connections",
+    "translatedContent": "/tools:docker-optimize Optimize container for WebSocket connections"
+  },
+  {
+    "row": 327,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 328,
+    "rowsha": "ajOXMZ5Uyt3/pL2buuV3hCyD/WcB8wGRjSFYGwD0dZk=",
+    "originContent": "# 3. Use a workflow for comprehensive review",
+    "translatedContent": "# 3. Use a workflow for comprehensive review"
+  },
+  {
+    "row": 329,
+    "rowsha": "6hx+fhgGCUS7PrrHDViw27sfrcvL04aXRt+uqnheles=",
+    "originContent": "/workflows:full-review Review the entire chat feature implementation",
+    "translatedContent": "/workflows:full-review Review the entire chat feature implementation"
+  },
+  {
+    "row": 330,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 331,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 332,
+    "rowsha": "OQC+uepb+HUVLaf7l/U15KY1wglq4mYB4DN3vOSmaSQ=",
+    "originContent": "# 1. Start with the modernization workflow",
+    "translatedContent": "# 1. Start with the modernization workflow"
+  },
+  {
+    "row": 333,
+    "rowsha": "3VzzKKCZKcyEJtYGd0sVvu54f2CypGuwFqsE+IASSI0=",
+    "originContent": "/workflows:legacy-modernize Migrate Express.js v4 app to modern architecture",
+    "translatedContent": "/workflows:legacy-modernize Migrate Express.js v4 app to modern architecture"
+  },
+  {
+    "row": 334,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 335,
+    "rowsha": "UQ/r9WYvHvATLCtEOrC9CQudoDSwCdLqT9HowVoBoCE=",
+    "originContent": "# 2. Use specific tools for cleanup",
+    "translatedContent": "# 2. Use specific tools for cleanup"
+  },
+  {
+    "row": 336,
+    "rowsha": "bMl2sSHA/ICMxrJPvm9QaHBXmq+V30KxRmZLoQsV+dc=",
+    "originContent": "/tools:deps-upgrade Update all dependencies to latest versions",
+    "translatedContent": "/tools:deps-upgrade Update all dependencies to latest versions"
+  },
+  {
+    "row": 337,
+    "rowsha": "wrGIfrbjl9iB15jpu2AhIJ/GhGnp+Qz2a1lJWtbcuNY=",
+    "originContent": "/tools:refactor-clean Remove deprecated patterns and dead code",
+    "translatedContent": "/tools:refactor-clean Remove deprecated patterns and dead code"
+  },
+  {
+    "row": 338,
+    "rowsha": "1f7js3CEokswdQabnVowyslSS+oRdZAGpOMtmMkoTEY=",
+    "originContent": "/tools:test-harness Ensure 100% test coverage",
+    "translatedContent": "/tools:test-harness Ensure 100% test coverage"
+  },
+  {
+    "row": 339,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 340,
+    "rowsha": "lFeeSAAokj2ZRXahxzb64iPLhmj0qo9WI1OBN87U+No=",
+    "originContent": "# 3. Optimize and deploy",
+    "translatedContent": "# 3. Optimize and deploy"
+  },
+  {
+    "row": 341,
+    "rowsha": "xF0YYfkH0uz+GFTfp3iv3+aSCGnrX4jJj8ylTOmqRro=",
+    "originContent": "/tools:docker-optimize Create multi-stage production build",
+    "translatedContent": "/tools:docker-optimize Create multi-stage production build"
+  },
+  {
+    "row": 342,
+    "rowsha": "hoRJLAzWO429ky+GMHm27YtKN0QOQIslmNQB47bKrNg=",
+    "originContent": "/tools:k8s-manifest Deploy with zero-downtime strategy",
+    "translatedContent": "/tools:k8s-manifest Deploy with zero-downtime strategy"
+  },
+  {
+    "row": 343,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 344,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 345,
+    "rowsha": "SiAfnx8Eq4iN9+IUPH8SdZHktEp1b5R9niOQZAsczZ8=",
+    "originContent": "# Build → Test → Secure → Deploy pipeline",
+    "translatedContent": "# Build → Test → Secure → Deploy pipeline"
+  },
+  {
+    "row": 346,
+    "rowsha": "rmHGjT7I4r2ILXqqhMFFVkY8sUGWd2/KuumRcO6cPwo=",
+    "originContent": "/tools:api-scaffold user management API",
+    "translatedContent": "/tools:api-scaffold user management API"
+  },
+  {
+    "row": 347,
+    "rowsha": "Se+p3mS5nN7yLeQpFV9S8xM0vkOalixF3MXuxHhtGfg=",
+    "originContent": "/tools:test-harness comprehensive test suite for user API  ",
+    "translatedContent": "/tools:test-harness comprehensive test suite for user API  "
+  },
+  {
+    "row": 348,
+    "rowsha": "dEE3GQYPixNOemCn4jwhyFl8ggZ0c0z6x3lTo7Cw3S8=",
+    "originContent": "/tools:security-scan check user API for vulnerabilities",
+    "translatedContent": "/tools:security-scan check user API for vulnerabilities"
+  },
+  {
+    "row": 349,
+    "rowsha": "SSFspbdy8yQEhwOh55SivCSa12mWt8pGJE5akukg2GQ=",
+    "originContent": "/tools:k8s-manifest deploy user API to production",
+    "translatedContent": "/tools:k8s-manifest deploy user API to production"
+  },
+  {
+    "row": 350,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 351,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 352,
+    "rowsha": "1psOokVQOv0kxctOjLpOEubLmSLXmKB4TrjWSMTZ4po=",
+    "originContent": "# Multiple perspectives on the same codebase",
+    "translatedContent": "# Multiple perspectives on the same codebase"
+  },
+  {
+    "row": 353,
+    "rowsha": "TtPdhX9ewHlyeYG7knXEuHVzsOphHQYOn1UvtwGLWbY=",
+    "originContent": "/tools:multi-agent-review comprehensive architecture and code review",
+    "translatedContent": "/tools:multi-agent-review comprehensive architecture and code review"
+  },
+  {
+    "row": 354,
+    "rowsha": "7a3G5X3rNAe2Bq4PIwN82cL5AveVFeccwA0aHqTXOas=",
+    "originContent": "/tools:security-scan audit security posture  ",
+    "translatedContent": "/tools:security-scan audit security posture  "
+  },
+  {
+    "row": 355,
+    "rowsha": "78DYLgyeBxMTVNQFy3t77bBgbYfeaRkfXe41z/VS30E=",
+    "originContent": "/workflows:performance-optimization identify and fix bottlenecks",
+    "translatedContent": "/workflows:performance-optimization identify and fix bottlenecks"
+  },
+  {
+    "row": 356,
+    "rowsha": "1iQadXMvlHV+EnyEvRE3CUzH9CXaSEijfHm9g1seo/Y=",
+    "originContent": "# Then consolidate findings",
+    "translatedContent": "# Then consolidate findings"
+  },
+  {
+    "row": 357,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 358,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 359,
+    "rowsha": "jo6S8m4IkxKO7vZy4DOQeVHSKHuT22zpk2sGxpFd7uo=",
+    "originContent": "# Start broad, then narrow focus",
+    "translatedContent": "# Start broad, then narrow focus"
+  },
+  {
+    "row": 360,
+    "rowsha": "T/FNQJoRWyHfSq4Q+U/YF7okTYWIiXmnF9L5bNxN+oE=",
+    "originContent": "/workflows:feature-development implement payment processing",
+    "translatedContent": "/workflows:feature-development implement payment processing"
+  },
+  {
+    "row": 361,
+    "rowsha": "I9rT+6ZN5MV5YJlPPaoXfpGyxi6Ua8zuFA64WYaBBBg=",
+    "originContent": "/tools:security-scan focus on payment security",
+    "translatedContent": "/tools:security-scan focus on payment security"
+  },
+  {
+    "row": 362,
+    "rowsha": "Yoex5Sj8h7k/nmvNXd6gOTxPlKjywqP7Ux9FOU3/lzM=",
+    "originContent": "/tools:compliance-check ensure PCI compliance",
+    "translatedContent": "/tools:compliance-check ensure PCI compliance"
+  },
+  {
+    "row": 363,
+    "rowsha": "ozjIDVD2sHU+SQGPTBsUHl4sFFevM85KTcydgPn6MdM=",
+    "originContent": "/tools:test-harness add payment-specific tests",
+    "translatedContent": "/tools:test-harness add payment-specific tests"
+  },
+  {
+    "row": 364,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 365,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 366,
+    "rowsha": "J4ps38nTr8oEE+mSWvwX6mSxnBv0zK5xTovGByfaCLk=",
+    "originContent": "# Frontend + Backend + Infrastructure",
+    "translatedContent": "# Frontend + Backend + Infrastructure"
+  },
+  {
+    "row": 367,
+    "rowsha": "62f64WsZWbF5BBCP+J/ntjCEmh36D5JB5wnP1GLajbo=",
+    "originContent": "/tools:api-scaffold backend payment API",
+    "translatedContent": "/tools:api-scaffold backend payment API"
+  },
+  {
+    "row": 368,
+    "rowsha": "hisnWm/0/MCB8AJd3fklSpsX/MEf0ltsyujCI2/oR5E=",
+    "originContent": "/tools:multi-agent-optimize optimize payment flow performance",
+    "translatedContent": "/tools:multi-agent-optimize optimize payment flow performance"
+  },
+  {
+    "row": 369,
+    "rowsha": "IzwaDXmMon09BfvNuhj331eVcHXw9vHvVEsg+mrxCdo=",
+    "originContent": "/tools:docker-optimize containerize payment service",
+    "translatedContent": "/tools:docker-optimize containerize payment service"
+  },
+  {
+    "row": 370,
+    "rowsha": "FU3sP2KieaSSjCNcvTqHcDxK4KqzjweVgUeRvsFpGXQ=",
+    "originContent": "/tools:monitor-setup payment metrics and alerts",
+    "translatedContent": "/tools:monitor-setup payment metrics and alerts"
+  },
+  {
+    "row": 371,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 372,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 373,
+    "rowsha": "9RL7R/xrM1S9V349vi7T7RW2TX4CgY5PvmwECnorTT0=",
+    "originContent": "## When to Use Workflows vs Tools",
+    "translatedContent": "## Cuándo usar Flujos de Trabajo vs Herramientas"
+  },
+  {
+    "row": 374,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 375,
+    "rowsha": "OhD95nHn6oeKVqdu93RUqc1G/Umfq8J3Ozw5TQ5Pe3Y=",
+    "originContent": "### 🔀 Workflows & Subagent Tools",
+    "translatedContent": "### 🔀 Flujos de trabajo y herramientas de subagente"
+  },
+  {
+    "row": 376,
+    "rowsha": "s8SL6we79qfB4bHHel9Y+7D59GX1ZxPky/hBV8Ua21Y=",
+    "originContent": "- **Problem-solving**: Analyze and fix issues adaptively",
+    "translatedContent": "- **Resolución de problemas**: Analizar y solucionar problemas de forma adaptativa"
+  },
+  {
+    "row": 377,
+    "rowsha": "xveZROw3QKuqb/4bmW5NZfQf3+hEmrbRTbZVON6ADF8=",
+    "originContent": "- **Multiple perspectives**: Coordinate specialist subagents",
+    "translatedContent": "- **Múltiples perspectivas**: Coordinar subagentes especialistas"
+  },
+  {
+    "row": 378,
+    "rowsha": "+8rJ/Nk/DIALAF1ovsobTfL0/TP2JUIeIlTw39AJWLo=",
+    "originContent": "- **Complex tasks**: Multi-step processes across domains",
+    "translatedContent": "- **Tareas complejas**: Procesos de varios pasos en diferentes dominios"
+  },
+  {
+    "row": 379,
+    "rowsha": "jdpK/64pTdr8dUFYf+ELS/e7YZ1zoIh4ylcOMifwwRw=",
+    "originContent": "- **Unknown solutions**: Let subagents determine approach",
+    "translatedContent": "- **Soluciones desconocidas**: Permitir que los subagentes determinen el enfoque"
+  },
+  {
+    "row": 380,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 381,
+    "rowsha": "++3crz1YmJkQYN9qim834pZxD5JJ4tApqPqOYsgn4+U=",
+    "originContent": "### 🛠️ Specialized Tools",
+    "translatedContent": "### 🛠️ Herramientas especializadas"
+  },
+  {
+    "row": 382,
+    "rowsha": "l/Whg3a2vJqGRxdpMmR0x7JOYAGzTpKU/Lo+X5dpygA=",
+    "originContent": "- **Infrastructure setup**: Configure environments",
+    "translatedContent": "- **Configuración de infraestructura**: Configurar entornos"
+  },
+  {
+    "row": 383,
+    "rowsha": "3SVws2eaAG/geKUuhLh4nXdgp19uxtQrqDSPPpJ0H1U=",
+    "originContent": "- **Code generation**: Create specific implementations",
+    "translatedContent": "- **Generación de código**: Crear implementaciones específicas"
+  },
+  {
+    "row": 384,
+    "rowsha": "mmS0MVJnEfcp0wzwSpdpbBsM1qHHGQpglJQ+mnPqvMM=",
+    "originContent": "- **Analysis**: Generate reports without fixes",
+    "translatedContent": "- **Análisis**: Generar informes sin aplicar correcciones"
+  },
+  {
+    "row": 385,
+    "rowsha": "OuKl3CpMLWhk9vbmacMiwG+U5oyqKe+hYpnkmVGk87k=",
+    "originContent": "- **Domain tasks**: Highly specialized operations",
+    "translatedContent": "- **Tareas de dominio**: Operaciones altamente especializadas"
+  },
+  {
+    "row": 386,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 387,
+    "rowsha": "ugAtXnsX4W5FlPLPw/LlcjAhxgmcaysUmVW7oTBYKxg=",
+    "originContent": "**Examples:**",
+    "translatedContent": "**Ejemplos:**"
+  },
+  {
+    "row": 388,
+    "rowsha": "1kSiclMBmBfOe78gjOhuup1xyqAHZRuiHZRr4TqOyPQ=",
+    "originContent": "- \"Implement user authentication system\" → `/workflows:feature-development`",
+    "translatedContent": "- \"Implementar sistema de autenticación de usuarios\" → `/workflows:feature-development`"
+  },
+  {
+    "row": 389,
+    "rowsha": "+nFYSKn++K3yjb9RLYAH8fYKRHhd9bnhlaTwI5nDELo=",
+    "originContent": "- \"Fix performance issues across the stack\" → `/workflows:smart-fix`",
+    "translatedContent": "- \"Solucionar problemas de rendimiento en toda la pila\" → `/workflows:smart-fix`"
+  },
+  {
+    "row": 390,
+    "rowsha": "PTPN6E1FD4y0Zu6SfgMnUe9p5fNu5qIwFyVpYvhBJEI=",
+    "originContent": "- \"Modernize legacy monolith\" → `/workflows:legacy-modernize`",
+    "translatedContent": "- \"Modernizar monolito heredado\" → `/workflows:legacy-modernize`"
+  },
+  {
+    "row": 391,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 392,
+    "rowsha": "ok1FkaRZqHOh8sT7TU5nK9LVuMAPIxHpAez7wVrLtZY=",
+    "originContent": "### 🔧 Use Tools When:",
+    "translatedContent": "### 🔧 Usar herramientas cuando:"
+  },
+  {
+    "row": 393,
+    "rowsha": "sqrT1NeNABvx6zg0rjUMPi1tq+TNhKmafd7xQypLSyo=",
+    "originContent": "- **Specific expertise needed** - Clear, focused task in one domain",
+    "translatedContent": "- **Se necesita experiencia específica** - Tarea clara y enfocada en un solo dominio"
+  },
+  {
+    "row": 394,
+    "rowsha": "SmFhaIl2Lg5axHMG0aWg8pd5/DGmsKchauXjRytq++g=",
+    "originContent": "- **Precise control desired** - Want to direct specific implementation details",
+    "translatedContent": "- **Se desea control preciso** - Querer dirigir detalles específicos de implementación"
+  },
+  {
+    "row": 395,
+    "rowsha": "/HVgVTL4jry5clwlQiksOvV4D3MlLFtg720qZ2I8Uzo=",
+    "originContent": "- **Part of manual workflow** - Integrating into existing processes",
+    "translatedContent": "- **Parte de un flujo de trabajo manual** - Integración en procesos existentes"
+  },
+  {
+    "row": 396,
+    "rowsha": "lFJNmVKqATTP8i8SHmtVtnjOEQzG6Tio2zahVv+giIw=",
+    "originContent": "- **Deep specialization required** - Need expert-level implementation",
+    "translatedContent": "- **Se requiere alta especialización** - Necesidad de implementación a nivel experto"
+  },
+  {
+    "row": 397,
+    "rowsha": "wyD5+w30UejBGa4P/yzeUR0sQlBWBVz8Xt7ZlH0/56E=",
+    "originContent": "- **Building on existing work** - Enhancing or refining previous outputs",
+    "translatedContent": "- **Basado en trabajo existente** - Mejorar o refinar resultados previos"
+  },
+  {
+    "row": 398,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 399,
+    "rowsha": "ugAtXnsX4W5FlPLPw/LlcjAhxgmcaysUmVW7oTBYKxg=",
+    "originContent": "**Examples:**",
+    "translatedContent": "**Ejemplos:**"
+  },
+  {
+    "row": 400,
+    "rowsha": "Uisru/6XQchyPQoG9Tt1uHBUwki6UaL+kYa0YGmFcQc=",
+    "originContent": "- \"Create Kubernetes manifests\" → `/tools:k8s-manifest`",
+    "translatedContent": "- \"Crear manifiestos de Kubernetes\" → `/tools:k8s-manifest`"
+  },
+  {
+    "row": 401,
+    "rowsha": "VdWvE9NYeqzwp9SD8vXwshIyzu6u6S8I5iyBN6utO5E=",
+    "originContent": "- \"Scan for security vulnerabilities\" → `/tools:security-scan`",
+    "translatedContent": "- \"Escanear vulnerabilidades de seguridad\" → `/tools:security-scan`"
+  },
+  {
+    "row": 402,
+    "rowsha": "k4q3H1LjJGqfe8bg0qCY0Pp3swoEpXXitjo/jStNdrc=",
+    "originContent": "- \"Generate API documentation\" → `/tools:doc-generate`",
+    "translatedContent": "- \"Generar documentación de API\" → `/tools:doc-generate`"
+  },
+  {
+    "row": 403,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 404,
+    "rowsha": "DeGnpjVgfqzJ82R1kdwyO/OJNws8KSnshSXrecRgVFk=",
+    "originContent": "## Command Format",
+    "translatedContent": "## Formato de comando"
+  },
+  {
+    "row": 405,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 406,
+    "rowsha": "+WB7QvX8g4VKtl0yYuaZJb7xB86WkxQZ4Zo+xA/9sTo=",
+    "originContent": "Slash commands are simple markdown files where:",
+    "translatedContent": "Los comandos de barra son archivos markdown simples donde:"
+  },
+  {
+    "row": 407,
+    "rowsha": "ri+vCNjGjJ0BPqV7cAjuiHmg+bxUNiWlyp+51iVj2Sg=",
+    "originContent": "- The filename becomes the command name (e.g., `tools/api-scaffold.md` → `/tools:api-scaffold`)",
+    "translatedContent": "- El nombre del archivo se convierte en el nombre del comando (ej.: `tools/api-scaffold.md` → `/tools:api-scaffold`)"
+  },
+  {
+    "row": 408,
+    "rowsha": "KiSROGEek5GoQOSq0tGepsEkuR3n3ec5Q8/wphnE3RM=",
+    "originContent": "- The file content is the prompt/instructions executed when invoked",
+    "translatedContent": "- El contenido del archivo es el prompt/instrucciones ejecutadas al invocar"
+  },
+  {
+    "row": 409,
+    "rowsha": "GsZLtiQnvj7PKJ7LOgu3k19E318hxhxAipP9a046z40=",
+    "originContent": "- Use `$ARGUMENTS` placeholder for user input",
+    "translatedContent": "- Use el marcador `$ARGUMENTS` para la entrada del usuario"
+  },
+  {
+    "row": 410,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 411,
+    "rowsha": "D0Q/1tx0tI6c2GIh3eW5hOR5oD5PFrsuC21txCOwOpM=",
+    "originContent": "## Best Practices",
+    "translatedContent": "## Mejores prácticas"
+  },
+  {
+    "row": 412,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 413,
+    "rowsha": "YLbiBzq6i857N3ZE3/aBN4iKco2mYLzE4sAgsYvh9NE=",
+    "originContent": "### Command Selection",
+    "translatedContent": "### Selección de Comandos"
+  },
+  {
+    "row": 414,
+    "rowsha": "QgXk33oYBp+9368D1N1iKtVyQtS4riuBwqvEynT5il4=",
+    "originContent": "- **Let Claude Code suggest automatically** - Analyzes context and selects optimal commands",
+    "translatedContent": "- **Deja que Claude Code sugiera automáticamente** - Analiza el contexto y selecciona los comandos óptimos"
+  },
+  {
+    "row": 415,
+    "rowsha": "hJVtYjl0yx4vtqj11QwQSZSspaO23uUaOqvm8v9yXX4=",
+    "originContent": "- **Use workflows for complex tasks** - Subagents coordinate multi-domain implementations",
+    "translatedContent": "- **Usa flujos de trabajo para tareas complejas** - Subagentes coordinan implementaciones multidominio"
+  },
+  {
+    "row": 416,
+    "rowsha": "Sf/aIPoqEPMFt9d5woml89vVLuuAnf655Rx5CIf8j9g=",
+    "originContent": "- **Use tools for focused tasks** - Apply specific commands for targeted improvements",
+    "translatedContent": "- **Usa herramientas para tareas enfocadas** - Aplica comandos específicos para mejoras dirigidas"
+  },
+  {
+    "row": 417,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 418,
+    "rowsha": "ddZMNZs65n5k5QpW+2lDExA5Xvj98+aMn5uiMcBEtTc=",
+    "originContent": "### Effective Usage",
+    "translatedContent": "### Uso Efectivo"
+  },
+  {
+    "row": 419,
+    "rowsha": "1qwx9/9t9qrxZ7uBPKFkr/pWcx7iYUQ7kT4YO5nihM8=",
+    "originContent": "- **Provide comprehensive context** - Include tech stack, constraints, and requirements",
+    "translatedContent": "- **Proporciona contexto integral** - Incluye pila tecnológica, restricciones y requisitos"
+  },
+  {
+    "row": 420,
+    "rowsha": "2X1WMEpu3aZulLXk+J8e1G0WE1DJvfZIdj4l2SzeSuY=",
+    "originContent": "- **Chain commands strategically** - Workflows → Tools → Refinements",
+    "translatedContent": "- **Encadena comandos estratégicamente** - Flujos de trabajo → Herramientas → Refinamientos"
+  },
+  {
+    "row": 421,
+    "rowsha": "xn3c50N18V+qRMpjarl3A2sCxrfLT3DFwAyk1PZ11Sg=",
+    "originContent": "- **Build on previous outputs** - Commands are designed to work together",
+    "translatedContent": "- **Construye sobre salidas previas** - Los comandos están diseñados para funcionar juntos"
+  },
+  {
+    "row": 422,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 423,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## Contribuir"
+  },
+  {
+    "row": 424,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 425,
+    "rowsha": "kw64F2z5rUPoyRLgySf70rBU4vvo3WVdv9ySMfN9K8g=",
+    "originContent": "1. Create `.md` file in `workflows/` or `tools/`",
+    "translatedContent": "1. Crea archivo `.md` en `workflows/` o `tools/`"
+  },
+  {
+    "row": 426,
+    "rowsha": "Sps8MzolBzSiiKNT4UF/WoGOUbCZqw7qo3ynZXGymfc=",
+    "originContent": "2. Use lowercase-hyphen-names",
+    "translatedContent": "2. Usa nombres en minúscula-con-guiones"
+  },
+  {
+    "row": 427,
+    "rowsha": "ljTs9FHj4X4nkK0Nkq2wJZ/6ykW7JfY6HDMlXQZIaoY=",
+    "originContent": "3. Include `$ARGUMENTS` for user input",
+    "translatedContent": "3. Incluye `$ARGUMENTS` para la entrada del usuario"
+  },
+  {
+    "row": 428,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 429,
+    "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+    "originContent": "## Troubleshooting",
+    "translatedContent": "## Resolución de Problemas"
+  },
+  {
+    "row": 430,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 431,
+    "rowsha": "LTiVIe8Oq25AQq5wlxSeyT04Ju0RQ/xfH09Hlb1IPGE=",
+    "originContent": "**Command not found**: ",
+    "translatedContent": "**Comando no encontrado**: "
+  },
+  {
+    "row": 432,
+    "rowsha": "soCug/z+QUVPcFdBzdaiVej4knyKkeUtnkuSD/ukFDo=",
+    "originContent": "- Check files are in `~/.claude/commands/tools/` or `~/.claude/commands/workflows/`",
+    "translatedContent": "- Verifica que los archivos estén en `~/.claude/commands/tools/` o `~/.claude/commands/workflows/`"
+  },
+  {
+    "row": 433,
+    "rowsha": "v1eEYXA/QNLtB6S1/7uOwuBLFivNe1Pp0H3rhDmSL5c=",
+    "originContent": "- Use the correct prefix: `/tools:command-name` or `/workflows:command-name`",
+    "translatedContent": "- Usa el prefijo correcto: `/tools:nombre-del-comando` o `/workflows:nombre-del-comando`"
+  },
+  {
+    "row": 434,
+    "rowsha": "QIwQi1FKKp2BtAIQfnN6rcFlPKTRbnhlX1ggnHdSz2g=",
+    "originContent": "- Or flatten directories if you prefer no prefixes: `cp tools/*.md . && cp workflows/*.md .`",
+    "translatedContent": "- O aplana los directorios si prefieres sin prefijos: `cp tools/*.md . && cp workflows/*.md .`"
+  },
+  {
+    "row": 435,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 436,
+    "rowsha": "nBkVy1vRRtEchMQtCoWX6mHBLAq+2Gzi1t4r8sbh3Y0=",
+    "originContent": "**Workflows slow**: Normal - they coordinate multiple subagents",
+    "translatedContent": "**Flujos de trabajo lentos**: Normal - coordinan múltiples subagentes"
+  },
+  {
+    "row": 437,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 438,
+    "rowsha": "6KbrwqYeo/ZoETVJ7S2rzfoGj2FE6HuTcb2/jE3/sV8=",
+    "originContent": "**Generic output**: Add more specific context about your tech stack",
+    "translatedContent": "**Salida genérica**: Añade contexto más específico sobre tu pila tecnológica"
+  },
+  {
+    "row": 439,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 440,
+    "rowsha": "YAmwRvAEGso2B9OZubUFUaGpXPHUloezQVxi8xXIu2o=",
+    "originContent": "**Integration issues**: Verify file paths and command sequence",
+    "translatedContent": "**Problemas de integración**: Verifica rutas de archivos y secuencia de comandos"
+  },
+  {
+    "row": 441,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 442,
+    "rowsha": "n0XmI6N5m7KNWb7OgZaZ8rZBxprlQqxcuTAflJdg9sw=",
+    "originContent": "## Performance Tips",
+    "translatedContent": "## Consejos de Rendimiento"
+  },
+  {
+    "row": 443,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 444,
+    "rowsha": "XwtJlMUdo0SzGu11j9QBRxXMJK2EgOduyTXveaO695o=",
+    "originContent": "**Command Selection:**",
+    "translatedContent": "**Selección de Comandos:**"
+  },
+  {
+    "row": 445,
+    "rowsha": "tDABk2ZGUJEwVZKfSuZ7DvwzF0w/MtTAMvJ2oVi+fCQ=",
+    "originContent": "- **Workflows**: Multi-subagent coordination for complex features",
+    "translatedContent": "- **Flujos de trabajo**: Coordinación de múltiples subagentes para funciones complejas"
+  },
+  {
+    "row": 446,
+    "rowsha": "ZMth6RL5xSe7003PPXL65j5my63ASvP4KGMBZxVnV64=",
+    "originContent": "- **Tools**: Single-purpose operations for specific tasks",
+    "translatedContent": "- **Herramientas**: Operaciones de un solo propósito para tareas específicas"
+  },
+  {
+    "row": 447,
+    "rowsha": "FfqlQ7mWc6ReH6RRhH2QDhpM1iAEMpR7dS88x2rULyU=",
+    "originContent": "- **Simple edits**: Stay with main agent",
+    "translatedContent": "- **Ediciones simples**: Quédate con el agente principal"
+  },
+  {
+    "row": 448,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 449,
+    "rowsha": "6OZTzXgBaeRr/+asI+46eb/UZ8/jkOTJNcbJ0oJLfr8=",
+    "originContent": "**Optimization:**",
+    "translatedContent": "**Optimización:**"
+  },
+  {
+    "row": 450,
+    "rowsha": "/YoASjom2dDI+qRuufUUvVtNjwUglV2Zn9kveCalUP0=",
+    "originContent": "- Start with tools for known problems",
+    "translatedContent": "- Comienza con herramientas para problemas conocidos"
+  },
+  {
+    "row": 451,
+    "rowsha": "vWkkUhxRMVcrsNeyXMBAsbqiXoMR+s1469l3xNfz2l0=",
+    "originContent": "- Provide detailed requirements upfront",
+    "translatedContent": "- Proporciona requisitos detallados desde el inicio"
+  },
+  {
+    "row": 452,
+    "rowsha": "eu9tWLs5rY+vYNXRnQu/Xalk+PsFrF4v7FEHRBCxnjg=",
+    "originContent": "- Build on previous command outputs",
+    "translatedContent": "- Basarse en las salidas de comandos previas"
+  },
+  {
+    "row": 453,
+    "rowsha": "e5xK/nT5wczMELczguJjdjwK8UPT2A075BHXWLi8hQ8=",
+    "originContent": "- Let workflows complete before modifications",
+    "translatedContent": "- Permitir que los flujos de trabajo se completen antes de realizar modificaciones"
+  },
+  {
+    "row": 454,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 455,
+    "rowsha": "eTGXPTeLxLZSithjOgueNgwivRv3Bu1GxvJuImM03kM=",
+    "originContent": "### Adding a New Workflow:",
+    "translatedContent": "### Añadiendo un Nuevo Flujo de Trabajo:"
+  },
+  {
+    "row": 456,
+    "rowsha": "nrXZjPaXuS7yeW2XFj6NiNYMi2dtZror8V5E+h70VI8=",
+    "originContent": "- Focus on subagent orchestration and delegation logic",
+    "translatedContent": "- Enfocarse en la orquestación y lógica de delegación de subagentes"
+  },
+  {
+    "row": 457,
+    "rowsha": "KQLtV0OtwGuBES8sKY9ep8KzzneOh8aDSOV8MpY1H/M=",
+    "originContent": "- Specify which specialized subagents to use and in what order",
+    "translatedContent": "- Especificar qué subagentes especializados usar y en qué orden"
+  },
+  {
+    "row": 458,
+    "rowsha": "2ZNguzA+81pWL12L+CKKaKETmIddutHlNNq2D0kig1w=",
+    "originContent": "- Define coordination patterns between subagents",
+    "translatedContent": "- Definir patrones de coordinación entre subagentes"
+  },
+  {
+    "row": 459,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 460,
+    "rowsha": "wXQFEFxwOhkQQzGc/XTXrMCWuHK9HPtSqGKNbOSe5AE=",
+    "originContent": "### Adding a New Tool:",
+    "translatedContent": "### Añadiendo una Nueva Herramienta:"
+  },
+  {
+    "row": 461,
+    "rowsha": "7J08bZOY42tKZXFF2NyGqYjqjo5rQB3H+az0+4gIOE8=",
+    "originContent": "- Include complete, production-ready implementations",
+    "translatedContent": "- Incluir implementaciones completas y listas para producción"
+  },
+  {
+    "row": 462,
+    "rowsha": "GK3IUkwvViS4m4uziAVvSC5NcfiRVAG2ABAokyxK818=",
+    "originContent": "- Structure content with clear sections and actionable outputs",
+    "translatedContent": "- Estructurar el contenido con secciones claras y salidas accionables"
+  },
+  {
+    "row": 463,
+    "rowsha": "tiK3gavSI3gI2+d41YE/MdueygELcuvCg9wl4X6Jy6c=",
+    "originContent": "- Include examples, best practices, and integration points",
+    "translatedContent": "- Incluir ejemplos, mejores prácticas y puntos de integración"
+  },
+  {
+    "row": 464,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 465,
+    "rowsha": "jFtJ2BhpCg0G0oDyXio9aStpQGxOCp0YibvXJ3zXixE=",
+    "originContent": "## Learn More",
+    "translatedContent": "## Más Información"
+  },
+  {
+    "row": 466,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 467,
+    "rowsha": "OTibF4BofnW6RcquIYGSeOF1ehjZ4ge/KzMuMpxyVkk=",
+    "originContent": "- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)",
+    "translatedContent": "- [Documentación de Claude Code](https://docs.anthropic.com/en/docs/claude-code)"
+  },
+  {
+    "row": 468,
+    "rowsha": "rkT5Gz0FzWvoEv8WmDpqa+rm89/VbErGTr8U5g3sr58=",
+    "originContent": "- [Slash Commands Documentation](https://docs.anthropic.com/en/docs/claude-code/slash-commands)",
+    "translatedContent": "- [Documentación de Slash Commands](https://docs.anthropic.com/en/docs/claude-code/slash-commands)"
+  },
+  {
+    "row": 469,
+    "rowsha": "DbTVLzg3OMOoeNwsiZKOrFQKiUTlpMcg1Pw+hm8Z5Do=",
+    "originContent": "- [Subagents Documentation](https://docs.anthropic.com/en/docs/claude-code/sub-agents)",
+    "translatedContent": "- [Documentación de Subagentes](https://docs.anthropic.com/en/docs/claude-code/sub-agents)"
+  },
+  {
+    "row": 470,
+    "rowsha": "S+3mwQ1jJLKekVVT07kvq6fdMiZbB+IN5PYDwMKW020=",
+    "originContent": "- [Claude Code GitHub](https://github.com/anthropics/claude-code)",
+    "translatedContent": "- [Claude Code en GitHub](https://github.com/anthropics/claude-code)"
+  },
+  {
+    "row": 471,
+    "rowsha": "7/k7SXDZuKi6ua2CQw0WBW6ABcubhZj9/+qMnDurpxw=",
+    "originContent": "- [Claude Code Subagents Collection](https://github.com/wshobson/agents) - Specialized subagents used by these commands",
+    "translatedContent": "- [Colección de Subagentes Claude Code](https://github.com/wshobson/agents) - Subagentes especializados utilizados por estos comandos"
+  },
+  {
+    "row": 472,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""

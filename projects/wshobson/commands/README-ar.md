@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 اللغة</summary>
@@ -29,20 +30,19 @@
   </details>
 </div>
 
-# أوامر سلاش كلود كود
+# أوامر الشَرطة المائلة لـ Claude Code
 
-أوامر سلاش جاهزة للإنتاج لـ [Claude Code](https://docs.anthropic.com/en/docs/claude-code) تسرّع التطوير من خلال الأتمتة الذكية.
+أوامر شرطة مائلة جاهزة للإنتاج لـ [Claude Code](https://docs.anthropic.com/en/docs/claude-code) تُسرّع التطوير عبر الأتمتة الذكية.
 
-**52 أمرًا** منظمة كما يلي:
+**52 أمرًا** مُنظمة كالتالي:
 - **🤖 سير العمل**: تنسيق متعدد للوكلاء الفرعيين للمهام المعقدة
-- **🔧 الأدوات**: أدوات أحادية الغرض لعمليات محددة
+- **🔧 أدوات**: أدوات ذات غرض واحد للعمليات المحددة
 
-### 🤝 يتطلب وكلاء كلود كود الفرعيين
+### 🤝 يتطلب وكلاء Claude Code الفرعيين
 
-تعمل هذه الأوامر مع [وكلاء كلود كود الفرعيين](https://github.com/wshobson/agents) لإمكانيات التنسيق.
+تعمل هذه الأوامر مع [وكلاء Claude Code الفرعيين](https://github.com/wshobson/agents) للحصول على قدرات التنسيق.
 
 ## التثبيت
-
 
 ```bash
 cd ~/.claude
@@ -52,141 +52,149 @@ git clone https://github.com/wshobson/agents.git  # Required for subagent orches
 
 ## الأوامر المتاحة
 
-- **🤖 سير العمل** - تنسيق عدة وكلاء فرعيين لمهام معقدة
-- **🔧 الأدوات** - أوامر ذات غرض واحد لعمليات محددة
+- **🤖 سير العمل** - تنظيم عدة وكلاء فرعيين للمهام المعقدة
+- **🔧 الأدوات** - أوامر مخصصة لغرض واحد لعمليات محددة
 
-## كيفية الاستخدام
+## طريقة الاستخدام
+
+يتم تنظيم الأوامر في مجلدات `tools/` و `workflows/`. استخدمها مع بادئة اسم المجلد:
 
 ```bash
-/api-scaffold user management with authentication
-/security-scan check for vulnerabilities
-/feature-development implement chat functionality
+/tools:api-scaffold user management with authentication
+/tools:security-scan check for vulnerabilities
+/workflows:feature-development implement chat functionality
 ```
-يقوم Claude Code تلقائيًا باقتراح الأوامر ذات الصلة بناءً على السياق.
+
+**ملاحظة:** إذا كنت تفضل استخدام الأوامر بدون بادئات، يمكنك تسطيح الأدلة:
+```bash
+cp tools/*.md .
+cp workflows/*.md .
+```
+يقوم Claude Code باقتراح الأوامر ذات الصلة تلقائيًا بناءً على السياق.
 
 ## 🤖 سير العمل
 
 تنسيق متعدد للوكلاء الفرعيين للمهام المعقدة:
 
-### تطوير الميزات
-- **[feature-development](https://raw.githubusercontent.com/wshobson/commands/main/workflows/feature-development.md)** - وكلاء فرعيون للواجهة الخلفية والواجهة الأمامية والاختبار والنشر لبناء ميزات كاملة
-- **[full-review](https://raw.githubusercontent.com/wshobson/commands/main/workflows/full-review.md)** - عدة وكلاء فرعيين للمراجعة يقدمون تحليلًا شاملاً للكود
-- **[smart-fix](https://raw.githubusercontent.com/wshobson/commands/main/workflows/smart-fix.md)** - يحلل المشاكل ويوزع المهام على الوكلاء المتخصصين المناسبين
+### تطوير المزايا
+- **[feature-development](https://raw.githubusercontent.com/wshobson/commands/main/workflows/feature-development.md)** - وكلاء فرعيون للواجهة الخلفية، الأمامية، الاختبار والنشر لبناء مزايا كاملة
+- **[full-review](https://raw.githubusercontent.com/wshobson/commands/main/workflows/full-review.md)** - وكلاء مراجعة متعددون يقدمون تحليلًا شاملاً للكود
+- **[smart-fix](https://raw.githubusercontent.com/wshobson/commands/main/workflows/smart-fix.md)** - يحلل المشكلات ويوجهها إلى الوكلاء الفرعيين المختصين المناسبين
 
 ### عمليات التطوير
-- **[git-workflow](https://raw.githubusercontent.com/wshobson/commands/main/workflows/git-workflow.md)** - تنفيذ سير عمل Git فعال مع استراتيجيات التفرع وقوالب طلبات الدمج
+- **[git-workflow](https://raw.githubusercontent.com/wshobson/commands/main/workflows/git-workflow.md)** - تنفيذ سير عمل فعال لـ Git مع استراتيجيات التفريع وقوالب PR
 - **[improve-agent](https://raw.githubusercontent.com/wshobson/commands/main/workflows/improve-agent.md)** - تحسين أداء الوكلاء الفرعيين من خلال تحسين التعليمات
-- **[legacy-modernize](https://raw.githubusercontent.com/wshobson/commands/main/workflows/legacy-modernize.md)** - تحديث قواعد الكود القديمة باستخدام وكلاء متخصصين
-- **[ml-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/workflows/ml-pipeline.md)** - إنشاء خطوط ML باستخدام وكلاء هندسة البيانات والذكاء الاصطناعي
-- **[multi-platform](https://raw.githubusercontent.com/wshobson/commands/main/workflows/multi-platform.md)** - بناء تطبيقات متعددة المنصات مع تنسيق الوكلاء الفرعيين
-- **[workflow-automate](https://raw.githubusercontent.com/wshobson/commands/main/workflows/workflow-automate.md)** - أتمتة سير عمل CI/CD والمراقبة والنشر
+- **[legacy-modernize](https://raw.githubusercontent.com/wshobson/commands/main/workflows/legacy-modernize.md)** - تحديث قواعد الأكواد القديمة باستخدام وكلاء فرعيين متخصصين
+- **[ml-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/workflows/ml-pipeline.md)** - إنشاء خطوط ML مع وكلاء هندسة البيانات والذكاء الاصطناعي
+- **[multi-platform](https://raw.githubusercontent.com/wshobson/commands/main/workflows/multi-platform.md)** - بناء تطبيقات متعددة المنصات من خلال تنسيق الوكلاء الفرعيين
+- **[workflow-automate](https://raw.githubusercontent.com/wshobson/commands/main/workflows/workflow-automate.md)** - أتمتة سير العمل CI/CD، المراقبة، والنشر
 
-### سير العمل المنسقة بواسطة الوكلاء الفرعيين
-- **[full-stack-feature](https://raw.githubusercontent.com/wshobson/commands/main/workflows/full-stack-feature.md)** - ميزات متعددة المنصات مع وكلاء فرعيين للواجهة الخلفية والأمامية والجوال
-- **[security-hardening](https://raw.githubusercontent.com/wshobson/commands/main/workflows/security-hardening.md)** - تنفيذ يركز على الأمان مع وكلاء متخصصين
-- **[data-driven-feature](https://raw.githubusercontent.com/wshobson/commands/main/workflows/data-driven-feature.md)** - ميزات مدعومة بالتعلم الآلي مع وكلاء علوم البيانات
-- **[performance-optimization](https://raw.githubusercontent.com/wshobson/commands/main/workflows/performance-optimization.md)** - تحسين شامل للأداء مع وكلاء الأداء
-- **[incident-response](https://raw.githubusercontent.com/wshobson/commands/main/workflows/incident-response.md)** - حل الحوادث الإنتاجية مع وكلاء العمليات
+### سير العمل المنسق بواسطة الوكلاء الفرعيين
+- **[full-stack-feature](https://raw.githubusercontent.com/wshobson/commands/main/workflows/full-stack-feature.md)** - مزايا متعددة المنصات مع وكلاء فرعيين للواجهة الخلفية، الأمامية، والجوال
+- **[security-hardening](https://raw.githubusercontent.com/wshobson/commands/main/workflows/security-hardening.md)** - تنفيذ يركز على الأمان باستخدام وكلاء فرعيين متخصصين
+- **[data-driven-feature](https://raw.githubusercontent.com/wshobson/commands/main/workflows/data-driven-feature.md)** - مزايا مدعومة بالذكاء الاصطناعي مع وكلاء فرعيين لعلم البيانات
+- **[performance-optimization](https://raw.githubusercontent.com/wshobson/commands/main/workflows/performance-optimization.md)** - تحسين شامل للأداء مع وكلاء فرعيين للأداء
+- **[incident-response](https://raw.githubusercontent.com/wshobson/commands/main/workflows/incident-response.md)** - حل الحوادث الإنتاجية مع وكلاء فرعيين للعمليات
 
-## 🔧 الأدوات (أوامر ذات غرض واحد)
+## 🔧 أدوات (أوامر أحادية الغرض)
 
 ### الذكاء الاصطناعي وتعلم الآلة
-- **[ai-assistant](https://raw.githubusercontent.com/wshobson/commands/main/tools/ai-assistant.md)** - بناء مساعدين ودردشات ذكاء اصطناعي جاهزة للإنتاج
+- **[ai-assistant](https://raw.githubusercontent.com/wshobson/commands/main/tools/ai-assistant.md)** - بناء مساعدين ذكاء اصطناعي وروبوتات دردشة جاهزة للإنتاج
 - **[ai-review](https://raw.githubusercontent.com/wshobson/commands/main/tools/ai-review.md)** - مراجعة متخصصة لقواعد كود الذكاء الاصطناعي/تعلم الآلة
 - **[langchain-agent](https://raw.githubusercontent.com/wshobson/commands/main/tools/langchain-agent.md)** - إنشاء وكلاء LangChain/LangGraph بأنماط حديثة
-- **[ml-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/tools/ml-pipeline.md)** - إنشاء خطوط ML متكاملة مع عمليات MLOps
-- **[prompt-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/prompt-optimize.md)** - تحسين التعليمات للذكاء الاصطناعي من حيث الأداء والجودة
+- **[ml-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/tools/ml-pipeline.md)** - إنشاء خطوط ML شاملة مع MLOps
+- **[prompt-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/prompt-optimize.md)** - تحسين التعليمات البرمجية للذكاء الاصطناعي للأداء والجودة
 
-### الهندسة المعمارية وجودة الكود
-- **[code-explain](https://raw.githubusercontent.com/wshobson/commands/main/tools/code-explain.md)** - توليد شرح تفصيلي للكود المعقد
-- **[code-migrate](https://raw.githubusercontent.com/wshobson/commands/main/tools/code-migrate.md)** - ترحيل الكود بين اللغات أو الأطر أو الإصدارات
+### البنية وجودة الكود
+- **[code-explain](https://raw.githubusercontent.com/wshobson/commands/main/tools/code-explain.md)** - توليد شروحات مفصلة للكود المعقد
+- **[code-migrate](https://raw.githubusercontent.com/wshobson/commands/main/tools/code-migrate.md)** - نقل الكود بين اللغات أو الأطر أو الإصدارات
 - **[refactor-clean](https://raw.githubusercontent.com/wshobson/commands/main/tools/refactor-clean.md)** - إعادة هيكلة الكود لتحسين القابلية للصيانة والأداء
-- **[tech-debt](https://raw.githubusercontent.com/wshobson/commands/main/tools/tech-debt.md)** - تحليل وأولوية الدين التقني
+
+- **[tech-debt](https://raw.githubusercontent.com/wshobson/commands/main/tools/tech-debt.md)** - تحليل وتحديد أولويات الدين التقني
 
 ### البيانات وقواعد البيانات
-- **[data-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/tools/data-pipeline.md)** - تصميم بنى خطوط بيانات قابلة للتوسع
-- **[data-validation](https://raw.githubusercontent.com/wshobson/commands/main/tools/data-validation.md)** - تنفيذ أنظمة تحقق من البيانات شاملة
+- **[data-pipeline](https://raw.githubusercontent.com/wshobson/commands/main/tools/data-pipeline.md)** - تصميم هياكل خطوط البيانات القابلة للتوسع
+- **[data-validation](https://raw.githubusercontent.com/wshobson/commands/main/tools/data-validation.md)** - تنفيذ أنظمة تحقق بيانات شاملة
 - **[db-migrate](https://raw.githubusercontent.com/wshobson/commands/main/tools/db-migrate.md)** - استراتيجيات متقدمة لترحيل قواعد البيانات
 
-### العمليات والبنية التحتية
-- **[deploy-checklist](https://raw.githubusercontent.com/wshobson/commands/main/tools/deploy-checklist.md)** - توليد تكوينات وقوائم تدقيق للنشر
+### التطوير والبنية التحتية
+- **[deploy-checklist](https://raw.githubusercontent.com/wshobson/commands/main/tools/deploy-checklist.md)** - إنشاء تكوينات وقوائم مراجعة للنشر
 - **[docker-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/docker-optimize.md)** - استراتيجيات متقدمة لتحسين الحاويات
-- **[k8s-manifest](https://raw.githubusercontent.com/wshobson/commands/main/tools/k8s-manifest.md)** - نشر Kubernetes بمستوى إنتاجي
+- **[k8s-manifest](https://raw.githubusercontent.com/wshobson/commands/main/tools/k8s-manifest.md)** - عمليات نشر Kubernetes عالية الجودة للإنتاج
 - **[monitor-setup](https://raw.githubusercontent.com/wshobson/commands/main/tools/monitor-setup.md)** - إعداد مراقبة ورصد شاملين
 - **[slo-implement](https://raw.githubusercontent.com/wshobson/commands/main/tools/slo-implement.md)** - تنفيذ أهداف مستوى الخدمة (SLOs)
 - **[workflow-automate](https://raw.githubusercontent.com/wshobson/commands/main/tools/workflow-automate.md)** - أتمتة سير العمل التطويري والتشغيلي
 
 ### التطوير والاختبار
 - **[api-mock](https://raw.githubusercontent.com/wshobson/commands/main/tools/api-mock.md)** - إنشاء نماذج API واقعية للتطوير والاختبار
-- **[api-scaffold](https://raw.githubusercontent.com/wshobson/commands/main/tools/api-scaffold.md)** - توليد نقاط نهاية API جاهزة للإنتاج بكامل المكدس التطبيقي
-- **[test-harness](https://raw.githubusercontent.com/wshobson/commands/main/tools/test-harness.md)** - إنشاء مجموعات اختبار شاملة مع كشف الأطر
+- **[api-scaffold](https://raw.githubusercontent.com/wshobson/commands/main/tools/api-scaffold.md)** - إنشاء نقاط نهاية API جاهزة للإنتاج مع مكدس التنفيذ الكامل
+- **[test-harness](https://raw.githubusercontent.com/wshobson/commands/main/tools/test-harness.md)** - إنشاء مجموعات اختبار شاملة مع كشف إطار العمل
 
-### الأمان والامتثال
-- **[accessibility-audit](https://raw.githubusercontent.com/wshobson/commands/main/tools/accessibility-audit.md)** - اختبار وإصلاح شامل لإمكانية الوصول
+### الأمن والامتثال
+- **[accessibility-audit](https://raw.githubusercontent.com/wshobson/commands/main/tools/accessibility-audit.md)** - اختبار وإصلاحات شاملة لقابلية الوصول
 - **[compliance-check](https://raw.githubusercontent.com/wshobson/commands/main/tools/compliance-check.md)** - ضمان الامتثال التنظيمي (GDPR، HIPAA، SOC2)
-- **[security-scan](https://raw.githubusercontent.com/wshobson/commands/main/tools/security-scan.md)** - فحص أمني شامل مع تصحيح تلقائي
+- **[security-scan](https://raw.githubusercontent.com/wshobson/commands/main/tools/security-scan.md)** - فحص أمني شامل مع التصحيح التلقائي
 
 ### التصحيح والتحليل
-- **[debug-trace](https://raw.githubusercontent.com/wshobson/commands/main/tools/debug-trace.md)** - استراتيجيات متقدمة لتصحيح وتتبع الأخطاء
-- **[error-analysis](https://raw.githubusercontent.com/wshobson/commands/main/tools/error-analysis.md)** - تحليل عميق لأنماط الأخطاء واستراتيجيات الحل
+- **[debug-trace](https://raw.githubusercontent.com/wshobson/commands/main/tools/debug-trace.md)** - استراتيجيات متقدمة للتصحيح والتتبع
+- **[error-analysis](https://raw.githubusercontent.com/wshobson/commands/main/tools/error-analysis.md)** - تحليل عميق لأنماط الأخطاء واستراتيجيات حلها
 - **[error-trace](https://raw.githubusercontent.com/wshobson/commands/main/tools/error-trace.md)** - تتبع وتشخيص أخطاء الإنتاج
-- **[issue](https://raw.githubusercontent.com/wshobson/commands/main/tools/issue.md)** - إنشاء مسائل GitHub/GitLab منظمة جيدًا
+- **[issue](https://raw.githubusercontent.com/wshobson/commands/main/tools/issue.md)** - إنشاء قضايا GitHub/GitLab منظمة بشكل جيد
 
-### التبعيات والتكوين
-- **[config-validate](https://raw.githubusercontent.com/wshobson/commands/main/tools/config-validate.md)** - التحقق من صحة وإدارة تكوين التطبيق
-- **[deps-audit](https://raw.githubusercontent.com/wshobson/commands/main/tools/deps-audit.md)** - تدقيق التبعيات للأمان والتراخيص
-- **[deps-upgrade](https://raw.githubusercontent.com/wshobson/commands/main/tools/deps-upgrade.md)** - ترقية تبعيات المشروع بأمان
+### الاعتمادات والتكوين
+- **[config-validate](https://raw.githubusercontent.com/wshobson/commands/main/tools/config-validate.md)** - التحقق من تكوين التطبيق وإدارته
+- **[deps-audit](https://raw.githubusercontent.com/wshobson/commands/main/tools/deps-audit.md)** - تدقيق الاعتمادات من أجل الأمن والتراخيص
+- **[deps-upgrade](https://raw.githubusercontent.com/wshobson/commands/main/tools/deps-upgrade.md)** - ترقية اعتمادات المشروع بأمان
 
 ### التوثيق والتعاون
-- **[doc-generate](https://raw.githubusercontent.com/wshobson/commands/main/tools/doc-generate.md)** - توليد توثيق شامل
+- **[doc-generate](https://raw.githubusercontent.com/wshobson/commands/main/tools/doc-generate.md)** - إنشاء توثيق شامل
 - **[git-workflow](https://raw.githubusercontent.com/wshobson/commands/main/tools/git-workflow.md)** - تنفيذ سير عمل Git فعال
-- **[pr-enhance](https://raw.githubusercontent.com/wshobson/commands/main/tools/pr-enhance.md)** - تعزيز طلبات الدمج بفحوصات الجودة
+- **[pr-enhance](https://raw.githubusercontent.com/wshobson/commands/main/tools/pr-enhance.md)** - تحسين طلبات الدمج بفحوصات الجودة
 
 ### تحسين التكلفة
-- **[cost-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/cost-optimize.md)** - تحسين تكاليف السحابة والبنية التحتية
+- **[تحسين-التكلفة](https://raw.githubusercontent.com/wshobson/commands/main/tools/cost-optimize.md)** - تحسين تكاليف السحابة والبنية التحتية
 
 ### الإعداد والانضمام
-- **[onboard](https://raw.githubusercontent.com/wshobson/commands/main/tools/onboard.md)** - إعداد بيئات التطوير للأعضاء الجدد في الفريق
+- **[الانضمام](https://raw.githubusercontent.com/wshobson/commands/main/tools/onboard.md)** - إعداد بيئات التطوير للأعضاء الجدد في الفريق
 
-### أدوات الوكيل الفرعي
-- **[multi-agent-review](https://raw.githubusercontent.com/wshobson/commands/main/tools/multi-agent-review.md)** - مراجعة كود من عدة وجهات نظر مع وكلاء متخصصين
-- **[smart-debug](https://raw.githubusercontent.com/wshobson/commands/main/tools/smart-debug.md)** - تصحيح عميق مع وكلاء التصحيح والأداء
-- **[multi-agent-optimize](https://raw.githubusercontent.com/wshobson/commands/main/tools/multi-agent-optimize.md)** - تحسين كامل المكدس مع عدة وكلاء فرعيين
-- **[context-save](https://raw.githubusercontent.com/wshobson/commands/main/tools/context-save.md)** - حفظ سياق المشروع باستخدام وكيل إدارة السياق
-- **[context-restore](https://raw.githubusercontent.com/wshobson/commands/main/tools/context-restore.md)** - استعادة السياق المحفوظ لاستمرارية العمل
+### أدوات الوكلاء الفرعيين
+- **[مراجعة-متعددة-الوكلاء](https://raw.githubusercontent.com/wshobson/commands/main/tools/multi-agent-review.md)** - مراجعة الكود من عدة وجهات نظر باستخدام وكلاء فرعيين متخصصين
+- **[تصحيح-ذكي](https://raw.githubusercontent.com/wshobson/commands/main/tools/smart-debug.md)** - تصحيح عميق باستخدام وكيل تصحيح الأداء والأخطاء
+- **[تحسين-متعدد-الوكلاء](https://raw.githubusercontent.com/wshobson/commands/main/tools/multi-agent-optimize.md)** - تحسين شامل عبر جميع الطبقات باستخدام عدة وكلاء فرعيين
+- **[حفظ-السياق](https://raw.githubusercontent.com/wshobson/commands/main/tools/context-save.md)** - حفظ سياق المشروع باستخدام وكيل إدارة السياق الفرعي
+- **[استعادة-السياق](https://raw.githubusercontent.com/wshobson/commands/main/tools/context-restore.md)** - استعادة السياق المحفوظ لضمان الاستمرارية
 
 ## الميزات
 
 - تطبيقات جاهزة للإنتاج
-- اكتشاف تلقائي للأطر
+- الكشف التلقائي عن الإطار البرمجي
 - أفضل ممارسات الأمان
-- مراقبة واختبار مدمجان
-
+- مراقبة واختبار مدمج
 - تعمل الأوامر معًا بسلاسة
 
 ## عدد الأوامر
 
-**الإجمالي: 52 أمر سلاش جاهز للإنتاج** مصنفة إلى:
+**الإجمالي: 52 أمر جاهز للإنتاج** مصنفة ضمن:
 
 ### 🤖 سير العمل (14 أمرًا)
 
-- تطوير الميزات والمراجعة (3 أوامر) 
-- أتمتة عمليات التطوير (6 أوامر)
-- سير عمل منظم بواسطة الوكلاء الفرعيين (5 أوامر)
+- تطوير الميزات والمراجعة (3 أوامر)
+- أتمتة عملية التطوير (6 أوامر)
+- سير العمل المنسق بواسطة الوكلاء الفرعيين (5 أوامر)
 
 ### 🔧 الأدوات (38 أمرًا)
 
 - الذكاء الاصطناعي وتعلم الآلة (5 أوامر)
 - الهندسة وجودة الكود (4 أوامر)
 - البيانات وقواعد البيانات (3 أوامر)
-- العمليات البرمجية والبنية التحتية (6 أوامر)
+- التطوير والبنية التحتية (6 أوامر)
 - التطوير والاختبار (3 أوامر)
 - الأمان والامتثال (3 أوامر)
-- تصحيح الأخطاء والتحليل (4 أوامر)
-- الاعتمادات والتكوين (3 أوامر)
+- التصحيح والتحليل (٤ أوامر)
+- الاعتمادات والتكوين (٣ أوامر)
 - التوثيق والتعاون (أمر واحد)
-- الإعداد والتجهيز (أمر واحد)
-- أدوات خاصة بالوكلاء الفرعيين (5 أوامر)
+- الإعداد والتهيئة (أمر واحد)
+- أدوات خاصة بالوكلاء الفرعيين (٥ أوامر)
 
 ## أمثلة الاستخدام
 
@@ -194,155 +202,155 @@ git clone https://github.com/wshobson/agents.git  # Required for subagent orches
 
 ```bash
 # Implement a complete feature
-/feature-development Add user authentication with OAuth2
+/workflows:feature-development Add user authentication with OAuth2
 
 # Comprehensive code review
-/full-review Review the authentication module
+/workflows:full-review Review the authentication module
 
 # Smart issue resolution
-/smart-fix Fix performance degradation in API response times
+/workflows:smart-fix Fix performance degradation in API response times
 
 # Modernize legacy system
-/legacy-modernize Migrate monolithic Java app to microservices
+/workflows:legacy-modernize Migrate monolithic Java app to microservices
 
 # Build comprehensive multi-platform feature
-/full-stack-feature User authentication with social login across web and mobile
+/workflows:full-stack-feature User authentication with social login across web and mobile
 
 # Implement security-first architecture
-/security-hardening Harden API endpoints and implement zero-trust security model
+/workflows:security-hardening Harden API endpoints and implement zero-trust security model
 
 # Create data-driven ML feature
-/data-driven-feature Build recommendation engine with real-time personalization
+/workflows:data-driven-feature Build recommendation engine with real-time personalization
 
 # Optimize entire application stack
-/performance-optimization Improve response times and reduce infrastructure costs
+/workflows:performance-optimization Improve response times and reduce infrastructure costs
 
 # Respond to production incident
-/incident-response High CPU usage causing service degradation in production
+/workflows:incident-response High CPU usage causing service degradation in production
 ```
 
 ### 🔧 أمثلة على الأدوات (أوامر ذات غرض واحد)
 
 ```bash
 # Create a user management API
-/api-scaffold user CRUD operations with JWT auth and role-based access
+/tools:api-scaffold user CRUD operations with JWT auth and role-based access
 
 # Review microservices architecture
-/multi-agent-review analyze our microservices for coupling and scalability issues
+/tools:multi-agent-review analyze our microservices for coupling and scalability issues
 
 # Optimize LLM chat application
-/prompt-optimize reduce latency for customer support chatbot while maintaining accuracy
+/tools:prompt-optimize reduce latency for customer support chatbot while maintaining accuracy
 
 # Create fraud detection pipeline
-/data-pipeline real-time fraud detection with feature store and monitoring
+/tools:data-pipeline real-time fraud detection with feature store and monitoring
 
 # Debug production issue
-/error-trace analyze high memory usage in production pods
+/tools:error-trace analyze high memory usage in production pods
 
 # Secure container images
-/security-scan scan and fix vulnerabilities in Docker images
+/tools:security-scan scan and fix vulnerabilities in Docker images
 
 # Generate API documentation
-/doc-generate create OpenAPI docs with examples for REST endpoints
+/tools:doc-generate create OpenAPI docs with examples for REST endpoints
 
 # Onboard new developer
-/onboard Setup development environment for React/Node.js project
+/tools:onboard Setup development environment for React/Node.js project
 
 # Multi-perspective code review
-/multi-agent-review Review authentication module
+/tools:multi-agent-review Review authentication module
 
 # Deep debugging
-/smart-debug Investigate memory leak in production workers
+/tools:smart-debug Investigate memory leak in production workers
 
 # Full-stack optimization
-/multi-agent-optimize Optimize checkout flow for better conversion
+/tools:multi-agent-optimize Optimize checkout flow for better conversion
 
 # Save project context
-/context-save Save current project state and architectural decisions
+/tools:context-save Save current project state and architectural decisions
 
 # Restore project context
-/context-restore Load context from last week's sprint
+/tools:context-restore Load context from last week's sprint
 ```
-## الأوامر المحسنة
 
-### الأمان و DevOps
+## أوامر محسّنة
+
+### الأمن و DevOps
 
 #### [`/security-scan`](https://raw.githubusercontent.com/wshobson/commands/main/tools/security-scan.md)
 
-فحص أمني شامل مع إصلاح تلقائي.
+فحص أمني شامل مع تصحيح تلقائي.
 
 - **فحص متعدد الأدوات**: Bandit، Safety، Trivy، Semgrep، ESLint Security، Snyk
 - **إصلاحات تلقائية**: معالجة تلقائية للثغرات الشائعة
-- **تكامل مع CI/CD**: بوابات أمان لـ GitHub Actions/GitLab CI
+- **تكامل CI/CD**: بوابات أمان لـ GitHub Actions/GitLab CI
 - **فحص الحاويات**: تحليل ثغرات الصور
-- **كشف الأسرار**: تكامل مع GitLeaks و TruffleHog
+- **كشف الأسرار**: تكامل GitLeaks و TruffleHog
 
 #### [`/docker-optimize`](https://raw.githubusercontent.com/wshobson/commands/main/tools/docker-optimize.md)
 
-استراتيجيات متقدمة لتحسين الحاويات.
+استراتيجيات تحسين الحاويات المتقدمة.
 
-- **تحسين ذكي**: يحلل ويقترح التحسينات
-- **بناء متعدد المراحل**: ملفات Docker محسنة لإطارات عمل محددة
-- **أدوات حديثة**: BuildKit، Bun، UV لبناء أسرع
-- **تعزيز الأمان**: صور Distroless، مستخدمون غير الجذر
-- **تكامل مع أوامر أخرى**: يعمل مع مخرجات /api-scaffold
+- **تحسين ذكي**: تحليل واقتراح تحسينات
+- **بناء متعدد المراحل**: ملفات Docker مخصصة حسب الإطار
+- **أدوات حديثة**: BuildKit، Bun، UV للبناء السريع
+- **تعزيز الأمان**: صور بدون نظام تشغيل، مستخدمين بدون صلاحيات الجذر
+- **تكامل بين الأوامر**: يعمل مع نتائج /api-scaffold
 
 #### [`/k8s-manifest`](https://raw.githubusercontent.com/wshobson/commands/main/tools/k8s-manifest.md)
 
-نشر Kubernetes بمستوى إنتاجي.
+نشر Kubernetes بمستوى الإنتاج.
 
 - **أنماط متقدمة**: معايير أمان البود، سياسات الشبكة، OPA
-- **جاهزية GitOps**: إعدادات FluxCD و ArgoCD
-- **قابلية المراقبة**: Prometheus ServiceMonitors، OpenTelemetry
-- **التوسع التلقائي**: إعدادات HPA، VPA، و cluster autoscaler
-- **خدمة Mesh**: تكامل Istio/Linkerd
+- **جاهز لـ GitOps**: إعدادات FluxCD و ArgoCD
+- **الرصد والمراقبة**: Prometheus ServiceMonitors، OpenTelemetry
+- **التوسع التلقائي**: إعدادات HPA، VPA، وموسع الكتلة
+- **شبكة الخدمة**: تكامل Istio/Linkerd
 
 ### الواجهة الأمامية والبيانات
 
 #### [`/db-migrate`](https://raw.githubusercontent.com/wshobson/commands/main/tools/db-migrate.md)
 
-استراتيجيات متقدمة لترحيل قواعد البيانات.
+استراتيجيات ترحيل قواعد البيانات المتقدمة.
 
-- **دعم عدة قواعد بيانات**: PostgreSQL، MySQL، MongoDB، DynamoDB
-- **بدون توقف**: نشر أزرق-أخضر، ترحيل متدرج
-- **مصدر الحدث**: تكامل Kafka/Kinesis لـ CDC
-- **عبر المنصات**: معالجة تعدد أنواع قواعد البيانات
-- **المراقبة**: فحوصات صحة الترحيل والتراجع
+- **متعدد قواعد البيانات**: PostgreSQL، MySQL، MongoDB، DynamoDB
+- **عدم توقف الخدمة**: عمليات النشر الأزرق-الأخضر، الترقيات التدريجية
+- **تسجيل الأحداث**: تكامل Kafka/Kinesis من أجل مراقبة تغييرات البيانات
+- **عبر المنصات**: يدعم الحفظ متعدد اللغات
+- **المراقبة**: فحوصات صحة الترحيل وإمكانية الرجوع للخلف
 
-## دمج تدفقات العمل والأدوات
+## دمج سير العمل والأدوات
 
-تتمثل القوة الحقيقية في دمج تدفقات العمل والأدوات لدورات تطوير شاملة:
+القوة الحقيقية تأتي من دمج سير العمل والأدوات لدورة تطوير كاملة:
 
 ### مثال: بناء ميزة جديدة
 
-
 ```bash
 # 1. Use a workflow to implement the feature with multiple subagents
-/feature-development Add real-time chat feature with WebSocket support
+/workflows:feature-development Add real-time chat feature with WebSocket support
 
 # 2. Use tools for specific enhancements
-/test-harness Add integration tests for WebSocket connections
-/security-scan Check for WebSocket vulnerabilities
-/docker-optimize Optimize container for WebSocket connections
+/tools:test-harness Add integration tests for WebSocket connections
+/tools:security-scan Check for WebSocket vulnerabilities
+/tools:docker-optimize Optimize container for WebSocket connections
 
 # 3. Use a workflow for comprehensive review
-/full-review Review the entire chat feature implementation
+/workflows:full-review Review the entire chat feature implementation
 ```
 
 ### مثال: تحديث الشيفرة القديمة
 
 ```bash
 # 1. Start with the modernization workflow
-/legacy-modernize Migrate Express.js v4 app to modern architecture
+/workflows:legacy-modernize Migrate Express.js v4 app to modern architecture
 
 # 2. Use specific tools for cleanup
-/deps-upgrade Update all dependencies to latest versions
-/refactor-clean Remove deprecated patterns and dead code
-/test-harness Ensure 100% test coverage
+/tools:deps-upgrade Update all dependencies to latest versions
+/tools:refactor-clean Remove deprecated patterns and dead code
+/tools:test-harness Ensure 100% test coverage
 
 # 3. Optimize and deploy
-/docker-optimize Create multi-stage production build
-/k8s-manifest Deploy with zero-downtime strategy
+/tools:docker-optimize Create multi-stage production build
+/tools:k8s-manifest Deploy with zero-downtime strategy
 ```
 
 ## أنماط تنسيق الأوامر
@@ -352,139 +360,142 @@ git clone https://github.com/wshobson/agents.git  # Required for subagent orches
 ### التنفيذ التسلسلي
 ```bash
 # Build → Test → Secure → Deploy pipeline
-/api-scaffold user management API
-/test-harness comprehensive test suite for user API  
-/security-scan check user API for vulnerabilities
-/k8s-manifest deploy user API to production
+/tools:api-scaffold user management API
+/tools:test-harness comprehensive test suite for user API  
+/tools:security-scan check user API for vulnerabilities
+/tools:k8s-manifest deploy user API to production
 ```
 
 ### التحليل المتوازي
 ```bash
 # Multiple perspectives on the same codebase
-/multi-agent-review comprehensive architecture and code review
-/security-scan audit security posture  
-/performance-optimization identify and fix bottlenecks
+/tools:multi-agent-review comprehensive architecture and code review
+/tools:security-scan audit security posture  
+/workflows:performance-optimization identify and fix bottlenecks
 # Then consolidate findings
 ```
 
 ### التحسين التكراري
 ```bash
 # Start broad, then narrow focus
-/feature-development implement payment processing
-/security-scan focus on payment security
-/compliance-check ensure PCI compliance
-/test-harness add payment-specific tests
+/workflows:feature-development implement payment processing
+/tools:security-scan focus on payment security
+/tools:compliance-check ensure PCI compliance
+/tools:test-harness add payment-specific tests
 ```
 
 ### التكامل عبر المجالات
 ```bash
 # Frontend + Backend + Infrastructure
-/api-scaffold backend payment API
-/multi-agent-optimize optimize payment flow performance
-/docker-optimize containerize payment service
-/monitor-setup payment metrics and alerts
+/tools:api-scaffold backend payment API
+/tools:multi-agent-optimize optimize payment flow performance
+/tools:docker-optimize containerize payment service
+/tools:monitor-setup payment metrics and alerts
 ```
+
 ## متى تستخدم سير العمل مقابل الأدوات
 
 ### 🔀 سير العمل وأدوات الوكلاء الفرعيين
-- **حل المشكلات**: تحليل وإصلاح القضايا بشكل تكيفي
+- **حل المشكلات**: تحليل وإصلاح المشكلات بشكل تكيفي
 - **وجهات نظر متعددة**: تنسيق وكلاء فرعيين متخصصين
-- **مهام معقدة**: عمليات متعددة الخطوات عبر المجالات
+- **مهام معقدة**: عمليات متعددة الخطوات عبر مجالات مختلفة
 - **حلول غير معروفة**: دع الوكلاء الفرعيين يحددون النهج
 
-### 🛠️ أدوات متخصصة
-- **إعداد البنية التحتية**: تهيئة البيئات
-- **توليد الشيفرة**: إنشاء تطبيقات محددة
+### 🛠️ الأدوات المتخصصة
+- **إعداد البنية التحتية**: تكوين البيئات
+- **توليد التعليمات البرمجية**: إنشاء تطبيقات محددة
 - **التحليل**: إنشاء تقارير بدون إصلاحات
 - **مهام المجال**: عمليات متخصصة للغاية
 
 **أمثلة:**
-- "تنفيذ نظام مصادقة المستخدمين" → `/feature-development`
-- "إصلاح مشاكل الأداء عبر المكدس" → `/smart-fix`
-- "تحديث النظام الأحادي القديم" → `/legacy-modernize`
+- "تنفيذ نظام مصادقة المستخدم" → `/workflows:feature-development`
+- "إصلاح مشاكل الأداء عبر المنظومة" → `/workflows:smart-fix`
+- "تحديث المنظومة القديمة" → `/workflows:legacy-modernize`
 
 ### 🔧 استخدم الأدوات عندما:
 - **الحاجة لخبرة محددة** - مهمة واضحة ومركزة في مجال واحد
-- **الرغبة في التحكم الدقيق** - ترغب في توجيه تفاصيل التنفيذ بالتحديد
-- **جزء من سير عمل يدوي** - دمج في العمليات الحالية
-- **تخصص عميق مطلوب** - تحتاج لتنفيذ على مستوى الخبراء
-- **البناء على عمل قائم** - تحسين أو صقل المخرجات السابقة
+- **الرغبة في التحكم الدقيق** - ترغب في توجيه تفاصيل التنفيذ المحددة
+- **جزء من سير عمل يدوي** - التكامل مع العمليات الحالية
+- **الحاجة لتخصص عميق** - الحاجة لتنفيذ على مستوى الخبراء
+- **البناء على عمل موجود** - تحسين أو تعديل المخرجات السابقة
 
 **أمثلة:**
-- "إنشاء ملفات Kubernetes" → `/k8s-manifest`
-- "مسح الثغرات الأمنية" → `/security-scan`
-- "توليد وثائق API" → `/doc-generate`
+- "إنشاء ملفات Kubernetes" → `/tools:k8s-manifest`
+- "مسح الثغرات الأمنية" → `/tools:security-scan`
+- "توليد وثائق API" → `/tools:doc-generate`
 
-## صيغة الأوامر
+## تنسيق الأمر
 
 أوامر السلاش هي ملفات ماركداون بسيطة حيث:
-- اسم الملف يصبح اسم الأمر (مثلاً، `api-scaffold.md` → `/api-scaffold`)
-- محتوى الملف هو التعليمات/المطالبة التي تُنفذ عند الاستدعاء
-- استخدم متغير `$ARGUMENTS` كعنصر نائب لإدخال المستخدم
+- اسم الملف يصبح اسم الأمر (مثال: `tools/api-scaffold.md` → `/tools:api-scaffold`)
+- محتوى الملف هو التعليمات/المطالبة التي يتم تنفيذها عند الاستدعاء
+- استخدم عنصر نائب `$ARGUMENTS` لإدخال المستخدم
 
 ## أفضل الممارسات
 
-### اختيار الأوامر
+### اختيار الأمر
 - **دع Claude Code يقترح تلقائيًا** - يحلل السياق ويختار الأوامر المثلى
 - **استخدم سير العمل للمهام المعقدة** - الوكلاء الفرعيون ينسقون تنفيذات متعددة المجالات
 - **استخدم الأدوات للمهام المركزة** - تطبيق أوامر محددة لتحسينات مستهدفة
 
 ### الاستخدام الفعّال
-- **قدّم سياقًا شاملاً** - أدرج التقنيات، والقيود، والمتطلبات
+- **قدم سياقًا شاملاً** - تضمين تقنية التنفيذ والقيود والمتطلبات
 - **سلسل الأوامر بشكل استراتيجي** - سير العمل → أدوات → تحسينات
-- **البناء على المخرجات السابقة** - صُممت الأوامر للعمل سوياً
+- **ابنِ على المخرجات السابقة** - تم تصميم الأوامر للعمل معًا
 
 ## المساهمة
 
 1. أنشئ ملف `.md` في `workflows/` أو `tools/`
-2. استخدم أسماء بحروف صغيرة مع واصلات
+2. استخدم أسماء بحروف صغيرة مع شرطات
 3. أدرج `$ARGUMENTS` لإدخال المستخدم
 
 ## استكشاف الأخطاء وإصلاحها
 
-**لم يتم العثور على الأمر**: تحقق أن الملفات موجودة في `~/.claude/commands/`
+**الأمر غير موجود**:
+- تحقق من وجود الملفات في `~/.claude/commands/tools/` أو `~/.claude/commands/workflows/`
+- استخدم البادئة الصحيحة: `/tools:command-name` أو `/workflows:command-name`
+- أو قم بتسطيح الدلائل إذا كنت تفضل عدم وجود بادئات: `cp tools/*.md . && cp workflows/*.md .`
 
-**سير العمل بطيء**: طبيعي - فهي تنسق عدة وكلاء فرعيين
+**بطء سير العمل**: طبيعي - فهي تنسق عدة وكلاء فرعيين
 
-**مخرجات عامة**: أضف سياقًا أكثر تحديدًا حول تقنيتك
+**مخرجات عامة**: أضف سياقًا أكثر تحديدًا حول تقنية التنفيذ الخاصة بك
 
-**مشكلات التكامل**: تحقق من مسارات الملفات وتسلسل الأوامر
+**مشاكل التكامل**: تحقق من مسارات الملفات وتسلسل الأوامر
 
 ## نصائح الأداء
 
-**اختيار الأوامر:**
-- **سير العمل**: تنسيق عدة وكلاء فرعيين للميزات المعقدة
-- **الأدوات**: عمليات مخصصة لمهام محددة
+**اختيار الأمر:**
+- **سير العمل**: تنسيق متعدد الوكلاء الفرعيين للميزات المعقدة
+- **الأدوات**: عمليات ذات غرض واحد للمهام المحددة
 - **تعديلات بسيطة**: ابق مع الوكيل الرئيسي
 
-**تحسين الأداء:**
+**التحسين:**
 - ابدأ بالأدوات للمشاكل المعروفة
 - قدم متطلبات مفصلة منذ البداية
 - البناء على مخرجات الأوامر السابقة
-- دع سير العمل ينتهي قبل إجراء التعديلات
+- السماح بإكمال سير العمل قبل إجراء التعديلات
 
 ### إضافة سير عمل جديد:
-- ركز على منطق تنسيق وتفويض الوكلاء الفرعيين
-- حدد أي وكلاء فرعيين متخصصين يجب استخدامهم وبأي ترتيب
-- عرّف أنماط التنسيق بين الوكلاء الفرعيين
+- التركيز على منطق تنظيم وتفويض العوامل الفرعية
+- تحديد أي العوامل الفرعية المتخصصة يجب استخدامها وبأي ترتيب
+- تعريف أنماط التنسيق بين العوامل الفرعية
 
 ### إضافة أداة جديدة:
-- أدرج تطبيقات كاملة وجاهزة للإنتاج
-- نظّم المحتوى بأقسام واضحة ومخرجات قابلة للتنفيذ
-- أدرج أمثلة وأفضل الممارسات ونقاط التكامل
+- تضمين تطبيقات كاملة وجاهزة للإنتاج
+- تنظيم المحتوى بأقسام واضحة ومخرجات قابلة للتنفيذ
+- تضمين أمثلة وأفضل الممارسات ونقاط التكامل
 
-## تعلّم المزيد
+## لمعرفة المزيد
 
 - [توثيق Claude Code](https://docs.anthropic.com/en/docs/claude-code)
-- [توثيق أوامر السلاش](https://docs.anthropic.com/en/docs/claude-code/slash-commands)
-- [توثيق الوكلاء الفرعيين](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
-- [Claude Code GitHub](https://github.com/anthropics/claude-code)
-- [مجموعة وكلاء Claude Code الفرعيين](https://github.com/wshobson/agents) - وكلاء فرعيون متخصصون تستخدمهم هذه الأوامر
-
+- [توثيق أوامر Slash](https://docs.anthropic.com/en/docs/claude-code/slash-commands)
+- [توثيق العوامل الفرعية](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
+- [Claude Code على GitHub](https://github.com/anthropics/claude-code)
+- [مجموعة Claude Code Subagents](https://github.com/wshobson/agents) - العوامل الفرعية المتخصصة المستخدمة في هذه الأوامر
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
 
 ---
