@@ -1,58 +1,250 @@
 [
   {
     "Id": 1,
-    "Content": "# prettier-plugin-classnames\n\nA Prettier plugin that wraps verbose class name based on the `printWidth` option.\n\n![A use case for this plugin.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)\n\n## Installation[^1]\n",
-    "ContentSha": "kLa80iquPGUHClvJ+CEwSLhXR2lwSnnO2eCe8phb20U=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# prettier-plugin-classnames\n\nA Prettier plugin that wraps verbose class name based on the `printWidth` option.\n\n![A use case for this plugin.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)\n\n## Installation[^1]\n",
+    "ContentSha": "N0yMH5vaKrQS/3v0LWAFrhYxVf+0BIX2Vuo0CHAXDnc=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# prettier-plugin-classnames\n\n一个 Prettier 插件，根据 `printWidth` 选项换行冗长的类名。\n\n![该插件的使用示例。](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)\n\n## 安装[^1]\n",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 语言</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# prettier-plugin-classnames\n\n一个 Prettier 插件，根据 `printWidth` 选项自动换行冗长的类名。\n\n![此插件的一个使用案例。](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)\n\n## 安装方法[^1]\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 语言</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "SkMe7WaXJF81i9dvvb1ohOjM6QH4eqdwpc0JiZFGUb4=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "JIXcrHF2Vjjmw6jWaMm4SMng2d1L4JRykXJQkuptHUc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "1sOXVmOdUFhFuDdjHvNVe2ZPh5w7kK56ac0DSdK9c4Q=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "elxnwAqbb/gsP9YMq6N7l+Zo+0UprdfOOPiLT6L97go=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "m9GWMt8pbmZIQjN6iFLx8nSqGjmEdIGdbEjouN27SJg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "8MXh8lOZNxciRhp6D5bcVZC73rwX2rV8NjI2NgKFCvk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "Z7dMZHbQsDVZBGw+6sY4LceFbAp3TovC6p6b9EPFyrE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "/1eJ18TIKwuOpNzpIfUTEo4sZLGS9B9iQcW2aAAi4bo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "sLcu10kC73d7cAX4QxMFgMR5bfahzriz0UjUUe69WXU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "yb+RQGkVYlMc+5DW4pQz8yJhZfJU3UrYJMNphUn0Ocw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "5FA+WpQStZLRnXPCxpcav6HPa5wG/bPVN7yuL+rgoik=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "gR44ZMrIYRpSjqi14wua3ZHaJ6LespkZUM0KKW4PVrg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "mS/R+piZGWYB1svA6aWdXSs/I2PaSKyuBtXkfgIO8B4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "W3uVDWjZpHlFtbeeBfYDet0uaGNd8GNTWKy/9bsVY6A=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "xpDxW20XA407AgvSjNgK2wODkxCL73pbfxyeS5MQunI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "7U+NIXg1TwyOyclik+wGYIoLVHGOPpVvQ7tplq68F+s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "6y0XgVmjHb+MisEuec684lfmw2kc6gOcEaI3oiL1u08=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "EwjYeJ6Fe0YMKd9VoQsBsmckBIFL75f9DdqBskdlbNU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "jUgbVrpgoym4PaBIe+XHOgzRGLyY09CDwCxasVALPa4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "/JRTprxeOmeQzAH1WdxvCd7wk6Tnz0cs4Axpn5XbDAM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "VFZINucidHloFtbQGLYeV+jLcj9AnQV9TO1G7CFxkwc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=ony3000&project=prettier-plugin-classnames&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
         "rowsha": "mc1NY6aVEQ5wZlFJrg+G+vMxJIftnfSCtLSfOMqsZRg=",
         "originContent": "# prettier-plugin-classnames",
         "translatedContent": "# prettier-plugin-classnames"
       },
       {
-        "row": 2,
+        "row": 34,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 3,
+        "row": 35,
         "rowsha": "4Pe4lQWSM2D0fwxmd/ksu9/qGZL5nJVKT4TwbyFvs2k=",
         "originContent": "A Prettier plugin that wraps verbose class name based on the `printWidth` option.",
-        "translatedContent": "一个 Prettier 插件，根据 `printWidth` 选项换行冗长的类名。"
+        "translatedContent": "一个 Prettier 插件，根据 `printWidth` 选项自动换行冗长的类名。"
       },
       {
-        "row": 4,
+        "row": 36,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 5,
+        "row": 37,
         "rowsha": "DS/nG4aJktap1G1e7V5zOe6fIfjz7BdEI6FsJYJpA4U=",
         "originContent": "![A use case for this plugin.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)",
-        "translatedContent": "![该插件的使用示例。](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)"
+        "translatedContent": "![此插件的一个使用案例。](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)"
       },
       {
-        "row": 6,
+        "row": 38,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 7,
+        "row": 39,
         "rowsha": "30xiM1oURfuSjHRRINVeIJ9QIPH6Sgfwz2mc0tl7dbo=",
         "originContent": "## Installation[^1]",
-        "translatedContent": "## 安装[^1]"
+        "translatedContent": "## 安装方法[^1]"
       },
       {
-        "row": 8,
+        "row": 40,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -69,26 +261,7 @@
     "EndLine": 0,
     "Translation": "```sh\nnpm install -D prettier prettier-plugin-classnames\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
-        "originContent": "```sh",
-        "translatedContent": "```sh"
-      },
-      {
-        "row": 2,
-        "rowsha": "B+kl6nGJa5wWj9kq18MTmXfpAx36qObynx/tE8C3Ifw=",
-        "originContent": "npm install -D prettier prettier-plugin-classnames",
-        "translatedContent": "npm install -D prettier prettier-plugin-classnames"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -100,50 +273,7 @@
     "EndLine": 0,
     "Translation": "\n[^1]: 如果你的 `prettier-plugin-classnames` 版本低于 `0.4.0`，你还需要安装 `@prettier/sync`。\n\n## 配置\n\nJSON 示例：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "sjND9n2PCnXOo9JzrFJTf6tdE7qFpFXqwlOnHdf6Nx8=",
-        "originContent": "[^1]: If your version of `prettier-plugin-classnames` is less than `0.4.0`, you will also need to install `@prettier/sync`.",
-        "translatedContent": "[^1]: 如果你的 `prettier-plugin-classnames` 版本低于 `0.4.0`，你还需要安装 `@prettier/sync`。"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
-        "originContent": "## Configuration",
-        "translatedContent": "## 配置"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "w7apFmHq/M8uvk3SaVuOJ4swW2Fx9fDVTLjwORa/gn8=",
-        "originContent": "JSON example:",
-        "translatedContent": "JSON 示例："
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -155,38 +285,7 @@
     "EndLine": 0,
     "Translation": "```json\n{\n  \"plugins\": [\"prettier-plugin-classnames\"]\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
-        "originContent": "```json",
-        "translatedContent": "```json"
-      },
-      {
-        "row": 2,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 3,
-        "rowsha": "kY5KKs5GiTgucbW/T3+01tIhzLSr4+s7h7oRglK6H/E=",
-        "originContent": "  \"plugins\": [\"prettier-plugin-classnames\"]",
-        "translatedContent": "  \"plugins\": [\"prettier-plugin-classnames\"]"
-      },
-      {
-        "row": 4,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 5,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -198,26 +297,7 @@
     "EndLine": 0,
     "Translation": "\nJS 示例（CommonJS 模块）：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "2ZiYxQMw64Ae/1468lP2ms242iGf/ixSV2+sR9H1Jkg=",
-        "originContent": "JS example (CommonJS module):",
-        "translatedContent": "JS 示例（CommonJS 模块）："
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -229,50 +309,7 @@
     "EndLine": 0,
     "Translation": "```javascript\nmodule.exports = {\n  plugins: ['prettier-plugin-classnames'],\n  customAttributes: ['myClassProp'],\n  customFunctions: ['clsx'],\n};\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
-        "originContent": "```javascript",
-        "translatedContent": "```javascript"
-      },
-      {
-        "row": 2,
-        "rowsha": "yV9r7cMJPhVqNFKdjJLCUTFm4FMKideAIShppxAvnCk=",
-        "originContent": "module.exports = {",
-        "translatedContent": "module.exports = {"
-      },
-      {
-        "row": 3,
-        "rowsha": "5luO4kFbWfHpqIGPR735JLGzuLDBmtVtSvxFQTzGvGs=",
-        "originContent": "  plugins: ['prettier-plugin-classnames'],",
-        "translatedContent": "  plugins: ['prettier-plugin-classnames'],"
-      },
-      {
-        "row": 4,
-        "rowsha": "5hK3eNrhDsvDARbfLuyc+Nuorb4GKSOB7TMZds5wK+o=",
-        "originContent": "  customAttributes: ['myClassProp'],",
-        "translatedContent": "  customAttributes: ['myClassProp'],"
-      },
-      {
-        "row": 5,
-        "rowsha": "CVyzYnjppjhsX9Ouaj8gHKrxs15HC1buZIrLIPveC9E=",
-        "originContent": "  customFunctions: ['clsx'],",
-        "translatedContent": "  customFunctions: ['clsx'],"
-      },
-      {
-        "row": 6,
-        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
-        "originContent": "};",
-        "translatedContent": "};"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -284,26 +321,7 @@
     "EndLine": 0,
     "Translation": "\nJS 示例（ES 模块）：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "9iJXPsCJ69iB6Oh7fkpZ0MxFwhl7IKGvwMS7e3y9IYg=",
-        "originContent": "JS example (ES module):",
-        "translatedContent": "JS 示例（ES 模块）："
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -315,44 +333,7 @@
     "EndLine": 0,
     "Translation": "```javascript\nexport default {\n  plugins: ['prettier-plugin-classnames'],\n  endingPosition: 'absolute',\n};\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
-        "originContent": "```javascript",
-        "translatedContent": "```javascript"
-      },
-      {
-        "row": 2,
-        "rowsha": "ikHhPmgNY52/Y57QX+s+O3S6qF684Au/Zj4aR1NY1n4=",
-        "originContent": "export default {",
-        "translatedContent": "export default {"
-      },
-      {
-        "row": 3,
-        "rowsha": "5luO4kFbWfHpqIGPR735JLGzuLDBmtVtSvxFQTzGvGs=",
-        "originContent": "  plugins: ['prettier-plugin-classnames'],",
-        "translatedContent": "  plugins: ['prettier-plugin-classnames'],"
-      },
-      {
-        "row": 4,
-        "rowsha": "n38hvvHjKlbogIDXtRMtcA1GHupDvu/ojXl39Mj+Ckc=",
-        "originContent": "  endingPosition: 'absolute',",
-        "translatedContent": "  endingPosition: 'absolute',"
-      },
-      {
-        "row": 5,
-        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
-        "originContent": "};",
-        "translatedContent": "};"
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -364,212 +345,7 @@
     "EndLine": 0,
     "Translation": "\n## 选项\n\n### 自定义属性\n\n包含类名的属性列表。<br>\n即使未指定任何选项，也始终支持 `class` 和 `className` 属性。\n\n<!-- prettier-ignore -->\n默认值 | CLI&nbsp;覆盖 | API&nbsp;覆盖\n--- | --- | ---\n`[]` | `--custom-attributes <string>` | `customAttributes: [\"<string>\"]`\n\n### 自定义函数\n\n包含类名的函数列表。<br>\n即使未指定任何选项，也始终支持 `classNames` 函数。\n\n<!-- prettier-ignore -->\n默认值 | CLI&nbsp;覆盖 | API&nbsp;覆盖\n--- | --- | ---\n`[]` | `--custom-functions <string>` | `customFunctions: [\"<string>\"]`\n\n### 结束位置\n\n首次在 v0.5.0 中提供。<br>\n`absolute-with-indent` 于 v0.6.0 添加。<br>\n`absolute-with-indent` 于 v0.8.0 移除，但使用 `absolute` 可获得相同输出。<br>\n默认值在 v0.8.0 中从 `relative` 更改为 `absolute`。\n\n这是替换原始类名为多行类名时，每行结束类名的标准。\n\n- `absolute` 示例：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "061veB7IsP6MLX2VaAsyznYrdLIx3av88lknlRwMrww=",
-        "originContent": "## Options",
-        "translatedContent": "## 选项"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "1+RMBGrV6Sg2af99OW6qbCq5CdPdypYfChvyGslA4GM=",
-        "originContent": "### Custom Attributes",
-        "translatedContent": "### 自定义属性"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "e0tw7M6odbF91aDHIEQpnACgT0nsnEhUf/oKOyvDGCE=",
-        "originContent": "List of attributes that enclosing class names.<br>",
-        "translatedContent": "包含类名的属性列表。<br>"
-      },
-      {
-        "row": 7,
-        "rowsha": "bogrmucpq+2GtHpIpuqsWPCbBV1V0Z7f+dSOJigrWSU=",
-        "originContent": "The `class` and `className` attributes are always supported, even if no options are specified.",
-        "translatedContent": "即使未指定任何选项，也始终支持 `class` 和 `className` 属性。"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "qU7uoSFUmSmI6ohWfu2FUGo10fg+Q5qRLiP6/WUZH0c=",
-        "originContent": "<!-- prettier-ignore -->",
-        "translatedContent": "<!-- prettier-ignore -->"
-      },
-      {
-        "row": 10,
-        "rowsha": "WzXlSMWWz4J6DF/kMy2Go8k3XMNz4dZX1Uz79wgbAsg=",
-        "originContent": "Default | CLI&nbsp;Override | API&nbsp;Override",
-        "translatedContent": "默认值 | CLI&nbsp;覆盖 | API&nbsp;覆盖"
-      },
-      {
-        "row": 11,
-        "rowsha": "1MQIthbeNCT8UfX8tyU4NyMwdBOucfyQdCLMtu05tkU=",
-        "originContent": "--- | --- | ---",
-        "translatedContent": "--- | --- | ---"
-      },
-      {
-        "row": 12,
-        "rowsha": "LeBHi/ICNv4cLg2tFf1hCx3F+/xa6V/kz4uwwi7Kbb8=",
-        "originContent": "`[]` | `--custom-attributes <string>` | `customAttributes: [\"<string>\"]`",
-        "translatedContent": "`[]` | `--custom-attributes <string>` | `customAttributes: [\"<string>\"]`"
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "OuU4rmN1fz+qAYAwd1f/v++n88r4MSw3oWMagqKd/9Y=",
-        "originContent": "### Custom Functions",
-        "translatedContent": "### 自定义函数"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "hUv085QG5Yk82uhfzvy4VzXq2M3urW356d0iMq7bYEI=",
-        "originContent": "List of functions that enclosing class names.<br>",
-        "translatedContent": "包含类名的函数列表。<br>"
-      },
-      {
-        "row": 17,
-        "rowsha": "DgOmQPFzUv+8WkCM5COmskdbsCjONE6qqC+twU/msy0=",
-        "originContent": "The `classNames` function is always supported, even if no options are specified.",
-        "translatedContent": "即使未指定任何选项，也始终支持 `classNames` 函数。"
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "qU7uoSFUmSmI6ohWfu2FUGo10fg+Q5qRLiP6/WUZH0c=",
-        "originContent": "<!-- prettier-ignore -->",
-        "translatedContent": "<!-- prettier-ignore -->"
-      },
-      {
-        "row": 20,
-        "rowsha": "WzXlSMWWz4J6DF/kMy2Go8k3XMNz4dZX1Uz79wgbAsg=",
-        "originContent": "Default | CLI&nbsp;Override | API&nbsp;Override",
-        "translatedContent": "默认值 | CLI&nbsp;覆盖 | API&nbsp;覆盖"
-      },
-      {
-        "row": 21,
-        "rowsha": "1MQIthbeNCT8UfX8tyU4NyMwdBOucfyQdCLMtu05tkU=",
-        "originContent": "--- | --- | ---",
-        "translatedContent": "--- | --- | ---"
-      },
-      {
-        "row": 22,
-        "rowsha": "ZYkjTXQ2EXGYsBfWFVnbON/zt3Q9JrJYaffwbUCytTs=",
-        "originContent": "`[]` | `--custom-functions <string>` | `customFunctions: [\"<string>\"]`",
-        "translatedContent": "`[]` | `--custom-functions <string>` | `customFunctions: [\"<string>\"]`"
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "SsRoqgEFDs3sVQ0aNQrf461xCGXeJHC8hQYcnm1ecWs=",
-        "originContent": "### Ending Position",
-        "translatedContent": "### 结束位置"
-      },
-      {
-        "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "CiUbfJd/uA7cOslBThI9hdI3OaEwsxnNJHy019mSWIY=",
-        "originContent": "First available in v0.5.0.<br>",
-        "translatedContent": "首次在 v0.5.0 中提供。<br>"
-      },
-      {
-        "row": 27,
-        "rowsha": "UwD9wL3ktk2mSqGgqME95J8mGeCfIAqSe/+PcGpVxcY=",
-        "originContent": "`absolute-with-indent` was added in v0.6.0.<br>",
-        "translatedContent": "`absolute-with-indent` 于 v0.6.0 添加。<br>"
-      },
-      {
-        "row": 28,
-        "rowsha": "RBNlXkWo5r4/MNqb4nsvOcBqTgnuPVdLJVJHJFWq4D8=",
-        "originContent": "`absolute-with-indent` was removed in v0.8.0, but you can get the same output with `absolute`.<br>",
-        "translatedContent": "`absolute-with-indent` 于 v0.8.0 移除，但使用 `absolute` 可获得相同输出。<br>"
-      },
-      {
-        "row": 29,
-        "rowsha": "VbJ4/rVbrPM1ec19i0CApa1Wb7Y5c8Kfty+R6oLemf4=",
-        "originContent": "Default value changed from `relative` to `absolute` in v0.8.0.",
-        "translatedContent": "默认值在 v0.8.0 中从 `relative` 更改为 `absolute`。"
-      },
-      {
-        "row": 30,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 31,
-        "rowsha": "hhu+68+MpeWSxvrWXnLnY2NB3RenO52Zr2emgGEt9KI=",
-        "originContent": "This is the criterion for ending the class name on each line when replacing the original class name with a multi-line class name.",
-        "translatedContent": "这是替换原始类名为多行类名时，每行结束类名的标准。"
-      },
-      {
-        "row": 32,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 33,
-        "rowsha": "m9H9vugVjLFol9otWWarkDtmIWjRZRpMb3+TZTrIhgM=",
-        "originContent": "- `absolute` example:",
-        "translatedContent": "- `absolute` 示例："
-      },
-      {
-        "row": 34,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -581,98 +357,7 @@
     "EndLine": 0,
     "Translation": "  ```\n  --------------------------------------------------| printWidth=50\n  export function Callout({ children }) {\n    return (\n      <div\n        className=\"bg-gray-100/50 border\n          border-zinc-400/30 dark:bg-neutral-900/50\n          dark:border-neutral-500/30 px-4 py-4\n          rounded-xl\"\n      >\n        {children}\n      </div>\n    );\n  }\n  ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
-        "originContent": "  ```",
-        "translatedContent": "  ```"
-      },
-      {
-        "row": 2,
-        "rowsha": "UH/WuN67KUiWlvCskP/Jj8uv/6OuHQezAEfG5o/Gfi8=",
-        "originContent": "  --------------------------------------------------| printWidth=50",
-        "translatedContent": "  --------------------------------------------------| printWidth=50"
-      },
-      {
-        "row": 3,
-        "rowsha": "2XYKpUdNwPOjAEdg2XMM4ZASd+UQ4dzBsZKwlm48zCk=",
-        "originContent": "  export function Callout({ children }) {",
-        "translatedContent": "  export function Callout({ children }) {"
-      },
-      {
-        "row": 4,
-        "rowsha": "84Bn0qCCViYqn5kfNxu+a4f64ck/sOkXltRwmtRS9/s=",
-        "originContent": "    return (",
-        "translatedContent": "    return ("
-      },
-      {
-        "row": 5,
-        "rowsha": "7zAaL38Gl52g3qtJ47PTtrW82WG4EraDp50WMgDrChc=",
-        "originContent": "      <div",
-        "translatedContent": "      <div"
-      },
-      {
-        "row": 6,
-        "rowsha": "sBM+UnMctgopd2c9FIwLsWG8g+29NzobDilOxophAKs=",
-        "originContent": "        className=\"bg-gray-100/50 border",
-        "translatedContent": "        className=\"bg-gray-100/50 border"
-      },
-      {
-        "row": 7,
-        "rowsha": "vl4H1NGSiB/U7TWKizW9+Brsucj3ETqcFm2foVqY+pc=",
-        "originContent": "          border-zinc-400/30 dark:bg-neutral-900/50",
-        "translatedContent": "          border-zinc-400/30 dark:bg-neutral-900/50"
-      },
-      {
-        "row": 8,
-        "rowsha": "KCRvO4Y7N6CbyFbYbrDLdpsF00MW0dCsTIr9jCkvCyM=",
-        "originContent": "          dark:border-neutral-500/30 px-4 py-4",
-        "translatedContent": "          dark:border-neutral-500/30 px-4 py-4"
-      },
-      {
-        "row": 9,
-        "rowsha": "Ah7WCfPh4FqSxpwOb/xvy0oZ+x4eiR7aqfljzqPLiR0=",
-        "originContent": "          rounded-xl\"",
-        "translatedContent": "          rounded-xl\""
-      },
-      {
-        "row": 10,
-        "rowsha": "NrOxNmhZX6b0HTusbJe5H+1zxtPLLlxjSNzb94Grj+E=",
-        "originContent": "      >",
-        "translatedContent": "      >"
-      },
-      {
-        "row": 11,
-        "rowsha": "A55z8xziHGNLWCaJQJgVnO0DBPbvHK06HOZIY1zrYF8=",
-        "originContent": "        {children}",
-        "translatedContent": "        {children}"
-      },
-      {
-        "row": 12,
-        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
-        "originContent": "      </div>",
-        "translatedContent": "      </div>"
-      },
-      {
-        "row": 13,
-        "rowsha": "Z2lMElzKjKCmJyXf71joUm6rTSJ2l9cz8FUpXZAfx3I=",
-        "originContent": "    );",
-        "translatedContent": "    );"
-      },
-      {
-        "row": 14,
-        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
-        "originContent": "  }",
-        "translatedContent": "  }"
-      },
-      {
-        "row": 15,
-        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
-        "originContent": "  ```",
-        "translatedContent": "  ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -684,26 +369,7 @@
     "EndLine": 0,
     "Translation": "\n- `relative` 示例：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "GurtnF0FB8Mq8F5zYUl+Vt3aVkOK9b4y9P0YXBCUWCc=",
-        "originContent": "- `relative` example:",
-        "translatedContent": "- `relative` 示例："
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -715,104 +381,7 @@
     "EndLine": 0,
     "Translation": "  ```\n  --------------------------------------------------| printWidth=50\n  export function Callout({ children }) {\n    return (\n      <div\n                  |--------------------------------------------------|\n        className=\"bg-gray-100/50 border border-zinc-400/30\n         |--------------------------------------------------|\n          dark:bg-neutral-900/50 dark:border-neutral-500/30\n          px-4 py-4 rounded-xl\"\n      >\n        {children}\n      </div>\n    );\n  }\n  ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
-        "originContent": "  ```",
-        "translatedContent": "  ```"
-      },
-      {
-        "row": 2,
-        "rowsha": "UH/WuN67KUiWlvCskP/Jj8uv/6OuHQezAEfG5o/Gfi8=",
-        "originContent": "  --------------------------------------------------| printWidth=50",
-        "translatedContent": "  --------------------------------------------------| printWidth=50"
-      },
-      {
-        "row": 3,
-        "rowsha": "2XYKpUdNwPOjAEdg2XMM4ZASd+UQ4dzBsZKwlm48zCk=",
-        "originContent": "  export function Callout({ children }) {",
-        "translatedContent": "  export function Callout({ children }) {"
-      },
-      {
-        "row": 4,
-        "rowsha": "84Bn0qCCViYqn5kfNxu+a4f64ck/sOkXltRwmtRS9/s=",
-        "originContent": "    return (",
-        "translatedContent": "    return ("
-      },
-      {
-        "row": 5,
-        "rowsha": "7zAaL38Gl52g3qtJ47PTtrW82WG4EraDp50WMgDrChc=",
-        "originContent": "      <div",
-        "translatedContent": "      <div"
-      },
-      {
-        "row": 6,
-        "rowsha": "ksUnTza+6HO647sHohfcxiFZkzzc2dJkNms824I5MNM=",
-        "originContent": "                  |--------------------------------------------------|",
-        "translatedContent": "                  |--------------------------------------------------|"
-      },
-      {
-        "row": 7,
-        "rowsha": "LlWWgXCniOfGo3kUg//mzG+YC3UvOgTHIUCA50xpiuM=",
-        "originContent": "        className=\"bg-gray-100/50 border border-zinc-400/30",
-        "translatedContent": "        className=\"bg-gray-100/50 border border-zinc-400/30"
-      },
-      {
-        "row": 8,
-        "rowsha": "p1H6F8w9CVHI50MlHyMCvBJEvq3lXcCmmJWh2u/fMK4=",
-        "originContent": "         |--------------------------------------------------|",
-        "translatedContent": "         |--------------------------------------------------|"
-      },
-      {
-        "row": 9,
-        "rowsha": "jE9BocT8D6tcHV5xYL8o4r3rdxr17QfXVeiRjc0pojU=",
-        "originContent": "          dark:bg-neutral-900/50 dark:border-neutral-500/30",
-        "translatedContent": "          dark:bg-neutral-900/50 dark:border-neutral-500/30"
-      },
-      {
-        "row": 10,
-        "rowsha": "b1yeaSL8FVg/jAmTn+04JgpL17yat3NeOtHapilVlPU=",
-        "originContent": "          px-4 py-4 rounded-xl\"",
-        "translatedContent": "          px-4 py-4 rounded-xl\""
-      },
-      {
-        "row": 11,
-        "rowsha": "NrOxNmhZX6b0HTusbJe5H+1zxtPLLlxjSNzb94Grj+E=",
-        "originContent": "      >",
-        "translatedContent": "      >"
-      },
-      {
-        "row": 12,
-        "rowsha": "A55z8xziHGNLWCaJQJgVnO0DBPbvHK06HOZIY1zrYF8=",
-        "originContent": "        {children}",
-        "translatedContent": "        {children}"
-      },
-      {
-        "row": 13,
-        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
-        "originContent": "      </div>",
-        "translatedContent": "      </div>"
-      },
-      {
-        "row": 14,
-        "rowsha": "Z2lMElzKjKCmJyXf71joUm6rTSJ2l9cz8FUpXZAfx3I=",
-        "originContent": "    );",
-        "translatedContent": "    );"
-      },
-      {
-        "row": 15,
-        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
-        "originContent": "  }",
-        "translatedContent": "  }"
-      },
-      {
-        "row": 16,
-        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
-        "originContent": "  ```",
-        "translatedContent": "  ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -824,200 +393,7 @@
     "EndLine": 0,
     "Translation": "\n<!-- prettier-ignore -->\n默认 | CLI&nbsp;覆盖 | API&nbsp;覆盖\n--- | --- | ---\n`\"absolute\"` | `--ending-position <absolute\\|relative>` | `endingPosition: \"<absolute\\|relative>\"`\n\n### 语法转换\n\n首次在 v0.7.7 中提供。\n\n如果在非表达式语法中编写的类名出现换行，则会转换为表达式语法。此转换不支持可逆格式化。\n\n<!-- prettier-ignore -->\n默认 | CLI&nbsp;覆盖 | API&nbsp;覆盖\n--- | --- | ---\n`false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`\n\n## 与同类插件的版本关联\n\n从 `0.6.0` 开始，当一方有小版本发布时，我计划如果可能，也将该更改反映到另一方。\n\n![版本关联。](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)\n\n## 与其他 Prettier 插件的兼容性\n\n如果多个 Prettier 插件都能处理您想格式化的文本，Prettier 只会使用这些插件中的最后一个。\n\n在这种情况下，您可以通过添加 [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) 来按顺序应用这些插件，从而进行如下配置。\n\nJSON 示例：\n\n<!-- prettier-ignore -->",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "qU7uoSFUmSmI6ohWfu2FUGo10fg+Q5qRLiP6/WUZH0c=",
-        "originContent": "<!-- prettier-ignore -->",
-        "translatedContent": "<!-- prettier-ignore -->"
-      },
-      {
-        "row": 3,
-        "rowsha": "WzXlSMWWz4J6DF/kMy2Go8k3XMNz4dZX1Uz79wgbAsg=",
-        "originContent": "Default | CLI&nbsp;Override | API&nbsp;Override",
-        "translatedContent": "默认 | CLI&nbsp;覆盖 | API&nbsp;覆盖"
-      },
-      {
-        "row": 4,
-        "rowsha": "1MQIthbeNCT8UfX8tyU4NyMwdBOucfyQdCLMtu05tkU=",
-        "originContent": "--- | --- | ---",
-        "translatedContent": "--- | --- | ---"
-      },
-      {
-        "row": 5,
-        "rowsha": "TpK4PNrfmT5qDFhvI0JhDh9Z5B4ku/IwXvSiUCPmh54=",
-        "originContent": "`\"absolute\"` | `--ending-position <absolute\\|relative>` | `endingPosition: \"<absolute\\|relative>\"`",
-        "translatedContent": "`\"absolute\"` | `--ending-position <absolute\\|relative>` | `endingPosition: \"<absolute\\|relative>\"`"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "eCultP6QPXG/hzIgyJylDrHoWy/dhn3xaxARN+/9kSA=",
-        "originContent": "### Syntax Transformation",
-        "translatedContent": "### 语法转换"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "+w9zE6AZrow7DXJ0ujZYvCm0ZSRFdRCeL5hufobVEBU=",
-        "originContent": "First available in v0.7.7.",
-        "translatedContent": "首次在 v0.7.7 中提供。"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "v+T2J4Yv+hN6fNQHAbKBYdNH0T6BLPaSZtAY9ALT6nQ=",
-        "originContent": "If a line wrapping occurs in a class name written in non-expression syntax, it is transformed into expression syntax. This transformation does not support reversible formatting.",
-        "translatedContent": "如果在非表达式语法中编写的类名出现换行，则会转换为表达式语法。此转换不支持可逆格式化。"
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "qU7uoSFUmSmI6ohWfu2FUGo10fg+Q5qRLiP6/WUZH0c=",
-        "originContent": "<!-- prettier-ignore -->",
-        "translatedContent": "<!-- prettier-ignore -->"
-      },
-      {
-        "row": 14,
-        "rowsha": "WzXlSMWWz4J6DF/kMy2Go8k3XMNz4dZX1Uz79wgbAsg=",
-        "originContent": "Default | CLI&nbsp;Override | API&nbsp;Override",
-        "translatedContent": "默认 | CLI&nbsp;覆盖 | API&nbsp;覆盖"
-      },
-      {
-        "row": 15,
-        "rowsha": "1MQIthbeNCT8UfX8tyU4NyMwdBOucfyQdCLMtu05tkU=",
-        "originContent": "--- | --- | ---",
-        "translatedContent": "--- | --- | ---"
-      },
-      {
-        "row": 16,
-        "rowsha": "4Hml2lHs1/0HDFmO5HZ6yXdszy/HggAD7tpjMRfFrJU=",
-        "originContent": "`false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`",
-        "translatedContent": "`false` | `--syntax-transformation` | `syntaxTransformation: <boolean>`"
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "mAlHr6NSqa1mzELKlZII94PRhRKJByIeulBsroZw1co=",
-        "originContent": "## Version correlation with sibling plugins",
-        "translatedContent": "## 与同类插件的版本关联"
-      },
-      {
-        "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 20,
-        "rowsha": "yJVTfPysxPSl3e1u0ke3OAPIpDyF2TwX4X97T3pc6rQ=",
-        "originContent": "Starting with `0.6.0`, when there is a minor release on one side, I plan to reflect that change on the other side as well if possible.",
-        "translatedContent": "从 `0.6.0` 开始，当一方有小版本发布时，我计划如果可能，也将该更改反映到另一方。"
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "PrQTa8nbXurCv5B/YOr1hPUAUNe9wMGc/EHqmLkFPfA=",
-        "originContent": "![Version correlation.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)",
-        "translatedContent": "![版本关联。](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/correlation.png)"
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "V3N+ypYnJQSyOhpPdYycdUasGhnJ2q/UwSbO3msUCxA=",
-        "originContent": "## Compatibility with other Prettier plugins",
-        "translatedContent": "## 与其他 Prettier 插件的兼容性"
-      },
-      {
-        "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "clghbKvWRvmi0hx+h6GNzJnRsFD3PINVKJXKbIKyhnA=",
-        "originContent": "If more than one Prettier plugin can handle the text you want to format, Prettier will only use the last of those plugins.",
-        "translatedContent": "如果多个 Prettier 插件都能处理您想格式化的文本，Prettier 只会使用这些插件中的最后一个。"
-      },
-      {
-        "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "U7SsD0AnaOE+qK8PXS1k7PI0FcqfFc9IlVRXVn/sPbo=",
-        "originContent": "In this case, you can configure it as follows by adding [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) to apply those plugins sequentially.",
-        "translatedContent": "在这种情况下，您可以通过添加 [prettier-plugin-merge](https://github.com/ony3000/prettier-plugin-merge) 来按顺序应用这些插件，从而进行如下配置。"
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 30,
-        "rowsha": "w7apFmHq/M8uvk3SaVuOJ4swW2Fx9fDVTLjwORa/gn8=",
-        "originContent": "JSON example:",
-        "translatedContent": "JSON 示例："
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 32,
-        "rowsha": "qU7uoSFUmSmI6ohWfu2FUGo10fg+Q5qRLiP6/WUZH0c=",
-        "originContent": "<!-- prettier-ignore -->",
-        "translatedContent": "<!-- prettier-ignore -->"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1029,62 +405,7 @@
     "EndLine": 0,
     "Translation": "```json\n{\n  \"plugins\": [\n    \"prettier-plugin-tailwindcss\",\n    \"prettier-plugin-classnames\",\n    \"prettier-plugin-merge\"\n  ]\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
-        "originContent": "```json",
-        "translatedContent": "```json"
-      },
-      {
-        "row": 2,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 3,
-        "rowsha": "4H0KMUiT0Woel/qDXj68/UZVRU01Cs1SjnAKMjJ4cLQ=",
-        "originContent": "  \"plugins\": [",
-        "translatedContent": "  \"plugins\": ["
-      },
-      {
-        "row": 4,
-        "rowsha": "hDRWBVSZZySEs53N2dHiukrMJ4iE0pjTVqHbGZwBPg8=",
-        "originContent": "    \"prettier-plugin-tailwindcss\",",
-        "translatedContent": "    \"prettier-plugin-tailwindcss\","
-      },
-      {
-        "row": 5,
-        "rowsha": "uWTjX+rSwFVtQ9hYj9E1bLkjtmQ4qGtaWirnz+iZyHM=",
-        "originContent": "    \"prettier-plugin-classnames\",",
-        "translatedContent": "    \"prettier-plugin-classnames\","
-      },
-      {
-        "row": 6,
-        "rowsha": "oE2Z3oQDouxWJXJe44IdY+P6ITiv2xnoEUodm2ncO48=",
-        "originContent": "    \"prettier-plugin-merge\"",
-        "translatedContent": "    \"prettier-plugin-merge\""
-      },
-      {
-        "row": 7,
-        "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
-        "originContent": "  ]",
-        "translatedContent": "  ]"
-      },
-      {
-        "row": 8,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 9,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1096,14 +417,7 @@
     "EndLine": 0,
     "Translation": "",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]
