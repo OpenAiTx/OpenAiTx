@@ -1,6 +1,6 @@
 <div align="right">
   <details>
-    <summary >🌐 Andere taal</summary>
+    <summary >🌐 Andere Taal</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja">日本語</a>
@@ -26,31 +26,31 @@
 </div>
 
 
-[Engels](https://raw.githubusercontent.com/sz30/2048--/main/README.md) | [简体中文](https://raw.githubusercontent.com/sz30/2048--/main/README.zh-CN.md) | [繁體中文](https://raw.githubusercontent.com/sz30/2048--/main/README.zh-TW.md)
+[English](https://raw.githubusercontent.com/sz30/2048--/main/README.md) | [简体中文](https://raw.githubusercontent.com/sz30/2048--/main/README.zh-CN.md) | [繁體中文](https://raw.githubusercontent.com/sz30/2048--/main/README.zh-TW.md)
 
 # 🎮 2048++
 
-Een verbeterde versie van het klassieke 2048 spel, nu met nog meer leuke functies! Dit is een klein project dat ik in mijn vrije tijd heb gemaakt—hopelijk brengt het je wat plezier!
+Een verbeterde versie van het klassieke 2048-spel, nu met nog meer leuke functies! Dit is een klein project dat ik in mijn vrije tijd heb gemaakt—ik hoop dat het je wat plezier brengt!
 
-## 🎯 Introductie van het spel
+## 🎯 Introductie van het Spel
 
-2048 is een eenvoudig maar verslavend spel waarin je getallen samenvoegt. Op een 4x4 raster veeg je omhoog, omlaag, links of rechts om tegels met hetzelfde nummer samen te voegen. Het doel? Bereik 2048 (maar je kunt doorgaan voor een nog hogere score)!
+2048 is een eenvoudig maar verslavend spel waarin je cijfers samenvoegt. Op een 4x4 raster veeg je omhoog, omlaag, naar links of naar rechts om tegels met hetzelfde nummer samen te voegen. Het doel? Bereik 2048 (maar hé, je kunt doorgaan voor nog hogere scores)!
 
 **Hoe te spelen:**
-- Gebruik de pijltjestoetsen of WASD om de tegels te verplaatsen.
+- Gebruik de pijltjestoetsen of WASD om de tegels te bewegen.
 - Wanneer twee tegels met hetzelfde nummer botsen, worden ze samengevoegd tot één.
 - Na elke zet verschijnt er willekeurig een nieuwe 2 of 4 op een lege plek.
-- Het spel is voorbij als er geen zetten meer mogelijk zijn.
+- Het spel eindigt wanneer er geen zetten meer mogelijk zijn.
 
-## ✨ Speciale functies
+## ✨ Speciale Functies
 
-### 1. Ongedaan maken functie
-- Een verkeerde zet gedaan? Geen zorgen!
-- Klik gewoon op de "Ongedaan maken" knop om één stap terug te gaan.
+### 1. Ongedaan maken Functie
+- Een verkeerde zet gemaakt? Geen zorgen!
+- Klik gewoon op de "Ongedaan maken"-knop om één stap terug te gaan.
 - Je kunt zo vaak ongedaan maken als je wilt, helemaal terug naar het begin.
-- Laat een slip van de vinger je spel nooit meer verpesten!
+- Laat een foutje nooit meer je spel verpesten!
 
-### 2. Geheime cheat-modus
+### 2. Geheime Cheatmodus
 - Voer de magische reeks in: ←←→→ →→←← (links, links, rechts, rechts,  rechts, rechts, links, links)
 - Alle tegels veranderen magisch in 128!
 - Het is een paasei, gewoon voor de lol.
@@ -58,7 +58,7 @@ Een verbeterde versie van het klassieke 2048 spel, nu met nog meer leuke functie
 
 ## 🎯 Demo
 
-🎯 Speel hier: [2048.765431.xyz](https://2048.765431.xyz/)
+🎯 : [Speel hier](http://34.150.49.127:5000/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -96,10 +96,9 @@ cd 2048
 pip install flask
 python 2048.py
 ```
-
 ## 🎨 Aanpassen
 
-Wil je het naar jouw smaak maken? Pas `styles.css` aan voor een nieuw uiterlijk, of duik in `script.js` om de gameplay te veranderen. Alle code is goed becommentarieerd voor gemakkelijk hacken!
+Wil je het eigen maken? Pas `styles.css` aan voor een nieuwe look, of duik in `script.js` om de gameplay te veranderen. Alle code is goed becommentarieerd voor eenvoudig aanpassen!
 
 ## 📝 Licentie
 
@@ -107,21 +106,24 @@ GPL-2.0 licentie
 
 ## 🤝 Bijdragen
 
-Nog steeds in ontwikkeling! Issues en Pull Requests zijn zeer welkom—laten we samen deze game nog beter maken!
+Nog steeds in ontwikkeling! Issues en Pull Requests zijn van harte welkom—laten we samen deze game nog beter maken!
 
 
-## 🙏 Erkenningen
+## 🙏 Dankbetuigingen
 
-Dank aan de volgende sponsors voor het ondersteunen van dit project:
-- [IDC.REST](https://idc.rest/) levert de server
-- [Serv00](https://www.serv00.com/) levert de server
+Dank aan de volgende sponsors voor het steunen van dit project:
+- [Geen](https://#/) voor het leveren van de server
+- [Serv00](https://www.serv00.com/) voor het leveren van de server
 
 ---
-_Laatst bijgewerkt: juni 2025_
+_Laatst bijgewerkt: aug. 2025_
+
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

@@ -1,0 +1,527 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n# A highly awesome system configuration\n[![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)\n\n### File structure\n1. `config` - Main system configuration. `base-desktop.nix` contains lots of useful defaults.\n2. `home-manager` - Holds most of the desktop configuration.\n3. `modules` - A couple of custom options.\n4. `overlays` - Contains riced and custom packages. Riced packages have the name prefix `g-`.\n5. `hosts` - Contains host specific configuration.\n6. `flake.nix` - Kickass flake config ;)\n\n\n# ZFS Cheatsheet\n\n## Create pool",
+    "ContentSha": "Yt+e8Y8jZhN6uujuaLUA1tMe4nONgJXK5XN1XtSAb7I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 매우 멋진 시스템 구성\n[![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)\n\n### 파일 구조\n1. `config` - 메인 시스템 구성. `base-desktop.nix`에는 많은 유용한 기본값이 포함되어 있습니다.\n2. `home-manager` - 대부분의 데스크탑 구성을 보관합니다.\n3. `modules` - 몇 가지 사용자 정의 옵션.\n4. `overlays` - 꾸며진(riced) 및 사용자 정의 패키지를 포함합니다. 꾸며진 패키지는 이름 접두사 `g-`를 가집니다.\n5. `hosts` - 호스트별 구성을 포함합니다.\n6. `flake.nix` - 멋진 flake 구성 ;)\n\n# ZFS 치트시트\n\n## 풀 생성\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 매우 멋진 시스템 구성"
+      },
+      {
+        "row": 2,
+        "rowsha": "WrJFSj5hXlF9nLSBVTew4HEy78eFQykWiJpIMbsVGNg=",
+        "originContent": "# A highly awesome system configuration",
+        "translatedContent": "[![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)"
+      },
+      {
+        "row": 3,
+        "rowsha": "FnoHkWW7v+JZbP21vYkNklLBMkzId3GHHJsUpiDBA94=",
+        "originContent": "[![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 파일 구조"
+      },
+      {
+        "row": 5,
+        "rowsha": "GMXMXnKO2ngbDm+k4fFeoUMhZC+pWo5EFT/K3Duq1is=",
+        "originContent": "### File structure",
+        "translatedContent": "1. `config` - 메인 시스템 구성. `base-desktop.nix`에는 많은 유용한 기본값이 포함되어 있습니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "A7CdEZjRD/zo/nI/mi/+jDiq5iNv7+xrOYgKaztXhag=",
+        "originContent": "1. `config` - Main system configuration. `base-desktop.nix` contains lots of useful defaults.",
+        "translatedContent": "2. `home-manager` - 대부분의 데스크탑 구성을 보관합니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "DigTmsROairlrl39/ApADJd54eZbF57UkHKfRIkKrGc=",
+        "originContent": "2. `home-manager` - Holds most of the desktop configuration.",
+        "translatedContent": "3. `modules` - 몇 가지 사용자 정의 옵션."
+      },
+      {
+        "row": 8,
+        "rowsha": "uYw2m/rEMeXGWIF3PkG5GW/zYhXnlbaL5fD2eYTAZrA=",
+        "originContent": "3. `modules` - A couple of custom options.",
+        "translatedContent": "4. `overlays` - 꾸며진(riced) 및 사용자 정의 패키지를 포함합니다. 꾸며진 패키지는 이름 접두사 `g-`를 가집니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "6xh6n2PLJf5ibFHFPFFROx7RoeQNurgBfuNTZ9eyBlg=",
+        "originContent": "4. `overlays` - Contains riced and custom packages. Riced packages have the name prefix `g-`.",
+        "translatedContent": "5. `hosts` - 호스트별 구성을 포함합니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "+zL8NPrSnhgLxEd/3Cj9woRkmtCD8RjS7nYU+tRri4Q=",
+        "originContent": "5. `hosts` - Contains host specific configuration.",
+        "translatedContent": "6. `flake.nix` - 멋진 flake 구성 ;)"
+      },
+      {
+        "row": 11,
+        "rowsha": "cs2tIeazR9eoYs53x581+MW7w3F/Q8QHiK1E0OYHjJI=",
+        "originContent": "6. `flake.nix` - Kickass flake config ;)",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# ZFS 치트시트"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "gMUM4fizuL8R7jqRp0Lkb0URrDxivWmIDTQYX8RM5oQ=",
+        "originContent": "# ZFS Cheatsheet",
+        "translatedContent": "## 풀 생성"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "ZtRx2nVATaLHxzpY9mXfv4Pv4icL5Q0lCKzKPQtz6So=",
+        "originContent": "## Create pool",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nzpool create -o ashift=12 -o autotrim=on -O compression=zstd -O acltype=posixacl -O xattr=sa -O atime=off -O mountpoint=legacy zroot sdx2\n\n# with two mirrored drives\nzpool create -o ashift=12 -o autotrim=on -O compression=zstd -O acltype=posixacl -O xattr=sa -O atime=off -O mountpoint=legacy zroot mirror sdx2 sdy2\n```",
+    "ContentSha": "uTGFw6hw6EbZrGTHDGEvNpK2GG1DCUTlYwnXsH0jS00=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nzpool create -o ashift=12 -o autotrim=on -O compression=zstd -O acltype=posixacl -O xattr=sa -O atime=off -O mountpoint=legacy zroot sdx2\n\n# with two mirrored drives\nzpool create -o ashift=12 -o autotrim=on -O compression=zstd -O acltype=posixacl -O xattr=sa -O atime=off -O mountpoint=legacy zroot mirror sdx2 sdy2\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "8abbG6DlzBpeusklFZ1+oAgMgtljlFgVMjl0BI1CJZE=",
+        "originContent": "zpool create -o ashift=12 -o autotrim=on -O compression=zstd -O acltype=posixacl -O xattr=sa -O atime=off -O mountpoint=legacy zroot sdx2",
+        "translatedContent": "zpool create -o ashift=12 -o autotrim=on -O compression=zstd -O acltype=posixacl -O xattr=sa -O atime=off -O mountpoint=legacy zroot sdx2"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "KoZmwQ5xGADs7+T+GzkXqjMqjnjbg5MXnUZ9Oa6GBto=",
+        "originContent": "# with two mirrored drives",
+        "translatedContent": "# with two mirrored drives"
+      },
+      {
+        "row": 5,
+        "rowsha": "LhuDESPHwRnDxDJSGyV90lWLRqts0WC1xF4twfvXFk4=",
+        "originContent": "zpool create -o ashift=12 -o autotrim=on -O compression=zstd -O acltype=posixacl -O xattr=sa -O atime=off -O mountpoint=legacy zroot mirror sdx2 sdy2",
+        "translatedContent": "zpool create -o ashift=12 -o autotrim=on -O compression=zstd -O acltype=posixacl -O xattr=sa -O atime=off -O mountpoint=legacy zroot mirror sdx2 sdy2"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n- `autotrim` - Should be omitted for non-SSD storage.\n- `ashift` - Requires research. this setting is device-specific, and many drives will lie.\n\n\n## Setup partitions",
+    "ContentSha": "2MwBWJlZ3fGOaV/yn6jogoR2IQCf6woDqP1YtllcSqU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- `autotrim` - SSD가 아닌 저장장치에는 생략해야 합니다.\n- `ashift` - 연구가 필요합니다. 이 설정은 장치별로 다르며, 많은 드라이브가 거짓 정보를 제공합니다.\n\n\n## 파티션 설정\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `autotrim` - SSD가 아닌 저장장치에는 생략해야 합니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "QlQyTjGbTu1LZdU0c7j9FAD98nskMV+3SDUa5fLoDN0=",
+        "originContent": "- `autotrim` - Should be omitted for non-SSD storage.",
+        "translatedContent": "- `ashift` - 연구가 필요합니다. 이 설정은 장치별로 다르며, 많은 드라이브가 거짓 정보를 제공합니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "lfs/RfgcS2oHYQZuNvnX12+L3xN24mVAZVmkfzbpYY8=",
+        "originContent": "- `ashift` - Requires research. this setting is device-specific, and many drives will lie.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 파티션 설정"
+      },
+      {
+        "row": 6,
+        "rowsha": "6c9qNmJYzABTKD4bepX5D4ehFOxTqpd+1Fk9+3p0T6E=",
+        "originContent": "## Setup partitions",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nmkfs.vfat -n BOOT -F32 /dev/sdx1\nparted /dev/sdx set 1 boot on\n\nmkdir /mnt/{home,boot,nix}\n\nzfs create -o encryption=on -o keyformat=passphrase zroot/locker\nzfs create zroot/locker/home\nzfs create zroot/locker/nix\nzfs create zroot/locker/os\n\nmount -t zfs zroot/locker/os /mnt\nmount -t zfs zroot/locker/home /mnt/home\nmount -t zfs zroot/locker/nix /mnt/nix\nmount /dev/sdx1 /mnt/boot\n```",
+    "ContentSha": "kOlngxnwlihB/guIGn6A3CIk6qeXikmlwVeWYuCCXfo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nmkfs.vfat -n BOOT -F32 /dev/sdx1\nparted /dev/sdx set 1 boot on\n\nmkdir /mnt/{home,boot,nix}\n\nzfs create -o encryption=on -o keyformat=passphrase zroot/locker\nzfs create zroot/locker/home\nzfs create zroot/locker/nix\nzfs create zroot/locker/os\n\nmount -t zfs zroot/locker/os /mnt\nmount -t zfs zroot/locker/home /mnt/home\nmount -t zfs zroot/locker/nix /mnt/nix\nmount /dev/sdx1 /mnt/boot\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "wgzO4yj4qqgeV0EqRJkzjOaqyilUQW1ek4s/V/lEYVE=",
+        "originContent": "mkfs.vfat -n BOOT -F32 /dev/sdx1",
+        "translatedContent": "mkfs.vfat -n BOOT -F32 /dev/sdx1"
+      },
+      {
+        "row": 3,
+        "rowsha": "eB1J+ZGaLDn9qXIFlZI3ik8iHnQ75QdTb4QRWVHxjDA=",
+        "originContent": "parted /dev/sdx set 1 boot on",
+        "translatedContent": "parted /dev/sdx set 1 boot on"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "oAjvJPeTP5f6Nwpt7wkh4fsl9DMlPn74KlhEJsV9cus=",
+        "originContent": "mkdir /mnt/{home,boot,nix}",
+        "translatedContent": "mkdir /mnt/{home,boot,nix}"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "xVIgfqDkrAWA8fhum1W1YJo38BryQUljRYfdcGrrq28=",
+        "originContent": "zfs create -o encryption=on -o keyformat=passphrase zroot/locker",
+        "translatedContent": "zfs create -o encryption=on -o keyformat=passphrase zroot/locker"
+      },
+      {
+        "row": 8,
+        "rowsha": "uxAdMRUNZrYNze390v/BV6+zL0wmjazFpO8g00VBZuo=",
+        "originContent": "zfs create zroot/locker/home",
+        "translatedContent": "zfs create zroot/locker/home"
+      },
+      {
+        "row": 9,
+        "rowsha": "q+QQ6D+ZnlczuCCpSFjTA9qm81zI+dkqMDwZzaG92/4=",
+        "originContent": "zfs create zroot/locker/nix",
+        "translatedContent": "zfs create zroot/locker/nix"
+      },
+      {
+        "row": 10,
+        "rowsha": "vizPGmkLG3mdC/HHBT3qC7FZK//+FA03GFDoT2fTaPI=",
+        "originContent": "zfs create zroot/locker/os",
+        "translatedContent": "zfs create zroot/locker/os"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "1sdM0xCEXKmxLNZQqCZ9Ms8h+/iJG8WTPFZecOg6Udw=",
+        "originContent": "mount -t zfs zroot/locker/os /mnt",
+        "translatedContent": "mount -t zfs zroot/locker/os /mnt"
+      },
+      {
+        "row": 13,
+        "rowsha": "RqkSeO0ax7glvfUzwGoySyHZZPR+j1e9kc8HQahuUpw=",
+        "originContent": "mount -t zfs zroot/locker/home /mnt/home",
+        "translatedContent": "mount -t zfs zroot/locker/home /mnt/home"
+      },
+      {
+        "row": 14,
+        "rowsha": "InqhCUxTUC+BY2hAtibUOOmj+cXkwCRdxexPj813SDs=",
+        "originContent": "mount -t zfs zroot/locker/nix /mnt/nix",
+        "translatedContent": "mount -t zfs zroot/locker/nix /mnt/nix"
+      },
+      {
+        "row": 15,
+        "rowsha": "4BzlqFDTEnuyA1YJWHwXQ6XvcFjQB4c1r+2tZwfCO3U=",
+        "originContent": "mount /dev/sdx1 /mnt/boot",
+        "translatedContent": "mount /dev/sdx1 /mnt/boot"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## NixOS config",
+    "ContentSha": "SC6UQ35jgkfsOPHvsaBKR2+OSJLdpEKPneKWqVoRTG4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## NixOS 구성",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yxfgeHFMWXWQHVylcTC9nZTFyodInZirMSjNKFXEc44=",
+        "originContent": "## NixOS config",
+        "translatedContent": "## NixOS 구성"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```nix\n{\n  # needed for zfs. 4 random bytes (in hex)\n  networking.hostId = \"12345678\";\n\n  # or nicer implementation\n  networking.hostId = builtins.substring 0 8 (builtins.hashString \"md5\" config.networking.hostName);\n\n  # nixos documentation recommends setting these to false\n  boot = {\n      zfs.forceImportAll = false;\n      zfs.forceImportRoot = false;\n  };\n}\n```",
+    "ContentSha": "05taITkn4EygXZELuVadkCfYixD8DKh21sX9wLC1Zzs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```nix\n{\n  # needed for zfs. 4 random bytes (in hex)\n  networking.hostId = \"12345678\";\n\n  # or nicer implementation\n  networking.hostId = builtins.substring 0 8 (builtins.hashString \"md5\" config.networking.hostName);\n\n  # nixos documentation recommends setting these to false\n  boot = {\n      zfs.forceImportAll = false;\n      zfs.forceImportRoot = false;\n  };\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZgRihY8BNUF18r3dpZazh5OELh/daPAHGWD6O3hjcs4=",
+        "originContent": "```nix",
+        "translatedContent": "```nix"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "PaN0pge59HOBCwv0hlICVS5nDZDJpGVfi2R0DToFF5g=",
+        "originContent": "  # needed for zfs. 4 random bytes (in hex)",
+        "translatedContent": "  # needed for zfs. 4 random bytes (in hex)"
+      },
+      {
+        "row": 4,
+        "rowsha": "sKyJ4+JgGpI+YuzsA72i9FehjtMzjQZh0nGsbEhyOng=",
+        "originContent": "  networking.hostId = \"12345678\";",
+        "translatedContent": "  networking.hostId = \"12345678\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Nz38XGqXxr586RfV4TqlUg6tlm7SFbC6afzdZ8sES1M=",
+        "originContent": "  # or nicer implementation",
+        "translatedContent": "  # or nicer implementation"
+      },
+      {
+        "row": 7,
+        "rowsha": "9w2Zc0hBYDx+T4ymgQEILV9eLITnNxV9HzQy0ofE274=",
+        "originContent": "  networking.hostId = builtins.substring 0 8 (builtins.hashString \"md5\" config.networking.hostName);",
+        "translatedContent": "  networking.hostId = builtins.substring 0 8 (builtins.hashString \"md5\" config.networking.hostName);"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "TUc0eUl2ThCsjQlQdI7bSJEKInLkM8RkSWncYa0hctc=",
+        "originContent": "  # nixos documentation recommends setting these to false",
+        "translatedContent": "  # nixos documentation recommends setting these to false"
+      },
+      {
+        "row": 10,
+        "rowsha": "4Nlf39riTZXGfVaOdpP1NuczUM2mI1kJHbDtxs4/LLY=",
+        "originContent": "  boot = {",
+        "translatedContent": "  boot = {"
+      },
+      {
+        "row": 11,
+        "rowsha": "orEkuva9DhlHW9xwxBYQ8hxJO79P9G0jYK3rWrlGr7I=",
+        "originContent": "      zfs.forceImportAll = false;",
+        "translatedContent": "      zfs.forceImportAll = false;"
+      },
+      {
+        "row": 12,
+        "rowsha": "EVjcaDpg2RZI23bJ2KCt9HibQrFcqv82NJvtilI6Njw=",
+        "originContent": "      zfs.forceImportRoot = false;",
+        "translatedContent": "      zfs.forceImportRoot = false;"
+      },
+      {
+        "row": 13,
+        "rowsha": "XAJUrNAlFhkCm3dCzjPtaS8QmVcc8YIRfrToe3G88DE=",
+        "originContent": "  };",
+        "translatedContent": "  };"
+      },
+      {
+        "row": 14,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n\n## unmount and export all zfs stuff before leaving the live installer!!!",
+    "ContentSha": "v1iU3shqUu1CvJKhAit8NsVd4zMiL2G8q5YWdmsLe8s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 라이브 설치 프로그램을 종료하기 전에 모든 ZFS 항목을 언마운트하고 내보내기!!!\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 라이브 설치 프로그램을 종료하기 전에 모든 ZFS 항목을 언마운트하고 내보내기!!!"
+      },
+      {
+        "row": 3,
+        "rowsha": "s79zQLAEbicVZZLHHpWzM3Jecs+2dyde2pKMynN+bis=",
+        "originContent": "## unmount and export all zfs stuff before leaving the live installer!!!",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nzpool export zroot\n```",
+    "ContentSha": "C3MdD780wPSFKIIAdutpm9oRakxzfYICew0sefdbIMU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nzpool export zroot\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "5qAwbutVhtvR5QCImsBzwC2Kwh1AG2SGsjcmtNwWlVM=",
+        "originContent": "zpool export zroot",
+        "translatedContent": "zpool export zroot"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

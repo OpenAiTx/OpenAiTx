@@ -30,35 +30,35 @@
 
 # 🎮 2048++
 
-Klasik 2048 oyununun geliştirilmiş bir versiyonu, şimdi çok daha eğlenceli özelliklerle! Bu, boş zamanlarımda hazırladığım küçük bir proje—umarım size de neşe getirir!
+Klasik 2048 oyununun geliştirilmiş bir versiyonu, şimdi daha da eğlenceli özelliklerle! Bu küçük projeyi boş zamanımda hazırladım—umarım size de biraz neşe getirir!
 
 ## 🎯 Oyun Tanıtımı
 
-2048, basit ama bağımlılık yapan bir sayı birleştirme oyunudur. 4x4’lük bir ızgarada, aynı sayıya sahip kutuları birleştirmek için yukarı, aşağı, sola veya sağa kaydırın. Amaç ne? 2048’e ulaşmak (ama durmayın, daha yüksek puanlar için devam edebilirsiniz)!
+2048, basit ama bağımlılık yapan bir sayı birleştirme oyunudur. 4x4'lük bir ızgarada yukarı, aşağı, sola veya sağa kaydırarak aynı sayıya sahip blokları birleştirin. Amaç? 2048'e ulaşmak (ama durmak zorunda değilsiniz, daha yüksek puanlar için devam edebilirsiniz)!
 
 **Nasıl oynanır:**
-- Kutuları hareket ettirmek için ok tuşlarını veya WASD’yi kullanın.
-- Aynı sayıya sahip iki kutu çarpıştığında tek bir kutuya dönüşürler.
-- Her hamleden sonra, rastgele bir boş noktada yeni bir 2 veya 4 belirir.
-- Hamle yapacak yer kalmadığında oyun biter.
+- Blokları hareket ettirmek için yön tuşlarını veya WASD tuşlarını kullanın.
+- Aynı sayıya sahip iki karo çarpıştığında, tek bir karoya birleşirler.
+- Her hamleden sonra, boş bir alanda rastgele yeni bir 2 veya 4 belirir.
+- Hamle kalmadığında oyun sona erer.
 
 ## ✨ Özel Özellikler
 
 ### 1. Geri Alma Fonksiyonu
 - Yanlış bir hamle mi yaptınız? Endişelenmeyin!
-- Sadece "Geri Al" butonuna basarak bir önceki adıma dönebilirsiniz.
-- İstediğiniz kadar geri alabilirsiniz, ta en başa kadar.
-- Artık yanlışlıkla yapılan bir dokunuş oyununuzu mahvetmesin!
+- Sadece "Geri Al" butonuna basarak bir adım geri gidebilirsiniz.
+- İstediğiniz kadar geri alabilirsiniz, en başa kadar.
+- Artık bir parmak kayması oyununuzu mahvetmesin!
 
 ### 2. Gizli Hile Modu
 - Sihirli diziyi girin: ←←→→ →→←← (sol, sol, sağ, sağ, sağ, sağ, sol, sol)
-- Tüm kutular sihirli bir şekilde 128’e dönüşecek!
-- Bu bir Paskalya yumurtası, sadece eğlence amaçlı.
+- Tüm karolar sihirli bir şekilde 128'e dönüşecek!
+- Sadece eğlence için bir Paskalya yumurtası.
 - İpucu: Hile yapmak eğlencelidir ama abartmayın! 😉
 
 ## 🎯 Demo
 
-🎯 Buradan oynayın: [2048.765431.xyz](https://2048.765431.xyz/)
+🎯 : [Buradan oynayın](http://34.150.49.127:5000/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -99,29 +99,31 @@ python 2048.py
 
 ## 🎨 Özelleştirme
 
-Kendi tarzınızı katmak mı istiyorsunuz? Yeni bir görünüm için `styles.css` dosyasını düzenleyin veya oyun akışını değiştirmek için `script.js`'e dalın. Tüm kodlar kolayca düzenlenebilmesi için bolca yorumlanmıştır!
+Kendi tarzınızı yaratmak mı istiyorsunuz? Yeni bir görünüm için `styles.css` dosyasını düzenleyin veya oyunun oynanışını değiştirmek için `script.js`'e göz atın. Tüm kodlar kolayca düzenlenebilmesi için iyi şekilde yorumlanmıştır!
 
 ## 📝 Lisans
 
 GPL-2.0 lisansı
 
-## 🤝 Katkıda Bulunma
+## 🤝 Katkı Sağlama
 
-Güncellemeler devam ediyor! Sorunlar ve Çekme Talepleri çok memnuniyetle karşılanır—bu oyunu birlikte daha da harika hale getirelim!
+Hâlâ güncelleniyor! Sorunlar ve Çekme Talepleri çok memnuniyetle karşılanır—bu oyunu birlikte daha harika hale getirelim!
 
 
 ## 🙏 Teşekkürler
 
-Bu projeye destek olan aşağıdaki sponsorlara teşekkürler:
-- Sunucu sağlayan [IDC.REST](https://idc.rest/)
-- Sunucu sağlayan [Serv00](https://www.serv00.com/)
+Bu projeye destek veren aşağıdaki sponsorlara teşekkürler:
+- [Yok](https://#/) sunucu sağlıyor
+- [Serv00](https://www.serv00.com/) sunucu sağlıyor
 
 ---
-_Son güncelleme: Haz. 2025_
+_Son güncelleme: Ağustos 2025_
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

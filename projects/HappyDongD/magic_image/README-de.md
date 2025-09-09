@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Sprache</summary>
@@ -28,20 +29,20 @@
   </details>
 </div>
 
-# Magische KI-Bildgenerierung
+# Magische KI-Malerei
 
 <div align="right">中文 | <a href="README-EN.md">English</a></div>
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Lizenz](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
-Eine auf Next.js basierende KI-Bildgenerierungsanwendung mit folgenden Hauptfunktionen:
-- 🎨 Unterstützung mehrerer KI-Modelle (Sora, DALL-E, GPT usw.) und Hinzufügen benutzerdefinierter Modelle
-- 🖼️ Text-zu-Bild und Bild-zu-Bild Funktionen, unterstützt Multi-Bild-Referenz und Bereichsbearbeitung
+Eine auf Next.js basierende KI-Bildgenerierungsanwendung mit den folgenden Hauptfunktionen:
+- 🎨 Unterstützung für verschiedene KI-Modelle (Sora, DALL-E, GPT, GEMINI usw.) sowie das Hinzufügen benutzerdefinierter Modelle
+- 🖼️ Text-zu-Bild und Bild-zu-Bild Funktionen, Unterstützung für mehrere Bildreferenzen und Bereichsbearbeitung
 - 🔐 Alle Daten und API-Schlüssel werden lokal gespeichert, um die Privatsphäre zu schützen
-- 💻 Unterstützung für Web- und Desktop-App-Paketierung, plattformübergreifend nutzbar
+- 💻 Unterstützung für Web-Version und Desktop-App-Paketierung, plattformübergreifende Nutzung
 
 ## Online-Erlebnis
 
@@ -50,42 +51,46 @@ Zugriffsadresse: [https://image-front-eight.vercel.app/](https://image-front-eig
 ### Screenshots der Anwendung
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="应用截图4" width="800" style="margin-bottom: 20px"/>
-      <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png" alt="应用截图4" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png" alt="应用截图1" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png" alt="应用截图2" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="应用截图3" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="App-Screenshot 4" width="800" style="margin-bottom: 20px"/>
+      <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png" alt="App-Screenshot 4" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png" alt="App-Screenshot 1" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png" alt="App-Screenshot 2" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="App-Screenshot 3" width="800" style="margin-bottom: 20px"/>
 </div>
 
 ## Funktionsmerkmale
 
-- 🎨 Unterstützung mehrerer KI-Modelle
+- 🎨 Unterstützung für verschiedene KI-Modelle
   - GPT Sora_Image Modell
   - GPT 4o_Image Modell
   - GPT Image 1 Modell
   - DALL-E 3 Modell
-  - 🆕 Benutzerdefinierte Modelle (Unterstützt Hinzufügen privater Modelle)
-- ✍️ Text-zu-Bild-Funktion
+  - GEMINI Modell
+  - 🆕 Benutzerdefiniertes Modell (Unterstützung für das Hinzufügen privater Modelle)
+- 🔄 Wechsel zwischen mehreren Modellen
+  - Schneller Wechsel zwischen verschiedenen Modellen möglich
+  - Jedes Modell hat eigene Konfigurationsoptionen
+- ✍️ Text-zu-Bild Funktion
   - Unterstützung für benutzerdefinierte Prompts
   - Auswahl des Bildverhältnisses möglich
-  - Unterstützung verschiedener Bildgrößen
-- 🖼️ Bild-zu-Bild-Funktion
-  - Unterstützung der Bildbearbeitung
-  - Bereichsmaskenbearbeitung möglich
-  - Anpassung der Bildqualität
-  - Multi-Bild-Referenz (gleichzeitiges Hochladen mehrerer Bilder)
+  - Unterstützung für verschiedene Bildgrößen
+- 🖼️ Bild-zu-Bild Funktion
+  - Unterstützung für Bildbearbeitung
+  - Unterstützung für Bereichs-Maskenbearbeitung
+  - Unterstützung für Bildqualitätsanpassung
+  - Unterstützung für mehrere Referenzbilder (gleichzeitiges Hochladen mehrerer Bilder)
 - 🔒 Datensicherheit
-  - Alle generierten Bilder und der Verlauf werden nur lokal im Browser gespeichert
+  - Alle generierten Bilder und Verlaufseinträge werden nur im lokalen Browser gespeichert
   - Unterstützung für benutzerdefinierte API-Proxy-Adressen
   - Unterstützung für API-Key-Konfiguration
 - 📱 UI-Design
-  - Moderne Benutzeroberfläche
-  - Flüssige Interaktion
-  - Anzeige im Markdown-Format
-  - Code-Highlighting-Unterstützung
+  - Modernes Benutzerinterface
+  - Flüssige Interaktionserfahrung
+  - Darstellung im Markdown-Format
+  - Unterstützung für Code-Hervorhebung
 - 🖥️ Plattformübergreifende Unterstützung
-  - Paketierung als Desktop-Anwendung möglich (Windows, macOS, Linux)
-  - Offline-Nutzung möglich (API-Schnittstelle erforderlich)
+  - Unterstützung für die Paketierung als Desktop-Anwendung (Windows, macOS, Linux)
+  - Unterstützung für Offline-Nutzung (API-Schnittstelle muss konfiguriert werden)
 
 ## Technologiestack
 
@@ -94,12 +99,11 @@ Zugriffsadresse: [https://image-front-eight.vercel.app/](https://image-front-eig
 - Tailwind CSS
 - shadcn/ui
 - React
-- Tauri (Desktop-App-Paketierung)
+- Tauri (Desktop-Anwendungspaketierung)
 
 ## Lokale Entwicklung
 
 1. Projekt klonen
-
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
@@ -185,49 +189,49 @@ Nach dem erfolgreichen Build findest du das Installationspaket für das entsprec
      ```
      http://localhost:3000?url=https%3A%2F%2Fapi.example.com&apikey=sk-xxx
      ```
-     Hinweis: Spezielle Zeichen in der URL müssen URL-codiert werden
+     Hinweis: Sonderzeichen in der URL müssen URL-codiert werden
 
-2. Auswahl des Generierungsmodus
-   - Text-zu-Bild: Erzeugt ein Bild anhand einer Textbeschreibung
+2. Generierungsmodus auswählen
+   - Text-zu-Bild: Bild aus Textbeschreibung generieren
    - Bild-zu-Bild: Bild hochladen und bearbeiten
 
 3. Generierungsparameter einstellen
    - KI-Modell auswählen (integriertes oder benutzerdefiniertes Modell)
-   - Bildseitenverhältnis festlegen
-   - Bildqualität anpassen (nur im Bild-zu-Bild-Modus)
+   - Bildverhältnis festlegen
+   - Bildqualität anpassen (Bild-zu-Bild-Modus)
 
 4. Verwaltung benutzerdefinierter Modelle
-   - Klicken Sie auf das Einstellungssymbol neben dem Modell-Auswahlfeld
-   - Neues Modell hinzufügen: Modellname, Modellwert eingeben und Modelltyp wählen
-   - Modell bearbeiten: Klicken Sie auf die Bearbeiten-Schaltfläche eines bestehenden Modells
-   - Modell löschen: Klicken Sie auf die Löschen-Schaltfläche eines bestehenden Modells
-   - Modell auswählen: Klicken Sie auf das Pluszeichen eines Modells, um es sofort zu nutzen
+   - Auf das Einstellungssymbol neben der Modellauswahl klicken
+   - Neues Modell hinzufügen: Modellname, Modellwert eingeben und Modelltyp auswählen
+   - Modell bearbeiten: Auf die Bearbeiten-Schaltfläche eines vorhandenen Modells klicken
+   - Modell löschen: Auf die Löschen-Schaltfläche eines vorhandenen Modells klicken
+   - Modell auswählen: Auf die Plus-Schaltfläche des Modells klicken, um es sofort zu verwenden
 
-5. Erläuterung der Modelltypen
-   - DALL-E Format: Verwendet die Bildgenerierungs-API (/v1/images/generations)
-   - OpenAI Format: Verwendet die Chat-API (/v1/chat/completions)
+5. Erklärung der Modelltypen
+   - DALL-E-Format: Verwendung des Bildgenerierungs-Endpunkts (/v1/images/generations)
+   - OpenAI-Format: Verwendung des Chat-Endpunkts (/v1/chat/completions)
 
 6. Bild generieren
    - Prompt eingeben
-   - Auf die Schaltfläche „Bild generieren“ klicken
+   - Auf die Schaltfläche "Bild generieren" klicken
    - Auf die Fertigstellung warten
 
 7. Bildverwaltung
-   - Verlauf ansehen
+   - Verlauf anzeigen
    - Generierte Bilder herunterladen
    - Bestehende Bilder bearbeiten
 
 ## Hinweise
 
-- Alle generierten Bilder und der Verlauf werden nur im lokalen Browser gespeichert
-- Nutzung des Inkognito-Modus oder Gerätewechsel führen zu Datenverlust
+- Alle generierten Bilder und Verlaufseinträge werden nur im lokalen Browser gespeichert
+- Die Verwendung des Inkognito-Modus oder eines anderen Geräts führt zu Datenverlust
 - Bitte laden Sie wichtige Bilder rechtzeitig herunter und sichern Sie sie
-- API-Konfigurationen werden sicher in Ihrem Browser gespeichert und nicht auf den Server hochgeladen
-- HTTPS-Websites blockieren das Laden von HTTP-Ressourcen, die App wandelt HTTP-APIs automatisch in HTTPS um
+- Die API-Konfiguration wird sicher in Ihrem Browser gespeichert und nicht auf den Server hochgeladen
+- HTTPS-Websites werden durch den Browser am Laden von HTTP-Ressourcen gehindert, die Anwendung wandelt HTTP-Endpunkte automatisch in HTTPS um
 
 ## Beitragshinweise
 
-Issues und Pull Requests zur Verbesserung des Projekts sind willkommen.
+Willkommen, um Issues und Pull Requests einzureichen, um das Projekt zu verbessern.
 
 ## Lizenz
 
@@ -235,40 +239,40 @@ Dieses Projekt steht unter der [Apache License 2.0](https://www.apache.org/licen
 
 Gemäß der Lizenz dürfen Sie:
 - ✅ Kommerzielle Nutzung: Sie dürfen die Software kommerziell nutzen
-- ✅ Modifikation: Sie dürfen den Quellcode ändern
-- ✅ Weiterverbreitung: Sie dürfen die Software verbreiten
+- ✅ Modifikation: Sie dürfen den Quellcode der Software ändern
+- ✅ Weiterverbreitung: Sie dürfen die Software weiterverbreiten
 - ✅ Private Nutzung: Sie dürfen die Software privat verwenden
-- ✅ Patentlizenz: Diese Lizenz enthält auch eine Patentlizenz
+- ✅ Patenterlaubnis: Diese Lizenz gewährt auch eine Patenterlaubnis
 
 Sie müssen jedoch folgende Bedingungen einhalten:
-- 📝 Lizenz- und Urheberrechtshinweis: Sie müssen die originale Lizenz und den Copyright-Hinweis beifügen
-- 📝 Änderungshinweis: Sie müssen wesentliche Änderungen am Originalcode kenntlich machen
-- 📝 Markenhinsweis: Sie dürfen keine Marken der Beitragenden verwenden
+- 📝 Lizenz- und Urheberrechtshinweis: Sie müssen die ursprüngliche Lizenz und Urheberrechtshinweise beifügen
+- 📝 Änderungen kennzeichnen: Sie müssen wesentliche Änderungen am Originalcode kenntlich machen
+- 📝 Markenerklärung: Die Marken der Beitragenden dürfen nicht verwendet werden
 
 ---
 
-## Spendieren Sie mir einen Kaffee
+## Spendiere mir einen Kaffee
 
-Falls Ihnen dieses Projekt geholfen hat, können Sie mir gerne einen Kaffee spendieren ☕️
+Wenn dir dieses Projekt geholfen hat, freue ich mich über einen Kaffee ☕️
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="WeChat-Bezahlcode" width="300" />
-  <p>Spendieren Sie mir einen Kaffee</p>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="WeChat Zahlungs-QR-Code" width="300" />
+  <p>Spendiere mir einen Kaffee</p>
 </div>
 
 ## Kontakt
 
-Wenn Sie Fragen oder Anregungen haben, können Sie mich gerne per WeChat kontaktieren:
+Wenn Sie Fragen oder Anregungen haben, kontaktieren Sie mich gerne via WeChat:
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg" alt="WeChat-Kontaktinformation" width="300" />
-  <p>Scannen Sie den QR-Code, um mich auf WeChat hinzuzufügen</p>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg" alt="WeChat Kontakt QR-Code" width="300" />
+  <p>QR-Code scannen, um WeChat hinzuzufügen</p>
 </div>
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

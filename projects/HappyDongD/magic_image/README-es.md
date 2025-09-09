@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Idioma</summary>
@@ -28,7 +29,7 @@
   </details>
 </div>
 
-# Pintura Mágica AI
+# Pintura mágica con IA
 
 <div align="right">中文 | <a href="README-EN.md">English</a></div>
 
@@ -37,13 +38,13 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
-Una aplicación de pintura AI desarrollada con Next.js, con las siguientes funciones principales:
-- 🎨 Soporta múltiples modelos de IA (Sora, DALL-E, GPT, etc.) y permite agregar modelos personalizados
-- 🖼️ Proporciona funciones de texto a imagen y de imagen a imagen, soporta referencias múltiples y edición por zonas
-- 🔐 Todos los datos y claves API se almacenan localmente, garantizando la privacidad y seguridad
-- 💻 Soporte para versión web y empaquetado como aplicación de escritorio, uso multiplataforma
+Una aplicación de dibujo AI desarrollada con Next.js, que cuenta con las siguientes funciones principales:
+- 🎨 Soporte para varios modelos de IA (Sora, DALL-E, GPT, GEMINI, etc.) y permite agregar modelos personalizados
+- 🖼️ Funciones de generación de imágenes a partir de texto y de edición de imágenes, con soporte para múltiples imágenes de referencia y edición por zonas
+- 🔐 Todos los datos y claves de API se almacenan localmente, garantizando la seguridad y privacidad
+- 💻 Compatible con versión web y empaquetado como aplicación de escritorio, para uso multiplataforma
 
-## Prueba en línea
+## Experiencia en línea
 
 Dirección de acceso: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)
 
@@ -57,35 +58,39 @@ Dirección de acceso: [https://image-front-eight.vercel.app/](https://image-fron
   <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="Captura de pantalla 3" width="800" style="margin-bottom: 20px"/>
 </div>
 
-## Características
+## Características principales
 
 - 🎨 Soporte para múltiples modelos de IA
   - Modelo GPT Sora_Image
   - Modelo GPT 4o_Image
   - Modelo GPT Image 1
   - Modelo DALL-E 3
-  - 🆕 Modelos personalizados (soporta agregar modelos privados)
-- ✍️ Función de texto a imagen
-  - Soporta indicaciones personalizadas
-  - Permite seleccionar la relación de aspecto
-  - Soporta múltiples tamaños de imagen
-- 🖼️ Función de imagen a imagen
-  - Permite edición de imágenes
-  - Soporta edición de zonas enmascaradas
-  - Permite ajustar la calidad de la imagen
-  - Permite referencia de múltiples imágenes (subida simultánea)
+  - Modelo GEMINI
+  - 🆕 Modelos personalizados (soporta añadir modelos privados)
+- 🔄 Cambio entre modelos
+  - Soporte para cambiar rápidamente entre diferentes modelos
+  - Cada modelo tiene opciones de configuración independientes
+- ✍️ Función de generación de imágenes a partir de texto
+  - Soporte para personalizar los prompts
+  - Permite seleccionar la proporción de la imagen
+  - Soporte para varios tamaños de imagen
+- 🖼️ Función de generación de imágenes a partir de imágenes
+  - Soporte para edición de imágenes
+  - Soporte para edición de zonas enmascaradas
+  - Soporte para ajuste de calidad de imagen
+  - Soporta referencia múltiple de imágenes (subir varias imágenes simultáneamente)
 - 🔒 Seguridad de datos
-  - Todas las imágenes generadas e historial solo se guardan localmente en el navegador
-  - Permite configurar dirección de proxy para la API
-  - Permite configurar la clave de API
-- 📱 Diseño UI
+  - Todas las imágenes generadas y el historial solo se guardan en el navegador local
+  - Soporta la personalización de la dirección de proxy de la API
+  - Soporta configuración de API Key
+- 📱 Diseño de UI
   - Interfaz de usuario moderna
   - Experiencia de interacción fluida
   - Visualización en formato Markdown
   - Soporte para resaltado de código
-- 🖥️ Compatibilidad multiplataforma
+- 🖥️ Soporte multiplataforma
   - Soporta empaquetado como aplicación de escritorio (Windows, macOS, Linux)
-  - Soporta uso sin conexión (requiere configuración de API)
+  - Soporta uso sin conexión (requiere configuración de interfaz API)
 
 ## Stack tecnológico
 
@@ -94,12 +99,11 @@ Dirección de acceso: [https://image-front-eight.vercel.app/](https://image-fron
 - Tailwind CSS
 - shadcn/ui
 - React
-- Tauri (empaquetado de aplicaciones de escritorio)
+- Tauri (empaquetado de aplicación de escritorio)
 
 ## Desarrollo local
 
 1. Clonar el proyecto
-
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
@@ -188,87 +192,87 @@ Después de completar la compilación, puedes encontrar el paquete de instalaci�
      Nota: Los caracteres especiales en la URL deben ser codificados en URL
 
 2. Seleccionar modo de generación
-   - Texto a imagen: genera una imagen a partir de una descripción textual
-   - Imagen a imagen: edita una imagen subiéndola
+   - Texto a imagen: generar imágenes mediante descripciones de texto
+   - Imagen a imagen: subir una imagen para editarla
 
 3. Configurar parámetros de generación
-   - Seleccionar el modelo de IA (modelo integrado o modelo personalizado)
+   - Seleccionar modelo de IA (modelo integrado o personalizado)
    - Establecer la proporción de la imagen
    - Ajustar la calidad de la imagen (modo imagen a imagen)
 
 4. Gestión de modelos personalizados
-   - Haz clic en el ícono de configuración junto al cuadro de selección de modelos
-   - Añadir nuevo modelo: introduce el nombre, valor y tipo de modelo
-   - Editar modelo: haz clic en el botón de editar de un modelo existente
-   - Eliminar modelo: haz clic en el botón de eliminar de un modelo existente
-   - Seleccionar modelo: haz clic en el botón de más para seleccionar y usar el modelo inmediatamente
+   - Hacer clic en el ícono de configuración junto al cuadro de selección de modelo
+   - Agregar un nuevo modelo: ingresar nombre, valor del modelo y seleccionar tipo de modelo
+   - Editar modelo: hacer clic en el botón de edición de un modelo existente
+   - Eliminar modelo: hacer clic en el botón de eliminar de un modelo existente
+   - Seleccionar modelo: hacer clic en el botón de suma del modelo para seleccionarlo de inmediato
 
-5. Descripción de tipos de modelos
-   - Formato DALL-E: usa la interfaz de generación de imágenes (/v1/images/generations)
-   - Formato OpenAI: usa la interfaz de chat (/v1/chat/completions)
+5. Explicación de los tipos de modelo
+   - Formato DALL-E: utiliza la interfaz de generación de imágenes (/v1/images/generations)
+   - Formato OpenAI: utiliza la interfaz de chat (/v1/chat/completions)
 
 6. Generar imagen
-   - Introducir palabras clave
-   - Haz clic en el botón "Generar imagen"
-   - Espera a que finalice la generación
+   - Ingresar la palabra clave o prompt
+   - Hacer clic en el botón "Generar imagen"
+   - Esperar a que se complete la generación
 
 7. Gestión de imágenes
    - Ver historial
    - Descargar imágenes generadas
    - Editar imágenes existentes
 
-## Notas
+## Precauciones
 
 - Todas las imágenes generadas y el historial solo se guardan en el navegador local
-- Usar modo incógnito o cambiar de dispositivo provocará la pérdida de datos
-- Descarga y haz copia de seguridad de las imágenes importantes a tiempo
-- La configuración de la API se almacena de forma segura en tu navegador, no se sube al servidor
-- Los sitios HTTPS bloquean los recursos HTTP, la aplicación convertirá automáticamente las interfaces HTTP a HTTPS
+- Usar el modo privado o cambiar de dispositivo puede causar la pérdida de datos
+- Descargue y haga copia de seguridad de las imágenes importantes a tiempo
+- La configuración de la API se almacenará de forma segura en su navegador y no se subirá al servidor
+- Los recursos HTTP cargados en sitios HTTPS serán bloqueados por el navegador; la aplicación convertirá automáticamente las interfaces HTTP a HTTPS
 
 ## Guía de contribución
 
-Se agradecen Issues y Pull Requests para ayudar a mejorar el proyecto.
+Bienvenido a enviar Issues y Pull Requests para ayudar a mejorar el proyecto.
 
 ## Licencia
 
 Este proyecto utiliza la licencia [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 Según la licencia, usted puede:
-- ✅ Uso comercial: puede utilizar el software con fines comerciales
-- ✅ Modificación: puede modificar el código fuente del software
-- ✅ Distribución: puede distribuir el software
-- ✅ Uso personal: puede usar el software en privado
-- ✅ Licencia de patentes: esta licencia también otorga autorización de patentes
+- ✅ Uso comercial: puede usar el software con fines comerciales
+- ✅ Modificar: puede modificar el código fuente del software
+- ✅ Distribuir: puede distribuir el software
+- ✅ Uso privado: puede usar el software de forma privada
+- ✅ Licencia de patentes: esta licencia también otorga licencia de patentes
 
 Pero debe cumplir con las siguientes condiciones:
-- 📝 Aviso de licencia y derechos de autor: debe incluir la licencia original y el aviso de derechos de autor
-- 📝 Declarar cambios: debe declarar los cambios importantes realizados en el código original
-- 📝 Declaración de marcas: no puede usar las marcas de los colaboradores
+- 📝 Declaración de licencia y derechos de autor: debe incluir la licencia y declaración de derechos de autor originales
+- 📝 Declaración de cambios: debe declarar los cambios importantes realizados al código original
+- 📝 Declaración de marca registrada: no debe utilizar las marcas registradas de los colaboradores
 
 ---
 
 ## Invítame a un café
 
-Si este proyecto te ha sido útil, te invito a invitarme un café ☕️
+Si este proyecto te ha sido útil, eres bienvenido a invitarme a un café ☕️
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="Código de pago WeChat" width="300" />
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="Código de pago de WeChat" width="300" />
   <p>Invítame a un café</p>
 </div>
 
 ## Información de contacto
 
-Si tienes alguna pregunta o sugerencia, puedes contactarme por WeChat:
+Si tienes alguna pregunta o sugerencia, puedes contactarme a través de WeChat:
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg" alt="Contacto WeChat" width="300" />
-  <p>Escanea el código QR para agregarme a WeChat</p>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg" alt="Contacto de WeChat" width="300" />
+  <p>Escanea el código QR para agregarme en WeChat</p>
 </div>
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

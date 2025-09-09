@@ -1,612 +1,252 @@
 [
   {
     "Id": 1,
-    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# 魔法AI绘画\n\n<div align=\"right\">中文 | <a href=\"README-EN.md\">English</a></div>\n\n[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)\n[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)\n[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)\n\n一个基于 Next.js 开发的 AI 绘画应用，具有以下主要功能：\n- 🎨 支持多种 AI 模型（Sora、DALL-E、GPT等）及自定义模型添加\n- 🖼️ 提供文生图和图生图功能，支持多图参考和区域编辑\n- 🔐 所有数据和API密钥本地存储，保障隐私安全\n- 💻 支持网页版及桌面应用打包，跨平台使用\n\n## 在线体验\n\n访问地址：[https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)\n\n### 应用截图\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png\" alt=\"应用截图4\" width=\"800\" style=\"margin-bottom: 20px\"/>\n      <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png\" alt=\"应用截图4\" width=\"800\" style=\"margin-bottom: 20px\"/>\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png\" alt=\"应用截图1\" width=\"800\" style=\"margin-bottom: 20px\"/>\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png\" alt=\"应用截图2\" width=\"800\" style=\"margin-bottom: 20px\"/>\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png\" alt=\"应用截图3\" width=\"800\" style=\"margin-bottom: 20px\"/>\n</div>\n\n## 功能特点\n\n- 🎨 支持多种 AI 模型\n  - GPT Sora_Image 模型\n  - GPT 4o_Image 模型\n  - GPT Image 1 模型\n  - DALL-E 3 模型\n  - 🆕 自定义模型（支持添加私有模型）\n- ✍️ 文生图功能\n  - 支持自定义提示词\n  - 可选择图片比例\n  - 支持多种图片尺寸\n- 🖼️ 图生图功能\n  - 支持图片编辑\n  - 支持区域遮罩编辑\n  - 支持图片质量调整\n  - 支持多图参考（同时上传多张图片）\n- 🔒 数据安全\n  - 所有生成的图片和历史记录仅保存在本地浏览器中\n  - 支持自定义 API 代理地址\n  - 支持 API Key 配置\n- 📱 UI设计\n  - 现代化的用户界面\n  - 流畅的交互体验\n  - Markdown 格式展示\n  - 代码高亮支持\n- 🖥️ 跨平台支持\n  - 支持打包为桌面应用（Windows、macOS、Linux）\n  - 支持离线使用（需要配置API接口）\n\n## 技术栈\n\n- Next.js 14\n- TypeScript\n- Tailwind CSS\n- shadcn/ui\n- React\n- Tauri (桌面应用打包)\n\n## 本地开发",
-    "ContentSha": "UHQMfrTLJhXTMzFDFJOiBZcIuh6NLKoQeDKLFvwO2AA=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# 魔法AI绘画\n\n<div align=\"right\">中文 | <a href=\"README-EN.md\">English</a></div>\n\n[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)\n[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)\n[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)\n",
+    "ContentSha": "Y1dRD6m/FWeancE66WEWHVTJEzViEB53XzY13w8fbY0=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 Sprache</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# Magische KI-Bildgenerierung\n\n<div align=\"right\">中文 | <a href=\"README-EN.md\">English</a></div>\n\n[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)\n[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)\n[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)\n\nEine auf Next.js basierende KI-Bildgenerierungsanwendung mit folgenden Hauptfunktionen:\n- 🎨 Unterstützung mehrerer KI-Modelle (Sora, DALL-E, GPT usw.) und Hinzufügen benutzerdefinierter Modelle\n- 🖼️ Text-zu-Bild und Bild-zu-Bild Funktionen, unterstützt Multi-Bild-Referenz und Bereichsbearbeitung\n- 🔐 Alle Daten und API-Schlüssel werden lokal gespeichert, um die Privatsphäre zu schützen\n- 💻 Unterstützung für Web- und Desktop-App-Paketierung, plattformübergreifend nutzbar\n\n## Online-Erlebnis\n\nZugriffsadresse: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)\n\n### Screenshots der Anwendung\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png\" alt=\"应用截图4\" width=\"800\" style=\"margin-bottom: 20px\"/>\n      <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png\" alt=\"应用截图4\" width=\"800\" style=\"margin-bottom: 20px\"/>\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png\" alt=\"应用截图1\" width=\"800\" style=\"margin-bottom: 20px\"/>\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png\" alt=\"应用截图2\" width=\"800\" style=\"margin-bottom: 20px\"/>\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png\" alt=\"应用截图3\" width=\"800\" style=\"margin-bottom: 20px\"/>\n</div>\n\n## Funktionsmerkmale\n\n- 🎨 Unterstützung mehrerer KI-Modelle\n  - GPT Sora_Image Modell\n  - GPT 4o_Image Modell\n  - GPT Image 1 Modell\n  - DALL-E 3 Modell\n  - 🆕 Benutzerdefinierte Modelle (Unterstützt Hinzufügen privater Modelle)\n- ✍️ Text-zu-Bild-Funktion\n  - Unterstützung für benutzerdefinierte Prompts\n  - Auswahl des Bildverhältnisses möglich\n  - Unterstützung verschiedener Bildgrößen\n- 🖼️ Bild-zu-Bild-Funktion\n  - Unterstützung der Bildbearbeitung\n  - Bereichsmaskenbearbeitung möglich\n  - Anpassung der Bildqualität\n  - Multi-Bild-Referenz (gleichzeitiges Hochladen mehrerer Bilder)\n- 🔒 Datensicherheit\n  - Alle generierten Bilder und der Verlauf werden nur lokal im Browser gespeichert\n  - Unterstützung für benutzerdefinierte API-Proxy-Adressen\n  - Unterstützung für API-Key-Konfiguration\n- 📱 UI-Design\n  - Moderne Benutzeroberfläche\n  - Flüssige Interaktion\n  - Anzeige im Markdown-Format\n  - Code-Highlighting-Unterstützung\n- 🖥️ Plattformübergreifende Unterstützung\n  - Paketierung als Desktop-Anwendung möglich (Windows, macOS, Linux)\n  - Offline-Nutzung möglich (API-Schnittstelle erforderlich)\n\n## Technologiestack\n\n- Next.js 14\n- TypeScript\n- Tailwind CSS\n- shadcn/ui\n- React\n- Tauri (Desktop-App-Paketierung)\n\n## Lokale Entwicklung\n",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Sprache</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# Magische KI-Malerei\n\n<div align=\"right\">中文 | <a href=\"README-EN.md\">English</a></div>\n\n[![Lizenz](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)\n[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)\n[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "<div align=\"right\">"
+        "translatedContent": ""
       },
       {
         "row": 2,
         "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
         "originContent": "<div align=\"right\">",
-        "translatedContent": "  <details>"
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 3,
         "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
         "originContent": "  <details>",
-        "translatedContent": "    <summary >🌐 Sprache</summary>"
+        "translatedContent": "  <details>"
       },
       {
         "row": 4,
         "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
         "originContent": "    <summary >🌐 Language</summary>",
-        "translatedContent": "    <div>"
+        "translatedContent": "    <summary >🌐 Sprache</summary>"
       },
       {
         "row": 5,
         "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
         "originContent": "    <div>",
-        "translatedContent": "      <div align=\"center\">"
+        "translatedContent": "    <div>"
       },
       {
         "row": 6,
         "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
         "originContent": "      <div align=\"center\">",
-        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=en\">English</a>"
+        "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 7,
         "rowsha": "0NnySS0m5RAlECoIZOia3Viw+U7VTACx2QStiXm+k7s=",
         "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=en\">English</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-CN\">简体中文</a>"
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=en\">English</a>"
       },
       {
         "row": 8,
         "rowsha": "2qE34WXsTd8N2gMovvbw/xxMeJFt5OxTd90SzTVGOMY=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-CN\">简体中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-TW\">繁體中文</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 9,
         "rowsha": "225stEn6gjfLkvutOgSLNxhHdtUMkK8avP6WUtKSO5A=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-TW\">繁體中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ja\">日本語</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 10,
         "rowsha": "d7SVh8fWnmW2O9oIEp9eK7x29F0AOuuKAj27jMw7qk8=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ja\">日本語</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ko\">한국어</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ja\">日本語</a>"
       },
       {
         "row": 11,
         "rowsha": "cSonBIYT70RvkIMf3suNVgzaDm9fm+gWoS8af8lU7eI=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ko\">한국어</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=hi\">हिन्दी</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ko\">한국어</a>"
       },
       {
         "row": 12,
         "rowsha": "a9nbmHm8G7QcGm8D3sYW4yeX4BNNpBENr2cHL2sGqmg=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=hi\">हिन्दी</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=th\">ไทย</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=hi\">हिन्दी</a>"
       },
       {
         "row": 13,
         "rowsha": "Z9BRIdO80vlSzufXjR5DxWuo/0EV4COHcqW48v4WTWU=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=th\">ไทย</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fr\">Français</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=th\">ไทย</a>"
       },
       {
         "row": 14,
         "rowsha": "Uvxg+I31HqoHnhaI9r6HJ2jynxJHG2EcEKGroT23W34=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fr\">Français</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=de\">Deutsch</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fr\">Français</a>"
       },
       {
         "row": 15,
         "rowsha": "qOdYWjw8nLiTBw0SwcKn17LmpArGM2svqlmdFn97Deg=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=de\">Deutsch</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=es\">Español</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=de\">Deutsch</a>"
       },
       {
         "row": 16,
         "rowsha": "8EEa7/ZxWRaCZT/jCUnJ6qiBeQtM4KcOLBs/1Ke4kHE=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=es\">Español</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=it\">Italiano</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=es\">Español</a>"
       },
       {
         "row": 17,
         "rowsha": "VchoAxE1Y71uD53X70+EBhBiQglTdDgY9kPqwIHXC0M=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=it\">Italiano</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ru\">Русский</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=it\">Italiano</a>"
       },
       {
         "row": 18,
         "rowsha": "bC0LetWkQF1Em3eEOAnjn+0j45vWxikyfnAIJJoedfE=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ru\">Русский</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pt\">Português</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ru\">Русский</a>"
       },
       {
         "row": 19,
         "rowsha": "ee7hugXz0cObbgDQaISmvjIG1q4yhOkeUSIIzD/jjxA=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pt\">Português</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=nl\">Nederlands</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pt\">Português</a>"
       },
       {
         "row": 20,
         "rowsha": "JsYrpgNpBObIu/Vc0Nw529MvMlYnvS/Cg2IXqQZcQEo=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=nl\">Nederlands</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pl\">Polski</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=nl\">Nederlands</a>"
       },
       {
         "row": 21,
         "rowsha": "Tetrf6sfasSbagRzdRj2mNnY5Mh6toqAIvR7ilg0ik8=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pl\">Polski</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ar\">العربية</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=pl\">Polski</a>"
       },
       {
         "row": 22,
         "rowsha": "AFxnUeklBAmLnRKq95m2+IAbGvWJf0jWjWXfVS8L6ss=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ar\">العربية</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fa\">فارسی</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ar\">العربية</a>"
       },
       {
         "row": 23,
         "rowsha": "y9TiWflZE+ChrEEW9E1Ljg0FvoAEb0FD5MBjNhXdaJA=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fa\">فارسی</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=tr\">Türkçe</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fa\">فارسی</a>"
       },
       {
         "row": 24,
         "rowsha": "DBpRlQPlDMYahlk5otaluChuwwjjohE2+dtePYxqsQc=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=tr\">Türkçe</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=vi\">Tiếng Việt</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=tr\">Türkçe</a>"
       },
       {
         "row": 25,
         "rowsha": "jcWLsYbiH7nadIEYlieulXHiZBv48V9QyIjgiWa/7fw=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=vi\">Tiếng Việt</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=id\">Bahasa Indonesia</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=vi\">Tiếng Việt</a>"
       },
       {
         "row": 26,
         "rowsha": "BN5hCJxerfQxAL5XpnZWLXjf5opPNRhI7nPdqV3ikqc=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=id\">Bahasa Indonesia</a>",
-        "translatedContent": "      </div>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=id\">Bahasa Indonesia</a>"
       },
       {
         "row": 27,
         "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
         "originContent": "      </div>",
-        "translatedContent": "    </div>"
+        "translatedContent": "      </div>"
       },
       {
         "row": 28,
         "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
         "originContent": "    </div>",
-        "translatedContent": "  </details>"
+        "translatedContent": "    </div>"
       },
       {
         "row": 29,
         "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
         "originContent": "  </details>",
-        "translatedContent": "</div>"
+        "translatedContent": "  </details>"
       },
       {
         "row": 30,
         "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
         "originContent": "</div>",
-        "translatedContent": ""
+        "translatedContent": "</div>"
       },
       {
         "row": 31,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# Magische KI-Bildgenerierung"
+        "translatedContent": ""
       },
       {
         "row": 32,
         "rowsha": "m6BgZgP++cQ7zMWccL6TMXn1cuWA5rrz26Nv4R6Mq+4=",
         "originContent": "# 魔法AI绘画",
-        "translatedContent": ""
+        "translatedContent": "# Magische KI-Malerei"
       },
       {
         "row": 33,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "<div align=\"right\">中文 | <a href=\"README-EN.md\">English</a></div>"
+        "translatedContent": ""
       },
       {
         "row": 34,
         "rowsha": "CqSHldSMr4sKoTdUGU9GhIDzG/1RS8HvzQFgeupxuRw=",
         "originContent": "<div align=\"right\">中文 | <a href=\"README-EN.md\">English</a></div>",
-        "translatedContent": ""
+        "translatedContent": "<div align=\"right\">中文 | <a href=\"README-EN.md\">English</a></div>"
       },
       {
         "row": 35,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+        "translatedContent": ""
       },
       {
         "row": 36,
         "rowsha": "U0vs77tGfFYY+r4ScaOhTOZDgt8vSKCUyj59tU13ZtE=",
         "originContent": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
-        "translatedContent": "[![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)"
+        "translatedContent": "[![Lizenz](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
       },
       {
         "row": 37,
         "rowsha": "gl0XxfSY6kzPXFWJTz9DZJJiQpK5y8WrSo3epIZM7tU=",
         "originContent": "[![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)",
-        "translatedContent": "[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)"
+        "translatedContent": "[![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)"
       },
       {
         "row": 38,
         "rowsha": "W3rZO36kbzPVajE492/Slz/cT+4pSp11RN3ShUF1Dnw=",
         "originContent": "[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)",
-        "translatedContent": "[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)"
+        "translatedContent": "[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)"
       },
       {
         "row": 39,
         "rowsha": "mV65pG6nvPUlZG+3DpMaasUGKh2FsMUNWuoCmAEuxzQ=",
         "originContent": "[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)",
-        "translatedContent": ""
+        "translatedContent": "[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)"
       },
       {
         "row": 40,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "Eine auf Next.js basierende KI-Bildgenerierungsanwendung mit folgenden Hauptfunktionen:"
-      },
-      {
-        "row": 41,
-        "rowsha": "zaBBL85zpU4IddcrPyibs3x3LPaTQ40vMMbqt1Sei6U=",
-        "originContent": "一个基于 Next.js 开发的 AI 绘画应用，具有以下主要功能：",
-        "translatedContent": "- 🎨 Unterstützung mehrerer KI-Modelle (Sora, DALL-E, GPT usw.) und Hinzufügen benutzerdefinierter Modelle"
-      },
-      {
-        "row": 42,
-        "rowsha": "gq6GGmR7DArCzJ4ZOtxy2hayMq+pjHEsMTIC4zFZYU4=",
-        "originContent": "- 🎨 支持多种 AI 模型（Sora、DALL-E、GPT等）及自定义模型添加",
-        "translatedContent": "- 🖼️ Text-zu-Bild und Bild-zu-Bild Funktionen, unterstützt Multi-Bild-Referenz und Bereichsbearbeitung"
-      },
-      {
-        "row": 43,
-        "rowsha": "BDfBmv1c9BUXn/LZVg/GOwCCmNHsERzTV3WywMzOrnk=",
-        "originContent": "- 🖼️ 提供文生图和图生图功能，支持多图参考和区域编辑",
-        "translatedContent": "- 🔐 Alle Daten und API-Schlüssel werden lokal gespeichert, um die Privatsphäre zu schützen"
-      },
-      {
-        "row": 44,
-        "rowsha": "8RxCckrm1sjmty8rjyTGw2p1dv3HmewSqg2qnKTZ+Ec=",
-        "originContent": "- 🔐 所有数据和API密钥本地存储，保障隐私安全",
-        "translatedContent": "- 💻 Unterstützung für Web- und Desktop-App-Paketierung, plattformübergreifend nutzbar"
-      },
-      {
-        "row": 45,
-        "rowsha": "Bq4BsNm4sDZ9VJCZYTwpuUyeBLCKe0T4hIdYe1294ds=",
-        "originContent": "- 💻 支持网页版及桌面应用打包，跨平台使用",
-        "translatedContent": ""
-      },
-      {
-        "row": 46,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Online-Erlebnis"
-      },
-      {
-        "row": 47,
-        "rowsha": "ADtFWwsOGosYieBxnANTnViauY06/2da7Kotk2fSMWs=",
-        "originContent": "## 在线体验",
-        "translatedContent": ""
-      },
-      {
-        "row": 48,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Zugriffsadresse: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)"
-      },
-      {
-        "row": 49,
-        "rowsha": "JLtJDKwgCIPGtWvBYh9HDoiCA4aG3HC5QaM3E8MP3Hg=",
-        "originContent": "访问地址：[https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)",
-        "translatedContent": ""
-      },
-      {
-        "row": 50,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Screenshots der Anwendung"
-      },
-      {
-        "row": 51,
-        "rowsha": "Ly4pKLugkr27dRoLrHRiPvocdio1VLr0rKNFopfyh5o=",
-        "originContent": "### 应用截图",
-        "translatedContent": ""
-      },
-      {
-        "row": 52,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "<div align=\"center\">"
-      },
-      {
-        "row": 53,
-        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
-        "originContent": "<div align=\"center\">",
-        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png\" alt=\"应用截图4\" width=\"800\" style=\"margin-bottom: 20px\"/>"
-      },
-      {
-        "row": 54,
-        "rowsha": "HP0iMOq7nMU08chJEhLnSEgGlLAHFZ6vWM1mNRYuqMg=",
-        "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png\" alt=\"应用截图4\" width=\"800\" style=\"margin-bottom: 20px\"/>",
-        "translatedContent": "      <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png\" alt=\"应用截图4\" width=\"800\" style=\"margin-bottom: 20px\"/>"
-      },
-      {
-        "row": 55,
-        "rowsha": "lsqsAVAhCmYTLBwuSJpMV8+Wr94779pLpiKAN+afex0=",
-        "originContent": "      <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png\" alt=\"应用截图4\" width=\"800\" style=\"margin-bottom: 20px\"/>",
-        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png\" alt=\"应用截图1\" width=\"800\" style=\"margin-bottom: 20px\"/>"
-      },
-      {
-        "row": 56,
-        "rowsha": "i+W2cLXEFsnqB21+D5EVnnWliFnjb37iD2tUyKMahRI=",
-        "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png\" alt=\"应用截图1\" width=\"800\" style=\"margin-bottom: 20px\"/>",
-        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png\" alt=\"应用截图2\" width=\"800\" style=\"margin-bottom: 20px\"/>"
-      },
-      {
-        "row": 57,
-        "rowsha": "Rn1iVWNDr32CfglvhsdFCZuJBTMxKiKUz2RArxt+McY=",
-        "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png\" alt=\"应用截图2\" width=\"800\" style=\"margin-bottom: 20px\"/>",
-        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png\" alt=\"应用截图3\" width=\"800\" style=\"margin-bottom: 20px\"/>"
-      },
-      {
-        "row": 58,
-        "rowsha": "D90lgTtt9d7LbprFhvyJuVXwdssKKgKunJOTVZyOHGw=",
-        "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png\" alt=\"应用截图3\" width=\"800\" style=\"margin-bottom: 20px\"/>",
-        "translatedContent": "</div>"
-      },
-      {
-        "row": 59,
-        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-        "originContent": "</div>",
-        "translatedContent": ""
-      },
-      {
-        "row": 60,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Funktionsmerkmale"
-      },
-      {
-        "row": 61,
-        "rowsha": "qD06dCf0UKo59Pu5aDftOyM9JXRfhAIcJQdWRyMPBHM=",
-        "originContent": "## 功能特点",
-        "translatedContent": ""
-      },
-      {
-        "row": 62,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- 🎨 Unterstützung mehrerer KI-Modelle"
-      },
-      {
-        "row": 63,
-        "rowsha": "0yIzVK5W/ZT6z4LnZUGTx2sN40av3lRrmZtRCq++DdE=",
-        "originContent": "- 🎨 支持多种 AI 模型",
-        "translatedContent": "  - GPT Sora_Image Modell"
-      },
-      {
-        "row": 64,
-        "rowsha": "mX33A7lyLvYYMjpQAxUxhwO8awL6R89nbB+qycCzq8Y=",
-        "originContent": "  - GPT Sora_Image 模型",
-        "translatedContent": "  - GPT 4o_Image Modell"
-      },
-      {
-        "row": 65,
-        "rowsha": "MMZkO6ywt98Wo68lrgz8aKidCSNsRcAo5cbu7HC74RQ=",
-        "originContent": "  - GPT 4o_Image 模型",
-        "translatedContent": "  - GPT Image 1 Modell"
-      },
-      {
-        "row": 66,
-        "rowsha": "wYR4x+zeO4oqSstqfDep0Hwzgzvfyh9gThW11r0BUlY=",
-        "originContent": "  - GPT Image 1 模型",
-        "translatedContent": "  - DALL-E 3 Modell"
-      },
-      {
-        "row": 67,
-        "rowsha": "8JcRqBlG1Jznj+esK5VXHXdk/uoXK1X/+oFtmA4YA/w=",
-        "originContent": "  - DALL-E 3 模型",
-        "translatedContent": "  - 🆕 Benutzerdefinierte Modelle (Unterstützt Hinzufügen privater Modelle)"
-      },
-      {
-        "row": 68,
-        "rowsha": "r9rWxJhuLDBm/8gEz1sZM3C6tm2P1r00/zgniqeLyLc=",
-        "originContent": "  - 🆕 自定义模型（支持添加私有模型）",
-        "translatedContent": "- ✍️ Text-zu-Bild-Funktion"
-      },
-      {
-        "row": 69,
-        "rowsha": "apb9Fzz8UyIhW3gEfJ2Wxs5lPJe4O0NvOEO6REsODak=",
-        "originContent": "- ✍️ 文生图功能",
-        "translatedContent": "  - Unterstützung für benutzerdefinierte Prompts"
-      },
-      {
-        "row": 70,
-        "rowsha": "TH9JH01H+LnFkZlZaw4CATDsI2pQzMoKWcYmfn42GN0=",
-        "originContent": "  - 支持自定义提示词",
-        "translatedContent": "  - Auswahl des Bildverhältnisses möglich"
-      },
-      {
-        "row": 71,
-        "rowsha": "XPKAjRmO16sk99U/tygLwltNs7TMHqEJI3wBWG/huUw=",
-        "originContent": "  - 可选择图片比例",
-        "translatedContent": "  - Unterstützung verschiedener Bildgrößen"
-      },
-      {
-        "row": 72,
-        "rowsha": "7ZPXNm4tEsAxhkxXGGP/HjIVMAtPfWYlrv6fWc3vSjA=",
-        "originContent": "  - 支持多种图片尺寸",
-        "translatedContent": "- 🖼️ Bild-zu-Bild-Funktion"
-      },
-      {
-        "row": 73,
-        "rowsha": "DZmYsr2OuB2kW3umSTtMz9DF2hovEmkSIWxAUIpHBFM=",
-        "originContent": "- 🖼️ 图生图功能",
-        "translatedContent": "  - Unterstützung der Bildbearbeitung"
-      },
-      {
-        "row": 74,
-        "rowsha": "QO0HbvRyY9kjhP1YQKnyz6QrRJyoo5pip9gmKr/VWuo=",
-        "originContent": "  - 支持图片编辑",
-        "translatedContent": "  - Bereichsmaskenbearbeitung möglich"
-      },
-      {
-        "row": 75,
-        "rowsha": "Vno0PFph3B0RumlQ3D0VYyfDeoU51rfWl4aOWdM9BVw=",
-        "originContent": "  - 支持区域遮罩编辑",
-        "translatedContent": "  - Anpassung der Bildqualität"
-      },
-      {
-        "row": 76,
-        "rowsha": "QqnQwmYz9jc4yGJCUpjHwfGEh/AARZj+N2u2nZL9GeQ=",
-        "originContent": "  - 支持图片质量调整",
-        "translatedContent": "  - Multi-Bild-Referenz (gleichzeitiges Hochladen mehrerer Bilder)"
-      },
-      {
-        "row": 77,
-        "rowsha": "ugFVkbgCSObikwiU9hAqzo/PTyEZZesQUti1/nt5ZOg=",
-        "originContent": "  - 支持多图参考（同时上传多张图片）",
-        "translatedContent": "- 🔒 Datensicherheit"
-      },
-      {
-        "row": 78,
-        "rowsha": "qTA7zz8eVeonqInd0rTEbD7SeU61Ap6hd473ILT4qes=",
-        "originContent": "- 🔒 数据安全",
-        "translatedContent": "  - Alle generierten Bilder und der Verlauf werden nur lokal im Browser gespeichert"
-      },
-      {
-        "row": 79,
-        "rowsha": "GTXIqoDt40lKErDgVTNtyegjuvywThBlpAKnLFVfFt0=",
-        "originContent": "  - 所有生成的图片和历史记录仅保存在本地浏览器中",
-        "translatedContent": "  - Unterstützung für benutzerdefinierte API-Proxy-Adressen"
-      },
-      {
-        "row": 80,
-        "rowsha": "S6Fd+5s4IYxiuipAGM9p1k52WLappUl28yqNNLUqUWQ=",
-        "originContent": "  - 支持自定义 API 代理地址",
-        "translatedContent": "  - Unterstützung für API-Key-Konfiguration"
-      },
-      {
-        "row": 81,
-        "rowsha": "hwqcRP93EmTgFZTS+47cONsMGi+fWj8b8sP3BII07Tc=",
-        "originContent": "  - 支持 API Key 配置",
-        "translatedContent": "- 📱 UI-Design"
-      },
-      {
-        "row": 82,
-        "rowsha": "eQDmKa/4/kgZdv/nU1dN7LGExb2ppAisTZnY/WT8Svc=",
-        "originContent": "- 📱 UI设计",
-        "translatedContent": "  - Moderne Benutzeroberfläche"
-      },
-      {
-        "row": 83,
-        "rowsha": "YPmQu/vNdPzW0RFua2LQrkXoBGYsqC5zdXkRlmyQPXA=",
-        "originContent": "  - 现代化的用户界面",
-        "translatedContent": "  - Flüssige Interaktion"
-      },
-      {
-        "row": 84,
-        "rowsha": "akhFrBlxPWQFnqXo9zxOPUeZceCjvvh9PissSAqeIuU=",
-        "originContent": "  - 流畅的交互体验",
-        "translatedContent": "  - Anzeige im Markdown-Format"
-      },
-      {
-        "row": 85,
-        "rowsha": "tdo7eaR9JQwGY9mFrv61nFOtzMTgcBMvmE6vujXBlUs=",
-        "originContent": "  - Markdown 格式展示",
-        "translatedContent": "  - Code-Highlighting-Unterstützung"
-      },
-      {
-        "row": 86,
-        "rowsha": "IDFOtAXj+f6pI4PiudWd4e0p3OJfJw2sAULFs0T9V+Q=",
-        "originContent": "  - 代码高亮支持",
-        "translatedContent": "- 🖥️ Plattformübergreifende Unterstützung"
-      },
-      {
-        "row": 87,
-        "rowsha": "oKOACUAceYxTkCAjCFhAW/kseaxbxUwQVQeD9UWWEmo=",
-        "originContent": "- 🖥️ 跨平台支持",
-        "translatedContent": "  - Paketierung als Desktop-Anwendung möglich (Windows, macOS, Linux)"
-      },
-      {
-        "row": 88,
-        "rowsha": "CbbIhPLGjAIxVFsnWh3FkhRnnr95GR5aw7C6WcluUgI=",
-        "originContent": "  - 支持打包为桌面应用（Windows、macOS、Linux）",
-        "translatedContent": "  - Offline-Nutzung möglich (API-Schnittstelle erforderlich)"
-      },
-      {
-        "row": 89,
-        "rowsha": "G0B6pCkdvne4Uv10RjRcMfa9HCoLHIWkg2AHz68tQY8=",
-        "originContent": "  - 支持离线使用（需要配置API接口）",
-        "translatedContent": ""
-      },
-      {
-        "row": 90,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Technologiestack"
-      },
-      {
-        "row": 91,
-        "rowsha": "LtaCEvD8FWJfPXsJMaPE5dt0QVZ/++OpGW5pGNG3LYY=",
-        "originContent": "## 技术栈",
-        "translatedContent": ""
-      },
-      {
-        "row": 92,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- Next.js 14"
-      },
-      {
-        "row": 93,
-        "rowsha": "y13Hs0Hyp20Mw7p/3Cly0R26sgrPiCUkUt7B7cC6bBI=",
-        "originContent": "- Next.js 14",
-        "translatedContent": "- TypeScript"
-      },
-      {
-        "row": 94,
-        "rowsha": "Rc0yZcrFyniQWeKsNnHo80KEhJZhXraNzOML8o1Qe1M=",
-        "originContent": "- TypeScript",
-        "translatedContent": "- Tailwind CSS"
-      },
-      {
-        "row": 95,
-        "rowsha": "VyCQMiLkgBOB7FZaxxSzbEdmB98N99uttjNJKeswvKw=",
-        "originContent": "- Tailwind CSS",
-        "translatedContent": "- shadcn/ui"
-      },
-      {
-        "row": 96,
-        "rowsha": "yOKBKINUbY7CRxXCOkz8ZPwXjVOuIOuygi5694Y0Sl4=",
-        "originContent": "- shadcn/ui",
-        "translatedContent": "- React"
-      },
-      {
-        "row": 97,
-        "rowsha": "YMc0xpZ5VlBC75W7el/j8SMAsdioYpgFxRLxMJtjKxA=",
-        "originContent": "- React",
-        "translatedContent": "- Tauri (Desktop-App-Paketierung)"
-      },
-      {
-        "row": 98,
-        "rowsha": "Yxv5yqatMfaaqxoeapzvcNEH3MAedXc7JtjRslXnC68=",
-        "originContent": "- Tauri (桌面应用打包)",
-        "translatedContent": ""
-      },
-      {
-        "row": 99,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Lokale Entwicklung"
-      },
-      {
-        "row": 100,
-        "rowsha": "+uqWY/4/HcDaHg0AMoXNSo16ajMSAqKFzrMFUvBwbsc=",
-        "originContent": "## 本地开发",
         "translatedContent": ""
       }
     ],
@@ -614,31 +254,428 @@
   },
   {
     "Id": 2,
-    "Content": "\n1. 克隆项目",
-    "ContentSha": "QrK30JDtD6jeqYg82Vhx1R918ODif1p9sRVjbfGjJKE=",
+    "Content": "一个基于 Next.js 开发的 AI 绘画应用，具有以下主要功能：\n- 🎨 支持多种 AI 模型（Sora、DALL-E、GPT,GEMINI等）及自定义模型添加\n- 🖼️ 提供文生图和图生图功能，支持多图参考和区域编辑\n- 🔐 所有数据和API密钥本地存储，保障隐私安全\n- 💻 支持网页版及桌面应用打包，跨平台使用\n\n## 在线体验\n\n访问地址：[https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)\n\n### 应用截图\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png\" alt=\"应用截图4\" width=\"800\" style=\"margin-bottom: 20px\"/>\n      <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png\" alt=\"应用截图4\" width=\"800\" style=\"margin-bottom: 20px\"/>\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png\" alt=\"应用截图1\" width=\"800\" style=\"margin-bottom: 20px\"/>\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png\" alt=\"应用截图2\" width=\"800\" style=\"margin-bottom: 20px\"/>\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png\" alt=\"应用截图3\" width=\"800\" style=\"margin-bottom: 20px\"/>\n</div>\n\n## 功能特点\n\n- 🎨 支持多种 AI 模型\n  - GPT Sora_Image 模型\n  - GPT 4o_Image 模型\n  - GPT Image 1 模型\n  - DALL-E 3 模型\n  - GEMINI 模型\n  - 🆕 自定义模型（支持添加私有模型）\n- 🔄 多模型切换\n  - 支持在不同模型之间快速切换\n  - 每个模型都有独立的配置选项\n- ✍️ 文生图功能\n  - 支持自定义提示词\n  - 可选择图片比例\n  - 支持多种图片尺寸\n- 🖼️ 图生图功能\n  - 支持图片编辑\n  - 支持区域遮罩编辑\n  - 支持图片质量调整",
+    "ContentSha": "xDzU/OcMI9gn1wDPo4whvI9Vzn0y6eDg6ELqIsz8aIY=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "1. Projekt klonen\n",
+    "Translation": "Eine auf Next.js basierende KI-Bildgenerierungsanwendung mit den folgenden Hauptfunktionen:\n- 🎨 Unterstützung für verschiedene KI-Modelle (Sora, DALL-E, GPT, GEMINI usw.) sowie das Hinzufügen benutzerdefinierter Modelle\n- 🖼️ Text-zu-Bild und Bild-zu-Bild Funktionen, Unterstützung für mehrere Bildreferenzen und Bereichsbearbeitung\n- 🔐 Alle Daten und API-Schlüssel werden lokal gespeichert, um die Privatsphäre zu schützen\n- 💻 Unterstützung für Web-Version und Desktop-App-Paketierung, plattformübergreifende Nutzung\n\n## Online-Erlebnis\n\nZugriffsadresse: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)\n\n### Screenshots der Anwendung\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png\" alt=\"App-Screenshot 4\" width=\"800\" style=\"margin-bottom: 20px\"/>\n      <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png\" alt=\"App-Screenshot 4\" width=\"800\" style=\"margin-bottom: 20px\"/>\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png\" alt=\"App-Screenshot 1\" width=\"800\" style=\"margin-bottom: 20px\"/>\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png\" alt=\"App-Screenshot 2\" width=\"800\" style=\"margin-bottom: 20px\"/>\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png\" alt=\"App-Screenshot 3\" width=\"800\" style=\"margin-bottom: 20px\"/>\n</div>\n\n## Funktionsmerkmale\n\n- 🎨 Unterstützung für verschiedene KI-Modelle\n  - GPT Sora_Image Modell\n  - GPT 4o_Image Modell\n  - GPT Image 1 Modell\n  - DALL-E 3 Modell\n  - GEMINI Modell\n  - 🆕 Benutzerdefiniertes Modell (Unterstützung für das Hinzufügen privater Modelle)\n- 🔄 Wechsel zwischen mehreren Modellen\n  - Schneller Wechsel zwischen verschiedenen Modellen möglich\n  - Jedes Modell hat eigene Konfigurationsoptionen\n- ✍️ Text-zu-Bild Funktion\n  - Unterstützung für benutzerdefinierte Prompts\n  - Auswahl des Bildverhältnisses möglich\n  - Unterstützung für verschiedene Bildgrößen\n- 🖼️ Bild-zu-Bild Funktion\n  - Unterstützung für Bildbearbeitung\n  - Unterstützung für Bereichs-Maskenbearbeitung\n  - Unterstützung für Bildqualitätsanpassung",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. Projekt klonen"
+        "rowsha": "zaBBL85zpU4IddcrPyibs3x3LPaTQ40vMMbqt1Sei6U=",
+        "originContent": "一个基于 Next.js 开发的 AI 绘画应用，具有以下主要功能：",
+        "translatedContent": "Eine auf Next.js basierende KI-Bildgenerierungsanwendung mit den folgenden Hauptfunktionen:"
       },
       {
         "row": 2,
-        "rowsha": "SDBs0ZCzMMdL+SeKEd73V/ROao1a0NvSzvAJ8LSeAMM=",
-        "originContent": "1. 克隆项目",
+        "rowsha": "Hpa5Ln+6vvwFKlWMAaHtgrWuMQw//t0BeE78UlIsHlA=",
+        "originContent": "- 🎨 支持多种 AI 模型（Sora、DALL-E、GPT,GEMINI等）及自定义模型添加",
+        "translatedContent": "- 🎨 Unterstützung für verschiedene KI-Modelle (Sora, DALL-E, GPT, GEMINI usw.) sowie das Hinzufügen benutzerdefinierter Modelle"
+      },
+      {
+        "row": 3,
+        "rowsha": "BDfBmv1c9BUXn/LZVg/GOwCCmNHsERzTV3WywMzOrnk=",
+        "originContent": "- 🖼️ 提供文生图和图生图功能，支持多图参考和区域编辑",
+        "translatedContent": "- 🖼️ Text-zu-Bild und Bild-zu-Bild Funktionen, Unterstützung für mehrere Bildreferenzen und Bereichsbearbeitung"
+      },
+      {
+        "row": 4,
+        "rowsha": "8RxCckrm1sjmty8rjyTGw2p1dv3HmewSqg2qnKTZ+Ec=",
+        "originContent": "- 🔐 所有数据和API密钥本地存储，保障隐私安全",
+        "translatedContent": "- 🔐 Alle Daten und API-Schlüssel werden lokal gespeichert, um die Privatsphäre zu schützen"
+      },
+      {
+        "row": 5,
+        "rowsha": "Bq4BsNm4sDZ9VJCZYTwpuUyeBLCKe0T4hIdYe1294ds=",
+        "originContent": "- 💻 支持网页版及桌面应用打包，跨平台使用",
+        "translatedContent": "- 💻 Unterstützung für Web-Version und Desktop-App-Paketierung, plattformübergreifende Nutzung"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ADtFWwsOGosYieBxnANTnViauY06/2da7Kotk2fSMWs=",
+        "originContent": "## 在线体验",
+        "translatedContent": "## Online-Erlebnis"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "JLtJDKwgCIPGtWvBYh9HDoiCA4aG3HC5QaM3E8MP3Hg=",
+        "originContent": "访问地址：[https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)",
+        "translatedContent": "Zugriffsadresse: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Ly4pKLugkr27dRoLrHRiPvocdio1VLr0rKNFopfyh5o=",
+        "originContent": "### 应用截图",
+        "translatedContent": "### Screenshots der Anwendung"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "HP0iMOq7nMU08chJEhLnSEgGlLAHFZ6vWM1mNRYuqMg=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png\" alt=\"应用截图4\" width=\"800\" style=\"margin-bottom: 20px\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png\" alt=\"App-Screenshot 4\" width=\"800\" style=\"margin-bottom: 20px\"/>"
+      },
+      {
+        "row": 15,
+        "rowsha": "lsqsAVAhCmYTLBwuSJpMV8+Wr94779pLpiKAN+afex0=",
+        "originContent": "      <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png\" alt=\"应用截图4\" width=\"800\" style=\"margin-bottom: 20px\"/>",
+        "translatedContent": "      <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png\" alt=\"App-Screenshot 4\" width=\"800\" style=\"margin-bottom: 20px\"/>"
+      },
+      {
+        "row": 16,
+        "rowsha": "i+W2cLXEFsnqB21+D5EVnnWliFnjb37iD2tUyKMahRI=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png\" alt=\"应用截图1\" width=\"800\" style=\"margin-bottom: 20px\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png\" alt=\"App-Screenshot 1\" width=\"800\" style=\"margin-bottom: 20px\"/>"
+      },
+      {
+        "row": 17,
+        "rowsha": "Rn1iVWNDr32CfglvhsdFCZuJBTMxKiKUz2RArxt+McY=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png\" alt=\"应用截图2\" width=\"800\" style=\"margin-bottom: 20px\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png\" alt=\"App-Screenshot 2\" width=\"800\" style=\"margin-bottom: 20px\"/>"
+      },
+      {
+        "row": 18,
+        "rowsha": "D90lgTtt9d7LbprFhvyJuVXwdssKKgKunJOTVZyOHGw=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png\" alt=\"应用截图3\" width=\"800\" style=\"margin-bottom: 20px\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png\" alt=\"App-Screenshot 3\" width=\"800\" style=\"margin-bottom: 20px\"/>"
+      },
+      {
+        "row": 19,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "qD06dCf0UKo59Pu5aDftOyM9JXRfhAIcJQdWRyMPBHM=",
+        "originContent": "## 功能特点",
+        "translatedContent": "## Funktionsmerkmale"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "0yIzVK5W/ZT6z4LnZUGTx2sN40av3lRrmZtRCq++DdE=",
+        "originContent": "- 🎨 支持多种 AI 模型",
+        "translatedContent": "- 🎨 Unterstützung für verschiedene KI-Modelle"
+      },
+      {
+        "row": 24,
+        "rowsha": "mX33A7lyLvYYMjpQAxUxhwO8awL6R89nbB+qycCzq8Y=",
+        "originContent": "  - GPT Sora_Image 模型",
+        "translatedContent": "  - GPT Sora_Image Modell"
+      },
+      {
+        "row": 25,
+        "rowsha": "MMZkO6ywt98Wo68lrgz8aKidCSNsRcAo5cbu7HC74RQ=",
+        "originContent": "  - GPT 4o_Image 模型",
+        "translatedContent": "  - GPT 4o_Image Modell"
+      },
+      {
+        "row": 26,
+        "rowsha": "wYR4x+zeO4oqSstqfDep0Hwzgzvfyh9gThW11r0BUlY=",
+        "originContent": "  - GPT Image 1 模型",
+        "translatedContent": "  - GPT Image 1 Modell"
+      },
+      {
+        "row": 27,
+        "rowsha": "8JcRqBlG1Jznj+esK5VXHXdk/uoXK1X/+oFtmA4YA/w=",
+        "originContent": "  - DALL-E 3 模型",
+        "translatedContent": "  - DALL-E 3 Modell"
+      },
+      {
+        "row": 28,
+        "rowsha": "FCRMNts2e/f/gAqwkqj+jnIglyE0PsfZxMekBk0j4AQ=",
+        "originContent": "  - GEMINI 模型",
+        "translatedContent": "  - GEMINI Modell"
+      },
+      {
+        "row": 29,
+        "rowsha": "r9rWxJhuLDBm/8gEz1sZM3C6tm2P1r00/zgniqeLyLc=",
+        "originContent": "  - 🆕 自定义模型（支持添加私有模型）",
+        "translatedContent": "  - 🆕 Benutzerdefiniertes Modell (Unterstützung für das Hinzufügen privater Modelle)"
+      },
+      {
+        "row": 30,
+        "rowsha": "fKbh+1dq5jUZTjvZnzyj9SeoO/PNkkIIZh2WJ+KORwk=",
+        "originContent": "- 🔄 多模型切换",
+        "translatedContent": "- 🔄 Wechsel zwischen mehreren Modellen"
+      },
+      {
+        "row": 31,
+        "rowsha": "hHh85O8Tdcw2X9kGu92tpoTIp6Ttgzp1NRagoH/Fw7o=",
+        "originContent": "  - 支持在不同模型之间快速切换",
+        "translatedContent": "  - Schneller Wechsel zwischen verschiedenen Modellen möglich"
+      },
+      {
+        "row": 32,
+        "rowsha": "3ozagnNZdhtghdQLA2smznzfaKWiXx2b8SudV8uolo8=",
+        "originContent": "  - 每个模型都有独立的配置选项",
+        "translatedContent": "  - Jedes Modell hat eigene Konfigurationsoptionen"
+      },
+      {
+        "row": 33,
+        "rowsha": "apb9Fzz8UyIhW3gEfJ2Wxs5lPJe4O0NvOEO6REsODak=",
+        "originContent": "- ✍️ 文生图功能",
+        "translatedContent": "- ✍️ Text-zu-Bild Funktion"
+      },
+      {
+        "row": 34,
+        "rowsha": "TH9JH01H+LnFkZlZaw4CATDsI2pQzMoKWcYmfn42GN0=",
+        "originContent": "  - 支持自定义提示词",
+        "translatedContent": "  - Unterstützung für benutzerdefinierte Prompts"
+      },
+      {
+        "row": 35,
+        "rowsha": "XPKAjRmO16sk99U/tygLwltNs7TMHqEJI3wBWG/huUw=",
+        "originContent": "  - 可选择图片比例",
+        "translatedContent": "  - Auswahl des Bildverhältnisses möglich"
+      },
+      {
+        "row": 36,
+        "rowsha": "7ZPXNm4tEsAxhkxXGGP/HjIVMAtPfWYlrv6fWc3vSjA=",
+        "originContent": "  - 支持多种图片尺寸",
+        "translatedContent": "  - Unterstützung für verschiedene Bildgrößen"
+      },
+      {
+        "row": 37,
+        "rowsha": "DZmYsr2OuB2kW3umSTtMz9DF2hovEmkSIWxAUIpHBFM=",
+        "originContent": "- 🖼️ 图生图功能",
+        "translatedContent": "- 🖼️ Bild-zu-Bild Funktion"
+      },
+      {
+        "row": 38,
+        "rowsha": "QO0HbvRyY9kjhP1YQKnyz6QrRJyoo5pip9gmKr/VWuo=",
+        "originContent": "  - 支持图片编辑",
+        "translatedContent": "  - Unterstützung für Bildbearbeitung"
+      },
+      {
+        "row": 39,
+        "rowsha": "Vno0PFph3B0RumlQ3D0VYyfDeoU51rfWl4aOWdM9BVw=",
+        "originContent": "  - 支持区域遮罩编辑",
+        "translatedContent": "  - Unterstützung für Bereichs-Maskenbearbeitung"
+      },
+      {
+        "row": 40,
+        "rowsha": "QqnQwmYz9jc4yGJCUpjHwfGEh/AARZj+N2u2nZL9GeQ=",
+        "originContent": "  - 支持图片质量调整",
+        "translatedContent": "  - Unterstützung für Bildqualitätsanpassung"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 3,
+    "Content": "  - 支持多图参考（同时上传多张图片）\n- 🔒 数据安全\n  - 所有生成的图片和历史记录仅保存在本地浏览器中\n  - 支持自定义 API 代理地址\n  - 支持 API Key 配置\n- 📱 UI设计\n  - 现代化的用户界面\n  - 流畅的交互体验\n  - Markdown 格式展示\n  - 代码高亮支持\n- 🖥️ 跨平台支持\n  - 支持打包为桌面应用（Windows、macOS、Linux）\n  - 支持离线使用（需要配置API接口）\n\n## 技术栈\n\n- Next.js 14\n- TypeScript\n- Tailwind CSS\n- shadcn/ui\n- React\n- Tauri (桌面应用打包)\n\n## 本地开发\n\n1. 克隆项目",
+    "ContentSha": "/bl9IgcmaWhh8CJVA33orxz4/0bY5mlVAa4j+z3AmPs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - Unterstützung für mehrere Referenzbilder (gleichzeitiges Hochladen mehrerer Bilder)\n- 🔒 Datensicherheit\n  - Alle generierten Bilder und Verlaufseinträge werden nur im lokalen Browser gespeichert\n  - Unterstützung für benutzerdefinierte API-Proxy-Adressen\n  - Unterstützung für API-Key-Konfiguration\n- 📱 UI-Design\n  - Modernes Benutzerinterface\n  - Flüssige Interaktionserfahrung\n  - Darstellung im Markdown-Format\n  - Unterstützung für Code-Hervorhebung\n- 🖥️ Plattformübergreifende Unterstützung\n  - Unterstützung für die Paketierung als Desktop-Anwendung (Windows, macOS, Linux)\n  - Unterstützung für Offline-Nutzung (API-Schnittstelle muss konfiguriert werden)\n\n## Technologiestack\n\n- Next.js 14\n- TypeScript\n- Tailwind CSS\n- shadcn/ui\n- React\n- Tauri (Desktop-Anwendungspaketierung)\n\n## Lokale Entwicklung\n\n1. Projekt klonen",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ugFVkbgCSObikwiU9hAqzo/PTyEZZesQUti1/nt5ZOg=",
+        "originContent": "  - 支持多图参考（同时上传多张图片）",
+        "translatedContent": "  - Unterstützung für mehrere Referenzbilder (gleichzeitiges Hochladen mehrerer Bilder)"
+      },
+      {
+        "row": 2,
+        "rowsha": "qTA7zz8eVeonqInd0rTEbD7SeU61Ap6hd473ILT4qes=",
+        "originContent": "- 🔒 数据安全",
+        "translatedContent": "- 🔒 Datensicherheit"
+      },
+      {
+        "row": 3,
+        "rowsha": "GTXIqoDt40lKErDgVTNtyegjuvywThBlpAKnLFVfFt0=",
+        "originContent": "  - 所有生成的图片和历史记录仅保存在本地浏览器中",
+        "translatedContent": "  - Alle generierten Bilder und Verlaufseinträge werden nur im lokalen Browser gespeichert"
+      },
+      {
+        "row": 4,
+        "rowsha": "S6Fd+5s4IYxiuipAGM9p1k52WLappUl28yqNNLUqUWQ=",
+        "originContent": "  - 支持自定义 API 代理地址",
+        "translatedContent": "  - Unterstützung für benutzerdefinierte API-Proxy-Adressen"
+      },
+      {
+        "row": 5,
+        "rowsha": "hwqcRP93EmTgFZTS+47cONsMGi+fWj8b8sP3BII07Tc=",
+        "originContent": "  - 支持 API Key 配置",
+        "translatedContent": "  - Unterstützung für API-Key-Konfiguration"
+      },
+      {
+        "row": 6,
+        "rowsha": "eQDmKa/4/kgZdv/nU1dN7LGExb2ppAisTZnY/WT8Svc=",
+        "originContent": "- 📱 UI设计",
+        "translatedContent": "- 📱 UI-Design"
+      },
+      {
+        "row": 7,
+        "rowsha": "YPmQu/vNdPzW0RFua2LQrkXoBGYsqC5zdXkRlmyQPXA=",
+        "originContent": "  - 现代化的用户界面",
+        "translatedContent": "  - Modernes Benutzerinterface"
+      },
+      {
+        "row": 8,
+        "rowsha": "akhFrBlxPWQFnqXo9zxOPUeZceCjvvh9PissSAqeIuU=",
+        "originContent": "  - 流畅的交互体验",
+        "translatedContent": "  - Flüssige Interaktionserfahrung"
+      },
+      {
+        "row": 9,
+        "rowsha": "tdo7eaR9JQwGY9mFrv61nFOtzMTgcBMvmE6vujXBlUs=",
+        "originContent": "  - Markdown 格式展示",
+        "translatedContent": "  - Darstellung im Markdown-Format"
+      },
+      {
+        "row": 10,
+        "rowsha": "IDFOtAXj+f6pI4PiudWd4e0p3OJfJw2sAULFs0T9V+Q=",
+        "originContent": "  - 代码高亮支持",
+        "translatedContent": "  - Unterstützung für Code-Hervorhebung"
+      },
+      {
+        "row": 11,
+        "rowsha": "oKOACUAceYxTkCAjCFhAW/kseaxbxUwQVQeD9UWWEmo=",
+        "originContent": "- 🖥️ 跨平台支持",
+        "translatedContent": "- 🖥️ Plattformübergreifende Unterstützung"
+      },
+      {
+        "row": 12,
+        "rowsha": "CbbIhPLGjAIxVFsnWh3FkhRnnr95GR5aw7C6WcluUgI=",
+        "originContent": "  - 支持打包为桌面应用（Windows、macOS、Linux）",
+        "translatedContent": "  - Unterstützung für die Paketierung als Desktop-Anwendung (Windows, macOS, Linux)"
+      },
+      {
+        "row": 13,
+        "rowsha": "G0B6pCkdvne4Uv10RjRcMfa9HCoLHIWkg2AHz68tQY8=",
+        "originContent": "  - 支持离线使用（需要配置API接口）",
+        "translatedContent": "  - Unterstützung für Offline-Nutzung (API-Schnittstelle muss konfiguriert werden)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "LtaCEvD8FWJfPXsJMaPE5dt0QVZ/++OpGW5pGNG3LYY=",
+        "originContent": "## 技术栈",
+        "translatedContent": "## Technologiestack"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "y13Hs0Hyp20Mw7p/3Cly0R26sgrPiCUkUt7B7cC6bBI=",
+        "originContent": "- Next.js 14",
+        "translatedContent": "- Next.js 14"
+      },
+      {
+        "row": 18,
+        "rowsha": "Rc0yZcrFyniQWeKsNnHo80KEhJZhXraNzOML8o1Qe1M=",
+        "originContent": "- TypeScript",
+        "translatedContent": "- TypeScript"
+      },
+      {
+        "row": 19,
+        "rowsha": "VyCQMiLkgBOB7FZaxxSzbEdmB98N99uttjNJKeswvKw=",
+        "originContent": "- Tailwind CSS",
+        "translatedContent": "- Tailwind CSS"
+      },
+      {
+        "row": 20,
+        "rowsha": "yOKBKINUbY7CRxXCOkz8ZPwXjVOuIOuygi5694Y0Sl4=",
+        "originContent": "- shadcn/ui",
+        "translatedContent": "- shadcn/ui"
+      },
+      {
+        "row": 21,
+        "rowsha": "YMc0xpZ5VlBC75W7el/j8SMAsdioYpgFxRLxMJtjKxA=",
+        "originContent": "- React",
+        "translatedContent": "- React"
+      },
+      {
+        "row": 22,
+        "rowsha": "Yxv5yqatMfaaqxoeapzvcNEH3MAedXc7JtjRslXnC68=",
+        "originContent": "- Tauri (桌面应用打包)",
+        "translatedContent": "- Tauri (Desktop-Anwendungspaketierung)"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "+uqWY/4/HcDaHg0AMoXNSo16ajMSAqKFzrMFUvBwbsc=",
+        "originContent": "## 本地开发",
+        "translatedContent": "## Lokale Entwicklung"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "SDBs0ZCzMMdL+SeKEd73V/ROao1a0NvSzvAJ8LSeAMM=",
+        "originContent": "1. 克隆项目",
+        "translatedContent": "1. Projekt klonen"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
     "Content": "```bash\ngit clone https://github.com/HappyDongD/magic_image.git\ncd magic_image\n```",
     "ContentSha": "9ggoEZj7pWkJoe5yH9uxXmgJ4hCzPMQk0OVpMTcfDI8=",
     "SectionType": "",
@@ -646,36 +683,11 @@
     "EndLine": 0,
     "Translation": "```bash\ngit clone https://github.com/HappyDongD/magic_image.git\ncd magic_image\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "W8kfNUpJSqjk1ls9xPDxC0JiF/Z5bQlskE3lCJ1oB7A=",
-        "originContent": "git clone https://github.com/HappyDongD/magic_image.git",
-        "translatedContent": "git clone https://github.com/HappyDongD/magic_image.git"
-      },
-      {
-        "row": 3,
-        "rowsha": "flLbg38msiI3hF/a1pu55qHWtZzc4AQHAkXucp8Bs6k=",
-        "originContent": "cd magic_image",
-        "translatedContent": "cd magic_image"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Content": "\n2. 安装依赖",
     "ContentSha": "3vsqFNst6brMm7xeXlTI/uPa8L/VKVU/XJ6SM9rCmBM=",
     "SectionType": "",
@@ -683,24 +695,11 @@
     "EndLine": 0,
     "Translation": "2. Abhängigkeiten installieren\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "2. Abhängigkeiten installieren"
-      },
-      {
-        "row": 2,
-        "rowsha": "hMTefiNByngjppyCXaPNDp1YHpIDS8sLaEsbhq9H+DM=",
-        "originContent": "2. 安装依赖",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Content": "```bash\nnpm install\n# 或\nyarn install\n# 或\npnpm install\n```",
     "ContentSha": "2peteKOeK5e1H8XvkSOTGSPQZUf6XjQdYedpulOvfVI=",
     "SectionType": "",
@@ -708,54 +707,11 @@
     "EndLine": 0,
     "Translation": "```bash\nnpm install\n# 或\nyarn install\n# 或\npnpm install\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
-        "originContent": "npm install",
-        "translatedContent": "npm install"
-      },
-      {
-        "row": 3,
-        "rowsha": "jS420ejBNfhdQaAk7s/f+hntYVUsMtQrvI2DAvJp5hs=",
-        "originContent": "# 或",
-        "translatedContent": "# 或"
-      },
-      {
-        "row": 4,
-        "rowsha": "UWnszpf2bQa9Un4es5vKU4mcLg+R5FPsdH2U31RWLJg=",
-        "originContent": "yarn install",
-        "translatedContent": "yarn install"
-      },
-      {
-        "row": 5,
-        "rowsha": "jS420ejBNfhdQaAk7s/f+hntYVUsMtQrvI2DAvJp5hs=",
-        "originContent": "# 或",
-        "translatedContent": "# 或"
-      },
-      {
-        "row": 6,
-        "rowsha": "AF0LflwmHcxeL4Vo5poLMOiJoydbVbGOwgp97vAIHpA=",
-        "originContent": "pnpm install",
-        "translatedContent": "pnpm install"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 6,
+    "Id": 7,
     "Content": "\n3. 启动开发服务器",
     "ContentSha": "2nvkunOHvjUi1u6B/gDy2ObRduq9Q0PuRrCAZrVzaLk=",
     "SectionType": "",
@@ -763,24 +719,11 @@
     "EndLine": 0,
     "Translation": "3. Starten des Entwicklungsservers\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "3. Starten des Entwicklungsservers"
-      },
-      {
-        "row": 2,
-        "rowsha": "yzX5a39kjWmbVHIrr0+jzJ4npyuxTSYqHJNmgb5dLM4=",
-        "originContent": "3. 启动开发服务器",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 7,
+    "Id": 8,
     "Content": "```bash\nnpm run dev\n# 或\nyarn dev\n# 或\npnpm dev\n```",
     "ContentSha": "GLL4TzJ04oqkNrTrimytLHIi3CWRsSB3aRRAU2Lvs4E=",
     "SectionType": "",
@@ -788,54 +731,11 @@
     "EndLine": 0,
     "Translation": "```bash\nnpm run dev\n# 或\nyarn dev\n# 或\npnpm dev\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "IfFnfI9PhCQWiefGw310ACvgFob6wDpxDKh2mTUm//c=",
-        "originContent": "npm run dev",
-        "translatedContent": "npm run dev"
-      },
-      {
-        "row": 3,
-        "rowsha": "jS420ejBNfhdQaAk7s/f+hntYVUsMtQrvI2DAvJp5hs=",
-        "originContent": "# 或",
-        "translatedContent": "# 或"
-      },
-      {
-        "row": 4,
-        "rowsha": "lM0LT8xyC/N1nmR6dGIgchPO+o/ETNiEEme3ay07B+4=",
-        "originContent": "yarn dev",
-        "translatedContent": "yarn dev"
-      },
-      {
-        "row": 5,
-        "rowsha": "jS420ejBNfhdQaAk7s/f+hntYVUsMtQrvI2DAvJp5hs=",
-        "originContent": "# 或",
-        "translatedContent": "# 或"
-      },
-      {
-        "row": 6,
-        "rowsha": "ZYvNuHAYTkCLCEkYZ1c2s8LyrrXCkHjQE4e47PWrzOI=",
-        "originContent": "pnpm dev",
-        "translatedContent": "pnpm dev"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 8,
+    "Id": 9,
     "Content": "\n4. 访问 [http://localhost:3000](http://localhost:3000)\n\n## 桌面应用打包\n\n本项目使用 Tauri 进行桌面应用打包，支持 Windows、macOS 和 Linux 系统。\n\n### 环境准备\n\n在打包桌面应用前，需要安装以下依赖：\n\n1. **安装 Rust**：\n   - 访问 [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)\n   - 按照指引安装 Rust 和 Cargo\n\n2. **系统依赖**：\n   - **Windows**: 安装 [Visual Studio C++ 构建工具](https://visualstudio.microsoft.com/visual-cpp-build-tools/)\n   - **macOS**: 安装 Xcode 命令行工具 (`xcode-select --install`)\n   - **Linux**: 安装相关依赖，详见 [Tauri 文档](https://tauri.app/v1/guides/getting-started/prerequisites)\n\n### 开发模式\n",
     "ContentSha": "zB0kemYIsDXkbY/5kM0MS74k5CPGATgWgRJdEodrix0=",
     "SectionType": "",
@@ -843,144 +743,11 @@
     "EndLine": 0,
     "Translation": "4. Besuchen Sie [http://localhost:3000](http://localhost:3000)\n\n## Desktop-Anwendungspaketierung\n\nDieses Projekt verwendet Tauri für das Packen von Desktop-Anwendungen und unterstützt Windows-, macOS- und Linux-Systeme.\n\n### Vorbereitung der Umgebung\n\nVor dem Packen der Desktop-Anwendung müssen folgende Abhängigkeiten installiert werden:\n\n1. **Rust installieren**:\n   - Besuchen Sie [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)\n   - Folgen Sie den Anweisungen zur Installation von Rust und Cargo\n\n2. **Systemabhängigkeiten**:\n   - **Windows**: Installieren Sie [Visual Studio C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)\n   - **macOS**: Installieren Sie die Xcode Command Line Tools (`xcode-select --install`)\n   - **Linux**: Installieren Sie die entsprechenden Abhängigkeiten, siehe [Tauri Dokumentation](https://tauri.app/v1/guides/getting-started/prerequisites)\n\n### Entwicklungsmodus\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "4. Besuchen Sie [http://localhost:3000](http://localhost:3000)"
-      },
-      {
-        "row": 2,
-        "rowsha": "ZvmOfg3de7S9IomFizLq65Ip939gxaLE0Lp32/evMb0=",
-        "originContent": "4. 访问 [http://localhost:3000](http://localhost:3000)",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Desktop-Anwendungspaketierung"
-      },
-      {
-        "row": 4,
-        "rowsha": "RRaaF/pkzhCdjcNrWMlDcE4ymmCcGffwayxvsyPY66U=",
-        "originContent": "## 桌面应用打包",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Dieses Projekt verwendet Tauri für das Packen von Desktop-Anwendungen und unterstützt Windows-, macOS- und Linux-Systeme."
-      },
-      {
-        "row": 6,
-        "rowsha": "g8Ec5O33tuG+F2P47qxMEnX2MAw4brIIStuHkaLcenw=",
-        "originContent": "本项目使用 Tauri 进行桌面应用打包，支持 Windows、macOS 和 Linux 系统。",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Vorbereitung der Umgebung"
-      },
-      {
-        "row": 8,
-        "rowsha": "dg2TPKxqeB4BmM5MSb8sUbevgbdduJAI5xEnFOLCUwQ=",
-        "originContent": "### 环境准备",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Vor dem Packen der Desktop-Anwendung müssen folgende Abhängigkeiten installiert werden:"
-      },
-      {
-        "row": 10,
-        "rowsha": "Vz7dEAiWY2DVePscVO7w5V5UyV748MQNwPzlLO5PSII=",
-        "originContent": "在打包桌面应用前，需要安装以下依赖：",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. **Rust installieren**:"
-      },
-      {
-        "row": 12,
-        "rowsha": "Is8vzFQEai00GwzwfvWaO/tyoyxns2NCrLkVTGemwiw=",
-        "originContent": "1. **安装 Rust**：",
-        "translatedContent": "   - Besuchen Sie [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)"
-      },
-      {
-        "row": 13,
-        "rowsha": "swQ6Jjt+wTQOr/Z5/f3V5O4lSLx5JqfEskpv0XiVrJM=",
-        "originContent": "   - 访问 [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)",
-        "translatedContent": "   - Folgen Sie den Anweisungen zur Installation von Rust und Cargo"
-      },
-      {
-        "row": 14,
-        "rowsha": "4CBBjLFPsTrglnK/H7ls+AL4QXc95mfQU0yvYs+a6iQ=",
-        "originContent": "   - 按照指引安装 Rust 和 Cargo",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "2. **Systemabhängigkeiten**:"
-      },
-      {
-        "row": 16,
-        "rowsha": "VXfOKXhkNHPz5qSNd6Gn9wxv/bvwRnfC/mfz9NF/Biw=",
-        "originContent": "2. **系统依赖**：",
-        "translatedContent": "   - **Windows**: Installieren Sie [Visual Studio C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)"
-      },
-      {
-        "row": 17,
-        "rowsha": "m8IIFRFZwYnktH1zm0L+KEsSbaipPvm3MiZUlZRHiAE=",
-        "originContent": "   - **Windows**: 安装 [Visual Studio C++ 构建工具](https://visualstudio.microsoft.com/visual-cpp-build-tools/)",
-        "translatedContent": "   - **macOS**: Installieren Sie die Xcode Command Line Tools (`xcode-select --install`)"
-      },
-      {
-        "row": 18,
-        "rowsha": "+GShPpRg2b8JwWREVYid5X3Oh8BG5dfeqyE/peWguEM=",
-        "originContent": "   - **macOS**: 安装 Xcode 命令行工具 (`xcode-select --install`)",
-        "translatedContent": "   - **Linux**: Installieren Sie die entsprechenden Abhängigkeiten, siehe [Tauri Dokumentation](https://tauri.app/v1/guides/getting-started/prerequisites)"
-      },
-      {
-        "row": 19,
-        "rowsha": "p9yTfnttoKT5dlQ7HRmm1hE1CCzX7/87Oq2yDjvN08w=",
-        "originContent": "   - **Linux**: 安装相关依赖，详见 [Tauri 文档](https://tauri.app/v1/guides/getting-started/prerequisites)",
-        "translatedContent": ""
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Entwicklungsmodus"
-      },
-      {
-        "row": 21,
-        "rowsha": "U+V7AVJ3Z4AQ3+OTf0flc5r/gCTcm8b3WXOfAy7XKOg=",
-        "originContent": "### 开发模式",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 9,
+    "Id": 10,
     "Content": "```bash\n# 安装 Tauri CLI\nnpm install -D @tauri-apps/cli\n\n# 启动桌面应用开发模式\nnpm run tauri:dev\n```",
     "ContentSha": "JXQqh1ucrw1nblIcSfJy2YSem7POgnR698D3MEQn/qg=",
     "SectionType": "",
@@ -988,54 +755,11 @@
     "EndLine": 0,
     "Translation": "```bash\n# 安装 Tauri CLI\nnpm install -D @tauri-apps/cli\n\n# 启动桌面应用开发模式\nnpm run tauri:dev\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "hFlFaSo6d+KQHMYRR6ELOrzxv8KqpGBYmZljLE+gmc4=",
-        "originContent": "# 安装 Tauri CLI",
-        "translatedContent": "# 安装 Tauri CLI"
-      },
-      {
-        "row": 3,
-        "rowsha": "LAoa76HcbJMy3VLLIcx1GwBUVfC37MFU0ss01Rkp8oc=",
-        "originContent": "npm install -D @tauri-apps/cli",
-        "translatedContent": "npm install -D @tauri-apps/cli"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "FSMno5C/J8UFJWZWYdO3tygvp5nDUWSdPaN+J6fC3bo=",
-        "originContent": "# 启动桌面应用开发模式",
-        "translatedContent": "# 启动桌面应用开发模式"
-      },
-      {
-        "row": 6,
-        "rowsha": "R8yTguXIzVSfzMnvMEkK+RbEdR1bne80hL2s+XifqZw=",
-        "originContent": "npm run tauri:dev",
-        "translatedContent": "npm run tauri:dev"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 10,
+    "Id": 11,
     "Content": "\n### 构建桌面应用\n",
     "ContentSha": "wz9cCdqkrxISPoxj+ZnDGpos3kxL0Ne8u0jGdaE0He4=",
     "SectionType": "",
@@ -1043,30 +767,11 @@
     "EndLine": 0,
     "Translation": "### Erstellen von Desktop-Anwendungen\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Erstellen von Desktop-Anwendungen"
-      },
-      {
-        "row": 2,
-        "rowsha": "DI8SoolaTwda0UAzLcTtVBj81j2p1nXq/F/zinDRQds=",
-        "originContent": "### 构建桌面应用",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 11,
+    "Id": 12,
     "Content": "```bash\n# 构建桌面应用安装包\nnpm run desktop\n```",
     "ContentSha": "EFhMHGVY925vCnaci6fwC9KZ5J7Lhpo8qN1pNeKm8KQ=",
     "SectionType": "",
@@ -1074,36 +779,11 @@
     "EndLine": 0,
     "Translation": "```bash\n# 构建桌面应用安装包\nnpm run desktop\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "CeJpwY/8NIWj6l0flBDf15zMLKaOH1wwkaMYfl/Oa3A=",
-        "originContent": "# 构建桌面应用安装包",
-        "translatedContent": "# 构建桌面应用安装包"
-      },
-      {
-        "row": 3,
-        "rowsha": "T/m8v8msiwlqCblNFQ/3fglYDG8LWGoOzmnrJFShZH4=",
-        "originContent": "npm run desktop",
-        "translatedContent": "npm run desktop"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 12,
+    "Id": 13,
     "Content": "\n构建完成后，可以在 `src-tauri/target/release/bundle` 目录找到对应系统的安装包。\n\n## Vercel 部署\n\n1. Fork 本项目到你的 GitHub 账号\n\n2. 在 [Vercel](https://vercel.com) 上创建新项目\n\n3. 导入你的 GitHub 仓库\n\n4. 点击部署\n\n## 使用说明\n\n1. 首次使用需要配置 API 密钥\n   - 点击右上角的\"密钥设置\"\n   - 输入 API 密钥和基础地址\n   - 点击保存\n   - 也可以通过 URL 参数快速配置：",
     "ContentSha": "zPiKF0XzmYbFxEy4TVvLuR7iYe0OUDxqyIJAaj6lH/Y=",
     "SectionType": "",
@@ -1111,132 +791,11 @@
     "EndLine": 0,
     "Translation": "Nach dem erfolgreichen Build findest du das Installationspaket für das entsprechende System im Verzeichnis `src-tauri/target/release/bundle`.\n\n## Vercel Deployment\n\n1. Forke dieses Projekt in deinen GitHub-Account\n\n2. Erstelle ein neues Projekt auf [Vercel](https://vercel.com)\n\n3. Importiere dein GitHub-Repository\n\n4. Klicke auf Deploy\n\n## Anleitung zur Nutzung\n\n1. Beim ersten Start muss ein API-Schlüssel konfiguriert werden\n   - Klicke oben rechts auf „Schlüssel-Einstellungen“\n   - Gib den API-Schlüssel und die Basisadresse ein\n   - Klicke auf Speichern\n   - Alternativ kann die Konfiguration auch schnell über URL-Parameter erfolgen:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Nach dem erfolgreichen Build findest du das Installationspaket für das entsprechende System im Verzeichnis `src-tauri/target/release/bundle`."
-      },
-      {
-        "row": 2,
-        "rowsha": "oDQjUsFsF8cJVWPdwvzXByMIBX2C6bC6srg0xfhF7d4=",
-        "originContent": "构建完成后，可以在 `src-tauri/target/release/bundle` 目录找到对应系统的安装包。",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Vercel Deployment"
-      },
-      {
-        "row": 4,
-        "rowsha": "QzhI3vC99hnUbWkxqFBZBwD26hVMStMvT+sBMeAaMGk=",
-        "originContent": "## Vercel 部署",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. Forke dieses Projekt in deinen GitHub-Account"
-      },
-      {
-        "row": 6,
-        "rowsha": "UJH3dBM3KIu3YNzM41eFvr1UcJLV54LkHF2ouKoscrw=",
-        "originContent": "1. Fork 本项目到你的 GitHub 账号",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "2. Erstelle ein neues Projekt auf [Vercel](https://vercel.com)"
-      },
-      {
-        "row": 8,
-        "rowsha": "6L8k9x7L+43yKk3JUMIEuuonXHrS38jj84gnWTJp57A=",
-        "originContent": "2. 在 [Vercel](https://vercel.com) 上创建新项目",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "3. Importiere dein GitHub-Repository"
-      },
-      {
-        "row": 10,
-        "rowsha": "wyY3QHYWVBHSf6vA82qpouof1Zq1fZKaJuzhUmvA8M0=",
-        "originContent": "3. 导入你的 GitHub 仓库",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "4. Klicke auf Deploy"
-      },
-      {
-        "row": 12,
-        "rowsha": "9N+01Px0iX8ZLy36DlLmDx4n1PNnGgeU2JuFZZhubNg=",
-        "originContent": "4. 点击部署",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Anleitung zur Nutzung"
-      },
-      {
-        "row": 14,
-        "rowsha": "R3/EjJjnxYNmdRG6ikBTYFybRBPyQGDIVWMxpdJsE7k=",
-        "originContent": "## 使用说明",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. Beim ersten Start muss ein API-Schlüssel konfiguriert werden"
-      },
-      {
-        "row": 16,
-        "rowsha": "0cxF2158SqACZlKP/GKcRUz6ssHAYUpKopFcDhUzEAQ=",
-        "originContent": "1. 首次使用需要配置 API 密钥",
-        "translatedContent": "   - Klicke oben rechts auf „Schlüssel-Einstellungen“"
-      },
-      {
-        "row": 17,
-        "rowsha": "JgKGI5O9hyCXzruKNF52+hiCfQnyDsAGKbIDMNr5G5s=",
-        "originContent": "   - 点击右上角的\"密钥设置\"",
-        "translatedContent": "   - Gib den API-Schlüssel und die Basisadresse ein"
-      },
-      {
-        "row": 18,
-        "rowsha": "M+aEIt8sigH3PirskVK15mJGp8l66zN5xo+0yw35UNo=",
-        "originContent": "   - 输入 API 密钥和基础地址",
-        "translatedContent": "   - Klicke auf Speichern"
-      },
-      {
-        "row": 19,
-        "rowsha": "BYTcaHp9ZyZphxDy0O4vQyA30gSNb1WKHKxLC7zTWe0=",
-        "originContent": "   - 点击保存",
-        "translatedContent": "   - Alternativ kann die Konfiguration auch schnell über URL-Parameter erfolgen:"
-      },
-      {
-        "row": 20,
-        "rowsha": "PinPTAuXMbZtbVqzf859BjDMz5/cC/6K1TY3keZ14oU=",
-        "originContent": "   - 也可以通过 URL 参数快速配置：",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 13,
+    "Id": 14,
     "Content": "     ```\n     http://localhost:3000?url=你的API地址&apikey=你的API密钥\n     ```",
     "ContentSha": "XeqM8FGGlhhDS5RzgInm+cYyZLScQ7MuIGyV7ZF6CVY=",
     "SectionType": "",
@@ -1244,30 +803,11 @@
     "EndLine": 0,
     "Translation": "     ```\n     http://localhost:3000?url=你的API地址&apikey=你的API密钥\n     ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "AX71I8x6lYM8m/FNyvaThp+mFC2meqVieqX2BN9yF0M=",
-        "originContent": "     ```",
-        "translatedContent": "     ```"
-      },
-      {
-        "row": 2,
-        "rowsha": "FzJO1k42J5fJpA1+oUESIpAxb9K5RbwO8oqzoQ1cdss=",
-        "originContent": "     http://localhost:3000?url=你的API地址&apikey=你的API密钥",
-        "translatedContent": "     http://localhost:3000?url=你的API地址&apikey=你的API密钥"
-      },
-      {
-        "row": 3,
-        "rowsha": "AX71I8x6lYM8m/FNyvaThp+mFC2meqVieqX2BN9yF0M=",
-        "originContent": "     ```",
-        "translatedContent": "     ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 14,
+    "Id": 15,
     "Content": "     例如：",
     "ContentSha": "72P2ixllSLdhz4YNdSdVmp9d829k4chlfqImEBrCVpE=",
     "SectionType": "",
@@ -1275,18 +815,11 @@
     "EndLine": 0,
     "Translation": "     例如：",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "72P2ixllSLdhz4YNdSdVmp9d829k4chlfqImEBrCVpE=",
-        "originContent": "     例如：",
-        "translatedContent": "     例如："
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 15,
+    "Id": 16,
     "Content": "     ```\n     http://localhost:3000?url=https%3A%2F%2Fapi.example.com&apikey=sk-xxx\n     ```",
     "ContentSha": "akvazMVY1Q75Lt+2zqNX0/F7cWK25UUnkwNrcF4pt6w=",
     "SectionType": "",
@@ -1294,43 +827,24 @@
     "EndLine": 0,
     "Translation": "     ```\n     http://localhost:3000?url=https%3A%2F%2Fapi.example.com&apikey=sk-xxx\n     ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "AX71I8x6lYM8m/FNyvaThp+mFC2meqVieqX2BN9yF0M=",
-        "originContent": "     ```",
-        "translatedContent": "     ```"
-      },
-      {
-        "row": 2,
-        "rowsha": "tSII+2Ds49iuzU8gfue9f0X5PTiVQt5uk1YqBhXxtz8=",
-        "originContent": "     http://localhost:3000?url=https%3A%2F%2Fapi.example.com&apikey=sk-xxx",
-        "translatedContent": "     http://localhost:3000?url=https%3A%2F%2Fapi.example.com&apikey=sk-xxx"
-      },
-      {
-        "row": 3,
-        "rowsha": "AX71I8x6lYM8m/FNyvaThp+mFC2meqVieqX2BN9yF0M=",
-        "originContent": "     ```",
-        "translatedContent": "     ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 16,
-    "Content": "     注意：URL 中的特殊字符需要进行 URL 编码\n\n2. 选择生成模式\n   - 文生图：通过文字描述生成图片\n   - 图生图：上传图片进行编辑\n\n3. 设置生成参数\n   - 选择 AI 模型（内置模型或自定义模型）\n   - 设置图片比例\n   - 调整图片质量（图生图模式）\n\n4. 自定义模型管理\n   - 点击模型选择框旁边的设置图标\n   - 添加新模型：输入模型名称、模型值和选择模型类型\n   - 编辑模型：点击已有模型的编辑按钮\n   - 删除模型：点击已有模型的删除按钮\n   - 选择模型：点击模型的加号按钮立即选择使用该模型\n\n5. 模型类型说明\n   - DALL-E 格式：使用图像生成接口（/v1/images/generations）\n   - OpenAI 格式：使用聊天接口（/v1/chat/completions）\n\n6. 生成图片\n   - 输入提示词\n   - 点击\"生成图片\"按钮\n   - 等待生成完成\n\n7. 图片管理\n   - 查看历史记录\n   - 下载生成的图片\n   - 编辑已有图片\n\n## 注意事项\n\n- 所有生成的图片和历史记录仅保存在本地浏览器中\n- 使用隐私模式或更换设备会导致数据丢失\n- 请及时下载并备份重要图片\n- API 配置将安全地存储在您的浏览器中，不会上传到服务器\n- HTTPS 网站加载 HTTP 资源会被浏览器阻止，应用会自动将 HTTP 接口转换为 HTTPS\n\n## 贡献指南\n\n欢迎提交 Issue 和 Pull Request 来帮助改进项目。\n\n## 许可证\n\n本项目采用 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) 许可证。\n\n根据许可证，您可以：\n- ✅ 商业用途：可以将软件用于商业用途\n- ✅ 修改：可以修改软件源代码\n- ✅ 分发：可以分发软件\n- ✅ 私人使用：可以私人使用软件\n- ✅ 专利授权：本许可证还提供了专利授权\n\n但必须遵守以下条件：\n- 📝 许可和版权声明：您必须包含原始的许可证和版权声明\n- 📝 声明更改：您必须声明对原始代码的重大更改\n- 📝 商标声明：不得使用贡献者的商标\n\n---\n\n## 请我喝杯咖啡\n\n如果这个项目对你有帮助，欢迎请我喝杯咖啡 ☕️\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg\" alt=\"微信收款码\" width=\"300\" />\n  <p>请我喝杯咖啡</p>\n</div>\n\n## 联系方式\n\n如果您有任何问题或建议，欢迎通过微信联系我：\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg\" alt=\"微信联系方式\" width=\"300\" />\n  <p>扫描二维码添加微信</p>\n</div>\n\n",
-    "ContentSha": "DrjUV+VYx0y0xds+YWFaAUl9uh16G0N9rLhVj5ExAl0=",
+    "Id": 17,
+    "Content": "     注意：URL 中的特殊字符需要进行 URL 编码\n\n2. 选择生成模式\n   - 文生图：通过文字描述生成图片\n   - 图生图：上传图片进行编辑\n\n3. 设置生成参数\n   - 选择 AI 模型（内置模型或自定义模型）\n   - 设置图片比例\n   - 调整图片质量（图生图模式）\n\n4. 自定义模型管理\n   - 点击模型选择框旁边的设置图标\n   - 添加新模型：输入模型名称、模型值和选择模型类型\n   - 编辑模型：点击已有模型的编辑按钮\n   - 删除模型：点击已有模型的删除按钮\n   - 选择模型：点击模型的加号按钮立即选择使用该模型\n\n5. 模型类型说明\n   - DALL-E 格式：使用图像生成接口（/v1/images/generations）\n   - OpenAI 格式：使用聊天接口（/v1/chat/completions）\n\n6. 生成图片\n   - 输入提示词\n   - 点击\"生成图片\"按钮\n   - 等待生成完成\n\n7. 图片管理\n   - 查看历史记录\n   - 下载生成的图片\n   - 编辑已有图片\n\n## 注意事项\n\n- 所有生成的图片和历史记录仅保存在本地浏览器中\n- 使用隐私模式或更换设备会导致数据丢失\n- 请及时下载并备份重要图片\n- API 配置将安全地存储在您的浏览器中，不会上传到服务器\n- HTTPS 网站加载 HTTP 资源会被浏览器阻止，应用会自动将 HTTP 接口转换为 HTTPS\n",
+    "ContentSha": "oMLMWB1KPqavEnNHmPr1CM2m9IwlwYbXagUbzyYypL4=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "     Hinweis: Spezielle Zeichen in der URL müssen URL-codiert werden\n\n2. Auswahl des Generierungsmodus\n   - Text-zu-Bild: Erzeugt ein Bild anhand einer Textbeschreibung\n   - Bild-zu-Bild: Bild hochladen und bearbeiten\n\n3. Generierungsparameter einstellen\n   - KI-Modell auswählen (integriertes oder benutzerdefiniertes Modell)\n   - Bildseitenverhältnis festlegen\n   - Bildqualität anpassen (nur im Bild-zu-Bild-Modus)\n\n4. Verwaltung benutzerdefinierter Modelle\n   - Klicken Sie auf das Einstellungssymbol neben dem Modell-Auswahlfeld\n   - Neues Modell hinzufügen: Modellname, Modellwert eingeben und Modelltyp wählen\n   - Modell bearbeiten: Klicken Sie auf die Bearbeiten-Schaltfläche eines bestehenden Modells\n   - Modell löschen: Klicken Sie auf die Löschen-Schaltfläche eines bestehenden Modells\n   - Modell auswählen: Klicken Sie auf das Pluszeichen eines Modells, um es sofort zu nutzen\n\n5. Erläuterung der Modelltypen\n   - DALL-E Format: Verwendet die Bildgenerierungs-API (/v1/images/generations)\n   - OpenAI Format: Verwendet die Chat-API (/v1/chat/completions)\n\n6. Bild generieren\n   - Prompt eingeben\n   - Auf die Schaltfläche „Bild generieren“ klicken\n   - Auf die Fertigstellung warten\n\n7. Bildverwaltung\n   - Verlauf ansehen\n   - Generierte Bilder herunterladen\n   - Bestehende Bilder bearbeiten\n\n## Hinweise\n\n- Alle generierten Bilder und der Verlauf werden nur im lokalen Browser gespeichert\n- Nutzung des Inkognito-Modus oder Gerätewechsel führen zu Datenverlust\n- Bitte laden Sie wichtige Bilder rechtzeitig herunter und sichern Sie sie\n- API-Konfigurationen werden sicher in Ihrem Browser gespeichert und nicht auf den Server hochgeladen\n- HTTPS-Websites blockieren das Laden von HTTP-Ressourcen, die App wandelt HTTP-APIs automatisch in HTTPS um\n\n## Beitragshinweise\n\nIssues und Pull Requests zur Verbesserung des Projekts sind willkommen.\n\n## Lizenz\n\nDieses Projekt steht unter der [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).\n\nGemäß der Lizenz dürfen Sie:\n- ✅ Kommerzielle Nutzung: Sie dürfen die Software kommerziell nutzen\n- ✅ Modifikation: Sie dürfen den Quellcode ändern\n- ✅ Weiterverbreitung: Sie dürfen die Software verbreiten\n- ✅ Private Nutzung: Sie dürfen die Software privat verwenden\n- ✅ Patentlizenz: Diese Lizenz enthält auch eine Patentlizenz\n\nSie müssen jedoch folgende Bedingungen einhalten:\n- 📝 Lizenz- und Urheberrechtshinweis: Sie müssen die originale Lizenz und den Copyright-Hinweis beifügen\n- 📝 Änderungshinweis: Sie müssen wesentliche Änderungen am Originalcode kenntlich machen\n- 📝 Markenhinsweis: Sie dürfen keine Marken der Beitragenden verwenden\n\n---\n\n## Spendieren Sie mir einen Kaffee\n\nFalls Ihnen dieses Projekt geholfen hat, können Sie mir gerne einen Kaffee spendieren ☕️\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg\" alt=\"WeChat-Bezahlcode\" width=\"300\" />\n  <p>Spendieren Sie mir einen Kaffee</p>\n</div>\n\n## Kontakt\n\nWenn Sie Fragen oder Anregungen haben, können Sie mich gerne per WeChat kontaktieren:\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg\" alt=\"WeChat-Kontaktinformation\" width=\"300\" />\n  <p>Scannen Sie den QR-Code, um mich auf WeChat hinzuzufügen</p>\n</div>\n\n",
+    "Translation": "     Hinweis: Sonderzeichen in der URL müssen URL-codiert werden\n\n2. Generierungsmodus auswählen\n   - Text-zu-Bild: Bild aus Textbeschreibung generieren\n   - Bild-zu-Bild: Bild hochladen und bearbeiten\n\n3. Generierungsparameter einstellen\n   - KI-Modell auswählen (integriertes oder benutzerdefiniertes Modell)\n   - Bildverhältnis festlegen\n   - Bildqualität anpassen (Bild-zu-Bild-Modus)\n\n4. Verwaltung benutzerdefinierter Modelle\n   - Auf das Einstellungssymbol neben der Modellauswahl klicken\n   - Neues Modell hinzufügen: Modellname, Modellwert eingeben und Modelltyp auswählen\n   - Modell bearbeiten: Auf die Bearbeiten-Schaltfläche eines vorhandenen Modells klicken\n   - Modell löschen: Auf die Löschen-Schaltfläche eines vorhandenen Modells klicken\n   - Modell auswählen: Auf die Plus-Schaltfläche des Modells klicken, um es sofort zu verwenden\n\n5. Erklärung der Modelltypen\n   - DALL-E-Format: Verwendung des Bildgenerierungs-Endpunkts (/v1/images/generations)\n   - OpenAI-Format: Verwendung des Chat-Endpunkts (/v1/chat/completions)\n\n6. Bild generieren\n   - Prompt eingeben\n   - Auf die Schaltfläche \"Bild generieren\" klicken\n   - Auf die Fertigstellung warten\n\n7. Bildverwaltung\n   - Verlauf anzeigen\n   - Generierte Bilder herunterladen\n   - Bestehende Bilder bearbeiten\n\n## Hinweise\n\n- Alle generierten Bilder und Verlaufseinträge werden nur im lokalen Browser gespeichert\n- Die Verwendung des Inkognito-Modus oder eines anderen Geräts führt zu Datenverlust\n- Bitte laden Sie wichtige Bilder rechtzeitig herunter und sichern Sie sie\n- Die API-Konfiguration wird sicher in Ihrem Browser gespeichert und nicht auf den Server hochgeladen\n- HTTPS-Websites werden durch den Browser am Laden von HTTP-Ressourcen gehindert, die Anwendung wandelt HTTP-Endpunkte automatisch in HTTPS um\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "SGkFtZQPv7StqO6rkrUY69bZN+WXyZuNbZoq5DmAnlI=",
         "originContent": "     注意：URL 中的特殊字符需要进行 URL 编码",
-        "translatedContent": "     Hinweis: Spezielle Zeichen in der URL müssen URL-codiert werden"
+        "translatedContent": "     Hinweis: Sonderzeichen in der URL müssen URL-codiert werden"
       },
       {
         "row": 2,
@@ -1342,13 +856,13 @@
         "row": 3,
         "rowsha": "mfF7Z7J/jatfgjuQNVWnPJoteWLxizQT0l5XxkYhl6I=",
         "originContent": "2. 选择生成模式",
-        "translatedContent": "2. Auswahl des Generierungsmodus"
+        "translatedContent": "2. Generierungsmodus auswählen"
       },
       {
         "row": 4,
         "rowsha": "L3EL+IlThwVLkkmfgfulVqeRmUDnURzBhnsTrwPmIeE=",
         "originContent": "   - 文生图：通过文字描述生成图片",
-        "translatedContent": "   - Text-zu-Bild: Erzeugt ein Bild anhand einer Textbeschreibung"
+        "translatedContent": "   - Text-zu-Bild: Bild aus Textbeschreibung generieren"
       },
       {
         "row": 5,
@@ -1378,13 +892,13 @@
         "row": 9,
         "rowsha": "Um9MCWp2Nj0BSVfxJ6HfX6JhS1sz+npCSyRpXXcZu9c=",
         "originContent": "   - 设置图片比例",
-        "translatedContent": "   - Bildseitenverhältnis festlegen"
+        "translatedContent": "   - Bildverhältnis festlegen"
       },
       {
         "row": 10,
         "rowsha": "VDDyTLgg1ngYI2XEhD/fbsMEWaltO0pqiL0fe75dSe4=",
         "originContent": "   - 调整图片质量（图生图模式）",
-        "translatedContent": "   - Bildqualität anpassen (nur im Bild-zu-Bild-Modus)"
+        "translatedContent": "   - Bildqualität anpassen (Bild-zu-Bild-Modus)"
       },
       {
         "row": 11,
@@ -1402,31 +916,31 @@
         "row": 13,
         "rowsha": "R6SXxrKFislSDqzD2UwZlqh7KhzU0B4Qe3mZLQuhWdM=",
         "originContent": "   - 点击模型选择框旁边的设置图标",
-        "translatedContent": "   - Klicken Sie auf das Einstellungssymbol neben dem Modell-Auswahlfeld"
+        "translatedContent": "   - Auf das Einstellungssymbol neben der Modellauswahl klicken"
       },
       {
         "row": 14,
         "rowsha": "J9mkxH0jkjT9+uwmG4BFWQFpV8DeVYYsq/ufKMdVW/0=",
         "originContent": "   - 添加新模型：输入模型名称、模型值和选择模型类型",
-        "translatedContent": "   - Neues Modell hinzufügen: Modellname, Modellwert eingeben und Modelltyp wählen"
+        "translatedContent": "   - Neues Modell hinzufügen: Modellname, Modellwert eingeben und Modelltyp auswählen"
       },
       {
         "row": 15,
         "rowsha": "3Js9gyNEd1JYSrH4rfHOxh8BvdCVC3qVwAFagWzWsW4=",
         "originContent": "   - 编辑模型：点击已有模型的编辑按钮",
-        "translatedContent": "   - Modell bearbeiten: Klicken Sie auf die Bearbeiten-Schaltfläche eines bestehenden Modells"
+        "translatedContent": "   - Modell bearbeiten: Auf die Bearbeiten-Schaltfläche eines vorhandenen Modells klicken"
       },
       {
         "row": 16,
         "rowsha": "rWqQvEk3hj5V58ulGPELjpbzanljcoR9Hu+erHDR6Gk=",
         "originContent": "   - 删除模型：点击已有模型的删除按钮",
-        "translatedContent": "   - Modell löschen: Klicken Sie auf die Löschen-Schaltfläche eines bestehenden Modells"
+        "translatedContent": "   - Modell löschen: Auf die Löschen-Schaltfläche eines vorhandenen Modells klicken"
       },
       {
         "row": 17,
         "rowsha": "fCYaHhVyoavzoZtzySN5aUcyNRexcU2BfsXEanJQL2A=",
         "originContent": "   - 选择模型：点击模型的加号按钮立即选择使用该模型",
-        "translatedContent": "   - Modell auswählen: Klicken Sie auf das Pluszeichen eines Modells, um es sofort zu nutzen"
+        "translatedContent": "   - Modell auswählen: Auf die Plus-Schaltfläche des Modells klicken, um es sofort zu verwenden"
       },
       {
         "row": 18,
@@ -1438,19 +952,19 @@
         "row": 19,
         "rowsha": "rTvMaxZvhlit8ng1gqgQ2Gj1HOS1Cp1elUfoSq9j+Y4=",
         "originContent": "5. 模型类型说明",
-        "translatedContent": "5. Erläuterung der Modelltypen"
+        "translatedContent": "5. Erklärung der Modelltypen"
       },
       {
         "row": 20,
         "rowsha": "3pKCKUV/kpwO+Vegwg8ACRohmcK4n2LKkK573OPLe1U=",
         "originContent": "   - DALL-E 格式：使用图像生成接口（/v1/images/generations）",
-        "translatedContent": "   - DALL-E Format: Verwendet die Bildgenerierungs-API (/v1/images/generations)"
+        "translatedContent": "   - DALL-E-Format: Verwendung des Bildgenerierungs-Endpunkts (/v1/images/generations)"
       },
       {
         "row": 21,
         "rowsha": "c1vlCB87zhiJ7eF3Iw3xSOeL0yzlbFZGX/2/ubmoZOY=",
         "originContent": "   - OpenAI 格式：使用聊天接口（/v1/chat/completions）",
-        "translatedContent": "   - OpenAI Format: Verwendet die Chat-API (/v1/chat/completions)"
+        "translatedContent": "   - OpenAI-Format: Verwendung des Chat-Endpunkts (/v1/chat/completions)"
       },
       {
         "row": 22,
@@ -1474,7 +988,7 @@
         "row": 25,
         "rowsha": "shdtvzLclESnHCjx07SESduGyjqwAc5xxqGxIL5Cy7c=",
         "originContent": "   - 点击\"生成图片\"按钮",
-        "translatedContent": "   - Auf die Schaltfläche „Bild generieren“ klicken"
+        "translatedContent": "   - Auf die Schaltfläche \"Bild generieren\" klicken"
       },
       {
         "row": 26,
@@ -1498,7 +1012,7 @@
         "row": 29,
         "rowsha": "Lmv+wnqeY2N4bfYW3kDb21JZFj5j6+JWU253eA5dt5Q=",
         "originContent": "   - 查看历史记录",
-        "translatedContent": "   - Verlauf ansehen"
+        "translatedContent": "   - Verlauf anzeigen"
       },
       {
         "row": 30,
@@ -1534,13 +1048,13 @@
         "row": 35,
         "rowsha": "7S51dlvyr0oN8eWWQaqSyBHIXAylg8+7CpdhBUNURMc=",
         "originContent": "- 所有生成的图片和历史记录仅保存在本地浏览器中",
-        "translatedContent": "- Alle generierten Bilder und der Verlauf werden nur im lokalen Browser gespeichert"
+        "translatedContent": "- Alle generierten Bilder und Verlaufseinträge werden nur im lokalen Browser gespeichert"
       },
       {
         "row": 36,
         "rowsha": "NhRaZpqmKzjN+pHbZvt6pV6KETVldS0PBoTe+KfEt5c=",
         "originContent": "- 使用隐私模式或更换设备会导致数据丢失",
-        "translatedContent": "- Nutzung des Inkognito-Modus oder Gerätewechsel führen zu Datenverlust"
+        "translatedContent": "- Die Verwendung des Inkognito-Modus oder eines anderen Geräts führt zu Datenverlust"
       },
       {
         "row": 37,
@@ -1552,262 +1066,288 @@
         "row": 38,
         "rowsha": "+Vy6iyxWH6u/qO0rWPMdHnYZE4G+JnBFq7lxjcl6tJU=",
         "originContent": "- API 配置将安全地存储在您的浏览器中，不会上传到服务器",
-        "translatedContent": "- API-Konfigurationen werden sicher in Ihrem Browser gespeichert und nicht auf den Server hochgeladen"
+        "translatedContent": "- Die API-Konfiguration wird sicher in Ihrem Browser gespeichert und nicht auf den Server hochgeladen"
       },
       {
         "row": 39,
         "rowsha": "bQBbsx9rMPEUvzOuuWk59Kdi9uzJQkCCfzJdab1N1Ww=",
         "originContent": "- HTTPS 网站加载 HTTP 资源会被浏览器阻止，应用会自动将 HTTP 接口转换为 HTTPS",
-        "translatedContent": "- HTTPS-Websites blockieren das Laden von HTTP-Ressourcen, die App wandelt HTTP-APIs automatisch in HTTPS um"
+        "translatedContent": "- HTTPS-Websites werden durch den Browser am Laden von HTTP-Ressourcen gehindert, die Anwendung wandelt HTTP-Endpunkte automatisch in HTTPS um"
       },
       {
         "row": 40,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
-      },
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "## 贡献指南\n\n欢迎提交 Issue 和 Pull Request 来帮助改进项目。\n\n## 许可证\n\n本项目采用 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) 许可证。\n\n根据许可证，您可以：\n- ✅ 商业用途：可以将软件用于商业用途\n- ✅ 修改：可以修改软件源代码\n- ✅ 分发：可以分发软件\n- ✅ 私人使用：可以私人使用软件\n- ✅ 专利授权：本许可证还提供了专利授权\n\n但必须遵守以下条件：\n- 📝 许可和版权声明：您必须包含原始的许可证和版权声明\n- 📝 声明更改：您必须声明对原始代码的重大更改\n- 📝 商标声明：不得使用贡献者的商标\n\n---\n\n## 请我喝杯咖啡\n\n如果这个项目对你有帮助，欢迎请我喝杯咖啡 ☕️\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg\" alt=\"微信收款码\" width=\"300\" />\n  <p>请我喝杯咖啡</p>\n</div>\n\n## 联系方式\n\n如果您有任何问题或建议，欢迎通过微信联系我：\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg\" alt=\"微信联系方式\" width=\"300\" />\n  <p>扫描二维码添加微信</p>\n</div>\n",
+    "ContentSha": "91owuEvtQjKwEwVssw1k61y3bQGDNbFMd4oFGktEzvc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Beitragshinweise\n\nWillkommen, um Issues und Pull Requests einzureichen, um das Projekt zu verbessern.\n\n## Lizenz\n\nDieses Projekt steht unter der [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).\n\nGemäß der Lizenz dürfen Sie:\n- ✅ Kommerzielle Nutzung: Sie dürfen die Software kommerziell nutzen\n- ✅ Modifikation: Sie dürfen den Quellcode der Software ändern\n- ✅ Weiterverbreitung: Sie dürfen die Software weiterverbreiten\n- ✅ Private Nutzung: Sie dürfen die Software privat verwenden\n- ✅ Patenterlaubnis: Diese Lizenz gewährt auch eine Patenterlaubnis\n\nSie müssen jedoch folgende Bedingungen einhalten:\n- 📝 Lizenz- und Urheberrechtshinweis: Sie müssen die ursprüngliche Lizenz und Urheberrechtshinweise beifügen\n- 📝 Änderungen kennzeichnen: Sie müssen wesentliche Änderungen am Originalcode kenntlich machen\n- 📝 Markenerklärung: Die Marken der Beitragenden dürfen nicht verwendet werden\n\n---\n\n## Spendiere mir einen Kaffee\n\nWenn dir dieses Projekt geholfen hat, freue ich mich über einen Kaffee ☕️\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg\" alt=\"WeChat Zahlungs-QR-Code\" width=\"300\" />\n  <p>Spendiere mir einen Kaffee</p>\n</div>\n\n## Kontakt\n\nWenn Sie Fragen oder Anregungen haben, kontaktieren Sie mich gerne via WeChat:\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg\" alt=\"WeChat Kontakt QR-Code\" width=\"300\" />\n  <p>QR-Code scannen, um WeChat hinzuzufügen</p>\n</div>\n",
+    "Status": "ok",
+    "RowTranslations": [
       {
-        "row": 41,
+        "row": 1,
         "rowsha": "eUO/w0wlGqcHfNbCh76p/ChN4xkbg3jdaZyHTF07Tzo=",
         "originContent": "## 贡献指南",
         "translatedContent": "## Beitragshinweise"
       },
       {
-        "row": 42,
+        "row": 2,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 43,
+        "row": 3,
         "rowsha": "jYJlLCeaRc3j5M42/8MydJ9M8AbP9Yz4N7BxEcFL8v4=",
         "originContent": "欢迎提交 Issue 和 Pull Request 来帮助改进项目。",
-        "translatedContent": "Issues und Pull Requests zur Verbesserung des Projekts sind willkommen."
+        "translatedContent": "Willkommen, um Issues und Pull Requests einzureichen, um das Projekt zu verbessern."
       },
       {
-        "row": 44,
+        "row": 4,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 45,
+        "row": 5,
         "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
         "originContent": "## 许可证",
         "translatedContent": "## Lizenz"
       },
       {
-        "row": 46,
+        "row": 6,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 47,
+        "row": 7,
         "rowsha": "8GVllcuvqIalA5IqIgIH+QJMjqM/nV1kFA2/o3xIxdo=",
         "originContent": "本项目采用 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) 许可证。",
         "translatedContent": "Dieses Projekt steht unter der [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)."
       },
       {
-        "row": 48,
+        "row": 8,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 49,
+        "row": 9,
         "rowsha": "p9xfmXiE2wnb7mov9E7vj5WrOSQsL4ZAEJY9B8WiI8E=",
         "originContent": "根据许可证，您可以：",
         "translatedContent": "Gemäß der Lizenz dürfen Sie:"
       },
       {
-        "row": 50,
+        "row": 10,
         "rowsha": "S7w9hqd/gSDJZk9HtTQrdZUG481Ir4fNWXYgS20U/AY=",
         "originContent": "- ✅ 商业用途：可以将软件用于商业用途",
         "translatedContent": "- ✅ Kommerzielle Nutzung: Sie dürfen die Software kommerziell nutzen"
       },
       {
-        "row": 51,
+        "row": 11,
         "rowsha": "jt5dnlgWETYLNRd87j0+0RkkdmFvGdiRNZSgO5/7FaI=",
         "originContent": "- ✅ 修改：可以修改软件源代码",
-        "translatedContent": "- ✅ Modifikation: Sie dürfen den Quellcode ändern"
+        "translatedContent": "- ✅ Modifikation: Sie dürfen den Quellcode der Software ändern"
       },
       {
-        "row": 52,
+        "row": 12,
         "rowsha": "xibk051RegG7IkkB6TT1xi+xUnXksAgRYX3lEv2fzIE=",
         "originContent": "- ✅ 分发：可以分发软件",
-        "translatedContent": "- ✅ Weiterverbreitung: Sie dürfen die Software verbreiten"
+        "translatedContent": "- ✅ Weiterverbreitung: Sie dürfen die Software weiterverbreiten"
       },
       {
-        "row": 53,
+        "row": 13,
         "rowsha": "jqUbeG1cCiyLvrU3DzTHyTaVN24spUlVlOs8EZdt3hI=",
         "originContent": "- ✅ 私人使用：可以私人使用软件",
         "translatedContent": "- ✅ Private Nutzung: Sie dürfen die Software privat verwenden"
       },
       {
-        "row": 54,
+        "row": 14,
         "rowsha": "qLfasatqp6hlE4ObgFk2iKdav1jL1C9MUr+pOrTvazk=",
         "originContent": "- ✅ 专利授权：本许可证还提供了专利授权",
-        "translatedContent": "- ✅ Patentlizenz: Diese Lizenz enthält auch eine Patentlizenz"
+        "translatedContent": "- ✅ Patenterlaubnis: Diese Lizenz gewährt auch eine Patenterlaubnis"
       },
       {
-        "row": 55,
+        "row": 15,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 56,
+        "row": 16,
         "rowsha": "pTyZxJ0vg7rkrWoBuSpImW551qHvBRxAqsVap5rvD7M=",
         "originContent": "但必须遵守以下条件：",
         "translatedContent": "Sie müssen jedoch folgende Bedingungen einhalten:"
       },
       {
-        "row": 57,
+        "row": 17,
         "rowsha": "A+sv3Atw1Z5L39iA6Ks4/fNocicHpInLgKwicctGQfo=",
         "originContent": "- 📝 许可和版权声明：您必须包含原始的许可证和版权声明",
-        "translatedContent": "- 📝 Lizenz- und Urheberrechtshinweis: Sie müssen die originale Lizenz und den Copyright-Hinweis beifügen"
+        "translatedContent": "- 📝 Lizenz- und Urheberrechtshinweis: Sie müssen die ursprüngliche Lizenz und Urheberrechtshinweise beifügen"
       },
       {
-        "row": 58,
+        "row": 18,
         "rowsha": "tT8rToPBQ0ibfSmnPNPBAj6YC2P/yp/kbQ/JrEmG9ps=",
         "originContent": "- 📝 声明更改：您必须声明对原始代码的重大更改",
-        "translatedContent": "- 📝 Änderungshinweis: Sie müssen wesentliche Änderungen am Originalcode kenntlich machen"
+        "translatedContent": "- 📝 Änderungen kennzeichnen: Sie müssen wesentliche Änderungen am Originalcode kenntlich machen"
       },
       {
-        "row": 59,
+        "row": 19,
         "rowsha": "Dm0ik8X9f+DfIflf9nb+AmMLax3oB1QNqeIMuigijek=",
         "originContent": "- 📝 商标声明：不得使用贡献者的商标",
-        "translatedContent": "- 📝 Markenhinsweis: Sie dürfen keine Marken der Beitragenden verwenden"
+        "translatedContent": "- 📝 Markenerklärung: Die Marken der Beitragenden dürfen nicht verwendet werden"
       },
       {
-        "row": 60,
+        "row": 20,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 61,
+        "row": 21,
         "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
         "originContent": "---",
         "translatedContent": "---"
       },
       {
-        "row": 62,
+        "row": 22,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 63,
+        "row": 23,
         "rowsha": "zR24+zbJqkLqQF8HhJw6m9qepHNUonckXbBkHATcZRI=",
         "originContent": "## 请我喝杯咖啡",
-        "translatedContent": "## Spendieren Sie mir einen Kaffee"
+        "translatedContent": "## Spendiere mir einen Kaffee"
       },
       {
-        "row": 64,
+        "row": 24,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 65,
+        "row": 25,
         "rowsha": "O2DEYRb6IDQNtdw1B5l1sxn85lqOJ97R7o9V3o4PbRw=",
         "originContent": "如果这个项目对你有帮助，欢迎请我喝杯咖啡 ☕️",
-        "translatedContent": "Falls Ihnen dieses Projekt geholfen hat, können Sie mir gerne einen Kaffee spendieren ☕️"
+        "translatedContent": "Wenn dir dieses Projekt geholfen hat, freue ich mich über einen Kaffee ☕️"
       },
       {
-        "row": 66,
+        "row": 26,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 67,
+        "row": 27,
         "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
         "originContent": "<div align=\"center\">",
         "translatedContent": "<div align=\"center\">"
       },
       {
-        "row": 68,
+        "row": 28,
         "rowsha": "PXzr61zxU8rIxPW25xBcWsQoF8W2G4+w1B86it0BSr8=",
         "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg\" alt=\"微信收款码\" width=\"300\" />",
-        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg\" alt=\"WeChat-Bezahlcode\" width=\"300\" />"
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg\" alt=\"WeChat Zahlungs-QR-Code\" width=\"300\" />"
       },
       {
-        "row": 69,
+        "row": 29,
         "rowsha": "OqFcAZPL+PoDn5eE0z1RLehac/Tfs1h1nbowogvPbAk=",
         "originContent": "  <p>请我喝杯咖啡</p>",
-        "translatedContent": "  <p>Spendieren Sie mir einen Kaffee</p>"
+        "translatedContent": "  <p>Spendiere mir einen Kaffee</p>"
       },
       {
-        "row": 70,
+        "row": 30,
         "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
         "originContent": "</div>",
         "translatedContent": "</div>"
       },
       {
-        "row": 71,
+        "row": 31,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 72,
+        "row": 32,
         "rowsha": "ZP5PHCFkp+eVb6xgZZZnWt5eG6M+An7l7JIzcdLTUSM=",
         "originContent": "## 联系方式",
         "translatedContent": "## Kontakt"
       },
       {
-        "row": 73,
+        "row": 33,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 74,
+        "row": 34,
         "rowsha": "dLvKQ71IUpJXyF9zbPxGrwQad0pbf925GAL5VST45Qs=",
         "originContent": "如果您有任何问题或建议，欢迎通过微信联系我：",
-        "translatedContent": "Wenn Sie Fragen oder Anregungen haben, können Sie mich gerne per WeChat kontaktieren:"
+        "translatedContent": "Wenn Sie Fragen oder Anregungen haben, kontaktieren Sie mich gerne via WeChat:"
       },
       {
-        "row": 75,
+        "row": 35,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 76,
+        "row": 36,
         "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
         "originContent": "<div align=\"center\">",
         "translatedContent": "<div align=\"center\">"
       },
       {
-        "row": 77,
+        "row": 37,
         "rowsha": "WuNNpEC2zholTw9UG0oWWTf6NmQ3pA067oQM/MViYik=",
         "originContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg\" alt=\"微信联系方式\" width=\"300\" />",
-        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg\" alt=\"WeChat-Kontaktinformation\" width=\"300\" />"
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg\" alt=\"WeChat Kontakt QR-Code\" width=\"300\" />"
       },
       {
-        "row": 78,
+        "row": 38,
         "rowsha": "qAVDt/WR6gBZiDGs5LXl+v5C1Z7SSZ+OuUf2oiuLcjg=",
         "originContent": "  <p>扫描二维码添加微信</p>",
-        "translatedContent": "  <p>Scannen Sie den QR-Code, um mich auf WeChat hinzuzufügen</p>"
+        "translatedContent": "  <p>QR-Code scannen, um WeChat hinzuzufügen</p>"
       },
       {
-        "row": 79,
+        "row": 39,
         "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
         "originContent": "</div>",
         "translatedContent": "</div>"
       },
       {
-        "row": 80,
+        "row": 40,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
-      },
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
       {
-        "row": 81,
+        "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

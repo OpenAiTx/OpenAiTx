@@ -1,0 +1,919 @@
+[
+  {
+    "Id": 1,
+    "Content": "# pproftui: Interactive Go Profiling in Your Terminal\n\n`pproftui` is a terminal-based UI for Go's `pprof` that makes profiling interactive, intuitive, and fast. It's designed to help you pinpoint performance issues without the context-switching of a web browser and to provide built-in explanations for profiling concepts.\n\n![Demo](https://raw.githubusercontent.com/Oloruntobi1/pproftui/main/./demo.gif)\n\n---\n\n## Why `pproftui`?\n\nThe standard `go tool pprof` is powerful but can be unintuitive. You're often left wondering:\n*   \"What does `flat` vs `cum` actually mean?\"\n*   \"Which of these 100 runtime functions is *my* code?\"\n*   \"How do I find what changed between this version and the last?\"\n*   \"Why do I have to keep switching back and forth between my browser and my code?\"\n\n`pproftui` solves these problems directly:\n*   **Integrated Source & Graph Views:** See the source code for any function or navigate its call graph without ever leaving your terminal.\n*   **Focus on Your Code:** Automatically highlights functions from your project. Press `p` to instantly hide all the runtime and vendor noise.\n*   **Powerful, Intuitive Diffing:** Compare two profiles to see not just *what* changed, but *why*. The UI helps you trace the source of a regression through the call stack.\n*   **Live Profiling:** Point `pproftui` at a running service and watch its profile update in real-time.\n*   **Built-in Help (F1):** Get clear, simple explanations of profiling terms (`cpu`, `inuse_space`, `flat` vs `cum`) right when you need them.\n\n---\n\n## Getting Started\n\n### Installation",
+    "ContentSha": "KxBcITu9KJ/tpHlihs5QlwCqe5vfFHx3qYHNsQkLS7Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# pproftui：在终端中交互式 Go 性能分析\n\n`pproftui` 是一个基于终端的 Go `pprof` 用户界面，使性能分析变得交互式、直观且快速。它旨在帮助您定位性能问题，无需切换到网页浏览器，并提供内置的性能分析概念解释。\n\n![演示](https://raw.githubusercontent.com/Oloruntobi1/pproftui/main/./demo.gif)\n\n---\n\n## 为什么选择 `pproftui`？\n\n标准的 `go tool pprof` 功能强大，但有时不够直观。您常常会困惑：\n*   \"`flat` 和 `cum` 究竟是什么意思？\"\n*   \"这 100 个运行时函数中，哪个是*我的*代码？\"\n*   \"我如何查找这个版本与上一个版本之间的变化？\"\n*   \"为什么我必须不停地在浏览器和代码之间切换？\"\n\n`pproftui` 直接解决了这些问题：\n*   **集成源码和调用图视图：** 查看任意函数的源代码或浏览其调用图，无需离开终端。\n*   **聚焦您的代码：** 自动高亮项目中的函数。按 `p` 键即可立即隐藏所有运行时和第三方库的噪音。\n*   **强大且直观的差异比较：** 比较两个性能分析报告，不仅看到*发生了什么*变化，还能了解*为什么*变化。界面帮助您通过调用栈追踪性能回退的根源。\n*   **实时性能分析：** 指向正在运行的服务，实时观察其性能分析更新。\n*   **内置帮助（F1）：** 在需要时，获得关于性能分析术语（`cpu`、`inuse_space`、`flat` 与 `cum`）的清晰简明解释。\n\n---\n\n## 快速入门\n\n### 安装",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kiSo18SuKX/Cu1gL/xOjhTFn7vo0e83pVLIWJq2xY2Y=",
+        "originContent": "# pproftui: Interactive Go Profiling in Your Terminal",
+        "translatedContent": "# pproftui：在终端中交互式 Go 性能分析"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "G12kOcD04h3s6+auEUKgsAyl4GpTONpSEvK1cvy8dt8=",
+        "originContent": "`pproftui` is a terminal-based UI for Go's `pprof` that makes profiling interactive, intuitive, and fast. It's designed to help you pinpoint performance issues without the context-switching of a web browser and to provide built-in explanations for profiling concepts.",
+        "translatedContent": "`pproftui` 是一个基于终端的 Go `pprof` 用户界面，使性能分析变得交互式、直观且快速。它旨在帮助您定位性能问题，无需切换到网页浏览器，并提供内置的性能分析概念解释。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "QgU9+vLIJcGIe/LHSO1SCShPZuituzjawY6K33EMOhA=",
+        "originContent": "![Demo](https://raw.githubusercontent.com/Oloruntobi1/pproftui/main/./demo.gif)",
+        "translatedContent": "![演示](https://raw.githubusercontent.com/Oloruntobi1/pproftui/main/./demo.gif)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "XgisJbPpZA+Q1Ppc7x2H2TEP/0WK8cn33HNkGQyXWoE=",
+        "originContent": "## Why `pproftui`?",
+        "translatedContent": "## 为什么选择 `pproftui`？"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "KFiHSuaUAGifcsHZPvZd3chs4Q5TEElj9/438d1jVrY=",
+        "originContent": "The standard `go tool pprof` is powerful but can be unintuitive. You're often left wondering:",
+        "translatedContent": "标准的 `go tool pprof` 功能强大，但有时不够直观。您常常会困惑："
+      },
+      {
+        "row": 12,
+        "rowsha": "Dlo0uQq7FhrALBo10iGk9kjyNh3oOVzLgAo5eRkXjj0=",
+        "originContent": "*   \"What does `flat` vs `cum` actually mean?\"",
+        "translatedContent": "*   \"`flat` 和 `cum` 究竟是什么意思？\""
+      },
+      {
+        "row": 13,
+        "rowsha": "1T/C87v+9bQzoL3mbqA396zayTfiil4UV5KAoUqTiWQ=",
+        "originContent": "*   \"Which of these 100 runtime functions is *my* code?\"",
+        "translatedContent": "*   \"这 100 个运行时函数中，哪个是*我的*代码？\""
+      },
+      {
+        "row": 14,
+        "rowsha": "emKglgcuAIQwPXP3hHfER4MtUX4UkEAvVOZgEsVqPU8=",
+        "originContent": "*   \"How do I find what changed between this version and the last?\"",
+        "translatedContent": "*   \"我如何查找这个版本与上一个版本之间的变化？\""
+      },
+      {
+        "row": 15,
+        "rowsha": "+bht5sRr8hWKvjZNkkToI7NsUbjUjeWNpNB+GisrDB4=",
+        "originContent": "*   \"Why do I have to keep switching back and forth between my browser and my code?\"",
+        "translatedContent": "*   \"为什么我必须不停地在浏览器和代码之间切换？\""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "OQyFJmg/KaoFhfzxC3n92ee1GQVf4nlCbwaQH0hV/EU=",
+        "originContent": "`pproftui` solves these problems directly:",
+        "translatedContent": "`pproftui` 直接解决了这些问题："
+      },
+      {
+        "row": 18,
+        "rowsha": "X+VxyhjvFM/VJXV+rEkCz0TlSfve8HpdLNFanmeBFBk=",
+        "originContent": "*   **Integrated Source & Graph Views:** See the source code for any function or navigate its call graph without ever leaving your terminal.",
+        "translatedContent": "*   **集成源码和调用图视图：** 查看任意函数的源代码或浏览其调用图，无需离开终端。"
+      },
+      {
+        "row": 19,
+        "rowsha": "3irTylKRlBfTq1O2CO/WUUpiJ3LI49m4jVgHwYKm5Qo=",
+        "originContent": "*   **Focus on Your Code:** Automatically highlights functions from your project. Press `p` to instantly hide all the runtime and vendor noise.",
+        "translatedContent": "*   **聚焦您的代码：** 自动高亮项目中的函数。按 `p` 键即可立即隐藏所有运行时和第三方库的噪音。"
+      },
+      {
+        "row": 20,
+        "rowsha": "lDKUDyFgje4/7hlnVolQJwXf4SvavJSNfKXg8C1VCR4=",
+        "originContent": "*   **Powerful, Intuitive Diffing:** Compare two profiles to see not just *what* changed, but *why*. The UI helps you trace the source of a regression through the call stack.",
+        "translatedContent": "*   **强大且直观的差异比较：** 比较两个性能分析报告，不仅看到*发生了什么*变化，还能了解*为什么*变化。界面帮助您通过调用栈追踪性能回退的根源。"
+      },
+      {
+        "row": 21,
+        "rowsha": "r/hBJX4JUTOh9AKUU/OItve4lJ98mMgMTGjVOZm7CYk=",
+        "originContent": "*   **Live Profiling:** Point `pproftui` at a running service and watch its profile update in real-time.",
+        "translatedContent": "*   **实时性能分析：** 指向正在运行的服务，实时观察其性能分析更新。"
+      },
+      {
+        "row": 22,
+        "rowsha": "+QBxkJQyvySV27Rv4a8VcZRJg6dm5zjga7JgCbwue5k=",
+        "originContent": "*   **Built-in Help (F1):** Get clear, simple explanations of profiling terms (`cpu`, `inuse_space`, `flat` vs `cum`) right when you need them.",
+        "translatedContent": "*   **内置帮助（F1）：** 在需要时，获得关于性能分析术语（`cpu`、`inuse_space`、`flat` 与 `cum`）的清晰简明解释。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## 快速入门"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### 安装"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\ngo install github.com/Oloruntobi1/pproftui@latest\n```",
+    "ContentSha": "auIjI6CHdMQsg6lGlraCm+uoOGWL3RTA7l/dv60WZvs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ngo install github.com/Oloruntobi1/pproftui@latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Y0p5ZhgTWnGq0t7HHPnZidq7lyEehiFRA/iGqxitk1M=",
+        "originContent": "go install github.com/Oloruntobi1/pproftui@latest",
+        "translatedContent": "go install github.com/Oloruntobi1/pproftui@latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### The Cookbook: Common Profiling Workflows\n\nHere are practical recipes for solving common performance problems with `pproftui`.\n\n#### Recipe 1: Investigating a Slowdown in a Local Binary\nYou've noticed a function is slow. Let's get a CPU profile and explore it.\n\n1.  **Generate the profile:**",
+    "ContentSha": "Bf7SgxnXW0I739mqRiTzjCCEDMC96RxK93PydUtHH+E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 食谱：常见的性能分析工作流程\n\n这里是使用 `pproftui` 解决常见性能问题的实用方案。\n\n#### 方案 1：调查本地二进制文件的性能下降\n你发现某个函数运行缓慢。让我们获取一个 CPU 性能分析并进行探索。\n\n1.  **生成性能分析数据：**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "FiwuDpNzVo1Q9p2b4zn0nWU3O8z7zM+kzrL6FX54NjA=",
+        "originContent": "### The Cookbook: Common Profiling Workflows",
+        "translatedContent": "### 食谱：常见的性能分析工作流程"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "/qFb/WEiAS1CUnGEYmi2v9xyxN5S2PSUD1M5ZHsBa2Q=",
+        "originContent": "Here are practical recipes for solving common performance problems with `pproftui`.",
+        "translatedContent": "这里是使用 `pproftui` 解决常见性能问题的实用方案。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "l8Yo25GFLq8LaVW2SgDW4UMnJ+YeEaR8xNeXGa2BATs=",
+        "originContent": "#### Recipe 1: Investigating a Slowdown in a Local Binary",
+        "translatedContent": "#### 方案 1：调查本地二进制文件的性能下降"
+      },
+      {
+        "row": 7,
+        "rowsha": "ghJuDvRs70bAAyq5ug/WssmNOzhHThN2Al70SyRU4u8=",
+        "originContent": "You've noticed a function is slow. Let's get a CPU profile and explore it.",
+        "translatedContent": "你发现某个函数运行缓慢。让我们获取一个 CPU 性能分析并进行探索。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "JOxWKFdUtC3WPsCaxC/li2jyeeVGZhywuozrY6Oi1Pc=",
+        "originContent": "1.  **Generate the profile:**",
+        "translatedContent": "1.  **生成性能分析数据：**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "    ```sh\n    go test -bench=. -cpuprofile=cpu.prof\n    ```",
+    "ContentSha": "yYcx2aPO534cGlhHF1GhCD/5U/dVk2Rz4XtQo8RY72g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```sh\n    go test -bench=. -cpuprofile=cpu.prof\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UOaZnOq6QlDZ6DbWUsc37bQsB3r6/eU2knORMnpMmBo=",
+        "originContent": "    ```sh",
+        "translatedContent": "    ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "56MlUIan9Q+hRpCzF8kSDmYoefnhX9Feq3FyVmzwT7A=",
+        "originContent": "    go test -bench=. -cpuprofile=cpu.prof",
+        "translatedContent": "    go test -bench=. -cpuprofile=cpu.prof"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n2.  **Analyze it with `pproftui`:**",
+    "ContentSha": "6DSyioVc7IYsQEhfVLjY74R6SPffgXoApkuuXd/h+7U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2.  **使用 `pproftui` 进行分析：**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "js3d1QwSXvuFx1Ro/U3GOKBUKar5cl8IJEcwe4s1T4Y=",
+        "originContent": "2.  **Analyze it with `pproftui`:**",
+        "translatedContent": "2.  **使用 `pproftui` 进行分析：**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "    ```sh\n    pproftui cpu.prof\n    ```",
+    "ContentSha": "lNKUhNUq7hOGVdn7VOX0nzxg1BhhFpOcfGPFqydcuFg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```sh\n    pproftui cpu.prof\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UOaZnOq6QlDZ6DbWUsc37bQsB3r6/eU2knORMnpMmBo=",
+        "originContent": "    ```sh",
+        "translatedContent": "    ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "6a0MRAP9rbiUMTAbE8Ux/zk1ryk2R26CEL3hy0dQjrw=",
+        "originContent": "    pproftui cpu.prof",
+        "translatedContent": "    pproftui cpu.prof"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "    *   Press `c` to toggle between the source code view and the callers/callees graph.\n    *   Press `F1` at any time if you're unsure what the profile type means.\n\n#### Recipe 2: Finding a Performance Regression (The Diff Workflow)\nYou suspect a recent commit made things slower. `pproftui`'s diffing is its superpower.\n\n1.  **Get a profile from your `main` branch:**",
+    "ContentSha": "BQqgeVzehpZ7GpwYGpszm3R54ZM7r8cg1MyiANdiuOA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    *   按 `c` 在源代码视图和调用者/被调用者图之间切换。\n    *   如果不确定分析类型的含义，随时按 `F1`。\n\n#### 方案 2：查找性能回归（差异工作流）\n你怀疑最近的提交使性能变慢了。`pproftui` 的差异比较是它的超级能力。\n\n1.  **从你的 `main` 分支获取分析数据：**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cDZShVvHjivxL1FDCpjZCtqWk9mNMcdqUKzrbA1KatI=",
+        "originContent": "    *   Press `c` to toggle between the source code view and the callers/callees graph.",
+        "translatedContent": "    *   按 `c` 在源代码视图和调用者/被调用者图之间切换。"
+      },
+      {
+        "row": 2,
+        "rowsha": "vsPln8rUUn9NbWxCCDQ09QF+rCTH5FQtrEQVia6nZLE=",
+        "originContent": "    *   Press `F1` at any time if you're unsure what the profile type means.",
+        "translatedContent": "    *   如果不确定分析类型的含义，随时按 `F1`。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "3a9kr4AhxdxEArwnM/g8HyAU3OVt7SKd2WRLPqQUqSM=",
+        "originContent": "#### Recipe 2: Finding a Performance Regression (The Diff Workflow)",
+        "translatedContent": "#### 方案 2：查找性能回归（差异工作流）"
+      },
+      {
+        "row": 5,
+        "rowsha": "YLcTYz72UGYXwU+N63FiQKpcP3FGiu9ZADgY0ah4tTU=",
+        "originContent": "You suspect a recent commit made things slower. `pproftui`'s diffing is its superpower.",
+        "translatedContent": "你怀疑最近的提交使性能变慢了。`pproftui` 的差异比较是它的超级能力。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "LxQiZJRI5iUkWNRSSKMZgUy+be1DXBwauu++Y5BngJg=",
+        "originContent": "1.  **Get a profile from your `main` branch:**",
+        "translatedContent": "1.  **从你的 `main` 分支获取分析数据：**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "    ```sh\n    git checkout main\n    go test -bench=. -cpuprofile=main.prof\n    ```",
+    "ContentSha": "etw70gdSMSBrucsxvmvIM8ZNyyaUG4Msvu74zk9WlKw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```sh\n    git checkout main\n    go test -bench=. -cpuprofile=main.prof\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UOaZnOq6QlDZ6DbWUsc37bQsB3r6/eU2knORMnpMmBo=",
+        "originContent": "    ```sh",
+        "translatedContent": "    ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "sv1ge0Ngn5Ofy/pvernFgfyNg0yqQxK6go4tXwmy198=",
+        "originContent": "    git checkout main",
+        "translatedContent": "    git checkout main"
+      },
+      {
+        "row": 3,
+        "rowsha": "hE10ksp/dpqnme6b9sOYZj3HK6QuaMNbAmKSXNRm0U4=",
+        "originContent": "    go test -bench=. -cpuprofile=main.prof",
+        "translatedContent": "    go test -bench=. -cpuprofile=main.prof"
+      },
+      {
+        "row": 4,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n2.  **Get a profile from your feature branch:**",
+    "ContentSha": "SxgIaWJIrpFVjUXdyzeSgYqfKI62AL2NDfYrKE51bG4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2.  **从您的功能分支获取配置文件：**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "TWfTD31ca1MUp26HpAqBioiNrSLpqnc+q665zyS8lMA=",
+        "originContent": "2.  **Get a profile from your feature branch:**",
+        "translatedContent": "2.  **从您的功能分支获取配置文件：**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "    ```sh\n    git checkout your-feature-branch\n    go test -bench=. -cpuprofile=feature.prof\n    ```",
+    "ContentSha": "eSSGHSt0w5Cs9r6WGriufnoe62hfWAM/56FUFCoHB9c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```sh\n    git checkout your-feature-branch\n    go test -bench=. -cpuprofile=feature.prof\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UOaZnOq6QlDZ6DbWUsc37bQsB3r6/eU2knORMnpMmBo=",
+        "originContent": "    ```sh",
+        "translatedContent": "    ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "EJgBYTB5Ol+ucn0bci0uR5Tkn6krXMHHwCwOrtWKWtU=",
+        "originContent": "    git checkout your-feature-branch",
+        "translatedContent": "    git checkout your-feature-branch"
+      },
+      {
+        "row": 3,
+        "rowsha": "k6xN6Os/k2y4U1AbV83hInStHtK57HuprP7bsggagRg=",
+        "originContent": "    go test -bench=. -cpuprofile=feature.prof",
+        "translatedContent": "    go test -bench=. -cpuprofile=feature.prof"
+      },
+      {
+        "row": 4,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n3.  **Diff them:**",
+    "ContentSha": "Yb3X8bRDnJkdqFzEfIPqIAIB6BL73HUR94Fi/WJRNTs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n3.  **比较它们的差异：**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "XWRcUP8fCQv+8SDV0Lferd3BBki7NhEIhoq1Qu2EYnM=",
+        "originContent": "3.  **Diff them:**",
+        "translatedContent": "3.  **比较它们的差异：**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "    ```sh\n    pproftui main.prof feature.prof\n    ```",
+    "ContentSha": "UpoyKkmk9/xx9Qz3oJoMFFItcVkzgG0X9fAF4Lh4eBM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```sh\n    pproftui main.prof feature.prof\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UOaZnOq6QlDZ6DbWUsc37bQsB3r6/eU2knORMnpMmBo=",
+        "originContent": "    ```sh",
+        "translatedContent": "    ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "tUfTT2jnBBFje7xT4fcGUdkt7KwAMk75ZIvH6KOKGMw=",
+        "originContent": "    pproftui main.prof feature.prof",
+        "translatedContent": "    pproftui main.prof feature.prof"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "    `pproftui` will now show you the *delta*. Green (`+`) means more resources were used in `feature.prof`, red (`-`) means less. Use this to navigate the graph and find the exact function that introduced the new overhead.\n\n#### Recipe 3: Profiling a Live Service\nYou want to see how your application behaves under load in a staging environment.\n\n1.  **Ensure your app exposes pprof endpoints.** (e.g., by importing `net/http/pprof`)\n2.  **Run `pproftui` in live mode:**",
+    "ContentSha": "kMSaHNDdyvbn1Lc9Y3PeyZMQ3rU3Sc4YWdTpAiLawR4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    `pproftui` 现在将显示 *增量*。绿色（`+`）表示在 `feature.prof` 中使用了更多资源，红色（`-`）表示使用较少。使用此功能浏览图表，找到引入新开销的确切函数。\n\n#### 配方3：分析实时服务性能\n您希望查看您的应用程序在预发布环境负载下的表现。\n\n1.  **确保您的应用程序暴露了 pprof 端点。**（例如，通过导入 `net/http/pprof`）\n2.  **以实时模式运行 `pproftui`：**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bNIN+CoqkqN5rw5ePSJlN+J87GcsqhyJXGuK6TZgNJE=",
+        "originContent": "    `pproftui` will now show you the *delta*. Green (`+`) means more resources were used in `feature.prof`, red (`-`) means less. Use this to navigate the graph and find the exact function that introduced the new overhead.",
+        "translatedContent": "    `pproftui` 现在将显示 *增量*。绿色（`+`）表示在 `feature.prof` 中使用了更多资源，红色（`-`）表示使用较少。使用此功能浏览图表，找到引入新开销的确切函数。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "kfWwPzNcm10k+PnTgoF86uiEc/BE/Uc57qPtFAnngzY=",
+        "originContent": "#### Recipe 3: Profiling a Live Service",
+        "translatedContent": "#### 配方3：分析实时服务性能"
+      },
+      {
+        "row": 4,
+        "rowsha": "zYXH02344FO1oGGE4nl8mFvq0PUnbgXNw3SvPaUcoVY=",
+        "originContent": "You want to see how your application behaves under load in a staging environment.",
+        "translatedContent": "您希望查看您的应用程序在预发布环境负载下的表现。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "0I89sPa/RFzqDbO2Z3q765LHXm0zUhC/Q8XrbYJa+Qo=",
+        "originContent": "1.  **Ensure your app exposes pprof endpoints.** (e.g., by importing `net/http/pprof`)",
+        "translatedContent": "1.  **确保您的应用程序暴露了 pprof 端点。**（例如，通过导入 `net/http/pprof`）"
+      },
+      {
+        "row": 7,
+        "rowsha": "K5dVWZJxI5wFcOuAHNMWOiLnxstbS7/1fMf7rt3TXCo=",
+        "originContent": "2.  **Run `pproftui` in live mode:**",
+        "translatedContent": "2.  **以实时模式运行 `pproftui`：**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "    ```sh\n    # This will fetch a 5-second CPU profile every 10 seconds.\n    pproftui -live=\"http://localhost:6060/debug/pprof/profile?seconds=5\" -refresh=10s\n    ```",
+    "ContentSha": "Mq4GcX6YRrXP6f5yHBPnwjfDKV6ibkOqxmGXV7a2LBM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```sh\n    # This will fetch a 5-second CPU profile every 10 seconds.\n    pproftui -live=\"http://localhost:6060/debug/pprof/profile?seconds=5\" -refresh=10s\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UOaZnOq6QlDZ6DbWUsc37bQsB3r6/eU2knORMnpMmBo=",
+        "originContent": "    ```sh",
+        "translatedContent": "    ```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "eJphQxsFPwyT6aGtytPqbc9/KSReV0U/l+Cv93+XbgQ=",
+        "originContent": "    # This will fetch a 5-second CPU profile every 10 seconds.",
+        "translatedContent": "    # This will fetch a 5-second CPU profile every 10 seconds."
+      },
+      {
+        "row": 3,
+        "rowsha": "m+UdU3YWUSPjiUGtyLolaB59C4lFoI06QgpqHj0F3DM=",
+        "originContent": "    pproftui -live=\"http://localhost:6060/debug/pprof/profile?seconds=5\" -refresh=10s",
+        "translatedContent": "    pproftui -live=\"http://localhost:6060/debug/pprof/profile?seconds=5\" -refresh=10s"
+      },
+      {
+        "row": 4,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "    *   Press `space` to pause and resume the live updates.\n\n#### Recipe 4: Cutting Through the Noise\nProfiles are full of runtime and library code. Here's how to focus on what matters: **your code.**\n",
+    "ContentSha": "kewWDmoPaS4ba00BqGVu26laEjQ/vLGjpIWh2jPwhdI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    *   按 `space` 键暂停和恢复实时更新。\n\n#### 方案 4：切入噪音核心\n分析报告充满了运行时和库代码。以下是如何专注于重要内容：**你的代码。**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WDiLBpouVjXIEZ1dfgXZf7AndDLDkobVOjy/tt+dOSE=",
+        "originContent": "    *   Press `space` to pause and resume the live updates.",
+        "translatedContent": "    *   按 `space` 键暂停和恢复实时更新。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "crwuLzVRx8fxwuppTUh0htPObRA7yhntgfM/5z9EzqY=",
+        "originContent": "#### Recipe 4: Cutting Through the Noise",
+        "translatedContent": "#### 方案 4：切入噪音核心"
+      },
+      {
+        "row": 4,
+        "rowsha": "5r4ExgBy0DzBfn2aIHRJEb/DWXt50xeG0F0q79gWTKc=",
+        "originContent": "Profiles are full of runtime and library code. Here's how to focus on what matters: **your code.**",
+        "translatedContent": "分析报告充满了运行时和库代码。以下是如何专注于重要内容：**你的代码。**"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```sh\n# Provide your project's go module path\npproftui --module-path=\"github.com/your/project\" cpu.prof\n```",
+    "ContentSha": "mwIj30TxZovTh5ljWi4vFR6831dInKztOrN/cMSpzSc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n# Provide your project's go module path\npproftui --module-path=\"github.com/your/project\" cpu.prof\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "ODSE8FvkX9c77epVBWMBaZIjTANiDhbaN0mwi20Hjzk=",
+        "originContent": "# Provide your project's go module path",
+        "translatedContent": "# Provide your project's go module path"
+      },
+      {
+        "row": 3,
+        "rowsha": "uG4CsMj4DTozW6DSN1IXNbVw+a2fZRw7uztYiQye4f4=",
+        "originContent": "pproftui --module-path=\"github.com/your/project\" cpu.prof",
+        "translatedContent": "pproftui --module-path=\"github.com/your/project\" cpu.prof"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "*   Your project's functions will now be marked with a `★`.\n*   Press `p` to toggle \"Project Only\" mode, instantly hiding everything else.\n\n---\n\n## Keybindings\n\n| Key         | Action                                                |\n| :---------- | :---------------------------------------------------- |\n| `↑`/`↓`     | Navigate the functions list                           |\n| `t`         | Toggle profile type (`inuse_space`, `alloc_objects`)  |\n| `c`         | Toggle between **c**ode and **c**all graph view       |\n| `p`         | Toggle **p**roject-only code filter                   |\n| `s`         | Cycle **s**ort order (`Self`, `Total`, `Name`)        |\n| `f`         | Toggle **f**lame graph view                           |\n| `Enter`     | *In flame graph:* Zoom in on selected function        |\n| `Esc`       | *In flame graph:* Zoom out                            |\n| `F1`        | Show detailed **help** and explanations               |\n| `q` / `ctrl+c`| **Q**uit                                            |\n\n\n---\n\n## License\n\nMIT",
+    "ContentSha": "NRxT94/7WiEnXAH8KuZq11iXIeH/5mqFdLYEuWKEdZI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "*   您项目的函数现在将标记为 `★`。\n*   按 `p` 切换“仅项目”模式，立即隐藏其他所有内容。\n\n---\n\n## 快捷键\n\n| 键           | 操作                                                  |\n| :---------- | :---------------------------------------------------- |\n| `↑`/`↓`     | 在函数列表中导航                                      |\n| `t`         | 切换配置文件类型（`inuse_space`，`alloc_objects`）    |\n| `c`         | 在**代码**视图和**调用**图视图之间切换                |\n| `p`         | 切换**仅项目**代码过滤器                              |\n| `s`         | 循环切换**排序**顺序（`Self`，`Total`，`Name`）       |\n| `f`         | 切换**火焰图**视图                                    |\n| `Enter`     | *在火焰图中：* 放大选中的函数                         |\n| `Esc`       | *在火焰图中：* 缩小视图                              |\n| `F1`        | 显示详细的**帮助**和说明                              |\n| `q` / `ctrl+c`| **退出**                                            |\n\n\n---\n\n## 许可证\n\nMIT",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "AAqSusGH2jhJmgPfR038vCcMkcXpTrMrIjh+OUhj2Dk=",
+        "originContent": "*   Your project's functions will now be marked with a `★`.",
+        "translatedContent": "*   您项目的函数现在将标记为 `★`。"
+      },
+      {
+        "row": 2,
+        "rowsha": "7Y3/SmZOBG5r4fJc+96UAxV8VfljiG3Ivv0PzXvgdbc=",
+        "originContent": "*   Press `p` to toggle \"Project Only\" mode, instantly hiding everything else.",
+        "translatedContent": "*   按 `p` 切换“仅项目”模式，立即隐藏其他所有内容。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "eh0wXwFeE0ZTEIJbv84rG0KbEtFuukb9L60KYgpPFpU=",
+        "originContent": "## Keybindings",
+        "translatedContent": "## 快捷键"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Vvwe47k76CgioBkoaj9JngZXCXGW65ZEgbp/1yhTHAE=",
+        "originContent": "| Key         | Action                                                |",
+        "translatedContent": "| 键           | 操作                                                  |"
+      },
+      {
+        "row": 9,
+        "rowsha": "GVZd9EMfteXtTtq3eEnLk3LM0YlazUj8DDBg7rdNZ8g=",
+        "originContent": "| :---------- | :---------------------------------------------------- |",
+        "translatedContent": "| :---------- | :---------------------------------------------------- |"
+      },
+      {
+        "row": 10,
+        "rowsha": "LCqW9NHYM0B6wBl9jEannqEGmaojTlKPB/Lo9rhdYr0=",
+        "originContent": "| `↑`/`↓`     | Navigate the functions list                           |",
+        "translatedContent": "| `↑`/`↓`     | 在函数列表中导航                                      |"
+      },
+      {
+        "row": 11,
+        "rowsha": "mG6XN/2PwK+SWPUIz+4iNRRBoikcQG4+NeUytBX3BLA=",
+        "originContent": "| `t`         | Toggle profile type (`inuse_space`, `alloc_objects`)  |",
+        "translatedContent": "| `t`         | 切换配置文件类型（`inuse_space`，`alloc_objects`）    |"
+      },
+      {
+        "row": 12,
+        "rowsha": "0sl0thRDR3+Q3HrLBZHmp00uvLfjV/M2x8vBWoO20uc=",
+        "originContent": "| `c`         | Toggle between **c**ode and **c**all graph view       |",
+        "translatedContent": "| `c`         | 在**代码**视图和**调用**图视图之间切换                |"
+      },
+      {
+        "row": 13,
+        "rowsha": "Pwwz1S1sjq1FLO42s/cjbyvvITJ7Br9kucBdUdN48Jc=",
+        "originContent": "| `p`         | Toggle **p**roject-only code filter                   |",
+        "translatedContent": "| `p`         | 切换**仅项目**代码过滤器                              |"
+      },
+      {
+        "row": 14,
+        "rowsha": "7F5WycriZMMROpPcnLHSnxpW9LgHZUatxmV3lqz/+GI=",
+        "originContent": "| `s`         | Cycle **s**ort order (`Self`, `Total`, `Name`)        |",
+        "translatedContent": "| `s`         | 循环切换**排序**顺序（`Self`，`Total`，`Name`）       |"
+      },
+      {
+        "row": 15,
+        "rowsha": "lAMQVuGPsenM7PP4DdpnlYg/5fM4hH7CbiscIahVTS8=",
+        "originContent": "| `f`         | Toggle **f**lame graph view                           |",
+        "translatedContent": "| `f`         | 切换**火焰图**视图                                    |"
+      },
+      {
+        "row": 16,
+        "rowsha": "qF+XuQtIToINFoSwUhnHkeiAS9DkKEDDqSC4wMpoxSM=",
+        "originContent": "| `Enter`     | *In flame graph:* Zoom in on selected function        |",
+        "translatedContent": "| `Enter`     | *在火焰图中：* 放大选中的函数                         |"
+      },
+      {
+        "row": 17,
+        "rowsha": "ZFgXUXiCHtVkIwFYkFWZs6o2ZKbLE5LbESOYwfH7niE=",
+        "originContent": "| `Esc`       | *In flame graph:* Zoom out                            |",
+        "translatedContent": "| `Esc`       | *在火焰图中：* 缩小视图                              |"
+      },
+      {
+        "row": 18,
+        "rowsha": "vMiugGMQp/P9daojflphKvmtozDkE0aohaymlpovXIc=",
+        "originContent": "| `F1`        | Show detailed **help** and explanations               |",
+        "translatedContent": "| `F1`        | 显示详细的**帮助**和说明                              |"
+      },
+      {
+        "row": 19,
+        "rowsha": "T1VvIygl2AZgHHVyWBaJ/5mxmL5gS59hmI0d4ZB9+ng=",
+        "originContent": "| `q` / `ctrl+c`| **Q**uit                                            |",
+        "translatedContent": "| `q` / `ctrl+c`| **退出**                                            |"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+        "originContent": "MIT",
+        "translatedContent": "MIT"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

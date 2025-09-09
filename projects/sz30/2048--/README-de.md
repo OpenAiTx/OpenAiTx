@@ -30,35 +30,35 @@
 
 # 🎮 2048++
 
-Eine erweiterte Version des klassischen 2048-Spiels, jetzt mit noch mehr spaßigen Features! Das ist ein kleines Projekt, das ich in meiner Freizeit entwickelt habe – ich hoffe, es bringt dir Freude!
+Eine verbesserte Version des klassischen 2048-Spiels, jetzt mit noch mehr spaßigen Features! Das ist ein kleines Projekt, das ich in meiner Freizeit zusammengestellt habe—ich hoffe, es macht euch Freude!
 
 ## 🎯 Spiel-Einführung
 
-2048 ist ein einfaches, aber süchtig machendes Zahlenschiebe-Spiel. Auf einem 4x4-Raster kannst du nach oben, unten, links oder rechts wischen, um Felder mit derselben Zahl zu verschmelzen. Das Ziel? Erreiche 2048 (aber hey, du kannst für noch höhere Punktzahlen weiterspielen)!
+2048 ist ein einfaches, aber süchtig machendes Zahlen-Fusionsspiel. Auf einem 4x4-Raster schiebst du nach oben, unten, links oder rechts, um Felder mit derselben Zahl zu verschmelzen. Das Ziel? Erreiche 2048 (aber hey, du kannst für noch höhere Punktzahlen weitermachen)!
 
-**So spielt man:**
+**So spielst du:**
 - Benutze die Pfeiltasten oder WASD, um die Felder zu bewegen.
-- Wenn zwei Felder mit derselben Zahl aufeinandertreffen, verschmelzen sie zu einem.
+- Wenn zwei Kacheln mit derselben Zahl zusammenstoßen, verschmelzen sie zu einer.
 - Nach jedem Zug erscheint zufällig eine neue 2 oder 4 auf einem freien Feld.
-- Das Spiel endet, wenn keine Züge mehr möglich sind.
+- Das Spiel endet, wenn keine weiteren Züge möglich sind.
 
-## ✨ Besondere Features
+## ✨ Besondere Funktionen
 
 ### 1. Rückgängig-Funktion
 - Einen falschen Zug gemacht? Kein Problem!
-- Drücke einfach den „Rückgängig“-Button, um einen Schritt zurückzugehen.
-- Du kannst so oft rückgängig machen, wie du möchtest, bis zum Spielanfang.
-- Lass dir nie wieder durch einen Fehlgriff das Spiel verderben!
+- Einfach auf die Schaltfläche „Rückgängig“ klicken, um einen Schritt zurückzugehen.
+- Sie können beliebig oft rückgängig machen, bis ganz zum Anfang.
+- Nie wieder ruiniert ein falscher Fingertipp Ihr Spiel!
 
 ### 2. Geheimer Cheat-Modus
-- Gib die magische Sequenz ein: ←←→→ →→←← (links, links, rechts, rechts,  rechts, rechts, links, links)
-- Alle Felder verwandeln sich magisch in 128!
-- Das ist ein Easter Egg, nur zum Spaß.
-- Profi-Tipp: Schummeln macht Spaß, aber übertreib es nicht! 😉
+- Geben Sie die magische Sequenz ein: ←←→→ →→←← (links, links, rechts, rechts,  rechts, rechts, links, links)
+- Alle Kacheln verwandeln sich magisch in 128!
+- Es ist ein Easter Egg, nur zum Spaß.
+- Profi-Tipp: Schummeln macht Spaß, aber übertreiben Sie es nicht! 😉
 
 ## 🎯 Demo
 
-🎯 Hier spielen: [2048.765431.xyz](https://2048.765431.xyz/)
+🎯 : [Hier spielen](http://34.150.49.127:5000/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -99,29 +99,31 @@ python 2048.py
 
 ## 🎨 Anpassung
 
-Möchtest du es anpassen? Verändere `styles.css` für ein neues Aussehen oder tauche in `script.js` ein, um das Gameplay zu ändern. Der gesamte Code ist gut kommentiert und leicht zu modifizieren!
+Möchtest du es anpassen? Ändere `styles.css` für einen neuen Look oder tauche in `script.js` ein, um das Gameplay zu verändern. Der gesamte Code ist gut kommentiert und leicht zu modifizieren!
 
 ## 📝 Lizenz
 
 GPL-2.0 Lizenz
 
-## 🤝 Beitrag
+## 🤝 Mitwirken
 
-Wird weiterhin aktualisiert! Issues und Pull Requests sind sehr willkommen – lass uns dieses Spiel gemeinsam noch besser machen!
+Wird noch aktualisiert! Issues und Pull Requests sind herzlich willkommen – lasst uns dieses Spiel gemeinsam noch großartiger machen!
 
 
 ## 🙏 Danksagungen
 
 Vielen Dank an die folgenden Sponsoren für die Unterstützung dieses Projekts:
-- [IDC.REST](https://idc.rest/), stellt den Server bereit
-- [Serv00](https://www.serv00.com/), stellt den Server bereit
+- [Keiner](https://#/) stellt den Server bereit
+- [Serv00](https://www.serv00.com/) stellt den Server bereit
 
 ---
-_Zuletzt aktualisiert: Juni 2025_
+_Zuletzt aktualisiert: Aug. 2025_
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

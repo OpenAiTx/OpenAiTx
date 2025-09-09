@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Taal</summary>
@@ -22,32 +23,32 @@
         | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=fa">Perzisch</a>
         | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=tr">Turks</a>
         | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=vi">Vietnamees</a>
-        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=id">Indonesisch</a>
       </div>
     </div>
   </details>
 </div>
 
-# Magische AI-tekeningen
+# Magische AI-schilderijen
 
 <div align="right">中文 | <a href="README-EN.md">Engels</a></div>
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Licentie](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
-Een op Next.js gebaseerde AI-tekenapplicatie met de volgende hoofdkenmerken:
-- 🎨 Ondersteunt meerdere AI-modellen (Sora, DALL-E, GPT etc.) en het toevoegen van aangepaste modellen
-- 🖼️ Biedt tekst-naar-beeld en beeld-naar-beeld functionaliteit, ondersteunt multi-image referentie en gebiedsbewerking
-- 🔐 Alle data en API-sleutels lokaal opgeslagen voor privacybescherming
-- 💻 Ondersteunt webversie en desktop packaging, cross-platform gebruik
+Een op Next.js gebaseerde AI-beeldapplicatie met de volgende hoofdfunctionaliteiten:
+- 🎨 Ondersteunt meerdere AI-modellen (Sora, DALL-E, GPT, GEMINI, enz.) en het toevoegen van aangepaste modellen
+- 🖼️ Biedt tekst-naar-beeld en beeld-naar-beeld functionaliteit, ondersteunt meerdere referentiebeelden en gebiedsbewerking
+- 🔐 Alle gegevens en API-sleutels worden lokaal opgeslagen, waarborgt privacy en veiligheid
+- 💻 Ondersteunt webversie en desktopapplicatie packaging, cross-platform gebruik
 
-## Online Ervaring
+## Online ervaring
 
-Bezoekadres: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)
+Toegangsadres: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)
 
-### App-screenshots
+### App screenshots
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="App screenshot 4" width="800" style="margin-bottom: 20px"/>
@@ -57,35 +58,39 @@ Bezoekadres: [https://image-front-eight.vercel.app/](https://image-front-eight.v
   <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="App screenshot 3" width="800" style="margin-bottom: 20px"/>
 </div>
 
-## Functies en kenmerken
+## Functiekenmerken
 
 - 🎨 Ondersteunt meerdere AI-modellen
   - GPT Sora_Image model
   - GPT 4o_Image model
   - GPT Image 1 model
   - DALL-E 3 model
-  - 🆕 Aangepast model (ondersteunt toevoegen van privé-modellen)
+  - GEMINI model
+  - 🆕 Aangepaste modellen (ondersteunt toevoegen van private modellen)
+- 🔄 Modellenswitch
+  - Ondersteunt snel schakelen tussen verschillende modellen
+  - Elk model heeft onafhankelijke configuratie-opties
 - ✍️ Tekst-naar-beeld functie
   - Ondersteunt aangepaste prompts
-  - Keuze uit afbeeldingsverhoudingen
-  - Ondersteunt meerdere afbeeldingsgroottes
+  - Mogelijkheid tot kiezen van beeldverhouding
+  - Ondersteunt verschillende beeldformaten
 - 🖼️ Beeld-naar-beeld functie
   - Ondersteunt bewerken van afbeeldingen
   - Ondersteunt gebiedsmaskerbewerking
-  - Ondersteunt aanpassen van beeldkwaliteit
-  - Ondersteunt multi-image referentie (meerdere afbeeldingen tegelijk uploaden)
+  - Ondersteunt aanpassing van beeldkwaliteit
+  - Ondersteunt meerdere afbeeldingsreferenties (meerdere afbeeldingen tegelijk uploaden)
 - 🔒 Gegevensbeveiliging
   - Alle gegenereerde afbeeldingen en geschiedenis worden alleen lokaal in de browser opgeslagen
-  - Ondersteunt aangepaste API-proxyadressen
+  - Ondersteunt aangepaste API-proxy-adres
   - Ondersteunt API Key-configuratie
 - 📱 UI-ontwerp
   - Moderne gebruikersinterface
   - Soepele interactieve ervaring
   - Weergave in Markdown-formaat
-  - Code-highlighting ondersteuning
+  - Ondersteuning voor code-highlighting
 - 🖥️ Cross-platform ondersteuning
-  - Kan verpakt worden als desktopapplicatie (Windows, macOS, Linux)
-  - Offline gebruik mogelijk (API-configuratie vereist)
+  - Ondersteunt verpakken als desktopapplicatie (Windows, macOS, Linux)
+  - Ondersteunt offline gebruik (API-interface configuratie vereist)
 
 ## Technische stack
 
@@ -94,12 +99,11 @@ Bezoekadres: [https://image-front-eight.vercel.app/](https://image-front-eight.v
 - Tailwind CSS
 - shadcn/ui
 - React
-- Tauri (desktop packaging)
+- Tauri (desktopapplicatieverpakking)
 
 ## Lokale ontwikkeling
 
-1. Clone het project
-
+1. Project klonen
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
@@ -185,65 +189,65 @@ Na het voltooien van de build kun je het installatiepakket voor het betreffende 
      ```
      http://localhost:3000?url=https%3A%2F%2Fapi.example.com&apikey=sk-xxx
      ```
-Let op: Speciale tekens in de URL moeten URL-gecodeerd worden
+     Let op: speciale tekens in de URL moeten worden gecodeerd volgens de URL-codering
 
-2. Kies de generatiemodus
-   - Tekst-naar-beeld: genereer een afbeelding via een tekstbeschrijving
-   - Beeld-naar-beeld: upload een afbeelding om te bewerken
+2. Kies generatie modus
+   - Tekst-naar-beeld: genereer een afbeelding op basis van een tekstbeschrijving
+   - Beeld-naar-beeld: upload een afbeelding om deze te bewerken
 
 3. Stel generatieparameters in
    - Kies een AI-model (ingebouwd model of aangepast model)
    - Stel de beeldverhouding in
    - Pas de beeldkwaliteit aan (beeld-naar-beeld modus)
 
-4. Beheer van aangepaste modellen
-   - Klik op het instellingenpictogram naast het modelkeuzevak
-   - Nieuw model toevoegen: voer modelnaam, modelwaarde in en kies het modeltype
+4. Aangepast modellenbeheer
+   - Klik op het instellingenpictogram naast het modelkeuzeveld
+   - Nieuw model toevoegen: voer modelnaam, modelwaarde in en kies modeltype
    - Model bewerken: klik op de bewerkknop van een bestaand model
    - Model verwijderen: klik op de verwijderknop van een bestaand model
-   - Model selecteren: klik op de plusknop van het model om het direct te gebruiken
+   - Model selecteren: klik op de plusknop van een model om het direct te gebruiken
 
-5. Uitleg over modeltypes
-   - DALL-E formaat: gebruikt de beeldgeneratie-interface (/v1/images/generations)
-   - OpenAI formaat: gebruikt de chat-interface (/v1/chat/completions)
+5. Uitleg modeltypes
+   - DALL-E formaat: gebruikt het interface voor beeldgeneratie (/v1/images/generations)
+   - OpenAI formaat: gebruikt het chatinterface (/v1/chat/completions)
 
-6. Genereer een afbeelding
-   - Voer prompt in
-   - Klik op de knop "Genereer afbeelding"
-   - Wacht tot het genereren voltooid is
+6. Beeld genereren
+   - Voer een prompt in
+   - Klik op de knop "Beeld genereren"
+   - Wacht tot het genereren is voltooid
 
-7. Afbeeldingenbeheer
+7. Beheer van afbeeldingen
    - Bekijk geschiedenis
-   - Download gegenereerde afbeeldingen
+   - Download de gegenereerde afbeeldingen
    - Bewerk bestaande afbeeldingen
 
-## Opmerkingen
+## Let op
 
-- Alle gegenereerde afbeeldingen en geschiedenis worden alleen lokaal in de browser opgeslagen
-- Gebruik van privémodus of wisselen van apparaat kan gegevensverlies veroorzaken
+- Alle gegenereerde afbeeldingen en de geschiedenis worden alleen lokaal in uw browser opgeslagen
+- Gebruik van privémodus of wisselen van apparaat kan leiden tot verlies van gegevens
 - Download en back-up belangrijke afbeeldingen tijdig
-- API-configuratie wordt veilig in uw browser opgeslagen en niet naar de server geüpload
-- HTTPS-sites die HTTP-bronnen laden worden geblokkeerd door de browser, de app converteert HTTP-interfaces automatisch naar HTTPS
+- API-configuratie wordt veilig in uw browser opgeslagen en niet geüpload naar de server
+- Het laden van HTTP-bronnen op HTTPS-websites wordt door de browser geblokkeerd; de applicatie converteert HTTP-interfaces automatisch naar HTTPS
 
 ## Richtlijnen voor bijdragen
 
-Je bent welkom om Issues en Pull Requests in te dienen om het project te verbeteren.
+Welkom om Issues en Pull Requests in te dienen om het project te verbeteren.
 
 ## Licentie
 
-Dit project valt onder de [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) licentie.
+Dit project gebruikt de [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) licentie.
 
 Volgens de licentie mag u:
-- ✅ Commercieel gebruik: de software commercieel gebruiken
-- ✅ Aanpassen: de broncode van de software aanpassen
-- ✅ Verspreiden: de software verspreiden
-- ✅ Privégebruik: de software privé gebruiken
-- ✅ Octrooiverlening: deze licentie biedt ook octrooiverlening
+- ✅ Commercieel gebruik: U mag de software commercieel gebruiken
+- ✅ Wijzigen: U mag de broncode van de software wijzigen
+- ✅ Verspreiden: U mag de software verspreiden
+- ✅ Privégebruik: U mag de software privé gebruiken
+- ✅ Octrooiverlening: Deze licentie biedt ook octrooiverlening
 
-Maar u moet zich houden aan de volgende voorwaarden:
-- 📝 Licentie- en copyrightvermelding: u moet de originele licentie en copyrightvermelding toevoegen
-- 📝 Wijzigingen aangeven: u moet belangrijke wijzigingen aan de originele code vermelden
-- 📝 Merkenrechtverklaring: u mag geen handelsmerken van bijdragers gebruiken
+Maar u moet aan de volgende voorwaarden voldoen:
+- 📝 Licentie- en copyrightverklaring: U moet de originele licentie en copyrightverklaring bijvoegen
+- 📝 Wijzigingsverklaring: U moet belangrijke wijzigingen aan de originele code verklaren
+- 📝 Merkenverklaring: U mag de handelsmerken van de bijdragers niet gebruiken
 
 ---
 
@@ -252,13 +256,13 @@ Maar u moet zich houden aan de volgende voorwaarden:
 Als dit project je heeft geholpen, nodig ik je uit om mij op een kopje koffie te trakteren ☕️
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="WeChat betaallink" width="300" />
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="WeChat betaalcode" width="300" />
   <p>Trakteer mij op een kopje koffie</p>
 </div>
 
 ## Contactinformatie
 
-Als u vragen of suggesties heeft, kunt u contact met mij opnemen via WeChat:
+Als u vragen of suggesties heeft, neem gerust contact met mij op via WeChat:
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg" alt="WeChat contactinformatie" width="300" />
@@ -269,6 +273,6 @@ Als u vragen of suggesties heeft, kunt u contact met mij opnemen via WeChat:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

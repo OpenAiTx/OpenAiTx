@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Language</summary>
@@ -37,11 +38,11 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
-An AI drawing application developed based on Next.js, with the following main features:
-- 🎨 Supports multiple AI models (Sora, DALL-E, GPT, etc.) and custom model additions
-- 🖼️ Provides text-to-image and image-to-image functions, supporting multi-image reference and area editing
+An AI drawing application developed based on Next.js with the following main features:
+- 🎨 Supports multiple AI models (Sora, DALL-E, GPT, GEMINI, etc.) and custom model addition
+- 🖼️ Provides text-to-image and image-to-image functions, supports multi-image reference and area editing
 - 🔐 All data and API keys are stored locally to ensure privacy and security
-- 💻 Supports web and desktop application packaging, cross-platform use
+- 💻 Supports web and desktop application packaging for cross-platform use
 
 ## Online Experience
 
@@ -57,25 +58,29 @@ Access address: [https://image-front-eight.vercel.app/](https://image-front-eigh
   <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="App Screenshot 3" width="800" style="margin-bottom: 20px"/>
 </div>
 
-## Features
+## Feature Highlights
 
 - 🎨 Supports multiple AI models
   - GPT Sora_Image model
   - GPT 4o_Image model
   - GPT Image 1 model
   - DALL-E 3 model
-  - 🆕 Custom models (support for adding private models)
+  - GEMINI model
+  - 🆕 Custom models (supports adding private models)
+- 🔄 Multi-model switching
+  - Supports quick switching between different models
+  - Each model has independent configuration options
 - ✍️ Text-to-image function
   - Supports custom prompts
-  - Option to select image aspect ratio
-  - Supports multiple image sizes
+  - Allows selection of image aspect ratios
+  - Supports various image sizes
 - 🖼️ Image-to-image function
   - Supports image editing
   - Supports area mask editing
   - Supports image quality adjustment
-  - Supports multi-image reference (upload multiple images at once)
+  - Supports multiple image references (upload multiple images at the same time)
 - 🔒 Data Security
-  - All generated images and history are only saved locally in the browser
+  - All generated images and history are stored only in the local browser
   - Supports custom API proxy address
   - Supports API Key configuration
 - 📱 UI Design
@@ -84,22 +89,21 @@ Access address: [https://image-front-eight.vercel.app/](https://image-front-eigh
   - Markdown format display
   - Code highlighting support
 - 🖥️ Cross-platform support
-  - Supports packaging as a desktop application (Windows, macOS, Linux)
-  - Supports offline use (API interface configuration required)
+  - Supports packaging as desktop applications (Windows, macOS, Linux)
+  - Supports offline usage (API interface configuration required)
 
-## Technology Stack
+## Tech Stack
 
 - Next.js 14
 - TypeScript
 - Tailwind CSS
 - shadcn/ui
 - React
-- Tauri (for desktop application packaging)
+- Tauri (desktop app packaging)
 
 ## Local Development
 
 1. Clone the project
-
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
@@ -185,90 +189,90 @@ After the build is complete, you can find the installation package for the corre
      ```
      http://localhost:3000?url=https%3A%2F%2Fapi.example.com&apikey=sk-xxx
      ```
-     Note: Special characters in URLs need to be URL encoded
+     Note: Special characters in the URL need to be URL encoded
 
-2. Select Generation Mode
-   - Text-to-Image: Generate images from text descriptions
-   - Image-to-Image: Upload images for editing
+2. Select generation mode
+   - Text-to-image: Generate images via text descriptions
+   - Image-to-image: Upload images for editing
 
-3. Set Generation Parameters
-   - Choose AI model (built-in or custom models)
-   - Set image aspect ratio
-   - Adjust image quality (Image-to-Image mode)
+3. Set generation parameters
+   - Choose AI model (built-in or custom model)
+   - Set image ratio
+   - Adjust image quality (image-to-image mode)
 
-4. Custom Model Management
+4. Custom model management
    - Click the settings icon next to the model selection box
    - Add new model: enter model name, model value, and select model type
-   - Edit model: click the edit button on an existing model
-   - Delete model: click the delete button on an existing model
-   - Select model: click the plus button on a model to immediately select it for use
+   - Edit model: click the edit button of an existing model
+   - Delete model: click the delete button of an existing model
+   - Select model: click the plus button of a model to immediately choose and use it
 
-5. Model Type Description
-   - DALL-E format: uses the image generation endpoint (/v1/images/generations)
-   - OpenAI format: uses the chat completion endpoint (/v1/chat/completions)
+5. Model type description
+   - DALL-E format: uses the image generation API (/v1/images/generations)
+   - OpenAI format: uses the chat API (/v1/chat/completions)
 
-6. Generate Images
+6. Generate images
    - Enter prompt
    - Click the "Generate Image" button
    - Wait for generation to complete
 
-7. Image Management
-   - View history
+7. Image management
+   - View history records
    - Download generated images
    - Edit existing images
 
 ## Notes
 
-- All generated images and history are saved only locally in your browser
-- Using private mode or switching devices will cause data loss
+- All generated images and history records are saved only in the local browser
+- Using privacy mode or changing devices will result in data loss
 - Please download and back up important images in time
-- API configurations are securely stored in your browser and will not be uploaded to servers
-- HTTPS websites block loading HTTP resources; the app will automatically convert HTTP endpoints to HTTPS
+- API configuration will be securely stored in your browser and will not be uploaded to the server
+- HTTPS sites loading HTTP resources will be blocked by browsers, and the application will automatically convert HTTP APIs to HTTPS
 
 ## Contribution Guide
 
-Contributions via Issues and Pull Requests to improve the project are welcome.
+You are welcome to submit Issues and Pull Requests to help improve the project.
 
 ## License
 
-This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+This project uses the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 According to the license, you may:
-- ✅ Commercial use: use the software for commercial purposes
-- ✅ Modification: modify the source code
-- ✅ Distribution: distribute the software
-- ✅ Private use: use the software privately
-- ✅ Patent grant: the license also provides a patent grant
+- ✅ Commercial use: You can use the software for commercial purposes
+- ✅ Modification: You can modify the software source code
+- ✅ Distribution: You can distribute the software
+- ✅ Private use: You can use the software privately
+- ✅ Patent grant: This license also provides a patent grant
 
 But you must comply with the following conditions:
-- 📝 License and copyright notice: you must include the original license and copyright notice
-- 📝 Statement of changes: you must state significant changes made to the original code
-- 📝 Trademark statement: you may not use contributors' trademarks
+- 📝 License and copyright notice: You must include the original license and copyright notice
+- 📝 Notice of changes: You must declare significant changes to the original code
+- 📝 Trademark statement: You may not use the contributor's trademarks
 
 ---
 
 ## Buy Me a Coffee
 
-If this project helps you, feel free to buy me a coffee ☕️
+If this project is helpful to you, feel free to buy me a coffee ☕️
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="WeChat Pay QR Code" width="300" />
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="WeChat payment code" width="300" />
   <p>Buy me a coffee</p>
 </div>
 
-## Contact
+## Contact Information
 
 If you have any questions or suggestions, feel free to contact me via WeChat:
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg" alt="WeChat Contact" width="300" />
-  <p>Scan QR code to add on WeChat</p>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg" alt="WeChat contact info" width="300" />
+  <p>Scan QR code to add WeChat</p>
 </div>
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

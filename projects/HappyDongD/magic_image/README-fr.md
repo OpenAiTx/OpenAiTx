@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Langue</summary>
@@ -28,78 +29,81 @@
   </details>
 </div>
 
-# Peinture Magique par IA
+# Dessin Magique par IA
 
 <div align="right">中文 | <a href="README-EN.md">English</a></div>
 
-[![Licence](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
-Une application de dessin par IA basée sur Next.js, offrant les fonctionnalités principales suivantes :
-- 🎨 Prise en charge de plusieurs modèles IA (Sora, DALL-E, GPT, etc.) et ajout de modèles personnalisés
-- 🖼️ Fonctionnalité texte-vers-image et image-vers-image, supporte la référence multi-images et l’édition de zones
-- 🔐 Toutes les données et clés API sont stockées localement pour garantir la confidentialité
-- 💻 Prise en charge du web et du packaging en application de bureau, utilisation multiplateforme
+Une application de dessin basée sur Next.js avec IA, offrant les fonctionnalités principales suivantes :
+- 🎨 Prise en charge de plusieurs modèles IA (Sora, DALL-E, GPT, GEMINI, etc.) et ajout de modèles personnalisés
+- 🖼️ Fonctionnalités de génération d’images à partir de texte et de transformation d’images, avec prise en charge de références multiples et d’édition par zone
+- 🔐 Stockage local de toutes les données et clés API pour garantir la sécurité et la confidentialité
+- 💻 Compatible avec le Web et le packaging en application de bureau, utilisation multiplateforme
 
-## Démo en ligne
+## Expérience en ligne
 
 Adresse d’accès : [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)
 
 ### Captures d’écran de l’application
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="Capture 4" width="800" style="margin-bottom: 20px"/>
-      <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png" alt="Capture 4" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png" alt="Capture 1" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png" alt="Capture 2" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="Capture 3" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="Capture d’écran 4" width="800" style="margin-bottom: 20px"/>
+      <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png" alt="Capture d’écran 4" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png" alt="Capture d’écran 1" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png" alt="Capture d’écran 2" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="Capture d’écran 3" width="800" style="margin-bottom: 20px"/>
 </div>
 
-## Caractéristiques
+## Caractéristiques et fonctionnalités
 
-- 🎨 Prise en charge de multiples modèles IA
+- 🎨 Prise en charge de plusieurs modèles IA
   - Modèle GPT Sora_Image
   - Modèle GPT 4o_Image
   - Modèle GPT Image 1
   - Modèle DALL-E 3
-  - 🆕 Modèle personnalisé (ajout de modèles privés possible)
-- ✍️ Fonction texte-vers-image
-  - Prise en charge de prompts personnalisés
-  - Choix du format d’image
-  - Prise en charge de diverses tailles d’image
-- 🖼️ Fonction image-vers-image
+  - Modèle GEMINI
+  - 🆕 Modèles personnalisés (prise en charge de l’ajout de modèles privés)
+- 🔄 Changement rapide de modèles
+  - Permet de basculer rapidement entre différents modèles
+  - Chaque modèle dispose de ses propres options de configuration
+- ✍️ Fonction de génération d’image à partir de texte
+  - Prise en charge de mots-clés personnalisés
+  - Possibilité de choisir le ratio de l’image
+  - Prise en charge de multiples tailles d’image
+- 🖼️ Fonction de transformation d’image
   - Prise en charge de l’édition d’image
-  - Prise en charge de l’édition par masque de zone
-  - Ajustement de la qualité d’image
-  - Prise en charge de la référence multi-images (téléchargement simultané de plusieurs images)
+  - Prise en charge de l’édition de zones masquées
+  - Prise en charge de l’ajustement de la qualité d’image
+  - Prise en charge de la référence multi-images (téléversement simultané de plusieurs images)
 - 🔒 Sécurité des données
-  - Toutes les images générées et historiques sont uniquement stockées dans le navigateur local
-  - Prise en charge de l’adresse proxy API personnalisée
+  - Toutes les images générées et l'historique sont uniquement enregistrés dans le navigateur local
+  - Prise en charge de l'adresse proxy API personnalisée
   - Prise en charge de la configuration de la clé API
-- 📱 Design UI
+- 📱 Conception UI
   - Interface utilisateur moderne
-  - Expérience utilisateur fluide
+  - Expérience d'interaction fluide
   - Affichage au format Markdown
   - Prise en charge de la coloration syntaxique
-- 🖥️ Multiplateforme
-  - Packaging en application de bureau (Windows, macOS, Linux)
-  - Utilisation hors-ligne possible (configuration de l’API requise)
+- 🖥️ Compatibilité multiplateforme
+  - Prise en charge de l'empaquetage en application de bureau (Windows, macOS, Linux)
+  - Prise en charge de l'utilisation hors ligne (configuration de l'API requise)
 
-## Pile technologique
+## Stack technique
 
 - Next.js 14
 - TypeScript
 - Tailwind CSS
 - shadcn/ui
 - React
-- Tauri (packaging application de bureau)
+- Tauri (empaquetage application de bureau)
 
 ## Développement local
 
 1. Cloner le projet
-
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
@@ -189,45 +193,45 @@ Une fois la construction terminée, vous pouvez trouver le paquet d'installation
 
 2. Choisir le mode de génération
    - Texte vers image : générer une image à partir d’une description textuelle
-   - Image vers image : éditer une image en la téléchargeant
+   - Image vers image : éditer une image en téléchargeant un fichier
 
 3. Définir les paramètres de génération
-   - Choisir un modèle d’IA (modèle intégré ou modèle personnalisé)
+   - Choisir le modèle IA (modèle intégré ou personnalisé)
    - Définir le ratio d’image
-   - Ajuster la qualité d’image (mode image vers image)
+   - Ajuster la qualité de l’image (mode image vers image)
 
 4. Gestion des modèles personnalisés
-   - Cliquez sur l’icône de réglage à côté du champ de sélection du modèle
-   - Ajouter un nouveau modèle : saisir le nom du modèle, la valeur du modèle et choisir le type de modèle
-   - Éditer un modèle : cliquer sur le bouton d’édition d’un modèle existant
-   - Supprimer un modèle : cliquer sur le bouton de suppression d’un modèle existant
-   - Sélectionner un modèle : cliquer sur le bouton plus du modèle pour l’utiliser immédiatement
+   - Cliquez sur l’icône de réglages à côté du sélecteur de modèle
+   - Ajouter un nouveau modèle : saisissez le nom, la valeur et choisissez le type de modèle
+   - Modifier un modèle : cliquez sur le bouton d’édition du modèle existant
+   - Supprimer un modèle : cliquez sur le bouton de suppression du modèle existant
+   - Sélectionner un modèle : cliquez sur le bouton plus du modèle pour l’utiliser immédiatement
 
-5. Explication des types de modèles
-   - Format DALL-E : utilise l’API de génération d’images (/v1/images/generations)
-   - Format OpenAI : utilise l’API de chat (/v1/chat/completions)
+5. Explication des types de modèle
+   - Format DALL-E : utiliser l’API de génération d’images (/v1/images/generations)
+   - Format OpenAI : utiliser l’API de chat (/v1/chat/completions)
 
 6. Générer une image
    - Saisir le prompt
-   - Cliquer sur le bouton « Générer l’image »
-   - Attendre la fin de la génération
+   - Cliquez sur le bouton "Générer une image"
+   - Attendre la fin du processus de génération
 
 7. Gestion des images
    - Consulter l’historique
    - Télécharger les images générées
-   - Éditer une image existante
+   - Éditer les images existantes
 
 ## Remarques
 
-- Toutes les images générées et l’historique ne sont stockés que dans le navigateur local
-- L’utilisation du mode navigation privée ou le changement d’appareil entraînera une perte des données
-- Veuillez télécharger et sauvegarder à temps les images importantes
-- La configuration de l’API sera stockée en toute sécurité dans votre navigateur et ne sera pas envoyée au serveur
-- Le chargement de ressources HTTP sur un site HTTPS sera bloqué par le navigateur, l’application convertira automatiquement les interfaces HTTP en HTTPS
+- Toutes les images générées et l’historique ne sont enregistrés que dans le navigateur local
+- L’utilisation du mode privé ou le changement d’appareil entraînera une perte de données
+- Veuillez télécharger et sauvegarder rapidement les images importantes
+- La configuration de l’API est stockée en toute sécurité dans votre navigateur et n’est pas envoyée au serveur
+- Le chargement de ressources HTTP sur des sites HTTPS est bloqué par le navigateur ; l’application convertira automatiquement les API HTTP en HTTPS
 
 ## Guide de contribution
 
-Les Issues et Pull Requests pour améliorer le projet sont les bienvenus.
+Bienvenue à la soumission d'Issues et de Pull Requests pour aider à améliorer le projet.
 
 ## Licence
 
@@ -238,37 +242,37 @@ Selon la licence, vous pouvez :
 - ✅ Modification : vous pouvez modifier le code source du logiciel
 - ✅ Distribution : vous pouvez distribuer le logiciel
 - ✅ Usage privé : vous pouvez utiliser le logiciel à titre privé
-- ✅ Concession de brevet : cette licence offre aussi une concession de brevet
+- ✅ Autorisation de brevet : cette licence fournit également une autorisation de brevet
 
 Mais vous devez respecter les conditions suivantes :
-- 📝 Licence et mention de copyright : vous devez inclure la licence d’origine et la mention de copyright
-- 📝 Déclaration de modification : vous devez déclarer les modifications majeures du code d’origine
-- 📝 Déclaration de marque : vous ne pouvez pas utiliser les marques des contributeurs
+- 📝 Licence et déclaration de droits d’auteur : vous devez inclure la licence originale et la déclaration de droits d’auteur
+- 📝 Déclaration de modifications : vous devez indiquer les modifications majeures apportées au code original
+- 📝 Déclaration de marque : vous ne pouvez pas utiliser les marques déposées des contributeurs
 
 ---
 
 ## Offrez-moi un café
 
-Si ce projet vous a été utile, vous pouvez m’offrir un café ☕️
+Si ce projet vous a aidé, n’hésitez pas à m’offrir un café ☕️
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="Code de paiement WeChat" width="300" />
   <p>Offrez-moi un café</p>
 </div>
 
-## Contact
+## Coordonnées
 
 Si vous avez des questions ou des suggestions, vous pouvez me contacter via WeChat :
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg" alt="Contact WeChat" width="300" />
-  <p>Scannez le code QR pour ajouter sur WeChat</p>
+  <p>Scannez le QR code pour ajouter WeChat</p>
 </div>
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

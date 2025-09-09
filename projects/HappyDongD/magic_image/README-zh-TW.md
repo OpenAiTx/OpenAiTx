@@ -1,10 +1,11 @@
+
 <div align="right">
   <details>
     <summary >🌐 語言</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-CN">簡體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=HappyDongD&project=magic_image&lang=ko">한국어</a>
@@ -37,11 +38,11 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
-一個基於 Next.js 開發的 AI 繪畫應用，具有以下主要功能：
-- 🎨 支援多種 AI 模型（Sora、DALL-E、GPT等）及自定義模型添加
-- 🖼️ 提供文生圖與圖生圖功能，支援多圖參考與區域編輯
-- 🔐 所有資料與API金鑰本地儲存，保障隱私安全
-- 💻 支援網頁版及桌面應用打包，跨平台使用
+一個基於 Next.js 開發的 AI 繪圖應用，具有以下主要功能：
+- 🎨 支援多種 AI 模型（Sora、DALL-E、GPT、GEMINI 等）及自訂模型新增
+- 🖼️ 提供文字生成圖片及圖片生成圖片功能，支援多圖參考與區域編輯
+- 🔐 所有資料與 API 金鑰本地儲存，保障隱私安全
+- 💻 支援網頁版及桌面應用程式封裝，跨平台使用
 
 ## 線上體驗
 
@@ -64,42 +65,45 @@
   - GPT 4o_Image 模型
   - GPT Image 1 模型
   - DALL-E 3 模型
-  - 🆕 自定義模型（支援添加私有模型）
-- ✍️ 文生圖功能
-  - 支援自定義提示詞
+  - GEMINI 模型
+  - 🆕 自訂模型（支援新增私有模型）
+- 🔄 多模型切換
+  - 支援在不同模型間快速切換
+  - 每個模型皆有獨立設定選項
+- ✍️ 文字生成圖片功能
+  - 支援自訂提示詞
   - 可選擇圖片比例
   - 支援多種圖片尺寸
-- 🖼️ 圖生圖功能
+- 🖼️ 圖片生成圖片功能
   - 支援圖片編輯
   - 支援區域遮罩編輯
   - 支援圖片品質調整
-  - 支援多圖參考（同時上傳多張圖片）
+  - 支援多圖參考（可同時上傳多張圖片）
 - 🔒 資料安全
-  - 所有生成的圖片與歷史記錄僅保存在本地瀏覽器中
-  - 支援自定義 API 代理地址
-  - 支援 API Key 配置
+  - 所有生成的圖片和歷史記錄僅保存在本地瀏覽器中
+  - 支援自訂 API 代理地址
+  - 支援 API Key 設定
 - 📱 UI設計
   - 現代化的使用者介面
   - 流暢的互動體驗
   - Markdown 格式展示
-  - 代碼高亮支援
+  - 程式碼高亮支援
 - 🖥️ 跨平台支援
-  - 支援打包為桌面應用（Windows、macOS、Linux）
-  - 支援離線使用（需配置API介面）
+  - 支援打包為桌面應用程式（Windows、macOS、Linux）
+  - 支援離線使用（需設定API介面）
 
-## 技術棧
+## 技術堆疊
 
 - Next.js 14
 - TypeScript
 - Tailwind CSS
 - shadcn/ui
 - React
-- Tauri (桌面應用打包)
+- Tauri（桌面應用打包）
 
 ## 本地開發
 
-1. 克隆專案
-
+1. 複製專案
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
@@ -185,7 +189,7 @@ npm run desktop
      ```
      http://localhost:3000?url=https%3A%2F%2Fapi.example.com&apikey=sk-xxx
      ```
-注意：URL 中的特殊字元需要進行 URL 編碼
+     注意：URL 中的特殊字元需要進行 URL 編碼
 
 2. 選擇生成模式
    - 文生圖：透過文字描述生成圖片
@@ -197,11 +201,11 @@ npm run desktop
    - 調整圖片品質（圖生圖模式）
 
 4. 自訂模型管理
-   - 點擊模型選擇框旁邊的設定圖示
+   - 點擊模型選擇框旁的設定圖示
    - 新增模型：輸入模型名稱、模型值並選擇模型類型
    - 編輯模型：點擊現有模型的編輯按鈕
    - 刪除模型：點擊現有模型的刪除按鈕
-   - 選擇模型：點擊模型的加號按鈕立即選用該模型
+   - 選擇模型：點擊模型的加號按鈕立即選擇使用該模型
 
 5. 模型類型說明
    - DALL-E 格式：使用圖像生成介面（/v1/images/generations）
@@ -213,17 +217,17 @@ npm run desktop
    - 等待生成完成
 
 7. 圖片管理
-   - 查看歷史記錄
+   - 檢視歷史紀錄
    - 下載生成的圖片
    - 編輯現有圖片
 
 ## 注意事項
 
-- 所有生成的圖片和歷史記錄僅保存在本地瀏覽器中
-- 使用隱私模式或更換設備會導致資料遺失
+- 所有生成的圖片和歷史紀錄僅保存於本地瀏覽器中
+- 使用隱私模式或更換裝置會導致資料遺失
 - 請及時下載並備份重要圖片
-- API 設定將安全地儲存在您的瀏覽器中，不會上傳到伺服器
-- HTTPS 網站加載 HTTP 資源會被瀏覽器阻擋，應用會自動將 HTTP 介面轉換為 HTTPS
+- API 設定將安全地儲存在您的瀏覽器，不會上傳至伺服器
+- HTTPS 網站載入 HTTP 資源會被瀏覽器阻擋，應用程式會自動將 HTTP 介面轉換為 HTTPS
 
 ## 貢獻指南
 
@@ -234,15 +238,15 @@ npm run desktop
 本專案採用 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) 授權條款。
 
 根據授權條款，您可以：
-- ✅ 商業用途：可以將軟體用於商業用途
-- ✅ 修改：可以修改軟體原始碼
-- ✅ 發佈：可以發佈軟體
-- ✅ 私人使用：可以私人使用軟體
-- ✅ 專利授權：本授權條款還提供專利授權
+- ✅ 商業用途：可將軟體用於商業用途
+- ✅ 修改：可修改軟體原始碼
+- ✅ 分發：可分發軟體
+- ✅ 私人使用：可私人使用軟體
+- ✅ 專利授權：本授權條款亦提供專利授權
 
 但必須遵守以下條件：
-- 📝 授權與版權聲明：您必須包含原始授權與版權聲明
-- 📝 變更聲明：您必須聲明對原始程式碼的重大變更
+- 📝 授權及版權聲明：必須保留原始授權與版權聲明
+- 📝 變更聲明：須聲明對原始程式碼的重大變更
 - 📝 商標聲明：不得使用貢獻者的商標
 
 ---
@@ -258,7 +262,7 @@ npm run desktop
 
 ## 聯絡方式
 
-如果您有任何問題或建議，歡迎通過微信聯絡我：
+如果您有任何問題或建議，歡迎透過微信聯繫我：
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg" alt="微信聯絡方式" width="300" />
@@ -269,6 +273,6 @@ npm run desktop
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

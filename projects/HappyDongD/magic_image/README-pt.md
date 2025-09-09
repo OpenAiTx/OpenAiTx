@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Idioma</summary>
@@ -28,20 +29,20 @@
   </details>
 </div>
 
-# Desenho Mágico com IA
+# Pintura Mágica com IA
 
 <div align="right">中文 | <a href="README-EN.md">English</a></div>
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Licença](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
-Um aplicativo de desenho com IA desenvolvido com Next.js, com as seguintes funcionalidades principais:
-- 🎨 Suporte a múltiplos modelos de IA (Sora, DALL-E, GPT, etc) e adição de modelos personalizados
-- 🖼️ Função texto-para-imagem e imagem-para-imagem, com suporte a referência múltipla e edição de áreas
-- 🔐 Todos os dados e chaves de API armazenados localmente, garantindo privacidade e segurança
-- 💻 Suporte para web e empacotamento para desktop, uso multiplataforma
+Um aplicativo de desenho com IA desenvolvido com base no Next.js, com as seguintes funcionalidades principais:
+- 🎨 Suporte a múltiplos modelos de IA (Sora, DALL-E, GPT, GEMINI, etc.) e adição de modelos personalizados
+- 🖼️ Funções de geração de imagem por texto e geração de imagem por imagem, com suporte a referências múltiplas e edição por regiões
+- 🔐 Todos os dados e chaves de API são armazenados localmente, garantindo privacidade e segurança
+- 💻 Compatível com versão web e empacotamento para aplicativo desktop, uso multiplataforma
 
 ## Experiência Online
 
@@ -50,56 +51,59 @@ Endereço de acesso: [https://image-front-eight.vercel.app/](https://image-front
 ### Capturas de Tela do Aplicativo
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="Aplicativo Screenshot 4" width="800" style="margin-bottom: 20px"/>
-      <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png" alt="Aplicativo Screenshot 4" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png" alt="Aplicativo Screenshot 1" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png" alt="Aplicativo Screenshot 2" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="Aplicativo Screenshot 3" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="Captura de Tela 4" width="800" style="margin-bottom: 20px"/>
+      <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png" alt="Captura de Tela 4" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png" alt="Captura de Tela 1" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png" alt="Captura de Tela 2" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="Captura de Tela 3" width="800" style="margin-bottom: 20px"/>
 </div>
 
-## Características
+## Características Funcionais
 
-- 🎨 Suporte a múltiplos modelos de IA
+- 🎨 Suporte a diversos modelos de IA
   - Modelo GPT Sora_Image
   - Modelo GPT 4o_Image
   - Modelo GPT Image 1
   - Modelo DALL-E 3
-  - 🆕 Modelo personalizado (suporte à adição de modelos privados)
-- ✍️ Função texto-para-imagem
-  - Suporte a prompts personalizados
+  - Modelo GEMINI
+  - 🆕 Modelo personalizado (suporta adição de modelos privados)
+- 🔄 Alternância entre múltiplos modelos
+  - Suporte à troca rápida entre diferentes modelos
+  - Cada modelo possui opções de configuração independentes
+- ✍️ Função de geração de imagem por texto
+  - Suporta personalização de prompts
   - Permite escolher proporção da imagem
-  - Suporte a vários tamanhos de imagem
-- 🖼️ Função imagem-para-imagem
-  - Suporte a edição de imagens
-  - Suporte a edição de máscara de área
-  - Suporte a ajuste de qualidade da imagem
-  - Suporte a referência múltipla (upload de várias imagens ao mesmo tempo)
+  - Suporta diversos tamanhos de imagem
+- 🖼️ Função de geração de imagem por imagem
+  - Suporte à edição de imagens
+  - Suporte à edição de máscaras por regiões
+  - Suporte ao ajuste da qualidade da imagem
+  - Suporte a múltiplas imagens de referência (faça upload de várias imagens ao mesmo tempo)
 - 🔒 Segurança de dados
-  - Todas as imagens geradas e históricos ficam apenas no navegador local
-  - Suporte a endereço proxy de API personalizado
-  - Suporte a configuração de API Key
+  - Todas as imagens geradas e históricos ficam salvos apenas no navegador local
+  - Suporte a configuração de endereço proxy de API personalizado
+  - Suporte à configuração de API Key
 - 📱 Design da UI
   - Interface de usuário moderna
   - Experiência de interação fluida
   - Exibição em formato Markdown
   - Suporte a destaque de código
 - 🖥️ Suporte multiplataforma
-  - Suporte a empacotamento para aplicativo desktop (Windows, macOS, Linux)
-  - Suporte a uso offline (necessária configuração da API)
+  - Suporte à empacotamento como aplicativo desktop (Windows, macOS, Linux)
+  - Suporte ao uso offline (necessário configurar a interface da API)
 
-## Stack Tecnológico
+## Stack Tecnológica
 
 - Next.js 14
 - TypeScript
 - Tailwind CSS
 - shadcn/ui
 - React
-- Tauri (empacotamento para desktop)
+- Tauri (empacotamento de aplicativo desktop)
 
-## Desenvolvimento Local
+## Desenvolvimento local
 
-1. Clonar o projeto
-
+1. Clone o projeto
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
@@ -185,30 +189,30 @@ Após a conclusão da construção, o pacote de instalação para o sistema corr
      ```
      http://localhost:3000?url=https%3A%2F%2Fapi.example.com&apikey=sk-xxx
      ```
-     Nota: Caracteres especiais na URL precisam ser codificados (URL encoding)
+     Nota: Caracteres especiais na URL precisam ser codificados usando URL encoding
 
 2. Escolha o modo de geração
-   - Texto para imagem: gere uma imagem a partir de uma descrição textual
-   - Imagem para imagem: faça upload de uma imagem para editar
+   - Texto para imagem: gera imagens a partir de descrições textuais
+   - Imagem para imagem: edite imagens enviando uma imagem
 
 3. Defina os parâmetros de geração
-   - Selecione o modelo de IA (modelo interno ou personalizado)
+   - Escolha o modelo de IA (modelo interno ou personalizado)
    - Defina a proporção da imagem
    - Ajuste a qualidade da imagem (modo imagem para imagem)
 
 4. Gerenciamento de modelos personalizados
    - Clique no ícone de configurações ao lado da caixa de seleção de modelo
-   - Adicionar novo modelo: insira o nome, valor e selecione o tipo de modelo
-   - Editar modelo: clique no botão de editar do modelo existente
-   - Excluir modelo: clique no botão de excluir do modelo existente
-   - Selecionar modelo: clique no botão de adição do modelo para selecioná-lo imediatamente
+   - Adicionar novo modelo: insira o nome do modelo, valor do modelo e selecione o tipo de modelo
+   - Editar modelo: clique no botão de edição de um modelo existente
+   - Excluir modelo: clique no botão de exclusão de um modelo existente
+   - Selecionar modelo: clique no botão de adição para selecionar e usar o modelo imediatamente
 
 5. Explicação dos tipos de modelo
-   - Formato DALL-E: usa a interface de geração de imagem (/v1/images/generations)
+   - Formato DALL-E: usa a interface de geração de imagens (/v1/images/generations)
    - Formato OpenAI: usa a interface de chat (/v1/chat/completions)
 
 6. Gerar imagem
-   - Insira a palavra-chave de prompt
+   - Insira palavras-chave
    - Clique no botão "Gerar imagem"
    - Aguarde a conclusão da geração
 
@@ -217,58 +221,58 @@ Após a conclusão da construção, o pacote de instalação para o sistema corr
    - Baixe as imagens geradas
    - Edite imagens existentes
 
-## Avisos
+## Observações
 
-- Todas as imagens geradas e históricos são armazenados apenas no navegador local
-- Utilizar o modo privativo ou trocar de dispositivo causará perda de dados
-- Faça download e backup das imagens importantes a tempo
-- As configurações da API serão armazenadas com segurança em seu navegador, não sendo enviadas ao servidor
-- Sites HTTPS que carregam recursos HTTP serão bloqueados pelo navegador; o aplicativo converterá automaticamente as interfaces HTTP em HTTPS
+- Todas as imagens geradas e o histórico são armazenados apenas no navegador local
+- Usar o modo de navegação privada ou trocar de dispositivo pode causar perda de dados
+- Faça o download e backup das imagens importantes prontamente
+- A configuração da API será armazenada com segurança no seu navegador e não será enviada ao servidor
+- O carregamento de recursos HTTP em sites HTTPS será bloqueado pelo navegador, e o aplicativo irá converter automaticamente interfaces HTTP para HTTPS
 
 ## Guia de Contribuição
 
-Sinta-se à vontade para enviar Issues e Pull Requests para ajudar a melhorar o projeto.
+Seja bem-vindo para enviar Issues e Pull Requests para ajudar a melhorar o projeto.
 
 ## Licença
 
-Este projeto está sob a licença [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Este projeto utiliza a licença [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 De acordo com a licença, você pode:
-- ✅ Uso comercial: pode usar o software para fins comerciais
+- ✅ Uso comercial: pode utilizar o software para fins comerciais
 - ✅ Modificar: pode modificar o código-fonte do software
 - ✅ Distribuir: pode distribuir o software
 - ✅ Uso privado: pode usar o software de forma privada
-- ✅ Licenciamento de patentes: esta licença também concede autorização de patentes
+- ✅ Autorização de patentes: esta licença também fornece autorização de patentes
 
-Mas deve cumprir as seguintes condições:
+Mas é necessário cumprir as seguintes condições:
 - 📝 Declaração de licença e direitos autorais: você deve incluir a licença original e a declaração de direitos autorais
-- 📝 Declaração de alterações: você deve declarar alterações significativas no código original
-- 📝 Declaração de marca registrada: não use marcas dos contribuintes
+- 📝 Declaração de alterações: você deve declarar alterações significativas ao código original
+- 📝 Declaração de marca registrada: não pode usar as marcas dos contribuintes
 
 ---
 
 ## Me pague um café
 
-Se este projeto foi útil para você, fique à vontade para me pagar um café ☕️
+Se este projeto foi útil para você, sinta-se à vontade para me pagar um café ☕️
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="Código de recebimento WeChat" width="300" />
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="Código de pagamento WeChat" width="300" />
   <p>Me pague um café</p>
 </div>
 
-## Contato
+## Informações de contato
 
-Se você tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato comigo pelo WeChat:
+Se você tiver qualquer dúvida ou sugestão, entre em contato comigo pelo WeChat:
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg" alt="Contato WeChat" width="300" />
-  <p>Escaneie o QR Code para adicionar no WeChat</p>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg" alt="Informações de contato WeChat" width="300" />
+  <p>Escaneie o QR code para adicionar no WeChat</p>
 </div>
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

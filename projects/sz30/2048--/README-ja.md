@@ -1,6 +1,6 @@
 <div align="right">
   <details>
-    <summary >🌐 他の言語</summary>
+    <summary >🌐 その他の言語</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja">日本語</a>
@@ -10,7 +10,7 @@
         | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=it">イタリア語</a>
         | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=nl">Nederlands</a>
@@ -30,35 +30,35 @@
 
 # 🎮 2048++
 
-クラシックな2048ゲームを強化したバージョンで、さらに楽しい機能が追加されています！これは私が余暇に作った小さなプロジェクトです。楽しんでいただければ幸いです！
+クラシックな2048ゲームを強化したバージョンです。さらに楽しい機能が追加されています！これは私が空き時間に作った小さなプロジェクトです。ぜひ楽しんでください！
 
 ## 🎯 ゲーム紹介
 
-2048はシンプルで中毒性のある数字合成ゲームです。4x4のグリッド上で、上下左右にスワイプして同じ数字のタイルを合体させます。目標？2048に到達すること（もちろん、それ以上のスコアも目指せます）！
+2048は、シンプルながら中毒性のある数字合成ゲームです。4×4のグリッド上で、上下左右にスワイプして同じ数字のタイルを合成します。目標は2048に到達すること（でも、さらに高得点も目指せます）！
 
 **遊び方：**
-- 矢印キーまたはWASDキーでタイルを動かします。
-- 同じ数字のタイルがぶつかると合体します。
-- 各操作後、空いているマスにランダムで2か4が出現します。
-- もう動かせなくなったらゲームオーバーです。
+- 矢印キーまたはWASDキーでタイルを移動します。
+- 同じ数字のタイルが衝突すると、一つに合体します。
+- 各移動後、空いている場所にランダムで2または4が現れます。
+- もう動かせる場所がなくなるとゲーム終了です。
 
-## ✨ 特別な機能
+## ✨ 特殊機能
 
 ### 1. アンドゥ機能
-- 間違って動かしてしまった？大丈夫！
-- 「アンドゥ」ボタンを押すと1手前に戻せます。
-- 最初から何度でもアンドゥ可能です。
-- 指のミスでゲームが台無しになる心配はもうありません！
+- 間違った操作をしても大丈夫！
+- 「アンドゥ」ボタンを押せば一手前に戻れます。
+- ゲーム開始まで何度でもアンドゥ可能です。
+- もう指が滑ってゲームを台無しにする心配なし！
 
-### 2. シークレットチートモード
-- マジックシーケンスを入力：←←→→ →→←←（左、左、右、右、右、右、左、左）
+### 2. 秘密のチートモード
+- 魔法のシーケンスを入力：←←→→ →→←←（左、左、右、右、右、右、左、左）
 - すべてのタイルが魔法のように128に変わります！
-- これはちょっとしたイースターエッグです。
-- 裏技は楽しいですが、やりすぎに注意！😉
+- イースターエッグなので、遊び心でどうぞ。
+- プロのコツ：チートは楽しいですが、やりすぎ注意！😉
 
 ## 🎯 デモ
 
-🎯 ここでプレイ：[2048.765431.xyz](https://2048.765431.xyz/)
+🎯 : [ここでプレイ](http://34.150.49.127:5000/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -99,7 +99,7 @@ python 2048.py
 
 ## 🎨 カスタマイズ
 
-自分用にカスタマイズしたいですか？`styles.css`を調整して新しい外観にしたり、`script.js`をいじってゲームプレイを変更できます。すべてのコードには分かりやすいコメントが付いているので、簡単にハックできます！
+自分好みにしたいですか？新しい外観にするには `styles.css` を調整したり、ゲームプレイを変更するには `script.js` を編集してください。すべてのコードには分かりやすいコメントが付いているので、簡単にカスタマイズできます！
 
 ## 📝 ライセンス
 
@@ -107,21 +107,23 @@ GPL-2.0 ライセンス
 
 ## 🤝 コントリビューション
 
-まだまだ更新中！Issue や Pull Request は大歓迎です—一緒にこのゲームをもっと素晴らしいものにしましょう！
+現在も更新中です！Issue や Pull Request は大歓迎です—一緒にこのゲームをさらに素晴らしいものにしましょう！
 
 
 ## 🙏 謝辞
 
-このプロジェクトを支援してくださったスポンサーの皆様に感謝します：
-- サーバーを提供してくれた [IDC.REST](https://idc.rest/)
-- サーバーを提供してくれた [Serv00](https://www.serv00.com/)
+このプロジェクトを支援してくださった以下のスポンサーに感謝します：
+- [None](https://#/) サーバーを提供
+- [Serv00](https://www.serv00.com/) サーバーを提供
 
 ---
-_最終更新: 2025年6月_
+_最終更新: 2025年8月_
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

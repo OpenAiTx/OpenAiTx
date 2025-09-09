@@ -1,4 +1,5 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 Ngôn ngữ</summary>
     <div>
@@ -28,7 +29,7 @@
   </details>
 </div>
 
-# Vẽ Ảo Thuật AI
+# Vẽ tranh AI phép thuật
 
 <div align="right">中文 | <a href="README-EN.md">English</a></div>
 
@@ -37,11 +38,11 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
-Một ứng dụng vẽ AI phát triển dựa trên Next.js, với các tính năng chính sau:
-- 🎨 Hỗ trợ nhiều mô hình AI (Sora, DALL-E, GPT, v.v.) và cho phép thêm mô hình tuỳ chỉnh
-- 🖼️ Cung cấp chức năng tạo ảnh từ văn bản và biến đổi ảnh, hỗ trợ tham chiếu nhiều ảnh và chỉnh sửa vùng chọn
-- 🔐 Tất cả dữ liệu và khóa API lưu trữ cục bộ, đảm bảo an toàn riêng tư
-- 💻 Hỗ trợ bản web và đóng gói ứng dụng máy tính, sử dụng đa nền tảng
+Một ứng dụng vẽ AI dựa trên Next.js, với các chức năng chính sau:
+- 🎨 Hỗ trợ nhiều mô hình AI (Sora, DALL-E, GPT, GEMINI, v.v.) và thêm mô hình tùy chỉnh
+- 🖼️ Cung cấp chức năng sinh ảnh từ văn bản và ảnh sang ảnh, hỗ trợ tham khảo nhiều ảnh và chỉnh sửa vùng
+- 🔐 Tất cả dữ liệu và khóa API được lưu trữ cục bộ, đảm bảo an toàn và bảo mật riêng tư
+- 💻 Hỗ trợ phiên bản web và đóng gói thành ứng dụng desktop, sử dụng đa nền tảng
 
 ## Trải nghiệm trực tuyến
 
@@ -50,41 +51,45 @@ Một ứng dụng vẽ AI phát triển dựa trên Next.js, với các tính n
 ### Ảnh chụp ứng dụng
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="应用截图4" width="800" style="margin-bottom: 20px"/>
-      <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png" alt="应用截图4" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png" alt="应用截图1" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png" alt="应用截图2" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="应用截图3" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="Ảnh chụp ứng dụng 4" width="800" style="margin-bottom: 20px"/>
+      <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png" alt="Ảnh chụp ứng dụng 4" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png" alt="Ảnh chụp ứng dụng 1" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png" alt="Ảnh chụp ứng dụng 2" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="Ảnh chụp ứng dụng 3" width="800" style="margin-bottom: 20px"/>
 </div>
 
-## Tính năng nổi bật
+## Đặc điểm chức năng
 
 - 🎨 Hỗ trợ nhiều mô hình AI
   - Mô hình GPT Sora_Image
   - Mô hình GPT 4o_Image
   - Mô hình GPT Image 1
   - Mô hình DALL-E 3
-  - 🆕 Mô hình tuỳ chỉnh (hỗ trợ thêm mô hình riêng tư)
-- ✍️ Tính năng tạo ảnh từ văn bản
-  - Hỗ trợ tuỳ chỉnh từ khoá gợi ý
+  - Mô hình GEMINI
+  - 🆕 Mô hình tùy chỉnh (hỗ trợ thêm mô hình riêng tư)
+- 🔄 Chuyển đổi đa mô hình
+  - Hỗ trợ chuyển đổi nhanh giữa các mô hình khác nhau
+  - Mỗi mô hình có tùy chọn cấu hình riêng biệt
+- ✍️ Chức năng sinh ảnh từ văn bản
+  - Hỗ trợ tùy chỉnh prompt
   - Có thể chọn tỉ lệ ảnh
   - Hỗ trợ nhiều kích thước ảnh
-- 🖼️ Tính năng biến đổi ảnh
+- 🖼️ Chức năng ảnh sang ảnh
   - Hỗ trợ chỉnh sửa ảnh
-  - Hỗ trợ chỉnh sửa vùng che
+  - Hỗ trợ chỉnh sửa vùng mặt nạ
   - Hỗ trợ điều chỉnh chất lượng ảnh
-  - Hỗ trợ tham chiếu nhiều ảnh (tải lên nhiều ảnh cùng lúc)
+  - Hỗ trợ tham chiếu nhiều hình ảnh (tải lên nhiều hình cùng lúc)
 - 🔒 An toàn dữ liệu
-  - Tất cả ảnh tạo ra và lịch sử chỉ lưu trữ trên trình duyệt cục bộ
-  - Hỗ trợ tuỳ chỉnh địa chỉ API proxy
+  - Tất cả hình ảnh đã tạo và lịch sử chỉ được lưu trên trình duyệt cục bộ
+  - Hỗ trợ tùy chỉnh địa chỉ proxy API
   - Hỗ trợ cấu hình API Key
-- 📱 Thiết kế giao diện
+- 📱 Thiết kế giao diện người dùng
   - Giao diện người dùng hiện đại
   - Trải nghiệm tương tác mượt mà
   - Hiển thị định dạng Markdown
   - Hỗ trợ làm nổi bật mã nguồn
 - 🖥️ Hỗ trợ đa nền tảng
-  - Có thể đóng gói thành ứng dụng máy tính (Windows, macOS, Linux)
+  - Hỗ trợ đóng gói thành ứng dụng máy tính để bàn (Windows, macOS, Linux)
   - Hỗ trợ sử dụng ngoại tuyến (cần cấu hình API)
 
 ## Công nghệ sử dụng
@@ -94,15 +99,11 @@ Một ứng dụng vẽ AI phát triển dựa trên Next.js, với các tính n
 - Tailwind CSS
 - shadcn/ui
 - React
-- Tauri (đóng gói ứng dụng máy tính)
+- Tauri (đóng gói ứng dụng máy tính để bàn)
 
-## Phát triển cục bộ
-
-
+## Phát triển tại địa phương
 
 1. Nhân bản dự án
-
-
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
@@ -191,46 +192,46 @@ Sau khi xây dựng xong, bạn có thể tìm thấy gói cài đặt cho hệ 
      Lưu ý: Các ký tự đặc biệt trong URL cần được mã hóa URL
 
 2. Chọn chế độ tạo
-   - Tạo ảnh từ văn bản: Tạo ảnh thông qua mô tả bằng văn bản
+   - Tạo ảnh từ văn bản: Tạo hình ảnh dựa trên mô tả bằng chữ
    - Tạo ảnh từ ảnh: Tải lên ảnh để chỉnh sửa
 
-3. Thiết lập tham số tạo
-   - Chọn mô hình AI (mô hình tích hợp sẵn hoặc mô hình tùy chỉnh)
+3. Thiết lập thông số tạo ảnh
+   - Chọn mô hình AI (mô hình tích hợp hoặc tự tạo)
    - Thiết lập tỷ lệ ảnh
    - Điều chỉnh chất lượng ảnh (chế độ tạo ảnh từ ảnh)
 
-4. Quản lý mô hình tùy chỉnh
-   - Nhấp vào biểu tượng cài đặt bên cạnh hộp chọn mô hình
+4. Quản lý mô hình tự tạo
+   - Nhấp vào biểu tượng cài đặt cạnh hộp chọn mô hình
    - Thêm mô hình mới: Nhập tên mô hình, giá trị mô hình và chọn loại mô hình
    - Chỉnh sửa mô hình: Nhấp vào nút chỉnh sửa của mô hình hiện có
    - Xóa mô hình: Nhấp vào nút xóa của mô hình hiện có
-   - Chọn mô hình: Nhấp vào nút dấu cộng của mô hình để chọn và sử dụng ngay mô hình đó
+   - Chọn mô hình: Nhấp vào nút dấu cộng của mô hình để chọn và sử dụng ngay
 
 5. Giải thích loại mô hình
-   - Định dạng DALL-E: Sử dụng giao diện tạo ảnh (/v1/images/generations)
+   - Định dạng DALL-E: Sử dụng giao diện tạo hình ảnh (/v1/images/generations)
    - Định dạng OpenAI: Sử dụng giao diện trò chuyện (/v1/chat/completions)
 
 6. Tạo ảnh
-   - Nhập từ khóa gợi ý
+   - Nhập từ khoá gợi ý
    - Nhấp vào nút "Tạo ảnh"
-   - Chờ quá trình tạo hoàn tất
+   - Chờ hoàn thành quá trình tạo
 
 7. Quản lý ảnh
    - Xem lịch sử
-   - Tải xuống ảnh đã tạo
+   - Tải về ảnh đã tạo
    - Chỉnh sửa ảnh hiện có
 
 ## Lưu ý
 
-- Tất cả ảnh đã tạo và lịch sử chỉ được lưu trữ trong trình duyệt cục bộ của bạn
-- Sử dụng chế độ riêng tư hoặc thay đổi thiết bị sẽ khiến dữ liệu bị mất
+- Tất cả ảnh đã tạo và lịch sử chỉ lưu trên trình duyệt cục bộ
+- Sử dụng chế độ riêng tư hoặc đổi thiết bị sẽ làm mất dữ liệu
 - Vui lòng tải xuống và sao lưu ảnh quan trọng kịp thời
-- Cấu hình API sẽ được lưu trữ an toàn trong trình duyệt của bạn, không tải lên máy chủ
-- Các trang web HTTPS tải tài nguyên HTTP sẽ bị trình duyệt chặn, ứng dụng sẽ tự động chuyển giao diện HTTP sang HTTPS
+- Cấu hình API sẽ được lưu an toàn trên trình duyệt của bạn, không tải lên máy chủ
+- Trang web HTTPS tải tài nguyên HTTP sẽ bị trình duyệt chặn, ứng dụng sẽ tự động chuyển đổi giao diện HTTP sang HTTPS
 
 ## Hướng dẫn đóng góp
 
-Hoan nghênh gửi Issue và Pull Request để giúp cải tiến dự án.
+Chào mừng bạn gửi Issue và Pull Request để giúp cải thiện dự án.
 
 ## Giấy phép
 
@@ -238,25 +239,25 @@ Dự án này sử dụng giấy phép [Apache License 2.0](https://www.apache.o
 
 Theo giấy phép này, bạn có thể:
 - ✅ Sử dụng thương mại: Có thể sử dụng phần mềm cho mục đích thương mại
-- ✅ Sửa đổi: Có thể sửa đổi mã nguồn phần mềm
+- ✅ Chỉnh sửa: Có thể chỉnh sửa mã nguồn phần mềm
 - ✅ Phân phối: Có thể phân phối phần mềm
 - ✅ Sử dụng cá nhân: Có thể sử dụng phần mềm cho mục đích cá nhân
-- ✅ Cấp phép bằng sáng chế: Giấy phép này còn cấp quyền bằng sáng chế
+- ✅ Cấp phép bằng sáng chế: Giấy phép này cũng cung cấp quyền sử dụng bằng sáng chế
 
-Nhưng phải tuân thủ các điều kiện sau:
-- 📝 Tuyên bố giấy phép và bản quyền: Bạn phải kèm theo giấy phép gốc và tuyên bố bản quyền
-- 📝 Tuyên bố thay đổi: Bạn phải ghi rõ các thay đổi quan trọng đối với mã nguồn gốc
-- 📝 Tuyên bố thương hiệu: Không được sử dụng thương hiệu của các bên đóng góp
+Nhưng bạn phải tuân thủ các điều kiện sau:
+- 📝 Tuyên bố giấy phép và bản quyền: Phải đính kèm giấy phép và tuyên bố bản quyền gốc
+- 📝 Tuyên bố thay đổi: Phải tuyên bố những thay đổi lớn đối với mã nguồn gốc
+- 📝 Tuyên bố thương hiệu: Không được sử dụng thương hiệu của người đóng góp
 
 ---
 
-## Mời tôi một ly cà phê
+## Mời tôi uống một ly cà phê
 
-Nếu dự án này hữu ích với bạn, hãy mời tôi một ly cà phê ☕️
+Nếu dự án này giúp ích cho bạn, hãy mời tôi uống một ly cà phê ☕️
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="Mã QR nhận thanh toán WeChat" width="300" />
-  <p>Mời tôi một ly cà phê</p>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="Mã nhận tiền WeChat" width="300" />
+  <p>Mời tôi uống một ly cà phê</p>
 </div>
 
 ## Thông tin liên hệ
@@ -272,6 +273,6 @@ Nếu bạn có bất kỳ câu hỏi hoặc góp ý nào, hãy liên hệ với
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

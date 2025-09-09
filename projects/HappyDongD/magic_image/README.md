@@ -39,7 +39,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
 一个基于 Next.js 开发的 AI 绘画应用，具有以下主要功能：
-- 🎨 支持多种 AI 模型（Sora、DALL-E、GPT等）及自定义模型添加
+- 🎨 支持多种 AI 模型（Sora、DALL-E、GPT,GEMINI等）及自定义模型添加
 - 🖼️ 提供文生图和图生图功能，支持多图参考和区域编辑
 - 🔐 所有数据和API密钥本地存储，保障隐私安全
 - 💻 支持网页版及桌面应用打包，跨平台使用
@@ -65,7 +65,11 @@
   - GPT 4o_Image 模型
   - GPT Image 1 模型
   - DALL-E 3 模型
+  - GEMINI 模型
   - 🆕 自定义模型（支持添加私有模型）
+- 🔄 多模型切换
+  - 支持在不同模型之间快速切换
+  - 每个模型都有独立的配置选项
 - ✍️ 文生图功能
   - 支持自定义提示词
   - 可选择图片比例

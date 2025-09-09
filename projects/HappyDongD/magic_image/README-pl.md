@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Język</summary>
@@ -28,7 +29,7 @@
   </details>
 </div>
 
-# Magiczna AI do Rysowania
+# Magiczne AI Rysowanie
 
 <div align="right">中文 | <a href="README-EN.md">English</a></div>
 
@@ -37,55 +38,59 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
-Aplikacja AI do rysowania oparta na Next.js, oferująca następujące główne funkcje:
-- 🎨 Wsparcie dla wielu modeli AI (Sora, DALL-E, GPT itp.) oraz możliwość dodawania własnych modeli
-- 🖼️ Funkcja generowania obrazu z tekstu i obrazu, wsparcie dla wielu obrazów referencyjnych i edycji obszarów
-- 🔐 Wszystkie dane i klucze API przechowywane lokalnie, zapewniając prywatność i bezpieczeństwo
-- 💻 Wersja webowa oraz możliwość spakowania jako aplikacja desktopowa, wieloplatformowość
+Aplikacja AI do rysowania oparta na Next.js, posiadająca następujące główne funkcje:
+- 🎨 Wsparcie dla wielu modeli AI (Sora, DALL-E, GPT, GEMINI itd.) oraz możliwość dodawania własnych modeli
+- 🖼️ Funkcje generowania obrazów z tekstu oraz z obrazu, wsparcie dla wielu obrazów referencyjnych i edycji wybranych obszarów
+- 🔐 Wszystkie dane i klucze API przechowywane lokalnie, zapewniając bezpieczeństwo prywatności
+- 💻 Wsparcie dla wersji przeglądarkowej i pakowania jako aplikacja desktopowa, wieloplatformowe zastosowanie
 
-## Wersja demonstracyjna online
+## Doświadczenie online
 
-Adres dostępu: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)
+Adres: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)
 
 ### Zrzuty ekranu aplikacji
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="应用截图4" width="800" style="margin-bottom: 20px"/>
-      <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png" alt="应用截图4" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png" alt="应用截图1" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png" alt="应用截图2" width="800" style="margin-bottom: 20px"/>
-  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="应用截图3" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/4.png" alt="Zrzut ekranu 4" width="800" style="margin-bottom: 20px"/>
+      <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/5.png" alt="Zrzut ekranu 4" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/0.png" alt="Zrzut ekranu 1" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/1.png" alt="Zrzut ekranu 2" width="800" style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/2.png" alt="Zrzut ekranu 3" width="800" style="margin-bottom: 20px"/>
 </div>
 
-## Główne funkcje
+## Cechy funkcjonalne
 
-- 🎨 Wsparcie dla wielu modeli AI
+- 🎨 Wsparcie dla różnych modeli AI
   - Model GPT Sora_Image
   - Model GPT 4o_Image
   - Model GPT Image 1
   - Model DALL-E 3
-  - 🆕 Własny model (obsługa prywatnych modeli)
-- ✍️ Generowanie obrazu z tekstu
+  - Model GEMINI
+  - 🆕 Własne modele (możliwość dodania prywatnego modelu)
+- 🔄 Przełączanie między modelami
+  - Szybkie przełączanie pomiędzy różnymi modelami
+  - Każdy model posiada indywidualne opcje konfiguracyjne
+- ✍️ Funkcja generowania obrazów z tekstu
   - Obsługa własnych promptów
   - Możliwość wyboru proporcji obrazu
-  - Wsparcie dla wielu rozmiarów obrazów
-- 🖼️ Generowanie obrazu z obrazu
-  - Edycja obrazu
-  - Edycja masek obszarów
-  - Regulacja jakości obrazu
-  - Wiele obrazów referencyjnych (możliwość przesłania wielu plików naraz)
+  - Wsparcie dla różnych rozmiarów obrazów
+- 🖼️ Funkcja generowania obrazów z obrazów
+  - Obsługa edycji obrazów
+  - Wsparcie dla edycji wybranych obszarów maskujących
+  - Możliwość regulacji jakości obrazu
+  - Obsługa wielu obrazów jako referencji (jednoczesne przesyłanie wielu zdjęć)
 - 🔒 Bezpieczeństwo danych
-  - Wszystkie wygenerowane obrazy i historia zapisywane wyłącznie lokalnie w przeglądarce
-  - Obsługa własnego adresu proxy API
-  - Obsługa konfiguracji klucza API
-- 📱 Projekt UI
+  - Wszystkie wygenerowane obrazy i historia są przechowywane wyłącznie w lokalnej przeglądarce
+  - Obsługa niestandardowego adresu proxy API
+  - Możliwość konfiguracji klucza API
+- 📱 Projekt interfejsu użytkownika
   - Nowoczesny interfejs użytkownika
-  - Płynna interakcja
+  - Płynna obsługa i interakcja
   - Wyświetlanie w formacie Markdown
-  - Wsparcie dla podświetlania składni kodu
-- 🖥️ Wsparcie wieloplatformowe
+  - Obsługa podświetlania składni kodu
+- 🖥️ Obsługa wielu platform
   - Możliwość spakowania jako aplikacja desktopowa (Windows, macOS, Linux)
-  - Możliwość pracy offline (wymagana konfiguracja API)
+  - Obsługa pracy offline (wymaga konfiguracji interfejsu API)
 
 ## Stos technologiczny
 
@@ -94,12 +99,11 @@ Adres dostępu: [https://image-front-eight.vercel.app/](https://image-front-eigh
 - Tailwind CSS
 - shadcn/ui
 - React
-- Tauri (pakowanie aplikacji desktopowej)
+- Tauri (pakowanie aplikacji desktopowych)
 
-## Rozwój lokalny
+## Lokalny rozwój
 
 1. Sklonuj projekt
-
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
@@ -185,64 +189,64 @@ Po zakończeniu budowania, pakiet instalacyjny dla odpowiedniego systemu można 
      ```
      http://localhost:3000?url=https%3A%2F%2Fapi.example.com&apikey=sk-xxx
      ```
-     Uwaga: Znaki specjalne w URL muszą być zakodowane zgodnie z URL
+     Uwaga: Specjalne znaki w URL muszą być zakodowane za pomocą kodowania URL
 
 2. Wybierz tryb generowania
-   - Tekst na obraz: generuj obraz za pomocą opisu tekstowego
-   - Obraz na obraz: prześlij obraz do edycji
+   - Generowanie obrazu z tekstu: tworzenie obrazów na podstawie opisu tekstowego
+   - Edycja obrazu: przesyłanie obrazu do edycji
 
 3. Ustaw parametry generowania
-   - Wybierz model AI (model wbudowany lub własny)
+   - Wybierz model AI (wbudowany lub niestandardowy)
    - Ustaw proporcje obrazu
-   - Dostosuj jakość obrazu (tryb obraz na obraz)
+   - Dostosuj jakość obrazu (tryb edycji obrazu)
 
-4. Zarządzanie własnymi modelami
+4. Zarządzanie niestandardowymi modelami
    - Kliknij ikonę ustawień obok pola wyboru modelu
-   - Dodaj nowy model: wpisz nazwę modelu, wartość modelu i wybierz typ modelu
-   - Edytuj model: kliknij przycisk edycji przy istniejącym modelu
-   - Usuń model: kliknij przycisk usuwania przy istniejącym modelu
-   - Wybierz model: kliknij przycisk plusa przy modelu, aby natychmiast go użyć
+   - Dodaj nowy model: wprowadź nazwę modelu, wartość modelu i wybierz typ modelu
+   - Edytuj model: kliknij przycisk edycji istniejącego modelu
+   - Usuń model: kliknij przycisk usuwania istniejącego modelu
+   - Wybierz model: kliknij przycisk plusa przy modelu, aby go natychmiast użyć
 
-5. Wyjaśnienie typów modeli
-   - Format DALL-E: używa interfejsu generowania obrazów (/v1/images/generations)
-   - Format OpenAI: używa interfejsu czatu (/v1/chat/completions)
+5. Opis typów modeli
+   - Format DALL-E: użyj interfejsu generowania obrazów (/v1/images/generations)
+   - Format OpenAI: użyj interfejsu czatu (/v1/chat/completions)
 
 6. Generowanie obrazu
-   - Wpisz słowa kluczowe
+   - Wprowadź frazę wywoławczą
    - Kliknij przycisk "Generuj obraz"
    - Poczekaj na zakończenie generowania
 
 7. Zarządzanie obrazami
    - Przeglądaj historię
-   - Pobierz wygenerowane obrazy
+   - Pobieraj wygenerowane obrazy
    - Edytuj istniejące obrazy
 
 ## Uwagi
 
-- Wszystkie wygenerowane obrazy i historia zapisywane są tylko w lokalnej przeglądarce
-- Tryb prywatny lub zmiana urządzenia spowoduje utratę danych
-- Pobierz i wykonaj kopię zapasową ważnych obrazów na czas
-- Konfiguracja API jest bezpiecznie przechowywana w Twojej przeglądarce i nie jest przesyłana na serwer
-- Strony HTTPS blokują ładowanie zasobów HTTP, aplikacja automatycznie konwertuje interfejsy HTTP na HTTPS
+- Wszystkie wygenerowane obrazy i historia są przechowywane wyłącznie w lokalnej przeglądarce
+- Korzystanie z trybu prywatnego lub zmiana urządzenia spowoduje utratę danych
+- Proszę pobierać i tworzyć kopie zapasowe ważnych obrazów na bieżąco
+- Konfiguracja API będzie bezpiecznie przechowywana w Twojej przeglądarce, nie jest wysyłana na serwer
+- Strona HTTPS blokuje ładowanie zasobów HTTP, aplikacja automatycznie konwertuje adresy HTTP na HTTPS
 
-## Wskazówki dotyczące współpracy
+## Przewodnik dotyczący wkładu
 
-Zapraszamy do zgłaszania Issue i Pull Request, aby pomóc ulepszyć projekt.
+Zapraszamy do zgłaszania Issue oraz Pull Request w celu ulepszania projektu.
 
 ## Licencja
 
-Projekt objęty jest licencją [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Ten projekt jest objęty licencją [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 Zgodnie z licencją możesz:
-- ✅ Wykorzystanie komercyjne: możesz używać oprogramowania komercyjnie
-- ✅ Modyfikacje: możesz modyfikować kod źródłowy
-- ✅ Dystrybucja: możesz dystrybuować oprogramowanie
+- ✅ Zastosowanie komercyjne: możesz używać oprogramowania w celach komercyjnych
+- ✅ Modyfikacje: możesz modyfikować kod źródłowy oprogramowania
+- ✅ Dystrybucja: możesz rozpowszechniać oprogramowanie
 - ✅ Użytek prywatny: możesz używać oprogramowania prywatnie
-- ✅ Licencja patentowa: licencja ta zapewnia również licencję patentową
+- ✅ Licencja patentowa: ta licencja zapewnia także licencję patentową
 
-Ale musisz przestrzegać poniższych warunków:
-- 📝 Oświadczenie licencyjne i copyright: musisz dołączyć oryginalną licencję i oświadczenie o prawach autorskich
-- 📝 Oświadczenie o zmianach: musisz wskazać istotne zmiany w oryginalnym kodzie
+Ale musisz przestrzegać następujących warunków:
+- 📝 Oświadczenie licencyjne i praw autorskich: musisz dołączyć oryginalne oświadczenie licencyjne i praw autorskich
+- 📝 Oświadczenie o zmianach: musisz zadeklarować istotne zmiany w oryginalnym kodzie
 - 📝 Oświadczenie o znakach towarowych: nie wolno używać znaków towarowych współtwórców
 
 ---
@@ -256,19 +260,19 @@ Jeśli ten projekt był dla Ciebie pomocny, zapraszam do postawienia mi kawy ☕
   <p>Postaw mi kawę</p>
 </div>
 
-## Kontakt
+## Dane kontaktowe
 
-Jeśli masz pytania lub sugestie, zapraszam do kontaktu przez WeChat:
+Jeśli masz jakiekolwiek pytania lub sugestie, zapraszam do kontaktu przez WeChat:
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg" alt="Kontakt WeChat" width="300" />
-  <p>Zeskanuj kod QR, aby dodać na WeChat</p>
+  <p>Zeskanuj kod QR, aby dodać mnie na WeChat</p>
 </div>
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

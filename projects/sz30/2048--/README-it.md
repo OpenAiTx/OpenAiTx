@@ -1,6 +1,6 @@
 <div align="right">
   <details>
-    <summary >🌐 Altra Lingua</summary>
+    <summary >🌐 Altre Lingue</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja">日本語</a>
@@ -30,15 +30,15 @@
 
 # 🎮 2048++
 
-Una versione migliorata del classico gioco 2048, ora con ancora più funzioni divertenti! Questo è un piccolo progetto che ho realizzato nel tempo libero—spero possa regalarti un po' di gioia!
+Una versione migliorata del classico gioco 2048, ora con ancora più funzionalità divertenti! Questo è un piccolo progetto che ho realizzato nel tempo libero—spero possa portarti un po’ di gioia!
 
 ## 🎯 Introduzione al Gioco
 
-2048 è un gioco di fusione di numeri semplice ma coinvolgente. Su una griglia 4x4, scorri su, giù, sinistra o destra per unire le tessere con lo stesso numero. L'obiettivo? Raggiungere 2048 (ma puoi continuare per punteggi ancora più alti)!
+2048 è un gioco di combinazione numerica semplice ma coinvolgente. Su una griglia 4x4, scorri in alto, in basso, a sinistra o a destra per fondere le tessere con lo stesso numero. L’obiettivo? Raggiungere 2048 (ma ehi, puoi continuare per punteggi ancora più alti)!
 
-**Come si gioca:**
-- Usa i tasti freccia o WASD per muovere le tessere.
-- Quando due tessere con lo stesso numero si scontrano, si fondono in una sola.
+**Come giocare:**
+- Usa le frecce direzionali o WASD per muovere le tessere.
+- Quando due tessere con lo stesso numero si scontrano, si uniscono in una sola.
 - Dopo ogni mossa, un nuovo 2 o 4 apparirà casualmente in uno spazio vuoto.
 - Il gioco termina quando non ci sono più mosse disponibili.
 
@@ -47,18 +47,18 @@ Una versione migliorata del classico gioco 2048, ora con ancora più funzioni di
 ### 1. Funzione Annulla
 - Hai fatto una mossa sbagliata? Nessun problema!
 - Premi semplicemente il pulsante "Annulla" per tornare indietro di un passo.
-- Puoi annullare quante volte vuoi, fino all'inizio della partita.
-- Non lasciare mai che uno scivolone rovini la tua partita!
+- Puoi annullare tutte le volte che vuoi, fino all'inizio.
+- Non lasciare mai che un errore rovini la tua partita!
 
 ### 2. Modalità Cheat Segreta
 - Inserisci la sequenza magica: ←←→→ →→←← (sinistra, sinistra, destra, destra, destra, destra, sinistra, sinistra)
 - Tutte le tessere si trasformeranno magicamente in 128!
-- È un easter egg, solo per divertimento.
+- È un Easter egg, solo per divertimento.
 - Consiglio: Barare è divertente, ma non esagerare! 😉
 
 ## 🎯 Demo
 
-🎯 Gioca qui: [2048.765431.xyz](https://2048.765431.xyz/)
+🎯 : [Gioca qui](http://34.150.49.127:5000/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -99,7 +99,7 @@ python 2048.py
 
 ## 🎨 Personalizzazione
 
-Vuoi renderlo tuo? Modifica `styles.css` per un nuovo aspetto, oppure immergiti in `script.js` per cambiare il gameplay. Tutto il codice è ben commentato per facilitare le modifiche!
+Vuoi renderlo tuo? Modifica `styles.css` per un nuovo aspetto, oppure intervieni su `script.js` per cambiare il gameplay. Tutto il codice è ben commentato per facilitare la personalizzazione!
 
 ## 📝 Licenza
 
@@ -107,21 +107,23 @@ Licenza GPL-2.0
 
 ## 🤝 Contribuire
 
-Ancora in aggiornamento! Segnalazioni e Pull Request sono super benvenute—rendiamo insieme questo gioco ancora più fantastico!
+Aggiornamenti in corso! Segnalazioni e Pull Request sono super benvenuti—rendiamo insieme questo gioco ancora più fantastico!
 
 
 ## 🙏 Ringraziamenti
 
 Grazie ai seguenti sponsor per il supporto a questo progetto:
-- [IDC.REST](https://idc.rest/) che fornisce il server
-- [Serv00](https://www.serv00.com/) che fornisce il server
+- [Nessuno](https://#/) per aver fornito il server
+- [Serv00](https://www.serv00.com/) per aver fornito il server
 
 ---
-_Ultimo aggiornamento: Giu. 2025_
+_Ultimo aggiornamento: Ago. 2025_
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Dil</summary>
@@ -37,15 +38,15 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
-Next.js tabanlı geliştirilen bir AI resim uygulaması, aşağıdaki ana özelliklere sahiptir:
-- 🎨 Birden fazla AI modelini destekler (Sora, DALL-E, GPT vb.) ve özel model ekleme imkanı sunar
-- 🖼️ Metinden resim ve resimden resim oluşturma, çoklu görsel referans ve bölgesel düzenleme desteği
+Next.js tabanlı geliştirilen bir AI çizim uygulaması, aşağıdaki ana özelliklere sahiptir:
+- 🎨 Birden fazla AI modeli desteği (Sora, DALL-E, GPT, GEMINI vb.) ve özel model ekleme imkanı
+- 🖼️ Metinden görsel ve görselden görsel oluşturma özellikleri, çoklu görsel referansı ve alan düzenleme desteği
 - 🔐 Tüm veriler ve API anahtarları yerel olarak saklanır, gizlilik ve güvenlik sağlanır
 - 💻 Web sürümü ve masaüstü uygulama paketleme desteği, çapraz platform kullanım
 
 ## Çevrimiçi Deneyim
 
-Ziyaret adresi: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)
+Erişim adresi: [https://image-front-eight.vercel.app/](https://image-front-eight.vercel.app/)
 
 ### Uygulama Ekran Görüntüleri
 
@@ -64,28 +65,32 @@ Ziyaret adresi: [https://image-front-eight.vercel.app/](https://image-front-eigh
   - GPT 4o_Image modeli
   - GPT Image 1 modeli
   - DALL-E 3 modeli
-  - 🆕 Özel model (kendi özel modelinizi ekleyebilirsiniz)
-- ✍️ Metinden resim oluşturma özelliği
-  - Özelleştirilebilir komut desteği
-  - Görsel oranı seçimi
-  - Farklı görsel boyutlarını destekler
-- 🖼️ Resimden resim oluşturma özelliği
+  - GEMINI modeli
+  - 🆕 Özel model (kişisel model ekleme desteği)
+- 🔄 Çoklu model geçişi
+  - Farklı modeller arasında hızlı geçiş desteği
+  - Her model için ayrı yapılandırma seçenekleri
+- ✍️ Metinden görsel oluşturma
+  - Özelleştirilebilir anahtar kelime desteği
+  - Görsel oranı seçme imkanı
+  - Farklı görsel boyutları desteği
+- 🖼️ Görselden görsel oluşturma
   - Görsel düzenleme desteği
-  - Bölgesel maske düzenleme desteği
-  - Görsel kalite ayarlama desteği
-  - Çoklu görsel referans (aynı anda birden fazla görsel yükleme)
+  - Alan maskesi düzenleme desteği
+  - Görsel kalitesini ayarlama desteği
+  - Çoklu görsel referansı desteği (aynı anda birden fazla görsel yükleme)
 - 🔒 Veri güvenliği
-  - Oluşturulan tüm görseller ve geçmiş yalnızca yerel tarayıcıda saklanır
+  - Tüm oluşturulan görseller ve geçmiş kayıtlar yalnızca yerel tarayıcıda saklanır
   - Özelleştirilebilir API proxy adresi desteği
-  - API Anahtarı yapılandırması desteği
-- 📱 UI tasarımı
+  - API Anahtarı yapılandırma desteği
+- 📱 UI Tasarımı
   - Modern kullanıcı arayüzü
   - Akıcı etkileşim deneyimi
-  - Markdown biçiminde gösterim
+  - Markdown formatında görüntüleme
   - Kod vurgulama desteği
-- 🖥️ Çapraz platform desteği
-  - Masaüstü uygulaması olarak paketlenebilir (Windows, macOS, Linux)
-  - Çevrimdışı kullanım desteği (API yapılandırması gerektirir)
+- 🖥️ Platformlar arası destek
+  - Masaüstü uygulaması olarak paketleme desteği (Windows, macOS, Linux)
+  - Çevrimdışı kullanım desteği (API arayüzü yapılandırılması gerekir)
 
 ## Teknoloji Yığını
 
@@ -99,7 +104,6 @@ Ziyaret adresi: [https://image-front-eight.vercel.app/](https://image-front-eigh
 ## Yerel Geliştirme
 
 1. Projeyi klonlayın
-
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
@@ -185,90 +189,90 @@ Derleme tamamlandığında, ilgili sistemin kurulum paketini `src-tauri/target/r
      ```
      http://localhost:3000?url=https%3A%2F%2Fapi.example.com&apikey=sk-xxx
      ```
-    Not: URL içindeki özel karakterler URL kodlamasına tabi tutulmalıdır
+     Not: URL’deki özel karakterler URL kodlamasına tabi tutulmalıdır
 
-2. Üretim modunu seçin
-   - Metinden Görsele: Metin açıklamasıyla görsel oluşturma
-   - Görselden Görsele: Görsel yükleyerek düzenleme
+2. Oluşturma modunu seçin
+   - Metinden görüntü: Metin açıklamasıyla görsel oluşturun
+   - Görselden görsele: Görsel yükleyerek düzenleme yapın
 
-3. Üretim parametrelerini ayarlayın
-   - AI modeli seçin (dahili model veya özel model)
+3. Oluşturma parametrelerini ayarlayın
+   - AI modeli seçin (yerleşik model veya özel model)
    - Görsel oranını ayarlayın
-   - Görsel kalitesini ayarlayın (Görselden Görsele modunda)
+   - Görüntü kalitesini ayarlayın (görselden görsele modunda)
 
 4. Özel model yönetimi
-   - Model seçim kutusunun yanındaki ayar simgesine tıklayın
-   - Yeni model ekleyin: Model adı, model değeri girin ve model tipini seçin
-   - Modeli düzenleyin: Mevcut modelin düzenle butonuna tıklayın
-   - Modeli silin: Mevcut modelin silme butonuna tıklayın
-   - Model seçin: Modelin artı butonuna tıklayarak hemen kullanın
+   - Model seçim kutusunun yanındaki ayarlar simgesine tıklayın
+   - Yeni model ekleyin: Model adı, model değeri girin ve model türünü seçin
+   - Modeli düzenleyin: Mevcut modelin düzenle düğmesine tıklayın
+   - Modeli silin: Mevcut modelin sil düğmesine tıklayın
+   - Model seçin: Modelin artı düğmesine tıklayarak hemen kullanın
 
-5. Model tipi açıklamaları
-   - DALL-E formatı: Görsel üretim arayüzü kullanılır (/v1/images/generations)
-   - OpenAI formatı: Sohbet arayüzü kullanılır (/v1/chat/completions)
+5. Model türü açıklaması
+   - DALL-E formatı: Görsel oluşturma arayüzü kullanır (/v1/images/generations)
+   - OpenAI formatı: Sohbet arayüzü kullanır (/v1/chat/completions)
 
-6. Görsel üretimi
-   - Anahtar kelimeleri girin
-   - "Görsel Üret" butonuna tıklayın
+6. Görsel oluşturma
+   - İpucu metni girin
+   - "Görsel oluştur" düğmesine tıklayın
    - Oluşturma tamamlanana kadar bekleyin
 
 7. Görsel yönetimi
-   - Geçmiş kayıtları görüntüleyin
+   - Geçmişi görüntüleyin
    - Oluşturulan görselleri indirin
    - Mevcut görselleri düzenleyin
 
 ## Dikkat Edilmesi Gerekenler
 
-- Tüm oluşturulan görseller ve geçmiş kayıtları yalnızca yerel tarayıcıda saklanır
-- Gizli mod kullanımı veya cihaz değişikliği veri kaybına yol açar
-- Önemli görselleri zamanında indirip yedekleyin
+- Oluşturulan tüm görseller ve geçmiş yalnızca yerel tarayıcınızda saklanır
+- Gizli modu kullanmak veya cihazı değiştirmek veri kaybına yol açar
+- Önemli görselleri zamanında indirin ve yedekleyin
 - API yapılandırması güvenli şekilde tarayıcınızda saklanır, sunucuya yüklenmez
-- HTTPS siteleri, HTTP kaynaklarının yüklenmesini tarayıcı engelleyebilir; uygulama HTTP arayüzlerini otomatik olarak HTTPS'ye dönüştürür
+- HTTPS siteleri HTTP kaynaklarını yükleyemez, uygulama HTTP arayüzlerini otomatik olarak HTTPS’ye dönüştürür
 
 ## Katkı Rehberi
 
-Projeyi geliştirmek için Issue ve Pull Request göndermeye davetlisiniz.
+Projeyi geliştirmek için Issue ve Pull Request göndermeye hoş geldiniz.
 
 ## Lisans
 
 Bu proje [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) lisansı ile sunulmaktadır.
 
-Lisans kapsamında şunlara izin verilir:
-- ✅ Ticari kullanım: Yazılımı ticari amaçla kullanabilirsiniz
-- ✅ Değişiklik: Yazılımın kaynak kodunu değiştirebilirsiniz
+Lisans kapsamında şunları yapabilirsiniz:
+- ✅ Ticari kullanım: Yazılımı ticari amaçlarla kullanabilirsiniz
+- ✅ Değiştirme: Yazılımın kaynak kodunu değiştirebilirsiniz
 - ✅ Dağıtım: Yazılımı dağıtabilirsiniz
 - ✅ Kişisel kullanım: Yazılımı kişisel olarak kullanabilirsiniz
-- ✅ Patent izni: Bu lisans ayrıca patent izni de sağlar
+- ✅ Patent yetkisi: Bu lisans ayrıca patent yetkisi sağlar
 
-Ancak şu koşullara uymanız gerekir:
+Ancak aşağıdaki koşullara uymalısınız:
 - 📝 Lisans ve telif hakkı bildirimi: Orijinal lisans ve telif hakkı bildirimini eklemelisiniz
-- 📝 Değişiklik bildirimi: Orijinal koddaki büyük değişiklikleri belirtmelisiniz
-- 📝 Marka bildirimi: Katkıda bulunanların markasını kullanamazsınız
+- 📝 Değişiklik bildirimi: Orijinal koda yapılan önemli değişiklikleri belirtmelisiniz
+- 📝 Marka bildirimi: Katkı sağlayanların markalarını kullanamazsınız
 
 ---
 
-## Bana bir kahve ısmarlayın
+## Bana Bir Kahve Ismarlayın
 
 Bu proje size yardımcı olduysa, bana bir kahve ısmarlayabilirsiniz ☕️
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="WeChat ödeme kodu" width="300" />
-  <p>Bana bir kahve ısmarlayın</p>
+  <p>Bana bir kahve ısmarla</p>
 </div>
 
-## İletişim
+## İletişim Bilgileri
 
-Herhangi bir sorunuz veya öneriniz varsa, WeChat üzerinden bana ulaşabilirsiniz:
+Herhangi bir sorunuz veya öneriniz varsa, bana WeChat üzerinden ulaşabilirsiniz:
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg" alt="WeChat iletişim bilgisi" width="300" />
-  <p>Karekodu tarayarak WeChat ekleyin</p>
+  <p>Karekodu tarayarak WeChat ekle</p>
 </div>
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

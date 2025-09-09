@@ -1,4 +1,5 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 语言</summary>
     <div>
@@ -38,7 +39,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
 
 一个基于 Next.js 开发的 AI 绘画应用，具有以下主要功能：
-- 🎨 支持多种 AI 模型（Sora、DALL-E、GPT等）及自定义模型添加
+- 🎨 支持多种 AI 模型（Sora、DALL-E、GPT,GEMINI等）及自定义模型添加
 - 🖼️ 提供文生图和图生图功能，支持多图参考和区域编辑
 - 🔐 所有数据和API密钥本地存储，保障隐私安全
 - 💻 支持网页版及桌面应用打包，跨平台使用
@@ -64,7 +65,11 @@
   - GPT 4o_Image 模型
   - GPT Image 1 模型
   - DALL-E 3 模型
+  - GEMINI 模型
   - 🆕 自定义模型（支持添加私有模型）
+- 🔄 多模型切换
+  - 支持在不同模型之间快速切换
+  - 每个模型都有独立的配置选项
 - ✍️ 文生图功能
   - 支持自定义提示词
   - 可选择图片比例
@@ -73,19 +78,19 @@
   - 支持图片编辑
   - 支持区域遮罩编辑
   - 支持图片质量调整
-  - 支持多图参考（同时上传多张图片）
+  - 支持多图参考（可同时上传多张图片）
 - 🔒 数据安全
-  - 所有生成的图片和历史记录仅保存在本地浏览器中
+  - 所有生成的图片和历史记录仅保存在本地浏览器
   - 支持自定义 API 代理地址
   - 支持 API Key 配置
 - 📱 UI设计
-  - 现代化的用户界面
-  - 流畅的交互体验
+  - 现代化用户界面
+  - 流畅交互体验
   - Markdown 格式展示
-  - 代码高亮支持
+  - 支持代码高亮
 - 🖥️ 跨平台支持
   - 支持打包为桌面应用（Windows、macOS、Linux）
-  - 支持离线使用（需要配置API接口）
+  - 支持离线使用（需配置API接口）
 
 ## 技术栈
 
@@ -94,12 +99,11 @@
 - Tailwind CSS
 - shadcn/ui
 - React
-- Tauri (桌面应用打包)
+- Tauri（桌面应用打包）
 
 ## 本地开发
 
 1. 克隆项目
-
 ```bash
 git clone https://github.com/HappyDongD/magic_image.git
 cd magic_image
@@ -233,7 +237,7 @@ npm run desktop
 
 ## 贡献指南
 
-欢迎提交 Issue 和 Pull Request 来帮助改进项目。
+欢迎提交 Issue 和 Pull Request 帮助改进项目。
 
 ## 许可证
 
@@ -244,10 +248,10 @@ npm run desktop
 - ✅ 修改：可以修改软件源代码
 - ✅ 分发：可以分发软件
 - ✅ 私人使用：可以私人使用软件
-- ✅ 专利授权：本许可证还提供了专利授权
+- ✅ 专利授权：本许可证还提供专利授权
 
 但必须遵守以下条件：
-- 📝 许可和版权声明：您必须包含原始的许可证和版权声明
+- 📝 许可和版权声明：您必须包含原始许可证和版权声明
 - 📝 声明更改：您必须声明对原始代码的重大更改
 - 📝 商标声明：不得使用贡献者的商标
 
@@ -255,7 +259,7 @@ npm run desktop
 
 ## 请我喝杯咖啡
 
-如果这个项目对你有帮助，欢迎请我喝杯咖啡 ☕️
+如果这个项目对您有帮助，欢迎请我喝杯咖啡 ☕️
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-pay.jpg" alt="微信收款码" width="300" />
@@ -264,7 +268,7 @@ npm run desktop
 
 ## 联系方式
 
-如果您有任何问题或建议，欢迎通过微信联系我：
+如有任何问题或建议，欢迎通过微信联系我：
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/HappyDongD/magic_image/master/./public/wechat-connect.jpg" alt="微信联系方式" width="300" />
@@ -275,6 +279,6 @@ npm run desktop
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---

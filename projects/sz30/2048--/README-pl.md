@@ -1,6 +1,6 @@
 <div align="right">
   <details>
-    <summary >🌐 Inny język</summary>
+    <summary >🌐 Inne języki</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=sz30&project=2048-magic&lang=ja">日本語</a>
@@ -30,35 +30,35 @@
 
 # 🎮 2048++
 
-Ulepszona wersja klasycznej gry 2048, teraz z jeszcze większą liczbą zabawnych funkcji! To mały projekt, który stworzyłem w wolnym czasie – mam nadzieję, że sprawi Ci radość!
+Ulepszona wersja klasycznej gry 2048, teraz z jeszcze większą ilością fajnych funkcji! To mały projekt, który stworzyłem w wolnym czasie—mam nadzieję, że sprawi Ci radość!
 
 ## 🎯 Wprowadzenie do gry
 
-2048 to prosta, ale wciągająca gra polegająca na łączeniu liczb. Na siatce 4x4 przesuwaj w górę, dół, lewo lub prawo, aby łączyć kafelki z tymi samymi liczbami. Cel? Osiągnąć 2048 (ale możesz grać dalej, by zdobywać jeszcze wyższe wyniki)!
+2048 to prosta, ale wciągająca gra polegająca na łączeniu liczb. Na planszy 4x4 przesuwaj kafelki w górę, dół, lewo lub prawo, aby łączyć te o tej samej wartości. Cel? Osiągnąć 2048 (a potem możesz grać dalej dla jeszcze wyższych wyników)!
 
 **Jak grać:**
-- Używaj strzałek lub klawiszy WASD, aby przesuwać kafelki.
-- Gdy dwa kafelki z tym samym numerem się zderzą, połączą się w jeden.
-- Po każdym ruchu w losowym pustym miejscu pojawi się nowa 2 lub 4.
+- Użyj strzałek lub klawiszy WASD, aby przesuwać kafelki.
+- Gdy dwa kafelki z tym samym numerem zderzą się, łączą się w jeden.
+- Po każdym ruchu w losowym wolnym miejscu pojawia się nowa 2 lub 4.
 - Gra kończy się, gdy nie ma już możliwych ruchów.
 
-## ✨ Specjalne funkcje
+## ✨ Funkcje specjalne
 
-### 1. Funkcja Cofnij
+### 1. Funkcja Cofania
 - Zrobiłeś zły ruch? Bez obaw!
-- Po prostu kliknij przycisk "Cofnij", aby wrócić o jeden krok.
-- Możesz cofać się dowolnie wiele razy, aż do początku gry.
-- Nigdy więcej przypadkowy ruch nie popsuje Ci rozgrywki!
+- Wystarczy nacisnąć przycisk "Cofnij", aby wrócić o jeden krok.
+- Możesz cofać tyle razy, ile chcesz, aż do początku gry.
+- Już nigdy przypadkowe dotknięcie nie zepsuje ci rozgrywki!
 
-### 2. Sekretny tryb oszustwa
+### 2. Sekretny Tryb Oszustwa
 - Wpisz magiczną sekwencję: ←←→→ →→←← (lewo, lewo, prawo, prawo, prawo, prawo, lewo, lewo)
 - Wszystkie kafelki zamienią się magicznie w 128!
-- To wielkanocny żart, tylko dla zabawy.
-- Wskazówka: Oszukiwanie jest fajne, ale nie przesadzaj! 😉
+- To wielkanocny gadżet, tylko dla zabawy.
+- Porada: Oszukiwanie jest fajne, ale nie przesadzaj! 😉
 
 ## 🎯 Demo
 
-🎯 Zagraj tutaj: [2048.765431.xyz](https://2048.765431.xyz/)
+🎯 : [Zagraj tutaj](http://34.150.49.127:5000/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -99,7 +99,7 @@ python 2048.py
 
 ## 🎨 Dostosowywanie
 
-Chcesz dostosować do własnych potrzeb? Zmień `styles.css`, aby nadać nowy wygląd, lub zajrzyj do `script.js`, aby zmienić rozgrywkę. Cały kod jest dobrze skomentowany, więc modyfikacja jest łatwa!
+Chcesz nadać temu swój styl? Zmień `styles.css`, by uzyskać nowy wygląd, albo zajrzyj do `script.js`, aby zmodyfikować rozgrywkę. Cały kod jest dobrze skomentowany, co ułatwia modyfikacje!
 
 ## 📝 Licencja
 
@@ -107,21 +107,23 @@ Licencja GPL-2.0
 
 ## 🤝 Współtworzenie
 
-Ciągłe aktualizacje! Zgłoszenia problemów i Pull Requesty są bardzo mile widziane — razem sprawmy, aby ta gra była jeszcze lepsza!
+Wciąż aktualizujemy! Zgłaszanie błędów i Pull Requesty są bardzo mile widziane—razem sprawmy, by ta gra była jeszcze lepsza!
 
 
 ## 🙏 Podziękowania
 
 Podziękowania dla następujących sponsorów za wsparcie tego projektu:
-- [IDC.REST](https://idc.rest/) za udostępnienie serwera
+- [Brak](https://#/) za udostępnienie serwera
 - [Serv00](https://www.serv00.com/) za udostępnienie serwera
 
 ---
-_Ostatnia aktualizacja: czerwiec 2025_
+_Ostatnia aktualizacja: sierpień 2025_
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
 
 ---
