@@ -1,6 +1,39 @@
+
 # mcp-chat
 
-MCP 서버 및 에이전트를 테스트하고 평가하기 위한 오픈 소스 일반 MCP 클라이언트
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+
+</div>
+
+mcp 서버 및 에이전트 테스트와 평가를 위한 오픈 소스 범용 MCP 클라이언트
 
 <p align="center">
   <img width="600" src="https://raw.githubusercontent.com/Flux159/mcp-chat/refs/heads/main/mcpchat.svg">
@@ -8,9 +41,9 @@ MCP 서버 및 에이전트를 테스트하고 평가하기 위한 오픈 소스
 
 ## 빠른 시작
 
-환경 변수에 `ANTHROPIC_API_KEY`가 설정되어 있거나 프로젝트 루트의 .env 파일에 내보내져 있는지 확인하세요. API 키는 [Anthropic 콘솔 키 페이지](https://console.anthropic.com/settings/keys)에서 가입하여 받을 수 있습니다.
+`ANTHROPIC_API_KEY`가 환경 변수로 내보내졌거나 프로젝트 루트의 .env 파일에 있는지 확인하세요. API 키는 [Anthropic 콘솔 키 페이지](https://console.anthropic.com/settings/keys)에서 회원가입 후 얻을 수 있습니다.
 
-CLI에서 파일 시스템 MCP 서버와 함께 대화형 채팅 프롬프트를 실행하는 간단한 사용 사례:
+CLI에서 파일 시스템 MCP 서버와 상호작용하는 채팅 프롬프트를 생성하는 간단한 사용 예시:
 
 ```shell
 npx mcp-chat --server "npx -y @modelcontextprotocol/server-filesystem /Users/$USER/Desktop"
@@ -176,6 +209,6 @@ bun run dockerbuild
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-16
 
 ---

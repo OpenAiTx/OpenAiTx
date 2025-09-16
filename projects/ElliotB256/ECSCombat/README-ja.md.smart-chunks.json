@@ -1,0 +1,195 @@
+[
+  {
+    "Id": 1,
+    "Content": "# ECSCombat\n\nA sci-fi battle simulation, using Unity's ECS framework.\n\n[![A preview image](https://img.youtube.com/vi/S2RJfbJly_A/0.jpg)](https://www.youtube.com/watch?v=S2RJfbJly_A)\n\nA video of an infinite battle can be seen [here](https://www.youtube.com/watch?v=S2RJfbJly_A).\n\n## Suggestions of what to look at:\n\n* Different AI behaviours can be found in `Battle/AI`.\n* Combat systems are found in `Battle/Combat`. This includes different types of weapon (projectile/instant), weapon effectiveness based on range, intercepting attacks with shields.\n* Equipment and gear are found in `Battle/Equipment`. Ships can have different equipment attached, and these can have effects like changing the speed or turn rate of ships. Equipment can be damaged and disabled when a ship is attacked, eg damaged engines result in ships being crippled.\n\n## Technical details:\n\n* Unity 2020.1.0b7\n* Universal Render Pipeline (ship shaders in shader graph)\n\n## A word of caution!\n\nThis project was originally started as a way for me to practice programming in the ECS (Entity-Component-System) style, back when the Unity Entities package was still very young.\nSince it began, there have been substantial changes to both the Unity Entities API and what is considered best practice.\nI've made an effort to keep things updated when I can, but given my finite amount of free time there will invariably be some places which are in need of work.\nSo, by all means take inspiration from it, but bear in mind there may be a better way to do some things!\n\n## Final Acknowledgements\n\nSome of the sprites are made by me, but the good looking ones were taken from [here](https://opengameart.org/content/spaceships-1) where they are accredited to [Wuhu](https://opengameart.org/users/wuhu).\n",
+    "ContentSha": "VIm//bVA/mfI6l+J+fT/Wx+WfPDF8kJUjnGcpBhZevw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ECSCombat\n\nUnityのECSフレームワークを使用したSFバトルシミュレーション。\n\n[![プレビュー画像](https://img.youtube.com/vi/S2RJfbJly_A/0.jpg)](https://www.youtube.com/watch?v=S2RJfbJly_A)\n\n無限バトルの動画は[こちら](https://www.youtube.com/watch?v=S2RJfbJly_A)でご覧いただけます。\n\n## 注目すべきポイントの提案：\n\n* 様々なAI挙動は `Battle/AI` にあります。\n* 戦闘システムは `Battle/Combat` にあります。これには異なるタイプの武器（投射物/即時）、距離に基づく武器の効果、シールドによる攻撃の迎撃が含まれます。\n* 装備やギアは `Battle/Equipment` にあります。船には異なる装備を取り付けることができ、これらは船の速度や旋回率の変更などの効果を持ちます。装備は攻撃を受けると損傷し、無効化されることがあります。例えば、エンジンが損傷すると船が機能不全になります。\n\n## 技術的詳細：\n\n* Unity 2020.1.0b7\n* ユニバーサルレンダーパイプライン（シップシェーダーはシェーダーグラフ使用）\n\n## 注意事項！\n\nこのプロジェクトはもともと、Unity Entitiesパッケージがまだ非常に若かった頃に、ECS（Entity-Component-System）スタイルのプログラミング練習用として始めました。\n開始以来、Unity Entities APIとベストプラクティスには大幅な変更がありました。\n可能な限り更新を試みていますが、私の限られた自由時間のため、改善が必要な箇所も必ずあります。\nですので、ぜひ参考にしてください。ただし、より良い方法が存在する可能性があることを念頭に置いてください！\n\n## 最後の謝辞\n\n一部のスプライトは私が作成しましたが、良い見た目のものは[こちら](https://opengameart.org/content/spaceships-1)から取得し、作者は[Wuhu](https://opengameart.org/users/wuhu)としてクレジットされています。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Gz5G3nwyNfo3zB7Hos4gah6C0ZjzYAOmgTROuxqKXRU=",
+        "originContent": "# ECSCombat",
+        "translatedContent": "# ECSCombat"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "MWyXJzAE+w08oMrtOl5eZCzEUu1peqwZpAuF5TX9nyo=",
+        "originContent": "A sci-fi battle simulation, using Unity's ECS framework.",
+        "translatedContent": "UnityのECSフレームワークを使用したSFバトルシミュレーション。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "NyPr024VC69riNQASTghgR86DUlcg+12Z720G0gazjI=",
+        "originContent": "[![A preview image](https://img.youtube.com/vi/S2RJfbJly_A/0.jpg)](https://www.youtube.com/watch?v=S2RJfbJly_A)",
+        "translatedContent": "[![プレビュー画像](https://img.youtube.com/vi/S2RJfbJly_A/0.jpg)](https://www.youtube.com/watch?v=S2RJfbJly_A)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "+i/oGex59fYprImRgotwvBMOEInZFiCieoxqPt0Pnm4=",
+        "originContent": "A video of an infinite battle can be seen [here](https://www.youtube.com/watch?v=S2RJfbJly_A).",
+        "translatedContent": "無限バトルの動画は[こちら](https://www.youtube.com/watch?v=S2RJfbJly_A)でご覧いただけます。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "PtYTugQ2E6zhIdEkSLnyA5vSm8SgjW/wNsNATb1yAnk=",
+        "originContent": "## Suggestions of what to look at:",
+        "translatedContent": "## 注目すべきポイントの提案："
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ogt4DD21694h01yjXlHa5JczxVRvRF/oDo4fOdUUQdw=",
+        "originContent": "* Different AI behaviours can be found in `Battle/AI`.",
+        "translatedContent": "* 様々なAI挙動は `Battle/AI` にあります。"
+      },
+      {
+        "row": 12,
+        "rowsha": "gsFyx9RpkZasCOaASTcyg1TKTs7CYMXXYhF+B7qPHuA=",
+        "originContent": "* Combat systems are found in `Battle/Combat`. This includes different types of weapon (projectile/instant), weapon effectiveness based on range, intercepting attacks with shields.",
+        "translatedContent": "* 戦闘システムは `Battle/Combat` にあります。これには異なるタイプの武器（投射物/即時）、距離に基づく武器の効果、シールドによる攻撃の迎撃が含まれます。"
+      },
+      {
+        "row": 13,
+        "rowsha": "sTYH55pAmDxUAzOCWUyGTisHzGDYqAWRzeR18edtNQ4=",
+        "originContent": "* Equipment and gear are found in `Battle/Equipment`. Ships can have different equipment attached, and these can have effects like changing the speed or turn rate of ships. Equipment can be damaged and disabled when a ship is attacked, eg damaged engines result in ships being crippled.",
+        "translatedContent": "* 装備やギアは `Battle/Equipment` にあります。船には異なる装備を取り付けることができ、これらは船の速度や旋回率の変更などの効果を持ちます。装備は攻撃を受けると損傷し、無効化されることがあります。例えば、エンジンが損傷すると船が機能不全になります。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "4RpACG+LHQRsxq8xpGIDExEthieYJTuk65Vd5uuUhlo=",
+        "originContent": "## Technical details:",
+        "translatedContent": "## 技術的詳細："
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "tg2rFLA2tIl1g9TPiB19cg5LuJ2Rnio61oCcxf/rF/A=",
+        "originContent": "* Unity 2020.1.0b7",
+        "translatedContent": "* Unity 2020.1.0b7"
+      },
+      {
+        "row": 18,
+        "rowsha": "K4D8WjnTgbdjoqB7Qe2IFxjgfvQ/tBuiGE+N4+fW4mo=",
+        "originContent": "* Universal Render Pipeline (ship shaders in shader graph)",
+        "translatedContent": "* ユニバーサルレンダーパイプライン（シップシェーダーはシェーダーグラフ使用）"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "xwQmBAEPbhti4mO4CD6yBBvQr/tyidn/4bj9Wyxto4w=",
+        "originContent": "## A word of caution!",
+        "translatedContent": "## 注意事項！"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "NtGYZHwQ8t720I6e/VCWmc7m/K1/BXcCmwY+boGPTyE=",
+        "originContent": "This project was originally started as a way for me to practice programming in the ECS (Entity-Component-System) style, back when the Unity Entities package was still very young.",
+        "translatedContent": "このプロジェクトはもともと、Unity Entitiesパッケージがまだ非常に若かった頃に、ECS（Entity-Component-System）スタイルのプログラミング練習用として始めました。"
+      },
+      {
+        "row": 23,
+        "rowsha": "CQ2BQZgwPWGOa+Mx9KVKSzQwDaN1vJ2RZXd2qLeI1os=",
+        "originContent": "Since it began, there have been substantial changes to both the Unity Entities API and what is considered best practice.",
+        "translatedContent": "開始以来、Unity Entities APIとベストプラクティスには大幅な変更がありました。"
+      },
+      {
+        "row": 24,
+        "rowsha": "wFzrjDFKhc8SBeGcMpunI7k18I/25HkYupEsa9qkHHU=",
+        "originContent": "I've made an effort to keep things updated when I can, but given my finite amount of free time there will invariably be some places which are in need of work.",
+        "translatedContent": "可能な限り更新を試みていますが、私の限られた自由時間のため、改善が必要な箇所も必ずあります。"
+      },
+      {
+        "row": 25,
+        "rowsha": "zH6bOsZdh7GgfPxcbUBXiN4Q55C2Fy5awWouhu2AeD0=",
+        "originContent": "So, by all means take inspiration from it, but bear in mind there may be a better way to do some things!",
+        "translatedContent": "ですので、ぜひ参考にしてください。ただし、より良い方法が存在する可能性があることを念頭に置いてください！"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "jgZuAjaardw+yJk1YA1D3Jgo6H1Bf9awpOidgktjDBU=",
+        "originContent": "## Final Acknowledgements",
+        "translatedContent": "## 最後の謝辞"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "fzEEn+GCbrX+d17AYmHPcmAd+rz9vB0J1TxWLaqRjOw=",
+        "originContent": "Some of the sprites are made by me, but the good looking ones were taken from [here](https://opengameart.org/content/spaceships-1) where they are accredited to [Wuhu](https://opengameart.org/users/wuhu).",
+        "translatedContent": "一部のスプライトは私が作成しましたが、良い見た目のものは[こちら](https://opengameart.org/content/spaceships-1)から取得し、作者は[Wuhu](https://opengameart.org/users/wuhu)としてクレジットされています。"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "Id": 1,
+    "Content": "# ECSCombat\n\nA sci-fi battle simulation, using Unity's ECS framework.\n\n[![A preview image](https://img.youtube.com/vi/S2RJfbJly_A/0.jpg)](https://www.youtube.com/watch?v=S2RJfbJly_A)\n\nA video of an infinite battle can be seen [here](https://www.youtube.com/watch?v=S2RJfbJly_A).\n\n## Suggestions of what to look at:\n\n* Different AI behaviours can be found in `Battle/AI`.\n* Combat systems are found in `Battle/Combat`. This includes different types of weapon (projectile/instant), weapon effectiveness based on range, intercepting attacks with shields.\n* Equipment and gear are found in `Battle/Equipment`. Ships can have different equipment attached, and these can have effects like changing the speed or turn rate of ships. Equipment can be damaged and disabled when a ship is attacked, eg damaged engines result in ships being crippled.\n\n## Technical details:\n\n* Unity 2020.1.0b7\n* Universal Render Pipeline (ship shaders in shader graph)\n\n## A word of caution!\n\nThis project was originally started as a way for me to practice programming in the ECS (Entity-Component-System) style, back when the Unity Entities package was still very young.\nSince it began, there have been substantial changes to both the Unity Entities API and what is considered best practice.\nI've made an effort to keep things updated when I can, but given my finite amount of free time there will invariably be some places which are in need of work.\nSo, by all means take inspiration from it, but bear in mind there may be a better way to do some things!\n\n## Final Acknowledgements\n\nSome of the sprites are made by me, but the good looking ones were taken from [here](https://opengameart.org/content/spaceships-1) where they are accredited to [Wuhu](https://opengameart.org/users/wuhu).\n",
+    "ContentSha": "VIm//bVA/mfI6l+J+fT/Wx+WfPDF8kJUjnGcpBhZevw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ECSCombat\n\n一个科幻战斗模拟，使用Unity的ECS框架。\n\n[![预览图片](https://img.youtube.com/vi/S2RJfbJly_A/0.jpg)](https://www.youtube.com/watch?v=S2RJfbJly_A)\n\n无限战斗的视频可以在[这里](https://www.youtube.com/watch?v=S2RJfbJly_A)观看。\n\n## 建议查看内容：\n\n* 不同的AI行为可以在 `Battle/AI` 中找到。\n* 战斗系统位于 `Battle/Combat`。包括不同类型的武器（投射物/即时），基于距离的武器效果，使用护盾拦截攻击。\n* 装备和器材位于 `Battle/Equipment`。飞船可以装配不同的设备，这些设备可以影响飞船的速度或转向速度。设备在飞船被攻击时可能受损并失效，例如受损的引擎会导致飞船瘫痪。\n\n## 技术细节：\n\n* Unity 2020.1.0b7\n* 通用渲染管线（使用Shader Graph制作飞船着色器）\n\n## 一句提醒！\n\n该项目最初是我练习ECS（实体-组件-系统）编程风格时创建的，那时Unity Entities包还很年轻。\n自那以后，Unity Entities API和最佳实践都发生了重大变化。\n我尽力在有时间时保持更新，但由于自由时间有限，仍不可避免地存在一些需要改进的地方。\n所以，完全可以从中获得灵感，但请注意可能有更好的实现方式！\n\n## 最后的致谢\n\n部分精灵图是我制作的，但那些好看的图像取自[这里](https://opengameart.org/content/spaceships-1)，作者是[Wuhu](https://opengameart.org/users/wuhu)。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Gz5G3nwyNfo3zB7Hos4gah6C0ZjzYAOmgTROuxqKXRU=",
+        "originContent": "# ECSCombat",
+        "translatedContent": "# ECSCombat"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "MWyXJzAE+w08oMrtOl5eZCzEUu1peqwZpAuF5TX9nyo=",
+        "originContent": "A sci-fi battle simulation, using Unity's ECS framework.",
+        "translatedContent": "一个科幻战斗模拟，使用Unity的ECS框架。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "NyPr024VC69riNQASTghgR86DUlcg+12Z720G0gazjI=",
+        "originContent": "[![A preview image](https://img.youtube.com/vi/S2RJfbJly_A/0.jpg)](https://www.youtube.com/watch?v=S2RJfbJly_A)",
+        "translatedContent": "[![预览图片](https://img.youtube.com/vi/S2RJfbJly_A/0.jpg)](https://www.youtube.com/watch?v=S2RJfbJly_A)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "+i/oGex59fYprImRgotwvBMOEInZFiCieoxqPt0Pnm4=",
+        "originContent": "A video of an infinite battle can be seen [here](https://www.youtube.com/watch?v=S2RJfbJly_A).",
+        "translatedContent": "无限战斗的视频可以在[这里](https://www.youtube.com/watch?v=S2RJfbJly_A)观看。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "PtYTugQ2E6zhIdEkSLnyA5vSm8SgjW/wNsNATb1yAnk=",
+        "originContent": "## Suggestions of what to look at:",
+        "translatedContent": "## 建议查看内容："
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ogt4DD21694h01yjXlHa5JczxVRvRF/oDo4fOdUUQdw=",
+        "originContent": "* Different AI behaviours can be found in `Battle/AI`.",
+        "translatedContent": "* 不同的AI行为可以在 `Battle/AI` 中找到。"
+      },
+      {
+        "row": 12,
+        "rowsha": "gsFyx9RpkZasCOaASTcyg1TKTs7CYMXXYhF+B7qPHuA=",
+        "originContent": "* Combat systems are found in `Battle/Combat`. This includes different types of weapon (projectile/instant), weapon effectiveness based on range, intercepting attacks with shields.",
+        "translatedContent": "* 战斗系统位于 `Battle/Combat`。包括不同类型的武器（投射物/即时），基于距离的武器效果，使用护盾拦截攻击。"
+      },
+      {
+        "row": 13,
+        "rowsha": "sTYH55pAmDxUAzOCWUyGTisHzGDYqAWRzeR18edtNQ4=",
+        "originContent": "* Equipment and gear are found in `Battle/Equipment`. Ships can have different equipment attached, and these can have effects like changing the speed or turn rate of ships. Equipment can be damaged and disabled when a ship is attacked, eg damaged engines result in ships being crippled.",
+        "translatedContent": "* 装备和器材位于 `Battle/Equipment`。飞船可以装配不同的设备，这些设备可以影响飞船的速度或转向速度。设备在飞船被攻击时可能受损并失效，例如受损的引擎会导致飞船瘫痪。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "4RpACG+LHQRsxq8xpGIDExEthieYJTuk65Vd5uuUhlo=",
+        "originContent": "## Technical details:",
+        "translatedContent": "## 技术细节："
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "tg2rFLA2tIl1g9TPiB19cg5LuJ2Rnio61oCcxf/rF/A=",
+        "originContent": "* Unity 2020.1.0b7",
+        "translatedContent": "* Unity 2020.1.0b7"
+      },
+      {
+        "row": 18,
+        "rowsha": "K4D8WjnTgbdjoqB7Qe2IFxjgfvQ/tBuiGE+N4+fW4mo=",
+        "originContent": "* Universal Render Pipeline (ship shaders in shader graph)",
+        "translatedContent": "* 通用渲染管线（使用Shader Graph制作飞船着色器）"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "xwQmBAEPbhti4mO4CD6yBBvQr/tyidn/4bj9Wyxto4w=",
+        "originContent": "## A word of caution!",
+        "translatedContent": "## 一句提醒！"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "NtGYZHwQ8t720I6e/VCWmc7m/K1/BXcCmwY+boGPTyE=",
+        "originContent": "This project was originally started as a way for me to practice programming in the ECS (Entity-Component-System) style, back when the Unity Entities package was still very young.",
+        "translatedContent": "该项目最初是我练习ECS（实体-组件-系统）编程风格时创建的，那时Unity Entities包还很年轻。"
+      },
+      {
+        "row": 23,
+        "rowsha": "CQ2BQZgwPWGOa+Mx9KVKSzQwDaN1vJ2RZXd2qLeI1os=",
+        "originContent": "Since it began, there have been substantial changes to both the Unity Entities API and what is considered best practice.",
+        "translatedContent": "自那以后，Unity Entities API和最佳实践都发生了重大变化。"
+      },
+      {
+        "row": 24,
+        "rowsha": "wFzrjDFKhc8SBeGcMpunI7k18I/25HkYupEsa9qkHHU=",
+        "originContent": "I've made an effort to keep things updated when I can, but given my finite amount of free time there will invariably be some places which are in need of work.",
+        "translatedContent": "我尽力在有时间时保持更新，但由于自由时间有限，仍不可避免地存在一些需要改进的地方。"
+      },
+      {
+        "row": 25,
+        "rowsha": "zH6bOsZdh7GgfPxcbUBXiN4Q55C2Fy5awWouhu2AeD0=",
+        "originContent": "So, by all means take inspiration from it, but bear in mind there may be a better way to do some things!",
+        "translatedContent": "所以，完全可以从中获得灵感，但请注意可能有更好的实现方式！"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "jgZuAjaardw+yJk1YA1D3Jgo6H1Bf9awpOidgktjDBU=",
+        "originContent": "## Final Acknowledgements",
+        "translatedContent": "## 最后的致谢"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "fzEEn+GCbrX+d17AYmHPcmAd+rz9vB0J1TxWLaqRjOw=",
+        "originContent": "Some of the sprites are made by me, but the good looking ones were taken from [here](https://opengameart.org/content/spaceships-1) where they are accredited to [Wuhu](https://opengameart.org/users/wuhu).",
+        "translatedContent": "部分精灵图是我制作的，但那些好看的图像取自[这里](https://opengameart.org/content/spaceships-1)，作者是[Wuhu](https://opengameart.org/users/wuhu)。"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

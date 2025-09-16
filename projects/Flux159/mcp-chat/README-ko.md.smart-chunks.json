@@ -1,94 +1,305 @@
 [
   {
     "Id": 1,
-    "Content": "# mcp-chat\n\nOpen Source Generic MCP Client for testing & evaluating mcp servers and agents\n\n<p align=\"center\">\n  <img width=\"600\" src=\"https://raw.githubusercontent.com/Flux159/mcp-chat/refs/heads/main/mcpchat.svg\">\n</p>\n\n## Quickstart\n\nMake sure that you have `ANTHROPIC_API_KEY` exported in your environment or in a .env file in the root of the project. You can get an API key by signing up at the [Anthropic Console keys page](https://console.anthropic.com/settings/keys).\n\nSimple use case that spawns an interactive chat prompt with the filesystem MCP server from CLI:\n",
-    "ContentSha": "VmQndoqsKijmGhRomg9tMa1xZAfZK+zj7sh15T+bJ9w=",
+    "Content": "\n# mcp-chat\n\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n\n</div>\n\nOpen Source Generic MCP Client for testing & evaluating mcp servers and agents\n\n<p align=\"center\">\n  <img width=\"600\" src=\"https://raw.githubusercontent.com/Flux159/mcp-chat/refs/heads/main/mcpchat.svg\">\n</p>",
+    "ContentSha": "4z7l/nWWwO3liqzT/z1n5L1oyvvEsqxtaexCc6+sD8A=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# mcp-chat\n\nMCP 서버 및 에이전트를 테스트하고 평가하기 위한 오픈 소스 일반 MCP 클라이언트\n\n<p align=\"center\">\n  <img width=\"600\" src=\"https://raw.githubusercontent.com/Flux159/mcp-chat/refs/heads/main/mcpchat.svg\">\n</p>\n\n## 빠른 시작\n\n환경 변수에 `ANTHROPIC_API_KEY`가 설정되어 있거나 프로젝트 루트의 .env 파일에 내보내져 있는지 확인하세요. API 키는 [Anthropic 콘솔 키 페이지](https://console.anthropic.com/settings/keys)에서 가입하여 받을 수 있습니다.\n\nCLI에서 파일 시스템 MCP 서버와 함께 대화형 채팅 프롬프트를 실행하는 간단한 사용 사례:\n",
+    "Translation": "\n# mcp-chat\n\n<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n\n</div>\n\nmcp 서버 및 에이전트 테스트와 평가를 위한 오픈 소스 범용 MCP 클라이언트\n\n<p align=\"center\">\n  <img width=\"600\" src=\"https://raw.githubusercontent.com/Flux159/mcp-chat/refs/heads/main/mcpchat.svg\">\n</p>",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
         "rowsha": "uT22Bh/nmIejty9LVSbHquljj87ynK+9XbbqXgXBQJs=",
         "originContent": "# mcp-chat",
         "translatedContent": "# mcp-chat"
       },
       {
-        "row": 2,
+        "row": 3,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "kZCZNgOeB+Udnk2vX1sXZaW9zm+JpfRZeGf1d8MdYC8=",
-        "originContent": "Open Source Generic MCP Client for testing & evaluating mcp servers and agents",
-        "translatedContent": "MCP 서버 및 에이전트를 테스트하고 평가하기 위한 오픈 소스 일반 MCP 클라이언트"
       },
       {
         "row": 4,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 6,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 언어</summary>"
+      },
+      {
+        "row": 7,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 8,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "IsTBtkg7HgGppEgAoznAz5ErKYuwfpa2123vEU8OSU4=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=en\">English</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "CjyXhs8WJtz4QMgCskXzTdMbSaHsaS7lnp8YztAZUx8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "M7rXdKKrkx+7ivWVOhsSzKeOwAVbqzE/NjNoErY9BnQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "YpXqJjHjo9k5ysvNS2zl4fSbemNz0Oij5UaHOTWQfVk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "cygFWqRwwnSiEGJNHz9x1/axKONOVgS7Xa2RitBf/+g=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "kjRFGO3iJ2wFDvSUiSlwJMzZRO9nr7sPmsESYqXAE+8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "6AeZzXhLkpypJl5FsUDg81W3nqK/VYFZ/NVEowxIVrM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "xsVU2NdPISU7cUQXcE76yau7KjfH6P0TjeyIyS0E1zY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=fr\">Français</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "pvSaJmSigcOU89LmanczXlxVhsgalg/bIv0CtiOK1TA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "/tNytBo1WcK6y7VyTNcQUT07cybh4tukFrMy59hZeUc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=es\">Español</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "hDTZO4RbD9tcGPxrFfBWN5u+5lwqnPEJErDz3xJkC84=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "1EfY428CT/eQfi6Q2/DVE/OA3NdT4ODft142ky5gjuw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "61A6ri/tX7WLuoUP9M2HY0O10QFqfNy7gexjVRl6zoc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=pt\">Português</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "4aKFemm9BAYtYIA8q1hV/8Cca+xw/sAbDwytyeruDk8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "gxFo9sdrH2pkv6S23CsQaXrUF9ze275fc1hq+hrkVeg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "eqN3LS4sB+sIO6NYLaLh0UVWwpdHQafTDVySpHTOGVw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "S8t9fNF08Zc+e1jO9EK2gkaxWQc9BcCPzgMTicAl9RI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "fzQRcaRAw56fZI3ko2LEuF9MlAILojKURyQ1TCMgqd4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "fp3RMQ4+ISIb1GIsuizOjjBpzmHHVBm3+WFTRZkPNBI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 28,
+        "rowsha": "zBExl351LQuN1TZXzVOfePvfSsp8snhCOozIByQdSvQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 29,
+        "rowsha": "u71lCbJMOEFfLwz9e+yJPD7VvYPYg8SFvHsWiPEp+sk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Flux159&project=mcp-chat&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 30,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 31,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 33,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 5,
+        "row": 34,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "kZCZNgOeB+Udnk2vX1sXZaW9zm+JpfRZeGf1d8MdYC8=",
+        "originContent": "Open Source Generic MCP Client for testing & evaluating mcp servers and agents",
+        "translatedContent": "mcp 서버 및 에이전트 테스트와 평가를 위한 오픈 소스 범용 MCP 클라이언트"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
         "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
         "originContent": "<p align=\"center\">",
         "translatedContent": "<p align=\"center\">"
       },
       {
-        "row": 6,
+        "row": 39,
         "rowsha": "k+Sw/RUz6VmhWwi8JBFraLr7hAEI/lWi+nm2pUSoNuU=",
         "originContent": "  <img width=\"600\" src=\"https://raw.githubusercontent.com/Flux159/mcp-chat/refs/heads/main/mcpchat.svg\">",
         "translatedContent": "  <img width=\"600\" src=\"https://raw.githubusercontent.com/Flux159/mcp-chat/refs/heads/main/mcpchat.svg\">"
       },
       {
-        "row": 7,
+        "row": 40,
         "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
         "originContent": "</p>",
         "translatedContent": "</p>"
-      },
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n## Quickstart\n\nMake sure that you have `ANTHROPIC_API_KEY` exported in your environment or in a .env file in the root of the project. You can get an API key by signing up at the [Anthropic Console keys page](https://console.anthropic.com/settings/keys).\n\nSimple use case that spawns an interactive chat prompt with the filesystem MCP server from CLI:\n",
+    "ContentSha": "HjtA4GXBtRwxHkjFqr2rmfrAV3mLJSGabM6zxLnqTVo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 빠른 시작\n\n`ANTHROPIC_API_KEY`가 환경 변수로 내보내졌거나 프로젝트 루트의 .env 파일에 있는지 확인하세요. API 키는 [Anthropic 콘솔 키 페이지](https://console.anthropic.com/settings/keys)에서 회원가입 후 얻을 수 있습니다.\n\nCLI에서 파일 시스템 MCP 서버와 상호작용하는 채팅 프롬프트를 생성하는 간단한 사용 예시:\n",
+    "Status": "ok",
+    "RowTranslations": [
       {
-        "row": 8,
+        "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 9,
+        "row": 2,
         "rowsha": "669wyUjie7v+j/aS3COPBDwvFiQ8FK2vMv9hGy+oUHE=",
         "originContent": "## Quickstart",
         "translatedContent": "## 빠른 시작"
       },
       {
-        "row": 10,
+        "row": 3,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 11,
+        "row": 4,
         "rowsha": "/GHjnXUaWoE20EQfkr/Sq4H4HdTXgUIDu+6xBjZkKVU=",
         "originContent": "Make sure that you have `ANTHROPIC_API_KEY` exported in your environment or in a .env file in the root of the project. You can get an API key by signing up at the [Anthropic Console keys page](https://console.anthropic.com/settings/keys).",
-        "translatedContent": "환경 변수에 `ANTHROPIC_API_KEY`가 설정되어 있거나 프로젝트 루트의 .env 파일에 내보내져 있는지 확인하세요. API 키는 [Anthropic 콘솔 키 페이지](https://console.anthropic.com/settings/keys)에서 가입하여 받을 수 있습니다."
+        "translatedContent": "`ANTHROPIC_API_KEY`가 환경 변수로 내보내졌거나 프로젝트 루트의 .env 파일에 있는지 확인하세요. API 키는 [Anthropic 콘솔 키 페이지](https://console.anthropic.com/settings/keys)에서 회원가입 후 얻을 수 있습니다."
       },
       {
-        "row": 12,
+        "row": 5,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 13,
+        "row": 6,
         "rowsha": "c3qDwaG5rmNU8Jgrf/PyLT6jqF05pRbQddDb67J9oDc=",
         "originContent": "Simple use case that spawns an interactive chat prompt with the filesystem MCP server from CLI:",
-        "translatedContent": "CLI에서 파일 시스템 MCP 서버와 함께 대화형 채팅 프롬프트를 실행하는 간단한 사용 사례:"
+        "translatedContent": "CLI에서 파일 시스템 MCP 서버와 상호작용하는 채팅 프롬프트를 생성하는 간단한 사용 예시:"
       },
       {
-        "row": 14,
+        "row": 7,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -97,7 +308,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 2,
+    "Id": 3,
     "Content": "```shell\nnpx mcp-chat --server \"npx -y @modelcontextprotocol/server-filesystem /Users/$USER/Desktop\"\n```",
     "ContentSha": "3/B1Ha8XitzZibjiKYpBpc1SD585BMw3EG7KwI5vjAk=",
     "SectionType": "",
@@ -105,30 +316,11 @@
     "EndLine": 0,
     "Translation": "```shell\nnpx mcp-chat --server \"npx -y @modelcontextprotocol/server-filesystem /Users/$USER/Desktop\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "WGTFjgym4REE7Vw5LmnhCr9i4xqRPYClv08jWDpphqA=",
-        "originContent": "npx mcp-chat --server \"npx -y @modelcontextprotocol/server-filesystem /Users/$USER/Desktop\"",
-        "translatedContent": "npx mcp-chat --server \"npx -y @modelcontextprotocol/server-filesystem /Users/$USER/Desktop\""
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 3,
+    "Id": 4,
     "Content": "\nThis will open up a chat prompt that you can use to interact with the servers and chat with an LLM.\n\n## Config\n\nYou can also just specify your claude_desktop_config.json (Mac):\n",
     "ContentSha": "dPPe+DPPYYGCKxkxDVFqXgNNwAy0RB2Y7c/skwoLLx4=",
     "SectionType": "",
@@ -136,54 +328,11 @@
     "EndLine": 0,
     "Translation": "이것은 서버와 상호 작용하고 LLM과 대화할 수 있는 채팅 프롬프트를 엽니다.\n\n## 구성\n\nMac의 경우 claude_desktop_config.json을 지정할 수도 있습니다:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "이것은 서버와 상호 작용하고 LLM과 대화할 수 있는 채팅 프롬프트를 엽니다."
-      },
-      {
-        "row": 2,
-        "rowsha": "VHhXgajItepEQF/mUbJqpTOW2LPdLGPShZ8gFmTNQC8=",
-        "originContent": "This will open up a chat prompt that you can use to interact with the servers and chat with an LLM.",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 구성"
-      },
-      {
-        "row": 4,
-        "rowsha": "YGxdO1f/0d1f/W8zg7RDnCPojIzbNHuVxqKVUORRPVw=",
-        "originContent": "## Config",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Mac의 경우 claude_desktop_config.json을 지정할 수도 있습니다:"
-      },
-      {
-        "row": 6,
-        "rowsha": "EjJVDQF39bqTy1Bss4y3t9mP7M3WZwgPFDQ2Az9Wxhw=",
-        "originContent": "You can also just specify your claude_desktop_config.json (Mac):",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Content": "```shell\nnpx mcp-chat --config \"~/Library/Application Support/Claude/claude_desktop_config.json\"\n```",
     "ContentSha": "YeTEKPzMbl1BdsO4rEOlK+XMhyf3kOI/S/GLBSe0kkU=",
     "SectionType": "",
@@ -191,30 +340,11 @@
     "EndLine": 0,
     "Translation": "```shell\nnpx mcp-chat --config \"~/Library/Application Support/Claude/claude_desktop_config.json\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "Q/I8KE2dgU0TUhhSbeZIP/Z+uxwM1hZ0rMYbqQ0dbFk=",
-        "originContent": "npx mcp-chat --config \"~/Library/Application Support/Claude/claude_desktop_config.json\"",
-        "translatedContent": "npx mcp-chat --config \"~/Library/Application Support/Claude/claude_desktop_config.json\""
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Content": "\nOr (Windows):\n",
     "ContentSha": "4cNgTOI50d1kjyGqBOXTEyu6mGVzf+fNWv2sEfFy8vs=",
     "SectionType": "",
@@ -222,30 +352,11 @@
     "EndLine": 0,
     "Translation": "\n또는 (윈도우):\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "+9IqCdcHWFYBXhi+ZHtdoIYLtmuHqX5B/ruB/AzsNQA=",
-        "originContent": "Or (Windows):",
-        "translatedContent": "또는 (윈도우):"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 6,
+    "Id": 7,
     "Content": "```shell\nnpx mcp-chat --config \"%APPDATA%\\Claude\\claude_desktop_config.json\"\n```",
     "ContentSha": "hhU17644rQ5w9KSS3DJHTgQCIv9gbS4izU8CQ6E9Toc=",
     "SectionType": "",
@@ -253,30 +364,11 @@
     "EndLine": 0,
     "Translation": "```shell\nnpx mcp-chat --config \"%APPDATA%\\Claude\\claude_desktop_config.json\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "mO4ro/ppmPBLXwLBJ/m+grRm1hTVZIaa2I/gh/W4fLY=",
-        "originContent": "npx mcp-chat --config \"%APPDATA%\\Claude\\claude_desktop_config.json\"",
-        "translatedContent": "npx mcp-chat --config \"%APPDATA%\\Claude\\claude_desktop_config.json\""
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 7,
+    "Id": 8,
     "Content": "\n## Web mode\n\nhttps://github.com/user-attachments/assets/b7e8a648-8084-4955-8cdf-fc6eb141572e\n\nYou can also run mcp-chat in web mode by specifying the `--web` flag (make sure to have `ANTHROPIC_API_KEY` exported in your environment):\n",
     "ContentSha": "rGx1hE1dkcaYyXGP4hBF1Of6bnl/wJWr5aexvNBhXDg=",
     "SectionType": "",
@@ -284,54 +376,11 @@
     "EndLine": 0,
     "Translation": "\n## Web mode\n\nhttps://github.com/user-attachments/assets/b7e8a648-8084-4955-8cdf-fc6eb141572e\n\nYou can also run mcp-chat in web mode by specifying the `--web` flag (make sure to have `ANTHROPIC_API_KEY` exported in your environment):\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "UBMKxV8dlKTYkevAaDxnrwEymzO3GN1EfdFrf6Pkn78=",
-        "originContent": "## Web mode",
-        "translatedContent": "## Web mode"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "tjRGn67UHOrtSXbOb4GhFVg7EQq4gWtvIGE0j2Wx50I=",
-        "originContent": "https://github.com/user-attachments/assets/b7e8a648-8084-4955-8cdf-fc6eb141572e",
-        "translatedContent": "https://github.com/user-attachments/assets/b7e8a648-8084-4955-8cdf-fc6eb141572e"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "AjOzWWgsxRn9YF2emplg3YmpCG/NnvnXUBYqKs/eN6s=",
-        "originContent": "You can also run mcp-chat in web mode by specifying the `--web` flag (make sure to have `ANTHROPIC_API_KEY` exported in your environment):",
-        "translatedContent": "You can also run mcp-chat in web mode by specifying the `--web` flag (make sure to have `ANTHROPIC_API_KEY` exported in your environment):"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 8,
+    "Id": 9,
     "Content": "```shell\nnpx mcp-chat --web\n```",
     "ContentSha": "KlFGT+uYXqHUFLc4r1diqgDFUifxqFtFjI2W65/DZeg=",
     "SectionType": "",
@@ -339,30 +388,11 @@
     "EndLine": 0,
     "Translation": "```shell\nnpx mcp-chat --web\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "CarymhJ+wByExDSinO+aycoCJjEtHO/shwO2ZKMXOe0=",
-        "originContent": "npx mcp-chat --web",
-        "translatedContent": "npx mcp-chat --web"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 9,
+    "Id": 10,
     "Content": "\nIn web mode, you can start new chats, send messages to the model, and dynamically configure the mcp servers via the UI - no need to specify on the command line. In addition, chats created via the Web UI are saved to ~/.mcpchats/chats just like chats created via the CLI.\n\n## Features\n\n- [x] Run via CLI in interactive mode or directly pass prompts with `-p`\n- [x] Web mode to chat with models via a web interface `--web`\n- [x] Connect to any MCP server (JS, Python, Docker) in production or during development\n- [x] Choose between models with `-m`\n- [x] Customize system prompt with `--system`\n- [x] Saves chat history with settings in `~/.mcpchat/chats` including web chats\n- [x] Save and restore commands in `~/.mcpchat/history`\n- [x] View tool call output and arguments directly in chat to help debug mcp servers\n\n## CLI Usage\n\nRun prompts via CLI with the `-p` flag:\n",
     "ContentSha": "jt7C0nRWl7/tNZiniTwiE3caC8j7i2uL33nec+kk7yc=",
     "SectionType": "",
@@ -370,120 +400,11 @@
     "EndLine": 0,
     "Translation": "웹 모드에서는 새 채팅을 시작하고, 모델에 메시지를 보내며, UI를 통해 mcp 서버를 동적으로 구성할 수 있습니다 - 명령줄에서 지정할 필요가 없습니다. 또한, 웹 UI를 통해 생성된 채팅은 CLI를 통해 생성된 채팅과 마찬가지로 ~/.mcpchats/chats에 저장됩니다.\n\n## 기능\n\n- [x] 대화형 모드에서 CLI를 통해 실행하거나 `-p`로 프롬프트 직접 전달\n- [x] 웹 인터페이스를 통한 모델과의 채팅 웹 모드 `--web`\n- [x] 프로덕션 또는 개발 중에 모든 MCP 서버(JS, Python, Docker) 연결 가능\n- [x] `-m`으로 모델 선택 가능\n- [x] `--system`으로 시스템 프롬프트 맞춤 설정\n- [x] 웹 채팅 포함 설정과 함께 `~/.mcpchat/chats`에 채팅 기록 저장\n- [x] `~/.mcpchat/history`에 명령어 저장 및 복원\n- [x] mcp 서버 디버깅에 도움을 주기 위해 채팅에서 도구 호출 출력 및 인수 직접 확인\n\n## CLI 사용법\n\n`-p` 플래그로 CLI에서 프롬프트 실행:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "웹 모드에서는 새 채팅을 시작하고, 모델에 메시지를 보내며, UI를 통해 mcp 서버를 동적으로 구성할 수 있습니다 - 명령줄에서 지정할 필요가 없습니다. 또한, 웹 UI를 통해 생성된 채팅은 CLI를 통해 생성된 채팅과 마찬가지로 ~/.mcpchats/chats에 저장됩니다."
-      },
-      {
-        "row": 2,
-        "rowsha": "O+8P5LVW2Z8yg6jeP+/o9zDNY9RIVPYfeo3RreHAhkg=",
-        "originContent": "In web mode, you can start new chats, send messages to the model, and dynamically configure the mcp servers via the UI - no need to specify on the command line. In addition, chats created via the Web UI are saved to ~/.mcpchats/chats just like chats created via the CLI.",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 기능"
-      },
-      {
-        "row": 4,
-        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
-        "originContent": "## Features",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- [x] 대화형 모드에서 CLI를 통해 실행하거나 `-p`로 프롬프트 직접 전달"
-      },
-      {
-        "row": 6,
-        "rowsha": "H+F//FvNR2webYtxgPSkyV8l+EK8ql0ZTTfUqLh0KTo=",
-        "originContent": "- [x] Run via CLI in interactive mode or directly pass prompts with `-p`",
-        "translatedContent": "- [x] 웹 인터페이스를 통한 모델과의 채팅 웹 모드 `--web`"
-      },
-      {
-        "row": 7,
-        "rowsha": "mTZisz9lvTW+CG+uTqyVaJs4imuk0myWPbCpQcS2ITg=",
-        "originContent": "- [x] Web mode to chat with models via a web interface `--web`",
-        "translatedContent": "- [x] 프로덕션 또는 개발 중에 모든 MCP 서버(JS, Python, Docker) 연결 가능"
-      },
-      {
-        "row": 8,
-        "rowsha": "49e2HyY/IyFEfq2YDkGs5uiURP4YVDyDqV5GdTff9tU=",
-        "originContent": "- [x] Connect to any MCP server (JS, Python, Docker) in production or during development",
-        "translatedContent": "- [x] `-m`으로 모델 선택 가능"
-      },
-      {
-        "row": 9,
-        "rowsha": "fmQ3gcr++pfKw4Nlg0pZYTKy8N0vPxACi7BhDGGlURM=",
-        "originContent": "- [x] Choose between models with `-m`",
-        "translatedContent": "- [x] `--system`으로 시스템 프롬프트 맞춤 설정"
-      },
-      {
-        "row": 10,
-        "rowsha": "sJWp1gQkG8CfsQ1ZyPfTNK7cMZSVnfkZlYvkA8f1WPs=",
-        "originContent": "- [x] Customize system prompt with `--system`",
-        "translatedContent": "- [x] 웹 채팅 포함 설정과 함께 `~/.mcpchat/chats`에 채팅 기록 저장"
-      },
-      {
-        "row": 11,
-        "rowsha": "tI28BvYozu1mIVWOJTWkMlLzxUCHvbasgtVJySn/CiQ=",
-        "originContent": "- [x] Saves chat history with settings in `~/.mcpchat/chats` including web chats",
-        "translatedContent": "- [x] `~/.mcpchat/history`에 명령어 저장 및 복원"
-      },
-      {
-        "row": 12,
-        "rowsha": "wnxcmbZ+9v3Z5snRgsUEypRO8H+aeglP2uGnemSGvn4=",
-        "originContent": "- [x] Save and restore commands in `~/.mcpchat/history`",
-        "translatedContent": "- [x] mcp 서버 디버깅에 도움을 주기 위해 채팅에서 도구 호출 출력 및 인수 직접 확인"
-      },
-      {
-        "row": 13,
-        "rowsha": "t8t/cRnx7+ZAwx0wXP36bb8kGMzY4Yezy83kpAhAOzo=",
-        "originContent": "- [x] View tool call output and arguments directly in chat to help debug mcp servers",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## CLI 사용법"
-      },
-      {
-        "row": 15,
-        "rowsha": "DLSniBALTVyRyQUYfHh7y02Jm1dq06zfrJiiu7Uu+RE=",
-        "originContent": "## CLI Usage",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "`-p` 플래그로 CLI에서 프롬프트 실행:"
-      },
-      {
-        "row": 17,
-        "rowsha": "jcduFqtqdns0sSx8oW+HwBbRMAHmj78m5/cChB4QPr4=",
-        "originContent": "Run prompts via CLI with the `-p` flag:",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 10,
+    "Id": 11,
     "Content": "```shell\nnpx mcp-chat --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"\n```",
     "ContentSha": "WIzEmCUR9Z+AfsQnpNsj9sevglnV+z10hYDapptSrRI=",
     "SectionType": "",
@@ -491,30 +412,11 @@
     "EndLine": 0,
     "Translation": "```shell\nnpx mcp-chat --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "9wDN0vRz4VgYJgYcWkpzJWrvuuNXg/0H9IVPG/ksUwQ=",
-        "originContent": "npx mcp-chat --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"",
-        "translatedContent": "npx mcp-chat --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\""
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 11,
+    "Id": 12,
     "Content": "\nThis runs the prompt with the kubenertes mcp-server & exits after the response is received on stdout.\n\nChoose a model to chat with via CLI with the `-m` flag:\n",
     "ContentSha": "Ho39aUBKG3dtr0q1Sa09yeh9v/2Us8rZGpA2aozsEDI=",
     "SectionType": "",
@@ -522,42 +424,11 @@
     "EndLine": 0,
     "Translation": "\n이 명령은 kubenertes mcp-server와 함께 프롬프트를 실행하고 stdout에서 응답을 받은 후 종료합니다.\n\n`-m` 플래그를 사용하여 CLI를 통해 대화할 모델을 선택하세요:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "75e8hPOEJDquYAxuugsMHkKyykmMSsz5qAaUL0yPk+A=",
-        "originContent": "This runs the prompt with the kubenertes mcp-server & exits after the response is received on stdout.",
-        "translatedContent": "이 명령은 kubenertes mcp-server와 함께 프롬프트를 실행하고 stdout에서 응답을 받은 후 종료합니다."
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "DOnz04ntyiLOGAyJzQmjrZUvOtXAUaLd+oVFWb3znJE=",
-        "originContent": "Choose a model to chat with via CLI with the `-m` flag:",
-        "translatedContent": "`-m` 플래그를 사용하여 CLI를 통해 대화할 모델을 선택하세요:"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 12,
+    "Id": 13,
     "Content": "```shell\nnpx mcp-chat --server \"npx mcp-server-kubernetes\" -m \"claude-3.5\"\n```",
     "ContentSha": "Wbw52OIc+yl3rUtvbwqK1TkjzznmG/EA0HUw+0zzfyY=",
     "SectionType": "",
@@ -565,30 +436,11 @@
     "EndLine": 0,
     "Translation": "```shell\nnpx mcp-chat --server \"npx mcp-server-kubernetes\" -m \"claude-3.5\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "oqeAPCKNiH60uS8Tf3OfIp59cve6Io0hxaooFW1HPDc=",
-        "originContent": "npx mcp-chat --server \"npx mcp-server-kubernetes\" -m \"claude-3.5\"",
-        "translatedContent": "npx mcp-chat --server \"npx mcp-server-kubernetes\" -m \"claude-3.5\""
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 13,
+    "Id": 14,
     "Content": "\nUses the model `claude-3.5` to chat with. Note that currently only Anthropic models are supported.\n\nCustom system prompt:\n\n`--system` flag can be used to specify a system prompt:\n",
     "ContentSha": "TGbwOBoOAaQUUrDTPnjx/ollcxUPEX9G2dJNquavTZI=",
     "SectionType": "",
@@ -596,54 +448,11 @@
     "EndLine": 0,
     "Translation": "`claude-3.5` 모델을 사용하여 대화합니다. 현재는 Anthropic 모델만 지원됨을 참고하세요.\n\n사용자 지정 시스템 프롬프트:\n\n`--system` 플래그를 사용하여 시스템 프롬프트를 지정할 수 있습니다:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "`claude-3.5` 모델을 사용하여 대화합니다. 현재는 Anthropic 모델만 지원됨을 참고하세요."
-      },
-      {
-        "row": 2,
-        "rowsha": "mfLtZu+DL8CcPm3bEnriUq1xfwGJwsefiGuYJpgDpDQ=",
-        "originContent": "Uses the model `claude-3.5` to chat with. Note that currently only Anthropic models are supported.",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "사용자 지정 시스템 프롬프트:"
-      },
-      {
-        "row": 4,
-        "rowsha": "/EmlnSCpa1EOKjXoXamf2tL38doPYjrx5+/dnJ+Ohx8=",
-        "originContent": "Custom system prompt:",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "`--system` 플래그를 사용하여 시스템 프롬프트를 지정할 수 있습니다:"
-      },
-      {
-        "row": 6,
-        "rowsha": "kQgaJjuTegvlALWsAHhS5arr+HRIxAXo65ZGvYoCaEI=",
-        "originContent": "`--system` flag can be used to specify a system prompt:",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 14,
+    "Id": 15,
     "Content": "```shell\nnpx mcp-chat --system \"Explain the output to the user in pirate speak.\" --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"\n```",
     "ContentSha": "slrya/ZoCMhGkbtrySSWmu9aaLE4R4x4UF8yeiJrjos=",
     "SectionType": "",
@@ -651,30 +460,11 @@
     "EndLine": 0,
     "Translation": "```shell\nnpx mcp-chat --system \"Explain the output to the user in pirate speak.\" --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "gFapWYLrNEv5NNsSVa1CapJoasdWXSJEfSQz0LTP8/I=",
-        "originContent": "npx mcp-chat --system \"Explain the output to the user in pirate speak.\" --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"",
-        "translatedContent": "npx mcp-chat --system \"Explain the output to the user in pirate speak.\" --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\""
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 15,
+    "Id": 16,
     "Content": "\n## ENV vars\n\nMcp-chat supports passing through env vars to mcp servers. This is not standardized in the mcp spec though and other clients may not do this with dynamic env var values - read more [here](https://github.com/Flux159/mcp-server-kubernetes/issues/148#issuecomment-2950181666) about standard stdio mcp clients.\n",
     "ContentSha": "XrCvX/YgtiKEy9WOZ90jxuD2tvnZL+yy4alBcd89fcY=",
     "SectionType": "",
@@ -682,42 +472,11 @@
     "EndLine": 0,
     "Translation": "\n## ENV 변수\n\nMcp-chat은 env 변수를 mcp 서버로 전달하는 것을 지원합니다. 그러나 이는 mcp 사양에 표준화되어 있지 않으며 다른 클라이언트들은 동적 env 변수 값을 사용하여 이를 수행하지 않을 수 있습니다 - 표준 stdio mcp 클라이언트에 대해 더 알고 싶으면 [여기](https://github.com/Flux159/mcp-server-kubernetes/issues/148#issuecomment-2950181666)를 읽어보세요.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "zj6li+gBCmq02g6lsaTLxXys/P3QAJ5BNkMPk2++6NM=",
-        "originContent": "## ENV vars",
-        "translatedContent": "## ENV 변수"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "rSuZDNuCE25bFkJ/uB0P3gqDGIk78coJkLjsG8iARfw=",
-        "originContent": "Mcp-chat supports passing through env vars to mcp servers. This is not standardized in the mcp spec though and other clients may not do this with dynamic env var values - read more [here](https://github.com/Flux159/mcp-server-kubernetes/issues/148#issuecomment-2950181666) about standard stdio mcp clients.",
-        "translatedContent": "Mcp-chat은 env 변수를 mcp 서버로 전달하는 것을 지원합니다. 그러나 이는 mcp 사양에 표준화되어 있지 않으며 다른 클라이언트들은 동적 env 변수 값을 사용하여 이를 수행하지 않을 수 있습니다 - 표준 stdio mcp 클라이언트에 대해 더 알고 싶으면 [여기](https://github.com/Flux159/mcp-server-kubernetes/issues/148#issuecomment-2950181666)를 읽어보세요."
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 16,
+    "Id": 17,
     "Content": "```shell\nKUBECONFIG=\"~/.kube/config\" npx mcp-chat --server \"npx mcp-server-kubernetes\"\n```",
     "ContentSha": "Io6cnp7SxYiv6Hk23ipMBiWiuhNuD4EQLEBMtETf1/I=",
     "SectionType": "",
@@ -725,30 +484,11 @@
     "EndLine": 0,
     "Translation": "```shell\nKUBECONFIG=\"~/.kube/config\" npx mcp-chat --server \"npx mcp-server-kubernetes\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "KCQcAdIiNyqX09EN1UlwwWrwVMHi6AivasnRI2AxROI=",
-        "originContent": "KUBECONFIG=\"~/.kube/config\" npx mcp-chat --server \"npx mcp-server-kubernetes\"",
-        "translatedContent": "KUBECONFIG=\"~/.kube/config\" npx mcp-chat --server \"npx mcp-server-kubernetes\""
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 17,
+    "Id": 18,
     "Content": "\n## For developers of mcp-servers\n\nYou can pass in a local build of a python or node mcp-server to test it out with mcp-chat:\n\nNode JS:\n",
     "ContentSha": "xvSSjuKXLCHa09zoNgVSIWts8s7ys773sHzVreuISJI=",
     "SectionType": "",
@@ -756,54 +496,11 @@
     "EndLine": 0,
     "Translation": "\n## mcp-서버 개발자를 위해\n\nmcp-chat과 함께 테스트하기 위해 python 또는 node mcp-서버의 로컬 빌드를 전달할 수 있습니다:\n\nNode JS:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "OOmt1RhNbJfr7edWcyDW7GpFU8fnCOMejF9zj0HwfNE=",
-        "originContent": "## For developers of mcp-servers",
-        "translatedContent": "## mcp-서버 개발자를 위해"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "z9i8gW2MFSuAQA8p1KQJIgZxC4QfeJu4QLQ+h2RPk7M=",
-        "originContent": "You can pass in a local build of a python or node mcp-server to test it out with mcp-chat:",
-        "translatedContent": "mcp-chat과 함께 테스트하기 위해 python 또는 node mcp-서버의 로컬 빌드를 전달할 수 있습니다:"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "yrK8iMzkAxEJc51gSuaBLC7fvUeHn4s97KlzXsr/0Wg=",
-        "originContent": "Node JS:",
-        "translatedContent": "Node JS:"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 18,
+    "Id": 19,
     "Content": "```shell\n# Directly executing built script\nnpx mcp-chat --server \"/path/to/mcp-server-kubernetes/dist/index.js\"\n# Using node / bun\nnpx mcp-chat --server \"node /path/to/mcp-server-kubernetes/dist/index.js\"\n```",
     "ContentSha": "6EeNiWOp33YbNbHpjVFBJnMtS5fq1TYFn+G4JwfpKJQ=",
     "SectionType": "",
@@ -811,48 +508,11 @@
     "EndLine": 0,
     "Translation": "```shell\n# Directly executing built script\nnpx mcp-chat --server \"/path/to/mcp-server-kubernetes/dist/index.js\"\n# Using node / bun\nnpx mcp-chat --server \"node /path/to/mcp-server-kubernetes/dist/index.js\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "R809aFSNXve8cjPNnbPB7DoQ29IZfCVJjnR6LmIuAqA=",
-        "originContent": "# Directly executing built script",
-        "translatedContent": "# Directly executing built script"
-      },
-      {
-        "row": 3,
-        "rowsha": "k1oOa52s4r/o2SqTNxwCYx0QWcG/D+m/4oB3dbPNGwU=",
-        "originContent": "npx mcp-chat --server \"/path/to/mcp-server-kubernetes/dist/index.js\"",
-        "translatedContent": "npx mcp-chat --server \"/path/to/mcp-server-kubernetes/dist/index.js\""
-      },
-      {
-        "row": 4,
-        "rowsha": "GfnOBCZ7yJgswIFgPDwdotO9tECsSr3USk+WLf5W7JM=",
-        "originContent": "# Using node / bun",
-        "translatedContent": "# Using node / bun"
-      },
-      {
-        "row": 5,
-        "rowsha": "h9zBAGVZpmDnOwCPOmJj7z+1Ty+TOc3k7DntkOT5+oQ=",
-        "originContent": "npx mcp-chat --server \"node /path/to/mcp-server-kubernetes/dist/index.js\"",
-        "translatedContent": "npx mcp-chat --server \"node /path/to/mcp-server-kubernetes/dist/index.js\""
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 19,
+    "Id": 20,
     "Content": "\nPython:\n",
     "ContentSha": "W4GCRpOYbkOdjEqC2Ls9gLs90PKCc9Pavh1Sq+uy+iI=",
     "SectionType": "",
@@ -860,30 +520,11 @@
     "EndLine": 0,
     "Translation": "\n파이썬:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "p3KgPZW2VbE/pgN2478eaSC6Auuuy2/K4wViWTK5gs4=",
-        "originContent": "Python:",
-        "translatedContent": "파이썬:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 20,
+    "Id": 21,
     "Content": "```shell\n# Python: Using uv\nnpx mcp-chat --server \"uv --directory /path/to/mcp-server-weather/ run weather.py\"\n# Using python / python3 - make sure to run in venv or install deps globally\nnpx mcp-chat --server \"/path/to/mcp-server-weather/weather.py\"\n```",
     "ContentSha": "DI4LTctnqZ/in1ksriTOWJQpr1a9DIMX80FSGr5ho88=",
     "SectionType": "",
@@ -891,48 +532,11 @@
     "EndLine": 0,
     "Translation": "```shell\n# Python: Using uv\nnpx mcp-chat --server \"uv --directory /path/to/mcp-server-weather/ run weather.py\"\n# Using python / python3 - make sure to run in venv or install deps globally\nnpx mcp-chat --server \"/path/to/mcp-server-weather/weather.py\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "7/+jUUJesxQ+PXO0eupDs9F6Efw2qC26blxpsFHZvY4=",
-        "originContent": "# Python: Using uv",
-        "translatedContent": "# Python: Using uv"
-      },
-      {
-        "row": 3,
-        "rowsha": "GTeV1VzaGZ/riWkSde5DgZQKY9cdE4VnSXEvcOcCvZU=",
-        "originContent": "npx mcp-chat --server \"uv --directory /path/to/mcp-server-weather/ run weather.py\"",
-        "translatedContent": "npx mcp-chat --server \"uv --directory /path/to/mcp-server-weather/ run weather.py\""
-      },
-      {
-        "row": 4,
-        "rowsha": "SLaQhFh0cxXd0bRWuPqJkHzTqLB4MEcFRGKz6vjIsP4=",
-        "originContent": "# Using python / python3 - make sure to run in venv or install deps globally",
-        "translatedContent": "# Using python / python3 - make sure to run in venv or install deps globally"
-      },
-      {
-        "row": 5,
-        "rowsha": "gDddcEo5fCqUauXF66EYo8y7lHFm1UTsckP5shLOMGY=",
-        "originContent": "npx mcp-chat --server \"/path/to/mcp-server-weather/weather.py\"",
-        "translatedContent": "npx mcp-chat --server \"/path/to/mcp-server-weather/weather.py\""
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 21,
+    "Id": 22,
     "Content": "\n## Development\n\nInstall dependencies & run the CLI:\n",
     "ContentSha": "llwgcbaWRnH1bUq1pzYF7XGdtaGbSaO9J593c2zzTtg=",
     "SectionType": "",
@@ -940,42 +544,11 @@
     "EndLine": 0,
     "Translation": "\n## 개발\n\n종속성 설치 및 CLI 실행:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
-        "originContent": "## Development",
-        "translatedContent": "## 개발"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "RlDiIHQt3UN8Zjl3Ex1ijeOOPUxGeLu0fBFBVFD45PE=",
-        "originContent": "Install dependencies & run the CLI:",
-        "translatedContent": "종속성 설치 및 CLI 실행:"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 22,
+    "Id": 23,
     "Content": "```shell\ngit clone https://github.com/Flux159/mcp-chat\nbun install\nbun run dev\n```",
     "ContentSha": "H2PFZZpPqa/XypdD5KBsG4eM7JiIeVwVoBAKdfBT35Q=",
     "SectionType": "",
@@ -983,42 +556,11 @@
     "EndLine": 0,
     "Translation": "```shell\ngit clone https://github.com/Flux159/mcp-chat\nbun install\nbun run dev\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "oea2RSsUQZ77YiPhr8N0UOqDCZa+t8DisuLVDntxIM4=",
-        "originContent": "git clone https://github.com/Flux159/mcp-chat",
-        "translatedContent": "git clone https://github.com/Flux159/mcp-chat"
-      },
-      {
-        "row": 3,
-        "rowsha": "RAIvLI8HDhTbWMoQcMwOTTeOq6nSx+D26EYHLqg7XQw=",
-        "originContent": "bun install",
-        "translatedContent": "bun install"
-      },
-      {
-        "row": 4,
-        "rowsha": "8WwHkmbi82OCXdfiN4/7LLEtY5NOXvhPZrvhLOhJ7eU=",
-        "originContent": "bun run dev",
-        "translatedContent": "bun run dev"
-      },
-      {
-        "row": 5,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 23,
+    "Id": 24,
     "Content": "\nTo develop mcp-chat while connecting to an mcp-server, make a build & run the CLI with the server flag:\n",
     "ContentSha": "/Lum5mtMOgOjkp9mLQ/AuVx6OG/tO7CVZw403cczIOA=",
     "SectionType": "",
@@ -1026,30 +568,11 @@
     "EndLine": 0,
     "Translation": "mcp-server에 연결하여 mcp-chat을 개발하려면, 빌드한 후 서버 플래그와 함께 CLI를 실행하세요:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "mcp-server에 연결하여 mcp-chat을 개발하려면, 빌드한 후 서버 플래그와 함께 CLI를 실행하세요:"
-      },
-      {
-        "row": 2,
-        "rowsha": "iytQpENseJYeImh1w77yF9EP34UQlTradPTum2DsFt8=",
-        "originContent": "To develop mcp-chat while connecting to an mcp-server, make a build & run the CLI with the server flag:",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 24,
+    "Id": 25,
     "Content": "```shell\nnpm run build && node dist/index.js --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"\n```",
     "ContentSha": "QwEfz8rM7rPxZLylJc2LC+aMFWd2BD8GLNseQ1jYqGQ=",
     "SectionType": "",
@@ -1057,30 +580,11 @@
     "EndLine": 0,
     "Translation": "```shell\nnpm run build && node dist/index.js --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "dKWiMmswNoL9gibcya51ftwstvQ9KClQr6zUDfXbewg=",
-        "originContent": "npm run build && node dist/index.js --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\"",
-        "translatedContent": "npm run build && node dist/index.js --server \"npx mcp-server-kubernetes\" -p \"List the pods in the default namespace\""
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 25,
+    "Id": 26,
     "Content": "\nTesting:\n",
     "ContentSha": "PVxctOkG3rkGnVkaW0odH/boP8q5Yr8PfvmVpWeb4QQ=",
     "SectionType": "",
@@ -1088,30 +592,11 @@
     "EndLine": 0,
     "Translation": "테스트:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "테스트:"
-      },
-      {
-        "row": 2,
-        "rowsha": "V5NY9q5YMf8mrfc0CAkPrP0WvGGQKI6BL1U6Fn4Smic=",
-        "originContent": "Testing:",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 26,
+    "Id": 27,
     "Content": "```shell\nbun run test\n```",
     "ContentSha": "X0m77EEQDkIgiC+8wwCqPFVfH68Q8pB3bci+iYUxVBg=",
     "SectionType": "",
@@ -1119,30 +604,11 @@
     "EndLine": 0,
     "Translation": "```shell\nbun run test\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "/Q4jbfv2BHz4m+/VlQR3NzWnT9k0wCNljQSLWO0aNgU=",
-        "originContent": "bun run test",
-        "translatedContent": "bun run test"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 27,
+    "Id": 28,
     "Content": "\nBuilding:\n",
     "ContentSha": "2Vr5UO3xhsp9x08DLiSUUiYVnkj0H5p59jRiMFx4zXY=",
     "SectionType": "",
@@ -1150,30 +616,11 @@
     "EndLine": 0,
     "Translation": "빌딩:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "빌딩:"
-      },
-      {
-        "row": 2,
-        "rowsha": "Noa71k63CXwK9z4tGiKBuy+IHKOfCBhNRTD2IjYZ9j4=",
-        "originContent": "Building:",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 28,
+    "Id": 29,
     "Content": "```shell\nbun run build\n```",
     "ContentSha": "yXMxHrPMSog+uL/k0zwkW8WTIzmM2GHWrSGDu6lKcjk=",
     "SectionType": "",
@@ -1181,30 +628,11 @@
     "EndLine": 0,
     "Translation": "```shell\nbun run build\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "2+ip4sZNhL0tjOHip6LJ9wZaNoc5s0vYjde7TiM7fpQ=",
-        "originContent": "bun run build",
-        "translatedContent": "bun run build"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 29,
+    "Id": 30,
     "Content": "\nPublishing:\n",
     "ContentSha": "5tPoxHeHz1zfglQZ2Z92XLvwRG+OAD/nv+mEcsJfXtQ=",
     "SectionType": "",
@@ -1212,30 +640,11 @@
     "EndLine": 0,
     "Translation": "\n게시:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "g4mZklJt+79XBt7mrwRW1vKlv062YhkEvKS2WCtyfG4=",
-        "originContent": "Publishing:",
-        "translatedContent": "게시:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 30,
+    "Id": 31,
     "Content": "```shell\nbun run publish\n```",
     "ContentSha": "W8txnAOo1EVvoQjGMbr4bxB9kAYd6GfkdKrk8abJCN4=",
     "SectionType": "",
@@ -1243,30 +652,11 @@
     "EndLine": 0,
     "Translation": "```shell\nbun run publish\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "g84ag3aN3Mov+GWqz2nIC4ILLtQ6kQDQPAeBJB4hG3o=",
-        "originContent": "bun run publish",
-        "translatedContent": "bun run publish"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 31,
+    "Id": 32,
     "Content": "\nPublishing Docker:\n",
     "ContentSha": "lEJJHvAECg4N7Aoa5N5y7uv/ar74WtvlAlGE4lxle/w=",
     "SectionType": "",
@@ -1274,30 +664,11 @@
     "EndLine": 0,
     "Translation": "\n도커 퍼블리싱:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "5KDxMsr4ivQCPgDhBznjcJRaBsCipWEX6QwyMnZJT0Q=",
-        "originContent": "Publishing Docker:",
-        "translatedContent": "도커 퍼블리싱:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 32,
+    "Id": 33,
     "Content": "```shell\nbun run dockerbuild\n```",
     "ContentSha": "JKisw82kIxoSg5RxV6DYGFCMgy+s5WG6wL/6dHWXglI=",
     "SectionType": "",
@@ -1305,30 +676,11 @@
     "EndLine": 0,
     "Translation": "```shell\nbun run dockerbuild\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
-        "originContent": "```shell",
-        "translatedContent": "```shell"
-      },
-      {
-        "row": 2,
-        "rowsha": "+odKS8HC/m4JWiz1ga0N5FzlxJYm3V7pS4TZlLYUoGQ=",
-        "originContent": "bun run dockerbuild",
-        "translatedContent": "bun run dockerbuild"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 33,
+    "Id": 34,
     "Content": "\n### Project Structure\n",
     "ContentSha": "ZQqk5Ygf2G2vrENVXJ9cJshWHBrDNTb33rByESQtJ1A=",
     "SectionType": "",
@@ -1336,30 +688,11 @@
     "EndLine": 0,
     "Translation": "\n### 프로젝트 구조\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "LhSV6uyxzWqT0ogFCmU00Wa6CfiB7nPMeRVYFMvBY0I=",
-        "originContent": "### Project Structure",
-        "translatedContent": "### 프로젝트 구조"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 34,
+    "Id": 35,
     "Content": "```\n├── src/\n│   ├── index.ts            # Main client implementation & CLI params\n│   ├── constants.ts        # Default constants\n│   ├── interactive.ts      # Interactive chat prompt handling & logic\n├── test/                   # Test files\n│   ├── cli.test.ts         # Test CLI params\n│   ├── config.test.ts      # Test config file parsing\n```",
     "ContentSha": "VIKS/wBqeYSasnEHQIT5U+HfV4O0s2XWR5TfgJdV/50=",
     "SectionType": "",
@@ -1367,66 +700,11 @@
     "EndLine": 0,
     "Translation": "```\n├── src/\n│   ├── index.ts            # Main client implementation & CLI params\n│   ├── constants.ts        # Default constants\n│   ├── interactive.ts      # Interactive chat prompt handling & logic\n├── test/                   # Test files\n│   ├── cli.test.ts         # Test CLI params\n│   ├── config.test.ts      # Test config file parsing\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "otIQYYEfDcoYCv3eF3h9HCMZ2o9BmVb6kajp/hCvhzU=",
-        "originContent": "├── src/",
-        "translatedContent": "├── src/"
-      },
-      {
-        "row": 3,
-        "rowsha": "pqqpPcE0zWACBUgzk29Fu+GrCBkMFGTtzNIf8l8Nwc0=",
-        "originContent": "│   ├── index.ts            # Main client implementation & CLI params",
-        "translatedContent": "│   ├── index.ts            # Main client implementation & CLI params"
-      },
-      {
-        "row": 4,
-        "rowsha": "jwNWv9FJXokSTYOyJ0qGVUmiAMpsAXhuuXDvErPwCIg=",
-        "originContent": "│   ├── constants.ts        # Default constants",
-        "translatedContent": "│   ├── constants.ts        # Default constants"
-      },
-      {
-        "row": 5,
-        "rowsha": "urjROEGPFRI7qqELxHGMfXF3lCKfBsgOlBH7vfoa1h4=",
-        "originContent": "│   ├── interactive.ts      # Interactive chat prompt handling & logic",
-        "translatedContent": "│   ├── interactive.ts      # Interactive chat prompt handling & logic"
-      },
-      {
-        "row": 6,
-        "rowsha": "ASGGQ8/BM4tKKe5OWdzqH7FoCJyQypFAEn2NAMpd7mI=",
-        "originContent": "├── test/                   # Test files",
-        "translatedContent": "├── test/                   # Test files"
-      },
-      {
-        "row": 7,
-        "rowsha": "PhRy7Ytmzfe3i2RY9GKyznlUvFIUmO3DOnAvq9v3cfM=",
-        "originContent": "│   ├── cli.test.ts         # Test CLI params",
-        "translatedContent": "│   ├── cli.test.ts         # Test CLI params"
-      },
-      {
-        "row": 8,
-        "rowsha": "nDbVLgb1/GuLoCsY5h6PuiwyH9IpMWwcfFaP7OIOeBQ=",
-        "originContent": "│   ├── config.test.ts      # Test config file parsing",
-        "translatedContent": "│   ├── config.test.ts      # Test config file parsing"
-      },
-      {
-        "row": 9,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 35,
+    "Id": 36,
     "Content": "\n## Publishing new release\n\nGo to the [releases](https://github.com/Flux159/mcp-chat/releases) page, click on \"Draft New Release\", click \"Choose a tag\" and create a new tag by typing out a new version number using \"v{major}.{minor}.{patch}\" semver format. Then, write a release title \"Release v{major}.{minor}.{patch}\" and description / changelog if necessary and click \"Publish Release\".\n\nThis will create a new tag which will trigger a new release build via the cd.yml workflow. Once successful, the new release will be published to npm. Note that there is no need to update the package.json version manually, as the workflow will automatically update the version number in the package.json file & push a commit to main.\n\n## License\n\n[MIT License](https://github.com/Flux159/mcp-chat/blob/main/LICENSE)\n",
     "ContentSha": "3w7bg/xgki4CI6rpUBjIkE9PUjMwBulLnEr5Gbsjeow=",
     "SectionType": "",
@@ -1434,74 +712,7 @@
     "EndLine": 0,
     "Translation": "## 새 릴리스 게시\n\n[릴리스](https://github.com/Flux159/mcp-chat/releases) 페이지로 이동하여 \"Draft New Release\"를 클릭하고 \"Choose a tag\"를 클릭한 다음 \"v{major}.{minor}.{patch}\" 세머버 형식을 사용하여 새 버전 번호를 입력하여 새 태그를 생성합니다. 그런 다음 릴리스 제목에 \"Release v{major}.{minor}.{patch}\"를 작성하고 필요에 따라 설명 / 변경 로그를 작성한 후 \"Publish Release\"를 클릭합니다.\n\n이렇게 하면 cd.yml 워크플로우를 통해 새 릴리스 빌드를 트리거하는 새 태그가 생성됩니다. 빌드가 성공하면 새 릴리스가 npm에 게시됩니다. package.json 버전을 수동으로 업데이트할 필요가 없으며, 워크플로우가 package.json 파일의 버전 번호를 자동으로 업데이트하고 커밋을 main 브랜치에 푸시합니다.\n\n## 라이선스\n\n[MIT License](https://github.com/Flux159/mcp-chat/blob/main/LICENSE)\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 새 릴리스 게시"
-      },
-      {
-        "row": 2,
-        "rowsha": "b8XW7l7ONxWtGURdodWSwIwOCgekHNqmxct+nCrhJdQ=",
-        "originContent": "## Publishing new release",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "[릴리스](https://github.com/Flux159/mcp-chat/releases) 페이지로 이동하여 \"Draft New Release\"를 클릭하고 \"Choose a tag\"를 클릭한 다음 \"v{major}.{minor}.{patch}\" 세머버 형식을 사용하여 새 버전 번호를 입력하여 새 태그를 생성합니다. 그런 다음 릴리스 제목에 \"Release v{major}.{minor}.{patch}\"를 작성하고 필요에 따라 설명 / 변경 로그를 작성한 후 \"Publish Release\"를 클릭합니다."
-      },
-      {
-        "row": 4,
-        "rowsha": "ZFCWfsoui8B/KniV00LJ3JEkGFWoxwxMgJPut1YC9EU=",
-        "originContent": "Go to the [releases](https://github.com/Flux159/mcp-chat/releases) page, click on \"Draft New Release\", click \"Choose a tag\" and create a new tag by typing out a new version number using \"v{major}.{minor}.{patch}\" semver format. Then, write a release title \"Release v{major}.{minor}.{patch}\" and description / changelog if necessary and click \"Publish Release\".",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "이렇게 하면 cd.yml 워크플로우를 통해 새 릴리스 빌드를 트리거하는 새 태그가 생성됩니다. 빌드가 성공하면 새 릴리스가 npm에 게시됩니다. package.json 버전을 수동으로 업데이트할 필요가 없으며, 워크플로우가 package.json 파일의 버전 번호를 자동으로 업데이트하고 커밋을 main 브랜치에 푸시합니다."
-      },
-      {
-        "row": 6,
-        "rowsha": "ZZi3n234dDEGdMsctWD2lnbxOo86duPd9jUsW8y82dk=",
-        "originContent": "This will create a new tag which will trigger a new release build via the cd.yml workflow. Once successful, the new release will be published to npm. Note that there is no need to update the package.json version manually, as the workflow will automatically update the version number in the package.json file & push a commit to main.",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 라이선스"
-      },
-      {
-        "row": 8,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "[MIT License](https://github.com/Flux159/mcp-chat/blob/main/LICENSE)"
-      },
-      {
-        "row": 10,
-        "rowsha": "s3p/NhzLKO9GtrqxF0XcvvaGO6Pjr/RyExHS9pMWsm0=",
-        "originContent": "[MIT License](https://github.com/Flux159/mcp-chat/blob/main/LICENSE)",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]
