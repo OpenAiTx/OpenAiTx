@@ -1,0 +1,1046 @@
+[
+  {
+    "row": 1,
+    "rowsha": "wyu/wajN3F0WnnV91JncDQm9I2y73PSxNxSrDkn+EMs=",
+    "originContent": "# [NeurIPS 2024] MADiff: Offline Multi-agent Learning with Diffusion Models",
+    "translatedContent": "# [NeurIPS 2024] MADiff: Aprendizaje Multiagente Offline con Modelos de Difusión"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "tGilKHYWnR6KiXdC2fT1m3Egp57E8kh/sMz80ck0qBI=",
+    "originContent": "![Python 3.8](https://img.shields.io/badge/Python-3.8-blue)",
+    "translatedContent": "![Python 3.8](https://img.shields.io/badge/Python-3.8-blue)"
+  },
+  {
+    "row": 4,
+    "rowsha": "yqYDx/BMTITWnn+N6SdgG0ps3VfpioXaT0bRIPg4WWw=",
+    "originContent": "![Code style](https://img.shields.io/badge/code%20style-black-000000.svg)",
+    "translatedContent": "![Code style](https://img.shields.io/badge/code%20style-black-000000.svg)"
+  },
+  {
+    "row": 5,
+    "rowsha": "w+22zKKM6u/PgRzQ8e7CSWiSZcaxGDJtmp5VLFIbsIU=",
+    "originContent": "![MIT](https://img.shields.io/badge/license-MIT-blue)",
+    "translatedContent": "![MIT](https://img.shields.io/badge/license-MIT-blue)"
+  },
+  {
+    "row": 6,
+    "rowsha": "CC0Y24OgkkyNXB+OmbhypukszAOjlVFFakaoC3IvBJs=",
+    "originContent": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2305.17330)",
+    "translatedContent": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2305.17330)"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "4hMus4dj1IwmvH/X2bzD1eWAgrFyvGWkcKbSjf0V798=",
+    "originContent": "This is the official implementation of \"MADiff: Offline Multi-agent Learning with Diffusion Models\" published in NeurIPS 2024.",
+    "translatedContent": "Esta es la implementación oficial de \"MADiff: Aprendizaje Multiagente Offline con Modelos de Difusión\" publicado en NeurIPS 2024."
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "FUr28ACyhqBGIFIi6kuoUr9cFfvU4zi0w7z+hV6LKRE=",
+    "originContent": "![MADiff](/assets/images/madiff.png)",
+    "translatedContent": "![MADiff](/assets/images/madiff.png)"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "X3t/Lo2JAkj9bI3rk90jEHYcwIhDVaYliXR9Oul/cv4=",
+    "originContent": "## Performances",
+    "translatedContent": "## Rendimientos"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "yRPdBvkNv+tXiT3CUKLb28vyQZJl6FYZSa4oEbw+iqU=",
+    "originContent": "We omit the standard deviation of the results for brevity. The full results can be found in our [paper](https://arxiv.org/abs/2305.17330).",
+    "translatedContent": "Omitimos la desviación estándar de los resultados por brevedad. Los resultados completos pueden encontrarse en nuestro [artículo](https://arxiv.org/abs/2305.17330)."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "21Fq0xI3Sf5AsJaalUIZ7ctDnDfQmFbfqyvSOU79u/g=",
+    "originContent": "### Multi-agent Particle Environment (MPE)",
+    "translatedContent": "### Entorno Multiagente de Partículas (MPE)"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "Ax9dgHeBk0wH/CmyQZdLdJUTzXkLNKZxh7J+8H9u5zk=",
+    "originContent": "The peformances on MPE datasets released in [OMAR paper](https://arxiv.org/abs/2111.11188). The results are averaged over 5 random seeds.",
+    "translatedContent": "Los rendimientos en los conjuntos de datos MPE publicados en el [artículo OMAR](https://arxiv.org/abs/2111.11188). Los resultados son promediados sobre 5 semillas aleatorias."
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "tBncd7KGV53vbYkbk7yDECpLGATH68rCdLYBkJ0zztg=",
+    "originContent": "| Dataset | Task | BC | MA-ICQ | MA-TD3+BC | MA-CQL | OMAR | MADiff-D | MADiff-C* |",
+    "translatedContent": "| Conjunto de datos | Tarea | BC | MA-ICQ | MA-TD3+BC | MA-CQL | OMAR | MADiff-D | MADiff-C* |"
+  },
+  {
+    "row": 21,
+    "rowsha": "HyJFuPdSEDGr6WGxs4Pyq6v2YTT26syBykWdIkCPiG8=",
+    "originContent": "| :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |",
+    "translatedContent": "| :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |"
+  },
+  {
+    "row": 22,
+    "rowsha": "r4x5Y0EVf1iJG+mMyJK5+mAlUzeBvkDH6In1B0O0Xyc=",
+    "originContent": "| Expert | Spread | 35.0 | 104.0 | 108.3 | 98.2 | **114.9** | 95.0 | 116.7 |",
+    "translatedContent": "| Experto | Spread | 35.0 | 104.0 | 108.3 | 98.2 | **114.9** | 95.0 | 116.7 |"
+  },
+  {
+    "row": 23,
+    "rowsha": "IoCCVRM9PLFCjC4x0SXoa8zL4YSpKc5yJUwS7E7+C/8=",
+    "originContent": "| Md-Replay | Spread | 10.0 | 13.6 | 15.4 | 20.0 | **37.9** | 30.3 | 42.2 |",
+    "translatedContent": "| Md-Replay | Spread | 10.0 | 13.6 | 15.4 | 20.0 | **37.9** | 30.3 | 42.2 |"
+  },
+  {
+    "row": 24,
+    "rowsha": "GFrdktRrWS1l9ggzETasYxQBv1ZLMV6UQREyxFewmwQ=",
+    "originContent": "| Medium | Spread | 31.6 | 29.3 | 29.3 | 34.1 | 47.9 | **64.9** | 58.2 |",
+    "translatedContent": "| Medio | Spread | 31.6 | 29.3 | 29.3 | 34.1 | 47.9 | **64.9** | 58.2 |"
+  },
+  {
+    "row": 25,
+    "rowsha": "JU8t9Xyw1J7Mq3ix5wyuxJ5kduUzDHLDbDZJPiCjB9A=",
+    "originContent": "| Random | Spread | -0.5 | 6.3 | 9.8 | 24.0 | **34.4** | 6.9 | 4.3 |",
+    "translatedContent": "| Aleatorio | Spread | -0.5 | 6.3 | 9.8 | 24.0 | **34.4** | 6.9 | 4.3 |"
+  },
+  {
+    "row": 26,
+    "rowsha": "sdJXVQDbMrk/pANVrwrEzoSfha+FAwkKexJW4s282VU=",
+    "originContent": "| Expert | Tag | 40.0 | 113.0 | 115.2 | 93.9 | 116.2 | **120.9** | 167.6 |",
+    "translatedContent": "| Experto | Tag | 40.0 | 113.0 | 115.2 | 93.9 | 116.2 | **120.9** | 167.6 |"
+  },
+  {
+    "row": 27,
+    "rowsha": "B9b6XdFLVeq9Npx6d+1m6YS0cosLqgX2l90DoQ0cV2U=",
+    "originContent": "| Md-Replay | Tag | 0.9 | 34.5 | 28.7 | 24.8 | 47.1 | **62.3** | 95.0 |",
+    "translatedContent": "| Md-Replay | Tag | 0.9 | 34.5 | 28.7 | 24.8 | 47.1 | **62.3** | 95.0 |"
+  },
+  {
+    "row": 28,
+    "rowsha": "v4c3aXpj9wA6ql27nivMfYRYLtf5z7VBQnX7Kh+Py4c=",
+    "originContent": "| Medium | Tag | 22.5 | 63.3 | 65.1 | 61.7 | 66.7 | **77.2** | 132.9 |",
+    "translatedContent": "| Medio | Tag | 22.5 | 63.3 | 65.1 | 61.7 | 66.7 | **77.2** | 132.9 |"
+  },
+  {
+    "row": 29,
+    "rowsha": "SeaHp6XI/jVmuDblX0rzEEh667H34faj40iaFbxNfgk=",
+    "originContent": "| Random | Tag | 1.2 | 2.2 | 5.7 | 5.0 | **11.1** | 3.2 | 10.7 |",
+    "translatedContent": "| Aleatorio | Tag | 1.2 | 2.2 | 5.7 | 5.0 | **11.1** | 3.2 | 10.7 |"
+  },
+  {
+    "row": 30,
+    "rowsha": "L62R8rPgtEdjvyFfCV1Yn0yM960d0jgwGPFf8MK12iA=",
+    "originContent": "| Expert | World | 33.0 | 109.5 | 110.3 | 71.9 | 110.4 | **122.6** | 174.0 |",
+    "translatedContent": "| Experto | World | 33.0 | 109.5 | 110.3 | 71.9 | 110.4 | **122.6** | 174.0 |"
+  },
+  {
+    "row": 31,
+    "rowsha": "7rkisffI1aw9r6qV54siAdnKul89H8EAiSG4xsDN+II=",
+    "originContent": "| Md-Replay | World | 2.3 | 12.0 | 17.4 | 29.6 | 42.9 | **57.1** | 83.0 |",
+    "translatedContent": "| Md-Replay | World | 2.3 | 12.0 | 17.4 | 29.6 | 42.9 | **57.1** | 83.0 |"
+  },
+  {
+    "row": 32,
+    "rowsha": "w9LmTGt9gtRREpylBX3C7XqFdxycdNrssEAP7yKe8k8=",
+    "originContent": "| Medium | World | 25.3 | 71.9 | 73.4 | 58.6 | 74.6 | **123.5** | 158.2 |",
+    "translatedContent": "| Medio | World | 25.3 | 71.9 | 73.4 | 58.6 | 74.6 | **123.5** | 158.2 |"
+  },
+  {
+    "row": 33,
+    "rowsha": "A9yQZZFFmAFTGb6BuiRIKgKIWkLBT1lWNYq3YNTmUzE=",
+    "originContent": "| Random | World | -2.4 | 1.0 | 2.8 | 0.6 | **5.9** | 2.0 | 8.1 |",
+    "translatedContent": "| Aleatorio | World | -2.4 | 1.0 | 2.8 | 0.6 | **5.9** | 2.0 | 8.1 |"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "tMe7gGpxaLZvNjpHGik/JnxrvtekcierStloyl73WOw=",
+    "originContent": "### Multi-agent Mujoco (MA-Mujoco)",
+    "translatedContent": "### Mujoco Multiagente (MA-Mujoco)"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "hiBZE1Vg0Gk6p/ZuXYXO97qCe+z/Rbjg+s10jKVPtk4=",
+    "originContent": "The peformances on MA-Mujoco datasets released in [off-the-grid MARL benchmark](https://arxiv.org/abs/2302.00521). The results are averaged over 5 random seeds. ",
+    "translatedContent": "Los rendimientos en los conjuntos de datos MA-Mujoco publicados en el [benchmark off-the-grid MARL](https://arxiv.org/abs/2302.00521). Los resultados son promediados sobre 5 semillas aleatorias."
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "1fT4urFJMesK8lK7pO9XayoPTp+1dmVhplbasUbYurw=",
+    "originContent": "| Dataset | Task | BC | MA-TD3+BC | OMAR | MADiff-D | MADiff-C* |",
+    "translatedContent": "| Conjunto de datos | Tarea | BC | MA-TD3+BC | OMAR | MADiff-D | MADiff-C* |"
+  },
+  {
+    "row": 40,
+    "rowsha": "c4QVDyV2ZF/HH225apSrXg3TfKrJVS7hETo9oFFrWYY=",
+    "originContent": "| :----: | :----: | :----: | :----: | :----: | :----: | :----: |",
+    "translatedContent": "| :----: | :----: | :----: | :----: | :----: | :----: | :----: |"
+  },
+  {
+    "row": 41,
+    "rowsha": "6uAbmvtfhO4SpNI4DUMaKUGDj8DjEN7HYAw/Kj1wZiE=",
+    "originContent": "| Good | 2halfcheetah | 6846 | 7025 | 1434 | **8246** | 8514 |",
+    "translatedContent": "| Bueno | 2halfcheetah | 6846 | 7025 | 1434 | **8246** | 8514 |"
+  },
+  {
+    "row": 42,
+    "rowsha": "+JUsa5IoWKe41AJqS1pLVSkovxoHKb03oEIRrry1KR4=",
+    "originContent": "| Medium | 2halfcheetah | 1627 | **2561** | 1892 | 2207 | 2203 |",
+    "translatedContent": "| Medio | 2halfcheetah | 1627 | **2561** | 1892 | 2207 | 2203 |"
+  },
+  {
+    "row": 43,
+    "rowsha": "gPAIKoB3Jj4/zoEzYHa0vE7qsEODZwn6QQjxinTUt1A=",
+    "originContent": "| Poor | 2halfcheetah | 465 | 736 | 384 | **759** | 760 |",
+    "translatedContent": "| Pobre | 2halfcheetah | 465 | 736 | 384 | **759** | 760 |"
+  },
+  {
+    "row": 44,
+    "rowsha": "QyZr+q4Fn3p+vMnY0HKP7OQ6Oz2JPHP2x8wCuS6lNVs=",
+    "originContent": "| Good | 2ant | 2697 | 2922 | 464 | **2946** | 3069 |",
+    "translatedContent": "| Bueno | 2ant | 2697 | 2922 | 464 | **2946** | 3069 |"
+  },
+  {
+    "row": 45,
+    "rowsha": "fwXT2Mqn8HTdYoWJdnKF8pR5xXfJ3Gqc4FG/3cIe720=",
+    "originContent": "| Medium | 2ant | 1145 | 744 | 799 | **1211** | 1243 |",
+    "translatedContent": "| Medio | 2ant | 1145 | 744 | 799 | **1211** | 1243 |"
+  },
+  {
+    "row": 46,
+    "rowsha": "BEaz4wZtCB5BwI3LNWtxq9OrT2n2WjivxnNnukSh3as=",
+    "originContent": "| Poor | 2ant | 954 | **1256** | 857 | 946 | 1038 |",
+    "translatedContent": "| Pobre | 2ant | 954 | **1256** | 857 | 946 | 1038 |"
+  },
+  {
+    "row": 47,
+    "rowsha": "1/d/uaFJBQrdP9rxZJPdQSpNkGKI5OaF0ZchEvi14x4=",
+    "originContent": "| Good | 4ant | 2802 | 2628 | 344 | **3080** | 3068 |",
+    "translatedContent": "| Bueno | 4ant | 2802 | 2628 | 344 | **3080** | 3068 |"
+  },
+  {
+    "row": 48,
+    "rowsha": "y8VBwSdgUrX7du1xYxyIN9AIOh3ZioefGFrgszVsK1s=",
+    "originContent": "| Medium | 4ant | 1617 | **1843** | 929 | 1649 | 1871 |",
+    "translatedContent": "| Medio | 4ant | 1617 | **1843** | 929 | 1649 | 1871 |"
+  },
+  {
+    "row": 49,
+    "rowsha": "Rkjpj7X7HfIgzCfgwzGHIa05UnmBI9dEFrEpmftK27c=",
+    "originContent": "| Poor | 4ant | 1033 | 1075 | 518 | **1295** | 1353 |",
+    "translatedContent": "| Pobre | 4ant | 1033 | 1075 | 518 | **1295** | 1353 |"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "SnHh8hq/yr9idV8+Cl+9iWNVC+BzmXHNrRd9kTVGNiU=",
+    "originContent": "### StarCraft Multi-Agent Challenge (SMAC)",
+    "translatedContent": "### Desafío Multiagente de StarCraft (SMAC)"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "D6uBbpzcZluZ4oPDe8uZbzyfluQcjvZGlpJeEHyGOYk=",
+    "originContent": "The peformances on SMAC datasets released in [off-the-grid MARL benchmark](https://arxiv.org/abs/2302.00521). The results are averaged over 5 random seeds.",
+    "translatedContent": "Los desempeños en los conjuntos de datos SMAC publicados en [referencia MARL off-the-grid](https://arxiv.org/abs/2302.00521). Los resultados son promediados sobre 5 semillas aleatorias."
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "SGx/ZXKPxlv/DBm3P9IlMQsl7KhXeC+wrfHlwwFUous=",
+    "originContent": "| Dataset | Task | BC | QMIX | MA-ICQ | MA-CQL | MADT | MADiff-D | MADiff-C* |",
+    "translatedContent": "| Conjunto de datos | Tarea | BC | QMIX | MA-ICQ | MA-CQL | MADT | MADiff-D | MADiff-C* |"
+  },
+  {
+    "row": 56,
+    "rowsha": "HyJFuPdSEDGr6WGxs4Pyq6v2YTT26syBykWdIkCPiG8=",
+    "originContent": "| :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |",
+    "translatedContent": "| :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |"
+  },
+  {
+    "row": 57,
+    "rowsha": "ptzcdSiequhvzcoJZiAxpbSgppiBvuKOFQsfLYKTOms=",
+    "originContent": "| Good | 3m | 16.0 | 13.8 | 18.8 | **19.6** | 19.1 | 19.3 | 19.9 |",
+    "translatedContent": "| Bueno | 3m | 16.0 | 13.8 | 18.8 | **19.6** | 19.1 | 19.3 | 19.9 |"
+  },
+  {
+    "row": 58,
+    "rowsha": "l+rCEBhCOSTIIh5GS78bk4RyFRBbg23DJzfydBqIDk4=",
+    "originContent": "| Medium | 3m | 8.2 | 17.3 | 18.1 | **18.9** | 15.8 | 17.3 | 18.1 | ",
+    "translatedContent": "| Medio | 3m | 8.2 | 17.3 | 18.1 | **18.9** | 15.8 | 17.3 | 18.1 | "
+  },
+  {
+    "row": 59,
+    "rowsha": "YUPO5V5iqWxGEkh+ow6AKqFmb1KBlI9bcvPj7xtO9ME=",
+    "originContent": "| Poor | 3m | 4.4 | 10.0 | **14.4** | 5.8 | 4.4 | 9.6 | 9.5 | ",
+    "translatedContent": "| Pobre | 3m | 4.4 | 10.0 | **14.4** | 5.8 | 4.4 | 9.6 | 9.5 | "
+  },
+  {
+    "row": 60,
+    "rowsha": "O7pKm+uPmpGqzd1oUYf0LG33kOgiU7nV4RGgHhXIDDM=",
+    "originContent": "| Good | 2s3z | 18.2 | 5.9 | **19.6** | 19.0 | 19.3 | **19.6** | 19.7 | ",
+    "translatedContent": "| Bueno | 2s3z | 18.2 | 5.9 | **19.6** | 19.0 | 19.3 | **19.6** | 19.7 | "
+  },
+  {
+    "row": 61,
+    "rowsha": "70/99RsN0JWVADo5ffd44Jwg89CS3lVEH+KG2Z1fCMg=",
+    "originContent": "| Medium | 2s3z | 12.3 | 5.2 | 17.2 | 14.3 | 15.0 | **17.4** | 17.6 | ",
+    "translatedContent": "| Medio | 2s3z | 12.3 | 5.2 | 17.2 | 14.3 | 15.0 | **17.4** | 17.6 | "
+  },
+  {
+    "row": 62,
+    "rowsha": "/4LM/3u42mIU62YJogs5K2NqNc7Ff1NWQYOSVXJn5M0=",
+    "originContent": "| Poor | 2s3z | 6.7 | 3.8 | **12.1** | 10.1 | 7.0 | 9.8 | 10.4 |",
+    "translatedContent": "| Pobre | 2s3z | 6.7 | 3.8 | **12.1** | 10.1 | 7.0 | 9.8 | 10.4 |"
+  },
+  {
+    "row": 63,
+    "rowsha": "OhTH9Ba/KEv0ii9q1KDx76FawfB0d4IR/Ejc96m+8Io=",
+    "originContent": "| Good | 5m6m | 16.6 | 8.0 | 16.3 | 13.8 | 16.7 | **17.8** | 18.0 | ",
+    "translatedContent": "| Bueno | 5m6m | 16.6 | 8.0 | 16.3 | 13.8 | 16.7 | **17.8** | 18.0 | "
+  },
+  {
+    "row": 64,
+    "rowsha": "IMdDNF8SQ5yjWaNbBj2eVG5sDzRWi7Fj+OHmSTnGQfU=",
+    "originContent": "| Medium | 5m6m | 12.4 | 12.0 | 15.3 | 17.0 | 16.6 | **17.3** | 18.0 | ",
+    "translatedContent": "| Medio | 5m6m | 12.4 | 12.0 | 15.3 | 17.0 | 16.6 | **17.3** | 18.0 | "
+  },
+  {
+    "row": 65,
+    "rowsha": "ccz5arZkrVSk25FEcutLuPUkDSQ6hl8IK8TOU7alvqA=",
+    "originContent": "| Poor | 5m6m | 7.5 | **10.7** | 9.4 | 10.4 | 7.8 | 8.9 | 10.3 |",
+    "translatedContent": "| Pobre | 5m6m | 7.5 | **10.7** | 9.4 | 10.4 | 7.8 | 8.9 | 10.3 |"
+  },
+  {
+    "row": 66,
+    "rowsha": "ukbUXEDIK8mx93szyq5d9fXeYvVbL6UGlN5jtwbSpJo=",
+    "originContent": "| Good | 8m | 16.7 | 4.6 | **19.6** | 11.3 | 18.4 | 19.2 | 19.8 | ",
+    "translatedContent": "| Bueno | 8m | 16.7 | 4.6 | **19.6** | 11.3 | 18.4 | 19.2 | 19.8 | "
+  },
+  {
+    "row": 67,
+    "rowsha": "6PFVdmycXkjXhu9UjflqO0A/DrPqDfaDulUAwb60L68=",
+    "originContent": "| Medium | 8m | 10.7 | 13.9 | 18.6 | 16.8 | 18.5 | **18.9** | 19.4 | ",
+    "translatedContent": "| Medio | 8m | 10.7 | 13.9 | 18.6 | 16.8 | 18.5 | **18.9** | 19.4 | "
+  },
+  {
+    "row": 68,
+    "rowsha": "Z7ux79QO6kGYGT6D/nk2EctGDof7Dj9tOMngVkPpsAc=",
+    "originContent": "| Poor | 8m | 5.3 | 6.0 | **10.8** | 4.6 | 4.7 | 5.1 | 5.1 |",
+    "translatedContent": "| Pobre | 8m | 5.3 | 6.0 | **10.8** | 4.6 | 4.7 | 5.1 | 5.1 |"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "aFySqjG+uFBsw4g2cHcaptuMZg+U8YCWTgvaMepiWbg=",
+    "originContent": "*\\* MADiff-C is not meant to be a fair comparison with baseline methods but to show if MADiff-D fills the gap for coordination without global information.*",
+    "translatedContent": "*\\* MADiff-C no está destinado a ser una comparación justa con los métodos base, sino para mostrar si MADiff-D cubre la brecha para la coordinación sin información global.*"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+    "originContent": "## Setup",
+    "translatedContent": "## Configuración"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+    "originContent": "### Installation",
+    "translatedContent": "### Instalación"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 77,
+    "rowsha": "X3heDK3K9cGmPB6ldvhsKE9JtKSZBqFPmT4avwQn+CU=",
+    "originContent": "sudo apt-get update",
+    "translatedContent": "sudo apt-get update"
+  },
+  {
+    "row": 78,
+    "rowsha": "6UrP/ETIM29kmnEMPcIWUHPsjw6KIaeRBynVCf4e0Z0=",
+    "originContent": "sudo apt-get install libssl-dev libcurl4-openssl-dev swig",
+    "translatedContent": "sudo apt-get install libssl-dev libcurl4-openssl-dev swig"
+  },
+  {
+    "row": 79,
+    "rowsha": "u7WX7aTThlaL9sHXNAmaEsSo7ODj5om+o43czQbujQE=",
+    "originContent": "conda create -n madiff python=3.8",
+    "translatedContent": "conda create -n madiff python=3.8"
+  },
+  {
+    "row": 80,
+    "rowsha": "b29P2OO4qq1Px0OHngZhA21FS5rdK6T02vhWCcxtPfg=",
+    "originContent": "conda activate madiff",
+    "translatedContent": "conda activate madiff"
+  },
+  {
+    "row": 81,
+    "rowsha": "lZxtUtJjbMfE1CtNXG3kukAUjDeqt8Avy/G4CkPzg28=",
+    "originContent": "pip install torch==1.12.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113",
+    "translatedContent": "pip install torch==1.12.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113"
+  },
+  {
+    "row": 82,
+    "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+    "originContent": "pip install -r requirements.txt",
+    "translatedContent": "pip install -r requirements.txt"
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "HmAM1wK86PymXK0lMpKBM4QEI72LFKbqCT1ZpUm4/D4=",
+    "originContent": "### Setup MPE",
+    "translatedContent": "### Configurar MPE"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "Omjo3rHFh+B7kAhiMZGq+myHh0gbym5vRZP2yKQFgdg=",
+    "originContent": "We use the MPE dataset from [OMAR](https://github.com/ling-pan/OMAR). The dataset download link and instructions can be found in OMAR's [repo](https://github.com/ling-pan/OMAR). Since their BaiduPan download links might be inconvenient for non-Chinese users, we maintain an anonymous mirror [repo](https://osf.io/jxawh/?view_only=dd3264a695af4c03bffde0350b8e8c4a) in OSF for acquiring the dataset.",
+    "translatedContent": "Utilizamos el conjunto de datos MPE de [OMAR](https://github.com/ling-pan/OMAR). El enlace de descarga del conjunto de datos y las instrucciones se pueden encontrar en el [repositorio](https://github.com/ling-pan/OMAR) de OMAR. Dado que sus enlaces de descarga de BaiduPan pueden ser inconvenientes para usuarios que no son chinos, mantenemos un espejo anónimo [repositorio](https://osf.io/jxawh/?view_only=dd3264a695af4c03bffde0350b8e8c4a) en OSF para adquirir el conjunto de datos."
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "HoilAx3i/nCplJ19uyoI4Hz/RBHZbrPWHHYHWBuHYmk=",
+    "originContent": "The downloaded dataset should be placed under `diffuser/datasets/data/mpe`.",
+    "translatedContent": "El conjunto de datos descargado debe colocarse en `diffuser/datasets/data/mpe`."
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "gdlluvnrp5Fofnw4h31UXCanTrdaxhJq8QDNmSyL7Mo=",
+    "originContent": "Install MPE environment:",
+    "translatedContent": "Instalar el entorno MPE:"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 94,
+    "rowsha": "I59uBQTFMfrfRw3QdSncEAU3nWsDHL+C8/boU4H8lkw=",
+    "originContent": "pip install -e third_party/multiagent-particle-envs",
+    "translatedContent": "pip install -e third_party/multiagent-particle-envs"
+  },
+  {
+    "row": 95,
+    "rowsha": "LtaEkD7tQCD/8jAKBb9IPZsjpTiw0H9zzw4R8UYWaQ8=",
+    "originContent": "pip install -e third_party/ddpg-agent",
+    "translatedContent": "pip install -e third_party/ddpg-agent"
+  },
+  {
+    "row": 96,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "gs0bEcf4ftiehH7/zD+NW6Cca9ZqYbkIn6Ixdija64A=",
+    "originContent": "### Setup MA-Mujoco",
+    "translatedContent": "### Configurar MA-Mujoco"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "mdTmd5tCGAd+bH7CkGQi5W3Off4iqN/CZzN63NWD+NY=",
+    "originContent": "1. Install MA-Mujoco:",
+    "translatedContent": "1. Instalar MA-Mujoco:"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 103,
+    "rowsha": "odXNbdlUE9BIkLGsJ8jK+RRMwvQFlgtEjRJUL4/q12E=",
+    "originContent": "    pip install -e third_party/multiagent_mujoco",
+    "translatedContent": "    pip install -e third_party/multiagent_mujoco"
+  },
+  {
+    "row": 104,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. Usamos el conjunto de datos MA-Mujoco de [off-the-grid MARL](https://sites.google.com/view/og-marl). Preprocesamos el conjunto de datos para concatenar trayectorias en episodios completos y guardarlos como archivos `.npy` para facilitar su carga. El conjunto de datos original se puede descargar desde el [repositorio](https://huggingface.co/datasets/Avada11/MADiff-Datasets) de Huggingface."
+  },
+  {
+    "row": 106,
+    "rowsha": "2ZPN74Qh31+LmeCh3A5HPLSqyWVGV3+Zla+0yeSmzww=",
+    "originContent": "2. We use the MA-Mujoco dataset from [off-the-grid MARL](https://sites.google.com/view/og-marl). We preprocess the dataset to concatenate trajectories to full episodes and save them as `.npy` files for easier loading. The original dataset can be downloaded from the Huggingface [repo](https://huggingface.co/datasets/Avada11/MADiff-Datasets).",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    El conjunto de datos descargado debe descomprimirse y colocarse en `diffuser/datasets/data/mamujoco`."
+  },
+  {
+    "row": 108,
+    "rowsha": "HHyyJMEXOEPl0fgFweDv1XE1H9170px+0HKRFd6HV9I=",
+    "originContent": "    The downloaded dataset should be unzipped and placed under `diffuser/datasets/data/mamujoco`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. Instale off-the-grid MARL y transforme el conjunto de datos original."
+  },
+  {
+    "row": 110,
+    "rowsha": "V9BGrx2ZldBiUpaS2GRgC2MLxAnhjeYnSRCI/TSdLG4=",
+    "originContent": "3. Install off-the-grid MARL and transform the original dataset.",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 113,
+    "rowsha": "ft4FXJxZRBWs/ibHoxMFy9KQ/qdtuIfJ9hv+VZCwSVg=",
+    "originContent": "    pip install -r ./third_party/og-marl/install_environments/requirements/mamujoco.txt",
+    "translatedContent": "    pip install -r ./third_party/og-marl/install_environments/requirements/mamujoco.txt"
+  },
+  {
+    "row": 114,
+    "rowsha": "aaT/EOnTkrcZTxBBckowDij2ixpgapCOBgbhIfl/xhI=",
+    "originContent": "    pip install -e ./third_party/og-marl",
+    "translatedContent": "    pip install -e ./third_party/og-marl"
+  },
+  {
+    "row": 115,
+    "rowsha": "VUvGiSQwzopUYI/9tRW/hKXz3m6WYgdxKQscAIl7Mq0=",
+    "originContent": "    python scripts/transform_og_marl_dataset.py --env_name mamujoco --map_name <map> --quality <dataset>",
+    "translatedContent": "    python scripts/transform_og_marl_dataset.py --env_name mamujoco --map_name <map> --quality <dataset>"
+  },
+  {
+    "row": 116,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "WWcVGnhy8PoZ08NeAfdXGcDgzsRc4uy5x811oLXxVcA=",
+    "originContent": "### Setup SMAC",
+    "translatedContent": "### Configurar SMAC"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "rQS4SS5v24LJjjV5MlRnD0ufzbB6pj3mp9yDnObNSI4=",
+    "originContent": "1. Run `scripts/smac.sh` to install *StarCraftII*.",
+    "translatedContent": "1. Ejecute `scripts/smac.sh` para instalar *StarCraftII*."
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "KrrTmUzwHSOfnJB4G3gy+OMP8shnx5XgROLXG0q6auI=",
+    "originContent": "2. Install SMAC:",
+    "translatedContent": "2. Instale SMAC:"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 125,
+    "rowsha": "XapXn9EFiPuARV6n7ex/FzHVrYZFI7aoeMfkvmiqn+A=",
+    "originContent": "    pip install git+https://github.com/oxwhirl/smac.git",
+    "translatedContent": "    pip install git+https://github.com/oxwhirl/smac.git"
+  },
+  {
+    "row": 126,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "3J5uYvl0udTalri0DUfC7oFjwLE6PQOxo6C0j4vu9k4=",
+    "originContent": "3. We use the SMAC dataset from [off-the-grid MARL](https://sites.google.com/view/og-marl). We preprocess the dataset to concatenate trajectories to full episodes and save them as `.npy` files for easier loading. The original dataset can be downloaded from the Huggingface [repo](https://huggingface.co/datasets/Avada11/MADiff-Datasets).",
+    "translatedContent": "3. Usamos el conjunto de datos SMAC de [off-the-grid MARL](https://sites.google.com/view/og-marl). Preprocesamos el conjunto de datos para concatenar trayectorias en episodios completos y guardarlos como archivos `.npy` para facilitar la carga. El conjunto de datos original se puede descargar desde el [repositorio](https://huggingface.co/datasets/Avada11/MADiff-Datasets) de Huggingface."
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "+oInkgzrYyV4hePYzdsMQSEfU7V3niMjL6a8mxKAfpE=",
+    "originContent": "    The downloaded dataset should be unzipped and placed under `diffuser/datasets/data/smac`.",
+    "translatedContent": "    El conjunto de datos descargado debe descomprimirse y colocarse en `diffuser/datasets/data/smac`."
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "+AI508PPslytxIAA7S2HD2lC0A91BFOyY0wvHMg9s6c=",
+    "originContent": "4. Install off-the-grid MARL and transform the original dataset.",
+    "translatedContent": "4. Instale off-the-grid MARL y transforme el conjunto de datos original."
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 135,
+    "rowsha": "g9oHtbXHjxBQ+8I6laJV4Vj81PWrrFcR/d2RQPZKEuY=",
+    "originContent": "    pip install -r ./third_party/og-marl/install_environments/requirements/smacv1.txt",
+    "translatedContent": "    pip install -r ./third_party/og-marl/install_environments/requirements/smacv1.txt"
+  },
+  {
+    "row": 136,
+    "rowsha": "aaT/EOnTkrcZTxBBckowDij2ixpgapCOBgbhIfl/xhI=",
+    "originContent": "    pip install -e ./third_party/og-marl",
+    "translatedContent": "    pip install -e ./third_party/og-marl"
+  },
+  {
+    "row": 137,
+    "rowsha": "Gd/n8suna2OUF8J0JfqhrDHDtIEEAFy1RKiLbmZQZog=",
+    "originContent": "    python scripts/transform_og_marl_dataset.py --env_name smac --map_name <map> --quality <dataset>",
+    "translatedContent": "    python scripts/transform_og_marl_dataset.py --env_name smac --map_name <map> --quality <dataset>"
+  },
+  {
+    "row": 138,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "4fZ7hGHwu1wPO2j9gb67cLfxO70a58lzjuzzryUCDTg=",
+    "originContent": "## Training and Evaluation",
+    "translatedContent": "## Entrenamiento y Evaluación"
+  },
+  {
+    "row": 141,
+    "rowsha": "TqfkhFyNlP5kJc3ufj6UOYaSoJ5QDPPx7o4eOH+aAvU=",
+    "originContent": "To start training, run the following commands",
+    "translatedContent": "Para comenzar el entrenamiento, ejecute los siguientes comandos"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 144,
+    "rowsha": "J9plfTkXnZlQwfiw4qPWNIC4RDcISIBtHnFE8wMURew=",
+    "originContent": "# multi-agent particle environment",
+    "translatedContent": "# multi-agent particle environment"
+  },
+  {
+    "row": 145,
+    "rowsha": "Kddn9KPCCWPGyzr7JMhZZUjfJTCe1Qp+Mggl0O4x6tM=",
+    "originContent": "python run_experiment.py -e exp_specs/mpe/<task>/mad_mpe_<task>_attn_<dataset>.yaml  # CTCE",
+    "translatedContent": "python run_experiment.py -e exp_specs/mpe/<task>/mad_mpe_<task>_attn_<dataset>.yaml  # CTCE"
+  },
+  {
+    "row": 146,
+    "rowsha": "zi3IkVCui40KH4siAuSPIBa/mbOwfte8Rj1mRvHx2sM=",
+    "originContent": "python run_experiment.py -e exp_specs/mpe/<task>/mad_mpe_<task>_ctde_<dataset>.yaml  # CTDE",
+    "translatedContent": "python run_experiment.py -e exp_specs/mpe/<task>/mad_mpe_<task>_ctde_<dataset>.yaml  # CTDE"
+  },
+  {
+    "row": 147,
+    "rowsha": "KWXEjBbwra+0R7x17bMKj4Y4bza0GDpVWJBfqhTcks8=",
+    "originContent": "# ma-mujoco",
+    "translatedContent": "# ma-mujoco"
+  },
+  {
+    "row": 148,
+    "rowsha": "SkBeZzgPD1SC4fJv8VJV9GVjtIIYUNES95iMIVSikQ0=",
+    "originContent": "python run_experiment.py -e exp_specs/mamujoco/<task>/mad_mamujoco_<task>_attn_<dataset>_history.yaml  # CTCE",
+    "translatedContent": "python run_experiment.py -e exp_specs/mamujoco/<task>/mad_mamujoco_<task>_attn_<dataset>_history.yaml  # CTCE"
+  },
+  {
+    "row": 149,
+    "rowsha": "5UIbw6/XXSMEJVzSpp24uTpFSs8KFa3r674G2zFn7+M=",
+    "originContent": "python run_experiment.py -e exp_specs/mamujoco/<task>/mad_mamujoco_<task>_ctde_<dataset>_history.yaml  # CTDE",
+    "translatedContent": "python run_experiment.py -e exp_specs/mamujoco/<task>/mad_mamujoco_<task>_ctde_<dataset>_history.yaml  # CTDE"
+  },
+  {
+    "row": 150,
+    "rowsha": "7DyI6itz3kgzJIw/5us0Nlq2Mdru7AghgqA+OUEcu3g=",
+    "originContent": "# smac",
+    "translatedContent": "# smac"
+  },
+  {
+    "row": 151,
+    "rowsha": "HIZ3LeBuPjkJnHg7lMNr/TF8vc0FOmAtz/yviihSjBs=",
+    "originContent": "python run_experiment.py -e exp_specs/smac/<map>/mad_smac_<map>_attn_<dataset>_history.yaml  # CTCE",
+    "translatedContent": "python run_experiment.py -e exp_specs/smac/<map>/mad_smac_<map>_attn_<dataset>_history.yaml  # CTCE"
+  },
+  {
+    "row": 152,
+    "rowsha": "T44jD8QTlFseCpHmKnY3WrmEUSIvLwAZFUPiRYVtf1E=",
+    "originContent": "python run_experiment.py -e exp_specs/smac/<map>/mad_smac_<map>_ctde_<dataset>_history.yaml  # CTDE",
+    "translatedContent": "python run_experiment.py -e exp_specs/smac/<map>/mad_smac_<map>_ctde_<dataset>_history.yaml  # CTDE"
+  },
+  {
+    "row": 153,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Para evaluar el modelo entrenado, primero reemplace el `log_dir` con los que deben ser evaluados en `exp_specs/eval_inv.yaml` y ejecute"
+  },
+  {
+    "row": 155,
+    "rowsha": "ufRVd5RoFIX1NY9QOU5X+toqJNaROvoSh00N++R15Ww=",
+    "originContent": "To evaluate the trained model, first replace the `log_dir` with those need to be evaluated in `exp_specs/eval_inv.yaml` and run",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 157,
+    "rowsha": "3bRwXnJNIvQm5oGid2ZKu/HyDsBl7V7OfRAP4VYDqD8=",
+    "originContent": "python run_experiment.py -e exp_specs/eval_inv.yaml",
+    "translatedContent": "python run_experiment.py -e exp_specs/eval_inv.yaml"
+  },
+  {
+    "row": 158,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+    "originContent": "## Citation",
+    "translatedContent": "## Cita"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 163,
+    "rowsha": "Z8hLWN/xtYiqskPRkjob4FAvzy3Aac5Evc6blAj4UKE=",
+    "originContent": "@article{zhu2023madiff,",
+    "translatedContent": "@article{zhu2023madiff,"
+  },
+  {
+    "row": 164,
+    "rowsha": "9Nl4kuRqwL6EYzZVKp/YW2gb+Sq0uGr8RwNggWT2dE4=",
+    "originContent": "  title={MADiff: Offline Multi-agent Learning with Diffusion Models},",
+    "translatedContent": "  title={MADiff: Offline Multi-agent Learning with Diffusion Models},"
+  },
+  {
+    "row": 165,
+    "rowsha": "lbRryRCC5r29qLFbRIhc/xu9PeVMo94BesuihliwMBg=",
+    "originContent": "  author={Zhu, Zhengbang and Liu, Minghuan and Mao, Liyuan and Kang, Bingyi and Xu, Minkai and Yu, Yong and Ermon, Stefano and Zhang, Weinan},",
+    "translatedContent": "  author={Zhu, Zhengbang and Liu, Minghuan and Mao, Liyuan and Kang, Bingyi and Xu, Minkai and Yu, Yong and Ermon, Stefano and Zhang, Weinan},"
+  },
+  {
+    "row": 166,
+    "rowsha": "ng74fDWwdhdH7H/zsD2Z/yAHACElFaXUFPJGJ42E1Vw=",
+    "originContent": "  journal={arXiv preprint arXiv:2305.17330},",
+    "translatedContent": "  journal={arXiv preprint arXiv:2305.17330},"
+  },
+  {
+    "row": 167,
+    "rowsha": "3Av7xTd9BX7nMuy1VF/5IK4otUrPJnE2oTIVVk8VbF4=",
+    "originContent": "  year={2023}",
+    "translatedContent": "  year={2023}"
+  },
+  {
+    "row": 168,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 169,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+    "originContent": "## Acknowledgements",
+    "translatedContent": "## Agradecimientos"
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "sQGj3ptKJqH5AeamyVZ5hErsGj5y0HfnCvOAcZjfZas=",
+    "originContent": "The codebase is built upon [decision-diffuser repo](https://github.com/anuragajay/decision-diffuser) and [ILSwiss](https://github.com/Ericonaldo/ILSwiss).",
+    "translatedContent": "La base de código está construida sobre el repositorio [decision-diffuser](https://github.com/anuragajay/decision-diffuser) y [ILSwiss](https://github.com/Ericonaldo/ILSwiss)."
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

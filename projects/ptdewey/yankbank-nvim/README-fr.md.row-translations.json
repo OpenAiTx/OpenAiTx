@@ -1,0 +1,1418 @@
+[
+  {
+    "row": 1,
+    "rowsha": "V5syLSudSgMZHsIgJ1oywXm23WZ6qlwNBsH6s3RwDlQ=",
+    "originContent": "# YankBank",
+    "translatedContent": "# YankBank"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "BRHkG1TdyqyAlaq7IaOHjjq1V6aROojzKwBAV5S5aZc=",
+    "originContent": "A Neovim plugin for keeping track of more recent yanks and deletions and exposing them in a quick access menu.",
+    "translatedContent": "Un plugin Neovim pour garder une trace des yanks et suppressions les plus récents et les exposer dans un menu d’accès rapide."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "6dbHrAELw66aUACkBYWPu214EPIRo2r2JpwCG0TWgGw=",
+    "originContent": "## What it Does",
+    "translatedContent": "## Ce qu’il fait"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "7EG22w+qVxNqTVFjhLRdInVYjx7xhzn6qqvmLahK8GU=",
+    "originContent": "YankBank stores the N recent yanks into the unnamed register (\"), then populates a popup window with these recent yanks, allowing for quick access to recent yank history.",
+    "translatedContent": "YankBank stocke les N derniers yanks dans le registre non nommé (\"), puis remplit une fenêtre popup avec ces yanks récents, permettant un accès rapide à l’historique des yanks récents.  "
+  },
+  {
+    "row": 8,
+    "rowsha": "no6WSYWxfOV8NcqVOkw19q/G2JYyFWkLDrdXe9IqtMY=",
+    "originContent": "Upon opening the popup menu, the current contents of the unnamedplus (+) register are also added to the menu (if they are different from the current contents of the unnamed register).",
+    "translatedContent": "Lors de l’ouverture du menu popup, le contenu actuel du registre unnamedplus (+) est également ajouté au menu (s’il est différent du contenu actuel du registre non nommé)."
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "hAIdotFrUnwG9UZC+Nv5g7lzmW605nr2vo6Xlgc4t48=",
+    "originContent": "Choosing an entry from the menu (by hitting enter) will paste it into the currently open buffer at the cursor position.",
+    "translatedContent": "Choisir une entrée dans le menu (en appuyant sur entrée) la collera dans le buffer ouvert à la position du curseur."
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "DSPADe2m6zJfB2G+rauKDAILKFzzVU9CyRTUMHnvmFA=",
+    "originContent": "YankBank also offers persistence between sessions, meaning that you won't lose your yanks after closing and reopening a session (see [persistence](#Persistence)).",
+    "translatedContent": "YankBank offre également une persistance entre les sessions, ce qui signifie que vous ne perdrez pas vos yanks après avoir fermé et rouvert une session (voir [persistance](#Persistence))."
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "+GZMPDw1QrnophPxZwy1+UMhFIkKRwwdeNWqc9PVveA=",
+    "originContent": "### Screenshots",
+    "translatedContent": "### Captures d’écran"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "CckuA74ao7vpi2L3Zh3cq01D39iiifovynXQrNyXwFY=",
+    "originContent": "![YankBank popup window zoomed](https://raw.githubusercontent.com/ptdewey/yankbank-nvim/main/assets/screenshot-2.png)",
+    "translatedContent": "![Fenêtre popup YankBank zoomée](https://raw.githubusercontent.com/ptdewey/yankbank-nvim/main/assets/screenshot-2.png)"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "+dEd3PLAydQD9ouGVqfz3UGfTZQXQjpQqPml1NZ9RuA=",
+    "originContent": "The menu is specific to the current session, and will only contain the contents of the current unnamedplus register upon opening in a completely new session.",
+    "translatedContent": "Le menu est spécifique à la session en cours, et ne contiendra que le contenu du registre unnamedplus actuel à l’ouverture dans une toute nouvelle session.  "
+  },
+  {
+    "row": 19,
+    "rowsha": "l8ud0TFJoC/Z1dtev8aSI+i/NetgLe0tZOjqNtDdrCE=",
+    "originContent": "It will be populated further for each yank or deletion in that session.",
+    "translatedContent": "Il sera ensuite complété pour chaque yank ou suppression dans cette session."
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "UhpC3W+vIQPz/181ms3Kj1BI1Z8kr/uIw0AL2kJGHA4=",
+    "originContent": "## Installation and Setup",
+    "translatedContent": "## Installation et configuration"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "IX2VQaJSck3DGcL1Ug/qUjv4ARM7tNAfIh1HaqZ0wB8=",
+    "originContent": "#### With Persistence (Recommended)",
+    "translatedContent": "#### Avec persistance (recommandé)"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "DbYwrUnl24XOmdFzYegobNHDk67hZxIYvqiMi1/Wbps=",
+    "originContent": "Using lazy.nvim",
+    "translatedContent": "Utilisation de lazy.nvim"
+  },
+  {
+    "row": 26,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 27,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 28,
+    "rowsha": "jQIv5mlnlA5cGWOS6aQ7i3Ur0S8QWzKRYphk6ZoRuXc=",
+    "originContent": "    \"ptdewey/yankbank-nvim\",",
+    "translatedContent": "    \"ptdewey/yankbank-nvim\","
+  },
+  {
+    "row": 29,
+    "rowsha": "SQJYzjRDBHW/6YkHMH7VaRs/mvHokc1zzqsq0QRJlDs=",
+    "originContent": "    dependencies = \"kkharji/sqlite.lua\",",
+    "translatedContent": "    dependencies = \"kkharji/sqlite.lua\","
+  },
+  {
+    "row": 30,
+    "rowsha": "0kvDjzlvAazPYscOGbljxNJWDg8U9OoBavDA6dIub3I=",
+    "originContent": "    cmd = { \"YankBank\" },",
+    "translatedContent": "    cmd = { \"YankBank\" },"
+  },
+  {
+    "row": 31,
+    "rowsha": "TtYHI739T/CTXucuyVUj6dn2Ho9BmvZxZCWw0kkBjQE=",
+    "originContent": "    config = function()",
+    "translatedContent": "    config = function()"
+  },
+  {
+    "row": 32,
+    "rowsha": "CES1q6xtkW7ME39TnOr+FDgKDOtiP1f+jcm1hurKA8M=",
+    "originContent": "        require('yankbank').setup({",
+    "translatedContent": "        require('yankbank').setup({"
+  },
+  {
+    "row": 33,
+    "rowsha": "mUWJ73JeX8Pb9C3lYhlJvQTFfztszdNhAE9TvDRPqw8=",
+    "originContent": "            persist_type = \"sqlite\",",
+    "translatedContent": "            persist_type = \"sqlite\","
+  },
+  {
+    "row": 34,
+    "rowsha": "9I500RX2isp6I6q7fcvhvKyXEipHnrb+1kiF309dB54=",
+    "originContent": "        })",
+    "translatedContent": "        })"
+  },
+  {
+    "row": 35,
+    "rowsha": "I56Vy6eR1hVmH9glMC5Pfxm6noO9PqSqjp/2hDea44k=",
+    "originContent": "    end,",
+    "translatedContent": "    end,"
+  },
+  {
+    "row": 36,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "sgSOlRpVnsDd+txLTPDFFRa9i64DtrmUxGjAD3nrLVA=",
+    "originContent": "#### Without persistence:",
+    "translatedContent": "#### Sans persistance :"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "DbYwrUnl24XOmdFzYegobNHDk67hZxIYvqiMi1/Wbps=",
+    "originContent": "Using lazy.nvim",
+    "translatedContent": "Utilisation de lazy.nvim"
+  },
+  {
+    "row": 42,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 43,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 44,
+    "rowsha": "jQIv5mlnlA5cGWOS6aQ7i3Ur0S8QWzKRYphk6ZoRuXc=",
+    "originContent": "    \"ptdewey/yankbank-nvim\",",
+    "translatedContent": "    \"ptdewey/yankbank-nvim\","
+  },
+  {
+    "row": 45,
+    "rowsha": "0kvDjzlvAazPYscOGbljxNJWDg8U9OoBavDA6dIub3I=",
+    "originContent": "    cmd = { \"YankBank\" },",
+    "translatedContent": "    cmd = { \"YankBank\" },"
+  },
+  {
+    "row": 46,
+    "rowsha": "TtYHI739T/CTXucuyVUj6dn2Ho9BmvZxZCWw0kkBjQE=",
+    "originContent": "    config = function()",
+    "translatedContent": "    config = function()"
+  },
+  {
+    "row": 47,
+    "rowsha": "yH/oUWiG4MRbBg9LDT4grA4XJVEjTpOce6xhFeTBBfY=",
+    "originContent": "        require('yankbank').setup()",
+    "translatedContent": "        require('yankbank').setup()"
+  },
+  {
+    "row": 48,
+    "rowsha": "I56Vy6eR1hVmH9glMC5Pfxm6noO9PqSqjp/2hDea44k=",
+    "originContent": "    end,",
+    "translatedContent": "    end,"
+  },
+  {
+    "row": 49,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "PfYcXNCFZc8raIUdBt+miS+940czbUtApvWkAuBZi+o=",
+    "originContent": "#### Lazy loading",
+    "translatedContent": "#### Chargement paresseux"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "x9VfAQkOB6p9F+08g/P3CHPnFtysDtzvVWcKvlrGAW0=",
+    "originContent": "Per [best practices](https://github.com/nvim-neorocks/nvim-best-practices?tab=readme-ov-file#sleeping_bed-lazy-loading), YankBank's initialization footprint is very minimal, and functionalities are only loaded when they are needed. As such, I set `lazy=false` in my config, and get a startup time of <1ms.",
+    "translatedContent": "Selon les [meilleures pratiques](https://github.com/nvim-neorocks/nvim-best-practices?tab=readme-ov-file#sleeping_bed-lazy-loading), l'empreinte d'initialisation de YankBank est très minimale, et les fonctionnalités ne sont chargées que lorsqu'elles sont nécessaires. Ainsi, j'ai défini `lazy=false` dans ma configuration, et j'obtiens un temps de démarrage de <1ms."
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 57,
+    "rowsha": "OrwvDvcLUpXKyNkV6bMVhx2nb/Y8gWeluX+FlX5s2sg=",
+    "originContent": "-- plugins/yankbank.lua",
+    "translatedContent": "-- plugins/yankbank.lua"
+  },
+  {
+    "row": 58,
+    "rowsha": "3eRBJPHuQhyzf5k/R/s8imOWzNzn/sOBCmrypRnM794=",
+    "originContent": "return {",
+    "translatedContent": "return {"
+  },
+  {
+    "row": 59,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 60,
+    "rowsha": "9SSwFIXlXL+rHZ1KNJc99eiCNiogd3NSy8U56ieNGak=",
+    "originContent": "        \"ptdewey/yankbank-nvim\",",
+    "translatedContent": "        \"ptdewey/yankbank-nvim\","
+  },
+  {
+    "row": 61,
+    "rowsha": "PiSRcju/tPR1MI9GIKC3eEXYyUhq2FWb8amqNEfoVI0=",
+    "originContent": "        lazy = false,",
+    "translatedContent": "        lazy = false,"
+  },
+  {
+    "row": 62,
+    "rowsha": "PC1mRP7KL9NTxTAOknFSVh+nvicKjZ5MwpUASkiCS5E=",
+    "originContent": "        config = function()",
+    "translatedContent": "        config = function()"
+  },
+  {
+    "row": 63,
+    "rowsha": "nU+d7LiQOKYZ0ZtMSdDzRURtfggApoIcuoghKXUATZI=",
+    "originContent": "            -- ...",
+    "translatedContent": "            -- ..."
+  },
+  {
+    "row": 64,
+    "rowsha": "uik9j7Uubq6ncLOOTMqjDrrsEdXX75p6I1OQr6kF5og=",
+    "originContent": "        end,",
+    "translatedContent": "        end,"
+  },
+  {
+    "row": 65,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 66,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 67,
+    "rowsha": "cAga00AphqMf44x6GTbOkj7UENMofEsgZYrN/PUDjNM=",
+    "originContent": "        \"kkharji/sqlite.lua\",",
+    "translatedContent": "        \"kkharji/sqlite.lua\","
+  },
+  {
+    "row": 68,
+    "rowsha": "Cx2lgKV6WxE3OU1XN6K12I7f/fvrNYkzEg8fwzVi428=",
+    "originContent": "        lazy = true,",
+    "translatedContent": "        lazy = true,"
+  },
+  {
+    "row": 69,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 70,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 71,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "WHR6qTThXiP8pyLA10Yjz3Nxxv5VivEcL0t9DXtGiRY=",
+    "originContent": "If you don't want to load YankBank on startup, I previously loaded it on keypresses that yank text (`y`, `Y`, `d`, `D`, `x`), the `FocusGained` event, and the `YankBank` command.",
+    "translatedContent": "Si vous ne souhaitez pas charger YankBank au démarrage, je l'ai précédemment chargé lors des pressions sur les touches qui copient du texte (`y`, `Y`, `d`, `D`, `x`), lors de l'événement `FocusGained`, et avec la commande `YankBank`."
+  },
+  {
+    "row": 74,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 75,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 76,
+    "rowsha": "jQIv5mlnlA5cGWOS6aQ7i3Ur0S8QWzKRYphk6ZoRuXc=",
+    "originContent": "    \"ptdewey/yankbank-nvim\",",
+    "translatedContent": "    \"ptdewey/yankbank-nvim\","
+  },
+  {
+    "row": 77,
+    "rowsha": "SQJYzjRDBHW/6YkHMH7VaRs/mvHokc1zzqsq0QRJlDs=",
+    "originContent": "    dependencies = \"kkharji/sqlite.lua\",",
+    "translatedContent": "    dependencies = \"kkharji/sqlite.lua\","
+  },
+  {
+    "row": 78,
+    "rowsha": "zqpWrYON+KNHUmP2w/W2QB1tM0THCPu4VHrfe/2TdrY=",
+    "originContent": "    keys = {",
+    "translatedContent": "    keys = {"
+  },
+  {
+    "row": 79,
+    "rowsha": "iXSDhLiKmyDOfqHKwABNj4szeODeEv/UBHEDZoJOSso=",
+    "originContent": "        { \"y\" },",
+    "translatedContent": "        { \"y\" },"
+  },
+  {
+    "row": 80,
+    "rowsha": "PM2ggEoSz54L6WMUY/mRCPhOb/Fa2gqk4/kwNYkIT3c=",
+    "originContent": "        { \"Y\", \"y$\" }, -- redefine Y behavior to y$ to avoid breaking lazy",
+    "translatedContent": "        { \"Y\", \"y$\" }, -- redefine Y behavior to y$ to avoid breaking lazy"
+  },
+  {
+    "row": 81,
+    "rowsha": "JPPW+AZn4m78/Xr7z+BBXQcvu54HEPTGAf7/sU8o3Lc=",
+    "originContent": "        { \"D\" },",
+    "translatedContent": "        { \"D\" },"
+  },
+  {
+    "row": 82,
+    "rowsha": "9S32Yqc9/puE1Zxm+k6yquxm8FvHzQFjfKS5kY1j9vs=",
+    "originContent": "        { \"d\" },",
+    "translatedContent": "        { \"d\" },"
+  },
+  {
+    "row": 83,
+    "rowsha": "glJcU20dzeSLLdoYaPE3gHu3jx9YBDS4UWFt9TXXA0Y=",
+    "originContent": "        { \"x\" },",
+    "translatedContent": "        { \"x\" },"
+  },
+  {
+    "row": 84,
+    "rowsha": "e9d3h3/f1M6wPWa/PqRvLGLaTRD+qHzGUHqCEJ/0jyU=",
+    "originContent": "        { \"<leader>p\", desc = \"Open YankBank\" },",
+    "translatedContent": "        { \"<leader>p\", desc = \"Open YankBank\" },"
+  },
+  {
+    "row": 85,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 86,
+    "rowsha": "0kvDjzlvAazPYscOGbljxNJWDg8U9OoBavDA6dIub3I=",
+    "originContent": "    cmd = { \"YankBank\" },",
+    "translatedContent": "    cmd = { \"YankBank\" },"
+  },
+  {
+    "row": 87,
+    "rowsha": "KRHzcep3xxKwZ8oB+0lyv6CDShIWHoKLRnmNl6GXXGE=",
+    "originContent": "    event = { \"FocusGained\" },",
+    "translatedContent": "    event = { \"FocusGained\" },"
+  },
+  {
+    "row": 88,
+    "rowsha": "TtYHI739T/CTXucuyVUj6dn2Ho9BmvZxZCWw0kkBjQE=",
+    "originContent": "    config = function()",
+    "translatedContent": "    config = function()"
+  },
+  {
+    "row": 89,
+    "rowsha": "Uszy316yW8h7Y9vsWxE5jpIN8ZpNQJWp04K30WFvoI4=",
+    "originContent": "        require(\"yankbank\").setup({",
+    "translatedContent": "        require(\"yankbank\").setup({"
+  },
+  {
+    "row": 90,
+    "rowsha": "nU+d7LiQOKYZ0ZtMSdDzRURtfggApoIcuoghKXUATZI=",
+    "originContent": "            -- ...",
+    "translatedContent": "            -- ..."
+  },
+  {
+    "row": 91,
+    "rowsha": "9I500RX2isp6I6q7fcvhvKyXEipHnrb+1kiF309dB54=",
+    "originContent": "        })",
+    "translatedContent": "        })"
+  },
+  {
+    "row": 92,
+    "rowsha": "gvoVxHL5c5ZCFTBleU4mILUDJKIFcP+s+BQjx5nYXiw=",
+    "originContent": "    end",
+    "translatedContent": "    end"
+  },
+  {
+    "row": 93,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 94,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "+ofcqZaLX9tAeNwHDtm9LR9hsEVEZk7fx6TC/28mTB0=",
+    "originContent": "### Setup Options",
+    "translatedContent": "### Options de configuration"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "Os+BdXGbCXh6I7dh3nEkj3mockw79cDXrH+VmHTu0lI=",
+    "originContent": "The setup function also supports taking in a table of options:",
+    "translatedContent": "La fonction de configuration prend également en charge une table d’options :"
+  },
+  {
+    "row": 100,
+    "rowsha": "5po+TXLRsm/8UC11wd8VlqdFvze7KaWn6C2MYwpYCug=",
+    "originContent": "| Option | Type | Default |",
+    "translatedContent": "| Option | Type | Par défaut |"
+  },
+  {
+    "row": 101,
+    "rowsha": "SqWDk4h2/zvbBEo7wJ1LEpYaxWuZWZGSvwUHHlXG3Q0=",
+    "originContent": "|-------------|--------------------------------------------|----------------|",
+    "translatedContent": "|-------------|--------------------------------------------|----------------|"
+  },
+  {
+    "row": 102,
+    "rowsha": "0G+WXNWuQZmch/VxehNPvwRGM4HS9N+lRjWGIQowCfA=",
+    "originContent": "| max_entries | integer number of entries to show in popup | `10` |",
+    "translatedContent": "| max_entries | nombre entier d’entrées à afficher dans le popup | `10` |"
+  },
+  {
+    "row": 103,
+    "rowsha": "829PFFejIMApQepRl5wz0aLG/h83jjBk+6NJCZ39kfg=",
+    "originContent": "| sep | string separator to show between table entries | `\"-----\"` |",
+    "translatedContent": "| sep | séparateur de chaîne à afficher entre les entrées du tableau | `\"-----\"` |"
+  },
+  {
+    "row": 104,
+    "rowsha": "pIAyX9Fiov06eBG4pOal6LT+hSO5DoJg2bsYWjWaTK8=",
+    "originContent": "| keymaps | table containing keymap overrides | `{}` |",
+    "translatedContent": "| keymaps | table contenant les remplacements des raccourcis clavier | `{}` |"
+  },
+  {
+    "row": 105,
+    "rowsha": "wrFjeAySaJHuFr+ORbaF5nEszMfrL6OSiCPFJz3G3kU=",
+    "originContent": "| keymaps.navigation_next | string | `\"j\"` |",
+    "translatedContent": "| keymaps.navigation_next | chaîne | `\"j\"` |"
+  },
+  {
+    "row": 106,
+    "rowsha": "dzkK3jejHuVrrtZ8lD6ubtKcm/3YoVS6OJRslo6z1tk=",
+    "originContent": "| keymaps.navigation_prev | string | `\"k\"` |",
+    "translatedContent": "| keymaps.navigation_prev | chaîne | `\"k\"` |"
+  },
+  {
+    "row": 107,
+    "rowsha": "TRdztCTcTg13ks58uhneIMyYmJwhqNz2CRWrGPEhdzg=",
+    "originContent": "| keymaps.paste | string | `\"<CR>\"` |",
+    "translatedContent": "| keymaps.paste | chaîne | `\"<CR>\"` |"
+  },
+  {
+    "row": 108,
+    "rowsha": "LL5AVpuf9tJ1rM1LqFHLNN75/pXb1aYn38OXX/bmNpQ=",
+    "originContent": "| keymaps.paste_back | string | `\"P\"` |",
+    "translatedContent": "| keymaps.paste_back | chaîne | `\"P\"` |"
+  },
+  {
+    "row": 109,
+    "rowsha": "vnamfDJ57eIa5TfZyfxmp5Rkzhwq7U5CjF1ivtkB2xM=",
+    "originContent": "| keymaps.yank | string | `\"yy\"` |",
+    "translatedContent": "| keymaps.yank | chaîne | `\"yy\"` |"
+  },
+  {
+    "row": 110,
+    "rowsha": "D3zujOKKlf0EsdD3KQxPOCFKYlni692l3uqa18v1rzc=",
+    "originContent": "| keymaps.close | table of strings | `{ \"<Esc>\", \"<C-c>\", \"q\" }` |",
+    "translatedContent": "| keymaps.close | table de chaînes | `{ \"<Esc>\", \"<C-c>\", \"q\" }` |"
+  },
+  {
+    "row": 111,
+    "rowsha": "Dg13lut79pgAa6ArZ4iKyA49Lukwt1nnDk6sjlemSc4=",
+    "originContent": "| num_behavior | string defining jump behavior \"prefix\" or \"jump\" | `\"prefix\"` |",
+    "translatedContent": "| num_behavior | chaîne définissant le comportement de saut \"prefix\" ou \"jump\" | `\"prefix\"` |"
+  },
+  {
+    "row": 112,
+    "rowsha": "Ro5NUTkxOAyPydoDC3dX8WqbGAtgu1z/fU5lulh1W+8=",
+    "originContent": "| focus_gain_poll | boolean | `false` |",
+    "translatedContent": "| focus_gain_poll | booléen | `false` |"
+  },
+  {
+    "row": 113,
+    "rowsha": "GdeiscDb1V4aemthgd71FxOP/XY0pLHi+RrEJEHEYi8=",
+    "originContent": "| registers | table container for register overrides | `{ }` |",
+    "translatedContent": "| registers | table contenant les remplacements des registres | `{ }` |"
+  },
+  {
+    "row": 114,
+    "rowsha": "/aw8QHpraUNEtmCS55lSb23356mV2hm1lJn7X9E1MBg=",
+    "originContent": "| registers.yank_register | default register to yank from popup to | `\"+\"` |",
+    "translatedContent": "| registers.yank_register | registre par défaut pour copier depuis le popup vers | `\"+\"` |"
+  },
+  {
+    "row": 115,
+    "rowsha": "kNu8BEgVi+EkT808OMp6yYm0bXumFfAWUZjDtt8GOrU=",
+    "originContent": "| persist_type | string defining persistence type \"sqlite\" or nil | `nil` |",
+    "translatedContent": "| persist_type | chaîne définissant le type de persistance \"sqlite\" ou nil | `nil` |"
+  },
+  {
+    "row": 116,
+    "rowsha": "XCT7QWrcfrc1kiWA77jX2UycR9M79DLPT855TRorSwE=",
+    "originContent": "| db_path | string defining database file path for use with sqlite persistence | plugin install directory |",
+    "translatedContent": "| db_path | chaîne définissant le chemin du fichier de base de données pour l’utilisation avec la persistance sqlite | répertoire d’installation du plugin |"
+  },
+  {
+    "row": 117,
+    "rowsha": "qh5uKNo0q5txiyH6qXhYzQdltnU++yXFHmr26OdNd+I=",
+    "originContent": "| bind_indices | optional string to be used for keybind prefix for pasting by index number (i.e. \"<leader>p\") | `nil` |",
+    "translatedContent": "| bind_indices | chaîne optionnelle à utiliser comme préfixe de raccourci pour coller par numéro d’index (ex. \"<leader>p\") | `nil` |"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "hnOa7t69dQD0TSvFJrPeT2qLVNIqJH/8Bzh+HcDrAl0=",
+    "originContent": "#### Example Configuration",
+    "translatedContent": "#### Exemple de configuration"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 123,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 124,
+    "rowsha": "jQIv5mlnlA5cGWOS6aQ7i3Ur0S8QWzKRYphk6ZoRuXc=",
+    "originContent": "    \"ptdewey/yankbank-nvim\",",
+    "translatedContent": "    \"ptdewey/yankbank-nvim\","
+  },
+  {
+    "row": 125,
+    "rowsha": "TtYHI739T/CTXucuyVUj6dn2Ho9BmvZxZCWw0kkBjQE=",
+    "originContent": "    config = function()",
+    "translatedContent": "    config = function()"
+  },
+  {
+    "row": 126,
+    "rowsha": "CES1q6xtkW7ME39TnOr+FDgKDOtiP1f+jcm1hurKA8M=",
+    "originContent": "        require('yankbank').setup({",
+    "translatedContent": "        require('yankbank').setup({"
+  },
+  {
+    "row": 127,
+    "rowsha": "H+4vYeBdWxDbjfum+Fi+ILXDEub9kKvJ5U38tgrALHQ=",
+    "originContent": "            max_entries = 9,",
+    "translatedContent": "            max_entries = 9,"
+  },
+  {
+    "row": 128,
+    "rowsha": "WD4AXjmHv3nnjikYigXjf9i+MTAk7hk8sKcRNseAQwM=",
+    "originContent": "            sep = \"-----\",",
+    "translatedContent": "            sep = \"-----\","
+  },
+  {
+    "row": 129,
+    "rowsha": "rXalPXKTIeP8MJeLYTjW1w7qqYE9u5SpeRVAIqnPvXM=",
+    "originContent": "            num_behavior = \"jump\",",
+    "translatedContent": "            num_behavior = \"jump\","
+  },
+  {
+    "row": 130,
+    "rowsha": "P2rzJ1WI/GZnj0Cp0Wg/L1mctC9hLogG5zRfiLflaqI=",
+    "originContent": "            focus_gain_poll = true,",
+    "translatedContent": "            focus_gain_poll = true,"
+  },
+  {
+    "row": 131,
+    "rowsha": "mUWJ73JeX8Pb9C3lYhlJvQTFfztszdNhAE9TvDRPqw8=",
+    "originContent": "            persist_type = \"sqlite\",",
+    "translatedContent": "            persist_type = \"sqlite\","
+  },
+  {
+    "row": 132,
+    "rowsha": "9lhYbZSj2P2qYSyVlPOkxMW9wOBdOVjpvxT/trcJEXM=",
+    "originContent": "            keymaps = {",
+    "translatedContent": "            keymaps = {"
+  },
+  {
+    "row": 133,
+    "rowsha": "WmLpL9NiDBwb/Z5n+3DV76tYaqG7QZkyjGX68s6lRqA=",
+    "originContent": "                paste = \"<CR>\",",
+    "translatedContent": "                paste = \"<CR>\","
+  },
+  {
+    "row": 134,
+    "rowsha": "S7LGwM0dnwBBPwFsCMLYB1QBbqcvdfifmYrQscRtMAg=",
+    "originContent": "                paste_back = \"P\",",
+    "translatedContent": "                paste_back = \"P\","
+  },
+  {
+    "row": 135,
+    "rowsha": "P3fk1ACushnjNcsFIQ6mOsZqw8QwPiBC8kSmiXXV5Eo=",
+    "originContent": "            },",
+    "translatedContent": "            },"
+  },
+  {
+    "row": 136,
+    "rowsha": "594bs2GzModv1ahPI+uQZHmAGsCef6kjq+NHvOzP2l0=",
+    "originContent": "            registers = {",
+    "translatedContent": "            registers = {"
+  },
+  {
+    "row": 137,
+    "rowsha": "Ol6VnmsZ13F339FVdJ0mGaz6A9XU1iHYO82RTflnZqI=",
+    "originContent": "                yank_register = \"+\",",
+    "translatedContent": "                yank_register = \"+\","
+  },
+  {
+    "row": 138,
+    "rowsha": "P3fk1ACushnjNcsFIQ6mOsZqw8QwPiBC8kSmiXXV5Eo=",
+    "originContent": "            },",
+    "translatedContent": "            },"
+  },
+  {
+    "row": 139,
+    "rowsha": "nQ0wW2xdnJJLBEtLV6YTPaQO2cbKSQ8b1ekLaQ1SLdA=",
+    "originContent": "            bind_indices = \"<leader>p\"",
+    "translatedContent": "            bind_indices = \"<leader>p\""
+  },
+  {
+    "row": 140,
+    "rowsha": "9I500RX2isp6I6q7fcvhvKyXEipHnrb+1kiF309dB54=",
+    "originContent": "        })",
+    "translatedContent": "        })"
+  },
+  {
+    "row": 141,
+    "rowsha": "I56Vy6eR1hVmH9glMC5Pfxm6noO9PqSqjp/2hDea44k=",
+    "originContent": "    end,",
+    "translatedContent": "    end,"
+  },
+  {
+    "row": 142,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 143,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "1pAnQvSPNTISsOS0YkbBwOD5C8tjinvHUAyU2jID+p0=",
+    "originContent": "If no separator is desired, pass in an empty string for `sep`",
+    "translatedContent": "Si aucun séparateur n'est souhaité, passez une chaîne vide pour `sep`"
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "WvIkfLXQ2ODlYNXfwQMDhxLUAq2OoB6tNL7ObqOjYMc=",
+    "originContent": "The 'num_behavior' option defines in-popup navigation behavior when hitting number keys.",
+    "translatedContent": "L'option 'num_behavior' définit le comportement de navigation dans la popup lors de la pression des touches numériques."
+  },
+  {
+    "row": 148,
+    "rowsha": "4kYKok2NG3EWFbz16zKB6VERaVoQ7AEJ5oNw2X9lceU=",
+    "originContent": "- `num_behavior = \"prefix\"` works similar to traditional vim navigation with '3j' moving down 3 entries in the bank.",
+    "translatedContent": "- `num_behavior = \"prefix\"` fonctionne de manière similaire à la navigation traditionnelle vim avec '3j' qui descend de 3 entrées dans la banque."
+  },
+  {
+    "row": 149,
+    "rowsha": "dl5uHSQvj5ZFbIcHSx2Ee/PtDjd4AmqO9Y8X2msJgi0=",
+    "originContent": "- `num_behavior = \"jump\"` jumps to entry matching the pressed number key (i.e. '3' jumps to entry 3)",
+    "translatedContent": "- `num_behavior = \"jump\"` saute à l'entrée correspondant à la touche numérique pressée (c.-à-d. '3' saute à l'entrée 3)"
+  },
+  {
+    "row": 150,
+    "rowsha": "wfCFM0N1w7Rh5MNrNbqjbQ9sb4/zUjtJGw9pWPB1fmE=",
+    "originContent": "    - Note: If 'max_entries' is a two-digit number, there will be a delay upon pressing numbers that prefix a valid entry.",
+    "translatedContent": "    - Remarque : Si 'max_entries' est un nombre à deux chiffres, il y aura un délai lors de la pression de chiffres qui préfixent une entrée valide."
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "YhXFHxsunbVJZ2yVDSgbLrqydzDyVfXOPV6plBkrWrc=",
+    "originContent": "The 'focus_gain_poll' option allows for enabling an additional autocommand that watches for focus gains (refocusing Neovim window), and checks for changes in the unnamedplus ('+') register, adding to yankbank when new contents are found. This allows for automatically adding text copied from other sources (like a browser) to the yankbank without the bank opening trigger. Off by default, but I highly recommend enabling it with `focus_gain_poll = true`.",
+    "translatedContent": "L'option 'focus_gain_poll' permet d'activer un autocommand supplémentaire qui surveille les gains de focus (re-focalisation de la fenêtre Neovim), et vérifie les changements dans le registre unnamedplus ('+'), ajoutant à yankbank lorsque de nouveaux contenus sont détectés. Cela permet d'ajouter automatiquement du texte copié depuis d'autres sources (comme un navigateur) à la yankbank sans déclencher l'ouverture de la banque. Désactivé par défaut, mais je recommande fortement de l'activer avec `focus_gain_poll = true`."
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "BqGbUTlhejr56vHWutJvBUAWra8e9FAF+5ayg8P620c=",
+    "originContent": "### Persistence",
+    "translatedContent": "### Persistance"
+  },
+  {
+    "row": 155,
+    "rowsha": "jggqgMTEqoFMY7lQ6pURs4zqxzWb3RTsuZLAeOVm4f0=",
+    "originContent": "For the best experience with YankBank, enabling persistence is highly recommended.",
+    "translatedContent": "Pour une meilleure expérience avec YankBank, il est fortement recommandé d'activer la persistance."
+  },
+  {
+    "row": 156,
+    "rowsha": "InwfPj5pLL4Ioe3RYvBwzRHbPnFPRSFSiPHvno226VY=",
+    "originContent": "If persistence is enabled, sqlite.lua will be used to create a persistent store for recent yanks in the plugin root directory.",
+    "translatedContent": "Si la persistance est activée, sqlite.lua sera utilisé pour créer un stockage persistant des yanks récents dans le répertoire racine du plugin."
+  },
+  {
+    "row": 157,
+    "rowsha": "ClelgbturokhcCV94hkEbUmeA8pqEBLR3zEncd6yvNg=",
+    "originContent": "To utilize sqlite persistence, `\"kkharji/sqlite.lua\"` must be added as a dependency in your config, and `persist_type` must be set to `\"sqlite\"`:",
+    "translatedContent": "Pour utiliser la persistance sqlite, `\"kkharji/sqlite.lua\"` doit être ajouté comme dépendance dans votre configuration, et `persist_type` doit être défini sur `\"sqlite\"`:"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 160,
+    "rowsha": "KFix6ISTkKFLqzveOz8IAs2jNSfRAom/r1pGw/hRgbs=",
+    "originContent": "-- lazy",
+    "translatedContent": "-- lazy"
+  },
+  {
+    "row": 161,
+    "rowsha": "3eRBJPHuQhyzf5k/R/s8imOWzNzn/sOBCmrypRnM794=",
+    "originContent": "return {",
+    "translatedContent": "return {"
+  },
+  {
+    "row": 162,
+    "rowsha": "jQIv5mlnlA5cGWOS6aQ7i3Ur0S8QWzKRYphk6ZoRuXc=",
+    "originContent": "    \"ptdewey/yankbank-nvim\",",
+    "translatedContent": "    \"ptdewey/yankbank-nvim\","
+  },
+  {
+    "row": 163,
+    "rowsha": "SQJYzjRDBHW/6YkHMH7VaRs/mvHokc1zzqsq0QRJlDs=",
+    "originContent": "    dependencies = \"kkharji/sqlite.lua\",",
+    "translatedContent": "    dependencies = \"kkharji/sqlite.lua\","
+  },
+  {
+    "row": 164,
+    "rowsha": "TtYHI739T/CTXucuyVUj6dn2Ho9BmvZxZCWw0kkBjQE=",
+    "originContent": "    config = function()",
+    "translatedContent": "    config = function()"
+  },
+  {
+    "row": 165,
+    "rowsha": "CES1q6xtkW7ME39TnOr+FDgKDOtiP1f+jcm1hurKA8M=",
+    "originContent": "        require('yankbank').setup({",
+    "translatedContent": "        require('yankbank').setup({"
+  },
+  {
+    "row": 166,
+    "rowsha": "oykXWMKknYmteTystgGMS+vbC6eGAQSQJzAEyJ/PT3g=",
+    "originContent": "            -- other options...",
+    "translatedContent": "            -- other options..."
+  },
+  {
+    "row": 167,
+    "rowsha": "/dcZSCwbkCd3QD/eJZmsCEDH29BBmanTxtmgN1lGWLw=",
+    "originContent": "            persist_type = \"sqlite\"",
+    "translatedContent": "            persist_type = \"sqlite\""
+  },
+  {
+    "row": 168,
+    "rowsha": "9I500RX2isp6I6q7fcvhvKyXEipHnrb+1kiF309dB54=",
+    "originContent": "        })",
+    "translatedContent": "        })"
+  },
+  {
+    "row": 169,
+    "rowsha": "I56Vy6eR1hVmH9glMC5Pfxm6noO9PqSqjp/2hDea44k=",
+    "originContent": "    end,",
+    "translatedContent": "    end,"
+  },
+  {
+    "row": 170,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 171,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "7LclVaA1E6nzZGgXFcc537qsw3KYK8CfgZn5agX5C+w=",
+    "originContent": "Note: The database can be cleared with the `:YankBankClearDB` command or by deleting the db file (found in the plugin install directory by default).",
+    "translatedContent": "Note : La base de données peut être effacée avec la commande `:YankBankClearDB` ou en supprimant le fichier db (trouvé dans le répertoire d'installation du plugin par défaut)."
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "Ca3A/UfN5uglHEZCb7fstIRB9sjziVatHje/lpxc9V8=",
+    "originContent": "If you run into any SQL related issues, please file an issue on GitHub. (As a temporary fix, you can also try clearing the database)",
+    "translatedContent": "Si vous rencontrez des problèmes liés à SQL, veuillez ouvrir un ticket sur GitHub. (Comme solution temporaire, vous pouvez aussi essayer de vider la base de données)"
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "n0itwH+Nxx68xDXS0Vc8Xr1mZllDoP6iHc3CcKwbmb8=",
+    "originContent": "If you run into permissions issues when creating the db file (i.e. when installing using Nix), use the `db_path` option to change the default file path. (`vim.fn.stdpath(\"data\")` should work)",
+    "translatedContent": "Si vous rencontrez des problèmes de permissions lors de la création du fichier db (par exemple lors de l'installation avec Nix), utilisez l'option `db_path` pour changer le chemin de fichier par défaut. (`vim.fn.stdpath(\"data\")` devrait fonctionner)"
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Utilisation"
+  },
+  {
+    "row": 181,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "Upi3fHFSxvyDkwDpAt9yl/RlguDYbYUqe+4lx9Fn6yg=",
+    "originContent": "The popup menu can be opened with the command:`:YankBank`, an entry is pasted at the current cursor position by hitting enter, and the menu can be closed by hitting escape, ctrl-c, or q.",
+    "translatedContent": "Le menu popup peut être ouvert avec la commande : `:YankBank`, une entrée est collée à la position actuelle du curseur en appuyant sur entrée, et le menu peut être fermé en appuyant sur échappement, ctrl-c, ou q."
+  },
+  {
+    "row": 183,
+    "rowsha": "IHy5Yo0SZohatDXM142Lq0YP81y6Ryc6T8nqIYg1Ym8=",
+    "originContent": "An entry from the menu can also be yanked into the unnamedplus register by hitting yy.",
+    "translatedContent": "Une entrée du menu peut aussi être copiée dans le registre unnamedplus en appuyant sur yy."
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "1UqkQ6spk9ykmz2v4objb/upozKH9hHMkOEHnYLJoxw=",
+    "originContent": "I would personally also recommend setting a keybind to open the menu.",
+    "translatedContent": "Je recommanderais personnellement aussi de définir un raccourci clavier pour ouvrir le menu."
+  },
+  {
+    "row": 186,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 187,
+    "rowsha": "UDSBhHFZGBtAVkvl9FLTVP+HWzE0vGMRZpjX10ZFobA=",
+    "originContent": "-- map to '<leader>y'",
+    "translatedContent": "-- map to '<leader>y'"
+  },
+  {
+    "row": 188,
+    "rowsha": "aXAJiLWD11nUzSQ5EEOlbTC7/Gmt+v/MIRwxWBXNPRQ=",
+    "originContent": "vim.keymap.set(\"n\", \"<leader>y\", \"<cmd>YankBank<CR>\", { noremap = true })",
+    "translatedContent": "vim.keymap.set(\"n\", \"<leader>y\", \"<cmd>YankBank<CR>\", { noremap = true })"
+  },
+  {
+    "row": 189,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 193,
+    "rowsha": "VtOjhJggI7+hckWXnMtJJ1CftLa/OEjV/J3C6rc5K0k=",
+    "originContent": "## API (WIP)",
+    "translatedContent": "## API (EN COURS)"
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "/bzl+onmEBhy0fTqjXXGU8+rBRKt3Z+Ic8Qb0oYcoUE=",
+    "originContent": "Some plugin internals are also accessible via the YankBank api.",
+    "translatedContent": "Certaines parties internes du plugin sont également accessibles via l'API YankBank."
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "GInwMzi3m7rYvc3JJe9egwaVacF+QzF075pJ9i59Xuc=",
+    "originContent": "Examples:",
+    "translatedContent": "Exemples :"
+  },
+  {
+    "row": 198,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 199,
+    "rowsha": "dOR1XJLfu+yKa18XWvgExdS3FteFViJNAL3XqWimWko=",
+    "originContent": "-- get the ith entry in the bank",
+    "translatedContent": "-- get the ith entry in the bank"
+  },
+  {
+    "row": 200,
+    "rowsha": "CWrbYG3OXZpK5RyeC/zcGuk/cpwIg0pqusTl6IwgCPg=",
+    "originContent": "---@param i integer index to get",
+    "translatedContent": "---@param i integer index to get"
+  },
+  {
+    "row": 201,
+    "rowsha": "46sq9VEQ5NwIlCu5sGmt87EYnlPb8pPXt0fMyTew4zQ=",
+    "originContent": "-- output format: { yank_text = \"entry\", reg_type = \"v\" }",
+    "translatedContent": "-- output format: { yank_text = \"entry\", reg_type = \"v\" }"
+  },
+  {
+    "row": 202,
+    "rowsha": "vpz5Dj60V+cn+1+/t4qJxiaS2BfNadJQIzwJFEj8efU=",
+    "originContent": "local e = require(\"yankbank.api\").get_entry(i)",
+    "translatedContent": "local e = require(\"yankbank.api\").get_entry(i)"
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "+Owg8EVtfgbvSzK0T3qLhe0LjMU9yFgF927/ONOldkI=",
+    "originContent": "-- add an entry to the bank",
+    "translatedContent": "-- add an entry to the bank"
+  },
+  {
+    "row": 205,
+    "rowsha": "tVdIOgXhzTKH4iEmdLJ7ANZypFKpjdW8BxF2VVL+rxA=",
+    "originContent": "---@param yank_text string yank text to add to YANKS table",
+    "translatedContent": "---@param yank_text string yank text to add to YANKS table"
+  },
+  {
+    "row": 206,
+    "rowsha": "NdxbQVo7GMWavn4fK5C08D7xOj0FKNsjSdBp2baZwcE=",
+    "originContent": "---@param reg_type string register type \"v\", \"V\", or \"^V\" (visual, v-line, v-block respectively)",
+    "translatedContent": "---@param reg_type string register type \"v\", \"V\", or \"^V\" (visual, v-line, v-block respectively)"
+  },
+  {
+    "row": 207,
+    "rowsha": "q018IEByc8KUncwmP/Ppmuts34pJpNq8k4exbHhxdmk=",
+    "originContent": "require(\"yankbank.api\").add_entry(\"yank_text\", \"reg_type\")",
+    "translatedContent": "require(\"yankbank.api\").add_entry(\"yank_text\", \"reg_type\")"
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "ZCSns+VCvHxKkN2A6Py+zdOfROBtV7isH+YdDEz0fAQ=",
+    "originContent": "-- remove an entry from the bank by index",
+    "translatedContent": "-- remove an entry from the bank by index"
+  },
+  {
+    "row": 210,
+    "rowsha": "b9Q//PTsFbLAQkwVh3bIqSx4T1x2ziKx2M1MRRASxaY=",
+    "originContent": "---@param i integer index to remove",
+    "translatedContent": "---@param i integer index to remove"
+  },
+  {
+    "row": 211,
+    "rowsha": "yAGFGlrVhaLThF1gnLPgzlvPLt1Knz+GyEPjoAgVNAU=",
+    "originContent": "require(\"yankbank.api\").remove_entry(i)",
+    "translatedContent": "require(\"yankbank.api\").remove_entry(i)"
+  },
+  {
+    "row": 212,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 213,
+    "rowsha": "E01pEYuOjcY40QT3PxlvdHsozaDu2H/R2uuwMo9RvmY=",
+    "originContent": "--- pin entry to yankbank so that it won't be removed when its position exceeds the max number of entries",
+    "translatedContent": "--- pin entry to yankbank so that it won't be removed when its position exceeds the max number of entries"
+  },
+  {
+    "row": 214,
+    "rowsha": "GHFSMm3WYzkdYrpDzEfmDK2tj7P4PSm7CAetpSEI5I4=",
+    "originContent": "---@param i integer index to pin",
+    "translatedContent": "---@param i integer index to pin"
+  },
+  {
+    "row": 215,
+    "rowsha": "nvqwnn7XtWlZGGelj0a4FI5f1FumAmvVyn6EUm7JByo=",
+    "originContent": "require(\"yankbank.api\").pin_entry(i)",
+    "translatedContent": "require(\"yankbank.api\").pin_entry(i)"
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 218,
+    "rowsha": "RXkl6daAVTqdPN32871a5HdyclQNWszkesTGjBYayLA=",
+    "originContent": "--- unpin bank entry",
+    "translatedContent": "--- unpin bank entry"
+  },
+  {
+    "row": 219,
+    "rowsha": "5/la4Yp68Pc/0m366BNs/mhnAVTqvYSDrEMs0/KdUGM=",
+    "originContent": "---@param i integer index to unpin",
+    "translatedContent": "---@param i integer index to unpin"
+  },
+  {
+    "row": 220,
+    "rowsha": "SwpKI9Ewozq9u7zt/dCc+9j74fugibyGOVK+OTr/av0=",
+    "originContent": "require(\"yankbank.api\").unpin_entry(i)",
+    "translatedContent": "require(\"yankbank.api\").unpin_entry(i)"
+  },
+  {
+    "row": 221,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 222,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 223,
+    "rowsha": "hyE9baXn1DOkShzQEW+5f8hSYGNrRahgaItee8LSrxc=",
+    "originContent": "For more details about the API see [lua/yankbank/api.lua](https://raw.githubusercontent.com/ptdewey/yankbank-nvim/main/lua/yankbank/api.lua)",
+    "translatedContent": "Pour plus de détails sur l'API, voir [lua/yankbank/api.lua](https://raw.githubusercontent.com/ptdewey/yankbank-nvim/main/lua/yankbank/api.lua)"
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 226,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 227,
+    "rowsha": "A6nff2DozYx2v5SVhtLi2I3Hd+Mm2Phxn8x2PfVyO2o=",
+    "originContent": "## Potential Improvements",
+    "translatedContent": "## Améliorations potentielles"
+  },
+  {
+    "row": 228,
+    "rowsha": "1QjjMlRjSfA3rpS3Kp2Yq0mjZOVGdqex0fDFmMu8sB8=",
+    "originContent": "- nvim-cmp integration",
+    "translatedContent": "- intégration nvim-cmp"
+  },
+  {
+    "row": 229,
+    "rowsha": "T9tNyyzY3uu574icERvQVnaFtf/w1SaCkpuy+le0pcQ=",
+    "originContent": "- fzf integration",
+    "translatedContent": "- intégration fzf"
+  },
+  {
+    "row": 230,
+    "rowsha": "M+xob4K3iUZGE+oGpCNyIWr4vCoeY9E8dzCqmz5Pldc=",
+    "originContent": "- telescope integration",
+    "translatedContent": "- intégration telescope"
+  },
+  {
+    "row": 231,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 232,
+    "rowsha": "59WXeEO/EB5EgnOQ4Gtja1J2wjDmHnjp8KNyFn8CcI0=",
+    "originContent": "## Alternatives",
+    "translatedContent": "## Alternatives"
+  },
+  {
+    "row": 233,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 234,
+    "rowsha": "2CsrBfWx3zbBnKO9OnFT92jfxNDq9i69fZx7KpnnDOs=",
+    "originContent": "- [nvim-neoclip](https://github.com/AckslD/nvim-neoclip.lua)",
+    "translatedContent": "- [nvim-neoclip](https://github.com/AckslD/nvim-neoclip.lua)"
+  },
+  {
+    "row": 235,
+    "rowsha": "T6NRuzlI1CWsg1xOfAV8LmMX9AtrLlXwKMAfmDWtvBk=",
+    "originContent": "- [yanky.nvim](https://github.com/gbprod/yanky.nvim)",
+    "translatedContent": "- [yanky.nvim](https://github.com/gbprod/yanky.nvim)"
+  },
+  {
+    "row": 236,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

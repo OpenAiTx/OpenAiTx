@@ -1,0 +1,388 @@
+[
+  {
+    "Id": 1,
+    "Content": "# **<img src=\"https://raw.githubusercontent.com/FozerG/WinYandexMusicRPC/main/./assets/YMRPC_ico.ico\" alt=\"[DISCORD RPC]\" width=\"30\"/> &nbsp;WinSdk + Yandex Music Discord Rich Presence**\n[![TotalDownloads](https://img.shields.io/github/downloads/FozerG/WinYandexMusicRPC/total)](https://github.com/FozerG/WinYandexMusicRPC/releases \"Download\") [![LastRelease](https://img.shields.io/github/v/release/FozerG/WinYandexMusicRPC)](https://github.com/FozerG/WinYandexMusicRPC/releases \"Download\") [![CodeOpen](https://img.shields.io/github/languages/top/FozerG/WinYandexMusicRPC)](https://github.com/FozerG/WinYandexMusicRPC/blob/main/main.py \"Show code\") [![OS - Windows](https://img.shields.io/badge/OS-Windows-blue?logo=windows&logoColor=white)](https://github.com/FozerG/WinYandexMusicRPC/releases \"Download\")\n\n>Несмотря на неразумное решение о блокировке Discord в РФ, я продолжу поддерживать скрипт в рабочем состоянии, насколько это будет возможно 🕊️\n\n>[Мы будем пользоваться тем, что нам нравится.](https://github.com/Flowseal/zapret-discord-youtube)\n\n**Discord RPC для показа музыки которую вы сейчас слушаете на компьютере. Загрузка треков и их обложка происходит из Яндекс Музыки.**\n\n<img src=\"https://github.com/user-attachments/assets/99d15c70-632f-41ec-a6cd-49de8a7d2a8f\" alt=\"discord\" width=\"340\">\n\nСуществуют похожие RPC, которые показывают текущий трек, используя API Яндекс Музыки. Однако они не могут отображать информацию о том, что играет из радио (например, `Моя Волна`).\n\nПоэтому я создал скрипт, который использует `Windows.Media.Control` для получения информации о текущем треке, выполняет поиск в Яндекс Музыке и отображает трек в Discord.\n\nПлюсы по сравнению с другими скриптами:    \nНе нужен токен Яндекс Музыки ✅  \nПоказывает треки из подборок, радио ✅  \nНе ограничен использованием Яндекс Музыки, музыку можно слушать хоть из ВКонтакте ✅  \nРаботает как с браузерами так и с приложениями ✅   \nПоказывает статус паузы ✅  \nПоказывает сколько осталось до конца трека ✅  \nСтатус \"Слушает\" вместо \"Играет в игру\" ✅\n\n## Требования\nРабота проверена только на Windows 11 и Windows 10, на других версиях и платформах работать не будет. **С урезанными Lite и Custom версиями Windows работа не гарантируется.**\n\nЕсли вы не будете использовать ехе файл то:\n1. Python <3.14, >=3.10\n\n## Как скачать и использовать Exe?\n1. Скачиваем [последний доступный релиз](https://github.com/FozerG/WinYandexMusicRPC/releases)\n  \n2. Открываем WinYandexMusicRPC\n\n3. Скрипт через 3 секунды автоматически скроется в системный трей. Откройте консоль через трей чтобы убедиться в работе.\n\n## Как использовать main.py?\n\n1. Открываем терминал и идем в папку где находится файл `requirements.txt`.",
+    "ContentSha": "jB8duODMX6J/kMtdPOIXQnw041HEJl6Oyc4ymME5e9A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# **<img src=\"https://raw.githubusercontent.com/FozerG/WinYandexMusicRPC/main/./assets/YMRPC_ico.ico\" alt=\"[DISCORD RPC]\" width=\"30\"/> &nbsp;WinSdk + Yandex Music Discord 富媒体状态**\n[![TotalDownloads](https://img.shields.io/github/downloads/FozerG/WinYandexMusicRPC/total)](https://github.com/FozerG/WinYandexMusicRPC/releases \"Download\") [![LastRelease](https://img.shields.io/github/v/release/FozerG/WinYandexMusicRPC)](https://github.com/FozerG/WinYandexMusicRPC/releases \"Download\") [![CodeOpen](https://img.shields.io/github/languages/top/FozerG/WinYandexMusicRPC)](https://github.com/FozerG/WinYandexMusicRPC/blob/main/main.py \"Show code\") [![OS - Windows](https://img.shields.io/badge/OS-Windows-blue?logo=windows&logoColor=white)](https://github.com/FozerG/WinYandexMusicRPC/releases \"Download\")\n\n>尽管俄罗斯封锁 Discord 是不明智的决定，我仍将尽可能保持脚本的正常运行 🕊️\n\n>[我们将使用我们喜欢的东西。](https://github.com/Flowseal/zapret-discord-youtube)\n\n**Discord RPC 用于显示您当前电脑上正在播放的音乐。曲目和封面来自 Yandex 音乐。**\n\n<img src=\"https://github.com/user-attachments/assets/99d15c70-632f-41ec-a6cd-49de8a7d2a8f\" alt=\"discord\" width=\"340\">\n\n存在类似的 RPC，使用 Yandex 音乐 API 显示当前曲目。但它们无法显示电台播放的内容（例如，`我的波`）。\n\n因此我创建了一个脚本，使用 `Windows.Media.Control` 获取当前曲目信息，搜索 Yandex 音乐并在 Discord 中显示曲目。\n\n相较其他脚本的优点：    \n无需 Yandex 音乐令牌 ✅  \n显示精选集、电台曲目 ✅  \n不限于 Yandex 音乐，音乐可来自 VKontakte 等 ✅  \n支持浏览器和应用程序 ✅   \n显示暂停状态 ✅  \n显示距离曲目结束时间 ✅  \n状态显示“正在聆听”而非“正在玩游戏” ✅\n\n## 要求\n仅在 Windows 11 和 Windows 10 上测试通过，其他版本及平台不保证可用。**Windows Lite 和 Custom 精简版本可能无法正常工作。**\n\n如果不使用 exe 文件，则需：\n1. Python 版本 <3.14，>=3.10\n\n## 如何下载和使用 Exe？\n1. 下载[最新版本](https://github.com/FozerG/WinYandexMusicRPC/releases)\n  \n2. 打开 WinYandexMusicRPC\n\n3. 脚本将在 3 秒后自动隐藏至系统托盘。请通过托盘打开控制台确认运行。\n\n## 如何使用 main.py？\n\n1. 打开终端，进入包含 `requirements.txt` 文件的文件夹。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "643mXbfJd2RTFh7gpynbYAQqe6UJYI4wqRdqDbCse7k=",
+        "originContent": "# **<img src=\"https://raw.githubusercontent.com/FozerG/WinYandexMusicRPC/main/./assets/YMRPC_ico.ico\" alt=\"[DISCORD RPC]\" width=\"30\"/> &nbsp;WinSdk + Yandex Music Discord Rich Presence**",
+        "translatedContent": "# **<img src=\"https://raw.githubusercontent.com/FozerG/WinYandexMusicRPC/main/./assets/YMRPC_ico.ico\" alt=\"[DISCORD RPC]\" width=\"30\"/> &nbsp;WinSdk + Yandex Music Discord 富媒体状态**"
+      },
+      {
+        "row": 2,
+        "rowsha": "c6Sn1hcb9T0MyeXpJ/YjGw+NSWNBSrTH2KSoIc6aFhQ=",
+        "originContent": "[![TotalDownloads](https://img.shields.io/github/downloads/FozerG/WinYandexMusicRPC/total)](https://github.com/FozerG/WinYandexMusicRPC/releases \"Download\") [![LastRelease](https://img.shields.io/github/v/release/FozerG/WinYandexMusicRPC)](https://github.com/FozerG/WinYandexMusicRPC/releases \"Download\") [![CodeOpen](https://img.shields.io/github/languages/top/FozerG/WinYandexMusicRPC)](https://github.com/FozerG/WinYandexMusicRPC/blob/main/main.py \"Show code\") [![OS - Windows](https://img.shields.io/badge/OS-Windows-blue?logo=windows&logoColor=white)](https://github.com/FozerG/WinYandexMusicRPC/releases \"Download\")",
+        "translatedContent": "[![TotalDownloads](https://img.shields.io/github/downloads/FozerG/WinYandexMusicRPC/total)](https://github.com/FozerG/WinYandexMusicRPC/releases \"Download\") [![LastRelease](https://img.shields.io/github/v/release/FozerG/WinYandexMusicRPC)](https://github.com/FozerG/WinYandexMusicRPC/releases \"Download\") [![CodeOpen](https://img.shields.io/github/languages/top/FozerG/WinYandexMusicRPC)](https://github.com/FozerG/WinYandexMusicRPC/blob/main/main.py \"Show code\") [![OS - Windows](https://img.shields.io/badge/OS-Windows-blue?logo=windows&logoColor=white)](https://github.com/FozerG/WinYandexMusicRPC/releases \"Download\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "b6/uB+aqG3Po0XOKLsIlCqtXl7oaticAQZsuEsiCGp0=",
+        "originContent": ">Несмотря на неразумное решение о блокировке Discord в РФ, я продолжу поддерживать скрипт в рабочем состоянии, насколько это будет возможно 🕊️",
+        "translatedContent": ">尽管俄罗斯封锁 Discord 是不明智的决定，我仍将尽可能保持脚本的正常运行 🕊️"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "iw2rWvjwWR3XmofJpnD2ZglhUEwC2HYjKaHkKMU4pD8=",
+        "originContent": ">[Мы будем пользоваться тем, что нам нравится.](https://github.com/Flowseal/zapret-discord-youtube)",
+        "translatedContent": ">[我们将使用我们喜欢的东西。](https://github.com/Flowseal/zapret-discord-youtube)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "OWlQWCM3k/X7J6yfZQMPTcNevuy3/qCtJm+WO6sRpXU=",
+        "originContent": "**Discord RPC для показа музыки которую вы сейчас слушаете на компьютере. Загрузка треков и их обложка происходит из Яндекс Музыки.**",
+        "translatedContent": "**Discord RPC 用于显示您当前电脑上正在播放的音乐。曲目和封面来自 Yandex 音乐。**"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "cG705rb/K/L5GFJh6ytNQriJlmQ39WgyXB3vL4+bB4w=",
+        "originContent": "<img src=\"https://github.com/user-attachments/assets/99d15c70-632f-41ec-a6cd-49de8a7d2a8f\" alt=\"discord\" width=\"340\">",
+        "translatedContent": "<img src=\"https://github.com/user-attachments/assets/99d15c70-632f-41ec-a6cd-49de8a7d2a8f\" alt=\"discord\" width=\"340\">"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "xo5U7uRVBwIlnccTVagjuM0fs1SLTFoTuoO0L7zr2QQ=",
+        "originContent": "Существуют похожие RPC, которые показывают текущий трек, используя API Яндекс Музыки. Однако они не могут отображать информацию о том, что играет из радио (например, `Моя Волна`).",
+        "translatedContent": "存在类似的 RPC，使用 Yandex 音乐 API 显示当前曲目。但它们无法显示电台播放的内容（例如，`我的波`）。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "oIv/FVr3yWiSExD/E67Ixc0JaZNFnv6eJIxj6w+l/Lo=",
+        "originContent": "Поэтому я создал скрипт, который использует `Windows.Media.Control` для получения информации о текущем треке, выполняет поиск в Яндекс Музыке и отображает трек в Discord.",
+        "translatedContent": "因此我创建了一个脚本，使用 `Windows.Media.Control` 获取当前曲目信息，搜索 Yandex 音乐并在 Discord 中显示曲目。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "KAm9pAB6woxzWaGG+y0+9hKWStiT4TzSWk4eJ1yUYtg=",
+        "originContent": "Плюсы по сравнению с другими скриптами:    ",
+        "translatedContent": "相较其他脚本的优点：    "
+      },
+      {
+        "row": 17,
+        "rowsha": "6C9jDd34dKBDzW2MtfxVcLiRLLpjfTZYaFZTgjBIyrY=",
+        "originContent": "Не нужен токен Яндекс Музыки ✅  ",
+        "translatedContent": "无需 Yandex 音乐令牌 ✅  "
+      },
+      {
+        "row": 18,
+        "rowsha": "DWAPojgc4UO6/v67PKojzGDvsb71N6rZrWYkYWiuxUY=",
+        "originContent": "Показывает треки из подборок, радио ✅  ",
+        "translatedContent": "显示精选集、电台曲目 ✅  "
+      },
+      {
+        "row": 19,
+        "rowsha": "IsTTd7qhVp607EzWWw6hgyT3MdAJGZN+WgMmmU4U+x0=",
+        "originContent": "Не ограничен использованием Яндекс Музыки, музыку можно слушать хоть из ВКонтакте ✅  ",
+        "translatedContent": "不限于 Yandex 音乐，音乐可来自 VKontakte 等 ✅  "
+      },
+      {
+        "row": 20,
+        "rowsha": "PaDOgbkeWEgbXv6UyztkqVjLlWHoXD8vmo4OaUNGyAc=",
+        "originContent": "Работает как с браузерами так и с приложениями ✅   ",
+        "translatedContent": "支持浏览器和应用程序 ✅   "
+      },
+      {
+        "row": 21,
+        "rowsha": "0X16QCuCO5jqXCNazg+e3Okqm7JBj/XUr9z0EDvFRtk=",
+        "originContent": "Показывает статус паузы ✅  ",
+        "translatedContent": "显示暂停状态 ✅  "
+      },
+      {
+        "row": 22,
+        "rowsha": "hsWWlLV4a2zEAZwIECNu0fIe7DGfurlI2hnRNmnrHmk=",
+        "originContent": "Показывает сколько осталось до конца трека ✅  ",
+        "translatedContent": "显示距离曲目结束时间 ✅  "
+      },
+      {
+        "row": 23,
+        "rowsha": "kVr2yJY5t2Wh9cV/0QLCt5eVPPniiUqBn7eh4da9+GQ=",
+        "originContent": "Статус \"Слушает\" вместо \"Играет в игру\" ✅",
+        "translatedContent": "状态显示“正在聆听”而非“正在玩游戏” ✅"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "Rur1yJxRHGBB2l8tQH9TdATeWDO5yI7ditKgVtIXT5Y=",
+        "originContent": "## Требования",
+        "translatedContent": "## 要求"
+      },
+      {
+        "row": 26,
+        "rowsha": "/WYbRwcfzIsGFyKOVv0V8LJLsvljJbI9OXk3sIgNU80=",
+        "originContent": "Работа проверена только на Windows 11 и Windows 10, на других версиях и платформах работать не будет. **С урезанными Lite и Custom версиями Windows работа не гарантируется.**",
+        "translatedContent": "仅在 Windows 11 和 Windows 10 上测试通过，其他版本及平台不保证可用。**Windows Lite 和 Custom 精简版本可能无法正常工作。**"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "g7m5sqDY8REVePBb2xjfMAsePa1uO6HDZ+l7x7EIBNE=",
+        "originContent": "Если вы не будете использовать ехе файл то:",
+        "translatedContent": "如果不使用 exe 文件，则需："
+      },
+      {
+        "row": 29,
+        "rowsha": "jH/76Pidu6GLacPjs/UUorRS1agoxORN3FPAX70aqJ4=",
+        "originContent": "1. Python <3.14, >=3.10",
+        "translatedContent": "1. Python 版本 <3.14，>=3.10"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "eGjuZfwdwGM+ubz8wwvmz405qNSg4YHETrdJjOXrnyQ=",
+        "originContent": "## Как скачать и использовать Exe?",
+        "translatedContent": "## 如何下载和使用 Exe？"
+      },
+      {
+        "row": 32,
+        "rowsha": "jUX+ELmVrbG20lMmplveJD8UpP97Edw22l7P+Qyrzzw=",
+        "originContent": "1. Скачиваем [последний доступный релиз](https://github.com/FozerG/WinYandexMusicRPC/releases)",
+        "translatedContent": "1. 下载[最新版本](https://github.com/FozerG/WinYandexMusicRPC/releases)"
+      },
+      {
+        "row": 33,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 34,
+        "rowsha": "p/7M+EEcinEFGFHLtGgBcUtRM09i5PnDH3JPLrRt1d0=",
+        "originContent": "2. Открываем WinYandexMusicRPC",
+        "translatedContent": "2. 打开 WinYandexMusicRPC"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "HUu7yU0Cp0aRsUCCg/F/4cCxUhW1OlnJestf5Xlhm2w=",
+        "originContent": "3. Скрипт через 3 секунды автоматически скроется в системный трей. Откройте консоль через трей чтобы убедиться в работе.",
+        "translatedContent": "3. 脚本将在 3 秒后自动隐藏至系统托盘。请通过托盘打开控制台确认运行。"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "bIxzNR5/g5GdUZn5by2LlcD/57f3Bl1aWBTaMh5sg88=",
+        "originContent": "## Как использовать main.py?",
+        "translatedContent": "## 如何使用 main.py？"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "K/fUCRMvnzL+ml4vIBSUzcE0yeDg5BWsEfH6jBLqDYw=",
+        "originContent": "1. Открываем терминал и идем в папку где находится файл `requirements.txt`.",
+        "translatedContent": "1. 打开终端，进入包含 `requirements.txt` 文件的文件夹。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "2. Пишем `pip install -r requirements.txt` для того что бы установить зависимости.\n3. В терминал пишем `python main.py`\n\n>Чтобы скомпилировать скрипт с помощью [Pyinstaller](https://pypi.org/project/pyinstaller/), выполните данную команду:  \n`pyinstaller --noconfirm main.spec`\n\n------------\nВ случае если вы слушаете музыку не только из яндекс музыки то рекомендую заменить строку `strong_find = True` на `strong_find = False`, или воспользуйтесь системным треем. Тогда будет показыватся лучший результат по поиску, но не всегда точный.\n\n## Баги\nБаги всегда существуют, но сначала их надо найти 🫡  \nЕсли вы нашли ошибку, то не стесняйтесь сообщать о ней в [Issues](https://github.com/FozerG/WinYandexMusicRPC/issues)\n   \n------------\nПожалуйста, покажите вашу заинтересованность в этом проекте, что бы я мог его обновлять по мере возможности.\n\n>Код не идеален, так как Python не является моим основным языком, и скрипт был написан для личного использования. Однако он может стать основой для ваших собственных скриптов.\n\n>Используется [Yandex Music API](https://github.com/MarshalX/yandex-music-api)   \n",
+    "ContentSha": "RCZhA+NgAsCICRaytU5sn9wDvSW4RxwBSkxJL3uBUKc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. 输入 `pip install -r requirements.txt` 来安装依赖。  \n3. 在终端输入 `python main.py`  \n\n>要使用 [Pyinstaller](https://pypi.org/project/pyinstaller/) 编译脚本，请执行以下命令：  \n`pyinstaller --noconfirm main.spec`  \n\n------------  \n如果你不仅仅使用 Yandex 音乐播放音乐，建议将 `strong_find = True` 改为 `strong_find = False`，或者使用系统托盘。这样搜索结果会更好，但不总是准确。  \n\n## Bug  \nBug 总是存在，但首先需要找到它们 🫡  \n如果你发现了错误，请随时在 [Issues](https://github.com/FozerG/WinYandexMusicRPC/issues) 中反馈。  \n\n------------  \n请展示你对本项目的关注，这样我才能在可能的情况下持续更新它。  \n\n>代码并不完美，因为 Python 不是我的主要语言，脚本是为个人使用编写的。不过它可以作为你自己脚本的基础。  \n\n>使用了 [Yandex Music API](https://github.com/MarshalX/yandex-music-api)   \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tNtw9BpN0rbU0iY56k4TyhRS6q4SXr1Ot1sXfUvXNg0=",
+        "originContent": "2. Пишем `pip install -r requirements.txt` для того что бы установить зависимости.",
+        "translatedContent": "2. 输入 `pip install -r requirements.txt` 来安装依赖。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "ChGb846QyEhLIIoCxgqbUT2IO5DWJ6hd3fRqZ6+l/ac=",
+        "originContent": "3. В терминал пишем `python main.py`",
+        "translatedContent": "3. 在终端输入 `python main.py`  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "p6xTm5httWbgEw6bVwRExYUSn6IZK/RpuMTurF8M95w=",
+        "originContent": ">Чтобы скомпилировать скрипт с помощью [Pyinstaller](https://pypi.org/project/pyinstaller/), выполните данную команду:  ",
+        "translatedContent": ">要使用 [Pyinstaller](https://pypi.org/project/pyinstaller/) 编译脚本，请执行以下命令：  "
+      },
+      {
+        "row": 5,
+        "rowsha": "zVIVavIBtMTjLE995nA6RcN/V5mbNzRqZhK2cgI/qdI=",
+        "originContent": "`pyinstaller --noconfirm main.spec`",
+        "translatedContent": "`pyinstaller --noconfirm main.spec`  "
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "FNRjaBTCOVFBIIC12Yl4Joa1sb1JGfDEzl1zl4V3KSU=",
+        "originContent": "------------",
+        "translatedContent": "------------  "
+      },
+      {
+        "row": 8,
+        "rowsha": "n7SKXvh+zLPYklxXSDohQRuZ4Cna9ecNgCfhkWCcClw=",
+        "originContent": "В случае если вы слушаете музыку не только из яндекс музыки то рекомендую заменить строку `strong_find = True` на `strong_find = False`, или воспользуйтесь системным треем. Тогда будет показыватся лучший результат по поиску, но не всегда точный.",
+        "translatedContent": "如果你不仅仅使用 Yandex 音乐播放音乐，建议将 `strong_find = True` 改为 `strong_find = False`，或者使用系统托盘。这样搜索结果会更好，但不总是准确。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "QJAPbPwYqhC0iqW8vFPAc6xtG3pzluMXv9TmG5P/b6A=",
+        "originContent": "## Баги",
+        "translatedContent": "## Bug  "
+      },
+      {
+        "row": 11,
+        "rowsha": "DJPQvxJjaHaXrznm/aod5QUlKxqrVT4c7ckPDYtPzsE=",
+        "originContent": "Баги всегда существуют, но сначала их надо найти 🫡  ",
+        "translatedContent": "Bug 总是存在，但首先需要找到它们 🫡  "
+      },
+      {
+        "row": 12,
+        "rowsha": "hjepnZpfgWbRPnGzNDIaGGcGO6kb0gAdVYsBunJsoFs=",
+        "originContent": "Если вы нашли ошибку, то не стесняйтесь сообщать о ней в [Issues](https://github.com/FozerG/WinYandexMusicRPC/issues)",
+        "translatedContent": "如果你发现了错误，请随时在 [Issues](https://github.com/FozerG/WinYandexMusicRPC/issues) 中反馈。  "
+      },
+      {
+        "row": 13,
+        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+        "originContent": "   ",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "FNRjaBTCOVFBIIC12Yl4Joa1sb1JGfDEzl1zl4V3KSU=",
+        "originContent": "------------",
+        "translatedContent": "------------  "
+      },
+      {
+        "row": 15,
+        "rowsha": "id/abZYpfSmB1b6klgwPwVEEwqa+s5x12QepKGP6EoI=",
+        "originContent": "Пожалуйста, покажите вашу заинтересованность в этом проекте, что бы я мог его обновлять по мере возможности.",
+        "translatedContent": "请展示你对本项目的关注，这样我才能在可能的情况下持续更新它。  "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "MyZLJXH4f4lV30MisYC7doI/2WWKV3bkXXqYYUVxJaw=",
+        "originContent": ">Код не идеален, так как Python не является моим основным языком, и скрипт был написан для личного использования. Однако он может стать основой для ваших собственных скриптов.",
+        "translatedContent": ">代码并不完美，因为 Python 不是我的主要语言，脚本是为个人使用编写的。不过它可以作为你自己脚本的基础。  "
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "V/vFzNdj5RG0xWXPI79E1Q5oyoBOAw9pal/srqFu1hk=",
+        "originContent": ">Используется [Yandex Music API](https://github.com/MarshalX/yandex-music-api)   ",
+        "translatedContent": ">使用了 [Yandex Music API](https://github.com/MarshalX/yandex-music-api)   "
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
