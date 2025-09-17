@@ -1,0 +1,428 @@
+[
+  {
+    "row": 1,
+    "rowsha": "7Vjio4LmIBLUncP6Gggu7AfYiFJAXIGki8dyoQw9cJg=",
+    "originContent": "# Xbox_SMC",
+    "translatedContent": "# Xbox_SMC"
+  },
+  {
+    "row": 2,
+    "rowsha": "UWIFzDF7aZH11uerT5hK6BGcsYYnufNh5bjrb89U7Eo=",
+    "originContent": "PIC16/Xyclops dumps from the original Xbox and IDA databases with some reverse engineering done.",
+    "translatedContent": "오리지널 Xbox와 IDA 데이터베이스에서 추출한 PIC16/Xyclops 덤프와 일부 역공학 작업."
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "edB6L7ZtUCUb8rB8AVDRGzewZD+tA9aYYFdaJoxztxg=",
+    "originContent": "![Image of PIC16LC63A from an original Xbox](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)",
+    "translatedContent": "![오리지널 Xbox의 PIC16LC63A 이미지](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "SPdSzoZmeAOha+WEEVfqKrdepLlvB/rvWkiZ7utpy0Y=",
+    "originContent": "# Xyclops flashing (XycloMod)",
+    "translatedContent": "# Xyclops 플래싱 (XycloMod)"
+  },
+  {
+    "row": 7,
+    "rowsha": "Okjlqxhq2laCmBXhSS7qwXz1Uu+BUZ+geQEieZEsnmU=",
+    "originContent": "See [the Xyclops directory and README](/Xyclops)",
+    "translatedContent": "[Xyclops 디렉터리 및 README](/Xyclops) 참조"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "5Vyx49nxMKYF7QEzBlpGfvNAWEf5xbtvJE8A3sdYwUg=",
+    "originContent": "# Dumps",
+    "translatedContent": "# 덤프"
+  },
+  {
+    "row": 10,
+    "rowsha": "sOhXc42ZURwSIk21QlGSDK5H5LpaV0pkxBUojpD+BVg=",
+    "originContent": "The .bin file for each PIC dump has the bytes swapped for correct loading into IDA. So the first word of PIC memory is byte_0 + byte_1 << 8.",
+    "translatedContent": "각 PIC 덤프의 .bin 파일은 IDA에 올바르게 로드되도록 바이트가 스왑되어 있습니다. 따라서 PIC 메모리의 첫 번째 워드는 byte_0 + byte_1 << 8입니다."
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "D3YLn8foWRg1NB/FwJ7AVR5unP6AErLsYFqk9ueJijA=",
+    "originContent": "The .idb IDA databases have info about variable and some observations on the database notepad.",
+    "translatedContent": ".idb IDA 데이터베이스에는 변수에 대한 정보와 데이터베이스 메모장에 대한 일부 관찰 내용이 포함되어 있습니다."
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "BCAYydA+LxX+51Jl/Y/OeNJFvcehbtPRQ5IyjO2Vs84=",
+    "originContent": "See this wiki page for a breakdown of the SMC versions: https://xboxdevwiki.net/Xboxen_Info",
+    "translatedContent": "SMC 버전 분석에 대해서는 이 위키 페이지를 참조하십시오: https://xboxdevwiki.net/Xboxen_Info"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "3Lg0KWrz2Uxr6a+xtN3rsn2I/asrBauael0Jj5u5xSU=",
+    "originContent": "## B2A",
+    "translatedContent": "## B2A"
+  },
+  {
+    "row": 17,
+    "rowsha": "/5nNnZDlioG3+7ogXzhyfo7iNL93Am/a5pNjK5duJ58=",
+    "originContent": "Dumped from a DVT3 Xbox. Same config word as P01. It also has the device ID burned in the config area as 0000 0000 000B 002A, unlike the production PICs.",
+    "translatedContent": "DVT3 Xbox에서 덤프. P01과 같은 구성 단어를 가짐. 또한 생산용 PIC과 달리 구성 영역에 0000 0000 000B 002A로 장치 ID가 기록되어 있습니다."
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "dFeGepqbZqEM0LIUHKJIubCkEqd7z14iFM4d/By3RMc=",
+    "originContent": "It's completely missing the boot challenge.",
+    "translatedContent": "부트 챌린지가 완전히 없습니다."
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "g9ENDupbzvBEgk66wjm243hyg5wHhYkpQFDlCwHDrB8=",
+    "originContent": "## D01",
+    "translatedContent": "## D01"
+  },
+  {
+    "row": 22,
+    "rowsha": "2k9KCOmOs7m1H/kv222a6Hx2jVgSqY/2EGZoshKgbpg=",
+    "originContent": "Dumped from XDK BETA 2 Xbox. Identical to P01 except for missing boot challenge. The function to compute the expected boot challenge response is still there, but never called.",
+    "translatedContent": "XDK BETA 2 Xbox에서 덤프. 부트 챌린지가 없는 점을 제외하면 P01과 동일합니다. 예상 부트 챌린지 응답을 계산하는 함수는 존재하지만 호출되지 않습니다."
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "0KESs1Ft7gXJn+95XfhUrh5U/dWqmOU9B/d1sMqLIKA=",
+    "originContent": "## DXF",
+    "translatedContent": "## DXF"
+  },
+  {
+    "row": 25,
+    "rowsha": "DpRz71tOUeUL0f8rdEH2D2TrsSsxVOcOntbwOnSx96c=",
+    "originContent": "Dumped from an XDK D2 debug kit. Very similar to D01 but with slightly different tray logic, overheat logic and boot logic. Boot challenge is missing in the same way as D01.",
+    "translatedContent": "XDK D2 디버그 키트에서 덤프. D01과 매우 유사하지만 트레이 로직, 과열 로직 및 부트 로직이 약간 다릅니다. 부트 챌린지는 D01과 같은 방식으로 없습니다."
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "Qm+Dc2rNI+zTyzq68FF9bSxgb1mYJsLiVPvCjy12sHo=",
+    "originContent": "## D2E",
+    "translatedContent": "## D2E"
+  },
+  {
+    "row": 28,
+    "rowsha": "0dcrro0/jmBg3ptLe8F3IXsA7nIjV0KqxAlSI0MpdrY=",
+    "originContent": "Dumped from a Tuscany (v1.6) dev kit. Xyclops chip is marked X01202-001, and is missing the A-A02 or A-B01 line that retail units have.",
+    "translatedContent": "Tuscany (v1.6) 개발 키트에서 덤프. Xyclops 칩은 X01202-001로 표시되며, 소매용 유닛이 가진 A-A02 또는 A-B01 라인이 없습니다."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "unoySSnigQWg4eVc5eQ24jiUl06AOumHMxSHAtKQIfk=",
+    "originContent": "The debug serial code at FC00 matches the retail P2L dump. There is a strange pattern of data from 0x4000 to 0xFBFF.",
+    "translatedContent": "FC00의 디버그 시리얼 코드는 소매용 P2L 덤프와 일치합니다. 0x4000부터 0xFBFF까지 이상한 데이터 패턴이 있습니다."
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "vYCzF0U2NMm1zvNU4rWfES8YHAw99zNUgVnHb/gylB4=",
+    "originContent": "## P01",
+    "translatedContent": "## P01"
+  },
+  {
+    "row": 33,
+    "rowsha": "lhFP7Htb8Cx1N3WJIyZItmmr+06mLEq65rpMUISKeOQ=",
+    "originContent": "Dumped from a v1.0 Xbox. The config word is 0x86:",
+    "translatedContent": "v1.0 Xbox에서 덤프. 구성 단어는 0x86입니다:"
+  },
+  {
+    "row": 34,
+    "rowsha": "YCBl3i9uDRuIgF+EW4T9VVMhfvqCDN46BId71aQ1x8M=",
+    "originContent": "- CP1:CP0 = 0 (Code Protection enabled for the whole memory)",
+    "translatedContent": "- CP1:CP0 = 0 (전체 메모리에 대해 코드 보호 활성화)"
+  },
+  {
+    "row": 35,
+    "rowsha": "kKSd6K3kGrxnKSXLfYvOq6QLQ9VXoIchtgESuHnSr8o=",
+    "originContent": "- BODEN = 0 (Brown-out Reset disabled)",
+    "translatedContent": "- BODEN = 0 (브라운아웃 리셋 비활성화)"
+  },
+  {
+    "row": 36,
+    "rowsha": "QjS+uwdrracDT0bg9U929U+2p44SfcLwv9IMFHvxOFM=",
+    "originContent": "- ~PWRTE = 0 (Power-up Timer enabled)",
+    "translatedContent": "- ~PWRTE = 0 (전원 켜짐 타이머 활성화)"
+  },
+  {
+    "row": 37,
+    "rowsha": "Tv9Y5mfeFnvXoaQk2XcjjENaHOYhzzC/Tnnl8acqLww=",
+    "originContent": "- WDTE = 1 (Watchdog Timer enabled)",
+    "translatedContent": "- WDTE = 1 (워치독 타이머 활성화)"
+  },
+  {
+    "row": 38,
+    "rowsha": "lZoLVVPnG9bmz+WfyIkU57GNc3ZylqicqI19DKZiLv8=",
+    "originContent": "- FOSC1:FOSC0 = 2 (HS oscillator)",
+    "translatedContent": "- FOSC1:FOSC0 = 2 (HS 오실레이터)"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "bhx9nDl8GRYzqvEiKwaW8iovltN5q2NkYKez4BPQ3S4=",
+    "originContent": "A config value of 0x3FB6 is suitable for SMC clones so that they don't have code protection enabled.",
+    "translatedContent": "0x3FB6 구성 값은 코드 보호가 활성화되지 않도록 하는 SMC 클론에 적합합니다."
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## P11"
+  },
+  {
+    "row": 42,
+    "rowsha": "WAajUMytPQJGen1LMHqK0ynUL6I9CB7wSt3iNzJCNTw=",
+    "originContent": "## P11",
+    "translatedContent": "v1.3 Xbox에서 덤프함. P01과 동일한 구성 단어를 가짐."
+  },
+  {
+    "row": 43,
+    "rowsha": "WWu/J091qRsMQWwDEfCg3FrFjyRb16jQsTqoR8+XSSs=",
+    "originContent": "Dumped from a v1.3 Xbox. Same config word as P01.",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "P11은 P01과 비교하여 약간의 변경 사항이 있는데, 추가 SMBus 명령(0x22 쓰기), 다른 LED 우선순위, 그리고 부팅 시 더 완화된 타이밍이 포함됨."
+  },
+  {
+    "row": 45,
+    "rowsha": "lAKSNMXXPvmQFFMfg5L4G05OZ27A58Jj8m7YG7dcggY=",
+    "originContent": "There are a few small changes in P11 versus P01 including an extra SMBus command (write 0x22), different LED priorities, and more relaxed timings for boot.",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "v1.3의 스크램블된 덤프를 v1.4와 비교해 보았는데 일치함. 이는 두 버전이 동일한 프로그램을 가질 가능성이 높음을 의미함."
+  },
+  {
+    "row": 47,
+    "rowsha": "TYerbbTwT6Xs1VIWM/fdhS76MYin21vOs61MvbjTeLw=",
+    "originContent": "I checked scrambled dumps of v1.3 against v1.4 and they matched. This means it's highly likely they have the same program.",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## P2L"
+  },
+  {
+    "row": 49,
+    "rowsha": "BjXHBtVuZ742lYFV6G8A9t8oRU43uLI513Bnw1BQ5G0=",
+    "originContent": "## P2L",
+    "translatedContent": "v1.6 Xbox에서 덤프함. Xyclops 리비전 A-A02. Intel 8051 코드를 포함하지만 기능이 알려지지 않은 많은 특수 기능 레지스터가 있음."
+  },
+  {
+    "row": 50,
+    "rowsha": "dvZDjF2tYvTy6oc3Tz5TKJqgPYQ6N7x0z9s6D+ctnSg=",
+    "originContent": "Dumped from a v1.6 Xbox. Xyclops revision A-A02. It contains Intel 8051 code but has lots of special function registers that have unknown function.",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "디버그 시리얼은 FC00에 있는 코드로 구동됨. 실행을 일시 중지하고, 데이터를 덤프하며, 레지스터/RAM에 쓸 수 있는 원시적인 디버거로 보임."
+  },
+  {
+    "row": 52,
+    "rowsha": "pADnkRtsQ7fbhvkg7+ny1Bh5xIcDvPR9HDKHN+/7o/o=",
+    "originContent": "The debug serial is powered by the code at FC00. Looks like a crude debugger that can pause execution, dump data, and write to registers/RAM.",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# Xyclops 덤핑"
+  },
+  {
+    "row": 54,
+    "rowsha": "Sv1dVJCdFQhY/b8Qh88bXNtxWIj8SqBsln88Lfx9oas=",
+    "originContent": "# Xyclops dumping",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Xyclops 칩에는 '디버그'용 3개의 핀이 있음: TXD(핀 64), RXD(핀 63), 그리고 DEBUG(핀 29). DEBUG 핀을 높게 설정하면 TX와 RX 핀에서 시리얼 포트가 활성화됨. 시리얼 속도는 9600 보드임."
+  },
+  {
+    "row": 56,
+    "rowsha": "PPnPlDJQYlwEvTlTMUT7aGgr4n4T9G2HvqRRTGw4Os4=",
+    "originContent": "The Xyclops chip has 3 pins for 'debug': TXD (pin 64), RXD (pin 63), and DEBUG (pin 29). Set the DEBUG pin high to enable the serial port on the TX and RX pins. The serial operates at 9600 baud.",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "프로토콜은 4바이트 명령어 기반이며, 일반적으로 `<명령>` `<주소 상위바이트>` `<주소 하위바이트>` `<무시>` 형식임."
+  },
+  {
+    "row": 58,
+    "rowsha": "aDbUWg6ba2r2jHJkbK9OhSZ/yZaf8pjXgqUz7dLI30U=",
+    "originContent": "The protocol is based on 4-byte commands which are typically in the format `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "명령 0x14는 한 번에 BIOS 데이터 64바이트를 덤프하고, 0x15는 한 번에 SMC 프로그램 데이터 64바이트를 덤프함. Xyclops에서 덤프한 P2L.bin 파일이 저장소에 포함되어 있음. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py)도 포함되어 있어 직접 덤프 가능함."
+  },
+  {
+    "row": 60,
+    "rowsha": "Bc8gjC3yH1ZslKO4yLkz6M/S7ygqko8CAS5pBU0nnmM=",
+    "originContent": "Command 0x14 dumps out 64 bytes of BIOS data at a time and 0x15 dumps 64 bytes of SMC program data at a time. A dump from Xyclops, P2L.bin, is included in the repo. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) is also included for you to dump your own machine.",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# PIC 덤핑 방법론"
+  },
+  {
+    "row": 62,
+    "rowsha": "snRA4OeinDa1e6nAFCvMXCLoQfMEDdqNZfYjejrt73I=",
+    "originContent": "# PIC dumping methodology",
+    "translatedContent": "전체 설명은 https://wiki.recessim.com/view/PIC_Burnout 에 있음."
+  },
+  {
+    "row": 63,
+    "rowsha": "KS99zZJx4aRb+uy2mZ89HHwNcBwxUOip84fHqvvjXqk=",
+    "originContent": "Full writeup at https://wiki.recessim.com/view/PIC_Burnout",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "PIC은 코드 보호가 활성화되어 있어 모든 데이터가 0000으로 읽힘. 일부 트릭을 사용해 스크램블된 데이터 출력을 얻었고, 희생 칩을 이용해 스크램블 알고리즘을 발견한 후, 일종의 익스플로잇으로 ROM 데이터를 변경해 일부 비트를 알려진 값으로 고정함. 그런 다음 여러 스크램블 덤프에서 필요한 정보를 추출해 원본 데이터를 재구성함."
+  },
+  {
+    "row": 65,
+    "rowsha": "hGSpj9qrfICX22U6fbUgluDsebH6p2wWqPaR3yvKG3Q=",
+    "originContent": "The PIC has its code protection enabled so all the data reads as 0000. I used some trick to get scrambled data output instead, discovered the scrambling algorithm using a sacrificial chip, and then used a kind of exploit to change the ROM data to fix some bits to known values. Then I can extract the required information from the multiple scrambled dumps to rebuild the original data.",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# PICProgrammer"
+  },
+  {
+    "row": 67,
+    "rowsha": "Bfj8XXgMR5w88vTdJxP5WWXAjcOlhA3/Aq4x+gL4SRg=",
+    "originContent": "# PICProgrammer",
+    "translatedContent": "PICProgrammer는 RP2040용 아두이노 프로젝트 중 하나로, 연구에 사용함. PIC에 ICSP(회로 내 시리얼 프로그래밍) 작업을 수행할 수 있는 간단한 명령줄 인터페이스를 제공함. 제조사 의도와 달리 다양한 작업을 수행할 수 있어 PICkit 같은 전용 프로그래머보다 선호됨."
+  },
+  {
+    "row": 68,
+    "rowsha": "bi26QfTVktXi7f3PiEh3691cBpCoGSHBe7d8cFTm+3Y=",
+    "originContent": "PICProgrammer is one of a few Arduino projects for the RP2040 that I used in my research. It provides a simple command-line interface to execute ICSP (in-circuit serial programming) operations on the PIC. This is favoured over using a purpose-build programmer such as the PICkit due to its flexibility and the option of doing things that the manufacturer didn't intend.",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "사용 전에 전자공학과 프로그래밍에 대해 충분히 이해하고, 명령의 동작을 잘 살펴본 후 실행해야 함."
+  },
+  {
+    "row": 70,
+    "rowsha": "/qxKgTKYbeCy4ws6Kt15qOBJRygW5rkpPMBSutshzVc=",
+    "originContent": "You should have a good understanding of electronics and programming before using this, and take a good look over what commands do before executing them.",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -117,6 +117,6 @@ CoDA is inspired by [CLIP](https://github.com/openai/CLIP) and [3DETR](https://g
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-17
 
 ---

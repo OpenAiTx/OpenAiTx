@@ -1,0 +1,454 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Xbox_SMC\nPIC16/Xyclops dumps from the original Xbox and IDA databases with some reverse engineering done.\n\n![Image of PIC16LC63A from an original Xbox](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)\n\n# Xyclops flashing (XycloMod)\nSee [the Xyclops directory and README](/Xyclops)\n\n# Dumps\nThe .bin file for each PIC dump has the bytes swapped for correct loading into IDA. So the first word of PIC memory is byte_0 + byte_1 << 8.\n\nThe .idb IDA databases have info about variable and some observations on the database notepad.\n\nSee this wiki page for a breakdown of the SMC versions: https://xboxdevwiki.net/Xboxen_Info\n\n## B2A\nDumped from a DVT3 Xbox. Same config word as P01. It also has the device ID burned in the config area as 0000 0000 000B 002A, unlike the production PICs.\n\nIt's completely missing the boot challenge.\n\n## D01\nDumped from XDK BETA 2 Xbox. Identical to P01 except for missing boot challenge. The function to compute the expected boot challenge response is still there, but never called.\n\n## DXF\nDumped from an XDK D2 debug kit. Very similar to D01 but with slightly different tray logic, overheat logic and boot logic. Boot challenge is missing in the same way as D01.\n\n## D2E\nDumped from a Tuscany (v1.6) dev kit. Xyclops chip is marked X01202-001, and is missing the A-A02 or A-B01 line that retail units have.\n\nThe debug serial code at FC00 matches the retail P2L dump. There is a strange pattern of data from 0x4000 to 0xFBFF.\n\n## P01\nDumped from a v1.0 Xbox. The config word is 0x86:\n- CP1:CP0 = 0 (Code Protection enabled for the whole memory)\n- BODEN = 0 (Brown-out Reset disabled)\n- ~PWRTE = 0 (Power-up Timer enabled)\n- WDTE = 1 (Watchdog Timer enabled)\n- FOSC1:FOSC0 = 2 (HS oscillator)\n\nA config value of 0x3FB6 is suitable for SMC clones so that they don't have code protection enabled.",
+    "ContentSha": "DV5hCTI14ZInQtF3PvAC/vs+hoNUEzOylJFMeCa/ekg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Xbox_SMC\nオリジナルXboxからのPIC16/XyclopsダンプおよびIDAデータベース、一部リバースエンジニアリング済み。\n\n![オリジナルXboxのPIC16LC63Aの画像](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)\n\n# Xyclopsのフラッシング（XycloMod）\n[XyclopsディレクトリとREADME](/Xyclops)を参照\n\n# ダンプ\n各PICダンプの.binファイルは、IDAで正しく読み込むためにバイトが入れ替わっています。したがって、PICメモリの最初のワードはbyte_0 + byte_1 << 8です。\n\n.idbのIDAデータベースには変数情報やデータベースのメモ帳にいくつかの観察結果が含まれています。\n\nSMCのバージョンの内訳については、このwikiページを参照してください：https://xboxdevwiki.net/Xboxen_Info\n\n## B2A\nDVT3 Xboxからダンプ。P01と同じ設定ワード。製品PICとは異なり、設定エリアに0000 0000 000B 002AというデバイスIDが焼き込まれています。\n\nブートチャレンジが完全にありません。\n\n## D01\nXDK BETA 2 Xboxからダンプ。P01と同一ですが、ブートチャレンジがありません。期待されるブートチャレンジ応答を計算する関数は存在しますが、呼び出されていません。\n\n## DXF\nXDK D2デバッグキットからダンプ。D01に非常に似ていますが、トレイロジック、過熱ロジック、ブートロジックにわずかな違いがあります。ブートチャレンジはD01と同様に欠落しています。\n\n## D2E\nTuscany (v1.6)開発キットからダンプ。XyclopsチップはX01202-001とマークされており、小売ユニットが持つA-A02またはA-B01ラインがありません。\n\nFC00のデバッグシリアルコードは小売のP2Lダンプと一致します。0x4000から0xFBFFにかけて奇妙なデータパターンがあります。\n\n## P01\nv1.0 Xboxからダンプ。設定ワードは0x86：\n- CP1:CP0 = 0（メモリ全体に対してコード保護が有効）\n- BODEN = 0（ブラウンアウトリセット無効）\n- ~PWRTE = 0（パワーアップタイマー有効）\n- WDTE = 1（ウォッチドッグタイマー有効）\n- FOSC1:FOSC0 = 2（HSオシレータ）\n\n設定値0x3FB6は、コード保護が有効にならないようにSMCクローンに適しています。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7Vjio4LmIBLUncP6Gggu7AfYiFJAXIGki8dyoQw9cJg=",
+        "originContent": "# Xbox_SMC",
+        "translatedContent": "# Xbox_SMC"
+      },
+      {
+        "row": 2,
+        "rowsha": "UWIFzDF7aZH11uerT5hK6BGcsYYnufNh5bjrb89U7Eo=",
+        "originContent": "PIC16/Xyclops dumps from the original Xbox and IDA databases with some reverse engineering done.",
+        "translatedContent": "オリジナルXboxからのPIC16/XyclopsダンプおよびIDAデータベース、一部リバースエンジニアリング済み。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "edB6L7ZtUCUb8rB8AVDRGzewZD+tA9aYYFdaJoxztxg=",
+        "originContent": "![Image of PIC16LC63A from an original Xbox](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)",
+        "translatedContent": "![オリジナルXboxのPIC16LC63Aの画像](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "SPdSzoZmeAOha+WEEVfqKrdepLlvB/rvWkiZ7utpy0Y=",
+        "originContent": "# Xyclops flashing (XycloMod)",
+        "translatedContent": "# Xyclopsのフラッシング（XycloMod）"
+      },
+      {
+        "row": 7,
+        "rowsha": "Okjlqxhq2laCmBXhSS7qwXz1Uu+BUZ+geQEieZEsnmU=",
+        "originContent": "See [the Xyclops directory and README](/Xyclops)",
+        "translatedContent": "[XyclopsディレクトリとREADME](/Xyclops)を参照"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "5Vyx49nxMKYF7QEzBlpGfvNAWEf5xbtvJE8A3sdYwUg=",
+        "originContent": "# Dumps",
+        "translatedContent": "# ダンプ"
+      },
+      {
+        "row": 10,
+        "rowsha": "sOhXc42ZURwSIk21QlGSDK5H5LpaV0pkxBUojpD+BVg=",
+        "originContent": "The .bin file for each PIC dump has the bytes swapped for correct loading into IDA. So the first word of PIC memory is byte_0 + byte_1 << 8.",
+        "translatedContent": "各PICダンプの.binファイルは、IDAで正しく読み込むためにバイトが入れ替わっています。したがって、PICメモリの最初のワードはbyte_0 + byte_1 << 8です。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "D3YLn8foWRg1NB/FwJ7AVR5unP6AErLsYFqk9ueJijA=",
+        "originContent": "The .idb IDA databases have info about variable and some observations on the database notepad.",
+        "translatedContent": ".idbのIDAデータベースには変数情報やデータベースのメモ帳にいくつかの観察結果が含まれています。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "BCAYydA+LxX+51Jl/Y/OeNJFvcehbtPRQ5IyjO2Vs84=",
+        "originContent": "See this wiki page for a breakdown of the SMC versions: https://xboxdevwiki.net/Xboxen_Info",
+        "translatedContent": "SMCのバージョンの内訳については、このwikiページを参照してください：https://xboxdevwiki.net/Xboxen_Info"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "3Lg0KWrz2Uxr6a+xtN3rsn2I/asrBauael0Jj5u5xSU=",
+        "originContent": "## B2A",
+        "translatedContent": "## B2A"
+      },
+      {
+        "row": 17,
+        "rowsha": "/5nNnZDlioG3+7ogXzhyfo7iNL93Am/a5pNjK5duJ58=",
+        "originContent": "Dumped from a DVT3 Xbox. Same config word as P01. It also has the device ID burned in the config area as 0000 0000 000B 002A, unlike the production PICs.",
+        "translatedContent": "DVT3 Xboxからダンプ。P01と同じ設定ワード。製品PICとは異なり、設定エリアに0000 0000 000B 002AというデバイスIDが焼き込まれています。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "dFeGepqbZqEM0LIUHKJIubCkEqd7z14iFM4d/By3RMc=",
+        "originContent": "It's completely missing the boot challenge.",
+        "translatedContent": "ブートチャレンジが完全にありません。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "g9ENDupbzvBEgk66wjm243hyg5wHhYkpQFDlCwHDrB8=",
+        "originContent": "## D01",
+        "translatedContent": "## D01"
+      },
+      {
+        "row": 22,
+        "rowsha": "2k9KCOmOs7m1H/kv222a6Hx2jVgSqY/2EGZoshKgbpg=",
+        "originContent": "Dumped from XDK BETA 2 Xbox. Identical to P01 except for missing boot challenge. The function to compute the expected boot challenge response is still there, but never called.",
+        "translatedContent": "XDK BETA 2 Xboxからダンプ。P01と同一ですが、ブートチャレンジがありません。期待されるブートチャレンジ応答を計算する関数は存在しますが、呼び出されていません。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "0KESs1Ft7gXJn+95XfhUrh5U/dWqmOU9B/d1sMqLIKA=",
+        "originContent": "## DXF",
+        "translatedContent": "## DXF"
+      },
+      {
+        "row": 25,
+        "rowsha": "DpRz71tOUeUL0f8rdEH2D2TrsSsxVOcOntbwOnSx96c=",
+        "originContent": "Dumped from an XDK D2 debug kit. Very similar to D01 but with slightly different tray logic, overheat logic and boot logic. Boot challenge is missing in the same way as D01.",
+        "translatedContent": "XDK D2デバッグキットからダンプ。D01に非常に似ていますが、トレイロジック、過熱ロジック、ブートロジックにわずかな違いがあります。ブートチャレンジはD01と同様に欠落しています。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "Qm+Dc2rNI+zTyzq68FF9bSxgb1mYJsLiVPvCjy12sHo=",
+        "originContent": "## D2E",
+        "translatedContent": "## D2E"
+      },
+      {
+        "row": 28,
+        "rowsha": "0dcrro0/jmBg3ptLe8F3IXsA7nIjV0KqxAlSI0MpdrY=",
+        "originContent": "Dumped from a Tuscany (v1.6) dev kit. Xyclops chip is marked X01202-001, and is missing the A-A02 or A-B01 line that retail units have.",
+        "translatedContent": "Tuscany (v1.6)開発キットからダンプ。XyclopsチップはX01202-001とマークされており、小売ユニットが持つA-A02またはA-B01ラインがありません。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "unoySSnigQWg4eVc5eQ24jiUl06AOumHMxSHAtKQIfk=",
+        "originContent": "The debug serial code at FC00 matches the retail P2L dump. There is a strange pattern of data from 0x4000 to 0xFBFF.",
+        "translatedContent": "FC00のデバッグシリアルコードは小売のP2Lダンプと一致します。0x4000から0xFBFFにかけて奇妙なデータパターンがあります。"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "vYCzF0U2NMm1zvNU4rWfES8YHAw99zNUgVnHb/gylB4=",
+        "originContent": "## P01",
+        "translatedContent": "## P01"
+      },
+      {
+        "row": 33,
+        "rowsha": "lhFP7Htb8Cx1N3WJIyZItmmr+06mLEq65rpMUISKeOQ=",
+        "originContent": "Dumped from a v1.0 Xbox. The config word is 0x86:",
+        "translatedContent": "v1.0 Xboxからダンプ。設定ワードは0x86："
+      },
+      {
+        "row": 34,
+        "rowsha": "YCBl3i9uDRuIgF+EW4T9VVMhfvqCDN46BId71aQ1x8M=",
+        "originContent": "- CP1:CP0 = 0 (Code Protection enabled for the whole memory)",
+        "translatedContent": "- CP1:CP0 = 0（メモリ全体に対してコード保護が有効）"
+      },
+      {
+        "row": 35,
+        "rowsha": "kKSd6K3kGrxnKSXLfYvOq6QLQ9VXoIchtgESuHnSr8o=",
+        "originContent": "- BODEN = 0 (Brown-out Reset disabled)",
+        "translatedContent": "- BODEN = 0（ブラウンアウトリセット無効）"
+      },
+      {
+        "row": 36,
+        "rowsha": "QjS+uwdrracDT0bg9U929U+2p44SfcLwv9IMFHvxOFM=",
+        "originContent": "- ~PWRTE = 0 (Power-up Timer enabled)",
+        "translatedContent": "- ~PWRTE = 0（パワーアップタイマー有効）"
+      },
+      {
+        "row": 37,
+        "rowsha": "Tv9Y5mfeFnvXoaQk2XcjjENaHOYhzzC/Tnnl8acqLww=",
+        "originContent": "- WDTE = 1 (Watchdog Timer enabled)",
+        "translatedContent": "- WDTE = 1（ウォッチドッグタイマー有効）"
+      },
+      {
+        "row": 38,
+        "rowsha": "lZoLVVPnG9bmz+WfyIkU57GNc3ZylqicqI19DKZiLv8=",
+        "originContent": "- FOSC1:FOSC0 = 2 (HS oscillator)",
+        "translatedContent": "- FOSC1:FOSC0 = 2（HSオシレータ）"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "bhx9nDl8GRYzqvEiKwaW8iovltN5q2NkYKez4BPQ3S4=",
+        "originContent": "A config value of 0x3FB6 is suitable for SMC clones so that they don't have code protection enabled.",
+        "translatedContent": "設定値0x3FB6は、コード保護が有効にならないようにSMCクローンに適しています。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n## P11\nDumped from a v1.3 Xbox. Same config word as P01.\n\nThere are a few small changes in P11 versus P01 including an extra SMBus command (write 0x22), different LED priorities, and more relaxed timings for boot.\n\nI checked scrambled dumps of v1.3 against v1.4 and they matched. This means it's highly likely they have the same program.\n\n## P2L\nDumped from a v1.6 Xbox. Xyclops revision A-A02. It contains Intel 8051 code but has lots of special function registers that have unknown function.\n\nThe debug serial is powered by the code at FC00. Looks like a crude debugger that can pause execution, dump data, and write to registers/RAM.\n\n# Xyclops dumping\n\nThe Xyclops chip has 3 pins for 'debug': TXD (pin 64), RXD (pin 63), and DEBUG (pin 29). Set the DEBUG pin high to enable the serial port on the TX and RX pins. The serial operates at 9600 baud.\n\nThe protocol is based on 4-byte commands which are typically in the format `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`\n\nCommand 0x14 dumps out 64 bytes of BIOS data at a time and 0x15 dumps 64 bytes of SMC program data at a time. A dump from Xyclops, P2L.bin, is included in the repo. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) is also included for you to dump your own machine.\n\n# PIC dumping methodology\nFull writeup at https://wiki.recessim.com/view/PIC_Burnout\n\nThe PIC has its code protection enabled so all the data reads as 0000. I used some trick to get scrambled data output instead, discovered the scrambling algorithm using a sacrificial chip, and then used a kind of exploit to change the ROM data to fix some bits to known values. Then I can extract the required information from the multiple scrambled dumps to rebuild the original data.\n\n# PICProgrammer\nPICProgrammer is one of a few Arduino projects for the RP2040 that I used in my research. It provides a simple command-line interface to execute ICSP (in-circuit serial programming) operations on the PIC. This is favoured over using a purpose-build programmer such as the PICkit due to its flexibility and the option of doing things that the manufacturer didn't intend.\n\nYou should have a good understanding of electronics and programming before using this, and take a good look over what commands do before executing them.\n",
+    "ContentSha": "Siav+feE8EANtyCLjyACKDTB7TBOhRiJ1u35LHICkG4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## P11\nv1.3 Xboxからダンプ。P01と同じ設定ワード。\n\nP01に比べてP11にはいくつか小さな変更があり、追加のSMBusコマンド（0x22を書き込み）、異なるLED優先度、ブートタイミングの緩和が含まれる。\n\nv1.3のスクランブルダンプをv1.4と比較したところ一致した。これは同じプログラムである可能性が非常に高いことを意味する。\n\n## P2L\nv1.6 Xboxからダンプ。XyclopsリビジョンA-A02。Intel 8051コードを含むが、多くの特殊機能レジスタがあり、その機能は不明。\n\nデバッグシリアルはFC00のコードによって駆動されている。実行を一時停止し、データをダンプし、レジスタ/RAMに書き込むことができる粗雑なデバッガーのようだ。\n\n# Xyclopsダンプ\n\nXyclopsチップにはデバッグ用の3つのピンがある：TXD（ピン64）、RXD（ピン63）、DEBUG（ピン29）。DEBUGピンを高に設定すると、TXおよびRXピンでシリアルポートが有効になる。シリアルは9600ボーで動作。\n\nプロトコルは通常 `<cmd>` `<アドレス上位バイト>` `<アドレス下位バイト>` `<無視>` の形式の4バイトコマンドに基づいている。\n\nコマンド0x14はBIOSデータを64バイトずつダンプし、0x15はSMCプログラムデータを64バイトずつダンプする。XyclopsからのダンプであるP2L.binがリポジトリに含まれている。自身のマシンをダンプするための[xyclops_dumper.py](/Xyclops/xyclops_dumper.py)も含まれている。\n\n# PICダンプ方法論\n詳細は https://wiki.recessim.com/view/PIC_Burnout にて。\n\nPICはコード保護が有効なのでデータはすべて0000として読み取られる。私はスクランブルされたデータ出力を得るためのトリックを使い、犠牲チップを用いてスクランブルアルゴリズムを発見し、その後、一種のエクスプロイトを使ってROMデータの一部ビットを既知値に固定した。これにより複数のスクランブルダンプから必要な情報を抽出し、元のデータを再構築できる。\n\n# PICProgrammer\nPICProgrammerはRP2040用のいくつかのArduinoプロジェクトのうちの一つで、私の研究で使用した。PICに対してICSP（インサーキットシリアルプログラミング）操作を実行する簡単なコマンドラインインターフェースを提供する。製造元が意図しなかった操作も可能な柔軟性のため、PICkitなどの専用プログラマより好まれる。\n\n使用前に電子工学とプログラミングの十分な知識を持ち、実行するコマンドの内容をよく確認するべきである。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## P11"
+      },
+      {
+        "row": 2,
+        "rowsha": "WAajUMytPQJGen1LMHqK0ynUL6I9CB7wSt3iNzJCNTw=",
+        "originContent": "## P11",
+        "translatedContent": "v1.3 Xboxからダンプ。P01と同じ設定ワード。"
+      },
+      {
+        "row": 3,
+        "rowsha": "WWu/J091qRsMQWwDEfCg3FrFjyRb16jQsTqoR8+XSSs=",
+        "originContent": "Dumped from a v1.3 Xbox. Same config word as P01.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "P01に比べてP11にはいくつか小さな変更があり、追加のSMBusコマンド（0x22を書き込み）、異なるLED優先度、ブートタイミングの緩和が含まれる。"
+      },
+      {
+        "row": 5,
+        "rowsha": "lAKSNMXXPvmQFFMfg5L4G05OZ27A58Jj8m7YG7dcggY=",
+        "originContent": "There are a few small changes in P11 versus P01 including an extra SMBus command (write 0x22), different LED priorities, and more relaxed timings for boot.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "v1.3のスクランブルダンプをv1.4と比較したところ一致した。これは同じプログラムである可能性が非常に高いことを意味する。"
+      },
+      {
+        "row": 7,
+        "rowsha": "TYerbbTwT6Xs1VIWM/fdhS76MYin21vOs61MvbjTeLw=",
+        "originContent": "I checked scrambled dumps of v1.3 against v1.4 and they matched. This means it's highly likely they have the same program.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## P2L"
+      },
+      {
+        "row": 9,
+        "rowsha": "BjXHBtVuZ742lYFV6G8A9t8oRU43uLI513Bnw1BQ5G0=",
+        "originContent": "## P2L",
+        "translatedContent": "v1.6 Xboxからダンプ。XyclopsリビジョンA-A02。Intel 8051コードを含むが、多くの特殊機能レジスタがあり、その機能は不明。"
+      },
+      {
+        "row": 10,
+        "rowsha": "dvZDjF2tYvTy6oc3Tz5TKJqgPYQ6N7x0z9s6D+ctnSg=",
+        "originContent": "Dumped from a v1.6 Xbox. Xyclops revision A-A02. It contains Intel 8051 code but has lots of special function registers that have unknown function.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "デバッグシリアルはFC00のコードによって駆動されている。実行を一時停止し、データをダンプし、レジスタ/RAMに書き込むことができる粗雑なデバッガーのようだ。"
+      },
+      {
+        "row": 12,
+        "rowsha": "pADnkRtsQ7fbhvkg7+ny1Bh5xIcDvPR9HDKHN+/7o/o=",
+        "originContent": "The debug serial is powered by the code at FC00. Looks like a crude debugger that can pause execution, dump data, and write to registers/RAM.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# Xyclopsダンプ"
+      },
+      {
+        "row": 14,
+        "rowsha": "Sv1dVJCdFQhY/b8Qh88bXNtxWIj8SqBsln88Lfx9oas=",
+        "originContent": "# Xyclops dumping",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Xyclopsチップにはデバッグ用の3つのピンがある：TXD（ピン64）、RXD（ピン63）、DEBUG（ピン29）。DEBUGピンを高に設定すると、TXおよびRXピンでシリアルポートが有効になる。シリアルは9600ボーで動作。"
+      },
+      {
+        "row": 16,
+        "rowsha": "PPnPlDJQYlwEvTlTMUT7aGgr4n4T9G2HvqRRTGw4Os4=",
+        "originContent": "The Xyclops chip has 3 pins for 'debug': TXD (pin 64), RXD (pin 63), and DEBUG (pin 29). Set the DEBUG pin high to enable the serial port on the TX and RX pins. The serial operates at 9600 baud.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "プロトコルは通常 `<cmd>` `<アドレス上位バイト>` `<アドレス下位バイト>` `<無視>` の形式の4バイトコマンドに基づいている。"
+      },
+      {
+        "row": 18,
+        "rowsha": "aDbUWg6ba2r2jHJkbK9OhSZ/yZaf8pjXgqUz7dLI30U=",
+        "originContent": "The protocol is based on 4-byte commands which are typically in the format `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "コマンド0x14はBIOSデータを64バイトずつダンプし、0x15はSMCプログラムデータを64バイトずつダンプする。XyclopsからのダンプであるP2L.binがリポジトリに含まれている。自身のマシンをダンプするための[xyclops_dumper.py](/Xyclops/xyclops_dumper.py)も含まれている。"
+      },
+      {
+        "row": 20,
+        "rowsha": "Bc8gjC3yH1ZslKO4yLkz6M/S7ygqko8CAS5pBU0nnmM=",
+        "originContent": "Command 0x14 dumps out 64 bytes of BIOS data at a time and 0x15 dumps 64 bytes of SMC program data at a time. A dump from Xyclops, P2L.bin, is included in the repo. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) is also included for you to dump your own machine.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# PICダンプ方法論"
+      },
+      {
+        "row": 22,
+        "rowsha": "snRA4OeinDa1e6nAFCvMXCLoQfMEDdqNZfYjejrt73I=",
+        "originContent": "# PIC dumping methodology",
+        "translatedContent": "詳細は https://wiki.recessim.com/view/PIC_Burnout にて。"
+      },
+      {
+        "row": 23,
+        "rowsha": "KS99zZJx4aRb+uy2mZ89HHwNcBwxUOip84fHqvvjXqk=",
+        "originContent": "Full writeup at https://wiki.recessim.com/view/PIC_Burnout",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "PICはコード保護が有効なのでデータはすべて0000として読み取られる。私はスクランブルされたデータ出力を得るためのトリックを使い、犠牲チップを用いてスクランブルアルゴリズムを発見し、その後、一種のエクスプロイトを使ってROMデータの一部ビットを既知値に固定した。これにより複数のスクランブルダンプから必要な情報を抽出し、元のデータを再構築できる。"
+      },
+      {
+        "row": 25,
+        "rowsha": "hGSpj9qrfICX22U6fbUgluDsebH6p2wWqPaR3yvKG3Q=",
+        "originContent": "The PIC has its code protection enabled so all the data reads as 0000. I used some trick to get scrambled data output instead, discovered the scrambling algorithm using a sacrificial chip, and then used a kind of exploit to change the ROM data to fix some bits to known values. Then I can extract the required information from the multiple scrambled dumps to rebuild the original data.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# PICProgrammer"
+      },
+      {
+        "row": 27,
+        "rowsha": "Bfj8XXgMR5w88vTdJxP5WWXAjcOlhA3/Aq4x+gL4SRg=",
+        "originContent": "# PICProgrammer",
+        "translatedContent": "PICProgrammerはRP2040用のいくつかのArduinoプロジェクトのうちの一つで、私の研究で使用した。PICに対してICSP（インサーキットシリアルプログラミング）操作を実行する簡単なコマンドラインインターフェースを提供する。製造元が意図しなかった操作も可能な柔軟性のため、PICkitなどの専用プログラマより好まれる。"
+      },
+      {
+        "row": 28,
+        "rowsha": "bi26QfTVktXi7f3PiEh3691cBpCoGSHBe7d8cFTm+3Y=",
+        "originContent": "PICProgrammer is one of a few Arduino projects for the RP2040 that I used in my research. It provides a simple command-line interface to execute ICSP (in-circuit serial programming) operations on the PIC. This is favoured over using a purpose-build programmer such as the PICkit due to its flexibility and the option of doing things that the manufacturer didn't intend.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "使用前に電子工学とプログラミングの十分な知識を持ち、実行するコマンドの内容をよく確認するべきである。"
+      },
+      {
+        "row": 30,
+        "rowsha": "/qxKgTKYbeCy4ws6Kt15qOBJRygW5rkpPMBSutshzVc=",
+        "originContent": "You should have a good understanding of electronics and programming before using this, and take a good look over what commands do before executing them.",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

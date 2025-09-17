@@ -1,0 +1,428 @@
+[
+  {
+    "row": 1,
+    "rowsha": "7Vjio4LmIBLUncP6Gggu7AfYiFJAXIGki8dyoQw9cJg=",
+    "originContent": "# Xbox_SMC",
+    "translatedContent": "# Xbox_SMC"
+  },
+  {
+    "row": 2,
+    "rowsha": "UWIFzDF7aZH11uerT5hK6BGcsYYnufNh5bjrb89U7Eo=",
+    "originContent": "PIC16/Xyclops dumps from the original Xbox and IDA databases with some reverse engineering done.",
+    "translatedContent": "来自原始Xbox的PIC16/Xyclops转储和IDA数据库，进行了部分逆向工程。"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "edB6L7ZtUCUb8rB8AVDRGzewZD+tA9aYYFdaJoxztxg=",
+    "originContent": "![Image of PIC16LC63A from an original Xbox](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)",
+    "translatedContent": "![原始Xbox的PIC16LC63A图片](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "SPdSzoZmeAOha+WEEVfqKrdepLlvB/rvWkiZ7utpy0Y=",
+    "originContent": "# Xyclops flashing (XycloMod)",
+    "translatedContent": "# Xyclops刷写（XycloMod）"
+  },
+  {
+    "row": 7,
+    "rowsha": "Okjlqxhq2laCmBXhSS7qwXz1Uu+BUZ+geQEieZEsnmU=",
+    "originContent": "See [the Xyclops directory and README](/Xyclops)",
+    "translatedContent": "请参阅[Xyclops目录和README](/Xyclops)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "5Vyx49nxMKYF7QEzBlpGfvNAWEf5xbtvJE8A3sdYwUg=",
+    "originContent": "# Dumps",
+    "translatedContent": "# 转储"
+  },
+  {
+    "row": 10,
+    "rowsha": "sOhXc42ZURwSIk21QlGSDK5H5LpaV0pkxBUojpD+BVg=",
+    "originContent": "The .bin file for each PIC dump has the bytes swapped for correct loading into IDA. So the first word of PIC memory is byte_0 + byte_1 << 8.",
+    "translatedContent": "每个PIC转储的.bin文件中的字节已交换，以便正确加载到IDA中。因此PIC内存的第一个字是byte_0 + byte_1 << 8。"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "D3YLn8foWRg1NB/FwJ7AVR5unP6AErLsYFqk9ueJijA=",
+    "originContent": "The .idb IDA databases have info about variable and some observations on the database notepad.",
+    "translatedContent": ".idb IDA数据库包含有关变量的信息以及数据库记事本中的一些观察。"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "BCAYydA+LxX+51Jl/Y/OeNJFvcehbtPRQ5IyjO2Vs84=",
+    "originContent": "See this wiki page for a breakdown of the SMC versions: https://xboxdevwiki.net/Xboxen_Info",
+    "translatedContent": "有关SMC版本的详细说明，请参阅此wiki页面：https://xboxdevwiki.net/Xboxen_Info"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "3Lg0KWrz2Uxr6a+xtN3rsn2I/asrBauael0Jj5u5xSU=",
+    "originContent": "## B2A",
+    "translatedContent": "## B2A"
+  },
+  {
+    "row": 17,
+    "rowsha": "/5nNnZDlioG3+7ogXzhyfo7iNL93Am/a5pNjK5duJ58=",
+    "originContent": "Dumped from a DVT3 Xbox. Same config word as P01. It also has the device ID burned in the config area as 0000 0000 000B 002A, unlike the production PICs.",
+    "translatedContent": "从DVT3 Xbox转储。配置字与P01相同。它还在配置区域烧录了设备ID，格式为0000 0000 000B 002A，与生产用PIC不同。"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "dFeGepqbZqEM0LIUHKJIubCkEqd7z14iFM4d/By3RMc=",
+    "originContent": "It's completely missing the boot challenge.",
+    "translatedContent": "完全缺少启动挑战。"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "g9ENDupbzvBEgk66wjm243hyg5wHhYkpQFDlCwHDrB8=",
+    "originContent": "## D01",
+    "translatedContent": "## D01"
+  },
+  {
+    "row": 22,
+    "rowsha": "2k9KCOmOs7m1H/kv222a6Hx2jVgSqY/2EGZoshKgbpg=",
+    "originContent": "Dumped from XDK BETA 2 Xbox. Identical to P01 except for missing boot challenge. The function to compute the expected boot challenge response is still there, but never called.",
+    "translatedContent": "从XDK BETA 2 Xbox转储。与P01相同，但缺少启动挑战。计算预期启动挑战响应的函数仍然存在，但从未被调用。"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "0KESs1Ft7gXJn+95XfhUrh5U/dWqmOU9B/d1sMqLIKA=",
+    "originContent": "## DXF",
+    "translatedContent": "## DXF"
+  },
+  {
+    "row": 25,
+    "rowsha": "DpRz71tOUeUL0f8rdEH2D2TrsSsxVOcOntbwOnSx96c=",
+    "originContent": "Dumped from an XDK D2 debug kit. Very similar to D01 but with slightly different tray logic, overheat logic and boot logic. Boot challenge is missing in the same way as D01.",
+    "translatedContent": "从XDK D2调试套件转储。与D01非常相似，但托盘逻辑、过热逻辑和启动逻辑略有不同。启动挑战以与D01相同的方式缺失。"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "Qm+Dc2rNI+zTyzq68FF9bSxgb1mYJsLiVPvCjy12sHo=",
+    "originContent": "## D2E",
+    "translatedContent": "## D2E"
+  },
+  {
+    "row": 28,
+    "rowsha": "0dcrro0/jmBg3ptLe8F3IXsA7nIjV0KqxAlSI0MpdrY=",
+    "originContent": "Dumped from a Tuscany (v1.6) dev kit. Xyclops chip is marked X01202-001, and is missing the A-A02 or A-B01 line that retail units have.",
+    "translatedContent": "从Tuscany（v1.6）开发套件转储。Xyclops芯片标记为X01202-001，缺少零售单元所具有的A-A02或A-B01线路。"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "unoySSnigQWg4eVc5eQ24jiUl06AOumHMxSHAtKQIfk=",
+    "originContent": "The debug serial code at FC00 matches the retail P2L dump. There is a strange pattern of data from 0x4000 to 0xFBFF.",
+    "translatedContent": "FC00处的调试串行代码与零售P2L转储匹配。0x4000到0xFBFF之间存在奇怪的数据模式。"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "vYCzF0U2NMm1zvNU4rWfES8YHAw99zNUgVnHb/gylB4=",
+    "originContent": "## P01",
+    "translatedContent": "## P01"
+  },
+  {
+    "row": 33,
+    "rowsha": "lhFP7Htb8Cx1N3WJIyZItmmr+06mLEq65rpMUISKeOQ=",
+    "originContent": "Dumped from a v1.0 Xbox. The config word is 0x86:",
+    "translatedContent": "从v1.0 Xbox转储。配置字为0x86："
+  },
+  {
+    "row": 34,
+    "rowsha": "YCBl3i9uDRuIgF+EW4T9VVMhfvqCDN46BId71aQ1x8M=",
+    "originContent": "- CP1:CP0 = 0 (Code Protection enabled for the whole memory)",
+    "translatedContent": "- CP1:CP0 = 0（整个内存启用代码保护）"
+  },
+  {
+    "row": 35,
+    "rowsha": "kKSd6K3kGrxnKSXLfYvOq6QLQ9VXoIchtgESuHnSr8o=",
+    "originContent": "- BODEN = 0 (Brown-out Reset disabled)",
+    "translatedContent": "- BODEN = 0（棕色掉电复位禁用）"
+  },
+  {
+    "row": 36,
+    "rowsha": "QjS+uwdrracDT0bg9U929U+2p44SfcLwv9IMFHvxOFM=",
+    "originContent": "- ~PWRTE = 0 (Power-up Timer enabled)",
+    "translatedContent": "- ~PWRTE = 0（启用上电计时器）"
+  },
+  {
+    "row": 37,
+    "rowsha": "Tv9Y5mfeFnvXoaQk2XcjjENaHOYhzzC/Tnnl8acqLww=",
+    "originContent": "- WDTE = 1 (Watchdog Timer enabled)",
+    "translatedContent": "- WDTE = 1（启用看门狗定时器）"
+  },
+  {
+    "row": 38,
+    "rowsha": "lZoLVVPnG9bmz+WfyIkU57GNc3ZylqicqI19DKZiLv8=",
+    "originContent": "- FOSC1:FOSC0 = 2 (HS oscillator)",
+    "translatedContent": "- FOSC1:FOSC0 = 2（HS振荡器）"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "bhx9nDl8GRYzqvEiKwaW8iovltN5q2NkYKez4BPQ3S4=",
+    "originContent": "A config value of 0x3FB6 is suitable for SMC clones so that they don't have code protection enabled.",
+    "translatedContent": "配置值0x3FB6适用于SMC克隆，以使其不启用代码保护。"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## P11"
+  },
+  {
+    "row": 42,
+    "rowsha": "WAajUMytPQJGen1LMHqK0ynUL6I9CB7wSt3iNzJCNTw=",
+    "originContent": "## P11",
+    "translatedContent": "从v1.3 Xbox中导出。与P01使用相同的配置字。"
+  },
+  {
+    "row": 43,
+    "rowsha": "WWu/J091qRsMQWwDEfCg3FrFjyRb16jQsTqoR8+XSSs=",
+    "originContent": "Dumped from a v1.3 Xbox. Same config word as P01.",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "P11与P01相比有一些小变化，包括额外的SMBus命令（写0x22）、不同的LED优先级和更宽松的启动时序。"
+  },
+  {
+    "row": 45,
+    "rowsha": "lAKSNMXXPvmQFFMfg5L4G05OZ27A58Jj8m7YG7dcggY=",
+    "originContent": "There are a few small changes in P11 versus P01 including an extra SMBus command (write 0x22), different LED priorities, and more relaxed timings for boot.",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "我对比了v1.3和v1.4的加密转储，它们匹配。这意味着它们很可能使用相同的程序。"
+  },
+  {
+    "row": 47,
+    "rowsha": "TYerbbTwT6Xs1VIWM/fdhS76MYin21vOs61MvbjTeLw=",
+    "originContent": "I checked scrambled dumps of v1.3 against v1.4 and they matched. This means it's highly likely they have the same program.",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## P2L"
+  },
+  {
+    "row": 49,
+    "rowsha": "BjXHBtVuZ742lYFV6G8A9t8oRU43uLI513Bnw1BQ5G0=",
+    "originContent": "## P2L",
+    "translatedContent": "从v1.6 Xbox中导出。Xyclops修订版A-A02。它包含Intel 8051代码，但有许多功能未知的特殊功能寄存器。"
+  },
+  {
+    "row": 50,
+    "rowsha": "dvZDjF2tYvTy6oc3Tz5TKJqgPYQ6N7x0z9s6D+ctnSg=",
+    "originContent": "Dumped from a v1.6 Xbox. Xyclops revision A-A02. It contains Intel 8051 code but has lots of special function registers that have unknown function.",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "调试串口由FC00处的代码驱动。看起来像一个粗糙的调试器，可以暂停执行、转储数据以及写入寄存器/内存。"
+  },
+  {
+    "row": 52,
+    "rowsha": "pADnkRtsQ7fbhvkg7+ny1Bh5xIcDvPR9HDKHN+/7o/o=",
+    "originContent": "The debug serial is powered by the code at FC00. Looks like a crude debugger that can pause execution, dump data, and write to registers/RAM.",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# Xyclops转储"
+  },
+  {
+    "row": 54,
+    "rowsha": "Sv1dVJCdFQhY/b8Qh88bXNtxWIj8SqBsln88Lfx9oas=",
+    "originContent": "# Xyclops dumping",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Xyclops芯片有3个“调试”引脚：TXD（引脚64）、RXD（引脚63）和DEBUG（引脚29）。将DEBUG引脚拉高以启用TX和RX引脚上的串口。串口速率为9600波特。"
+  },
+  {
+    "row": 56,
+    "rowsha": "PPnPlDJQYlwEvTlTMUT7aGgr4n4T9G2HvqRRTGw4Os4=",
+    "originContent": "The Xyclops chip has 3 pins for 'debug': TXD (pin 64), RXD (pin 63), and DEBUG (pin 29). Set the DEBUG pin high to enable the serial port on the TX and RX pins. The serial operates at 9600 baud.",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "协议基于4字节命令，格式通常为`<命令>` `<地址高字节>` `<地址低字节>` `<无关字节>`"
+  },
+  {
+    "row": 58,
+    "rowsha": "aDbUWg6ba2r2jHJkbK9OhSZ/yZaf8pjXgqUz7dLI30U=",
+    "originContent": "The protocol is based on 4-byte commands which are typically in the format `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "命令0x14一次转储64字节BIOS数据，命令0x15一次转储64字节SMC程序数据。Xyclops的转储文件P2L.bin包含在仓库中。[xyclops_dumper.py](/Xyclops/xyclops_dumper.py)也包含在内，供你转储自己的机器。"
+  },
+  {
+    "row": 60,
+    "rowsha": "Bc8gjC3yH1ZslKO4yLkz6M/S7ygqko8CAS5pBU0nnmM=",
+    "originContent": "Command 0x14 dumps out 64 bytes of BIOS data at a time and 0x15 dumps 64 bytes of SMC program data at a time. A dump from Xyclops, P2L.bin, is included in the repo. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) is also included for you to dump your own machine.",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# PIC转储方法"
+  },
+  {
+    "row": 62,
+    "rowsha": "snRA4OeinDa1e6nAFCvMXCLoQfMEDdqNZfYjejrt73I=",
+    "originContent": "# PIC dumping methodology",
+    "translatedContent": "完整说明见 https://wiki.recessim.com/view/PIC_Burnout"
+  },
+  {
+    "row": 63,
+    "rowsha": "KS99zZJx4aRb+uy2mZ89HHwNcBwxUOip84fHqvvjXqk=",
+    "originContent": "Full writeup at https://wiki.recessim.com/view/PIC_Burnout",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "PIC启用了代码保护，所以所有数据读取均为0000。我使用了一些技巧获得了加密数据输出，通过牺牲芯片发现了加密算法，然后使用一种漏洞修改ROM数据，将某些位固定为已知值。之后，我可以从多次加密转储中提取所需信息，重建原始数据。"
+  },
+  {
+    "row": 65,
+    "rowsha": "hGSpj9qrfICX22U6fbUgluDsebH6p2wWqPaR3yvKG3Q=",
+    "originContent": "The PIC has its code protection enabled so all the data reads as 0000. I used some trick to get scrambled data output instead, discovered the scrambling algorithm using a sacrificial chip, and then used a kind of exploit to change the ROM data to fix some bits to known values. Then I can extract the required information from the multiple scrambled dumps to rebuild the original data.",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# PICProgrammer"
+  },
+  {
+    "row": 67,
+    "rowsha": "Bfj8XXgMR5w88vTdJxP5WWXAjcOlhA3/Aq4x+gL4SRg=",
+    "originContent": "# PICProgrammer",
+    "translatedContent": "PICProgrammer是我研究中使用的几个基于RP2040的Arduino项目之一。它提供了一个简单的命令行界面，用于执行PIC的ICSP（在线串行编程）操作。相比专用编程器如PICkit，它更灵活，且可以做制造商未预期的操作。"
+  },
+  {
+    "row": 68,
+    "rowsha": "bi26QfTVktXi7f3PiEh3691cBpCoGSHBe7d8cFTm+3Y=",
+    "originContent": "PICProgrammer is one of a few Arduino projects for the RP2040 that I used in my research. It provides a simple command-line interface to execute ICSP (in-circuit serial programming) operations on the PIC. This is favoured over using a purpose-build programmer such as the PICkit due to its flexibility and the option of doing things that the manufacturer didn't intend.",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "使用前应具备良好的电子和编程基础，并仔细了解各命令的功能后再执行。"
+  },
+  {
+    "row": 70,
+    "rowsha": "/qxKgTKYbeCy4ws6Kt15qOBJRygW5rkpPMBSutshzVc=",
+    "originContent": "You should have a good understanding of electronics and programming before using this, and take a good look over what commands do before executing them.",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

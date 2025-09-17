@@ -117,6 +117,6 @@ CoDA는 [CLIP](https://github.com/openai/CLIP)과 [3DETR](https://github.com/fac
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-17
 
 ---
